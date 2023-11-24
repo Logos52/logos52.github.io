@@ -1,6 +1,6 @@
 ---
 import BaseHead from '../../components/BaseHead.astro';
-import Header from '../../components/Header.astro';
+import Header from '../../components/Header2.astro';
 import Footer from '../../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import { getCollection } from 'astro:content';
@@ -16,71 +16,20 @@ const posts = (await getCollection('blog')).sort(
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
-			main {
-				width: 960px;
-			}
 			ul {
 				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			li {
-                display: flex; /* Align items in a row */
-                align-items: baseline; /* Align items vertically */
-  
+				padding: unset;
 			}
 			ul li {
-				width: calc(50% - 1rem);
+				display: flex;
 			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
+			ul li time {
+				flex: 0 0 130px;
+				font-style: italic;
+				color: #595959;
 			}
-
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-			}
-			ul li a {
-				display: block;
-			}
-	
-			.title {
-				flex-basis: 70%;
-           		text-decoration: none;
-                transition: 0.2s ease;
-                color: rgb(var(--black)); /* Color for the link */
-				flex-grow: 1; /* Allow title to take up remaining space */
-               text-align: left;
-			}
-			.title:hover {
-                color: rgb(var(--accent));
-            }
-
-			.date {
-				width: 25%;
-          		margin-right: 1rem; /* Space between date and title */
-            	color: rgb(var(--gray));
-                text-align: left; /* Align the date to the left */
-            	white-space: nowrap; /* Keep the date from wrapping */
-
-         	}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
-					width: auto;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
+			ul li a:visited {
+				color: #8e32dc;
 			}
 		</style>
 	</head>
@@ -90,12 +39,11 @@ const posts = (await getCollection('blog')).sort(
 			<section>
                <ul class="posts-list">
                     {posts.map((post) => (
-                        <li class="post-item">
-                            <span class="date">
+                        <li>
+                            <time datetime={new Date(post.data.pubDate).toISOString()}>
                                 <FormattedDate date={post.data.pubDate} />
-                            </span>
-                            <span class="title"><a href={`/blog/${post.slug}/`} class="title">{post.data.title}</a>
-							</span>
+                            </time>
+                            <a href={`/blog/${post.slug}`} class="title">{post.data.title}</a>
                         </li>
                     ))}
                 </ul>
