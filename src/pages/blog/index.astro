@@ -25,7 +25,6 @@ const posts = (await getCollection('blog')).sort(
 				padding: 0;
 			}
 			li {
-            	margin-bottom: 1rem; /* Spacing between list items */
                 display: flex; /* Align items in a row */
                 align-items: baseline; /* Align items vertically */
   
@@ -51,7 +50,6 @@ const posts = (await getCollection('blog')).sort(
            		text-decoration: none;
                 transition: 0.2s ease;
                 color: rgb(var(--black)); /* Color for the link */
-				font-size: 1rem; /* consistent font sizes*/
 				flex-grow: 1; /* Allow title to take up remaining space */
                text-align: left;
 			}
@@ -65,6 +63,7 @@ const posts = (await getCollection('blog')).sort(
             	color: rgb(var(--gray));
                 text-align: left; /* Align the date to the left */
             	white-space: nowrap; /* Keep the date from wrapping */
+
          	}
 			ul li a:hover h4,
 			ul li a:hover .date {
