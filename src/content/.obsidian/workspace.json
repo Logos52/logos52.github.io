@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/first-post.md",
+                "file": "notes/Technical Grayscale.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/first-post.md",
+                "file": "notes/Technical Grayscale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/first-post.md",
+                "file": "notes/Technical Grayscale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/first-post.md"
+                "file": "notes/Technical Grayscale.md"
               }
             }
           }
@@ -146,6 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "25b52ac7aca6e9ac",
-  "lastOpenFiles": []
+  "active": "609419f815fbc80c",
+  "lastOpenFiles": [
+    "blog/second-post.md",
+    "notes/Technical Grayscale.md",
+    "blog/markdown-style-guide.md",
+    "blog/first-post.md",
+    "notes.md",
+    "notes"
+  ]
 }
