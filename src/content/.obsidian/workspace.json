@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "57301a8f176c861c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/first-post.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/markdown-style-guide.md",
+                "file": "blog/first-post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/markdown-style-guide.md",
+                "file": "blog/first-post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/markdown-style-guide.md"
+                "file": "blog/first-post.md"
               }
             }
           }
@@ -146,12 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "25b52ac7aca6e9ac",
+  "active": "57301a8f176c861c",
   "lastOpenFiles": [
     "notes/Grayscale.md",
+    "blog/third-post.md",
     "blog/second-post.md",
-    "blog/markdown-style-guide.md",
     "blog/first-post.md",
+    "blog/markdown-style-guide.md",
     "notes.md",
     "notes"
   ]

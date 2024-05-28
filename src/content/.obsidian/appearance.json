@@ -1,5 +1,7 @@
 {
   "accentColor": "",
-  "theme": "moonstone",
-  "cssTheme": "Minimal"
+  "theme": "system",
+  "cssTheme": "Things",
+  "textFontFamily": "iA Writer Duospace",
+  "monospaceFontFamily": "JetBrains Mono"
 }
