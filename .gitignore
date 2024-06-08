@@ -3,6 +3,9 @@ dist/
 # generated types
 .astro/
 
+#ignore journal folder
+src/components/content/notes/journal
+
 # dependencies
 node_modules/
 
