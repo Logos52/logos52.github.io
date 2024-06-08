@@ -1,7 +1,9 @@
 {
   "accentColor": "",
-  "theme": "system",
-  "cssTheme": "Things",
+  "theme": "moonstone",
+  "cssTheme": "Border",
   "textFontFamily": "iA Writer Duospace",
-  "monospaceFontFamily": "JetBrains Mono"
+  "monospaceFontFamily": "JetBrains Mono",
+  "baseFontSize": 16,
+  "translucency": true
 }

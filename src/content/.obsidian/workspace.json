@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dc94f3e919c105ea",
+        "id": "b97f2d68a15338a5",
         "type": "tabs",
         "children": [
           {
-            "id": "25b52ac7aca6e9ac",
+            "id": "9237eb16a4be5f2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/markdown-style-guide.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "57301a8f176c861c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blog/first-post.md",
+                "file": "04 - Archive/Templates/day.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabeticalReverse"
               }
             }
           },
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/first-post.md",
+                "file": "04 - Archive/Templates/day.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/first-post.md",
+                "file": "04 - Archive/Templates/day.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,21 +120,29 @@
             }
           },
           {
-            "id": "acbd5752e66baeae",
+            "id": "47f44c60472628e0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "51b0d0feaf5ff4ff",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/first-post.md"
+                "file": "04 - Archive/Templates/day.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,17 +151,45 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "57301a8f176c861c",
+  "active": "609419f815fbc80c",
   "lastOpenFiles": [
-    "notes/Grayscale.md",
+    "notes/journal/quarterly",
+    "notes/journal/daily/2024-06-02.md",
+    "04 - Archive/Templates/day.md",
+    "Untitled.md",
     "blog/third-post.md",
     "blog/second-post.md",
-    "blog/first-post.md",
     "blog/markdown-style-guide.md",
-    "notes.md",
-    "notes"
+    "blog/first-post.md",
+    "notes/journal/daily/2024-05-31.md",
+    "notes/journal/What's on your mind?.md",
+    "notes/journal/Media Inbox.md",
+    "notes/journal/Time Log.md",
+    "notes/journal/daily/test-note.md.md",
+    "notes/journal/daily/2024-06-01.md",
+    "notes/journal/daily/2024-05-30.md",
+    "notes/Grayscale.md",
+    "notes/journal/list-pages.md.md",
+    "notes/journal/Test note.md",
+    "notes/Test.md",
+    "notes/journal/daily/*.md",
+    "04 - Archive/Templates",
+    "03 - Resources",
+    "04 - Archive",
+    "02 - Areas",
+    "01 - Projects",
+    "What's on your mind?.md",
+    "notes/journal/daily",
+    "notes/journal/yearly",
+    "notes/journal/weekly",
+    "notes/journal/monthly",
+    "notes/journal",
+    "daily/2024-05-31.md",
+    "notes/daily/2024-05-31.md",
+    "notes.md"
   ]
 }
