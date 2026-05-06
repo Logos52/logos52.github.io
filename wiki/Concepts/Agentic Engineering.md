@@ -1,83 +1,184 @@
 ---
-type: concept
-status: seed
+type: hub
+status: developing
 created: 2026-05-02
-updated: 2026-05-06
-source-count: 5
-last-audited:
+updated: 2026-05-07
+source-count: 9
+last-audited: 2026-05-07
 tags:
   - llm
   - agents
   - engineering
   - software-3
+  - ai-workflows
 ---
 
 # Agentic Engineering
 
-Agentic engineering is the discipline of coordinating LLM agents to do useful work faster without giving up the quality bar expected of professional engineering.
+Agentic engineering is the practice of using AI agents to move faster while preserving the quality bar of serious engineering.
 
-## Summary
+Karpathy's distinction is useful: [[wiki/Concepts/Vibe Coding|Vibe Coding]] raises the floor; agentic engineering raises the ceiling. Vibe coding lets many more people build. Agentic engineering is what skilled operators do when they want speed without giving up correctness, security, architecture, taste, and responsibility.
 
-Karpathy distinguishes vibe coding from agentic engineering. Vibe coding raises the floor: more people can create software by delegating implementation to an agent. Agentic engineering raises the ceiling: skilled operators use agents while preserving correctness, security, maintainability, taste, and system design.
+The core shift is not that "AI writes code." The core shift is that the human increasingly operates as spec writer, taste holder, architect, reviewer, and director of agents.
 
-The core shift is not "the agent writes code." It is that the human increasingly writes the spec, shapes the context, sets the evaluation criteria, supervises execution, and verifies the result.
+## Core Idea
 
-The newer Naval sources sharpen this into an agency frame. AI can accelerate implementation, learning, and coordination, but it does not supply desire, taste, mission, or responsibility. The human remains the rider of the motorcycle.
+Agents are like tireless junior collaborators with huge recall, fast execution, and jagged judgment.
 
-## Working Model
+They can handle API details, boilerplate, refactors, shell commands, file edits, first-pass debugging, and repetitive implementation. They are much weaker at taste, architecture, identity, product judgment, security boundaries, unstated assumptions, and knowing when a local solution violates a larger system.
 
-Agents are powerful but jagged. They can produce large, coherent chunks of work, but they still make strange mistakes around identity, architecture, security, taste, and unstated invariants.
+Agentic engineering therefore means:
 
-The human remains responsible for:
+- use agents for speed;
+- keep humans in charge of direction;
+- make specs more explicit;
+- verify outputs against reality;
+- learn the fundamentals beneath the abstraction.
 
-- Spec clarity.
-- System design.
-- Quality bar.
-- Taste and aesthetics.
-- Security and correctness.
-- Verification strategy.
-- Understanding what is being built and why.
+## Best Practices
 
-The agent increasingly handles:
+### 1. Preserve The Quality Bar
 
-- Boilerplate.
-- API details.
-- Multi-file edits.
-- Local commands.
-- Repetitive implementation.
-- First-pass debugging.
-- Translation from intent into concrete code.
+The simplest rule: agent-written work must still meet the same standard as human-written work.
 
-## Implication For This Wiki
+Do not accept vulnerabilities, brittle architecture, messy abstractions, broken tests, privacy leaks, or unclear behavior because "the agent made it fast." Speed is only useful if the result remains trustworthy.
 
-This vault itself should be treated as an agentic engineering environment. The LLM maintains files, links, indexes, logs, and summaries, but the human directs the research taste:
+Practical checks:
 
-- Which sources matter?
-- What questions are worth asking?
-- What concepts deserve pages?
-- Which synthesis feels true and useful?
-- What should be public?
+- Run the build and tests.
+- Inspect the diff.
+- Check for unrelated edits.
+- Review behavior, not just the agent's explanation.
 
-## Failure Modes
+### 2. Write Better Specs
 
-- Trusting output because it "works" without understanding why.
-- Letting agents create bloated, brittle abstractions.
-- Losing track of system invariants.
-- Confusing fast implementation with good engineering.
-- Asking vague prompts when the agent needed a precise spec.
-- Publishing generated work without source and privacy review.
+Karpathy's point is that the human must still own the spec and plan. Agents can fill in details, but they often make strange choices when the deeper design is underspecified.
 
-## Related Concepts
+A good agentic spec includes:
+
+- what is being built;
+- what should not change;
+- what existing patterns to follow;
+- what edge cases matter;
+- how the result will be checked.
+
+The best specs often become docs. The docs guide the agent, guide the human review, and remain useful after the session.
+
+### 3. Learn One Layer Below
+
+Naval's strongest point is that abstractions leak. AI coding agents are a new abstraction layer, but the best operators still understand the layer underneath.
+
+If the agent writes React, understand components, state, routing, rendering, and CSS enough to spot bad structure. If it writes backend code, understand data models, auth, caching, latency, and failure modes. If it uses a shell, understand files, processes, package managers, and logs.
+
+The agent can remember the API syntax. You need to understand the system.
+
+### 4. Use Verifiability As Leverage
+
+Karpathy emphasizes that models are strongest in domains where outputs can be verified. Code is powerful because feedback is concrete:
+
+- tests pass or fail;
+- builds break;
+- logs show errors;
+- reviewers can inspect diffs;
+- the app runs or does not.
+
+Agentic engineering should lean into this. Convert vague quality into checks whenever possible. If a task cannot be verified, slow down and keep the human closer to the loop.
+
+### 5. Keep Context Clean
+
+Agents are only as good as the context they can use. Give them the right files, constraints, examples, commands, and prior decisions. Remove noise when possible.
+
+For this vault, [[index|index.md]], [[log|log.md]], [[raw/Source Index|Source Index]], and [[AGENTS]] are agentic engineering artifacts. They make the environment legible to future agents.
+
+Good context answers:
+
+- Where am I?
+- What matters?
+- What should I avoid?
+- What command proves this works?
+
+### 6. Build Agent-Native Infrastructure
+
+Karpathy's agent-native point is practical: tools, docs, and workflows should increasingly be written for agents to use directly.
+
+Instead of only writing "click here, open this menu, configure this setting," provide:
+
+- copy-pasteable agent instructions;
+- CLI commands;
+- machine-readable state;
+- API-first workflows;
+- examples and expected outputs.
+
+The best infrastructure gives agents sensors, actuators, and legible state.
+
+### 7. Use Agents As Reviewers, But Do Not Trust A Council Blindly
+
+Naval notes that multiple agents reviewing each other can help, but they often share the same blind spots. A council of models can still become groupthink.
+
+Use agent review for obvious bugs, security concerns, alternative designs, generated tests, assumption checks, and large-diff scanning. But the human still owns taste, priority, and final judgment.
+
+### 8. Prefer Small, Clear Delegations
+
+Agents work best when the job is bounded. Good delegation:
+
+- "Update this one page from these sources."
+- "Find privacy leaks matching these strings."
+- "Add tests for this function."
+- "Explain this failing build log."
+
+Weak delegation:
+
+- "Make this better."
+- "Refactor everything."
+- "Improve the architecture."
+- "Research this whole field and update the wiki."
+
+Big work can still be done, but it should be broken into reviewable chunks.
+
+## The Human Role
+
+As agents improve, the human role shifts upward:
+
+- **Taste:** what good looks like.
+- **Judgment:** what matters and what tradeoffs are acceptable.
+- **Architecture:** how parts should fit.
+- **Spec:** what the system must do.
+- **Understanding:** enough internal model to steer the agents.
+
+This is Karpathy's "you can outsource thinking but not understanding" point. The agent can process, draft, search, and implement. The human still has to understand enough to direct the work.
+
+## Common Failure Modes
+
+- Accepting a polished explanation instead of checking the artifact.
+- Letting implementation speed create scope creep.
+- Trusting code because it works once.
+- Allowing the agent to invent architecture instead of following the codebase.
+- Forgetting that models are jagged: brilliant in one area, bizarrely wrong in another.
+- Losing skill in the layer below the abstraction.
+
+## Personal Rules
+
+- Use vibe coding for disposable experiments.
+- Use agentic engineering for durable systems.
+- Always define the quality bar before delegating.
+- Keep diffs small enough to review.
+- Verify with commands, not vibes.
+- Ask agents to critique, but expect shared blind spots.
+- Learn enough fundamentals to catch leaky abstractions.
+- Convert repeated agent mistakes into instructions or tools.
+- Keep private material out of public outputs.
+- File durable lessons back into the wiki.
+
+## Related Pages
 
 - [[wiki/Concepts/Vibe Coding|Vibe Coding]]
 - [[wiki/Concepts/Software 3.0|Software 3.0]]
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
+- [[wiki/Techniques/Context Engineering|Context Engineering]]
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
 - [[wiki/Concepts/A Return to Code|A Return to Code]]
-- [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
-- [[wiki/Techniques/Context Engineering|Context Engineering]]
-- [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
+- [[wiki/Red Team/Red Teaming|Red Teaming]]
 
 ## Sources
 
@@ -85,10 +186,14 @@ This vault itself should be treated as an agentic engineering environment. The L
 - [[How I use LLMs|How I use LLMs]]
 - [[raw/sources/A Motorcycle for the Mind|A Motorcycle for the Mind]]
 - [[raw/sources/A Return to Code|A Return to Code]]
-- [[raw/sources/‘Nothing Ever Happens’ Is Over|Nothing Ever Happens Is Over]]
+- Anthropic, "[Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)".
+- OpenAI, "[Agents SDK](https://developers.openai.com/api/docs/guides/agents)".
+- HumanLayer, "[12 Factor Agents](https://www.humanlayer.dev/blog/12-factor-agents)".
 
 ## Open Questions
 
-- What does a personal checklist for agentic engineering quality look like?
-- Which tasks in this wiki can be safely delegated to agents, and which require human taste?
-- How should agent-generated wiki edits be reviewed before committing?
+- What should my personal agentic engineering checklist be?
+- Which tasks should be vibe coded, and which require full agentic engineering?
+- What fundamentals do I need one layer below my current agent workflows?
+- Which parts of this vault should become scripts instead of manual agent instructions?
+- Which current agent workflow would benefit most from a tighter spec?

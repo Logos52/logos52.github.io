@@ -66,6 +66,7 @@ Marginal Gains without Kolbs can become wishful planning. Kolbs without Marginal
 
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[templates/Kolbs Template|Kolbs Template]]
+- [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]]
 - [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
 - [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]

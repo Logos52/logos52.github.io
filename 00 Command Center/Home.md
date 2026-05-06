@@ -1,7 +1,7 @@
 ---
 type: command-center
 created: 2026-05-02
-updated: 2026-05-06
+updated: 2026-05-07
 tags:
   - system
 ---
@@ -36,6 +36,7 @@ This is the operating surface for the public LLM knowledge base.
 - Sources: `raw/sources`, `raw/papers`, `raw/repos`, `raw/datasets`, `raw/assets`, `raw/images`
 - Clipper inbox: `Clippings`
 - Wiki: `wiki/Concepts`, `wiki/Dimensions`, `wiki/Techniques`, `wiki/Syntheses`, `wiki/Models`, `wiki/Papers`, `wiki/People`, `wiki/Tools`, `wiki/Workflows`
+- Red Teaming: `wiki/Red Team`
 - Books: `wiki/Books`
 - Outputs: `outputs/answers`, `outputs/briefs`, `outputs/diagrams`, `outputs/slides`, `outputs/audits`
 - Templates: `templates`
@@ -49,6 +50,7 @@ The initial scope is [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems
 
 Metacognition and learning-to-learn:
 
+- [[wiki/Syntheses/ICS System|ICS System]]
 - [[wiki/Syntheses/Current Study System|Current Study System]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
@@ -61,6 +63,7 @@ Metacognition and learning-to-learn:
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[templates/Kolbs Template|Kolbs Template]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]]
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/Aim|Aim]]
 - [[wiki/Techniques/Shoot|Shoot]]
@@ -114,6 +117,23 @@ Books and longform reviews:
 
 - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]]
 - [[wiki/Books/The Book of Elon|The Book of Elon]]
+
+Red Teaming:
+
+- [[wiki/Red Team/Red Teaming|Red Teaming]]
+- [[wiki/Red Team/Four Principles of Red Teaming|Four Principles of Red Teaming]]
+- [[wiki/Red Team/Self-Awareness and Reflection|Self-Awareness and Reflection]]
+- [[wiki/Red Team/Groupthink Mitigation and Decision Support|Groupthink Mitigation and Decision Support]]
+- [[wiki/Red Team/Fostering Cultural Empathy|Fostering Cultural Empathy]]
+- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
+- [[wiki/Red Team/Creative Thinking|Creative Thinking]]
+- [[wiki/Red Team/Four Ways of Seeing|Four Ways of Seeing]]
+- [[wiki/Red Team/Analysis of Competing Hypotheses|Analysis of Competing Hypotheses]]
+- [[wiki/Red Team/Key Assumptions Check|Key Assumptions Check]]
+- [[wiki/Red Team/Premortem Analysis|Premortem Analysis]]
+- [[wiki/Red Team/Stakeholder Mapping|Stakeholder Mapping]]
+- [[wiki/Red Team/String of Pearls|String of Pearls]]
+- [[wiki/Red Team/SEE-I|SEE-I]]
 
 ## Next Actions
 
