@@ -2,6 +2,8 @@
 type: log
 created: 2026-05-02
 updated: 2026-05-06
+tags:
+  - system
 ---
 
 # Log
@@ -121,3 +123,15 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Added [[wiki/Language/Language Isn't Math|Language Isn't Math]] from [[raw/sources/Language Isn't Math|Language Isn't Math]].
 - Synthesized the source into agnostic rules for grammar mindset, phrase learning, native-like expression, and input-first acquisition.
 - Updated [[index|index]], command-center navigation, and [[raw/Source Index|Source Index]].
+
+## [2026-05-06] compile | Naval AI sources and book summaries
+
+- Added public AI-era concept notes:
+  - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
+  - [[wiki/Concepts/A Return to Code|A Return to Code]]
+  - [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
+- Added longform book notes:
+  - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]]
+  - [[wiki/Books/The Book of Elon|The Book of Elon]]
+- Updated [[wiki/Concepts/Vibe Coding|Vibe Coding]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and [[wiki/Dimensions/Mindset|Mindset]] with backlinks and synthesis.
+- Updated [[index|index]], [[raw/Source Index|Source Index]], bibliography, command center, and open questions.

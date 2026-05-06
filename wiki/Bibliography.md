@@ -1,7 +1,7 @@
 ---
 type: bibliography
 created: 2026-05-02
-updated: 2026-05-04
+updated: 2026-05-06
 ---
 
 # Bibliography
@@ -21,3 +21,8 @@ Add public source references here as the wiki grows.
 - Justin Sung, "Learn to Learn in 4hrs 54mins - Full Course" (YouTube, 2026-03-16). [[Learn to Learn in 4hrs 54mins - Full Course|Local transcript]]
 - Justin Sung, "Private Workshop - How to Learn Anything Faster" (YouTube, 2026-02-28). [[Private Workshop - How to Learn Anything Faster|Local transcript]]
 - Justin Sung, "How to Force Yourself To Achieve Your Goals (when you don't feel like it)" (YouTube, 2026-04-10). [[How to Force Yourself To Achieve Your Goals (when you don’t feel like it)|Local transcript]]
+- Naval Ravikant and Nivi, "A Motorcycle for the Mind" (2026-02-20). [[raw/sources/A Motorcycle for the Mind|Local source]]
+- Naval Ravikant and Nivi, "A Return to Code" (2026-04-29). [[raw/sources/A Return to Code|Local source]]
+- Naval Ravikant and Nivi, "'Nothing Ever Happens' Is Over" (2026-05-05). [[raw/sources/‘Nothing Ever Happens’ Is Over|Local source]]
+- Gad Saad, *The Parasitic Mind*.
+- Eric Jorgenson, *The Book of Elon: Elon Musk's Most Useful Ideas, in His Own Words*.

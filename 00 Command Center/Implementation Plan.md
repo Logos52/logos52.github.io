@@ -2,6 +2,8 @@
 type: implementation-plan
 created: 2026-05-02
 updated: 2026-05-06
+tags:
+  - system
 ---
 
 # Implementation Plan

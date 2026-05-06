@@ -1,3 +1,9 @@
+---
+type: agents
+tags:
+  - system
+---
+
 # AGENTS.md
 
 This repository is an LLM-maintained Obsidian wiki. Obsidian is the IDE, the LLM is the wiki maintainer, and the markdown wiki is the persistent compiled artifact.

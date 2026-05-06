@@ -2,6 +2,8 @@
 type: command-center
 created: 2026-05-02
 updated: 2026-05-06
+tags:
+  - system
 ---
 
 # LLM Knowledge Base
@@ -34,6 +36,7 @@ This is the operating surface for the public LLM knowledge base.
 - Sources: `raw/sources`, `raw/papers`, `raw/repos`, `raw/datasets`, `raw/assets`, `raw/images`
 - Clipper inbox: `Clippings`
 - Wiki: `wiki/Concepts`, `wiki/Dimensions`, `wiki/Techniques`, `wiki/Syntheses`, `wiki/Models`, `wiki/Papers`, `wiki/People`, `wiki/Tools`, `wiki/Workflows`
+- Books: `wiki/Books`
 - Outputs: `outputs/answers`, `outputs/briefs`, `outputs/diagrams`, `outputs/slides`, `outputs/audits`
 - Templates: `templates`
 - Tools: `tools`
@@ -103,6 +106,14 @@ LLM systems and agentic engineering:
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
 - [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
 - [[wiki/Concepts/Thinking Models|Thinking Models]]
+- [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
+- [[wiki/Concepts/A Return to Code|A Return to Code]]
+- [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
+
+Books and longform reviews:
+
+- [[wiki/Books/The Parasitic Mind|The Parasitic Mind]]
+- [[wiki/Books/The Book of Elon|The Book of Elon]]
 
 ## Next Actions
 
