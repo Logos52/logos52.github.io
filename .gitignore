@@ -1,0 +1,37 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Obsidian local state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/cache
+.obsidian/plugins/
+.obsidian/trash/
+.trash/
+
+# Private or copyrighted source material
+raw/private/
+raw/**/*.pdf
+raw/**/*.epub
+raw/**/*.mobi
+
+# Secrets and local config
+.env
+.env.*
+*.key
+*.pem
+
+# Generated caches
+.cache/
+node_modules/
+__pycache__/
+*.pyc
+
+# Quartz build output and caches
+public/
+.quartz-cache/
+
