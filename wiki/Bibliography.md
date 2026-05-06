@@ -21,8 +21,13 @@ Add public source references here as the wiki grows.
 - Justin Sung, "Learn to Learn in 4hrs 54mins - Full Course" (YouTube, 2026-03-16). [[Learn to Learn in 4hrs 54mins - Full Course|Local transcript]]
 - Justin Sung, "Private Workshop - How to Learn Anything Faster" (YouTube, 2026-02-28). [[Private Workshop - How to Learn Anything Faster|Local transcript]]
 - Justin Sung, "How to Force Yourself To Achieve Your Goals (when you don't feel like it)" (YouTube, 2026-04-10). [[How to Force Yourself To Achieve Your Goals (when you don’t feel like it)|Local transcript]]
+- Justin Sung, "How to Change Your Life in 2026 with Reverse Goal Setting" (YouTube, 2025-12-30). [[raw/sources/How to Change Your Life in 2026 with Reverse Goal Setting|Local transcript]]
 - Naval Ravikant and Nivi, "A Motorcycle for the Mind" (2026-02-20). [[raw/sources/A Motorcycle for the Mind|Local source]]
 - Naval Ravikant and Nivi, "A Return to Code" (2026-04-29). [[raw/sources/A Return to Code|Local source]]
 - Naval Ravikant and Nivi, "'Nothing Ever Happens' Is Over" (2026-05-05). [[raw/sources/‘Nothing Ever Happens’ Is Over|Local source]]
 - Gad Saad, *The Parasitic Mind*.
 - Eric Jorgenson, *The Book of Elon: Elon Musk's Most Useful Ideas, in His Own Words*.
+- TRADOC G-2 / University of Foreign Military and Cultural Studies, *The Red Team Handbook: The Army's Guide to Making Better Decisions*, Version 9.0. Public release; distribution unlimited.
+- Anthropic, "Building Effective Agents" (2024-12-19). [Web](https://www.anthropic.com/engineering/building-effective-agents)
+- OpenAI, "Agents SDK." [Web](https://developers.openai.com/api/docs/guides/agents)
+- HumanLayer, "12 Factor Agents" (2025-04-03). [Web](https://www.humanlayer.dev/blog/12-factor-agents)

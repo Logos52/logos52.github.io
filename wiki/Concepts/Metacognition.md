@@ -2,8 +2,8 @@
 type: concept
 status: seed
 created: 2026-05-02
-updated: 2026-05-04
-source-count: 7
+updated: 2026-05-06
+source-count: 8
 last-audited:
 tags:
   - metacognition
@@ -18,6 +18,8 @@ Metacognition is awareness of how thinking is happening while it is happening, e
 ## Summary
 
 In this corpus, metacognition is the control layer for learning. Techniques matter less than the learner's ability to notice whether a technique is producing the intended kind of thought. A learner with weak metacognition can use a good method passively; a learner with strong metacognition can detect that drift and redirect.
+
+[[wiki/Red Team/Red Teaming|Red Teaming]] adds a decision-making version of metacognition: notice the assumptions, frames, group dynamics, and cultural blind spots shaping a plan before the plan fails.
 
 ## Core Model
 
@@ -72,6 +74,9 @@ This makes metacognition the awareness layer inside [[wiki/Dimensions/Self-Regul
 - [[wiki/Dimensions/Retrieval|Retrieval]]
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Red Team/Red Teaming|Red Teaming]]
+- [[wiki/Red Team/Self-Awareness and Reflection|Self-Awareness and Reflection]]
+- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
 
 ## Sources
 
@@ -81,6 +86,7 @@ This makes metacognition the awareness layer inside [[wiki/Dimensions/Self-Regul
 - [[How to Learn Anything Faster Using Modern Research|How to Learn Anything Faster Using Modern Research]]
 - [[If You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes|If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes]]
 - [[Learn to Learn in 4hrs 54mins - Full Course|Learn to Learn in 4hrs 54mins - Full Course]]
+- TRADOC G-2 / UFMCS, *The Red Team Handbook*, Version 9.0.
 
 ## Open Questions
 

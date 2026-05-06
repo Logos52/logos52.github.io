@@ -2,8 +2,8 @@
 type: technique
 status: developing
 created: 2026-05-04
-updated: 2026-05-04
-source-count: 1
+updated: 2026-05-06
+source-count: 2
 last-audited:
 tags:
   - learning
@@ -15,6 +15,8 @@ tags:
 # Bear Hunter System
 
 Bear Hunter System is the user's main encoding system. It turns incoming material into a meaningful structure through inquiry, mapping, chunking, and final refinement.
+
+[[wiki/Red Team/Red Teaming|Red Teaming]] strengthens BHS by making the Aim phase more adversarial: challenge the first frame, surface hidden assumptions, and look for missing perspectives before building the map.
 
 ## Summary
 
@@ -164,6 +166,14 @@ LLMs should not replace the user's own judgment about importance. If the model c
 - [[wiki/Concepts/Deep Processing|Deep Processing Concept Note]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
 - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
+- [[wiki/Red Team/Red Teaming|Red Teaming]]
+- [[wiki/Red Team/Key Assumptions Check|Key Assumptions Check]]
+- [[wiki/Red Team/Four Ways of Seeing|Four Ways of Seeing]]
+
+## Sources
+
+- Learning-system synthesis from the user's study materials.
+- TRADOC G-2 / UFMCS, *The Red Team Handbook*, Version 9.0.
 
 ## Open Questions
 

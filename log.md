@@ -135,3 +135,67 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Books/The Book of Elon|The Book of Elon]]
 - Updated [[wiki/Concepts/Vibe Coding|Vibe Coding]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and [[wiki/Dimensions/Mindset|Mindset]] with backlinks and synthesis.
 - Updated [[index|index]], [[raw/Source Index|Source Index]], bibliography, command center, and open questions.
+
+## [2026-05-06] compile | Red Team Handbook section
+
+- Added a dedicated Red Teaming section from TRADOC G-2 / UFMCS, *The Red Team Handbook*, Version 9.0:
+  - [[wiki/Red Team/Red Teaming|Red Teaming]]
+  - [[wiki/Red Team/Four Principles of Red Teaming|Four Principles of Red Teaming]]
+  - [[wiki/Red Team/Self-Awareness and Reflection|Self-Awareness and Reflection]]
+  - [[wiki/Red Team/Groupthink Mitigation and Decision Support|Groupthink Mitigation and Decision Support]]
+  - [[wiki/Red Team/Fostering Cultural Empathy|Fostering Cultural Empathy]]
+  - [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
+  - [[wiki/Red Team/Creative Thinking|Creative Thinking]]
+  - [[wiki/Red Team/Assumption Tools|Assumption Tools]]
+  - [[wiki/Red Team/Perspective-Shifting Tools|Perspective-Shifting Tools]]
+  - [[wiki/Red Team/Group Process Tools|Group Process Tools]]
+  - [[wiki/Red Team/Failure Analysis Tools|Failure Analysis Tools]]
+  - [[wiki/Red Team/Communication Tools|Communication Tools]]
+  - [[wiki/Red Team/Four Ways of Seeing|Four Ways of Seeing]]
+  - [[wiki/Red Team/Analysis of Competing Hypotheses|Analysis of Competing Hypotheses]]
+  - [[wiki/Red Team/Key Assumptions Check|Key Assumptions Check]]
+  - [[wiki/Red Team/Premortem Analysis|Premortem Analysis]]
+  - [[wiki/Red Team/Stakeholder Mapping|Stakeholder Mapping]]
+  - [[wiki/Red Team/String of Pearls|String of Pearls]]
+  - [[wiki/Red Team/SEE-I|SEE-I]]
+  - [[wiki/Red Team/Five Whys|Five Whys]]
+  - [[wiki/Red Team/Devils Advocacy|Devils Advocacy]]
+  - [[wiki/Red Team/Team A Team B Analysis|Team A Team B Analysis]]
+- Connected Red Teaming to [[wiki/Concepts/Metacognition|Metacognition]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], and [[wiki/Techniques/Bear Hunter System|Bear Hunter System]].
+- Updated command-center navigation, [[raw/Source Index|Source Index]], bibliography, open questions, and public index.
+
+## [2026-05-06] maintenance | Red Team directory rename and takeaways
+
+- Renamed the section directory from `wiki/Red Teaming` to `wiki/Red Team`.
+- Updated internal links to the new directory path.
+- Added concise key takeaways to [[wiki/Red Team/Red Teaming|Red Teaming]].
+
+## [2026-05-07] compile | ICS System synthesis
+
+- Added [[wiki/Syntheses/ICS System|ICS System]] as a high-level synthesis of Justin Sung's learning framework.
+- Connected the page to [[wiki/Syntheses/Current Study System|Current Study System]], [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]], [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], and [[wiki/Red Team/Red Teaming|Red Teaming]].
+- Updated command-center navigation, public index, open questions, and log.
+
+## [2026-05-07] compile | ICS System source rebuild
+
+- Rebuilt [[wiki/Syntheses/ICS System|ICS System]] directly from the Justin Sung / iCanStudy source corpus.
+- Added the actual course architecture: skill spheres, Kickstart, High-Yield, Growth, Growth climb, TLS, BHS, retrieval, WPW, multipass, learning efficiency, self-management, mindset, and decision-making.
+- Preserved public-safe paraphrasing and avoided exposing source paths.
+
+## [2026-05-07] compile | Refold system source rebuild
+
+- Rebuilt [[wiki/Language/Refold Language Learning System|Refold Language Learning System]] from the full Refold language-learning source corpus.
+- Added the acquisition model, course phases, three pillars, attention/noticing, comprehension hacking, writing systems, characters, grammar priming, vocabulary review, tracking, and Vietnamese/Mandarin translation.
+- Preserved public-safe paraphrasing and avoided exposing source paths.
+
+## [2026-05-07] compile | Agentic Engineering hub rebuild
+
+- Rebuilt [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] as a high-level hub.
+- Integrated local Karpathy/Naval wiki sources with external public sources from Anthropic, OpenAI, and HumanLayer.
+- Refined the page into a best-practices note focused on building with agents: quality bar, specs, one-layer-below understanding, verifiability, context, agent-native infrastructure, review, and bounded delegation.
+
+## [2026-05-07] compile | Reverse Goal Setting
+
+- Added [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]] from Justin Sung's 2026 goal-setting source.
+- Connected the method to [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]].
+- Updated the public index, command center, source index, bibliography, open questions, and log.

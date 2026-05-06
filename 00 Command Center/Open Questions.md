@@ -1,7 +1,7 @@
 ---
 type: open-questions
 created: 2026-05-02
-updated: 2026-05-06
+updated: 2026-05-07
 tags:
   - system
 ---
@@ -34,6 +34,7 @@ Use this file as the queue of unresolved questions that should drive future sour
 
 ## Current Study System
 
+- What is my minimum weekly ICS review?
 - What should my default weekly SIR calendar look like for my actual subjects?
 - Which current topic should become the first worked BHS example in this vault?
 - What is my minimum viable BHS pass for busy weeks?
@@ -41,6 +42,8 @@ Use this file as the queue of unresolved questions that should drive future sour
 - When should I re-encode a gap instead of adding another flashcard?
 - How can I use LLMs for SIR question variation without outsourcing the thinking?
 - What signals tell me that my BHS map is clean enough to stop refining?
+- Which dimension is the current bottleneck in the ICS System?
+- How should Red Teaming be merged into ICS without making the system too heavy?
 
 ## Dimensions of Learning
 
@@ -59,6 +62,7 @@ Use this file as the queue of unresolved questions that should drive future sour
 - What should my default [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] method menu look like for my current subjects?
 - When should I use [[wiki/Techniques/WPW|WPW]] instead of mindmap reconstruction, generated questions, or direct practice?
 - What is the next [[wiki/Techniques/Marginal Gains|Marginal Gain]] worth stacking in my study system?
+- Which current goal should be mapped with [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]] first?
 - Which study sessions deserve a full [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] cycle, and which only need a short correction note?
 - Where should completed [[templates/Kolbs Template|Kolbs Template]] notes live: daily notes, outputs, or a dedicated practice log?
 - How should [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]] become part of my weekly review?
@@ -66,13 +70,18 @@ Use this file as the queue of unresolved questions that should drive future sour
 ## Language Learning
 
 - Which Vietnamese resources should become daily default immersion, and which are only stretch material?
+- What should count as an active enough Vietnamese immersion session?
+- Which Vietnamese YouTube channels are compelling enough to sustain daily attention?
 - Should Vietnamese resource notes be tagged by Southern, Northern, mixed, or unknown dialect?
 - Which Mandarin resources should be separated into simplified, traditional, pinyin, character, and audio tracks?
+- What is the best beginner Mandarin workflow for Traditional/Simplified conversion without adding too much friction?
 - What is the minimum weekly language-learning operating system that combines immersion, noticing, retrieval, and review?
 - Which language resources should be tested first for actual enjoyment and consistency?
 - Which Vietnamese dialect should the [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]] prioritize?
+- Should Vietnamese and Mandarin use the same daily template, or should Mandarin get a heavier character-prep block?
 - Should Migaku become the default Mandarin metalayer, or should it be reserved for Simplified-to-Traditional conversion and missing subtitles?
 - What is the user's default weekly split across [[wiki/Language/Preparation|Preparation]], [[wiki/Language/Interactive Immersion|Interactive Immersion]], and [[wiki/Language/Freeflow Immersion|Freeflow Immersion]]?
+- Which Refold pillar is currently undertrained: [[wiki/Language/Preparation|Preparation]], [[wiki/Language/Interactive Immersion|Interactive Immersion]], or [[wiki/Language/Freeflow Immersion|Freeflow Immersion]]?
 - How should [[wiki/Language/Language Isn't Math|Language Isn't Math]] change the user's grammar, output, and phrase-collection workflow?
 
 ## Future Tools
@@ -86,6 +95,7 @@ Use this file as the queue of unresolved questions that should drive future sour
 - What is the difference between vibe coding and agentic engineering in my own workflow?
 - What quality bar should an agentic engineer preserve when using coding agents?
 - What should my personal agentic engineering checklist include before committing generated work?
+- Which tasks should be vibe coded, and which require full agentic engineering?
 - Which parts of this wiki should be agent-maintained, and which parts require human taste?
 - What would make this vault more agent-native?
 - How should I review agent-generated pages for correctness, source discipline, and usefulness?
@@ -95,6 +105,7 @@ Use this file as the queue of unresolved questions that should drive future sour
 - Which personal workflows deserve a disposable one-shot app?
 - What should "learn one layer below the abstraction" mean for coding agents, language learning, and research?
 - What would an agent-assisted weekly world-model review look like?
+- Which ICS dimension is most likely to bottleneck my agentic engineering workflow?
 
 ## Books
 
@@ -102,3 +113,13 @@ Use this file as the queue of unresolved questions that should drive future sour
 - Which beliefs in my current system are identity-protected rather than evidence-protected?
 - What is the current constraint in my study/work system if I apply a Musk-style first-principles review?
 - Which process should be deleted before I optimize or automate it?
+
+## Red Teaming
+
+- Which Red Team tools should become default parts of BHS, SIR, and Kolbs?
+- What would a weekly personal Red Team review look like?
+- Which current plan needs a premortem?
+- Which current belief needs Analysis of Competing Hypotheses?
+- What assumptions are currently load-bearing in the user's study system?
+- How can LLM agents be used as structured dissent instead of agreeable assistants?
+- Which language-learning situations need Four Ways of Seeing or cultural empathy?

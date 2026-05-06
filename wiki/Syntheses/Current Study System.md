@@ -2,8 +2,8 @@
 type: synthesis
 status: developing
 created: 2026-05-04
-updated: 2026-05-04
-source-count: 1
+updated: 2026-05-07
+source-count: 2
 last-audited:
 tags:
   - learning-system
@@ -14,7 +14,7 @@ tags:
 
 # Current Study System
 
-This page summarizes the user's current study system as a two-engine loop: encode new material through [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], then preserve and improve it through [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
+This page summarizes the user's current study system as a two-engine loop inside the larger [[wiki/Syntheses/ICS System|ICS System]]: encode new material through [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], then preserve and improve it through [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
 
 ## Summary
 
@@ -109,6 +109,7 @@ For the user's current system, the recommended default is:
 ## Related Concepts
 
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Syntheses/ICS System|ICS System]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]

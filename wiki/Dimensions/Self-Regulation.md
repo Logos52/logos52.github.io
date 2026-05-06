@@ -2,8 +2,8 @@
 type: dimension
 status: developing
 created: 2026-05-04
-updated: 2026-05-04
-source-count: 2
+updated: 2026-05-06
+source-count: 3
 last-audited:
 tags:
   - learning
@@ -15,6 +15,8 @@ tags:
 # Self-Regulation
 
 Self-Regulation is the dimension responsible for monitoring, diagnosing, and adjusting the learning process.
+
+Red Teaming is a professionalized form of self-regulation for decisions. It asks whether the current frame, group process, assumptions, and failure analysis are good enough before committing to action.
 
 ## Summary
 
@@ -77,6 +79,8 @@ Metacognition notices. Self-Regulation acts.
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Concepts/Metacognition|Metacognition]]
+- [[wiki/Red Team/Red Teaming|Red Teaming]]
+- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
 - [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[templates/Kolbs Template|Kolbs Template]]
@@ -91,6 +95,7 @@ Metacognition notices. Self-Regulation acts.
 ## Sources
 
 - Public Justin Sung learning transcripts already indexed in [[raw/Source Index|Source Index]].
+- TRADOC G-2 / UFMCS, *The Red Team Handbook*, Version 9.0.
 
 ## Open Questions
 

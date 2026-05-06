@@ -3,7 +3,7 @@ title: "LLM Knowledge Base"
 description: "A personal LLM-maintained wiki of concepts, techniques, and syntheses, built up incrementally from sources over time."
 type: index
 created: 2026-05-02
-updated: 2026-05-06
+updated: 2026-05-07
 tags:
   - system
 ---
@@ -11,7 +11,7 @@ tags:
 # LLM Knowledge Base
 
 > [!note] Welcome
-> _Replace this paragraph with a short intro tomorrow. Two or three sentences are plenty: who you are, what this wiki is, and what someone should expect to find. Keep it conversational._
+> I'm Wedge, @webigis on X. Former Red Team @ University of Foreign Military & Cultural Studies. I enjoy the process of learning new things and sharing that knowledge with others. Right now, I'm particularly interested in Agentic Engineering and the field of educational sciences, where I'm exploring how emerging technologies can shape the way we teach and learn.
 
 This is a personal, LLM-maintained knowledge base. The pattern is simple: I curate sources and ask questions; an LLM agent reads, summarizes, cross-references, and keeps a running synthesis here as durable, interlinked markdown pages. The goal is **accumulation** — every source ingested and every question asked makes the wiki a little richer, instead of disappearing into chat history.
 
@@ -50,17 +50,21 @@ The complete catalog of pages, organized by topic. This is the long version — 
 
 | Page | Type | Status | Summary |
 | --- | --- | --- | --- |
-| [[wiki/Concepts/Agentic Engineering\|Agentic Engineering]] | concept | seed | Discipline of coordinating agents while preserving professional quality bars. |
+| [[wiki/Concepts/Agentic Engineering\|Agentic Engineering]] | hub | developing | Best-practices hub for building with agents while preserving quality, taste, architecture, verification, and human responsibility. |
 | [[wiki/Concepts/Vibe Coding\|Vibe Coding]] | concept | seed | Letting an AI coding agent take substantial implementation control under human steering. |
 | [[wiki/Concepts/Software 3.0\|Software 3.0]] | concept | seed | Natural-language context and prompts as a programming medium for LLM interpreters. |
 | [[wiki/Concepts/Agent-Native Infrastructure\|Agent-Native Infrastructure]] | concept | seed | Infrastructure designed for agents to use directly through legible instructions and APIs. |
 | [[wiki/Concepts/Understanding Bottleneck\|Understanding Bottleneck]] | concept | seed | Even when thinking is outsourced, the human must understand enough to direct the work. |
+| [[wiki/Concepts/A Motorcycle for the Mind\|A Motorcycle for the Mind]] | concept | developing | AI as an accelerator for thought, learning, coding, and agency that still requires human direction. |
+| [[wiki/Concepts/A Return to Code\|A Return to Code]] | concept | developing | Vibe coding as a return to playful, personal, direct software creation through agents. |
+| [[wiki/Concepts/Nothing Ever Happens Is Over\|Nothing Ever Happens Is Over]] | concept | developing | Fast-changing AI-era sense-making frame for startups, technology, risks, and personal operating systems. |
 
 ### Metacognition and learning
 
 | Page | Type | Status | Summary |
 | --- | --- | --- | --- |
 | [[wiki/Syntheses/Current Study System\|Current Study System]] | synthesis | developing | User's current encoding and retrieval loop built around BHS plus SIR. |
+| [[wiki/Syntheses/ICS System\|ICS System]] | synthesis | developing | High-level synthesis of Justin Sung's learning system: process control, five dimensions, encoding, retrieval, practice, and reflection. |
 | [[wiki/Dimensions/Dimensions of Learning\|Dimensions of Learning]] | model | developing | Central hub model for Deep Processing, Self-Management, Self-Regulation, Mindset, and Retrieval. |
 | [[wiki/Dimensions/Deep Processing\|Deep Processing]] | dimension | developing | Dimension for encoding through comparison, chunking, prioritization, and meaning-making. |
 | [[wiki/Dimensions/Self-Management\|Self-Management]] | dimension | developing | Dimension for time, task, focus, energy, habits, and environment. |
@@ -83,6 +87,7 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Techniques/WPW\|WPW]] | technique | developing | High-volume retrieval technique moving between whole-topic structure and detailed parts. |
 | [[wiki/Techniques/Kolbs Experiential Cycle\|Kolbs Experiential Cycle]] | technique | developing | Reflection loop for converting experience into better experiments. |
 | [[wiki/Techniques/Marginal Gains\|Marginal Gains]] | technique | developing | Improvement model for choosing small, compounding gains. |
+| [[wiki/Techniques/Reverse Goal Setting\|Reverse Goal Setting]] | technique | developing | Backward planning method for turning complex goals into capability gaps, force fields, and short action plans. |
 | [[wiki/Techniques/Dimension Practice Tracks\|Dimension Practice Tracks]] | technique | developing | Four-step practice tracks for Deep Processing, Self-Regulation, Self-Management, and Mindset. |
 | [[wiki/Techniques/Upgrading Your Dimensions\|Upgrading Your Dimensions]] | technique | developing | Strategy for improving dimensions through foundation and growth horizons. |
 | [[wiki/Concepts/Importance-Based Chunking\|Importance-Based Chunking]] | concept | developing | Grouping information by why it matters and how it should be used. |
@@ -94,7 +99,7 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | --- | --- | --- | --- |
 | [[wiki/Resources/Vietnamese Language Learning Resources\|Vietnamese Language Learning Resources]] | resource-catalog | developing | Compiled Refold resource catalog for Vietnamese immersion, sound/script work, tooling, and review resources. |
 | [[wiki/Resources/Mandarin Chinese Language Learning Resources\|Mandarin Chinese Language Learning Resources]] | resource-catalog | developing | Compiled Refold resource catalog for Mandarin comprehensible input, pinyin, character tools, immersion tooling, and review resources. |
-| [[wiki/Language/Refold Language Learning System\|Refold Language Learning System]] | synthesis | developing | Hub for Refold-based language learning notes and workflows. |
+| [[wiki/Language/Refold Language Learning System\|Refold Language Learning System]] | synthesis | developing | Source-built hub for Refold: acquisition, attention, three pillars, comprehension hacking, grammar, characters, and daily systems. |
 | [[wiki/Language/Attention is Important\|Attention is Important]] | concept | developing | Why immersion must remain a high-attention activity. |
 | [[wiki/Language/Noticing Game\|Noticing Game]] | technique | developing | Beginner attention technique for finding recognizable pieces in real input. |
 | [[wiki/Language/YouTube Immersion Account\|YouTube Immersion Account]] | workflow | developing | Separate recommendation environment for target-language YouTube immersion. |
@@ -109,10 +114,36 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Language/Vietnamese Grammar Primer\|Vietnamese Grammar Primer]] | primer | draft | Original draft grammar primer for Vietnamese, structured after the Refold primer workflow. |
 | [[wiki/Language/Language Isn't Math\|Language Isn't Math]] | concept | developing | Language-learning mindset: natural speech is acquired from patterns and examples, not deduced from grammar formulas. |
 
+### Red Teaming
+
+| Page | Type | Status | Summary |
+| --- | --- | --- | --- |
+| [[wiki/Red Team/Red Teaming\|Red Teaming]] | hub | developing | Dedicated Red Teaming hub connecting Army decision-support principles to the user's identity and learning system. |
+| [[wiki/Red Team/Four Principles of Red Teaming\|Four Principles of Red Teaming]] | model | developing | UFMCS model: self-awareness, groupthink mitigation, cultural empathy, and applied critical thinking. |
+| [[wiki/Red Team/Self-Awareness and Reflection\|Self-Awareness and Reflection]] | principle | developing | Individual reflection layer for noticing temperament, emotion, values, bias, and identity. |
+| [[wiki/Red Team/Groupthink Mitigation and Decision Support\|Groupthink Mitigation and Decision Support]] | principle | developing | Group-process discipline for protecting dissent and improving decisions. |
+| [[wiki/Red Team/Fostering Cultural Empathy\|Fostering Cultural Empathy]] | principle | developing | Perspective-taking discipline for understanding other actors from inside their frame. |
+| [[wiki/Red Team/Applied Critical Thinking\|Applied Critical Thinking]] | principle | developing | Practical methods for testing assumptions, arguments, analogies, biases, and alternatives. |
+| [[wiki/Red Team/Creative Thinking\|Creative Thinking]] | principle | developing | Red Team model for problem-finding, preparation, ideation, verification, and communication. |
+| [[wiki/Red Team/Assumption Tools\|Assumption Tools]] | tool-family | developing | Tools for surfacing and testing hidden load-bearing assumptions. |
+| [[wiki/Red Team/Perspective-Shifting Tools\|Perspective-Shifting Tools]] | tool-family | developing | Tools for seeing through other actors, cultures, incentives, and futures. |
+| [[wiki/Red Team/Group Process Tools\|Group Process Tools]] | tool-family | developing | Facilitation tools for reducing hierarchy effects and improving group divergence/convergence. |
+| [[wiki/Red Team/Failure Analysis Tools\|Failure Analysis Tools]] | tool-family | developing | Tools for finding plan failure paths before execution exposes them. |
+| [[wiki/Red Team/Communication Tools\|Communication Tools]] | tool-family | developing | Tools for making Red Team analysis clear enough to change decisions. |
+| [[wiki/Red Team/Four Ways of Seeing\|Four Ways of Seeing]] | tool | developing | Four-perspective tool for comparing how each side sees itself and the other. |
+| [[wiki/Red Team/Analysis of Competing Hypotheses\|Analysis of Competing Hypotheses]] | tool | developing | Evidence-comparison tool for testing multiple explanations against contradictions. |
+| [[wiki/Red Team/Key Assumptions Check\|Key Assumptions Check]] | tool | developing | Tool for identifying necessary, uncertain, and fragile assumptions. |
+| [[wiki/Red Team/Premortem Analysis\|Premortem Analysis]] | tool | developing | Failure-imagination tool for finding why a plan might break. |
+| [[wiki/Red Team/Stakeholder Mapping\|Stakeholder Mapping]] | tool | developing | Tool for mapping actors by interests, influence, support, and opposition. |
+| [[wiki/Red Team/String of Pearls\|String of Pearls]] | tool | developing | Vertical plan review tool linking tasks to assumptions, dependencies, and effects. |
+| [[wiki/Red Team/SEE-I\|SEE-I]] | tool | developing | State, Elaborate, Exemplify, Illustrate: a tool for clarifying and communicating ideas. |
+
 ### Reference
 
 | Page | Type | Status | Summary |
 | --- | --- | --- | --- |
+| [[wiki/Books/The Parasitic Mind\|The Parasitic Mind]] | book | developing | Longform review and takeaways on Gad Saad's argument for reason, free speech, and epistemic hygiene. |
+| [[wiki/Books/The Book of Elon\|The Book of Elon]] | book | developing | Longform review and takeaways on purpose, first-principles engineering, company-building, and civilizational optimism. |
 | [[wiki/Glossary\|Glossary]] | glossary | seed | Short definitions of recurring terms. |
 | [[wiki/Bibliography\|Bibliography]] | bibliography | seed | Source bibliography for the wiki. |
 | [[wiki/Timeline\|Timeline]] | timeline | seed | Timeline of important developments and repo events. |
