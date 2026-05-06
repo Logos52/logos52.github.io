@@ -1,0 +1,9 @@
+.markdown-preview-view h1,
+.markdown-source-view.mod-cm6 .cm-content h1 {
+  letter-spacing: 0;
+}
+
+.markdown-preview-view code {
+  font-size: 0.95em;
+}
+

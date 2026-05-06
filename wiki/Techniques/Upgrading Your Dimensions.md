@@ -1,0 +1,69 @@
+---
+type: technique
+status: developing
+created: 2026-05-06
+updated: 2026-05-06
+source-count: 1
+last-audited:
+tags:
+  - learning
+  - dimensions
+  - skill-development
+---
+
+# Upgrading Your Dimensions
+
+Upgrading Your Dimensions is the strategy for improving the user's learning system across short-term foundations and long-term cognitive growth.
+
+## Summary
+
+The practical idea is that learning growth has two tempos:
+
+- Short-term, high-yield foundations that quickly remove common blockers.
+- Longer-term growth work that reshapes deeper cognitive habits.
+
+The mistake is to chase advanced cognitive upgrades while the foundation is unstable, or to stay forever in quick fixes without training the deeper system.
+
+## Two Growth Horizons
+
+| Horizon | Job | Risk |
+| --- | --- | --- |
+| Foundation | Build enough control over time, tasks, retrieval, mindset, and basic learning methods to function well. | Rushing this creates fragile progress. |
+| Growth | Train deeper habits of processing, reflection, transfer, and self-directed improvement. | Starting too early can overload the system. |
+
+## Upgrade Logic
+
+1. Identify the limiting dimension.
+2. Decide whether the bottleneck is foundational or growth-oriented.
+3. Choose the smallest useful improvement target.
+4. Run practice and reflection cycles.
+5. Stabilize the improvement before adding more complexity.
+
+## Relationship To Other Pages
+
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] defines the map.
+- [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]] provides practice sequences.
+- [[wiki/Techniques/Marginal Gains|Marginal Gains]] chooses the next small upgrade.
+- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] converts attempts into learning.
+
+## Failure Modes
+
+| Failure | Signal | Repair |
+| --- | --- | --- |
+| Chasing advanced methods too early | Many techniques, little consistency. | Return to foundation: self-management, retrieval, and basic self-regulation. |
+| Staying in quick wins too long | Stable but plateaued performance. | Add growth-oriented difficulty. |
+| Improving too many dimensions | Reflection becomes noisy and actions scatter. | Pick one primary dimension and one support dimension. |
+| Theory-heavy upgrading | Lots of reading, little practice. | Run a small experiment quickly. |
+
+## Related Pages
+
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
+- [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
+- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+
+## Open Questions
+
+- Which dimension is the user's highest-leverage upgrade right now?
+- What evidence would show that the foundation is stable enough for growth-phase work?
