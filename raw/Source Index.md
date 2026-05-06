@@ -22,6 +22,16 @@ This index lets `raw/` and `Clippings/` remain dump directories while still givi
 | [[raw/How to Force Yourself To Achieve Your Goals (when you don’t feel like it)|How to Force Yourself To Achieve Your Goals]] | YouTube transcript | partially compiled | motivation, thought-action diffusion, focus zones | [[wiki/Concepts/Metacognition|Metacognition]], [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]] |
 | [[raw/【ルームツアー】ミニマリストしぶの新居が完成しました。|Minimalist room tour]] | YouTube transcript | queued | minimalism, environment design | outside current metacognition scope |
 | [[raw/sources/Language Isn't Math|Language Isn't Math]] | YouTube transcript | compiled | language acquisition, grammar mindset, phrase-level naturalness, input-first learning | [[wiki/Language/Language Isn't Math|Language Isn't Math]], [[wiki/Language/Refold Grammar Primers|Refold Grammar Primers]] |
+| [[raw/sources/A Motorcycle for the Mind|A Motorcycle for the Mind]] | article/transcript | compiled | AI leverage, learning, agency, AI anxiety, entrepreneurship | [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Concepts/Vibe Coding|Vibe Coding]] |
+| [[raw/sources/A Return to Code|A Return to Code]] | article/transcript | compiled | vibe coding, personal software, one-shot apps, coding agents | [[wiki/Concepts/A Return to Code|A Return to Code]], [[wiki/Concepts/Vibe Coding|Vibe Coding]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] |
+| [[raw/sources/‘Nothing Ever Happens’ Is Over|Nothing Ever Happens Is Over]] | article/transcript | compiled | AI-era change, startups, risk, agency, sense-making | [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]] |
+
+## Book Sources
+
+| Source | Type | Status | Main Topics | Compile Targets |
+| --- | --- | --- | --- | --- |
+| Gad Saad, *The Parasitic Mind* | book | compiled | epistemic hygiene, free speech, reason, idea pathogens, courage | [[wiki/Books/The Parasitic Mind|The Parasitic Mind]], [[wiki/Dimensions/Mindset|Mindset]], [[wiki/Dimensions/Deep Processing|Deep Processing]] |
+| Eric Jorgenson, *The Book of Elon* | book | compiled | purpose, first principles, engineering, company-building, urgency, civilizational optimism | [[wiki/Books/The Book of Elon|The Book of Elon]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Techniques/Marginal Gains|Marginal Gains]] |
 
 ## Clippings Inbox
 

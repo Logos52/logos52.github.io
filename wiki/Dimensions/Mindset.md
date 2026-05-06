@@ -2,8 +2,8 @@
 type: dimension
 status: developing
 created: 2026-05-04
-updated: 2026-05-04
-source-count: 1
+updated: 2026-05-06
+source-count: 3
 last-audited:
 tags:
   - learning
@@ -15,6 +15,8 @@ tags:
 # Mindset
 
 Mindset is the dimension responsible for how the learner interprets difficulty, mistakes, feedback, identity, and growth.
+
+Two book notes now feed this hub from different angles. [[wiki/Books/The Parasitic Mind|The Parasitic Mind]] is useful for epistemic courage: noticing when identity, tribe, or fear of offense distorts truth-seeking. [[wiki/Books/The Book of Elon|The Book of Elon]] is useful for builder courage: choosing usefulness, constraints, and action over comfort or commentary.
 
 ## Summary
 
@@ -67,6 +69,8 @@ In this system, Mindset supports sustained contact with challenge. It makes [[wi
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
+- [[wiki/Books/The Parasitic Mind|The Parasitic Mind]]
+- [[wiki/Books/The Book of Elon|The Book of Elon]]
 - [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
 

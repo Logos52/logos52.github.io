@@ -1,3 +1,9 @@
+---
+type: readme
+tags:
+  - system
+---
+
 # LLM Knowledge Base
 
 Public LLM knowledge base for notes, sources, compiled wiki pages, and research outputs.

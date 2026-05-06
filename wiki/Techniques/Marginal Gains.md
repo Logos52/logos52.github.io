@@ -3,7 +3,7 @@ type: technique
 status: developing
 created: 2026-05-06
 updated: 2026-05-06
-source-count: 1
+source-count: 2
 last-audited:
 tags:
   - learning
@@ -15,6 +15,8 @@ tags:
 # Marginal Gains
 
 Marginal Gains is the user's improvement-prioritization model: choose small, high-probability improvements that compound.
+
+The same logic applies outside studying. In fast-moving technical work, small improvements to search, review, source hygiene, feedback speed, and sense-making loops can compound into a much stronger operating system.
 
 ## Summary
 
@@ -65,9 +67,15 @@ Marginal Gains without Kolbs can become wishful planning. Kolbs without Marginal
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[templates/Kolbs Template|Kolbs Template]]
 - [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
+- [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset|Mindset]]
+
+## Sources
+
+- Learning-system synthesis from the user's study materials.
+- Naval Ravikant and Nivi, "'Nothing Ever Happens' Is Over" (2026-05-05).
 
 ## Open Questions
 

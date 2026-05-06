@@ -2,6 +2,8 @@
 type: open-questions
 created: 2026-05-02
 updated: 2026-05-06
+tags:
+  - system
 ---
 
 # Open Questions
@@ -90,3 +92,13 @@ Use this file as the queue of unresolved questions that should drive future sour
 - What tasks should use fast models, and what tasks justify thinking models?
 - What should be verified by scripts rather than by model judgment?
 - How can this wiki help me build understanding instead of just collecting summaries?
+- Which personal workflows deserve a disposable one-shot app?
+- What should "learn one layer below the abstraction" mean for coding agents, language learning, and research?
+- What would an agent-assisted weekly world-model review look like?
+
+## Books
+
+- How can Saad's "cumulative evidence" idea become a concrete Deep Processing checklist?
+- Which beliefs in my current system are identity-protected rather than evidence-protected?
+- What is the current constraint in my study/work system if I apply a Musk-style first-principles review?
+- Which process should be deleted before I optimize or automate it?
