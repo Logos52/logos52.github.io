@@ -31,3 +31,6 @@ Add public source references here as the wiki grows.
 - Anthropic, "Building Effective Agents" (2024-12-19). [Web](https://www.anthropic.com/engineering/building-effective-agents)
 - OpenAI, "Agents SDK." [Web](https://developers.openai.com/api/docs/guides/agents)
 - HumanLayer, "12 Factor Agents" (2025-04-03). [Web](https://www.humanlayer.dev/blog/12-factor-agents)
+- Stanford Center for Teaching and Learning, "Growth Mindset." [Web](https://ctl.stanford.edu/growth-mindset)
+- Harvard Graduate School of Education, "Mindset and Motivation" (2018-03-15). [Web](https://www.gse.harvard.edu/ideas/edcast/18/03/mindset-and-motivation)
+- National Institute of Mental Health, "My Mental Health: Do I Need Help?" [Web](https://www.nimh.nih.gov/health/publications/my-mental-health-do-i-need-help)

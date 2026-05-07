@@ -298,6 +298,8 @@ For the user's current system:
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 - [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
 - [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
+- [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
+- [[wiki/Concepts/Neuroticism|Neuroticism]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 
 ## Sources

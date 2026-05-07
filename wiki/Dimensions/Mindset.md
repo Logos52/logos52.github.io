@@ -69,6 +69,8 @@ In this system, Mindset supports sustained contact with challenge. It makes [[wi
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
+- [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
+- [[wiki/Concepts/Neuroticism|Neuroticism]]
 - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]]
 - [[wiki/Books/The Book of Elon|The Book of Elon]]
 - [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]]
