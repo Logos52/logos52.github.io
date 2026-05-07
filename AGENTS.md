@@ -158,6 +158,38 @@ Write reports to `outputs/audits/YYYY-MM-DD - Wiki Health Check.md`.
 
 Append a `lint` entry to `log.md`.
 
+### Status
+
+Use when the user asks how the wiki is doing, whether anything needs cleanup, or what should be improved next.
+
+Workflow:
+
+1. Read `notes/index.md`, recent `log.md` entries, and the top-level `wiki/` directory list.
+2. Count wiki pages by folder and page type when practical.
+3. Identify recently updated pages, high-value pages, likely orphans, pages missing source sections, bloated pages, and pages that may need splitting.
+4. Check for public/private risk at a high level.
+5. Return a concise status report with recommended next actions.
+6. Write a durable report to `outputs/audits/YYYY-MM-DD - Wiki Status.md` only if the status report is substantial.
+7. Append a `lint` or `maintenance` entry to `log.md` when a durable report or wiki change is made.
+
+Status is read-mostly. Do not reorganize files during a status pass unless the user explicitly asks.
+
+### Breakdown
+
+Use when the user asks for missing page ideas, split candidates, or ways to grow the wiki.
+
+Workflow:
+
+1. Read `notes/index.md`, recent `log.md`, and relevant hub pages.
+2. Search `wiki/` for recurring named concepts, techniques, workflows, tools, books, people, or systems without dedicated pages.
+3. Identify bloated pages where a subtopic has enough substance to become its own page.
+4. Rank candidates by usefulness to the user's active systems, number of references, and clarity of purpose.
+5. Present a candidate table before creating pages unless the user has already asked to create them.
+6. When creating pages, add backlinks from the parent or hub pages and update `notes/index.md`.
+7. Append a `compile` or `maintenance` entry to `log.md`.
+
+Breakdown expands the wiki deliberately. Avoid creating stubs that cannot support at least one useful summary, a few practical implications, and related links.
+
 ## Page Standards
 
 Every durable wiki page should include:
@@ -188,6 +220,52 @@ Preferred statuses:
 - `mature`
 - `needs-review`
 
+## Article Development Rules
+
+These rules apply to newly created pages and substantial rewrites. Do not retroactively rewrite existing pages just to match this standard unless the user asks.
+
+### Role Before Theory
+
+A page is not a generic article about the topic. It explains why the topic matters inside this knowledge base, how it connects to the user's systems, and what practical role it serves.
+
+Examples:
+
+- A book page is not only a book summary; it explains what the book clarifies, challenges, or changes in the user's thinking.
+- A technique page is not only a definition; it explains when to use the technique, how to run it, and how it fails.
+- A concept page is not only background; it explains what the concept helps diagnose, build, or decide.
+
+### Hub And Detail Discipline
+
+Hub pages should orient. Detail pages should carry the load.
+
+Avoid cramming repeated subtopics into large hub pages. If a subtopic needs a third substantial paragraph, consider whether it deserves its own page.
+
+Avoid thinning the wiki into many weak stubs. A new page should have enough material to explain its role, practical use, related pages, and open questions.
+
+### Integration Rule
+
+When updating an existing page:
+
+1. Re-read the page first.
+2. Integrate new material into the existing structure.
+3. Improve the page's coherence, links, and practical usefulness.
+4. Avoid appending disconnected notes to the bottom.
+5. Update frontmatter `updated` and `source-count` when relevant.
+
+Every page touched during an ingest should become meaningfully better.
+
+### Type-Specific Structure
+
+Use the structure that fits the page type:
+
+- `concept`: definition, role in the system, practical implications, failure modes, related pages, sources.
+- `technique`: purpose, when to use it, step-by-step use, examples, failure modes, related techniques, sources.
+- `workflow`: trigger, inputs, steps, outputs, maintenance rules, related pages, sources.
+- `synthesis`: core thesis, operating model, key takeaways, linked subpages, open questions, sources.
+- `book`: core argument, longform summary, what it clarifies for this wiki, key takeaways, limits, related pages, sources.
+- `tool`: what it does, when to use it, setup or operating notes, tradeoffs, related workflows, sources.
+- `source note`: metadata, summary, extracted claims, useful quotes if allowed, links into the wiki.
+
 ## Source Discipline
 
 - Do not fabricate sources, citations, authors, publication dates, URLs, or claims.
@@ -200,7 +278,10 @@ Preferred statuses:
 ## Writing Style
 
 - Write concise technical prose.
-- Prefer concrete explanations, examples, tradeoffs, and failure modes.
+- Prefer concrete explanations, examples, tradeoffs, failure modes, and practical use.
+- Start with the page's role before abstract theory.
+- Use neutral, plain, article-like prose. Let facts, examples, and source-grounded claims carry significance.
+- Avoid hype, peacock words, rhetorical questions, and AI-editorial filler such as "importantly," "interestingly," and "it is worth noting."
 - Use Obsidian links for internal concepts: `[[wiki/Concepts/Metacognition|Metacognition]]`.
 - Use normal markdown links for external URLs.
 - Avoid decorative formatting that makes files harder to diff.

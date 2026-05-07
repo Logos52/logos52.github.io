@@ -1,7 +1,7 @@
 ---
 type: log
 created: 2026-05-02
-updated: 2026-05-06
+updated: 2026-05-08
 tags:
   - system
 ---
@@ -9,6 +9,16 @@ tags:
 # Log
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
+
+## [2026-05-08] maintenance | Writing standards and wiki expansion workflows
+
+- Added [[00 Command Center/Writing Standards|Writing Standards]] for future page quality, neutral article voice, practical role-first writing, hub/detail discipline, and integration rules.
+- Added [[templates/Writing Standard|Writing Standard]] as a reusable drafting template.
+- Added workflow pages:
+  - [[wiki/Workflows/Wiki Status Checks|Wiki Status Checks]]
+  - [[wiki/Workflows/Wiki Breakdown Pass|Wiki Breakdown Pass]]
+- Updated [[AGENTS|AGENTS]] with status, breakdown, article-development, anti-cramming, and type-specific page rules.
+- Updated [[notes/index|notes/index]] and [[00 Command Center/Index|Command Center Index]].
 
 ## [2026-05-02] setup | Phase 1 vault scaffold
 

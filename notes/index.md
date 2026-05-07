@@ -4,7 +4,7 @@ description: "Public notes and LLM-maintained knowledge base."
 type: index
 hideFolderListing: true
 created: 2026-05-02
-updated: 2026-05-07
+updated: 2026-05-08
 tags:
   - system
 ---
@@ -42,6 +42,8 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Workflows/Raw to Wiki Compilation\|Raw to Wiki Compilation]] | workflow | seed | Process for converting source material into durable, linked wiki pages. |
 | [[wiki/Workflows/Question Answering Against a Wiki\|Question Answering Against a Wiki]] | workflow | seed | Workflow for answering questions by reading the compiled wiki first, then sources as needed. |
 | [[wiki/Workflows/Wiki Health Checks\|Wiki Health Checks]] | workflow | seed | Periodic audits for contradictions, stale claims, orphan pages, and missing concepts. |
+| [[wiki/Workflows/Wiki Status Checks\|Wiki Status Checks]] | workflow | seed | Lightweight read-mostly audits that summarize wiki health, risks, and next actions. |
+| [[wiki/Workflows/Wiki Breakdown Pass\|Wiki Breakdown Pass]] | workflow | seed | Process for finding missing pages, split candidates, and deliberate wiki expansion opportunities. |
 | [[wiki/Techniques/Context Engineering\|Context Engineering]] | technique | seed | Shaping available context so LLMs can navigate and use the wiki effectively. |
 | [[wiki/Concepts/LLM Tool Use\|LLM Tool Use]] | concept | seed | Search, file upload, code execution, IDE agents, and other tools as context channels. |
 | [[wiki/Concepts/Thinking Models\|Thinking Models]] | concept | seed | Reasoning models are useful for hard tasks where extra latency can buy accuracy. |
@@ -149,6 +151,7 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Glossary\|Glossary]] | glossary | seed | Short definitions of recurring terms. |
 | [[wiki/Bibliography\|Bibliography]] | bibliography | seed | Source bibliography for the wiki. |
 | [[wiki/Timeline\|Timeline]] | timeline | seed | Timeline of important developments and repo events. |
+| [[00 Command Center/Writing Standards\|Writing Standards]] | system | developing | Operating standard for future wiki writing, page structure, anti-cramming, and article quality. |
 
 ## How this is built
 
