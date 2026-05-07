@@ -108,11 +108,28 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     focusOnHover,
     enableRadial,
     filterPrefixes,
+    excludeSlugs,
     colorRules,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
+  const hiddenSlugs = new Set<SimpleSlug>(
+    (excludeSlugs ?? [
+      "notes/index",
+      "log",
+      "README",
+      "AGENTS",
+      "raw/Source-Index",
+      "00-Command-Center/Index",
+      "00-Command-Center/Home",
+      "00-Command-Center/Open-Questions",
+      "00-Command-Center/Changelog",
+      "00-Command-Center/Implementation-Plan",
+    ]).map((slug) => simplifySlug(slug as FullSlug)),
+  )
+
   const allowedByPrefix = (slug: SimpleSlug) =>
-    !filterPrefixes?.length || filterPrefixes.some((prefix) => slug.startsWith(prefix))
+    !hiddenSlugs.has(slug) &&
+    (!filterPrefixes?.length || filterPrefixes.some((prefix) => slug.startsWith(prefix)))
 
   const data: Map<SimpleSlug, ContentDetails> = new Map(
     Object.entries<ContentDetails>(await fetchData)

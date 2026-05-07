@@ -20,6 +20,7 @@ export interface D3Config {
   focusOnHover?: boolean
   enableRadial?: boolean
   filterPrefixes?: string[]
+  excludeSlugs?: string[]
   colorRules?: { prefix: string; color: string }[]
 }
 
