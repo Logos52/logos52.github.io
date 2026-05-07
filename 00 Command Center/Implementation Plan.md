@@ -16,7 +16,7 @@ The vault has three layers:
 
 1. Raw sources: `raw/` and `Clippings/`
 2. Compiled wiki: `wiki/`
-3. Schema and operations: [[AGENTS]], [[index]], [[log]], [[raw/Source Index|Source Index]]
+3. Schema and operations: [[AGENTS]], [[notes/index]], [[log]], [[raw/Source Index|Source Index]]
 
 ## Phase 1 — Scaffold And Schema
 
@@ -25,7 +25,7 @@ Status: done
 - Created separate Obsidian/Git vault.
 - Added `raw/`, `wiki/`, `outputs/`, `templates/`, and `tools/`.
 - Added [[AGENTS]] as the operating schema.
-- Added [[index]] as the content-oriented wiki catalog.
+- Added [[notes/index]] as the content-oriented wiki catalog.
 - Added [[log]] as the append-only operation history.
 - Added command center pages for Obsidian navigation.
 
@@ -122,4 +122,4 @@ Likely first tools:
 
 - Simple markdown search over `wiki/`, `raw/`, `Clippings/`, and `outputs/`.
 - Health-check script for orphan pages, missing sources, and unindexed files.
-- Optional qmd integration if the wiki outgrows `index.md` plus `rg`.
+- Optional qmd integration if the wiki outgrows `notes/index.md` plus `rg`.

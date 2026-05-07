@@ -18,13 +18,13 @@ Raw to wiki compilation is the process of turning source material into durable, 
 ## Workflow
 
 1. Add source material or source notes under `raw/` or `Clippings/`.
-2. Read [[index|index.md]], [[raw/Source Index|Source Index]], and recent [[log|log.md]] entries.
+2. Read [[notes/index|notes/index.md]], [[raw/Source Index|Source Index]], and recent [[log|log.md]] entries.
 3. Extract metadata: title, author, URL, date, license, topic, and status.
 4. Add or update the source row in [[raw/Source Index|Source Index]].
 5. Identify durable concepts and contradictions with existing pages.
 6. Create or update wiki pages for those concepts.
 7. Add backlinks between source notes, concepts, tools, people, papers, and workflows.
-8. Update [[index|index.md]].
+8. Update [[notes/index|notes/index.md]].
 9. Append an ingest or compile entry to [[log|log.md]].
 
 ## Rules

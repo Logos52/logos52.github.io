@@ -88,7 +88,7 @@ Agentic engineering should lean into this. Convert vague quality into checks whe
 
 Agents are only as good as the context they can use. Give them the right files, constraints, examples, commands, and prior decisions. Remove noise when possible.
 
-For this vault, [[index|index.md]], [[log|log.md]], [[raw/Source Index|Source Index]], and [[AGENTS]] are agentic engineering artifacts. They make the environment legible to future agents.
+For this vault, [[notes/index|notes/index.md]], [[log|log.md]], [[raw/Source Index|Source Index]], and [[AGENTS]] are agentic engineering artifacts. They make the environment legible to future agents.
 
 Good context answers:
 

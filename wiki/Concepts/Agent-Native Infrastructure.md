@@ -31,7 +31,7 @@ Karpathy argues that much of today's infrastructure is still written for humans.
 
 This wiki should be easy for an LLM to operate:
 
-- `index.md` tells the agent what exists.
+- `notes/index.md` tells the agent what exists.
 - `log.md` tells the agent what happened recently.
 - `AGENTS.md` tells the agent how to act.
 - `raw/Source Index.md` tells the agent what sources exist and their status.

@@ -32,7 +32,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-02] maintenance | Align schema with Karpathy LLM-wiki pattern
 
-- Added root [[index|index]] as the content-oriented wiki catalog.
+- Added [[notes/index|notes/index]] as the content-oriented wiki catalog.
 - Added root [[log|log]] as the append-only operation history.
 - Expanded [[AGENTS|AGENTS]] with explicit architecture, ingest, query, lint, index, and logging workflows.
 - Added [[00 Command Center/Implementation Plan|Implementation Plan]] to make the build phases durable in the vault.
@@ -49,7 +49,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
   - [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
   - [[wiki/Concepts/Thinking Models|Thinking Models]]
-- Updated [[index|index]], [[raw/Source Index|Source Index]], bibliography, command center, and open questions.
+- Updated [[notes/index|notes/index]], [[raw/Source Index|Source Index]], bibliography, command center, and open questions.
 ## [2026-05-04] compile | Study-system cluster
 
 - Added study-system cluster:
@@ -58,7 +58,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
   - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
   - [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
-- Updated [[index|index]], [[raw/Source Index|Source Index]], command center, glossary, bibliography, metacognition pages, and open questions.
+- Updated [[notes/index|notes/index]], [[raw/Source Index|Source Index]], command center, glossary, bibliography, metacognition pages, and open questions.
 
 ## [2026-05-04] compile | Dimensions of Learning hub layer
 
@@ -75,7 +75,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Techniques/Skin|Skin]]
 - Rewired [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] under Deep Processing and Self-Regulation.
 - Rewired [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] under Retrieval and Self-Regulation.
-- Updated [[index|index]], command center, source index, glossary, open questions, and supporting learning pages.
+- Updated [[notes/index|notes/index]], command center, source index, glossary, open questions, and supporting learning pages.
 
 ## [2026-05-06] compile | High-value learning system pages
 
@@ -96,7 +96,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]]
   - [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]]
 - Preserved resource names, links, resource types, and brief notes while avoiding reproduction of the course as an instructional sequence.
-- Updated [[index|index]], command-center navigation, and [[raw/Source Index|Source Index]].
+- Updated [[notes/index|notes/index]], command-center navigation, and [[raw/Source Index|Source Index]].
 
 ## [2026-05-06] compile | Refold course concept pages
 
@@ -116,13 +116,13 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]]
 - Added user-specific Migaku notes to [[wiki/Language/Immersion Metalayers|Immersion Metalayers]].
 - Drafted [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]] as an original primer based on the grammar-primer workflow, with a note that it needs Vietnamese-specific verification.
-- Updated [[index|index]], command-center navigation, and [[raw/Source Index|Source Index]].
+- Updated [[notes/index|notes/index]], command-center navigation, and [[raw/Source Index|Source Index]].
 
 ## [2026-05-06] compile | Language Isn't Math
 
 - Added [[wiki/Language/Language Isn't Math|Language Isn't Math]] from [[raw/sources/Language Isn't Math|Language Isn't Math]].
 - Synthesized the source into agnostic rules for grammar mindset, phrase learning, native-like expression, and input-first acquisition.
-- Updated [[index|index]], command-center navigation, and [[raw/Source Index|Source Index]].
+- Updated [[notes/index|notes/index]], command-center navigation, and [[raw/Source Index|Source Index]].
 
 ## [2026-05-06] compile | Naval AI sources and book summaries
 
@@ -134,7 +134,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]]
   - [[wiki/Books/The Book of Elon|The Book of Elon]]
 - Updated [[wiki/Concepts/Vibe Coding|Vibe Coding]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and [[wiki/Dimensions/Mindset|Mindset]] with backlinks and synthesis.
-- Updated [[index|index]], [[raw/Source Index|Source Index]], bibliography, command center, and open questions.
+- Updated [[notes/index|notes/index]], [[raw/Source Index|Source Index]], bibliography, command center, and open questions.
 
 ## [2026-05-06] compile | Red Team Handbook section
 
@@ -211,3 +211,11 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Expanded [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Aim|Aim]], [[wiki/Techniques/Shoot|Shoot]], and [[wiki/Techniques/Skin|Skin]] from the learning-system source material.
 - Reoriented the pages toward practical use: when to do each step, what to write, what the artifact should look like, quality checks, failure modes, and retrieval handoff.
 - Renamed the mindset concept page to [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]].
+
+## [2026-05-07] maintenance | Personal site homepage
+
+- Replaced the root homepage with a short personal landing page.
+- Moved the knowledge-base catalog to [[notes/index|Notes]].
+- Added [[blog/index|Blog]] as an empty blog landing page.
+- Added global Home / Blog / Notes navigation.
+- Updated Quartz configuration for the root `logos52.github.io` site URL.

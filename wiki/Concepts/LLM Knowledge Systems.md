@@ -32,7 +32,7 @@ This vault follows three layers:
 
 - Raw sources: immutable evidence in `raw/` and `Clippings/`.
 - Wiki: LLM-owned compiled understanding in `wiki/`.
-- Schema: maintainer instructions in [[AGENTS|AGENTS.md]], supported by [[index|index.md]] and [[log|log.md]].
+- Schema: maintainer instructions in [[AGENTS|AGENTS.md]], supported by [[notes/index|notes/index.md]] and [[log|log.md]].
 
 The point is accumulation. The LLM should not re-summarize raw sources from scratch for every question. It should maintain a current synthesis in the wiki, then answer from that compiled layer first.
 

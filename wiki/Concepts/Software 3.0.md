@@ -23,7 +23,7 @@ In Software 1.0, humans write explicit code. In Software 2.0, behavior is learne
 
 The unit of leverage shifts from exact code to effective context. A good instruction to an agent can replace a long shell script or manual setup guide because the agent can inspect the environment, adapt, run commands, and debug.
 
-For this wiki, `AGENTS.md`, `index.md`, and `log.md` are Software 3.0 artifacts: they are not application code, but they program future LLM behavior.
+For this wiki, `AGENTS.md`, `notes/index.md`, and `log.md` are Software 3.0 artifacts: they are not application code, but they program future LLM behavior.
 
 ## Related Concepts
 

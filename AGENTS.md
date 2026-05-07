@@ -46,7 +46,7 @@ The LLM should:
 - Update existing pages when new sources change or enrich the synthesis.
 - Add cross-references between pages.
 - Flag contradictions and unresolved claims.
-- Keep `index.md` current.
+- Keep `notes/index.md` current.
 - Keep claims source-grounded.
 
 The human mostly reads the wiki and gives direction.
@@ -55,11 +55,11 @@ The human mostly reads the wiki and gives direction.
 
 `AGENTS.md` is the operating schema for the LLM. Update it when the workflow changes.
 
-`index.md` and `log.md` are special navigation/history files and must be maintained as part of normal work.
+`notes/index.md` and `log.md` are special navigation/history files and must be maintained as part of normal work.
 
 ## Special Files
 
-### `index.md`
+### `notes/index.md`
 
 Content-oriented catalog of the wiki. Read this first before answering questions or compiling sources.
 
@@ -71,7 +71,7 @@ It should list important wiki pages with:
 - Status.
 - Source count when useful.
 
-Update `index.md` whenever wiki pages are created, deleted, renamed, or substantially changed.
+Update `notes/index.md` whenever wiki pages are created, deleted, renamed, or substantially changed.
 
 ### `log.md`
 
@@ -109,14 +109,14 @@ Use when the user drops in a new source and asks to process it.
 
 Workflow:
 
-1. Read `index.md`, `raw/Source Index.md`, and recent `log.md` entries.
+1. Read `notes/index.md`, `raw/Source Index.md`, and recent `log.md` entries.
 2. Read the new source from `raw/` or `Clippings/`.
 3. Identify source metadata: title, author, URL, date, type, topic, and publication/privacy risk.
 4. Add or update the source row in `raw/Source Index.md`.
 5. Write or update relevant wiki pages.
 6. Update related pages that the new source strengthens, contradicts, or reframes.
 7. Add backlinks between source, concepts, techniques, workflows, tools, and outputs.
-8. Update `index.md`.
+8. Update `notes/index.md`.
 9. Append an `ingest` or `compile` entry to `log.md`.
 
 Prefer one-source-at-a-time ingest when the user wants close supervision.
@@ -127,7 +127,7 @@ Use when the user asks a question against the wiki.
 
 Workflow:
 
-1. Read `index.md` first.
+1. Read `notes/index.md` first.
 2. Search relevant terms across `wiki/`, `raw/`, `Clippings/`, and `outputs/`.
 3. Read the most relevant wiki pages before raw sources.
 4. Read raw sources only when the wiki is insufficient or citations need checking.
@@ -135,7 +135,7 @@ Workflow:
 6. Include consulted wiki pages and sources.
 7. Add unresolved issues to `00 Command Center/Open Questions.md`.
 8. Promote durable insights back into `wiki/`.
-9. Update `index.md` if wiki pages changed.
+9. Update `notes/index.md` if wiki pages changed.
 10. Append a `query` entry to `log.md`.
 
 ### Lint
@@ -221,7 +221,7 @@ Good outputs should not disappear into chat history. If an output creates durabl
 
 ## Tooling
 
-At small scale, `index.md` plus `rg` is enough.
+At small scale, `notes/index.md` plus `rg` is enough.
 
 As the wiki grows, consider adding:
 
@@ -244,11 +244,11 @@ Do not include private journal material, relationship notes, credentials, privat
 
 ## Static Site (Quartz v4)
 
-The wiki is also published as a static site at <https://logos52.github.io/llm-knowledge-base>. The site is built by Quartz v4 from the repo root. Pushes to `main` trigger an automatic rebuild via `.github/workflows/deploy.yml`.
+The site is published at <https://logos52.github.io>. The site is built by Quartz v4 from the repo root. Pushes to `main` trigger an automatic rebuild via `.github/workflows/deploy.yml`.
 
 What gets published vs. what stays local:
 
-- Published: `wiki/`, `00 Command Center/`, `index.md`, `log.md`, `README.md`, `AGENTS.md`.
+- Published: `wiki/`, `00 Command Center/`, `notes/index.md`, `log.md`, `README.md`, `AGENTS.md`.
 - Excluded from the site (still in repo): `raw/`, `Clippings/`, `outputs/`, `templates/`, `tools/`, `.obsidian/`.
 
 Exclusions live in `quartz.config.ts → ignorePatterns`. Do not move published content into excluded folders or vice versa without updating that list.
@@ -259,8 +259,8 @@ Rules for LLM agents:
 - Wikilinks pointing into excluded folders (e.g., `[[raw/Source Index]]`, `[[templates/Kolbs Template]]`) will render as broken on the site. They are still valuable inside Obsidian; leave them unless the user asks for a cleanup.
 - When adding a new wiki page, prefer placing it under one of the existing top-level subfolders in `wiki/` (`Concepts/`, `Techniques/`, `Workflows/`, `Models/`, `Dimensions/`, `Language/`, `People/`, `Papers/`, `Resources/`, `Syntheses/`, `Tools/`).
 - Do not commit `node_modules/`, `public/`, or `.quartz-cache/`. These are gitignored.
-- Do not edit files in `quartz/` (the framework) directly. Customizations belong in `quartz.config.ts` and `quartz.layout.ts`.
-- The site's home page is rendered from `index.md`. Treat it as the catalog/landing copy.
+- Avoid editing upstream Quartz framework files unless the customization requires a small local component. Prefer `quartz.config.ts`, `quartz.layout.ts`, and dedicated custom components.
+- The site's home page is rendered from `index.md`. The wiki catalog lives at `notes/index.md`.
 
 Local preview workflow:
 
