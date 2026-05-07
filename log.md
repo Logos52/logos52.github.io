@@ -10,6 +10,12 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-05-08] maintenance | Simplify writing standards
+
+- Replaced rigid style guidance in [[AGENTS|AGENTS]] and [[00 Command Center/Writing Standards|Writing Standards]] with a lighter "useful operating notes" standard.
+- Removed phrase lists and type-specific structure rules that were making drafts feel templated.
+- Added guidance to preserve strong existing language unless there is a clear reason to change it.
+
 ## [2026-05-08] maintenance | Field-manual writing style
 
 - Updated [[AGENTS|AGENTS]] and [[00 Command Center/Writing Standards|Writing Standards]] to favor practical field-manual prose over sterile encyclopedia prose.
