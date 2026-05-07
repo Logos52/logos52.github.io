@@ -18,6 +18,8 @@ The goal is to incrementally compile raw sources into a persistent, interlinked 
 
 Every source ingest, question, and lint pass should make the wiki better.
 
+Write role before theory. A wiki page should first explain what the topic does inside this knowledge base and why it matters to the user's systems. General background comes after the page's practical role is clear.
+
 ## Three Layers
 
 ### 1. Raw Sources
