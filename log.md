@@ -10,6 +10,12 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-05-08] maintenance | Field-manual writing style
+
+- Updated [[AGENTS|AGENTS]] and [[00 Command Center/Writing Standards|Writing Standards]] to favor practical field-manual prose over sterile encyclopedia prose.
+- Clarified that role-before-theory should explain when to use an idea, what it replaces or improves, what it produces, and what it connects to next.
+- Added preferred and weak phrase patterns for future wiki pages.
+
 ## [2026-05-08] maintenance | Writing standards and wiki expansion workflows
 
 - Added [[00 Command Center/Writing Standards|Writing Standards]] for future page quality, neutral article voice, practical role-first writing, hub/detail discipline, and integration rules.

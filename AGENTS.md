@@ -18,7 +18,7 @@ The goal is to incrementally compile raw sources into a persistent, interlinked 
 
 Every source ingest, question, and lint pass should make the wiki better.
 
-Write role before theory. A wiki page should first explain what the topic does inside this knowledge base and why it matters to the user's systems. General background comes after the page's practical role is clear.
+Write role before theory. A wiki page should first explain what the topic does inside this knowledge base, when the user should use it, and what behavior or decision it changes. General background comes after the practical role is clear.
 
 ## Three Layers
 
@@ -228,13 +228,21 @@ These rules apply to newly created pages and substantial rewrites. Do not retroa
 
 ### Role Before Theory
 
-A page is not a generic article about the topic. It explains why the topic matters inside this knowledge base, how it connects to the user's systems, and what practical role it serves.
+A page is not a generic article about the topic. It explains what the topic does inside this knowledge base, when the user should use it, what it replaces or improves, and what it connects to next.
 
 Examples:
 
 - A book page is not only a book summary; it explains what the book clarifies, challenges, or changes in the user's thinking.
 - A technique page is not only a definition; it explains when to use the technique, how to run it, and how it fails.
 - A concept page is not only background; it explains what the concept helps diagnose, build, or decide.
+
+Good opening sections should answer:
+
+- What is this in the user's system?
+- When should it be used?
+- What does it replace or improve?
+- What does it produce?
+- What does it connect to next?
 
 ### Hub And Detail Discipline
 
@@ -279,10 +287,15 @@ Use the structure that fits the page type:
 
 ## Writing Style
 
-- Write concise technical prose.
+- Write practical field-manual prose.
+- Keep the wiki clear and source-grounded, but not sterile.
 - Prefer concrete explanations, examples, tradeoffs, failure modes, and practical use.
 - Start with the page's role before abstract theory.
-- Use neutral, plain, article-like prose. Let facts, examples, and source-grounded claims carry significance.
+- Prefer language that helps the user know when to use an idea, what it replaces, what action it changes, and how it connects to the user's systems.
+- Prefer concrete verbs over abstract labels.
+- Good phrases: "Use it when...", "This replaces...", "The practical version...", "The output should...", "If this fails...".
+- Avoid over-neutralized encyclopedia phrasing when it makes the page feel generic.
+- Weak phrases: "This is a framework for...", "It can be understood as...", "The purpose of this concept is...", "This facilitates...", "This is not merely...".
 - Avoid hype, peacock words, rhetorical questions, and AI-editorial filler such as "importantly," "interestingly," and "it is worth noting."
 - Use Obsidian links for internal concepts: `[[wiki/Concepts/Metacognition|Metacognition]]`.
 - Use normal markdown links for external URLs.
