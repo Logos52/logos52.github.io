@@ -87,13 +87,17 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     showTags,
     focusOnHover,
     enableRadial,
+    filterPrefixes,
+    colorRules,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
+  const allowedByPrefix = (slug: SimpleSlug) =>
+    !filterPrefixes?.length || filterPrefixes.some((prefix) => slug.startsWith(prefix))
+
   const data: Map<SimpleSlug, ContentDetails> = new Map(
-    Object.entries<ContentDetails>(await fetchData).map(([k, v]) => [
-      simplifySlug(k as FullSlug),
-      v,
-    ]),
+    Object.entries<ContentDetails>(await fetchData)
+      .map(([k, v]) => [simplifySlug(k as FullSlug), v] as [SimpleSlug, ContentDetails])
+      .filter(([slug]) => allowedByPrefix(slug)),
   )
   const links: SimpleLinkData[] = []
   const tags: SimpleSlug[] = []
@@ -195,9 +199,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   // calculate color
   const color = (d: NodeData) => {
+    const configuredColor = colorRules?.find((rule) => d.id.startsWith(rule.prefix))?.color
     const isCurrent = d.id === slug
     if (isCurrent) {
       return computedStyleMap["--secondary"]
+    } else if (configuredColor && !d.id.startsWith("tags/")) {
+      return configuredColor
     } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
       return computedStyleMap["--tertiary"]
     } else {
