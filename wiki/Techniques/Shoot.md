@@ -2,9 +2,9 @@
 type: technique
 status: developing
 created: 2026-05-04
-updated: 2026-05-04
-source-count: 1
-last-audited:
+updated: 2026-05-07
+source-count: 5
+last-audited: 2026-05-07
 tags:
   - learning
   - bhs
@@ -14,42 +14,142 @@ tags:
 
 # Shoot
 
-Shoot is the second step of [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]. It investigates the questions raised during [[wiki/Techniques/Aim|Aim]] and turns source material into a working structure.
+Shoot is the second step of [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]. It is where you use sources to answer your [[wiki/Techniques/Aim|Aim]] questions and build the working map.
 
-## Summary
+The practical goal: satisfy curiosity, clarify relationships, add detail, and keep constructing the map while learning.
 
-Shoot is active learning while using sources. The learner reads, watches, listens, asks, searches, solves, and maps in response to the questions Aim created.
+## How To Use Shoot
 
-The goal is to build a structure while learning, not to consume first and organize later.
+### 1. Put Aim Questions Beside The Source
 
-## Cognitive Job
+Start with the questions from Aim visible.
 
-Shoot should activate:
+Do not read with a blank mind. Read to answer.
 
-- Relationship testing.
-- Explanation.
-- Detail placement.
-- Map construction.
-- Source interrogation.
-- Chunk revision.
+### 2. Answer Questions In Your Own Structure
 
-## Good Shoot Behavior
+As the source gives information:
 
-- Answer Aim questions from sources.
-- Add only details that serve the structure or expected performance.
-- Keep the map flexible while new relationships appear.
-- Use notes to reduce cognitive load rather than decorate.
-- Notice when the initial chunk structure needs to change.
+- answer the relevant Aim question;
+- place the answer under the chunk it belongs to;
+- add a relationship if it changes the map;
+- mark uncertainty if the answer is incomplete.
+
+Do not copy source order unless the source order is genuinely the best structure.
+
+### 3. Keep Updating The Map
+
+Shoot is not a clean final product.
+
+While shooting:
+
+- move concepts;
+- rename chunks;
+- split overloaded areas;
+- merge weak areas;
+- add missing relationships;
+- delete details that do not matter.
+
+The map should change as understanding improves.
+
+### 4. Add Detail Only When It Serves The Structure
+
+Details are useful when they:
+
+- explain a relationship;
+- support a chunk;
+- clarify an example;
+- prepare for assessment;
+- prevent likely forgetting;
+- expose a gap.
+
+Details are not useful when they are copied because they appeared in the source.
+
+### 5. Leave Unanswered Questions
+
+Not every Aim question needs a perfect answer.
+
+Sometimes the learning happens because the question makes you look for relationships. If the question remains too advanced, mark it and move on.
+
+## Shoot During A Lecture Or Video
+
+Use the source as a live answer stream.
+
+Practical method:
+
+- write short notes, not sentences;
+- map as you go;
+- attach details to existing chunks;
+- use question marks for unresolved points;
+- avoid transcript mode;
+- after the event, spend 5-10 minutes cleaning the rough map.
+
+If the event is too fast, capture only the backbone and unresolved questions. Finish Shoot afterward.
+
+## Shoot During Reading
+
+Reading gives more control.
+
+Practical method:
+
+- pause after each section;
+- ask which Aim question the section answers;
+- add the answer to the map;
+- check whether the section suggests a new chunk;
+- avoid highlighting without processing.
+
+If you highlight, each highlight should either answer a question or support a chunk.
+
+## What Shoot Should Feel Like
+
+Good signs:
+
+- Shoot feels easier because Aim gave direction;
+- you are answering questions, not collecting text;
+- source details have places to go;
+- your map changes as you learn;
+- you notice when chunks are weak.
+
+Warning signs:
+
+- the map follows the textbook exactly;
+- you are copying full sentences;
+- you are afraid to move chunks;
+- every detail feels equally important;
+- your notes are linear blocks with arrows added later;
+- Shoot feels scattered because Aim was weak.
+
+## Practical Quality Checklist
+
+After a Shoot session:
+
+- Did I answer the main Aim questions?
+- Did I add only useful details?
+- Did the map change from my first guess?
+- Can I explain the main relationships out loud?
+- Did I mark unresolved questions?
+- Did I avoid copying source order?
+
+## Common Fixes
+
+| Problem | Fix |
+| --- | --- |
+| Shoot becomes copying | Stop and answer one Aim question from memory. |
+| Too much detail | Ask what chunk the detail supports. If none, remove or park it. |
+| Map is chaotic | Identify the 3-5 largest chunks and rebuild around them. |
+| Relationships are unclear | Ask "how is this related to ___?" between nearby concepts. |
+| Aim questions are weak | Pause Shoot and re-Aim with better why/how questions. |
 
 ## Output
 
-Shoot should usually produce:
+Shoot should produce:
 
-- A working map or structured note.
-- Clarified relationships.
-- Details attached to chunks.
-- Better retrieval prompts.
-- Unresolved questions for follow-up.
+- a working map;
+- answered Aim questions;
+- clarified relationships;
+- details attached to chunks;
+- unresolved questions;
+- material ready for [[wiki/Techniques/Skin|Skin]].
 
 ## Related Pages
 
@@ -59,6 +159,10 @@ Shoot should usually produce:
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
+
+## Sources
+
+- Justin Sung / iCanStudy learning-system materials, synthesized in original language.
 
 ## Open Questions
 

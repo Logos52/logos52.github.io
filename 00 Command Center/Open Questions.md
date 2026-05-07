@@ -51,6 +51,8 @@ Use this file as the queue of unresolved questions that should drive future sour
 - What is the smallest weekly review that checks all five dimensions without becoming busywork?
 - What symptoms distinguish a Deep Processing problem from a Retrieval problem?
 - What symptoms distinguish a Self-Management problem from a Mindset problem?
+- Which fixed-mindset trigger most often blocks experimentation?
+- Which neurotic thought pattern most often captures attention during study?
 - What should route a study failure into Self-Regulation rather than changing the study technique itself?
 - Which backlinks should flow through each dimension hub as this wiki grows?
 - Should each worked example include a five-dimension diagnosis?
@@ -63,6 +65,7 @@ Use this file as the queue of unresolved questions that should drive future sour
 - When should I use [[wiki/Techniques/WPW|WPW]] instead of mindmap reconstruction, generated questions, or direct practice?
 - What is the next [[wiki/Techniques/Marginal Gains|Marginal Gain]] worth stacking in my study system?
 - Which current goal should be mapped with [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]] first?
+- Which current learning task should be made safe enough to fail quickly?
 - Which study sessions deserve a full [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] cycle, and which only need a short correction note?
 - Where should completed [[templates/Kolbs Template|Kolbs Template]] notes live: daily notes, outputs, or a dedicated practice log?
 - How should [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]] become part of my weekly review?

@@ -2,181 +2,222 @@
 type: technique
 status: developing
 created: 2026-05-04
-updated: 2026-05-06
-source-count: 2
-last-audited:
+updated: 2026-05-07
+source-count: 12
+last-audited: 2026-05-07
 tags:
   - learning
   - encoding
   - chunking
   - higher-order-learning
+  - bhs
 ---
 
 # Bear Hunter System
 
-Bear Hunter System is the user's main encoding system. It turns incoming material into a meaningful structure through inquiry, mapping, chunking, and final refinement.
+Bear Hunter System is the user's default encoding workflow for important study material. Use it when the goal is not just to remember information, but to build a structure that can later be retrieved, explained, applied, and adapted.
 
-[[wiki/Red Team/Red Teaming|Red Teaming]] strengthens BHS by making the Aim phase more adversarial: challenge the first frame, surface hidden assumptions, and look for missing perspectives before building the map.
+The practical version:
 
-## Summary
+1. [[wiki/Techniques/Aim|Aim]]: create the right questions before learning.
+2. [[wiki/Techniques/Shoot|Shoot]]: use sources to answer those questions and build the map.
+3. [[wiki/Techniques/Skin|Skin]]: clean the map into a final structure you can retrieve from memory.
 
-BHS is best understood as a disciplined encoding loop:
+BHS replaces passive reading, linear notes, and "I'll organize it later." The organization happens while learning.
 
-1. [[wiki/Techniques/Aim|Aim]]: decide what relationships are worth looking for.
-2. [[wiki/Techniques/Shoot|Shoot]]: investigate, answer, map, and clarify those relationships.
-3. [[wiki/Techniques/Skin|Skin]]: refine the final structure into a cleaner, more intuitive representation.
+## How To Use It
 
-The system is not just a note-taking format. It is a way to force [[wiki/Dimensions/Deep Processing|Deep Processing]] early, before the learner falls into passive collection. It also depends on [[wiki/Dimensions/Self-Regulation|Self-Regulation]] because the learner has to monitor question quality, cognitive load, chunk quality, and when to move between steps.
+### Before The Learning Event
 
-## Aim
+Do Aim as early as possible.
 
-Main page: [[wiki/Techniques/Aim|Aim]]
+If you have a lecture, class, chapter, paper, or video coming up, do a short Aim pass before it. Even 5-10 minutes is useful if that is all you have.
 
-Aim points attention before full study begins.
+Minimum Aim pass:
 
-The goal is to generate a useful search pattern for the mind:
+- skim headings, objectives, summaries, diagrams, or keyword lists;
+- list the main concepts;
+- ask "Why is this important?";
+- ask "How is this related to the other concepts?";
+- draft 3-7 rough chunks or question clusters.
 
-- What makes this concept matter?
-- What role does it play in the larger topic?
-- What nearby ideas does it influence or depend on?
-- What would change if this concept were removed?
-- What problem does this concept help solve?
+If you have more time, do a deeper Aim and start a light Shoot before the main learning event.
 
-The output of Aim is not a perfect answer. It is a set of productive questions and tentative chunks.
+### During The Learning Event
 
-Good Aim work tends to:
+Use Shoot.
 
-- Reduce random reading.
-- Activate curiosity.
-- Create initial expectations.
-- Make later source reading more purposeful.
-- Pull the learner toward comparison and evaluation.
+Do not copy the lecture or text in order. Instead:
 
-## Shoot
+- answer your Aim questions;
+- add useful details under the chunk they support;
+- change the chunk structure when the old one no longer fits;
+- draw relationships as they become meaningful;
+- mark unresolved questions instead of pretending you understand everything.
 
-Main page: [[wiki/Techniques/Shoot|Shoot]]
+Your notes should look like a working map, not a transcript.
 
-Shoot is the active investigation phase.
+### After The Learning Event
 
-The learner uses sources, lectures, examples, problems, or external help to answer the questions created during Aim. The emphasis is on constructing a map while learning, not reading everything first and organizing later.
+Use Skin.
 
-Good Shoot work tends to:
+This is where the rough working map becomes a useful study artifact.
 
-- Clarify relationships.
-- Add necessary detail.
-- Test whether the initial chunk structure works.
-- Keep notes non-linear enough to represent relationships.
-- Prevent lower-order habits from taking over.
+Skin checklist:
 
-Shoot should feel easier when Aim is strong. If Shoot feels scattered, the problem may be weak Aim, too much detail too early, or a structure copied from the source instead of generated from importance.
+- remove clutter;
+- rename vague chunks;
+- merge single-node chains;
+- split overloaded chunks;
+- make the main flow obvious;
+- keep only important arrows;
+- convert the map into retrieval prompts.
 
-## Skin
+Do this the same day if possible. If the week is busy, schedule one weekly Skin pass for the whole week's material.
 
-Main page: [[wiki/Techniques/Skin|Skin]]
+## Default Weekly Implementation
 
-Skin is the refinement phase.
+Use this as the user's practical baseline:
 
-After multiple Aim-Shoot cycles, the learner revises the structure into a final or near-final representation. The goal is to make the map cleaner, more intuitive, and more useful for future retrieval.
+1. **End of previous week:** Aim one week's worth of upcoming material.
+2. **Before each class or source session:** quick Shoot for the highest-level concepts if time allows.
+3. **During class/source session:** continue Shoot while learning.
+4. **End of each day or week:** Skin the map.
+5. **After Skin:** turn the map into [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] prompts.
 
-Good Skin work tends to:
+This is the standard version. It is the best default while the skill is still becoming automatic.
 
-- Remove unnecessary visual clutter.
-- Collapse weak groupings into stronger chunks.
-- Prioritize the most important relationships.
-- Turn a rough map into a usable study artifact.
-- Make the topic feel simpler without making it shallow.
+## Accelerated Implementation
 
-Skin is where the learner decides which structure best represents their current understanding.
+Use this when the standard version feels stable.
 
-## When To Use
+Weekend:
 
-Use full BHS when:
+- Aim an entire topic.
+- Shoot roughly 60-70% of the topic using self-study material.
+- Build the backbone before classes reach it.
 
-- The topic is conceptually dense.
-- The topic will be examined or reused.
-- The source order is not the best learning order.
-- Facts only make sense through relationships.
-- The user needs flexible transfer, not just recall.
+During the week:
 
-Use a lighter variation when:
+- finish the remaining Shoot before, during, and after learning events;
+- attend lectures/classes as a recheck, gap-finder, or retrieval pass;
+- Skin the whole topic at the end of the week.
 
-- The topic is familiar.
-- Time is constrained.
-- The goal is quick orientation.
-- The full structure already exists and only needs patching.
+This creates independence from curriculum pacing. The class stops being the first exposure and becomes a verification layer.
 
-## Relationship To Retrieval
+## Minimum Viable BHS
 
-BHS creates the initial structure. [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] tests and improves that structure.
+Use this when time is tight.
 
-The handoff should be explicit:
+1. Write the 5-10 most important concepts.
+2. Ask "Why is each one important?"
+3. Group them into 3-5 chunks.
+4. Add only the relationships needed to explain the topic.
+5. After learning, clean one thing: overloaded chunks, missing links, or weak labels.
 
-- Aim questions can become retrieval prompts.
-- Shoot notes can become answer sheets or maps.
-- Skin maps can become brain-dump targets.
-- Weak retrieval performance can trigger re-Aim or re-Skin.
+This is not ideal, but it preserves the core of BHS: importance, relationships, chunks, and refinement.
 
-## Quality Criteria
+## What The Artifact Should Look Like
 
-A good BHS output should:
+A good BHS artifact should have:
 
-- Compress the topic without hiding important logic.
-- Show why chunks exist.
-- Make major relationships visible.
-- Make detail easier to place.
-- Support closed-book reconstruction.
-- Generate good retrieval questions.
-- Reduce reliance on rote memorization.
+- a visible backbone;
+- a few major chunks;
+- sub-chunks where detail starts to overload;
+- relationships that explain why chunks connect;
+- minimal isolated facts;
+- few decorative arrows;
+- enough clarity that you can reconstruct it closed book.
 
-## Failure Modes
+If the map is beautiful but hard to retrieve, it is not done.
 
-| Failure | Meaning | Fix |
+## Practical Quality Checks
+
+Ask these after each pass:
+
+- Can I explain the topic from the map without reading the source?
+- Do the chunks reflect importance, or did I copy the source order?
+- Are there more than four branches coming from one node?
+- Are there single-node chains that could be merged?
+- Are arrows showing important relationships or just visual noise?
+- Can Aim questions become retrieval prompts?
+- Did Shoot answer the important questions or turn into copying?
+- Did Skin make the topic simpler?
+
+## Common Failure Modes
+
+| Problem | What It Looks Like | Fix |
 | --- | --- | --- |
-| Too many questions | Aim is unfocused | Keep only questions that change the structure. |
-| Too many lines on the map | Relationships are not prioritized | Re-chunk around importance. |
-| Notes follow the textbook order exactly | Order control is weak | Try an alternative structure before committing. |
-| The map is pretty but not retrievable | Visual design replaced cognition | Rebuild from memory and compare. |
-| Shoot feels like copying | The learner stopped problem-solving | Return to Aim and ask higher-quality questions. |
-| Skin is skipped | The rough structure never gets consolidated | Schedule a short refinement pass after the main learning event. |
+| Passive Aim | Questions are mostly "what is..." | Rewrite as why/how/relationship questions. |
+| Copying during Shoot | Notes follow source order exactly. | Return to Aim questions and map answers under chunks. |
+| Spiderwebbing | Too many chaotic arrows. | Re-chunk concepts that share important relationships. |
+| Overloaded chunk | One node has 5+ branches. | Split into sub-chunks. |
+| Single-node chain | A node only connects one thing to one thing. | Merge, rename, or move it. |
+| Pretty map | Looks clean but cannot be reconstructed. | Brain dump it closed book and repair gaps. |
+| Skipped Skin | Rough notes never become a study artifact. | Schedule a short Skin pass before retrieval. |
+
+## BHS And Retrieval
+
+BHS is encoding. [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] tests whether the encoding works.
+
+Handoff:
+
+- Aim questions become recall prompts.
+- Shoot map becomes the answer key.
+- Skin map becomes the brain-dump target.
+- Retrieval failures tell you whether to re-Aim, re-Shoot, or re-Skin.
+
+If retrieval fails because details are missing, add detail. If retrieval fails because the structure collapses, repair the map.
+
+## User Perspective
+
+The user should treat BHS as the core study engine:
+
+- **Aim** protects curiosity and direction.
+- **Shoot** protects active processing.
+- **Skin** protects consolidation.
+- **SIR** protects long-term access.
+
+The goal is not to make perfect maps. The goal is to make knowledge easier to reconstruct, use, and improve.
 
 ## LLM Use
 
-LLMs can help BHS by:
+LLMs can help, but should not replace the user's processing.
 
-- Generating possible question angles.
-- Producing examples and counterexamples.
-- Creating retrieval prompts from a map.
-- Challenging a proposed chunk structure.
-- Suggesting alternative organizations.
+Good LLM use:
 
-LLMs should not replace the user's own judgment about importance. If the model chunks the material for the user, the user may feel like they understand while skipping the processing that creates durable learning.
+- challenge the chunk structure;
+- generate alternate Aim questions after the user tries first;
+- create retrieval prompts from the finished map;
+- ask for missing relationships;
+- produce examples or counterexamples.
 
-## Related Concepts
+Bad LLM use:
+
+- asking the model to chunk the source before the user has tried;
+- accepting the model's structure without evaluating it;
+- using the model to avoid the hard thinking.
+
+## Related Pages
 
 - [[wiki/Syntheses/Current Study System|Current Study System]]
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+- [[wiki/Syntheses/ICS System|ICS System]]
 - [[wiki/Techniques/Aim|Aim]]
 - [[wiki/Techniques/Shoot|Shoot]]
 - [[wiki/Techniques/Skin|Skin]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
 - [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
-- [[wiki/Concepts/Deep Processing|Deep Processing Concept Note]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
-- [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
-- [[wiki/Red Team/Red Teaming|Red Teaming]]
-- [[wiki/Red Team/Key Assumptions Check|Key Assumptions Check]]
-- [[wiki/Red Team/Four Ways of Seeing|Four Ways of Seeing]]
 
 ## Sources
 
-- Learning-system synthesis from the user's study materials.
-- TRADOC G-2 / UFMCS, *The Red Team Handbook*, Version 9.0.
+- Justin Sung / iCanStudy learning-system materials, synthesized in original language.
 
 ## Open Questions
 
-- What is the user's preferred BHS artifact: hand-drawn map, Obsidian canvas, Excalidraw, markdown outline, or mixed format?
-- Which current study topic should become the first worked BHS example in this vault?
-- What is the minimum viable BHS pass for busy weeks?
+- What is the user's default BHS artifact: paper, Obsidian canvas, Excalidraw, markdown outline, or mixed?
+- Which current topic should become the first worked BHS example?
+- What should the user's minimum viable BHS template look like?

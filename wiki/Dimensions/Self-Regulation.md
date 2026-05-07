@@ -87,6 +87,8 @@ Metacognition notices. Self-Regulation acts.
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 - [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
 - [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
+- [[wiki/Concepts/Neuroticism|Neuroticism]]
+- [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]

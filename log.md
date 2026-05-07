@@ -199,3 +199,15 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Added [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]] from Justin Sung's 2026 goal-setting source.
 - Connected the method to [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]].
 - Updated the public index, command center, source index, bibliography, open questions, and log.
+
+## [2026-05-07] compile | Neuroticism and mindset pages
+
+- Added [[wiki/Concepts/Neuroticism|Neuroticism]] from the learning-system source material, with public-safe synthesis around threat sensitivity, distorted thinking, prevention, planning, measurement, focus training, and chain analysis.
+- Added [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]] from the learning-system source material, with emphasis on identity, mistakes, feedback, chain of performance, CPJ reframing, and safe experimentation.
+- Connected both pages to [[wiki/Dimensions/Mindset|Mindset]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], and [[wiki/Syntheses/ICS System|ICS System]].
+
+## [2026-05-07] compile | Practical BHS expansion
+
+- Expanded [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Aim|Aim]], [[wiki/Techniques/Shoot|Shoot]], and [[wiki/Techniques/Skin|Skin]] from the learning-system source material.
+- Reoriented the pages toward practical use: when to do each step, what to write, what the artifact should look like, quality checks, failure modes, and retrieval handoff.
+- Renamed the mindset concept page to [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]].

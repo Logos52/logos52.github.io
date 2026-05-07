@@ -78,11 +78,13 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Concepts/Unlearning Learning Habits\|Unlearning Learning Habits]] | concept | seed | How old learning habits persist and how to replace them. |
 | [[wiki/Concepts/Deep Processing\|Deep Processing Concept Note]] | concept | seed | Supporting concept note for meaning-making through comparison, evaluation, connection, and schema formation. |
 | [[wiki/Concepts/Memory Handling\|Memory Handling]] | concept | seed | Deliberately shaping new information so it can be encoded and retrieved. |
+| [[wiki/Concepts/Fixed vs Growth Mindset\|Fixed vs Growth Mindset]] | concept | developing | Mindset model for interpreting ability, mistakes, effort, feedback, and identity during learning. |
+| [[wiki/Concepts/Neuroticism\|Neuroticism]] | concept | developing | Trait-level threat sensitivity and emotional reactivity as it affects learning, self-regulation, avoidance, and growth. |
 | [[wiki/Techniques/Thinking on Paper\|Thinking on Paper]] | technique | seed | Using notes as an external workbench for reasoning and cognitive offload. |
-| [[wiki/Techniques/Bear Hunter System\|Bear Hunter System]] | technique | developing | Encoding system for aiming inquiry, shooting through sources, and skinning a final structure. |
-| [[wiki/Techniques/Aim\|Aim]] | technique | developing | BHS step for directing attention toward importance and relationships. |
-| [[wiki/Techniques/Shoot\|Shoot]] | technique | developing | BHS step for investigating Aim questions and constructing a working structure. |
-| [[wiki/Techniques/Skin\|Skin]] | technique | developing | BHS step for refining the final chunk structure into a cleaner map. |
+| [[wiki/Techniques/Bear Hunter System\|Bear Hunter System]] | technique | developing | Practical encoding workflow: Aim questions, Shoot through sources, Skin maps, then hand off to retrieval. |
+| [[wiki/Techniques/Aim\|Aim]] | technique | developing | BHS prestudy step for turning concepts into why/how questions and rough chunks. |
+| [[wiki/Techniques/Shoot\|Shoot]] | technique | developing | BHS active-learning step for answering Aim questions while building a working map. |
+| [[wiki/Techniques/Skin\|Skin]] | technique | developing | BHS consolidation step for cleaning the map into a retrievable final structure. |
 | [[wiki/Techniques/Spaced Interleaved Retrieval\|Spaced Interleaved Retrieval]] | technique | developing | Retrieval system combining recall, widening spacing, interleaving, and gap repair. |
 | [[wiki/Techniques/WPW\|WPW]] | technique | developing | High-volume retrieval technique moving between whole-topic structure and detailed parts. |
 | [[wiki/Techniques/Kolbs Experiential Cycle\|Kolbs Experiential Cycle]] | technique | developing | Reflection loop for converting experience into better experiments. |
