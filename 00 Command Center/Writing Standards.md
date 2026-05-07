@@ -20,14 +20,17 @@ Write about the topic's role in this knowledge base, not just the topic in gener
 A page should answer:
 
 - What is this?
-- Why does it matter here?
-- How does it connect to the user's systems?
-- How is it used in practice?
-- What does it clarify, change, or make easier to decide?
+- What is this in the user's system?
+- When should it be used?
+- What does it replace or improve?
+- What does it produce?
+- What does it connect to next?
 
 ## Voice
 
-Use plain, neutral, article-like prose.
+Use practical field-manual prose.
+
+The wiki should be clear and source-grounded, but not sterile. A page should feel like a useful operating note for the user's system, not a detached textbook entry.
 
 Prefer:
 
@@ -37,7 +40,16 @@ Prefer:
 - tradeoffs,
 - failure modes,
 - source-grounded claims,
+- concrete verbs,
 - and internal links that reveal real relationships.
+
+Good phrases:
+
+- "Use it when..."
+- "This replaces..."
+- "The practical version..."
+- "The output should..."
+- "If this fails..."
 
 Avoid:
 
@@ -45,8 +57,17 @@ Avoid:
 - vague praise,
 - rhetorical questions,
 - AI-editorial transitions,
+- over-neutralized encyclopedia phrasing,
 - decorative formatting,
 - and generic background that does not serve the page.
+
+Weak phrases:
+
+- "This is a framework for..."
+- "It can be understood as..."
+- "The purpose of this concept is..."
+- "This facilitates..."
+- "This is not merely..."
 
 ## Page Standard
 
