@@ -10,8 +10,6 @@ tags:
 
 # Blog
 
-[Home](..) · [Notes](../notes)
-
 No posts yet.
 
 When I publish longer essays, they will live here. For now, the active part of the site is the [[notes/index|Notes]] section.

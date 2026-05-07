@@ -31,6 +31,7 @@ const config: QuartzConfig = {
       ".trash/**",
 
       // Vault folders intentionally kept out of the public site
+      "00 Command Center/**",
       "raw/**",
       "Clippings/**",
       "outputs/**",

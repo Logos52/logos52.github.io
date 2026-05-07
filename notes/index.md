@@ -10,12 +10,7 @@ tags:
 
 # Notes
 
-[Home](..) · [Blog](../blog) · [Notes](.)
-
 ## LLM Knowledge Base
-
-> [!note] Current Focus
-> I enjoy the process of learning new things and sharing that knowledge with others. Right now, I'm particularly interested in Agentic Engineering and the field of educational sciences, where I'm exploring how emerging technologies can shape the way we teach and learn.
 
 This is a personal, LLM-maintained knowledge base. The pattern is simple: I curate sources and ask questions; an LLM agent reads, summarizes, cross-references, and keeps a running synthesis here as durable, interlinked markdown pages. The goal is **accumulation** — every source ingested and every question asked makes the wiki a little richer, instead of disappearing into chat history.
 
@@ -156,6 +151,6 @@ The complete catalog of pages, organized by topic. This is the long version — 
 
 ## How this is built
 
-This wiki lives in an [Obsidian](https://obsidian.md) vault and is published as a static site by [Quartz v4](https://quartz.jzhao.xyz/). The full source is on GitHub at [logos52/llm-knowledge-base](https://github.com/Logos52/llm-knowledge-base). For the philosophy behind the project, see [[README]]; for how the LLM agent maintains the vault, see [[AGENTS]]; for chronological history, see [[log]].
+This wiki lives in an [Obsidian](https://obsidian.md) vault and is published as a static site by [Quartz v4](https://quartz.jzhao.xyz/). The full source is on GitHub at [logos52/logos52.github.io](https://github.com/logos52/logos52.github.io). For the philosophy behind the project, see [[README]]; for how the LLM agent maintains the vault, see [[AGENTS]]; for chronological history, see [[log]].
 
 Code is MIT-licensed; written content is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

@@ -16,8 +16,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      "GitHub": "https://github.com/logos52/llm-knowledge-base",
-      "About this project": "https://github.com/logos52/llm-knowledge-base#readme",
+      "GitHub": "https://github.com/logos52/logos52.github.io",
+      "About this project": "https://github.com/logos52/logos52.github.io#readme",
     },
   }),
 }
