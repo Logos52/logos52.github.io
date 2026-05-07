@@ -9,6 +9,7 @@ import { QuartzPluginData } from "../../plugins/vfile"
 import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
 import { trieFromAllFiles } from "../../util/ctx"
+import { toString } from "hast-util-to-string"
 
 interface FolderContentOptions {
   /**
@@ -22,6 +23,10 @@ interface FolderContentOptions {
 const defaultOptions: FolderContentOptions = {
   showFolderCount: true,
   showSubfolders: true,
+}
+
+function normalizeTitle(text: string) {
+  return text.trim().toLowerCase().replace(/\s+/g, " ")
 }
 
 export default ((opts?: Partial<FolderContentOptions>) => {
@@ -94,6 +99,18 @@ export default ((opts?: Partial<FolderContentOptions>) => {
       ...props,
       sort: options.sort,
       allFiles: allPagesInFolder,
+    }
+
+    const pageTitle = normalizeTitle(String(fileData.frontmatter?.title ?? ""))
+    const firstElementIndex = (tree as Root).children.findIndex((child) => child.type === "element")
+    const firstElement = (tree as Root).children[firstElementIndex]
+
+    if (
+      firstElement?.type === "element" &&
+      firstElement.tagName === "h1" &&
+      normalizeTitle(toString(firstElement)) === pageTitle
+    ) {
+      ;(tree as Root).children.splice(firstElementIndex, 1)
     }
 
     const content = (
