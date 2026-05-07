@@ -90,6 +90,7 @@ const PublicExplorer = Component.Explorer({
       "AGENTS",
       "README",
       "log",
+      "notes",
     ].includes(node.slugSegment),
 })
 
@@ -138,6 +139,7 @@ export const defaultContentPageLayout: PageLayout = {
         opacityScale: 1,
         showTags: false,
         removeTags: ["system"],
+        filterPrefixes: ["wiki/"],
       },
       globalGraph: {
         drag: true,
@@ -151,6 +153,7 @@ export const defaultContentPageLayout: PageLayout = {
         opacityScale: 1,
         showTags: false,
         removeTags: ["system"],
+        filterPrefixes: ["wiki/"],
       },
     }),
     Component.DesktopOnly(Component.TableOfContents()),

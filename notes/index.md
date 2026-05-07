@@ -2,6 +2,7 @@
 title: "Notes"
 description: "Public notes and LLM-maintained knowledge base."
 type: index
+hideFolderListing: true
 created: 2026-05-02
 updated: 2026-05-07
 tags:
