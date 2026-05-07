@@ -29,11 +29,18 @@ body {
 }
 
 .page > #quartz-body .center {
+  box-sizing: border-box;
+  min-width: 0;
   background: var(--surface);
   border: 1px solid color-mix(in srgb, var(--lightgray) 72%, transparent);
   border-radius: 8px;
   box-shadow: var(--soft-shadow);
   padding: 0 1.35rem 1.4rem;
+}
+
+.page > #quartz-body .sidebar.right {
+  min-width: 0;
+  padding-left: 2.4rem;
 }
 
 .page > #quartz-body .sidebar {
@@ -52,6 +59,7 @@ body {
 .site-nav a,
 .explorer-content ul li > a,
 .folder-container div > button span {
+  font-family: var(--headerFont);
   color: color-mix(in srgb, var(--secondary) 88%, var(--dark));
 }
 
@@ -64,6 +72,34 @@ blockquote {
   border-left-color: color-mix(in srgb, var(--secondary) 58%, var(--pastel-butter));
   border-radius: 0 6px 6px 0;
   padding: 0.1rem 1rem;
+}
+
+article {
+  font-size: 1.03rem;
+}
+
+article table,
+article code,
+article pre,
+article .callout,
+article .tags {
+  font-size: 0.95rem;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6,
+.page-title,
+.site-nav,
+.search,
+.explorer,
+.toc,
+.backlinks,
+footer {
+  font-family: var(--headerFont);
 }
 
 .callout {
@@ -91,5 +127,9 @@ tr,
     box-shadow: none;
     padding: 0;
     background: transparent;
+  }
+
+  .page > #quartz-body .sidebar.right {
+    padding-left: 0;
   }
 }
