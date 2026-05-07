@@ -1,12 +1,16 @@
 @use "../../styles/variables.scss" as *;
 
 .graph {
+  min-width: 0;
+
   & > h3 {
     font-size: 1rem;
     margin: 0;
   }
 
   & > .graph-outer {
+    width: 100%;
+    max-width: 100%;
     border-radius: 5px;
     border: 1px solid color-mix(in srgb, var(--secondary) 18%, var(--lightgray));
     box-sizing: border-box;
