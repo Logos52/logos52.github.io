@@ -226,23 +226,27 @@ Preferred statuses:
 
 These rules apply to newly created pages and substantial rewrites. Do not retroactively rewrite existing pages just to match this standard unless the user asks.
 
-### Role Before Theory
+### Useful Operating Notes
 
-A page is not a generic article about the topic. It explains what the topic does inside this knowledge base, when the user should use it, what it replaces or improves, and what it connects to next.
+Write useful operating notes, not generic articles.
+
+A good page should usually make clear:
+
+- what the idea is,
+- when the user should use it,
+- what problem or bad habit it replaces,
+- what it produces,
+- and what it connects to.
+
+Do this naturally. Do not force every page into the same template.
+
+Keep theory after usefulness. Background is welcome when it helps the user apply, diagnose, or connect the idea.
 
 Examples:
 
 - A book page is not only a book summary; it explains what the book clarifies, challenges, or changes in the user's thinking.
 - A technique page is not only a definition; it explains when to use the technique, how to run it, and how it fails.
 - A concept page is not only background; it explains what the concept helps diagnose, build, or decide.
-
-Good opening sections should answer:
-
-- What is this in the user's system?
-- When should it be used?
-- What does it replace or improve?
-- What does it produce?
-- What does it connect to next?
 
 ### Hub And Detail Discipline
 
@@ -264,18 +268,6 @@ When updating an existing page:
 
 Every page touched during an ingest should become meaningfully better.
 
-### Type-Specific Structure
-
-Use the structure that fits the page type:
-
-- `concept`: definition, role in the system, practical implications, failure modes, related pages, sources.
-- `technique`: purpose, when to use it, step-by-step use, examples, failure modes, related techniques, sources.
-- `workflow`: trigger, inputs, steps, outputs, maintenance rules, related pages, sources.
-- `synthesis`: core thesis, operating model, key takeaways, linked subpages, open questions, sources.
-- `book`: core argument, longform summary, what it clarifies for this wiki, key takeaways, limits, related pages, sources.
-- `tool`: what it does, when to use it, setup or operating notes, tradeoffs, related workflows, sources.
-- `source note`: metadata, summary, extracted claims, useful quotes if allowed, links into the wiki.
-
 ## Source Discipline
 
 - Do not fabricate sources, citations, authors, publication dates, URLs, or claims.
@@ -287,15 +279,12 @@ Use the structure that fits the page type:
 
 ## Writing Style
 
-- Write practical field-manual prose.
-- Keep the wiki clear and source-grounded, but not sterile.
-- Prefer concrete explanations, examples, tradeoffs, failure modes, and practical use.
-- Start with the page's role before abstract theory.
-- Prefer language that helps the user know when to use an idea, what it replaces, what action it changes, and how it connects to the user's systems.
-- Prefer concrete verbs over abstract labels.
-- Good phrases: "Use it when...", "This replaces...", "The practical version...", "The output should...", "If this fails...".
-- Avoid over-neutralized encyclopedia phrasing when it makes the page feel generic.
-- Weak phrases: "This is a framework for...", "It can be understood as...", "The purpose of this concept is...", "This facilitates...", "This is not merely...".
+- Write useful operating notes, not rigid templates.
+- Prefer plain, active sentences and concrete verbs.
+- Name real failure modes in ordinary language.
+- Make pages specific to this knowledge base.
+- Preserve strong existing language unless there is a clear reason to change it.
+- Avoid generic encyclopedia entries, AI essays, and forced page formats.
 - Avoid hype, peacock words, rhetorical questions, and AI-editorial filler such as "importantly," "interestingly," and "it is worth noting."
 - Use Obsidian links for internal concepts: `[[wiki/Concepts/Metacognition|Metacognition]]`.
 - Use normal markdown links for external URLs.
