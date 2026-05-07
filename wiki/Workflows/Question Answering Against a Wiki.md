@@ -17,7 +17,7 @@ Question answering against a wiki means using the existing markdown knowledge ba
 
 ## Workflow
 
-1. Read [[index|index.md]].
+1. Read [[notes/index|notes/index.md]].
 2. Read the most relevant wiki pages and source notes.
 3. Search for related terms across `wiki/`, `raw/`, `Clippings/`, and `outputs/`.
 4. Write the answer to `outputs/answers/`.

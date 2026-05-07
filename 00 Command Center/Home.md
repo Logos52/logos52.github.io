@@ -12,7 +12,7 @@ This is the operating surface for the public LLM knowledge base.
 
 ## Start Here
 
-- [[index|Wiki Index]]
+- [[notes/index|Notes]]
 - [[log|Log]]
 - [[Index]]
 - [[Implementation Plan]]
@@ -29,7 +29,7 @@ This is the operating surface for the public LLM knowledge base.
 2. Compile durable concepts into `wiki/`.
 3. Save research answers in `outputs/`.
 4. Promote durable insights back into `wiki/`.
-5. Run health checks and keep [[index|index.md]] plus [[log|log.md]] current.
+5. Run health checks and keep [[notes/index|notes/index.md]] plus [[log|log.md]] current.
 
 ## Main Areas
 

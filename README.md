@@ -8,7 +8,7 @@ tags:
 
 Public LLM knowledge base for notes, sources, compiled wiki pages, and research outputs.
 
-This vault is designed to be opened directly in Obsidian and pushed to GitHub as `logos52/llm-knowledge-base`.
+This vault is designed to be opened directly in Obsidian and published as the personal site at <https://logos52.github.io>.
 
 ## Purpose
 
@@ -28,7 +28,7 @@ The core loop:
 ## Directory Map
 
 ```text
-index.md            Content-oriented catalog of the wiki
+notes/index.md            Content-oriented catalog of the wiki
 log.md              Append-only operational history
 AGENTS.md           LLM maintainer schema and workflows
 00 Command Center/  Obsidian-facing dashboard, index, open questions, changelog
@@ -85,7 +85,7 @@ There are three layers:
 
 Two special files help the LLM (and you) navigate the wiki as it grows. They serve different purposes:
 
-**index.md** is content-oriented. It's a catalog of everything in the wiki — each page listed with a link, a one-line summary, and optionally metadata like date or source count. Organized by category (entities, concepts, sources, etc.). The LLM updates it on every ingest. When answering a query, the LLM reads the index first to find relevant pages, then drills into them. This works surprisingly well at moderate scale (~100 sources, ~hundreds of pages) and avoids the need for embedding-based RAG infrastructure.
+**notes/index.md** is content-oriented. It's a catalog of everything in the wiki — each page listed with a link, a one-line summary, and optionally metadata like date or source count. Organized by category (entities, concepts, sources, etc.). The LLM updates it on every ingest. When answering a query, the LLM reads the index first to find relevant pages, then drills into them. This works surprisingly well at moderate scale (~100 sources, ~hundreds of pages) and avoids the need for embedding-based RAG infrastructure.
 
 **log.md** is chronological. It's an append-only record of what happened and when — ingests, queries, lint passes. A useful tip: if each entry starts with a consistent prefix (e.g. `## [2026-04-02] ingest | Article Title`), the log becomes parseable with simple unix tools — `grep "^## \[" log.md | tail -5` gives you the last 5 entries. The log gives you a timeline of the wiki's evolution and helps the LLM understand what's been done recently.
 
@@ -118,13 +118,13 @@ This document is intentionally abstract. It describes the idea, not a specific i
 
 Open [[00 Command Center/Home]] in Obsidian.
 
-LLM agents should read [[index]] and [[AGENTS]] first.
+LLM agents should read [[notes/index]] and [[AGENTS]] first.
 
 ## Published Site
 
-The wiki is published as a static site at <https://logos52.github.io/llm-knowledge-base>, built with [Quartz v4](https://quartz.jzhao.xyz/). Pushes to `main` automatically rebuild and deploy via GitHub Actions (`.github/workflows/deploy.yml`).
+The site is published at <https://logos52.github.io>, built with [Quartz v4](https://quartz.jzhao.xyz/). To publish at the root GitHub Pages URL, the deploy source needs to be the `Logos52/logos52.github.io` repository, not a project page under `Logos52/llm-knowledge-base`.
 
-What gets published: `wiki/`, `00 Command Center/`, `index.md`, `log.md`, `README.md`, `AGENTS.md`. Everything else (`raw/`, `Clippings/`, `outputs/`, `templates/`, `tools/`) is committed to the repo but excluded from the site via `quartz.config.ts → ignorePatterns`.
+What gets published: `index.md`, `blog/`, `notes/`, `wiki/`, `00 Command Center/`, `log.md`, `README.md`, `AGENTS.md`. Everything else (`raw/`, `Clippings/`, `outputs/`, `templates/`, `tools/`) is committed to the repo but excluded from the site via `quartz.config.ts → ignorePatterns`.
 
 ### Local preview
 

@@ -17,7 +17,7 @@ For parseable operational history, use [[log|log.md]]. This page is a human-read
 - Set initial scope to LLM knowledge systems.
 - Added flat raw source manifest at [[raw/Source Index|Source Index]].
 - Compiled first metacognition-focused wiki pass from YouTube transcript sources.
-- Added root [[index|index.md]] and [[log|log.md]] to match the LLM-wiki pattern.
+- Added [[notes/index|notes/index.md]] and [[log|log.md]] to match the LLM-wiki pattern.
 - Expanded [[AGENTS|AGENTS.md]] with formal ingest/query/lint workflows.
 
 ## 2026-05-04

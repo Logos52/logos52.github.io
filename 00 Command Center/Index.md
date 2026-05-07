@@ -10,7 +10,7 @@ tags:
 
 ## Command Center
 
-- [[index|Wiki Index]]
+- [[notes/index|Notes]]
 - [[log|Log]]
 - [[Home]]
 - [[Implementation Plan]]

@@ -2,17 +2,17 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
 /**
- * LLM Knowledge Base — Layout configuration
+ * Logos52 — Layout configuration
  *
- * The home page (index.md) is overridden so that the global Graph view is the
- * primary interactive element on landing — inspired by Hugo Cisneros' notes
- * page. The standard sidebar-only graph behavior is kept on every other page.
+ * The site uses a small global navigation bar for the personal homepage,
+ * blog placeholder, and notes index. The standard Quartz sidebars remain
+ * available for browsing the knowledge base.
  */
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [Component.SiteNav()],
   afterBody: [],
   footer: Component.Footer({
     links: {

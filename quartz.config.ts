@@ -14,7 +14,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "LLM Knowledge Base",
+    pageTitle: "Logos52",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,8 +23,8 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     // Set to your published URL once GitHub Pages is configured.
-    // For project pages this is "<username>.github.io/<repo>".
-    baseUrl: "logos52.github.io/llm-knowledge-base",
+    // For a user site this is "<username>.github.io".
+    baseUrl: "logos52.github.io",
     ignorePatterns: [
       // Obsidian internals
       ".obsidian/**",

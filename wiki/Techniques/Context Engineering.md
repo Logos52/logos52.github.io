@@ -20,7 +20,7 @@ Context engineering is the practice of shaping the information available to an L
 In this knowledge base, context engineering includes:
 
 - Maintaining indexes.
-- Reading [[index|index.md]] first before query or ingest work.
+- Reading [[notes/index|notes/index.md]] first before query or ingest work.
 - Preserving [[log|log.md]] as operational memory.
 - Writing compact summaries.
 - Linking related pages.
