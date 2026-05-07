@@ -19,11 +19,16 @@ export interface D3Config {
   showTags: boolean
   focusOnHover?: boolean
   enableRadial?: boolean
+  filterPrefixes?: string[]
+  colorRules?: { prefix: string; color: string }[]
 }
 
 interface GraphOptions {
   localGraph: Partial<D3Config> | undefined
   globalGraph: Partial<D3Config> | undefined
+  title?: string
+  containerClass?: string
+  legend?: { label: string; color: string }[]
 }
 
 const defaultOptions: GraphOptions = {
@@ -64,8 +69,18 @@ export default ((opts?: Partial<GraphOptions>) => {
     const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
     return (
-      <div class={classNames(displayClass, "graph")}>
-        <h3>{i18n(cfg.locale).components.graph.title}</h3>
+      <div class={classNames(displayClass, "graph", opts?.containerClass)}>
+        <h3>{opts?.title ?? i18n(cfg.locale).components.graph.title}</h3>
+        {opts?.legend && (
+          <div class="graph-legend">
+            {opts.legend.map((item) => (
+              <span class="graph-legend-item">
+                <span class="graph-legend-swatch" style={{ backgroundColor: item.color }} />
+                {item.label}
+              </span>
+            ))}
+          </div>
+        )}
         <div class="graph-outer">
           <div class="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
           <button class="global-graph-icon" aria-label="Global Graph">
