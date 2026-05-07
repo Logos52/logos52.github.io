@@ -1,3 +1,95 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+:root {
+  --surface: #fffdf9;
+  --surface-muted: #f6f0ea;
+  --pastel-mint: #edf3ef;
+  --pastel-lavender: #f0edf7;
+  --pastel-rose: #f6ecec;
+  --pastel-butter: #f5efd9;
+  --soft-shadow: 0 18px 55px rgba(63, 50, 42, 0.055);
+}
+
+:root[saved-theme="dark"] {
+  --surface: #1d1b1f;
+  --surface-muted: #252127;
+  --pastel-mint: #1f2b27;
+  --pastel-lavender: #292331;
+  --pastel-rose: #302225;
+  --pastel-butter: #2d281c;
+  --soft-shadow: none;
+}
+
+body {
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--light) 94%, var(--pastel-lavender)) 0%, var(--light) 42%),
+    var(--light);
+}
+
+.page > #quartz-body .center {
+  background: var(--surface);
+  border: 1px solid color-mix(in srgb, var(--lightgray) 72%, transparent);
+  border-radius: 8px;
+  box-shadow: var(--soft-shadow);
+  padding: 0 1.35rem 1.4rem;
+}
+
+.page > #quartz-body .sidebar {
+  color: var(--darkgray);
+}
+
+.page-title {
+  letter-spacing: 0;
+}
+
+.site-nav {
+  border-bottom: 1px solid color-mix(in srgb, var(--lightgray) 72%, transparent);
+  padding-bottom: 0.8rem;
+}
+
+.site-nav a,
+.explorer-content ul li > a,
+.folder-container div > button span {
+  color: color-mix(in srgb, var(--secondary) 88%, var(--dark));
+}
+
+a.internal {
+  background-color: color-mix(in srgb, var(--pastel-mint) 70%, transparent);
+}
+
+blockquote {
+  background: color-mix(in srgb, var(--pastel-butter) 52%, transparent);
+  border-left-color: color-mix(in srgb, var(--secondary) 58%, var(--pastel-butter));
+  border-radius: 0 6px 6px 0;
+  padding: 0.1rem 1rem;
+}
+
+.callout {
+  border-color: color-mix(in srgb, var(--color) 28%, var(--lightgray));
+  background-color: color-mix(in srgb, var(--bg) 65%, var(--surface));
+}
+
+pre,
+code,
+figure[data-rehype-pretty-code-figure] > [data-rehype-pretty-code-title] {
+  background: var(--surface-muted);
+  border-color: color-mix(in srgb, var(--lightgray) 78%, transparent);
+}
+
+hr,
+tr,
+.footnotes {
+  border-color: color-mix(in srgb, var(--lightgray) 82%, transparent);
+}
+
+@media all and (max-width: 800px) {
+  .page > #quartz-body .center {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    background: transparent;
+  }
+}

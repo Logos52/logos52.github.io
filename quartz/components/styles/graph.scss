@@ -8,12 +8,15 @@
 
   & > .graph-outer {
     border-radius: 5px;
-    border: 1px solid var(--lightgray);
+    border: 1px solid color-mix(in srgb, var(--secondary) 18%, var(--lightgray));
     box-sizing: border-box;
     height: 250px;
     margin: 0.5em 0;
     position: relative;
     overflow: hidden;
+    background:
+      radial-gradient(circle at 20% 15%, color-mix(in srgb, var(--tertiary) 12%, transparent), transparent 28%),
+      color-mix(in srgb, var(--light) 96%, var(--secondary));
 
     & > .global-graph-icon {
       cursor: pointer;
@@ -54,8 +57,10 @@
     }
 
     & > .global-graph-container {
-      border: 1px solid var(--lightgray);
-      background-color: var(--light);
+      border: 1px solid color-mix(in srgb, var(--secondary) 18%, var(--lightgray));
+      background:
+        radial-gradient(circle at 15% 12%, color-mix(in srgb, var(--tertiary) 12%, transparent), transparent 30%),
+        var(--light);
       border-radius: 5px;
       box-sizing: border-box;
       position: fixed;
@@ -93,6 +98,7 @@
     height: 0.65rem;
     border-radius: 999px;
     border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+    box-shadow: 0 0 9px color-mix(in srgb, currentColor 40%, transparent);
   }
 }
 
@@ -107,6 +113,9 @@
   & > .graph-outer {
     height: clamp(320px, 42vh, 520px);
     margin: 0;
-    background: color-mix(in srgb, var(--light) 94%, var(--secondary));
+    background:
+      radial-gradient(circle at 18% 12%, rgba(185, 104, 255, 0.09), transparent 28%),
+      radial-gradient(circle at 82% 24%, rgba(0, 229, 195, 0.08), transparent 30%),
+      color-mix(in srgb, var(--light) 95%, var(--secondary));
   }
 }
