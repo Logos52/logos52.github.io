@@ -68,6 +68,26 @@ type TweenNode = {
   stop: () => void
 }
 
+const defaultColorRules = [
+  { prefix: "wiki/Techniques/", color: "#2f6fed" },
+  { prefix: "wiki/Syntheses/ICS-System", color: "#7c3aed" },
+  { prefix: "wiki/Dimensions/", color: "#7c3aed" },
+  { prefix: "wiki/Language/", color: "#8b5e34" },
+  { prefix: "wiki/Resources/", color: "#8b5e34" },
+  { prefix: "wiki/Red-Team/", color: "#b42318" },
+  { prefix: "wiki/Books/", color: "#0f766e" },
+  { prefix: "wiki/Concepts/", color: "#64748b" },
+  { prefix: "wiki/Workflows/", color: "#ca8a04" },
+]
+
+function navigateTo(url: URL) {
+  if (typeof window.spaNavigate === "function") {
+    window.spaNavigate(url)
+  } else {
+    window.location.href = url.toString()
+  }
+}
+
 async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const slug = simplifySlug(fullSlug)
   const visited = getVisited()
@@ -199,7 +219,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   // calculate color
   const color = (d: NodeData) => {
-    const configuredColor = colorRules?.find((rule) => d.id.startsWith(rule.prefix))?.color
+    const configuredColor = (colorRules?.length ? colorRules : defaultColorRules).find((rule) =>
+      d.id.startsWith(rule.prefix),
+    )?.color
     const isCurrent = d.id === slug
     if (isCurrent) {
       return computedStyleMap["--secondary"]
@@ -490,7 +512,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
           if (Date.now() - dragStartTime < 500) {
             const node = graphData.nodes.find((n) => n.id === event.subject.id) as NodeData
             const targ = resolveRelative(fullSlug, node.id)
-            window.spaNavigate(new URL(targ, window.location.toString()))
+            navigateTo(new URL(targ, window.location.toString()))
           }
         }),
     )
@@ -498,7 +520,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     for (const node of nodeRenderData) {
       node.gfx.on("click", () => {
         const targ = resolveRelative(fullSlug, node.simulationData.id)
-        window.spaNavigate(new URL(targ, window.location.toString()))
+        navigateTo(new URL(targ, window.location.toString()))
       })
     }
   }
@@ -592,7 +614,8 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     }
   }
 
-  await renderLocalGraph()
+  const deferGraphRender = window.requestIdleCallback ?? ((cb) => window.setTimeout(cb, 1))
+  deferGraphRender(() => void renderLocalGraph())
   const handleThemeChange = () => {
     void renderLocalGraph()
   }
