@@ -69,15 +69,15 @@ type TweenNode = {
 }
 
 const defaultColorRules = [
-  { prefix: "wiki/Techniques/", color: "#2f6fed" },
-  { prefix: "wiki/Syntheses/ICS-System", color: "#7c3aed" },
-  { prefix: "wiki/Dimensions/", color: "#7c3aed" },
-  { prefix: "wiki/Language/", color: "#8b5e34" },
-  { prefix: "wiki/Resources/", color: "#8b5e34" },
-  { prefix: "wiki/Red-Team/", color: "#b42318" },
-  { prefix: "wiki/Books/", color: "#0f766e" },
-  { prefix: "wiki/Concepts/", color: "#64748b" },
-  { prefix: "wiki/Workflows/", color: "#ca8a04" },
+  { prefix: "wiki/Techniques/", color: "#00a7ff" },
+  { prefix: "wiki/Syntheses/ICS-System", color: "#b968ff" },
+  { prefix: "wiki/Dimensions/", color: "#b968ff" },
+  { prefix: "wiki/Language/", color: "#ffb000" },
+  { prefix: "wiki/Resources/", color: "#ffb000" },
+  { prefix: "wiki/Red-Team/", color: "#ff3b5c" },
+  { prefix: "wiki/Books/", color: "#00e5c3" },
+  { prefix: "wiki/Concepts/", color: "#9aa4ff" },
+  { prefix: "wiki/Workflows/", color: "#b8ff2c" },
 ]
 
 function navigateTo(url: URL) {
