@@ -97,6 +97,17 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Concepts/Importance-Based Chunking\|Importance-Based Chunking]] | concept | developing | Grouping information by why it matters and how it should be used. |
 | [[wiki/Concepts/Knowledge Mastery\|Knowledge Mastery]] | concept | developing | Practical levels for diagnosing whether knowledge is isolated, relational, evaluative, or transferable. |
 
+### Decision making
+
+| Page | Type | Status | Summary |
+| --- | --- | --- | --- |
+| [[wiki/Decision Making/Decision Making\|Decision Making]] | hub | developing | ICS-sourced operating layer for choosing under uncertainty without losing time, focus, or adaptability. |
+| [[wiki/Decision Making/Decisional Delays\|Decisional Delays]] | concept | developing | Hidden time and focus cost created by repeated decisions about what to do next. |
+| [[wiki/Decision Making/Choice Throttling\|Choice Throttling]] | technique | developing | Reduces vague choices into a small set of closed questions that narrow the decision. |
+| [[wiki/Decision Making/Good Decisions\|Good Decisions]] | concept | developing | Decision quality judged by process first, with outcomes treated as feedback rather than the sole verdict. |
+| [[wiki/Decision Making/Positional Decisions and Expected Value\|Positional Decisions and Expected Value]] | concept | developing | Makes uncertain decisions by improving future position, leverage, information, or expected value. |
+| [[wiki/Decision Making/Changing Decisions\|Changing Decisions]] | concept | developing | Revises decisions when new information changes the process, position, or expected value. |
+
 ### Language learning
 
 | Page | Type | Status | Summary |

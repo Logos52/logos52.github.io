@@ -342,7 +342,7 @@ Rules for LLM agents:
 
 - Wikilinks (`[[Page]]` and `[[path/to/Page|Alias]]`) are first-class on the published site. Prefer wikilinks over raw markdown links so Quartz can resolve them and feed them into the graph view and backlinks.
 - Wikilinks pointing into excluded folders (e.g., `[[raw/Source Index]]`, `[[templates/Kolbs Template]]`) will render as broken on the site. They are still valuable inside Obsidian; leave them unless the user asks for a cleanup.
-- When adding a new wiki page, prefer placing it under one of the existing top-level subfolders in `wiki/` (`Concepts/`, `Techniques/`, `Workflows/`, `Models/`, `Dimensions/`, `Language/`, `People/`, `Papers/`, `Resources/`, `Syntheses/`, `Tools/`).
+- When adding a new wiki page, prefer placing it under one of the existing top-level subfolders in `wiki/` (`Concepts/`, `Decision Making/`, `Techniques/`, `Workflows/`, `Models/`, `Dimensions/`, `Language/`, `People/`, `Papers/`, `Resources/`, `Syntheses/`, `Tools/`).
 - Do not commit `node_modules/`, `public/`, or `.quartz-cache/`. These are gitignored.
 - Avoid editing upstream Quartz framework files unless the customization requires a small local component. Prefer `quartz.config.ts`, `quartz.layout.ts`, and dedicated custom components.
 - The site's home page is rendered from `index.md`, which is the public LLM Knowledge Base landing page.
