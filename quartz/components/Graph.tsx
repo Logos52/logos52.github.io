@@ -22,6 +22,10 @@ export interface D3Config {
   filterPrefixes?: string[]
   excludeSlugs?: string[]
   colorRules?: { prefix: string; color: string }[]
+  nodeBaseRadius?: number
+  nodeLinkRadius?: number
+  nodeMaxRadius?: number
+  flattenWideGraphs?: boolean
 }
 
 interface GraphOptions {
@@ -47,6 +51,10 @@ const defaultOptions: GraphOptions = {
     removeTags: [],
     focusOnHover: false,
     enableRadial: false,
+    nodeBaseRadius: 2,
+    nodeLinkRadius: 1,
+    nodeMaxRadius: 8,
+    flattenWideGraphs: true,
   },
   globalGraph: {
     drag: true,
@@ -62,6 +70,10 @@ const defaultOptions: GraphOptions = {
     removeTags: [],
     focusOnHover: true,
     enableRadial: true,
+    nodeBaseRadius: 2,
+    nodeLinkRadius: 1,
+    nodeMaxRadius: 8,
+    flattenWideGraphs: true,
   },
 }
 
