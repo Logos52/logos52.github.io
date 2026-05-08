@@ -1,6 +1,6 @@
 ---
-title: "Notes"
-description: "Public notes and LLM-maintained knowledge base."
+title: "LLM Wiki Index"
+description: "Full index for the public LLM-maintained knowledge base."
 type: index
 hideFolderListing: true
 created: 2026-05-02
@@ -9,7 +9,7 @@ tags:
   - system
 ---
 
-# Notes
+# LLM Wiki Index
 
 ## LLM Knowledge Base
 

@@ -4,8 +4,8 @@ import * as Component from "./quartz/components"
 /**
  * Logos52 — Layout configuration
  *
- * The site uses a small global navigation bar for the personal homepage,
- * blog placeholder, and notes index. The standard Quartz sidebars remain
+ * The site uses a small global navigation bar for the blog, LLM wiki home,
+ * and about page. The standard Quartz sidebars remain
  * available for browsing the knowledge base.
  */
 
@@ -181,7 +181,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
     Component.ConditionalRender({
       component: NotesGraph,
-      condition: ({ fileData }) => fileData.slug === "notes/index",
+      condition: ({ fileData }) => fileData.slug === "index" || fileData.slug === "notes/index",
     }),
   ],
   left: [
@@ -211,7 +211,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ConditionalRender({
       component: NotesGraph,
-      condition: ({ fileData }) => fileData.slug === "notes/index",
+      condition: ({ fileData }) => fileData.slug === "index" || fileData.slug === "notes/index",
     }),
   ],
   left: [

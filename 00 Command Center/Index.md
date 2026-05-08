@@ -10,7 +10,8 @@ tags:
 
 ## Command Center
 
-- [[notes/index|Notes]]
+- [[index|LLM Wiki]]
+- [[about|About]]
 - [[log|Log]]
 - [[Home]]
 - [[Implementation Plan]]

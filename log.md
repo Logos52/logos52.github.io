@@ -10,6 +10,14 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-05-08] maintenance | Make LLM Wiki the homepage
+
+- Moved the personal bio from [[index|LLM Wiki]] into [[about|About]].
+- Changed the root homepage to a public LLM Wiki landing page with the wiki graph.
+- Changed top navigation to Blog / LLM Wiki / About.
+- Renamed the old Notes page to [[notes/index|LLM Wiki Index]] for the full catalog.
+- Updated layout rules so the large wiki graph appears on the root homepage.
+
 ## [2026-05-08] maintenance | Simplify writing standards
 
 - Replaced rigid style guidance in [[AGENTS|AGENTS]] and [[00 Command Center/Writing Standards|Writing Standards]] with a lighter "useful operating notes" standard.
