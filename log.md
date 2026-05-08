@@ -31,6 +31,12 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Updated [[wiki/Decision Making/Decisional Delays|Decisional Delays]] so flow-related disruption links directly to [[wiki/Self Management/Flow State|Flow State]].
 - Connected the new pages to [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Dimensions/Self-Management|Self-Management]], and the public knowledge-base index.
 
+## [2026-05-08] compile | Attention Management
+
+- Added [[wiki/Self Management/Attention Management|Attention Management]] from the ICS attention-management source.
+- Positioned it as the day-level system for preserving [[wiki/Self Management/Flow State|Flow State]] across task transitions, distinct from [[wiki/Self Management/Focus Management|Focus Management]] as the block-level setup.
+- Connected it to [[wiki/Decision Making/Decisional Delays|Decisional Delays]], [[wiki/Self Management/Procrastination|Procrastination]], and [[wiki/Dimensions/Self-Management|Self-Management]].
+
 ## [2026-05-08] maintenance | Rename homepage to LLM Knowledge Base
 
 - Renamed public-facing homepage and navigation labels from "LLM Wiki" to "LLM Knowledge Base."

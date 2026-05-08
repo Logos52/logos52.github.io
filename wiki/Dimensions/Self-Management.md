@@ -70,6 +70,7 @@ Without Self-Management, good learning techniques remain theoretical. The learne
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Self Management/Flow State|Flow State]]
 - [[wiki/Self Management/Focus Management|Focus Management]]
+- [[wiki/Self Management/Attention Management|Attention Management]]
 - [[wiki/Self Management/Procrastination|Procrastination]]
 - [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]

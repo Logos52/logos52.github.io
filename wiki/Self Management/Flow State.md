@@ -76,9 +76,11 @@ Poor breaks often create re-entry costs. If the break introduces new decisions, 
 
 ## Relationship To Attention Management
 
-[[wiki/Self Management/Focus Management|Focus Management]] creates the conditions for Flow State.
+[[wiki/Self Management/Attention Management|Attention Management]] preserves Flow State across the day.
 
-Flow is the state. Focus management is the system that makes the state more likely:
+Flow is the state. [[wiki/Self Management/Focus Management|Focus Management]] helps the user enter and recover focus inside a block. Attention Management tries to bridge those blocks so task transitions do not repeatedly reset the user's attention.
+
+The practical inputs are:
 
 - intention setting,
 - ritualized starts,
@@ -101,6 +103,7 @@ Flow is the state. Focus management is the system that makes the state more like
 ## Related Pages
 
 - [[wiki/Self Management/Focus Management|Focus Management]]
+- [[wiki/Self Management/Attention Management|Attention Management]]
 - [[wiki/Self Management/Procrastination|Procrastination]]
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]

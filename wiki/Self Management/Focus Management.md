@@ -14,7 +14,7 @@ tags:
 
 # Focus Management
 
-Focus Management is the user's system for creating, maintaining, and recovering attention. Use it when study time exists on the calendar, but the quality of attention is too inconsistent to produce good learning.
+Focus Management is the user's system for creating, maintaining, and recovering attention inside a work block. Use it when study time exists on the calendar, but the quality of attention is too inconsistent to produce good learning.
 
 The practical version:
 
@@ -106,6 +106,14 @@ Every unclear next action creates a decision. Every decision during execution ca
 
 The best focus block is already pre-decided enough that the user can simply execute.
 
+## Relationship To Attention Management
+
+[[wiki/Self Management/Attention Management|Attention Management]] is the broader day-level version of this idea.
+
+Focus Management sets up a single block. Attention Management tries to preserve intentional attention across blocks, especially during transitions.
+
+In short: attention is where the mind is pointed; focus is how steadily it stays there. Focus Management trains the depth and stability of a session. Attention Management keeps the user's attention aligned with the right task across the larger day.
+
 ## Relationship To Procrastination
 
 [[wiki/Self Management/Procrastination|Procrastination]] often looks like a motivation problem, but in practice it may be a focus-management problem.
@@ -125,6 +133,7 @@ The task may be too vague, too large, too aversive, too easy to escape, or too d
 ## Related Pages
 
 - [[wiki/Self Management/Flow State|Flow State]]
+- [[wiki/Self Management/Attention Management|Attention Management]]
 - [[wiki/Self Management/Procrastination|Procrastination]]
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]

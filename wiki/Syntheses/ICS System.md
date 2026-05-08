@@ -222,7 +222,7 @@ The system trains:
 - realistic scheduling,
 - time tracking,
 - task prioritization,
-- attention management,
+- [[wiki/Self Management/Attention Management|attention management]],
 - focus environments,
 - procrastination reduction,
 - work-rest timing,
