@@ -9,6 +9,8 @@ import {
   forceLink,
   forceCollide,
   forceRadial,
+  forceX,
+  forceY,
   zoomIdentity,
   select,
   drag,
@@ -212,8 +214,22 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     .force("link", forceLink(graphData.links).distance(linkDistance))
     .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
 
-  const radius = (Math.min(width, height) / 2) * 0.8
-  if (enableRadial) simulation.force("radial", forceRadial(radius).strength(0.2))
+  if (enableRadial) {
+    const aspectRatio = width / height
+    if (aspectRatio > 1.4) {
+      // Wide canvas: swap circular radial for an elliptical pull so nodes
+      // fill the rectangle instead of clustering inside an inscribed circle.
+      // Weaker x-pull lets nodes spread horizontally; stronger y-pull keeps
+      // them within the shorter vertical dimension.
+      simulation
+        .force("x", forceX(0).strength(0.04))
+        .force("y", forceY(0).strength(0.04 * aspectRatio))
+    } else {
+      // Square-ish canvas (sidebar graphs): keep the original circular layout.
+      const radius = (Math.min(width, height) / 2) * 0.8
+      simulation.force("radial", forceRadial(radius).strength(0.2))
+    }
+  }
 
   // precompute style prop strings as pixi doesn't support css variables
   const cssVars = [

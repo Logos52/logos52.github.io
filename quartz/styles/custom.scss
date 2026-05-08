@@ -128,6 +128,10 @@ body[data-slug="index"] .page-header .tags {
   display: none;
 }
 
+body[data-slug="index"] .page-header {
+  margin-top: 1.5rem;
+}
+
 body[data-slug="index"] .center .graph.notes-graph {
   margin: 0.75rem auto 2.25rem;
 }
