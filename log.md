@@ -10,6 +10,12 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-05-08] maintenance | Rename homepage to LLM Knowledge Base
+
+- Renamed public-facing homepage and navigation labels from "LLM Wiki" to "LLM Knowledge Base."
+- Renamed [[notes/index|LLM Wiki Index]] to [[notes/index|Knowledge Base Index]].
+- Kept URLs and file paths stable.
+
 ## [2026-05-08] maintenance | Make LLM Wiki the homepage
 
 - Moved the personal bio from [[index|LLM Wiki]] into [[about|About]].

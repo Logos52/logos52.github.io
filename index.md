@@ -1,5 +1,5 @@
 ---
-title: "LLM Wiki"
+title: "LLM Knowledge Base"
 description: "Public LLM-maintained knowledge base."
 type: index
 hideFolderListing: true
@@ -9,9 +9,9 @@ tags:
   - system
 ---
 
-# LLM Wiki
+# LLM Knowledge Base
 
-## LLM Knowledge Base
+## Core Idea
 
 This is a personal, LLM-maintained knowledge base. The pattern is simple: I curate sources and ask questions; an LLM agent reads, summarizes, cross-references, and keeps a running synthesis here as durable, interlinked markdown pages. The goal is **accumulation** — every source ingested and every question asked makes the wiki a little richer, instead of disappearing into chat history.
 
@@ -43,7 +43,7 @@ A few representative pages — pick one that catches your eye:
 
 ## Full index
 
-The full page catalog still lives at [[notes/index|LLM Wiki Index]]. It is the long version of this page: every public wiki page, organized by topic with a one-line summary.
+The full page catalog still lives at [[notes/index|Knowledge Base Index]]. It is the long version of this page: every public page, organized by topic with a one-line summary.
 
 ## How this is built
 

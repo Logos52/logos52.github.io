@@ -4,7 +4,7 @@ import * as Component from "./quartz/components"
 /**
  * Logos52 — Layout configuration
  *
- * The site uses a small global navigation bar for the blog, LLM wiki home,
+ * The site uses a small global navigation bar for the blog, knowledge base home,
  * and about page. The standard Quartz sidebars remain
  * available for browsing the knowledge base.
  */
