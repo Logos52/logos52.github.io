@@ -23,6 +23,6 @@ My current focus is turning useful information into working systems: study workf
 
 ## Links
 
-- [[index|LLM Wiki]] — the main LLM-maintained knowledge base.
+- [[index|LLM Knowledge Base]] — the main LLM-maintained knowledge base.
 - [[blog/index|Blog]] — longer posts will live here once I start publishing them.
 - [GitHub](https://github.com/logos52) — code, public notes, and project repositories.

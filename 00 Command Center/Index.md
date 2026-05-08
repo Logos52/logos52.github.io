@@ -10,7 +10,7 @@ tags:
 
 ## Command Center
 
-- [[index|LLM Wiki]]
+- [[index|LLM Knowledge Base]]
 - [[about|About]]
 - [[log|Log]]
 - [[Home]]
