@@ -112,6 +112,10 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     filterPrefixes,
     excludeSlugs,
     colorRules,
+    nodeBaseRadius,
+    nodeLinkRadius,
+    nodeMaxRadius,
+    flattenWideGraphs,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
   const hiddenSlugs = new Set<SimpleSlug>(
@@ -216,14 +220,14 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   if (enableRadial) {
     const aspectRatio = width / height
-    if (aspectRatio > 1.4) {
+    if (flattenWideGraphs !== false && aspectRatio > 1.4) {
       // Wide canvas: swap circular radial for an elliptical pull so nodes
       // fill the rectangle instead of clustering inside an inscribed circle.
       // Weaker x-pull lets nodes spread horizontally; stronger y-pull keeps
       // them within the shorter vertical dimension.
       simulation
-        .force("x", forceX(0).strength(0.04))
-        .force("y", forceY(0).strength(0.04 * aspectRatio))
+        .force("x", forceX(0).strength(0.038))
+        .force("y", forceY(0).strength(0.043 * aspectRatio))
     } else {
       // Square-ish canvas (sidebar graphs): keep the original circular layout.
       const radius = (Math.min(width, height) / 2) * 0.8
@@ -271,7 +275,10 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const numLinks = graphData.links.filter(
       (l) => l.source.id === d.id || l.target.id === d.id,
     ).length
-    return 2 + Math.sqrt(numLinks)
+    const base = nodeBaseRadius ?? 2
+    const linkScale = nodeLinkRadius ?? 1
+    const max = nodeMaxRadius ?? 8
+    return Math.min(max, base + Math.sqrt(numLinks) * linkScale)
   }
 
   let hoveredNodeId: string | null = null

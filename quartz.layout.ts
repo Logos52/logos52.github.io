@@ -33,6 +33,9 @@ const NotesGraph = Component.Graph({
     linkDistance: 42,
     fontSize: 0.62,
     opacityScale: 1,
+    nodeBaseRadius: 2,
+    nodeLinkRadius: 1.18,
+    nodeMaxRadius: 9.5,
     showTags: false,
     removeTags: ["system"],
     focusOnHover: true,
@@ -62,6 +65,9 @@ const NotesGraph = Component.Graph({
     linkDistance: 42,
     fontSize: 0.62,
     opacityScale: 1,
+    nodeBaseRadius: 2,
+    nodeLinkRadius: 1.18,
+    nodeMaxRadius: 9.5,
     showTags: false,
     removeTags: ["system"],
     focusOnHover: true,
@@ -169,16 +175,8 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
     Component.SiteNav(),
-    // Search + Darkmode in the top header ONLY on the home page.
-    // Every other page keeps them in the left sidebar (see defaultContentPageLayout).
-    Component.ConditionalRender({
-      component: Component.Search(),
-      condition: ({ fileData }) => fileData.slug === "index",
-    }),
-    Component.ConditionalRender({
-      component: Component.Darkmode(),
-      condition: ({ fileData }) => fileData.slug === "index",
-    }),
+    Component.Search(),
+    Component.Darkmode(),
   ],
   afterBody: [],
   footer: Component.Footer({
@@ -204,23 +202,15 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.ConditionalRender({
       component: Component.PageTitle(),
-      condition: ({ fileData }) => fileData.slug !== "index",
+      condition: ({ fileData }) => fileData.slug !== "index" && fileData.slug !== "about",
     }),
     Component.ConditionalRender({
       component: Component.MobileOnly(Component.Spacer()),
-      condition: ({ fileData }) => fileData.slug !== "index",
-    }),
-    Component.ConditionalRender({
-      component: Component.Search(),
-      condition: ({ fileData }) => fileData.slug !== "index",
-    }),
-    Component.ConditionalRender({
-      component: Component.Darkmode(),
-      condition: ({ fileData }) => fileData.slug !== "index",
+      condition: ({ fileData }) => fileData.slug !== "index" && fileData.slug !== "about",
     }),
     Component.ConditionalRender({
       component: Component.DesktopOnly(PublicExplorer),
-      condition: ({ fileData }) => fileData.slug !== "index",
+      condition: ({ fileData }) => fileData.slug !== "index" && fileData.slug !== "about",
     }),
   ],
   right: [
@@ -230,15 +220,16 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: WikiOverviewGraph,
-      condition: ({ fileData }) => fileData.slug !== "index" && !fileData.slug?.startsWith("wiki/"),
+      condition: ({ fileData }) =>
+        fileData.slug !== "index" && fileData.slug !== "about" && !fileData.slug?.startsWith("wiki/"),
     }),
     Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
-      condition: ({ fileData }) => fileData.slug !== "index",
+      condition: ({ fileData }) => fileData.slug !== "index" && fileData.slug !== "about",
     }),
     Component.ConditionalRender({
       component: Component.Backlinks(),
-      condition: ({ fileData }) => fileData.slug !== "index",
+      condition: ({ fileData }) => fileData.slug !== "index" && fileData.slug !== "about",
     }),
   ],
 }
@@ -255,8 +246,6 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
     Component.DesktopOnly(PublicExplorer),
   ],
   right: [
