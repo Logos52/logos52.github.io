@@ -10,6 +10,18 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-05-08] compile | ICS decision-making section
+
+- Added an ICS-sourced decision-making section:
+  - [[wiki/Decision Making/Decision Making|Decision Making]]
+  - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
+  - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]
+  - [[wiki/Decision Making/Good Decisions|Good Decisions]]
+  - [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]
+  - [[wiki/Decision Making/Changing Decisions|Changing Decisions]]
+- Connected the section to [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and selected Red Team pages.
+- Added Decision Making to the homepage, public index, command center, and graph color rules.
+
 ## [2026-05-08] maintenance | Rename homepage to LLM Knowledge Base
 
 - Renamed public-facing homepage and navigation labels from "LLM Wiki" to "LLM Knowledge Base."
