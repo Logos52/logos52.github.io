@@ -11,27 +11,6 @@ tags:
 
 # Knowledge Base Index
 
-## Core Idea
-
-This is a personal, LLM-maintained knowledge base. The pattern is simple: I curate sources and ask questions; an LLM agent reads, summarizes, cross-references, and keeps a running synthesis here as durable, interlinked markdown pages. The goal is **accumulation** — every source ingested and every question asked makes the wiki a little richer, instead of disappearing into chat history.
-
-If you're new to the idea, the [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]] page explains the pattern, and the [README](README.md) explains how this particular vault is set up.
-
-## Start here
-
-A few representative pages — pick one that catches your eye:
-
-- [[wiki/Syntheses/ICS System|ICS System]] — high-level synthesis of the learning system that anchors the study notes.
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] — practical encoding workflow built around Aim, Shoot, and Skin.
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — retrieval system for recall, spacing, interleaving, and gap repair.
-- [[wiki/Red Team/Red Teaming|Red Teaming]] — decision-support principles from the Red Team handbook and Army/UFMCS tradition.
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] — best practices for building with LLM agents.
-
-> [!tip] How to navigate
-> Use **Search** in the top-left, **Explorer** to browse by folder, or the **Graph** in the right sidebar to see how pages connect. Every page has backlinks at the bottom.
-
-## Full index
-
 The complete catalog of pages, organized by topic. This is the long version — if you'd rather wander, just click around the graph.
 
 ### LLM wiki architecture
@@ -172,9 +151,3 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Bibliography\|Bibliography]] | bibliography | seed | Source bibliography for the wiki. |
 | [[wiki/Timeline\|Timeline]] | timeline | seed | Timeline of important developments and repo events. |
 | [[00 Command Center/Writing Standards\|Writing Standards]] | system | developing | Operating standard for future wiki writing, page structure, anti-cramming, and article quality. |
-
-## How this is built
-
-This wiki lives in an [Obsidian](https://obsidian.md) vault and is published as a static site by [Quartz v4](https://quartz.jzhao.xyz/). The full source is on GitHub at [logos52/logos52.github.io](https://github.com/logos52/logos52.github.io). For the philosophy behind the project, see [[README]]; for how the LLM agent maintains the vault, see [[AGENTS]]; for chronological history, see [[log]].
-
-Code is MIT-licensed; written content is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

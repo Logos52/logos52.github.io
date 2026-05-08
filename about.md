@@ -14,6 +14,12 @@ I'm Wedge, @webigis on X. Former Dept. War Red Team @ University of Foreign Mili
 
 My current focus is turning useful information into working systems: study workflows, decision-making tools, and practical ways to use LLMs as collaborators rather than just chat interfaces.
 
+## How This Is Built
+
+This knowledge base lives in an [Obsidian](https://obsidian.md) vault and is published as a static site by [Quartz v4](https://quartz.jzhao.xyz/). The full source is on GitHub at [logos52/logos52.github.io](https://github.com/logos52/logos52.github.io). For the philosophy behind the project, see [[README]]; for how the LLM agent maintains the vault, see [[AGENTS]]; for chronological history, see [[log]].
+
+Code is MIT-licensed; written content is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 ## What I Write About
 
 - **Learning systems**: encoding, retrieval, metacognition, and self-regulation.
