@@ -12,4 +12,4 @@ tags:
 
 No posts yet.
 
-When I publish longer essays, they will live here. For now, the active part of the site is the [[notes/index|Notes]] section.
+When I publish longer essays, they will live here. For now, the active part of the site is the [[index|LLM Wiki]].

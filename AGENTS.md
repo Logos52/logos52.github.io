@@ -333,7 +333,7 @@ The site is published at <https://logos52.github.io>. The site is built by Quart
 
 What gets published vs. what stays local:
 
-- Published: `wiki/`, `00 Command Center/`, `notes/index.md`, `log.md`, `README.md`, `AGENTS.md`.
+- Published: `index.md`, `about.md`, `blog/`, `wiki/`, `00 Command Center/`, `notes/index.md`, `log.md`, `README.md`, `AGENTS.md`.
 - Excluded from the site (still in repo): `raw/`, `Clippings/`, `outputs/`, `templates/`, `tools/`, `.obsidian/`.
 
 Exclusions live in `quartz.config.ts → ignorePatterns`. Do not move published content into excluded folders or vice versa without updating that list.
@@ -345,7 +345,8 @@ Rules for LLM agents:
 - When adding a new wiki page, prefer placing it under one of the existing top-level subfolders in `wiki/` (`Concepts/`, `Techniques/`, `Workflows/`, `Models/`, `Dimensions/`, `Language/`, `People/`, `Papers/`, `Resources/`, `Syntheses/`, `Tools/`).
 - Do not commit `node_modules/`, `public/`, or `.quartz-cache/`. These are gitignored.
 - Avoid editing upstream Quartz framework files unless the customization requires a small local component. Prefer `quartz.config.ts`, `quartz.layout.ts`, and dedicated custom components.
-- The site's home page is rendered from `index.md`. The wiki catalog lives at `notes/index.md`.
+- The site's home page is rendered from `index.md`, which is the public LLM Wiki landing page.
+- The full content-oriented wiki catalog lives at `notes/index.md`.
 
 Local preview workflow:
 

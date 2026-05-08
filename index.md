@@ -1,37 +1,52 @@
 ---
-title: "Logos52"
-description: "Personal site, public notes, and LLM-maintained knowledge base."
-type: home
-created: 2026-05-07
-updated: 2026-05-07
+title: "LLM Wiki"
+description: "Public LLM-maintained knowledge base."
+type: index
+hideFolderListing: true
+created: 2026-05-02
+updated: 2026-05-08
 tags:
   - system
 ---
 
-# Logos52
+# LLM Wiki
 
-I'm Wedge, @webigis on X. Former Dept. War Red Team @ University of Foreign Military & Cultural Studies. I use this site as a public home for notes on learning, metacognition, language acquisition, and building with AI agents.
+## LLM Knowledge Base
 
-My current focus is turning useful information into working systems: study workflows, decision-making tools, and practical ways to use LLMs as collaborators rather than just chat interfaces.
+This is a personal, LLM-maintained knowledge base. The pattern is simple: I curate sources and ask questions; an LLM agent reads, summarizes, cross-references, and keeps a running synthesis here as durable, interlinked markdown pages. The goal is **accumulation** — every source ingested and every question asked makes the wiki a little richer, instead of disappearing into chat history.
 
-## Start Here
+If you're new to the idea, the [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]] page explains the pattern, and the [README](README.md) explains how this particular vault is set up.
 
-- [[notes/index|Notes]] — the main LLM-maintained knowledge base.
-- [[blog/index|Blog]] — longer posts will live here once I start publishing them.
-- [GitHub](https://github.com/logos52) — code, public notes, and project repositories.
+## Start here
 
-## What I Write About
+A few representative pages — pick one that catches your eye:
 
-- **Learning systems**: encoding, retrieval, metacognition, and self-regulation.
-- **Red Team thinking**: assumption checks, cultural empathy, groupthink mitigation, and decision support.
-- **Agentic engineering**: building software with LLM agents while preserving taste, verification, and ownership.
-- **Language learning**: immersion, attention, comprehension, and practical workflows.
+- [[wiki/Syntheses/ICS System|ICS System]] — high-level synthesis of the learning system that anchors the study notes.
+- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] — practical encoding workflow built around Aim, Shoot, and Skin.
+- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — retrieval system for recall, spacing, interleaving, and gap repair.
+- [[wiki/Red Team/Red Teaming|Red Teaming]] — decision-support principles from the Red Team handbook and Army/UFMCS tradition.
+- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] — best practices for building with LLM agents.
 
-## Featured Notes
+> [!tip] How to navigate
+> Use **Search** in the top-left, **Explorer** to browse by folder, or the **Graph** to see how pages connect. Every page has backlinks at the bottom.
 
-- [[wiki/Syntheses/ICS System|ICS System]]
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Red Team/Red Teaming|Red Teaming]]
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Language/Refold Language Learning System|Refold Language Learning System]]
+## Main Areas
+
+| Area | Start Here | What Lives There |
+| --- | --- | --- |
+| Learning systems | [[wiki/Syntheses/ICS System|ICS System]] | Metacognition, encoding, retrieval, self-regulation, and study workflows. |
+| Core techniques | [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] | BHS, SIR, WPW, Kolbs, marginal gains, and reverse goal setting. |
+| Red Team | [[wiki/Red Team/Red Teaming|Red Teaming]] | Decision support, assumption checks, cultural empathy, groupthink mitigation, and critical thinking tools. |
+| Agentic engineering | [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] | Building with LLM agents, context engineering, tool use, and software practice. |
+| Language learning | [[wiki/Language/Refold Language Learning System|Refold Language Learning System]] | Refold, immersion, noticing, comprehension hacking, grammar priming, and language resources. |
+| Books | [[wiki/Books/The Book of Elon|The Book of Elon]] | Longform summaries and takeaways from books that shaped the wiki. |
+
+## Full index
+
+The full page catalog still lives at [[notes/index|LLM Wiki Index]]. It is the long version of this page: every public wiki page, organized by topic with a one-line summary.
+
+## How this is built
+
+This wiki lives in an [Obsidian](https://obsidian.md) vault and is published as a static site by [Quartz v4](https://quartz.jzhao.xyz/). The full source is on GitHub at [logos52/logos52.github.io](https://github.com/logos52/logos52.github.io). For the philosophy behind the project, see [[README]]; for how the LLM agent maintains the vault, see [[AGENTS]]; for chronological history, see [[log]].
+
+Code is MIT-licensed; written content is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
