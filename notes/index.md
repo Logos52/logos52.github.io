@@ -108,6 +108,14 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Decision Making/Positional Decisions and Expected Value\|Positional Decisions and Expected Value]] | concept | developing | Makes uncertain decisions by improving future position, leverage, information, or expected value. |
 | [[wiki/Decision Making/Changing Decisions\|Changing Decisions]] | concept | developing | Revises decisions when new information changes the process, position, or expected value. |
 
+### Self-management
+
+| Page | Type | Status | Summary |
+| --- | --- | --- | --- |
+| [[wiki/Self Management/Flow State\|Flow State]] | concept | developing | High-output attention state protected by task clarity, environment, and reduced decision friction. |
+| [[wiki/Self Management/Focus Management\|Focus Management]] | system | developing | Practical system for creating, maintaining, and recovering attention during study and work. |
+| [[wiki/Self Management/Procrastination\|Procrastination]] | concept | developing | Treats avoidance as a system problem involving triggers, task friction, environment, and willpower dependence. |
+
 ### Language learning
 
 | Page | Type | Status | Summary |

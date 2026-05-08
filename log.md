@@ -22,6 +22,15 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Connected the section to [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and selected Red Team pages.
 - Added Decision Making to the homepage, public index, command center, and graph color rules.
 
+## [2026-05-08] compile | ICS focus and procrastination pages
+
+- Added ICS-sourced self-management pages:
+  - [[wiki/Self Management/Flow State|Flow State]]
+  - [[wiki/Self Management/Focus Management|Focus Management]]
+  - [[wiki/Self Management/Procrastination|Procrastination]]
+- Updated [[wiki/Decision Making/Decisional Delays|Decisional Delays]] so flow-related disruption links directly to [[wiki/Self Management/Flow State|Flow State]].
+- Connected the new pages to [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Dimensions/Self-Management|Self-Management]], and the public knowledge-base index.
+
 ## [2026-05-08] maintenance | Rename homepage to LLM Knowledge Base
 
 - Renamed public-facing homepage and navigation labels from "LLM Wiki" to "LLM Knowledge Base."

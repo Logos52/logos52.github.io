@@ -37,6 +37,7 @@ A few representative pages — pick one that catches your eye:
 | Learning systems | [[wiki/Syntheses/ICS System|ICS System]] | Metacognition, encoding, retrieval, self-regulation, and study workflows. |
 | Core techniques | [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] | BHS, SIR, WPW, Kolbs, marginal gains, and reverse goal setting. |
 | Decision making | [[wiki/Decision Making/Decision Making|Decision Making]] | Decisional delays, choice throttling, process quality, expected value, and adaptive decision changes. |
+| Self-management | [[wiki/Self Management/Focus Management|Focus Management]] | Flow state, attention control, procrastination repair, and execution reliability. |
 | Red Team | [[wiki/Red Team/Red Teaming|Red Teaming]] | Decision support, assumption checks, cultural empathy, groupthink mitigation, and critical thinking tools. |
 | Agentic engineering | [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] | Building with LLM agents, context engineering, tool use, and software practice. |
 | Language learning | [[wiki/Language/Refold Language Learning System|Refold Language Learning System]] | Refold, immersion, noticing, comprehension hacking, grammar priming, and language resources. |

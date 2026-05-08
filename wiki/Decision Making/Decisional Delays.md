@@ -27,7 +27,7 @@ Decisional delays replace the vague habit of "figuring it out as I go." Executio
 
 ## Why It Matters
 
-The delay is not only the visible minutes between tasks. The bigger cost is the break in flow.
+The delay is not only the visible minutes between tasks. The bigger cost is the break in [[wiki/Self Management/Flow State|Flow State]].
 
 When a user stops to decide what to do next, several things happen:
 
@@ -79,6 +79,9 @@ For example, "study biology" still contains decisions. "At 9:00, Aim the endocri
 
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]
+- [[wiki/Self Management/Flow State|Flow State]]
+- [[wiki/Self Management/Focus Management|Focus Management]]
+- [[wiki/Self Management/Procrastination|Procrastination]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
