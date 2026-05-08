@@ -21,7 +21,7 @@ The practical version:
 2. Judge decisions by process, not just outcome, with [[wiki/Decision Making/Good Decisions|Good Decisions]].
 3. Make uncertain decisions by improving position and expected value with [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]].
 4. Change decisions when new information justifies it with [[wiki/Decision Making/Changing Decisions|Changing Decisions]].
-5. Protect [[wiki/Self Management/Flow State|Flow State]] with [[wiki/Self Management/Focus Management|Focus Management]] when the decision is about execution.
+5. Protect [[wiki/Self Management/Flow State|Flow State]] with [[wiki/Self Management/Focus Management|Focus Management]] and [[wiki/Self Management/Attention Management|Attention Management]] when the decision is about execution.
 
 This section is related to [[wiki/Red Team/Red Teaming|Red Teaming]], but it has a different job. Red Teaming tests plans and assumptions. This decision-making layer helps the user move through daily, academic, and personal choices with less drag and better self-regulation.
 
@@ -91,6 +91,7 @@ It also protects focus. A recurring decision about what to do next is not just a
 - [[wiki/Decision Making/Changing Decisions|Changing Decisions]]
 - [[wiki/Self Management/Flow State|Flow State]]
 - [[wiki/Self Management/Focus Management|Focus Management]]
+- [[wiki/Self Management/Attention Management|Attention Management]]
 - [[wiki/Self Management/Procrastination|Procrastination]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]

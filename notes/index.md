@@ -114,6 +114,7 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | --- | --- | --- | --- |
 | [[wiki/Self Management/Flow State\|Flow State]] | concept | developing | High-output attention state protected by task clarity, environment, and reduced decision friction. |
 | [[wiki/Self Management/Focus Management\|Focus Management]] | system | developing | Practical system for creating, maintaining, and recovering attention during study and work. |
+| [[wiki/Self Management/Attention Management\|Attention Management]] | system | developing | Advanced day-level system for preserving flow across tasks by reducing transition friction and decisional delays. |
 | [[wiki/Self Management/Procrastination\|Procrastination]] | concept | developing | Treats avoidance as a system problem involving triggers, task friction, environment, and willpower dependence. |
 
 ### Language learning

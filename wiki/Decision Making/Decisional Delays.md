@@ -81,6 +81,7 @@ For example, "study biology" still contains decisions. "At 9:00, Aim the endocri
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]
 - [[wiki/Self Management/Flow State|Flow State]]
 - [[wiki/Self Management/Focus Management|Focus Management]]
+- [[wiki/Self Management/Attention Management|Attention Management]]
 - [[wiki/Self Management/Procrastination|Procrastination]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]

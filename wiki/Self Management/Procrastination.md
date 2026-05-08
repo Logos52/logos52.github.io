@@ -145,6 +145,7 @@ The bridge between them is often a minimum viable goal plus a prepared focus env
 ## Related Pages
 
 - [[wiki/Self Management/Focus Management|Focus Management]]
+- [[wiki/Self Management/Attention Management|Attention Management]]
 - [[wiki/Self Management/Flow State|Flow State]]
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]
