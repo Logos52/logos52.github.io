@@ -27,6 +27,7 @@ The purpose of thinking on paper is to offload working memory so the mind can fo
 - Rewrite messy structure into cleaner structure.
 - Use the page to hold intermediate thoughts so working memory can stay focused.
 - Create maps, analogies, or compressed summaries.
+- Clarify a concept by stating it, elaborating it, giving an example, and making an analogy when useful.
 
 ## What It Is Not
 
@@ -39,6 +40,19 @@ The purpose of thinking on paper is to offload working memory so the mind can fo
 
 Thinking on paper makes invisible cognition more visible. Once thoughts are externalized, the learner can inspect structure, detect gaps, find overload, and see whether they are connecting or merely collecting.
 
+## How It Should Feel
+
+Thinking on Paper should feel like making cognition inspectable. The page should help you hold more relationships than working memory can manage alone.
+
+Good signs:
+
+- vague thoughts become objects you can move and test;
+- contradictions become visible;
+- the next question appears from the page;
+- and the writing changes the thought rather than merely recording it.
+
+Warning sign: Thinking on Paper has become dumping when the page accumulates words but does not improve the decision, structure, or question.
+
 ## Related Concepts
 
 - [[wiki/Concepts/Metacognition|Metacognition]]
@@ -46,6 +60,7 @@ Thinking on paper makes invisible cognition more visible. Once thoughts are exte
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Sources
 

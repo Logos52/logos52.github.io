@@ -81,7 +81,6 @@ Use this short review:
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Decision Making/Good Decisions|Good Decisions]]
 - [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]
-- [[wiki/Red Team/Key Assumptions Check|Key Assumptions Check]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 

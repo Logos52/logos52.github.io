@@ -56,35 +56,35 @@ This makes Red Teaming a natural bridge between [[wiki/Concepts/Metacognition|Me
 
 ## The Four UFMCS Principles
 
-- [[wiki/Red Team/Self-Awareness and Reflection|Self-Awareness and Reflection]]
-- [[wiki/Red Team/Groupthink Mitigation and Decision Support|Groupthink Mitigation and Decision Support]]
-- [[wiki/Red Team/Fostering Cultural Empathy|Fostering Cultural Empathy]]
-- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
+- Self-Awareness and Reflection
+- Groupthink Mitigation and Decision Support
+- Fostering Cultural Empathy
+- Applied Critical Thinking
 
-See also: [[wiki/Red Team/Four Principles of Red Teaming|Four Principles of Red Teaming]].
+These principles are preserved here as part of the Red Teaming identity page. The separate tool pages were pruned so the working decision system can live under [[wiki/Decision Making/Decision Making|Decision Making]].
 
 ## Key Tool Families
 
 | Tool Family | Use |
 | --- | --- |
-| [[wiki/Red Team/Assumption Tools|Assumption Tools]] | Make hidden claims visible and test whether they are necessary, valid, or fragile. |
-| [[wiki/Red Team/Perspective-Shifting Tools|Perspective-Shifting Tools]] | See the problem through other actors, cultures, incentives, and worldviews. |
-| [[wiki/Red Team/Group Process Tools|Group Process Tools]] | Reduce hierarchy effects and give quieter or lower-status participants a voice. |
-| [[wiki/Red Team/Failure Analysis Tools|Failure Analysis Tools]] | Identify how plans break before execution exposes the flaw. |
-| [[wiki/Red Team/Communication Tools|Communication Tools]] | Make analysis clear enough to influence decisions. |
+| Assumption Tools | Make hidden claims visible and test whether they are necessary, valid, or fragile. |
+| Perspective-Shifting Tools | See the problem through other actors, cultures, incentives, and worldviews. |
+| Group Process Tools | Reduce hierarchy effects and give quieter or lower-status participants a voice. |
+| Failure Analysis Tools | Identify how plans break before execution exposes the flaw. |
+| Communication Tools | Make analysis clear enough to influence decisions. |
 
 ## High-Value Tools
 
-- [[wiki/Red Team/Four Ways of Seeing|Four Ways of Seeing]]
-- [[wiki/Red Team/Analysis of Competing Hypotheses|Analysis of Competing Hypotheses]]
-- [[wiki/Red Team/Key Assumptions Check|Key Assumptions Check]]
-- [[wiki/Red Team/Premortem Analysis|Premortem Analysis]]
-- [[wiki/Red Team/Stakeholder Mapping|Stakeholder Mapping]]
-- [[wiki/Red Team/String of Pearls|String of Pearls]]
-- [[wiki/Red Team/SEE-I|SEE-I]]
-- [[wiki/Red Team/Five Whys|Five Whys]]
-- [[wiki/Red Team/Devils Advocacy|Devils Advocacy]]
-- [[wiki/Red Team/Team A Team B Analysis|Team A Team B Analysis]]
+- Four Ways of Seeing
+- Analysis of Competing Hypotheses
+- Key Assumptions Check
+- Premortem Analysis
+- Stakeholder Mapping
+- String of Pearls
+- SEE-I
+- Five Whys
+- Devils Advocacy
+- Team A Team B Analysis
 
 ## Personal Translation
 

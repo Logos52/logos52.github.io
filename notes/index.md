@@ -55,7 +55,8 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Concepts/Metacognition\|Metacognition]] | concept | seed | Awareness and control of thinking during learning; the control layer for learning-to-learn. |
 | [[wiki/Techniques/Building the Radar\|Building the Radar]] | technique | seed | Practice for detecting shifts from active processing into passive consumption. |
 | [[wiki/Concepts/Active vs Passive Learning\|Active vs Passive Learning]] | concept | seed | Distinguishes visible learning behaviors from the thought quality they produce. |
-| [[wiki/Concepts/Learning vs Technique Use\|Learning vs Technique Use]] | concept | developing | Diagnostic principle for checking whether a technique is producing the intended thinking, not just a correct-looking artifact. |
+| [[wiki/Concepts/Technique-Triggered Thinking\|Technique-Triggered Thinking]] | concept | developing | Diagnostic principle for checking whether a technique is producing the intended cognition, not just a correct-looking artifact. |
+| [[wiki/Concepts/The Shortcut Problem\|The Shortcut Problem]] | concept | developing | Pattern where the brain avoids difficult learning by producing visible activity that bypasses the required thinking. |
 | [[wiki/Concepts/Cognitive Load as Signal\|Cognitive Load as Signal]] | concept | seed | Interprets mental effort, overload, and drowsiness as metacognitive signals. |
 | [[wiki/Concepts/Unlearning Learning Habits\|Unlearning Learning Habits]] | concept | seed | How old learning habits persist and how to replace them. |
 | [[wiki/Concepts/Deep Processing\|Deep Processing Concept Note]] | concept | seed | Supporting concept note for meaning-making through comparison, evaluation, connection, and schema formation. |
@@ -123,30 +124,13 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | Page | Type | Status | Summary |
 | --- | --- | --- | --- |
 | [[wiki/Red Team/Red Teaming\|Red Teaming]] | hub | developing | Dedicated Red Teaming hub connecting Army decision-support principles to the user's identity and learning system. |
-| [[wiki/Red Team/Four Principles of Red Teaming\|Four Principles of Red Teaming]] | model | developing | UFMCS model: self-awareness, groupthink mitigation, cultural empathy, and applied critical thinking. |
-| [[wiki/Red Team/Self-Awareness and Reflection\|Self-Awareness and Reflection]] | principle | developing | Individual reflection layer for noticing temperament, emotion, values, bias, and identity. |
-| [[wiki/Red Team/Groupthink Mitigation and Decision Support\|Groupthink Mitigation and Decision Support]] | principle | developing | Group-process discipline for protecting dissent and improving decisions. |
-| [[wiki/Red Team/Fostering Cultural Empathy\|Fostering Cultural Empathy]] | principle | developing | Perspective-taking discipline for understanding other actors from inside their frame. |
-| [[wiki/Red Team/Applied Critical Thinking\|Applied Critical Thinking]] | principle | developing | Practical methods for testing assumptions, arguments, analogies, biases, and alternatives. |
-| [[wiki/Red Team/Creative Thinking\|Creative Thinking]] | principle | developing | Red Team model for problem-finding, preparation, ideation, verification, and communication. |
-| [[wiki/Red Team/Assumption Tools\|Assumption Tools]] | tool-family | developing | Tools for surfacing and testing hidden load-bearing assumptions. |
-| [[wiki/Red Team/Perspective-Shifting Tools\|Perspective-Shifting Tools]] | tool-family | developing | Tools for seeing through other actors, cultures, incentives, and futures. |
-| [[wiki/Red Team/Group Process Tools\|Group Process Tools]] | tool-family | developing | Facilitation tools for reducing hierarchy effects and improving group divergence/convergence. |
-| [[wiki/Red Team/Failure Analysis Tools\|Failure Analysis Tools]] | tool-family | developing | Tools for finding plan failure paths before execution exposes them. |
-| [[wiki/Red Team/Communication Tools\|Communication Tools]] | tool-family | developing | Tools for making Red Team analysis clear enough to change decisions. |
-| [[wiki/Red Team/Four Ways of Seeing\|Four Ways of Seeing]] | tool | developing | Four-perspective tool for comparing how each side sees itself and the other. |
-| [[wiki/Red Team/Analysis of Competing Hypotheses\|Analysis of Competing Hypotheses]] | tool | developing | Evidence-comparison tool for testing multiple explanations against contradictions. |
-| [[wiki/Red Team/Key Assumptions Check\|Key Assumptions Check]] | tool | developing | Tool for identifying necessary, uncertain, and fragile assumptions. |
-| [[wiki/Red Team/Premortem Analysis\|Premortem Analysis]] | tool | developing | Failure-imagination tool for finding why a plan might break. |
-| [[wiki/Red Team/Stakeholder Mapping\|Stakeholder Mapping]] | tool | developing | Tool for mapping actors by interests, influence, support, and opposition. |
-| [[wiki/Red Team/String of Pearls\|String of Pearls]] | tool | developing | Vertical plan review tool linking tasks to assumptions, dependencies, and effects. |
-| [[wiki/Red Team/SEE-I\|SEE-I]] | tool | developing | State, Elaborate, Exemplify, Illustrate: a tool for clarifying and communicating ideas. |
 
 ### Reference
 
 | Page | Type | Status | Summary |
 | --- | --- | --- | --- |
 | [[wiki/Books/The Parasitic Mind\|The Parasitic Mind]] | book | developing | Longform review and takeaways on Gad Saad's argument for reason, free speech, and epistemic hygiene. |
+| [[wiki/Concepts/Suicidal Empathy\|Suicidal Empathy]] | concept | developing | Gad Saad's evolutionary framework for maladaptive empathy that is excessive, misactivated, or aimed at the wrong targets. |
 | [[wiki/Books/The Book of Elon\|The Book of Elon]] | book | developing | Longform review and takeaways on purpose, first-principles engineering, company-building, and civilizational optimism. |
 | [[wiki/Glossary\|Glossary]] | glossary | seed | Short definitions of recurring terms. |
 | [[wiki/Bibliography\|Bibliography]] | bibliography | seed | Source bibliography for the wiki. |

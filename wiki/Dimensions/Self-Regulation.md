@@ -80,7 +80,6 @@ Metacognition notices. Self-Regulation acts.
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Concepts/Metacognition|Metacognition]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
-- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
 - [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[templates/Kolbs Template|Kolbs Template]]

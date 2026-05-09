@@ -39,12 +39,26 @@ The first bottleneck in learning to learn is often not learning a new technique.
 
 For many learners, passive learning is the default state. Better methods do not help much if the learner cannot tell when they have stopped using them. The radar is the prerequisite for deliberate control.
 
+## How It Should Feel
+
+Building the Radar should feel like catching the moment your study session changes quality. You are not trying to be perfectly focused. You are trying to notice the shift from thinking into autopilot quickly enough to correct it.
+
+Good signs:
+
+- you notice when reading turns into scanning;
+- you catch yourself copying before the whole session is lost;
+- you can name the shortcut you are taking;
+- and you can make one small adjustment without restarting everything.
+
+Warning sign: the radar is too weak when you only realize the session was passive after it is already over.
+
 ## Related Concepts
 
 - [[wiki/Concepts/Metacognition|Metacognition]]
 - [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
 - [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]]
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Sources
 

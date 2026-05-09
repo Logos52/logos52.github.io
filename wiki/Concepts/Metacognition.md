@@ -75,8 +75,6 @@ This makes metacognition the awareness layer inside [[wiki/Dimensions/Self-Regul
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
-- [[wiki/Red Team/Self-Awareness and Reflection|Self-Awareness and Reflection]]
-- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
 
 ## Sources
 

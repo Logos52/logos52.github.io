@@ -165,6 +165,20 @@ Stop Skin when the map is good enough to retrieve from.
 
 Do not keep polishing. If the map can support SIR, move into retrieval. Retrieval will reveal the next repair.
 
+## How It Should Feel
+
+Skin should feel like reducing the mental load of the map. The artifact should become easier to reconstruct, not merely neater.
+
+Good signs:
+
+- vague chunks get renamed;
+- overloaded branches are split;
+- decorative arrows disappear;
+- the main structure becomes obvious;
+- and you can imagine using the result for retrieval.
+
+Warning sign: Skin has become cosmetic when the map looks cleaner but is not easier to explain from memory.
+
 ## Related Pages
 
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
@@ -174,6 +188,8 @@ Do not keep polishing. If the map can support SIR, move into retrieval. Retrieva
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
+- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Sources
 

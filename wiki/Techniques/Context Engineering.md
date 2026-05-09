@@ -32,6 +32,19 @@ In this knowledge base, context engineering includes:
 
 For small and medium markdown knowledge bases, careful context organization can reduce the need for complex retrieval infrastructure. The LLM can navigate the repo through indexes, backlinks, filenames, and search.
 
+## How It Should Feel
+
+Context Engineering should feel like reducing friction for the next thinking step. The workspace, files, instructions, and references should make the agent or human more likely to do the right work without re-discovering the situation.
+
+Good signs:
+
+- the relevant material is easy to find;
+- constraints are explicit;
+- the next action is obvious;
+- and the context helps judgment instead of drowning it.
+
+Warning sign: context work has become a shortcut when it turns into organizing inputs instead of using them to think or build.
+
 ## Related Concepts
 
 - [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]

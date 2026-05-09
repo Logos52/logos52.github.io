@@ -151,6 +151,19 @@ Shoot should produce:
 - unresolved questions;
 - material ready for [[wiki/Techniques/Skin|Skin]].
 
+## How It Should Feel
+
+Shoot should feel like using the source to satisfy directed curiosity. You are not transcribing the material. You are testing, answering, and revising the questions and chunks created during Aim.
+
+Good signs:
+
+- source details land under meaningful questions;
+- the map changes as understanding improves;
+- you notice when a chunk label is weak;
+- and confusion becomes more specific instead of more global.
+
+Warning sign: Shoot has become passive when your notes follow the source order without changing the structure.
+
 ## Related Pages
 
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
@@ -159,6 +172,8 @@ Shoot should produce:
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
+- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Sources
 
