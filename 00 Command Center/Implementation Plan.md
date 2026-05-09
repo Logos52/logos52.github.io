@@ -63,7 +63,7 @@ Created pages:
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Mindset|Mindset]]
-- [[wiki/Concepts/Deep Processing|Deep Processing Concept Note]]
+- [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
 - [[wiki/Syntheses/Current Study System|Current Study System]]

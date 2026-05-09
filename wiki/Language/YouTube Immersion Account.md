@@ -1,6 +1,6 @@
 ---
 type: workflow
-status: developing
+status: seed
 created: 2026-05-06
 updated: 2026-05-06
 source-count: 1

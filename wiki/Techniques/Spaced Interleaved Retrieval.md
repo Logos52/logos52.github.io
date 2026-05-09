@@ -1,6 +1,6 @@
 ---
 type: technique
-status: developing
+status: seed
 created: 2026-05-04
 updated: 2026-05-06
 source-count: 1
@@ -189,7 +189,7 @@ Warning sign: SIR has become recognition when checking notes feels easier than r
 - [[wiki/Techniques/WPW|WPW]]
 - [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
-- [[wiki/Concepts/Deep Processing|Deep Processing Concept Note]]
+- [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
 - [[wiki/Concepts/Metacognition|Metacognition]]
 - [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
 - [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]

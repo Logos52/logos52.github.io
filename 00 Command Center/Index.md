@@ -34,7 +34,7 @@ tags:
 - [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
 - [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]]
-- [[wiki/Concepts/Deep Processing|Deep Processing Concept Note]]
+- [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]

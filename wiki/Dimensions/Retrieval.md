@@ -1,6 +1,6 @@
 ---
 type: dimension
-status: developing
+status: seed
 created: 2026-05-04
 updated: 2026-05-04
 source-count: 2

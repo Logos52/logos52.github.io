@@ -1,7 +1,10 @@
 ---
 type: glossary
+status: seed
 created: 2026-05-02
 updated: 2026-05-04
+tags:
+  - reference
 ---
 
 # Glossary

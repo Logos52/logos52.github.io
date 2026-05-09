@@ -79,7 +79,7 @@ Metacognition and learning-to-learn:
 - [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]]
 - [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
 - [[wiki/Concepts/Neuroticism|Neuroticism]]
-- [[wiki/Concepts/Deep Processing|Deep Processing Concept Note]]
+- [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
 
