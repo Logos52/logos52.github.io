@@ -197,6 +197,19 @@ The key question:
 
 That question turns a distant goal into an upgrade path.
 
+## How It Should Feel
+
+Reverse Goal Setting should feel like a vague future becoming a concrete capability gap. The goal should stop being an aspiration and start becoming a set of forces, constraints, and next actions.
+
+Good signs:
+
+- the desired end state is observable;
+- missing capabilities become visible;
+- blockers become specific enough to address;
+- and the next step feels smaller than the original ambition.
+
+Warning sign: reverse goal setting has become fantasy planning when the future is vivid but the current gap stays vague.
+
 ## Sources
 
 - [[raw/sources/How to Change Your Life in 2026 with Reverse Goal Setting|How to Change Your Life in 2026 with Reverse Goal Setting]]

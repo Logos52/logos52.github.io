@@ -198,6 +198,20 @@ Bad LLM use:
 - accepting the model's structure without evaluating it;
 - using the model to avoid the hard thinking.
 
+## How It Should Feel
+
+BHS should feel like the topic is becoming more organized while you learn it. The main signal is not that the map looks good. The signal is that the map is making your thinking more structured.
+
+Good signs:
+
+- Aim creates useful curiosity before the source gives answers;
+- Shoot feels like answering, sorting, and revising rather than copying;
+- Skin makes the map simpler and easier to reconstruct;
+- relationships feel earned, not decorative;
+- and retrieval from the final structure feels possible.
+
+Warning sign: BHS has become surface activity when the artifact is clean but you cannot explain why the chunks and arrows exist.
+
 ## Related Pages
 
 - [[wiki/Syntheses/Current Study System|Current Study System]]
@@ -211,6 +225,8 @@ Bad LLM use:
 - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
 - [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
+- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Sources
 

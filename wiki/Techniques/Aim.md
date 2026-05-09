@@ -172,6 +172,19 @@ Before moving to Shoot:
 | Too much detail | Return to the biggest concepts and relationships. |
 | Stuck on source order | Convert headings into a flat list, then re-group by importance. |
 
+## How It Should Feel
+
+Aim should feel like curiosity becoming directed. The topic should start as a loose cloud and turn into a small set of important questions, tensions, and likely chunks.
+
+Good signs:
+
+- you feel pulled toward why/how questions, not just definitions;
+- you can name what would make the topic important;
+- you notice possible relationships before the source explains them;
+- and you feel enough uncertainty to want the answers.
+
+Warning sign: Aim has become a shortcut when it feels like copying headings into question form.
+
 ## Related Pages
 
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
@@ -180,6 +193,8 @@ Before moving to Shoot:
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
+- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Sources
 

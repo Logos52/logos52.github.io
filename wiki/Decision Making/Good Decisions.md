@@ -48,6 +48,17 @@ Use this review after meaningful decisions:
 | What would change my mind? | Separates commitment from rigidity. |
 | What did the outcome teach me? | Turns results into process feedback. |
 
+## Lightweight Red Team Checks
+
+Use these when the decision is meaningful but does not deserve a full analysis ritual:
+
+- What assumption would break this decision if false?
+- What is the strongest case against my preferred option?
+- If this fails, what is the most likely reason?
+- Am I choosing this because it is good, or because it protects comfort, identity, or self-image?
+
+These replace separate Red Team tool pages. They are small checks inside the decision process.
+
 ## Relationship To Learning
 
 This principle matters in study systems because learning outcomes are noisy.
@@ -79,6 +90,7 @@ This turns performance into self-regulation instead of self-judgment.
 - [[wiki/Decision Making/Changing Decisions|Changing Decisions]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
 
 ## Sources
 

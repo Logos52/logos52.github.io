@@ -55,6 +55,19 @@ The mistake is to chase advanced cognitive upgrades while the foundation is unst
 | Improving too many dimensions | Reflection becomes noisy and actions scatter. | Pick one primary dimension and one support dimension. |
 | Theory-heavy upgrading | Lots of reading, little practice. | Run a small experiment quickly. |
 
+## How It Should Feel
+
+Upgrading Your Dimensions should feel like finding the current limiter in the learning system. The work should make one dimension more capable, not add a pile of disconnected techniques.
+
+Good signs:
+
+- the limiting dimension is named;
+- the upgrade is small enough to practice;
+- the change affects future sessions, not just one artifact;
+- and the learner can explain what improved in the process.
+
+Warning sign: dimension upgrading has become technique collecting when many new methods are added but the same bottleneck remains.
+
 ## Related Pages
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
@@ -62,6 +75,7 @@ The mistake is to chase advanced cognitive upgrades while the foundation is unst
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
 
 ## Open Questions
 

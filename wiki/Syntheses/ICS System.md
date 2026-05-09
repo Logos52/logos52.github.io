@@ -102,7 +102,7 @@ The dimensions are not motivational labels. They are working parts of a learning
 7. **Reflect and abstract.** Use Kolbs to turn experience into a better rule.
 8. **Run the next experiment.** Improve one variable and repeat.
 
-The loop depends on [[wiki/Concepts/Learning vs Technique Use|Learning vs Technique Use]]: the learner should check whether each technique is producing the intended cognition, not merely whether the steps look correct.
+The loop depends on [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]: the learner should check whether each technique is producing the intended cognition, not merely whether the steps look correct. It also requires watching for [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], where the brain turns a useful method into a lower-effort imitation.
 
 ## Learning Efficiency
 

@@ -1,0 +1,132 @@
+---
+type: concept
+status: developing
+created: 2026-05-09
+updated: 2026-05-09
+source-count: 1
+last-audited:
+tags:
+  - learning
+  - metacognition
+  - self-regulation
+  - deep-processing
+  - ics
+---
+
+# The Shortcut Problem
+
+The Shortcut Problem is the tendency to escape hard thinking by doing something that looks like learning but avoids the cognition that actually creates learning.
+
+It is especially dangerous because it usually feels productive. A note gets written. A highlight gets made. A map gets drawn. A prompt gets answered. But the learner may have avoided the evaluation, comparison, uncertainty, reconstruction, or organization that the task required.
+
+## Core Idea
+
+When learning becomes uncertain, effortful, or uncomfortable, the brain often tries to make the task simpler.
+
+That can be useful when the simplification preserves the important thinking. It becomes a problem when simplification removes the thinking.
+
+The pattern is:
+
+1. The task requires higher-order cognition.
+2. The learner feels uncertainty or cognitive load.
+3. The brain searches for an easier path.
+4. The learner completes a visible study behavior.
+5. The result looks correct, but the knowledge does not improve enough.
+
+This is one reason a technique can look right while results stay flat.
+
+## Common Shortcuts
+
+| Shortcut | What It Avoids |
+| --- | --- |
+| Copying an explanation | Generating and testing one's own structure. |
+| Highlighting a sentence | Evaluating why the sentence matters. |
+| Drawing an arrow | Explaining the relationship represented by the arrow. |
+| Asking an LLM for the structure too early | Doing the first-pass organization oneself. |
+| Making a clean map | Resolving confusion and prioritizing relationships. |
+| Re-reading | Reconstructing knowledge from memory. |
+| Repeating details | Building a schema that gives details a place to attach. |
+| Switching techniques | Staying with one method long enough to train the skill. |
+
+The shortcut often reduces effort in the short term and increases study load later.
+
+## Why It Matters
+
+The goal of learning techniques is not activity. The goal is to produce a specific kind of thinking.
+
+[[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]] explains the positive version: choose a method because it triggers the cognition the goal requires.
+
+The Shortcut Problem is the negative version: the learner performs the method while avoiding the cognition.
+
+## How It Shows Up In BHS
+
+[[wiki/Techniques/Bear Hunter System|Bear Hunter System]] can fail when its steps become surface actions.
+
+| Step | Shortcut Version | Repair |
+| --- | --- | --- |
+| [[wiki/Techniques/Aim|Aim]] | Listing topics or generic questions. | Ask what matters, why it matters, and how ideas relate. |
+| [[wiki/Techniques/Shoot|Shoot]] | Filling the map with source explanations. | Use sources to answer Aim questions and revise structure. |
+| [[wiki/Techniques/Skin|Skin]] | Making the map neat. | Make the map easier to reconstruct and use. |
+
+The question is not whether the map exists. The question is whether the map forced importance, relationship, and chunking decisions.
+
+## How It Shows Up In Retrieval
+
+[[wiki/Techniques/Spaced Interleaved Retrieval|Retrieval]] can also be faked.
+
+Shortcut versions include:
+
+- checking notes too early,
+- recognizing an answer instead of reconstructing it,
+- repeating the same prompt until it feels familiar,
+- avoiding interleaving because discrimination feels uncomfortable,
+- and treating a gap as failure instead of information.
+
+Good retrieval should expose whether the knowledge can be reconstructed, compared, explained, and applied.
+
+## How To Detect It
+
+Ask:
+
+- Did I produce an artifact without changing my understanding?
+- Did I choose the easiest version of the task?
+- Did I avoid uncertainty by looking up, copying, or outsourcing?
+- Can I explain why the relationships in my notes matter?
+- Can I reconstruct the structure without looking?
+- Did the technique make me think harder, or did it let me look busy?
+
+The clearest signal is often a mismatch: the work looks organized, but the learner cannot use it.
+
+## How To Design Around It
+
+Make techniques harder to fake.
+
+Practical constraints:
+
+- Require a reason for every connection.
+- Ask "why does this matter?" before adding detail.
+- Compare similar ideas before summarizing them.
+- Brain dump before checking notes.
+- Use interleaving to force discrimination.
+- Use [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] to name the shortcut after it happens.
+- Choose one [[wiki/Techniques/Marginal Gains|marginal gain]] that targets the shortcut directly.
+
+The point is not to make study harder for its own sake. The point is to prevent the learner from unconsciously replacing learning with performance theater.
+
+## Related Pages
+
+- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
+- [[wiki/Techniques/Building the Radar|Building the Radar]]
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]
+- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+
+## Open Questions
+
+- Which shortcut appears most often during the user's current study system?
+- What constraint would make that shortcut harder to take?
+- Which technique currently needs a better "how it should feel" signal?

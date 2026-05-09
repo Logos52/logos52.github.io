@@ -13,9 +13,9 @@ tags:
   - ics
 ---
 
-# Learning vs Technique Use
+# Technique-Triggered Thinking
 
-Learning vs Technique Use is the diagnostic principle that a study technique only matters if it produces the intended thinking. The visible method is not the source of the result. The method is a prompt. The thinking does the learning.
+Technique-Triggered Thinking is the diagnostic principle that a study technique only matters if it produces the intended thinking. The visible method is not the source of the result. The method is a prompt. The thinking does the learning.
 
 This is a high-value distinction because it explains a common plateau: the learner appears to be using better methods, but results do not improve because the method has been reduced to a surface routine.
 
@@ -97,21 +97,9 @@ This is why [[wiki/Techniques/Aim|Aim]], [[wiki/Techniques/Shoot|Shoot]], and [[
 
 ## The Shortcut Problem
 
-The brain often tries to escape difficult thinking.
+The main enemy is [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: the brain often tries to escape uncertain, effortful thinking by creating something that looks like learning.
 
-When a task feels uncertain, effortful, or overwhelming, the learner may unconsciously look for a shortcut:
-
-- copy the answer,
-- ask someone else for the structure,
-- highlight instead of evaluate,
-- draw arrows without explaining relationships,
-- make the map look complete without resolving confusion,
-- repeat details instead of organizing them,
-- or switch methods before the current method has had time to train the skill.
-
-The shortcut usually feels productive because something visible gets made. But the visible artifact can hide the missing cognition.
-
-This is the point of [[wiki/Techniques/Building the Radar|Building the Radar]]: notice when the session has shifted from thinking into performance theater.
+A technique needs enough constraint that the learner cannot easily turn it into copying, decorating, recognition, or outsourcing. If the brain can complete the activity without doing the intended thinking, the technique is too easy to fake.
 
 ## Outcome Over Steps
 
@@ -262,6 +250,7 @@ After the session:
 
 - [[wiki/Syntheses/ICS System|ICS System]]
 - [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]

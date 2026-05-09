@@ -164,6 +164,20 @@ LLMs can help SIR by:
 
 The danger is overusing the LLM as the thinker. The user should retrieve first, then use the model for feedback, variation, and calibration.
 
+## How It Should Feel
+
+SIR should feel like controlled strain. The point is not to feel fluent. The point is to expose what can and cannot be reconstructed under spacing, variation, and discrimination.
+
+Good signs:
+
+- recall feels effortful but possible;
+- gaps become specific;
+- interleaving makes similar ideas easier to distinguish;
+- spacing reveals what is actually stable;
+- and failures point back to either retrieval practice or re-encoding.
+
+Warning sign: SIR has become recognition when checking notes feels easier than reconstructing first.
+
 ## Related Concepts
 
 - [[wiki/Syntheses/Current Study System|Current Study System]]
@@ -178,6 +192,8 @@ The danger is overusing the LLM as the thinker. The user should retrieve first, 
 - [[wiki/Concepts/Deep Processing|Deep Processing Concept Note]]
 - [[wiki/Concepts/Metacognition|Metacognition]]
 - [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
+- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Open Questions
 

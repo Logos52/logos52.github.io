@@ -37,6 +37,14 @@ In this wiki, Kolbs sits under [[wiki/Dimensions/Self-Regulation|Self-Regulation
 - A more accurate model of cause and effect.
 - A practical next action.
 
+## Root-Cause Prompt
+
+When a Kolb feels vague, use one Red Team residue question:
+
+> Why did this happen, and what deeper condition made that possible?
+
+Repeat only until the answer becomes actionable. The point is not a formal Five Whys ritual. The point is to move past the first explanation.
+
 ## What Bad Kolbs Looks Like
 
 | Failure | Signal | Repair |
@@ -60,6 +68,19 @@ Together:
 - Marginal Gains prioritizes the target.
 - Kolbs improves the method.
 
+## How It Should Feel
+
+Kolbs should feel like turning a messy experience into a better next experiment. The reflection should move from what happened, to why it happened, to what you will try differently.
+
+Good signs:
+
+- the experience becomes more specific as you write;
+- emotions and triggers become usable information;
+- you identify a pattern, not just an event;
+- and the next experiment is smaller and clearer than the original problem.
+
+Warning sign: Kolbs has become journaling-only when it records the experience but does not change the next attempt.
+
 ## Related Pages
 
 - [[templates/Kolbs Template|Kolbs Template]]
@@ -68,6 +89,7 @@ Together:
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Concepts/Metacognition|Metacognition]]
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Open Questions
 

@@ -23,7 +23,7 @@ The practical version:
 4. Change decisions when new information justifies it with [[wiki/Decision Making/Changing Decisions|Changing Decisions]].
 5. Protect [[wiki/Self Management/Flow State|Flow State]] with [[wiki/Self Management/Focus Management|Focus Management]] and [[wiki/Self Management/Attention Management|Attention Management]] when the decision is about execution.
 
-This section is related to [[wiki/Red Team/Red Teaming|Red Teaming]], but it has a different job. Red Teaming tests plans and assumptions. This decision-making layer helps the user move through daily, academic, and personal choices with less drag and better self-regulation.
+This section is related to [[wiki/Red Team/Red Teaming|Red Teaming]], but it has a different job. Red Teaming remains an identity and stance. This decision-making layer is the practical operating system for daily, academic, and personal choices with less drag and better self-regulation.
 
 ## Core Idea
 
@@ -65,6 +65,20 @@ Use this loop when a decision matters enough to think about deliberately:
 7. Record the reason for the decision before the outcome is known.
 8. Use the outcome as feedback, not as the sole definition of whether the decision was good.
 
+## Red Team Residue
+
+Most Red Team tools do not need standalone pages in this knowledge base. AI can generate matrices, dissent prompts, stakeholder lists, alternative hypotheses, premortems, and explanation formats quickly. The scarce skill is deciding whether those outputs matter.
+
+Keep only the residue:
+
+- **Assumptions:** What must be true for this choice to work?
+- **Downside:** What failure would be most costly?
+- **Dissent:** What is the strongest argument against my preferred option?
+- **Perspective:** Who is affected, and what do they see that I do not?
+- **Process record:** What did I believe before the outcome was known?
+
+These checks should serve the ICS decision process instead of becoming separate tool rituals.
+
 ## Relationship To Learning
 
 Decision making is part of [[wiki/Dimensions/Self-Regulation|Self-Regulation]] and [[wiki/Dimensions/Self-Management|Self-Management]].
@@ -98,6 +112,7 @@ It also protects focus. A recurring decision about what to do next is not just a
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
+- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
 
 ## Sources
 

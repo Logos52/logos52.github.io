@@ -62,6 +62,19 @@ Marginal Gains without Kolbs can become wishful planning. Kolbs without Marginal
 5. Run a Kolbs cycle after each serious attempt.
 6. Decide whether to persist, refine, or switch targets.
 
+## How It Should Feel
+
+Marginal Gains should feel like narrowing the improvement field. You should leave with one small, believable upgrade that clearly connects to a larger goal.
+
+Good signs:
+
+- the gain is specific enough to test;
+- it improves a real bottleneck;
+- it can be repeated across sessions;
+- and it reduces pressure by making progress concrete.
+
+Warning sign: Marginal Gains has become avoidance when you keep planning tiny improvements but never run the next attempt.
+
 ## Related Pages
 
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
@@ -72,6 +85,7 @@ Marginal Gains without Kolbs can become wishful planning. Kolbs without Marginal
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset|Mindset]]
+- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
 
 ## Sources
 

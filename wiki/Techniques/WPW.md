@@ -72,6 +72,19 @@ Do not use WPW as the first retrieval method for every topic. It is powerful bec
 | Fluent vagueness | Explanation sounds smooth but avoids precision. | Add technical labels and concrete examples. |
 | Overlong session | Teaching becomes unfocused. | Pick one topic boundary and one mastery target. |
 
+## How It Should Feel
+
+WPW should feel like moving between the whole structure and the parts without losing orientation. It should expose whether you can teach the topic, not just remember fragments.
+
+Good signs:
+
+- the first whole pass gives a coherent overview;
+- the part pass reveals specific gaps;
+- the second whole pass is cleaner than the first;
+- and you can explain how details support the larger structure.
+
+Warning sign: WPW has become a summary exercise when the whole stays vague and the parts stay disconnected.
+
 ## Related Pages
 
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
@@ -79,6 +92,7 @@ Do not use WPW as the first retrieval method for every topic. It is powerful bec
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
+- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
 
 ## Open Questions
 

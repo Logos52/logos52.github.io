@@ -66,6 +66,19 @@ Use one track when a dimension is clearly limiting performance. Do not run all t
 - Use [[wiki/Techniques/Marginal Gains|Marginal Gains]] to decide whether to continue the same track or switch.
 - Use [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] to reflect after meaningful attempts.
 
+## How It Should Feel
+
+Dimension Practice Tracks should feel like deliberately training one part of the learning system instead of vaguely trying to improve everything at once.
+
+Good signs:
+
+- one dimension is clearly primary;
+- the practice target is small enough to repeat;
+- mistakes point to the next adjustment;
+- and progress feels like a clearer process, not just more motivation.
+
+Warning sign: the track is too broad when every session produces a different improvement target.
+
 ## Related Pages
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
@@ -75,6 +88,7 @@ Use one track when a dimension is clearly limiting performance. Do not run all t
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
 
 ## Open Questions
 
