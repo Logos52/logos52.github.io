@@ -2,8 +2,8 @@
 type: synthesis
 status: developing
 created: 2026-05-07
-updated: 2026-05-07
-source-count: 196
+updated: 2026-05-09
+source-count: 197
 tags:
   - learning-system
   - metacognition
@@ -35,6 +35,7 @@ The learner's job is therefore not to "study harder." It is to engineer a learni
 - Hard work is necessary but not decisive; the type of work separates learners.
 - Learning is an information-processing system, not a content-consumption task.
 - Top learners layer methods instead of depending on one perfect technique.
+- Techniques only matter when they trigger the intended thinking; otherwise they become correct-looking activity without learning.
 - Growth skills are rate limiters: if reflection, mindset, or self-management are weak, every other method degrades.
 - Higher-order learning builds networks of relationships; lower-order learning keeps knowledge isolated.
 - Retrieval comes early because it gives fast wins, exposes gaps, and trains higher-order thinking.
@@ -100,6 +101,8 @@ The dimensions are not motivational labels. They are working parts of a learning
 6. **Diagnose the gap.** Is the problem factual, relational, structural, procedural, strategic, or emotional?
 7. **Reflect and abstract.** Use Kolbs to turn experience into a better rule.
 8. **Run the next experiment.** Improve one variable and repeat.
+
+The loop depends on [[wiki/Concepts/Learning vs Technique Use|Learning vs Technique Use]]: the learner should check whether each technique is producing the intended cognition, not merely whether the steps look correct.
 
 ## Learning Efficiency
 
