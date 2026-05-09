@@ -1,6 +1,6 @@
 ---
 type: dimension
-status: developing
+status: seed
 created: 2026-05-04
 updated: 2026-05-04
 source-count: 2
@@ -80,7 +80,7 @@ BHS sits inside Deep Processing.
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Syntheses/Current Study System|Current Study System]]
-- [[wiki/Concepts/Deep Processing|Deep Processing Concept Note]]
+- [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
 - [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
 - [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]

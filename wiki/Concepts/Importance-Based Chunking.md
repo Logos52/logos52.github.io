@@ -1,6 +1,6 @@
 ---
 type: concept
-status: developing
+status: seed
 created: 2026-05-04
 updated: 2026-05-04
 source-count: 1
@@ -61,7 +61,7 @@ Aim creates the first hypotheses about importance. Shoot tests and elaborates th
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Concepts/Deep Processing|Deep Processing Concept Note]]
+- [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
 - [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
 - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]

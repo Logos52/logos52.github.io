@@ -1,6 +1,6 @@
 ---
 type: technique
-status: developing
+status: seed
 created: 2026-05-04
 updated: 2026-05-07
 source-count: 12

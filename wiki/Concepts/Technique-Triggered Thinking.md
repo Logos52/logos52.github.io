@@ -1,6 +1,6 @@
 ---
 type: concept
-status: developing
+status: seed
 created: 2026-05-09
 updated: 2026-05-09
 source-count: 1

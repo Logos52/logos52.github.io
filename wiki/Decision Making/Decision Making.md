@@ -1,6 +1,6 @@
 ---
 type: hub
-status: developing
+status: seed
 created: 2026-05-08
 updated: 2026-05-08
 source-count: 9

@@ -11,7 +11,7 @@ tags:
   - metacognition
 ---
 
-# Deep Processing Concept Note
+# Deep Processing Practice
 
 Canonical dimension hub: [[wiki/Dimensions/Deep Processing|Deep Processing]]
 

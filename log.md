@@ -88,7 +88,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
   - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
   - [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]]
-  - [[wiki/Concepts/Deep Processing|Deep Processing Concept Note]]
+  - [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
   - [[wiki/Concepts/Memory Handling|Memory Handling]]
   - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
 - Updated glossary, bibliography, command center, and open questions.
@@ -203,27 +203,27 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Added a dedicated Red Teaming section from TRADOC G-2 / UFMCS, *The Red Team Handbook*, Version 9.0:
   - [[wiki/Red Team/Red Teaming|Red Teaming]]
-  - [[wiki/Red Team/Four Principles of Red Teaming|Four Principles of Red Teaming]]
-  - [[wiki/Red Team/Self-Awareness and Reflection|Self-Awareness and Reflection]]
-  - [[wiki/Red Team/Groupthink Mitigation and Decision Support|Groupthink Mitigation and Decision Support]]
-  - [[wiki/Red Team/Fostering Cultural Empathy|Fostering Cultural Empathy]]
-  - [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
-  - [[wiki/Red Team/Creative Thinking|Creative Thinking]]
-  - [[wiki/Red Team/Assumption Tools|Assumption Tools]]
-  - [[wiki/Red Team/Perspective-Shifting Tools|Perspective-Shifting Tools]]
-  - [[wiki/Red Team/Group Process Tools|Group Process Tools]]
-  - [[wiki/Red Team/Failure Analysis Tools|Failure Analysis Tools]]
-  - [[wiki/Red Team/Communication Tools|Communication Tools]]
-  - [[wiki/Red Team/Four Ways of Seeing|Four Ways of Seeing]]
-  - [[wiki/Red Team/Analysis of Competing Hypotheses|Analysis of Competing Hypotheses]]
-  - [[wiki/Red Team/Key Assumptions Check|Key Assumptions Check]]
-  - [[wiki/Red Team/Premortem Analysis|Premortem Analysis]]
-  - [[wiki/Red Team/Stakeholder Mapping|Stakeholder Mapping]]
-  - [[wiki/Red Team/String of Pearls|String of Pearls]]
-  - [[wiki/Red Team/SEE-I|SEE-I]]
-  - [[wiki/Red Team/Five Whys|Five Whys]]
-  - [[wiki/Red Team/Devils Advocacy|Devils Advocacy]]
-  - [[wiki/Red Team/Team A Team B Analysis|Team A Team B Analysis]]
+  - *Four Principles of Red Teaming*
+  - *Self-Awareness and Reflection*
+  - *Groupthink Mitigation and Decision Support*
+  - *Fostering Cultural Empathy*
+  - *Applied Critical Thinking*
+  - *Creative Thinking*
+  - *Assumption Tools*
+  - *Perspective-Shifting Tools*
+  - *Group Process Tools*
+  - *Failure Analysis Tools*
+  - *Communication Tools*
+  - *Four Ways of Seeing*
+  - *Analysis of Competing Hypotheses*
+  - *Key Assumptions Check*
+  - *Premortem Analysis*
+  - *Stakeholder Mapping*
+  - *String of Pearls*
+  - *SEE-I*
+  - *Five Whys*
+  - *Devils Advocacy*
+  - *Team A Team B Analysis*
 - Connected Red Teaming to [[wiki/Concepts/Metacognition|Metacognition]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], and [[wiki/Techniques/Bear Hunter System|Bear Hunter System]].
 - Updated command-center navigation, [[raw/Source Index|Source Index]], bibliography, open questions, and public index.
 
