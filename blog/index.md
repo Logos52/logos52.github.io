@@ -10,6 +10,8 @@ tags:
 
 # Blog
 
-No posts yet.
+## Posts
 
-When I publish longer essays, they will live here. For now, the active part of the site is the [[index|LLM Knowledge Base]].
+- [[blog/on-red-teams-closure|On Red Team's Closure]]
+
+For now, most of the active site is the [[index|LLM Knowledge Base]] and [[journal/index|Journal]].
