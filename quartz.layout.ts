@@ -172,7 +172,9 @@ const WikiLocalGraph = Component.Graph({
 })
 
 const isCleanPage = (slug?: string) =>
-  slug === "index" || slug === "about" || slug === "journal" || Boolean(slug?.startsWith("journal/"))
+  slug === "index" || slug === "about"
+
+const isJournalPage = (slug?: string) => slug === "journal" || Boolean(slug?.startsWith("journal/"))
 
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -204,34 +206,43 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.JournalNav()),
+      condition: ({ fileData }) => isJournalPage(fileData.slug),
+    }),
+    Component.ConditionalRender({
       component: Component.PageTitle(),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
     }),
     Component.ConditionalRender({
       component: Component.MobileOnly(Component.Spacer()),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
     }),
     Component.ConditionalRender({
       component: Component.DesktopOnly(PublicExplorer),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
     }),
   ],
   right: [
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.JournalContext()),
+      condition: ({ fileData }) => isJournalPage(fileData.slug),
+    }),
     Component.ConditionalRender({
       component: WikiLocalGraph,
       condition: ({ fileData }) => Boolean(fileData.slug?.startsWith("wiki/")),
     }),
     Component.ConditionalRender({
       component: WikiOverviewGraph,
-      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !fileData.slug?.startsWith("wiki/"),
+      condition: ({ fileData }) =>
+        !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug) && !fileData.slug?.startsWith("wiki/"),
     }),
     Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
     }),
     Component.ConditionalRender({
       component: Component.Backlinks(),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
     }),
   ],
 }
@@ -247,22 +258,30 @@ export const defaultListPageLayout: PageLayout = {
   ],
   left: [
     Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.JournalNav()),
+      condition: ({ fileData }) => isJournalPage(fileData.slug),
+    }),
+    Component.ConditionalRender({
       component: Component.PageTitle(),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
     }),
     Component.ConditionalRender({
       component: Component.MobileOnly(Component.Spacer()),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
     }),
     Component.ConditionalRender({
       component: Component.DesktopOnly(PublicExplorer),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
     }),
   ],
   right: [
     Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.JournalContext()),
+      condition: ({ fileData }) => isJournalPage(fileData.slug),
+    }),
+    Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
     }),
   ],
 }

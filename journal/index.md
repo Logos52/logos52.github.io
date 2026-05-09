@@ -50,6 +50,17 @@ tags:
 - **Emacs to Obsidian**: Emacs was more fun to use because it ran on macros and keybind muscle memory. Moving around Emacs felt closer to playing World of Warcraft than using a normal app.
 - **How I Built This**: a dated account of building this site from Karpathy's LLM knowledge-base idea, Obsidian, Quartz, and several AI coding agents as collaborators.
 
+## Private Workflow Templates
+
+These are blank public shells for private Obsidian workflows. The templates can be copied into a private vault, but filled-in goals, skills, and Kolb reflections should stay local.
+
+- [[journal/templates/goals|Goals]]
+- [[journal/templates/goals-index|Goals Index]]
+- [[journal/templates/skills|Skills]]
+- [[journal/templates/skills-index|Skills Index]]
+- [[journal/templates/kolbs-template|Kolbs Template]]
+- [[journal/templates/kolbs-index|Kolbs Index]]
+
 ## Recent Log
 
 - [[journal/calendar#2026-05-09|2026-05-09]]: Added Journal as the public thinking dashboard for current questions, active threads, possible essays, and a light dated log.
