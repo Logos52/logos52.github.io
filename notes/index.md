@@ -55,6 +55,7 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Concepts/Metacognition\|Metacognition]] | concept | seed | Awareness and control of thinking during learning; the control layer for learning-to-learn. |
 | [[wiki/Techniques/Building the Radar\|Building the Radar]] | technique | seed | Practice for detecting shifts from active processing into passive consumption. |
 | [[wiki/Concepts/Active vs Passive Learning\|Active vs Passive Learning]] | concept | seed | Distinguishes visible learning behaviors from the thought quality they produce. |
+| [[wiki/Concepts/Learning vs Technique Use\|Learning vs Technique Use]] | concept | developing | Diagnostic principle for checking whether a technique is producing the intended thinking, not just a correct-looking artifact. |
 | [[wiki/Concepts/Cognitive Load as Signal\|Cognitive Load as Signal]] | concept | seed | Interprets mental effort, overload, and drowsiness as metacognitive signals. |
 | [[wiki/Concepts/Unlearning Learning Habits\|Unlearning Learning Habits]] | concept | seed | How old learning habits persist and how to replace them. |
 | [[wiki/Concepts/Deep Processing\|Deep Processing Concept Note]] | concept | seed | Supporting concept note for meaning-making through comparison, evaluation, connection, and schema formation. |
