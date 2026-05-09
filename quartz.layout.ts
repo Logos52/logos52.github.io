@@ -171,6 +171,9 @@ const WikiLocalGraph = Component.Graph({
   },
 })
 
+const isCleanPage = (slug?: string) =>
+  slug === "index" || slug === "about" || slug === "journal" || Boolean(slug?.startsWith("journal/"))
+
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
@@ -202,15 +205,15 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.ConditionalRender({
       component: Component.PageTitle(),
-      condition: ({ fileData }) => fileData.slug !== "index" && fileData.slug !== "about",
+      condition: ({ fileData }) => !isCleanPage(fileData.slug),
     }),
     Component.ConditionalRender({
       component: Component.MobileOnly(Component.Spacer()),
-      condition: ({ fileData }) => fileData.slug !== "index" && fileData.slug !== "about",
+      condition: ({ fileData }) => !isCleanPage(fileData.slug),
     }),
     Component.ConditionalRender({
       component: Component.DesktopOnly(PublicExplorer),
-      condition: ({ fileData }) => fileData.slug !== "index" && fileData.slug !== "about",
+      condition: ({ fileData }) => !isCleanPage(fileData.slug),
     }),
   ],
   right: [
@@ -220,16 +223,15 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: WikiOverviewGraph,
-      condition: ({ fileData }) =>
-        fileData.slug !== "index" && fileData.slug !== "about" && !fileData.slug?.startsWith("wiki/"),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !fileData.slug?.startsWith("wiki/"),
     }),
     Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
-      condition: ({ fileData }) => fileData.slug !== "index" && fileData.slug !== "about",
+      condition: ({ fileData }) => !isCleanPage(fileData.slug),
     }),
     Component.ConditionalRender({
       component: Component.Backlinks(),
-      condition: ({ fileData }) => fileData.slug !== "index" && fileData.slug !== "about",
+      condition: ({ fileData }) => !isCleanPage(fileData.slug),
     }),
   ],
 }
@@ -244,11 +246,23 @@ export const defaultListPageLayout: PageLayout = {
     }),
   ],
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.DesktopOnly(PublicExplorer),
+    Component.ConditionalRender({
+      component: Component.PageTitle(),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug),
+    }),
+    Component.ConditionalRender({
+      component: Component.MobileOnly(Component.Spacer()),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug),
+    }),
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(PublicExplorer),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug),
+    }),
   ],
   right: [
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.TableOfContents()),
+      condition: ({ fileData }) => !isCleanPage(fileData.slug),
+    }),
   ],
 }
