@@ -10,83 +10,87 @@ import * as Component from "./quartz/components"
  */
 
 // components shared across all pages
+const graphLegend = [
+  { label: "Techniques", color: "#00a7ff" },
+  { label: "ICS / Learning", color: "#b968ff" },
+  { label: "Language", color: "#ffb000" },
+  { label: "Decision Making", color: "#ff7a1a" },
+  { label: "Red Team", color: "#ff3b5c" },
+  { label: "Books", color: "#00e5c3" },
+  { label: "Concepts", color: "#9aa4ff" },
+  { label: "Workflows", color: "#b8ff2c" },
+]
+
+const graphColorRules = [
+  { prefix: "wiki/Techniques/", color: "#00a7ff" },
+  { prefix: "wiki/Syntheses/ICS-System", color: "#b968ff" },
+  { prefix: "wiki/Dimensions/", color: "#b968ff" },
+  { prefix: "wiki/Self-Management/", color: "#b968ff" },
+  { prefix: "wiki/Language/", color: "#ffb000" },
+  { prefix: "wiki/Resources/", color: "#ffb000" },
+  { prefix: "wiki/Decision-Making/", color: "#ff7a1a" },
+  { prefix: "wiki/Red-Team/", color: "#ff3b5c" },
+  { prefix: "wiki/Books/", color: "#00e5c3" },
+  { prefix: "wiki/Concepts/", color: "#9aa4ff" },
+  { prefix: "wiki/Workflows/", color: "#b8ff2c" },
+]
+
+const wikiGraphBase = {
+  drag: true,
+  zoom: true,
+  opacityScale: 1,
+  showTags: false,
+  removeTags: ["system"],
+  focusOnHover: true,
+  enableRadial: true,
+  filterPrefixes: ["wiki/"],
+  colorRules: graphColorRules,
+}
+
+const wikiOverviewGraph = {
+  ...wikiGraphBase,
+  depth: -1,
+  scale: 0.9,
+  repelForce: 0.65,
+  centerForce: 0.25,
+  linkDistance: 42,
+  fontSize: 0.6,
+}
+
+const notesOverviewGraph = {
+  ...wikiOverviewGraph,
+  fontSize: 0.62,
+  nodeBaseRadius: 2,
+  nodeLinkRadius: 1.18,
+  nodeMaxRadius: 9.5,
+}
+
+const wikiPageLocalGraph = {
+  ...wikiGraphBase,
+  depth: 1,
+  scale: 1.1,
+  repelForce: 0.5,
+  centerForce: 0.3,
+  linkDistance: 30,
+  fontSize: 0.6,
+}
+
+const wikiPageGlobalGraph = {
+  ...wikiGraphBase,
+  depth: -1,
+  scale: 0.9,
+  repelForce: 0.5,
+  centerForce: 0.3,
+  linkDistance: 30,
+  fontSize: 0.6,
+}
+
 const NotesGraph = Component.Graph({
   title: "Knowledge Graph",
   containerClass: "notes-graph",
-  legend: [
-    { label: "Techniques", color: "#00a7ff" },
-    { label: "ICS / Learning", color: "#b968ff" },
-    { label: "Language", color: "#ffb000" },
-    { label: "Decision Making", color: "#ff7a1a" },
-    { label: "Red Team", color: "#ff3b5c" },
-    { label: "Books", color: "#00e5c3" },
-    { label: "Concepts", color: "#9aa4ff" },
-    { label: "Workflows", color: "#b8ff2c" },
-  ],
-  localGraph: {
-    drag: true,
-    zoom: true,
-    depth: -1,
-    scale: 0.9,
-    repelForce: 0.65,
-    centerForce: 0.25,
-    linkDistance: 42,
-    fontSize: 0.62,
-    opacityScale: 1,
-    nodeBaseRadius: 2,
-    nodeLinkRadius: 1.18,
-    nodeMaxRadius: 9.5,
-    showTags: false,
-    removeTags: ["system"],
-    focusOnHover: true,
-    enableRadial: true,
-    filterPrefixes: ["wiki/"],
-    colorRules: [
-      { prefix: "wiki/Techniques/", color: "#00a7ff" },
-      { prefix: "wiki/Syntheses/ICS-System", color: "#b968ff" },
-      { prefix: "wiki/Dimensions/", color: "#b968ff" },
-      { prefix: "wiki/Self-Management/", color: "#b968ff" },
-      { prefix: "wiki/Language/", color: "#ffb000" },
-      { prefix: "wiki/Resources/", color: "#ffb000" },
-      { prefix: "wiki/Decision-Making/", color: "#ff7a1a" },
-      { prefix: "wiki/Red-Team/", color: "#ff3b5c" },
-      { prefix: "wiki/Books/", color: "#00e5c3" },
-      { prefix: "wiki/Concepts/", color: "#9aa4ff" },
-      { prefix: "wiki/Workflows/", color: "#b8ff2c" },
-    ],
-  },
-  globalGraph: {
-    drag: true,
-    zoom: true,
-    depth: -1,
-    scale: 0.9,
-    repelForce: 0.65,
-    centerForce: 0.25,
-    linkDistance: 42,
-    fontSize: 0.62,
-    opacityScale: 1,
-    nodeBaseRadius: 2,
-    nodeLinkRadius: 1.18,
-    nodeMaxRadius: 9.5,
-    showTags: false,
-    removeTags: ["system"],
-    focusOnHover: true,
-    enableRadial: true,
-    filterPrefixes: ["wiki/"],
-    colorRules: [
-      { prefix: "wiki/Techniques/", color: "#00a7ff" },
-      { prefix: "wiki/Syntheses/ICS-System", color: "#b968ff" },
-      { prefix: "wiki/Dimensions/", color: "#b968ff" },
-      { prefix: "wiki/Self-Management/", color: "#b968ff" },
-      { prefix: "wiki/Language/", color: "#ffb000" },
-      { prefix: "wiki/Resources/", color: "#ffb000" },
-      { prefix: "wiki/Decision-Making/", color: "#ff7a1a" },
-      { prefix: "wiki/Red-Team/", color: "#ff3b5c" },
-      { prefix: "wiki/Books/", color: "#00e5c3" },
-      { prefix: "wiki/Concepts/", color: "#9aa4ff" },
-      { prefix: "wiki/Workflows/", color: "#b8ff2c" },
-    ],
-  },
+  legend: graphLegend,
+  localGraph: notesOverviewGraph,
+  globalGraph: notesOverviewGraph,
 })
 
 const PublicExplorer = Component.Explorer({
@@ -106,69 +110,13 @@ const PublicExplorer = Component.Explorer({
 })
 
 const WikiOverviewGraph = Component.Graph({
-  localGraph: {
-    drag: true,
-    zoom: true,
-    depth: -1,
-    scale: 0.9,
-    repelForce: 0.65,
-    centerForce: 0.25,
-    linkDistance: 42,
-    fontSize: 0.6,
-    opacityScale: 1,
-    showTags: false,
-    removeTags: ["system"],
-    focusOnHover: true,
-    enableRadial: true,
-    filterPrefixes: ["wiki/"],
-  },
-  globalGraph: {
-    drag: true,
-    zoom: true,
-    depth: -1,
-    scale: 0.9,
-    repelForce: 0.65,
-    centerForce: 0.25,
-    linkDistance: 42,
-    fontSize: 0.6,
-    opacityScale: 1,
-    showTags: false,
-    removeTags: ["system"],
-    focusOnHover: true,
-    enableRadial: true,
-    filterPrefixes: ["wiki/"],
-  },
+  localGraph: wikiOverviewGraph,
+  globalGraph: wikiOverviewGraph,
 })
 
 const WikiLocalGraph = Component.Graph({
-  localGraph: {
-    drag: true,
-    zoom: true,
-    depth: 1,
-    scale: 1.1,
-    repelForce: 0.5,
-    centerForce: 0.3,
-    linkDistance: 30,
-    fontSize: 0.6,
-    opacityScale: 1,
-    showTags: false,
-    removeTags: ["system"],
-    filterPrefixes: ["wiki/"],
-  },
-  globalGraph: {
-    drag: true,
-    zoom: true,
-    depth: -1,
-    scale: 0.9,
-    repelForce: 0.5,
-    centerForce: 0.3,
-    linkDistance: 30,
-    fontSize: 0.6,
-    opacityScale: 1,
-    showTags: false,
-    removeTags: ["system"],
-    filterPrefixes: ["wiki/"],
-  },
+  localGraph: wikiPageLocalGraph,
+  globalGraph: wikiPageGlobalGraph,
 })
 
 const isCleanPage = (slug?: string) =>

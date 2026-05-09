@@ -1,7 +1,7 @@
 ---
 type: command-center
 created: 2026-05-02
-updated: 2026-05-07
+updated: 2026-05-10
 tags:
   - system
 ---
@@ -123,19 +123,9 @@ Books and longform reviews:
 Red Teaming:
 
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
-- [[wiki/Red Team/Four Principles of Red Teaming|Four Principles of Red Teaming]]
-- [[wiki/Red Team/Self-Awareness and Reflection|Self-Awareness and Reflection]]
-- [[wiki/Red Team/Groupthink Mitigation and Decision Support|Groupthink Mitigation and Decision Support]]
-- [[wiki/Red Team/Fostering Cultural Empathy|Fostering Cultural Empathy]]
-- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
-- [[wiki/Red Team/Creative Thinking|Creative Thinking]]
-- [[wiki/Red Team/Four Ways of Seeing|Four Ways of Seeing]]
-- [[wiki/Red Team/Analysis of Competing Hypotheses|Analysis of Competing Hypotheses]]
-- [[wiki/Red Team/Key Assumptions Check|Key Assumptions Check]]
-- [[wiki/Red Team/Premortem Analysis|Premortem Analysis]]
-- [[wiki/Red Team/Stakeholder Mapping|Stakeholder Mapping]]
-- [[wiki/Red Team/String of Pearls|String of Pearls]]
-- [[wiki/Red Team/SEE-I|SEE-I]]
+- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
+- [[blog/on-red-teams-closure|On Red Team's Closure]]
+- [[journal/red-team-pruning|Red Team Pruning Notes]]
 
 ## Next Actions
 
