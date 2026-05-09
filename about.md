@@ -14,6 +14,8 @@ I'm Wedge, @webigis on X. Former Dept. War Red Team @ University of Foreign Mili
 
 My current focus is turning useful information into working systems: study workflows, decision-making tools, and practical ways to use LLMs as collaborators rather than just chat interfaces.
 
+The [[journal/index|Journal]] is the public thinking dashboard for the site: current questions, active threads, possible essays, and a light dated log. The private vault remains the operational system; the Journal is only the public surface of what is worth thinking through in the open.
+
 ## How This Is Built
 
 This knowledge base lives in an [Obsidian](https://obsidian.md) vault and is published as a static site by [Quartz v4](https://quartz.jzhao.xyz/). The full source is on GitHub at [logos52/logos52.github.io](https://github.com/logos52/logos52.github.io). For the philosophy behind the project, see [[README]]; for how the LLM agent maintains the vault, see [[AGENTS]]; for chronological history, see [[log]].
@@ -30,5 +32,6 @@ Code is MIT-licensed; written content is released under [CC BY 4.0](https://crea
 ## Links
 
 - [[index|LLM Knowledge Base]] — the main LLM-maintained knowledge base.
+- [[journal/index|Journal]] — current questions, active threads, and public thinking log.
 - [[blog/index|Blog]] — longer posts will live here once I start publishing them.
 - [GitHub](https://github.com/logos52) — code, public notes, and project repositories.

@@ -77,12 +77,15 @@ article {
 body[data-slug="index"] #quartz-body > .left.sidebar,
 body[data-slug="index"] #quartz-body > .right.sidebar,
 body[data-slug="about"] #quartz-body > .left.sidebar,
-body[data-slug="about"] #quartz-body > .right.sidebar {
+body[data-slug="about"] #quartz-body > .right.sidebar,
+body[data-slug^="journal/"] #quartz-body > .left.sidebar,
+body[data-slug^="journal/"] #quartz-body > .right.sidebar {
   display: none !important;
 }
 
 body[data-slug="index"] #quartz-body,
-body[data-slug="about"] #quartz-body {
+body[data-slug="about"] #quartz-body,
+body[data-slug^="journal/"] #quartz-body {
   grid-template-columns: minmax(0, 58rem) !important;
   grid-template-areas:
     "grid-header"
@@ -94,7 +97,8 @@ body[data-slug="about"] #quartz-body {
 }
 
 body[data-slug="index"] .center,
-body[data-slug="about"] .center {
+body[data-slug="about"] .center,
+body[data-slug^="journal/"] .center {
   margin-top: 1.5rem;
 }
 
@@ -133,12 +137,16 @@ body[data-slug="index"] .page-header .content-meta,
 body[data-slug="index"] .page-header .tags,
 body[data-slug="about"] .page-header .breadcrumb-container,
 body[data-slug="about"] .page-header .content-meta,
-body[data-slug="about"] .page-header .tags {
+body[data-slug="about"] .page-header .tags,
+body[data-slug^="journal/"] .page-header .breadcrumb-container,
+body[data-slug^="journal/"] .page-header .content-meta,
+body[data-slug^="journal/"] .page-header .tags {
   display: none;
 }
 
 body[data-slug="index"] #quartz-body .page-header,
-body[data-slug="about"] #quartz-body .page-header {
+body[data-slug="about"] #quartz-body .page-header,
+body[data-slug^="journal/"] #quartz-body .page-header {
   margin-top: 1.5rem;
 }
 
@@ -157,18 +165,21 @@ body[data-slug="index"] .center .graph.notes-graph > .graph-outer {
 }
 
 body[data-slug="index"] footer,
-body[data-slug="about"] footer {
+body[data-slug="about"] footer,
+body[data-slug^="journal/"] footer {
   display: none;
 }
 
-body[data-slug="index"] .home-card-grid {
+body[data-slug="index"] .home-card-grid,
+body[data-slug^="journal/"] .home-card-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.8rem;
   margin-top: 1rem;
 }
 
-body[data-slug="index"] .home-card {
+body[data-slug="index"] .home-card,
+body[data-slug^="journal/"] .home-card {
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
@@ -181,30 +192,35 @@ body[data-slug="index"] .home-card {
   transition: border-color 0.15s ease, transform 0.15s ease;
 }
 
-body[data-slug="index"] .home-card:hover {
+body[data-slug="index"] .home-card:hover,
+body[data-slug^="journal/"] .home-card:hover {
   border-color: var(--secondary);
   transform: translateY(-1px);
 }
 
-body[data-slug="index"] .home-card strong {
+body[data-slug="index"] .home-card strong,
+body[data-slug^="journal/"] .home-card strong {
   font-family: var(--headerFont);
   color: var(--secondary);
 }
 
-body[data-slug="index"] .home-card span {
+body[data-slug="index"] .home-card span,
+body[data-slug^="journal/"] .home-card span {
   color: var(--darkgray);
   line-height: 1.4;
 }
 
 @media all and (max-width: 800px) {
   body[data-slug="index"] #quartz-body,
-  body[data-slug="about"] #quartz-body {
+  body[data-slug="about"] #quartz-body,
+  body[data-slug^="journal/"] #quartz-body {
     padding-left: clamp(2rem, 8vw, 3.5rem);
     padding-right: clamp(2rem, 8vw, 3.5rem);
   }
 
   body[data-slug="index"] .center,
-  body[data-slug="about"] .center {
+  body[data-slug="about"] .center,
+  body[data-slug^="journal/"] .center {
     padding-left: 1.15rem;
     padding-right: 1.15rem;
   }
@@ -230,20 +246,23 @@ body[data-slug="index"] .home-card span {
     min-width: 0;
   }
 
-  body[data-slug="index"] .home-card-grid {
+  body[data-slug="index"] .home-card-grid,
+  body[data-slug^="journal/"] .home-card-grid {
     grid-template-columns: 1fr;
   }
 }
 
 @media all and (max-width: 520px) {
   body[data-slug="index"] #quartz-body,
-  body[data-slug="about"] #quartz-body {
+  body[data-slug="about"] #quartz-body,
+  body[data-slug^="journal/"] #quartz-body {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 
   body[data-slug="index"] .center,
-  body[data-slug="about"] .center {
+  body[data-slug="about"] .center,
+  body[data-slug^="journal/"] .center {
     padding-left: 0.85rem;
     padding-right: 0.85rem;
   }
