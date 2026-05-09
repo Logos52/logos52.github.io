@@ -15,6 +15,19 @@ A lightweight chronological index for public journal entries and thinking-log up
 
 ## 2026-05-09
 
+Added [[journal/red-team-pruning|Red Team Pruning Notes]] and drafted [[blog/on-red-teams-closure|On Red Team's Closure]].
+
+The working thesis:
+
+- Red Teaming still matters as a stance and identity.
+- The standalone tool layer had become bloated.
+- The things pruned from the personal wiki are also the things I would cut, compress, or demote from the Red Team Handbook.
+- Many tools assume a group or think-tank process that is too slow for daily decisions and too hard to defend as federally funded training.
+- AI has made many tool outputs cheap, shifting the bottleneck from generating alternatives to judging relevance.
+- The modern failure is often [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], not simply "missing the black swan."
+- Cultural empathy should be bounded by [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] and decision quality.
+- The reform version would preserve the lean two-week course and cut the slower, more specialized, tool-heavy versions unless they can prove clear value for specific roles.
+
 Added [[journal/index|Journal]] as the public thinking dashboard for current questions, active threads, possible essays, and a light dated log.
 
 The first version tracks three things:

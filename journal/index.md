@@ -49,6 +49,7 @@ tags:
 
 - **Emacs to Obsidian**: Emacs was more fun to use because it ran on macros and keybind muscle memory. Moving around Emacs felt closer to playing World of Warcraft than using a normal app.
 - **How I Built This**: a dated account of building this site from Karpathy's LLM knowledge-base idea, Obsidian, Quartz, and several AI coding agents as collaborators.
+- [[blog/on-red-teams-closure|On Red Team's Closure]]: draft commentary arguing that Red Team's closure was understandable because the institutional version had become too bloated and time-inefficient, while the lean two-week course was still worth preserving.
 
 ## Private Workflow Templates
 
@@ -63,6 +64,7 @@ These are blank public shells for private Obsidian workflows. The templates can 
 
 ## Recent Log
 
+- [[journal/red-team-pruning|2026-05-09]]: Pruned the Red Team section down to the identity page, mapped the deleted wiki pages to what I would cut from the handbook, and drafted commentary on Red Team's closure.
 - [[journal/calendar#2026-05-09|2026-05-09]]: Added Journal as the public thinking dashboard for current questions, active threads, possible essays, and a light dated log.
 - [[journal/calendar#2026-05-08|2026-05-08]]: Tightened the public site around the knowledge base: homepage, graph behavior, clean layout, Index, and active learning/decision-making pages.
 - [[journal/calendar#2026-05-07|2026-05-07]]: Converted the project into a personal Quartz site, added the Red Team and ICS hubs, and iterated on public navigation, graph color, typography, and visual style.
