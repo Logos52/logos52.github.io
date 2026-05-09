@@ -56,35 +56,13 @@ This makes Red Teaming a natural bridge between [[wiki/Concepts/Metacognition|Me
 
 ## The Four UFMCS Principles
 
-- Self-Awareness and Reflection
-- Groupthink Mitigation and Decision Support
-- Fostering Cultural Empathy
-- Applied Critical Thinking
+**Self-Awareness and Reflection** is the individual foundation. A Red Teamer has to know what their own mind is doing before they can challenge someone else's plan. This means noticing temperament, emotion, loyalty, identity, prior experience, and bias as active forces in judgment. The point is not therapeutic self-expression. The point is operational clarity: know the lens before trusting the picture.
 
-These principles are preserved here as part of the Red Teaming identity page. The separate tool pages were pruned so the working decision system can live under [[wiki/Decision Making/Decision Making|Decision Making]].
+**Groupthink Mitigation and Decision Support** protects decisions from the social failures of groups. Hierarchy, rank, politeness, expertise, personality dominance, and premature consensus can all suppress useful dissent. Red Teaming treats this as a design problem: structure the conversation so better information can enter the room before the decision hardens.
 
-## Key Tool Families
+**Fostering Cultural Empathy** is disciplined perspective-taking. It asks how the situation looks from inside another actor's incentives, meanings, fears, history, and constraints. This is not agreement or moral surrender. It is an intelligence discipline: understand the other frame well enough to predict behavior and avoid mirror imaging.
 
-| Tool Family | Use |
-| --- | --- |
-| Assumption Tools | Make hidden claims visible and test whether they are necessary, valid, or fragile. |
-| Perspective-Shifting Tools | See the problem through other actors, cultures, incentives, and worldviews. |
-| Group Process Tools | Reduce hierarchy effects and give quieter or lower-status participants a voice. |
-| Failure Analysis Tools | Identify how plans break before execution exposes the flaw. |
-| Communication Tools | Make analysis clear enough to influence decisions. |
-
-## High-Value Tools
-
-- Four Ways of Seeing
-- Analysis of Competing Hypotheses
-- Key Assumptions Check
-- Premortem Analysis
-- Stakeholder Mapping
-- String of Pearls
-- SEE-I
-- Five Whys
-- Devils Advocacy
-- Team A Team B Analysis
+**Applied Critical Thinking** is the practical testing layer. It turns doubt into disciplined examination: what are we assuming, what evidence matters, what alternatives exist, what would make this fail, and what conclusion is being protected too early? In this knowledge base, Applied Critical Thinking no longer needs a separate toolbox. Its useful residue lives inside [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Decision Making/Good Decisions|Good Decisions]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]], and AI-assisted review. The core habit remains: slow down enough to examine the frame before optimizing inside it.
 
 ## Personal Translation
 
