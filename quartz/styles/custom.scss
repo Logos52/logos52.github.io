@@ -77,15 +77,12 @@ article {
 body[data-slug="index"] #quartz-body > .left.sidebar,
 body[data-slug="index"] #quartz-body > .right.sidebar,
 body[data-slug="about"] #quartz-body > .left.sidebar,
-body[data-slug="about"] #quartz-body > .right.sidebar,
-body[data-slug^="journal/"] #quartz-body > .left.sidebar,
-body[data-slug^="journal/"] #quartz-body > .right.sidebar {
+body[data-slug="about"] #quartz-body > .right.sidebar {
   display: none !important;
 }
 
 body[data-slug="index"] #quartz-body,
-body[data-slug="about"] #quartz-body,
-body[data-slug^="journal/"] #quartz-body {
+body[data-slug="about"] #quartz-body {
   grid-template-columns: minmax(0, 58rem) !important;
   grid-template-areas:
     "grid-header"
@@ -97,8 +94,7 @@ body[data-slug^="journal/"] #quartz-body {
 }
 
 body[data-slug="index"] .center,
-body[data-slug="about"] .center,
-body[data-slug^="journal/"] .center {
+body[data-slug="about"] .center {
   margin-top: 1.5rem;
 }
 
@@ -170,6 +166,54 @@ body[data-slug^="journal/"] footer {
   display: none;
 }
 
+body[data-slug^="journal/"] #quartz-body {
+  grid-template-columns: minmax(9rem, 0.7fr) minmax(0, 58rem) minmax(11rem, 0.8fr) !important;
+  column-gap: clamp(1.25rem, 3vw, 2.5rem);
+}
+
+body[data-slug^="journal/"] .sidebar {
+  padding-top: 1.5rem;
+}
+
+.journal-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  color: var(--darkgray);
+  font-family: var(--headerFont);
+  font-size: 0.9rem;
+}
+
+.journal-panel h3 {
+  margin: 0 0 0.25rem;
+  color: var(--dark);
+  font-size: 1rem;
+}
+
+.journal-panel a {
+  color: color-mix(in srgb, var(--secondary) 88%, var(--dark));
+  text-decoration: none;
+}
+
+.journal-panel a:hover {
+  color: var(--secondary);
+}
+
+.journal-context-panel section {
+  border-bottom: 1px solid color-mix(in srgb, var(--lightgray) 72%, transparent);
+  padding-bottom: 0.75rem;
+}
+
+.journal-context-panel ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.journal-context-panel p {
+  margin: 0;
+  line-height: 1.45;
+}
+
 body[data-slug="index"] .home-card-grid,
 body[data-slug^="journal/"] .home-card-grid {
   display: grid;
@@ -212,15 +256,13 @@ body[data-slug^="journal/"] .home-card span {
 
 @media all and (max-width: 800px) {
   body[data-slug="index"] #quartz-body,
-  body[data-slug="about"] #quartz-body,
-  body[data-slug^="journal/"] #quartz-body {
+  body[data-slug="about"] #quartz-body {
     padding-left: clamp(2rem, 8vw, 3.5rem);
     padding-right: clamp(2rem, 8vw, 3.5rem);
   }
 
   body[data-slug="index"] .center,
-  body[data-slug="about"] .center,
-  body[data-slug^="journal/"] .center {
+  body[data-slug="about"] .center {
     padding-left: 1.15rem;
     padding-right: 1.15rem;
   }
