@@ -1,5 +1,5 @@
 ---
-type: timeline
+type: reference
 status: seed
 created: 2026-05-02
 updated: 2026-05-02

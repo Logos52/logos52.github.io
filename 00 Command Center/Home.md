@@ -10,32 +10,55 @@ tags:
 
 This is the operating surface for the public LLM knowledge base.
 
-## Start Here
+## System Pages
 
-- [[notes/index|Notes]]
+Public-facing root files:
+
+- [[index|LLM Knowledge Base]] — public home page
+- [[about|About]]
+- [[notes/index|Notes Index]]
 - [[log|Log]]
-- [[Index]]
+- [[AGENTS|AGENTS]] — LLM operating schema
+- [[README|README]] — project explainer
+
+Obsidian-only operational pages:
+
 - [[Implementation Plan]]
-- [[raw/Source Index|Source Index]]
 - [[Open Questions]]
 - [[Changelog]]
+- [[Writing Standards]]
+- [[raw/Source Index|Source Index]]
+
+Reference pages in the wiki:
+
 - [[wiki/Glossary|Glossary]]
 - [[wiki/Bibliography|Bibliography]]
 - [[wiki/Timeline|Timeline]]
+
+## Templates
+
+- [[templates/Source Note|Source Note]]
+- [[templates/Paper Note|Paper Note]]
+- [[templates/Concept Note|Concept Note]]
+- [[templates/Tool Note|Tool Note]]
+- [[templates/Q&A Output|Q&A Output]]
+- [[templates/Audit Report|Audit Report]]
+- [[templates/Kolbs Template|Kolbs Template]]
+- [[templates/Writing Standard|Writing Standard]]
 
 ## Core Workflow
 
 1. Add source notes to `raw/`.
 2. Compile durable concepts into `wiki/`.
-3. Save research answers in `outputs/`.
-4. Promote durable insights back into `wiki/`.
+3. Save non-wiki-shaped artifacts (audits, briefs, diagrams, slides) in `outputs/`.
+4. Promote durable insights from `outputs/` back into `wiki/`.
 5. Run health checks and keep [[notes/index|notes/index.md]] plus [[log|log.md]] current.
 
 ## Main Areas
 
 - Sources: `raw/sources`, `raw/papers`, `raw/repos`, `raw/datasets`, `raw/assets`, `raw/images`
 - Clipper inbox: `Clippings`
-- Wiki: `wiki/Concepts`, `wiki/Dimensions`, `wiki/Techniques`, `wiki/Syntheses`, `wiki/Models`, `wiki/Papers`, `wiki/People`, `wiki/Tools`, `wiki/Workflows`
+- Wiki: `wiki/Concepts`, `wiki/Dimensions`, `wiki/Techniques`, `wiki/Syntheses`, `wiki/Workflows`, `wiki/Self Management`, `wiki/Decision Making`, `wiki/Language`, `wiki/Resources`
 - Red Teaming: `wiki/Red Team`
 - Books: `wiki/Books`
 - Outputs: `outputs/answers`, `outputs/briefs`, `outputs/diagrams`, `outputs/slides`, `outputs/audits`

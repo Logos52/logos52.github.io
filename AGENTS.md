@@ -202,25 +202,38 @@ Every durable wiki page should include:
 - A `Sources` section.
 - An `Open Questions` section when uncertainty remains.
 
-Preferred page types:
+### Type vocabulary (canonical)
 
-- `concept`
-- `technique`
-- `workflow`
-- `tool`
-- `paper`
-- `person`
-- `synthesis`
-- `glossary`
-- `bibliography`
-- `timeline`
+Core content types:
 
-Preferred statuses:
+- `concept` — an idea, principle, or framework
+- `technique` — an actionable practice or method
+- `workflow` — a sequenced process
+- `synthesis` — integration of multiple ideas/sources into a higher-level frame
+- `hub` — top-level connector page for a category
+- `dimension` — major component of a multi-dimensional model
 
-- `seed`
-- `developing`
-- `mature`
-- `needs-review`
+Source / reference types:
+
+- `book` — book note (the user's reading of the book, not the book itself)
+- `paper` — paper or academic source note
+- `person` — person note
+- `tool` — software / service / platform note
+- `resource-catalog` — curated list of external resources
+
+Meta / system types:
+
+- `system` — operational pages (AGENTS, log, indexes, command-center pages)
+- `reference` — bibliography, glossary, timeline (the wiki's own reference scaffolding)
+
+Do not invent new types ad hoc. If a page does not fit any of the above, propose a new type to the user before using it.
+
+### Status vocabulary
+
+- `seed` — created, may be partial; the default for new pages
+- `mature` — substantially complete and audited
+- `needs-review` — flagged during a health check; revisit before next promotion
+- `draft` — early scratch state, not ready for cross-linking
 
 ## Article Development Rules
 
@@ -292,17 +305,22 @@ Every page touched during an ingest should become meaningfully better.
 
 ## Outputs
 
-Durable answers should be saved in `outputs/`.
+`outputs/` is for non-wiki-shaped artifacts. Use it when an answer or artifact does not belong in the wiki yet (or ever) but should not disappear into chat history. Wiki-shaped material (concepts, techniques, syntheses) goes straight to `wiki/`.
 
 Output types:
 
-- `outputs/answers/` for question answers.
-- `outputs/briefs/` for short memos and synthesis briefs.
-- `outputs/diagrams/` for Mermaid diagrams, charts, and visual outputs.
-- `outputs/slides/` for Marp-style slide decks.
-- `outputs/audits/` for health checks.
+- `outputs/answers/` — Q&A-flavored responses where the question matters as much as the answer; useful when an answer might become wiki-grade later.
+- `outputs/briefs/` — short memos and synthesis briefs written for someone other than future-you.
+- `outputs/diagrams/` — Mermaid/SVG one-offs that don't belong inside a wiki page.
+- `outputs/slides/` — Marp-style slide decks.
+- `outputs/audits/` — health-check reports and system audits, typically dated (e.g. `2026-05-09-system-audit.md`).
 
-Good outputs should not disappear into chat history. If an output creates durable understanding, promote it into `wiki/`.
+Workflow:
+
+1. If the content is clearly wiki-grade (concept, technique, workflow, synthesis), write it directly to `wiki/`.
+2. Otherwise, file it under the appropriate `outputs/` subfolder.
+3. Periodically review `outputs/answers/` — promote durable insights into `wiki/`, delete the rest.
+4. Audit and brief artifacts are typically kept indefinitely as evidence, not promoted.
 
 ## Tooling
 
