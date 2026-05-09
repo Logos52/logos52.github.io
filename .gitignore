@@ -13,11 +13,22 @@ Thumbs.db
 .obsidian/trash/
 .trash/
 
-# Private or copyrighted source material
-raw/private/
-raw/**/*.pdf
-raw/**/*.epub
-raw/**/*.mobi
+# Raw source material stays local; keep only the public architecture skeleton.
+raw/**
+!raw/
+!raw/Source Index.md
+!raw/assets/
+!raw/assets/.gitkeep
+!raw/datasets/
+!raw/datasets/.gitkeep
+!raw/images/
+!raw/images/.gitkeep
+!raw/papers/
+!raw/papers/.gitkeep
+!raw/repos/
+!raw/repos/.gitkeep
+!raw/sources/
+!raw/sources/.gitkeep
 
 # Secrets and local config
 .env
@@ -34,4 +45,3 @@ __pycache__/
 # Quartz build output and caches
 public/
 .quartz-cache/
-
