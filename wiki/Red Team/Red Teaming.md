@@ -1,8 +1,8 @@
 ---
 type: hub
-status: seed
+status: developing
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-10
 source-count: 1
 tags:
   - red-teaming
@@ -62,7 +62,7 @@ This makes Red Teaming a natural bridge between [[wiki/Concepts/Metacognition|Me
 
 **Fostering Cultural Empathy** is disciplined perspective-taking. It asks how the situation looks from inside another actor's incentives, meanings, fears, history, and constraints. This is not agreement or moral surrender. It is an intelligence discipline: understand the other frame well enough to predict behavior and avoid mirror imaging.
 
-**Applied Critical Thinking** is the practical testing layer. It turns doubt into disciplined examination: what are we assuming, what evidence matters, what alternatives exist, what would make this fail, and what conclusion is being protected too early? In this knowledge base, Applied Critical Thinking no longer needs a separate toolbox. Its useful residue lives inside [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Decision Making/Good Decisions|Good Decisions]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]], and AI-assisted review. The core habit remains: slow down enough to examine the frame before optimizing inside it.
+**[[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]** is the practical testing layer. It turns doubt into disciplined examination: what are we assuming, what evidence matters, what alternatives exist, what would make this fail, and what conclusion is being protected too early? In this knowledge base, Applied Critical Thinking gets its own page because it is the Red Team principle most worth preserving and modernizing. It should stay practical: sharpen the decision, expose the frame, and prevent shortcut-driven thinking without rebuilding the old tool catalog.
 
 ## Personal Translation
 
@@ -73,6 +73,13 @@ In the user's study system, Red Teaming becomes a thinking stance:
 - During [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]], red-team the explanation of why performance failed.
 - During [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], red-team AI output before trusting it.
 - During language learning, red-team grammar rules that feel clean but do not match native usage.
+
+## Key Pages
+
+- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
+- [[wiki/Decision Making/Decision Making|Decision Making]]
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
+- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
 
 ## Sources
 

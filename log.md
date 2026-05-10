@@ -282,3 +282,8 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Added [[blog/index|Blog]] as an empty blog landing page.
 - Added global Home / Blog / Notes navigation.
 - Updated Quartz configuration for the root `logos52.github.io` site URL.
+
+## [2026-05-10] compile | Applied Critical Thinking
+
+- Regenerated [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]] as a practical Red Team principle page focused on application, mindset, decision quality, AI review, and avoiding tool bloat.
+- Updated [[wiki/Red Team/Red Teaming|Red Teaming]], [[notes/index|notes/index]], [[raw/Source Index|Source Index]], and [[00 Command Center/Home|Command Center Home]].

@@ -146,6 +146,7 @@ Books and longform reviews:
 Red Teaming:
 
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
+- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
 - [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
 - [[blog/on-red-teams-closure|On Red Team's Closure]]
 - [[journal/red-team-pruning|Red Team Pruning Notes]]
