@@ -1,7 +1,7 @@
 ---
 type: source-index
 created: 2026-05-02
-updated: 2026-05-06
+updated: 2026-05-10
 ---
 
 # Source Index
@@ -33,7 +33,7 @@ This index lets `raw/` and `Clippings/` remain dump directories while still givi
 | --- | --- | --- | --- | --- |
 | Gad Saad, *The Parasitic Mind* | book | compiled | epistemic hygiene, free speech, reason, idea pathogens, courage | [[wiki/Books/The Parasitic Mind|The Parasitic Mind]], [[wiki/Dimensions/Mindset|Mindset]], [[wiki/Dimensions/Deep Processing|Deep Processing]] |
 | Eric Jorgenson, *The Book of Elon* | book | compiled | purpose, first principles, engineering, company-building, urgency, civilizational optimism | [[wiki/Books/The Book of Elon|The Book of Elon]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Techniques/Marginal Gains|Marginal Gains]] |
-| TRADOC G-2 / UFMCS, *The Red Team Handbook*, Version 9.0 | handbook | compiled | Red Teaming, assumptions, cultural empathy, critical thinking, groupthink mitigation, decision support | [[wiki/Red Team/Red Teaming|Red Teaming]], [[wiki/Red Team/Four Principles of Red Teaming|Four Principles of Red Teaming]], [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]] |
+| TRADOC G-2 / UFMCS, *The Red Team Handbook*, Version 9.0 | handbook | compiled | Red Teaming, assumptions, cultural empathy, critical thinking, groupthink mitigation, decision support | [[wiki/Red Team/Red Teaming|Red Teaming]], [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]] |
 
 ## Clippings Inbox
 
