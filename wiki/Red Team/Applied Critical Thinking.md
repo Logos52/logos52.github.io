@@ -9,23 +9,27 @@ tags:
   - decision-making
   - critical-thinking
   - army
+  - media-literacy
+  - ai
 ---
 
 # Applied Critical Thinking
 
 Applied Critical Thinking is the Red Team habit of turning doubt into better judgment.
 
-It is not skepticism for its own sake. It is not a checklist race. It is the disciplined pause between seeing a plan and accepting the plan.
+It is not skepticism for its own sake. It is not a checklist race. It is the disciplined pause between seeing a claim and accepting the claim.
 
-Use it when a team, an analyst, or an AI system has produced an answer that looks coherent enough to trust.
+Use it when a media narrative, institutional statement, expert claim, team plan, or AI output looks coherent enough to trust.
+
+The emphasis should be speed plus accuracy. Applied Critical Thinking should usually be a fast diagnostic filter, not a slow academic exercise. Slow thinking is valuable, but only when the decision, claim, or risk deserves it.
 
 ## The Practical Role
 
-Applied Critical Thinking protects the decision from the first convincing explanation.
+Applied Critical Thinking protects the mind from the first convincing explanation.
 
 The practical version:
 
-1. Name the decision or claim.
+1. Name the claim or decision.
 2. Identify the frame being used.
 3. Surface the assumptions that make the frame work.
 4. Check what evidence actually matters.
@@ -33,7 +37,96 @@ The practical version:
 6. Look for the most likely failure path.
 7. Decide what would change the recommendation.
 
-The goal is not to delay action. The goal is to prevent a bad frame from moving straight into execution.
+The goal is not to delay action. The goal is to prevent a bad frame from moving straight into belief, speech, planning, or execution.
+
+## Speed And Accuracy
+
+Applied Critical Thinking should balance two risks:
+
+- moving too fast and accepting a bad frame;
+- moving too slowly and turning analysis into delay.
+
+The practical standard is not "think as much as possible." The standard is:
+
+> Think enough to find the load-bearing assumption.
+
+Most situations do not need a full Red Team process. They need a short interruption before belief or action hardens.
+
+Use three speeds:
+
+| Speed | Use When | Output |
+| --- | --- | --- |
+| 30 seconds | Low-stakes claim, article, AI answer, or everyday decision. | Name the frame and the main assumption. |
+| 3 minutes | The claim feels persuasive, emotionally loaded, or action-relevant. | Identify evidence, omission, alternative explanation, and what would change your mind. |
+| 30 minutes | High-stakes decision, public claim, important plan, or repeated uncertainty. | Write the frame, assumptions, failure path, alternatives, and decision rule. |
+
+The point is to make critical thinking usable under real conditions.
+
+If the method is too slow, people will not use it. If it is too shallow, it becomes vibes. The skill is choosing the right depth for the situation.
+
+## Fast Filter
+
+For mainstream media, institutional statements, AI answers, expert claims, and viral narratives, start with four questions:
+
+1. What am I being asked to believe?
+2. What frame is being used?
+3. What evidence is actually shown?
+4. What important alternative or omission would change the interpretation?
+
+This is the minimum viable version of Applied Critical Thinking.
+
+It does not require full certainty. It creates enough distance to avoid automatic acceptance.
+
+## Media And AI
+
+This is the main everyday use case.
+
+Most people do not need a slow formal Red Team process for every article, podcast, expert statement, or AI answer. They need a fast filter that keeps them from absorbing someone else's frame too quickly.
+
+### Mainstream Media And Public Narratives
+
+Mainstream media can be wrong for ordinary reasons: speed, incentives, ideological capture, activist framing, poor sourcing, selective omission, and institutional self-protection.
+
+The point is not to assume the opposite of the media frame is true. That is just reverse gullibility.
+
+The point is to separate:
+
+- the event;
+- the evidence;
+- the interpretation;
+- the emotional language;
+- the omitted context;
+- the conclusion the reader is being pushed toward.
+
+Fast questions:
+
+- What happened?
+- What am I being asked to believe about what happened?
+- What language is doing emotional work?
+- What relevant fact or comparison is missing?
+- Who benefits if this frame becomes the default?
+- What would I expect to see if the opposite frame were closer to true?
+
+This keeps critical thinking fast. You are not trying to become certain. You are trying to avoid being installed with a frame before you have noticed it.
+
+### LLMs And AI Output
+
+AI output has a different failure mode. It is persuasive because it is fluent.
+
+A model can give an answer that is organized, calm, and confident while still being generic, incomplete, or wrong for the actual context.
+
+Fast questions:
+
+- What did the model assume?
+- Which part is specific, and which part is boilerplate?
+- What source, constraint, or context is missing?
+- What would break if I followed this advice?
+- What should I verify before acting?
+- What competent opposing view is absent?
+
+The goal is not to distrust AI. The goal is to keep human judgment above model fluency.
+
+This is why Applied Critical Thinking belongs inside [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]: good agent work requires fast review loops, not blind acceptance and not endless inspection.
 
 ## The Mindset
 
@@ -43,7 +136,7 @@ Applied Critical Thinking starts from a simple premise:
 
 The failure is often not stupidity. It is premature coherence.
 
-People converge because the story feels clean. The map matches prior experience. The preferred option protects status, tempo, or identity. The briefing sounds professional. The team has already spent too much effort to reopen the question.
+People converge because the story feels clean. The map matches prior experience. The preferred option protects status, tempo, ideology, or identity. The headline feels obvious. The AI answer is fluent. The briefing sounds professional. The team has already spent too much effort to reopen the question.
 
 Applied Critical Thinking interrupts that momentum.
 
@@ -52,6 +145,8 @@ The mindset is:
 - do not confuse confidence with evidence;
 - do not confuse consensus with truth;
 - do not confuse a complete plan with a tested plan;
+- do not confuse institutional prestige with reliability;
+- do not confuse fluency with understanding;
 - do not confuse more analysis with better judgment;
 - do not protect the preferred answer too early.
 
@@ -63,7 +158,7 @@ Start with the smallest useful questions.
 
 | Question | Purpose |
 | --- | --- |
-| What is the actual decision? | Prevents analysis from drifting away from the choice. |
+| What is the actual claim or decision? | Prevents analysis from drifting away from the claim or choice. |
 | What frame are we using? | Makes the hidden interpretation visible. |
 | What must be true for this to work? | Finds load-bearing assumptions. |
 | What evidence would matter most? | Separates signal from persuasive detail. |
@@ -73,7 +168,11 @@ Start with the smallest useful questions.
 
 If those questions do not change anything, a heavier tool probably will not help.
 
-## Application Pattern
+## Red Teaming Application
+
+Applied Critical Thinking still needs a dedicated Red Teaming use case.
+
+In [[wiki/Red Team/Red Teaming|Red Teaming]], it is the principle that tests plans, assumptions, group narratives, and preferred courses of action before they harden into decisions. The page should not become another catalog of old tools. The Red Team version should stay fast, practical, and decision-focused.
 
 ### Before A Decision
 
@@ -102,22 +201,6 @@ Ask:
 - What part of the plan depends on people behaving ideally?
 
 This is where Applied Critical Thinking overlaps with [[wiki/Red Team/Red Teaming|Red Teaming]] as a decision-support discipline.
-
-### With AI Output
-
-Use Applied Critical Thinking whenever an LLM gives an answer that feels finished.
-
-Ask:
-
-- What did the model assume?
-- What source or context is missing?
-- What part of the answer is generic?
-- What failure mode would this advice create?
-- What should I verify before acting?
-
-AI makes perspective generation cheap. Applied Critical Thinking decides which generated perspectives matter.
-
-This connects to [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] and [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]].
 
 ### During Learning
 
@@ -155,6 +238,8 @@ The test is simple:
 | Contrarian identity | The analyst performs dissent instead of improving judgment. | Ask what would change the recommendation. |
 | Tool dependence | The team waits for a named method before thinking clearly. | Use the smallest useful question. |
 | AI outsourcing | The model generates critique and the human accepts it. | Judge the critique, do not just collect it. |
+| Media inversion | The reader assumes the opposite of the media frame must be true. | Separate evidence from interpretation before reversing anything. |
+| Activist capture | Moral pressure substitutes for evidence. | Identify what claim is factual, moral, or strategic. |
 | Black-swan fixation | Rare catastrophe crowds out likely failure. | Compare likelihood, impact, and decision relevance. |
 
 Applied Critical Thinking should make action cleaner, not impossible.

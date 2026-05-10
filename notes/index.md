@@ -124,7 +124,7 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | Page | Type | Status | Summary |
 | --- | --- | --- | --- |
 | [[wiki/Red Team/Red Teaming\|Red Teaming]] | hub | developing | Dedicated Red Teaming hub connecting Army decision-support principles to the user's identity and learning system. |
-| [[wiki/Red Team/Applied Critical Thinking\|Applied Critical Thinking]] | concept | developing | Practical Red Team mindset for testing frames, assumptions, evidence, alternatives, failure paths, and decision quality without rebuilding the old tool catalog. |
+| [[wiki/Red Team/Applied Critical Thinking\|Applied Critical Thinking]] | concept | developing | Fast practical filter for testing media narratives, AI outputs, frames, assumptions, evidence, alternatives, and Red Team decision quality. |
 
 ### Reference
 
