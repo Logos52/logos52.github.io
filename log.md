@@ -287,3 +287,8 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Regenerated [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]] as a practical Red Team principle page focused on application, mindset, decision quality, AI review, and avoiding tool bloat.
 - Updated [[wiki/Red Team/Red Teaming|Red Teaming]], [[notes/index|notes/index]], [[raw/Source Index|Source Index]], and [[00 Command Center/Home|Command Center Home]].
+
+## [2026-05-10] compile | Applied Critical Thinking speed pass
+
+- Rebalanced [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]] toward speed plus accuracy.
+- Added dedicated media/public narrative and LLM/AI output sections while keeping a focused Red Teaming application section.
