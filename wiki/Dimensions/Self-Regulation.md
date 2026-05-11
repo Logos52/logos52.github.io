@@ -24,6 +24,8 @@ Self-Regulation is the control system. It notices what is happening during learn
 
 If [[wiki/Dimensions/Deep Processing|Deep Processing]] is the encoding engine and [[wiki/Dimensions/Retrieval|Retrieval]] is the testing engine, Self-Regulation is the driver.
 
+The strongest recent refinement is the pair of [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] and [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]. The first treats overwhelm as the cue for meta-strategy. The second checks whether a technique is actually triggering the thinking it was supposed to trigger.
+
 ## What This Dimension Controls
 
 - Whether the learner notices passive drift.

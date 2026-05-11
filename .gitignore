@@ -30,6 +30,15 @@ raw/**
 !raw/sources/
 !raw/sources/.gitkeep
 
+# Private working pages stay local.
+private/**
+!private/
+!private/Goals/
+!private/Goals/.gitkeep
+!private/Goals/Priority 0.md
+!private/Skills/
+!private/Skills/.gitkeep
+
 # Secrets and local config
 .env
 .env.*

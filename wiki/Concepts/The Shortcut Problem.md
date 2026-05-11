@@ -19,6 +19,8 @@ The Shortcut Problem is the tendency to escape hard thinking by doing something 
 
 It is especially dangerous because it usually feels productive. A note gets written. A highlight gets made. A map gets drawn. A prompt gets answered. But the learner may have avoided the evaluation, comparison, uncertainty, reconstruction, or organization that the task required.
 
+This problem is the main failure mode behind [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] and the main reason [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] emphasizes meta-strategies for overwhelm.
+
 ## Core Idea
 
 When learning becomes uncertain, effortful, or uncomfortable, the brain often tries to make the task simpler.
