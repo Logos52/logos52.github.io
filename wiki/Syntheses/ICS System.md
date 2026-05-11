@@ -104,6 +104,15 @@ The dimensions are not motivational labels. They are working parts of a learning
 
 The loop depends on [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]: the learner should check whether each technique is producing the intended cognition, not merely whether the steps look correct. It also requires watching for [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], where the brain turns a useful method into a lower-effort imitation.
 
+## First Principles And Technique Use
+
+Two high-value synthesis pages sharpen the control layer of the system:
+
+- [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] explains the hierarchy underneath the toolkit: processing quality, strategies, and meta-strategies. Its main use is learning how to convert overwhelm into questions instead of retreating into lower-order habits.
+- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] explains how to judge whether a technique is actually working. The visible method is not the result; the thinking triggered by the method is the result-producing layer.
+
+Together, they define the most important self-correction move in ICS: when a strategy feels hard or results stay flat, inspect the thinking being triggered before blaming the technique.
+
 ## Learning Efficiency
 
 The source material rejects "coverage" as the main metric. Covering more lectures, pages, or videos is not efficient if retention and mastery are weak.

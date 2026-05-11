@@ -19,6 +19,8 @@ Technique-Triggered Thinking is the diagnostic principle that a study technique 
 
 This is a high-value distinction because it explains a common plateau: the learner appears to be using better methods, but results do not improve because the method has been reduced to a surface routine.
 
+[[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] is the central synthesis page for this idea.
+
 ## Core Idea
 
 A technique is useful when it creates the cognitive process it was designed to create.

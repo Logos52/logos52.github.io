@@ -1,7 +1,7 @@
 ---
 type: log
 created: 2026-05-02
-updated: 2026-05-08
+updated: 2026-05-11
 tags:
   - system
 ---
@@ -9,6 +9,19 @@ tags:
 # Log
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
+
+## [2026-05-11] compile | Priority 0 focus primer and balancing rewrite
+
+- Rewrote [[wiki/Syntheses/Balancing Multiple Interests|Balancing Multiple Interests]] around the operating model of active loops, controlled rotation, failure modes, practical feel, and implications for the Journal / Goals / Skills workflow.
+- Added public [[private/Goals/Priority 0|Priority 0]] as a focus-primer page for Agentic Engineering, Learning Systems, Vietnamese, Fitness, Relationships, and parked-but-alive Chinese.
+- Added a local-only private Skills area for future skill-index work while keeping the detailed Skills Index out of the public site.
+- Updated Git and Quartz visibility rules so [[private/Goals/Priority 0|Priority 0]] publishes, while private skill work stays local.
+
+## [2026-05-11] compile | First principles and technique-use synthesis
+
+- Added [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] as a synthesis page for processing quality, strategies, meta-strategies, overwhelm, layered learning, and problem maps.
+- Added [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] as a synthesis page for technique-triggered thinking, shortcut detection, higher-order goals, and organized usability.
+- Integrated both pages into [[wiki/Syntheses/ICS System|ICS System]], [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]], [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]], and [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
 
 ## [2026-05-08] compile | ICS decision-making section
 

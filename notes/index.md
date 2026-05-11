@@ -46,6 +46,8 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | --- | --- | --- | --- |
 | [[wiki/Syntheses/Current Study System\|Current Study System]] | synthesis | developing | User's current encoding and retrieval loop built around BHS plus SIR. |
 | [[wiki/Syntheses/ICS System\|ICS System]] | synthesis | developing | High-level synthesis of Justin Sung's learning system: process control, five dimensions, encoding, retrieval, practice, and reflection. |
+| [[wiki/Syntheses/First Principles of ICS\|First Principles of ICS]] | synthesis | developing | Usable synthesis of the ICS hierarchy: processing quality, strategies, meta-strategies, overwhelm, layered learning, and problem maps. |
+| [[wiki/Syntheses/Are You Learning, or Just Using Techniques\|Are You Learning, or Just Using Techniques]] | synthesis | developing | Usable synthesis of technique failure: strategy triggers thinking, thinking creates results, and shortcuts can make methods look correct while learning stays flat. |
 | [[wiki/Dimensions/Dimensions of Learning\|Dimensions of Learning]] | model | developing | Central hub model for Deep Processing, Self-Management, Self-Regulation, Mindset, and Retrieval. |
 | [[wiki/Dimensions/Deep Processing\|Deep Processing]] | dimension | developing | Dimension for encoding through comparison, chunking, prioritization, and meaning-making. |
 | [[wiki/Dimensions/Self-Management\|Self-Management]] | dimension | developing | Dimension for time, task, focus, energy, habits, and environment. |
