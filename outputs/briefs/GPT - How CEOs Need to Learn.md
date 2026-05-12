@@ -65,7 +65,7 @@ A practical metacognitive loop:
 5. Check how soon the information is retrieved, applied, or integrated.
 6. Diagnose whether the bottleneck is comprehension, organization, relevance, retrieval, or motivation.
 
-This belongs near [[wiki/Dimensions of Learning/Self-regulation|Self-regulation]] and [[wiki/Self Management/Attention Management|Attention Management]]. The learner is not passively hoping the method works. The learner is actively regulating the method.
+This belongs near [[wiki/Dimensions of Learning/Self-regulation|Self-regulation]] and [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]. The learner is not passively hoping the method works. The learner is actively regulating the method.
 
 ## Higher-Order Retrieval
 
@@ -163,7 +163,7 @@ Symptoms:
 
 This is why prior knowledge matters. New learning should be connected to the learner's existing models, problems, goals, and use cases. Otherwise, the knowledge may be internally organized but externally useless.
 
-For this knowledge base, this maps to [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]: useful knowledge is not merely stored. It is connected to action.
+For this knowledge base, this maps to [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]: useful knowledge is not merely stored. It is connected to action.
 
 ## Teaching Others
 
@@ -237,8 +237,8 @@ Relevant existing pages:
 - [[wiki/Dimensions of Learning/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions of Learning/Retrieval|Retrieval]]
 - [[wiki/Dimensions of Learning/Self-regulation|Self-regulation]]
-- [[wiki/Self Management/Attention Management|Attention Management]]
-- [[wiki/Self Management/Focus Management|Focus Management]]
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
 
 Possible new or expanded pages:
 

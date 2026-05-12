@@ -2,8 +2,8 @@
 type: concept
 status: developing
 created: 2026-05-10
-updated: 2026-05-10
-source-count: 1
+updated: 2026-05-12
+source-count: 2
 tags:
   - red-teaming
   - decision-making
@@ -13,7 +13,7 @@ tags:
   - ai
 ---
 
-# Applied Critical Thinking
+# Applied Critical Thinking: Testing Frames
 
 Applied Critical Thinking is the Red Team habit of turning doubt into better judgment.
 
@@ -214,7 +214,7 @@ Ask:
 - What would retrieval expose?
 - What shortcut am I taking?
 
-This links Applied Critical Thinking to [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]], [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], and [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
+This links Applied Critical Thinking to [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]], [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], and [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
 
 ## What It Replaces
 
@@ -243,6 +243,24 @@ The test is simple:
 | Black-swan fixation | Rare catastrophe crowds out likely failure. | Compare likelihood, impact, and decision relevance. |
 
 Applied Critical Thinking should make action cleaner, not impossible.
+
+## Rational Empathy
+
+[[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] adds a useful communication layer to Applied Critical Thinking.
+
+The point is not to win the frame. The point is to see clearly enough to choose well.
+
+Rational empathy means reconstructing another person's position well enough to see the valid part of it. This is different from agreement. It is also different from surrender. It lets the thinker preserve what is true in the other frame while still rejecting weak assumptions, bad evidence, emotional pressure, or strategic nonsense.
+
+Use it when disagreement would otherwise become reflexive:
+
+1. What problem is the other person trying to solve?
+2. What part of their frame is valid?
+3. What assumption makes their conclusion work?
+4. Where does the frame stop being useful?
+5. What decision becomes clearer after separating valid perception from bad judgment?
+
+This is the bridge between critical thinking and communication. Applied Critical Thinking without rational empathy can become brittle contrarianism. Rational empathy without Applied Critical Thinking can become [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]].
 
 ## Relationship To The Other Red Team Principles
 

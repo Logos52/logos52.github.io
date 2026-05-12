@@ -123,13 +123,13 @@ Sung's question: *Are you organized? Can you think in an organized way?* The end
 
 ## Connection to existing wiki pages
 
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]] — the page seeded directly from this principle.
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] — the page seeded directly from this principle.
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] — the brain's shortcut-seeking is the page-level concept.
 - [[wiki/Techniques/Building the Radar|Building the Radar]] — required to detect shortcut-execution.
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — the canonical anti-shortcut technique.
 - [[wiki/Syntheses/ICS System|ICS System]] — the chain Strategy → Thinking → Result is foundational to ICS.
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]] — passivity is shortcut-execution by another name.
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]] — the end-state "feeling locked in" matches the mastery scale.
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — passivity is shortcut-execution by another name.
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] — the end-state "feeling locked in" matches the mastery scale.
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]] — choosing what to fix in your technique-execution is a Marginal Gains decision.
 
 ## Open Questions

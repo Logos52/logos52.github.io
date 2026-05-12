@@ -215,7 +215,7 @@ Warning sign: BHS has become surface activity when the artifact is clean but you
 
 ## Related Pages
 
-- [[wiki/Syntheses/Current Study System|Current Study System]]
+- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
 - [[wiki/Syntheses/ICS System|ICS System]]
 - [[wiki/Techniques/Aim|Aim]]
 - [[wiki/Techniques/Prestudy|Prestudy]]
@@ -225,9 +225,9 @@ Warning sign: BHS has become surface activity when the artifact is clean but you
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Sources

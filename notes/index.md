@@ -20,6 +20,7 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Concepts/LLM Knowledge Systems\|LLM Knowledge Systems]] | concept | seed | Pattern for using LLMs to maintain a persistent markdown wiki instead of only querying raw sources. |
 | [[wiki/Workflows/Raw to Wiki Compilation\|Raw to Wiki Compilation]] | workflow | seed | Process for converting source material into durable, linked wiki pages. |
 | [[wiki/Workflows/Question Answering Against a Wiki\|Question Answering Against a Wiki]] | workflow | seed | Workflow for answering questions by reading the compiled wiki first, then sources as needed. |
+| [[wiki/Workflows/Knowledge Base as Thinking Partner\|Knowledge Base as Thinking Partner]] | workflow | developing | Workflow for using the knowledge base to generate questions, frames, decisions, next actions, and reusable synthesis. |
 | [[wiki/Workflows/Wiki Health Checks\|Wiki Health Checks]] | workflow | seed | Periodic audits for contradictions, stale claims, orphan pages, and missing concepts. |
 | [[wiki/Workflows/Wiki Status Checks\|Wiki Status Checks]] | workflow | seed | Lightweight read-mostly audits that summarize wiki health, risks, and next actions. |
 | [[wiki/Workflows/Wiki Breakdown Pass\|Wiki Breakdown Pass]] | workflow | seed | Process for finding missing pages, split candidates, and deliberate wiki expansion opportunities. |
@@ -39,14 +40,17 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Concepts/A Motorcycle for the Mind\|A Motorcycle for the Mind]] | concept | developing | AI as an accelerator for thought, learning, coding, and agency that still requires human direction. |
 | [[wiki/Concepts/A Return to Code\|A Return to Code]] | concept | developing | Vibe coding as a return to playful, personal, direct software creation through agents. |
 | [[wiki/Concepts/Nothing Ever Happens Is Over\|Nothing Ever Happens Is Over]] | concept | developing | Fast-changing AI-era sense-making frame for startups, technology, risks, and personal operating systems. |
+| [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame\|How to Communicate Truth Into Someone Else's Frame]] | concept | developing | Credibility-first model of persuasion: tell the truth clearly, preserve fit, use rational empathy, and avoid pressure-based selling. |
+| [[wiki/Concepts/The Age Of Nonlinear Returns\|The Age Of Nonlinear Returns]] | concept | developing | Decision frame for protecting trust, optionality, reputation, capability, and scaling surfaces instead of over-optimizing small visible exchanges. |
 
 ### Metacognition and learning
 
 | Page | Type | Status | Summary |
 | --- | --- | --- | --- |
-| [[wiki/Syntheses/Current Study System\|Current Study System]] | synthesis | developing | User's current encoding and retrieval loop built around BHS plus SIR. |
+| [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure\|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] | synthesis | developing | User's current encoding and retrieval loop built around BHS plus SIR. |
 | [[wiki/Syntheses/ICS System\|ICS System]] | synthesis | developing | High-level synthesis of Justin Sung's learning system: process control, five dimensions, encoding, retrieval, practice, and reflection. |
 | [[wiki/Syntheses/First Principles of ICS\|First Principles of ICS]] | synthesis | developing | Usable synthesis of the ICS hierarchy: processing quality, strategies, meta-strategies, overwhelm, layered learning, and problem maps. |
+| [[wiki/Syntheses/Minimally Viable Learning System\|Minimally Viable Learning System]] | synthesis | developing | Compressed learning loop for choosing a target, building structure, using knowledge, diagnosing the bottleneck, and adjusting the next move. |
 | [[wiki/Syntheses/Are You Learning, or Just Using Techniques\|Are You Learning, or Just Using Techniques]] | synthesis | developing | Usable synthesis of technique failure: strategy triggers thinking, thinking creates results, and shortcuts can make methods look correct while learning stays flat. |
 | [[wiki/Dimensions/Dimensions of Learning\|Dimensions of Learning]] | model | developing | Central hub model for Deep Processing, Self-Management, Self-Regulation, Mindset, and Retrieval. |
 | [[wiki/Dimensions/Deep Processing\|Deep Processing]] | dimension | developing | Dimension for encoding through comparison, chunking, prioritization, and meaning-making. |
@@ -54,12 +58,12 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Dimensions/Self-Regulation\|Self-Regulation]] | dimension | developing | Dimension for monitoring, diagnosing, and adjusting the learning process. |
 | [[wiki/Dimensions/Mindset\|Mindset]] | dimension | developing | Dimension for interpreting difficulty, mistakes, feedback, identity, and growth. |
 | [[wiki/Dimensions/Retrieval\|Retrieval]] | dimension | developing | Dimension for recall, reconstruction, interleaving, spacing, and transfer. |
-| [[wiki/Concepts/Metacognition\|Metacognition]] | concept | seed | Awareness and control of thinking during learning; the control layer for learning-to-learn. |
+| [[wiki/Concepts/Metacognition - The Control Layer\|Metacognition: The Control Layer]] | concept | seed | Awareness and control of thinking during learning; the control layer for learning-to-learn. |
 | [[wiki/Techniques/Building the Radar\|Building the Radar]] | technique | seed | Practice for detecting shifts from active processing into passive consumption. |
-| [[wiki/Concepts/Active vs Passive Learning\|Active vs Passive Learning]] | concept | seed | Distinguishes visible learning behaviors from the thought quality they produce. |
-| [[wiki/Concepts/Technique-Triggered Thinking\|Technique-Triggered Thinking]] | concept | developing | Diagnostic principle for checking whether a technique is producing the intended cognition, not just a correct-looking artifact. |
+| [[wiki/Concepts/Are You Thinking, or Just Consuming\|Are You Thinking, or Just Consuming?]] | concept | seed | Distinguishes visible learning behaviors from the thought quality they produce. |
+| [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces\|The Technique Is Only as Good as the Thinking It Produces]] | concept | developing | Diagnostic principle for checking whether a technique is producing the intended cognition, not just a correct-looking artifact. |
 | [[wiki/Concepts/The Shortcut Problem\|The Shortcut Problem]] | concept | developing | Pattern where the brain avoids difficult learning by producing visible activity that bypasses the required thinking. |
-| [[wiki/Concepts/Cognitive Load as Signal\|Cognitive Load as Signal]] | concept | seed | Interprets mental effort, overload, and drowsiness as metacognitive signals. |
+| [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue\|Cognitive Load & What Mental Effort Is Trying to Cue]] | concept | seed | Interprets mental effort, overload, and drowsiness as metacognitive signals. |
 | [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently\|How to Unlearn Old or Bad Habits Efficiently]] | concept | developing | Practical operating model for replacing old cue-response habits with scripted, rehearsed responses. |
 | [[wiki/Concepts/Deep Processing Practice\|Deep Processing Practice]] | concept | seed | Supporting concept note for meaning-making through comparison, evaluation, connection, and schema formation. |
 | [[wiki/Concepts/Memory Handling\|Memory Handling]] | concept | seed | Deliberately shaping new information so it can be encoded and retrieved. |
@@ -80,7 +84,7 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Techniques/Dimension Practice Tracks\|Dimension Practice Tracks]] | technique | developing | Four-step practice tracks for Deep Processing, Self-Regulation, Self-Management, and Mindset. |
 | [[wiki/Techniques/Upgrading Your Dimensions\|Upgrading Your Dimensions]] | technique | developing | Strategy for improving dimensions through foundation and growth horizons. |
 | [[wiki/Concepts/Importance-Based Chunking\|Importance-Based Chunking]] | concept | developing | Grouping information by why it matters and how it should be used. |
-| [[wiki/Concepts/Knowledge Mastery\|Knowledge Mastery]] | concept | developing | Practical levels for diagnosing whether knowledge is isolated, relational, evaluative, or transferable. |
+| [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge\|Knowledge Mastery: From Recognition to Usable Knowledge]] | concept | developing | Practical levels for diagnosing whether knowledge is isolated, relational, evaluative, or transferable. |
 
 ### Decision making
 
@@ -98,9 +102,9 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | Page | Type | Status | Summary |
 | --- | --- | --- | --- |
 | [[wiki/Self Management/Flow State\|Flow State]] | concept | developing | High-output attention state protected by task clarity, environment, and reduced decision friction. |
-| [[wiki/Self Management/Focus Management\|Focus Management]] | system | developing | Practical system for creating, maintaining, and recovering attention during study and work. |
-| [[wiki/Self Management/Attention Management\|Attention Management]] | system | developing | Advanced day-level system for preserving flow across tasks by reducing transition friction and decisional delays. |
-| [[wiki/Self Management/Procrastination\|Procrastination]] | concept | developing | Treats avoidance as a system problem involving triggers, task friction, environment, and willpower dependence. |
+| [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block\|Focus Management: How to Enter & Recover Inside a Work Block]] | system | developing | Practical system for creating, maintaining, and recovering attention during study and work. |
+| [[wiki/Self Management/Attention Management - Preserving Flow\|Attention Management: Preserving Flow]] | system | developing | Advanced day-level system for preserving flow across tasks by reducing transition friction and decisional delays. |
+| [[wiki/Self Management/Procrastination - a System Problem\|Procrastination: a System Problem]] | concept | developing | Treats avoidance as a system problem involving triggers, task friction, environment, and willpower dependence. |
 
 ### Language learning
 
@@ -128,7 +132,7 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | Page | Type | Status | Summary |
 | --- | --- | --- | --- |
 | [[wiki/Red Team/Red Teaming\|Red Teaming]] | hub | developing | Dedicated Red Teaming hub connecting Army decision-support principles to the user's identity and learning system. |
-| [[wiki/Red Team/Applied Critical Thinking\|Applied Critical Thinking]] | concept | developing | Fast practical filter for testing media narratives, AI outputs, frames, assumptions, evidence, alternatives, and Red Team decision quality. |
+| [[wiki/Red Team/Applied Critical Thinking - Testing Frames\|Applied Critical Thinking: Testing Frames]] | concept | developing | Fast practical filter for testing media narratives, AI outputs, frames, assumptions, evidence, alternatives, and Red Team decision quality. |
 
 ### Reference
 

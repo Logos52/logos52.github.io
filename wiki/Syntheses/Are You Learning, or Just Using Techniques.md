@@ -189,10 +189,10 @@ The goal is not to collect better techniques. The goal is to make each technique
 
 - [[wiki/Syntheses/ICS System|ICS System]]
 - [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]]
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Techniques/WPW|WPW]]

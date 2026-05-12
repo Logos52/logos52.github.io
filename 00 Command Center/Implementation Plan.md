@@ -52,10 +52,10 @@ First compiled thread: metacognition and learning-to-learn.
 
 Created pages:
 
-- [[wiki/Concepts/Metacognition|Metacognition]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Techniques/Building the Radar|Building the Radar]]
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
@@ -66,7 +66,7 @@ Created pages:
 - [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
-- [[wiki/Syntheses/Current Study System|Current Study System]]
+- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/Aim|Aim]]
 - [[wiki/Techniques/Shoot|Shoot]]

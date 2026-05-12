@@ -104,12 +104,12 @@ If the ethical culture underneath government decays, rules alone are not enough.
 
 This source belongs with [[wiki/Red Team/Red Teaming|Red Teaming]] because Vietnam is a strategic decision-making case study. It shows what happens when assumptions, objectives, political constraints, public trust, and narrative control are misaligned.
 
-It also belongs with [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]] because it trains the habit of separating popular narrative from strategic analysis.
+It also belongs with [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] because it trains the habit of separating popular narrative from strategic analysis.
 
 ## Candidate Wiki Updates
 
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
-- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Decision Making/Good Decisions|Good Decisions]]
 

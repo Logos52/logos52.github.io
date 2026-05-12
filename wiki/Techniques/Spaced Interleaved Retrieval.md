@@ -182,7 +182,7 @@ Warning sign: SIR has become recognition when checking notes feels easier than r
 
 ## Related Concepts
 
-- [[wiki/Syntheses/Current Study System|Current Study System]]
+- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
@@ -190,12 +190,12 @@ Warning sign: SIR has become recognition when checking notes feels easier than r
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/WPW|WPW]]
 - [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
-- [[wiki/Concepts/Metacognition|Metacognition]]
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Open Questions

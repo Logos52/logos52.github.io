@@ -189,7 +189,7 @@ When a technique looks right but results are not improving, use this sequence:
 
 ## Relationship to Existing Wiki
 
-Live Clinic 72 should strengthen [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]. That page is the natural home for the core chain: technique, thinking, knowledge, performance.
+Live Clinic 72 should strengthen [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]. That page is the natural home for the core chain: technique, thinking, knowledge, performance.
 
 It should also strengthen [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], especially the idea that the brain searches for easier versions of good methods.
 

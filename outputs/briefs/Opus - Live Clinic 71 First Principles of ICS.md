@@ -111,7 +111,7 @@ Sung claims he uses this for every complex problem, personal and business. The p
 - [[wiki/Syntheses/ICS System|ICS System]] — the three-level hierarchy is the missing piece of the ICS overview.
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] — Aim/Shoot/Skin is the painter's layering applied to one session.
 - [[wiki/Techniques/Building the Radar|Building the Radar]] — the prerequisite for detecting overwhelm.
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]] — overwhelm as cue is the practical application of this concept.
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] — overwhelm as cue is the practical application of this concept.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — meta-strategies live in this dimension.
 - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]] — connects to the "make the variables explicit" move.
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — retrieval as a backdoor to processing quality.

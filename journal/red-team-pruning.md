@@ -31,7 +31,7 @@ Why:
 
 - It captures a real part of my background.
 - It preserves the Army Red Team way of seeing: challenge assumptions, slow down the first frame, protect dissent, and look for blind spots.
-- It connects naturally to [[wiki/Concepts/Metacognition|Metacognition]] and [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
+- It connects naturally to [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]] and [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
 - It gives me a philosophical stance without forcing me to maintain every tool as a separate note.
 
 I kept the four UFMCS principles inside the page:
@@ -245,4 +245,4 @@ The argument:
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]

@@ -78,9 +78,9 @@ The drivers part is where most people undersell themselves. Network, resources, 
 ## Connection to existing wiki pages
 
 - [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]] — the page seeded from this source.
-- [[wiki/Syntheses/Balancing Multiple Interests|Balancing Multiple Interests]] — the "two priorities at a time" rule converges with the P0+1 system.
+- [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]] — the "two priorities at a time" rule converges with the P0+1 system.
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]] — choosing which attributes to upskill is a Marginal Gains decision.
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]] — the rated-out-of-10 self-assessment fits the mastery scale.
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] — the rated-out-of-10 self-assessment fits the mastery scale.
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] — Kolbs runs the learning loop *inside* the upskilling step.
 - [[wiki/Concepts/Mindset|Mindset]] — staying open to the goal changing is a mindset move.
 

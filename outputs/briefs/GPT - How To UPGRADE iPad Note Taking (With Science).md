@@ -73,7 +73,7 @@ It should not feel like decorating the source or producing a beautiful artifact 
 - [[wiki/Techniques/Shoot|Shoot]]
 - [[wiki/Techniques/Skin|Skin]]
 - [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 
 ## Open Questions
 

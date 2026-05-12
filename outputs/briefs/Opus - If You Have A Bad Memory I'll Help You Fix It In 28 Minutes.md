@@ -89,9 +89,9 @@ The implication: this is why the chunk-map / Skin technique from BHS works. It's
 
 - [[wiki/Concepts/Memory Handling|Memory Handling]] — this is the page seeded from this source.
 - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]] — strategy six directly.
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]] — overload is the signal that working-memory weight limit is hit.
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] — overload is the signal that working-memory weight limit is hit.
 - [[wiki/Techniques/Skin|Skin]] — chunk-mapping as the externalized working memory.
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]] — strategies 1 and 2 are the active-versus-passive distinction operationalized.
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — strategies 1 and 2 are the active-versus-passive distinction operationalized.
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — strategy five is the retrieval-cue-matching point.
 - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]] — strategy one's "evaluate importance" move.
 

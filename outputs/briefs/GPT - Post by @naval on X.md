@@ -57,7 +57,7 @@ The most relevant overlap is with learning and agentic work:
 ## Links Into the Knowledge Base
 
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 

@@ -171,8 +171,8 @@ Warning sign: Shoot has become passive when your notes follow the source order w
 - [[wiki/Techniques/Skin|Skin]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Sources

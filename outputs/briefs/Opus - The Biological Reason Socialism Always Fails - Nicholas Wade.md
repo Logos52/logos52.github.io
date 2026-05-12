@@ -127,7 +127,7 @@ For now, the brief sits in outputs/briefs as a curated reading, not yet promoted
 
 - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]] — Saad's argument about ideology-vs-evolution is closely adjacent.
 - [[wiki/Red Team/Red Teaming|Red Teaming]] — Wade's "load-bearing walls" frame matches the Red Team Key Assumptions Check posture.
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]] — accepting evolved constraints is the active-learning move; denying them is passive ideology.
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — accepting evolved constraints is the active-learning move; denying them is passive ideology.
 - [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] — adjacent to Wade's immigration-cohesion discussion.
 
 ## Open Questions

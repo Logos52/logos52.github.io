@@ -53,7 +53,7 @@ It should not feel like mindless repetition or accumulating theory about the ski
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Self Management/Attention Management|Attention Management]]
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
 
 ## Open Questions
 

@@ -46,7 +46,7 @@ Useful questions:
 
 ## Connection to Focus and Attention
 
-Minimalism connects to [[wiki/Self Management/Attention Management|Attention Management]] and [[wiki/Self Management/Focus Management|Focus Management]]. The environment competes for attention. Reducing clutter lowers the number of irrelevant cues.
+Minimalism connects to [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] and [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]. The environment competes for attention. Reducing clutter lowers the number of irrelevant cues.
 
 The point is not aesthetic minimalism for its own sake. The point is to protect attention.
 
@@ -59,9 +59,9 @@ It should not feel like owning less for performance, ideology, or visual brandin
 ## Links Into the Knowledge Base
 
 - [[wiki/Dimensions/Self-Management|Self-Management]]
-- [[wiki/Self Management/Attention Management|Attention Management]]
-- [[wiki/Self Management/Focus Management|Focus Management]]
-- [[wiki/Self Management/Procrastination|Procrastination]]
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
+- [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 
 ## Open Questions

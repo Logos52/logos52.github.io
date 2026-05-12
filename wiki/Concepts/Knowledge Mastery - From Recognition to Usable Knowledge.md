@@ -12,7 +12,7 @@ tags:
   - metacognition
 ---
 
-# Knowledge Mastery
+# Knowledge Mastery: From Recognition to Usable Knowledge
 
 Knowledge mastery is the degree to which a learner can retrieve, relate, evaluate, and use knowledge across contexts.
 
@@ -60,7 +60,7 @@ The answer determines the repair.
 
 ## Related Concepts
 
-- [[wiki/Concepts/Metacognition|Metacognition]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]

@@ -89,13 +89,13 @@ Fertility is not only a private preference. It is a measure of whether a society
 
 ## Relevance to the Knowledge Base
 
-This source belongs with [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]] because it trains assumption inspection. Every ideology smuggles in a theory of human behavior. The Red Team move is to expose that theory and test whether reality supports it.
+This source belongs with [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] because it trains assumption inspection. Every ideology smuggles in a theory of human behavior. The Red Team move is to expose that theory and test whether reality supports it.
 
 It also links to [[wiki/Decision Making/Decision Making|Decision Making]]. Decisions fail when they assume people will behave in ways they reliably do not behave.
 
 ## Candidate Wiki Updates
 
-- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
 

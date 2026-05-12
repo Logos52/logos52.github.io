@@ -54,7 +54,7 @@ It should not feel like smooth passive familiarity.
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]
-- [[wiki/Concepts/Metacognition|Metacognition]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 
 ## Open Questions
 

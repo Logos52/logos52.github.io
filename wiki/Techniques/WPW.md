@@ -91,8 +91,8 @@ Warning sign: WPW has become a summary exercise when the whole stays vague and t
 - [[wiki/Dimensions/Retrieval|Retrieval]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 
 ## Open Questions
 

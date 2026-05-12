@@ -12,7 +12,7 @@ tags:
   - ics
 ---
 
-# Focus Management
+# Focus Management: How to Enter & Recover Inside a Work Block
 
 Focus Management is the user's system for creating, maintaining, and recovering attention inside a work block. Use it when study time exists on the calendar, but the quality of attention is too inconsistent to produce good learning.
 
@@ -108,7 +108,7 @@ The best focus block is already pre-decided enough that the user can simply exec
 
 ## Relationship To Attention Management
 
-[[wiki/Self Management/Attention Management|Attention Management]] is the broader day-level version of this idea.
+[[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] is the broader day-level version of this idea.
 
 Focus Management sets up a single block. Attention Management tries to preserve intentional attention across blocks, especially during transitions.
 
@@ -116,7 +116,7 @@ In short: attention is where the mind is pointed; focus is how steadily it stays
 
 ## Relationship To Procrastination
 
-[[wiki/Self Management/Procrastination|Procrastination]] often looks like a motivation problem, but in practice it may be a focus-management problem.
+[[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]] often looks like a motivation problem, but in practice it may be a focus-management problem.
 
 The task may be too vague, too large, too aversive, too easy to escape, or too dependent on willpower. Focus management lowers the activation energy required to begin and reduces the number of exits available once the block starts.
 
@@ -133,8 +133,8 @@ The task may be too vague, too large, too aversive, too easy to escape, or too d
 ## Related Pages
 
 - [[wiki/Self Management/Flow State|Flow State]]
-- [[wiki/Self Management/Attention Management|Attention Management]]
-- [[wiki/Self Management/Procrastination|Procrastination]]
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
+- [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]

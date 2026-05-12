@@ -290,7 +290,7 @@ Relevant existing pages:
 - [[wiki/Dimensions of Learning/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions of Learning/Retrieval|Retrieval]]
 - [[wiki/Dimensions of Learning/Self-regulation|Self-regulation]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 
 Possible new or expanded pages:
 

@@ -196,7 +196,7 @@ Warning sign: Aim has become a shortcut when it feels like copying headings into
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Sources

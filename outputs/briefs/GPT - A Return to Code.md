@@ -75,7 +75,7 @@ The workflow implication:
 - use disagreement between models as signal,
 - keep the human in charge of final judgment.
 
-This connects to [[wiki/Concepts/LLM Tool Use|LLM Tool Use]] and [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]].
+This connects to [[wiki/Concepts/LLM Tool Use|LLM Tool Use]] and [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]].
 
 ## Verifiability and Code
 

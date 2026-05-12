@@ -10,11 +10,6 @@ tags:
 
 # About
 
-I'm Wedge, @webigis on X. Former Dept. War Red Team @ University of Foreign Military & Cultural Studies. I use this site as a public home for notes on learning, metacognition, language acquisition, Red Team thinking, language learning, and building with AI agents.
-
-My current focus is turning useful information into working systems: study workflows, decision-making tools, and practical ways to use LLMs as collaborators rather than just chat interfaces.
-
-The [[journal/index|Journal]] is the public thinking dashboard for the site: current questions, active threads, possible essays, and a light dated log. The private vault remains the operational system; the Journal is only the public surface of what is worth thinking through in the open.
 
 ## How This Is Built
 
@@ -28,6 +23,14 @@ Code is MIT-licensed; written content is released under [CC BY 4.0](https://crea
 - **Red Team thinking**: assumption checks, cultural empathy, groupthink mitigation, and decision support.
 - **Agentic engineering**: building software with LLM agents while preserving taste, verification, and ownership.
 - **Language learning**: immersion, attention, comprehension, and practical workflows.
+
+## About Me
+
+I'm Wedge, @webigis on X. I use this site as a public home for notes on learning, metacognition, language acquisition, Red Team thinking, language learning, and building with AI agents.
+
+My current focus is turning useful information into working systems: study workflows, decision-making tools, and practical ways to use LLMs as collaborators rather than just chat interfaces.
+
+The [[journal/index|Journal]] is the public thinking dashboard for the site: current questions, active threads, possible essays, and a light dated log. The wiki vault remains the operational system; the Journal is only the public surface of what is worth thinking through in the open.
 
 ## Links
 

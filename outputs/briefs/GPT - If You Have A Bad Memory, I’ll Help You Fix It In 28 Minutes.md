@@ -56,7 +56,7 @@ It should not feel like rereading, highlighting, and hoping familiarity becomes 
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Self Management/Attention Management|Attention Management]]
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
 
 ## Open Questions
 

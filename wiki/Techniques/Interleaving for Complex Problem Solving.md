@@ -274,7 +274,7 @@ Start with the outcome. Interleaved retrieval will reveal the bottleneck.
 ## Related Pages
 
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Syntheses/Current Study System|Current Study System]]
+- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
 - [[wiki/Techniques/Prestudy|Prestudy]]
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
@@ -282,7 +282,7 @@ Start with the outcome. Interleaved retrieval will reveal the bottleneck.
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Language/Refold Language Learning System|Refold Language Learning System]]
 - [[wiki/Language/Language Isn't Math|Language Isn't Math]]
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 
 ## Open Questions
 

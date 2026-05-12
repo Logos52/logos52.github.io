@@ -22,7 +22,7 @@ Early language content is often hard to understand. That creates a practical pro
 
 The job is not to understand everything. The job is to notice something.
 
-This connects directly to [[wiki/Dimensions/Deep Processing|Deep Processing]] and [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]. Active attention turns immersion from vague exposure into a stream of small targets.
+This connects directly to [[wiki/Dimensions/Deep Processing|Deep Processing]] and [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]. Active attention turns immersion from vague exposure into a stream of small targets.
 
 ## What Attention Does
 
@@ -44,4 +44,4 @@ That does not mean the learner must understand everything. It means the learner 
 - [[wiki/Language/YouTube Immersion Account|YouTube Immersion Account]]
 - [[wiki/Language/Interactive Immersion|Interactive Immersion]]
 - [[wiki/Language/Freeflow Immersion|Freeflow Immersion]]
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]

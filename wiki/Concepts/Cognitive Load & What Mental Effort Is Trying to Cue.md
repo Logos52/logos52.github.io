@@ -11,7 +11,7 @@ tags:
   - working-memory
 ---
 
-# Cognitive Load as Signal
+# Cognitive Load & What Mental Effort Is Trying to Cue
 
 Cognitive load is not just friction. It is information about what the mind is trying to hold, resolve, compare, or transform.
 
@@ -52,7 +52,7 @@ The key question is not "Is this hard?" but "What kind of hard is this?"
 
 ## Related Concepts
 
-- [[wiki/Concepts/Metacognition|Metacognition]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]

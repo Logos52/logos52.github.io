@@ -40,8 +40,8 @@ The learner should monitor whether information is being transformed into meaning
 
 ## Related Concepts
 
-- [[wiki/Concepts/Metacognition|Metacognition]]
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]
 - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]

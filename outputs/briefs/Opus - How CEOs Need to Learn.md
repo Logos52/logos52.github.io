@@ -102,8 +102,8 @@ This source is foundational for several existing wiki pages — Sung's framing i
 - [[wiki/Techniques/Skin|Skin]] — the 2-4 rule and chunk-map cleanup live here.
 - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]] — the relevance-assignment frame.
 - [[wiki/Concepts/Memory Handling|Memory Handling]] — the license-plate example fits here.
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]] — Sung's "raise the level of thinking" is the active-learning prescription.
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]] — "I need to repeat this five times" is the canonical signal Sung interprets.
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — Sung's "raise the level of thinking" is the active-learning prescription.
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] — "I need to repeat this five times" is the canonical signal Sung interprets.
 
 ## Open Questions
 

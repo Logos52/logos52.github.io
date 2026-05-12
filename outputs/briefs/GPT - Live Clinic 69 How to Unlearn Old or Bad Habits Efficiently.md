@@ -296,9 +296,9 @@ The fastest improvement usually comes from step 2 and step 8. If the cue is vagu
 
 [[wiki/Techniques/Marginal Gains|Marginal Gains]] should target one cue-response bottleneck at a time. The next gain is often smaller than a technique upgrade. It is a cleaner response to one recurring cue.
 
-[[wiki/Self Management/Attention Management|Attention Management]] depends on cue awareness. Attention breaks when an old response hijacks the next move before the learner notices.
+[[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] depends on cue awareness. Attention breaks when an old response hijacks the next move before the learner notices.
 
-[[wiki/Self Management/Focus Management|Focus Management]] should include recovery. Deep work followed by fake rest makes old habits more likely to return.
+[[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] should include recovery. Deep work followed by fake rest makes old habits more likely to return.
 
 [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] is partly a habit problem. The shortcut is often not chosen deliberately. It fires as an automatic response to discomfort.
 

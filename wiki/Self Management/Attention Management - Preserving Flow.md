@@ -13,7 +13,7 @@ tags:
   - ics
 ---
 
-# Attention Management
+# Attention Management: Preserving Flow
 
 Attention Management is the user's advanced system for preserving [[wiki/Self Management/Flow State|Flow State]] across the day. Use it when the question is not simply "How do I focus for this block?" but "How do I move through tasks without repeatedly losing the thread?"
 
@@ -51,7 +51,7 @@ The contrast:
 | --- | --- | --- |
 | Time management | Did I follow the schedule? | The user can obey the schedule while working at low focus. |
 | Task management | Did I complete the right tasks? | Completion can become mechanical or shallow. |
-| [[wiki/Self Management/Focus Management|Focus Management]] | Can I create and recover focus for this block? | Good blocks can still be separated by poor transitions. |
+| [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] | Can I create and recover focus for this block? | Good blocks can still be separated by poor transitions. |
 | Attention Management | Can I preserve intentional attention across blocks? | It requires good judgment and can become vague if used too early. |
 
 ## The Difference Between Attention And Focus
@@ -64,8 +64,8 @@ The distinction:
 | --- | --- | --- |
 | Attention | What the mind is pointed at. | "Am I paying attention to the right thing?" |
 | Focus | How deeply and steadily the mind stays there. | "Can I stay with this without drifting?" |
-| [[wiki/Self Management/Attention Management|Attention Management]] | Keeping attention aligned with intention across the day. | "Can I move through tasks without losing the thread?" |
-| [[wiki/Self Management/Focus Management|Focus Management]] | Creating and recovering deep focus inside a work block. | "Can I make this session high-quality?" |
+| [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] | Keeping attention aligned with intention across the day. | "Can I move through tasks without losing the thread?" |
+| [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] | Creating and recovering deep focus inside a work block. | "Can I make this session high-quality?" |
 
 Focus can be strong but misdirected. The user can become deeply absorbed in the wrong task, a distraction, over-polishing, or avoidance work. That is focus without good attention management.
 
@@ -143,7 +143,7 @@ This should be used carefully. Constant timers can create stress and reduce the 
 
 ## Relationship To Focus Management
 
-[[wiki/Self Management/Focus Management|Focus Management]] helps the user enter and maintain focus inside a block.
+[[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] helps the user enter and maintain focus inside a block.
 
 Attention Management organizes the larger day so those focused blocks connect instead of collapsing into repeated resets.
 
@@ -152,7 +152,7 @@ The relationship:
 - Focus Management creates the block.
 - Attention Management protects the chain of blocks.
 - [[wiki/Self Management/Flow State|Flow State]] is the state both are trying to preserve.
-- [[wiki/Self Management/Procrastination|Procrastination]] is one common failure when attention slips out of intention.
+- [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]] is one common failure when attention slips out of intention.
 
 ## Failure Modes
 
@@ -167,8 +167,8 @@ The relationship:
 ## Related Pages
 
 - [[wiki/Self Management/Flow State|Flow State]]
-- [[wiki/Self Management/Focus Management|Focus Management]]
-- [[wiki/Self Management/Procrastination|Procrastination]]
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
+- [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]

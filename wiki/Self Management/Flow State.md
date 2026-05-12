@@ -76,9 +76,9 @@ Poor breaks often create re-entry costs. If the break introduces new decisions, 
 
 ## Relationship To Attention Management
 
-[[wiki/Self Management/Attention Management|Attention Management]] preserves Flow State across the day.
+[[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] preserves Flow State across the day.
 
-Flow is the state. [[wiki/Self Management/Focus Management|Focus Management]] helps the user enter and recover focus inside a block. Attention Management tries to bridge those blocks so task transitions do not repeatedly reset the user's attention.
+Flow is the state. [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] helps the user enter and recover focus inside a block. Attention Management tries to bridge those blocks so task transitions do not repeatedly reset the user's attention.
 
 The practical inputs are:
 
@@ -102,9 +102,9 @@ The practical inputs are:
 
 ## Related Pages
 
-- [[wiki/Self Management/Focus Management|Focus Management]]
-- [[wiki/Self Management/Attention Management|Attention Management]]
-- [[wiki/Self Management/Procrastination|Procrastination]]
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
+- [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]

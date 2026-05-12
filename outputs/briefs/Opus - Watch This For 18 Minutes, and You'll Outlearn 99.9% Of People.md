@@ -82,10 +82,10 @@ These two are deliberately ordered. Theory without radar is a list of techniques
 
 ## Connection to existing wiki pages
 
-- [[wiki/Concepts/Metacognition|Metacognition]] — the concept this video defines.
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]] — the concept this video defines.
 - [[wiki/Techniques/Building the Radar|Building the Radar]] — the technique itself.
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]] — the distinction the radar detects.
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]] — the visible signal that indexes the invisible process.
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — the distinction the radar detects.
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] — the visible signal that indexes the invisible process.
 - [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]] — the older patterns the radar lets you catch.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — the dimension that the radar primarily belongs to.
 

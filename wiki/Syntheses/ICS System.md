@@ -104,7 +104,7 @@ The dimensions are not motivational labels. They are working parts of a learning
 7. **Reflect and abstract.** Use Kolbs to turn experience into a better rule.
 8. **Run the next experiment.** Improve one variable and repeat.
 
-The loop depends on [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]: the learner should check whether each technique is producing the intended cognition, not merely whether the steps look correct. It also requires watching for [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], where the brain turns a useful method into a lower-effort imitation.
+The loop depends on [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: the learner should check whether each technique is producing the intended cognition, not merely whether the steps look correct. It also requires watching for [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], where the brain turns a useful method into a lower-effort imitation.
 
 ## First Principles And Technique Use
 
@@ -239,7 +239,7 @@ The system trains:
 - realistic scheduling,
 - time tracking,
 - task prioritization,
-- [[wiki/Self Management/Attention Management|attention management]],
+- [[wiki/Self Management/Attention Management - Preserving Flow|attention management]],
 - focus environments,
 - procrastination reduction,
 - work-rest timing,
@@ -301,7 +301,7 @@ For the user's current system:
 
 ## Related Pages
 
-- [[wiki/Syntheses/Current Study System|Current Study System]]
+- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]
@@ -314,7 +314,7 @@ For the user's current system:
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 - [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
 - [[wiki/Concepts/Neuroticism|Neuroticism]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]

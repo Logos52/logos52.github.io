@@ -88,7 +88,7 @@ Warning sign: the track is too broad when every session produces a different imp
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 
 ## Open Questions
 

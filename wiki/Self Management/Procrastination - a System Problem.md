@@ -12,7 +12,7 @@ tags:
   - ics
 ---
 
-# Procrastination
+# Procrastination: a System Problem
 
 Procrastination is the user's pattern of not doing the intended task when the task should be done. Use this page when the problem is not "I need more motivation," but "something in the task, environment, habit loop, or emotional setup is making action unreliable."
 
@@ -95,7 +95,7 @@ Useful repairs:
 - use a distraction cheat sheet,
 - and make the intended task the most available action.
 
-This links directly to [[wiki/Self Management/Focus Management|Focus Management]].
+This links directly to [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]].
 
 ## Task Clarity
 
@@ -144,8 +144,8 @@ The bridge between them is often a minimum viable goal plus a prepared focus env
 
 ## Related Pages
 
-- [[wiki/Self Management/Focus Management|Focus Management]]
-- [[wiki/Self Management/Attention Management|Attention Management]]
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
 - [[wiki/Self Management/Flow State|Flow State]]
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]

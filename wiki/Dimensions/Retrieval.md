@@ -75,7 +75,7 @@ The important move is to retrieve first, check second, and then decide whether t
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Techniques/WPW|WPW]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 
 ## Sources

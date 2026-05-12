@@ -56,11 +56,11 @@ Ask:
 
 ## Related Concepts
 
-- [[wiki/Concepts/Metacognition|Metacognition]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]

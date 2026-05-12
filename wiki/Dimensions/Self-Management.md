@@ -65,13 +65,13 @@ Without Self-Management, good learning techniques remain theoretical. The learne
 ## Related Pages
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
-- [[wiki/Syntheses/Current Study System|Current Study System]]
+- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Self Management/Flow State|Flow State]]
-- [[wiki/Self Management/Focus Management|Focus Management]]
-- [[wiki/Self Management/Attention Management|Attention Management]]
-- [[wiki/Self Management/Procrastination|Procrastination]]
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
+- [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
 - [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 - [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]]

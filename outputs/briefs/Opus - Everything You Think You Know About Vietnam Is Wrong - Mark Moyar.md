@@ -110,7 +110,7 @@ For now, the brief sits in outputs/briefs as a substantial reading note, not yet
 - [[wiki/Red Team/Red Teaming|Red Teaming]] — the Joint Chiefs' suppressed dissent is the canonical Red Team failure pattern.
 - [[wiki/Red Team/Red Teaming|Red Teaming]] — also includes *Groupthink Mitigation and Decision Support*; civilian-vs-military leadership is the exemplar case.
 - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]] — adjacent on how ideological commitments override evidence.
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]] — McNamara's failure was passive trust in a theory he never tested against reality.
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — McNamara's failure was passive trust in a theory he never tested against reality.
 
 ## Open Questions
 
