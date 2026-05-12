@@ -80,6 +80,8 @@ These are blank public shells for private Obsidian workflows. The templates can 
 - [[journal/calendar#2026-05-13|2026-05-13]]: Added [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] to Current Focus and set Minimalism graph nodes to black in light mode and white in dark mode.
 - [[journal/calendar#2026-05-12|2026-05-12]]: Simplified Home into a graph-first entrance and moved the longer project explanation into About.
 - [[journal/calendar#2026-05-12|2026-05-12]]: Added Current Focus cues to the Journal and Home pages, compiled [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]], and folded the older unlearning page into the new synthesis.
+- [[journal/calendar#2026-05-11|2026-05-11]]: Built the first large outputs layer from GPT, Grok, and Opus synthesis passes, then converted the highest-value Live Clinic work into ICS synthesis pages.
+- [[journal/calendar#2026-05-10|2026-05-10]]: Made raw sources local-only, cleaned the wiki architecture, regenerated Applied Critical Thinking, and started the outputs/briefs workflow at scale.
 - [[journal/red-team-pruning|2026-05-09]]: Pruned the Red Team section down to the identity page, mapped the deleted wiki pages to what I would cut from the handbook, and drafted commentary on Red Team's closure.
 - [[journal/calendar#2026-05-09|2026-05-09]]: Added Journal as the public thinking dashboard for current questions, active threads, possible essays, and a light dated log.
 - [[journal/calendar#2026-05-08|2026-05-08]]: Tightened the public site around the knowledge base: homepage, graph behavior, clean layout, Index, and active learning/decision-making pages.
