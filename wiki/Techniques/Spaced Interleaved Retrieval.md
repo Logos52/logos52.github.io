@@ -1,8 +1,8 @@
 ---
 type: technique
-status: seed
+status: developing
 created: 2026-05-04
-updated: 2026-05-06
+updated: 2026-05-11
 source-count: 1
 last-audited:
 tags:
@@ -28,6 +28,8 @@ SIR combines three principles:
 The goal is not to feel familiar with notes. The goal is to prove that knowledge can be reconstructed and used under varied conditions.
 
 In the user's system, SIR sits under [[wiki/Dimensions/Retrieval|Retrieval]] and is coordinated by [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
+
+For complex problem solving and knowledge work, interleaving should be treated as reconstruction practice, not only mixed scheduling. [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] is the more general operating note for using interleaving to expose approach gaps, variable relationships, and weak problem frames.
 
 ## What It Tests
 
@@ -187,6 +189,7 @@ Warning sign: SIR has become recognition when checking notes feels easier than r
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/WPW|WPW]]
+- [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
 - [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]

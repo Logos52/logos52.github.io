@@ -73,7 +73,7 @@ In this system, Mindset supports sustained contact with challenge. It makes [[wi
 - [[wiki/Concepts/Neuroticism|Neuroticism]]
 - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]]
 - [[wiki/Books/The Book of Elon|The Book of Elon]]
-- [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]]
+- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
 
 ## Open Questions

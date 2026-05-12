@@ -2,7 +2,7 @@
 type: synthesis
 status: developing
 created: 2026-05-11
-updated: 2026-05-11
+updated: 2026-05-12
 source-count: 1
 last-audited:
 tags:
@@ -16,6 +16,8 @@ tags:
 # Are You Learning, or Just Using Techniques
 
 A technique is not working because the steps are visible. A technique is working only when it triggers the thinking that creates the desired result.
+
+Clean-looking activity is the danger signal. A learner can produce notes, maps, highlights, prompts, or answers while avoiding the comparison, reconstruction, uncertainty, or judgment that would actually change understanding.
 
 ## Core Thesis
 

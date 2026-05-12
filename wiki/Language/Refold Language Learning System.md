@@ -51,6 +51,8 @@ Vocabulary decks, writing-system study, pronunciation work, character awareness,
 **5. Grammar is a comprehension tool, not a speaking formula.**  
 Grammar study should make input easier to parse. The move is not "memorize this rule and produce correct sentences." The move is "prime this pattern, then notice it in real input until it becomes familiar." This connects directly to [[wiki/Language/Language Isn't Math|Language Isn't Math]].
 
+Language practice should also use [[wiki/Techniques/Interleaving for Complex Problem Solving|interleaving]]: varied speakers, topics, formats, comprehension supports, and small production attempts. The target is not isolated vocabulary fluency; it is reconstructing meaning across changing contexts.
+
 **6. Reading, listening, and output are sequenced.**  
 Refold treats fluency as a staged climb: first make the written and auditory language less alien, then build reading and listening comprehension, then develop output from a large base of understanding. Speaking too early is not forbidden, but comprehension remains the foundation.
 
@@ -251,6 +253,7 @@ The Red Team lens also applies. A language plan can fail from hidden assumptions
 - [[wiki/Language/Refold Grammar Primers|Refold Grammar Primers]]
 - [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]]
 - [[wiki/Language/Language Isn't Math|Language Isn't Math]]
+- [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
 
 ## Resource Catalogs
 

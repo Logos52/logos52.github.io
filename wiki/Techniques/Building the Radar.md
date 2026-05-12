@@ -57,7 +57,7 @@ Warning sign: the radar is too weak when you only realize the session was passiv
 - [[wiki/Concepts/Metacognition|Metacognition]]
 - [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
-- [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]]
+- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Sources

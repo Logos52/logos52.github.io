@@ -64,7 +64,7 @@ This makes metacognition the awareness layer inside [[wiki/Dimensions/Self-Regul
 - [[wiki/Techniques/Building the Radar|Building the Radar]]
 - [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
-- [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]]
+- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
 - [[wiki/Syntheses/Current Study System|Current Study System]]

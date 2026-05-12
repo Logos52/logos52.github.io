@@ -75,7 +75,7 @@ Without Self-Management, good learning techniques remain theoretical. The learne
 - [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 - [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]]
-- [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]]
+- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
 
 ## Open Questions
 

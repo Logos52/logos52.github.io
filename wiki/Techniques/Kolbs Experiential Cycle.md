@@ -1,8 +1,8 @@
 ---
 type: technique
-status: seed
+status: developing
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-11
 source-count: 1
 last-audited:
 tags:
@@ -68,6 +68,71 @@ Together:
 - Marginal Gains prioritizes the target.
 - Kolbs improves the method.
 
+## What Kolbs Can Reflect On
+
+Kolbs works best after a real attempt produced data. The attempt does not have to be dramatic. It only needs enough friction, emotion, result, or surprise to teach something.
+
+Good Kolbs candidates:
+
+- a session that started slowly;
+- a session that went better than expected;
+- a technique that looked correct but did not work;
+- a moment where a shortcut appeared;
+- a repeated failure mode;
+- a meaningful conversation;
+- a workout that revealed a bottleneck;
+- a language session where attention rose or collapsed;
+- an agent workflow that produced a useful or bad result.
+
+Weak Kolbs candidates:
+
+- abstract planning with no attempt;
+- venting without a next experiment;
+- reviewing too many variables at once;
+- reflecting on something already obvious;
+- forcing a long reflection when a quick note would do.
+
+## Priority 0 Reflection Examples
+
+Use Kolbs to improve the way each Priority 0 area is practiced.
+
+| Priority 0 Area | Experience To Reflect On | Useful Kolbs Question | Possible Next Experiment |
+| --- | --- | --- | --- |
+| Agentic Engineering | An agent produced a hacky fix. | What instruction, context, or verification gap allowed that? | Give the agent a narrower ownership scope or require a specific verification step. |
+| Agentic Engineering | A coding session moved quickly but felt messy. | Which part was true speed, and which part was debt? | Add one checkpoint before accepting the patch. |
+| Agentic Engineering | A prompt worked well once. | What made it work: role, context, examples, constraints, or output format? | Save the reusable part as a prompt pattern. |
+| Learning Systems | A BHS session became note copying. | Where did Aim, Shoot, or Skin stop forcing useful thinking? | Add one question that forces importance or relationship judgments. |
+| Learning Systems | SIR felt familiar but weak. | Was I reconstructing, or recognizing? | Add interleaving or closed-book explanation before checking. |
+| Learning Systems | Interleaving exposed a weak problem frame. | What variable or relationship did I fail to account for? | Reconstruct the problem from one changed angle before executing again. |
+| Learning Systems | A technique felt right but results did not improve. | What thinking was the technique supposed to trigger, and did it happen? | Change the constraint, not the whole technique. |
+| Vietnamese | Immersion became passive. | What caused attention to drop: content, difficulty, energy, environment, or tool friction? | Shorten the clip, change content, or add one noticing target. |
+| Vietnamese | A video felt more comprehensible than usual. | What made comprehension easier? | Repeat the same content type or setup. |
+| Vietnamese | Grammar study became abstract. | Did the primer help me notice real input, or did it become rule memorization? | Return to input and look for one pattern in context. |
+| 中文 | Chinese reactivation created guilt or distraction. | Is this maintenance contact, or am I trying to reopen the full track? | Limit Chinese to one phrase, sentence, or clip. |
+| Fitness | A workout was skipped. | Was the blocker energy, setup friction, unclear plan, soreness, or avoidance? | Prepare the first exercise or reduce the entry requirement. |
+| Fitness | A lift felt worse than expected. | Was the problem strength, sleep, warm-up, technique, or programming? | Change one variable next session. |
+| Fitness | Training felt good and repeatable. | What condition made initiation easier? | Preserve that condition for the next session. |
+| Relationships | A message was delayed. | What made the contact feel effortful? | Send a smaller message earlier. |
+| Relationships | A conversation repaired something. | What made the repair possible? | Use the same opening move sooner next time. |
+| Relationships | A relationship felt neglected. | Was the issue lack of care, lack of scheduling, or avoidance? | Put one next touchpoint on the calendar. |
+
+## Full Kolbs vs Quick Note
+
+Use a full Kolbs when the experience has emotional weight, repeated friction, or a meaningful performance lesson.
+
+Use a quick note when the lesson is obvious and the next experiment is already clear.
+
+| Situation | Reflection Size |
+| --- | --- |
+| Repeated shortcut | Full Kolbs |
+| Strong emotional reaction | Full Kolbs |
+| Technique failure | Full Kolbs |
+| Relationship repair or conflict | Full Kolbs |
+| Minor logistical issue | Quick note |
+| Simple reminder | Quick note |
+| One-off low-stakes mistake | Quick note |
+| Obvious next action | Quick note |
+
 ## How It Should Feel
 
 Kolbs should feel like turning a messy experience into a better next experiment. The reflection should move from what happened, to why it happened, to what you will try differently.
@@ -85,11 +150,14 @@ Warning sign: Kolbs has become journaling-only when it records the experience bu
 
 - [[templates/Kolbs Template|Kolbs Template]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[private/Goals/Priority 0|Priority 0]]
 - [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Concepts/Metacognition|Metacognition]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
+- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
+- [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
 
 ## Open Questions
 

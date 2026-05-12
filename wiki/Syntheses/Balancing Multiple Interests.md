@@ -2,7 +2,7 @@
 type: synthesis
 status: developing
 created: 2026-05-09
-updated: 2026-05-11
+updated: 2026-05-12
 source-count: 5
 tags:
   - self-management
@@ -16,6 +16,8 @@ tags:
 Balancing Multiple Interests is not a problem of wanting too many things. It is a problem of trying to keep too many things active at the same time.
 
 The answer is not equal balance. The answer is controlled rotation: keep the full set of interests alive in a long-term vision, but limit the number that are active in the current season.
+
+Breadth belongs in [[private/Goals/Priority 0|Priority 0]]. Focus belongs in the active loop.
 
 ## Core Thesis
 
