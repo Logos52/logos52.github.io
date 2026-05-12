@@ -15,6 +15,8 @@ A lightweight chronological index for public journal entries and thinking-log up
 
 ## 2026-05-12
 
+Moved the longer "what this is" explanation from [[index|Home]] into [[about|About]], so the homepage can function more like a clean graph entrance with Current Focus underneath it.
+
 Added [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] to answer the question of whether the broader learning system can be compressed into a smaller loop without losing its control layer.
 
 The current compressed loop:

@@ -3,13 +3,18 @@ title: "About"
 description: "Short bio and orientation."
 type: about
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-12
 tags:
   - system
 ---
 
 # About
 
+## What This Is
+
+This is a personal, LLM-maintained knowledge base. The pattern is simple: I curate sources and ask questions; an LLM agent reads, summarizes, cross-references, and keeps a running synthesis here as durable, interlinked markdown pages. The goal is **accumulation** — every source ingested and every question asked makes the wiki a little richer, instead of disappearing into chat history.
+
+If you're new to the idea, the [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]] page explains the pattern, and the [[README|README]] explains how this particular vault is set up.
 
 ## How This Is Built
 
@@ -24,6 +29,13 @@ Code is MIT-licensed; written content is released under [CC BY 4.0](https://crea
 - **Agentic engineering**: building software with LLM agents while preserving taste, verification, and ownership.
 - **Language learning**: immersion, attention, comprehension, and practical workflows.
 
+## Links
+
+- [[index|LLM Knowledge Base]] — the main LLM-maintained knowledge base.
+- [[journal/index|Journal]] — current questions, active threads, and public thinking log.
+- [[blog/index|Blog]] — longer posts will live here once I start publishing them.
+- [GitHub](https://github.com/logos52) — code, public notes, and project repositories.
+
 ## About Me
 
 I'm Wedge, @webigis on X. I use this site as a public home for notes on learning, metacognition, language acquisition, Red Team thinking, language learning, and building with AI agents.
@@ -31,10 +43,3 @@ I'm Wedge, @webigis on X. I use this site as a public home for notes on learning
 My current focus is turning useful information into working systems: study workflows, decision-making tools, and practical ways to use LLMs as collaborators rather than just chat interfaces.
 
 The [[journal/index|Journal]] is the public thinking dashboard for the site: current questions, active threads, possible essays, and a light dated log. The wiki vault remains the operational system; the Journal is only the public surface of what is worth thinking through in the open.
-
-## Links
-
-- [[index|LLM Knowledge Base]] — the main LLM-maintained knowledge base.
-- [[journal/index|Journal]] — current questions, active threads, and public thinking log.
-- [[blog/index|Blog]] — longer posts will live here once I start publishing them.
-- [GitHub](https://github.com/logos52) — code, public notes, and project repositories.
