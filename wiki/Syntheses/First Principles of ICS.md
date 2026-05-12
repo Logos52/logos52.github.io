@@ -31,6 +31,96 @@ Most technique failure happens at the third level. The strategy starts working, 
 
 The fix is not to remove difficulty. The fix is to change the response to difficulty.
 
+## Hub Map
+
+Use this page as the routing layer for the study system.
+
+The question is not "Which technique should I use?" The better question is: "Which level of the system needs to improve?"
+
+| Level | What It Controls | If This Is Weak | Pages That Uplift It |
+| --- | --- | --- | --- |
+| **Processing Quality** | The kind of thinking being done. | Learning looks active, but the mind is not comparing, connecting, reconstructing, prioritizing, or explaining. | [[wiki/Dimensions/Deep Processing|Deep Processing]], [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]], [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]], [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]] |
+| **Strategies** | The techniques that trigger useful thinking. | The learner knows what good thinking should happen, but has no reliable workflow for producing it. | [[wiki/Techniques/Prestudy|Prestudy]], [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Aim|Aim]], [[wiki/Techniques/Shoot|Shoot]], [[wiki/Techniques/Skin|Skin]], [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] |
+| **Meta-strategies** | The response when the strategy creates friction, uncertainty, or overwhelm. | The learner retreats into shortcuts, passive consumption, shallow notes, or fake productivity as soon as the strategy gets mentally expensive. | [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]], [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]], [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]], [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]], [[wiki/Techniques/Building the Radar|Building the Radar]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]] |
+
+## Level 1: Processing Quality
+
+Processing quality is the actual thinking the learner performs.
+
+The visible activity is secondary. Reading, highlighting, mapping, flashcards, summaries, and questions only matter if they produce better cognition.
+
+High-quality processing usually includes:
+
+- comparison,
+- prioritization,
+- chunking,
+- relationship detection,
+- cause-and-effect reasoning,
+- conditional thinking,
+- reconstruction,
+- explanation,
+- transfer.
+
+If processing quality is weak, adding more techniques usually makes the system noisier. The learner needs better thinking, not more moves.
+
+Start here:
+
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
+- [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
+- [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
+
+## Level 2: Strategies
+
+Strategies are the workflows that trigger the desired thinking.
+
+A good strategy creates the conditions for high-quality processing. It does not guarantee learning by itself. The method is only useful if it forces the mind to do the right work.
+
+The core strategy stack:
+
+- [[wiki/Techniques/Prestudy|Prestudy]]: build the first frame before the main learning event.
+- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]: turn material into a usable structure through Aim, Shoot, and Skin.
+- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: make the structure retrievable, flexible, and gap-resistant.
+- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]: the combined study loop.
+
+Use strategies when the desired thinking is clear, but the session lacks a reliable workflow.
+
+## Level 3: Meta-Strategies
+
+Meta-strategies control what happens when the strategy gets hard.
+
+This is where most failure happens. The learner starts a good strategy, feels cognitive load, then escapes into something easier. The page looks cleaner. The mind works less. The result gets worse.
+
+Useful meta-strategies:
+
+- notice the moment of retreat,
+- name the cognitive load,
+- convert vague difficulty into a question,
+- check whether the technique is triggering the intended thinking,
+- distinguish active learning from passive-looking activity,
+- return to the smallest useful next move.
+
+Start here:
+
+- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
+- [[wiki/Techniques/Building the Radar|Building the Radar]]
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+
+## Diagnostic Use
+
+When a study session fails, diagnose the level:
+
+| Symptom | Likely Level | Repair |
+| --- | --- | --- |
+| "I studied, but nothing connected." | Processing Quality | Use [[wiki/Dimensions/Deep Processing|Deep Processing]] and force comparison, chunking, or explanation. |
+| "I know what I should do, but I do not have a process." | Strategies | Use [[wiki/Techniques/Prestudy|Prestudy]], [[wiki/Techniques/Bear Hunter System|BHS]], or [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]]. |
+| "The method works, but I avoid it when it gets hard." | Meta-strategies | Use [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] and [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]. |
+| "My notes look good, but I cannot use them." | Processing Quality + Strategies | Rebuild the map around relationships, then retrieve from it. |
+| "I keep consuming more material instead of thinking." | Meta-strategies | Use [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]. |
+
 ## The Operating Model
 
 ```text
@@ -199,9 +289,9 @@ The point is not to avoid difficulty. The point is to make difficulty usable.
 
 - [[wiki/Syntheses/ICS System|ICS System]]
 - [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Techniques/Building the Radar|Building the Radar]]
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]

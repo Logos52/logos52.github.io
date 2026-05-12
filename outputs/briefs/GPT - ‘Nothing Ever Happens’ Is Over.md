@@ -46,7 +46,7 @@ The forces driving change:
 - Startups can coordinate with less bureaucracy.
 - Small groups can do things once reserved for large institutions.
 
-This links to [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]] and [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]].
+This links to [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]] and [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]].
 
 ## AI and the Interconnected Startup
 
@@ -89,7 +89,7 @@ Practical optimism means:
 ## Links Into the Knowledge Base
 
 - [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
-- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]

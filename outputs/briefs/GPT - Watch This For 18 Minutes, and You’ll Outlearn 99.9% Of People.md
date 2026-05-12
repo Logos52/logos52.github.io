@@ -38,7 +38,7 @@ The source presents metacognition as the skill that lets a learner improve their
 5. Test the adjustment.
 6. Reflect on whether it worked.
 
-This connects directly to [[wiki/Concepts/Metacognition|Metacognition]] and [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
+This connects directly to [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]] and [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
 
 ## Technique vs Diagnosis
 
@@ -54,10 +54,10 @@ It should not feel like collecting methods and assuming the method name guarante
 
 ## Links Into the Knowledge Base
 
-- [[wiki/Concepts/Metacognition|Metacognition]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Syntheses/ICS System|ICS System]]
 
 ## Open Questions

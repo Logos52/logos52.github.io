@@ -63,7 +63,7 @@ During [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retriev
 
 ## Relationship To Metacognition
 
-[[wiki/Concepts/Metacognition|Metacognition]] is awareness of thinking. Self-Regulation uses that awareness to steer behavior.
+[[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]] is awareness of thinking. Self-Regulation uses that awareness to steer behavior.
 
 Metacognition notices. Self-Regulation acts.
 
@@ -80,9 +80,9 @@ Metacognition notices. Self-Regulation acts.
 ## Related Pages
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
-- [[wiki/Concepts/Metacognition|Metacognition]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[templates/Kolbs Template|Kolbs Template]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]

@@ -47,7 +47,7 @@ This changes the learning loop:
 5. Ask better questions.
 6. Rebuild with more precision.
 
-This is closely related to [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]. AI makes passive learning less defensible because the cost of action is lower.
+This is closely related to [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]. AI makes passive learning less defensible because the cost of action is lower.
 
 ## Vibe Coding as Product Management
 
@@ -93,7 +93,7 @@ The practical consequence:
 - Original synthesis matters more.
 - Passive credentialing matters less.
 
-This connects to [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]. Knowledge has to become usable and discriminating, not merely stored.
+This connects to [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]. Knowledge has to become usable and discriminating, not merely stored.
 
 ## AI Anxiety and Agency
 

@@ -12,7 +12,7 @@ tags:
   - retrieval
 ---
 
-# Current Study System
+# Prestudy, BHS, and SIR: Turning Information into Usable Structure
 
 This page summarizes the user's current study system as a three-part loop: prepare the frame with [[wiki/Techniques/Prestudy|Prestudy]], encode new material through [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], then preserve and improve it through [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
 
@@ -97,7 +97,7 @@ Its job is to make knowledge durable and usable by:
 
 ## Metacognitive Control Layer
 
-The control layer is [[wiki/Dimensions/Self-Regulation|Self-Regulation]], supported by [[wiki/Concepts/Metacognition|Metacognition]].
+The control layer is [[wiki/Dimensions/Self-Regulation|Self-Regulation]], supported by [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]].
 
 During encoding, metacognition asks:
 
@@ -155,10 +155,10 @@ For the user's current system, the recommended default is:
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
-- [[wiki/Concepts/Metacognition|Metacognition]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 
 ## Open Questions
 

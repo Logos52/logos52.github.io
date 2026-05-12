@@ -13,7 +13,7 @@ tags:
   - ics
 ---
 
-# Technique-Triggered Thinking
+# The Technique Is Only as Good as the Thinking It Produces
 
 Technique-Triggered Thinking is the diagnostic principle that a study technique only matters if it produces the intended thinking. The visible method is not the source of the result. The method is a prompt. The thinking does the learning.
 
@@ -251,11 +251,11 @@ After the session:
 ## Related Pages
 
 - [[wiki/Syntheses/ICS System|ICS System]]
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Techniques/Building the Radar|Building the Radar]]
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]

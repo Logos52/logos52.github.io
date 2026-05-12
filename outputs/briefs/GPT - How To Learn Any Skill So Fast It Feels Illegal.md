@@ -55,7 +55,7 @@ It should not feel like collecting tutorials, building giant notes, or waiting u
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 
 ## Open Questions
 

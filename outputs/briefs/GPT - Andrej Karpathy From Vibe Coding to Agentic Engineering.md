@@ -116,7 +116,7 @@ This file belongs in the **Output** layer. It is a reusable working synthesis, n
 
 Karpathy's explanation of model capability is mostly about **verifiability**. Models improve fastest where labs can define rewards, run reinforcement learning, and verify outputs. This is why math, code, and similar domains advance quickly.
 
-The danger is assuming that high ability in one domain transfers smoothly to another. LLM capability is jagged. A model may be strong inside a reinforced circuit and surprisingly weak outside it. This is why the human still needs [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]] when using AI.
+The danger is assuming that high ability in one domain transfers smoothly to another. LLM capability is jagged. A model may be strong inside a reinforced circuit and surprisingly weak outside it. This is why the human still needs [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] when using AI.
 
 The working rule:
 
@@ -199,7 +199,7 @@ This brief suggests possible updates to:
 - [[wiki/Concepts/Software 3.0|Software 3.0]]
 - [[wiki/Concepts/Vibe Coding|Vibe Coding]]
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
-- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 
 Possible new pages:
 

@@ -11,7 +11,7 @@ tags:
   - active-learning
 ---
 
-# Active vs Passive Learning
+# Are You Thinking, or Just Consuming?
 
 Active learning is not defined by the external activity. It is defined by the kind of thinking the learner performs.
 
@@ -51,7 +51,7 @@ The learner needs to monitor not just what method they are using, but what thoug
 
 ## Related Concepts
 
-- [[wiki/Concepts/Metacognition|Metacognition]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Techniques/Building the Radar|Building the Radar]]

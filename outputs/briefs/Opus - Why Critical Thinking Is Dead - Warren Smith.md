@@ -100,8 +100,8 @@ There's a future wiki page worth seeding here: *Critical Thinking Under Social P
 ## Connection to existing wiki pages (loose)
 
 - [[wiki/Red Team/Red Teaming|Red Teaming]] — the discipline of checking the team's analysis against alternative frames; Smith's flaw filter is a popularized cousin.
-- [[wiki/Concepts/Metacognition|Metacognition]] — Smith's awareness of "daily games" is metacognition extended to social interaction.
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]] — students who can't think critically are stuck in passive intake.
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]] — Smith's awareness of "daily games" is metacognition extended to social interaction.
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — students who can't think critically are stuck in passive intake.
 - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]] — Saad's thesis is adjacent; the institutions-vs-truth conflict is the same beast.
 
 ## Open Questions

@@ -93,7 +93,7 @@ Conflating them is a common time sink. Treating evidence as reference (flash-car
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] — the consumption/digestion split aligns with Aim/Shoot/Skin.
 - [[wiki/Techniques/Skin|Skin]] — the conceptual chunk-mapping move.
 - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]] — the relevance and grouping logic.
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]] — passive overconsumption is the failure mode.
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — passive overconsumption is the failure mode.
 - [[wiki/Concepts/Memory Handling|Memory Handling]] — the deep-processing-as-byproduct frame.
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — the reference-and-evidence rehearsal layer.
 

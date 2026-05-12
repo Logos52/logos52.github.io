@@ -52,7 +52,7 @@ For this wiki, the most durable takeaway is not any specific political position.
 
 ## Useful For This Wiki
 
-This book belongs under [[wiki/Dimensions/Mindset|Mindset]], [[wiki/Dimensions/Deep Processing|Deep Processing]], and [[wiki/Concepts/Metacognition|Metacognition]].
+This book belongs under [[wiki/Dimensions/Mindset|Mindset]], [[wiki/Dimensions/Deep Processing|Deep Processing]], and [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]].
 
 It suggests a study practice: whenever a claim is emotionally or politically charged, use a mini evidence audit:
 
@@ -72,8 +72,8 @@ The book's sharpness is both its strength and its limitation. It is memorable be
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Concepts/Metacognition|Metacognition]]
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
 
 ## Sources

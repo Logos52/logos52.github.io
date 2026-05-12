@@ -68,7 +68,7 @@ flowchart TD
 | [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]] | all dimensions | [[wiki/Dimensions/Self-Regulation|Self-Regulation]] |
 | [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]] | all dimensions | [[wiki/Dimensions/Self-Regulation|Self-Regulation]] |
 | [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]] | [[wiki/Dimensions/Deep Processing|Deep Processing]] | [[wiki/Dimensions/Self-Regulation|Self-Regulation]] |
-| [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]] | [[wiki/Dimensions/Self-Regulation|Self-Regulation]] | [[wiki/Dimensions/Retrieval|Retrieval]] |
+| [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] | [[wiki/Dimensions/Self-Regulation|Self-Regulation]] | [[wiki/Dimensions/Retrieval|Retrieval]] |
 
 ## Diagnostic Pattern
 
@@ -84,11 +84,11 @@ When a learning problem appears, classify it by dimension before changing tactic
 
 ## Related Pages
 
-- [[wiki/Syntheses/Current Study System|Current Study System]]
-- [[wiki/Concepts/Metacognition|Metacognition]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
+- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
 - [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]

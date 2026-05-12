@@ -74,7 +74,7 @@ Critical thinking is the process of finding the difference.
 
 ## Relevance to the Knowledge Base
 
-This source belongs with [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]. It is the same discipline in a classroom and media environment:
+This source belongs with [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]. It is the same discipline in a classroom and media environment:
 
 - slow the claim down,
 - identify the assumption,
@@ -86,7 +86,7 @@ It also connects to LLM use. A model can produce fluent claims that sound comple
 
 ## Candidate Wiki Updates
 
-- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 - [[wiki/Concepts/Thinking Models|Thinking Models]]
 - [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]

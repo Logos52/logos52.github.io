@@ -58,7 +58,7 @@ Some shortcuts are not deliberate choices. They are old cue-response habits. If 
 
 The goal of learning techniques is not activity. The goal is to produce a specific kind of thinking.
 
-[[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]] explains the positive version: choose a method because it triggers the cognition the goal requires.
+[[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] explains the positive version: choose a method because it triggers the cognition the goal requires.
 
 The Shortcut Problem is the negative version: the learner performs the method while avoiding the cognition.
 
@@ -119,8 +119,8 @@ The point is not to make study harder for its own sake. The point is to prevent 
 
 ## Related Pages
 
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
 - [[wiki/Techniques/Building the Radar|Building the Radar]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]

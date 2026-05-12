@@ -78,11 +78,11 @@ For the user: write less, think more. "The person calmly thinking and occasional
 
 ## Connection to existing wiki pages
 
-- [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]] — the deep-vs-shallow processing distinction.
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — the deep-vs-shallow processing distinction.
 - [[wiki/Concepts/Memory Handling|Memory Handling]] — the operations-that-produce-memory frame.
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]] — Vygotsky's zone of proximal development and Sweller's load theory.
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] — Vygotsky's zone of proximal development and Sweller's load theory.
 - [[wiki/Techniques/Building the Radar|Building the Radar]] — noticing when "trying to understand" turns into shallow processing.
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]] — conditional knowledge as the expert/technician boundary.
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] — conditional knowledge as the expert/technician boundary.
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]] — varying practice strategy when returns diminish.
 
 ## Open Questions

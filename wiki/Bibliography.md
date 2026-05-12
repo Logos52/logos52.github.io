@@ -28,6 +28,7 @@ Add public source references here as the wiki grows.
 - Naval Ravikant and Nivi, "A Motorcycle for the Mind" (2026-02-20). [[raw/sources/A Motorcycle for the Mind|Local source]]
 - Naval Ravikant and Nivi, "A Return to Code" (2026-04-29). [[raw/sources/A Return to Code|Local source]]
 - Naval Ravikant and Nivi, "'Nothing Ever Happens' Is Over" (2026-05-05). [[raw/sources/‘Nothing Ever Happens’ Is Over|Local source]]
+- Naval Ravikant and Nivi, "Sell the Truth" (2026-05-12). [[raw/sources/Sell the Truth|Local source]]
 - Gad Saad, *The Parasitic Mind*.
 - Eric Jorgenson, *The Book of Elon: Elon Musk's Most Useful Ideas, in His Own Words*.
 - TRADOC G-2 / University of Foreign Military and Cultural Studies, *The Red Team Handbook: The Army's Guide to Making Better Decisions*, Version 9.0. Public release; distribution unlimited.

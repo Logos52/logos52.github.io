@@ -40,7 +40,7 @@ Useful outputs include:
 
 ## Related Concepts
 
-- [[wiki/Concepts/Metacognition|Metacognition]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Techniques/Context Engineering|Context Engineering]]

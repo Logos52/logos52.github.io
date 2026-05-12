@@ -30,7 +30,7 @@ The durable pattern is:
 - Diverge before converging.
 - Treat decision-making as a human system with predictable failure modes.
 
-This makes Red Teaming a natural bridge between [[wiki/Concepts/Metacognition|Metacognition]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Deep Processing|Deep Processing]], and [[wiki/Concepts/Agentic Engineering|Agentic Engineering]].
+This makes Red Teaming a natural bridge between [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Deep Processing|Deep Processing]], and [[wiki/Concepts/Agentic Engineering|Agentic Engineering]].
 
 ## Key Takeaways
 
@@ -62,7 +62,7 @@ This makes Red Teaming a natural bridge between [[wiki/Concepts/Metacognition|Me
 
 **Fostering Cultural Empathy** is disciplined perspective-taking. It asks how the situation looks from inside another actor's incentives, meanings, fears, history, and constraints. This is not agreement or moral surrender. It is an intelligence discipline: understand the other frame well enough to predict behavior and avoid mirror imaging.
 
-**[[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]** is the practical testing layer. It turns doubt into disciplined examination: what are we assuming, what evidence matters, what alternatives exist, what would make this fail, and what conclusion is being protected too early? In this knowledge base, Applied Critical Thinking gets its own page because it is the Red Team principle most worth preserving and modernizing. It should stay practical: sharpen the decision, expose the frame, and prevent shortcut-driven thinking without rebuilding the old tool catalog.
+**[[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]** is the practical testing layer. It turns doubt into disciplined examination: what are we assuming, what evidence matters, what alternatives exist, what would make this fail, and what conclusion is being protected too early? In this knowledge base, Applied Critical Thinking gets its own page because it is the Red Team principle most worth preserving and modernizing. It should stay practical: sharpen the decision, expose the frame, and prevent shortcut-driven thinking without rebuilding the old tool catalog.
 
 ## Personal Translation
 
@@ -76,7 +76,7 @@ In the user's study system, Red Teaming becomes a thinking stance:
 
 ## Key Pages
 
-- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]

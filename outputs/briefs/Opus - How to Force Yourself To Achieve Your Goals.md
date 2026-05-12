@@ -80,9 +80,9 @@ For the user's current life — Vietnamese, ICS practice, agentic engineering, R
 
 ## Connection to existing wiki pages
 
-- [[wiki/Self Management/Focus Management|Focus Management]] — the Zone step is the focus-management discipline.
-- [[wiki/Self Management/Procrastination|Procrastination]] — diffusion is the core counter to procrastination patterns.
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]] — Distinguish is reading the feeling as data, not as command.
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] — the Zone step is the focus-management discipline.
+- [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]] — diffusion is the core counter to procrastination patterns.
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] — Distinguish is reading the feeling as data, not as command.
 - [[wiki/Techniques/Building the Radar|Building the Radar]] — the metacognitive substrate that lets Distinguish actually fire.
 - [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]] — the reframing in step F is a growth-mindset move.
 - [[wiki/Dimensions/Mindset|Mindset]] — diffusion is a mindset-level skill that affects every other dimension.

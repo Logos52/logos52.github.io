@@ -10,26 +10,50 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-05-12] compile | Minimally viable learning system
+
+- Added [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] as a compressed operating loop for using the learning system without overbuilding it.
+- Framed the minimum loop as target -> structure -> use -> diagnose -> adjust.
+- Connected the page to [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]], [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]], [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and [[private/Goals/Priority 0|Priority 0]].
+
+## [2026-05-12] output | How to Force Your Brain To Be Motivated
+
+- Added [[outputs/briefs/GPT - How to Force Your Brain To Be Motivated (when you don’t feel like it)|GPT - How to Force Your Brain To Be Motivated]] as an output synthesis.
+- Positioned motivation dependence as a self-management failure mode where action depends on emotional readiness.
+- Extracted the DFUZ operating model: distinguish feeling from action, act before motivation changes, expand uptime, and build a focus zone.
+
+## [2026-05-12] compile | The Age Of Nonlinear Returns
+
+- Split [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] into its own concept page from [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]].
+- Added the scaling problem, position-vs-transaction framing, small-pie conflict, and practical decision filters.
+- Connected it to [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]], and [[private/Goals/Priority 0|Priority 0]].
+
+## [2026-05-12] compile | Sell the Truth
+
+- Added [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] as a credibility-first model of persuasion, leadership, deal-making, and rational empathy.
+- Connected the page to [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]], [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]], and [[private/Goals/Priority 0|Priority 0]].
+- Reworked [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] to reduce attribution language and sharpen the distinction between empathy as perception and empathy as judgment replacement.
+
 ## [2026-05-12] compile | How to Unlearn Old or Bad Habits Efficiently
 
 - Added [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] from the Live Clinic 69 output synthesis.
 - Positioned unlearning as cue-response surgery: isolate the old trigger, script the replacement response, rehearse judgment separately, and use Kolbs to calibrate.
-- Connected the page to [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], [[wiki/Self Management/Attention Management|Attention Management]], and [[wiki/Self Management/Focus Management|Focus Management]].
+- Connected the page to [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]], and [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]].
 
 ## [2026-05-11] compile | Interleaving for complex problem solving
 
 - Added [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] as a wiki page for interleaving as reconstruction practice.
-- Connected it to [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Syntheses/Current Study System|Current Study System]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Language/Refold Language Learning System|Refold Language Learning System]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], and [[wiki/Techniques/Marginal Gains|Marginal Gains]].
+- Connected it to [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Language/Refold Language Learning System|Refold Language Learning System]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], and [[wiki/Techniques/Marginal Gains|Marginal Gains]].
 
 ## [2026-05-11] compile | Prestudy layer
 
 - Added [[wiki/Techniques/Prestudy|Prestudy]] as the setup layer before main learning events.
-- Updated [[wiki/Syntheses/Current Study System|Current Study System]] from a two-engine loop into a Prestudy -> BHS -> SIR loop.
+- Updated [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] from a two-engine loop into a Prestudy -> BHS -> SIR loop.
 - Linked Prestudy into [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Aim|Aim]], [[wiki/Syntheses/ICS System|ICS System]], and [[notes/index|Knowledge Base Index]].
 
 ## [2026-05-11] compile | Priority 0 focus primer and balancing rewrite
 
-- Rewrote [[wiki/Syntheses/Balancing Multiple Interests|Balancing Multiple Interests]] around the operating model of active loops, controlled rotation, failure modes, practical feel, and implications for the Journal / Goals / Skills workflow.
+- Rewrote [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]] around the operating model of active loops, controlled rotation, failure modes, practical feel, and implications for the Journal / Goals / Skills workflow.
 - Added public [[private/Goals/Priority 0|Priority 0]] as a focus-primer page for Agentic Engineering, Learning Systems, Vietnamese, Fitness, Relationships, and parked-but-alive Chinese.
 - Added a local-only private Skills area for future skill-index work while keeping the detailed Skills Index out of the public site.
 - Updated Git and Quartz visibility rules so [[private/Goals/Priority 0|Priority 0]] publishes, while private skill work stays local.
@@ -38,7 +62,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Added [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] as a synthesis page for processing quality, strategies, meta-strategies, overwhelm, layered learning, and problem maps.
 - Added [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] as a synthesis page for technique-triggered thinking, shortcut detection, higher-order goals, and organized usability.
-- Integrated both pages into [[wiki/Syntheses/ICS System|ICS System]], [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]], [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]], and [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
+- Integrated both pages into [[wiki/Syntheses/ICS System|ICS System]], [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]], [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]], and [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
 
 ## [2026-05-08] compile | ICS decision-making section
 
@@ -56,16 +80,16 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Added ICS-sourced self-management pages:
   - [[wiki/Self Management/Flow State|Flow State]]
-  - [[wiki/Self Management/Focus Management|Focus Management]]
-  - [[wiki/Self Management/Procrastination|Procrastination]]
+  - [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
+  - [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
 - Updated [[wiki/Decision Making/Decisional Delays|Decisional Delays]] so flow-related disruption links directly to [[wiki/Self Management/Flow State|Flow State]].
 - Connected the new pages to [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Dimensions/Self-Management|Self-Management]], and the public knowledge-base index.
 
 ## [2026-05-08] compile | Attention Management
 
-- Added [[wiki/Self Management/Attention Management|Attention Management]] from the ICS attention-management source.
-- Positioned it as the day-level system for preserving [[wiki/Self Management/Flow State|Flow State]] across task transitions, distinct from [[wiki/Self Management/Focus Management|Focus Management]] as the block-level setup.
-- Connected it to [[wiki/Decision Making/Decisional Delays|Decisional Delays]], [[wiki/Self Management/Procrastination|Procrastination]], and [[wiki/Dimensions/Self-Management|Self-Management]].
+- Added [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] from the ICS attention-management source.
+- Positioned it as the day-level system for preserving [[wiki/Self Management/Flow State|Flow State]] across task transitions, distinct from [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] as the block-level setup.
+- Connected it to [[wiki/Decision Making/Decisional Delays|Decisional Delays]], [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]], and [[wiki/Dimensions/Self-Management|Self-Management]].
 
 ## [2026-05-08] maintenance | Rename homepage to LLM Knowledge Base
 
@@ -113,10 +137,10 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Indexed raw YouTube transcript sources in [[raw/Source Index|Source Index]].
 - Compiled initial metacognition-focused pages:
-  - [[wiki/Concepts/Metacognition|Metacognition]]
+  - [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
   - [[wiki/Techniques/Building the Radar|Building the Radar]]
-  - [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
-  - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
+  - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
+  - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
   - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
   - [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
   - [[wiki/Concepts/Memory Handling|Memory Handling]]
@@ -146,11 +170,11 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-05-04] compile | Study-system cluster
 
 - Added study-system cluster:
-  - [[wiki/Syntheses/Current Study System|Current Study System]]
+  - [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
   - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
   - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
   - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
-  - [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
+  - [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - Updated [[notes/index|notes/index]], [[raw/Source Index|Source Index]], command center, glossary, bibliography, metacognition pages, and open questions.
 
 ## [2026-05-04] compile | Dimensions of Learning hub layer
@@ -254,7 +278,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - *Five Whys*
   - *Devils Advocacy*
   - *Team A Team B Analysis*
-- Connected Red Teaming to [[wiki/Concepts/Metacognition|Metacognition]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], and [[wiki/Techniques/Bear Hunter System|Bear Hunter System]].
+- Connected Red Teaming to [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], and [[wiki/Techniques/Bear Hunter System|Bear Hunter System]].
 - Updated command-center navigation, [[raw/Source Index|Source Index]], bibliography, open questions, and public index.
 
 ## [2026-05-06] maintenance | Red Team directory rename and takeaways
@@ -266,7 +290,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-05-07] compile | ICS System synthesis
 
 - Added [[wiki/Syntheses/ICS System|ICS System]] as a high-level synthesis of Justin Sung's learning framework.
-- Connected the page to [[wiki/Syntheses/Current Study System|Current Study System]], [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]], [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], and [[wiki/Red Team/Red Teaming|Red Teaming]].
+- Connected the page to [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]], [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]], [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], and [[wiki/Red Team/Red Teaming|Red Teaming]].
 - Updated command-center navigation, public index, open questions, and log.
 
 ## [2026-05-07] compile | ICS System source rebuild
@@ -315,10 +339,10 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-10] compile | Applied Critical Thinking
 
-- Regenerated [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]] as a practical Red Team principle page focused on application, mindset, decision quality, AI review, and avoiding tool bloat.
+- Regenerated [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] as a practical Red Team principle page focused on application, mindset, decision quality, AI review, and avoiding tool bloat.
 - Updated [[wiki/Red Team/Red Teaming|Red Teaming]], [[notes/index|notes/index]], [[raw/Source Index|Source Index]], and [[00 Command Center/Home|Command Center Home]].
 
 ## [2026-05-10] compile | Applied Critical Thinking speed pass
 
-- Rebalanced [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]] toward speed plus accuracy.
+- Rebalanced [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] toward speed plus accuracy.
 - Added dedicated media/public narrative and LLM/AI output sections while keeping a focused Red Teaming application section.

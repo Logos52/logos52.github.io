@@ -244,7 +244,7 @@ It also connects to:
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 
 ## Practical Operating Rules
 

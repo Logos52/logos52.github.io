@@ -55,8 +55,8 @@ Warning sign: Thinking on Paper has become dumping when the page accumulates wor
 
 ## Related Concepts
 
-- [[wiki/Concepts/Metacognition|Metacognition]]
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
+- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]

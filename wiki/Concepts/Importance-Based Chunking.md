@@ -62,8 +62,8 @@ Aim creates the first hypotheses about importance. Shoot tests and elaborates th
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
 
 ## Open Questions

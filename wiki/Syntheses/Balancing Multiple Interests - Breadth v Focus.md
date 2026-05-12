@@ -11,7 +11,7 @@ tags:
   - decision-making
 ---
 
-# Balancing Multiple Interests
+# Balancing Multiple Interests: Breadth v Focus
 
 Balancing Multiple Interests is not a problem of wanting too many things. It is a problem of trying to keep too many things active at the same time.
 
@@ -256,19 +256,19 @@ This page should shape the Journal, Goals, Skills, and Knowledge Base workflow.
 - The Skills Index can separate active skill training from dormant skills.
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] should be used mainly on active processes.
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]] should be used when the active set wants to expand.
-- [[wiki/Self Management/Attention Management|Attention Management]] protects the active set from daily drift.
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] protects the active set from daily drift.
 
 The knowledge base can be broad. The working day cannot.
 
 ## Related Pages
 
-- [[wiki/Self Management/Focus Management|Focus Management]]
-- [[wiki/Self Management/Attention Management|Attention Management]]
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
 - [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 
 ## Open Questions

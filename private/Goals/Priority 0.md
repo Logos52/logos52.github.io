@@ -222,9 +222,9 @@ Use these when the page starts feeling stale.
 
 ## Related Pages
 
-- [[wiki/Syntheses/Balancing Multiple Interests|Balancing Multiple Interests]]
+- [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Self Management/Attention Management|Attention Management]]
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
 - [[private/Skills/Skills Index|Skills Index]]

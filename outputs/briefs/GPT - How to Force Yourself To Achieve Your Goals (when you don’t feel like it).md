@@ -43,7 +43,7 @@ The source treats goal achievement as a system problem rather than a mood proble
 
 This source belongs under [[wiki/Dimensions/Self-Management|Self-Management]]. The key issue is not knowing what to do. It is creating the conditions where the right action happens consistently.
 
-It also connects to [[wiki/Self Management/Procrastination|Procrastination]] because procrastination is often a system failure disguised as a discipline failure.
+It also connects to [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]] because procrastination is often a system failure disguised as a discipline failure.
 
 ## What This Should Feel Like
 
@@ -54,7 +54,7 @@ It should not feel like relying on shame, intensity, or constant self-punishment
 ## Links Into the Knowledge Base
 
 - [[wiki/Dimensions/Self-Management|Self-Management]]
-- [[wiki/Self Management/Procrastination|Procrastination]]
+- [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
 - [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
 

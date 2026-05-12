@@ -60,7 +60,7 @@ It is usually:
 - tied to personal judgment,
 - expressed through products, media, code, or business.
 
-This connects to [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]. The goal is not generic knowledge. The goal is knowledge that becomes judgment and action.
+This connects to [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]. The goal is not generic knowledge. The goal is knowledge that becomes judgment and action.
 
 ## Leverage
 
@@ -104,7 +104,7 @@ Judgment includes:
 - avoiding status traps,
 - understanding compounding.
 
-This connects to [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Decision Making/Good Decisions|Good Decisions]], and [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]].
+This connects to [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Decision Making/Good Decisions|Good Decisions]], and [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]].
 
 ## Productize Yourself
 
@@ -148,12 +148,12 @@ The connection is not "get rich by taking notes." It is that durable public arti
 
 ## Links Into the Knowledge Base
 
-- [[wiki/Concepts/Knowledge Mastery|Knowledge Mastery]]
+- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Decision Making/Good Decisions|Good Decisions]]
-- [[wiki/Red Team/Applied Critical Thinking|Applied Critical Thinking]]
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 
 ## Possible New Pages
 

@@ -93,7 +93,7 @@ That is the difference between technique use and learning.
 
 ## Candidate Wiki Updates
 
-This should eventually strengthen [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]], [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], and [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]].
+This should eventually strengthen [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]], [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], and [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]].
 
 Possible new notes: **Technique Use vs Learning**, **Design Against Shortcuts**, **Misread Effort**, and **Organized Usability**.
 

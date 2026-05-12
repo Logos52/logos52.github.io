@@ -21,7 +21,7 @@ The practical version:
 2. Judge decisions by process, not just outcome, with [[wiki/Decision Making/Good Decisions|Good Decisions]].
 3. Make uncertain decisions by improving position and expected value with [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]].
 4. Change decisions when new information justifies it with [[wiki/Decision Making/Changing Decisions|Changing Decisions]].
-5. Protect [[wiki/Self Management/Flow State|Flow State]] with [[wiki/Self Management/Focus Management|Focus Management]] and [[wiki/Self Management/Attention Management|Attention Management]] when the decision is about execution.
+5. Protect [[wiki/Self Management/Flow State|Flow State]] with [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] and [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] when the decision is about execution.
 
 This section is related to [[wiki/Red Team/Red Teaming|Red Teaming]], but it has a different job. Red Teaming remains an identity and stance. This decision-making layer is the practical operating system for daily, academic, and personal choices with less drag and better self-regulation.
 
@@ -94,7 +94,7 @@ It supports learning because study systems are full of small decisions:
 
 The decision-making layer prevents the user from spending cognitive energy on avoidable uncertainty.
 
-It also protects focus. A recurring decision about what to do next is not just a planning issue. It can become a [[wiki/Self Management/Procrastination|Procrastination]] doorway, a break in [[wiki/Self Management/Flow State|Flow State]], or an avoidable drain on attention.
+It also protects focus. A recurring decision about what to do next is not just a planning issue. It can become a [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]] doorway, a break in [[wiki/Self Management/Flow State|Flow State]], or an avoidable drain on attention.
 
 ## Related Pages
 
@@ -104,9 +104,9 @@ It also protects focus. A recurring decision about what to do next is not just a
 - [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]
 - [[wiki/Decision Making/Changing Decisions|Changing Decisions]]
 - [[wiki/Self Management/Flow State|Flow State]]
-- [[wiki/Self Management/Focus Management|Focus Management]]
-- [[wiki/Self Management/Attention Management|Attention Management]]
-- [[wiki/Self Management/Procrastination|Procrastination]]
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
+- [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]

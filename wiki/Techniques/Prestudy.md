@@ -233,7 +233,7 @@ Prestudy is especially important when the upcoming learning event is too fast, t
 
 ## Implications For My System
 
-- Prestudy should become a named step in [[wiki/Syntheses/Current Study System|Current Study System]].
+- Prestudy should become a named step in [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]].
 - The default weekly workflow should include a weekend or morning prestudy pass for upcoming material.
 - Prestudy should not become another note-taking burden. Its job is to create readiness.
 - For important topics, Prestudy should cover the whole topic or subtopic, not only the next isolated class.
@@ -241,15 +241,15 @@ Prestudy is especially important when the upcoming learning event is too fast, t
 
 ## Related Pages
 
-- [[wiki/Syntheses/Current Study System|Current Study System]]
+- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/Aim|Aim]]
 - [[wiki/Techniques/Shoot|Shoot]]
 - [[wiki/Techniques/Skin|Skin]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
-- [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## Open Questions
