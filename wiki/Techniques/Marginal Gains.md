@@ -1,8 +1,8 @@
 ---
 type: technique
-status: seed
+status: developing
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-11
 source-count: 2
 last-audited:
 tags:
@@ -62,6 +62,58 @@ Marginal Gains without Kolbs can become wishful planning. Kolbs without Marginal
 5. Run a Kolbs cycle after each serious attempt.
 6. Decide whether to persist, refine, or switch targets.
 
+## Priority 0 Examples
+
+Marginal Gains works best when the gain is small enough to start and meaningful enough to repeat.
+
+For [[private/Goals/Priority 0|Priority 0]], a gain should usually improve one of five things:
+
+- recurrence,
+- emotional engagement,
+- identity reinforcement,
+- visible progress,
+- action initiation.
+
+The gain should not create a second dashboard. It should make the next attempt easier, cleaner, or more motivating.
+
+| Priority 0 Area | Skill Or Process | Possible Marginal Gain |
+| --- | --- | --- |
+| Agentic Engineering | Prompting agents | Save one reusable prompt pattern after it works. |
+| Agentic Engineering | Agent workflow design | Add one clearer instruction to `AGENTS.md` or a project README. |
+| Agentic Engineering | Code review with agents | Ask for one focused review category instead of a broad review. |
+| Agentic Engineering | Verification | Add one repeatable build, test, or screenshot check to the workflow. |
+| Learning Systems | BHS | Improve the Aim step by writing sharper why/how questions before reading. |
+| Learning Systems | SIR | Add one interleaved prompt that forces comparison instead of recognition. |
+| Learning Systems | Complex problem solving | Change one meaningful variable before executing again. |
+| Learning Systems | Kolbs | Reflect on one real attempt instead of journaling about the whole system. |
+| Learning Systems | Shortcut detection | Name one shortcut and add one constraint that makes it harder to repeat. |
+| Vietnamese | Immersion recurrence | Pick one default YouTube channel or playlist for low-friction starts. |
+| Vietnamese | Noticing | Capture one repeated phrase or grammar pattern from real input. |
+| Vietnamese | Listening | Rewatch one short clip until it feels less noisy. |
+| Vietnamese | Comprehension | Adjust subtitles, speed, topic, or lookup tools to keep attention engaged. |
+| 中文 | Maintenance | Read or convert one useful sentence without reactivating the whole language track. |
+| 中文 | Character contact | Review one character, phrase, or short clip. |
+| Fitness | Strength | Add one small progression: weight, rep, set, tempo, or form cue. |
+| Fitness | Mobility | Choose one mobility bottleneck and repeat a short drill. |
+| Fitness | Cardio | Make the start easier: shoes ready, route chosen, timer preset. |
+| Fitness | Recovery | Track one signal: sleep, soreness, energy, or readiness. |
+| Relationships | Contact | Send one message that would otherwise stay vague. |
+| Relationships | Repair | Clarify one small tension before it becomes stale. |
+| Relationships | Appreciation | Express one specific appreciation. |
+| Relationships | Planning | Put one next touchpoint on the calendar. |
+
+## Choosing The Next Gain
+
+Use this filter when many improvements are possible:
+
+1. **Does it reduce start friction?** If yes, it supports recurrence.
+2. **Does it make the skill feel more alive?** If yes, it supports emotional engagement.
+3. **Does it reinforce the identity?** If yes, it strengthens the reason to return.
+4. **Does it leave visible progress?** If yes, it creates feedback.
+5. **Does it improve the next attempt?** If yes, it belongs in a Kolbs cycle.
+
+If a gain scores on none of these, it is probably organization work, not improvement work.
+
 ## How It Should Feel
 
 Marginal Gains should feel like narrowing the improvement field. You should leave with one small, believable upgrade that clearly connects to a larger goal.
@@ -86,6 +138,8 @@ Warning sign: Marginal Gains has become avoidance when you keep planning tiny im
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
+- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
+- [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
 
 ## Sources
 

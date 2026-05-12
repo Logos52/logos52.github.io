@@ -4,7 +4,7 @@ description: "Current questions, active threads, and public thinking log."
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-05-09
+updated: 2026-05-12
 tags:
   - system
 ---
@@ -13,8 +13,16 @@ tags:
 
 ## What's On My Mind
 
-- How do I balance many simultaneous interests without losing focus?
 - How should I use the knowledge base as a thinking partner instead of only an archive?
+
+## Current Focus
+
+- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]: A technique only matters if it triggers the thinking the result requires. Beware clean-looking activity that avoids comparison, reconstruction, uncertainty, or judgment.
+- [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]]: Overwhelm is disorganized information. Turn confusion into a question, then use the question to organize the next move.
+- [[wiki/Syntheses/ICS System|ICS System]]: Control the learning process: prestudy, encode deeply, retrieve intelligently, reflect, and upgrade the system one constraint at a time.
+- [[wiki/Syntheses/Current Study System|Current Study System]]: Prestudy gives the frame, BHS builds the map, SIR keeps it retrievable. The goal is usable structure: building a stable mental model where information can sit.
+- [[wiki/Syntheses/Balancing Multiple Interests|Balancing Multiple Interests]]: Keep the full identity alive without making every interest active at once. Rotate deliberately, preserve momentum, and avoid false abandonment. Breadth belongs in Priority 0. Focus belongs in the active loop.
+- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]: Old habits win because they're cheap and automatic. New skills lose because they're expensive. Isolate the cue -> old response, write a replacement script, rehearse judgment until the new move feels obvious. Practice the bottleneck.
 
 ## Active Threads
 
@@ -47,13 +55,13 @@ tags:
 
 ## Possible Blog Posts
 
-- **Emacs to Obsidian**: Emacs was more fun to use because it ran on macros and keybind muscle memory. Moving around Emacs felt closer to playing World of Warcraft than using a normal app.
+- **Emacs to Obsidian**: Emacs was more fun to use because it ran on macros and keybind muscle memory. Moving around Emacs felt closer to playing World of Warcraft than using a normal app. Obsidian, by comparison, feels more like playing with a mouse only. People known as "clickers" have a bad reputation.  But it's not entirely a fair assessment due to different UI styles. I definitely feel slower in Obsidian.
 - **How I Built This**: a dated account of building this site from Karpathy's LLM knowledge-base idea, Obsidian, Quartz, and several AI coding agents as collaborators.
 - [[blog/on-red-teams-closure|On Red Team's Closure]]: draft commentary arguing that Red Team's closure was understandable because the institutional version had become too bloated and time-inefficient, while the lean two-week course was still worth preserving.
 
 ## Private Workflow Templates
 
-These are blank public shells for private Obsidian workflows. The templates can be copied into a private vault, but filled-in goals, skills, and Kolb reflections should stay local.
+These are blank public shells for private Obsidian workflows. The templates can be copied into a private vault, but filled-in goals, skills, and Kolb's reflections should stay local.
 
 - [[journal/templates/goals|Goals]]
 - [[journal/templates/goals-index|Goals Index]]
@@ -64,6 +72,7 @@ These are blank public shells for private Obsidian workflows. The templates can 
 
 ## Recent Log
 
+- [[journal/calendar#2026-05-12|2026-05-12]]: Added Current Focus cues to the Journal and Home pages, compiled [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]], and folded the older unlearning page into the new synthesis.
 - [[journal/red-team-pruning|2026-05-09]]: Pruned the Red Team section down to the identity page, mapped the deleted wiki pages to what I would cut from the handbook, and drafted commentary on Red Team's closure.
 - [[journal/calendar#2026-05-09|2026-05-09]]: Added Journal as the public thinking dashboard for current questions, active threads, possible essays, and a light dated log.
 - [[journal/calendar#2026-05-08|2026-05-08]]: Tightened the public site around the knowledge base: homepage, graph behavior, clean layout, Index, and active learning/decision-making pages.

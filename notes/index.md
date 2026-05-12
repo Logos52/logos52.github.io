@@ -4,7 +4,7 @@ description: "Full index for the public LLM-maintained knowledge base."
 type: index
 hideFolderListing: true
 created: 2026-05-02
-updated: 2026-05-08
+updated: 2026-05-12
 tags:
   - system
 ---
@@ -60,17 +60,19 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Concepts/Technique-Triggered Thinking\|Technique-Triggered Thinking]] | concept | developing | Diagnostic principle for checking whether a technique is producing the intended cognition, not just a correct-looking artifact. |
 | [[wiki/Concepts/The Shortcut Problem\|The Shortcut Problem]] | concept | developing | Pattern where the brain avoids difficult learning by producing visible activity that bypasses the required thinking. |
 | [[wiki/Concepts/Cognitive Load as Signal\|Cognitive Load as Signal]] | concept | seed | Interprets mental effort, overload, and drowsiness as metacognitive signals. |
-| [[wiki/Concepts/Unlearning Learning Habits\|Unlearning Learning Habits]] | concept | seed | How old learning habits persist and how to replace them. |
+| [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently\|How to Unlearn Old or Bad Habits Efficiently]] | concept | developing | Practical operating model for replacing old cue-response habits with scripted, rehearsed responses. |
 | [[wiki/Concepts/Deep Processing Practice\|Deep Processing Practice]] | concept | seed | Supporting concept note for meaning-making through comparison, evaluation, connection, and schema formation. |
 | [[wiki/Concepts/Memory Handling\|Memory Handling]] | concept | seed | Deliberately shaping new information so it can be encoded and retrieved. |
 | [[wiki/Concepts/Fixed vs Growth Mindset\|Fixed vs Growth Mindset]] | concept | developing | Mindset model for interpreting ability, mistakes, effort, feedback, and identity during learning. |
 | [[wiki/Concepts/Neuroticism\|Neuroticism]] | concept | developing | Trait-level threat sensitivity and emotional reactivity as it affects learning, self-regulation, avoidance, and growth. |
 | [[wiki/Techniques/Thinking on Paper\|Thinking on Paper]] | technique | seed | Using notes as an external workbench for reasoning and cognitive offload. |
+| [[wiki/Techniques/Prestudy\|Prestudy]] | technique | developing | Setup layer before the main learning event: rough frame, big-picture chunks, questions, and reduced cognitive load. |
 | [[wiki/Techniques/Bear Hunter System\|Bear Hunter System]] | technique | developing | Practical encoding workflow: Aim questions, Shoot through sources, Skin maps, then hand off to retrieval. |
 | [[wiki/Techniques/Aim\|Aim]] | technique | developing | BHS prestudy step for turning concepts into why/how questions and rough chunks. |
 | [[wiki/Techniques/Shoot\|Shoot]] | technique | developing | BHS active-learning step for answering Aim questions while building a working map. |
 | [[wiki/Techniques/Skin\|Skin]] | technique | developing | BHS consolidation step for cleaning the map into a retrievable final structure. |
 | [[wiki/Techniques/Spaced Interleaved Retrieval\|Spaced Interleaved Retrieval]] | technique | developing | Retrieval system combining recall, widening spacing, interleaving, and gap repair. |
+| [[wiki/Techniques/Interleaving for Complex Problem Solving\|Interleaving for Complex Problem Solving]] | technique | developing | Reconstruction method for complex problem solving, knowledge work, language learning, and agentic engineering. |
 | [[wiki/Techniques/WPW\|WPW]] | technique | developing | High-volume retrieval technique moving between whole-topic structure and detailed parts. |
 | [[wiki/Techniques/Kolbs Experiential Cycle\|Kolbs Experiential Cycle]] | technique | developing | Reflection loop for converting experience into better experiments. |
 | [[wiki/Techniques/Marginal Gains\|Marginal Gains]] | technique | developing | Improvement model for choosing small, compounding gains. |

@@ -1,8 +1,8 @@
 ---
 type: hub
-status: seed
+status: developing
 created: 2026-05-02
-updated: 2026-05-07
+updated: 2026-05-11
 source-count: 9
 last-audited: 2026-05-07
 tags:
@@ -36,6 +36,12 @@ Agentic engineering therefore means:
 - learn the fundamentals beneath the abstraction.
 
 ## Best Practices
+
+### 0. Practice The Approach Layer
+
+Agentic engineering often looks like an execution problem because agents can produce code quickly. The higher-leverage bottleneck is usually approach quality: context, ownership, constraints, acceptance criteria, verification, and taste.
+
+Use [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] to vary the same workflow across planning, prompting, implementation, review, debugging, and documentation. The point is to make the human better at framing the work, not only faster at asking for code.
 
 ### 1. Preserve The Quality Bar
 
@@ -176,6 +182,7 @@ This is Karpathy's "you can outsource thinking but not understanding" point. The
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
 - [[wiki/Techniques/Context Engineering|Context Engineering]]
+- [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
 - [[wiki/Concepts/A Return to Code|A Return to Code]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]

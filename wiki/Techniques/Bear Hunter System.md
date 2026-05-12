@@ -1,8 +1,8 @@
 ---
 type: technique
-status: seed
+status: developing
 created: 2026-05-04
-updated: 2026-05-07
+updated: 2026-05-11
 source-count: 12
 last-audited: 2026-05-07
 tags:
@@ -19,6 +19,7 @@ Bear Hunter System is the user's default encoding workflow for important study m
 
 The practical version:
 
+0. [[wiki/Techniques/Prestudy|Prestudy]]: create the rough frame before the main learning event.
 1. [[wiki/Techniques/Aim|Aim]]: create the right questions before learning.
 2. [[wiki/Techniques/Shoot|Shoot]]: use sources to answer those questions and build the map.
 3. [[wiki/Techniques/Skin|Skin]]: clean the map into a final structure you can retrieve from memory.
@@ -29,7 +30,7 @@ BHS replaces passive reading, linear notes, and "I'll organize it later." The or
 
 ### Before The Learning Event
 
-Do Aim as early as possible.
+Do Prestudy and Aim as early as possible.
 
 If you have a lecture, class, chapter, paper, or video coming up, do a short Aim pass before it. Even 5-10 minutes is useful if that is all you have.
 
@@ -217,6 +218,7 @@ Warning sign: BHS has become surface activity when the artifact is clean but you
 - [[wiki/Syntheses/Current Study System|Current Study System]]
 - [[wiki/Syntheses/ICS System|ICS System]]
 - [[wiki/Techniques/Aim|Aim]]
+- [[wiki/Techniques/Prestudy|Prestudy]]
 - [[wiki/Techniques/Shoot|Shoot]]
 - [[wiki/Techniques/Skin|Skin]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]

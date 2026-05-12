@@ -1,8 +1,8 @@
 ---
 type: technique
-status: seed
+status: developing
 created: 2026-05-04
-updated: 2026-05-07
+updated: 2026-05-11
 source-count: 5
 last-audited: 2026-05-07
 tags:
@@ -17,6 +17,8 @@ tags:
 Aim is the first step of [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]. It points your brain before you start learning.
 
 The practical goal: create high-quality questions that make you search for importance, relationships, and chunks.
+
+[[wiki/Techniques/Prestudy|Prestudy]] is the timing layer that often comes before Aim. Prestudy creates the rough frame; Aim sharpens that frame into questions.
 
 ## How To Use Aim
 
@@ -188,6 +190,7 @@ Warning sign: Aim has become a shortcut when it feels like copying headings into
 ## Related Pages
 
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Techniques/Prestudy|Prestudy]]
 - [[wiki/Techniques/Shoot|Shoot]]
 - [[wiki/Techniques/Skin|Skin]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]

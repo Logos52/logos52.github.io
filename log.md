@@ -1,7 +1,7 @@
 ---
 type: log
 created: 2026-05-02
-updated: 2026-05-11
+updated: 2026-05-12
 tags:
   - system
 ---
@@ -9,6 +9,23 @@ tags:
 # Log
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
+
+## [2026-05-12] compile | How to Unlearn Old or Bad Habits Efficiently
+
+- Added [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] from the Live Clinic 69 output synthesis.
+- Positioned unlearning as cue-response surgery: isolate the old trigger, script the replacement response, rehearse judgment separately, and use Kolbs to calibrate.
+- Connected the page to [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], [[wiki/Self Management/Attention Management|Attention Management]], and [[wiki/Self Management/Focus Management|Focus Management]].
+
+## [2026-05-11] compile | Interleaving for complex problem solving
+
+- Added [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] as a wiki page for interleaving as reconstruction practice.
+- Connected it to [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Syntheses/Current Study System|Current Study System]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Language/Refold Language Learning System|Refold Language Learning System]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], and [[wiki/Techniques/Marginal Gains|Marginal Gains]].
+
+## [2026-05-11] compile | Prestudy layer
+
+- Added [[wiki/Techniques/Prestudy|Prestudy]] as the setup layer before main learning events.
+- Updated [[wiki/Syntheses/Current Study System|Current Study System]] from a two-engine loop into a Prestudy -> BHS -> SIR loop.
+- Linked Prestudy into [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Aim|Aim]], [[wiki/Syntheses/ICS System|ICS System]], and [[notes/index|Knowledge Base Index]].
 
 ## [2026-05-11] compile | Priority 0 focus primer and balancing rewrite
 
@@ -100,7 +117,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Techniques/Building the Radar|Building the Radar]]
   - [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
   - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
-  - [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]]
+  - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
   - [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
   - [[wiki/Concepts/Memory Handling|Memory Handling]]
   - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]

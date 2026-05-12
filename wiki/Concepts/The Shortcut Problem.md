@@ -2,8 +2,8 @@
 type: concept
 status: seed
 created: 2026-05-09
-updated: 2026-05-09
-source-count: 1
+updated: 2026-05-12
+source-count: 2
 last-audited:
 tags:
   - learning
@@ -51,6 +51,8 @@ This is one reason a technique can look right while results stay flat.
 | Switching techniques | Staying with one method long enough to train the skill. |
 
 The shortcut often reduces effort in the short term and increases study load later.
+
+Some shortcuts are not deliberate choices. They are old cue-response habits. If overwhelm reliably triggers copying, AI offloading, rote memorization, or avoidance, the repair belongs partly in [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]: notice the cue, script the replacement response, and rehearse the judgment before the next live attempt.
 
 ## Why It Matters
 
@@ -119,6 +121,7 @@ The point is not to make study harder for its own sake. The point is to prevent 
 
 - [[wiki/Concepts/Technique-Triggered Thinking|Technique-Triggered Thinking]]
 - [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
+- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
 - [[wiki/Techniques/Building the Radar|Building the Radar]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]

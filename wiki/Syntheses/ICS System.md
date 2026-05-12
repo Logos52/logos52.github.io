@@ -2,7 +2,7 @@
 type: synthesis
 status: seed
 created: 2026-05-07
-updated: 2026-05-09
+updated: 2026-05-12
 source-count: 197
 tags:
   - learning-system
@@ -14,6 +14,8 @@ tags:
 # ICS System
 
 The ICS System is a staged learning operating system for becoming a self-directed learner: control the process, build the five dimensions, replace weak habits, encode deeply, retrieve intelligently, and improve through reflection.
+
+The point is process control. Prestudy, encoding, retrieval, reflection, and system upgrades work together so the learner improves one real constraint at a time instead of trying to force outcomes directly.
 
 ## Core Idea
 
@@ -148,6 +150,8 @@ The system trains deep processing progressively: awareness, technique alignment,
 
 Inquiry-based learning is the bridge from passive study to BHS.
 
+[[wiki/Techniques/Prestudy|Prestudy]] is the timing layer that makes this easier. It creates a broad, shallow frame before the main learning event so the learner is not meeting every idea for the first time at full speed.
+
 The early form is Traffic Light:
 
 - **Red light:** create questions, identify keywords, and generate purpose before consuming.
@@ -161,6 +165,7 @@ TLS trains the habit of learning with a problem in mind. Later, BHS replaces and
 
 | Step | Replaces / Upgrades | Job |
 | --- | --- | --- |
+| [[wiki/Techniques/Prestudy|Prestudy]] | Cold first exposure | Build a rough frame before the main learning event. |
 | [[wiki/Techniques/Aim|Aim]] | Red light and prestudy basics | Ask importance-based questions and prime the brain to seek meaningful relationships. |
 | [[wiki/Techniques/Shoot|Shoot]] | Green light and ordinary note processing | Satisfy curiosity, clarify relationships, add detail, and build the map while learning. |
 | [[wiki/Techniques/Skin|Skin]] | Rough mapping | Consolidate, refine, prioritize, and create a final chunk structure. |

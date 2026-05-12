@@ -99,7 +99,7 @@ Metacognition and learning-to-learn:
 - [[wiki/Techniques/Building the Radar|Building the Radar]]
 - [[wiki/Concepts/Active vs Passive Learning|Active vs Passive Learning]]
 - [[wiki/Concepts/Cognitive Load as Signal|Cognitive Load as Signal]]
-- [[wiki/Concepts/Unlearning Learning Habits|Unlearning Learning Habits]]
+- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
 - [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
 - [[wiki/Concepts/Neuroticism|Neuroticism]]
 - [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]

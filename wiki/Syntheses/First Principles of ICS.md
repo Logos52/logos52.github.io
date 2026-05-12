@@ -2,7 +2,7 @@
 type: synthesis
 status: developing
 created: 2026-05-11
-updated: 2026-05-11
+updated: 2026-05-12
 source-count: 1
 last-audited:
 tags:
@@ -17,7 +17,7 @@ tags:
 
 First Principles of ICS explains the structure underneath the study system. The useful version is not "learn more techniques." The useful version is: understand the levels of the system well enough that you can self-correct when a technique becomes difficult, confusing, or fake-productive.
 
-The core move is simple: treat overwhelm as information. When learning gets hard, the common response is to retreat into lower-order habits. The better response is to turn the overwhelm into a question, then use that question to organize the next move.
+The core move is simple: treat overwhelm as disorganized information. When learning gets hard, the common response is to retreat into lower-order habits. The better response is to turn confusion into a question, then use that question to organize the next move.
 
 ## Core Thesis
 
