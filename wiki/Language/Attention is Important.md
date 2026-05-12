@@ -18,9 +18,9 @@ Attention is the difference between real immersion and background noise.
 
 ## Summary
 
-Early language content is often hard to understand. That creates a practical problem: the learner needs exposure, but exposure without attention does not produce much value. Refold solves this early problem by giving attention a job.
+Early language content is often hard to understand. That creates a practical problem: the learner needs exposure, and attention is what makes that exposure valuable. Refold solves this early problem by giving attention a job.
 
-The job is not to understand everything. The job is to notice something.
+The job is to notice something.
 
 This connects directly to [[wiki/Dimensions/Deep Processing|Deep Processing]] and [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]. Active attention turns immersion from vague exposure into a stream of small targets.
 

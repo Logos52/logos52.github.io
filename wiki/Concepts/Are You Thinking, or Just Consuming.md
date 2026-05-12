@@ -13,7 +13,7 @@ tags:
 
 # Are You Thinking, or Just Consuming?
 
-Active learning is not defined by the external activity. It is defined by the kind of thinking the learner performs.
+Active learning is defined by the kind of thinking the learner performs.
 
 ## Summary
 

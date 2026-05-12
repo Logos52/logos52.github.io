@@ -28,7 +28,7 @@ Focus management replaces the fragile strategy of "try harder." The user should 
 
 ## Core Idea
 
-Focus is not only an internal trait. It is also a setup problem.
+Focus is a setup problem as much as an internal trait.
 
 The user can improve focus by changing:
 

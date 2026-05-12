@@ -50,7 +50,7 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure\|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] | synthesis | developing | User's current encoding and retrieval loop built around BHS plus SIR. |
 | [[wiki/Syntheses/ICS System\|ICS System]] | synthesis | developing | High-level synthesis of Justin Sung's learning system: process control, five dimensions, encoding, retrieval, practice, and reflection. |
 | [[wiki/Syntheses/First Principles of ICS\|First Principles of ICS]] | synthesis | developing | Usable synthesis of the ICS hierarchy: processing quality, strategies, meta-strategies, overwhelm, layered learning, and problem maps. |
-| [[wiki/Syntheses/Minimally Viable Learning System\|Minimally Viable Learning System]] | synthesis | developing | Compressed learning loop for choosing a target, building structure, using knowledge, diagnosing the bottleneck, and adjusting the next move. |
+| [[wiki/Syntheses/Minimally Viable Learning System\|Minimally Viable Learning System]] | synthesis | developing | Current minimum learning system: BHS for encoding, SIR for retrieval, with Agentic Engineering and the knowledge base treated as possible extensions. |
 | [[wiki/Syntheses/Are You Learning, or Just Using Techniques\|Are You Learning, or Just Using Techniques]] | synthesis | developing | Usable synthesis of technique failure: strategy triggers thinking, thinking creates results, and shortcuts can make methods look correct while learning stays flat. |
 | [[wiki/Dimensions/Dimensions of Learning\|Dimensions of Learning]] | model | developing | Central hub model for Deep Processing, Self-Management, Self-Regulation, Mindset, and Retrieval. |
 | [[wiki/Dimensions/Deep Processing\|Deep Processing]] | dimension | developing | Dimension for encoding through comparison, chunking, prioritization, and meaning-making. |
@@ -105,6 +105,16 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block\|Focus Management: How to Enter & Recover Inside a Work Block]] | system | developing | Practical system for creating, maintaining, and recovering attention during study and work. |
 | [[wiki/Self Management/Attention Management - Preserving Flow\|Attention Management: Preserving Flow]] | system | developing | Advanced day-level system for preserving flow across tasks by reducing transition friction and decisional delays. |
 | [[wiki/Self Management/Procrastination - a System Problem\|Procrastination: a System Problem]] | concept | developing | Treats avoidance as a system problem involving triggers, task friction, environment, and willpower dependence. |
+
+### Minimalism
+
+| Page | Type | Status | Summary |
+| --- | --- | --- | --- |
+| [[wiki/Minimalism/Minimalism as Systems Design\|Minimalism as Systems Design]] | hub | developing | Environmental systems design for reducing ownership cost, preserving slack, and making physical space support the life being built. |
+| [[wiki/Minimalism/Environment Design\|Environment Design]] | concept | developing | Arranges physical space so desired behavior is easier and unwanted cues are less available. |
+| [[wiki/Minimalism/Ownership Cost\|Ownership Cost]] | concept | developing | Makes visible the space, money, time, attention, maintenance, memory, and exit costs of objects. |
+| [[wiki/Minimalism/Product Reduction\|Product Reduction]] | technique | developing | Practical process for consolidating objects, reducing high-cost items, and deciding what remains. |
+| [[wiki/Minimalism/Exit Strategy For Objects\|Exit Strategy For Objects]] | concept | developing | Rule for how an object will leave before it enters. |
 
 ### Language learning
 

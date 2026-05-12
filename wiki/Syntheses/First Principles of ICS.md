@@ -15,7 +15,7 @@ tags:
 
 # First Principles of ICS
 
-First Principles of ICS explains the structure underneath the study system. The useful version is not "learn more techniques." The useful version is: understand the levels of the system well enough that you can self-correct when a technique becomes difficult, confusing, or fake-productive.
+First Principles of ICS explains the structure underneath the study system: processing quality, strategies, and meta-strategies. The purpose is to understand the levels of the system well enough that you can self-correct when a technique becomes difficult, confusing, or fake-productive.
 
 The core move is simple: treat overwhelm as disorganized information. When learning gets hard, the common response is to retreat into lower-order habits. The better response is to turn confusion into a question, then use that question to organize the next move.
 
@@ -29,13 +29,13 @@ Effective learning has three working levels:
 
 Most technique failure happens at the third level. The strategy starts working, the mental load rises, the learner feels uncertain, and the brain searches for a familiar shortcut. The method then gets abandoned, simplified, or turned into a surface routine.
 
-The fix is not to remove difficulty. The fix is to change the response to difficulty.
+The fix is to change the response to difficulty.
 
 ## Hub Map
 
 Use this page as the routing layer for the study system.
 
-The question is not "Which technique should I use?" The better question is: "Which level of the system needs to improve?"
+The routing question is: "Which level of the system needs to improve?"
 
 | Level | What It Controls | If This Is Weak | Pages That Uplift It |
 | --- | --- | --- | --- |

@@ -29,7 +29,7 @@ A growth mindset treats ability as developable. A fixed mindset treats ability a
 | What is challenge? | A growth opportunity. | A threat to identity. |
 | What is uncertainty? | Normal during learning. | A reason to delay action. |
 
-The difference is not optimism. It is interpretation.
+The difference is interpretation.
 
 ## Why It Matters
 

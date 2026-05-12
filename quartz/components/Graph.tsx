@@ -88,7 +88,10 @@ export default ((opts?: Partial<GraphOptions>) => {
           <div class="graph-legend">
             {opts.legend.map((item) => (
               <span class="graph-legend-item">
-                <span class="graph-legend-swatch" style={{ backgroundColor: item.color }} />
+                <span
+                  class={classNames("graph-legend-swatch", item.color === "black-white" ? "black-white" : undefined)}
+                  style={item.color === "black-white" ? undefined : { backgroundColor: item.color }}
+                />
                 {item.label}
               </span>
             ))}

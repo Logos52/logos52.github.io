@@ -17,7 +17,7 @@ Building the radar is the practice of learning to notice when your mind shifts f
 
 ## Summary
 
-The first bottleneck in learning to learn is often not learning a new technique. It is detecting when the old default mode has returned. Building the radar creates visibility into that invisible shift.
+The first bottleneck in learning to learn is often detecting when the old default mode has returned. Building the radar creates visibility into that invisible shift.
 
 ## Basic Exercise
 

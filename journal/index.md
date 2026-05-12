@@ -4,7 +4,7 @@ description: "Current questions, active threads, and public thinking log."
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-05-12
+updated: 2026-05-13
 tags:
   - system
 ---
@@ -26,7 +26,8 @@ tags:
 - [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]: Prestudy gives the frame, BHS builds the map, SIR keeps it retrievable. The goal is usable structure: building a stable mental model where information can sit.
 - [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]: Keep the full identity alive without making every interest active at once. Rotate deliberately, preserve momentum, and avoid false abandonment. Breadth belongs in Priority 0. Focus belongs in the active loop.
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]: Old habits win because they're cheap and automatic. New skills lose because they're expensive. Isolate the cue -> old response, write a replacement script, rehearse judgment until the new move feels obvious. Practice the bottleneck.
-- [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]]: Compress the system into target -> structure -> use -> diagnose -> adjust. The point is not fewer notes. The point is the smallest loop that still improves the next session.
+- [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]]: The current minimum is BHS + SIR: encode usable structure, then retrieve, space, interleave, and repair it. Agentic Engineering and the knowledge base are adjacent systems being tested, not part of the minimum yet.
+- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]: Reduce ownership cost so the environment becomes easier to act inside. Empty space is reserve capacity. Every object, workflow, subscription, and commitment charges attention, maintenance, and optionality.
 
 ## Active Threads
 
@@ -76,6 +77,7 @@ These are blank public shells for private Obsidian workflows. The templates can 
 
 ## Recent Log
 
+- [[journal/calendar#2026-05-13|2026-05-13]]: Added [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] to Current Focus and set Minimalism graph nodes to black in light mode and white in dark mode.
 - [[journal/calendar#2026-05-12|2026-05-12]]: Simplified Home into a graph-first entrance and moved the longer project explanation into About.
 - [[journal/calendar#2026-05-12|2026-05-12]]: Added Current Focus cues to the Journal and Home pages, compiled [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]], and folded the older unlearning page into the new synthesis.
 - [[journal/red-team-pruning|2026-05-09]]: Pruned the Red Team section down to the identity page, mapped the deleted wiki pages to what I would cut from the handbook, and drafted commentary on Red Team's closure.

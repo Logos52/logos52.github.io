@@ -13,9 +13,9 @@ tags:
 
 # Balancing Multiple Interests: Breadth v Focus
 
-Balancing Multiple Interests is not a problem of wanting too many things. It is a problem of trying to keep too many things active at the same time.
+Balancing Multiple Interests is the practice of keeping a broad identity alive while limiting the number of interests that are active at the same time.
 
-The answer is not equal balance. The answer is controlled rotation: keep the full set of interests alive in a long-term vision, but limit the number that are active in the current season.
+The operating model is controlled rotation: keep the full set of interests alive in a long-term vision, but limit the number that are active in the current season.
 
 Breadth belongs in [[private/Goals/Priority 0|Priority 0]]. Focus belongs in the active loop.
 

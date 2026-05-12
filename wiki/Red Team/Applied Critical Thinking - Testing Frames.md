@@ -17,11 +17,11 @@ tags:
 
 Applied Critical Thinking is the Red Team habit of turning doubt into better judgment.
 
-It is not skepticism for its own sake. It is not a checklist race. It is the disciplined pause between seeing a claim and accepting the claim.
+It is the disciplined pause between seeing a claim and accepting the claim.
 
 Use it when a media narrative, institutional statement, expert claim, team plan, or AI output looks coherent enough to trust.
 
-The emphasis should be speed plus accuracy. Applied Critical Thinking should usually be a fast diagnostic filter, not a slow academic exercise. Slow thinking is valuable, but only when the decision, claim, or risk deserves it.
+The emphasis should be speed plus accuracy. Applied Critical Thinking should usually be a fast diagnostic filter. Slow thinking is valuable when the decision, claim, or risk deserves it.
 
 ## The Practical Role
 

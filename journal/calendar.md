@@ -4,7 +4,7 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-05-12
+updated: 2026-05-13
 tags:
   - system
 ---
@@ -13,20 +13,27 @@ tags:
 
 A lightweight chronological index for public journal entries and thinking-log updates. This is manually maintained so it works the same way in Obsidian and on the website.
 
+## 2026-05-13
+
+Added [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] to the Current Focus list on [[journal/index|Journal]] and [[index|Home]].
+
+The working cue:
+
+> Reduce ownership cost so the environment becomes easier to act inside. Empty space is reserve capacity. Every object, workflow, subscription, and commitment charges attention, maintenance, and optionality.
+
+Updated graph coloring so Minimalism pages render as black nodes in light mode and white nodes in dark mode.
+
 ## 2026-05-12
 
 Moved the longer "what this is" explanation from [[index|Home]] into [[about|About]], so the homepage can function more like a clean graph entrance with Current Focus underneath it.
 
-Added [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] to answer the question of whether the broader learning system can be compressed into a smaller loop without losing its control layer.
+Added [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] to answer the question of whether the broader learning system can be compressed without losing the actual working core.
 
-The current compressed loop:
+The current minimum:
 
 ```text
-target
--> structure
--> use
--> diagnose
--> adjust
+BHS -> encode usable structure
+SIR -> retrieve, space, interleave, and repair it
 ```
 
 Added new Journal questions about:
@@ -34,6 +41,8 @@ Added new Journal questions about:
 - compressing the system into a minimal viable form;
 - mapping that compression back into the five learning dimensions;
 - creating more usable frames for Priority 0 skills such as Agentic Engineering, Learning Systems, Vietnamese, 中文, Fitness, and Relationships.
+
+Later corrected the page so the minimum viable system is not an abstract control loop. The actual current minimum is [[wiki/Techniques/Bear Hunter System|BHS]] plus [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]], while [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] and [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] remain experimental extensions.
 
 Synthesized [[outputs/briefs/GPT - How to Force Your Brain To Be Motivated (when you don’t feel like it)|How to Force Your Brain To Be Motivated]] and moved the clipping into [[raw/sources/How to Force Your Brain To Be Motivated (when you don’t feel like it)|raw sources]].
 

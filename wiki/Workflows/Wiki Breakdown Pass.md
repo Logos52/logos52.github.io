@@ -17,7 +17,7 @@ A wiki breakdown pass finds missing pages, split candidates, and new connections
 
 ## Purpose
 
-The goal is not to create pages for every mention. The goal is to identify subtopics with enough practical value to deserve their own page.
+The goal is to identify subtopics with enough practical value to deserve their own page.
 
 Breakdown is useful when a hub page has grown large, when several pages mention the same idea, or when the user wants new directions for the wiki.
 

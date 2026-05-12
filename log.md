@@ -10,6 +10,12 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-05-12] compile | Minimalism section
+
+- Added [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] as an environmental systems-design frame for reducing ownership cost, preserving slack, and making physical space support the life being built.
+- Added [[wiki/Minimalism/Environment Design|Environment Design]], [[wiki/Minimalism/Ownership Cost|Ownership Cost]], [[wiki/Minimalism/Product Reduction|Product Reduction]], and [[wiki/Minimalism/Exit Strategy For Objects|Exit Strategy For Objects]].
+- Connected the section to [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]], [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]], and [[wiki/Decision Making/Decision Making|Decision Making]].
+
 ## [2026-05-12] maintenance | Simplify homepage orientation
 
 - Removed the long project explanation from [[index|Home]] so the page opens with the knowledge graph and Current Focus.
@@ -18,8 +24,8 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-12] compile | Minimally viable learning system
 
-- Added [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] as a compressed operating loop for using the learning system without overbuilding it.
-- Framed the minimum loop as target -> structure -> use -> diagnose -> adjust.
+- Added [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] as the current minimum learning system: [[wiki/Techniques/Bear Hunter System|BHS]] for encoding and [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] for retrieval.
+- Framed Agentic Engineering and the knowledge base as possible extensions being tested, not as confirmed parts of the minimum.
 - Connected the page to [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]], [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]], [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and [[private/Goals/Priority 0|Priority 0]].
 
 ## [2026-05-12] output | How to Force Your Brain To Be Motivated

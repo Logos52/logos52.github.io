@@ -25,7 +25,7 @@ SIR combines three principles:
 - Spacing: revisit material after delays that gradually widen.
 - Interleaving: mix topics, formats, difficulty levels, and angles of use.
 
-The goal is not to feel familiar with notes. The goal is to prove that knowledge can be reconstructed and used under varied conditions.
+The goal is to prove that knowledge can be reconstructed and used under varied conditions.
 
 In the user's system, SIR sits under [[wiki/Dimensions/Retrieval|Retrieval]] and is coordinated by [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
 

@@ -15,13 +15,13 @@ tags:
 
 # Are You Learning, or Just Using Techniques
 
-A technique is not working because the steps are visible. A technique is working only when it triggers the thinking that creates the desired result.
+A technique is working when it triggers the thinking that creates the desired result.
 
 Clean-looking activity is the danger signal. A learner can produce notes, maps, highlights, prompts, or answers while avoiding the comparison, reconstruction, uncertainty, or judgment that would actually change understanding.
 
 ## Core Thesis
 
-The strategy does not produce the result. The thinking does.
+The thinking produces the result.
 
 ```text
 strategy -> thinking -> knowledge -> result

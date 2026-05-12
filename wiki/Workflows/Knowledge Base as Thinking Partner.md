@@ -13,7 +13,7 @@ tags:
 
 # Knowledge Base as Thinking Partner
 
-The knowledge base should not only preserve what has already been learned. It should help decide what to think about next.
+The knowledge base should help decide what to think about next while preserving what has already been learned.
 
 An archive stores finished material. A thinking partner changes the next move. It helps surface patterns, expose gaps, test frames, generate questions, and turn vague interests into concrete work.
 

@@ -16,7 +16,7 @@ tags:
 
 Reverse Goal Setting is a planning method for complex goals. Instead of only naming the outcome you want, you work backward from the kind of person who could realistically achieve it.
 
-The central idea is simple: you do not control the outcome directly. You control the skills, attributes, habits, resources, and actions that increase the probability of reaching it.
+The central idea is simple: outcomes are controlled indirectly through the skills, attributes, habits, resources, and actions that increase the probability of reaching them.
 
 ## Why Normal Goal Setting Fails
 

@@ -17,7 +17,7 @@ tags:
 
 Prestudy is the setup layer before the main learning event. Use it before a lecture, class, reading, video, meeting, or dense study session so new information has somewhere to land.
 
-The goal is not to learn every detail early. The goal is to build a rough frame that makes later detail easier to understand, organize, and remember.
+The goal is to build a rough frame that makes later detail easier to understand, organize, and remember.
 
 ## Core Thesis
 

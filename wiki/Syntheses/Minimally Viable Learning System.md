@@ -12,148 +12,227 @@ tags:
 
 # Minimally Viable Learning System
 
-The learning system can be compressed without being weakened.
+The current minimally viable learning system is [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] plus [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
 
-The minimum viable version is not a smaller pile of techniques. It is the smallest loop that still improves learning quality, detects failure, and creates visible progress.
+```text
+BHS -> encode usable structure
+SIR -> retrieve, space, interleave, and repair it
+```
+
+That is the minimum because it covers the two essential jobs:
+
+1. build the structure correctly enough that knowledge has somewhere to sit;
+2. retrieve the structure often enough that it becomes usable instead of decorative.
+
+Everything else supports, diagnoses, or extends that core.
 
 ## Core Thesis
 
-A minimally viable learning system needs five functions:
+A learning system becomes too heavy when the learner starts managing the system instead of learning through it.
 
-1. choose the target,
-2. build a rough structure,
-3. practice retrieval or use,
-4. detect the bottleneck,
-5. make one adjustment.
+The minimum viable version should be strong enough to produce real learning, but small enough to use when energy, time, or motivation is limited.
 
-Everything else is support.
+For now, the core is:
 
 ```text
-target
--> structure
--> use
--> diagnose
--> adjust
+Prestudy -> BHS -> SIR
 ```
 
-If a technique does not improve one of those five functions, it is optional.
+[[wiki/Techniques/Prestudy|Prestudy]] prepares the first rough frame.
 
-## The Five-Dimension Compression
+[[wiki/Techniques/Bear Hunter System|BHS]] turns information into a structured map.
 
-The five learning dimensions can be treated as five upgrade levers.
+[[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] keeps that map alive through reconstruction, spacing, interleaving, and gap repair.
 
-| Dimension | Minimum Question | Usable Upgrade |
+The system is not complete because it contains every useful technique. It is complete because it preserves the main learning loop:
+
+```text
+frame
+-> encode
+-> retrieve
+-> detect gaps
+-> repair
+```
+
+## What Makes It Minimal
+
+The minimum system does not try to optimize every dimension at once.
+
+It asks:
+
+1. Did I prepare enough to know what I am looking for?
+2. Did I build a usable structure?
+3. Can I reconstruct that structure without looking?
+4. Did retrieval reveal a gap?
+5. Did I repair the gap?
+
+If those five questions are answered, the learning session has a spine.
+
+That spine can be improved later with [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]], or [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]].
+
+But those are not the minimum. They are upgrades.
+
+## The Minimum Loop
+
+Use this when the full system feels too large.
+
+```text
+1. Prestudy: get the rough frame.
+2. BHS: build the map.
+3. SIR: retrieve the map.
+4. Repair: fix the weak part.
+5. Repeat later.
+```
+
+The smallest practical version:
+
+| Step | Question | Output |
 | --- | --- | --- |
-| [[wiki/Dimensions/Deep Processing|Deep Processing]] | Am I building relationships, or just collecting pieces? | Compare, chunk, explain, map, prioritize. |
-| [[wiki/Dimensions/Retrieval|Retrieval]] | Can I reconstruct this without looking? | Recall, interleave, space, repair gaps. |
-| [[wiki/Dimensions/Self-Regulation|Self-Regulation]] | Do I know what is failing while it is failing? | Notice, diagnose, choose the next correction. |
-| [[wiki/Dimensions/Self-Management|Self-Management]] | Can I reliably create the conditions to practice? | Reduce friction, protect focus, manage energy and environment. |
-| [[wiki/Dimensions/Mindset|Mindset]] | How am I interpreting difficulty? | Treat friction as signal, not identity verdict. |
+| Prestudy | What is this mainly about? | Rough frame and questions |
+| BHS | How does it fit together? | Usable structure |
+| SIR | Can I reconstruct it? | Retrieval attempt |
+| Repair | What broke? | One corrected gap |
+| Repeat | When should I see it again? | Next retrieval point |
 
-This gives a simple diagnostic:
+This is enough to prevent the most common failure: consuming information that never becomes usable.
 
-```text
-weak understanding -> Deep Processing
-weak recall or transfer -> Retrieval
-weak correction -> Self-Regulation
-weak execution conditions -> Self-Management
-weak interpretation of difficulty -> Mindset
-```
+## Five Dimensions As Diagnostics
 
-## The Minimal Loop
+The five learning dimensions are not the minimum system.
 
-Use this when the full system feels too heavy.
+They are diagnostic lenses for improving the minimum system.
 
-1. **Target**: What skill, page, problem, or output am I improving?
-2. **Frame**: What is the rough structure?
-3. **Use**: Can I retrieve, explain, build, decide, perform, or apply it?
-4. **Bottleneck**: Which dimension is weakest right now?
-5. **Marginal gain**: What is the next small improvement?
-
-This is the compressed version of [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]:
-
-```text
-Prestudy -> frame
-BHS -> structure
-SIR -> use and retrieval
-Kolbs -> diagnose
-Marginal Gains -> adjust
-```
-
-## Structuring By Current Level
-
-The system should change depending on level.
-
-| Level | Main Need | System Shape |
+| Dimension | What It Diagnoses Inside BHS + SIR | Upgrade Direction |
 | --- | --- | --- |
-| Beginner | Make contact and reduce fog. | Short sessions, rough maps, simple recall, high tolerance for incompleteness. |
-| Developing | Build structure and consistency. | BHS, SIR, Kolbs, focus blocks, bottleneck diagnosis. |
-| Intermediate | Improve transfer and judgment. | Interleaving, varied outputs, calibrated feedback, higher-order questions. |
-| Advanced | Refine taste, speed, and adaptation. | Edge cases, real projects, teaching, decision quality, deliberate constraints. |
+| [[wiki/Dimensions/Deep Processing|Deep Processing]] | Is BHS building real relationships, or just organized notes? | Improve comparison, chunking, prioritization, and explanation. |
+| [[wiki/Dimensions/Retrieval|Retrieval]] | Is SIR forcing reconstruction, or just recognition? | Improve recall, spacing, interleaving, and gap repair. |
+| [[wiki/Dimensions/Self-Regulation|Self-Regulation]] | Can I tell when the method is failing while I am using it? | Improve diagnosis, adjustment, and feedback loops. |
+| [[wiki/Dimensions/Self-Management|Self-Management]] | Can I reliably create the time, focus, and environment to use the system? | Improve task setup, attention, energy, and consistency. |
+| [[wiki/Dimensions/Mindset|Mindset]] | How do I interpret difficulty, overload, or poor recall? | Treat friction as signal instead of evidence of inability. |
 
-The mistake is using an advanced system when the beginner need is contact, or using beginner repetition when the real bottleneck is transfer.
-
-## Usable Frames For Priority 0 Skills
-
-Each Priority 0 skill needs a frame that makes action easy to start.
-
-| Skill | Usable Frame | First Useful Action |
-| --- | --- | --- |
-| [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] | Improve the system that builds. | Pick one workflow friction and make the next agent run cleaner. |
-| Learning Systems | Diagnose the weakest dimension. | Choose one page or technique and ask which dimension it improves. |
-| Vietnamese | Make contact with meaning. | Use a short piece of input and extract phrases, sounds, or grammar that feel usable. |
-| 中文 | Keep the thread alive. | Do a small recognition or conversion task without demanding full reactivation. |
-| Fitness | Protect identity through contact. | Do the minimum session that preserves continuity and makes tomorrow easier. |
-| Relationships | Create high-quality contact. | Send one specific message, schedule one touchpoint, or repair one small drift. |
-
-The frame should answer:
+This is the right relationship:
 
 ```text
-What kind of progress counts here?
-What is the smallest useful action?
-What would make tomorrow easier?
+BHS + SIR = current minimum viable learning system
+Five dimensions = ways to diagnose and upgrade it
 ```
 
-## What This Replaces
+Trying to improve all five dimensions separately can become too abstract. The better move is to run BHS + SIR, then ask which dimension limited the result.
 
-The minimum viable system replaces:
+## Where Agentic Engineering Might Fit
 
-- organization perfection,
-- exhaustive dashboards,
-- technique collecting,
-- vague productivity pressure,
-- long reflection before action,
-- trying to improve every dimension at once.
+[[wiki/Concepts/Agentic Engineering|Agentic Engineering]] may or may not fit inside this learning system.
 
-It does not replace the full system. It compresses it for use when the day is busy, motivation is low, or the next action is unclear.
+Right now, it is better treated as an adjacent skill system being explored.
+
+Possible fit:
+
+```text
+BHS -> understand the problem or architecture
+SIR -> retrieve the constraints, decisions, and failure modes
+Agent -> implement, review, or pressure-test
+Kolbs -> reflect on the workflow
+```
+
+The danger is forcing agentic engineering into a study model when it may need a build model.
+
+The shared pattern is not "study." The shared pattern is usable structure:
+
+- clear frame,
+- good questions,
+- explicit constraints,
+- retrieval of relevant context,
+- execution,
+- feedback,
+- correction.
+
+Agentic Engineering may use BHS and SIR as support tools, but it probably needs its own workflow around planning, implementation, verification, and handoff.
+
+## Where This Knowledge Base Might Fit
+
+The knowledge base is not automatically part of the minimum learning system.
+
+It can serve three roles:
+
+1. **Archive**: preserve useful syntheses.
+2. **Thinking partner**: generate questions, frames, and next moves.
+3. **Retrieval surface**: make old ideas easier to revisit, connect, and apply.
+
+The open question is whether the knowledge base should become part of the BHS + SIR loop.
+
+Possible model:
+
+```text
+BHS creates the map
+SIR tests the map
+the knowledge base preserves the refined map
+future sessions retrieve from the knowledge base
+```
+
+This is promising, but it should not be assumed.
+
+If the knowledge base becomes a place where ideas are stored but not retrieved, it is an archive. If it changes the next question, next retrieval, or next action, it becomes part of the learning system.
+
+See [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]].
+
+## Current Open Question
+
+The live question is:
+
+> Can BHS + SIR become the stable minimum, while Agentic Engineering and the knowledge base become extensions that plug into it only when they improve usable structure?
+
+That question should stay open.
+
+Do not force closure too early.
+
+The test is practical:
+
+- Does Agentic Engineering improve the learning loop?
+- Does the knowledge base improve retrieval or transfer?
+- Does either one make the next session clearer?
+- Or do they add management overhead?
+
+## Failure Modes
+
+| Failure | What It Looks Like | Repair |
+| --- | --- | --- |
+| Overcompression | Reducing the system to a vague loop that loses BHS and SIR. | Return to BHS for encoding and SIR for retrieval. |
+| Technique sprawl | Adding every useful method into the "minimum." | Treat Kolbs, Marginal Gains, and Focus Management as upgrades. |
+| Dashboard drift | Managing pages instead of learning. | Use the system only if it changes the next session. |
+| Forced integration | Trying to make Agentic Engineering fit the study system before the relationship is clear. | Keep it adjacent and test overlaps. |
+| Archive illusion | The knowledge base feels useful because it is organized, but it is not retrieved from. | Ask whether the page changes action or recall. |
+| Dimension abstraction | Trying to improve all five dimensions separately without a real session. | Run BHS + SIR first, then diagnose the limiting dimension. |
 
 ## Practical Use
 
-At the start of a 30-minute block:
+For a study block:
 
-1. Pick one Priority 0 area.
-2. Name the target.
-3. Choose one dimension to improve.
-4. Do one concrete action.
-5. Leave one sentence of diagnosis.
+1. Prestudy enough to create the first frame.
+2. Use BHS to build the structure.
+3. Use SIR to retrieve and test it.
+4. Repair one weak point.
+5. Ask which dimension limited the result.
 
-Example:
+For an Agentic Engineering block:
 
-```text
-Vietnamese
-Target: understand one short clip better.
-Dimension: Retrieval.
-Action: replay, summarize from memory, check, repair gaps.
-Diagnosis: I recognize words but lose sentence structure.
-```
+1. Use BHS only if the problem needs conceptual mapping.
+2. Use SIR only if important constraints or patterns need retrieval.
+3. Let the agentic workflow handle planning, implementation, verification, and review.
+4. Use Kolbs afterward if the workflow exposed a repeatable bottleneck.
 
-That is enough for the system to keep compounding.
+For this knowledge base:
+
+1. Add a page only when it creates reusable structure.
+2. Retrieve from pages during real questions.
+3. Link pages when the relationship changes the next move.
+4. Keep asking whether the knowledge base is improving thought or only storing it.
 
 ## Related
 
-- [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]]
 - [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
+- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Techniques/Prestudy|Prestudy]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
-- [[private/Goals/Priority 0|Priority 0]]
+- [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]
+- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]

@@ -20,7 +20,7 @@ Importance-based chunking is the practice of grouping information by why it matt
 
 Weak chunks often copy the source order. Strong chunks represent judgment.
 
-The learner is not merely asking, "What category does this belong to?" The learner is asking, "What structure would make this topic easiest to understand, retrieve, and use?"
+The learner is asking, "What structure would make this topic easiest to understand, retrieve, and use?"
 
 ## Why It Matters
 

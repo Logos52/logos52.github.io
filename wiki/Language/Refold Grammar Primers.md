@@ -17,7 +17,7 @@ Refold Grammar Primers are lightweight grammar orientation tools designed to imp
 
 ## Summary
 
-The grammar-primer approach is not traditional grammar study. The goal is not to memorize rules or produce perfect output. The goal is to expose the learner to common patterns so those patterns become easier to notice and understand in real input.
+The grammar-primer approach exposes the learner to common patterns so those patterns become easier to notice and understand in real input. The goal is pattern recognition inside immersion.
 
 This fits the [[wiki/Language/Preparation|Preparation]] pillar.
 

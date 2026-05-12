@@ -15,7 +15,7 @@ tags:
 
 # Attention Management: Preserving Flow
 
-Attention Management is the user's advanced system for preserving [[wiki/Self Management/Flow State|Flow State]] across the day. Use it when the question is not simply "How do I focus for this block?" but "How do I move through tasks without repeatedly losing the thread?"
+Attention Management is the user's advanced system for preserving [[wiki/Self Management/Flow State|Flow State]] across the day. Use it to move through tasks without repeatedly losing the thread.
 
 The practical version:
 
@@ -25,7 +25,7 @@ The practical version:
 4. Prepare environments before execution time.
 5. Bridge from one task to the next with minimal re-planning.
 
-Attention Management is not ordinary time management. Time management asks whether the schedule was followed. Attention Management asks whether the user stayed in useful, intentional, high-quality attention long enough to produce the intended result.
+Attention Management tracks whether the user stayed in useful, intentional, high-quality attention long enough to produce the intended result. Time management asks whether the schedule was followed.
 
 ## Core Idea
 

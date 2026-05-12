@@ -19,11 +19,11 @@ AI is a motorcycle for the mind: it multiplies intellectual speed, but it still 
 
 The source extends Steve Jobs's "bicycle for the mind" frame. Computers let humans move faster through symbolic work. AI adds an engine: it can draft, explain, code, compare, diagram, and tutor at a speed that changes the felt cost of thinking.
 
-The key constraint is that acceleration does not remove direction. The human still chooses the destination, notices when the tool is wrong, decides what matters, and supplies desire. This makes AI less like a replacement mind and more like leverage for the human mind.
+The key constraint is that acceleration still needs direction. The human chooses the destination, notices when the tool is wrong, decides what matters, and supplies desire. This makes AI less like a replacement mind and more like leverage for the human mind.
 
 ## Main Claims
 
-AI raises the floor of software creation because more people can build things by describing them. This does not make deep technical knowledge worthless. It increases the advantage of people who understand the layer below the abstraction: software architecture, hardware constraints, data, model behavior, and where the abstraction leaks.
+AI raises the floor of software creation because more people can build things by describing them. It increases the advantage of people who understand the layer below the abstraction: software architecture, hardware constraints, data, model behavior, and where the abstraction leaks.
 
 AI is also an unusually strong tutor. It can meet the learner at the edge of their understanding, re-explain the same concept from multiple angles, generate diagrams, and patiently repair missing foundations. This connects directly to [[wiki/Dimensions/Deep Processing|Deep Processing]] and [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]: the tool is valuable when it helps the human understand more, not when it lets the human stop understanding.
 
