@@ -14,7 +14,7 @@ tags:
 
 # Flow State
 
-Flow State is the user's high-output mode of sustained attention. Use this concept when the main problem is not lack of time, but repeated breaks in attention that make the same work take longer and feel harder.
+Flow State is the user's high-output mode of sustained attention. Use this concept when repeated breaks in attention make the same work take longer and feel harder.
 
 The practical version:
 
@@ -23,7 +23,7 @@ The practical version:
 3. Avoid unnecessary decisions during the block.
 4. Protect the transition into the next task when possible.
 
-Flow State is not the same as motivation. Motivation can fluctuate. Flow is a condition the user can make more likely through environment, task clarity, attention management, and reduced decision friction.
+Flow State is a condition the user can make more likely through environment, task clarity, attention management, and reduced decision friction. Motivation can fluctuate while flow remains trainable.
 
 ## Why It Matters
 

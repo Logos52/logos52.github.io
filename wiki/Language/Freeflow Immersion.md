@@ -18,7 +18,7 @@ Freeflow Immersion is attentive, lower-friction exposure without constant tool u
 
 ## Summary
 
-Freeflow is not passive background watching. It is relaxed but still attentive. The learner tries to follow content directly, with minimal pausing, rewinding, or lookup.
+Freeflow is relaxed but attentive immersion. The learner tries to follow content directly, with minimal pausing, rewinding, or lookup.
 
 This pillar helps convert conscious knowledge into faster instinct.
 

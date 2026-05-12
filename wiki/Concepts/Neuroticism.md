@@ -19,11 +19,11 @@ Neuroticism is a tendency toward heightened emotional reactivity, worry, threat 
 
 In the learning system, neuroticism matters because it can hijack [[wiki/Dimensions/Mindset|Mindset]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], and [[wiki/Dimensions/Self-Management|Self-Management]]. It can turn ordinary difficulty into threat, feedback into identity damage, and uncertainty into avoidance.
 
-This page is not a clinical diagnosis or treatment plan. If anxiety, panic, depression, sleep disruption, or emotional distress is severe, persistent, or interfering with daily life, treat that as a health issue and involve a qualified professional.
+This page is a learning-system note about threat sensitivity and emotional reactivity. If anxiety, panic, depression, sleep disruption, or emotional distress is severe, persistent, or interfering with daily life, treat that as a health issue and involve a qualified professional.
 
 ## Core Idea
 
-Neuroticism is not purely bad.
+Neuroticism has costs and useful signals.
 
 Some neuroticism can be useful. It can create caution, high standards, preparation, sensitivity to risk, and motivation to avoid careless mistakes. This is one reason it often appears in high-achieving people.
 

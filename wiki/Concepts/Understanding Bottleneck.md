@@ -22,11 +22,11 @@ Karpathy's phrase, as paraphrased in the clipping, is that you can outsource thi
 
 ## Why It Matters
 
-This connects the LLM-wiki project to metacognition. A personal wiki is not just storage. It is a way to process fixed data through many projections so that understanding forms in the human, not just in the files.
+A personal wiki is a way to process fixed data through many projections so that understanding forms in the human and in the files.
 
 ## Practical Implication
 
-The wiki should not only answer questions. It should create better questions.
+The wiki should create better questions as well as answer existing ones.
 
 Useful outputs include:
 

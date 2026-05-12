@@ -27,7 +27,7 @@ Decisional delays replace the vague habit of "figuring it out as I go." Executio
 
 ## Why It Matters
 
-The delay is not only the visible minutes between tasks. The bigger cost is the break in [[wiki/Self Management/Flow State|Flow State]].
+The visible minutes between tasks are only part of the delay. The bigger cost is the break in [[wiki/Self Management/Flow State|Flow State]].
 
 When a user stops to decide what to do next, several things happen:
 

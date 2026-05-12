@@ -18,7 +18,7 @@ Retrieval is the dimension responsible for reconstructing and using knowledge af
 
 ## Summary
 
-Retrieval is not review. It is active recall, explanation, problem solving, teaching, mapping, or execution before checking the source.
+Retrieval is active recall, explanation, problem solving, teaching, mapping, or execution before checking the source.
 
 In the user's system, [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is the main operational technique for Retrieval.
 

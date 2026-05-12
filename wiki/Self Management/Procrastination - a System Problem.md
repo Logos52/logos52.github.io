@@ -14,7 +14,7 @@ tags:
 
 # Procrastination: a System Problem
 
-Procrastination is the user's pattern of not doing the intended task when the task should be done. Use this page when the problem is not "I need more motivation," but "something in the task, environment, habit loop, or emotional setup is making action unreliable."
+Procrastination is the user's pattern of not doing the intended task when the task should be done. Use this page when something in the task, environment, habit loop, or emotional setup is making action unreliable.
 
 The practical version:
 

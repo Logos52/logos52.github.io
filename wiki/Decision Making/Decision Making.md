@@ -13,12 +13,12 @@ tags:
 
 # Decision Making
 
-Decision Making is the user's operating layer for choosing under uncertainty without losing time, focus, or adaptability. Use it when the problem is not lack of effort, but too much friction around what to do next, when to commit, when to change course, or how to judge whether a choice was good.
+Decision Making is the user's operating layer for choosing under uncertainty without losing time, focus, or adaptability. Use it when friction around what to do next, when to commit, when to change course, or how to judge whether a choice was good is slowing execution.
 
 The practical version:
 
 1. Reduce low-value choices with [[wiki/Decision Making/Decisional Delays|Decisional Delays]] and [[wiki/Decision Making/Choice Throttling|Choice Throttling]].
-2. Judge decisions by process, not just outcome, with [[wiki/Decision Making/Good Decisions|Good Decisions]].
+2. Judge decisions by process and outcome with [[wiki/Decision Making/Good Decisions|Good Decisions]].
 3. Make uncertain decisions by improving position and expected value with [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]].
 4. Change decisions when new information justifies it with [[wiki/Decision Making/Changing Decisions|Changing Decisions]].
 5. Protect [[wiki/Self Management/Flow State|Flow State]] with [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] and [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] when the decision is about execution.

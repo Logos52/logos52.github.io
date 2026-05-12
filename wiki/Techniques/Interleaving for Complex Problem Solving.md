@@ -21,7 +21,7 @@ Interleaving is the repair when knowledge works in one context but collapses und
 
 ## Core Mechanism
 
-Interleaving is not random mixing. It is controlled reconstruction.
+Interleaving is controlled reconstruction.
 
 ```text
 complex problem

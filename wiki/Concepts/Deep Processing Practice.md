@@ -19,7 +19,7 @@ Deep processing is meaning-making: comparing, evaluating, connecting, simplifyin
 
 ## Summary
 
-Understanding and memory are treated in this corpus as byproducts of processing quality. Trying to understand is not enough. The learner has to perform thought operations that create relationships and meaning.
+Understanding and memory are treated in this corpus as byproducts of processing quality. The learner has to perform thought operations that create relationships and meaning.
 
 ## Deep Processing Behaviors
 

@@ -18,7 +18,7 @@ The Character Primer is the orientation layer for Chinese and Japanese character
 
 ## Summary
 
-Chinese characters are not alphabetic letters. They are reusable written units that can function as words, combine into multi-character words, and contain smaller visual components.
+Chinese characters are reusable written units that can function as words, combine into multi-character words, and contain smaller visual components.
 
 For Mandarin, this page matters because the user wants to work with Traditional Chinese and often needs tooling support to convert from Simplified Chinese input.
 

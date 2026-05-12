@@ -18,13 +18,13 @@ Eric Jorgenson's *The Book of Elon* is a curated operating manual of Elon Musk's
 
 ## Longform Summary
 
-The book is not a biography in the ordinary sense. It is closer to a field manual made from Musk's public statements, organized into principles. The structure moves from personal purpose to engineering discipline, then to company-building, then to humanity-scale goals.
+The book is a field manual made from Musk's public statements, organized into principles. The structure moves from personal purpose to engineering discipline, then to company-building, then to humanity-scale goals.
 
-The first major idea is that purpose should be larger than personal comfort. Musk's recurring frame is that a meaningful life comes from working on problems that improve the probability of a better future. This is why the book repeatedly points toward sustainable energy, multiplanetary life, AI risk, infrastructure, and manufacturing. The motivational center is not lifestyle design. It is usefulness at a large scale.
+The first major idea is that purpose should be larger than personal comfort. Musk's recurring frame is that a meaningful life comes from working on problems that improve the probability of a better future. This is why the book repeatedly points toward sustainable energy, multiplanetary life, AI risk, infrastructure, and manufacturing. The motivational center is usefulness at a large scale.
 
 The second idea is first-principles thinking. The book presents Musk as someone who repeatedly asks what is physically true, what constraints are real, and what costs should be if the system were designed from fundamentals. This is the mental habit behind rockets, electric cars, manufacturing, and aggressive cost reduction. The important distinction is between reasoning from analogy and reasoning from underlying constraints. Analogy asks what others have done. First principles asks what reality permits.
 
-The third idea is engineering as magic made concrete. Engineering is treated as the process of turning imagination into artifacts that change the world. But the book does not romanticize engineering as pure invention. It emphasizes factories, mass production, iteration, constraints, quality, and the physical details of making things work. The factory is not an afterthought; it is part of the product.
+The third idea is engineering as magic made concrete. Engineering is treated as the process of turning imagination into artifacts that change the world. The book emphasizes factories, mass production, iteration, constraints, quality, and the physical details of making things work. The factory is part of the product.
 
 The fourth idea is extreme ownership. The book's "ultra hardcore" middle sections focus on responsibility, deep understanding, frontline leadership, speed, feedback, and adversity. Musk's operating style values people who know the details, move quickly, and accept pressure. The highest-status person in this worldview is not the strategist floating above the work. It is the builder close to the constraint.
 

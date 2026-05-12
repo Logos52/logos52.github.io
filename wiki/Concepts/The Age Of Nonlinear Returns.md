@@ -15,7 +15,7 @@ tags:
 
 # The Age Of Nonlinear Returns
 
-Nonlinear returns means the biggest outcomes do not come from slightly improving the current exchange. They come from preserving the position, trust, optionality, capability, and relationships that make much larger outcomes possible.
+Nonlinear returns means the biggest outcomes come from preserving the position, trust, optionality, capability, and relationships that make much larger outcomes possible.
 
 The mistake is linear accounting:
 
@@ -25,7 +25,7 @@ That question matters, but it is often too small. The better question is:
 
 > Does this keep me exposed to larger upside?
 
-The main prize is not always the current split. The main prize is staying in the game where large outcomes can appear.
+The main prize is staying in the game where large outcomes can appear.
 
 ## Operating Model
 

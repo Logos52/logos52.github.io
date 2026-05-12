@@ -13,7 +13,7 @@ tags:
 
 # Cognitive Load & What Mental Effort Is Trying to Cue
 
-Cognitive load is not just friction. It is information about what the mind is trying to hold, resolve, compare, or transform.
+Cognitive load is information about what the mind is trying to hold, resolve, compare, or transform.
 
 ## Summary
 

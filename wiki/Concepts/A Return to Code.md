@@ -13,7 +13,7 @@ tags:
 
 # A Return to Code
 
-Vibe coding is not the end of coding. It is a return to the original spirit of programming: making the computer do exactly the thing you want, faster and with less ceremony.
+Vibe coding is a return to the original spirit of programming: making the computer do exactly the thing you want, faster and with less ceremony.
 
 ## Core Synthesis
 
@@ -25,7 +25,7 @@ This especially changes the economics of small personal software. A niche workfl
 
 Traditional software production required significant activation energy: frameworks, setup, dependencies, UI work, hosting, and debugging. Coding agents compress that overhead. They can operate across a codebase, run commands, inspect errors, and keep editing.
 
-The human role does not disappear. It shifts toward:
+The human role shifts toward:
 
 - Defining the desired behavior.
 - Providing taste and product judgment.

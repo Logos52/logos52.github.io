@@ -18,7 +18,7 @@ Knowledge mastery is the degree to which a learner can retrieve, relate, evaluat
 
 ## Summary
 
-Mastery is not binary. A learner can know isolated facts while lacking relational understanding, or understand relationships while failing to perform under pressure.
+Mastery develops in layers. A learner can know isolated facts while lacking relational understanding, or understand relationships while failing to perform under pressure.
 
 For this wiki, mastery is treated as a multi-level diagnostic tool. It helps choose the right encoding and retrieval method instead of applying one study technique everywhere.
 

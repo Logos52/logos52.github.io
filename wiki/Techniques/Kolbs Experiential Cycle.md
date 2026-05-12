@@ -18,7 +18,7 @@ Kolbs Experiential Cycle is the user's reflection engine for turning practice in
 
 ## Summary
 
-Practice does not automatically create progress. Kolbs is the loop that converts experience into insight, insight into a better experiment, and the next experiment into cleaner feedback.
+Kolbs is the loop that converts experience into insight, insight into a better experiment, and the next experiment into cleaner feedback.
 
 In this wiki, Kolbs sits under [[wiki/Dimensions/Self-Regulation|Self-Regulation]] and links heavily with [[wiki/Techniques/Marginal Gains|Marginal Gains]]. Marginal Gains chooses the improvement direction; Kolbs runs the improvement cycle.
 

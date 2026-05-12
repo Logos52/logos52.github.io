@@ -18,7 +18,7 @@ Red Teaming is the disciplined practice of helping people and organizations make
 
 ## Why This Is A Core Identity Page
 
-For the user, Red Teaming is not just a professional method. It is an identity root: Army Red Team experience trained a way of seeing the world.
+For the user, Red Teaming is an identity root: Army Red Team experience trained a way of seeing the world.
 
 The durable pattern is:
 

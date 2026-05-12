@@ -20,7 +20,7 @@ The goal is usable structure: a stable mental model where information can sit, c
 
 ## Summary
 
-The system is built around one core idea: useful learning is not just exposure to information. It is the repeated construction, testing, and refinement of a knowledge structure.
+The system is built around one core idea: useful learning is the repeated construction, testing, and refinement of a knowledge structure.
 
 The broader model is [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]. Prestudy creates readiness. Encoding creates the structure. Retrieval stress-tests it. Self-regulation decides what to change next.
 

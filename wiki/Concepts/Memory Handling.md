@@ -17,11 +17,11 @@ Memory handling is the deliberate shaping of new information so it can be encode
 
 ## Summary
 
-The memory transcript reframes poor memory as poor handling. The learner's control point is not raw memory capacity but what happens to information when it first enters working memory.
+The memory transcript reframes poor memory as poor handling. The learner's control point is what happens to information when it first enters working memory.
 
 ## Working Memory Window
 
-Working memory is short and capacity-limited. The practical implication is that learners should not consume first and make sense later. They should handle information immediately before it decays or overloads the workbench.
+Working memory is short and capacity-limited. Learners should handle information immediately before it decays or overloads the workbench.
 
 ## Handling Strategies
 

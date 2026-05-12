@@ -18,7 +18,7 @@ Deep Processing is the dimension responsible for turning information into meanin
 
 ## Summary
 
-Deep Processing is not the same as trying hard to understand. It is the quality of mental operations applied to information: comparing, grouping, prioritizing, evaluating, simplifying, connecting, and reorganizing.
+Deep Processing is the quality of mental operations applied to information: comparing, grouping, prioritizing, evaluating, simplifying, connecting, and reorganizing.
 
 In the user's system, [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] is the main operational technique for Deep Processing.
 

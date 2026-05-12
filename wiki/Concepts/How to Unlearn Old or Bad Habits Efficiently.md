@@ -17,13 +17,13 @@ tags:
 
 Unlearning is the hidden bottleneck in skill acquisition.
 
-Most slow progress does not come from lacking effort, motivation, or technique exposure. It comes from old cue-response habits firing faster than the new skill can stabilize.
+Most slow progress comes from old cue-response habits firing faster than the new skill can stabilize.
 
 The old habit is cheap. The new model is expensive. The old response arrives automatically. The new response requires attention, judgment, and monitoring.
 
-That means long practice can feel productive while mostly burning energy on suppressing the old pattern. The learner works hard, gets tired, and still does not improve much because the actual constraint was never isolated.
+That means long practice can feel productive while mostly burning energy on suppressing the old pattern. The learner works hard, gets tired, and improves slowly because the actual constraint was never isolated.
 
-The repair is not more effort. The repair is cue-response surgery.
+The repair is cue-response surgery.
 
 ## Operating Model
 

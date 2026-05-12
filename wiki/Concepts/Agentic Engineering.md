@@ -19,7 +19,7 @@ Agentic engineering is the practice of using AI agents to move faster while pres
 
 Karpathy's distinction is useful: [[wiki/Concepts/Vibe Coding|Vibe Coding]] raises the floor; agentic engineering raises the ceiling. Vibe coding lets many more people build. Agentic engineering is what skilled operators do when they want speed without giving up correctness, security, architecture, taste, and responsibility.
 
-The core shift is not that "AI writes code." The core shift is that the human increasingly operates as spec writer, taste holder, architect, reviewer, and director of agents.
+The core shift is that the human increasingly operates as spec writer, taste holder, architect, reviewer, and director of agents.
 
 ## Core Idea
 

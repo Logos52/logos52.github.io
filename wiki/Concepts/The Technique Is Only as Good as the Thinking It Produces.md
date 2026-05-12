@@ -15,7 +15,7 @@ tags:
 
 # The Technique Is Only as Good as the Thinking It Produces
 
-Technique-Triggered Thinking is the diagnostic principle that a study technique only matters if it produces the intended thinking. The visible method is not the source of the result. The method is a prompt. The thinking does the learning.
+Technique-Triggered Thinking is the diagnostic principle that a study technique matters when it produces the intended thinking. The method is a prompt. The thinking does the learning.
 
 This is a high-value distinction because it explains a common plateau: the learner appears to be using better methods, but results do not improve because the method has been reduced to a surface routine.
 

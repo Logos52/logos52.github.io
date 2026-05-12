@@ -19,7 +19,7 @@ Suicidal Empathy is empathy without calibration.
 
 Empathy is useful when it improves perception. It becomes dangerous when it disables judgment.
 
-The useful idea is not "empathy is bad." The useful idea is that empathy, like any adaptive trait, can misfire. A trait that normally supports social life can become anti-survival when it overrides boundaries, truth-seeking, victim protection, and self-preservation.
+The useful idea is that empathy, like any adaptive trait, can misfire. A trait that normally supports social life can become anti-survival when it overrides boundaries, truth-seeking, victim protection, and self-preservation.
 
 ## Core Definition
 

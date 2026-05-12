@@ -18,11 +18,11 @@ Gad Saad's *The Parasitic Mind* is a combative defense of reason, free speech, s
 
 ## Longform Summary
 
-The book is part memoir, part culture-war polemic, part epistemology manual. Saad's central metaphor is biological: societies can be infected by bad ideas in the same way bodies can be infected by pathogens. His target is not disagreement in general. It is the class of ideas that, in his view, make people less able to reason, less willing to speak honestly, and more likely to subordinate evidence to ideology.
+The book is part memoir, part culture-war polemic, part epistemology manual. Saad's central metaphor is biological: societies can be infected by bad ideas in the same way bodies can be infected by pathogens. His target is the class of ideas that, in his view, make people less able to reason, less willing to speak honestly, and more likely to subordinate evidence to ideology.
 
 The autobiographical opening matters because Saad grounds the argument in his childhood during the Lebanese Civil War. He presents sectarian violence and identity-based tribalism as formative experiences. This gives the book's later hostility toward identity politics a personal basis: he sees group identity as something that can become existentially dangerous when it overtakes individual dignity and truth-seeking.
 
-The recurring tension is thinking versus feeling. Saad does not argue that emotions are useless. His point is that emotions and reason have domains. Feelings are essential for love, grief, loyalty, art, and motivation. But when a question requires evidence, logic, and reality-testing, feelings cannot be the final judge. Much of the book attacks institutions that he believes have reversed this order, especially universities that prioritize emotional safety over truth-seeking.
+The recurring tension is thinking versus feeling. Saad treats emotions and reason as having different domains. Feelings are essential for love, grief, loyalty, art, and motivation. But when a question requires evidence, logic, and reality-testing, feelings cannot be the final judge. Much of the book attacks institutions that he believes have reversed this order, especially universities that prioritize emotional safety over truth-seeking.
 
 The third major theme is the non-negotiable infrastructure of a free society. Saad highlights free speech, the scientific method, intellectual diversity, merit, individual dignity, and equality of opportunity. He treats these as load-bearing beams. If a culture weakens them, it can still look prosperous for a while, but its ability to correct error declines.
 

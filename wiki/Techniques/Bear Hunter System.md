@@ -15,7 +15,7 @@ tags:
 
 # Bear Hunter System
 
-Bear Hunter System is the user's default encoding workflow for important study material. Use it when the goal is not just to remember information, but to build a structure that can later be retrieved, explained, applied, and adapted.
+Bear Hunter System is the user's default encoding workflow for important study material. Use it to build a structure that can later be retrieved, explained, applied, and adapted.
 
 The practical version:
 

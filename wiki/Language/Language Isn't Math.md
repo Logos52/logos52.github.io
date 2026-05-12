@@ -14,7 +14,7 @@ tags:
 
 # Language Isn't Math
 
-Language is not a rule system where the learner can deduce natural speech from memorized vocabulary plus grammar formulas.
+Language is a pattern system learned through meaningful exposure, repeated examples, and usable phrases in context.
 
 ## Summary
 
@@ -133,4 +133,3 @@ The mindset is especially important for the user's Mandarin and Vietnamese work.
 - How should this change the user's approach to Vietnamese grammar priming?
 - Which Mandarin phrases should be collected as reusable whole-pattern examples?
 - Should the wiki add a phrase-bank template for target-language patterns?
-

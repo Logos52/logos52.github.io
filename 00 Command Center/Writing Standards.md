@@ -56,6 +56,28 @@ Avoid:
 
 Preserve strong existing language unless there is a clear reason to change it.
 
+## Positive Openings
+
+Start pages by saying what the idea **is**, what it does, or how it works.
+
+Avoid opening with "X is not Y" or "the point is not..." as the first move. Use contrast later only when it clarifies a real distinction.
+
+Good opening shape:
+
+```text
+X is the system for...
+X helps the user...
+X turns A into B...
+```
+
+Weak opening shape:
+
+```text
+X is not...
+The point is not...
+The useful version is not...
+```
+
 ## Page Standard
 
 Every durable page should have:

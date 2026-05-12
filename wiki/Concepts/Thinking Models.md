@@ -17,7 +17,7 @@ Thinking models are LLMs tuned to spend more internal computation on difficult p
 
 ## Summary
 
-Karpathy's practical advice is to use fast non-thinking models by default, then switch to a thinking/reasoning model when the problem is hard or the first answer is not good enough.
+Karpathy's practical advice is to use fast models by default, then switch to a thinking/reasoning model when the problem is hard or the first answer needs deeper work.
 
 ## When To Use
 

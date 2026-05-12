@@ -28,7 +28,7 @@ In this wiki, WPW sits under [[wiki/Dimensions/Retrieval|Retrieval]] and [[wiki/
 2. Part: move into each chunk and explain the relevant details.
 3. Whole: return to the overall structure and explain how the parts affect each other.
 
-The point is not to recite notes. The point is to test whether the knowledge structure can be navigated from memory.
+The point is to test whether the knowledge structure can be navigated from memory.
 
 ## What WPW Tests
 

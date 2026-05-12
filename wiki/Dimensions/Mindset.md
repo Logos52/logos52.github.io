@@ -20,7 +20,7 @@ Two book notes now feed this hub from different angles. [[wiki/Books/The Parasit
 
 ## Summary
 
-Mindset is not positive thinking. It is the interpretive layer that determines whether difficulty becomes useful feedback or evidence of personal inadequacy.
+Mindset is the interpretive layer that determines whether difficulty becomes useful feedback or evidence of personal inadequacy.
 
 In this system, Mindset supports sustained contact with challenge. It makes [[wiki/Dimensions/Deep Processing|Deep Processing]], [[wiki/Dimensions/Retrieval|Retrieval]], and [[wiki/Dimensions/Self-Regulation|Self-Regulation]] emotionally sustainable.
 

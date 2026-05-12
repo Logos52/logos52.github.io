@@ -18,7 +18,7 @@ The Hacking Comprehension Menu is a set of levers for making target-language con
 
 ## Summary
 
-The point is not to make every input easy. The point is to move content into a useful difficulty range: hard enough to learn from, understandable enough to stay engaged with.
+The point is to move content into a useful difficulty range: hard enough to learn from, understandable enough to stay engaged with.
 
 This is a [[wiki/Dimensions/Self-Regulation|Self-Regulation]] tool for language learning. When comprehension is too low, choose a lever from the menu instead of quitting or pretending the session was useful.
 
