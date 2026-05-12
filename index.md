@@ -11,10 +11,6 @@ tags:
 
 # LLM Knowledge Base
 
-This is a personal, LLM-maintained knowledge base. The pattern is simple: I curate sources and ask questions; an LLM agent reads, summarizes, cross-references, and keeps a running synthesis here as durable, interlinked markdown pages. The goal is **accumulation** — every source ingested and every question asked makes the wiki a little richer, instead of disappearing into chat history.
-
-If you're new to the idea, the [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]] page explains the pattern, and the [README](README.md) explains how this particular vault is set up.
-
 ## Current Focus
 
 These are good starter pages for the knowledge base right now. Each is meant as a cue before practice.

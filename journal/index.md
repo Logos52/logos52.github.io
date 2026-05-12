@@ -76,6 +76,7 @@ These are blank public shells for private Obsidian workflows. The templates can 
 
 ## Recent Log
 
+- [[journal/calendar#2026-05-12|2026-05-12]]: Simplified Home into a graph-first entrance and moved the longer project explanation into About.
 - [[journal/calendar#2026-05-12|2026-05-12]]: Added Current Focus cues to the Journal and Home pages, compiled [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]], and folded the older unlearning page into the new synthesis.
 - [[journal/red-team-pruning|2026-05-09]]: Pruned the Red Team section down to the identity page, mapped the deleted wiki pages to what I would cut from the handbook, and drafted commentary on Red Team's closure.
 - [[journal/calendar#2026-05-09|2026-05-09]]: Added Journal as the public thinking dashboard for current questions, active threads, possible essays, and a light dated log.

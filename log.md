@@ -10,6 +10,12 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-05-12] maintenance | Simplify homepage orientation
+
+- Removed the long project explanation from [[index|Home]] so the page opens with the knowledge graph and Current Focus.
+- Moved the explanation of the LLM-maintained knowledge-base pattern into [[about|About]] above the personal bio.
+- Kept [[notes/index|Knowledge Base Index]] focused on the full catalog.
+
 ## [2026-05-12] compile | Minimally viable learning system
 
 - Added [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] as a compressed operating loop for using the learning system without overbuilding it.
