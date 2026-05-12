@@ -63,6 +63,80 @@ Compiled [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unl
 
 Synthesized [[outputs/briefs/GPT - Sell the Truth|Sell the Truth]] from the Naval Podcast clipping and moved the source into [[raw/sources/Sell the Truth|raw sources]].
 
+## 2026-05-11
+
+Built the first large outputs layer from the source corpus, including GPT, Grok, and Opus synthesis passes.
+
+The highest-value work centered on the Live Clinics:
+
+- [[outputs/briefs/Opus - Live Clinic 71 First Principles of ICS|Live Clinic 71: First Principles of ICS]]
+- [[outputs/briefs/Opus - Live Clinic 72 Are You Learning or Just Using Techniques|Live Clinic 72: Are You Learning or Just Using Techniques]]
+- [[outputs/briefs/GPT - Live Clinic 71 First principles of iCS|GPT Live Clinic 71]]
+- [[outputs/briefs/GPT - Live Clinic 72 Are you learning, or just using techniques|GPT Live Clinic 72]]
+
+These outputs later became the foundation for [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] and [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]].
+
+Added [[private/Goals/Priority 0|Priority 0]] as a public focus-primer page for active identity sets: Agentic Engineering, Learning Systems, Vietnamese, 中文, Fitness, and Relationships.
+
+Created the first version of the private Goals and Skills structure, while keeping detailed skill/goal work local unless intentionally made public.
+
+Expanded the wiki around:
+
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+- [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]
+- [[wiki/Syntheses/ICS System|ICS System]]
+
+Also added output syntheses for the Triggernometry clippings, including:
+
+- critical thinking and institutional trust;
+- biology, politics, and ideology;
+- Mark Moyar's Vietnam history discussion.
+
+## 2026-05-10
+
+Made the raw source layer local-only so the public GitHub repository keeps the architecture visible without publishing bulky source material.
+
+This was the major privacy and architecture shift:
+
+```text
+raw/ exists as architecture
+-> source contents stay local
+-> wiki and outputs carry public synthesis
+```
+
+Ran a system audit and cleanup pass:
+
+- removed empty placeholder folders;
+- normalized page type/status metadata;
+- renamed Deep Processing concept material into [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]];
+- cleaned broken Red Team links from the log;
+- codified a smaller type/status vocabulary in AGENTS;
+- documented the loose [[outputs/briefs|outputs]] workflow;
+- filed the 2026-05-09 system audit.
+
+Regenerated and refocused [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]].
+
+The emphasis shifted toward fast practical use:
+
+- media frames;
+- activist or narrative-driven institutions;
+- LLM and AI outputs;
+- speed/accuracy balance;
+- testing frames without turning every decision into a slow workshop.
+
+Started the outputs/briefs workflow at scale:
+
+- [[outputs/briefs/Opus - Andrej Karpathy From Vibe Coding to Agentic Engineering|Karpathy: From Vibe Coding to Agentic Engineering]]
+- [[outputs/briefs/GPT - A Motorcycle for the Mind|A Motorcycle for the Mind]]
+- [[outputs/briefs/GPT - A Return to Code|A Return to Code]]
+- [[outputs/briefs/GPT - How CEOs Need to Learn|How CEOs Need to Learn]]
+- [[outputs/briefs/GPT - How to Remember Everything You Read|How to Remember Everything You Read]]
+- [[outputs/briefs/Opus - How to Remember Everything You Read|Opus: How to Remember Everything You Read]]
+- [[outputs/briefs/Opus - How to Change Your Life in 2026 with Reverse Goal Setting|Opus: Reverse Goal Setting]]
+
+This was the transition from only compiling wiki pages into maintaining a separate output layer for source syntheses before deciding what belongs in the durable wiki.
+
 ## 2026-05-09
 
 Added [[journal/red-team-pruning|Red Team Pruning Notes]] and drafted [[blog/on-red-teams-closure|On Red Team's Closure]].
