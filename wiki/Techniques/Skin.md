@@ -14,7 +14,7 @@ tags:
 
 # Skin
 
-Skin is the third step of [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]. It turns the rough [[wiki/Techniques/Aim|Aim]] and [[wiki/Techniques/Shoot|Shoot]] map into a clean structure for retrieval.
+The rough map has to be cleaned before it can reliably support retrieval. Skin is the third step of [[wiki/Techniques/Bear Hunter System|Bear Hunter System]].
 
 The practical goal: consolidate, integrate, simplify, and decide what the final chunk structure should look like.
 
@@ -64,7 +64,7 @@ To repair it:
 - remove arrows that do not matter enough to test;
 - rebuild from a flat concept list if the source hierarchy is biasing the map.
 
-The goal is not fewer relationships. The goal is cleaner relationships.
+The goal is cleaner relationships.
 
 ### 5. Rename Chunks
 

@@ -15,7 +15,7 @@ tags:
 
 # Neuroticism
 
-Neuroticism is a tendency toward heightened emotional reactivity, worry, threat sensitivity, self-doubt, and negative emotional spirals. In the Big Five personality model, it is one of the broad traits used to describe stable patterns in how people think, feel, and behave.
+Threat can feel larger, closer, and more personal when emotional reactivity, worry, self-doubt, and negative spirals run high. In the Big Five personality model, neuroticism describes this stable pattern in how people think, feel, and behave.
 
 In the learning system, neuroticism matters because it can hijack [[wiki/Dimensions/Mindset|Mindset]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], and [[wiki/Dimensions/Self-Management|Self-Management]]. It can turn ordinary difficulty into threat, feedback into identity damage, and uncertainty into avoidance.
 
@@ -73,7 +73,7 @@ The learner may look disciplined from the outside while still being driven by th
 | Avoidance | "I will go back to what feels safer." | Protects comfort but blocks growth. |
 | Rumination | "I keep replaying the same fear." | Burns attention without producing action. |
 
-The goal is not to remove all concern. The goal is to turn concern into useful information and action.
+The goal is to turn concern into useful information and action.
 
 ## Cognitive Distortions
 
@@ -105,7 +105,7 @@ Notice the recurring thought patterns:
 - What do they make me want to do?
 - What happens to my mood, confidence, attention, and productivity?
 
-The goal is not immediate correction. The first goal is visibility.
+The first goal is visibility.
 
 ### Attention
 
@@ -182,7 +182,7 @@ Useful metrics:
 - Did the feared consequence actually happen?
 - What did reality show compared with expectation?
 
-The point is not to make emotions into a spreadsheet forever. The point is to create evidence that the emotional prediction is not always accurate.
+The point is to create evidence that the emotional prediction is not always accurate.
 
 ## Management
 

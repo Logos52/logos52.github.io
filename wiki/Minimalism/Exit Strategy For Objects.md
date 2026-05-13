@@ -12,7 +12,7 @@ tags:
 
 # Exit Strategy For Objects
 
-Exit Strategy For Objects is the rule for how an object will leave before it enters.
+An object should have a clean way to leave before it earns a place in the system.
 
 Every purchase creates a future removal problem. A clean exit strategy reduces hesitation, resale delay, storage buildup, and guilt.
 

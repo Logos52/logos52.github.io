@@ -14,7 +14,7 @@ tags:
 
 # Importance-Based Chunking
 
-Importance-based chunking is the practice of grouping information by why it matters, what role it plays, and how it changes the rest of the topic.
+Information becomes easier to use when it is grouped by why it matters, what role it plays, and how it changes the rest of the topic.
 
 ## Summary
 

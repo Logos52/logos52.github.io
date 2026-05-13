@@ -13,7 +13,7 @@ tags:
 
 # Are You Thinking, or Just Consuming?
 
-Active learning is defined by the kind of thinking the learner performs.
+Learning becomes active when the learner has to compare, predict, explain, retrieve, decide, or build with the material.
 
 ## Summary
 

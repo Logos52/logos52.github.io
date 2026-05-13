@@ -14,7 +14,7 @@ tags:
 
 # Noticing Game
 
-The Noticing Game is the beginner-friendly attention technique for early immersion.
+Early immersion becomes less opaque when the learner deliberately hunts for recognizable pieces.
 
 ## Summary
 

@@ -13,7 +13,7 @@ tags:
 
 # Refold Grammar Primers
 
-Refold Grammar Primers are lightweight grammar orientation tools designed to improve comprehension during immersion.
+Grammar helps most when it orients attention during immersion instead of becoming a production rulebook.
 
 ## Summary
 

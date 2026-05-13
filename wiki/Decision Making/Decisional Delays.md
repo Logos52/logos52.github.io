@@ -14,7 +14,7 @@ tags:
 
 # Decisional Delays
 
-Decisional Delays are the small gaps where the user has to decide what to do next. Use this concept when the day technically has enough time, but focus keeps leaking between tasks.
+Focus often leaks in the small gaps where the user has to decide what to do next. Use Decisional Delays when the day technically has enough time, but transition friction keeps breaking the thread.
 
 The practical version:
 
@@ -48,7 +48,7 @@ Use a short audit.
 4. Compare the planned schedule to the real task flow.
 5. Count unplanned transition time and focus breaks.
 
-The goal is not perfect time tracking. The goal is to see whether decisions between tasks are creating hidden drag.
+The goal is to see whether decisions between tasks are creating hidden drag.
 
 ## How To Reduce It
 

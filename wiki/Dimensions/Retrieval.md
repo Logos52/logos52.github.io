@@ -14,7 +14,7 @@ tags:
 
 # Retrieval
 
-Retrieval is the dimension responsible for reconstructing and using knowledge after encoding.
+Knowledge has to be reconstructed and used after encoding, or it decays into familiarity.
 
 ## Summary
 

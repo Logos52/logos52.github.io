@@ -14,7 +14,7 @@ tags:
 
 # YouTube Immersion Account
 
-A YouTube immersion account is a separate recommendation environment for target-language content.
+YouTube becomes more useful for language learning when the recommendation environment is trained around target-language content.
 
 ## Summary
 

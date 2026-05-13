@@ -60,7 +60,7 @@ A technique is only good relative to:
 - the surrounding system,
 - and the kind of thinking the technique produces.
 
-The question is not "Is this a 10/10 technique?" The question is "What effect is this supposed to create, and does that effect serve the system?"
+The useful question is: "What effect is this supposed to create, and does that effect serve the system?"
 
 This also means the learner can create or modify techniques. If the desired effect is clear, the method can be designed around that effect.
 
@@ -132,7 +132,7 @@ Useful signals:
 - the learner can explain why chunks belong together,
 - and the material starts to feel usable instead of merely familiar.
 
-These signals are not final proof of mastery. [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] still has to test the knowledge. But they help guide adjustment before formal performance data is available.
+These signals help guide adjustment before formal performance data is available. [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] still has to test the knowledge.
 
 ## When Results Are Not Improving
 
@@ -165,7 +165,7 @@ Ways to make a technique harder to fake:
 - add a short reflection after the attempt,
 - and use retrieval to expose whether the map can actually be used.
 
-The goal is not to make study painful. The goal is to prevent the learner from unconsciously choosing the easiest thought pattern when the task requires a harder one.
+The goal is to prevent the learner from unconsciously choosing the easiest thought pattern when the task requires a harder one.
 
 ## Application To BHS
 
@@ -215,7 +215,7 @@ This links directly to [[wiki/Techniques/Marginal Gains|Marginal Gains]]: choose
 
 ## End State
 
-The target feeling is not perfect memory. Knowledge always decays without review.
+The target feeling is organized usability. Knowledge always decays without review.
 
 The target is organized usability:
 

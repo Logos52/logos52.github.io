@@ -15,7 +15,7 @@ tags:
 
 # The Shortcut Problem
 
-The Shortcut Problem is the tendency to escape hard thinking by doing something that looks like learning but avoids the cognition that actually creates learning.
+Hard thinking often gets replaced by visible activity that looks like learning while avoiding the cognition that actually creates learning.
 
 It is especially dangerous because it usually feels productive. A note gets written. A highlight gets made. A map gets drawn. A prompt gets answered. But the learner may have avoided the evaluation, comparison, uncertainty, reconstruction, or organization that the task required.
 
@@ -56,7 +56,7 @@ Some shortcuts are not deliberate choices. They are old cue-response habits. If 
 
 ## Why It Matters
 
-The goal of learning techniques is not activity. The goal is to produce a specific kind of thinking.
+The goal of learning techniques is to produce a specific kind of thinking.
 
 [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] explains the positive version: choose a method because it triggers the cognition the goal requires.
 
@@ -72,7 +72,7 @@ The Shortcut Problem is the negative version: the learner performs the method wh
 | [[wiki/Techniques/Shoot|Shoot]] | Filling the map with source explanations. | Use sources to answer Aim questions and revise structure. |
 | [[wiki/Techniques/Skin|Skin]] | Making the map neat. | Make the map easier to reconstruct and use. |
 
-The question is not whether the map exists. The question is whether the map forced importance, relationship, and chunking decisions.
+The question is whether the map forced importance, relationship, and chunking decisions.
 
 ## How It Shows Up In Retrieval
 
@@ -115,7 +115,7 @@ Practical constraints:
 - Use [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] to name the shortcut after it happens.
 - Choose one [[wiki/Techniques/Marginal Gains|marginal gain]] that targets the shortcut directly.
 
-The point is not to make study harder for its own sake. The point is to prevent the learner from unconsciously replacing learning with performance theater.
+The point is to prevent the learner from unconsciously replacing learning with performance theater.
 
 ## Related Pages
 

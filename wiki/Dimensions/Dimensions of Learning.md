@@ -13,7 +13,7 @@ tags:
 
 # Dimensions of Learning
 
-The dimensions of learning are the central hub model for the user's study system.
+The study system becomes easier to diagnose when learning is separated into five dimensions.
 
 ## Summary
 

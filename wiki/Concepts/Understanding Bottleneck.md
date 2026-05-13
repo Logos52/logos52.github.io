@@ -14,7 +14,7 @@ tags:
 
 # Understanding Bottleneck
 
-The understanding bottleneck is the idea that even when LLMs can outsource large amounts of thinking and production, the human still has to understand enough to direct the work.
+Even when LLMs outsource large amounts of thinking and production, the human still has to understand enough to direct the work.
 
 ## Summary
 

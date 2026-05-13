@@ -36,7 +36,7 @@ The title echoes Steve Jobs's "bicycle for the mind" metaphor, but the upgrade m
 
 ## Learning by Doing
 
-The strongest practical idea is that AI collapses the distance between idea and implementation. In older workflows, a learner often had to study for a long time before making anything useful. With AI, the learner can start making almost immediately, then use the artifact as feedback.
+AI collapses the distance between idea and implementation. In older workflows, a learner often had to study for a long time before making anything useful. With AI, the learner can start making almost immediately, then use the artifact as feedback.
 
 This changes the learning loop:
 
@@ -124,4 +124,3 @@ This links to [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] and [[wi
 2. Where does action now beat more research?
 3. Which skills are still worth learning deeply because they improve direction and taste?
 4. What parts of this knowledge base should become tools rather than static notes?
-

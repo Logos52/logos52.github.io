@@ -13,7 +13,7 @@ tags:
 
 # Building the Radar
 
-Building the radar is the practice of learning to notice when your mind shifts from active processing into passive consumption.
+The mind often shifts from active processing into passive consumption before the learner notices it.
 
 ## Summary
 

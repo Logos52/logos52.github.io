@@ -25,7 +25,7 @@ Sales works best when it stops feeling like sales.
 
 The operating model is not persuasion through tactics. It is credibility, truth, enthusiasm, and fit. The person selling should understand the thing deeply, believe it is worth doing, explain it clearly, and walk away when the fit is wrong.
 
-The strongest pitch is not pressure. It is accurate transmission of a real conviction.
+Persuasion begins with accurate transmission of a real conviction.
 
 ## The Operating Model
 
@@ -270,4 +270,3 @@ Warning signs:
 - What deal, project, or commitment would constrain future optionality too much?
 - Which good obsession deserves to be fed this season?
 - Where do I need more rational empathy before disagreeing?
-

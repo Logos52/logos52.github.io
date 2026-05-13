@@ -15,7 +15,7 @@ tags:
 
 # Bear Hunter System
 
-Bear Hunter System is the user's default encoding workflow for important study material. Use it to build a structure that can later be retrieved, explained, applied, and adapted.
+Important study material needs to become a structure that can later be retrieved, explained, applied, and adapted. Use Bear Hunter System as the default encoding workflow for that job.
 
 The practical version:
 
@@ -179,7 +179,7 @@ The user should treat BHS as the core study engine:
 - **Skin** protects consolidation.
 - **SIR** protects long-term access.
 
-The goal is not to make perfect maps. The goal is to make knowledge easier to reconstruct, use, and improve.
+The goal is to make knowledge easier to reconstruct, use, and improve.
 
 ## LLM Use
 
@@ -201,7 +201,7 @@ Bad LLM use:
 
 ## How It Should Feel
 
-BHS should feel like the topic is becoming more organized while you learn it. The main signal is not that the map looks good. The signal is that the map is making your thinking more structured.
+BHS should feel like the topic is becoming more organized while you learn it. The main signal is that the map is making your thinking more structured.
 
 Good signs:
 

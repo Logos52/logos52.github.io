@@ -14,7 +14,7 @@ tags:
 
 # WPW
 
-WPW is a high-volume retrieval technique that moves between the whole topic, its parts, and the whole again.
+Some topics need retrieval that moves from the whole, into the parts, and back to the whole again.
 
 ## Summary
 

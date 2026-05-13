@@ -104,7 +104,7 @@ A good position creates more future options. A bad position reduces them.
 | Can I extract more? | Will extracting more damage future opportunity? |
 | Is this fair in isolation? | Is this wise across time? |
 
-The goal is not to be passive, naive, or endlessly generous. The goal is to stop mistaking small visible gains for large invisible losses.
+The goal is to stop mistaking small visible gains for large invisible losses.
 
 ## Small-Pie Conflict
 
@@ -202,7 +202,7 @@ Small workflow improvements can compound quickly:
 - better handoff between agents,
 - better judgment about when to stop.
 
-The output of one session can improve every later session. That is nonlinear. The point is not only to finish the current build. The point is to improve the system that builds.
+The output of one session can improve every later session. That is nonlinear. The point is to improve the system that builds.
 
 This is why shortcuts are dangerous. A hacky fix may save ten minutes today while creating a hidden tax on every future agent session.
 

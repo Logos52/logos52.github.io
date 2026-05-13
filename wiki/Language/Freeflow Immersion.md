@@ -14,7 +14,7 @@ tags:
 
 # Freeflow Immersion
 
-Freeflow Immersion is attentive, lower-friction exposure without constant tool use.
+Target-language exposure needs a lower-friction mode where attention stays alive without constant tool use.
 
 ## Summary
 

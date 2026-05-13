@@ -15,7 +15,7 @@ tags:
 
 # Spaced Interleaved Retrieval
 
-Spaced Interleaved Retrieval is the user's main retrieval system. It protects encoded knowledge from decay while forcing the learner to find gaps, vary contexts, and improve transfer.
+Encoded knowledge decays unless it is reconstructed, spaced, varied, and repaired over time. Spaced Interleaved Retrieval is the user's main system for that work.
 
 ## Summary
 
@@ -168,7 +168,7 @@ The danger is overusing the LLM as the thinker. The user should retrieve first, 
 
 ## How It Should Feel
 
-SIR should feel like controlled strain. The point is not to feel fluent. The point is to expose what can and cannot be reconstructed under spacing, variation, and discrimination.
+SIR should feel like controlled strain. The point is to expose what can and cannot be reconstructed under spacing, variation, and discrimination.
 
 Good signs:
 

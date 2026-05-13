@@ -13,7 +13,7 @@ tags:
 
 # Wiki Health Checks
 
-Wiki health checks are periodic LLM-assisted reviews that improve coverage, consistency, and source discipline.
+Coverage, consistency, and source discipline improve when the wiki gets periodic LLM-assisted reviews.
 
 ## Checks
 

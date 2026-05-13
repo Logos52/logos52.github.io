@@ -14,7 +14,7 @@ tags:
 
 # Reverse Goal Setting
 
-Reverse Goal Setting is a planning method for complex goals. Instead of only naming the outcome you want, you work backward from the kind of person who could realistically achieve it.
+Complex goals become more actionable when the plan starts from the kind of person who could realistically achieve the outcome.
 
 The central idea is simple: outcomes are controlled indirectly through the skills, attributes, habits, resources, and actions that increase the probability of reaching them.
 
@@ -36,7 +36,7 @@ Reverse Goal Setting fixes this by making the path more visible.
 
 ## Core Principle
 
-The goal is not the true target. The true target is the outcome the goal is supposed to create.
+The true target is the outcome the goal is supposed to create.
 
 That outcome might be:
 

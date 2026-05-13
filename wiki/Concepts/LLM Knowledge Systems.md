@@ -13,7 +13,7 @@ tags:
 
 # LLM Knowledge Systems
 
-LLM knowledge systems are workflows where language models help collect, compile, query, audit, and extend a body of knowledge stored in durable files such as markdown.
+Language models can help a body of knowledge compound when they collect, compile, query, audit, and extend durable files such as markdown.
 
 ## Summary
 

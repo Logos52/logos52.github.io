@@ -14,7 +14,7 @@ tags:
 
 # Self-Regulation
 
-Self-Regulation is the dimension responsible for monitoring, diagnosing, and adjusting the learning process.
+Learning improves faster when the learner can monitor, diagnose, and adjust the process while it is happening.
 
 Red Teaming is a professionalized form of self-regulation for decisions. It asks whether the current frame, group process, assumptions, and failure analysis are good enough before committing to action.
 
@@ -24,7 +24,7 @@ Self-Regulation is the control system. It notices what is happening during learn
 
 If [[wiki/Dimensions/Deep Processing|Deep Processing]] is the encoding engine and [[wiki/Dimensions/Retrieval|Retrieval]] is the testing engine, Self-Regulation is the driver.
 
-The strongest recent refinement is the pair of [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] and [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]. The first treats overwhelm as the cue for meta-strategy. The second checks whether a technique is actually triggering the thinking it was supposed to trigger.
+The recent refinement is the pair of [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] and [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]. The first treats overwhelm as the cue for meta-strategy. The second checks whether a technique is actually triggering the thinking it was supposed to trigger.
 
 ## What This Dimension Controls
 

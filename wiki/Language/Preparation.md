@@ -13,7 +13,7 @@ tags:
 
 # Preparation
 
-Preparation is the pillar for learning enough about the language to make immersion more useful.
+Immersion becomes more useful when the learner has enough orientation to notice sounds, words, characters, grammar, and patterns.
 
 ## Summary
 

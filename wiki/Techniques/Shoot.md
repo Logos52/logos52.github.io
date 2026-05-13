@@ -14,7 +14,7 @@ tags:
 
 # Shoot
 
-Shoot is the second step of [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]. It is where you use sources to answer your [[wiki/Techniques/Aim|Aim]] questions and build the working map.
+Sources become useful when they answer the questions created during [[wiki/Techniques/Aim|Aim]] and start forming a working map. Shoot is the second step of [[wiki/Techniques/Bear Hunter System|Bear Hunter System]].
 
 The practical goal: satisfy curiosity, clarify relationships, add detail, and keep constructing the map while learning.
 
@@ -39,7 +39,7 @@ Do not copy source order unless the source order is genuinely the best structure
 
 ### 3. Keep Updating The Map
 
-Shoot is not a clean final product.
+Shoot is a working map built while the source is still open.
 
 While shooting:
 

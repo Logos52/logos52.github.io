@@ -14,7 +14,7 @@ tags:
 
 # Procrastination: a System Problem
 
-Procrastination is the user's pattern of not doing the intended task when the task should be done. Use this page when something in the task, environment, habit loop, or emotional setup is making action unreliable.
+Action becomes unreliable when the task, environment, habit loop, or emotional setup makes avoidance cheaper than starting. Use Procrastination when the intended task is clear but still does not happen.
 
 The practical version:
 
@@ -78,7 +78,7 @@ Examples:
 - set up the notebook,
 - study for two minutes.
 
-The point is not that two minutes is enough. The point is that starting changes the state of the system. Once the user is already in motion, the next step often becomes easier.
+Starting changes the state of the system. Once the user is already in motion, the next step often becomes easier.
 
 ## Environment First
 

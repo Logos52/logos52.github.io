@@ -2,8 +2,8 @@
 type: hub
 status: developing
 created: 2026-05-12
-updated: 2026-05-12
-source-count: 3
+updated: 2026-05-13
+source-count: 4
 tags:
   - minimalism
   - self-management
@@ -25,6 +25,8 @@ Money matters, but money is often not the bottleneck. Bandwidth is the bottlenec
 Minimalism works when it becomes a systems question:
 
 > What am I maintaining that no longer supports the life I am building?
+
+Minimalism is intentional selection. Empty space matters because it lets chosen objects, behaviors, and defaults carry the room.
 
 ## Core Model
 
@@ -66,8 +68,6 @@ consolidate objects
 ```
 
 ## Animal Crossing Theory
-
-The Animal Crossing point is one of the strongest ideas in the source.
 
 When the floor is overloaded, object manipulation becomes expensive. You cannot move freely. You cannot slide things around. Every change requires moving something else first.
 
@@ -124,6 +124,27 @@ Useful ratio:
 | First clean-room target | 7 | 3 |
 
 The ratio matters because empty space changes behavior before it changes aesthetics.
+
+## Visible Defaults
+
+The room should make the intended behavior easy to notice and easy to begin.
+
+Objects act like prompts. A clear desk prompts work. Visible immersion material prompts language contact. Training gear placed correctly prompts movement. Random surfaces full of unrelated objects prompt scanning, delay, and avoidance.
+
+Good defaults reduce the number of decisions required to start:
+
+```text
+chosen object is visible
+-> intended behavior becomes obvious
+-> startup friction drops
+-> action begins with less willpower
+```
+
+This is where minimalism becomes self-management. The room does part of the prompting, filtering, and attention protection before the user has to think.
+
+Useful test:
+
+> What behavior does this layout make automatic?
 
 ## Storage Is Deferred Decision-Making
 
@@ -249,6 +270,26 @@ Minimalism asks:
 
 This makes reduction a self-understanding practice. The visible task is decluttering. The deeper task is choosing the life system.
 
+## What The Room Should Feel Like
+
+A well-designed minimal room should feel light, usable, and behaviorally clear.
+
+Good signs:
+
+- the next action is easier to see;
+- cleaning requires less negotiation;
+- attention has fewer irrelevant hooks;
+- useful objects are easy to reach;
+- the room reflects the current life rather than abandoned identities;
+- empty space feels like maneuverability rather than deprivation.
+
+Warning signs:
+
+- the room looks clean but does not support real behavior;
+- tools are hidden so deeply that useful action becomes harder;
+- objects are removed for image rather than ownership cost;
+- the space becomes a performance of minimalism instead of a support system.
+
 ## Section Map
 
 | Page | Role |
@@ -260,7 +301,7 @@ This makes reduction a self-understanding practice. The visible task is declutte
 
 ## Potential Weaknesses
 
-Minimalism can become dogma when it starts optimizing emptiness instead of life.
+Minimalism becomes dogma when it optimizes emptiness instead of life.
 
 Watch for:
 

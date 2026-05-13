@@ -13,7 +13,7 @@ tags:
 
 # Balancing Multiple Interests: Breadth v Focus
 
-Balancing Multiple Interests is the practice of keeping a broad identity alive while limiting the number of interests that are active at the same time.
+A broad identity can stay alive without letting every interest become active at the same time.
 
 The operating model is controlled rotation: keep the full set of interests alive in a long-term vision, but limit the number that are active in the current season.
 
@@ -51,7 +51,7 @@ long-term vision holds the full set
 -> review cycles rotate interests back in
 ```
 
-The point is not to do less forever. The point is to stop paying the switching cost every day.
+The point is to stop paying the switching cost every day.
 
 ## Two Layers
 
@@ -104,7 +104,7 @@ Ask:
 
 For low-stakes decisions, use a stricter rule: if it is not an obvious yes for this season, it is a no for this season.
 
-This is not a judgment on the interest. It is a judgment on the current active set.
+This judges the current active set, not the worth of the interest.
 
 ## Failure Modes
 
@@ -196,7 +196,7 @@ Ask:
 - Which interests mostly create guilt?
 - Which interest can safely sleep for another season?
 
-The output is not a task list. The output is a clean map of what still matters.
+The output is a clean map of what still matters.
 
 ### Seasonal Activation
 

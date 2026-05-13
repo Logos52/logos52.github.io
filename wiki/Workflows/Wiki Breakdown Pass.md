@@ -13,7 +13,7 @@ tags:
 
 # Wiki Breakdown Pass
 
-A wiki breakdown pass finds missing pages, split candidates, and new connections. It expands the wiki deliberately instead of letting hub pages become overloaded.
+Missing pages, split candidates, and new connections should be found deliberately before hub pages become overloaded.
 
 ## Purpose
 

@@ -10,6 +10,19 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-05-13] output | NX synthesis and writing-style refinement
+
+- Added NX output syntheses for the old Emacs/Org-mode corpus:
+  - [[outputs/briefs/GPT - NX 2022 Knowledge System|GPT - NX 2022 Knowledge System]]
+  - [[outputs/briefs/GPT - NX Anti-Marketing|GPT - NX Anti-Marketing]]
+  - [[outputs/briefs/GPT - NX Style|GPT - NX Style]]
+  - [[outputs/briefs/GPT - NX Minimalism|GPT - NX Minimalism]]
+  - [[outputs/briefs/GPT - NX Meiwaku|GPT - NX Meiwaku]]
+  - [[outputs/briefs/GPT - NX Enabling Environment and Scenius|GPT - NX Enabling Environment and Scenius]]
+  - [[outputs/briefs/GPT - NX Evergreen Notes|GPT - NX Evergreen Notes]]
+- Updated [[00 Command Center/Writing Standards|Writing Standards]] to avoid ranking voice, source-evaluation residue, rigid template headings, and label-first first sentences.
+- Ran a wiki-wide intro pass to make first sentences start from mechanism, pressure, action, or context instead of defaulting to glossary-style definitions.
+
 ## [2026-05-12] compile | Minimalism section
 
 - Added [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] as an environmental systems-design frame for reducing ownership cost, preserving slack, and making physical space support the life being built.

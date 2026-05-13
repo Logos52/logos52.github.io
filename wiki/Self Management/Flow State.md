@@ -14,7 +14,7 @@ tags:
 
 # Flow State
 
-Flow State is the user's high-output mode of sustained attention. Use this concept when repeated breaks in attention make the same work take longer and feel harder.
+Sustained attention becomes high-output when the task, environment, and mental state stop fighting each other. Use Flow State when repeated breaks in attention make the same work take longer and feel harder.
 
 The practical version:
 
@@ -64,7 +64,7 @@ Useful protections:
 - use short breaks before exhaustion becomes high,
 - and keep a next-action queue ready for the next task.
 
-The goal is not to become rigid. The goal is to keep execution mode from turning back into planning mode every few minutes.
+The goal is to keep execution mode from turning back into planning mode every few minutes.
 
 ## Flow And Breaks
 

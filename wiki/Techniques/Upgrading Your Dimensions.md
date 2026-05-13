@@ -13,7 +13,7 @@ tags:
 
 # Upgrading Your Dimensions
 
-Upgrading Your Dimensions is the strategy for improving the user's learning system across short-term foundations and long-term cognitive growth.
+The learning system improves when short-term foundations and long-term cognitive growth are upgraded deliberately instead of left to chance.
 
 ## Summary
 

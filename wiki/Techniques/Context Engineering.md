@@ -13,7 +13,7 @@ tags:
 
 # Context Engineering
 
-Context engineering is the practice of shaping the information available to an LLM so it can perform a task accurately and efficiently.
+LLMs perform better when the available information is shaped around the task, constraints, examples, and desired output.
 
 ## Summary
 

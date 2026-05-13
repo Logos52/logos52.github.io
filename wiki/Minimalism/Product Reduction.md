@@ -12,7 +12,7 @@ tags:
 
 # Product Reduction
 
-Product Reduction is the practical process of reducing possessions so the remaining environment supports the intended life.
+The environment becomes lighter when possessions are reduced until what remains supports the intended life.
 
 The method works by making the ownership load visible, reducing high-cost objects first, and using each discard as feedback.
 

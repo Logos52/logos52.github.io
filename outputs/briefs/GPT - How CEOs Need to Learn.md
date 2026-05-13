@@ -87,7 +87,7 @@ This is the same logic behind [[wiki/Techniques/Spaced Interleaved Retrieval|Spa
 
 ## The Pre-Structure Method
 
-The strongest practical method in the source is Sung's pre-structure workflow.
+The practical method is Sung's pre-structure workflow.
 
 Instead of reading a book, course, or topic linearly, start by building a rough map of the domain before you understand it deeply.
 
@@ -255,4 +255,3 @@ Possible new or expanded pages:
 3. Should the wiki include a public "how to learn from books" workflow based on this source?
 4. How should this connect to the user's private Kolb templates and skill logs?
 5. Should output briefs like this become the default intermediate step before updating stable wiki pages?
-

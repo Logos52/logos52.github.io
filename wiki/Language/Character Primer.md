@@ -14,7 +14,7 @@ tags:
 
 # Character Primer
 
-The Character Primer is the orientation layer for Chinese and Japanese character-based writing systems.
+Character-based writing systems become easier to enter when the learner has an orientation layer for components, recognition, and repeated exposure.
 
 ## Summary
 

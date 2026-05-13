@@ -14,7 +14,7 @@ tags:
 
 # Deep Processing
 
-Deep Processing is the dimension responsible for turning information into meaning, structure, and usable knowledge.
+Information becomes usable when the learner turns it into meaning, structure, and retrievable relationships.
 
 ## Summary
 

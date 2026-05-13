@@ -142,11 +142,9 @@ Good signs:
 - the structure feels more navigable,
 - the topic starts to feel usable instead of merely familiar.
 
-This is not final proof. [[wiki/Techniques/Spaced Interleaved Retrieval|Retrieval]] and objective performance still have to test the knowledge. But subjective process signals help the learner steer before formal results appear.
+These signals help the learner steer before formal results appear. [[wiki/Techniques/Spaced Interleaved Retrieval|Retrieval]] and objective performance still have to test the knowledge.
 
 ## The End-State Feeling
-
-The target is not perfect memory.
 
 The target is organized usability:
 
@@ -183,7 +181,7 @@ Ask:
 6. What subjective signal should I monitor next time?
 7. What objective check will eventually confirm it?
 
-The goal is not to collect better techniques. The goal is to make each technique produce the right thinking.
+The goal is to make each technique produce the right thinking.
 
 ## Related Pages
 

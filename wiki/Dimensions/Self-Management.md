@@ -14,7 +14,7 @@ tags:
 
 # Self-Management
 
-Self-Management is the dimension responsible for making learning executable in real life.
+Learning has to survive time, energy, environment, attention, and competing obligations before it becomes executable in real life.
 
 ## Summary
 

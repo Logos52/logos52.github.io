@@ -193,7 +193,7 @@ The learner may plan a new response, try to use it, and then discover a deeper c
 - shame around not understanding;
 - anxiety around experimentation.
 
-This is not a distraction. This is the bottleneck revealing itself.
+This is the bottleneck revealing itself.
 
 If fear blocks the new response, train the fear response first. Make experimentation safer. Break the task smaller. Lower the cost of the mistake. Use [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] to identify what actually stopped the action.
 

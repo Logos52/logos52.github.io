@@ -12,7 +12,7 @@ tags:
 
 # Ownership Cost
 
-Ownership Cost is the full cost of keeping an object in the system.
+Keeping an object costs more than its purchase price.
 
 The purchase price is only the entry fee. Objects continue charging through space, maintenance, cleaning, attention, storage, setup friction, and future decisions.
 

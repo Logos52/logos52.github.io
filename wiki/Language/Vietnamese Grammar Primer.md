@@ -14,7 +14,7 @@ tags:
 
 # Vietnamese Grammar Primer
 
-This is a draft Vietnamese grammar primer modeled on the Refold grammar-primer workflow: learn enough grammar to notice and understand patterns in immersion, not to memorize rules for output.
+Vietnamese grammar should make immersion easier to notice and understand before it becomes something to memorize for output.
 
 ## Status
 
