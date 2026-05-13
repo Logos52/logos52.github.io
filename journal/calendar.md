@@ -15,6 +15,25 @@ A lightweight chronological index for public journal entries and thinking-log up
 
 ## 2026-05-13
 
+Added [[journal/knowledge-base-as-thinking-partner-reflection|Knowledge Base as Thinking Partner Reflection]].
+
+The current question:
+
+> How do I use the knowledge base to free attention from bookkeeping while increasing the amount of thinking I actually do?
+
+Working rule:
+
+```text
+offload maintenance
+protect struggle
+retrieve before browsing
+sketch before synthesis
+turn links into schemas
+turn schemas into action
+```
+
+Later expanded the entry with the current second-brain / first-brain tension: the system can surface high-order connections that would otherwise remain unseen, but those connections may not be hard-won enough to build durable schemas in the user's own mind. The current working solution is to treat the knowledge base as a set of primers and jumping-off points for active skills and goals, while preserving first-brain struggle before asking the system to synthesize. The unresolved question is whether AI frees the mind for higher-order thinking, like calculators did, or quietly weakens the training that makes higher-order thinking possible.
+
 Added [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] to the Current Focus list on [[journal/index|Journal]] and [[index|Home]].
 
 The working cue:

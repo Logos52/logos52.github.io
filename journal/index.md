@@ -14,6 +14,7 @@ tags:
 ## What's On My Mind
 
 - [[wiki/Workflows/Knowledge Base as Thinking Partner|How should I use the knowledge base as a thinking partner instead of only an archive?]]
+- [[journal/knowledge-base-as-thinking-partner-reflection|How do I use the knowledge base to free attention from bookkeeping without weakening my own thinking?]]
 - [[wiki/Syntheses/Minimally Viable Learning System|Is it possible to compress the learning system into a minimally viable system?]]
 - Can that compression also fit inside the five learning dimensions, so each dimension can be improved separately?
 - What usable frames should guide each Priority 0 skill: Agentic Engineering, Learning Systems, Vietnamese, 中文, Fitness, and Relationships?
@@ -77,6 +78,7 @@ These are blank public shells for private Obsidian workflows. The templates can 
 
 ## Recent Log
 
+- [[journal/knowledge-base-as-thinking-partner-reflection|2026-05-13]]: Reflected on [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] and the risk that the system could create passive connection-browsing instead of stronger first-brain schema building.
 - [[journal/calendar#2026-05-13|2026-05-13]]: Added [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] to Current Focus and set Minimalism graph nodes to black in light mode and white in dark mode.
 - [[journal/calendar#2026-05-12|2026-05-12]]: Simplified Home into a graph-first entrance and moved the longer project explanation into About.
 - [[journal/calendar#2026-05-12|2026-05-12]]: Added Current Focus cues to the Journal and Home pages, compiled [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]], and folded the older unlearning page into the new synthesis.
