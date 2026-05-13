@@ -14,7 +14,7 @@ tags:
 
 # Hacking Comprehension Menu
 
-The Hacking Comprehension Menu is a set of levers for making target-language content more understandable.
+Target-language content becomes more useful when the learner can adjust difficulty without abandoning real input.
 
 ## Summary
 

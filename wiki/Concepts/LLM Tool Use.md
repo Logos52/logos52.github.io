@@ -13,7 +13,7 @@ tags:
 
 # LLM Tool Use
 
-LLM tool use extends a model beyond its parameter memory by letting it call search, code execution, file systems, interpreters, or other tools.
+A model becomes more useful when it can reach beyond parameter memory into search, code execution, file systems, interpreters, and other tools.
 
 ## Summary
 

@@ -13,7 +13,7 @@ tags:
 
 # Cognitive Load & What Mental Effort Is Trying to Cue
 
-Cognitive load is information about what the mind is trying to hold, resolve, compare, or transform.
+Mental effort often points to the work the mind is trying to hold, resolve, compare, or transform.
 
 ## Summary
 

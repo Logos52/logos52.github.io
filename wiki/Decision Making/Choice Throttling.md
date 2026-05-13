@@ -13,7 +13,7 @@ tags:
 
 # Choice Throttling
 
-Choice Throttling is a technique for reducing a decision to a small set of closed questions. Use it when a choice feels vague because too many variables are floating around at once.
+A vague decision becomes easier to handle when too many floating variables are reduced into a small set of closed questions. Use Choice Throttling when the user needs the decision space narrowed before judgment can work.
 
 The practical version:
 
@@ -60,7 +60,7 @@ Each question should reduce the decision space.
 
 Open questions create sprawl. Closed questions create movement.
 
-The point is not to oversimplify important choices. The point is to isolate the variables that actually matter. Some yes/no questions may take time to answer, especially when values or consequences are unclear. That is still progress because the user now knows what information is missing.
+The point is to isolate the variables that actually matter. Some yes/no questions may take time to answer, especially when values or consequences are unclear. That is still progress because the user now knows what information is missing.
 
 ## Failure Modes
 

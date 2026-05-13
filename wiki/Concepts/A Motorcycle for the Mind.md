@@ -27,7 +27,7 @@ AI raises the floor of software creation because more people can build things by
 
 AI is also an unusually strong tutor. It can meet the learner at the edge of their understanding, re-explain the same concept from multiple angles, generate diagrams, and patiently repair missing foundations. This connects directly to [[wiki/Dimensions/Deep Processing|Deep Processing]] and [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]: the tool is valuable when it helps the human understand more, not when it lets the human stop understanding.
 
-The human edge is agency. The source argues that entrepreneurs, scientists, artists, and serious learners are not simply filling jobs; they are pursuing self-directed problems. AI helps them because the work is already harder than their current capacity.
+The human edge is agency. Entrepreneurs, scientists, artists, and serious learners pursue self-directed problems that already exceed their current capacity. AI helps when it expands the range, speed, and quality of that pursuit.
 
 ## Practical Rules
 
@@ -40,7 +40,7 @@ The human edge is agency. The source argues that entrepreneurs, scientists, arti
 
 ## Why This Matters For This Wiki
 
-This LLM wiki is a motorcycle-for-the-mind environment. The point is not to collect more text. The point is to increase the speed and quality of synthesis while preserving human direction.
+This LLM wiki is a motorcycle-for-the-mind environment. The point is to increase the speed and quality of synthesis while preserving human direction.
 
 Good use:
 

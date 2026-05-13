@@ -14,7 +14,7 @@ tags:
 
 # Marginal Gains
 
-Marginal Gains is the user's improvement-prioritization model: choose small, high-probability improvements that compound.
+Improvement becomes easier to start when the next gain is small, concrete, high-probability, and likely to compound.
 
 The same logic applies outside studying. In fast-moving technical work, small improvements to search, review, source hygiene, feedback speed, and sense-making loops can compound into a much stronger operating system.
 

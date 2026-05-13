@@ -14,7 +14,7 @@ tags:
 
 # Immersion Metalayers
 
-Immersion metalayers are tools placed on top of content to make target-language input easier to inspect and understand.
+Real input becomes easier to inspect when tools are layered on top of content without replacing immersion.
 
 ## Summary
 

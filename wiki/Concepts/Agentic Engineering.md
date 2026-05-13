@@ -15,7 +15,7 @@ tags:
 
 # Agentic Engineering
 
-Agentic engineering is the practice of using AI agents to move faster while preserving the quality bar of serious engineering.
+AI agents can move implementation faster than traditional workflows, but the engineering bar still has to be protected by human judgment, architecture, verification, and taste.
 
 Karpathy's distinction is useful: [[wiki/Concepts/Vibe Coding|Vibe Coding]] raises the floor; agentic engineering raises the ceiling. Vibe coding lets many more people build. Agentic engineering is what skilled operators do when they want speed without giving up correctness, security, architecture, taste, and responsibility.
 

@@ -14,7 +14,7 @@ tags:
 
 # Aim
 
-Aim is the first step of [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]. It points your brain before you start learning.
+Learning goes better when the brain has a target before the source starts pouring in. Aim is the first step of [[wiki/Techniques/Bear Hunter System|Bear Hunter System]].
 
 The practical goal: create high-quality questions that make you search for importance, relationships, and chunks.
 

@@ -15,7 +15,7 @@ tags:
 
 # Attention Management: Preserving Flow
 
-Attention Management is the user's advanced system for preserving [[wiki/Self Management/Flow State|Flow State]] across the day. Use it to move through tasks without repeatedly losing the thread.
+Flow breaks when attention has to be rebuilt from zero after every transition. Use Attention Management to move through tasks without repeatedly losing the thread.
 
 The practical version:
 
@@ -121,7 +121,7 @@ These measurements turn attention into something the user can self-regulate rath
 
 ## When Not To Use It
 
-Attention Management is not always the right mode.
+Attention Management works best when the day needs deliberate control over transitions, task order, and flow protection.
 
 Use stricter time-boxing when:
 

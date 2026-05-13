@@ -15,7 +15,7 @@ tags:
 
 # Suicidal Empathy
 
-Suicidal Empathy is empathy without calibration.
+Empathy becomes dangerous when it loses calibration.
 
 Empathy is useful when it improves perception. It becomes dangerous when it disables judgment.
 

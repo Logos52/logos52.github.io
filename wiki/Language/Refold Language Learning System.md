@@ -14,7 +14,7 @@ tags:
 
 # Refold Language Learning System
 
-Refold is an immersion-first language learning system. Its core claim is that fluency is built by turning the language into increasingly comprehensible experience until words, sounds, grammar, and phrasing become instinctive.
+Fluency grows when the language becomes increasingly comprehensible experience until words, sounds, grammar, and phrasing become instinctive.
 
 For this vault, Refold is the language-learning counterpart to the [[wiki/Syntheses/ICS System|ICS System]]. ICS explains how to learn deliberately; Refold gives the domain-specific operating system for language acquisition. The bridge between them is simple: use metacognitive control to choose better input, sustain attention, increase comprehension, notice patterns, and accumulate hours.
 

@@ -13,7 +13,7 @@ tags:
 
 # Decision Making
 
-Decision Making is the user's operating layer for choosing under uncertainty without losing time, focus, or adaptability. Use it when friction around what to do next, when to commit, when to change course, or how to judge whether a choice was good is slowing execution.
+Choosing under uncertainty should preserve time, focus, and adaptability instead of draining them. Use Decision Making when friction around what to do next, when to commit, when to change course, or how to judge whether a choice was good is slowing execution.
 
 The practical version:
 
@@ -27,7 +27,7 @@ This section is related to [[wiki/Red Team/Red Teaming|Red Teaming]], but it has
 
 ## Core Idea
 
-Good decisions are not the same thing as good outcomes.
+Good decisions are judged by process first.
 
 Outcomes contain luck, timing, incomplete information, and changing conditions. The decision process is the part the user can improve. Outcomes still matter, but they should be treated as feedback about the process rather than as the only scorecard.
 

@@ -13,7 +13,7 @@ tags:
 
 # Wiki Status Checks
 
-Wiki status checks are lightweight read-mostly audits that answer: what shape is the knowledge base in right now, and what should improve next?
+The knowledge base needs lightweight read-mostly audits that answer: what shape is it in right now, and what should improve next?
 
 ## When To Use
 

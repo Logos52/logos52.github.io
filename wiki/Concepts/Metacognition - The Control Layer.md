@@ -13,7 +13,7 @@ tags:
 
 # Metacognition: The Control Layer
 
-Metacognition is awareness of how thinking is happening while it is happening, especially the ability to notice the strategy, effort, difficulty, and failure mode of a learning process.
+Learning improves when the learner can notice how thinking is happening while it is happening: the strategy, effort, difficulty, and failure mode of the process.
 
 ## Summary
 

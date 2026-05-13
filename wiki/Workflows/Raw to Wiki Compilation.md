@@ -13,7 +13,7 @@ tags:
 
 # Raw to Wiki Compilation
 
-Raw to wiki compilation is the process of turning source material into durable, linked, cited wiki pages.
+Source material becomes more valuable when it is turned into durable, linked, cited wiki pages.
 
 ## Workflow
 

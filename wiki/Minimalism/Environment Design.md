@@ -2,8 +2,8 @@
 type: concept
 status: developing
 created: 2026-05-12
-updated: 2026-05-12
-source-count: 2
+updated: 2026-05-13
+source-count: 3
 tags:
   - minimalism
   - self-management
@@ -13,7 +13,7 @@ tags:
 
 # Environment Design
 
-Environment Design is the practice of arranging physical space so the desired behavior becomes easier and the undesired behavior becomes harder.
+Physical space can make desired behavior easier and undesired behavior harder before willpower enters the picture.
 
 The room is part of the system. It cues action, consumes attention, creates friction, and shapes the default path of the day.
 
@@ -27,6 +27,8 @@ space contains cues
 ```
 
 Good environment design reduces the number of decisions required to start.
+
+The room should make defaults visible. The desired behavior should be easier to notice than the distraction.
 
 ## Empty Floor As Control Surface
 
@@ -63,6 +65,27 @@ For fitness, the environment should make the first movement obvious.
 
 For language learning, the environment should make immersion easy to enter.
 
+## Visible Defaults
+
+Visible defaults are objects or layouts that quietly tell the user what to do next.
+
+Examples:
+
+- a clear desk with only the current work surface open;
+- headphones and target-language media ready before an immersion block;
+- exercise clothes or equipment placed where the first movement is obvious;
+- a reading surface that contains the current book instead of a pile of abandoned options;
+- a charging setup that prevents cable friction from becoming a daily annoyance.
+
+The rule:
+
+```text
+make desired behavior visible
+make competing behavior less available
+```
+
+This is intentional selection. The room does not need to be empty. It needs to show the right next action.
+
 ## Relationship To Focus
 
 Environment Design supports [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] by reducing the number of competing cues inside a work block.
@@ -76,6 +99,7 @@ The environment should carry part of the self-management load.
 | Failure | What It Looks Like | Repair |
 | --- | --- | --- |
 | Visual minimalism | The room looks clean but does not support action. | Start from behavior, then design the space. |
+| Hidden usefulness | Useful tools are removed or buried for the sake of clean surfaces. | Keep selected tools visible when they prompt Priority 0 behavior. |
 | Storage hiding | Clutter disappears into boxes and cabinets. | Reduce ownership cost, then store what remains. |
 | Friction blindness | The same annoying setup repeats daily. | Treat recurring setup friction as a design bug. |
 | Attention leaks | Objects keep pulling the mind away from the intended task. | Remove, hide, or relocate the cue. |

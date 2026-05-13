@@ -14,7 +14,7 @@ tags:
 
 # Knowledge Mastery: From Recognition to Usable Knowledge
 
-Knowledge mastery is the degree to which a learner can retrieve, relate, evaluate, and use knowledge across contexts.
+Knowledge becomes mastered when the learner can retrieve, relate, evaluate, and use it across contexts.
 
 ## Summary
 

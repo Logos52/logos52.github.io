@@ -13,7 +13,7 @@ tags:
 
 # Agent-Native Infrastructure
 
-Agent-native infrastructure is software, documentation, and operational tooling designed for agents to use directly.
+Agents work better when the surrounding software, documentation, and operational tooling are legible to them from the start.
 
 ## Summary
 

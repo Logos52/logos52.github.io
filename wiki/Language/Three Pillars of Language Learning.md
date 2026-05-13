@@ -13,7 +13,7 @@ tags:
 
 # Three Pillars of Language Learning
 
-The three pillars are the balancing model for the user's Refold-based language learning system.
+Language learning stays balanced when preparation, interactive immersion, and freeflow immersion each do their job.
 
 ## Summary
 

@@ -15,7 +15,7 @@ tags:
 
 # First Principles of ICS
 
-First Principles of ICS explains the structure underneath the study system: processing quality, strategies, and meta-strategies. The purpose is to understand the levels of the system well enough that you can self-correct when a technique becomes difficult, confusing, or fake-productive.
+The study system becomes self-correcting when the learner can see three levels at once: processing quality, strategies, and meta-strategies. First Principles of ICS explains those levels well enough to adjust when a technique becomes difficult, confusing, or fake-productive.
 
 The core move is simple: treat overwhelm as disorganized information. When learning gets hard, the common response is to retreat into lower-order habits. The better response is to turn confusion into a question, then use that question to organize the next move.
 
@@ -158,7 +158,7 @@ Useful response:
 - correct,
 - repeat.
 
-The goal is not to push through overwhelm with willpower. The goal is to make overwhelm more precise. "I am confused" is not actionable. "I do not understand why A leads to B under condition C" is actionable.
+The goal is to make overwhelm more precise. "I am confused" is not actionable. "I do not understand why A leads to B under condition C" is actionable.
 
 ## From Emotion To Question
 
@@ -214,7 +214,7 @@ This is why "consume first, organize later" is weak. Short-term memory is too br
 
 ## Retrieval Runs Beside Encoding
 
-Retrieval is not a fourth level of the hierarchy. It is a parallel track.
+Retrieval runs as a parallel track alongside the hierarchy.
 
 Encoding is harder because the brain is selective about what it stores. Retrieval is often easier to train because the learner can access useful processing through reconstruction, comparison, and gap detection.
 
@@ -283,7 +283,7 @@ Ask:
 6. What question would turn the overwhelm into organization?
 7. What is the next small correction?
 
-The point is not to avoid difficulty. The point is to make difficulty usable.
+The point is to make difficulty usable.
 
 ## Related Pages
 

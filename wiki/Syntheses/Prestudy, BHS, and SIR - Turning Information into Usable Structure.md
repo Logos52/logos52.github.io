@@ -14,7 +14,7 @@ tags:
 
 # Prestudy, BHS, and SIR: Turning Information into Usable Structure
 
-This page summarizes the user's current study system as a three-part loop: prepare the frame with [[wiki/Techniques/Prestudy|Prestudy]], encode new material through [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], then preserve and improve it through [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
+Usable study structure starts before the main learning event, continues through active encoding, and survives through retrieval. The current loop is [[wiki/Techniques/Prestudy|Prestudy]] for the frame, [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] for encoding, and [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] for preservation and improvement.
 
 The goal is usable structure: a stable mental model where information can sit, connect, and later be reconstructed.
 
@@ -47,7 +47,7 @@ Its job is to create:
 - likely relationships;
 - enough context to follow detail without overload.
 
-Prestudy is not detail learning. It is not memorization. It is not a polished map. It is the reference image for the puzzle.
+Prestudy is the reference image for the puzzle. It gives the learner a rough frame before detailed learning, memorization, or map refinement begins.
 
 Use [[wiki/Techniques/Prestudy|Prestudy]] before lectures, dense readings, videos, workshops, or any session where first contact would be too fast and too crowded.
 

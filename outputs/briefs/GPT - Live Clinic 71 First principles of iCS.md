@@ -48,7 +48,7 @@ The system needs both encoding and retrieval. Encoding keeps processing quality 
 
 ## Overwhelm Is the Cue
 
-The clinic's strongest practical insight is that overwhelm is often misread.
+Overwhelm is often misread.
 
 Most learners treat overwhelm as a sign that something is wrong. They feel confused, and the automatic response is to reduce the discomfort. That usually means falling back to lower-order habits:
 
@@ -212,4 +212,3 @@ Clinic 71 is the system-level clinic.
 Its message is not "use more iCS techniques." Its message is: understand the principles deeply enough to self-correct.
 
 The learner improves when overwhelm stops being a reason to retreat and becomes a signal to organize. Confusion becomes a question. Questions create priming. Priming improves encoding. Encoding gives retrieval something useful to work with. Retrieval exposes gaps. Reflection turns gaps into the next experiment.
-

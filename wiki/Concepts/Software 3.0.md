@@ -13,7 +13,7 @@ tags:
 
 # Software 3.0
 
-Software 3.0 is the idea that natural-language context and prompts become a programming medium for LLM interpreters.
+Natural-language context and prompts become a programming medium when LLMs can interpret them as instructions, constraints, examples, and executable intent.
 
 ## Summary
 

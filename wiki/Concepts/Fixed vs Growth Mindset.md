@@ -14,7 +14,7 @@ tags:
 
 # Fixed vs Growth Mindset
 
-Fixed vs growth mindset describes how a learner interprets ability, intelligence, mistakes, effort, feedback, and identity.
+Difficulty becomes useful or threatening depending on how the learner interprets ability, intelligence, mistakes, effort, feedback, and identity.
 
 A growth mindset treats ability as developable. A fixed mindset treats ability as evidence of who you are. In the ICS learning system, this distinction matters because mindset controls whether the learner can stay in contact with difficulty long enough to improve.
 

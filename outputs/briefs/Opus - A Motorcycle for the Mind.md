@@ -68,7 +68,7 @@ The implication for use: the human still has to want. Direction is a human input
 
 ## AI as a Tutor Who Meets You Where You Are
 
-The strongest practical claim in the talk is about learning. AI can be the most patient tutor in human history — willing to explain a concept a hundred different ways at exactly your level. Most teachers and textbooks fail because they pitch above or below the student. AI, well-prompted, lands at the student's actual edge of knowledge, where the aha moment happens. This is the part of the talk most directly relevant to the user's wiki and learning system.
+AI can be the most patient tutor in human history, willing to explain a concept a hundred different ways at exactly your level. Most teachers and textbooks fail because they pitch above or below the student. AI, well-prompted, lands at the student's actual edge of knowledge, where the aha moment happens. This connects directly to the user's wiki and learning system.
 
 Two practical patterns Naval shares: (1) run queries through several frontier models in parallel, then drill down with the best one, occasionally cross-examining when uncertain; (2) request diagrams, illustrations, and analogies — visual thinking compounds the verbal explanation.
 

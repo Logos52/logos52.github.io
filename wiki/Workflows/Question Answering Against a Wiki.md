@@ -13,7 +13,7 @@ tags:
 
 # Question Answering Against a Wiki
 
-Question answering against a wiki means using the existing markdown knowledge base as the main context for research answers.
+Research answers improve when the existing markdown knowledge base becomes the first context instead of an afterthought.
 
 ## Workflow
 

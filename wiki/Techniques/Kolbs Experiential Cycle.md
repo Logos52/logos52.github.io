@@ -14,7 +14,7 @@ tags:
 
 # Kolbs Experiential Cycle
 
-Kolbs Experiential Cycle is the user's reflection engine for turning practice into improvement.
+Practice becomes improvement when experience is reflected on, abstracted, tested, and used to shape the next attempt.
 
 ## Summary
 
@@ -43,7 +43,7 @@ When a Kolb feels vague, use one Red Team residue question:
 
 > Why did this happen, and what deeper condition made that possible?
 
-Repeat only until the answer becomes actionable. The point is not a formal Five Whys ritual. The point is to move past the first explanation.
+Repeat only until the answer becomes actionable. The point is to move past the first explanation.
 
 ## What Bad Kolbs Looks Like
 

@@ -14,7 +14,7 @@ tags:
 
 # Changing Decisions
 
-Changing Decisions is the skill of revising a choice when new information changes the decision quality. Use it when the user is unsure whether persistence is discipline or rigidity.
+New information can turn persistence into rigidity if the original choice no longer has the same decision quality. Use Changing Decisions when the user is unsure whether to continue, revise, or stop.
 
 The practical version:
 
@@ -38,7 +38,7 @@ Rigidity appears when the user keeps going mainly because:
 - loss feels more painful than future upside,
 - or the user confuses consistency with good judgment.
 
-The question is not "Did I commit?" The question is "Does this still make sense with the information I have now?"
+The useful question is: "Does this still make sense with the information I have now?"
 
 ## When Changing Is Better
 

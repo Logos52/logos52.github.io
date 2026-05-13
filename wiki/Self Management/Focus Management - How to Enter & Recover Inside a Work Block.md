@@ -14,7 +14,7 @@ tags:
 
 # Focus Management: How to Enter & Recover Inside a Work Block
 
-Focus Management is the user's system for creating, maintaining, and recovering attention inside a work block. Use it when study time exists on the calendar, but the quality of attention is too inconsistent to produce good learning.
+Study time only matters when the quality of attention inside the block is strong enough to produce learning. Use Focus Management when time exists on the calendar, but attention is too inconsistent to do good work.
 
 The practical version:
 
@@ -52,7 +52,7 @@ Before a focus block:
 4. Put a distraction cheat sheet nearby.
 5. Start with a short ritual that signals the transition into work.
 
-The ritual can be simple: open the same workspace, put the phone away, start a timer, take a breath, write the first action, then begin. The value is not ceremony. The value is reducing the number of decisions needed to start.
+The ritual can be simple: open the same workspace, put the phone away, start a timer, take a breath, write the first action, then begin. Its value is reducing the number of decisions needed to start.
 
 ## Distraction Cheat Sheet
 
@@ -81,7 +81,7 @@ When the answer is no, the repair should be small and immediate:
 - take a short break,
 - or downgrade to a minimum viable action.
 
-The skill is not perfect focus. The skill is noticing drift early enough that recovery is cheap.
+The skill is noticing drift early enough that recovery is cheap.
 
 ## Work-Rest Timing
 

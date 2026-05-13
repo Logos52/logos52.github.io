@@ -2,7 +2,7 @@
 type: synthesis
 status: developing
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 tags:
   - learning-system
   - priority-0
@@ -12,7 +12,7 @@ tags:
 
 # Minimally Viable Learning System
 
-The current minimally viable learning system is [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] plus [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
+The smallest useful version of the learning system is [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] plus [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
 
 ```text
 BHS -> encode usable structure
@@ -44,7 +44,7 @@ Prestudy -> BHS -> SIR
 
 [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] keeps that map alive through reconstruction, spacing, interleaving, and gap repair.
 
-The system is not complete because it contains every useful technique. It is complete because it preserves the main learning loop:
+The system is complete enough when it preserves the main learning loop:
 
 ```text
 frame
@@ -56,7 +56,7 @@ frame
 
 ## What Makes It Minimal
 
-The minimum system does not try to optimize every dimension at once.
+The minimum system keeps attention on the few questions that make the session work.
 
 It asks:
 
@@ -70,7 +70,7 @@ If those five questions are answered, the learning session has a spine.
 
 That spine can be improved later with [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]], or [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]].
 
-But those are not the minimum. They are upgrades.
+Those supports are upgrades. Add them when they improve the core loop instead of making the system heavier.
 
 ## The Minimum Loop
 
@@ -98,9 +98,7 @@ This is enough to prevent the most common failure: consuming information that ne
 
 ## Five Dimensions As Diagnostics
 
-The five learning dimensions are not the minimum system.
-
-They are diagnostic lenses for improving the minimum system.
+The five learning dimensions improve the minimum system by diagnosing where BHS + SIR is weak.
 
 | Dimension | What It Diagnoses Inside BHS + SIR | Upgrade Direction |
 | --- | --- | --- |
@@ -121,9 +119,7 @@ Trying to improve all five dimensions separately can become too abstract. The be
 
 ## Where Agentic Engineering Might Fit
 
-[[wiki/Concepts/Agentic Engineering|Agentic Engineering]] may or may not fit inside this learning system.
-
-Right now, it is better treated as an adjacent skill system being explored.
+[[wiki/Concepts/Agentic Engineering|Agentic Engineering]] is an adjacent skill system being explored.
 
 Possible fit:
 
@@ -136,7 +132,7 @@ Kolbs -> reflect on the workflow
 
 The danger is forcing agentic engineering into a study model when it may need a build model.
 
-The shared pattern is not "study." The shared pattern is usable structure:
+The shared pattern is usable structure:
 
 - clear frame,
 - good questions,
@@ -150,15 +146,13 @@ Agentic Engineering may use BHS and SIR as support tools, but it probably needs 
 
 ## Where This Knowledge Base Might Fit
 
-The knowledge base is not automatically part of the minimum learning system.
-
-It can serve three roles:
+The knowledge base can support the minimum learning system in three roles:
 
 1. **Archive**: preserve useful syntheses.
 2. **Thinking partner**: generate questions, frames, and next moves.
 3. **Retrieval surface**: make old ideas easier to revisit, connect, and apply.
 
-The open question is whether the knowledge base should become part of the BHS + SIR loop.
+The open question is how much the knowledge base should participate in the BHS + SIR loop.
 
 Possible model:
 
@@ -169,9 +163,7 @@ the knowledge base preserves the refined map
 future sessions retrieve from the knowledge base
 ```
 
-This is promising, but it should not be assumed.
-
-If the knowledge base becomes a place where ideas are stored but not retrieved, it is an archive. If it changes the next question, next retrieval, or next action, it becomes part of the learning system.
+This becomes useful when the knowledge base changes the next question, retrieval attempt, or action. Stored ideas that never return to practice stay in archive mode.
 
 See [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]].
 

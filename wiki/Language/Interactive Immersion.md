@@ -13,7 +13,7 @@ tags:
 
 # Interactive Immersion
 
-Interactive Immersion is the pillar for deliberately working with real input using tools and attention.
+Real input becomes a learning session when tools and attention are used deliberately instead of passively consuming content.
 
 ## Summary
 

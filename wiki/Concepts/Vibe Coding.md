@@ -13,7 +13,7 @@ tags:
 
 # Vibe Coding
 
-Vibe coding is letting an AI coding agent take substantial control of implementation while the human steers with high-level intent.
+Implementation can move quickly when an AI coding agent handles the low-level construction while the human steers with high-level intent.
 
 ## Summary
 

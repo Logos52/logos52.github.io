@@ -13,7 +13,7 @@ tags:
 
 # ICS System
 
-The ICS System is a staged learning operating system for becoming a self-directed learner: control the process, build the five dimensions, replace weak habits, encode deeply, retrieve intelligently, and improve through reflection.
+Self-directed learning requires a system for controlling the process, building the five dimensions, replacing weak habits, encoding deeply, retrieving intelligently, and improving through reflection.
 
 The point is process control. Prestudy, encoding, retrieval, reflection, and system upgrades work together so the learner improves one real constraint at a time instead of trying to force outcomes directly.
 
@@ -91,7 +91,7 @@ The five dimensions are the diagnostic map of the learner.
 | [[wiki/Dimensions/Self-Management|Self-Management]] | Protect time, focus, attention, energy, and execution. | Good intentions never become consistent practice. |
 | [[wiki/Dimensions/Mindset|Mindset]] | Interpret difficulty, mistakes, feedback, and identity. | Challenge becomes threat instead of information. |
 
-The dimensions are not motivational labels. They are working parts of a learning machine.
+The dimensions are working parts of a learning machine.
 
 ## Core Operating Loop
 
@@ -270,7 +270,7 @@ The system uses [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] to turn pract
 - abstraction,
 - next experiment.
 
-The point is not to write long reflections. The point is to extract the next useful improvement from an attempt.
+The point is to extract the next useful improvement from an attempt.
 
 ## Decision-Making Layer
 

@@ -13,7 +13,7 @@ tags:
 
 # Positional Decisions and Expected Value
 
-Positional Decisions are choices that improve the user's future leverage, even when the final outcome is uncertain. Use this frame when a decision cannot be made with certainty, but one option creates a better future position.
+Some choices matter because they improve future leverage, even when the final outcome is uncertain. Use Positional Decisions when certainty is unavailable, but one option creates a better future position.
 
 The practical version:
 
@@ -37,7 +37,7 @@ A positional decision asks:
 - Does it increase leverage or flexibility?
 - Does it make future decisions easier?
 
-The goal is not to predict perfectly. The goal is to move into a better decision position.
+The goal is to move into a better decision position.
 
 ## Expected Value
 

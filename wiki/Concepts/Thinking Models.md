@@ -13,7 +13,7 @@ tags:
 
 # Thinking Models
 
-Thinking models are LLMs tuned to spend more internal computation on difficult problems, often improving performance on tasks such as math, coding, and logic.
+Some LLMs improve difficult-task performance by spending more internal computation on problems such as math, coding, and logic.
 
 ## Summary
 

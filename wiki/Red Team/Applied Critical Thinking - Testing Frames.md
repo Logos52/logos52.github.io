@@ -15,7 +15,7 @@ tags:
 
 # Applied Critical Thinking: Testing Frames
 
-Applied Critical Thinking is the Red Team habit of turning doubt into better judgment.
+Doubt becomes useful when it is turned into better judgment instead of hesitation, cynicism, or vibes.
 
 It is the disciplined pause between seeing a claim and accepting the claim.
 
@@ -37,7 +37,7 @@ The practical version:
 6. Look for the most likely failure path.
 7. Decide what would change the recommendation.
 
-The goal is not to delay action. The goal is to prevent a bad frame from moving straight into belief, speech, planning, or execution.
+The goal is to prevent a bad frame from moving straight into belief, speech, planning, or execution while preserving decision speed.
 
 ## Speed And Accuracy
 
@@ -87,7 +87,7 @@ Most people do not need a slow formal Red Team process for every article, podcas
 
 Mainstream media can be wrong for ordinary reasons: speed, incentives, ideological capture, activist framing, poor sourcing, selective omission, and institutional self-protection.
 
-The point is not to assume the opposite of the media frame is true. That is just reverse gullibility.
+The useful move is to test the media frame without automatically adopting its opposite. Automatic inversion is just reverse gullibility.
 
 The point is to separate:
 
@@ -124,7 +124,7 @@ Fast questions:
 - What should I verify before acting?
 - What competent opposing view is absent?
 
-The goal is not to distrust AI. The goal is to keep human judgment above model fluency.
+The goal is to keep human judgment above model fluency.
 
 This is why Applied Critical Thinking belongs inside [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]: good agent work requires fast review loops, not blind acceptance and not endless inspection.
 
@@ -248,7 +248,7 @@ Applied Critical Thinking should make action cleaner, not impossible.
 
 [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] adds a useful communication layer to Applied Critical Thinking.
 
-The point is not to win the frame. The point is to see clearly enough to choose well.
+The point is to see clearly enough to choose well.
 
 Rational empathy means reconstructing another person's position well enough to see the valid part of it. This is different from agreement. It is also different from surrender. It lets the thinker preserve what is true in the other frame while still rejecting weak assumptions, bad evidence, emotional pressure, or strategic nonsense.
 

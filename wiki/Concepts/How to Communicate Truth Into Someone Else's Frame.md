@@ -20,7 +20,7 @@ Sales works best when it stops feeling like sales.
 
 The operating model is credibility, truth, enthusiasm, and fit. The person selling should understand the thing deeply, believe it is worth doing, explain it clearly, and walk away when the fit is wrong.
 
-The strongest pitch is accurate transmission of a real conviction.
+Persuasion begins with accurate transmission of a real conviction.
 
 ## Operating Model
 
@@ -58,7 +58,7 @@ The sequence:
 4. Add the stronger frame.
 5. Disagree plainly when the frame is actually wrong.
 
-This is not conflict avoidance. It is precision. Immediate contradiction often attacks the person before understanding the model. Rational empathy lets the valid part survive while the weak part gets replaced.
+This is precision. Immediate contradiction often attacks the person before understanding the model. Rational empathy lets the valid part survive while the weak part gets replaced.
 
 This connects strongly to [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]: the point is not to win the frame. The point is to see clearly enough to choose well.
 
@@ -173,7 +173,7 @@ Walk away from bad deals early. Preserve optionality, time, reputation, and peac
 
 The upside is often much larger than the near-term split. In power-law domains, the main prize is not a slightly better division of small spoils. It is preserving the time, trust, reputation, optionality, and capability required to participate in the large outcome.
 
-That changes how selling, negotiation, leadership, and collaboration should feel. The point is not to maximize every local exchange. The point is to stay in the position where the next large opportunity remains available.
+That changes how selling, negotiation, leadership, and collaboration should feel. The point is to stay in the position where the next large opportunity remains available.
 
 ## Failure Modes
 

@@ -2,7 +2,7 @@
 type: system
 status: developing
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-13
 tags:
   - system
   - writing
@@ -17,6 +17,8 @@ These standards guide new pages and substantial rewrites in this wiki. They do n
 
 Write useful operating notes, not generic articles.
 
+A durable wiki page should help the reader use the idea, not merely recognize it. The page should extract the operating model underneath the source material: the mechanism, the causal chain, the failure modes, the practical feel, and the implications for the rest of the system.
+
 A good page should usually make clear:
 
 - what the idea is,
@@ -27,13 +29,16 @@ A good page should usually make clear:
 
 Do this naturally. Do not force every page into the same template.
 
-Keep theory after usefulness. Background is welcome when it helps the user apply, diagnose, or connect the idea.
+Keep theory after usefulness. Background is welcome when it helps the user apply, diagnose, or connect the idea. A page can be substantial when the idea deserves it, especially for synthesis pages, hub pages, and high-value concepts. Concision should remove filler while preserving depth.
+
+The target is the shortest note that still changes how the user thinks or acts.
 
 ## Voice
 
 Prefer:
 
 - short paragraphs,
+- dense paragraphs when the idea needs real movement,
 - plain, active sentences,
 - concrete verbs,
 - concrete examples,
@@ -56,11 +61,116 @@ Avoid:
 
 Preserve strong existing language unless there is a clear reason to change it.
 
+## Brief Style Reference
+
+For source briefs and high-value synthesis, use the stronger local style found in the Opus briefs.
+
+That style has a few useful traits:
+
+- **Thesis paragraphs do real work.** The opening should compress the source into a live claim with stakes, mechanism, and implication. It should not merely introduce the topic.
+- **Bullets compress after the thesis.** Use bullets for takeaways, diagnostic lists, failure modes, or open questions. Do not let bullets replace the main synthesis.
+- **Sections have specific names.** Headings should sound like the idea inside the section, not like a reusable template slot.
+- **Paragraphs carry causal motion.** A good paragraph often moves from claim -> mechanism -> consequence -> implication.
+- **Compression keeps force.** Remove filler and source chatter, but keep the sentence that has bite.
+- **The brief should feel usable.** A reader should come away with a model they can apply, not just a memory of what the source said.
+
+Good Opus-style heading shapes:
+
+```text
+How the Brain Finds Shortcuts
+Overwhelm as Cue, Not Defect
+The Painter's Layered Approach
+Vibe Coding Eliminates Compromise
+Set Phrases Are Stone
+The Personal App Store
+```
+
+Weak template headings:
+
+```text
+Core Mechanism
+What Changes
+Relationship To...
+Implications
+Practical Use
+```
+
+The weak headings are allowed when they genuinely fit. They should not become the default shape of every note.
+
+For briefs, a useful default shape is:
+
+```text
+Core Thesis
+Compressed Takeaways
+2-6 source-specific sections
+Connection to existing wiki pages
+Open Questions
+Sources
+```
+
+Even this shape is optional. The source's logic should decide the final structure.
+
 ## Positive Openings
 
 Start pages by saying what the idea **is**, what it does, or how it works.
 
-Avoid opening with "X is not Y" or "the point is not..." as the first move. Use contrast later only when it clarifies a real distinction.
+The first sentence is stricter than the rest of the page. It should give the reader a concrete handle immediately. After the first sentence, the prose can become more fluid, reflective, or expansive, but the opening line must land cleanly.
+
+First sentence rules:
+
+- Do not automatically start with the page title or subject label.
+- Open with the live mechanism, pressure, condition, action, or concrete context when possible.
+- Name the subject once the sentence has created a reason to care.
+- Use a concrete verb.
+- Say what it does, connects, changes, or produces.
+- Avoid vague abstraction.
+- Avoid evaluator framing.
+- Avoid "attempt to," "seeks to," "is about," "captures," and similar distancing verbs.
+- Avoid clever phrasing that draws attention to itself.
+
+Strong first sentence:
+
+```text
+Capture, linking, writing, coding, publishing, and daily reflection all lived in one working environment.
+Anti-marketing builds trust by exposing constraints early.
+Meiwaku makes social friction visible.
+Interleaving forces knowledge to be reconstructed across changing contexts.
+```
+
+Weak first sentence:
+
+```text
+The NX system was an attempt to make thought operational.
+This note captures one of the strongest ideas in the source.
+Minimalism is not emptiness.
+The deeper idea is that tools matter.
+```
+
+Starting with the subject label can make the page feel like a school report or encyclopedia entry:
+
+```text
+The NX system...
+Minimalism...
+Anti-marketing...
+```
+
+That structure is sometimes acceptable, but it should not be the default. Stronger openings often start with the activity, tension, or condition first:
+
+```text
+Objects often preserve decisions the owner has stopped believing in.
+Trust changes when the flaw appears before the pitch.
+Some environments make the next useful action feel already started.
+```
+
+The subject can arrive in the next sentence:
+
+```text
+That is the useful version of minimalism.
+That is the function of anti-marketing.
+That was the shape of the NX system.
+```
+
+Use contrast as a supporting move after the positive definition is already clear. Contrast should refine the idea, not carry the main definition.
 
 Good opening shape:
 
@@ -78,9 +188,171 @@ The point is not...
 The useful version is not...
 ```
 
+Positive definitions create momentum. They give the reader a usable handle before introducing caveats. A page can still distinguish the idea from nearby concepts, but the first paragraph should establish the thing directly.
+
+Better first paragraph pattern:
+
+```text
+X is the operating layer for...
+It turns A into B by...
+Use it when...
+```
+
+Contrast can come after the positive definition:
+
+```text
+This differs from Y because...
+The failure mode is...
+The common mistake is...
+```
+
+## Definition Density
+
+Definitions should carry substance. A durable page should open with enough structure for the reader to start using the idea, not just recognize the label.
+
+A strong definition usually includes:
+
+- **Category**: what kind of thing this is.
+- **Function**: what job it performs.
+- **Mechanism**: how it works.
+- **Use condition**: when to apply it.
+- **Output**: what it should produce.
+- **System relationship**: what it connects to in the knowledge base.
+
+Good definition shape:
+
+```text
+X is the operating layer for turning A into B. It works by doing C, which exposes D and produces E. Use it when F. In this system, it connects to G and H.
+```
+
+Weak definition shape:
+
+```text
+X is a method for learning.
+X is a mindset.
+X is an important idea.
+```
+
+Definitions should be dense enough to prevent skeleton pages. A short page can still be good, but it needs a real center of gravity: mechanism, use, failure mode, or consequence.
+
+If a page cannot support a dense definition yet, treat it as a candidate note rather than a durable wiki page.
+
+## Synthesis Depth
+
+Synthesis pages should have enough body to carry the idea. They should usually be closer to the developed pages in [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]], [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]], and [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] than to a short glossary entry.
+
+Strong synthesis usually makes some of the following clear, in whatever order fits the note:
+
+- what makes the idea work;
+- how one condition produces the next;
+- how the idea degrades, gets faked, or becomes counterproductive;
+- what correct use feels like from the inside;
+- what changes in the user's study system, decision system, environment, or workflow;
+- where the idea plugs into existing pages.
+
+Compression should preserve the mechanism. Remove repetitive bullets, source chatter, and decorative framing. Keep the sentence or paragraph that changes action.
+
+## Structural Variety
+
+Do not let the page structure become a template that every note inherits.
+
+Headings should emerge from the idea. A page about a workflow may need sequence headings. A page about a failure mode may need symptoms, causes, and repairs. A page about a concept may need definition, examples, boundaries, and implications. A page about a source synthesis may need the source's natural shape preserved.
+
+Avoid repeating the same default skeleton across pages:
+
+```text
+Core Mechanism
+What Changes
+Relationship To...
+Failure Modes
+Practical Use
+```
+
+Those headings are available tools, not required slots. If several recent pages all use the same section sequence, deliberately vary the next page.
+
+Better heading choices are specific to the note:
+
+```text
+Why The Method Breaks
+The Approach Layer
+What The Graph Reveals
+When The System Becomes Fragile
+How The Environment Primes Action
+The Cost Of Keeping It
+What To Practice Next
+```
+
+Use headings that name the actual move inside the page. The reader should be able to scan the headings and feel the unique shape of that idea.
+
+Before writing a new page, choose the structure by asking:
+
+- Is this a workflow, concept, diagnosis, synthesis, hub, source brief, reflection, or practice guide?
+- What is the natural sequence of the idea?
+- Which headings would only fit this page?
+- Which default headings can be removed or renamed?
+- Does the page look too much like the last few pages?
+
+## Source-Evaluation Residue
+
+Do not write sentences that evaluate the source, the section, or the idea instead of explaining the mechanism.
+
+These lines feel useless because they talk about the quality of the source rather than making the page more usable. They also break immersion by reminding the reader that the page came from an outside document, transcript, or clipping.
+
+Avoid:
+
+```text
+This is one of the strongest ideas in the source.
+The source makes an important point.
+One of the highest-signal takeaways is...
+This section matters because...
+The most useful concept here is...
+The author argues that...
+```
+
+Replace with the mechanism directly:
+
+```text
+When the floor is overloaded, object manipulation becomes expensive.
+Empty space creates reserve capacity.
+Storage lowers the pressure to choose.
+Old habits win because they are cheap and automatic.
+```
+
+If an idea is important, the paragraph should prove it by showing the mechanism, consequence, or use case. Do not announce that it is important.
+
+## Ranking Voice
+
+Avoid ranking-language openings that announce the page's judgment of importance before explaining the idea.
+
+This style creates distance. It sounds like an evaluator hovering above the material instead of a usable note entering directly into the mechanism. It also makes pages feel repetitive because every synthesis begins to say "the strongest pattern," "the real idea," or "the deeper point."
+
+Avoid:
+
+```text
+The strongest pattern is...
+The strongest practical idea is...
+The real insight is...
+The deeper idea is...
+The key takeaway is...
+The most important thing here is...
+```
+
+Replace with the idea itself:
+
+```text
+Tools become valuable when they function as enabling environments.
+AI collapses the distance between idea and implementation.
+Media changes cognition.
+Overwhelm is often misread.
+```
+
+The page should not tell the reader that something is strong. It should make the strength visible through mechanism, consequence, and practical use.
+
 ## Page Standard
 
-Every durable page should have:
+Every durable page needs enough structure to be useful. It does not need the same structure as every other page.
+
+Most pages should include some version of:
 
 - frontmatter,
 - a short summary or core idea,
@@ -88,6 +360,21 @@ Every durable page should have:
 - related links,
 - sources,
 - and open questions when uncertainty remains.
+
+This standard is flexible. Some pages need a full operating model. Some pages only need a concise note. The deciding factor is the value of the idea and how much the page is expected to support future thinking.
+
+High-value pages may include sections such as:
+
+- Core Thesis
+- Operating Model
+- What It Changes
+- Failure Modes
+- What It Should Feel Like
+- Practical Use
+- Links Into The System
+- Open Questions
+
+Do not use these headings mechanically. Rename, merge, reorder, or skip them when another structure fits better.
 
 ## Hub And Detail Discipline
 
@@ -102,6 +389,8 @@ Do not create weak stubs. A new page should have enough material to explain its 
 Before updating an existing page, re-read it.
 
 Integrate new material into the page's structure instead of appending disconnected notes at the bottom. A touched page should become more coherent, more useful, or better linked.
+
+When updating a page, remove source residue, duplicated definitions, and generic transitions. Preserve strong phrasing when it carries the user's meaning. Do not flatten good language merely to make it shorter.
 
 ## Related
 

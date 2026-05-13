@@ -13,7 +13,7 @@ tags:
 
 # Memory Handling
 
-Memory handling is the deliberate shaping of new information so it can be encoded and later retrieved.
+New information has to be shaped before it can be encoded cleanly and retrieved later.
 
 ## Summary
 

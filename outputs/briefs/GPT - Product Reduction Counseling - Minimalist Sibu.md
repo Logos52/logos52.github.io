@@ -307,7 +307,7 @@ Best fit:
 
 **Environment Design** is more functional and connects better to [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]], and [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]].
 
-The strongest structure may be:
+The structure:
 
 ```text
 wiki/Minimalism/

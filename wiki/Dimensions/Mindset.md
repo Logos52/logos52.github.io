@@ -14,7 +14,7 @@ tags:
 
 # Mindset
 
-Mindset is the dimension responsible for how the learner interprets difficulty, mistakes, feedback, identity, and growth.
+Difficulty, mistakes, feedback, identity, and growth all pass through the learner's interpretation before they become useful or threatening.
 
 Two book notes now feed this hub from different angles. [[wiki/Books/The Parasitic Mind|The Parasitic Mind]] is useful for epistemic courage: noticing when identity, tribe, or fear of offense distorts truth-seeking. [[wiki/Books/The Book of Elon|The Book of Elon]] is useful for builder courage: choosing usefulness, constraints, and action over comfort or commentary.
 

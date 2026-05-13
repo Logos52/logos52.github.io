@@ -14,7 +14,7 @@ tags:
 
 # Dimension Practice Tracks
 
-Dimension Practice Tracks are four-step practice sequences for strengthening Deep Processing, Self-Regulation, Self-Management, and Mindset.
+The learning dimensions improve faster when each one has a short practice sequence instead of remaining an abstract category.
 
 ## Summary
 

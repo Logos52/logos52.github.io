@@ -15,7 +15,7 @@ tags:
 
 # Prestudy
 
-Prestudy is the setup layer before the main learning event. Use it before a lecture, class, reading, video, meeting, or dense study session so new information has somewhere to land.
+New information lands better when the learner has a rough frame before the main learning event starts. Use Prestudy before a lecture, class, reading, video, meeting, or dense study session.
 
 The goal is to build a rough frame that makes later detail easier to understand, organize, and remember.
 
@@ -169,7 +169,7 @@ When time is tight, use the 10-minute version:
 5. Guess how they relate.
 6. Enter the main event with 2-3 questions.
 
-This is not perfect, but it is enough to stop the main event from being first contact.
+This is enough to stop the main event from being first contact.
 
 ## Comprehensive Prestudy
 
