@@ -78,6 +78,8 @@ These are blank public shells for private Obsidian workflows. The templates can 
 
 ## Recent Log
 
+- [[journal/calendar#2026-05-14|2026-05-14]]: Added [[wiki/Concepts/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated]] — DFUZ and thought-action defusion. Motivation dependence makes consistency structurally impossible; the fix is separating feeling from action, then using the bidirectional loop (actions change thoughts change feelings) to build uptime gradually.
+- [[journal/calendar#2026-05-14|2026-05-14]]: Compiled wiki pages from Live Clinics 64, 65, and 66 — [[wiki/Concepts/Deep Processing for Research|Deep Processing for Research]], [[wiki/Concepts/How to maintain sustainable energy under pressure|How to maintain sustainable energy under pressure]], and [[wiki/Concepts/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]. Added [[wiki/Concepts/Best-attempt Encoding|Best-attempt Encoding]] as a standalone practical guide.
 - [[journal/knowledge-base-as-thinking-partner-reflection|2026-05-13]]: Reflected on [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] and the risk that the system could create passive connection-browsing instead of stronger first-brain schema building.
 - [[journal/calendar#2026-05-13|2026-05-13]]: Added [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] to Current Focus and set Minimalism graph nodes to black in light mode and white in dark mode.
 - [[journal/calendar#2026-05-12|2026-05-12]]: Simplified Home into a graph-first entrance and moved the longer project explanation into About.

@@ -1,8 +1,8 @@
 {
-  "cssTheme": "Shimmering Focus",
+  "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "kb"
   ],
-  "theme": "moonstone",
+  "theme": "obsidian",
   "showRibbon": true
 }

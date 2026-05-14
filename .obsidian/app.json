@@ -1,4 +1,7 @@
 {
+  "interfaceFont": "\"Fira Code\", \"Fira Mono\", Menlo, Consolas, \"DejaVu Sans Mono\", monospace",
+  "textFont": "Source Serif 4",
+  "monospaceFontVariant": "\"Fira Code\", \"Fira Mono\", Menlo, Consolas, \"DejaVu Sans Mono\", monospace",
   "newFileLocation": "folder",
   "newFileFolderPath": "wiki/Concepts",
   "attachmentFolderPath": "raw/assets",

@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1778572289059,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1778572323357,
+          "path": "blog/index.md",
+          "title": "Blog"
+        },
+        {
+          "type": "file",
+          "ctime": 1778572339947,
+          "path": "notes/index.md",
+          "title": "Index"
+        },
+        {
+          "type": "file",
+          "ctime": 1778572362698,
+          "path": "index.md",
+          "title": "Home"
+        },
+        {
+          "type": "file",
+          "ctime": 1778572902790,
+          "path": "journal/index.md",
+          "title": "Journal"
+        }
+      ],
+      "title": "Front Facing Pages"
+    }
+  ]
+}

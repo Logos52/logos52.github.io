@@ -1,3 +1,32 @@
+body,
+.app-container {
+  --font-interface-override: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace !important;
+  --font-text-override: "Source Serif 4" !important;
+  --font-editor-override: "Source Serif 4" !important;
+  --font-monospace-override: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace !important;
+  --font-interface: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace !important;
+  --font-text: "Source Serif 4" !important;
+  --font-editor: "Source Serif 4" !important;
+  --font-monospace: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace !important;
+}
+
+.markdown-source-view,
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-scroller,
+.markdown-source-view.mod-cm6 .cm-content,
+.markdown-preview-view {
+  font-family: "Source Serif 4" !important;
+  font-size: 18px;
+}
+
+body,
+.view-header,
+.workspace-tab-header,
+.nav-file-title,
+.nav-folder-title {
+  font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace !important;
+}
+
 .markdown-preview-view h1,
 .markdown-source-view.mod-cm6 .cm-content h1 {
   letter-spacing: 0;
@@ -6,4 +35,3 @@
 .markdown-preview-view code {
   font-size: 0.95em;
 }
-
