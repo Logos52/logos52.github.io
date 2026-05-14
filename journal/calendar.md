@@ -13,6 +13,22 @@ tags:
 
 A lightweight chronological index for public journal entries and thinking-log updates. This is manually maintained so it works the same way in Obsidian and on the website.
 
+## 2026-05-14
+
+Compiled Opus briefs for Live Clinics 64, 65, and 66, then converted all three into wiki pages:
+
+- [[wiki/Concepts/Deep Processing for Research|Deep Processing for Research]]: research quality lives in the mental schema that places each source — not in the notes, citations, or writing downstream of it. The jigsaw model: each source needs to be placed, not just filed.
+- [[wiki/Concepts/How to maintain sustainable energy under pressure|How to maintain sustainable energy under pressure]]: the standard rest-first strategy fails once the burnout threshold is crossed. The prerequisites (sleep, exercise, connection, sunlight) act faster and more foundationally than any strategy. Alignment generates energy; misalignment drains it regardless of hours spent.
+- [[wiki/Concepts/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]: at 50% retention across multi-year content, repetition eventually consumes all study time. The strategy has to raise retention, manage hit rate (1:1 vs 1:1.2), layer confidence by mark value, and diagnose gaps by type rather than defaulting to re-reading.
+
+Added [[wiki/Concepts/Best-attempt Encoding|Best-attempt Encoding]] as a standalone practical guide: the 1:1.2 encoding decision, what good schema structure looks like, and the five moves that actually get you from narrow to wider encoding (generate an application, find a connection, ask the mechanism question, predict a variation, check the chunk boundary).
+
+Compiled [[outputs/briefs/Opus - How to Force Your Brain To Be Motivated (when you don't feel like it)|Opus brief for How to Force Your Brain To Be Motivated]] and converted it into [[wiki/Concepts/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated (when you don't feel like it)]].
+
+The core idea: motivation dependence makes consistency impossible because motivation is variable by design. DFUZ (Distinguish, Fake, Uptime, Zone) uses thought-action defusion — a clinical psychology technique — to separate feeling from action. The key mechanism is the bidirectional loop: actions produce thoughts that change feelings. You do not need to feel different before starting. Starting is what changes how you feel.
+
+Expanded [[00 Command Center/Writing Standards|Writing Standards]] with several new rules: Section-Level Style Split (prose for framing, bullets for body), Not X But Y (no contrast-first definitions), the hard rule against opening with the page title or subject label (with the clarification that this applies only to the title — other noun-first sentences are fine), and Sources Section Policy.
+
 ## 2026-05-13
 
 Added [[journal/knowledge-base-as-thinking-partner-reflection|Knowledge Base as Thinking Partner Reflection]].

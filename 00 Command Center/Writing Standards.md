@@ -2,7 +2,7 @@
 type: system
 status: developing
 created: 2026-05-08
-updated: 2026-05-13
+updated: 2026-05-14
 tags:
   - system
   - writing
@@ -112,7 +112,7 @@ Even this shape is optional. The source's logic should decide the final structur
 
 ## Positive Openings
 
-Start pages by saying what the idea **is**, what it does, or how it works.
+Start pages by opening with what the idea does, produces, changes, or connects.
 
 The first sentence is stricter than the rest of the page. It should give the reader a concrete handle immediately. After the first sentence, the prose can become more fluid, reflective, or expansive, but the opening line must land cleanly.
 
@@ -132,9 +132,11 @@ Strong first sentence:
 
 ```text
 Capture, linking, writing, coding, publishing, and daily reflection all lived in one working environment.
-Anti-marketing builds trust by exposing constraints early.
-Meiwaku makes social friction visible.
-Interleaving forces knowledge to be reconstructed across changing contexts.
+Trust changes when the flaw appears before the pitch.
+Social friction becomes visible when a culture gives it a name.
+Switching topics before mastery forces knowledge to be reconstructed across changing contexts.
+Every first schema is going to be wrong.
+Objects often preserve decisions the owner has stopped believing in.
 ```
 
 Weak first sentence:
@@ -154,7 +156,17 @@ Minimalism...
 Anti-marketing...
 ```
 
-That structure is sometimes acceptable, but it should not be the default. Stronger openings often start with the activity, tension, or condition first:
+Do not open with the page title or subject label. This is a hard rule, not a default. A page titled "Best-attempt Encoding" should not start "Best-attempt encoding is..." A page titled "Meiwaku" should not start "Meiwaku is..." or "Meiwaku makes..."
+
+This applies only to the page title or subject label — not to all subject-verb sentences. Opening with a different noun is fine:
+
+```text
+Empty space creates reserve capacity.
+Trust changes when the flaw appears before the pitch.
+Every first schema is going to be wrong.
+```
+
+These are clean because the subject is not the page title. The page title belongs in the sentence after the idea has created a reason to care about it. Stronger openings start with the activity, tension, condition, or a related noun first:
 
 ```text
 Objects often preserve decisions the owner has stopped believing in.
@@ -162,23 +174,35 @@ Trust changes when the flaw appears before the pitch.
 Some environments make the next useful action feel already started.
 ```
 
-The subject can arrive in the next sentence:
-
-```text
-That is the useful version of minimalism.
-That is the function of anti-marketing.
-That was the shape of the NX system.
-```
+The subject should be easily implied based on the definition and context given in the core thesis.
 
 Use contrast as a supporting move after the positive definition is already clear. Contrast should refine the idea, not carry the main definition.
 
-Good opening shape:
+## Not X, But Y
+
+Avoid "Not X, but Y" as a definitional or thesis structure, especially in first sentences, core thesis paragraphs, and definitions.
+
+The pattern puts the wrong thing in the reader's head first, then corrects it. The reader has to process the contrast before getting the actual idea — burning their first moment of attention on something about to be discarded. It also signals that the positive definition can't stand on its own. Strong definitions don't need that support. They land directly.
+
+The pattern produces a defensive or corrective tone where the voice should be confident and mechanism-first.
+
+Avoid:
 
 ```text
-X is the system for...
-X helps the user...
-X turns A into B...
+The unit of research quality is not the note — it is the mental schema.
+Alignment is not about passion — it is about direction.
+This is not a discipline problem — it is a structural one.
 ```
+
+Replace with the positive claim directly:
+
+```text
+Research quality lives in the mental schema that places each source.
+Energy accumulates when activity moves toward what actually matters.
+The structure is what fails, not the person inside it.
+```
+
+The contrast can follow once the reader has a handle on the idea. It should never open the definition.
 
 Weak opening shape:
 
@@ -193,7 +217,6 @@ Positive definitions create momentum. They give the reader a usable handle befor
 Better first paragraph pattern:
 
 ```text
-X is the operating layer for...
 It turns A into B by...
 Use it when...
 ```
@@ -210,20 +233,13 @@ The common mistake is...
 
 Definitions should carry substance. A durable page should open with enough structure for the reader to start using the idea, not just recognize the label.
 
-A strong definition usually includes:
+A strong definition usually covers:
 
-- **Category**: what kind of thing this is.
 - **Function**: what job it performs.
 - **Mechanism**: how it works.
 - **Use condition**: when to apply it.
 - **Output**: what it should produce.
 - **System relationship**: what it connects to in the knowledge base.
-
-Good definition shape:
-
-```text
-X is the operating layer for turning A into B. It works by doing C, which exposes D and produces E. Use it when F. In this system, it connects to G and H.
-```
 
 Weak definition shape:
 
@@ -292,11 +308,50 @@ Before writing a new page, choose the structure by asking:
 - Which default headings can be removed or renamed?
 - Does the page look too much like the last few pages?
 
+## Distilled Models, Not Expanded Summaries
+
+Wiki pages should be distilled models — self-standing operating notes that help the reader use the idea — not expanded summaries of a source. A distilled model can be read without knowing the source existed. A summary cannot.
+
+The test: if removing every reference to the source would break the page, the page is a summary. A well-distilled page holds its shape because the mechanism is present in the prose, not because the source is named.
+
+Practical implication: write the page as if the ideas belong to the wiki, not to a transcript or author. The idea becomes a concept the reader can use, not a report of what someone said.
+
+## Sources Section Policy
+
+Wiki pages do not include a Sources section that links to private source material. Private sources (anything under `raw/private/`) are inaccessible to readers and waste their attention. Linking to the ICS website or brief outputs is also discouraged — the reader cannot see them, and the link creates a dead end.
+
+If a source is public and directly useful (a published article, a public video, a book), it may be included. Otherwise, omit the Sources section entirely. Attribution for the thinking lives in the frontmatter `sources:` field and in the corresponding brief in `outputs/briefs/`, not on the wiki page itself.
+
+## Source Attribution in Body Content
+
+Source names, author names, and source references belong in the Sources section at the bottom of the page. They do not belong in the body.
+
+Avoid:
+
+```text
+Sung's framing is deliberately flat.
+The clinic opens with the gym analogy.
+Karpathy argues that Software 3.0...
+The source makes the point that...
+This live clinic covers three uses.
+The author's central claim is...
+```
+
+Replace with the idea directly:
+
+```text
+The failure mode is structural, not disciplinary.
+Paying someone else to lift the weight means the weight moves but you don't get stronger.
+Natural language is now a programming medium for LLM interpreters.
+```
+
+This applies equally to named sources, unnamed sources ("the transcript," "the video"), and indirect attribution ("as discussed in"). The body of the page should read as if the ideas emerged from thought, not as a report of what a source said. The Sources section carries the attribution.
+
 ## Source-Evaluation Residue
 
 Do not write sentences that evaluate the source, the section, or the idea instead of explaining the mechanism.
 
-These lines feel useless because they talk about the quality of the source rather than making the page more usable. They also break immersion by reminding the reader that the page came from an outside document, transcript, or clipping.
+These lines break immersion by reminding the reader that the page came from an outside document, transcript, or clipping.
 
 Avoid:
 
@@ -340,10 +395,10 @@ The most important thing here is...
 Replace with the idea itself:
 
 ```text
-Tools become valuable when they function as enabling environments.
-AI collapses the distance between idea and implementation.
-Media changes cognition.
-Overwhelm is often misread.
+Value accumulates when a tool functions as an enabling environment.
+The gap between idea and implementation collapses when a capable interpreter handles execution.
+Sustained exposure to fast, shallow content reshapes attention and depth.
+What reads as overwhelm is usually first contact with an unorganized field.
 ```
 
 The page should not tell the reader that something is strong. It should make the strength visible through mechanism, consequence, and practical use.
@@ -391,6 +446,30 @@ Before updating an existing page, re-read it.
 Integrate new material into the page's structure instead of appending disconnected notes at the bottom. A touched page should become more coherent, more useful, or better linked.
 
 When updating a page, remove source residue, duplicated definitions, and generic transitions. Preserve strong phrasing when it carries the user's meaning. Do not flatten good language merely to make it shorter.
+
+## Section-Level Style Split
+
+Different sections of a page call for different styles. Apply this split consistently:
+
+**Framing sections use dense prose.** The Core Thesis, opening paragraphs, and Open Questions sections should be written in compressed, active prose with causal motion — claim → mechanism → consequence → implication. These sections carry the page's intellectual weight and should not be flattened into bullets.
+
+**Body sections use compressed bullets.** The main content sections — coverage of mechanisms, techniques, use cases, failure modes, and practical rules — should use tight, labelled bullet points rather than prose paragraphs. Each bullet should be a complete thought: one point, one mechanism, stated directly. Do not use bullets as fragments or headers; each should stand on its own without the surrounding context.
+
+The rationale: prose framing gives the page its center of gravity and stops it from feeling like a listicle. Bulleted body sections give the reader fast, scannable access to the operating content without burying the practical material in dense paragraph walls.
+
+Example shape for a page section:
+
+```
+## The Three Valid Uses
+
+Each use keeps the heavy lifting in your hands:
+
+- **Keyword seeding.** Ask AI to generate the key terms for a topic before you start. Collecting keywords is a necessary but cognitively worthless step — outsourcing it is legitimate because the output is raw material for your own chunking, not a substitute for it. Do not ask it to rank by importance.
+- **Hypothesis validation.** Once you've built a tentative model, ask AI whether the specific relationship you've identified holds. You constructed the hypothesis; AI validates or corrects it. The schema remains yours.
+- **Gap-checking after retrieval.** Do a full brain dump, then ask AI to find gaps or missed perspectives. The value is in the brain dump. AI is flagging blind spots you'd circle past repeatedly on your own.
+```
+
+Headings for body sections should still follow the specificity rule — name the actual idea inside the section, not a template slot.
 
 ## Related
 
