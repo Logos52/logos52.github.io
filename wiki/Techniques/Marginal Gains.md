@@ -2,7 +2,7 @@
 type: technique
 status: developing
 created: 2026-05-06
-updated: 2026-05-11
+updated: 2026-05-14
 source-count: 2
 last-audited:
 tags:
@@ -39,13 +39,59 @@ Use Marginal Gains to:
 
 A gain stacks when it builds on prior progress instead of scattering effort.
 
-Good stacking usually has three properties:
+Good stacking requires three conditions:
 
-- It improves a skill that matters.
-- It stays with the skill long enough for real learning.
-- It fits the larger system instead of optimizing one technique in isolation.
+- **Important skill.** The improvement targets a skill that meaningfully affects the goal. Optimizing peripheral habits while the core bottleneck stays unchanged wastes the compounding.
+- **Persist long enough.** Real learning takes repeated exposure, error, and correction. Switching before the pattern has been found and fixed produces surface familiarity, not competence.
+- **Think systemically.** A gain that improves one technique in isolation can hurt overall performance. The improvement has to fit the larger operating system, not just score well on a local metric.
 
 Poor stacking looks like constantly switching targets before mistakes have been found, reflected on, and converted into competence.
+
+## REDO: The Improvement Loop
+
+REDO is the operational sequence for turning a marginal gain into a stacked improvement. It runs after each serious attempt.
+
+- **Reflect.** Look at the last attempt honestly. What happened? What did not work? What was harder than expected?
+- **Evaluate.** Identify the limiting factor. Not every problem is worth solving — the question is which problem most constrains the next improvement.
+- **Define.** Name one small, concrete upgrade for the next attempt. Specific enough to test. Small enough to stay with.
+- **Optimise.** Run the next attempt with the defined change applied. The goal is not perfection — it is data.
+
+REDO is not a planning tool. It runs on real attempts, not on projections. Without an actual attempt to reflect on, the loop has nothing to work with. The sequence connects directly to [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] — Reflect and Evaluate map to Kolbs' observation and conceptualisation phases; Define and Optimise map to the planning and active experimentation phases.
+
+## Rate Limiters
+
+A rate limiter is the part of a process that prevents every other part from improving. Fixing anything else while the rate limiter remains untouched produces no net gain — like improving the handle on a bucket that has a hole in its side.
+
+Rate limiters are not always obvious. Even an incorrect identification is more useful than ignoring them: attempting to address the wrong limiter still tends to produce smoother progress than charging ahead without looking for one. The method is to reflect regularly on which part of the process is most consistently constraining performance — not just the most recently frustrating part.
+
+Rate limiters also change over time. As one constraint is addressed, a different one becomes the new ceiling. The focus of improvement should shift as the skill landscape shifts. A learner limited by fixed mindset early may be limited by time management a month later, as mindset improves.
+
+The practical check, run every one to two weeks: is there a part of my process that seems to be holding everything else back? If yes, that is the next experiment target — ahead of any other improvement work.
+
+## Relationship To The 30-Day Plan
+
+The 30-Day Plan and Marginal Gains address different parts of the same improvement problem.
+
+Marginal Gains is a perspective and framework for skill development — it describes *how* to improve. The 30-Day Plan is a concrete planning process for action — it describes *what to do* for the next 30 days to make improvement happen.
+
+| Aspect | Marginal Gains | 30-Day Plan |
+| --- | --- | --- |
+| Primary focus | Skill development (getting better at a skill) | Self-management (taking action productively) |
+| Core insight | Skills improve faster and more sustainably through compounding tiny gains than through large jumps | Goals are more likely to be achieved when plans account for barriers in advance — especially around habits and tendencies |
+| Method | Tracking and stacking 1% gains through experimentation and reflection | Clear goal-setting and habit review to create a high-probability plan |
+| Usage | Continuously, wherever skill development is desired | When a concrete, structured plan is needed to make rapid progress toward a specific goal |
+| Scope | Breaks bigger skills into smaller focused gains | Breaks bigger goals into 30-day mini-goals with a clear plan |
+| End goal | High competence in the target skill | Achievement of the medium-term goal |
+
+Used together: the 30-Day Plan provides the structure for action (what to work on and why, barriers addressed in advance); Marginal Gains provides the improvement method within that structure (how to develop each targeted skill through stacking and REDO cycles).
+
+## Why Limiting To Two Or Three Processes Accelerates Progress
+
+Spreading improvement effort across many processes simultaneously tends to reduce the speed of skill acquisition rather than increasing it. The mechanism: each new skill has a set of variables that must be decoded to develop it correctly. Each such variable requires time, cognitive resources, and experience to process. When the attention is divided across many skills, the depth available for any single one shrinks — mistakes surface more slowly, experiments are less focused, and each individual skill takes longer to acquire.
+
+The result is that weeks pass with surface familiarity across many areas but genuine competence in none. Progress on the single most important skill — if it had been pursued fully — would have produced a real capability that compounds into the next improvement.
+
+The counter-intuitive principle: focusing on two or three processes is the fastest path even when many skills need developing. Each skill acquired cleanly and completely creates headroom for the next. Switching between many skills creates work without creating competence.
 
 ## Relationship To Kolbs
 
@@ -130,6 +176,7 @@ Warning sign: Marginal Gains has become avoidance when you keep planning tiny im
 ## Related Pages
 
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Techniques/Skills Audit|Skills Audit]]
 - [[templates/Kolbs Template|Kolbs Template]]
 - [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]]
 - [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
@@ -145,6 +192,7 @@ Warning sign: Marginal Gains has become avoidance when you keep planning tiny im
 
 - Learning-system synthesis from the user's study materials.
 - Naval Ravikant and Nivi, "'Nothing Ever Happens' Is Over" (2026-05-05).
+- ICS Learning Support: "How do I stack marginal gains?", "My progress is too slow if I only work on 2 or 3 processes at a time", "What's the difference between the 30-Day Plan and Marginal Gains?"
 
 ## Open Questions
 

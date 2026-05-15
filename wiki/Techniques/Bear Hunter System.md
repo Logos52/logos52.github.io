@@ -2,7 +2,7 @@
 type: technique
 status: developing
 created: 2026-05-04
-updated: 2026-05-11
+updated: 2026-05-14
 source-count: 12
 last-audited: 2026-05-07
 tags:
@@ -29,6 +29,8 @@ BHS replaces passive reading, linear notes, and "I'll organize it later." The or
 ## How To Use It
 
 ### Before The Learning Event
+
+Before running BHS on any material, retrieve what you already know. Spend a few minutes writing down what you already think is true about the topic — no sources, no notes. This activates existing schema so BHS builds on it rather than starting from zero. Skipping this step and going straight to technique is a common failure mode: the learner applies encoding structure to material they already partially understand, which inflates apparent effort and misses the opportunity to identify real gaps before the source even opens.
 
 Do Prestudy and Aim as early as possible.
 
@@ -149,6 +151,7 @@ Ask these after each pass:
 
 | Problem | What It Looks Like | Fix |
 | --- | --- | --- |
+| Technique-first | BHS starts before the learner has retrieved what they already know. | Do a retrieval pass — write what you already think is true — before opening any source. |
 | Passive Aim | Questions are mostly "what is..." | Rewrite as why/how/relationship questions. |
 | Copying during Shoot | Notes follow source order exactly. | Return to Aim questions and map answers under chunks. |
 | Spiderwebbing | Too many chaotic arrows. | Re-chunk concepts that share important relationships. |

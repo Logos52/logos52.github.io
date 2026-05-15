@@ -2,8 +2,8 @@
 type: concept
 status: seed
 created: 2026-05-04
-updated: 2026-05-04
-source-count: 1
+updated: 2026-05-14
+source-count: 2
 last-audited:
 tags:
   - learning
@@ -22,6 +22,14 @@ Weak chunks often copy the source order. Strong chunks represent judgment.
 
 The learner is asking, "What structure would make this topic easiest to understand, retrieve, and use?"
 
+## How Hierarchical Chunking Works
+
+The same piece of information can belong to more than one chunk depending on how it is filtered — by function, mechanism, failure mode, application context, or importance to the overall topic. A topic can be divided into a few large chunks that give a backbone, related chunks that form the mid-level structure, and smaller sub-chunks that hold specific concepts and eventually details.
+
+This hierarchy works because the brain can access 100 items through chunks rather than holding them individually. Five large categories are manageable in working memory; 100 isolated facts are not. Each level of structure reduces cognitive load while increasing retrieval capacity — unpacking works top-down from the backbone to the sub-chunks as needed.
+
+The folder analogy: if 100 files are placed into 20 folders which are grouped into 5 parent folders, finding any file requires navigating only two levels of structure. Chunking does the same to knowledge.
+
 ## Why It Matters
 
 Chunking reduces cognitive load, but not all chunking is equal.
@@ -39,6 +47,10 @@ A chunk is probably useful when:
 - It can be reconstructed from memory.
 - It still works when the topic is applied to a new case.
 
+## What Good Chunking Produces
+
+When chunking is working: information becomes more intuitive and easier to understand; complicated concepts make more logical sense; learning large amounts of material feels less overwhelming; and chunks form through evaluation and value judgment, not just surface similarity. The extra step — from "these are similar" to "these are similar in a way that matters" — is the difference between analysis and evaluation in higher-order learning.
+
 ## Bad Chunk Signals
 
 A chunk is probably weak when:
@@ -48,6 +60,10 @@ A chunk is probably weak when:
 - It requires many arrows to explain what should be a cleaner structure.
 - It makes the map look complete but not easier to retrieve.
 - It cannot support a useful question or explanation.
+- It has more than four branches off a single point — a sign that further grouping is possible.
+- The relationships between ideas feel overwhelming because too many have equal weight.
+
+When a map shows many branches off a single point, the fix is to ask why each item is important — the reasons often cluster and reveal the missing sub-chunks. Inadequate chunking at this stage usually traces back to skipping importance questions during prestudy or Aim.
 
 ## Relationship To BHS
 

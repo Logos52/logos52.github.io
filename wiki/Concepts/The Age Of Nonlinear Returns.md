@@ -15,7 +15,7 @@ tags:
 
 # The Age Of Nonlinear Returns
 
-Nonlinear returns means the biggest outcomes come from preserving the position, trust, optionality, capability, and relationships that make much larger outcomes possible.
+The biggest outcomes come from preserving the position, trust, optionality, capability, and relationships that make much larger outcomes possible.
 
 The mistake is linear accounting:
 

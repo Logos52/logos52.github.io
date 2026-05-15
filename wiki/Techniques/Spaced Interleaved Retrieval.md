@@ -2,8 +2,8 @@
 type: technique
 status: developing
 created: 2026-05-04
-updated: 2026-05-11
-source-count: 1
+updated: 2026-05-14
+source-count: 2
 last-audited:
 tags:
   - learning
@@ -113,6 +113,32 @@ Use these when the target knowledge is mostly skill execution, problem solving, 
 - Undirected group discussion.
 - Repeating already-mastered procedures without variation.
 
+**REBIM** (Repetitive Execution Beyond Initial Mastery) is the specific failure mode for procedural practice. REBIM is repeating a skill or process that can already be performed to high proficiency — coding the same simple scripts, solving the same difficulty of problems, or running the same conversation pattern in a language already well-handled. The benefit is negligible compared to what could be achieved with variation, edge cases, or applied challenges in the same time. REBIM typically feels productive because it produces smooth performance, which is indistinguishable from progress to the learner.
+
+## Encoding and Retrieval: The Tradeoff
+
+Encoding and retrieval are not separate processes — the research treats them as fundamentally intertwined. In practice they are addressed separately because the techniques differ, but they influence each other directly: stronger encoding produces higher retention, which means less retrieval is required to maintain it. Weaker encoding produces more knowledge decay, which means retrieval sessions must be more frequent and more extensive.
+
+As encoding skill develops, retrieval sessions become shorter and find fewer gaps. In the early stages — when encoding quality is still low — retrieval sessions will find many gaps, take longer, and feel laborious. This is the expected state, not a sign the system is failing.
+
+Finding many gaps during retrieval is a sign the session is working, not that it is ineffective. A retrieval session that finds few gaps when mastery is still low is the sign of a session that is not probing deeply enough.
+
+## Concrete Spacing Schedule
+
+The exact schedule matters less than session quality and consistency. A practical default that works across most academic contexts:
+
+| When | Session type |
+| --- | --- |
+| Same day | Encode and do a light retrieval pass on new material. |
+| Next day (or within 2 days) | First gap-finding pass for yesterday's content. |
+| End of week | Interleaved retrieval for all material from the last two weeks. |
+| End of month | Interleaved retrieval for all material from the last four weeks. |
+| 3–4 weeks before assessment | Comprehensive retrieval pass for all relevant content. |
+
+With this schedule, any given piece of material is encoded and re-encoded approximately six times in a month — through prestudy, first encoding, same-day retrieval, mid-week retrieval, end-of-week retrieval, and end-of-month retrieval. At strong encoding levels, the end-of-week pass for a full week's material takes a few hours; the end-of-month pass for four weeks takes roughly half a day.
+
+The schedule can be followed loosely. Exact timing matters less than ensuring each layer happens.
+
 ## Scheduling Heuristic
 
 The exact schedule is less important than session quality. A useful default for declarative-heavy material:
@@ -163,8 +189,13 @@ LLMs can help SIR by:
 - Checking answer completeness.
 - Asking follow-up questions after a weak answer.
 - Converting a map into retrieval prompts.
+- Generating questions at varied difficulty levels across mastery levels.
 
-The danger is overusing the LLM as the thinker. The user should retrieve first, then use the model for feedback, variation, and calibration.
+**Use AI for:** saving time on low-cognitive tasks (collecting keywords, big-picture orientation); consolidating multiple sources into a single source to reduce split attention; generating test questions; asking questions to explore a topic like a tutor.
+
+**Avoid using AI for:** checking the truth of nuanced or complex claims (LLMs cannot reliably arbitrate on nuanced topics); bypassing the mental modeling work of chunking, evaluating relationships, and judging importance — these are the processes that create encoding. If AI does the structural thinking, the learner coasts into passive understanding mode without building the schema. For beginners especially, avoid using AI to chunk and organize information until there is a reliable internal sense of when cognitive load is passive versus active.
+
+The practical test: retrieve first, fully generate an answer, then use the model for feedback and calibration. When AI becomes the primary thinker and the learner becomes the editor, the benefit of retrieval practice disappears.
 
 ## How It Should Feel
 

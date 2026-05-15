@@ -2,7 +2,7 @@
 type: technique
 status: developing
 created: 2026-05-06
-updated: 2026-05-11
+updated: 2026-05-14
 source-count: 1
 last-audited:
 tags:
@@ -115,6 +115,19 @@ Use Kolbs to improve the way each Priority 0 area is practiced.
 | Relationships | A message was delayed. | What made the contact feel effortful? | Send a smaller message earlier. |
 | Relationships | A conversation repaired something. | What made the repair possible? | Use the same opening move sooner next time. |
 | Relationships | A relationship felt neglected. | Was the issue lack of care, lack of scheduling, or avoidance? | Put one next touchpoint on the calendar. |
+
+## When Kolbs Takes Too Long
+
+Kolbs relies on self-awareness and metacognition at every step. When those are still developing, the cycle can feel slow, vague, or hard to focus. This is a self-limiting property: limited introspection means limited ability to identify what is worth reflecting on, which makes the cycle feel endless.
+
+Common causes and their fixes:
+
+| Experience | Likely cause | Fix |
+| --- | --- | --- |
+| Reflecting feels tedious or confusing | Low metacognitive awareness — unclear what counts as a meaningful event to reflect on | Treat metacognition as a high-priority skill to develop separately. Awareness deepens with repeated sessions over 4–12 weeks. |
+| Sessions take too long with no clear focus | Limited ability to distinguish signal from noise in the experience | Cap sessions at 30 minutes. Because the steps are sequential, limitations early in the cycle affect everything downstream. A capped session done consistently is more valuable than an exhaustive one done rarely. |
+
+The cap is practical, not a sign of failure. Speed and focus improve naturally as metacognition develops with repetition.
 
 ## Full Kolbs vs Quick Note
 

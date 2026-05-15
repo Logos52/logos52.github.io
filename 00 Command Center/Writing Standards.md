@@ -2,7 +2,7 @@
 type: system
 status: developing
 created: 2026-05-08
-updated: 2026-05-14
+updated: 2026-05-15
 tags:
   - system
   - writing
@@ -61,54 +61,78 @@ Avoid:
 
 Preserve strong existing language unless there is a clear reason to change it.
 
-## Brief Style Reference
+## Brief Style Reference (Live Clinic & Source Syntheses)
 
-For source briefs and high-value synthesis, use the stronger local style found in the Opus briefs.
+For Live Clinic transcripts and other source briefs, the best current hybrid draws from three strong local examples (Grok, GPT, and Sonnet versions of the same material). The goal is a brief that feels both sharp and usable.
 
-That style has a few useful traits:
+### Core Thesis
+Use the direct Grok style:
+- Start with a single strong, plain-language bolded sentence that carries the real insight.
+- Follow with a short, natural explanation.
+- Avoid long setup paragraphs that summarize the clinic, the guest, or the session context. Go straight to the operating principle.
 
-- **Thesis paragraphs do real work.** The opening should compress the source into a live claim with stakes, mechanism, and implication. It should not merely introduce the topic.
-- **Bullets compress after the thesis.** Use bullets for takeaways, diagnostic lists, failure modes, or open questions. Do not let bullets replace the main synthesis.
-- **Sections have specific names.** Headings should sound like the idea inside the section, not like a reusable template slot.
-- **Paragraphs carry causal motion.** A good paragraph often moves from claim -> mechanism -> consequence -> implication.
-- **Compression keeps force.** Remove filler and source chatter, but keep the sentence that has bite.
-- **The brief should feel usable.** A reader should come away with a model they can apply, not just a memory of what the source said.
-
-Good Opus-style heading shapes:
-
+Good:
 ```text
-How the Brain Finds Shortcuts
-Overwhelm as Cue, Not Defect
-The Painter's Layered Approach
-Vibe Coding Eliminates Compromise
-Set Phrases Are Stone
-The Personal App Store
+**You cannot usefully read dense sources until you have first built a low-load big-picture scaffold using easier material.**
 ```
 
-Weak template headings:
+Avoid starting the Core Thesis with "This clinic shows..." or "Live Clinic X demonstrates...".
 
+### Compressed / Key Takeaways
+Use the clean GPT style:
+- A short, high-signal list (usually 6–8 items).
+- Each takeaway should be one crisp sentence or a very tight paragraph.
+- Focus on usable distinctions, failure modes, and rules rather than summaries of what the source said.
+
+### Body Structure and Headings
+Prefer the GPT structural approach:
+- Use a small number of thematic sections with specific, idea-driven headings.
+- Under major steps, layers, or sequences, add a short functional blurb: what this step/layer is and why it matters. Sonnet-style tables or one-sentence descriptions under each layer work well here.
+
+Example of good layer/step treatment:
 ```text
-Core Mechanism
-What Changes
-Relationship To...
-Implications
-Practical Use
+| Layer | Source Type              | Function                                      |
+|-------|--------------------------|-----------------------------------------------|
+| 0     | Images & diagrams        | Fastest way to create a low-load intuitive chunk before verbal definitions |
+| 1     | Wikipedia-style headings | Extract the organizing skeleton and relationships |
 ```
 
-The weak headings are allowed when they genuinely fit. They should not become the default shape of every note.
+Or in prose:
+**Layer 0 – Intuition anchor.** Use images and diagrams first. They reveal relationships with almost zero verbal decoding cost and give the brain something concrete to attach later information to.
 
-For briefs, a useful default shape is:
+### Process Flows and Concrete Examples
+GPT-style arrow diagrams and process flows are valuable. When the source contains a clear sequence or failure chain, render it visually:
+
+```text
+images and diagrams
+-> simple explanations
+-> Wikipedia-style headings
+-> textbook overview
+-> research articles
+-> details, methods, and edge cases
+```
+
+These flows make the operating model scannable and memorable. Use them when the source has a natural ordering or escalation.
+
+### Overall Brief Shape (Flexible Default)
+A useful default structure for Live Clinic and source briefs is:
 
 ```text
 Core Thesis
-Compressed Takeaways
-2-6 source-specific sections
+Compressed / Key Takeaways
+2–5 thematic source-specific sections (with functional blurbs under steps/layers)
 Connection to existing wiki pages
 Open Questions
 Sources
 ```
 
-Even this shape is optional. The source's logic should decide the final structure.
+The shape is a guide, not a requirement. Let the source's natural logic determine the final sections.
+
+### Voice and Compression Goals
+- Keep the brief tight but not skeletal.
+- Every major section should give the reader both the "what" and the "why this matters."
+- Concrete examples and process flows are currently under-used and should be added when they clarify the mechanism.
+- Remove session chatter ("the clinic opened with...", "Justin then showed...") unless it carries the actual operating insight.
 
 ## Positive Openings
 
@@ -204,12 +228,25 @@ The structure is what fails, not the person inside it.
 
 The contrast can follow once the reader has a handle on the idea. It should never open the definition.
 
-Weak opening shape:
+The pattern also surfaces at transition points — after a diagnosis, at the end of a section, before a repair — where contrast feels natural. It still applies. The positive claim comes first regardless of where in the page it appears.
+
+Weak shapes to watch for anywhere in the text:
 
 ```text
 X is not...
 The point is not...
 The useful version is not...
+The bottleneck is not X — it is Y.
+The solution is not X. The solution is Y.
+A schema is not a list — it is a network.
+```
+
+Replace with the positive claim directly:
+
+```text
+The bottleneck is converting information into a schema.
+Schema formation is the fix.
+A schema is a mental network.
 ```
 
 Positive definitions create momentum. They give the reader a usable handle before introducing caveats. A page can still distinguish the idea from nearby concepts, but the first paragraph should establish the thing directly.

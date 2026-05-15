@@ -2,7 +2,7 @@
 type: concept
 status: seed
 created: 2026-05-02
-updated: 2026-05-02
+updated: 2026-05-14
 source-count: 4
 last-audited:
 tags:
@@ -49,6 +49,24 @@ The key question is not "Is this hard?" but "What kind of hard is this?"
 - If it is hard because the learner is making meaningful comparisons, the difficulty may be productive.
 - If it is hard because too much is being held at once, the next move is offloading or decomposition.
 - If it is easy because the learner is coasting, the next move is to raise processing depth.
+
+## The Goldilocks Zone
+
+Efficient learning keeps cognitive load in a productive range — high enough to drive meaningful processing, low enough to avoid overload. Overload is when the brain is attempting to process more than it can currently handle; it is a biological limit, not a discipline failure.
+
+Higher-order learning inherently carries higher cognitive load. At first, this feels different, uncomfortable, and confusing. Over time, **cognitive load tolerance** expands: the brain adapts to the thinking patterns, and the same processes feel less taxing. The feeling of high load during genuine higher-order thinking is a feature, not a warning — as long as it is not tipping into overload.
+
+Techniques that prevent overload without reducing productive load:
+
+- Non-linear note-taking to track thoughts and relationships externally rather than holding them in working memory.
+- Mini hypothetical maps to test a structure before committing to it.
+- Short consolidation pauses — summarise and organise what has been learned before consuming more; this reduces the number of stray thoughts competing for working memory.
+
+## New Technique Overload
+
+Learning a new technique consumes cognitive load independently of the learning content. When too many new techniques are introduced at once, available mental resources are spent on performing the technique rather than on the higher-order thinking the technique is meant to support.
+
+The practical limit is one or two new techniques at a time. Adding more before the first have become automatic guarantees that the technique occupies the bandwidth that should be reserved for the thinking itself.
 
 ## Related Concepts
 

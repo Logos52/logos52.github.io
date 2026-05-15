@@ -2,7 +2,7 @@
 type: concept
 status: seed
 created: 2026-05-02
-updated: 2026-05-06
+updated: 2026-05-14
 source-count: 8
 last-audited:
 tags:
@@ -50,6 +50,34 @@ Metacognition is what lets you stop treating learning as a black box. Without it
 - Overwhelm can be treated as a triage signal rather than a capacity failure.
 - Fast content coverage can be a false reward if it replaces deep processing.
 - Feeling that something "makes sense" is not enough; the question is whether the learner can use it.
+
+## Cognition vs Metacognition
+
+Cognition is the act of learning itself: reading, understanding, remembering, solving. Metacognition is thinking about how that learning is happening — monitoring, evaluating, and adjusting the process.
+
+A student reading a history chapter is using cognition when they focus on the content, try to remember dates, and summarize the material. They are using metacognition when they pause and ask: "Do I actually understand this? Should I re-read it? Would a different strategy work better here?" The metacognitive question leads to a strategic adjustment — switching to a mindmap, testing recall, or revisiting an unclear section.
+
+The practical version: cognition executes the strategy; metacognition chooses, monitors, and corrects it.
+
+## Three Types of Metacognitive Knowledge
+
+Metacognitive knowledge has three forms that are useful to distinguish in practice:
+
+- **Person knowledge**: awareness of your own strengths, weaknesses, and tendencies as a learner. Knowing that you tend to underestimate how much retrieval you need, or that you lose focus after 45 minutes, is person knowledge.
+- **Task knowledge**: understanding what a task actually requires — what kind of thinking, what level of mastery, what format of output. Knowing that an essay exam requires relational understanding rather than fact recall is task knowledge.
+- **Strategy knowledge**: knowing which techniques work for which tasks, and when to switch. Knowing that flashcards handle isolated terms well but fail for complex relationships is strategy knowledge.
+
+The simplest practical version collapses these into three questions: What am I currently doing? What should I be doing? How do I close the gap one step at a time?
+
+## Turning Metacognition Into Action
+
+The gap between metacognitive awareness and improved performance is self-regulation. Noticing a problem is necessary but not sufficient — the regulation moves are what create change:
+
+- **Planning**: set the goal and select the strategy before the session begins.
+- **Monitoring**: track whether the strategy is producing the intended thinking during the session.
+- **Evaluating**: reflect on what the session produced and decide what to change next time.
+
+Frameworks already in the study system — [[wiki/Techniques/Marginal Gains|Marginal Gains]] and [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] — directly implement this loop. Marginal Gains is the planning and evaluation phase; Kolbs is the structured reflection that feeds back into the next experiment.
 
 ## Study-System Role
 

@@ -13,6 +13,7 @@ tags:
 
 ## What's On My Mind
 
+- [[wiki/Concepts/Schema|What does strong schema formation look like across skill-based vs concept-heavy domains — and at what point is a schema detailed enough to generate novel applications reliably?]]
 - [[wiki/Workflows/Knowledge Base as Thinking Partner|How should I use the knowledge base as a thinking partner instead of only an archive?]]
 - [[journal/knowledge-base-as-thinking-partner-reflection|How do I use the knowledge base to free attention from bookkeeping without weakening my own thinking?]]
 - [[wiki/Syntheses/Minimally Viable Learning System|Is it possible to compress the learning system into a minimally viable system?]]
@@ -78,6 +79,7 @@ These are blank public shells for private Obsidian workflows. The templates can 
 
 ## Recent Log
 
+- [[journal/calendar#2026-05-14|2026-05-14]]: Created [[wiki/Concepts/Schema|Schema]] as a dedicated concept hub. Three cognitive pillars (construction, assimilation, reorganization) map directly onto Prestudy/Aim, Shoot, Skin. Logged the schema assimilation vs accommodation distinction in the calendar — assimilation extends the existing schema; accommodation restructures it when the shape is wrong.
 - [[journal/calendar#2026-05-14|2026-05-14]]: Added [[wiki/Concepts/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated]] — DFUZ and thought-action defusion. Motivation dependence makes consistency structurally impossible; the fix is separating feeling from action, then using the bidirectional loop (actions change thoughts change feelings) to build uptime gradually.
 - [[journal/calendar#2026-05-14|2026-05-14]]: Compiled wiki pages from Live Clinics 64, 65, and 66 — [[wiki/Concepts/Deep Processing for Research|Deep Processing for Research]], [[wiki/Concepts/How to maintain sustainable energy under pressure|How to maintain sustainable energy under pressure]], and [[wiki/Concepts/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]. Added [[wiki/Concepts/Best-attempt Encoding|Best-attempt Encoding]] as a standalone practical guide.
 - [[journal/knowledge-base-as-thinking-partner-reflection|2026-05-13]]: Reflected on [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] and the risk that the system could create passive connection-browsing instead of stronger first-brain schema building.
