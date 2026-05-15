@@ -85,6 +85,14 @@ Neuroplasticity is the mechanism: sustained exposure to the defused pattern resh
 
 The environment should carry part of the motivational load. Fewer battles per day compounds over a week, a month, a year.
 
+## The Role of Motivation in Habit Formation
+
+Motivation-independence is the target state, but it takes time to reach. During the early stages of learning a new skill or building a new behavior, motivation is a legitimate and valuable resource for breaking through the initial friction before habits form. The goal is strategic use: motivation as fuel for habit formation, then gradually less needed once the habit runs on its own.
+
+The process runs in stages: identify the desired outcome, identify the necessary skills, unlearn old habits, learn new ones, then maintain them. Habit formation is not immediate. It takes weeks to months of deliberate practice, self-reflection, and barrier removal before the behavior becomes automatic. During this window, motivation is genuinely useful — it provides the energy to push through difficulty while the habit is not yet strong enough to carry the behavior on its own.
+
+Once a habit has formed, motivation is no longer needed for that specific function. The behavior runs without it. This frees motivation for the next skill being developed, where it will again be useful during the formation period. Marginal Gains supports this process by making the early stages visible and motivating through concrete evidence of progress — which sustains the effort needed for habit formation long enough for the habit to take hold.
+
 ## The Reserve Model
 
 Motivation is most useful when treated as a reserve rather than a daily fuel source. Most ordinary tasks do not require emotional readiness — they require a stable entry sequence. Burning motivation on routine starts depletes it for the moments when genuine difficulty actually warrants it: a high-stakes decision, a genuinely hard conversation, an unusually complex problem.

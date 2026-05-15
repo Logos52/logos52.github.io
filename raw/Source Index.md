@@ -1,7 +1,7 @@
 ---
 type: source-index
 created: 2026-05-02
-updated: 2026-05-10
+updated: 2026-05-15
 ---
 
 # Source Index
@@ -13,6 +13,7 @@ This index lets `raw/` and `Clippings/` remain dump directories while still givi
 | Source | Type | Status | Main Topics | Compile Targets |
 | --- | --- | --- | --- | --- |
 | [[raw/Watch This For 18 Minutes, and You’ll Outlearn 99.9% Of People|Watch This For 18 Minutes, and You'll Outlearn 99.9% Of People]] | YouTube transcript | partially compiled | metacognition, passive vs active learning, radar building | [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]], [[wiki/Techniques/Building the Radar|Building the Radar]], [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] |
+| [[Clippings/Watch This To Force Your Brain To Study FASTER|Watch This To Force Your Brain To Study FASTER]] | YouTube transcript | output synthesized | knowledge schemas, schema construction, schema assimilation, schema reorganization, three cognitive pillars | [[outputs/briefs/Grok - Watch This To Force Your Brain To Study FASTER|Grok - Watch This To Force Your Brain To Study FASTER]] |
 | [[raw/How to Think So Clearly People Assume You’re A Genius|How to Think So Clearly People Assume You're A Genius]] | YouTube transcript | partially compiled | cognitive overload, working memory, dependency mapping, confidence intervals | [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]], [[wiki/Techniques/Thinking on Paper|Thinking on Paper]] |
 | [[raw/How to Use Neuroscience To Learn Skills Like The Top 1%|How to Use Neuroscience To Learn Skills Like The Top 1%]] | YouTube transcript | partially compiled | unlearning, habits, reward recalibration, pattern interrupts | [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]], [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]] |
 | [[raw/How to Learn Anything Faster Using Modern Research|How to Learn Anything Faster Using Modern Research]] | YouTube transcript | partially compiled | deep processing, conditional knowledge, feedback, intuition | [[wiki/Dimensions/Deep Processing|Deep Processing]], [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]] |
@@ -45,6 +46,8 @@ This index lets `raw/` and `Clippings/` remain dump directories while still givi
 | [[Clippings/How I use LLMs|How I use LLMs]] | YouTube transcript | partially compiled | LLM usage, context windows, tool use, search, thinking models, coding agents | [[wiki/Concepts/LLM Tool Use|LLM Tool Use]], [[wiki/Concepts/Thinking Models|Thinking Models]], [[wiki/Concepts/Vibe Coding|Vibe Coding]], [[wiki/Techniques/Context Engineering|Context Engineering]] |
 | [[Clippings/Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]] | YouTube transcript | partially compiled | vibe coding, agentic engineering, Software 3.0, agent-native infrastructure, understanding bottleneck | [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Concepts/Software 3.0|Software 3.0]], [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]], [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]] |
 | [[Clippings/Post by @naval on X|Post by @naval on X]] | X thread clipping | queued | leverage, specific knowledge, compounding, permissionless media/code | outside current metacognition scope unless linked to knowledge systems |
+| [[raw/private/ICS/Live Clinic 44- Syntopical reading- learning from multiple, dense resources|Live Clinic 44: Syntopical Reading]] | ICS Live Clinic transcript | output synthesized | syntopical reading, multiple dense resources, research articles, prestudy layering, readiness, split attention, working hypotheses | [[outputs/briefs/Grok - Live Clinic 44 Syntopical Reading - Learning from Multiple, Dense Resources|Grok - Live Clinic 44]] |
+| [[raw/private/ICS/Live Clinic 61- Opening the Black Box of Learning|Live Clinic 61: Opening the Black Box of Learning]] | ICS Live Clinic transcript | output synthesized | black box of learning, transitions, diagnostic process, process-level questions, self-regulation during change | [[outputs/briefs/Grok - Live Clinic 61 Opening the Black Box of Learning|Grok - Live Clinic 61]] |
 
 ## Notes
 

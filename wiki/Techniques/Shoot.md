@@ -2,8 +2,8 @@
 type: technique
 status: seed
 created: 2026-05-04
-updated: 2026-05-07
-source-count: 5
+updated: 2026-05-14
+source-count: 6
 last-audited: 2026-05-07
 tags:
   - learning
@@ -52,7 +52,15 @@ While shooting:
 
 The map should change as understanding improves.
 
-### 4. Add Detail Only When It Serves The Structure
+### 4. Do Not Fear Missing Details
+
+Details missed during Shoot will surface in later stages — retrieval, Skin, or the next encoding pass. A complete learning system has multiple layers, and each layer catches what the previous one missed. The risk of encoding details too early is greater than the risk of missing them: detail learned before the surrounding structure exists is isolated, harder to retain, and likely to require memorization instead of inference.
+
+Details encode better when the concept layer they belong to already exists. What felt impossible to retain in isolation often becomes obvious once the logic and concept layers are in place.
+
+The exception: details that directly clarify a relationship or prevent a misunderstanding about a chunk should be captured immediately.
+
+### 5. Add Detail Only When It Serves The Structure
 
 Details are useful when they:
 
@@ -99,6 +107,16 @@ Practical method:
 - avoid highlighting without processing.
 
 If you highlight, each highlight should either answer a question or support a chunk.
+
+## Delaying Note-Taking
+
+Most formal education trains students to read and write continuously. Constant note-taking feels productive but removes the brain's incentive to process what it has just consumed. When writing begins before thinking has happened, the notes capture the source rather than the learner's understanding of it.
+
+The principle underneath Shoot: spend more time making sense of what has been consumed before writing anything. Writing should capture conclusions, not transcription. This is uncomfortable — sitting with information and trying to figure out where it belongs creates genuine cognitive friction. That friction is the processing.
+
+Research on linear versus non-linear note-taking consistently shows that verbatim and linear notes produce lower retention and lower performance on average. Non-linear notes prioritize relationships over sequence, which forces the learner to decide where each piece belongs — a decision that is itself part of encoding. Non-linear note-taking is a technically demanding skill; learners who try it without guidance and find it ineffective are usually running a flawed version, not a fundamentally weak method.
+
+The practical application in Shoot: pause after each section, make sense of what it means for the map, then write. Delay writing until there is something to say about where the information goes and why.
 
 ## What Shoot Should Feel Like
 

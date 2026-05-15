@@ -2,7 +2,7 @@
 type: technique
 status: developing
 created: 2026-05-04
-updated: 2026-05-11
+updated: 2026-05-14
 source-count: 5
 last-audited: 2026-05-07
 tags:
@@ -163,6 +163,30 @@ Before moving to Shoot:
 - Have I compared at least a few concepts?
 - Do I have rough chunks?
 - Do I know what I am looking for next?
+
+## Inquiry Principles
+
+Good inquiry must satisfy all of the following. Use this as a checklist when Aim feels weak:
+
+- Questions find relationships, not just definitions.
+- Answering a question requires evaluating importance and making a value judgment — not just retrieving a fact.
+- Mental effort is required to make sense of the information.
+- Information always connects back to the big picture.
+- Information always forms part of a network.
+- The network is logically coherent, not just connected — a connection is only useful if the relationship is meaningful.
+
+Anything that allows simple, direct answers without comparison or judgment will reduce encoding quality. This is one of the most common causes of ineffective chunking and weak maps.
+
+## Signs of Weak Inquiry
+
+Warning signs that inquiry is not working:
+
+- Questions are answered with a single fact rather than a set of relationships.
+- Most questions start with "what" rather than "why" or "how" — isolating rather than connecting.
+- "Why is this important?" is skipped for most concepts.
+- Questions are only asked for individual concepts, not for the chunks that group them.
+- Mindmaps feel disorganised — usually a sign that the backbone was not built from importance and relationship questions.
+- Curveball or novel exam questions feel impossible — a sign that concepts were not related to each other during encoding.
 
 ## Common Fixes
 

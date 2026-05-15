@@ -1,7 +1,7 @@
 ---
 type: log
 created: 2026-05-02
-updated: 2026-05-12
+updated: 2026-05-15
 tags:
   - system
 ---
@@ -9,6 +9,54 @@ tags:
 # Log
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
+
+## [2026-05-15] output | Live Clinic 61 synthesis + file moves
+
+- Created [[outputs/briefs/Grok - Live Clinic 61 Opening the Black Box of Learning|Grok - Live Clinic 61: Opening the Black Box of Learning]] in closer alignment with GPT style for this brief: clean process diagrams, weak-vs-better contrasts, minimal narrative, full removal of attribution language ("Justin outlines...", "actually", etc.), while preserving the neutral black box framing.
+- Moved both Live Clinic 44 and Live Clinic 61 source files from `Clippings/` to `raw/private/ICS/` to mark them as processed.
+- Updated [[raw/Source Index|Source Index]] with the new locations and synthesis targets.
+
+## [2026-05-15] compile | Opening the Black Box of Learning technique page
+
+- Created [[wiki/Techniques/Opening the Black Box of Learning\|Opening the Black Box of Learning]] as a new technique page distilled from Live Clinic 61.
+- Used neutral framing (black box as unseen processes, not something you are "inside").
+- Strong diagnostic sequence with process questions, input/output separation, and stress-testing guidance.
+- Added the page to [[notes/index|notes/index.md]].
+
+## [2026-05-15] output | Watch This To Force Your Brain To Study FASTER brief
+
+- Created [[outputs/briefs/Grok - Watch This To Force Your Brain To Study FASTER|Grok - Watch This To Force Your Brain To Study FASTER]] as a new output brief.
+- Focused on the Three Cognitive Pillars for efficient knowledge schema formation (Construction, Assimilation, Reorganization).
+- Added the source to [[raw/Source Index|Source Index]] as output synthesized.
+
+## [2026-05-15] compile | Schema Construction, Assimilation, and Reorganization technique page
+
+- Created [[wiki/Techniques/Schema Construction, Assimilation, and Reorganization\|Schema Construction, Assimilation, and Reorganization]] in `wiki/Techniques/`.
+- Used an action-oriented Core Thesis focused on building and refining connected mental models.
+- Broke down the three cognitive pillars with practical guidance for each.
+- Added the page to [[notes/index|notes/index.md]].
+
+## [2026-05-15] output | Live Clinic 44 syntopical reading synthesis
+
+- Added [[outputs/briefs/Grok - Live Clinic 44 Syntopical Reading - Learning from Multiple, Dense Resources|Grok - Live Clinic 44: Syntopical Reading - Learning from Multiple, Dense Resources]] as a new brief.
+
+## [2026-05-15] maintenance | Refined brief writing standards
+
+- Updated [[00 Command Center/Writing Standards|Writing Standards]] based on direct comparison of Grok, GPT, and Sonnet versions of Live Clinic 44.
+- Formalized hybrid preference: Grok-style Core Thesis (direct bolded insight, no session summary), GPT-style Compressed/Key Takeaways + body structure + process flows, Sonnet-style short functional blurbs ("what it is + why it matters") under layers and steps.
+- Added guidance on using concrete arrow diagrams / process flows and requiring short "why this step matters" descriptions.
+- Kept standards intentionally flexible — these are observed patterns, not rigid templates.
+
+## [2026-05-15] compile | Syntopical Reading technique page
+
+- Created [[wiki/Techniques/Syntopical Reading\|Syntopical Reading - Learning from Multiple Dense Resources]] as a new technique page.
+- Positioned it as an advanced extension of Prestudy for multi-source dense material (research articles in particular).
+- Used the updated hybrid brief standards: direct Grok-style Core Thesis, clean takeaways, layering table with functional blurbs, process flow diagram, and strong links into Prestudy + BHS.
+- Added the page to [[notes/index|notes/index.md]].
+- Source: new Clippings transcript of Justin Sung live clinic with Andrew on syntopical reading from multiple dense research articles (kinesiology domain).
+- Key extracted operating model: deliberate layering by cognitive accessibility (images → structure → prose), cross-source relationship mapping from the start, working hypotheses, avoidance of segmental mapping, and prestudy as readiness-building rather than early content coverage.
+- Updated [[raw/Source Index|Source Index]] to mark the Clippings item as output synthesized.
+- Connected the synthesis to [[wiki/Techniques/Prestudy|Prestudy]], [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Dimensions/Deep Processing|Deep Processing]], [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]], and related pages.
 
 ## [2026-05-13] output | NX synthesis and writing-style refinement
 

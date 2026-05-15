@@ -71,6 +71,9 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Concepts/Neuroticism\|Neuroticism]] | concept | developing | Trait-level threat sensitivity and emotional reactivity as it affects learning, self-regulation, avoidance, and growth. |
 | [[wiki/Techniques/Thinking on Paper\|Thinking on Paper]] | technique | seed | Using notes as an external workbench for reasoning and cognitive offload. |
 | [[wiki/Techniques/Prestudy\|Prestudy]] | technique | developing | Setup layer before the main learning event: rough frame, big-picture chunks, questions, and reduced cognitive load. |
+| [[wiki/Techniques/Syntopical Reading - Learning from Multiple Dense Resources\|Syntopical Reading - Learning from Multiple Dense Resources]] | technique | seed | Deliberate layering of sources from lowest to highest cognitive load when working with multiple dense resources (especially research articles). |
+| [[wiki/Techniques/Opening the Black Box of Learning\|Opening the Black Box of Learning]] | technique | seed | Making the hidden processes between effort and results visible and diagnosable, especially during transitions. |
+| [[wiki/Techniques/Schema Construction, Assimilation, and Reorganization\|Schema Construction, Assimilation, and Reorganization]] | technique | seed | Building and refining connected mental models efficiently through construction, assimilation, and regular reorganization. |
 | [[wiki/Techniques/Bear Hunter System\|Bear Hunter System]] | technique | developing | Practical encoding workflow: Aim questions, Shoot through sources, Skin maps, then hand off to retrieval. |
 | [[wiki/Techniques/Aim\|Aim]] | technique | developing | BHS prestudy step for turning concepts into why/how questions and rough chunks. |
 | [[wiki/Techniques/Shoot\|Shoot]] | technique | developing | BHS active-learning step for answering Aim questions while building a working map. |

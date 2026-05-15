@@ -2,8 +2,8 @@
 type: concept
 status: seed
 created: 2026-05-04
-updated: 2026-05-04
-source-count: 1
+updated: 2026-05-14
+source-count: 2
 last-audited:
 tags:
   - learning
@@ -31,6 +31,29 @@ For this wiki, mastery is treated as a multi-level diagnostic tool. It helps cho
 | 3 | Relate multiple concepts. | Compare, contrast, or connect ideas. |
 | 4 | Judge importance and context. | Explain which relationships matter most and why. |
 | 5 | Extend, hypothesize, or create. | Use the knowledge to generate new ideas or solve novel problems. |
+
+## Methods By Level
+
+Each mastery level requires different retrieval and encoding methods. Using a method intended for level 1 when the target is level 4 produces a hard ceiling.
+
+| Level | Target | Common methods | Common tests |
+| --- | --- | --- | --- |
+| 1 | Recall isolated facts, terms, details, labels | Flashcards on facts and definitions; cover-copy-check; isolated recall questions | Direct fact recall |
+| 2 | Explain individual concepts or processes | Flashcards on explaining a concept or process; teaching a single concept; process maps and flow diagrams | Questions to explain and describe processes |
+| 3 | Relate and compare multiple concepts | Teaching how two or more concepts relate; compare-and-contrast questions; relational mindmaps | Questions drawing on multiple concepts; comparison tasks |
+| 4 | Judge importance and context across the whole topic | Chunkmaps evaluating which relationships matter most; WPW reteaching; evaluative generated questions; discussion of how context changes importance | Questions requiring nuanced discussion of concept influence; complex multi-factorial problems |
+| 5 | Extend, hypothesize, and create | Novel research; hypothesizing from prior knowledge; exploring new information as experiment | High-level commentary or research; typically only assessed at doctoral level |
+
+## The Level 3 to Level 4 Gap
+
+The jump from level 3 to level 4 is the most significant in practical learning. Level 3 identifies relationships and similarities. Level 4 makes value judgments about those relationships — which ones matter most, which are central versus peripheral, and how importance shifts across contexts.
+
+| Level | Characteristic | Impact on learning |
+| --- | --- | --- |
+| 3 | Identifying relationships, similarities, and differences | Moderately helpful. Starts building connections and networks. |
+| 4 | Making value judgments about the importance and relevance of those relationships | Extremely helpful. Forces substantially deeper encoding and processing. |
+
+The core principle: higher-order is integrated, lower-order is isolated. The defining feature of higher mastery is a greater appreciation of how information fits into the big picture. Strong, simple, and refined schemas let the brain navigate the topic quickly and fluently — reducing the need for repetition because meaning does the work that repetition was doing.
 
 ## Why Higher-Order Matters
 
@@ -61,6 +84,7 @@ The answer determines the repair.
 ## Related Concepts
 
 - [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Concepts/Learning Efficiency|Learning Efficiency]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]

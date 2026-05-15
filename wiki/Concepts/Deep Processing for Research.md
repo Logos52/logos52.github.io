@@ -108,6 +108,20 @@ Poor uses:
 
 For source discovery specifically, domain-specific tools (such as Research Rabbit) outperform AI because they map your existing papers and surface adjacent work algorithmically. AI hallucinates citations on niche queries and cannot replace specialized tools for this task.
 
+## Storing References While Encoding
+
+Non-linear encoding creates a challenge for reference tracking: the structure being built does not preserve source attribution in the way linear notes do. Three strategies address this without disrupting the encoding process.
+
+**Synthesise as you go.** After every two or three sources, write a short linear synthesis with citations — essentially a draft literature review growing alongside the non-linear map. This produces two parallel outputs: a non-linear structure for understanding and evaluation, and a cited linear document that accumulates as a reference bank. Best suited when a single piece of writing is the target, since the linear document is being built toward one output.
+
+**Second brain.** Use a reference application (Obsidian, Roam, Zotero with notes) to create a page per source with a brief summary and carefully chosen tags. Tag networks and graph views then surface relationships between sources that would otherwise require memory. Higher setup cost, but better suited for long-term, multi-project reference use where the same sources will be needed repeatedly.
+
+**Reference chunking.** Categorise each source by its importance and role rather than by topic or date. Useful categories include core foundational works, high-leverage applied studies, contextual but peripheral works, counterpoint or minority-view references, and methods or measurement references. Store these in citation software (Zotero, EndNote) with tags and brief notes explaining why each source belongs in its category.
+
+Reference chunking requires genuine field expertise to execute accurately — the ability to judge where a paper sits in the landscape depends on already having a mental map of the landscape. It is most effective once a domain schema is established. When it works, it makes pulling high-quality citations for a paper much faster, because the structure of the literature is reflected in the reference collection itself.
+
+The choice between methods depends on whether the references will be used once (synthesise as you go), repeatedly across projects (second brain), or in a field where deep expertise is being developed over years (reference chunking). Combinations are possible and often appropriate.
+
 ## What It Should Feel Like
 
 Good research processing feels like increasing command over a messy territory. The confusion changes character — not less work, but better-organized difficulty.

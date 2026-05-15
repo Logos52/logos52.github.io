@@ -4,7 +4,7 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-05-13
+updated: 2026-05-14
 tags:
   - system
 ---
@@ -14,6 +14,36 @@ tags:
 A lightweight chronological index for public journal entries and thinking-log updates. This is manually maintained so it works the same way in Obsidian and on the website.
 
 ## 2026-05-14
+
+Created [[wiki/Concepts/Schema|Schema]] as a dedicated concept hub from Justin Sung's "Watch This to Force Your Brain to Study Faster." The three cognitive pillars — schema construction, assimilation, reorganization — map almost exactly onto Prestudy/Aim, Shoot, and Skin. The core reframe: learning speed is not how fast you consume information, it is how fast you form high-quality schemas. Reorganization (the Skin equivalent) is the step most students skip because it feels like slowing down — but it is the step that converts accumulated information into a durable structure.
+
+**Schema assimilation vs schema accommodation:**
+
+Schema assimilation and accommodation come from Piaget. They are the two mechanisms by which a schema changes.
+
+Assimilation is what happens when new information fits into an existing schema without requiring the schema to restructure. The network absorbs the new piece — extends a branch, fills a gap, adds a sub-concept — but its fundamental shape stays intact. Most learning during a study session is assimilation: the draft schema already has categories, and new information gets placed inside them.
+
+Accommodation is what happens when new information does not fit and the schema must change shape to accept it. A category gets split, a boundary gets redrawn, a previously unified chunk gets separated, or two previously separate schemas get merged. Accommodation is the rarer and cognitively heavier process — it requires recognizing that the existing structure is wrong, not just incomplete.
+
+The practical distinction matters because they have different triggers and different repair strategies:
+
+| | Assimilation | Accommodation |
+| --- | --- | --- |
+| Trigger | New information fits existing structure | New information conflicts with existing structure |
+| Schema change | Extension or addition | Restructuring or schema replacement |
+| Feels like | Building the map | Finding the map is wrong |
+| Common in | Most of Shoot and Skin | Correcting misconceptions, major topic revisions, or cross-domain synthesis |
+| Risk | Forcing a fit when the structure should change | Triggering premature restructuring before enough information exists |
+
+The Sung video uses "assimilation" in this exact Piagetian sense — adding information to the draft. His "reorganization" step is where accommodation can happen: the structure is reviewed and, if the groupings are wrong, they are changed. In BHS terms: most of Shoot is assimilation; Skin can trigger accommodation when the map reveals that the initial chunk structure was fundamentally wrong.
+
+The learning implication: if retrieval keeps failing in the same place, and the information was covered, the problem may not be retention — it may be that the schema needs accommodation, not more assimilation. The structure is wrong, not incomplete.
+
+---
+
+Added [[wiki/Techniques/Marginal Gains|REDO framework]] (Reflect, Evaluate, Define, Optimise) to Marginal Gains and expanded the three stacking requirements. Created [[wiki/Concepts/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]] with the higher-order / lower-order / procedural error taxonomy and the Double Generation Practice Test. Folded the retrieval-before-techniques sequencing note into [[wiki/Techniques/Bear Hunter System|BHS]] as a named failure mode ("Technique-first") and a pre-Aim note.
+
+---
 
 Compiled Opus briefs for Live Clinics 64, 65, and 66, then converted all three into wiki pages:
 

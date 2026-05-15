@@ -3,7 +3,7 @@ type: technique
 status: developing
 created: 2026-05-11
 updated: 2026-05-11
-source-count: 3
+source-count: 4
 last-audited:
 tags:
   - learning
@@ -78,6 +78,15 @@ Prestudy should not create:
 - false confidence.
 
 The right output is a useful frame, not a finished artifact.
+
+Prestudy is complete when:
+
+- the topic has a clear big-picture structure, not just a list of terms;
+- the whole topic or subtopic has been covered, not just the next class;
+- no details or facts have been memorized yet — the focus was exclusively on the big picture;
+- the major ideas have visible relationships to each other;
+- there are some hypotheses about how concepts connect;
+- the main event feels like the next step, not first contact.
 
 ## Prestudy vs Aim
 
@@ -157,6 +166,14 @@ Before the lecture, reading, or study session, know what you are hunting for:
 - details that would strengthen the frame.
 
 Then use [[wiki/Techniques/Shoot|Shoot]] to fill, test, and revise the structure.
+
+## How Much To Prestudy
+
+Prestudy as much of the upcoming material as possible before major learning events. In a formal curriculum, assessments are timed to the end of classes — studying ahead creates more time for encoding and retrieval. The goal of comprehensive prestudy is to move beyond class pace: the main learning event becomes a gap-finder and detail-filler rather than the first contact.
+
+Covering content alone is not sufficient. Prestudy at the detail level early activates isolated, lower-order processing — information arrives without a home and requires memorization rather than inference. The frame must come first. Committing to details before the structure exists is a common reason why prestudy feels like wasted time: the details do not stick because the architecture for them has not been built yet.
+
+When time allows comprehensive prestudy, doing it at the whole-topic level — rather than one lecture at a time — creates a more stable scaffold. The first pass can cover far more ground than it seems, because the goal is big-picture familiarity, not thorough understanding.
 
 ## Minimum Prestudy
 
