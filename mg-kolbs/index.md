@@ -1,6 +1,6 @@
 # MG & Kolbs
 
-**Direct Links**
+**Databases**
 
 - [[Tasks]]
 - [[Kolbs]]
@@ -41,38 +41,43 @@ What do you need to be good at to achieve this goal?
 
 **Database Views**
 
-**Tasks** (Linked View)
+[**Tasks** (Linked View)](Tasks.md)
 
-| Task | Status | Due | Related Goal | Notes |
-|------|--------|-----|--------------|-------|
-| Insert task here | Not started |  |  |  |
-| Insert task here | In progress |  |  |  |
+| Task | Status | Related Goal | Energy |
+|------|--------|--------------|--------|
+| BHS session: schema formation and the three pillars | Not Started | Learning Systems | Medium |
+| Set up SIR tracking system | Not Started | Learning Systems | Low |
+| Run first Kolbs on Practice Consistency | Not Started | Learning Systems | Low |
+| Improve one prompt or workflow from this week | Not Started | Agentic Engineering | Medium |
+| Log one Vietnamese input session | Not Started | Vietnamese | Low |
 
-**Kolbs** (Linked View)
+[**Kolbs** (Linked View)](Kolbs.md)
 
-| Kolbs Entry | Status | Date | Notes |
-|-------------|--------|------|-------|
-| SIR 1 | Done |  |  |
-| Sleep 1 | Done |  |  |
-| SIR 2 | In Progress |  |  |
+| Kolbs Entry | Status | Date | Skill | Notes |
+|-------------|--------|------|-------|-------|
+| (none yet) | | | | Start with Practice Consistency or BHS |
 
-**Skills** (Linked View)
+[**Skills** (Linked View)](Skills.md)
 
-| Skill | Current Level | Final Level | Competency | Notes |
-|-------|---------------|-------------|------------|-------|
-| SIR | 5/10 | 7/10 | CC (low) |  |
-| Sleep | 3/10 | 9/10 | CC (high) |  |
+| Skill | Current Level | Final Level | Competency | Goal |
+|-------|---------------|-------------|------------|------|
+| Practice Consistency | 3/10 | 7/10 | CI | Learning Systems |
+| BHS | 4/10 | 7/10 | CC (low) | Learning Systems |
+| SIR | 5/10 | 7/10 | CC (low) | Learning Systems |
+| Prompt Design | 4/10 | 7/10 | CC (low) | Agentic Engineering |
+| Workflow Design | 3/10 | 7/10 | CI | Agentic Engineering |
+| Verification | 3/10 | 6/10 | CI | Agentic Engineering |
+| Immersion Recurrence | 3/10 | 7/10 | CI | Vietnamese |
+| Noticing | 3/10 | 6/10 | CI | Vietnamese |
 
-**Goal Tracking** (Linked View)
+[**Goals** (Linked View)](Goals.md)
 
-| Entry | Status | Date | Related Goal | Notes |
-|-------|--------|------|--------------|-------|
-| Weekly Evaluation | Done |  |  |  |
-| 1% Gains Review | In Progress |  |  |  |
+| Goal | Status | Priority 0 Area | Skills |
+|------|--------|-----------------|--------|
+| [[Goals/Learning Systems\|Learning Systems]] | Active | Learning Systems | Practice Consistency, BHS, SIR |
+| [[Goals/Agentic Engineering\|Agentic Engineering]] | Active | Agentic Engineering | Prompt Design, Workflow Design, Verification |
+| [[Goals/Vietnamese\|Vietnamese]] | Active | Vietnamese | Immersion Recurrence, Noticing |
 
-**Goals** (Linked View)
+---
 
-| Goal | Status | Current Level | Final Level | Notes |
-|------|--------|---------------|-------------|-------|
-| Insert Goal title | Active |  |  |  |
-| Insert Goal title | Active |  |  |  |
+**Back to main site** → [[Index]]

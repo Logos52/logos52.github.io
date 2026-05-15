@@ -13,8 +13,8 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-05-15] output | Live Clinic 61 synthesis + file moves
 
 - Created [[outputs/briefs/Grok - Live Clinic 61 Opening the Black Box of Learning|Grok - Live Clinic 61: Opening the Black Box of Learning]] in closer alignment with GPT style for this brief: clean process diagrams, weak-vs-better contrasts, minimal narrative, full removal of attribution language ("Justin outlines...", "actually", etc.), while preserving the neutral black box framing.
-- Moved both Live Clinic 44 and Live Clinic 61 source files from `Clippings/` to `raw/private/ICS/` to mark them as processed.
-- Updated [[raw/Source Index|Source Index]] with the new locations and synthesis targets.
+- Moved both Live Clinic 44 and Live Clinic 61 source files into local-only source storage to mark them as processed.
+- Updated [[raw/Source Index|Source Index]] with the processed status and synthesis targets.
 
 ## [2026-05-15] compile | Opening the Black Box of Learning technique page
 
@@ -401,6 +401,14 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Expanded [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Aim|Aim]], [[wiki/Techniques/Shoot|Shoot]], and [[wiki/Techniques/Skin|Skin]] from the learning-system source material.
 - Reoriented the pages toward practical use: when to do each step, what to write, what the artifact should look like, quality checks, failure modes, and retrieval handoff.
 - Renamed the mindset concept page to [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]].
+
+## [2026-05-16] compile | Suicidal Empathy fold-in
+
+- Created dedicated book page [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] (high-signal operating synthesis: Core Thesis on decoupled empathy, chapter operating models, inoculation protocol from Chapter 8).
+- Updated [[wiki/Books/The Parasitic Mind|The Parasitic Mind]] with a short successor note positioning *Suicidal Empathy* as the emotional counterpart.
+- The existing [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] concept page was already rewritten in the preferred high-signal style (operating models with `->` flows, sharp mechanisms, repair protocol, minimal throat-clearing).
+- Added the new book page to [[notes/index|Notes Index]].
+- Strengthened cross-links across Red Teaming, Decision Making, and communication pages (many already referenced the concept).
 
 ## [2026-05-07] maintenance | Personal site homepage
 

@@ -152,6 +152,7 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | Page | Type | Status | Summary |
 | --- | --- | --- | --- |
 | [[wiki/Books/The Parasitic Mind\|The Parasitic Mind]] | book | developing | Longform review and takeaways on Gad Saad's argument for reason, free speech, and epistemic hygiene. |
+| [[wiki/Books/Suicidal Empathy\|Suicidal Empathy]] | book | seed | The emotional successor to *The Parasitic Mind*. Maps how empathy becomes suicidal when decoupled from truth, reciprocity, and survival. Includes practical inoculation protocol. |
 | [[wiki/Concepts/Suicidal Empathy\|Suicidal Empathy]] | concept | developing | Gad Saad's evolutionary framework for maladaptive empathy that is excessive, misactivated, or aimed at the wrong targets. |
 | [[wiki/Books/The Book of Elon\|The Book of Elon]] | book | developing | Longform review and takeaways on purpose, first-principles engineering, company-building, and civilizational optimism. |
 | [[wiki/Glossary\|Glossary]] | glossary | seed | Short definitions of recurring terms. |

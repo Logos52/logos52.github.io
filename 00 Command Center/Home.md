@@ -141,6 +141,7 @@ LLM systems and agentic engineering:
 Books and longform reviews:
 
 - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]]
+- [[wiki/Books/Suicidal Empathy|Suicidal Empathy]]
 - [[wiki/Books/The Book of Elon|The Book of Elon]]
 
 Red Teaming:
