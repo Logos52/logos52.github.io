@@ -4,7 +4,7 @@ description: "Current questions, active threads, and public thinking log."
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-05-13
+updated: 2026-05-15
 tags:
   - system
 ---
@@ -79,6 +79,7 @@ These are blank public shells for private Obsidian workflows. The templates can 
 
 ## Recent Log
 
+- [[journal/calendar#2026-05-15|2026-05-15]]: Created output briefs for [[outputs/briefs/GPT - Live Clinic 61 Opening the Black Box of Learning|Live Clinic 61: Opening the Black Box of Learning]] and [[outputs/briefs/GPT - Watch This To Force Your Brain To Study FASTER|Watch This To Force Your Brain To Study FASTER]]. Live Clinic 61 reframes the black box as the inspectable process layer between learning inputs and outputs. Study Faster sharpens the schema formation model: construction, assimilation, and frequent reorganization.
 - [[journal/calendar#2026-05-14|2026-05-14]]: Created [[wiki/Concepts/Schema|Schema]] as a dedicated concept hub. Three cognitive pillars (construction, assimilation, reorganization) map directly onto Prestudy/Aim, Shoot, Skin. Logged the schema assimilation vs accommodation distinction in the calendar — assimilation extends the existing schema; accommodation restructures it when the shape is wrong.
 - [[journal/calendar#2026-05-14|2026-05-14]]: Added [[wiki/Concepts/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated]] — DFUZ and thought-action defusion. Motivation dependence makes consistency structurally impossible; the fix is separating feeling from action, then using the bidirectional loop (actions change thoughts change feelings) to build uptime gradually.
 - [[journal/calendar#2026-05-14|2026-05-14]]: Compiled wiki pages from Live Clinics 64, 65, and 66 — [[wiki/Concepts/Deep Processing for Research|Deep Processing for Research]], [[wiki/Concepts/How to maintain sustainable energy under pressure|How to maintain sustainable energy under pressure]], and [[wiki/Concepts/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]. Added [[wiki/Concepts/Best-attempt Encoding|Best-attempt Encoding]] as a standalone practical guide.
