@@ -67,6 +67,10 @@ It suggests a study practice: whenever a claim is emotionally or politically cha
 
 The book's sharpness is both its strength and its limitation. It is memorable because it is direct. It is also easy for the rhetoric to outrun the nuance. The most useful reading posture is neither total agreement nor dismissal. Extract the epistemic model, test the political claims separately, and keep the burden of evidence high.
 
+## Successor Work
+
+This book is the cognitive predecessor to *Suicidal Empathy* (2026). Where *The Parasitic Mind* catalogued idea pathogens and cognitive errors, *Suicidal Empathy* examines the emotional dysregulation that makes those errors feel morally mandatory. The later book narrows the diagnosis to the hijacking of the empathy module and supplies a practical inoculation protocol.
+
 ## Related Concepts
 
 - [[wiki/Dimensions/Mindset|Mindset]]

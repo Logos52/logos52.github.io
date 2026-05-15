@@ -79,7 +79,7 @@ In the user's study system, Red Teaming becomes a thinking stance:
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
+- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] — the book's Chapter 8 inoculation protocol is red teaming applied directly to the empathy response.
 
 ## Sources
 

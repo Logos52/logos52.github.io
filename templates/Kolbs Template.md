@@ -29,6 +29,19 @@ Kolb Reflection
 
 ---
 
+## Marginal Metrics (this week)
+
+Set one or two specific, trackable targets for the week this Kolb covers. Check off each day it happens.
+
+| Metric | M | T | W | T | F | S | S |
+|--------|---|---|---|---|---|---|---|
+| | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+
+> A marginal metric is a yes/no daily target, not a feeling or a rating. "Completed one BHS Aim + Shoot block" — not "practised better."
+
+---
+
 ## Experience
 
 **Q1. What experience do you want to reflect on?**
