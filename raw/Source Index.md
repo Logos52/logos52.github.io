@@ -1,7 +1,7 @@
 ---
 type: source-index
 created: 2026-05-02
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 # Source Index
@@ -48,6 +48,8 @@ This index lets `raw/` and `Clippings/` remain dump directories while still givi
 | [[Clippings/Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]] | YouTube transcript | partially compiled | vibe coding, agentic engineering, Software 3.0, agent-native infrastructure, understanding bottleneck | [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Concepts/Software 3.0|Software 3.0]], [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]], [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]] |
 | [[Clippings/Post by @naval on X|Post by @naval on X]] | X thread clipping | queued | leverage, specific knowledge, compounding, permissionless media/code | outside current metacognition scope unless linked to knowledge systems |
 | Live Clinic 44: Syntopical Reading | ICS Live Clinic transcript | output synthesized | syntopical reading, multiple dense resources, research articles, prestudy layering, readiness, split attention, working hypotheses | [[outputs/briefs/Grok - Live Clinic 44 Syntopical Reading - Learning from Multiple, Dense Resources|Grok - Live Clinic 44]] |
+| [[Clippings/What Unifies the Enemies of Civilization?|What Unifies the Enemies of Civilization?]] | Article clipping | output synthesized | enemies of progress, socialism, degrowth, scientism, relativism, dogmatism, doomerism, growth of knowledge | [[outputs/briefs/Grok - What Unifies the Enemies of Civilization|Grok - What Unifies the Enemies of Civilization]] |
+| [[Clippings/why ali abdaal's youtube channel is dying (my pov)|Why Ali Abdaal's YouTube Channel is Dying]] | X thread clipping | output synthesized | YouTube strategy, title psychology, thumbnail mechanics, audience model, expectation misalignment, novelty ladder | [[outputs/briefs/Grok - Why Ali Abdaal's YouTube Channel is Dying|Grok - Why Ali Abdaal's YouTube Channel is Dying]] |
 | Live Clinic 61: Opening the Black Box of Learning | ICS Live Clinic transcript | output synthesized | black box of learning, transitions, diagnostic process, process-level questions, self-regulation during change | [[outputs/briefs/Grok - Live Clinic 61 Opening the Black Box of Learning|Grok - Live Clinic 61]] |
 
 ## Notes

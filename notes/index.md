@@ -153,6 +153,29 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | --- | --- | --- | --- |
 | [[wiki/Books/The Parasitic Mind\|The Parasitic Mind]] | book | developing | Longform review and takeaways on Gad Saad's argument for reason, free speech, and epistemic hygiene. |
 | [[wiki/Books/Suicidal Empathy\|Suicidal Empathy]] | book | seed | The emotional successor to *The Parasitic Mind*. Maps how empathy becomes suicidal when decoupled from truth, reciprocity, and survival. Includes practical inoculation protocol. |
+| [[wiki/Concepts/Meiwaku\|Meiwaku]] | concept | developing | Japanese principle of minimizing unnecessary social burden and imposition on others. |
+| [[wiki/Concepts/Style\|Style]] | concept | developing | Recognizable patterns of execution that prime expectations; emphasis on recessive, substance-serving style. |
+| [[wiki/Experiences/Experiences\|Experiences]] | hub | developing | Personal reflections and operating principles extracted from lived cultural and professional experiences. |
+| [[wiki/Concepts/Shoshin\|Shoshin]] | concept | developing | Beginner's mind — maintaining openness and possibility even at advanced levels of competence. |
+| [[wiki/Concepts/Mimetic Theory\|Mimetic Theory]] | concept | developing | René Girard's theory that most human desire is imitated/copied rather than spontaneous. |
+| [[wiki/Concepts/Schelling Point\|Schelling Point]] | concept | developing | Solutions people converge on without communication due to salience (focal points in coordination games). |
+| [[wiki/Concepts/Cognitive Scaffolding\|Cognitive Scaffolding]] | concept | developing | Design parameters that ease the learning curve by managing cognitive load and progressive disclosure. |
+| [[wiki/Experiences/Red Team Training\|Red Team Training]] | experience | developing | Personal Army experience with UFMCS Red Team training, emphasizing cultural empathy and breaking groupthink. |
+| [[wiki/Concepts/Enabling Environment\|Enabling Environment]] | concept | developing | Arrangements of tools, people, and systems that expand what someone can meaningfully do (includes Scenius). |
+| [[wiki/Concepts/Evergreen Notes\|Evergreen Notes]] | concept | developing | Production-oriented, atomic, linked notes designed for long-term reuse and synthesis. |
+| [[wiki/Concepts/Signalling Theory\|Signalling Theory]] | concept | developing | Mental model of costly and honest signals in biology, status, and social behavior. |
+| [[wiki/Concepts/Design of Everyday Things\|Design of Everyday Things]] | concept | developing | Don Norman's framework for intuitive design (affordances, signifiers, mapping, feedback). |
+| [[wiki/Concepts/Norman Doors\|Norman Doors]] | concept | developing | Design failures that blame the user instead of the designer. |
+| [[wiki/Concepts/Four Stages of Competence\|Four Stages of Competence]] | concept | developing | Learning progression model: unconscious incompetence → unconscious competence. |
+| [[wiki/Concepts/Learning Plateau\|Learning Plateau]] | concept | developing | Point of diminishing returns caused by naive practice; broken by better method design. |
+| [[wiki/Concepts/Anti-Marketing\|Anti-Marketing]] | concept | developing | Trust-building by exposing constraints and flaws early rather than through polished promotion. |
+| [[wiki/Concepts/Zettelkasten\|Zettelkasten]] | concept | developing | Slip-box note system emphasizing atomic linked notes and personal synthesis for long-term thinking. |
+| [[wiki/Concepts/Mental Models\|Mental Models]] | hub | developing | Collection of useful models from multiple disciplines for better reasoning and decision-making. |
+| [[wiki/Concepts/Game Theory\|Game Theory]] | concept | developing | Study of strategic interaction between rational agents (zero-sum, win-win, equilibria, etc.). |
+| [[wiki/Concepts/Good Faith\|Good Faith]] | concept | developing | Deliberate forthrightness in interactions to build trust and reduce long-term friction. |
+| [[wiki/Concepts/Charisma\|Charisma]] | concept | developing | Capacity to generate positive engagement across many people while minimizing negative friction. |
+| [[wiki/Concepts/Personal Philosophies\|Personal Philosophies]] | hub | developing | Hub connecting operating principles such as Charisma, Good Faith, Meiwaku, Shoshin, and Longtermism. |
+| [[wiki/Concepts/Discoverability\|Discoverability]] | concept | developing | Design principle concerning how easily users can perceive possible actions and how to perform them. |
 | [[wiki/Concepts/Suicidal Empathy\|Suicidal Empathy]] | concept | developing | Gad Saad's evolutionary framework for maladaptive empathy that is excessive, misactivated, or aimed at the wrong targets. |
 | [[wiki/Books/The Book of Elon\|The Book of Elon]] | book | developing | Longform review and takeaways on purpose, first-principles engineering, company-building, and civilizational optimism. |
 | [[wiki/Glossary\|Glossary]] | glossary | seed | Short definitions of recurring terms. |

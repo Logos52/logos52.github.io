@@ -8,6 +8,7 @@ const SiteNav: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
     <nav class="site-nav">
       <a href={`${baseDir}/blog`}>Blog</a>
       <a href={`${baseDir}/journal`}>Journal</a>
+      <a href={`${baseDir}/experiences`}>Experiences</a>
       <a href={`${baseDir}/mg-kolbs`}>MG & Kolbs</a>
       <a href={`${baseDir}/notes`}>Index</a>
       <a href={`${baseDir}/about`}>About</a>

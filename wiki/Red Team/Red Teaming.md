@@ -80,6 +80,7 @@ In the user's study system, Red Teaming becomes a thinking stance:
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] — the book's Chapter 8 inoculation protocol is red teaming applied directly to the empathy response.
+- [[wiki/Experiences/Red Team Training|Red Team Training]] — personal experience with UFMCS Red Team training in the U.S. Army, with emphasis on cultural empathy.
 
 ## Sources
 

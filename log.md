@@ -427,3 +427,45 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Rebalanced [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] toward speed plus accuracy.
 - Added dedicated media/public narrative and LLM/AI output sections while keeping a focused Red Teaming application section.
+
+## [2026-05-16] compile | NX folder integration - Meiwaku and Style
+
+- Created [[wiki/Concepts/Meiwaku|Meiwaku]] as a core concept page (social cost accounting and minimization of unnecessary burden). Strong connection to Minimalism and communication restraint.
+- Created [[wiki/Concepts/Style|Style]] as a concept page (recognizable execution as brain priming, with emphasis on recessive/mature style). Leveraged the high-quality GPT - NX Style synthesis.
+- Both pages link into the existing Minimalism cluster and communication-related pages.
+- Existing GPT - NX syntheses (especially Style and Meiwaku) were used as high-signal base material.
+
+## [2026-05-16] compile | NX folder integration - Experiences section + more concepts
+
+- Set up **Experiences** as a top-level wiki category with hub page [[wiki/Experiences/Experiences|Experiences]].
+- Added to top navigation (after Journal).
+- Created Experiences section. Initially created separate pages for Taiwan 2020 and Japan 2020 based on original NX atomic notes.
+- Merged Japan 2020 content into [[wiki/Experiences/Taiwan 2020|Taiwan 2020]] (as requested — Japan was only an 8-day side trip during the Taiwan period). The Japan 2020 page now points to the merged version.
+- Created additional concept pages:
+  - [[wiki/Concepts/Shoshin|Shoshin]] (beginner's mind)
+  - [[wiki/Concepts/Mimetic Theory|Mimetic Theory]] (Girard)
+  - [[wiki/Concepts/Schelling Point|Schelling Point]]
+  - [[wiki/Concepts/Cognitive Scaffolding|Cognitive Scaffolding]]
+
+- Created [[wiki/Experiences/Red Team Training|Red Team Training]] (UFMCS) under Experiences. Strong personal reflection on the value of cultural empathy and assumption-challenging from Army Red Team training.
+
+## [2026-05-16] compile | NX folder - Large batch integration
+
+- Created multiple new concept pages from NX Capture notes, leveraging existing GPT - NX syntheses where available:
+  - [[wiki/Concepts/Enabling Environment|Enabling Environment]] + Scenius
+  - [[wiki/Concepts/Evergreen Notes|Evergreen Notes]]
+  - [[wiki/Concepts/Signalling Theory|Signalling Theory]]
+  - [[wiki/Concepts/Norman Doors|Norman Doors]]
+  - [[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]]
+  - [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]]
+  - [[wiki/Concepts/Learning Plateau|Learning Plateau]]
+  - [[wiki/Concepts/Anti-Marketing|Anti-Marketing]]
+  - [[wiki/Concepts/Zettelkasten|Zettelkasten]]
+  - [[wiki/Concepts/Mental Models|Mental Models]] (hub)
+  - [[wiki/Concepts/Game Theory|Game Theory]]
+- Updated related pages, indexes, and cross-links.
+- Many pages now cross-link into existing Red Teaming, Minimalism, Learning, and Communication sections.
+- Updated Command Center, Notes Index, and cross-links.
+
+- Created [[outputs/briefs/Grok - What Unifies the Enemies of Civilization|Grok - What Unifies the Enemies of Civilization]] — high-signal operating synthesis identifying that socialism, degrowth, scientism, relativism, dogmatism, and doomerism are unified by one mechanism: they all slow the growth of knowledge. Includes diagnostic test for evaluating ideas.
+- Created [[outputs/briefs/Grok - Why Ali Abdaal's YouTube Channel is Dying|Grok - Why Ali Abdaal's YouTube Channel is Dying]] — mechanism-dense breakdown of the five interlocking mistakes (authority signal removal, wrong rung on novelty ladder, expectation misalignment, non-extending thumbnails, warm-audience strategy) and the root cause (outdated audience model on a cold-traffic platform). Includes diagnostic filter for future videos.
