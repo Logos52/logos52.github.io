@@ -4,7 +4,7 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-05-14
+updated: 2026-05-15
 tags:
   - system
 ---
@@ -12,6 +12,39 @@ tags:
 # Journal Calendar
 
 A lightweight chronological index for public journal entries and thinking-log updates. This is manually maintained so it works the same way in Obsidian and on the website.
+
+## 2026-05-15
+
+Created [[outputs/briefs/GPT - Live Clinic 61 Opening the Black Box of Learning|GPT brief for Live Clinic 61: Opening the Black Box of Learning]].
+
+The useful frame: the black box is the process layer between inputs and outputs. It contains encoding quality, retrieval quality, spacing, self-management, chunking, prioritization, emotional regulation, and decision-making. It can stay closed during normal operation, then be opened when the system gives a signal: output changes, emotions spike, recall weakens, or performance breaks down.
+
+The practical diagnostic move:
+
+```text
+felt symptom
+-> process variable
+-> decision-relevant question
+-> targeted change
+-> expected output
+-> test result
+```
+
+Created [[outputs/briefs/GPT - Watch This To Force Your Brain To Study FASTER|GPT brief for Watch This To Force Your Brain To Study FASTER]].
+
+The useful frame: studying faster means forming usable schemas faster. The three cognitive pillars are schema construction, schema assimilation, and schema reorganization. Reorganization is the gatekeeper because it converts a growing, messy map into a structure that can be retained and used. It feels slow in the moment because input pauses, but it reduces future relearning.
+
+The practical sequence:
+
+```text
+collect keywords
+-> build rough scaffold
+-> guess relationships
+-> assimilate new information in layers
+-> reorganize every 10-15 minutes
+-> simplify, group, remove, and clarify
+-> retrieve the schema, not only the details
+```
 
 ## 2026-05-14
 
