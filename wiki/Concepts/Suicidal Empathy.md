@@ -97,21 +97,19 @@ The practical defenses are consistent across domains:
 ## Related Pages
 
 - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]] — the cognitive predecessor; this book supplies the emotional mechanism.
-- [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] (book page) — full chapter-by-chapter synthesis.
-- [[wiki/Red Team/Red Teaming|Red Teaming]] and [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking]] — the inoculation chapter is red teaming applied to empathy.
+- [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] (book page) — full chapter-by-chapter operating synthesis.
+- [[wiki/Red Team/Red Teaming|Red Teaming]] and [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking]] — the inoculation chapter is red teaming applied directly to the empathy response.
 - [[wiki/Dimensions/Mindset|Mindset]] and [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — calibrated empathy is a core self-regulation skill.
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] — process discipline before emotional commitment.
-- [[wiki/mg-kolbs/mg-kolbs-template|MG & Kolbs Template]] — the MG & Kolbs system contains related operating logic around process dissection, evaluation, and calibrated systems.
 
 ## Open Questions
 
-- How much of the original Notion MG & Kolbs template’s daily execution layer (Action Zone, Eisenhower Matrix, Office Breaks) should be rebuilt inside the Obsidian MG & Kolbs system?
-- Which elements of the Learning Zone (Syllabus, Question Banks) are worth maintaining for high-volume academic or professional study?
-- How should the public MG & Kolbs section on the website balance operational usefulness with the need to avoid leaking personal tracking data?
-- What is the minimal viable "inoculation protocol" an individual or institution can run when facing a strong empathy trigger?
+- What is the minimal viable daily inoculation protocol an individual can run when a strong empathy trigger appears?
+- How should institutions operationalize the five defenses (delay, name the target, reciprocity, truth/merit protection, cultural self-respect) without creating new bureaucratic rituals?
+- Where does calibrated empathy become a liability in high-stakes environments (medicine, law, immigration policy, military)?
+- How does Suicidal Empathy interact with the red teaming discipline described in [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]?
 
 ## Sources
 
 - *Suicidal Empathy* by Gad Saad (2026).
-- Five Clippings videos walking through the original Notion MG & Kolbs template.
-- Ongoing development of the parallel Obsidian MG & Kolbs operating system.
+- Chapter-by-chapter operating synthesis in `outputs/briefs/Grok - Suicidal Empathy.md`.

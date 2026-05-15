@@ -149,6 +149,9 @@ Red Teaming:
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 - [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
+- [[wiki/Experiences/Experiences|Experiences]]
+- [[wiki/Concepts/Mental Models|Mental Models]]
+- [[wiki/Concepts/Game Theory|Game Theory]]
 - [[blog/on-red-teams-closure|On Red Team's Closure]]
 - [[journal/red-team-pruning|Red Team Pruning Notes]]
 

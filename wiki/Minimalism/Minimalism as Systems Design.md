@@ -28,6 +28,8 @@ Minimalism works when it becomes a systems question:
 
 Minimalism is intentional selection. Empty space matters because it lets chosen objects, behaviors, and defaults carry the room.
 
+It connects naturally to [[wiki/Concepts/Meiwaku|Meiwaku]] (minimizing external social burden) and [[wiki/Concepts/Style|Style]] (recessive, low-imposition execution).
+
 ## Core Model
 
 ```text
