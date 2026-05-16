@@ -42,9 +42,7 @@ The mental model the user forms about how the system works. Good design helps us
 
 ## Related Pages
 
-- [[wiki/Concepts/Norman Doors|Norman Doors]]
-- [[wiki/Concepts/Cognitive Scaffolding|Cognitive Scaffolding]]
-- [[wiki/Concepts/Discoverability|Discoverability]]
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking]] — re-examining assumptions in how interfaces are designed and understood.
 
 ## Sources
 

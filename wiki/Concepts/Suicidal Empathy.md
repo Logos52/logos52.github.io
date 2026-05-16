@@ -100,7 +100,7 @@ The practical defenses are consistent across domains:
 - [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] (book page) — full chapter-by-chapter operating synthesis.
 - [[wiki/Red Team/Red Teaming|Red Teaming]] and [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking]] — the inoculation chapter is red teaming applied directly to the empathy response.
 - [[wiki/Dimensions/Mindset|Mindset]] and [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — calibrated empathy is a core self-regulation skill.
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] — process discipline before emotional commitment.
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — process discipline before emotional commitment.
 
 ## Open Questions
 

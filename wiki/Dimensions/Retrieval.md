@@ -1,88 +1,65 @@
 ---
 type: dimension
-status: seed
-created: 2026-05-04
-updated: 2026-05-04
-source-count: 2
-last-audited:
+status: developing
+created: 2026-05-16
+updated: 2026-05-16
+source-count: 1
+last-audited: 2026-05-16
 tags:
   - learning
   - dimensions
   - retrieval
-  - revision
 ---
 
 # Retrieval
 
-Knowledge has to be reconstructed and used after encoding, or it decays into familiarity.
+> Part of the [[wiki/Dimensions/Dimensions of Learning|Five Dimensions of Learning]].
 
-## Summary
+Retrieval is the active process of recalling and using knowledge from memory. It is not merely a testing method — it is one of the most powerful mechanisms for strengthening, organising, and making knowledge durable and flexible.
 
-Retrieval is active recall, explanation, problem solving, teaching, mapping, or execution before checking the source.
+If Deep Processing is the quality of the engine, Retrieval is what allows the driver to perform reliably on different terrain, under pressure, and in unfamiliar conditions.
 
-In the user's system, [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is the main operational technique for Retrieval.
+---
 
 ## What This Dimension Controls
 
-- Long-term retention.
-- Performance under pressure.
-- Gap detection.
-- Transfer across varied contexts.
-- Whether knowledge can be used without notes.
-- Whether understanding survives time and interference.
+- How well knowledge resists forgetting over time
+- The ability to access and apply information in varied or high-stakes contexts
+- The accuracy and flexibility of what you know (not just whether you recognise it)
+- Whether you can identify and close gaps in your understanding through testing
+- Performance under pressure (exams, real-world application, teaching others, etc.)
 
-## Main Techniques
+---
 
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- Closed-book brain dumps.
-- Mindmap reconstruction.
-- Generated questions.
-- Teaching from memory.
-- Practice questions with full answer generation.
-- Flashcards for narrow details.
-- Mixed and varied execution practice for procedural skills.
+## Key Supporting Techniques & Concepts
 
-## Relationship To SIR
+- **[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]** — The primary operational technique for this dimension. Combines spacing (to combat forgetting) with interleaving (to improve discrimination and flexible access).
+- **[[wiki/Dimensions/Retrieval/WPW|WPW (Whole-Part-Whole)]]** — A powerful teaching-to-learn technique that cycles through explaining the whole, breaking it into parts, and returning to the whole with stronger integration and higher-order understanding. Excellent for testing multi-level retrieval and schema quality.
 
-SIR sits inside Retrieval.
+---
 
-Spacing protects knowledge from decay. Interleaving prevents brittle familiarity. Retrieval exposes gaps that passive review cannot see.
-
-The important move is to retrieve first, check second, and then decide whether the gap requires repetition, re-encoding, or a different kind of practice.
-
-## Relationship To Other Dimensions
+## Relationship to Other Dimensions
 
 | Dimension | Relationship |
 | --- | --- |
-| [[wiki/Dimensions/Deep Processing|Deep Processing]] | Strong encoding makes retrieval more efficient and reduces lower-order burden. |
-| [[wiki/Dimensions/Self-Regulation|Self-Regulation]] | Interprets retrieval failures and chooses the repair. |
-| [[wiki/Dimensions/Self-Management|Self-Management]] | Keeps retrieval scheduled and prevents urgent tasks from crowding it out. |
-| [[wiki/Dimensions/Mindset|Mindset]] | Helps the learner treat gaps as useful data instead of failure. |
+| **Deep Processing** | Deep Processing creates richer, more connected knowledge structures. Retrieval strengthens access to those structures and reveals where the encoding was too shallow. |
+| **Self-Regulation** | Self-Regulation determines when and how deliberately you use retrieval practice, and whether you treat failed retrieval as useful diagnostic information. |
+| **Self-Management** | Good self-management protects the time and consistency needed for spaced and interleaved retrieval over long periods. |
+| **Mindset** | A growth mindset makes it easier to treat retrieval failures as data rather than evidence of inadequacy. |
 
-## Failure Modes
+---
 
-| Failure | Signal | Repair |
-| --- | --- | --- |
-| Recognition masquerading as recall | Notes look familiar but cannot be reconstructed. | Retrieve closed-book and write the full answer. |
-| Low challenge | Retrieval sessions feel easy but performance does not improve. | Add variation, interleaving, and higher-order prompts. |
-| Excessive flashcards | Repetition load grows without better understanding. | Re-encode with [[wiki/Techniques/Bear Hunter System|BHS]]. |
-| Gap avoidance | Sessions focus on what is already comfortable. | Start with uncertain areas and mark confidence. |
-| Poor transfer | Familiar questions work, variations fail. | Mix contexts and generate counterexamples. |
+## Why Retrieval Matters
+
+Many people focus heavily on encoding (Deep Processing) but neglect retrieval. This creates fragile knowledge that exists in recognition but disappears when it must be reconstructed under pressure or after time has passed.
+
+Strong retrieval practice turns knowledge from something you “know” into something you can reliably **use** — even in novel situations or when stakes are high.
+
+---
 
 ## Related Pages
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Techniques/WPW|WPW]]
-- [[wiki/Concepts/Memory Handling|Memory Handling]]
-- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
-
-## Sources
-
-- Public Justin Sung learning transcripts already indexed in [[raw/Source Index|Source Index]].
-
-## Open Questions
-
-- What should the user's default SIR cadence be for current subjects?
-- Which retrieval formats map best to the user's actual performance needs?
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+```

@@ -85,7 +85,7 @@ Ask:
 - Did it solve a fake problem?
 - Did it require too much maintenance?
 
-This connects Product Reduction to [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]].
+This connects Product Reduction to [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]].
 
 ## Failure Modes
 
@@ -112,4 +112,4 @@ This connects Product Reduction to [[wiki/Techniques/Kolbs Experiential Cycle|Ko
 - [[wiki/Minimalism/Environment Design|Environment Design]]
 - [[wiki/Minimalism/Ownership Cost|Ownership Cost]]
 - [[wiki/Minimalism/Exit Strategy For Objects|Exit Strategy For Objects]]
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]

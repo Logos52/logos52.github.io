@@ -55,7 +55,6 @@ The publicly available *Red Team Handbook* (UFMCS) remains one of the best resou
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 - [[wiki/Experiences/Experiences|Experiences]]
-- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] (related to failures of cultural empathy)
 
 ## Sources
 

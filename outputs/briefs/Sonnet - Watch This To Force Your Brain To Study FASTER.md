@@ -4,7 +4,7 @@ type: brief
 status: draft
 created: 2026-05-15
 model: claude-sonnet-4-6
-source: "Clippings/Watch This To Force Your Brain To Study FASTER.md"
+source: "raw/sources/Watch This To Force Your Brain To Study FASTER.md"
 source_url: "https://www.youtube.com/watch?v=hz4JKqoG_Mc"
 author: "[[Justin Sung]]"
 published: 2024-11-01

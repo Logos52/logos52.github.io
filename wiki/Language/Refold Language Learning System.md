@@ -57,7 +57,7 @@ Language practice should also use [[wiki/Techniques/Interleaving for Complex Pro
 Refold treats fluency as a staged climb: first make the written and auditory language less alien, then build reading and listening comprehension, then develop output from a large base of understanding. Speaking too early is not forbidden, but comprehension remains the foundation.
 
 **7. Systems beat motivation.**  
-Refold repeatedly turns language learning into daily minimums, habit tracking, time tracking, friction reduction, and realistic expectations. This is where the method overlaps with [[wiki/Dimensions/Self-Management|Self-Management]] and [[wiki/Techniques/Marginal Gains|Marginal Gains]].
+Refold repeatedly turns language learning into daily minimums, habit tracking, time tracking, friction reduction, and realistic expectations. This is where the method overlaps with [[wiki/Dimensions/Self-Management|Self-Management]] and [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]].
 
 ## Course Architecture
 
@@ -214,7 +214,7 @@ The useful tracking questions are:
 - What content made me want to continue?
 - What is the smallest adjustment for tomorrow?
 
-This maps directly to [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: experience, observe, abstract, experiment. Every language session can produce a small system improvement.
+This maps directly to [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: experience, observe, abstract, experiment. Every language session can produce a small system improvement.
 
 ## Personal Translation
 

@@ -68,9 +68,9 @@ This makes Red Teaming a natural bridge between [[wiki/Concepts/Metacognition - 
 
 In the user's study system, Red Teaming becomes a thinking stance:
 
-- During [[wiki/Techniques/Bear Hunter System|BHS]], red-team the framing questions.
+- During [[wiki/Dimensions/Deep Processing/Bear Hunter System|BHS]], red-team the framing questions.
 - During [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]], red-team the illusion of mastery.
-- During [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]], red-team the explanation of why performance failed.
+- During [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], red-team the explanation of why performance failed.
 - During [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], red-team AI output before trusting it.
 - During language learning, red-team grammar rules that feel clean but do not match native usage.
 
@@ -79,7 +79,6 @@ In the user's study system, Red Teaming becomes a thinking stance:
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] — the book's Chapter 8 inoculation protocol is red teaming applied directly to the empathy response.
 - [[wiki/Experiences/Red Team Training|Red Team Training]] — personal experience with UFMCS Red Team training in the U.S. Army, with emphasis on cultural empathy.
 
 ## Sources

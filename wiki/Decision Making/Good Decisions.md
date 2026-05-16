@@ -88,7 +88,7 @@ This turns performance into self-regulation instead of self-judgment.
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]
 - [[wiki/Decision Making/Changing Decisions|Changing Decisions]]
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
 

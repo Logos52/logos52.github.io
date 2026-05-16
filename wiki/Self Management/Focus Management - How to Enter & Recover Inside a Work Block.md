@@ -139,7 +139,7 @@ The task may be too vague, too large, too aversive, too easy to escape, or too d
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 
 ## Sources
 

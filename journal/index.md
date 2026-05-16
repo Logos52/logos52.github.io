@@ -4,7 +4,7 @@ description: "Current questions, active threads, and public thinking log."
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-05-15
+updated: 2026-05-16
 tags:
   - system
 ---
@@ -13,7 +13,7 @@ tags:
 
 ## What's On My Mind
 
-- [[wiki/Concepts/Schema|What does strong schema formation look like across skill-based vs concept-heavy domains — and at what point is a schema detailed enough to generate novel applications reliably?]]
+- [[wiki/Dimensions/Deep Processing/Schema|What does strong schema formation look like across skill-based vs concept-heavy domains — and at what point is a schema detailed enough to generate novel applications reliably?]]
 - [[wiki/Workflows/Knowledge Base as Thinking Partner|How should I use the knowledge base as a thinking partner instead of only an archive?]]
 - [[journal/knowledge-base-as-thinking-partner-reflection|How do I use the knowledge base to free attention from bookkeeping without weakening my own thinking?]]
 - [[wiki/Syntheses/Minimally Viable Learning System|Is it possible to compress the learning system into a minimally viable system?]]
@@ -38,11 +38,11 @@ tags:
     <strong>ICS System</strong>
     <span>The learning system that anchors the study notes.</span>
   </a>
-  <a class="home-card" href="/wiki/Techniques/Bear-Hunter-System">
+  <a class="home-card" href="/wiki/Dimensions/Deep-Processing/Bear-Hunter-System">
     <strong>Bear Hunter System</strong>
     <span>Encoding workflow built around Aim, Shoot, and Skin.</span>
   </a>
-  <a class="home-card" href="/wiki/Techniques/Spaced-Interleaved-Retrieval">
+  <a class="home-card" href="/wiki/Dimensions/Retrieval/Spaced-Interleaved-Retrieval">
     <strong>Spaced Interleaved Retrieval</strong>
     <span>Retrieval system for spacing, interleaving, and gap repair.</span>
   </a>
@@ -50,7 +50,7 @@ tags:
     <strong>Attention Management</strong>
     <span>Managing attention across tasks without breaking flow.</span>
   </a>
-  <a class="home-card" href="/wiki/Concepts/Agentic-Engineering">
+  <a class="home-card" href="/wiki/Systems/AI-&-Agentic-Systems/Agentic-Engineering">
     <strong>Agentic Engineering</strong>
     <span>Best practices for building with LLM agents.</span>
   </a>
@@ -79,8 +79,10 @@ These are blank public shells for private Obsidian workflows. The templates can 
 
 ## Recent Log
 
+- [[journal/calendar#2026-05-16|2026-05-16]]: Restructured the knowledge base around the actual operating model instead of the old generic buckets. Study pages moved out of the flat Techniques/Concepts sprawl and into [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]: Deep Processing, Retrieval, Mindset, Self-Management, and Self-Regulation. AI and tooling pages moved into Systems, while the public navigation stayed cleaner and less overloaded. This makes the site feel more like a working system: dimensions as control surfaces, systems as domains of practice, and outputs as the staging layer before durable wiki integration.
+- [[journal/calendar#2026-05-16|2026-05-16]]: Created [[outputs/briefs/GPT - How to Rest So Well You Never Feel Exhausted Again|GPT - How to Rest So Well You Never Feel Exhausted Again]] and moved the remaining clipping inbox files into local raw sources. The useful recovery frame: rest has to match the depleted system. Low-effort stimulation can keep attention active, while real recovery uses detachment, mastery, control, and low-load environments to restore capacity.
 - [[journal/calendar#2026-05-15|2026-05-15]]: Created output briefs for [[outputs/briefs/GPT - Live Clinic 61 Opening the Black Box of Learning|Live Clinic 61: Opening the Black Box of Learning]] and [[outputs/briefs/GPT - Watch This To Force Your Brain To Study FASTER|Watch This To Force Your Brain To Study FASTER]]. Live Clinic 61 reframes the black box as the inspectable process layer between learning inputs and outputs. Study Faster sharpens the schema formation model: construction, assimilation, and frequent reorganization.
-- [[journal/calendar#2026-05-14|2026-05-14]]: Created [[wiki/Concepts/Schema|Schema]] as a dedicated concept hub. Three cognitive pillars (construction, assimilation, reorganization) map directly onto Prestudy/Aim, Shoot, Skin. Logged the schema assimilation vs accommodation distinction in the calendar — assimilation extends the existing schema; accommodation restructures it when the shape is wrong.
+- [[journal/calendar#2026-05-14|2026-05-14]]: Created [[wiki/Dimensions/Deep Processing/Schema|Schema]] as a dedicated concept hub. Three cognitive pillars (construction, assimilation, reorganization) map directly onto Prestudy/Aim, Shoot, Skin. Logged the schema assimilation vs accommodation distinction in the calendar — assimilation extends the existing schema; accommodation restructures it when the shape is wrong.
 - [[journal/calendar#2026-05-14|2026-05-14]]: Added [[wiki/Concepts/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated]] — DFUZ and thought-action defusion. Motivation dependence makes consistency structurally impossible; the fix is separating feeling from action, then using the bidirectional loop (actions change thoughts change feelings) to build uptime gradually.
 - [[journal/calendar#2026-05-14|2026-05-14]]: Compiled wiki pages from Live Clinics 64, 65, and 66 — [[wiki/Concepts/Deep Processing for Research|Deep Processing for Research]], [[wiki/Concepts/How to maintain sustainable energy under pressure|How to maintain sustainable energy under pressure]], and [[wiki/Concepts/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]. Added [[wiki/Concepts/Best-attempt Encoding|Best-attempt Encoding]] as a standalone practical guide.
 - [[journal/knowledge-base-as-thinking-partner-reflection|2026-05-13]]: Reflected on [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] and the risk that the system could create passive connection-browsing instead of stronger first-brain schema building.

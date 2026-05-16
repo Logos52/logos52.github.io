@@ -4,7 +4,7 @@ type: brief
 status: draft
 created: 2026-05-15
 model: gpt-5.5
-source: "Clippings/Watch This To Force Your Brain To Study FASTER.md"
+source: "raw/sources/Watch This To Force Your Brain To Study FASTER.md"
 source_url: "https://www.youtube.com/watch?v=hz4JKqoG_Mc"
 tags:
   - output
@@ -255,4 +255,4 @@ Is this information becoming easier to use?
 
 ## Sources
 
-- `Clippings/Watch This To Force Your Brain To Study FASTER.md`
+- `raw/sources/Watch This To Force Your Brain To Study FASTER.md`

@@ -4,7 +4,7 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-05-15
+updated: 2026-05-16
 tags:
   - system
 ---
@@ -12,6 +12,40 @@ tags:
 # Journal Calendar
 
 A lightweight chronological index for public journal entries and thinking-log updates. This is manually maintained so it works the same way in Obsidian and on the website.
+
+## 2026-05-16
+
+Restructured the knowledge base around the working architecture that has emerged over the last week.
+
+The important move:
+
+```text
+flat Techniques / broad Concepts sprawl
+-> Dimensions as the learning control layer
+-> Systems as durable practice domains
+-> Outputs as source-processing workspace
+-> raw sources as local/private architecture
+```
+
+The study system now lives more naturally under [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]. Deep Processing holds encoding and schema-building work such as [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], Aim, Shoot, Skin, Prestudy, Schema, Syntopical Reading, and Interleaving. Retrieval holds [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], WPW, and the interleaving table. Mindset holds [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]], Fixed vs Growth Mindset, and Neuroticism. Self-Management holds Kolbs, Reverse Goal Setting, Skills Audit, and feedback. Self-Regulation holds Metacognition, Recovery, Building the Radar, Opening the Black Box, and sustainable energy.
+
+This is cleaner because the pages are now filed by the role they play in the learning system, not by whether they happened to be called a technique or concept when first created. The old `Techniques` directory was useful as scaffolding, but it had become too broad. The new structure makes the five learning dimensions act like control surfaces: each page should help diagnose, improve, or practice a specific part of the system.
+
+AI and tool-use pages moved into [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] / Systems territory. This separates the learning system from the building-with-agents system without pretending they are the same domain. They can still cross-link, but the architecture no longer forces everything through one overloaded concept directory.
+
+Also created [[outputs/briefs/GPT - How to Rest So Well You Never Feel Exhausted Again|GPT - How to Rest So Well You Never Feel Exhausted Again]].
+
+The useful frame: recovery is a matching problem. The activity has to reduce load in the system that is actually depleted. Low-effort stimulation can still keep the attention system active. Real recovery usually needs some combination of psychological detachment, mastery, control, and low-load environments like nature.
+
+Moved the remaining clipping inbox files into local raw sources:
+
+- study faster;
+- enemies of civilization;
+- Ali Abdaal channel analysis;
+- rest and recovery;
+- MG and Kolbs template-tour transcripts.
+
+The raw/source cleanup keeps `Clippings/` as an actual inbox instead of a second permanent source layer.
 
 ## 2026-05-15
 
@@ -48,7 +82,7 @@ collect keywords
 
 ## 2026-05-14
 
-Created [[wiki/Concepts/Schema|Schema]] as a dedicated concept hub from Justin Sung's "Watch This to Force Your Brain to Study Faster." The three cognitive pillars — schema construction, assimilation, reorganization — map almost exactly onto Prestudy/Aim, Shoot, and Skin. The core reframe: learning speed is not how fast you consume information, it is how fast you form high-quality schemas. Reorganization (the Skin equivalent) is the step most students skip because it feels like slowing down — but it is the step that converts accumulated information into a durable structure.
+Created [[wiki/Dimensions/Deep Processing/Schema|Schema]] as a dedicated concept hub from Justin Sung's "Watch This to Force Your Brain to Study Faster." The three cognitive pillars — schema construction, assimilation, reorganization — map almost exactly onto Prestudy/Aim, Shoot, and Skin. The core reframe: learning speed is not how fast you consume information, it is how fast you form high-quality schemas. Reorganization (the Skin equivalent) is the step most students skip because it feels like slowing down — but it is the step that converts accumulated information into a durable structure.
 
 **Schema assimilation vs schema accommodation:**
 
@@ -74,7 +108,7 @@ The learning implication: if retrieval keeps failing in the same place, and the 
 
 ---
 
-Added [[wiki/Techniques/Marginal Gains|REDO framework]] (Reflect, Evaluate, Define, Optimise) to Marginal Gains and expanded the three stacking requirements. Created [[wiki/Concepts/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]] with the higher-order / lower-order / procedural error taxonomy and the Double Generation Practice Test. Folded the retrieval-before-techniques sequencing note into [[wiki/Techniques/Bear Hunter System|BHS]] as a named failure mode ("Technique-first") and a pre-Aim note.
+Added [[wiki/Dimensions/Mindset/Marginal Gains|REDO framework]] (Reflect, Evaluate, Define, Optimise) to Marginal Gains and expanded the three stacking requirements. Created [[wiki/Domains/Miscellaneous/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]] with the higher-order / lower-order / procedural error taxonomy and the Double Generation Practice Test. Folded the retrieval-before-techniques sequencing note into [[wiki/Dimensions/Deep Processing/Bear Hunter System|BHS]] as a named failure mode ("Technique-first") and a pre-Aim note.
 
 ---
 
@@ -140,7 +174,7 @@ Added new Journal questions about:
 - mapping that compression back into the five learning dimensions;
 - creating more usable frames for Priority 0 skills such as Agentic Engineering, Learning Systems, Vietnamese, 中文, Fitness, and Relationships.
 
-Later corrected the page so the minimum viable system is not an abstract control loop. The actual current minimum is [[wiki/Techniques/Bear Hunter System|BHS]] plus [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]], while [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] and [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] remain experimental extensions.
+Later corrected the page so the minimum viable system is not an abstract control loop. The actual current minimum is [[wiki/Dimensions/Deep Processing/Bear Hunter System|BHS]] plus [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]], while [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] and [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] remain experimental extensions.
 
 Synthesized [[outputs/briefs/GPT - How to Force Your Brain To Be Motivated (when you don’t feel like it)|How to Force Your Brain To Be Motivated]] and moved the clipping into [[raw/sources/How to Force Your Brain To Be Motivated (when you don’t feel like it)|raw sources]].
 
@@ -255,7 +289,7 @@ Added [[journal/index|Journal]] as the public thinking dashboard for current que
 The first version tracks three things:
 
 - running questions about focus, active interests, and what belongs in public;
-- active knowledge-base threads such as [[wiki/Syntheses/ICS System|ICS System]], [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], and [[wiki/Red Team/Red Teaming|Red Teaming]];
+- active knowledge-base threads such as [[wiki/Syntheses/ICS System|ICS System]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]], [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]], and [[wiki/Red Team/Red Teaming|Red Teaming]];
 - possible blog posts, especially **Emacs to Obsidian** and **How I Built This**.
 
 The Journal is not a task manager. It is the public surface for questions, active threads, and writing candidates.
@@ -278,7 +312,7 @@ Converted the knowledge base into a personal Quartz website and shaped the publi
 
 The main work:
 
-- added the Red Team and ICS hub material, including [[wiki/Red Team/Red Teaming|Red Teaming]], [[wiki/Syntheses/ICS System|ICS System]], [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]], and [[wiki/Concepts/Neuroticism|Neuroticism]];
+- added the Red Team and ICS hub material, including [[wiki/Red Team/Red Teaming|Red Teaming]], [[wiki/Syntheses/ICS System|ICS System]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]], and [[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]];
 - created the personal site shell around Blog, Index, About, and the public knowledge base;
 - iterated on graph presentation, duplicate headings, sidebars, typography, and the pastel reading theme with neon graph colors;
 - restored [[about|About]] and the public framing of the project.

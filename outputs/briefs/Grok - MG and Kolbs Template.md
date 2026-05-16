@@ -4,7 +4,7 @@ type: synthesis
 status: seed
 created: 2026-05-15
 model: grok-4.3
-source: "Clippings 1-5 (MG & Kolbs Notion Template tours) + ZIP export"
+source: "raw/sources/MG and Kolbs/1-5 (MG & Kolbs Notion Template tours) + ZIP export"
 source_url: "https://panstemplates.notion.site"
 tags:
   - mg-kolbs

@@ -327,8 +327,8 @@ It connects to:
 - [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]
 
 ## Open Questions

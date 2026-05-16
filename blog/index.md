@@ -12,6 +12,7 @@ tags:
 
 ## Posts
 
+- [[blog/experiences|Experiences]]
 - [[blog/on-red-teams-closure|On Red Team's Closure]]
 
 For now, most of the active site is the [[index|LLM Knowledge Base]] and [[journal/index|Journal]].

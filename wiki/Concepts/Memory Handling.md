@@ -44,8 +44,8 @@ The learner should monitor whether information is being transformed into meaning
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]
-- [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]]
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 
 ## Sources

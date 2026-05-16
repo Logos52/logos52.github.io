@@ -4,7 +4,7 @@ type: brief
 status: draft
 created: 2026-05-16
 model: gpt-5.5
-source: "Clippings/What Unifies the Enemies of Civilization?.md"
+source: "raw/sources/What Unifies the Enemies of Civilization?.md"
 tags:
   - output
   - civilization
@@ -249,4 +249,4 @@ It also connects to [[wiki/Concepts/Applied Critical Thinking - Testing Frames|A
 
 ## Sources
 
-- `Clippings/What Unifies the Enemies of Civilization?.md`
+- `raw/sources/What Unifies the Enemies of Civilization?.md`

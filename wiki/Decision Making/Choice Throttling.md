@@ -77,7 +77,7 @@ The point is to isolate the variables that actually matter. Some yes/no question
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
 - [[wiki/Decision Making/Good Decisions|Good Decisions]]
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 
 ## Sources

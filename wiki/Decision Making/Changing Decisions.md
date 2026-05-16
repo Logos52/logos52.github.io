@@ -82,7 +82,7 @@ Use this short review:
 - [[wiki/Decision Making/Good Decisions|Good Decisions]]
 - [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 
 ## Sources
 

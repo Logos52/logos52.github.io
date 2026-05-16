@@ -70,4 +70,4 @@ Avoid changing everything at once, because then you cannot tell what helped.
 - [[wiki/Language/Interactive Immersion|Interactive Immersion]]
 - [[wiki/Language/Freeflow Immersion|Freeflow Immersion]]
 - [[wiki/Language/Preparation|Preparation]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]

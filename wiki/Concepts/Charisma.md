@@ -42,10 +42,10 @@ The book *How to Win Friends and Influence People* is frequently referenced in t
 
 ## Related Pages
 
-- [[wiki/Concepts/Style|Style]]
-- [[wiki/Concepts/Signalling Theory|Signalling Theory]]
-- [[wiki/Concepts/Good Faith|Good Faith]]
-- [[wiki/Concepts/Engagement|Engagement]]
+- [[wiki/Concepts/Style|Style]] — charisma is often expressed through consistent, calibrated personal style.
+- [[wiki/Concepts/Good Faith|Good Faith]] — sustainable charisma is difficult without a foundation of good faith.
+- [[wiki/Concepts/Meiwaku|Meiwaku]] — high-quality charisma minimizes the creation of social friction for others.
+- [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]]
 
 ## Sources
 

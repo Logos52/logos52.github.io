@@ -4,7 +4,7 @@ type: brief
 status: draft
 created: 2026-05-16
 model: gpt-5.5
-source: "Clippings/why ali abdaal's youtube channel is dying (my pov).md"
+source: "raw/sources/why ali abdaal's youtube channel is dying (my pov).md"
 tags:
   - output
   - youtube
@@ -292,4 +292,4 @@ It also connects to [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]. T
 
 ## Sources
 
-- `Clippings/why ali abdaal's youtube channel is dying (my pov).md`
+- `raw/sources/why ali abdaal's youtube channel is dying (my pov).md`

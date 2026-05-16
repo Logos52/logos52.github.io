@@ -150,7 +150,7 @@ The system trains deep processing progressively: awareness, technique alignment,
 
 Inquiry-based learning is the bridge from passive study to BHS.
 
-[[wiki/Techniques/Prestudy|Prestudy]] is the timing layer that makes this easier. It creates a broad, shallow frame before the main learning event so the learner is not meeting every idea for the first time at full speed.
+[[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] is the timing layer that makes this easier. It creates a broad, shallow frame before the main learning event so the learner is not meeting every idea for the first time at full speed.
 
 The early form is Traffic Light:
 
@@ -161,14 +161,14 @@ TLS trains the habit of learning with a problem in mind. Later, BHS replaces and
 
 ## Bear Hunter System
 
-[[wiki/Techniques/Bear Hunter System|Bear Hunter System]] is the advanced encoding engine.
+[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is the advanced encoding engine.
 
 | Step | Replaces / Upgrades | Job |
 | --- | --- | --- |
-| [[wiki/Techniques/Prestudy|Prestudy]] | Cold first exposure | Build a rough frame before the main learning event. |
-| [[wiki/Techniques/Aim|Aim]] | Red light and prestudy basics | Ask importance-based questions and prime the brain to seek meaningful relationships. |
-| [[wiki/Techniques/Shoot|Shoot]] | Green light and ordinary note processing | Satisfy curiosity, clarify relationships, add detail, and build the map while learning. |
-| [[wiki/Techniques/Skin|Skin]] | Rough mapping | Consolidate, refine, prioritize, and create a final chunk structure. |
+| [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] | Cold first exposure | Build a rough frame before the main learning event. |
+| [[wiki/Dimensions/Deep Processing/Aim|Aim]] | Red light and prestudy basics | Ask importance-based questions and prime the brain to seek meaningful relationships. |
+| [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] | Green light and ordinary note processing | Satisfy curiosity, clarify relationships, add detail, and build the map while learning. |
+| [[wiki/Dimensions/Deep Processing/Skin|Skin]] | Rough mapping | Consolidate, refine, prioritize, and create a final chunk structure. |
 
 BHS is not just a note-taking format. It is a cognitive training system for order control, relationship-priority learning, and higher-order encoding.
 
@@ -263,7 +263,7 @@ The system trains awareness of fixed-mindset triggers, safer failure, process-or
 
 Practice can make performance worse if it repeats bad habits.
 
-The system uses [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] to turn practice into improvement:
+The system uses [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] to turn practice into improvement:
 
 - experience,
 - reflection,
@@ -308,11 +308,11 @@ For the user's current system:
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Mindset|Mindset]]
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Techniques/WPW|WPW]]
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
 - [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]

@@ -65,29 +65,35 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Concepts/The Shortcut Problem\|The Shortcut Problem]] | concept | developing | Pattern where the brain avoids difficult learning by producing visible activity that bypasses the required thinking. |
 | [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue\|Cognitive Load & What Mental Effort Is Trying to Cue]] | concept | seed | Interprets mental effort, overload, and drowsiness as metacognitive signals. |
 | [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently\|How to Unlearn Old or Bad Habits Efficiently]] | concept | developing | Practical operating model for replacing old cue-response habits with scripted, rehearsed responses. |
-| [[wiki/Concepts/Deep Processing Practice\|Deep Processing Practice]] | concept | seed | Supporting concept note for meaning-making through comparison, evaluation, connection, and schema formation. |
+| [[wiki/Dimensions/Deep Processing/Deep Processing Practice\|Deep Processing Practice]] | concept | seed | Supporting concept note for meaning-making through comparison, evaluation, connection, and schema formation. (Primary: Deep Processing) |
 | [[wiki/Concepts/Memory Handling\|Memory Handling]] | concept | seed | Deliberately shaping new information so it can be encoded and retrieved. |
-| [[wiki/Concepts/Fixed vs Growth Mindset\|Fixed vs Growth Mindset]] | concept | developing | Mindset model for interpreting ability, mistakes, effort, feedback, and identity during learning. |
-| [[wiki/Concepts/Neuroticism\|Neuroticism]] | concept | developing | Trait-level threat sensitivity and emotional reactivity as it affects learning, self-regulation, avoidance, and growth. |
-| [[wiki/Techniques/Thinking on Paper\|Thinking on Paper]] | technique | seed | Using notes as an external workbench for reasoning and cognitive offload. |
-| [[wiki/Techniques/Prestudy\|Prestudy]] | technique | developing | Setup layer before the main learning event: rough frame, big-picture chunks, questions, and reduced cognitive load. |
-| [[wiki/Techniques/Syntopical Reading - Learning from Multiple Dense Resources\|Syntopical Reading - Learning from Multiple Dense Resources]] | technique | seed | Deliberate layering of sources from lowest to highest cognitive load when working with multiple dense resources (especially research articles). |
+| [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset\|Fixed vs Growth Mindset]] | concept | developing | Mindset model for interpreting ability, mistakes, effort, feedback, and identity during learning. (Primary: Mindset) |
+| [[wiki/Dimensions/Mindset/Neuroticism\|Neuroticism]] | concept | developing | Trait-level threat sensitivity and emotional reactivity as it affects learning, self-regulation, avoidance, and growth. (Primary: Mindset) |
+| [[wiki/Dimensions/Deep Processing/Thinking on Paper\|Thinking on Paper]] | technique | seed | Using notes as an external workbench for reasoning and cognitive offload. (Primary: Deep Processing) |
+| [[wiki/Dimensions/Deep Processing/Prestudy\|Prestudy]] | technique | developing | Setup layer before the main learning event: rough frame, big-picture chunks, questions, and reduced cognitive load. (Primary: Deep Processing) |
+| [[wiki/Dimensions/Deep Processing/Syntopical Reading - Learning from Multiple Dense Resources\|Syntopical Reading - Learning from Multiple Dense Resources]] | technique | seed | Deliberate layering of sources from lowest to highest cognitive load when working with multiple dense resources (especially research articles). (Primary: Deep Processing) |
 | [[wiki/Techniques/Opening the Black Box of Learning\|Opening the Black Box of Learning]] | technique | seed | Making the hidden processes between effort and results visible and diagnosable, especially during transitions. |
-| [[wiki/Techniques/Schema Construction, Assimilation, and Reorganization\|Schema Construction, Assimilation, and Reorganization]] | technique | seed | Building and refining connected mental models efficiently through construction, assimilation, and regular reorganization. |
-| [[wiki/Techniques/Bear Hunter System\|Bear Hunter System]] | technique | developing | Practical encoding workflow: Aim questions, Shoot through sources, Skin maps, then hand off to retrieval. |
+| [[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization\|Schema Construction, Assimilation, and Reorganization]] | technique | seed | Building and refining connected mental models efficiently through construction, assimilation, and regular reorganization. (Primary: Deep Processing) |
+| [[wiki/Dimensions/Deep Processing/Bear Hunter System\|Bear Hunter System]] | technique | developing | Practical encoding workflow: Aim questions, Shoot through sources, Skin maps, then hand off to retrieval. (Primary: Deep Processing) |
 | [[wiki/Techniques/Aim\|Aim]] | technique | developing | BHS prestudy step for turning concepts into why/how questions and rough chunks. |
 | [[wiki/Techniques/Shoot\|Shoot]] | technique | developing | BHS active-learning step for answering Aim questions while building a working map. |
 | [[wiki/Techniques/Skin\|Skin]] | technique | developing | BHS consolidation step for cleaning the map into a retrievable final structure. |
-| [[wiki/Techniques/Spaced Interleaved Retrieval\|Spaced Interleaved Retrieval]] | technique | developing | Retrieval system combining recall, widening spacing, interleaving, and gap repair. |
-| [[wiki/Techniques/Interleaving for Complex Problem Solving\|Interleaving for Complex Problem Solving]] | technique | developing | Reconstruction method for complex problem solving, knowledge work, language learning, and agentic engineering. |
-| [[wiki/Techniques/WPW\|WPW]] | technique | developing | High-volume retrieval technique moving between whole-topic structure and detailed parts. |
-| [[wiki/Techniques/Kolbs Experiential Cycle\|Kolbs Experiential Cycle]] | technique | developing | Reflection loop for converting experience into better experiments. |
-| [[wiki/Techniques/Marginal Gains\|Marginal Gains]] | technique | developing | Improvement model for choosing small, compounding gains. |
-| [[wiki/Techniques/Reverse Goal Setting\|Reverse Goal Setting]] | technique | developing | Backward planning method for turning complex goals into capability gaps, force fields, and short action plans. |
+| [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval\|Spaced Interleaved Retrieval]] | technique | developing | Retrieval system combining recall, widening spacing, interleaving, and gap repair. (Primary: Retrieval) |
+| [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving\|Interleaving for Complex Problem Solving]] | technique | developing | Reconstruction method for complex problem solving, knowledge work, language learning, and agentic engineering. (Primary: Deep Processing) |
+| [[wiki/Dimensions/Retrieval/WPW\|WPW (Whole-Part-Whole)]] | technique | developing | Teaching-to-learn technique that cycles between explaining the whole, breaking it into parts, and returning to the whole with stronger integration. (Primary: Retrieval) |
+| [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle\|Kolbs Experiential Cycle]] | technique | developing | Reflection loop for converting experience into better experiments. (Primary: Self-Management) |
+| [[wiki/Dimensions/Mindset/Marginal Gains\|Marginal Gains]] | technique | developing | Improvement model for choosing small, compounding gains. (Primary: Mindset) |
+| [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)\|How to Shift Your Brain to Be Motivated]] | concept | developing | Real-time regulation of motivation and internal state when energy is low. |
+| [[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure\|How to Maintain Sustainable Energy Under Pressure]] | concept | developing | Managing emotional and energetic resources during high cognitive load. |
+| [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer\|Metacognition - The Control Layer]] | concept | developing | Thinking about your own thinking to monitor and adjust learning processes. (Primary: Self-Regulation) |
+| [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces\|The Technique Is Only as Good as the Thinking It Produces]] | concept | developing | Meta-principle: techniques are only effective if they trigger the right kind of thinking. (Primary: Self-Regulation) |
+| [[wiki/Dimensions/Self-Regulation/Building the Radar\|Building the Radar]] | technique | developing | Practice for detecting shifts from active processing into passive consumption. (Primary: Self-Regulation) |
+| [[wiki/Dimensions/Self-Management/Reverse Goal Setting\|Reverse Goal Setting]] | technique | developing | Backward planning method for turning complex goals into capability gaps, force fields, and short action plans. (Primary: Self-Management) |
+| [[wiki/Dimensions/Self-Management/Skills Audit\|Skills Audit]] | technique | developing | Diagnostic tool for identifying current skill levels and gaps. (Primary: Self-Management) |
 | [[wiki/Techniques/Dimension Practice Tracks\|Dimension Practice Tracks]] | technique | developing | Four-step practice tracks for Deep Processing, Self-Regulation, Self-Management, and Mindset. |
 | [[wiki/Techniques/Upgrading Your Dimensions\|Upgrading Your Dimensions]] | technique | developing | Strategy for improving dimensions through foundation and growth horizons. |
-| [[wiki/Concepts/Importance-Based Chunking\|Importance-Based Chunking]] | concept | developing | Grouping information by why it matters and how it should be used. |
-| [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge\|Knowledge Mastery: From Recognition to Usable Knowledge]] | concept | developing | Practical levels for diagnosing whether knowledge is isolated, relational, evaluative, or transferable. |
+| [[wiki/Dimensions/Deep Processing/Importance-Based Chunking\|Importance-Based Chunking]] | concept | developing | Grouping information by why it matters and how it should be used. (Primary: Deep Processing) |
+| [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge\|Knowledge Mastery: From Recognition to Usable Knowledge]] | concept | developing | Practical levels for diagnosing whether knowledge is isolated, relational, evaluative, or transferable. (Primary: Deep Processing) |
 
 ### Decision making
 
@@ -155,27 +161,13 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Books/Suicidal Empathy\|Suicidal Empathy]] | book | seed | The emotional successor to *The Parasitic Mind*. Maps how empathy becomes suicidal when decoupled from truth, reciprocity, and survival. Includes practical inoculation protocol. |
 | [[wiki/Concepts/Meiwaku\|Meiwaku]] | concept | developing | Japanese principle of minimizing unnecessary social burden and imposition on others. |
 | [[wiki/Concepts/Style\|Style]] | concept | developing | Recognizable patterns of execution that prime expectations; emphasis on recessive, substance-serving style. |
-| [[wiki/Experiences/Experiences\|Experiences]] | hub | developing | Personal reflections and operating principles extracted from lived cultural and professional experiences. |
-| [[wiki/Concepts/Shoshin\|Shoshin]] | concept | developing | Beginner's mind — maintaining openness and possibility even at advanced levels of competence. |
-| [[wiki/Concepts/Mimetic Theory\|Mimetic Theory]] | concept | developing | René Girard's theory that most human desire is imitated/copied rather than spontaneous. |
-| [[wiki/Concepts/Schelling Point\|Schelling Point]] | concept | developing | Solutions people converge on without communication due to salience (focal points in coordination games). |
-| [[wiki/Concepts/Cognitive Scaffolding\|Cognitive Scaffolding]] | concept | developing | Design parameters that ease the learning curve by managing cognitive load and progressive disclosure. |
-| [[wiki/Experiences/Red Team Training\|Red Team Training]] | experience | developing | Personal Army experience with UFMCS Red Team training, emphasizing cultural empathy and breaking groupthink. |
-| [[wiki/Concepts/Enabling Environment\|Enabling Environment]] | concept | developing | Arrangements of tools, people, and systems that expand what someone can meaningfully do (includes Scenius). |
-| [[wiki/Concepts/Evergreen Notes\|Evergreen Notes]] | concept | developing | Production-oriented, atomic, linked notes designed for long-term reuse and synthesis. |
-| [[wiki/Concepts/Signalling Theory\|Signalling Theory]] | concept | developing | Mental model of costly and honest signals in biology, status, and social behavior. |
-| [[wiki/Concepts/Design of Everyday Things\|Design of Everyday Things]] | concept | developing | Don Norman's framework for intuitive design (affordances, signifiers, mapping, feedback). |
-| [[wiki/Concepts/Norman Doors\|Norman Doors]] | concept | developing | Design failures that blame the user instead of the designer. |
-| [[wiki/Concepts/Four Stages of Competence\|Four Stages of Competence]] | concept | developing | Learning progression model: unconscious incompetence → unconscious competence. |
-| [[wiki/Concepts/Learning Plateau\|Learning Plateau]] | concept | developing | Point of diminishing returns caused by naive practice; broken by better method design. |
-| [[wiki/Concepts/Anti-Marketing\|Anti-Marketing]] | concept | developing | Trust-building by exposing constraints and flaws early rather than through polished promotion. |
-| [[wiki/Concepts/Zettelkasten\|Zettelkasten]] | concept | developing | Slip-box note system emphasizing atomic linked notes and personal synthesis for long-term thinking. |
-| [[wiki/Concepts/Mental Models\|Mental Models]] | hub | developing | Collection of useful models from multiple disciplines for better reasoning and decision-making. |
-| [[wiki/Concepts/Game Theory\|Game Theory]] | concept | developing | Study of strategic interaction between rational agents (zero-sum, win-win, equilibria, etc.). |
+| [[wiki/Concepts/Bias and Framing\|Bias and Framing]] | concept | developing | How selective presentation of information creates and reinforces systematic distortions in thinking. |
 | [[wiki/Concepts/Good Faith\|Good Faith]] | concept | developing | Deliberate forthrightness in interactions to build trust and reduce long-term friction. |
 | [[wiki/Concepts/Charisma\|Charisma]] | concept | developing | Capacity to generate positive engagement across many people while minimizing negative friction. |
-| [[wiki/Concepts/Personal Philosophies\|Personal Philosophies]] | hub | developing | Hub connecting operating principles such as Charisma, Good Faith, Meiwaku, Shoshin, and Longtermism. |
-| [[wiki/Concepts/Discoverability\|Discoverability]] | concept | developing | Design principle concerning how easily users can perceive possible actions and how to perform them. |
+| [[wiki/Concepts/Anti-Marketing\|Anti-Marketing]] | concept | developing | Trust-building by exposing constraints and flaws early rather than through polished promotion. |
+| [[wiki/Concepts/Design of Everyday Things\|Design of Everyday Things]] | concept | developing | Don Norman's framework for intuitive design (affordances, signifiers, mapping, feedback). |
+| [[wiki/Dimensions/Self-Regulation/Recovery\|Recovery]] | concept | developing | Framework for genuine recovery through system-specific relaxation, psychological detachment, mastery, and control (Justin Sung). (Primary: Self-Regulation) |
+| [[blog/experiences\|Experiences]] | blog | developing | Reflections and operating principles drawn from direct personal experience (Taiwan 2020 + Red Team Training). Located under Blog. |
 | [[wiki/Concepts/Suicidal Empathy\|Suicidal Empathy]] | concept | developing | Gad Saad's evolutionary framework for maladaptive empathy that is excessive, misactivated, or aimed at the wrong targets. |
 | [[wiki/Books/The Book of Elon\|The Book of Elon]] | book | developing | Longform review and takeaways on purpose, first-principles engineering, company-building, and civilizational optimism. |
 | [[wiki/Glossary\|Glossary]] | glossary | seed | Short definitions of recurring terms. |

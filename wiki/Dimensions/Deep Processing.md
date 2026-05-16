@@ -1,96 +1,111 @@
 ---
 type: dimension
-status: seed
-created: 2026-05-04
-updated: 2026-05-04
+status: developing
+created: 2026-05-16
+updated: 2026-05-16
 source-count: 2
-last-audited:
+last-audited: 2026-05-16
 tags:
   - learning
   - dimensions
-  - encoding
-  - higher-order-learning
+  - deep-processing
 ---
 
 # Deep Processing
 
-Information becomes usable when the learner turns it into meaning, structure, and retrievable relationships.
+> Part of the [[wiki/Dimensions/Dimensions of Learning|Five Dimensions of Learning]].
+
+Deep Processing is the quality and depth of cognitive engagement with information. It is your brain’s ability to extract meaningful learning from what you encounter — not just absorbing surface-level facts, but actively connecting, analysing, critiquing, and building rich mental models.
+
+If learning is like driving a car, Deep Processing is the power and quality of the engine.
+
+---
 
 ## Summary
 
-Deep Processing is the quality of mental operations applied to information: comparing, grouping, prioritizing, evaluating, simplifying, connecting, and reorganizing.
+Deep Processing determines **how deeply and meaningfully** information is encoded into long-term memory. Higher levels of deep processing result in stronger retention, deeper understanding, and the ability to use knowledge flexibly in new and complex situations.
 
-In the user's system, [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] is the main operational technique for Deep Processing.
+Lower levels of processing (often called shallow processing) produce weaker memory and more superficial understanding — for example, rote memorisation, passive reading, or focusing only on isolated facts without connecting them to the bigger picture.
+
+Unlike many techniques that can be applied mechanically, deep processing is fundamentally about the *quality of thinking* during learning.
+
+---
 
 ## What This Dimension Controls
 
-- How meaningfully new information is encoded.
-- Whether knowledge becomes isolated facts or a connected schema.
-- Whether notes represent thinking or merely storage.
-- Whether details have a structure to attach to.
-- Whether later retrieval is efficient or overloaded with repetition.
+- Whether you move beyond surface-level understanding
+- How effectively you connect new information to prior knowledge
+- Your ability to analyse, critique, and evaluate ideas
+- How well you build transferable mental models
+- Whether knowledge remains usable in varied, high-pressure, or novel contexts
 
-## Core Moves
+---
 
-- Compare concepts against each other.
-- Ask why something matters.
-- Ask how one idea changes or depends on another.
-- Group concepts by function, mechanism, cause, use, or importance.
-- Prioritize relationships instead of showing every possible connection.
-- Create external representations that reduce working-memory overload.
-- Refine structures until the topic feels simpler and more usable.
+## Key Principles of Deep Processing
 
-## Main Techniques
+- **Connection over isolation**: The more you actively link new ideas to existing knowledge, the deeper the processing.
+- **Meaning over mechanics**: Focusing on *why* and *how* something works produces better results than focusing only on *what*.
+- **Active construction**: Deep processing requires the learner to do cognitive work — generating explanations, making comparisons, identifying implications, and asking higher-order questions.
+- **Quality over quantity**: Spending more time on shallow processing rarely compensates for a lack of depth.
 
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Aim|Aim]]
-- [[wiki/Techniques/Shoot|Shoot]]
-- [[wiki/Techniques/Skin|Skin]]
-- [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
+---
 
-## Relationship To BHS
+## Schema Construction, Assimilation, and Reorganization
 
-BHS sits inside Deep Processing.
+One of the most fundamental mechanisms of deep processing is the way the brain builds and refines mental models, known as **schemas**.
 
-- [[wiki/Techniques/Aim|Aim]] initiates deep processing by directing attention toward importance and relationships.
-- [[wiki/Techniques/Shoot|Shoot]] deepens processing by investigating and representing relationships while learning.
-- [[wiki/Techniques/Skin|Skin]] refines processing by selecting the clearest final structure.
+When engaging in deep processing, the brain typically does three things:
 
-## Relationship To Other Dimensions
+- **Construction**: Creating new mental models when encountering information that doesn’t fit existing schemas.
+- **Assimilation**: Integrating new information into existing schemas when it fits reasonably well.
+- **Reorganization** (sometimes called accommodation): Restructuring or replacing schemas when new information creates contradictions or reveals gaps.
 
-| Dimension | Relationship |
-| --- | --- |
-| [[wiki/Dimensions/Retrieval|Retrieval]] | Tests whether processing created knowledge that can be reconstructed and used. |
-| [[wiki/Dimensions/Self-Regulation|Self-Regulation]] | Monitors whether the learner is genuinely comparing and evaluating or drifting into shallow work. |
-| [[wiki/Dimensions/Self-Management|Self-Management]] | Creates the time, attention, and environment needed for cognitively demanding processing. |
-| [[wiki/Dimensions/Mindset|Mindset]] | Helps the learner interpret confusion and effort as part of the process instead of proof of inability. |
+This cycle — construction, assimilation, and reorganization — is what allows knowledge to become more accurate, connected, and usable over time. The technique of **Schema Construction, Assimilation, and Reorganization** is one of the most direct ways to deliberately engage in this core work of deep processing.
 
-## Failure Modes
+---
 
-| Failure | Signal | Repair |
-| --- | --- | --- |
-| Shallow understanding | The topic makes sense when reading but cannot be explained independently. | Closed-book explanation, then rebuild the structure. |
-| Isolated facts | Many details are known but the big picture is missing. | Re-chunk around importance. |
-| Messy map | Too many lines, labels, and weak relationships. | Skin the map and keep only the relationships that do structural work. |
-| Source-order dependency | Notes follow the lecture or textbook exactly. | Generate an alternative organization. |
-| Over-processing | Endless restructuring without retrieval. | Move to [[wiki/Dimensions/Retrieval|Retrieval]] and let gaps guide refinement. |
+## Key Supporting Techniques & Concepts
+
+- **[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]** (including Aim, Shoot, and Skin) — The user’s primary and most fundamental encoding system. It systematically drives high-quality deep processing through targeted questioning, active mapping, and schema restructuring. Schema Construction, Assimilation, and Reorganization is one of the underlying principles behind how the system works.
+- **[[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]** — Externalization tool for building and testing relational structure during encoding.
+- **[[wiki/Dimensions/Deep Processing/Syntopical Reading|Syntopical Reading]]** — A structured method for processing multiple dense sources at a high level.
+- **[[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]]** — Externalization technique that significantly improves encoding depth and quality.
+- **[[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]** — Preparation layer that sets up effective deep processing.
+- **[[wiki/Dimensions/Deep Processing/Schema|Schema]]** and **[[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization|Schema Construction, Assimilation, and Reorganization]]** — Core mechanisms of how deep processing works in the brain.
+- **[[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]** — Directly addresses how to encode information as deeply and effectively as possible.
+- **[[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]]** — Meta-framework for understanding different depths of processing.
+- **[[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]** — Advanced application of deep processing.
+- **[[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]]** — Dedicated practice for building this capability.
+- **[[wiki/Dimensions/Deep Processing/Deep Processing for Research|Deep Processing for Research]]** — Applied version in research and academic contexts.
+- **[[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]** — Chunking strategy that supports higher-quality encoding.
+- **[[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery]]** — Progression from shallow recognition to deep, flexible understanding.
+- **[[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]** — Interleaving technique applied to complex problem-solving contexts.
+
+---
+
+## Relationship to Other Dimensions
+
+- **[[wiki/Dimensions/Self-Regulation|Self-Regulation]]**: Determines *whether* you actually engage in deep processing or default to shallower approaches under pressure or fatigue. Metacognition is a key supporting mechanism that helps surface whether deep processing is occurring in real time.
+- **[[wiki/Dimensions/Self-Management|Self-Management]]**: Creates the time, energy, and environment needed for deep processing to occur.
+- **[[wiki/Dimensions/Mindset|Mindset]]**: A growth-oriented mindset makes it easier to persist with the sustained effort required for high-quality deep processing.
+- **[[wiki/Dimensions/Retrieval|Retrieval]]**: Deep Processing creates richer knowledge structures; Retrieval strengthens access to them. Both are required for high performance.
+
+---
+
+## Why Deep Processing Matters
+
+Strong deep processing allows you to:
+- Learn material more efficiently (less time wasted on shallow repetition)
+- Retain knowledge longer
+- Apply knowledge in novel or high-stakes situations
+- Build genuine expertise rather than fragile familiarity
+
+Many performance gaps that look like “intelligence” differences are actually differences in the quality of deep processing.
+
+---
 
 ## Related Pages
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
-- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
-- [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
-- [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
-- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
-- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
-- [[wiki/Concepts/Memory Handling|Memory Handling]]
-
-## Sources
-
-- Public Justin Sung learning transcripts already indexed in [[raw/Source Index|Source Index]].
-
-## Open Questions
-
-- What are the user's most reliable signs that a topic has been deeply processed?
-- Which current notes should be converted from storage notes into processing notes?
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+- [[wiki/Dimensions/Retrieval|Retrieval]]

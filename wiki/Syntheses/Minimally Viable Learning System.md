@@ -12,7 +12,7 @@ tags:
 
 # Minimally Viable Learning System
 
-The smallest useful version of the learning system is [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] plus [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
+The smallest useful version of the learning system is [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] plus [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
 
 ```text
 BHS -> encode usable structure
@@ -38,7 +38,7 @@ For now, the core is:
 Prestudy -> BHS -> SIR
 ```
 
-[[wiki/Techniques/Prestudy|Prestudy]] prepares the first rough frame.
+[[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] prepares the first rough frame.
 
 [[wiki/Techniques/Bear Hunter System|BHS]] turns information into a structured map.
 
@@ -68,7 +68,7 @@ It asks:
 
 If those five questions are answered, the learning session has a spine.
 
-That spine can be improved later with [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]], or [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]].
+That spine can be improved later with [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]], [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]], or [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]].
 
 Those supports are upgrades. Add them when they improve the core loop instead of making the system heavier.
 
@@ -222,9 +222,9 @@ For this knowledge base:
 ## Related
 
 - [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Techniques/Prestudy|Prestudy]]
+- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]

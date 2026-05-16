@@ -64,13 +64,13 @@ The Shortcut Problem is the negative version: the learner performs the method wh
 
 ## How It Shows Up In BHS
 
-[[wiki/Techniques/Bear Hunter System|Bear Hunter System]] can fail when its steps become surface actions.
+[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] can fail when its steps become surface actions.
 
 | Step | Shortcut Version | Repair |
 | --- | --- | --- |
-| [[wiki/Techniques/Aim|Aim]] | Listing topics or generic questions. | Ask what matters, why it matters, and how ideas relate. |
-| [[wiki/Techniques/Shoot|Shoot]] | Filling the map with source explanations. | Use sources to answer Aim questions and revise structure. |
-| [[wiki/Techniques/Skin|Skin]] | Making the map neat. | Make the map easier to reconstruct and use. |
+| [[wiki/Dimensions/Deep Processing/Aim|Aim]] | Listing topics or generic questions. | Ask what matters, why it matters, and how ideas relate. |
+| [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] | Filling the map with source explanations. | Use sources to answer Aim questions and revise structure. |
+| [[wiki/Dimensions/Deep Processing/Skin|Skin]] | Making the map neat. | Make the map easier to reconstruct and use. |
 
 The question is whether the map forced importance, relationship, and chunking decisions.
 
@@ -112,7 +112,7 @@ Practical constraints:
 - Compare similar ideas before summarizing them.
 - Brain dump before checking notes.
 - Use interleaving to force discrimination.
-- Use [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] to name the shortcut after it happens.
+- Use [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] to name the shortcut after it happens.
 - Choose one [[wiki/Techniques/Marginal Gains|marginal gain]] that targets the shortcut directly.
 
 The point is to prevent the learner from unconsciously replacing learning with performance theater.
@@ -125,10 +125,10 @@ The point is to prevent the learner from unconsciously replacing learning with p
 - [[wiki/Techniques/Building the Radar|Building the Radar]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 
 ## Open Questions
 

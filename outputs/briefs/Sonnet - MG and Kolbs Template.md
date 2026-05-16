@@ -5,11 +5,11 @@ status: draft
 created: 2026-05-15
 model: claude-sonnet-4-6
 sources:
-  - "Clippings/1. Notion template overview.md"
-  - "Clippings/2. Action zone tour (Part 1).md"
-  - "Clippings/3. Action zone tour (Part 2).md"
-  - "Clippings/4. Progress zone tour.md"
-  - "Clippings/5. Learning zone tour.md"
+  - "raw/sources/MG and Kolbs/1. Notion template overview.md"
+  - "raw/sources/MG and Kolbs/2. Action zone tour (Part 1).md"
+  - "raw/sources/MG and Kolbs/3. Action zone tour (Part 2).md"
+  - "raw/sources/MG and Kolbs/4. Progress zone tour.md"
+  - "raw/sources/MG and Kolbs/5. Learning zone tour.md"
   - "mg-kolbs/mg-kolbs-template.md"
   - "Notion export: MG & Kolb's Template (Jan 2025)"
 author: "[[Panpan Sawanpornpen]]"

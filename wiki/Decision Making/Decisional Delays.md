@@ -85,7 +85,7 @@ For example, "study biology" still contains decisions. "At 9:00, Aim the endocri
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 
 ## Sources
 

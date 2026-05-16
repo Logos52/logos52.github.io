@@ -44,7 +44,7 @@ The pillars should be balanced by bottleneck.
 
 This model is a [[wiki/Dimensions/Self-Regulation|Self-Regulation]] tool. It helps decide what kind of language activity should come next.
 
-It also maps onto [[wiki/Techniques/Marginal Gains|Marginal Gains]]: pick the smallest adjustment that increases daily immersion quality.
+It also maps onto [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: pick the smallest adjustment that increases daily immersion quality.
 
 ## Related Pages
 

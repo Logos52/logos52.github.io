@@ -105,7 +105,7 @@ The inoculation protocol in Chapter 8 is directly applicable to any high-stakes 
 - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]] — the cognitive predecessor.
 - [[wiki/Red Team/Red Teaming|Red Teaming]] — the inoculation chapter is red teaming applied to the empathy module.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — calibrated empathy is a core self-regulation skill.
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] — process discipline before emotional commitment.
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — process discipline before emotional commitment.
 
 ## Sources
 
