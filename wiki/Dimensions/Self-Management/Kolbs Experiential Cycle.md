@@ -165,13 +165,13 @@ Warning sign: Kolbs has become journaling-only when it records the experience bu
 - [[templates/Kolbs Template|Kolbs Template]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[private/Goals/Priority 0|Priority 0]]
-- [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
+- [[wiki/Dimensions/Upgrading Your Dimensions|Upgrading Your Dimensions]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
-- [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
+- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
 
 ## Open Questions
 

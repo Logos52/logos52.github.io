@@ -101,7 +101,7 @@ This matters for retrieval practice: reviewing an intact schema tests familiarit
 
 ## Schemas in the Study System
 
-Schema formation is the central outcome of [[wiki/Techniques/Bear Hunter System|BHS]]:
+Schema formation is the central outcome of [[wiki/Dimensions/Deep Processing/Bear Hunter System|BHS]]:
 
 - **Prestudy** → Schema Construction (the draft frame)
 - **Aim** → sharpens the draft with importance and relationship questions
@@ -109,7 +109,7 @@ Schema formation is the central outcome of [[wiki/Techniques/Bear Hunter System|
 - **Skin** → Schema Reorganization (simplifying the map into a retrievable artifact)
 - **SIR** → testing whether the schema can be reconstructed from memory
 
-The [[wiki/Techniques/Mindmaps|mindmap]] is the external representation of the schema. The GRINDE framework (Grouped, Reflective, Interconnected, Non-verbal, Directional, Emphasised) is the standard for schema quality in final form.
+The [[wiki/Dimensions/Deep Processing/Mindmaps|mindmap]] is the external representation of the schema. The GRINDE framework (Grouped, Reflective, Interconnected, Non-verbal, Directional, Emphasised) is the standard for schema quality in final form.
 
 [[wiki/Concepts/Best-attempt Encoding|Best-attempt encoding]] is the schema formation decision at the level of individual concepts: building the schema slightly wider than the minimum (1:1.2) to ensure the structure is usable under conditions the learner has not yet seen.
 
@@ -122,11 +122,11 @@ The [[wiki/Techniques/Mindmaps|mindmap]] is the external representation of the s
 ## Related
 
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Mindmaps|Mindmaps]]
+- [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]
 - [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]
-- [[wiki/Concepts/Deep Processing for Research|Deep Processing for Research]]
+- [[wiki/Dimensions/Deep Processing/Deep Processing for Research|Deep Processing for Research]]
 - [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 

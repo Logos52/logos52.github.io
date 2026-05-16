@@ -182,7 +182,7 @@ BHS should make the learner think in relationships, importance, and chunks. If i
 
 ## Application To Retrieval
 
-[[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] and [[wiki/Dimensions/Retrieval/WPW|WPW]] are valuable because they expose the level of thinking the learner must reach.
+[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] and [[wiki/Dimensions/Retrieval/WPW|WPW]] are valuable because they expose the level of thinking the learner must reach.
 
 Good retrieval does not only ask:
 
@@ -257,7 +257,7 @@ After the session:
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
-- [[wiki/Techniques/Building the Radar|Building the Radar]]
+- [[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Retrieval/WPW|WPW]]

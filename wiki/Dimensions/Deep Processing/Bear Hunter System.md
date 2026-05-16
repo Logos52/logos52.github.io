@@ -88,7 +88,7 @@ Use this as the user's practical baseline:
 2. **Before each class or source session:** quick Shoot for the highest-level concepts if time allows.
 3. **During class/source session:** continue Shoot while learning.
 4. **End of each day or week:** Skin the map.
-5. **After Skin:** turn the map into [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] prompts.
+5. **After Skin:** turn the map into [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] prompts.
 
 This is the standard version. It is the best default while the skill is still becoming automatic.
 
@@ -164,7 +164,7 @@ Ask these after each pass:
 
 ## BHS And Retrieval
 
-BHS is encoding. [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] tests whether the encoding works.
+BHS is encoding. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] tests whether the encoding works.
 
 Handoff:
 

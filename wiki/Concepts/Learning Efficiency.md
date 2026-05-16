@@ -57,17 +57,17 @@ Lower requirements are easier to meet with limited methods. Higher mastery level
 
 ## Relationship To Study System
 
-- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] defines the mastery levels used in the efficiency equation.
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is the retrieval system for measuring and improving retention across levels.
+- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] defines the mastery levels used in the efficiency equation.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is the retrieval system for measuring and improving retention across levels.
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is the encoding system designed to reach levels 3 and 4.
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] is the improvement framework for identifying which part of the learning system is creating the current efficiency ceiling.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]] is the dimension that most directly determines the method ceiling.
 
 ## Related Concepts
 
-- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
-- [[wiki/Concepts/Higher-Order Learning|Higher-Order Learning]]
-- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
+- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]

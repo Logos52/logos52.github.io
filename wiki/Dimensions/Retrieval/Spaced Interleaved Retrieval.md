@@ -29,7 +29,7 @@ The goal is to prove that knowledge can be reconstructed and used under varied c
 
 In the user's system, SIR sits under [[wiki/Dimensions/Retrieval|Retrieval]] and is coordinated by [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
 
-For complex problem solving and knowledge work, interleaving should be treated as reconstruction practice, not only mixed scheduling. [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] is the more general operating note for using interleaving to expose approach gaps, variable relationships, and weak problem frames.
+For complex problem solving and knowledge work, interleaving should be treated as reconstruction practice, not only mixed scheduling. [[wiki/Dimensions/Retrieval/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] is the more general operating note for using interleaving to expose approach gaps, variable relationships, and weak problem frames.
 
 ## What It Tests
 
@@ -79,7 +79,7 @@ Use these when the target knowledge is mostly conceptual, factual, explanatory, 
 | Mindmap brain dump | Reconstruct the topic structure and relationships from memory. | May miss tiny details unless followed by detail checks. |
 | Isolated teaching | Explain one concept or process out loud. | Often less efficient than narrower tools for pure facts. |
 | Relational teaching | Explain how concepts interact. | Strong early-to-mid retrieval method. |
-| [[wiki/Techniques/WPW|WPW]] | High-volume, multi-order reteaching across whole and parts. | Requires strong encoding and can expose many gaps. |
+| [[wiki/Dimensions/Retrieval/WPW|WPW]] | High-volume, multi-order reteaching across whole and parts. | Requires strong encoding and can expose many gaps. |
 | Direct practice questions | Answer from memory, then check. | Can hide uncertain reasoning if checking is too fast. |
 | Extended practice questions | Answer, mark uncertainty, build a better answer, then check. | More time-intensive but better for gap finding. |
 | Advanced group practice | Create, exchange, answer, compare, and discuss challenging questions. | High setup cost; best for important topics. |
@@ -219,8 +219,8 @@ Warning sign: SIR has become recognition when checking notes feels easier than r
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/WPW|WPW]]
-- [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
+- [[wiki/Dimensions/Retrieval/WPW|WPW]]
+- [[wiki/Dimensions/Retrieval/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
 - [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]

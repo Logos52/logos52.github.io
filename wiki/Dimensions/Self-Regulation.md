@@ -48,45 +48,58 @@ Strong Self-Management creates the conditions in which Self-Regulation can funct
 
 ## Core Loop of Self-Regulation
 
-1. Set a learning goal or intention
-2. Choose a method or approach
-3. Monitor the process while executing (attention, understanding, energy, emotion)
-4. Evaluate the results
-5. Diagnose the cause of success or failure
-6. Adjust the next attempt
+The operating cycle is:
 
-This loop is what allows learners to become less dependent on perfect conditions or perfect instruction.
+1. Set a clear intention for what you want the session to achieve
+2. Choose a method that should produce that result
+3. Monitor in real time (attention, understanding, energy, emotion)
+4. Evaluate what actually happened
+5. Diagnose why the outcome occurred
+6. Make a specific adjustment for the next attempt
+
+This loop is what lets you become less dependent on perfect conditions or perfect instruction.
 
 ---
 
 ## Key Supporting Concepts & Techniques
 
-- **[[wiki/Dimensions/Self-Regulation/Recovery|Recovery]]** — Recovering from cognitive and emotional fatigue through targeted relaxation and psychological detachment.
-- **[[wiki/Dimensions/Self-Regulation/How to Shift Your Brain to Be Motivated|How to Shift Your Brain to Be Motivated (when you don’t feel like it)]]** — Real-time regulation of motivation and internal state.
-- **[[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure|How to Maintain Sustainable Energy Under Pressure]]** — Managing emotional and energetic resources during high-load periods.
-- **[[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]]** — The foundational skill of thinking about your own thinking in order to monitor and adjust.
-- **[[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]** — A meta-principle that emphasizes evaluating whether a technique is actually producing the intended quality of thinking.
+- **[[wiki/Dimensions/Self-Regulation/Recovery|Recovery]]** — Recovering from cognitive and emotional fatigue through targeted relaxation and psychological detachment.  
+  When neglected, fatigue accumulates and distorts monitoring, making even good strategies feel ineffective.
+- **[[wiki/Dimensions/Self-Regulation/How to Shift Your Brain to Be Motivated|How to Shift Your Brain to Be Motivated (when you don’t feel like it)]]** — Real-time regulation of motivation and internal state.  
+  When neglected, motivation becomes overly dependent on external conditions and mood.
+- **[[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure|How to Maintain Sustainable Energy Under Pressure]]** — Managing emotional and energetic resources during high-load periods.  
+  When neglected, performance becomes highly variable and unsustainable under stress.
+- **[[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]]** — The foundational skill of thinking about your own thinking in order to monitor and adjust.  
+  When neglected, techniques are applied without awareness of their actual effects, leading to repeated ineffective patterns.
+- **[[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]** — A meta-principle that emphasizes evaluating whether a technique is actually producing the intended quality of thinking.  
+  When neglected, learners optimise for the appearance of learning rather than its actual cognitive output.
 
 ---
 
+## Common Problems with Weak Self-Regulation
+
+These patterns come directly from how poor self-regulation shows up in practice:
+
+- **Over-reliance on natural ability** — Performance holds when conditions are favourable and material is easy, but declines sharply when instruction is less guided or circumstances become demanding.
+- **Weak metacognition** — Applying techniques without clear awareness of how they affect thinking and results, so ineffective patterns repeat.
+- **Outcome-based evaluation** — Judging whether a method “works” mainly by final results rather than by monitoring the actual process during learning.
+- **Inconsistent or reactive adjustment** — Only making changes when problems become obvious, rather than monitoring and refining proactively.
+- **Poor transfer across contexts** — Strategies that work in one type of learning or environment fail when the demands change.
+
 ## Relationship to Other Dimensions
 
-- **Self-Management**: Self-Management builds the external systems (habits, routines, environment). Self-Regulation is what allows you to steer and adapt those systems in real time when conditions change.
-- **Deep Processing**: Self-Regulation determines whether you actually apply deep processing techniques effectively or fall back into shallow processing under pressure. Metacognition (a core part of Self-Regulation) helps surface whether deep processing is genuinely occurring.
-- **Mindset**: A growth-oriented mindset makes Self-Regulation easier to sustain, while a fixed mindset often undermines it.
-- **Retrieval**: Self-Regulation helps you decide when and how to use retrieval practice effectively.
+- **Self-Management**: Self-Management creates the external conditions (habits, time, environment). Self-Regulation is what lets you actually use those conditions effectively in the moment. Weak Self-Regulation turns good systems into unused potential.
+- **Deep Processing**: Self-Regulation decides whether high-quality encoding actually happens or whether you default to shallow processing when friction or fatigue appears. Without it, even strong Deep Processing techniques get abandoned.
+- **Mindset**: A fixed mindset makes honest monitoring and adjustment psychologically costly, while a growth mindset makes the discomfort of noticing problems feel worthwhile.
+- **Retrieval**: Self-Regulation determines whether you treat failed retrieval as diagnostic data (and adjust) or as a signal to give up or switch to easier methods.
 
 ---
 
 ## Why Self-Regulation Matters
 
-With strong Self-Regulation, you can:
-- Maintain performance even when motivation is low
-- Recover more effectively from fatigue
-- Adapt techniques instead of abandoning them
-- Make better decisions about *how* to learn in the moment
+Strong Self-Regulation lets you keep the other dimensions working when conditions are imperfect — which is most of the time. It turns good techniques and systems into reliable performance instead of fair-weather tools.
 
-With weak Self-Regulation, performance becomes highly dependent on external conditions, mood, and natural talent.
+Weak Self-Regulation makes everything else fragile: even excellent Deep Processing, Retrieval, and Self-Management collapse the moment motivation dips, fatigue builds, or the material gets harder.
 
 ---
 

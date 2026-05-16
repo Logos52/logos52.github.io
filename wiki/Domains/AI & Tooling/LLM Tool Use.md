@@ -35,9 +35,9 @@ Tools are context channels. They determine what the model can see, what it can m
 
 ## Related Concepts
 
-- [[wiki/Techniques/Context Engineering|Context Engineering]]
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
 
 ## Sources
 

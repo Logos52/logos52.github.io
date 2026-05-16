@@ -536,3 +536,11 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Added to Notes Index.
 - Linked to Self-Regulation, Bear Hunter System, Marginal Gains, and Priority 0.
 - The hybrid brief remains in outputs as reference.
+
+## [2026-05-16] refine | Dimension hubs and hybrid model workflow
+
+- Refined the post-migration wiki structure across the Five Dimensions, AI systems, workflows, books, Red Team, language resources, and supporting concept pages.
+- Added [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] as a synthesis page connecting top-performer learning, learning assets, and the Five Dimensions.
+- Added [[wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]] to document the current multi-model workflow: Grok for high-level framing, Hermes/Aider for local execution and structural cleanup.
+- Strengthened [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]], [[wiki/Dimensions/Retrieval|Retrieval]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Self-Management|Self-Management]], and [[wiki/Dimensions/Mindset|Mindset]] so the hubs function more like diagnostic control surfaces.
+- Repaired many internal links left over from the `wiki/Techniques/` and broad `wiki/Concepts/` migration into `wiki/Dimensions/`, `wiki/Systems/`, and `wiki/Domains/`.

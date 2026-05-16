@@ -93,7 +93,7 @@ Use these three pillars whenever you are learning complex or high-volume materia
 
 - [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] — schema construction has strong overlap with effective prestudy
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — the three pillars map naturally onto Aim (construction), Shoot (assimilation), and Skin (reorganization)
-- [[wiki/Techniques/Syntopical Reading|Syntopical Reading - Learning from Multiple Dense Resources]] — both approaches emphasize building structure before diving into dense material
+- [[wiki/Dimensions/Deep Processing/Syntopical Reading - Learning from Multiple Dense Resources|Syntopical Reading - Learning from Multiple Dense Resources]] — both approaches emphasize building structure before diving into dense material
 - [[wiki/Dimensions/Deep Processing|Deep Processing]] — forming integrated mental models is one of the highest forms of deep processing
 - [[wiki/Dimensions/Deep Processing/Schema|Schema]] — the foundational concept behind these three pillars
 

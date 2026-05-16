@@ -51,10 +51,10 @@ The learner needs to monitor not just what method they are using, but what thoug
 
 ## Related Concepts
 
-- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Techniques/Building the Radar|Building the Radar]]
+- [[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 
 ## Sources

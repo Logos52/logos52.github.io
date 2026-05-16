@@ -62,9 +62,9 @@ After each practice session or exam review:
 
 ## Related
 
-- [[wiki/Concepts/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]
-- [[wiki/Concepts/Best-attempt Encoding|Best-attempt Encoding]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Domains/Miscellaneous/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]
+- [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]

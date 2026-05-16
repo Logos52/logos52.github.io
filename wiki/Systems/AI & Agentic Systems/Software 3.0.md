@@ -27,9 +27,9 @@ For this wiki, `AGENTS.md`, `notes/index.md`, and `log.md` are Software 3.0 arti
 
 ## Related Concepts
 
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Techniques/Context Engineering|Context Engineering]]
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
 
 ## Sources
 

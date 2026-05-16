@@ -23,6 +23,8 @@ The black box is not a flaw in the system. It is simply the invisible middle lay
 
 Opening the box turns vague frustration ("I’m studying but it’s not working") into specific, testable questions about the actual learning process.
 
+This is one of the core practices that separates top performers from everyone else. See [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] for the broader mindset.
+
 ## When to Open the Black Box
 
 You do not need to examine your learning process constantly. You open the box when one or more of these signals appear:
@@ -110,7 +112,7 @@ The goal is to discover where the system breaks before high-stakes situations fo
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — the diagnostic process strengthens the Aim phase when your current map is no longer sufficient
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — the core skill required to notice signals and make precise adjustments
 - [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] — making processing quality visible instead of leaving it inside the black box
-- [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] — stress-testing by adding load is a form of deliberate interleaving with real constraints
+- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] — stress-testing by adding load is a form of deliberate interleaving with real constraints
 - [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] — many techniques fail silently because the underlying process variable remains hidden
 
 ## Open Questions

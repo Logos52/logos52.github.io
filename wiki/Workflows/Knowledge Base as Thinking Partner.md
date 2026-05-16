@@ -88,13 +88,13 @@ Do not start from scratch.
 
 Read the pages that are already adjacent to the problem. Use the graph, index, backlinks, and obvious links.
 
-For learning questions, start with [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]], [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]], [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]], and [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]].
+For learning questions, start with [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]], [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]], [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]], and [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]].
 
 For execution questions, start with [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]], [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]], [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]], and [[wiki/Decision Making/Decisional Delays|Decisional Delays]].
 
 For judgment questions, start with [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]], [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]], and [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]].
 
-For building questions, start with [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]], and [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]].
+For building questions, start with [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]], [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]], and [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]].
 
 ### 3. Find The Tension
 
@@ -115,7 +115,7 @@ The best pages often come from tension:
 
 - [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
 
 ### 4. Convert Insight Into A Handle
@@ -137,10 +137,10 @@ The handle is what makes the idea reusable.
 
 Examples:
 
-- "I need better study habits" becomes [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], and [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
+- "I need better study habits" becomes [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], and [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
 - "I have too many interests" becomes [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]] and [[private/Goals/Priority 0|Priority 0]].
 - "I keep consuming without changing" becomes [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]].
-- "The method looks right but nothing improves" becomes [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]].
+- "The method looks right but nothing improves" becomes [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]].
 
 A good handle lets the system call the idea back at the moment it matters.
 
@@ -230,10 +230,10 @@ Its job is to keep the knowledge base pointed at live thinking.
 
 ## Related
 
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
 - [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]]
 - [[wiki/Workflows/Question Answering Against a Wiki|Question Answering Against a Wiki]]
 - [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]
-- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
 - [[journal/index|Journal]]

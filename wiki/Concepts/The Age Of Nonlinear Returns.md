@@ -220,7 +220,7 @@ fragmented knowledge
 -> transfer across contexts
 ```
 
-This connects to [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]], [[wiki/Dimensions/Deep Processing|Deep Processing]], and [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]].
+This connects to [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]], [[wiki/Dimensions/Deep Processing|Deep Processing]], and [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]].
 
 The learner should not only ask, "How much did I learn today?"
 
@@ -284,7 +284,7 @@ The answer should change behavior. If it does not, the frame is ornamental.
 - [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]]
 - [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]
 - [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[private/Goals/Priority 0|Priority 0]]

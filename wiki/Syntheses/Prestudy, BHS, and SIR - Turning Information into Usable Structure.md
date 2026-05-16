@@ -97,7 +97,7 @@ Its job is to make knowledge durable and usable by:
 
 ## Metacognitive Control Layer
 
-The control layer is [[wiki/Dimensions/Self-Regulation|Self-Regulation]], supported by [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]].
+The control layer is [[wiki/Dimensions/Self-Regulation|Self-Regulation]], supported by [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]].
 
 During encoding, metacognition asks:
 
@@ -154,9 +154,9 @@ For the user's current system, the recommended default is:
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Mindset|Mindset]]
-- [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
-- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
+- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 

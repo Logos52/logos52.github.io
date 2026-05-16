@@ -168,11 +168,11 @@ Warning signs:
 
 ## Related
 
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-- [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
 - [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]]

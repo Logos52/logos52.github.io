@@ -57,7 +57,7 @@ The best version of the takeaway is not "copy Elon." It is "raise your standard 
 
 ## Useful For This Wiki
 
-This book belongs near [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]], [[wiki/Dimensions/Self-Management|Self-Management]], and [[wiki/Dimensions/Mindset|Mindset]].
+This book belongs near [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]], [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]], [[wiki/Dimensions/Self-Management|Self-Management]], and [[wiki/Dimensions/Mindset|Mindset]].
 
 It suggests a practical review template for projects:
 
@@ -77,7 +77,7 @@ The most useful bridge into the user's learning system is this: Musk-style first
 
 ## Related Concepts
 
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
 - [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]

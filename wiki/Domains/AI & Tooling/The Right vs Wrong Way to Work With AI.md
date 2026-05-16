@@ -68,7 +68,7 @@ For research contexts, AI over-indexes on high-citation, popular sources. It hal
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
 - [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 

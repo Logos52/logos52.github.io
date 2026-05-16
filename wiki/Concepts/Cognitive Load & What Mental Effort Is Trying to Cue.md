@@ -70,7 +70,7 @@ The practical limit is one or two new techniques at a time. Adding more before t
 
 ## Related Concepts
 
-- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]

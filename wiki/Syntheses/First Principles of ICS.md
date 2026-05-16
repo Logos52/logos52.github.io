@@ -39,9 +39,9 @@ The routing question is: "Which level of the system needs to improve?"
 
 | Level | What It Controls | If This Is Weak | Pages That Uplift It |
 | --- | --- | --- | --- |
-| **Processing Quality** | The kind of thinking being done. | Learning looks active, but the mind is not comparing, connecting, reconstructing, prioritizing, or explaining. | [[wiki/Dimensions/Deep Processing|Deep Processing]], [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]], [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]], [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]] |
-| **Strategies** | The techniques that trigger useful thinking. | The learner knows what good thinking should happen, but has no reliable workflow for producing it. | [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Aim|Aim]], [[wiki/Techniques/Shoot|Shoot]], [[wiki/Techniques/Skin|Skin]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] |
-| **Meta-strategies** | The response when the strategy creates friction, uncertainty, or overwhelm. | The learner retreats into shortcuts, passive consumption, shallow notes, or fake productivity as soon as the strategy gets mentally expensive. | [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]], [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]], [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]], [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]], [[wiki/Techniques/Building the Radar|Building the Radar]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]] |
+| **Processing Quality** | The kind of thinking being done. | Learning looks active, but the mind is not comparing, connecting, reconstructing, prioritizing, or explaining. | [[wiki/Dimensions/Deep Processing|Deep Processing]], [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]], [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]], [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]] |
+| **Strategies** | The techniques that trigger useful thinking. | The learner knows what good thinking should happen, but has no reliable workflow for producing it. | [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], [[wiki/Dimensions/Deep Processing/Aim|Aim]], [[wiki/Dimensions/Deep Processing/Shoot|Shoot]], [[wiki/Dimensions/Deep Processing/Skin|Skin]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] |
+| **Meta-strategies** | The response when the strategy creates friction, uncertainty, or overwhelm. | The learner retreats into shortcuts, passive consumption, shallow notes, or fake productivity as soon as the strategy gets mentally expensive. | [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]], [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]], [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]], [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]], [[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]] |
 
 ## Level 1: Processing Quality
 
@@ -67,8 +67,8 @@ Start here:
 
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
-- [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
+- [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]]
 
 ## Level 2: Strategies
 
@@ -106,7 +106,7 @@ Start here:
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
-- [[wiki/Techniques/Building the Radar|Building the Radar]]
+- [[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 
 ## Diagnostic Use
@@ -116,7 +116,7 @@ When a study session fails, diagnose the level:
 | Symptom | Likely Level | Repair |
 | --- | --- | --- |
 | "I studied, but nothing connected." | Processing Quality | Use [[wiki/Dimensions/Deep Processing|Deep Processing]] and force comparison, chunking, or explanation. |
-| "I know what I should do, but I do not have a process." | Strategies | Use [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], [[wiki/Techniques/Bear Hunter System|BHS]], or [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]]. |
+| "I know what I should do, but I do not have a process." | Strategies | Use [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|BHS]], or [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]]. |
 | "The method works, but I avoid it when it gets hard." | Meta-strategies | Use [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] and [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]. |
 | "My notes look good, but I cannot use them." | Processing Quality + Strategies | Rebuild the map around relationships, then retrieve from it. |
 | "I keep consuming more material instead of thinking." | Meta-strategies | Use [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]. |
@@ -171,7 +171,7 @@ Use this sequence:
 5. **Generate before checking**: guess first, then search, ask, compare, or test.
 6. **Correct quickly**: the correction is part of the learning.
 
-This connects directly to [[wiki/Techniques/Building the Radar|Building the Radar]]. The radar notices the shift. The meta-strategy decides what to do with it.
+This connects directly to [[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]]. The radar notices the shift. The meta-strategy decides what to do with it.
 
 ## Layer Learning Like A Painter
 
@@ -191,9 +191,9 @@ Early layers are allowed to be wrong because their job is to create scaffolding.
 
 This is one of the strongest ways to understand [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]:
 
-- [[wiki/Techniques/Aim|Aim]] creates the first scaffold.
-- [[wiki/Techniques/Shoot|Shoot]] tests and elaborates it.
-- [[wiki/Techniques/Skin|Skin]] cleans the structure into something retrievable.
+- [[wiki/Dimensions/Deep Processing/Aim|Aim]] creates the first scaffold.
+- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] tests and elaborates it.
+- [[wiki/Dimensions/Deep Processing/Skin|Skin]] cleans the structure into something retrievable.
 
 ## Think Like An Expert Before Knowing Like One
 
@@ -292,7 +292,7 @@ The point is to make difficulty usable.
 - [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
-- [[wiki/Techniques/Building the Radar|Building the Radar]]
+- [[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]

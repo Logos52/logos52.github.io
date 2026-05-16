@@ -75,11 +75,11 @@ The output should be a network of connected, evaluated, and prioritized knowledg
 
 ## Relationship to the Study System
 
-Higher-order learning is the cognitive process that [[wiki/Techniques/Bear Hunter System|BHS]] is designed to produce. The Aim step forces relationship and importance questions. The Shoot step requires placing each new piece of information into a network rather than a list. The Skin step forces evaluation of which relationships are worth keeping.
+Higher-order learning is the cognitive process that [[wiki/Dimensions/Deep Processing/Bear Hunter System|BHS]] is designed to produce. The Aim step forces relationship and importance questions. The Shoot step requires placing each new piece of information into a network rather than a list. The Skin step forces evaluation of which relationships are worth keeping.
 
-[[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] tests whether the schema built by higher-order encoding can be reconstructed — and whether the knowledge can be used at higher orders under retrieval conditions, not just recognized.
+[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] tests whether the schema built by higher-order encoding can be reconstructed — and whether the knowledge can be used at higher orders under retrieval conditions, not just recognized.
 
-[[wiki/Concepts/Schema|Schemas]] are the structural outcome of higher-order learning. The network that expertise requires is built by the processes described here.
+[[wiki/Dimensions/Deep Processing/Schema|Schemas]] are the structural outcome of higher-order learning. The network that expertise requires is built by the processes described here.
 
 ## Open Questions
 
@@ -90,9 +90,9 @@ Higher-order learning is the cognitive process that [[wiki/Techniques/Bear Hunte
 
 - [[wiki/Dimensions/Deep Processing/Schema|Schema]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
+- [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]]
 - [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
+- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]

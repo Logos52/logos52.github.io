@@ -40,10 +40,10 @@ Useful outputs include:
 
 ## Related Concepts
 
-- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Techniques/Context Engineering|Context Engineering]]
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
 
 ## Sources
 

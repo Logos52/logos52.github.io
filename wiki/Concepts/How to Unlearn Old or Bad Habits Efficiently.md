@@ -300,7 +300,7 @@ The fastest improvement usually comes from step 2 and step 8. If the cue is vagu
 
 [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] improves when its weak moments are isolated: skipping Aim, outsourcing structure during Shoot, or cleaning the map superficially during Skin.
 
-[[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] should not only retrieve knowledge. It should also retrieve the replacement response: what do I do when this cue appears again?
+[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] should not only retrieve knowledge. It should also retrieve the replacement response: what do I do when this cue appears again?
 
 [[private/Goals/Priority 0|Priority 0]] skills should be trained through small cue-response upgrades, not dashboard expansion. Recurrence comes from making the desired response easier to enter.
 
@@ -317,7 +317,7 @@ The fastest improvement usually comes from step 2 and step 8. If the cue is vagu
 ## Related Pages
 
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]

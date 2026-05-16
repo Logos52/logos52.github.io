@@ -175,7 +175,7 @@ It also connects with:
 
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: choose the next small improvement.
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: reflect after attempts and update the plan.
-- [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]: treat capability gaps as dimensions to improve.
+- [[wiki/Dimensions/Upgrading Your Dimensions|Upgrading Your Dimensions]]: treat capability gaps as dimensions to improve.
 - [[wiki/Dimensions/Mindset|Mindset]]: shift from outcome anxiety to process improvement.
 
 ## Personal Use

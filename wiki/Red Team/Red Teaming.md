@@ -30,7 +30,7 @@ The durable pattern is:
 - Diverge before converging.
 - Treat decision-making as a human system with predictable failure modes.
 
-This makes Red Teaming a natural bridge between [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Deep Processing|Deep Processing]], and [[wiki/Concepts/Agentic Engineering|Agentic Engineering]].
+This makes Red Teaming a natural bridge between [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Deep Processing|Deep Processing]], and [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]].
 
 ## Key Takeaways
 
@@ -69,9 +69,9 @@ This makes Red Teaming a natural bridge between [[wiki/Concepts/Metacognition - 
 In the user's study system, Red Teaming becomes a thinking stance:
 
 - During [[wiki/Dimensions/Deep Processing/Bear Hunter System|BHS]], red-team the framing questions.
-- During [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]], red-team the illusion of mastery.
+- During [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]], red-team the illusion of mastery.
 - During [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], red-team the explanation of why performance failed.
-- During [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], red-team AI output before trusting it.
+- During [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]], red-team AI output before trusting it.
 - During language learning, red-team grammar rules that feel clean but do not match native usage.
 
 ## Key Pages

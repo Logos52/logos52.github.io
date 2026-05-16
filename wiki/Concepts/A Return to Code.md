@@ -33,7 +33,7 @@ The human role shifts toward:
 - Choosing when to stop.
 - Knowing when generated code is good enough and when it needs engineering discipline.
 
-This is why [[wiki/Concepts/Vibe Coding|Vibe Coding]] and [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] should remain separate concepts. Vibe coding is the fast creative loop. Agentic engineering is the professional quality system around that loop.
+This is why [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] and [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] should remain separate concepts. Vibe coding is the fast creative loop. Agentic engineering is the professional quality system around that loop.
 
 ## Useful Ideas
 
@@ -67,11 +67,11 @@ These should be added only when they reduce real maintenance cost.
 
 ## Related Concepts
 
-- [[wiki/Concepts/Vibe Coding|Vibe Coding]]
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Concepts/Software 3.0|Software 3.0]]
+- [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]]
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
-- [[wiki/Techniques/Context Engineering|Context Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
 - [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
 
 ## Sources

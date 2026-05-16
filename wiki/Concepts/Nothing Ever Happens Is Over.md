@@ -52,12 +52,12 @@ It also reinforces [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]. If
 
 ## Related Concepts
 
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- [[wiki/Concepts/Thinking Models|Thinking Models]]
+- [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]]
 
 ## Sources
 
