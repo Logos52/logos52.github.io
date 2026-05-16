@@ -48,7 +48,7 @@ The source also emphasizes that technology democratizes power in both productive
 
 The source reinforces [[wiki/Dimensions/Self-Regulation|Self-Regulation]]. A fast-changing environment punishes static plans. You need review loops that detect when yesterday's assumptions no longer fit.
 
-It also reinforces [[wiki/Techniques/Marginal Gains|Marginal Gains]]. If change is compounding, small improvements to your sense-making system can matter more than dramatic one-time plans.
+It also reinforces [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]. If change is compounding, small improvements to your sense-making system can matter more than dramatic one-time plans.
 
 ## Related Concepts
 
@@ -56,7 +56,7 @@ It also reinforces [[wiki/Techniques/Marginal Gains|Marginal Gains]]. If change 
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
 - [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Concepts/Thinking Models|Thinking Models]]
 
 ## Sources

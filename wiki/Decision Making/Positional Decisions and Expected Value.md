@@ -85,7 +85,7 @@ Fear may identify risk. Excitement may identify opportunity. Discomfort may iden
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Decision Making/Good Decisions|Good Decisions]]
 - [[wiki/Decision Making/Changing Decisions|Changing Decisions]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 
 ## Sources

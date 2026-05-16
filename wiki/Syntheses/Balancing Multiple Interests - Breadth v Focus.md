@@ -254,7 +254,7 @@ This page should shape the Journal, Goals, Skills, and Knowledge Base workflow.
 - The [[journal/index|Journal]] should show current active threads, not every possible interest.
 - The Goals Index can hold Priority 0 breadth without turning every goal into a weekly task.
 - The Skills Index can separate active skill training from dormant skills.
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] should be used mainly on active processes.
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] should be used mainly on active processes.
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]] should be used when the active set wants to expand.
 - [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] protects the active set from daily drift.
 
@@ -266,10 +266,10 @@ The knowledge base can be broad. The working day cannot.
 - [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
-- [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 
 ## Open Questions
 

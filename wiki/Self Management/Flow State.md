@@ -109,7 +109,7 @@ The practical inputs are:
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 
 ## Sources
 

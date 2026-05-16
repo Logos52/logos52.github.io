@@ -151,8 +151,8 @@ The bridge between them is often a minimum viable goal plus a prepared focus env
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Mindset|Mindset]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
-- [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]
 
 ## Sources
 

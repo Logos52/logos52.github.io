@@ -87,6 +87,9 @@ Ask these questions regularly:
 ## Related Pages
 
 - [[wiki/Concepts/Style|Style]] — recessive style as applied meiwaku in design and communication.
+- [[wiki/Concepts/Charisma|Charisma]] — high-quality charisma minimizes negative social friction.
+- [[wiki/Concepts/Good Faith|Good Faith]] — good faith reduces the imposition created by hidden information.
+- [[wiki/Concepts/Anti-Marketing|Anti-Marketing]] — anti-marketing is a form of meiwaku applied to communication and self-presentation.
 - [[wiki/Concepts/Minimalism|Minimalism]] — burden reduction through selection and restraint.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — meiwaku as an advanced form of impulse and presence management.
 - [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] — communication that respects the recipient's attention budget.

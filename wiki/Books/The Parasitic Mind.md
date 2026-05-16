@@ -78,7 +78,7 @@ This book is the cognitive predecessor to *Suicidal Empathy* (2026). Where *The 
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
-- [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]]
 
 ## Sources
 

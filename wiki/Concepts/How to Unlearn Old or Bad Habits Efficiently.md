@@ -195,7 +195,7 @@ The learner may plan a new response, try to use it, and then discover a deeper c
 
 This is the bottleneck revealing itself.
 
-If fear blocks the new response, train the fear response first. Make experimentation safer. Break the task smaller. Lower the cost of the mistake. Use [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] to identify what actually stopped the action.
+If fear blocks the new response, train the fear response first. Make experimentation safer. Break the task smaller. Lower the cost of the mistake. Use [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] to identify what actually stopped the action.
 
 Do not keep pushing the surface technique while the deeper emotional response keeps shutting it down.
 
@@ -288,9 +288,9 @@ The fastest improvement usually comes from step 2 and step 8. If the cue is vagu
 
 ## Implications For My System
 
-[[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] should be used to expose cue-response pathways, not just reflect on outcomes. The best Kolbs entry identifies the moment where the old pattern took over.
+[[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] should be used to expose cue-response pathways, not just reflect on outcomes. The best Kolbs entry identifies the moment where the old pattern took over.
 
-[[wiki/Techniques/Marginal Gains|Marginal Gains]] should target one cue-response bottleneck at a time. The next gain is often smaller than a technique upgrade. It is a cleaner response to one recurring cue.
+[[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] should target one cue-response bottleneck at a time. The next gain is often smaller than a technique upgrade. It is a cleaner response to one recurring cue.
 
 [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] depends on cue awareness. Attention breaks when an old response hijacks the next move before the learner notices.
 
@@ -298,7 +298,7 @@ The fastest improvement usually comes from step 2 and step 8. If the cue is vagu
 
 [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] is partly a habit problem. The shortcut is often not chosen deliberately. It fires as an automatic response to discomfort.
 
-[[wiki/Techniques/Bear Hunter System|Bear Hunter System]] improves when its weak moments are isolated: skipping Aim, outsourcing structure during Shoot, or cleaning the map superficially during Skin.
+[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] improves when its weak moments are isolated: skipping Aim, outsourcing structure during Shoot, or cleaning the map superficially during Skin.
 
 [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] should not only retrieve knowledge. It should also retrieve the replacement response: what do I do when this cue appears again?
 
@@ -321,5 +321,5 @@ The fastest improvement usually comes from step 2 and step 8. If the cue is vagu
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]

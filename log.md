@@ -469,3 +469,70 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Created [[outputs/briefs/Grok - What Unifies the Enemies of Civilization|Grok - What Unifies the Enemies of Civilization]] — high-signal operating synthesis identifying that socialism, degrowth, scientism, relativism, dogmatism, and doomerism are unified by one mechanism: they all slow the growth of knowledge. Includes diagnostic test for evaluating ideas.
 - Created [[outputs/briefs/Grok - Why Ali Abdaal's YouTube Channel is Dying|Grok - Why Ali Abdaal's YouTube Channel is Dying]] — mechanism-dense breakdown of the five interlocking mistakes (authority signal removal, wrong rung on novelty ladder, expectation misalignment, non-extending thumbnails, warm-audience strategy) and the root cause (outdated audience model on a cold-traffic platform). Includes diagnostic filter for future videos.
+
+## [2026-05-16] compile | Rest and recovery clipping
+
+- Created [[outputs/briefs/GPT - How to Rest So Well You Never Feel Exhausted Again|GPT - How to Rest So Well You Never Feel Exhausted Again]] from the rest/recovery clipping.
+- Moved the current public clipping inbox files into `raw/sources/`, including the MG and Kolbs template tour set under `raw/sources/MG and Kolbs/`.
+- Updated [[raw/Source Index|Source Index]] and output source references so the moved clippings now point to their raw source paths.
+
+## [2026-05-16] wiki | Recovery page integrated
+
+## [2026-05-16] wiki | Bias and Framing merged
+
+## [2026-05-16] refactor | Self-Regulation dimension
+
+- Updated the main [[wiki/Dimensions/Self-Regulation|Self-Regulation]] hub page to be a proper overview with links to supporting pages.
+- Moved the following pages into `wiki/Dimensions/Self-Regulation/`:
+  - Recovery
+  - How to Shift Your Brain to Be Motivated (when you don’t feel like it)
+  - How to Maintain Sustainable Energy Under Pressure
+  - Marginal Gains
+  - Metacognition - The Control Layer
+  - The Technique Is Only as Good as the Thinking It Produces
+- Fixed internal links in the moved pages.
+- Updated the Notes Index with new locations (all four pages now correctly listed under Self-Regulation).
+
+## [2026-05-16] refactor | Full migration execution (no phases)
+
+- Created new folder structure:
+  - wiki/Systems/ (with MG & Kolbs/ and AI & Agentic Systems/)
+  - wiki/Domains/ (with Red Team, Language, Minimalism, Decision Making, AI & Tooling, Miscellaneous)
+  - Subfolders under Dimensions/ for Mindset, Self-Management, Self-Regulation, Deep Processing, Retrieval
+- Moved major content:
+  - Full Bear Hunter System (including Aim, Shoot, Skin) into Dimensions/Deep Processing
+  - Kolbs Experiential Cycle, Reverse Goal Setting, Skills Audit into Dimensions/Self-Management
+  - Marginal Gains into Dimensions/Mindset
+  - Agentic Engineering, Vibe Coding, Software 3.0, LLM Knowledge Systems, Context Engineering, Thinking Models into Systems/AI & Agentic Systems
+  - MG & Kolbs into Systems/MG & Kolbs
+  - Exam-specific pages into Domains/Miscellaneous
+- Updated Notes Index for moved pages
+- Began link cleanup in affected folders
+
+## [2026-05-16] refactor | Deep Processing dimension - file moves
+
+- Moved 14 pages into `wiki/Dimensions/Deep Processing/`:
+  - Bear Hunter System (full system)
+  - Syntopical Reading
+  - Thinking on Paper
+  - Prestudy
+  - Schema Construction, Assimilation, and Reorganization
+  - Interleaving for Complex Problem Solving
+  - Schema
+  - Best-attempt Encoding
+  - Deep Processing for Research
+  - Deep Processing Practice
+  - Higher-Order Learning
+  - Importance-Based Chunking
+  - Knowledge Mastery
+  - Layers of Learning
+- Added "Part of Deep Processing" header to all pages in the folder.
+- Updated several entries in the Notes Index.
+
+- Merged the separate [[wiki/Concepts/Bias|Bias]] and [[wiki/Concepts/Framing|Framing]] pages into a single stronger page: [[wiki/Concepts/Bias and Framing|Bias and Framing]].
+- Deleted the two old pages and updated the Notes Index.
+
+- Moved the hybrid (GPT + Sonnet) synthesis of Justin Sung's "How to Rest So Well You Never Feel Exhausted Again" into the wiki as [[wiki/Concepts/Recovery|Recovery]].
+- Added to Notes Index.
+- Linked to Self-Regulation, Bear Hunter System, Marginal Gains, and Priority 0.
+- The hybrid brief remains in outputs as reference.

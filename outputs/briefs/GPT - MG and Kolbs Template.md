@@ -5,11 +5,11 @@ status: draft
 created: 2026-05-15
 model: gpt-5.5
 source:
-  - "Clippings/1. Notion template overview.md"
-  - "Clippings/2. Action zone tour (Part 1).md"
-  - "Clippings/3. Action zone tour (Part 2).md"
-  - "Clippings/4. Progress zone tour.md"
-  - "Clippings/5. Learning zone tour.md"
+  - "raw/sources/MG and Kolbs/1. Notion template overview.md"
+  - "raw/sources/MG and Kolbs/2. Action zone tour (Part 1).md"
+  - "raw/sources/MG and Kolbs/3. Action zone tour (Part 2).md"
+  - "raw/sources/MG and Kolbs/4. Progress zone tour.md"
+  - "raw/sources/MG and Kolbs/5. Learning zone tour.md"
   - "MG & Kolbs Notion template ZIP export"
 tags:
   - output
@@ -424,9 +424,9 @@ The current `mg-kolbs` page should probably become a public-facing operating roo
 
 ## Sources
 
-- `Clippings/1. Notion template overview.md`
-- `Clippings/2. Action zone tour (Part 1).md`
-- `Clippings/3. Action zone tour (Part 2).md`
-- `Clippings/4. Progress zone tour.md`
-- `Clippings/5. Learning zone tour.md`
+- `raw/sources/MG and Kolbs/1. Notion template overview.md`
+- `raw/sources/MG and Kolbs/2. Action zone tour (Part 1).md`
+- `raw/sources/MG and Kolbs/3. Action zone tour (Part 2).md`
+- `raw/sources/MG and Kolbs/4. Progress zone tour.md`
+- `raw/sources/MG and Kolbs/5. Learning zone tour.md`
 - MG & Kolbs Notion template ZIP export

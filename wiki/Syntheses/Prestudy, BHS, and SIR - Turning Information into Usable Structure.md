@@ -14,7 +14,7 @@ tags:
 
 # Prestudy, BHS, and SIR: Turning Information into Usable Structure
 
-Usable study structure starts before the main learning event, continues through active encoding, and survives through retrieval. The current loop is [[wiki/Techniques/Prestudy|Prestudy]] for the frame, [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] for encoding, and [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] for preservation and improvement.
+Usable study structure starts before the main learning event, continues through active encoding, and survives through retrieval. The current loop is [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] for the frame, [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] for encoding, and [[wiki/Dimensions/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] for preservation and improvement.
 
 The goal is usable structure: a stable mental model where information can sit, connect, and later be reconstructed.
 
@@ -27,10 +27,10 @@ The broader model is [[wiki/Dimensions/Dimensions of Learning|Dimensions of Lear
 ## Operating Loop
 
 1. Start with a topic, syllabus area, reading, lecture, or project requirement.
-2. Use [[wiki/Techniques/Prestudy|Prestudy]] to build a rough frame before the main learning event.
-3. Use [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] to form a useful structure before getting buried in details.
+2. Use [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] to build a rough frame before the main learning event.
+3. Use [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] to form a useful structure before getting buried in details.
 4. Convert that structure into a map, question set, or explanation that can be retrieved later.
-5. Schedule [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] soon enough to expose gaps before the knowledge decays.
+5. Schedule [[wiki/Dimensions/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] soon enough to expose gaps before the knowledge decays.
 6. During retrieval, vary the task format, topic mix, difficulty, and angle of questioning.
 7. Use failures as diagnostic signals: missing facts, weak relationships, poor chunking, shallow understanding, or insufficient application practice.
 8. Re-encode the weak parts rather than repeating the whole topic passively.
@@ -49,7 +49,7 @@ Its job is to create:
 
 Prestudy is the reference image for the puzzle. It gives the learner a rough frame before detailed learning, memorization, or map refinement begins.
 
-Use [[wiki/Techniques/Prestudy|Prestudy]] before lectures, dense readings, videos, workshops, or any session where first contact would be too fast and too crowded.
+Use [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] before lectures, dense readings, videos, workshops, or any session where first contact would be too fast and too crowded.
 
 The practical output should usually be:
 
@@ -63,7 +63,7 @@ Minimum version: skim, list the main ideas, ask why they matter, guess how they 
 
 ## Encoding Engine
 
-The encoding side is [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], which lives primarily under [[wiki/Dimensions/Deep Processing|Deep Processing]] and secondarily under [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
+The encoding side is [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], which lives primarily under [[wiki/Dimensions/Deep Processing|Deep Processing]] and secondarily under [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
 
 Its job is to turn new information into a navigable structure by:
 
@@ -84,7 +84,7 @@ The practical output should usually be one of:
 
 ## Retrieval Engine
 
-The retrieval side is [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], which lives primarily under [[wiki/Dimensions/Retrieval|Retrieval]] and secondarily under [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
+The retrieval side is [[wiki/Dimensions/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], which lives primarily under [[wiki/Dimensions/Retrieval|Retrieval]] and secondarily under [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
 
 Its job is to make knowledge durable and usable by:
 
@@ -113,7 +113,7 @@ During retrieval, metacognition asks:
 - Did I find a gap worth re-encoding?
 - Is the next session scheduled for maintenance, challenge, or repair?
 
-For complex material, retrieval should also test the approach layer. [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] asks whether the learner can reconstruct the same knowledge under changed variables, contexts, and outputs.
+For complex material, retrieval should also test the approach layer. [[wiki/Dimensions/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] asks whether the learner can reconstruct the same knowledge under changed variables, contexts, and outputs.
 
 ## Personal Implementation
 
@@ -143,11 +143,11 @@ For the user's current system, the recommended default is:
 
 ## Related Concepts
 
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Prestudy|Prestudy]]
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]
 - [[wiki/Syntheses/ICS System|ICS System]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
+- [[wiki/Dimensions/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]

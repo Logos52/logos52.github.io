@@ -40,7 +40,7 @@ The routing question is: "Which level of the system needs to improve?"
 | Level | What It Controls | If This Is Weak | Pages That Uplift It |
 | --- | --- | --- | --- |
 | **Processing Quality** | The kind of thinking being done. | Learning looks active, but the mind is not comparing, connecting, reconstructing, prioritizing, or explaining. | [[wiki/Dimensions/Deep Processing|Deep Processing]], [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]], [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]], [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]] |
-| **Strategies** | The techniques that trigger useful thinking. | The learner knows what good thinking should happen, but has no reliable workflow for producing it. | [[wiki/Techniques/Prestudy|Prestudy]], [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Aim|Aim]], [[wiki/Techniques/Shoot|Shoot]], [[wiki/Techniques/Skin|Skin]], [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] |
+| **Strategies** | The techniques that trigger useful thinking. | The learner knows what good thinking should happen, but has no reliable workflow for producing it. | [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], [[wiki/Techniques/Aim|Aim]], [[wiki/Techniques/Shoot|Shoot]], [[wiki/Techniques/Skin|Skin]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] |
 | **Meta-strategies** | The response when the strategy creates friction, uncertainty, or overwhelm. | The learner retreats into shortcuts, passive consumption, shallow notes, or fake productivity as soon as the strategy gets mentally expensive. | [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]], [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]], [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]], [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]], [[wiki/Techniques/Building the Radar|Building the Radar]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]] |
 
 ## Level 1: Processing Quality
@@ -78,9 +78,9 @@ A good strategy creates the conditions for high-quality processing. It does not 
 
 The core strategy stack:
 
-- [[wiki/Techniques/Prestudy|Prestudy]]: build the first frame before the main learning event.
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]: turn material into a usable structure through Aim, Shoot, and Skin.
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: make the structure retrievable, flexible, and gap-resistant.
+- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: build the first frame before the main learning event.
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: turn material into a usable structure through Aim, Shoot, and Skin.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: make the structure retrievable, flexible, and gap-resistant.
 - [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]: the combined study loop.
 
 Use strategies when the desired thinking is clear, but the session lacks a reliable workflow.
@@ -116,7 +116,7 @@ When a study session fails, diagnose the level:
 | Symptom | Likely Level | Repair |
 | --- | --- | --- |
 | "I studied, but nothing connected." | Processing Quality | Use [[wiki/Dimensions/Deep Processing|Deep Processing]] and force comparison, chunking, or explanation. |
-| "I know what I should do, but I do not have a process." | Strategies | Use [[wiki/Techniques/Prestudy|Prestudy]], [[wiki/Techniques/Bear Hunter System|BHS]], or [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]]. |
+| "I know what I should do, but I do not have a process." | Strategies | Use [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], [[wiki/Techniques/Bear Hunter System|BHS]], or [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]]. |
 | "The method works, but I avoid it when it gets hard." | Meta-strategies | Use [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] and [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]. |
 | "My notes look good, but I cannot use them." | Processing Quality + Strategies | Rebuild the map around relationships, then retrieve from it. |
 | "I keep consuming more material instead of thinking." | Meta-strategies | Use [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]. |
@@ -189,7 +189,7 @@ Then make another pass. Add detail. Correct the first structure. Make another pa
 
 Early layers are allowed to be wrong because their job is to create scaffolding. Later layers expose what the early layers missed.
 
-This is one of the strongest ways to understand [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]:
+This is one of the strongest ways to understand [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]:
 
 - [[wiki/Techniques/Aim|Aim]] creates the first scaffold.
 - [[wiki/Techniques/Shoot|Shoot]] tests and elaborates it.
@@ -218,7 +218,7 @@ Retrieval runs as a parallel track alongside the hierarchy.
 
 Encoding is harder because the brain is selective about what it stores. Retrieval is often easier to train because the learner can access useful processing through reconstruction, comparison, and gap detection.
 
-This is why [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is so important. It gives the learner a lower-friction path into higher-quality thinking while encoding skill is still developing.
+This is why [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is so important. It gives the learner a lower-friction path into higher-quality thinking while encoding skill is still developing.
 
 The system needs both sides:
 
@@ -293,8 +293,8 @@ The point is to make difficulty usable.
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Techniques/Building the Radar|Building the Radar]]
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 

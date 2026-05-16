@@ -222,7 +222,7 @@ Warning signs:
 
 [[private/Goals/Priority 0|Priority 0]] should include persuasion, communication, or sales only if they connect to real building. Selling truth starts with having something true to sell.
 
-[[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]] can use the deal-making section: avoid goals that require bad long-term constraints for short-term relief.
+[[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]] can use the deal-making section: avoid goals that require bad long-term constraints for short-term relief.
 
 ## Open Questions
 

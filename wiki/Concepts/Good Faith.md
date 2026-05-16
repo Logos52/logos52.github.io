@@ -42,8 +42,9 @@ It is especially powerful in environments where most actors default to strategic
 
 ## Related Pages
 
-- [[wiki/Concepts/Meiwaku|Meiwaku]]
-- [[wiki/Concepts/Anti-Marketing|Anti-Marketing]]
+- [[wiki/Concepts/Meiwaku|Meiwaku]] — good faith reduces unnecessary social burden created by hidden information.
+- [[wiki/Concepts/Anti-Marketing|Anti-Marketing]] — anti-marketing is a practical application of good faith in public communication.
+- [[wiki/Concepts/Charisma|Charisma]] — high-quality charisma is usually built on a foundation of good faith.
 - [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]]
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking]]
 

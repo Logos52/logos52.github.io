@@ -57,10 +57,10 @@ Being upfront about what the thing is *not* good for, what it requires from the 
 
 ## Related Pages
 
-- [[wiki/Concepts/Style|Style]]
-- [[wiki/Concepts/Meiwaku|Meiwaku]]
+- [[wiki/Concepts/Style|Style]] — anti-marketing is often a deliberate stylistic choice.
+- [[wiki/Concepts/Meiwaku|Meiwaku]] — anti-marketing is a form of meiwaku applied to public presence and communication.
+- [[wiki/Concepts/Good Faith|Good Faith]] — anti-marketing is one of the clearest expressions of good faith in public work.
 - [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]]
-- [[wiki/Concepts/Signalling Theory|Signalling Theory]]
 
 ## Sources
 

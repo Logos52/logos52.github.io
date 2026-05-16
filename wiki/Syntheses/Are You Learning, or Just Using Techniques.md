@@ -165,7 +165,7 @@ Plain review allows recognition. Highlighting allows decoration. Copying allows 
 
 That is why it works as an entry-point technique. It exposes the level of thinking the learner needs to reach, then trains that level through repeated attempts.
 
-This connects directly to [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] and [[wiki/Techniques/WPW|WPW]].
+This connects directly to [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] and [[wiki/Dimensions/Retrieval/WPW|WPW]].
 
 ## How To Use This Page
 
@@ -191,11 +191,11 @@ The goal is to make each technique produce the right thinking.
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Techniques/WPW|WPW]]
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Retrieval/WPW|WPW]]
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 

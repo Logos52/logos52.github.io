@@ -79,9 +79,10 @@ For a knowledge base or long-form writing system, the most effective style is us
 ## Related Pages
 
 - [[wiki/Concepts/Meiwaku|Meiwaku]] — recessive style as applied social and attentional restraint.
+- [[wiki/Concepts/Charisma|Charisma]] — charisma often depends on calibrated, context-appropriate style.
+- [[wiki/Concepts/Good Faith|Good Faith]] — good faith requires a style that does not hide important information.
 - [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] — communication style that respects the recipient.
-- [[wiki/Dimensions/Engagement|Engagement]] — style as a tool for sustained attention.
-- [[wiki/Concepts/Minimalism|Minimalism]] — related principles of reduction and restraint.
+- [[wiki/Concepts/Anti-Marketing|Anti-Marketing]] — anti-marketing is a deliberate stylistic choice.
 
 ## Sources
 

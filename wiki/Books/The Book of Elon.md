@@ -28,7 +28,7 @@ The third idea is engineering as magic made concrete. Engineering is treated as 
 
 The fourth idea is extreme ownership. The book's "ultra hardcore" middle sections focus on responsibility, deep understanding, frontline leadership, speed, feedback, and adversity. Musk's operating style values people who know the details, move quickly, and accept pressure. The highest-status person in this worldview is not the strategist floating above the work. It is the builder close to the constraint.
 
-The fifth idea is organizational simplification. The book emphasizes removing unnecessary boundaries, communicating directly, tolerating intelligent failure, and simplifying systems before optimizing them. Musk's "algorithm" is basically a ruthless sequence for deleting unnecessary requirements, simplifying, accelerating, automating, and repeating. For this wiki, that connects strongly to [[wiki/Techniques/Marginal Gains|Marginal Gains]] and [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: improve the system by finding the constraint, removing waste, and iterating.
+The fifth idea is organizational simplification. The book emphasizes removing unnecessary boundaries, communicating directly, tolerating intelligent failure, and simplifying systems before optimizing them. Musk's "algorithm" is basically a ruthless sequence for deleting unnecessary requirements, simplifying, accelerating, automating, and repeating. For this wiki, that connects strongly to [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] and [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: improve the system by finding the constraint, removing waste, and iterating.
 
 The company-building sections turn these principles into case studies: Zip2, PayPal, Tesla, SolarCity, and SpaceX. The recurring pattern is going all in, entering markets that look irrational from the outside, surviving near-death periods, and using impossible-seeming goals to force new technical paths. The book presents Musk's companies less as financial vehicles and more as instruments for altering the future.
 
@@ -57,7 +57,7 @@ The best version of the takeaway is not "copy Elon." It is "raise your standard 
 
 ## Useful For This Wiki
 
-This book belongs near [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], [[wiki/Dimensions/Self-Management|Self-Management]], and [[wiki/Dimensions/Mindset|Mindset]].
+This book belongs near [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]], [[wiki/Dimensions/Self-Management|Self-Management]], and [[wiki/Dimensions/Mindset|Mindset]].
 
 It suggests a practical review template for projects:
 
@@ -80,7 +80,7 @@ The most useful bridge into the user's learning system is this: Musk-style first
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
 - [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
