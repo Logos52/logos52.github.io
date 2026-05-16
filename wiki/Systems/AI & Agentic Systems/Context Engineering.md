@@ -47,11 +47,11 @@ Warning sign: context work has become a shortcut when it turns into organizing i
 
 ## Related Concepts
 
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
 - [[wiki/Workflows/Question Answering Against a Wiki|Question Answering Against a Wiki]]
-- [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
-- [[wiki/Concepts/Software 3.0|Software 3.0]]
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]]
+- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
 
 ## Sources
 

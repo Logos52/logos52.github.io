@@ -50,27 +50,38 @@ Strong Self-Management creates the conditions in which Self-Regulation can funct
 
 ## Key Supporting Techniques & Concepts
 
-- **[[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]** — A structured reflection and learning management system for turning experience into improved future action.
-- **[[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]** — A planning method that starts from the desired end state and works backwards to create clear, executable steps.
-- **[[wiki/Dimensions/Self-Management/Skills Audit|Skills Audit]]** — A diagnostic process for identifying current capability levels and building targeted development plans.
+- **[[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]** — A structured reflection and learning management system for turning experience into improved future action.  
+  When neglected, experience produces little lasting change and the same mistakes repeat.
+- **[[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]** — A planning method that starts from the desired end state and works backwards to create clear, executable steps.  
+  When neglected, goals remain vague and actions stay reactive rather than strategic.
+- **[[wiki/Dimensions/Self-Management/Skills Audit|Skills Audit]]** — A diagnostic process for identifying current capability levels and building targeted development plans.  
+  When neglected, development effort is scattered and real gaps stay unaddressed.
 
----
+## Common Problems with Weak Self-Management
+
+These patterns come directly from how poor self-management shows up in practice:
+
+- **Missing deadlines or last-minute rushing** — Work quality suffers because tasks are consistently left until pressure forces action.
+- **Avoiding difficult or complex tasks** — Easier or less meaningful activities are prioritised, so important work gets deferred indefinitely.
+- **Inability to stick to a schedule** — Plans are made but quickly abandoned, leading to high inconsistency.
+- **Activity without clear goals** — Time is spent on tasks that lack direction or connection to bigger objectives.
+- **Excessive procrastination and distractibility** — Starting is difficult and focus is easily pulled away.
 
 ## Relationship to Other Dimensions
 
-- **Self-Regulation**: Self-Management creates the external conditions (time, energy, environment). Self-Regulation is what allows you to steer and adapt within those conditions in real time.
-- **Mindset**: A growth-oriented mindset makes it easier to invest in building and maintaining systems over the long term.
-- **Deep Processing & Retrieval**: Good self-management protects the time and energy needed for high-quality encoding and retrieval practice.
+- **Self-Regulation**: Self-Management creates the external conditions (time, energy, environment). Without those conditions, even strong real-time self-regulation has very little to work with.
+- **Mindset**: A fixed mindset makes the consistent investment required to build and maintain systems feel pointless. A growth mindset makes long-term system building feel worthwhile.
+- **Deep Processing & Retrieval**: Weak self-management starves these dimensions of the protected time and energy they need. Even excellent encoding or retrieval techniques fail when there is no consistent space to use them.
 
 ---
 
 ## Why Self-Management Matters
 
-Without strong self-management, even excellent learning techniques and high motivation eventually break down under real-life pressure. Self-management is what turns good intentions and good methods into sustainable, repeatable results.
+Without strong self-management, even the best techniques and strongest motivation eventually collapse under real-life pressure. Self-management is what converts good intentions and good methods into consistent, repeatable results over months and years.
 
-It is the dimension that answers: “How do I actually make this work consistently in my real life?”
+It is the dimension that answers: “How do I make this actually work in my real life, not just on paper?”
 
-If Self-Regulation is the real-time “driving skill,” Self-Management is the work of designing the car, the road, and the maintenance schedule so that driving remains sustainable.
+If Self-Regulation is the real-time driving skill, Self-Management is the ongoing work of designing and maintaining the car, the road, and the schedule so the driving can continue.
 
 ---
 

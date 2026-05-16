@@ -37,7 +37,7 @@ Source material becomes more valuable when it is turned into durable, linked, ci
 
 ## Related Concepts
 
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
 - [[Wiki Health Checks]]
 - [[Question Answering Against a Wiki]]
 

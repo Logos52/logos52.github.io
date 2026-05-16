@@ -190,7 +190,7 @@ The system treats weak retrieval sessions differently from how many learners int
 
 ## WPW And High-Volume Retrieval
 
-[[wiki/Techniques/WPW|WPW]] is an advanced whole-part-whole reteaching method. It is high-volume retrieval that tests many levels at once: big picture, relationships, details, explanation, and application.
+[[wiki/Dimensions/Retrieval/WPW|WPW]] is an advanced whole-part-whole reteaching method. It is high-volume retrieval that tests many levels at once: big picture, relationships, details, explanation, and application.
 
 It is powerful because it makes the learner become their own teacher. It is hard because it requires enough encoding strength to reteach without collapsing into vague summaries.
 
@@ -309,14 +309,14 @@ For the user's current system:
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Techniques/WPW|WPW]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Retrieval/WPW|WPW]]
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
+- [[wiki/Dimensions/Upgrading Your Dimensions|Upgrading Your Dimensions]]
 - [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
-- [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
-- [[wiki/Concepts/Neuroticism|Neuroticism]]
+- [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
+- [[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 
 ## Sources

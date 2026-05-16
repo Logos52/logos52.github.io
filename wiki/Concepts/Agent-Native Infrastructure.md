@@ -40,9 +40,9 @@ That makes the vault more agent-native than a normal folder of notes.
 
 ## Related Concepts
 
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Concepts/Software 3.0|Software 3.0]]
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
 
 ## Sources
 

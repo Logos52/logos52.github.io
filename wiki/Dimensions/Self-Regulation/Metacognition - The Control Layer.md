@@ -84,13 +84,13 @@ Frameworks already in the study system — [[wiki/Dimensions/Mindset/Marginal Ga
 
 In the current study system, metacognition decides whether the user should keep encoding, retrieve, re-encode, simplify, or stop.
 
-During [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], the key metacognitive question is whether the learner is actually comparing and judging relationships or only arranging information. During [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], the key question is whether retrieval exposed a gap that should be repaired with practice or re-encoding.
+During [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], the key metacognitive question is whether the learner is actually comparing and judging relationships or only arranging information. During [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], the key question is whether retrieval exposed a gap that should be repaired with practice or re-encoding.
 
 This makes metacognition the awareness layer inside [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
 
 ## Related Concepts
 
-- [[wiki/Techniques/Building the Radar|Building the Radar]]
+- [[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]]
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]

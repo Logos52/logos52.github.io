@@ -279,8 +279,8 @@ Resource count: 122 linked rows after de-duplication.
 
 - [[wiki/Dimensions/Retrieval|Retrieval]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Dimension Practice Tracks|Dimension Practice Tracks]]
 
 ## Open Questions
 

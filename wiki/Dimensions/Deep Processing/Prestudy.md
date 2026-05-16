@@ -245,8 +245,8 @@ The clean handoff:
 1. **Prestudy**: build the rough frame.
 2. [[wiki/Dimensions/Deep Processing/Aim|Aim]]: sharpen the frame into importance and relationship questions.
 3. [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]: use the source to answer, test, and revise.
-4. [[wiki/Techniques/Skin|Skin]]: clean the structure into a retrieval-ready artifact.
-5. [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]]: test whether the structure can be reconstructed and used.
+4. [[wiki/Dimensions/Deep Processing/Skin|Skin]]: clean the structure into a retrieval-ready artifact.
+5. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]]: test whether the structure can be reconstructed and used.
 
 Prestudy is especially important when the upcoming learning event is too fast, too dense, or too high-stakes to process cold.
 
@@ -264,8 +264,8 @@ Prestudy is especially important when the upcoming learning event is too fast, t
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Dimensions/Deep Processing/Aim|Aim]]
 - [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]
-- [[wiki/Techniques/Skin|Skin]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Deep Processing/Skin|Skin]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]

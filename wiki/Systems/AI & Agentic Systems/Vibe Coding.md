@@ -33,11 +33,11 @@ The important routing question is whether the artifact is disposable or durable.
 
 ## Related Concepts
 
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Concepts/Software 3.0|Software 3.0]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]]
 - [[wiki/Concepts/A Return to Code|A Return to Code]]
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
-- [[wiki/Techniques/Context Engineering|Context Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
 
 ## Sources
 

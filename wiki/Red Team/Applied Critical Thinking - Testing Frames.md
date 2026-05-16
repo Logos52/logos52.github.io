@@ -126,7 +126,7 @@ Fast questions:
 
 The goal is to keep human judgment above model fluency.
 
-This is why Applied Critical Thinking belongs inside [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]: good agent work requires fast review loops, not blind acceptance and not endless inspection.
+This is why Applied Critical Thinking belongs inside [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: good agent work requires fast review loops, not blind acceptance and not endless inspection.
 
 ## The Mindset
 
@@ -214,7 +214,7 @@ Ask:
 - What would retrieval expose?
 - What shortcut am I taking?
 
-This links Applied Critical Thinking to [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], and [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
+This links Applied Critical Thinking to [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], and [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
 
 ## What It Replaces
 

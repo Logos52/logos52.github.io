@@ -76,7 +76,7 @@ The question is whether the map forced importance, relationship, and chunking de
 
 ## How It Shows Up In Retrieval
 
-[[wiki/Techniques/Spaced Interleaved Retrieval|Retrieval]] can also be faked.
+[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] can also be faked.
 
 Shortcut versions include:
 
@@ -113,7 +113,7 @@ Practical constraints:
 - Brain dump before checking notes.
 - Use interleaving to force discrimination.
 - Use [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] to name the shortcut after it happens.
-- Choose one [[wiki/Techniques/Marginal Gains|marginal gain]] that targets the shortcut directly.
+- Choose one [[wiki/Dimensions/Mindset/Marginal Gains|marginal gain]] that targets the shortcut directly.
 
 The point is to prevent the learner from unconsciously replacing learning with performance theater.
 
@@ -122,11 +122,11 @@ The point is to prevent the learner from unconsciously replacing learning with p
 - [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
-- [[wiki/Techniques/Building the Radar|Building the Radar]]
+- [[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 

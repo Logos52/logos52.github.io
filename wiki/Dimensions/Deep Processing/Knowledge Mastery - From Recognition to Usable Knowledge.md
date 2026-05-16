@@ -78,14 +78,14 @@ The answer determines the repair.
 ## Relationship To Study System
 
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] targets levels 3-4 during encoding, under [[wiki/Dimensions/Deep Processing|Deep Processing]].
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] tests all levels over time, under [[wiki/Dimensions/Retrieval|Retrieval]].
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] tests all levels over time, under [[wiki/Dimensions/Retrieval|Retrieval]].
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] uses mastery levels to decide whether the repair is more encoding, retrieval, practice, or self-management.
 - [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]] is mainly a level 4 activity.
 - Flashcards are useful when the gap is genuinely level 1 or narrow level 2.
 
 ## Related Concepts
 
-- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Concepts/Learning Efficiency|Learning Efficiency]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
@@ -94,7 +94,7 @@ The answer determines the repair.
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
 - [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 
 ## Open Questions
 

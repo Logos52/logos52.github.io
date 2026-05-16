@@ -158,8 +158,8 @@ Warning signs:
 
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Techniques/Deep Processing|Deep Processing]]
-- [[wiki/Concepts/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]]
-- [[wiki/Concepts/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
-- [[wiki/Concepts/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]
+- [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]]
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
+- [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]

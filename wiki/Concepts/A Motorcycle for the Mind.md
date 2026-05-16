@@ -57,11 +57,11 @@ Bad use:
 
 ## Related Concepts
 
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Concepts/Vibe Coding|Vibe Coding]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
 - [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
-- [[wiki/Techniques/Context Engineering|Context Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 
 ## Sources

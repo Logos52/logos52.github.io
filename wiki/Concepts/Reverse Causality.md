@@ -61,15 +61,15 @@ Importance checklisting (running through a fixed list of importance criteria) an
 
 ## Relationship to Spiderwebbing
 
-Reverse causality and [[wiki/Techniques/Mindmaps|spiderwebbing]] often appear together. When chunks are justified circularly, the relationships between them are shallow and locally determined. When the map is built, those shallow relationships generate chaotic arrows because there is no wider organizing logic to constrain them.
+Reverse causality and [[wiki/Dimensions/Deep Processing/Mindmaps|spiderwebbing]] often appear together. When chunks are justified circularly, the relationships between them are shallow and locally determined. When the map is built, those shallow relationships generate chaotic arrows because there is no wider organizing logic to constrain them.
 
 Fixing reverse causality at the chunking stage usually cleans up spiderwebbing downstream.
 
 ## Related
 
-- [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Concepts/Schema|Schema]]
-- [[wiki/Techniques/Mindmaps|Mindmaps]]
-- [[wiki/Techniques/Aim|Aim]]
-- [[wiki/Techniques/Shoot|Shoot]]
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
+- [[wiki/Dimensions/Deep Processing/Schema|Schema]]
+- [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]
+- [[wiki/Dimensions/Deep Processing/Aim|Aim]]
+- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]

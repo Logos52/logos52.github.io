@@ -54,7 +54,7 @@ Ask:
 
 ## Link To Current Study System
 
-[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is the encoding-side implementation of [[wiki/Dimensions/Deep Processing|Deep Processing]]. [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] tests whether that processing produced knowledge that can be reconstructed and used.
+[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is the encoding-side implementation of [[wiki/Dimensions/Deep Processing|Deep Processing]]. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] tests whether that processing produced knowledge that can be reconstructed and used.
 
 ## Related Concepts
 

@@ -84,9 +84,9 @@ Testing is what converts a best attempt into something reliable. Expecting revis
 
 ## Related
 
-- [[wiki/Concepts/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]
+- [[wiki/Domains/Miscellaneous/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Deep Processing|Deep Processing]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]

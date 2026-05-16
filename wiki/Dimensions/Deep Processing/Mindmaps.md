@@ -87,7 +87,7 @@ GRINDE is the checklist applied during the Skin step to bring a mindmap to its f
 ## Related
 
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Deep Processing|Deep Processing]]
-- [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Concepts/Best-attempt Encoding|Best-attempt Encoding]]
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]

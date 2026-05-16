@@ -142,7 +142,7 @@ Good signs:
 - the structure feels more navigable,
 - the topic starts to feel usable instead of merely familiar.
 
-These signals help the learner steer before formal results appear. [[wiki/Techniques/Spaced Interleaved Retrieval|Retrieval]] and objective performance still have to test the knowledge.
+These signals help the learner steer before formal results appear. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] and objective performance still have to test the knowledge.
 
 ## The End-State Feeling
 

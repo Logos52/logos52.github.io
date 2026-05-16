@@ -38,9 +38,9 @@ Avoid them for:
 
 ## Related Concepts
 
-- [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
-- [[wiki/Techniques/Context Engineering|Context Engineering]]
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
 
 ## Sources
 

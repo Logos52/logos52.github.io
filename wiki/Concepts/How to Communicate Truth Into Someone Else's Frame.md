@@ -121,7 +121,7 @@ high-trust people
 -> larger outcome than solo work
 ```
 
-This overlaps with [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]: small high-trust human teams plus AI leverage can do work that used to require a much larger organization.
+This overlaps with [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: small high-trust human teams plus AI leverage can do work that used to require a much larger organization.
 
 ## Feed Good Obsessions
 
@@ -212,7 +212,7 @@ Warning signs:
 
 ## Implications For My System
 
-[[wiki/Concepts/Agentic Engineering|Agentic Engineering]] needs this frame because building with agents still requires selling: selling the goal to yourself, explaining constraints clearly, recruiting tools into the workflow, and communicating the result to humans.
+[[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] needs this frame because building with agents still requires selling: selling the goal to yourself, explaining constraints clearly, recruiting tools into the workflow, and communicating the result to humans.
 
 [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] is the honesty layer. It protects against ego, weak frames, fake urgency, and persuasive but false stories.
 

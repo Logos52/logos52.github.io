@@ -15,6 +15,32 @@ A lightweight chronological index for public journal entries and thinking-log up
 
 ## 2026-05-16
 
+Refined the knowledge base after the larger architecture migration.
+
+The main pattern:
+
+```text
+restructured folders
+-> repaired internal links
+-> strengthened dimension hubs
+-> added new synthesis pages
+-> made the model workflow explicit
+```
+
+The five learning dimensions now read more like diagnostic control surfaces. [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] frames top performers as learning engineers rather than technique collectors. [[wiki/Dimensions/Retrieval|Retrieval]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Self-Management|Self-Management]], and [[wiki/Dimensions/Mindset|Mindset]] now include clearer common-problem patterns and stronger links to their supporting pages. This matters because the new structure is only useful if each dimension helps diagnose a real bottleneck, not just organize files.
+
+Added [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]].
+
+The useful frame: top performers build learning assets. They do not merely collect techniques. A method becomes an asset only when it is understood, remembered, applied correctly, and performed consistently under pressure. This connects directly to the Five Dimensions because each dimension is part of the system that makes a technique become reliable instead of decorative.
+
+Added [[wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]].
+
+The useful frame: the knowledge base now has an explicit multi-model workflow. Grok is used more for high-level framing, philosophical coherence, and operating tone. Hermes through Aider is used more for local repo execution, link hygiene, taxonomy, and direct file work. This turns the agent workflow into part of the architecture instead of leaving it as an invisible habit.
+
+Also repaired many links created by the folder migration, especially pages that still pointed to the old `wiki/Techniques/` or broad `wiki/Concepts/` locations. This cleanup makes the graph and backlinks better aligned with the new architecture.
+
+---
+
 Restructured the knowledge base around the working architecture that has emerged over the last week.
 
 The important move:

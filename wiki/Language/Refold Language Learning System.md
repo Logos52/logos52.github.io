@@ -51,7 +51,7 @@ Vocabulary decks, writing-system study, pronunciation work, character awareness,
 **5. Grammar is a comprehension tool, not a speaking formula.**  
 Grammar study should make input easier to parse. The move is not "memorize this rule and produce correct sentences." The move is "prime this pattern, then notice it in real input until it becomes familiar." This connects directly to [[wiki/Language/Language Isn't Math|Language Isn't Math]].
 
-Language practice should also use [[wiki/Techniques/Interleaving for Complex Problem Solving|interleaving]]: varied speakers, topics, formats, comprehension supports, and small production attempts. The target is not isolated vocabulary fluency; it is reconstructing meaning across changing contexts.
+Language practice should also use [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|interleaving]]: varied speakers, topics, formats, comprehension supports, and small production attempts. The target is not isolated vocabulary fluency; it is reconstructing meaning across changing contexts.
 
 **6. Reading, listening, and output are sequenced.**  
 Refold treats fluency as a staged climb: first make the written and auditory language less alien, then build reading and listening comprehension, then develop output from a large base of understanding. Speaking too early is not forbidden, but comprehension remains the foundation.
@@ -144,7 +144,7 @@ Attention is one of the highest-value ideas in Refold. The learner must have som
 
 The [[wiki/Language/Noticing Game|Noticing Game]] turns beginner immersion from "I understand nothing" into "I can hunt for recognizable signal." This matters because the early emotional problem is helplessness. Noticing gives the learner traction.
 
-For this vault, noticing is the language-learning version of [[wiki/Techniques/Aim|Aim]]. It tells the brain what to look for before the session begins.
+For this vault, noticing is the language-learning version of [[wiki/Dimensions/Deep Processing/Aim|Aim]]. It tells the brain what to look for before the session begins.
 
 ## Comprehension Hacking
 
@@ -253,7 +253,7 @@ The Red Team lens also applies. A language plan can fail from hidden assumptions
 - [[wiki/Language/Refold Grammar Primers|Refold Grammar Primers]]
 - [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]]
 - [[wiki/Language/Language Isn't Math|Language Isn't Math]]
-- [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
+- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
 
 ## Resource Catalogs
 

@@ -17,7 +17,7 @@ tags:
 
 AI agents can move implementation faster than traditional workflows, but the engineering bar still has to be protected by human judgment, architecture, verification, and taste.
 
-Karpathy's distinction is useful: [[wiki/Concepts/Vibe Coding|Vibe Coding]] raises the floor; agentic engineering raises the ceiling. Vibe coding lets many more people build. Agentic engineering is what skilled operators do when they want speed without giving up correctness, security, architecture, taste, and responsibility.
+Karpathy's distinction is useful: [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] raises the floor; agentic engineering raises the ceiling. Vibe coding lets many more people build. Agentic engineering is what skilled operators do when they want speed without giving up correctness, security, architecture, taste, and responsibility.
 
 The core shift is that the human increasingly operates as spec writer, taste holder, architect, reviewer, and director of agents.
 
@@ -41,7 +41,7 @@ Agentic engineering therefore means:
 
 Agentic engineering often looks like an execution problem because agents can produce code quickly. The higher-leverage bottleneck is usually approach quality: context, ownership, constraints, acceptance criteria, verification, and taste.
 
-Use [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] to vary the same workflow across planning, prompting, implementation, review, debugging, and documentation. The point is to make the human better at framing the work, not only faster at asking for code.
+Use [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] to vary the same workflow across planning, prompting, implementation, review, debugging, and documentation. The point is to make the human better at framing the work, not only faster at asking for code.
 
 ### 1. Preserve The Quality Bar
 
@@ -175,14 +175,18 @@ This is Karpathy's "you can outsource thinking but not understanding" point. The
 - Keep private material out of public outputs.
 - File durable lessons back into the wiki.
 
+## Hybrid Model Workflows
+
+When working on complex, long-term knowledge work, using multiple models in a deliberate way can be more effective than relying on a single model. See [[wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]] for how Grok and Hermes are currently combined for this vault — one for high-level reasoning and the other for direct file work and execution.
+
 ## Related Pages
 
-- [[wiki/Concepts/Vibe Coding|Vibe Coding]]
-- [[wiki/Concepts/Software 3.0|Software 3.0]]
+- [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]
+- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]]
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
-- [[wiki/Techniques/Context Engineering|Context Engineering]]
-- [[wiki/Techniques/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
+- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
 - [[wiki/Concepts/A Return to Code|A Return to Code]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]

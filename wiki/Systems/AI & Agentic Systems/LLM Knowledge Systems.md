@@ -45,8 +45,8 @@ At small-to-medium scale, a well-maintained markdown wiki can act as practical a
 - [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]]
 - [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]
 - [[wiki/Workflows/Question Answering Against a Wiki|Question Answering Against a Wiki]]
-- [[wiki/Techniques/Context Engineering|Context Engineering]]
-- [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
 
 ## Sources

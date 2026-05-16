@@ -42,7 +42,7 @@ The mistake is to chase advanced cognitive upgrades while the foundation is unst
 ## Relationship To Other Pages
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] defines the map.
-- [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]] provides practice sequences.
+- [[wiki/Dimensions/Dimension Practice Tracks|Dimension Practice Tracks]] provides practice sequences.
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] chooses the next small upgrade.
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] converts attempts into learning.
 
@@ -71,11 +71,11 @@ Warning sign: dimension upgrading has become technique collecting when many new 
 ## Related Pages
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
-- [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
+- [[wiki/Dimensions/Dimension Practice Tracks|Dimension Practice Tracks]]
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 
 ## Open Questions
 

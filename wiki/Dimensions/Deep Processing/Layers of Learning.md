@@ -64,9 +64,9 @@ Order control — the deliberate choice of which resource to engage with and in 
 ## Related
 
 - [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]
-- [[wiki/Techniques/Shoot|Shoot]]
+- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]
 - [[wiki/Dimensions/Deep Processing/Schema|Schema]]
-- [[wiki/Concepts/Higher-Order Learning|Higher-Order Learning]]
+- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]

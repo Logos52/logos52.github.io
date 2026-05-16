@@ -42,7 +42,7 @@ Each report should include:
 
 ## Related Concepts
 
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
 - [[Raw to Wiki Compilation]]
 
 ## Sources
