@@ -544,3 +544,12 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Added [[wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]] to document the current multi-model workflow: Grok for high-level framing, Hermes/Aider for local execution and structural cleanup.
 - Strengthened [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]], [[wiki/Dimensions/Retrieval|Retrieval]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Self-Management|Self-Management]], and [[wiki/Dimensions/Mindset|Mindset]] so the hubs function more like diagnostic control surfaces.
 - Repaired many internal links left over from the `wiki/Techniques/` and broad `wiki/Concepts/` migration into `wiki/Dimensions/`, `wiki/Systems/`, and `wiki/Domains/`.
+
+## [2026-05-17] develop | Agent workflow, 30-day challenges, and session memory
+
+- Added [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] to document Grok, Hermes 3, Ollama, Aider, and the current local/remote division of labor.
+- Refined [[wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]] around Hermes as the local agent and Grok as the high-level reasoning layer.
+- Expanded [[AGENTS]] with model-specific guidance, Hermes access boundaries, and the `raw/sessions/` session-summary habit for reviewable agent memory.
+- Added [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] plus dimension-specific challenge pages for Mindset, Self-Management, Self-Regulation, Deep Processing, and Retrieval.
+- Refined [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] around learning assets and the understand / remember / apply / perform model.
+- Added new clippings for future processing: Hermes Agent Masterclass, How to Build Your Second Brain, and the r0b0tlab filesystem-first LLM-wiki / Obsidian / Hermes memory system.
