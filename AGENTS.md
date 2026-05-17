@@ -28,7 +28,7 @@ Raw sources are the source of truth. They may include articles, transcripts, pap
 
 Current raw-source locations:
 
-- `raw/`
+- `raw/` (including `raw/private/` for human-only sources and `raw/sessions/` for agent activity)
 - `Clippings/`
 
 Rules:
@@ -58,6 +58,94 @@ The human mostly reads the wiki and gives direction.
 `AGENTS.md` is the operating schema for the LLM. Update it when the workflow changes.
 
 `notes/index.md` and `log.md` are special navigation/history files and must be maintained as part of normal work.
+
+## Working With Different Models
+
+We currently use two models in a hybrid setup: Grok (remote) and Hermes 3 (local via Ollama). They have different strengths, so instructions should be adapted depending on which model is active.
+
+### Grok (Remote)
+- Strong at high-level reasoning, system design, and maintaining conceptual coherence.
+- Good at synthesizing new ideas and writing in the desired operating tone.
+- Can handle more abstract or philosophical instructions.
+- Best used for:
+  - Designing or refining frameworks (e.g. the Five Dimensions)
+  - Writing new synthesis pages
+  - High-level audits and structural recommendations
+  - Maintaining overall tone and philosophical consistency
+
+### Hermes 3 (Local via Ollama)
+- Runs locally and has direct access to the filesystem.
+- Weaker at deep reasoning and long-range conceptual work (especially the 8B version).
+- More literal and benefits from explicit, detailed instructions.
+- Best used for:
+  - Direct file editing and implementation
+  - Auditing pages for consistency, links, and structure
+  - Mechanical or execution-heavy tasks
+
+**When using Hermes, follow these rules:**
+- Be highly explicit. Do not assume it will infer intent.
+- Prefer small, reviewable changes over large refactors.
+- Show proposed changes before applying them when editing existing pages.
+- Ask for confirmation before making structural changes (new pages, major reorganizations, etc.).
+- Draw heavily from the private/ICS material as a source of truth when synthesizing or improving content. However, **never cite or reference the private sources directly** in any public-facing pages.
+- If a task requires strong conceptual synthesis or high-level framing, escalate it to Grok instead.
+
+**General rule of thumb:**  
+Use **Grok** for thinking and design.  
+Use **Hermes** for execution and direct work on the files.
+
+### Session Summary Habit (Level 2 Ingestion)
+
+After any substantial work session — especially when Hermes has proposed or made edits to `wiki/`, performed taxonomy work, synthesized new content, or advanced 30-day challenge material — Hermes must follow this post-work routine:
+
+1. Create a new structured session summary in `raw/sessions/`.
+2. Use the template at `raw/sessions/templates/session-summary.md` as the starting point (copy it and fill in the details).
+3. Name the file meaningfully, e.g. `2026-05-20-30-day-challenges-retrieval-work.md` or `2026-05-20-taxonomy-audit.md`.
+4. Fill out the sections honestly, especially:
+   - Decisions Made
+   - Failures / Issues Encountered
+   - Proposed Wiki Changes
+   - Insights & Material for Promotion (this is the most important for long-term value)
+   - Open Loops / Follow-ups
+5. Stage the completed summary (and any proposed `wiki/` diffs) together for human review.
+6. Do **not** apply the summary or any `wiki/` changes until the user explicitly approves.
+
+This habit turns Hermes activity into reviewable raw material that can later be mined for promotion (see Recommendation 2 patterns). It is a core part of safe Level 2 operation.
+
+The goal is not perfection on the first try — the goal is consistent production of structured, reviewable session artifacts.
+
+## Hermes Access Boundaries (Security Model)
+
+As Hermes takes on more autonomy (Level 2: propose + implement with approval, and future Level 3), strict read/write boundaries are required. The agent is never given unrestricted write access to the entire repository.
+
+### Read Rules
+- Hermes has unrestricted read access to the entire `wiki/` directory (required to understand current state and make coherent edits).
+- Hermes may read specific files under `raw/private/` **only when the user explicitly provides the file path or pastes the relevant excerpt** for a given task.
+- Hermes must **not** autonomously scan, list, or read arbitrary content from `raw/private/` (or any private user data) without explicit user direction.
+- This preserves the existing practice where the human first reviews private ICS material and then feeds synthesized context or instructions to the agent.
+
+### Write Rules
+- **Primary write target**: `wiki/` — all durable public content changes must target this directory.
+- **Agent activity write target**: `raw/sessions/` — Hermes is explicitly permitted (and encouraged) to write raw session logs, full transcripts, proposed diffs/patches, and operational traces here. Everything in this folder is treated as untrusted/raw evidence.
+- Hermes must **never** write to:
+  - The repository root
+  - `raw/` outside of `sessions/`
+  - `raw/private/`
+  - `Clippings/`
+  - `outputs/`
+  - Any dot-directories or configuration files
+  - Without explicit user approval for the specific location.
+
+### Level 2+ Workflow Requirements
+- At Level 2, every proposed edit to `wiki/` must be shown to the user (as a diff or clear description) and receive explicit approval before Hermes executes the write.
+- After substantial work, Hermes must create a structured session summary in `raw/sessions/` using the template (see "Session Summary Habit" above) and present it together with any `wiki/` proposals for review.
+- Proposed changes to `wiki/` should be staged in `raw/sessions/` first whenever practical, so the raw proposal remains reviewable even after the change is applied.
+- Secret scanning and private-data leakage checks are required before any `wiki/` write (at minimum: no API keys, no raw private paths, no direct references to `raw/private/` content in public pages).
+
+### Rationale
+These boundaries are directly adapted from proven patterns in other agent-maintained wikis (raw/untrusted agent output stays isolated from promoted public content; writes are narrowly scoped; private sources are human-gated).
+
+The goal is to make higher autonomy safe rather than to restrict Hermes unnecessarily.
 
 ## Special Files
 

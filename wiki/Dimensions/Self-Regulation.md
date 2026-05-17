@@ -2,9 +2,9 @@
 type: dimension
 status: developing
 created: 2026-05-04
-updated: 2026-05-16
+updated: 2026-05-20
 source-count: 4
-last-audited: 2026-05-16
+last-audited: 2026-05-20
 tags:
   - learning
   - dimensions
@@ -73,6 +73,7 @@ This loop is what lets you become less dependent on perfect conditions or perfec
   When neglected, techniques are applied without awareness of their actual effects, leading to repeated ineffective patterns.
 - **[[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]** — A meta-principle that emphasizes evaluating whether a technique is actually producing the intended quality of thinking.  
   When neglected, learners optimise for the appearance of learning rather than its actual cognitive output.
+- **[[wiki/Dimensions/30-Day Challenges/Self-Regulation|30-Day Challenge – Self-Regulation]]** — Practical 4-week challenge focused on building real-time monitoring and adjustment skills.
 
 ---
 
@@ -86,18 +87,21 @@ These patterns come directly from how poor self-regulation shows up in practice:
 - **Inconsistent or reactive adjustment** — Only making changes when problems become obvious, rather than monitoring and refining proactively.
 - **Poor transfer across contexts** — Strategies that work in one type of learning or environment fail when the demands change.
 
+---
+
 ## Relationship to Other Dimensions
 
 - **Self-Management**: Self-Management creates the external conditions (habits, time, environment). Self-Regulation is what lets you actually use those conditions effectively in the moment. Weak Self-Regulation turns good systems into unused potential.
 - **Deep Processing**: Self-Regulation decides whether high-quality encoding actually happens or whether you default to shallow processing when friction or fatigue appears. Without it, even strong Deep Processing techniques get abandoned.
 - **Mindset**: A fixed mindset makes honest monitoring and adjustment psychologically costly, while a growth mindset makes the discomfort of noticing problems feel worthwhile.
 - **Retrieval**: Self-Regulation determines whether you treat failed retrieval as diagnostic data (and adjust) or as a signal to give up or switch to easier methods.
+- Self-Regulation plays a central role in **Locking In Learning Assets**. The ability to monitor performance in real time and make adjustments during practice is what moves a technique from “understood” to “reliably usable under pressure.” See [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] for the full framework.
 
 ---
 
 ## Why Self-Regulation Matters
 
-Strong Self-Regulation lets you keep the other dimensions working when conditions are imperfect — which is most of the time. It turns good techniques and systems into reliable performance instead of fair-weather tools.
+Self-Regulation is what keeps the other dimensions working under real-world (imperfect) conditions. It turns good techniques and systems into consistent performance rather than fair-weather tools.
 
 Weak Self-Regulation makes everything else fragile: even excellent Deep Processing, Retrieval, and Self-Management collapse the moment motivation dips, fatigue builds, or the material gets harder.
 
@@ -107,5 +111,7 @@ Weak Self-Regulation makes everything else fragile: even excellent Deep Processi
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
+- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] (hub)
+- [[wiki/Dimensions/30-Day Challenges/Self-Regulation|30-Day Challenge – Self-Regulation]]
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking]] (professionalized form of self-regulation for decisions)
 ```

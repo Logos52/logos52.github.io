@@ -4,7 +4,7 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-05-16
+updated: 2026-05-17
 tags:
   - system
 ---
@@ -12,6 +12,64 @@ tags:
 # Journal Calendar
 
 A lightweight chronological index for public journal entries and thinking-log updates. This is manually maintained so it works the same way in Obsidian and on the website.
+
+## 2026-05-17
+
+Expanded the agentic engineering layer and made the local-agent workflow more explicit.
+
+The important shift:
+
+```text
+one model as assistant
+-> Hermes as local agent
+-> Grok as high-level reasoning layer
+-> AGENTS as operating contract
+-> raw/sessions as reviewable agent memory
+```
+
+Added [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] to document the actual working stack: Grok for higher-level synthesis and system design, Hermes 3 through Ollama/Aider for local file work, and `AGENTS.md` as the main operating contract. Refined [[wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]] so the workflow is less about comparing models and more about assigning them to the right layer of work.
+
+Updated [[AGENTS|AGENTS]] with model-specific guidance:
+
+- Grok handles conceptual framing, synthesis, and system-level coherence.
+- Hermes handles local implementation, audit work, link hygiene, and small reviewable edits.
+- Hermes should use explicit instructions, narrow write targets, and session summaries.
+- `raw/sessions/` becomes the place for raw agent activity, proposals, and post-work memory before promotion into the public wiki.
+
+This matters because the knowledge base is no longer only a collection of pages. It is becoming a human-plus-agent operating environment. The safer version of that environment needs boundaries: private source access stays human-gated, public wiki writes stay reviewable, and raw agent work gets captured before being promoted.
+
+Added [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] as a practical layer over the Five Dimensions.
+
+The section now has one challenge page for each dimension:
+
+- [[wiki/Dimensions/30-Day Challenges/Mindset|Mindset]]
+- [[wiki/Dimensions/30-Day Challenges/Self-Management|Self-Management]]
+- [[wiki/Dimensions/30-Day Challenges/Self-Regulation|Self-Regulation]]
+- [[wiki/Dimensions/30-Day Challenges/Deep Processing|Deep Processing]]
+- [[wiki/Dimensions/30-Day Challenges/Retrieval|Retrieval]]
+
+The useful frame: each challenge turns a dimension from a diagnostic category into a four-week practice arc. Mindset tracks evidence of improvement, Self-Management audits systems and lowers friction, Self-Regulation builds real-time monitoring, Deep Processing pushes past recognition into relationships and explanation, and Retrieval uses recall as both memory strengthening and diagnosis.
+
+Continued refining [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]].
+
+The page now makes the learning-asset model more explicit:
+
+```text
+understand
+-> remember
+-> apply
+-> perform consistently under pressure
+```
+
+This connects the Five Dimensions to the practical question of whether a technique has actually become part of the system. A technique is not locked in because it sounds correct. It is locked in when it can be reconstructed, used in real conditions, and adapted when the situation changes.
+
+Added fresh clippings for future processing:
+
+- Hermes Agent Masterclass
+- How to Build Your Second Brain
+- r0b0tlab filesystem-first LLM-Wiki + Obsidian + Hermes memory system
+
+These sources point toward a possible next phase: local agent memory, filesystem-first wiki tooling, secret scanning, search/index layers, and safer promotion from raw agent work into durable public notes.
 
 ## 2026-05-16
 

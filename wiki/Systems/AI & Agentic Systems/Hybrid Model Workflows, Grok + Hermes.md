@@ -14,44 +14,61 @@ tags:
 
 # Hybrid Model Workflows, Grok + Hermes
 
-As my work on the `llm-knowledge-base` has grown in scope and complexity, I’ve started using **Grok and Hermes together** in a deliberate way rather than choosing one or the other.
+As my work on the `llm-knowledge-base` has grown, I’ve been shifting toward using **Hermes** (the agent) as the primary actor for working on the knowledge base, while still using Grok for higher-level reasoning when needed.
 
-### Why Use Multiple Models?
+### Core Idea
 
-Grok and Hermes have different strengths. Instead of trying to find a single model that does everything well, I’ve found it more effective to assign different kinds of work to the model best suited for it.
+I’m treating **Hermes as the agent** and giving it the ability to use different models and tools depending on the task. This setup supports the longer-term goal of gradually increasing Hermes’ autonomy.
 
 ### Current Division of Labor
 
-| Task Type                                      | Preferred Model          | Reason |
-|-----------------------------------------------|--------------------------|--------|
-| High-level framing & philosophy               | Grok                     | Stronger at big-picture thinking and maintaining a consistent operating tone across the system |
-| Writing new synthesis pages                   | Either                   | Depends on how much context is needed |
-| Auditing and improving existing hubs          | Hermes (via Aider)       | Can read the actual files directly and make precise edits |
-| Link hygiene, taxonomy, and consistency work  | Hermes                   | Fast, local, and low-friction for repetitive structural tasks |
-| Integrating new concepts (e.g. Lock in Learning Assets) | Grok (first) then Hermes | Grok for conceptual synthesis, Hermes for implementation into the wiki |
-| Running experiments across the whole system   | Hermes                   | Full local repo access with no context limits |
-| Deep diagnostic work on the Five Dimensions   | Grok                     | Better at maintaining the "learning engineer" framing across multiple pages |
+| Task Type                                      | Primary Actor     | Model / Tool                  | Notes |
+|-----------------------------------------------|-------------------|-------------------------------|-------|
+| High-level framing & philosophy               | Hermes (with Grok)| Grok                          | Hermes can delegate complex reasoning to Grok |
+| Writing new synthesis pages                   | Hermes            | Grok or Hermes 3              | Depends on complexity |
+| Auditing and improving existing hubs          | Hermes            | Hermes 3 (local)              | Primary execution work |
+| Integrating new concepts                      | Hermes            | Grok (planning) + Hermes 3    | Hybrid within the same workflow |
+| Link hygiene, taxonomy, consistency work      | Hermes            | Hermes 3 (local)              | Fast, local, low-risk tasks |
+| Running experiments across the system         | Hermes            | Hermes 3 (local)              | Full local repo access |
+| Deep diagnostic or philosophical work         | Hermes            | Grok                          | When stronger reasoning is required |
 
-### Why This Hybrid Approach Works
+### Why This Approach
 
-- **Grok** excels at the *design* layer — helping define what the system *should* look like and maintaining conceptual coherence.
-- **Hermes** (running locally via Aider) excels at the *execution* layer — directly reading and modifying files in the knowledge base with good tool use and low latency.
-- Using Hermes locally also gives me the ability to work with private material (ICS clippings, raw notes, etc.) without sending it to a remote model.
+- **Hermes** is the persistent agent. It can maintain long-term context about the knowledge base and gradually take on more independent work.
+- **Grok** is used as a high-quality reasoning tool that Hermes (or I) can call when needed.
+- **Hermes 3 (local)** is used for most execution work and anything involving private material. File editing tools can be invoked by Hermes when needed.
 
-### Current Setup
+This structure supports the direction of starting with propose-and-review workflows and gradually increasing Hermes’ autonomy over time.
 
-- **Hermes 3** (via Ollama) + **Aider** as the primary interface for working inside the repo.
-- **Grok** used for higher-level planning, tone calibration, and complex synthesis work.
-- The two are used in a back-and-forth workflow rather than in parallel.
+### Current Setup (as of May 2026)
+
+- Hermes (the agent tool) is the main interface.
+- It can call Grok via API when deeper reasoning is required.
+- It can use the local `hermes3:8b` model via Ollama for most execution work.
+- File editing tools are available when direct changes are needed.
+- All work is currently in a controlled “propose and review” mode, with the intention of increasing Hermes’ independence as the system matures.
 
 ### Open Questions
 
-- How much context about the Five Dimensions and overall philosophy does Hermes need to be effective?
-- Are there specific workflows (e.g. reviewing a hub against the Lock in Learning Assets concept) that work particularly well with one model over the other?
-- Will this hybrid approach scale as the knowledge base grows, or will I eventually need a more sophisticated agent orchestration layer?
+- How much persistent memory and context does Hermes need before it can reliably handle larger autonomous tasks?
+- How should Hermes decide when to use Grok versus the local model for a given subtask?
+
+### Current Guardrails (as of May 2026)
+
+Strict read/write boundaries are now defined in [[AGENTS.md#hermes-access-boundaries-security-model|AGENTS.md → Hermes Access Boundaries]]:
+
+- Hermes may read `wiki/` freely and read specific private files only when explicitly directed by the user.
+- All durable content changes target `wiki/`.
+- Raw agent activity (transcripts, proposed diffs, logs) is written to `raw/sessions/`.
+- After substantial work, Hermes must create a structured session summary using the template in `raw/sessions/templates/session-summary.md` and present it for review (see AGENTS.md "Session Summary Habit").
+- Level 2 work requires explicit human approval on every `wiki/` edit.
+- Private material handling remains human-gated (no autonomous crawling of `raw/private/`).
+
+These boundaries are the foundation for safely increasing autonomy.
 
 ## Related Pages
 
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]]
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
+- [[Agentic Engineering|Agentic Engineering]]
+- [[How Top Performers Learn|How Top Performers Learn]]
+- [[Current Agentic LLM Stack|Current Agentic LLM Stack]]
+- [[Dimensions of Learning|Dimensions of Learning]]

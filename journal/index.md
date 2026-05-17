@@ -4,7 +4,7 @@ description: "Current questions, active threads, and public thinking log."
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-05-16
+updated: 2026-05-17
 tags:
   - system
 ---
@@ -79,6 +79,9 @@ These are blank public shells for private Obsidian workflows. The templates can 
 
 ## Recent Log
 
+- [[journal/calendar#2026-05-17|2026-05-17]]: Expanded the agentic side of the knowledge base. Added [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]], refined [[wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]], and updated [[AGENTS|AGENTS]] with model-specific guidance for Grok vs Hermes, local-agent access boundaries, and the `raw/sessions/` session-summary habit. The operating question is shifting from “which model is best?” to “which model should own which layer of the workflow?”
+- [[journal/calendar#2026-05-17|2026-05-17]]: Added the [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] section across the five learning dimensions: Mindset, Self-Management, Self-Regulation, Deep Processing, and Retrieval. The challenges make each dimension practiceable instead of purely descriptive: four weekly arcs that turn the dimension model into concrete experiments.
+- [[journal/calendar#2026-05-17|2026-05-17]]: Continued refining [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] around learning assets and the Five Dimensions. The page now connects technique mastery to four requirements: understand, remember, apply, and perform consistently under pressure.
 - [[journal/calendar#2026-05-16|2026-05-16]]: Refined the post-restructure wiki around learning-system architecture. The five learning dimensions now read more like diagnostic control surfaces, with clearer failure modes and supporting techniques for Deep Processing, Retrieval, Mindset, Self-Management, and Self-Regulation. Added [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] as the bridge between top-performer learning, learning assets, and the Five Dimensions.
 - [[journal/calendar#2026-05-16|2026-05-16]]: Added [[wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]] to document the current multi-model workflow: Grok for high-level framing and coherence, Hermes/Aider for local file execution, link hygiene, and structural cleanup. This makes the agent workflow itself part of the knowledge-base architecture instead of just an invisible work habit.
 - [[journal/calendar#2026-05-16|2026-05-16]]: Restructured the knowledge base around the actual operating model instead of the old generic buckets. Study pages moved out of the flat Techniques/Concepts sprawl and into [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]: Deep Processing, Retrieval, Mindset, Self-Management, and Self-Regulation. AI and tooling pages moved into Systems, while the public navigation stayed cleaner and less overloaded. This makes the site feel more like a working system: dimensions as control surfaces, systems as domains of practice, and outputs as the staging layer before durable wiki integration.

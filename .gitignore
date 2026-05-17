@@ -54,3 +54,4 @@ __pycache__/
 # Quartz build output and caches
 public/
 .quartz-cache/
+.aider*

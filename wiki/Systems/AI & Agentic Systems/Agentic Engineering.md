@@ -177,7 +177,7 @@ This is Karpathy's "you can outsource thinking but not understanding" point. The
 
 ## Hybrid Model Workflows
 
-When working on complex, long-term knowledge work, using multiple models in a deliberate way can be more effective than relying on a single model. See [[wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]] for how Grok and Hermes are currently combined for this vault — one for high-level reasoning and the other for direct file work and execution.
+When working on complex, long-term knowledge work, using multiple models in a deliberate way can be more effective than relying on a single model. See [[Current Agentic LLM Stack|Current Agentic LLM Stack]] for the current models, tools, and workflow patterns being used on this vault.
 
 ## Related Pages
 
