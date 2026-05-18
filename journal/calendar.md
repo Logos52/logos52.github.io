@@ -411,3 +411,11 @@ The first version established the basic pattern:
 - Quartz as the public static website;
 - GitHub Pages as the deployment target;
 - an initial landing-page template, system tags, graph filtering, and Node 24 build configuration.
+
+## 2026-05-18
+
+Ran full evolution cycle on the `l3-to-l2-voice-converter` skill. Generated and evaluated 4 prompt variants, selected Variant D (stronger feedback integration + Internal Check step), and applied it as v0.5.
+
+Cleaned up the skill by removing the Python diff-capture helper to keep everything pure Hermes/Grok. Updated `converter.md`, `SKILL.md`, and created journal entry + calendar update.
+
+Key outcome: The converter now has a mandatory internal check against `style-feedback.md` before rewriting, making manual L2 edits more effective at training the automation.

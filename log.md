@@ -553,3 +553,10 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Added [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] plus dimension-specific challenge pages for Mindset, Self-Management, Self-Regulation, Deep Processing, and Retrieval.
 - Refined [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] around learning assets and the understand / remember / apply / perform model.
 - Added new clippings for future processing: Hermes Agent Masterclass, How to Build Your Second Brain, and the r0b0tlab filesystem-first LLM-wiki / Obsidian / Hermes memory system.
+
+## [2026-05-18] maintenance | L3→L2 skill evolution + cleanup
+
+- Ran full evolution cycle on l3-to-l2-voice-converter (4 variants evaluated).
+- Applied Variant D as active prompt (v0.5).
+- Removed Python helper script to keep skill pure.
+- Created journal entry and updated calendar.
