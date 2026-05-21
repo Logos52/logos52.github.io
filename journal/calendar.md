@@ -416,7 +416,7 @@ The first version tracks three things:
 
 - running questions about focus, active interests, and what belongs in public;
 - active knowledge-base threads such as [[wiki/Syntheses/ICS System|ICS System]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]], [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]], and [[wiki/Red Team/Red Teaming|Red Teaming]];
-- possible blog posts, especially **Emacs to Obsidian** and **How I Built This**.
+- possible blog posts, especially **Emacs to Obsidian** and **Notes as Infrastructure**.
 
 The Journal is not a task manager. It is the public surface for questions, active threads, and writing candidates.
 
