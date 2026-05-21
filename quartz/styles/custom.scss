@@ -74,6 +74,12 @@ article {
   font-size: 1.08rem;
 }
 
+article p,
+article li {
+  line-height: 1.75;
+  letter-spacing: 0.012em;
+}
+
 body[data-slug="index"] #quartz-body > .left.sidebar,
 body[data-slug="index"] #quartz-body > .right.sidebar,
 body[data-slug="about"] #quartz-body > .left.sidebar,
