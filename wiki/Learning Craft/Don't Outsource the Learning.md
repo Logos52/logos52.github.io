@@ -168,4 +168,4 @@ Warning signs:
 
 ## Sources
 
-- [[Clippings/Don't Outsource the Learning|Don't Outsource the Learning]] — May 2026.
+- Source clipping: Don't Outsource the Learning, May 2026.

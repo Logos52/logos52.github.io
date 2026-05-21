@@ -17,8 +17,8 @@ This directory contains the daily driver and recommended lightweight evolutionar
 
 All L3 drafts and L2 polished results belong in:
 
-- `outputs/L3/` — Raw agent first-pass synthesis (date-prefixed `...-L3.md` files). See its README.
-- `outputs/L2/` — Voice-converted, high-signal versions after converter or light evolution ( `...-L2.md` ). See its README.
+- `outputs/L3/{GPT,Grok,Opus,Hermes}/` — Model first-pass synthesis. Sonnet drafts are folded into `Opus/`. See the L3 README.
+- `outputs/L2/{ready,revise,processed}/` — Curated synthesis after converter, light evolution, or human comparison. See the L2 README.
 
 Never write L3/L2 material to old locations (`L2-drafts/`, `outputs/syntheses/`, etc.). The light skill and converter default to the correct tiers. L2 files are the staging area before human promotion to `wiki/` (L1).
 

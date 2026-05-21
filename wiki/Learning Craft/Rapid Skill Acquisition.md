@@ -71,8 +71,8 @@ The instinct when progress stalls is usually to add more: more techniques, more 
 
 ## Sources
 
-- [[Grok - How to Learn Any Skill So Fast It Feels Illegal|Grok - How to Learn Any Skill So Fast It Feels Illegal]] — outputs/briefs/processed
-- [[Clippings/How To Learn Any Skill So Fast It Feels Illegal|How To Learn Any Skill So Fast It Feels Illegal]] — Justin Sung, May 2024.
+- Grok synthesis: How to Learn Any Skill So Fast It Feels Illegal.
+- Source clipping: How To Learn Any Skill So Fast It Feels Illegal, May 2024.
 ## Calculating the Rate of Skill Acquisition
 
 Skill acquisition rate can be expressed as:

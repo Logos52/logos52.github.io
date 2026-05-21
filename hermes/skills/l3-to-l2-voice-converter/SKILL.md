@@ -18,8 +18,8 @@ Common triggers:
 - A file or text containing L3 material (session summary, agent draft, maintenance report, etc.)
 
 ## Outputs
-- L3 drafts written to `outputs/L3/`
-- L2 (voice-polished) versions written to `outputs/L2/`
+- L3 drafts written to `outputs/L3/{GPT,Grok,Opus,Hermes}/`
+- L2 voice-polished versions written to `outputs/L2/{ready,revise,processed}/`
 
 ## Invocation
 
@@ -39,7 +39,7 @@ l3-to-l2 path/to/l3-file.md
 1. Takes the L3 input.
 2. Runs it through the current L3 → L2 voice converter logic (incorporating rules from style-feedback.md).
 3. Produces a cleaned, higher-signal version that follows the project's Writing Standards.
-4. Writes L3 output to `outputs/L3/` and the polished L2 result to `outputs/L2/` (following the standard tiered structure).
+4. Writes L3 output to the appropriate model folder under `outputs/L3/` and the polished L2 result to the appropriate lifecycle folder under `outputs/L2/`.
 
 ## Feedback Loop (Manual L2 edits → Improved L3→L2)
 After you manually edit from L2 into the final wiki location, append any voice or signal improvements to `references/style-feedback.md`.
@@ -51,7 +51,7 @@ For day-to-day improvements to the converter itself or for polishing batches of 
 
 - Location: `light-voice-evolution/SKILL.md` (sibling to this file)
 - Invocation: "Run light voice evolution", "Run light voice evolution on the last few maintenance reports", "Suggest voice updates for the L3 to L2 converter", or "Polish this L3 file into L2 using light voice evolution"
-- Behavior: Flexible scan of `style-feedback.md` + recent real L3 (from `raw/sessions/`) + optional test cases. Produces the most useful output for you (revised converter logic, targeted edits, observations, or ready-to-use L2 drafts). Writes any applied artifacts to the correct `outputs/L3/` or `outputs/L2/` using date-prefixed naming.
+- Behavior: Flexible scan of `style-feedback.md` + recent real L3 (from `raw/sessions/`) + optional test cases. Produces the most useful output for you (revised converter logic, targeted edits, observations, or ready-to-use L2 drafts). Writes any applied artifacts to the correct `outputs/L3/{GPT,Grok,Opus,Hermes}/` or `outputs/L2/{ready,revise,processed}/` folder using clear filenames.
 - On apply: appends **one short line** to `references/voice-changelog.md` (zero-ceremony audit trail).
 
 This is the primary, low-friction path going forward. It keeps the daily experience natural while still allowing genuine evolutionary improvement based on your real usage and feedback.
@@ -68,14 +68,14 @@ When working on the `kb-synthesis` board, see `kanban-integration.md` for how to
 - Style Feedback Log: `references/style-feedback.md` (living record of manual L2 edits)
 - Light Voice Evolution (recommended daily path): `light-voice-evolution/SKILL.md`
 - Voice Changelog (light-mode one-line audit): `references/voice-changelog.md`
-- Tiered outputs: `outputs/L3/` and `outputs/L2/` (with READMEs explaining naming and workflow)
+- Tiered outputs: `outputs/L3/{GPT,Grok,Opus,Hermes}/` and `outputs/L2/{ready,revise,processed}/` (with READMEs explaining naming and workflow)
 
 ## Notes
 - This skill stays pure Hermes/Grok — no external scripts.
 - Supports Kanban operation on the `kb-synthesis` board.
 - **Recommended path for evolving the converter voice:** Use the sibling `light-voice-evolution` skill ("Run light voice evolution"). See the dedicated "Evolving the Voice Converter (Recommended: Light Path)" section above and `light-voice-evolution/SKILL.md`. It is lighter, flexible, and the normal daily tool.
 - The full heavy evolutionary system (`../evolution/`) with multi-variant generation, strict rubric scoring, and rich history remains available for deep experiments. See `../evolution/README.md` (now labeled as the advanced path).
-- L3 and L2 outputs are placed in `outputs/L3/` and `outputs/L2/` respectively so you can review before promoting anything to `wiki/` (L1).
+- L3 and L2 outputs are placed in the tiered `outputs/L3/` and `outputs/L2/` folders so you can review before promoting anything to `wiki/` (L1).
 
 ## Version
 v0.6+ (auto-versioned on each successful apply-update; the live genome header in converter.md carries the exact <!-- Version: ... --> comment after the first apply-update and thereafter)

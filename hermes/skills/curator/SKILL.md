@@ -5,7 +5,7 @@ Lightweight Hermes skill stub for driving L3 agent artifacts (especially mainten
 
 ## When to Use
 - After the Python maintenance tool produces new L3 reports in raw/sessions/.
-- To batch-convert recent L3 material to `outputs/L2/` (using the live l3-to-l2-voice-converter or the recommended light-voice-evolution skill).
+- To batch-convert recent L3 material to `outputs/L2/ready/` or `outputs/L2/revise/` using the live l3-to-l2-voice-converter or the recommended light-voice-evolution skill.
 - To surface high-signal items for human L2→L1 review and collect concrete style feedback.
 - (Future) As a single entrypoint that chains maintenance → l3-to-l2 → optional evolution trigger → log updates.
 
@@ -14,7 +14,7 @@ Lightweight Hermes skill stub for driving L3 agent artifacts (especially mainten
 - Optional: instructions for focus during conversion or promotion proposals.
 
 ## Outputs
-- Polished L2 artifacts written to the canonical `outputs/L2/` (via delegation to l3-to-l2-voice-converter or the recommended `light-voice-evolution` skill; follows `YYYY-MM-DD-*-L2.md` naming).
+- Polished L2 artifacts written to the canonical `outputs/L2/{ready,revise,processed}/` lifecycle folders via delegation to l3-to-l2-voice-converter or the recommended `light-voice-evolution` skill.
 - Summary report of what was processed + recommended next actions (human review targets, feedback candidates).
 - (Future / Phase 6) Appends to log.md / journal/ and may suggest light voice evolution or heavy run-generation if warranted.
 - Reminders to append new voice rules to `style-feedback.md` after L2 → L1 (wiki) work.
@@ -32,7 +32,7 @@ Will support structured calls from kb-synthesis-orchestrator or evolution/run-ge
 ## How It Works (Current Stub / Planned Flow)
 1. Discover recent L3 files (maintenance reports, session summaries) not yet promoted.
 2. For each, invoke the l3-to-l2-voice-converter skill (passing the L3 content + any curator-specific instructions).
-3. Collect results in `outputs/L2/` (with provenance notes in filenames or frontmatter) following the established L3/L2 tier structure.
+3. Collect results in `outputs/L2/ready/` or `outputs/L2/revise/` with provenance notes in filenames or frontmatter.
 4. Produce a human-readable summary + explicit list of "ready for wiki review" items.
 5. Remind user to perform L2→L1 edits + append rules to style-feedback.md (which feeds both converter Internal Check and future evolution).
 6. (Post Tier 1) Optionally suggest or chain a run-generation to let real usage improve the converter.

@@ -37,14 +37,14 @@ def run_drift_detection(vault_path: Path) -> dict:
     return results
 
 
-def scan_unprocessed_clippings(vault_path: Path) -> dict:
-    """Scan the root Clippings/ folder as L4 unprocessed material."""
-    clippings_path = vault_path / "Clippings"
+def scan_unprocessed_inbox(vault_path: Path) -> dict:
+    """Scan raw/inbox/ as L4 unprocessed material."""
+    inbox_path = vault_path / "raw" / "inbox"
 
-    if not clippings_path.exists():
+    if not inbox_path.exists():
         return {"count": 0, "recent": []}
 
-    files = list(clippings_path.glob("*.md"))
+    files = list(inbox_path.glob("*.md"))
     recent = sorted(files, key=lambda f: f.stat().st_mtime, reverse=True)[:8]
 
     return {
@@ -96,10 +96,10 @@ def generate_report(vault_path: Path, drift_results: dict, unprocessed: dict) ->
         lines.append("_No drift detected since last maintenance run._")
         lines.append("")
 
-    # Unprocessed Clippings (L4) section
-    lines.append("## Unprocessed Clippings (L4)")
+    # Unprocessed inbox (L4) section
+    lines.append("## Unprocessed Inbox (L4)")
     lines.append("")
-    lines.append(f"- **Total files in Clippings/**: {unprocessed.get('count', 0)}")
+    lines.append(f"- **Total files in raw/inbox/**: {unprocessed.get('count', 0)}")
     lines.append("")
 
     if unprocessed.get("recent"):
@@ -136,7 +136,7 @@ def main():
     print(f"Vault: {vault_path}\n")
 
     drift_results = run_drift_detection(vault_path)
-    unprocessed = scan_unprocessed_clippings(vault_path)
+    unprocessed = scan_unprocessed_inbox(vault_path)
     report_path = generate_report(vault_path, drift_results, unprocessed)
 
     print(f"\nReport written to: {report_path}")

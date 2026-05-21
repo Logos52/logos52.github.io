@@ -59,12 +59,11 @@ After any L2 → L1 promotion, append concrete voice refinements (with before/af
 
 ## Main Areas
 
-- Sources: `raw/sources`, `raw/papers`, `raw/repos`, `raw/datasets`, `raw/assets`, `raw/images`
-- Clipper inbox: `Clippings`
+- Sources: `raw/inbox`, `raw/sources`, `raw/processed`, `raw/papers`, `raw/repos`, `raw/datasets`, `raw/assets`, `raw/images`
 - Wiki: `wiki/Concepts`, `wiki/Dimensions`, `wiki/Techniques`, `wiki/Syntheses`, `wiki/Workflows`, `wiki/Self Management`, `wiki/Decision Making`, `wiki/Language`, `wiki/Resources`
 - Red Teaming: `wiki/Red Team`
 - Books: `wiki/Books`
-- Outputs: `outputs/answers`, `outputs/briefs`, `outputs/diagrams`, `outputs/slides`, `outputs/audits`, plus the synthesis tiers `outputs/L3/` (agent first-pass) and `outputs/L2/` (voice-polished L3 → L2 results via the converter / light-voice-evolution skill; see their READMEs and `hermes/skills/l3-to-l2-voice-converter/`)
+- Outputs: `outputs/answers`, `outputs/diagrams`, `outputs/slides`, `outputs/audits`, plus the synthesis tiers `outputs/L3/{GPT,Grok,Opus,Hermes}/` and `outputs/L2/{ready,revise,processed}/`
 - Templates: `templates`
 - Tools: `tools`
 

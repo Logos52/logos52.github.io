@@ -337,5 +337,5 @@ Warning signs:
 
 ## Sources
 
-- [[Clippings/How Social Media Shortens Your Life|How Social Media Shortens Your Life]].
+- Source clipping: How Social Media Shortens Your Life.
 - Supporting attention, focus, flow, recovery, and decisional-delay material synthesized in original language.

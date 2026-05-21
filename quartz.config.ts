@@ -34,7 +34,6 @@ const config: QuartzConfig = {
       "00 Command Center/**",
       "raw/**",
       "private/Skills/**",
-      "Clippings/**",
       "outputs/**",
       "templates/**",
       "tools/**",

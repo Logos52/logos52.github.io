@@ -23,12 +23,19 @@ raw/**
 !raw/datasets/.gitkeep
 !raw/images/
 !raw/images/.gitkeep
+!raw/inbox/
+!raw/inbox/.gitkeep
 !raw/papers/
 !raw/papers/.gitkeep
+!raw/processed/
+!raw/processed/.gitkeep
 !raw/repos/
 !raw/repos/.gitkeep
 !raw/sources/
 !raw/sources/.gitkeep
+
+# Legacy clipper inbox. Use raw/inbox/ instead.
+Clippings/
 
 # Private working pages stay local.
 private/**

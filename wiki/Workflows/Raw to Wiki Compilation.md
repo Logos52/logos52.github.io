@@ -17,7 +17,7 @@ Source material becomes more valuable when it is turned into durable, linked, ci
 
 ## Workflow
 
-1. Add source material or source notes under `raw/` or `Clippings/`.
+1. Add source material or source notes under `raw/inbox/`, `raw/sources/`, or `raw/private/` when explicitly approved.
 2. Read [[notes/index|notes/index.md]], [[raw/Source Index|Source Index]], and recent [[log|log.md]] entries.
 3. Extract metadata: title, author, URL, date, license, topic, and status.
 4. Add or update the source row in [[raw/Source Index|Source Index]].

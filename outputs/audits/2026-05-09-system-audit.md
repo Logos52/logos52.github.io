@@ -23,7 +23,7 @@ System-wide architectural audit of the LLM Knowledge Base, covering both the Obs
 
 - **Empty wiki folders.** `wiki/Models/`, `wiki/Papers/`, `wiki/People/`, `wiki/Tools/` contained zero markdown. Pure ceremony in Obsidian's file tree. **Resolved this audit:** deleted.
 - **Multiple index/home files.** `index.md` (public landing), `notes/index.md` (public catalog), `00 Command Center/Home.md` (Obsidian-only dashboard), `00 Command Center/Index.md` (Obsidian-only flat list). The Command Center Index duplicates `notes/index.md`. **Recommendation:** delete `Command Center/Index.md`, expand `Home.md` with system-pages and templates sections.
-- **`outputs/` and `Clippings/` were both empty scaffolding.** User keeps Clippings (used as a manual web-clip inbox before moving to raw/). Outputs adopted as a "loose" workflow for non-wiki-shaped artifacts (audits, briefs, diagrams, slides).
+- **`outputs/` and `raw/inbox/` were both empty scaffolding.** User keeps Clippings (used as a manual web-clip inbox before moving to raw/). Outputs adopted as a "loose" workflow for non-wiki-shaped artifacts (audits, briefs, diagrams, slides).
 
 ### Wiki content / linking
 
@@ -41,7 +41,7 @@ System-wide architectural audit of the LLM Knowledge Base, covering both the Obs
 
 ### Privacy / publishing boundary
 
-- `ignorePatterns` correctly excludes `raw/`, `Clippings/`, `outputs/`, `templates/`, `tools/`, `00 Command Center/`, build artifacts, and repo metadata.
+- `ignorePatterns` correctly excludes `raw/`, `raw/inbox/`, `outputs/`, `templates/`, `tools/`, `00 Command Center/`, build artifacts, and repo metadata.
 - No automated check that `raw/private/` content isn't accidentally referenced from a published page. Worth adding as the wiki grows.
 
 ### Public site UX
@@ -64,7 +64,7 @@ System-wide architectural audit of the LLM Knowledge Base, covering both the Obs
 ## Open follow-ups
 
 - Decide whether `outputs/` deserves a build-time link-check script (catch `raw/private/` references in published pages).
-- Decide whether `Clippings/` should remain a separate inbox or be merged into a `raw/inbox/` folder.
+- Decide whether `raw/inbox/` should remain a separate inbox or be merged into a `raw/inbox/` folder.
 - Periodically audit: how many `seed` pages have actually moved toward `mature` over the last 90 days? If zero, the status field still isn't doing useful work.
 - Consider a wiki-root `Reference` folder if the three reference pages (Bibliography, Glossary, Timeline) grow into a category.
 

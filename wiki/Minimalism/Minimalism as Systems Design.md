@@ -342,6 +342,6 @@ It connects to:
 
 ## Sources
 
-- [[outputs/briefs/GPT - Product Reduction Counseling - Minimalist Sibu|GPT - Product Reduction Counseling - Minimalist Sibu]]
+- GPT synthesis: Product Reduction Counseling - Minimalist Sibu.
 - User-provided synthesis on minimalism as systems design, cognitive load reduction, and life optimization through reduction.
-- [[outputs/briefs/GPT - 【ルームツアー】ミニマリストしぶの新居が完成しました。|GPT - Minimalist room tour]]
+- GPT synthesis: Minimalist room tour.

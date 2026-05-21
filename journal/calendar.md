@@ -15,7 +15,26 @@ A lightweight chronological index for public journal entries and thinking-log up
 
 ## 2026-05-21
 
+Cleaned up the repository architecture around the working synthesis pipeline.
+
+The folder structure now reflects the actual workflow:
+
+```text
+L4 raw sources
+-> L3 model first-pass drafts
+-> L2 curated synthesis
+-> L1 durable wiki
+```
+
+The old top-level clipping inbox was retired and replaced by `raw/inbox/`. Active sources remain in `raw/sources/`, already-processed source material has `raw/processed/`, private material stays in `raw/private/`, and raw agent activity stays in `raw/sessions/`.
+
+Model drafts now live by model instead of filename prefix: `outputs/L3/GPT/`, `outputs/L3/Grok/`, `outputs/L3/Opus/`, and `outputs/L3/Hermes/`. Sonnet-style drafts were folded into `Opus/`. Curated synthesis now lives in `outputs/L2/ready/`, `outputs/L2/revise/`, and `outputs/L2/processed/`.
+
+The important result is less visual clutter and clearer handoff points. Raw material can enter the system without pretending to be permanent, model drafts can be compared cleanly, L2 can stay reviewable, and `wiki/` remains the stable public knowledge base.
+
 Promoted two attention-centered pages into the knowledge base.
+
+Also wrote a short reflection connecting the two: [[journal/2026-05-21-Focus-Management-and-Curvilinear-Design|Focus Management and Curvilinear Design]]. The core tension is that many daily tools are engineered to do the opposite of what Focus Management tries to train — they remove the decision points and memory anchors required to notice drift and return attention.
 
 [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: Training the Return Mechanism]] now frames focus as a return skill. A useful work block needs clean entry, distraction capture, environmental repair, and repeated return-to-anchor practice. The important metric is not perfect focus. The important metric is how quickly attention becomes usable again after it drifts.
 
@@ -140,7 +159,7 @@ This is cleaner because the pages are now filed by the role they play in the lea
 
 AI and tool-use pages moved into [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] / Systems territory. This separates the learning system from the building-with-agents system without pretending they are the same domain. They can still cross-link, but the architecture no longer forces everything through one overloaded concept directory.
 
-Also created [[outputs/briefs/GPT - How to Rest So Well You Never Feel Exhausted Again|GPT - How to Rest So Well You Never Feel Exhausted Again]].
+Also created GPT - How to Rest So Well You Never Feel Exhausted Again.
 
 The useful frame: recovery is a matching problem. The activity has to reduce load in the system that is actually depleted. Low-effort stimulation can still keep the attention system active. Real recovery usually needs some combination of psychological detachment, mastery, control, and low-load environments like nature.
 
@@ -152,11 +171,11 @@ Moved the remaining clipping inbox files into local raw sources:
 - rest and recovery;
 - MG and Kolbs template-tour transcripts.
 
-The raw/source cleanup keeps `Clippings/` as an actual inbox instead of a second permanent source layer.
+The raw/source cleanup keeps `raw/inbox/` as an actual inbox instead of a second permanent source layer.
 
 ## 2026-05-15
 
-Created [[outputs/briefs/GPT - Live Clinic 61 Opening the Black Box of Learning|GPT brief for Live Clinic 61: Opening the Black Box of Learning]].
+Created GPT brief for Live Clinic 61: Opening the Black Box of Learning.
 
 The useful frame: the black box is the process layer between inputs and outputs. It contains encoding quality, retrieval quality, spacing, self-management, chunking, prioritization, emotional regulation, and decision-making. It can stay closed during normal operation, then be opened when the system gives a signal: output changes, emotions spike, recall weakens, or performance breaks down.
 
@@ -171,7 +190,7 @@ felt symptom
 -> test result
 ```
 
-Created [[outputs/briefs/GPT - Watch This To Force Your Brain To Study FASTER|GPT brief for Watch This To Force Your Brain To Study FASTER]].
+Created GPT brief for Watch This To Force Your Brain To Study FASTER.
 
 The useful frame: studying faster means forming usable schemas faster. The three cognitive pillars are schema construction, schema assimilation, and schema reorganization. Reorganization is the gatekeeper because it converts a growing, messy map into a structure that can be retained and used. It feels slow in the moment because input pauses, but it reduces future relearning.
 
@@ -227,7 +246,7 @@ Compiled Opus briefs for Live Clinics 64, 65, and 66, then converted all three i
 
 Added [[wiki/Concepts/Best-attempt Encoding|Best-attempt Encoding]] as a standalone practical guide: the 1:1.2 encoding decision, what good schema structure looks like, and the five moves that actually get you from narrow to wider encoding (generate an application, find a connection, ask the mechanism question, predict a variation, check the chunk boundary).
 
-Compiled [[outputs/briefs/Opus - How to Force Your Brain To Be Motivated (when you don't feel like it)|Opus brief for How to Force Your Brain To Be Motivated]] and converted it into [[wiki/Concepts/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated (when you don't feel like it)]].
+Compiled Opus brief for How to Force Your Brain To Be Motivated and converted it into [[wiki/Concepts/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated (when you don't feel like it)]].
 
 The core idea: motivation dependence makes consistency impossible because motivation is variable by design. DFUZ (Distinguish, Fake, Uptime, Zone) uses thought-action defusion — a clinical psychology technique — to separate feeling from action. The key mechanism is the bidirectional loop: actions produce thoughts that change feelings. You do not need to feel different before starting. Starting is what changes how you feel.
 
@@ -283,7 +302,7 @@ Added new Journal questions about:
 
 Later corrected the page so the minimum viable system is not an abstract control loop. The actual current minimum is [[wiki/Dimensions/Deep Processing/Bear Hunter System|BHS]] plus [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]], while [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] and [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] remain experimental extensions.
 
-Synthesized [[outputs/briefs/GPT - How to Force Your Brain To Be Motivated (when you don’t feel like it)|How to Force Your Brain To Be Motivated]] and moved the clipping into [[raw/sources/How to Force Your Brain To Be Motivated (when you don’t feel like it)|raw sources]].
+Synthesized How to Force Your Brain To Be Motivated and moved the clipping into [[raw/sources/How to Force Your Brain To Be Motivated (when you don’t feel like it)|raw sources]].
 
 Split [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] into its own page and added the scaling problem, position-vs-transaction framing, and links into decision making, learning, and agentic engineering.
 
@@ -300,7 +319,7 @@ Current focus pages:
 
 Compiled [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] from Live Clinic 69 and folded the older unlearning seed page into it.
 
-Synthesized [[outputs/briefs/GPT - Sell the Truth|Sell the Truth]] from the Naval Podcast clipping and moved the source into [[raw/sources/Sell the Truth|raw sources]].
+Synthesized Sell the Truth from the Naval Podcast clipping and moved the source into [[raw/sources/Sell the Truth|raw sources]].
 
 ## 2026-05-11
 
@@ -308,10 +327,10 @@ Built the first large outputs layer from the source corpus, including GPT, Grok,
 
 The highest-value work centered on the Live Clinics:
 
-- [[outputs/briefs/Opus - Live Clinic 71 First Principles of ICS|Live Clinic 71: First Principles of ICS]]
-- [[outputs/briefs/Opus - Live Clinic 72 Are You Learning or Just Using Techniques|Live Clinic 72: Are You Learning or Just Using Techniques]]
-- [[outputs/briefs/GPT - Live Clinic 71 First principles of iCS|GPT Live Clinic 71]]
-- [[outputs/briefs/GPT - Live Clinic 72 Are you learning, or just using techniques|GPT Live Clinic 72]]
+- Live Clinic 71: First Principles of ICS
+- Live Clinic 72: Are You Learning or Just Using Techniques
+- GPT Live Clinic 71
+- GPT Live Clinic 72
 
 These outputs later became the foundation for [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] and [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]].
 
@@ -351,7 +370,7 @@ Ran a system audit and cleanup pass:
 - renamed Deep Processing concept material into [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]];
 - cleaned broken Red Team links from the log;
 - codified a smaller type/status vocabulary in AGENTS;
-- documented the loose [[outputs/briefs|outputs]] workflow;
+- documented the loose outputs workflow;
 - filed the 2026-05-09 system audit.
 
 Regenerated and refocused [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]].
@@ -364,15 +383,15 @@ The emphasis shifted toward fast practical use:
 - speed/accuracy balance;
 - testing frames without turning every decision into a slow workshop.
 
-Started the outputs/briefs workflow at scale:
+Started the outputs/L3 workflow at scale:
 
-- [[outputs/briefs/Opus - Andrej Karpathy From Vibe Coding to Agentic Engineering|Karpathy: From Vibe Coding to Agentic Engineering]]
-- [[outputs/briefs/GPT - A Motorcycle for the Mind|A Motorcycle for the Mind]]
-- [[outputs/briefs/GPT - A Return to Code|A Return to Code]]
-- [[outputs/briefs/GPT - How CEOs Need to Learn|How CEOs Need to Learn]]
-- [[outputs/briefs/GPT - How to Remember Everything You Read|How to Remember Everything You Read]]
-- [[outputs/briefs/Opus - How to Remember Everything You Read|Opus: How to Remember Everything You Read]]
-- [[outputs/briefs/Opus - How to Change Your Life in 2026 with Reverse Goal Setting|Opus: Reverse Goal Setting]]
+- Karpathy: From Vibe Coding to Agentic Engineering
+- A Motorcycle for the Mind
+- A Return to Code
+- How CEOs Need to Learn
+- How to Remember Everything You Read
+- Opus: How to Remember Everything You Read
+- Opus: Reverse Goal Setting
 
 This was the transition from only compiling wiki pages into maintaining a separate output layer for source syntheses before deciding what belongs in the durable wiki.
 

@@ -64,8 +64,8 @@ Follow this procedure when the user invokes the skill.
    - If the user wants to create or update an L3 or L2 file:
      - Determine whether the output is L3 or L2.
      - Write it to the correct location using the naming convention:
-       - `outputs/L3/YYYY-MM-DD-Descriptive-Name-L3.md`
-       - `outputs/L2/YYYY-MM-DD-Descriptive-Name-L2.md`
+       - `outputs/L3/{GPT,Grok,Opus,Hermes}/Descriptive-Source-Title.md`
+       - `outputs/L2/{ready,revise,processed}/YYYY-MM-DD-Descriptive-Name-L2.md`
      - Append a one-line note to `voice-changelog.md`.
 
 6. **Log & Close**
@@ -75,7 +75,7 @@ Follow this procedure when the user invokes the skill.
 ## Notes
 - This skill is intentionally lightweight and opinionated toward usefulness over ceremony.
 - It does **not** run the full heavy evolutionary machinery (population, multi-variant judging, rich history entries). Those remain available in `hermes/skills/evolution/` for deeper experiments.
-- Always default to writing into `outputs/L3/` and `outputs/L2/` unless the user explicitly overrides.
+- Always default to writing into the model-specific `outputs/L3/` folder and one of the curated `outputs/L2/` lifecycle folders unless the user explicitly overrides.
 - Keep prompts reasonably short — the value comes from the quality of the scan and the user’s judgment, not from massive context.
 - See the sibling top-level `../README.md` (in the l3-to-l2-voice-converter directory) for the full "Recommended Workflow" and "Voice Evolution Quick Start" that places this light skill in context with the daily converter and the manual style-feedback habit.
 

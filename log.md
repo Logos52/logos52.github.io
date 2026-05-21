@@ -1,7 +1,7 @@
 ---
 type: log
 created: 2026-05-02
-updated: 2026-05-15
+updated: 2026-05-21
 tags:
   - system
 ---
@@ -10,9 +10,17 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-05-21] maintenance | Folder structure cleanup
+
+- Retired the old top-level clipping inbox and moved incoming source material to `raw/inbox/`.
+- Added `raw/processed/` as the processed-source lifecycle folder while keeping `raw/private/` and `raw/sessions/` for local-only source material and agent activity.
+- Reorganized L3 model drafts into `outputs/L3/GPT/`, `outputs/L3/Grok/`, `outputs/L3/Opus/`, and `outputs/L3/Hermes/`; Sonnet-style drafts were folded into `Opus/`.
+- Reorganized L2 curated synthesis into `outputs/L2/ready/`, `outputs/L2/revise/`, and `outputs/L2/processed/`.
+- Updated README, AGENTS, the Home command center, Quartz ignore rules, the maintenance tool, and pipeline docs to reflect the L4 -> L3 -> L2 -> L1 structure.
+
 ## [2026-05-15] output | Live Clinic 61 synthesis + file moves
 
-- Created [[outputs/briefs/Grok - Live Clinic 61 Opening the Black Box of Learning|Grok - Live Clinic 61: Opening the Black Box of Learning]] in closer alignment with GPT style for this brief: clean process diagrams, weak-vs-better contrasts, minimal narrative, full removal of attribution language ("Justin outlines...", "actually", etc.), while preserving the neutral black box framing.
+- Created Grok - Live Clinic 61: Opening the Black Box of Learning in closer alignment with GPT style for this brief: clean process diagrams, weak-vs-better contrasts, minimal narrative, full removal of attribution language ("Justin outlines...", "actually", etc.), while preserving the neutral black box framing.
 - Moved both Live Clinic 44 and Live Clinic 61 source files into local-only source storage to mark them as processed.
 - Updated [[raw/Source Index|Source Index]] with the processed status and synthesis targets.
 
@@ -25,7 +33,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-15] output | Watch This To Force Your Brain To Study FASTER brief
 
-- Created [[outputs/briefs/Grok - Watch This To Force Your Brain To Study FASTER|Grok - Watch This To Force Your Brain To Study FASTER]] as a new output brief.
+- Created Grok - Watch This To Force Your Brain To Study FASTER as a new output brief.
 - Focused on the Three Cognitive Pillars for efficient knowledge schema formation (Construction, Assimilation, Reorganization).
 - Added the source to [[raw/Source Index|Source Index]] as output synthesized.
 
@@ -38,7 +46,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-15] output | Live Clinic 44 syntopical reading synthesis
 
-- Added [[outputs/briefs/Grok - Live Clinic 44 Syntopical Reading - Learning from Multiple, Dense Resources|Grok - Live Clinic 44: Syntopical Reading - Learning from Multiple, Dense Resources]] as a new brief.
+- Added Grok - Live Clinic 44: Syntopical Reading - Learning from Multiple, Dense Resources as a new brief.
 
 ## [2026-05-15] maintenance | Refined brief writing standards
 
@@ -61,13 +69,13 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-05-13] output | NX synthesis and writing-style refinement
 
 - Added NX output syntheses for the old Emacs/Org-mode corpus:
-  - [[outputs/briefs/GPT - NX 2022 Knowledge System|GPT - NX 2022 Knowledge System]]
-  - [[outputs/briefs/GPT - NX Anti-Marketing|GPT - NX Anti-Marketing]]
-  - [[outputs/briefs/GPT - NX Style|GPT - NX Style]]
-  - [[outputs/briefs/GPT - NX Minimalism|GPT - NX Minimalism]]
-  - [[outputs/briefs/GPT - NX Meiwaku|GPT - NX Meiwaku]]
-  - [[outputs/briefs/GPT - NX Enabling Environment and Scenius|GPT - NX Enabling Environment and Scenius]]
-  - [[outputs/briefs/GPT - NX Evergreen Notes|GPT - NX Evergreen Notes]]
+  - GPT - NX 2022 Knowledge System
+  - GPT - NX Anti-Marketing
+  - GPT - NX Style
+  - GPT - NX Minimalism
+  - GPT - NX Meiwaku
+  - GPT - NX Enabling Environment and Scenius
+  - GPT - NX Evergreen Notes
 - Updated [[00 Command Center/Writing Standards|Writing Standards]] to avoid ranking voice, source-evaluation residue, rigid template headings, and label-first first sentences.
 - Ran a wiki-wide intro pass to make first sentences start from mechanism, pressure, action, or context instead of defaulting to glossary-style definitions.
 
@@ -91,7 +99,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-12] output | How to Force Your Brain To Be Motivated
 
-- Added [[outputs/briefs/GPT - How to Force Your Brain To Be Motivated (when you don’t feel like it)|GPT - How to Force Your Brain To Be Motivated]] as an output synthesis.
+- Added GPT - How to Force Your Brain To Be Motivated as an output synthesis.
 - Positioned motivation dependence as a self-management failure mode where action depends on emotional readiness.
 - Extracted the DFUZ operating model: distinguish feeling from action, act before motivation changes, expand uptime, and build a focus zone.
 
@@ -467,12 +475,12 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Many pages now cross-link into existing Red Teaming, Minimalism, Learning, and Communication sections.
 - Updated Command Center, Notes Index, and cross-links.
 
-- Created [[outputs/briefs/Grok - What Unifies the Enemies of Civilization|Grok - What Unifies the Enemies of Civilization]] — high-signal operating synthesis identifying that socialism, degrowth, scientism, relativism, dogmatism, and doomerism are unified by one mechanism: they all slow the growth of knowledge. Includes diagnostic test for evaluating ideas.
-- Created [[outputs/briefs/Grok - Why Ali Abdaal's YouTube Channel is Dying|Grok - Why Ali Abdaal's YouTube Channel is Dying]] — mechanism-dense breakdown of the five interlocking mistakes (authority signal removal, wrong rung on novelty ladder, expectation misalignment, non-extending thumbnails, warm-audience strategy) and the root cause (outdated audience model on a cold-traffic platform). Includes diagnostic filter for future videos.
+- Created Grok - What Unifies the Enemies of Civilization — high-signal operating synthesis identifying that socialism, degrowth, scientism, relativism, dogmatism, and doomerism are unified by one mechanism: they all slow the growth of knowledge. Includes diagnostic test for evaluating ideas.
+- Created Grok - Why Ali Abdaal's YouTube Channel is Dying — mechanism-dense breakdown of the five interlocking mistakes (authority signal removal, wrong rung on novelty ladder, expectation misalignment, non-extending thumbnails, warm-audience strategy) and the root cause (outdated audience model on a cold-traffic platform). Includes diagnostic filter for future videos.
 
 ## [2026-05-16] compile | Rest and recovery clipping
 
-- Created [[outputs/briefs/GPT - How to Rest So Well You Never Feel Exhausted Again|GPT - How to Rest So Well You Never Feel Exhausted Again]] from the rest/recovery clipping.
+- Created GPT - How to Rest So Well You Never Feel Exhausted Again from the rest/recovery clipping.
 - Moved the current public clipping inbox files into `raw/sources/`, including the MG and Kolbs template tour set under `raw/sources/MG and Kolbs/`.
 - Updated [[raw/Source Index|Source Index]] and output source references so the moved clippings now point to their raw source paths.
 
@@ -570,21 +578,21 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-19] output | Tax Inspections in Vietnam 2025 synthesis
 
-- Created [[outputs/briefs/Tax Inspections in Vietnam in 2025 - Understanding for Foreign Investors|Tax Inspections in Vietnam in 2025 - Understanding for Foreign Investors]] as a new practical brief in `outputs/briefs/`.
-- Synthesized directly from the Alitium YouTube clipping in `Clippings/`.
+- Created Tax Inspections in Vietnam in 2025 - Understanding for Foreign Investors as a new practical brief in `outputs/L3/`.
+- Synthesized directly from the Alitium YouTube clipping in `raw/inbox/`.
 - Structured as operational guidance: 2025 Law 56 changes, digital risk selection model, inspection lifecycle, common documentation failure points, and a clear annual preparation playbook (Tax Inspection Master File + response protocol).
 - Focused on foreign-invested enterprise perspective; kept actionable and free of transcript artifacts.
 
 ## [2026-05-21] compile | Focus Management return mechanism
 
-- Created [[outputs/briefs/GPT - How To Improve Your Focus Permanently|GPT - How To Improve Your Focus Permanently]] as the working output brief.
+- Created GPT - How To Improve Your Focus Permanently as the working output brief.
 - Promoted the synthesis into [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: Training the Return Mechanism]].
 - Reframed Focus Management around distraction threshold, environmental and interactive forces, the distraction cheat sheet, FIT training, neural entrainment, and return speed.
 - Updated [[notes/index|Notes Index]] with the new page title and summary.
 
 ## [2026-05-21] compile | Curvilinear design and time theft
 
-- Reworked [[outputs/briefs/GPT - How Social Media Shortens Your Life|GPT - Social Media - Curvilinear Design & the Theft of Time]] around the transferable concept of curvilinear design.
+- Reworked GPT - Social Media - Curvilinear Design & the Theft of Time around the transferable concept of curvilinear design.
 - Created [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]].
 - Integrated the source with attention management, flow preservation, decisional delays, digital minimalism, chatbot design risks, and knowledge-base browsing risks.
 - Updated [[notes/index|Notes Index]].

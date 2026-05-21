@@ -13,7 +13,7 @@ Example comment:
 ```
 Converted task #42 using current converter + latest style-feedback.
 Applied rules from style-feedback.md (2026-05-18 Core Operator Voice Refinements + later entries).
-Output written to outputs/L2/2026-05-22-Task42-Title-L2.md (following tiered L3/L2 structure).
+Output written to outputs/L2/ready/2026-05-22-Task42-Title-L2.md (following tiered L3/L2 structure).
 Moved to L2 Ready.
 ```
 

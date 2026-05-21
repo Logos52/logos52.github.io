@@ -1,47 +1,30 @@
-# L2 — Polished Voice-Converted Synthesis
+# L2 — Curated Synthesis
 
-This folder contains **L2** material: voice-polished, high-signal versions ready for your review before promotion to `wiki/`.
+This folder contains **L2** material: voice-polished, human-curated synthesis ready for review before promotion to `wiki/`.
 
-## Current Organization (Adjusted to Your Preferences)
+L2 is where judgment enters. It should usually fuse the strongest parts of GPT, Grok, Opus, Hermes, or other L3 drafts into one usable version. L2 files should not be model-branded unless the model identity is the point.
 
-The directory is now organized for easy scanning:
+## Folders
 
-- **01-Ready-for-Review/** — These are the files you should look at first.
-  - `Core-Techniques/` — High-priority standalone technique pages (Bear Hunter System phases, Technique Training, Revision, Habits/PEER, Time Management, Camp material). These align with what you've approved for promotion.
-  - `30-Day-Challenges/` — Current wave of 30-Day material (grouped thematically by dimension, loose structure).
-  - `Hubs-and-Systems/` — Organizing hub (`Techniques - Learning Craft`) + tool/system pages (Obsidian Dashboard, Gbrain & Lossless).
+- `ready/` — polished drafts that are candidates for promotion to `wiki/`.
+- `revise/` — useful drafts that need structural work before review.
+- `processed/` — reviewed, superseded, rejected, or already-promoted L2 material kept as an audit trail.
 
-- **02-Needs-Structure-Adjustment/** — Ascent pages and Summit. These follow the private ICS course structure too closely. We are **not** promoting the stage-climb framing. Individual techniques can be extracted if useful.
+## Naming
 
-- **03-Archive/** — Old or unrelated clippings (early Hermes material, verification files). Safe to ignore unless you want them.
+Use:
 
-## Current Focus
+```text
+YYYY-MM-DD-Short-Descriptive-Name-L2.md
+```
 
-Look in `01-Ready-for-Review/` for what is currently aligned with your latest direction (loose structure, high-value standalone notes, approved clusters).
+For older imports or one-off briefs without dates, preserve the filename if renaming would break context.
 
-When you reject something, tell me and I will move it to Archive or delete it.
+## Workflow
 
-## Quick Status (as of latest run)
-
-**Strong / Ready for promotion review:**
-- Bear Hunter System (Aim / Shoot / Skin)
-- Technique Training & Fundamentals
-- Habits / PEER
-- Time Management cluster
-- Techniques - Learning Craft (hub)
-- Gbrain & Lossless
-- Obsidian Dashboard
-
-**In progress (being synthesized loosely):**
-- 30-Day Challenge material (by dimension, not rigid weeks)
-
-**Being careful with:**
-- Full Ascent stage pages (too close to private source)
-- Summit as a single page (extracting useful pieces like Multipass instead)
-
-See `journal/2026-05-22-ICS-Promotion-Status.md` and `journal/2026-05-22-ICS-Synthesis-Progress.md` for the latest detailed notes.
-
-## Naming Convention
-`YYYY-MM-DD-Short-Descriptive-Name-L2.md`
-
-All files here are meant for your review before any wiki promotion. Let me know what to promote, adjust, or delete.
+1. Read the relevant L3 drafts from `outputs/L3/{GPT,Grok,Opus,Hermes}/`.
+2. Choose the strongest base.
+3. Incorporate useful elements from weaker versions.
+4. Remove attribution drag, negative openings, meta-commentary, and template sameness.
+5. Put the result in `ready/`, `revise/`, or `processed/`.
+6. After L2 -> L1 promotion, update `notes/index.md`, `log.md`, and any relevant Journal entry.

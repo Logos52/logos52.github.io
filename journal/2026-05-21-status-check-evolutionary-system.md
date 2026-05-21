@@ -12,7 +12,7 @@
 - All four skills now have SKILL.md files written in Hermes style.
 - Supporting logic files created (evaluator.md and mutator.md).
 - References folder structure set up inside the evolution skill (rubric + test cases + history).
-- A working maintenance tool with drift detection that treats the root Clippings/ folder as L4 unprocessed material.
+- A working maintenance tool with drift detection that treats `raw/inbox/` as L4 unprocessed material.
 
 ## What Is Still Missing
 - None of the evolutionary skills have real working logic yet — they are still design documents.

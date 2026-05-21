@@ -280,7 +280,7 @@ The best focus block is already pre-decided enough that the user can simply exec
 
 ## Sources
 
-- [[Clippings/How To Improve Your Focus Permanently|How To Improve Your Focus Permanently]].
+- Source clipping: How To Improve Your Focus Permanently.
 - Justin Sung / iCanStudy focus, attention-management, self-management, procrastination, and advanced time-management materials, paraphrased and synthesized in original language.
 
 ## Open Questions

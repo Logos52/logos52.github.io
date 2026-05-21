@@ -19,7 +19,7 @@ Research answers improve when the existing markdown knowledge base becomes the f
 
 1. Read [[notes/index|notes/index.md]].
 2. Read the most relevant wiki pages and source notes.
-3. Search for related terms across `wiki/`, `raw/`, `Clippings/`, and `outputs/`.
+3. Search for related terms across `wiki/`, `raw/`, and `outputs/`.
 4. Write the answer to `outputs/answers/`.
 5. Cite consulted pages and sources.
 6. Add unresolved issues to `Open Questions`.

@@ -30,7 +30,7 @@ The basic pattern is:
 
 This vault follows three layers:
 
-- Raw sources: immutable evidence in `raw/` and `Clippings/`.
+- Raw sources: immutable evidence in the `raw/` source lifecycle, especially `raw/inbox/`, `raw/sources/`, `raw/processed/`, and local-only `raw/private/`.
 - Wiki: LLM-owned compiled understanding in `wiki/`.
 - Schema: maintainer instructions in [[AGENTS|AGENTS.md]], supported by [[notes/index|notes/index.md]] and [[log|log.md]].
 

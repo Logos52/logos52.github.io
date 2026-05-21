@@ -18,11 +18,11 @@ It follows the LLM-wiki pattern: raw sources are immutable evidence, `wiki/` is 
 
 The core loop:
 
-1. Add sources to `raw/`.
+1. Add sources to `raw/inbox/` or `raw/sources/`.
 2. Summarize and index sources with source notes.
 3. Compile durable understanding into `wiki/`.
 4. Ask questions and save answers / non-wiki artifacts in `outputs/`.
-5. For agent synthesis work, follow the tiered pipeline: L4 raw → L3 first-pass (`outputs/L3/`) → L2 voice-polished via `hermes/skills/l3-to-l2-voice-converter` or the light voice evolution skill (`outputs/L2/`) → L1 promotion to `wiki/`.
+5. For agent synthesis work, follow the tiered pipeline: L4 raw → L3 first-pass (`outputs/L3/{GPT,Grok,Opus,Hermes}/`) → L2 voice-polished via `hermes/skills/l3-to-l2-voice-converter` or the light voice evolution skill (`outputs/L2/`) → L1 promotion to `wiki/`.
 6. After L2 → L1 edits, append voice refinements to the converter's `style-feedback.md` (the converter reads it on every run). Use "Run light voice evolution" for help synthesizing improvements.
 7. Promote durable insights from `outputs/` back into `wiki/`.
 8. Run periodic health checks to find gaps, contradictions, stale pages, and missing citations.
@@ -34,10 +34,9 @@ notes/index.md            Content-oriented catalog of the wiki
 log.md              Append-only operational history
 AGENTS.md           LLM maintainer schema and workflows
 00 Command Center/  Obsidian-facing dashboard, index, open questions, changelog
-raw/                Source material and source notes
-Clippings/          Web clipper inbox, treated as raw-source material
+raw/                L4 source lifecycle: inbox, active sources, processed sources, private material, sessions
 wiki/               Compiled knowledge base
-outputs/            Answers, briefs, diagrams, slides, audits + L3/L2 synthesis tiers (L3 = agent first-pass drafts; L2 = voice-polished via l3-to-l2-voice-converter / light-voice-evolution; see outputs/L3/README.md and outputs/L2/README.md)
+outputs/            Answers, diagrams, slides, audits + L3/L2 synthesis tiers (L3 = model first-pass drafts; L2 = curated synthesis; see outputs/L3/README.md and outputs/L2/README.md)
 templates/          Note templates
 tools/              Scripts, search tools, and health checks
 ```
@@ -126,7 +125,7 @@ LLM agents should read [[notes/index]] and [[AGENTS]] first.
 
 The site is published at <https://logos52.github.io>, built with [Quartz v4](https://quartz.jzhao.xyz/). To publish at the root GitHub Pages URL, the deploy source needs to be the `Logos52/logos52.github.io` repository, not a project page under `Logos52/llm-knowledge-base`.
 
-What gets published: `index.md`, `blog/`, `notes/`, `wiki/`, `00 Command Center/`, `log.md`, `README.md`, `AGENTS.md`. Everything else (`raw/`, `Clippings/`, `outputs/`, `templates/`, `tools/`) is committed to the repo but excluded from the site via `quartz.config.ts → ignorePatterns`.
+What gets published: `index.md`, `about.md`, `blog/`, `notes/`, `wiki/`, `log.md`, `README.md`, and `AGENTS.md`. Everything else (`raw/`, `outputs/`, `templates/`, `tools/`) is excluded from the site via `quartz.config.ts → ignorePatterns`. Actual raw source files generally stay local/ignored unless explicitly approved for publication.
 
 ### Local preview
 
