@@ -576,13 +576,6 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Updated l3-to-l2-voice-converter (v0.6) with Kanban support
 - Everything built in one pass as requested
 
-## [2026-05-19] output | Tax Inspections in Vietnam 2025 synthesis
-
-- Created Tax Inspections in Vietnam in 2025 - Understanding for Foreign Investors as a new practical brief in `outputs/L3/`.
-- Synthesized directly from the Alitium YouTube clipping in `raw/inbox/`.
-- Structured as operational guidance: 2025 Law 56 changes, digital risk selection model, inspection lifecycle, common documentation failure points, and a clear annual preparation playbook (Tax Inspection Master File + response protocol).
-- Focused on foreign-invested enterprise perspective; kept actionable and free of transcript artifacts.
-
 ## [2026-05-21] compile | Focus Management return mechanism
 
 - Created GPT - How To Improve Your Focus Permanently as the working output brief.
