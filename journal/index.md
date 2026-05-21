@@ -1,6 +1,6 @@
 ---
-title: “Journal”
-description: “Current questions, active threads, and public thinking log.”
+title: "Journal"
+description: "Current questions, active threads, and public thinking log."
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
@@ -11,11 +11,13 @@ tags:
 
 # Journal
 
+Current thinking, open questions, and short notes on what is moving through the knowledge base.
+
 ## What's On My Mind
 
-- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]] and [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media & Curvilinear Design]] — same problem, separate angles. One trains the return reflex; the other explains a negative enabler.
-- [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] — how does this system amplify thinking rather than replace it? The risk is reversion back to passive consumption 
-- [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] — BHS + SIR is the minimum. Agents and the knowledge base are adjacent bets..
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]] and [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media & Curvilinear Design]] — same problem, separate angles. One page looks at the return to work; the other looks at environments that make return less likely.
+- [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] — the system should amplify thinking, not replace it. The open problem is how to keep the first brain active while the second brain gets stronger.
+- [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] — BHS + SIR is the minimum. Agents and the knowledge base are adjacent bets.
 - What usable frames should guide each Priority 0 skill: Agentic Engineering, Learning Systems, Vietnamese, 中文, Fitness, Relationships?
 
 ## Recent Log
@@ -30,7 +32,7 @@ Older entries in [[journal/calendar|Journal Calendar]].
 - **How This was Built** — A dated account of building this site from Karpathy's LLM knowledge-base idea, Obsidian, Quartz, and several AI coding agents as collaborators.
 - [[blog/on-red-teams-closure|On Red Team's Closure]] — The institutional version became too bloated; the lean two-week course was still worth preserving.
 
-## Rituals / Review Prompts
+## Review Prompts
 
 - What question keeps returning?
 - What current focus page deserves one real session?

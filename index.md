@@ -11,10 +11,18 @@ tags:
 
 # LLM Knowledge Base
 
-## Start Here
+## Current Focus
 
-- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]]: Attention drifts in any work session — that's not a problem to solve, it's just how attention works. The more interesting question is what happens in the moment you notice it's gone, and whether the speed of coming back is something you can actually shape. The page is an attempt to work through what training that looks like in practice.
-- [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]]: Chronoception: time perception is retrospective. Feeds that reduce memory density compress how much time feels like it existed. The counter-strategy follows from the mechanism.
-- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]: Every object you own keeps costing after you buy it — attention, maintenance, the background weight of having it around. The page is about treating ownership as an ongoing design problem rather than a series of acquisitions.
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]]
+
+  Long work blocks usually include some amount of drift. The useful question is how quickly attention can return once the drift is noticed, and what makes that return easier to repeat.
+
+- [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]]
+
+  Social media is easiest to understand as a designed environment. Smooth feeds can reduce memory, remove stopping points, and make time harder to account for after the fact.
+
+- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]
+
+  Minimalism becomes more useful when it is treated as a design problem. Objects keep costing after purchase through space, attention, maintenance, and the effort required to exit them.
 
 For the complete catalog, open [[notes/index|Index]].

@@ -12,7 +12,9 @@ tags:
 
 ## What This Is
 
-This site is a personal, LLM-maintained knowledge base. I curate sources and ask questions; an LLM agent reads, summarizes, cross-references, and keeps a running synthesis as durable, interlinked markdown pages. The goal is **accumulation**: every source ingested and every question asked should make the knowledge base more useful instead of disappearing into chat history.
+This site is a public knowledge base built from notes, sources, questions, and LLM-assisted synthesis. The basic loop is simple: source material enters the vault, useful structure gets written into durable markdown pages, and later questions build on what is already there.
+
+The goal is accumulation. A good source, question, or synthesis should leave the knowledge base a little more useful than it was before.
 
 For the underlying pattern, start with [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]. For the repo structure, see [[README]]. For the agent operating contract, see [[AGENTS]].
 
@@ -39,6 +41,6 @@ Code is MIT-licensed; written content is released under [CC BY 4.0](https://crea
 
 ## About Me
 
-I'm Wedge, @webigis on X. I use this site as a public home for notes on learning, metacognition, language acquisition, Red Team thinking, language learning, and building with AI agents.
+I'm Wedge, @webigis on X. I use this site as a public home for notes on learning, metacognition, Red Team thinking, language learning, and building with AI agents.
 
 My current focus is turning useful information into working systems: study workflows, decision-making tools, and practical ways to use LLMs as collaborators rather than just chat interfaces.

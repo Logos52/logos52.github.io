@@ -10,7 +10,7 @@ tags:
 
 # Blog
 
-Longer essays and public commentary live here. Most active thinking still happens in the [[journal/index|Journal]] and the [[index|LLM Knowledge Base]].
+Finished essays and public commentary live here. Active questions stay in the [[journal/index|Journal]] until they are stable enough to become posts.
 
 ## Posts
 

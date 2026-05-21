@@ -125,6 +125,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     nodeLinkRadius,
     nodeMaxRadius,
     flattenWideGraphs,
+    nodeRank,
+    nodeLimit,
+    mobileNodeLimit,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
   const hiddenSlugs = new Set<SimpleSlug>(
@@ -197,6 +200,56 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   } else {
     validLinks.forEach((id) => neighbourhood.add(id))
     if (showTags) tags.forEach((tag) => neighbourhood.add(tag))
+  }
+
+  const isMobileGraph = window.matchMedia("(max-width: 700px)").matches
+  const effectiveNodeLimit = isMobileGraph ? (mobileNodeLimit ?? nodeLimit) : nodeLimit
+
+  if (effectiveNodeLimit && effectiveNodeLimit > 0 && neighbourhood.size > effectiveNodeLimit) {
+    const linkCounts = new Map<SimpleSlug, number>()
+    const wordCounts = new Map<SimpleSlug, number>()
+
+    for (const link of links) {
+      linkCounts.set(link.source, (linkCounts.get(link.source) ?? 0) + 1)
+      linkCounts.set(link.target, (linkCounts.get(link.target) ?? 0) + 1)
+    }
+
+    const wordCount = (id: SimpleSlug) => {
+      if (wordCounts.has(id)) return wordCounts.get(id)!
+      const content = data.get(id)?.content ?? ""
+      const count = content.trim() ? content.trim().split(/\s+/).length : 0
+      wordCounts.set(id, count)
+      return count
+    }
+
+    const nodeScore = (id: SimpleSlug) => {
+      const degree = linkCounts.get(id) ?? 0
+      const contentWords = wordCount(id)
+
+      switch (nodeRank) {
+        case "content":
+          return contentWords
+        case "content-heavy":
+          return contentWords + degree * 120
+        case "degree":
+        default:
+          return degree
+      }
+    }
+
+    const keptNodes = new Set(
+      [...neighbourhood]
+        .sort((a, b) => {
+          const scoreDelta = nodeScore(b) - nodeScore(a)
+          if (scoreDelta !== 0) return scoreDelta
+          return (data.get(a)?.title ?? a).localeCompare(data.get(b)?.title ?? b)
+        })
+        .slice(0, effectiveNodeLimit),
+    )
+
+    if (neighbourhood.has(slug)) keptNodes.add(slug)
+    neighbourhood.clear()
+    keptNodes.forEach((id) => neighbourhood.add(id))
   }
 
   const nodes = [...neighbourhood].map((url) => {

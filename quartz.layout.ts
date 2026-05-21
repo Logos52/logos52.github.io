@@ -65,6 +65,9 @@ const notesOverviewGraph = {
   nodeBaseRadius: 2,
   nodeLinkRadius: 1.18,
   nodeMaxRadius: 9.5,
+  nodeRank: "content-heavy",
+  nodeLimit: 180,
+  mobileNodeLimit: 80,
 }
 
 const wikiPageLocalGraph = {

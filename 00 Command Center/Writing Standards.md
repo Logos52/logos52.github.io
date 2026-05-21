@@ -61,6 +61,46 @@ Avoid:
 
 Preserve strong existing language unless there is a clear reason to change it.
 
+## Front-Facing Voice
+
+Front-facing pages should sell the truth rather than sound like they are selling certainty.
+
+The public surface of the site should feel like honest orientation into live work: clear enough to be useful, modest enough to avoid guru voice, and specific enough that the reader can decide whether to enter. These pages can have conviction, but they should not sound like every question has already been solved.
+
+Use the "sell the truth" posture: describe the real mechanism, cost, tension, or fit without pressure. The writing should not perform certainty, manufacture excitement, or turn the page into a pitch.
+
+Prefer:
+
+- calm orientation,
+- honest interest without personal diary voice,
+- precise uncertainty,
+- plain statements of the mechanism or tension,
+- and short explanations of why a page matters now.
+
+Avoid:
+
+- manifesto tone,
+- over-polished authority,
+- heavy doctrine,
+- personal diary voice,
+- punchline-style first sentences,
+- "this page proves..." energy,
+- and blurbs that summarize the page as if the whole issue is settled.
+
+Good front-facing copy:
+
+```text
+Long work blocks usually include some amount of drift. The useful question is how quickly attention can return once the drift is noticed, and what makes that return easier to repeat.
+```
+
+Weak front-facing copy:
+
+```text
+Focus Management trains the return mechanism and solves attention drift inside work blocks.
+```
+
+The front-facing page should invite the reader into the inquiry without using "I" statements or diary framing. The deeper wiki page can carry the stronger operating model.
+
 ## Enforcement Rules
 
 These rules catch the patterns that most often make drafts feel wrong.

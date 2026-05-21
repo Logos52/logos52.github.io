@@ -13,6 +13,32 @@ tags:
 
 The complete catalog of pages, organized by topic.
 
+## Maps
+
+- [[wiki/Syntheses/First Principles of ICS|Learning Systems]]
+
+  Encoding, retrieval, self-regulation, and the structure underneath the current study system.
+
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Attention & Self-Management]]
+
+  Focus, flow, procrastination, decision friction, recovery, and the design of usable work blocks.
+
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
+
+  Building with agents while preserving judgment, taste, verification, and ownership.
+
+- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism]]
+
+  Environment design, ownership cost, empty space, and reduction as a way to make action easier.
+
+- [[wiki/Red Team/Red Teaming|Red Team / Critical Thinking]]
+
+  Frame testing, assumptions, decision support, institutional bloat, and adversarial thinking.
+
+- [[wiki/Language/Refold Language Learning System|Language Learning]]
+
+  Immersion, attention, comprehension, Vietnamese, Mandarin, and practical language workflows.
+
 ## Start Here
 
 | Page | Why start here |

@@ -26,6 +26,9 @@ export interface D3Config {
   nodeLinkRadius?: number
   nodeMaxRadius?: number
   flattenWideGraphs?: boolean
+  nodeRank?: "degree" | "content" | "content-heavy"
+  nodeLimit?: number
+  mobileNodeLimit?: number
 }
 
 interface GraphOptions {
