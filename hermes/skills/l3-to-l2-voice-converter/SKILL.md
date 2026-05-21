@@ -12,12 +12,14 @@ Common triggers:
 - After the maintenance tool generates new L3 content
 - When reviewing recent session summaries
 - Before manually promoting something from L3 to L2
+- When operating on the `kb-synthesis` Kanban board
 
 ## Inputs
 - A file or text containing L3 material (session summary, agent draft, maintenance report, etc.)
 
 ## Outputs
-- A rewritten version in L2 voice, written to `L2-drafts/`
+- L3 drafts written to `outputs/L3/`
+- L2 (voice-polished) versions written to `outputs/L2/`
 
 ## Invocation
 
@@ -37,23 +39,43 @@ l3-to-l2 path/to/l3-file.md
 1. Takes the L3 input.
 2. Runs it through the current L3 → L2 voice converter logic (incorporating rules from style-feedback.md).
 3. Produces a cleaned, higher-signal version that follows the project's Writing Standards.
-4. Writes the result to `L2-drafts/`.
+4. Writes L3 output to `outputs/L3/` and the polished L2 result to `outputs/L2/` (following the standard tiered structure).
 
 ## Feedback Loop (Manual L2 edits → Improved L3→L2)
 After you manually edit from L2 into the final wiki location, append any voice or signal improvements to `references/style-feedback.md`.
 
 The converter consults this file on every run, so your manual refinements directly improve future L3 → L2 output.
 
+## Evolving the Voice Converter (Recommended: Light Path)
+For day-to-day improvements to the converter itself or for polishing batches of real L3 material, use the **light voice evolution** skill:
+
+- Location: `light-voice-evolution/SKILL.md` (sibling to this file)
+- Invocation: "Run light voice evolution", "Run light voice evolution on the last few maintenance reports", "Suggest voice updates for the L3 to L2 converter", or "Polish this L3 file into L2 using light voice evolution"
+- Behavior: Flexible scan of `style-feedback.md` + recent real L3 (from `raw/sessions/`) + optional test cases. Produces the most useful output for you (revised converter logic, targeted edits, observations, or ready-to-use L2 drafts). Writes any applied artifacts to the correct `outputs/L3/` or `outputs/L2/` using date-prefixed naming.
+- On apply: appends **one short line** to `references/voice-changelog.md` (zero-ceremony audit trail).
+
+This is the primary, low-friction path going forward. It keeps the daily experience natural while still allowing genuine evolutionary improvement based on your real usage and feedback.
+
+The heavier multi-variant evolutionary tools (`../evolution/`) remain available for occasional thorough experiments when you explicitly want population, scoring against the 4 test cases, rich history entries, and versioned apply with full audit. They are now considered the advanced / optional path.
+
+## Kanban Integration
+When working on the `kb-synthesis` board, see `kanban-integration.md` for how to move tasks after conversion.
+
 ## References
-- Writing Standards: See `references/writing-standards.md`
+- Writing Standards: See `../../../00 Command Center/Writing Standards.md` (principles also embedded in converter.md + style-feedback.md Internal Check)
 - Evaluation Rubric: See `references/rubric.md`
-- Test Cases (for development): `references/test-cases/`
+- Test Cases (for development/evolution): `../evolution/references/test_cases/` (evolution-only; not loaded at runtime by converter)
 - Style Feedback Log: `references/style-feedback.md` (living record of manual L2 edits)
+- Light Voice Evolution (recommended daily path): `light-voice-evolution/SKILL.md`
+- Voice Changelog (light-mode one-line audit): `references/voice-changelog.md`
+- Tiered outputs: `outputs/L3/` and `outputs/L2/` (with READMEs explaining naming and workflow)
 
 ## Notes
 - This skill stays pure Hermes/Grok — no external scripts.
-- Future versions will support versioned converter prompts and evolutionary improvement via the evolution skill.
-- Output is intentionally placed in `L2-drafts/` so you can review before moving anything to `wiki/`.
+- Supports Kanban operation on the `kb-synthesis` board.
+- **Recommended path for evolving the converter voice:** Use the sibling `light-voice-evolution` skill ("Run light voice evolution"). See the dedicated "Evolving the Voice Converter (Recommended: Light Path)" section above and `light-voice-evolution/SKILL.md`. It is lighter, flexible, and the normal daily tool.
+- The full heavy evolutionary system (`../evolution/`) with multi-variant generation, strict rubric scoring, and rich history remains available for deep experiments. See `../evolution/README.md` (now labeled as the advanced path).
+- L3 and L2 outputs are placed in `outputs/L3/` and `outputs/L2/` respectively so you can review before promoting anything to `wiki/` (L1).
 
 ## Version
-v0.5 (Evolved via Variant D — stronger feedback integration + internal check step)
+v0.6+ (auto-versioned on each successful apply-update; the live genome header in converter.md carries the exact <!-- Version: ... --> comment after the first apply-update and thereafter)

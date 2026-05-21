@@ -94,6 +94,7 @@ Mindsets shift when repeated small experiences contradict the old belief. Every 
   When neglected, high neuroticism turns normal learning friction into overwhelming threat, collapsing the growth interpretation.
 - **[[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]** — The long-term identity-level practice that makes growth mindset sustainable. Small, consistent upgrades compound into evidence that ability is malleable.  
   When neglected, mindset improvements stay superficial because there is no accumulating proof that change is real.
+- **[[wiki/Dimensions/30-Day Challenges/Mindset|30-Day Mindset Challenge]]** — Four weeks of structured experiments focused on lowering the cost of mistakes and turning them into usable data.
 
 ---
 

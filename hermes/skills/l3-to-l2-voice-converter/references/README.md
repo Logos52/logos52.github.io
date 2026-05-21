@@ -1,24 +1,30 @@
 # References for L3 → L2 Voice Converter Skill
 
-This folder contains references used by the skill.
+This folder contains the living references used by the `l3-to-l2-voice-converter` skill and its light evolution companion.
 
-## Current References
+## Current References (Canonical)
 
-- **writing-standards.md** — Link or copy of the project's Writing Standards
-- **rubric.md** — The current L3 → L2 evaluation rubric
-- **test-cases/** — Test cases used for developing and improving the converter
+- `style-feedback.md` — Living log of voice/signal refinements from real L2 → L1 (wiki) edits. Consulted on every converter run via the Pre-Write Integrity Pass. Primary source for daily improvement. (See "How to Add New Feedback" inside it.)
+- `voice-changelog.md` — Minimal one-line append log for changes applied via the light voice evolution skill or small manual converter tweaks. (Created as part of the lighter evolution plan.)
+- `feedback/` — (Reserved for future structured feedback artifacts; currently empty.)
 
-## Recommended Setup
+**External canonical sources (do not duplicate here unless symlinked):**
+- Writing Standards: `../../../00 Command Center/Writing Standards.md` (core principles baked into `../converter.md`; style-feedback provides the runtime Internal Check)
+- Evaluation Rubric & Test Cases (heavy evolution only): `../../evolution/references/rubric.md` and `../../evolution/references/test_cases/` (the 4 focused cases; not loaded at runtime by the daily converter or light skill)
+- Tiered output homes: `outputs/L3/` and `outputs/L2/` (with their own READMEs documenting naming `YYYY-MM-DD-*-L3.md` / `-L2.md`, workflow, and L3 → L2 → L1 promotion)
 
-For best results, either:
-1. Copy the relevant files into this folder, or
-2. Create symlinks pointing to the canonical versions in your project.
+## Recommended Workflow (Light Path Default)
+See the sibling `../light-voice-evolution/SKILL.md` and the top-level skill guidance in `../SKILL.md`. After any L2 → L1 edit, append to `style-feedback.md`. Use "Run light voice evolution" for synthesis/proposals. Heavy evolution tools (in `../../evolution/`) are available for scored experiments.
 
-Example (from the skill directory):
+## Recommended Setup (Symlinks if desired)
+
+For local convenience inside this references/ folder you may symlink key externals:
 
 ```bash
-ln -s ../../../Writing-Standards.md references/writing-standards.md
-ln -s ../../../tools/evolve/test_cases references/test-cases
+ln -s "../../../00 Command Center/Writing Standards.md" references/writing-standards.md
+# Test cases and rubric remain in the evolution/ tree (heavy path only)
 ```
 
-Update these links as your standards and test cases evolve.
+The light skill and converter are deliberately designed to read the canonical locations directly, so symlinks are optional.
+
+Update links and this README as the system evolves (light path + tiered outputs are now the norm).

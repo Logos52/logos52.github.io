@@ -4,7 +4,7 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-05-17
+updated: 2026-05-21
 tags:
   - system
 ---
@@ -12,6 +12,29 @@ tags:
 # Journal Calendar
 
 A lightweight chronological index for public journal entries and thinking-log updates. This is manually maintained so it works the same way in Obsidian and on the website.
+
+## 2026-05-21
+
+Promoted two attention-centered pages into the knowledge base.
+
+[[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: Training the Return Mechanism]] now frames focus as a return skill. A useful work block needs clean entry, distraction capture, environmental repair, and repeated return-to-anchor practice. The important metric is not perfect focus. The important metric is how quickly attention becomes usable again after it drifts.
+
+[[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]] gives the feed problem a sharper frame. Smooth systems steal time by removing decision points and memory anchors. The repair is a right-angle turn: open with a purpose, pre-decide the next move, create story-shaped memory, and exit when the original purpose is gone.
+
+Also tightened the synthesis writing system in [[00 Command Center/Writing Standards|Writing Standards]] and the L3 -> L2 converter. New pages should open with mechanism, action, condition, or observable pattern. Attribution openings, negative definitions, meta-commentary, skeleton compression, and template sameness are now explicit failure patterns.
+
+Cleaned up the front-facing pages in [[journal/2026-05-21-front-facing-pages-cleanup|Front-Facing Pages Cleanup]].
+
+The public surface now has a cleaner division of labor:
+
+```text
+Home -> short Start Here
+Index -> full catalog
+Journal -> current questions and current focus
+Calendar -> longer chronology
+About -> project explanation and bio
+Blog -> essays
+```
 
 ## 2026-05-17
 
@@ -419,3 +442,7 @@ Ran full evolution cycle on the `l3-to-l2-voice-converter` skill. Generated and 
 Cleaned up the skill by removing the Python diff-capture helper to keep everything pure Hermes/Grok. Updated `converter.md`, `SKILL.md`, and created journal entry + calendar update.
 
 Key outcome: The converter now has a mandatory internal check against `style-feedback.md` before rewriting, making manual L2 edits more effective at training the automation.
+
+## 2026-05-18 (continued)
+
+Implemented full Hermes Kanban board design for L4/L3/L2/L1 synthesis pipeline. Created orchestrator prompt, updated l3-to-l2-voice-converter with Kanban integration, and documented setup.

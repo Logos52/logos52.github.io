@@ -3,7 +3,7 @@ title: "About"
 description: "Short bio and orientation."
 type: about
 created: 2026-05-08
-updated: 2026-05-12
+updated: 2026-05-21
 tags:
   - system
 ---
@@ -12,21 +12,22 @@ tags:
 
 ## What This Is
 
-This is a personal, LLM-maintained knowledge base. The pattern is simple: I curate sources and ask questions; an LLM agent reads, summarizes, cross-references, and keeps a running synthesis here as durable, interlinked markdown pages. The goal is **accumulation** — every source ingested and every question asked makes the wiki a little richer, instead of disappearing into chat history.
+This site is a personal, LLM-maintained knowledge base. I curate sources and ask questions; an LLM agent reads, summarizes, cross-references, and keeps a running synthesis as durable, interlinked markdown pages. The goal is **accumulation**: every source ingested and every question asked should make the knowledge base more useful instead of disappearing into chat history.
 
-If you're new to the idea, the [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]] page explains the pattern, and the [[README|README]] explains how this particular vault is set up.
+For the underlying pattern, start with [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]. For the repo structure, see [[README]]. For the agent operating contract, see [[AGENTS]].
 
 ## How This Is Built
 
-This knowledge base lives in an [Obsidian](https://obsidian.md) vault and is published as a static site by [Quartz v4](https://quartz.jzhao.xyz/). The full source is on GitHub at [logos52/logos52.github.io](https://github.com/logos52/logos52.github.io). For the philosophy behind the project, see [[README]]; for how the LLM agent maintains the vault, see [[AGENTS]]; for chronological history, see [[log]].
+The vault lives in [Obsidian](https://obsidian.md), publishes through [Quartz v4](https://quartz.jzhao.xyz/), and is hosted from [logos52/logos52.github.io](https://github.com/logos52/logos52.github.io). The [[log]] tracks the chronology.
 
 Code is MIT-licensed; written content is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## What I Write About
 
 - **Learning systems**: encoding, retrieval, metacognition, and self-regulation.
-- **Red Team thinking**: assumption checks, cultural empathy, groupthink mitigation, and decision support.
 - **Agentic engineering**: building software with LLM agents while preserving taste, verification, and ownership.
+- **Attention and environment**: focus, social media, minimalism, recovery, and decision friction.
+- **Red Team thinking**: decision support, frame testing, assumptions, and institutional bloat.
 - **Language learning**: immersion, attention, comprehension, and practical workflows.
 
 ## Links
@@ -41,5 +42,3 @@ Code is MIT-licensed; written content is released under [CC BY 4.0](https://crea
 I'm Wedge, @webigis on X. I use this site as a public home for notes on learning, metacognition, language acquisition, Red Team thinking, language learning, and building with AI agents.
 
 My current focus is turning useful information into working systems: study workflows, decision-making tools, and practical ways to use LLMs as collaborators rather than just chat interfaces.
-
-The [[journal/index|Journal]] is the public thinking dashboard for the site: current questions, active threads, possible essays, and a light dated log. The wiki vault remains the operational system; the Journal is only the public surface of what is worth thinking through in the open.

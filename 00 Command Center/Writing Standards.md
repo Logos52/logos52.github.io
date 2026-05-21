@@ -2,7 +2,7 @@
 type: system
 status: developing
 created: 2026-05-08
-updated: 2026-05-15
+updated: 2026-05-21
 tags:
   - system
   - writing
@@ -60,6 +60,111 @@ Avoid:
 - and generic background that does not serve the page.
 
 Preserve strong existing language unless there is a clear reason to change it.
+
+## Enforcement Rules
+
+These rules catch the patterns that most often make drafts feel wrong.
+
+### Start With The Mechanism
+
+Open pages, Core Thesis sections, and major sections with a mechanism, action, condition, observable pattern, or decision point.
+
+Avoid openings that start with:
+
+- the page title or exact subject label;
+- the source name;
+- attribution language;
+- negative contrast;
+- vague insight language.
+
+Good:
+
+```text
+Curvilinear design removes the decision points that keep attention awake and memory anchored.
+Focus Management trains the ability to enter a work block, notice attention drifting, and return to the intended task quickly enough that the block remains useful.
+Objects often preserve decisions the owner has stopped believing in.
+```
+
+Weak:
+
+```text
+Social media is not just a distraction.
+This source explains how social media affects time.
+Minimalism is not emptiness.
+The NX system was an attempt to make thought operational.
+```
+
+### Remove Attribution Drag
+
+Do not lead public-facing synthesis with attribution language.
+
+Avoid:
+
+```text
+The source argues...
+The author explains...
+Justin says...
+This article shows...
+The video is about...
+```
+
+Write the operating claim directly:
+
+```text
+Feeds compress time by weakening both present awareness and retrospective memory.
+```
+
+Attribution belongs in the Sources section unless the person's identity is the point of the page.
+
+### Remove Meta-Commentary
+
+Do not comment on the source or on the quality of the idea inside the wiki page.
+
+Avoid:
+
+```text
+This is one of the strongest ideas in the source.
+This section is important because...
+The source gives a useful framework...
+This is a high-signal takeaway...
+```
+
+Write the idea itself:
+
+```text
+Empty floor space functions as reserve capacity.
+```
+
+### Preserve Density
+
+Do not compress important ideas into skeleton notes. A useful synthesis usually needs:
+
+- mechanism;
+- causal chain;
+- practical implication;
+- failure mode;
+- practical feel when adoption depends on recognizing the experience;
+- links to the system pages it changes.
+
+Short notes are fine when the idea is small. Important ideas need enough substance to change behavior.
+
+### Vary The Shape
+
+Do not force every page into the same headers. Choose headings based on the source.
+
+Useful headings include:
+
+- `Core Thesis`
+- `Operating Model`
+- `Repair Sequence`
+- `What It Should Feel Like`
+- `Failure Modes`
+- `Practical Protocol`
+- `Decision Test`
+- `Right-Angle Turns`
+- `Relationship To...`
+
+If every page has the same headings, the writing has become template-shaped instead of source-shaped.
 
 ## Brief Style Reference (Live Clinic & Source Syntheses)
 

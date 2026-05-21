@@ -90,4 +90,6 @@ If Self-Regulation is the real-time driving skill, Self-Management is the ongoin
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset|Mindset]]
+- [[wiki/Self Management/Obsidian Dashboard|Obsidian Dashboard]] — A practical self-management system that surfaces priorities, projects, clients, deadlines, and open loops in a single live view.
+- [[wiki/Dimensions/30-Day Challenges/Self-Management|30-Day Self-Management Challenge]] — Four weeks of experiments to map your personal variables and strengthen the external conditions that support consistent execution.
 ```

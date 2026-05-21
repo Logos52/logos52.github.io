@@ -4,14 +4,27 @@ description: "Full index for the public LLM-maintained knowledge base."
 type: index
 hideFolderListing: true
 created: 2026-05-02
-updated: 2026-05-12
+updated: 2026-05-21
 tags:
   - system
 ---
 
 # Knowledge Base Index
 
-The complete catalog of pages, organized by topic. This is the long version — if you'd rather wander, just click around the graph.
+The complete catalog of pages, organized by topic.
+
+## Start Here
+
+| Page | Why start here |
+| --- | --- |
+| [[wiki/Syntheses/First Principles of ICS\|First Principles of ICS]] | High-level map of processing quality, strategies, and meta-strategies. |
+| [[wiki/Syntheses/Are You Learning, or Just Using Techniques\|Are You Learning, or Just Using Techniques]] | Diagnostic page for fake productivity and technique-shaped shortcuts. |
+| [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure\|Prestudy, BHS, and SIR]] | Current minimum study loop: frame, encode, retrieve, repair. |
+| [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block\|Focus Management: Training the Return Mechanism]] | Current focus system for entering work blocks and recovering from drift. |
+| [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time\|Social Media - Curvilinear Design & the Theft of Time]] | Current attention-protection frame for feeds, chatbots, and smooth continuation. |
+| [[wiki/Workflows/Knowledge Base as Thinking Partner\|Knowledge Base as Thinking Partner]] | Workflow for turning the site into questions, decisions, primers, and action. |
+
+## Full Catalog
 
 ### LLM wiki architecture
 
@@ -61,6 +74,7 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | [[wiki/Concepts/Metacognition - The Control Layer\|Metacognition: The Control Layer]] | concept | seed | Awareness and control of thinking during learning; the control layer for learning-to-learn. |
 | [[wiki/Techniques/Building the Radar\|Building the Radar]] | technique | seed | Practice for detecting shifts from active processing into passive consumption. |
 | [[wiki/Concepts/Are You Thinking, or Just Consuming\|Are You Thinking, or Just Consuming?]] | concept | seed | Distinguishes visible learning behaviors from the thought quality they produce. |
+| [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time\|Social Media - Curvilinear Design & the Theft of Time]] | concept | developing | Curvilinear feed design as a theft of attention, memory, and experienced time; repaired through right-angle turns, routes, and intentional choice. |
 | [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces\|The Technique Is Only as Good as the Thinking It Produces]] | concept | developing | Diagnostic principle for checking whether a technique is producing the intended cognition, not just a correct-looking artifact. |
 | [[wiki/Concepts/The Shortcut Problem\|The Shortcut Problem]] | concept | developing | Pattern where the brain avoids difficult learning by producing visible activity that bypasses the required thinking. |
 | [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue\|Cognitive Load & What Mental Effort Is Trying to Cue]] | concept | seed | Interprets mental effort, overload, and drowsiness as metacognitive signals. |
@@ -111,7 +125,7 @@ The complete catalog of pages, organized by topic. This is the long version — 
 | Page | Type | Status | Summary |
 | --- | --- | --- | --- |
 | [[wiki/Self Management/Flow State\|Flow State]] | concept | developing | High-output attention state protected by task clarity, environment, and reduced decision friction. |
-| [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block\|Focus Management: How to Enter & Recover Inside a Work Block]] | system | developing | Practical system for creating, maintaining, and recovering attention during study and work. |
+| [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block\|Focus Management: Training the Return Mechanism]] | system | developing | Practical system for entering focus, reducing distraction forces, and training the return mechanism inside study and work blocks. |
 | [[wiki/Self Management/Attention Management - Preserving Flow\|Attention Management: Preserving Flow]] | system | developing | Advanced day-level system for preserving flow across tasks by reducing transition friction and decisional delays. |
 | [[wiki/Self Management/Procrastination - a System Problem\|Procrastination: a System Problem]] | concept | developing | Treats avoidance as a system problem involving triggers, task friction, environment, and willpower dependence. |
 

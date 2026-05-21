@@ -51,8 +51,11 @@ Reference pages in the wiki:
 1. Add source notes to `raw/`.
 2. Compile durable concepts into `wiki/`.
 3. Save non-wiki-shaped artifacts (audits, briefs, diagrams, slides) in `outputs/`.
-4. Promote durable insights from `outputs/` back into `wiki/`.
-5. Run health checks and keep [[notes/index|notes/index.md]] plus [[log|log.md]] current.
+4. For agent-generated synthesis work: use the four-tier pipeline — L4 raw (in `raw/`) → L3 first-pass drafts (in `outputs/L3/`) → L2 voice-polished synthesis (in `outputs/L2/`, via `l3-to-l2-voice-converter` or the recommended light voice evolution skill) → L1 final wiki (promotion after human review).
+5. Promote durable insights from `outputs/` back into `wiki/`.
+6. Run health checks and keep [[notes/index|notes/index.md]] plus [[log|log.md]] current.
+
+After any L2 → L1 promotion, append concrete voice refinements (with before/after examples) to `hermes/skills/l3-to-l2-voice-converter/references/style-feedback.md` so the converter improves on future runs. Use "Run light voice evolution" for synthesis help.
 
 ## Main Areas
 
@@ -61,7 +64,7 @@ Reference pages in the wiki:
 - Wiki: `wiki/Concepts`, `wiki/Dimensions`, `wiki/Techniques`, `wiki/Syntheses`, `wiki/Workflows`, `wiki/Self Management`, `wiki/Decision Making`, `wiki/Language`, `wiki/Resources`
 - Red Teaming: `wiki/Red Team`
 - Books: `wiki/Books`
-- Outputs: `outputs/answers`, `outputs/briefs`, `outputs/diagrams`, `outputs/slides`, `outputs/audits`
+- Outputs: `outputs/answers`, `outputs/briefs`, `outputs/diagrams`, `outputs/slides`, `outputs/audits`, plus the synthesis tiers `outputs/L3/` (agent first-pass) and `outputs/L2/` (voice-polished L3 → L2 results via the converter / light-voice-evolution skill; see their READMEs and `hermes/skills/l3-to-l2-voice-converter/`)
 - Templates: `templates`
 - Tools: `tools`
 

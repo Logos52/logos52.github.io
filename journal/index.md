@@ -4,7 +4,7 @@ description: "Current questions, active threads, and public thinking log."
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-05-17
+updated: 2026-05-21
 tags:
   - system
 ---
@@ -13,52 +13,21 @@ tags:
 
 ## What's On My Mind
 
-- [[wiki/Dimensions/Deep Processing/Schema|What does strong schema formation look like across skill-based vs concept-heavy domains — and at what point is a schema detailed enough to generate novel applications reliably?]]
-- [[wiki/Workflows/Knowledge Base as Thinking Partner|How should I use the knowledge base as a thinking partner instead of only an archive?]]
 - [[journal/knowledge-base-as-thinking-partner-reflection|How do I use the knowledge base to free attention from bookkeeping without weakening my own thinking?]]
-- [[wiki/Syntheses/Minimally Viable Learning System|Is it possible to compress the learning system into a minimally viable system?]]
-- Can that compression also fit inside the five learning dimensions, so each dimension can be improved separately?
+- [[wiki/Workflows/Knowledge Base as Thinking Partner|How should this system act as a thinking partner instead of only an archive?]]
+- [[wiki/Syntheses/Minimally Viable Learning System|What is the minimum viable learning system right now, and where do agents or the knowledge base actually fit?]]
 - What usable frames should guide each Priority 0 skill: Agentic Engineering, Learning Systems, Vietnamese, 中文, Fitness, and Relationships?
 
 ## Current Focus
 
 - [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]: A technique only matters if it triggers the thinking the result requires. Beware clean-looking activity that avoids comparison, reconstruction, uncertainty, or judgment.
 - [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]]: Overwhelm is disorganized information. Turn confusion into a question, then use the question to organize the next move.
-- [[wiki/Syntheses/ICS System|ICS System]]: Control the learning process: prestudy, encode deeply, retrieve intelligently, reflect, and upgrade the system one constraint at a time.
 - [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]: Prestudy gives the frame, BHS builds the map, SIR keeps it retrievable. The goal is usable structure: building a stable mental model where information can sit.
-- [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]: Keep the full identity alive without making every interest active at once. Rotate deliberately, preserve momentum, and avoid false abandonment. Breadth belongs in Priority 0. Focus belongs in the active loop.
-- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]: Old habits win because they're cheap and automatic. New skills lose because they're expensive. Isolate the cue -> old response, write a replacement script, rehearse judgment until the new move feels obvious. Practice the bottleneck.
 - [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]]: The current minimum is BHS + SIR: encode usable structure, then retrieve, space, interleave, and repair it. Agentic Engineering and the knowledge base are adjacent systems being tested, not part of the minimum yet.
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: Training the Return Mechanism]]: A block becomes useful when attention can enter, drift, and return without forcing a full restart. The first metric is how long it takes to become usable.
+- [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]]: Smooth continuation steals time by removing decision points and memory anchors. The repair is a right-angle turn: purpose, route, choice, exit.
+- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]: Old habits win because they're cheap and automatic. New skills lose because they're expensive. Isolate the cue -> old response, write a replacement script, rehearse judgment until the new move feels obvious.
 - [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]: Reduce ownership cost so the environment becomes easier to act inside. Empty space is reserve capacity. Every object, workflow, subscription, and commitment charges attention, maintenance, and optionality.
-
-## Active Threads
-
-<div class="home-card-grid">
-  <a class="home-card" href="/wiki/Syntheses/ICS-System">
-    <strong>ICS System</strong>
-    <span>The learning system that anchors the study notes.</span>
-  </a>
-  <a class="home-card" href="/wiki/Dimensions/Deep-Processing/Bear-Hunter-System">
-    <strong>Bear Hunter System</strong>
-    <span>Encoding workflow built around Aim, Shoot, and Skin.</span>
-  </a>
-  <a class="home-card" href="/wiki/Dimensions/Retrieval/Spaced-Interleaved-Retrieval">
-    <strong>Spaced Interleaved Retrieval</strong>
-    <span>Retrieval system for spacing, interleaving, and gap repair.</span>
-  </a>
-  <a class="home-card" href="/wiki/Self-Management/Attention-Management">
-    <strong>Attention Management</strong>
-    <span>Managing attention across tasks without breaking flow.</span>
-  </a>
-  <a class="home-card" href="/wiki/Systems/AI-&-Agentic-Systems/Agentic-Engineering">
-    <strong>Agentic Engineering</strong>
-    <span>Best practices for building with LLM agents.</span>
-  </a>
-  <a class="home-card" href="/wiki/Red-Team/Red-Teaming">
-    <strong>Red Teaming</strong>
-    <span>Decision support, assumptions, groupthink, and cultural empathy.</span>
-  </a>
-</div>
 
 ## Possible Blog Posts
 
@@ -79,36 +48,20 @@ These are blank public shells for private Obsidian workflows. The templates can 
 
 ## Recent Log
 
+- [[journal/2026-05-21-front-facing-pages-cleanup|2026-05-21]]: Cleaned up the front-facing pages so Home, Index, Journal, Blog, and About each have a clearer role. Today's strongest pages now sit closer to the entrance of the site.
+- [[journal/calendar#2026-05-21|2026-05-21]]: Promoted two current high-value pages: [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: Training the Return Mechanism]] and [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]]. The shared theme is attention protection: enter work cleanly, recover quickly, and avoid smooth systems that dissolve time without creating memory.
+- [[journal/calendar#2026-05-21|2026-05-21]]: Tightened the writing system so new pages open with mechanism instead of attribution, negative framing, or meta-commentary. The goal is less "the source argues" and more usable operating models.
 - [[journal/calendar#2026-05-17|2026-05-17]]: Expanded the agentic side of the knowledge base. Added [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]], refined [[wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]], and updated [[AGENTS|AGENTS]] with model-specific guidance for Grok vs Hermes, local-agent access boundaries, and the `raw/sessions/` session-summary habit. The operating question is shifting from “which model is best?” to “which model should own which layer of the workflow?”
 - [[journal/calendar#2026-05-17|2026-05-17]]: Added the [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] section across the five learning dimensions: Mindset, Self-Management, Self-Regulation, Deep Processing, and Retrieval. The challenges make each dimension practiceable instead of purely descriptive: four weekly arcs that turn the dimension model into concrete experiments.
 - [[journal/calendar#2026-05-17|2026-05-17]]: Continued refining [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] around learning assets and the Five Dimensions. The page now connects technique mastery to four requirements: understand, remember, apply, and perform consistently under pressure.
-- [[journal/calendar#2026-05-16|2026-05-16]]: Refined the post-restructure wiki around learning-system architecture. The five learning dimensions now read more like diagnostic control surfaces, with clearer failure modes and supporting techniques for Deep Processing, Retrieval, Mindset, Self-Management, and Self-Regulation. Added [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] as the bridge between top-performer learning, learning assets, and the Five Dimensions.
-- [[journal/calendar#2026-05-16|2026-05-16]]: Added [[wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]] to document the current multi-model workflow: Grok for high-level framing and coherence, Hermes/Aider for local file execution, link hygiene, and structural cleanup. This makes the agent workflow itself part of the knowledge-base architecture instead of just an invisible work habit.
-- [[journal/calendar#2026-05-16|2026-05-16]]: Restructured the knowledge base around the actual operating model instead of the old generic buckets. Study pages moved out of the flat Techniques/Concepts sprawl and into [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]: Deep Processing, Retrieval, Mindset, Self-Management, and Self-Regulation. AI and tooling pages moved into Systems, while the public navigation stayed cleaner and less overloaded. This makes the site feel more like a working system: dimensions as control surfaces, systems as domains of practice, and outputs as the staging layer before durable wiki integration.
-- [[journal/calendar#2026-05-16|2026-05-16]]: Created [[outputs/briefs/GPT - How to Rest So Well You Never Feel Exhausted Again|GPT - How to Rest So Well You Never Feel Exhausted Again]] and moved the remaining clipping inbox files into local raw sources. The useful recovery frame: rest has to match the depleted system. Low-effort stimulation can keep attention active, while real recovery uses detachment, mastery, control, and low-load environments to restore capacity.
-- [[journal/calendar#2026-05-15|2026-05-15]]: Created output briefs for [[outputs/briefs/GPT - Live Clinic 61 Opening the Black Box of Learning|Live Clinic 61: Opening the Black Box of Learning]] and [[outputs/briefs/GPT - Watch This To Force Your Brain To Study FASTER|Watch This To Force Your Brain To Study FASTER]]. Live Clinic 61 reframes the black box as the inspectable process layer between learning inputs and outputs. Study Faster sharpens the schema formation model: construction, assimilation, and frequent reorganization.
-- [[journal/calendar#2026-05-14|2026-05-14]]: Created [[wiki/Dimensions/Deep Processing/Schema|Schema]] as a dedicated concept hub. Three cognitive pillars (construction, assimilation, reorganization) map directly onto Prestudy/Aim, Shoot, Skin. Logged the schema assimilation vs accommodation distinction in the calendar — assimilation extends the existing schema; accommodation restructures it when the shape is wrong.
-- [[journal/calendar#2026-05-14|2026-05-14]]: Added [[wiki/Concepts/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated]] — DFUZ and thought-action defusion. Motivation dependence makes consistency structurally impossible; the fix is separating feeling from action, then using the bidirectional loop (actions change thoughts change feelings) to build uptime gradually.
-- [[journal/calendar#2026-05-14|2026-05-14]]: Compiled wiki pages from Live Clinics 64, 65, and 66 — [[wiki/Concepts/Deep Processing for Research|Deep Processing for Research]], [[wiki/Concepts/How to maintain sustainable energy under pressure|How to maintain sustainable energy under pressure]], and [[wiki/Concepts/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]. Added [[wiki/Concepts/Best-attempt Encoding|Best-attempt Encoding]] as a standalone practical guide.
-- [[journal/knowledge-base-as-thinking-partner-reflection|2026-05-13]]: Reflected on [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] and the risk that the system could create passive connection-browsing instead of stronger first-brain schema building.
-- [[journal/calendar#2026-05-13|2026-05-13]]: Added [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] to Current Focus and set Minimalism graph nodes to black in light mode and white in dark mode.
-- [[journal/calendar#2026-05-12|2026-05-12]]: Simplified Home into a graph-first entrance and moved the longer project explanation into About.
-- [[journal/calendar#2026-05-12|2026-05-12]]: Added Current Focus cues to the Journal and Home pages, compiled [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]], and folded the older unlearning page into the new synthesis.
-- [[journal/calendar#2026-05-11|2026-05-11]]: Built the first large outputs layer from GPT, Grok, and Opus synthesis passes, then converted the highest-value Live Clinic work into ICS synthesis pages.
-- [[journal/calendar#2026-05-10|2026-05-10]]: Made raw sources local-only, cleaned the wiki architecture, regenerated Applied Critical Thinking, and started the outputs/briefs workflow at scale.
-- [[journal/red-team-pruning|2026-05-09]]: Pruned the Red Team section down to the identity page, mapped the deleted wiki pages to what I would cut from the handbook, and drafted commentary on Red Team's closure.
-- [[journal/calendar#2026-05-09|2026-05-09]]: Added Journal as the public thinking dashboard for current questions, active threads, possible essays, and a light dated log.
-- [[journal/calendar#2026-05-08|2026-05-08]]: Tightened the public site around the knowledge base: homepage, graph behavior, clean layout, Index, and active learning/decision-making pages.
-- [[journal/calendar#2026-05-07|2026-05-07]]: Converted the project into a personal Quartz site, added the Red Team and ICS hubs, and iterated on public navigation, graph color, typography, and visual style.
-- [[journal/calendar#2026-05-06|2026-05-06]]: Created the initial Quartz-backed repository and published the first version of the LLM-maintained knowledge base.
+
+Older entries live in [[journal/calendar|Journal Calendar]].
 
 ## Rituals / Review Prompts
 
 - What question keeps returning?
-- What active thread deserves one focused session?
-- What belongs in the wiki, what belongs in a blog post, and what should stay private?
+- What current focus page deserves one real session?
 - What did the knowledge base help me understand this week?
-- What page should be split, renamed, or retired?
 
 ## Calendar
 

@@ -11,7 +11,7 @@ tags:
 
 # 30-Day Challenges
 
-These pages turn the five learning dimensions into short practice arcs.
+These pages turn the five learning dimensions into short practice arcs with full week-by-week detail.
 
 - [[wiki/Dimensions/30-Day Challenges/Mindset|30-Day Challenge - Mindset]]
 - [[wiki/Dimensions/30-Day Challenges/Self-Management|30-Day Challenge - Self-Management]]

@@ -560,3 +560,37 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Applied Variant D as active prompt (v0.5).
 - Removed Python helper script to keep skill pure.
 - Created journal entry and updated calendar.
+
+## [2026-05-18] maintenance | Hermes Kanban synthesis board setup
+
+- Designed and documented full L4→L1 Kanban board (`kb-synthesis`)
+- Created orchestrator prompt and setup guide
+- Updated l3-to-l2-voice-converter (v0.6) with Kanban support
+- Everything built in one pass as requested
+
+## [2026-05-19] output | Tax Inspections in Vietnam 2025 synthesis
+
+- Created [[outputs/briefs/Tax Inspections in Vietnam in 2025 - Understanding for Foreign Investors|Tax Inspections in Vietnam in 2025 - Understanding for Foreign Investors]] as a new practical brief in `outputs/briefs/`.
+- Synthesized directly from the Alitium YouTube clipping in `Clippings/`.
+- Structured as operational guidance: 2025 Law 56 changes, digital risk selection model, inspection lifecycle, common documentation failure points, and a clear annual preparation playbook (Tax Inspection Master File + response protocol).
+- Focused on foreign-invested enterprise perspective; kept actionable and free of transcript artifacts.
+
+## [2026-05-21] compile | Focus Management return mechanism
+
+- Created [[outputs/briefs/GPT - How To Improve Your Focus Permanently|GPT - How To Improve Your Focus Permanently]] as the working output brief.
+- Promoted the synthesis into [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: Training the Return Mechanism]].
+- Reframed Focus Management around distraction threshold, environmental and interactive forces, the distraction cheat sheet, FIT training, neural entrainment, and return speed.
+- Updated [[notes/index|Notes Index]] with the new page title and summary.
+
+## [2026-05-21] compile | Curvilinear design and time theft
+
+- Reworked [[outputs/briefs/GPT - How Social Media Shortens Your Life|GPT - Social Media - Curvilinear Design & the Theft of Time]] around the transferable concept of curvilinear design.
+- Created [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]].
+- Integrated the source with attention management, flow preservation, decisional delays, digital minimalism, chatbot design risks, and knowledge-base browsing risks.
+- Updated [[notes/index|Notes Index]].
+
+## [2026-05-21] maintenance | Front-facing page cleanup
+
+- Cleaned up [[index|Home]], [[notes/index|Index]], [[journal/index|Journal]], [[journal/calendar|Journal Calendar]], [[blog/index|Blog]], and [[about|About]] so each front-facing page has a clearer job.
+- Added [[journal/2026-05-21-front-facing-pages-cleanup|Front-Facing Pages Cleanup]] as a short public journal entry.
+- Moved today's strongest pages closer to the entrance of the site: [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: Training the Return Mechanism]] and [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]].

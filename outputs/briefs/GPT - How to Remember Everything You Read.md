@@ -3,7 +3,7 @@ title: "GPT - How to Remember Everything You Read"
 type: brief
 status: draft
 created: 2026-05-10
-updated: 2026-05-10
+updated: 2026-05-20
 model: GPT-5.5
 source: "raw/sources/How to Remember Everything You Read.md"
 source_url: "https://www.youtube.com/watch?v=okHkUIW46ks"
@@ -20,293 +20,264 @@ tags:
 
 ## Core Thesis
 
-Justin Sung's core argument is that remembering what you read is not mainly a consumption problem. It is a digestion problem. Most learners try to fix forgetting by reading faster, reading more, watching more videos, or taking more notes. That usually increases input without increasing usable knowledge.
+Remembering what you read is a digestion problem, not consumption. Reading, watching, and listening only bring information into the system; the gain comes from what happens after the information enters. The mechanism is PACER: classify the information as procedural, analogous, conceptual, evidence, or reference, then apply the matching digestion move. Procedural information needs practice, analogous information needs critique, conceptual information needs mapping, evidence needs contextual rehearsal, and reference information needs direct recall or storage. This keeps consumption and digestion balanced so the learner builds usable memory instead of a pile of familiar fragments. The benefit is retention that can be used: less rereading, less future repair work, cleaner conceptual structure, and knowledge that supports reasoning, problem-solving, teaching, writing, or action.
 
-The better question is not "how do I remember everything?" It is "what kind of information is this, and what processing step does it need so I can use it later?"
+## Key Takeaways
 
-The source introduces **PACER** as a category system for reading:
+1. **Reading has two stages.** Consumption brings information in; digestion decides what stays and how it can be used.
+2. **The target is usable memory.** The goal is not perfect recall. The goal is remembering what matters in a structure that supports reasoning, problem-solving, teaching, writing, or action.
+3. **Information types need different processing moves.** PACER separates procedural, analogous, conceptual, evidence, and reference information so each receives the right digestion method.
+4. **Procedural information needs practice.** If the information tells you how to do something, use it quickly.
+5. **Analogous information needs critique.** The value comes from testing the relationship, not merely noticing a similarity.
+6. **Conceptual information needs mapping.** Concepts live in networks, so digestion should rebuild relationships rather than preserve source order.
+7. **Evidence needs contextual rehearsal.** Store it, then use it later to support explanations, arguments, examples, or problem-solving.
+8. **Reference needs direct recall or searchable storage.** Exact details should be stored cleanly and rehearsed only when memory is actually required.
+9. **Overconsumption creates future debt.** If digestion cannot keep up, the better move is usually to slow the input.
 
-- **P**rocedural
-- **A**nalogous
-- **C**onceptual
-- **E**vidence
-- **R**eference
+## The Operating Model
 
-Each category needs a different digestion process. If the learner uses the wrong process, effort is wasted and forgetting increases.
+```text
+consume information
+-> classify the information type
+-> apply the matching digestion process
+-> encode into usable structure
+-> rehearse or apply later as needed
+-> retrieve in the form the work requires
+```
 
-## Compressed Takeaways
+The failure pattern:
 
-1. **Consumption and digestion are separate stages.** Reading is only stage one. Learning requires stage two.
-2. **More input can make learning worse.** Undigested information creates overload and future rework.
-3. **The goal is usable memory, not perfect recall.** Remembering everything word-for-word is not the same as understanding or applying.
-4. **Different information needs different processing.** Procedural, analogous, conceptual, evidence, and reference information should not be treated the same way.
-5. **Procedural information needs practice.** If the information tells you how to do something, use it as early as possible.
-6. **Analogous information needs critique.** If it reminds you of something else, test where the analogy works and where it breaks.
-7. **Conceptual information needs mapping.** If it explains relationships, principles, or theories, build a nonlinear structure.
-8. **Evidence and reference need storage and rehearsal.** Do not waste prime reading time trying to memorize details.
+```text
+consume too much
+-> fail to classify
+-> use one generic note-taking method
+-> forget or create shallow familiarity
+-> reread later
+-> pay the same cost again with interest
+```
 
-## The Two Stages of Reading
+The repair:
 
-The source splits reading into two stages:
+```text
+slow down input
+-> identify PACER type
+-> digest before continuing
+-> store only what should be stored
+-> rehearse only what needs rehearsal
+-> preserve attention for high-value processing
+```
 
-1. **Consumption**: information enters the brain.
-2. **Digestion**: information is processed, encoded, connected, practiced, rehearsed, or stored.
+## Consumption And Digestion
 
-Most people over-focus on consumption. They read faster, binge more, listen at higher speed, or collect more notes. But the main determinant of useful learning is what survives and becomes usable.
+Consumption is exposure. Digestion is transformation.
 
-This maps directly to [[wiki/Dimensions of Learning/Deep Processing|Deep Processing]] and [[wiki/Dimensions of Learning/Retrieval|Retrieval]]. Reading creates exposure. Digestion creates usable knowledge.
+Consumption includes reading a book, watching a lecture, listening to an audiobook, scanning an article, or clipping a source. Digestion is the work that makes the information survive in a useful form: practicing it, mapping it, critiquing it, rehearsing it, connecting it, or storing it.
 
-The practical rule:
+These two stages have to stay balanced. More input is only valuable when the system can process it. When input runs ahead of digestion, the learner may feel productive while quietly creating future relearning work. The visible session looks full; the durable gain stays thin.
+
+The useful constraint:
 
 > Every meaningful unit of consumption needs a matching digestion step.
 
-If there is no time to digest the information, the learner should usually consume less.
+If there is no time or energy to digest, the practical move is usually to consume less.
 
-## Why "Remember Everything" Is the Wrong Goal
+## PACER
 
-The source uses Kim Peek as an example of extreme memory without equivalent reasoning ability. Perfect recall can be impressive, but it is not the main target for adult learning, professional learning, or high-level academic work.
+PACER is a triage system for deciding what kind of digestion a piece of information needs.
 
-The useful target is:
+| Type | What It Is | Digestion Move |
+| --- | --- | --- |
+| **Procedural** | How to do something | Practice |
+| **Analogous** | Related to something already known | Critique the analogy |
+| **Conceptual** | Principles, explanations, relationships, theories | Map |
+| **Evidence** | Examples, cases, dates, statistics, proof material | Store and rehearse in context |
+| **Reference** | Exact details, labels, names, values, lookup facts | Store and rehearse directly if needed |
 
-- remember what matters,
-- in the right structure,
-- with the right connections,
-- so it can be applied later.
-
-This distinction is important because many learners confuse memory volume with knowledge quality. A person can remember a lot and still fail to reason, solve problems, transfer ideas, or make decisions.
-
-For this knowledge base, the better phrase is **usable memory** rather than total memory.
-
-## PACER Overview
-
-PACER is a triage system. While reading, identify what type of information you are dealing with, then apply the correct processing method.
-
-| Type | What It Is | Processing Method |
-|---|---|---|
-| Procedural | How to do something | Practice |
-| Analogous | Related to something you already know | Critique the analogy |
-| Conceptual | Explanations, principles, relationships, theories | Map |
-| Evidence | Concrete examples, cases, data, proof | Store and rehearse in context |
-| Reference | Specific details you may need later | Store and rehearse directly |
-
-The point is not to create labels for their own sake. The point is to prevent mismatched effort. A learner should not spend heavy reading time memorizing reference details when the real bottleneck is conceptual structure.
+The point is not labeling for its own sake. The point is effort allocation. Each type earns a different kind of attention.
 
 ## Procedural Information
 
-Procedural information tells you how something should be done.
+Procedural information tells you how to do something.
 
 Examples:
 
-- a coding technique,
-- a language pronunciation pattern,
-- a clinical examination method,
-- a workflow,
-- a step-by-step process,
-- a skill execution rule.
+- a coding technique;
+- a pronunciation pattern;
+- a workflow;
+- a clinical or physical procedure;
+- a step-by-step skill rule;
+- a study method.
 
-The digestion process is **practice**.
+The digestion move is practice.
 
-The mistake is to read procedural information, take notes on it, and delay execution for days or weeks. By then, much of the usable detail is gone. Procedural information should be applied as early as possible, even in a rough or limited way.
+Procedural information decays quickly when it stays abstract. The useful memory is built through use: doing the move, seeing where execution breaks, and adjusting. Notes can support the practice, but they cannot replace it.
 
 Practical rule:
 
-> If the source tells you how to do something, stop reading soon enough to do the thing.
+> If the information tells you how to do something, stop reading early enough to try the thing.
 
-This connects to [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] because procedural information often belongs in the [[wiki/Techniques/Shoot|Shoot]] phase. The learner should test the action, not just preserve the instruction.
+This connects to [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]. Experience exposes the gap, reflection diagnoses it, abstraction names the adjustment, and the next attempt tests it.
 
 ## Analogous Information
 
-Analogous information is new information that relates to something you already know.
+Analogous information links new material to something already known.
 
-It may be directly related to prior knowledge, or it may remind you of something from another field. This is powerful because it connects new information to an existing network.
+The digestion move is critique.
 
-The digestion process is **critique**.
+A useful analogy is not just a resemblance. It is a tested relationship. The learning happens when the analogy is examined:
 
-Questions to ask:
-
-- What exactly is similar?
-- What exactly is different?
+- What is actually similar?
+- What is different?
 - Where does the analogy break?
-- What conditions make the analogy useful?
-- What conditions make it misleading?
-- Is there a better analogy?
-- Can the analogy be modified to become more accurate?
+- What condition makes it useful?
+- What condition makes it misleading?
+- Can it be extended, narrowed, or replaced?
 
-The important point is that analogy alone is not enough. The learning gain comes from testing the analogy. That act of comparison increases depth, relevance, and retention.
+Critiquing the analogy strengthens attention and depth because the new idea is not floating alone. It gets attached to an existing knowledge network with boundaries.
 
-This links naturally to [[wiki/Dimensions of Learning/Deep Processing|Deep Processing]] because critique forces comparison, discrimination, and relationship-building.
+This is a [[wiki/Dimensions/Deep Processing|Deep Processing]] move because it forces comparison, discrimination, and relationship-building.
 
 ## Conceptual Information
 
-Conceptual information includes facts, explanations, principles, theories, relationships, and applications.
+Conceptual information explains what something is, how it works, what causes what, and how ideas relate.
 
-The digestion process is **mapping**.
+The digestion move is mapping.
 
-Sung argues that conceptual knowledge exists as a network. A textbook or lecture presents information linearly because language is linear, but expert knowledge is not linear. Experts can start at many points and move flexibly across related concepts.
+Conceptual knowledge is networked. A page, lecture, or video presents ideas in a sequence because language is sequential, but the knowledge itself is not a line. Expert knowledge is flexible: one concept can lead to another through multiple paths, depending on the problem being solved.
 
-The learner's job is not to memorize the source sequence. The learner's job is to rebuild the network.
+Mapping rebuilds that network.
 
-Practical mapping rules:
+Good conceptual digestion:
 
-- Do not merely copy headings.
-- Do not create a linear outline unless the structure is genuinely linear.
-- Put concepts into relationship with each other.
-- Move ideas around as understanding improves.
-- Make the map cleaner as the concept becomes clearer.
-- Use analogies inside the map when they improve understanding.
+- groups related ideas;
+- names relationships;
+- separates central concepts from supporting detail;
+- moves ideas around as understanding changes;
+- preserves dependencies and contrasts;
+- builds a structure that can later be reconstructed.
 
-This connects directly to [[wiki/Techniques/Aim|Aim]], [[wiki/Techniques/Shoot|Shoot]], and [[wiki/Techniques/Skin|Skin]]:
+This connects directly to [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]:
 
-- Aim: decide what the map needs to answer.
-- Shoot: build and revise the map while consuming.
-- Skin: clean the map into a final retrievable structure.
+- [[wiki/Dimensions/Deep Processing/Aim|Aim]] creates the question frame.
+- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] builds the working structure.
+- [[wiki/Dimensions/Deep Processing/Skin|Skin]] cleans the map into something retrievable.
 
 ## Evidence Information
 
-Evidence information makes conceptual information concrete.
+Evidence makes conceptual information concrete.
 
 Examples:
 
-- dates,
-- cases,
-- events,
-- statistics,
-- studies,
-- examples,
-- named incidents,
+- cases;
+- dates;
+- events;
+- statistics;
+- studies;
+- examples;
+- named incidents;
 - supporting details.
 
-The digestion process is **store and rehearse**.
+The digestion move is store and rehearse in context.
 
-Evidence should be captured somewhere reliable, but it should not dominate the reading session. The learner should store it, then later rehearse it by using it in context.
+Evidence should be captured reliably, but it should not dominate the reading session. Its value comes from what it supports. Later rehearsal should use the evidence inside an explanation, argument, comparison, answer, essay, or teaching attempt.
 
-Good rehearsal for evidence looks like:
+Good evidence rehearsal asks:
 
-- using the evidence to support a concept,
-- writing an explanation that includes it,
-- answering a question with it,
-- teaching the concept with that example,
-- comparing it against another case,
-- deciding when the evidence applies and when it does not.
+- What concept does this support?
+- When would I use this example?
+- What claim does it make more concrete?
+- What comparison does it enable?
+- What question could this help answer?
 
-Evidence is not just trivia. It is proof material. Its value depends on the concept it supports.
+Evidence is not trivia. It is proof material attached to a conceptual structure.
 
 ## Reference Information
 
-Reference information is specific detail that may be needed later but does not substantially change conceptual understanding.
+Reference information is exact detail that may need to be available later.
 
 Examples:
 
-- exact values,
-- names,
-- variables,
-- labels,
-- technical terms,
-- identifiers,
-- small lists,
-- details needed for direct recall.
+- names;
+- values;
+- labels;
+- definitions;
+- variables;
+- technical terms;
+- small lists;
+- identifiers.
 
-The digestion process is also **store and rehearse**, but the rehearsal is usually more direct than with evidence.
+The digestion move is store and rehearse directly if memory is required.
 
-If the information must be recalled from memory, use spaced repetition or flashcards. If it only needs to be available later, store it somewhere searchable.
+Some reference information needs to be memorized. Use active recall or spaced repetition. Other reference information only needs to be searchable. Store it cleanly and move on.
 
-The key warning:
+The key is not to spend premium reading attention repeatedly rereading exact details while the conceptual and procedural work is still unfinished. Reference is usually easier to handle later than concepts, analogies, and procedures.
 
-> Do not spend high-value reading time rereading reference details in an attempt to force memory.
-
-That time is usually better spent on procedural, analogous, and conceptual information.
-
-This links to [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] because reference information often benefits from scheduled active recall, but only after it has been correctly categorized.
-
-## The Consumption-Digestion Balance
-
-The source repeatedly returns to one practical constraint: stage one and stage two must stay balanced.
-
-If consumption runs ahead of digestion:
-
-- the learner feels productive,
-- notes accumulate,
-- comprehension becomes shallow,
-- details are forgotten,
-- future review becomes harder,
-- the same source must be re-consumed later.
-
-This is the learning equivalent of overeating. The learner is not failing because they lack discipline. They are failing because the system creates more intake than the brain can process.
-
-The practical fix is simple but uncomfortable:
-
-1. Consume less.
-2. Digest sooner.
-3. Use the right digestion method.
-4. Only continue when the information has somewhere to go.
+This connects to [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] when direct memory is needed.
 
 ## Reading Workflow
 
-A practical PACER-based reading session:
+Use this sequence while reading:
 
-1. **Preview the source.** Identify whether it is mostly procedural, conceptual, evidence-heavy, reference-heavy, or analogy-rich.
-2. **Read in small units.** Do not wait until the end to process.
-3. **Label the information type.** Ask what kind of information this is.
-4. **Apply the matching process.**
-5. **Stop when digestion falls behind.** More reading is not the fix.
-6. **Return later for rehearsal.** Evidence and reference details can be rehearsed after the main reading session.
-7. **Use retrieval to test survival.** Rebuild, explain, apply, or flashcard depending on type.
+1. Preview the source.
+2. Read in small units.
+3. Classify the information type.
+4. Apply the matching digestion move.
+5. Stop when digestion falls behind.
+6. Store evidence and reference cleanly.
+7. Rehearse later in the correct form.
+8. Retrieve the information in the form the work actually requires.
 
-## What This Should Feel Like
+The question is not:
 
-When PACER is working, reading should feel more selective and controlled.
+> How much can I get through?
 
-It should feel like:
+The better question:
 
-- You know why a detail matters.
-- You stop earlier than usual.
-- You switch modes depending on the information type.
-- You practice procedural information quickly.
-- You critique analogies instead of accepting them.
-- You map concepts instead of copying paragraphs.
-- You store details without obsessing over them.
-- You remember less total text but more usable structure.
+> What kind of information is this, and what does it need before I move on?
 
-It should not feel like:
+## What It Should Feel Like
 
-- binge-reading,
-- highlighting everything,
-- rereading to force memory,
-- making long notes from every paragraph,
-- treating all information as equally important,
-- delaying all processing until later,
-- confusing storage with learning.
+Good reading should feel selective and controlled.
 
-## Links Into the Knowledge Base
+Useful signs:
 
-Relevant existing pages:
+- reading slows down at important points;
+- the information has an obvious next action;
+- concepts begin forming a map;
+- evidence attaches to claims;
+- procedural ideas turn into attempts;
+- exact details are stored without hijacking the session;
+- less material is consumed, but more survives.
 
-- [[wiki/Syntheses/ICS System|ICS System]]
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Aim|Aim]]
-- [[wiki/Techniques/Shoot|Shoot]]
-- [[wiki/Techniques/Skin|Skin]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Dimensions of Learning/Deep Processing|Deep Processing]]
-- [[wiki/Dimensions of Learning/Retrieval|Retrieval]]
-- [[wiki/Dimensions of Learning/Self-regulation|Self-regulation]]
-- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
+Warning signs:
 
-Possible new or expanded pages:
+- the source keeps moving faster than the map;
+- everything is treated as a note;
+- exact details steal attention from structure;
+- procedures are preserved but not tried;
+- analogies are noticed but not tested;
+- the session creates familiarity without usable memory.
 
-- **PACER**
-- **Consumption vs Digestion**
-- **Usable Memory**
-- **Procedural Information**
-- **Analogous Information**
-- **Conceptual Mapping**
-- **Evidence vs Reference**
+## Implications For My System
+
+[[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]] should treat PACER as a source-processing lens. Not every source should become the same kind of note.
+
+[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] should handle procedural, analogous, and conceptual material while the source is still active.
+
+[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] should handle evidence and reference material when it needs to survive as recall.
+
+[[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] should help classify and digest sources, but it should not replace first-brain digestion. The system is strongest when it helps decide the right processing move and then prompts active reconstruction.
+
+[[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] is the warning light. If the knowledge base is collecting source after source without matching digestion, it has become a more elegant version of overconsumption.
 
 ## Open Questions
 
-1. Should PACER become its own dedicated public wiki page?
-2. Should PACER be integrated into Bear Hunter System as a reading triage tool?
-3. Should Evidence and Reference be split into separate technique pages, or kept as one storage/rehearsal note?
-4. Should the wiki standardize a "what this should feel like" section for all major learning techniques?
-5. Should output briefs become the normal first pass before source material is promoted into stable wiki pages?
+- Do I classify information while consuming, or do I dump everything into the same note format?
+- Which current sources are mostly procedural, conceptual, evidence-heavy, or reference-heavy?
+- Where am I using retrieval for information that actually needs mapping first?
+- Where am I mapping information that only needs storage and direct recall?
+- Can the wiki help me build PACER prompts for source ingestion?
 
+## Source
+
+- `raw/sources/How to Remember Everything You Read.md`
