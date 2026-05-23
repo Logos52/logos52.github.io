@@ -1,3 +1,16 @@
+---
+title: "Don't Outsource the Learning"
+type: concept
+status: developing
+created: 2026-05-23
+updated: 2026-05-23
+source-count: 1
+tags:
+  - ai-use
+  - learning
+  - cognitive-offloading
+---
+
 # Don't Outsource the Learning
 
 ## Core Thesis
@@ -7,6 +20,8 @@ The central finding is precise: the tool doesn't determine the outcome — the p
 That intent requires a deliberate workflow — the default is optimised for closing tasks, not building understanding. The friction AI removes was also where comprehension was built. The fix isn't to use AI less; it's to restructure the prompting sequence: form a hypothesis before asking, request explanation before code, and treat generated output the way you'd treat a pull request. Small posture shifts inside the same tools — and they're what separate engineers who grow alongside AI from those who quietly lose ground to it.
 
 The tools won't choose this posture for you. They're optimised for shipping, not for learning. That second metric is self-directed — and the only way to track it is to start asking, at the end of each session, whether you moved.
+
+For a broader workflow that uses AI without handing over schema formation, see [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]].
 
 ## Compressed Takeaways
 
@@ -157,6 +172,7 @@ Warning signs:
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — the posture distinction maps directly here: passive copy-paste vs. active conceptual engagement
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — cognitive debt is the long-run version of offloaded cognitive load; effort not spent now is understanding not built
 - [[wiki/Live Clinic 60 The Right vs Wrong Way to Use AI|Live Clinic 60: The Right vs Wrong Way to Use AI]] — direct overlap on the posture-over-tool argument
+- [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]] — practical learning workflow that uses AI for friction removal while keeping schema ownership with the learner
 
 ## Open Questions
 

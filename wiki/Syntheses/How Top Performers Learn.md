@@ -2,7 +2,7 @@
 type: synthesis
 status: developing
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-05-23
 tags:
   - learning
   - high-performers
@@ -19,6 +19,8 @@ They understand that success isn’t about finding a single perfect method, but 
 ## Core Thesis
 
 Top performers are learning engineers. Instead of hunting for the one “best” technique, they open the black box of how learning actually works in the brain. They deliberately design, test, and refine a comprehensive personal learning system that can handle varying demands, contexts, and levels of difficulty.
+
+Related operating pages now split two important extensions: [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]] explains what happens when natural processing strength outruns strategy, and [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]] shows how AI can accelerate a learning system without replacing schema formation.
 
 ## Key Takeaways
 
@@ -76,3 +78,5 @@ When developing a new technique, the weakest dimensions for that technique are i
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Self-Regulation/Opening the Black Box of Learning|Opening the Black Box of Learning]]
 - [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]
+- [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]
+- [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]]

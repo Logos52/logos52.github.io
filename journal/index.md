@@ -4,7 +4,7 @@ description: "Current questions, active threads, and public thinking log."
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-05-21
+updated: 2026-05-24
 tags:
   - system
 ---
@@ -31,6 +31,13 @@ Older entries in [[journal/calendar|Journal Calendar]].
 
 - **How This was Built** — A dated account of building this site from Karpathy's LLM knowledge-base idea, Obsidian, Quartz, and several AI coding agents as collaborators.
 - [[blog/on-red-teams-closure|On Red Team's Closure]] — The institutional version became too bloated; the lean two-week course was still worth preserving.
+
+## Possible Paths
+
+Exploratory architecture and system directions logged for future reference. These are not active commitments.
+
+- [[journal/2026-05-23-Possible-Paths-Self-Updating-Wiki-and-LLM-Wiki-Integration|Self-Updating Wiki and LLM-Wiki Integration]] — Karpathy/Hermes-style compounding markdown KB patterns, how they might integrate with (or run alongside) the current 4-tier L4→L3→L2→L1 pipeline, root `workbench/` synthesis cockpit, voice standards, and existing wiki/Workflows pages. Includes five concrete paths from minimal schema hardening to hybrid agent use, plus the skills that would make any path practical.
+- [[journal/2026-05-23-Possible-Paths-Autonomous-OS-Dashboard-and-Builder-System|Autonomous OS Dashboard and Builder System]] — Full staged plan for an ambitious autonomous operating system (PRD-first, data lake, queue-driven autonomous builder, rich mission control dashboard) adapted to the root `workbench/` synthesis pipeline, Light Voice Evolution + style rules, Five Dimensions spine, Karpathy-style wiki layer, and Grok Build skills. Includes phases from foundations through self-improving loop, specific skill opportunities, guardrails, and low-commitment first experiments.
 
 ## Review Prompts
 

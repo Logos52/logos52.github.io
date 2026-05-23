@@ -2,8 +2,8 @@
 type: system
 status: developing
 created: 2026-05-08
-updated: 2026-05-21
-source-count: 7
+updated: 2026-05-23
+source-count: 8
 tags:
   - self-management
   - focus
@@ -26,6 +26,8 @@ The practical version:
 6. Use low-stimulation recovery before attention collapses.
 
 Focus Management makes time blocks trustworthy. A three-hour block should not depend on mood, luck, or a perfect environment. It should have a reliable entry process, a way to recover from drift, and a feedback loop that improves the next block.
+
+For the longer-term baseline-building layer, use [[wiki/Self Management/Attention Span and Focus Training|Attention Span and Focus Training]]. Focus Management handles entry and recovery inside a block; attention-span training raises the capacity that makes those blocks easier to sustain.
 
 ## Core Mechanism
 

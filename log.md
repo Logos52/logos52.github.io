@@ -595,3 +595,36 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Cleaned up [[index|Home]], [[notes/index|Index]], [[journal/index|Journal]], [[journal/calendar|Journal Calendar]], [[blog/index|Blog]], and [[about|About]] so each front-facing page has a clearer job.
 - Added [[journal/2026-05-21-front-facing-pages-cleanup|Front-Facing Pages Cleanup]] as a short public journal entry.
 - Moved today's strongest pages closer to the entrance of the site: [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: Training the Return Mechanism]] and [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]].
+
+## [2026-05-23] compile | Focus block split into three GPT workbench briefs
+
+- Removed the broad `GPT - Focus and AI-Assisted Learning` workbench draft.
+- Created `GPT - Attention Span as a Trainable Capacity`, `GPT - Deep Processing Tanking`, and `GPT - AI-Assisted Learning Workflow` as separate L3 workbench drafts.
+- Split the source cluster into attention capacity, deep-processing strategy, and AI-assisted learning workflow so each can be promoted or merged independently.
+- Rewrote the three drafts independently from the original source clusters and added source-boundary sections to prevent the source material from being diluted by the prior combined synthesis.
+
+## [2026-05-23] compile | Deep Processing L2 comparison
+
+- Compared the GPT, Opus, and Grok Deep Processing workbench drafts.
+- Rewrote `L2 - Deep Processing Tanking` from scratch in the same brief pattern as `L2 - AI-Assisted Learning Workflow`, absorbing the model comparison into one clean L2 rather than leaving a comparison report in the file.
+- Updated the Deep Processing core thesis to use the stronger diagnostic arc from the Opus draft while preserving the trainable-skill repair frame.
+- Created `L2 - Attention Span and Focus Training` and `L2 - AI-Assisted Learning Workflow` in `workbench/`, using the same L2 brief pattern and avoiding comparison-report sections inside the files.
+
+## [2026-05-23] maintenance | Brief style rule update
+
+- Updated `CLAUDE.md` with model-agnostic Core Thesis guidance: use a sharp causal/diagnostic arc instead of a flat summary.
+- Added body-section guidance for structured operational coverage after the thesis chooses the frame.
+- Revised the Core Thesis guidance to avoid "misdiagnosis vs actual mechanism" framing and use constructive surface-experience versus underlying-process language instead.
+
+## [2026-05-23] compile | Promote focus block L2s to wiki
+
+- Promoted `L2 - Deep Processing Tanking` to [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]].
+- Promoted `L2 - Attention Span and Focus Training` to [[wiki/Self Management/Attention Span and Focus Training|Attention Span and Focus Training]].
+- Promoted `L2 - AI-Assisted Learning Workflow` to [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]].
+- Added backlinks from Deep Processing, Attention Management, Focus Management, AI tooling guardrails, Don't Outsource the Learning, How Top Performers Learn, and `notes/index.md`.
+- Archived the three promoted L2 workbench drafts under `outputs/L2/processed/`.
+- Archived the related GPT, Grok, and Opus L3 workbench drafts under their model-specific `outputs/L3/` folders.
+
+## [2026-05-23] maintenance | Focus block inbox cleanup
+
+- Moved the seven source clips used for today's Attention Span, Deep Processing Tanking, and AI-Assisted Learning Workflow pages from `raw/inbox/` to `raw/processed/`.

@@ -3,7 +3,7 @@ title: "The Right vs Wrong Way to Work With AI"
 type: concept
 status: developing
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-23
 tags:
   - ai-use
   - cognitive-offloading
@@ -17,6 +17,8 @@ tags:
 > **Note on currency.** This page was compiled from material recorded in late 2024 / early 2025. LLMs and AI have changed significantly in the two years since — model capability, tool integration, and the range of legitimate use cases have all shifted. Some specific claims (about hallucination rates, source-finding, Kolbs feedback quality) may no longer hold to the same degree. The underlying principle — that AI should facilitate thinking rather than replace it — is likely timeless. Treat the specifics as a starting point for your own testing, not as settled rules.
 
 The dominant failure mode when using AI for learning is not using it too much — it is using it at the wrong level. When AI chunks information, identifies connections, or evaluates what matters on your behalf, it produces a finished cognitive artifact without your brain having done the work that creates learning. The output looks correct. The encoding never happened.
+
+For a positive workflow that stays inside this boundary, see [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]]. That page maps where AI can accelerate research, priming, format conversion, feedback, and implementation while keeping relevance and schema formation with the learner.
 
 The clearest framing: AI for learning is 95% the same as a Google search. The value depends entirely on the quality of the question going in and what you do with the answer coming out. The remaining 5% is the ability to handle more complex conversational queries — not a fundamental change in the relationship between tool and learner.
 
@@ -71,4 +73,4 @@ For research contexts, AI over-indexes on high-citation, popular sources. It hal
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-
+- [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]]

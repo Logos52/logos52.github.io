@@ -2,8 +2,8 @@
 type: dimension
 status: developing
 created: 2026-05-16
-updated: 2026-05-16
-source-count: 2
+updated: 2026-05-23
+source-count: 3
 last-audited: 2026-05-16
 tags:
   - learning
@@ -76,6 +76,7 @@ This cycle — construction, assimilation, and reorganization — is what allows
 - **[[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]]** — Meta-framework for understanding different depths of processing.
 - **[[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]** — Advanced application of deep processing.
 - **[[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]]** — Dedicated practice for building this capability.
+- **[[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]** — Failure mode where strong natural deep processing hides weak strategy until complexity or volume exposes the gap.
 - **[[wiki/Dimensions/Deep Processing/Deep Processing for Research|Deep Processing for Research]]** — Applied version in research and academic contexts.
 - **[[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]** — Chunking strategy that supports higher-quality encoding.
 - **[[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery]]** — Progression from shallow recognition to deep, flexible understanding.
@@ -107,5 +108,6 @@ Many performance gaps that look like “intelligence” differences are actually
 ## Related Pages
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
+- [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]

@@ -2,8 +2,8 @@
 type: system
 status: seed
 created: 2026-05-08
-updated: 2026-05-08
-source-count: 1
+updated: 2026-05-23
+source-count: 2
 tags:
   - self-management
   - attention
@@ -64,6 +64,7 @@ The distinction:
 | --- | --- | --- |
 | Attention | What the mind is pointed at. | "Am I paying attention to the right thing?" |
 | Focus | How deeply and steadily the mind stays there. | "Can I stay with this without drifting?" |
+| [[wiki/Self Management/Attention Span and Focus Training|Attention Span and Focus Training]] | Raising baseline focus capacity so fewer supports are needed over time. | "Can I stay with a target with less scaffolding than before?" |
 | [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] | Keeping attention aligned with intention across the day. | "Can I move through tasks without losing the thread?" |
 | [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] | Creating and recovering deep focus inside a work block. | "Can I make this session high-quality?" |
 
@@ -167,6 +168,7 @@ The relationship:
 ## Related Pages
 
 - [[wiki/Self Management/Flow State|Flow State]]
+- [[wiki/Self Management/Attention Span and Focus Training|Attention Span and Focus Training]]
 - [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]

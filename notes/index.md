@@ -4,7 +4,7 @@ description: "Full index for the public LLM-maintained knowledge base."
 type: index
 hideFolderListing: true
 created: 2026-05-02
-updated: 2026-05-21
+updated: 2026-05-23
 tags:
   - system
 ---
@@ -93,6 +93,7 @@ The complete catalog of pages, organized by topic.
 | [[wiki/Syntheses/Are You Learning, or Just Using Techniques\|Are You Learning, or Just Using Techniques]] | synthesis | developing | Usable synthesis of technique failure: strategy triggers thinking, thinking creates results, and shortcuts can make methods look correct while learning stays flat. |
 | [[wiki/Dimensions/Dimensions of Learning\|Dimensions of Learning]] | model | developing | Central hub model for Deep Processing, Self-Management, Self-Regulation, Mindset, and Retrieval. |
 | [[wiki/Dimensions/Deep Processing\|Deep Processing]] | dimension | developing | Dimension for encoding through comparison, chunking, prioritization, and meaning-making. |
+| [[wiki/Dimensions/Deep Processing/Deep Processing Tanking\|Deep Processing Tanking]] | concept | developing | Failure mode where natural deep processing hides weak strategy until complexity or volume exposes the gap. |
 | [[wiki/Dimensions/Self-Management\|Self-Management]] | dimension | developing | Dimension for time, task, focus, energy, habits, and environment. |
 | [[wiki/Dimensions/Self-Regulation\|Self-Regulation]] | dimension | developing | Dimension for monitoring, diagnosing, and adjusting the learning process. |
 | [[wiki/Dimensions/Mindset\|Mindset]] | dimension | developing | Dimension for interpreting difficulty, mistakes, feedback, identity, and growth. |
@@ -134,6 +135,7 @@ The complete catalog of pages, organized by topic.
 | [[wiki/Techniques/Upgrading Your Dimensions\|Upgrading Your Dimensions]] | technique | developing | Strategy for improving dimensions through foundation and growth horizons. |
 | [[wiki/Dimensions/Deep Processing/Importance-Based Chunking\|Importance-Based Chunking]] | concept | developing | Grouping information by why it matters and how it should be used. (Primary: Deep Processing) |
 | [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge\|Knowledge Mastery: From Recognition to Usable Knowledge]] | concept | developing | Practical levels for diagnosing whether knowledge is isolated, relational, evaluative, or transferable. (Primary: Deep Processing) |
+| [[wiki/Learning Craft/AI-Assisted Learning Workflow\|AI-Assisted Learning Workflow]] | workflow | developing | Five-step workflow for using AI to accelerate research, priming, format conversion, feedback, and implementation without outsourcing schema formation. |
 
 ### Decision making
 
@@ -151,6 +153,7 @@ The complete catalog of pages, organized by topic.
 | Page | Type | Status | Summary |
 | --- | --- | --- | --- |
 | [[wiki/Self Management/Flow State\|Flow State]] | concept | developing | High-output attention state protected by task clarity, environment, and reduced decision friction. |
+| [[wiki/Self Management/Attention Span and Focus Training\|Attention Span and Focus Training]] | technique | developing | Baseline attention training system that distinguishes temporary focus scaffolding from long-term focus capacity. |
 | [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block\|Focus Management: Training the Return Mechanism]] | system | developing | Practical system for entering focus, reducing distraction forces, and training the return mechanism inside study and work blocks. |
 | [[wiki/Self Management/Attention Management - Preserving Flow\|Attention Management: Preserving Flow]] | system | developing | Advanced day-level system for preserving flow across tasks by reducing transition friction and decisional delays. |
 | [[wiki/Self Management/Procrastination - a System Problem\|Procrastination: a System Problem]] | concept | developing | Treats avoidance as a system problem involving triggers, task friction, environment, and willpower dependence. |
