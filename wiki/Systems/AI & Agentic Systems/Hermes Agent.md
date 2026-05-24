@@ -1,3 +1,17 @@
+---
+title: "Hermes Agent"
+type: system
+status: developing
+created: 2026-05-22
+updated: 2026-05-24
+source-count: 1
+tags:
+  - llm
+  - agents
+  - agentic-systems
+  - tooling
+---
+
 # Hermes Agent
 
 Hermes functions as an autonomous operator for your work. It maintains continuity across sessions, writes its own tools, and moves projects forward without constant direction.

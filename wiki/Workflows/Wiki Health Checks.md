@@ -29,7 +29,7 @@ Coverage, consistency, and source discipline improve when the wiki gets periodic
 
 ## Output
 
-Write health check reports to `outputs/audits/`.
+Write health check reports to `workbench/` unless the user asks for an archive location.
 
 Each report should include:
 

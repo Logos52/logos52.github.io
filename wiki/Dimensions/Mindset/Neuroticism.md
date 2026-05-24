@@ -219,7 +219,7 @@ Solution categories:
 
 ## Relationship To Growth Mindset
 
-Neuroticism often interacts with [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]].
+Neuroticism often interacts with [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]].
 
 A fixed mindset makes mistakes feel identity-threatening. Neuroticism makes that threat feel urgent, emotional, and hard to ignore. Together, they create avoidance:
 

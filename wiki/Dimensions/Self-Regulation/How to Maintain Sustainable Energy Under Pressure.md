@@ -151,6 +151,6 @@ Warning signs:
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset|Mindset]]
-- [[wiki/Concepts/Neuroticism|Neuroticism]]
+- [[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]]
 - [[wiki/Dimensions/Self-Regulation/Marginal Gains|Marginal Gains]]
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] (planned)

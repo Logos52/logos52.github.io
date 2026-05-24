@@ -57,7 +57,7 @@ Reverse causality is most likely to occur when:
 - importance questions are answered too quickly, with the first plausible connection rather than the most meaningful one;
 - the chunk structure is committed to before the wider topic has been surveyed.
 
-Importance checklisting (running through a fixed list of importance criteria) and simple question-and-answer formats increase the risk because they reward fast, locally coherent justifications that may not survive outside the immediate context. [[wiki/Concepts/Importance-Based Chunking|Intuitive chunking]] — finding the root reason something matters across the whole topic — reduces it.
+Importance checklisting (running through a fixed list of importance criteria) and simple question-and-answer formats increase the risk because they reward fast, locally coherent justifications that may not survive outside the immediate context. [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Intuitive chunking]] — finding the root reason something matters across the whole topic — reduces it.
 
 ## Relationship to Spiderwebbing
 

@@ -1,3 +1,17 @@
+---
+title: "30-Day Challenge - Self-Management"
+type: practice-track
+status: developing
+created: 2026-05-22
+updated: 2026-05-24
+source-count: 1
+tags:
+  - learning
+  - self-management
+  - practice
+  - 30-day-challenge
+---
+
 # 30-Day Challenge – Self-Management
 
 Map the variables that actually affect your daily execution, then run targeted experiments to strengthen the external conditions that make consistent work more automatic.

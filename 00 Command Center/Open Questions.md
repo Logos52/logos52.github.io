@@ -19,7 +19,7 @@ Use this file as the queue of unresolved questions that should drive future sour
 
 ## LLM Workflows
 
-- What should trigger promotion from `outputs/` back into `wiki/`?
+- What should trigger promotion from `workbench/` into `wiki/`?
 - What health checks catch the most important wiki quality issues?
 - How can an LLM distinguish durable concepts from temporary answers?
 - What should the agent read first when answering questions against this repo?
@@ -61,13 +61,13 @@ Use this file as the queue of unresolved questions that should drive future sour
 
 ## High-Value Study Pages
 
-- What should my default [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] method menu look like for my current subjects?
-- When should I use [[wiki/Techniques/WPW|WPW]] instead of mindmap reconstruction, generated questions, or direct practice?
-- What is the next [[wiki/Techniques/Marginal Gains|Marginal Gain]] worth stacking in my study system?
-- Which current goal should be mapped with [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]] first?
+- What should my default [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] method menu look like for my current subjects?
+- When should I use [[wiki/Dimensions/Retrieval/WPW|WPW]] instead of mindmap reconstruction, generated questions, or direct practice?
+- What is the next [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gain]] worth stacking in my study system?
+- Which current goal should be mapped with [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]] first?
 - Which current learning task should be made safe enough to fail quickly?
-- Which study sessions deserve a full [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]] cycle, and which only need a short correction note?
-- Where should completed [[templates/Kolbs Template|Kolbs Template]] notes live: daily notes, outputs, or a dedicated practice log?
+- Which study sessions deserve a full [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs]] cycle, and which only need a short correction note?
+- Where should completed [[templates/Kolbs Template|Kolbs Template]] notes live: daily notes, workbench, or a dedicated practice log?
 - How should [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]] become part of my weekly review?
 
 ## Language Learning

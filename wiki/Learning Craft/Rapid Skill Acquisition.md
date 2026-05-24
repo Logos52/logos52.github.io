@@ -1,3 +1,17 @@
+---
+title: "Rapid Skill Acquisition"
+type: technique
+status: developing
+created: 2026-05-23
+updated: 2026-05-24
+source-count: 1
+tags:
+  - learning
+  - skill-acquisition
+  - practice
+  - self-regulation
+---
+
 # The Rate of Skill Acquisition
 
 ## Core Thesis

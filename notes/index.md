@@ -98,7 +98,7 @@ The complete catalog of pages, organized by topic.
 | [[wiki/Dimensions/Self-Regulation\|Self-Regulation]] | dimension | developing | Dimension for monitoring, diagnosing, and adjusting the learning process. |
 | [[wiki/Dimensions/Mindset\|Mindset]] | dimension | developing | Dimension for interpreting difficulty, mistakes, feedback, identity, and growth. |
 | [[wiki/Dimensions/Retrieval\|Retrieval]] | dimension | developing | Dimension for recall, reconstruction, interleaving, spacing, and transfer. |
-| [[wiki/Concepts/Metacognition - The Control Layer\|Metacognition: The Control Layer]] | concept | seed | Awareness and control of thinking during learning; the control layer for learning-to-learn. |
+| [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer\|Metacognition: The Control Layer]] | concept | seed | Awareness and control of thinking during learning; the control layer for learning-to-learn. |
 | [[wiki/Techniques/Building the Radar\|Building the Radar]] | technique | seed | Practice for detecting shifts from active processing into passive consumption. |
 | [[wiki/Concepts/Are You Thinking, or Just Consuming\|Are You Thinking, or Just Consuming?]] | concept | seed | Distinguishes visible learning behaviors from the thought quality they produce. |
 | [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time\|Social Media - Curvilinear Design & the Theft of Time]] | concept | developing | Curvilinear feed design as a theft of attention, memory, and experienced time; repaired through right-angle turns, routes, and intentional choice. |
@@ -116,9 +116,9 @@ The complete catalog of pages, organized by topic.
 | [[wiki/Techniques/Opening the Black Box of Learning\|Opening the Black Box of Learning]] | technique | seed | Making the hidden processes between effort and results visible and diagnosable, especially during transitions. |
 | [[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization\|Schema Construction, Assimilation, and Reorganization]] | technique | seed | Building and refining connected mental models efficiently through construction, assimilation, and regular reorganization. (Primary: Deep Processing) |
 | [[wiki/Dimensions/Deep Processing/Bear Hunter System\|Bear Hunter System]] | technique | developing | Practical encoding workflow: Aim questions, Shoot through sources, Skin maps, then hand off to retrieval. (Primary: Deep Processing) |
-| [[wiki/Techniques/Aim\|Aim]] | technique | developing | BHS prestudy step for turning concepts into why/how questions and rough chunks. |
-| [[wiki/Techniques/Shoot\|Shoot]] | technique | developing | BHS active-learning step for answering Aim questions while building a working map. |
-| [[wiki/Techniques/Skin\|Skin]] | technique | developing | BHS consolidation step for cleaning the map into a retrievable final structure. |
+| [[wiki/Dimensions/Deep Processing/Aim\|Aim]] | technique | developing | BHS prestudy step for turning concepts into why/how questions and rough chunks. |
+| [[wiki/Dimensions/Deep Processing/Shoot\|Shoot]] | technique | developing | BHS active-learning step for answering Aim questions while building a working map. |
+| [[wiki/Dimensions/Deep Processing/Skin\|Skin]] | technique | developing | BHS consolidation step for cleaning the map into a retrievable final structure. |
 | [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval\|Spaced Interleaved Retrieval]] | technique | developing | Retrieval system combining recall, widening spacing, interleaving, and gap repair. (Primary: Retrieval) |
 | [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving\|Interleaving for Complex Problem Solving]] | technique | developing | Reconstruction method for complex problem solving, knowledge work, language learning, and agentic engineering. (Primary: Deep Processing) |
 | [[wiki/Dimensions/Retrieval/WPW\|WPW (Whole-Part-Whole)]] | technique | developing | Teaching-to-learn technique that cycles between explaining the whole, breaking it into parts, and returning to the whole with stronger integration. (Primary: Retrieval) |

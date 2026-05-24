@@ -1,3 +1,17 @@
+---
+title: "Reading & Retention"
+type: technique
+status: developing
+created: 2026-05-23
+updated: 2026-05-24
+source-count: 1
+tags:
+  - learning
+  - retention
+  - reading
+  - deep-processing
+---
+
 # How to Remember Everything You Read
 
 ## Core Thesis

@@ -110,4 +110,4 @@ The inoculation protocol in Chapter 8 is directly applicable to any high-stakes 
 ## Sources
 
 - *Suicidal Empathy* by Gad Saad (2026).
-- Chapter-by-chapter operating synthesis in `outputs/L3/Grok/Suicidal Empathy.md`.
+- Chapter-by-chapter operating synthesis retained in the legacy draft archive.

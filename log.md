@@ -10,6 +10,14 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-05-24] maintenance | Workbench loop and taxonomy cleanup
+
+- Updated the active synthesis loop from `raw -> outputs/L3 -> outputs/L2 -> wiki` to `raw -> workbench -> workbench -> wiki`.
+- Marked `outputs/` as legacy/archive space rather than the default active workspace.
+- Normalized major stale wiki links from old `wiki/Techniques/` and `wiki/Concepts/` paths into the current dimension-based taxonomy.
+- Moved `Hermes Agent` into `wiki/Systems/AI & Agentic Systems/`.
+- Added missing frontmatter to wiki pages that lacked it.
+
 ## [2026-05-21] maintenance | Folder structure cleanup
 
 - Retired the old top-level clipping inbox and moved incoming source material to `raw/inbox/`.
@@ -628,3 +636,12 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-05-23] maintenance | Focus block inbox cleanup
 
 - Moved the seven source clips used for today's Attention Span, Deep Processing Tanking, and AI-Assisted Learning Workflow pages from `raw/inbox/` to `raw/processed/`.
+
+## [2026-05-24] maintenance | cos dashboard design session
+
+- Named the personal workflow OS `cos` (root: `/Users/N1/Projects/cos`).
+- Decided main surface: Textual (Python TUI) — proper terminal app, not HTML skin.
+- Confirmed dashboard sections: Research brief, Tasks, Important dates, Production block, End of session wrap-up, Budget (graphs-only default), Quick capture, Active focus, Yesterday's focus, AI link.
+- Deferred: Skills & experiments, Weekly refinement, Wiki health pulse, Habit/health signals.
+- Decided autonomy boundary: `cos` is independent of `llm-knowledge-base`; reads vault at most, never writes. No L3/L2 pipeline in scope. Inbox handled by Obsidian Web Clipper.
+- Updated `journal/2026-05-24-Fresh-Start-Personal-Workflow-OS-Checklist.md` with all decisions.

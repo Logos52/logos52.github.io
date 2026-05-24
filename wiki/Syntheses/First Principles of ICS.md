@@ -39,7 +39,7 @@ The routing question is: "Which level of the system needs to improve?"
 
 | Level | What It Controls | If This Is Weak | Pages That Uplift It |
 | --- | --- | --- | --- |
-| **Processing Quality** | The kind of thinking being done. | Learning looks active, but the mind is not comparing, connecting, reconstructing, prioritizing, or explaining. | [[wiki/Dimensions/Deep Processing|Deep Processing]], [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]], [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]], [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]] |
+| **Processing Quality** | The kind of thinking being done. | Learning looks active, but the mind is not comparing, connecting, reconstructing, prioritizing, or explaining. | [[wiki/Dimensions/Deep Processing|Deep Processing]], [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]], [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]], [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]] |
 | **Strategies** | The techniques that trigger useful thinking. | The learner knows what good thinking should happen, but has no reliable workflow for producing it. | [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], [[wiki/Dimensions/Deep Processing/Aim|Aim]], [[wiki/Dimensions/Deep Processing/Shoot|Shoot]], [[wiki/Dimensions/Deep Processing/Skin|Skin]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] |
 | **Meta-strategies** | The response when the strategy creates friction, uncertainty, or overwhelm. | The learner retreats into shortcuts, passive consumption, shallow notes, or fake productivity as soon as the strategy gets mentally expensive. | [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]], [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]], [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]], [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]], [[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]] |
 
@@ -66,7 +66,7 @@ If processing quality is weak, adding more techniques usually makes the system n
 Start here:
 
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
+- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
 - [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]]
 

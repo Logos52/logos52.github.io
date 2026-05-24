@@ -167,7 +167,7 @@ Warning signs:
 
 ## Links Into the Knowledge Base
 
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolb's Experiential Cycle]] — forming a hypothesis and testing it against the model's answer is the experiential cycle running inside an AI-assisted workflow
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb's Experiential Cycle]] — forming a hypothesis and testing it against the model's answer is the experiential cycle running inside an AI-assisted workflow
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — the two-metric check is a self-regulation practice; metacognition is the monitoring layer that notices when AI is helping you think vs. helping you avoid thinking
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — the posture distinction maps directly here: passive copy-paste vs. active conceptual engagement
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — cognitive debt is the long-run version of offloaded cognitive load; effort not spent now is understanding not built

@@ -220,7 +220,7 @@ The move is:
 
 ## Relationship To Neuroticism
 
-[[wiki/Concepts/Neuroticism|Neuroticism]] and fixed mindset reinforce each other.
+[[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]] and fixed mindset reinforce each other.
 
 Fixed mindset makes mistakes identity-threatening. Neuroticism amplifies the threat emotionally. Together, they produce uncertainty avoidance:
 

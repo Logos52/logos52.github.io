@@ -49,10 +49,10 @@ Reference pages in the wiki:
 ## Core Workflow
 
 1. Add source notes to `raw/`.
-2. Compile durable concepts into `wiki/`.
-3. Save non-wiki-shaped artifacts (audits, briefs, diagrams, slides) in `outputs/`.
-4. For agent-generated synthesis work: use the four-tier pipeline — L4 raw (in `raw/`) → L3 first-pass drafts (in `outputs/L3/`) → L2 voice-polished synthesis (in `outputs/L2/`, via `l3-to-l2-voice-converter` or the recommended light voice evolution skill) → L1 final wiki (promotion after human review).
-5. Promote durable insights from `outputs/` back into `wiki/`.
+2. Use `workbench/` for active synthesis work: model first-pass drafts (`GPT - Title.md`, `Grok - Title.md`, `Opus - Title.md`) and fused drafts (`L2 - Title.md`).
+3. Compare, revise, and polish inside `workbench/` until the piece is ready for promotion.
+4. Promote durable insights from `workbench/` into `wiki/`.
+5. Archive completed or superseded synthesis drafts outside the active workbench so the workbench stays easy to scan.
 6. Run health checks and keep [[notes/index|notes/index.md]] plus [[log|log.md]] current.
 
 After any L2 → L1 promotion, append concrete voice refinements (with before/after examples) to `hermes/skills/l3-to-l2-voice-converter/references/style-feedback.md` so the converter improves on future runs. Use "Run light voice evolution" for synthesis help.
@@ -63,7 +63,8 @@ After any L2 → L1 promotion, append concrete voice refinements (with before/af
 - Wiki: `wiki/Concepts`, `wiki/Dimensions`, `wiki/Techniques`, `wiki/Syntheses`, `wiki/Workflows`, `wiki/Self Management`, `wiki/Decision Making`, `wiki/Language`, `wiki/Resources`
 - Red Teaming: `wiki/Red Team`
 - Books: `wiki/Books`
-- Outputs: `outputs/answers`, `outputs/diagrams`, `outputs/slides`, `outputs/audits`, plus the synthesis tiers `outputs/L3/{GPT,Grok,Opus,Hermes}/` and `outputs/L2/{ready,revise,processed}/`
+- Workbench: `workbench/` for active L3/L2 synthesis, comparisons, and promotion candidates
+- Outputs: legacy/archive area for older generated artifacts; not the default location for new active synthesis
 - Templates: `templates`
 - Tools: `tools`
 
@@ -85,28 +86,28 @@ Metacognition and learning-to-learn:
 - [[wiki/Dimensions/Retrieval|Retrieval]]
 - [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
 - [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[templates/Kolbs Template|Kolbs Template]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
-- [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]]
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Aim|Aim]]
-- [[wiki/Techniques/Shoot|Shoot]]
-- [[wiki/Techniques/Skin|Skin]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Techniques/WPW|WPW]]
-- [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Concepts/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
-- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Dimensions/Deep Processing/Aim|Aim]]
+- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]
+- [[wiki/Dimensions/Deep Processing/Skin|Skin]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Retrieval/WPW|WPW]]
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
+- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Techniques/Building the Radar|Building the Radar]]
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
-- [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
-- [[wiki/Concepts/Neuroticism|Neuroticism]]
-- [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
+- [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
+- [[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]]
+- [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
-- [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]]
 
 Language learning resources:
 

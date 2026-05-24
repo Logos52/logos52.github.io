@@ -1,3 +1,17 @@
+---
+title: "30-Day Challenge - Mindset"
+type: practice-track
+status: developing
+created: 2026-05-22
+updated: 2026-05-24
+source-count: 1
+tags:
+  - learning
+  - mindset
+  - practice
+  - 30-day-challenge
+---
+
 # 30-Day Challenge – Mindset
 
 Reducing the emotional cost of errors makes you willing to run the experiments that actually improve your technique.

@@ -1,6 +1,8 @@
-# L2 — Curated Synthesis
+# L2 — Legacy Curated Synthesis Archive
 
-This folder contains **L2** material: voice-polished, human-curated synthesis ready for review before promotion to `wiki/`.
+This folder is a legacy/archive area for older **L2** material: voice-polished, human-curated synthesis reviewed before promotion to `wiki/`.
+
+New active L2 synthesis should happen in `workbench/`, not here.
 
 L2 is where judgment enters. It should usually fuse the strongest parts of GPT, Grok, Opus, Hermes, or other L3 drafts into one usable version. L2 files should not be model-branded unless the model identity is the point.
 
@@ -12,19 +14,19 @@ L2 is where judgment enters. It should usually fuse the strongest parts of GPT, 
 
 ## Naming
 
-Use:
+Use this active-workbench filename:
 
 ```text
-YYYY-MM-DD-Short-Descriptive-Name-L2.md
+workbench/L2 - Short Descriptive Name.md
 ```
 
 For older imports or one-off briefs without dates, preserve the filename if renaming would break context.
 
 ## Workflow
 
-1. Read the relevant L3 drafts from `outputs/L3/{GPT,Grok,Opus,Hermes}/`.
+1. Read the relevant L3 drafts from `workbench/`.
 2. Choose the strongest base.
 3. Incorporate useful elements from weaker versions.
 4. Remove attribution drag, negative openings, meta-commentary, and template sameness.
-5. Put the result in `ready/`, `revise/`, or `processed/`.
+5. Keep the result in `workbench/` until it is promoted, revised, or archived.
 6. After L2 -> L1 promotion, update `notes/index.md`, `log.md`, and any relevant Journal entry.

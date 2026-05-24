@@ -20,12 +20,11 @@ The core loop:
 
 1. Add sources to `raw/inbox/` or `raw/sources/`.
 2. Summarize and index sources with source notes.
-3. Compile durable understanding into `wiki/`.
-4. Ask questions and save answers / non-wiki artifacts in `outputs/`.
-5. For agent synthesis work, follow the tiered pipeline: L4 raw → L3 first-pass (`outputs/L3/{GPT,Grok,Opus,Hermes}/`) → L2 voice-polished via `hermes/skills/l3-to-l2-voice-converter` or the light voice evolution skill (`outputs/L2/`) → L1 promotion to `wiki/`.
-6. After L2 → L1 edits, append voice refinements to the converter's `style-feedback.md` (the converter reads it on every run). Use "Run light voice evolution" for help synthesizing improvements.
-7. Promote durable insights from `outputs/` back into `wiki/`.
-8. Run periodic health checks to find gaps, contradictions, stale pages, and missing citations.
+3. Use `workbench/` for active synthesis: model first-pass drafts (`GPT - Title.md`, `Grok - Title.md`, `Opus - Title.md`) and fused drafts (`L2 - Title.md`).
+4. Promote durable, reviewed understanding from `workbench/` into `wiki/`.
+5. After L2 → L1 edits, append voice refinements to the converter's `style-feedback.md` (the converter reads it on every run). Use "Run light voice evolution" for help synthesizing improvements.
+6. Archive completed or superseded synthesis drafts outside the active workbench so `workbench/` stays easy to scan.
+7. Run periodic health checks to find gaps, contradictions, stale pages, and missing citations.
 
 ## Directory Map
 
@@ -36,7 +35,8 @@ AGENTS.md           LLM maintainer schema and workflows
 00 Command Center/  Obsidian-facing dashboard, index, open questions, changelog
 raw/                L4 source lifecycle: inbox, active sources, processed sources, private material, sessions
 wiki/               Compiled knowledge base
-outputs/            Answers, diagrams, slides, audits + L3/L2 synthesis tiers (L3 = model first-pass drafts; L2 = curated synthesis; see outputs/L3/README.md and outputs/L2/README.md)
+workbench/          Active synthesis surface for model drafts, fused L2 briefs, comparisons, and promotion candidates
+outputs/            Legacy/archive area for older generated artifacts; not the default location for new active synthesis
 templates/          Note templates
 tools/              Scripts, search tools, and health checks
 ```

@@ -15,9 +15,9 @@ tags:
 
 # Social Media - Curvilinear Design & the Theft of Time
 
-Curvilinear design removes the decision points that keep attention awake and memory anchored. Social media is the clearest example: the feed gives the mind a smooth path with no corners, no endings, and no need to choose. The user keeps moving, but the movement does not become a story. Time passes without becoming part of remembered life.
+Curvilinear design removes the decision points that keep attention awake and memory anchored. Social media is the clearest example: the feed gives the mind a smooth path with no corners, no endings, and no need to choose. The user keeps moving, but the movement does not become a story — time passes without becoming part of remembered life.
 
-Use this page when a feed, app, chatbot, recommendation engine, or even a knowledge-base browsing session starts to feel pleasant, endless, and strangely forgettable. The issue is not only "too much screen time." The issue is **time without edges**.
+Any feed, app, chatbot, or recommendation engine produces the same effect when it starts to feel pleasant, endless, and strangely forgettable. The problem is not screen time. It's **time without edges**.
 
 ## Core Mechanism
 

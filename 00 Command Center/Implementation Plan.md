@@ -52,7 +52,7 @@ First compiled thread: metacognition and learning-to-learn.
 
 Created pages:
 
-- [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Techniques/Building the Radar|Building the Radar]]
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
@@ -63,18 +63,18 @@ Created pages:
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Mindset|Mindset]]
-- [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
+- [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
-- [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]]
 - [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
-- [[wiki/Techniques/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Techniques/Aim|Aim]]
-- [[wiki/Techniques/Shoot|Shoot]]
-- [[wiki/Techniques/Skin|Skin]]
-- [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Techniques/WPW|WPW]]
-- [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Techniques/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Dimensions/Deep Processing/Aim|Aim]]
+- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]
+- [[wiki/Dimensions/Deep Processing/Skin|Skin]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Dimensions/Retrieval/WPW|WPW]]
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
 - [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
 
@@ -88,7 +88,7 @@ Next compile candidates:
 
 Status: not started
 
-When asking durable questions, answers should be written to `outputs/answers/`, then promoted back into `wiki/` if they create reusable insight.
+When asking durable questions, answers should be written to `workbench/`, then promoted back into `wiki/` if they create reusable insight.
 
 Candidate first queries:
 
@@ -110,7 +110,7 @@ First health check should inspect:
 - Public/private publication risk.
 - Candidate pages implied by repeated terms.
 
-Reports should go to `outputs/audits/`.
+Reports should go to `workbench/`.
 
 ## Phase 6 — Tools
 

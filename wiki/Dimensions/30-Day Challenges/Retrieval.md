@@ -1,3 +1,17 @@
+---
+title: "30-Day Challenge - Retrieval"
+type: practice-track
+status: developing
+created: 2026-05-22
+updated: 2026-05-24
+source-count: 1
+tags:
+  - learning
+  - retrieval
+  - practice
+  - 30-day-challenge
+---
+
 # 30-Day Challenge – Retrieval
 
 ## Week 1: Basic Retrieval Practice

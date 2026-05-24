@@ -28,8 +28,8 @@ For parseable operational history, use [[log|log.md]]. This page is a human-read
 ## 2026-05-06
 
 - Renamed the central learning hub to [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]].
-- Added [[wiki/Techniques/WPW|WPW]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]], and [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]].
+- Added [[wiki/Dimensions/Retrieval/WPW|WPW]], [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]], [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]], and [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]].
 - Added [[templates/Kolbs Template|Kolbs Template]].
-- Expanded [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] with a paraphrased method menu.
+- Expanded [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] with a paraphrased method menu.
 - Added the Refold language-learning cluster, including [[wiki/Language/Noticing Game|Noticing Game]], [[wiki/Language/Three Pillars of Language Learning|Three Pillars]], [[wiki/Language/Immersion Metalayers|Immersion Metalayers]], [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]], [[wiki/Language/Character Primer|Character Primer]], [[wiki/Language/Refold Grammar Primers|Refold Grammar Primers]], and [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]].
 - Added [[wiki/Language/Language Isn't Math|Language Isn't Math]] from the public transcript source.
