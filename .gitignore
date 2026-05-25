@@ -62,3 +62,7 @@ __pycache__/
 public/
 .quartz-cache/
 .aider*
+
+# workbench/ directory is public; files inside are private working drafts
+workbench/*
+!workbench/.gitkeep

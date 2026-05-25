@@ -107,6 +107,18 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-12] output | How to Force Your Brain To Be Motivated
 
+## [2026-05-25] maintenance | Wiki Status + Lightweight Health Check pass
+
+- Performed requested wiki status check + lightweight health check (following documented workflows in `wiki/Workflows/`).
+- Produced concrete report at `workbench/2026-05-25 Wiki Status + Health Check Report.md`.
+- Identified dormant maintenance rituals, stale central Open Questions queue, lingering old path references, thin seed pages (especially 30-Day Challenges and Domains/), and 13 uncompiled high-signal items in raw/inbox (heavy on Claude Cowork + LLM-wiki patterns).
+- Appended new sections to `00 Command Center/Open Questions.md`:
+  - Wiki Maintenance & Self-Updating
+  - Agentic Engineering + Wiki Interaction
+  - Specific Content & Practice Gaps (including 30-Day Challenges reality vs. placeholders, Focus/Social Media fragmentation, Red Teaming integration).
+- No pages created, edited, or moved during the analysis pass itself.
+- Report includes prioritized next actions and specific page examples.
+
 - Added GPT - How to Force Your Brain To Be Motivated as an output synthesis.
 - Positioned motivation dependence as a self-management failure mode where action depends on emotional readiness.
 - Extracted the DFUZ operating model: distinguish feeling from action, act before motivation changes, expand uptime, and build a focus zone.
