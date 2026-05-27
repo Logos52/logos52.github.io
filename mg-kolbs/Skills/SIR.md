@@ -1,3 +1,10 @@
+---
+type: skill
+current-level: 5
+final-level: 7
+competency: "CC (low)"
+notes: ""
+---
 # SIR
 
 **Current Level:** 5/10  

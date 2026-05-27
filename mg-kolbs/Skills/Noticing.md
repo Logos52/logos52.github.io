@@ -1,3 +1,10 @@
+---
+type: skill
+current-level: 3
+final-level: 6
+competency: "CI (Consciously Incompetent)"
+notes: ""
+---
 # Noticing
 
 **Current Level:** 3/10  

@@ -12,15 +12,20 @@ This is a static example of the Goals database.
 
 ## Live View (Obsidian)
 
-```dataview
-TABLE 
-  status AS Status,
-  current-level AS "Current Level",
-  final-level AS "Final Level",
-  last-evaluation AS "Last Evaluation",
-  notes AS Notes
-FROM "mg-kolbs/Goals" AND !#template
-SORT file.name ASC
+```base
+filters:
+  and:
+    - file.inFolder("mg-kolbs/Goals")
+views:
+  - type: table
+    name: Goals
+    order:
+      - file.name
+      - status
+      - current-level
+      - final-level
+      - last-evaluation
+      - notes
 ```
 
 **How to use in Obsidian:**

@@ -1,3 +1,10 @@
+---
+type: skill
+current-level: 4
+final-level: 7
+competency: "CC (low)"
+notes: ""
+---
 # BHS
 
 **Current Level:** 4/10  

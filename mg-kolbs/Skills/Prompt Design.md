@@ -1,3 +1,10 @@
+---
+type: skill
+current-level: 4
+final-level: 7
+competency: "CC (low)"
+notes: ""
+---
 # Prompt Design
 
 **Current Level:** 4/10  

@@ -13,15 +13,19 @@ This is a static example of the Skills database.
 
 ## Live View (Obsidian)
 
-```dataview
-TABLE 
-  file.link AS Skill,
-  current-level AS "Current Level",
-  final-level AS "Final Level",
-  competency AS Competency,
-  notes AS Notes
-FROM "mg-kolbs/Skills" AND !#template
-SORT file.name ASC
+```base
+filters:
+  and:
+    - file.inFolder("mg-kolbs/Skills")
+views:
+  - type: table
+    name: Skills
+    order:
+      - file.name
+      - current-level
+      - final-level
+      - competency
+      - notes
 ```
 
 **How to use in Obsidian:**

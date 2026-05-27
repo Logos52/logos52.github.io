@@ -1,3 +1,10 @@
+---
+type: skill
+current-level: 3
+final-level: 7
+competency: "CI (Consciously Incompetent)"
+notes: ""
+---
 # Workflow Design
 
 **Current Level:** 3/10  

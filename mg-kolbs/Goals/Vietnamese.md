@@ -1,3 +1,9 @@
+---
+type: goal
+status: in-progress
+last-evaluation: ""
+notes: ""
+---
 # Vietnamese
 
 > [!NOTE] Checklist
