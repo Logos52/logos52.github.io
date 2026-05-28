@@ -1,0 +1,22 @@
+filters:
+  and:
+    - file.inFolder("raw/inbox")
+    - file.ext == "md"
+properties:
+  file.name:
+    displayName: Source
+  description:
+    displayName: Blurb
+  file.mtime:
+    displayName: Added
+views:
+  - type: table
+    name: Flow
+    order:
+      - file.name
+      - description
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 25

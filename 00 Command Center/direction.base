@@ -1,0 +1,20 @@
+filters:
+  and:
+    - type == "goal"
+properties:
+  file.name:
+    displayName: Direction
+  status:
+    displayName: Status
+  description:
+    displayName: Note
+views:
+  - type: table
+    name: Direction
+    order:
+      - file.name
+      - status
+      - description
+    sort:
+      - property: file.name
+        direction: ASC

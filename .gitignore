@@ -66,3 +66,9 @@ public/
 # workbench/ directory is public; files inside are private working drafts
 workbench/*
 !workbench/.gitkeep
+
+# Finances stay LOCAL — never commit or publish transaction data (Apple Card CSVs, etc.)
+finances/**
+!finances/
+!finances/imports/
+!finances/imports/.gitkeep

@@ -35,3 +35,422 @@ body,
 .markdown-preview-view code {
   font-size: 0.95em;
 }
+
+/* ===========================================================
+   Command Center design system
+   Scoped to notes with `cssclasses: command-center`.
+   Theme-aware: light + dark palettes mirror the Quartz site.
+   =========================================================== */
+.theme-light .command-center {
+  --cc-paper: #fbf8f4;
+  --cc-ink: #1c1a20;
+  --cc-soft: #47454c;
+  --cc-line: #e9e1db;
+  --cc-muted: #a09690;
+  --cc-blue: #3a6080;
+  --cc-teal: #5a7d96;
+}
+.theme-dark .command-center {
+  --cc-paper: #1f1d22;
+  --cc-ink: #f5f1ed;
+  --cc-soft: #cbc3bd;
+  --cc-line: #302c31;
+  --cc-muted: #716a70;
+  --cc-blue: #7db8d8;
+  --cc-teal: #9ecfbf;
+}
+
+.command-center .cc-head { margin: 0 0 1.4rem; }
+.command-center .cc-eyebrow {
+  font-family: "Fira Code", monospace; font-size: 0.72rem;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--cc-muted); margin: 0;
+}
+.command-center .cc-title {
+  font-family: "Source Serif 4", serif; font-size: 1.9rem;
+  line-height: 1.1; margin: 0.15rem 0 0.1rem; color: var(--cc-ink);
+}
+.command-center .cc-date {
+  font-family: "Fira Code", monospace; font-size: 0.78rem;
+  color: var(--cc-soft); margin: 0;
+}
+
+.command-center .cc-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0.9rem 0 0; }
+.command-center .cc-chip {
+  font-family: "Fira Code", monospace; font-size: 0.74rem;
+  border: 1px solid var(--cc-line); border-radius: 7px;
+  padding: 5px 11px; color: var(--cc-soft);}
+
+.command-center h2 {
+  font-family: "Source Serif 4", serif; font-size: 1.05rem;
+  border-bottom: none; padding-bottom: 0;
+  margin: 2rem 0 0.55rem; color: var(--cc-soft);
+  font-weight: 500; letter-spacing: 0.01em;
+}
+
+.command-center .callout {
+  border: 1px solid var(--cc-line); border-radius: 12px;}
+
+/* Basecamp-style card frame for each section's embedded view (Bases + Datacore) */
+.command-center .block-language-base,
+.command-center .bases-embed,
+.command-center .bases-view,
+.command-center .cc-card {
+  border: 1px solid var(--cc-line);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin: 0 0 1rem;
+}
+
+/* Tighten dc.Table inside Datacore cards so columns don't spread */
+.command-center .cc-card table { width: auto; }
+.command-center .cc-card td,
+.command-center .cc-card th { padding: 5px 12px; }
+
+/* Numberless finance indicators (used in Phase 2, available now) */
+.command-center .cc-spark { font-family: "Fira Code", monospace; letter-spacing: 1px; color: var(--cc-teal); }
+.command-center .cc-bar { display: inline-block; width: 96px; height: 9px; vertical-align: middle; background: var(--cc-line); border-radius: 5px; overflow: hidden; }
+.command-center .cc-bar > i { display: block; height: 100%; background: var(--cc-teal); }
+.command-center .cc-pill { font-family: "Fira Code", monospace; font-size: 0.7rem; padding: 2px 8px; border-radius: 6px; }
+
+/* Datacore Skills card grid */
+.command-center .skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 0.5rem 0 0.4rem;
+}
+.command-center .skill-card {
+  border: 1px solid var(--cc-line);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+.command-center .skill-row-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+.command-center .skill-name { font-family: "Source Serif 4", serif; font-size: 0.98rem; color: var(--cc-ink); }
+.command-center .skill-comp { font-family: "Fira Code", monospace; font-size: 0.7rem; color: var(--cc-muted); }
+.command-center .skill-bar {
+  position: relative;
+  display: inline-block;
+  width: 140px;
+  height: 12px;
+  vertical-align: middle;
+  background: var(--cc-muted);
+  border: 2px solid var(--cc-soft);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.command-center .skill-bar > i {
+  display: block;
+  height: 100%;
+  background: var(--cc-teal);
+}
+.command-center .skill-bar .notch {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--cc-soft);
+  pointer-events: none;
+}
+
+/* Finances drill-down */
+.command-center .finance-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 18px;
+  align-items: end;
+}
+.command-center .finance-stat-label {
+  font-family: "Fira Code", monospace;
+  font-size: 0.7rem;
+  color: var(--cc-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.command-center .finance-stat-value {
+  font-family: "Source Serif 4", serif;
+  font-size: 1.6rem;
+  color: var(--cc-ink);
+  margin-top: 0.25rem;
+}
+.command-center .finance-stat-small {
+  font-size: 0.9rem;
+  color: var(--cc-soft);
+}
+.command-center .cat-row {
+  display: grid;
+  grid-template-columns: 1fr 200px 90px;
+  align-items: center;
+  gap: 14px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--cc-line);
+}
+.command-center .cat-row:last-child { border-bottom: none; }
+.command-center .cat-name { font-family: "Source Serif 4", serif; color: var(--cc-ink); }
+.command-center .cat-bar {
+  display: block;
+  height: 7px;
+  background: var(--cc-line);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.command-center .cat-bar > i {
+  display: block;
+  height: 100%;
+  background: var(--cc-teal);
+}
+.command-center .cat-amt {
+  font-family: "Fira Code", monospace;
+  color: var(--cc-soft);
+  text-align: right;
+}
+.command-center .finance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.command-center .finance-table th,
+.command-center .finance-table td {
+  padding: 6px 10px;
+  text-align: left;
+  font-family: "Source Serif 4", serif;
+  border-bottom: 1px solid var(--cc-line);
+}
+.command-center .finance-table tr:last-child td { border-bottom: none; }
+.command-center .finance-table th {
+  font-family: "Fira Code", monospace;
+  font-size: 0.7rem;
+  color: var(--cc-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+.command-center .finance-table .amt {
+  text-align: right;
+  font-family: "Fira Code", monospace;
+}
+.command-center .cc-meta {
+  font-family: "Fira Code", monospace;
+  font-size: 0.7rem;
+  color: var(--cc-muted);
+}
+
+/* Numberless Finances card on Home */
+.command-center .finance-card .finance-card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.4rem;
+}
+.command-center .finance-card-title {
+  font-family: "Source Serif 4", serif;
+  font-size: 1.05rem;
+  color: var(--cc-ink);
+}
+.command-center .finance-card-spark {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 32px;
+  margin: 0.3rem 0 0.6rem;
+}
+.command-center .finance-card-spark .spark-bar {
+  display: block;
+  width: 14px;
+  background: var(--cc-teal);
+  border-radius: 2px;
+  min-height: 2px;
+}
+.command-center .finance-card-meta {
+  font-family: "Fira Code", monospace;
+  font-size: 0.75rem;
+  color: var(--cc-muted);
+}
+.command-center .finance-card-meta:hover {
+  color: var(--cc-teal);
+}
+
+/* Monthly spend chart on Finances drill-down */
+.command-center .monthly-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 14px;
+  padding: 0.5rem 0;
+}
+.command-center .month-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 40px;
+}
+.command-center .month-bar {
+  width: 32px;
+  background: var(--cc-teal);
+  border-radius: 3px 3px 0 0;
+  min-height: 3px;
+}
+.command-center .month-label {
+  margin-top: 8px;
+  font-family: "Fira Code", monospace;
+  font-size: 0.72rem;
+  color: var(--cc-muted);
+}
+.command-center .month-amt {
+  margin-top: 2px;
+  font-family: "Fira Code", monospace;
+  font-size: 0.72rem;
+  color: var(--cc-soft);
+}
+
+/* Color variety: top merchants in blue */
+.command-center .top-merchants .cat-bar > i {
+  background: var(--cc-blue);
+}
+
+/* Home finance card directional arrow */
+.command-center .finance-card-arrow {
+  font-family: "Fira Code", monospace;
+  font-size: 1.05rem;
+  color: var(--cc-teal);
+}
+
+/* Weekday pattern on drill-down */
+.command-center .weekday-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  padding: 0.5rem 0;
+}
+.command-center .week-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 38px;
+}
+.command-center .week-bar {
+  width: 28px;
+  background: var(--cc-blue);
+  border-radius: 3px 3px 0 0;
+  min-height: 3px;
+}
+.command-center .week-label {
+  margin-top: 8px;
+  font-family: "Fira Code", monospace;
+  font-size: 0.72rem;
+  color: var(--cc-muted);
+}
+.command-center .week-amt {
+  margin-top: 2px;
+  font-family: "Fira Code", monospace;
+  font-size: 0.7rem;
+  color: var(--cc-soft);
+}
+
+/* YTD cumulative line chart */
+.command-center .ytd-chart {
+  display: block;
+  width: 100%;
+  height: 120px;
+}
+.command-center .ytd-meta {
+  margin-top: 0.4rem;
+  font-family: "Fira Code", monospace;
+  font-size: 0.75rem;
+  color: var(--cc-soft);
+  text-align: right;
+}
+
+/* Tasks list on Home */
+.command-center .task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.command-center .task-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--cc-line);
+}
+.command-center .task-item:last-child { border-bottom: none; }
+.command-center .task-check {
+  font-family: "Fira Code", monospace;
+  color: var(--cc-muted);
+  flex-shrink: 0;
+  line-height: 1.5;
+}
+.command-center .task-text {
+  font-family: "Source Serif 4", serif;
+  color: var(--cc-ink);
+  line-height: 1.5;
+}
+.command-center .task-card-meta {
+  display: inline-block;
+  margin-top: 0.7rem;
+  font-family: "Fira Code", monospace;
+  font-size: 0.75rem;
+  color: var(--cc-muted);
+}
+.command-center .task-card-meta:hover {
+  color: var(--cc-teal);
+}
+
+/* Decisions log on Home + dedicated view */
+.command-center .decisions-mini {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.command-center .decision-mini-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--cc-line);
+}
+.command-center .decision-mini-item:last-child { border-bottom: none; }
+.command-center .decision-mini-link {
+  font-family: "Source Serif 4", serif;
+  color: var(--cc-ink);
+}
+.command-center .decision-mini-date {
+  font-family: "Fira Code", monospace;
+  font-size: 0.72rem;
+  color: var(--cc-muted);
+  white-space: nowrap;
+}
+.command-center .decisions-list .decision-card {
+  margin-bottom: 12px;
+}
+.command-center .decision-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+.command-center .decision-title {
+  font-family: "Source Serif 4", serif;
+  font-size: 1.02rem;
+  color: var(--cc-ink);
+}
+.command-center .decision-date {
+  font-family: "Fira Code", monospace;
+  font-size: 0.72rem;
+  color: var(--cc-muted);
+  white-space: nowrap;
+}
+.command-center .decision-ruled {
+  margin: 0.4rem 0 0;
+  font-family: "Fira Code", monospace;
+  font-size: 0.78rem;
+  color: var(--cc-soft);
+}

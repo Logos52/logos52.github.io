@@ -1,0 +1,24 @@
+filters:
+  and:
+    - file.inFolder("mg-kolbs")
+    - file.hasProperty("competency")
+formulas:
+  competency_display: 'if(competency.startsWith("CI"), "CI", competency)'
+  progress: 'html("<span class=''cc-bar''><i style=''width:" + (note["current-level"] / note["final-level"] * 100).round() + "%''></i></span>")'
+properties:
+  file.name:
+    displayName: Skill
+  formula.competency_display:
+    displayName: Competency
+  formula.progress:
+    displayName: Progress
+views:
+  - type: table
+    name: Skills
+    order:
+      - file.name
+      - formula.competency_display
+      - formula.progress
+    sort:
+      - property: file.name
+        direction: ASC

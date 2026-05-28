@@ -34,9 +34,13 @@ const config: QuartzConfig = {
       "00 Command Center/**",
       "raw/**",
       "private/Skills/**",
+      "finances/**",
       "outputs/**",
       "templates/**",
       "tools/**",
+      "PRDs/**",
+      "decisions/**",
+      "mg-kolbs/**",
 
       // Quartz framework + build artifacts
       "quartz/**",

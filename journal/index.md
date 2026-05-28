@@ -15,6 +15,7 @@ Current thinking, open questions, and short notes on what is moving through the 
 
 ## What's On My Mind
 
+- [[journal/2026-05-28-Reflections-on-Wiki-Bloat-Life-OS-Red-Teaming-and-Agentic-Focus|Wiki bloat fears with self-updating, Life OS home location (single vs adjacent), further Red Teaming pruning to Applied Critical Thinking only, practical agentic engineering momentum, and the specific distractability of rabbit holes during AI/agent sessions]] — returning primary work to the knowledge base after the COS dashboard experiment proved too clunky for daily use.
 - [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]] and [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media & Curvilinear Design]] — same problem, separate angles. One page looks at the return to work; the other looks at environments that make return less likely.
 - [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] — the system should amplify thinking, not replace it. The open problem is how to keep the first brain active while the second brain gets stronger.
 - [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] — BHS + SIR is the minimum. Agents and the knowledge base are adjacent bets.
@@ -22,6 +23,7 @@ Current thinking, open questions, and short notes on what is moving through the 
 
 ## Recent Log
 
+- [[journal/2026-05-28-Reflections-on-Wiki-Bloat-Life-OS-Red-Teaming-and-Agentic-Focus|2026-05-28]] — Returned primary daily work to the knowledge base. Captured concerns about self-updating wiki bloat/quality, Life OS dashboard placement (single integrated home vs. protected adjacent layer), further pruning of Red Teaming to only Applied Critical Thinking, excitement around practical agentic engineering limits, and the new surface of rabbit-hole distractability during AI/agent sessions (with COS as a concrete failed-experiment data point).
 - [[journal/calendar#2026-05-21|2026-05-21]] — Restructured the pipeline (L4 → L3 → L2 → L1), promoted Focus Management and Social Media pages, tightened writing standards toward mechanism-first openings.
 - [[journal/calendar#2026-05-17|2026-05-17]] — Expanded the agentic stack, added 30-Day Challenges across five learning dimensions, refined [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]].
 

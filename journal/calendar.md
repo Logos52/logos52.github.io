@@ -465,3 +465,17 @@ Key outcome: The converter now has a mandatory internal check against `style-fee
 ## 2026-05-18 (continued)
 
 Implemented full Hermes Kanban board design for L4/L3/L2/L1 synthesis pipeline. Created orchestrator prompt, updated l3-to-l2-voice-converter with Kanban integration, and documented setup.
+
+## 2026-05-28
+
+Returned primary daily work to the knowledge base as the main living surface.
+
+Captured several live tensions in [[journal/2026-05-28-Reflections-on-Wiki-Bloat-Life-OS-Red-Teaming-and-Agentic-Focus|Reflections on Wiki Bloat, Life OS Placement, Red Teaming Scope, and Agentic Focus Discipline]]:
+
+- Strong concern that self-updating wiki mechanisms will generate bloat and lower-quality notes that require constant heavy editing to match the desired tone and mechanism-first standard.
+- Decision to explore building Life OS / dashboard capabilities inside (or tightly adjacent to) the knowledge base rather than treating COS as the primary home.
+- Further deprioritization of Red Teaming: keeping only the timeless "Applied Critical Thinking" core; team-oriented and handbook material treated as historical.
+- Genuine excitement about practical agentic engineering limits with coding agents — the "early computer + internet" feeling — while wanting to stay grounded in real daily use.
+- A new, specific form of distractability: falling into implementation rabbit holes during AI/agent sessions that later prove misaligned with higher-order intent (COS dashboard experiment cited as a concrete data point of a build that did not survive contact with daily use).
+
+The through-line is protecting the knowledge base as the high-integrity thinking layer while still allowing powerful tools and experiments to serve it without gradually replacing the thinking itself.

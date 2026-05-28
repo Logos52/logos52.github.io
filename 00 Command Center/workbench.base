@@ -1,0 +1,23 @@
+filters:
+  and:
+    - 'file.inFolder("workbench")'
+    - 'file.ext == "md"'
+formulas:
+  state: 'if(file.mtime < now() - "10d", "stale — forgot to finish?", "active")'
+properties:
+  file.name:
+    displayName: On the bench
+  file.mtime:
+    displayName: Last touched
+  formula.state:
+    displayName: State
+views:
+  - type: table
+    name: Workbench
+    order:
+      - file.name
+      - file.mtime
+      - formula.state
+    sort:
+      - property: file.mtime
+        direction: ASC
