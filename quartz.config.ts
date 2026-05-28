@@ -8,8 +8,11 @@ import * as Plugin from "./quartz/plugins"
  * structure is a 1:1 reflection of the wiki the way it's organized in Obsidian.
  * Anything not meant to be published is listed under `ignorePatterns` below.
  *
- * To preview locally:   npx quartz build --serve
- * To rebuild output:    npx quartz build
+ * To preview locally:   npm run serve   (wraps `npx quartz build --serve --directory .`)
+ * To rebuild output:    npm run build   (wraps `npx quartz build --directory .`)
+ *
+ * The `--directory .` flag is required because content lives at the repo root,
+ * not in the default `./content/` folder Quartz looks for.
  */
 
 const config: QuartzConfig = {
@@ -41,6 +44,12 @@ const config: QuartzConfig = {
       "PRDs/**",
       "decisions/**",
       "mg-kolbs/**",
+      "01 - Workbench/**",
+      "02 - System/**",
+      "_archive/**",
+      "hermes/**",
+      "log.md",
+      "_meta/**",
 
       // Quartz framework + build artifacts
       "quartz/**",

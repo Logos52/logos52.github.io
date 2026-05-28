@@ -61,7 +61,7 @@ Useful status fields:
 
 - [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]
 - [[wiki/Workflows/Wiki Breakdown Pass|Wiki Breakdown Pass]]
-- [[00 Command Center/Writing Standards|Writing Standards]]
+- [[Writing Standards]]
 
 ## Sources
 

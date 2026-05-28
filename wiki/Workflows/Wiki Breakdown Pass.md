@@ -64,7 +64,7 @@ Use a table like this before creating pages:
 
 - [[wiki/Workflows/Wiki Status Checks|Wiki Status Checks]]
 - [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]
-- [[00 Command Center/Writing Standards|Writing Standards]]
+- [[Writing Standards]]
 
 ## Sources
 

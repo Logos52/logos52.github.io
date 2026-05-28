@@ -40,9 +40,9 @@ Also wrote a short reflection connecting the two: [[journal/2026-05-21-Focus-Man
 
 [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]] gives the feed problem a sharper frame. Smooth systems steal time by removing decision points and memory anchors. The repair is a right-angle turn: open with a purpose, pre-decide the next move, create story-shaped memory, and exit when the original purpose is gone.
 
-Also tightened the synthesis writing system in [[00 Command Center/Writing Standards|Writing Standards]] and the L3 -> L2 converter. New pages should open with mechanism, action, condition, or observable pattern. Attribution openings, negative definitions, meta-commentary, skeleton compression, and template sameness are now explicit failure patterns.
+Also tightened the synthesis writing system in [[Writing Standards]] and the L3 -> L2 converter. New pages should open with mechanism, action, condition, or observable pattern. Attribution openings, negative definitions, meta-commentary, skeleton compression, and template sameness are now explicit failure patterns.
 
-Cleaned up the front-facing pages in [[journal/2026-05-21-front-facing-pages-cleanup|Front-Facing Pages Cleanup]].
+Cleaned up the front-facing pages in Front-Facing Pages Cleanup.
 
 The public surface now has a cleaner division of labor:
 
@@ -250,7 +250,7 @@ Compiled Opus brief for How to Force Your Brain To Be Motivated and converted it
 
 The core idea: motivation dependence makes consistency impossible because motivation is variable by design. DFUZ (Distinguish, Fake, Uptime, Zone) uses thought-action defusion — a clinical psychology technique — to separate feeling from action. The key mechanism is the bidirectional loop: actions produce thoughts that change feelings. You do not need to feel different before starting. Starting is what changes how you feel.
 
-Expanded [[00 Command Center/Writing Standards|Writing Standards]] with several new rules: Section-Level Style Split (prose for framing, bullets for body), Not X But Y (no contrast-first definitions), the hard rule against opening with the page title or subject label (with the clarification that this applies only to the title — other noun-first sentences are fine), and Sources Section Policy.
+Expanded [[Writing Standards]] with several new rules: Section-Level Style Split (prose for framing, bullets for body), Not X But Y (no contrast-first definitions), the hard rule against opening with the page title or subject label (with the clarification that this applies only to the title — other noun-first sentences are fine), and Sources Section Policy.
 
 ## 2026-05-13
 

@@ -37,7 +37,7 @@ Each report should include:
 - Findings.
 - Suggested edits.
 - Pages created or updated.
-- Questions added to [[00 Command Center/Open Questions|Open Questions]].
+- Questions added to [[Open Questions]].
 - Entry appended to [[log|log.md]].
 
 ## Related Concepts
