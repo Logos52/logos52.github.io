@@ -80,10 +80,6 @@ The point is to isolate the variables that actually matter. Some yes/no question
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 
-## Sources
-
-- Justin Sung / iCanStudy basic decision-making materials, paraphrased and synthesized in original language.
-
 ## Open Questions
 
 - What are the user's most common repeat decisions that could become choice-throttling checklists?

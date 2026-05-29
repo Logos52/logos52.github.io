@@ -156,5 +156,4 @@ When the prefrontal cortex is fatigued, the brain structurally biases toward low
 
 ## Sources
 
-- Justin Sung, ["How to Rest So Well You Never Feel Exhausted Again"](https://www.youtube.com/watch?v=Re5MZ9pwbC8), YouTube, May 2026.
 - Sonnentag, S., & Fritz, C. research on four dimensions of recovery.

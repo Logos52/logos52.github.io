@@ -129,6 +129,7 @@ The point is to prevent the learner from unconsciously replacing learning with p
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Deep Processing/Chunking as a Technique - Good chunking at different levels, and how to layer importance and meaningfulness|Chunking as a Technique]]
 
 ## Open Questions
 

@@ -75,3 +75,4 @@ See [[Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Herme
 - [[How Top Performers Learn|How Top Performers Learn]]
 - [[Context Engineering|Context Engineering]]
 - [[Vibe Coding|Vibe Coding]]
+- [[Essential AI Skills 2026|Essential AI Skills 2026]]

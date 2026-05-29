@@ -190,6 +190,7 @@ When working on complex, long-term knowledge work, using multiple models in a de
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
 - [[wiki/Concepts/A Return to Code|A Return to Code]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
+- [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]]
 
 ## Sources
 

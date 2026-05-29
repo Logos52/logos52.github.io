@@ -111,10 +111,6 @@ The practical inputs are:
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 
-## Sources
-
-- Justin Sung / iCanStudy focus, attention-management, self-management, and decisional-delay materials, paraphrased and synthesized in original language.
-
 ## Open Questions
 
 - Which tasks most reliably create Flow State for the user?

@@ -87,10 +87,6 @@ For example, "study biology" still contains decisions. "At 9:00, Aim the endocri
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 
-## Sources
-
-- Justin Sung / iCanStudy advanced time-management materials, paraphrased and synthesized in original language.
-
 ## Open Questions
 
 - Which transitions in the user's current day create the most decisional delay?

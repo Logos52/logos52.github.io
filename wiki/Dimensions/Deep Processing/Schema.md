@@ -129,7 +129,4 @@ The [[wiki/Dimensions/Deep Processing/Mindmaps|mindmap]] is the external represe
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
-
-## Sources
-
-- Justin Sung, "Watch This to Force Your Brain to Study Faster" (2024-11-01). [YouTube](https://www.youtube.com/watch?v=hz4JKqoG_Mc)
+- [[wiki/Dimensions/Deep Processing/Chunking as a Technique - Good chunking at different levels, and how to layer importance and meaningfulness|Chunking as a Technique]]

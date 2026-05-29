@@ -30,7 +30,7 @@ Fast skill learning depends on matching theory intake to the rate at which pract
 
 ## Experiential Cycling
 
-The prerequisite for any skill acquisition is a functioning feedback loop. Sung's archery framing makes it concrete: fire an arrow, observe where it lands, identify what to change, run the experiment. Without all four stages, repetition accumulates without improvement. Volume is not the variable.
+The prerequisite for any skill acquisition is a functioning feedback loop. The archery framing makes it concrete: fire an arrow, observe where it lands, identify what to change, run the experiment. Without all four stages, repetition accumulates without improvement. Volume is not the variable.
 
 The loop maps directly to [[Kolb's Experiential Cycle|Kolb's Experiential Cycle]] — concrete experience, reflective observation, abstract conceptualization, active experimentation. These are not optional phases. They are the mechanism by which practice converts into skill. Theory serves the cycle: it gives the reflection stage better hypotheses to work with and the experimentation stage more precise targets.
 
@@ -38,7 +38,7 @@ The loop maps directly to [[Kolb's Experiential Cycle|Kolb's Experiential Cycle]
 
 Once the cycle is intact, the governing variable is cognitive load. Working memory is finite. Every technique not yet habituated occupies some of that capacity as a live instruction. The skill itself — when new — is unfamiliar and effortful, consuming additional resources just to perform. This means the available space for new theory is narrower than it appears, and it narrows further as the learner is simultaneously trying to execute.
 
-Sung's practical rule: for every hour of new theory, at least five hours of deliberate practice. At 5 hours of weekly practice, 1 hour of theory. At 20 hours, up to 4 hours. The proportion holds regardless of absolute volume. But the ratio is a proxy for something more fundamental — habit formation speed — which is personal and skill-dependent. A simple motor pattern might habitate in hours. A complex metacognitive technique might take weeks of daily use before it stops requiring conscious attention.
+A practical rule of thumb: for every hour of new theory, at least five hours of deliberate practice. At 5 hours of weekly practice, 1 hour of theory. At 20 hours, up to 4 hours. The proportion holds regardless of absolute volume. But the ratio is a proxy for something more fundamental — habit formation speed — which is personal and skill-dependent. A simple motor pattern might habitate in hours. A complex metacognitive technique might take weeks of daily use before it stops requiring conscious attention.
 
 The learner who understands this calibrates by signal, not by ratio. Theory is added when the current batch of techniques has become smooth enough to execute without deliberate monitoring — not on a schedule, and not because enough time has passed.
 

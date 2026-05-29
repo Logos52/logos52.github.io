@@ -98,7 +98,7 @@ A significant amount of deliberate practice is required to perform WPW correctly
 
 ### Research Foundations
 
-- **Good teacher dependency and the fade-out effect**: Heavy reliance on external tutoring can create dependency that undermines long-term independent learning. The skills developed through WPW directly counteract this by training you to diagnose and repair your own understanding without constant external guidance. See the summary on [why tutoring can make things worse](https://www.linkedin.com/pulse/why-tutoring-makes-things-worse-ex-tutor-justin-sung/).
+- **Good teacher dependency and the fade-out effect**: Heavy reliance on external tutoring can create dependency that undermines long-term independent learning. The skills developed through WPW directly counteract this by training you to diagnose and repair your own understanding without constant external guidance. Research on tutoring dependency and the fade-out effect supports this.
 - **WPW in adult education research**: Malcolm Knowles outlines the WPW model in *The Adult Learner: The Definitive Classic in Adult Education and Human Resource Development*. Academic work on threshold concepts and curriculum design (e.g., Barradell & Kennedy-Jones, 2015) and practical strategy integration (e.g., Mowling & Heidorn, 2013) further supports its value for deep, relational understanding.
 
 ### WPW as High-Volume Retrieval Practice (HVRP)

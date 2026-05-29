@@ -74,3 +74,4 @@ For research contexts, AI over-indexes on high-citation, popular sources. It hal
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]]
+- [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]]

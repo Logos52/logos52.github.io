@@ -7,7 +7,6 @@ source-count: 197
 tags:
   - learning-system
   - metacognition
-  - justin-sung
   - ics
 ---
 
@@ -318,10 +317,6 @@ For the user's current system:
 - [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
 - [[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
-
-## Sources
-
-- Justin Sung / iCanStudy learning-system materials, synthesized in original language.
 
 ## Open Questions
 

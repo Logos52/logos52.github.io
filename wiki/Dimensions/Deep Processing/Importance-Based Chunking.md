@@ -83,6 +83,7 @@ Aim creates the first hypotheses about importance. Shoot tests and elaborates th
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]]
+- [[wiki/Dimensions/Deep Processing/Chunking as a Technique - Good chunking at different levels, and how to layer importance and meaningfulness|Chunking as a Technique]]
 
 ## Open Questions
 

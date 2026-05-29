@@ -104,6 +104,10 @@ return function Finances() {
 
   return (
     <div>
+      <div class="cc-card" style={{display:'flex',alignItems:'center',justifyContent:'space-between',gap:'12px',flexWrap:'wrap'}}>
+        <a class="external-link" href="http://localhost:4179/" rel="noopener" style={{fontWeight:600,textDecoration:'none'}}>Open WNAB to budget →</a>
+        <span class="cc-meta" style={{fontSize:'0.8em',opacity:0.6}}>local · not running? double-click wnab.command (~/Documents/Finances/wnab/serve/)</span>
+      </div>
       <div class="cc-card finance-summary">
         <div class="finance-stat">
           <div class="finance-stat-label">Total spent</div>
@@ -190,6 +194,19 @@ return function Finances() {
             ))}
           </tbody>
         </table>
+      </div>
+
+      <h2>Budget template</h2>
+      <div class="cc-card">
+        <p class="cc-meta" style={{marginTop:0}}>Current per-category averages from your CSV. Copy this into <code>~/Documents/Finances/budget.json</code>, then adjust each number to what you <em>want</em> spending to be (not what it is now). Once that file exists, this dashboard switches from "what you spent" to "spent vs budgeted" with traffic-light bars.</p>
+        <pre class="budget-json">{JSON.stringify({
+          monthly_total: Math.round(total / Math.max(1, monthKeys.length)),
+          categories: Object.fromEntries(
+            Object.entries(byCat)
+              .sort((a, b) => b[1] - a[1])
+              .map(([cat, amt]) => [cat, Math.round(amt / Math.max(1, monthKeys.length))])
+          )
+        }, null, 2)}</pre>
       </div>
 
       <p class="cc-meta" style={{marginTop:'1rem'}}>Source: {data.file}</p>

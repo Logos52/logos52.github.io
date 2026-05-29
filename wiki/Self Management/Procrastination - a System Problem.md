@@ -154,10 +154,6 @@ The bridge between them is often a minimum viable goal plus a prepared focus env
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]
 
-## Sources
-
-- Justin Sung / iCanStudy procrastination, self-management, focus, and advanced time-management materials, paraphrased and synthesized in original language.
-
 ## Open Questions
 
 - What are the user's top three procrastination triggers right now?

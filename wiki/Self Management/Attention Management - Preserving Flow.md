@@ -176,10 +176,6 @@ The relationship:
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 
-## Sources
-
-- Justin Sung / iCanStudy attention-management materials, paraphrased and synthesized in original language.
-
 ## Open Questions
 
 - Which parts of the user's day should use normal time blocking, and which should use Attention Management?

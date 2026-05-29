@@ -22,6 +22,17 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Retired the old top-level clipping inbox and moved incoming source material to `raw/inbox/`.
 - Added `raw/processed/` as the processed-source lifecycle folder while keeping `raw/private/` and `raw/sessions/` for local-only source material and agent activity.
+
+## [2026-05-29] compile | L3 synthesis from inbox (2 sources)
+
+- Created `01 - Workbench/Grok - Updated Essential AI Skills for 2026.md` (L3 first-pass from Tina Huang YouTube transcript). Structured as leveled AI fluency progression with operating implications for Agentic Engineering.
+- Created `01 - Workbench/Grok - Live Clinic 73 - Chunking as a Technique.md` (L3 first-pass from iCanStudy Live Clinic 73 transcript). Extracted core principles around meaningful schemas, derivability, levels of chunking competence, and pre-study vs. main-event chunking.
+- Both placed in the active `01 - Workbench/` folder. Sources remain in `raw/inbox/`.
+
+## [2026-05-29] ingest | Two new raw sources processed into L3
+
+- `raw/inbox/Updated Essential AI Skills For 2026.md` (Tina Huang, 2026-05-24)
+- `raw/inbox/Live Clinic 73- Chunking as a technique.md` (iCanStudy Live Clinic 73, 2026-05-27)
 - Reorganized L3 model drafts into `outputs/L3/GPT/`, `outputs/L3/Grok/`, `outputs/L3/Opus/`, and `outputs/L3/Hermes/`; Sonnet-style drafts were folded into `Opus/`.
 - Reorganized L2 curated synthesis into `outputs/L2/ready/`, `outputs/L2/revise/`, and `outputs/L2/processed/`.
 - Updated README, AGENTS, the Home command center, Quartz ignore rules, the maintenance tool, and pipeline docs to reflect the L4 -> L3 -> L2 -> L1 structure.

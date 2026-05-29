@@ -88,10 +88,6 @@ Fear may identify risk. Excitement may identify opportunity. Discomfort may iden
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 
-## Sources
-
-- Justin Sung / iCanStudy complex decision-making materials, paraphrased and synthesized in original language.
-
 ## Open Questions
 
 - Which current user decisions should be reframed as positional decisions rather than right/wrong choices?

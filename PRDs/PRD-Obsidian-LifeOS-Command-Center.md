@@ -22,6 +22,11 @@ A single, Obsidian-native command center spanning knowledge work *and* life. Sup
 >
 > Final picks: dashboard surface = `00 Command Center/Home.md` (name kept as "Home" for now). Active questions for v1 — (1) using the knowledge base to free attention from bookkeeping while increasing real thinking; (2) frames for each Priority 0 skill (Agentic Engineering, Learning Systems, Vietnamese, 中文, Fitness, Relationships); (3) what "self-updating" should mean for the vault.
 
+> [!important] Amendment 2026-05-29 — finance layer rescoped to wnab overview
+> The **budgeting system has moved out of this PRD** into [[PRDs/PRD-wnab-Budget-App|wnab]], a custom YNAB-like app on Actual Budget's engine (separate repo, not in the vault). This is an explicit decision change (see [[decisions/2026-05-27-budget-path-b-not-real-software]], now superseded).
+> **What this changes here:** the *Life → finances* scope, the Phase 2 finance cards, and the finance drill-down are **rescoped from "the budget system" to "a read-only overview of wnab."** The numberless front-page card and the JS drill-down stay — they now *read wnab's data* rather than being the budgeting engine themselves. Apple Card CSV at `/Users/n1/Documents/Finances/` is reused to seed wnab.
+> **What's unchanged:** everything non-finance (knowledge, direction, tasks, dates), and the core "live where attention already is" mandate — the daily finance *glance* still lives in Obsidian; only the deliberate budgeting *work* moves to wnab. That split is the deliberate answer to the cos failure mode, not a violation of it.
+
 ## Problem
 
 The current front-facing surface ([[00 Command Center/Home|Home]]) is hand-maintained link lists — they go stale and answer "what links exist," not "where am I going, what am I working on, what should I think about." There is no single surface that pulls together what's incoming, what's in progress, the questions worth thinking about, the skills being trained, and the state of real life (tasks, dates, finances).

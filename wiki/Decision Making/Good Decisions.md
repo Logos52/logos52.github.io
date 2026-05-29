@@ -92,10 +92,6 @@ This turns performance into self-regulation instead of self-judgment.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
 
-## Sources
-
-- Justin Sung / iCanStudy complex decision-making materials, paraphrased and synthesized in original language.
-
 ## Open Questions
 
 - Should the user keep a lightweight decision journal for high-consequence choices?

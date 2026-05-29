@@ -84,10 +84,6 @@ Use this short review:
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 
-## Sources
-
-- Justin Sung / iCanStudy decision-making materials, paraphrased and synthesized in original language.
-
 ## Open Questions
 
 - Which current commitments should have explicit change criteria?

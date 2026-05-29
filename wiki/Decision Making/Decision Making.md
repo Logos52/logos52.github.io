@@ -114,10 +114,6 @@ It also protects focus. A recurring decision about what to do next is not just a
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 - [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
 
-## Sources
-
-- Justin Sung / iCanStudy decision-making and advanced time-management materials, paraphrased and synthesized in original language.
-
 ## Open Questions
 
 - What is the user's default written decision log format?

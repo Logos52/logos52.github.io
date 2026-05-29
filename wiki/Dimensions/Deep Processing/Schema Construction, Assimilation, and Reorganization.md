@@ -96,6 +96,7 @@ Use these three pillars whenever you are learning complex or high-volume materia
 - [[wiki/Dimensions/Deep Processing/Syntopical Reading - Learning from Multiple Dense Resources|Syntopical Reading - Learning from Multiple Dense Resources]] — both approaches emphasize building structure before diving into dense material
 - [[wiki/Dimensions/Deep Processing|Deep Processing]] — forming integrated mental models is one of the highest forms of deep processing
 - [[wiki/Dimensions/Deep Processing/Schema|Schema]] — the foundational concept behind these three pillars
+- [[wiki/Dimensions/Deep Processing/Chunking as a Technique - Good chunking at different levels, and how to layer importance and meaningfulness|Chunking as a Technique]] — the developmental skill of forming the chunks these pillars rely on
 
 ## Open Questions
 

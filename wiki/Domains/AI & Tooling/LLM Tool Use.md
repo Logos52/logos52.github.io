@@ -38,6 +38,7 @@ Tools are context channels. They determine what the model can see, what it can m
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]]
 
 ## Sources
 

@@ -366,6 +366,17 @@ body,
   color: var(--cc-soft);
   text-align: right;
 }
+.command-center .budget-json {
+  font-family: "Fira Code", monospace;
+  font-size: 0.78rem;
+  background: var(--cc-line);
+  padding: 12px 14px;
+  border-radius: 6px;
+  overflow-x: auto;
+  white-space: pre;
+  margin: 0.5rem 0 0;
+  color: var(--cc-ink);
+}
 
 /* Tasks list on Home */
 .command-center .task-list {
