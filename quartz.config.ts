@@ -69,11 +69,12 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        // Space Grotesk = playful-but-cool display voice for headings/chrome.
-        header: "Space Grotesk",
-        // Lora serif body preserved — long-form readability is a hard constraint.
+        // WNAB design language: Nunito (friendly rounded UI/display) + Fira Code
+        // (mono labels/numbers, the "vault aesthetic"). Lora serif body kept for
+        // long-form reading; Nunito pairs with it far more evenly than Grotesk did.
+        header: "Nunito",
         body: "Lora",
-        code: "JetBrains Mono",
+        code: "Fira Code",
       },
       colors: {
         lightMode: {
@@ -82,12 +83,12 @@ const config: QuartzConfig = {
           gray: "#a09690",
           darkgray: "#47454c",
           dark: "#1c1a20",
-          // Vivid indigo-violet accent + electric-blue secondary, pulled from
-          // the knowledge-graph category palette so the look feels native.
-          secondary: "#6d4dff",
-          tertiary: "#00a7ff",
-          highlight: "rgba(109, 77, 255, 0.10)",
-          textHighlight: "#e7e0ff",
+          // Emerald/jade — WNAB green family, but cooler & fresher than the dark
+          // forest #1e7a3d (nods to the violet's coolness without leaving green).
+          secondary: "#128a63",
+          tertiary: "#1fae84",
+          highlight: "rgba(18, 138, 99, 0.08)",
+          textHighlight: "#d8efe6",
         },
         darkMode: {
           light: "#171619",
@@ -95,10 +96,11 @@ const config: QuartzConfig = {
           gray: "#716a70",
           darkgray: "#e0d9d4",
           dark: "#f5f1ed",
-          secondary: "#9b8cff",
-          tertiary: "#4fc3ff",
-          highlight: "rgba(155, 140, 255, 0.14)",
-          textHighlight: "#4b3f8a88",
+          // Lightened jade so the accent stays legible on the dark surface.
+          secondary: "#4fd3a3",
+          tertiary: "#6ee0bb",
+          highlight: "rgba(79, 211, 163, 0.13)",
+          textHighlight: "#1d4a3a88",
         },
       },
     },

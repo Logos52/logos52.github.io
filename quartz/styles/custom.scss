@@ -414,11 +414,11 @@ tr,
   --cat-workflows: #84cc16;
 }
 
-/* Cooler page wash — a touch more violet energy behind the content. */
+/* Cooler page wash — kept very faint so light mode stays calm. */
 body {
   background:
-    radial-gradient(120% 70% at 50% -10%, color-mix(in srgb, var(--secondary) 9%, transparent) 0%, transparent 60%),
-    linear-gradient(180deg, color-mix(in srgb, var(--light) 92%, var(--pastel-lavender)) 0%, var(--light) 44%),
+    radial-gradient(110% 60% at 50% -12%, color-mix(in srgb, var(--secondary) 4%, transparent) 0%, transparent 55%),
+    linear-gradient(180deg, color-mix(in srgb, var(--light) 96%, var(--pastel-lavender)) 0%, var(--light) 40%),
     var(--light);
 }
 
@@ -449,8 +449,8 @@ a.tag-link {
   font-weight: 500;
   line-height: 1.5;
   border: none;
-  color: color-mix(in srgb, var(--accent) 82%, var(--dark));
-  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  color: color-mix(in srgb, var(--accent) 78%, var(--dark));
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
   transition: transform 0.14s ease, background-color 0.14s ease, color 0.14s ease;
 }
 
@@ -462,14 +462,14 @@ a.tag-link:hover {
 }
 
 /* Category tints — pulled from the knowledge-graph legend colours. */
-.tags a[href*="techniques" i]      { color: color-mix(in srgb, var(--cat-techniques) 88%, var(--dark)); background: color-mix(in srgb, var(--cat-techniques) 16%, transparent); }
-.tags a[href*="concept" i]         { color: color-mix(in srgb, var(--cat-concepts) 88%, var(--dark));   background: color-mix(in srgb, var(--cat-concepts) 16%, transparent); }
-.tags a[href*="language" i]        { color: color-mix(in srgb, var(--cat-language) 80%, var(--dark));   background: color-mix(in srgb, var(--cat-language) 18%, transparent); }
-.tags a[href*="decision" i]        { color: color-mix(in srgb, var(--cat-decision) 86%, var(--dark));   background: color-mix(in srgb, var(--cat-decision) 16%, transparent); }
+.tags a[href*="techniques" i]      { color: color-mix(in srgb, var(--cat-techniques) 82%, var(--dark)); background: color-mix(in srgb, var(--cat-techniques) 11%, transparent); }
+.tags a[href*="concept" i]         { color: color-mix(in srgb, var(--cat-concepts) 82%, var(--dark));   background: color-mix(in srgb, var(--cat-concepts) 11%, transparent); }
+.tags a[href*="language" i]        { color: color-mix(in srgb, var(--cat-language) 72%, var(--dark));   background: color-mix(in srgb, var(--cat-language) 12%, transparent); }
+.tags a[href*="decision" i]        { color: color-mix(in srgb, var(--cat-decision) 80%, var(--dark));   background: color-mix(in srgb, var(--cat-decision) 11%, transparent); }
 .tags a[href*="red-team" i],
-.tags a[href*="redteam" i]         { color: color-mix(in srgb, var(--cat-redteam) 88%, var(--dark));    background: color-mix(in srgb, var(--cat-redteam) 15%, transparent); }
-.tags a[href*="book" i]            { color: color-mix(in srgb, var(--cat-books) 78%, var(--dark));      background: color-mix(in srgb, var(--cat-books) 18%, transparent); }
-.tags a[href*="workflow" i]        { color: color-mix(in srgb, var(--cat-workflows) 80%, var(--dark));  background: color-mix(in srgb, var(--cat-workflows) 18%, transparent); }
+.tags a[href*="redteam" i]         { color: color-mix(in srgb, var(--cat-redteam) 82%, var(--dark));    background: color-mix(in srgb, var(--cat-redteam) 10%, transparent); }
+.tags a[href*="book" i]            { color: color-mix(in srgb, var(--cat-books) 70%, var(--dark));      background: color-mix(in srgb, var(--cat-books) 12%, transparent); }
+.tags a[href*="workflow" i]        { color: color-mix(in srgb, var(--cat-workflows) 72%, var(--dark));  background: color-mix(in srgb, var(--cat-workflows) 12%, transparent); }
 
 .tags a[href*="techniques" i]:hover { background: var(--cat-techniques); color: var(--light); }
 .tags a[href*="concept" i]:hover    { background: var(--cat-concepts);   color: var(--light); }
@@ -491,13 +491,14 @@ article h3,
 
 article h2 {
   padding-bottom: 0.25rem;
-  border-bottom: 1px solid color-mix(in srgb, var(--accent) 22%, var(--lightgray));
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 14%, var(--lightgray));
 }
 
 /* ---- Landing hero: lead paragraph gets size + an accent rule ---- */
 body[data-slug="index"] article > h1:first-of-type {
-  font-size: clamp(2.2rem, 5vw, 3rem);
-  background: linear-gradient(100deg, var(--secondary), var(--tertiary));
+  font-size: clamp(2.1rem, 4.5vw, 2.8rem);
+  /* Tighter, subtler gradient — stays close to the accent instead of a rainbow. */
+  background: linear-gradient(100deg, var(--secondary), color-mix(in srgb, var(--tertiary) 45%, var(--secondary)));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -518,13 +519,13 @@ body[data-slug="index"] article > p:first-of-type strong {
 
 /* ---- Internal links: violet wash + accent underline on hover ---- */
 a.internal {
-  background-color: color-mix(in srgb, var(--secondary) 10%, transparent);
+  background-color: color-mix(in srgb, var(--secondary) 6%, transparent);
   border-radius: 3px;
   transition: background-color 0.14s ease, color 0.14s ease;
 }
 
 a.internal:hover {
-  background-color: color-mix(in srgb, var(--secondary) 20%, transparent);
+  background-color: color-mix(in srgb, var(--secondary) 13%, transparent);
   color: color-mix(in srgb, var(--secondary) 75%, var(--dark));
 }
 
@@ -542,8 +543,8 @@ a.internal:hover {
   bottom: 0;
   height: 2px;
   border-radius: 2px;
-  background: linear-gradient(90deg, var(--secondary), var(--tertiary) 55%, transparent);
-  opacity: 0.65;
+  background: linear-gradient(90deg, var(--secondary), color-mix(in srgb, var(--tertiary) 50%, var(--secondary)) 45%, transparent);
+  opacity: 0.4;
 }
 
 .site-nav a {
@@ -558,7 +559,7 @@ a.internal:hover {
 /* ---- Cards: stronger lift + accent border on hover ---- */
 body[data-slug="index"] .home-card,
 body[data-slug^="journal/"] .home-card {
-  background: color-mix(in srgb, var(--surface) 70%, var(--pastel-lavender));
+  background: color-mix(in srgb, var(--surface) 88%, var(--pastel-lavender));
   box-shadow: var(--soft-shadow);
 }
 
@@ -578,14 +579,14 @@ blockquote {
 /* ---- Search button: pill it to match the language ---- */
 .page-header > header .search .search-button {
   border-radius: var(--pill-radius);
-  background: color-mix(in srgb, var(--secondary) 9%, var(--surface));
-  border: 1px solid color-mix(in srgb, var(--secondary) 24%, transparent);
+  background: color-mix(in srgb, var(--secondary) 5%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--secondary) 16%, transparent);
   transition: border-color 0.14s ease, background-color 0.14s ease;
 }
 
 .page-header > header .search .search-button:hover {
-  border-color: var(--secondary);
-  background: color-mix(in srgb, var(--secondary) 14%, var(--surface));
+  border-color: color-mix(in srgb, var(--secondary) 55%, transparent);
+  background: color-mix(in srgb, var(--secondary) 9%, var(--surface));
 }
 
 /* ---- Dark mode: a little accent glow so "cool" reads at night ---- */
