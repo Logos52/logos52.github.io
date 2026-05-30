@@ -69,38 +69,40 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        // WNAB design language: Nunito (friendly rounded UI/display) + Fira Code
-        // (mono labels/numbers, the "vault aesthetic"). Lora serif body kept for
-        // long-form reading; Nunito pairs with it far more evenly than Grotesk did.
-        header: "Nunito",
+        // All Lora (headings, body, and chrome) for one cohesive serif voice —
+        // no sans/serif clash in the nav or sidebars. Hierarchy comes from weight
+        // and size. JetBrains Mono stays for code/labels only. Character comes
+        // from colour and shading, not the typeface.
+        header: "Lora",
         body: "Lora",
-        code: "Fira Code",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
           light: "#fbf8f4",
           lightgray: "#e9e1db",
           gray: "#a09690",
-          darkgray: "#47454c",
+          darkgray: "#38353f",
           dark: "#1c1a20",
-          // Emerald/jade — WNAB green family, but cooler & fresher than the dark
-          // forest #1e7a3d (nods to the violet's coolness without leaving green).
-          secondary: "#128a63",
-          tertiary: "#1fae84",
-          highlight: "rgba(18, 138, 99, 0.08)",
-          textHighlight: "#d8efe6",
+          // Jewel-tone family: amethyst primary (cool & sophisticated, a touch
+          // more saturated than before) + a jewel-teal companion for variety.
+          secondary: "#734bb2",
+          // Teal pulled down to a muted companion so purple clearly leads.
+          tertiary: "#5a9e8f",
+          highlight: "rgba(115, 75, 178, 0.10)",
+          textHighlight: "#e7ddf2",
         },
         darkMode: {
           light: "#171619",
           lightgray: "#302c31",
           gray: "#716a70",
-          darkgray: "#e0d9d4",
+          darkgray: "#ece7e2",
           dark: "#f5f1ed",
-          // Lightened jade so the accent stays legible on the dark surface.
-          secondary: "#4fd3a3",
-          tertiary: "#6ee0bb",
-          highlight: "rgba(79, 211, 163, 0.13)",
-          textHighlight: "#1d4a3a88",
+          // Lightened jewel tones (a touch brighter) for the dark surface.
+          secondary: "#c0a7ee",
+          tertiary: "#88c4b7",
+          highlight: "rgba(192, 167, 238, 0.14)",
+          textHighlight: "#2e244a88",
         },
       },
     },

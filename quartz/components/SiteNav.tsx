@@ -1,16 +1,28 @@
 import { pathToRoot } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
+const navItems = [
+  { href: "blog", label: "Blog", match: "blog" },
+  { href: "journal", label: "Journal", match: "journal" },
+  { href: "mg-kolbs", label: "MG & Kolbs", match: "mg-kolbs" },
+  { href: "notes", label: "Index", match: "notes" },
+  { href: "about", label: "About", match: "about" },
+]
+
 const SiteNav: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const baseDir = pathToRoot(fileData.slug!)
+  const slug = fileData.slug ?? ""
 
   return (
     <nav class="site-nav">
-      <a href={`${baseDir}/blog`}>Blog</a>
-      <a href={`${baseDir}/journal`}>Journal</a>
-      <a href={`${baseDir}/mg-kolbs`}>MG & Kolbs</a>
-      <a href={`${baseDir}/notes`}>Index</a>
-      <a href={`${baseDir}/about`}>About</a>
+      {navItems.map((item) => {
+        const active = slug === item.match || slug.startsWith(item.match + "/")
+        return (
+          <a class={active ? "active" : undefined} href={`${baseDir}/${item.href}`}>
+            {item.label}
+          </a>
+        )
+      })}
     </nav>
   )
 }
@@ -33,6 +45,11 @@ SiteNav.css = `
 
 .site-nav a:hover {
   color: var(--secondary);
+}
+
+.site-nav a.active {
+  color: var(--secondary);
+  font-weight: 600;
 }
 `
 

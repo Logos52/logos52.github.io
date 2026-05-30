@@ -52,6 +52,7 @@ type LinkRenderData = GraphicsInfo & {
 type NodeRenderData = GraphicsInfo & {
   simulationData: NodeData
   label: Text
+  baseAlpha: number
 }
 
 const localStorageKey = "graph-visited"
@@ -128,7 +129,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     nodeRank,
     nodeLimit,
     mobileNodeLimit,
-  } = JSON.parse(graph.dataset["cfg"]!) as D3Config
+    pinnedSlugs,
+    clusterForce,
+  } = JSON.parse(graph.dataset["cfg"]!) as D3Config & {
+    pinnedSlugs?: string[]
+    clusterForce?: number
+  }
 
   const hiddenSlugs = new Set<SimpleSlug>(
     (excludeSlugs ?? [
@@ -247,6 +253,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         .slice(0, effectiveNodeLimit),
     )
 
+    // Always keep explicitly pinned nodes (e.g. Start-here + recent notes).
+    for (const p of pinnedSlugs ?? []) {
+      const ps = simplifySlug(p as FullSlug)
+      if (neighbourhood.has(ps)) keptNodes.add(ps)
+    }
+
     if (neighbourhood.has(slug)) keptNodes.add(slug)
     neighbourhood.clear()
     keptNodes.forEach((id) => neighbourhood.add(id))
@@ -279,6 +291,10 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     .force("center", forceCenter().strength(centerForce))
     .force("link", forceLink(graphData.links).distance(linkDistance))
     .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
+    // Settle faster and with more friction so the layout doesn't "show off"
+    // by speeding up then drifting. (defaults: alphaDecay 0.0228, velocity 0.4)
+    .alphaDecay(0.05)
+    .velocityDecay(0.55)
 
   if (enableRadial) {
     const aspectRatio = width / height
@@ -296,6 +312,32 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       simulation.force("radial", forceRadial(radius).strength(0.2))
     }
   }
+
+  // Cluster nodes by category (colorRules prefix) into lobes, so the graph reads
+  // as a structure instead of a blob. Each category gets an anchor on a ring.
+  if (clusterForce && clusterForce > 0) {
+    const ruleList = colorRules ?? []
+    const numCats = ruleList.length + 1
+    const clusterRadius = Math.min(width, height) * 0.42
+    const anchorFor = (id: string) => {
+      let idx = ruleList.findIndex((r) => id.startsWith(r.prefix))
+      if (idx === -1) idx = ruleList.length
+      const angle = (idx / numCats) * 2 * Math.PI
+      return { x: Math.cos(angle) * clusterRadius, y: Math.sin(angle) * clusterRadius }
+    }
+    simulation
+      .force("clusterX", forceX<NodeData>((d) => anchorFor(d.id).x).strength(clusterForce))
+      .force("clusterY", forceY<NodeData>((d) => anchorFor(d.id).y).strength(clusterForce))
+  }
+
+  // Pre-settle the layout synchronously and halt the auto-ticker so the graph
+  // appears locked in place on load — no entrance wobble. Dragging a node still
+  // re-energises the simulation (alphaTarget(1).restart() in the drag handler).
+  simulation.stop()
+  const settleTicks = Math.ceil(
+    Math.log(simulation.alphaMin()) / Math.log(1 - simulation.alphaDecay()),
+  )
+  simulation.tick(settleTicks)
 
   // precompute style prop strings as pixi doesn't support css variables
   const cssVars = [
@@ -342,6 +384,15 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const linkScale = nodeLinkRadius ?? 1
     const max = nodeMaxRadius ?? 8
     return Math.min(max, base + Math.sqrt(numLinks) * linkScale)
+  }
+
+  // Fewer connections => more transparent, so well-linked hubs stand out and
+  // sparse/orphan notes recede. Adds depth/variety to the graph.
+  function nodeOpacity(d: NodeData) {
+    const numLinks = graphData.links.filter(
+      (l) => l.source.id === d.id || l.target.id === d.id,
+    ).length
+    return Math.max(0.35, Math.min(1, 0.4 + Math.sqrt(numLinks) * 0.2))
   }
 
   let hoveredNodeId: string | null = null
@@ -453,11 +504,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
     const tweenGroup = new TweenGroup()
     for (const n of nodeRenderData) {
-      let alpha = 1
+      // Resting opacity reflects connection count (set per node above).
+      let alpha = n.baseAlpha
 
       // if we are hovering over a node, we want to highlight the immediate neighbours
       if (hoveredNodeId !== null && focusOnHover) {
-        alpha = n.active ? 1 : 0.2
+        alpha = n.active ? 1 : 0.2 * n.baseAlpha
       }
 
       tweenGroup.add(new Tweened<Graphics>(n.gfx, tweenGroup).to({ alpha }, 200))
@@ -551,6 +603,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       gfx.stroke({ width: 2, color: computedStyleMap["--tertiary"] })
     }
 
+    gfx.alpha = nodeOpacity(n)
+
     nodesContainer.addChild(gfx)
     labelsContainer.addChild(label)
 
@@ -560,6 +614,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       label,
       color: color(n),
       alpha: 1,
+      baseAlpha: nodeOpacity(n),
       active: false,
     }
 

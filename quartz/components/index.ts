@@ -26,6 +26,7 @@ import ConditionalRender from "./ConditionalRender"
 import SiteNav from "./SiteNav"
 import JournalNav from "./JournalNav"
 import JournalContext from "./JournalContext"
+import HomeLanding from "./HomeLanding"
 
 export {
   ArticleTitle,
@@ -56,4 +57,5 @@ export {
   SiteNav,
   JournalNav,
   JournalContext,
+  HomeLanding,
 }

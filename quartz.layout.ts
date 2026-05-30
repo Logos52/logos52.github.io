@@ -149,12 +149,19 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
-    Component.ArticleTitle(),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: ({ fileData }) => fileData.slug !== "index",
+    }),
     Component.ContentMeta(),
     Component.TagList(),
     Component.ConditionalRender({
+      component: Component.HomeLanding(),
+      condition: ({ fileData }) => fileData.slug === "index",
+    }),
+    Component.ConditionalRender({
       component: NotesGraph,
-      condition: ({ fileData }) => fileData.slug === "index" || fileData.slug === "notes/index",
+      condition: ({ fileData }) => fileData.slug === "notes/index",
     }),
   ],
   left: [
