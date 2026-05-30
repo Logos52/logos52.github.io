@@ -113,6 +113,49 @@ body,
 .command-center .cc-bar > i { display: block; height: 100%; background: var(--cc-teal); }
 .command-center .cc-pill { font-family: "Fira Code", monospace; font-size: 0.7rem; padding: 2px 8px; border-radius: 6px; }
 
+/* wnab budget-overview components (Phase 2 swap — additive, no numbers required).
+   Numberless `available` pill: green = covered, amber = thin, red = overspent. */
+.command-center .available {
+  font-family: "Fira Code", monospace;
+  font-size: 0.7rem;
+  padding: 2px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--cc-line);
+  color: var(--cc-soft);
+  background: transparent;
+  display: inline-block;
+}
+.command-center .available.is-covered { color: var(--cc-teal); border-color: var(--cc-teal); }
+.command-center .available.is-thin { color: var(--cc-soft); border-color: var(--cc-soft); }
+.command-center .available.is-over { color: var(--cc-blue); border-color: var(--cc-blue); }
+
+/* Age-of-money tile: a single calm stat tile reusing the finance-stat scale. */
+.command-center .age-of-money {
+  border: 1px solid var(--cc-line);
+  border-radius: 10px;
+  padding: 12px 14px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.command-center .age-of-money .aom-label {
+  font-family: "Fira Code", monospace;
+  font-size: 0.7rem;
+  color: var(--cc-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.command-center .age-of-money .aom-value {
+  font-family: "Source Serif 4", serif;
+  font-size: 1.6rem;
+  color: var(--cc-ink);
+}
+.command-center .age-of-money .aom-unit {
+  font-family: "Fira Code", monospace;
+  font-size: 0.8rem;
+  color: var(--cc-soft);
+}
+
 /* Datacore Skills card grid */
 .command-center .skills-grid {
   display: grid;

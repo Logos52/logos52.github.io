@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("workbench")
+    - file.inFolder("01 - Workbench")
     - file.ext == "md"
 formulas:
   state: if(file.mtime < now() - "10d", "stale — forgot to finish?", "active")

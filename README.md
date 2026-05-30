@@ -35,7 +35,7 @@ AGENTS.md           LLM maintainer schema and workflows
 00 Command Center/  Obsidian-facing dashboard, index, open questions, changelog
 raw/                L4 source lifecycle: inbox, active sources, processed sources, private material, sessions
 wiki/               Compiled knowledge base
-workbench/          Active synthesis surface for model drafts, fused L2 briefs, comparisons, and promotion candidates
+01 - Workbench/     Canonical WIP/workbench folder at the vault root: active synthesis surface for model drafts, fused L2 briefs, comparisons, and promotion candidates
 outputs/            Legacy/archive area for older generated artifacts; not the default location for new active synthesis
 templates/          Note templates
 tools/              Scripts, search tools, and health checks

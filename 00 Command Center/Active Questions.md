@@ -9,6 +9,9 @@ tags:
   - questions
 ---
 
+> [!INFO] Capture convention
+> Cap at 5. Hand-lift questions from the journal when they recur — no script, no auto-append (that's what `Open Questions.md` is for). Optionally tag a source journal line `#aq` so the manual lift is a 2-second search. FIFO: when a sixth earns its place, drop the stalest.
+
 The 3–5 live questions I'm actually thinking about — curated by hand from journal entries, kept short on purpose. (Not the auto-generated `Open Questions.md`.)
 
 1. How do I use the knowledge base to free attention from bookkeeping while increasing the thinking I actually do?

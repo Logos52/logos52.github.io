@@ -63,6 +63,8 @@ return function RecentDecisions() {
 
 ## Workbench — what's in motion
 
+<p class="cc-meta">Drafts on the bench in <code>01 - Workbench/</code>. An empty table here means the bench is clear — nothing in motion, by design.</p>
+
 ![[workbench.base]]
 
 ## Direction — where I'm going

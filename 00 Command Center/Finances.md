@@ -105,8 +105,7 @@ return function Finances() {
   return (
     <div>
       <div class="cc-card" style={{display:'flex',alignItems:'center',justifyContent:'space-between',gap:'12px',flexWrap:'wrap'}}>
-        <a class="external-link" href="http://localhost:4179/" rel="noopener" style={{fontWeight:600,textDecoration:'none'}}>Open WNAB to budget →</a>
-        <span class="cc-meta" style={{fontSize:'0.8em',opacity:0.6}}>local · not running? double-click wnab.command (~/Documents/Finances/wnab/serve/)</span>
+        <span class="cc-meta" style={{fontSize:'0.85em',opacity:0.7}}>wnab now launches from the Dock — open the wnab app icon to budget (no link).</span>
       </div>
       <div class="cc-card finance-summary">
         <div class="finance-stat">

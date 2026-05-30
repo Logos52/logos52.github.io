@@ -63,9 +63,9 @@ public/
 .quartz-cache/
 .aider*
 
-# workbench/ directory is public; files inside are private working drafts
-workbench/*
-!workbench/.gitkeep
+# 01 - Workbench/ directory is public; files inside are private working drafts
+01 - Workbench/*
+!01 - Workbench/README.md
 
 # Finances stay LOCAL — never commit or publish transaction data (Apple Card CSVs, etc.)
 finances/**
