@@ -44,6 +44,7 @@ const config: QuartzConfig = {
       "PRDs/**",
       "decisions/**",
       "mg-kolbs/**",
+      "pans-mg-kolbs-template/**",
       "01 - Workbench/**",
       "02 - System/**",
       "_archive/**",
