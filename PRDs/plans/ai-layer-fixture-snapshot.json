@@ -1,0 +1,266 @@
+{
+  "_note": "SYNTHETIC TEST FIXTURE for the wnab AI layer (PRD-wnab-AI-Layer). Conforms to SNAPSHOT-SCHEMA.md schemaVersion 1. Contains NO real financial data - every figure is invented to exercise the auto-assign / roll-with-the-punches path. Do not treat as a real export.",
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-31T18:00:00-04:00",
+  "generator": "wnab-fixture-synthetic",
+  "currency": "USD",
+  "amountUnit": "cents",
+  "budgetName": "Fixture (synthetic)",
+  "month": "2026-06",
+  "summary": {
+    "toBudget": 120000,
+    "totalIncome": 429000,
+    "totalBudgeted": 309000,
+    "totalSpent": -285760,
+    "totalBalance": 23240,
+    "fromLastMonth": 0,
+    "forNextMonth": 0,
+    "incomeAvailable": 429000,
+    "lastMonthOverspent": 0
+  },
+  "categoryGroups": [
+    {
+      "id": "grp-income",
+      "name": "Income",
+      "isIncome": true,
+      "hidden": false,
+      "budgeted": 0,
+      "spent": 429000,
+      "balance": 0,
+      "categories": []
+    },
+    {
+      "id": "grp-immediate",
+      "name": "Immediate Obligations",
+      "isIncome": false,
+      "hidden": false,
+      "budgeted": 254000,
+      "spent": -244510,
+      "balance": 9490,
+      "categories": [
+        {
+          "id": "cat-rent",
+          "name": "Rent",
+          "hidden": false,
+          "assigned": 180000,
+          "activity": -180000,
+          "available": 0,
+          "carryover": false
+        },
+        {
+          "id": "cat-groceries",
+          "name": "Groceries",
+          "hidden": false,
+          "assigned": 60000,
+          "activity": -52310,
+          "available": 7690,
+          "carryover": true
+        },
+        {
+          "id": "cat-utilities",
+          "name": "Utilities",
+          "hidden": false,
+          "assigned": 14000,
+          "activity": -12200,
+          "available": 1800,
+          "carryover": false
+        }
+      ]
+    },
+    {
+      "id": "grp-true-expenses",
+      "name": "True Expenses",
+      "isIncome": false,
+      "hidden": false,
+      "budgeted": 55000,
+      "spent": -41250,
+      "balance": 13750,
+      "categories": [
+        {
+          "id": "cat-car",
+          "name": "Car Maintenance",
+          "hidden": false,
+          "assigned": 0,
+          "activity": 0,
+          "available": 0,
+          "carryover": true
+        },
+        {
+          "id": "cat-dining",
+          "name": "Dining Out",
+          "hidden": false,
+          "assigned": 30000,
+          "activity": -41250,
+          "available": -11250,
+          "carryover": true
+        },
+        {
+          "id": "cat-medical",
+          "name": "Medical",
+          "hidden": false,
+          "assigned": 25000,
+          "activity": 0,
+          "available": 25000,
+          "carryover": true
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "id": "acc-checking",
+      "name": "Everyday Checking",
+      "offbudget": false,
+      "closed": false,
+      "balance": 312540
+    },
+    {
+      "id": "acc-credit",
+      "name": "Rewards Card",
+      "offbudget": false,
+      "closed": false,
+      "balance": -48700
+    },
+    {
+      "id": "acc-savings",
+      "name": "Emergency Savings",
+      "offbudget": true,
+      "closed": false,
+      "balance": 1500000
+    }
+  ],
+  "ageOfMoney": {
+    "currentAge": 21,
+    "trend": "improving",
+    "insufficientData": false
+  },
+  "recentTransactions": [
+    {
+      "id": "txn-1",
+      "date": "2026-05-30",
+      "account": "Rewards Card",
+      "payee": "Trader Joe's",
+      "category": "Groceries",
+      "amount": -4231,
+      "cleared": true,
+      "notes": ""
+    },
+    {
+      "id": "txn-2",
+      "date": "2026-05-29",
+      "account": "Rewards Card",
+      "payee": "Pho 88",
+      "category": "Dining Out",
+      "amount": -3850,
+      "cleared": false,
+      "notes": "team dinner"
+    },
+    {
+      "id": "txn-3",
+      "date": "2026-05-28",
+      "account": "Everyday Checking",
+      "payee": "City Power & Light",
+      "category": "Utilities",
+      "amount": -12200,
+      "cleared": true,
+      "notes": "May bill"
+    },
+    {
+      "id": "txn-4",
+      "date": "2026-05-27",
+      "account": "Rewards Card",
+      "payee": "Safeway",
+      "category": "Groceries",
+      "amount": -8642,
+      "cleared": true,
+      "notes": ""
+    },
+    {
+      "id": "txn-5",
+      "date": "2026-05-25",
+      "account": "Everyday Checking",
+      "payee": "Crescent Property Mgmt",
+      "category": "Rent",
+      "amount": -180000,
+      "cleared": true,
+      "notes": "May rent"
+    },
+    {
+      "id": "txn-6",
+      "date": "2026-05-15",
+      "account": "Everyday Checking",
+      "payee": "Acme Corp Payroll",
+      "category": "Income",
+      "amount": 214500,
+      "cleared": true,
+      "notes": "paycheck"
+    },
+    {
+      "id": "txn-7",
+      "date": "2026-05-01",
+      "account": "Everyday Checking",
+      "payee": "Acme Corp Payroll",
+      "category": "Income",
+      "amount": 214500,
+      "cleared": true,
+      "notes": "paycheck"
+    }
+  ],
+  "upcomingBills": [
+    {
+      "id": "sch-rent",
+      "name": "Rent",
+      "nextDate": "2026-06-01",
+      "amount": -180000,
+      "frequency": "monthly",
+      "interval": 1,
+      "category": "Rent",
+      "categoryId": "cat-rent",
+      "completed": false
+    },
+    {
+      "id": "sch-car-ins",
+      "name": "Car Insurance",
+      "nextDate": "2026-06-12",
+      "amount": -14800,
+      "frequency": "monthly",
+      "interval": 1,
+      "category": "Car Maintenance",
+      "categoryId": "cat-car",
+      "completed": false
+    },
+    {
+      "id": "sch-internet",
+      "name": "Internet",
+      "nextDate": "2026-06-18",
+      "amount": -12000,
+      "frequency": "monthly",
+      "interval": 1,
+      "category": "Utilities",
+      "categoryId": "cat-utilities",
+      "completed": false
+    }
+  ],
+  "categoryHistory": [
+    {
+      "categoryId": "cat-groceries",
+      "category": "Groceries",
+      "months": [
+        { "month": "2026-03", "activity": -49880 },
+        { "month": "2026-04", "activity": -51120 },
+        { "month": "2026-05", "activity": -52310 }
+      ],
+      "average": -51103
+    },
+    {
+      "categoryId": "cat-dining",
+      "category": "Dining Out",
+      "months": [
+        { "month": "2026-03", "activity": -38900 },
+        { "month": "2026-04", "activity": -40100 },
+        { "month": "2026-05", "activity": -41250 }
+      ],
+      "average": -40083
+    }
+  ]
+}
