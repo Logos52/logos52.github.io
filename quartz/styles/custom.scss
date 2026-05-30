@@ -992,6 +992,103 @@ blockquote {
   color: var(--gray);
 }
 
+/* Interactive (illustrative) learning-dimensions radar — for the public
+   MG & Kolbs template page, with user-fillable example values. */
+.learning-radar {
+  background: var(--surface);
+  border: 1px solid color-mix(in srgb, var(--gray) 24%, var(--lightgray));
+  border-radius: 12px;
+  padding: 1.05rem 1.25rem 1.2rem;
+  box-shadow: var(--soft-shadow);
+  margin-bottom: 1.5rem;
+}
+
+.lr-note {
+  font-family: var(--codeFont);
+  font-size: 0.72rem;
+  color: var(--gray);
+  white-space: nowrap;
+}
+
+.lr-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.lr-chart {
+  width: 100%;
+  height: auto;
+}
+
+.lr-ring {
+  fill: none;
+  stroke: color-mix(in srgb, var(--lightgray) 80%, transparent);
+  stroke-width: 1;
+}
+
+.lr-axis {
+  stroke: color-mix(in srgb, var(--lightgray) 65%, transparent);
+  stroke-width: 1;
+}
+
+.lr-poly {
+  fill: color-mix(in srgb, var(--secondary) 18%, transparent);
+  stroke: var(--secondary);
+  stroke-width: 2;
+}
+
+.lr-label {
+  fill: var(--darkgray);
+  font-family: var(--headerFont);
+  font-size: 9px;
+}
+
+.lr-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.lr-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.92rem;
+}
+
+.lr-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex: none;
+}
+
+.lr-name {
+  flex: 1;
+}
+
+.lr-slider {
+  width: 96px;
+  flex: none;
+  accent-color: var(--secondary);
+}
+
+.lr-val {
+  font-family: var(--codeFont);
+  font-size: 0.8rem;
+  color: var(--gray);
+  width: 1ch;
+  text-align: right;
+}
+
+@media all and (max-width: 800px) {
+  .lr-body {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media all and (max-width: 800px) {
   .home-row {
     grid-template-columns: 1fr;

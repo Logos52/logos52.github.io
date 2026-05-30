@@ -27,6 +27,7 @@ import SiteNav from "./SiteNav"
 import JournalNav from "./JournalNav"
 import JournalContext from "./JournalContext"
 import HomeLanding from "./HomeLanding"
+import LearningRadar from "./LearningRadar"
 
 export {
   ArticleTitle,
@@ -58,4 +59,5 @@ export {
   JournalNav,
   JournalContext,
   HomeLanding,
+  LearningRadar,
 }
