@@ -394,3 +394,203 @@ tr,
     padding-left: 0;
   }
 }
+
+/* =====================================================================
+   WNAB design language — full send (readability held as a constraint)
+   Accent: vivid indigo-violet (--secondary) + electric blue (--tertiary).
+   Pills + mono labels echo WNAB; category tints echo the graph palette.
+   ===================================================================== */
+
+:root {
+  --accent: var(--secondary);
+  --accent-2: var(--tertiary);
+  --pill-radius: 999px;
+  --cat-techniques: #00a7ff;
+  --cat-concepts: #b968ff;
+  --cat-language: #ffb000;
+  --cat-decision: #ff7a1a;
+  --cat-redteam: #ff3b5c;
+  --cat-books: #00e5c3;
+  --cat-workflows: #84cc16;
+}
+
+/* Cooler page wash — a touch more violet energy behind the content. */
+body {
+  background:
+    radial-gradient(120% 70% at 50% -10%, color-mix(in srgb, var(--secondary) 9%, transparent) 0%, transparent 60%),
+    linear-gradient(180deg, color-mix(in srgb, var(--light) 92%, var(--pastel-lavender)) 0%, var(--light) 44%),
+    var(--light);
+}
+
+/* ---- Mono metadata: the "vault aesthetic" (dates, reading time, crumbs) ---- */
+.content-meta,
+.breadcrumb-container,
+article .tags,
+.backlinks .small,
+.popover .content-meta {
+  font-family: var(--codeFont);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+}
+
+.content-meta {
+  color: var(--gray);
+  text-transform: none;
+}
+
+/* ---- Tag pills: filled, rounded, coloured (WNAB pill language) ---- */
+.tags > li > a,
+a.tag-link {
+  display: inline-block;
+  padding: 0.12rem 0.62rem;
+  border-radius: var(--pill-radius);
+  font-family: var(--codeFont);
+  font-size: 0.74rem;
+  font-weight: 500;
+  line-height: 1.5;
+  border: none;
+  color: color-mix(in srgb, var(--accent) 82%, var(--dark));
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  transition: transform 0.14s ease, background-color 0.14s ease, color 0.14s ease;
+}
+
+.tags > li > a:hover,
+a.tag-link:hover {
+  transform: translateY(-1px);
+  color: var(--light);
+  background: var(--accent);
+}
+
+/* Category tints — pulled from the knowledge-graph legend colours. */
+.tags a[href*="techniques" i]      { color: color-mix(in srgb, var(--cat-techniques) 88%, var(--dark)); background: color-mix(in srgb, var(--cat-techniques) 16%, transparent); }
+.tags a[href*="concept" i]         { color: color-mix(in srgb, var(--cat-concepts) 88%, var(--dark));   background: color-mix(in srgb, var(--cat-concepts) 16%, transparent); }
+.tags a[href*="language" i]        { color: color-mix(in srgb, var(--cat-language) 80%, var(--dark));   background: color-mix(in srgb, var(--cat-language) 18%, transparent); }
+.tags a[href*="decision" i]        { color: color-mix(in srgb, var(--cat-decision) 86%, var(--dark));   background: color-mix(in srgb, var(--cat-decision) 16%, transparent); }
+.tags a[href*="red-team" i],
+.tags a[href*="redteam" i]         { color: color-mix(in srgb, var(--cat-redteam) 88%, var(--dark));    background: color-mix(in srgb, var(--cat-redteam) 15%, transparent); }
+.tags a[href*="book" i]            { color: color-mix(in srgb, var(--cat-books) 78%, var(--dark));      background: color-mix(in srgb, var(--cat-books) 18%, transparent); }
+.tags a[href*="workflow" i]        { color: color-mix(in srgb, var(--cat-workflows) 80%, var(--dark));  background: color-mix(in srgb, var(--cat-workflows) 18%, transparent); }
+
+.tags a[href*="techniques" i]:hover { background: var(--cat-techniques); color: var(--light); }
+.tags a[href*="concept" i]:hover    { background: var(--cat-concepts);   color: var(--light); }
+.tags a[href*="language" i]:hover   { background: var(--cat-language);   color: #1c1a20; }
+.tags a[href*="decision" i]:hover   { background: var(--cat-decision);   color: var(--light); }
+.tags a[href*="red-team" i]:hover,
+.tags a[href*="redteam" i]:hover    { background: var(--cat-redteam);    color: var(--light); }
+.tags a[href*="book" i]:hover       { background: var(--cat-books);      color: #1c1a20; }
+.tags a[href*="workflow" i]:hover   { background: var(--cat-workflows);  color: #1c1a20; }
+
+/* ---- Headings: Space Grotesk with more presence ---- */
+article h1,
+article h2,
+article h3,
+.page-title {
+  letter-spacing: -0.012em;
+  font-weight: 600;
+}
+
+article h2 {
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 22%, var(--lightgray));
+}
+
+/* ---- Landing hero: lead paragraph gets size + an accent rule ---- */
+body[data-slug="index"] article > h1:first-of-type {
+  font-size: clamp(2.2rem, 5vw, 3rem);
+  background: linear-gradient(100deg, var(--secondary), var(--tertiary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.6rem;
+}
+
+body[data-slug="index"] article > p:first-of-type {
+  font-size: 1.22rem;
+  line-height: 1.7;
+  color: var(--darkgray);
+  padding-left: 0.9rem;
+  border-left: 3px solid var(--accent);
+}
+
+body[data-slug="index"] article > p:first-of-type strong {
+  color: color-mix(in srgb, var(--accent) 80%, var(--dark));
+}
+
+/* ---- Internal links: violet wash + accent underline on hover ---- */
+a.internal {
+  background-color: color-mix(in srgb, var(--secondary) 10%, transparent);
+  border-radius: 3px;
+  transition: background-color 0.14s ease, color 0.14s ease;
+}
+
+a.internal:hover {
+  background-color: color-mix(in srgb, var(--secondary) 20%, transparent);
+  color: color-mix(in srgb, var(--secondary) 75%, var(--dark));
+}
+
+/* ---- Chrome: accent the header rule + nav hover/active feel ---- */
+.page-header > header {
+  border-bottom: none;
+  position: relative;
+}
+
+.page-header > header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--secondary), var(--tertiary) 55%, transparent);
+  opacity: 0.65;
+}
+
+.site-nav a {
+  position: relative;
+  transition: color 0.14s ease;
+}
+
+.site-nav a:hover {
+  color: var(--secondary);
+}
+
+/* ---- Cards: stronger lift + accent border on hover ---- */
+body[data-slug="index"] .home-card,
+body[data-slug^="journal/"] .home-card {
+  background: color-mix(in srgb, var(--surface) 70%, var(--pastel-lavender));
+  box-shadow: var(--soft-shadow);
+}
+
+body[data-slug="index"] .home-card:hover,
+body[data-slug^="journal/"] .home-card:hover {
+  border-color: var(--secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px color-mix(in srgb, var(--secondary) 18%, transparent);
+}
+
+/* ---- Blockquotes: cooler accent ---- */
+blockquote {
+  background: color-mix(in srgb, var(--secondary) 7%, transparent);
+  border-left-color: var(--accent);
+}
+
+/* ---- Search button: pill it to match the language ---- */
+.page-header > header .search .search-button {
+  border-radius: var(--pill-radius);
+  background: color-mix(in srgb, var(--secondary) 9%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--secondary) 24%, transparent);
+  transition: border-color 0.14s ease, background-color 0.14s ease;
+}
+
+.page-header > header .search .search-button:hover {
+  border-color: var(--secondary);
+  background: color-mix(in srgb, var(--secondary) 14%, var(--surface));
+}
+
+/* ---- Dark mode: a little accent glow so "cool" reads at night ---- */
+:root[saved-theme="dark"] body {
+  background:
+    radial-gradient(120% 70% at 50% -10%, color-mix(in srgb, var(--secondary) 14%, transparent) 0%, transparent 58%),
+    var(--light);
+}

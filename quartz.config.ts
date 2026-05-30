@@ -69,7 +69,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Geist",
+        // Space Grotesk = playful-but-cool display voice for headings/chrome.
+        header: "Space Grotesk",
+        // Lora serif body preserved — long-form readability is a hard constraint.
         body: "Lora",
         code: "JetBrains Mono",
       },
@@ -80,10 +82,12 @@ const config: QuartzConfig = {
           gray: "#a09690",
           darkgray: "#47454c",
           dark: "#1c1a20",
-          secondary: "#3a6080",
-          tertiary: "#5a7d96",
-          highlight: "rgba(220, 206, 194, 0.28)",
-          textHighlight: "#f3ead7",
+          // Vivid indigo-violet accent + electric-blue secondary, pulled from
+          // the knowledge-graph category palette so the look feels native.
+          secondary: "#6d4dff",
+          tertiary: "#00a7ff",
+          highlight: "rgba(109, 77, 255, 0.10)",
+          textHighlight: "#e7e0ff",
         },
         darkMode: {
           light: "#171619",
@@ -91,10 +95,10 @@ const config: QuartzConfig = {
           gray: "#716a70",
           darkgray: "#e0d9d4",
           dark: "#f5f1ed",
-          secondary: "#7db8d8",
-          tertiary: "#9ecfbf",
-          highlight: "rgba(220, 206, 194, 0.14)",
-          textHighlight: "#6f5f2f88",
+          secondary: "#9b8cff",
+          tertiary: "#4fc3ff",
+          highlight: "rgba(155, 140, 255, 0.14)",
+          textHighlight: "#4b3f8a88",
         },
       },
     },

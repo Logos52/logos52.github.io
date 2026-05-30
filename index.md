@@ -11,6 +11,10 @@ tags:
 
 # LLM Knowledge Base
 
+A public, LLM-maintained second brain for **learning systems, agentic engineering, attention, and Red Team thinking**. Sources come in, durable notes get written, and later questions build on what's already here. The aim is simple: every good source, question, or synthesis should leave this place a little more useful than it was before.
+
+New here? Start with [[about|what this is]], wander the [[notes/index|index]], or follow the thread below.
+
 ## Current Focus
 
 - [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]]
