@@ -7,7 +7,7 @@ import graphScript from "./scripts/graph.inline"
 import graphStyle from "./styles/graph.scss"
 
 type Pick = { match: string; blurb: string }
-type Topic = { folder: string; name: string; icon: string; color: string }
+type Topic = { name: string; tag: string; icon: string; color: string }
 type Group = { label: string; topics: Topic[] }
 
 const startPicks: Pick[] = [
@@ -16,31 +16,37 @@ const startPicks: Pick[] = [
   { match: "Minimalism as Systems", blurb: "Objects keep costing you long after the purchase." },
 ]
 
+// Curated taxonomy. Each item links to its tag page; counts come from how many
+// notes carry that tag (live), so empty/aspirational areas honestly read low.
 const groups: Group[] = [
   {
-    label: "Frameworks",
+    label: "Learning Dimensions",
     topics: [
-      { folder: "Dimensions", name: "Dimensions", icon: "ti-stack-2", color: "#7c5cff" },
-      { folder: "Concepts", name: "Concepts", icon: "ti-bulb", color: "#3f7fd6" },
-      { folder: "Syntheses", name: "Syntheses", icon: "ti-git-merge", color: "#6d4dff" },
-      { folder: "Systems", name: "Systems", icon: "ti-topology-ring", color: "#1f9e86" },
+      { name: "Deep processing", tag: "deep-processing", icon: "ti-affiliate", color: "#8dc63f" },
+      { name: "Self-regulation", tag: "self-regulation", icon: "ti-steering-wheel", color: "#f47b20" },
+      { name: "Self-management", tag: "self-management", icon: "ti-settings", color: "#2d9cdb" },
+      { name: "Mindset", tag: "mindset", icon: "ti-brain", color: "#3fc1b0" },
+      { name: "Retrieval", tag: "retrieval", icon: "ti-circle-arrow-up", color: "#f2c94c" },
     ],
   },
   {
-    label: "Practice",
+    label: "Enablers",
     topics: [
-      { folder: "Self-Management", name: "Self-Management", icon: "ti-target-arrow", color: "#c25588" },
-      { folder: "Decision-Making", name: "Decision-Making", icon: "ti-arrows-split-2", color: "#cf6336" },
-      { folder: "Workflows", name: "Workflows", icon: "ti-route", color: "#6f9a2e" },
-      { folder: "Language", name: "Language", icon: "ti-language", color: "#c98a2a" },
+      { name: "Health", tag: "health", icon: "ti-heartbeat", color: "#eb5757" },
+      { name: "Sleep", tag: "sleep", icon: "ti-moon", color: "#6c5ce7" },
+      { name: "Attention", tag: "attention", icon: "ti-target", color: "#f2994a" },
+      { name: "Budgeting", tag: "budgeting", icon: "ti-wallet", color: "#27ae60" },
+      { name: "Investing", tag: "investing", icon: "ti-chart-line", color: "#2f80ed" },
     ],
   },
   {
-    label: "Reference",
+    label: "AI & Agents",
     topics: [
-      { folder: "Minimalism", name: "Minimalism", icon: "ti-square-rounded", color: "#7e7c76" },
-      { folder: "Books", name: "Books", icon: "ti-book", color: "#1f8f74" },
-      { folder: "Learning-Craft", name: "Learning Craft", icon: "ti-school", color: "#3f7fd6" },
+      { name: "Agentic Engineering", tag: "agents", icon: "ti-robot", color: "#9b51e0" },
+      { name: "LLM Workflows", tag: "llm", icon: "ti-message-chatbot", color: "#2f80ed" },
+      { name: "AI Tooling", tag: "tooling", icon: "ti-tools", color: "#56ccf2" },
+      { name: "Knowledge Systems", tag: "learning-system", icon: "ti-network", color: "#1fae84" },
+      { name: "Automation & Skills", tag: "skill-development", icon: "ti-bolt", color: "#eab308" },
     ],
   },
 ]
@@ -90,10 +96,11 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
   const { allFiles, fileData, cfg, displayClass } = props
   const here = fileData.slug!
 
-  const counts = new Map<string, number>()
+  const tagCounts = new Map<string, number>()
   for (const f of allFiles) {
-    const m = /^wiki\/([^/]+)\//.exec(f.slug ?? "")
-    if (m) counts.set(m[1], (counts.get(m[1]) ?? 0) + 1)
+    for (const tag of f.frontmatter?.tags ?? []) {
+      tagCounts.set(tag, (tagCounts.get(tag) ?? 0) + 1)
+    }
   }
 
   const recent = allFiles
@@ -198,13 +205,16 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
           {groups.map((g) => (
             <div class="home-topic-col">
               <div class="home-topic-grouplabel">{g.label}</div>
-              {g.topics.map((t) => (
-                <a class="home-topic" href={resolveRelative(here, `wiki/${t.folder}` as SimpleSlug)}>
-                  <i class={`ti ${t.icon} home-topic-icon`} style={`color:${t.color}`} aria-hidden="true"></i>
-                  <span class="home-topic-name">{t.name}</span>
-                  <span class="home-topic-count">{counts.get(t.folder) ?? 0}</span>
-                </a>
-              ))}
+              {g.topics.map((t) => {
+                const n = tagCounts.get(t.tag) ?? 0
+                return (
+                  <a class="home-topic" href={resolveRelative(here, `tags/${t.tag}` as SimpleSlug)}>
+                    <i class={`ti ${t.icon} home-topic-icon`} style={`color:${t.color}`} aria-hidden="true"></i>
+                    <span class="home-topic-name">{t.name}</span>
+                    {n > 0 && <span class="home-topic-count">{n}</span>}
+                  </a>
+                )
+              })}
             </div>
           ))}
         </div>
