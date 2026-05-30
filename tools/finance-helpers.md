@@ -12,7 +12,11 @@ tags:
 
 # Helpers
 
-Shared CSV loader for the Apple Card finance views. Imported by both `00 Command Center/Home.md` (numberless finance card) and `00 Command Center/Finances.md` (rich drill-down) via `dc.require(dc.headerLink("tools/finance-helpers.md", "Helpers"))`. Single source of truth for the path, the filename glob, and the parser — change once, both views update.
+Shared loaders for the finance views. Imported by both `00 Command Center/Home.md` (numberless finance card) and `00 Command Center/Finances.md` (rich drill-down) via `dc.require(dc.headerLink("tools/finance-helpers.md", "Helpers"))`. Single source of truth for the paths, the filename glob, and the parsers — change once, both views update.
+
+Two loaders live here:
+- `loadLatest()` — the legacy Apple Card CSV loader (float dollars). Still wired into both views.
+- `loadSnapshot()` — the wnab→Obsidian snapshot reader (integer cents). Reads the single JSON file wnab's Settings "Export wnab snapshot" button writes. The Finances/Home rewrites that switch to this are gated on a real snapshot existing, so this is added alongside the CSV loader, not as a replacement yet.
 
 ```datacorejsx
 function parseCSV(text) {
@@ -65,5 +69,72 @@ function loadLatest() {
   return { items, file: csvs[0].name };
 }
 
-return { parseCSV, loadLatest };
+// --- wnab snapshot loader (integer cents; see wnab docs/SNAPSHOT-SCHEMA.md) ---
+//
+// Single shared path constant. MUST match the wnab exporter, which writes to
+// ~/Documents/Finances/wnab/snapshot.json (a sibling of the budget data).
+// Change it in one place only — here and in the exporter.
+function snapshotPath() {
+  const os = require('os');
+  const path = require('path');
+  return path.join(os.homedir(), 'Documents', 'Finances', 'wnab', 'snapshot.json');
+}
+
+// Tolerant reader: returns { error } when the file is missing or unreadable;
+// otherwise returns a snapshot object with every expected block defaulted so a
+// view never throws on a partial/old file. Unknown fields pass through
+// untouched (forward-compatible per the schema's reader obligations).
+function loadSnapshot() {
+  const fs = require('fs');
+  const file = snapshotPath();
+
+  let raw;
+  try {
+    raw = fs.readFileSync(file, 'utf-8');
+  } catch (e) {
+    return { error: 'No wnab snapshot found. Export one from wnab → Settings → "Export wnab snapshot".' };
+  }
+
+  let snap;
+  try {
+    snap = JSON.parse(raw);
+  } catch (e) {
+    return { error: 'wnab snapshot is not valid JSON.' };
+  }
+  if (!snap || typeof snap !== 'object') {
+    return { error: 'wnab snapshot is empty or malformed.' };
+  }
+
+  // Default missing optional fields; keep any extra/unknown fields as-is.
+  const safe = {
+    schemaVersion: typeof snap.schemaVersion === 'number' ? snap.schemaVersion : 1,
+    generatedAt: typeof snap.generatedAt === 'string' ? snap.generatedAt : null,
+    generator: snap.generator || 'wnab-desktop',
+    currency: snap.currency || 'USD',
+    amountUnit: snap.amountUnit || 'cents',
+    budgetName: snap.budgetName || '',
+    month: snap.month || '',
+    summary: snap.summary && typeof snap.summary === 'object' ? snap.summary : {},
+    categoryGroups: Array.isArray(snap.categoryGroups) ? snap.categoryGroups : [],
+    accounts: Array.isArray(snap.accounts) ? snap.accounts : [],
+    ageOfMoney:
+      snap.ageOfMoney && typeof snap.ageOfMoney === 'object'
+        ? snap.ageOfMoney
+        : { currentAge: 0, trend: 'stable', insufficientData: true },
+    recentTransactions: Array.isArray(snap.recentTransactions) ? snap.recentTransactions : [],
+    upcomingBills: Array.isArray(snap.upcomingBills) ? snap.upcomingBills : [],
+    categoryHistory: Array.isArray(snap.categoryHistory) ? snap.categoryHistory : [],
+  };
+
+  // Staleness flag: amounts are integer cents — divide by 100 only at render.
+  let stale = false;
+  if (safe.generatedAt) {
+    const ageMs = Date.now() - new Date(safe.generatedAt).getTime();
+    stale = isFinite(ageMs) && ageMs > 24 * 60 * 60 * 1000; // older than ~24h
+  }
+
+  return { snapshot: { ...snap, ...safe }, file, generatedAt: safe.generatedAt, stale };
+}
+
+return { parseCSV, loadLatest, loadSnapshot, snapshotPath };
 ```
