@@ -10,9 +10,7 @@ views:
     name: Kolbs
     order:
       - file.name
-      - status
-      - start
-      - finish
+      - mgs-and-experiments
     sort:
       - property: file.mtime
         direction: DESC

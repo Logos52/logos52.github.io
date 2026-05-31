@@ -14,5 +14,4 @@ views:
     order:
       - file.name
       - status
-      - start-date
       - end-date

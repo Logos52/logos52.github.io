@@ -14,15 +14,12 @@ properties:
     displayName: Progress
 views:
   - type: table
-    name: Current
+    name: Skills
     filters:
       and:
         - status == "Active"
     order:
       - file.name
-      - status
-      - current-level
-      - final-level
       - formula.competency_display
       - formula.progress
     sort:
