@@ -7,7 +7,7 @@ Your five ICS **learning dimensions** — current level vs. target. Update each 
 
 ```datacorejsx
 return function DimensionsRadar() {
-  const dims = dc.useQuery('@page and type = "dimension"');
+  const dims = dc.useQuery('@page and path("mg-kolbs/Dimensions") and exists(level)');
   const MAX = 4, R = 100;
   const ordered = [...dims].sort((a, b) => (Number(a.value("order")) || 0) - (Number(b.value("order")) || 0));
   const n = ordered.length || 5;
