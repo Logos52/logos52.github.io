@@ -5,10 +5,10 @@ type: database
 
 > **Frontmatter:** `type: task`, `status` (Incomplete / Complete), `priority` (important + not urgent / important + urgent / not important + urgent), `do-date` (date), `time-taken`, `break-length`.
 
-> [!tip] Automations
-> - **✅ task complete → break timing** (the OFFrest rule): Tier 1 = a QuickAdd/script that stamps `time-taken` and computes `break-length`; Tier 2 optional.
-> - **Recurring tasks** ("weekly eval + goal tracking", "Priority 0 check-in", "Skills audit → feedback request"): Tier 1 = Templater + Periodic Notes or a `/scripts` generator (no Hermes per the automation decision).
-> - Notion's **Next** board (grouped by Do Date) and **Calendar** are approximated below with a table + the Full Calendar plugin.
+> [!tip] Automations (plugin-free — see `scripts/`)
+> - **✅ task complete → break timing** (the OFFrest rule): `node scripts/complete-task.mjs "Tasks/Task 1.md" 50` stamps `time-taken` and computes `break-length`.
+> - **Recurring tasks** ("weekly eval + goal tracking", "Priority 0 check-in", "Skills audit → feedback request"): kept as page-templates under `Tasks/`; duplicate them, or schedule a copy via cron/launchd (no Hermes per the automation decision).
+> - Notion's **Next** board (grouped by Do Date) and **Calendar** map to the Bases table below (Bases gains board/calendar views over time).
 
 ## Live view (Obsidian)
 

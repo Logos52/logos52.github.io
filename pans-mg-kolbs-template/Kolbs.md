@@ -7,7 +7,9 @@ type: database
 > **Frontmatter:** `type: kolbs`, `status` (Not started / In progress / Done), `start`, `finish`, `mgs-and-experiments` (text). Links: `next-kolbs`, `previous-kolbs` (self), `skills`. `duration` derived from finish − start.
 
 > [!tip] The ☑️ cycle button
-> In Notion, the purple ☑️ button completes the current Kolbs and creates + opens the next. In Obsidian this is reproduced by a QuickAdd + Templater macro (see `/scripts`): set current `status: Done`, create the next Kolbs from template, link `previous-kolbs`/`next-kolbs`, and open it. (Tier 2: pre-fill the new cycle with AI-suggested marginal gains from the previous reflection.)
+> In Notion, the purple ☑️ button completes the current Kolbs and creates + opens the next. In Obsidian (plugin-free) run:
+> `node scripts/new-kolbs.mjs "Kolbs/SIR 1.md"`
+> — it sets the current to `status: Done`, creates the next from `Kolbs/Kolbs Template.md`, links `previous-kolbs`/`next-kolbs`, and prints the path to open. (Tier 2: have an LLM pre-fill the new cycle's marginal gains from the previous reflection.)
 
 ## Live view (Obsidian)
 
