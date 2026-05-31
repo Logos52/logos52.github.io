@@ -1,33 +1,29 @@
 /* MG & Kolbs template — column layout for the index page's database embeds.
    Enable in Settings → Appearance → CSS snippets (toggle on; hit the refresh
-   icon after edits, since Obsidian doesn't auto-reload snippet files).
-   The index note is tagged `cssclasses: mgk-home`, so this only affects that page. */
+   icon after edits). The index note is tagged `cssclasses: mgk-home`. */
 
-/* ── DIAGNOSTIC (temporary) ────────────────────────────────────────────────
-   If each embedded database table shows a dashed outline → the snippet IS
-   loading and the only question is the column selector.
-   If you see NO outline → the snippet/cssclass isn't applying to this page. */
-.mgk-home .internal-embed[src$=".base"] {
-  outline: 1px dashed var(--text-faint);
-}
-
-/* ── COLUMNS ───────────────────────────────────────────────────────────────
-   Target the base embed both as a direct child of the sizer and as wrapped in
-   a block div / paragraph (Obsidian's reading DOM varies). */
-.mgk-home .markdown-preview-sizer > .internal-embed[src$=".base"],
-.mgk-home .markdown-preview-sizer > div:has(> .internal-embed[src$=".base"]),
-.mgk-home .markdown-preview-sizer > p:has(> .internal-embed[src$=".base"]) {
+/* Reading view — target each TOP-LEVEL block that contains a base embed
+   (whatever its tag/class), not the embed itself, so the columns actually flow. */
+.mgk-home .markdown-preview-sizer > *:has(.internal-embed[src$=".base"]) {
   display: inline-block;
   width: calc(50% - 12px);
   vertical-align: top;
   margin: 6px 4px 0;
   box-sizing: border-box;
 }
+/* Tasks spans full width, like Notion. */
+.mgk-home .markdown-preview-sizer > *:has(.internal-embed[src="tasks.base"]) {
+  width: 100%;
+}
 
-/* Tasks (first base embed) spans full width, like Notion. */
-.mgk-home .markdown-preview-sizer > .internal-embed[src$=".base"]:first-of-type,
-.mgk-home .markdown-preview-sizer > div:has(> .internal-embed[src$=".base"]):first-of-type,
-.mgk-home .markdown-preview-sizer > p:has(> .internal-embed[src$=".base"]):first-of-type {
+/* Live-preview (editing) fallback. */
+.mgk-home .cm-sizer > *:has(.internal-embed[src$=".base"]) {
+  display: inline-block;
+  width: calc(50% - 12px);
+  vertical-align: top;
+  box-sizing: border-box;
+}
+.mgk-home .cm-sizer > *:has(.internal-embed[src="tasks.base"]) {
   width: 100%;
 }
 
