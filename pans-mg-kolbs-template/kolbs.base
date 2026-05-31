@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.inFolder("pans-mg-kolbs-template/Kolbs")
+    - file.hasProperty("status")
+properties:
+  file.name:
+    displayName: Session
+views:
+  - type: table
+    name: Kolbs
+    order:
+      - file.name
+      - status
+      - start
+      - finish
+    sort:
+      - property: file.mtime
+        direction: DESC

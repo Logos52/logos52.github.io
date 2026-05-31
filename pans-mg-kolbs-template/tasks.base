@@ -1,0 +1,33 @@
+filters:
+  and:
+    - file.inFolder("pans-mg-kolbs-template/Tasks")
+    - file.hasProperty("priority")
+properties:
+  file.name:
+    displayName: Task
+views:
+  - type: cards
+    name: Board
+    groupBy: status
+    order:
+      - file.name
+      - priority
+      - do-date
+  - type: table
+    name: Next
+    filters:
+      and:
+        - status != "Complete"
+    order:
+      - file.name
+      - priority
+      - do-date
+    sort:
+      - property: do-date
+        direction: ASC
+  - type: table
+    name: Past
+    order:
+      - status
+      - do-date
+      - file.name

@@ -32,6 +32,9 @@ views:
       - final-level
       - competency
       - final-level-metrics
+    columnSize:
+      note.current-level: 127
+      note.final-level: 124
   - type: table
     name: All
     order:
@@ -40,4 +43,5 @@ views:
       - current-level
       - final-level
       - competency
+
 ```
