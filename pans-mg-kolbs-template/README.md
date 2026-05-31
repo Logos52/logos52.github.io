@@ -77,3 +77,16 @@ Original **MG & Kolb's** template and learning method by **Pan** — see the [No
 ## Status
 
 Active rebuild. Structure and databases are being ported from the live Notion template; see `PRD-notion-to-obsidian-conversion.md` for scope, the full source inventory, and the build plan.
+
+## Database schemas
+
+- **Skills** — `type: skill`, `status` (Active/Paused/Inactive/Archived), `current-level` (1–10), `final-level` (1–10), `competency` (CI / CC (low) / CC (medium) / CC (high) / UC), `final-level-metrics`; relation links: `anchored-goal`, `goal-tracking`, `kolbs`, `kolbs-cycles`.
+- **Kolbs** — `type: kolbs`, `status` (Not started/In progress/Done), `start`, `finish`, `mgs-and-experiments`; links: `previous-kolbs`, `next-kolbs`, `skills`.
+- **Tasks** — `type: task`, `status` (Incomplete/Complete), `priority`, `do-date`, `time-taken`, `break-length`.
+- **Goals** — `type: goal`, `status` (Not started/In progress/Archived), `start-date`, `end-date`.
+- **Goal Tracking** — `type: goal-tracking`, `date`, `performance-goals`, `skills-evaluation`; links: `next-weeks-focus`, `skills`.
+
+## Automations (`scripts/`, plugin-free)
+
+- **☑️ Kolbs cycle:** `node scripts/new-kolbs.mjs "Kolbs/SIR 1.md"`
+- **✅ task break-timing:** `node scripts/complete-task.mjs "Tasks/Task 1.md" 50`

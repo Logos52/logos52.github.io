@@ -8,7 +8,8 @@ properties:
 views:
   - type: cards
     name: Board
-    groupBy: status
+    groupBy:
+      property: status
     order:
       - file.name
       - priority
