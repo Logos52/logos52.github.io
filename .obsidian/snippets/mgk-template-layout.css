@@ -1,27 +1,26 @@
 /* MG & Kolbs template — column layout for the index page's database embeds.
-   Enable in Settings → Appearance → CSS snippets (toggle this on).
-   The index note is tagged `cssclasses: mgk-home`, so this only affects that page. */
+   Enable in Settings → Appearance → CSS snippets (toggle this on; hit refresh after edits).
+   The index note is tagged `cssclasses: mgk-home`, so this only affects that page.
 
-/* Reading view: lay the four base embeds out like Notion —
-   Tasks full-width, then the rest two-up. */
-.mgk-home .markdown-preview-sizer > div:has(> .internal-embed[src$=".base"]) {
+   NOTE: this targets the base-embed both as a direct child of the sizer AND
+   as wrapped in a block div, since Obsidian's reading-mode DOM varies. If columns
+   still don't appear, inspect an embed and we'll pin the exact selector. */
+
+/* ---- Reading view ---- */
+.mgk-home .markdown-preview-sizer > .internal-embed.base-embed,
+.mgk-home .markdown-preview-sizer > div:has(> .internal-embed[src$=".base"]),
+.mgk-home .markdown-preview-sizer > p:has(> .internal-embed[src$=".base"]) {
   display: inline-block;
-  width: calc(50% - 10px);
+  width: calc(50% - 12px);
   vertical-align: top;
-  margin: 5px 4px;
+  margin: 6px 4px 0;
   box-sizing: border-box;
 }
-.mgk-home .markdown-preview-sizer > div:has(> .internal-embed[src$=".base"]):first-of-type {
-  width: 100%;
-}
 
-/* Live-preview (editing) view fallback. */
-.mgk-home .cm-content > .cm-embed-block:has(.internal-embed[src$=".base"]) {
-  display: inline-block;
-  width: calc(50% - 10px);
-  vertical-align: top;
-}
-.mgk-home .cm-content > .cm-embed-block:has(.internal-embed[src$=".base"]):first-of-type {
+/* Tasks (the first base embed) spans full width, like Notion. */
+.mgk-home .markdown-preview-sizer > .internal-embed.base-embed:first-of-type,
+.mgk-home .markdown-preview-sizer > div:has(> .internal-embed[src$=".base"]):first-of-type,
+.mgk-home .markdown-preview-sizer > p:has(> .internal-embed[src$=".base"]):first-of-type {
   width: 100%;
 }
 

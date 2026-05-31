@@ -6,11 +6,11 @@ cssclasses:
 # MG & Kolb's Template
 
 > [!note]- Databases
-> - [[Skills]]
-> - [[Kolbs]]
-> - [[Tasks]]
-> - [[Goals]]
-> - [[Goal Tracking]]
+> - ☑️ [[Tasks]]
+> - 📈 [[Kolbs]]
+> - 🔗 [[Skills]]
+> - 📊 [[Goal Tracking]]
+> - 🎯 [[Goals]]
 
 ![[tasks.base]]
 
