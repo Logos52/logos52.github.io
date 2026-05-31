@@ -1,3 +1,8 @@
+---
+type: goal
+status: Archived
+notes: "Scaffold example — hidden from the Active goals view."
+---
 # Example - Improve Deep Work Consistency
 
 > [!NOTE] Checklist

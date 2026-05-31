@@ -1,14 +1,80 @@
+---
+type: index
+cssclasses:
+  - mgk-home
+---
 # MG & Kolbs
 
-**Databases**
+```datacorejsx
+return function DimensionsRadar() {
+  const dims = dc.useQuery('@page and path("mg-kolbs/Dimensions") and exists(level)');
+  const MAX = 4, R = 100;
+  const ordered = [...dims].sort((a, b) => (Number(a.value("order")) || 0) - (Number(b.value("order")) || 0));
+  const n = ordered.length || 5;
+  const angle = i => (-90 + i * (360 / n)) * Math.PI / 180;
+  const pt = (i, v) => [Math.cos(angle(i)) * R * (v / MAX), Math.sin(angle(i)) * R * (v / MAX)];
+  const ring = v => ordered.map((_, i) => pt(i, v).join(",")).join(" ");
+  const cur = ordered.map((d, i) => pt(i, Number(d.value("level")) || 0).join(",")).join(" ");
+  const tgt = ordered.map((d, i) => pt(i, Number(d.value("target")) || MAX).join(",")).join(" ");
+  const name = d => (d.$name || "").replace(/\.md$/, "");
 
-- [[Tasks]]
-- [[Kolbs]]
-- [[Skills]]
-- [[Goal Tracking]]
-- [[Goals]]
+  return (
+    <div class="cc-card">
+      <svg viewBox="-140 -132 280 264" style={{ width: "100%", maxWidth: "440px", height: "auto", display: "block", margin: "0 auto" }}>
+        {[1, 2, 3, 4].map(v => (
+          <polygon points={ring(v)} fill="none" stroke="var(--background-modifier-border)" stroke-width="1" />
+        ))}
+        {ordered.map((_, i) => {
+          const [x, y] = pt(i, MAX);
+          return <line x1="0" y1="0" x2={x} y2={y} stroke="var(--background-modifier-border)" stroke-width="1" />;
+        })}
+        <polygon points={tgt} fill="none" stroke="var(--text-accent)" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.55" />
+        <polygon points={cur} fill="var(--text-accent)" fill-opacity="0.18" stroke="var(--text-accent)" stroke-width="2" />
+        {ordered.map((d, i) => {
+          const [x, y] = pt(i, Number(d.value("level")) || 0);
+          return <circle cx={x} cy={y} r="3.5" fill={String(d.value("color") || "var(--text-accent)")} />;
+        })}
+        {ordered.map((d, i) => {
+          const [x, y] = pt(i, MAX);
+          const lx = x * 1.18, ly = y * 1.18;
+          const anchor = Math.abs(lx) < 6 ? "middle" : (lx > 0 ? "start" : "end");
+          return <text x={lx} y={ly + 3} text-anchor={anchor} fill="var(--text-muted)" style={{ fontSize: "9px" }}>{name(d)}</text>;
+        })}
+      </svg>
+      <div style={{ display: "flex", flexWrap: "wrap", gap: "8px 16px", justifyContent: "center", marginTop: "10px" }}>
+        {ordered.map(d => (
+          <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontSize: "0.85em" }}>
+            <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: String(d.value("color") || "var(--text-accent)") }}></span>
+            <a class="internal-link" href={d.$path} data-href={d.$path}>{name(d)}</a>
+            <span style={{ opacity: 0.7 }}>{String(d.value("level") || 0)}/{String(d.value("target") || 4)}</span>
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+```
 
-**Anchored Goals**
+> Solid = current level, dashed = target. Raise via [[Kolbs]] cycling and the [[30 Day Plan]]. Full detail: [[Skills Radar]].
+
+> [!note]- Databases
+> ☑️ [[Tasks]]
+> 📈 [[Kolbs]]
+> 🔗 [[Skills]]
+> 📊 [[Goal Tracking]]
+> 🎯 [[Goals]]
+
+![[tasks.base]]
+
+![[kolbs.base]]
+
+![[skills.base]]
+
+![[goals.base]]
+
+---
+
+**Anchored goals.** How to dissect a goal and evaluate skill levels lives inside each Goal note (see [[Goals/Learning Systems]] for a worked example). Quick reference:
 
 <details>
 <summary>How to Dissect</summary>
@@ -27,8 +93,6 @@ What do you need to be good at to achieve this goal?
 
 </details>
 
-**Evaluation**
-
 <details>
 <summary>How to Evaluate</summary>
 
@@ -38,45 +102,6 @@ What do you need to be good at to achieve this goal?
 4. Find the 1% gains for next week
 
 </details>
-
-**Database Views**
-
-[**Tasks** (Linked View)](Tasks.md)
-
-| Task | Status | Related Goal | Energy |
-|------|--------|--------------|--------|
-| BHS session: schema formation and the three pillars | Not Started | Learning Systems | Medium |
-| Set up SIR tracking system | Not Started | Learning Systems | Low |
-| Run first Kolbs on Practice Consistency | Not Started | Learning Systems | Low |
-| Improve one prompt or workflow from this week | Not Started | Agentic Engineering | Medium |
-| Log one Vietnamese input session | Not Started | Vietnamese | Low |
-
-[**Kolbs** (Linked View)](Kolbs.md)
-
-| Kolbs Entry | Status | Date | Skill | Notes |
-|-------------|--------|------|-------|-------|
-| (none yet) | | | | Start with Practice Consistency or BHS |
-
-[**Skills** (Linked View)](Skills.md)
-
-| Skill | Current Level | Final Level | Competency | Goal |
-|-------|---------------|-------------|------------|------|
-| Practice Consistency | 3/10 | 7/10 | CI | Learning Systems |
-| BHS | 4/10 | 7/10 | CC (low) | Learning Systems |
-| SIR | 5/10 | 7/10 | CC (low) | Learning Systems |
-| Prompt Design | 4/10 | 7/10 | CC (low) | Agentic Engineering |
-| Workflow Design | 3/10 | 7/10 | CI | Agentic Engineering |
-| Verification | 3/10 | 6/10 | CI | Agentic Engineering |
-| Immersion Recurrence | 3/10 | 7/10 | CI | Vietnamese |
-| Noticing | 3/10 | 6/10 | CI | Vietnamese |
-
-[**Goals** (Linked View)](Goals.md)
-
-| Goal | Status | Priority 0 Area | Skills |
-|------|--------|-----------------|--------|
-| [[Goals/Learning Systems\|Learning Systems]] | Active | Learning Systems | Practice Consistency, BHS, SIR |
-| [[Goals/Agentic Engineering\|Agentic Engineering]] | Active | Agentic Engineering | Prompt Design, Workflow Design, Verification |
-| [[Goals/Vietnamese\|Vietnamese]] | Active | Vietnamese | Immersion Recurrence, Noticing |
 
 ---
 

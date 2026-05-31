@@ -1,0 +1,33 @@
+filters:
+  and:
+    - file.inFolder("mg-kolbs/Tasks")
+    - file.hasProperty("status")
+properties:
+  file.name:
+    displayName: Task
+  note.related-goal:
+    displayName: Related goal
+  note.energy:
+    displayName: Energy
+views:
+  - type: cards
+    name: Board
+    groupBy:
+      property: note.status
+      direction: ASC
+    order:
+      - file.name
+      - energy
+      - related-goal
+  - type: table
+    name: Next
+    filters:
+      and:
+        - status != "Complete"
+    order:
+      - file.name
+      - related-goal
+      - energy
+    sort:
+      - property: file.name
+        direction: ASC

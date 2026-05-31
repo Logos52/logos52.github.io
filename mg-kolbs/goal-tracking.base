@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.inFolder("mg-kolbs/Goal Tracking")
+    - file.hasProperty("date")
+properties:
+  file.name:
+    displayName: Entry
+views:
+  - type: table
+    name: Tracking
+    order:
+      - file.name
+      - performance-goals
+      - skills-evaluation
+    sort:
+      - property: file.ctime
+        direction: DESC
