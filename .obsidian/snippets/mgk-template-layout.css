@@ -1,0 +1,31 @@
+/* MG & Kolbs template — column layout for the index page's database embeds.
+   Enable in Settings → Appearance → CSS snippets (toggle this on).
+   The index note is tagged `cssclasses: mgk-home`, so this only affects that page. */
+
+/* Reading view: lay the four base embeds out like Notion —
+   Tasks full-width, then the rest two-up. */
+.mgk-home .markdown-preview-sizer > div:has(> .internal-embed[src$=".base"]) {
+  display: inline-block;
+  width: calc(50% - 10px);
+  vertical-align: top;
+  margin: 5px 4px;
+  box-sizing: border-box;
+}
+.mgk-home .markdown-preview-sizer > div:has(> .internal-embed[src$=".base"]):first-of-type {
+  width: 100%;
+}
+
+/* Live-preview (editing) view fallback. */
+.mgk-home .cm-content > .cm-embed-block:has(.internal-embed[src$=".base"]) {
+  display: inline-block;
+  width: calc(50% - 10px);
+  vertical-align: top;
+}
+.mgk-home .cm-content > .cm-embed-block:has(.internal-embed[src$=".base"]):first-of-type {
+  width: 100%;
+}
+
+/* Keep each embedded base from growing too tall inside its column. */
+.mgk-home .internal-embed.base-embed {
+  --embed-max-height: 380px;
+}

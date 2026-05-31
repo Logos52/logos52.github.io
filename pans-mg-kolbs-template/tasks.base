@@ -9,7 +9,8 @@ views:
   - type: cards
     name: Board
     groupBy:
-      property: status
+      property: note.status
+      direction: ASC
     order:
       - file.name
       - priority

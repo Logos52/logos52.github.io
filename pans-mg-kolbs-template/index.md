@@ -1,5 +1,7 @@
 ---
 type: index
+cssclasses:
+  - mgk-home
 ---
 # MG & Kolb's Template
 
