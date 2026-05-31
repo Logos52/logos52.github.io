@@ -5,12 +5,17 @@ filters:
 properties:
   file.name:
     displayName: Session
+  note.marginal-gains:
+    displayName: Marginal gains
+  note.experiments:
+    displayName: Experiments
 views:
   - type: table
     name: Kolbs
     order:
       - file.name
-      - mgs-and-experiments
+      - marginal-gains
+      - experiments
     sort:
       - property: file.mtime
         direction: DESC

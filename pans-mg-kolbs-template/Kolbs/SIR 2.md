@@ -3,7 +3,8 @@ type: kolbs
 status: Not started
 start:
 finish:
-mgs-and-experiments:
+marginal-gains:
+experiments:
 previous-kolbs: "[[SIR 1]]"
 next-kolbs:
 skills:

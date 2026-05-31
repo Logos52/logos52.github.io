@@ -16,16 +16,8 @@
   width: 100%;
 }
 
-/* Live-preview (editing) fallback. */
-.mgk-home .cm-sizer > *:has(.internal-embed[src$=".base"]) {
-  display: inline-block;
-  width: calc(50% - 12px);
-  vertical-align: top;
-  box-sizing: border-box;
-}
-.mgk-home .cm-sizer > *:has(.internal-embed[src="tasks.base"]) {
-  width: 100%;
-}
+/* (Columns apply in reading mode only — editing/live-preview is left untouched
+   so the embeds render normally there.) */
 
 /* Keep each embedded base from growing too tall inside its column. */
 .mgk-home .internal-embed.base-embed {

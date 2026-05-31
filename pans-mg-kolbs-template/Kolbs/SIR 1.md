@@ -3,10 +3,9 @@ type: kolbs
 status: Done
 start: 2025-01-01 18:42
 finish: 2025-01-01 18:49
-mgs-and-experiments: |
-  Marginal gains:
+marginal-gains:
   - Schedule SIR before the session ends
-  Experiments:
+experiments:
   - Try a 25-minute retrieval block
 previous-kolbs:
 next-kolbs: "[[SIR 2]]"

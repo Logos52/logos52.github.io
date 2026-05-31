@@ -3,10 +3,9 @@ type: kolbs
 status: Done
 start: 2025-01-02 22:00
 finish: 2025-01-02 22:10
-mgs-and-experiments: |
-  Marginal gains:
+marginal-gains:
   - Fixed wind-down time
-  Experiments:
+experiments:
   - No screens 30 min before bed
 previous-kolbs:
 next-kolbs: "[[Sleep 2]]"
