@@ -55,7 +55,7 @@ This template is designed to live both on its own and inside a larger vault:
 
 ```bash
 # from the root of your vault repo
-git submodule add <repo-url> Templates/mg-kolbs
+git submodule add <repo-url> pans-mg-kolbs-template
 git commit -m "Add Pan's MG & Kolbs Template as submodule"
 ```
 
@@ -81,7 +81,7 @@ Active rebuild. Structure and databases are being ported from the live Notion te
 ## Database schemas
 
 - **Skills** — `type: skill`, `status` (Active/Paused/Inactive/Archived), `current-level` (1–10), `final-level` (1–10), `competency` (CI / CC (low) / CC (medium) / CC (high) / UC), `final-level-metrics`; relation links: `anchored-goal`, `goal-tracking`, `kolbs`, `kolbs-cycles`.
-- **Kolbs** — `type: kolbs`, `status` (Not started/In progress/Done), `start`, `finish`, `mgs-and-experiments`; links: `previous-kolbs`, `next-kolbs`, `skills`.
+- **Kolbs** — `type: kolbs`, `status` (Not started/In progress/Done), `start`, `finish`, `marginal-gains` (list), `experiments` (list); links: `previous-kolbs`, `next-kolbs`, `skills`.
 - **Tasks** — `type: task`, `status` (Incomplete/Complete), `priority`, `do-date`, `time-taken`, `break-length`.
 - **Goals** — `type: goal`, `status` (Not started/In progress/Archived), `start-date`, `end-date`.
 - **Goal Tracking** — `type: goal-tracking`, `date`, `performance-goals`, `skills-evaluation`; links: `next-weeks-focus`, `skills`.
