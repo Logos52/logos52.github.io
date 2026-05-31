@@ -23,3 +23,17 @@
 .mgk-home .internal-embed.base-embed {
   --embed-max-height: 380px;
 }
+
+/* ---------------------------------------------------------------------------
+   Kolbs session pages — Reflection + Abstraction side by side, like Notion.
+   Kolbs notes are tagged `cssclasses: mgk-kolbs`. Experience and
+   Experimentation are plain headings, so they stay full-width; only the two
+   callouts get columned. Reading mode only. */
+.mgk-kolbs .markdown-preview-sizer > .callout,
+.mgk-kolbs .markdown-preview-sizer > *:has(> .callout) {
+  display: inline-block;
+  width: calc(50% - 12px);
+  vertical-align: top;
+  margin: 6px 4px 0;
+  box-sizing: border-box;
+}
