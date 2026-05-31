@@ -10,32 +10,42 @@ skills:
 ---
 # {{title}}
 
-> Copy this note for each new Kolbs cycle (or use `scripts/new-kolbs.mjs` to cycle automatically). Fill it in as you go.
+## Experience
 
-### Experience
 **What experience do you want to reflect on?**
 
 **What would a marginal gain look like?**
 
-### Reflection — ask WHY, WHY, WHY for every answer
-**List and describe the sequence of events, in chronological order.**
+## Reflection
 
-**How did you feel about the experience?**
+**Q1. List and describe the sequence of events, in chronological order**
+1.
 
-**Which aspects felt especially difficult? Which went well?**
+**Q2. How did you feel about the experience?**
+1.
 
-**How did you respond to challenges during this process?**
+**Q3. Which aspects (if any) of the process felt especially difficult? Which aspects felt like they went well?**
+1.
 
-**What were the triggers to you feeling the way you did?**
+**Q4. How did you respond to challenges and difficulties during this process?**
+1.
 
-**Why do you think you acted the way you did?**
+**Q5. What were the triggers to you feeling the way you did?**
+1.
 
-### Abstraction (observational)
-**What habits, beliefs, and tendencies explain why you acted this way?** (limiting habits → scripted actions)
+**Q6. Why do you think you acted the way you did during this experience?**
+1.
 
-**Do you act or respond in similar ways elsewhere in your life?**
+## Abstraction
 
-### Experimentation
-**List potential solutions and actions to experiment on.**
+**What habits, beliefs, and tendencies can you identify from your reflection that explains why you acted the way you did?**
+1.
 
--
+**Do you act or respond in similar ways in other parts of your life?**
+1.
+
+## Experimentation
+
+**List some potential solutions and actions to experiment on.**
+
+## And you're done!
