@@ -1,13 +1,20 @@
 /* MG & Kolbs template — column layout for the index page's database embeds.
-   Enable in Settings → Appearance → CSS snippets (toggle this on; hit refresh after edits).
-   The index note is tagged `cssclasses: mgk-home`, so this only affects that page.
+   Enable in Settings → Appearance → CSS snippets (toggle on; hit the refresh
+   icon after edits, since Obsidian doesn't auto-reload snippet files).
+   The index note is tagged `cssclasses: mgk-home`, so this only affects that page. */
 
-   NOTE: this targets the base-embed both as a direct child of the sizer AND
-   as wrapped in a block div, since Obsidian's reading-mode DOM varies. If columns
-   still don't appear, inspect an embed and we'll pin the exact selector. */
+/* ── DIAGNOSTIC (temporary) ────────────────────────────────────────────────
+   If each embedded database table shows a dashed outline → the snippet IS
+   loading and the only question is the column selector.
+   If you see NO outline → the snippet/cssclass isn't applying to this page. */
+.mgk-home .internal-embed[src$=".base"] {
+  outline: 1px dashed var(--text-faint);
+}
 
-/* ---- Reading view ---- */
-.mgk-home .markdown-preview-sizer > .internal-embed.base-embed,
+/* ── COLUMNS ───────────────────────────────────────────────────────────────
+   Target the base embed both as a direct child of the sizer and as wrapped in
+   a block div / paragraph (Obsidian's reading DOM varies). */
+.mgk-home .markdown-preview-sizer > .internal-embed[src$=".base"],
 .mgk-home .markdown-preview-sizer > div:has(> .internal-embed[src$=".base"]),
 .mgk-home .markdown-preview-sizer > p:has(> .internal-embed[src$=".base"]) {
   display: inline-block;
@@ -17,8 +24,8 @@
   box-sizing: border-box;
 }
 
-/* Tasks (the first base embed) spans full width, like Notion. */
-.mgk-home .markdown-preview-sizer > .internal-embed.base-embed:first-of-type,
+/* Tasks (first base embed) spans full width, like Notion. */
+.mgk-home .markdown-preview-sizer > .internal-embed[src$=".base"]:first-of-type,
 .mgk-home .markdown-preview-sizer > div:has(> .internal-embed[src$=".base"]):first-of-type,
 .mgk-home .markdown-preview-sizer > p:has(> .internal-embed[src$=".base"]):first-of-type {
   width: 100%;
