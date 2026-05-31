@@ -4,7 +4,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 const navItems = [
   { href: "blog", label: "Blog", match: "blog" },
   { href: "journal", label: "Journal", match: "journal" },
-  { href: "mg-kolbs", label: "MG & Kolbs", match: "mg-kolbs" },
+  { href: "mg-kolbs-template", label: "MG & Kolbs", match: "mg-kolbs-template" },
   { href: "notes", label: "Index", match: "notes" },
   { href: "about", label: "About", match: "about" },
 ]

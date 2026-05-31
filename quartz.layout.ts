@@ -136,7 +136,12 @@ export const sharedPageComponents: SharedLayout = {
     Component.Search(),
     Component.Darkmode(),
   ],
-  afterBody: [],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.LearningRadar(),
+      condition: ({ fileData }) => fileData.slug === "mg-kolbs-template",
+    }),
+  ],
   footer: Component.Footer({
     links: {
       "GitHub": "https://github.com/logos52/logos52.github.io",
