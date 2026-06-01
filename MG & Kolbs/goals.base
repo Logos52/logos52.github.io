@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.inFolder("MG & Kolbs/Goals")
+    - file.hasProperty("status")
+properties:
+  file.name:
+    displayName: Goal
+views:
+  - type: table
+    name: Active
+    filters:
+      and:
+        - status != "Archived"
+    order:
+      - file.name
+      - status
+      - end-date

@@ -1,0 +1,26 @@
+filters:
+  and:
+    - file.inFolder("MG & Kolbs/Kolbs")
+    - file.hasProperty("status")
+properties:
+  file.name:
+    displayName: Session
+  note.marginal-gains:
+    displayName: Marginal gains
+  note.experiments:
+    displayName: Experiments
+views:
+  - type: table
+    name: Kolbs
+    order:
+      - file.name
+      - marginal-gains
+      - experiments
+    sort:
+      - property: experiments
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    rowHeight: medium
+    columnSize:
+      note.marginal-gains: 191
