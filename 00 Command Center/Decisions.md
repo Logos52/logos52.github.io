@@ -32,19 +32,31 @@ return function DecisionsLog() {
   if (sorted.length === 0) {
     return <div class="cc-card"><p class="cc-meta" style={{margin:0}}>No decisions logged yet.</p></div>;
   }
+  const isSuperseded = d => String(d.value('status') || '').toLowerCase() === 'superseded';
+  const active = sorted.filter(d => !isSuperseded(d));
+  const superseded = sorted.filter(isSuperseded);
+  const row = d => {
+    const title = String(d.value('title') || (d.$name || '').replace(/\.md$/, ''));
+    return (
+      <li class="decision-mini-item">
+        <a class="internal-link decision-mini-link" href={d.$path} data-href={d.$path}>{title}</a>
+        <span class="decision-mini-date">{String(d.value('created') || '')}</span>
+      </li>
+    );
+  };
   return (
     <div class="cc-card">
       <ul class="decisions-mini">
-        {sorted.map(d => {
-          const title = String(d.value('title') || (d.$name || '').replace(/\.md$/, ''));
-          return (
-            <li class="decision-mini-item">
-              <a class="internal-link decision-mini-link" href={d.$path} data-href={d.$path}>{title}</a>
-              <span class="decision-mini-date">{String(d.value('created') || '')}</span>
-            </li>
-          );
-        })}
+        {active.map(row)}
       </ul>
+      {superseded.length > 0 ? (
+        <details class="decisions-superseded">
+          <summary class="cc-meta">Superseded ({superseded.length})</summary>
+          <ul class="decisions-mini decisions-mini-superseded">
+            {superseded.map(row)}
+          </ul>
+        </details>
+      ) : null}
     </div>
   );
 }

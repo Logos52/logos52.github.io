@@ -1,7 +1,8 @@
 {
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "kb"
+    "kb",
+    "mgk-template-layout"
   ],
   "theme": "obsidian",
   "showRibbon": true

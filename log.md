@@ -668,3 +668,33 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Deferred: Skills & experiments, Weekly refinement, Wiki health pulse, Habit/health signals.
 - Decided autonomy boundary: `cos` is independent of `llm-knowledge-base`; reads vault at most, never writes. No L3/L2 pipeline in scope. Inbox handled by Obsidian Web Clipper.
 - Updated `journal/2026-05-24-Fresh-Start-Personal-Workflow-OS-Checklist.md` with all decisions.
+
+## 2026-05-29 — ICS program map + gap-fill compile
+- Created [[wiki/ICS Program Map]] — stage-ordered MOC over the wiki (Kickstart → High-yield → Growth), links wiki notes only (no raw/private links, per Writing Standards Sources policy).
+- Stage→wiki mappings confirmed against ICS stage pages; corrected Fundamentals (SIR + Marginal Gains), Briefing (Kolb + Skills Audit), Technique Training (inquiry-based / unlearning / memory).
+- Gap-filled 7 distilled wiki pages from raw/private/ICS: Camp I — [[wiki/Dimensions/Retrieval/Method of Loci|Method of Loci]], [[wiki/Dimensions/Retrieval/Flashcards|Flashcards]], [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Rote Learning and Memorisation]]; Fundamentals 2 — [[wiki/Dimensions/Deep Processing/Note-Taking|Note-Taking]], [[wiki/Dimensions/Retrieval/Revision|Revision]], [[wiki/Self Management/Study Scheduling|Study Scheduling]]; Summit — [[wiki/Dimensions/Retrieval/Cramming|Cramming]].
+- Remaining synthesis backlog flagged in the map (Exam technique, Live learning events, Cave theory, Order control, Survive-and-thrive, Loss aversion, Exam execution, Learning Support library).
+
+## 2026-05-29 — Exam Execution wiki cluster (Summit)
+- Synthesized the Summit "Exam execution" gap into the wiki: [[wiki/Domains/Miscellaneous/Exam Execution|Exam Execution]] (hub) + [[wiki/Dimensions/Retrieval/Breaching Questions|Breaching Questions]], [[wiki/Dimensions/Deep Processing/ReCOVer System|ReCOVer System]], [[wiki/Dimensions/Self-Regulation/Silly Mistake Syndrome|Silly Mistake Syndrome]] (MR FIG).
+- Source: the Exam execution sublessons already in raw/private/ICS (Stress/application, Essay writing, Silly mistake, Sleep & diet, Back-to-back, Group study).
+- Finding: 5 of 6 sublesson raw files already existed and were populated; "Stress and application adjustment - Exam execution.md" is a broken stub (frontmatter + stray line) — flagged, repair pending Wedge's ok. Group study sublesson not yet synthesized.
+- Updated [[wiki/ICS Program Map]] Summit section + coverage notes.
+
+## 2026-05-29 — Exam Execution: stub repair + Group Study
+- Repaired broken raw clip `raw/private/ICS/Stress and application adjustment - Exam execution.md` (was frontmatter + stray line; refilled from Wedge's paste — permission given).
+- Synthesized [[wiki/Dimensions/Retrieval/Group Study|Group Study]] (role-based: leader/timekeeper/fact-checker); added to the [[wiki/Domains/Miscellaneous/Exam Execution|Exam Execution]] hub + ICS map. Exam Execution cluster now complete.
+- Found another blank clip: `raw/private/ICS/Live Clinic 44-.md` (0 bytes) — empty duplicate of the real "Live Clinic 44- Syntopical reading" file. Flagged for delete/recapture, pending Wedge.
+
+## 2026-05-29 — ICS gap-fill round 2 (Technique Training, Fundamentals 2, Briefing)
+- Deleted empty dup raw/private/ICS/Live Clinic 44-.md (0 bytes; real Syntopical Reading clip retained).
+- Technique Training synthesized: [[wiki/Dimensions/Deep Processing/Inquiry-Based Learning|Inquiry-Based Learning]] (Traffic Light System), [[wiki/Dimensions/Deep Processing/Order Control|Order Control]], [[wiki/Dimensions/Deep Processing/Survive and Thrive|Survive and Thrive]], [[wiki/Concepts/Cave Theory|Cave Theory]], [[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]].
+- Fundamentals 2 remainder: [[wiki/Domains/Miscellaneous/Exam Technique|Exam Technique]], [[wiki/Dimensions/Deep Processing/Live Learning Events|Live Learning Events]].
+- Briefing (mostly recap): [[wiki/Dimensions/Self-Regulation/Common Traps|Common Traps]], [[wiki/Self Management/Techniques in School|Techniques in School]] (time-boxing). Focus/Prestudy/Kolb/skills-audit already covered.
+- ICS Program Map: all four stages updated; full linear path now covered. Only the 32-file Learning Support Q&A library remains as backlog.
+
+## 2026-05-29 — Learning Support library synthesized (bulk)
+- Consolidated 36 Learning Support clips into 6 pages (grouped by concept, per Writing Standards): [[wiki/Dimensions/Self-Regulation/Measuring Learning|Measuring Learning]], [[wiki/Dimensions/Mindset/Marginal Gains in Practice|Marginal Gains in Practice]], [[wiki/Dimensions/Retrieval/Encoding and Retrieval|Encoding and Retrieval]], [[wiki/Dimensions/Deep Processing/Non-Linear Note-Making|Non-Linear Note-Making]], [[wiki/Dimensions/Mindset/Motivation|Motivation]], [[wiki/Dimensions/Self-Regulation/Pacing Skill Development|Pacing Skill Development]].
+- Clips already covered by existing pages were linked, not duplicated (higher-order learning, prestudy, inquiry, skills audit, feedback, interleaving table, silly mistakes, Kolb). "Recommended apps" (affiliate list) intentionally not synthesized.
+- ICS Program Map: Support library + coverage notes updated. Full program path + Learning Support now covered.
+- Total ICS wiki pages created this session: 22.
