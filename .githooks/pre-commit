@@ -1,0 +1,20 @@
+#!/usr/bin/env sh
+# Privacy pre-commit guard.
+#
+# Blocks committing private/financial content into publish-eligible paths BEFORE it can reach
+# the public repo. Enable once per clone:
+#     git config core.hooksPath .githooks
+# Genuine false positive? Bypass with:  git commit --no-verify
+#
+# See AGENTS.md -> Privacy and Publication.
+
+if command -v node >/dev/null 2>&1; then
+  node tools/scripts/publish-guard.mjs --staged || {
+    echo "" >&2
+    echo "pre-commit: publish-guard blocked this commit (details above)." >&2
+    echo "If it is a genuine false positive: git commit --no-verify" >&2
+    exit 1
+  }
+else
+  echo "pre-commit: node not found; skipping publish-guard (install node to enable the privacy check)." >&2
+fi

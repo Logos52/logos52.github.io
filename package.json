@@ -20,7 +20,8 @@
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "build": "tsx ./quartz/bootstrap-cli.mjs build --directory .",
     "serve": "tsx ./quartz/bootstrap-cli.mjs build --serve --directory .",
-    "guard": "node tools/scripts/publish-guard.mjs"
+    "guard": "node tools/scripts/publish-guard.mjs",
+    "guard:source": "node tools/scripts/publish-guard.mjs --source"
   },
   "engines": {
     "npm": ">=10.9.2",

@@ -376,25 +376,34 @@ Do not add tooling until the wiki's shape justifies it.
 
 ## Privacy and Publication
 
-Before GitHub publication, review:
+**The source repo is PUBLIC.** A tracked file is browsable as raw markdown on GitHub **even if it never renders on the site.** `ignorePatterns` only controls *rendering* — it is NOT a privacy mechanism. The cardinal rule:
 
-- `raw/`
-- `raw/inbox/`
-- `workbench/`
-- `outputs/`
+> **Private = untracked (gitignored / kept out of the repo). Not "just un-rendered."**
 
-Do not include private journal material, relationship notes, credentials, private client data, private emails, paid course content, or unpublished third-party content.
+Three ways to keep content off the public site, strongest first:
+
+1. **Genuinely private (money, secrets, personal life, credentials):** keep it OUT of the repo — gitignore it or store it externally. `finances/` and `private/` are gitignored; financial data/secrets live in a gitignored, external location. Do not commit it.
+2. **Keep-unpublished but OK in the repo:** add `draft: true` to the note's frontmatter — the `RemoveDrafts` filter drops it from the build. (Still raw-browsable in the repo, so not for genuinely-private content.)
+3. **Never put sensitive content in a publish-eligible path** — anything under `wiki/`, `journal/`, `blog/`, `public-snapshots/`, or a root `.md` renders by default.
+
+Enforcement — defense-in-depth, see `tools/scripts/publish-guard.mjs`:
+
+- **Pre-commit hook** (`.githooks/pre-commit`, enable once with `git config core.hooksPath .githooks`) blocks committing private/financial content into publish-eligible paths *before it reaches the public repo*. First and most important line.
+- **Deploy guard** — `deploy.yml` runs the guard on the built `public/` output after `quartz build`; a leak fails the job and blocks the deploy.
+- **Source audit** — `npm run guard:source` flags private content that is tracked-but-unrendered (raw-exposed on the public repo). Run periodically; the fix is to gitignore those folders.
+
+Known raw-exposure: some un-rendered folders (`PRDs/`, `decisions/`, `00 Command Center/`, `mg-kolbs/`) are still tracked, so their raw `.md` is public. If any holds genuinely-private content, gitignore + untrack it (and scrub history if it was already pushed).
 
 ## Static Site (Quartz v4)
 
-The site is published at <https://logos52.github.io>. The site is built by Quartz v4 from the repo root. Pushes to `main` trigger an automatic rebuild via `.github/workflows/deploy.yml`.
+The site is published at <https://logos52.github.io>. Quartz v4 builds from the repo root; pushes to `main` trigger a rebuild via `.github/workflows/deploy.yml` (which runs the publish-guard before deploying).
 
-What gets published vs. what stays local:
+Publish model: **publish-by-default.** Every `.md` renders EXCEPT (a) paths matched by `ignorePatterns` in `quartz.config.ts`, and (b) notes with `draft: true`. There is no allow-list, so `ignorePatterns` plus the guard ARE the privacy gates — keep them current.
 
-- Published: `index.md`, `about.md`, `blog/`, `wiki/`, `00 Command Center/`, `notes/index.md`, `log.md`, `README.md`, `AGENTS.md`.
-- Excluded from the site: `raw/`, `outputs/`, `templates/`, `tools/`, `.obsidian/`.
+- **Rendered (publish-eligible):** `index.md`, `about.md`, `README.md`, `AGENTS.md` / `CLAUDE.md` / `GROK.md`, `wiki/`, `blog/`, `journal/`, `public-snapshots/`, `notes/index.md`.
+- **Not rendered (in `ignorePatterns`):** `00 Command Center/`, `raw/`, `private/`, `finances/`, `outputs/`, `templates/`, `tools/`, `PRDs/`, `decisions/`, `mg-kolbs/`, `MG & Kolbs/`, `pans-mg-kolbs-template/`, `01 - Workbench/`, `02 - System/`, `_archive/`, `hermes/`, `_meta/`, `log.md`.
 
-Exclusions live in `quartz.config.ts → ignorePatterns`. Do not move published content into excluded folders or vice versa without updating that list.
+Do not move content between these without updating `ignorePatterns` — and remember (above) that un-rendering is not the same as private.
 
 Rules for LLM agents:
 

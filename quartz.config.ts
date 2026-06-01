@@ -62,6 +62,7 @@ const config: QuartzConfig = {
       // Repo metadata
       ".git/**",
       ".github/**",
+      ".githooks/**",
 
       // OS noise
       "**/.DS_Store",
