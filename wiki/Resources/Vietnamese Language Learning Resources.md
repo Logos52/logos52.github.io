@@ -249,7 +249,7 @@ Resource count: 122 linked rows after de-duplication.
 | Resource | Type | Use | Notes |
 | --- | --- | --- | --- |
 | [Personal Learning System Cheatsheet](https://notion-workspace-redacted/Personal-Learning-System-Cheatsheet-0fbfb77fae6445c785c9fccbaf4d68ad?pvs=4) | Notion Document | Supporting Resource |  |
-| [Advanced Weekly Reflection and Planning Worksheet](https://docs.google.com/document/d/1H9Abf3RcfjYVo41Ri3L4mx2jPmYwZX6pf7cUfjsrfBc/edit?usp=sharing) | Google Sheet | Supporting Resource |  |
+| Advanced Weekly Reflection and Planning Worksheet (personal doc — link removed) | Google Sheet | Supporting Resource |  |
 
 ### Course Review
 
