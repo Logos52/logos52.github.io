@@ -37,25 +37,3 @@
   margin: 6px 4px 0;
   box-sizing: border-box;
 }
-
-/* ---------------------------------------------------------------------------
-   Kolbs Base view — let "Marginal gains" and "Experiments" wrap to 2–3 lines
-   so the whole cell is readable at a glance, instead of truncating to one line
-   and forcing manual row resizing. Fuzzy [class*=…] selectors so it matches
-   whatever Bases calls its table cells/rows in your Obsidian version. */
-.internal-embed[src="kolbs.base"] [class*="table"] [class*="cell"] {
-  white-space: normal !important;
-  -webkit-line-clamp: unset !important;
-  overflow: visible !important;
-  height: auto !important;
-  align-items: start !important;
-  line-height: 1.3;
-}
-.internal-embed[src="kolbs.base"] [class*="table"] [class*="row"] {
-  height: auto !important;
-  min-height: 0 !important;
-}
-/* Give the two text columns room to wrap to a few lines rather than one wide line. */
-.internal-embed[src="kolbs.base"] [class*="table"] [class*="cell"] {
-  max-width: 260px;
-}
