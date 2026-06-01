@@ -55,7 +55,7 @@ const groups: Group[] = [
 const graphCfg = {
   drag: true,
   zoom: true,
-  depth: 2,
+  depth: -1,
   scale: 0.9,
   repelForce: 1.3,
   centerForce: 0.05,
