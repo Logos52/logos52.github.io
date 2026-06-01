@@ -6,8 +6,6 @@ updated: 2026-05-29
 tags:
   - journal
   - wnab
-  - finances
-  - budget
   - decisions
 links:
   - "[[PRDs/PRD-wnab-Budget-App]]"

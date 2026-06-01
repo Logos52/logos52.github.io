@@ -37,6 +37,9 @@ jobs:
       - name: Build Quartz
         run: npx quartz build --directory .
 
+      - name: Publish-safety guard (blocks deploy on private/financial leak)
+        run: node tools/scripts/publish-guard.mjs
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

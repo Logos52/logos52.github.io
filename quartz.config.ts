@@ -36,7 +36,7 @@ const config: QuartzConfig = {
       // Vault folders intentionally kept out of the public site
       "00 Command Center/**",
       "raw/**",
-      "private/Skills/**",
+      "private/**",
       "finances/**",
       "outputs/**",
       "templates/**",
