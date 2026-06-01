@@ -1099,3 +1099,226 @@ blockquote {
     gap: 1.5rem;
   }
 }
+
+/* ===========================================================================
+   MG & Kolbs public showcase (static demo) — mirrors the home panel language.
+   Buttons are visual-only (aria-disabled), data is dummy.
+   =========================================================================== */
+.mgk-showcase {
+  margin: 1.5rem 0 0.5rem;
+}
+.mgk-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.1rem;
+}
+.mgk-wide {
+  grid-column: 1 / -1;
+}
+.mgk-panel {
+  background: var(--surface);
+  border: 1px solid color-mix(in srgb, var(--gray) 24%, var(--lightgray));
+  border-radius: 12px;
+  padding: 1rem 1.15rem 1.15rem;
+  box-shadow: var(--soft-shadow);
+}
+.mgk-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+.mgk-head h3 {
+  margin: 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.mgk-emoji {
+  font-size: 0.95em;
+}
+.mgk-btn {
+  font-family: var(--codeFont);
+  font-size: 0.72rem;
+  color: var(--secondary);
+  border: 1px solid color-mix(in srgb, var(--secondary) 35%, var(--lightgray));
+  border-radius: var(--pill-radius);
+  padding: 0.18rem 0.6rem;
+  white-space: nowrap;
+  opacity: 0.85;
+  cursor: default;
+}
+.mgk-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+.mgk-lane-head {
+  font-family: var(--codeFont);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--gray);
+  margin-bottom: 0.45rem;
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+.mgk-pill {
+  background: var(--lightgray);
+  border-radius: var(--pill-radius);
+  padding: 0 0.4rem;
+  font-size: 0.7rem;
+}
+.mgk-task {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--surface-muted);
+  border-radius: 7px;
+  padding: 0.4rem 0.55rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.86rem;
+}
+.mgk-task-name {
+  min-width: 0;
+}
+.mgk-box {
+  width: 13px;
+  height: 13px;
+  border: 1.5px solid color-mix(in srgb, var(--secondary) 45%, var(--gray));
+  border-radius: 4px;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6rem;
+  line-height: 1;
+}
+.mgk-on {
+  background: var(--secondary);
+  border-color: var(--secondary);
+  color: #fff;
+}
+.mgk-done {
+  opacity: 0.6;
+}
+.mgk-done .mgk-task-name {
+  text-decoration: line-through;
+}
+.mgk-tag {
+  margin-left: auto;
+  font-size: 0.66rem;
+  font-family: var(--codeFont);
+  color: var(--gray);
+  background: var(--lightgray);
+  border-radius: var(--pill-radius);
+  padding: 0 0.42rem;
+}
+.mgk-kolb {
+  background: var(--surface-muted);
+  border-radius: 8px;
+  padding: 0.55rem 0.65rem;
+  margin-bottom: 0.5rem;
+}
+.mgk-kolb-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+.mgk-kv {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  margin-top: 0.15rem;
+}
+.mgk-k {
+  flex: 0 0 92px;
+  color: var(--gray);
+  font-family: var(--codeFont);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding-top: 0.1rem;
+}
+.mgk-skill {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.32rem 0;
+  font-size: 0.86rem;
+}
+.mgk-skill-name {
+  flex: 0 0 7.5rem;
+}
+.mgk-chip {
+  font-size: 0.66rem;
+  font-family: var(--codeFont);
+  color: var(--secondary);
+  border: 1px solid color-mix(in srgb, var(--secondary) 30%, var(--lightgray));
+  border-radius: var(--pill-radius);
+  padding: 0 0.4rem;
+}
+.mgk-bar {
+  flex: 1;
+  height: 7px;
+  background: var(--lightgray);
+  border-radius: 99px;
+  overflow: hidden;
+}
+.mgk-bar i {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--secondary), var(--tertiary));
+}
+.mgk-num {
+  flex: 0 0 auto;
+  font-size: 0.74rem;
+  color: var(--gray);
+  font-family: var(--codeFont);
+}
+.mgk-goals {
+  display: grid;
+  gap: 0.4rem;
+}
+.mgk-goal {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--surface-muted);
+  border-radius: 7px;
+  padding: 0.45rem 0.6rem;
+  font-size: 0.88rem;
+}
+.mgk-goal-name {
+  font-weight: 500;
+}
+.mgk-status {
+  margin-left: auto;
+  font-size: 0.7rem;
+  font-family: var(--codeFont);
+  color: var(--gray);
+  border: 1px solid var(--lightgray);
+  border-radius: var(--pill-radius);
+  padding: 0 0.45rem;
+}
+.mgk-active {
+  color: var(--secondary);
+  border-color: color-mix(in srgb, var(--secondary) 30%, var(--lightgray));
+}
+.mgk-goal-end {
+  flex: 0 0 auto;
+  font-size: 0.74rem;
+  color: var(--gray);
+}
+@media (max-width: 800px) {
+  .mgk-grid {
+    grid-template-columns: 1fr;
+  }
+  .mgk-board {
+    grid-template-columns: 1fr;
+  }
+}
