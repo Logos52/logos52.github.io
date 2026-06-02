@@ -51,12 +51,14 @@ private/**
 .env.*
 *.key
 *.pem
+.claude/
 
 # Generated caches
 .cache/
 node_modules/
 __pycache__/
 *.pyc
+*.tsbuildinfo
 
 # Quartz build output and caches
 public/
