@@ -28,6 +28,7 @@ import JournalNav from "./JournalNav"
 import JournalContext from "./JournalContext"
 import HomeLanding from "./HomeLanding"
 import LearningRadar from "./LearningRadar"
+import ProjectsGallery from "./ProjectsGallery"
 
 export {
   ArticleTitle,
@@ -60,4 +61,5 @@ export {
   JournalContext,
   HomeLanding,
   LearningRadar,
+  ProjectsGallery,
 }

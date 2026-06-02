@@ -125,7 +125,10 @@ const WikiLocalGraph = Component.Graph({
 })
 
 const isCleanPage = (slug?: string) =>
-  slug === "index" || slug === "about"
+  slug === "index" ||
+  slug === "about" ||
+  slug === "projects" ||
+  Boolean(slug?.startsWith("projects/"))
 
 const isJournalPage = (slug?: string) => slug === "journal" || Boolean(slug?.startsWith("journal/"))
 
@@ -140,6 +143,10 @@ export const sharedPageComponents: SharedLayout = {
     Component.ConditionalRender({
       component: Component.LearningRadar(),
       condition: ({ fileData }) => fileData.slug === "mg-kolbs-template",
+    }),
+    Component.ConditionalRender({
+      component: Component.ProjectsGallery(),
+      condition: ({ fileData }) => fileData.slug === "projects/index",
     }),
   ],
   footer: Component.Footer({

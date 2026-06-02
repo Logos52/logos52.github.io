@@ -231,8 +231,66 @@ body[data-slug="index"] .center .graph.notes-graph > .graph-outer {
 
 body[data-slug="index"] footer,
 body[data-slug="about"] footer,
-body[data-slug^="journal/"] footer {
+body[data-slug^="journal/"] footer,
+body[data-slug^="projects/"] footer {
   display: none;
+}
+
+/* Projects pages (landing + each project) — match the wide, single-column
+   index/about treatment so content width and gutters line up with the rest
+   of the site instead of leaving the default empty side panels. */
+body[data-slug^="projects/"] #quartz-body > .left.sidebar,
+body[data-slug^="projects/"] #quartz-body > .right.sidebar {
+  display: none !important;
+}
+
+body[data-slug^="projects/"] #quartz-body {
+  grid-template-columns: minmax(0, 62rem) !important;
+  grid-template-areas:
+    "grid-header"
+    "grid-center"
+    "grid-footer" !important;
+  justify-content: center !important;
+  padding-left: clamp(2rem, 6vw, 7.5rem);
+  padding-right: clamp(2rem, 6vw, 7.5rem);
+}
+
+body[data-slug^="projects/"] .center {
+  margin-top: 1.5rem;
+}
+
+/* landing stays clean like index; individual project pages keep their
+   breadcrumb so there's a path back to Projects. */
+body[data-slug="projects/index"] .page-header .breadcrumb-container,
+body[data-slug^="projects/"] .page-header .content-meta,
+body[data-slug^="projects/"] .page-header .tags {
+  display: none;
+}
+
+body[data-slug^="projects/"] #quartz-body .page-header {
+  margin-top: 1.5rem;
+}
+
+@media all and (max-width: 800px) {
+  body[data-slug^="projects/"] #quartz-body {
+    padding-left: clamp(2rem, 8vw, 3.5rem);
+    padding-right: clamp(2rem, 8vw, 3.5rem);
+  }
+  body[data-slug^="projects/"] .center {
+    padding-left: 1.15rem;
+    padding-right: 1.15rem;
+  }
+}
+
+@media all and (max-width: 520px) {
+  body[data-slug^="projects/"] #quartz-body {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  body[data-slug^="projects/"] .center {
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+  }
 }
 
 body[data-slug^="journal/"] #quartz-body {

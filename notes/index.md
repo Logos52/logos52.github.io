@@ -11,209 +11,181 @@ tags:
 
 # Knowledge Base Index
 
-The complete catalog of pages, organized by topic.
+The complete catalog of every public page. New here? Use a map to orient, then browse the full catalog below.
 
-## Maps
+## Start here
 
-- [[wiki/Syntheses/First Principles of ICS|Learning Systems]]
-
-  Encoding, retrieval, self-regulation, and the structure underneath the current study system.
-
-- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Attention & Self-Management]]
-
-  Focus, flow, procrastination, decision friction, recovery, and the design of usable work blocks.
-
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
-
-  Building with agents while preserving judgment, taste, verification, and ownership.
-
-- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism]]
-
-  Environment design, ownership cost, empty space, and reduction as a way to make action easier.
-
-- [[wiki/Red Team/Red Teaming|Red Team / Critical Thinking]]
-
-  Frame testing, assumptions, decision support, institutional bloat, and adversarial thinking.
-
-- [[wiki/Language/Refold Language Learning System|Language Learning]]
-
-  Immersion, attention, comprehension, Vietnamese, Mandarin, and practical language workflows.
-
-## Start Here
-
-| Page | Why start here |
-| --- | --- |
-| [[wiki/Syntheses/First Principles of ICS\|First Principles of ICS]] | High-level map of processing quality, strategies, and meta-strategies. |
-| [[wiki/Syntheses/Are You Learning, or Just Using Techniques\|Are You Learning, or Just Using Techniques]] | Diagnostic page for fake productivity and technique-shaped shortcuts. |
-| [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure\|Prestudy, BHS, and SIR]] | Current minimum study loop: frame, encode, retrieve, repair. |
-| [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block\|Focus Management: Training the Return Mechanism]] | Current focus system for entering work blocks and recovering from drift. |
-| [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time\|Social Media - Curvilinear Design & the Theft of Time]] | Current attention-protection frame for feeds, chatbots, and smooth continuation. |
-| [[wiki/Workflows/Knowledge Base as Thinking Partner\|Knowledge Base as Thinking Partner]] | Workflow for turning the site into questions, decisions, primers, and action. |
+- [[wiki/Syntheses/First Principles of ICS|Learning Systems]] — encoding, retrieval, self-regulation, and the structure under the study system.
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Attention & Self-Management]] — focus, flow, procrastination, recovery, and usable work blocks.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — building with agents while preserving judgment, taste, and ownership.
+- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism]] — environment design, ownership cost, and reduction that makes action easier.
+- [[wiki/Red Team/Red Teaming|Red Team / Critical Thinking]] — frame testing, assumptions, decision support, and adversarial thinking.
+- [[wiki/Language/Refold Language Learning System|Language Learning]] — immersion, attention, comprehension, and practical language workflows.
 
 ## Full Catalog
 
 ### LLM wiki architecture
 
-| Page | Type | Status | Summary |
-| --- | --- | --- | --- |
-| [[wiki/Concepts/LLM Knowledge Systems\|LLM Knowledge Systems]] | concept | seed | Pattern for using LLMs to maintain a persistent markdown wiki instead of only querying raw sources. |
-| [[wiki/Workflows/Raw to Wiki Compilation\|Raw to Wiki Compilation]] | workflow | seed | Process for converting source material into durable, linked wiki pages. |
-| [[wiki/Workflows/Question Answering Against a Wiki\|Question Answering Against a Wiki]] | workflow | seed | Workflow for answering questions by reading the compiled wiki first, then sources as needed. |
-| [[wiki/Workflows/Knowledge Base as Thinking Partner\|Knowledge Base as Thinking Partner]] | workflow | developing | Workflow for using the knowledge base to generate questions, frames, decisions, next actions, and reusable synthesis. |
-| [[wiki/Workflows/Wiki Health Checks\|Wiki Health Checks]] | workflow | seed | Periodic audits for contradictions, stale claims, orphan pages, and missing concepts. |
-| [[wiki/Workflows/Wiki Status Checks\|Wiki Status Checks]] | workflow | seed | Lightweight read-mostly audits that summarize wiki health, risks, and next actions. |
-| [[wiki/Workflows/Wiki Breakdown Pass\|Wiki Breakdown Pass]] | workflow | seed | Process for finding missing pages, split candidates, and deliberate wiki expansion opportunities. |
-| [[wiki/Techniques/Context Engineering\|Context Engineering]] | technique | seed | Shaping available context so LLMs can navigate and use the wiki effectively. |
-| [[wiki/Concepts/LLM Tool Use\|LLM Tool Use]] | concept | seed | Search, file upload, code execution, IDE agents, and other tools as context channels. |
-| [[wiki/Concepts/Thinking Models\|Thinking Models]] | concept | seed | Reasoning models are useful for hard tasks where extra latency can buy accuracy. |
+| Page | Type | Summary |
+| --- | --- | --- |
+| [[wiki/Concepts/LLM Knowledge Systems\|LLM Knowledge Systems]] | concept | Pattern for using LLMs to maintain a persistent markdown wiki instead of only querying raw sources. |
+| [[wiki/Workflows/Raw to Wiki Compilation\|Raw to Wiki Compilation]] | workflow | Process for converting source material into durable, linked wiki pages. |
+| [[wiki/Workflows/Question Answering Against a Wiki\|Question Answering Against a Wiki]] | workflow | Workflow for answering questions by reading the compiled wiki first, then sources as needed. |
+| [[wiki/Workflows/Knowledge Base as Thinking Partner\|Knowledge Base as Thinking Partner]] | workflow | Workflow for using the knowledge base to generate questions, frames, decisions, next actions, and reusable synthesis. |
+| [[wiki/Workflows/Wiki Health Checks\|Wiki Health Checks]] | workflow | Periodic audits for contradictions, stale claims, orphan pages, and missing concepts. |
+| [[wiki/Workflows/Wiki Status Checks\|Wiki Status Checks]] | workflow | Lightweight read-mostly audits that summarize wiki health, risks, and next actions. |
+| [[wiki/Workflows/Wiki Breakdown Pass\|Wiki Breakdown Pass]] | workflow | Process for finding missing pages, split candidates, and deliberate wiki expansion opportunities. |
+| [[wiki/Techniques/Context Engineering\|Context Engineering]] | technique | Shaping available context so LLMs can navigate and use the wiki effectively. |
+| [[wiki/Concepts/LLM Tool Use\|LLM Tool Use]] | concept | Search, file upload, code execution, IDE agents, and other tools as context channels. |
+| [[wiki/Concepts/Thinking Models\|Thinking Models]] | concept | Reasoning models are useful for hard tasks where extra latency can buy accuracy. |
 
 ### Agentic engineering
 
-| Page | Type | Status | Summary |
-| --- | --- | --- | --- |
-| [[wiki/Concepts/Agentic Engineering\|Agentic Engineering]] | hub | developing | Best-practices hub for building with agents while preserving quality, taste, architecture, verification, and human responsibility. |
-| [[wiki/Concepts/Vibe Coding\|Vibe Coding]] | concept | seed | Letting an AI coding agent take substantial implementation control under human steering. |
-| [[wiki/Concepts/Software 3.0\|Software 3.0]] | concept | seed | Natural-language context and prompts as a programming medium for LLM interpreters. |
-| [[wiki/Concepts/Agent-Native Infrastructure\|Agent-Native Infrastructure]] | concept | seed | Infrastructure designed for agents to use directly through legible instructions and APIs. |
-| [[wiki/Concepts/Understanding Bottleneck\|Understanding Bottleneck]] | concept | seed | Even when thinking is outsourced, the human must understand enough to direct the work. |
-| [[wiki/Concepts/A Motorcycle for the Mind\|A Motorcycle for the Mind]] | concept | developing | AI as an accelerator for thought, learning, coding, and agency that still requires human direction. |
-| [[wiki/Concepts/A Return to Code\|A Return to Code]] | concept | developing | Vibe coding as a return to playful, personal, direct software creation through agents. |
-| [[wiki/Concepts/Nothing Ever Happens Is Over\|Nothing Ever Happens Is Over]] | concept | developing | Fast-changing AI-era sense-making frame for startups, technology, risks, and personal operating systems. |
-| [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame\|How to Communicate Truth Into Someone Else's Frame]] | concept | developing | Credibility-first model of persuasion: tell the truth clearly, preserve fit, use rational empathy, and avoid pressure-based selling. |
-| [[wiki/Concepts/The Age Of Nonlinear Returns\|The Age Of Nonlinear Returns]] | concept | developing | Decision frame for protecting trust, optionality, reputation, capability, and scaling surfaces instead of over-optimizing small visible exchanges. |
+| Page | Type | Summary |
+| --- | --- | --- |
+| [[wiki/Concepts/Agentic Engineering\|Agentic Engineering]] | hub | Best-practices hub for building with agents while preserving quality, taste, architecture, verification, and human responsibility. |
+| [[wiki/Concepts/Vibe Coding\|Vibe Coding]] | concept | Letting an AI coding agent take substantial implementation control under human steering. |
+| [[wiki/Concepts/Software 3.0\|Software 3.0]] | concept | Natural-language context and prompts as a programming medium for LLM interpreters. |
+| [[wiki/Concepts/Agent-Native Infrastructure\|Agent-Native Infrastructure]] | concept | Infrastructure designed for agents to use directly through legible instructions and APIs. |
+| [[wiki/Concepts/Understanding Bottleneck\|Understanding Bottleneck]] | concept | Even when thinking is outsourced, the human must understand enough to direct the work. |
+| [[wiki/Concepts/A Motorcycle for the Mind\|A Motorcycle for the Mind]] | concept | AI as an accelerator for thought, learning, coding, and agency that still requires human direction. |
+| [[wiki/Concepts/A Return to Code\|A Return to Code]] | concept | Vibe coding as a return to playful, personal, direct software creation through agents. |
+| [[wiki/Concepts/Nothing Ever Happens Is Over\|Nothing Ever Happens Is Over]] | concept | Fast-changing AI-era sense-making frame for startups, technology, risks, and personal operating systems. |
+| [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame\|How to Communicate Truth Into Someone Else's Frame]] | concept | Credibility-first model of persuasion: tell the truth clearly, preserve fit, use rational empathy, and avoid pressure-based selling. |
+| [[wiki/Concepts/The Age Of Nonlinear Returns\|The Age Of Nonlinear Returns]] | concept | Decision frame for protecting trust, optionality, reputation, capability, and scaling surfaces instead of over-optimizing small visible exchanges. |
 
 ### Metacognition and learning
 
-| Page | Type | Status | Summary |
-| --- | --- | --- | --- |
-| [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure\|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] | synthesis | developing | User's current encoding and retrieval loop built around BHS plus SIR. |
-| [[wiki/Syntheses/ICS System\|ICS System]] | synthesis | developing | High-level synthesis of Justin Sung's learning system: process control, five dimensions, encoding, retrieval, practice, and reflection. |
-| [[wiki/Syntheses/First Principles of ICS\|First Principles of ICS]] | synthesis | developing | Usable synthesis of the ICS hierarchy: processing quality, strategies, meta-strategies, overwhelm, layered learning, and problem maps. |
-| [[wiki/Syntheses/Minimally Viable Learning System\|Minimally Viable Learning System]] | synthesis | developing | Current minimum learning system: BHS for encoding, SIR for retrieval, with Agentic Engineering and the knowledge base treated as possible extensions. |
-| [[wiki/Syntheses/Are You Learning, or Just Using Techniques\|Are You Learning, or Just Using Techniques]] | synthesis | developing | Usable synthesis of technique failure: strategy triggers thinking, thinking creates results, and shortcuts can make methods look correct while learning stays flat. |
-| [[wiki/Dimensions/Dimensions of Learning\|Dimensions of Learning]] | model | developing | Central hub model for Deep Processing, Self-Management, Self-Regulation, Mindset, and Retrieval. |
-| [[wiki/Dimensions/Deep Processing\|Deep Processing]] | dimension | developing | Dimension for encoding through comparison, chunking, prioritization, and meaning-making. |
-| [[wiki/Dimensions/Deep Processing/Deep Processing Tanking\|Deep Processing Tanking]] | concept | developing | Failure mode where natural deep processing hides weak strategy until complexity or volume exposes the gap. |
-| [[wiki/Dimensions/Self-Management\|Self-Management]] | dimension | developing | Dimension for time, task, focus, energy, habits, and environment. |
-| [[wiki/Dimensions/Self-Regulation\|Self-Regulation]] | dimension | developing | Dimension for monitoring, diagnosing, and adjusting the learning process. |
-| [[wiki/Dimensions/Mindset\|Mindset]] | dimension | developing | Dimension for interpreting difficulty, mistakes, feedback, identity, and growth. |
-| [[wiki/Dimensions/Retrieval\|Retrieval]] | dimension | developing | Dimension for recall, reconstruction, interleaving, spacing, and transfer. |
-| [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer\|Metacognition: The Control Layer]] | concept | seed | Awareness and control of thinking during learning; the control layer for learning-to-learn. |
-| [[wiki/Techniques/Building the Radar\|Building the Radar]] | technique | seed | Practice for detecting shifts from active processing into passive consumption. |
-| [[wiki/Concepts/Are You Thinking, or Just Consuming\|Are You Thinking, or Just Consuming?]] | concept | seed | Distinguishes visible learning behaviors from the thought quality they produce. |
-| [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time\|Social Media - Curvilinear Design & the Theft of Time]] | concept | developing | Curvilinear feed design as a theft of attention, memory, and experienced time; repaired through right-angle turns, routes, and intentional choice. |
-| [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces\|The Technique Is Only as Good as the Thinking It Produces]] | concept | developing | Diagnostic principle for checking whether a technique is producing the intended cognition, not just a correct-looking artifact. |
-| [[wiki/Concepts/The Shortcut Problem\|The Shortcut Problem]] | concept | developing | Pattern where the brain avoids difficult learning by producing visible activity that bypasses the required thinking. |
-| [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue\|Cognitive Load & What Mental Effort Is Trying to Cue]] | concept | seed | Interprets mental effort, overload, and drowsiness as metacognitive signals. |
-| [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently\|How to Unlearn Old or Bad Habits Efficiently]] | concept | developing | Practical operating model for replacing old cue-response habits with scripted, rehearsed responses. |
-| [[wiki/Dimensions/Deep Processing/Deep Processing Practice\|Deep Processing Practice]] | concept | seed | Supporting concept note for meaning-making through comparison, evaluation, connection, and schema formation. (Primary: Deep Processing) |
-| [[wiki/Concepts/Memory Handling\|Memory Handling]] | concept | seed | Deliberately shaping new information so it can be encoded and retrieved. |
-| [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset\|Fixed vs Growth Mindset]] | concept | developing | Mindset model for interpreting ability, mistakes, effort, feedback, and identity during learning. (Primary: Mindset) |
-| [[wiki/Dimensions/Mindset/Neuroticism\|Neuroticism]] | concept | developing | Trait-level threat sensitivity and emotional reactivity as it affects learning, self-regulation, avoidance, and growth. (Primary: Mindset) |
-| [[wiki/Dimensions/Deep Processing/Thinking on Paper\|Thinking on Paper]] | technique | seed | Using notes as an external workbench for reasoning and cognitive offload. (Primary: Deep Processing) |
-| [[wiki/Dimensions/Deep Processing/Prestudy\|Prestudy]] | technique | developing | Setup layer before the main learning event: rough frame, big-picture chunks, questions, and reduced cognitive load. (Primary: Deep Processing) |
-| [[wiki/Dimensions/Deep Processing/Syntopical Reading - Learning from Multiple Dense Resources\|Syntopical Reading - Learning from Multiple Dense Resources]] | technique | seed | Deliberate layering of sources from lowest to highest cognitive load when working with multiple dense resources (especially research articles). (Primary: Deep Processing) |
-| [[wiki/Techniques/Opening the Black Box of Learning\|Opening the Black Box of Learning]] | technique | seed | Making the hidden processes between effort and results visible and diagnosable, especially during transitions. |
-| [[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization\|Schema Construction, Assimilation, and Reorganization]] | technique | seed | Building and refining connected mental models efficiently through construction, assimilation, and regular reorganization. (Primary: Deep Processing) |
-| [[wiki/Dimensions/Deep Processing/Bear Hunter System\|Bear Hunter System]] | technique | developing | Practical encoding workflow: Aim questions, Shoot through sources, Skin maps, then hand off to retrieval. (Primary: Deep Processing) |
-| [[wiki/Dimensions/Deep Processing/Aim\|Aim]] | technique | developing | BHS prestudy step for turning concepts into why/how questions and rough chunks. |
-| [[wiki/Dimensions/Deep Processing/Shoot\|Shoot]] | technique | developing | BHS active-learning step for answering Aim questions while building a working map. |
-| [[wiki/Dimensions/Deep Processing/Skin\|Skin]] | technique | developing | BHS consolidation step for cleaning the map into a retrievable final structure. |
-| [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval\|Spaced Interleaved Retrieval]] | technique | developing | Retrieval system combining recall, widening spacing, interleaving, and gap repair. (Primary: Retrieval) |
-| [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving\|Interleaving for Complex Problem Solving]] | technique | developing | Reconstruction method for complex problem solving, knowledge work, language learning, and agentic engineering. (Primary: Deep Processing) |
-| [[wiki/Dimensions/Retrieval/WPW\|WPW (Whole-Part-Whole)]] | technique | developing | Teaching-to-learn technique that cycles between explaining the whole, breaking it into parts, and returning to the whole with stronger integration. (Primary: Retrieval) |
-| [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle\|Kolbs Experiential Cycle]] | technique | developing | Reflection loop for converting experience into better experiments. (Primary: Self-Management) |
-| [[wiki/Dimensions/Mindset/Marginal Gains\|Marginal Gains]] | technique | developing | Improvement model for choosing small, compounding gains. (Primary: Mindset) |
-| [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)\|How to Shift Your Brain to Be Motivated]] | concept | developing | Real-time regulation of motivation and internal state when energy is low. |
-| [[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure\|How to Maintain Sustainable Energy Under Pressure]] | concept | developing | Managing emotional and energetic resources during high cognitive load. |
-| [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer\|Metacognition - The Control Layer]] | concept | developing | Thinking about your own thinking to monitor and adjust learning processes. (Primary: Self-Regulation) |
-| [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces\|The Technique Is Only as Good as the Thinking It Produces]] | concept | developing | Meta-principle: techniques are only effective if they trigger the right kind of thinking. (Primary: Self-Regulation) |
-| [[wiki/Dimensions/Self-Regulation/Building the Radar\|Building the Radar]] | technique | developing | Practice for detecting shifts from active processing into passive consumption. (Primary: Self-Regulation) |
-| [[wiki/Dimensions/Self-Management/Reverse Goal Setting\|Reverse Goal Setting]] | technique | developing | Backward planning method for turning complex goals into capability gaps, force fields, and short action plans. (Primary: Self-Management) |
-| [[wiki/Dimensions/Self-Management/Skills Audit\|Skills Audit]] | technique | developing | Diagnostic tool for identifying current skill levels and gaps. (Primary: Self-Management) |
-| [[wiki/Techniques/Dimension Practice Tracks\|Dimension Practice Tracks]] | technique | developing | Four-step practice tracks for Deep Processing, Self-Regulation, Self-Management, and Mindset. |
-| [[wiki/Techniques/Upgrading Your Dimensions\|Upgrading Your Dimensions]] | technique | developing | Strategy for improving dimensions through foundation and growth horizons. |
-| [[wiki/Dimensions/Deep Processing/Importance-Based Chunking\|Importance-Based Chunking]] | concept | developing | Grouping information by why it matters and how it should be used. (Primary: Deep Processing) |
-| [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge\|Knowledge Mastery: From Recognition to Usable Knowledge]] | concept | developing | Practical levels for diagnosing whether knowledge is isolated, relational, evaluative, or transferable. (Primary: Deep Processing) |
-| [[wiki/Learning Craft/AI-Assisted Learning Workflow\|AI-Assisted Learning Workflow]] | workflow | developing | Five-step workflow for using AI to accelerate research, priming, format conversion, feedback, and implementation without outsourcing schema formation. |
+| Page | Type | Summary |
+| --- | --- | --- |
+| [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure\|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] | synthesis | User's current encoding and retrieval loop built around BHS plus SIR. |
+| [[wiki/Syntheses/ICS System\|ICS System]] | synthesis | High-level synthesis of Justin Sung's learning system: process control, five dimensions, encoding, retrieval, practice, and reflection. |
+| [[wiki/Syntheses/First Principles of ICS\|First Principles of ICS]] | synthesis | Usable synthesis of the ICS hierarchy: processing quality, strategies, meta-strategies, overwhelm, layered learning, and problem maps. |
+| [[wiki/Syntheses/Minimally Viable Learning System\|Minimally Viable Learning System]] | synthesis | Current minimum learning system: BHS for encoding, SIR for retrieval, with Agentic Engineering and the knowledge base treated as possible extensions. |
+| [[wiki/Syntheses/Are You Learning, or Just Using Techniques\|Are You Learning, or Just Using Techniques]] | synthesis | Usable synthesis of technique failure: strategy triggers thinking, thinking creates results, and shortcuts can make methods look correct while learning stays flat. |
+| [[wiki/Dimensions/Dimensions of Learning\|Dimensions of Learning]] | model | Central hub model for Deep Processing, Self-Management, Self-Regulation, Mindset, and Retrieval. |
+| [[wiki/Dimensions/Deep Processing\|Deep Processing]] | dimension | Dimension for encoding through comparison, chunking, prioritization, and meaning-making. |
+| [[wiki/Dimensions/Deep Processing/Deep Processing Tanking\|Deep Processing Tanking]] | concept | Failure mode where natural deep processing hides weak strategy until complexity or volume exposes the gap. |
+| [[wiki/Dimensions/Self-Management\|Self-Management]] | dimension | Dimension for time, task, focus, energy, habits, and environment. |
+| [[wiki/Dimensions/Self-Regulation\|Self-Regulation]] | dimension | Dimension for monitoring, diagnosing, and adjusting the learning process. |
+| [[wiki/Dimensions/Mindset\|Mindset]] | dimension | Dimension for interpreting difficulty, mistakes, feedback, identity, and growth. |
+| [[wiki/Dimensions/Retrieval\|Retrieval]] | dimension | Dimension for recall, reconstruction, interleaving, spacing, and transfer. |
+| [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer\|Metacognition: The Control Layer]] | concept | Awareness and control of thinking during learning; the control layer for learning-to-learn. |
+| [[wiki/Techniques/Building the Radar\|Building the Radar]] | technique | Practice for detecting shifts from active processing into passive consumption. |
+| [[wiki/Concepts/Are You Thinking, or Just Consuming\|Are You Thinking, or Just Consuming?]] | concept | Distinguishes visible learning behaviors from the thought quality they produce. |
+| [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time\|Social Media - Curvilinear Design & the Theft of Time]] | concept | Curvilinear feed design as a theft of attention, memory, and experienced time; repaired through right-angle turns, routes, and intentional choice. |
+| [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces\|The Technique Is Only as Good as the Thinking It Produces]] | concept | Diagnostic principle for checking whether a technique is producing the intended cognition, not just a correct-looking artifact. |
+| [[wiki/Concepts/The Shortcut Problem\|The Shortcut Problem]] | concept | Pattern where the brain avoids difficult learning by producing visible activity that bypasses the required thinking. |
+| [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue\|Cognitive Load & What Mental Effort Is Trying to Cue]] | concept | Interprets mental effort, overload, and drowsiness as metacognitive signals. |
+| [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently\|How to Unlearn Old or Bad Habits Efficiently]] | concept | Practical operating model for replacing old cue-response habits with scripted, rehearsed responses. |
+| [[wiki/Dimensions/Deep Processing/Deep Processing Practice\|Deep Processing Practice]] | concept | Supporting concept note for meaning-making through comparison, evaluation, connection, and schema formation. (Primary: Deep Processing) |
+| [[wiki/Concepts/Memory Handling\|Memory Handling]] | concept | Deliberately shaping new information so it can be encoded and retrieved. |
+| [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset\|Fixed vs Growth Mindset]] | concept | Mindset model for interpreting ability, mistakes, effort, feedback, and identity during learning. (Primary: Mindset) |
+| [[wiki/Dimensions/Mindset/Neuroticism\|Neuroticism]] | concept | Trait-level threat sensitivity and emotional reactivity as it affects learning, self-regulation, avoidance, and growth. (Primary: Mindset) |
+| [[wiki/Dimensions/Deep Processing/Thinking on Paper\|Thinking on Paper]] | technique | Using notes as an external workbench for reasoning and cognitive offload. (Primary: Deep Processing) |
+| [[wiki/Dimensions/Deep Processing/Prestudy\|Prestudy]] | technique | Setup layer before the main learning event: rough frame, big-picture chunks, questions, and reduced cognitive load. (Primary: Deep Processing) |
+| [[wiki/Dimensions/Deep Processing/Syntopical Reading - Learning from Multiple Dense Resources\|Syntopical Reading - Learning from Multiple Dense Resources]] | technique | Deliberate layering of sources from lowest to highest cognitive load when working with multiple dense resources (especially research articles). (Primary: Deep Processing) |
+| [[wiki/Techniques/Opening the Black Box of Learning\|Opening the Black Box of Learning]] | technique | Making the hidden processes between effort and results visible and diagnosable, especially during transitions. |
+| [[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization\|Schema Construction, Assimilation, and Reorganization]] | technique | Building and refining connected mental models efficiently through construction, assimilation, and regular reorganization. (Primary: Deep Processing) |
+| [[wiki/Dimensions/Deep Processing/Bear Hunter System\|Bear Hunter System]] | technique | Practical encoding workflow: Aim questions, Shoot through sources, Skin maps, then hand off to retrieval. (Primary: Deep Processing) |
+| [[wiki/Dimensions/Deep Processing/Aim\|Aim]] | technique | BHS prestudy step for turning concepts into why/how questions and rough chunks. |
+| [[wiki/Dimensions/Deep Processing/Shoot\|Shoot]] | technique | BHS active-learning step for answering Aim questions while building a working map. |
+| [[wiki/Dimensions/Deep Processing/Skin\|Skin]] | technique | BHS consolidation step for cleaning the map into a retrievable final structure. |
+| [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval\|Spaced Interleaved Retrieval]] | technique | Retrieval system combining recall, widening spacing, interleaving, and gap repair. (Primary: Retrieval) |
+| [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving\|Interleaving for Complex Problem Solving]] | technique | Reconstruction method for complex problem solving, knowledge work, language learning, and agentic engineering. (Primary: Deep Processing) |
+| [[wiki/Dimensions/Retrieval/WPW\|WPW (Whole-Part-Whole)]] | technique | Teaching-to-learn technique that cycles between explaining the whole, breaking it into parts, and returning to the whole with stronger integration. (Primary: Retrieval) |
+| [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle\|Kolbs Experiential Cycle]] | technique | Reflection loop for converting experience into better experiments. (Primary: Self-Management) |
+| [[wiki/Dimensions/Mindset/Marginal Gains\|Marginal Gains]] | technique | Improvement model for choosing small, compounding gains. (Primary: Mindset) |
+| [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)\|How to Shift Your Brain to Be Motivated]] | concept | Real-time regulation of motivation and internal state when energy is low. |
+| [[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure\|How to Maintain Sustainable Energy Under Pressure]] | concept | Managing emotional and energetic resources during high cognitive load. |
+| [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer\|Metacognition - The Control Layer]] | concept | Thinking about your own thinking to monitor and adjust learning processes. (Primary: Self-Regulation) |
+| [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces\|The Technique Is Only as Good as the Thinking It Produces]] | concept | Meta-principle: techniques are only effective if they trigger the right kind of thinking. (Primary: Self-Regulation) |
+| [[wiki/Dimensions/Self-Regulation/Building the Radar\|Building the Radar]] | technique | Practice for detecting shifts from active processing into passive consumption. (Primary: Self-Regulation) |
+| [[wiki/Dimensions/Self-Management/Reverse Goal Setting\|Reverse Goal Setting]] | technique | Backward planning method for turning complex goals into capability gaps, force fields, and short action plans. (Primary: Self-Management) |
+| [[wiki/Dimensions/Self-Management/Skills Audit\|Skills Audit]] | technique | Diagnostic tool for identifying current skill levels and gaps. (Primary: Self-Management) |
+| [[wiki/Techniques/Dimension Practice Tracks\|Dimension Practice Tracks]] | technique | Four-step practice tracks for Deep Processing, Self-Regulation, Self-Management, and Mindset. |
+| [[wiki/Techniques/Upgrading Your Dimensions\|Upgrading Your Dimensions]] | technique | Strategy for improving dimensions through foundation and growth horizons. |
+| [[wiki/Dimensions/Deep Processing/Importance-Based Chunking\|Importance-Based Chunking]] | concept | Grouping information by why it matters and how it should be used. (Primary: Deep Processing) |
+| [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge\|Knowledge Mastery: From Recognition to Usable Knowledge]] | concept | Practical levels for diagnosing whether knowledge is isolated, relational, evaluative, or transferable. (Primary: Deep Processing) |
+| [[wiki/Learning Craft/AI-Assisted Learning Workflow\|AI-Assisted Learning Workflow]] | workflow | Five-step workflow for using AI to accelerate research, priming, format conversion, feedback, and implementation without outsourcing schema formation. |
 
 ### Decision making
 
-| Page | Type | Status | Summary |
-| --- | --- | --- | --- |
-| [[wiki/Decision Making/Decision Making\|Decision Making]] | hub | developing | ICS-sourced operating layer for choosing under uncertainty without losing time, focus, or adaptability. |
-| [[wiki/Decision Making/Decisional Delays\|Decisional Delays]] | concept | developing | Hidden time and focus cost created by repeated decisions about what to do next. |
-| [[wiki/Decision Making/Choice Throttling\|Choice Throttling]] | technique | developing | Reduces vague choices into a small set of closed questions that narrow the decision. |
-| [[wiki/Decision Making/Good Decisions\|Good Decisions]] | concept | developing | Decision quality judged by process first, with outcomes treated as feedback rather than the sole verdict. |
-| [[wiki/Decision Making/Positional Decisions and Expected Value\|Positional Decisions and Expected Value]] | concept | developing | Makes uncertain decisions by improving future position, leverage, information, or expected value. |
-| [[wiki/Decision Making/Changing Decisions\|Changing Decisions]] | concept | developing | Revises decisions when new information changes the process, position, or expected value. |
+| Page | Type | Summary |
+| --- | --- | --- |
+| [[wiki/Decision Making/Decision Making\|Decision Making]] | hub | ICS-sourced operating layer for choosing under uncertainty without losing time, focus, or adaptability. |
+| [[wiki/Decision Making/Decisional Delays\|Decisional Delays]] | concept | Hidden time and focus cost created by repeated decisions about what to do next. |
+| [[wiki/Decision Making/Choice Throttling\|Choice Throttling]] | technique | Reduces vague choices into a small set of closed questions that narrow the decision. |
+| [[wiki/Decision Making/Good Decisions\|Good Decisions]] | concept | Decision quality judged by process first, with outcomes treated as feedback rather than the sole verdict. |
+| [[wiki/Decision Making/Positional Decisions and Expected Value\|Positional Decisions and Expected Value]] | concept | Makes uncertain decisions by improving future position, leverage, information, or expected value. |
+| [[wiki/Decision Making/Changing Decisions\|Changing Decisions]] | concept | Revises decisions when new information changes the process, position, or expected value. |
 
 ### Self-management
 
-| Page | Type | Status | Summary |
-| --- | --- | --- | --- |
-| [[wiki/Self Management/Flow State\|Flow State]] | concept | developing | High-output attention state protected by task clarity, environment, and reduced decision friction. |
-| [[wiki/Self Management/Attention Span and Focus Training\|Attention Span and Focus Training]] | technique | developing | Baseline attention training system that distinguishes temporary focus scaffolding from long-term focus capacity. |
-| [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block\|Focus Management: Training the Return Mechanism]] | system | developing | Practical system for entering focus, reducing distraction forces, and training the return mechanism inside study and work blocks. |
-| [[wiki/Self Management/Attention Management - Preserving Flow\|Attention Management: Preserving Flow]] | system | developing | Advanced day-level system for preserving flow across tasks by reducing transition friction and decisional delays. |
-| [[wiki/Self Management/Procrastination - a System Problem\|Procrastination: a System Problem]] | concept | developing | Treats avoidance as a system problem involving triggers, task friction, environment, and willpower dependence. |
+| Page | Type | Summary |
+| --- | --- | --- |
+| [[wiki/Self Management/Flow State\|Flow State]] | concept | High-output attention state protected by task clarity, environment, and reduced decision friction. |
+| [[wiki/Self Management/Attention Span and Focus Training\|Attention Span and Focus Training]] | technique | Baseline attention training system that distinguishes temporary focus scaffolding from long-term focus capacity. |
+| [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block\|Focus Management: Training the Return Mechanism]] | system | Practical system for entering focus, reducing distraction forces, and training the return mechanism inside study and work blocks. |
+| [[wiki/Self Management/Attention Management - Preserving Flow\|Attention Management: Preserving Flow]] | system | Advanced day-level system for preserving flow across tasks by reducing transition friction and decisional delays. |
+| [[wiki/Self Management/Procrastination - a System Problem\|Procrastination: a System Problem]] | concept | Treats avoidance as a system problem involving triggers, task friction, environment, and willpower dependence. |
 
 ### Minimalism
 
-| Page | Type | Status | Summary |
-| --- | --- | --- | --- |
-| [[wiki/Minimalism/Minimalism as Systems Design\|Minimalism as Systems Design]] | hub | developing | Environmental systems design for reducing ownership cost, preserving slack, and making physical space support the life being built. |
-| [[wiki/Minimalism/Environment Design\|Environment Design]] | concept | developing | Arranges physical space so desired behavior is easier and unwanted cues are less available. |
-| [[wiki/Minimalism/Ownership Cost\|Ownership Cost]] | concept | developing | Makes visible the space, money, time, attention, maintenance, memory, and exit costs of objects. |
-| [[wiki/Minimalism/Product Reduction\|Product Reduction]] | technique | developing | Practical process for consolidating objects, reducing high-cost items, and deciding what remains. |
-| [[wiki/Minimalism/Exit Strategy For Objects\|Exit Strategy For Objects]] | concept | developing | Rule for how an object will leave before it enters. |
+| Page | Type | Summary |
+| --- | --- | --- |
+| [[wiki/Minimalism/Minimalism as Systems Design\|Minimalism as Systems Design]] | hub | Environmental systems design for reducing ownership cost, preserving slack, and making physical space support the life being built. |
+| [[wiki/Minimalism/Environment Design\|Environment Design]] | concept | Arranges physical space so desired behavior is easier and unwanted cues are less available. |
+| [[wiki/Minimalism/Ownership Cost\|Ownership Cost]] | concept | Makes visible the space, money, time, attention, maintenance, memory, and exit costs of objects. |
+| [[wiki/Minimalism/Product Reduction\|Product Reduction]] | technique | Practical process for consolidating objects, reducing high-cost items, and deciding what remains. |
+| [[wiki/Minimalism/Exit Strategy For Objects\|Exit Strategy For Objects]] | concept | Rule for how an object will leave before it enters. |
 
 ### Language learning
 
-| Page | Type | Status | Summary |
-| --- | --- | --- | --- |
-| [[wiki/Resources/Vietnamese Language Learning Resources\|Vietnamese Language Learning Resources]] | resource-catalog | developing | Compiled Refold resource catalog for Vietnamese immersion, sound/script work, tooling, and review resources. |
-| [[wiki/Resources/Mandarin Chinese Language Learning Resources\|Mandarin Chinese Language Learning Resources]] | resource-catalog | developing | Compiled Refold resource catalog for Mandarin comprehensible input, pinyin, character tools, immersion tooling, and review resources. |
-| [[wiki/Language/Refold Language Learning System\|Refold Language Learning System]] | synthesis | developing | Source-built hub for Refold: acquisition, attention, three pillars, comprehension hacking, grammar, characters, and daily systems. |
-| [[wiki/Language/Attention is Important\|Attention is Important]] | concept | developing | Why immersion must remain a high-attention activity. |
-| [[wiki/Language/Noticing Game\|Noticing Game]] | technique | developing | Beginner attention technique for finding recognizable pieces in real input. |
-| [[wiki/Language/YouTube Immersion Account\|YouTube Immersion Account]] | workflow | developing | Separate recommendation environment for target-language YouTube immersion. |
-| [[wiki/Language/Three Pillars of Language Learning\|Three Pillars of Language Learning]] | model | developing | Balance model for Preparation, Interactive Immersion, and Freeflow. |
-| [[wiki/Language/Preparation\|Preparation]] | pillar | developing | Priming layer for vocabulary, sounds, script, characters, grammar, and tools. |
-| [[wiki/Language/Interactive Immersion\|Interactive Immersion]] | pillar | developing | Tool-assisted active immersion for unlocking meaning in real input. |
-| [[wiki/Language/Freeflow Immersion\|Freeflow Immersion]] | pillar | developing | Attentive lower-friction exposure without constant lookup. |
-| [[wiki/Language/Immersion Metalayers\|Immersion Metalayers]] | tool-note | developing | Tools such as Migaku and Language Reactor that layer lookup/subtitle support onto content. |
-| [[wiki/Language/Hacking Comprehension Menu\|Hacking Comprehension Menu]] | technique | developing | Menu of tool, technique, and content levers for making input more comprehensible. |
-| [[wiki/Language/Character Primer\|Character Primer]] | concept | developing | Orientation to Chinese/Japanese characters, components, context, and recognition. |
-| [[wiki/Language/Refold Grammar Primers\|Refold Grammar Primers]] | technique | developing | Grammar priming as a comprehension aid rather than memorization. |
-| [[wiki/Language/Vietnamese Grammar Primer\|Vietnamese Grammar Primer]] | primer | draft | Original draft grammar primer for Vietnamese, structured after the Refold primer workflow. |
-| [[wiki/Language/Language Isn't Math\|Language Isn't Math]] | concept | developing | Language-learning mindset: natural speech is acquired from patterns and examples, not deduced from grammar formulas. |
+| Page | Type | Summary |
+| --- | --- | --- |
+| [[wiki/Resources/Vietnamese Language Learning Resources\|Vietnamese Language Learning Resources]] | resource-catalog | Compiled Refold resource catalog for Vietnamese immersion, sound/script work, tooling, and review resources. |
+| [[wiki/Resources/Mandarin Chinese Language Learning Resources\|Mandarin Chinese Language Learning Resources]] | resource-catalog | Compiled Refold resource catalog for Mandarin comprehensible input, pinyin, character tools, immersion tooling, and review resources. |
+| [[wiki/Language/Refold Language Learning System\|Refold Language Learning System]] | synthesis | Source-built hub for Refold: acquisition, attention, three pillars, comprehension hacking, grammar, characters, and daily systems. |
+| [[wiki/Language/Attention is Important\|Attention is Important]] | concept | Why immersion must remain a high-attention activity. |
+| [[wiki/Language/Noticing Game\|Noticing Game]] | technique | Beginner attention technique for finding recognizable pieces in real input. |
+| [[wiki/Language/YouTube Immersion Account\|YouTube Immersion Account]] | workflow | Separate recommendation environment for target-language YouTube immersion. |
+| [[wiki/Language/Three Pillars of Language Learning\|Three Pillars of Language Learning]] | model | Balance model for Preparation, Interactive Immersion, and Freeflow. |
+| [[wiki/Language/Preparation\|Preparation]] | pillar | Priming layer for vocabulary, sounds, script, characters, grammar, and tools. |
+| [[wiki/Language/Interactive Immersion\|Interactive Immersion]] | pillar | Tool-assisted active immersion for unlocking meaning in real input. |
+| [[wiki/Language/Freeflow Immersion\|Freeflow Immersion]] | pillar | Attentive lower-friction exposure without constant lookup. |
+| [[wiki/Language/Immersion Metalayers\|Immersion Metalayers]] | tool-note | Tools such as Migaku and Language Reactor that layer lookup/subtitle support onto content. |
+| [[wiki/Language/Hacking Comprehension Menu\|Hacking Comprehension Menu]] | technique | Menu of tool, technique, and content levers for making input more comprehensible. |
+| [[wiki/Language/Character Primer\|Character Primer]] | concept | Orientation to Chinese/Japanese characters, components, context, and recognition. |
+| [[wiki/Language/Refold Grammar Primers\|Refold Grammar Primers]] | technique | Grammar priming as a comprehension aid rather than memorization. |
+| [[wiki/Language/Vietnamese Grammar Primer\|Vietnamese Grammar Primer]] | primer | Original draft grammar primer for Vietnamese, structured after the Refold primer workflow. |
+| [[wiki/Language/Language Isn't Math\|Language Isn't Math]] | concept | Language-learning mindset: natural speech is acquired from patterns and examples, not deduced from grammar formulas. |
 
 ### Red Teaming
 
-| Page | Type | Status | Summary |
-| --- | --- | --- | --- |
-| [[wiki/Red Team/Red Teaming\|Red Teaming]] | hub | developing | Dedicated Red Teaming hub connecting Army decision-support principles to the user's identity and learning system. |
-| [[wiki/Red Team/Applied Critical Thinking - Testing Frames\|Applied Critical Thinking: Testing Frames]] | concept | developing | Fast practical filter for testing media narratives, AI outputs, frames, assumptions, evidence, alternatives, and Red Team decision quality. |
+| Page | Type | Summary |
+| --- | --- | --- |
+| [[wiki/Red Team/Red Teaming\|Red Teaming]] | hub | Dedicated Red Teaming hub connecting Army decision-support principles to the user's identity and learning system. |
+| [[wiki/Red Team/Applied Critical Thinking - Testing Frames\|Applied Critical Thinking: Testing Frames]] | concept | Fast practical filter for testing media narratives, AI outputs, frames, assumptions, evidence, alternatives, and Red Team decision quality. |
 
 ### Reference
 
-| Page | Type | Status | Summary |
-| --- | --- | --- | --- |
-| [[wiki/Books/The Parasitic Mind\|The Parasitic Mind]] | book | developing | Longform review and takeaways on Gad Saad's argument for reason, free speech, and epistemic hygiene. |
-| [[wiki/Books/Suicidal Empathy\|Suicidal Empathy]] | book | seed | The emotional successor to *The Parasitic Mind*. Maps how empathy becomes suicidal when decoupled from truth, reciprocity, and survival. Includes practical inoculation protocol. |
-| [[wiki/Concepts/Meiwaku\|Meiwaku]] | concept | developing | Japanese principle of minimizing unnecessary social burden and imposition on others. |
-| [[wiki/Concepts/Style\|Style]] | concept | developing | Recognizable patterns of execution that prime expectations; emphasis on recessive, substance-serving style. |
-| [[wiki/Concepts/Bias and Framing\|Bias and Framing]] | concept | developing | How selective presentation of information creates and reinforces systematic distortions in thinking. |
-| [[wiki/Concepts/Good Faith\|Good Faith]] | concept | developing | Deliberate forthrightness in interactions to build trust and reduce long-term friction. |
-| [[wiki/Concepts/Charisma\|Charisma]] | concept | developing | Capacity to generate positive engagement across many people while minimizing negative friction. |
-| [[wiki/Concepts/Anti-Marketing\|Anti-Marketing]] | concept | developing | Trust-building by exposing constraints and flaws early rather than through polished promotion. |
-| [[wiki/Concepts/Design of Everyday Things\|Design of Everyday Things]] | concept | developing | Don Norman's framework for intuitive design (affordances, signifiers, mapping, feedback). |
-| [[wiki/Dimensions/Self-Regulation/Recovery\|Recovery]] | concept | developing | Framework for genuine recovery through system-specific relaxation, psychological detachment, mastery, and control (Justin Sung). (Primary: Self-Regulation) |
-| [[blog/experiences\|Experiences]] | blog | developing | Reflections and operating principles drawn from direct personal experience (Taiwan 2020 + Red Team Training). Located under Blog. |
-| [[wiki/Concepts/Suicidal Empathy\|Suicidal Empathy]] | concept | developing | Gad Saad's evolutionary framework for maladaptive empathy that is excessive, misactivated, or aimed at the wrong targets. |
-| [[wiki/Books/The Book of Elon\|The Book of Elon]] | book | developing | Longform review and takeaways on purpose, first-principles engineering, company-building, and civilizational optimism. |
-| [[wiki/Glossary\|Glossary]] | glossary | seed | Short definitions of recurring terms. |
-| [[wiki/Bibliography\|Bibliography]] | bibliography | seed | Source bibliography for the wiki. |
-| [[wiki/Timeline\|Timeline]] | timeline | seed | Timeline of important developments and repo events. |
-| [[00 Command Center/Writing Standards\|Writing Standards]] | system | developing | Operating standard for future wiki writing, page structure, anti-cramming, and article quality. |
+| Page | Type | Summary |
+| --- | --- | --- |
+| [[wiki/Books/The Parasitic Mind\|The Parasitic Mind]] | book | Longform review and takeaways on Gad Saad's argument for reason, free speech, and epistemic hygiene. |
+| [[wiki/Books/Suicidal Empathy\|Suicidal Empathy]] | book | The emotional successor to *The Parasitic Mind*. Maps how empathy becomes suicidal when decoupled from truth, reciprocity, and survival. Includes practical inoculation protocol. |
+| [[wiki/Concepts/Meiwaku\|Meiwaku]] | concept | Japanese principle of minimizing unnecessary social burden and imposition on others. |
+| [[wiki/Concepts/Style\|Style]] | concept | Recognizable patterns of execution that prime expectations; emphasis on recessive, substance-serving style. |
+| [[wiki/Concepts/Bias and Framing\|Bias and Framing]] | concept | How selective presentation of information creates and reinforces systematic distortions in thinking. |
+| [[wiki/Concepts/Good Faith\|Good Faith]] | concept | Deliberate forthrightness in interactions to build trust and reduce long-term friction. |
+| [[wiki/Concepts/Charisma\|Charisma]] | concept | Capacity to generate positive engagement across many people while minimizing negative friction. |
+| [[wiki/Concepts/Anti-Marketing\|Anti-Marketing]] | concept | Trust-building by exposing constraints and flaws early rather than through polished promotion. |
+| [[wiki/Concepts/Design of Everyday Things\|Design of Everyday Things]] | concept | Don Norman's framework for intuitive design (affordances, signifiers, mapping, feedback). |
+| [[wiki/Dimensions/Self-Regulation/Recovery\|Recovery]] | concept | Framework for genuine recovery through system-specific relaxation, psychological detachment, mastery, and control (Justin Sung). (Primary: Self-Regulation) |
+| [[blog/experiences\|Experiences]] | blog | Reflections and operating principles drawn from direct personal experience (Taiwan 2020 + Red Team Training). Located under Blog. |
+| [[wiki/Concepts/Suicidal Empathy\|Suicidal Empathy]] | concept | Gad Saad's evolutionary framework for maladaptive empathy that is excessive, misactivated, or aimed at the wrong targets. |
+| [[wiki/Books/The Book of Elon\|The Book of Elon]] | book | Longform review and takeaways on purpose, first-principles engineering, company-building, and civilizational optimism. |
+| [[wiki/Glossary\|Glossary]] | glossary | Short definitions of recurring terms. |
+| [[wiki/Bibliography\|Bibliography]] | bibliography | Source bibliography for the wiki. |
+| [[wiki/Timeline\|Timeline]] | timeline | Timeline of important developments and repo events. |
+| [[00 Command Center/Writing Standards\|Writing Standards]] | system | Operating standard for future wiki writing, page structure, anti-cramming, and article quality. |

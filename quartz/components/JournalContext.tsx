@@ -16,34 +16,16 @@ const JournalContext: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
         </ul>
       </section>
       <section>
-        <h3>Log</h3>
+        <h3>Recent</h3>
         <ul>
           <li>
-            <a href={`${baseDir}/journal/calendar#2026-05-09`}>2026-05-09</a>
+            <a href={`${baseDir}/journal/2026-05-29-wnab-direction-decided`}>2026-05-29</a>
           </li>
           <li>
-            <a href={`${baseDir}/journal/calendar#2026-05-08`}>2026-05-08</a>
+            <a href={`${baseDir}/journal/2026-05-28-Reflections-on-Wiki-Bloat-Life-OS-Red-Teaming-and-Agentic-Focus`}>2026-05-28</a>
           </li>
           <li>
-            <a href={`${baseDir}/journal/calendar#2026-05-07`}>2026-05-07</a>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3>Time Log</h3>
-        <p>Reserved for public work-session notes. Private time tracking stays local.</p>
-      </section>
-      <section>
-        <h3>Private Tools</h3>
-        <ul>
-          <li>
-            <a href={`${baseDir}/journal/templates/goals-index`}>Goals</a>
-          </li>
-          <li>
-            <a href={`${baseDir}/journal/templates/skills-index`}>Skills</a>
-          </li>
-          <li>
-            <a href={`${baseDir}/journal/templates/kolbs-index`}>Kolbs</a>
+            <a href={`${baseDir}/journal/calendar#2026-05-21`}>2026-05-21</a>
           </li>
         </ul>
       </section>

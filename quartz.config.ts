@@ -40,6 +40,7 @@ const config: QuartzConfig = {
       "finances/**",
       "outputs/**",
       "templates/**",
+      "journal/templates/**",
       "tools/**",
       "PRDs/**",
       "decisions/**",
