@@ -24,7 +24,7 @@ A single, Obsidian-native command center spanning knowledge work *and* life. Sup
 
 > [!important] Amendment 2026-05-29 — finance layer rescoped to wnab overview
 > The **budgeting system has moved out of this PRD** into [[PRDs/PRD-wnab-Budget-App|wnab]], a custom YNAB-like app on Actual Budget's engine (separate repo, not in the vault). This is an explicit decision change (see [[decisions/2026-05-27-budget-path-b-not-real-software]], now superseded).
-> **What this changes here:** the *Life → finances* scope, the Phase 2 finance cards, and the finance drill-down are **rescoped from "the budget system" to "a read-only overview of wnab."** The numberless front-page card and the JS drill-down stay — they now *read wnab's data* rather than being the budgeting engine themselves. Apple Card CSV at `/Users/n1/Documents/Finances/` is reused to seed wnab.
+> **What this changes here:** the *Life → finances* scope, the Phase 2 finance cards, and the finance drill-down are **rescoped from "the budget system" to "a read-only overview of wnab."** The numberless front-page card and the JS drill-down stay — they now *read wnab's data* rather than being the budgeting engine themselves. The card's CSV export at `/Users/n1/Documents/Finances/` is reused to seed wnab.
 > **What's unchanged:** everything non-finance (knowledge, direction, tasks, dates), and the core "live where attention already is" mandate — the daily finance *glance* still lives in Obsidian; only the deliberate budgeting *work* moves to wnab. That split is the deliberate answer to the cos failure mode, not a violation of it.
 
 ## Problem
@@ -90,11 +90,11 @@ Hierarchy (from the cos design direction): Knowledge Work + Finances get visual 
 
 Capture is **CSV import**, not hand-entry — hand-entry is what rotted cos. Files land in the vault and the dashboard reads them.
 
-- **Finances — Apple Card.** No public API, so the path is a manual monthly export: Wallet → Apple Card → statement → Export Transactions (CSV) → save to `/Users/n1/Documents/Finances/` (**outside the repo**). Periodic and intentional, which suits manual sessions. The Phase-2 finance note reads that file by absolute path and renders charts; the front-page card shows a numberless sparkline + one-line trend. Confirmed columns: `Transaction Date, Clearing Date, Description, Merchant, Category, Type, Amount (USD), Purchased By`.
+- **Finances — the card.** No public API, so the path is a manual monthly export: Wallet → the card → statement → Export Transactions (CSV) → save to `/Users/n1/Documents/Finances/` (**outside the repo**). Periodic and intentional, which suits manual sessions. The Phase-2 finance note reads that file by absolute path and renders charts; the front-page card shows a numberless sparkline + one-line trend. Confirmed columns: `Transaction Date, Clearing Date, Description, Merchant, Category, Type, Amount (USD), Purchased By`.
 - **Tasks / dates** — inline markdown to start (checkboxes + a `due` date in frontmatter), surfaced by Bases. CSV import later if a source warrants it.
 - **Learning intake** — already native (`raw/inbox`); the Flow view covers it.
 
-Open: confirm the exact Apple Card export columns against a real sample; decide whether other accounts (bank, brokerage) follow the same CSV-drop pattern.
+Open: confirm the exact card export columns against a real sample; decide whether other accounts (bank, brokerage) follow the same CSV-drop pattern.
 
 ## Plan / sequencing
 
@@ -105,7 +105,7 @@ Open: confirm the exact Apple Card export columns against a real sample; decide 
 ## Decisions
 
 - **cos retired.** Its *idea* is kept; its *surface* is not. cos lived outside Obsidian and created friction in both reading and capture — the core failure. The LifeOS is rebuilt Obsidian-native.
-- **Capture = CSV import, not hand-entry.** Apple Card monthly CSV exports live OUTSIDE the repo at `/Users/n1/Documents/Finances/`; the Phase-2 finance note reads them by absolute path. Hand-entry rotted cos and is avoided.
+- **Capture = CSV import, not hand-entry.** The card's monthly CSV exports live OUTSIDE the repo at `/Users/n1/Documents/Finances/`; the Phase-2 finance note reads them by absolute path. Hand-entry rotted cos and is avoided.
 - **Finances never enter the public repo.** Raw data stays in the external folder above. As a backstop, `finances/**` is also gitignored and excluded from Quartz `ignorePatterns`. Trade-off: external data isn't backed up by git — keep an independent backup.
 - **Rich finance view = a separate in-vault note rendered with JS** (Datacore or DataviewJS + Charts), one click from the front page. Front page stays numberless.
 - **Engine = Bases for plain lists (Flow, Workbench, Direction); Datacore (JS) for visual sections (Skills now, Finance at Phase 2); CSS card-framing across all.** Datacore is store-installable (no BRAT). Expanded 2026-05-27 from the earlier "JS only for the finance drill-down" scope — the Basecamp visual style outgrows Bases, and Skills/Finance are where smooth visuals matter.

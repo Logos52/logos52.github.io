@@ -19,7 +19,7 @@ links:
 
 ## Problem
 
-The Command Center `Finances.md` is a JSX dashboard that reads an **old Apple Card CSV spend feed** —
+The Command Center `Finances.md` is a JSX dashboard that reads an **old card CSV spend feed** —
 the pre-wnab "Path B" artifact. The plan was always for it to become a **read-only overview of wnab**.
 Until that happens there are two sources of truth (CSV vs the real budget in wnab) that will drift, and
 the dashboard shows spend, not budget state (assigned / available / age of money). wnab is on-device and

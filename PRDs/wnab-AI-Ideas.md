@@ -41,7 +41,7 @@ wnab stays the **local, serverless, private** budgeting engine. The AI smarts ru
 4. **Dynamic coaching.** Replace static nudge strings with situational, personal coaching ("Dining over three months running — raise the target to something realistic?"). Turns the coaching layer into an actual coach.
 5. **Monthly review.** End-of-month narrative: where money went vs. plan, what shifted, what to adjust.
 6. **True-expense detection.** Scan history for irregular/annual costs (insurance, renewals) → suggest sinking-fund targets (automates YNAB Rule 2, which people forget).
-7. **Target suggestions.** Seed category targets from spending averages (Apple Card data) + AI sanity-check ("Restaurants target $200 is unrealistic — you average $380").
+7. **Target suggestions.** Seed category targets from spending averages (the card's data) + AI sanity-check ("Restaurants target $200 is unrealistic — you average $380").
 
 ## Next step when picked up
 

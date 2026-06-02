@@ -96,7 +96,7 @@ with Xcode Command Line Tools. The agent-automatable slice is the two patches an
   `-o better-sqlite3,bcrypt` flag is correct; no script change needed. (`packages/desktop-electron/package.json:19`; `packages/sync-server/package.json:93`)
 - **Data-dir model shared with the vault.** `~/Documents/Finances/wnab/` aligns the Electron data
   location with the vault's finance model — the Obsidian datacore loader reads `~/Documents/Finances/`
-  for Apple Card CSVs. Putting wnab's budget DB under the same backed-up tree is the cross-workspace
+  for the card's CSVs. Putting wnab's budget DB under the same backed-up tree is the cross-workspace
   contract that makes Success Criterion 3 ("known location that gets backed up") true. (vault recon:
   `tools/finance-helpers.md` path; PRD success criteria)
 - **Divergence ledger.** The data-dir edit is the project's first deliberate engine-adjacent

@@ -67,7 +67,7 @@ public/
 01 - Workbench/*
 !01 - Workbench/README.md
 
-# Finances stay LOCAL — never commit or publish transaction data (Apple Card CSVs, etc.)
+# Finances stay LOCAL — never commit or publish transaction data (card/bank CSVs, etc.)
 finances/**
 !finances/
 !finances/imports/

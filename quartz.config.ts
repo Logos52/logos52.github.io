@@ -52,6 +52,9 @@ const config: QuartzConfig = {
       "log.md",
       "_meta/**",
 
+      // Individual pages kept out of the public site (finance direction / decisions)
+      "journal/2026-05-29-wnab-direction-decided.md",
+
       // Quartz framework + build artifacts
       "quartz/**",
       "public/**",

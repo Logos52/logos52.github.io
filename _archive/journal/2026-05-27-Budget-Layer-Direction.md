@@ -32,7 +32,7 @@ Wedge's note: don't underestimate what we can build at session pace; "months-lon
 
 ## Open
 
-- **Budget targets are not set.** Use the YTD Apple Card data as a baseline ("you've averaged $X/mo on Restaurants") and Wedge decides each category. Claude's help: surface per-category averages, suggest reasonable ranges, sanity-check totals against income.
+- **Budget targets are not set.** Use the YTD card data as a baseline ("you've averaged $X/mo on Restaurants") and Wedge decides each category. Claude's help: surface per-category averages, suggest reasonable ranges, sanity-check totals against income.
 - Decide which YNAB philosophies are worth porting when we revisit, and which aren't.
 
 ## Next move when picked up

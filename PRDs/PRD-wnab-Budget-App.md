@@ -38,7 +38,7 @@ I've tried off-the-shelf budgeting apps and never stuck. Mint is dead; Monarch/C
 1. **I actually budget with it** — real money assigned, reconciled, sustained week over week. The win is that I keep using it (where every prior app failed).
 2. **Engine reuse** — runs on Actual's `loot-core`; no reimplementation of envelope logic, reconciliation, or sync. Our code isolated so upstream updates are dependency bumps, not merges. *(Contingent on the B1 spike — see §6.)*
 3. **UX I enjoy** — I choose wnab over vanilla Actual for budgeting sessions, unprompted, for 2+ weeks.
-4. **Hybrid transactions work** — QFX/CSV import (Apple Card) + SimpleFIN auto-sync (Schwab/USAA) reconcile cleanly together.
+4. **Hybrid transactions work** — QFX/CSV import (the card) + SimpleFIN auto-sync (Checking/Bank) reconcile cleanly together.
 5. **Obsidian overview is live** — a read-only finance glance in the Command Center reads wnab's data (numberless front card + drill-down), retiring the old CSV-spend dashboard.
 6. **Data is mine and private** — self-hosted, exportable, no lock-in; financial data never in the (public) repo.
 
@@ -60,7 +60,7 @@ The pattern that killed **cos** and shaped the Path-B decision: *a separate surf
 - **YNAB-like design language**: "to be budgeted" / assign-every-dollar, category tables, age-of-money, cover-overspending.
 - **Web-first**; desktop (Electron) packaging later.
 - **Manual entry + monthly file import** (QFX/CSV), riding on Actual's native import-matching (no bank auto-sync — see §5).
-- **Seed from existing data**: reuse Apple Card exports + the per-category averages already computed in the vault to pre-load categories and starting targets.
+- **Seed from existing data**: reuse the card's exports + the per-category averages already computed in the vault to pre-load categories and starting targets.
 - **Coaching layer** — the mindset-teaching that sets wnab apart from stock Actual: onboarding to the budgeting principles + behavioral nudges (give-every-dollar-a-job flow, age-of-money prominence, roll-with-the-punches reallocation). All-original copy; public repo (see Decisions).
 - **Obsidian read-only overview** that reads wnab data; **old CSV-spend dashboard retired into it.**
 - PRD note lives in vault `PRDs/`; **code lives in its own public git repo** (`wnab`, at `/Users/n1/Projects/wnab`).
@@ -77,15 +77,15 @@ The pattern that killed **cos** and shaped the Path-B decision: *a separate surf
 - **Engine integration = Path 2: fork/reskin `@actual-app/web` (decided 2026-05-29).** Recon found `loot-core` is **not** published to npm (monorepo-internal), and `@actual-app/api` is a **Node-side** package — unusable with no server. `@actual-app/web` runs the *entire engine in the browser* via SQLite-on-WASM (data in browser-local storage), so it's static files that work on GitHub Pages or locally with **no server**. We fork it and reskin the UI; the engine stays Actual's. This fits the no-server constraint and keeps data on-device. Desktop (Electron) later comes nearly free (Actual already ships it).
 - **Security model = Option A: code-only public repo; data + secrets external.**
   - wnab repo is **public** and contains **code only**.
-  - Financial DB + SimpleFIN token live in `~/Documents/Finances/wnab/` (outside the repo, the same private root as the Apple Card exports; independently backed up).
+  - Financial DB + SimpleFIN token live in `~/Documents/Finances/wnab/` (outside the repo, the same private root as the card's exports; independently backed up).
   - Secrets via `.env` in the external dir; `.gitignore` defensively blocks data/secret patterns; never commit financial data.
   - Actual sync server runs with **end-to-end encryption** (password-based) as defense-in-depth.
 - **No bank auto-sync — manual entry + monthly file import.** SimpleFIN requires Actual's server component, and we're running **no server** (only static hosting / local). $1.50/mo also judged not worth it. So: enter transactions by hand as they happen, import the monthly statement file later. SimpleFIN is *deferred*, not impossible — revisit only if a server ever gets stood up (home box, container, or Actual's free hosted sync). Reversible.
 - **The "manual now, resolve on import later" behavior is native to Actual — don't rebuild it.** Per Actual's docs: a manually-entered transaction is **matched on later file import** by date + amount + similar payee, and *not* duplicated. Manual entries are **uncleared** (pending) until matched, then **cleared**. Reconciliation compares to statement balance; manual **merge** is the backstop. wnab's job is the *UX* of this (fast quick-add, clear pending/cleared states), not the matching engine.
 - **Account map (Wedge's three primary institutions):**
-  - **Apple Card** — *no aggregator support anywhere.* Manual **QFX** export from Wallet (imports cleaner than CSV), statement-by-statement. Always manual regardless of any sync decision.
-  - **Charles Schwab** — manual QFX/CSV for now (auto-sync would need a server).
-  - **USAA** — manual QFX/CSV for now.
+  - **Card** — *no aggregator support anywhere.* Manual **QFX** export from Wallet (imports cleaner than CSV), statement-by-statement. Always manual regardless of any sync decision.
+  - **Checking** — manual QFX/CSV for now (auto-sync would need a server).
+  - **Bank** — manual QFX/CSV for now.
 - **Backup = periodic export.** No sync server means no off-machine copy; browser-local data isn't backed up by git either. Export the budget to a file on a regular cadence (store in `~/Documents/Finances/wnab/`).
 - **Anti-goal:** wnab must not become a substitute for budgeting. Building is the motivation; the success metric is usage, not lines of code.
 
@@ -101,7 +101,7 @@ No gates, no rigid tracks — a reversible guide, reorder freely. Time: this is 
 - First usable surface = the **beginner-core YNAB loop**: one account → assign every dollar → reconcile. Then transaction register → reports. Ship surface by surface; each usable as it lands.
 
 **Transactions.**
-- Manual quick-add + monthly QFX import (Apple Card via QFX), relying on Actual's native date+amount+payee matching and cleared/uncleared states. Seed categories/targets from existing data. SimpleFIN deferred (needs a server).
+- Manual quick-add + monthly QFX import (the card via QFX), relying on Actual's native date+amount+payee matching and cleared/uncleared states. Seed categories/targets from existing data. SimpleFIN deferred (needs a server).
 
 **Obsidian overview.**
 - Read-only finance card + drill-down in the Command Center reading wnab data; retire the old CSV-spend dashboard into it. Implements the adoption-risk mitigation (the daily glance).

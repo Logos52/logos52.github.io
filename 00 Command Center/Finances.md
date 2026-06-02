@@ -14,7 +14,7 @@ tags:
 <div class="cc-head">
 <p class="cc-eyebrow">Drill-down</p>
 <h1 class="cc-title">Finances</h1>
-<p class="cc-date">Apple Card · imported CSV</p>
+<p class="cc-date">Card · imported CSV</p>
 </div>
 
 [[Home|← back to Home]]

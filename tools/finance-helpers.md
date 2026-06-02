@@ -15,7 +15,7 @@ tags:
 Shared loaders for the finance views. Imported by both `00 Command Center/Home.md` (numberless finance card) and `00 Command Center/Finances.md` (rich drill-down) via `dc.require(dc.headerLink("tools/finance-helpers.md", "Helpers"))`. Single source of truth for the paths, the filename glob, and the parsers — change once, both views update.
 
 Two loaders live here:
-- `loadLatest()` — the legacy Apple Card CSV loader (float dollars). Still wired into both views.
+- `loadLatest()` — the legacy card CSV loader (float dollars). Still wired into both views.
 - `loadSnapshot()` — the wnab→Obsidian snapshot reader (integer cents). Reads the single JSON file wnab's Settings "Export wnab snapshot" button writes. The Finances/Home rewrites that switch to this are gated on a real snapshot existing, so this is added alongside the CSV loader, not as a replacement yet.
 
 ```datacorejsx
@@ -51,10 +51,10 @@ function loadLatest() {
   try { entries = fs.readdirSync(folder); }
   catch (e) { return { error: 'No finances folder found.' }; }
   const csvs = entries
-    .filter(f => f.toLowerCase().endsWith('.csv') && f.startsWith('Apple Card Transactions'))
+    .filter(f => f.toLowerCase().endsWith('.csv') && f.startsWith('Card Transactions'))
     .map(f => ({ name: f, mtime: fs.statSync(path.join(folder, f)).mtimeMs }))
     .sort((a, b) => b.mtime - a.mtime);
-  if (csvs.length === 0) return { error: 'No Apple Card CSV found.' };
+  if (csvs.length === 0) return { error: 'No card CSV found.' };
   const text = fs.readFileSync(path.join(folder, csvs[0].name), 'utf-8');
   const rows = parseCSV(text).filter(r => r.some(c => c && c.length));
   if (rows.length < 2) return { error: 'CSV appears empty.' };

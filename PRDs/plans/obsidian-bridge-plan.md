@@ -30,14 +30,14 @@ merges and keeps the data on-device.
 **Done**
 
 - The CSV-spend dashboard exists and renders. `00 Command Center/Finances.md` is a `datacorejsx`
-  view that loads the latest Apple Card CSV and draws spend-by-category, monthly, weekday, YTD,
+  view that loads the latest card CSV and draws spend-by-category, monthly, weekday, YTD,
   top-merchants, and a recent-transactions table. (Evidence: `00 Command Center/Finances.md`
   lines 22–216.)
 - The CSV loader is shared, single-source. `tools/finance-helpers.md` exports
-  `{ parseCSV, loadLatest }`; `loadLatest` scans `~/Documents/Finances/` for files starting
-  `Apple Card Transactions`, picks newest by mtime, parses, maps `_amount`/`_date`. (Evidence:
+  `{ parseCSV, loadLatest }`; `loadLatest` scans `~/Documents/Finances/` for the card's CSV export,
+  picks newest by mtime, parses, maps `_amount`/`_date`. (Evidence:
   `tools/finance-helpers.md` lines 41–66; `folder = path.join(os.homedir(), 'Documents',
-  'Finances')` at line 45; glob `f.startsWith('Apple Card Transactions')` at line 50.)
+  'Finances')` at line 45; the card-export filename glob at line 50.)
 - The dead localhost launcher block exists and is hardcoded. `Finances.md` line 108 renders
   `<a href="http://localhost:4179/">Open WNAB to budget →</a>` with a "double-click
   wnab.command (~/Documents/Finances/wnab/serve/)" hint at line 109. (Evidence: `00 Command
@@ -109,7 +109,7 @@ merges and keeps the data on-device.
   already lists "remove the dead `http://localhost:4179/` link + the wnab.command hint" from
   `Finances.md`. This PRD names the same cleanup. Do it once; don't double-edit. Whoever lands
   first removes it; the other treats it as done.
-- **The CSV loader is shared by two views.** Retiring `loadLatest` (or the `Apple Card` glob)
+- **The CSV loader is shared by two views.** Retiring `loadLatest` (or the card-export glob)
   touches both `Finances.md` AND the `Home.md` finance card via `tools/finance-helpers.md`. A new
   snapshot loader should live in the same helpers file (single source of truth) so both views
   migrate together.
@@ -225,7 +225,7 @@ merges and keeps the data on-device.
   value and reading them from `recentTransactions` (or a future `history` block) in the snapshot
   preserves them without the parallel feed. Concretely: (1) rewrite `Finances.md` to read the
   snapshot for budget state; (2) keep the spend charts but source them from snapshot transactions,
-  not CSV; (3) move the CSV loader out of the live path — either delete the `Apple Card` branch
+  not CSV; (3) move the CSV loader out of the live path — either delete the card-export branch
   from `tools/finance-helpers.md` or fence it behind an explicitly-archived note (e.g.
   `archive/Finances-CSV.md`) for historical reference. Do not keep CSV wired into Home/Finances.
 
@@ -244,7 +244,7 @@ merges and keeps the data on-device.
 | 9 | Re-source the spend-pattern charts (weekday/merchant/YTD) from snapshot `recentTransactions` instead of CSV, OR move them to an archived note; keep the single-source rule. | `00 Command Center/Finances.md` (+ optional `archive/Finances-CSV.md`) | M | Yes | No |
 | 10 | Repoint the `Home.md` finance card to the snapshot loader (it currently shares the CSV `loadLatest`). | `00 Command Center/Home.md` lines 109–161 | S | Yes | No |
 | 11 | Remove the dead `http://localhost:4179/` link + the wnab.command hint from `Finances.md` (coordinate with Electron-Launch §4 so it's removed once). | `00 Command Center/Finances.md` lines 107–110 | S | Yes | No |
-| 12 | Retire the CSV path: drop the `Apple Card` branch from `tools/finance-helpers.md` (or fence it behind the archived note) once both views read the snapshot. | `tools/finance-helpers.md` | S | Yes | No |
+| 12 | Retire the CSV path: drop the card-export branch from `tools/finance-helpers.md` (or fence it behind the archived note) once both views read the snapshot. | `tools/finance-helpers.md` | S | Yes | No |
 | 13 | Verify against a real budget: snapshot freshness on button + on-close, overview renders, stale-stamp behaves, no parallel CSV source remains. Confirm the schema is what the AI-layer plan will consume. | end-to-end: packaged app + vault render | M | Yes | **Yes** (run app, close app, open Obsidian) |
 
 ## Readiness verdict

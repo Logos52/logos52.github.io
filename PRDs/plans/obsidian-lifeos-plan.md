@@ -35,7 +35,7 @@ The finance half splits cleanly. The PRD's 2026-05-29 amendment rescoped finance
 ### In progress / partially done
 
 - **Direction is thin.** `direction.base` works, but only 3 `type: goal` notes exist (`mg-kolbs/Goals/{Agentic Engineering, Learning Systems, Vietnamese}.md`). The PRD names six Priority-0 skills (adds 中文, Fitness, Relationships). Evidence: `grep -rln 'type: goal'` returns exactly those three files. The view is real; the content is half-populated.
-- **Finance layer is on the *old* CSV path, not wnab.** Both Home and Finances read the Apple Card CSV via `finance-helpers`. `Finances.md` line 108 still hardcodes `http://localhost:4179/` and line 109 the dead `wnab.command` launcher. The amendment rescoped this to a wnab overview, but no snapshot exists yet — `~/Documents/Finances/wnab/` contains only `.env`, `README.md`, and `serve/`, no snapshot JSON. This is the Bridge's territory; flagged here as the seam.
+- **Finance layer is on the *old* CSV path, not wnab.** Both Home and Finances read the card CSV via `finance-helpers`. `Finances.md` line 108 still hardcodes `http://localhost:4179/` and line 109 the dead `wnab.command` launcher. The amendment rescoped this to a wnab overview, but no snapshot exists yet — `~/Documents/Finances/wnab/` contains only `.env`, `README.md`, and `serve/`, no snapshot JSON. This is the Bridge's territory; flagged here as the seam.
 
 ### Not started
 

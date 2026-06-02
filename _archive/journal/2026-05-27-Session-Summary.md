@@ -32,7 +32,7 @@ One long session that took the vault from "hand-maintained Home with stale link 
 - **`00 Command Center/Active Questions.md`** — the 3 curated questions on Home.
 - **`00 Command Center/Decisions.md`** — full Decisions log view (private).
 - **`00 Command Center/Tasks.md`** — task seed; Datacore picks up open `- [ ]` items from Command Center.
-- **`00 Command Center/Finances.md`** — drill-down: summary card, spend by category, monthly bar chart with opacity gradient, weekday pattern, YTD cumulative line, top merchants. Reads Apple Card CSV from `~/Documents/Finances/` via `tools/finance-helpers.md` (shared via `dc.require`).
+- **`00 Command Center/Finances.md`** — drill-down: summary card, spend by category, monthly bar chart with opacity gradient, weekday pattern, YTD cumulative line, top merchants. Reads the card's CSV export from `~/Documents/Finances/` via `tools/finance-helpers.md` (shared via `dc.require`).
 - **`outputs/generated-questions.md`** — new destination for AI-appended uncertainty (per updated `AGENTS.md` step 7).
 - **`tools/wiki-cleanup-ritual.md`** — AI-agnostic cleanup skill.
 - **`tools/publish-snapshots.md`** — AI-agnostic skill that produces public showcase tables with dummy data.
@@ -51,7 +51,7 @@ One long session that took the vault from "hand-maintained Home with stale link 
 
 - **Public on `logos52.github.io`:** `wiki/`, `blog/`, `public-snapshots/` (dummy data only), `index.md`, `about.md`, the standard Quartz output.
 - **Excluded from publish:** `00 Command Center/`, `decisions/`, `mg-kolbs/`, `PRDs/`, `raw/`, `outputs/`, `templates/`, `tools/`, `private/`, `finances/`, plus everything gitignored.
-- **External / never in repo:** Apple Card CSV at `~/Documents/Finances/` (gitignored backstop; raw data outside the repo).
+- **External / never in repo:** the card's CSV export at `~/Documents/Finances/` (gitignored backstop; raw data outside the repo).
 
 ## Outstanding (when you pick this back up)
 
