@@ -68,6 +68,13 @@ const notesOverviewGraph = {
   nodeRank: "content-heavy",
   nodeLimit: 180,
   mobileNodeLimit: 80,
+  // Cluster by category into distinct lobes instead of one central blob.
+  enableRadial: false,
+  clusterForce: 0.5,
+  centerForce: 0.04,
+  repelForce: 0.82,
+  linkDistance: 48,
+  scale: 0.85,
 }
 
 const wikiPageLocalGraph = {
@@ -128,7 +135,13 @@ const isCleanPage = (slug?: string) =>
   slug === "index" ||
   slug === "about" ||
   slug === "projects" ||
-  Boolean(slug?.startsWith("projects/"))
+  Boolean(slug?.startsWith("projects/")) ||
+  slug === "blog" ||
+  Boolean(slug?.startsWith("blog/")) ||
+  slug === "tags" ||
+  Boolean(slug?.startsWith("tags/")) ||
+  slug === "notes" ||
+  Boolean(slug?.startsWith("notes/"))
 
 const isJournalPage = (slug?: string) => slug === "journal" || Boolean(slug?.startsWith("journal/"))
 
@@ -148,6 +161,10 @@ export const sharedPageComponents: SharedLayout = {
       component: Component.ProjectsGallery(),
       condition: ({ fileData }) => fileData.slug === "projects/index",
     }),
+    Component.ConditionalRender({
+      component: Component.JournalSpread(),
+      condition: ({ fileData }) => fileData.slug === "journal/index",
+    }),
   ],
   footer: Component.Footer({
     links: {
@@ -163,7 +180,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ConditionalRender({
       component: Component.ArticleTitle(),
-      condition: ({ fileData }) => fileData.slug !== "index",
+      condition: ({ fileData }) =>
+        fileData.slug !== "index" && fileData.slug !== "journal/index",
     }),
     Component.ContentMeta(),
     Component.TagList(),
@@ -178,10 +196,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.ConditionalRender({
-      component: Component.DesktopOnly(Component.JournalNav()),
-      condition: ({ fileData }) => isJournalPage(fileData.slug),
-    }),
-    Component.ConditionalRender({
       component: Component.PageTitle(),
       condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
     }),
@@ -195,10 +209,6 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   right: [
-    Component.ConditionalRender({
-      component: Component.DesktopOnly(Component.JournalContext()),
-      condition: ({ fileData }) => isJournalPage(fileData.slug),
-    }),
     Component.ConditionalRender({
       component: WikiLocalGraph,
       condition: ({ fileData }) => Boolean(fileData.slug?.startsWith("wiki/")),
@@ -222,17 +232,16 @@ export const defaultContentPageLayout: PageLayout = {
 // components for pages that display lists of pages (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
-    Component.ArticleTitle(),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: ({ fileData }) => fileData.slug !== "journal/index",
+    }),
     Component.ConditionalRender({
       component: NotesGraph,
       condition: ({ fileData }) => fileData.slug === "notes/index",
     }),
   ],
   left: [
-    Component.ConditionalRender({
-      component: Component.DesktopOnly(Component.JournalNav()),
-      condition: ({ fileData }) => isJournalPage(fileData.slug),
-    }),
     Component.ConditionalRender({
       component: Component.PageTitle(),
       condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
@@ -247,10 +256,6 @@ export const defaultListPageLayout: PageLayout = {
     }),
   ],
   right: [
-    Component.ConditionalRender({
-      component: Component.DesktopOnly(Component.JournalContext()),
-      condition: ({ fileData }) => isJournalPage(fileData.slug),
-    }),
     Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
       condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),

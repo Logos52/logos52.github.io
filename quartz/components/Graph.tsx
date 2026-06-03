@@ -21,6 +21,7 @@ export interface D3Config {
   enableRadial?: boolean
   filterPrefixes?: string[]
   excludeSlugs?: string[]
+  includeSlugs?: string[]
   colorRules?: { prefix: string; color: string }[]
   nodeBaseRadius?: number
   nodeLinkRadius?: number

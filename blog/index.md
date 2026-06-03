@@ -2,6 +2,7 @@
 title: "Blog"
 description: "Essays and longer posts."
 type: blog-index
+hideFolderListing: true
 created: 2026-05-07
 updated: 2026-06-02
 tags:

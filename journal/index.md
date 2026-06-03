@@ -1,25 +1,24 @@
 ---
 title: "Journal"
-description: "Current questions, active threads, and public thinking log."
+description: "Current questions, active threads, and a high-level overview of what's moving through the knowledge base."
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-06-02
+updated: 2026-06-03
 tags:
   - system
 ---
 
 # Journal
 
-Open questions and short notes on what's moving through the knowledge base. Finished pieces graduate to the [[blog/index|Blog]].
+A high-level overview of what's moving through the knowledge base — current work, open threads, the log, and where the thinking lives.
 
-## Active threads
+## What's top of mind
 
-- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]] — entering a work block and training the return after drift.
-- [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media & Curvilinear Design]] — how feeds are engineered to erase your stopping points.
-- [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] — keeping the first brain active while the second brain gets stronger.
-- [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] — BHS + SIR as the minimum; agents and the knowledge base as adjacent bets.
-- Frames for each Priority 0 skill: Agentic Engineering, Learning Systems, Vietnamese, 中文, Fitness, Relationships.
+- **[[projects/wnac|WNAC]]** — how best do we incorporate AI with budgeting + investment? what are good teachable mindsets we can learn about investing and budgeting?
+- **[[projects/cos|COS]]** — stuck in a "Do I really need it?" feedback loop. the question is an unequivocal "yes" but the pieces are not coming together, and still trying to work out an intuitive solution
+- **[[projects/llm-knowledge-base|LLM-Knowledge-Base]]** — Coordinating with WNAC, we intend to expand into budgeting + investment nodes
+- **Next Projects** — these will probably be related to enabler skills, like health, fitness, diet etc. Also considering projects and expansions related to language learning, but these require some serious forethought
 
 ## Recent entries
 
@@ -29,9 +28,9 @@ Open questions and short notes on what's moving through the knowledge base. Fini
 
 More in the [[journal/calendar|Journal Calendar]].
 
-## Possible posts and paths
+## Review prompts
 
-- **How This Was Built** — a dated account of building this site from Karpathy's LLM knowledge-base idea, Obsidian, Quartz, and several AI coding agents.
-- [[blog/on-red-teams-closure|On Red Team's Closure]] — drafted; the institutional version bloated, the lean two-week course was worth preserving.
-- [[journal/2026-05-23-Possible-Paths-Self-Updating-Wiki-and-LLM-Wiki-Integration|Self-updating wiki]] — compounding markdown-KB patterns running alongside the current pipeline. Exploratory.
-- [[journal/2026-05-23-Possible-Paths-Autonomous-OS-Dashboard-and-Builder-System|Autonomous OS & builder]] — a staged plan for an autonomous dashboard and builder. Exploratory, not committed.
+- What's the smallest version of cos worth using every day — and what's getting overbuilt while the pieces aren't coming together?
+- Where would AI genuinely change budgeting or investing, and where is it just being added because it can be?
+- Which budgeting or investing mindset is worth teaching next — and does it belong in WNAC or as a wiki node?
+- Which enabler skill (health, fitness, diet) is worth making a real project now, and which is still on the someday list?

@@ -121,6 +121,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     enableRadial,
     filterPrefixes,
     excludeSlugs,
+    includeSlugs,
     colorRules,
     nodeBaseRadius,
     nodeLinkRadius,
@@ -151,8 +152,13 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     ]).map((slug) => simplifySlug(slug as FullSlug)),
   )
 
+  const onlySlugs = new Set<SimpleSlug>(
+    (includeSlugs ?? []).map((slug) => simplifySlug(slug as FullSlug)),
+  )
+
   const allowedByPrefix = (slug: SimpleSlug) =>
     !hiddenSlugs.has(slug) &&
+    (onlySlugs.size === 0 || onlySlugs.has(slug)) &&
     (!filterPrefixes?.length || filterPrefixes.some((prefix) => slug.startsWith(prefix)))
 
   const data: Map<SimpleSlug, ContentDetails> = new Map(

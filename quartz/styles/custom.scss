@@ -293,13 +293,50 @@ body[data-slug^="projects/"] #quartz-body .page-header {
   }
 }
 
-body[data-slug^="journal/"] #quartz-body {
-  grid-template-columns: minmax(9rem, 0.7fr) minmax(0, 58rem) minmax(11rem, 0.8fr) !important;
-  column-gap: clamp(1.25rem, 3vw, 2.5rem);
+/* Journal pages: full-width, no sidebars (the index renders as the JournalSpread). */
+body[data-slug^="journal/"] #quartz-body > .left.sidebar,
+body[data-slug^="journal/"] #quartz-body > .right.sidebar {
+  display: none !important;
 }
 
-body[data-slug^="journal/"] .sidebar {
-  padding-top: 1.5rem;
+body[data-slug^="journal/"] #quartz-body {
+  grid-template-columns: minmax(0, 62rem) !important;
+  grid-template-areas:
+    "grid-header"
+    "grid-center"
+    "grid-footer" !important;
+  justify-content: center !important;
+  padding-left: clamp(2rem, 6vw, 7.5rem);
+  padding-right: clamp(2rem, 6vw, 7.5rem);
+}
+
+/* The journal index renders via the JournalSpread component (beforeBody);
+   hide the duplicate raw article that the content page would otherwise show. */
+body[data-slug="journal/index"] article {
+  display: none;
+}
+
+/* Blog + tag + Knowledge Base Index pages: full-width, no sidebars (match the other clean pages). */
+body[data-slug^="blog/"] #quartz-body > .left.sidebar,
+body[data-slug^="blog/"] #quartz-body > .right.sidebar,
+body[data-slug^="tags/"] #quartz-body > .left.sidebar,
+body[data-slug^="tags/"] #quartz-body > .right.sidebar,
+body[data-slug^="notes/"] #quartz-body > .left.sidebar,
+body[data-slug^="notes/"] #quartz-body > .right.sidebar {
+  display: none !important;
+}
+
+body[data-slug^="blog/"] #quartz-body,
+body[data-slug^="tags/"] #quartz-body,
+body[data-slug^="notes/"] #quartz-body {
+  grid-template-columns: minmax(0, 62rem) !important;
+  grid-template-areas:
+    "grid-header"
+    "grid-center"
+    "grid-footer" !important;
+  justify-content: center !important;
+  padding-left: clamp(2rem, 6vw, 7.5rem);
+  padding-right: clamp(2rem, 6vw, 7.5rem);
 }
 
 .journal-panel {
