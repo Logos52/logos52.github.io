@@ -16,7 +16,7 @@ A high-level overview of what's moving through the knowledge base — current wo
 ## What's top of mind
 
 - **[[projects/wnac|WNAC]]** — how best do we incorporate AI with budgeting + investment? what are good teachable mindsets we can learn about investing and budgeting?
-- **[[projects/cos|COS]]** — stuck in a "Do I really need it?" feedback loop. the question is an unequivocal "yes" but the pieces are not coming together, and still trying to work out an intuitive solution
+- **[[projects/cos|COS]]** — stuck in a "Do I really need it?" feedback loop. the question is an unequivocal "yes" but the pieces are not coming together, and still trying to work out an intuitive solution. the intuitive solution might be to work through each module individually starting with first principles
 - **[[projects/llm-knowledge-base|LLM-Knowledge-Base]]** — Coordinating with WNAC, we intend to expand into budgeting + investment nodes
 - **Next Projects** — these will probably be related to enabler skills, like health, fitness, diet etc. Also considering projects and expansions related to language learning, but these require some serious forethought
 
