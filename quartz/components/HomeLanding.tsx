@@ -11,9 +11,9 @@ type Topic = { name: string; tag: string; icon: string; color: string }
 type Group = { label: string; topics: Topic[] }
 
 const startPicks: Pick[] = [
-  { match: "ICS", blurb: "The backbone learning method everything else here hangs off." },
+  { match: "ICS", blurb: "The backbone learning method everything else hangs off." },
   { match: "Curvilinear", blurb: "How feeds are engineered to erase your stopping points." },
-  { match: "Minimalism as Systems", blurb: "Why objects keep costing you long after you buy them." },
+  { match: "Minimalism as Systems", blurb: "Objects keep costing you long after the purchase." },
 ]
 
 // Curated taxonomy. Each item links to its tag page; counts come from how many
@@ -139,13 +139,8 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
       <header class="home-hero">
         <h1 class="home-title">LLM knowledge base</h1>
         <p class="home-blurb">
-          My public <strong>second brain</strong> — notes on learning, clear thinking, and building
-          with AI agents, written as durable pages that get more useful over time. New here? Pick a
-          topic below, or read the{" "}
-          <a class="home-link" href={resolveRelative(here, "about" as SimpleSlug)}>
-            about page
-          </a>
-          .
+          A second brain for <strong>learning systems and agentic engineering</strong>. Sources in,
+          durable notes out — every pass leaves it a little more useful.
         </p>
       </header>
 
