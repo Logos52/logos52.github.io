@@ -24,7 +24,6 @@ Open questions and short notes on what's moving through the knowledge base. Fini
 ## Recent entries
 
 - [[journal/2026-06-02-front-facing-redesign|2026-06-02]] — redesigned the public front: new Projects section and a declutter pass.
-- [[journal/2026-05-29-wnab-direction-decided|2026-05-29]] — wnab direction decided (later superseded by WNAC).
 - [[journal/2026-05-28-Reflections-on-Wiki-Bloat-Life-OS-Red-Teaming-and-Agentic-Focus|2026-05-28]] — returned primary work to the knowledge base after the cos dashboard experiment proved clunky; wiki-bloat and rabbit-hole concerns.
 - [[journal/calendar#2026-05-21|2026-05-21]] — restructured the L4→L1 pipeline; promoted the Focus Management and Social Media pages.
 

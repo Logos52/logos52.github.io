@@ -19,7 +19,7 @@ const JournalContext: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
         <h3>Recent</h3>
         <ul>
           <li>
-            <a href={`${baseDir}/journal/2026-05-29-wnab-direction-decided`}>2026-05-29</a>
+            <a href={`${baseDir}/journal/2026-06-02-front-facing-redesign`}>2026-06-02</a>
           </li>
           <li>
             <a href={`${baseDir}/journal/2026-05-28-Reflections-on-Wiki-Bloat-Life-OS-Red-Teaming-and-Agentic-Focus`}>2026-05-28</a>
