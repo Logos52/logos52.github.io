@@ -22,6 +22,8 @@ A high-level overview of what's moving through the knowledge base — current wo
 
 ## Recent entries
 
+- [[journal/2026-06-04-tsumugu|2026-06-04]] — Tsumugu: built overnight (Phases 0–7) and turning it into a first real Traditional-Mandarin read.
+- [[journal/2026-06-03-ai-mandarin-reader|2026-06-03]] — idea logged: an AI reader for Traditional Mandarin (graded reader × LLM-wiki), for later.
 - [[journal/2026-06-02-front-facing-redesign|2026-06-02]] — redesigned the public front: new Projects section and a declutter pass.
 - [[journal/2026-05-28-Reflections-on-Wiki-Bloat-Life-OS-Red-Teaming-and-Agentic-Focus|2026-05-28]] — returned primary work to the knowledge base after the cos dashboard experiment proved clunky; wiki-bloat and rabbit-hole concerns.
 - [[journal/calendar#2026-05-21|2026-05-21]] — restructured the L4→L1 pipeline; promoted the Focus Management and Social Media pages.
