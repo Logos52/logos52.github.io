@@ -20,6 +20,7 @@ const graphLegend = [
   { label: "Books", color: "#00e5c3" },
   { label: "Concepts", color: "#9aa4ff" },
   { label: "Workflows", color: "#b8ff2c" },
+  { label: "Money", color: "#2fa36b" },
 ]
 
 const graphColorRules = [
@@ -35,6 +36,7 @@ const graphColorRules = [
   { prefix: "wiki/Books/", color: "#00e5c3" },
   { prefix: "wiki/Concepts/", color: "#9aa4ff" },
   { prefix: "wiki/Workflows/", color: "#b8ff2c" },
+  { prefix: "wiki/Money/", color: "#2fa36b" },
 ]
 
 const wikiGraphBase = {

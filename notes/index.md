@@ -4,7 +4,7 @@ description: "Full index for the public LLM-maintained knowledge base."
 type: index
 hideFolderListing: true
 created: 2026-05-02
-updated: 2026-05-23
+updated: 2026-06-05
 tags:
   - system
 ---
@@ -139,6 +139,13 @@ The complete catalog of every public page. New here? Use a map to orient, then b
 | [[wiki/Minimalism/Ownership Cost\|Ownership Cost]] | concept | Makes visible the space, money, time, attention, maintenance, memory, and exit costs of objects. |
 | [[wiki/Minimalism/Product Reduction\|Product Reduction]] | technique | Practical process for consolidating objects, reducing high-cost items, and deciding what remains. |
 | [[wiki/Minimalism/Exit Strategy For Objects\|Exit Strategy For Objects]] | concept | Rule for how an object will leave before it enters. |
+
+### Investing & budgeting
+
+| Page | Type | Summary |
+| --- | --- | --- |
+| [[wiki/Money/Investing and Budgeting Mindsets\|Investing & Budgeting Mindsets]] | hub | Map of money mindsets and first principles for budgeting and investing: a six-book reading list with takeaway bullets, the through-lines, and where the books disagree. |
+| [[wiki/Money/The Almanack of Naval Ravikant\|The Almanack of Naval Ravikant]] | book | Wealth as a learnable skill: specific knowledge, leverage through code and media, accountability, and long-term games. |
 
 ### Language learning
 
