@@ -67,6 +67,9 @@ public/
 
 # 01 - Workbench/ directory is public; files inside are private working drafts
 01 - Workbench/*
+
+# Local convenience symlink into tsumugu/personal/ — never publish (leaks path + can break the remote build)
+Tsumugu Clips
 !01 - Workbench/README.md
 
 # Finances stay LOCAL — never commit or publish transaction data (card/bank CSVs, etc.)

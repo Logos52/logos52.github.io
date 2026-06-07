@@ -4,7 +4,7 @@ description: "Current questions, active threads, and a high-level overview of wh
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - system
 ---
@@ -22,6 +22,7 @@ A high-level overview of what's moving through the knowledge base — current wo
 
 ## Recent entries
 
+- [[journal/2026-06-06-tsumugu-voice|2026-06-06]] — Tsumugu grows a voice: local Qwen3-TTS per-sentence audio replaces the Supergrok plan; engine locked by bake-off.
 - [[journal/2026-06-05-money-mindsets-and-tsumugu|2026-06-05]] — a money-mindsets reading list on the site, and Tsumugu's Migaku-style reading layer (ruby, sync, YouTube).
 - [[journal/2026-06-04-tsumugu|2026-06-04]] — Tsumugu: built overnight (Phases 0–7) and turning it into a first real Traditional-Mandarin read.
 - [[journal/2026-06-03-ai-mandarin-reader|2026-06-03]] — idea logged: an AI reader for Traditional Mandarin (graded reader × LLM-wiki), for later.

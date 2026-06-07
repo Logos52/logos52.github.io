@@ -9,7 +9,7 @@ stack:
 order: 2
 blurb: "Comprehensible-input generator meets graded reader, hooked into a persistent record of the vocabulary you've learned."
 created: 2026-06-03
-updated: 2026-06-04
+updated: 2026-06-06
 tags:
   - projects
 ---
@@ -27,3 +27,5 @@ Fully **client-side and offline** — the reader runs free in the browser; all L
 ## Status
 
 Built — Phases 0–7 (engine + offline reader + batch-generation CLI + wiki / bridge / cross-reference), audited at eight of twelve PRD criteria, the rest open-core by design. The wiki is live at <https://logos52.github.io/tsumugu-wiki/>. Built with Grok Build + Claude Code. Full record: [[journal/2026-06-04-tsumugu|the build log]].
+
+Phase 8 (voice) in progress as of 2026-06-06: per-sentence voice notes generated **locally, in batch, with open-source TTS** (Qwen3-TTS via mlx-audio — Apache-2.0, $0, offline after generation) for listen + read + shadowing, replacing the earlier subscription-UI plan. Engine chosen by listening bake-off: [[journal/2026-06-06-tsumugu-voice|the voice log]].
