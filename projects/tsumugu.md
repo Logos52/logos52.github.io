@@ -32,7 +32,8 @@ Phase 8 (voice) in progress as of 2026-06-06: per-sentence voice notes generated
 
 ## Links
 
-- **Live reader — try it in the browser:** <https://logos52.github.io/tsumugu/>
-- **Live wiki — the graded-reader content:** <https://logos52.github.io/tsumugu-wiki/>
+- **Live site — reader · wiki · source:** <https://logos52.github.io/tsumugu/>
+- **Open the reader directly:** <https://logos52.github.io/tsumugu/app/>
+- **The wiki — graded-reader content:** <https://logos52.github.io/tsumugu-wiki/>
 - **Engine — public, Apache-2.0:** <https://github.com/Logos52/tsumugu>
 - **Wiki source (Quartz):** <https://github.com/Logos52/tsumugu-wiki>
