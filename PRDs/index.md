@@ -2,7 +2,7 @@
 title: "PRDs — index"
 type: index
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-09
 tags:
   - PRD
   - index
@@ -33,3 +33,11 @@ design it once in the Bridge PRD. Upstream-Merge is independent and the soonest-
 | PRD | What | Status |
 |---|---|---|
 | [[PRDs/PRD-Obsidian-LifeOS-Command-Center]] | LifeOS command center | locked |
+
+## tsumugu — graded reader + LLM-wiki
+
+| PRD | What | Status |
+|---|---|---|
+| [[PRDs/PRD-Tsumugu]] | Engine + reader + generation + wiki/bridge — source of truth | active |
+| [[PRDs/PRD-Reading-Layer]] | Interactive reading layer — per-word highlight, hover defs, backlinks + YouTube deep-links | draft |
+| [[PRDs/PRD-Subtitle-Extension]] | asbplayer-style subtitle overlay (YouTube primary, Netflix deferred) — feasibility + PRD-stub | draft |
