@@ -1,6 +1,8 @@
 ---
 title: "On Red Team's Closure"
 description: "Commentary on Red Team's closure, institutional bloat, and preserving the stance in a leaner military."
+aliases:
+  - blog/on-red-teams-closure
 type: blog-post
 status: published
 created: 2026-05-09

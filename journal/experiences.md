@@ -1,6 +1,8 @@
 ---
 title: "Experiences"
 description: "Reflections and operating principles drawn from direct personal experience."
+aliases:
+  - blog/experiences
 type: page
 created: 2026-05-16
 updated: 2026-05-16

@@ -1,6 +1,9 @@
 ---
 title: "Journal"
 description: "Current questions, active threads, and a high-level overview of what's moving through the knowledge base."
+aliases:
+  - blog/index
+  - blog
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
@@ -11,7 +14,7 @@ tags:
 
 # Journal
 
-A high-level overview of what's moving through the knowledge base — current work, open threads, the log, and where the thinking lives.
+What's moving through the knowledge base right now: active projects, open questions, and the running log. Entries here are working notes — they graduate into the wiki once the thinking settles.
 
 ## What's top of mind
 
@@ -22,6 +25,7 @@ A high-level overview of what's moving through the knowledge base — current wo
 
 ## Recent entries
 
+- [[journal/2026-06-11-living-atlas-and-decision-writing|2026-06-11]] — Living Atlas redesign decided (Quartz reskin over Astro rebuild); High-Signal Decision Writing standard installed across all projects.
 - [[journal/2026-06-06-tsumugu-voice|2026-06-06]] — Tsumugu grows a voice: local Qwen3-TTS per-sentence audio replaces the Supergrok plan; engine locked by bake-off.
 - [[journal/2026-06-05-money-mindsets-and-tsumugu|2026-06-05]] — a money-mindsets reading list on the site, and Tsumugu's Migaku-style reading layer (ruby, sync, YouTube).
 - [[journal/2026-06-04-tsumugu|2026-06-04]] — Tsumugu: built overnight (Phases 0–7) and turning it into a first real Traditional-Mandarin read.
@@ -31,6 +35,13 @@ A high-level overview of what's moving through the knowledge base — current wo
 - [[journal/calendar#2026-05-21|2026-05-21]] — restructured the L4→L1 pipeline; promoted the Focus Management and Social Media pages.
 
 More in the [[journal/calendar|Journal Calendar]].
+
+## Essays
+
+Finished, stable pieces — the journal's open questions, settled enough to stand alone.
+
+- [[journal/on-red-teams-closure|On Red Team's Closure]] — what a leaner military should have kept from Red Team, and what was right to cut.
+- [[journal/experiences|Experiences]] — operating principles drawn from lived experience (Taiwan 2020, Red Team training).
 
 ## Review prompts
 

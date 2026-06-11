@@ -215,7 +215,7 @@ That is the version of Red Teaming I want in this knowledge base.
 
 This note is not the blog post.
 
-The blog post is [[blog/on-red-teams-closure|On Red Team's Closure]].
+The essay is [[journal/on-red-teams-closure|On Red Team's Closure]].
 
 The relationship is this:
 

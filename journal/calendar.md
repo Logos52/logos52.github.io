@@ -397,7 +397,7 @@ This was the transition from only compiling wiki pages into maintaining a separa
 
 ## 2026-05-09
 
-Added [[journal/red-team-pruning|Red Team Pruning Notes]] and drafted [[blog/on-red-teams-closure|On Red Team's Closure]].
+Added [[journal/red-team-pruning|Red Team Pruning Notes]] and drafted [[journal/on-red-teams-closure|On Red Team's Closure]].
 
 The working thesis:
 

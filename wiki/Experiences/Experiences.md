@@ -14,7 +14,7 @@ tags:
 
 This section collects reflections, observations, and operating principles extracted from direct personal experience rather than from books or abstract study.
 
-> **Note:** This content is surfaced publicly under the Blog as [[blog/experiences|Experiences]].
+> **Note:** This content is surfaced publicly in the Journal as [[journal/experiences|Experiences]].
 
 These are not travelogues. They are attempts to extract durable, usable principles from lived situations — cultural immersion, professional training, periods of stability or disruption, and real-world systems.
 

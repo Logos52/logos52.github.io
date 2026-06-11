@@ -234,7 +234,7 @@ How the writing system works and how to memorize it, compiled as one page per us
 | [[wiki/Concepts/Anti-Marketing\|Anti-Marketing]] | concept | Trust-building by exposing constraints and flaws early rather than through polished promotion. |
 | [[wiki/Concepts/Design of Everyday Things\|Design of Everyday Things]] | concept | Don Norman's framework for intuitive design (affordances, signifiers, mapping, feedback). |
 | [[wiki/Dimensions/Self-Regulation/Recovery\|Recovery]] | concept | Framework for genuine recovery through system-specific relaxation, psychological detachment, mastery, and control (Justin Sung). (Primary: Self-Regulation) |
-| [[blog/experiences\|Experiences]] | blog | Reflections and operating principles drawn from direct personal experience (Taiwan 2020 + Red Team Training). Located under Blog. |
+| [[journal/experiences\|Experiences]] | essay | Reflections and operating principles drawn from direct personal experience (Taiwan 2020 + Red Team Training). |
 | [[wiki/Concepts/Suicidal Empathy\|Suicidal Empathy]] | concept | Gad Saad's evolutionary framework for maladaptive empathy that is excessive, misactivated, or aimed at the wrong targets. |
 | [[wiki/Books/The Book of Elon\|The Book of Elon]] | book | Longform review and takeaways on purpose, first-principles engineering, company-building, and civilizational optimism. |
 | [[wiki/Glossary\|Glossary]] | glossary | Short definitions of recurring terms. |
