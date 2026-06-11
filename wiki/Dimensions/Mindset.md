@@ -1,7 +1,7 @@
 ---
 type: dimension
 status: developing
-description: "Dimension for interpreting difficulty, mistakes, effort, and feedback — the filter that decides whether they register as fuel or as evidence against you. Trainable: ICS observed mindset gains in ~60 days across 5,000+ learners."
+description: "Dimension for interpreting difficulty, mistakes, effort, and feedback — the filter that decides whether they register as fuel or as evidence against you. Trainable on a horizon of weeks, through engineered low-stakes mistakes, not affirmations."
 created: 2026-05-04
 updated: 2026-06-11
 source-count: 5
@@ -17,7 +17,7 @@ tags:
 
 > Part of the [[wiki/Dimensions/Dimensions of Learning|Five Dimensions of Learning]].
 
-Difficulty, mistakes, effort, and feedback carry no fixed meaning — an interpretive filter decides whether they register as fuel or as evidence against you. Mindset is that filter, and it is trainable: across more than 5,000 ICS learners, mindset showed the largest short-term improvement of any dimension, with measurable change in about 60 days — against the years the research literature usually assumes.
+Difficulty, mistakes, effort, and feedback carry no fixed meaning — an interpretive filter decides whether they register as fuel or as evidence against you. Mindset is that filter, and it is trainable on a horizon of weeks-to-months, not the years the research literature usually assumes — of the five dimensions, it responds fastest to deliberate training.
 
 The filter does not change external events. It changes which actions feel viable and which feel like threats to identity — and through that, everything downstream.
 
@@ -128,7 +128,7 @@ Every low-stakes attempt, honest reflection on a mistake, and visible marginal g
 
 Mindset work fails in a specific way: **verbal growth mindset** — adopting the vocabulary ("I love mistakes!") while the consequence structure stays unchanged. Reframes without changed stakes are affirmations, and affirmations don't train anything. The training is behavioral: smaller, faster, cheaper mistakes, actually run.
 
-The price: deliberate exposure to low-stakes failure, which is uncomfortable by design — the discomfort is the rep. The quit signal: if weeks of mindset language haven't changed which tasks you attempt, stop reframing and re-engineer consequences instead — shrink the stakes of the next attempt until you actually take it. The check: on the ICS data's 60-day horizon, setbacks should recover in hours rather than days, and at least one task you previously avoided should be in progress.
+The price: deliberate exposure to low-stakes failure, which is uncomfortable by design — the discomfort is the rep. The quit signal: if weeks of mindset language haven't changed which tasks you attempt, stop reframing and re-engineer consequences instead — shrink the stakes of the next attempt until you actually take it. The check, on a roughly two-month horizon: setbacks recover in hours rather than days, and at least one task you previously avoided is in progress.
 
 Mindset is the foundation that keeps the other four dimensions online: without it, even excellent Self-Regulation, Deep Processing, Retrieval, and Self-Management get abandoned the moment friction appears.
 

@@ -757,6 +757,8 @@ The first sentence is the page's operating claim — stricter than mechanism-fir
 
 Any claim that can carry a number, a named instance, or a worked example gets one. Adjectives are what a page uses when it hasn't done the work.
 
+The specifics must be **operative** — they change what the reader does. Cost ratios, time horizons, thresholds, and worked examples qualify. Program statistics, cohort sizes, and testimonial numbers are decoration: they argue that a source is credible instead of teaching the technique, and they belong nowhere on a technique page. ("One error costs ~4x" is signal; "across 5,000 learners" is provenance.)
+
 Weak:
 
 ```text
