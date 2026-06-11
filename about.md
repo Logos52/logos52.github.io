@@ -21,7 +21,8 @@ My focus is turning information into working systems: study workflows, decision-
 - **Learning systems** — encoding, retrieval, metacognition, and self-regulation.
 - **Agentic engineering** — building software with LLM agents while preserving taste, verification, and ownership.
 - **Attention and environment** — focus, social media, minimalism, recovery, and decision friction.
-- **Red Team thinking** — decision support, frame testing, assumptions, and institutional bloat.
+- **Money** — budgeting and investing mindsets from first principles, and where AI actually changes them.
+- **中文** — Traditional Mandarin: how characters work, comprehensible input, and a reader that grows with your vocabulary.
 - **Language learning** — immersion, attention, comprehension, and practical workflows.
 
 ## How it's built
