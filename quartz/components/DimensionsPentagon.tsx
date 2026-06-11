@@ -38,11 +38,14 @@ const PENTAGON_ITEMS: PentagonItem[] = [
 ]
 
 const PENTAGON_SATELLITES: PentagonSatellite[] = [
+  // Orbit ceiling: four. A fifth and this stops meaning "current focus".
   { label: "中文", color: "#ffb000", slug: "wiki/Language/Chinese/How-Chinese-Characters-Work", prefix: "wiki/Language/Chinese/", angle: -54 },
   { label: "Money", color: "#2fa36b", slug: "wiki/Money/Investing-and-Budgeting-Mindsets", prefix: "wiki/Money/", angle: 18 },
+  { label: "Decisions", color: "#ff8a3d", slug: "wiki/Decision-Making/Decision-Making", prefix: "wiki/Decision-Making/", angle: 162 },
+  { label: "Minimalism", color: "#9aa0a6", slug: "wiki/Minimalism/Minimalism-as-Systems-Design", prefix: "wiki/Minimalism/", angle: 234 },
 ]
 
-const PX = 170
+const PX = 200
 const PY = 120
 const PR = 82
 const SAT_DIST = 1.42 // satellite distance as a multiple of PR
@@ -114,7 +117,7 @@ export default ((opts?: Partial<Options>) => {
         <div class="atlas-hex-row">
           <div class="atlas-hex-card atlas-hex-figure">
             <svg
-              viewBox="0 0 340 232"
+              viewBox="0 0 400 232"
               role="img"
               aria-label="The five dimensions of learning as a regular five-sided figure; 中文 and Money drift alongside as satellites"
             >
