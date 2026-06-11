@@ -28,6 +28,16 @@ A front-pages review escalated into three linked decisions: a full redesign conc
 
 **Suicidal Empathy duplicate: keep both pages, disambiguate titles.** The Books page is a source synthesis, the Concepts page is the operating model — both legitimate under hub-and-detail discipline. The concept keeps the clean title (concepts are the wiki's primary currency); the book review is retitled to mark itself as the book and the two cross-link.
 
+## Post-build QA round (same day, evening)
+
+Composer shipped H0–H7; Claude took over design tuning directly with a live loop (edit → hot rebuild → browser screenshot via the Chrome extension). What it took to land the graph: three rounds. Round 1 exposed a silent defect — `SPINE_HUBS` used raw vault paths that never matched the slugified build, so no hub ever rendered as a landmark (a build-time warning now guards this). Round 2 established that **scarcity is the aesthetic**: hub-only link rendering, 3 satellites per hub, neutral-gray satellites with color reserved for landmarks. Round 3: short display labels, satellite labels hidden at rest, post-settle zoom-to-fit, wider y-band. The constellation mockup is codified as the reference standard for all graph surfaces.
+
+**Focus shift, recorded.** Red Team is out of the map hubs; **Money** and **Chinese characters** are in. Wedge's stated interest has moved away from Red Team and from cos-as-a-project; toward Money and Mandarin (Tsumugu). Open questions on the home page now track the live threads (Tsumugu reading loop, money mindsets, YouTube reader) instead of the stale cos question. The About "What I write about" list still leads with Red Team thinking — flagged for a content pass, not changed unilaterally.
+
+**QA fixes:** About page de-carded (legacy panel styles and a breadcrumb-restoring rule from the pre-Atlas era were overriding the new shell); "fixed operating contract" jargon replaced with plain language on the hero and About; legend chips compacted to one line (shorter domain labels in `domains.ts`); a layout collapse on content pages in the 800–1199px viewport band fixed (Quartz's default grid still reserved a column for the deleted explorer sidebar).
+
+**Pending:** `projects/tsumugu.png` — the card and page are wired for it; Wedge captures the YouTube-reader screenshot (tab left open in the right state) and drops the file in `projects/`. Trails visual redesign is on his mind but undefined; mock before building when it crystallizes.
+
 ## Ruled out
 
 - **Astro/full rebuild** — see flip condition above; revisit only if the platform vision materializes.

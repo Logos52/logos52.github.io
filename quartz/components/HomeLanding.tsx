@@ -44,8 +44,8 @@ const spineGraphCfg = {
     "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block":
       "Focus",
     "wiki/Minimalism/Minimalism-as-Systems-Design": "Minimalism",
-    "wiki/Red-Team/Red-Teaming": "Red Team",
-    "wiki/Language/Refold-Language-Learning-System": "Language",
+    "wiki/Money/Investing-and-Budgeting-Mindsets": "Money",
+    "wiki/Language/Chinese/How-Chinese-Characters-Work": "Chinese",
   },
   recentDays: 7,
   spineDomains: spineDomainsForGraph(),
@@ -103,7 +103,7 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
       <header class="atlas-hero">
         <h1>A second brain for learning systems &amp; agentic engineering</h1>
         <p class="atlas-hero-sub">
-          Maintained in the open — partly by LLM agents, under a fixed operating contract.
+          Maintained in the open, partly by LLM agents — the thinking stays mine.
         </p>
       </header>
 

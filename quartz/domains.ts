@@ -34,7 +34,7 @@ export const DOMAINS: Domain[] = [
   },
   {
     id: "agentic",
-    label: "Agentic & systems",
+    label: "Agentic",
     color: "#4f9dff",
     prefixes: ["Systems/", "Workflows/"],
   },
@@ -46,13 +46,13 @@ export const DOMAINS: Domain[] = [
   },
   {
     id: "focus",
-    label: "Focus & self-management",
+    label: "Focus",
     color: "#ff6fa3",
     prefixes: ["Self Management/"],
   },
   {
     id: "decisions",
-    label: "Decision making",
+    label: "Decisions",
     color: "#ff8a3d",
     prefixes: ["Decision Making/"],
   },
@@ -128,8 +128,8 @@ export const SPINE_HUBS = [
   "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering",
   "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block",
   "wiki/Minimalism/Minimalism-as-Systems-Design",
-  "wiki/Red-Team/Red-Teaming",
-  "wiki/Language/Refold-Language-Learning-System",
+  "wiki/Money/Investing-and-Budgeting-Mindsets",
+  "wiki/Language/Chinese/How-Chinese-Characters-Work",
 ] as const
 
 export function graphLegendFromDomains(): { label: string; color: string }[] {

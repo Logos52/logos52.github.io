@@ -9,9 +9,9 @@ hideFolderListing: true
 created: 2026-05-09
 updated: 2026-06-11
 openQuestions:
-  - "What's the smallest version of cos worth using every day?"
-  - "Where does AI actually change budgeting or investing — and where is it decoration?"
-  - "Which enabler skill — health, fitness, diet — becomes a real project next?"
+  - "What does Tsumugu's reading loop still need before it earns a daily Mandarin session?"
+  - "Which money mindset gets taught next — and does it land in WNAC or as a wiki node?"
+  - "What would make the YouTube reader better than subtitles plus dictionary lookup?"
 tags:
   - system
 ---
@@ -29,6 +29,7 @@ What's moving through the knowledge base right now: active projects, open questi
 
 ## Recent entries
 
+- [[journal/2026-06-11-tsumugu-dictionary-custody-and-display|2026-06-11]] — Tsumugu dictionary: style pass shipped corpus-wide, content gets a private repo (tsumugu-ed) + scaling PRD, display rules locked (FORM first, tap-to-reveal, shift-to-peek).
 - [[journal/2026-06-11-living-atlas-and-decision-writing|2026-06-11]] — Living Atlas redesign decided (Quartz reskin over Astro rebuild); High-Signal Decision Writing standard installed across all projects.
 - [[journal/2026-06-06-tsumugu-voice|2026-06-06]] — Tsumugu grows a voice: local Qwen3-TTS per-sentence audio replaces the Supergrok plan; engine locked by bake-off.
 - [[journal/2026-06-05-money-mindsets-and-tsumugu|2026-06-05]] — a money-mindsets reading list on the site, and Tsumugu's Migaku-style reading layer (ruby, sync, YouTube).
