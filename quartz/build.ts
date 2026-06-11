@@ -142,11 +142,25 @@ async function startWatching(
     lastBuildMs: 0,
   }
 
+  // Pass the ignore set to chokidar itself. Without this, the watcher opens an
+  // fd for every file in the vault (node_modules included) before the event
+  // handlers ever filter — guaranteed EMFILE when building from the vault root.
+  const watchRoot = toPosixPath(path.resolve(argv.directory))
   const watcher = chokidar.watch(".", {
     awaitWriteFinish: { stabilityThreshold: 250 },
     persistent: true,
     cwd: argv.directory,
     ignoreInitial: true,
+    ignored: (fp) => {
+      let pathStr = toPosixPath(fp.toString())
+      if (pathStr.startsWith(watchRoot)) {
+        pathStr = pathStr.slice(watchRoot.length).replace(/^\//, "")
+      }
+      if (pathStr === "" || pathStr === ".") return false
+      // Stop descent at the directories themselves, not just their contents
+      if (pathStr === "node_modules" || pathStr === ".git" || pathStr === "public") return true
+      return buildData.ignored(pathStr)
+    },
   })
 
   const changes: ChangeEvent[] = []
