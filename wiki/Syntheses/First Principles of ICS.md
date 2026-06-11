@@ -1,10 +1,11 @@
 ---
 type: synthesis
 status: developing
+description: "The study system's three working levels — processing quality, strategies, meta-strategies — with the routing table, the overwhelm-to-question move, and the three-mode progress metrics that prevent self-deception."
 created: 2026-05-11
-updated: 2026-05-12
+updated: 2026-06-11
 source-count: 1
-last-audited:
+last-audited: 2026-06-11
 tags:
   - learning-system
   - ics
@@ -269,11 +270,13 @@ A problem map asks:
 
 The act of making the variables explicit reduces overwhelm because the problem becomes visible. Once the problem is visible, execution becomes easier.
 
-## How To Use This Page
+## The Case Against the Levels
 
-Use this page when a technique feels too hard, too vague, or too mentally expensive.
+The three levels are one lens, not three mechanisms: meta-strategies are [[wiki/Dimensions/Self-Regulation|Self-Regulation]] applied to strategies, and the boundary between "weak processing" and "weak strategy" blurs in any real session. The model earns its overhead only at moments of friction — running the level-diagnosis on every session is [[wiki/Dimensions/Dimensions of Learning|diagnosis paralysis]] wearing a routing table. The quit signal: if naming the level hasn't changed your next move within a minute, skip the diagnosis and take the smallest useful next step; return to the table when the same failure repeats.
 
-Ask:
+## The Seven-Question Reset
+
+Run this when a technique feels too hard, too vague, or too mentally expensive:
 
 1. What outcome am I trying to produce?
 2. What thinking would produce that outcome?
