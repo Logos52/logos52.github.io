@@ -7,7 +7,11 @@ aliases:
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-06-06
+updated: 2026-06-11
+openQuestions:
+  - "What's the smallest version of cos worth using every day?"
+  - "Where does AI actually change budgeting or investing — and where is it decoration?"
+  - "Which enabler skill — health, fitness, diet — becomes a real project next?"
 tags:
   - system
 ---

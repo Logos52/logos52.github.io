@@ -69,6 +69,9 @@ const config: QuartzConfig = {
 
       // OS noise
       "**/.DS_Store",
+
+      // Guard against tools writing absolute paths as relative (stray ./Users/... trees)
+      "Users/**",
     ],
     defaultDateType: "modified",
     theme: {

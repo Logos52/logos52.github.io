@@ -63,6 +63,7 @@ __pycache__/
 # Quartz build output and caches
 public/
 .quartz-cache/
+quartz/components/ledgerData.json
 .aider*
 
 # 01 - Workbench/ directory is public; files inside are private working drafts

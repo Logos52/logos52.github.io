@@ -1713,37 +1713,88 @@ body[data-slug="index"] .page-header > header .search {
   margin-left: 0.35rem;
 }
 
-.atlas-ledger {
+.atlas-strip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
   border-top: 1px solid var(--lightgray);
   border-bottom: 1px solid var(--lightgray);
-  padding: 0.55rem 0;
+  padding: 1rem 0;
 }
 
-.atlas-ledger-line {
-  font-family: var(--codeFont);
-  font-size: 11px;
-  line-height: 1.9;
-  margin: 0;
+.atlas-open-questions h2,
+.atlas-retrieval h2 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 0.75rem;
+  color: var(--dark);
+}
+
+.atlas-question-list {
+  list-style: none;
+  margin: 0 0 0.65rem;
+  padding: 0;
   display: flex;
-  gap: 0.65rem;
+  flex-direction: column;
+  gap: 0.45rem;
 }
 
-.atlas-ledger-label {
-  flex: 0 0 auto;
-  min-width: 4.5rem;
+.atlas-question {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--darkgray);
+  margin: 0;
 }
 
-.atlas-ledger-last .atlas-ledger-label {
+.atlas-journal-link {
+  font-family: var(--codeFont);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.atlas-journal-link:hover {
   color: var(--secondary);
 }
 
-.atlas-ledger-last .atlas-ledger-text {
-  color: var(--text-secondary);
+.atlas-retrieval-slot {
+  min-height: 1.25rem;
 }
 
-.atlas-ledger-prev .atlas-ledger-label,
-.atlas-ledger-prev .atlas-ledger-text {
+.atlas-retrieval-link {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--dark);
+  text-decoration: none;
+  padding-left: 0.65rem;
+  border-left: 3px solid var(--secondary);
+  margin-bottom: 0.35rem;
+}
+
+.atlas-retrieval-link:hover {
+  color: var(--secondary);
+}
+
+.atlas-retrieval-hint {
+  font-family: var(--codeFont);
+  font-size: 10px;
+  letter-spacing: 0.04em;
   color: var(--gray);
+  margin: 0;
+  line-height: 1.45;
+}
+
+.atlas-strip--solo {
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 800px) {
+  .atlas-strip {
+    grid-template-columns: 1fr;
+  }
 }
 
 .atlas-trails h2 {
