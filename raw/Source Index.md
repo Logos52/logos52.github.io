@@ -1,7 +1,7 @@
 ---
 type: source-index
 created: 2026-05-02
-updated: 2026-05-16
+updated: 2026-06-11
 ---
 
 # Source Index
@@ -53,6 +53,17 @@ This index lets `raw/` and `Clippings/` remain dump directories while still givi
 | [[raw/sources/why ali abdaal's youtube channel is dying (my pov)|Why Ali Abdaal's YouTube Channel is Dying]] | X thread clipping | output synthesized | YouTube strategy, title psychology, thumbnail mechanics, audience model, expectation misalignment, novelty ladder | [[outputs/briefs/GPT - Why Ali Abdaal's YouTube Channel Is Dying|GPT - Why Ali Abdaal's YouTube Channel Is Dying]], [[outputs/briefs/Grok - Why Ali Abdaal's YouTube Channel is Dying|Grok - Why Ali Abdaal's YouTube Channel is Dying]] |
 | [[raw/sources/MG and Kolbs/1. Notion template overview|MG and Kolbs template tour set]] | YouTube transcript set | output synthesized | Notion template, action zone, progress zone, learning zone, Kolbs, marginal gains | [[outputs/briefs/GPT - MG and Kolbs Template|GPT - MG and Kolbs Template]], [[outputs/briefs/Grok - MG and Kolbs Template|Grok - MG and Kolbs Template]] |
 | Live Clinic 61: Opening the Black Box of Learning | ICS Live Clinic transcript | output synthesized | black box of learning, transitions, diagnostic process, process-level questions, self-regulation during change | [[outputs/briefs/Grok - Live Clinic 61 Opening the Black Box of Learning|Grok - Live Clinic 61]] |
+
+## Private Course Sources
+
+Paid course material. Sources stay local (gitignored or outside the repo); only own-words distilled wiki pages are publishable. The condensed reference docs are never published.
+
+| Source | Type | Status | Main Topics | Compile Targets |
+| --- | --- | --- | --- | --- |
+| Outlier Linguistics, *Chinese Character Masterclass* (11 lesson PDFs + glossary) | course PDFs (local: `~/Projects/tsumugu/personal/references/outlier/pdfs/`) | compiled 2026-06-11 | character structure, functional components, sound series, meaning trees, memory rules, IME method, pipelining | [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] (hub + 10 detail pages), [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] |
+| OUTLIER-CONDENSED.md | private condensed notes (`raw/private/outlier/`, gitignored) | reference only — never publish | faithful per-lesson course summary; fidelity discrepancies vs PDFs logged 2026-06-11 | cross-check input for the pages above |
+| iCanStudy course-text capture (236 files, 19 modules) | course transcripts (`raw/private/ICS/course-text/`, gitignored) | largely compiled 2026-05-29; delta audit in progress 2026-06-11 | encoding, retrieval, BHS, revision, exams, self-management, decision-making | [[wiki/ICS Program Map|ICS Program Map]] (stage-by-stage coverage map) |
+| ICS-CONDENSED.md | private condensed notes (`raw/private/ICS/`, gitignored) | reference only — never publish | 19-module distillation of the course | reference layer over the ICS pages |
 
 ## Notes
 

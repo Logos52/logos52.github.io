@@ -4,7 +4,7 @@ description: "Full index for the public LLM-maintained knowledge base."
 type: index
 hideFolderListing: true
 created: 2026-05-02
-updated: 2026-06-05
+updated: 2026-06-11
 tags:
   - system
 ---
@@ -108,6 +108,28 @@ The complete catalog of every public page. New here? Use a map to orient, then b
 | [[wiki/Dimensions/Deep Processing/Importance-Based Chunking\|Importance-Based Chunking]] | concept | Grouping information by why it matters and how it should be used. (Primary: Deep Processing) |
 | [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge\|Knowledge Mastery: From Recognition to Usable Knowledge]] | concept | Practical levels for diagnosing whether knowledge is isolated, relational, evaluative, or transferable. (Primary: Deep Processing) |
 | [[wiki/Learning Craft/AI-Assisted Learning Workflow\|AI-Assisted Learning Workflow]] | workflow | Five-step workflow for using AI to accelerate research, priming, format conversion, feedback, and implementation without outsourcing schema formation. |
+| [[wiki/Learning Craft/Rules of Effective Memorization\|Rules of Effective Memorization]] | synthesis | Seven domain-general memory rules — meaning builds encoding, attention gates it, repetition consolidates it — with Chinese characters as the worked example. |
+| [[wiki/Dimensions/Mindset/Locus of Control\|Locus of Control]] | concept | Spend attention only on controllable process; outcomes are uncontrollable symptoms, and stopping a harmful habit beats adding a new technique. |
+| [[wiki/Dimensions/Mindset/The Learning Zone and the Reversion Response\|The Learning Zone and the Reversion Response]] | concept | Felt uncertainty as the practice gauge: none means comfort-zone drift; the reversion response retreats to offloading; Practice Blocks make mistake-finding the goal. |
+| [[wiki/Syntheses/The 30-Day Plan\|The 30-Day Plan]] | synthesis | The reusable end-to-end protocol for any complicated, overwhelming, important goal: set a 6-12 month medium-term goal, derive attribute-based performance goals |
+| [[wiki/Concepts/Declarative, Procedural, and Conditional Knowledge\|Declarative, Procedural, and Conditional Knowledge]] | model | The what/how/when knowledge triad: only declarative is teachable, experience builds the rest, and most bottlenecks are declarative approach choice. |
+| [[wiki/Concepts/Four Stages of Competence\|Four Stages of Competence]] | model | UI→CI→CC→UC skill progression; each stage rewards a different marginal gain, with conscious competence a wide 2-of-10 to 9-of-10 band. |
+| [[wiki/Dimensions/Mindset/Confidence Calibration\|Confidence Calibration]] | concept | Two-question Mt Stupid test plus conditions check for overconfident beliefs; the Wise Mind lets reason govern while the confident feeling persists. |
+| [[wiki/Dimensions/Mindset/Compounding vs Additive Gains\|Compounding vs Additive Gains]] | concept | The removal test for improvement spends: gains compound only when they change your state — skills pass, tutoring and extra hours rent results. |
+| [[wiki/Concepts/Learning Styles Myth and Multimodal Learning\|Learning Styles Myth and Multimodal Learning]] | concept | Fixed learning styles fail empirically; preferences exist, attention sets the ceiling, and deliberately stacking underused modes beats any single channel. |
+| [[wiki/Self Management/Building a Schedule That Survives\|Building a Schedule That Survives]] | system | Single owner for schedule construction and defense, merging four survey units: the priority-first nightly/weekly blocking system with its three failure modes (n |
+| [[wiki/Dimensions/Deep Processing/Hipshot\|Hipshot]] | technique | Faster Bear Hunter System variation: Aim runs mentally on layer-one keywords only, fused with Shoot into a question-answer-map loop; Skin unchanged. |
+| [[wiki/Dimensions/Deep Processing/Problem-First Learning\|Problem-First Learning]] | technique | Establish the problem and conceptual map before equations; flips practice transfer from 1:1 toward 10:1; authoring maximally hard questions exposes conceptual gaps. |
+| [[wiki/Learning Craft/Theme-First Text Analysis\|Theme-First Text Analysis]] | technique | Cause-to-effect reading frame: find themes, ground them in the author's motive, then attach techniques — collapsing essay practice from ~100 to ~6. |
+| [[wiki/Dimensions/Retrieval/Interleaving - Multiple Angles and Session Design\|Interleaving - Multiple Angles and Session Design]] | technique | Multi-angle definition of interleaving (Rubik's-cube model), similarity window, method menu, and the volume/order/type funnel from wide high-order to targeted mixed sessions. |
+| [[wiki/Dimensions/Retrieval/Opportunistic Retrieval\|Opportunistic Retrieval]] | workflow | Daily work that uses your knowledge counts as retrieval — retro-label each rep, patch missed orders, and schedule study around upcoming work. |
+| [[wiki/Dimensions/Retrieval/Reconstruction - Retrieval Beyond Recall\|Reconstruction - Retrieval Beyond Recall]] | concept | Retrieval level above recall: form and judge new relationships among known nodes — curveball immunity, rapid gap-seeking, 90/10 to 50/50 blends with recall. |
+| [[wiki/Dimensions/Retrieval/Reverse Explanation\|Reverse Explanation]] | technique | Explain a concept through importance and lay-term relationships first, attaching the label last so it lands connected; term-then-definition is the failure signature. |
+| [[wiki/Language/Aim-Shoot-Skin for Language Learning\|Aim-Shoot-Skin for Language Learning]] | system | Single owner merging the three ICS language lessons into one BHS-for-languages page: Aim = comprehensible input framed as deliberate aiming (target the just-not |
+| [[wiki/Learning Craft/Microlearning System\|Microlearning System]] | system | Five-stage Prime-Map-Explore-Dive-Consolidate cycle for learning in 5-30 minute bursts, plus a scheduled consolidated retrieval mission to repair fragmented encoding. |
+| [[wiki/Learning Craft/Clinical Learning System\|Clinical Learning System]] | system | Patient-dictated study loop for clinicians: map each encounter into branching webs, study one branch at a time, let recurrence deliver interleaved review. |
+| [[wiki/Decision Making/Expectancy in Wicked Environments\|Expectancy in Wicked Environments]] | model | Makes expected value usable outside games: real life is a wicked environment (unclear win/loss conditions, too many variables) where exact calculation is imposs |
+| [[wiki/Dimensions/Mindset/Perfectionism and Overthinking\|Perfectionism and Overthinking]] | concept | Perfectionism as fear of failure, the identity flip that redirects it, and the emotion-problem-action chain that breaks overthinking loops. |
 
 ### Decision making
 
@@ -119,6 +141,7 @@ The complete catalog of every public page. New here? Use a map to orient, then b
 | [[wiki/Decision Making/Good Decisions\|Good Decisions]] | concept | Decision quality judged by process first, with outcomes treated as feedback rather than the sole verdict. |
 | [[wiki/Decision Making/Positional Decisions and Expected Value\|Positional Decisions and Expected Value]] | concept | Makes uncertain decisions by improving future position, leverage, information, or expected value. |
 | [[wiki/Decision Making/Changing Decisions\|Changing Decisions]] | concept | Revises decisions when new information changes the process, position, or expected value. |
+| [[wiki/Decision Making/The Uncertainty-Opportunity Tradeoff\|The Uncertainty-Opportunity Tradeoff]] | model | Uncertainty and opportunity fall together over time; actively verify the opportunity and characterize the risks to decide early, before the too-late zone. |
 
 ### Self-management
 
@@ -129,6 +152,12 @@ The complete catalog of every public page. New here? Use a map to orient, then b
 | [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block\|Focus Management: Training the Return Mechanism]] | system | Practical system for entering focus, reducing distraction forces, and training the return mechanism inside study and work blocks. |
 | [[wiki/Self Management/Attention Management - Preserving Flow\|Attention Management: Preserving Flow]] | system | Advanced day-level system for preserving flow across tasks by reducing transition friction and decisional delays. |
 | [[wiki/Self Management/Procrastination - a System Problem\|Procrastination: a System Problem]] | concept | Treats avoidance as a system problem involving triggers, task friction, environment, and willpower dependence. |
+| [[wiki/Dimensions/Self-Management/Performance Goals\|Performance Goals]] | technique | Process checkpoints that flag off-track early: derive attributes from a hypothetical certain achiever, rate yourself, improve two or three via worst-case-safe 30/14-day targets. |
+| [[wiki/Concepts/Accuracy Before Speed\|Accuracy Before Speed]] | concept | One error costs ~4x doing it right; you already run near max quality speed, so gain speed by changing the process, never by rushing. |
+| [[wiki/Self Management/Priority 0+1 System\|Priority 0+1 System]] | system | Pick one to three daily priorities via a modified Eisenhower sort, protect priority one absolutely, and realign values and vision every six months. |
+| [[wiki/Self Management/Task Management\|Task Management]] | system | Collect every task into one inbox, prioritize daily via Priority 0+1 and Eisenhower, allocate by frogs, two-minute jobs, and bottleneck gates. |
+| [[wiki/Self Management/OFF-Rest Timing\|OFF-Rest Timing]] | technique | Work-rest cycling: break the moment focus dulls, rest one-third of elapsed work time, gate break type by freshness — 5-6 focused hours daily. |
+| [[wiki/Self Management/Hyper-Focus and Hyper-Distractibility\|Hyper-Focus and Hyper-Distractibility]] | technique | Constraint protocol for technique training under hyper-focus/hyper-distractibility: peak-window practice, visible intentions on analog timers, one technique, two daily fixes, hard-stopped reflection. |
 
 ### Minimalism
 
@@ -168,12 +197,31 @@ The complete catalog of every public page. New here? Use a map to orient, then b
 | [[wiki/Language/Vietnamese Grammar Primer\|Vietnamese Grammar Primer]] | primer | Original draft grammar primer for Vietnamese, structured after the Refold primer workflow. |
 | [[wiki/Language/Language Isn't Math\|Language Isn't Math]] | concept | Language-learning mindset: natural speech is acquired from patterns and examples, not deduced from grammar formulas. |
 
+### Chinese characters
+
+How the writing system works and how to memorize it, compiled as one page per usable piece. Start at the hub.
+
+| Page | Type | Summary |
+| --- | --- | --- |
+| [[wiki/Language/Chinese/How Chinese Characters Work\|How Chinese Characters Work]] | hub | Cluster hub: the character system in miniature, a four-stage reading order, and a one-line map of all eleven pages. |
+| [[wiki/Language/Chinese/Three Attributes of a Character\|Three Attributes of a Character]] | concept | Form, meaning, sound as one bound memory item; train each link separately; classify which attribute every component contributes per character. |
+| [[wiki/Language/Chinese/Surface vs Deep Structure\|Surface vs Deep Structure]] | concept | Decompose characters only to functional components; radicals are dictionary filing addresses; component roles and radical status are assigned per character, per standard. |
+| [[wiki/Language/Chinese/Form Components\|Form Components]] | concept | Components that serve by depicting; ancient forms turn abstract glyphs into picturable scenes; folk-parse corrections, allograph unification, same-shape families. |
+| [[wiki/Language/Chinese/Meaning Components\|Meaning Components]] | concept | Meaning components carry abstract extensions of a concrete original; semantic series map their range, and the cross-character consistency test filters mnemonics from folk decompositions. |
+| [[wiki/Language/Chinese/Sound Components\|Sound Components]] | concept | Sound components predict syllable ranges, never exact readings or tones; rebus borrowing explains the apparent mismatches and doubles as the mnemonic. |
+| [[wiki/Language/Chinese/Sound Series\|Sound Series]] | concept | Phonetic families behind sound components: seven related-initial groups, three cross-group interactions, the fence principle, tone-blind matching versus tone-strict speech. |
+| [[wiki/Language/Chinese/Empty Components\|Empty Components]] | concept | Non-functional character parts from distinguishing marks and corruption; each gets a causal one-liner, and mnemonics render them as glass. |
+| [[wiki/Language/Chinese/Meaning Trees and Original Meanings\|Meaning Trees and Original Meanings]] | concept | Original meanings root each character's meaning tree; loan senses get circled, guessable senses pruned, rare senses deferred, and each reading grows its own tree. |
+| [[wiki/Language/Chinese/The IME Method\|The IME Method]] | technique | Recall a forgotten character by cross-matching candidate sound and meaning components until recognition fires; reverse it for reading; ration lookups with circle thresholds. |
+| [[wiki/Language/Chinese/The Pipelining Strategy\|The Pipelining Strategy]] | technique | Staggered three-day intake: drill a spoken word both directions, then attach the character form; overlapping daily cohorts of 3-5 inside a 20-item budget, atop SIR. |
+
 ### Red Teaming
 
 | Page | Type | Summary |
 | --- | --- | --- |
 | [[wiki/Red Team/Red Teaming\|Red Teaming]] | hub | Dedicated Red Teaming hub connecting Army decision-support principles to the user's identity and learning system. |
 | [[wiki/Red Team/Applied Critical Thinking - Testing Frames\|Applied Critical Thinking: Testing Frames]] | concept | Fast practical filter for testing media narratives, AI outputs, frames, assumptions, evidence, alternatives, and Red Team decision quality. |
+| [[wiki/Red Team/The Twitter Test\|The Twitter Test]] | technique | Read persuasive text as if every word cost characters; sort value words, map techniques to themes, drill the manipulation-detection reflex to automaticity. |
 
 ### Reference
 

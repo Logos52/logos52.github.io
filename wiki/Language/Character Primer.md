@@ -38,7 +38,7 @@ Characters become easier to recognize when they stop looking like arbitrary shap
 Useful component types:
 
 - Semantic components: often hint at meaning.
-- Phonetic components: often hint at pronunciation.
+- Sound components: often hint at pronunciation.
 - Visual parts: smaller shapes that make the character easier to encode.
 
 The goal is not to memorize every radical. The goal is to build enough pattern recognition that characters become less opaque during immersion.
@@ -62,6 +62,7 @@ Migaku can support this workflow by helping convert Simplified Chinese to Tradit
 
 ## Related Pages
 
+- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]
 - [[wiki/Language/Refold Grammar Primers|Refold Grammar Primers]]
 - [[wiki/Language/Immersion Metalayers|Immersion Metalayers]]
 - [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]]

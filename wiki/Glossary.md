@@ -2,7 +2,7 @@
 type: reference
 status: seed
 created: 2026-05-02
-updated: 2026-05-04
+updated: 2026-06-11
 tags:
   - reference
 ---
@@ -88,3 +88,51 @@ A metadata-rich markdown file describing a source, its claims, relevance, and co
 ## Working Memory
 
 The limited mental workbench used to hold and manipulate information during thinking, encoding, and retrieval.
+
+## Functional Component
+
+A Chinese character part classified by the job it does in one specific character: form, meaning, sound, or empty. The same shape can hold different jobs in different characters.
+
+## Form Component
+
+A character component that contributes by depicting something; the picture, not a sound or sense, does the work.
+
+## Meaning Component
+
+A character component that contributes an abstract extension of its concrete original sense to the host character.
+
+## Sound Component
+
+A character component that points at the host's pronunciation as a syllable range — rarely the exact reading, almost never the tone.
+
+## Empty Component
+
+A character component doing no sound or meaning work in a given character; usually a distinguishing mark or the residue of historical corruption.
+
+## Sound Series
+
+The family of characters sharing one sound component, related through seven groups of initials that share a place of articulation.
+
+## Semantic Series
+
+The set of characters sharing one meaning component, used to map that component's range of senses across siblings.
+
+## Meaning Tree
+
+A character-entry structure that roots every sense in the original meaning, marks loan senses as off-tree, and gives each reading its own tree.
+
+## Original Meaning
+
+The sense a character's form was created to write; the root that makes later senses derivable instead of memorized.
+
+## Fence Principle
+
+An authoritative statement that two readings are related lets the brain accept and absorb sound connections it would otherwise silently reject.
+
+## Rebus Principle
+
+Borrowing an existing character to write an unrelated word that sounds the same; explains many apparent component mismatches, and the borrowing story doubles as the mnemonic.
+
+## Pipelining (Character Intake)
+
+Staggering a character's spoken word and written form across overlapping three-day cohorts so forms attach to already-overlearned words.
