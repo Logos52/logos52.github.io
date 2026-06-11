@@ -30,6 +30,12 @@ export interface D3Config {
   nodeRank?: "degree" | "content" | "content-heavy"
   nodeLimit?: number
   mobileNodeLimit?: number
+  spineLayout?: boolean
+  hubSlugs?: string[]
+  recentDays?: number
+  spineDomains?: { id: string; color: string; prefixes: string[] }[]
+  pinnedSlugs?: string[]
+  clusterForce?: number
 }
 
 interface GraphOptions {

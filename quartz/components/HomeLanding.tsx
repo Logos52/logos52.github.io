@@ -5,7 +5,16 @@ import { classNames } from "../util/lang"
 // @ts-ignore
 import graphScript from "./scripts/graph.inline"
 import graphStyle from "./styles/graph.scss"
-import { graphColorRulesFromDomains } from "../domains"
+import { DOMAINS, graphColorRulesFromDomains, spineDomainsForGraph } from "../domains"
+
+const SPINE_HUBS = [
+  "wiki/Syntheses/First Principles of ICS",
+  "wiki/Systems/AI & Agentic Systems/Agentic Engineering",
+  "wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block",
+  "wiki/Minimalism/Minimalism as Systems Design",
+  "wiki/Red Team/Red Teaming",
+  "wiki/Language/Refold Language Learning System",
+]
 
 type Pick = { match: string; blurb: string }
 type Topic = { name: string; tag: string; icon: string; color: string }
@@ -73,9 +82,13 @@ const graphCfg = {
   nodeLinkRadius: 1.18,
   nodeMaxRadius: 9.5,
   nodeRank: "degree",
-  nodeLimit: 26,
+  nodeLimit: 30,
   mobileNodeLimit: 16,
   colorRules: graphColorRulesFromDomains(),
+  spineLayout: true,
+  hubSlugs: SPINE_HUBS,
+  recentDays: 7,
+  spineDomains: spineDomainsForGraph(),
 }
 
 const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
@@ -167,6 +180,19 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
                 })}
               ></div>
             </div>
+          </div>
+          <div class="atlas-legend">
+            {DOMAINS.map((d) => (
+              <button
+                type="button"
+                class="atlas-legend-chip"
+                data-domain-id={d.id}
+                style={`border-color: ${d.color}; color: ${d.color}`}
+              >
+                {d.label}
+              </button>
+            ))}
+            <span class="atlas-legend-hint">click a domain to filter · ring = updated this week</span>
           </div>
         </aside>
       </div>

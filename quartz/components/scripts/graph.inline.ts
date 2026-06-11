@@ -52,6 +52,7 @@ type LinkRenderData = GraphicsInfo & {
 type NodeRenderData = GraphicsInfo & {
   simulationData: NodeData
   label: Text
+  pulseRing?: Graphics
   baseAlpha: number
 }
 
@@ -72,6 +73,31 @@ type TweenNode = {
 }
 
 const FALLBACK_NODE_COLOR = "#6f6875"
+
+type SpineDomain = { id: string; color: string; prefixes: string[] }
+
+function mixColor(hex: string, towardWhite: number): string {
+  const h = hex.replace("#", "")
+  const r = parseInt(h.slice(0, 2), 16)
+  const g = parseInt(h.slice(2, 4), 16)
+  const b = parseInt(h.slice(4, 6), 16)
+  const mix = (c: number) => Math.round(c + (255 - c) * towardWhite)
+  return `rgb(${mix(r)}, ${mix(g)}, ${mix(b)})`
+}
+
+function domainForNode(id: string, spineDomains: SpineDomain[]): SpineDomain | undefined {
+  for (const domain of spineDomains) {
+    for (const prefix of domain.prefixes) {
+      if (id.startsWith(prefix)) return domain
+    }
+  }
+  return undefined
+}
+
+function domainTargetX(domainIndex: number, count: number, width: number): number {
+  const t = count <= 1 ? 0.5 : 0.08 + (domainIndex / (count - 1)) * 0.84
+  return t * width - width / 2
+}
 
 function resolveGraphColor(color: string | undefined) {
   if (color === "black-white") {
@@ -121,10 +147,22 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     mobileNodeLimit,
     pinnedSlugs,
     clusterForce,
-  } = JSON.parse(graph.dataset["cfg"]!) as D3Config & {
-    pinnedSlugs?: string[]
-    clusterForce?: number
-  }
+    spineLayout,
+    hubSlugs,
+    recentDays,
+    spineDomains,
+  } = JSON.parse(graph.dataset["cfg"]!) as D3Config
+
+  const simplifiedHubSlugs = new Set(
+    (hubSlugs ?? []).map((s) => simplifySlug(s as FullSlug)),
+  )
+  const spineDomainList = spineDomains ?? []
+  const recentWindowMs = (recentDays ?? 7) * 24 * 60 * 60 * 1000
+  const recentCutoff = Date.now() - recentWindowMs
+  const effectivePinned = [
+    ...(pinnedSlugs ?? []),
+    ...(spineLayout ? (hubSlugs ?? []) : []),
+  ]
 
   const hiddenSlugs = new Set<SimpleSlug>(
     (excludeSlugs ?? [
@@ -249,7 +287,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     )
 
     // Always keep explicitly pinned nodes (e.g. Start-here + recent notes).
-    for (const p of pinnedSlugs ?? []) {
+    for (const p of effectivePinned) {
       const ps = simplifySlug(p as FullSlug)
       if (neighbourhood.has(ps)) keptNodes.add(ps)
     }
@@ -282,16 +320,39 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   // we virtualize the simulation and use pixi to actually render it
   const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
-    .force("charge", forceManyBody().strength(-100 * repelForce))
-    .force("center", forceCenter().strength(centerForce))
-    .force("link", forceLink(graphData.links).distance(linkDistance))
-    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
-    // Settle faster and with more friction so the layout doesn't "show off"
-    // by speeding up then drifting. (defaults: alphaDecay 0.0228, velocity 0.4)
     .alphaDecay(0.05)
     .velocityDecay(0.55)
 
-  if (enableRadial) {
+  if (spineLayout && spineDomainList.length > 0) {
+    const domainIndex = new Map<string, number>()
+    spineDomainList.forEach((d, i) => domainIndex.set(d.id, i))
+
+    simulation
+      .force("charge", forceManyBody().strength(-160))
+      .force("center", forceCenter().strength(0.02))
+      .force("link", forceLink(graphData.links).distance(55))
+      .force(
+        "collide",
+        forceCollide<NodeData>((n) => nodeRadius(n) + 12).iterations(3),
+      )
+      .force(
+        "x",
+        forceX<NodeData>((d) => {
+          const domain = domainForNode(d.id, spineDomainList)
+          const idx = domain ? (domainIndex.get(domain.id) ?? spineDomainList.length - 1) : 0
+          return domainTargetX(idx, spineDomainList.length, width)
+        }).strength(0.18),
+      )
+      .force("y", forceY(0).strength(0.08))
+  } else {
+    simulation
+      .force("charge", forceManyBody().strength(-100 * repelForce))
+      .force("center", forceCenter().strength(centerForce))
+      .force("link", forceLink(graphData.links).distance(linkDistance))
+      .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
+  }
+
+  if (!spineLayout && enableRadial) {
     const aspectRatio = width / height
     if (flattenWideGraphs !== false && aspectRatio > 1.4) {
       // Wide canvas: swap circular radial for an elliptical pull so nodes
@@ -310,7 +371,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   // Cluster nodes by category (colorRules prefix) into lobes, so the graph reads
   // as a structure instead of a blob. Each category gets an anchor on a ring.
-  if (clusterForce && clusterForce > 0) {
+  if (!spineLayout && clusterForce && clusterForce > 0) {
     const ruleList = colorRules ?? []
     const numCats = ruleList.length + 1
     const clusterRadius = Math.min(width, height) * 0.42
@@ -334,6 +395,20 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   )
   simulation.tick(settleTicks)
 
+  if (spineLayout && spineDomainList.length > 0) {
+    const domainIndex = new Map<string, number>()
+    spineDomainList.forEach((d, i) => domainIndex.set(d.id, i))
+    for (const n of graphData.nodes) {
+      if (simplifiedHubSlugs.has(n.id)) {
+        const domain = domainForNode(n.id, spineDomainList)
+        const idx = domain ? (domainIndex.get(domain.id) ?? 0) : 0
+        n.fx = domainTargetX(idx, spineDomainList.length, width)
+        n.fy = 0
+      }
+    }
+    simulation.tick(Math.ceil(settleTicks / 4))
+  }
+
   // precompute style prop strings as pixi doesn't support css variables
   const cssVars = [
     "--secondary",
@@ -344,6 +419,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     "--dark",
     "--darkgray",
     "--bodyFont",
+    "--codeFont",
   ] as const
   const computedStyleMap = cssVars.reduce(
     (acc, key) => {
@@ -376,7 +452,15 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const base = nodeBaseRadius ?? 2
     const linkScale = nodeLinkRadius ?? 1
     const max = nodeMaxRadius ?? 8
-    return Math.min(max, base + Math.sqrt(numLinks) * linkScale)
+    const radius = Math.min(max, base + Math.sqrt(numLinks) * linkScale)
+    return simplifiedHubSlugs.has(d.id) ? radius * 1.8 : radius
+  }
+
+  function isRecentlyUpdated(id: SimpleSlug): boolean {
+    const raw = data.get(id)?.date
+    if (!raw) return false
+    const ts = new Date(raw).getTime()
+    return !Number.isNaN(ts) && ts >= recentCutoff
   }
 
   // Fewer connections => more transparent, so well-linked hubs stand out and
@@ -390,6 +474,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   let hoveredNodeId: string | null = null
   let hoveredNeighbours: Set<string> = new Set()
+  let activeDomainFilter: string | null = null
+  let currentZoom = 1 / scale
   const linkRenderData: LinkRenderData[] = []
   const nodeRenderData: NodeRenderData[] = []
   function updateHoverInfo(newHoveredId: string | null) {
@@ -436,6 +522,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       // with full alpha and the rest with default alpha
       if (hoveredNodeId) {
         alpha = l.active ? 1 : 0.2
+      } else if (spineLayout && activeDomainFilter) {
+        const sourceDomain = domainForNode(l.simulationData.source.id, spineDomainList)
+        const targetDomain = domainForNode(l.simulationData.target.id, spineDomainList)
+        const inFilter =
+          sourceDomain?.id === activeDomainFilter || targetDomain?.id === activeDomainFilter
+        alpha = inFilter ? 1 : 0.12
       }
 
       l.color = l.active ? computedStyleMap["--gray"] : computedStyleMap["--lightgray"]
@@ -492,20 +584,30 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     })
   }
 
+  function filteredAlpha(n: NodeRenderData, base: number) {
+    if (!spineLayout || !activeDomainFilter) return base
+    const domain = domainForNode(n.simulationData.id, spineDomainList)
+    if (domain?.id === activeDomainFilter) return base
+    return 0.12 * base
+  }
+
   function renderNodes() {
     tweens.get("hover")?.stop()
 
     const tweenGroup = new TweenGroup()
     for (const n of nodeRenderData) {
       // Resting opacity reflects connection count (set per node above).
-      let alpha = n.baseAlpha
+      let alpha = filteredAlpha(n, n.baseAlpha)
 
       // if we are hovering over a node, we want to highlight the immediate neighbours
       if (hoveredNodeId !== null && focusOnHover) {
-        alpha = n.active ? 1 : 0.2 * n.baseAlpha
+        alpha = n.active ? 1 : 0.2 * filteredAlpha(n, n.baseAlpha)
       }
 
       tweenGroup.add(new Tweened<Graphics>(n.gfx, tweenGroup).to({ alpha }, 200))
+      if (n.pulseRing) {
+        n.pulseRing.alpha = alpha
+      }
     }
 
     tweenGroup.getAll().forEach((tw) => tw.start())
@@ -550,17 +652,25 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   for (const n of graphData.nodes) {
     const nodeId = n.id
+    const isHub = simplifiedHubSlugs.has(nodeId)
+    const nodeDomain = spineLayout ? domainForNode(nodeId, spineDomainList) : undefined
 
     const label = new Text({
       interactive: false,
       eventMode: "none",
       text: n.text,
-      alpha: 0,
+      alpha: isHub && spineLayout ? 1 : 0,
       anchor: { x: 0.5, y: 1.2 },
       style: {
-        fontSize: fontSize * 15,
-        fill: computedStyleMap["--dark"],
-        fontFamily: computedStyleMap["--bodyFont"],
+        fontSize: isHub && spineLayout ? 10 : fontSize * 15,
+        fill:
+          isHub && nodeDomain
+            ? mixColor(nodeDomain.color, 0.7)
+            : computedStyleMap["--dark"],
+        fontFamily:
+          isHub && spineLayout
+            ? computedStyleMap["--codeFont"]
+            : computedStyleMap["--bodyFont"],
       },
       resolution: window.devicePixelRatio * 4,
     })
@@ -601,10 +711,24 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     nodesContainer.addChild(gfx)
     labelsContainer.addChild(label)
 
+    let pulseRing: Graphics | undefined
+    if (spineLayout && isRecentlyUpdated(nodeId)) {
+      pulseRing = new Graphics({ interactive: false, eventMode: "none" })
+      pulseRing
+        .circle(0, 0, nodeRadius(n) + 5)
+        .stroke({
+          width: 1,
+          color: computedStyleMap["--secondary"],
+          alpha: 0.5,
+        })
+      nodesContainer.addChild(pulseRing)
+    }
+
     const nodeRenderDatum: NodeRenderData = {
       simulationData: n,
       gfx,
       label,
+      pulseRing,
       color: color(n),
       alpha: 1,
       baseAlpha: nodeOpacity(n),
@@ -686,17 +810,25 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         .scaleExtent([0.25, 4])
         .on("zoom", ({ transform }) => {
           currentTransform = transform
+          currentZoom = transform.k
           stage.scale.set(transform.k, transform.k)
           stage.position.set(transform.x, transform.y)
 
           // zoom adjusts opacity of labels too
-          const scale = transform.k * opacityScale
-          let scaleOpacity = Math.max((scale - 1) / 3.75, 0)
+          const zoomScale = transform.k * opacityScale
+          let scaleOpacity = Math.max((zoomScale - 1) / 3.75, 0)
+          if (spineLayout && currentZoom > 1.4) {
+            scaleOpacity = 1
+          }
           const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
 
-          for (const label of labelsContainer.children) {
-            if (!activeNodes.includes(label)) {
-              label.alpha = scaleOpacity
+          for (const n of nodeRenderData) {
+            const isHub = simplifiedHubSlugs.has(n.simulationData.id)
+            if (activeNodes.includes(n.label)) continue
+            if (isHub && spineLayout) {
+              n.label.alpha = 1
+            } else {
+              n.label.alpha = scaleOpacity
             }
           }
         }),
@@ -709,9 +841,14 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     for (const n of nodeRenderData) {
       const { x, y } = n.simulationData
       if (!x || !y) continue
-      n.gfx.position.set(x + width / 2, y + height / 2)
+      const px = x + width / 2
+      const py = y + height / 2
+      n.gfx.position.set(px, py)
       if (n.label) {
-        n.label.position.set(x + width / 2, y + height / 2)
+        n.label.position.set(px, py)
+      }
+      if (n.pulseRing) {
+        n.pulseRing.position.set(px, py)
       }
     }
 
@@ -730,6 +867,29 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   requestAnimationFrame(animate)
+
+  if (spineLayout) {
+    const host = graph.closest(".home-graph-embed, .graph")?.parentElement ?? graph.parentElement
+    const chips = host?.querySelectorAll<HTMLElement>("[data-domain-id]") ?? []
+    const chipCleanups: (() => void)[] = []
+    chips.forEach((chip) => {
+      const onClick = () => {
+        const id = chip.getAttribute("data-domain-id")
+        activeDomainFilter = activeDomainFilter === id ? null : id
+        chips.forEach((c) => c.classList.toggle("active", c.getAttribute("data-domain-id") === activeDomainFilter))
+        renderPixiFromD3()
+      }
+      chip.addEventListener("click", onClick)
+      chipCleanups.push(() => chip.removeEventListener("click", onClick))
+    })
+
+    return () => {
+      stopAnimation = true
+      chipCleanups.forEach((fn) => fn())
+      app.destroy()
+    }
+  }
+
   return () => {
     stopAnimation = true
     app.destroy()

@@ -126,6 +126,21 @@ export function graphLegendFromDomains(): { label: string; color: string }[] {
   return DOMAINS.map(({ label, color }) => ({ label, color }))
 }
 
+export function spineDomainsForGraph(): {
+  id: string
+  color: string
+  prefixes: string[]
+}[] {
+  return SPINE_DOMAIN_ORDER.map((id) => {
+    const domain = DOMAINS.find((d) => d.id === id)!
+    return {
+      id: domain.id,
+      color: domain.color,
+      prefixes: domain.prefixes.map((p) => `wiki/${slugifyPrefix(p)}`),
+    }
+  })
+}
+
 export function graphColorRulesFromDomains(): { prefix: string; color: string }[] {
   const rules: { prefix: string; color: string }[] = []
   for (const domain of DOMAINS) {
