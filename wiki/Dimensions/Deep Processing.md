@@ -69,7 +69,7 @@ This cycle — construction, assimilation, and reorganization — is what allows
 
 - **[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]** (including Aim, Shoot, and Skin) — The user’s primary and most fundamental encoding system. It systematically drives high-quality deep processing through targeted questioning, active mapping, and schema restructuring. Schema Construction, Assimilation, and Reorganization is one of the underlying principles behind how the system works.
 - **[[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]** — Externalization tool for building and testing relational structure during encoding.
-- **[[wiki/Dimensions/Deep Processing/Syntopical Reading|Syntopical Reading]]** — A structured method for processing multiple dense sources at a high level.
+- **[[wiki/Dimensions/Deep Processing/Syntopical Reading - Learning from Multiple Dense Resources|Syntopical Reading]]** — A structured method for processing multiple dense sources at a high level.
 - **[[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]]** — Externalization technique that significantly improves encoding depth and quality.
 - **[[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]** — Preparation layer that sets up effective deep processing.
 - **[[wiki/Dimensions/Deep Processing/Schema|Schema]]** and **[[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization|Schema Construction, Assimilation, and Reorganization]]** — Core mechanisms of how deep processing works in the brain.
