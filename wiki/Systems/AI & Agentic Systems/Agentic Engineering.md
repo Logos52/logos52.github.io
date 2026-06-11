@@ -1,10 +1,11 @@
 ---
 type: hub
 status: developing
+description: "Best-practices hub for building with agents while protecting the engineering bar — quality, specs, verification, architecture, and human responsibility. Vibe coding raises the floor; this raises the ceiling. Doctrine layer: Agentic Engineering, Condensed."
 created: 2026-05-02
-updated: 2026-05-11
+updated: 2026-06-11
 source-count: 9
-last-audited: 2026-05-07
+last-audited: 2026-06-11
 tags:
   - llm
   - agents
@@ -194,10 +195,8 @@ When working on complex, long-term knowledge work, using multiple models in a de
 
 ## Sources
 
-- [[Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]
-- [[How I use LLMs|How I use LLMs]]
-- [[raw/sources/A Motorcycle for the Mind|A Motorcycle for the Mind]]
-- [[raw/sources/A Return to Code|A Return to Code]]
+- Andrej Karpathy — "From Vibe Coding to Agentic Engineering" and "How I use LLMs" (talks; distilled across this cluster).
+- Naval-adjacent clippings distilled into [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] and [[wiki/Concepts/A Return to Code|A Return to Code]].
 - Anthropic, "[Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)".
 - OpenAI, "[Agents SDK](https://developers.openai.com/api/docs/guides/agents)".
 - HumanLayer, "[12 Factor Agents](https://www.humanlayer.dev/blog/12-factor-agents)".
