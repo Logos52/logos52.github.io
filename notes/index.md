@@ -18,6 +18,8 @@ The complete catalog of every public page. The fastest ways in are the Map and t
 - [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]] — the entire learning corpus as doctrine: one rule per line, each linking to its owner page.
 - [[wiki/Language/Chinese/Chinese Characters, Condensed|Chinese Characters, Condensed]] — the character cluster as doctrine, contract through drills.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]] — the agentic corpus split by half-life: invariants vs dated tactics.
+- [[wiki/Money/Money, Condensed|Money, Condensed]] — behaviour over intelligence, the gap as the lever, enough as the win condition.
+- [[wiki/Minimalism/Minimalism, Condensed|Minimalism, Condensed]] — bandwidth as the bottleneck, exits before entries, the room as part of the system.
 - [[wiki/Syntheses/First Principles of ICS|Learning Systems]] — encoding, retrieval, self-regulation, and the structure under the study system.
 - [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Attention & Self-Management]] — focus, flow, procrastination, recovery, and usable work blocks.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — building with agents while preserving judgment, taste, and ownership.
