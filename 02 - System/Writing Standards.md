@@ -655,7 +655,7 @@ Headings for body sections should still follow the specificity rule — name the
 
 ## High-Signal Decision Writing
 
-The standards above govern wiki concept pages. This section governs the other genre: documents that argue for a decision — PRDs, proposals, decision notes, journal entries that weigh options, project post-mortems, and memos. It applies across all projects (llm-knowledge-base, cos, tsumugu, wnac, and future repos), not just this vault. Added 2026-06-11 after the Living Atlas A/B engine decision; the examples below come from that discussion.
+This section governs documents that argue for a decision — PRDs, proposals, decision notes, journal entries that weigh options, project post-mortems, and memos. It applies across all projects (llm-knowledge-base, cos, tsumugu, wnac, and future repos), not just this vault. Added 2026-06-11 after the Living Atlas A/B engine decision; the examples below come from that discussion.
 
 ### Verdict First
 
@@ -740,6 +740,80 @@ Zero new broken internal links versus the baseline build; first visit in a clean
 ### Delete List
 
 Cut these on revision; each is a hedge or an intensifier doing no work: "honestly," "genuinely," "quite," "very," "really," "it's worth noting," "importantly," "arguably," "probably" (unless probability is the actual content — then give the number or the condition instead), "I think" in documents (the document is what you think).
+
+## High-Signal Wiki Pages
+
+Added 2026-06-11, superseding the sections above as the bar for wiki pages: the earlier enforcement rules all still apply, and the decision-writing disciplines below translate into the concept-page genre on top of them. Wedge's directive: ironclad, not advisory.
+
+Not every page needs all eight. Small concept notes need Thesis First, Specifics, and Boundaries. Technique, system, and workflow pages need all eight — they recommend actions, so they owe the reader the full honesty kit. Hub and model pages need Thesis, Case Against, and Checkable Use.
+
+### Thesis First
+
+The first sentence is the page's operating claim — stricter than mechanism-first: not just "open with a mechanism," but "open with *the* claim the page exists to make."
+
+### Specifics Over Adjectives
+
+Any claim that can carry a number, a named instance, or a worked example gets one. Adjectives are what a page uses when it hasn't done the work.
+
+Weak:
+
+```text
+Errors are costly, so accuracy should come first.
+```
+
+Strong:
+
+```text
+One error costs roughly 4x the time of doing the step right — you already work near your maximum quality speed, so speed gains come from changing the process, never from rushing.
+```
+
+### The Case Against
+
+Every model and technique page names the strongest honest case against itself: where it fails, who shouldn't use it, what it costs to believe. A page that cannot argue against itself is advertising.
+
+```text
+The model's seams are real: metacognition straddles two dimensions, and the Self-Management/Self-Regulation boundary takes deliberate effort to hold. The taxonomy earns its keep as a diagnostic, not as a claim about how the brain is organized.
+```
+
+### Price the Method
+
+Benefit and cost in the same breath. Time, setup, cognitive load, maintenance — whatever the method actually charges.
+
+```text
+WPW produces multi-level integration; it costs a full explanation cycle — twenty minutes or more per topic — which is why it belongs on high-value material, not vocabulary lists.
+```
+
+### Boundaries After Definition
+
+Distinguish the concept from its neighbours only after the positive definition has landed. (This is the Not X, But Y rule extended: contrast is a supporting move, never the lead.)
+
+### Quit Signals
+
+State what evidence means the method isn't working for this reader, and the next move. A technique without a quit signal traps people in sunk-cost practice.
+
+```text
+If two weeks of dimension-diagnosis hasn't changed what you do in the next session, stop diagnosing and study; return to the model when you hit a plateau you can't name.
+```
+
+### Checkable Expectations
+
+Promised effects must be falsifiable by the reader: "you should notice X within N sessions," never "this improves learning."
+
+Weak:
+
+```text
+Spaced retrieval dramatically improves retention.
+```
+
+Strong:
+
+```text
+Spacing should show up as easier re-entry within two sessions: the second retrieval of an item feels harder to start but finishes faster.
+```
+
+### Delete List
+
+The decision-writing delete list applies verbatim: "honestly," "genuinely," "quite," "very," "really," "it's worth noting," "importantly," "arguably," and importance-announcing in all forms.
 
 ## Related
 
