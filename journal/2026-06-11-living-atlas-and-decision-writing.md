@@ -38,6 +38,18 @@ Composer shipped H0–H7; Claude took over design tuning directly with a live lo
 
 **Pending:** `projects/tsumugu.png` — the card and page are wired for it; Wedge captures the YouTube-reader screenshot (tab left open in the right state) and drops the file in `projects/`. Trails visual redesign is on his mind but undefined; mock before building when it crystallizes.
 
+## The wiki bar, evolved through use (same day, late)
+
+**High-Signal Wiki Pages is now the primary standard.** Wedge's call: the decision-writing disciplines, translated to the concept-page genre, supersede the May rules — an authority-order preamble at the top of [[02 - System/Writing Standards|Writing Standards]] makes the precedence explicit ("an agent short on context reads the two High-Signal sections and skips the rest"). The eight wiki-page rules: thesis first, specifics over adjectives, the case against, price the method, boundaries after definition, quit signals, checkable expectations, no scaffolding, plus the delete list. Rewrite pipeline for home-linked pages is running against it, with claims cross-checked against the ICS corpus and the gap-map architect's UPDATE-BACKLOG (whose own claims get verified against course text — the backlog said 10,000 learners where the source says 5,000+).
+
+**Calibration, from Wedge's reviews — three lessons, all encoded into the standard the day they were learned:**
+
+1. **Operative specifics only.** Cohort sizes and program statistics are provenance, not signal — they argue a source is credible instead of teaching the technique. "One error costs ~4x" stays; "across 5,000 learners" goes. (Mindset de-testimonialized accordingly.)
+2. **Exemplars supply form, never content.** "Learning, Condensed" first shipped with ICS-CONDENSED's thesis polemic ("quality is decided at encoding, never at review") — which contradicts the wiki's own Retrieval page, where recall itself builds learning. The wiki's framing wins over any source's rhetoric; every echoed line must re-trace to a public owner.
+3. **Form slots need function checks too.** The exemplar's citation-decoder line was copied into a context where wikilinks are self-explanatory — scaffolding, deleted, and a No Scaffolding rule added to the bar.
+
+**New genre: Condensed Pages.** Modeled on the private ICS-CONDENSED / OUTLIER-CONDENSED references: bold total-compression paragraph, numbered doctrine lines with owner-page wikilinks as citations, tensions resolved explicitly, omissions note. Public versions compress wiki pages only — never the private corpora. First instance: [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]] (43 verified links). Doctrine gaps it exposed, for the maintenance loop: recall-test hygiene, session-scope rules, and the strong-form lapse doctrine have no owner pages.
+
 ## Ruled out
 
 - **Astro/full rebuild** — see flip condition above; revisit only if the platform vision materializes.
