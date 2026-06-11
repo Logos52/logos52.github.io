@@ -54,29 +54,30 @@ const spineGraphCfg = {
   spineDomains: spineDomainsForGraph(),
 }
 
+// Built slugs — verified against contentIndex.json. Raw vault paths break here.
 const trails = [
   {
     title: "Learning systems",
     sub: "9 notes · the ICS core, start to finish",
-    slug: "wiki/Syntheses/First Principles of ICS" as const,
+    slug: "wiki/Syntheses/First-Principles-of-ICS" as const,
     domainId: "learning",
   },
   {
     title: "Agentic engineering",
     sub: "7 notes · building with agents without losing taste",
-    slug: "wiki/Systems/AI & Agentic Systems/Agentic Engineering" as const,
+    slug: "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering" as const,
     domainId: "agentic",
   },
   {
     title: "Chinese characters",
     sub: "11 notes · the writing system, decoded in order",
-    slug: "wiki/Language/Chinese/How Chinese Characters Work" as const,
+    slug: "wiki/Language/Chinese/How-Chinese-Characters-Work" as const,
     domainId: "language",
   },
   {
     title: "Attention & focus",
     sub: "8 notes · enter, hold, and recover focus",
-    slug: "wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block" as const,
+    slug: "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block" as const,
     domainId: "focus",
   },
 ]

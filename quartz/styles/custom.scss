@@ -1634,8 +1634,8 @@ body[data-slug="index"] .page-header > header .search {
 .atlas-home {
   display: flex;
   flex-direction: column;
-  gap: 1.75rem;
-  margin-top: 0.5rem;
+  gap: 1rem;
+  margin-top: 0.25rem;
 }
 
 .atlas-hero {
@@ -1643,10 +1643,10 @@ body[data-slug="index"] .page-header > header .search {
 }
 
 .atlas-hero h1 {
-  font-size: 2.2rem;
+  font-size: 1.9rem;
   font-weight: 500;
   line-height: 1.2;
-  margin: 0 0 0.65rem;
+  margin: 0 0 0.55rem;
   color: var(--dark);
 }
 
@@ -1678,7 +1678,8 @@ body[data-slug="index"] .page-header > header .search {
 }
 
 .atlas-graph-section .atlas-graph > .graph-outer {
-  height: 420px;
+  /* Sized so Open questions clears the fold even on a ~700px-tall window. */
+  height: clamp(220px, 30vh, 320px);
   border: 1px solid var(--lightgray);
   border-radius: 8px;
   background: color-mix(in srgb, var(--surface) 92%, transparent);
@@ -1694,7 +1695,7 @@ body[data-slug="index"] .page-header > header .search {
   flex-wrap: wrap;
   gap: 0.35rem;
   align-items: center;
-  margin-top: 0.85rem;
+  margin-top: 0.6rem;
 }
 
 .atlas-legend-chip {

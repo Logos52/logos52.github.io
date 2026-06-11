@@ -80,9 +80,6 @@ export default ((opts?: Partial<Options>) => {
       return { ...it, x: PX + PR * Math.cos(a), y: PY + PR * Math.sin(a), cos: Math.cos(a), sin: Math.sin(a) }
     })
     const outline = pts.map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ")
-    const inner = pts
-      .map((p) => `${(PX + (p.x - PX) * 0.5).toFixed(1)},${(PY + (p.y - PY) * 0.5).toFixed(1)}`)
-      .join(" ")
     const labelPos = (p: { x: number; y: number; cos: number; sin: number }) =>
       p.cos > 0.35
         ? { anchor: "start", lx: p.x + 11, ly: p.y + 4 }
@@ -138,7 +135,6 @@ export default ((opts?: Partial<Options>) => {
               ))}
               <g class="atlas-pentagon-rigid">
                 <polygon points={outline} fill="none" stroke="var(--lightgray)" stroke-width="1" />
-                <polygon points={inner} fill="none" stroke="var(--highlight)" stroke-width="1" />
                 {pts.map((p) => (
                   <line
                     x1={p.x.toFixed(1)}
