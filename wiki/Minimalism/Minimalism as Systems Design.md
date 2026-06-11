@@ -1,8 +1,9 @@
 ---
 type: hub
 status: developing
+description: "Hub for environmental systems design: the real cost of possessions is attention, space, maintenance, friction, and life constraints — reduce first, optimize later, and keep empty space as reserve capacity. Doctrine layer: Minimalism, Condensed."
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-06-11
 source-count: 4
 tags:
   - minimalism
@@ -14,7 +15,7 @@ tags:
 
 # Minimalism as Systems Design
 
-The practice of reducing ownership cost so the environment becomes lighter, more maneuverable, and easier to act inside.
+Possessions keep charging after purchase — attention, space, maintenance, friction, life constraints — and reducing that ownership load is what makes an environment lighter, more maneuverable, and easier to act inside. Minimalism, run as systems design, is that reduction practice.
 
 The core thesis:
 
