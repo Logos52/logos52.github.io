@@ -3,21 +3,18 @@ import { SimpleSlug, resolveRelative } from "../util/path"
 import { classNames } from "../util/lang"
 import { concatenateResources } from "../util/resources"
 import Search from "./Search"
-import { DOMAINS, colorOf, graphColorRulesFromDomains, spineDomainsForGraph } from "../domains"
+import {
+  DOMAINS,
+  SPINE_HUBS,
+  colorOf,
+  graphColorRulesFromDomains,
+  spineDomainsForGraph,
+} from "../domains"
 // @ts-ignore
 import graphScript from "./scripts/graph.inline"
 // @ts-ignore
 import retrievalScript from "./scripts/atlas-retrieval.inline"
 import graphStyle from "./styles/graph.scss"
-
-const SPINE_HUBS = [
-  "wiki/Syntheses/First Principles of ICS",
-  "wiki/Systems/AI & Agentic Systems/Agentic Engineering",
-  "wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block",
-  "wiki/Minimalism/Minimalism as Systems Design",
-  "wiki/Red Team/Red Teaming",
-  "wiki/Language/Refold Language Learning System",
-]
 
 const spineGraphCfg = {
   drag: true,
@@ -37,12 +34,9 @@ const spineGraphCfg = {
   nodeBaseRadius: 2,
   nodeLinkRadius: 1.18,
   nodeMaxRadius: 9.5,
-  nodeRank: "degree" as const,
-  nodeLimit: 30,
-  mobileNodeLimit: 16,
   colorRules: graphColorRulesFromDomains(),
   spineLayout: true,
-  hubSlugs: SPINE_HUBS,
+  hubSlugs: [...SPINE_HUBS],
   recentDays: 7,
   spineDomains: spineDomainsForGraph(),
 }
@@ -79,6 +73,14 @@ const AtlasSearch = Search({ placeholder: "Find a note…" })
 const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
   const { fileData, displayClass, allFiles } = props
   const here = fileData.slug!
+
+  const knownSlugs = new Set(allFiles.map((f) => f.slug))
+  const missingHubs = SPINE_HUBS.filter((h) => !knownSlugs.has(h))
+  if (missingHubs.length > 0) {
+    console.warn(
+      `[atlas spine] hub slug(s) missing from content index: ${missingHubs.join(", ")}`,
+    )
+  }
 
   const domainColor = (id: string) => DOMAINS.find((d) => d.id === id)?.color ?? colorOf(here)
 

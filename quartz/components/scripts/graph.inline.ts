@@ -99,6 +99,102 @@ function domainTargetX(domainIndex: number, count: number, width: number): numbe
   return t * width - width / 2
 }
 
+const SPINE_LINK_COLOR = "#3a3640"
+const SPINE_LINK_ALPHA = 0.35
+const SPINE_SATELLITE_RADIUS = 3.5
+
+function linkKey(l: SimpleLinkData) {
+  return [l.source, l.target].sort().join("|")
+}
+
+function buildAdjacency(links: SimpleLinkData[]) {
+  const degree = new Map<SimpleSlug, number>()
+  const neighbors = new Map<SimpleSlug, Set<SimpleSlug>>()
+  for (const link of links) {
+    degree.set(link.source, (degree.get(link.source) ?? 0) + 1)
+    degree.set(link.target, (degree.get(link.target) ?? 0) + 1)
+    for (const [a, b] of [
+      [link.source, link.target],
+      [link.target, link.source],
+    ] as const) {
+      if (!neighbors.has(a)) neighbors.set(a, new Set())
+      neighbors.get(a)!.add(b)
+    }
+  }
+  return { degree, neighbors }
+}
+
+function selectSpineConstellation(
+  hubs: Set<SimpleSlug>,
+  links: SimpleLinkData[],
+  validLinks: Set<SimpleSlug>,
+  isMobile: boolean,
+) {
+  const { degree, neighbors } = buildAdjacency(links)
+  const satellitesPerHub = isMobile ? 1 : 3
+  const globalCap = 24
+  const neighbourhood = new Set<SimpleSlug>()
+  const satelliteParent = new Map<SimpleSlug, SimpleSlug>()
+
+  for (const hub of hubs) {
+    if (!validLinks.has(hub)) continue
+    neighbourhood.add(hub)
+
+    const candidates = [...(neighbors.get(hub) ?? [])]
+      .filter((n) => n.startsWith("wiki/") && validLinks.has(n) && !hubs.has(n))
+      .sort((a, b) => {
+        const d = (degree.get(b) ?? 0) - (degree.get(a) ?? 0)
+        return d !== 0 ? d : a.localeCompare(b)
+      })
+      .slice(0, satellitesPerHub)
+
+    for (const sat of candidates) {
+      if (neighbourhood.size >= globalCap) break
+      neighbourhood.add(sat)
+      satelliteParent.set(sat, hub)
+    }
+  }
+
+  return { neighbourhood, satelliteParent }
+}
+
+function selectSpineLinks(
+  links: SimpleLinkData[],
+  neighbourhood: Set<SimpleSlug>,
+  hubs: Set<SimpleSlug>,
+  degree: Map<SimpleSlug, number>,
+) {
+  const hasHubEndpoint = (l: SimpleLinkData) =>
+    neighbourhood.has(l.source) &&
+    neighbourhood.has(l.target) &&
+    (hubs.has(l.source) || hubs.has(l.target))
+
+  const chosen = new Map<string, SimpleLinkData>()
+  for (const hub of hubs) {
+    const incident = links
+      .filter(hasHubEndpoint)
+      .filter((l) => l.source === hub || l.target === hub)
+      .sort((a, b) => {
+        const otherA = a.source === hub ? a.target : a.source
+        const otherB = b.source === hub ? b.target : b.source
+        const d = (degree.get(otherB) ?? 0) - (degree.get(otherA) ?? 0)
+        return d !== 0 ? d : otherA.localeCompare(otherB)
+      })
+      .slice(0, 6)
+
+    for (const l of incident) {
+      chosen.set(linkKey(l), l)
+    }
+  }
+
+  const linkScore = (l: SimpleLinkData) =>
+    Math.max(degree.get(l.source) ?? 0, degree.get(l.target) ?? 0)
+
+  return [...chosen.values()]
+    .sort((a, b) => linkScore(b) - linkScore(a) || linkKey(a).localeCompare(linkKey(b)))
+    .slice(0, 30)
+}
+
 function resolveGraphColor(color: string | undefined) {
   if (color === "black-white") {
     return document.documentElement.getAttribute("saved-theme") === "dark" ? "#ffffff" : "#000000"
@@ -220,31 +316,61 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
   }
 
+  const width = graph.offsetWidth
+  const height = Math.max(graph.offsetHeight, 250)
+  const isMobileGraph = window.matchMedia("(max-width: 700px)").matches
+
   const neighbourhood = new Set<SimpleSlug>()
-  const wl: (SimpleSlug | "__SENTINEL")[] = [slug, "__SENTINEL"]
-  if (depth >= 0) {
-    while (depth >= 0 && wl.length > 0) {
-      // compute neighbours
-      const cur = wl.shift()!
-      if (cur === "__SENTINEL") {
-        depth--
-        wl.push("__SENTINEL")
-      } else {
-        neighbourhood.add(cur)
-        const outgoing = links.filter((l) => l.source === cur)
-        const incoming = links.filter((l) => l.target === cur)
-        wl.push(...outgoing.map((l) => l.target), ...incoming.map((l) => l.source))
-      }
+  let satelliteParent = new Map<SimpleSlug, SimpleSlug>()
+  const hubAnchorX = new Map<SimpleSlug, number>()
+
+  if (spineLayout) {
+    const { neighbourhood: constellation, satelliteParent: satParents } = selectSpineConstellation(
+      simplifiedHubSlugs,
+      links,
+      validLinks,
+      isMobileGraph,
+    )
+    satelliteParent = satParents
+    constellation.forEach((id) => neighbourhood.add(id))
+
+    const domainIndex = new Map<string, number>()
+    spineDomainList.forEach((d, i) => domainIndex.set(d.id, i))
+    for (const hub of simplifiedHubSlugs) {
+      if (!neighbourhood.has(hub)) continue
+      const domain = domainForNode(hub, spineDomainList)
+      const idx = domain ? (domainIndex.get(domain.id) ?? 0) : 0
+      hubAnchorX.set(hub, domainTargetX(idx, spineDomainList.length, width))
     }
   } else {
-    validLinks.forEach((id) => neighbourhood.add(id))
-    if (showTags) tags.forEach((tag) => neighbourhood.add(tag))
+    const wl: (SimpleSlug | "__SENTINEL")[] = [slug, "__SENTINEL"]
+    if (depth >= 0) {
+      while (depth >= 0 && wl.length > 0) {
+        const cur = wl.shift()!
+        if (cur === "__SENTINEL") {
+          depth--
+          wl.push("__SENTINEL")
+        } else {
+          neighbourhood.add(cur)
+          const outgoing = links.filter((l) => l.source === cur)
+          const incoming = links.filter((l) => l.target === cur)
+          wl.push(...outgoing.map((l) => l.target), ...incoming.map((l) => l.source))
+        }
+      }
+    } else {
+      validLinks.forEach((id) => neighbourhood.add(id))
+      if (showTags) tags.forEach((tag) => neighbourhood.add(tag))
+    }
   }
 
-  const isMobileGraph = window.matchMedia("(max-width: 700px)").matches
   const effectiveNodeLimit = isMobileGraph ? (mobileNodeLimit ?? nodeLimit) : nodeLimit
 
-  if (effectiveNodeLimit && effectiveNodeLimit > 0 && neighbourhood.size > effectiveNodeLimit) {
+  if (
+    !spineLayout &&
+    effectiveNodeLimit &&
+    effectiveNodeLimit > 0 &&
+    neighbourhood.size > effectiveNodeLimit
+  ) {
     const linkCounts = new Map<SimpleSlug, number>()
     const wordCounts = new Map<SimpleSlug, number>()
 
@@ -305,18 +431,30 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       tags: data.get(url)?.tags ?? [],
     }
   })
-  const graphData: { nodes: NodeData[]; links: LinkData[] } = {
-    nodes,
-    links: links
+  const nodeById = new Map(nodes.map((n) => [n.id, n]))
+
+  let graphLinks: LinkData[]
+  if (spineLayout) {
+    const { degree } = buildAdjacency(links)
+    graphLinks = selectSpineLinks(links, neighbourhood, simplifiedHubSlugs, degree)
+      .filter((l) => nodeById.has(l.source) && nodeById.has(l.target))
+      .map((l) => ({
+        source: nodeById.get(l.source)!,
+        target: nodeById.get(l.target)!,
+      }))
+  } else {
+    graphLinks = links
       .filter((l) => neighbourhood.has(l.source) && neighbourhood.has(l.target))
       .map((l) => ({
-        source: nodes.find((n) => n.id === l.source)!,
-        target: nodes.find((n) => n.id === l.target)!,
-      })),
+        source: nodeById.get(l.source)!,
+        target: nodeById.get(l.target)!,
+      }))
   }
 
-  const width = graph.offsetWidth
-  const height = Math.max(graph.offsetHeight, 250)
+  const graphData: { nodes: NodeData[]; links: LinkData[] } = {
+    nodes,
+    links: graphLinks,
+  }
 
   // we virtualize the simulation and use pixi to actually render it
   const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
@@ -328,22 +466,29 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     spineDomainList.forEach((d, i) => domainIndex.set(d.id, i))
 
     simulation
-      .force("charge", forceManyBody().strength(-160))
+      .force("charge", forceManyBody().strength(-200))
       .force("center", forceCenter().strength(0.02))
-      .force("link", forceLink(graphData.links).distance(55))
+      .force("link", forceLink(graphData.links).distance(60))
       .force(
         "collide",
-        forceCollide<NodeData>((n) => nodeRadius(n) + 12).iterations(3),
+        forceCollide<NodeData>((n) => nodeRadius(n) + 14).iterations(3),
       )
       .force(
         "x",
         forceX<NodeData>((d) => {
+          const parent = satelliteParent.get(d.id)
+          if (parent) return hubAnchorX.get(parent) ?? 0
           const domain = domainForNode(d.id, spineDomainList)
           const idx = domain ? (domainIndex.get(domain.id) ?? spineDomainList.length - 1) : 0
           return domainTargetX(idx, spineDomainList.length, width)
-        }).strength(0.18),
+        }).strength((d) => (satelliteParent.has(d.id) ? 0.3 : 0.08)),
       )
-      .force("y", forceY(0).strength(0.08))
+      .force(
+        "y",
+        forceY<NodeData>((d) => (satelliteParent.has(d.id) ? 0 : 0)).strength((d) =>
+          satelliteParent.has(d.id) ? 0.15 : 0.08,
+        ),
+      )
   } else {
     simulation
       .force("charge", forceManyBody().strength(-100 * repelForce))
@@ -396,14 +541,10 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   simulation.tick(settleTicks)
 
   if (spineLayout && spineDomainList.length > 0) {
-    const domainIndex = new Map<string, number>()
-    spineDomainList.forEach((d, i) => domainIndex.set(d.id, i))
     for (const n of graphData.nodes) {
       if (simplifiedHubSlugs.has(n.id)) {
-        const domain = domainForNode(n.id, spineDomainList)
-        const idx = domain ? (domainIndex.get(domain.id) ?? 0) : 0
-        n.fx = domainTargetX(idx, spineDomainList.length, width)
-        n.fy = 0
+        n.fx = hubAnchorX.get(n.id) ?? n.fx
+        n.fy = null
       }
     }
     simulation.tick(Math.ceil(settleTicks / 4))
@@ -446,14 +587,19 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   function nodeRadius(d: NodeData) {
+    if (spineLayout && simplifiedHubSlugs.has(d.id)) {
+      return (nodeBaseRadius ?? 2) * 1.8
+    }
+    if (spineLayout && satelliteParent.has(d.id)) {
+      return SPINE_SATELLITE_RADIUS
+    }
     const numLinks = graphData.links.filter(
       (l) => l.source.id === d.id || l.target.id === d.id,
     ).length
     const base = nodeBaseRadius ?? 2
     const linkScale = nodeLinkRadius ?? 1
     const max = nodeMaxRadius ?? 8
-    const radius = Math.min(max, base + Math.sqrt(numLinks) * linkScale)
-    return simplifiedHubSlugs.has(d.id) ? radius * 1.8 : radius
+    return Math.min(max, base + Math.sqrt(numLinks) * linkScale)
   }
 
   function isRecentlyUpdated(id: SimpleSlug): boolean {
@@ -530,7 +676,11 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         alpha = inFilter ? 1 : 0.12
       }
 
-      l.color = l.active ? computedStyleMap["--gray"] : computedStyleMap["--lightgray"]
+      l.color = l.active
+        ? computedStyleMap["--gray"]
+        : spineLayout
+          ? SPINE_LINK_COLOR
+          : computedStyleMap["--lightgray"]
       tweenGroup.add(new Tweened<LinkRenderData>(l).to({ alpha }, 200))
     }
 
@@ -745,8 +895,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const linkRenderDatum: LinkRenderData = {
       simulationData: l,
       gfx,
-      color: computedStyleMap["--lightgray"],
-      alpha: 1,
+      color: spineLayout ? SPINE_LINK_COLOR : computedStyleMap["--lightgray"],
+      alpha: spineLayout ? SPINE_LINK_ALPHA : 1,
       active: false,
     }
 
@@ -779,8 +929,13 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         })
         .on("end", function dragended(event) {
           if (!event.active) simulation.alphaTarget(0)
-          event.subject.fx = null
-          event.subject.fy = null
+          if (spineLayout && simplifiedHubSlugs.has(event.subject.id)) {
+            event.subject.fx = hubAnchorX.get(event.subject.id) ?? event.subject.fx
+            event.subject.fy = null
+          } else {
+            event.subject.fx = null
+            event.subject.fy = null
+          }
           dragging = false
 
           // if the time between mousedown and mouseup is short, we consider it a click
@@ -800,39 +955,81 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
   }
 
-  if (enableZoom) {
-    select<HTMLCanvasElement, NodeData>(app.canvas).call(
-      zoom<HTMLCanvasElement, NodeData>()
-        .extent([
-          [0, 0],
-          [width, height],
-        ])
-        .scaleExtent([0.25, 4])
-        .on("zoom", ({ transform }) => {
-          currentTransform = transform
-          currentZoom = transform.k
-          stage.scale.set(transform.k, transform.k)
-          stage.position.set(transform.x, transform.y)
+  const zoomBehavior = zoom<HTMLCanvasElement, NodeData>()
+    .extent([
+      [0, 0],
+      [width, height],
+    ])
+    .scaleExtent([0.25, 4])
+    .on("zoom", ({ transform }) => {
+      currentTransform = transform
+      currentZoom = transform.k
+      stage.scale.set(transform.k, transform.k)
+      stage.position.set(transform.x, transform.y)
 
-          // zoom adjusts opacity of labels too
-          const zoomScale = transform.k * opacityScale
-          let scaleOpacity = Math.max((zoomScale - 1) / 3.75, 0)
-          if (spineLayout && currentZoom > 1.4) {
-            scaleOpacity = 1
-          }
-          const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
+      const zoomScale = transform.k * opacityScale
+      let scaleOpacity = Math.max((zoomScale - 1) / 3.75, 0)
+      if (spineLayout && currentZoom > 1.4) {
+        scaleOpacity = 1
+      }
+      const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
 
-          for (const n of nodeRenderData) {
-            const isHub = simplifiedHubSlugs.has(n.simulationData.id)
-            if (activeNodes.includes(n.label)) continue
-            if (isHub && spineLayout) {
-              n.label.alpha = 1
-            } else {
-              n.label.alpha = scaleOpacity
-            }
-          }
-        }),
+      for (const n of nodeRenderData) {
+        const isHub = simplifiedHubSlugs.has(n.simulationData.id)
+        if (activeNodes.includes(n.label)) continue
+        if (isHub && spineLayout) {
+          n.label.alpha = 1
+        } else {
+          n.label.alpha = scaleOpacity
+        }
+      }
+    })
+
+  function zoomToFitSpine() {
+    if (!spineLayout || graphData.nodes.length === 0) return
+    const padding = 40
+    let minX = Infinity
+    let maxX = -Infinity
+    let minY = Infinity
+    let maxY = -Infinity
+    for (const n of graphData.nodes) {
+      const r = nodeRadius(n)
+      const px = (n.x ?? 0) + width / 2
+      const py = (n.y ?? 0) + height / 2
+      minX = Math.min(minX, px - r)
+      maxX = Math.max(maxX, px + r)
+      minY = Math.min(minY, py - r)
+      maxY = Math.max(maxY, py + r)
+    }
+    const graphWidth = maxX - minX
+    const graphHeight = maxY - minY
+    if (graphWidth <= 0 || graphHeight <= 0) return
+    const fitScale = Math.min(
+      (width - padding * 2) / graphWidth,
+      (height - padding * 2) / graphHeight,
+      2.5,
     )
+    const midX = (minX + maxX) / 2
+    const midY = (minY + maxY) / 2
+    const transform = zoomIdentity
+      .translate(width / 2, height / 2)
+      .scale(fitScale)
+      .translate(-midX, -midY)
+    currentTransform = transform
+    currentZoom = transform.k
+    stage.scale.set(transform.k, transform.k)
+    stage.position.set(transform.x, transform.y)
+    if (enableZoom) {
+      select<HTMLCanvasElement, NodeData>(app.canvas).call(zoomBehavior.transform, transform)
+    }
+  }
+
+  if (enableZoom) {
+    select<HTMLCanvasElement, NodeData>(app.canvas).call(zoomBehavior)
+  }
+
+  if (spineLayout) {
+    zoomToFitSpine()
   }
 
   let stopAnimation = false

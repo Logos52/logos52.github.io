@@ -122,6 +122,16 @@ export function colorOf(slug: string): string {
   return domainOf(slug)?.color ?? FALLBACK_COLOR
 }
 
+/** Built slugs — verified against contentIndex.json. Do not use raw vault paths. */
+export const SPINE_HUBS = [
+  "wiki/Syntheses/First-Principles-of-ICS",
+  "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering",
+  "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block",
+  "wiki/Minimalism/Minimalism-as-Systems-Design",
+  "wiki/Red-Team/Red-Teaming",
+  "wiki/Language/Refold-Language-Learning-System",
+] as const
+
 export function graphLegendFromDomains(): { label: string; color: string }[] {
   return DOMAINS.map(({ label, color }) => ({ label, color }))
 }
