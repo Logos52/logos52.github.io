@@ -101,7 +101,7 @@ const config: QuartzConfig = {
         darkMode: {
           light: "#171619",
           lightgray: "#302c31",
-          gray: "#716a70",
+          gray: "#6f6875",
           darkgray: "#ece7e2",
           dark: "#f5f1ed",
           // Lightened jewel tones (a touch brighter) for the dark surface.

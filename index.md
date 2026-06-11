@@ -1,6 +1,6 @@
 ---
 title: "LLM Knowledge Base"
-description: "Public LLM-maintained knowledge base."
+description: "Wedge's second brain for learning systems and agentic engineering — maintained in the open, partly by LLM agents."
 type: index
 hideFolderListing: true
 created: 2026-05-02

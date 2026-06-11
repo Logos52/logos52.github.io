@@ -2,14 +2,9 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
 /**
- * Logos52 — Layout configuration
- *
- * The site uses a small global navigation bar for the blog, knowledge base home,
- * and about page. The standard Quartz sidebars remain
- * available for browsing the knowledge base.
+ * Logos52 — Layout configuration (Living Atlas)
  */
 
-// components shared across all pages
 const graphLegend = [
   { label: "Techniques", color: "#00a7ff" },
   { label: "ICS / Learning", color: "#b968ff" },
@@ -67,10 +62,9 @@ const notesOverviewGraph = {
   nodeBaseRadius: 2,
   nodeLinkRadius: 1.18,
   nodeMaxRadius: 9.5,
-  nodeRank: "content-heavy",
+  nodeRank: "content-heavy" as const,
   nodeLimit: 180,
   mobileNodeLimit: 80,
-  // Cluster by category into distinct lobes instead of one central blob.
   enableRadial: false,
   clusterForce: 0.5,
   centerForce: 0.04,
@@ -107,45 +101,25 @@ const NotesGraph = Component.Graph({
   globalGraph: notesOverviewGraph,
 })
 
-const PublicExplorer = Component.Explorer({
-  title: "Browse",
-  folderDefaultState: "open",
-  folderClickBehavior: "collapse",
-  useSavedState: true,
-  filterFn: (node) =>
-    ![
-      "tags",
-      "00-Command-Center",
-      "AGENTS",
-      "README",
-      "log",
-      "notes",
-    ].includes(node.slugSegment),
-})
-
-const WikiOverviewGraph = Component.Graph({
-  localGraph: wikiOverviewGraph,
-  globalGraph: wikiOverviewGraph,
-})
-
 const WikiLocalGraph = Component.Graph({
+  containerClass: "margin-graph",
   localGraph: wikiPageLocalGraph,
   globalGraph: wikiPageGlobalGraph,
 })
 
-const isCleanPage = (slug?: string) =>
+/** Index-style pages: no article chrome, no margin column. */
+const isChromeFreePage = (slug?: string) =>
   slug === "index" ||
-  slug === "about" ||
-  slug === "projects" ||
-  Boolean(slug?.startsWith("projects/")) ||
-  slug === "blog" ||
-  Boolean(slug?.startsWith("blog/")) ||
+  slug === "journal/index" ||
+  slug === "notes/index" ||
+  slug === "projects/index" ||
   slug === "tags" ||
-  Boolean(slug?.startsWith("tags/")) ||
-  slug === "notes" ||
-  Boolean(slug?.startsWith("notes/"))
+  Boolean(slug?.startsWith("tags/"))
 
-const isJournalPage = (slug?: string) => slug === "journal" || Boolean(slug?.startsWith("journal/"))
+const hideArticleChrome = (slug?: string) =>
+  isChromeFreePage(slug) || slug === "journal/index"
+
+const showMarginNotes = (slug?: string) => Boolean(slug && !isChromeFreePage(slug))
 
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -170,23 +144,30 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      "GitHub": "https://github.com/logos52/logos52.github.io",
-      "About this project": "https://github.com/logos52/logos52.github.io#readme",
+      GitHub: "https://github.com/logos52/logos52.github.io",
+      About: "/about",
     },
   }),
 }
 
-// components for pages that display a single piece of content (e.g., a wiki page)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs(),
+      condition: ({ fileData }) => !hideArticleChrome(fileData.slug),
+    }),
     Component.ConditionalRender({
       component: Component.ArticleTitle(),
-      condition: ({ fileData }) =>
-        fileData.slug !== "index" && fileData.slug !== "journal/index",
+      condition: ({ fileData }) => !hideArticleChrome(fileData.slug),
     }),
-    Component.ContentMeta(),
-    Component.TagList(),
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: ({ fileData }) => !hideArticleChrome(fileData.slug),
+    }),
+    Component.ConditionalRender({
+      component: Component.TagList(),
+      condition: ({ fileData }) => !hideArticleChrome(fileData.slug),
+    }),
     Component.ConditionalRender({
       component: Component.HomeLanding(),
       condition: ({ fileData }) => fileData.slug === "index",
@@ -196,42 +177,24 @@ export const defaultContentPageLayout: PageLayout = {
       condition: ({ fileData }) => fileData.slug === "notes/index",
     }),
   ],
-  left: [
-    Component.ConditionalRender({
-      component: Component.PageTitle(),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
-    }),
-    Component.ConditionalRender({
-      component: Component.MobileOnly(Component.Spacer()),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
-    }),
-    Component.ConditionalRender({
-      component: Component.DesktopOnly(PublicExplorer),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
-    }),
-  ],
+  left: [],
   right: [
     Component.ConditionalRender({
       component: WikiLocalGraph,
-      condition: ({ fileData }) => Boolean(fileData.slug?.startsWith("wiki/")),
-    }),
-    Component.ConditionalRender({
-      component: WikiOverviewGraph,
       condition: ({ fileData }) =>
-        !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug) && !fileData.slug?.startsWith("wiki/"),
+        showMarginNotes(fileData.slug) && Boolean(fileData.slug?.startsWith("wiki/")),
     }),
     Component.ConditionalRender({
-      component: Component.DesktopOnly(Component.TableOfContents()),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
+      component: Component.TableOfContents(),
+      condition: ({ fileData }) => showMarginNotes(fileData.slug),
     }),
     Component.ConditionalRender({
       component: Component.Backlinks(),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
+      condition: ({ fileData }) => showMarginNotes(fileData.slug),
     }),
   ],
 }
 
-// components for pages that display lists of pages (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
@@ -243,24 +206,11 @@ export const defaultListPageLayout: PageLayout = {
       condition: ({ fileData }) => fileData.slug === "notes/index",
     }),
   ],
-  left: [
-    Component.ConditionalRender({
-      component: Component.PageTitle(),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
-    }),
-    Component.ConditionalRender({
-      component: Component.MobileOnly(Component.Spacer()),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
-    }),
-    Component.ConditionalRender({
-      component: Component.DesktopOnly(PublicExplorer),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
-    }),
-  ],
+  left: [],
   right: [
     Component.ConditionalRender({
-      component: Component.DesktopOnly(Component.TableOfContents()),
-      condition: ({ fileData }) => !isCleanPage(fileData.slug) && !isJournalPage(fileData.slug),
+      component: Component.TableOfContents(),
+      condition: ({ fileData }) => showMarginNotes(fileData.slug),
     }),
   ],
 }

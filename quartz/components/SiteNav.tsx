@@ -1,24 +1,33 @@
-import { pathToRoot } from "../util/path"
+import { resolveRelative } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const navItems = [
-  { href: "blog", label: "Blog", match: "blog" },
-  { href: "journal", label: "Journal", match: "journal" },
-  { href: "projects", label: "Projects", match: "projects" },
-  { href: "notes", label: "Index", match: "notes" },
-  { href: "about", label: "About", match: "about" },
+  { slug: "index" as const, label: "Map" },
+  { slug: "notes" as const, label: "Notes" },
+  { slug: "projects" as const, label: "Projects" },
+  { slug: "journal" as const, label: "Journal" },
+  { slug: "about" as const, label: "About" },
 ]
 
 const SiteNav: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
-  const baseDir = pathToRoot(fileData.slug!)
   const slug = fileData.slug ?? ""
+  const homeHref = resolveRelative(slug, "index")
 
   return (
-    <nav class="site-nav">
+    <nav class="site-nav" aria-label="Site">
+      <a class="site-wordmark" href={homeHref}>
+        Logos52
+      </a>
       {navItems.map((item) => {
-        const active = slug === item.match || slug.startsWith(item.match + "/")
+        const active =
+          slug === item.slug ||
+          (item.slug !== "index" && slug.startsWith(item.slug + "/"))
+        const href =
+          item.slug === "index"
+            ? homeHref
+            : resolveRelative(slug, item.slug)
         return (
-          <a class={active ? "active" : undefined} href={`${baseDir}/${item.href}`}>
+          <a class={active ? "active" : undefined} href={href}>
             {item.label}
           </a>
         )
@@ -33,23 +42,37 @@ SiteNav.css = `
   gap: 1rem;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0 0 1.25rem 0;
-  font-family: var(--headerFont);
-  font-size: 0.95rem;
+  margin: 0;
+  font-family: var(--codeFont);
+  font-size: 12px;
+  letter-spacing: 0.04em;
 }
 
-.site-nav a {
-  color: var(--darkgray);
+.site-wordmark {
+  font-family: var(--headerFont);
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--dark);
+  text-decoration: none;
+  margin-right: 0.35rem;
+}
+
+.site-wordmark:hover {
+  color: var(--secondary);
+}
+
+.site-nav a:not(.site-wordmark) {
+  color: var(--gray);
   text-decoration: none;
 }
 
-.site-nav a:hover {
+.site-nav a:not(.site-wordmark):hover {
   color: var(--secondary);
 }
 
-.site-nav a.active {
+.site-nav a.active:not(.site-wordmark) {
   color: var(--secondary);
-  font-weight: 600;
 }
 `
 
