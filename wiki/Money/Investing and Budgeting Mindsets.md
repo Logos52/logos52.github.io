@@ -74,12 +74,14 @@ The spending side of minimalism: own less, want less.
 
 Where the books agree — the first principles worth internalising:
 
-- **Spend less than you earn.** The savings rate is the master lever.
-- **Time beats timing.** Compounding rewards a long horizon over clever entries.
-- **Define "enough."** Without a number, the goalpost moves forever.
-- **Behaviour beats knowledge.** Temperament decides outcomes; the math is the easy part.
-- **Money buys freedom, not status.** The dividend is control over time.
-- **Price things in life energy.** Align spending with values, not impulse.
+- **[[wiki/Money/The Savings Rate Is the Master Lever|Spend less than you earn.]]** The savings rate is the master lever — and the only fully controllable one.
+- **[[wiki/Money/Time Beats Timing|Time beats timing.]]** Compounding rewards a long horizon over clever entries.
+- **[[wiki/Money/Define Enough|Define "enough."]]** Without a number, the goalpost moves forever.
+- **Behaviour beats knowledge.** Temperament decides outcomes; the math is the easy part — the thread running through all four concept pages.
+- **Money buys freedom, not status.** The dividend is control over time (carried in [[wiki/Money/Define Enough|Define Enough]]).
+- **[[wiki/Money/Money as Life Energy|Price things in life energy.]]** Align spending with values, not impulse.
+
+The spending side lives next door: [[wiki/Minimalism/Wanting Less|Wanting Less]] promotes the *Goodbye, Things* takeaways above into the Minimalism cluster.
 
 ## A productive tension
 
