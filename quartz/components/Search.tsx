@@ -7,6 +7,7 @@ import { i18n } from "../i18n"
 
 export interface SearchOptions {
   enablePreview: boolean
+  placeholder?: string
 }
 
 const defaultOptions: SearchOptions = {
@@ -16,7 +17,8 @@ const defaultOptions: SearchOptions = {
 export default ((userOpts?: Partial<SearchOptions>) => {
   const Search: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const opts = { ...defaultOptions, ...userOpts }
-    const searchPlaceholder = i18n(cfg.locale).components.search.searchBarPlaceholder
+    const searchPlaceholder =
+      opts.placeholder ?? i18n(cfg.locale).components.search.searchBarPlaceholder
     return (
       <div class={classNames(displayClass, "search")}>
         <button class="search-button">

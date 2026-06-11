@@ -1614,3 +1614,160 @@ body[data-slug^="projects/"]:not([data-slug="projects/index"]) .page-header .bre
 :root[saved-theme="dark"] body {
   background: #171619;
 }
+
+/* =====================================================================
+   Living Atlas — H4 homepage
+   ===================================================================== */
+
+body[data-slug="index"] .page-header > header .search {
+  display: none;
+}
+
+.atlas-home {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+.atlas-hero {
+  max-width: 60ch;
+}
+
+.atlas-hero h1 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 0.65rem;
+  color: var(--dark);
+}
+
+.atlas-hero-sub {
+  font-family: var(--codeFont);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.55;
+}
+
+.atlas-search-wrap {
+  width: 46%;
+  min-width: 12rem;
+}
+
+.atlas-search-wrap .atlas-search {
+  max-width: none;
+  width: 100%;
+}
+
+.atlas-search-wrap .search > .search-button {
+  width: 100%;
+  border-radius: 8px;
+  font-family: var(--codeFont);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+
+.atlas-graph-section .atlas-graph > .graph-outer {
+  height: 420px;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+}
+
+.atlas-graph-section .atlas-graph > h3,
+.atlas-graph-section .atlas-graph > .graph-legend {
+  display: none;
+}
+
+.atlas-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+  margin-top: 0.85rem;
+}
+
+.atlas-legend-chip {
+  font-family: var(--codeFont);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 8px;
+  border: 1px solid;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.92;
+}
+
+.atlas-legend-chip.active {
+  background: color-mix(in srgb, currentColor 12%, transparent);
+}
+
+.atlas-legend-hint {
+  font-family: var(--codeFont);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--gray);
+  margin-left: 0.35rem;
+}
+
+.atlas-ledger:empty {
+  display: none;
+}
+
+.atlas-trails h2 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 0.85rem;
+  color: var(--dark);
+}
+
+.atlas-trail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.75rem;
+}
+
+.atlas-trail-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.85rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--lightgray);
+  border-left-width: 3px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: border-color 0.15s ease;
+}
+
+.atlas-trail-card:hover {
+  border-color: color-mix(in srgb, var(--secondary) 40%, var(--lightgray));
+}
+
+.atlas-trail-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--dark);
+  line-height: 1.35;
+}
+
+.atlas-trail-sub {
+  font-family: var(--codeFont);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  line-height: 1.45;
+}
+
+@media (max-width: 800px) {
+  .atlas-search-wrap {
+    width: 100%;
+  }
+
+  .atlas-graph-section .atlas-graph > .graph-outer {
+    height: 260px;
+  }
+}

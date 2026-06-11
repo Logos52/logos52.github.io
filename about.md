@@ -14,7 +14,7 @@ I'm Wedge ([@webigis](https://x.com/webigis) on X). This is my public knowledge 
 
 The loop is simple: source material comes in, the useful structure gets written into linked markdown pages, and later questions build on what's already there. The goal is accumulation — a good source, question, or synthesis should leave the base a little more useful than before. Much of the upkeep runs through LLM agents working to a fixed operating contract; the thinking and direction stay mine.
 
-My focus is turning information into working systems: study workflows, decision-making tools, and practical ways to use AI agents as collaborators. New here? The [[index|home page]] (knowledge graph plus topics) is the fastest way in.
+My focus is turning information into working systems: study workflows, decision-making tools, and practical ways to use AI agents as collaborators. New here? Start with the [[index|Map]] — or pick a trail from the home page and follow it end to end.
 
 ## What I write about
 

@@ -11,7 +11,7 @@ tags:
 
 # Knowledge Base Index
 
-Every public page, in one catalog. New here? Start from a hub below — each one anchors a domain — then browse the tables for the full inventory.
+The complete catalog of every public page. The fastest ways in are the Map and the trails on the home page; the tables below are the exhaustive view.
 
 ## Hubs
 
@@ -225,7 +225,7 @@ How the writing system works and how to memorize it, compiled as one page per us
 | Page | Type | Summary |
 | --- | --- | --- |
 | [[wiki/Books/The Parasitic Mind\|The Parasitic Mind]] | book | Longform review and takeaways on Gad Saad's argument for reason, free speech, and epistemic hygiene. |
-| [[wiki/Books/Suicidal Empathy\|Suicidal Empathy]] | book | The emotional successor to *The Parasitic Mind*. Maps how empathy becomes suicidal when decoupled from truth, reciprocity, and survival. Includes practical inoculation protocol. |
+| [[wiki/Books/Suicidal Empathy\|Suicidal Empathy (Book)]] | book | The emotional successor to *The Parasitic Mind*. Maps how empathy becomes suicidal when decoupled from truth, reciprocity, and survival. Includes practical inoculation protocol. |
 | [[wiki/Concepts/Meiwaku\|Meiwaku]] | concept | Japanese principle of minimizing unnecessary social burden and imposition on others. |
 | [[wiki/Concepts/Style\|Style]] | concept | Recognizable patterns of execution that prime expectations; emphasis on recessive, substance-serving style. |
 | [[wiki/Concepts/Bias and Framing\|Bias and Framing]] | concept | How selective presentation of information creates and reinforces systematic distortions in thinking. |
