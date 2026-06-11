@@ -100,6 +100,10 @@ function domainTargetX(domainIndex: number, count: number, width: number): numbe
 }
 
 const SPINE_LINK_COLOR = "#3a3640"
+// Reference aesthetic (mockup): hubs are landmarks ~9px; satellites tiny and neutral;
+// the band has organic vertical variance, not a flat centerline.
+const SPINE_HUB_RADIUS = 9
+const SPINE_Y_BAND = [-0.1, 0.07, -0.04, 0.1, -0.08, 0.04]
 const SPINE_LINK_ALPHA = 0.35
 const SPINE_SATELLITE_RADIUS = 3.5
 
@@ -323,6 +327,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const neighbourhood = new Set<SimpleSlug>()
   let satelliteParent = new Map<SimpleSlug, SimpleSlug>()
   const hubAnchorX = new Map<SimpleSlug, number>()
+  const hubAnchorY = new Map<SimpleSlug, number>()
 
   if (spineLayout) {
     const { neighbourhood: constellation, satelliteParent: satParents } = selectSpineConstellation(
@@ -336,11 +341,14 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
     const domainIndex = new Map<string, number>()
     spineDomainList.forEach((d, i) => domainIndex.set(d.id, i))
+    let hubOrdinal = 0
     for (const hub of simplifiedHubSlugs) {
       if (!neighbourhood.has(hub)) continue
       const domain = domainForNode(hub, spineDomainList)
       const idx = domain ? (domainIndex.get(domain.id) ?? 0) : 0
       hubAnchorX.set(hub, domainTargetX(idx, spineDomainList.length, width))
+      hubAnchorY.set(hub, SPINE_Y_BAND[hubOrdinal % SPINE_Y_BAND.length] * height)
+      hubOrdinal++
     }
   } else {
     const wl: (SimpleSlug | "__SENTINEL")[] = [slug, "__SENTINEL"]
@@ -481,12 +489,19 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
           const domain = domainForNode(d.id, spineDomainList)
           const idx = domain ? (domainIndex.get(domain.id) ?? spineDomainList.length - 1) : 0
           return domainTargetX(idx, spineDomainList.length, width)
-        }).strength((d) => (satelliteParent.has(d.id) ? 0.3 : 0.08)),
+        }).strength((d) =>
+          satelliteParent.has(d.id) ? 0.3 : simplifiedHubSlugs.has(d.id) ? 0.9 : 0.15,
+        ),
       )
       .force(
         "y",
-        forceY<NodeData>((d) => (satelliteParent.has(d.id) ? 0 : 0)).strength((d) =>
-          satelliteParent.has(d.id) ? 0.15 : 0.08,
+        forceY<NodeData>((d) => {
+          if (simplifiedHubSlugs.has(d.id)) return hubAnchorY.get(d.id) ?? 0
+          const parent = satelliteParent.get(d.id)
+          if (parent) return hubAnchorY.get(parent) ?? 0
+          return 0
+        }).strength((d) =>
+          simplifiedHubSlugs.has(d.id) ? 0.3 : satelliteParent.has(d.id) ? 0.12 : 0.08,
         ),
       )
   } else {
@@ -572,6 +587,11 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   // calculate color
   const color = (d: NodeData) => {
+    // Spine mode: only hubs carry domain color — satellites stay neutral so the
+    // six landmarks own the canvas (reference aesthetic).
+    if (spineLayout && !simplifiedHubSlugs.has(d.id) && d.id !== slug) {
+      return computedStyleMap["--gray"]
+    }
     const configuredColor = colorRules?.find((rule) => d.id.startsWith(rule.prefix))?.color
     const resolvedColor = resolveGraphColor(configuredColor)
     const isCurrent = d.id === slug
@@ -588,7 +608,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   function nodeRadius(d: NodeData) {
     if (spineLayout && simplifiedHubSlugs.has(d.id)) {
-      return (nodeBaseRadius ?? 2) * 1.8
+      return SPINE_HUB_RADIUS
     }
     if (spineLayout && satelliteParent.has(d.id)) {
       return SPINE_SATELLITE_RADIUS
