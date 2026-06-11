@@ -82,10 +82,10 @@ export default ((opts?: Partial<Options>) => {
     const outline = pts.map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ")
     const labelPos = (p: { x: number; y: number; cos: number; sin: number }) =>
       p.cos > 0.35
-        ? { anchor: "start", lx: p.x + 11, ly: p.y + 4 }
+        ? { anchor: "start", lx: p.x + 13, ly: p.y + 4 }
         : p.cos < -0.35
-          ? { anchor: "end", lx: p.x - 11, ly: p.y + 4 }
-          : { anchor: "middle", lx: p.x, ly: p.sin < 0 ? p.y - 13 : p.y + 23 }
+          ? { anchor: "end", lx: p.x - 13, ly: p.y + 4 }
+          : { anchor: "middle", lx: p.x, ly: p.sin < 0 ? p.y - 15 : p.y + 25 }
 
     const sats = PENTAGON_SATELLITES.map((s) => {
       const a = (s.angle * Math.PI) / 180
@@ -149,7 +149,8 @@ export default ((opts?: Partial<Options>) => {
                   const l = labelPos(p)
                   return (
                     <a href={resolveRelative(here, p.slug as SimpleSlug)}>
-                      <circle cx={p.x.toFixed(1)} cy={p.y.toFixed(1)} r="6" fill={p.color} />
+                      {/* r=8: the section's prominent feature — graph hubs (9) stay the page's largest. */}
+                      <circle cx={p.x.toFixed(1)} cy={p.y.toFixed(1)} r="8" fill={p.color} />
                       <text
                         x={l.lx.toFixed(1)}
                         y={l.ly.toFixed(1)}
