@@ -11,9 +11,9 @@ tags:
 
 # Knowledge Base Index
 
-The complete catalog of every public page. New here? Use a map to orient, then browse the full catalog below.
+Every public page, in one catalog. New here? Start from a hub below — each one anchors a domain — then browse the tables for the full inventory.
 
-## Start here
+## Hubs
 
 - [[wiki/Syntheses/First Principles of ICS|Learning Systems]] — encoding, retrieval, self-regulation, and the structure under the study system.
 - [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Attention & Self-Management]] — focus, flow, procrastination, recovery, and usable work blocks.
@@ -70,11 +70,8 @@ The complete catalog of every public page. New here? Use a map to orient, then b
 | [[wiki/Dimensions/Self-Regulation\|Self-Regulation]] | dimension | Dimension for monitoring, diagnosing, and adjusting the learning process. |
 | [[wiki/Dimensions/Mindset\|Mindset]] | dimension | Dimension for interpreting difficulty, mistakes, feedback, identity, and growth. |
 | [[wiki/Dimensions/Retrieval\|Retrieval]] | dimension | Dimension for recall, reconstruction, interleaving, spacing, and transfer. |
-| [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer\|Metacognition: The Control Layer]] | concept | Awareness and control of thinking during learning; the control layer for learning-to-learn. |
-| [[wiki/Techniques/Building the Radar\|Building the Radar]] | technique | Practice for detecting shifts from active processing into passive consumption. |
 | [[wiki/Concepts/Are You Thinking, or Just Consuming\|Are You Thinking, or Just Consuming?]] | concept | Distinguishes visible learning behaviors from the thought quality they produce. |
 | [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time\|Social Media - Curvilinear Design & the Theft of Time]] | concept | Curvilinear feed design as a theft of attention, memory, and experienced time; repaired through right-angle turns, routes, and intentional choice. |
-| [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces\|The Technique Is Only as Good as the Thinking It Produces]] | concept | Diagnostic principle for checking whether a technique is producing the intended cognition, not just a correct-looking artifact. |
 | [[wiki/Concepts/The Shortcut Problem\|The Shortcut Problem]] | concept | Pattern where the brain avoids difficult learning by producing visible activity that bypasses the required thinking. |
 | [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue\|Cognitive Load & What Mental Effort Is Trying to Cue]] | concept | Interprets mental effort, overload, and drowsiness as metacognitive signals. |
 | [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently\|How to Unlearn Old or Bad Habits Efficiently]] | concept | Practical operating model for replacing old cue-response habits with scripted, rehearsed responses. |
@@ -111,13 +108,13 @@ The complete catalog of every public page. New here? Use a map to orient, then b
 | [[wiki/Learning Craft/Rules of Effective Memorization\|Rules of Effective Memorization]] | synthesis | Seven domain-general memory rules — meaning builds encoding, attention gates it, repetition consolidates it — with Chinese characters as the worked example. |
 | [[wiki/Dimensions/Mindset/Locus of Control\|Locus of Control]] | concept | Spend attention only on controllable process; outcomes are uncontrollable symptoms, and stopping a harmful habit beats adding a new technique. |
 | [[wiki/Dimensions/Mindset/The Learning Zone and the Reversion Response\|The Learning Zone and the Reversion Response]] | concept | Felt uncertainty as the practice gauge: none means comfort-zone drift; the reversion response retreats to offloading; Practice Blocks make mistake-finding the goal. |
-| [[wiki/Syntheses/The 30-Day Plan\|The 30-Day Plan]] | synthesis | The reusable end-to-end protocol for any complicated, overwhelming, important goal: set a 6-12 month medium-term goal, derive attribute-based performance goals |
+| [[wiki/Syntheses/The 30-Day Plan\|The 30-Day Plan]] | synthesis | Reusable planning protocol for complicated, overwhelming, important goals: a 6–12 month medium-term target, attribute-based performance goals stepped to 30 and 14 days, three layers of pre-answered barriers, and a sustainable practice-to-theory pace. |
 | [[wiki/Concepts/Declarative, Procedural, and Conditional Knowledge\|Declarative, Procedural, and Conditional Knowledge]] | model | The what/how/when knowledge triad: only declarative is teachable, experience builds the rest, and most bottlenecks are declarative approach choice. |
 | [[wiki/Concepts/Four Stages of Competence\|Four Stages of Competence]] | model | UI→CI→CC→UC skill progression; each stage rewards a different marginal gain, with conscious competence a wide 2-of-10 to 9-of-10 band. |
 | [[wiki/Dimensions/Mindset/Confidence Calibration\|Confidence Calibration]] | concept | Two-question Mt Stupid test plus conditions check for overconfident beliefs; the Wise Mind lets reason govern while the confident feeling persists. |
 | [[wiki/Dimensions/Mindset/Compounding vs Additive Gains\|Compounding vs Additive Gains]] | concept | The removal test for improvement spends: gains compound only when they change your state — skills pass, tutoring and extra hours rent results. |
 | [[wiki/Concepts/Learning Styles Myth and Multimodal Learning\|Learning Styles Myth and Multimodal Learning]] | concept | Fixed learning styles fail empirically; preferences exist, attention sets the ceiling, and deliberately stacking underused modes beats any single channel. |
-| [[wiki/Self Management/Building a Schedule That Survives\|Building a Schedule That Survives]] | system | Single owner for schedule construction and defense, merging four survey units: the priority-first nightly/weekly blocking system with its three failure modes (n |
+| [[wiki/Self Management/Building a Schedule That Survives\|Building a Schedule That Survives]] | system | Priority-first nightly scheduling built for bad days: name the three ways schedules die — no schedule, vague blocks, over-packing — and build the plan that completes nine days out of ten. |
 | [[wiki/Dimensions/Deep Processing/Hipshot\|Hipshot]] | technique | Faster Bear Hunter System variation: Aim runs mentally on layer-one keywords only, fused with Shoot into a question-answer-map loop; Skin unchanged. |
 | [[wiki/Dimensions/Deep Processing/Problem-First Learning\|Problem-First Learning]] | technique | Establish the problem and conceptual map before equations; flips practice transfer from 1:1 toward 10:1; authoring maximally hard questions exposes conceptual gaps. |
 | [[wiki/Learning Craft/Theme-First Text Analysis\|Theme-First Text Analysis]] | technique | Cause-to-effect reading frame: find themes, ground them in the author's motive, then attach techniques — collapsing essay practice from ~100 to ~6. |
@@ -125,10 +122,10 @@ The complete catalog of every public page. New here? Use a map to orient, then b
 | [[wiki/Dimensions/Retrieval/Opportunistic Retrieval\|Opportunistic Retrieval]] | workflow | Daily work that uses your knowledge counts as retrieval — retro-label each rep, patch missed orders, and schedule study around upcoming work. |
 | [[wiki/Dimensions/Retrieval/Reconstruction - Retrieval Beyond Recall\|Reconstruction - Retrieval Beyond Recall]] | concept | Retrieval level above recall: form and judge new relationships among known nodes — curveball immunity, rapid gap-seeking, 90/10 to 50/50 blends with recall. |
 | [[wiki/Dimensions/Retrieval/Reverse Explanation\|Reverse Explanation]] | technique | Explain a concept through importance and lay-term relationships first, attaching the label last so it lands connected; term-then-definition is the failure signature. |
-| [[wiki/Language/Aim-Shoot-Skin for Language Learning\|Aim-Shoot-Skin for Language Learning]] | system | Single owner merging the three ICS language lessons into one BHS-for-languages page: Aim = comprehensible input framed as deliberate aiming (target the just-not |
+| [[wiki/Language/Aim-Shoot-Skin for Language Learning\|Aim-Shoot-Skin for Language Learning]] | system | BHS for languages: aim at the just-not-understandable band, shoot the gaps a live passage exposes, skin to compress what accumulates — words learned to solve a live problem outlast words drilled in advance. |
 | [[wiki/Learning Craft/Microlearning System\|Microlearning System]] | system | Five-stage Prime-Map-Explore-Dive-Consolidate cycle for learning in 5-30 minute bursts, plus a scheduled consolidated retrieval mission to repair fragmented encoding. |
 | [[wiki/Learning Craft/Clinical Learning System\|Clinical Learning System]] | system | Patient-dictated study loop for clinicians: map each encounter into branching webs, study one branch at a time, let recurrence deliver interleaved review. |
-| [[wiki/Decision Making/Expectancy in Wicked Environments\|Expectancy in Wicked Environments]] | model | Makes expected value usable outside games: real life is a wicked environment (unclear win/loss conditions, too many variables) where exact calculation is imposs |
+| [[wiki/Decision Making/Expectancy in Wicked Environments\|Expectancy in Wicked Environments]] | model | Makes expected value usable outside games: cut the small fry, weigh only the heavyweights, and rate chance and magnitude in broad bands until a wicked decision shrinks enough for game logic to apply. |
 | [[wiki/Dimensions/Mindset/Perfectionism and Overthinking\|Perfectionism and Overthinking]] | concept | Perfectionism as fear of failure, the identity flip that redirects it, and the emotion-problem-action chain that breaks overthinking loops. |
 
 ### Decision making
@@ -243,4 +240,3 @@ How the writing system works and how to memorize it, compiled as one page per us
 | [[wiki/Glossary\|Glossary]] | glossary | Short definitions of recurring terms. |
 | [[wiki/Bibliography\|Bibliography]] | bibliography | Source bibliography for the wiki. |
 | [[wiki/Timeline\|Timeline]] | timeline | Timeline of important developments and repo events. |
-| [[00 Command Center/Writing Standards\|Writing Standards]] | system | Operating standard for future wiki writing, page structure, anti-cramming, and article quality. |
