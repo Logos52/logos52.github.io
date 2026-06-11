@@ -30,6 +30,7 @@ import HomeLanding from "./HomeLanding"
 import LearningRadar from "./LearningRadar"
 import ProjectsGallery from "./ProjectsGallery"
 import JournalSpread from "./JournalSpread"
+import DimensionsPentagon from "./DimensionsPentagon"
 import DomainAccent from "./DomainAccent"
 
 export {
@@ -65,5 +66,6 @@ export {
   LearningRadar,
   ProjectsGallery,
   JournalSpread,
+  DimensionsPentagon,
   DomainAccent,
 }

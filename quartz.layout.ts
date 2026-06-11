@@ -116,6 +116,10 @@ export const sharedPageComponents: SharedLayout = {
       component: Component.JournalSpread(),
       condition: ({ fileData }) => fileData.slug === "journal/index",
     }),
+    Component.ConditionalRender({
+      component: Component.DimensionsPentagon({ showList: false, showHeading: false }),
+      condition: ({ fileData }) => fileData.slug === "wiki/Dimensions/Dimensions-of-Learning",
+    }),
   ],
   footer: Component.Footer({
     links: {

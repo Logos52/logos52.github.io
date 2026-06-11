@@ -1935,6 +1935,25 @@ body[data-slug="index"] .page-header > header .search {
   color: var(--gray);
 }
 
+.atlas-hex-orbit-head {
+  font-family: var(--codeFont);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gray);
+  padding: 0.5rem 0 0.15rem;
+}
+
+/* Hub-page variant: figure only, centered, no list card. */
+.atlas-hex--solo {
+  margin: 2rem auto 0;
+}
+
+.atlas-hex--solo .atlas-hex-row {
+  grid-template-columns: minmax(0, 460px);
+  justify-content: center;
+}
+
 @media (max-width: 800px) {
   .atlas-hex-row {
     grid-template-columns: 1fr;
