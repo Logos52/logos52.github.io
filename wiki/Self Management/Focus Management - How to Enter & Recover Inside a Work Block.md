@@ -1,8 +1,9 @@
 ---
 type: system
 status: developing
+description: "System for entering work blocks, noticing drift, and training the return — because every long block includes drift, and recovery speed is what decides whether the block produces."
 created: 2026-05-08
-updated: 2026-05-23
+updated: 2026-06-11
 source-count: 8
 tags:
   - self-management
@@ -14,7 +15,7 @@ tags:
 
 # Focus Management: Training the Return Mechanism
 
-Focus Management trains the ability to enter a work block, notice attention drifting, and return to the intended task quickly enough that the block remains useful. It belongs to [[wiki/Dimensions/Self-Management|Self-Management]] because calendar time only matters when the attention inside that time can produce real work.
+Every long work block includes drift — what decides whether the block produces is how quickly attention returns once the drift is noticed. Focus Management trains that return: entering the block, catching the drift, and recovering fast enough that the block stays useful. It belongs to [[wiki/Dimensions/Self-Management|Self-Management]] because calendar time only matters when the attention inside that time can produce real work.
 
 The practical version:
 
@@ -85,7 +86,7 @@ Below the threshold:
 
 This matters because perfect attention is the wrong target. A useful session can contain distraction. The decisive variable is return speed.
 
-## Why Entry Speed Matters
+## Entry Speed Compounds
 
 Slow focus entry compounds against the whole block.
 
