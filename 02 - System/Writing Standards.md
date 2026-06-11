@@ -11,6 +11,8 @@ tags:
 
 # Writing Standards
 
+**Authority order (set 2026-06-11).** For wiki pages, **High-Signal Wiki Pages** (bottom of this document) is the primary standard. For decision documents, **High-Signal Decision Writing**. Everything between this line and those two sections is supporting detail from the earlier (May) standard: apply it where it doesn't conflict, and where it conflicts, the High-Signal sections win. An agent short on context reads the two High-Signal sections and skips the rest.
+
 These standards guide new pages and substantial rewrites in this wiki. They do not require retroactive rewrites of existing pages.
 
 ## Useful Operating Notes
