@@ -1713,8 +1713,37 @@ body[data-slug="index"] .page-header > header .search {
   margin-left: 0.35rem;
 }
 
-.atlas-ledger:empty {
-  display: none;
+.atlas-ledger {
+  border-top: 1px solid var(--lightgray);
+  border-bottom: 1px solid var(--lightgray);
+  padding: 0.55rem 0;
+}
+
+.atlas-ledger-line {
+  font-family: var(--codeFont);
+  font-size: 11px;
+  line-height: 1.9;
+  margin: 0;
+  display: flex;
+  gap: 0.65rem;
+}
+
+.atlas-ledger-label {
+  flex: 0 0 auto;
+  min-width: 4.5rem;
+}
+
+.atlas-ledger-last .atlas-ledger-label {
+  color: var(--secondary);
+}
+
+.atlas-ledger-last .atlas-ledger-text {
+  color: var(--text-secondary);
+}
+
+.atlas-ledger-prev .atlas-ledger-label,
+.atlas-ledger-prev .atlas-ledger-text {
+  color: var(--gray);
 }
 
 .atlas-trails h2 {
