@@ -12,7 +12,7 @@ tags:
 
 # Learning, Condensed
 
-**The corpus in one paragraph:** learning quality is decided at encoding, never at review. Encode by committing to an answer before seeing one, by building relationships rather than collecting facts, and by working concepts before labels. Retrieval converts what encoding built into knowledge that performs under pressure — uncued, varied in form, spaced so partial forgetting can do its work. A failed recall is an encoding defect to re-encode from a new angle, never a scheduling problem. Real use is the best retrieval system there is. Around the whole loop sits regulation: a felt-difficulty gauge for whether learning is happening, calibration instead of scores, and sessions engineered so that no willpower is spent on choices.
+**The corpus in one paragraph:** encoding sets the ceiling — the structure built at first contact decides what exists to remember — and retrieval is a builder, not an audit: each recall strengthens, reorganizes, and stress-tests what encoding made. The enemy is passive review: re-reading and recognition feel like learning and aren't. So commit to answers before seeing them, build relationships rather than collections, work concepts before labels, and let daily use supply retrieval reps. When recall keeps failing, suspect the encoding before the schedule. Around the loop sits regulation — felt difficulty as the gauge, calibration over scores — and a session machine that spends no willpower on choices.
 
 Every line below links to the page that owns it.
 
@@ -30,16 +30,16 @@ Every line below links to the page that owns it.
 
 ## 2. Retrieval and spacing
 
-- **Uncued recall or it doesn't count.** Recognition feels like knowledge and isn't; the fluency of re-reading is the illusion the whole trap is built from ([[wiki/Dimensions/Retrieval|Retrieval]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]).
+- **Recall, not recognition.** Recognition feels like knowledge and isn't; re-reading's fluency is the illusion the whole trap is built from ([[wiki/Dimensions/Retrieval|Retrieval]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]).
 - **Space so forgetting helps.** Widening intervals exploit partial forgetting to reveal true gaps; a session with zero failed recalls was confirmation, not testing ([[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]], [[wiki/Dimensions/Retrieval|Retrieval]]).
 - **Rotate the angle.** Knowledge drilled in one direction is brittle; vary the retrieval form and the similarity window across sessions ([[wiki/Dimensions/Retrieval/Interleaving - Multiple Angles and Session Design|Interleaving: Multiple Angles]]).
 - **Reconstruction sits above recall:** form and judge new relationships among known nodes — curveball immunity lives there, not in replayed answers ([[wiki/Dimensions/Retrieval/Reconstruction - Retrieval Beyond Recall|Reconstruction]]).
 - **Teach it back.** Explaining whole → parts → whole, off pure memory, tests integration at every level at once ([[wiki/Dimensions/Retrieval/WPW|WPW]]).
-- **A lapse is an encoding defect.** Re-running the failed item re-runs the weak pathway; re-encode through a different connective route instead ([[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] gap repair).
+- **Repair gaps, don't re-rep them.** When an item keeps failing, suspect the encoding: rebuild the structure or the connection rather than rescheduling the same drill ([[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] gap repair, [[wiki/Dimensions/Retrieval|Retrieval]]).
 
 ## 3. Application
 
-- **Daily use counts as retrieval.** Retro-label each real-world rep, patch the missed ones, and schedule study around upcoming work instead of running parallel review ([[wiki/Dimensions/Retrieval/Opportunistic Retrieval|Opportunistic Retrieval]]).
+- **Daily use supplies retrieval reps.** Retro-label each real-world rep, patch what real use missed, and schedule study around upcoming work instead of running parallel review ([[wiki/Dimensions/Retrieval/Opportunistic Retrieval|Opportunistic Retrieval]]).
 - **For languages: meet material cold at the comprehensible edge.** No pre-memorized lists — reconstruct meaning from context, then learn exactly the missing pieces; words learned to solve a live problem outlast drilled ones ([[wiki/Language/Aim-Shoot-Skin for Language Learning|Aim-Shoot-Skin for Language Learning]]).
 - **For scripts: stagger the attributes.** Sound and meaning first, form attached days later, overlapping small cohorts; recall routes run through component cross-matching ([[wiki/Language/Chinese/The Pipelining Strategy|Pipelining]], [[wiki/Language/Chinese/The IME Method|IME Method]]).
 - **Hunt shared structure.** Components recombine; periodic passes over the whole collection find overlaps that per-item review never surfaces ([[wiki/Language/Chinese/Sound Series|Sound Series]], [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]).
@@ -66,4 +66,4 @@ Every line below links to the page that owns it.
 
 ---
 
-*Omitted deliberately: decision-making doctrine (lives under [[wiki/Decision Making/Decision Making|Decision Making]]), environment and ownership (under [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]), and agentic engineering (its own [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|hub]]). Every line above traces to a published page — a doctrine without an owner page is a gap, and two are flagged for the maintenance loop: uncued-recall hygiene and session-scope rules have no dedicated owners yet.*
+*Omitted deliberately: decision-making doctrine (lives under [[wiki/Decision Making/Decision Making|Decision Making]]), environment and ownership (under [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]), and agentic engineering (its own [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|hub]]). Every line above traces to a published page — a doctrine without an owner page is a gap, and three are flagged for the maintenance loop: recall-test hygiene (cueing, verdicts), session-scope rules, and the strong form of the lapse doctrine (when a failed item indicts encoding versus scheduling) have no dedicated owners yet.*
