@@ -1,38 +1,13 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { graphColorRulesFromDomains, graphLegendFromDomains } from "./quartz/domains"
 
 /**
  * Logos52 — Layout configuration (Living Atlas)
  */
 
-const graphLegend = [
-  { label: "Techniques", color: "#00a7ff" },
-  { label: "ICS / Learning", color: "#b968ff" },
-  { label: "Language", color: "#ffb000" },
-  { label: "Decision Making", color: "#ff7a1a" },
-  { label: "Minimalism", color: "black-white" },
-  { label: "Red Team", color: "#ff3b5c" },
-  { label: "Books", color: "#00e5c3" },
-  { label: "Concepts", color: "#9aa4ff" },
-  { label: "Workflows", color: "#b8ff2c" },
-  { label: "Money", color: "#2fa36b" },
-]
-
-const graphColorRules = [
-  { prefix: "wiki/Techniques/", color: "#00a7ff" },
-  { prefix: "wiki/Syntheses/ICS-System", color: "#b968ff" },
-  { prefix: "wiki/Dimensions/", color: "#b968ff" },
-  { prefix: "wiki/Self-Management/", color: "#b968ff" },
-  { prefix: "wiki/Language/", color: "#ffb000" },
-  { prefix: "wiki/Resources/", color: "#ffb000" },
-  { prefix: "wiki/Decision-Making/", color: "#ff7a1a" },
-  { prefix: "wiki/Minimalism/", color: "black-white" },
-  { prefix: "wiki/Red-Team/", color: "#ff3b5c" },
-  { prefix: "wiki/Books/", color: "#00e5c3" },
-  { prefix: "wiki/Concepts/", color: "#9aa4ff" },
-  { prefix: "wiki/Workflows/", color: "#b8ff2c" },
-  { prefix: "wiki/Money/", color: "#2fa36b" },
-]
+const graphLegend = graphLegendFromDomains()
+const graphColorRules = graphColorRulesFromDomains()
 
 const wikiGraphBase = {
   drag: true,
@@ -162,6 +137,10 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: Component.ContentMeta(),
+      condition: ({ fileData }) => !hideArticleChrome(fileData.slug),
+    }),
+    Component.ConditionalRender({
+      component: Component.DomainAccent(),
       condition: ({ fileData }) => !hideArticleChrome(fileData.slug),
     }),
     Component.ConditionalRender({

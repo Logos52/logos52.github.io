@@ -3,6 +3,7 @@ import breadcrumbsStyle from "./styles/breadcrumbs.scss"
 import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/path"
 import { classNames } from "../util/lang"
 import { trieFromAllFiles } from "../util/ctx"
+import { colorOf } from "../domains"
 
 type CrumbData = {
   displayName: string
@@ -76,11 +77,19 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       crumbs.pop()
     }
 
+    const slug = fileData.slug ?? ""
+    const firstCrumbColor = slug.startsWith("wiki/") ? colorOf(slug) : "var(--secondary)"
+
     return (
       <nav class={classNames(displayClass, "breadcrumb-container")} aria-label="breadcrumbs">
         {crumbs.map((crumb, index) => (
           <div class="breadcrumb-element">
-            <a href={crumb.path}>{crumb.displayName}</a>
+            <a
+              href={crumb.path}
+              style={index === 0 ? { color: firstCrumbColor } : undefined}
+            >
+              {crumb.displayName}
+            </a>
             {index !== crumbs.length - 1 && <p>{` ${options.spacerSymbol} `}</p>}
           </div>
         ))}

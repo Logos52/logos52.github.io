@@ -71,18 +71,7 @@ type TweenNode = {
   stop: () => void
 }
 
-const defaultColorRules = [
-  { prefix: "wiki/Techniques/", color: "#00a7ff" },
-  { prefix: "wiki/Syntheses/ICS-System", color: "#b968ff" },
-  { prefix: "wiki/Dimensions/", color: "#b968ff" },
-  { prefix: "wiki/Language/", color: "#ffb000" },
-  { prefix: "wiki/Resources/", color: "#ffb000" },
-  { prefix: "wiki/Minimalism/", color: "black-white" },
-  { prefix: "wiki/Red-Team/", color: "#ff3b5c" },
-  { prefix: "wiki/Books/", color: "#00e5c3" },
-  { prefix: "wiki/Concepts/", color: "#9aa4ff" },
-  { prefix: "wiki/Workflows/", color: "#b8ff2c" },
-]
+const FALLBACK_NODE_COLOR = "#6f6875"
 
 function resolveGraphColor(color: string | undefined) {
   if (color === "black-white") {
@@ -366,15 +355,13 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   // calculate color
   const color = (d: NodeData) => {
-    const configuredColor = (colorRules?.length ? colorRules : defaultColorRules).find((rule) =>
-      d.id.startsWith(rule.prefix),
-    )?.color
+    const configuredColor = colorRules?.find((rule) => d.id.startsWith(rule.prefix))?.color
     const resolvedColor = resolveGraphColor(configuredColor)
     const isCurrent = d.id === slug
     if (isCurrent) {
       return computedStyleMap["--secondary"]
     } else if (resolvedColor && !d.id.startsWith("tags/")) {
-      return resolvedColor
+      return resolvedColor ?? FALLBACK_NODE_COLOR
     } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
       return computedStyleMap["--tertiary"]
     } else {

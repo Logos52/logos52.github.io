@@ -5,6 +5,7 @@ import { classNames } from "../util/lang"
 // @ts-ignore
 import graphScript from "./scripts/graph.inline"
 import graphStyle from "./styles/graph.scss"
+import { graphColorRulesFromDomains } from "../domains"
 
 type Pick = { match: string; blurb: string }
 type Topic = { name: string; tag: string; icon: string; color: string }
@@ -74,22 +75,7 @@ const graphCfg = {
   nodeRank: "degree",
   nodeLimit: 26,
   mobileNodeLimit: 16,
-  colorRules: [
-    { prefix: "wiki/Dimensions/", color: "#b968ff" },
-    { prefix: "wiki/Concepts/", color: "#4f9dff" },
-    { prefix: "wiki/Syntheses/", color: "#e36bf0" },
-    { prefix: "wiki/Systems/", color: "#1fc7a0" },
-    { prefix: "wiki/Self-Management/", color: "#ff6fa3" },
-    { prefix: "wiki/Decision-Making/", color: "#ff8a3d" },
-    { prefix: "wiki/Workflows/", color: "#9bd62a" },
-    { prefix: "wiki/Language/", color: "#ffb000" },
-    { prefix: "wiki/Minimalism/", color: "#9aa0a6" },
-    { prefix: "wiki/Red-Team/", color: "#ff4d4d" },
-    { prefix: "wiki/Books/", color: "#00e5c3" },
-    { prefix: "wiki/Techniques/", color: "#00a7ff" },
-    { prefix: "wiki/Resources/", color: "#ffd166" },
-    { prefix: "wiki/Learning-Craft/", color: "#7c8cff" },
-  ],
+  colorRules: graphColorRulesFromDomains(),
 }
 
 const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
