@@ -32,6 +32,7 @@ export interface D3Config {
   mobileNodeLimit?: number
   spineLayout?: boolean
   hubSlugs?: string[]
+  hubLabels?: Record<string, string>
   recentDays?: number
   spineDomains?: { id: string; color: string; prefixes: string[] }[]
   pinnedSlugs?: string[]

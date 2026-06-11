@@ -103,7 +103,7 @@ const SPINE_LINK_COLOR = "#3a3640"
 // Reference aesthetic (mockup): hubs are landmarks ~9px; satellites tiny and neutral;
 // the band has organic vertical variance, not a flat centerline.
 const SPINE_HUB_RADIUS = 9
-const SPINE_Y_BAND = [-0.1, 0.07, -0.04, 0.1, -0.08, 0.04]
+const SPINE_Y_BAND = [-0.15, 0.11, -0.06, 0.15, -0.12, 0.06]
 const SPINE_LINK_ALPHA = 0.35
 const SPINE_SATELLITE_RADIUS = 3.5
 
@@ -249,9 +249,14 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     clusterForce,
     spineLayout,
     hubSlugs,
+    hubLabels,
     recentDays,
     spineDomains,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
+
+  const hubLabelOverrides = new Map<string, string>(
+    Object.entries(hubLabels ?? {}).map(([k, v]) => [simplifySlug(k as FullSlug) as string, v]),
+  )
 
   const simplifiedHubSlugs = new Set(
     (hubSlugs ?? []).map((s) => simplifySlug(s as FullSlug)),
@@ -828,7 +833,10 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const label = new Text({
       interactive: false,
       eventMode: "none",
-      text: n.text,
+      text:
+        isHub && spineLayout && hubLabelOverrides.has(nodeId)
+          ? hubLabelOverrides.get(nodeId)!
+          : n.text,
       alpha: isHub && spineLayout ? 1 : 0,
       anchor: { x: 0.5, y: 1.2 },
       style: {
@@ -989,8 +997,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
       const zoomScale = transform.k * opacityScale
       let scaleOpacity = Math.max((zoomScale - 1) / 3.75, 0)
-      if (spineLayout && currentZoom > 1.4) {
-        scaleOpacity = 1
+      if (spineLayout) {
+        // Satellites stay unlabeled at rest — zoom-to-fit must not fade them in.
+        scaleOpacity = currentZoom > 1.4 ? 1 : 0
       }
       const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
 
@@ -1050,6 +1059,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   if (spineLayout) {
     zoomToFitSpine()
+    // Re-fit once the simulation settles — the first fit runs against pre-settle positions.
+    simulation.on("end", () => zoomToFitSpine())
   }
 
   let stopAnimation = false

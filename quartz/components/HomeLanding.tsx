@@ -37,6 +37,16 @@ const spineGraphCfg = {
   colorRules: graphColorRulesFromDomains(),
   spineLayout: true,
   hubSlugs: [...SPINE_HUBS],
+  // Short display names for map landmarks — full page titles clip at the canvas edges.
+  hubLabels: {
+    "wiki/Syntheses/First-Principles-of-ICS": "ICS Learning",
+    "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering": "Agentic Engineering",
+    "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block":
+      "Focus",
+    "wiki/Minimalism/Minimalism-as-Systems-Design": "Minimalism",
+    "wiki/Red-Team/Red-Teaming": "Red Team",
+    "wiki/Language/Refold-Language-Learning-System": "Language",
+  },
   recentDays: 7,
   spineDomains: spineDomainsForGraph(),
 }
