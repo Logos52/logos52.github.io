@@ -819,6 +819,19 @@ Spacing should show up as easier re-entry within two sessions: the second retrie
 
 The decision-writing delete list applies verbatim: "honestly," "genuinely," "quite," "very," "really," "it's worth noting," "importantly," "arguably," and importance-announcing in all forms.
 
+## Condensed Pages
+
+A third genre (added 2026-06-11, modeled on the private ICS-CONDENSED and OUTLIER-CONDENSED references): one page that compresses an entire domain of the wiki into doctrine. The format, exactly:
+
+- **A bold one-paragraph total compression** at the top — the whole domain in 5–8 sentences. If the paragraph fails, the page fails.
+- **Numbered doctrine sections.** Each line is one rule: bolded operative lead, the mechanism in a clause, and a wikilink citation to the page that owns the full treatment. One to three lines per rule, never more.
+- **Tensions resolved explicitly.** Where two pages pull different directions, the condensed page states the reconciliation in one line rather than hiding the conflict.
+- **An omissions note** at the end: what was deliberately left out and where it lives.
+
+Source discipline: public condensed pages compress **wiki pages only** — every line must trace to a published page via its citation link. Private course corpora are never condensed publicly; that is what the raw/private references are for. The condensed page adds no new claims: a doctrine that lacks an owner page is a gap to flag, not a line to write.
+
+The genre's test: a reader who knows the domain should nod once per line; a reader who doesn't should be able to click any line and land on the page that teaches it.
+
 ## Related
 
 - [[AGENTS]]
