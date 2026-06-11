@@ -9,4 +9,4 @@ tags:
   - system
 ---
 
-Projects built around learning systems, agentic engineering, and personal tooling. Each card opens the full story. For retired ones, the story includes why the project ended and lessons that carried into the next build.
+Projects built around learning systems, agentic engineering, and personal tooling. Each card opens the full story — what it is, what worked, what broke. Retired projects keep their pages, including why they ended and what carried forward.

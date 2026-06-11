@@ -1,5 +1,6 @@
 ---
 title: "The 30-Day Plan — High-Propensity Planning Protocol"
+description: "Reusable planning protocol for complicated, overwhelming, important goals: a 6–12 month medium-term target, attribute-based performance goals stepped to 30 and 14 days, three layers of pre-answered barriers, and a sustainable practice-to-theory pace."
 type: synthesis
 status: seed
 created: 2026-06-11

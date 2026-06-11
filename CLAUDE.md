@@ -4,6 +4,8 @@ Writing and behavioral guidelines for LLM-assisted brief work. Merge with projec
 
 **Tradeoff:** These guidelines bias toward accuracy and scope discipline over speed. For trivial tasks, use judgment.
 
+**Decision documents** (PRDs, proposals, decision notes, memos) additionally follow the High-Signal Decision Writing section of `02 - System/Writing Standards.md`.
+
 ## 1. Before You Write
 
 **Identify the mechanism. Scope the brief. Resolve ambiguity first.**

@@ -1,5 +1,6 @@
 ---
 title: "Building a Schedule That Survives"
+description: "Priority-first nightly scheduling built for bad days: name the three ways schedules die — no schedule, vague blocks, over-packing — and build the plan that completes nine days out of ten."
 type: system
 status: seed
 created: 2026-06-11

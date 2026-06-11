@@ -340,6 +340,7 @@ Every page touched during an ingest should become meaningfully better.
 - Use Obsidian links for internal concepts: `[[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]]`.
 - Use normal markdown links for external URLs.
 - Avoid decorative formatting that makes files harder to diff.
+- Decision documents (PRDs, proposals, decision notes, weighing-options journal entries, memos) follow the **High-Signal Decision Writing** section of [[02 - System/Writing Standards|Writing Standards]]: verdict first, measured claims, steelman what you reject, price your own recommendation, falsifiable success criteria.
 
 ## Workbench and Archives
 

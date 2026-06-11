@@ -1,8 +1,9 @@
 ---
+title: "Suicidal Empathy (Book)"
 type: book
 status: seed
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-06-11
 source-count: 1
 tags:
   - books
@@ -13,7 +14,7 @@ tags:
   - red-teaming
 ---
 
-# Suicidal Empathy
+# Suicidal Empathy (Book)
 
 Gad Saad’s *Suicidal Empathy* (2026) is the direct emotional successor to *The Parasitic Mind*. Where the earlier book mapped cognitive pathogens, this one examines the affective dysregulation that makes those pathogens feel morally mandatory.
 

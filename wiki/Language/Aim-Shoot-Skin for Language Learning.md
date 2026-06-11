@@ -1,5 +1,6 @@
 ---
 title: "Aim-Shoot-Skin for Language Learning"
+description: "BHS for languages: aim at the just-not-understandable band, shoot the gaps a live passage exposes, skin to compress what accumulates — words learned to solve a live problem outlast words drilled in advance."
 type: system
 status: seed
 created: 2026-06-11

@@ -2,7 +2,7 @@
 type: system
 status: developing
 created: 2026-05-08
-updated: 2026-05-21
+updated: 2026-06-11
 tags:
   - system
   - writing
@@ -652,6 +652,94 @@ Each use keeps the heavy lifting in your hands:
 ```
 
 Headings for body sections should still follow the specificity rule — name the actual idea inside the section, not a template slot.
+
+## High-Signal Decision Writing
+
+The standards above govern wiki concept pages. This section governs the other genre: documents that argue for a decision — PRDs, proposals, decision notes, journal entries that weigh options, project post-mortems, and memos. It applies across all projects (llm-knowledge-base, cos, tsumugu, wnac, and future repos), not just this vault. Added 2026-06-11 after the Living Atlas A/B engine decision; the examples below come from that discussion.
+
+### Verdict First
+
+State the recommendation in the first two sentences, then spend the document earning it. The reader should never reach the verdict by scrolling.
+
+Weak:
+
+```text
+There are several factors to consider when choosing between the two engines...
+```
+
+Strong:
+
+```text
+Recommendation: A. The hard part of this project is faithfully rendering the vault, and A is the only option where that layer isn't our problem.
+```
+
+### Measure Before Asserting
+
+Any claim that can carry a measurement gets one — from the actual system, not from intuition. If the measurement is cheap, take it before writing the sentence. Adjectives are what you use when you haven't measured.
+
+Weak:
+
+```text
+The current bundle is heavy and the content index is large.
+```
+
+Strong:
+
+```text
+Every page parses a 700KB bundle; the content index is 1.3MB and growing linearly. The vault carries 2,478 wikilinks across 275 files — that's the porting surface.
+```
+
+### Steelman What You Reject
+
+Before the verdict closes, give the rejected option its strongest honest case — strong enough that someone who prefers it would recognize their own argument. Then state explicitly what evidence or change of goal would flip the decision. A document that can't name its flip condition hasn't finished deciding.
+
+```text
+What would flip me to B: typed content collections enforce the schema at build time, and if the five-year vision is one integrated platform rather than a published vault, B is the right call today.
+```
+
+### Price Your Own Recommendation
+
+Every recommendation carries its cost in the same breath. A recommendation with no stated cost reads as either unexamined or sold.
+
+```text
+Recommendation: A — accepting that upstream updates may conflict with our modified graph script, and that schema enforcement stays a lint script instead of a compile-time guarantee.
+```
+
+### Define the Comparison Before Arguing It
+
+Most stalled decisions are mislabeled. Before weighing options, state what is actually being compared — often it differs from the surface framing. One reframe sentence early saves paragraphs of confused argument.
+
+```text
+A vs B isn't Quartz vs Astro as frameworks. It's an existing vault-publishing engine with a custom skin vs a general framework plus a vault-publishing layer we build and own forever.
+```
+
+### Weigh the Cost of Being Wrong
+
+When options converge on outcome, decide on reversibility: what does retreat cost from each branch? State the asymmetry explicitly. (This is [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions]] applied to prose.)
+
+```text
+Choose A and outgrow it: the content is portable, the design transfers, we migrate having lost little. Choose B and hit the plumbing tax: months in before any visible work ships. When the edge isn't decisive, the reversible branch wins.
+```
+
+### Checkable Claims
+
+Success criteria, acceptance tests, and promised outcomes must be falsifiable — phrased so a reader could verify them without asking what was meant.
+
+Weak:
+
+```text
+The site should feel faster and links should work well.
+```
+
+Strong:
+
+```text
+Zero new broken internal links versus the baseline build; first visit in a clean profile renders dark; the home graph shows ≤30 nodes with 6 labeled hubs.
+```
+
+### Delete List
+
+Cut these on revision; each is a hedge or an intensifier doing no work: "honestly," "genuinely," "quite," "very," "really," "it's worth noting," "importantly," "arguably," "probably" (unless probability is the actual content — then give the number or the condition instead), "I think" in documents (the document is what you think).
 
 ## Related
 

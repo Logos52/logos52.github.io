@@ -1,5 +1,6 @@
 ---
 title: "Expectancy in Wicked Environments"
+description: "Makes expected value usable outside games: cut the small fry, weigh only the heavyweights, and rate chance and magnitude in broad bands until a wicked decision shrinks enough for game logic to apply."
 type: model
 status: seed
 created: 2026-06-11
