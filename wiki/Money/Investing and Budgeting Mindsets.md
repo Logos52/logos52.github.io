@@ -2,8 +2,9 @@
 title: "Investing & Budgeting Mindsets"
 type: hub
 status: seed
+description: "Hub for the money side of the base: a six-book reading list distilled to takeaways, four through-lines promoted to concept pages, and the one productive tension (frugality-to-independence vs spending down on experiences)."
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-11
 tags:
   - money
   - budgeting

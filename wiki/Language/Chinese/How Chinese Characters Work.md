@@ -1,8 +1,9 @@
 ---
 type: hub
 status: developing
+description: "Cluster hub: writing records speech, so characters bind form to sound and meaning; components classified by function per character make the script predictive instead of arbitrary. Reading order, one-line map, and where the cluster plugs into Refold."
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-11
 source-count: 1
 sources: Outlier Linguistics — Chinese Character Masterclass (local PDFs, not in repo)
 tags:
