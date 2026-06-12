@@ -182,6 +182,7 @@ When working on complex, long-term knowledge work, using multiple models in a de
 
 ## Related Pages
 
+- [[wiki/Systems/AI & Agentic Systems/Claude Fable|Claude Fable]]
 - [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]
 - [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]]
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
