@@ -1,6 +1,6 @@
 ---
 title: "Knowledge Base Index"
-description: "Full index for the public LLM-maintained knowledge base."
+description: "The complete catalog of every public page."
 type: index
 hideFolderListing: true
 created: 2026-05-02

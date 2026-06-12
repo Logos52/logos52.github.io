@@ -10,18 +10,18 @@ tags:
 
 # About
 
-I'm Wedge ([@webigis](https://x.com/webigis) on X). This is my public knowledge base, a second brain where I turn what I'm learning into durable, reusable notes, out in the open.
+I'm Wedge ([@webigis](https://x.com/webigis) on X). This is my public knowledge base: linked notes on learning systems, language study, and software work with LLM agents, kept in the open.
 
-Source material comes in, the useful structure gets written into linked markdown pages, and later questions build on what's already there. The goal is accumulation: a good source, question, or synthesis should leave the base a little more useful than before. Much of the upkeep runs through LLM agents working to written rules.
+Source material comes in, and the useful structure gets written into linked markdown pages. Pages get reworked as the standards rise, domains get compressed into condensed pages, and old pages resurface daily for review. The goal is accumulation: a good source, question, or synthesis should leave the base a little more useful than before. Much of the upkeep runs through LLM agents working to written rules.
 
-My focus is turning information into working systems: study workflows, decision-making tools, and practical ways to use AI agents as collaborators.
+My focus is turning information into working systems: study workflows, decision-making tools, and ways to use AI agents as collaborators.
 
 ## What I write about
 
 - **Learning systems** — encoding, retrieval, metacognition, and self-regulation.
 - **Agentic engineering** — building software with LLM agents while preserving taste, verification, and ownership.
 - **Attention and environment** — focus, social media, minimalism, recovery, and decision friction.
-- **Money** — budgeting and investing mindsets from first principles, and where AI actually changes them.
+- **Money** — budgeting and investing mindsets from first principles, and where AI changes them.
 - **中文** — Traditional Mandarin: how characters work, comprehensible input, and a reader that grows with your vocabulary.
 - **Language learning** — immersion, attention, comprehension, and practical workflows.
 

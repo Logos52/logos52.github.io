@@ -18,7 +18,7 @@ tags:
 
 # Journal
 
-What's moving through the knowledge base right now: active projects, open questions, and the running log. Entries here are working notes — they graduate into the wiki once the thinking settles.
+What's moving through the knowledge base right now: active projects, open questions, and the running log. Entries are working notes that graduate into the wiki once the thinking settles.
 
 ## What's top of mind
 

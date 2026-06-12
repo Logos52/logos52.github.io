@@ -7,7 +7,7 @@ Rebuild `quartz/components/HomeLanding.tsx` to the Atlas layout. All copy below 
 1. **Hero** (left-aligned, max 60ch):
    - h1, Lora: `A second brain for learning systems & agentic engineering`
    - Sub-line, mono 12px, text-secondary: `Maintained in the open — partly by LLM agents, under a fixed operating contract.`
-     **Amended 2026-06-12:** sub-line copy is now `Each page explains one idea in enough detail to use it, and links to the ideas it depends on.` — per the High-Signal Front-Facing Pages standard (Writing Standards). The original line above is dead; do not restore it.
+     **Amended 2026-06-12 (final):** sub-line copy is `Linked notes on learning systems, language study, and software work with LLM agents.` — a catalog line per Taglines Are Catalog Lines (Writing Standards). It renders on the same line as the h1 (`.atlas-hero` is flex-baseline). The original line above and every intermediate version are dead; do not restore them.
 2. **Search**: reuse the existing Search component, restyled as an inline bar below the hero (~46% width desktop, full mobile). Placeholder: `Find a note…`
 3. **Spine graph**: full content width, ~420px tall desktop / 260px mobile, using H3 `spineLayout` home config.
 4. **Legend chips** under the graph (from `DOMAINS`), plus a trailing mono hint in text-faded: `click a domain to filter · ring = updated this week`
