@@ -1639,29 +1639,15 @@ body[data-slug="index"] .page-header > header .search {
 }
 
 .atlas-hero {
-  display: flex;
-  align-items: baseline;
-  gap: 0.4rem 1rem;
+  max-width: 60ch;
 }
 
 .atlas-hero h1 {
-  flex: 0 0 auto;
   font-size: 1.9rem;
   font-weight: 500;
   line-height: 1.2;
-  margin: 0;
+  margin: 0 0 0.55rem;
   color: var(--dark);
-}
-
-.atlas-hero .atlas-hero-sub {
-  flex: 1 1 0;
-  min-width: 10rem;
-}
-
-@media (max-width: 800px) {
-  .atlas-hero {
-    flex-wrap: wrap;
-  }
 }
 
 .atlas-hero-sub {
