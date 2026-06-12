@@ -107,6 +107,9 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
     <div class={classNames(displayClass, "atlas-home")}>
       <header class="atlas-hero">
         <h1>A second brain for learning systems &amp; agentic engineering</h1>
+        <p class="atlas-hero-sub">
+          Linked notes on learning systems, language study, and software work with LLM agents.
+        </p>
       </header>
 
       <div class="atlas-search-wrap">

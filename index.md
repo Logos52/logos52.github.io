@@ -1,6 +1,6 @@
 ---
 title: "LLM Knowledge Base"
-description: "Wedge's second brain for learning systems and agentic engineering. Pages get reworked as standards rise, and old pages resurface daily."
+description: "Linked notes on learning systems, language study, and software work with LLM agents."
 type: index
 hideFolderListing: true
 created: 2026-05-02

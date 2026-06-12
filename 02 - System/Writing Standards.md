@@ -236,6 +236,21 @@ No navigation chatter, no device commentary, no narrating visible features (§0.
 
 Every front-facing claim must be checkable against the actual system, and checked before it ships. A calm, well-shaped sentence asserting behavior the system doesn't have is struck regardless of how it reads (the open-questions line, struck 2026-06-12). Live numbers come from the build, never from copy.
 
+### Taglines Are Catalog Lines
+
+A tagline or hero sub-line is a catalog line: a container noun plus topics, the way a library card or book subtitle reads. "Linked notes on learning systems, language study, and software work with LLM agents" (the KB hero, accepted 2026-06-12 after roughly a dozen struck attempts). A noun phrase predicates nothing, so it cannot sell, brag, hedge, or grade — every predicated alternative (mechanism claims, anatomy labels, state reports, provenance facts, date trivia) was struck on the way here.
+
+The rules the strikes produced, all binding:
+
+- **The attitude rides in the genre noun, never in attitude words.** "Notes," "a collection," "a vault," "a growing set" carry the work-in-progress posture by what they are. Never state the posture ("still open," "in progress as a whole," "some of it has settled") — that is hedging, which is self-regard pointed downward.
+- **Topics in reader words, not workshop words.** Learning, language, focus, money, building with LLM agents. Internal vocabulary (rules, doctrine, open questions, mechanisms, settling) belongs inside the pages, not on the door.
+- **Nouns, counts, and states only** in any status or coverage line: "complete," "in progress," a number, a date. Any word that admits a degree is a grade, and a grade is a sale ("deepest," "growing" as a status assertion, "filling in" all struck). The exemplar: "Coverage today: the TOCFL Level 1 characters, complete. Level 2 is in progress."
+- **The semicolon pair is the em dash in disguise.** Two balanced clauses are the same beat regardless of punctuation. One natural sentence or a plain noun phrase.
+- **The fact must pass "who cares."** The visitor's question is "what is this and is it for me." Dates, ordering trivia, and build counts fail it; topics answer it.
+- **The page never grades itself.** Values render as features and marks (字源/記憶法, the open-questions block), never as sentences about the artifact. Uncertainty renders as fact ("two tellings"), never as hedge words.
+
+This section governs Tsumugu's front-facing surfaces equally; its register authority there is PRD-Entry-Authoring §0.5–0.6 and the STYLE-CARD's banned list, which this section extends to chrome and taglines.
+
 ## The May standard
 
 Deleted 2026-06-12 at Wedge's direction: agents kept citing the subordinate May rules instead of the High-Signal sections. The full text lives in git history (commit bd5adc9). The High-Signal sections above are the complete standard.
