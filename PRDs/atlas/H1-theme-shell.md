@@ -30,6 +30,7 @@ Applies to **all content pages** (wiki, journal entries, projects, about). In `q
 - Footer links: `GitHub` → repo (unchanged); `About` → `/about` (replaces the "About this project" → GitHub README link).
 - `quartz.config.ts` `pageTitle` stays `Logos52`.
 - `index.md` frontmatter `description` and the og description become: `Wedge's second brain for learning systems and agentic engineering — maintained in the open, partly by LLM agents.`
+  **Amended 2026-06-12:** the description is now `Wedge's second brain for learning systems and agentic engineering. Each page explains one idea in enough detail to use it.` — per the High-Signal Front-Facing Pages standard (Writing Standards). Do not restore the original line.
 
 ## Acceptance
 

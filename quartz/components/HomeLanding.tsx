@@ -108,7 +108,9 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
       <header class="atlas-hero">
         <h1>A second brain for learning systems &amp; agentic engineering</h1>
         <p class="atlas-hero-sub">
-          Maintained in the open, partly by LLM agents — the thinking stays mine.
+          Source material comes in, and the useful structure gets written into linked pages.
+          Pages get reworked as standards rise, domains get compressed into condensed pages,
+          and old pages resurface daily.
         </p>
       </header>
 
@@ -161,7 +163,7 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
       </section>
 
       <section class="atlas-trails">
-        <h2>Trails — guided paths through the wiki</h2>
+        <h2>Trails</h2>
         <div class="atlas-trail-grid">
           {trails.map((t) => (
             <a

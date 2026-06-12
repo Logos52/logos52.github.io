@@ -11,7 +11,7 @@ tags:
 
 # Knowledge Base Index
 
-The complete catalog of every public page. The fastest ways in are the Map and the trails on the home page; the tables below are the exhaustive view.
+The complete catalog of every public page.
 
 ## Hubs & Condensed
 
