@@ -1431,9 +1431,25 @@ body[data-slug^="blog/"] #quartz-body {
       ". grid-center grid-sidebar-right"
       ". grid-footer grid-footer" !important;
     column-gap: 2rem !important;
-    max-width: calc(68ch + 220px + 4rem);
-    margin-inline: auto;
-    padding-inline: clamp(1.5rem, 4vw, 3rem);
+    max-width: calc(68ch + 220px + 4rem) !important;
+    margin-inline: auto !important;
+    padding-inline: clamp(1.5rem, 4vw, 3rem) !important;
+  }
+}
+
+/* The grid above names a `grid-center` area, but the only element carrying that
+   area is `.center > article` — a nested element, not a direct grid child, so the
+   assignment is inert. The real grid child `.center` then lands in the empty 1fr
+   spacer (~43px) and the article collapses to ~1ch, stacking every letter on wide
+   viewports. Place `.center` itself into the area. Scoped to >=1200px because that
+   is the only band where these area names exist. */
+@media (min-width: 1200px) {
+  body[data-slug^="wiki/"] .center,
+  body[data-slug="about"] .center,
+  body[data-slug^="journal/"]:not([data-slug="journal/index"]) .center,
+  body[data-slug^="projects/"]:not([data-slug="projects/index"]) .center,
+  body[data-slug^="blog/"] .center {
+    grid-area: grid-center;
   }
 }
 

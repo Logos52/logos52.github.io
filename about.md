@@ -4,17 +4,16 @@ description: "Short bio and orientation."
 type: about
 created: 2026-05-08
 updated: 2026-06-12
+enableToc: false
 tags:
   - system
 ---
 
 # About
 
-I'm Wedge ([@webigis](https://x.com/webigis) on X). This is my public knowledge base: linked notes on learning systems, language study, and software work with LLM agents, kept in the open.
+I'm Wedge ([@webigis](https://x.com/webigis) on X). I build software with LLM agents, and study languages and learning science. My current project is Tsumugu, a Traditional Mandarin encoding dictionary.
 
-Source material comes in, and the useful structure gets written into linked markdown pages. Pages get reworked as the standards rise, domains get compressed into condensed pages, and old pages resurface daily for review. The goal is accumulation: a good source, question, or synthesis should leave the base a little more useful than before. Much of the upkeep runs through LLM agents working to written rules.
-
-My focus is turning information into working systems: study workflows, decision-making tools, and ways to use AI agents as collaborators.
+The site is linked notes on learning systems, language study, and software work with LLM agents.
 
 ## What I write about
 
