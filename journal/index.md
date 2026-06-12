@@ -29,6 +29,10 @@ What's moving through the knowledge base right now: active projects, open questi
 
 ## Recent entries
 
+- [[journal/2026-06-12-grok-workstream-maximum-offload|2026-06-12]] — Grok workstream PRD: cribs + mechanics + fact-audits offloaded (TOCFL A-gaps→B1 campaign); QA split by independence; Fable keeps form, story, judgment.
+- [[journal/2026-06-12-tsumugu-bakeoff-and-dual-crib-line|2026-06-12]] — Three-model bake-off settles the lanes: Grok+Cursor crib with cross-check diffing (敵's misquote caught), stories confirmed top-model-only, five new style-card offenders from model strikes.
+- [[journal/2026-06-12-tsumugu-model-tiering-and-sonnet-researcher|2026-06-12]] — Tsumugu model tiering tested: Sonnet unsafe solo on chars, Opus viable, words to Sonnet; the Sonnet-as-researcher inversion logged for a pilot.
+
 - [[journal/2026-06-11-tsumugu-authoring-opens-and-encoding-review|2026-06-11]] — Tsumugu authoring opens: 53 entries, characters confirmed as the heart; encoding review lands drift badges, lookup-first identity, and the overlay rule (Rounds 7–8).
 - [[journal/2026-06-11-tsumugu-dictionary-custody-and-display|2026-06-11]] — Tsumugu dictionary: style pass shipped corpus-wide, content gets a private repo (tsumugu-ed) + scaling PRD, display rules locked (FORM first, tap-to-reveal, shift-to-peek).
 - [[journal/2026-06-11-living-atlas-and-decision-writing|2026-06-11]] — Living Atlas redesign decided (Quartz reskin over Astro rebuild); High-Signal Decision Writing standard installed across all projects.
