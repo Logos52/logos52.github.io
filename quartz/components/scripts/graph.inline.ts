@@ -989,6 +989,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       [width, height],
     ])
     .scaleExtent([0.25, 4])
+    // Two-finger swipe scrolls the page; the graph zooms only on pinch
+    // (trackpad pinch arrives as wheel + ctrlKey) or touch-pinch. Drag still pans.
+    .filter((event) => {
+      if (event.type === "wheel") return event.ctrlKey
+      return !event.button
+    })
     .on("zoom", ({ transform }) => {
       currentTransform = transform
       currentZoom = transform.k
