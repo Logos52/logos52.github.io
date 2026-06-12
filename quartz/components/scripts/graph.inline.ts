@@ -252,6 +252,11 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     hubLabels,
     recentDays,
     spineDomains,
+    flagSlugs,
+    flagLabels,
+    flagRadius,
+    flagShowLabel,
+    seedSlugs,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
   const hubLabelOverrides = new Map<string, string>(
@@ -261,12 +266,22 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const simplifiedHubSlugs = new Set(
     (hubSlugs ?? []).map((s) => simplifySlug(s as FullSlug)),
   )
+
+  // Lightweight flagging (no spine reorg): labelled, slightly larger landmark nodes.
+  const flagLabelOverrides = new Map<string, string>(
+    Object.entries(flagLabels ?? {}).map(([k, v]) => [simplifySlug(k as FullSlug) as string, v]),
+  )
+  const simplifiedFlagSlugs = new Set(
+    (flagSlugs ?? []).map((s) => simplifySlug(s as FullSlug)),
+  )
   const spineDomainList = spineDomains ?? []
   const recentWindowMs = (recentDays ?? 7) * 24 * 60 * 60 * 1000
   const recentCutoff = Date.now() - recentWindowMs
   const effectivePinned = [
     ...(pinnedSlugs ?? []),
     ...(spineLayout ? (hubSlugs ?? []) : []),
+    // Seed nodes (e.g. project anchors) must survive the node-limit trim.
+    ...(seedSlugs ?? []),
   ]
 
   const hiddenSlugs = new Set<SimpleSlug>(
@@ -356,7 +371,13 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       hubOrdinal++
     }
   } else {
-    const wl: (SimpleSlug | "__SENTINEL")[] = [slug, "__SENTINEL"]
+    // Seed the BFS from explicit slugs when given (e.g. project anchors), otherwise
+    // from the current page. With depth: 1 this selects the seeds + their neighbors.
+    const seeds: SimpleSlug[] =
+      seedSlugs && seedSlugs.length
+        ? seedSlugs.map((s) => simplifySlug(s as FullSlug)).filter((s) => validLinks.has(s))
+        : [slug]
+    const wl: (SimpleSlug | "__SENTINEL")[] = [...seeds, "__SENTINEL"]
     if (depth >= 0) {
       while (depth >= 0 && wl.length > 0) {
         const cur = wl.shift()!
@@ -624,7 +645,11 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const base = nodeBaseRadius ?? 2
     const linkScale = nodeLinkRadius ?? 1
     const max = nodeMaxRadius ?? 8
-    return Math.min(max, base + Math.sqrt(numLinks) * linkScale)
+    const computed = Math.min(max, base + Math.sqrt(numLinks) * linkScale)
+    if (simplifiedFlagSlugs.has(d.id)) {
+      return Math.max(flagRadius ?? 5, computed)
+    }
+    return computed
   }
 
   function isRecentlyUpdated(id: SimpleSlug): boolean {
@@ -637,6 +662,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   // Fewer connections => more transparent, so well-linked hubs stand out and
   // sparse/orphan notes recede. Adds depth/variety to the graph.
   function nodeOpacity(d: NodeData) {
+    if (simplifiedFlagSlugs.has(d.id)) return 1
     const numLinks = graphData.links.filter(
       (l) => l.source.id === d.id || l.target.id === d.id,
     ).length
@@ -828,19 +854,24 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   for (const n of graphData.nodes) {
     const nodeId = n.id
     const isHub = simplifiedHubSlugs.has(nodeId)
+    const isFlag = simplifiedFlagSlugs.has(nodeId)
     const nodeDomain = spineLayout ? domainForNode(nodeId, spineDomainList) : undefined
+
+    const labelText =
+      isHub && spineLayout && hubLabelOverrides.has(nodeId)
+        ? hubLabelOverrides.get(nodeId)!
+        : isFlag && flagLabelOverrides.has(nodeId)
+          ? flagLabelOverrides.get(nodeId)!
+          : n.text
 
     const label = new Text({
       interactive: false,
       eventMode: "none",
-      text:
-        isHub && spineLayout && hubLabelOverrides.has(nodeId)
-          ? hubLabelOverrides.get(nodeId)!
-          : n.text,
-      alpha: isHub && spineLayout ? 1 : 0,
+      text: labelText,
+      alpha: (isHub && spineLayout) || (isFlag && flagShowLabel) ? 1 : 0,
       anchor: { x: 0.5, y: 1.2 },
       style: {
-        fontSize: isHub && spineLayout ? 10 : fontSize * 15,
+        fontSize: isHub && spineLayout ? 10 : isFlag ? fontSize * 16.5 : fontSize * 15,
         fill:
           isHub && nodeDomain
             ? mixColor(nodeDomain.color, 0.7)
@@ -882,6 +913,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
     if (isTagNode) {
       gfx.stroke({ width: 2, color: computedStyleMap["--tertiary"] })
+    }
+
+    // Flagged landmark: a bright ring in the node's own (lightened) hue so it reads
+    // as an anchor without a permanent label.
+    if (isFlag) {
+      gfx.stroke({ width: 2.5, color: mixColor(color(n), 0.55) })
     }
 
     gfx.alpha = nodeOpacity(n)
@@ -1011,8 +1048,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
       for (const n of nodeRenderData) {
         const isHub = simplifiedHubSlugs.has(n.simulationData.id)
+        const isFlag = simplifiedFlagSlugs.has(n.simulationData.id)
         if (activeNodes.includes(n.label)) continue
-        if (isHub && spineLayout) {
+        if ((isHub && spineLayout) || (isFlag && flagShowLabel)) {
           n.label.alpha = 1
         } else {
           n.label.alpha = scaleOpacity

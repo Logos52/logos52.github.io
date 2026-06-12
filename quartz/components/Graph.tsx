@@ -37,6 +37,18 @@ export interface D3Config {
   spineDomains?: { id: string; color: string; prefixes: string[] }[]
   pinnedSlugs?: string[]
   clusterForce?: number
+  // Lightweight node flagging, independent of spineLayout: the listed slugs get a
+  // larger radius (flagRadius), full opacity, and a colored ring so they read as
+  // landmarks. Labels stay hover-only unless flagShowLabel is set (they collide in
+  // dense graphs). The force-directed layout is otherwise untouched.
+  flagSlugs?: string[]
+  flagLabels?: Record<string, string>
+  flagRadius?: number
+  flagShowLabel?: boolean
+  // Seed the depth-based neighborhood BFS from these slugs instead of the current
+  // page. With depth: 1 this yields "these nodes + their direct neighbors" — e.g. a
+  // set of project pages plus the notes and entries that link to them.
+  seedSlugs?: string[]
 }
 
 interface GraphOptions {

@@ -1,6 +1,13 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import { graphColorRulesFromDomains, graphLegendFromDomains } from "./quartz/domains"
+import { graphColorRulesFromDomains, graphLegendFromDomains, SPINE_HUBS } from "./quartz/domains"
+
+// The four domain "centers of mass" flagged on the Notes graph: learning (ICS),
+// agentic (Agentic-Engineering), focus (Focus-Management), language (Chinese chars).
+// Derived from the verified SPINE_HUBS so the slugs always match contentIndex.json.
+const notesFlagHubs = SPINE_HUBS.filter(
+  (s) => !s.includes("/Minimalism/") && !s.includes("/Money/"),
+)
 
 /**
  * Logos52 — Layout configuration (Living Atlas)
@@ -33,6 +40,8 @@ const wikiOverviewGraph = {
 
 const notesOverviewGraph = {
   ...wikiOverviewGraph,
+  flagSlugs: notesFlagHubs,
+  flagRadius: 8,
   fontSize: 0.62,
   nodeBaseRadius: 2,
   nodeLinkRadius: 1.18,

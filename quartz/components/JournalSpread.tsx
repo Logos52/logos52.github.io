@@ -12,31 +12,30 @@ import graphStyle from "./styles/graph.scss"
  * Reads the page's own markdown (the article tree) and turns each H2 section
  * into a card, so the journal stays normal markdown you edit in Obsidian.
  * A "Working on" section, if present, gets the wide left slot; the live
- * "Current Focus Nodes" graph sits top-right; the rest flow as cards.
+ * "Project Nodes" graph sits top-right; the rest flow as cards.
  */
 
-// Curated, high-value / actively-worked nodes. The graph component is extended
-// with `includeSlugs` (an allowlist) so the live Quartz graph shows exactly these.
-const FOCUS_SLUGS = [
-  "wiki/Dimensions/Dimensions-of-Learning",
-  "wiki/Dimensions/Deep-Processing",
-  "wiki/Dimensions/Self-Regulation",
-  "wiki/Dimensions/Self-Management",
-  "wiki/Dimensions/Mindset",
-  "wiki/Dimensions/Retrieval",
-  "wiki/Syntheses/First-Principles-of-ICS",
-  "wiki/Syntheses/Minimally-Viable-Learning-System",
-  "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering",
-  "wiki/Minimalism/Minimalism-as-Systems-Design",
-  "wiki/Workflows/Knowledge-Base-as-Thinking-Partner",
-  "wiki/Language/Refold-Language-Learning-System",
-  "wiki/Decision-Making/Decision-Making",
+// The journal's active projects — anchors of the "Project Nodes" graph. The graph
+// seeds a depth-1 neighborhood from these, so each project appears surrounded by the
+// notes and entries that link to it.
+const JOURNAL_PROJECTS = [
+  "projects/tsumugu",
+  "projects/wnac",
+  "projects/cos",
+  "projects/llm-knowledge-base",
 ]
+
+const PROJECT_LABELS: Record<string, string> = {
+  "projects/tsumugu": "Tsumugu",
+  "projects/wnac": "WNAC",
+  "projects/cos": "COS",
+  "projects/llm-knowledge-base": "LLM Knowledge Base",
+}
 
 const focusGraphCfg = {
   drag: true,
   zoom: true,
-  depth: -1,
+  depth: 1,
   scale: 0.85,
   repelForce: 1.0,
   centerForce: 0.13,
@@ -47,18 +46,22 @@ const focusGraphCfg = {
   removeTags: ["system"],
   focusOnHover: true,
   enableRadial: false,
-  includeSlugs: FOCUS_SLUGS,
+  seedSlugs: JOURNAL_PROJECTS,
+  flagSlugs: JOURNAL_PROJECTS,
+  flagLabels: PROJECT_LABELS,
+  flagRadius: 8,
+  flagShowLabel: true,
+  nodeLimit: 70,
+  mobileNodeLimit: 40,
   nodeBaseRadius: 3,
   nodeLinkRadius: 1.5,
   nodeMaxRadius: 10,
+  // Each project takes its related domain color; neighbors stay gray (FALLBACK).
   colorRules: [
-    { prefix: "wiki/Dimensions/", color: "#b968ff" },
-    { prefix: "wiki/Syntheses/", color: "#e36bf0" },
-    { prefix: "wiki/Systems/", color: "#4f9dff" },
-    { prefix: "wiki/Minimalism/", color: "#9aa0a6" },
-    { prefix: "wiki/Workflows/", color: "#9bd62a" },
-    { prefix: "wiki/Language/", color: "#ffb000" },
-    { prefix: "wiki/Decision-Making/", color: "#ff8a3d" },
+    { prefix: "projects/tsumugu", color: "#ffb000" }, // language / Chinese
+    { prefix: "projects/wnac", color: "#2fa36b" }, // money
+    { prefix: "projects/cos", color: "#4f9dff" }, // agentic
+    { prefix: "projects/llm-knowledge-base", color: "#b968ff" }, // learning
   ],
 }
 
@@ -108,7 +111,7 @@ const JournalSpread: QuartzComponent = ({ fileData, tree, displayClass }: Quartz
           </section>
         )}
         <section class="card js-graph">
-          <h2>Current Focus Nodes</h2>
+          <h2>Project Nodes</h2>
           <div class="graph">
             <div class="graph-outer">
               <div class="graph-container" data-cfg={JSON.stringify(focusGraphCfg)}></div>

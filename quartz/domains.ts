@@ -39,12 +39,6 @@ export const DOMAINS: Domain[] = [
     prefixes: ["Systems/", "Workflows/"],
   },
   {
-    id: "concepts",
-    label: "Concepts",
-    color: "#9aa4ff",
-    prefixes: ["Concepts/"],
-  },
-  {
     id: "focus",
     label: "Focus",
     color: "#ff6fa3",
@@ -92,7 +86,6 @@ export const DOMAINS: Domain[] = [
 export const SPINE_DOMAIN_ORDER = [
   "learning",
   "focus",
-  "concepts",
   "agentic",
   "decisions",
   "redteam",
