@@ -29,6 +29,7 @@ What's moving through the knowledge base right now: active projects, open questi
 
 ## Recent entries
 
+- [[journal/2026-06-12-kb-standards-commit-and-push-constraint|2026-06-12]] — KB redesign's review batch verified and committed (`bd5adc9`: High-Signal standards promoted, May docs superseded, decisions backfilled); push must run host-side — the Cowork sandbox can't auth to GitHub, and `.git` unlink is mount-blocked.
 - [[journal/2026-06-12-grok-workstream-maximum-offload|2026-06-12]] — Grok workstream PRD: cribs + mechanics + fact-audits offloaded (TOCFL A-gaps→B1 campaign); QA split by independence; Fable keeps form, story, judgment.
 - [[journal/2026-06-12-tsumugu-bakeoff-and-dual-crib-line|2026-06-12]] — Three-model bake-off settles the lanes: Grok+Cursor crib with cross-check diffing (敵's misquote caught), stories confirmed top-model-only, five new style-card offenders from model strikes.
 - [[journal/2026-06-12-tsumugu-model-tiering-and-sonnet-researcher|2026-06-12]] — Tsumugu model tiering tested: Sonnet unsafe solo on chars, Opus viable, words to Sonnet; the Sonnet-as-researcher inversion logged for a pilot.
