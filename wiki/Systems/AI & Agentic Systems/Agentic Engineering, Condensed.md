@@ -13,7 +13,7 @@ tags:
 
 # Agentic Engineering, Condensed
 
-**The corpus in one paragraph:** agents are tireless junior collaborators with huge recall, fast execution, and jagged judgment — they move implementation faster than traditional workflows, and the engineering bar survives only if human judgment, architecture, verification, and taste protect it. Vibe coding raises the floor: anyone can build. Agentic engineering raises the ceiling: speed without surrendering correctness, security, or responsibility. The human role moves up the stack — spec writer, taste holder, architect, reviewer, director — because thinking can be outsourced and understanding cannot. Everything below is split by half-life: the invariants should hold however capable the models become; the tactics are stamped with their date and expected to rot.
+Agents are tireless junior collaborators with huge recall, fast execution, and jagged judgment — they move implementation faster than traditional workflows, and the engineering bar survives only if human judgment, architecture, verification, and taste protect it. Vibe coding raises the floor: anyone can build. Agentic engineering raises the ceiling: speed without surrendering correctness, security, or responsibility. The human role moves up the stack — spec writer, taste holder, architect, reviewer, director — because thinking can be outsourced and understanding cannot. Everything below is split by half-life: the invariants should hold however capable the models become; the tactics are stamped with their date and expected to rot.
 
 ---
 

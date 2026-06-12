@@ -12,7 +12,7 @@ tags:
 
 # Learning, Condensed
 
-**The corpus in one paragraph:** encoding sets the ceiling — the structure built at first contact decides what exists to remember — and retrieval is a builder, not an audit: each recall strengthens, reorganizes, and stress-tests what encoding made. The enemy is passive review: re-reading and recognition feel like learning and aren't. So commit to answers before seeing them, build relationships rather than collections, work concepts before labels, and let daily use supply retrieval reps. When recall keeps failing, suspect the encoding before the schedule. Around the loop sits regulation — felt difficulty as the gauge, calibration over scores — and a session machine that spends no willpower on choices.
+Encoding sets the ceiling — the structure built at first contact decides what exists to remember — and retrieval is a builder, not an audit: each recall strengthens, reorganizes, and stress-tests what encoding made. The enemy is passive review: re-reading and recognition feel like learning and aren't. So commit to answers before seeing them, build relationships rather than collections, work concepts before labels, and let daily use supply retrieval reps. When recall keeps failing, suspect the encoding before the schedule. Around the loop sits regulation — felt difficulty as the gauge, calibration over scores — and a session machine that spends no willpower on choices.
 
 ---
 

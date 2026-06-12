@@ -14,7 +14,7 @@ tags:
 
 # Chinese Characters, Condensed
 
-**The cluster in one paragraph:** writing records speech, so a character binds a form to the sound and meaning of a spoken word — one item, three links, each strengthening and decaying on its own. The form decomposes into functional components — picture, sense, pronunciation cue, or nothing — and the job is assigned per character, never owned by the shape. At that functional level the script stops being arbitrary: components predict an unfamiliar character's meaning domain and syllable range before the dictionary opens, and a half-forgotten form can be rebuilt from the sound and sense you still hold. Senses descend from one original meaning, so most glosses are derivable rather than memorizable. Study runs ear-first — bind new forms to words already known by sound — and immersion stays the main event the whole system serves.
+Writing records speech, so a character binds a form to the sound and meaning of a spoken word — one item, three links, each strengthening and decaying on its own. The form decomposes into functional components — picture, sense, pronunciation cue, or nothing — and the job is assigned per character, never owned by the shape. At that functional level the script stops being arbitrary: components predict an unfamiliar character's meaning domain and syllable range before the dictionary opens, and a half-forgotten form can be rebuilt from the sound and sense you still hold. Senses descend from one original meaning, so most glosses are derivable rather than memorizable. Study runs ear-first — bind new forms to words already known by sound — and immersion stays the main event the whole system serves.
 
 ---
 

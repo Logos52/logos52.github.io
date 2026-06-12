@@ -12,7 +12,7 @@ tags:
 
 # Minimalism, Condensed
 
-**The corpus in one paragraph:** bandwidth, not money, is the bottleneck — every object, subscription, and commitment consumes maintenance attention, and the real cost of possessions is attention, space, maintenance, friction, and life constraints. The operating question is "what am I maintaining that no longer supports the life I am building?" Reduction comes before optimization, the want is cheaper to cancel than the object is to exit, and the room itself is part of the system: it cues action and sets defaults before willpower enters the picture. What reduction buys is slack — empty space as reserve capacity — and a legible identity.
+Bandwidth, not money, is the bottleneck — every object, subscription, and commitment consumes maintenance attention, and the real cost of possessions is attention, space, maintenance, friction, and life constraints. The operating question is "what am I maintaining that no longer supports the life I am building?" Reduction comes before optimization, the want is cheaper to cancel than the object is to exit, and the room itself is part of the system: it cues action and sets defaults before willpower enters the picture. What reduction buys is slack — empty space as reserve capacity — and a legible identity.
 
 ---
 

@@ -107,11 +107,6 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
     <div class={classNames(displayClass, "atlas-home")}>
       <header class="atlas-hero">
         <h1>A second brain for learning systems &amp; agentic engineering</h1>
-        <p class="atlas-hero-sub">
-          Source material comes in, and the useful structure gets written into linked pages.
-          Pages get reworked as standards rise, domains get compressed into condensed pages,
-          and old pages resurface daily.
-        </p>
       </header>
 
       <div class="atlas-search-wrap">
@@ -137,6 +132,11 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
           ))}
           <span class="atlas-legend-hint">click a domain to filter · ring = updated this week</span>
         </div>
+        <p class="atlas-hero-sub atlas-loop-note">
+          Source material comes in, and the useful structure gets written into linked pages.
+          Pages get reworked as standards rise, domains get compressed into condensed pages,
+          and old pages resurface daily.
+        </p>
       </section>
 
       <section class={classNames("atlas-strip", !showOpenQuestions && "atlas-strip--solo")}>
