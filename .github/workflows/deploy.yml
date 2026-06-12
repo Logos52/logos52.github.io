@@ -35,10 +35,10 @@ jobs:
         run: npm ci
 
       - name: Build Quartz
-        run: npx quartz build --directory .
+        run: npm run build
 
       - name: Publish-safety guard (blocks deploy on private/financial leak)
-        run: node tools/scripts/publish-guard.mjs
+        run: npm run guard
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

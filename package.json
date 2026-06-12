@@ -19,7 +19,7 @@
     "test": "tsx --test",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "prebuild": "node tools/ledger.mjs",
-    "build": "npm run prebuild && tsx ./quartz/bootstrap-cli.mjs build --directory .",
+    "build": "tsx ./quartz/bootstrap-cli.mjs build --directory .",
     "serve": "npm run prebuild && sh -c 'ulimit -n 10240 2>/dev/null; exec tsx ./quartz/bootstrap-cli.mjs build --serve --directory .'",
     "guard": "node tools/scripts/publish-guard.mjs",
     "guard:source": "node tools/scripts/publish-guard.mjs --source"
