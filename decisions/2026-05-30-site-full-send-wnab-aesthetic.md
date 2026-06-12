@@ -1,9 +1,10 @@
 ---
 title: "Site redesign: WNAB-influenced visual language + component-driven home"
 type: decision
-status: decided
+status: superseded
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-06-12
+superseded-by: "[[decisions/2026-06-11-living-atlas-design]]"
 ruled-out:
   - Keeping the flat/restrained theme
   - All-Lora abandoned for sans display (Space Grotesk / Nunito / Inter / Fraunces all tried and rejected)
@@ -18,6 +19,8 @@ links:
 ---
 
 # Site redesign: WNAB-influenced visual language + component-driven home
+
+> **Superseded 2026-06-11 by the Living Atlas redesign** ([[decisions/2026-06-11-living-atlas-design]]): the component home, panel layout, and graph treatment below were replaced; the Lora + JetBrains Mono pairing and amethyst accent carried forward into the Atlas tokens.
 
 Refreshed the public Quartz site (`logos52.github.io`) with a calmer-but-characterful look, character carried by **colour, shading, and layout** rather than the typeface.
 

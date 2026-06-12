@@ -7,7 +7,7 @@ These standards apply to all outputs Grok produces while working here — analys
 This is a thin, high-signal overlay. It is **not** a replacement for the master authorities:
 
 - Vault `AGENTS.md` (system operations + model roles)
-- `02 - System/Writing Standards.md` (core voice rules)
+- `02 - System/Writing Standards.md` (core voice rules — authority order: the **High-Signal Wiki Pages**, **High-Signal Decision Writing**, and **Condensed Pages** sections at the top are the primary standard; the May material below the Supporting Detail line is subordinate and loses conflicts)
 - Latest `hermes/skills/l3-to-l2-voice-converter/references/style-feedback.md` (living before/after refinements)
 
 **Core orientation:**

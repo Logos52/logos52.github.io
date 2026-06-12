@@ -2,7 +2,7 @@
 type: system
 status: developing
 created: 2026-05-08
-updated: 2026-06-11
+updated: 2026-06-12
 tags:
   - system
   - writing
@@ -11,7 +11,200 @@ tags:
 
 # Writing Standards
 
-**Authority order (set 2026-06-11).** For wiki pages, **High-Signal Wiki Pages** (bottom of this document) is the primary standard. For decision documents, **High-Signal Decision Writing**. Everything between this line and those two sections is supporting detail from the earlier (May) standard: apply it where it doesn't conflict, and where it conflicts, the High-Signal sections win. An agent short on context reads the two High-Signal sections and skips the rest.
+**Authority order (set 2026-06-11; document reordered to match 2026-06-12).** For wiki pages, **High-Signal Wiki Pages** is the primary standard. For decision documents, **High-Signal Decision Writing**. For domain-compression pages, **Condensed Pages**. These three sections open this document. Everything below the Supporting Detail line is the earlier (May) standard: apply it where it doesn't conflict, and where it conflicts, the High-Signal sections win. An agent short on context reads the three primary sections and stops.
+
+## High-Signal Decision Writing
+
+This section governs documents that argue for a decision — PRDs, proposals, decision notes, journal entries that weigh options, project post-mortems, and memos. It applies across all projects (llm-knowledge-base, cos, tsumugu, wnac, and future repos), not just this vault. Added 2026-06-11 after the Living Atlas A/B engine decision; the examples below come from that discussion.
+
+### Verdict First
+
+State the recommendation in the first two sentences, then spend the document earning it. The reader should never reach the verdict by scrolling.
+
+Weak:
+
+```text
+There are several factors to consider when choosing between the two engines...
+```
+
+Strong:
+
+```text
+Recommendation: A. The hard part of this project is faithfully rendering the vault, and A is the only option where that layer isn't our problem.
+```
+
+### Measure Before Asserting
+
+Any claim that can carry a measurement gets one — from the actual system, not from intuition. If the measurement is cheap, take it before writing the sentence. Adjectives are what you use when you haven't measured.
+
+Weak:
+
+```text
+The current bundle is heavy and the content index is large.
+```
+
+Strong:
+
+```text
+Every page parses a 700KB bundle; the content index is 1.3MB and growing linearly. The vault carries 2,478 wikilinks across 275 files — that's the porting surface.
+```
+
+### Steelman What You Reject
+
+Before the verdict closes, give the rejected option its strongest honest case — strong enough that someone who prefers it would recognize their own argument. Then state explicitly what evidence or change of goal would flip the decision. A document that can't name its flip condition hasn't finished deciding.
+
+```text
+What would flip me to B: typed content collections enforce the schema at build time, and if the five-year vision is one integrated platform rather than a published vault, B is the right call today.
+```
+
+### Price Your Own Recommendation
+
+Every recommendation carries its cost in the same breath. A recommendation with no stated cost reads as either unexamined or sold.
+
+```text
+Recommendation: A — accepting that upstream updates may conflict with our modified graph script, and that schema enforcement stays a lint script instead of a compile-time guarantee.
+```
+
+### Define the Comparison Before Arguing It
+
+Most stalled decisions are mislabeled. Before weighing options, state what is actually being compared — often it differs from the surface framing. One reframe sentence early saves paragraphs of confused argument.
+
+```text
+A vs B isn't Quartz vs Astro as frameworks. It's an existing vault-publishing engine with a custom skin vs a general framework plus a vault-publishing layer we build and own forever.
+```
+
+### Weigh the Cost of Being Wrong
+
+When options converge on outcome, decide on reversibility: what does retreat cost from each branch? State the asymmetry explicitly. (This is [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions]] applied to prose.)
+
+```text
+Choose A and outgrow it: the content is portable, the design transfers, we migrate having lost little. Choose B and hit the plumbing tax: months in before any visible work ships. When the edge isn't decisive, the reversible branch wins.
+```
+
+### Checkable Claims
+
+Success criteria, acceptance tests, and promised outcomes must be falsifiable — phrased so a reader could verify them without asking what was meant.
+
+Weak:
+
+```text
+The site should feel faster and links should work well.
+```
+
+Strong:
+
+```text
+Zero new broken internal links versus the baseline build; first visit in a clean profile renders dark; the home graph shows ≤30 nodes with 6 labeled hubs.
+```
+
+### Delete List
+
+Cut these on revision; each is a hedge or an intensifier doing no work: "honestly," "genuinely," "quite," "very," "really," "it's worth noting," "importantly," "arguably," "probably" (unless probability is the actual content — then give the number or the condition instead), "I think" in documents (the document is what you think).
+
+## High-Signal Wiki Pages
+
+Added 2026-06-11 as the primary bar for wiki pages, superseding the May standard below: the earlier enforcement rules (under Supporting Detail) all still apply, and the decision-writing disciplines above translate into the concept-page genre on top of them. Wedge's directive: ironclad, not advisory.
+
+Not every page needs all eight. Small concept notes need Thesis First, Specifics, and Boundaries. Technique, system, and workflow pages need all eight — they recommend actions, so they owe the reader the full honesty kit. Hub and model pages need Thesis, Case Against, and Checkable Use.
+
+### Thesis First
+
+The first sentence is the page's operating claim — stricter than mechanism-first: not just "open with a mechanism," but "open with *the* claim the page exists to make."
+
+### Specifics Over Adjectives
+
+Any claim that can carry a number, a named instance, or a worked example gets one. Adjectives are what a page uses when it hasn't done the work.
+
+The specifics must be **operative** — they change what the reader does. Cost ratios, time horizons, thresholds, and worked examples qualify. Program statistics, cohort sizes, and testimonial numbers are decoration: they argue that a source is credible instead of teaching the technique, and they belong nowhere on a technique page. ("One error costs ~4x" is signal; "across 5,000 learners" is provenance.)
+
+Weak:
+
+```text
+Errors are costly, so accuracy should come first.
+```
+
+Strong:
+
+```text
+One error costs roughly 4x the time of doing the step right — you already work near your maximum quality speed, so speed gains come from changing the process, never from rushing.
+```
+
+### The Case Against
+
+Every model and technique page names the strongest honest case against itself: where it fails, who shouldn't use it, what it costs to believe. A page that cannot argue against itself is advertising.
+
+```text
+The model's seams are real: metacognition straddles two dimensions, and the Self-Management/Self-Regulation boundary takes deliberate effort to hold. The taxonomy earns its keep as a diagnostic, not as a claim about how the brain is organized.
+```
+
+### Price the Method
+
+Benefit and cost in the same breath. Time, setup, cognitive load, maintenance — whatever the method actually charges.
+
+```text
+WPW produces multi-level integration; it costs a full explanation cycle — twenty minutes or more per topic — which is why it belongs on high-value material, not vocabulary lists.
+```
+
+### Boundaries After Definition
+
+Distinguish the concept from its neighbours only after the positive definition has landed. (This is the Not X, But Y rule extended: contrast is a supporting move, never the lead.)
+
+### Quit Signals
+
+State what evidence means the method isn't working for this reader, and the next move. A technique without a quit signal traps people in sunk-cost practice.
+
+```text
+If two weeks of dimension-diagnosis hasn't changed what you do in the next session, stop diagnosing and study; return to the model when you hit a plateau you can't name.
+```
+
+### Checkable Expectations
+
+Promised effects must be falsifiable by the reader: "you should notice X within N sessions," never "this improves learning."
+
+Weak:
+
+```text
+Spaced retrieval dramatically improves retention.
+```
+
+Strong:
+
+```text
+Spacing should show up as easier re-entry within two sessions: the second retrieval of an item feels harder to start but finishes faster.
+```
+
+### No Scaffolding
+
+The page never talks about itself. Convention explainers ("every line below links to…"), navigation chatter ("see the sections below"), format announcements, and source commentary are scaffolding — the reader discovers visible conventions by looking at them. If a convention is genuinely opaque, that is a design problem in the convention, not a case for a decoder note.
+
+### Delete List
+
+The decision-writing delete list applies verbatim: "honestly," "genuinely," "quite," "very," "really," "it's worth noting," "importantly," "arguably," and importance-announcing in all forms.
+
+## Condensed Pages
+
+A third genre (added 2026-06-11, modeled on the private ICS-CONDENSED and OUTLIER-CONDENSED references): one page that compresses an entire domain of the wiki into doctrine. The format, exactly:
+
+- **A bold one-paragraph total compression** at the top — the whole domain in 5–8 sentences. If the paragraph fails, the page fails.
+- **Numbered doctrine sections.** Each line is one rule: bolded operative lead, the mechanism in a clause, and a wikilink citation to the page that owns the full treatment. One to three lines per rule, never more.
+- **Tensions resolved explicitly.** Where two pages pull different directions, the condensed page states the reconciliation in one line rather than hiding the conflict.
+- **An omissions note** at the end: what was deliberately left out and where it lives.
+
+Source discipline: public condensed pages compress **wiki pages only** — every line must trace to a published page via its citation link. Private course corpora are never condensed publicly; that is what the raw/private references are for. The condensed page adds no new claims: a doctrine that lacks an owner page is a gap to flag, not a line to write.
+
+The exemplars supply the **form, never the content**. The thesis paragraph is derived from the wiki's own pages, in the wiki's own framing — and any line that echoes a private exemplar's phrasing must re-trace to a public owner before it ships. (Established the hard way, 2026-06-11: "learning quality is decided at encoding, never at review" was imported from a course condensation and contradicts the wiki's own Retrieval page, which holds that recall itself builds learning. The wiki's framing wins over any source's polemic.)
+
+Form transfers need the same scrutiny as content: each structural slot in an exemplar must justify its **function** in the new context before it is copied. (Same day's second lesson: ICS-CONDENSED's citation-decoder line earns its place because "Camp I 209" is opaque; the public version's wikilinks are self-explanatory, so the copied explainer line was scaffolding and got deleted.)
+
+For fast-moving domains (agentic engineering is today's case): split the doctrine into **invariants** — rules expected to survive the underlying technology becoming far more capable — and **dated tactics**, stamped with their write date and expected to rot. The invariants are the page; the tactics section is honest about its half-life. A condensed page that mixes the two rots wholesale the first time the ground shifts.
+
+The genre's test: a reader who knows the domain should nod once per line; a reader who doesn't should be able to click any line and land on the page that teaches it.
+
+---
+
+## Supporting Detail — The May Standard (subordinate)
+
+Everything below this line is the earlier (May) standard, kept because the High-Signal sections incorporate its enforcement rules by reference. Apply it where it doesn't conflict; where it conflicts, the High-Signal sections above win.
 
 These standards guide new pages and substantial rewrites in this wiki. They do not require retroactive rewrites of existing pages.
 
@@ -654,193 +847,6 @@ Each use keeps the heavy lifting in your hands:
 ```
 
 Headings for body sections should still follow the specificity rule — name the actual idea inside the section, not a template slot.
-
-## High-Signal Decision Writing
-
-This section governs documents that argue for a decision — PRDs, proposals, decision notes, journal entries that weigh options, project post-mortems, and memos. It applies across all projects (llm-knowledge-base, cos, tsumugu, wnac, and future repos), not just this vault. Added 2026-06-11 after the Living Atlas A/B engine decision; the examples below come from that discussion.
-
-### Verdict First
-
-State the recommendation in the first two sentences, then spend the document earning it. The reader should never reach the verdict by scrolling.
-
-Weak:
-
-```text
-There are several factors to consider when choosing between the two engines...
-```
-
-Strong:
-
-```text
-Recommendation: A. The hard part of this project is faithfully rendering the vault, and A is the only option where that layer isn't our problem.
-```
-
-### Measure Before Asserting
-
-Any claim that can carry a measurement gets one — from the actual system, not from intuition. If the measurement is cheap, take it before writing the sentence. Adjectives are what you use when you haven't measured.
-
-Weak:
-
-```text
-The current bundle is heavy and the content index is large.
-```
-
-Strong:
-
-```text
-Every page parses a 700KB bundle; the content index is 1.3MB and growing linearly. The vault carries 2,478 wikilinks across 275 files — that's the porting surface.
-```
-
-### Steelman What You Reject
-
-Before the verdict closes, give the rejected option its strongest honest case — strong enough that someone who prefers it would recognize their own argument. Then state explicitly what evidence or change of goal would flip the decision. A document that can't name its flip condition hasn't finished deciding.
-
-```text
-What would flip me to B: typed content collections enforce the schema at build time, and if the five-year vision is one integrated platform rather than a published vault, B is the right call today.
-```
-
-### Price Your Own Recommendation
-
-Every recommendation carries its cost in the same breath. A recommendation with no stated cost reads as either unexamined or sold.
-
-```text
-Recommendation: A — accepting that upstream updates may conflict with our modified graph script, and that schema enforcement stays a lint script instead of a compile-time guarantee.
-```
-
-### Define the Comparison Before Arguing It
-
-Most stalled decisions are mislabeled. Before weighing options, state what is actually being compared — often it differs from the surface framing. One reframe sentence early saves paragraphs of confused argument.
-
-```text
-A vs B isn't Quartz vs Astro as frameworks. It's an existing vault-publishing engine with a custom skin vs a general framework plus a vault-publishing layer we build and own forever.
-```
-
-### Weigh the Cost of Being Wrong
-
-When options converge on outcome, decide on reversibility: what does retreat cost from each branch? State the asymmetry explicitly. (This is [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions]] applied to prose.)
-
-```text
-Choose A and outgrow it: the content is portable, the design transfers, we migrate having lost little. Choose B and hit the plumbing tax: months in before any visible work ships. When the edge isn't decisive, the reversible branch wins.
-```
-
-### Checkable Claims
-
-Success criteria, acceptance tests, and promised outcomes must be falsifiable — phrased so a reader could verify them without asking what was meant.
-
-Weak:
-
-```text
-The site should feel faster and links should work well.
-```
-
-Strong:
-
-```text
-Zero new broken internal links versus the baseline build; first visit in a clean profile renders dark; the home graph shows ≤30 nodes with 6 labeled hubs.
-```
-
-### Delete List
-
-Cut these on revision; each is a hedge or an intensifier doing no work: "honestly," "genuinely," "quite," "very," "really," "it's worth noting," "importantly," "arguably," "probably" (unless probability is the actual content — then give the number or the condition instead), "I think" in documents (the document is what you think).
-
-## High-Signal Wiki Pages
-
-Added 2026-06-11, superseding the sections above as the bar for wiki pages: the earlier enforcement rules all still apply, and the decision-writing disciplines below translate into the concept-page genre on top of them. Wedge's directive: ironclad, not advisory.
-
-Not every page needs all eight. Small concept notes need Thesis First, Specifics, and Boundaries. Technique, system, and workflow pages need all eight — they recommend actions, so they owe the reader the full honesty kit. Hub and model pages need Thesis, Case Against, and Checkable Use.
-
-### Thesis First
-
-The first sentence is the page's operating claim — stricter than mechanism-first: not just "open with a mechanism," but "open with *the* claim the page exists to make."
-
-### Specifics Over Adjectives
-
-Any claim that can carry a number, a named instance, or a worked example gets one. Adjectives are what a page uses when it hasn't done the work.
-
-The specifics must be **operative** — they change what the reader does. Cost ratios, time horizons, thresholds, and worked examples qualify. Program statistics, cohort sizes, and testimonial numbers are decoration: they argue that a source is credible instead of teaching the technique, and they belong nowhere on a technique page. ("One error costs ~4x" is signal; "across 5,000 learners" is provenance.)
-
-Weak:
-
-```text
-Errors are costly, so accuracy should come first.
-```
-
-Strong:
-
-```text
-One error costs roughly 4x the time of doing the step right — you already work near your maximum quality speed, so speed gains come from changing the process, never from rushing.
-```
-
-### The Case Against
-
-Every model and technique page names the strongest honest case against itself: where it fails, who shouldn't use it, what it costs to believe. A page that cannot argue against itself is advertising.
-
-```text
-The model's seams are real: metacognition straddles two dimensions, and the Self-Management/Self-Regulation boundary takes deliberate effort to hold. The taxonomy earns its keep as a diagnostic, not as a claim about how the brain is organized.
-```
-
-### Price the Method
-
-Benefit and cost in the same breath. Time, setup, cognitive load, maintenance — whatever the method actually charges.
-
-```text
-WPW produces multi-level integration; it costs a full explanation cycle — twenty minutes or more per topic — which is why it belongs on high-value material, not vocabulary lists.
-```
-
-### Boundaries After Definition
-
-Distinguish the concept from its neighbours only after the positive definition has landed. (This is the Not X, But Y rule extended: contrast is a supporting move, never the lead.)
-
-### Quit Signals
-
-State what evidence means the method isn't working for this reader, and the next move. A technique without a quit signal traps people in sunk-cost practice.
-
-```text
-If two weeks of dimension-diagnosis hasn't changed what you do in the next session, stop diagnosing and study; return to the model when you hit a plateau you can't name.
-```
-
-### Checkable Expectations
-
-Promised effects must be falsifiable by the reader: "you should notice X within N sessions," never "this improves learning."
-
-Weak:
-
-```text
-Spaced retrieval dramatically improves retention.
-```
-
-Strong:
-
-```text
-Spacing should show up as easier re-entry within two sessions: the second retrieval of an item feels harder to start but finishes faster.
-```
-
-### No Scaffolding
-
-The page never talks about itself. Convention explainers ("every line below links to…"), navigation chatter ("see the sections below"), format announcements, and source commentary are scaffolding — the reader discovers visible conventions by looking at them. If a convention is genuinely opaque, that is a design problem in the convention, not a case for a decoder note.
-
-### Delete List
-
-The decision-writing delete list applies verbatim: "honestly," "genuinely," "quite," "very," "really," "it's worth noting," "importantly," "arguably," and importance-announcing in all forms.
-
-## Condensed Pages
-
-A third genre (added 2026-06-11, modeled on the private ICS-CONDENSED and OUTLIER-CONDENSED references): one page that compresses an entire domain of the wiki into doctrine. The format, exactly:
-
-- **A bold one-paragraph total compression** at the top — the whole domain in 5–8 sentences. If the paragraph fails, the page fails.
-- **Numbered doctrine sections.** Each line is one rule: bolded operative lead, the mechanism in a clause, and a wikilink citation to the page that owns the full treatment. One to three lines per rule, never more.
-- **Tensions resolved explicitly.** Where two pages pull different directions, the condensed page states the reconciliation in one line rather than hiding the conflict.
-- **An omissions note** at the end: what was deliberately left out and where it lives.
-
-Source discipline: public condensed pages compress **wiki pages only** — every line must trace to a published page via its citation link. Private course corpora are never condensed publicly; that is what the raw/private references are for. The condensed page adds no new claims: a doctrine that lacks an owner page is a gap to flag, not a line to write.
-
-The exemplars supply the **form, never the content**. The thesis paragraph is derived from the wiki's own pages, in the wiki's own framing — and any line that echoes a private exemplar's phrasing must re-trace to a public owner before it ships. (Established the hard way, 2026-06-11: "learning quality is decided at encoding, never at review" was imported from a course condensation and contradicts the wiki's own Retrieval page, which holds that recall itself builds learning. The wiki's framing wins over any source's polemic.)
-
-Form transfers need the same scrutiny as content: each structural slot in an exemplar must justify its **function** in the new context before it is copied. (Same day's second lesson: ICS-CONDENSED's citation-decoder line earns its place because "Camp I 209" is opaque; the public version's wikilinks are self-explanatory, so the copied explainer line was scaffolding and got deleted.)
-
-For fast-moving domains (agentic engineering is today's case): split the doctrine into **invariants** — rules expected to survive the underlying technology becoming far more capable — and **dated tactics**, stamped with their write date and expected to rot. The invariants are the page; the tactics section is honest about its half-life. A condensed page that mixes the two rots wholesale the first time the ground shifts.
-
-The genre's test: a reader who knows the domain should nod once per line; a reader who doesn't should be able to click any line and land on the page that teaches it.
 
 ## Related
 

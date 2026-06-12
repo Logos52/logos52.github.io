@@ -2,9 +2,10 @@
 title: "Site Aesthetic Refresh — WNAB design language for the Quartz site"
 description: "Full-send visual refresh of the public Quartz site: friendlier content-focused home, characterful typography, vivid cool palette, and pill/mono component language borrowed from WNAB and the site's own knowledge-graph colors."
 type: prd
-status: done
+status: superseded
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-06-12
+superseded-by: "[[journal/2026-06-11-living-atlas-and-decision-writing]]"
 tags:
   - prd
   - site
@@ -16,6 +17,8 @@ links:
 ---
 
 # Site Aesthetic Refresh
+
+> **Superseded 2026-06-11 by the Living Atlas redesign** ([[journal/2026-06-11-living-atlas-and-decision-writing]], handoffs in `PRDs/atlas/`), which replaced the home layout, graph treatment, and shell described here. The Lora + JetBrains Mono pairing and amethyst accent survive in the Atlas tokens; the rest of this document is history, not the live design.
 
 > Implemented on branch `redesign/wnab-aesthetic`. **The design evolved substantially during the build** — the sections below record the original direction; the **Implementation (final state)** section at the bottom and [[decisions/2026-05-30-site-full-send-wnab-aesthetic]] describe what actually shipped.
 
