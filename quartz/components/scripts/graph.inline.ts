@@ -135,8 +135,8 @@ function selectSpineConstellation(
   isMobile: boolean,
 ) {
   const { degree, neighbors } = buildAdjacency(links)
-  const satellitesPerHub = isMobile ? 1 : 3
-  const globalCap = 24
+  const satellitesPerHub = isMobile ? 2 : 5
+  const globalCap = 36
   const neighbourhood = new Set<SimpleSlug>()
   const satelliteParent = new Map<SimpleSlug, SimpleSlug>()
 

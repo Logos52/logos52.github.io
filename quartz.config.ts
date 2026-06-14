@@ -78,40 +78,39 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        // All Lora (headings, body, and chrome) for one cohesive serif voice —
-        // no sans/serif clash in the nav or sidebars. Hierarchy comes from weight
-        // and size. JetBrains Mono stays for code/labels only. Character comes
-        // from colour and shading, not the typeface.
-        header: "Lora",
-        body: "Lora",
-        code: "JetBrains Mono",
+        // Source Serif 4 across headings, body, and chrome for one cohesive
+        // paper-serif voice — no sans/serif clash in nav or sidebars; hierarchy
+        // from weight and size. IBM Plex Mono for code/labels. Character comes
+        // from colour and shading, not the typeface (Tsumugu "Paper & Ink").
+        header: "Source Serif 4",
+        body: "Source Serif 4",
+        code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#fbf8f4",
-          lightgray: "#e9e1db",
-          gray: "#a09690",
-          darkgray: "#38353f",
-          dark: "#1c1a20",
-          // Jewel-tone family: amethyst primary (cool & sophisticated, a touch
-          // more saturated than before) + a jewel-teal companion for variety.
-          secondary: "#734bb2",
-          // Teal pulled down to a muted companion so purple clearly leads.
-          tertiary: "#5a9e8f",
-          highlight: "rgba(115, 75, 178, 0.10)",
-          textHighlight: "#e7ddf2",
+          light: "#f7f3ea",
+          lightgray: "#ddd5c4",
+          gray: "#a59d8e",
+          darkgray: "#3a342b",
+          dark: "#211d18",
+          // Tsumugu "Paper & Ink": warm cream paper, warm-black ink, a single
+          // aubergine accent + a muted sage companion.
+          secondary: "#7f55a0",
+          tertiary: "#4e8377",
+          highlight: "rgba(127, 85, 160, 0.10)",
+          textHighlight: "#e9e0f0",
         },
         darkMode: {
-          light: "#171619",
-          lightgray: "#302c31",
-          gray: "#6f6875",
-          darkgray: "#ece7e2",
-          dark: "#f5f1ed",
-          // Lightened jewel tones (a touch brighter) for the dark surface.
-          secondary: "#c0a7ee",
+          light: "#17150f",
+          lightgray: "#373226",
+          gray: "#6b6451",
+          darkgray: "#cfc7b6",
+          dark: "#eae3d4",
+          // Lightened aubergine for the dark paper surface.
+          secondary: "#a98ac8",
           tertiary: "#88c4b7",
-          highlight: "rgba(192, 167, 238, 0.14)",
-          textHighlight: "#2e244a88",
+          highlight: "rgba(169, 138, 200, 0.16)",
+          textHighlight: "#3a2e4a88",
         },
       },
     },
