@@ -99,13 +99,35 @@ function domainTargetX(domainIndex: number, count: number, width: number): numbe
   return t * width - width / 2
 }
 
-const SPINE_LINK_COLOR = "#3a3640"
-// Reference aesthetic (mockup): hubs are landmarks ~9px; satellites tiny and neutral;
-// the band has organic vertical variance, not a flat centerline.
 const SPINE_HUB_RADIUS = 9
-const SPINE_Y_BAND = [-0.15, 0.11, -0.06, 0.15, -0.12, 0.06]
-const SPINE_LINK_ALPHA = 0.35
+const SPINE_IMPORTANT_RADIUS = 6
+const SPINE_OUTER_SATELLITE_RADIUS = 2.8
+const SPINE_Y_BAND = [-0.15, 0.11, -0.06, 0.15, -0.12, 0.06]  // vertical offsets for the 6 hubs — keeps the overall flat band shape from the reference layout while allowing local 2D spread per hub
+const SPINE_LINK_ALPHA = 0.26
 const SPINE_SATELLITE_RADIUS = 3.5
+const IMPORTANT_DEGREE_THRESHOLD = 3  // 3-tier threshold: non-primary nodes with deg >= this get important (domain color, boosted size); lower get gray/small to de-blob notes graph etc.
+
+// Link selection tuning for spine (to control visual shape without changing node positions much).
+// These directly address "flat parallelogram with clear outside outline, less middle clutter":
+// - Fewer hub spokes (less central density)
+// - Many more peripheral/sat/outer links (more on the outside edges)
+// - Targeted long cross-domain perimeter links (to trace top/bottom rails of the band for flat shape)
+// Tweak these consts and hard-refresh to iterate the outline vs interior balance.
+const SPINE_MAX_HUB_LINKS_PER_HUB = 3  // or 1 for Self Regulation
+const SPINE_EXTRA_PERIPHERAL_LINKS = 15
+const SPINE_OUTLINE_PERIMETER_LINKS = 4
+
+// Zoom fit tuning.
+// More generous padding around the core band for a less tight default view (more of the
+// flat constellation visible with breathing room). The structure, labels, and perimeter
+// outline are good; this just dials the auto-fit back so it doesn't feel overly zoomed-in
+// on first load. You can always manually zoom further with ctrl+scroll/pinch.
+const SPINE_ZOOM_PADDING = 25
+const SPINE_MAX_FIT_SCALE = 3.5
+const SPINE_ZOOM_IN_FACTOR = 1.05
+const SELF_REG_HUB = "wiki/Dimensions/Self-Regulation"
+// Links in spine mode use --gray (a bit more color/contrast on cream paper than --lightgray)
+// with modest alpha so they stay recessed but visible. "Just a smidge" more than the very faded 0.22.
 
 function linkKey(l: SimpleLinkData) {
   return [l.source, l.target].sort().join("|")
@@ -135,31 +157,60 @@ function selectSpineConstellation(
   isMobile: boolean,
 ) {
   const { degree, neighbors } = buildAdjacency(links)
+  // Dialed back globally (satellitesPerHub=3 desktop, globalCap=30, outers=1, extras=15, outline=4, hub links base=3)
+  // + minimal for Self Reg (0 sats, 0 outers, 1 link) to drop nodes/links while keeping flat horizontal band structure.
   const satellitesPerHub = isMobile ? 1 : 3
-  const globalCap = 24
+  const globalCap = 30
+  const outerPerPrimarySat = isMobile ? 0 : 1   // reduced to drop nodes/links globally while keeping flat band structure
   const neighbourhood = new Set<SimpleSlug>()
   const satelliteParent = new Map<SimpleSlug, SimpleSlug>()
+  const primarySatellites = new Set<SimpleSlug>()
 
   for (const hub of hubs) {
     if (!validLinks.has(hub)) continue
     neighbourhood.add(hub)
 
-    const candidates = [...(neighbors.get(hub) ?? [])]
+    const thisSats = hub === SELF_REG_HUB ? 0 : satellitesPerHub  // 0 for Self Reg; 3 globally to drop nodes/links
+    const directCands = [...(neighbors.get(hub) ?? [])]
       .filter((n) => n.startsWith("wiki/") && validLinks.has(n) && !hubs.has(n))
       .sort((a, b) => {
         const d = (degree.get(b) ?? 0) - (degree.get(a) ?? 0)
         return d !== 0 ? d : a.localeCompare(b)
       })
-      .slice(0, satellitesPerHub)
+      .slice(0, thisSats)
 
-    for (const sat of candidates) {
+    const addedDirectsThisHub: SimpleSlug[] = []
+    for (const sat of directCands) {
       if (neighbourhood.size >= globalCap) break
       neighbourhood.add(sat)
       satelliteParent.set(sat, hub)
+      primarySatellites.add(sat)
+      addedDirectsThisHub.push(sat)
+    }
+
+    // Thin outer layer of 2nd-degree nodes attached to the primary satellites.
+    // These become additional small gray (or important if high-degree) nodes
+    // on the very outside of each hub's group. Primary structure unchanged.
+    const thisOuters = hub === SELF_REG_HUB ? 0 : outerPerPrimarySat;  // 0 for Self Reg; 1 globally (down from 2) to drop nodes/links
+    for (const direct of addedDirectsThisHub) {
+      if (neighbourhood.size >= globalCap) break
+      const outerCands = [...(neighbors.get(direct) ?? [])]
+        .filter((n) => n.startsWith("wiki/") && validLinks.has(n) && !neighbourhood.has(n) && !hubs.has(n))
+        .sort((a, b) => {
+          const d = (degree.get(b) ?? 0) - (degree.get(a) ?? 0)
+          return d !== 0 ? d : a.localeCompare(b)
+        })
+        .slice(0, thisOuters)
+
+      for (const outer of outerCands) {
+        if (neighbourhood.size >= globalCap) break
+        neighbourhood.add(outer)
+        satelliteParent.set(outer, hub)  // point at hub so existing force/positioning code works unchanged
+      }
     }
   }
 
-  return { neighbourhood, satelliteParent }
+  return { neighbourhood, satelliteParent, primarySatellites }
 }
 
 function selectSpineLinks(
@@ -167,6 +218,7 @@ function selectSpineLinks(
   neighbourhood: Set<SimpleSlug>,
   hubs: Set<SimpleSlug>,
   degree: Map<SimpleSlug, number>,
+  spineDomains: SpineDomain[] = [],
 ) {
   const hasHubEndpoint = (l: SimpleLinkData) =>
     neighbourhood.has(l.source) &&
@@ -175,6 +227,7 @@ function selectSpineLinks(
 
   const chosen = new Map<string, SimpleLinkData>()
   for (const hub of hubs) {
+    const thisIncident = hub === SELF_REG_HUB ? 1 : SPINE_MAX_HUB_LINKS_PER_HUB  // 1 for Self Reg; 3 globally to drop links
     const incident = links
       .filter(hasHubEndpoint)
       .filter((l) => l.source === hub || l.target === hub)
@@ -184,7 +237,7 @@ function selectSpineLinks(
         const d = (degree.get(otherB) ?? 0) - (degree.get(otherA) ?? 0)
         return d !== 0 ? d : otherA.localeCompare(otherB)
       })
-      .slice(0, 6)
+      .slice(0, thisIncident)
 
     for (const l of incident) {
       chosen.set(linkKey(l), l)
@@ -194,9 +247,51 @@ function selectSpineLinks(
   const linkScore = (l: SimpleLinkData) =>
     Math.max(degree.get(l.source) ?? 0, degree.get(l.target) ?? 0)
 
+  // Fewer additional high-score peripheral links (sat-to-sat, outer-to-outer, outer-to-primary etc.).
+  // These add some density on the outside/perimeter of the constellation while keeping it clean.
+  // Goal: outline the edges (top/bottom of the band) rather than spokes from center.
+  // This + long perimeter outlines + reduced hub spokes (3 base/1 for Self Reg) + lower caps (15 extras, 4 outline) should give a clearer, less cluttered flat band.
+  const intraLinks = links
+    .filter((l) => neighbourhood.has(l.source) && neighbourhood.has(l.target) && !chosen.has(linkKey(l)))
+
+  const extra = intraLinks
+    .sort((a, b) => linkScore(b) - linkScore(a) || linkKey(a).localeCompare(linkKey(b)))
+    .slice(0, SPINE_EXTRA_PERIPHERAL_LINKS)
+
+  for (const l of extra) {
+    chosen.set(linkKey(l), l)
+  }
+
+  // Perimeter outline links: fewer LONG cross-domain sat/outer links (delta>=3).
+  // Purpose: trace the long top and bottom edges of the flat band (Y-band gives the organic slant).
+  // This outlines the outside. Combined with lower caps overall, the middle should be less cluttered and the shape flatter.
+  // Only long spans to avoid short vertical crosses.
+  if (spineDomains.length > 0) {
+    const domainOf = (id: SimpleSlug) => domainForNode(id, spineDomains)
+    const domainIndexMap = new Map(spineDomains.map((d, i) => [d.id, i]))
+
+    const longCrossSatLinks = intraLinks
+      .filter((l) => !chosen.has(linkKey(l)))
+      .filter((l) => {
+        const d1 = domainOf(l.source)?.id
+        const d2 = domainOf(l.target)?.id
+        if (!d1 || !d2 || d1 === d2) return false
+        const delta = Math.abs(domainIndexMap.get(d1)! - domainIndexMap.get(d2)!)
+        return delta >= 3  // only long spans → flat long sides, not short verticals that create diamond
+      })
+
+    const outlineLinks = longCrossSatLinks
+      .sort((a, b) => linkScore(b) - linkScore(a) || linkKey(a).localeCompare(linkKey(b)))
+      .slice(0, SPINE_OUTLINE_PERIMETER_LINKS)
+
+    for (const l of outlineLinks) {
+      chosen.set(linkKey(l), l)
+    }
+  }
+
   return [...chosen.values()]
     .sort((a, b) => linkScore(b) - linkScore(a) || linkKey(a).localeCompare(linkKey(b)))
-    .slice(0, 30)
+    .slice(0, 60)
 }
 
 function resolveGraphColor(color: string | undefined) {
@@ -245,6 +340,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     nodeRank,
     nodeLimit,
     mobileNodeLimit,
+    maxLinksPerNode,
     pinnedSlugs,
     clusterForce,
     spineLayout,
@@ -263,9 +359,11 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     Object.entries(hubLabels ?? {}).map(([k, v]) => [simplifySlug(k as FullSlug) as string, v]),
   )
 
-  const simplifiedHubSlugs = new Set(
+  let simplifiedHubSlugs = new Set(
     (hubSlugs ?? []).map((s) => simplifySlug(s as FullSlug)),
   )
+
+  let hubIdsInUserOrder = [];
 
   // Lightweight flagging (no spine reorg): labelled, slightly larger landmark nodes.
   const flagLabelOverrides = new Map<string, string>(
@@ -313,6 +411,63 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       .map(([k, v]) => [simplifySlug(k as FullSlug), v] as [SimpleSlug, ContentDetails])
       .filter(([slug]) => allowedByPrefix(slug)),
   )
+
+  // Robust augmentation: include any pages whose (normalized) "short name" matches one of the
+  // hub labels in the cfg (the exact names the user chose for the 6 primaries).
+  // For pages with title: in frontmatter use that; for condensed etc without, fall back to last
+  // path segment of the slug (the "title" part of the filename, as we listed them).
+  // This guarantees they get seeded into the initial simplifiedHubSlugs (before constellation
+  // selection), so they are added as hubs and get their satellites, regardless of slug string
+  // mismatches in the cfg hubSlugs.
+  // Guarantees all 6 are treated as primary (large, colored, labeled).
+  if (hubLabels && Object.keys(hubLabels).length > 0) {
+    const hubLabelValuesInOrder = Object.values(hubLabels || {});
+    hubIdsInUserOrder = [];
+    const desiredTitles = new Set(
+      hubLabelValuesInOrder.map((l: string) => l.toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim())
+    );
+    for (const desiredLabel of hubLabelValuesInOrder) {
+      const normDesired = desiredLabel.toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim();
+      // find the first (or any) slug in data whose title or short name matches
+      for (const [slug, details] of data) {
+        const rawTitle = details.title || slug.split('/').pop().replace(/\.md$/, '');
+        const t = rawTitle.toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim();
+        if (t === normDesired) {
+          hubIdsInUserOrder.push(slug);
+          simplifiedHubSlugs.add(slug);
+          break;  // one per desired
+        }
+      }
+    }
+    console.log('[graph debug] After aug, hubIdsInUserOrder:', hubIdsInUserOrder);
+    console.log('[graph debug] After aug, simplifiedHubSlugs size:', simplifiedHubSlugs.size, 'first few:', [...simplifiedHubSlugs].slice(0,5));
+  }
+
+  // Parallel robust augmentation for flagSlugs (notes/overview graph landmarks).
+  // Same title/short-name norm match as hubs, so cfg flag strings (even if they use
+  // the SPINE_HUBS human forms) resolve to the actual keys present in the built contentIndex data.
+  // This guarantees the flagged primaries get 3-tier treatment (large radius, domain color, ring, persistent label).
+  if ((flagSlugs ?? []).length > 0) {
+    const flagSlugList = (flagSlugs ?? []).map((s) => simplifySlug(s as FullSlug))
+    for (const cfgSlug of flagSlugList) {
+      if (data.has(cfgSlug)) {
+        simplifiedFlagSlugs.add(cfgSlug)
+        continue
+      }
+      // Try short-name / title match (handles any residual &/comma/space/punct diffs)
+      const short = (cfgSlug.split('/').pop() || '').toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim()
+      for (const [slug, details] of data) {
+        const rawTitle = details.title || slug.split('/').pop()!.replace(/\.md$/, '')
+        const t = rawTitle.toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim()
+        if (t === short || slug === cfgSlug) {
+          simplifiedFlagSlugs.add(slug)
+          break
+        }
+      }
+    }
+    console.log('[graph debug] After flag aug, simplifiedFlagSlugs size:', simplifiedFlagSlugs.size, 'flags:', [...simplifiedFlagSlugs])
+  }
+
   const links: SimpleLinkData[] = []
   const tags: SimpleSlug[] = []
   const validLinks = new Set(data.keys())
@@ -346,11 +501,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   const neighbourhood = new Set<SimpleSlug>()
   let satelliteParent = new Map<SimpleSlug, SimpleSlug>()
+  let primarySatellites = new Set<SimpleSlug>()
   const hubAnchorX = new Map<SimpleSlug, number>()
   const hubAnchorY = new Map<SimpleSlug, number>()
 
   if (spineLayout) {
-    const { neighbourhood: constellation, satelliteParent: satParents } = selectSpineConstellation(
+    const { neighbourhood: constellation, satelliteParent: satParents, primarySatellites: primaries } = selectSpineConstellation(
       simplifiedHubSlugs,
       links,
       validLinks,
@@ -358,15 +514,22 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     )
     satelliteParent = satParents
     constellation.forEach((id) => neighbourhood.add(id))
+    primarySatellites = primaries || new Set<SimpleSlug>()
+    // primarySatellites will be used by zoomToFitSpine to keep the view size based on core structure only
+    // (hubs + direct primary sats). Extra outer nodes won't cause zoom-out.
+    console.log('[graph debug] After constellation, neighbourhood size:', neighbourhood.size, 'hubs in it:', [...simplifiedHubSlugs].filter(h => neighbourhood.has(h)));
 
     const domainIndex = new Map<string, number>()
     spineDomainList.forEach((d, i) => domainIndex.set(d.id, i))
     let hubOrdinal = 0
-    for (const hub of simplifiedHubSlugs) {
+    for (const hub of hubIdsInUserOrder) {
       if (!neighbourhood.has(hub)) continue
-      const domain = domainForNode(hub, spineDomainList)
-      const idx = domain ? (domainIndex.get(domain.id) ?? 0) : 0
-      hubAnchorX.set(hub, domainTargetX(idx, spineDomainList.length, width))
+      // Force horizontal spread for the 6 hubs using their order in the list (0-5),
+      // so they appear in a horizontal band across the width (matching the original constellation reference).
+      // This prevents vertical stacking when multiple hubs land in the same domain column.
+      // Satellites are pulled to their hub's specific X position via the force.
+      // Y uses the SPINE_Y_BAND offsets in hub list order for the flat band with organic variance.
+      hubAnchorX.set(hub, domainTargetX(hubOrdinal, 6, width))
       hubAnchorY.set(hub, SPINE_Y_BAND[hubOrdinal % SPINE_Y_BAND.length] * height)
       hubOrdinal++
     }
@@ -466,29 +629,64 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
   })
   const nodeById = new Map(nodes.map((n) => [n.id, n]))
+  console.log('[graph debug] nodes count after build:', nodes.length);
 
   let graphLinks: LinkData[]
   if (spineLayout) {
     const { degree } = buildAdjacency(links)
-    graphLinks = selectSpineLinks(links, neighbourhood, simplifiedHubSlugs, degree)
+    graphLinks = selectSpineLinks(links, neighbourhood, simplifiedHubSlugs, degree, spineDomainList)
       .filter((l) => nodeById.has(l.source) && nodeById.has(l.target))
       .map((l) => ({
         source: nodeById.get(l.source)!,
         target: nodeById.get(l.target)!,
       }))
   } else {
-    graphLinks = links
+    let rawGraphLinks = links
       .filter((l) => neighbourhood.has(l.source) && neighbourhood.has(l.target))
-      .map((l) => ({
-        source: nodeById.get(l.source)!,
-        target: nodeById.get(l.target)!,
-      }))
+    if (maxLinksPerNode && maxLinksPerNode > 0) {
+      // Cap links per node (degree) -- main lever for reducing sheer # of links.
+      // (Keeps large #nodes, doesn't bloat radii.) Top-K by other deg. Prunes sim+render.
+      const tempDeg = new Map<SimpleSlug, number>()
+      for (const l of rawGraphLinks) {
+        tempDeg.set(l.source, (tempDeg.get(l.source) || 0) + 1)
+        tempDeg.set(l.target, (tempDeg.get(l.target) || 0) + 1)
+      }
+      const nodeInc = new Map<SimpleSlug, SimpleLinkData[]>()
+      for (const l of rawGraphLinks) {
+        if (!nodeInc.has(l.source)) nodeInc.set(l.source, [])
+        nodeInc.get(l.source)!.push(l)
+        if (!nodeInc.has(l.target)) nodeInc.set(l.target, [])
+        nodeInc.get(l.target)!.push(l)
+      }
+      const selected = new Set<string>()
+      for (const [id, incs] of nodeInc) {
+        incs.sort((a, b) => {
+          const oa = a.source === id ? a.target : a.source
+          const ob = b.source === id ? b.target : b.source
+          return (tempDeg.get(ob) || 0) - (tempDeg.get(oa) || 0)
+        })
+        for (let i = 0; i < maxLinksPerNode && i < incs.length; i++) {
+          selected.add(linkKey(incs[i]))
+        }
+      }
+      rawGraphLinks = rawGraphLinks.filter((l) => selected.has(linkKey(l)))
+    }
+    graphLinks = rawGraphLinks.map((l) => ({
+      source: nodeById.get(l.source)!,
+      target: nodeById.get(l.target)!,
+    }))
   }
 
   const graphData: { nodes: NodeData[]; links: LinkData[] } = {
     nodes,
     links: graphLinks,
   }
+  console.log('[graph debug] graphData.nodes count:', graphData.nodes.length, 'is spine:', spineLayout);
+
+  // Degree helper defined early so nodeRadius (called during force simulation setup
+  // and collide) can use it without TDZ errors. Used for 3-tier classification.
+  const getDegree = (id: SimpleSlug) =>
+    graphData.links.filter((l) => l.source.id === id || l.target.id === id).length
 
   // we virtualize the simulation and use pixi to actually render it
   const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
@@ -500,7 +698,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     spineDomainList.forEach((d, i) => domainIndex.set(d.id, i))
 
     simulation
-      .force("charge", forceManyBody().strength(-200))
+      .force("charge", forceManyBody().strength(-250))
       .force("center", forceCenter().strength(0.02))
       .force("link", forceLink(graphData.links).distance(60))
       .force(
@@ -522,12 +720,22 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       .force(
         "y",
         forceY<NodeData>((d) => {
+          // Constellation mode: hubs have almost no vertical pinning (target 0 with low strength).
+          // Satellites (primary + outer) are pulled toward their hub's Y but loosely,
+          // so each hub forms a nice local 2D cloud of satellites around it.
           if (simplifiedHubSlugs.has(d.id)) return hubAnchorY.get(d.id) ?? 0
           const parent = satelliteParent.get(d.id)
           if (parent) return hubAnchorY.get(parent) ?? 0
           return 0
         }).strength((d) =>
-          simplifiedHubSlugs.has(d.id) ? 0.3 : satelliteParent.has(d.id) ? 0.12 : 0.08,
+          // Strong Y lock on hubs (0.85) to their exact SPINE_Y_BAND positions.
+          // This keeps the overall band flat like the reference picture (small total core height).
+          // Primary satellites: stronger Y (0.22) so the main "visible" cluster per hub hugs the band tightly → flatter.
+          // Outers: very loose Y (0.05) — these are the extra small nodes on the outside, can spread a bit in 2D
+          // without affecting the core band height used for zoom/fit.
+          simplifiedHubSlugs.has(d.id) ? 0.85 :
+            primarySatellites.has(d.id) ? 0.22 :
+            satelliteParent.has(d.id) ? 0.05 : 0.04,
         ),
       )
   } else {
@@ -585,7 +793,10 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     for (const n of graphData.nodes) {
       if (simplifiedHubSlugs.has(n.id)) {
         n.fx = hubAnchorX.get(n.id) ?? n.fx
-        n.fy = null
+        // Explicitly pin fy to the exact SPINE_Y_BAND position after settle.
+        // This is what keeps the overall structure flat (same total height as the reference image)
+        // instead of letting hubs drift vertically and make it tall.
+        n.fy = hubAnchorY.get(n.id) ?? n.fy
       }
     }
     simulation.tick(Math.ceil(settleTicks / 4))
@@ -613,10 +824,18 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   // calculate color
   const color = (d: NodeData) => {
-    // Spine mode: only hubs carry domain color — satellites stay neutral so the
-    // six landmarks own the canvas (reference aesthetic).
-    if (spineLayout && !simplifiedHubSlugs.has(d.id) && d.id !== slug) {
-      return computedStyleMap["--gray"]
+    // 3-tier system (spine and notes/overview):
+    // - primary (hubs or flagged): domain color (or secondary if current)
+    // - important (high deg non-primary): domain color (medium visual weight)
+    // - sparse: --gray (receded, less blob)
+    const isPrimary = spineLayout
+      ? simplifiedHubSlugs.has(d.id)
+      : simplifiedFlagSlugs.has(d.id)
+    if (!isPrimary && d.id !== slug) {
+      if (getDegree(d.id) < IMPORTANT_DEGREE_THRESHOLD) {
+        return computedStyleMap["--gray"]
+      }
+      // else fall through to domain color for important tier
     }
     const configuredColor = colorRules?.find((rule) => d.id.startsWith(rule.prefix))?.color
     const resolvedColor = resolveGraphColor(configuredColor)
@@ -633,12 +852,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   function nodeRadius(d: NodeData) {
-    if (spineLayout && simplifiedHubSlugs.has(d.id)) {
-      return SPINE_HUB_RADIUS
-    }
-    if (spineLayout && satelliteParent.has(d.id)) {
-      return SPINE_SATELLITE_RADIUS
-    }
+    const isPrimary = spineLayout
+      ? simplifiedHubSlugs.has(d.id)
+      : simplifiedFlagSlugs.has(d.id)
     const numLinks = graphData.links.filter(
       (l) => l.source.id === d.id || l.target.id === d.id,
     ).length
@@ -646,6 +862,27 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const linkScale = nodeLinkRadius ?? 1
     const max = nodeMaxRadius ?? 8
     const computed = Math.min(max, base + Math.sqrt(numLinks) * linkScale)
+    if (isPrimary) {
+      if (spineLayout) return SPINE_HUB_RADIUS
+      return Math.max(flagRadius ?? 5, computed)
+    }
+    if (spineLayout) {
+      const deg = getDegree(d.id)
+      if (deg >= IMPORTANT_DEGREE_THRESHOLD) {
+        return SPINE_IMPORTANT_RADIUS
+      }
+      if (satelliteParent.has(d.id)) {
+        if (!primarySatellites.has(d.id)) {
+          return SPINE_OUTER_SATELLITE_RADIUS
+        }
+        return SPINE_SATELLITE_RADIUS
+      }
+    }
+    const deg = getDegree(d.id)
+    if (deg >= IMPORTANT_DEGREE_THRESHOLD) {
+      // important tier (non-primary): natural larger size via link scaling; 3-tier mainly via color (not gray)
+      return computed
+    }
     if (simplifiedFlagSlugs.has(d.id)) {
       return Math.max(flagRadius ?? 5, computed)
     }
@@ -713,7 +950,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const tweenGroup = new TweenGroup()
 
     for (const l of linkRenderData) {
-      let alpha = 1
+      // Default (resting) alpha for spine links is the recessed SPINE_LINK_ALPHA (0.26)
+      // so normal state stays faded/recessed. Hover and domain-filter override it.
+      let alpha = spineLayout ? SPINE_LINK_ALPHA : 1
 
       // if we are hovering over a node, we want to highlight the immediate neighbours
       // with full alpha and the rest with default alpha
@@ -728,9 +967,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       }
 
       l.color = l.active
-        ? computedStyleMap["--gray"]
+        ? computedStyleMap["--darkgray"]
         : spineLayout
-          ? SPINE_LINK_COLOR
+          ? computedStyleMap["--gray"]
           : computedStyleMap["--lightgray"]
       tweenGroup.add(new Tweened<LinkRenderData>(l).to({ alpha }, 200))
     }
@@ -851,7 +1090,13 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const linkContainer = new Container<Graphics>({ zIndex: 1, isRenderGroup: true })
   stage.addChild(nodesContainer, labelsContainer, linkContainer)
 
-  for (const n of graphData.nodes) {
+  // Order nodes so non-hubs (satellites + importants) are added first;
+  // hubs added last => they paint on top (highest within nodes z-layer).
+  const orderedNodes = [
+    ...graphData.nodes.filter((n) => !simplifiedHubSlugs.has(n.id)),
+    ...graphData.nodes.filter((n) => simplifiedHubSlugs.has(n.id)),
+  ]
+  for (const n of orderedNodes) {
     const nodeId = n.id
     const isHub = simplifiedHubSlugs.has(nodeId)
     const isFlag = simplifiedFlagSlugs.has(nodeId)
@@ -864,20 +1109,23 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
           ? flagLabelOverrides.get(nodeId)!
           : n.text
 
+    const isSpineHub = isHub && spineLayout
     const label = new Text({
       interactive: false,
       eventMode: "none",
       text: labelText,
-      alpha: (isHub && spineLayout) || (isFlag && flagShowLabel) ? 1 : 0,
+      alpha: isSpineHub || (isFlag && flagShowLabel) ? 1 : 0,
       anchor: { x: 0.5, y: 1.2 },
       style: {
-        fontSize: isHub && spineLayout ? 10 : isFlag ? fontSize * 16.5 : fontSize * 15,
-        fill:
-          isHub && nodeDomain
-            ? mixColor(nodeDomain.color, 0.7)
-            : computedStyleMap["--dark"],
+        fontSize: isSpineHub ? 10 : isFlag ? fontSize * 16.5 : fontSize * 15,
+        fill: computedStyleMap["--dark"],
+        // Paper-colored halo/outline behind hub labels so they stay legible
+        // over links/nodes on the warm cream background (and dark surface).
+        ...(isSpineHub
+          ? { stroke: { color: computedStyleMap["--light"], width: 3 } }
+          : {}),
         fontFamily:
-          isHub && spineLayout
+          isSpineHub
             ? computedStyleMap["--codeFont"]
             : computedStyleMap["--bodyFont"],
       },
@@ -960,7 +1208,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const linkRenderDatum: LinkRenderData = {
       simulationData: l,
       gfx,
-      color: spineLayout ? SPINE_LINK_COLOR : computedStyleMap["--lightgray"],
+      color: spineLayout ? computedStyleMap["--gray"] : computedStyleMap["--lightgray"],
       alpha: spineLayout ? SPINE_LINK_ALPHA : 1,
       active: false,
     }
@@ -996,7 +1244,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
           if (!event.active) simulation.alphaTarget(0)
           if (spineLayout && simplifiedHubSlugs.has(event.subject.id)) {
             event.subject.fx = hubAnchorX.get(event.subject.id) ?? event.subject.fx
-            event.subject.fy = null
+            // Keep fy pinned to the band so dragging a hub doesn't break the flat shape.
+            event.subject.fy = hubAnchorY.get(event.subject.id) ?? event.subject.fy
           } else {
             event.subject.fx = null
             event.subject.fy = null
@@ -1052,20 +1301,33 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         if (activeNodes.includes(n.label)) continue
         if ((isHub && spineLayout) || (isFlag && flagShowLabel)) {
           n.label.alpha = 1
-        } else {
+        } else if (spineLayout) {
+          // Spine sats/outers: controlled fade (the scaleOpacity here is already overridden to 0/1 based on >1.4)
           n.label.alpha = scaleOpacity
+        } else {
+          // Notes / overview graph: non-flag (non-primary) labels stay hidden on zoom.
+          // This prevents "wall of text" — only the select flagged landmarks (5-6 primaries) show persistent names.
+          // Hover still boosts the hovered node + its immediate neighbors' labels via renderLabels + pointer handlers.
+          // "select number ... 5-6 out of the whole graph. or more. depending on spacing" satisfied by the flag set + hover for local detail.
+          n.label.alpha = 0
         }
       }
     })
 
   function zoomToFitSpine() {
     if (!spineLayout || graphData.nodes.length === 0) return
-    const padding = 40
+    const padding = SPINE_ZOOM_PADDING
     let minX = Infinity
     let maxX = -Infinity
     let minY = Infinity
     let maxY = -Infinity
     for (const n of graphData.nodes) {
+      // Only fit to the "core" structure (hubs + primary direct satellites).
+      // This keeps the original visual size/zoom level of the main spine even
+      // when we add extra outer satellite nodes for more detail on the edges.
+      const isCore = simplifiedHubSlugs.has(n.id) || primarySatellites.has(n.id)
+      if (!isCore) continue
+
       const r = nodeRadius(n)
       const px = (n.x ?? 0) + width / 2
       const py = (n.y ?? 0) + height / 2
@@ -1077,11 +1339,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const graphWidth = maxX - minX
     const graphHeight = maxY - minY
     if (graphWidth <= 0 || graphHeight <= 0) return
-    const fitScale = Math.min(
+    let fitScale = Math.min(
       (width - padding * 2) / graphWidth,
       (height - padding * 2) / graphHeight,
-      2.5,
+      SPINE_MAX_FIT_SCALE,
     )
+    fitScale *= SPINE_ZOOM_IN_FACTOR  // extra zoom-in on the core band for more detail (tunable)
     const midX = (minX + maxX) / 2
     const midY = (minY + maxY) / 2
     const transform = zoomIdentity

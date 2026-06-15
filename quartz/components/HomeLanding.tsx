@@ -42,16 +42,20 @@ const spineGraphCfg = {
   hubSlugs: [...SPINE_HUBS],
   // Short display names for map landmarks — full page titles clip at the canvas edges.
   hubLabels: {
-    "wiki/Syntheses/First-Principles-of-ICS": "ICS Learning",
-    "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering": "Agentic Engineering",
-    "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block":
-      "Focus",
-    "wiki/Minimalism/Minimalism-as-Systems-Design": "Minimalism",
-    "wiki/Money/Investing-and-Budgeting-Mindsets": "Money",
-    "wiki/Language/Chinese/How-Chinese-Characters-Work": "Chinese",
+    "wiki/Syntheses/Learning, Condensed": "Learning, Condensed",
+    "wiki/Systems/AI & Agentic Systems/Claude Fable": "Claude Fable",
+    "wiki/Dimensions/Self-Regulation": "Self Regulation",
+    "wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment": "Higher Order Generativity vs. Higher Order Judgment",
+    "wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed": "Agentic Engineering, Condensed",
+    "wiki/Money/Money, Condensed": "Money, Condensed",
   },
   recentDays: 7,
   spineDomains: spineDomainsForGraph(),
+  // Exclude this high-degree node from the home graph entirely (it was dominating the
+  // satellite selection around the Learning hub and made the visual too cluttered).
+  // Using both possible slug forms for robustness.
+  // (User request 2026-06-14)
+  excludeSlugs: ["wiki/ICS Program Map", "wiki/ICS-Program-Map"],
 }
 
 // Built slugs — verified against contentIndex.json. Raw vault paths break here.

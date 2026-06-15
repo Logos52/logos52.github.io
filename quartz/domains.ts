@@ -29,55 +29,49 @@ export const DOMAINS: Domain[] = [
   {
     id: "learning",
     label: "Learning",
-    color: "#b968ff",
-    prefixes: ["Dimensions/", "Syntheses/", "Techniques/", "Learning Craft/"],
+    color: "#7f55a0",
+    prefixes: ["Dimensions/", "Syntheses/", "Techniques/", "Learning Craft/", "Concepts/"],
   },
   {
     id: "agentic",
     label: "Agentic",
-    color: "#4f9dff",
+    color: "#3f74b8",
     prefixes: ["Systems/", "Workflows/"],
   },
   {
     id: "focus",
     label: "Focus",
-    color: "#ff6fa3",
+    color: "#c2506e",
     prefixes: ["Self Management/"],
   },
   {
     id: "decisions",
     label: "Decisions",
-    color: "#ff8a3d",
+    color: "#cf7d2c",
     prefixes: ["Decision Making/"],
-  },
-  {
-    id: "redteam",
-    label: "Red team",
-    color: "#ff4d4d",
-    prefixes: ["Red Team/"],
   },
   {
     id: "language",
     label: "Language",
-    color: "#ffb000",
+    color: "#c0961f",
     prefixes: ["Language/", "Resources/"],
   },
   {
     id: "minimalism",
     label: "Minimalism",
-    color: "#9aa0a6",
+    color: "#6f7a86",
     prefixes: ["Minimalism/"],
   },
   {
     id: "money",
     label: "Money",
-    color: "#2fa36b",
+    color: "#2f9162",
     prefixes: ["Money/"],
   },
   {
     id: "reference",
     label: "Reference",
-    color: "#88c4b7",
+    color: "#3e9788",
     prefixes: ["Books/", "Experiences/", "Domains/"],
   },
 ]
@@ -88,7 +82,6 @@ export const SPINE_DOMAIN_ORDER = [
   "focus",
   "agentic",
   "decisions",
-  "redteam",
   "language",
   "money",
   "minimalism",
@@ -115,14 +108,20 @@ export function colorOf(slug: string): string {
   return domainOf(slug)?.color ?? FALLBACK_COLOR
 }
 
-/** Built slugs — verified against contentIndex.json. Do not use raw vault paths. */
+/** Built slugs — verified against contentIndex.json. Do not use raw vault paths.
+ * Updated 2026-06-14 to the 6 requested nodes (normalized to match internal slugs:
+ * spaces/commas/punctuation → -, & → --and-- etc., consistent with existing SPINE_HUBS).
+ * The 6 hubs are spread horizontally via explicit positioning (see graph.inline.ts),
+ * while keeping all other structure (Y band offsets in this order, domain coloring,
+ * satellite selection, 3-tier, outline links, zoom, etc.).
+ */
 export const SPINE_HUBS = [
-  "wiki/Syntheses/First-Principles-of-ICS",
-  "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering",
-  "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block",
-  "wiki/Minimalism/Minimalism-as-Systems-Design",
-  "wiki/Money/Investing-and-Budgeting-Mindsets",
-  "wiki/Language/Chinese/How-Chinese-Characters-Work",
+  "wiki/Syntheses/Learning, Condensed",
+  "wiki/Systems/AI & Agentic Systems/Claude Fable",
+  "wiki/Dimensions/Self-Regulation",
+  "wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment",
+  "wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed",
+  "wiki/Money/Money, Condensed",
 ] as const
 
 export function graphLegendFromDomains(): { label: string; color: string }[] {

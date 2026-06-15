@@ -2,12 +2,13 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { graphColorRulesFromDomains, graphLegendFromDomains, SPINE_HUBS } from "./quartz/domains"
 
-// The four domain "centers of mass" flagged on the Notes graph: learning (ICS),
-// agentic (Agentic-Engineering), focus (Focus-Management), language (Chinese chars).
-// Derived from the verified SPINE_HUBS so the slugs always match contentIndex.json.
-const notesFlagHubs = SPINE_HUBS.filter(
-  (s) => !s.includes("/Minimalism/") && !s.includes("/Money/"),
-)
+// Landmarks for the Notes index graph (Knowledge Base Index / notes/index).
+// Uses the verified SPINE_HUBS (6 primaries) so the starting strings are the canonical set.
+// Runtime aug in graph.inline.ts does title/short-name norm matching against the actual built contentIndex
+// keys, so even small slugification diffs are rescued (same pattern that stabilized the home spine).
+// These 6 become the "primary" tier: large radius, domain color, colored ring, persistent labels (flagShowLabel).
+// 3-tier + caps: see notesOverviewGraph below + IMPORTANT_DEGREE_THRESHOLD / maxLinksPerNode in graph script.
+const notesFlagHubs = [...SPINE_HUBS]
 
 /**
  * Logos52 — Layout configuration (Living Atlas)
@@ -41,14 +42,17 @@ const wikiOverviewGraph = {
 const notesOverviewGraph = {
   ...wikiOverviewGraph,
   flagSlugs: notesFlagHubs,
-  flagRadius: 8,
+  flagRadius: 6,  // tuned smaller for notes (landmarks still stand out vs receded low-deg)
+  flagShowLabel: true,  // persistent labels on the 6 primaries (large/colored/text); prevents "blank/0" and gives the "select number" visible names at rest
   fontSize: 0.62,
-  nodeBaseRadius: 2,
-  nodeLinkRadius: 1.18,
-  nodeMaxRadius: 9.5,
+  nodeBaseRadius: 1.5,
+  nodeLinkRadius: 0.9,
+  nodeMaxRadius: 6.5,
   nodeRank: "content-heavy" as const,
-  nodeLimit: 180,
-  mobileNodeLimit: 80,
+  nodeLimit: 120,  // large node count as preferred (user likes volume of nodes)
+  mobileNodeLimit: 50,
+  maxLinksPerNode: 3,  // global per-node link cap (main lever to cut sheer #links / "blob" while keeping lots of nodes + 3-tier radii). 3 or 2 works well.
+
   enableRadial: false,
   clusterForce: 0.5,
   centerForce: 0.04,
