@@ -11,7 +11,10 @@ tags:
   - ics
 ---
 
-# Decision Making
+<div class="hub-page-title">
+<i class="ti ti-checklist" style="color:#ff8a3d"></i>
+<h1>Decision Making</h1>
+</div>
 
 Choosing under uncertainty should preserve time, focus, and adaptability instead of draining them. Use Decision Making when friction around what to do next, when to commit, when to change course, or how to judge whether a choice was good is slowing execution.
 

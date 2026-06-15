@@ -11,7 +11,10 @@ tags:
   - condensed
 ---
 
-# Money, Condensed
+<div class="hub-page-title">
+<i class="ti ti-wallet" style="color:#2fa36b"></i>
+<h1>Money, Condensed</h1>
+</div>
 
 Doing well with money is behaviour, not intelligence — temperament decides outcomes and the math is the easy part. Money is stored life energy: finite hours already traded, whose only worthwhile endpoint is buying the trading back. The gap between earning and spending is the single fully controllable lever, and it widens at the want, before any budget sees a transaction. Compounding pays for an uninterrupted horizon, not clever entries. And the game has no win condition until "enough" is a written number — without it, every milestone resets the goalpost. Tactics change with the market; this page keeps only the mindset layer, which doesn't.
 

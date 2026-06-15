@@ -12,7 +12,10 @@ tags:
   - retrieval
 ---
 
-# Retrieval
+<div class="hub-page-title">
+<i class="ti ti-circle-arrow-up" style="color:#f2c94c"></i>
+<h1>Retrieval</h1>
+</div>
 
 > Part of the [[wiki/Dimensions/Dimensions of Learning|Five Dimensions of Learning]].
 

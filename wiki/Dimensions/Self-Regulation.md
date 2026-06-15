@@ -12,7 +12,10 @@ tags:
   - self-regulation
 ---
 
-# Self-Regulation
+<div class="hub-page-title">
+<i class="ti ti-steering-wheel" style="color:#f47b20"></i>
+<h1>Self-Regulation</h1>
+</div>
 
 > Part of the [[wiki/Dimensions/Dimensions of Learning|Five Dimensions of Learning]].
 

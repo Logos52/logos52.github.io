@@ -3,9 +3,9 @@ type: hub
 status: developing
 description: "Best-practices hub for building with agents while protecting the engineering bar — quality, specs, verification, architecture, and human responsibility. Vibe coding raises the floor; this raises the ceiling. Doctrine layer: Agentic Engineering, Condensed."
 created: 2026-05-02
-updated: 2026-06-11
-source-count: 9
-last-audited: 2026-06-11
+updated: 2026-06-15
+source-count: 10
+last-audited: 2026-06-15
 tags:
   - llm
   - agents
@@ -14,13 +14,16 @@ tags:
   - ai-workflows
 ---
 
-# Agentic Engineering
+<div class="hub-page-title">
+<i class="ti ti-robot" style="color:#4f9dff"></i>
+<h1>Agentic Engineering</h1>
+</div>
 
 AI agents can move implementation faster than traditional workflows, but the engineering bar still has to be protected by human judgment, architecture, verification, and taste.
 
 Karpathy's distinction is useful: [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] raises the floor; agentic engineering raises the ceiling. Vibe coding lets many more people build. Agentic engineering is what skilled operators do when they want speed without giving up correctness, security, architecture, taste, and responsibility.
 
-The core shift is that the human increasingly operates as spec writer, taste holder, architect, reviewer, and director of agents.
+The core shift is that the human increasingly operates as spec writer, taste holder, architect, reviewer, verifier, and director of agents. Rauch's sharper version of the same shift: you are judged less by the output you ship and more by the factory that ships outputs — see [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].
 
 ## Core Idea
 
@@ -151,8 +154,11 @@ As agents improve, the human role shifts upward:
 - **Architecture:** how parts should fit.
 - **Spec:** what the system must do.
 - **Understanding:** enough internal model to steer the agents.
+- **Verification:** standing behind the artifact when it ships.
 
 This is Karpathy's "you can outsource thinking but not understanding" point. The agent can process, draft, search, and implement. The human still has to understand enough to direct the work.
+
+Rauch reframes review around that responsibility: the bar is not "I read every line" but "I understand the consequences of this PR and I will sign off on them" — or "I wrote the test harness and the type-checkers, so I can stand behind it without reading it." The cost that matters is not the zero-to-one of creation but the thousand-day question — is it still secure, tested, and maintained, and are you still willing to spend tokens keeping it alive. A second culture shift travels with it: increasingly the work is not doing the task but training the agent that does it, and capturing repeated moves as reusable skills. Both threads come from [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].
 
 ## Common Failure Modes
 
@@ -191,6 +197,7 @@ When working on complex, long-term knowledge work, using multiple models in a de
 - [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
 - [[wiki/Concepts/A Return to Code|A Return to Code]]
+- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 - [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]]
 
@@ -198,6 +205,7 @@ When working on complex, long-term knowledge work, using multiple models in a de
 
 - Andrej Karpathy — "From Vibe Coding to Agentic Engineering" and "How I use LLMs" (talks; distilled across this cluster).
 - Naval-adjacent clippings distilled into [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] and [[wiki/Concepts/A Return to Code|A Return to Code]].
+- Naval Ravikant et al., "The AI Industrial Revolution" (2026-06-02), distilled into [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].
 - Anthropic, "[Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)".
 - OpenAI, "[Agents SDK](https://developers.openai.com/api/docs/guides/agents)".
 - HumanLayer, "[12 Factor Agents](https://www.humanlayer.dev/blog/12-factor-agents)".

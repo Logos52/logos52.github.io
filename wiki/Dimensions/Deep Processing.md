@@ -12,7 +12,10 @@ tags:
   - deep-processing
 ---
 
-# Deep Processing
+<div class="hub-page-title">
+<i class="ti ti-affiliate" style="color:#8dc63f"></i>
+<h1>Deep Processing</h1>
+</div>
 
 > Part of the [[wiki/Dimensions/Dimensions of Learning|Five Dimensions of Learning]].
 

@@ -13,7 +13,10 @@ tags:
   - self-regulation
 ---
 
-# Focus Management: Training the Return Mechanism
+<div class="hub-page-title">
+<i class="ti ti-target" style="color:#ff6fa3"></i>
+<h1>Focus Management: Training the Return Mechanism</h1>
+</div>
 
 Every long work block includes drift — what decides whether the block produces is how quickly attention returns once the drift is noticed. Focus Management trains that return: entering the block, catching the drift, and recovering fast enough that the block stays useful. It belongs to [[wiki/Dimensions/Self-Management|Self-Management]] because calendar time only matters when the attention inside that time can produce real work.
 

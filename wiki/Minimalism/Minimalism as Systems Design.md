@@ -13,7 +13,10 @@ tags:
   - systems-design
 ---
 
-# Minimalism as Systems Design
+<div class="hub-page-title">
+<i class="ti ti-box" style="color:#9aa0a6"></i>
+<h1>Minimalism as Systems Design</h1>
+</div>
 
 Possessions keep charging after purchase — attention, space, maintenance, friction, life constraints — and reducing that ownership load is what makes an environment lighter, more maneuverable, and easier to act inside. Minimalism, run as systems design, is that reduction practice.
 

@@ -13,7 +13,10 @@ tags:
   - resilience
 ---
 
-# Mindset
+<div class="hub-page-title">
+<i class="ti ti-brain" style="color:#3fc1b0"></i>
+<h1>Mindset</h1>
+</div>
 
 > Part of the [[wiki/Dimensions/Dimensions of Learning|Five Dimensions of Learning]].
 

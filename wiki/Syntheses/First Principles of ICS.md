@@ -14,7 +14,10 @@ tags:
   - deep-processing
 ---
 
-# First Principles of ICS
+<div class="hub-page-title">
+<i class="ti ti-network" style="color:#8dc63f"></i>
+<h1>First Principles of ICS</h1>
+</div>
 
 The study system becomes self-correcting when the learner can see three levels at once: processing quality, strategies, and meta-strategies. First Principles of ICS explains those levels well enough to adjust when a technique becomes difficult, confusing, or fake-productive.
 

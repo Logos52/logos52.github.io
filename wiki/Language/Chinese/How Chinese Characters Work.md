@@ -14,7 +14,10 @@ tags:
   - hub
 ---
 
-# How Chinese Characters Work
+<div class="hub-page-title">
+<i class="ti ti-language" style="color:#ffb000"></i>
+<h1>How Chinese Characters Work</h1>
+</div>
 
 Writing records speech, so every Chinese character binds a form to the sound and meaning of a spoken word — three attributes whose pairwise links strengthen and decay independently. The form decomposes into functional components, each classified by the work it does in its host — a picture, a sense, a pronunciation cue, sometimes two of these at once, or nothing at all. The job is assigned per character — 立 (lì, "to stand") gives meaning in 端 (duān, "to stand up straight"), sound in 拉 (lā, "to pull"), and sits empty in 音 (yīn, "sound") — so every new glyph gets a fresh classification, and identical shapes may carry different histories.
 

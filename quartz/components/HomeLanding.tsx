@@ -92,27 +92,27 @@ const AtlasSearch = Search({ placeholder: "Find a note…" })
 // Set 2 = practical life / operating hubs (per user request).
 // Set 3 = high-leverage knowledge & execution hubs.
 const dimensionHubs = [
-  { title: "Deep Processing", sub: "encode, think on paper, bear hunter", slug: "wiki/Dimensions/Deep-Processing" as const, color: "#8dc63f" },
-  { title: "Retrieval", sub: "pull it back, spaced & interleaved", slug: "wiki/Dimensions/Retrieval" as const, color: "#f2c94c" },
-  { title: "Self-Regulation", sub: "drive, persistence, emotion", slug: "wiki/Dimensions/Self-Regulation" as const, color: "#f47b20" },
-  { title: "Self-Management", sub: "time, environment, focus blocks", slug: "wiki/Dimensions/Self-Management" as const, color: "#2d9cdb" },
-  { title: "Mindset", sub: "beliefs that make the system work", slug: "wiki/Dimensions/Mindset" as const, color: "#3fc1b0" },
+  { title: "Deep Processing", sub: "encode, think on paper, bear hunter", slug: "wiki/Dimensions/Deep-Processing" as const, color: "#8dc63f", icon: "ti-affiliate", tag: "deep-processing" },
+  { title: "Retrieval", sub: "pull it back, spaced & interleaved", slug: "wiki/Dimensions/Retrieval" as const, color: "#f2c94c", icon: "ti-circle-arrow-up", tag: "retrieval" },
+  { title: "Self-Regulation", sub: "drive, persistence, emotion", slug: "wiki/Dimensions/Self-Regulation" as const, color: "#f47b20", icon: "ti-steering-wheel", tag: "self-regulation" },
+  { title: "Self-Management", sub: "time, environment, focus blocks", slug: "wiki/Dimensions/Self-Management" as const, color: "#2d9cdb", icon: "ti-settings", tag: "self-management" },
+  { title: "Mindset", sub: "beliefs that make the system work", slug: "wiki/Dimensions/Mindset" as const, color: "#3fc1b0", icon: "ti-brain", tag: "mindset" },
 ]
 
 const lifeHubs = [
-  { title: "Health", sub: "body, energy, sustainability", slug: "wiki/Dimensions/Self-Management" as const, color: "#2fa36b" },
-  { title: "Money", sub: "mindsets & budgeting systems", slug: "wiki/Money/Money, Condensed" as const, color: "#2fa36b" },
-  { title: "中文", sub: "characters, reading, fluency", slug: "wiki/Language/Chinese/How-Chinese-Characters-Work" as const, color: "#ffb000" },
-  { title: "Minimalism", sub: "systems design for less", slug: "wiki/Minimalism/Minimalism-as-Systems-Design" as const, color: "#9aa0a6" },
-  { title: "Condensed Notes", sub: "high-signal syntheses", slug: "wiki/Syntheses/Learning, Condensed" as const, color: "#734bb2" },
+  { title: "Health", sub: "body, energy, sustainability", slug: "wiki/Dimensions/Self-Management" as const, color: "#2fa36b", icon: "ti-heartbeat" },
+  { title: "Money", sub: "mindsets & budgeting systems", slug: "wiki/Money/Money, Condensed" as const, color: "#2fa36b", icon: "ti-wallet" },
+  { title: "中文", sub: "characters, reading, fluency", slug: "wiki/Language/Chinese/How-Chinese-Characters-Work" as const, color: "#ffb000", icon: "ti-language" },
+  { title: "Minimalism", sub: "systems design for less", slug: "wiki/Minimalism/Minimalism-as-Systems-Design" as const, color: "#9aa0a6", icon: "ti-box" },
+  { title: "Condensed Notes", sub: "high-signal syntheses", slug: "wiki/Syntheses/Learning, Condensed" as const, color: "#734bb2", icon: "ti-book-2" },
 ]
 
 const executionHubs = [
-  { title: "Agentic Engineering", sub: "build & delegate with agents", slug: "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering" as const, color: "#4f9dff" },
-  { title: "Learning Systems", sub: "ICS core, first principles", slug: "wiki/Syntheses/First-Principles-of-ICS" as const, color: "#8dc63f" },
-  { title: "Focus Management", sub: "enter, hold, recover attention", slug: "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block" as const, color: "#ff6fa3" },
-  { title: "Decision Making", sub: "high-quality choices", slug: "wiki/Decision-Making/Decision-Making" as const, color: "#ff8a3d" },
-  { title: "Generativity", sub: "higher-order thinking & judgment", slug: "wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment" as const, color: "#7f55a0" },
+  { title: "Agentic Engineering", sub: "build & delegate with agents", slug: "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering" as const, color: "#4f9dff", icon: "ti-robot" },
+  { title: "Learning Systems", sub: "ICS core, first principles", slug: "wiki/Syntheses/First-Principles-of-ICS" as const, color: "#8dc63f", icon: "ti-network" },
+  { title: "Focus Management", sub: "enter, hold, recover attention", slug: "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block" as const, color: "#ff6fa3", icon: "ti-target" },
+  { title: "Decision Making", sub: "high-quality choices", slug: "wiki/Decision-Making/Decision-Making" as const, color: "#ff8a3d", icon: "ti-checklist" },
+  { title: "Generativity", sub: "higher-order thinking & judgment", slug: "wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment" as const, color: "#7f55a0", icon: "ti-bulb" },
 ]
 
 const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
@@ -132,6 +132,33 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
   const journalIndex = allFiles.find((f) => f.slug === "journal/index")
   const openQuestions = (journalIndex?.frontmatter?.openQuestions as string[] | undefined) ?? []
   const showOpenQuestions = openQuestions.length > 0
+
+  // Compute counts for the right side of each item in the 3 hub lists (tag or subtree prefix).
+  const tagCountMap = new Map<string, number>()
+  for (const f of allFiles) {
+    const rawTags = f.frontmatter?.tags
+    const tags: string[] = rawTags ? (Array.isArray(rawTags) ? rawTags : String(rawTags).split(/[, ]+/)) : []
+    for (let t of tags) {
+      t = t.trim().toLowerCase().replace(/\s+/g, "-")
+      if (t) tagCountMap.set(t, (tagCountMap.get(t) || 0) + 1)
+    }
+  }
+  const subtreeCountCache = new Map<string, number>()
+  function getHubCount(h: { tag?: string; slug: string }): number {
+    if (h.tag) {
+      const k = h.tag.toLowerCase().replace(/\s+/g, "-")
+      if (tagCountMap.has(k)) return tagCountMap.get(k)!
+    }
+    const base = h.slug
+    if (subtreeCountCache.has(base)) return subtreeCountCache.get(base)!
+    let c = 0
+    for (const f of allFiles) {
+      const s = (f.slug as string) || ""
+      if (s === base || s.startsWith(base + "/")) c++
+    }
+    subtreeCountCache.set(base, c)
+    return c
+  }
 
   return (
     <div class={classNames(displayClass, "atlas-home")}>
@@ -207,7 +234,7 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
       </section>
 
       {/* 3 cards side-by-side (3x1 layout). Each card is one group with a list of exactly 5 hubs inside.
-          This replaces the old pentagon graph. Styled to feel like the trail cards on the right. */}
+          This replaces the old pentagon graph. Styled like the old dark-era atlas-hex-list / paired list cards. */}
       <section class="atlas-hub-lists">
         <div class="hub-cards-3">
           {/* Set 1: the five learning dimensions */}
@@ -216,8 +243,11 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
             <ul class="hub-list">
               {dimensionHubs.map((h) => (
                 <li key={h.slug}>
-                  <span class="hub-dot" style={{ background: h.color }}></span>
-                  <a href={resolveRelative(here, h.slug)}>{h.title}</a>
+                  <a href={resolveRelative(here, h.slug)}>
+                    <i className={`ti ${h.icon}`} style={{ color: h.color }}></i>
+                    <span class="hub-item-title">{h.title}</span>
+                    <span class="hub-count">{getHubCount(h)}</span>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -229,8 +259,11 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
             <ul class="hub-list">
               {lifeHubs.map((h) => (
                 <li key={h.slug}>
-                  <span class="hub-dot" style={{ background: h.color }}></span>
-                  <a href={resolveRelative(here, h.slug)}>{h.title}</a>
+                  <a href={resolveRelative(here, h.slug)}>
+                    <i className={`ti ${h.icon}`} style={{ color: h.color }}></i>
+                    <span class="hub-item-title">{h.title}</span>
+                    <span class="hub-count">{getHubCount(h)}</span>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -238,12 +271,15 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
 
           {/* Set 3: high-leverage companion hubs (syntheses + execution). Adjust if you want a different 5. */}
           <div class="hub-list-card">
-            <div class="hub-list-card-title">Knowledge & Execution</div>
+            <div class="hub-list-card-title">Knowledge &amp; Execution</div>
             <ul class="hub-list">
               {executionHubs.map((h) => (
                 <li key={h.slug}>
-                  <span class="hub-dot" style={{ background: h.color }}></span>
-                  <a href={resolveRelative(here, h.slug)}>{h.title}</a>
+                  <a href={resolveRelative(here, h.slug)}>
+                    <i className={`ti ${h.icon}`} style={{ color: h.color }}></i>
+                    <span class="hub-item-title">{h.title}</span>
+                    <span class="hub-count">{getHubCount(h)}</span>
+                  </a>
                 </li>
               ))}
             </ul>

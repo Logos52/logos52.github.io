@@ -1885,49 +1885,104 @@ body[data-slug="index"] .page-header > header .search {
 .hub-list-card {
   background: var(--surface);
   border: 1px solid var(--lightgray);
-  border-radius: 6px;
-  padding: 0.55rem 0.65rem;
+  border-radius: 8px;
+  padding: 0.7rem 0.85rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hub-list-card:hover {
+  border-color: var(--lightgray);
+  box-shadow: 0 2px 6px color-mix(in srgb, var(--lightgray) 30%, transparent);
 }
 
 .hub-list-card-title {
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 700;
   color: var(--dark);
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
   letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 
 .hub-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 12px;
-  line-height: 1.45;
 }
 
 .hub-list li {
   display: flex;
   align-items: center;
-  gap: 0.35rem;
-  margin-bottom: 0.1rem;
-}
-
-.hub-dot {
-  width: 5px;
-  height: 5px;
-  border-radius: 999px;
-  flex-shrink: 0;
-  display: inline-block;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
 }
 
 .hub-list a {
+  font-size: 13px;
   color: var(--dark);
   text-decoration: none;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .hub-list a:hover {
   color: var(--secondary);
   text-decoration: underline;
+}
+
+.hub-item-title {
+  /* title text stays with the icon on the left, left-justified */
+}
+
+.hub-count {
+  font-size: 11px;
+  font-family: var(--codeFont);
+  color: var(--gray);
+  letter-spacing: 0.02em;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+/* Plain colored Tabler icons (the style the user wanted for the home cards and for the logo next to titles on hub pages). */
+.hub-list i.ti,
+article h1 i.ti {
+  font-size: 15px;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-right: 0.4em;
+}
+
+/* Hub page titles: icon to the left of the title, vertically centered ("in the middle").
+   Uses a small wrapper div in the MD so the plain icon (no circles) and the title h1 share a flex row.
+   align-items: center puts the icon in the middle of the title text height.
+   Only on the hub pages. Home untouched. */
+.hub-page-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  margin-bottom: 0.6rem;
+}
+.hub-page-title i.ti {
+  font-size: 1.6em;
+  flex-shrink: 0;
+  /* color from inline style on the i */
+}
+.hub-page-title h1 {
+  margin: 0;
+}
+
+/* Site-wide fix for title redundancy: hide the automatic Quartz header title (the .article-title
+   that gets extracted and placed in the header / .popover-hint).
+   This ensures every page's title (and custom icon treatment on hubs) appears only once —
+   from the first heading inside the article content.
+   Applies to all pages. The hub-page-title wrapper (icon left + centered h1) now provides the
+   single visible title block at the top of the content for those pages. */
+.page-header .article-title,
+.popover-hint > h1.article-title,
+.popover-hint > .article-title {
+  display: none !important;
 }
 
 .atlas-hex {

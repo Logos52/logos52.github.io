@@ -12,7 +12,10 @@ tags:
   - self-management
 ---
 
-# Self-Management
+<div class="hub-page-title">
+<i class="ti ti-settings" style="color:#2d9cdb"></i>
+<h1>Self-Management</h1>
+</div>
 
 > Part of the [[wiki/Dimensions/Dimensions of Learning|Five Dimensions of Learning]].
 
