@@ -42,21 +42,32 @@ const wikiOverviewGraph = {
 const notesOverviewGraph = {
   ...wikiOverviewGraph,
   flagSlugs: notesFlagHubs,
-  flagRadius: 6,  // tuned smaller for notes (landmarks still stand out vs receded low-deg)
-  flagShowLabel: true,  // persistent labels on the 6 primaries (large/colored/text); prevents "blank/0" and gives the "select number" visible names at rest
+  // No persistent labels on the flagged nodes for the Notes Graph (user request).
+  // The 6 are still visually distinguished (larger radius, domain color, colored ring)
+  // via the isFlag / simplifiedFlagSlugs logic, but labels are hidden by default
+  // (appear on hover or very high zoom per other logic).
+  flagLabels: {
+    "wiki/Syntheses/Learning, Condensed": "Learning, Condensed",
+    "wiki/Systems/AI & Agentic Systems/Claude Fable": "Claude Fable",
+    "wiki/Dimensions/Self-Regulation": "Self Regulation",
+    "wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment": "Higher Order Generativity vs. Higher Order Judgment",
+    "wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed": "Agentic Engineering, Condensed",
+    "wiki/Money/Money, Condensed": "Money, Condensed",
+  },
+  flagShowLabel: false,  // no persistent text names on flagged nodes in the notes graph
   fontSize: 0.62,
   nodeBaseRadius: 1.5,
   nodeLinkRadius: 0.9,
   nodeMaxRadius: 6.5,
-  nodeRank: "content-heavy" as const,
-  nodeLimit: 120,  // large node count as preferred (user likes volume of nodes)
-  mobileNodeLimit: 50,
+  nodeRank: "content-heavy" as const,  // mix: still favors high-content notes (many of which are low-deg gray) but we'll de-emphasize raw degree influence below for notes
+  nodeLimit: 200,  // larger overall node count (user likes the volume); with fill logic this gives lots more gray bottom-tier
+  mobileNodeLimit: 60,
   maxLinksPerNode: 3,  // global per-node link cap (main lever to cut sheer #links / "blob" while keeping lots of nodes + 3-tier radii). 3 or 2 works well.
 
   enableRadial: false,
-  clusterForce: 0.5,
-  centerForce: 0.04,
-  repelForce: 0.82,
+  clusterForce: 0.38,   // lower still for flatter notes graph
+  centerForce: 0.07,    // stronger centering
+  repelForce: 0.75,
   linkDistance: 48,
   scale: 0.85,
 }

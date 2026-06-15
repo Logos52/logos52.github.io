@@ -14,10 +14,9 @@ import {
 import graphScript from "./scripts/graph.inline"
 // @ts-ignore
 import retrievalScript from "./scripts/atlas-retrieval.inline"
-// @ts-ignore
-import pentagonScript from "./scripts/pentagon.inline"
-import DimensionsPentagon from "./DimensionsPentagon"
 import graphStyle from "./styles/graph.scss"
+// Note: DimensionsPentagon is still used on the dedicated /wiki/Dimensions/... page via layout,
+// so the component + script remain in the project. We just no longer render it on the home.
 
 const spineGraphCfg = {
   drag: true,
@@ -87,7 +86,34 @@ const trails = [
 ]
 
 const AtlasSearch = Search({ placeholder: "Find a note…" })
-const Pentagon = DimensionsPentagon({ showList: true, showHeading: true })
+// New 3×5 hub sets to replace the old pentagon visualization on the home.
+// Clean cards in the same style as the "Trails" (right-side aesthetic the user liked).
+// Set 1 = the canonical five learning dimensions.
+// Set 2 = practical life / operating hubs (per user request).
+// Set 3 = high-leverage knowledge & execution hubs.
+const dimensionHubs = [
+  { title: "Deep Processing", sub: "encode, think on paper, bear hunter", slug: "wiki/Dimensions/Deep-Processing" as const, color: "#8dc63f" },
+  { title: "Retrieval", sub: "pull it back, spaced & interleaved", slug: "wiki/Dimensions/Retrieval" as const, color: "#f2c94c" },
+  { title: "Self-Regulation", sub: "drive, persistence, emotion", slug: "wiki/Dimensions/Self-Regulation" as const, color: "#f47b20" },
+  { title: "Self-Management", sub: "time, environment, focus blocks", slug: "wiki/Dimensions/Self-Management" as const, color: "#2d9cdb" },
+  { title: "Mindset", sub: "beliefs that make the system work", slug: "wiki/Dimensions/Mindset" as const, color: "#3fc1b0" },
+]
+
+const lifeHubs = [
+  { title: "Health", sub: "body, energy, sustainability", slug: "wiki/Dimensions/Self-Management" as const, color: "#2fa36b" },
+  { title: "Money", sub: "mindsets & budgeting systems", slug: "wiki/Money/Money, Condensed" as const, color: "#2fa36b" },
+  { title: "中文", sub: "characters, reading, fluency", slug: "wiki/Language/Chinese/How-Chinese-Characters-Work" as const, color: "#ffb000" },
+  { title: "Minimalism", sub: "systems design for less", slug: "wiki/Minimalism/Minimalism-as-Systems-Design" as const, color: "#9aa0a6" },
+  { title: "Condensed Notes", sub: "high-signal syntheses", slug: "wiki/Syntheses/Learning, Condensed" as const, color: "#734bb2" },
+]
+
+const executionHubs = [
+  { title: "Agentic Engineering", sub: "build & delegate with agents", slug: "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering" as const, color: "#4f9dff" },
+  { title: "Learning Systems", sub: "ICS core, first principles", slug: "wiki/Syntheses/First-Principles-of-ICS" as const, color: "#8dc63f" },
+  { title: "Focus Management", sub: "enter, hold, recover attention", slug: "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block" as const, color: "#ff6fa3" },
+  { title: "Decision Making", sub: "high-quality choices", slug: "wiki/Decision-Making/Decision-Making" as const, color: "#ff8a3d" },
+  { title: "Generativity", sub: "higher-order thinking & judgment", slug: "wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment" as const, color: "#7f55a0" },
+]
 
 const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
   const { fileData, displayClass, allFiles } = props
@@ -180,12 +206,55 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
         </div>
       </section>
 
-      <Pentagon {...props} />
+      {/* 3 cards side-by-side (3x1 layout). Each card is one group with a list of exactly 5 hubs inside.
+          This replaces the old pentagon graph. Styled to feel like the trail cards on the right. */}
+      <section class="atlas-hub-lists">
+        <div class="hub-cards-3">
+          {/* Set 1: the five learning dimensions */}
+          <div class="hub-list-card">
+            <div class="hub-list-card-title">Five Dimensions</div>
+            <ul class="hub-list">
+              {dimensionHubs.map((h) => (
+                <li key={h.slug}>
+                  <span class="hub-dot" style={{ background: h.color }}></span>
+                  <a href={resolveRelative(here, h.slug)}>{h.title}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Set 2: as specified */}
+          <div class="hub-list-card">
+            <div class="hub-list-card-title">Life Systems</div>
+            <ul class="hub-list">
+              {lifeHubs.map((h) => (
+                <li key={h.slug}>
+                  <span class="hub-dot" style={{ background: h.color }}></span>
+                  <a href={resolveRelative(here, h.slug)}>{h.title}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Set 3: high-leverage companion hubs (syntheses + execution). Adjust if you want a different 5. */}
+          <div class="hub-list-card">
+            <div class="hub-list-card-title">Knowledge & Execution</div>
+            <ul class="hub-list">
+              {executionHubs.map((h) => (
+                <li key={h.slug}>
+                  <span class="hub-dot" style={{ background: h.color }}></span>
+                  <a href={resolveRelative(here, h.slug)}>{h.title}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
 
 HomeLanding.css = graphStyle
-HomeLanding.afterDOMLoaded = concatenateResources(graphScript, retrievalScript, pentagonScript)
+HomeLanding.afterDOMLoaded = concatenateResources(graphScript, retrievalScript)
 
 export default (() => HomeLanding) satisfies QuartzComponentConstructor

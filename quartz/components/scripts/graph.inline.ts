@@ -444,27 +444,77 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   // Parallel robust augmentation for flagSlugs (notes/overview graph landmarks).
-  // Same title/short-name norm match as hubs, so cfg flag strings (even if they use
-  // the SPINE_HUBS human forms) resolve to the actual keys present in the built contentIndex data.
-  // This guarantees the flagged primaries get 3-tier treatment (large radius, domain color, ring, persistent label).
+  // Goal: make sure the exact 6 from SPINE_HUBS (notesFlagHubs) are always treated as
+  // primaries in the notes graph: big size, colored + ring, and permanent text labels.
+  // We do the label title match + a strong path-based fallback using the original
+  // last segments from the flagSlugs list. We associate clean labels by index.
   if ((flagSlugs ?? []).length > 0) {
     const flagSlugList = (flagSlugs ?? []).map((s) => simplifySlug(s as FullSlug))
-    for (const cfgSlug of flagSlugList) {
-      if (data.has(cfgSlug)) {
-        simplifiedFlagSlugs.add(cfgSlug)
-        continue
-      }
-      // Try short-name / title match (handles any residual &/comma/space/punct diffs)
-      const short = (cfgSlug.split('/').pop() || '').toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim()
+    const flagLabelOverrides = new Map<string, string>(
+      Object.entries(flagLabels ?? {}).map(([k, v]) => [simplifySlug(k as FullSlug) as string, v]),
+    )
+    const flagLabelValues = flagLabels ? Object.values(flagLabels) : []
+
+    // 1. Title-based using the provided clean labels (for nice text + matching)
+    if (flagLabels && Object.keys(flagLabels).length > 0) {
+      flagLabelValues.forEach((desiredLabel, i) => {
+        const normDesired = desiredLabel.toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim()
+        for (const [slug, details] of data) {
+          if (simplifiedFlagSlugs.has(slug)) continue
+          const rawTitle = details.title || slug.split('/').pop()!.replace(/\.md$/, '')
+          const t = rawTitle.toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim()
+          if (t === normDesired) {
+            simplifiedFlagSlugs.add(slug)
+            flagLabelOverrides.set(slug, desiredLabel)
+            break
+          }
+        }
+      })
+    }
+
+    // 2. Strong path-short fallback: for every one of the 6 cfg slugs, take its last
+    // segment, normalize, and find any data entry whose pop or title matches it.
+    // This guarantees we get all 6 as long as the pages are in the content index.
+    flagSlugList.forEach((cfgSlug, i) => {
+      const pathShort = (cfgSlug.split('/').pop() || '').toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim()
+      if (!pathShort) return
+      const cleanLabel = flagLabelValues[i] || ''
       for (const [slug, details] of data) {
-        const rawTitle = details.title || slug.split('/').pop()!.replace(/\.md$/, '')
-        const t = rawTitle.toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim()
-        if (t === short || slug === cfgSlug) {
+        if (simplifiedFlagSlugs.has(slug)) continue
+        const dataShort = (slug.split('/').pop() || '').toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim()
+        const titleShort = (details.title || '').toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim()
+        if (dataShort === pathShort || titleShort === pathShort ||
+            dataShort.includes(pathShort) || titleShort.includes(pathShort)) {
           simplifiedFlagSlugs.add(slug)
+          if (cleanLabel) flagLabelOverrides.set(slug, cleanLabel)
           break
         }
       }
+    })
+
+    // 3. Last resort: any of the original simplified cfg paths that literally exist in data
+    flagSlugList.forEach((s, i) => {
+      if (data.has(s)) {
+        simplifiedFlagSlugs.add(s)
+        if (flagLabelValues[i]) flagLabelOverrides.set(s, flagLabelValues[i])
+      }
+    })
+
+    // 4. CRITICAL for notes graph: the hub aug (now triggered because we also pass hubLabels
+    // in the notes cfg) uses the *exact same* label list and title-matching logic that reliably
+    // discovers all 6 real data slugs for the home spine.
+    // Merge those into the flag set so the notes graph also treats exactly those 6 as primaries
+    // (large, colored+ring, permanent text labels).
+    if (hubLabels && simplifiedHubSlugs && simplifiedHubSlugs.size > 0) {
+      simplifiedHubSlugs.forEach((realSlug) => {
+        simplifiedFlagSlugs.add(realSlug)
+        // Prefer a clean label from flag overrides if we set one, else copy from hub overrides.
+        if (!flagLabelOverrides.has(realSlug) && hubLabelOverrides.has(realSlug)) {
+          flagLabelOverrides.set(realSlug, hubLabelOverrides.get(realSlug)!)
+        }
+      })
     }
+
     console.log('[graph debug] After flag aug, simplifiedFlagSlugs size:', simplifiedFlagSlugs.size, 'flags:', [...simplifiedFlagSlugs])
   }
 
@@ -584,6 +634,11 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       return count
     }
 
+    let degreeWeight = 120
+    if (!spineLayout && nodeRank === "content-heavy") {
+      degreeWeight = 25  // reduced for notes to create the desired mix: high-content notes still prioritized (many are gray low-deg), but low-degree long notes rank much higher instead of being crushed by the degree term
+    }
+
     const nodeScore = (id: SimpleSlug) => {
       const degree = linkCounts.get(id) ?? 0
       const contentWords = wordCount(id)
@@ -592,13 +647,16 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         case "content":
           return contentWords
         case "content-heavy":
-          return contentWords + degree * 120
+          return contentWords + degree * degreeWeight
         case "degree":
         default:
           return degree
       }
     }
 
+    // For notes graph: smaller priority core (50%) by the (tuned) rank → leaves more room in the 200 for the explicit lowest-deg gray fill below.
+    // Combined with lower degreeWeight above, this gives a nice mix of substantive nodes + lots of visible gray bottom tier.
+    const priorityCount = Math.floor(effectiveNodeLimit * 0.5)
     const keptNodes = new Set(
       [...neighbourhood]
         .sort((a, b) => {
@@ -606,7 +664,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
           if (scoreDelta !== 0) return scoreDelta
           return (data.get(a)?.title ?? a).localeCompare(data.get(b)?.title ?? b)
         })
-        .slice(0, effectiveNodeLimit),
+        .slice(0, priorityCount),
     )
 
     // Always keep explicitly pinned nodes (e.g. Start-here + recent notes).
@@ -616,6 +674,29 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
 
     if (neighbourhood.has(slug)) keptNodes.add(slug)
+
+    // Force the configured flag/primary nodes (the 6 landmarks from notesFlagHubs) so the top tier
+    // (large colored with ring) of the 3-tier system is always present, matching the home spine behavior.
+    for (const f of simplifiedFlagSlugs) {
+      if (neighbourhood.has(f)) keptNodes.add(f)
+    }
+
+    // Fill remaining slots (if any) with lowest-degree nodes from the remainder.
+    // This ensures plenty of gray bottom-tier nodes are visible (user request: "don't see too many of the gray nodes").
+    if (!spineLayout && keptNodes.size < effectiveNodeLimit) {
+      const remaining = [...neighbourhood].filter((id) => !keptNodes.has(id))
+      remaining.sort((a, b) => {
+        const da = linkCounts.get(a) ?? 0
+        const db = linkCounts.get(b) ?? 0
+        if (da !== db) return da - db  // lowest degree first → gray bottom tier
+        return (data.get(a)?.title ?? a).localeCompare(data.get(b)?.title ?? b)
+      })
+      const needed = effectiveNodeLimit - keptNodes.size
+      for (let i = 0; i < needed && i < remaining.length; i++) {
+        keptNodes.add(remaining[i])
+      }
+    }
+
     neighbourhood.clear()
     keptNodes.forEach((id) => neighbourhood.add(id))
   }
@@ -744,6 +825,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       .force("center", forceCenter().strength(centerForce))
       .force("link", forceLink(graphData.links).distance(linkDistance))
       .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
+      // Stronger vertical centering for notes graph to make it much flatter overall
+      // (top/bottom nodes no longer clip outside the window).
+      .force("flatY", forceY(0).strength(0.22))
   }
 
   if (!spineLayout && enableRadial) {
@@ -777,7 +861,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
     simulation
       .force("clusterX", forceX<NodeData>((d) => anchorFor(d.id).x).strength(clusterForce))
-      .force("clusterY", forceY<NodeData>((d) => anchorFor(d.id).y).strength(clusterForce))
+      // Much weaker clusterY than clusterX to make the notes graph significantly flatter
+      // (domain lobes spread mostly horizontally, less vertical height so nodes fit in window).
+      .force("clusterY", forceY<NodeData>((d) => anchorFor(d.id).y).strength(clusterForce * 0.52))
   }
 
   // Pre-settle the layout synchronously and halt the auto-ticker so the graph
@@ -788,6 +874,19 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     Math.log(simulation.alphaMin()) / Math.log(1 - simulation.alphaDecay()),
   )
   simulation.tick(settleTicks)
+
+  // For the notes/overview graph (non-spine), do a very light final vertical squash
+  // after the main settle. This reduces the total height of the point cloud a little
+  // bit more so the top and bottom nodes are more likely to fit inside the initial view
+  // without clipping, while mostly preserving the 2D layout and cluster relationships.
+  if (!spineLayout) {
+    const yCompress = 0.78  // stronger squash for much flatter notes graph
+    for (const node of graphData.nodes) {
+      if (node.y != null) node.y *= yCompress
+    }
+    // Extra ticks after stronger squash to re-settle.
+    simulation.tick(10)
+  }
 
   if (spineLayout && spineDomainList.length > 0) {
     for (const n of graphData.nodes) {
@@ -862,10 +961,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const linkScale = nodeLinkRadius ?? 1
     const max = nodeMaxRadius ?? 8
     const computed = Math.min(max, base + Math.sqrt(numLinks) * linkScale)
+
     if (isPrimary) {
-      if (spineLayout) return SPINE_HUB_RADIUS
-      return Math.max(flagRadius ?? 5, computed)
+      // Same top tier size on both graphs (home hubs and notes flags)
+      return SPINE_HUB_RADIUS
     }
+
     if (spineLayout) {
       const deg = getDegree(d.id)
       if (deg >= IMPORTANT_DEGREE_THRESHOLD) {
@@ -878,14 +979,14 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         return SPINE_SATELLITE_RADIUS
       }
     }
+
     const deg = getDegree(d.id)
     if (deg >= IMPORTANT_DEGREE_THRESHOLD) {
-      // important tier (non-primary): natural larger size via link scaling; 3-tier mainly via color (not gray)
-      return computed
+      // Same important tier size on both graphs for high-deg non-primaries
+      return SPINE_IMPORTANT_RADIUS
     }
-    if (simplifiedFlagSlugs.has(d.id)) {
-      return Math.max(flagRadius ?? 5, computed)
-    }
+
+    // Low-deg non-primary: small (notes cfg keeps these very small via base 1.5; home uses outer sat radii above)
     return computed
   }
 
@@ -1096,6 +1197,10 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     ...graphData.nodes.filter((n) => !simplifiedHubSlugs.has(n.id)),
     ...graphData.nodes.filter((n) => simplifiedHubSlugs.has(n.id)),
   ]
+
+  const isDark = document.documentElement.getAttribute("saved-theme") === "dark"
+  const nodeBorderColor = isDark ? "#ffffff" : "#000000"
+
   for (const n of orderedNodes) {
     const nodeId = n.id
     const isHub = simplifiedHubSlugs.has(nodeId)
@@ -1135,6 +1240,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
     let oldLabelOpacity = 0
     const isTagNode = nodeId.startsWith("tags/")
+    const fillCol = isTagNode ? computedStyleMap["--light"] : color(n)
     const gfx = new Graphics({
       interactive: true,
       label: nodeId,
@@ -1143,7 +1249,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       cursor: "pointer",
     })
       .circle(0, 0, nodeRadius(n))
-      .fill({ color: isTagNode ? computedStyleMap["--light"] : color(n) })
+      .fill({ color: fillCol })
       .on("pointerover", (e) => {
         updateHoverInfo(e.target.label)
         oldLabelOpacity = label.alpha
@@ -1167,6 +1273,13 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     // as an anchor without a permanent label.
     if (isFlag) {
       gfx.stroke({ width: 2.5, color: mixColor(color(n), 0.55) })
+    }
+
+    // Tiny solid border on the colored (non-gray) nodes — the primary and important tiers.
+    // Black in light mode, white in dark mode. Gray bottom-tier nodes stay plain for recession.
+    const grayCol = computedStyleMap["--gray"]
+    if (fillCol !== grayCol) {
+      gfx.stroke({ width: 0.5, color: nodeBorderColor })
     }
 
     gfx.alpha = nodeOpacity(n)
