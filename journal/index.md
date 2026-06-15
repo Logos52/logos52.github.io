@@ -29,6 +29,9 @@ What's moving through the knowledge base right now: active projects, open questi
 
 ## Recent entries
 
+- [[journal/2026-06-15-tsumugu-encoding-dictionary-deployment|2026-06-15]] — Tsumugu Encoding Dictionary deployed to https://tsumugu-ed.com.
+- [[journal/2026-06-15-tsumugu-grammar-browse-and-site-copy|2026-06-15]] — Tsumugu grammar browse fixed; roadmap cut (FSRS out, idioms in); site copy.
+- [[journal/2026-06-15-ai-industrial-revolution-ingest|2026-06-15]] — The AI Industrial Revolution ingest; the planning question; the n=1 about-line.
 - [[journal/2026-06-12-taste-bound-tasks-and-agent-selection|2026-06-12]] — twelve struck taglines diagnosed: taste-bound tasks punish generate-first agents; exemplars before candidates is now standing procedure, and model selection stays empirical.
 - [[journal/2026-06-12-front-facing-law-and-standards-reorder|2026-06-12]] — front-facing copy becomes law (High-Signal Front-Facing Pages: the page wants nothing from the reader); the hero line replaced after four diagnosed misses; the Atlas scare resolved — the build is committed, only the parent PRD lives in chat.
 - [[journal/2026-06-12-kb-standards-commit-and-push-constraint|2026-06-12]] — KB redesign's review batch verified and committed (`bd5adc9`: High-Signal standards promoted, May docs superseded, decisions backfilled); push must run host-side — the Cowork sandbox can't auth to GitHub, and `.git` unlink is mount-blocked.

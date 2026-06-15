@@ -4,7 +4,7 @@ description: "Projects built around learning systems, agentic engineering, and p
 type: projects-index
 hideFolderListing: true
 created: 2026-06-02
-updated: 2026-06-12
+updated: 2026-06-15
 tags:
   - system
 ---
