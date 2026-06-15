@@ -30,6 +30,7 @@ export interface D3Config {
   nodeRank?: "degree" | "content" | "content-heavy"
   nodeLimit?: number
   mobileNodeLimit?: number
+  maxLinksPerNode?: number
   spineLayout?: boolean
   hubSlugs?: string[]
   hubLabels?: Record<string, string>
@@ -77,6 +78,7 @@ const defaultOptions: GraphOptions = {
     nodeBaseRadius: 2,
     nodeLinkRadius: 1,
     nodeMaxRadius: 8,
+    maxLinksPerNode: undefined,
     flattenWideGraphs: true,
   },
   globalGraph: {
@@ -96,6 +98,7 @@ const defaultOptions: GraphOptions = {
     nodeBaseRadius: 2,
     nodeLinkRadius: 1,
     nodeMaxRadius: 8,
+    maxLinksPerNode: undefined,
     flattenWideGraphs: true,
   },
 }

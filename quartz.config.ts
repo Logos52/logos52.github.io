@@ -78,12 +78,11 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        // Source Serif 4 across headings, body, and chrome for one cohesive
-        // paper-serif voice — no sans/serif clash in nav or sidebars; hierarchy
-        // from weight and size. IBM Plex Mono for code/labels. Character comes
-        // from colour and shading, not the typeface (Tsumugu "Paper & Ink").
+        // Source Serif 4 for headers (cohesive paper-serif voice); body uses Lora
+        // for improved legibility at reading sizes (per feedback). IBM Plex Mono
+        // for code/labels. (Tsumugu "Paper & Ink" recolor.)
         header: "Source Serif 4",
-        body: "Source Serif 4",
+        body: "Lora",
         code: "IBM Plex Mono",
       },
       colors: {
