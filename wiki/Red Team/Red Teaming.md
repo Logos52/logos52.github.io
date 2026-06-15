@@ -2,13 +2,12 @@
 type: hub
 status: developing
 created: 2026-05-06
-updated: 2026-05-10
+updated: 2026-06-14
 source-count: 1
 tags:
   - red-teaming
   - decision-making
   - army
-  - identity
   - metacognition
 ---
 
@@ -16,9 +15,7 @@ tags:
 
 People and organizations make better decisions when assumptions are challenged, perspectives widen, blind spots become visible, and better alternatives are generated before execution.
 
-## Why This Is A Core Identity Page
-
-For the user, Red Teaming is an identity root: Army Red Team experience trained a way of seeing the world.
+## The Durable Pattern
 
 The durable pattern is:
 

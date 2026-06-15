@@ -4,7 +4,7 @@ type: system
 status: developing
 description: "Operating notes on Claude Fable 5: where it earns its keep, where it fails, and the elicit-first rules for taste-bound work."
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-14
 tags:
   - llm
   - agents
@@ -14,11 +14,13 @@ tags:
 
 # Claude Fable
 
+> **Status — suspended 2026-06-12.** A US government export-control directive, citing national security, forced Anthropic to disable Fable 5 and Mythos 5 for all customers. Anthropic disputes the basis (a narrow alleged jailbreak: asking the model to read a codebase and fix flaws, a capability it notes is already available from other models) and says it is working to restore access. Other Claude models are unaffected. [Source](https://www.anthropic.com/news/fable-mythos-access).
+
 Fable does its best work pointed at readable artifacts and its worst when left to guess unstated taste. The model generates fluently in exactly the situations where it should be eliciting, so the operator's main job is controlling what it looks at before it produces anything.
 
 ## What It Is
 
-Claude Fable 5 is the first model in Anthropic's Claude 5 family, a tier above Opus, sharing its underlying model with Claude Mythos 5 (the variant available to approved organizations). On this vault it runs the Cowork maintenance sessions and authors the Tsumugu dictionary corpus. Tier facts are the vendor's and dated 2026-06; observed behavior is the better instrument.
+Claude Fable 5 is the first model in Anthropic's Claude 5 family, a tier above Opus, sharing its underlying model with Claude Mythos 5 (the variant available to approved organizations). On this vault it ran the Cowork maintenance sessions and authored the Tsumugu dictionary corpus until the 2026-06-12 suspension. Tier facts are the vendor's and dated 2026-06; observed behavior is the better instrument.
 
 ## Where It Earns Its Keep
 

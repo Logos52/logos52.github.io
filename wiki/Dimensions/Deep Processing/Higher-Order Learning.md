@@ -3,7 +3,7 @@ title: "Higher-Order Learning"
 type: concept
 status: developing
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-06-14
 tags:
   - higher-order
   - encoding
@@ -81,10 +81,17 @@ Higher-order learning is the cognitive process that [[wiki/Dimensions/Deep Proce
 
 [[wiki/Dimensions/Deep Processing/Schema|Schemas]] are the structural outcome of higher-order learning. The network that expertise requires is built by the processes described here.
 
+## Higher-Order Learning Under AI
+
+The two orders now carry an economic signal. Lower-order capability — recalling and reproducing information in isolation — is exactly what language models do cheaply and at scale, so its market value has stopped rising and started to fall. Higher-order capability — integrating, comparing, and judging across a network — is where human value is concentrating, because it is what models are still worst at. The case for starting higher-order is no longer only about learning efficiency; it is about which half of a skill set is being commoditized.
+
+One caveat keeps the claim honest. "AI cannot do higher-order work" is too coarse. Higher-order work splits into generativity — producing integrated, novel output — and judgment — making the accountable call under stakes. Models have largely matched the first while still trailing on the second. The durable edge is judgment, not higher-order thinking in general, and even that gap is closing. See [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]].
+
 ## Open Questions
 
 - Where in your current study domains are you defaulting to lower-order processes — and what is the specific step where higher-order thinking breaks down?
 - What does the lower-order burden look like for your most important current topic?
+- This page says higher-order processes "automatically cover lower-order ground," which is a claim about outcomes. A stronger view holds that lower- and higher-order are separate habit-sets with no acquisition path between them. State which the page means, since they pull in different directions.
 
 ## Related
 
@@ -96,3 +103,4 @@ Higher-order learning is the cognitive process that [[wiki/Dimensions/Deep Proce
 - [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
+- [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]]

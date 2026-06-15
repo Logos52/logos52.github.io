@@ -3,7 +3,7 @@ type: hub
 status: developing
 description: "Best-practices hub for building with agents while protecting the engineering bar — quality, specs, verification, architecture, and human responsibility. Vibe coding raises the floor; this raises the ceiling. Doctrine layer: Agentic Engineering, Condensed."
 created: 2026-05-02
-updated: 2026-06-11
+updated: 2026-06-14
 source-count: 9
 last-audited: 2026-06-11
 tags:
@@ -21,6 +21,12 @@ AI agents can move implementation faster than traditional workflows, but the eng
 Karpathy's distinction is useful: [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] raises the floor; agentic engineering raises the ceiling. Vibe coding lets many more people build. Agentic engineering is what skilled operators do when they want speed without giving up correctness, security, architecture, taste, and responsibility.
 
 The core shift is that the human increasingly operates as spec writer, taste holder, architect, reviewer, and director of agents.
+
+## The Human Edge: Judgment Over Generativity
+
+The split underneath everything below has a name. Higher-order work divides into **generativity** — producing coherent, novel, integrated output — and **judgment** — making the accountable call in a messy situation with no clean answer, where being wrong is costly. Agents are already strong at the first and weak at the second; this vault's own [[wiki/Systems/AI & Agentic Systems/Claude Fable|Claude Fable]] is a clean case, fluent across readable artifacts yet stalling on taste-bound work. Agentic engineering is the discipline of pointing machine generativity at problems while keeping human judgment on the decisions that carry cost. The moat is judgment, and even it is closing, which is why the bar has to be defended deliberately rather than assumed.
+
+See [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]] for the distinction.
 
 ## Core Idea
 
@@ -193,6 +199,7 @@ When working on complex, long-term knowledge work, using multiple models in a de
 - [[wiki/Concepts/A Return to Code|A Return to Code]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 - [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]]
+- [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]]
 
 ## Sources
 

@@ -93,6 +93,23 @@ The body should be structured, operational, and complete enough to use. After th
 
 The body may be more systematic than the Core Thesis. The thesis should be sharp; the body should be useful.
 
+## Voice and Headings (adopted 2026-06-14)
+
+Briefs use the High-Signal Front-Facing voice on their prose, adapted from `02 - System/Writing Standards.md`. This is a voice change, not a structure change: the Brief Structure anchors above stay.
+
+- No posing. State facts; do not sell, boast, or land rhythm. No copywriter cadence (triads, fragments, anaphora).
+- No em-dashes in brief prose.
+- Specifics over conclusions. Give the detail; do not announce the takeaway or grade the page.
+- Plain explaining register: the voice used when explaining to a colleague, not drafting-mode inside quotation marks.
+
+Headings follow **Specific Beats Generic**: a section heading that could caption another page is not finished. Move it onto a stranger's site; if it still fits, rewrite it to carry this section's actual claim. The **Core Thesis** carries a specific claim-heading rather than the generic words "Core Thesis".
+
+**Headings state a positive claim (hard rule).** Name what a thing is. No negation and no "X, not Y" construction in a heading. This extends the register ban on "Not X but Y" openers to the heading layer. Weak: "Lower and higher order are different habits, not a ladder". Strong: "Lower and higher order are separate habit-sets".
+
+Four headings stay generic, because they are functional anchors and not captions: **Compressed Takeaways**, **The Operating Model** (only when the source gives a sequential, named procedure), **Open Questions**, **Sources**.
+
+**Resolved (2026-06-14, Wedge): one-fact-per-sentence is the priority and applies everywhere, including the Core Thesis.** The Core Thesis keeps its causal, recognitional job, but it renders as a sequence of one-fact sentences rather than one flowing multi-clause arc. Express the arc step by step: capability, why it works, where it breaks, what is underneath, then the repair, each as its own sentence.
+
 ## File Conventions
 
 - L3/model first-pass filename: `[Model] - [Title].md`
