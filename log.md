@@ -1,7 +1,7 @@
 ---
 type: log
 created: 2026-05-02
-updated: 2026-05-21
+updated: 2026-06-15
 tags:
   - system
 ---
@@ -712,3 +712,11 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - New pages: 5 Mindset (Locus of Control, Learning Zone & Reversion Response, Confidence Calibration, Compounding vs Additive Gains, Perfectionism and Overthinking), 4 concept owners (Knowledge Types, Four Stages of Competence, Accuracy Before Speed, Learning Styles Myth), 6 Self-Management (Performance Goals, Priority 0+1, Task Management, Building a Schedule That Survives, OFF-Rest Timing, Hyper-Focus), 4 Retrieval (Interleaving Session Design, Opportunistic Retrieval, Reconstruction, Reverse Explanation), 2 Deep Processing (Hipshot, Problem-First Learning), 3 Learning Craft (Theme-First Text Analysis, Microlearning System, Clinical Learning System), 2 Decision Making (Uncertainty-Opportunity Tradeoff, Expectancy in Wicked Environments), The 30-Day Plan (Syntheses), The Twitter Test (Red Team), Aim-Shoot-Skin for Language Learning (Language).
 - notes/index.md: rows added for all 29. The 82 legacy unindexed pages from the 2026-05-29 sessions remain a backlog item.
 - Method note: multi-agent writes landed in a session worktree due to background isolation; shipped to the main checkout in one pass. Two pages written directly (Clinical Learning System, Perfectionism and Overthinking).
+
+## [2026-06-15] ingest | The AI Industrial Revolution → agentic cluster fusion
+- Source: Naval Ravikant et al., "The AI Industrial Revolution" ([nav.al/industrial](https://nav.al/industrial), 2026-06-02), transcript in `raw/inbox`. Scope per Wedge: agentic core + light adjacent; fold into existing pages (no new standalone concept pages beyond the anchor); fuse direct to wiki.
+- New page (anchor): [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]] — software factories, waste-tokens-save-time, models planning unprompted, humans as verifiers, train-the-agent, intelligence vs agency, small teams, model tiering, out-of-distribution creativity, and the planning-as-spec vs planning-as-ritual split. Carries its own Case Against (founders talking their book).
+- Fused (integration rule, frontmatter bumped): [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] (verifier role + factory framing + train-the-agent; src 9→10), [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]] (spec-not-plan invariant + two dated tactics: waste-tokens, stop-hand-writing-the-plan), [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] (no-stuck + hardware crossover; src 4→5), [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]] (models speak English / instruct humans; src 1→2), [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]] (always-want-smartest + tiering caveat; src 1→2).
+- Light adjacent: [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] (100x factory leverage; src 1→2), [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]] (out-of-distribution ceiling on generativity).
+- System: Source Index row added; notes/index.md row for the anchor page (also indexed Higher-Order Generativity, previously missing); 4 open questions appended to outputs/generated-questions.md; journal entry 2026-06-15.
+- Flagged, not actioned: (1) about.md line "n=1 learning + encoding solutions" conflicts with the High-Signal Front-Facing standard (no workshop words on the door) — translation options pending Wedge's pick; (2) the PRD-relaxation idea encoded as an open question / invariant-vs-tactic split, NOT a change to the operating doc (Wedge confirmed PRDs stay).

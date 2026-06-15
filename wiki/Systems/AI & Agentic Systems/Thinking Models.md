@@ -2,8 +2,8 @@
 type: concept
 status: seed
 created: 2026-05-02
-updated: 2026-05-02
-source-count: 1
+updated: 2026-06-15
+source-count: 2
 last-audited:
 tags:
   - llm
@@ -36,15 +36,23 @@ Avoid them for:
 - Low-stakes chat.
 - Tasks where extra latency adds no value.
 
+## Always Want the Smartest Model
+
+Naval's selection rule runs the other way from cost-optimization: intelligence is an unalloyed good, so given the leverage poured behind a decision — capital, code, marketing — you want the best judgment every time, and you stop asking the model you believe is weaker once you can't tell which answer is right. When a model errs you often don't notice, which is the argument against trading intelligence for price on consequential work.
+
+The caveat comes from Vercel's gateway data: frontier intelligence at the right cost and latency wins most production traffic, but cheaper and open models earn their place on verifiable, high-volume tasks — support, browser automation — where a wrong answer is caught cheaply. This is the same fast-default / thinking-when-hard logic applied to model *choice* rather than reasoning depth: spend intelligence where verification is expensive, economize it where checks are cheap. See [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].
+
 ## Related Concepts
 
 - [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]]
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]
 
 ## Sources
 
 - [[How I use LLMs|How I use LLMs]]
+- [[raw/inbox/The AI Industrial Revolution|The AI Industrial Revolution]]
 
 ## Open Questions
 

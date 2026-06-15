@@ -4,7 +4,7 @@ description: "The complete catalog of every public page."
 type: index
 hideFolderListing: true
 created: 2026-05-02
-updated: 2026-06-11
+updated: 2026-06-15
 tags:
   - system
 ---
@@ -58,6 +58,8 @@ The complete catalog of every public page.
 | [[wiki/Concepts/Nothing Ever Happens Is Over\|Nothing Ever Happens Is Over]] | concept | Fast-changing AI-era sense-making frame for startups, technology, risks, and personal operating systems. |
 | [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame\|How to Communicate Truth Into Someone Else's Frame]] | concept | Credibility-first model of persuasion: tell the truth clearly, preserve fit, use rational empathy, and avoid pressure-based selling. |
 | [[wiki/Concepts/The Age Of Nonlinear Returns\|The Age Of Nonlinear Returns]] | concept | Decision frame for protecting trust, optionality, reputation, capability, and scaling surfaces instead of over-optimizing small visible exchanges. |
+| [[wiki/Concepts/The AI Industrial Revolution\|The AI Industrial Revolution]] | concept | Naval roundtable field report: software factories, waste-tokens-save-time, models planning unprompted, humans as verifiers, training the agent, intelligence vs agency, small teams, and planning-as-spec vs planning-as-ritual. |
+| [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment\|Higher-Order Generativity vs Higher-Order Judgment]] | concept | Generativity (closing fast) vs judgment under stakes (holding); the human edge is the accountable call and out-of-distribution work, not median synthesis. |
 
 ### Metacognition and learning
 

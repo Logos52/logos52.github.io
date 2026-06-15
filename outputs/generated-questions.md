@@ -29,6 +29,13 @@ Unresolved questions auto-appended by AIs during query / wiki / health-check wor
 - How should we review agent-proposed pages or backlinks for correctness, source discipline, and usefulness?
 - What is the interaction model between the high-craft L4→L3→L2→L1 pipeline and any future wiki-compiler skill?
 
+## The AI Industrial Revolution ingest (added 2026-06-15)
+
+- Where is the real line between planning-as-spec (keep, per the operating doc) and planning-as-ritual (let the model own)? This is the first source arguing the *drafting* of the plan can migrate while intent and acceptance criteria stay human. Resolve before any change to the PRD-first rule.
+- "Waste tokens, save time" assumes a cheap verifier. On which of my actual tasks is verification cheap enough to brute-force with parallel models, and where would it just produce confident slop?
+- If the durable edge is judgment plus out-of-distribution generativity, what in the vault workflow is generativity I can hand off versus judgment I must keep?
+- "Train the agent, don't do the work": which repeated vault moves (ingest, lint, cross-link, status) should become extracted, reusable skills rather than re-prompted each time? Overlaps with whether `cos`/Hermes should own them.
+
 ## Specific Content & Practice Gaps (added 2026-05-25 health check)
 
 - Which Red Team tools (premortem, Analysis of Competing Hypotheses, Four Ways of Seeing, etc.) should become default parts of BHS, SIR, and Kolbs, and what would a minimal weekly personal Red Team review actually look like?

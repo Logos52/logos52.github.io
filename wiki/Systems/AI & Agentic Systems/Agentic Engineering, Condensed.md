@@ -3,7 +3,7 @@ type: condensed
 status: developing
 description: "The agentic engineering corpus as doctrine, split by half-life: invariants expected to survive far more capable models — taste, specs, verification, understanding — and dated tactics stamped 2026-06 and expected to rot."
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-06-15
 tags:
   - agents
   - llm
@@ -32,6 +32,7 @@ These are claims about responsibility and judgment, not about model capability �
 ## 2. Invariants — the medium
 
 - **Natural language is now a programming medium.** Context, instructions, examples, and constraints are interpreted as executable intent — so specs are source code, and writing better specs is writing better software ([[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]]).
+- **Own the spec, not the hand-written plan.** As models return routes and trade-offs unprompted, planning-as-ritual (you drafting the route) migrates to the model; planning-as-spec (the problem, the success criteria, which trade-off you actually want) stays yours. The PRD's content is the invariant; its authorship is not ([[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]).
 - **Shape the context around the task.** What the model can see *is* the program; indexes, constraints, examples, and desired-output shapes are engineering, not prompt garnish ([[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]).
 - **Build agent-native surfaces.** Copy-pasteable instructions, CLI commands, machine-readable state, API-first workflows — infrastructure legible to agents gets tended by agents ([[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]).
 - **Knowledge compounds in durable files.** Collect sources, compile to linked pages, query against the compiled layer, audit for drift — the wiki pattern that makes agent work accumulate instead of evaporate ([[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]).
@@ -47,6 +48,8 @@ Operating adjustments for the models of this moment. Each line names what would 
 - **Keep diffs small enough to review and delegations small enough to specify.** (Relaxes as verification tooling — not model trust — scales to bigger scopes.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
 - **Learn one layer below the abstraction** — enough fundamentals to catch the leaks. (Shifts as the layer worth knowing moves; the need for *some* lower layer may be permanent.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
 - **Agent councils share blind spots.** A second model's review is a second sample, not an independent auditor. (Obsoleted by genuinely diverse model families — not yet observed.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
+- **Waste tokens, save time — in verifiable domains.** Throw several models at the same solved problem and optimize your own time, not token count; a frontier model is still cheaper than a human. (Obsoleted where verification is expensive or the work sits at the creative frontier — there, brute force just multiplies confident slop.) ([[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]])
+- **Stop hand-writing the plan; keep writing the spec.** Models now plan unprompted and return trade-offs, so the drafted route is migrating to them. (The ritual obsoletes; the spec invariant above does not.) ([[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]])
 
 ---
 

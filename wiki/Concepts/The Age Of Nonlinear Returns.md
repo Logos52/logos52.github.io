@@ -2,8 +2,8 @@
 type: concept
 status: developing
 created: 2026-05-12
-updated: 2026-05-12
-source-count: 1
+updated: 2026-06-15
+source-count: 2
 last-audited:
 tags:
   - decision-making
@@ -204,6 +204,8 @@ Small workflow improvements can compound quickly:
 
 The output of one session can improve every later session. That is nonlinear. The point is to improve the system that builds.
 
+This is what Rauch means by being judged on the factory rather than the artifact: the leverage moved from "ship output B" to "build the thing that ships outputs B through Z," which is why the visible 10x engineer is now a 100x or 1,000x one in idea domains. Higher productivity argues for hiring strong operators *more*, not less — see [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].
+
 This is why shortcuts are dangerous. A hacky fix may save ten minutes today while creating a hidden tax on every future agent session.
 
 ## Relationship To Learning
@@ -292,3 +294,4 @@ The answer should change behavior. If it does not, the frame is ornamental.
 ## Sources
 
 - Naval Ravikant and Nivi, "Sell the Truth" (2026-05-12). Local source in `raw/sources`.
+- Naval Ravikant et al., "The AI Industrial Revolution" (2026-06-02). Local source in `raw/inbox`. Distilled at [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].

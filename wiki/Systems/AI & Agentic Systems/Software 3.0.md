@@ -2,8 +2,8 @@
 type: concept
 status: seed
 created: 2026-05-02
-updated: 2026-05-02
-source-count: 1
+updated: 2026-06-15
+source-count: 2
 last-audited:
 tags:
   - llm
@@ -25,15 +25,19 @@ The unit of leverage shifts from exact code to effective context. A good instruc
 
 For this wiki, `AGENTS.md`, `notes/index.md`, and `log.md` are Software 3.0 artifacts: they program future LLM behavior through structured context.
 
+Naval's version of the shift: we learned code to talk to machines, and now the machines speak English — fuzzy, sloppy, human English — so the question becomes where the moat is once the interface language is natural. The early sign of the medium maturing is the reversal of who instructs whom. Today the human still completes the model ("go get this API key, only you can do that"); as SaaS tools expose CLIs and text interfaces, the model starts handing instructions back. See [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].
+
 ## Related Concepts
 
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
 - [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]
 
 ## Sources
 
 - [[Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]
+- [[raw/inbox/The AI Industrial Revolution|The AI Industrial Revolution]]
 
 ## Open Questions
 
