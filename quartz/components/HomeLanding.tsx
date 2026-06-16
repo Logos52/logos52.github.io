@@ -50,11 +50,15 @@ const spineGraphCfg = {
   },
   recentDays: 7,
   spineDomains: spineDomainsForGraph(),
-  // Exclude this high-degree node from the home graph entirely (it was dominating the
-  // satellite selection around the Learning hub and made the visual too cluttered).
+  // Exclude high-degree or retired nodes from the home graph.
+  // Hermes Agent retired long ago (no longer used/maintained).
   // Using both possible slug forms for robustness.
-  // (User request 2026-06-14)
-  excludeSlugs: ["wiki/ICS Program Map", "wiki/ICS-Program-Map"],
+  excludeSlugs: [
+    "wiki/ICS Program Map",
+    "wiki/ICS-Program-Map",
+    "wiki/Systems/AI & Agentic Systems/Hermes Agent",
+    "wiki/Systems/AI--and--Agentic-Systems/Hermes-Agent",
+  ],
 }
 
 // Built slugs — verified against contentIndex.json. Raw vault paths break here.
@@ -81,6 +85,12 @@ const trails = [
     title: "Attention & focus",
     sub: "8 notes · enter, hold, and recover focus",
     slug: "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block" as const,
+    domainId: "focus",
+  },
+  {
+    title: "Self-Regulation",
+    sub: "notes · drive, persistence, emotion",
+    slug: "wiki/Dimensions/Self-Regulation" as const,
     domainId: "focus",
   },
 ]
@@ -196,7 +206,7 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
 
       <section class={classNames("atlas-strip", !showOpenQuestions && "atlas-strip--solo")}>
           {showOpenQuestions && (
-            <div class="atlas-open-questions">
+            <div class="atlas-open-questions atlas-pulse-card">
               <h2>Open questions</h2>
               <ul class="atlas-question-list">
                 {openQuestions.slice(0, 3).map((q) => (
@@ -209,7 +219,7 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
             </div>
           )}
           <div
-            class="atlas-retrieval"
+            class="atlas-retrieval atlas-pulse-card"
             data-domain-rules={JSON.stringify(graphColorRulesFromDomains())}
           >
             <h2>Today&apos;s retrieval</h2>

@@ -124,7 +124,7 @@ const SPINE_OUTLINE_PERIMETER_LINKS = 4
 // on first load. You can always manually zoom further with ctrl+scroll/pinch.
 const SPINE_ZOOM_PADDING = 25
 const SPINE_MAX_FIT_SCALE = 3.5
-const SPINE_ZOOM_IN_FACTOR = 1.05
+const SPINE_ZOOM_IN_FACTOR = 1.0
 const SELF_REG_HUB = "wiki/Dimensions/Self-Regulation"
 // Links in spine mode use --gray (a bit more color/contrast on cream paper than --lightgray)
 // with modest alpha so they stay recessed but visible. "Just a smidge" more than the very faded 0.22.

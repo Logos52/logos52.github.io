@@ -1807,6 +1807,28 @@ body[data-slug="index"] .page-header > header .search {
   color: var(--secondary);
 }
 
+/* Rework: make Open Questions + Today's Retrieval look like proper cards
+   (consistent with .atlas-trail-card styling). Adds left accent, padding, and hover.
+   This gives the section more weight and visual cohesion instead of bare lists/slots.
+   The "atlas-pulse-card" class is applied in HomeLanding.tsx for both halves. */
+.atlas-pulse-card {
+  background: var(--surface);
+  border: 1px solid var(--lightgray);
+  border-left-width: 3px;
+  border-radius: 8px;
+  padding: 0.85rem 0.9rem;
+  transition: border-color 0.15s ease;
+}
+
+.atlas-pulse-card:hover {
+  border-color: color-mix(in srgb, var(--secondary) 40%, var(--lightgray));
+}
+
+/* Tighten the internal h2s a bit when inside the new cards for better spacing. */
+.atlas-strip .atlas-pulse-card h2 {
+  margin-bottom: 0.5rem;
+}
+
 .atlas-retrieval-hint {
   font-family: var(--codeFont);
   font-size: 10px;
@@ -1837,6 +1859,13 @@ body[data-slug="index"] .page-header > header .search {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 0.75rem;
+}
+
+/* In max-width / wide view, force 5 columns for symmetry when we have 5 trails. */
+@media (min-width: 1100px) {
+  .atlas-trail-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
 
 .atlas-trail-card {
