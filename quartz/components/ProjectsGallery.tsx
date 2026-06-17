@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { resolveRelative, SimpleSlug } from "../util/path"
+import { resolveRelative, pathToRoot, SimpleSlug } from "../util/path"
 import { classNames } from "../util/lang"
 
 /**
@@ -8,8 +8,7 @@ import { classNames } from "../util/lang"
  * Data-driven: every page under `projects/` with `type: project` in its
  * frontmatter becomes a card automatically. Add a project page, get a card.
  * Frontmatter read per project:
- *   title, status (current|past), blurb (or description), stack: [..], order.
- *   Screenshots live on each project page (image frontmatter), not on the gallery cards.
+ *   title, status (current|past), blurb (or description), stack: [..], order, image
  */
 
 type Status = "current" | "past"
@@ -17,6 +16,7 @@ type Status = "current" | "past"
 const ProjectsGallery: QuartzComponent = (props: QuartzComponentProps) => {
   const { allFiles, fileData, displayClass } = props
   const here = fileData.slug!
+  const root = pathToRoot(here)
 
   const projects = allFiles
     .filter((f) => {
@@ -37,6 +37,7 @@ const ProjectsGallery: QuartzComponent = (props: QuartzComponentProps) => {
         status,
         stack,
         order,
+        image: fm.image ? String(fm.image) : "",
       }
     })
     .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title))
@@ -60,6 +61,11 @@ const ProjectsGallery: QuartzComponent = (props: QuartzComponentProps) => {
                   class={`project-card project-${p.status}`}
                   href={resolveRelative(here, p.slug as SimpleSlug)}
                 >
+                  {p.image && (
+                    <div class="project-card-media">
+                      <img src={`${root}/${p.image}`} alt={`${p.title} screenshot`} loading="lazy" />
+                    </div>
+                  )}
                   <h3 class="project-card-title">{p.title}</h3>
                   <p class="project-card-blurb">{p.blurb}</p>
                   {p.stack.length > 0 && (
@@ -113,6 +119,19 @@ ProjectsGallery.css = `
   border-color: var(--secondary);
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+}
+
+.project-card-media {
+  margin: -1rem -1.1rem 0;
+  overflow: hidden;
+  border-radius: 0.55rem 0.55rem 0 0;
+  border-bottom: 1px solid var(--lightgray);
+}
+.project-card-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+  vertical-align: top;
 }
 
 .project-card-title { margin: 0; font-size: 1.1rem; color: var(--secondary); }
