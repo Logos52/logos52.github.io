@@ -1686,12 +1686,8 @@ body[data-slug="index"] .page-header > header .search {
   width: 100%;
 }
 
-.atlas-search-wrap .search > .search-button {
-  width: 100%;
+.atlas-search-wrap .search--inline > .search-field {
   border-radius: 8px;
-  font-family: var(--codeFont);
-  font-size: 12px;
-  letter-spacing: 0.04em;
 }
 
 .atlas-graph-section .atlas-graph > .graph-outer {

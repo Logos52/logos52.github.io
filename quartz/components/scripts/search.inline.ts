@@ -191,10 +191,10 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
   const container = searchElement.querySelector(".search-container") as HTMLElement
   if (!container) return
 
+  const isInline = searchElement.classList.contains("search--inline")
   const sidebar = container.closest(".sidebar") as HTMLElement | null
 
-  const searchButton = searchElement.querySelector(".search-button") as HTMLButtonElement
-  if (!searchButton) return
+  const searchButton = searchElement.querySelector(".search-button") as HTMLButtonElement | null
 
   const searchBar = searchElement.querySelector(".search-bar") as HTMLInputElement
   if (!searchBar) return
@@ -222,19 +222,27 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
 
   function hideSearch() {
     container.classList.remove("active")
-    searchBar.value = "" // clear the input when we dismiss the search
+    searchBar.value = ""
     if (sidebar) sidebar.style.zIndex = ""
     removeAllChildren(results)
     if (preview) {
       removeAllChildren(preview)
     }
     searchLayout.classList.remove("display-results")
-    searchType = "basic" // reset search type after closing
-    searchButton.focus()
+    searchType = "basic"
+    if (isInline) {
+      searchBar.blur()
+    } else {
+      searchButton?.focus()
+    }
   }
 
   function showSearch(searchTypeNew: SearchType) {
     searchType = searchTypeNew
+    if (isInline) {
+      searchBar.focus()
+      return
+    }
     if (sidebar) sidebar.style.zIndex = "1"
     container.classList.add("active")
     searchBar.focus()
@@ -244,6 +252,14 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
   async function shortcutHandler(e: HTMLElementEventMap["keydown"]) {
     if (e.key === "k" && (e.ctrlKey || e.metaKey) && !e.shiftKey) {
       e.preventDefault()
+      if (isInline) {
+        if (document.activeElement === searchBar && searchBar.value) {
+          hideSearch()
+        } else {
+          showSearch("basic")
+        }
+        return
+      }
       const searchBarOpen = container.classList.contains("active")
       searchBarOpen ? hideSearch() : showSearch("basic")
       return
@@ -438,7 +454,11 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
   async function onType(e: HTMLElementEventMap["input"]) {
     if (!searchLayout || !index) return
     currentSearchTerm = (e.target as HTMLInputElement).value
-    searchLayout.classList.toggle("display-results", currentSearchTerm !== "")
+    const hasQuery = currentSearchTerm !== ""
+    searchLayout.classList.toggle("display-results", hasQuery)
+    if (isInline) {
+      container.classList.toggle("active", hasQuery)
+    }
     searchType = currentSearchTerm.startsWith("#") ? "tags" : "basic"
 
     let searchResults: DefaultDocumentSearchResults<Item>
@@ -495,12 +515,28 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
 
   document.addEventListener("keydown", shortcutHandler)
   window.addCleanup(() => document.removeEventListener("keydown", shortcutHandler))
-  searchButton.addEventListener("click", () => showSearch("basic"))
-  window.addCleanup(() => searchButton.removeEventListener("click", () => showSearch("basic")))
+
+  if (!isInline && searchButton) {
+    const openModal = () => showSearch("basic")
+    searchButton.addEventListener("click", openModal)
+    window.addCleanup(() => searchButton.removeEventListener("click", openModal))
+  }
+
+  if (isInline) {
+    const onOutsideClick = (e: MouseEvent) => {
+      if (!searchElement.contains(e.target as Node)) {
+        container.classList.remove("active")
+        searchLayout.classList.remove("display-results")
+      }
+    }
+    document.addEventListener("click", onOutsideClick)
+    window.addCleanup(() => document.removeEventListener("click", onOutsideClick))
+  }
+
   searchBar.addEventListener("input", onType)
   window.addCleanup(() => searchBar.removeEventListener("input", onType))
 
-  registerEscapeHandler(container, hideSearch)
+  registerEscapeHandler(isInline ? searchElement : container, hideSearch)
   await fillDocument(data)
 }
 

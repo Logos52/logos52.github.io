@@ -8,6 +8,7 @@ import {
   SPINE_HUBS,
   colorOf,
   graphColorRulesFromDomains,
+  slugifyWikiSubtree,
   spineDomainsForGraph,
 } from "../domains"
 // @ts-ignore
@@ -95,7 +96,11 @@ const trails = [
   },
 ]
 
-const AtlasSearch = Search({ placeholder: "Find a note…" })
+const AtlasSearch = Search({
+  placeholder: "Find a note…",
+  mode: "inline",
+  enablePreview: false,
+})
 // New 3×5 hub sets to replace the old pentagon visualization on the home.
 // Clean cards in the same style as the "Trails" (right-side aesthetic the user liked).
 // Set 1 = the canonical five learning dimensions.
@@ -110,19 +115,89 @@ const dimensionHubs = [
 ]
 
 const lifeHubs = [
-  { title: "Health", sub: "body, energy, sustainability", slug: "wiki/Dimensions/Self-Management" as const, color: "#2fa36b", icon: "ti-heartbeat" },
-  { title: "Money", sub: "mindsets & budgeting systems", slug: "wiki/Money/Money, Condensed" as const, color: "#2fa36b", icon: "ti-wallet" },
-  { title: "中文", sub: "characters, reading, fluency", slug: "wiki/Language/Chinese/How-Chinese-Characters-Work" as const, color: "#ffb000", icon: "ti-language" },
-  { title: "Minimalism", sub: "systems design for less", slug: "wiki/Minimalism/Minimalism-as-Systems-Design" as const, color: "#9aa0a6", icon: "ti-box" },
-  { title: "Condensed Notes", sub: "high-signal syntheses", slug: "wiki/Syntheses/Learning, Condensed" as const, color: "#734bb2", icon: "ti-book-2" },
+  {
+    title: "Health",
+    sub: "body, energy, sustainability",
+    slug: "wiki/Dimensions/Self-Management" as const,
+    countPrefix: "wiki/Dimensions/Self-Management",
+    color: "#2fa36b",
+    icon: "ti-heartbeat",
+  },
+  {
+    title: "Money",
+    sub: "mindsets & budgeting systems",
+    slug: "wiki/Money/Money, Condensed" as const,
+    countPrefix: "wiki/Money",
+    color: "#2fa36b",
+    icon: "ti-wallet",
+  },
+  {
+    title: "中文",
+    sub: "characters, reading, fluency",
+    slug: "wiki/Language/Chinese/How-Chinese-Characters-Work" as const,
+    countPrefix: "wiki/Language/Chinese",
+    color: "#ffb000",
+    icon: "ti-language",
+  },
+  {
+    title: "Minimalism",
+    sub: "systems design for less",
+    slug: "wiki/Minimalism/Minimalism-as-Systems-Design" as const,
+    countPrefix: "wiki/Minimalism",
+    color: "#9aa0a6",
+    icon: "ti-box",
+  },
+  {
+    title: "Condensed Notes",
+    sub: "high-signal syntheses",
+    slug: "wiki/Syntheses/Learning, Condensed" as const,
+    countPrefix: "wiki/Syntheses",
+    color: "#734bb2",
+    icon: "ti-book-2",
+  },
 ]
 
 const executionHubs = [
-  { title: "Agentic Engineering", sub: "build & delegate with agents", slug: "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering" as const, color: "#4f9dff", icon: "ti-robot" },
-  { title: "Learning Systems", sub: "ICS core, first principles", slug: "wiki/Syntheses/First-Principles-of-ICS" as const, color: "#8dc63f", icon: "ti-network" },
-  { title: "Focus Management", sub: "enter, hold, recover attention", slug: "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block" as const, color: "#ff6fa3", icon: "ti-target" },
-  { title: "Decision Making", sub: "high-quality choices", slug: "wiki/Decision-Making/Decision-Making" as const, color: "#ff8a3d", icon: "ti-checklist" },
-  { title: "Generativity", sub: "higher-order thinking & judgment", slug: "wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment" as const, color: "#7f55a0", icon: "ti-bulb" },
+  {
+    title: "Agentic Engineering",
+    sub: "build & delegate with agents",
+    slug: "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering" as const,
+    countPrefix: "wiki/Systems/AI & Agentic Systems",
+    color: "#4f9dff",
+    icon: "ti-robot",
+  },
+  {
+    title: "Learning Systems",
+    sub: "ICS core, first principles",
+    slug: "wiki/Syntheses/First-Principles-of-ICS" as const,
+    countPrefix: "wiki/Syntheses",
+    color: "#8dc63f",
+    icon: "ti-network",
+  },
+  {
+    title: "Focus Management",
+    sub: "enter, hold, recover attention",
+    slug: "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block" as const,
+    countPrefix: "wiki/Self Management",
+    color: "#ff6fa3",
+    icon: "ti-target",
+  },
+  {
+    title: "Decision Making",
+    sub: "high-quality choices",
+    slug: "wiki/Decision-Making/Decision-Making" as const,
+    countPrefix: "wiki/Decision Making",
+    color: "#ff8a3d",
+    icon: "ti-checklist",
+  },
+  {
+    title: "Generativity",
+    sub: "higher-order thinking & judgment",
+    slug: "wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment" as const,
+    countPrefix: "wiki/Concepts",
+    color: "#7f55a0",
+    icon: "ti-bulb",
+  },
 ]
 
 const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
@@ -154,12 +229,8 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
     }
   }
   const subtreeCountCache = new Map<string, number>()
-  function getHubCount(h: { tag?: string; slug: string }): number {
-    if (h.tag) {
-      const k = h.tag.toLowerCase().replace(/\s+/g, "-")
-      if (tagCountMap.has(k)) return tagCountMap.get(k)!
-    }
-    const base = h.slug
+  function countUnderWikiPrefix(rawPrefix: string): number {
+    const base = slugifyWikiSubtree(rawPrefix)
     if (subtreeCountCache.has(base)) return subtreeCountCache.get(base)!
     let c = 0
     for (const f of allFiles) {
@@ -168,6 +239,17 @@ const HomeLanding: QuartzComponent = (props: QuartzComponentProps) => {
     }
     subtreeCountCache.set(base, c)
     return c
+  }
+  function getHubCount(h: { tag?: string; slug: string; countPrefix?: string }): number {
+    if (h.tag) {
+      const k = h.tag.toLowerCase().replace(/\s+/g, "-")
+      if (tagCountMap.has(k)) return tagCountMap.get(k)!
+    }
+    if (h.countPrefix) return countUnderWikiPrefix(h.countPrefix)
+    // Leaf slug: count sibling pages in the same folder (slugified).
+    const slugged = slugifyWikiSubtree(h.slug)
+    const parent = slugged.includes("/") ? slugged.replace(/\/[^/]+$/, "") : slugged
+    return countUnderWikiPrefix(parent)
   }
 
   return (

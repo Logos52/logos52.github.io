@@ -8,7 +8,7 @@ export type Domain = {
 const FALLBACK_COLOR = "#6f6875"
 
 /** Slugify a wiki folder prefix the same way Quartz slugifies path segments. */
-function slugifyPrefix(prefix: string): string {
+export function slugifyPrefix(prefix: string): string {
   const trimmed = prefix.endsWith("/") ? prefix.slice(0, -1) : prefix
   return (
     trimmed
@@ -106,6 +106,14 @@ export function domainOf(slug: string): Domain | undefined {
 
 export function colorOf(slug: string): string {
   return domainOf(slug)?.color ?? FALLBACK_COLOR
+}
+
+/** Slugify a wiki path or subtree prefix to match built contentIndex slugs. */
+export function slugifyWikiSubtree(raw: string): string {
+  const path = raw.replace(/^wiki\//, "").replace(/\/$/, "")
+  if (!path) return "wiki"
+  const slugged = slugifyPrefix(`${path}/`).replace(/\/$/, "")
+  return `wiki/${slugged}`
 }
 
 /** Built slugs — verified against contentIndex.json. Do not use raw vault paths.

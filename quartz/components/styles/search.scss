@@ -240,3 +240,109 @@
     }
   }
 }
+
+// Inline combobox: always-visible field + compact dropdown (home page).
+.search.search--inline {
+  position: relative;
+  max-width: none;
+  width: 100%;
+
+  & > .search-field {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid var(--lightgray);
+    border-radius: 8px;
+    background: var(--light);
+    padding: 0 0.75rem;
+    min-height: 2.25rem;
+
+    & svg {
+      width: 16px;
+      min-width: 16px;
+      flex-shrink: 0;
+
+      .search-path {
+        stroke: var(--darkgray);
+        stroke-width: 1.5px;
+      }
+    }
+
+    & > .search-bar {
+      flex: 1;
+      min-width: 0;
+      border: none;
+      background: transparent;
+      padding: 0.45rem 0;
+      font-family: var(--codeFont);
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      color: var(--dark);
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  & > .search-container {
+    position: absolute;
+    top: calc(100% + 0.35rem);
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    backdrop-filter: none;
+    background: transparent;
+    z-index: 40;
+
+    &.active {
+      display: block;
+    }
+
+    & > .search-layout {
+      display: none;
+      border: 1px solid var(--lightgray);
+      border-radius: 8px;
+      background: var(--light);
+      box-shadow:
+        0 10px 28px rgba(27, 33, 48, 0.1),
+        0 4px 12px rgba(27, 33, 48, 0.08);
+      overflow: hidden;
+
+      &.display-results {
+        display: block;
+      }
+
+      & > .results-container {
+        max-height: min(360px, 42vh);
+        height: auto;
+        overflow-y: auto;
+        border-radius: 8px;
+
+        & .result-card {
+          padding: 0.65rem 0.85rem;
+
+          & > h3 {
+            font-size: 0.92rem;
+          }
+
+          & > p.card-description {
+            display: block;
+            font-size: 0.82rem;
+            color: var(--darkgray);
+            margin-top: 0.2rem;
+            line-height: 1.35;
+          }
+        }
+      }
+
+      & > .preview-container {
+        display: none !important;
+      }
+    }
+  }
+}
