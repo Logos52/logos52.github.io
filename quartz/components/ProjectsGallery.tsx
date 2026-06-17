@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { resolveRelative, pathToRoot, SimpleSlug } from "../util/path"
+import { resolveRelative, SimpleSlug } from "../util/path"
 import { classNames } from "../util/lang"
 
 /**
@@ -8,7 +8,8 @@ import { classNames } from "../util/lang"
  * Data-driven: every page under `projects/` with `type: project` in its
  * frontmatter becomes a card automatically. Add a project page, get a card.
  * Frontmatter read per project:
- *   title, status (current|past), blurb (or description), stack: [..], order
+ *   title, status (current|past), blurb (or description), stack: [..], order.
+ *   Screenshots live on each project page (image frontmatter), not on the gallery cards.
  */
 
 type Status = "current" | "past"
@@ -16,7 +17,6 @@ type Status = "current" | "past"
 const ProjectsGallery: QuartzComponent = (props: QuartzComponentProps) => {
   const { allFiles, fileData, displayClass } = props
   const here = fileData.slug!
-  const root = pathToRoot(here)
 
   const projects = allFiles
     .filter((f) => {
@@ -34,22 +34,16 @@ const ProjectsGallery: QuartzComponent = (props: QuartzComponentProps) => {
         slug: f.slug!,
         title: String(fm.title ?? f.slug),
         blurb: String(fm.blurb ?? fm.description ?? ""),
-        statusLabel: String(fm.status ?? "current"),
         status,
         stack,
         order,
-        image: fm.image ? String(fm.image) : "",
       }
     })
     .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title))
 
-  const groups: { key: Status; label: string; note: string }[] = [
-    { key: "current", label: "Building now", note: "Active projects." },
-    {
-      key: "past",
-      label: "Archived",
-      note: "Earlier builds — what they were, why they ended, and the lesson that carried forward.",
-    },
+  const groups: { key: Status; label: string }[] = [
+    { key: "current", label: "Current" },
+    { key: "past", label: "Archived" },
   ]
 
   return (
@@ -59,24 +53,13 @@ const ProjectsGallery: QuartzComponent = (props: QuartzComponentProps) => {
         if (items.length === 0) return null
         return (
           <section class="projects-group">
-            <div class="projects-group-head">
-              <h2>{g.label}</h2>
-              <span class="projects-group-note">{g.note}</span>
-            </div>
+            <h2 class="projects-group-head">{g.label}</h2>
             <div class="projects-grid">
               {items.map((p) => (
                 <a
                   class={`project-card project-${p.status}`}
                   href={resolveRelative(here, p.slug as SimpleSlug)}
                 >
-                  {p.image && (
-                    <div class="project-card-media">
-                      <img src={`${root}/${p.image}`} alt={`${p.title} screenshot`} loading="lazy" />
-                    </div>
-                  )}
-                  <div class="project-card-top">
-                    <span class={`project-status project-status-${p.status}`}>{p.statusLabel}</span>
-                  </div>
                   <h3 class="project-card-title">{p.title}</h3>
                   <p class="project-card-blurb">{p.blurb}</p>
                   {p.stack.length > 0 && (
@@ -102,16 +85,11 @@ ProjectsGallery.css = `
 .projects-group { margin: 0 0 2.5rem; }
 
 .projects-group-head {
-  display: flex;
-  align-items: baseline;
-  gap: 0.75rem;
-  flex-wrap: wrap;
+  margin: 0 0 1.1rem;
+  font-size: 1.3rem;
   border-bottom: 1px solid var(--lightgray);
   padding-bottom: 0.4rem;
-  margin-bottom: 1.1rem;
 }
-.projects-group-head h2 { margin: 0; font-size: 1.3rem; }
-.projects-group-note { color: var(--gray); font-size: 0.85rem; }
 
 .projects-grid {
   display: grid;
@@ -135,40 +113,6 @@ ProjectsGallery.css = `
   border-color: var(--secondary);
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
-}
-
-.project-card-media {
-  margin: -1rem -1.1rem 0.35rem;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
-  border-radius: 0.55rem 0.55rem 0 0;
-  background: var(--lightgray);
-  border-bottom: 1px solid var(--lightgray);
-}
-.project-card-media img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top center;
-  display: block;
-}
-
-.project-card-top { display: flex; }
-.project-status {
-  font-family: var(--codeFont);
-  font-size: 0.65rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 0.12rem 0.5rem;
-  border-radius: 1rem;
-}
-.project-status-current {
-  color: var(--tertiary);
-  background: color-mix(in srgb, var(--tertiary) 15%, transparent);
-}
-.project-status-past {
-  color: var(--gray);
-  background: color-mix(in srgb, var(--gray) 16%, transparent);
 }
 
 .project-card-title { margin: 0; font-size: 1.1rem; color: var(--secondary); }
