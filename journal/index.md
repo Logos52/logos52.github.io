@@ -29,6 +29,7 @@ What's moving through the knowledge base right now: active projects, open questi
 
 ## Recent entries
 
+- [[journal/2026-06-16-tsumugu-handwriting-sections|2026-06-16]] — Tsumugu: adding handwriting and cursive sections to the encoding dictionary entries; two new Outlier courses (Cursive Crash Course + Handwriting/Penmanship Workshop) queued for private ingestion using the GSM downloader pattern.
 - [[journal/2026-06-15-tsumugu-encoding-dictionary-deployment|2026-06-15]] — Tsumugu Encoding Dictionary deployed to https://tsumugu-ed.com.
 - [[journal/2026-06-15-tsumugu-grammar-browse-and-site-copy|2026-06-15]] — Tsumugu grammar browse fixed; roadmap cut (FSRS out, idioms in); site copy.
 - [[journal/2026-06-15-ai-industrial-revolution-ingest|2026-06-15]] — The AI Industrial Revolution ingest; the planning question; the n=1 about-line.

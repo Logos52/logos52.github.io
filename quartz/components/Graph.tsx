@@ -36,6 +36,8 @@ export interface D3Config {
   hubLabels?: Record<string, string>
   recentDays?: number
   spineDomains?: { id: string; color: string; prefixes: string[] }[]
+  // Optional extra canvas margin on top of spine auto-fit (rarely needed).
+  spineZoomMarginExtra?: number
   pinnedSlugs?: string[]
   clusterForce?: number
   // Lightweight node flagging, independent of spineLayout: the listed slugs get a

@@ -21,6 +21,14 @@ import { Group as TweenGroup, Tween as Tweened } from "@tweenjs/tween.js"
 import { registerEscapeHandler, removeAllChildren } from "./util"
 import { FullSlug, SimpleSlug, getFullSlug, resolveRelative, simplifySlug } from "../../util/path"
 import { D3Config } from "../Graph"
+import {
+  SPINE_HUB_RADIUS,
+  SPINE_Y_BAND,
+  computeSpineAutoFitBounds,
+  computeSpineFitScale,
+  domainTargetX,
+  type HubPlacement,
+} from "../../util/spineZoom"
 
 type GraphicsInfo = {
   color: string
@@ -94,15 +102,8 @@ function domainForNode(id: string, spineDomains: SpineDomain[]): SpineDomain | u
   return undefined
 }
 
-function domainTargetX(domainIndex: number, count: number, width: number): number {
-  const t = count <= 1 ? 0.5 : 0.08 + (domainIndex / (count - 1)) * 0.84
-  return t * width - width / 2
-}
-
-const SPINE_HUB_RADIUS = 9
 const SPINE_IMPORTANT_RADIUS = 6
 const SPINE_OUTER_SATELLITE_RADIUS = 2.8
-const SPINE_Y_BAND = [-0.15, 0.11, -0.06, 0.15, -0.12, 0.06]  // vertical offsets for the 6 hubs — keeps the overall flat band shape from the reference layout while allowing local 2D spread per hub
 const SPINE_LINK_ALPHA = 0.26
 const SPINE_SATELLITE_RADIUS = 3.5
 const IMPORTANT_DEGREE_THRESHOLD = 3  // 3-tier threshold: non-primary nodes with deg >= this get important (domain color, boosted size); lower get gray/small to de-blob notes graph etc.
@@ -117,14 +118,6 @@ const SPINE_MAX_HUB_LINKS_PER_HUB = 3  // or 1 for Self Regulation
 const SPINE_EXTRA_PERIPHERAL_LINKS = 15
 const SPINE_OUTLINE_PERIMETER_LINKS = 4
 
-// Zoom fit tuning.
-// More generous padding around the core band for a less tight default view (more of the
-// flat constellation visible with breathing room). The structure, labels, and perimeter
-// outline are good; this just dials the auto-fit back so it doesn't feel overly zoomed-in
-// on first load. You can always manually zoom further with ctrl+scroll/pinch.
-const SPINE_ZOOM_PADDING = 25
-const SPINE_MAX_FIT_SCALE = 3.5
-const SPINE_ZOOM_IN_FACTOR = 1.0
 const SELF_REG_HUB = "wiki/Dimensions/Self-Regulation"
 // Links in spine mode use --gray (a bit more color/contrast on cream paper than --lightgray)
 // with modest alpha so they stay recessed but visible. "Just a smidge" more than the very faded 0.22.
@@ -353,6 +346,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     flagRadius,
     flagShowLabel,
     seedSlugs,
+    spineZoomMarginExtra,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
   const hubLabelOverrides = new Map<string, string>(
@@ -1429,35 +1423,28 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   function zoomToFitSpine() {
     if (!spineLayout || graphData.nodes.length === 0) return
-    const padding = SPINE_ZOOM_PADDING
-    let minX = Infinity
-    let maxX = -Infinity
-    let minY = Infinity
-    let maxY = -Infinity
-    for (const n of graphData.nodes) {
-      // Only fit to the "core" structure (hubs + primary direct satellites).
-      // This keeps the original visual size/zoom level of the main spine even
-      // when we add extra outer satellite nodes for more detail on the edges.
-      const isCore = simplifiedHubSlugs.has(n.id) || primarySatellites.has(n.id)
-      if (!isCore) continue
-
-      const r = nodeRadius(n)
-      const px = (n.x ?? 0) + width / 2
-      const py = (n.y ?? 0) + height / 2
-      minX = Math.min(minX, px - r)
-      maxX = Math.max(maxX, px + r)
-      minY = Math.min(minY, py - r)
-      maxY = Math.max(maxY, py + r)
+    const hubs: HubPlacement[] = []
+    for (const n of nodeRenderData) {
+      if (!simplifiedHubSlugs.has(n.simulationData.id)) continue
+      const { x, y } = n.simulationData
+      if (x == null || y == null) continue
+      hubs.push({
+        simX: x,
+        simY: y,
+        label: {
+          width: n.label.width,
+          height: n.label.height,
+          scaleX: n.label.scale.x,
+          scaleY: n.label.scale.y,
+          anchorX: n.label.anchor.x,
+          anchorY: n.label.anchor.y,
+        },
+      })
     }
-    const graphWidth = maxX - minX
-    const graphHeight = maxY - minY
-    if (graphWidth <= 0 || graphHeight <= 0) return
-    let fitScale = Math.min(
-      (width - padding * 2) / graphWidth,
-      (height - padding * 2) / graphHeight,
-      SPINE_MAX_FIT_SCALE,
-    )
-    fitScale *= SPINE_ZOOM_IN_FACTOR  // extra zoom-in on the core band for more detail (tunable)
+    const bounds = computeSpineAutoFitBounds(width, height, hubs)
+    const fitScale = computeSpineFitScale(bounds, width, height, spineZoomMarginExtra ?? 0)
+    if (fitScale <= 0) return
+    const { minX, maxX, minY, maxY } = bounds
     const midX = (minX + maxX) / 2
     const midY = (minY + maxY) / 2
     const transform = zoomIdentity

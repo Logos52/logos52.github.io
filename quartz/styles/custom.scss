@@ -874,7 +874,7 @@ blockquote {
 }
 
 .home-graph-embed .graph-outer {
-  height: 238px;
+  height: 260px; /* a bit more vertical room so the zoomed-out spine doesn't feel cramped */
   margin: 0;
   border: none;
   border-radius: 8px;
