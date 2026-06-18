@@ -3,13 +3,15 @@ title: "About"
 description: "Short bio and orientation."
 type: about
 created: 2026-05-08
-updated: 2026-06-12
+updated: 2026-06-18
 enableToc: false
 tags:
   - system
 ---
 
 # About
+
+![Wedge at an Apple Museum café in Taiwan](assets/profile.jpg)
 
 I'm Wedge ([@webigis](https://x.com/webigis) on X). I build software with LLM agents, and study languages and learning science. My current project is Tsumugu, a Traditional Mandarin encoding dictionary.
 

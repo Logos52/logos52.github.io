@@ -407,6 +407,16 @@ The working thesis:
 - Many tools assume a group or think-tank process that is too slow for daily decisions and too hard to defend as federally funded training.
 - AI has made many tool outputs cheap, shifting the bottleneck from generating alternatives to judging relevance.
 - The modern failure is often [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], not simply "missing the black swan."
+
+## 2026-06-12
+
+SpaceX IPO day research captured as special journal entry: record public listing ($75B raise at $135/share, initial ~$1.75T valuation with post-debut pop above $2T cap), Starlink subscriber/revenue details, xAI integration, Moon-first pivot (self-growing base priority over Mars), Starship lunar cargo targets (NET 2028), Optimus robot precursors for surface ops, and the orbital AI satellite data center vision (up to 1M sats, GW-scale compute ramp starting ~2027). 5-year and 10-year horizon notes on lunar infrastructure, Mars steps, interplanetary logistics, and AI abundance via space compute. User excitement and modest stock position recorded. Entry: [[journal/2026-06-12-SpaceX-IPO-Stock-Craze-Future-Vision|SpaceX IPO — stock craze, 5-10 year vision, Moon base, robots, orbital AI]].
+
+**Addendum (2026-06-17)**: Detailed 1/5/10-year projections appended, covering Starship flight cadence, AI satellite scaling (1 GW end-2027 → higher), Moon base development, Optimus deployment, and revenue ranges. See main entry for full details.
+
+## 2026-06-17
+
+Tesla research redo (parallel deep dive): Public TSLA stock context and valuation, current EV/energy/autonomy business, lofty goals around Optimus humanoid robots (production ramp 2026–2027, scaling to millions), Robotaxi/Cybercab (unsupervised ops targeted late 2026+), AI/FSD/Dojo, and energy. 1/5/10-year projections on robotics, autonomy revenue impact, and ecosystem synergies (e.g., Optimus for SpaceX). Entry: [[journal/2026-06-17-Tesla-Deep-Dive-Stock-Optimus-Robotaxi-AI-Future|Tesla Deep Dive — Stock, Optimus robots, Robotaxi, AI and Future Vision]].
 - Cultural empathy should be bounded by [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] and decision quality.
 - The reform version would preserve the lean two-week course and cut the slower, more specialized, tool-heavy versions unless they can prove clear value for specific roles.
 

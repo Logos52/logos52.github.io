@@ -7,7 +7,7 @@ aliases:
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-06-17
+updated: 2026-06-18
 openQuestions:
   - "Which tsumugu-ed feature earns the next build pass — example sentences, phonetic-family browse, or the 手寫 / handwriting layer?"
   - "What in the vault workflow is generativity I can hand off versus judgment I must keep?"
@@ -22,11 +22,10 @@ What's moving through the knowledge base right now: active projects, open questi
 
 ## What's top of mind
 
-- **[[projects/tsumugu-ed|Tsumugu Encoding Dictionary]]** (`https://tsumugu-ed.com`) — primary focus. Live site with 9,663 entries + 515 grammar patterns; Composer maintenance batch green (2026-06-17). Next value is incorporating new features onto the dictionary: the **手寫 / handwriting layer** (YGSF calligraphy examples + Outlier penmanship/cursive courses, pen-focused for language learners), **example-sentence pass** (~99% of words still lack examples), and **phonetic-family browse** (composition rows already name series; needs index + page template). Backlog also holds register-lint CI wiring, 85 phonetic UNRESOLVED adjudications, and site copy fix (stories in "every entry" overstates word coverage). Grok plan mode still unsafe on CJK filenames in `tsumugu-ed` — exec-mode Python for mechanical work.
-- **[[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs. Judgment]]** — the human edge question sharpened by the AI Industrial Revolution ingest. Generativity (synthesis, prose, design) is closing fast; judgment under stakes (accountable calls in novel, high-cost situations) still holds. The open workflow question: which vault moves are generativity I can hand off versus judgment I must keep? Ties directly to Tsumugu lane assignments (stories = top-model judgment; cribs = cheap generativity with cross-check).
-- **[[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]] ingest** (2026-06-15) — fused into the agentic cluster; implications still chewing. **Planning-as-spec vs planning-as-ritual:** the PRD's content stays invariant, but plan authorship may migrate to the model while intent and acceptance criteria stay human — surfaced, not settled. **Waste tokens, save time** only where verification is cheap. **Train the agent, don't do the work:** which repeated vault moves (ingest, lint, cross-link) become extracted skills? About-line reframe ("n=1 learning + encoding solutions") flagged — needs reader-words translation before shipping.
-
-- **[[projects/wnac|WNAC]]** — budgeting and investment mindsets need deeper thought before anything ships; parked at the bottom, not driving.
+- **[[projects/tsumugu-ed|Tsumugu Encoding Dictionary]]** — live at [tsumugu-ed.com](https://tsumugu-ed.com) (9,663 entries, 515 grammar patterns). Next build pass: handwriting layer, example sentences, or phonetic-family browse.
+- **[[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs. Judgment]]** — which vault moves are generativity I can hand off versus judgment I must keep? Ties to Tsumugu lane assignments (stories = top-model judgment; cribs = cheap generativity with cross-check).
+- **[[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]** (2026-06-15) — planning-as-spec vs planning-as-ritual still open. Repeated vault moves (ingest, lint, cross-link) may become extracted skills.
+- **[[projects/wnac|WNAC]]** — parked; not driving.
 
 ## Recent entries
 

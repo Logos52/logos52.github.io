@@ -152,6 +152,16 @@ body[data-slug="about"] article {
   margin-top: 1rem;
 }
 
+body[data-slug="about"] article > p:first-of-type img {
+  display: block;
+  width: min(11rem, 42vw);
+  height: auto;
+  border-radius: 12px;
+  margin: 0 0 1.25rem;
+  border: 1px solid color-mix(in srgb, var(--lightgray) 72%, transparent);
+  box-shadow: var(--soft-shadow);
+}
+
 body[data-slug="index"] .center,
 body[data-slug="about"] .center {
   margin-top: 1.5rem;
