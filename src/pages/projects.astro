@@ -50,7 +50,7 @@ const groups: { key: Status; label: string }[] = [
     <div class="wrap">
       <header class="head">
         <h1>Projects</h1>
-        <p>Learning systems, agentic engineering, personal tooling.</p>
+        <p class="head__lede">Learning systems, agentic engineering, personal tooling.</p>
       </header>
       {groups.map((g) => {
         const items = projects.filter((p) => p.status === g.key);
