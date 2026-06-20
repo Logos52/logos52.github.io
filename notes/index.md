@@ -1,6 +1,6 @@
 ---
 title: "Knowledge Base Index"
-description: "The complete catalog of every public page."
+description: "Every note in the knowledge base, across six domains."
 type: index
 hideFolderListing: true
 created: 2026-05-02
@@ -11,7 +11,7 @@ tags:
 
 # Knowledge Base Index
 
-The complete catalog of every public page.
+There are 319 notes here, clustered into six domains. Click a note and follow its links to see where they point.
 
 ## Hubs & Condensed
 

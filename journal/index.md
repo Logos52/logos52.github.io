@@ -18,8 +18,6 @@ tags:
 
 # Journal
 
-What's moving through the knowledge base right now: active projects, open questions, and the running log. Entries are working notes that graduate into the wiki once the thinking settles.
-
 ## What's top of mind
 
 - **[[projects/tsumugu-ed|Tsumugu Encoding Dictionary]]** — live at [tsumugu-ed.com](https://tsumugu-ed.com) (9,663 entries, 515 grammar patterns). Next build pass: handwriting layer, example sentences, or phonetic-family browse.

@@ -36,11 +36,33 @@ const hero = home?.hero ?? {
 // "Top of mind" — open questions about where AI is going and how to shape it (personal + society).
 // Pose the question; link to the note that addresses it. Standard: 02 - System/Writing Standards.md
 // → High-Signal Front-Facing Pages → Open Questions Stay Open. Edit freely; keep them in-lane.
-type Mind = { q: string; href?: string };
+type Mind = { q: string; links: { t: string; href: string }[] };
+const L = (t: string, p: string) => ({ t, href: slugToUrl(slugifyFilePath(p)) });
 const topOfMind: Mind[] = [
-  { q: 'What stays human as the models match generativity', href: slugToUrl(slugifyFilePath('wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment')) },
-  { q: 'Where leaning on AI builds understanding', href: slugToUrl(slugifyFilePath('wiki/Concepts/Understanding-Bottleneck')) },
-  { q: 'If a generation offloads its thinking to AI, what are the second-order effects?' },
+  {
+    q: 'What stays human as the models match generativity',
+    links: [
+      L('Higher-Order Generativity vs Judgment', 'wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment'),
+      L('A Motorcycle for the Mind', 'wiki/Concepts/A Motorcycle for the Mind'),
+      L('The AI Industrial Revolution', 'wiki/Concepts/The AI Industrial Revolution'),
+    ],
+  },
+  {
+    q: 'Where leaning on AI builds understanding',
+    links: [
+      L('Understanding Bottleneck', 'wiki/Concepts/Understanding Bottleneck'),
+      L('Are You Thinking, or Just Consuming', 'wiki/Concepts/Are You Thinking, or Just Consuming'),
+      L('The Screen Inferiority Effect', 'wiki/Concepts/The Screen Inferiority Effect'),
+    ],
+  },
+  {
+    q: 'If a generation offloads its thinking to AI, what are the second-order effects?',
+    links: [
+      L('Epistemic Exceptionalism', 'wiki/Red Team/Epistemic Exceptionalism'),
+      L('The Shortcut Problem', 'wiki/Concepts/The Shortcut Problem'),
+      L('The Age of Nonlinear Returns', 'wiki/Concepts/The Age Of Nonlinear Returns'),
+    ],
+  },
 ];
 
 // Intent doors ("Start here") — route a visitor by intent, not topic. slug → a note path
@@ -154,21 +176,20 @@ const DOMAIN_ICONS: Record<Domain, string> = {
         </div>
       </section>
 
-      <section class="currently">
-        <h2 class="currently__head">Top of mind</h2>
-        <div class="currently__grid">
-          {topOfMind.map((m) =>
-            m.href ? (
-              <a class="now" href={m.href}>
-                <span class="now__q">{m.q}</span>
-              </a>
-            ) : (
-              <div class="now">
-                <span class="now__q">{m.q}</span>
-              </div>
-            ),
-          )}
-        </div>
+      <section class="topmind">
+        <h2 class="topmind__head">Top of mind</h2>
+        <ul class="topmind__list">
+          {topOfMind.map((m) => (
+            <li class="topmind__item">
+              <p class="topmind__q">{m.q}</p>
+              <p class="topmind__links">
+                {m.links.map((l, i) => (
+                  <span>{i > 0 ? ' · ' : ''}<a href={l.href}>{l.t}</a></span>
+                ))}
+              </p>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section class="hub-lists">
@@ -285,43 +306,41 @@ const DOMAIN_ICONS: Record<Domain, string> = {
   }
 
   /* currently — a full-width "now" band (replaces the open-questions / retrieval pulse) */
-  .currently {
+  .topmind {
     margin-top: 18px;
   }
-  .currently__head {
+  .topmind__head {
     font-family: var(--ming);
     font-size: 14px;
     font-weight: 600;
     margin: 0 0 10px;
     color: var(--ink);
   }
-  .currently__grid {
+  .topmind__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1px;
-    border: 1px solid var(--rule);
-    background: var(--rule); /* shows through the 1px gaps as hairline dividers */
-    border-radius: var(--tsg-radius);
-    overflow: hidden;
-    box-shadow: var(--tsg-shadow);
+    gap: 12px;
   }
-  .now {
-    display: flex;
-    padding: 14px 16px;
-    background: var(--card);
-    text-decoration: none;
-    transition: background var(--dur-base);
-  }
-  a.now:hover {
-    background: var(--raised);
-  }
-  .now__q {
-    font-size: 13px;
-    line-height: 1.5;
+  .topmind__q {
+    font-family: var(--ming);
+    font-size: 14px;
     color: var(--ink);
+    margin: 0 0 2px;
   }
-  a.now:hover .now__q {
+  .topmind__links {
+    font-size: 12.5px;
+    line-height: 1.6;
+    color: var(--mut);
+    margin: 0;
+  }
+  .topmind__links a {
     color: var(--accent);
+    text-decoration: none;
+  }
+  .topmind__links a:hover {
+    text-decoration: underline;
   }
 
   /* start here — intent doors (wash cards, icon left of the intent label) */
@@ -477,9 +496,6 @@ const DOMAIN_ICONS: Record<Domain, string> = {
     /* Odd count: let the last door (Explore) span the row instead of orphaning. */
     .start-here__doors .door:last-child {
       grid-column: 1 / -1;
-    }
-    .currently__grid {
-      grid-template-columns: 1fr;
     }
     .wrap {
       padding: 0 16px;

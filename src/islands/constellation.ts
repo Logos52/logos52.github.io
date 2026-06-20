@@ -385,7 +385,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   function layout() {
     const rect = root.getBoundingClientRect();
     width = Math.max(rect.width, 1);
-    height = Math.max(rect.height, 250);
+    height = Math.max(rect.height, 1); // use the real box height — a 250 floor overflowed short graphs (home 180, local 210) and pushed the centered cluster low
     canvas!.width = width * dpr;
     canvas!.height = height * dpr;
     canvas!.style.width = `${width}px`;
@@ -509,6 +509,13 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
       if (y < minY) minY = y;
       if (y > maxY) maxY = y;
     };
+    let sumX = 0;
+    let sumY = 0;
+    let count = 0;
+    let hubSumX = 0;
+    let hubSumY = 0;
+    let hubCount = 0;
+    const fitted: CNode[] = [];
     for (const n of nodes) {
       // spine: fit the CORE only (hubs + primary satellites + hub labels) — outer satellites spill
       // beyond, exactly like the original zoomToFitSpine, so the view stays tight (not zoomed way out).
@@ -517,43 +524,59 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
       const y = n.y ?? 0;
       inc(x - n.r, y - n.r);
       inc(x + n.r, y + n.r);
+      sumX += x;
+      sumY += y;
+      count++;
+      fitted.push(n);
       if (mode === 'spine' && n.tier === 'hub') {
+        hubSumX += x;
+        hubSumY += y;
+        hubCount++;
         const lw = ctx!.measureText(n.label ?? n.title).width;
         inc(x - lw / 2 - 4, y + n.r + 16);
         inc(x + lw / 2 + 4, y);
       }
     }
-    if (!isFinite(minX)) return;
+    if (!isFinite(minX) || count === 0) return;
     const m = SPINE_AUTO_FIT_MARGIN + (mode === 'spine' ? 8 : 18); // just a smidge of breathing room
     let centerX: number;
     let centerY: number;
     let fit: number;
-    if (mode === 'full') {
-      // Center on the GRAPH'S CENTER OF GRAVITY (mean node position), not the bounding-box midpoint —
-      // a few high/low outliers drag the bbox center but barely move the mean, so the mass lands in the
-      // actual middle of the canvas. Scale to fit the farthest node from the centroid in each axis.
-      const labelPad = showDomainLabels ? 22 : 0; // domain labels sit ~16px above/below their clusters
-      let sx = 0;
-      let sy = 0;
-      for (const n of nodes) {
-        sx += n.x ?? 0;
-        sy += n.y ?? 0;
-      }
-      centerX = sx / nodes.length;
-      centerY = sy / nodes.length;
-      let dx = 1;
-      let dy = 1;
-      for (const n of nodes) {
-        dx = Math.max(dx, Math.abs((n.x ?? 0) - centerX) + n.r);
-        dy = Math.max(dy, Math.abs((n.y ?? 0) - centerY) + n.r + labelPad);
-      }
-      fit = Math.min((width / 2 - m) / dx, (height / 2 - m) / dy, SPINE_MAX_FIT_SCALE);
-    } else {
+    if (mode === 'local') {
+      // local: the seed is pinned at the origin, so fit the bounding box around it.
       const bw = maxX - minX;
       const bh = maxY - minY;
       fit = Math.min((width - m * 2) / bw, (height - m * 2) / bh, SPINE_MAX_FIT_SCALE);
       centerX = (minX + maxX) / 2;
       centerY = (minY + maxY) / 2;
+    } else {
+      // spine + full: center on the GRAPH'S CENTER OF GRAVITY, not the bounding-box midpoint — a few
+      // high/low outliers drag the bbox center but barely move the mean. On the spine, center on the
+      // HUBS (the labeled anchors) so they sit dead center; their primary satellites fan out around
+      // them and would otherwise pull the mean off the visible cluster. Scale to fit the farthest
+      // fitted node (and, on the spine, its hub label) from that center.
+      const labelPad = showDomainLabels ? 22 : 0; // domain labels sit ~16px above/below their clusters
+      if (mode === 'spine' && hubCount > 0) {
+        centerX = hubSumX / hubCount;
+        centerY = hubSumY / hubCount;
+      } else {
+        centerX = sumX / count;
+        centerY = sumY / count;
+      }
+      let dx = 1;
+      let dy = 1;
+      for (const n of fitted) {
+        const x = n.x ?? 0;
+        const y = n.y ?? 0;
+        dx = Math.max(dx, Math.abs(x - centerX) + n.r);
+        dy = Math.max(dy, Math.abs(y - centerY) + n.r + labelPad);
+        if (mode === 'spine' && n.tier === 'hub') {
+          const lw = ctx!.measureText(n.label ?? n.title).width;
+          dx = Math.max(dx, Math.abs(x - centerX) + lw / 2 + 4);
+          dy = Math.max(dy, Math.abs(y + n.r + 16 - centerY));
+        }
+      }
+      fit = Math.min((width / 2 - m) / dx, (height / 2 - m) / dy, SPINE_MAX_FIT_SCALE);
     }
     transform = zoomIdentity.translate(width / 2, height / 2).scale(fit).translate(-centerX, -centerY);
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
