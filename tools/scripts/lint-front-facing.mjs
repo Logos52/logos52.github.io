@@ -49,6 +49,11 @@ function frontFacing(html) {
     const t = text(m[1]);
     if (t) out.push(['lede', t]);
   }
+  // the first paragraph inside a page <header> — an unclassed page lede (e.g. /projects/)
+  for (const m of html.matchAll(/<header[^>]*>[\s\S]*?<p[^>]*>([\s\S]*?)<\/p>/gi)) {
+    const t = text(m[1]);
+    if (t) out.push(['header lede', t]);
+  }
   return out;
 }
 

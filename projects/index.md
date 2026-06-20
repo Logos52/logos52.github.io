@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-description: "Projects built around learning systems, agentic engineering, and personal tooling, including the ones that didn't work and why."
+description: "Learning systems, agentic engineering, personal tooling. The ones that didn't work, and why."
 type: projects-index
 hideFolderListing: true
 created: 2026-06-02
@@ -9,4 +9,4 @@ tags:
   - system
 ---
 
-Projects built around learning systems, agentic engineering, and personal tooling. Retired projects keep their pages, including why they ended and what carried forward.
+Learning systems, agentic engineering, personal tooling. Retired projects keep their pages, including why they ended and what carried forward.
