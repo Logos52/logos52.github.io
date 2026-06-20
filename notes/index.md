@@ -61,6 +61,7 @@ The complete catalog of every public page.
 | [[wiki/Concepts/The AI Industrial Revolution\|The AI Industrial Revolution]] | concept | Naval roundtable field report: software factories, waste-tokens-save-time, models planning unprompted, humans as verifiers, training the agent, intelligence vs agency, small teams, and planning-as-spec vs planning-as-ritual. |
 | [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment\|Higher-Order Generativity vs Higher-Order Judgment]] | concept | Generativity (closing fast) vs judgment under stakes (holding); the human edge is the accountable call and out-of-distribution work, not median synthesis. |
 | [[wiki/Concepts/The AI Productivity Curve\|The AI Productivity Curve]] | concept | Is post-ChatGPT productivity outpacing the early internet? Macro data supportive (~3.0% in 2024 vs ~2.5% late-90s), firm-level data the opposite (~90% see no gain — Solow paradox); a J-curve, not a settled trend. |
+| [[wiki/Concepts/Regulatory Capture via Doom-Marketing\|Regulatory Capture via Doom-Marketing]] | concept | Dramatizing a technology's danger manufactures the pretext for gatekeepers to centralize it; the control regime favors incumbents who can afford it. AI labs + hyperscalers, 2026, as the worked case; diffusion as counterforce. |
 
 ### Metacognition and learning
 
@@ -79,6 +80,7 @@ The complete catalog of every public page.
 | [[wiki/Dimensions/Mindset\|Mindset]] | dimension | Dimension for interpreting difficulty, mistakes, feedback, identity, and growth. |
 | [[wiki/Dimensions/Retrieval\|Retrieval]] | dimension | Dimension for recall, reconstruction, interleaving, spacing, and transfer. |
 | [[wiki/Concepts/Are You Thinking, or Just Consuming\|Are You Thinking, or Just Consuming?]] | concept | Distinguishes visible learning behaviors from the thought quality they produce. |
+| [[wiki/Concepts/The Screen Inferiority Effect\|The Screen Inferiority Effect]] | concept | Paper beats screens for learning via removable frictions (distraction, spatial anchors, line length) and one habit — shallow processing on screens; instruct deep processing and the gap closes. |
 | [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time\|Social Media - Curvilinear Design & the Theft of Time]] | concept | Curvilinear feed design as a theft of attention, memory, and experienced time; repaired through right-angle turns, routes, and intentional choice. |
 | [[wiki/Concepts/The Shortcut Problem\|The Shortcut Problem]] | concept | Pattern where the brain avoids difficult learning by producing visible activity that bypasses the required thinking. |
 | [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue\|Cognitive Load & What Mental Effort Is Trying to Cue]] | concept | Interprets mental effort, overload, and drowsiness as metacognitive signals. |
@@ -153,6 +155,7 @@ The complete catalog of every public page.
 | Page | Type | Summary |
 | --- | --- | --- |
 | [[wiki/Self Management/Flow State\|Flow State]] | concept | High-output attention state protected by task clarity, environment, and reduced decision friction. |
+| [[wiki/Self Management/The Energize Test\|The Energize Test]] | concept | Judge work by whether it energizes or depletes (the 9-to-5 should empower the 5-to-9); protect attention, refuse possessions that own you, optimize for flow over money. |
 | [[wiki/Self Management/Attention Span and Focus Training\|Attention Span and Focus Training]] | technique | Baseline attention training system that distinguishes temporary focus scaffolding from long-term focus capacity. |
 | [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block\|Focus Management: Training the Return Mechanism]] | system | Practical system for entering focus, reducing distraction forces, and training the return mechanism inside study and work blocks. |
 | [[wiki/Self Management/Attention Management - Preserving Flow\|Attention Management: Preserving Flow]] | system | Advanced day-level system for preserving flow across tasks by reducing transition friction and decisional delays. |
@@ -229,6 +232,7 @@ How the writing system works and how to memorize it, compiled as one page per us
 | [[wiki/Red Team/Red Teaming\|Red Teaming]] | hub | Dedicated Red Teaming hub connecting Army decision-support principles to the user's identity and learning system. |
 | [[wiki/Red Team/Applied Critical Thinking - Testing Frames\|Applied Critical Thinking: Testing Frames]] | concept | Fast practical filter for testing media narratives, AI outputs, frames, assumptions, evidence, alternatives, and Red Team decision quality. |
 | [[wiki/Red Team/The Twitter Test\|The Twitter Test]] | technique | Read persuasive text as if every word cost characters; sort value words, map techniques to themes, drill the manipulation-detection reflex to automaticity. |
+| [[wiki/Red Team/Epistemic Exceptionalism\|Epistemic Exceptionalism]] | concept | The stance that one's own reasoning is the load-bearing reference point, so disagreement reads as others' error rather than one's own; unfalsifiable self-trust. Detect via the loop test and the "misunderstanding"-under-stress tell. |
 
 ### Reference
 

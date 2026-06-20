@@ -416,12 +416,15 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
           ),
         );
     } else if (mode === 'local') {
+      // Let the neighborhood form a real 2D shape (a hub with branches) instead of a flat smear:
+      // stronger charge + links carry the topology, and the flatten force drops to a gentle bias so
+      // the rail doesn't grow too tall. fitToView then scales the structure into the box.
       sim
-        .force('charge', forceManyBody<CNode>().strength(-160))
-        .force('center', forceCenter<CNode>(0, 0).strength(0.08))
-        .force('link', forceLink<CNode, CLink>(links).id((n) => n.id).distance(56).strength(0.5))
+        .force('charge', forceManyBody<CNode>().strength(-230))
+        .force('center', forceCenter<CNode>(0, 0).strength(0.06))
+        .force('link', forceLink<CNode, CLink>(links).id((n) => n.id).distance(50).strength(0.45))
         .force('collide', forceCollide<CNode>((n) => n.r + 6).iterations(2))
-        .force(vertical ? 'flatX' : 'flatY', (vertical ? forceX<CNode>(0) : forceY<CNode>(0)).strength(vertical ? 0.13 : 0.22));
+        .force(vertical ? 'flatX' : 'flatY', (vertical ? forceX<CNode>(0) : forceY<CNode>(0)).strength(vertical ? 0.05 : 0.07));
       if (seedSet.size === 1) {
         for (const n of nodes)
           if (seedSet.has(n.id)) {
@@ -522,12 +525,37 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
     }
     if (!isFinite(minX)) return;
     const m = SPINE_AUTO_FIT_MARGIN + (mode === 'spine' ? 8 : 18); // just a smidge of breathing room
-    const bw = maxX - minX;
-    const bh = maxY - minY;
-    const fit = Math.min((width - m * 2) / bw, (height - m * 2) / bh, SPINE_MAX_FIT_SCALE);
-    const midX = (minX + maxX) / 2;
-    const midY = (minY + maxY) / 2;
-    transform = zoomIdentity.translate(width / 2, height / 2).scale(fit).translate(-midX, -midY);
+    let centerX: number;
+    let centerY: number;
+    let fit: number;
+    if (mode === 'full') {
+      // Center on the GRAPH'S CENTER OF GRAVITY (mean node position), not the bounding-box midpoint —
+      // a few high/low outliers drag the bbox center but barely move the mean, so the mass lands in the
+      // actual middle of the canvas. Scale to fit the farthest node from the centroid in each axis.
+      const labelPad = showDomainLabels ? 22 : 0; // domain labels sit ~16px above/below their clusters
+      let sx = 0;
+      let sy = 0;
+      for (const n of nodes) {
+        sx += n.x ?? 0;
+        sy += n.y ?? 0;
+      }
+      centerX = sx / nodes.length;
+      centerY = sy / nodes.length;
+      let dx = 1;
+      let dy = 1;
+      for (const n of nodes) {
+        dx = Math.max(dx, Math.abs((n.x ?? 0) - centerX) + n.r);
+        dy = Math.max(dy, Math.abs((n.y ?? 0) - centerY) + n.r + labelPad);
+      }
+      fit = Math.min((width / 2 - m) / dx, (height / 2 - m) / dy, SPINE_MAX_FIT_SCALE);
+    } else {
+      const bw = maxX - minX;
+      const bh = maxY - minY;
+      fit = Math.min((width - m * 2) / bw, (height - m * 2) / bh, SPINE_MAX_FIT_SCALE);
+      centerX = (minX + maxX) / 2;
+      centerY = (minY + maxY) / 2;
+    }
+    transform = zoomIdentity.translate(width / 2, height / 2).scale(fit).translate(-centerX, -centerY);
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     select(canvas as HTMLCanvasElement).call(zb.transform as any, transform);
   }

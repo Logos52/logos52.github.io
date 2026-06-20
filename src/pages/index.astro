@@ -8,8 +8,6 @@ import { existsSync, readFileSync } from 'node:fs';
 import { getCollection } from 'astro:content';
 import '@tabler/icons-webfont/dist/tabler-icons.min.css';
 import Base from '../layouts/Base.astro';
-import PulseCard from '../components/PulseCard.astro';
-import QuestionList from '../components/QuestionList.astro';
 import DomainChip from '../components/DomainChip.astro';
 import Constellation from '../components/Constellation.astro';
 import { slugifyFilePath, slugToUrl } from '../lib/slug';
@@ -33,8 +31,17 @@ const hero = home?.hero ?? {
   title: 'A second brain for learning systems & agentic engineering',
   lede: 'Linked notes on learning systems, language study, and software work with LLM agents.',
 };
-const questions = home?.questions ?? [];
-const todays = home?.todaysRetrieval ?? null;
+// "Currently" — a short now-band: what I'm building / learning / reading / chewing on. Hand-curated;
+// edit these freely. (Replaced the Open-questions + Today's-retrieval pulse cards.)
+// "Top of mind" — open questions about where AI is going and how to shape it (personal + society).
+// Pose the question; link to the note that addresses it. Standard: 02 - System/Writing Standards.md
+// → High-Signal Front-Facing Pages → Open Questions Stay Open. Edit freely; keep them in-lane.
+type Mind = { q: string; href?: string };
+const topOfMind: Mind[] = [
+  { q: 'What stays human as the models match generativity', href: slugToUrl(slugifyFilePath('wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment')) },
+  { q: 'Where leaning on AI builds understanding', href: slugToUrl(slugifyFilePath('wiki/Concepts/Understanding-Bottleneck')) },
+  { q: 'If a generation offloads its thinking to AI, what are the second-order effects?' },
+];
 
 // Intent doors ("Start here") — route a visitor by intent, not topic. slug → a note path
 // (resolved via cardHref); the graph door uses a direct href. Titles/subs are mined from each
@@ -47,7 +54,7 @@ const startHere: Door[] = [
   { intent: 'Apply',      icon: 'ti-robot',     title: 'Raise the Floor',              sub: 'Ask in plain language; the agent edits, runs, iterates.',          color: 'var(--i-apply)',      slug: 'wiki/Systems/AI & Agentic Systems/Vibe-Coding' },
   { intent: 'Learn',      icon: 'ti-school',    title: 'Self Correction',              sub: 'See three levels at once, and adjust when a technique stalls.',     color: 'var(--i-learn)',      slug: 'wiki/Syntheses/First-Principles-of-Learning' },
   { intent: 'Decode',     icon: 'ti-language',  title: '立 — Three Jobs, One Shape',    sub: 'Meaning in 端, sound in 拉, empty in 音 — the role is per character.', color: 'var(--i-decode)',     slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work' },
-  { intent: 'Explore',    icon: 'ti-affiliate', title: 'Follow the Threads',           sub: 'Every note, every link — wander wherever they go.',                color: 'var(--i-explore)',    href: '/map/' },
+  { intent: 'Explore',    icon: 'ti-affiliate', title: 'Follow the Threads',           sub: 'Which notes are hubs, and how the six domains connect.',                color: 'var(--i-explore)',    href: '/map/' },
 ];
 
 type Hub = { title: string; icon: string; color: string; slug: string; tag?: string; countPrefix?: string };
@@ -147,25 +154,21 @@ const DOMAIN_ICONS: Record<Domain, string> = {
         </div>
       </section>
 
-      <section class="pulse">
-        <PulseCard title="Open questions" footer="→ journal" footerHref={slugToUrl('journal')}>
-          <QuestionList items={questions} />
-        </PulseCard>
-        <PulseCard
-          title="Today's retrieval"
-          footer={todays?.queueCount ? `→ spaced queue (${todays.queueCount} more)` : '→ spaced queue'}
-          footerHref={todays?.slug ? cardHref(todays.slug) : undefined}
-        >
-          {todays ? (
-            <a class="retrieval" href={todays.slug ? cardHref(todays.slug) : '#'}>
-              <div class="retrieval__kind">{todays.kind ?? 'Technique · due today'}</div>
-              <div class="retrieval__title">{todays.title}</div>
-              {todays.prompt && <div class="retrieval__prompt">{todays.prompt}</div>}
-            </a>
-          ) : (
-            <div class="retrieval retrieval--empty">Nothing due today.</div>
+      <section class="currently">
+        <h2 class="currently__head">Top of mind</h2>
+        <div class="currently__grid">
+          {topOfMind.map((m) =>
+            m.href ? (
+              <a class="now" href={m.href}>
+                <span class="now__q">{m.q}</span>
+              </a>
+            ) : (
+              <div class="now">
+                <span class="now__q">{m.q}</span>
+              </div>
+            ),
           )}
-        </PulseCard>
+        </div>
       </section>
 
       <section class="hub-lists">
@@ -281,44 +284,44 @@ const DOMAIN_ICONS: Record<Domain, string> = {
     padding: 12px 2px 0;
   }
 
-  /* pulse strip */
-  .pulse {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 14px;
+  /* currently — a full-width "now" band (replaces the open-questions / retrieval pulse) */
+  .currently {
     margin-top: 18px;
   }
-  .retrieval {
-    display: block;
-    border: 1px solid var(--rule2);
-    background: var(--paper);
-    border-radius: var(--tsg-radius-sm);
-    padding: 12px 14px;
-    text-decoration: none;
-  }
-  .retrieval__kind {
-    font-family: var(--mono);
-    font-size: 9px;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--faint);
-  }
-  .retrieval__title {
+  .currently__head {
     font-family: var(--ming);
     font-size: 14px;
-    margin-top: 5px;
+    font-weight: 600;
+    margin: 0 0 10px;
     color: var(--ink);
   }
-  .retrieval__prompt {
-    font-size: 12px;
-    color: var(--mut);
-    margin-top: 5px;
-    line-height: 1.5;
+  .currently__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    border: 1px solid var(--rule);
+    background: var(--rule); /* shows through the 1px gaps as hairline dividers */
+    border-radius: var(--tsg-radius);
+    overflow: hidden;
+    box-shadow: var(--tsg-shadow);
   }
-  .retrieval--empty {
-    color: var(--faint);
-    font-family: var(--sans);
-    font-size: 12.5px;
+  .now {
+    display: flex;
+    padding: 14px 16px;
+    background: var(--card);
+    text-decoration: none;
+    transition: background var(--dur-base);
+  }
+  a.now:hover {
+    background: var(--raised);
+  }
+  .now__q {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--ink);
+  }
+  a.now:hover .now__q {
+    color: var(--accent);
   }
 
   /* start here — intent doors (wash cards, icon left of the intent label) */
@@ -475,7 +478,7 @@ const DOMAIN_ICONS: Record<Domain, string> = {
     .start-here__doors .door:last-child {
       grid-column: 1 / -1;
     }
-    .pulse {
+    .currently__grid {
       grid-template-columns: 1fr;
     }
     .wrap {

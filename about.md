@@ -28,7 +28,7 @@ The site is linked notes on learning systems, language study, and software work 
 
 ## How it's built
 
-The vault lives in [Obsidian](https://obsidian.md), publishes through [Quartz v4](https://quartz.jzhao.xyz/), and is hosted from [logos52.github.io](https://github.com/logos52/logos52.github.io). For the underlying pattern, see [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]; for the repo, [[README]]; for the rules the agents work to, [[AGENTS]].
+The vault lives in [Obsidian](https://obsidian.md), publishes through [Astro](https://astro.build), and is hosted from [logos52.github.io](https://github.com/logos52/logos52.github.io). For the underlying pattern, see [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]; for the repo, [[README]]; for the rules the agents work to, [[AGENTS]].
 
 Code is MIT-licensed; written content is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 

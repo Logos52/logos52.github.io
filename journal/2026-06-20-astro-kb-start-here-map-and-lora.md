@@ -55,3 +55,16 @@ The serif `--ming` was **Noto Serif TC**, a CJK Song serif. It renders the curly
 ## Git reality (open)
 
 The entire Astro site — `src/`, `public/`, `kb-astro/`, `astro.config.ts`, `scripts/` — is **uncommitted**; HEAD is still the old Obsidian/Quartz vault (`00 Command Center`, `index.md`, `.obsidian`). So shipping any of today's work to Pages means the **first commit of the whole replatform**, cutting `logos52.github.io` over from Quartz to Astro. Held for Wedge's go on scope (full `add -A` vs. a curated set; what to do with untracked `journal/brainstorm/` and the config/CI changes) before pushing.
+
+## Addendum — shipped, then a front-facing pass (2026-06-20, later)
+
+Shipped: the whole replatform landed on `main` (`6b1e07d`) and `logos52.github.io` cut over from Quartz to Astro, live. The "Git reality" above is resolved. Standing call recorded: **push all work; the only filter is private information** — the guard (`npm run guard`) and the copy boundary (`copy-public-notes.mjs` + the `private/` `finances/` gitignore) enforce it.
+
+A second pass followed:
+
+- **Top of mind** replaced the open-questions / retrieval pulse and a short-lived "Currently" band. It carries open questions about where AI is going and how to shape it, for personal use and society: "What stays human as the models match generativity" (→ Higher-Order Generativity vs Judgment), "Where leaning on AI builds understanding" (→ Understanding Bottleneck), "If a generation offloads its thinking to AI, what are the second-order effects?". Several now-page drafts were struck for self-narration.
+- **New standard, Open Questions Stay Open** (`02 - System/Writing Standards.md`, under High-Signal Front-Facing): pose the question and stop. The appended conclusion breaks Details-Not-Conclusions; the reflexive AI-caution framing (atrophy, hollow out, protect) breaks No-Posing — model bias, off the wiki's lanes.
+- **Front-facing lint**, `npm run lint:front` (`tools/scripts/lint-front-facing.mjs`): checks titles, descriptions, h1s, ledes, and blurbs against the standard; reports, never rewrites. It caught the Map lede and the Projects "built around" line.
+- **Map**: dropped the A-is-A lede; each of the six domains gained one concrete line. The graph centers on its center of gravity, and local note graphs got structure (a flatten force was smearing them onto one axis).
+- **Quartz out of the forward docs**: About, README, and AGENTS now describe the Astro model (`copy-public-notes.mjs` + `src/lib/ignore-patterns.mjs` + the guard). Quartz stays only in dated journal entries.
+- **Surfaced, not reconciled**: `decisions/2026-06-11-engine-quartz-over-astro.md` is reversed by the replatform (its recorded flip condition was met) and needs a superseded marker.

@@ -14,6 +14,18 @@ import { DOMAINS, DOMAIN_LABELS } from '../lib/types';
 
 const PER_SECTION = 8;
 
+// One concrete line per domain: a real idea from inside it, useful to the reader — never a
+// restatement of the category (the heading and the list already say what it is). Front-facing:
+// 02 - System/Writing Standards.md → Specific Beats Generic, Details Not Conclusions (no A-is-A).
+const DOMAIN_BLURB: Record<string, string> = {
+  learning: 'Retrieval and spacing turn what you read into what you keep.',
+  agentic: 'When agents write the code, the work becomes directing them well.',
+  language: 'Chinese characters are built from a few hundred reusable parts.',
+  focus: 'Attention is a budget the feed spends for you.',
+  mind: 'Decisions improve when you red-team your own reasoning first.',
+  gen: 'Wealth is owning a piece of something that scales without your time.',
+};
+
 // Doctrine-first ordering: hubs and condensed pages lead, then syntheses, then supporting types,
 // with link degree as the tiebreaker. New pages slot in by type, so it stays sensible as it grows.
 const TYPE_RANK: Record<string, number> = {
@@ -67,7 +79,6 @@ const sections = DOMAINS.map((d) => {
       <header class="map-head">
         <span class="map-head__kind">記憶 · map</span>
         <h1 class="map-head__title">The vault</h1>
-        <p class="map-head__lede">Every note and link. Drag to pan, pinch to zoom — or browse the six domains below.</p>
       </header>
 
       <Constellation mode="full" domainLabels height="clamp(460px, 66vh, 780px)" />
@@ -78,6 +89,7 @@ const sections = DOMAINS.map((d) => {
       {sections.map((s) => (
         <section class="domain">
           <h3><a href={`/domains/${s.domain}/`}>{s.label}</a></h3>
+          <p class="domain__blurb">{DOMAIN_BLURB[s.domain]}</p>
           <ul>
             {s.items.map((it) => (
               <li>
@@ -153,6 +165,13 @@ const sections = DOMAINS.map((d) => {
   }
   .domain h3 a:hover {
     text-decoration: underline;
+  }
+  .domain__blurb {
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--mut);
+    margin: 0.15rem 0 0.5rem;
+    max-width: 64ch;
   }
   .domain ul {
     list-style: disc;

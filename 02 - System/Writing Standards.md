@@ -251,6 +251,14 @@ The rules the strikes produced, all binding:
 
 This section governs Tsumugu's front-facing surfaces equally; its register authority there is PRD-Entry-Authoring §0.5–0.6 and the STYLE-CARD's banned list, which this section extends to chrome and taglines.
 
+### Open Questions Stay Open
+
+Added 2026-06-20, after the home "top of mind" card. These cards carry the questions the author is mulling about where AI is heading and how to shape it — for personal use and for society; the why's, the judgment a model cannot settle. Projects, status, roadmap, and what the author is building, learning, or reading do not belong here; a model could decide or do those.
+
+The question is the whole line. Pose it and stop. Answering it, weighting it, or naming what is at stake breaks Details, Not Conclusions — the reader concludes, the author included, re-reading their own home. "What stays human as the models match generativity" is finished; "and how to keep that edge from atrophying" answers it, and was struck (2026-06-20).
+
+The conclusion a model reaches by reflex is AI-caution: atrophy, hollow out, refuse, protect, "it will not hold." That worldview is No Posing broken — a stance worn as analysis, not the author's. Cut to the neutral question — "where it builds understanding," "what the second-order effects are" — pre-judging nothing. The author's own notes treat AI as leverage with the human role still open; they do not carry the doom. A framing the wiki does not hold is imported bias and does not ship.
+
 ## The May standard
 
 Deleted 2026-06-12 at Wedge's direction: agents kept citing the subordinate May rules instead of the High-Signal sections. The full text lives in git history (commit bd5adc9). The High-Signal sections above are the complete standard.

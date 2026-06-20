@@ -18,6 +18,7 @@
     "astro": "astro",
     "guard": "node tools/scripts/publish-guard.mjs",
     "guard:source": "node tools/scripts/publish-guard.mjs --source",
+    "lint:front": "node tools/scripts/lint-front-facing.mjs",
     "test": "node --test"
   },
   "dependencies": {

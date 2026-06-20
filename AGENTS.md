@@ -396,29 +396,29 @@ Enforcement — defense-in-depth, see `tools/scripts/publish-guard.mjs`:
 
 Known raw-exposure: some un-rendered folders (`PRDs/`, `decisions/`, `00 Command Center/`, `mg-kolbs/`) are still tracked, so their raw `.md` is public. If any holds genuinely-private content, gitignore + untrack it (and scrub history if it was already pushed).
 
-## Static Site (Quartz v4)
+## Static Site (Astro)
 
-The site is published at <https://logos52.github.io>. Quartz v4 builds from the repo root; pushes to `main` trigger a rebuild via `.github/workflows/deploy.yml` (which runs the publish-guard before deploying).
+The site is published at <https://logos52.github.io>. Astro builds from `src/`; before each build, `scripts/copy-public-notes.mjs` copies the public subset of the vault into `src/content/notes/` (the only directory the `notes` collection reads). Pushes to `main` trigger a rebuild via `.github/workflows/deploy.yml` (which runs the publish-guard before deploying).
 
-Publish model: **publish-by-default.** Every `.md` renders EXCEPT (a) paths matched by `ignorePatterns` in `quartz.config.ts`, and (b) notes with `draft: true`. There is no allow-list, so `ignorePatterns` plus the guard ARE the privacy gates — keep them current.
+Publish model: **publish-by-default.** Every `.md` is published EXCEPT (a) paths git ignores, (b) paths matched by the denylist in `src/lib/ignore-patterns.mjs`, and (c) notes with `draft: true`. There is no allow-list, so the denylist plus the guard ARE the privacy gates — keep them current. A denied note is never copied into `src/content/notes/`, so it physically cannot appear in the build (stronger than a render-time filter).
 
-- **Rendered (publish-eligible):** `index.md`, `about.md`, `README.md`, `AGENTS.md` / `CLAUDE.md` / `GROK.md`, `wiki/`, `blog/`, `journal/`, `public-snapshots/`, `notes/index.md`.
-- **Not rendered (in `ignorePatterns`):** `00 Command Center/`, `raw/`, `private/`, `finances/`, `outputs/`, `templates/`, `tools/`, `PRDs/`, `decisions/`, `mg-kolbs/`, `MG & Kolbs/`, `pans-mg-kolbs-template/`, `01 - Workbench/`, `02 - System/`, `_archive/`, `hermes/`, `_meta/`, `log.md`.
+- **Published (publish-eligible):** `index.md`, `about.md`, `README.md`, `AGENTS.md` / `CLAUDE.md` / `GROK.md`, `wiki/`, `blog/`, `journal/`, `public-snapshots/`, `notes/index.md`.
+- **Not published (in the denylist):** `00 Command Center/`, `raw/`, `private/`, `finances/`, `outputs/`, `templates/`, `tools/`, `PRDs/`, `decisions/`, `mg-kolbs/`, `MG & Kolbs/`, `pans-mg-kolbs-template/`, `01 - Workbench/`, `02 - System/`, `_archive/`, `hermes/`, `_meta/`, `log.md`.
 
-Do not move content between these without updating `ignorePatterns` — and remember (above) that un-rendering is not the same as private.
+Do not move content between these without updating `src/lib/ignore-patterns.mjs` — and remember (above) that un-publishing is not the same as private.
 
 Rules for LLM agents:
 
-- Wikilinks (`[[Page]]` and `[[path/to/Page|Alias]]`) are first-class on the published site. Prefer wikilinks over raw markdown links so Quartz can resolve them and feed them into the graph view and backlinks.
+- Wikilinks (`[[Page]]` and `[[path/to/Page|Alias]]`) are first-class on the published site. Prefer wikilinks over raw markdown links so the build can resolve them and feed them into the graph and backlinks.
 - Wikilinks pointing into excluded folders (e.g., `[[raw/Source Index]]`, `[[templates/Kolbs Template]]`) will render as broken on the site. They are still valuable inside Obsidian; leave them unless the user asks for a cleanup.
 - When adding a new wiki page, prefer placing it under one of the existing top-level subfolders in `wiki/` (`Books/`, `Concepts/`, `Decision Making/`, `Dimensions/`, `Domains/`, `Experiences/`, `Language/`, `Learning Craft/`, `Minimalism/`, `Red Team/`, `Resources/`, `Self Management/`, `Syntheses/`, `Systems/`, `Techniques/`, `Workflows/`).
-- Do not commit `node_modules/`, `public/`, or `.quartz-cache/`. These are gitignored.
-- Avoid editing upstream Quartz framework files unless the customization requires a small local component. Prefer `quartz.config.ts`, `quartz.layout.ts`, and dedicated custom components.
-- The site's home page is rendered from `index.md`, which is the public LLM Knowledge Base landing page.
+- Do not commit `node_modules/`, `dist/`, or `.astro/`. These are gitignored.
+- The site is a normal Astro project: pages in `src/pages/`, UI in `src/components/`, layouts in `src/layouts/`, client islands in `src/islands/`, shared logic in `src/lib/`. The publish boundary is `scripts/copy-public-notes.mjs` plus the denylist `src/lib/ignore-patterns.mjs`.
+- The site's home page is `src/pages/index.astro`, the public LLM Knowledge Base landing page.
 - The full content-oriented wiki catalog lives at `notes/index.md`.
 
 Local preview workflow:
 
-- One-time: `bash tools/scripts/setup-site.sh`
-- Preview: `npm run serve` then open <http://localhost:8080>
-- Build: `npm run build` (output in `public/`)
+- One-time: `npm install`
+- Dev server: `npm run dev` then open <http://localhost:4321>
+- Build, then preview: `npm run build` then `npm run preview`

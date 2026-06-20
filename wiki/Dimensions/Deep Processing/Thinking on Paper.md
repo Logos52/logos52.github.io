@@ -63,6 +63,7 @@ Warning sign: Thinking on Paper has become dumping when the page accumulates wor
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
+- [[wiki/Concepts/The Screen Inferiority Effect|The Screen Inferiority Effect]]
 
 ## Open Questions
 

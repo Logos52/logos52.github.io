@@ -123,36 +123,35 @@ LLM agents should read [[notes/index]] and [[AGENTS]] first.
 
 ## Published Site
 
-The site is published at <https://logos52.github.io>, built with [Quartz v4](https://quartz.jzhao.xyz/). To publish at the root GitHub Pages URL, the deploy source needs to be the `Logos52/logos52.github.io` repository, not a project page under `Logos52/llm-knowledge-base`.
+The site is published at <https://logos52.github.io>, built with [Astro](https://astro.build). To publish at the root GitHub Pages URL, the deploy source is the `Logos52/logos52.github.io` repository, not a project page under `Logos52/llm-knowledge-base`. A push to `main` triggers `.github/workflows/deploy.yml`, which builds and deploys.
 
-What gets published: `index.md`, `about.md`, `blog/`, `notes/`, `wiki/`, `log.md`, `README.md`, and `AGENTS.md`. Everything else (`raw/`, `outputs/`, `templates/`, `tools/`) is excluded from the site via `quartz.config.ts → ignorePatterns`. Actual raw source files generally stay local/ignored unless explicitly approved for publication.
+What gets published is the public subset of the vault. `scripts/copy-public-notes.mjs` is the publish boundary: it copies public `.md` (and their images) into `src/content/notes/`, the only directory Astro builds from. A note is public when git does not ignore it, it is not matched by the denylist in `src/lib/ignore-patterns.mjs`, and it does not carry `draft: true`. A denied note is never copied, so it physically cannot reach the build; `npm run guard` is the second gate, blocking private or financial leaks before deploy.
 
 ### Local preview
 
-Requires Node 20+.
-
-One-time setup (vendors the Quartz framework into the repo and installs deps):
+Requires Node 22+. Install dependencies once:
 
 ```sh
-bash tools/scripts/setup-site.sh
+npm install
 ```
 
-Then preview locally at <http://localhost:8080>:
+Run the dev server at <http://localhost:4321>:
 
 ```sh
-npm run serve
+npm run dev
 ```
 
-Build the static site without serving:
+Build the static site, then preview the build:
 
 ```sh
 npm run build
+npm run preview
 ```
 
 ### Adding or editing notes
 
-Just write Markdown the way you normally would in Obsidian. Push to `main` and the site rebuilds automatically. Wikilinks (`[[Page Name]]`) are resolved by Quartz the same way Obsidian resolves them; backlinks and the graph view update on every build.
+Just write Markdown the way you normally would in Obsidian. Push to `main` and the site rebuilds automatically. Wikilinks (`[[Page Name]]`) are resolved at build time the same way Obsidian resolves them; backlinks and the graph update on every build.
 
 ### Licensing
 
-Code (Quartz config, scripts, workflows) is MIT-licensed (see `LICENSE`). Wiki content is licensed under CC BY 4.0 (see `LICENSE-content`).
+Code (Astro config, scripts, workflows) is MIT-licensed (see `LICENSE`). Wiki content is licensed under CC BY 4.0 (see `LICENSE-content`).

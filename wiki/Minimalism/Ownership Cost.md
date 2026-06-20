@@ -103,3 +103,4 @@ For each object under review, ask:
 - [[wiki/Minimalism/Product Reduction|Product Reduction]]
 - [[wiki/Minimalism/Exit Strategy For Objects|Exit Strategy For Objects]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
+- [[wiki/Self Management/The Energize Test|The Energize Test]]
