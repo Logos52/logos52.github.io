@@ -559,7 +559,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
       }
       centerX = (hMinX + hMaxX) / 2;
       centerY = (hMinY + hMaxY) / 2;
-      fit = Math.min((width - m * 2) / (hMaxX - hMinX), (height - m * 2) / (hMaxY - hMinY), 2.4);
+      fit = Math.min((width - m * 2) / (hMaxX - hMinX), (height - m * 2) / (hMaxY - hMinY), 2.4) * 0.9; // *0.9 = a touch of zoom-out so the cluster breathes instead of sitting edge-to-edge
     } else if (mode === 'full') {
       // center on the GRAPH'S CENTER OF GRAVITY (mean node position), not the bounding-box midpoint —
       // a few high/low outliers drag the bbox center but barely move the mean, so the mass lands in
