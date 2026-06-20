@@ -157,7 +157,7 @@ const DOMAIN_ICONS: Record<Domain, string> = {
       </div>
 
       <section class="map">
-        <Constellation height="clamp(180px, 24vh, 270px)" />
+        <Constellation height="clamp(150px, 17vh, 200px)" />
         <div class="map__legend">
           {chipDomains.map((d) => <DomainChip label={DOMAIN_LABELS[d]} domain={d} icon={DOMAIN_ICONS[d]} href={`/domains/${d}/`} />)}
         </div>
