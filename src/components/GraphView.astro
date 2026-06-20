@@ -1,0 +1,45 @@
+---
+import type { GraphData } from '../lib/types';
+
+interface Props {
+  data?: GraphData;
+  compact?: boolean;
+  current?: string;
+  height?: string;
+}
+
+const { data, compact = false, current = '', height = compact ? '150px' : 'min(68vh, 620px)' } = Astro.props;
+---
+
+<div
+  class="kb-graph"
+  data-graph-view
+  data-compact={compact ? 'true' : 'false'}
+  data-current={current}
+  data-graph={data ? JSON.stringify(data) : undefined}
+  style={`height:${height}`}
+>
+  <svg role="img" aria-label={compact ? 'Local graph of linked notes' : 'Vault link graph'}></svg>
+</div>
+
+<style>
+  .kb-graph {
+    width: 100%;
+    border: 1px solid var(--rule);
+    border-radius: var(--tsg-radius-sm);
+    background: var(--card);
+    overflow: hidden;
+    box-shadow: var(--tsg-shadow);
+  }
+  .kb-graph svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    touch-action: none;
+  }
+</style>
+
+<script>
+  import { initGraphView } from '../islands/graph-view';
+  document.querySelectorAll('[data-graph-view]').forEach((el) => initGraphView(el as HTMLElement));
+</script>

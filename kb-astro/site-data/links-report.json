@@ -1,0 +1,620 @@
+[
+  {
+    "file": "AGENTS.md",
+    "link": "[[02 - System/Writing Standards|Writing Standards]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "AGENTS.md",
+    "link": "[[Page]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "AGENTS.md",
+    "link": "[[path/to/Page|Alias]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "AGENTS.md",
+    "link": "[[raw/Source Index]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: index"
+  },
+  {
+    "file": "AGENTS.md",
+    "link": "[[templates/Kolbs Template]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/2026-06-03-ai-mandarin-reader.md",
+    "link": "[[PRDs/PRD-Tsumugu]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: tsumugu"
+  },
+  {
+    "file": "journal/2026-06-03-ai-mandarin-reader.md",
+    "link": "[[PRDs/PRD-Tsumugu]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: tsumugu"
+  },
+  {
+    "file": "journal/2026-06-03-Finance-Investing-Reading-Resources.md",
+    "link": "[[Finance MOC]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/2026-06-03-Finance-Investing-Reading-Resources.md",
+    "link": "[[Finance MOC]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/2026-06-03-Ideas-Bank-Expansion.md",
+    "link": "[[02 - System/L3-Brief-Policy-Options]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/2026-06-03-Ideas-Bank-Expansion.md",
+    "link": "[[cos/prds/AUTONOMY-CHARTER]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/2026-06-03-Ideas-Bank-Expansion.md",
+    "link": "[[cos/prds/PRD-llm-wiki-dashboard]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/2026-06-03-Ideas-Bank-Expansion.md",
+    "link": "[[cos/prds/PRD-llm-wiki-dashboard]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/2026-06-03-Ideas-Bank-Expansion.md",
+    "link": "[[PRDs/PRD-MG-Kolbs-System]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: mg-kolbs"
+  },
+  {
+    "file": "journal/2026-06-03-Ideas-Bank-Expansion.md",
+    "link": "[[PRDs/PRD-Obsidian-LifeOS-Command-Center]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/2026-06-03-Ideas-Bank-Expansion.md",
+    "link": "[[PRDs/PRD-Site-Aesthetic-Refresh]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/2026-06-03-Ideas-Bank-Expansion.md",
+    "link": "[[PRDs/PRD-wnab-Budget-Journal]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: wnab"
+  },
+  {
+    "file": "journal/2026-06-03-Ideas-Bank-Expansion.md",
+    "link": "[[PRDs/PRD-wnab-Obsidian-Bridge]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: wnab"
+  },
+  {
+    "file": "journal/2026-06-03-Ideas-Bank-Expansion.md",
+    "link": "[[PRDs/wnab-AI-Ideas]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: wnab"
+  },
+  {
+    "file": "journal/2026-06-04-tsumugu.md",
+    "link": "[[PRDs/PRD-Tsumugu]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: tsumugu"
+  },
+  {
+    "file": "journal/2026-06-11-living-atlas-and-decision-writing.md",
+    "link": "[[02 - System/Writing Standards|Writing Standards]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/2026-06-11-living-atlas-and-decision-writing.md",
+    "link": "[[02 - System/Writing Standards|Writing Standards]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/2026-06-12-front-facing-law-and-standards-reorder.md",
+    "link": "[[02 - System/Writing Standards|Writing Standards]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/2026-06-19-dictionary-site-reskin-analytics-facets.md",
+    "link": "[[tsumugu-analytics-seo]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: tsumugu"
+  },
+  {
+    "file": "journal/2026-06-19-dictionary-site-reskin-analytics-facets.md",
+    "link": "[[tsumugu-analytics-seo]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: tsumugu"
+  },
+  {
+    "file": "journal/calendar.md",
+    "link": "[[private/Goals/Priority 0|Priority 0]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: priority 0+1 system"
+  },
+  {
+    "file": "journal/calendar.md",
+    "link": "[[raw/sources/How to Force Your Brain To Be Motivated (when you don’t feel like it)|raw sources]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/calendar.md",
+    "link": "[[raw/sources/Sell the Truth|raw sources]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/calendar.md",
+    "link": "[[Writing Standards]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "journal/calendar.md",
+    "link": "[[Writing Standards]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "README.md",
+    "link": "[[00 Command Center/Home]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "README.md",
+    "link": "[[Page Name]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Bibliography.md",
+    "link": "[[Andrej Karpathy From Vibe Coding to Agentic Engineering|Local transcript]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: agentic engineering, vibe coding"
+  },
+  {
+    "file": "wiki/Bibliography.md",
+    "link": "[[How I use LLMs|Local transcript]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Bibliography.md",
+    "link": "[[llm-wiki|Local clipping]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-05-23-possible-paths-self-updating-wiki-and-llm-wiki-integration"
+  },
+  {
+    "file": "wiki/Bibliography.md",
+    "link": "[[raw/sources/‘Nothing Ever Happens’ Is Over|Local source]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Bibliography.md",
+    "link": "[[raw/sources/Sell the Truth|Local source]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Concepts/Agent-Native Infrastructure.md",
+    "link": "[[Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: agentic engineering, vibe coding"
+  },
+  {
+    "file": "wiki/Concepts/Are You Thinking, or Just Consuming.md",
+    "link": "[[How to Learn Anything Faster Using Modern Research|How to Learn Anything Faster Using Modern Research]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Concepts/Are You Thinking, or Just Consuming.md",
+    "link": "[[If You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes|If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Concepts/Are You Thinking, or Just Consuming.md",
+    "link": "[[Learn to Learn in 4hrs 54mins - Full Course|Learn to Learn in 4hrs 54mins - Full Course]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Concepts/Are You Thinking, or Just Consuming.md",
+    "link": "[[Watch This For 18 Minutes, and You’ll Outlearn 99.9% Of People|Watch This For 18 Minutes, and You'll Outlearn 99.9% Of People]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue.md",
+    "link": "[[How to Think So Clearly People Assume You’re A Genius|How to Think So Clearly People Assume You're A Genius]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue.md",
+    "link": "[[If You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes|If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue.md",
+    "link": "[[Learn to Learn in 4hrs 54mins - Full Course|Learn to Learn in 4hrs 54mins - Full Course]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue.md",
+    "link": "[[Watch This For 18 Minutes, and You’ll Outlearn 99.9% Of People|Watch This For 18 Minutes, and You'll Outlearn 99.9% Of People]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Concepts/How to Communicate Truth Into Someone Else's Frame.md",
+    "link": "[[private/Goals/Priority 0|Priority 0]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: priority 0+1 system"
+  },
+  {
+    "file": "wiki/Concepts/How to Communicate Truth Into Someone Else's Frame.md",
+    "link": "[[private/Goals/Priority 0|Priority 0]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: priority 0+1 system"
+  },
+  {
+    "file": "wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently.md",
+    "link": "[[private/Goals/Priority 0|Priority 0]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: priority 0+1 system"
+  },
+  {
+    "file": "wiki/Concepts/Meiwaku.md",
+    "link": "[[wiki/Concepts/Minimalism|Minimalism]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: minimalism as systems design, minimalism, condensed"
+  },
+  {
+    "file": "wiki/Concepts/Memory Handling.md",
+    "link": "[[How to Learn Anything Faster Using Modern Research|How to Learn Anything Faster Using Modern Research]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Concepts/Memory Handling.md",
+    "link": "[[If You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes|If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Concepts/Memory Handling.md",
+    "link": "[[Learn to Learn in 4hrs 54mins - Full Course|Learn to Learn in 4hrs 54mins - Full Course]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Concepts/Nothing Ever Happens Is Over.md",
+    "link": "[[raw/sources/‘Nothing Ever Happens’ Is Over|Local source]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Concepts/The Age Of Nonlinear Returns.md",
+    "link": "[[private/Goals/Priority 0|Priority 0]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: priority 0+1 system"
+  },
+  {
+    "file": "wiki/Concepts/The Age Of Nonlinear Returns.md",
+    "link": "[[private/Goals/Priority 0|Priority 0]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: priority 0+1 system"
+  },
+  {
+    "file": "wiki/Concepts/Understanding Bottleneck.md",
+    "link": "[[Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: agentic engineering, vibe coding"
+  },
+  {
+    "file": "wiki/Dimensions/Mindset/Locus of Control.md",
+    "link": "[[Mindset]]",
+    "problem": "ambiguous basename",
+    "suggestion": "Possible: wiki/Dimensions/30-Day-Challenges/Mindset | wiki/Dimensions/Mindset"
+  },
+  {
+    "file": "wiki/Dimensions/Mindset/Marginal Gains.md",
+    "link": "[[private/Goals/Priority 0|Priority 0]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: priority 0+1 system"
+  },
+  {
+    "file": "wiki/Dimensions/Mindset/Marginal Gains.md",
+    "link": "[[templates/Kolbs Template|Kolbs Template]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Dimensions/Self-Management/Kolbs Experiential Cycle.md",
+    "link": "[[private/Goals/Priority 0|Priority 0]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: priority 0+1 system"
+  },
+  {
+    "file": "wiki/Dimensions/Self-Management/Kolbs Experiential Cycle.md",
+    "link": "[[templates/Kolbs Template|Kolbs Template]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Domains/AI & Tooling/LLM Tool Use.md",
+    "link": "[[How I use LLMs|How I use LLMs]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Learning Craft/Don't Outsource the Learning.md",
+    "link": "[[wiki/Live Clinic 60 The Right vs Wrong Way to Use AI|Live Clinic 60: The Right vs Wrong Way to Use AI]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Learning Craft/Rapid Skill Acquisition.md",
+    "link": "[[Kolb's Experiential Cycle|Kolb's Experiential Cycle]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Learning Craft/Rapid Skill Acquisition.md",
+    "link": "[[Kolb's Experiential Cycle|Kolb's Experiential Cycle]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Learning Craft/Rapid Skill Acquisition.md",
+    "link": "[[Kolb's Experiential Cycle|Kolb's Experiential Cycle]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Learning Craft/Rapid Skill Acquisition.md",
+    "link": "[[Self-Regulation|Self-Regulation]]",
+    "problem": "ambiguous basename",
+    "suggestion": "Possible: wiki/Dimensions/30-Day-Challenges/Self-Regulation | wiki/Dimensions/Self-Regulation"
+  },
+  {
+    "file": "wiki/Money/America's Industrial Revival - The Freight Signal.md",
+    "link": "[[raw/Source Index|Source Index]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: index"
+  },
+  {
+    "file": "wiki/Money/SpaceX & the Frontier Event.md",
+    "link": "[[raw/Source Index|Source Index]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: index"
+  },
+  {
+    "file": "wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus.md",
+    "link": "[[private/Goals/Priority 0|Priority 0]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: priority 0+1 system"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Agentic Engineering.md",
+    "link": "[[log|log.md]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Agentic Engineering.md",
+    "link": "[[raw/Source Index|Source Index]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: index"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Context Engineering.md",
+    "link": "[[How I use LLMs|How I use LLMs]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Context Engineering.md",
+    "link": "[[llm-wiki|llm-wiki]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-05-23-possible-paths-self-updating-wiki-and-llm-wiki-integration"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Context Engineering.md",
+    "link": "[[log|log.md]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Gbrain and Lossless.md",
+    "link": "[[wiki/Systems/AI & Agentic Systems|AI & Agentic Systems]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Hermes Agent.md",
+    "link": "[[SOUL.md]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Hermes Agent.md",
+    "link": "[[SOUL.md]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Hermes Agent.md",
+    "link": "[[SOUL.md]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems.md",
+    "link": "[[Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: agentic engineering, vibe coding"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems.md",
+    "link": "[[llm-wiki|llm-wiki]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-05-23-possible-paths-self-updating-wiki-and-llm-wiki-integration"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems.md",
+    "link": "[[log|log.md]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Software 3.0.md",
+    "link": "[[Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: agentic engineering, vibe coding"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Thinking Models.md",
+    "link": "[[How I use LLMs|How I use LLMs]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Vibe Coding.md",
+    "link": "[[Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: agentic engineering, vibe coding"
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Vibe Coding.md",
+    "link": "[[How I use LLMs|How I use LLMs]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Workflows/Knowledge Base as Thinking Partner.md",
+    "link": "[[private/Goals/Priority 0|Priority 0]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: priority 0+1 system"
+  },
+  {
+    "file": "wiki/Workflows/Question Answering Against a Wiki.md",
+    "link": "[[llm-wiki|llm-wiki]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-05-23-possible-paths-self-updating-wiki-and-llm-wiki-integration"
+  },
+  {
+    "file": "wiki/Workflows/Question Answering Against a Wiki.md",
+    "link": "[[log|log.md]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
+  },
+  {
+    "file": "wiki/Workflows/Raw to Wiki Compilation.md",
+    "link": "[[llm-wiki|llm-wiki]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-05-23-possible-paths-self-updating-wiki-and-llm-wiki-integration"
+  },
+  {
+    "file": "wiki/Workflows/Raw to Wiki Compilation.md",
+    "link": "[[log|log.md]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
+  },
+  {
+    "file": "wiki/Workflows/Raw to Wiki Compilation.md",
+    "link": "[[log|log.md]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
+  },
+  {
+    "file": "wiki/Workflows/Raw to Wiki Compilation.md",
+    "link": "[[raw/Source Index|Source Index]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: index"
+  },
+  {
+    "file": "wiki/Workflows/Raw to Wiki Compilation.md",
+    "link": "[[raw/Source Index|Source Index]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: index"
+  },
+  {
+    "file": "wiki/Workflows/Wiki Breakdown Pass.md",
+    "link": "[[log|log.md]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
+  },
+  {
+    "file": "wiki/Workflows/Wiki Breakdown Pass.md",
+    "link": "[[log|log.md]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
+  },
+  {
+    "file": "wiki/Workflows/Wiki Breakdown Pass.md",
+    "link": "[[Writing Standards]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Workflows/Wiki Health Checks.md",
+    "link": "[[llm-wiki|llm-wiki]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-05-23-possible-paths-self-updating-wiki-and-llm-wiki-integration"
+  },
+  {
+    "file": "wiki/Workflows/Wiki Health Checks.md",
+    "link": "[[log|log.md]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
+  },
+  {
+    "file": "wiki/Workflows/Wiki Health Checks.md",
+    "link": "[[Open Questions]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  },
+  {
+    "file": "wiki/Workflows/Wiki Status Checks.md",
+    "link": "[[log|log.md]]",
+    "problem": "broken target",
+    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
+  },
+  {
+    "file": "wiki/Workflows/Wiki Status Checks.md",
+    "link": "[[Writing Standards]]",
+    "problem": "broken target",
+    "suggestion": "Check spelling / path / add alias"
+  }
+]

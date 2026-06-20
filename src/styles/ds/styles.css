@@ -1,0 +1,11 @@
+/* ============================================================================
+ * Tsumugu Design System — global entry point.
+ * Consumers link THIS one file. It is an @import manifest only; every token,
+ * font, and theme ships through the closure below. Nothing else belongs here.
+ * ========================================================================== */
+
+@import "fonts.css";
+@import "tokens/paper.css";
+@import "tokens/colors.css";
+@import "tokens/typography.css";
+@import "tokens/spacing.css";

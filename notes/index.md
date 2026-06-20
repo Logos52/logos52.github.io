@@ -20,7 +20,7 @@ The complete catalog of every public page.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]] — the agentic corpus split by half-life: invariants vs dated tactics.
 - [[wiki/Money/Money, Condensed|Money, Condensed]] — behaviour over intelligence, the gap as the lever, enough as the win condition.
 - [[wiki/Minimalism/Minimalism, Condensed|Minimalism, Condensed]] — bandwidth as the bottleneck, exits before entries, the room as part of the system.
-- [[wiki/Syntheses/First Principles of ICS|Learning Systems]] — encoding, retrieval, self-regulation, and the structure under the study system.
+- [[wiki/Syntheses/First Principles of Learning|Learning Systems]] — encoding, retrieval, self-regulation, and the structure under the study system.
 - [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Attention & Self-Management]] — focus, flow, procrastination, recovery, and usable work blocks.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — building with agents while preserving judgment, taste, and ownership.
 - [[wiki/Minimalism/Minimalism as Systems Design|Minimalism]] — environment design, ownership cost, and reduction that makes action easier.
@@ -60,6 +60,7 @@ The complete catalog of every public page.
 | [[wiki/Concepts/The Age Of Nonlinear Returns\|The Age Of Nonlinear Returns]] | concept | Decision frame for protecting trust, optionality, reputation, capability, and scaling surfaces instead of over-optimizing small visible exchanges. |
 | [[wiki/Concepts/The AI Industrial Revolution\|The AI Industrial Revolution]] | concept | Naval roundtable field report: software factories, waste-tokens-save-time, models planning unprompted, humans as verifiers, training the agent, intelligence vs agency, small teams, and planning-as-spec vs planning-as-ritual. |
 | [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment\|Higher-Order Generativity vs Higher-Order Judgment]] | concept | Generativity (closing fast) vs judgment under stakes (holding); the human edge is the accountable call and out-of-distribution work, not median synthesis. |
+| [[wiki/Concepts/The AI Productivity Curve\|The AI Productivity Curve]] | concept | Is post-ChatGPT productivity outpacing the early internet? Macro data supportive (~3.0% in 2024 vs ~2.5% late-90s), firm-level data the opposite (~90% see no gain — Solow paradox); a J-curve, not a settled trend. |
 
 ### Metacognition and learning
 
@@ -67,7 +68,7 @@ The complete catalog of every public page.
 | --- | --- | --- |
 | [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure\|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] | synthesis | User's current encoding and retrieval loop built around BHS plus SIR. |
 | [[wiki/Syntheses/ICS System\|ICS System]] | synthesis | High-level synthesis of Justin Sung's learning system: process control, five dimensions, encoding, retrieval, practice, and reflection. |
-| [[wiki/Syntheses/First Principles of ICS\|First Principles of ICS]] | synthesis | Usable synthesis of the ICS hierarchy: processing quality, strategies, meta-strategies, overwhelm, layered learning, and problem maps. |
+| [[wiki/Syntheses/First Principles of Learning\|First Principles of Learning]] | synthesis | Usable synthesis of the ICS hierarchy: processing quality, strategies, meta-strategies, overwhelm, layered learning, and problem maps. |
 | [[wiki/Syntheses/Minimally Viable Learning System\|Minimally Viable Learning System]] | synthesis | Current minimum learning system: BHS for encoding, SIR for retrieval, with Agentic Engineering and the knowledge base treated as possible extensions. |
 | [[wiki/Syntheses/Are You Learning, or Just Using Techniques\|Are You Learning, or Just Using Techniques]] | synthesis | Usable synthesis of technique failure: strategy triggers thinking, thinking creates results, and shortcuts can make methods look correct while learning stays flat. |
 | [[wiki/Dimensions/Dimensions of Learning\|Dimensions of Learning]] | model | Central hub model for Deep Processing, Self-Management, Self-Regulation, Mindset, and Retrieval. |
@@ -179,6 +180,8 @@ The complete catalog of every public page.
 | --- | --- | --- |
 | [[wiki/Money/Investing and Budgeting Mindsets\|Investing & Budgeting Mindsets]] | hub | Map of money mindsets and first principles for budgeting and investing: a six-book reading list with takeaway bullets, the through-lines, and where the books disagree. |
 | [[wiki/Money/The Almanack of Naval Ravikant\|The Almanack of Naval Ravikant]] | book | Wealth as a learnable skill: specific knowledge, leverage through code and media, accountability, and long-term games. |
+| [[wiki/Money/America's Industrial Revival - The Freight Signal\|America's Industrial Revival — The Freight Signal]] | concept | Freight pricing as a revealed-preference signal of real US reindustrialization; AI capex and productivity as amplifiers; energy as the structural edge — read through investor, everyday-American, and Earth lenses. |
+| [[wiki/Money/SpaceX & the Frontier Event\|SpaceX & the Frontier Event]] | concept | Frontier wealth goes to whoever solves coming back; space value collapses onto a few chokepoints; SpaceX's rockets are the factory not the product — read through investor, everyday-American, and Earth lenses. |
 
 ### Language learning
 

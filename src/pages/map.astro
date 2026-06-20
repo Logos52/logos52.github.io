@@ -1,0 +1,190 @@
+---
+/**
+ * map.astro — the Map: the full VAULT GRAPH on top (every note + link), then the six domains listed
+ * below as a plain index. The per-domain page lists are computed from the live collection
+ * (doctrine-first, knowledge pages only), so they stay current as the vault grows.
+ */
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Constellation from '../components/Constellation.astro';
+import { buildGraph, type NoteInput } from '../lib/graph';
+import { deriveTitle } from '../lib/note';
+import { slugToUrl } from '../lib/slug';
+import { DOMAINS, DOMAIN_LABELS } from '../lib/types';
+
+const PER_SECTION = 8;
+
+// Doctrine-first ordering: hubs and condensed pages lead, then syntheses, then supporting types,
+// with link degree as the tiebreaker. New pages slot in by type, so it stays sensible as it grows.
+const TYPE_RANK: Record<string, number> = {
+  hub: 100,
+  synthesis: 80,
+  system: 70,
+  model: 60,
+  dimension: 60,
+  pillar: 45,
+  primer: 40,
+  workflow: 35,
+  technique: 25,
+  concept: 20,
+  book: 15,
+};
+
+const notes = await getCollection('notes');
+const input: NoteInput[] = notes.map((n) => ({
+  slug: n.id,
+  title: deriveTitle(n.data, n.id, n.body),
+  type: typeof n.data.type === 'string' ? n.data.type : '',
+  body: n.body ?? '',
+}));
+const full = buildGraph(input);
+
+const degree = new Map<string, number>();
+for (const e of full.edges) {
+  degree.set(e.source, (degree.get(e.source) ?? 0) + 1);
+  degree.set(e.target, (degree.get(e.target) ?? 0) + 1);
+}
+const score = (n: (typeof full.nodes)[number]) => {
+  const tier = Math.max(TYPE_RANK[n.type] ?? 12, /,\s*Condensed$/i.test(n.title) ? 90 : 0);
+  return tier * 1000 + (degree.get(n.slug) ?? 0);
+};
+
+const byDomain = new Map<string, (typeof full.nodes)[number][]>();
+for (const n of full.nodes) {
+  if (!n.slug.startsWith('wiki/')) continue; // knowledge pages only — exclude journal, index, about
+  (byDomain.get(n.domain) ?? byDomain.set(n.domain, []).get(n.domain)!).push(n);
+}
+
+const sections = DOMAINS.map((d) => {
+  const all = (byDomain.get(d) ?? []).sort((a, b) => score(b) - score(a) || a.title.localeCompare(b.title));
+  return { domain: d, label: DOMAIN_LABELS[d], items: all.slice(0, PER_SECTION) };
+});
+---
+
+<Base title="Map" description="The vault graph, and the knowledge base by domain." active="map">
+  <main class="map-page">
+    <div class="wrap">
+      <header class="map-head">
+        <span class="map-head__kind">記憶 · map</span>
+        <h1 class="map-head__title">The vault</h1>
+        <p class="map-head__lede">Every note and link. Drag to pan, pinch to zoom — or browse the six domains below.</p>
+      </header>
+
+      <Constellation mode="full" domainLabels height="clamp(460px, 66vh, 780px)" />
+    </div>
+
+    <article class="prose">
+      <h2 class="prose__head">The six domains</h2>
+      {sections.map((s) => (
+        <section class="domain">
+          <h3><a href={`/domains/${s.domain}/`}>{s.label}</a></h3>
+          <ul>
+            {s.items.map((it) => (
+              <li>
+                <a href={slugToUrl(it.slug)}>{it.title}</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </article>
+  </main>
+</Base>
+
+<style>
+  .wrap {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 28px 28px 0;
+  }
+  .map-head {
+    max-width: 60ch;
+    margin: 8px 0 16px;
+  }
+  .map-head__kind {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--faint);
+  }
+  .map-head__title {
+    font-family: var(--ming);
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin: 5px 0 0.4rem;
+    color: var(--ink);
+  }
+  .map-head__lede {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    line-height: 1.55;
+    color: var(--mut);
+    margin: 0;
+  }
+
+  /* six domains — plain index below the graph */
+  .prose {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 30px 28px 60px;
+  }
+  .prose__head {
+    font-family: var(--ming);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0 0 0.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .domain h3 {
+    font-family: var(--ming);
+    font-size: 1.02rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.35rem;
+    color: var(--ink);
+  }
+  .domain h3 a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .domain h3 a:hover {
+    text-decoration: underline;
+  }
+  .domain ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin: 0.2rem 0 0;
+    columns: 2;
+    column-gap: 44px;
+  }
+  .domain li {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--mut);
+    margin: 0.12rem 0;
+    break-inside: avoid;
+  }
+  .domain li a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .domain li a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  @media (max-width: 640px) {
+    .wrap {
+      padding: 28px 16px 0;
+    }
+    .prose {
+      padding: 24px 16px 40px;
+    }
+    .domain ul {
+      columns: 1;
+    }
+  }
+</style>

@@ -1,0 +1,106 @@
+---
+/**
+ * about.astro — the About page, rendered as a clean compact prose page (matches Notes/Journal).
+ */
+import { getEntry, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const entry = await getEntry('notes', 'about');
+const rendered = entry ? await render(entry) : null;
+const Content = rendered?.Content;
+---
+
+<Base title="About" description="About Logos52 and this knowledge base." active="about">
+  <main class="about-page">
+    <article class="prose wrap">
+      {Content ? <Content /> : <p>About not found.</p>}
+    </article>
+  </main>
+</Base>
+
+<style>
+  .wrap {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 34px 28px 52px;
+  }
+  .prose :global(h1) {
+    font-family: var(--ming);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 0.5rem;
+    color: var(--ink);
+  }
+  .prose :global(h2) {
+    font-family: var(--ming);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1.7rem 0 0.6rem;
+    color: var(--ink);
+  }
+  .prose :global(h3) {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    margin: 1.4rem 0 0.5rem;
+    color: var(--mut);
+  }
+  .prose :global(p) {
+    font-size: 13.5px;
+    color: var(--mut);
+    line-height: 1.6;
+  }
+  .prose :global(ul),
+  .prose :global(ol) {
+    padding-left: 1.05rem;
+    margin: 0.5rem 0;
+  }
+  .prose :global(li) {
+    font-size: 13.5px;
+    line-height: 1.6;
+    margin: 0.3rem 0;
+    color: var(--ink);
+  }
+  .prose :global(a) {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .prose :global(a:hover) {
+    text-decoration: underline;
+  }
+  .prose :global(.missing) {
+    color: var(--faint);
+    cursor: default;
+  }
+  .prose :global(img) {
+    float: left;
+    width: 33%;
+    height: auto; /* keep the photo's aspect ratio */
+    border-radius: 12px;
+    margin: 0.4rem 1.5rem 0.6rem 0; /* gap between photo and the text wrapping around it */
+  }
+  /* contain the floated image so it doesn't bleed past the article */
+  .prose::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .prose :global(blockquote) {
+    border-left: 3px solid var(--rule2);
+    margin: 1rem 0;
+    padding: 0.2rem 0 0.2rem 1rem;
+    color: var(--mut);
+  }
+  @media (max-width: 640px) {
+    .wrap {
+      padding: 28px 16px 40px;
+    }
+    .prose :global(img) {
+      float: none;
+      width: 55%;
+      margin: 0.6rem 0 1rem;
+    }
+  }
+</style>

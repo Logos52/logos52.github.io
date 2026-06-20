@@ -1,0 +1,23 @@
+/*
+ * domains.css — the 6 knowledge-domain hues (light on :root, brightened on [data-theme="dark"]).
+ * Halfway between the saturated and muted palettes (owner preference): learning plum · agentic umber ·
+ * language terracotta/seal · focus rose · mind sage-teal · gen slate-blue.
+ * Keep in sync with DOMAIN_COLORS in src/lib/types.ts.
+ */
+:root {
+  --d-learning: #7d6097; /* plum */
+  --d-agentic: #926a46; /* umber */
+  --d-language: #ab6750; /* terracotta / seal */
+  --d-focus: #b76279; /* rose */
+  --d-mind: #418c84; /* sage-teal */
+  --d-gen: #5179ad; /* slate-blue */
+}
+
+[data-theme='dark'] {
+  --d-learning: #a993c1;
+  --d-agentic: #bf9d74;
+  --d-language: #cc8975;
+  --d-focus: #d598a9;
+  --d-mind: #67b2ab;
+  --d-gen: #83a7ca;
+}

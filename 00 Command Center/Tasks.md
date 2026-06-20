@@ -15,3 +15,14 @@ Add open tasks as `- [ ]` checkboxes. Mark `- [x]` when done — done items drop
 
 - [ ] Try out the new Tasks section on Home
 - [ ] Replace these placeholders with real tasks 📅 2026-06-01
+
+## Tsumugu — Vietnamese redo (native register)
+
+- [ ] Send the VI calibration brief to friend → [[projects/tsumugu/VI-calibration-brief]]
+- [ ] Collect her ~30 rewrites; bake them as gold/few-shot examples into `STYLE-CARD-VI`
+- [ ] Re-translate the VI corpus (Grok) against the calibrated spec
+- [ ] Friend spot-checks ~50 random entries (ok / awkward / wrong)
+- [ ] Fold corrections into the gold set; re-run if the sample fails
+- [ ] Re-check the front-facing chrome VI (same non-native risk)
+- [ ] Keep VI mode out of beta until her sample passes
+

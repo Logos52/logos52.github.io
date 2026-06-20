@@ -1,0 +1,110 @@
+/* ============================================================================
+ * Tsumugu · Colors — semantic + functional layer (Paper & Ink)
+ * ----------------------------------------------------------------------------
+ * The whole system is now ONE warm Paper & Ink surface (tokens/paper.css is the
+ * source of truth). This file maps the reusable semantic names (--tsg-*) onto
+ * that surface, defines the functional ramps (word-knowledge status, Mandarin
+ * tones), and keeps a back-compat --wnac-* layer so older markup re-skins to
+ * Paper & Ink automatically.
+ *
+ *   Dictionary (primary) → seal-red accent (default)
+ *   Reader               → cool indigo accent  ([data-accent="cool"])
+ *
+ * The accent itself lives in paper.css (--accent / --accent-soft / --accent-ink);
+ * everything here references it, so a Button / Card / GradeBar picks up whichever
+ * product accent is in scope.
+ * ========================================================================== */
+
+:root {
+  /* ── semantic surface + ink (→ Paper & Ink) ───────────────────────────── */
+  --tsg-bg:            var(--paper);
+  --tsg-surface:       var(--card);
+  --tsg-surface-alt:   var(--raised);
+  --tsg-surface-sunk:  color-mix(in oklab, var(--ink) 4%, var(--paper));
+  --tsg-ink:           var(--ink);
+  --tsg-ink-muted:     var(--mut);
+  --tsg-ink-faint:     var(--faint);
+  --tsg-ink-soft:      var(--mut);
+  --tsg-border:        var(--rule);
+  --tsg-border-strong: var(--rule2);
+
+  /* ── accent (seal by default; cool under [data-accent="cool"]) ────────── */
+  --tsg-accent:        var(--accent);
+  --tsg-accent-bright: var(--accent);
+  --tsg-accent-ink:    var(--accent-ink);
+  --tsg-hover:    color-mix(in oklab, var(--ink) 5%, var(--card));
+  --tsg-press:    color-mix(in oklab, var(--accent) 14%, var(--card));
+  --tsg-selected: var(--accent-soft);
+
+  /* ── functional hues (readable on warm paper) ─────────────────────────── */
+  --tsg-info:    var(--cool);
+  --tsg-topic:   #7c5a86;   /* muted plum — topic tags */
+  --tsg-success: #5a8f4e;   /* sap green */
+  --tsg-danger:  #b23a2e;   /* cinnabar */
+
+  /* ── status ramp (word knowledge): new = loud → known = calm ─────────── */
+  /* Default = "Cooling ember": red → rust → clay → drab → sage → green. */
+  --tsg-st-new:   #c0392b;   /* vermillion — look here */
+  --tsg-st-l1:    #c25b3f;   /* rust */
+  --tsg-st-l2:    #a86b46;   /* clay */
+  --tsg-st-l3:    #7e7f52;   /* drab olive */
+  --tsg-st-l4:    #6a8a5e;   /* sage (settling) */
+  --tsg-st-known: #5a8f4e;   /* green — learned */
+
+  --tsg-new-bg: color-mix(in oklab, var(--tsg-st-new) 14%, var(--card));
+  --tsg-l1-bg:  color-mix(in oklab, var(--tsg-st-l1) 11%, var(--card));
+  --tsg-l2-bg:  color-mix(in oklab, var(--tsg-st-l2) 9%,  var(--card));
+  --tsg-l3-bg:  color-mix(in oklab, var(--tsg-st-l3) 7%,  var(--card));
+  --tsg-l4-bg:  color-mix(in oklab, var(--tsg-st-l4) 5%,  var(--card));
+
+  /* ── Mandarin tone colors (text tint only; tuned for paper) ───────────── */
+  --tsg-tone-1: #c0392b;   /* high */
+  --tsg-tone-2: #4f8a46;   /* rising */
+  --tsg-tone-3: #3f6e96;   /* low-dip */
+  --tsg-tone-4: #7c5a86;   /* falling */
+  --tsg-tone-5: var(--faint); /* neutral */
+
+  /* ── brand inks (solid — the gradient is retired in favour of seal ink) ── */
+  --tsg-ink-seal:   var(--seal);   /* Dictionary */
+  --tsg-ink-cool:   var(--cool);   /* Reader */
+  --tsg-ink-black:  #23201b;       /* mono / print */
+  /* kept so older refs resolve; a soft seal wash, never a hero element */
+  --tsg-brand-gradient: linear-gradient(135deg, color-mix(in oklab, var(--seal) 70%, #cf6a3c), var(--seal));  /* @kind color */
+
+  /* ── back-compat: --wnac-* now alias the Paper & Ink world ────────────── */
+  --wnac-base:          var(--paper);
+  --wnac-mantle:        color-mix(in oklab, var(--ink) 5%, var(--paper));
+  --wnac-surface:       var(--card);
+  --wnac-surface0:      var(--raised);
+  --wnac-surface1:      var(--accent-soft);
+  --wnac-border:        var(--rule);
+  --wnac-border-strong: var(--rule2);
+  --wnac-overlay:       var(--faint);
+  --wnac-overlay0:      var(--rule2);
+  --wnac-text:          var(--ink);
+  --wnac-subtext:       var(--mut);
+  --wnac-faint:         var(--faint);
+  --wnac-blue:          var(--cool);
+  --wnac-blue-bright:   var(--cool);
+  --wnac-on-accent:     var(--accent-ink);
+  --wnac-red:           var(--tsg-st-new);
+  --wnac-peach:         var(--tsg-st-l1);
+  --wnac-yellow:        var(--tsg-st-l3);
+  --wnac-green:         var(--tsg-st-known);
+  --wnac-teal:          #2e8b86;
+  --wnac-mauve:         var(--tsg-topic);
+}
+
+/* ── status-ramp variant: "Dissolve into paper" ─────────────────────────────
+ * Opt-in alternative ramp. Instead of cooling to green, the learning states
+ * desaturate and blend toward the page — the word literally gets quieter as you
+ * learn it. Set [data-ramp="dissolve"] on any root/scope. The *-bg tints follow
+ * automatically (they reference these tokens). new stays loud; known stays green. */
+[data-ramp="dissolve"] {
+  --tsg-st-new:   #c0392b;   /* vermillion — unchanged, look here */
+  --tsg-st-l1:    #bd6a52;   /* fading rust */
+  --tsg-st-l2:    #b18a72;   /* muted tan */
+  --tsg-st-l3:    #b3a791;   /* paper-grey */
+  --tsg-st-l4:    #c4bba8;   /* nearly the page */
+  --tsg-st-known: #5a8f4e;   /* green — learned */
+}

@@ -191,5 +191,5 @@ The knowledge base should make the next act of thought sharper. If it only makes
 - [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
-- [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]]
+- [[wiki/Syntheses/First Principles of Learning|First Principles of ICS]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]

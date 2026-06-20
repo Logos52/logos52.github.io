@@ -1,0 +1,101 @@
+---
+/**
+ * Constellation.astro — the force-directed knowledge graph, ported from the original Quartz
+ * notes-overview graph. Renders a canvas + boots the d3-force island, which fetches /graph.json.
+ */
+interface Props {
+  height?: string;
+  class?: string;
+  /** 'spine' = home landmark (≤30); 'full' = whole graph flattened; 'local' = neighborhood of `seeds`. */
+  mode?: 'spine' | 'full' | 'local';
+  /** local mode: seed slugs whose neighborhood to show. */
+  seeds?: string[];
+  /** local mode: hop radius (default 1). */
+  hops?: number;
+  /** full mode: restrict to a single domain (for a domain MOC sub-graph). */
+  domain?: string;
+  /** local mode: 'vertical' lays the neighborhood out as a tall column (for a side rail). */
+  orient?: 'horizontal' | 'vertical';
+  /** data source URL (default /graph.json); the Map page points this at /map.json. */
+  src?: string;
+  /** draw persistent domain territory labels (the Map). */
+  domainLabels?: boolean;
+}
+const {
+  height = 'min(70vh, 620px)',
+  class: className = '',
+  mode = 'spine',
+  seeds,
+  hops,
+  domain,
+  orient,
+  src = '/graph.json',
+  domainLabels = false,
+} = Astro.props;
+---
+
+<figure
+  class={`constellation ${className}`}
+  data-constellation-root
+  data-mode={mode}
+  data-seeds={seeds ? JSON.stringify(seeds) : undefined}
+  data-hops={hops != null ? String(hops) : undefined}
+  data-domain={domain || undefined}
+  data-orient={orient || undefined}
+  data-src={src}
+  data-domain-labels={domainLabels ? 'true' : undefined}
+  style={`height:${height}`}
+>
+  <canvas></canvas>
+  <noscript>
+    <p class="constellation__fallback">The interactive graph needs JavaScript — <a href="/notes/">browse the notes index →</a></p>
+  </noscript>
+</figure>
+
+<script>
+  import { initConstellation } from '../islands/constellation';
+
+  document.querySelectorAll<HTMLElement>('[data-constellation-root]').forEach((root) => {
+    fetch(root.dataset.src || '/graph.json')
+      .then((r) => r.json())
+      .then((data) => initConstellation(root, data))
+      .catch(() => {
+        const c = root.querySelector('canvas');
+        if (c) c.replaceWith(Object.assign(document.createElement('p'), { className: 'constellation__fallback', textContent: 'Graph data unavailable.' }));
+      });
+  });
+</script>
+
+<style>
+  .constellation {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    border: 1px solid var(--rule);
+    border-radius: var(--tsg-radius);
+    background: var(--card);
+    box-shadow: var(--tsg-shadow);
+    overflow: hidden;
+  }
+  .constellation canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    touch-action: pan-y; /* let the page scroll vertically over the graph; pinch still zooms */
+  }
+  .constellation__hint {
+    position: absolute;
+    left: 14px;
+    bottom: 10px;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--faint);
+    pointer-events: none;
+  }
+  .constellation__fallback {
+    padding: var(--space-5, 24px);
+    color: var(--mut);
+  }
+</style>

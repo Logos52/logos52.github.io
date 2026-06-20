@@ -1,0 +1,37 @@
+---
+import Base from '../layouts/Base.astro';
+import Constellation from '../components/Constellation.astro';
+---
+
+<Base title="Graph" description="Full vault link graph." active="notes">
+  <main class="graph-page">
+    <div class="wrap">
+      <header class="head">
+        <h1>Vault graph</h1>
+        <p>Hover to highlight neighborhoods · click a node to open the note · scroll to zoom · drag to pan</p>
+      </header>
+      <Constellation mode="full" height="min(78vh, 720px)" />
+    </div>
+  </main>
+</Base>
+
+<style>
+  .wrap {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 0 32px 36px;
+  }
+  .head {
+    padding: 34px 0 16px;
+  }
+  .head h1 {
+    font-family: var(--ming);
+    font-size: 32px;
+    margin: 0;
+  }
+  .head p {
+    margin: 8px 0 0;
+    font-size: 13px;
+    color: var(--faint);
+  }
+</style>

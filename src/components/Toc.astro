@@ -1,0 +1,74 @@
+---
+/**
+ * Toc.astro — "On this page" sticky aside table of contents.
+ * Mirrors the NotePage aside `<h3 style={sideH}>On this page</h3>` block in the DS
+ * screens.jsx: mono uppercase heading, list with a left rule, current heading
+ * highlighted (var(--accent), 600 weight). The active-heading class is wired by
+ * an island later (`.is-current`); the first heading ships highlighted by default.
+ */
+interface Heading {
+  depth: number;
+  text: string;
+  slug: string;
+}
+interface Props {
+  headings: Heading[];
+}
+const { headings } = Astro.props;
+// Only h2/h3 belong in the on-this-page rail; h1 is the page title.
+const items = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
+---
+
+{
+  items.length > 0 && (
+    <nav class="kb-toc" aria-label="On this page">
+      <h3 class="kb-side-h">On this page</h3>
+      <ul class="kb-toc-list">
+        {items.map((h, i) => (
+          <li class:list={[`kb-toc-d${h.depth}`]}>
+            <a href={`#${h.slug}`} class:list={["kb-toc-link", { "is-current": i === 0 }]}>
+              {h.text}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  )
+}
+
+<style>
+  .kb-side-h {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--mut);
+    margin: 0 0 10px;
+    font-weight: 600;
+  }
+  .kb-toc-list {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border-left: 1px solid var(--rule);
+  }
+  .kb-toc-d3 {
+    padding-left: 12px;
+  }
+  .kb-toc-link {
+    font-size: 12.5px;
+    color: var(--mut);
+    text-decoration: none;
+    transition: color 0.12s ease;
+  }
+  .kb-toc-link:hover {
+    color: var(--ink);
+  }
+  .kb-toc-link.is-current {
+    color: var(--accent);
+    font-weight: 600;
+  }
+</style>

@@ -19,7 +19,7 @@ Mental effort often points to the work the mind is trying to hold, resolve, comp
 
 The transcripts frame mental effort as a metacognitive doorway. Too little load can mean passive processing. Too much load can mean working memory overload. The practical skill is reading the signal correctly and responding with the right move.
 
-[[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] adds the most useful practical version: overwhelm is the cue. The learner should make the overwhelm explicit, turn it into a question, and use the question to organize the next move.
+[[wiki/Syntheses/First Principles of Learning|First Principles of Learning]] adds the most useful practical version: overwhelm is the cue. The learner should make the overwhelm explicit, turn it into a question, and use the question to organize the next move.
 
 ## Signal Types
 

@@ -186,7 +186,7 @@ The goal is to make each technique produce the right thinking.
 ## Related Pages
 
 - [[wiki/Syntheses/ICS System|ICS System]]
-- [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]]
+- [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]]
 - [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]

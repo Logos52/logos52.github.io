@@ -1,0 +1,91 @@
+---
+/**
+ * [...slug].astro — every note page.
+ *
+ * One route per published note: getStaticPaths() walks getCollection('notes') and emits a path per
+ * entry, keyed by the Quartz slug (`simplifySlug(entry.id)`), SKIPPING the home entry (simplifySlug
+ * === '/') which index.astro owns. Each path carries its entry as a prop.
+ *
+ * Rendering: `render(entry)` gives the compiled <Content/> + Astro `headings`. The global link graph
+ * and backlink index are built ONCE (module-level memo, shared across every generated page) over all
+ * notes, then sliced per note — localGraph(graph, id, 2) for the rail, backlinks[id] for the panel.
+ * Title via deriveTitle, domain via resolveDomain. Everything is handed to <Note/>, which wraps Base.
+ */
+import { getCollection, render } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+import Note from '../layouts/Note.astro';
+import { deriveTitle } from '../lib/note';
+import { resolveDomain } from '../lib/domain';
+import { simplifySlug } from '../lib/slug';
+import { buildGraph, localGraph, type NoteInput as GraphNoteInput } from '../lib/graph';
+import { buildBacklinks, type NoteInput as BacklinkNoteInput } from '../lib/backlinks';
+import type { GraphData, BacklinkIndex } from '../lib/types';
+
+export const getStaticPaths = (async () => {
+  const notes = await getCollection('notes');
+  return notes
+    // index.md (simplifySlug → '/') is rendered by index.astro; skip it here so the route is unique.
+    .filter((entry) => simplifySlug(entry.id) !== '/')
+    .map((entry) => ({
+      params: { slug: simplifySlug(entry.id) },
+      props: { entry },
+    }));
+}) satisfies GetStaticPaths;
+
+/* ── module-level memo: build the global graph + backlinks exactly once ─────── */
+let graphMemo: GraphData | null = null;
+let backlinksMemo: BacklinkIndex | null = null;
+
+async function getGlobalIndices(): Promise<{ graph: GraphData; backlinks: BacklinkIndex }> {
+  if (graphMemo && backlinksMemo) return { graph: graphMemo, backlinks: backlinksMemo };
+  const notes = await getCollection('notes');
+  const graphInput: GraphNoteInput[] = notes.map((n) => ({
+    slug: n.id,
+    title: deriveTitle(n.data, n.id, n.body),
+    type: typeof n.data.type === 'string' ? n.data.type : '',
+    body: n.body ?? '',
+  }));
+  const backlinkInput: BacklinkNoteInput[] = notes.map((n) => ({
+    slug: n.id,
+    title: deriveTitle(n.data, n.id, n.body),
+    body: n.body ?? '',
+  }));
+  graphMemo = buildGraph(graphInput);
+  backlinksMemo = buildBacklinks(backlinkInput);
+  return { graph: graphMemo, backlinks: backlinksMemo };
+}
+
+const { entry } = Astro.props as { entry: Awaited<ReturnType<typeof getCollection>>[number] };
+
+const { Content, headings } = await render(entry);
+
+const title = deriveTitle(entry.data, entry.id, entry.body);
+const domain = resolveDomain(entry.id);
+const type = typeof entry.data.type === 'string' ? entry.data.type : undefined;
+const updated =
+  entry.data.updated instanceof Date
+    ? entry.data.updated.toISOString().slice(0, 10)
+    : typeof entry.data.updated === 'string'
+      ? entry.data.updated
+      : undefined;
+
+const { graph, backlinks } = await getGlobalIndices();
+const local = localGraph(graph, entry.id, 2);
+const noteBacklinks = backlinks[entry.id] ?? [];
+
+// Astro headings → the {depth,text,slug} shape Toc/Note expect.
+const tocHeadings = headings.map((h) => ({ depth: h.depth, text: h.text, slug: h.slug }));
+---
+
+<Note
+  title={title}
+  type={type}
+  updated={updated}
+  domain={domain}
+  slug={entry.id}
+  headings={tocHeadings}
+  backlinks={noteBacklinks}
+  local={local}
+>
+  <Content />
+</Note>

@@ -1,0 +1,1501 @@
+[
+  {
+    "file": "CLAUDE.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing type",
+      "missing updated",
+      "empty tags"
+    ]
+  },
+  {
+    "file": "cos/prds/PRD-morning-conductor.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing type",
+      "missing updated",
+      "empty tags"
+    ]
+  },
+  {
+    "file": "GROK.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing type",
+      "missing updated",
+      "empty tags"
+    ]
+  },
+  {
+    "file": "journal/2026-05-21-Focus-Management-and-Curvilinear-Design.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing type",
+      "missing updated",
+      "empty tags"
+    ]
+  },
+  {
+    "file": "wiki/Techniques/Techniques - Learning Craft.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing updated",
+      "unusual type 'hub'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "AGENTS.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing updated",
+      "unusual type 'agents'"
+    ]
+  },
+  {
+    "file": "journal/brainstorm/index.md",
+    "issues": [
+      "missing updated",
+      "unusual type 'brainstorm'",
+      "unknown status 'living'"
+    ]
+  },
+  {
+    "file": "projects/tsumugu/VI-calibration-brief.md",
+    "issues": [
+      "missing updated",
+      "unusual type 'brief'",
+      "unknown status 'active'"
+    ]
+  },
+  {
+    "file": "README.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing updated",
+      "unusual type 'readme'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'dimension'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Mindset.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'dimension'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Retrieval.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'dimension'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Retrieval/Multipass System.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing updated",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Self-Management.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'dimension'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Self-Regulation.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'dimension'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Experiences/Experiences.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'hub'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Experiences/Red Team Training.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'experience'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Experiences/Taiwan 2020.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'experience'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Chinese/Chinese Characters, Condensed.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'condensed'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Chinese/How Chinese Characters Work.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'hub'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Minimalism/Minimalism as Systems Design.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'hub'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Red Team/Red Teaming.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'hub'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'system'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Self Management/Obsidian Dashboard.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing updated",
+      "unusual type 'system'"
+    ]
+  },
+  {
+    "file": "wiki/Syntheses/Learning, Condensed.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'condensed'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'condensed'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Agentic Engineering.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'hub'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'reference'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Systems/Obsidian Dashboard.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing updated",
+      "unusual type 'system'"
+    ]
+  },
+  {
+    "file": "journal/2026-06-03-Finance-Investing-Reading-Resources.md",
+    "issues": [
+      "missing updated",
+      "unusual type 'journal-entry'"
+    ]
+  },
+  {
+    "file": "journal/2026-06-03-Ideas-Bank-Expansion.md",
+    "issues": [
+      "missing updated",
+      "unusual type 'journal-entry'"
+    ]
+  },
+  {
+    "file": "wiki/Bibliography.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'reference'"
+    ]
+  },
+  {
+    "file": "wiki/Books/The Book of Elon.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'book'"
+    ]
+  },
+  {
+    "file": "wiki/Books/The Parasitic Mind.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'book'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/30-Day Challenge – Mindset.md",
+    "issues": [
+      "unusual type 'redirect'",
+      "unknown status 'moved'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Anti-Marketing.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Bias and Framing.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Charisma.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Design of Everyday Things.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Good Faith.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Grok - How to Remember Everything You Read.md",
+    "issues": [
+      "unusual type 'redirect'",
+      "unknown status 'empty-redirect'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/How to Communicate Truth Into Someone Else's Frame.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Meiwaku.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Style.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Suicidal Empathy.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/The Age Of Nonlinear Returns.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Decision Making/Decision Making.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'hub'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/30-Day Challenges/Deep Processing.md",
+    "issues": [
+      "unusual type 'practice-track'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/30-Day Challenges/Mindset.md",
+    "issues": [
+      "unusual type 'practice-track'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/30-Day Challenges/Retrieval.md",
+    "issues": [
+      "unusual type 'practice-track'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/30-Day Challenges/Self-Management.md",
+    "issues": [
+      "unusual type 'practice-track'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/30-Day Challenges/Self-Regulation.md",
+    "issues": [
+      "unusual type 'practice-track'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Aim.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Bear Hunter System - Aim.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing updated"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Bear Hunter System - Shoot.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing updated"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Bear Hunter System - Skin.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing updated"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Bear Hunter System.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Prestudy.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Dimensions of Learning.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Mindset/Marginal Gains.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Retrieval/Interleaving Table.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'reference'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Self-Management/Kolbs Experiential Cycle.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Self-Regulation/Recovery.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Domains/AI & Tooling/Claude Cowork as Personal Work OS.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Glossary.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'reference'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Chinese/Empty Components.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Chinese/Form Components.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Chinese/Meaning Components.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Chinese/Meaning Trees and Original Meanings.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Chinese/Sound Components.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Chinese/Sound Series.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Chinese/Surface vs Deep Structure.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Chinese/The IME Method.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Chinese/The Pipelining Strategy.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Chinese/Three Attributes of a Character.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Freeflow Immersion.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'dimension'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Immersion Metalayers.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'tool'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Interactive Immersion.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'dimension'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Preparation.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'dimension'"
+    ]
+  },
+  {
+    "file": "wiki/Learning Craft/Rules of Effective Memorization.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Minimalism/Environment Design.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Minimalism/Exit Strategy For Objects.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Minimalism/Minimalism, Condensed.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'condensed'"
+    ]
+  },
+  {
+    "file": "wiki/Minimalism/Ownership Cost.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Minimalism/Product Reduction.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Money/Money, Condensed.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'condensed'"
+    ]
+  },
+  {
+    "file": "wiki/Red Team/Applied Critical Thinking - Testing Frames.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Resources/Mandarin Chinese Language Learning Resources.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'resource-catalog'"
+    ]
+  },
+  {
+    "file": "wiki/Resources/Vietnamese Language Learning Resources.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'resource-catalog'"
+    ]
+  },
+  {
+    "file": "wiki/Self Management/Attention Management - Preserving Flow.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'system'"
+    ]
+  },
+  {
+    "file": "wiki/Self Management/Habits, Productive Routines & PEER.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing updated"
+    ]
+  },
+  {
+    "file": "wiki/Self Management/Time Management, Attention & Scheduling.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing updated"
+    ]
+  },
+  {
+    "file": "wiki/Syntheses/Are You Learning, or Just Using Techniques.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Syntheses/First Principles of Learning.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Syntheses/How Top Performers Learn.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Syntheses/Minimally Viable Learning System.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Claude Fable.md",
+    "issues": [
+      "unusual type 'system'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Gbrain and Lossless.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing updated"
+    ]
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Hermes Agent.md",
+    "issues": [
+      "unusual type 'system'",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Vibe Coding.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Techniques/Technique Training & Fundamentals.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "missing updated"
+    ]
+  },
+  {
+    "file": "wiki/Timeline.md",
+    "issues": [
+      "missing title (frontmatter)",
+      "unusual type 'reference'"
+    ]
+  },
+  {
+    "file": "about.md",
+    "issues": [
+      "unusual type 'about'"
+    ]
+  },
+  {
+    "file": "journal/2026-05-23-Possible-Paths-Autonomous-OS-Dashboard-and-Builder-System.md",
+    "issues": [
+      "unusual type 'journal-entry'"
+    ]
+  },
+  {
+    "file": "journal/2026-05-23-Possible-Paths-Self-Updating-Wiki-and-LLM-Wiki-Integration.md",
+    "issues": [
+      "unusual type 'journal-entry'"
+    ]
+  },
+  {
+    "file": "journal/2026-05-28-Reflections-on-Wiki-Bloat-Life-OS-Red-Teaming-and-Agentic-Focus.md",
+    "issues": [
+      "unusual type 'journal-entry'"
+    ]
+  },
+  {
+    "file": "journal/calendar.md",
+    "issues": [
+      "unusual type 'journal-calendar'"
+    ]
+  },
+  {
+    "file": "journal/index.md",
+    "issues": [
+      "unusual type 'journal-index'"
+    ]
+  },
+  {
+    "file": "journal/knowledge-base-as-thinking-partner-reflection.md",
+    "issues": [
+      "unusual type 'journal-entry'"
+    ]
+  },
+  {
+    "file": "journal/on-red-teams-closure.md",
+    "issues": [
+      "unusual type 'blog-post'"
+    ]
+  },
+  {
+    "file": "journal/red-team-pruning.md",
+    "issues": [
+      "unusual type 'journal-note'"
+    ]
+  },
+  {
+    "file": "mg-kolbs-template.md",
+    "issues": [
+      "unusual type 'about'"
+    ]
+  },
+  {
+    "file": "projects/cos.md",
+    "issues": [
+      "unknown status 'current'"
+    ]
+  },
+  {
+    "file": "projects/index.md",
+    "issues": [
+      "unusual type 'projects-index'"
+    ]
+  },
+  {
+    "file": "projects/llm-knowledge-base.md",
+    "issues": [
+      "unknown status 'current'"
+    ]
+  },
+  {
+    "file": "projects/mg-kolbs.md",
+    "issues": [
+      "unknown status 'current'"
+    ]
+  },
+  {
+    "file": "projects/pans-mg-kolbs.md",
+    "issues": [
+      "unknown status 'past'"
+    ]
+  },
+  {
+    "file": "projects/tsumugu-ed.md",
+    "issues": [
+      "unknown status 'current'"
+    ]
+  },
+  {
+    "file": "projects/tsumugu.md",
+    "issues": [
+      "unknown status 'current'"
+    ]
+  },
+  {
+    "file": "projects/wnab.md",
+    "issues": [
+      "unknown status 'past'"
+    ]
+  },
+  {
+    "file": "projects/wnac.md",
+    "issues": [
+      "unknown status 'current'"
+    ]
+  },
+  {
+    "file": "public-snapshots/decisions.md",
+    "issues": [
+      "unusual type 'snapshot'"
+    ]
+  },
+  {
+    "file": "public-snapshots/direction.md",
+    "issues": [
+      "unusual type 'snapshot'"
+    ]
+  },
+  {
+    "file": "public-snapshots/skills.md",
+    "issues": [
+      "unusual type 'snapshot'"
+    ]
+  },
+  {
+    "file": "wiki/Books/Suicidal Empathy.md",
+    "issues": [
+      "unusual type 'book'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/A Motorcycle for the Mind.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/A Return to Code.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Agent-Native Infrastructure.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Are You Thinking, or Just Consuming.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Declarative, Procedural, and Conditional Knowledge.md",
+    "issues": [
+      "unusual type 'model'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Four Stages of Competence.md",
+    "issues": [
+      "unusual type 'model'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Learning Efficiency.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Memory Handling.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Nothing Ever Happens Is Over.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Reverse Causality.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/The Shortcut Problem.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Concepts/Understanding Bottleneck.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Decision Making/Changing Decisions.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Decision Making/Choice Throttling.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Decision Making/Decisional Delays.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Decision Making/Expectancy in Wicked Environments.md",
+    "issues": [
+      "unusual type 'model'"
+    ]
+  },
+  {
+    "file": "wiki/Decision Making/Good Decisions.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Decision Making/Positional Decisions and Expected Value.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Decision Making/The Uncertainty-Opportunity Tradeoff.md",
+    "issues": [
+      "unusual type 'model'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/30-Day Challenges.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Best-attempt Encoding.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Deep Processing for Research.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Deep Processing Practice.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Deep Processing Tanking.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Higher-Order Learning.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Importance-Based Chunking.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Layers of Learning.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Mindmaps.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Schema.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Shoot.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Skin.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Deep Processing/Thinking on Paper.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Dimension Practice Tracks.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Mindset/Fixed vs Growth Mindset.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Mindset/Neuroticism.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Retrieval/WPW.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Self-Management/How to Ask for Feedback.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Self-Management/Reverse Goal Setting.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Self-Management/Skills Audit.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Self-Regulation/Building the Radar.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it).md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Dimensions/Upgrading Your Dimensions.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Domains/AI & Tooling/LLM Tool Use.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Domains/Miscellaneous/Exam Execution.md",
+    "issues": [
+      "unusual type 'hub'"
+    ]
+  },
+  {
+    "file": "wiki/Domains/Miscellaneous/How to diagnose and fix exam mistakes.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Domains/Miscellaneous/How to prepare for ultra high-volume exams.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/ICS Program Map.md",
+    "issues": [
+      "unusual type 'moc'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Aim-Shoot-Skin for Language Learning.md",
+    "issues": [
+      "unusual type 'system'"
+    ]
+  },
+  {
+    "file": "wiki/Language/Attention is Important.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Language/Character Primer.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Language/Hacking Comprehension Menu.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Language/Language Isn't Math.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Language/Noticing Game.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Language/Refold Grammar Primers.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Language/Refold Language Learning System.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Language/Three Pillars of Language Learning.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Language/Vietnamese Grammar Primer.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Language/YouTube Immersion Account.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Learning Craft/AI-Assisted Learning Workflow.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Learning Craft/Clinical Learning System.md",
+    "issues": [
+      "unusual type 'system'"
+    ]
+  },
+  {
+    "file": "wiki/Learning Craft/Don't Outsource the Learning.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Learning Craft/Microlearning System.md",
+    "issues": [
+      "unusual type 'system'"
+    ]
+  },
+  {
+    "file": "wiki/Learning Craft/Rapid Skill Acquisition.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Learning Craft/Reading & Retention.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Minimalism/Wanting Less.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Money/Define Enough.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Money/Investing and Budgeting Mindsets.md",
+    "issues": [
+      "unusual type 'hub'"
+    ]
+  },
+  {
+    "file": "wiki/Money/Money as Life Energy.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Money/The Almanack of Naval Ravikant.md",
+    "issues": [
+      "unusual type 'book'"
+    ]
+  },
+  {
+    "file": "wiki/Money/The Savings Rate Is the Master Lever.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Money/Time Beats Timing.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Self Management/Attention Span and Focus Training.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Self Management/Building a Schedule That Survives.md",
+    "issues": [
+      "unusual type 'system'"
+    ]
+  },
+  {
+    "file": "wiki/Self Management/Flow State.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Self Management/Priority 0+1 System.md",
+    "issues": [
+      "unusual type 'system'"
+    ]
+  },
+  {
+    "file": "wiki/Self Management/Procrastination - a System Problem.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Self Management/Task Management.md",
+    "issues": [
+      "unusual type 'system'"
+    ]
+  },
+  {
+    "file": "wiki/Syntheses/ICS System.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Context Engineering.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Software 3.0.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Systems/AI & Agentic Systems/Thinking Models.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Workflows/Knowledge Base as Thinking Partner.md",
+    "issues": [
+      "unknown status 'developing'"
+    ]
+  },
+  {
+    "file": "wiki/Workflows/Question Answering Against a Wiki.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Workflows/Raw to Wiki Compilation.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Workflows/Wiki Breakdown Pass.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Workflows/Wiki Health Checks.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  },
+  {
+    "file": "wiki/Workflows/Wiki Status Checks.md",
+    "issues": [
+      "missing title (frontmatter)"
+    ]
+  }
+]

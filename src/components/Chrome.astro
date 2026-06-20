@@ -1,0 +1,263 @@
+---
+/**
+ * Chrome.astro — sticky top bar. Ported pixel-for-pixel from the DS KB
+ * screens.jsx <Chrome> (sticky header variant) + styles.html .chrome.
+ *
+ * Brand lockup (mark-nodes-violet + "Knowledge base" + "second brain" kicker),
+ * nav with .on active state, theme-toggle button (#theme-toggle, wired by Base),
+ * and the ⌘K search affordance pill.
+ */
+interface Props {
+  /** Active nav id — one of "atlas" | "notes" | "projects" | "about". */
+  active?: string;
+}
+const { active } = Astro.props;
+
+const nav: { id: string; label: string; href: string }[] = [
+  { id: 'map', label: 'Map', href: '/map' },
+  { id: 'notes', label: 'Notes', href: '/notes' },
+  { id: 'projects', label: 'Projects', href: '/projects' },
+  { id: 'journal', label: 'Journal', href: '/journal' },
+  { id: 'about', label: 'About', href: '/about' },
+];
+const isHome = active === 'home';
+---
+
+<header class="kb-chrome">
+  <div class="kb-chrome__inner">
+    <a class="kb-brand" href="/">
+      <img src="/mark-nodes-violet.svg" alt="" width="30" height="30" />
+      <span class="kb-brand__name">Logos52</span>
+    </a>
+    <nav class="kb-nav">
+      {nav.map((n) => (
+        <a href={n.href} class:list={['kb-nav__link', { on: active === n.id }]}>
+          {n.label}
+        </a>
+      ))}
+    </nav>
+    <span class="kb-spacer"></span>
+    <button
+      type="button"
+      id="theme-toggle"
+      class="kb-theme-toggle"
+      title="Toggle theme"
+      aria-label="Toggle theme"
+    >
+      <span class="kb-theme-toggle__light">☾</span>
+      <span class="kb-theme-toggle__dark">☀</span>
+    </button>
+    {!isHome && (
+      <div class="kb-search" data-inline-search>
+        <input
+          type="search"
+          class="kb-search-input"
+          data-search-input
+          placeholder="Find a note…"
+          aria-label="Search notes"
+          autocomplete="off"
+        />
+        <div class="kb-search-results" data-search-results hidden></div>
+      </div>
+    )}
+    <button type="button" class="kb-menu-btn" id="kb-menu-btn" aria-label="Open menu" aria-expanded="false">
+      ☰
+    </button>
+  </div>
+</header>
+
+<style>
+  /* header — sticky, blurred paper, hairline rule (screens.jsx L24) */
+  .kb-chrome {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background: color-mix(in oklab, var(--paper) 88%, transparent);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--rule);
+  }
+  .kb-chrome__inner {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 0 28px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    height: 60px;
+  }
+
+  /* brand lockup (screens.jsx L26–29) */
+  .kb-brand {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .kb-brand img {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+  }
+  .kb-brand__name {
+    white-space: nowrap;
+  }
+  .kb-brand__kicker {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--faint);
+    font-weight: 400;
+  }
+
+  /* nav (screens.jsx L11–22, L30–32) */
+  .kb-nav {
+    display: flex;
+    gap: 4px;
+    margin-left: 8px;
+  }
+  .kb-nav__link {
+    font-family: var(--sans);
+    font-size: 13.5px;
+    color: var(--mut);
+    background: transparent;
+    border: none;
+    padding: 6px 12px;
+    border-radius: var(--tsg-radius-sm);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .kb-nav__link.on {
+    color: var(--accent);
+    background: var(--accent-soft);
+  }
+
+  .kb-spacer {
+    flex: 1;
+  }
+
+  /* theme toggle pill (screens.jsx L34) */
+  .kb-theme-toggle {
+    font-family: var(--sans);
+    font-size: 14px;
+    color: var(--mut);
+    background: none;
+    border: 1px solid var(--rule2);
+    border-radius: 999px;
+    padding: 5px 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    line-height: 1;
+  }
+  /* show the glyph matching the *current* theme target (☾ in light, ☀ in dark) */
+  .kb-theme-toggle__dark {
+    display: none;
+  }
+  :global(html[data-theme='dark']) .kb-theme-toggle__light {
+    display: none;
+  }
+  :global(html[data-theme='dark']) .kb-theme-toggle__dark {
+    display: inline;
+  }
+
+  /* inline search — compact input + dropdown (no modal, no blur) */
+  .kb-search {
+    position: relative;
+  }
+  .kb-search-input {
+    font-family: var(--sans);
+    font-size: 12.5px;
+    color: var(--ink);
+    width: 160px;
+    border: 1px solid var(--rule2);
+    border-radius: 999px;
+    padding: 6px 14px;
+    background: var(--card);
+    outline: none;
+    transition:
+      width var(--dur-base) var(--ease-standard),
+      border-color var(--dur-base);
+  }
+  .kb-search-input::placeholder {
+    color: var(--faint);
+  }
+  .kb-search-input:focus {
+    width: 230px;
+    border-color: var(--accent);
+  }
+  .kb-search :global([data-search-results]) {
+    right: 0;
+    width: min(340px, 80vw);
+  }
+  .kb-menu-btn {
+    display: none;
+    font-family: var(--sans);
+    font-size: 18px;
+    color: var(--mut);
+    background: none;
+    border: 1px solid var(--rule2);
+    border-radius: var(--tsg-radius-sm);
+    padding: 4px 10px;
+    cursor: pointer;
+  }
+  @media (max-width: 720px) {
+    .kb-chrome__inner {
+      padding: 0 16px;
+      gap: 12px;
+      flex-wrap: wrap;
+      height: auto;
+      min-height: 56px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    .kb-brand__kicker {
+      display: none;
+    }
+    .kb-nav {
+      display: none;
+      width: 100%;
+      order: 4;
+      flex-direction: column;
+      margin: 0;
+      padding-bottom: 8px;
+    }
+    .kb-nav.open {
+      display: flex;
+    }
+    .kb-search {
+      display: none;
+    }
+    .kb-menu-btn {
+      display: inline-block;
+      margin-left: auto;
+    }
+    .kb-theme-toggle {
+      margin-right: 0;
+    }
+  }
+  .kb-search-pill kbd {
+    font-family: var(--mono);
+    font-size: 10px;
+    background: var(--raised);
+    border: 1px solid var(--rule2);
+    border-radius: 4px;
+    padding: 1px 5px;
+    color: var(--mut);
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var btn = document.getElementById('kb-menu-btn');
+    var nav = document.querySelector('.kb-nav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>

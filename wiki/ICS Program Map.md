@@ -21,7 +21,7 @@ here); this map points to distilled wiki notes only.
 > Stage → wiki mappings are confirmed against the ICS stage pages. Remaining ⚠️ marks are genuine
 > **gaps** — stages with source material but no wiki page yet — left visible as a synthesis backlog.
 
-Related syntheses: [[ICS System]] · [[First Principles of ICS]] · [[How Top Performers Learn]] · [[Minimally Viable Learning System]]
+Related syntheses: [[ICS System]] · [[First Principles of Learning]] · [[How Top Performers Learn]] · [[Minimally Viable Learning System]]
 
 ---
 
@@ -30,7 +30,7 @@ Related syntheses: [[ICS System]] · [[First Principles of ICS]] · [[How Top Pe
 
 ### Introduction
 - [[How Top Performers Learn]]
-- [[First Principles of ICS]]
+- [[First Principles of Learning]]
 - [[ICS System]]
 
 ### Catalyst — *retrieval as the fast win*

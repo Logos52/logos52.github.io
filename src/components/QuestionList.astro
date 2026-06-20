@@ -1,0 +1,44 @@
+---
+export interface Props {
+  items: string[];
+}
+
+const { items } = Astro.props;
+---
+
+<ul class="kb-questions">
+  {items.map((q) => (
+    <li class="q-item">
+      <span class="q-dot" />
+      {q}
+    </li>
+  ))}
+</ul>
+
+<style>
+  .kb-questions {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .q-item {
+    font-family: var(--ming);
+    font-size: 15px;
+    line-height: 1.45;
+    padding-left: 16px;
+    position: relative;
+    color: var(--ink);
+  }
+  .q-dot {
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+</style>

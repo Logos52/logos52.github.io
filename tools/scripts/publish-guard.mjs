@@ -10,7 +10,7 @@
  *   --source   audit ALL tracked .md. Blocks sensitive content in publish-eligible paths;
  *              WARNS about sensitive content in tracked-but-ignored folders (raw-exposed on
  *              GitHub even though un-rendered). Run locally: `npm run guard:source`.
- *   (default)  scan the built `public/` HTML. Run in CI after `quartz build`, before deploy,
+ *   (default)  scan the built `dist/` HTML. Run in CI after `astro build`, before deploy,
  *              to BLOCK a rendered leak from going live. Run locally: `npm run guard`.
  *
  * This is the check that would have caught the 2026-06-01 leak. Keep the HARD list and
@@ -19,6 +19,7 @@
 import { readdirSync, readFileSync, statSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { execFileSync } from "node:child_process";
+import { IGNORE_PATTERNS } from "../../src/lib/ignore-patterns.mjs";
 
 const MODE = process.argv.includes("--staged")
   ? "staged"
@@ -47,22 +48,14 @@ const SOFT = [
 const gitLines = (args) =>
   execFileSync("git", args, { encoding: "utf8" }).split("\n").map((s) => s.trim()).filter(Boolean);
 
-// Private/ignored path prefixes, parsed from quartz.config.ts (single source of truth).
+// Private/ignored path prefixes, derived from the shared denylist (single source of truth:
+// src/lib/ignore-patterns.mjs — replicated 1:1 from the former quartz.config.ts ignorePatterns).
 function privatePrefixes() {
-  let cfg = "";
-  try {
-    cfg = readFileSync("quartz.config.ts", "utf8");
-  } catch {
-    return [];
-  }
-  const block = cfg.match(/ignorePatterns:\s*\[([\s\S]*?)\n\s*\]/);
-  if (!block) return [];
   const noise = new Set([
     "quartz/**", "public/**", "node_modules/**", ".quartz-cache/**",
     ".git/**", ".github/**", ".githooks/**", ".obsidian/**", ".trash/**", "**/.DS_Store",
   ]);
-  return [...block[1].matchAll(/"([^"]+)"/g)]
-    .map((m) => m[1])
+  return IGNORE_PATTERNS
     .filter((p) => !noise.has(p))
     .map((p) => p.replace(/\*\*$/, "").replace(/\*$/, "")); // "PRDs/**" -> "PRDs/", "log.md" stays
 }
@@ -104,7 +97,7 @@ const pass = (msg) => {
 
 // ---------------- public: scan built HTML ----------------
 if (MODE === "public") {
-  if (!existsSync("public")) die("publish-guard: 'public/' not found — build first (npm run build).");
+  if (!existsSync("dist")) die("publish-guard: 'dist/' not found — build first (npm run build).");
   const walk = (dir) => {
     const out = [];
     for (const e of readdirSync(dir)) {
@@ -113,7 +106,7 @@ if (MODE === "public") {
     }
     return out;
   };
-  const files = walk("public");
+  const files = walk("dist");
   const hard = [];
   const soft = [];
   for (const f of files) {
@@ -128,7 +121,7 @@ if (MODE === "public") {
     }
   }
   for (const tag of SENSITIVE_TAGS)
-    if (existsSync(join("public", "tags", tag))) hard.push(`  ✗ sensitive tag page published (#${tag}) — public/tags/${tag}/`);
+    if (existsSync(join("dist", "tags", tag))) hard.push(`  ✗ sensitive tag page published (#${tag}) — dist/tags/${tag}/`);
   if (soft.length) console.warn(`\npublish-guard: ${soft.length} soft warning(s) (not blocking):\n${soft.slice(0, 50).join("\n")}`);
   if (hard.length) die(`\npublish-guard: ✗ BLOCKED — ${hard.length} leak(s) in published output:\n${hard.join("\n")}\n`);
   pass(`publish-guard: ✓ OK — scanned ${files.length} pages; no private/financial content in published output.`);

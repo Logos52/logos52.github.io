@@ -1,0 +1,96 @@
+---
+/**
+ * LocalGraph.astro — "Local graph" sticky-aside rail.
+ * Mirrors the NotePage aside graph block in the DS screens.jsx: a card
+ * (var(--card), --tsg-shadow, 150px tall) holding a 240×150 SVG of the 1–2 hop
+ * neighborhood. Edges are a faint var(--rule2) path; the current node sits center
+ * (r=9, domain-filled, drop-shadow); neighbors are r=5 dots filled by domain.
+ *
+ * Layout is computed server-side (radial fan around center) so it renders static.
+ * An island enhances/redraws it later — it keys off [data-local-graph].
+ */
+import type { GraphData } from '../lib/types';
+
+interface Props {
+  data: GraphData;
+  current: string;
+}
+const { data, current } = Astro.props;
+
+const W = 240;
+const H = 150;
+const CX = 120;
+const CY = 75;
+
+// Current node + its neighbors (capped so the small rail stays legible).
+const currentNode = data.nodes.find((n) => n.slug === current);
+const neighborSlugs = new Set<string>();
+for (const e of data.edges) {
+  if (e.source === current) neighborSlugs.add(e.target);
+  else if (e.target === current) neighborSlugs.add(e.source);
+}
+const neighbors = data.nodes.filter((n) => neighborSlugs.has(n.slug)).slice(0, 6);
+
+// Fan the neighbors around the center on an ellipse so they hug the 240×150 box.
+const RX = 70;
+const RY = 42;
+const placed = neighbors.map((n, i) => {
+  const total = neighbors.length;
+  // Spread across the arc; offset so points avoid stacking straight above/below.
+  const angle = total === 1 ? Math.PI : (Math.PI * 2 * (i + 0.5)) / total - Math.PI / 2;
+  return {
+    node: n,
+    x: +(CX + RX * Math.cos(angle)).toFixed(1),
+    y: +(CY + RY * Math.sin(angle)).toFixed(1),
+  };
+});
+
+const edgePath = placed.map((p) => `M${CX} ${CY} L${p.x} ${p.y}`).join(' ');
+const currentDomain = currentNode?.domain ?? 'gen';
+---
+
+<div class="kb-localgraph-rail">
+  <h3 class="kb-side-h">Local graph</h3>
+  <div class="kb-localgraph-card" data-local-graph data-current={current}>
+    <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Local graph of linked notes">
+      {edgePath && <g stroke="var(--rule2)" stroke-width="1" fill="none"><path d={edgePath} /></g>}
+      {
+        placed.map((p) => (
+          <circle cx={p.x} cy={p.y} r="5" fill={`var(--d-${p.node.domain})`}>
+            <title>{p.node.title}</title>
+          </circle>
+        ))
+      }
+      <circle class="kb-localgraph-current" cx={CX} cy={CY} r="9" fill={`var(--d-${currentDomain})`}>
+        <title>{currentNode?.title ?? 'This note'}</title>
+      </circle>
+    </svg>
+  </div>
+</div>
+
+<style>
+  .kb-side-h {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--mut);
+    margin: 0 0 10px;
+    font-weight: 600;
+  }
+  .kb-localgraph-card {
+    border: 1px solid var(--rule);
+    border-radius: var(--tsg-radius-sm);
+    background: var(--card);
+    height: 150px;
+    overflow: hidden;
+    box-shadow: var(--tsg-shadow);
+  }
+  .kb-localgraph-card svg {
+    width: 100%;
+    height: 100%;
+  }
+  .kb-localgraph-current {
+    filter: drop-shadow(0 1.5px 2px rgba(33, 29, 24, 0.26));
+  }
+</style>

@@ -1,0 +1,171 @@
+{
+  "hero": {
+    "overline": "記憶 · second brain · public",
+    "title": "LLM Knowledge Base",
+    "lede": "Linked notes on learning systems, language study, and software work with LLM agents."
+  },
+  "questions": [
+    "Where should the \"long tail\" live — inside the main wiki with lighter standards, in a parallel compiler layer, or primarily in workbench topic indexes until they earn promotion?",
+    "How much of the lint/audit/cross-ref work should be skill-driven vs. simple scripts vs. occasional Hermes sessions?",
+    "What does \"self-updating\" actually mean in practice for this specific voice and Five Dimensions commitment — nightly digests? On-ingest proposals? Weekly contradiction reports?"
+  ],
+  "todaysRetrieval": {
+    "kind": "Technique · due today",
+    "title": "Choice Throttling",
+    "prompt": "Review and apply this technique in today's session.",
+    "queueCount": 4,
+    "slug": "wiki/Decision-Making/Choice-Throttling"
+  },
+  "trails": [
+    {
+      "kind": "Trail",
+      "title": "Learning, Condensed",
+      "summary": "The entire learning corpus as doctrine: one rule per line, every line linking to the page that owns it. Encoding decides quality; retrieval converts it; regulation keeps both honest.",
+      "domain": "learning",
+      "slug": "wiki/Syntheses/Learning,-Condensed"
+    },
+    {
+      "kind": "Trail",
+      "title": "Chinese Characters, Condensed",
+      "summary": "The character cluster as doctrine: one item with three separately-trained links, components classified by function per character, senses rooted in original meanings, and the two drills — IME recall and three-day pipelining — that run on that structure.",
+      "domain": "language",
+      "slug": "wiki/Language/Chinese/Chinese-Characters,-Condensed"
+    },
+    {
+      "kind": "Trail",
+      "title": "Agentic Engineering, Condensed",
+      "summary": "The agentic engineering corpus as doctrine, split by half-life: invariants expected to survive far more capable models — taste, specs, verification, understanding — and dated tactics stamped 2026-06 and expected to rot.",
+      "domain": "agentic",
+      "slug": "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering,-Condensed"
+    },
+    {
+      "kind": "Trail",
+      "title": "Money, Condensed",
+      "summary": "The money corpus as doctrine: behaviour over intelligence, the savings rate as the one controllable lever, horizon over timing, enough as the win condition, and money as stored life energy whose endpoint is time.",
+      "domain": "gen",
+      "slug": "wiki/Money/Money,-Condensed"
+    },
+    {
+      "kind": "Trail",
+      "title": "Minimalism, Condensed",
+      "summary": "The minimalism corpus as doctrine: bandwidth is the bottleneck, ownership cost beats purchase price, empty space is reserve capacity, exits precede entries, and the environment designs behaviour before willpower.",
+      "domain": "gen",
+      "slug": "wiki/Minimalism/Minimalism,-Condensed"
+    },
+    {
+      "kind": "Trail",
+      "title": "Focus Management - How to Enter & Recover Inside a Work Block",
+      "summary": "System for entering work blocks, noticing drift, and training the return — because every long block includes drift, and recovery speed is what decides whether the block produces.",
+      "domain": "focus",
+      "slug": "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block"
+    }
+  ],
+  "dimensions": [
+    {
+      "kind": "Dimension",
+      "title": "Retrieval",
+      "summary": "Dimension for recall, reconstruction, interleaving, spacing, and transfer — the practice that converts knowledge from something you recognise into something you can use under pressure.",
+      "domain": "learning",
+      "slug": "wiki/Dimensions/Retrieval"
+    },
+    {
+      "kind": "Dimension",
+      "title": "Self-Management",
+      "summary": "Dimension for habits, routines, systems, and environments that make consistent action possible without spending willpower — the five-area toolkit: time, tasks, focus, planning, habit creation.",
+      "domain": "learning",
+      "slug": "wiki/Dimensions/Self-Management"
+    },
+    {
+      "kind": "Dimension",
+      "title": "Self-Regulation",
+      "summary": "Dimension for monitoring, diagnosing, and adjusting the learning process in real time — the steering that keeps every other dimension working under imperfect conditions. Trains on three requirements: metacognition, desirable difficulty, and learning theory.",
+      "domain": "learning",
+      "slug": "wiki/Dimensions/Self-Regulation"
+    },
+    {
+      "kind": "Dimension",
+      "title": "Deep Processing",
+      "summary": "Dimension for encoding quality — connecting, comparing, critiquing, and model-building during learning. The quality of thinking during encoding decides what the memory is made of; the felt effort is the mechanism, not a malfunction.",
+      "domain": "learning",
+      "slug": "wiki/Dimensions/Deep-Processing"
+    },
+    {
+      "kind": "Dimension",
+      "title": "Mindset",
+      "summary": "Dimension for interpreting difficulty, mistakes, effort, and feedback — the filter that decides whether they register as fuel or as evidence against you. Trainable on a horizon of weeks, through engineered low-stakes mistakes, not affirmations.",
+      "domain": "learning",
+      "slug": "wiki/Dimensions/Mindset"
+    }
+  ],
+  "hubs": [
+    {
+      "kind": "Hub",
+      "title": "Money, Condensed",
+      "summary": "The money corpus as doctrine: behaviour over intelligence, the savings rate as the one controllable lever, horizon over timing, enough as the win condition, and",
+      "domain": "gen",
+      "slug": "wiki/Money/Money,-Condensed"
+    },
+    {
+      "kind": "Hub",
+      "title": "Chinese Characters, Condensed",
+      "summary": "The character cluster as doctrine: one item with three separately-trained links, components classified by function per character, senses rooted in original mean",
+      "domain": "language",
+      "slug": "wiki/Language/Chinese/Chinese-Characters,-Condensed"
+    },
+    {
+      "kind": "Hub",
+      "title": "Minimalism, Condensed",
+      "summary": "The minimalism corpus as doctrine: bandwidth is the bottleneck, ownership cost beats purchase price, empty space is reserve capacity, exits precede entries, and",
+      "domain": "gen",
+      "slug": "wiki/Minimalism/Minimalism,-Condensed"
+    },
+    {
+      "kind": "Hub",
+      "title": "Focus Management - How to Enter & Recover Inside a Work Block",
+      "summary": "System for entering work blocks, noticing drift, and training the return — because every long block includes drift, and recovery speed is what decides whether t",
+      "domain": "focus",
+      "slug": "wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block"
+    },
+    {
+      "kind": "Hub",
+      "title": "Claude Fable",
+      "summary": "Operating notes on Claude Fable 5: where it earns its keep, where it fails, and the elicit-first rules for taste-bound work.",
+      "domain": "agentic",
+      "slug": "wiki/Systems/AI--and--Agentic-Systems/Claude-Fable"
+    }
+  ],
+  "landmarkMap": {
+    "nodes": [
+      {
+        "slug": "wiki/Syntheses/Learning,-Condensed",
+        "title": "Learning, Condensed",
+        "domain": "learning"
+      },
+      {
+        "slug": "wiki/Systems/AI--and--Agentic-Systems/Claude-Fable",
+        "title": "Claude Fable",
+        "domain": "agentic"
+      },
+      {
+        "slug": "wiki/Dimensions/Self-Regulation",
+        "title": "Self-Regulation",
+        "domain": "learning"
+      },
+      {
+        "slug": "wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment",
+        "title": "Higher-Order Generativity vs Higher-Order Judgment",
+        "domain": "gen"
+      },
+      {
+        "slug": "wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering,-Condensed",
+        "title": "Agentic Engineering, Condensed",
+        "domain": "agentic"
+      },
+      {
+        "slug": "wiki/Money/Money,-Condensed",
+        "title": "Money, Condensed",
+        "domain": "gen"
+      }
+    ]
+  }
+}

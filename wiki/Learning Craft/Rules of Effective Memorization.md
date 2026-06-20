@@ -71,7 +71,7 @@ Attention, repetition, and interest rank below the encoding four and still decid
 - [[wiki/Dimensions/Retrieval|Retrieval]] - the repetition rule opens into this dimension: spacing, recall practice, interleaving
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] - the house retrieval system the repetition rule plugs into
 - [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]] - the encoding work the four rules describe is exactly the work that must stay in the learner's hands
-- [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] - the study-system frame; these rules operate at its processing-quality level
+- [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]] - the study-system frame; these rules operate at its processing-quality level
 
 ## Sources
 

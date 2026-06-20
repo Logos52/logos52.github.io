@@ -175,4 +175,4 @@ Warning signs:
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]]
+- [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]]

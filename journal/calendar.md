@@ -311,7 +311,7 @@ Added Current Focus cues to [[journal/index|Journal]] and [[index|Home]] so the 
 Current focus pages:
 
 - [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]
-- [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]]
+- [[wiki/Syntheses/First Principles of Learning|First Principles of ICS]]
 - [[wiki/Syntheses/ICS System|ICS System]]
 - [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
 - [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]
@@ -332,7 +332,7 @@ The highest-value work centered on the Live Clinics:
 - GPT Live Clinic 71
 - GPT Live Clinic 72
 
-These outputs later became the foundation for [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] and [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]].
+These outputs later became the foundation for [[wiki/Syntheses/First Principles of Learning|First Principles of ICS]] and [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]].
 
 Added [[private/Goals/Priority 0|Priority 0]] as a public focus-primer page for active identity sets: Agentic Engineering, Learning Systems, Vietnamese, 中文, Fitness, and Relationships.
 

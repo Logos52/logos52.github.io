@@ -1,0 +1,310 @@
+---
+/**
+ * Note.astro — the per-note page layout.
+ * Replicates the DS NotePage (ui_kits/knowledge-base/screens.jsx): a two-column
+ * grid `minmax(0,1fr) 240px` inside the 1080px container, with
+ *   left  = <article data-pagefind-body> : mono breadcrumb, Ming <h1>, meta row
+ *           (domain-colored pill type tag + "updated …"), then the prose <slot/>
+ *           in the Ming serif at max ~64ch.
+ *   right = sticky aside rail (top:80px) = Toc + Backlinks + LocalGraph, 24px gap.
+ *
+ * Wraps Base (which owns <html data-accent="violet">, the DS css imports, the
+ * no-flash theme script, Chrome + Footer). All tokens are DS custom properties.
+ */
+import Base from './Base.astro';
+import Toc from '../components/Toc.astro';
+import Backlinks from '../components/Backlinks.astro';
+import Constellation from '../components/Constellation.astro';
+import type { Domain, GraphData, Backlink } from '../lib/types';
+
+interface Heading {
+  depth: number;
+  text: string;
+  slug: string;
+}
+
+interface Props {
+  title: string;
+  type?: string;
+  updated?: string;
+  domain: Domain | string;
+  slug: string;
+  headings: Heading[];
+  backlinks: Backlink[];
+  /** Unused now — the local graph slices /graph.json client-side. Kept so callers don't break. */
+  local?: GraphData;
+  active?: string;
+}
+
+const { title, type, updated, domain, slug, headings, backlinks, active } = Astro.props;
+
+// Breadcrumb from the folder slug: "wiki/Concepts/Higher-Order-Generativity" →
+// "wiki / Concepts / Higher-Order Generativity" (DS .crumb / NotePage breadcrumb).
+const crumbParts = slug
+  .replace(/^\/+/, '')
+  .replace(/\/+$/, '')
+  .split('/')
+  .filter(Boolean)
+  .map((p) => p.replace(/-/g, ' '));
+const breadcrumb = crumbParts.length ? crumbParts.join(' / ') : title;
+
+const domainVar = `var(--d-${domain})`;
+const hasAside = true; // the local graph always renders its own neighborhood
+---
+
+<Base title={title} description={updated ? `Updated ${updated}` : undefined} active={active}>
+  <main class="kb-note-main">
+    <div class="kb-note-grid">
+      <article
+        data-pagefind-body
+        data-pagefind-meta={`domain:${domain}`}
+        data-pagefind-meta={`title:${title}`}
+      >
+        <div class="kb-crumb">{breadcrumb}</div>
+        <h1 class="kb-note-title">{title}</h1>
+        <div class="kb-note-meta">
+          {
+            type && (
+              <span class="kb-type-tag" style={`border-color:${domainVar};color:${domainVar}`}>
+                {type}
+              </span>
+            )
+          }
+          {updated && <span>updated {updated}</span>}
+        </div>
+        <div class="kb-prose">
+          <slot />
+        </div>
+      </article>
+
+      {
+        hasAside && (
+          <aside class="kb-note-aside">
+            <Toc headings={headings} />
+            <Backlinks items={backlinks} />
+            <div class="kb-localgraph-wrap">
+              <h3 class="kb-side-h">Local graph</h3>
+              <Constellation mode="local" seeds={[slug]} hops={2} height="210px" />
+            </div>
+          </aside>
+        )
+      }
+    </div>
+  </main>
+</Base>
+
+<style>
+  .kb-note-main {
+    flex: 1;
+  }
+  .kb-note-grid {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 34px 32px 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 240px;
+    gap: 44px;
+  }
+
+  /* breadcrumb — DS .crumb / NotePage breadcrumb */
+  .kb-crumb {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    color: var(--faint);
+    text-transform: uppercase;
+  }
+
+  /* title — Ming 34/600 */
+  .kb-note-title {
+    font-family: var(--ming);
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin: 12px 0 0;
+    color: var(--ink);
+  }
+
+  /* meta row — mono uppercase, domain-colored pill + updated */
+  .kb-note-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-top: 14px;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--faint);
+  }
+  .kb-type-tag {
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    padding: 2px 9px;
+  }
+
+  /* prose body — Ming serif, 16.5/1.75, max ~64ch */
+  .kb-prose {
+    margin-top: 24px;
+    font-family: var(--ming);
+    font-size: 16.5px;
+    line-height: 1.75;
+    color: var(--ink);
+    max-width: 64ch;
+  }
+
+  /* sticky aside rail */
+  .kb-note-aside {
+    position: sticky;
+    top: 80px;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .kb-localgraph-wrap .kb-side-h {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--mut);
+    margin: 0 0 10px;
+    font-weight: 600;
+  }
+
+  @media (max-width: 880px) {
+    .kb-note-grid {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 28px;
+    }
+    .kb-note-aside {
+      position: static;
+    }
+  }
+</style>
+
+<style is:global>
+  /* Markdown prose styling inside the note article — replicates the DS
+     NotePage .abody descendants (screens.jsx / styles.html .abody*). Scoped to
+     .kb-prose so it only touches rendered note content. */
+  .kb-prose > :first-child {
+    margin-top: 0;
+  }
+  /* The layout already renders the canonical title (.kb-note-title) above the prose; hide whatever
+     title the markdown body carries (a leading <h1>, or the legacy .hub-page-title block) so a note
+     shows exactly ONE title. */
+  .kb-prose > h1,
+  .kb-prose > .hub-page-title {
+    display: none;
+  }
+  .kb-prose p {
+    margin: 0 0 18px;
+  }
+  .kb-prose h2 {
+    font-family: var(--ming);
+    font-size: 21px;
+    font-weight: 600;
+    margin: 30px 0 10px;
+    color: var(--ink);
+  }
+  .kb-prose h3 {
+    font-family: var(--ming);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 24px 0 8px;
+    color: var(--ink);
+  }
+  .kb-prose i,
+  .kb-prose em {
+    font-weight: 500;
+  }
+  /* wikilink / internal link — DS .abody a.wl */
+  .kb-prose a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in oklab, var(--accent) 35%, transparent);
+  }
+  .kb-prose a:hover {
+    border-bottom-color: var(--accent);
+  }
+  /* pull quote — DS .pq / NotePage blockquote */
+  .kb-prose blockquote {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-soft);
+    border-radius: 0 var(--tsg-radius-sm) var(--tsg-radius-sm) 0;
+    padding: 14px 20px;
+    margin: 24px 0;
+    font-family: var(--ming);
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .kb-prose blockquote p {
+    margin: 0;
+  }
+  .kb-prose ul,
+  .kb-prose ol {
+    margin: 0 0 18px;
+    padding-left: 1.4em;
+  }
+  .kb-prose li {
+    margin: 0 0 6px;
+  }
+  .kb-prose code {
+    font-family: var(--mono);
+    font-size: 0.86em;
+    background: var(--raised);
+    border-radius: 4px;
+    padding: 1px 5px;
+  }
+  .kb-prose pre {
+    background: var(--raised);
+    border: 1px solid var(--rule2);
+    border-radius: var(--tsg-radius-sm);
+    padding: 14px 16px;
+    overflow-x: auto;
+  }
+  .kb-prose pre code {
+    background: none;
+    padding: 0;
+  }
+  .kb-prose hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 28px 0;
+  }
+  .kb-prose img {
+    max-width: 100%;
+    border-radius: var(--tsg-radius-sm);
+  }
+  .kb-prose table {
+    border-collapse: collapse;
+    font-family: var(--sans);
+    font-size: 13.5px;
+    margin: 0 0 18px;
+  }
+  .kb-prose th,
+  .kb-prose td {
+    border: 1px solid var(--rule2);
+    padding: 7px 12px;
+    text-align: left;
+  }
+  .kb-prose th {
+    background: var(--raised);
+  }
+  /* in-prose callout — DS .callout (sans, muted) */
+  .kb-prose .callout {
+    border: 1px solid var(--rule2);
+    background: var(--paper);
+    border-radius: var(--tsg-radius-sm);
+    padding: 14px 18px;
+    margin: 22px 0;
+    font-family: var(--sans);
+    font-size: 13.5px;
+    color: var(--mut);
+  }
+  .kb-prose .callout b {
+    color: var(--ink);
+  }
+</style>

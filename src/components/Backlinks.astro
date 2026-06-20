@@ -1,0 +1,64 @@
+---
+/**
+ * Backlinks.astro — "Backlinks · N" sticky-aside panel.
+ * Mirrors the NotePage aside backlinks block in the DS screens.jsx: mono uppercase
+ * heading with the count, each entry a title link (var(--ink)) with a hairline
+ * bottom rule and a faint context line below it.
+ */
+import type { Backlink } from '../lib/types';
+
+interface Props {
+  items: Backlink[];
+}
+const { items } = Astro.props;
+const slugToHref = (slug: string) => '/' + slug.replace(/^\/+/, '').replace(/\/+$/, '') + '/';
+---
+
+{
+  items.length > 0 && (
+    <section class="kb-backlinks" aria-label="Backlinks">
+      <h3 class="kb-side-h">Backlinks · {items.length}</h3>
+      <div class="kb-backlinks-list">
+        {items.map((b) => (
+          <a href={slugToHref(b.slug)} class="kb-backlink">
+            {b.title}
+            {b.context && <span class="kb-backlink-ctx">{b.context}</span>}
+          </a>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .kb-side-h {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--mut);
+    margin: 0 0 10px;
+    font-weight: 600;
+  }
+  .kb-backlinks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .kb-backlink {
+    font-size: 13px;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 7px;
+  }
+  .kb-backlink:hover {
+    color: var(--accent);
+  }
+  .kb-backlink-ctx {
+    display: block;
+    font-size: 11px;
+    color: var(--faint);
+    margin-top: 2px;
+  }
+</style>

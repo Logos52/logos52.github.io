@@ -1,0 +1,180 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { deriveTitle } from '../lib/note';
+import { slugToUrl } from '../lib/slug';
+
+type Status = 'current' | 'past';
+
+// Owner-set priority order (most important first); the rest fall back to frontmatter `order`.
+const PRIORITY = ['projects/tsumugu-ed', 'projects/llm-knowledge-base', 'projects/wnac'];
+const rank = (slug: string) => {
+  const i = PRIORITY.indexOf(slug);
+  return i === -1 ? 99 : i;
+};
+
+const raw = (await getCollection('notes')).filter(
+  (n) => n.id.startsWith('projects/') && n.id !== 'projects/index' && n.data.type === 'project',
+);
+
+const projects = raw
+  .map((n) => {
+    const fm = n.data as Record<string, unknown>;
+    const rawStatus = String(fm.status ?? 'current').toLowerCase();
+    const status: Status =
+      rawStatus.startsWith('current') || rawStatus.startsWith('active') ? 'current' : 'past';
+    const stack = Array.isArray(fm.stack) ? fm.stack.map(String) : fm.stack ? [String(fm.stack)] : [];
+    const order = typeof fm.order === 'number' ? fm.order : 99;
+    const image = typeof fm.image === 'string' ? fm.image : '';
+    return {
+      slug: n.id,
+      title: deriveTitle(n.data, n.id, n.body),
+      blurb: String(fm.blurb ?? fm.description ?? ''),
+      status,
+      stack,
+      order,
+      image,
+      href: slugToUrl(n.id),
+    };
+  })
+  .sort((a, b) => rank(a.slug) - rank(b.slug) || a.order - b.order || a.title.localeCompare(b.title));
+
+const groups: { key: Status; label: string }[] = [
+  { key: 'current', label: 'Current' },
+  { key: 'past', label: 'Archived' },
+];
+---
+
+<Base title="Projects" description="Projects built around learning systems, agentic engineering, and personal tooling." active="projects">
+  <main class="projects-page">
+    <div class="wrap">
+      <header class="head">
+        <h1>Projects</h1>
+        <p>Built around learning systems, agentic engineering, and personal tooling.</p>
+      </header>
+      {groups.map((g) => {
+        const items = projects.filter((p) => p.status === g.key);
+        if (!items.length) return null;
+        return (
+          <section class="group">
+            <h2>{g.label}</h2>
+            <div class="grid">
+              {items.map((p) => (
+                <a class="card" href={p.href}>
+                  {p.image && (
+                    <div class="card__media">
+                      <img src={`/${p.image}`} alt={`${p.title} screenshot`} loading="lazy" />
+                    </div>
+                  )}
+                  <h3>{p.title}</h3>
+                  <p>{p.blurb}</p>
+                  {p.stack.length > 0 && (
+                    <div class="stack">
+                      {p.stack.map((s) => (
+                        <span class="tag">{s}</span>
+                      ))}
+                    </div>
+                  )}
+                </a>
+              ))}
+            </div>
+          </section>
+        );
+      })}
+    </div>
+  </main>
+</Base>
+
+<style>
+  .wrap {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 0 28px 40px;
+  }
+  .head {
+    padding: 34px 0 12px;
+  }
+  .head h1 {
+    font-family: var(--ming);
+    font-size: 32px;
+    margin: 0;
+  }
+  .head p {
+    margin: 8px 0 0;
+    color: var(--mut);
+    font-size: 14px;
+  }
+  .group {
+    margin: 28px 0 0;
+  }
+  .group h2 {
+    font-family: var(--ming);
+    font-size: 20px;
+    margin: 0 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .grid {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid var(--rule2);
+    border-radius: var(--tsg-radius);
+    padding: 16px 18px;
+    background: var(--card);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--tsg-shadow);
+    transition: transform 0.12s var(--ease-standard), border-color 0.12s;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+  }
+  .card__media {
+    margin: -16px -18px 0;
+    overflow: hidden;
+    border-radius: var(--tsg-radius) var(--tsg-radius) 0 0;
+    border-bottom: 1px solid var(--rule);
+    aspect-ratio: 16 / 10; /* uniform screenshot size — crop, don't letterbox */
+  }
+  .card__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+  }
+  .card h3 {
+    margin: 0;
+    font-family: var(--ming);
+    font-size: 17px;
+    color: var(--accent);
+  }
+  .card p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--mut);
+  }
+  .stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: auto;
+    padding-top: 6px;
+  }
+  .tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--faint);
+    border: 1px solid var(--rule2);
+    border-radius: 4px;
+    padding: 2px 6px;
+  }
+</style>

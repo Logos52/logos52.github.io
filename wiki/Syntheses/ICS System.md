@@ -109,7 +109,7 @@ The loop depends on [[wiki/Concepts/The Technique Is Only as Good as the Thinkin
 
 Two high-value synthesis pages sharpen the control layer of the system:
 
-- [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] explains the hierarchy underneath the toolkit: processing quality, strategies, and meta-strategies. Its main use is learning how to convert overwhelm into questions instead of retreating into lower-order habits.
+- [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]] explains the hierarchy underneath the toolkit: processing quality, strategies, and meta-strategies. Its main use is learning how to convert overwhelm into questions instead of retreating into lower-order habits.
 - [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] explains how to judge whether a technique is actually working. The visible method is not the result; the thinking triggered by the method is the result-producing layer.
 
 Together, they define the most important self-correction move in ICS: when a strategy feels hard or results stay flat, inspect the thinking being triggered before blaming the technique.

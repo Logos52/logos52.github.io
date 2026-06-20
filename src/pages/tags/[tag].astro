@@ -1,0 +1,105 @@
+---
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+import Base from '../../layouts/Base.astro';
+import NoteCard from '../../components/NoteCard.astro';
+import { deriveTitle, deriveSummary } from '../../lib/note';
+import { resolveDomain } from '../../lib/domain';
+import { simplifySlug, slugToUrl } from '../../lib/slug';
+
+export const getStaticPaths = (async () => {
+  // Mirror publish-guard.mjs — never emit tag index pages for sensitive tags.
+  const sensitive = new Set([
+    'finances',
+    'budget',
+    'money',
+    'private',
+    'secret',
+    'secrets',
+    'salary',
+    'networth',
+  ]);
+  const notes = await getCollection('notes');
+  const tags = new Map<string, typeof notes>();
+  for (const n of notes) {
+    if (simplifySlug(n.id) === '/') continue;
+    const list = Array.isArray(n.data.tags) ? n.data.tags : [];
+    for (const tag of list) {
+      const key = String(tag).trim().toLowerCase();
+      if (!key || sensitive.has(key)) continue;
+      const bucket = tags.get(key) ?? [];
+      bucket.push(n);
+      tags.set(key, bucket);
+    }
+  }
+  return [...tags.entries()].map(([tag, entries]) => ({
+    params: { tag },
+    props: {
+      tag,
+      entries: entries
+        .map((n) => ({
+          slug: n.id,
+          title: deriveTitle(n.data, n.id, n.body),
+          summary: deriveSummary(n.data, n.body),
+          domain: resolveDomain(n.id),
+          kind: typeof n.data.type === 'string' ? n.data.type : 'Note',
+        }))
+        .sort((a, b) => a.title.localeCompare(b.title)),
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+const { tag, entries } = Astro.props as {
+  tag: string;
+  entries: { slug: string; title: string; summary: string; domain: string; kind: string }[];
+};
+---
+
+<Base title={`#${tag}`} description={`Notes tagged ${tag}.`} active="notes">
+  <main class="tag-page">
+    <div class="wrap">
+      <header class="head">
+        <h1>#{tag}</h1>
+        <p>{entries.length} note{entries.length === 1 ? '' : 's'}</p>
+      </header>
+      <div class="cardgrid">
+        {entries.map((n) => (
+          <NoteCard
+            title={n.title}
+            summary={n.summary}
+            kind={n.kind}
+            domain={n.domain}
+            href={slugToUrl(n.slug)}
+          />
+        ))}
+      </div>
+    </div>
+  </main>
+</Base>
+
+<style>
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 32px 36px;
+  }
+  .head {
+    padding: 34px 0 12px;
+  }
+  .head h1 {
+    font-family: var(--mono);
+    font-size: 28px;
+    margin: 0;
+    color: var(--accent);
+  }
+  .head p {
+    margin: 8px 0 0;
+    font-size: 13px;
+    color: var(--faint);
+  }
+  .cardgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
+    gap: 12px;
+  }
+</style>

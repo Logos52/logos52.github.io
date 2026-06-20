@@ -1,0 +1,65 @@
+---
+import { DOMAINS } from '../lib/types';
+import type { Domain } from '../lib/types';
+
+export interface Props {
+  label: string;
+  domain?: Domain;
+  color?: string;
+  /** Tabler icon class, e.g. "ti-brain" (the page must import the Tabler webfont CSS). */
+  icon?: string;
+  /** When set, the chip is a link (e.g. the domain MOC page) instead of a toggle button. */
+  href?: string;
+  active?: boolean;
+}
+
+const { label, domain, color, icon, href, active = false } = Astro.props;
+const Tag = href ? 'a' : 'button';
+const hue =
+  color ?? (domain && (DOMAINS as readonly string[]).includes(domain) ? `var(--d-${domain})` : 'var(--accent)');
+---
+
+<Tag
+  href={href}
+  type={href ? undefined : 'button'}
+  class="kb-domainchip"
+  aria-pressed={href ? undefined : active}
+  data-domain={domain}
+  style={`--chip-hue:${hue};${
+    active
+      ? `color:var(--paper);background:${hue};border-color:${hue};`
+      : `background:color-mix(in oklab, ${hue} 10%, var(--card));border-color:color-mix(in oklab, ${hue} 26%, var(--rule));`
+  }`}
+>
+  {icon && <i class={`ti ${icon}`} style={`color:${active ? 'var(--paper)' : hue}`} aria-hidden="true"></i>}
+  <span>{label}</span>
+</Tag>
+
+<style>
+  .kb-domainchip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    font-family: var(--sans);
+    font-size: 11.5px;
+    font-weight: 500;
+    color: var(--mut); /* faint label by default */
+    border: 1px solid var(--rule2);
+    background: var(--card);
+    border-radius: var(--tsg-radius-pill);
+    padding: 3px 11px 3px 8px;
+    cursor: pointer;
+    transition:
+      background var(--dur-fast) var(--ease-standard),
+      color var(--dur-fast) var(--ease-standard),
+      border-color var(--dur-fast) var(--ease-standard);
+  }
+  .kb-domainchip i.ti {
+    font-size: 13px;
+    line-height: 1;
+  }
+  .kb-domainchip:hover {
+    border-color: var(--chip-hue);
+  }
+</style>

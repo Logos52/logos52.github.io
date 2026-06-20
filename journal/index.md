@@ -7,7 +7,7 @@ aliases:
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-06-18
+updated: 2026-06-19
 openQuestions:
   - "Which tsumugu-ed feature earns the next build pass — example sentences, phonetic-family browse, or the 手寫 / handwriting layer?"
   - "What in the vault workflow is generativity I can hand off versus judgment I must keep?"
@@ -29,6 +29,8 @@ What's moving through the knowledge base right now: active projects, open questi
 
 ## Recent entries
 
+- [[journal/2026-06-19-dictionary-site-reskin-analytics-facets|2026-06-19]] — Dictionary site: both handoff PRDs implemented against the Python generator — Paper & Ink reskin (16/12/8 radii, whisper shadows, cursive 纺 wordmark, subtle/uniform heading accents — the kaiti swap was making them read oversized), config-driven analytics + GSC hooks (Cloudflare Web Analytics chosen, sitemap submitted), English-only lock (VI removed reversibly; one-line nav; horizontal story cards), and a properly-built search facet (empty-state browse + A1–C1 band fix + frequency chips). Committed `6ede381a`, pushed `origin/vi/data` (private backup). Live deploy still pending — `main` is corpus-only, the site code lives on `vi/data`, and deploy is a separate step.
+- [[journal/2026-06-19-example-sentences-bakeoff-and-opus-recipe|2026-06-19]] — A1 example-sentence pass: a 2-round, 4-model bakeoff (開打過) picked Claude Code Opus as author and ruled out Grok/Composer/Qwen-3B as too lazy (padding, fragments, a Simplified-char slip); recipe v3 makes variety structural — each of 5 sentences a distinct collocation, length by spread not a magic minimum; band-purity demoted to advisory after the band tool mis-ranked 打電話 as TOCFL-6. PRD-Example-Sentences-v2 + Opus run order.
 - [[journal/2026-06-17-Tesla-Deep-Dive-Stock-Optimus-Robotaxi-AI-Future|2026-06-17]] — Tesla Deep Dive (parallel to SpaceX): stock/valuation context, Optimus robot production timelines, Robotaxi/Cybercab, energy/AI, 1/5/10-year projections on autonomy and robotics.
 - [[journal/2026-06-17-tsumugu-ed-composer-batch-and-backlog|2026-06-17]] — Tsumugu-ed: Composer maintenance batch complete (validation green, zhuyin cross-check clean); backlog recorded (example sentences, phonetic browse, handwriting lane, register lint).
 - [[journal/2026-06-12-SpaceX-IPO-Stock-Craze-Future-Vision|2026-06-12]] — Addendum filed (2026-06-17): 1/5/10-year projections for Starship cadence, orbital AI data centers (1 GW end-2027 ramp), Moon base priority, Optimus robots, revenue scenarios ($25-50B 1yr; $150-500B 5yr; hundreds of B to trillions 10yr).

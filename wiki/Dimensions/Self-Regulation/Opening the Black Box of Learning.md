@@ -111,7 +111,7 @@ The goal is to discover where the system breaks before high-stakes situations fo
 - [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] — opening the black box is advanced prestudy applied to your own learning system
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — the diagnostic process strengthens the Aim phase when your current map is no longer sufficient
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — the core skill required to notice signals and make precise adjustments
-- [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] — making processing quality visible instead of leaving it inside the black box
+- [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]] — making processing quality visible instead of leaving it inside the black box
 - [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] — stress-testing by adding load is a form of deliberate interleaving with real constraints
 - [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] — many techniques fail silently because the underlying process variable remains hidden
 

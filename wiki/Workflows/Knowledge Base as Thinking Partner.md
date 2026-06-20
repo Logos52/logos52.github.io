@@ -88,7 +88,7 @@ Do not start from scratch.
 
 Read the pages that are already adjacent to the problem. Use the graph, index, backlinks, and obvious links.
 
-For learning questions, start with [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]], [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]], [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]], and [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]].
+For learning questions, start with [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]], [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]], [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]], and [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]].
 
 For execution questions, start with [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]], [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]], [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]], and [[wiki/Decision Making/Decisional Delays|Decisional Delays]].
 
