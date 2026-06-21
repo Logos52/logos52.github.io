@@ -301,6 +301,7 @@ Resource count: 137 linked rows after de-duplication.
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Dimension Practice Tracks|Dimension Practice Tracks]]
+- [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]] - for learners who speak Vietnamese, the Sino-Vietnamese head start on Mandarin readings and meanings.
 
 ## Open Questions
 

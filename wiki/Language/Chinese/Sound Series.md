@@ -72,6 +72,7 @@ Sound change splits formerly identical initials, so some series straddle two gro
 - [[wiki/Language/Chinese/The IME Method|The IME Method]] - series-based pronunciation guesses feed its guided-guessing recall protocol.
 - [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]] - the intake schedule whose spoken-word days draw on series knowledge.
 - [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] - the fence principle and derive-rather-than-store rule, generalized beyond characters.
+- [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]] - the same sound-family reasoning across languages, predicting Mandarin from a Vietnamese reader's Sino-Vietnamese readings.
 
 ## Sources
 
