@@ -26,6 +26,9 @@ const projects = raw
     const stack = Array.isArray(fm.stack) ? fm.stack.map(String) : fm.stack ? [String(fm.stack)] : [];
     const order = typeof fm.order === 'number' ? fm.order : 99;
     const image = typeof fm.image === 'string' ? fm.image : '';
+    // A project may override its card link (e.g. point at a standalone HTML page in public/) via
+    // frontmatter `cardHref`; otherwise the card opens the note page.
+    const cardHref = typeof fm.cardHref === 'string' && fm.cardHref ? fm.cardHref : '';
     return {
       slug: n.id,
       title: deriveTitle(n.data, n.id, n.body),
@@ -34,7 +37,7 @@ const projects = raw
       stack,
       order,
       image,
-      href: slugToUrl(n.id),
+      href: cardHref || slugToUrl(n.id),
     };
   })
   .sort((a, b) => rank(a.slug) - rank(b.slug) || a.order - b.order || a.title.localeCompare(b.title));

@@ -10,9 +10,10 @@
   "scripts": {
     "copy-notes": "node scripts/copy-public-notes.mjs",
     "copy-assets": "node scripts/copy-assets.mjs",
-    "predev": "npm run copy-notes && npm run copy-assets",
+    "sync:tsumugu": "node scripts/sync-tsumugu-status.mjs",
+    "predev": "npm run copy-notes && npm run copy-assets && npm run sync:tsumugu",
     "dev": "astro dev",
-    "prebuild": "node scripts/update-notes-count.mjs && npm run copy-notes && npm run copy-assets",
+    "prebuild": "node scripts/update-notes-count.mjs && npm run copy-notes && npm run copy-assets && npm run sync:tsumugu",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",

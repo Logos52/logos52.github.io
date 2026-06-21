@@ -8,8 +8,9 @@ stack:
 order: 3
 blurb: "A Chinese dictionary built on form and story."
 image: projects/tsumugu-ed.png
+cardHref: "/projects/tsumugu-ed-status.html"
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-21
 tags:
   - projects
   - tsumugu
@@ -28,6 +29,7 @@ Deployed to custom domain 2026-06-15. Validation passes (unique IDs across entri
 
 ## Links
 
+- **Project status dashboard:** [view the live build-out tracker](/projects/tsumugu-ed-status.html) — done / in-progress / not-started across every content lane (snapshot 2026-06-21).
 - **Live site:** https://tsumugu-ed.com
 - **Main Tsumugu project (reader, wiki, engine):** [[projects/tsumugu]]
 - **Dictionary custody decision:** [[journal/2026-06-11-tsumugu-dictionary-custody-and-display]]

@@ -25,6 +25,7 @@ const noteFrontmatter = z
     order: z.number().optional(),
     image: z.string().optional(),
     blurb: z.string().optional(),
+    cardHref: z.string().optional(), // projects index: override the card link (e.g. a standalone HTML page in public/)
     draft: z.boolean().optional(),
     aliases: looseStringList,
     description: z.string().optional(),
