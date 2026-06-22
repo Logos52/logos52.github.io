@@ -7,7 +7,7 @@ aliases:
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-06-19
+updated: 2026-06-22
 openQuestions:
   - "Which tsumugu-ed feature earns the next build pass — example sentences, phonetic-family browse, or the 手寫 / handwriting layer?"
   - "What in the vault workflow is generativity I can hand off versus judgment I must keep?"
@@ -27,6 +27,7 @@ tags:
 
 ## Recent entries
 
+- [[journal/2026-06-22-ulysses-design-philosophy-for-tsumugu-ed|2026-06-22]] — Ulysses design philosophy → tsumugu-ed: we already hold the spine (semantic `entry@1`, the swappable `data-*` toggle layer, content-first search); the fault line is authoring vs reading, so we keep recede-the-chrome and content/presentation separation and drop strip-all-meaning minimalism. Actioning six (VI Simplified Stories, static family pages, realm switcher, Cmd/Ctrl-K search, facets→URL hash, Reader Calm); print-as-export out (scraping risk, met instead by a light reader theme) and the "why it's free" manifesto out (let the content carry it). 7-agent grounded workflow.
 - [[journal/2026-06-19-dictionary-site-reskin-analytics-facets|2026-06-19]] — Dictionary site: both handoff PRDs implemented against the Python generator — Paper & Ink reskin (16/12/8 radii, whisper shadows, cursive 纺 wordmark, subtle/uniform heading accents — the kaiti swap was making them read oversized), config-driven analytics + GSC hooks (Cloudflare Web Analytics chosen, sitemap submitted), English-only lock (VI removed reversibly; one-line nav; horizontal story cards), and a properly-built search facet (empty-state browse + A1–C1 band fix + frequency chips). Committed `6ede381a`, pushed `origin/vi/data` (private backup). Live deploy still pending — `main` is corpus-only, the site code lives on `vi/data`, and deploy is a separate step.
 - [[journal/2026-06-19-simplified-edition-and-vn-toggle|2026-06-19]] — Simplified edition decided: hard T/S toggle (Vietnamese-style, self-contained, no cross-learning), Simplified stories authored fresh from the Simplified components (过 = 辶 + 寸, no Traditional reference), glyph-only v1; 982/2,662 chars differ (377 in A1+A2), Opus authors + Composer offloaded the IDS component cribs. Plus the EN/VN gloss toggle reinstated on the public site (it had been built then retired) with missing-vi rendered blank.
 - [[journal/2026-06-19-example-sentences-bakeoff-and-opus-recipe|2026-06-19]] — A1 example-sentence pass: a 2-round, 4-model bakeoff (開打過) picked Claude Code Opus as author and ruled out Grok/Composer/Qwen-3B as too lazy (padding, fragments, a Simplified-char slip); recipe v3 makes variety structural — each of 5 sentences a distinct collocation, length by spread not a magic minimum; band-purity demoted to advisory after the band tool mis-ranked 打電話 as TOCFL-6. PRD-Example-Sentences-v2 + Opus run order.
