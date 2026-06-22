@@ -114,9 +114,9 @@
   </nav>
 
   <header class="hd">
-    <div class="eyebrow">Status · 2026-06-21</div>
+    <div class="eyebrow">Status · 2026-06-22</div>
     <h1>Tsumugu Encoding Dictionary</h1>
-    <p class="lede">9,663 entries across TOCFL A1–C2: 2,662 characters and 7,001 words, plus 515 grammar patterns. Two authoring lanes stay open: word example sentences, and Vietnamese for the Simplified stories.</p>
+    <p class="lede">9,663 entries across TOCFL A1–C2: 2,662 characters and 7,001 words, plus 515 grammar patterns. The 繁/简 script toggle and the Hán-Việt bridge render now ship across the whole site. Two authoring lanes stay open: word example sentences, and Vietnamese for the Simplified stories.</p>
 
     <div class="stats">
       <div class="stat"><div class="n">100%</div><div class="l">Traditional encoding (chars + words)</div></div>
@@ -138,13 +138,16 @@
   <section>
     <div class="seclab"><h2>Lanes</h2><span class="cnt">17 tracked</span></div>
     <div class="card">
-      <div class="grp"><span class="gl">Done</span><span class="gc">6</span></div>
+      <div class="grp"><span class="gl">Done</span><span class="gc">9</span></div>
       <div class="row"><span class="st done">✓</span><div class="rmain"><div class="rt">Traditional character encoding</div><div class="rs">Form, story, composition on every character</div></div><span class="rnum">2,662 / 2,662</span></div>
       <div class="row"><span class="st done">✓</span><div class="rmain"><div class="rt">Word entries authored</div><div class="rs">All TOCFL A1–C1 words</div></div><span class="rnum">7,001 / 7,001</span></div>
       <div class="row"><span class="st done">✓</span><div class="rmain"><div class="rt">Vietnamese (characters)</div><div class="rs"><code>definition.vi</code> on every character</div></div><span class="rnum">2,662 / 2,662</span></div>
       <div class="row"><span class="st done">✓</span><div class="rmain"><div class="rt">Vietnamese (words)</div><div class="rs">The paused VI campaign, finished</div></div><span class="rnum">7,001 / 7,001</span></div>
       <div class="row"><span class="st done">✓</span><div class="rmain"><div class="rt">Simplified character encoding</div><div class="rs">Fresh stories from Simplified components, every differing char</div></div><span class="rnum">982 / 982</span></div>
-      <div class="row"><span class="st done">✓</span><div class="rmain"><div class="rt">EN / VI gloss toggle</div><div class="rs">VI-lock CSS bug fixed; code done, pending push and deploy</div></div><span class="rnum">shipped</span></div>
+      <div class="row"><span class="st done">✓</span><div class="rmain"><div class="rt">EN / VI gloss toggle</div><div class="rs">VI-lock CSS bug fixed; shipped and deployed</div></div><span class="rnum">shipped</span></div>
+      <div class="row"><span class="st done">✓</span><div class="rmain"><div class="rt">繁 / 简 script toggle</div><div class="rs">Entries, grammar, and UI chrome all convert; authored Simplified stories render; 53,117-string offline render map; search resolves either script</div></div><span class="rnum">shipped</span></div>
+      <div class="row"><span class="st done">✓</span><div class="rmain"><div class="rt">Hán-Việt bridge render</div><div class="rs">Staged entry card — VI-only bridge rail + inverted sound-family folded into the FORM card; collapses cleanly in EN</div></div><span class="rnum">shipped</span></div>
+      <div class="row"><span class="st done">✓</span><div class="rmain"><div class="rt">Pinyin / 注音 reading toggle</div><div class="rs">拼/ㄅ toggle, default pinyin; search rows honor it</div></div><span class="rnum">shipped</span></div>
 
       <div class="grp"><span class="gl">In progress</span><span class="gc">4</span></div>
       <div class="row"><span class="st wip">◐</span><div class="rmain"><div class="rt">Example sentences (characters)</div><div class="rs">133 left</div></div><div class="barwrap"><div class="bar"><i style="width:95%"></i></div><div class="pct">95%</div></div></div>
@@ -152,11 +155,12 @@
       <div class="row"><span class="st wip">◐</span><div class="rmain"><div class="rt">Vietnamese on example sentences</div><div class="rs">Rides with example authoring; every char with examples carries <code>vi</code></div></div><div class="barwrap"><div class="bar"><i style="width:95%"></i></div><div class="pct">95%</div></div></div>
       <div class="row"><span class="st wip">◐</span><div class="rmain"><div class="rt">Audio / TTS</div><div class="rs">Manifest exists; per-word and per-sentence wiring pending</div></div><div class="barwrap"><div class="bar"><i style="width:18%"></i></div><div class="pct">partial</div></div></div>
 
-      <div class="grp"><span class="gl">Not started</span><span class="gc">7</span></div>
+      <div class="grp"><span class="gl">Not started · considering</span><span class="gc">8</span></div>
+      <div class="row"><span class="st todo">○</span><div class="rmain"><div class="rt">Sound-series pages</div><div class="rs">A dedicated page per phonetic series (惑/或/域 → hoặc family), built from the same inversion that feeds the FORM-card sound-family — turn the generative bridge feature into browsable, cross-linked pages. Logged 2026-06-22; design later.</div></div><span class="rnum">idea</span></div>
+      <div class="row"><span class="st todo">○</span><div class="rmain"><div class="rt">In-band Chinese definitions (B2 · C1 · C2)</div><div class="rs">Considering: rewrite <code>definition.zh</code> so each entry's Chinese definition stays within the learner's own band vocabulary — most acute at B2/C1/C2 where the gloss can out-level the headword. Relates to the "band-verified graded definitions" concept in <code>PRD-Trilingual-Dictionary-PUBLIC-v2</code>; no standalone brainstorm doc yet.</div></div><span class="rnum">considering</span></div>
       <div class="row"><span class="st todo">○</span><div class="rmain"><div class="rt">Simplified → Vietnamese</div><div class="rs">The 982 Simplified stories carry EN and 簡明中文 only; no Vietnamese yet</div></div><span class="rnum">0 / 982</span></div>
       <div class="row"><span class="st todo">○</span><div class="rmain"><div class="rt">Example sentences (words)</div><div class="rs">The largest remaining lane</div></div><span class="rnum">26 / 7,001</span></div>
       <div class="row"><span class="st todo">○</span><div class="rmain"><div class="rt">Collocations (words)</div><div class="rs">Pairs with the word example pass</div></div><span class="rnum">~0 / 7,001</span></div>
-      <div class="row"><span class="st todo">○</span><div class="rmain"><div class="rt">Simplified 繁/簡 toggle</div><div class="rs">Stories authored as data; no OpenCC rendering or toggle yet (engineering)</div></div><span class="rnum">engineering</span></div>
       <div class="row"><span class="st todo">○</span><div class="rmain"><div class="rt">scholarNote renderer</div><div class="rs">7 notes authored (e.g. 苛's 疴 loan); no UI surfaces them</div></div><span class="rnum">7 authored</span></div>
       <div class="row"><span class="st todo">○</span><div class="rmain"><div class="rt">Idioms (成語)</div><div class="rs">Queued</div></div><span class="rnum">0</span></div>
       <div class="row"><span class="st todo">○</span><div class="rmain"><div class="rt">C2+ / higher-band expansion</div><div class="rs">Corpus solid A1–C1; C2 thin (35 chars), C2+ tail noted</div></div><span class="rnum">C2 thin</span></div>
@@ -181,7 +185,8 @@
       <ol>
         <li><b>Simplified → Vietnamese (982).</b> Bounded translation lane, the same shape as the Traditional VI campaign that just finished. Cleanest to queue while that pipeline stays warm.</li>
         <li><b>Word example sentences (7,001).</b> The largest lane. Point the recipe-v3 run at words.</li>
-        <li><b>Simplified 繁/簡 toggle (engineering).</b> Renders the 982 authored Simplified stories on the site.</li>
+        <li><b>Sound-series pages (design).</b> Reuse the FORM-card sound-family inversion to build browsable per-series pages — the generative bridge feature as its own surface.</li>
+        <li><b>In-band Chinese definitions (B2 · C1 · C2), under consideration.</b> Grade <code>definition.zh</code> to each band's own vocabulary; sharpest at the upper bands. Needs a brainstorm doc before a work order.</li>
       </ol>
     </div>
   </section>

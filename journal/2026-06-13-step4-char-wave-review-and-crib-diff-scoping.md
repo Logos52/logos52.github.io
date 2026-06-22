@@ -1,6 +1,7 @@
 ---
 title: "Tsumugu: Step-4 char wave passes review, and the crib_diff comparator is mis-scoped"
 type: journal
+provenance: "Recovered to main 2026-06-22 (commit 07348ac): authored 2026-06-13/14 on the pre-Astro tsumugu-paper-ink-recolor branch, never merged before the Quartz→Astro replatform, restored in the single-branch consolidation. Historical snapshot — intentional, not orphaned; do not re-flag."
 created: 2026-06-13
 updated: 2026-06-13
 tags:

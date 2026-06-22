@@ -11,7 +11,7 @@ tags:
 
 # Knowledge Base Index
 
-There are 319 notes here, clustered into six domains. Click a note and follow its links to see where they point.
+There are 335 notes here, clustered into six domains. Click a note and follow its links to see where they point.
 
 ## Hubs & Condensed
 

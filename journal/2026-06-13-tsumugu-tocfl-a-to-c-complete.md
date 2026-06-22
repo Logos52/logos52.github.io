@@ -1,6 +1,7 @@
 ---
 title: "Tsumugu: TOCFL A–C complete — every character and word, A1 through C1"
 type: journal
+provenance: "Recovered to main 2026-06-22 (commit 07348ac): authored 2026-06-13/14 on the pre-Astro tsumugu-paper-ink-recolor branch, never merged before the Quartz→Astro replatform, restored in the single-branch consolidation. Historical snapshot — intentional, not orphaned; do not re-flag."
 created: 2026-06-13
 updated: 2026-06-13
 tags:
@@ -31,7 +32,7 @@ Those **final 46 were authored directly** (the `expand.py` compact-text path is 
 ## Close-out bookkeeping
 
 - **Reconciler ran** (`reconcile_queues.py --apply`): 3,991 drifted word statuses synced `queued`→`authored`. The 579 still queued are the **non-TOCFL frequency-corpus tail** — not gaps. Backup written.
-- **Commit is host-side only** (`.git` mount-blocked in the sandbox) — the 46 entries + reconciled queues are authored and valid on disk, committed via a host-side `git add -A` / author-loop run. See [[tsumugu-ops-gotchas]].
+- **Commit is host-side only** (`.git` mount-blocked in the sandbox) — the 46 entries + reconciled queues are authored and valid on disk, committed via a host-side `git add -A` / author-loop run.
 
 ## What remains (not blocking the milestone)
 
