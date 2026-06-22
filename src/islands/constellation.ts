@@ -33,6 +33,30 @@ const SELF_REG_HUB = 'wiki/Dimensions/Self-Regulation';
 const HUB_COUNT = 6;
 const MONO_STACK = "'SF Mono', ui-monospace, Menlo, monospace";
 
+// local-mode params (selectLocalSpine): a tight, importance-filtered 2-hop "spine" around the current
+// note — a few landmark hubs fanned around the center, each carrying a short branch of its own satellites.
+// This replaces the old uncapped 2-hop union, which blew a hub note up to 100+ flat, structureless nodes.
+const LOCAL_LANDMARKS = 4; // hub branches fanned around the center note
+const LOCAL_SATS_PER = 2; // satellites each landmark carries (drawn from its own neighbours)
+const LOCAL_GLOBAL_CAP = 15; // hard node ceiling so a hub note can't flood the rail
+const LOCAL_RING_R = 120; // landmark ring radius (relative units; fitToView rescales into the box)
+const LOCAL_SAT_REACH = 1.7; // satellites anchor this × further out than their landmark → branches point outward
+const LOCAL_LANDMARK_RADIUS = 5; // px; sits between the seed (flag) node and the small satellites
+// Importance prior by frontmatter `type`: structural anchors (hubs, syntheses, dimensions) outrank
+// concepts/techniques, which outrank references/books; journals are noise in a concept neighbourhood.
+const TYPE_RANK: Record<string, number> = {
+  hub: 5, synthesis: 5, moc: 5,
+  index: 4, condensed: 4, dimension: 4,
+  system: 3, model: 3, workflow: 3,
+  concept: 2, technique: 2, practice: 2, project: 2,
+  book: 1, reference: 1, resource: 1,
+};
+function typeRank(t: string | undefined): number {
+  const k = (t ?? '').split(/[-\s]/)[0].toLowerCase();
+  if (k.startsWith('journal')) return 0;
+  return TYPE_RANK[k] ?? 1;
+}
+
 // full-mode params (notesOverviewGraph)
 const FULL = {
   repelForce: 0.95, // more spread → less blob
@@ -58,6 +82,7 @@ type CNode = {
   degree: number;
   tier: Tier;
   isPrimarySat: boolean;
+  isLandmark: boolean;
   isFlag: boolean;
   r: number;
   label?: string;
@@ -146,6 +171,71 @@ function selectSpineConstellation(hubs: Set<string>, links: SLink[], valid: Set<
     }
   }
   return { neighbourhood, satelliteParent, primarySatellites };
+}
+
+/**
+ * Local "spine" around a single note: an importance-filtered, tiered 2-hop neighbourhood.
+ *   center  = the note itself
+ *   landmarks = its top ~4 direct neighbours by importance (type rank + degree), one per domain where
+ *               possible so the branches are visually distinct
+ *   satellites = each landmark's own top neighbours (the 2-hop ring), scored by cohesion (how many
+ *               landmarks reach them — shared neighbours pull the cluster tight) plus importance, with a
+ *               per-landmark budget so no single hub floods the graph.
+ * Capped at LOCAL_GLOBAL_CAP so a heavily-linked hub note stays legible.
+ */
+function selectLocalSpine(
+  seed: string,
+  links: SLink[],
+  valid: Set<string>,
+  typeOf: Map<string, string>,
+  domainOf: Map<string, string>,
+  isMobile: boolean,
+) {
+  const { degree, neighbors } = buildAdjacency(links);
+  const landmarkCount = isMobile ? 3 : LOCAL_LANDMARKS;
+  const satsPer = isMobile ? 1 : LOCAL_SATS_PER;
+  const cap = isMobile ? 9 : LOCAL_GLOBAL_CAP;
+  const imp = (id: string) => typeRank(typeOf.get(id)) * 10 + Math.min(degree.get(id) ?? 0, 24);
+
+  const direct = [...(neighbors.get(seed) ?? [])]
+    .filter((n) => valid.has(n))
+    .sort((a, b) => imp(b) - imp(a) || a.localeCompare(b));
+
+  // Landmarks: highest-importance direct neighbours, one per domain first so the branches stay distinct,
+  // then fill from what's left if the note only touches a couple of domains.
+  const landmarks: string[] = [];
+  const usedDomains = new Set<string>();
+  for (const n of direct) {
+    if (landmarks.length >= landmarkCount) break;
+    const d = domainOf.get(n) ?? 'gen';
+    if (usedDomains.has(d)) continue;
+    landmarks.push(n);
+    usedDomains.add(d);
+  }
+  for (const n of direct) {
+    if (landmarks.length >= landmarkCount) break;
+    if (!landmarks.includes(n)) landmarks.push(n);
+  }
+
+  const landmarkSet = new Set(landmarks);
+  const neighbourhood = new Set<string>([seed, ...landmarks]);
+  const satelliteParent = new Map<string, string>();
+  const cohesion = (n: string) => landmarks.reduce((c, l) => c + (neighbors.get(l)?.has(n) ? 1 : 0), 0);
+
+  // Highest-importance landmark picks its satellites first (it owns shared nodes), so branches don't fight.
+  for (const l of landmarks) {
+    if (neighbourhood.size >= cap) break;
+    const sats = [...(neighbors.get(l) ?? [])]
+      .filter((n) => valid.has(n) && n !== seed && !landmarkSet.has(n) && !neighbourhood.has(n))
+      .sort((a, b) => cohesion(b) * 8 + imp(b) - (cohesion(a) * 8 + imp(a)) || a.localeCompare(b))
+      .slice(0, satsPer);
+    for (const s of sats) {
+      if (neighbourhood.size >= cap) break;
+      neighbourhood.add(s);
+      satelliteParent.set(s, l);
+    }
+  }
+  return { neighbourhood, satelliteParent, landmarks: landmarkSet };
 }
 
 function selectSpineLinks(
@@ -287,6 +377,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
 
   const nodeDomain = new Map(data.nodes.map((n) => [n.slug, n.domain]));
   const titleOf = new Map(data.nodes.map((n) => [n.slug, n.title]));
+  const typeOf = new Map(data.nodes.map((n) => [n.slug, n.type]));
   const domainIdx = (id: string) => DOMAINS.indexOf((nodeDomain.get(id) ?? '') as never);
   const allLinks: SLink[] = data.edges.map((e) => ({ source: e.source, target: e.target }));
   const valid = new Set(data.nodes.map((n) => n.slug));
@@ -301,12 +392,14 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   let links: CLink[];
   let satelliteParent = new Map<string, string>();
   let primarySatellites = new Set<string>();
+  let landmarkSet = new Set<string>(); // local mode: the fanned hub branches around the center note
 
   const makeNode = (id: string): CNode => {
     const deg = degree.get(id) ?? 0;
     const isFlag = flagSet.has(id);
     const important = !isFlag && deg >= IMPORTANT_DEGREE_THRESHOLD;
     const isPrimarySat = primarySatellites.has(id);
+    const isLandmark = landmarkSet.has(id);
     const tier: Tier = isFlag ? 'hub' : important ? 'important' : 'satellite';
     let r: number;
     if (mode === 'spine') {
@@ -314,6 +407,9 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
     } else {
       // size by sqrt(degree) → a few big hubs, many tiny leaves (variety + structure)
       r = Math.min(FULL.nodeBaseRadius + FULL.nodeLinkRadius * Math.sqrt(deg), FULL.nodeMaxRadius);
+      // local: lock a clear three-tier hierarchy — seed (flag) > landmark > satellite — so the
+      // branch structure reads even when a landmark happens to have a small degree.
+      if (isLandmark) r = Math.min(Math.max(r, LOCAL_LANDMARK_RADIUS), LOCAL_LANDMARK_RADIUS + 1);
       if (isFlag) r = Math.max(r, FULL.flagRadius);
     }
     return {
@@ -324,9 +420,11 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
       degree: deg,
       tier,
       isPrimarySat,
+      isLandmark,
       isFlag,
       r,
-      label: isFlag ? (SPINE_HUBS.get(id) ?? titleOf.get(id)) : undefined,
+      // label the seed always; in local mode label the landmarks too (they're the structure).
+      label: isFlag ? (SPINE_HUBS.get(id) ?? titleOf.get(id)) : isLandmark ? titleOf.get(id) : undefined,
       parent: satelliteParent.get(id),
     };
   };
@@ -340,6 +438,18 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
     links = selectSpineLinks(allLinks, sel.neighbourhood, hubSet, degree, domainIdx)
       .filter((l) => byId.has(l.source) && byId.has(l.target))
       .map((l) => ({ source: byId.get(l.source)!, target: byId.get(l.target)! }));
+  } else if (mode === 'local' && seedSet.size === 1) {
+    const seed = [...seedSet][0];
+    const sel = selectLocalSpine(seed, allLinks, valid, typeOf, nodeDomain, isMobile);
+    satelliteParent = sel.satelliteParent;
+    landmarkSet = sel.landmarks;
+    nodes = [...sel.neighbourhood].map(makeNode);
+    const byId = new Map(nodes.map((n) => [n.id, n]));
+    // keep every edge inside the (small) neighbourhood → seed↔landmark, landmark↔satellite, plus any
+    // cross-links that form triangles and make the cluster read as a real neighbourhood, not a star.
+    links = allLinks
+      .filter((e) => byId.has(e.source) && byId.has(e.target))
+      .map((e) => ({ source: byId.get(e.source)!, target: byId.get(e.target)! }));
   } else {
     const ids =
       mode === 'local'
@@ -381,6 +491,8 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   let transform: ZoomTransform = zoomIdentity;
   const hubAnchorX = new Map<string, number>();
   const hubAnchorY = new Map<string, number>();
+  const landmarkAnchorX = new Map<string, number>(); // local mode: each landmark's seat on the ring
+  const landmarkAnchorY = new Map<string, number>();
 
   function layout() {
     const rect = root.getBoundingClientRect();
@@ -416,15 +528,44 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
           ),
         );
     } else if (mode === 'local') {
-      // Let the neighborhood form a real 2D shape (a hub with branches) instead of a flat smear:
-      // stronger charge + links carry the topology, and the flatten force drops to a gentle bias so
-      // the rail doesn't grow too tall. fitToView then scales the structure into the box.
-      sim
-        .force('charge', forceManyBody<CNode>().strength(-230))
-        .force('center', forceCenter<CNode>(0, 0).strength(0.06))
-        .force('link', forceLink<CNode, CLink>(links).id((n) => n.id).distance(50).strength(0.45))
-        .force('collide', forceCollide<CNode>((n) => n.r + 6).iterations(2))
-        .force(vertical ? 'flatX' : 'flatY', (vertical ? forceX<CNode>(0) : forceY<CNode>(0)).strength(vertical ? 0.05 : 0.07));
+      if (landmarkSet.size > 0) {
+        // local SPINE: the center note is pinned at the origin; landmarks are fanned evenly on a ring,
+        // and each landmark's satellites anchor further out along the same spoke so its branch points
+        // outward. fitToView then scales the whole structure into the rail.
+        const L = [...landmarkSet];
+        L.forEach((id, i) => {
+          const ang = (Math.PI * 2 * i) / L.length - Math.PI / 2;
+          landmarkAnchorX.set(id, Math.cos(ang) * LOCAL_RING_R);
+          landmarkAnchorY.set(id, Math.sin(ang) * LOCAL_RING_R);
+        });
+        const anchorStrength = (d: CNode) =>
+          seedSet.has(d.id) ? 1 : landmarkSet.has(d.id) ? 0.9 : d.parent ? 0.3 : 0.08;
+        sim
+          .force('charge', forceManyBody<CNode>().strength(-260))
+          .force('center', forceCenter<CNode>(0, 0).strength(0.03))
+          .force('link', forceLink<CNode, CLink>(links).id((n) => n.id).distance(46).strength(0.5))
+          .force('collide', forceCollide<CNode>((n) => n.r + 8).iterations(2))
+          .force(
+            'x',
+            forceX<CNode>((d) =>
+              landmarkSet.has(d.id) ? landmarkAnchorX.get(d.id) ?? 0 : d.parent ? (landmarkAnchorX.get(d.parent) ?? 0) * LOCAL_SAT_REACH : 0,
+            ).strength(anchorStrength),
+          )
+          .force(
+            'y',
+            forceY<CNode>((d) =>
+              landmarkSet.has(d.id) ? landmarkAnchorY.get(d.id) ?? 0 : d.parent ? (landmarkAnchorY.get(d.parent) ?? 0) * LOCAL_SAT_REACH : 0,
+            ).strength(anchorStrength),
+          );
+      } else {
+        // a leaf or orphan note with no landmarks: gentle force, seed centered.
+        sim
+          .force('charge', forceManyBody<CNode>().strength(-230))
+          .force('center', forceCenter<CNode>(0, 0).strength(0.06))
+          .force('link', forceLink<CNode, CLink>(links).id((n) => n.id).distance(50).strength(0.45))
+          .force('collide', forceCollide<CNode>((n) => n.r + 6).iterations(2))
+          .force(vertical ? 'flatX' : 'flatY', (vertical ? forceX<CNode>(0) : forceY<CNode>(0)).strength(vertical ? 0.05 : 0.07));
+      }
       if (seedSet.size === 1) {
         for (const n of nodes)
           if (seedSet.has(n.id)) {
@@ -487,6 +628,9 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
         if (hubSet.has(n.id)) {
           n.fx = hubAnchorX.get(n.id) ?? n.fx;
           n.fy = hubAnchorY.get(n.id) ?? n.fy;
+        } else if (landmarkSet.has(n.id)) {
+          n.fx = landmarkAnchorX.get(n.id) ?? n.fx;
+          n.fy = landmarkAnchorY.get(n.id) ?? n.fy;
         }
       }
       sim.tick(Math.ceil(settleTicks / 4));
@@ -724,7 +868,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
     for (const n of nodes) {
-      const persistent = (mode === 'spine' && n.tier === 'hub') || (mode === 'local' && n.isFlag);
+      const persistent = (mode === 'spine' && n.tier === 'hub') || (mode === 'local' && (n.isFlag || n.isLandmark));
       const show = persistent || n === hovered || (hovered && neigh && neigh.has(n.id));
       if (!show) continue;
       const big = n.tier === 'hub';
