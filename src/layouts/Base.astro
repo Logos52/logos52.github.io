@@ -14,6 +14,7 @@
  */
 import '../styles/ds/styles.css';
 import '../styles/ds/domains.css';
+import '../styles/ds/flavors-preview.css'; // TEMP: cool-neutral palette preview (?palette=slate|overcast|charcoal)
 import Chrome from '../components/Chrome.astro';
 import Footer from '../components/Footer.astro';
 
@@ -27,7 +28,7 @@ const { title, description, active } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en" data-accent="violet">
+<html lang="en" data-accent="violet" data-palette="slate">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -50,6 +51,22 @@ const { title, description, active } = Astro.props;
           document.documentElement.setAttribute('data-theme', theme);
         } catch (e) {
           document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+
+    {/* TEMP palette preview: ?palette=slate|overcast|charcoal (persists), default slate. */}
+    <script is:inline>
+      (function () {
+        try {
+          var valid = { slate: 1, overcast: 1, charcoal: 1 };
+          var p = new URLSearchParams(location.search).get('palette');
+          if (!valid[p]) p = localStorage.getItem('palette');
+          if (!valid[p]) p = 'slate';
+          document.documentElement.setAttribute('data-palette', p);
+          try { localStorage.setItem('palette', p); } catch (e) {}
+        } catch (e) {
+          document.documentElement.setAttribute('data-palette', 'slate');
         }
       })();
     </script>

@@ -1,0 +1,84 @@
+/* ============================================================================
+ * flavors-preview.css — TEMPORARY cool-neutral palette preview (colors only).
+ * ----------------------------------------------------------------------------
+ * Three candidate KB palettes, selected by html[data-palette="slate|overcast|
+ * charcoal"]. ONLY color tokens are overridden — no type, spacing, or layout.
+ * The graph recolors for free (the canvas reads --d-* live via getComputedStyle).
+ * Reversible: delete this file + its import in Base.astro + the palette script.
+ *
+ *   ?palette=slate      → Slate & Signal  (cool, balanced — recommended)
+ *   ?palette=overcast   → Overcast        (hushed pastels)
+ *   ?palette=charcoal   → Charcoal-forward (dark-first, vivid)
+ * ========================================================================== */
+
+/* ── Slate & Signal ───────────────────────────────────────────────────────*/
+html[data-palette="slate"] {
+  --paper:#F6F8FA; --card:#FFFFFF; --raised:#ECF0F4;
+  --ink:#161A21; --mut:#586173; --faint:#98A1B0;
+  --rule:#E4E8EE; --rule2:#D2D8E1; --shadow:rgba(22,26,33,.12);
+  --violet:#5C63E6; --accent:#5C63E6;
+  --accent-soft:color-mix(in oklab, #5C63E6 12%, transparent);
+  --violet-soft:color-mix(in oklab, #5C63E6 12%, transparent);
+  --accent-ink:#FFFFFF;
+  --d-learning:#5C63E6; --d-agentic:#9B5DE5; --d-language:#15A8C2;
+  --d-mind:#10A982; --d-focus:#E0568F; --d-gen:#4F76C9;
+}
+html[data-palette="slate"][data-theme="dark"] {
+  --paper:#16181C; --card:#1D2026; --raised:#262A32;
+  --ink:#E8EBF0; --mut:#99A2AE; --faint:#5C6470;
+  --rule:#2A2E36; --rule2:#373C46; --shadow:rgba(0,0,0,.5);
+  --violet:#8B91F2; --accent:#8B91F2;
+  --accent-soft:color-mix(in oklab, #8B91F2 16%, transparent);
+  --violet-soft:color-mix(in oklab, #8B91F2 16%, transparent);
+  --accent-ink:#16181C;
+  --d-learning:#8B91F2; --d-agentic:#B98BEE; --d-language:#4FCBDD;
+  --d-mind:#3FCBA3; --d-focus:#F07FAE; --d-gen:#7C9DEE;
+}
+
+/* ── Overcast (hushed pastels) ──────────────────────────────────────────── */
+html[data-palette="overcast"] {
+  --paper:#F4F6F8; --card:#FFFFFF; --raised:#EBEEF1;
+  --ink:#20242B; --mut:#5E6772; --faint:#A4ABB5;
+  --rule:#E1E5EA; --rule2:#D0D6DD; --shadow:rgba(24,28,34,.10);
+  --violet:#7B80C9; --accent:#7B80C9;
+  --accent-soft:color-mix(in oklab, #7B80C9 13%, transparent);
+  --violet-soft:color-mix(in oklab, #7B80C9 13%, transparent);
+  --accent-ink:#FFFFFF;
+  --d-learning:#7B80C9; --d-agentic:#9E7FC4; --d-language:#5C9DAE;
+  --d-mind:#5FA38C; --d-focus:#C67E9C; --d-gen:#6E8AB8;
+}
+html[data-palette="overcast"][data-theme="dark"] {
+  --paper:#191B1E; --card:#212429; --raised:#2A2E34;
+  --ink:#E4E7EB; --mut:#969DA8; --faint:#5C636D;
+  --rule:#2C3036; --rule2:#393E45; --shadow:rgba(0,0,0,.5);
+  --violet:#9398DA; --accent:#9398DA;
+  --accent-soft:color-mix(in oklab, #9398DA 16%, transparent);
+  --violet-soft:color-mix(in oklab, #9398DA 16%, transparent);
+  --accent-ink:#191B1E;
+  --d-learning:#9398DA; --d-agentic:#B79AD8; --d-language:#79B7C7;
+  --d-mind:#79BCA4; --d-focus:#DA98B4; --d-gen:#8AA5CE;
+}
+
+/* ── Charcoal-forward (dark-first, vivid) ───────────────────────────────── */
+html[data-palette="charcoal"] {
+  --paper:#F5F7FA; --card:#FFFFFF; --raised:#EAEEF3;
+  --ink:#14171D; --mut:#525B68; --faint:#939CAA;
+  --rule:#E2E7ED; --rule2:#CFD6DF; --shadow:rgba(19,21,25,.12);
+  --violet:#5158F5; --accent:#5158F5;
+  --accent-soft:color-mix(in oklab, #5158F5 12%, transparent);
+  --violet-soft:color-mix(in oklab, #5158F5 12%, transparent);
+  --accent-ink:#FFFFFF;
+  --d-learning:#4F57E8; --d-agentic:#9A4FE0; --d-language:#0E9FC0;
+  --d-mind:#0CA883; --d-focus:#E24A86; --d-gen:#3E6FD6;
+}
+html[data-palette="charcoal"][data-theme="dark"] {
+  --paper:#131519; --card:#1C1F26; --raised:#252932;
+  --ink:#EDF0F5; --mut:#A0A8B4; --faint:#5E6672;
+  --rule:#2B2F38; --rule2:#393F49; --shadow:rgba(0,0,0,.6);
+  --violet:#7C84FF; --accent:#7C84FF;
+  --accent-soft:color-mix(in oklab, #7C84FF 18%, transparent);
+  --violet-soft:color-mix(in oklab, #7C84FF 18%, transparent);
+  --accent-ink:#131519;
+  --d-learning:#7C84FF; --d-agentic:#B17BFF; --d-language:#2BC4DE;
+  --d-mind:#2BD39E; --d-focus:#FF6FA6; --d-gen:#6A98FF;
+}

@@ -26,7 +26,17 @@ const isHome = active === 'home';
 <header class="kb-chrome">
   <div class="kb-chrome__inner">
     <a class="kb-brand" href="/">
-      <img src="/mark-nodes-violet.svg" alt="" width="30" height="30" />
+      <svg class="kb-brand__mark" viewBox="0 0 104 104" width="30" height="30" role="img" aria-label="Logos52" fill="none">
+        <g stroke="currentColor" stroke-width="5" stroke-linecap="round">
+          <path d="M52 52 L28 52 M52 52 L66 80" />
+        </g>
+        <g fill="currentColor">
+          <circle cx="28" cy="52" r="8" />
+          <circle cx="66" cy="80" r="8" />
+          <circle cx="80" cy="32" r="7" />
+          <circle cx="52" cy="52" r="12" />
+        </g>
+      </svg>
       <span class="kb-brand__name">Logos52</span>
     </a>
     <nav class="kb-nav">
@@ -97,10 +107,16 @@ const isHome = active === 'home';
     color: var(--ink);
     text-decoration: none;
   }
-  .kb-brand img {
+  .kb-brand__mark {
     width: 30px;
     height: 30px;
-    border-radius: 8px;
+    flex: none;
+    /* node glyph, no seal badge, transparent — a vivid purple brand mark with pop,
+     * brightened a touch more on charcoal so it reads. */
+    color: #7c3aed;
+  }
+  :global([data-theme='dark']) .kb-brand__mark {
+    color: #a78bfa;
   }
   .kb-brand__name {
     white-space: nowrap;

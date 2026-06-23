@@ -80,26 +80,29 @@ const startHere: Door[] = [
 ];
 
 type Hub = { title: string; icon: string; color: string; slug: string; tag?: string; countPrefix?: string };
+// Hub icon colors now draw from the cool-jewel domain palette (var(--d-*)), so they
+// match the theme and adapt across light/charcoal. Each column spreads the 6 domain
+// hues for rhythm rather than repeating the old ad-hoc brights.
 const dimensionHubs: Hub[] = [
-  { title: 'Deep Processing', icon: 'ti-affiliate', color: '#8dc63f', slug: 'wiki/Dimensions/Deep-Processing', tag: 'deep-processing' },
-  { title: 'Retrieval', icon: 'ti-circle-arrow-up', color: '#f2c94c', slug: 'wiki/Dimensions/Retrieval', tag: 'retrieval' },
-  { title: 'Self-Regulation', icon: 'ti-steering-wheel', color: '#f47b20', slug: 'wiki/Dimensions/Self-Regulation', tag: 'self-regulation' },
-  { title: 'Self-Management', icon: 'ti-settings', color: '#2d9cdb', slug: 'wiki/Dimensions/Self-Management', tag: 'self-management' },
-  { title: 'Mindset', icon: 'ti-brain', color: '#3fc1b0', slug: 'wiki/Dimensions/Mindset', tag: 'mindset' },
+  { title: 'Deep Processing', icon: 'ti-affiliate', color: 'var(--d-learning)', slug: 'wiki/Dimensions/Deep-Processing', tag: 'deep-processing' },
+  { title: 'Retrieval', icon: 'ti-circle-arrow-up', color: 'var(--d-mind)', slug: 'wiki/Dimensions/Retrieval', tag: 'retrieval' },
+  { title: 'Self-Regulation', icon: 'ti-steering-wheel', color: 'var(--d-focus)', slug: 'wiki/Dimensions/Self-Regulation', tag: 'self-regulation' },
+  { title: 'Self-Management', icon: 'ti-settings', color: 'var(--d-gen)', slug: 'wiki/Dimensions/Self-Management', tag: 'self-management' },
+  { title: 'Mindset', icon: 'ti-brain', color: 'var(--d-agentic)', slug: 'wiki/Dimensions/Mindset', tag: 'mindset' },
 ];
 const lifeHubs: Hub[] = [
-  { title: 'Health', icon: 'ti-heartbeat', color: '#2fa36b', slug: 'wiki/Dimensions/Self-Management', countPrefix: 'wiki/Dimensions/Self-Management' },
-  { title: 'Money', icon: 'ti-wallet', color: '#2fa36b', slug: 'wiki/Money/Money, Condensed', countPrefix: 'wiki/Money' },
-  { title: '中文', icon: 'ti-language', color: '#ffb000', slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work', countPrefix: 'wiki/Language/Chinese' },
-  { title: 'Minimalism', icon: 'ti-box', color: '#9aa0a6', slug: 'wiki/Minimalism/Minimalism-as-Systems-Design', countPrefix: 'wiki/Minimalism' },
-  { title: 'Condensed Notes', icon: 'ti-book-2', color: '#734bb2', slug: 'wiki/Syntheses/Learning, Condensed', countPrefix: 'wiki/Syntheses' },
+  { title: 'Health', icon: 'ti-heartbeat', color: 'var(--d-mind)', slug: 'wiki/Dimensions/Self-Management', countPrefix: 'wiki/Dimensions/Self-Management' },
+  { title: 'Money', icon: 'ti-wallet', color: 'var(--d-gen)', slug: 'wiki/Money/Money, Condensed', countPrefix: 'wiki/Money' },
+  { title: '中文', icon: 'ti-language', color: 'var(--d-language)', slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work', countPrefix: 'wiki/Language/Chinese' },
+  { title: 'Minimalism', icon: 'ti-box', color: 'var(--d-focus)', slug: 'wiki/Minimalism/Minimalism-as-Systems-Design', countPrefix: 'wiki/Minimalism' },
+  { title: 'Condensed Notes', icon: 'ti-book-2', color: 'var(--d-learning)', slug: 'wiki/Syntheses/Learning, Condensed', countPrefix: 'wiki/Syntheses' },
 ];
 const executionHubs: Hub[] = [
-  { title: 'Agentic Engineering', icon: 'ti-robot', color: '#4f9dff', slug: 'wiki/Systems/AI & Agentic Systems/Agentic-Engineering', countPrefix: 'wiki/Systems/AI & Agentic Systems' },
-  { title: 'Learning Systems', icon: 'ti-network', color: '#8dc63f', slug: 'wiki/Syntheses/First-Principles-of-Learning', countPrefix: 'wiki/Syntheses' },
-  { title: 'Focus Management', icon: 'ti-target', color: '#ff6fa3', slug: 'wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block', countPrefix: 'wiki/Self Management' },
-  { title: 'Decision Making', icon: 'ti-checklist', color: '#ff8a3d', slug: 'wiki/Decision-Making/Decision-Making', countPrefix: 'wiki/Decision Making' },
-  { title: 'Generativity', icon: 'ti-bulb', color: '#7f55a0', slug: 'wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment', countPrefix: 'wiki/Concepts' },
+  { title: 'Agentic Engineering', icon: 'ti-robot', color: 'var(--d-agentic)', slug: 'wiki/Systems/AI & Agentic Systems/Agentic-Engineering', countPrefix: 'wiki/Systems/AI & Agentic Systems' },
+  { title: 'Learning Systems', icon: 'ti-network', color: 'var(--d-learning)', slug: 'wiki/Syntheses/First-Principles-of-Learning', countPrefix: 'wiki/Syntheses' },
+  { title: 'Focus Management', icon: 'ti-target', color: 'var(--d-focus)', slug: 'wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block', countPrefix: 'wiki/Self Management' },
+  { title: 'Decision Making', icon: 'ti-checklist', color: 'var(--d-gen)', slug: 'wiki/Decision-Making/Decision-Making', countPrefix: 'wiki/Decision Making' },
+  { title: 'Generativity', icon: 'ti-bulb', color: 'var(--d-mind)', slug: 'wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment', countPrefix: 'wiki/Concepts' },
 ];
 const hubColumns = [
   { title: 'Five Dimensions', items: dimensionHubs },
@@ -346,14 +349,14 @@ const DOMAIN_ICONS: Record<Domain, string> = {
   /* start here — intent doors (wash cards, icon left of the intent label) */
   .start-here {
     margin-top: 28px;
-    /* Door seeds. Understand/Apply ride the DS theme tokens (auto-lift in dark);
-       Learn/Decode/Explore are seeded here and lifted in the dark override below.
-       Decode = ochre-gold: distinct from Explore's orange, apt for the 中文 door. */
-    --i-understand: var(--violet);
-    --i-apply: var(--cool);
-    --i-learn: #5a8f4e;
-    --i-decode: #9d7b2e;
-    --i-explore: #c2703f;
+    /* Door seeds map to the cool-jewel domain palette (var(--d-*)) — one domain hue
+       per intent. The domain tokens already carry light + dark values, so the doors
+       adapt automatically (no separate dark override needed). */
+    --i-understand: var(--d-agentic);
+    --i-apply: var(--d-gen);
+    --i-learn: var(--d-learning);
+    --i-decode: var(--d-language);
+    --i-explore: var(--d-focus);
   }
   .start-here__head {
     font-family: var(--ming);
@@ -414,12 +417,6 @@ const DOMAIN_ICONS: Record<Domain, string> = {
     font-size: 11.5px;
     color: var(--mut);
     line-height: 1.45;
-  }
-  /* Dark: brighten the non-token seeds so the wash + label keep their bite. */
-  :global([data-theme='dark']) .start-here {
-    --i-learn: #7bb06d;
-    --i-decode: #d8b35a;
-    --i-explore: #dd8a5f;
   }
 
   /* three hub-list columns — compact (matches the original sizes) */

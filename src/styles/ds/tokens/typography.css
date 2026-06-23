@@ -40,8 +40,11 @@
  * Promoted from [data-brand="paper"] to :root so --ming/--kai/--sans/--mono
  * resolve on every surface, including templates that omit the old attribute. */
 :root {
-  --ming: "Lora", "Noto Serif TC", "Songti TC", "Source Han Serif TC", serif;  /* @kind font — Lora (Latin) leads; CJK chars fall back to the Song serifs */
-  --kai:  "LXGW WenKai TC", "Kaiti TC", STKaiti, BiauKai, serif;  /* @kind font */
-  --sans: "Inter", -apple-system, "Helvetica Neue", sans-serif;  /* @kind font */
-  --mono: "SF Mono", ui-monospace, Menlo, monospace;  /* @kind font */
+  /* "Plate" — all-sans cool-minimal: Hanken Grotesk everywhere, JetBrains Mono for
+   * labels/data. --ming (titles + reading) now resolves to the same grotesque (no
+   * serif). CJK chars in titles fall back to the system Han sans. */
+  --ming: "Hanken Grotesk", system-ui, "PingFang TC", "Noto Sans TC", -apple-system, sans-serif;  /* @kind font */
+  --kai:  "LXGW WenKai TC", "Kaiti TC", STKaiti, BiauKai, serif;  /* @kind font — kept for any CJK brush use */
+  --sans: "Hanken Grotesk", system-ui, "PingFang TC", "Noto Sans TC", -apple-system, "Helvetica Neue", sans-serif;  /* @kind font */
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;  /* @kind font */
 }

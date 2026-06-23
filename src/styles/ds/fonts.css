@@ -1,9 +1,8 @@
-/* Tsumugu webfonts — all open-source, pulled from Google Fonts.
- * UI: Inter · Reading/brush face (楷體): LXGW WenKai TC (霞鶩文楷) ·
- * Dictionary "Ming" serif: Noto Serif TC.
- * The Reader app self-hosts a 115-file lazy unicode-range subset of
- * LXGW WenKai TC in production; the CDN copy here keeps the DS portable. */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&family=LXGW+WenKai+TC:wght@400;700&display=swap');
+/* Webfonts — all open-source, pulled from Google Fonts.
+ * KB "Plate" theme: Hanken Grotesk (UI + titles + reading) · JetBrains Mono
+ * (labels / data / graph). LXGW WenKai TC + Noto Serif TC kept for CJK / any
+ * Tsumugu-synced surface. Lora/Inter retained as legacy fallbacks. */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&family=Lora:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&family=LXGW+WenKai+TC:wght@400;700&display=swap');
 
 /* The 狂草 brand glyph 纺 is shipped as pre-rendered PNGs (assets/logo-cao-*.png),
  * not a webfont — so consumers don't carry a 4.7MB face for one character and
