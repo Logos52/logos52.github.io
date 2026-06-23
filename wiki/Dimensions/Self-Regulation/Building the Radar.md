@@ -56,6 +56,7 @@ Warning sign: the radar is too weak when you only realize the session was passiv
 ## Related Concepts
 
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
+- [[wiki/Dimensions/Self-Regulation/Metacognition as a Skill|Metacognition as a Skill]]
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]

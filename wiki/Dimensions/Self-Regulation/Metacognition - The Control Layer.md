@@ -90,6 +90,7 @@ This makes metacognition the awareness layer inside [[wiki/Dimensions/Self-Regul
 
 ## Related Concepts
 
+- [[wiki/Dimensions/Self-Regulation/Metacognition as a Skill|Metacognition as a Skill]]
 - [[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]]
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]

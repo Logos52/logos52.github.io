@@ -258,6 +258,7 @@ After the session:
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]]
+- [[wiki/Dimensions/Self-Regulation/Metacognition as a Skill|Metacognition as a Skill]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - [[wiki/Dimensions/Retrieval/WPW|WPW]]

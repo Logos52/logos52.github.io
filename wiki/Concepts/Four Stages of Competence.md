@@ -44,4 +44,4 @@ Chasing a gain that belongs to a different stage produces frustration without pr
 
 ## Links into the system
 
-Completes the improvement triad with [[Marginal Gains]] and [[Kolbs Experiential Cycle]]; supplies the readiness signal for [[Rapid Skill Acquisition]]; technique pacing lives in [[Pacing Skill Development]], the CI confidence dip in [[Encoding and Retrieval]] and [[Confidence Calibration]], and the knowledge-side counterpart in [[Knowledge Mastery - From Recognition to Usable Knowledge]].
+Completes the improvement triad with [[Marginal Gains]] and [[Kolbs Experiential Cycle]]; supplies the readiness signal for [[Rapid Skill Acquisition]]; technique pacing lives in [[Pacing Skill Development]], the CI confidence dip in [[Encoding and Retrieval]] and [[Confidence Calibration]], and the knowledge-side counterpart in [[Knowledge Mastery - From Recognition to Usable Knowledge]]. The trainable skill of reading where you sit on the ladder and sizing the next gain to it is [[Metacognition as a Skill]].
