@@ -19,7 +19,7 @@ Implemented both handoff PRDs (`PRDs/dictionary-handoff/`) against the existing 
 
 **Reskin = the 4 DS deltas, applied to `site.css` + `render_site.py`.** Radius scale 16/12/8 (cards round up 8→16); paper-tuned "whisper" resting shadows (light + dark, matching `tokens/spacing.css`); the 狂草 cursive 纺 wordmark as a theme-swapped PNG (vermillion on light, cream `-paper` on dark, CSS-toggled, no JS); heavier prose italics. Where the DS `dict.css` reference lagged the PRD (it kept the old big-drop shadow and 3–4px chips), the **PRD delta + canonical tokens won**; `dict.css` matched only where it didn't contradict.
 
-**Analytics → Cloudflare Web Analytics.** Matches `WORK-ORDER-publish-launch.md`, and the site is confirmed live + Cloudflare-proxied (`cf-ray`), so the GoatCounter fallback ("if not fronted by Cloudflare") doesn't apply. Implementation is **config-driven and empty by default** so dev/CI builds stay clean: env hooks `ANALYTICS_SNIPPET` / `GOATCOUNTER_CODE` / `CF_BEACON_TOKEN` (one wins, async/defer, no cookie banner) + `GSC_VERIFICATION` meta. Because the zone is proxied, the right activation is the **zero-code CF dashboard toggle** — so we *correctly left the build clean* (baking a token would double-count). The flip is Wedge's CF dashboard (no API token locally). Detail in memory [[tsumugu-analytics-seo]].
+**Analytics → Cloudflare Web Analytics.** Matches `WORK-ORDER-publish-launch.md`, and the site is confirmed live + Cloudflare-proxied (`cf-ray`), so the GoatCounter fallback ("if not fronted by Cloudflare") doesn't apply. Implementation is **config-driven and empty by default** so dev/CI builds stay clean: env hooks `ANALYTICS_SNIPPET` / `GOATCOUNTER_CODE` / `CF_BEACON_TOKEN` (one wins, async/defer, no cookie banner) + `GSC_VERIFICATION` meta. Because the zone is proxied, the right activation is the **zero-code CF dashboard toggle** — so we *correctly left the build clean* (baking a token would double-count). The flip is Wedge's CF dashboard (no API token locally). Detail in memory tsumugu analytics/SEO (see this journal entry).
 
 **Search Console: sitemap submitted; the PRD's "second HTML-tag method" doesn't apply.** GSC is a **Domain property** = DNS-only; the HTML-tag method only exists for URL-prefix properties, and Domain verification is Google's strongest anyway — so we skipped the A3 hardening (the PRD's premise assumed a property type Wedge doesn't have). Sitemap accepted as the full URL `https://www.tsumugu-ed.com/sitemap.xml`. Flagged a real **www-vs-non-www duplicate host** (both resolve, neither redirects) — tidy later.
 
@@ -63,7 +63,7 @@ Wedge chose to deploy **all of `vi/data`**, so the A1+A2+A3 example-sentences pa
 
 ## Still open
 
-- **Cloudflare Web Analytics** — flip the dashboard toggle (zero-code, proxied zone) — see [[tsumugu-analytics-seo]].
+- **Cloudflare Web Analytics** — flip the dashboard toggle (zero-code, proxied zone) — see tsumugu analytics/SEO (see this journal entry).
 - **`opencc` in CI** — example-sentences session's fix (above).
 - **www vs non-www** — pick a canonical host and 301 the other.
 - **VI** stays held for native review (render-OFF on the live site; present-but-hidden in HTML source).

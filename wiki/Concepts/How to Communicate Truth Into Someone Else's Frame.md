@@ -136,7 +136,7 @@ The useful distinction:
 
 Do not over-balance good intellectual obsessions too early. Feed them while they are alive. When the obsession cools, a large piece of it remains as skill, taste, or identity.
 
-This connects to [[private/Goals/Priority 0|Priority 0]] and [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]: not every interest must stay active forever, but a live obsession may deserve a focused season.
+This connects to [[wiki/Self Management/Priority 0+1 System|Priority 0+1]] and [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]: not every interest must stay active forever, but a live obsession may deserve a focused season.
 
 ## Sell When Excitement Crosses The Threshold
 
@@ -220,7 +220,7 @@ Warning signs:
 
 [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]] should distinguish between live obsession and random interest. A live obsession can deserve a season. A random interest belongs parked.
 
-[[private/Goals/Priority 0|Priority 0]] should include persuasion, communication, or sales only if they connect to real building. Selling truth starts with having something true to sell.
+[[wiki/Self Management/Priority 0+1 System|Priority 0+1]] should include persuasion, communication, or sales only if they connect to real building. Selling truth starts with having something true to sell.
 
 [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]] can use the deal-making section: avoid goals that require bad long-term constraints for short-term relief.
 

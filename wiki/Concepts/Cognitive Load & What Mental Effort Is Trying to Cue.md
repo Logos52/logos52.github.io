@@ -78,10 +78,10 @@ The practical limit is one or two new techniques at a time. Adding more before t
 
 ## Sources
 
-- [[How to Think So Clearly People Assume You’re A Genius|How to Think So Clearly People Assume You're A Genius]]
-- [[Watch This For 18 Minutes, and You’ll Outlearn 99.9% Of People|Watch This For 18 Minutes, and You'll Outlearn 99.9% Of People]]
-- [[If You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes|If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes]]
-- [[Learn to Learn in 4hrs 54mins - Full Course|Learn to Learn in 4hrs 54mins - Full Course]]
+- [[raw/sources/How to Think So Clearly People Assume You're A Genius|How to Think So Clearly People Assume You're A Genius]]
+- [[raw/sources/Watch This For 18 Minutes, and You'll Outlearn 99.9% Of People|Watch This For 18 Minutes, and You'll Outlearn 99.9% Of People]]
+- [[raw/sources/If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes|If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes]]
+- [[raw/sources/Learn to Learn in 4hrs 54mins - Full Course|Learn to Learn in 4hrs 54mins - Full Course]]
 
 ## Open Questions
 

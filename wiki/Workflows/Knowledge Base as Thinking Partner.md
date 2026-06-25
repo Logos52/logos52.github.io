@@ -138,7 +138,7 @@ The handle is what makes the idea reusable.
 Examples:
 
 - "I need better study habits" becomes [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], and [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
-- "I have too many interests" becomes [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]] and [[private/Goals/Priority 0|Priority 0]].
+- "I have too many interests" becomes [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]] and [[wiki/Self Management/Priority 0+1 System|Priority 0+1]].
 - "I keep consuming without changing" becomes [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]].
 - "The method looks right but nothing improves" becomes [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]].
 

@@ -32,7 +32,7 @@ Fast skill learning depends on matching theory intake to the rate at which pract
 
 The prerequisite for any skill acquisition is a functioning feedback loop. The archery framing makes it concrete: fire an arrow, observe where it lands, identify what to change, run the experiment. Without all four stages, repetition accumulates without improvement. Volume is not the variable.
 
-The loop maps directly to [[Kolb's Experiential Cycle|Kolb's Experiential Cycle]] — concrete experience, reflective observation, abstract conceptualization, active experimentation. These are not optional phases. They are the mechanism by which practice converts into skill. Theory serves the cycle: it gives the reflection stage better hypotheses to work with and the experimentation stage more precise targets.
+The loop maps directly to [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb's Experiential Cycle]] — concrete experience, reflective observation, abstract conceptualization, active experimentation. These are not optional phases. They are the mechanism by which practice converts into skill. Theory serves the cycle: it gives the reflection stage better hypotheses to work with and the experimentation stage more precise targets.
 
 ## The Theory-Practice Balance
 
@@ -58,7 +58,7 @@ The signal is more reliable than time-based rules because it accounts for indivi
 6. Practice again with better constraints.
 7. Repeat with tighter feedback.
 
-This connects to [[Kolb's Experiential Cycle|Kolb's Experiential Cycle]]. Concrete experience exposes the gap; reflection identifies the cause; conceptualization proposes a change; experimentation tests it.
+This connects to [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb's Experiential Cycle]]. Concrete experience exposes the gap; reflection identifies the cause; conceptualization proposes a change; experimentation tests it.
 
 ## What This Should Feel Like
 
@@ -76,10 +76,10 @@ The instinct when progress stalls is usually to add more: more techniques, more 
 
 ## Links Into the Knowledge Base
 
-- [[Kolb's Experiential Cycle|Kolb's Experiential Cycle]] — the four-stage loop that converts practice into skill; theory calibration serves this loop
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb's Experiential Cycle]] — the four-stage loop that converts practice into skill; theory calibration serves this loop
 - [[Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — the RAM analogy and multiple element interactivity explain why working memory headroom is thin during early skill learning
 - [[Marginal Gains|Marginal Gains]] — the 1-2 techniques at a time constraint is the same logic: isolate the variable, consolidate, then expand
-- [[Self-Regulation|Self-Regulation]] — monitoring habit formation speed and calibrating intake accordingly is a metacognitive self-regulation task
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — monitoring habit formation speed and calibrating intake accordingly is a metacognitive self-regulation task
 - [[Are You Thinking, or Just Consuming?|Are You Thinking, or Just Consuming?]] — the distinction between understanding theory and being ready to use it
 - [[Prestudy|Prestudy]] — the theory/practice balance frames how much conceptual preparation is useful before attempting a skill in context
 

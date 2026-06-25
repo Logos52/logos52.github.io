@@ -57,11 +57,11 @@ Worked the logged idea up into a full PRD with Claude; it grew well past the ori
 - Video: text-first transcripts + AI commentary on hard sections.
 - Vietnamese seed: build my own starter deck from beginner transcripts/videos as I go.
 
-**Open / next.** Confirm names; word-status sign-off; provider eval for Vietnamese; repo + private-layer locations; bridge data sourcing. Full detail: [[PRDs/PRD-Tsumugu]].
+**Open / next.** Confirm names; word-status sign-off; provider eval for Vietnamese; repo + private-layer locations; bridge data sourcing. Full detail: [[projects/tsumugu|Tsumugu]].
 
 ## Update 2 — 2026-06-03 · Tsumugu finalized (PRD v11, handed to Claude Code)
 
-Name locked: **Tsumugu** (紡ぐ, "to weave"; earlier names retired). Build-ready PRD at `~/Projects/tsumugu/PRD.md` (+ vault `[[PRDs/PRD-Tsumugu]]`); repo scaffolded (README, Apache LICENSE, AGENTS.md/CLAUDE.md, pack-authoring stub, DESIGN-HISTORY).
+Name locked: **Tsumugu** (紡ぐ, "to weave"; earlier names retired). Build-ready PRD at `~/Projects/tsumugu/PRD.md` (+ vault `[[projects/tsumugu|Tsumugu]]`); repo scaffolded (README, Apache LICENSE, AGENTS.md/CLAUDE.md, pack-authoring stub, DESIGN-HISTORY).
 
 Final shape:
 - **Two public repos + one private folder:** engine (core logic) · wiki (Quartz llm-wiki) · personal (packs/vocab/word-store). All-public is fine — the folder is just organization. zh+vi combined for now, splittable later.

@@ -32,4 +32,4 @@ Gbrain and Lossless address the two temporal scopes where memory usually breaks:
 - **Lossless** plugs into the runtime’s context engine slot (e.g. lossless-claw for OpenClaw, lossless-hermes-py for Hermes).
 - **Gbrain** lives outside the runtime as a searchable index over a markdown knowledge base. The agent reaches it via CLI, MCP, skills, or plugins before acting.
 
-See also the broader [[wiki/Systems/AI & Agentic Systems|AI & Agentic Systems]] section.
+See also the broader [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] section.

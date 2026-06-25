@@ -117,7 +117,7 @@ This document is intentionally abstract. It describes the idea, not a specific i
 
 ## Start Here
 
-Open [[00 Command Center/Home]] in Obsidian.
+Open [[notes/index|Knowledge Base Index]] in Obsidian.
 
 LLM agents should read [[notes/index]] and [[AGENTS]] first.
 

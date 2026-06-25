@@ -42,7 +42,7 @@ Tools are context channels. They determine what the model can see, what it can m
 
 ## Sources
 
-- [[How I use LLMs|How I use LLMs]]
+- [[raw/sources/How I use LLMs|How I use LLMs]]
 
 ## Open Questions
 

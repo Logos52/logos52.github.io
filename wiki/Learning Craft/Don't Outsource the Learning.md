@@ -171,7 +171,7 @@ Warning signs:
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — the two-metric check is a self-regulation practice; metacognition is the monitoring layer that notices when AI is helping you think vs. helping you avoid thinking
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — the posture distinction maps directly here: passive copy-paste vs. active conceptual engagement
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — cognitive debt is the long-run version of offloaded cognitive load; effort not spent now is understanding not built
-- [[wiki/Live Clinic 60 The Right vs Wrong Way to Use AI|Live Clinic 60: The Right vs Wrong Way to Use AI]] — direct overlap on the posture-over-tool argument
+- [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|Live Clinic 60: The Right vs Wrong Way to Use AI]] — direct overlap on the posture-over-tool argument
 - [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]] — practical learning workflow that uses AI for friction removal while keeping schema ownership with the learner
 
 ## Open Questions

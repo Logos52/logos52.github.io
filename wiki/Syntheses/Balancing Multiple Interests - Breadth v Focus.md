@@ -17,7 +17,7 @@ A broad identity can stay alive without letting every interest become active at 
 
 The operating model is controlled rotation: keep the full set of interests alive in a long-term vision, but limit the number that are active in the current season.
 
-Breadth belongs in [[private/Goals/Priority 0|Priority 0]]. Focus belongs in the active loop.
+Breadth belongs in [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]. Focus belongs in the active loop.
 
 ## Core Thesis
 

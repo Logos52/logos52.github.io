@@ -36,10 +36,13 @@ const MONO_STACK = "'SF Mono', ui-monospace, Menlo, monospace";
 // local-mode params (selectLocalSpine): a tight, importance-filtered 2-hop "spine" around the current
 // note — a few landmark hubs fanned around the center, each carrying a short branch of its own satellites.
 // This replaces the old uncapped 2-hop union, which blew a hub note up to 100+ flat, structureless nodes.
-const LOCAL_LANDMARKS = 4; // hub branches fanned around the center note
-const LOCAL_SATS_PER = 2; // satellites each landmark carries (drawn from its own neighbours)
-const LOCAL_GLOBAL_CAP = 15; // hard node ceiling so a hub note can't flood the rail
-const LOCAL_RING_R = 120; // landmark ring radius (relative units; fitToView rescales into the box)
+const LOCAL_LANDMARKS = 4; // max hub branches fanned around the center note
+const LOCAL_SATS_PER = 2; // max satellites each landmark carries
+const LOCAL_GLOBAL_CAP = 15; // absolute node ceiling
+const LOCAL_FIT_BOOST = 1.14; // local rail: zoom in slightly past bbox fit
+const LOCAL_RAIL_AR_BOOST = 1.2; // target aspect wider than the canvas box (panorama strip)
+const LOCAL_X_STRETCH = 1.08; // nudge X after proportional squash
+const LOCAL_RING_R = 100; // landmark ring radius (relative units; fitToView rescales into the box)
 const LOCAL_SAT_REACH = 1.7; // satellites anchor this × further out than their landmark → branches point outward
 const LOCAL_LANDMARK_RADIUS = 5; // px; sits between the seed (flag) node and the small satellites
 // Importance prior by frontmatter `type`: structural anchors (hubs, syntheses, dimensions) outrank
@@ -181,8 +184,29 @@ function selectSpineConstellation(hubs: Set<string>, links: SLink[], valid: Set<
  *   satellites = each landmark's own top neighbours (the 2-hop ring), scored by cohesion (how many
  *               landmarks reach them — shared neighbours pull the cluster tight) plus importance, with a
  *               per-landmark budget so no single hub floods the graph.
- * Capped at LOCAL_GLOBAL_CAP so a heavily-linked hub note stays legible.
+ * Per-note budgets (deterministic):
+ *   A — landmarks ≤ ⌊√directNeighbors⌋
+ *   C — landmarks ≤ unique domains among direct neighbors
+ *   sats/landmark = 2 when domains ≥ 3 OR direct ≥ 8, else 1
+ *   cap = 1 + landmarks × (1 + sats), capped at LOCAL_GLOBAL_CAP
  */
+function localSpineBudget(
+  direct: string[],
+  domainOf: Map<string, string>,
+  isMobile: boolean,
+): { landmarkCount: number; satsPer: number; cap: number } {
+  const n = direct.length;
+  if (n === 0) return { landmarkCount: 0, satsPer: 0, cap: 1 };
+  const domains = new Set(direct.map((id) => domainOf.get(id) ?? 'gen')).size;
+  const fromA = Math.floor(Math.sqrt(n));
+  const fromC = domains;
+  let landmarkCount = Math.min(fromA, fromC, isMobile ? 3 : LOCAL_LANDMARKS);
+  landmarkCount = Math.max(landmarkCount, 1);
+  const satsPer = isMobile ? 1 : domains >= 3 || n >= 8 ? LOCAL_SATS_PER : 1;
+  const cap = Math.min(1 + landmarkCount * (1 + satsPer), isMobile ? 9 : LOCAL_GLOBAL_CAP);
+  return { landmarkCount, satsPer, cap };
+}
+
 function selectLocalSpine(
   seed: string,
   links: SLink[],
@@ -192,14 +216,13 @@ function selectLocalSpine(
   isMobile: boolean,
 ) {
   const { degree, neighbors } = buildAdjacency(links);
-  const landmarkCount = isMobile ? 3 : LOCAL_LANDMARKS;
-  const satsPer = isMobile ? 1 : LOCAL_SATS_PER;
-  const cap = isMobile ? 9 : LOCAL_GLOBAL_CAP;
   const imp = (id: string) => typeRank(typeOf.get(id)) * 10 + Math.min(degree.get(id) ?? 0, 24);
 
   const direct = [...(neighbors.get(seed) ?? [])]
-    .filter((n) => valid.has(n))
+    .filter((id) => valid.has(id))
     .sort((a, b) => imp(b) - imp(a) || a.localeCompare(b));
+
+  const { landmarkCount, satsPer, cap } = localSpineBudget(direct, domainOf, isMobile);
 
   // Landmarks: highest-importance direct neighbours, one per domain first so the branches stay distinct,
   // then fill from what's left if the note only touches a couple of domains.
@@ -236,6 +259,194 @@ function selectLocalSpine(
     }
   }
   return { neighbourhood, satelliteParent, landmarks: landmarkSet };
+}
+
+/**
+ * Local-rail geometry — deterministic function of each note's neighborhood, not a random seed.
+ *
+ * Per landmark i:
+ *   θᵢ = domainAngle(domainᵢ) + sectorW × ((importanceᵢ mod 13) / 13 − ½) × 0.35
+ *   rᵢ = R₀ × (0.88 + 0.11·satᵢ + 0.008·degreeᵢ)
+ *
+ * Frame orientation (replaces hash rotation):
+ *   φ = atan2(Σ wᵢ·sin θᵢ, Σ wᵢ·cos θᵢ),  w_seed = √degree_seed,  wᵢ = √importanceᵢ
+ *
+ * Layout kind from topology:
+ *   L landmarks, D unique domains, S = angular span of {θᵢ}
+ *   → monopole | bilateral | arc | tripod | ring
+ *
+ * Final angle blends natural θᵢ with an arc/ring distribution centered at φ.
+ */
+type LocalLayoutKind = 'ring' | 'arc' | 'bilateral' | 'tripod' | 'monopole' | 'vertical-spine';
+type LocalPlacement = { ang: number; r: number };
+type LocalGeometry = { kind: LocalLayoutKind; ringR: number; placements: Map<string, LocalPlacement> };
+
+function domainAngle(dom: string): number {
+  const idx = Math.max(0, DOMAINS.indexOf(dom as never));
+  const t = DOMAINS.length <= 1 ? 0.5 : idx / (DOMAINS.length - 1);
+  return t * Math.PI * 2 - Math.PI / 2;
+}
+
+function landmarkImportance(id: string, typeOf: Map<string, string>, degree: Map<string, number>): number {
+  return typeRank(typeOf.get(id)) * 10 + Math.min(degree.get(id) ?? 0, 24);
+}
+
+/** Smallest arc on the circle that covers all landmark domain angles. */
+function angularSpan(angles: number[]): number {
+  if (angles.length < 2) return 0;
+  const sorted = [...angles].sort((a, b) => a - b);
+  let maxGap = 0;
+  for (let i = 0; i < sorted.length; i++) {
+    const cur = sorted[i];
+    const next = sorted[(i + 1) % sorted.length];
+    const gap = i === sorted.length - 1 ? sorted[0] + Math.PI * 2 - cur : next - cur;
+    maxGap = Math.max(maxGap, gap);
+  }
+  return Math.PI * 2 - maxGap;
+}
+
+function deriveLocalGeometry(
+  seed: string,
+  landmarks: string[],
+  satelliteParent: Map<string, string>,
+  domainOf: Map<string, string>,
+  typeOf: Map<string, string>,
+  degree: Map<string, number>,
+  vertical: boolean,
+): LocalGeometry {
+  const L = landmarks.length;
+  const satCount = (lm: string) => [...satelliteParent.values()].filter((p) => p === lm).length;
+  const totalSats = landmarks.reduce((n, lm) => n + satCount(lm), 0);
+  const domainCount = new Set(landmarks.map((id) => domainOf.get(id) ?? 'gen')).size;
+  const ringR = LOCAL_RING_R * (0.78 + Math.min(totalSats, 8) * 0.028 + L * 0.02);
+  const placements = new Map<string, LocalPlacement>();
+  const sectorW = (Math.PI * 2) / Math.max(DOMAINS.length, 1);
+
+  const naturalAngle = new Map<string, number>();
+  for (const lm of landmarks) {
+    const imp = landmarkImportance(lm, typeOf, degree);
+    const offset = sectorW * (((imp % 13) / 13 - 0.5) * 0.35);
+    naturalAngle.set(lm, domainAngle(domainOf.get(lm) ?? 'gen') + offset);
+  }
+
+  const spokeR = (lm: string) =>
+    ringR * (0.88 + Math.min(satCount(lm), 3) * 0.11 + Math.min(degree.get(lm) ?? 0, 12) * 0.008);
+
+  if (vertical) {
+    const ordered = [...landmarks].sort(
+      (a, b) => landmarkImportance(b, typeOf, degree) - landmarkImportance(a, typeOf, degree) || a.localeCompare(b),
+    );
+    const step = ringR * 0.52;
+    ordered.forEach((lm, i) => {
+      const θ = naturalAngle.get(lm)!;
+      placements.set(lm, { ang: θ, r: (i - (ordered.length - 1) / 2) * step });
+    });
+    return { kind: 'vertical-spine', ringR, placements };
+  }
+
+  const span = angularSpan([...naturalAngle.values()]);
+  let kind: LocalLayoutKind;
+  if (L === 0) kind = 'ring';
+  else if (L === 1) kind = 'monopole';
+  else if (L === 2) kind = 'bilateral';
+  else if (L === 3 && span < Math.PI * 0.85) kind = 'arc';
+  else if (L === 3) kind = 'tripod';
+  else if (span >= Math.PI * 1.35 && domainCount >= 3) kind = 'ring';
+  else if (span < Math.PI) kind = 'arc';
+  else kind = 'ring';
+
+  let vx = Math.cos(domainAngle(domainOf.get(seed) ?? 'gen')) * Math.sqrt(degree.get(seed) ?? 1);
+  let vy = Math.sin(domainAngle(domainOf.get(seed) ?? 'gen')) * Math.sqrt(degree.get(seed) ?? 1);
+  for (const lm of landmarks) {
+    const w = Math.sqrt(landmarkImportance(lm, typeOf, degree));
+    const θ = naturalAngle.get(lm)!;
+    vx += w * Math.cos(θ);
+    vy += w * Math.sin(θ);
+  }
+  const frame = Math.atan2(vy, vx);
+
+  const setPolar = (id: string, ang: number, r: number) => placements.set(id, { ang, r });
+
+  if (kind === 'monopole') {
+    const lm = landmarks[0];
+    setPolar(lm, naturalAngle.get(lm)!, spokeR(lm));
+  } else if (kind === 'bilateral') {
+    const [a, b] = [...landmarks].sort((x, y) => naturalAngle.get(x)! - naturalAngle.get(y)!);
+    const θa = naturalAngle.get(a)!;
+    const θb = naturalAngle.get(b)!;
+    const mid = Math.atan2(Math.sin(θa) + Math.sin(θb), Math.cos(θa) + Math.cos(θb));
+    const sep = Math.max(Math.abs(θb - θa), Math.PI * 0.55);
+    setPolar(a, mid - sep / 2, spokeR(a));
+    setPolar(b, mid + sep / 2, spokeR(b) * (Math.abs(satCount(a) - satCount(b)) >= 2 ? 1.06 : 1));
+  } else {
+    const ordered = [...landmarks].sort((a, b) => naturalAngle.get(a)! - naturalAngle.get(b)!);
+    let arcSpan: number;
+    if (kind === 'ring') arcSpan = Math.PI * 2 * 0.94;
+    else if (kind === 'tripod') arcSpan = Math.min(span + Math.PI * 0.35, Math.PI * 1.15);
+    else arcSpan = Math.min(span + Math.PI * 0.25, Math.PI * 0.92);
+    const blend = kind === 'ring' ? 0.55 : 0.72;
+    const start = frame - arcSpan / 2;
+    ordered.forEach((lm, i) => {
+      const distributed = ordered.length === 1 ? frame : start + (arcSpan * i) / Math.max(ordered.length - 1, 1);
+      const θ = naturalAngle.get(lm)! * blend + distributed * (1 - blend);
+      setPolar(lm, θ, spokeR(lm));
+    });
+  }
+
+  return { kind, ringR, placements };
+}
+
+function applyLocalGeometry(
+  geometry: LocalGeometry,
+  landmarkAnchorX: Map<string, number>,
+  landmarkAnchorY: Map<string, number>,
+) {
+  for (const [id, { ang, r }] of geometry.placements) {
+    if (geometry.kind === 'vertical-spine') {
+      landmarkAnchorX.set(id, Math.cos(ang) * geometry.ringR * 0.18);
+      landmarkAnchorY.set(id, r);
+    } else {
+      landmarkAnchorX.set(id, Math.cos(ang) * r);
+      landmarkAnchorY.set(id, Math.sin(ang) * r);
+    }
+  }
+}
+
+function localSatReach(parentId: string, satelliteParent: Map<string, string>, degree: Map<string, number>): number {
+  const sats = [...satelliteParent.values()].filter((p) => p === parentId).length;
+  return LOCAL_SAT_REACH * (0.82 + Math.min(sats, 3) * 0.14 + Math.min(degree.get(parentId) ?? 0, 8) * 0.01);
+}
+
+/** Squash/stretch node positions to match the rail's wide aspect ratio (proportional, not a fixed Y factor). */
+function applyLocalRailProportion(nodes: CNode[], viewW: number, viewH: number) {
+  let minX = Infinity;
+  let maxX = -Infinity;
+  let minY = Infinity;
+  let maxY = -Infinity;
+  for (const n of nodes) {
+    const x = n.x ?? 0;
+    const y = n.y ?? 0;
+    if (x < minX) minX = x;
+    if (x > maxX) maxX = x;
+    if (y < minY) minY = y;
+    if (y > maxY) maxY = y;
+  }
+  const bw = Math.max(maxX - minX, 10);
+  const bh = Math.max(maxY - minY, 10);
+  const targetAR = (viewW / viewH) * LOCAL_RAIL_AR_BOOST;
+  const naturalAR = bw / bh;
+
+  let scaleX = LOCAL_X_STRETCH;
+  let scaleY = 1;
+  if (naturalAR < targetAR) scaleY = naturalAR / targetAR;
+  else scaleX *= Math.min(targetAR / naturalAR, 1.28);
+
+  for (const n of nodes) {
+    if (n.x != null) n.x *= scaleX;
+    if (n.y != null) n.y *= scaleY;
+    if (n.fx != null) n.fx *= scaleX;
+    if (n.fy != null) n.fy *= scaleY;
+  }
 }
 
 function selectSpineLinks(
@@ -351,11 +562,11 @@ const NODE_LEAF_PX = 1.8; // ≈ the home's smallest satellite at its fit
 const NODE_GROW_PX = 0.4; // × sqrt(degree) — gentle, since median degree is high (~9); keeps the
 //                            typical node small (~3px) and lets only rare high-degree hubs grow
 const NODE_CAP_PX = 7; // ≈ the home's hub at its fit
-const NODE_FLAG_MIN_PX = 5; // local seeds stay prominent
-function screenR(n: CNode): number {
-  const r = Math.min(NODE_LEAF_PX + NODE_GROW_PX * Math.sqrt(n.degree), NODE_CAP_PX);
-  return n.isFlag ? Math.max(r, NODE_FLAG_MIN_PX) : r;
-}
+const NODE_FLAG_MIN_PX = 5; // spine / full seeds
+const LOCAL_NODE_LEAF_PX = 1.1;
+const LOCAL_NODE_GROW_PX = 0.2;
+const LOCAL_NODE_CAP_PX = 3.4;
+const LOCAL_CURRENT_PX = 3.5; // local rail: slightly larger than neighbors, no title
 
 export function initConstellation(root: HTMLElement, data: GraphData) {
   const canvas = root.querySelector('canvas') as HTMLCanvasElement | null;
@@ -386,7 +597,26 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   const hubIdsInOrder = [...SPINE_HUBS.keys()].filter((h) => valid.has(h));
   const hubSet = new Set(hubIdsInOrder);
   const seedSet = new Set(seedSlugs.filter((s) => valid.has(s)));
+  /** Single-seed note sidebar — flattened rail + subtle current-node emphasis. */
+  const noteRailLocal = mode === 'local' && seedSet.size === 1 && !vertical;
+  /** Journal / projects: persistent seed titles + HTML hover tip for everything else. */
+  const localSeedLabels = mode === 'local' && !noteRailLocal;
+  /** Note rail + journal/projects: HTML hover tip for non-seed nodes (and note-rail seeds). */
+  const localHoverTip = mode === 'local';
+  /** Home spine + notes overview: HTML hover tips with separated neighborhood labels. */
+  const overviewHoverTips = mode === 'spine' || mode === 'full';
+  const htmlHoverTips = overviewHoverTips || localHoverTip;
   const flagSet = mode === 'local' ? seedSet : hubSet;
+
+  function screenR(n: CNode, graphMode: 'spine' | 'full' | 'local'): number {
+    if (graphMode === 'local') {
+      const r = Math.min(LOCAL_NODE_LEAF_PX + LOCAL_NODE_GROW_PX * Math.sqrt(n.degree), LOCAL_NODE_CAP_PX);
+      return noteRailLocal && n.isFlag ? Math.max(r, LOCAL_CURRENT_PX) : r;
+    }
+    const r = Math.min(NODE_LEAF_PX + NODE_GROW_PX * Math.sqrt(n.degree), NODE_CAP_PX);
+    if (n.isFlag) return Math.max(r, NODE_FLAG_MIN_PX);
+    return r;
+  }
 
   let nodes: CNode[];
   let links: CLink[];
@@ -423,8 +653,15 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
       isLandmark,
       isFlag,
       r,
-      // label the seed always; in local mode label the landmarks too (they're the structure).
-      label: isFlag ? (SPINE_HUBS.get(id) ?? titleOf.get(id)) : isLandmark ? titleOf.get(id) : undefined,
+      label: noteRailLocal
+        ? undefined
+        : localSeedLabels && isFlag
+          ? titleOf.get(id)
+          : mode !== 'local' && isFlag
+            ? (SPINE_HUBS.get(id) ?? titleOf.get(id))
+            : mode !== 'local' && isLandmark
+              ? titleOf.get(id)
+              : undefined,
       parent: satelliteParent.get(id),
     };
   };
@@ -529,33 +766,30 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
         );
     } else if (mode === 'local') {
       if (landmarkSet.size > 0) {
-        // local SPINE: the center note is pinned at the origin; landmarks are fanned evenly on a ring,
-        // and each landmark's satellites anchor further out along the same spoke so its branch points
-        // outward. fitToView then scales the whole structure into the rail.
-        const L = [...landmarkSet];
-        L.forEach((id, i) => {
-          const ang = (Math.PI * 2 * i) / L.length - Math.PI / 2;
-          landmarkAnchorX.set(id, Math.cos(ang) * LOCAL_RING_R);
-          landmarkAnchorY.set(id, Math.sin(ang) * LOCAL_RING_R);
-        });
+        // local SPINE: seed pinned at origin; landmark seats from deriveLocalGeometry() — a pure
+        // function of domain angles, link mass, and angular span (no hash / random seed).
+        const landmarkIds = [...landmarkSet];
+        const seed = seedSet.size === 1 ? [...seedSet][0] : '';
+        const geometry = deriveLocalGeometry(seed, landmarkIds, satelliteParent, nodeDomain, typeOf, degree, vertical);
+        applyLocalGeometry(geometry, landmarkAnchorX, landmarkAnchorY);
         const anchorStrength = (d: CNode) =>
           seedSet.has(d.id) ? 1 : landmarkSet.has(d.id) ? 0.9 : d.parent ? 0.3 : 0.08;
+        const satX = (d: CNode) =>
+          d.parent ? (landmarkAnchorX.get(d.parent) ?? 0) * localSatReach(d.parent, satelliteParent, degree) : 0;
+        const satY = (d: CNode) =>
+          d.parent ? (landmarkAnchorY.get(d.parent) ?? 0) * localSatReach(d.parent, satelliteParent, degree) : 0;
         sim
-          .force('charge', forceManyBody<CNode>().strength(-260))
+          .force('charge', forceManyBody<CNode>().strength(geometry.kind === 'arc' ? -240 : -260))
           .force('center', forceCenter<CNode>(0, 0).strength(0.03))
           .force('link', forceLink<CNode, CLink>(links).id((n) => n.id).distance(46).strength(0.5))
           .force('collide', forceCollide<CNode>((n) => n.r + 8).iterations(2))
           .force(
             'x',
-            forceX<CNode>((d) =>
-              landmarkSet.has(d.id) ? landmarkAnchorX.get(d.id) ?? 0 : d.parent ? (landmarkAnchorX.get(d.parent) ?? 0) * LOCAL_SAT_REACH : 0,
-            ).strength(anchorStrength),
+            forceX<CNode>((d) => (landmarkSet.has(d.id) ? landmarkAnchorX.get(d.id) ?? 0 : satX(d))).strength(anchorStrength),
           )
           .force(
             'y',
-            forceY<CNode>((d) =>
-              landmarkSet.has(d.id) ? landmarkAnchorY.get(d.id) ?? 0 : d.parent ? (landmarkAnchorY.get(d.parent) ?? 0) * LOCAL_SAT_REACH : 0,
-            ).strength(anchorStrength),
+            forceY<CNode>((d) => (landmarkSet.has(d.id) ? landmarkAnchorY.get(d.id) ?? 0 : satY(d))).strength(anchorStrength),
           );
       } else {
         // a leaf or orphan note with no landmarks: gentle force, seed centered.
@@ -634,6 +868,11 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
         }
       }
       sim.tick(Math.ceil(settleTicks / 4));
+      // Sidebar local graph: proportional flatten to the canvas aspect (journal vertical orient skips).
+      if (noteRailLocal) {
+        applyLocalRailProportion(nodes, width, height);
+        sim.tick(6);
+      }
     }
 
     fitToView();
@@ -678,7 +917,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
       }
     }
     if (!isFinite(minX) || count === 0) return;
-    const m = SPINE_AUTO_FIT_MARGIN + (mode === 'spine' ? 8 : 18); // just a smidge of breathing room
+    const m = SPINE_AUTO_FIT_MARGIN + (mode === 'spine' ? 8 : mode === 'local' ? 10 : 18);
     let centerX: number;
     let centerY: number;
     let fit: number;
@@ -724,7 +963,9 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
       // local: the seed is pinned at the origin, so fit the bounding box around it.
       const bw = maxX - minX;
       const bh = maxY - minY;
-      fit = Math.min((width - m * 2) / bw, (height - m * 2) / bh, SPINE_MAX_FIT_SCALE);
+      fit =
+        Math.min((width - m * 2) / bw, (height - m * 2) / bh, SPINE_MAX_FIT_SCALE) *
+        (mode === 'local' ? LOCAL_FIT_BOOST : 1);
       centerX = (minX + maxX) / 2;
       centerY = (minY + maxY) / 2;
     }
@@ -748,10 +989,97 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   select(canvas).call(zb as any);
 
   let hovered: CNode | null = null;
+  let tipsRoot =
+    root.querySelector<HTMLElement>('.constellation__tips') ??
+    Object.assign(document.createElement('div'), { className: 'constellation__tips', ariaHidden: 'true' });
+  if (!tipsRoot.parentElement) root.appendChild(tipsRoot);
+
+  type TipSlot = { n: CNode; x: number; y: number; w: number; h: number };
+  const TIP_H = 13;
+  const TIP_GAP = 10;
+  const tipWidth = (text: string) => Math.max(28, text.length * 5.2);
+
+  function tipAnchor(n: CNode, k: number): TipSlot {
+    const r = nodeR(n);
+    const x = (n.x ?? 0) * k + transform.x;
+    const y = (n.y ?? 0) * k + transform.y;
+    const text = n.label ?? n.title;
+    return { n, x, y: y - r - TIP_GAP, w: tipWidth(text), h: TIP_H };
+  }
+
+  function separateTipSlots(slots: TipSlot[]) {
+    for (let pass = 0; pass < 14; pass++) {
+      for (let i = 0; i < slots.length; i++) {
+        for (let j = i + 1; j < slots.length; j++) {
+          const a = slots[i];
+          const b = slots[j];
+          const overlapX = (a.w + b.w) / 2 + 8 - Math.abs(b.x - a.x);
+          const overlapY = (a.h + b.h) / 2 + 6 - Math.abs(b.y - a.y);
+          if (overlapX > 0 && overlapY > 0) {
+            const pushX = overlapX * 0.55;
+            const pushY = overlapY * 0.55;
+            const sx = Math.sign(b.x - a.x) || (i % 2 ? 1 : -1);
+            const sy = Math.sign(b.y - a.y) || -1;
+            a.x -= pushX * sx;
+            b.x += pushX * sx;
+            a.y -= pushY * sy;
+            b.y += pushY * sy;
+          }
+        }
+      }
+      for (const s of slots) {
+        const anchor = tipAnchor(s.n, transform.k);
+        s.x += (anchor.x - s.x) * 0.12;
+        s.y += (anchor.y - s.y) * 0.12;
+      }
+    }
+  }
+
+  function shouldSkipHtmlTip(n: CNode) {
+    if (mode === 'spine' && n.tier === 'hub') return true;
+    if (localSeedLabels && n.isFlag) return true;
+    return false;
+  }
+
+  function renderHoverTips(center: CNode | null, k: number) {
+    tipsRoot.innerHTML = '';
+    if (!htmlHoverTips || !center) return;
+
+    const slots: TipSlot[] = [];
+    if (overviewHoverTips) {
+      const hood = new Set<CNode>([center]);
+      let neighbors = [...(adj.get(center.id) ?? [])]
+        .map((id) => byId.get(id))
+        .filter((n): n is CNode => !!n);
+      if (mode === 'full' && neighbors.length > 12) {
+        neighbors = neighbors.sort((a, b) => b.degree - a.degree || a.title.localeCompare(b.title)).slice(0, 12);
+      }
+      for (const nb of neighbors) hood.add(nb);
+      for (const n of hood) {
+        if (shouldSkipHtmlTip(n)) continue;
+        slots.push(tipAnchor(n, k));
+      }
+      if (slots.length > 1) separateTipSlots(slots);
+    } else if (localHoverTip) {
+      if (shouldSkipHtmlTip(center)) return;
+      slots.push(tipAnchor(center, k));
+    }
+
+    for (const s of slots) {
+      const el = document.createElement('div');
+      el.className = 'constellation__tip';
+      el.textContent = s.n.label ?? s.n.title;
+      el.style.left = `${s.x}px`;
+      el.style.top = `${s.y}px`;
+      el.style.transform = 'translate(-50%, -100%)';
+      tipsRoot.appendChild(el);
+    }
+  }
+
   // The home spine keeps its ORIGINAL fit-scaled tier sizing (untouched). Every OTHER graph uses the
   // fixed-px screenR so its node size stays consistent regardless of canvas / zoom / node count —
   // calibrated above to match what the home looks like.
-  const nodeR = (n: CNode) => (mode === 'spine' ? n.r * transform.k : screenR(n));
+  const nodeR = (n: CNode) => (mode === 'spine' ? n.r * transform.k : screenR(n, mode));
   function nodeAt(px: number, py: number): CNode | null {
     let best: CNode | null = null;
     let bestD = Infinity;
@@ -779,7 +1107,13 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
       draw();
     }
   });
-  canvas.addEventListener('mouseleave', () => hovered && ((hovered = null), draw()));
+  canvas.addEventListener('mouseleave', () => {
+    if (hovered) {
+      hovered = null;
+      tipsRoot.innerHTML = '';
+      draw();
+    }
+  });
   canvas.addEventListener('click', (ev) => {
     const rect = canvas.getBoundingClientRect();
     const n = nodeAt(ev.clientX - rect.left, ev.clientY - rect.top);
@@ -844,34 +1178,41 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
 
     for (const n of nodes) {
       const baseHue = colors.domain[n.domain] ?? colors.accent;
-      // per-node shade: leaves lighter, hubs full hue, + small deterministic jitter → hue/shade variety
+      const r = nodeR(n);
+      const isCurrent = noteRailLocal && n.isFlag;
       const degU = Math.min(Math.sqrt(n.degree) / 4, 1);
       const shade = Math.max(0, Math.min(0.6, 0.5 * (1 - degU) + 0.12 * (hash01(n.id) - 0.5)));
-      const fill = mixWhite(baseHue, shade);
-      ctx.globalAlpha = dim(n) ? 0.16 : n.isFlag ? 1 : 0.92;
+      const fill = isCurrent ? mixWhite(baseHue, shade * 0.35) : mixWhite(baseHue, shade);
+      ctx.globalAlpha = dim(n) ? 0.16 : isCurrent ? 0.96 : mode === 'local' ? 0.84 : n.isFlag ? 1 : 0.92;
       ctx.beginPath();
-      ctx.arc(sx(n), sy(n), nodeR(n), 0, Math.PI * 2);
+      ctx.arc(sx(n), sy(n), r, 0, Math.PI * 2);
       ctx.fillStyle = fill;
       ctx.fill();
-      if (n.isFlag || n === hovered) {
+      if (isCurrent) {
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = baseHue;
+        ctx.globalAlpha = dim(n) ? 0.2 : 0.38;
+        ctx.beginPath();
+        ctx.arc(sx(n), sy(n), r + 2, 0, Math.PI * 2);
+        ctx.stroke();
+      } else if (n === hovered || (mode !== 'local' && n.isFlag)) {
         ctx.lineWidth = 1.5;
         ctx.strokeStyle = baseHue;
         ctx.globalAlpha = dim(n) ? 0.22 : 0.5;
         ctx.beginPath();
-        ctx.arc(sx(n), sy(n), nodeR(n) + 3.5, 0, Math.PI * 2);
+        ctx.arc(sx(n), sy(n), r + 3.5, 0, Math.PI * 2);
         ctx.stroke();
       }
     }
     ctx.globalAlpha = 1;
 
-    // labels: spine hubs persistent; hovered node + neighbours in both modes
+    // labels: spine hubs + journal/projects seeds persistent; everything else → HTML hover tips.
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
     for (const n of nodes) {
-      const persistent = (mode === 'spine' && n.tier === 'hub') || (mode === 'local' && (n.isFlag || n.isLandmark));
-      const show = persistent || n === hovered || (hovered && neigh && neigh.has(n.id));
-      if (!show) continue;
-      const big = n.tier === 'hub';
+      const persistent = (mode === 'spine' && n.tier === 'hub') || (localSeedLabels && n.isFlag);
+      if (!persistent) continue;
+      const big = n.tier === 'hub' || (localSeedLabels && n.isFlag);
       ctx.globalAlpha = dim(n) ? 0.3 : 1;
       ctx.font = `${big ? 500 : 400} ${big ? 10 : 9}px ${MONO_STACK}`;
       const text = n.label ?? n.title;
@@ -902,6 +1243,8 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
       }
       ctx.globalAlpha = 1;
     }
+
+    renderHoverTips(hovered, k);
   }
 
   layout();

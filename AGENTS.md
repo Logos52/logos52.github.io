@@ -410,7 +410,7 @@ Do not move content between these without updating `src/lib/ignore-patterns.mjs`
 Rules for LLM agents:
 
 - Wikilinks (`[[Page]]` and `[[path/to/Page|Alias]]`) are first-class on the published site. Prefer wikilinks over raw markdown links so the build can resolve them and feed them into the graph and backlinks.
-- Wikilinks pointing into excluded folders (e.g., `[[raw/Source Index]]`, `[[templates/Kolbs Template]]`) will render as broken on the site. They are still valuable inside Obsidian; leave them unless the user asks for a cleanup.
+- Wikilinks pointing into excluded folders (e.g., `[[raw/Source Index|Source Index]]`, `[[templates/Kolbs Template]]`) will render as broken on the site. They are still valuable inside Obsidian; leave them unless the user asks for a cleanup.
 - When adding a new wiki page, prefer placing it under one of the existing top-level subfolders in `wiki/` (`Books/`, `Concepts/`, `Decision Making/`, `Dimensions/`, `Domains/`, `Experiences/`, `Language/`, `Learning Craft/`, `Minimalism/`, `Red Team/`, `Resources/`, `Self Management/`, `Syntheses/`, `Systems/`, `Techniques/`, `Workflows/`).
 - Do not commit `node_modules/`, `dist/`, or `.astro/`. These are gitignored.
 - The site is a normal Astro project: pages in `src/pages/`, UI in `src/components/`, layouts in `src/layouts/`, client islands in `src/islands/`, shared logic in `src/lib/`. The publish boundary is `scripts/copy-public-notes.mjs` plus the denylist `src/lib/ignore-patterns.mjs`.

@@ -3,25 +3,23 @@
  * No modal, no backdrop blur: results drop down right under the input. Keyboard ↑ ↓ Enter Esc, ⌘K focus.
  * Wire on any element containing `[data-search-input]` + `[data-search-results]`.
  */
+import { loadPagefind } from '../lib/pagefind-client';
 import { DOMAIN_LABELS, isDomain } from '../lib/types';
 
-type PagefindResult = { data: () => Promise<{ url: string; meta: Record<string, string>; excerpt: string }> };
-type PagefindAPI = {
-  options: (o: Record<string, unknown>) => Promise<void>;
-  search: (q: string) => Promise<{ results: PagefindResult[] }>;
-};
-
-let pf: PagefindAPI | null = null;
-async function pagefind(): Promise<PagefindAPI> {
-  if (pf) return pf;
-  const mod = await import(/* @vite-ignore */ '/pagefind/pagefind.js');
-  pf = mod as PagefindAPI;
-  await pf.options({ excerptLength: 18 });
-  return pf;
+/** Warm Pagefind after idle so first keystroke doesn't hitch the main thread. */
+function preloadPagefind(): void {
+  const run = () => void loadPagefind(18).catch(() => {});
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(run, { timeout: 2500 });
+  } else {
+    setTimeout(run, 800);
+  }
 }
 
 const domainLabel = (raw?: string) => (raw && isDomain(raw) ? DOMAIN_LABELS[raw] : (raw ?? ''));
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+let cmdKBound = false;
 
 export function initInlineSearch(root: HTMLElement): void {
   const input = root.querySelector<HTMLInputElement>('[data-search-input]');
@@ -67,7 +65,7 @@ export function initInlineSearch(root: HTMLElement): void {
       return render();
     }
     try {
-      const api = await pagefind();
+      const api = await loadPagefind(18);
       const { results } = await api.search(q.trim());
       rows = await Promise.all(
         results.slice(0, 8).map(async (h) => {
@@ -119,10 +117,15 @@ export function initInlineSearch(root: HTMLElement): void {
   document.addEventListener('click', (e) => {
     if (!root.contains(e.target as Node)) show(false);
   });
-  document.addEventListener('keydown', (e) => {
-    if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
-      e.preventDefault();
-      input.focus();
-    }
-  });
+
+  if (!cmdKBound) {
+    cmdKBound = true;
+    preloadPagefind();
+    document.addEventListener('keydown', (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        document.querySelector<HTMLInputElement>('.kb-chrome [data-search-input]')?.focus();
+      }
+    });
+  }
 }

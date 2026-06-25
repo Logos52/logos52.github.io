@@ -5,7 +5,7 @@
  *
  * Brand lockup (mark-nodes-violet + "Knowledge base" + "second brain" kicker),
  * nav with .on active state, theme-toggle button (#theme-toggle, wired by Base),
- * and the ⌘K search affordance pill.
+ * and one inline search field (dropdown results, no modal).
  */
 interface Props {
   /** Active nav id — one of "atlas" | "notes" | "projects" | "about". */
@@ -20,7 +20,6 @@ const nav: { id: string; label: string; href: string }[] = [
   { id: 'journal', label: 'Journal', href: '/journal' },
   { id: 'about', label: 'About', href: '/about' },
 ];
-const isHome = active === 'home';
 ---
 
 <header class="kb-chrome">
@@ -57,19 +56,17 @@ const isHome = active === 'home';
       <span class="kb-theme-toggle__light">☾</span>
       <span class="kb-theme-toggle__dark">☀</span>
     </button>
-    {!isHome && (
-      <div class="kb-search" data-inline-search>
-        <input
-          type="search"
-          class="kb-search-input"
-          data-search-input
-          placeholder="Find a note…"
-          aria-label="Search notes"
-          autocomplete="off"
-        />
-        <div class="kb-search-results" data-search-results hidden></div>
-      </div>
-    )}
+    <div class="kb-search" data-inline-search>
+      <input
+        type="search"
+        class="kb-search-input"
+        data-search-input
+        placeholder="Find a note… (⌘K)"
+        aria-label="Search notes"
+        autocomplete="off"
+      />
+      <div class="kb-search-results" data-search-results hidden></div>
+    </div>
     <button type="button" class="kb-menu-btn" id="kb-menu-btn" aria-label="Open menu" aria-expanded="false">
       ☰
     </button>
@@ -188,21 +185,19 @@ const isHome = active === 'home';
     font-family: var(--sans);
     font-size: 12.5px;
     color: var(--ink);
-    width: 160px;
+    width: 200px;
     border: 1px solid var(--rule2);
     border-radius: 999px;
     padding: 6px 14px;
     background: var(--card);
     outline: none;
-    transition:
-      width var(--dur-base) var(--ease-standard),
-      border-color var(--dur-base);
+    /* No width transition — animating width reflows the sticky blurred header every frame (choppy ⌘K). */
+    transition: border-color var(--dur-fast) var(--ease-standard);
   }
   .kb-search-input::placeholder {
     color: var(--faint);
   }
   .kb-search-input:focus {
-    width: 230px;
     border-color: var(--accent);
   }
   .kb-search :global([data-search-results]) {
@@ -245,24 +240,19 @@ const isHome = active === 'home';
       display: flex;
     }
     .kb-search {
-      display: none;
+      flex: 1;
+      min-width: 0;
+      max-width: 200px;
+    }
+    .kb-search-input {
+      width: 100%;
     }
     .kb-menu-btn {
       display: inline-block;
-      margin-left: auto;
     }
     .kb-theme-toggle {
       margin-right: 0;
     }
-  }
-  .kb-search-pill kbd {
-    font-family: var(--mono);
-    font-size: 10px;
-    background: var(--raised);
-    border: 1px solid var(--rule2);
-    border-radius: 4px;
-    padding: 1px 5px;
-    color: var(--mut);
   }
 </style>
 

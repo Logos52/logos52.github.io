@@ -151,14 +151,6 @@ const DOMAIN_ICONS: Record<Domain, string> = {
         <h1 class="hero__title">{hero.title}</h1>
         <p class="hero__lede">{hero.lede}</p>
       </section>
-      <div class="hero__search" data-inline-search>
-        <svg class="hero__search-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
-          <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm9 16-4.35-4.35" />
-        </svg>
-        <input type="search" class="hero__search-input" data-search-input placeholder="Find a note…" aria-label="Search notes" autocomplete="off" />
-        <div class="hero__search-results" data-search-results hidden></div>
-      </div>
-
       <section class="map">
         <Constellation height="clamp(150px, 17vh, 200px)" />
         <div class="map__legend">
@@ -249,46 +241,6 @@ const DOMAIN_ICONS: Record<Domain, string> = {
     color: var(--mut);
     margin: 0;
   }
-  .hero__search {
-    position: relative;
-    width: 46%;
-    min-width: 12rem;
-    margin: 14px 0 0;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    background: var(--card);
-    border: 1px solid var(--rule2);
-    border-radius: 8px;
-    padding: 7px 12px;
-    box-shadow: var(--tsg-shadow-sm, var(--tsg-shadow));
-    transition: border-color var(--dur-base);
-  }
-  .hero__search:focus-within {
-    border-color: var(--accent);
-  }
-  .hero__search-icon {
-    color: var(--faint);
-    flex-shrink: 0;
-  }
-  .hero__search-input {
-    flex: 1;
-    border: none;
-    outline: none;
-    background: none;
-    font-family: var(--sans);
-    font-size: 14px;
-    color: var(--ink);
-  }
-  .hero__search-input::placeholder {
-    color: var(--faint);
-  }
-  .hero__search :global([data-search-results]) {
-    left: 0;
-    right: 0;
-    top: 100%;
-  }
-
   /* constellation + legend */
   .map {
     margin: 18px 0 0;
@@ -496,9 +448,6 @@ const DOMAIN_ICONS: Record<Domain, string> = {
     }
     .wrap {
       padding: 0 16px;
-    }
-    .hero__search {
-      width: 100%;
     }
     .map__graph-link {
       margin-left: 0;

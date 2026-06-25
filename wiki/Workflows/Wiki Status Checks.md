@@ -27,7 +27,7 @@ Use a status check when the user asks:
 
 ## Workflow
 
-1. Read [[notes/index|notes/index.md]], recent [[log|log.md]] entries, and the top-level `wiki/` folders.
+1. Read [[notes/index|notes/index.md]], recent `log.md` entries, and the top-level `wiki/` folders.
 2. Count wiki pages by folder and page type when useful.
 3. Identify recently updated pages.
 4. Identify likely orphans, pages missing source sections, stale pages, and bloated pages.
@@ -61,7 +61,7 @@ Useful status fields:
 
 - [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]
 - [[wiki/Workflows/Wiki Breakdown Pass|Wiki Breakdown Pass]]
-- [[Writing Standards]]
+- [[02 - System/Writing Standards|Writing Standards]]
 
 ## Sources
 

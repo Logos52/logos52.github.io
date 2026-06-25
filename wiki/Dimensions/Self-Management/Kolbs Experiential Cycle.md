@@ -164,7 +164,7 @@ Warning sign: Kolbs has become journaling-only when it records the experience bu
 
 - [[templates/Kolbs Template|Kolbs Template]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- [[private/Goals/Priority 0|Priority 0]]
+- [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]
 - [[wiki/Dimensions/Upgrading Your Dimensions|Upgrading Your Dimensions]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset|Mindset]]

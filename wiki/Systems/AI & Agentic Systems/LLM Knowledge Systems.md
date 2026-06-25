@@ -32,7 +32,7 @@ This vault follows three layers:
 
 - Raw sources: immutable evidence in the `raw/` source lifecycle, especially `raw/inbox/`, `raw/sources/`, `raw/processed/`, and local-only `raw/private/`.
 - Wiki: LLM-owned compiled understanding in `wiki/`.
-- Schema: maintainer instructions in [[AGENTS|AGENTS.md]], supported by [[notes/index|notes/index.md]] and [[log|log.md]].
+- Schema: maintainer instructions in [[AGENTS|AGENTS.md]], supported by [[notes/index|notes/index.md]] and `log.md`.
 
 The point is accumulation. The LLM should not re-summarize raw sources from scratch for every question. It should maintain a current synthesis in the wiki, then answer from that compiled layer first.
 
@@ -51,8 +51,8 @@ At small-to-medium scale, a well-maintained markdown wiki can act as practical a
 
 ## Sources
 
-- [[llm-wiki|llm-wiki]]
-- [[Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[raw/sources/Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]
 
 ## Open Questions
 

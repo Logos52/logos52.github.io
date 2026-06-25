@@ -13,7 +13,7 @@ Add public source references here as the wiki grows.
 
 ## Sources
 
-- Andrej Karpathy, "llm-wiki" (GitHub Gist). [[llm-wiki|Local clipping]]
+- Andrej Karpathy, "llm-wiki" (GitHub Gist). [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
 - Andrej Karpathy, "How I use LLMs" (YouTube, 2025-02-28). [[How I use LLMs|Local transcript]]
 - Andrej Karpathy, "From Vibe Coding to Agentic Engineering" (Sequoia AI Ascent, 2026). [[Andrej Karpathy From Vibe Coding to Agentic Engineering|Local transcript]]
 - Naval Ravikant and Nivi, "A Motorcycle for the Mind" (2026-02-20). [[raw/sources/A Motorcycle for the Mind|Local source]]

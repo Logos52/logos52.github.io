@@ -302,7 +302,7 @@ The fastest improvement usually comes from step 2 and step 8. If the cue is vagu
 
 [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] should not only retrieve knowledge. It should also retrieve the replacement response: what do I do when this cue appears again?
 
-[[private/Goals/Priority 0|Priority 0]] skills should be trained through small cue-response upgrades, not dashboard expansion. Recurrence comes from making the desired response easier to enter.
+[[wiki/Self Management/Priority 0+1 System|Priority 0+1]] skills should be trained through small cue-response upgrades, not dashboard expansion. Recurrence comes from making the desired response easier to enter.
 
 ## Open Questions
 

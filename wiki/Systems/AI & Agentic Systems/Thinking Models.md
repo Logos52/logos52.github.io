@@ -51,7 +51,7 @@ The caveat comes from Vercel's gateway data: frontier intelligence at the right 
 
 ## Sources
 
-- [[How I use LLMs|How I use LLMs]]
+- [[raw/sources/How I use LLMs|How I use LLMs]]
 - [[raw/inbox/The AI Industrial Revolution|The AI Industrial Revolution]]
 
 ## Open Questions

@@ -23,13 +23,13 @@ Breakdown is useful when a hub page has grown large, when several pages mention 
 
 ## Workflow
 
-1. Read [[notes/index|notes/index.md]], recent [[log|log.md]], and relevant hub pages.
+1. Read [[notes/index|notes/index.md]], recent `log.md`, and relevant hub pages.
 2. Search `wiki/` for recurring named concepts, techniques, workflows, tools, books, people, or systems without dedicated pages.
 3. Identify bloated pages where a subtopic has enough substance to become its own page.
 4. Rank candidates by usefulness to the user's active systems, number of references, and clarity of purpose.
 5. Present a candidate table before creating pages unless the user has already asked to create them.
 6. When creating pages, add backlinks from parent pages and update [[notes/index|notes/index.md]].
-7. Append a `compile` or `maintenance` entry to [[log|log.md]].
+7. Append a `compile` or `maintenance` entry to `log.md`.
 
 ## Candidate Test
 
@@ -64,7 +64,7 @@ Use a table like this before creating pages:
 
 - [[wiki/Workflows/Wiki Status Checks|Wiki Status Checks]]
 - [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]
-- [[Writing Standards]]
+- [[02 - System/Writing Standards|Writing Standards]]
 
 ## Sources
 

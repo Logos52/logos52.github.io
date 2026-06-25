@@ -26,11 +26,17 @@ export default defineConfig({
   redirects: loadRedirects(),
   integrations: [sitemap(), pagefind()],
   vite: {
-    build: {
-      rollupOptions: {
-        external: ['/pagefind/pagefind.js'],
+    plugins: [
+      {
+        name: 'external-pagefind',
+        enforce: 'pre',
+        resolveId(id) {
+          if (id === '/pagefind/pagefind.js' || id.startsWith('/pagefind/')) {
+            return { id, external: true };
+          }
+        },
       },
-    },
+    ],
   },
   markdown: {
     remarkPlugins: [remarkWikilinks],

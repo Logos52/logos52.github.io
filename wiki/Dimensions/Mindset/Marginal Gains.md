@@ -118,7 +118,7 @@ Marginal Gains without Kolbs can become wishful planning. Kolbs without Marginal
 
 Marginal Gains works best when the gain is small enough to start and meaningful enough to repeat.
 
-For [[private/Goals/Priority 0|Priority 0]], a gain should usually improve one of five things:
+For [[wiki/Self Management/Priority 0+1 System|Priority 0+1]], a gain should usually improve one of five things:
 
 - recurrence,
 - emotional engagement,

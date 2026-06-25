@@ -36,7 +36,7 @@ Naval's version of the shift: we learned code to talk to machines, and now the m
 
 ## Sources
 
-- [[Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]
+- [[raw/sources/Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]
 - [[raw/inbox/The AI Industrial Revolution|The AI Industrial Revolution]]
 
 ## Open Questions

@@ -24,7 +24,7 @@ Research answers improve when the existing markdown knowledge base becomes the f
 5. Cite consulted pages and sources.
 6. Add unresolved issues to `Open Questions`.
 7. Promote durable new insight back into `wiki/`.
-8. Append a query entry to [[log|log.md]].
+8. Append a query entry to `log.md`.
 
 ## Answer Standard
 
@@ -47,4 +47,4 @@ It should include:
 
 ## Sources
 
-- [[llm-wiki|llm-wiki]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]

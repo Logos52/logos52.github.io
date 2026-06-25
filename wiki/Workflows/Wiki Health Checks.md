@@ -37,8 +37,8 @@ Each report should include:
 - Findings.
 - Suggested edits.
 - Pages created or updated.
-- Questions added to [[Open Questions]].
-- Entry appended to [[log|log.md]].
+- Questions added to [[02 - System/Open Questions|Open Questions]].
+- Entry appended to `log.md`.
 
 ## Related Concepts
 
@@ -47,4 +47,4 @@ Each report should include:
 
 ## Sources
 
-- [[llm-wiki|llm-wiki]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]

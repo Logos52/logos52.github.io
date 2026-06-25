@@ -93,7 +93,7 @@ const { title, description, active } = Astro.props;
       })();
     </script>
 
-    {/* Inline dropdown search — wires every [data-inline-search] (chrome + home hero), once. */}
+    {/* Inline dropdown search — chrome bar only; no modal overlay. */}
     <script>
       import { initInlineSearch } from '../islands/search-inline';
       document

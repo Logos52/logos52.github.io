@@ -46,7 +46,7 @@ That makes the vault more agent-native than a normal folder of notes.
 
 ## Sources
 
-- [[Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]
+- [[raw/sources/Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]
 
 ## Open Questions
 

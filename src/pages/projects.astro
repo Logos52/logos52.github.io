@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import Constellation from '../components/Constellation.astro';
 import { deriveTitle } from '../lib/note';
 import { slugToUrl } from '../lib/slug';
 
@@ -46,44 +47,62 @@ const groups: { key: Status; label: string }[] = [
   { key: 'current', label: 'Current' },
   { key: 'past', label: 'Archived' },
 ];
+
+const projectSeeds = projects.filter((p) => p.status === 'current').map((p) => p.slug);
 ---
 
 <Base title="Projects" description="Learning systems, agentic engineering, personal tooling." active="projects">
   <main class="projects-page">
-    <div class="wrap">
-      <header class="head">
-        <h1>Projects</h1>
-        <p class="head__lede">Learning systems, agentic engineering, personal tooling.</p>
-      </header>
-      {groups.map((g) => {
-        const items = projects.filter((p) => p.status === g.key);
-        if (!items.length) return null;
-        return (
-          <section class="group">
-            <h2>{g.label}</h2>
-            <div class="grid">
-              {items.map((p) => (
-                <a class="card" href={p.href}>
-                  {p.image && (
-                    <div class="card__media">
-                      <img src={`/${p.image}`} alt={`${p.title} screenshot`} loading="lazy" />
-                    </div>
-                  )}
-                  <h3>{p.title}</h3>
-                  <p>{p.blurb}</p>
-                  {p.stack.length > 0 && (
-                    <div class="stack">
-                      {p.stack.map((s) => (
-                        <span class="tag">{s}</span>
-                      ))}
-                    </div>
-                  )}
-                </a>
-              ))}
-            </div>
-          </section>
-        );
-      })}
+    <div class="wrap projects-grid">
+      <div class="projects-main">
+        <header class="head">
+          <h1>Projects</h1>
+          <p class="head__lede">Learning systems, agentic engineering, personal tooling.</p>
+        </header>
+        {groups.map((g) => {
+          const items = projects.filter((p) => p.status === g.key);
+          if (!items.length) return null;
+          return (
+            <section class="group">
+              <h2>{g.label}</h2>
+              <div class="grid">
+                {items.map((p) => (
+                  <a class="card" href={p.href}>
+                    {p.image && (
+                      <div class="card__media">
+                        <img src={`/${p.image}`} alt={`${p.title} screenshot`} loading="lazy" />
+                      </div>
+                    )}
+                    <h3>{p.title}</h3>
+                    <p>{p.blurb}</p>
+                    {p.stack.length > 0 && (
+                      <div class="stack">
+                        {p.stack.map((s) => (
+                          <span class="tag">{s}</span>
+                        ))}
+                      </div>
+                    )}
+                  </a>
+                ))}
+              </div>
+            </section>
+          );
+        })}
+      </div>
+      {
+        projectSeeds.length > 0 && (
+          <aside class="projects-graph" aria-label="Current project links">
+            <h2 class="projects-graph__head">Links</h2>
+            <Constellation
+              mode="local"
+              seeds={projectSeeds}
+              hops={1}
+              orient="vertical"
+              height="clamp(360px, 66vh, 600px)"
+            />
+          </aside>
+        )
+      }
     </div>
   </main>
 </Base>
@@ -92,10 +111,31 @@ const groups: { key: Status; label: string }[] = [
   .wrap {
     max-width: var(--kb-content);
     margin: 0 auto;
-    padding: 0 28px 40px;
+    padding: 34px 28px 52px;
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 36px;
+    align-items: start;
+  }
+  .projects-main {
+    min-width: 0;
+  }
+  .projects-graph {
+    position: sticky;
+    top: 80px;
+    min-width: 0;
+  }
+  .projects-graph__head {
+    font-family: var(--ming);
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: var(--ink);
   }
   .head {
-    padding: 34px 0 12px;
+    padding: 0 0 12px;
   }
   .head h1 {
     font-family: var(--ming);
@@ -179,5 +219,18 @@ const groups: { key: Status; label: string }[] = [
     border: 1px solid var(--rule2);
     border-radius: 4px;
     padding: 2px 6px;
+  }
+  @media (max-width: 820px) {
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+    .projects-graph {
+      position: static;
+    }
+  }
+  @media (max-width: 640px) {
+    .wrap {
+      padding: 28px 16px 40px;
+    }
   }
 </style>

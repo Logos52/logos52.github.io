@@ -168,7 +168,7 @@ Feed:
 
 Do not feed everything. Feed the things that create more surface area for future capability, opportunity, or identity.
 
-This is why [[private/Goals/Priority 0|Priority 0]] matters. A Priority 0 area is not only an interest. It is an active or parked identity surface that can produce nonlinear returns if it receives repeated contact.
+This is why [[wiki/Self Management/Priority 0+1 System|Priority 0+1]] matters. A Priority 0 area is not only an interest. It is an active or parked identity surface that can produce nonlinear returns if it receives repeated contact.
 
 ## Relationship To Decision Making
 
@@ -289,7 +289,7 @@ The answer should change behavior. If it does not, the frame is ornamental.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-- [[private/Goals/Priority 0|Priority 0]]
+- [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]
 
 ## Sources
 

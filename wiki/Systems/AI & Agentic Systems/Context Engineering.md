@@ -21,7 +21,7 @@ In this knowledge base, context engineering includes:
 
 - Maintaining indexes.
 - Reading [[notes/index|notes/index.md]] first before query or ingest work.
-- Preserving [[log|log.md]] as operational memory.
+- Preserving `log.md` as operational memory.
 - Writing compact summaries.
 - Linking related pages.
 - Keeping source metadata available.
@@ -55,5 +55,5 @@ Warning sign: context work has become a shortcut when it turns into organizing i
 
 ## Sources
 
-- [[llm-wiki|llm-wiki]]
-- [[How I use LLMs|How I use LLMs]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[raw/sources/How I use LLMs|How I use LLMs]]

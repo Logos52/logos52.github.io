@@ -2,33 +2,8 @@
  * search-palette.ts — ⌘K command palette over the Pagefind full-body index.
  * Result rows: title + domain + excerpt snippet; keyboard ↑↓ Enter Esc.
  */
+import { loadPagefind } from '../lib/pagefind-client';
 import { DOMAIN_LABELS, isDomain } from '../lib/types';
-
-type PagefindResult = {
-  id: string;
-  data: () => Promise<{
-    url: string;
-    meta: Record<string, string>;
-    excerpt: string;
-    content?: string;
-  }>;
-};
-
-type PagefindAPI = {
-  options: (opts: Record<string, unknown>) => Promise<void>;
-  search: (q: string) => Promise<{ results: PagefindResult[] }>;
-};
-
-let pf: PagefindAPI | null = null;
-
-async function pagefind(): Promise<PagefindAPI> {
-  if (pf) return pf;
-  // Pagefind bundle is emitted at build time — keep it out of the Vite graph.
-  const mod = await import(/* @vite-ignore */ '/pagefind/pagefind.js');
-  pf = mod as PagefindAPI;
-  await pf.options({ excerptLength: 24 });
-  return pf;
-}
 
 function domainLabel(raw: string | undefined): string {
   if (raw && isDomain(raw)) return DOMAIN_LABELS[raw];
@@ -95,7 +70,7 @@ export function initSearchPalette(root: HTMLElement): void {
   let timer: ReturnType<typeof setTimeout> | undefined;
   const runSearch = async (q: string) => {
     try {
-      const api = await pagefind();
+      const api = await loadPagefind(24);
       const { results } = await api.search(q.trim() || ' ');
       const slice = results.slice(0, 12);
       rows = await Promise.all(

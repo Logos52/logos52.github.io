@@ -22,7 +22,7 @@ The core problem it solves is the repeated context tax of having to re-explain y
 
 Most agents are rebuilt from scratch with every new conversation. Hermes is designed to accumulate understanding instead. It keeps a persistent record of how you work, what you care about, and what you’ve already solved. The operating philosophy is simple: the highest-leverage use of an agent is not faster answers, but removing the constant need to re-establish context.
 
-This is achieved through a small set of high-leverage mechanisms: a strong identity defined in [[SOUL.md]], tiered memory that survives restarts, and the ability for the agent to write, validate, and improve its own skills over time.
+This is achieved through a small set of high-leverage mechanisms: a strong identity defined in `SOUL.md`, tiered memory that survives restarts, and the ability for the agent to write, validate, and improve its own skills over time.
 
 ## Hermes Agent vs Grok Build
 
@@ -56,7 +56,7 @@ These commands and workflows appear most frequently in effective Hermes usage:
 
 Effective patterns include:
 
-- Maintain a strong [[SOUL.md]] and review it when behavior starts to drift.
+- Maintain a strong `SOUL.md` and review it when behavior starts to drift.
 - Create a session summary after any substantial work so future sessions inherit the context.
 - Run separate agents for distinct roles instead of overloading a single agent.
 - Let Hermes write skills for repetitive tasks rather than repeating instructions.
@@ -89,4 +89,4 @@ For quick, stateless generation or pure exploration, lighter tools are often mor
 
 **Related Pages**
 - [[Agentic Engineering]]
-- [[SOUL.md]]
+- `SOUL.md`
