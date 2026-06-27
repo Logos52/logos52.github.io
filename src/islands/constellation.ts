@@ -25,6 +25,8 @@ const SPINE_IMPORTANT_RADIUS = 4.5;
 const SPINE_SATELLITE_RADIUS = 2.8;
 const SPINE_OUTER_SATELLITE_RADIUS = 2.2;
 const SPINE_LINK_ALPHA = 0.18;
+/** Home focus mode: anchor labels fade when a satellite is hovered so one label reads at a time. */
+const SPINE_ANCHOR_LABEL_DIM = 0.28;
 const IMPORTANT_DEGREE_THRESHOLD = 3;
 const SPINE_MAX_HUB_LINKS_PER_HUB = 3;
 const SPINE_EXTRA_PERIPHERAL_LINKS = 15;
@@ -601,11 +603,8 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   const noteRailLocal = mode === 'local' && seedSet.size === 1 && !vertical;
   /** Journal / projects: persistent seed titles + HTML hover tip for everything else. */
   const localSeedLabels = mode === 'local' && !noteRailLocal;
-  /** Note rail + journal/projects: HTML hover tip for non-seed nodes (and note-rail seeds). */
-  const localHoverTip = mode === 'local';
-  /** Home spine + notes overview: HTML hover tips with separated neighborhood labels. */
-  const overviewHoverTips = mode === 'spine' || mode === 'full';
-  const htmlHoverTips = overviewHoverTips || localHoverTip;
+  /** HTML hover tip on the hovered node (hubs/seeds with persistent canvas labels skip). */
+  const htmlHoverTips = mode === 'local' || mode === 'spine' || mode === 'full';
   const flagSet = mode === 'local' ? seedSet : hubSet;
 
   function screenR(n: CNode, graphMode: 'spine' | 'full' | 'local'): number {
@@ -994,45 +993,13 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
     Object.assign(document.createElement('div'), { className: 'constellation__tips', ariaHidden: 'true' });
   if (!tipsRoot.parentElement) root.appendChild(tipsRoot);
 
-  type TipSlot = { n: CNode; x: number; y: number; w: number; h: number };
-  const TIP_H = 13;
   const TIP_GAP = 10;
-  const tipWidth = (text: string) => Math.max(28, text.length * 5.2);
 
-  function tipAnchor(n: CNode, k: number): TipSlot {
+  function tipAnchor(n: CNode, k: number) {
     const r = nodeR(n);
     const x = (n.x ?? 0) * k + transform.x;
     const y = (n.y ?? 0) * k + transform.y;
-    const text = n.label ?? n.title;
-    return { n, x, y: y - r - TIP_GAP, w: tipWidth(text), h: TIP_H };
-  }
-
-  function separateTipSlots(slots: TipSlot[]) {
-    for (let pass = 0; pass < 14; pass++) {
-      for (let i = 0; i < slots.length; i++) {
-        for (let j = i + 1; j < slots.length; j++) {
-          const a = slots[i];
-          const b = slots[j];
-          const overlapX = (a.w + b.w) / 2 + 8 - Math.abs(b.x - a.x);
-          const overlapY = (a.h + b.h) / 2 + 6 - Math.abs(b.y - a.y);
-          if (overlapX > 0 && overlapY > 0) {
-            const pushX = overlapX * 0.55;
-            const pushY = overlapY * 0.55;
-            const sx = Math.sign(b.x - a.x) || (i % 2 ? 1 : -1);
-            const sy = Math.sign(b.y - a.y) || -1;
-            a.x -= pushX * sx;
-            b.x += pushX * sx;
-            a.y -= pushY * sy;
-            b.y += pushY * sy;
-          }
-        }
-      }
-      for (const s of slots) {
-        const anchor = tipAnchor(s.n, transform.k);
-        s.x += (anchor.x - s.x) * 0.12;
-        s.y += (anchor.y - s.y) * 0.12;
-      }
-    }
+    return { n, x, y: y - r - TIP_GAP };
   }
 
   function shouldSkipHtmlTip(n: CNode) {
@@ -1041,39 +1008,25 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
     return false;
   }
 
+  /** Spine focus mode: one prominent label — hover tip for satellites, canvas label for hubs. */
+  function spineHubLabelAlpha(n: CNode) {
+    if (!hovered) return 1;
+    if (n === hovered) return 1;
+    return SPINE_ANCHOR_LABEL_DIM;
+  }
+
   function renderHoverTips(center: CNode | null, k: number) {
     tipsRoot.innerHTML = '';
-    if (!htmlHoverTips || !center) return;
+    if (!htmlHoverTips || !center || shouldSkipHtmlTip(center)) return;
 
-    const slots: TipSlot[] = [];
-    if (overviewHoverTips) {
-      const hood = new Set<CNode>([center]);
-      let neighbors = [...(adj.get(center.id) ?? [])]
-        .map((id) => byId.get(id))
-        .filter((n): n is CNode => !!n);
-      if (mode === 'full' && neighbors.length > 12) {
-        neighbors = neighbors.sort((a, b) => b.degree - a.degree || a.title.localeCompare(b.title)).slice(0, 12);
-      }
-      for (const nb of neighbors) hood.add(nb);
-      for (const n of hood) {
-        if (shouldSkipHtmlTip(n)) continue;
-        slots.push(tipAnchor(n, k));
-      }
-      if (slots.length > 1) separateTipSlots(slots);
-    } else if (localHoverTip) {
-      if (shouldSkipHtmlTip(center)) return;
-      slots.push(tipAnchor(center, k));
-    }
-
-    for (const s of slots) {
-      const el = document.createElement('div');
-      el.className = 'constellation__tip';
-      el.textContent = s.n.label ?? s.n.title;
-      el.style.left = `${s.x}px`;
-      el.style.top = `${s.y}px`;
-      el.style.transform = 'translate(-50%, -100%)';
-      tipsRoot.appendChild(el);
-    }
+    const s = tipAnchor(center, k);
+    const el = document.createElement('div');
+    el.className = 'constellation__tip';
+    el.textContent = s.n.label ?? s.n.title;
+    el.style.left = `${s.x}px`;
+    el.style.top = `${s.y}px`;
+    el.style.transform = 'translate(-50%, -100%)';
+    tipsRoot.appendChild(el);
   }
 
   // The home spine keeps its ORIGINAL fit-scaled tier sizing (untouched). Every OTHER graph uses the
@@ -1196,33 +1149,38 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
         ctx.arc(sx(n), sy(n), r + 2, 0, Math.PI * 2);
         ctx.stroke();
       } else if (n === hovered || (mode !== 'local' && n.isFlag)) {
-        ctx.lineWidth = 1.5;
+        const focusedHub = mode === 'spine' && n === hovered && n.tier === 'hub';
+        ctx.lineWidth = focusedHub ? 2 : 1.5;
         ctx.strokeStyle = baseHue;
-        ctx.globalAlpha = dim(n) ? 0.22 : 0.5;
+        ctx.globalAlpha = dim(n) ? 0.22 : focusedHub ? 0.78 : 0.5;
         ctx.beginPath();
-        ctx.arc(sx(n), sy(n), r + 3.5, 0, Math.PI * 2);
+        ctx.arc(sx(n), sy(n), r + (focusedHub ? 4.5 : 3.5), 0, Math.PI * 2);
         ctx.stroke();
       }
     }
     ctx.globalAlpha = 1;
 
-    // labels: spine hubs + journal/projects seeds persistent; everything else → HTML hover tips.
+    // labels: spine hubs + journal/projects seeds persistent; satellites → HTML hover tips.
+    // Spine focus mode: dim anchor labels while a satellite is hovered; emphasize the focused hub.
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
     for (const n of nodes) {
       const persistent = (mode === 'spine' && n.tier === 'hub') || (localSeedLabels && n.isFlag);
       if (!persistent) continue;
-      const big = n.tier === 'hub' || (localSeedLabels && n.isFlag);
-      ctx.globalAlpha = dim(n) ? 0.3 : 1;
-      ctx.font = `${big ? 500 : 400} ${big ? 10 : 9}px ${MONO_STACK}`;
+      const isHub = n.tier === 'hub';
+      const focusedHub = mode === 'spine' && isHub && n === hovered;
+      const big = isHub || (localSeedLabels && n.isFlag);
+      ctx.globalAlpha =
+        mode === 'spine' && isHub ? spineHubLabelAlpha(n) : dim(n) ? 0.3 : 1;
+      ctx.font = `${focusedHub ? 600 : big ? 500 : 400} ${big ? 10 : 9}px ${MONO_STACK}`;
       const text = n.label ?? n.title;
       const tx = sx(n);
       const ty = sy(n) + nodeR(n) + 5;
-      ctx.lineWidth = 2.5;
+      ctx.lineWidth = focusedHub ? 3 : 2.5;
       ctx.lineJoin = 'round';
       ctx.strokeStyle = colors.paper;
       ctx.strokeText(text, tx, ty);
-      ctx.fillStyle = colors.mut; // faint, not bold ink
+      ctx.fillStyle = focusedHub ? colors.ink : colors.mut;
       ctx.fillText(text, tx, ty);
     }
     ctx.globalAlpha = 1;

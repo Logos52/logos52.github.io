@@ -85,7 +85,8 @@ const {
     overflow: visible;
     z-index: 10;
   }
-  .constellation__tip {
+  /* JS-injected at hover — must be :global (no data-astro-cid on createElement). */
+  .constellation :global(.constellation__tip) {
     position: absolute;
     pointer-events: none;
     font-family: var(--mono);
