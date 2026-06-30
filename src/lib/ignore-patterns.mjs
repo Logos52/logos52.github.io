@@ -35,6 +35,7 @@ export const IGNORE_PATTERNS = [
   '_archive/**',
   'hermes/**',
   'log.md',
+  'notes/catalog.md',
   '_meta/**',
 
   // Individual pages kept out of the public site (finance direction / decisions)

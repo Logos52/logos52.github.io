@@ -34,3 +34,10 @@ Deployed to custom domain 2026-06-15. Validation passes (unique IDs across entri
 - **Main Tsumugu project (reader, wiki, engine):** [[projects/tsumugu]]
 - **Dictionary custody decision:** [[journal/2026-06-11-tsumugu-dictionary-custody-and-display]]
 - **Grammar browse and site copy pass:** [[journal/2026-06-15-tsumugu-grammar-browse-and-site-copy]]
+
+### Story-card redesign (Modified Method of Loci)
+
+- **The Story-Card Catalog:** [[journal/the-story-card-catalog]] — every way a single-character memory scene can be generated; 34 archetypes a future authoring agent selects from and extends.
+- **First principles:** [[journal/first-principles-of-the-story-card]] — the residue rule and the two axes that generate the catalog.
+- **The pivot (memory scenes):** [[journal/story-cards-as-memory-scenes]] — why the Story card became a loci scene encoding only the Form's residue.
+- **Decision record:** [[journal/2026-06-29-tsumugu-story-card-loci-pivot]] and [[journal/2026-06-29-story-card-first-principles]].

@@ -24,8 +24,8 @@ import type { GraphData, BacklinkIndex } from '../lib/types';
 export const getStaticPaths = (async () => {
   const notes = await getCollection('notes');
   return notes
-    // index.md (simplifySlug → '/') is rendered by index.astro; skip it here so the route is unique.
-    .filter((entry) => simplifySlug(entry.id) !== '/')
+    // index.md (simplifySlug → '/') is rendered by index.astro; notes/index by notes.astro.
+    .filter((entry) => simplifySlug(entry.id) !== '/' && entry.id !== 'notes/index')
     .map((entry) => ({
       params: { slug: simplifySlug(entry.id) },
       props: { entry },

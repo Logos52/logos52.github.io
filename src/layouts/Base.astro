@@ -162,11 +162,11 @@ const { title, description, active } = Astro.props;
   }
   .kb-ac-title {
     font-family: var(--ming);
-    font-size: 14px;
+    font-size: var(--kb-text-base);
   }
   .kb-ac-domain {
     font-family: var(--mono);
-    font-size: 9px;
+    font-size: var(--kb-text-2xs);
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--accent);
@@ -174,7 +174,7 @@ const { title, description, active } = Astro.props;
   }
   .kb-ac-ex {
     grid-column: 1 / -1;
-    font-size: 12px;
+    font-size: var(--kb-text-xs);
     color: var(--mut);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -183,7 +183,7 @@ const { title, description, active } = Astro.props;
   .kb-ac-empty {
     padding: 12px;
     color: var(--faint);
-    font-size: 13px;
+    font-size: var(--kb-text-sm);
     margin: 0;
   }
 </style>

@@ -109,7 +109,7 @@ const hasAside = true; // the local graph always renders its own neighborhood
   /* breadcrumb — DS .crumb / NotePage breadcrumb */
   .kb-crumb {
     font-family: var(--mono);
-    font-size: 11px;
+    font-size: var(--kb-text-2xs);
     letter-spacing: 0.04em;
     color: var(--faint);
     text-transform: uppercase;
@@ -118,7 +118,7 @@ const hasAside = true; // the local graph always renders its own neighborhood
   /* title — Ming 34/600 */
   .kb-note-title {
     font-family: var(--ming);
-    font-size: 34px;
+    font-size: var(--kb-text-h1-note);
     font-weight: 600;
     line-height: 1.2;
     letter-spacing: -0.01em;
@@ -134,7 +134,7 @@ const hasAside = true; // the local graph always renders its own neighborhood
     align-items: center;
     margin-top: 14px;
     font-family: var(--mono);
-    font-size: 10.5px;
+    font-size: var(--kb-text-2xs);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--faint);
@@ -149,8 +149,8 @@ const hasAside = true; // the local graph always renders its own neighborhood
   .kb-prose {
     margin-top: 24px;
     font-family: var(--ming);
-    font-size: 16.5px;
-    line-height: 1.75;
+    font-size: var(--kb-text-body);
+    line-height: var(--kb-lh-note);
     color: var(--ink);
     max-width: 64ch;
   }
@@ -175,7 +175,7 @@ const hasAside = true; // the local graph always renders its own neighborhood
   }
   .kb-localgraph-wrap .kb-side-h {
     font-family: var(--mono);
-    font-size: 9.5px;
+    font-size: var(--kb-text-2xs);
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--mut);
@@ -221,14 +221,14 @@ const hasAside = true; // the local graph always renders its own neighborhood
   }
   .kb-prose h2 {
     font-family: var(--ming);
-    font-size: 21px;
+    font-size: var(--kb-text-h2);
     font-weight: 600;
     margin: 30px 0 10px;
     color: var(--ink);
   }
   .kb-prose h3 {
     font-family: var(--ming);
-    font-size: 18px;
+    font-size: var(--kb-text-h3);
     font-weight: 600;
     margin: 24px 0 8px;
     color: var(--ink);
@@ -254,8 +254,8 @@ const hasAside = true; // the local graph always renders its own neighborhood
     padding: 14px 20px;
     margin: 24px 0;
     font-family: var(--ming);
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: var(--kb-text-h3);
+    line-height: var(--kb-lh-snug);
   }
   .kb-prose blockquote p {
     margin: 0;
@@ -298,7 +298,7 @@ const hasAside = true; // the local graph always renders its own neighborhood
   .kb-prose table {
     border-collapse: collapse;
     font-family: var(--sans);
-    font-size: 13.5px;
+    font-size: var(--kb-text-base);
     margin: 0 0 18px;
   }
   .kb-prose th,
@@ -318,7 +318,7 @@ const hasAside = true; // the local graph always renders its own neighborhood
     padding: 14px 18px;
     margin: 22px 0;
     font-family: var(--sans);
-    font-size: 13.5px;
+    font-size: var(--kb-text-base);
     color: var(--mut);
   }
   .kb-prose .callout b {

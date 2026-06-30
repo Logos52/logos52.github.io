@@ -47,4 +47,21 @@
   --kai:  "LXGW WenKai TC", "Kaiti TC", STKaiti, BiauKai, serif;  /* @kind font — kept for any CJK brush use */
   --sans: "Hanken Grotesk", system-ui, "PingFang TC", "Noto Sans TC", -apple-system, "Helvetica Neue", sans-serif;  /* @kind font */
   --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;  /* @kind font */
+
+  /* KB site type scale (logos52) — one ladder for shell pages, notes, chrome */
+  --kb-text-2xs: 0.6875rem;   /* 11px — mono labels, table headers */
+  --kb-text-xs:  0.75rem;     /* 12px — lede, captions */
+  --kb-text-sm:  0.8125rem;   /* 13px — nav, secondary UI */
+  --kb-text-base: 0.9375rem;  /* 15px — shell body & lists (was 13.5px) */
+  --kb-text-md:  1rem;        /* 16px — callouts, tables */
+  --kb-text-body: 1.0625rem;  /* 17px — note article body (was 16.5px) */
+  --kb-text-h3:  1.125rem;    /* 18px — note h3, blockquote */
+  --kb-text-h2:  1.375rem;    /* 22px — note h2 (was 21px) */
+  --kb-text-h2-shell: 1.35rem; /* shell h2 (was 1.2rem) */
+  --kb-text-h1-shell: 2rem;    /* shell h1 (was 1.8rem) */
+  --kb-text-h1-note: 2.125rem; /* note page title (was 34px) */
+  --kb-lh-tight: 1.2;
+  --kb-lh-snug: 1.45;
+  --kb-lh-body: 1.65;
+  --kb-lh-note: 1.75;
 }

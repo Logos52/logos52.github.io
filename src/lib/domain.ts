@@ -26,6 +26,7 @@ const FOLDER_DOMAIN: { prefix: string; domain: Domain }[] = [
   { prefix: 'wiki/Decision-Making/', domain: 'mind' }, // 8→6: decisions → mind (Grok confirms)
   { prefix: 'wiki/Minimalism/', domain: 'gen' },
   { prefix: 'wiki/Money/', domain: 'gen' }, // 8→6: money → gen (Grok confirms)
+  { prefix: 'wiki/Design/', domain: 'gen' }, // design doctrine + applied front-end → gen (building/making)
   { prefix: 'wiki/Books/', domain: 'gen' },
   { prefix: 'wiki/Experiences/', domain: 'gen' },
   { prefix: 'wiki/Domains/', domain: 'gen' },

@@ -11,7 +11,7 @@ tags:
 
 # Writing Standards
 
-**Authority (set 2026-06-11; May standard deleted 2026-06-12).** For wiki pages, **High-Signal Wiki Pages**. For decision documents, **High-Signal Decision Writing**. For domain-compression pages, **Condensed Pages**. For front-facing surfaces on any project, **High-Signal Front-Facing Pages**. These four sections are the complete standard. The earlier May rules are deleted — do not cite them; they live only in git history (bd5adc9).
+**Authority (set 2026-06-11; May standard deleted 2026-06-12).** For wiki pages, **High-Signal Wiki Pages**. For decision documents, **High-Signal Decision Writing**. For domain-compression pages, **Condensed Pages**. For front-facing surfaces and public posts (blog, explainers, essays) on any project, **High-Signal Front-Facing Pages**. These four sections are the complete standard. The earlier May rules are deleted — do not cite them; they live only in git history (bd5adc9).
 
 ## High-Signal Decision Writing
 
@@ -202,9 +202,9 @@ The genre's test: a reader who knows the domain should nod once per line; a read
 
 ## High-Signal Front-Facing Pages
 
-Added 2026-06-12, after the KB hero-line strikes; replaces the deleted May Front-Facing Voice section. Governs every front-facing surface on every project — heroes, sub-lines, about pages, badges, buttons, nav labels, meta descriptions, og tags. The register authority is the Tsumugu register rounds (`tsumugu/PRD-Entry-Authoring.md` §0.5–0.6); the accepted exemplars are the Tsumugu B2 front page ("A Chinese dictionary built on form and story") and the KB hero sub-line ("Each page explains one idea in enough detail to use it, and links to the ideas it depends on"), both 2026-06-12.
+Added 2026-06-12, after the KB hero-line strikes; replaces the deleted May Front-Facing Voice section. Broadened 2026-06-30 to general-reader prose. Governs every front-facing surface on every project — heroes, sub-lines, about pages, badges, buttons, nav labels, meta descriptions, og tags — and every public-facing post written for a general reader: blog posts, explainers, public essays. A blog post is the same surface as the chrome: it transfers facts to a stranger and wants nothing from them, and it answers to the same rules, with one register calibration set out below. A hero line and a thousand-word post share the register. They do not share structure. The blog subsections below state where a post inherits the Wiki page's body discipline. The register authority is the Tsumugu register rounds (`tsumugu/PRD-Entry-Authoring.md` §0.5–0.6); the accepted exemplars are the Tsumugu B2 front page ("A Chinese dictionary built on form and story") and the KB hero sub-line ("Each page explains one idea in enough detail to use it, and links to the ideas it depends on"), both 2026-06-12.
 
-The single test: read the line and ask what it wants from the reader. The only passing answer is nothing.
+The single test is the root of the whole standard. Read the line and ask what it wants from the reader. The only passing answer is nothing. Every other rule, in every genre this file governs, is this test applied to a different surface. This standard transfers facts a reader can check. The default model voice works to impress a reader. Each banned move acts on the reader (an adjective standing in for an unmeasured claim, the reveal, "not X but Y," the cadence beat, the handed-over conclusion). None of them transfers a fact the reader can check. The standard optimizes for the reader using and trusting the page later.
 
 ### The Page Wants Nothing
 
@@ -228,6 +228,10 @@ A true line that could sit on any site is dead copy — especially the first sen
 
 Give concrete details and stop; the reader concludes. No mood labels, no instruction verbs, no interpretive paraphrase after the details (PRD-Entry-Authoring §0.6, moves 1–3 and 8, applied beyond the dictionary). A line that hands the reader its own conclusion has assumed the reader couldn't reach it.
 
+### No Reveal, No Misdiagnosis Framing
+
+The writing never plants a wrong idea in order to correct it, and never casts the reader as mistaken. The reveal structure ("registers as an output problem to drill away; the actual gap is…") performs insight by setting up an error and overturning it. It puts the error in the reader's head and makes the reader the one who held it. Drop the setup. Describe what the surface experience feels like and what is happening underneath. Never "mistake," "misdiagnosis," "wrong approach," or "the reflex is wrong." The reader is a peer. (Imported 2026-06-30 from the project CLAUDE.md constructive-framing rule, which this file did not carry.)
+
 ### Say Nothing the Screen Shows
 
 No navigation chatter, no device commentary, no narrating visible features (§0.6 moves 5–6; the No Scaffolding rule applied to chrome). The map, the search box, and the layout introduce themselves.
@@ -250,6 +254,46 @@ The rules the strikes produced, all binding:
 - **The page never grades itself.** Values render as features and marks (字源/記憶法, the open-questions block), never as sentences about the artifact. Uncertainty renders as fact ("two tellings"), never as hedge words.
 
 This section governs Tsumugu's front-facing surfaces equally; its register authority there is PRD-Entry-Authoring §0.5–0.6 and the STYLE-CARD's banned list, which this section extends to chrome and taglines.
+
+### Blog Posts Take One Register Calibration
+
+A blog post obeys every rule above. Past a few paragraphs it also inherits the Wiki page's body discipline: a thesis, one worked example, boundaries, and the case against where the post recommends an action. "Approachable for an average reader" changes none of the bans. Approachability comes only from concreteness and plain language. It never comes from a hook, a superlative, the reveal, cadence, or any performance. The calibrations, all executable:
+
+- A concrete, relatable lead may precede the thesis. This is the one divergence from Wiki "Thesis First." The lead is a real detail from the thing being taught, not a hook and not an "imagine if," and it is recognizable to a reader not yet doing the method. The thesis still lands inside the first short paragraph.
+- Plain words; define any term inline on first use.
+- Second person is fine; the post talks to a reader trying to do the thing.
+- One worked example carried through the whole post. One takeaway per post.
+- Length serves the takeaway. Stop when the example is fully worked, and cut anything a reference or wiki page would carry: full enumerations, exhaustive component lists, edge cases. A post is not a reference.
+- Warmth comes from the concrete example and the plain words.
+- A how-to post may want the reader to try the method. The post may never want the reader to feel excited, impressed, reassured, or urgent. This try-it want is the one feeling-free thing "The Page Wants Nothing" permits on this surface.
+
+### What Approachable Does Not License
+
+Approachable is not a license to sell. It does not permit a hooky, rhetorical-question, or "imagine if" opener; a superlative; a reveal that casts the reader as wrong; cadence; flattery; or the manufactured-suspense tics: "here's the thing," "the truth is," "let that sink in." Concreteness carries the approachability those moves reach for.
+
+Weak (hooky lead):
+
+```text
+Ever wonder why you blank on a character you'd swear you knew yesterday?
+```
+
+Strong (concrete-detail lead):
+
+```text
+You write 頓, the bottom half goes missing, and the stroke stops. List the sound parts that could carry the syllable (屯, 盾, 享) against the meaning parts that fit (首, 頁, 百), and 屯+頁 resolves it.
+```
+
+Weak (feeling-causing):
+
+```text
+This one method completely transformed how I retain characters — it's almost unfair how well it works.
+```
+
+Strong (fact-transferring):
+
+```text
+Attaching a written form to a word you already say and understand takes a fraction of the effort of learning sound, meaning, and form together. Native literacy runs in that order.
+```
 
 ### Open Questions Stay Open
 

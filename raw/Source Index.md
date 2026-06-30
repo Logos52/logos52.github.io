@@ -45,6 +45,7 @@ This index lets `raw/` and `Clippings/` remain dump directories while still givi
 | Gad Saad, *Suicidal Empathy* | book | compiled | empathy miscalibration, cultural theory of mind, blank-slate reasoning, institutional indulgences, inoculation protocol | [[wiki/Books/Suicidal Empathy|Suicidal Empathy]], [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]], [[wiki/Red Team/Red Teaming|Red Teaming]] |
 | Eric Jorgenson, *The Book of Elon* | book | compiled | purpose, first principles, engineering, company-building, urgency, civilizational optimism | [[wiki/Books/The Book of Elon|The Book of Elon]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Techniques/Marginal Gains|Marginal Gains]] |
 | TRADOC G-2 / UFMCS, *The Red Team Handbook*, Version 9.0 | handbook | compiled | Red Teaming, assumptions, cultural empathy, critical thinking, groupthink mitigation, decision support | [[wiki/Red Team/Red Teaming|Red Teaming]], [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] |
+| Don Norman, *The Design of Everyday Things*, revised ed. (2013) | book (external, not in repo) | compiled | discoverability, affordances, signifiers, mapping, feedback, conceptual models, constraints, forcing functions, human error, human-centered design | [[wiki/Concepts/Design of Everyday Things\|Design of Everyday Things]], [[wiki/Design/Design, Condensed\|Design, Condensed]], [[wiki/Design/Front-End Web Design\|Front-End Web Design]] |
 
 ## Clippings Inbox
 

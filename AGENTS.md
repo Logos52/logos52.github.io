@@ -51,7 +51,7 @@ The LLM should:
 - Update existing pages when new sources change or enrich the synthesis.
 - Add cross-references between pages.
 - Flag contradictions and unresolved claims.
-- Keep `notes/index.md` current.
+- Keep `notes/index.md` hub links current; `notes/catalog.md` regenerates on build.
 - Keep claims source-grounded.
 
 The human mostly reads the wiki and gives direction.
@@ -101,17 +101,19 @@ Use **GPT** for structured reference and taxonomy.
 
 ### `notes/index.md`
 
-Content-oriented catalog of the wiki. Read this first before answering questions or compiling sources.
+Public entry-point index for the wiki. Read this first for orientation before answering questions or compiling sources.
 
-It should list important wiki pages with:
+It lists hand-curated hubs and condensed doctrine pages — not every leaf page. Keep it short.
 
-- Link.
-- One-line summary.
-- Type/category.
-- Status.
-- Source count when useful.
+Update the **Condensed** or **Hubs** sections when a new doctrine page or cluster hub deserves a front-door link.
 
-Update `notes/index.md` whenever wiki pages are created, deleted, renamed, or substantially changed.
+### `notes/catalog.md`
+
+Agent-only full wiki inventory. **Gitignored** — never committed, never published. Regenerated automatically by `scripts/update-notes-catalog.mjs` on `npm run dev` / `npm run build`.
+
+Read `notes/catalog.md` when you need exhaustive coverage: lint, status, breakdown, or verifying that every wiki page is accounted for. Each row has link, type, and one-line summary (from frontmatter).
+
+Do not edit the catalog tables by hand. Re-run `node scripts/update-notes-catalog.mjs` (or `npm run dev`) after bulk wiki changes if you need a fresh local copy before the next build.
 
 ### `log.md`
 
@@ -149,14 +151,14 @@ Use when the user drops in a new source and asks to process it.
 
 Workflow:
 
-1. Read `notes/index.md`, `raw/Source Index.md`, and recent `log.md` entries.
+1. Read `notes/index.md`, `notes/catalog.md`, `raw/Source Index.md`, and recent `log.md` entries.
 2. Read the new source from `raw/inbox/`, `raw/sources/`, or `raw/private/` when explicitly allowed.
 3. Identify source metadata: title, author, URL, date, type, topic, and publication/privacy risk.
 4. Add or update the source row in `raw/Source Index.md`.
 5. Write or update relevant wiki pages.
 6. Update related pages that the new source strengthens, contradicts, or reframes.
 7. Add backlinks between source, concepts, techniques, workflows, tools, and outputs.
-8. Update `notes/index.md`.
+8. Update `notes/index.md` if a new hub or condensed page needs a front-door link (the full catalog regenerates on build).
 9. Append an `ingest` or `compile` entry to `log.md`.
 
 Prefer one-source-at-a-time ingest when the user wants close supervision.
@@ -167,7 +169,7 @@ Use when the user asks a question against the wiki.
 
 Workflow:
 
-1. Read `notes/index.md` first.
+1. Read `notes/index.md` first; use `notes/catalog.md` when you need the full inventory.
 2. Search relevant terms across `wiki/`, `raw/`, `workbench/`, and legacy archives when needed.
 3. Read the most relevant wiki pages before raw sources.
 4. Read raw sources only when the wiki is insufficient or citations need checking.
@@ -175,7 +177,7 @@ Workflow:
 6. Include consulted wiki pages and sources.
 7. Add unresolved issues to `outputs/generated-questions.md`. (Not `00 Command Center/Open Questions.md` — that file is the user's personal log; auto-appends go to the generated bucket.)
 8. Promote durable insights back into `wiki/`.
-9. Update `notes/index.md` if wiki pages changed.
+9. Update `notes/index.md` if a hub or condensed front-door link changed (full catalog regenerates on build).
 10. Append a `query` entry to `log.md`.
 
 ### Lint
@@ -204,7 +206,7 @@ Use when the user asks how the wiki is doing, whether anything needs cleanup, or
 
 Workflow:
 
-1. Read `notes/index.md`, recent `log.md` entries, and the top-level `wiki/` directory list.
+1. Read `notes/catalog.md`, `notes/index.md`, recent `log.md` entries, and the top-level `wiki/` directory list.
 2. Count wiki pages by folder and page type when practical.
 3. Identify recently updated pages, high-value pages, likely orphans, pages missing source sections, bloated pages, and pages that may need splitting.
 4. Check for public/private risk at a high level.
@@ -220,12 +222,12 @@ Use when the user asks for missing page ideas, split candidates, or ways to grow
 
 Workflow:
 
-1. Read `notes/index.md`, recent `log.md`, and relevant hub pages.
+1. Read `notes/catalog.md`, `notes/index.md`, recent `log.md`, and relevant hub pages.
 2. Search `wiki/` for recurring named concepts, techniques, workflows, tools, books, people, or systems without dedicated pages.
 3. Identify bloated pages where a subtopic has enough substance to become its own page.
 4. Rank candidates by usefulness to the user's active systems, number of references, and clarity of purpose.
 5. Present a candidate table before creating pages unless the user has already asked to create them.
-6. When creating pages, add backlinks from the parent or hub pages and update `notes/index.md`.
+6. When creating pages, add backlinks from the parent or hub pages; update `notes/index.md` only when a new hub or condensed page earns a front-door link.
 7. Append a `compile` or `maintenance` entry to `log.md`.
 
 Breakdown expands the wiki deliberately. Avoid creating stubs that cannot support at least one useful summary, a few practical implications, and related links.
@@ -365,7 +367,7 @@ Workflow:
 
 ## Tooling
 
-At small scale, `notes/index.md` plus `rg` is enough.
+At small scale, `notes/index.md` plus `notes/catalog.md` plus `rg` is enough.
 
 As the wiki grows, consider adding:
 
@@ -403,7 +405,7 @@ The site is published at <https://logos52.github.io>. Astro builds from `src/`; 
 Publish model: **publish-by-default.** Every `.md` is published EXCEPT (a) paths git ignores, (b) paths matched by the denylist in `src/lib/ignore-patterns.mjs`, and (c) notes with `draft: true`. There is no allow-list, so the denylist plus the guard ARE the privacy gates — keep them current. A denied note is never copied into `src/content/notes/`, so it physically cannot appear in the build (stronger than a render-time filter).
 
 - **Published (publish-eligible):** `index.md`, `about.md`, `README.md`, `AGENTS.md` / `CLAUDE.md` / `GROK.md`, `wiki/`, `blog/`, `journal/`, `public-snapshots/`, `notes/index.md`.
-- **Not published (in the denylist):** `00 Command Center/`, `raw/`, `private/`, `finances/`, `outputs/`, `templates/`, `tools/`, `PRDs/`, `decisions/`, `mg-kolbs/`, `MG & Kolbs/`, `pans-mg-kolbs-template/`, `01 - Workbench/`, `02 - System/`, `_archive/`, `hermes/`, `_meta/`, `log.md`.
+- **Not published (gitignored or denylist):** `notes/catalog.md` (gitignored — agent-only full inventory), `00 Command Center/`, `raw/`, `private/`, `finances/`, `outputs/`, `templates/`, `tools/`, `PRDs/`, `decisions/`, `mg-kolbs/`, `MG & Kolbs/`, `pans-mg-kolbs-template/`, `01 - Workbench/`, `02 - System/`, `_archive/`, `hermes/`, `_meta/`, `log.md`.
 
 Do not move content between these without updating `src/lib/ignore-patterns.mjs` — and remember (above) that un-publishing is not the same as private.
 
@@ -415,7 +417,7 @@ Rules for LLM agents:
 - Do not commit `node_modules/`, `dist/`, or `.astro/`. These are gitignored.
 - The site is a normal Astro project: pages in `src/pages/`, UI in `src/components/`, layouts in `src/layouts/`, client islands in `src/islands/`, shared logic in `src/lib/`. The publish boundary is `scripts/copy-public-notes.mjs` plus the denylist `src/lib/ignore-patterns.mjs`.
 - The site's home page is `src/pages/index.astro`, the public LLM Knowledge Base landing page.
-- The full content-oriented wiki catalog lives at `notes/index.md`.
+- The public wiki index lives at `notes/index.md`; the full agent catalog lives at gitignored `notes/catalog.md`.
 
 Local preview workflow:
 

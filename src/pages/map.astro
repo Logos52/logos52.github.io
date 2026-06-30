@@ -115,16 +115,16 @@ const sections = DOMAINS.map((d) => {
   .map-head__title {
     font-family: var(--ming);
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: var(--kb-text-h1-shell);
     line-height: 1.2;
     margin: 0 0 0.4rem;
     color: var(--ink);
   }
   .map-head__lede {
     font-family: var(--mono);
-    font-size: 12px;
+    font-size: var(--kb-text-xs);
     letter-spacing: 0.04em;
-    line-height: 1.55;
+    line-height: var(--kb-lh-snug);
     color: var(--mut);
     margin: 0;
   }
@@ -159,8 +159,8 @@ const sections = DOMAINS.map((d) => {
     text-decoration: underline;
   }
   .domain__blurb {
-    font-size: 13px;
-    line-height: 1.55;
+    font-size: var(--kb-text-base);
+    line-height: var(--kb-lh-body);
     color: var(--mut);
     margin: 0.15rem 0 0.5rem;
     max-width: 64ch;
@@ -173,8 +173,8 @@ const sections = DOMAINS.map((d) => {
     column-gap: 44px;
   }
   .domain li {
-    font-size: 13.5px;
-    line-height: 1.6;
+    font-size: var(--kb-text-base);
+    line-height: var(--kb-lh-body);
     color: var(--mut);
     margin: 0.12rem 0;
     break-inside: avoid;

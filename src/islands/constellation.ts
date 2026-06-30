@@ -608,9 +608,16 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   const flagSet = mode === 'local' ? seedSet : hubSet;
 
   function screenR(n: CNode, graphMode: 'spine' | 'full' | 'local'): number {
-    if (graphMode === 'local') {
+    if (graphMode === 'local' && noteRailLocal) {
       const r = Math.min(LOCAL_NODE_LEAF_PX + LOCAL_NODE_GROW_PX * Math.sqrt(n.degree), LOCAL_NODE_CAP_PX);
-      return noteRailLocal && n.isFlag ? Math.max(r, LOCAL_CURRENT_PX) : r;
+      return n.isFlag ? Math.max(r, LOCAL_CURRENT_PX) : r;
+    }
+    if (graphMode === 'local' && localSeedLabels) {
+      // Journal / projects side graphs — home-calibrated fixed px, not the compact note-rail strip.
+      if (n.isFlag) return SPINE_HUB_RADIUS;
+      if (n.isLandmark) return SPINE_IMPORTANT_RADIUS;
+      const r = Math.min(NODE_LEAF_PX + NODE_GROW_PX * Math.sqrt(n.degree), NODE_CAP_PX);
+      return Math.max(r, SPINE_SATELLITE_RADIUS);
     }
     const r = Math.min(NODE_LEAF_PX + NODE_GROW_PX * Math.sqrt(n.degree), NODE_CAP_PX);
     if (n.isFlag) return Math.max(r, NODE_FLAG_MIN_PX);

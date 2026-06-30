@@ -1,0 +1,119 @@
+/* KB shell prose — shared markdown on Notes, About, Journal, and similar index pages. */
+
+.kb-shell-prose {
+  font-family: var(--ming);
+  color: var(--ink);
+}
+
+.kb-shell-prose > :first-child {
+  margin-top: 0;
+}
+
+.kb-shell-prose h1 {
+  font-family: var(--ming);
+  font-size: var(--kb-text-h1-shell);
+  font-weight: 500;
+  line-height: var(--kb-lh-tight);
+  margin: 0 0 0.45rem;
+  color: var(--ink);
+}
+
+.kb-shell-prose h2 {
+  font-family: var(--ming);
+  font-size: var(--kb-text-h2-shell);
+  font-weight: 600;
+  line-height: var(--kb-lh-tight);
+  margin: 1.85rem 0 0.55rem;
+  color: var(--ink);
+}
+
+/* Section intro line directly under an h2 */
+.kb-shell-prose h2 + p {
+  margin-bottom: 0.75rem;
+}
+
+.kb-shell-prose h3 {
+  font-family: var(--mono);
+  font-size: var(--kb-text-2xs);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin: 1.5rem 0 0.5rem;
+  color: var(--mut);
+}
+
+.kb-shell-prose p {
+  font-size: var(--kb-text-base);
+  color: var(--mut);
+  line-height: var(--kb-lh-body);
+  margin: 0 0 0.65rem;
+}
+
+.kb-shell-prose ul,
+.kb-shell-prose ol {
+  padding-left: 1.15rem;
+  margin: 0.45rem 0 0.85rem;
+}
+
+.kb-shell-prose li {
+  font-size: var(--kb-text-base);
+  line-height: var(--kb-lh-body);
+  margin: 0.35rem 0;
+  color: var(--ink);
+}
+
+.kb-shell-prose a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.kb-shell-prose a:hover {
+  text-decoration: underline;
+}
+
+.kb-shell-prose .missing {
+  color: var(--faint);
+  text-decoration: none;
+  cursor: default;
+}
+
+.kb-shell-prose blockquote {
+  border-left: 3px solid var(--rule2);
+  margin: 1rem 0;
+  padding: 0.2rem 0 0.2rem 1rem;
+  color: var(--mut);
+  font-size: var(--kb-text-base);
+  line-height: var(--kb-lh-body);
+}
+
+.kb-shell-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--kb-text-sm);
+  margin: 0.65rem 0 1.5rem;
+}
+
+.kb-shell-prose th,
+.kb-shell-prose td {
+  text-align: left;
+  padding: 7px 11px;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+
+.kb-shell-prose th {
+  font-family: var(--mono);
+  font-size: var(--kb-text-2xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+.kb-shell-prose td {
+  color: var(--mut);
+  font-size: var(--kb-text-base);
+}
+
+.kb-shell-prose img {
+  max-width: 100%;
+  border-radius: 10px;
+}
