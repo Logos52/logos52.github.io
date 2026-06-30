@@ -70,6 +70,7 @@ See [[Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Herme
 
 ## Related Pages
 
+- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — Opus · Sonnet · Haiku · Fable · Composer 2.5 · Grok 4.3 profiled on the five AI facets.
 - [[Agentic Engineering|Agentic Engineering]]
 - [[Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]]
 - [[How Top Performers Learn|How Top Performers Learn]]

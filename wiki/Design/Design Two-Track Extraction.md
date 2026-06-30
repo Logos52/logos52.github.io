@@ -1,7 +1,7 @@
 ---
 title: "Design Two-Track Extraction"
 type: hub
-status: scaffold
+status: developing
 created: 2026-06-30
 updated: 2026-06-30
 tags:
@@ -35,12 +35,12 @@ For each technique, ask: **can this be reduced to a deterministic rule an agent 
 
 ## Processing queue
 
-Sources staged at `raw/sources/design/`. Status: none extracted yet.
+Sources staged at `raw/sources/design/` (text extracted to `raw/sources/design/_text/`).
 
 | Source | File | Status | Notes |
 | --- | --- | --- | --- |
-| Refactoring UI (Wathan & Schoger) | `raw/sources/design/Refactoring UI.pdf` | queued | Highest agent-track yield — it's effectively a UI rules engine. |
-| Universal Principles of Design (Lidwell et al.) | `raw/sources/design/Universal Principles of Design.pdf` | queued | Mixed; many principles are human-judgment (gestalt, aesthetics) — likely heavier human-track yield. |
+| Refactoring UI (Wathan & Schoger) | `raw/sources/design/Refactoring UI.pdf` | ✅ extracted 2026-06-30 | Confirmed as a rules engine — heavy agent-track yield across spacing, type, color, depth. |
+| Universal Principles of Design (Lidwell et al.) | `raw/sources/design/Universal Principles of Design.pdf` | ✅ extracted 2026-06-30 (UI-scoped) | Scoped to the book's UI/UX/Graphic/Product "most useful" lists + core Gestalt & interaction laws. ~150 general/management principles left unmined by design. |
 | (later) jlreq / clreq, Typotheque | — | not staged | CJK layout — mostly agent-track rules; see [[wiki/Design/Design Expansion — Reading & Resources|reading list]]. |
 
 ## How to run the extraction (for future-me)
@@ -57,6 +57,8 @@ Sources staged at `raw/sources/design/`. Status: none extracted yet.
 
 ## Related Pages
 
+- [[wiki/Design/Universal Principles & Design Techniques — Master Scorecard|Master Scorecard]] — all 250 items graded on the lens.
+- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — the scoring model.
 - [[wiki/Design/Design Expansion — Reading & Resources|Design Expansion — Reading & Resources]]
 - [[wiki/Design/Front-End Web Design|Front-End Web Design]]
 - [[wiki/Design/Design, Condensed|Design, Condensed]]

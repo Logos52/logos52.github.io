@@ -44,6 +44,7 @@ The caveat comes from Vercel's gateway data: frontier intelligence at the right 
 
 ## Related Concepts
 
+- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — the six-model snapshot graded on the five AI facets (which model to spend where).
 - [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]]
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]

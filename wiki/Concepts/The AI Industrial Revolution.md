@@ -73,6 +73,7 @@ This is three frontier founders and Naval talking their own book — Rauch sells
 - [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]]
 - [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]
 - [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]]
+- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — Naval's "intelligence vs agency" and the verifier role, graded as the AI axis.
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
 - [[wiki/Concepts/A Return to Code|A Return to Code]]
 - [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]

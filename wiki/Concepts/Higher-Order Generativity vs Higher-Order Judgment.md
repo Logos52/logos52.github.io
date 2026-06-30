@@ -51,6 +51,7 @@ If the durable human edge is judgment rather than generativity, the move is to s
 
 ## Related
 
+- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — the two-axis, ten-facet lens this generativity/judgment split feeds.
 - [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]
 - [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]
 - [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]
