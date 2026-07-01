@@ -126,6 +126,34 @@ type Update = { title: string; blurb: string; slug: string };
 type UpdateDay = { date: string; updates: Update[] };
 const projectUpdates: UpdateDay[] = [
   {
+    date: '2026-07-01',
+    updates: [
+      {
+        title: 'Usable Intelligence: Sonnet 5 vs Opus 4.8',
+        blurb:
+          "For controlled-vocabulary authoring behind a fail-closed gate, Sonnet 5 becomes the default author at 0.6 times Opus 4.8's per-token price with near-identical first-pass gate rates, and Opus stays the orchestrator and the fallback for calls the gate cannot verify.",
+        slug: 'journal/2026-07-01-usable-intelligence-sonnet-5-vs-opus-4-8',
+      },
+    ],
+  },
+  {
+    date: '2026-06-30',
+    updates: [
+      {
+        title: 'Human vs AI Capability Lens',
+        blurb:
+          'Every capability scores on two independent axes, Human and AI, each broken into five facets, and lands in one of four zones: Own, Augment, Delegate, or Low-leverage.',
+        slug: 'wiki/Concepts/Human vs AI Capability Lens',
+      },
+      {
+        title: 'Design Two-Track Extraction',
+        blurb:
+          'Two design books split into an Agent Track of 66 executable UI rules and a Human Track of 35 taste-and-judgment calls.',
+        slug: 'wiki/Design/Design Two-Track Extraction',
+      },
+    ],
+  },
+  {
     date: '2026-06-29',
     updates: [
       {
