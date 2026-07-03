@@ -1,6 +1,6 @@
 ---
 date: 2026-07-03
-draft: true
+draft: false
 tags: [blog, ai, agents, software, engineering]
 description: "Vibe coding raises the floor of who can build software; the ceiling, correctness, security, and judgment, is what stays a job."
 ---

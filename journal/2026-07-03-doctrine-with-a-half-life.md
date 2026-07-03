@@ -1,6 +1,6 @@
 ---
 date: 2026-07-03
-draft: true
+draft: false
 tags: [blog, ai, agents, knowledge, writing]
 description: "AI advice rots fast, but not evenly; splitting what you learn into invariants and dated tactics keeps the notes trustworthy as models improve."
 ---

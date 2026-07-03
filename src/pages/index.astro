@@ -46,6 +46,7 @@ const topOfMind: Mind[] = [
       L('Higher-Order Generativity vs Judgment', 'wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment'),
       L('A Motorcycle for the Mind', 'wiki/Concepts/A Motorcycle for the Mind'),
       L('The AI Industrial Revolution', 'wiki/Concepts/The AI Industrial Revolution'),
+      L('Automation and the Job Iceberg', 'wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg'),
     ],
   },
   {
@@ -54,6 +55,7 @@ const topOfMind: Mind[] = [
       L('Human vs AI Capability Lens', 'wiki/Concepts/Human vs AI Capability Lens'),
       L('Higher-Order Generativity vs Judgment', 'wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment'),
       L('The AI Industrial Revolution', 'wiki/Concepts/The AI Industrial Revolution'),
+      L('The Floor Rose, the Ceiling Is the Job', 'journal/2026-07-03-the-floor-rose-the-ceiling-is-the-job'),
     ],
   },
   {
@@ -125,6 +127,35 @@ const hubColumns = [
 type Update = { title: string; blurb: string; slug: string };
 type UpdateDay = { date: string; updates: Update[] };
 const projectUpdates: UpdateDay[] = [
+  {
+    date: '2026-07-03',
+    updates: [
+      {
+        title: 'The Floor Rose, the Ceiling Is the Job',
+        blurb:
+          'Vibe coding lowers the floor of who can build software, and anyone can ship a working app in an afternoon. The ceiling stays a job: whether the result is correct, secure, and worth building, judged by someone who knows what correct looks like.',
+        slug: 'journal/2026-07-03-the-floor-rose-the-ceiling-is-the-job',
+      },
+      {
+        title: 'Doctrine With a Half-Life',
+        blurb:
+          'AI advice rots fast, but not evenly. Splitting notes into invariants and dated tactics keeps them trustworthy: claims about what stays human in one section, today’s model-specific tricks stamped with a date in the other.',
+        slug: 'journal/2026-07-03-doctrine-with-a-half-life',
+      },
+      {
+        title: 'Automation and the Job Iceberg',
+        blurb:
+          'Sixty years of census data record exactly one job eliminated outright by automation. The rest were transformed or multiplied, and 60% of today’s jobs did not exist 50 years ago. Whether a role gets augmented or replaced turns on whether it can absorb responsibility.',
+        slug: 'wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg',
+      },
+      {
+        title: 'Mindset, Condensed',
+        blurb:
+          'The mindset corpus compressed to doctrine: difficulty read as fuel, mistakes as the mechanism of improvement, motivation as startup fuel with defusion carrying the daily load, and gains judged by whether they compound.',
+        slug: 'wiki/Dimensions/Mindset/Mindset, Condensed',
+      },
+    ],
+  },
   {
     date: '2026-07-01',
     updates: [
