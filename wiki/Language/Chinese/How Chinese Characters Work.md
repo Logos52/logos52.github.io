@@ -31,7 +31,7 @@ The thousands of characters literacy demands stop being arbitrary at exactly tha
 - **[[wiki/Language/Chinese/Sound Series|Sound Series]] extends Sound Components directly.** It scales the single-character cue to whole families through seven related-initial groups; without the single-character mechanism the groups have nothing to organize.
 - **[[wiki/Language/Chinese/Empty Components|Empty Components]] closes the taxonomy.** Emptiness is a verdict of elimination, so the page lands only after the three working roles are firm.
 - **[[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] then organizes the meaning attribute.** Component analysis keeps routing through original meanings; this page shows where those roots live and which senses derive cheaply from them.
-- **[[wiki/Language/Chinese/The IME Method|The IME Method]] and [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]] finish.** The recall protocol cross-matches the sound and meaning candidates the component pages supply; the intake schedule staggers the three attributes over three days. Both operate on knowledge the rest of the cluster builds.
+- **[[wiki/Language/Chinese/The IME Method|The IME Method]] and [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]] finish.** The recall protocol cross-matches the sound and meaning candidates the component pages supply; the intake schedule staggers the three attributes over three sessions. Both operate on knowledge the rest of the cluster builds.
 - **[[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] underpins the whole cluster.** The seven memorization rules are why functional decomposition pays; read it first or alongside, and return to it whenever a page's advice looks arbitrary.
 
 ## One-Line Map
@@ -47,7 +47,7 @@ The thousands of characters literacy demands stop being arbitrary at exactly tha
 | [[wiki/Language/Chinese/Empty Components\|Empty Components]] | Distinguishing marks and corruption residue; render them as glass in memory images |
 | [[wiki/Language/Chinese/Meaning Trees and Original Meanings\|Meaning Trees and Original Meanings]] | Sense genealogies rooted in the original meaning; circle loans, prune derivable senses |
 | [[wiki/Language/Chinese/The IME Method\|The IME Method]] | Rebuild a missing form by cross-matching sound-candidate and meaning-candidate lists |
-| [[wiki/Language/Chinese/The Pipelining Strategy\|The Pipelining Strategy]] | Three-day staggered intake: spoken word in both directions, then the form, cohorts overlapping |
+| [[wiki/Language/Chinese/The Pipelining Strategy\|The Pipelining Strategy]] | Three-session staggered intake: spoken word in both directions, then the form, cohorts overlapping |
 | [[wiki/Learning Craft/Rules of Effective Memorization\|Rules of Effective Memorization]] | Seven domain-general memorization rules — meaningfulness through interest — that the cluster instantiates |
 
 ## Where the Cluster Plugs In

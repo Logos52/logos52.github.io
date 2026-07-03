@@ -135,4 +135,4 @@ Borrowing an existing character to write an unrelated word that sounds the same;
 
 ## Pipelining (Character Intake)
 
-Staggering a character's spoken word and written form across overlapping three-day cohorts so forms attach to already-overlearned words.
+Staggering a character's spoken word and written form across overlapping three-session cohorts so forms attach to already-overlearned words.

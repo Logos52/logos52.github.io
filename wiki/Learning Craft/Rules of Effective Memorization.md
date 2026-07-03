@@ -65,7 +65,7 @@ Attention, repetition, and interest rank below the encoding four and still decid
 ## Related Pages
 
 - [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] - hub for the character cluster that applies these rules; reading order lives there
-- [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]] - the three-day character-intake schedule that instantiates these rules
+- [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]] - the three-session character-intake schedule that instantiates these rules
 - [[wiki/Concepts/Memory Handling|Memory Handling]] - shaping information so it can be encoded and retrieved; the seven rules are its memorization-specific core
 - [[wiki/Dimensions/Deep Processing|Deep Processing]] - the encoding four are deep processing applied to memorization: meaning-making, comparison, chunking
 - [[wiki/Dimensions/Retrieval|Retrieval]] - the repetition rule opens into this dimension: spacing, recall practice, interleaving

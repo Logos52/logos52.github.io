@@ -1,9 +1,9 @@
 ---
 type: condensed
-status: seed
-description: "Don Norman's design doctrine as one rule per line: difficulty is data about the design, a screen owns no affordances so the signifier is the whole job, knowledge belongs in the world, error is bad design, and the principles outlast the technology."
+status: developing
+description: "The design corpus as doctrine: difficulty is data about the design, knowledge belongs in the world, error is bad design, defaults decide behavior, color carries function before decoration, owning fewer things is a design act, and good design is found by asking what can be removed."
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-03
 tags:
   - design
   - human-centered-design
@@ -14,7 +14,7 @@ tags:
 
 # Design, Condensed
 
-When a capable person fails at an everyday thing, the design is at fault, and that one inversion drives the whole discipline: a struggling user is reporting a design defect. Good design disappears because it fits how people perceive and act; bad design screams its inadequacies and gets blamed on the person holding it. Two questions gate quality — can I discover what to do, and can I understand what it means — answered by affordances made perceptible through signifiers, by mappings that put the control-to-effect relationship into the world, by feedback that closes the loop, and by a conceptual model the system image carries in full. Push memory into the world so remembering becomes unnecessary; narrow the action space with constraints and forcing functions; assume error and make every action reversible, because recurring error marks a design fault. On screens the object owns no physical affordances, so the front-end supplies every cue and the rendered surface is the entire system image. The examples date; the psychology does not, so the principles outlast the technology.
+When a capable person fails at an everyday thing, the design is at fault, and that one inversion drives the whole discipline: a struggling user is reporting a design defect. Good design disappears because it fits how people perceive and act; bad design screams its inadequacies and gets blamed on the person holding it. Two questions gate quality — can I discover what to do, and can I understand what it means — answered by affordances made perceptible through signifiers, by mappings that put the control-to-effect relationship into the world, by feedback that closes the loop, and by a conceptual model the system image carries in full. Push memory into the world so remembering becomes unnecessary; narrow the action space with constraints and forcing functions; assume error and make every action reversible, because recurring error marks a design fault. On screens the object owns no physical affordances, so the front-end supplies every cue and the rendered surface is the entire system image. Beyond the interface, the same discipline runs outward: choice architecture decides behavior through defaults and friction before any persuasion starts; color carries function before decoration; the objects a person keeps are part of the designed environment, so owning fewer, better things is itself a design act; and good design is recognized by subtraction — the question is never what can be added, but what can be taken away. The examples date; the psychology does not, so the principles outlast the technology.
 
 ---
 
@@ -77,8 +77,43 @@ When a capable person fails at an everyday thing, the design is at fault, and th
 - **Legacy and habit beat a superior design that demands relearning,** the way QWERTY outlasts the faster Dvorak ([[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]]).
 - **The principles outlast the technology.** Devices change; the psychology of interaction does not ([[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]]).
 
+## 9. Choice architecture — the nudge layer
+
+- **The default is the most powerful decision a designer makes,** because most people keep it; whoever sets the default has chosen for the majority (Thaler & Sunstein, *Nudge* — owner page owed).
+- **Friction steers.** Making the good action one step easier and the harmful one one step harder redirects behavior without removing choice; the same mechanism run against the user is the dark pattern (Thaler & Sunstein, *Nudge* — owner page owed).
+- **Salience is a budget.** What is visible gets chosen; burying an option is functionally removing it for most users, which is a power to spend deliberately (Thaler & Sunstein, *Nudge* — owner page owed).
+- **Nudges owe transparency.** A nudge the user would object to on discovery is manipulation wearing design's clothes; the test is whether the architecture survives being explained to the person inside it (Thaler & Sunstein, *Nudge* — owner page owed).
+- **The environment version is already doctrine here:** the room cues the action and sets the default before willpower enters ([[wiki/Minimalism/Environment Design|Environment Design]]).
+
+## 10. Color
+
+- **Color carries function before decoration.** State, grouping, and hierarchy come first; a palette that only decorates is spending the channel on nothing (model-sourced — owner page owed).
+- **Contrast is load-bearing.** Text and controls live or die on figure-ground separation, and low-contrast interfaces fail exactly the users with the least margin; contrast standards exist and are checkable (model-sourced — owner page owed).
+- **Color is never the only channel.** Roughly one in twelve men reads red-green poorly, so every color-coded meaning needs a second carrier — shape, position, label (model-sourced — owner page owed).
+- **Fewer hues, more shades.** A palette of one or two hues with tonal range reads as designed; many hues at equal weight read as noise. The 60-30-10 split (dominant, secondary, accent) is the standard starting ratio (model-sourced — owner page owed).
+- **Meaning stays consistent.** A color that means "danger" in one screen cannot mean "featured" in the next; the palette is a small language, and languages keep their words (model-sourced — owner page owed).
+
+## 11. Owning things is design
+
+- **Every kept object is a running cost in attention, space, and maintenance** — the room is an interface, and clutter is its featuritis ([[wiki/Minimalism/Ownership Cost|Ownership Cost]], [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]).
+- **Discarding is a skill with rules, not a mood.** The tells for removal: kept for "someday," kept from guilt, kept in duplicate, kept unused for a year — each names a thing owning the person rather than the reverse (Fumio Sasaki, *Goodbye, Things* — owner page owed).
+- **Things broadcast.** Possessions transmit self-image, and curating them is designing the signal; fewer, truer objects say more (Fumio Sasaki, *Goodbye, Things* — owner page owed; [[wiki/Minimalism/Wanting Less|Wanting Less]]).
+- **Choose products the way a designer would defend them:** one clear job, honest materials, signifiers intact, repairable, and still wanted when the novelty is gone — the purchase is an audition against the discard rules above (Sasaki + Rams, synthesized — owner page owed).
+
+## 12. Finding good design
+
+- **Focus is saying no.** A thousand no's for every yes; the discipline is deciding what the thing will not do, and featuritis is what saying yes looks like from inside (Jobs, via the Cook interview in raw/processed — owner page owed).
+- **Simplicity is conquered complexity, not absence.** Making something simple is hard work moved from the user into the design; simplicity achieved by omission is just a missing feature (Jobs — owner page owed).
+- **Design is how it works.** Appearance is the last layer, not the definition; a beautiful thing that works badly is bad design wearing makeup (Jobs — owner page owed).
+- **Rams' test compresses to one line: good design is as little design as possible.** Useful, understandable, honest, long-lasting, unobtrusive — and the fastest audit of any object is asking what could be removed without loss (Dieter Rams, ten principles — owner page owed).
+- **Taste trains like any skill:** study objects that survived decades, name what they refuse to do, and run the removal question until it becomes a reflex — the design version of comparing to standards, not to the small pond ([[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]] on comparison; Rams/Jobs — owner page owed).
+
 ---
 
 *Tension resolved: discoverability and deliberate difficulty pull against each other. Security, games, and learning are the cases where friction is the point, so hiding an affordance is defensible only when the difficulty serves the user — and even then it wants a discoverable way in. The applied version of that fight, plus the cross-surface and accessibility costs, lives in [[wiki/Design/Front-End Web Design|Front-End Web Design]]; a signifier with nothing behind it is the design cousin of [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], visible activity that bypasses the real cognition.*
 
-*Omitted deliberately: the emotional layer across the three levels of processing, which has its own book and only a preview here. Owed before the doctrine is complete — dedicated pages for Affordances, Signifiers, Norman Doors, the Seven Stages of Action, Constraints, Forcing Functions, Designing for Error, Human-Centered Design, and Featuritis, each currently folded into [[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]].*
+*Second tension resolved: sections 9 and 11 overlap [[wiki/Minimalism/Minimalism, Condensed|Minimalism, Condensed]] by design (Wedge, 2026-07-03: the overlap is acceptable). The division: Minimalism owns the accounting — what ownership costs and why less pays; this page owns the design reading — the room as interface, the purchase as an audition, defaults and cues as the mechanism. One doctrine, two lenses, each page pointing at the other.*
+
+*Source status (2026-07-03): sections 1–8 trace to published owner pages. Sections 9–12 were expanded at Wedge's direction from external sources and model knowledge — Thaler & Sunstein's* Nudge, *Fumio Sasaki's* Goodbye, Things, *Dieter Rams' ten principles, and the Jobs/Cook material (transcript in raw/processed) — and their lines are marked "owner page owed." These are the condensed genre's flagged gaps, not settled doctrine: each new section needs its owner page before this page's no-new-claims rule holds again.*
+
+*Omitted deliberately: the emotional layer across the three levels of processing, which has its own book and only a preview here. Owed before the doctrine is complete — dedicated pages for Affordances, Signifiers, Norman Doors, the Seven Stages of Action, Constraints, Forcing Functions, Designing for Error, Human-Centered Design, and Featuritis, each currently folded into [[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]] — plus new owner pages for Choice Architecture, Color in Interfaces, Discard Rules (Sasaki), and Focus & Simplicity (Rams/Jobs).*

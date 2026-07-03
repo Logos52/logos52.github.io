@@ -2,7 +2,7 @@
 type: system
 status: developing
 created: 2026-05-08
-updated: 2026-06-12
+updated: 2026-07-02
 tags:
   - system
   - writing
@@ -101,11 +101,13 @@ Zero new broken internal links versus the baseline build; first visit in a clean
 
 Cut these on revision; each is a hedge or an intensifier doing no work: "honestly," "genuinely," "quite," "very," "really," "it's worth noting," "importantly," "arguably," "probably" (unless probability is the actual content — then give the number or the condition instead), "I think" in documents (the document is what you think).
 
+This list is canonical for every genre in this file (consolidated 2026-07-02); the other sections cite it rather than copying it, so additions cannot drift.
+
 ## High-Signal Wiki Pages
 
 Added 2026-06-11 as the primary bar for wiki pages; the decision-writing disciplines above translate into the concept-page genre. Wedge's directive: ironclad, not advisory.
 
-Not every page needs all eight. Small concept notes need Thesis First, Specifics, and Boundaries. Technique, system, and workflow pages need all eight — they recommend actions, so they owe the reader the full honesty kit. Hub and model pages need Thesis, Case Against, and Checkable Use.
+Not every page needs all eight. Small concept notes need Thesis First, Specifics, and Boundaries. Technique, system, and workflow pages need all eight — they recommend actions, so they owe the reader the full honesty kit. Hub and model pages need Thesis, Case Against, and Checkable Expectations.
 
 ### Thesis First
 
@@ -149,6 +151,8 @@ WPW produces multi-level integration; it costs a full explanation cycle — twen
 
 Distinguish the concept from its neighbours only after the positive definition has landed. Contrast is a supporting move, never the lead: a definition never opens with what the thing is not ("not X, but Y" puts the discarded idea in the reader's head first), and the positive claim stands before any boundary is drawn.
 
+The reveal ban binds here as in front-facing prose (promoted 2026-07-02; see No Reveal, No Misdiagnosis Framing): a wiki page corrects a misconception by stating the correct claim and its evidence, never by planting the error first or casting the reader as its holder.
+
 ### Quit Signals
 
 State what evidence means the method isn't working for this reader, and the next move. A technique without a quit signal traps people in sunk-cost practice.
@@ -179,7 +183,7 @@ The page never talks about itself. Convention explainers ("every line below link
 
 ### Delete List
 
-The decision-writing delete list applies verbatim: "honestly," "genuinely," "quite," "very," "really," "it's worth noting," "importantly," "arguably," and importance-announcing in all forms.
+The decision-writing Delete List applies verbatim, plus importance-announcing in all forms. That list is canonical; this section cites it rather than copying it.
 
 ## Condensed Pages
 
@@ -196,7 +200,7 @@ The exemplars supply the **form, never the content**. The thesis paragraph is de
 
 Form transfers need the same scrutiny as content: each structural slot in an exemplar must justify its **function** in the new context before it is copied. (Same day's second lesson: ICS-CONDENSED's citation-decoder line earns its place because "Camp I 209" is opaque; the public version's wikilinks are self-explanatory, so the copied explainer line was scaffolding and got deleted.)
 
-For fast-moving domains (agentic engineering is today's case): split the doctrine into **invariants** — rules expected to survive the underlying technology becoming far more capable — and **dated tactics**, stamped with their write date and expected to rot. The invariants are the page; the tactics section is honest about its half-life. A condensed page that mixes the two rots wholesale the first time the ground shifts.
+For fast-moving domains (agentic engineering is today's case): split the doctrine into **invariants** — rules expected to survive the underlying technology becoming far more capable — and **dated tactics**, stamped with their write date and expected to rot. The invariants are the page; the tactics section is honest about its half-life. A condensed page that mixes the two rots wholesale the first time the ground shifts. Scope ruled 2026-07-02: the split is mandatory only where doctrine rots on technology shifts (agentic engineering today); slow-moving domains (learning, design, money, minimalism, characters) skip it rather than carrying an empty tactics section.
 
 The genre's test: a reader who knows the domain should nod once per line; a reader who doesn't should be able to click any line and land on the page that teaches it.
 
@@ -219,6 +223,8 @@ The writing never performs — not confidence, not humility, not transparency, n
 Every sentence is complete and carries one load-bearing fact, stated once, in concrete words — never telegraphic. Taglines, fragments, triads, anaphora, em-dash punchlines, and balanced pairs are cadence devices: selling by rhythm. A line shaped to sound finished has substituted shape for substance.
 
 Em dashes are cut from front-facing prose entirely (Wedge, 2026-06-12). The dash is the punchline's engine; commas, colons, and full stops carry the same facts without the beat.
+
+The ban's scope is intentional and stops here (made explicit 2026-07-02): wiki, decision, and condensed prose may carry em dashes — their examples in this file do — because the peer-reference register absorbs the beat that chrome and posts cannot afford. The cut binds every front-facing surface and every blog post, body prose included. The recorded rationale (Wedge, 2026-07-02): the ban is pragmatic, not aesthetic — model prose overuses the dash past the point where any per-line judgment holds, so a total cut is the only enforceable fix.
 
 ### Specific Beats Generic
 
@@ -255,17 +261,39 @@ The rules the strikes produced, all binding:
 
 This section governs Tsumugu's front-facing surfaces equally; its register authority there is PRD-Entry-Authoring §0.5–0.6 and the STYLE-CARD's banned list, which this section extends to chrome and taglines.
 
-### Blog Posts Take One Register Calibration
+### Blog Posts Are Working Notes Made Legible
 
-A blog post obeys every rule above. Past a few paragraphs it also inherits the Wiki page's body discipline: a thesis, one worked example, boundaries, and the case against where the post recommends an action. "Approachable for an average reader" changes none of the bans. Approachability comes only from concreteness and plain language. It never comes from a hook, a superlative, the reveal, cadence, or any performance. The calibrations, all executable:
+(Shipped and locked 2026-07-02, validated against the post "Rebuilding 頓" — `journal/2026-07-02-rebuilding-a-forgotten-character.md`, this register's worked exemplar. Supersedes the 2026-06-30 second-person allowance, "the post talks to a reader trying to do the thing" — struck at Wedge's direction: no talking to the reader, no lecturing; show, don't tell. Calibrated through eight rounds on that post in one day; every principle below was confirmed by Wedge, most of them against a struck line.)
 
-- A concrete, relatable lead may precede the thesis. This is the one divergence from Wiki "Thesis First." The lead is a real detail from the thing being taught, not a hook and not an "imagine if," and it is recognizable to a reader not yet doing the method. The thesis still lands inside the first short paragraph.
-- Plain words; define any term inline on first use.
-- Second person is fine; the post talks to a reader trying to do the thing.
-- One worked example carried through the whole post. One takeaway per post.
-- Length serves the takeaway. Stop when the example is fully worked, and cut anything a reference or wiki page would carry: full enumerations, exhaustive component lists, edge cases. A post is not a reference.
-- Warmth comes from the concrete example and the plain words.
-- A how-to post may want the reader to try the method. The post may never want the reader to feel excited, impressed, reassured, or urgent. This try-it want is the one feeling-free thing "The Page Wants Nothing" permits on this surface.
+A blog post obeys every rule above. Past a few paragraphs it also inherits the Wiki page's body discipline: a thesis, one worked example, boundaries, and the case against where the post recommends an action.
+
+The register is the author's notebook, cleaned up until a stranger can follow it — and the default grammar is agentless (Wedge, 2026-07-02: no "I" in normal prose; persons bypassed). The post never lectures the reader: no imperatives, no advice voice ("you should"), no rhetorical questions, no anticipated objections ("you might wonder"). Second person keeps one narrow job, taken in doses: a "you" may state a problem the reader will recognize as their own experience ("your pen might get a few strokes in and stall"), and once the pronoun has done that job the following sentences shed it — repetition turns recognition back into address, and five "yous" in a paragraph is being talked at. The dose may recur later wherever shared experience is again the content ("a character you might not handwrite for a year"), never for instruction. The possessive is the low-dose form: "your pen" keeps the scene the reader's without spending another "you." Natural collocation outranks the person ban: a phrase that exists only to dodge a person ("the character came up for handwriting") loses to the second-person-plus-modal sentence that says it naturally. Outside these, events and artifacts take the subject position: the form stops, the list collects, the recovery takes a minute. Appearance verbs carry experience without an experiencer (looks wrong, feels familiar, reads as invented); recognition itself can act (recognition fired on one pairing); light passives hold background facts (last written over a year ago); actions nominalize (the reconstruction, the lookup). The fix for a struck "you" or "I" is an event or artifact subject — never "one." The entry register already holds this line inside the dictionary — no instruction verbs, no patronizing asides (PRD-Entry-Authoring §0.6, STYLE-CARD) — this extends it to posts and front-facing prose. Chrome is unaffected: taglines stay catalog lines, and a noun phrase addresses no one.
+
+Moves that come out on revision — each is the author performing rather than transferring, and all were struck on the 頓 post (2026-07-02):
+
+- **The appended verdict.** A judgment clause tacked onto a finished sentence ("…and fairly") is the author stepping outside the sentence to grade it. Fold the judgment into the verb or cut it.
+- **The punchline landing.** A sentence built to hand over a payoff ("and that's the answer"), including the paradox-flip ("the thing that caused the problem is also the way back"). The fact rides inside the sentence, never at a payoff position.
+- **Self-referential apparatus.** The post pointing at its author's system ("in the notes this is called…"). Names arrive plainly: "This is the IME method, named after…"
+- **Empty parallelism.** A second clause that mirrors the first with the labels swapped and adds nothing ("the sound narrows down the sound components, and the meaning narrows down the meaning components"). Say it once, or give the second half a new fact.
+- **Passive mush.** "It could be argued," "it was found": an agent the sentence still needs, hidden. The fix is a concrete event or artifact subject, not a restored person.
+- **The generic how-to voice.** Person-free prose drifts generic when the specific episode evaporates; the worked example stays a particular recovery with particular candidates, told as events.
+- **Abstract nouns doing the acting.** "The same asymmetry contains the repair": concept-shuffling, not speech. The read-aloud test catches it — a sentence nobody would say out loud gets rewritten with the concrete thing as its subject.
+- **Performed rumination.** "The more this sits with me" and kin: No Posing in notebook clothing. The notebook records what happened, what held, and what is still open.
+- **Dead verbs.** "Stay," "go," "become," "get" where a concrete verb can act ("the sound and the meaning stick, while the written form slips away"). Specifics Over Adjectives, applied to the verb slot.
+- **Decorative personification.** Animation earns its place only when the image is the mechanism: "the written form slips away" describes forgetting, and "the form is waiting" traces to stored-but-uncued memory, while "the lookup hands over the form" and "頓 had never left" dress up mundane facts for warmth. Map the mechanism or stay literal.
+- **The replay.** Restating what the reader just watched — "屯頁 looked right, and 屯頁 is 頓" says it twice; the bare "頓" lands because the object itself is the payoff, shown. At paragraph scale the replay is the coda: a close that adds no new fact and re-tells the episode is an ending performing ending-ness, and it comes out whole.
+
+Legible is the load-bearing half. A notebook a stranger can follow still defines terms inline, still carries one worked example through the whole post, one takeaway per post, and still stops when the example is fully worked — cut anything a reference or wiki page would carry. Approachability comes from concreteness and plain words; warmth comes from the same two.
+
+Variance is deliberate (added 2026-07-02, Wedge's direction, both halves). Structure: identical skeletons read as a template, so a post may carry one structural element where it earns its place — a small table when the content is genuinely tabular (correspondence rules, failure-to-repair maps, family groups), a text-flow block when the mechanism is a schedule or a loop, or a short operating-principles block when a mindset is the takeaway (three to five one-line declaratives, each obeying every register rule, no imperatives). Bullets speak the run-on language, only a little more concise (Wedge, 2026-07-02): one plain clause or sentence each, the kind that could sit in the prose unchanged — never compressed aphorisms, and the semicolon-pair beat is as banned in a bullet as anywhere ("Motor training, not study; the boring reps are the consolidating ones" was struck for "This is motor training, so the boring reps are the ones that count"). Elaboration lives in the surrounding prose, not packed into the bullet. One element per post at most, and many posts take none; the element compresses what the prose already carries and never introduces facts the prose doesn't. Length: posts do not converge on one size — a human doesn't write the same length every time. An idea that genuinely needs thorough expansion gets it, a small idea ships small, and "length serves the takeaway" is the only ruler; uniform post length across a series is itself a template smell.
+
+The post's shape is whole–part–whole (added 2026-07-02; [[wiki/Dimensions/Retrieval/WPW|WPW]] applied to prose, since a post is teaching). The lead is the whole, not the sharpest part: an opening paragraph that orients, stating the plain big picture the worked example lives in, in words a stranger already owns, with the thesis landing inside it. The first sentence is the post's harshest position, and even a dose-legal second-person claim reads as confrontation there ("You can know a character and still be unable to write it" was struck as an opener, 2026-07-02). Open by normalizing the problem, and give the sentence a run-up: a scoping clause before the claim, so the entry glides instead of dropping ("Among people who read Chinese, even fluent native speakers, it's common to know a character well and still be unable to write it"). A one-clause opener stays abrupt even when it normalizes ("It's common to know a character but still be unable to write it" — struck as too short the same day). Short sentences spend their force mid-paragraph; the first sentence wants length. The "you" dose enters once the door is open. Normalizing widens the picture beyond the single reader and softens the drop. This is still not a hook — orientation transfers facts; a hook wants a feeling. Domain detail ramps after the whole; the densest specifics never open the post (the 頓 post's first draft opened on the episode with its pinyin glosses and read as a sharp drop; rewritten same day). Each part connects back to the whole as it enters, and the post returns to the whole to close — the same whole that opened it, advanced by the part (clarified twice, 2026-07-02: a close that landed in a nearby scene was struck, then a close that merely restated the opening was struck as weak): the final paragraph stands back in the opening's big picture carrying what the part contributed — the problem now solvable, the learning goal moved. The 頓 exemplar: the stalls stay common, but a stall is now worth a minute of retrieval practice instead of a dictionary trip, and the rebuilt character is harder to lose. Never a replay of the episode, never a restatement of the intro. Mode switches are marked on the way: when a hypothetical becomes an actual episode, one plain sentence says so ("That is exactly what happened with this one"); an unmarked pivot reads as a non-sequitur. Labels come after mechanisms, per [[wiki/Dimensions/Retrieval/Reverse Explanation|Reverse Explanation]]: the thing is explained first and named last, so the name lands already connected.
+
+Flow is the objective; high signal is the filter (the governing hierarchy, confirmed 2026-07-02 after two drafts optimized density and read as doctrine). The high-signal rules say what may not appear: selling, posing, filler, hedge words, cadence tricks. They do not set the target. The target is a human reading comfortably, and when maximal compression fights natural flow, flow wins. Density is not signal: a compressed claim unpacks across two or three sentences instead of shipping as one dense line; a term is explained before it does any work (what a component is, before component lists); transitions carry the reader between whole and part ("a proper retrieval can make it concrete"); a run of glosses gets a plain sentence before and after it to breathe. Plain words are for delivery, not for erasing precision (Wedge, 2026-07-02): a domain term that carries the mechanism beats the general word — "retrieval," not "recovery" — in doses, each clear from context or given its clause; strip too much jargon and the post goes so general it loses the details that matter. Terms of art wearing plain clothes ("the method does have a floor") may stand bare when the sentences that follow supply the meaning in concrete facts; an inline definition that breaks the paragraph's flow costs more than it adds (ruled 2026-07-02 — the floor's height arrives one sentence later, as the 50 characters). The audience is a learner whose position on the journey is unknown, so pacing targets the newest plausible reader. The Delete List cuts words doing no work. Connective tissue is doing work: it is the pacing. Density is also positional (added 2026-07-02, second post): a compressed claim is welcome mid-paragraph and unwelcome at any opening — each paragraph's first sentence takes a short run-up, the same way the post's does ("The precondition can be manufactured" was struck as a paragraph opener; "A foreign learner can set up the same precondition on purpose" replaced it). The run-up is a pacing device, not an intro device (Wedge, 2026-07-02): the same long, unhurried sentence shape recurs occasionally through the body as glue between sections and lead-ins to the next thought, and the close takes a run-off — the final sentences decelerate the way the opener accelerates, ending on a landing with room in it ("the hour of study that follows has somewhere particular to go"). A compressed appositive or clipped landing in the last sentence is density at the exit, the same fault as density at the door ("Instead of one verdict, more practice, a stalled sentence can point…" was struck for both at once). The paired test: every fact still survives the high-signal sweep, and every paragraph survives being read aloud to someone new to the topic.
+
+Gentleness is executed, not felt (added 2026-07-02). Modality is gentleness done honestly: a bare declarative states a law, so contingent things get contingent grammar — "a real recovery can make it concrete," "the pen might stall a few strokes in." This is not the hedging the Delete List bans: hedge words grade the author's confidence, while modals describe how the world behaves, and facts that hold always keep the bare form. The same honesty governs frequency: "never" and "always" on contingent claims become "usually" and "often" ("recognition, which is usually not the link that needs the help"). Harshness is the paired fault: a run of clipped verdict-sentences reads as doctrine even when every line passes every other test; sentence length varies the way speech does, and a short sentence spends its force only where the content earns it ("One did not." was softened to "but one of them didn't"). The close shows the episode resolving in the scene's own terms rather than stating its moral: "the sound and the meaning were holding it the whole time" told the lesson, and was rewritten as the pen finishing the character. Show the resolution; the reader takes the lesson from it.
+
+The try-it want is gone. A notebook wants nothing from anyone, including that the method be tried. The method appears completely enough to repeat; whether to repeat it is the reader's business. This tightens The Page Wants Nothing to its limit on this surface.
 
 ### What Approachable Does Not License
 
@@ -280,7 +308,7 @@ Ever wonder why you blank on a character you'd swear you knew yesterday?
 Strong (concrete-detail lead):
 
 ```text
-You write 頓, the bottom half goes missing, and the stroke stops. List the sound parts that could carry the syllable (屯, 盾, 享) against the meaning parts that fit (首, 頁, 百), and 屯+頁 resolves it.
+Writing 頓 from memory, the bottom half went missing and the stroke stopped. Listing the sound parts that could carry the syllable (屯, 盾, 享) against the meaning parts that fit (首, 頁, 百): 屯+頁 resolves it.
 ```
 
 Weak (feeling-causing):
