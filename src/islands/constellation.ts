@@ -1,11 +1,13 @@
 /**
  * constellation.ts — the knowledge graph, ported from the original Quartz graph.inline.ts.
  *
- * Two modes (set via data-mode on the root):
+ * Modes (set via data-mode on the root):
  *   'spine' (home)  — selectSpineConstellation: 6 hubs + ≤3 sats + 1 outer each (≤30 nodes), pinned to a
  *                     flat horizontal band (SPINE_Y_BAND × domainTargetX), persistent hub labels.
  *   'full'  (/notes) — the full overview graph: every node, domain-clustered into lobes and flattened
  *                     (flatY + a post-settle vertical squash) so it fills the rectangle; labels on hover.
+ *   'local' (note rail / journal / projects) — single-seed importance-filtered spine, or multi-seed
+ *                     vertical stack (selectMultiSeedVertical) when orient=vertical and seeds.length > 1.
  *
  * Both: synchronous settle (locked layout, no wobble), auto-zoom-to-fit ALL nodes, pan/zoom/hover/click.
  * Canvas rendering (no pixi). Colors read live from the DS CSS vars so dark mode just works.
@@ -47,6 +49,12 @@ const LOCAL_X_STRETCH = 1.08; // nudge X after proportional squash
 const LOCAL_RING_R = 100; // landmark ring radius (relative units; fitToView rescales into the box)
 const LOCAL_SAT_REACH = 1.7; // satellites anchor this × further out than their landmark → branches point outward
 const LOCAL_LANDMARK_RADIUS = 5; // px; sits between the seed (flag) node and the small satellites
+// Multi-seed vertical (journal / projects side graphs): one importance-filtered mini-cluster per seed,
+// stacked on a shared spine. Budgets scale with seed count — no per-page tuning when seeds change.
+const MULTI_SEED_GLOBAL_CAP = 44;
+const MULTI_SEED_SLOT_STEP = LOCAL_RING_R * 1.12; // vertical gap between seed clusters (horizontal fans need headroom)
+const MULTI_SEED_FIT_BOOST = 0.82; // zoom out vs single-seed LOCAL_FIT_BOOST — nodes shrink naturally via fit scale
+const MULTI_SEED_CANVAS_AR = 0.9; // post-settle stretch so the layout fills the aside box, not a tall strip
 // Importance prior by frontmatter `type`: structural anchors (hubs, syntheses, dimensions) outrank
 // concepts/techniques, which outrank references/books; journals are noise in a concept neighbourhood.
 const TYPE_RANK: Record<string, number> = {
@@ -196,13 +204,14 @@ function localSpineBudget(
   direct: string[],
   domainOf: Map<string, string>,
   isMobile: boolean,
+  landmarkMax = LOCAL_LANDMARKS,
 ): { landmarkCount: number; satsPer: number; cap: number } {
   const n = direct.length;
   if (n === 0) return { landmarkCount: 0, satsPer: 0, cap: 1 };
   const domains = new Set(direct.map((id) => domainOf.get(id) ?? 'gen')).size;
   const fromA = Math.floor(Math.sqrt(n));
   const fromC = domains;
-  let landmarkCount = Math.min(fromA, fromC, isMobile ? 3 : LOCAL_LANDMARKS);
+  let landmarkCount = Math.min(fromA, fromC, isMobile ? Math.min(3, landmarkMax) : landmarkMax);
   landmarkCount = Math.max(landmarkCount, 1);
   const satsPer = isMobile ? 1 : domains >= 3 || n >= 8 ? LOCAL_SATS_PER : 1;
   const cap = Math.min(1 + landmarkCount * (1 + satsPer), isMobile ? 9 : LOCAL_GLOBAL_CAP);
@@ -216,6 +225,8 @@ function selectLocalSpine(
   typeOf: Map<string, string>,
   domainOf: Map<string, string>,
   isMobile: boolean,
+  capOverride?: number,
+  landmarkMax?: number,
 ) {
   const { degree, neighbors } = buildAdjacency(links);
   const imp = (id: string) => typeRank(typeOf.get(id)) * 10 + Math.min(degree.get(id) ?? 0, 24);
@@ -224,7 +235,8 @@ function selectLocalSpine(
     .filter((id) => valid.has(id))
     .sort((a, b) => imp(b) - imp(a) || a.localeCompare(b));
 
-  const { landmarkCount, satsPer, cap } = localSpineBudget(direct, domainOf, isMobile);
+  const { landmarkCount, satsPer, cap: budgetCap } = localSpineBudget(direct, domainOf, isMobile, landmarkMax);
+  const cap = capOverride != null ? Math.min(capOverride, budgetCap) : budgetCap;
 
   // Landmarks: highest-importance direct neighbours, one per domain first so the branches stay distinct,
   // then fill from what's left if the note only touches a couple of domains.
@@ -261,6 +273,72 @@ function selectLocalSpine(
     }
   }
   return { neighbourhood, satelliteParent, landmarks: landmarkSet };
+}
+
+/** Scale node budgets with seed count so journal/projects graphs stay readable as seeds are added. */
+function multiSeedBudgets(seedCount: number, isMobile: boolean) {
+  const globalCap = isMobile
+    ? Math.min(22, 4 + seedCount * 4)
+    : Math.min(MULTI_SEED_GLOBAL_CAP, 8 + seedCount * 8);
+  const perSeedCap = Math.min(LOCAL_GLOBAL_CAP, Math.max(5, Math.floor(globalCap / seedCount)));
+  const landmarkMax = Math.max(2, Math.min(LOCAL_LANDMARKS, Math.ceil((LOCAL_LANDMARKS * 2) / seedCount)));
+  return { globalCap, perSeedCap, landmarkMax };
+}
+
+/**
+ * Journal / projects: one selectLocalSpine cluster per seed (in caller order), merged with
+ * first-seed-wins dedup. Shared neighbours keep the earlier seed's slot; cross-links still render.
+ */
+function selectMultiSeedVertical(
+  seedSlugs: string[],
+  links: SLink[],
+  valid: Set<string>,
+  typeOf: Map<string, string>,
+  domainOf: Map<string, string>,
+  isMobile: boolean,
+) {
+  const orderedSeeds = seedSlugs.filter((s) => valid.has(s));
+  const { globalCap, perSeedCap, landmarkMax } = multiSeedBudgets(orderedSeeds.length, isMobile);
+
+  const neighbourhood = new Set<string>();
+  const satelliteParent = new Map<string, string>();
+  const landmarks = new Set<string>();
+  const seedLandmarks = new Map<string, string[]>();
+  const nodeOwner = new Map<string, string>();
+
+  for (const seed of orderedSeeds) {
+    if (neighbourhood.size >= globalCap) break;
+
+    const sel = selectLocalSpine(seed, links, valid, typeOf, domainOf, isMobile, perSeedCap, landmarkMax);
+
+    neighbourhood.add(seed);
+    nodeOwner.set(seed, seed);
+
+    const ownedLandmarks: string[] = [];
+    for (const lm of sel.landmarks) {
+      if (neighbourhood.size >= globalCap) break;
+      if (!neighbourhood.has(lm)) {
+        neighbourhood.add(lm);
+        landmarks.add(lm);
+        nodeOwner.set(lm, seed);
+        ownedLandmarks.push(lm);
+      } else if (nodeOwner.get(lm) === seed) {
+        ownedLandmarks.push(lm);
+      }
+    }
+
+    for (const [sat, parent] of sel.satelliteParent) {
+      if (neighbourhood.has(sat) || neighbourhood.size >= globalCap) continue;
+      if (!neighbourhood.has(parent)) continue;
+      neighbourhood.add(sat);
+      satelliteParent.set(sat, parent);
+      nodeOwner.set(sat, seed);
+    }
+
+    seedLandmarks.set(seed, ownedLandmarks);
+  }
+
+  return { neighbourhood, satelliteParent, landmarks, seedLandmarks, orderedSeeds };
 }
 
 /**
@@ -417,6 +495,38 @@ function applyLocalGeometry(
 function localSatReach(parentId: string, satelliteParent: Map<string, string>, degree: Map<string, number>): number {
   const sats = [...satelliteParent.values()].filter((p) => p === parentId).length;
   return LOCAL_SAT_REACH * (0.82 + Math.min(sats, 3) * 0.14 + Math.min(degree.get(parentId) ?? 0, 8) * 0.01);
+}
+
+/** Widen a tall multi-seed stack to match the canvas aspect (inverse of the note-rail panorama squash). */
+function applyMultiSeedCanvasProportion(nodes: CNode[], viewW: number, viewH: number) {
+  let minX = Infinity;
+  let maxX = -Infinity;
+  let minY = Infinity;
+  let maxY = -Infinity;
+  for (const n of nodes) {
+    const x = n.x ?? 0;
+    const y = n.y ?? 0;
+    if (x < minX) minX = x;
+    if (x > maxX) maxX = x;
+    if (y < minY) minY = y;
+    if (y > maxY) maxY = y;
+  }
+  const bw = Math.max(maxX - minX, 10);
+  const bh = Math.max(maxY - minY, 10);
+  const targetAR = (viewW / viewH) * MULTI_SEED_CANVAS_AR;
+  const naturalAR = bw / bh;
+
+  let scaleX = 1;
+  let scaleY = 1;
+  if (naturalAR < targetAR) scaleX = Math.min(targetAR / naturalAR, 2.4);
+  else scaleY = Math.max(targetAR / naturalAR, 0.72);
+
+  for (const n of nodes) {
+    if (n.x != null) n.x *= scaleX;
+    if (n.y != null) n.y *= scaleY;
+    if (n.fx != null) n.fx *= scaleX;
+    if (n.fy != null) n.fy *= scaleY;
+  }
 }
 
 /** Squash/stretch node positions to match the rail's wide aspect ratio (proportional, not a fixed Y factor). */
@@ -601,6 +711,8 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   const seedSet = new Set(seedSlugs.filter((s) => valid.has(s)));
   /** Single-seed note sidebar — flattened rail + subtle current-node emphasis. */
   const noteRailLocal = mode === 'local' && seedSet.size === 1 && !vertical;
+  /** Journal / projects: stacked mini-clusters on a vertical spine (budgets scale with seed count). */
+  const multiSeedVertical = mode === 'local' && seedSet.size > 1 && vertical;
   /** Journal / projects: persistent seed titles + HTML hover tip for everything else. */
   const localSeedLabels = mode === 'local' && !noteRailLocal;
   /** HTML hover tip on the hovered node (hubs/seeds with persistent canvas labels skip). */
@@ -629,6 +741,9 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   let satelliteParent = new Map<string, string>();
   let primarySatellites = new Set<string>();
   let landmarkSet = new Set<string>(); // local mode: the fanned hub branches around the center note
+  let seedLandmarks = new Map<string, string[]>(); // multi-seed vertical: landmarks placed per seed cluster
+  let orderedSeeds: string[] = []; // multi-seed vertical: caller order, filtered to valid slugs
+  const seedSlotY = new Map<string, number>(); // multi-seed vertical: pinned Y per seed on the spine
 
   const makeNode = (id: string): CNode => {
     const deg = degree.get(id) ?? 0;
@@ -690,6 +805,21 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
     const byId = new Map(nodes.map((n) => [n.id, n]));
     // keep every edge inside the (small) neighbourhood → seed↔landmark, landmark↔satellite, plus any
     // cross-links that form triangles and make the cluster read as a real neighbourhood, not a star.
+    links = allLinks
+      .filter((e) => byId.has(e.source) && byId.has(e.target))
+      .map((e) => ({ source: byId.get(e.source)!, target: byId.get(e.target)! }));
+  } else if (multiSeedVertical) {
+    const sel = selectMultiSeedVertical(seedSlugs, allLinks, valid, typeOf, nodeDomain, isMobile);
+    satelliteParent = sel.satelliteParent;
+    landmarkSet = sel.landmarks;
+    seedLandmarks = sel.seedLandmarks;
+    orderedSeeds = sel.orderedSeeds;
+    const slotStep = MULTI_SEED_SLOT_STEP * (0.96 + Math.min(orderedSeeds.length, 6) * 0.03);
+    orderedSeeds.forEach((seed, i) => {
+      seedSlotY.set(seed, (i - (orderedSeeds.length - 1) / 2) * slotStep);
+    });
+    nodes = [...sel.neighbourhood].map(makeNode);
+    const byId = new Map(nodes.map((n) => [n.id, n]));
     links = allLinks
       .filter((e) => byId.has(e.source) && byId.has(e.target))
       .map((e) => ({ source: byId.get(e.source)!, target: byId.get(e.target)! }));
@@ -771,7 +901,41 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
           ),
         );
     } else if (mode === 'local') {
-      if (landmarkSet.size > 0) {
+      if (multiSeedVertical && orderedSeeds.length > 0) {
+        landmarkAnchorX.clear();
+        landmarkAnchorY.clear();
+        for (const seed of orderedSeeds) {
+          const lmIds = seedLandmarks.get(seed) ?? [];
+          const slotY = seedSlotY.get(seed) ?? 0;
+          // Horizontal fan per seed; seeds stack vertically on the shared spine.
+          const geometry = deriveLocalGeometry(seed, lmIds, satelliteParent, nodeDomain, typeOf, degree, false);
+          for (const [id, { ang, r }] of geometry.placements) {
+            landmarkAnchorX.set(id, Math.cos(ang) * r);
+            landmarkAnchorY.set(id, Math.sin(ang) * r + slotY);
+          }
+        }
+        const anchorStrength = (d: CNode) =>
+          seedSet.has(d.id) ? 1 : landmarkSet.has(d.id) ? 0.9 : d.parent ? 0.3 : 0.08;
+        const satX = (d: CNode) =>
+          d.parent ? (landmarkAnchorX.get(d.parent) ?? 0) * localSatReach(d.parent, satelliteParent, degree) : 0;
+        const satY = (d: CNode) =>
+          d.parent ? (landmarkAnchorY.get(d.parent) ?? 0) * localSatReach(d.parent, satelliteParent, degree) : 0;
+        sim
+          .force('charge', forceManyBody<CNode>().strength(-250))
+          .force('center', forceCenter<CNode>(0, 0).strength(0.025))
+          .force('link', forceLink<CNode, CLink>(links).id((n) => n.id).distance(44).strength(0.48))
+          .force('collide', forceCollide<CNode>((n) => n.r + 7).iterations(2))
+          .force(
+            'x',
+            forceX<CNode>((d) => (landmarkSet.has(d.id) ? landmarkAnchorX.get(d.id) ?? 0 : satX(d))).strength(anchorStrength),
+          )
+          .force(
+            'y',
+            forceY<CNode>((d) => (seedSet.has(d.id) ? seedSlotY.get(d.id) ?? 0 : landmarkSet.has(d.id) ? landmarkAnchorY.get(d.id) ?? 0 : satY(d))).strength(
+              anchorStrength,
+            ),
+          );
+      } else if (landmarkSet.size > 0) {
         // local SPINE: seed pinned at origin; landmark seats from deriveLocalGeometry() — a pure
         // function of domain angles, link mass, and angular span (no hash / random seed).
         const landmarkIds = [...landmarkSet];
@@ -805,12 +969,18 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
           .force('link', forceLink<CNode, CLink>(links).id((n) => n.id).distance(50).strength(0.45))
           .force('collide', forceCollide<CNode>((n) => n.r + 6).iterations(2))
           .force(vertical ? 'flatX' : 'flatY', (vertical ? forceX<CNode>(0) : forceY<CNode>(0)).strength(vertical ? 0.05 : 0.07));
+        if (multiSeedVertical) {
+          sim.force(
+            'y',
+            forceY<CNode>((d) => (seedSet.has(d.id) ? seedSlotY.get(d.id) ?? 0 : 0)).strength((d) => (seedSet.has(d.id) ? 0.85 : 0.04)),
+          );
+        }
       }
-      if (seedSet.size === 1) {
+      if (seedSet.size === 1 || multiSeedVertical) {
         for (const n of nodes)
           if (seedSet.has(n.id)) {
             n.fx = 0;
-            n.fy = 0;
+            n.fy = multiSeedVertical ? (seedSlotY.get(n.id) ?? 0) : 0;
           }
       }
     } else {
@@ -874,9 +1044,12 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
         }
       }
       sim.tick(Math.ceil(settleTicks / 4));
-      // Sidebar local graph: proportional flatten to the canvas aspect (journal vertical orient skips).
+      // Sidebar local graph: proportional flatten to the canvas aspect.
       if (noteRailLocal) {
         applyLocalRailProportion(nodes, width, height);
+        sim.tick(6);
+      } else if (multiSeedVertical) {
+        applyMultiSeedCanvasProportion(nodes, width, height);
         sim.tick(6);
       }
     }
@@ -915,6 +1088,11 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
       sumY += y;
       count++;
       fitted.push(n);
+      if (multiSeedVertical && n.isFlag) {
+        const lw = ctx!.measureText(n.label ?? n.title).width;
+        inc(x - lw / 2 - 4, y + n.r + 5);
+        inc(x + lw / 2 + 4, y + n.r + 18);
+      }
       if (mode === 'spine' && n.tier === 'hub') {
         hubCount++;
         const lw = ctx!.measureText(n.label ?? n.title).width;
@@ -971,7 +1149,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
       const bh = maxY - minY;
       fit =
         Math.min((width - m * 2) / bw, (height - m * 2) / bh, SPINE_MAX_FIT_SCALE) *
-        (mode === 'local' ? LOCAL_FIT_BOOST : 1);
+        (multiSeedVertical ? MULTI_SEED_FIT_BOOST : mode === 'local' ? LOCAL_FIT_BOOST : 1);
       centerX = (minX + maxX) / 2;
       centerY = (minY + maxY) / 2;
     }
