@@ -71,7 +71,7 @@ The honest case against:
 - Cues are private. One learner's "curiosity" and another's "difficulty" can be the same base feeling named differently, so cues guide a learner rather than measure them, and they do not transfer as data.
 - Difficulty is not self-justifying. Load from distraction, or from straining to understand a half-known language, is high effort that builds nothing. The framework pays off only downstream of an already-productive process; applied to unproductive struggle it rationalises burnout.
 - The 30-minute cap is a heuristic from observed learner behaviour, not a measured optimum, and no per-domain variant is given.
-- Monitoring carries its own load. Turned on for every task it becomes extraneous load, so it belongs on high-value skill practice rather than routine drills.
+- Monitoring carries its own load. Turned on for every task it becomes extraneous load, so it belongs on high-value skill practice rather than routine reps.
 
 ## Quit Signals
 

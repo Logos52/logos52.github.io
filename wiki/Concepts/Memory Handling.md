@@ -47,6 +47,7 @@ The learner should monitor whether information is being transformed into meaning
 - [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]] — the working-memory workbench named as a global workspace, with the AI J-space as its model-side analogue.
 
 ## Sources
 

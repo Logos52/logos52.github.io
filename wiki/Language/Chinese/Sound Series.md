@@ -48,7 +48,7 @@ Sound change splits formerly identical initials, so some series straddle two gro
 - **{g, k, h} ↔ {l}.** Rooted in the shape of the Old Chinese syllable: 各 (gè) gives 客 kè, 格 gé, 貉 hé, 胳 gē beside 路 lù, 略 lüè, 落 luò, 絡 luò.
 - **Let interactions emerge.** Once the seven basic groups run automatically, cross-group pairs announce themselves during normal study; memorizing them up front adds load without payoff.
 
-## Running the Drill
+## Running the Practice
 
 - **Install the seven groups first.** Memorize them, say related members aloud, and notice the group every time a new character's reading relates to its component.
 - **Resolve doubt with the mouth.** When two sounds seem unrelated, pronounce both and check the place of articulation: 't' and 'd' share one, while 'p' lives at the lips.

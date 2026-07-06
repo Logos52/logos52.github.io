@@ -103,3 +103,8 @@ The body may be more systematic than the Core Thesis. The thesis should be sharp
 ---
 
 **These guidelines are working if:** briefs stay within what sources actually argue, mechanisms are identified before drafting starts, and questions about scope come before writing rather than after.
+
+
+## Feedback protocol (standing rule — canonical in ~/Projects/AGENTS.md)
+
+Deep read before execution, always: enumerate everything Wedge asked, details included, never the gist; find the general principle behind the specific complaint; then execute against both, and record the principle in the appropriate standard. Prose is generated as a continuous explanation to a real person first, then filtered through the writing standards — never assembled from rule-compliant fragments.

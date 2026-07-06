@@ -22,7 +22,7 @@ What the eye must judge — the design that doesn't reduce to a rule an agent ca
 
 - **Rebuild interfaces you admire from scratch, no peeking at devtools.** The friction of matching the original is what surfaces the invisible tricks (tighter heading line-height, letter-spaced caps, doubled shadows). This is the single highest-yield calibration drill. [RUI]
 - **Hunt for "decisions you wouldn't have made."** On any design you like, ask what the designer did that you'd never have thought to do (inverted datepicker, button inside the input, two-color headline). Collect these. [RUI]
-- **Run the elimination drill to train comparison.** Given a system, the *act of seeing* that two of three options are obviously wrong is the trainable perception; the scale itself is agent-work. [RUI; UPOD: Comparison]
+- **Run the elimination exercise to train comparison.** Given a system, the *act of seeing* that two of three options are obviously wrong is the trainable perception; the scale itself is agent-work. [RUI; UPOD: Comparison]
 - **Become a type snob on purpose.** Sustained attention to typography on good sites converts "I can't say why" into fast good/bad calls. [RUI]
 - **Trust your eyes over the numbers at the finish.** Systematic palettes, proportions, and scales get you 90% there; the last S/L tweak is made by eye. [RUI]
 - **The aesthetic-usability effect is real and it's a trap.** People rate attractive things as more usable, so beauty buys forgiveness — but it can also mask genuine usability faults from *you*. Judge both, separately. [UPOD: Aesthetic-Usability Effect]

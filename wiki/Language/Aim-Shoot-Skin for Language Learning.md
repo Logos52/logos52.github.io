@@ -1,6 +1,6 @@
 ---
 title: "Aim-Shoot-Skin for Language Learning"
-description: "BHS for languages: aim at the just-not-understandable band, shoot the gaps a live passage exposes, skin to compress what accumulates — words learned to solve a live problem outlast words drilled in advance."
+description: "BHS for languages: aim at the just-not-understandable band, shoot the gaps a live passage exposes, skin to compress what accumulates — words learned to solve a live problem outlast words memorized in advance."
 type: system
 status: seed
 created: 2026-06-11
@@ -14,14 +14,14 @@ tags:
 
 # Aim-Shoot-Skin for Language Learning
 
-A dialogue you half-follow creates its own reason to learn: every word you cannot quite place is a live problem, and a word learned to solve a live problem outlasts one drilled in advance. Input sorts into three bands — comfortable, just not understandable, and pure noise — and acquisition runs fastest in the middle band, where you catch perhaps half the words yet the gist still assembles from context, tone, gesture, and vocabulary you already own. Working the band means refusing to pre-memorize: meet the material cold, reconstruct the meaning, then learn exactly the missing pieces. The passage slides from barely understandable to understood, and the new words arrive wired to a purpose.
+A dialogue you half-follow creates its own reason to learn: every word you cannot quite place is a live problem, and a word learned to solve a live problem outlasts one memorized in advance. Input sorts into three bands — comfortable, just not understandable, and pure noise — and acquisition runs fastest in the middle band, where you catch perhaps half the words yet the gist still assembles from context, tone, gesture, and vocabulary you already own. Working the band means refusing to pre-memorize: meet the material cold, reconstruct the meaning, then learn exactly the missing pieces. The passage slides from barely understandable to understood, and the new words arrive wired to a purpose.
 
 Run as a cycle, this becomes an aim–shoot–skin loop: aim manufactures curiosity around a specific passage, shoot fills the gaps it exposes, skin periodically compresses what has accumulated. The aim–shoot alternation carries roughly 90% of the learning; skin is an optional compressor. The shape is inquiry-based learning fitted to a domain of thousands of small items.
 
 ## Aiming at the Just-Not-Understandable Band
 
 - **Test the band by feel.** Right-level material leaves you unable to transcribe it word for word while still following what the speakers are getting at — roughly half the words land, the rest get inferred.
-- **Refuse pre-memorization.** The band teaches only when the new words arrive unknown; meaning gets rebuilt from known vocabulary plus body language, tone, and situation, and words rebuilt that way are retained far better than words drilled from a list.
+- **Refuse pre-memorization.** The band teaches only when the new words arrive unknown; meaning gets rebuilt from known vocabulary plus body language, tone, and situation, and words rebuilt that way are retained far better than words memorized from a list.
 - **Choose by interest.** Subject matter is irrelevant; the binding criterion is genuine curiosity — a scene you want to follow without subtitles beats any assigned dialogue, because curiosity turns the passage into a problem.
 - **Multiply one dialogue into many questions.** Branch the exchange: where the speaker drew reply Y, draft the reply you would have given, then the answer it would provoke, and keep going — sketching branches in your own language first. One passage becomes a question set.
 - **Aim at every level of fluency.** As the comfortable band widens, the target band narrows: a fluent reader aims at technical material where 2–3% of words are unknown rather than 0.1%. Only the material changes.

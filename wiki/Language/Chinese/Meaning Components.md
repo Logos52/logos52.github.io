@@ -42,7 +42,7 @@ Four forces obscure a character's structure: stylization, accrued component sens
 
 - **Transparent characters encode themselves.** 想 (xiǎng, "to think, feel") stays legible without research: 相 (xiāng, also xiàng; originally "to observe") sounds nearly identical, and 心 (xīn, "heart") is the familiar marker of thoughts and feelings.
 - **Opaque characters demand research.** In 藍 (lán, "blue; originally the indigo-dye plant"), the vegetation component ⺾ plainly gives meaning, and the parallel 籃 (lán, "basket") with the bamboo component ⺮ does the same — leaving 監 (jiān) as the sound-giver, a conclusion modern Mandarin makes unbelievable.
-- **Old Chinese restores the broken cue.** 監 *kram, 籃 *k.ram, and 藍 *g.ram were nearly identical at creation, and k and g share a place of articulation (say them aloud, then p). The asterisk reads "reconstructed"; reconstructions explain a link and never enter review drills.
+- **Old Chinese restores the broken cue.** 監 *kram, 籃 *k.ram, and 藍 *g.ram were nearly identical at creation, and k and g share a place of articulation (say them aloud, then p). The asterisk reads "reconstructed"; reconstructions explain a link and never enter review cards.
 - **Flag drift to keep trusting the phonetic system.** 且 (qiě) in 助, 也 (yě) in 地, and 土 in 社 are genuine sound components now inaudible in Mandarin; marking the drift keeps them read as sound.
 
 ## Related Pages

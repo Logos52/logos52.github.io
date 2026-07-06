@@ -17,7 +17,7 @@ tags:
 
 # Interleaving for Complex Problem Solving
 
-Complex problem solving often fails because the learner keeps drilling execution while the real bottleneck sits in the approach layer: seeing variables, mapping their relationships, and choosing the right thinking pattern.
+Complex problem solving often fails because the learner keeps grinding execution while the real bottleneck sits in the approach layer: seeing variables, mapping their relationships, and choosing the right thinking pattern.
 
 Interleaving is the repair when knowledge works in one context but collapses under variation. It forces the mind to reconstruct the problem from different angles, contexts, constraints, and outcomes.
 
@@ -288,7 +288,7 @@ Start with the outcome. Interleaved retrieval will reveal the bottleneck.
 
 ## Open Questions
 
-- Where am I drilling execution when the real bottleneck is approach?
+- Where am I grinding execution when the real bottleneck is approach?
 - Which current learning goals are being practiced too narrowly?
 - What knowledge-work outputs should become interleaving formats: essay, plan, explanation, code, prompt, decision, or teaching script?
 - What is the right level of variation for Vietnamese right now?

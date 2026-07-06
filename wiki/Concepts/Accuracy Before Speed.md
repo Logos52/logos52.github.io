@@ -29,7 +29,7 @@ That makes accuracy the entire pacing job. Execute the current process correctly
 
 - **Change the process.** Switching to a fundamentally better technique can be worth 400%, a gain no amount of rushing reaches. The comparison only holds at a comfortable pace: rushing even an excellent technique drops its output below the same technique run calmly.
 - **Accuracy converts to efficiency on its own.** Executed correctly, an efficient process generates fewer errors to review and repair, so its built-in advantage pays out in full. Execution speed then rises as a by-product of familiarity; the no-effort speed-up is the signal the process has habituated.
-- **Accurate work may feel slower at first.** Per-session coverage drops while depth rises. Reaching the same depth the fast-shallow way costs two to three extra hours of drilling and re-testing later, so judge time efficiency across the whole arc of mastery rather than the single sitting.
+- **Accurate work may feel slower at first.** Per-session coverage drops while depth rises. Reaching the same depth the fast-shallow way costs two to three extra hours of relearning and re-testing later, so judge time efficiency across the whole arc of mastery rather than the single sitting.
 
 ## The hustle trap
 
@@ -42,7 +42,7 @@ Raw effort competes with the reflection that aims it.
 
 ## Carrying it into agent work
 
-- **Skill building.** Practice a new technique for accuracy alone and let pace emerge from habituation; drilling for speed before the technique is correct automates the errors along with the motions, and relearning a mislearned skill runs about three times slower because every step must be checked against the old habit. The gates are asymmetric — moving too slowly is hard, moving too fast is easy — so when unsure, hold a level a week or two longer.
+- **Skill building.** Practice a new technique for accuracy alone and let pace emerge from habituation; pushing for speed before the technique is correct automates the errors along with the motions, and relearning a mislearned skill runs about three times slower because every step must be checked against the old habit. The gates are asymmetric — moving too slowly is hard, moving too fast is easy — so when unsure, hold a level a week or two longer.
 - **Agentic engineering.** Shipping unverified agent output trades minutes now for the 4x repair when the defect surfaces downstream, and the cascade is steeper because later commits build directly on the bad one. Throughput lives in the harness — sharper prompts, verification steps, reusable patterns — while babysitting more runs per day is the hustle trap in a new costume: it consumes exactly the reflection time that harness improvement needs.
 
 ## Links into the system

@@ -2,7 +2,7 @@
 type: reference
 status: seed
 created: 2026-05-02
-updated: 2026-06-11
+updated: 2026-07-07
 tags:
   - reference
 ---
@@ -31,3 +31,4 @@ Add public source references here as the wiki grows.
 - National Institute of Mental Health, "My Mental Health: Do I Need Help?" [Web](https://www.nimh.nih.gov/health/publications/my-mental-health-do-i-need-help)
 - Outlier Linguistics, *Chinese Character Masterclass*. Commercial course; lesson PDFs kept locally, outside this repository. [Web](https://www.outlier-linguistics.com/)
 - Kenneth L. Higbee, *Your Memory: How It Works and How to Improve It*. Origin of the seven memory rules; known through the course above, not consulted directly.
+- Anthropic, "Verbalizable Representations Form a Global Workspace in Language Models" (2026-07-07). [Web](http://transformer-circuits.pub/2026/workspace/index.html) · [Companion](https://www.anthropic.com/research/global-workspace). External commentary by Dehaene & Naccache, Butlin et al. (Eleos AI Research), and Neel Nanda. [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]]

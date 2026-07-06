@@ -150,7 +150,7 @@ The standouts — candidates for their own page.
 | Survivorship Bias | 5 | 2 | 2 | 5 | Own | The tendency to overemphasize things that survive a selection process |
 | Back of the Dresser | 5 | 2 | 4 | 4 | Own | All parts of a design, visible and nonvisible, should be held to the same standard of qual |
 | User-Centered vs. User-Driven Design | 5 | 2 | 4 | 4 | Own | A focus on understanding and meeting user needs versus simply implementing user requests |
-| Rebuild interfaces from scratch (eye drill) | 5 | 1 | 4 | 4 | Own | Matching the original surfaces the invisible tricks. |
+| Rebuild interfaces from scratch (eye training) | 5 | 1 | 4 | 4 | Own | Matching the original surfaces the invisible tricks. |
 | Look for decisions you wouldn't have made | 5 | 1 | 4 | 4 | Own | Collect the unintuitive moves on designs you like. |
 | Paradox of Great Ideas | 5 | 1 | 2 | 4 | Own | Great ideas are indistinguishable from crazy ideas when first introduced |
 | Choose a personality | 5 | 2 | 4 | 3 | Own | Font, color, radius, tone cohere to one character. |
@@ -449,7 +449,7 @@ Mostly Interaction & UI; the production half of the design work.
 | Start with a feature, not a layout | 4 | 2 | 4 | 4 | Own | Frame the real problem before the shell. |
 | Start with too much whitespace | 4 | 2 | 4 | 2 | Own | Default generous, then subtract. |
 | Look for decisions you wouldn't have made | 5 | 1 | 4 | 4 | Own | Collect the unintuitive moves on designs you like. |
-| Rebuild interfaces from scratch (eye drill) | 5 | 1 | 4 | 4 | Own | Matching the original surfaces the invisible tricks. |
+| Rebuild interfaces from scratch (eye training) | 5 | 1 | 4 | 4 | Own | Matching the original surfaces the invisible tricks. |
 
 ## Sources
 

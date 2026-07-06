@@ -11,9 +11,19 @@ For most of software's history, the gate was the code. Wanting a tool and being 
 
 Both reactions are reading the same event, and naming it precisely takes the drama down. What fell was the floor: the minimum skill needed to make software exist at all. Anyone can build now, the way anyone with a phone can take a photograph. What did not move is the ceiling: whether the thing built is correct, secure, maintainable, and worth building, and photography makes the point by analogy. The camera in every pocket did not produce a world of great photographers. It produced infinite photographs and made the judgment about which ones matter more valuable, not less.
 
+**The floor is who can build. The ceiling is whether it holds up, and it has not moved.**
+
 Watching where a floor-built project struggles shows what the ceiling is made of. An agent-written app can work in the demo and mishandle the edge case that arrives in week three; it can store passwords in ways no one should; it can be a fluent implementation of the wrong idea, solving a problem adjacent to the real one. None of those failures announce themselves in the moment of building, which is exactly what makes them ceiling problems: catching them takes someone who knows what correct looks like, and that knowledge was never in the prompt.
 
-So the human role has not shrunk; it has moved up the stack. The work concentrates in the parts agents don't hold: deciding what is worth building, writing the spec that says what correct means, judging the architecture that will still make sense next year, verifying that what came back does what it claims, and holding enough understanding to steer. Thinking can be outsourced, and the generated options, drafts, and summaries prove it daily. Understanding can't be, because understanding is the thing that evaluates the options.
+So the human role has not shrunk so much as moved up the stack, and the work concentrates in the parts agents don't hold: deciding what is worth building, writing the spec that says what correct means, judging the architecture that will still make sense next year, verifying that what came back does what it claims, and holding enough understanding to steer. Thinking can be outsourced, and the generated options, drafts, and summaries prove it daily. Understanding can't be, because understanding is the thing that evaluates the options.
+
+The ceiling, itemized:
+
+- Deciding what is worth building at all.
+- Writing the spec that says what correct means.
+- Judging the architecture that has to make sense next year.
+- Verifying that what came back does what it claims.
+- Holding enough understanding to steer.
 
 There is a real price for keeping the ceiling, and the tools themselves apply the pressure. Reviewing generated code is slower than accepting it, writing a spec is slower than typing "build me a...", and the agent's fluency makes skipping both feel safe. The discipline that used to be enforced by the difficulty of writing code now has to be chosen, which is a harder sell precisely because nothing visibly breaks on the day the choosing stops.
 

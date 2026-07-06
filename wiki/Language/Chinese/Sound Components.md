@@ -55,7 +55,7 @@ The system exists because pictures run out. Early characters depicted things, an
 - [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] - per-character component roles, including dual-function cases like 立 in 位
 - [[wiki/Language/Chinese/Empty Components|Empty Components]] - the non-functional parts (balance strokes, distinguishing marks) that prediction must skip
 - [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] - loan senses and successor links as branches of each character's sense tree
-- [[wiki/Language/Chinese/The IME Method|The IME Method]] - the recall protocol that drills the predict-then-verify cycle
+- [[wiki/Language/Chinese/The IME Method|The IME Method]] - the recall protocol that trains the predict-then-verify cycle
 
 ## Sources
 
@@ -65,4 +65,4 @@ The system exists because pictures run out. Early characters depicted things, an
 
 - Which initial-correspondence patterns beyond zh-/ch-/sh- relating to d-/t- recur often enough to memorize up front rather than absorb series by series?
 - Is there a practical marker for spotting Middle Chinese coinages, where component-to-character correlation — including tone — runs stronger?
-- Where in the review pipeline should the predict-then-verify drill live: at first contact with a character, or as a standing retrieval exercise?
+- Where in the review pipeline should the predict-then-verify practice live: at first contact with a character, or as a standing retrieval exercise?

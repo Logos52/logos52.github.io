@@ -75,6 +75,7 @@ The practical limit is one or two new techniques at a time. Adding more before t
 - [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+- [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]] — global-workspace theory as the model behind the working-memory constraint: effort is contents competing for a limited workspace.
 
 ## Sources
 

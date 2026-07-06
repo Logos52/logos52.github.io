@@ -56,6 +56,7 @@ If the durable human edge is judgment rather than generativity, the move is to s
 - [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]
 - [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]
 - [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]]
+- [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]] — an inside-the-model account of fast interpolation versus deliberate broadcast, the mechanism under this split.
 
 ## Sources
 

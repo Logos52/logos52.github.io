@@ -235,9 +235,9 @@ The deeper point is not the ratio. The deeper point is that unlearning requires 
 | --- | --- | --- |
 | Practicing too broadly | The learner repeats the whole skill and hopes the weak part improves. | Isolate the smallest cue-response bottleneck. |
 | Suppression without replacement | The learner tries not to do the old habit. | Write and rehearse a replacement script. |
-| Execution too early | The learner tries to perform before judgment is clear. | Drill awareness and judgment first. |
+| Execution too early | The learner tries to perform before judgment is clear. | Train awareness and judgment first. |
 | Reward still intact | The old behavior still feels immediately good. | Reduce the cue, friction the response, or weaken the feedback. |
-| Long-session decay | The first hour is intentional, then old habits take over. | Use shorter focused drills and real recovery. |
+| Long-session decay | The first hour is intentional, then old habits take over. | Use shorter focused sessions and real recovery. |
 | Surface fix | The learner keeps training the visible habit while fear or shame blocks action. | Pivot to the deeper cue-response pathway. |
 | Easier equals better | The new adaptation feels good because it avoids effort. | Check whether it moves toward the goal, not whether it lowers discomfort. |
 | No calibration | The learner changes behavior but does not check whether it worked. | Use Kolbs to reflect, adjust, and retest. |
@@ -312,7 +312,7 @@ The fastest improvement usually comes from step 2 and step 8. If the cue is vagu
 - Which Priority 0 skill needs a replacement script?
 - What emotional cue blocks experimentation?
 - Which practice sessions are too long for the amount of self-monitoring they require?
-- Where would a five-minute judgment drill beat another hour of execution?
+- Where would a five-minute judgment exercise beat another hour of execution?
 
 ## Related Pages
 

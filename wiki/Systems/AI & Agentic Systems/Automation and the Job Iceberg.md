@@ -18,6 +18,13 @@ tags:
 
 Across sixty years of U.S. census occupation records, exactly one job title has been fully eliminated by automation: the elevator operator, last counted in 1960. Every other automation wave on record — the ATM, the spreadsheet, the word processor, autopilot — transformed or multiplied the roles it was predicted to destroy. The forward-looking question for any role is therefore not "can a machine do my tasks" but "can my role absorb the responsibility and volume that cheaper tasks create."
 
+| The automation | The prediction | The record |
+| --- | --- | --- |
+| ATM | Teller extinction | Tellers doubled, peaking around 2007 |
+| Autopilot, auto-land | Pilot obsolescence | Pilot demand exploded |
+| Word processor | Fewer writers | An order of magnitude more writers |
+| Elevator automation | — | The one full elimination: operator, last counted 1960 |
+
 ## The record
 
 - **The ATM doubled the tellers.** As ATM counts climbed, U.S. bank teller employment climbed with them, peaking around 2007 — cheaper cash-handling let banks open more branches and moved tellers up into relationship work.

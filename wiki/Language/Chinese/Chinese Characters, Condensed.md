@@ -1,7 +1,7 @@
 ---
 type: condensed
 status: developing
-description: "The character cluster as doctrine: one item with three separately-trained links, components classified by function per character, senses rooted in original meanings, and the two drills — IME recall and session-staggered pipelining — that run on that structure."
+description: "The character cluster as doctrine: one item with three separately-trained links, components classified by function per character, senses rooted in original meanings, and the two practice loops — IME recall and session-staggered pipelining — that run on that structure."
 created: 2026-06-11
 updated: 2026-07-02
 tags:
@@ -40,13 +40,13 @@ Writing records speech, so a character binds a form to the sound and meaning of 
 - **Explanation routes through the original meaning.** The form depicts only the sense it was invented to write; wherever everyday usage has drifted, the form stays arbitrary until the root is restored ([[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees]]).
 - **Almost no character is a flat gloss list.** Roughly 85% of comprehensive-dictionary entries carry derived senses and ~18% sound loans — circle the loans, prune what derives, and memorize only the root and the chain ([[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees]]).
 
-## 4. The drills
+## 4. The practice loops
 
 - **Ear first, always.** Attach a new glyph to a word already known by sound and meaning, so the form binds to an existing pair instead of meeting three strangers at once ([[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes]], [[wiki/Language/Chinese/The Pipelining Strategy|Pipelining]]).
 - **Pipeline the attributes over three sessions.** Spoken word one direction, the reverse next, the form in the third — cohorts of 3–5 overlap like laundry loads, so one cohort still graduates every session while the per-item cost collapses ([[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]]).
 - **Run the candidate window in your head.** When a form goes missing mid-stroke: list sound components that could carry the syllable, list meaning components that fit the sense — original senses especially — and cross-match until recognition fires. About 50 functionally-learned characters bootstrap the method ([[wiki/Language/Chinese/The IME Method|The IME Method]]).
 - **Predict before lookup, every time.** Commit to a meaning domain and syllable set before the dictionary settles it — the committed guess is the encoding ([[wiki/Language/Chinese/Sound Components|Sound Components]], [[wiki/Dimensions/Deep Processing/Problem-First Learning|Problem-First Learning]]).
-- **The cluster lives inside Preparation.** Character study primes immersion; immersion stays the main event — and both drills assume it is already supplying spoken vocabulary and reading volume ([[wiki/Language/Chinese/How Chinese Characters Work|hub]], [[wiki/Language/Preparation|Preparation]]).
+- **The cluster lives inside Preparation.** Character study primes immersion; immersion stays the main event — and both loops assume it is already supplying spoken vocabulary and reading volume ([[wiki/Language/Chinese/How Chinese Characters Work|hub]], [[wiki/Language/Preparation|Preparation]]).
 - **The seven memorization rules are why any of this pays.** Meaning builds encoding, attention gates it, repetition consolidates it — functional decomposition is those rules instantiated on a script ([[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]).
 
 ---

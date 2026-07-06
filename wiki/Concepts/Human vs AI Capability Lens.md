@@ -133,6 +133,7 @@ The comparison is cost-adjusted deployable capability, not peak reasoning. Both 
 - [[wiki/Systems/AI & Agentic Systems/What the Model Names Signal|What the Model Names Signal]] — what Opus/Sonnet/Haiku/Fable, and Composer vs Grok, signal.
 - [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]]
 - [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]]
+- [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]] — the interpretability substrate for these axes: automatic processing underwrites the AI Production and Scale facets, deliberate access-conscious work underwrites the human Judgment and Accountability facets.
 
 ## Open Questions
 

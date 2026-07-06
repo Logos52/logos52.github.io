@@ -307,6 +307,6 @@ Bad signs:
 
 ## Open Questions
 
-- What is the smallest Applied Critical Thinking drill worth using before an important personal decision?
+- What is the smallest Applied Critical Thinking exercise worth using before an important personal decision?
 - How should Applied Critical Thinking be combined with AI-generated premortems without turning into tool bloat?
 - What would a weekly Red Team review look like if it centered only on frame, assumption, shortcut, and decision quality?

@@ -68,7 +68,7 @@ This loop is what lets you become less dependent on perfect conditions or perfec
 
 Three requirements, in order:
 
-1. **Foster metacognition.** Monitoring needs an observer — [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|the control layer]] is trained, not assumed, and [[wiki/Dimensions/Self-Regulation/Building the Radar|the radar]] for passive drift is its first drill.
+1. **Foster metacognition.** Monitoring needs an observer — [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|the control layer]] is trained, not assumed, and [[wiki/Dimensions/Self-Regulation/Building the Radar|the radar]] for passive drift is its first exercise.
 2. **Embrace desirable difficulty.** Effective methods feel harder than ineffective ones, and most learners read that backwards — difficulty gets perceived as a sign a method isn't working, so they adjust toward *easier* instead of *more effective*. Expect weeks to months before harder-but-working stops feeling wrong.
 3. **Get book smart.** Monitoring needs reference points: enough learning theory to know what the felt signals — load, confusion, drowsiness — are actually cueing ([[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]).
 

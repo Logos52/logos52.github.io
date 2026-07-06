@@ -79,3 +79,7 @@ Treat this as a living, thin adapter — not another canonical voice bible.
 Run the standard Pre-Write Integrity Pass from the l3-to-l2 converter (consult latest `style-feedback.md` + `Writing Standards.md`), then additionally ask: "Does this output meet the Core Voice Standard — authoritative operating prose carrying mechanisms in flowing paragraphs with strong rhythm and principle density — with structural elements used only where they genuinely improve clarity or scannability?"
 
 If the answer is no, revise before showing the user.
+
+## Feedback protocol (standing rule — canonical in ~/Projects/AGENTS.md)
+
+Deep read before execution, always: enumerate everything Wedge asked, details included, never the gist; find the general principle behind the specific complaint; then execute against both, and record the principle in the appropriate standard. Prose is generated as a continuous explanation to a real person first, then filtered through the writing standards — never assembled from rule-compliant fragments.

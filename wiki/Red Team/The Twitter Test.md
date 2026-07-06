@@ -39,13 +39,13 @@ Run it on anything built to persuade: ads, open letters, op-eds, press releases,
 - **Finish with the agenda check.** A paid advertisement written by the business it praises has one job: paint a self-serving change as a service to the reader. Every theme on the list should trace back to that gain; a theme that traces nowhere means the agenda is still hidden.
 - **The artifact is the list.** Techniques mapped to themes, themes mapped to agenda. Once it exists, explaining how the text persuades — in analysis, argument, or your own writing — is mechanical.
 
-## Drilling past conscious effort
+## Training past conscious effort
 
 - **Train slow, deploy automatic.** The word-by-word walk-through is training mode, deliberately too slow for live use; its purpose is to build the reflex, never to be performed under pressure.
 - **Use low-stakes texts.** Supermarket flyers, newsletters, product pages — material where being slow and wrong costs nothing — give unlimited repetitions.
 - **The endpoint is unconscious competence.** After enough passes, loaded words pop out on their own; the agenda reads itself without stepping through questions.
-- **Failure mode: still running it consciously when stakes arrive.** Under real time pressure — a pitch, a viral article moving you to act — the deliberate version gets skipped, and the frame installs unopposed. If the reflex has not formed, return to drilling.
+- **Failure mode: still running it consciously when stakes arrive.** Under real time pressure — a pitch, a viral article moving you to act — the deliberate version gets skipped, and the frame installs unopposed. If the reflex has not formed, return to practice.
 
 ## Links into the system
 
-Word-level instrument for the framing mechanics in [[Bias and Framing]]; answers the "what language is doing emotional work" question inside the fast filter of [[Applied Critical Thinking - Testing Frames]]; runs as a standing drill in the [[Red Teaming]] toolkit; supplies the theme-hunting front end of [[Theme-First Text Analysis]].
+Word-level instrument for the framing mechanics in [[Bias and Framing]]; answers the "what language is doing emotional work" question inside the fast filter of [[Applied Critical Thinking - Testing Frames]]; runs as a standing exercise in the [[Red Teaming]] toolkit; supplies the theme-hunting front end of [[Theme-First Text Analysis]].

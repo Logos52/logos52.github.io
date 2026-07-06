@@ -166,7 +166,7 @@ For procedural-heavy topics, move sooner toward varied execution practice. Decla
 
 | Gap | Symptom | Repair |
 | --- | --- | --- |
-| Fact gap | Missing term, label, number, definition, or step | Narrow flashcard or quick recall drill. |
+| Fact gap | Missing term, label, number, definition, or step | Narrow flashcard or quick recall check. |
 | Relationship gap | Cannot explain how ideas influence each other | Rebuild local chunk map. |
 | Structure gap | Cannot reconstruct the topic's big picture | Re-Skin the BHS map. |
 | Transfer gap | Can answer familiar questions but fails variations | Add interleaving and examples. |

@@ -146,7 +146,7 @@ The gain should not create a second dashboard. It should make the next attempt e
 | 中文 | Maintenance | Read or convert one useful sentence without reactivating the whole language track. |
 | 中文 | Character contact | Review one character, phrase, or short clip. |
 | Fitness | Strength | Add one small progression: weight, rep, set, tempo, or form cue. |
-| Fitness | Mobility | Choose one mobility bottleneck and repeat a short drill. |
+| Fitness | Mobility | Choose one mobility bottleneck and repeat a short routine. |
 | Fitness | Cardio | Make the start easier: shoes ready, route chosen, timer preset. |
 | Fitness | Recovery | Track one signal: sleep, soreness, energy, or readiness. |
 | Relationships | Contact | Send one message that would otherwise stay vague. |

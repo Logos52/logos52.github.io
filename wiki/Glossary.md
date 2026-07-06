@@ -2,7 +2,7 @@
 type: reference
 status: seed
 created: 2026-05-02
-updated: 2026-06-11
+updated: 2026-07-07
 tags:
   - reference
 ---
@@ -88,6 +88,22 @@ A metadata-rich markdown file describing a source, its claims, relevance, and co
 ## Working Memory
 
 The limited mental workbench used to hold and manipulate information during thinking, encoding, and retrieval.
+
+## Global Workspace
+
+A limited-capacity broadcast buffer that makes selected information available across the whole system; the leading cognitive-science model of conscious access, closely tied to working memory.
+
+## Access Consciousness
+
+Information being globally available for reasoning, report, and control — the functional sense of "conscious," distinct from subjective feel (phenomenal consciousness).
+
+## J-space
+
+In Anthropic's interpretability work, the small set of a language model's internal patterns — each standing for a word it is poised to say — that carry its deliberate reasoning; the model-side analogue of a global workspace.
+
+## J-lens
+
+Anthropic's tool for reading the J-space: for every word in the model's vocabulary it finds the internal pattern that makes the model likelier to say that word later, averaged across many contexts.
 
 ## Functional Component
 

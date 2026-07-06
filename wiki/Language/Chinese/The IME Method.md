@@ -28,7 +28,7 @@ The production protocol, in order:
 - **Cross-match until recognition fires.** Test each sound-meaning pairing; the genuinely learned combination feels different from the invented ones.
 - **Write out uncertain arrangements.** When the components are right but their order is unknown, write every plausible layout and let recognition arbitrate — the learned one looks right.
 - **Expect sandhi in heard tones.** A tone caught in speech may be a sandhi-altered surface form, so search the whole syllable across tones and expect the dictionary's citation tone to differ from what you heard.
-- **Pluck from any fragment, and drill it.** Components recall characters; characters recall components — start from whatever you still hold, and practice during regular recall review, ahead of emergencies.
+- **Pluck from any fragment, and train it.** Components recall characters; characters recall components — start from whatever you still hold, and practice during regular recall review, ahead of emergencies.
 
 ## Two Reconstructions
 
@@ -77,4 +77,4 @@ Constant lookup means never actually reading; the circling workflow rations the 
 
 - Does the circling workflow translate to digital reading, where tap-lookup costs nearly nothing and the threshold discipline has to be self-imposed?
 - What circle threshold fits the current reading level — three, or higher while material still runs hard?
-- Where does the recall protocol slot into existing SIR review sessions as a deliberate drill rather than an emergency move?
+- Where does the recall protocol slot into existing SIR review sessions as scheduled practice rather than an emergency move?

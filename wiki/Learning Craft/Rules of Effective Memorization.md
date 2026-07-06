@@ -42,7 +42,7 @@ Each of the remaining encoding rules adds meaning by a different route:
 Attention, repetition, and interest rank below the encoding four and still decide outcomes:
 
 - **Attention (專注原則 zhuānzhù yuánzé).** Learning happens only while attention is engaged, so unattended exposure converts study time into nothing; self-monitoring attention while studying catches the failure at the moment it occurs.
-- **Repetition (重複原則 chóngfù yuánzé).** Repetition is necessary and suffices alone only for very simple material; stacked on the encoding rules retention climbs, and optimizing the interval — spaced repetition — raises it further. Handwriting drills belong in this frame: good exercise for the hand, separate from the encoding work.
+- **Repetition (重複原則 chóngfù yuánzé).** Repetition is necessary and suffices alone only for very simple material; stacked on the encoding rules retention climbs, and optimizing the interval — spaced repetition — raises it further. Handwriting exercises belong in this frame: good exercise for the hand, separate from the encoding work.
 - **Interest (興趣原則 xìngqù yuánzé).** Time follows interest: making material more interesting raises both effort invested and results returned. Working out the reason behind a character's shape is itself engaging, and the engagement deposits meaning as a side effect — the seventh rule loops back into the first.
 
 ## Operating Moves
@@ -55,7 +55,7 @@ Attention, repetition, and interest rank below the encoding four and still decid
 
 ## Failure Modes
 
-- **Rote at the meaningless level.** Copy-and-recite drills feel productive and encode almost nothing; the repeated level carries no meaning to consolidate.
+- **Rote at the meaningless level.** Copy-and-recite routines feel productive and encode almost nothing; the repeated level carries no meaning to consolidate.
 - **Stopping at non-functional decomposition.** Resources that split items into visually convenient pieces without distinguishing function deliver chunking without meaning, and the chunks stay dead.
 - **Bulk series study.** Whole-family intake follows the script's order; the spoken language supplies no anchors for most members.
 - **Expecting exact sound matches.** A sound component approximates its character's reading in most cases; treating the variation as noise breaks trust in the system, while learning the variation patterns turns it into prediction.

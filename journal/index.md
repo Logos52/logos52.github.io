@@ -27,11 +27,11 @@ tags:
 
 ## Recent entries
 
+- [[journal/2026-07-07-the-workspace-a-language-model-thinks-in|2026-07-07]] — The workspace a language model thinks in — A small internal workspace a language model uses for deliberate reasoning, a tool that reads it, and the automatic-versus-deliberate split it shares with how a language becomes fluent.
 - [[journal/2026-07-03-doctrine-with-a-half-life|2026-07-03]] — Doctrine With a Half-Life — AI advice rots fast, but not evenly; splitting what you learn into invariants and dated tactics keeps the notes trustworthy as models improve.
 - [[journal/2026-07-03-the-floor-rose-the-ceiling-is-the-job|2026-07-03]] — The Floor Rose, the Ceiling Is the Job — Vibe coding raises the floor of who can build software; the ceiling, correctness, security, and judgment, is what stays a job.
 - [[journal/2026-07-02-tsumugu-prd-set|2026-07-02]] — 2026-07-02 — Tsumugu PRD set authored (core + ed) — Session: Cowork (Claude Fable). Wedge asked for a comprehensive set of Opus-executable PRDs improving tsumugu-core and tsumugu-ed, written to durable locations with a change index.
 - [[journal/2026-07-02-blog-register-working-notes|2026-07-02]] — Blog register — working notes made legible, shipped provisional — Status: locked 2026-07-02, end of day. The register was validated against "Rebuilding 頓" and the provisional stamp is off. Three final calibrations came with the lock: the first sentence is the post's harshest position, 
-- [[journal/2026-07-01-usable-intelligence-sonnet-5-vs-opus-4-8|2026-07-01]] — Usable intelligence — Sonnet 5 vs Opus 4.8 — Verdict. For controlled-vocabulary authoring behind a fail-closed gate — the tsumugu-ed and tsumugu-core content lanes — Sonnet 5 is the default author; Opus 4.8 stays the orchestrator and the fallback for calls the gate
 
 [[journal/calendar|Full calendar →]]
 

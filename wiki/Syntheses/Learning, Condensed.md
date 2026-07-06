@@ -17,6 +17,18 @@ tags:
 
 Encoding sets the ceiling — the structure built at first contact decides what exists to remember — and retrieval is a builder, not an audit: each recall strengthens, reorganizes, and stress-tests what encoding made. The enemy is passive review: re-reading and recognition feel like learning and aren't. So commit to answers before seeing them, build relationships rather than collections, work concepts before labels, and let daily use supply retrieval reps. When recall keeps failing, suspect the encoding before the schedule. Around the loop sits regulation — felt difficulty as the gauge, calibration over scores — and a session machine that spends no willpower on choices.
 
+<svg viewBox="0 0 560 306" role="img" aria-label="Encoding vs. Retrieval: as encoding skill rises over time, the need for retrieval falls" style="max-width:560px;width:100%;height:auto;display:block;margin:0 0 1.5em">
+  <line x1="52" y1="18" x2="52" y2="250" stroke="var(--border, #d4d2cb)" stroke-width="1"/>
+  <line x1="52" y1="250" x2="532" y2="250" stroke="var(--border, #d4d2cb)" stroke-width="1"/>
+  <path d="M64,238 C205,234 235,42 470,38" stroke="var(--g-text, #3E9B7F)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M64,38 C205,42 235,234 470,238" stroke="var(--muted, #8a877e)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <text x="478" y="42" font-family="var(--f-ui, Inter, sans-serif)" font-size="12.5" font-weight="600" fill="var(--g-text, #3E9B7F)">Encoding</text>
+  <text x="478" y="242" font-family="var(--f-ui, Inter, sans-serif)" font-size="12.5" font-weight="600" fill="var(--muted, #8a877e)">Retrieval</text>
+  <text x="8" y="16" font-family="var(--f-ui, Inter, sans-serif)" font-size="11.5" fill="var(--faint, #8a877e)">skill</text>
+  <text x="532" y="268" text-anchor="end" font-family="var(--f-ui, Inter, sans-serif)" font-size="11.5" fill="var(--faint, #8a877e)">time →</text>
+  <text x="52" y="296" font-family="var(--f-ui, Inter, sans-serif)" font-size="11.5" fill="var(--muted, #6A655A)">As encoding skill grows, the need for retrieval falls.</text>
+</svg>
+
 ---
 
 ## 1. Encoding
@@ -33,15 +45,15 @@ Encoding sets the ceiling — the structure built at first contact decides what 
 
 - **Recall, not recognition.** Recognition feels like knowledge and isn't; re-reading's fluency is the illusion the whole trap is built from ([[wiki/Dimensions/Retrieval|Retrieval]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]).
 - **Space so forgetting helps.** Widening intervals exploit partial forgetting to reveal true gaps; a session with zero failed recalls was confirmation, not testing ([[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]], [[wiki/Dimensions/Retrieval|Retrieval]]).
-- **Rotate the angle.** Knowledge drilled in one direction is brittle; vary the retrieval form and the similarity window across sessions ([[wiki/Dimensions/Retrieval/Interleaving - Multiple Angles and Session Design|Interleaving: Multiple Angles]]).
+- **Rotate the angle.** Knowledge practiced in one direction is brittle; vary the retrieval form and the similarity window across sessions ([[wiki/Dimensions/Retrieval/Interleaving - Multiple Angles and Session Design|Interleaving: Multiple Angles]]).
 - **Reconstruction sits above recall:** form and judge new relationships among known nodes — curveball immunity lives there, not in replayed answers ([[wiki/Dimensions/Retrieval/Reconstruction - Retrieval Beyond Recall|Reconstruction]]).
 - **Teach it back.** Explaining whole → parts → whole, off pure memory, tests integration at every level at once ([[wiki/Dimensions/Retrieval/WPW|WPW]]).
-- **Repair gaps, don't re-rep them.** When an item keeps failing, suspect the encoding: rebuild the structure or the connection rather than rescheduling the same drill ([[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] gap repair, [[wiki/Dimensions/Retrieval|Retrieval]]).
+- **Repair gaps, don't re-rep them.** When an item keeps failing, suspect the encoding: rebuild the structure or the connection rather than rescheduling the same rep ([[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] gap repair, [[wiki/Dimensions/Retrieval|Retrieval]]).
 
 ## 3. Application
 
 - **Daily use supplies retrieval reps.** Retro-label each real-world rep, patch what real use missed, and schedule study around upcoming work instead of running parallel review ([[wiki/Dimensions/Retrieval/Opportunistic Retrieval|Opportunistic Retrieval]]).
-- **For languages: meet material cold at the comprehensible edge.** No pre-memorized lists — reconstruct meaning from context, then learn exactly the missing pieces; words learned to solve a live problem outlast drilled ones ([[wiki/Language/Aim-Shoot-Skin for Language Learning|Aim-Shoot-Skin for Language Learning]]).
+- **For languages: meet material cold at the comprehensible edge.** No pre-memorized lists — reconstruct meaning from context, then learn exactly the missing pieces; words learned to solve a live problem outlast memorized ones ([[wiki/Language/Aim-Shoot-Skin for Language Learning|Aim-Shoot-Skin for Language Learning]]).
 - **For scripts: stagger the attributes.** Sound and meaning first, form attached sessions later, overlapping small cohorts; recall routes run through component cross-matching ([[wiki/Language/Chinese/The Pipelining Strategy|Pipelining]], [[wiki/Language/Chinese/The IME Method|IME Method]]).
 - **Hunt shared structure.** Components recombine; periodic passes over the whole collection find overlaps that per-item review never surfaces ([[wiki/Language/Chinese/Sound Series|Sound Series]], [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]).
 

@@ -78,7 +78,7 @@ Retrieval charges its fee up front: practice feels worse than re-reading while w
 
 The check that a session was real: at least some recalls failed. A retrieval session that produces only successes was confirmation, not testing — widen the spacing, harden the format, or aim at weaker material.
 
-The boundary: retrieval strengthens what encoding built. Run against unstructured material it decays into [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|rote memorisation]] — fragments that recall individually and connect to nothing. If recall keeps succeeding while use keeps failing, the bottleneck has moved to [[wiki/Dimensions/Deep Processing|Deep Processing]]: stop drilling and rebuild the structure.
+The boundary: retrieval strengthens what encoding built. Run against unstructured material it decays into [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|rote memorisation]] — fragments that recall individually and connect to nothing. If recall keeps succeeding while use keeps failing, the bottleneck has moved to [[wiki/Dimensions/Deep Processing|Deep Processing]]: stop repping and rebuild the structure.
 
 ---
 

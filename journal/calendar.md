@@ -4,13 +4,19 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-07-03
+updated: 2026-07-06
 tags:
   - system
 ---
 # Journal Calendar
 
 Five most recent journal entries, newest first. Older entries stay in the vault; add a dated `journal/YYYY-MM-DD-*.md` file and this page updates on build.
+
+## 2026-07-07
+
+[[journal/2026-07-07-the-workspace-a-language-model-thinks-in|The workspace a language model thinks in]]
+
+A small internal workspace a language model uses for deliberate reasoning, a tool that reads it, and the automatic-versus-deliberate split it shares with how a language becomes fluent.
 
 ## 2026-07-03
 
@@ -35,12 +41,6 @@ Session: Cowork (Claude Fable). Wedge asked for a comprehensive set of Opus-exec
 [[journal/2026-07-02-blog-register-working-notes|Blog register — working notes made legible, shipped provisional]]
 
 Status: locked 2026-07-02, end of day. The register was validated against "Rebuilding 頓" and the provisional stamp is off. Three final calibrations came with the lock: the first sentence is the post's harshest position, 
-
-## 2026-07-01
-
-[[journal/2026-07-01-usable-intelligence-sonnet-5-vs-opus-4-8|Usable intelligence — Sonnet 5 vs Opus 4.8]]
-
-Verdict. For controlled-vocabulary authoring behind a fail-closed gate — the tsumugu-ed and tsumugu-core content lanes — Sonnet 5 is the default author; Opus 4.8 stays the orchestrator and the fallback for calls the gate
 
 
 [[journal/index|← Back to Journal]]

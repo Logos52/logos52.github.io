@@ -34,11 +34,11 @@ Use the triad as a diagnostic: before choosing how to practice or test anything,
 
 ## Diagnosing the real bottleneck
 
-- **Suspect declarative first.** Even in procedural-leaning subjects like maths, most people's bottleneck is approach choice — which method, in what order, for this context — and approach choice is declarative. The learner who solves drilled problems but collapses when the problem arrives in context has a conceptual gap that more practice volume cannot fill.
+- **Suspect declarative first.** Even in procedural-leaning subjects like maths, most people's bottleneck is approach choice — which method, in what order, for this context — and approach choice is declarative. The learner who solves familiar practice problems but collapses when the problem arrives in context has a conceptual gap that more practice volume cannot fill.
 - **Test with a complex challenge.** Attempt something genuinely hard, then classify the error. Wrong approach, strategy, logic, or argument structure: declarative gap. Right approach with botched execution — correct method, wrong arithmetic; sound architecture, syntax bugs; coherent argument, clumsy prose: procedural gap.
 - **Match practice to the diagnosis.** Retrieval methods split along the same line, so the diagnosis decides which methods earn your time and where the gaps you find actually live.
 - **Declarative compounds in value.** Pure execution is increasingly cheap to automate; the approach, strategy, and judgment layer is the part of expertise that stays expensive.
 
 ## Links into the system
 
-Supplies the knowledge-type definitions behind the [[Interleaving Table]] and the type variable in [[Spaced Interleaved Retrieval]]; the declarative-bottleneck diagnosis is applied in depth by [[Interleaving for Complex Problem Solving]], the declarative side is graded by [[Knowledge Mastery - From Recognition to Usable Knowledge]], and the theory-to-practice pacing lives in [[Rapid Skill Acquisition]] and [[Kolbs Experiential Cycle]].
+Supplies the knowledge-type definitions behind the [[Interleaving Table]] and the type variable in [[Spaced Interleaved Retrieval]]; the declarative-bottleneck diagnosis is applied in depth by [[Interleaving for Complex Problem Solving]], the declarative side is graded by [[Knowledge Mastery - From Recognition to Usable Knowledge]], and the theory-to-practice pacing lives in [[Rapid Skill Acquisition]] and [[Kolbs Experiential Cycle]]. The reason procedural knowledge runs automatically and resists verbal report is that proceduralized skill executes outside the deliberate workspace; the cognitive mechanism, and its model-side mirror, is in [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]].
