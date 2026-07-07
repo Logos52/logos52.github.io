@@ -50,6 +50,7 @@ The caveat comes from Vercel's gateway data: frontier intelligence at the right 
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]
 - [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]] — an interpretability view of what extended reasoning does: engaging a deliberate workspace instead of a fast automatic response.
+- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]] — when to spend the reasoning budget, as an operator's routing move.
 
 ## Sources
 
