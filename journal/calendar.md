@@ -4,7 +4,7 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-07-06
+updated: 2026-07-07
 tags:
   - system
 ---
@@ -16,7 +16,7 @@ Five most recent journal entries, newest first. Older entries stay in the vault;
 
 [[journal/2026-07-07-the-workspace-a-language-model-thinks-in|The workspace a language model thinks in]]
 
-A small internal workspace a language model uses for deliberate reasoning, a tool that reads it, and the automatic-versus-deliberate split it shares with how a language becomes fluent.
+A language model does its slow, step-by-step thinking in a small internal workspace. Anthropic found it, learned to read it, and even to read what the model is privately weighing.
 
 ## 2026-07-03
 

@@ -23,6 +23,14 @@ tags:
 
 A language model runs most of what it does automatically and reserves a small internal workspace for the part it has to reason through. Anthropic's interpretability team located that workspace, built a tool to read it, and proved its role by deletion: remove it and multi-step reasoning drops to near zero, while the model still speaks fluently, pulls facts from a passage, and classifies sentiment. The workspace is the **J-space** — a couple of dozen internal patterns, each standing silently for a word the model is poised to say. The reading tool is the **J-lens**. The find lands twice. It hands interpretability a way to read and steer what a model is deliberately weighing, including intentions it never puts in its output, and it puts a mechanistic, testable version of a decades-old theory of conscious *access* onto a system that is not a brain. The same automatic-versus-deliberate split organizes human cognition, where practiced skills run outside working memory and novel problems pull information into it.
 
+## Core takeaways
+
+- A language model has two modes: fast automatic processing, and slower reasoning worked out in steps. Only the second runs through the workspace.
+- Delete the workspace and multi-step reasoning collapses, while fluency, recall, and classification survive. The split is real and locatable.
+- The workspace is reportable (the model names what is in it), editable (swap a concept and the answer follows), and where silent intermediate steps happen. It is faint in size yet drives the outcome.
+- It also carries the model's read on its situation and its motives (*fake*, *manipulation*, *honest*), none of which reach the output. That makes it a second channel for alignment auditing, alongside chain-of-thought.
+- The evidence supports *access* (information made broadly available), not *phenomenal* experience (feeling). The consciousness question stays open.
+
 ## The workspace, and the tool that reads it
 
 The J-lens ("Jacobian lens") assigns every word in the model's vocabulary an internal activation pattern: the pattern that makes the model more likely to say that word at some point later, averaged across thousands of contexts. That averaging is the whole trick. It isolates representations that are *verbalizable* — poised to be spoken should the occasion arise — from ones that merely happen to be spoken in one prompt. The J-space is the small set of these patterns lit up at any moment, no more than about 25, living in a middle-to-late band of the network (roughly layer 38 through 92 of ~100). Its content is faint, never more than 10% of the activation's variance and a median of 6–7% of a concept vector's variance, yet it drives the model's reports and its reasoning downstream.
