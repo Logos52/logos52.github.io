@@ -40,6 +40,15 @@ type Mind = { q: string; links: { t: string; href: string }[] };
 const L = (t: string, p: string) => ({ t, href: slugToUrl(slugifyFilePath(p)) });
 const topOfMind: Mind[] = [
   {
+    q: 'Whether the inner life that makes a written character read as a person is something a model can author',
+    links: [
+      L('The Wound and the Lie', 'wiki/Story Craft/The Wound and the Lie'),
+      L('Round Characters and the Telling Detail', 'wiki/Story Craft/Round Characters and the Telling Detail'),
+      L('Human vs AI Capability Lens', 'wiki/Concepts/Human vs AI Capability Lens'),
+      L('Story Craft', 'wiki/Story Craft/Story Craft'),
+    ],
+  },
+  {
     q: 'What stays human as the models match generativity',
     links: [
       L('Human vs AI Capability Lens', 'wiki/Concepts/Human vs AI Capability Lens'),

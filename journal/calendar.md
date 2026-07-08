@@ -4,7 +4,7 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-07-07
+updated: 2026-07-08
 tags:
   - system
 ---
