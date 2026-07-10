@@ -22,7 +22,7 @@ tags:
 - **Vault: Fitness goal note** — [[PRDs/PRD-Obsidian-LifeOS-Command-Center]] Task 4: add `mg-kolbs/Goals/Fitness.md` alongside Agentic Engineering / Learning Systems / Vietnamese so Direction embed is complete.
 - **Dimensions ↔ body** — `wiki/Dimensions/Self-Regulation/Recovery.md` and energy-under-pressure pages exist; _idea:_ one hub `wiki/Domains/Health/` linking recovery, pacing, and sustainable pressure (avoid new seed pages — fuse into existing Self-Regulation cluster per May-28 bloat reflection).
 - **Medical spend as signal, not health OS** — WNAC/wnab already tag Health category; _idea:_ cos health card shows "Health category MTD vs 3-mo avg" from WNAC export once [[PRDs/PRD-wnab-Obsidian-Bridge]] or WNAC snapshot path exists — spend proxy, not clinical tracking.
-- **Morning Conductor slot** — [[cos/prds/PRD-morning-conductor]]: optional "body check-in" line in brief (1 sentence user types) before Grok/X layer; no automation required.
+- **Morning Conductor slot** — `~/Projects/cos/prds/PRD-morning-conductor.md`: optional "body check-in" line in brief (1 sentence user types) before Grok/X layer; no automation required.
 
 ---
 
@@ -48,18 +48,18 @@ WNAC PRD **NG6** excludes trading analytics in v1; DESIGN.md reserves Copilot-st
 - **Publish guard + PRD folders** — AGENTS.md: `PRDs/` raw-exposed on GitHub; audit for finance-adjacent prose in tracked PRDs.
 - **Site / aesthetic** — [[PRDs/PRD-Site-Aesthetic-Refresh]] when wiki promotion pace justifies it.
 - **MG Kolbs** — [[PRDs/PRD-MG-Kolbs-System]], relocate/publish PRD; complete SMARTER rows on Learning Systems goal note.
-- **Tools: healthchecks** — AGENTS.md suggests `tools/healthchecks/` when wiki shape justifies; wire to cos `wiki-health.json` per [[cos/prds/PRD-llm-wiki-dashboard]] instead of duplicate scanners.
+- **Tools: healthchecks** — AGENTS.md suggests `tools/healthchecks/` when wiki shape justifies; wire to cos `wiki-health.json` per `~/Projects/cos/prds/PRD-llm-wiki-dashboard.md` instead of duplicate scanners.
 
 ---
 
 ## Cowork OS expansion
 
-- **Morning Conductor** — [[cos/prds/PRD-morning-conductor]]: `cos morning` as primary (scan → refresh all → brief); LaunchAgent 07:15 ICT; retire redundant Cowork-only schedules.
+- **Morning Conductor** — `~/Projects/cos/prds/PRD-morning-conductor.md`: `cos morning` as primary (scan → refresh all → brief); LaunchAgent 07:15 ICT; retire redundant Cowork-only schedules.
 - **WNAC → cos runway** — PRD-morning-conductor defers finance bridge (leak risk); _idea:_ read-only `wnac/data.json` aggregates into `finances/data/` (flex remaining, debt dial %) — no txn detail in cos repo.
 - **Learning pipeline Phase 2** — `learning-pipeline/data/intake-queue.json` + `inputs/sources.json` exist; connect to vault `raw/inbox` count in brief (read-only).
-- **Mission-control dashboard** — [[cos/prds/PRD-llm-wiki-dashboard]]: fuse overview brief + kb-pipeline + wiki-health + skills-goals contracts; vault stays write-protected except explicit capture.
+- **Mission-control dashboard** — `~/Projects/cos/prds/PRD-llm-wiki-dashboard.md`: fuse overview brief + kb-pipeline + wiki-health + skills-goals contracts; vault stays write-protected except explicit capture.
 - **Health domain** — same as first section; slots in as folder + refresh without restructuring four core domains.
-- **Autonomy** — [[cos/prds/AUTONOMY-CHARTER]]: builder stages wait for sign-off; aligns with L3 discard / L2 keep policy ([[02 - System/L3-Brief-Policy-Options]]).
+- **Autonomy** — `~/Projects/cos/prds/AUTONOMY-CHARTER.md`: builder stages wait for sign-off; aligns with L3 discard / L2 keep policy ([[02 - System/L3-Brief-Policy-Options]]).
 
 ---
 

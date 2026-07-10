@@ -51,7 +51,7 @@ The learner should monitor whether information is being transformed into meaning
 
 ## Sources
 
-- [[raw/sources/If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes|If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes]]
+- [[raw/sources/If You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes|If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes]]
 - [[raw/sources/Learn to Learn in 4hrs 54mins - Full Course|Learn to Learn in 4hrs 54mins - Full Course]]
 - [[raw/sources/How to Learn Anything Faster Using Modern Research|How to Learn Anything Faster Using Modern Research]]
 

@@ -28,12 +28,12 @@ Carrying it as a separate submodule was more machinery than it earned. A faithfu
 
 ## Lessons
 
-- **Integrate the thing you use; archive the mirror.** The system became more useful folded directly into the working vault as [MG & Kolbs](mg-kolbs), where it shares graph, backlinks, and daily context. The standalone copy was overhead.
+- **Integrate the thing you use; archive the mirror.** The system became more useful folded directly into the working vault as [mg-kolbs](mg-kolbs), where it shares graph, backlinks, and daily context. The standalone copy was overhead.
 - **A submodule is a commitment.** A separate repo with submodule wiring earns its keep for shared, reused code, and becomes a tax for a personal template that wants to live where you work.
 
 ## Status
 
-Archived. The standalone repo is preserved (GitHub intact, credit to Pan kept); its living successor is [MG & Kolbs](mg-kolbs).
+Archived. The standalone repo is preserved (GitHub intact, credit to Pan kept); its living successor is [mg-kolbs](mg-kolbs). The June dual root `MG & Kolbs/` was later archived to `_archive/MG-Kolbs-template-2026-06-01/`.
 
 <!-- Design notes (TODO, Wedge): how it looks and why it's built this way. -->
 

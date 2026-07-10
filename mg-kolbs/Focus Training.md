@@ -30,4 +30,4 @@ LIMIT 15
 
 ---
 
-**Back to MG & Kolbs** → [[MG & Kolbs]]
+**Back to mg-kolbs** → [[mg-kolbs/index|mg-kolbs]]

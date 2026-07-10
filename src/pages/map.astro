@@ -11,6 +11,7 @@ import { buildGraph, type NoteInput } from '../lib/graph';
 import { deriveTitle } from '../lib/note';
 import { slugToUrl } from '../lib/slug';
 import { DOMAINS, DOMAIN_LABELS } from '../lib/types';
+import { DOMAIN_ICONS } from '../lib/icons';
 
 const PER_SECTION = 8;
 
@@ -69,7 +70,12 @@ for (const n of full.nodes) {
 
 const sections = DOMAINS.map((d) => {
   const all = (byDomain.get(d) ?? []).sort((a, b) => score(b) - score(a) || a.title.localeCompare(b.title));
-  return { domain: d, label: DOMAIN_LABELS[d], items: all.slice(0, PER_SECTION) };
+  return {
+    domain: d,
+    label: DOMAIN_LABELS[d],
+    icon: DOMAIN_ICONS[d],
+    items: all.slice(0, PER_SECTION),
+  };
 });
 ---
 
@@ -87,7 +93,12 @@ const sections = DOMAINS.map((d) => {
       <h2 class="prose__head">The six domains</h2>
       {sections.map((s) => (
         <section class="domain">
-          <h3><a href={`/domains/${s.domain}/`}>{s.label}</a></h3>
+          <h3>
+            <a href={`/domains/${s.domain}/`}>
+              <i class={`ti ${s.icon} domain__icon`} style={`color:var(--d-${s.domain})`} aria-hidden="true" />
+              {s.label}
+            </a>
+          </h3>
           <p class="domain__blurb">{DOMAIN_BLURB[s.domain]}</p>
           <ul>
             {s.items.map((it) => (
@@ -152,11 +163,19 @@ const sections = DOMAINS.map((d) => {
     color: var(--ink);
   }
   .domain h3 a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     color: inherit;
     text-decoration: none;
   }
   .domain h3 a:hover {
     text-decoration: underline;
+  }
+  .domain__icon {
+    font-size: 1.05em;
+    line-height: 1;
+    flex-shrink: 0;
   }
   .domain__blurb {
     font-size: var(--kb-text-base);

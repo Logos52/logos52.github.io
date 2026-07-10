@@ -71,7 +71,7 @@ tags:
 
 ## Option D — Auto-delete L3 after L2 promotion (timed retention)
 
-**Policy:** L3 TTL = until `L2 - [Title].md` reaches `status: ready` (or wiki promoted). Optional 14-day grace in `workbench/.trash/` for human override. L2 retention: **indefinite in `outputs/L2/`** until wiki promotion → `processed/`.
+**Policy:** L3 TTL = until `L2 - [Title].md` reaches `status: ready` (or wiki promoted). Optional 14-day grace in `01 - Workbench/.trash/` for human override. L2 retention: **indefinite in `outputs/L2/`** until wiki promotion → `processed/`.
 
 | Pros | Cons |
 |------|------|

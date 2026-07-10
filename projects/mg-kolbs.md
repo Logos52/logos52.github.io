@@ -1,15 +1,15 @@
 ---
 title: "MG & Kolbs"
 type: project
-status: current
+status: parked
 stack:
   - Obsidian
   - Bases
   - Templater
 order: 3
-blurb: "A learning-system template — Kolb's reflective cycles, skill tracking, and goal anchoring — rebuilt in Obsidian from Pan's Notion original."
+blurb: "A learning-system template — Kolb's reflective cycles, skill tracking, and goal anchoring — rebuilt in Obsidian from Pan's Notion original. Vault path: mg-kolbs/."
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-07-09
 tags:
   - projects
 ---
@@ -17,6 +17,8 @@ tags:
 ## What it is
 
 MG & Kolbs is a learning-system template built around **Kolb's reflective cycles**, **skill-level tracking**, **goal anchoring**, and task management with deliberate break timing. You run short reflective cycles, track the skills each one develops, and tie the work back to goals. It is adapted to Obsidian from Pan's Notion original ([@pan.ps](https://panstemplates.notion.site/)) — all credit for the underlying method goes to Pan. There is a [live demo on this site](../mg-kolbs-template).
+
+**Vault home (canonical):** `mg-kolbs/` (lowercase). The temporary dual root `MG & Kolbs/` was archived 2026-07-09 → `_archive/MG-Kolbs-template-2026-06-01/`.
 
 ## How it's built
 
@@ -33,7 +35,7 @@ Porting a Notion system onto Obsidian Bases kept the workflow intact while addin
 
 ## Status
 
-Current. Published as a showcase; the [live demo](../mg-kolbs-template) runs on illustrative data.
+**Parked as daily workflow** (2026-07-09) — system kept at root in `mg-kolbs/` because the method is still useful; not the active driver vs Tsumugu. Showcase page still public on illustrative data. Reopen by using Command Center / `mg-kolbs/index.md`.
 
 <!-- Design notes (TODO, Wedge): how it looks and why it's built this way. -->
 

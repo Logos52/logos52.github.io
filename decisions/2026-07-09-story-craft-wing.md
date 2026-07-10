@@ -23,7 +23,7 @@ Not "how to write a novel." The binding constraint is telling a Game-of-Thrones-
 
 ## What was built
 
-- `wiki/Story Craft/` — 19 technique pages across 7 clusters, a `Story Craft.md` hub (MOC), and a `Story Craft, Condensed.md` doctrine page. Every technique is illustrated on a real, named Tsumugu beat.
+- `wiki/Story Craft/` — 20 technique pages across 7 clusters (including [[wiki/Story Craft/Diagnosing a Character|Diagnosing a Character]]), a `Story Craft.md` hub (MOC), and a `Story Craft, Condensed.md` doctrine page — 22 files on disk. Every technique is illustrated on a real, named Tsumugu beat.
 - `tsumugu-core/docs/companion/craft/APPLIED.md` — the craft-page → Tsumugu-decision → canon-file map, the series premise, the arc-type-per-character table, the motif registry.
 - `tsumugu-core/docs/companion/craft/CAST-DIAGNOSIS.md` — the working gap list: arc-type monotony (~70% positive-change), 林薇's injury with no home lesson in the Book-3 spine, B3L08 carrying three climaxes, the authorship spine needing subordination under the founding premise, and 13 vocab-legal texture beats.
 

@@ -36,11 +36,11 @@ SORT file.name ASC
 ```
 
 **Next Steps in Obsidian:**
-1. Duplicate the `MG & Kolbs` folder into your vault.
+1. Duplicate the `mg-kolbs` folder into your vault.
 2. Clean up any "(1)" in database names and relations.
 3. Start with one Goal and one 30 Day Plan.
 4. Begin using **Kolbs** for reflection after your first week.
 
 ---
 
-**Back to MG & Kolbs** → [[MG & Kolbs]]
+**Back to mg-kolbs** → [[mg-kolbs/index|mg-kolbs]]

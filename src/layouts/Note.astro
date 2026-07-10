@@ -6,7 +6,7 @@
  *   left  = <article data-pagefind-body> : mono breadcrumb, Ming <h1>, meta row
  *           (domain-colored pill type tag + "updated …"), then the prose <slot/>
  *           in the Ming serif at max ~64ch.
- *   right = sticky aside rail (top:80px) = LocalGraph + Toc + Backlinks, 24px gap.
+ *   right = sticky aside rail (top:80px) = constellation neighborhood + Toc + Backlinks.
  *
  * Wraps Base (which owns <html data-accent="violet">, the DS css imports, the
  * no-flash theme script, Chrome + Footer). All tokens are DS custom properties.
@@ -49,7 +49,7 @@ const crumbParts = slug
 const breadcrumb = crumbParts.length ? crumbParts.join(' / ') : title;
 
 const domainVar = `var(--d-${domain})`;
-const hasAside = true; // the local graph always renders its own neighborhood
+const hasAside = true;
 ---
 
 <Base title={title} description={updated ? `Updated ${updated}` : undefined} active={active}>
@@ -80,8 +80,7 @@ const hasAside = true; // the local graph always renders its own neighborhood
       {
         hasAside && (
           <aside class="kb-note-aside">
-            <div class="kb-localgraph-wrap">
-              <h3 class="kb-side-h">Local graph</h3>
+            <div class="kb-localgraph-wrap" aria-hidden="true">
               <Constellation mode="local" seeds={[slug]} hops={2} height="118px" />
             </div>
             <Toc headings={headings} />
@@ -172,15 +171,6 @@ const hasAside = true; // the local graph always renders its own neighborhood
     margin-right: -20px;
     overflow: visible;
     z-index: 2;
-  }
-  .kb-localgraph-wrap .kb-side-h {
-    font-family: var(--mono);
-    font-size: var(--kb-text-2xs);
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--mut);
-    margin: 0 0 10px;
-    font-weight: 600;
   }
   .kb-localgraph-wrap :global(.constellation) {
     width: 100%;

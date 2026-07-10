@@ -29,3 +29,7 @@ Start making minor adjustments based on what you notice. Test small changes in a
 ## Week 4: Sustaining Under Pressure
 
 Apply monitoring and adjustment under more demanding conditions. Introduce time pressure, fatigue, or competing demands and practice maintaining awareness and making corrections without losing the thread.
+
+## Related
+
+- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]

@@ -89,3 +89,7 @@ Review the specific barriers and conditions you discovered across the repeated a
 Week 1 lowers the cost of individual errors so more attempts feel acceptable. Week 2 improves the quality of the information each error provides. Week 3 multiplies the number of cycles you can run in a given period. Week 4 directs the improved process at the areas that have historically limited your range.
 
 The practical result is greater willingness to test techniques from Deep Processing, Retrieval, and the other dimensions under real conditions, because the downside of imperfect first attempts has been made manageable and informative.
+
+## Related
+
+- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]

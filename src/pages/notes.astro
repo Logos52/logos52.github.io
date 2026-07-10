@@ -1,23 +1,57 @@
 ---
 /**
- * notes.astro — the Notes index: renders hand-curated `notes/index.md` (Condensed + Hubs).
- * The full wiki inventory lives in gitignored `notes/catalog.md` for agents only.
+ * notes.astro — the Notes index: Condensed doctrine + Hubs, with icons.
+ * Lists live in src/lib/icons.ts (kept aligned with notes/index.md for agents/Obsidian).
  */
-import { getEntry, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Constellation from '../components/Constellation.astro';
+import { CONDENSED_ENTRIES, HUB_ENTRIES } from '../lib/icons';
+import { slugifyFilePath, slugToUrl } from '../lib/slug';
 
-const entry = await getEntry('notes', 'notes/index');
-const rendered = entry ? await render(entry) : null;
-const Content = rendered?.Content;
+const href = (slug: string) => slugToUrl(slugifyFilePath(slug));
 ---
 
 <Base title="Notes" description="Entry points into the wiki — doctrine pages, hubs, and orientation." active="notes">
   <main class="notes-page">
     <div class="wrap">
       <Constellation mode="full" height="clamp(340px, 56vh, 580px)" />
-      <article class="kb-shell-prose notes-prose">
-        {Content ? <Content /> : <p>Index not found.</p>}
+
+      <article class="notes-body">
+        <p class="notes-lede">
+          Use search (⌘K) or the <a href="/map/">Map</a> to browse by connection.
+        </p>
+
+        <h2 class="notes-head">Condensed</h2>
+        <p class="notes-sub">One rule per line — each corpus compressed to doctrine with links to the pages that own it.</p>
+        <ul class="entry-list">
+          {CONDENSED_ENTRIES.map((e) => (
+            <li>
+              <a href={href(e.slug)}>
+                <i class={`ti ${e.icon} entry-list__icon`} style={`color:${e.color}`} aria-hidden="true"></i>
+                <span class="entry-list__body">
+                  <span class="entry-list__title">{e.title}</span>
+                  <span class="entry-list__blurb"> — {e.blurb}</span>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        <h2 class="notes-head">Hubs</h2>
+        <p class="notes-sub">Cluster entry points — where a topic fans out into techniques, concepts, and related pages.</p>
+        <ul class="entry-list">
+          {HUB_ENTRIES.map((e) => (
+            <li>
+              <a href={href(e.slug)}>
+                <i class={`ti ${e.icon} entry-list__icon`} style={`color:${e.color}`} aria-hidden="true"></i>
+                <span class="entry-list__body">
+                  <span class="entry-list__title">{e.title}</span>
+                  <span class="entry-list__blurb"> — {e.blurb}</span>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
       </article>
     </div>
   </main>
@@ -29,9 +63,74 @@ const Content = rendered?.Content;
     margin: 0 auto;
     padding: 28px 28px 52px;
   }
-  .notes-prose {
-    display: block;
+  .notes-body {
     margin-top: 26px;
+  }
+  .notes-lede {
+    font-family: var(--ming);
+    font-size: var(--kb-text-body);
+    line-height: var(--kb-lh-body);
+    color: var(--mut);
+    margin: 0 0 1.4rem;
+  }
+  .notes-lede a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in oklab, var(--accent) 35%, transparent);
+  }
+  .notes-lede a:hover {
+    border-bottom-color: var(--accent);
+  }
+  .notes-head {
+    font-family: var(--ming);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 1.6rem 0 0.35rem;
+  }
+  .notes-sub {
+    font-size: var(--kb-text-base);
+    line-height: var(--kb-lh-body);
+    color: var(--mut);
+    margin: 0 0 0.75rem;
+    max-width: 64ch;
+  }
+  .entry-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+  .entry-list a {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+  }
+  .entry-list a:hover .entry-list__title {
+    color: var(--accent);
+  }
+  .entry-list__icon {
+    font-size: 17px;
+    line-height: 1.45;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .entry-list__body {
+    font-size: var(--kb-text-base);
+    line-height: var(--kb-lh-body);
+    color: var(--mut);
+    min-width: 0;
+  }
+  .entry-list__title {
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .entry-list__blurb {
+    color: var(--mut);
   }
   @media (max-width: 640px) {
     .wrap {

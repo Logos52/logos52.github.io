@@ -19,10 +19,10 @@ Research answers improve when the existing markdown knowledge base becomes the f
 
 1. Read [[notes/index|notes/index.md]].
 2. Read the most relevant wiki pages and source notes.
-3. Search for related terms across `wiki/`, `raw/`, and `workbench/`.
-4. Write durable answers that need review to `workbench/`.
+3. Search for related terms across `wiki/`, `raw/`, and `01 - Workbench/`.
+4. Write durable answers that need review to `01 - Workbench/`.
 5. Cite consulted pages and sources.
-6. Add unresolved issues to `Open Questions`.
+6. Add unresolved issues to `outputs/generated-questions.md` (not the archived `02 - System/Open Questions.md`).
 7. Promote durable new insight back into `wiki/`.
 8. Append a query entry to `log.md`.
 

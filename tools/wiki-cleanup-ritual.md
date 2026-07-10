@@ -3,7 +3,7 @@ title: "Wiki cleanup ritual"
 type: skill-prompt
 status: active
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-07-09
 tags:
   - tools
   - ritual
@@ -13,7 +13,7 @@ tags:
 
 # Wiki cleanup ritual
 
-A manually-triggered periodic cleanup pass over `llm-knowledge-base`. **AI-agnostic** — any agent (Claude, Grok, ChatGPT, Hermes, others) can read this prompt and execute the steps. Output goes to `workbench/wiki-cleanup-{YYYY-MM-DD}.md` for Wedge's review before any change is applied to the wiki itself.
+A manually-triggered periodic cleanup pass over `llm-knowledge-base`. **AI-agnostic** — any agent (Claude, Grok, ChatGPT, Hermes, others) can read this prompt and execute the steps. Output goes to `01 - Workbench/wiki-cleanup-{YYYY-MM-DD}.md` for Wedge's review before any change is applied to the wiki itself.
 
 ## Intent
 
@@ -29,11 +29,11 @@ Files in `raw/inbox/` that haven't been promoted to `raw/sources/` or `raw/proce
 
 ### 2. Sourceless wiki pages
 
-Pages in `wiki/` where `type` is `brief | concept | synthesis | technique` AND the `source` frontmatter is missing or empty.
+Pages in `wiki/` where `type` is `brief | concept | synthesis | technique` AND the `source` / `sources` frontmatter is missing or empty, and there is no `## Sources` section.
 
 ### 3. Stuck workbench items
 
-Files in `workbench/` (excluding `.gitkeep`) whose `file.mtime` is older than 14 days. Possibly forgotten WIP.
+Files in `01 - Workbench/` (excluding `README.md`, `Workbench.md`, and `.gitkeep`) whose `file.mtime` is older than 14 days. Possibly forgotten WIP.
 
 ### 4. Audit-due
 
@@ -45,31 +45,35 @@ Pages in `wiki/` with empty or missing `tags`. Limits discoverability.
 
 ### 6. Status stagnation
 
-Notes with `status: seed` or `status: developing` whose `file.mtime` is older than 60 days. Promote, demote, or archive candidates.
+Notes with `status: seed` or `status: developing` whose `file.mtime` is older than 60 days. Promote, demote, or archive candidates. Prefer `stable` over `mature` when promoting (see `AGENTS.md`).
 
 ### 7. Generated-questions backlog
 
-Count items in `outputs/generated-questions.md`. If more than 20, flag for pruning. (These are AI-deposited per `AGENTS.md` step 7.)
+Count items in `outputs/generated-questions.md`. If more than 20 open bullets, flag for pruning. (These are AI-deposited per `AGENTS.md` step 7.)
 
-### 8. Orphans
+### 8. Orientation drift
 
-Notes with zero inbound links AND zero outbound links. Possibly stale.
+Compare `00 Command Center/Active Questions.md` with `journal/index.md` frontmatter `openQuestions` and "What's top of mind." Flag if they diverge. Do not invent a third queue.
 
-### 9. Possible duplicates
+### 9. Orphans
+
+Notes with zero inbound links AND zero outbound links. Possibly stale. Exclude intentional redirects (`type: redirect`).
+
+### 10. Possible duplicates
 
 Pages with very similar titles or first-paragraph content. Heuristic only — list candidates; do not merge.
 
 ## Output format
 
-Single markdown file at `workbench/wiki-cleanup-{YYYY-MM-DD}.md`. Use `## Section`, one bullet per item: `path · key fields · brief suggestion`. Scannable, no narrative.
+Single markdown file at `01 - Workbench/wiki-cleanup-{YYYY-MM-DD}.md`. Use `## Section`, one bullet per item: `path · key fields · brief suggestion`. Scannable, no narrative.
 
 ## Boundaries
 
 - **Do not edit any wiki page.** Output only.
 - **Do not delete anything.**
-- **Do not append to `00 Command Center/Open Questions.md`.** That file is Wedge's personal log; auto-appends go to `outputs/generated-questions.md` per `AGENTS.md` step 7.
+- **Do not append to `02 - System/Open Questions.md`.** That file is an archived stub. Auto-appends go to `outputs/generated-questions.md` per `AGENTS.md` step 7. Live human orientation is journal + Active Questions.
 - Respect frontmatter conventions described in `AGENTS.md` and `CLAUDE.md`.
-- Stay inside `wiki/`, `raw/`, `workbench/`, `outputs/`, and `00 Command Center/`. Do not scan `decisions/`, `PRDs/`, `journal/`, or `mg-kolbs/`.
+- Stay inside `wiki/`, `raw/`, `01 - Workbench/`, `outputs/`, `00 Command Center/`, and `journal/index.md` (orientation check only). Do not scan `decisions/`, `PRDs/`, full `journal/` bodies, or `mg-kolbs/` unless Wedge asks.
 
 ## How Wedge triggers it
 

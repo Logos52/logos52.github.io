@@ -96,4 +96,4 @@ Use this structure when creating a new goal (copy the template below).
 
 **Back to Goals** → [[Goals]]
 
-**Back to MG & Kolbs** → [[MG & Kolbs]]
+**Back to mg-kolbs** → [[mg-kolbs/index|mg-kolbs]]

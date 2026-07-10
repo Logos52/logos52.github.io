@@ -20,10 +20,10 @@ The core loop:
 
 1. Add sources to `raw/inbox/` or `raw/sources/`.
 2. Summarize and index sources with source notes.
-3. Use `workbench/` for active synthesis: model first-pass drafts (`GPT - Title.md`, `Grok - Title.md`, `Opus - Title.md`) and fused drafts (`L2 - Title.md`).
-4. Promote durable, reviewed understanding from `workbench/` into `wiki/`.
+3. Use `01 - Workbench/` for active synthesis: model first-pass drafts (`GPT - Title.md`, `Grok - Title.md`, `Opus - Title.md`) and fused drafts (`L2 - Title.md`).
+4. Promote durable, reviewed understanding from `01 - Workbench/` into `wiki/`.
 5. After L2 → L1 edits, append voice refinements to the converter's `style-feedback.md` (the converter reads it on every run). Use "Run light voice evolution" for help synthesizing improvements.
-6. Archive completed or superseded synthesis drafts outside the active workbench so `workbench/` stays easy to scan.
+6. Archive completed or superseded synthesis drafts outside the active workbench so `01 - Workbench/` stays easy to scan.
 7. Run periodic health checks to find gaps, contradictions, stale pages, and missing citations.
 
 ## Directory Map

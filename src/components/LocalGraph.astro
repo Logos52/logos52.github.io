@@ -50,9 +50,8 @@ const currentDomain = currentNode?.domain ?? 'gen';
 ---
 
 <div class="kb-localgraph-rail">
-  <h3 class="kb-side-h">Local graph</h3>
   <div class="kb-localgraph-card" data-local-graph data-current={current}>
-    <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Local graph of linked notes">
+    <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Linked notes">
       {edgePath && <g stroke="var(--rule2)" stroke-width="1" fill="none"><path d={edgePath} /></g>}
       {
         placed.map((p) => (
@@ -69,15 +68,6 @@ const currentDomain = currentNode?.domain ?? 'gen';
 </div>
 
 <style>
-  .kb-side-h {
-    font-family: var(--mono);
-    font-size: 9.5px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--mut);
-    margin: 0 0 10px;
-    font-weight: 600;
-  }
   .kb-localgraph-card {
     border: 1px solid var(--rule);
     border-radius: var(--tsg-radius-sm);

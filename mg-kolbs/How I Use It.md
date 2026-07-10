@@ -22,4 +22,4 @@ I have included many example pages as templates. Feel free to delete anything th
 
 ---
 
-**Back to MG & Kolbs** → [[MG & Kolbs]]
+**Back to mg-kolbs** → [[mg-kolbs/index|mg-kolbs]]

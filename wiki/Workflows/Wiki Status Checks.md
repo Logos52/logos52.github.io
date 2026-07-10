@@ -33,7 +33,7 @@ Use a status check when the user asks:
 4. Identify likely orphans, pages missing source sections, stale pages, and bloated pages.
 5. Check for public/private risk at a high level.
 6. Return a concise report with recommended next actions.
-7. Write a durable report to `workbench/GPT - YYYY-MM-DD Wiki Status.md` only if the report is substantial.
+7. Write a durable report to `01 - Workbench/GPT - YYYY-MM-DD Wiki Status.md` only if the report is substantial.
 
 ## What To Report
 

@@ -80,7 +80,7 @@ The instinct when progress stalls is usually to add more: more techniques, more 
 - [[Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — the RAM analogy and multiple element interactivity explain why working memory headroom is thin during early skill learning
 - [[Marginal Gains|Marginal Gains]] — the 1-2 techniques at a time constraint is the same logic: isolate the variable, consolidate, then expand
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — monitoring habit formation speed and calibrating intake accordingly is a metacognitive self-regulation task
-- [[Are You Thinking, or Just Consuming?|Are You Thinking, or Just Consuming?]] — the distinction between understanding theory and being ready to use it
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — the distinction between understanding theory and being ready to use it
 - [[Prestudy|Prestudy]] — the theory/practice balance frames how much conceptual preparation is useful before attempting a skill in context
 
 ## Sources

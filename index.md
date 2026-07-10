@@ -4,11 +4,11 @@ description: "Linked notes on learning systems, language study, and software wor
 type: index
 hideFolderListing: true
 created: 2026-05-02
-updated: 2026-06-12
+updated: 2026-07-09
 tags:
   - system
 ---
 
-<!-- The home page is rendered by the HomeLanding component (quartz/components/HomeLanding.tsx),
-     wired in via quartz.layout.ts for the index slug. Edit the hero text, "Start here" picks,
-     and topic groups there. This body is intentionally left empty. -->
+<!-- Public home is Astro: src/pages/index.astro (intent doors, topic groups, hero).
+     Vault body intentionally empty — the published landing is the Astro page, not this file.
+     Agent/human wiki front door: notes/index.md. -->

@@ -11,6 +11,7 @@ import { deriveTitle, deriveSummary } from '../../lib/note';
 import { resolveDomain } from '../../lib/domain';
 import { simplifySlug, slugToUrl } from '../../lib/slug';
 import { DOMAINS, DOMAIN_LABELS, type Domain } from '../../lib/types';
+import { DOMAIN_ICONS } from '../../lib/icons';
 
 export function getStaticPaths() {
   return DOMAINS.map((d) => ({ params: { domain: d } }));
@@ -33,8 +34,15 @@ const pages = (await getCollection('notes'))
     <div class="wrap domain-grid">
       <div class="main">
         <header class="head">
-          <a class="head__kind" href="/map/" style={`color:var(--d-${domain})`}>Domain · Map of Content</a>
-          <h1>{label}</h1>
+          <a class="head__kind" href="/map/" style={`color:var(--d-${domain})`}>Map of Content</a>
+          <h1>
+            <i
+              class={`ti ${DOMAIN_ICONS[domain]} head__icon`}
+              style={`color:var(--d-${domain})`}
+              aria-hidden="true"
+            />
+            {label}
+          </h1>
           <p>{pages.length} notes</p>
         </header>
 
@@ -50,8 +58,7 @@ const pages = (await getCollection('notes'))
         </ul>
       </div>
 
-      <aside class="side">
-        <h2 class="side__head">Connections</h2>
+      <aside class="side" aria-hidden="true">
         <Constellation mode="full" domain={domain} orient="vertical" height="clamp(360px, 70vh, 640px)" />
       </aside>
     </div>
@@ -104,6 +111,14 @@ const pages = (await getCollection('notes'))
     font-weight: 500;
     margin: 5px 0 2px;
     color: var(--ink);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .head__icon {
+    font-size: 0.92em;
+    line-height: 1;
+    flex-shrink: 0;
   }
   .head p {
     margin: 0;

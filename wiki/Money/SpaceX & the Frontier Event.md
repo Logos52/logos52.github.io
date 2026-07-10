@@ -84,7 +84,7 @@ The thesis lives or dies on physical milestones, not narrative: Starship flight 
 - [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival]] — the companion piece from the same source; orbital data centers bridge the two.
 - [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]] — orbital compute connects the space and AI-capex threads.
 - [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] — frontier-event wealth creation is the canonical nonlinear-returns pattern.
-- [[wiki/Money/Investing & Budgeting Mindsets|Investing & Budgeting Mindsets]] — the money-side hub this page sits under.
+- [[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]] — the money-side hub this page sits under.
 
 ## Open questions
 

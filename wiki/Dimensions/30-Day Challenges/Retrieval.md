@@ -29,3 +29,7 @@ Raise the challenge level of retrieval attempts. Reduce cues, increase time betw
 ## Week 4: Using Retrieval as Diagnosis
 
 Treat retrieval sessions primarily as diagnostic tools. Use the gaps and struggles that appear during retrieval to identify weak areas in understanding, then follow up with targeted re-processing.
+
+## Related
+
+- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]

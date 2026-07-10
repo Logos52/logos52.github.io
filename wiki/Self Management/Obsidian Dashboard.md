@@ -2,6 +2,8 @@
 type: system
 status: stable
 created: 2026-05-22
+updated: 2026-07-09
+source-count: 1
 tags:
   - self-management
   - systems

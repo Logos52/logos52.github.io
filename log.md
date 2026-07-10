@@ -757,3 +757,33 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Enriched: [[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]] from a 5-concept stub into the comprehensive book-grounded owner hub (two-question frame, seven stages / two gulfs, knowledge in world vs head, constraints + forcing functions, human error, slips vs mistakes, HCD / double diamond, featuritis). Honored verify-pass attribution caveats: root-cause "five whys" is Toyota's term not Norman's; four design-relevant slip mechanisms (not five); Swiss-cheese third lever is "alert when holes align."
 - Index: `notes/index.md` Hubs & Condensed updated (the Full Catalog regenerates from frontmatter on build). Source Index: row added under Book Sources.
 - Left untouched: Wedge's pre-existing uncommitted WIP (journal entries, prior `notes/index.md` edits, etc.). Not committed or pushed.
+
+## 2026-07-09 — KB hygiene (agent paths, Astro supersede, front door, links)
+
+- Superseded Quartz engine decision; Astro is live law.
+- Agent draft path: `workbench/` → `01 - Workbench/` (AGENTS, workflows, README/CLAUDE as needed).
+- Story Craft on `notes/index.md`; journal top-of-mind refreshed.
+- Open Questions system file archived (live queue = journal + generated-questions).
+- Broken links: money hub path, Rapid Skill bare link, raw/sources apostrophe match, Wabi-Sabi seed.
+- `decisions/index.md` added for agent-readable status.
+- mg-kolbs dual trees **not** merged (Wedge decision pending).
+
+## 2026-07-09 — mg-kolbs canonical; archive dual home
+
+- Kept `mg-kolbs/` as sole root home (Command Center already pointed here).
+- Moved `MG & Kolbs/` → `_archive/MG-Kolbs-template-2026-06-01/` (June template relocate, incomplete retire).
+- Cherry-picked into mg-kolbs: `scripts/`, Kolbs Template + example SIR/Sleep cycles.
+- Retargeted [[MG & Kolbs]] hub links → `mg-kolbs/index`; denylist drops dead root path.
+
+## [2026-07-09] maintenance | Audit cleanup pass (truth surfaces, dedupe, empty taxonomy)
+
+Structural cleanup only — no new doctrine or condensed pages. Wedge deferred Decision Making Condensed; declined Red Team Condensed; preferred maintenance over agent-authored prose.
+
+- **Active Questions** synced to journal `openQuestions` (Tsumugu craft, ed features, generativity vs judgment, planning-as-spec). Cap convention now points at `outputs/generated-questions.md`, not the archived Open Questions sink.
+- **generated-questions.md** pruned: dropped Quartz/COS ownership and self-updating thrash; kept agent-workflow + a few content gaps; logged resolved/dropped. Promoted Industrial-Revolution threads already live in journal/Active Questions.
+- **Obsidian Dashboard** deduped: canonical at `wiki/Self Management/Obsidian Dashboard.md`; `wiki/Systems/Obsidian Dashboard.md` is a `type: redirect` stub.
+- **Empty taxonomy removed:** `wiki/Domains/{Decision Making,Language,Minimalism,Red Team}/` (empty); `wiki/Systems/MG & Kolbs/` (empty). Kept Domains AI & Tooling + Miscellaneous (have pages).
+- **Ritual/schema paths:** `tools/wiki-cleanup-ritual.md` retargeted to `01 - Workbench/`, orientation-drift check, Open Questions archive rules. `AGENTS.md` step 7 Open Questions wording corrected.
+- **Home ops nav:** Active Questions + explicit archived Open Questions link.
+- **Journal finance seed:** Finance MOC / Domains finance hub language → Money cluster links only.
+- Not done (by design): status graduation sprint, inbox drain, Decision Making Condensed, homepage Health relabel, Story Craft homepage hub feature, bulk link-report regen.

@@ -29,7 +29,7 @@ Coverage, consistency, and source discipline improve when the wiki gets periodic
 
 ## Output
 
-Write health check reports to `workbench/` unless the user asks for an archive location.
+Write health check reports to `01 - Workbench/` unless the user asks for an archive location.
 
 Each report should include:
 
@@ -37,7 +37,7 @@ Each report should include:
 - Findings.
 - Suggested edits.
 - Pages created or updated.
-- Questions added to [[02 - System/Open Questions|Open Questions]].
+- Questions added to [[journal/index|journal openQuestions]] / `outputs/generated-questions.md`.
 - Entry appended to `log.md`.
 
 ## Related Concepts

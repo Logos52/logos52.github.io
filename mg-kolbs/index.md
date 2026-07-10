@@ -3,7 +3,10 @@ type: index
 cssclasses:
   - mgk-home
 ---
-# MG & Kolbs
+# mg-kolbs
+
+**Canonical home** for the personal MG & Kolbs system (lowercase path on purpose).  
+The June-2026 dual tree `MG & Kolbs/` was a template relocate that never finished retiring this folder — archived 2026-07-09 at `_archive/MG-Kolbs-template-2026-06-01/` (scripts + example Kolbs notes folded back here). Command Center still queries `path("mg-kolbs")`.
 
 ```datacorejsx
 return function DimensionsRadar() {

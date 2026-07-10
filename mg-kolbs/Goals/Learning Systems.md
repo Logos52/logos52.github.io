@@ -53,4 +53,4 @@ By the end of 2026, run deliberate learning sessions using BHS and SIR consisten
 
 **Back to Goals** → [[Goals]]
 
-**Back to MG & Kolbs** → [[MG & Kolbs]]
+**Back to mg-kolbs** → [[mg-kolbs/index|mg-kolbs]]

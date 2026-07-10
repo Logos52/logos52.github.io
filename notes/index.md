@@ -4,7 +4,7 @@ description: "Entry points into the wiki — doctrine pages, hubs, and orientati
 type: index
 hideFolderListing: true
 created: 2026-05-02
-updated: 2026-06-30
+updated: 2026-07-09
 tags:
   - system
 ---
@@ -23,6 +23,7 @@ One rule per line — each corpus compressed to doctrine with links to the pages
 - [[wiki/Money/Money, Condensed|Money, Condensed]] — behaviour over intelligence, the gap as the lever, enough as the win condition.
 - [[wiki/Minimalism/Minimalism, Condensed|Minimalism, Condensed]] — bandwidth as the bottleneck, exits before entries, the room as part of the system.
 - [[wiki/Design/Design, Condensed|Design, Condensed]] — Norman's design doctrine: difficulty is data, the signifier is the whole job on screens, knowledge in the world, error as bad design.
+- [[wiki/Story Craft/Story Craft, Condensed|Story Craft, Condensed]] — ensemble character craft under a vocabulary ceiling: wound/lie, arc types, plant→payoff, the eleven-check diagnosis.
 
 ## Hubs
 
@@ -36,3 +37,4 @@ Cluster entry points — where a topic fans out into techniques, concepts, and r
 - [[wiki/Minimalism/Minimalism as Systems Design|Minimalism]] — environment design, ownership cost, and reduction that makes action easier.
 - [[wiki/Red Team/Red Teaming|Red Team / Critical Thinking]] — frame testing, assumptions, decision support, and adversarial thinking.
 - [[wiki/Design/Front-End Web Design|Front-End Web Design]] — design doctrine mapped onto web UI and the tsumugu reader and dictionary.
+- [[wiki/Story Craft/Story Craft|Story Craft]] — graded-reader ensemble arcs; diagnose thin characters with [[wiki/Story Craft/Diagnosing a Character|Diagnosing a Character]]; Tsumugu apply layer lives in `tsumugu-core/docs/companion/craft/`.

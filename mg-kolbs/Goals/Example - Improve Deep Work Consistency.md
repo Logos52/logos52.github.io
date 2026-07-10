@@ -68,4 +68,4 @@ By the end of 2025, be able to consistently do 4+ hours of deep work per day, 5 
 
 **Back to Goals** → [[Goals]]
 
-**Back to MG & Kolbs** → [[MG & Kolbs]]
+**Back to mg-kolbs** → [[mg-kolbs/index|mg-kolbs]]

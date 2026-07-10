@@ -13,9 +13,9 @@ tags:
 
 # Finance & Investing — Reading & Resources
 
-Seed list to start a budget / finances / investing section. Bias: **worldview-first** — paradigm-shifting reads that change how money, debt, and "enough" are seen, over tactical how-to. As books get read, promote them to `wiki/Books/` notes; promote concepts to a `wiki/Domains/` finance hub and cross-link `wiki/Minimalism/`.
+Seed list to start a budget / finances / investing section. Bias: **worldview-first** — paradigm-shifting reads that change how money, debt, and "enough" are seen, over tactical how-to. As books get read, promote them to `wiki/Books/` notes; promote concepts under `wiki/Money/` and cross-link `wiki/Minimalism/`.
 
-> Living list — append freely. Graduation target: **[[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]]** under `wiki/Domains/`.
+> Living list — append freely. Graduation target: **[[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]]** (and [[wiki/Money/Money, Condensed|Money, Condensed]]).
 
 ---
 
@@ -58,6 +58,6 @@ The trio that rewires the foundation before tactics: **Your Money or Your Life**
 
 ## Next
 
-- Spin up **[[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]]** under `wiki/Domains/` as the permanent hub; demote this entry to a pointer once it exists.
+- Spin up **[[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]]** as the permanent hub under `wiki/Money/`; demote this entry to a pointer once reading graduates.
 - Create `wiki/Books/` notes per title as read (start with the trio + Naval, already read).
 - Cross-link `wiki/Minimalism/` — the "enough" thread spans both sections.

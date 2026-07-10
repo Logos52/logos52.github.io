@@ -170,12 +170,12 @@ Use when the user asks a question against the wiki.
 Workflow:
 
 1. Read `notes/index.md` first; use `notes/catalog.md` when you need the full inventory.
-2. Search relevant terms across `wiki/`, `raw/`, `workbench/`, and legacy archives when needed.
+2. Search relevant terms across `wiki/`, `raw/`, `01 - Workbench/`, and legacy archives when needed.
 3. Read the most relevant wiki pages before raw sources.
 4. Read raw sources only when the wiki is insufficient or citations need checking.
-5. Write durable synthesis candidates to `workbench/` when they need review before wiki promotion.
+5. Write durable synthesis candidates to `01 - Workbench/` when they need review before wiki promotion.
 6. Include consulted wiki pages and sources.
-7. Add unresolved issues to `outputs/generated-questions.md`. (Not `00 Command Center/Open Questions.md` — that file is the user's personal log; auto-appends go to the generated bucket.)
+7. Add unresolved issues to `outputs/generated-questions.md`. (Not `02 - System/Open Questions.md` — archived stub. Live human orientation is `journal/index.md` openQuestions + `00 Command Center/Active Questions.md`. Auto-appends go only to the generated bucket.)
 8. Promote durable insights back into `wiki/`.
 9. Update `notes/index.md` if a hub or condensed front-door link changed (full catalog regenerates on build).
 10. Append a `query` entry to `log.md`.
@@ -196,7 +196,7 @@ Check for:
 - Important concepts mentioned repeatedly without their own page.
 - Public/private publication risks.
 
-Write reports to `workbench/GPT - YYYY-MM-DD Wiki Health Check.md` unless the user asks for a different location.
+Write reports to `01 - Workbench/GPT - YYYY-MM-DD Wiki Health Check.md` unless the user asks for a different location.
 
 Append a `lint` entry to `log.md`.
 
@@ -211,7 +211,7 @@ Workflow:
 3. Identify recently updated pages, high-value pages, likely orphans, pages missing source sections, bloated pages, and pages that may need splitting.
 4. Check for public/private risk at a high level.
 5. Return a concise status report with recommended next actions.
-6. Write a durable report to `workbench/GPT - YYYY-MM-DD Wiki Status.md` only if the status report is substantial.
+6. Write a durable report to `01 - Workbench/GPT - YYYY-MM-DD Wiki Status.md` only if the status report is substantial.
 7. Append a `lint` or `maintenance` entry to `log.md` when a durable report or wiki change is made.
 
 Status is read-mostly. Do not reorganize files during a status pass unless the user explicitly asks.
@@ -271,7 +271,9 @@ Do not invent new types ad hoc. If a page does not fit any of the above, propose
 ### Status vocabulary
 
 - `seed` — created, may be partial; the default for new pages
-- `mature` — substantially complete and audited
+- `developing` — actively expanded; default for new wings (e.g. Story Craft) until a Wedge pass hardens them
+- `stable` — usable doctrine; cross-link freely (preferred over `mature` for most wiki pages)
+- `mature` — synonym of `stable` for older notes; prefer `stable` on new writes
 - `needs-review` — flagged during a health check; revisit before next promotion
 - `draft` — early scratch state, not ready for cross-linking
 
@@ -347,20 +349,20 @@ Every page touched during an ingest should become meaningfully better.
 
 ## Workbench and Archives
 
-The active synthesis loop is `raw/` → `workbench/` → `workbench/` → `wiki/`.
+The active synthesis loop is `raw/` → `01 - Workbench/` → `wiki/`.
 
-Use `workbench/` as the only active draft surface for synthesis work. Wiki-shaped material that is ready should be promoted to `wiki/`; material that still needs comparison, voice work, or human review stays in `workbench/`.
+Use `01 - Workbench/` as the only active draft surface for synthesis work. Wiki-shaped material that is ready should be promoted to `wiki/`; material that still needs comparison, voice work, or human review stays in `01 - Workbench/`.
 
 Workbench conventions:
 
 - L3 first-pass drafts use model-first filenames: `[Model] - [Title].md`.
 - L2 fused syntheses use `L2 - [Title].md`.
-- Keep `workbench/` temporary and easy to scan. After promotion or rejection, move drafts out of the active surface.
+- Keep `01 - Workbench/` temporary and easy to scan. After promotion or rejection, move drafts out of the active surface.
 - `outputs/` is legacy/archive space for older generated artifacts. Do not use it for new active synthesis unless the user explicitly asks.
 
 Workflow:
 
-1. Put active synthesis, comparison, and status drafts in `workbench/`.
+1. Put active synthesis, comparison, and status drafts in `01 - Workbench/`.
 2. Promote durable, reviewed material into `wiki/`.
 3. Archive completed, rejected, or superseded drafts outside the active workbench.
 4. Keep source material in `raw/`; do not treat archived drafts as source of truth unless explicitly cited.
@@ -393,7 +395,7 @@ Three ways to keep content off the public site, strongest first:
 Enforcement — defense-in-depth, see `tools/scripts/publish-guard.mjs`:
 
 - **Pre-commit hook** (`.githooks/pre-commit`, enable once with `git config core.hooksPath .githooks`) blocks committing private/financial content into publish-eligible paths *before it reaches the public repo*. First and most important line.
-- **Deploy guard** — `deploy.yml` runs the guard on the built `public/` output after `quartz build`; a leak fails the job and blocks the deploy.
+- **Deploy guard** — `deploy.yml` runs the guard on the built `public/` output after `astro build`; a leak fails the job and blocks the deploy.
 - **Source audit** — `npm run guard:source` flags private content that is tracked-but-unrendered (raw-exposed on the public repo). Run periodically; the fix is to gitignore those folders.
 
 Known raw-exposure: some un-rendered folders (`PRDs/`, `decisions/`, `00 Command Center/`, `mg-kolbs/`) are still tracked, so their raw `.md` is public. If any holds genuinely-private content, gitignore + untrack it (and scrub history if it was already pushed).
@@ -405,7 +407,7 @@ The site is published at <https://logos52.github.io>. Astro builds from `src/`; 
 Publish model: **publish-by-default.** Every `.md` is published EXCEPT (a) paths git ignores, (b) paths matched by the denylist in `src/lib/ignore-patterns.mjs`, and (c) notes with `draft: true`. There is no allow-list, so the denylist plus the guard ARE the privacy gates — keep them current. A denied note is never copied into `src/content/notes/`, so it physically cannot appear in the build (stronger than a render-time filter).
 
 - **Published (publish-eligible):** `index.md`, `about.md`, `README.md`, `AGENTS.md` / `CLAUDE.md` / `GROK.md`, `wiki/`, `blog/`, `journal/`, `public-snapshots/`, `notes/index.md`.
-- **Not published (gitignored or denylist):** `notes/catalog.md` (gitignored — agent-only full inventory), `00 Command Center/`, `raw/`, `private/`, `finances/`, `outputs/`, `templates/`, `tools/`, `PRDs/`, `decisions/`, `mg-kolbs/`, `MG & Kolbs/`, `pans-mg-kolbs-template/`, `01 - Workbench/`, `02 - System/`, `_archive/`, `hermes/`, `_meta/`, `log.md`.
+- **Not published (gitignored or denylist):** `notes/catalog.md` (gitignored — agent-only full inventory), `00 Command Center/`, `raw/`, `private/`, `finances/`, `outputs/`, `templates/`, `tools/`, `PRDs/`, `decisions/`, `mg-kolbs/`, `pans-mg-kolbs-template/`, `01 - Workbench/`, `02 - System/`, `_archive/` (incl. archived `MG-Kolbs-template-2026-06-01/`), `hermes/`, `_meta/`, `log.md`.
 
 Do not move content between these without updating `src/lib/ignore-patterns.mjs` — and remember (above) that un-publishing is not the same as private.
 
@@ -413,7 +415,7 @@ Rules for LLM agents:
 
 - Wikilinks (`[[Page]]` and `[[path/to/Page|Alias]]`) are first-class on the published site. Prefer wikilinks over raw markdown links so the build can resolve them and feed them into the graph and backlinks.
 - Wikilinks pointing into excluded folders (e.g., `[[raw/Source Index|Source Index]]`, `[[templates/Kolbs Template]]`) will render as broken on the site. They are still valuable inside Obsidian; leave them unless the user asks for a cleanup.
-- When adding a new wiki page, prefer placing it under one of the existing top-level subfolders in `wiki/` (`Books/`, `Concepts/`, `Decision Making/`, `Dimensions/`, `Domains/`, `Experiences/`, `Language/`, `Learning Craft/`, `Minimalism/`, `Red Team/`, `Resources/`, `Self Management/`, `Syntheses/`, `Systems/`, `Techniques/`, `Workflows/`).
+- When adding a new wiki page, prefer placing it under one of the existing top-level subfolders in `wiki/` (`Books/`, `Concepts/`, `Decision Making/`, `Dimensions/`, `Domains/`, `Experiences/`, `Language/`, `Learning Craft/`, `Story Craft/`, `Minimalism/`, `Money/`, `Red Team/`, `Resources/`, `Self Management/`, `Syntheses/`, `Systems/`, `Techniques/`, `Workflows/`, `Design/`).
 - Do not commit `node_modules/`, `dist/`, or `.astro/`. These are gitignored.
 - The site is a normal Astro project: pages in `src/pages/`, UI in `src/components/`, layouts in `src/layouts/`, client islands in `src/islands/`, shared logic in `src/lib/`. The publish boundary is `scripts/copy-public-notes.mjs` plus the denylist `src/lib/ignore-patterns.mjs`.
 - The site's home page is `src/pages/index.astro`, the public LLM Knowledge Base landing page.

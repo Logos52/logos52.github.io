@@ -52,4 +52,4 @@ By the end of 2026, have at least three reusable agent workflows running reliabl
 
 **Back to Goals** → [[Goals]]
 
-**Back to MG & Kolbs** → [[MG & Kolbs]]
+**Back to mg-kolbs** → [[mg-kolbs/index|mg-kolbs]]

@@ -19,7 +19,7 @@ tags:
 
 [[Home|← back to Home]]
 
-The active synthesis flow. Top: what's unsorted in `raw/inbox/`. Below: what's currently on the bench in `workbench/` (flagged stale if untouched > 10 days).
+The active synthesis flow. Top: what's unsorted in `raw/inbox/`. Below: what's currently on the bench in `01 - Workbench/` (flagged stale if untouched > 10 days).
 
 ## Inbox — unsorted sources
 
@@ -31,4 +31,4 @@ The active synthesis flow. Top: what's unsorted in `raw/inbox/`. Below: what's c
 
 ## Pipeline
 
-Per `AGENTS.md`: raw sources land in `raw/inbox/`, get promoted to `raw/sources/` or `raw/processed/` once read, become drafts in `workbench/` (L3 first-pass, L2 fused), and promote into `wiki/` (L1) only after explicit approval. Unresolved questions go to `outputs/generated-questions.md`, not your personal log.
+Per `AGENTS.md`: raw sources land in `raw/inbox/`, get promoted to `raw/sources/` or `raw/processed/` once read, become drafts in `01 - Workbench/` (L3 first-pass, L2 fused), and promote into `wiki/` (L1) only after explicit approval. Unresolved questions go to `outputs/generated-questions.md`, not your personal log.

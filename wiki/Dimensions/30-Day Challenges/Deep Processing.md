@@ -29,3 +29,7 @@ Explain concepts at multiple levels of abstraction. Practice teaching or articul
 ## Week 4: Re-Processing Shallow Material
 
 Identify areas where understanding remained surface-level and deliberately re-engage with them using deeper processing techniques. Compare the quality of encoding before and after the re-processing.
+
+## Related
+
+- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]

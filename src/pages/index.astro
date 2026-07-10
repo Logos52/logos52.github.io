@@ -6,12 +6,13 @@
  */
 import { existsSync, readFileSync } from 'node:fs';
 import { getCollection } from 'astro:content';
-import '@tabler/icons-webfont/dist/tabler-icons.min.css';
+
 import Base from '../layouts/Base.astro';
 import DomainChip from '../components/DomainChip.astro';
 import Constellation from '../components/Constellation.astro';
 import { slugifyFilePath, slugToUrl } from '../lib/slug';
 import { DOMAIN_LABELS, type Domain } from '../lib/types';
+import { DOMAIN_ICONS } from '../lib/icons';
 
 interface HomeData {
   hero?: { title?: string; lede?: string };
@@ -250,14 +251,6 @@ function hubCount(h: Hub): number {
 const hubHref = (slug: string) => slugToUrl(slugifyFilePath(slug));
 const cardHref = (slug: string) => slugToUrl(slugifyFilePath(slug));
 const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind', 'gen'];
-const DOMAIN_ICONS: Record<Domain, string> = {
-  learning: 'ti-school',
-  agentic: 'ti-robot',
-  language: 'ti-language',
-  focus: 'ti-target',
-  mind: 'ti-brain',
-  gen: 'ti-bulb',
-};
 ---
 
 <Base title={hero.title ?? 'Logos52'} description={hero.lede} active="home">

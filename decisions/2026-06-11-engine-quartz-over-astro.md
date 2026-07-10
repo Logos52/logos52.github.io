@@ -1,9 +1,10 @@
 ---
 title: "Site engine: keep Quartz, replace 100% of the skin (over Astro rebuild)"
 type: decision
-status: decided
+status: superseded
 created: 2026-06-11
-updated: 2026-06-12
+updated: 2026-07-09
+superseded-by: "[[decisions/2026-07-09-engine-astro-supersedes-quartz]]"
 ruled-out:
   - Astro (or any general-framework) rebuild — revisit only on the flip condition below
 tags:
@@ -13,9 +14,12 @@ tags:
 links:
   - "[[journal/2026-06-11-living-atlas-and-decision-writing]]"
   - "[[decisions/2026-06-11-living-atlas-design]]"
+  - "[[decisions/2026-07-09-engine-astro-supersedes-quartz]]"
 ---
 
 # Site engine: keep Quartz, replace 100% of the skin
+
+> **Superseded 2026-07-09.** Flip condition met: site re-platformed to Astro. See [[decisions/2026-07-09-engine-astro-supersedes-quartz]]. Body below is historical.
 
 Decision: keep Quartz v4 as the publishing engine and replace the entire visual layer — accepting that upstream updates may conflict with the modified graph script, and that schema enforcement stays a lint script instead of a compile-time guarantee.
 

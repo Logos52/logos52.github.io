@@ -75,7 +75,7 @@ If the revival is structural, expect over the next several quarters: flatbed/ind
 - [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]] — the expanded, data-grounded treatment of the productivity amplifier.
 - [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] — the productivity claim as a nonlinear-returns instance.
 - [[wiki/Money/SpaceX & the Frontier Event|SpaceX & the Frontier Event]] — the companion frontier piece from the same source.
-- [[wiki/Money/Investing & Budgeting Mindsets|Investing & Budgeting Mindsets]] — the money-side hub this page sits under.
+- [[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]] — the money-side hub this page sits under.
 - [[wiki/Red Team/Red Teaming|Red Teaming]] — revealed preference and positive-black-swan reasoning as assumption-testing.
 
 ## Open questions

@@ -7,8 +7,9 @@ aliases:
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-06-27
+updated: 2026-07-09
 openQuestions:
+  - "Which companion character deepenings merge to canon next (星野 package, 林薇 B3 home, B3L08 split) — and which stay proposals?"
   - "Which tsumugu-ed feature earns the next build pass — example sentences, phonetic-family browse, or the 手寫 / handwriting layer?"
   - "What in the vault workflow is generativity I can hand off versus judgment I must keep?"
   - "Where is the real line between planning-as-spec (keep) and planning-as-ritual (let the model own)?"
@@ -20,18 +21,19 @@ tags:
 
 ## What's top of mind
 
-- **[[projects/tsumugu-ed|Tsumugu Encoding Dictionary]]** — live at [tsumugu-ed.com](https://tsumugu-ed.com) (9,663 entries, 515 grammar patterns). Next build pass: handwriting layer, example sentences, or phonetic-family browse.
+- **[[wiki/Story Craft/Story Craft|Story Craft]] + Tsumugu companion** — wing open ([[wiki/Story Craft/Story Craft, Condensed|Condensed]], [[wiki/Story Craft/Diagnosing a Character|Diagnosing a Character]]); apply layer and cast diagnosis in `tsumugu-core/docs/companion/craft/`. Story/cast authorship stays with Fable/Opus; core code fixes land separately.
+- **[[projects/tsumugu-ed|Tsumugu Encoding Dictionary]]** — live at [tsumugu-ed.com](https://tsumugu-ed.com). Next build pass: handwriting layer, example sentences, or phonetic-family browse.
 - **[[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs. Judgment]]** — which vault moves are generativity I can hand off versus judgment I must keep? Ties to Tsumugu lane assignments (stories = top-model judgment; cribs = cheap generativity with cross-check).
 - **[[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]** (2026-06-15) — planning-as-spec vs planning-as-ritual still open. Repeated vault moves (ingest, lint, cross-link) may become extracted skills.
 - **[[projects/wnac|WNAC]]** — parked; not driving.
 
 ## Recent entries
 
+- [[journal/2026-07-09-baldurs-gate-3-as-a-lens-on-the-cast|2026-07-09]] — Baldur's Gate 3 as a lens on the cast — BG3 is the pinnacle of reactivity rather than of writing, most of its companion architecture is already in the Tsumugu canon, and running its two-axis test against our seven students found that only two of them pass.
 - [[journal/2026-07-07-the-workspace-a-language-model-thinks-in|2026-07-07]] — The workspace a language model thinks in — A language model does its slow, step-by-step thinking in a small internal workspace. Anthropic found it, learned to read it, and even to read what the model is privately weighing.
 - [[journal/2026-07-03-doctrine-with-a-half-life|2026-07-03]] — Doctrine With a Half-Life — AI advice rots fast, but not evenly; splitting what you learn into invariants and dated tactics keeps the notes trustworthy as models improve.
 - [[journal/2026-07-03-the-floor-rose-the-ceiling-is-the-job|2026-07-03]] — The Floor Rose, the Ceiling Is the Job — Vibe coding raises the floor of who can build software; the ceiling, correctness, security, and judgment, is what stays a job.
 - [[journal/2026-07-02-tsumugu-prd-set|2026-07-02]] — 2026-07-02 — Tsumugu PRD set authored (core + ed) — Session: Cowork (Claude Fable). Wedge asked for a comprehensive set of Opus-executable PRDs improving tsumugu-core and tsumugu-ed, written to durable locations with a change index.
-- [[journal/2026-07-02-blog-register-working-notes|2026-07-02]] — Blog register — working notes made legible, shipped provisional — Status: locked 2026-07-02, end of day. The register was validated against "Rebuilding 頓" and the provisional stamp is off. Three final calibrations came with the lock: the first sentence is the post's harshest position, 
 
 [[journal/calendar|Full calendar →]]
 

@@ -88,7 +88,7 @@ Next compile candidates:
 
 Status: not started
 
-When asking durable questions, answers should be written to `workbench/`, then promoted back into `wiki/` if they create reusable insight.
+When asking durable questions, answers should be written to `01 - Workbench/`, then promoted back into `wiki/` if they create reusable insight.
 
 Candidate first queries:
 
@@ -110,7 +110,7 @@ First health check should inspect:
 - Public/private publication risk.
 - Candidate pages implied by repeated terms.
 
-Reports should go to `workbench/`.
+Reports should go to `01 - Workbench/`.
 
 ## Phase 6 — Tools
 

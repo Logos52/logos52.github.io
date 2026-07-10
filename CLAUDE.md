@@ -97,7 +97,7 @@ The body may be more systematic than the Core Thesis. The thesis should be sharp
 
 - L3/model first-pass filename: `[Model] - [Title].md`
 - L2/fused synthesis filename: `L2 - [Title].md`
-- Location: `workbench/`
+- Location: `01 - Workbench/`
 - Frontmatter: title, type: brief, status: draft, created, updated, model, source, source_url, tags
 
 ---

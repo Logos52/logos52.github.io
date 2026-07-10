@@ -59,9 +59,9 @@ The learner needs to monitor not just what method they are using, but what thoug
 
 ## Sources
 
-- [[raw/sources/Watch This For 18 Minutes, and You'll Outlearn 99.9% Of People|Watch This For 18 Minutes, and You'll Outlearn 99.9% Of People]]
+- [[raw/sources/Watch This For 18 Minutes, and You’ll Outlearn 99.9% Of People|Watch This For 18 Minutes, and You'll Outlearn 99.9% Of People]]
 - [[raw/sources/How to Learn Anything Faster Using Modern Research|How to Learn Anything Faster Using Modern Research]]
-- [[raw/sources/If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes|If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes]]
+- [[raw/sources/If You Have A Bad Memory, I’ll Help You Fix It In 28 Minutes|If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes]]
 - [[raw/sources/Learn to Learn in 4hrs 54mins - Full Course|Learn to Learn in 4hrs 54mins - Full Course]]
 
 ## Open Questions

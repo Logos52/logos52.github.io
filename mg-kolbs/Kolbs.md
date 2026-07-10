@@ -63,15 +63,15 @@ TABLE
   marginal-gains AS "Marginal Gains",
   experiments AS Experiments,
   date AS Date
-FROM "MG & Kolbs/Kolbs"
+FROM "mg-kolbs/Kolbs"
 SORT date DESC
 ```
 
 **How to use in Obsidian:**
-- Create new notes inside the `MG & Kolbs/Kolbs` folder using the template above.
+- Create new notes inside the `mg-kolbs/Kolbs` folder using the template above.
 - Add the properties `marginal-gains`, `experiments`, and `date` in the frontmatter.
 - The query will automatically pull and display your Kolbs entries.
 
 ---
 
-**Back to MG & Kolbs Hub** → [[MG & Kolbs]]
+**Back to mg-kolbs** → [[mg-kolbs/index|mg-kolbs]]

@@ -29,7 +29,7 @@ export const IGNORE_PATTERNS = [
   'PRDs/**',
   'decisions/**',
   'mg-kolbs/**',
-  'MG & Kolbs/**',
+  // Former dual home `MG & Kolbs/` archived 2026-07-09 → _archive/MG-Kolbs-template-2026-06-01/
   '01 - Workbench/**',
   '02 - System/**',
   '_archive/**',
