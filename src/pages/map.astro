@@ -12,6 +12,7 @@ import { deriveTitle } from '../lib/note';
 import { slugToUrl } from '../lib/slug';
 import { DOMAINS, DOMAIN_LABELS } from '../lib/types';
 import { DOMAIN_ICONS } from '../lib/icons';
+import Icon from '../components/Icon.astro';
 
 const PER_SECTION = 8;
 
@@ -95,7 +96,7 @@ const sections = DOMAINS.map((d) => {
         <section class="domain">
           <h3>
             <a href={`/domains/${s.domain}/`}>
-              <i class={`ti ${s.icon} domain__icon`} style={`color:var(--d-${s.domain})`} aria-hidden="true" />
+              <Icon name={s.icon} size="1.05em" class="domain__icon" style={`color:var(--d-${s.domain})`} />
               {s.label}
             </a>
           </h3>
@@ -172,9 +173,7 @@ const sections = DOMAINS.map((d) => {
   .domain h3 a:hover {
     text-decoration: underline;
   }
-  .domain__icon {
-    font-size: 1.05em;
-    line-height: 1;
+  .domain h3 a :global(.domain__icon) {
     flex-shrink: 0;
   }
   .domain__blurb {

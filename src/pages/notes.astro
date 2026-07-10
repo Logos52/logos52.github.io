@@ -5,6 +5,7 @@
  */
 import Base from '../layouts/Base.astro';
 import Constellation from '../components/Constellation.astro';
+import Icon from '../components/Icon.astro';
 import { CONDENSED_ENTRIES, HUB_ENTRIES } from '../lib/icons';
 import { slugifyFilePath, slugToUrl } from '../lib/slug';
 
@@ -27,7 +28,7 @@ const href = (slug: string) => slugToUrl(slugifyFilePath(slug));
           {CONDENSED_ENTRIES.map((e) => (
             <li>
               <a href={href(e.slug)}>
-                <i class={`ti ${e.icon} entry-list__icon`} style={`color:${e.color}`} aria-hidden="true"></i>
+                <Icon name={e.icon} size="17px" class="entry-list__icon" style={`color:${e.color}`} />
                 <span class="entry-list__body">
                   <span class="entry-list__title">{e.title}</span>
                   <span class="entry-list__blurb"> — {e.blurb}</span>
@@ -43,7 +44,7 @@ const href = (slug: string) => slugToUrl(slugifyFilePath(slug));
           {HUB_ENTRIES.map((e) => (
             <li>
               <a href={href(e.slug)}>
-                <i class={`ti ${e.icon} entry-list__icon`} style={`color:${e.color}`} aria-hidden="true"></i>
+                <Icon name={e.icon} size="17px" class="entry-list__icon" style={`color:${e.color}`} />
                 <span class="entry-list__body">
                   <span class="entry-list__title">{e.title}</span>
                   <span class="entry-list__blurb"> — {e.blurb}</span>
@@ -113,11 +114,9 @@ const href = (slug: string) => slugToUrl(slugifyFilePath(slug));
   .entry-list a:hover .entry-list__title {
     color: var(--accent);
   }
-  .entry-list__icon {
-    font-size: 17px;
-    line-height: 1.45;
+  .entry-list a :global(.entry-list__icon) {
     flex-shrink: 0;
-    margin-top: 1px;
+    margin-top: 2px;
   }
   .entry-list__body {
     font-size: var(--kb-text-base);

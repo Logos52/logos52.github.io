@@ -12,6 +12,7 @@ import { resolveDomain } from '../../lib/domain';
 import { simplifySlug, slugToUrl } from '../../lib/slug';
 import { DOMAINS, DOMAIN_LABELS, type Domain } from '../../lib/types';
 import { DOMAIN_ICONS } from '../../lib/icons';
+import Icon from '../../components/Icon.astro';
 
 export function getStaticPaths() {
   return DOMAINS.map((d) => ({ params: { domain: d } }));
@@ -36,11 +37,7 @@ const pages = (await getCollection('notes'))
         <header class="head">
           <a class="head__kind" href="/map/" style={`color:var(--d-${domain})`}>Map of Content</a>
           <h1>
-            <i
-              class={`ti ${DOMAIN_ICONS[domain]} head__icon`}
-              style={`color:var(--d-${domain})`}
-              aria-hidden="true"
-            />
+            <Icon name={DOMAIN_ICONS[domain]} size="0.92em" class="head__icon" style={`color:var(--d-${domain})`} />
             {label}
           </h1>
           <p>{pages.length} notes</p>
@@ -115,9 +112,7 @@ const pages = (await getCollection('notes'))
     align-items: center;
     gap: 10px;
   }
-  .head__icon {
-    font-size: 0.92em;
-    line-height: 1;
+  .head h1 :global(.head__icon) {
     flex-shrink: 0;
   }
   .head p {

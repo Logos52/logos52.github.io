@@ -10,6 +10,7 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import DomainChip from '../components/DomainChip.astro';
 import Constellation from '../components/Constellation.astro';
+import Icon from '../components/Icon.astro';
 import { slugifyFilePath, slugToUrl } from '../lib/slug';
 import { DOMAIN_LABELS, type Domain } from '../lib/types';
 import { DOMAIN_ICONS } from '../lib/icons';
@@ -272,7 +273,7 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
         <div class="start-here__doors">
           {startHere.map((d) => (
             <a class="door" style={`--dc:${d.color}`} href={d.href ?? cardHref(d.slug!)}>
-              <span class="door__kind"><i class={`ti ${d.icon}`} /><span class="door__intent">{d.intent}</span></span>
+              <span class="door__kind"><Icon name={d.icon} size="15px" /><span class="door__intent">{d.intent}</span></span>
               <span class="door__title">{d.title}</span>
               <span class="door__sub">{d.sub}</span>
             </a>
@@ -304,7 +305,7 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
               {col.items.map((h) => (
                 <li>
                   <a href={hubHref(h.slug)}>
-                    <i class={`ti ${h.icon} hub-list__icon`} style={`color:${h.color}`} aria-hidden="true"></i>
+                    <Icon name={h.icon} size="16px" class="hub-list__icon" style={`color:${h.color}`} />
                     <span class="hub-list__title">{h.title}</span>
                     <span class="hub-list__count">{hubCount(h)}</span>
                   </a>
@@ -473,7 +474,7 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
     align-items: center;
     gap: 6px;
   }
-  .door__kind .ti {
+  .door__kind :global(.kb-icon) {
     font-size: 12px;
     color: var(--dc);
     opacity: 0.7;
@@ -543,9 +544,7 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
   .hub-list a:hover .hub-list__title {
     color: var(--accent);
   }
-  .hub-list__icon {
-    font-size: 16px;
-    line-height: 1;
+  .hub-list a :global(.hub-list__icon) {
     flex-shrink: 0;
   }
   .hub-list__title {

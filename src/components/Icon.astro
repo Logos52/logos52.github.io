@@ -1,0 +1,67 @@
+---
+/**
+ * Icon.astro — inline Tabler outline SVG (stroke=currentColor).
+ * Avoids webfont loading failures on static hosts; icons always paint.
+ *
+ * Usage: <Icon name="school" /> or <Icon name="ti-school" class="…" style="color:…" />
+ */
+import { readFileSync, existsSync } from 'node:fs';
+import { join } from 'node:path';
+
+interface Props {
+  /** Tabler icon name, with or without `ti-` prefix (e.g. "school" / "ti-school"). */
+  name: string;
+  /** CSS size (default 1em so it tracks surrounding text). */
+  size?: string | number;
+  class?: string;
+  style?: string;
+  /** Accessible label; omit for decorative (aria-hidden). */
+  label?: string;
+}
+
+const { name, size = '1em', class: className = '', style = '', label } = Astro.props;
+const iconName = name.replace(/^ti-/, '');
+const file = join(process.cwd(), 'node_modules/@tabler/icons/icons/outline', `${iconName}.svg`);
+
+let inner = '';
+if (existsSync(file)) {
+  const raw = readFileSync(file, 'utf8');
+  // Keep only the path children; strip the outer <svg> so we control attrs.
+  inner = raw
+    .replace(/<svg[^>]*>/i, '')
+    .replace(/<\/svg>\s*$/i, '')
+    .trim();
+} else {
+  console.warn(`[Icon] missing outline SVG: ${iconName}`);
+}
+
+const dim = typeof size === 'number' ? `${size}px` : size;
+const styleAttr = [`width:${dim}`, `height:${dim}`, 'flex-shrink:0', style].filter(Boolean).join(';');
+---
+
+{
+  inner ? (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class:list={['kb-icon', className]}
+      style={styleAttr}
+      aria-hidden={label ? undefined : 'true'}
+      role={label ? 'img' : undefined}
+      aria-label={label}
+      set:html={inner}
+    />
+  ) : null
+}
+
+<style>
+  .kb-icon {
+    display: inline-block;
+    vertical-align: -0.15em;
+  }
+</style>
