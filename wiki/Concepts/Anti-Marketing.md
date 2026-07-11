@@ -2,7 +2,7 @@
 type: concept
 status: developing
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-07-11
 source-count: 1
 tags:
   - communication
@@ -61,6 +61,7 @@ Being upfront about what the thing is *not* good for, what it requires from the 
 - [[wiki/Concepts/Meiwaku|Meiwaku]] — anti-marketing is a form of meiwaku applied to public presence and communication.
 - [[wiki/Concepts/Good Faith|Good Faith]] — anti-marketing is one of the clearest expressions of good faith in public work.
 - [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]]
+- [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]] — unconditional honesty as the source-level mechanism; strategic vulnerability is the performance tell all three models flag.
 
 ## Sources
 

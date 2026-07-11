@@ -787,3 +787,12 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 - **Home ops nav:** Active Questions + explicit archived Open Questions link.
 - **Journal finance seed:** Finance MOC / Domains finance hub language → Money cluster links only.
 - Not done (by design): status graduation sprint, inbox drain, Decision Making Condensed, homepage Health relabel, Story Craft homepage hub feature, bulk link-report regen.
+
+## [2026-07-11] compile | Status, Vulnerability, and the Three Conversations (three-book synthesis)
+
+- Sources: Will Storr *The Status Game*, Mark Manson *Models*, Charles Duhigg *Supercommunicators* — personal copies at `~/Documents/Library/Books/`, copyrighted, NOT copied into the repo. Deep-read via fan-out (one scout per book, quotes verified against PDF pages) plus a vault-wide overlap check: zero prior mentions of any of the three books or their core frameworks.
+- New page: [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]] — the three models converge on the same prescribed conduct (drop dominance, give status freely, genuine over performed); the escape-vs-play-well dispute survives only as a choice of framing.
+- Naming collision handled in-page: "status game" zero-sum sense (The Energize Test, Naval/Chamath briefs) vs the descriptive Storr sense, reconciled in a boundary section so neither set of notes goes stale.
+- Related-links added (one line each): [[wiki/Concepts/Charisma|Charisma]], [[wiki/Concepts/Anti-Marketing|Anti-Marketing]], [[wiki/Concepts/Good Faith|Good Faith]]. [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] left untouched — it has no Related Pages section; build backlinks cover it.
+- Source rows added: `wiki/Bibliography.md` (three entries) and `raw/Source Index.md` Book Sources (three rows).
+- `notes/index.md` untouched (leaf synthesis, no hub yet); `notes/catalog.md` regenerates on build.

@@ -1,7 +1,7 @@
 ---
 type: source-index
 created: 2026-05-02
-updated: 2026-06-16
+updated: 2026-07-11
 ---
 
 # Source Index
@@ -46,6 +46,9 @@ This index lets `raw/` and `Clippings/` remain dump directories while still givi
 | Eric Jorgenson, *The Book of Elon* | book | compiled | purpose, first principles, engineering, company-building, urgency, civilizational optimism | [[wiki/Books/The Book of Elon|The Book of Elon]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Techniques/Marginal Gains|Marginal Gains]] |
 | TRADOC G-2 / UFMCS, *The Red Team Handbook*, Version 9.0 | handbook | compiled | Red Teaming, assumptions, cultural empathy, critical thinking, groupthink mitigation, decision support | [[wiki/Red Team/Red Teaming|Red Teaming]], [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] |
 | Don Norman, *The Design of Everyday Things*, revised ed. (2013) | book (external, not in repo) | compiled | discoverability, affordances, signifiers, mapping, feedback, conceptual models, constraints, forcing functions, human error, human-centered design | [[wiki/Concepts/Design of Everyday Things\|Design of Everyday Things]], [[wiki/Design/Design, Condensed\|Design, Condensed]], [[wiki/Design/Front-End Web Design\|Front-End Web Design]] |
+| Will Storr, *The Status Game* (2021) | book (external, not in repo) | compiled | status as hidden engine, dominance/virtue/success, prestige vs dominance, humiliation, playing well | [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations\|Status, Vulnerability, and the Three Conversations]] |
+| Mark Manson, *Models* (2011) | book (external, not in repo) | compiled | non-neediness, vulnerability, unconditional honesty, polarization, anti-tactics | [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations\|Status, Vulnerability, and the Three Conversations]] |
+| Charles Duhigg, *Supercommunicators* (2024) | book (external, not in repo) | compiled | three conversations, matching principle, looping, deep questions, group synchrony | [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations\|Status, Vulnerability, and the Three Conversations]] |
 
 ## Clippings Inbox
 

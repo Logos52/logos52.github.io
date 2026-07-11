@@ -2,7 +2,7 @@
 type: reference
 status: seed
 created: 2026-05-02
-updated: 2026-07-07
+updated: 2026-07-11
 tags:
   - reference
 ---
@@ -22,6 +22,9 @@ Add public source references here as the wiki grows.
 - Naval Ravikant and Nivi, "Sell the Truth" (2026-05-12). [[raw/sources/Sell the Truth|Local source]]
 - Gad Saad, *The Parasitic Mind*.
 - Eric Jorgenson, *The Book of Elon: Elon Musk's Most Useful Ideas, in His Own Words*.
+- Will Storr, *The Status Game: On Social Position and How We Use It*. [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]]
+- Mark Manson, *Models: Attract Women Through Honesty*. [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]]
+- Charles Duhigg, *Supercommunicators: How to Unlock the Secret Language of Connection*. [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]]
 - TRADOC G-2 / University of Foreign Military and Cultural Studies, *The Red Team Handbook: The Army's Guide to Making Better Decisions*, Version 9.0. Public release; distribution unlimited.
 - Anthropic, "Building Effective Agents" (2024-12-19). [Web](https://www.anthropic.com/engineering/building-effective-agents)
 - OpenAI, "Agents SDK." [Web](https://developers.openai.com/api/docs/guides/agents)

@@ -2,7 +2,7 @@
 type: concept
 status: developing
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-07-11
 source-count: 1
 tags:
   - social-skills
@@ -46,6 +46,7 @@ The book *How to Win Friends and Influence People* is frequently referenced in t
 - [[wiki/Concepts/Good Faith|Good Faith]] — sustainable charisma is difficult without a foundation of good faith.
 - [[wiki/Concepts/Meiwaku|Meiwaku]] — high-quality charisma minimizes the creation of social friction for others.
 - [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]]
+- [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]] — the status engine and non-neediness mechanics underneath charisma's practice list.
 
 ## Sources
 

@@ -2,7 +2,7 @@
 type: concept
 status: developing
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-07-11
 source-count: 1
 tags:
   - ethics
@@ -47,6 +47,7 @@ It is especially powerful in environments where most actors default to strategic
 - [[wiki/Concepts/Charisma|Charisma]] — high-quality charisma is usually built on a foundation of good faith.
 - [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]]
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking]]
+- [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]] — good faith is the trust substrate the three source models assume.
 
 ## Sources
 
