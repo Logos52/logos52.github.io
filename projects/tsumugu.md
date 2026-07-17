@@ -10,7 +10,7 @@ order: 2
 blurb: "Comprehensible-input generator meets graded reader, hooked into a persistent record of the vocabulary you've learned."
 image: projects/tsumugu.png
 created: 2026-06-03
-updated: 2026-06-11
+updated: 2026-07-17
 tags:
   - projects
 ---
@@ -35,6 +35,8 @@ Phase 8 (voice) in progress as of 2026-06-06: per-sentence voice notes generated
 
 ## Links
 
+- **The map of content — the whole project in one page:** [[wiki/Tsumugu/Tsumugu|Tsumugu]]
+- **The cast — portraits + voice lines:** [/tsumugu/cast-profiles.html](/tsumugu/cast-profiles.html) (each card opens the character's own page) · their moral cores: [[wiki/Story Craft/The Moral Core|The Moral Core]]
 - **Live site — reader · wiki · source:** <https://logos52.github.io/tsumugu/>
 - **Open the reader directly:** <https://logos52.github.io/tsumugu/app/>
 - **The wiki — graded-reader content:** <https://logos52.github.io/tsumugu-wiki/>

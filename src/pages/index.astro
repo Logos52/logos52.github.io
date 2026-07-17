@@ -42,6 +42,14 @@ type Mind = { q: string; links: { t: string; href: string }[] };
 const L = (t: string, p: string) => ({ t, href: slugToUrl(slugifyFilePath(p)) });
 const topOfMind: Mind[] = [
   {
+    q: 'Whether every story that lasts keeps the same loop at its center, where arcs forge a moral core and the moral core is tested by the arcs',
+    links: [
+      L('The Moral Core', 'wiki/Story Craft/The Moral Core'),
+      L('Tsumugu', 'wiki/Tsumugu/Tsumugu'),
+      L('Arc Types', 'wiki/Story Craft/Arc Types'),
+    ],
+  },
+  {
     q: 'Whether the inner life that makes a written character read as a person is something a model can author',
     links: [
       L('The Wound and the Lie', 'wiki/Story Craft/The Wound and the Lie'),
@@ -85,15 +93,10 @@ const topOfMind: Mind[] = [
       L('The Screen Inferiority Effect', 'wiki/Concepts/The Screen Inferiority Effect'),
     ],
   },
-  {
-    q: 'If a generation offloads its thinking to AI, what are the second-order effects?',
-    links: [
-      L('Epistemic Exceptionalism', 'wiki/Red Team/Epistemic Exceptionalism'),
-      L('The Shortcut Problem', 'wiki/Concepts/The Shortcut Problem'),
-      L('The Age of Nonlinear Returns', 'wiki/Concepts/The Age Of Nonlinear Returns'),
-    ],
-  },
 ];
+// Retired from the card 2026-07-17 (Wedge: the list must not grow — lowest entry archived, not deleted):
+//   q: 'If a generation offloads its thinking to AI, what are the second-order effects?'
+//   links: Epistemic Exceptionalism (wiki/Red Team) · The Shortcut Problem (wiki/Concepts) · The Age of Nonlinear Returns (wiki/Concepts)
 
 // Intent doors ("Start here") — route a visitor by intent, not topic. slug → a note path
 // (resolved via cardHref); the graph door uses a direct href. Titles/subs are mined from each
