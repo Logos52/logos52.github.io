@@ -23,7 +23,7 @@ The [[wiki/Story Craft/The Wound and the Lie|Ghost → Lie → Want → Need cha
 
 ## The Tsumugu cast
 
-The series runs eleven cores, one shape each, forged and tested across five books. Portraits and voice lines for all of them: [the cast page](/tsumugu/cast-profiles.html).
+The series runs eleven cores, one shape each, forged and tested across five books. Portraits and voice lines for all of them: [the cast page](https://tsumugu.cc/cast-profiles.html).
 
 | | The core | Forged by | Tested by |
 |---|---|---|---|
