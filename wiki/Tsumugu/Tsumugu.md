@@ -19,19 +19,19 @@ This wing maps the Tsumugu project: an open-source graded-reader engine (Apache-
 
 ## The cast
 
-Portraits, voice lines, and catchphrases: [the cast page](/tsumugu/cast-profiles.html). Each name below opens the character's own page.
+Portraits, voice lines, and catchphrases: [the cast page](https://tsumugu.cc/cast-profiles.html). Each name below opens the character's own page.
 
-- [沈文](/tsumugu/cast/shen-wen.html) — the maker; the American veteran with the hand-built robot companion
-- [阮草](/tsumugu/cast/ruan-cao.html) — the one who chooses her people; from Hanoi, love as a thing you do
-- [星野遙香](/tsumugu/cast/hoshino-haruka.html) — the Osaka super-fan, camera always up
-- [金多恩](/tsumugu/cast/kim-da-eun.html) — the quiet perfect test-taker who sees what's real
-- [白龍](/tsumugu/cast/bai-long.html) — the deadpan watcher on the fourth floor
-- [阿迪](/tsumugu/cast/adi.html) — the warm Jakarta host who answers everything with food
-- [林薇](/tsumugu/cast/lin-wei.html) — the local fixer who knows every shortcut
-- [小圖](/tsumugu/cast/xiao-tu.html) — the palm-sized robot; care, not capability
-- [蘇老師](/tsumugu/cast/teacher-su.html) — the teacher who names people
-- [吳老闆](/tsumugu/cast/boss-wu.html) — the café owner; feeds first, asks nothing
-- [將軍](/tsumugu/cast/general.html) — the café cat; likes almost no one
+- [沈文](https://tsumugu.cc/cast/shen-wen.html) — the maker; the American veteran with the hand-built robot companion
+- [阮草](https://tsumugu.cc/cast/ruan-cao.html) — the one who chooses her people; from Hanoi, love as a thing you do
+- [星野遙香](https://tsumugu.cc/cast/hoshino-haruka.html) — the Osaka super-fan, camera always up
+- [金多恩](https://tsumugu.cc/cast/kim-da-eun.html) — the quiet perfect test-taker who sees what's real
+- [白龍](https://tsumugu.cc/cast/bai-long.html) — the deadpan watcher on the fourth floor
+- [阿迪](https://tsumugu.cc/cast/adi.html) — the warm Jakarta host who answers everything with food
+- [林薇](https://tsumugu.cc/cast/lin-wei.html) — the local fixer who knows every shortcut
+- [小圖](https://tsumugu.cc/cast/xiao-tu.html) — the palm-sized robot; care, not capability
+- [蘇老師](https://tsumugu.cc/cast/teacher-su.html) — the teacher who names people
+- [吳老闆](https://tsumugu.cc/cast/boss-wu.html) — the café owner; feeds first, asks nothing
+- [將軍](https://tsumugu.cc/cast/general.html) — the café cat; likes almost no one
 
 ## The story system
 
