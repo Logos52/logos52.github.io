@@ -11,7 +11,13 @@ tags:
 
 # Writing Standards
 
-**Authority (set 2026-06-11; May standard deleted 2026-06-12).** For wiki pages, **High-Signal Wiki Pages**. For decision documents, **High-Signal Decision Writing**. For domain-compression pages, **Condensed Pages**. For front-facing surfaces and public posts (blog, explainers, essays) on any project, **High-Signal Front-Facing Pages**. These four sections are the complete standard. The earlier May rules are deleted — do not cite them; they live only in git history (bd5adc9).
+**Authority (set 2026-06-11; May standard deleted 2026-06-12).** For wiki pages, **High-Signal Wiki Pages**. For decision documents, **High-Signal Decision Writing**. For domain-compression pages, **Condensed Pages**. For front-facing surfaces and public posts (blog, explainers, essays) on any project, **High-Signal Front-Facing Pages**. For personal pages, **The Personal Register**. These five sections, plus the site-wide **Whole–Part–Whole** law directly below, are the complete standard. The earlier May rules are deleted — do not cite them; they live only in git history (bd5adc9).
+
+## Whole–Part–Whole (site-wide)
+
+Promoted 2026-07-22 from the blog and personal registers to a site-wide law at Wedge's direction: it binds every wiki page, every blog post on every project, and every personal page. **Forward only** — the law governs new pages and substantial rewrites; existing pages are grandfathered as they stand, and no retrofit pass runs (ruled 2026-07-22: a sweep would touch pages Wedge genuinely likes).
+
+Every piece opens in the whole and closes in the whole. The reader is oriented before any part arrives, and the final movement returns to the whole carrying what the parts added — a piece that ends inside a part just stops. Each part connects back to the whole as it enters, and the whole may resurface between parts wherever re-orientation earns its place: the shape is a rhythm, not a template, and WPWPW is as legal as WPW. What the opening whole looks like is each genre's own law — a wiki page's is its thesis (Thesis First stands), a post's and a personal page's is the normalizing run-up with the thesis landing inside it, and a decision document's is the verdict (Verdict First was always whole-first). The close binds wiki pages too: a page returns to its thesis, advanced by what the body established, never ending cold on its last section.
 
 ## High-Signal Decision Writing
 
@@ -107,7 +113,7 @@ This list is canonical for every genre in this file (consolidated 2026-07-02); t
 
 Added 2026-06-11 as the primary bar for wiki pages; the decision-writing disciplines above translate into the concept-page genre. Wedge's directive: ironclad, not advisory.
 
-Not every page needs all eight. Small concept notes need Thesis First, Specifics, and Boundaries. Technique, system, and workflow pages need all eight — they recommend actions, so they owe the reader the full honesty kit. Hub and model pages need Thesis, Case Against, and Checkable Expectations.
+Not every page needs all eight. Small concept notes need Thesis First, Specifics, and Boundaries. Technique, system, and workflow pages need all eight — they recommend actions, so they owe the reader the full honesty kit. Hub and model pages need Thesis, Case Against, and Checkable Expectations. Every page, whatever its subset, carries the site-wide Whole–Part–Whole shape: it opens in its thesis and returns to it, advanced, to close.
 
 ### Thesis First
 
@@ -191,20 +197,63 @@ The decision-writing Delete List applies verbatim, plus importance-announcing in
 
 ## The Personal Register (type: personal)
 
-(Added 2026-07-21 at Wedge's direction, for the personal expansions — fitness mindset, travel, fashion, and future personal notes. Experimental: the voice gets adjusted by use, and Wedge has final cut on every line.)
+Scope: the personal wings — fitness, travel, fashion, and future personal notes. Added 2026-07-21; rebuilt 2026-07-22 after a multi-round calibration. Wedge has final cut on every line, always.
 
-Pages marked `type: personal` are exempt from the High-Signal compression bar. They exist to lay the thought process bare — the reasoning is the content, so working-through may stay on the page (an explicit carve-out from No Scaffolding). The register is plainer and warmer than the wiki bar, with room to breathe; concrete anecdotes welcome. The Delete List still applies.
+A personal page is one of Wedge's own working notes, made readable: his thinking about his own life, in plain words, with room to develop. The genre inherits from the blog register its speaker discipline, its no-performance bans (No Posing, self-referential apparatus, the punchline landing, the reveal), whole–part–whole, and the Delete List — and nothing else: em dashes stay legal here, and the front-facing rules do not apply. Three relaxations distinguish it from every other genre in this file: the material is personal rather than technical; compression is not a goal, and High-Signal density is a defect; and the thought process itself may stay on the page, because the working-through is the content.
 
-**The first-person law.** "I" is rationed — occasional, never dense (a page thick with I's fails on sight). And every "I" must trace: first-person statements carry only Wedge's actual lived experience and stated positions, never AI-generated interiority attributed to him. Analysis that came out of the collaboration stays declarative or takes "we"; a sentence like "I realized…" wrapped around a model's inference is a forged signature and comes out on sight. When in doubt, the fix is the declarative form, not a different pronoun.
+### The speaker is the vault's owner
 
-**The working voice (calibrated 2026-07-21, on the two renderings of the movement-accretion idea — Wedge preferred the chat version over the first page version; the decomposition is the spec):**
+A personal page is a note, not a message: nobody is addressed, no transaction is staged, and the conversation that produced the page is never reenacted on it — a line that was a true speech act in live chat becomes a performance on a standing page. Events, ideas, and artifacts take the subject position. Generic-you for shared experience is legal in doses; a "you" pointed at Wedge never is.
 
-- **Addressed, not expounded.** The preferred rendering was one mind talking to a specific person about that person's problem ("look at what you said…"). The page version deleted the addressee and became a document about a topic; the life went with it. A personal page may keep the address — including with **the collaborator as the explicit, labeled speaker** (a `voice:` line in frontmatter names whose read it is). A signed read also solves the first-person law structurally: the collaborator's I's are its own, Wedge's statements are quoted as his, and no one is ventriloquized.
-- **One derivation, in motion.** Each sentence stands on the last and pushes ("But look at… That's… So the reframe…"). Re-cutting a derivation into essay furniture — setup paragraph, bolded doctrine heading, bullet list, labeled sections — kills the motion even when every sentence survives. Thought-process-laid-bare means the page IS the derivation, not a report about one.
-- **A speaker with a stake.** "Here's my read," "probably," "shapes to chew on rather than a crowned answer" — live judgment with its confidence visible beats performed neutrality ("There's an asymmetry worth taking apart" is a lecture opener). In-line probabilistic honesty is the register, not hedging.
-- **Asides breathe in parentheses,** the way live reasoning actually sounds; don't regularize them into bullets.
-- **Apparatus minimal.** Headers and bullets only where the content is truly a list. The doctrine line lands at the end of a movement, in stride — never bolted on as a section head.
-- What the comparison showed *doesn't* matter: diction. The pointed compressions ("a number that can die," "reward presence, never punish absence") survived both renderings. Preserve address, motion, and stake; polish sentences freely.
+Weak:
+
+```text
+You handed me the interesting problem, so here's my read of your own mechanism.
+```
+
+Strong:
+
+```text
+Streaks and rings both measure maintenance: you defend a number that can die.
+```
+
+### First person, rationed and owned
+
+"I" appears occasionally and only for Wedge's actual experience and positions. An AI inference wearing his "I" is a forged signature; the fix for a wrong "I" is the declarative sentence, not a different pronoun. The ration has a counterweight: when a claim is personal experience, the owning first person is its context and is load-bearing — an evasive agentless sentence is the worse fault.
+
+Weak:
+
+```text
+Working with AI turned out to be one of them — it pulls daily without any tracker.
+```
+
+Strong:
+
+```text
+For me personally, working with AI turned out to be one of them — it pulls daily without any tracker.
+```
+
+### Nothing appears without context
+
+Every element is grounded as it arrives: personal experience is owned in first person, references to elsewhere in the vault arrive as links, and terms are introduced before they do work. Deep reads of Wedge stay invitation-only and build only on what he actually said — no invented claims about him, in any person.
+
+### Plain words, real depth
+
+Light means unpretentious, never thin. Plain vocabulary, no systems-jargon, no academic "published-paper" register — and the idea fully worked through: a page takes the length its thinking needs and lands on something usable. A three-line aphorism fails the same way a paper does.
+
+### Nothing performs
+
+The writing never performs — not scholarship, not essayhood, not conversation; it only does the work. No staged transactions, no announced moves ("there's a clean falsifier, too:"), no minted principles ("the X principle in one line:"), no punchline landings.
+
+### Whole–part–whole
+
+The site-wide law binds here (see §Whole–Part–Whole); its personal-page form: a normalizing on-ramp with the thesis landing inside it, a decelerating off-ramp that returns to the whole advanced by the parts, each part tied to the whole as it enters, and the whole free to resurface between parts — WPWPW as legal as WPW.
+
+### Exemplar
+
+`wiki/Fitness/Movement as Accretion` (the 2026-07-22 revision) is the calibrated exemplar. Further rules mint only from repeated reactions to real pages, each citing its sample.
+
+## Condensed Pages
 
 A third genre (added 2026-06-11, modeled on the private ICS-CONDENSED and OUTLIER-CONDENSED references): one page that compresses an entire domain of the wiki into doctrine. The format, exactly:
 
@@ -333,7 +382,7 @@ Every diagram states its job before its form (Wedge, 2026-07-03: understand the 
 
 Two to four devices per post, chosen for fit and varied across the series so no two neighbors read as the same template; every register rule binds inside every device; density stays positional, so no device opens the post. The paired test: the post reads whole with every device skipped, and the devices alone give a scanner the gist and a fair basis for the read-or-not call.
 
-The post's shape is whole–part–whole (added 2026-07-02; [[wiki/Dimensions/Retrieval/WPW|WPW]] applied to prose, since a post is teaching). The lead is the whole, not the sharpest part: an opening paragraph that orients, stating the plain big picture the worked example lives in, in words a stranger already owns, with the thesis landing inside it. The first sentence is the post's harshest position, and even a dose-legal second-person claim reads as confrontation there ("You can know a character and still be unable to write it" was struck as an opener, 2026-07-02). Open by normalizing the problem, and give the sentence a run-up: a scoping clause before the claim, so the entry glides instead of dropping ("Among people who read Chinese, even fluent native speakers, it's common to know a character well and still be unable to write it"). A one-clause opener stays abrupt even when it normalizes ("It's common to know a character but still be unable to write it" — struck as too short the same day). Short sentences spend their force mid-paragraph; the first sentence wants length. The "you" dose enters once the door is open. Normalizing widens the picture beyond the single reader and softens the drop. This is still not a hook — orientation transfers facts; a hook wants a feeling. Domain detail ramps after the whole; the densest specifics never open the post (the 頓 post's first draft opened on the episode with its pinyin glosses and read as a sharp drop; rewritten same day). Each part connects back to the whole as it enters, and the post returns to the whole to close — the same whole that opened it, advanced by the part (clarified twice, 2026-07-02: a close that landed in a nearby scene was struck, then a close that merely restated the opening was struck as weak): the final paragraph stands back in the opening's big picture carrying what the part contributed — the problem now solvable, the learning goal moved. The 頓 exemplar: the stalls stay common, but a stall is now worth a minute of retrieval practice instead of a dictionary trip, and the rebuilt character is harder to lose. Never a replay of the episode, never a restatement of the intro. Mode switches are marked on the way: when a hypothetical becomes an actual episode, one plain sentence says so ("That is exactly what happened with this one"); an unmarked pivot reads as a non-sequitur. Labels come after mechanisms, per [[wiki/Dimensions/Retrieval/Reverse Explanation|Reverse Explanation]]: the thing is explained first and named last, so the name lands already connected.
+The post's shape is whole–part–whole (added 2026-07-02; promoted to the site-wide law 2026-07-22 — this paragraph is the post-genre form; [[wiki/Dimensions/Retrieval/WPW|WPW]] applied to prose, since a post is teaching). The lead is the whole, not the sharpest part: an opening paragraph that orients, stating the plain big picture the worked example lives in, in words a stranger already owns, with the thesis landing inside it. The first sentence is the post's harshest position, and even a dose-legal second-person claim reads as confrontation there ("You can know a character and still be unable to write it" was struck as an opener, 2026-07-02). Open by normalizing the problem, and give the sentence a run-up: a scoping clause before the claim, so the entry glides instead of dropping ("Among people who read Chinese, even fluent native speakers, it's common to know a character well and still be unable to write it"). A one-clause opener stays abrupt even when it normalizes ("It's common to know a character but still be unable to write it" — struck as too short the same day). Short sentences spend their force mid-paragraph; the first sentence wants length. The "you" dose enters once the door is open. Normalizing widens the picture beyond the single reader and softens the drop. This is still not a hook — orientation transfers facts; a hook wants a feeling. Domain detail ramps after the whole; the densest specifics never open the post (the 頓 post's first draft opened on the episode with its pinyin glosses and read as a sharp drop; rewritten same day). Each part connects back to the whole as it enters, and the post returns to the whole to close — the same whole that opened it, advanced by the part (clarified twice, 2026-07-02: a close that landed in a nearby scene was struck, then a close that merely restated the opening was struck as weak): the final paragraph stands back in the opening's big picture carrying what the part contributed — the problem now solvable, the learning goal moved. The 頓 exemplar: the stalls stay common, but a stall is now worth a minute of retrieval practice instead of a dictionary trip, and the rebuilt character is harder to lose. Never a replay of the episode, never a restatement of the intro. Mode switches are marked on the way: when a hypothetical becomes an actual episode, one plain sentence says so ("That is exactly what happened with this one"); an unmarked pivot reads as a non-sequitur. Labels come after mechanisms, per [[wiki/Dimensions/Retrieval/Reverse Explanation|Reverse Explanation]]: the thing is explained first and named last, so the name lands already connected.
 
 Generation precedes filtration (Wedge, 2026-07-03: "it's a generation problem"). A post is drafted as a continuous explanation to a real person, the way the ideas would be talked through aloud, and the register is applied afterward as a filter. Writing assembled directly from the rules — fragments that each pass every test and connect to nothing — comes out choppy and glueless, and no cohesion pass fully repairs it. The tell that assembly happened: a setup with no payoff ("that stretch has a name," and then no name), ideas fired without connecting tissue, paragraphs that follow the skeleton but do not flow.
 

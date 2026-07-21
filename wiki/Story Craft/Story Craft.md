@@ -30,6 +30,8 @@ This wing is the craft of building a believable ensemble whose members each tran
 - [[wiki/Story Craft/Arc Types|Arc Types]] — Five arc shapes run on one skeleton (Lie, Truth, Want, Need, Ghost, Normal World), and the type is fixed by a single decision at the crux where holding the Lie and holding the Truth become mutually exclusive — which lets a whole cast run different arcs while no one dies.
 - [[wiki/Story Craft/The Change Arc|The Change Arc]] — A positive change arc is an internal argument staged as escalating external cost, ending when the character trades the Want for the Need at the Moment of Truth.
 - [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]] — The low point earns catharsis only when the reader believes the character can no longer become who the story promised they might, discharging through a recognition the reader can name.
+- [[wiki/Story Craft/The Moral Core|The Moral Core]] — A moral core is the short list of laws a character will pay for, in a symbiotic loop with the arcs — the arcs forge the core, the core is tested by the arcs — and a law reads as real only when events price it in and the test aims the bill at exactly what the forge built.
+- [[wiki/Story Craft/The Burnout Arc|The Burnout Arc]] — Burnout is the arc with no villain: the gift fails from the inside under a joy deficit, so the repair must come from inside too, read off a visible gauge, inside a world kind enough to occasion the return without awarding it.
 
 ## Ensemble Architecture
 
@@ -57,7 +59,3 @@ This wing is the craft of building a believable ensemble whose members each tran
 ## Story Under a Vocabulary Ceiling
 
 - [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] — A vocabulary ceiling is a reveal schedule: a full arc stages at 250 characters and deepens book by book, so interiority arrives exactly as fast as the reader earns the language to hold it, and the constraint becomes the instrument.
-
-## Applied
-
-The Tsumugu layer that puts these techniques to work on the companion cast lives at `tsumugu-core/docs/companion/craft/APPLIED.md`.

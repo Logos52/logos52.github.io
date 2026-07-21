@@ -17,29 +17,35 @@ tags:
 
 A moral core is the short list of laws a character will pay for, and it lives in a symbiotic loop with the story's arcs: **the arcs forge the moral core, and the moral core is tested by the arcs.** Every story that lasts keeps this loop at its center. A law that was never forged reads as a costume; a law that is never tested reads as decoration. The audience believes the price, never the speech — McKee's rule that true character is revealed only in choices made under pressure is this loop's test half, and Truby's rule that the moral argument lands as event, never as dialogue, is its gag order.
 
-The forge prices a law into a character through specific events: 阮草's family never said "I love you," they handed over the best piece of fish, so *provision is love* is not an opinion she holds — it is the shape her childhood left. The test then charges the law against what the character loves most: the offered hand she cannot take. A test that charges the law against something the character doesn't care about proves nothing, which is why the strongest test scenes aim the bill at the exact thing the forge built.
+The forge prices a law into a character through specific events: [阮草](/tsumugu/cast/ruan-cao.html) grew up in a Hanoi alley where things simply lived for her, and the adults named the gift on her hands before she could question it, so *everything alive is kept alive by love* is not an opinion she holds — it is the shape her childhood left. The test then charges the law against what the character loves most: the years when tending stops being delight and becomes the thing she owes, and the hand that grips can no longer make anything grow. A test that charges the law against something the character doesn't care about proves nothing, which is why the strongest test scenes aim the bill at the exact thing the forge built.
 
 The [[wiki/Story Craft/The Wound and the Lie|Ghost → Lie → Want → Need chain]] is the forge's raw material: what the broken Lie leaves behind, hardened, is the core. [[wiki/Story Craft/Arc Types|Arc types]] sort by where the forging happens — a change arc forges on the page, and a flat arc walks in pre-forged, so the story spends its whole length on the test while the world arcs around the character.
 
 ## The Tsumugu cast
 
-The series runs eleven cores, one shape each, forged and tested across five books. Portraits and voice lines for all of them: [the cast page](/tsumugu/cast-profiles.html).
+The six who form the class in Book 1, plus the robot one of them built: one core each, forged and tested across five books. Portraits and voice lines: [the cast page](/tsumugu/cast-profiles.html); each name below opens that character's own page.
+
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:0.9rem;margin:1.2rem 0;">
+<a href="/tsumugu/cast/shen-wen.html"><img src="/tsumugu/portraits/locked/shen-wen.jpg" alt="沈文" style="width:100%;border-radius:9px;display:block;" /></a>
+<a href="/tsumugu/cast/ruan-cao.html"><img src="/tsumugu/portraits/locked/ruan-cao.jpg" alt="阮草" style="width:100%;border-radius:9px;display:block;" /></a>
+<a href="/tsumugu/cast/hoshino-haruka.html"><img src="/tsumugu/portraits/locked/hoshino-haruka.jpg" alt="星野遙香" style="width:100%;border-radius:9px;display:block;" /></a>
+<a href="/tsumugu/cast/kim-da-eun.html"><img src="/tsumugu/portraits/locked/kim-da-eun.jpg" alt="金多恩" style="width:100%;border-radius:9px;display:block;" /></a>
+<a href="/tsumugu/cast/adi.html"><img src="/tsumugu/portraits/locked/adi.jpg" alt="阿迪" style="width:100%;border-radius:9px;display:block;" /></a>
+<a href="/tsumugu/cast/bai-long.html"><img src="/tsumugu/portraits/locked/bai-long.jpg" alt="白龍" style="width:100%;border-radius:9px;display:block;" /></a>
+<a href="/tsumugu/cast/xiao-tu.html"><img src="/tsumugu/portraits/locked/xiao-tu.jpg" alt="小圖" style="width:100%;border-radius:9px;display:block;" /></a>
+</div>
 
 | | The core | Forged by | Tested by |
 |---|---|---|---|
-| 沈文 | Presence over provision; the safest hands are our own | A provided-for, unseen childhood; the Army's fast friendships, fast losses | Every offer to trade the hand-built for the convenient (flat — the core holds, the world arcs around it) |
-| 阮草 | Provision is love — carry your people, say nothing | A family that said love with the best piece of fish; the shop lost overnight to a scam | The offered hand — being carried is the one thing the wall never planned for |
-| 星野 | A life is authored, even when it is assigned | A father greyed by the salaryman life; a visa counting down | Whether the brightness can stop performing and put down roots |
-| 金多恩 | Keep what deserves keeping — mend, never counterfeit. 「修東西這種事，快不了。」 | A brother lost to the exam machine; a method built to beat it | Flat through the school years — her convictions wait for the endgame to send the bill |
-| 白龍 | No invisible hand gets to move a family unwatched | Six generations of lighthouse keepers ended by a switch thrown far away | Whether the watcher will transmit — a warning is only love once it is sent |
-| 阿迪 | The old survives by living inside the new | The family batik; money sent home every month | The year everything lands at once, and self-respect has to be remade by hand |
-| 林薇 | Worth is never usefulness — keep people, not fixes | The accident that took her trip and quietly saved her life | Rooms where nothing needs fixing |
-| 小圖 | Care, not capability | Built by hand to hold a family | Whether a made thing's love counts — the question the series never answers |
-| 蘇老師 | It is never too late to begin | A lifetime of giving that filled an empty house | Accepting repayment — the asker of avoided questions gets asked her own |
-| 吳老闆 | What you open with your own hands, you close with your own hands | A widower's café that became the family's living room | Offers to make the walls permanent |
-| 將軍 | (the cat keeps no laws; he issues verdicts) | — | — |
+| [沈文](/tsumugu/cast/shen-wen.html) | Freedom over control, presence over provision — keep the human hand on the wheel, show up in person, and let what you built go free | A childhood of provision without presence: money set down, the person absent | Every offer to trade the hand-built for the convenient, and the loss no bench can fix (flat — the world arcs around him while he holds) |
+| [阮草](/tsumugu/cast/ruan-cao.html) | Everything alive is kept alive by love — tend from love or it dies, and you are a living thing too | A Hanoi childhood where the cool hand was named on her, and growing was pure delight — until the grind curdles the why from love into obligation | Whether love survives becoming a living: a forcing hand cannot fruit a pin, and the woman who tends everything has to be tended |
+| [星野](/tsumugu/cast/hoshino-haruka.html) | A life is authored, even when it is assigned — you never pick the path, only how you live it. 「這次我自己決定怎麼過。」 | A house where the loved daughter was the un-burdensome one; a father greying into the assigned life | An offer to help build another version of the life she fled, billed to a woman whose escape plans were never once begun |
+| [金多恩](/tsumugu/cast/kim-da-eun.html) | Keep what deserves keeping and shed what shackles — mend honestly, never counterfeit. 「修東西這種事，快不了。」 | A brother dead of study and overwork, and the rebellion that rebuilt a bad student into the method that beats the machine — all of it before page one | Being right at a price her own people pay: the one conviction the story has to break before it can hold anything again |
+| [阿迪](/tsumugu/cast/adi.html) | The old survives by living inside the new — and no one is left outside the table | The family batik and money owed home every month; then the year everything lands at once and the circle breaks | The one binary that will not dissolve — where the fuser has to name what must never be fused |
+| [白龍](/tsumugu/cast/bai-long.html) | No invisible hand gets to move a family unwatched, and whoever sees the drift is obliged to speak | Two far-away hands: an automation decision that ended six generations of keeping, then the drift that split the family — and a boy who saw it coming and wasn't heard | Whether the receiver ever keys the mic — the one forecast that is life-and-death, and whether the room listens |
+| [小圖](/tsumugu/cast/xiao-tu.html) | Care, not capability — the care is the self; the capability is copyable. 「大家都在」 | No designed purpose: a running experiment built out of a too-quiet house, named by a teacher and cared into personhood | Whether the forged self survives the forge being replaced — the capability copies, the accumulated care does not |
 
-The production dashboard behind this table — full per-character cards, verbatim creed lines, and the forge→test map — lives at `tsumugu-core/docs/companion/MORAL-CORE.md`.
+The supporting cast — [林薇](/tsumugu/cast/lin-wei.html), [蘇老師](/tsumugu/cast/teacher-su.html), [吳老闆](/tsumugu/cast/boss-wu.html), [將軍](/tsumugu/cast/general.html) — runs its own cores and gets its own pass.
 
 ## What's your moral core?
 
@@ -53,19 +59,19 @@ The same questions the craft asks of a character work on a person, and they are 
 
 Most people, and most well-built characters, run one primary shape with a secondary underneath. The names are diagnostic labels for reading a core, never instructions for writing one — write the choice under pressure first, name the shape after.
 
-**The Steadfast** holds a line that does not move: integrity as the load-bearing law. The native test offers the mission at the price of the line — everything you're fighting for, in exchange for the one thing you won't do. (Captain America, Ned Stark, 沈文.)
+**The Steadfast** holds a line that does not move: integrity as the load-bearing law. The native test offers the mission at the price of the line — everything you're fighting for, in exchange for the one thing you won't do. (Captain America, Ned Stark, [沈文](/tsumugu/cast/shen-wen.html).)
 
 **The Idealist** holds a belief about what people can be, against evidence. The native test is the invitation to give up on someone — usually delivered by that someone. (Luke Skywalker.)
 
 **The Oathkeeper** binds the self to a vow, a person, or an order, and the vow outranks the weather. The native test collides two oaths so that keeping one breaks the other. (Jon Snow, Brienne of Tarth, Ser Duncan.)
 
-**The Steward** holds power on behalf of someone else's future and wants none of it. The native test is letting the student walk into the fire the steward could forbid. (Obi-Wan Kenobi, Yoda, Maximus, 蘇老師.)
+**The Steward** holds power on behalf of someone else's future and wants none of it. The native test is letting the student walk into the fire the steward could forbid. (Obi-Wan Kenobi, Yoda, Maximus, [蘇老師](/tsumugu/cast/teacher-su.html).)
 
-**The Provider** loves by carrying: work, money, food, the best piece slid across without a word. The native test reverses the current — being carried, which the shape reads as failure. (阮草.)
+**The Tender** keeps living things alive and counts that as love: the plant, the culture in the jar, the person fed the thing they needed. The native test curdles the why — the day tending becomes an obligation owed rather than a delight given, the hand grips, and nothing grows for it any more. ([阮草](/tsumugu/cast/ruan-cao.html).)
 
-**The Maker** takes responsibility for what the hands made, forever. The native test offers to take the making off those hands: scale, delegation, the machine that does it better. (Iron Man, 阿迪, 沈文's second axis.)
+**The Maker** takes responsibility for what the hands made, forever. The native test offers to take the making off those hands: scale, delegation, the machine that does it better. (Iron Man, [阿迪](/tsumugu/cast/adi.html), [沈文](/tsumugu/cast/shen-wen.html)'s second axis.)
 
-**The Redeemer** forges a core late, against the record. The native test is the old life offering itself back at a discount. (Jaime Lannister.)
+**The Redeemer** forges a core late, against the record. The native test is the old life offering itself back at a discount. (Jaime Lannister, Loki.)
 
 **The Hidden Law** wears cynicism over one unbreakable rule and would rather be thought lawless than caught keeping it. The native test is the day the mask costs more than the law. (Tyrion Lannister, Han Solo.)
 
@@ -109,13 +115,13 @@ The loop is amoral machinery. The forge prices a law in whether or not the law i
 
 **Admiral Thrawn.** The law: the galaxy must be strong enough to meet what waits in the dark beyond it. Forged by the Chiss Ascendancy's doctrine — preemptive war forbidden, the border held against the Grysk (the Far Outsiders of the older canon) — and by an exile he staged himself to get inside the one power large enough to matter. The Empire is an instrument, never an allegiance: he serves it while it can be aimed, and in Legends builds his own where Palpatine's won't reach — the Empire of the Hand. His verdict on the Rebellion follows from the core: a galaxy run by committee cannot hold the line, so order outranks liberty, because the invaders will honor neither. The test is what competent service enables — Batonn's civilian dead ride on his promotion — and the price runs continuously: to keep his own hierarchy he spends his honor on somebody else's evil, and reads as the villain from every side but his own.
 
-**Tywin Lannister.** The outcome the hero list can't show: the test failed. The forge is real and self-administered — Tytos laughed at in his own hall, the lion mocked by his own bannermen, Castamere written as the answer. The law is real: the house outlives the individual, and every member is an instrument of its survival. The test arrives as his children — the exact thing the law claims to serve — and he can't pay it: Tyrion, the son most like him, is the one Lannister he refuses to count. The crossbow on the privy is the law's own verdict, collected by the instrument he wouldn't price, and the failed test is the diagnosis: what held Casterly Rock was pride wearing duty's clothes. He is also the dark terminus of 阮草's shape — provision with the love amputated — and the argument 沈文's core exists to answer.
+**Tywin Lannister.** The outcome the hero list can't show: the test failed. The forge is real and self-administered — Tytos laughed at in his own hall, the lion mocked by his own bannermen, Castamere written as the answer. The law is real: the house outlives the individual, and every member is an instrument of its survival. The test arrives as his children — the exact thing the law claims to serve — and he can't pay it: Tyrion, the son most like him, is the one Lannister he refuses to count. The crossbow on the privy is the law's own verdict, collected by the instrument he wouldn't price, and the failed test is the diagnosis: what held Casterly Rock was pride wearing duty's clothes. He is also the dark terminus of [阮草](/tsumugu/cast/ruan-cao.html)'s shape — provision with the love amputated — and the argument [沈文](/tsumugu/cast/shen-wen.html)'s core exists to answer.
 
 **Count Dooku.** The correct diagnosis sold to the wrong instrument. The forge: a count's son handed to the Order in infancy and written off by his own house (*Dooku: Jedi Lost*), then decades in the Order's front rank — Council seats offered and refused — watching the Senate rot while the Order rescued individuals and left the machinery that broke them standing. The diagnosis is accurate twice over: the Republic can't see its own destruction coming, and the Jedi can't see their drift because the code itself is the blindfold — obedience to the Senate makes the Order its police, then its generals. Qui-Gon dead at Naboo serving that blindness gives him the standing to walk: one of only twenty masters ever to leave, the newest bust in the Archive. In the Geonosis cell he tells Obi-Wan the truest sentence in the prequels — the Republic is in the grip of a Sith Lord — and it lands as a villain's lie, because the teller kneels to that same Sith; Thrawn owns his hierarchy and aims the dark instrument, Dooku hands his over and becomes one. Legends stages the test he fails on the page (*Yoda: Dark Rendezvous*): the trap he sets for Yoda turns into a genuine offer to come home, and he wavers before refusing. The bill arrives on the *Invisible Hand* — hands gone, two blades crossed at his throat, and the order "kill him" teaching him in his last second that his death was priced into the plan he thought he owned.
 
 ## The case against
 
-The core is a diagnostic, and it fails in known ways. A core stated aloud is a soapbox — the law lands as event or it doesn't land, so a scene where a character explains their values is the forge skipping its own work; the one exception is the receipt, a speech whose every line was already paid for on-screen (Luthen's monologue). A core that never pays is decoration; virtue without a bill is the flattest thing on a page. A whole cast of granite is a sermon — the Tsumugu registry enforces one shape per lead for this reason, and supporting characters can run on wants alone. And the archetype names invite laziness: cast a "Steadfast" instead of forging one and the result is a lecture in a costume.
+The core is a diagnostic, and it fails in known ways. A core stated aloud is a soapbox — the law lands as event or it doesn't land, so a scene where a character explains their values is the forge skipping its own work; the one exception is the receipt, a speech whose every line was already paid for on-screen (Luthen's monologue). A core that never pays is decoration; virtue without a bill is the flattest thing on a page. A whole cast of granite is a sermon — discipline enforces one shape per lead, and supporting characters can run on wants alone. And the archetype names invite laziness: cast a "Steadfast" instead of forging one and the result is a lecture in a costume.
 
 ## Related
 

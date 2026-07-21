@@ -95,7 +95,7 @@ tags:
 
 **Deepen before you add vs. err toward the awesome.** Expand and cross-link the same few locations by default, and bend that rule only when a compelling beat needs the one new element. [[wiki/Story Craft/The Iceberg and World as Pressure|The Iceberg and World as Pressure]]
 
-**Front-load for the median reader vs. serve the finisher.** Land the cores at the end of Book 3 where most readers leave, accepting that the deepest late capstones are read by the fewest. [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]]
+**Front-load for the median reader vs. serve the finisher.** Land the deepest capstones late in the run, after most readers have already left, accepting that they reach the fewest. [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]]
 
 **Small wins are big vs. the tidy victory.** Resolve at a changed value the reader can name, easing a burden without erasing it, because over-resolution refunds the weight the cost bought. [[wiki/Story Craft/Stakes Without Mortality|Stakes Without Mortality]]
 

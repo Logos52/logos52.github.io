@@ -17,7 +17,7 @@ tags:
 
 ## What it is
 
-![The YouTube reader: a Mandarin Corner video with AB-loop scrubber, synced to the zh-Hant text column with per-sentence audio.](tsumugu.png)
+![The cast page: spoiler-free profiles with locked portraits, one catchphrase and three voice moods per character; each card opens the character's own wiki page.](tsumugu.png)
 
 Comprehensible-input generator meets graded reader, hooked into a persistent record of the vocabulary you've learned. Tsumugu takes the premise of Karpathy's LLM-wiki and extends it into an auto-generating reader — hover-over definitions, custom encoding pages, and in-language definitions and summaries. Each text is generated to land in the comprehensible-input range (80–95% known words), so the wiki evolves naturally to match your level as your vocabulary grows. Wikis are meant to grow vertically (deeper text) with added vocabulary, but horizontally (more pages) depending on your consumption habits — TV shows, YouTube videos, etc.
 

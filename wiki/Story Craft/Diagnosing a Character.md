@@ -3,7 +3,7 @@ title: "Diagnosing a Character"
 type: technique
 status: developing
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-20
 tags:
   - character
   - diagnosis
@@ -37,26 +37,26 @@ Two of these are cross-cast checks, not local ones: arc-type duplication (6) is 
 
 **Thin** wants deepening; **absent** wants building. An arc-type mark that reads "strong, but a duplicate" is the trap case: the individual character is fine and the *cast* is monotonous, so the fix is a re-cast elsewhere, not more texture here. A cluster of thins around checks 4, 7, and 11 (contradiction, object, backstory) is a texture problem, cheap to fix with a few telling details. An absent on check 3 (want equals need) or check 6 (no distinct arc) is a structural problem that rewrites the arc.
 
-## Worked example — 星野遙香
+## Worked example — [星野遙香](/tsumugu/cast/hoshino-haruka.html)
 
 Running the checklist on the Tsumugu super-fan, whose author felt her "missing something I can't place":
 
 | Check | Mark | Evidence |
 |---|---|---|
-| Wound / Ghost | thin | The dreaded Osaka OL future is present; *why* it is assigned (the family, the specific pressure) is unwritten. |
+| Wound / Ghost | present | The dreaded Osaka OL future, and why it's assigned: the un-burdensome-daughter household — be the fun one, stay safe and loved. |
 | Lie | present | "The assigned life can be outrun." |
-| Want vs Need | present | Want: escape (visa hacks, another year). Need: author how she meets the path. |
+| Want vs Need | present | Want: escape (visa hacks, another year). Need: to be known and rooted. |
 | Defining contradiction | thin | Bright-over-dread is real but carried by one beat (the camera). |
-| Distinct voice | present | Bright, quick, genki, Kansai; idiolect specifics unwritten. |
+| Distinct voice | present | Bright, quick, genki, Kansai; the idiolect now written — the 欸／超／真的假的 tilt, narrating her day like a vlog, dropping flat the instant she's truly seen. |
 | Arc type (duplication) | **strong** | Disillusionment — the cast's only clean non-positive arc. Her one clear strength. |
 | Signature object | present | The camera that hoards proof of a freedom she fears losing. |
-| Plant → payoff | thin | B2L14 seed → B3L08 crack, but the summons-home trigger is marked "optional/TBD." |
-| Home lesson | thin | B3L08 shares her mask-crack with 阿迪's failure and 金多恩's art crisis. |
-| Web edges | **absent-ish** | Only 星野↔林薇 is built; the 阿迪 ship is thematic, never staged. |
+| Plant → payoff | thin | A planted seed pays off later, but the triggering beat is still marked optional/TBD. |
+| Home lesson | thin | Her pivotal beat shares its scene with two other leads' crises instead of owning one. |
+| Web edges | **absent-ish** | Only one edge, [星野](/tsumugu/cast/hoshino-haruka.html)↔[林薇](/tsumugu/cast/lin-wei.html), was built; the only other candidate pairing was later dropped. |
 | Submerged backstory | absent | The "missing context" the author senses. |
 | Second defining challenge | **absent** | Every other lead has two axes; she has one. |
 
-The pattern the marks expose: her *arc* is the strongest in the cast, and everything *around* the arc is thin or absent. The felt thinness is not the arc failing; it is a single strong arc standing alone with no second axis, no built relationships, and no submerged mass under it. That is a diagnosis the author could not reach by rereading her scenes, because nothing is wrong inside them.
+The pattern the marks expose: her *arc* is the strongest in the cast, and everything *around* the arc is thin or absent. The felt thinness is not the arc failing; it is a single strong arc standing alone with no second axis, no built relationships, and no submerged mass under it. That is a diagnosis the author could not reach by rereading her scenes, because nothing is wrong inside them. Both structural gaps closed in the authoring pass that followed: the arc gained a second axis, and the pairing web gained several new edges.
 
 ## The handoff prompt
 
@@ -74,12 +74,10 @@ PRODUCE (ranked options, I decide): (1) the eleven-check diagnosis with evidence
   (2) 3-4 candidate additions on axes not yet occupied, each with its risk and its
   one seeding plant; (3) 6-10 shown-not-told texture beats, vocab-legal at their book;
   (4) 3-4 designed cast interactions that reveal both parties; (5) the submerged
-  backstory, written even though most never ships; (6) a revised spine.
+  backstory, written even though most never ships; (6) a revised character outline.
 CONSTRAINTS: <canon locks, the vocabulary ceiling, the writing standard>.
 Everything invented is a labeled proposal to approve, never a decision.
 ```
-
-A worked instance is at `tsumugu-core/docs/companion/craft/HANDOFF-xingye-diagnosis.md`.
 
 ## The case against
 

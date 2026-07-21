@@ -3,7 +3,7 @@ title: "Tsumugu"
 type: moc
 status: developing
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-20
 tags:
   - tsumugu
   - moc
@@ -19,19 +19,27 @@ This wing maps the Tsumugu project: an open-source graded-reader engine (Apache-
 
 ## The cast
 
-Portraits, voice lines, and catchphrases: [the cast page](/tsumugu/cast-profiles.html). Each name below opens the character's own page.
+The six who form the class in Book 1, and the robot who goes everywhere with them. Portraits, voice lines, and catchphrases: [the cast page](/tsumugu/cast-profiles.html). Each portrait and name opens that character's own page.
 
-- [沈文](/tsumugu/cast/shen-wen.html) — the maker; the American veteran with the hand-built robot companion
-- [阮草](/tsumugu/cast/ruan-cao.html) — the one who chooses her people; from Hanoi, love as a thing you do
-- [星野遙香](/tsumugu/cast/hoshino-haruka.html) — the Osaka super-fan, camera always up
-- [金多恩](/tsumugu/cast/kim-da-eun.html) — the quiet perfect test-taker who sees what's real
-- [白龍](/tsumugu/cast/bai-long.html) — the deadpan watcher on the fourth floor
-- [阿迪](/tsumugu/cast/adi.html) — the warm Jakarta host who answers everything with food
-- [林薇](/tsumugu/cast/lin-wei.html) — the local fixer who knows every shortcut
-- [小圖](/tsumugu/cast/xiao-tu.html) — the palm-sized robot; care, not capability
-- [蘇老師](/tsumugu/cast/teacher-su.html) — the teacher who names people
-- [吳老闆](/tsumugu/cast/boss-wu.html) — the café owner; feeds first, asks nothing
-- [將軍](/tsumugu/cast/general.html) — the café cat; likes almost no one
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:1.1rem;margin:1.2rem 0;">
+<a href="/tsumugu/cast/shen-wen.html" style="text-decoration:none;"><img src="/tsumugu/portraits/locked/shen-wen.jpg" alt="沈文 Shěn Wén" style="width:100%;border-radius:10px;display:block;" /><strong>沈文</strong> — the builder</a>
+<a href="/tsumugu/cast/ruan-cao.html" style="text-decoration:none;"><img src="/tsumugu/portraits/locked/ruan-cao.jpg" alt="阮草 Ruǎn Cǎo" style="width:100%;border-radius:10px;display:block;" /><strong>阮草</strong> — the Tender</a>
+<a href="/tsumugu/cast/hoshino-haruka.html" style="text-decoration:none;"><img src="/tsumugu/portraits/locked/hoshino-haruka.jpg" alt="星野遙香 Xīngyě Yáoxiāng" style="width:100%;border-radius:10px;display:block;" /><strong>星野遙香</strong> — the super-fan</a>
+<a href="/tsumugu/cast/kim-da-eun.html" style="text-decoration:none;"><img src="/tsumugu/portraits/locked/kim-da-eun.jpg" alt="金多恩 Jīn Duō'ēn" style="width:100%;border-radius:10px;display:block;" /><strong>金多恩</strong> — the conservator</a>
+<a href="/tsumugu/cast/adi.html" style="text-decoration:none;"><img src="/tsumugu/portraits/locked/adi.jpg" alt="阿迪 Ā Dí" style="width:100%;border-radius:10px;display:block;" /><strong>阿迪</strong> — the maker</a>
+<a href="/tsumugu/cast/bai-long.html" style="text-decoration:none;"><img src="/tsumugu/portraits/locked/bai-long.jpg" alt="白龍 Bái Lóng" style="width:100%;border-radius:10px;display:block;" /><strong>白龍</strong> — the deadpan far-seer</a>
+<a href="/tsumugu/cast/xiao-tu.html" style="text-decoration:none;"><img src="/tsumugu/portraits/locked/xiao-tu.jpg" alt="小圖 Xiǎo Tú" style="width:100%;border-radius:10px;display:block;" /><strong>小圖</strong> — the companion</a>
+</div>
+
+- [沈文](/tsumugu/cast/shen-wen.html) — the builder taken for a local until he speaks; [小圖](/tsumugu/cast/xiao-tu.html) rides in his bag
+- [阮草](/tsumugu/cast/ruan-cao.html) — from Hanoi, the cool hand: grows impossible mushrooms, feeds you the one you need
+- [星野遙香](/tsumugu/cast/hoshino-haruka.html) — the Osaka super-fan who lifts the room; camera always up, stinky tofu first
+- [金多恩](/tsumugu/cast/kim-da-eun.html) — perfect scores she never checks, four-character verdicts, broken things quietly mended
+- [阿迪](/tsumugu/cast/adi.html) — the Jakarta maker who ends arguments with food and plays claw machines to win
+- [白龍](/tsumugu/cast/bai-long.html) — bone-dry Englishman, cavernous bass, binoculars round his neck, the café cat asleep on him
+- [小圖](/tsumugu/cast/xiao-tu.html) — [沈文](/tsumugu/cast/shen-wen.html)'s hand-built keychain-sized robot; silent on the desk, then dreamy four-syllable bursts
+
+The supporting cast — [林薇](/tsumugu/cast/lin-wei.html) the local fixer, [蘇老師](/tsumugu/cast/teacher-su.html) the name-giver, [吳老闆](/tsumugu/cast/boss-wu.html) the host, and [將軍](/tsumugu/cast/general.html) the café cat — arrives on its own pass.
 
 ## The story system
 
