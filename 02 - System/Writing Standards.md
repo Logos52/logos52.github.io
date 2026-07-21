@@ -181,11 +181,30 @@ Spacing should show up as easier re-entry within two sessions: the second retrie
 
 The page never talks about itself. Convention explainers ("every line below links to…"), navigation chatter ("see the sections below"), format announcements, and source commentary are scaffolding — the reader discovers visible conventions by looking at them. If a convention is genuinely opaque, that is a design problem in the convention, not a case for a decoder note.
 
+### No Unpublished-Story Internals
+
+(Wedge, 2026-07-20, struck on Companion Arcs and Party Banter: "阿迪's family fracture at B3L08 recovering at B4L07, 星野's mask cracking at B3L08, 林薇's injury and deferred trip in B3.") The wiki is read by strangers, and an unpublished story makes every reader a stranger to it. Wiki pages never cite production coordinates — book/lesson codes (B3L08), beat ledgers, spine/registry/dashboard names, or pointers into the production repo — and never lean on unpublished-story plot mechanics as worked examples. A craft page's exemplars come from published fiction; the page must read whole for someone who has never heard of the private story and never will until it ships. The project's own material lives on its dedicated surfaces (the project map, the cast pages, the cast table on The Moral Core) at value level only: who a character is and what they hold, never where a beat lands. The test: if a sentence would only earn its place after the story is published, it doesn't ship before.
+
 ### Delete List
 
 The decision-writing Delete List applies verbatim, plus importance-announcing in all forms. That list is canonical; this section cites it rather than copying it.
 
-## Condensed Pages
+## The Personal Register (type: personal)
+
+(Added 2026-07-21 at Wedge's direction, for the personal expansions — fitness mindset, travel, fashion, and future personal notes. Experimental: the voice gets adjusted by use, and Wedge has final cut on every line.)
+
+Pages marked `type: personal` are exempt from the High-Signal compression bar. They exist to lay the thought process bare — the reasoning is the content, so working-through may stay on the page (an explicit carve-out from No Scaffolding). The register is plainer and warmer than the wiki bar, with room to breathe; concrete anecdotes welcome. The Delete List still applies.
+
+**The first-person law.** "I" is rationed — occasional, never dense (a page thick with I's fails on sight). And every "I" must trace: first-person statements carry only Wedge's actual lived experience and stated positions, never AI-generated interiority attributed to him. Analysis that came out of the collaboration stays declarative or takes "we"; a sentence like "I realized…" wrapped around a model's inference is a forged signature and comes out on sight. When in doubt, the fix is the declarative form, not a different pronoun.
+
+**The working voice (calibrated 2026-07-21, on the two renderings of the movement-accretion idea — Wedge preferred the chat version over the first page version; the decomposition is the spec):**
+
+- **Addressed, not expounded.** The preferred rendering was one mind talking to a specific person about that person's problem ("look at what you said…"). The page version deleted the addressee and became a document about a topic; the life went with it. A personal page may keep the address — including with **the collaborator as the explicit, labeled speaker** (a `voice:` line in frontmatter names whose read it is). A signed read also solves the first-person law structurally: the collaborator's I's are its own, Wedge's statements are quoted as his, and no one is ventriloquized.
+- **One derivation, in motion.** Each sentence stands on the last and pushes ("But look at… That's… So the reframe…"). Re-cutting a derivation into essay furniture — setup paragraph, bolded doctrine heading, bullet list, labeled sections — kills the motion even when every sentence survives. Thought-process-laid-bare means the page IS the derivation, not a report about one.
+- **A speaker with a stake.** "Here's my read," "probably," "shapes to chew on rather than a crowned answer" — live judgment with its confidence visible beats performed neutrality ("There's an asymmetry worth taking apart" is a lecture opener). In-line probabilistic honesty is the register, not hedging.
+- **Asides breathe in parentheses,** the way live reasoning actually sounds; don't regularize them into bullets.
+- **Apparatus minimal.** Headers and bullets only where the content is truly a list. The doctrine line lands at the end of a movement, in stride — never bolted on as a section head.
+- What the comparison showed *doesn't* matter: diction. The pointed compressions ("a number that can die," "reward presence, never punish absence") survived both renderings. Preserve address, motion, and stake; polish sentences freely.
 
 A third genre (added 2026-06-11, modeled on the private ICS-CONDENSED and OUTLIER-CONDENSED references): one page that compresses an entire domain of the wiki into doctrine. The format, exactly:
 
@@ -243,6 +262,14 @@ The writing never plants a wrong idea in order to correct it, and never casts th
 ### Say Nothing the Screen Shows
 
 No navigation chatter, no device commentary, no narrating visible features (§0.6 moves 5–6; the No Scaffolding rule applied to chrome). The map, the search box, and the layout introduce themselves.
+
+### The Thing, Not Talk About the Thing
+
+Standing rule (named 2026-07-21 on the cast hub strike; already implied by Say Nothing the Screen Shows and The Page Never Grades Itself). Front-facing pages present the artifact. They never explain how to use themselves, what they contain, what they omit, how finished they are, or what the reader is looking at, when the content already shows it.
+
+If the page has portraits, catchphrases, and voice players, the page does not say "one catchphrase + three voice moods" or "click a portrait." If the blurbs are surface-only, the page does not announce "spoiler-free" or "no arcs, no backstory." Folder paths, mood inventories, and authoring status belong in repo docs, never on the public surface.
+
+Struck exemplar — `cast-profiles.html` (2026-07-21): hub sub-line, green banner restating the same meta twice, footer listing `portraits/locked/` and mood counts; per-profile footers that restated "day-one surface only." The page kept the title and the cast.
 
 ### True Against the System
 
