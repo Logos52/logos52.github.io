@@ -24,6 +24,7 @@ This wing is the craft of building a believable ensemble whose members each tran
 - [[wiki/Story Craft/Round Characters and the Telling Detail|Round Characters and the Telling Detail]] — A character reads as a person when one interior contradiction governs an observable choice under pressure, nameable from what the character does before anyone states it.
 - [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] — Inner life relocates into the changing state of a concrete object and a watchable gesture, because at the bottom of the ramp the words for feelings do not exist yet and the scene still has to land.
 - [[wiki/Story Craft/Character Voice|Character Voice]] — A reader assigns each line to its speaker before the tag when every character meets the same pressure in a different default register — the audible print of the wound driving them, and the one interiority tool that survives a hard vocabulary ceiling.
+- [[wiki/Story Craft/The Blueprint Entrance|The Blueprint Entrance]] — An entrance earns its place when it works as a blueprint rather than a moment: a compressed template of the character's whole way of being, staged as the reversal they live inside, so every later scene reads as a variation of the first.
 
 ## Arcs — Into the Dark and Out
 
