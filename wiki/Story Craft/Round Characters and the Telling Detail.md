@@ -65,3 +65,4 @@ The promised effects are falsifiable. A reader re-reading earlier chapters after
 - [[wiki/Story Craft/Character Voice|Character Voice]] — idiolect and the unsaid, the audible fingerprint of the same interior.
 - [[wiki/Story Craft/The Character Web|The Character Web]] — how the flat/round budget is allocated across an ensemble by contrast on one shared question.
 - [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] — the plant→spark→payoff engine that makes a surprise read as inevitable.
+- [[wiki/Story Craft/The Blueprint Entrance|The Blueprint Entrance]] — the same contradiction compressed into a first appearance, staged as a reversal the reader watches open.
