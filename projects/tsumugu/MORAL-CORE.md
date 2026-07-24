@@ -138,18 +138,18 @@ How it maps onto our structure:
 
 ---
 
-## 阿迪 — the odds-man binder (feeder → fuser)
+## 阿迪 — the ~~odds-man~~ binder (feeder → fuser) **[⚑ ODDS-MAN RETIRED — Wedge 2026-07-20/21, total; replacement = "the fashionable one"]**
 
-**Archetype:** the warm Jakarta maker — feeder/host-by-meal and secret ODDS-MAN; the man who dissolves every binary meets the one that won't dissolve.
+**Archetype:** the warm Jakarta maker — feeder/host-by-meal ~~and secret ODDS-MAN~~; the man who dissolves every binary meets the one that won't dissolve.
 
 **Moral core:**
 1. **FUSION — the old survives by living inside the new.** 「這是……我的？」「舊的，做成新的。」 Origin: the family batik; the father's one-of-one shirt remade. *(written; §2 formally ⬜; affirmed as his B5 value W45)*
-2. **Remittance / DUTY** — the hustle is money home; the chill is a strategy, never a temperament. 「是錢欸。當然拿啊。」 *(🔒 part of THE ODDS-MAN ruling 2026-07-16; guard: duty, NEVER 阮草's chosen-devotion lane)*
+2. **Remittance / DUTY** — the hustle is money home; the chill is a strategy, never a temperament. 「是錢欸。當然拿啊。」 *(originally 🔒 inside the 2026-07-16 odds-man ruling — that ruling is ⚑ REVERSED 07-20; the remittance/duty value itself survives on its own; guard: duty, NEVER 阮草's chosen-devotion lane)*
 3. **The circle held whole** — no one outside the table; sit, eat, we're family. *(essence; the arc that matures it ✳️)*
 
 **Forge → test:** the B3L08 fall forges it — everything at once crushes a decent student, and the binder breaks the circle he lives for; the B4L07 recovery finishes the forge (the level stays lost; respect clawed back FROM HIMSELF; the old alive inside the new, in his own hands). B5 tests both halves: the circle-value against the one binary that won't dissolve (he signs last, for the raft), and fusion against the fallback shim's terrible price — his own warm good faith becomes the war's cruelest device.
 
-**B1–4 (shape 🔒, staging ✳️):** growth — feeder → fuser. Drive: the BINDER; what transforms is HOW. Start: binds through the shared now (the meal, the game) — the bond lives only while everyone is in the room. The fall = B3L08 🔒 (the MTC rule of 6); the six scatter still wearing his shirts. Recovery B4L07: **the level STAYS LOST** — he remakes the father's shirt; 金多恩 gives him nothing — one look (the withheld comfort IS the gift, R-D55). End: binds through made things that outlast the room. Skill: batik/making + THE ODDS-MAN 🔒 (prices everything at a glance; a demon inside anything with points; the doomed 金多恩 rivalry never scores a win; the instant switch back to chill IS the gag).
+**B1–4 (shape 🔒, staging ✳️):** growth — feeder → fuser. Drive: the BINDER; what transforms is HOW. Start: binds through the shared now (the meal, the game) — the bond lives only while everyone is in the room. The fall = B3L08 🔒 (the MTC rule of 6); the six scatter still wearing his shirts. Recovery B4L07: **the level STAYS LOST** — he remakes the father's shirt; 金多恩 gives him nothing — one look (the withheld comfort IS the gift, R-D55). End: binds through made things that outlast the room. Skill: batik/making ~~+ THE ODDS-MAN 🔒 (prices everything at a glance; a demon inside anything with points; the doomed 金多恩 rivalry never scores a win; the instant switch back to chill IS the gag)~~ **[⚑ retired 07-20; 金多恩 game-rivalry survives pending confirm, betting frame dead]**.
 
 **B5:** empire side; the least-decided man signs LAST — the raft (the company is the one thing keeping all six together). Lead mechanism (W58, the fallback shim): openly, warmly, in good faith he routes 小圖's stall-fallback through his employer's legacy endpoint — the device of the L09 gut-punch, and never a villain. 「我講不了他那邊。……因為我怕講著講著，發現他是對的。」 L10 at the curb he hands the rescue back: 「公司不是妳。」
 
@@ -277,7 +277,7 @@ The symbiosis law demands that the wiring be explicit: **each arc beat must forg
 | 星野 | uplifts | consuming → making | mask-crack forges → B5 worst-sin test (the quit) | 光影 lanterns × 老屋 | garage · "the light" | 🔒 (Wedge's own) |
 | 金多恩 | conviction | (flat B1–4) | forged offstage → B5 breaks + RE-FORGES | kintsugi + razor · sees TRUE | empire general · whose-hands | flat 🔒 · B1–4 ⬜ |
 | 白龍 | sees FAR | armor → tending (RX→TX) | White Wyrm forges → B1–4 re-arm → B5 never-again test | signals + astrophoto | garage · never-again-the-invisible-hand | 🔒 2026-07-16 |
-| 阿迪 | binds the circle | shared now → made things | B3L08 fall forges → B5 unfusable-binary test | batik + ODDS-MAN (hands) | empire, signs last · FUSION | shape 🔒 · staging ✳️ |
+| 阿迪 | binds the circle | shared now → made things | B3L08 fall forges → B5 unfusable-binary test | batik (hands) ~~+ ODDS-MAN~~ ⚑ | empire, signs last · FUSION | shape 🔒 · staging ✳️ |
 | 林薇 | keeps people | function → presence | imposed accident forges → B5 inert-fixer test | scooters + roads | THIRD AXIS · table over sides | premise 🔒 · recut ✳️ |
 | 小圖 | care + wonder | noise → aimed true | arcs forge the AIM → B5 tests the self itself | care, not capability | THE STAKE · personhood question | read 🔒 · devices ✳️ |
 | 蘇老師 | gives | filling the quiet → begun for herself | lifetime forge → B4 test (accept repayment) | teaching (names/asks) | — OUT of B5 (W61) | GROWTH 🔒 · beats ✳️ |
