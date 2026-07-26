@@ -2,6 +2,7 @@
 title: "MORAL CORE — the cast master (moral cores · arcs · growth themes)"
 type: canon-view
 project: tsumugu
+draft: true
 status: "MIRROR — synced 2026-07-20 from tsumugu-core/docs/companion/MORAL-CORE.md (source file mtime 2026-07-18). The source is canonical; edit there, then re-sync. Known lags carried through verbatim, not reconciled here: the synergy view and cross-cast map still run the pre-07-18 阮草 (provision/receive), and the 金多恩 and 小圖 cards predate their 07-19 masters."
 created: 2026-07-17
 updated: 2026-07-20

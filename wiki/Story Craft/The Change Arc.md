@@ -44,7 +44,7 @@ Keep the Want and the Need distinct or the arc flatlines: if winning the Want wo
 
 ## The escalating cost of the Lie
 
-Each time the character acts on the Lie, widen the gap between what the act promises and what it returns, and stage it inside a repeating scene so a beginner reads change against a constant. **[阮草](/tsumugu/cast/ruan-cao.html)'s cost runs on the table**: the best piece of food chosen for her, then cooked and left uneaten while she works a shift, the empty chair across the middle books, her hands worsening, her withdrawal shutting [沈文](/tsumugu/cast/shen-wen.html) out until the founding pair is barely speaking. Same speakers, same setting, rising stakes.
+Each time the character acts on the Lie, widen the gap between what the act promises and what it returns, and stage it inside a repeating scene so a beginner reads change against a constant. **[阮草](/tsumugu/cast/ruan-cao.html)'s cost runs on the table**: the mushroom chosen for her, then cooked and left uneaten while she works a shift, the empty chair across the middle books, her hands worsening, her withdrawal shutting [沈文](/tsumugu/cast/shen-wen.html) out until the founding pair is barely speaking. Same speakers, same setting, rising stakes.
 
 Checkable: point to the same recurring scene early and late and confirm the stakes rose while the vocabulary held flat. The Moment of Truth is the beat where the template finally breaks.
 
