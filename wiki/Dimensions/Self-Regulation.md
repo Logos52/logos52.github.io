@@ -3,7 +3,7 @@ type: dimension
 status: developing
 description: "Dimension for monitoring, diagnosing, and adjusting the learning process in real time — the steering that keeps every other dimension working under imperfect conditions. Trains on three requirements: metacognition, desirable difficulty, and learning theory."
 created: 2026-05-04
-updated: 2026-06-11
+updated: 2026-07-21
 source-count: 5
 last-audited: 2026-06-11
 tags:
@@ -122,6 +122,18 @@ Two named failure modes hit *skilled* regulators specifically:
 Self-Regulation is what keeps the other dimensions working when conditions are imperfect — which is most of the time. The 2020 lockdowns ran the experiment at scale: when routines and external structure collapsed, learners without self-regulation were hit hardest, because nothing internal replaced the scaffolding that had been doing the steering.
 
 The honest accounting: monitoring costs attention, and the dimension's own failure mode is over-monitoring — watching the dashboard instead of driving, where reflection becomes rumination and meta-work crowds out the work. The quit signal for any reflective practice: if your reflections haven't changed what you *do* in the next session, it's journaling, not regulation — reduce the monitoring overhead and re-anchor on the loop's step 6. The check that the dimension is operating: mid-session, you can name what you're currently monitoring for; and your calibration sessions happen on a cadence, not when something already feels wrong.
+
+---
+
+## The Push Engine and the Pull Engine
+
+An open thread (recorded 2026-07-21), and the largest known hole in this dimension and in [[wiki/Dimensions/Self-Management|Self-Management]].
+
+Every tool in these two dimensions answers the same question: how to act while the wanting is absent. [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|DFUZ]] separates the feeling from the action; the reserve model budgets motivation for the hard days; environment design removes the triggers that break a start. This is push tooling — action proceeding against a motivational headwind, with the headwind managed rather than obeyed. The corpus is good at it, and for a whole band of tasks it is the only workable answer.
+
+The question the corpus never asks comes before any of that: whether the absent wanting is a fixed fact about the person, or a fault in how the activity is built — whether a practice could be redesigned so that the desire to return is produced by the practice itself. That is a second engine, the pull engine: a project that accumulates, keeps a visible open edge, and generates its own return visit, the way open-ended building work does with no tooling at all. Nobody defuses their way into a project they love; the whole DFUZ apparatus sits unused in that band, which is the tell that the second engine exists.
+
+The missing theory is the criterion for which engine a domain runs on. Three bands: structurally push, where nothing accretes and no redesign changes that (admin, chores — the corpus already serves these fully); structurally pull, where the wanting arrives untooled (open-ended creative and building work); and a rebuildable middle that defaults to push but may convert. Movement is the first live conversion experiment — [[wiki/Fitness/Movement as Accretion|Movement as Accretion]] — and its target state has a working name, motivationless movement: a practice that never invokes the motivation machinery at all. Push tooling keeps a role even inside a converted domain — cold starts and returns after a lapse still want DFUZ — but as a reserve, never the daily motor, because a lifetime practice run on daily defusion is still run under the shadow of obligation. The pull-engine page is [[wiki/Concepts/The Accretion Frame|The Accretion Frame]]: the design rules for building wanting into a practice, and the boundary of where that works. This dimension keeps the push side — steering into headwind wherever the headwind cannot be removed.
 
 ---
 
