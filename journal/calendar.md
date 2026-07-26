@@ -4,13 +4,31 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-07-20
+updated: 2026-07-26
 tags:
   - system
 ---
 # Journal Calendar
 
 Five most recent journal entries, newest first. Older entries stay in the vault; add a dated `journal/YYYY-MM-DD-*.md` file and this page updates on build.
+
+## 2026-07-26
+
+[[journal/2026-07-26-the-margin-and-the-corpus|The Margin and the Corpus]]
+
+An All-In episode on the open-weights ban fight and the $1.5B piracy settlement, and the two tests it hands you for telling a pricing argument from a safety one.
+
+## 2026-07-25
+
+[[journal/2026-07-25-the-least-cost-interpretation|The Least-Cost Interpretation]]
+
+Why revision orders kept coming back as the same work in new words, and the three-lever protocol that breaks the spiral.
+
+## 2026-07-22
+
+[[journal/2026-07-22-tsumugu-ed-analytics-and-monetization-review|tsumugu-ed.com at six weeks: the corpus is built, the audience is not, and Bing has been locked out since July 1]]
+
+Cloudflare Web Analytics puts real human traffic at 4.3 pageloads a day across six pages and zero external referrers, against a 10,277-page corpus; the Bing block was root-caused and fixed the same day, and the $500/month ad target needs roughly 900x the current traffic.
 
 ## 2026-07-12
 
@@ -23,24 +41,6 @@ A serialized story with a large cast outgrows a single outline early, and televi
 [[journal/2026-07-09-baldurs-gate-3-as-a-lens-on-the-cast|Baldur's Gate 3 as a lens on the cast]]
 
 BG3 is the pinnacle of reactivity rather than of writing, most of its companion architecture is already in the Tsumugu canon, and running its two-axis test against our seven students found that only two of them pass.
-
-## 2026-07-07
-
-[[journal/2026-07-07-the-workspace-a-language-model-thinks-in|The workspace a language model thinks in]]
-
-A language model does its slow, step-by-step thinking in a small internal workspace. Anthropic found it, learned to read it, and even to read what the model is privately weighing.
-
-## 2026-07-03
-
-[[journal/2026-07-03-doctrine-with-a-half-life|Doctrine With a Half-Life]]
-
-AI advice rots fast, but not evenly; splitting what you learn into invariants and dated tactics keeps the notes trustworthy as models improve.
-
-## 2026-07-03
-
-[[journal/2026-07-03-the-floor-rose-the-ceiling-is-the-job|The Floor Rose, the Ceiling Is the Job]]
-
-Vibe coding raises the floor of who can build software; the ceiling, correctness, security, and judgment, is what stays a job.
 
 
 [[journal/index|← Back to Journal]]

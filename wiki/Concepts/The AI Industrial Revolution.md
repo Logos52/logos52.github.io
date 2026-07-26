@@ -78,11 +78,12 @@ This is three frontier founders and Naval talking their own book — Rauch sells
 - [[wiki/Concepts/A Return to Code|A Return to Code]]
 - [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
 - [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]] — whether the AI capex here is showing up in the productivity statistics
+- [[wiki/Concepts/Riding the AGI|Riding the AGI]] — the sibling Naval field report (nav.al/future); commoditization stack, time-contracted advantage, live-in-the-future positioning
 - [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival]] — the macro demand-side read on the same AI-capex stimulus
 
 ## Sources
 
-- Naval Ravikant, Nivi, with Guillermo Rauch, Blake Scholl, and Max Hodak, "The AI Industrial Revolution," [nav.al/industrial](https://nav.al/industrial) (2026-06-02). Local transcript in `raw/inbox`.
+- Naval Ravikant, Nivi, with Guillermo Rauch, Blake Scholl, and Max Hodak, "The AI Industrial Revolution," [nav.al/industrial](https://nav.al/industrial) (2026-06-02). Local transcript in `raw/processed`.
 
 ## Open Questions
 

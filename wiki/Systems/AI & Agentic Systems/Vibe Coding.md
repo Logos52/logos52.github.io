@@ -52,7 +52,7 @@ The important routing question is whether the artifact is disposable or durable.
 - [[raw/sources/Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]
 - [[raw/sources/A Return to Code|A Return to Code]]
 - [[raw/sources/A Motorcycle for the Mind|A Motorcycle for the Mind]]
-- [[raw/inbox/The AI Industrial Revolution|The AI Industrial Revolution]]
+- [[raw/processed/The AI Industrial Revolution|The AI Industrial Revolution]]
 
 ## Open Questions
 

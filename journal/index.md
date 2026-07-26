@@ -29,12 +29,11 @@ tags:
 
 ## Recent entries
 
-- [[journal/2026-07-25-the-least-cost-interpretation|2026-07-25]] — The Least-Cost Interpretation — Why revision orders kept coming back as the same work in new words, and the three-lever protocol (zero-read tell, echo-back, blocking gate) that breaks the spiral.
+- [[journal/2026-07-26-the-margin-and-the-corpus|2026-07-26]] — The Margin and the Corpus — An All-In episode on the open-weights ban fight and the $1.5B piracy settlement, and the two tests it hands you for telling a pricing argument from a safety one.
+- [[journal/2026-07-25-the-least-cost-interpretation|2026-07-25]] — The Least-Cost Interpretation — Why revision orders kept coming back as the same work in new words, and the three-lever protocol that breaks the spiral.
+- [[journal/2026-07-22-tsumugu-ed-analytics-and-monetization-review|2026-07-22]] — tsumugu-ed.com at six weeks: the corpus is built, the audience is not, and Bing has been locked out since July 1 — Cloudflare Web Analytics puts real human traffic at 4.3 pageloads a day across six pages and zero external referrers, against a 10,277-page corpus; the Bing block was root-caused and fixed the same day, and the $500/month ad target needs roughly 900x the current traffic.
 - [[journal/2026-07-12-building-a-story-with-a-writers-room-stack|2026-07-12]] — Building a Story with a Writers' Room Stack — A serialized story with a large cast outgrows a single outline early, and television answered that problem with paper a long time ago. A room writing a long-running show keeps a bible for who everyone is, an arc document
 - [[journal/2026-07-09-baldurs-gate-3-as-a-lens-on-the-cast|2026-07-09]] — Baldur's Gate 3 as a lens on the cast — BG3 is the pinnacle of reactivity rather than of writing, most of its companion architecture is already in the Tsumugu canon, and running its two-axis test against our seven students found that only two of them pass.
-- [[journal/2026-07-07-the-workspace-a-language-model-thinks-in|2026-07-07]] — The workspace a language model thinks in — A language model does its slow, step-by-step thinking in a small internal workspace. Anthropic found it, learned to read it, and even to read what the model is privately weighing.
-- [[journal/2026-07-03-doctrine-with-a-half-life|2026-07-03]] — Doctrine With a Half-Life — AI advice rots fast, but not evenly; splitting what you learn into invariants and dated tactics keeps the notes trustworthy as models improve.
-- [[journal/2026-07-03-the-floor-rose-the-ceiling-is-the-job|2026-07-03]] — The Floor Rose, the Ceiling Is the Job — Vibe coding raises the floor of who can build software; the ceiling, correctness, security, and judgment, is what stays a job.
 
 [[journal/calendar|Full calendar →]]
 

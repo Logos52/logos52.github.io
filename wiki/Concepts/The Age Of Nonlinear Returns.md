@@ -294,4 +294,4 @@ The answer should change behavior. If it does not, the frame is ornamental.
 ## Sources
 
 - Naval Ravikant and Nivi, "Sell the Truth" (2026-05-12). Local source in `raw/sources`.
-- Naval Ravikant et al., "The AI Industrial Revolution" (2026-06-02). Local source in `raw/inbox`. Distilled at [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].
+- Naval Ravikant et al., "The AI Industrial Revolution" (2026-06-02). Local source in `raw/processed`. Distilled at [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].

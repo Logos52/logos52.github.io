@@ -64,7 +64,7 @@ Two-thirds of the film passes without conflict, and a plot-first reader will pri
 
 ## Sources
 
-Five video essays on *Kiki's Delivery Service*, transcripts in `raw/inbox/`:
+Five video essays on *Kiki's Delivery Service*, transcripts in `raw/processed/`:
 
 - *Why Ghibli Succeeds Where Disney Fails* — The Soak (the kind-world doctrine: community, the kindness economy, no villains, sadness surviving the ending)
 - *Therapist Reacts to Kiki's Delivery Service* — Cinema Therapy (identity fusion, the psychology of the block, fear-starts/joy-sustains, clumsy recovery and reps)
