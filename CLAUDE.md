@@ -95,10 +95,18 @@ The body may be more systematic than the Core Thesis. The thesis should be sharp
 
 ## File Conventions
 
-- L3/model first-pass filename: `[Model] - [Title].md`
-- L2/fused synthesis filename: `L2 - [Title].md`
-- Location: `01 - Workbench/`
-- Frontmatter: title, type: brief, status: draft, created, updated, model, source, source_url, tags
+**Two locations, two different rules. A prefix is a staging marker and never survives promotion.**
+
+| Where | What it is | Filename |
+|---|---|---|
+| `01 - Workbench/` | Private, gitignored working drafts, until promoted or archived | `[Model] - [Title].md` for a model first pass · `L2 - [Title].md` for a fused synthesis |
+| `wiki/**` | **The knowledge base itself** — the durable, published surface | **`[Title].md`. No model name, no tier prefix, ever.** |
+
+**"Fold this into the knowledge base" means `wiki/`.** It does not mean the workbench. Nothing under
+`wiki/` has ever carried a prefix; match the frontmatter of the section the page joins (title, type,
+status, created, updated, tags).
+
+- Workbench brief frontmatter: title, type: brief, status: draft, created, updated, model, source, source_url, tags
 
 ---
 

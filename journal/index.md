@@ -21,14 +21,14 @@ tags:
 
 ## What's top of mind
 
-- **[[wiki/Story Craft/Story Craft|Story Craft]] + Tsumugu companion** — wing open ([[wiki/Story Craft/Story Craft, Condensed|Condensed]], [[wiki/Story Craft/Diagnosing a Character|Diagnosing a Character]]); apply layer and cast diagnosis in `tsumugu-core/docs/companion/craft/`. Story/cast authorship stays with Fable/Opus; core code fixes land separately.
+- **The writing process** — structure before lines: [[wiki/Story Craft/Breaking the Story|Breaking the Story]], [[wiki/Story Craft/Structure for the Ear|Structure for the Ear]], and [[wiki/Story Craft/The Beat Board|The Beat Board]], new in the [[wiki/Story Craft/Story Craft|Story Craft]] wing. The working system built on them is [[journal/2026-07-27-the-break-comes-first|The Break Comes First]], unsigned.
 - **[[projects/tsumugu-ed|Tsumugu Encoding Dictionary]]** — live at [tsumugu-ed.com](https://tsumugu-ed.com). Next build pass: handwriting layer, example sentences, or phonetic-family browse.
 - **[[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs. Judgment]]** — which vault moves are generativity I can hand off versus judgment I must keep? Ties to Tsumugu lane assignments (stories = top-model judgment; cribs = cheap generativity with cross-check).
 - **[[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]** (2026-06-15) — planning-as-spec vs planning-as-ritual still open. Repeated vault moves (ingest, lint, cross-link) may become extracted skills.
-- **[[projects/wnac|WNAC]]** — parked; not driving.
 
 ## Recent entries
 
+- [[journal/2026-07-27-the-break-comes-first|2026-07-27]] — The Break Comes First — Three days of fighting over podcast drafts end in a proposed working system: structure broken on a board before any line is written, the division of labor made explicit, and drift caught by machine instead of by argument.
 - [[journal/2026-07-26-the-margin-and-the-corpus|2026-07-26]] — The Margin and the Corpus — An All-In episode on the open-weights ban fight and the $1.5B piracy settlement, and the two tests it hands you for telling a pricing argument from a safety one.
 - [[journal/2026-07-25-the-least-cost-interpretation|2026-07-25]] — The Least-Cost Interpretation — Why revision orders kept coming back as the same work in new words, and the three-lever protocol that breaks the spiral.
 - [[journal/2026-07-22-tsumugu-ed-analytics-and-monetization-review|2026-07-22]] — tsumugu-ed.com at six weeks: the corpus is built, the audience is not, and Bing has been locked out since July 1 — Cloudflare Web Analytics puts real human traffic at 4.3 pageloads a day across six pages and zero external referrers, against a 10,277-page corpus; the Bing block was root-caused and fixed the same day, and the $500/month ad target needs roughly 900x the current traffic.
