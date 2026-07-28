@@ -100,6 +100,7 @@ What survives both objections is the division that pays either way: hand the mod
 - [[wiki/Story Craft/The Beat Board|The Beat Board]] — the card, board, and sync disciplines the structure work runs on.
 - [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]] — why the human eye lands last and spends on taste: generativity is the model's strong half; the accountable call stays human.
 - [[wiki/Concepts/The Same Model Twice|The Same Model Twice]] — unchecked memory failing on the operator's side of the desk.
+- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]] — the triage layer under this workflow: which corrections a check can reach, which ones only a change in who writes first will move, and what each repair costs.
 
 ## Sources
 
