@@ -31,7 +31,7 @@ The six who form the class in Book 1, and the robot who goes everywhere with the
 <a href="/tsumugu/cast/xiao-tu.html" style="text-decoration:none;"><img src="/tsumugu/portraits/locked/xiao-tu.jpg" alt="小圖 Xiǎo Tú" style="width:100%;border-radius:10px;display:block;" /><strong>小圖</strong> — the companion</a>
 </div>
 
-- [沈文](/tsumugu/cast/shen-wen.html) — the builder taken for a local until he speaks; [小圖](/tsumugu/cast/xiao-tu.html) rides in his bag
+- [沈文](/tsumugu/cast/shen-wen.html) — the builder; [小圖](/tsumugu/cast/xiao-tu.html) rides in his bag
 - [阮草](/tsumugu/cast/ruan-cao.html) — from Hanoi, the cool hand: grows impossible mushrooms, feeds you the one you need
 - [星野遙香](/tsumugu/cast/hoshino-haruka.html) — the Osaka super-fan who lifts the room; camera always up, stinky tofu first
 - [金多恩](/tsumugu/cast/kim-da-eun.html) — perfect scores she never checks, four-character verdicts, broken things quietly mended

@@ -139,18 +139,18 @@ How it maps onto our structure:
 
 ---
 
-## 阿迪 — the binder (feeder → fuser)
+## 阿迪 — the binder
 
-**Archetype:** the warm Jakarta maker — feeder/host-by-meal; the man who dissolves every binary meets the one that won't dissolve.
+**Archetype:** the warm Jakarta maker — ⟨retired frame⟩; the man who dissolves every binary meets the one that won't dissolve.
 
 **Moral core:**
 1. **FUSION — the old survives by living inside the new.** 「這是……我的？」「舊的，做成新的。」 Origin: the family batik; the father's one-of-one shirt remade. *(written; §2 formally ⬜; affirmed as his B5 value W45)*
 2. **Remittance / DUTY** — the money goes home; the father, duty. 「是錢欸。當然拿啊。」 — his native register, not only a mask. *(🔒 Wedge 2026-07-16; guard: duty, NEVER 阮草's chosen-devotion lane)*
-3. **The circle held whole** — no one outside the table; sit, eat, we're family. *(essence; the arc that matures it ✳️)*
+3. **The circle held whole** — no one outside the table. *(essence; the arc that matures it ✳️)*
 
 **Forge → test:** the B3L08 fall forges it — everything at once crushes a decent student, and the binder breaks the circle he lives for; the B4L07 recovery finishes the forge (the level stays lost; respect clawed back FROM HIMSELF; the old alive inside the new, in his own hands). B5 tests both halves: the circle-value against the one binary that won't dissolve (he signs last, for the raft), and fusion against the fallback shim's terrible price — his own warm good faith becomes the war's cruelest device.
 
-**B1–4 (shape 🔒, staging ✳️):** growth — feeder → fuser. Drive: the BINDER; what transforms is HOW. Start: binds through the shared now (the meal, the hosted moment) — the bond lives only while everyone is in the room. The fall = B3L08 🔒 (the MTC rule of 6); the six scatter still wearing his shirts. Recovery B4L07: **the level STAYS LOST** — he remakes the father's shirt; 金多恩 gives him nothing — one look (the withheld comfort IS the gift, R-D55). End: binds through made things that outlast the room. Skill: batik/making — the hands; his family's cloth fused with modern streetwear.
+**B1–4 (shape 🔒, staging ✳️):** growth. Drive: the BINDER; what transforms is HOW. Start: binds through the shared now (the hosted moment) — the bond lives only while everyone is in the room. The fall = B3L08 🔒 (the MTC rule of 6); the six scatter still wearing his shirts. Recovery B4L07: **the level STAYS LOST** — he remakes the father's shirt; 金多恩 gives him nothing — one look (the withheld comfort IS the gift, R-D55). End: binds through made things that outlast the room. Skill: batik/making — the hands; his family's cloth fused with modern streetwear.
 
 **B5:** empire side; the least-decided man signs LAST — the raft (the company is the one thing keeping all six together). Lead mechanism (W58, the fallback shim): openly, warmly, in good faith he routes 小圖's stall-fallback through his employer's legacy endpoint — the device of the L09 gut-punch, and never a villain. 「我講不了他那邊。……因為我怕講著講著，發現他是對的。」 L10 at the curb he hands the rescue back: 「公司不是妳。」
 
@@ -284,7 +284,7 @@ The symbiosis law demands that the wiring be explicit: **each arc beat must forg
 | 蘇老師 | gives | filling the quiet → begun for herself | lifetime forge → B4 test (accept repayment) | teaching (names/asks) | — OUT of B5 (W61) | GROWTH 🔒 · beats ✳️ |
 | 吳老闆 | hosts | the building → the people | B1–4 forge portability → B5 own-hands test | hosting/feeding | the DMZ · own-hands ending | ✳️ |
 
-**Value-space distinctness (the no-two-alike check):** builder-then-release / carrier-then-carried (chosen) / taker→maker / made-genius-holds / receiver→transmitter / feeder→fuser / fixer→keeper (imposed) / aim-not-wit / giver-repaid / walls→people — **clean, no collisions.** The one watched pair: 阮草 and 林薇 both carry a B3 "carried" image — guarded by F6 (hers is CURRENCY and CHOSEN; 林薇's is WORTH and IMPOSED). Three feeding grammars stay unblended: 阮草 the best piece · 阿迪 the meal/table · 吳老闆 the room. The money-lanes guard: 阮草 chosen-devotion provision vs 阿迪 remittance-duty.
+**Value-space distinctness (the no-two-alike check):** builder-then-release / carrier-then-carried (chosen) / taker→maker / made-genius-holds / receiver→transmitter / fixer→keeper (imposed) / aim-not-wit / giver-repaid / walls→people — **clean, no collisions.** The one watched pair: 阮草 and 林薇 both carry a B3 "carried" image — guarded by F6 (hers is CURRENCY and CHOSEN; 林薇's is WORTH and IMPOSED). The money-lanes guard: 阮草 chosen-devotion provision vs 阿迪 remittance-duty.
 
 # The gaps — nothing signed in §2 yet
 
