@@ -283,6 +283,8 @@ const hasAside = true;
   }
   .kb-prose img {
     max-width: 100%;
+    height: auto; /* with HTML width/height attrs, missing this squashes screenshots */
+    display: block;
     border-radius: var(--tsg-radius-sm);
   }
   .kb-prose table {

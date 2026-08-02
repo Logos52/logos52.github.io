@@ -115,5 +115,7 @@
 
 .kb-shell-prose img {
   max-width: 100%;
+  height: auto; /* with HTML width/height attrs, missing this squashes images */
+  display: block;
   border-radius: 10px;
 }
