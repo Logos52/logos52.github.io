@@ -43,6 +43,14 @@ type Mind = { q: string; links: { t: string; href: string }[] };
 const L = (t: string, p: string) => ({ t, href: slugToUrl(slugifyFilePath(p)) });
 const topOfMind: Mind[] = [
   {
+    q: 'Whether an agent can be made to show its reading of an ask, forks and discards included, before the reading becomes work',
+    links: [
+      L('Least-Cost Interpretation', 'wiki/Systems/AI & Agentic Systems/Least-Cost Interpretation'),
+      L('Working With a Model That Cannot Remember', 'wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember'),
+      L('Higher-Order Generativity vs Judgment', 'wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment'),
+    ],
+  },
+  {
     q: 'Whether every story that lasts keeps the same loop at its center, where arcs forge a moral core and the moral core is tested by the arcs',
     links: [
       L('Tsumugu', 'wiki/Tsumugu/Tsumugu'),
@@ -87,15 +95,6 @@ const topOfMind: Mind[] = [
       L('Human vs AI Capability Lens', 'wiki/Concepts/Human vs AI Capability Lens'),
     ],
   },
-  {
-    q: 'Whether the line between what humans and models own is fixed, or keeps shifting',
-    links: [
-      L('Human vs AI Capability Lens', 'wiki/Concepts/Human vs AI Capability Lens'),
-      L('Higher-Order Generativity vs Judgment', 'wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment'),
-      L('The AI Industrial Revolution', 'wiki/Concepts/The AI Industrial Revolution'),
-      L('The Floor Rose, the Ceiling Is the Job', 'journal/2026-07-03-the-floor-rose-the-ceiling-is-the-job'),
-    ],
-  },
 ];
 // Retired from the card 2026-07-17 (Wedge: the list must not grow — lowest entry archived, not deleted):
 //   q: 'If a generation offloads its thinking to AI, what are the second-order effects?'
@@ -103,6 +102,9 @@ const topOfMind: Mind[] = [
 // Retired 2026-07-21 (same rule — the Personal items entry came in, lowest went out):
 //   q: 'Where leaning on AI builds understanding'
 //   links: Understanding Bottleneck (wiki/Concepts) · Are You Thinking, or Just Consuming (wiki/Concepts) · The Screen Inferiority Effect (wiki/Concepts)
+// Retired 2026-08-06 (same rule — the Least-Cost Interpretation entry came in, lowest went out):
+//   q: 'Whether the line between what humans and models own is fixed, or keeps shifting'
+//   links: Human vs AI Capability Lens (wiki/Concepts) · Higher-Order Generativity vs Judgment (wiki/Concepts) · The AI Industrial Revolution (wiki/Concepts) · The Floor Rose, the Ceiling Is the Job (journal)
 
 // Intent doors ("Start here") — route a visitor by intent, not topic. slug → a note path
 // (resolved via cardHref); the graph door uses a direct href. Titles/subs are mined from each

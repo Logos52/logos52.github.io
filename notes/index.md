@@ -11,7 +11,7 @@ tags:
 
 # Knowledge Base Index
 
-There are 411 notes. Use search (⌘K) or the [Map](/map/) to browse by connection.
+There are 422 notes. Use search (⌘K) or the [Map](/map/) to browse by connection.
 
 ## Condensed
 
