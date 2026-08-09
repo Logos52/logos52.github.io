@@ -33,7 +33,7 @@ Measured on the 星野 campaign: open-search keep rate ran 2 of 58; at the fixed
 
 ## What this method does not cover
 
-End-of-line acceleration is the checkpoint's own habit and survives any reference composition; the 08-03 end-rate gate (oversample, keep the slowest-ending clean take) remains the production fallback, and the tail-worry on 星野's probe is on record awaiting the full episode. The method also says nothing yet about voices picked before the range criterion existed: 阿迪's current reference was assembled from ship lines picked for calm, and whether a range-lens re-pick improves him is the open question — his fresh render is the listening material for that call.
+End-of-line acceleration is the checkpoint's own habit and survives any reference composition; the 08-03 end-rate gate (oversample, keep the slowest-ending clean take) remains the production fallback, and the tail-worry on 星野's probe is on record awaiting the full episode. A boundary ruled the same night closes the other candidate source for good: picking reference candidates from rendered lines never works as a direction, "because they always stay within variance of the candidates we already have" — rendered lines are draws from the current conditioning and can only orbit it. A voice moves through fresh generation or it does not move; line-salvage was a rescue of an existing voice, never a way to choose one.
 
 ## Pointers
 
