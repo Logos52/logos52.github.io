@@ -1,20 +1,25 @@
 ---
 /**
- * personal.astro — the Personal landing (mirrors journal.astro's vault-file + generated-list split).
+ * personal.astro — the Personal landing, in the home page's design family: hero (ming title +
+ * mono lede), a local constellation over the personal neighborhood, the dated-notes changelog
+ * (updates-box idiom), and the settled standing pages as a hub card.
  *
- * Door prose lives in the vault at personal/index.md (the only hand-written part). The two lists
- * are generated: Notes = personal/*.md newest-first by `created`; Settled = every `type: personal`
- * page elsewhere in the vault (the standing pages), so a stance that settles into a wing page
- * appears here with no curation. An empty Notes list renders nothing — no placeholder.
+ * Door prose lives in the vault at personal/index.md (the only hand-written part; its
+ * `description` is the hero lede). Notes = personal/*.md newest-first by `created`, blurb from
+ * `description`; Settled = every `type: personal` page elsewhere in the vault, labeled and
+ * hue-spread by wing. An empty Notes list renders nothing — no placeholder.
  */
 import { getEntry, getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import Constellation from '../components/Constellation.astro';
+import Icon from '../components/Icon.astro';
 import { deriveTitle } from '../lib/note';
 import { simplifySlug } from '../lib/slug';
 
 const entry = await getEntry('notes', 'personal/index');
 const rendered = entry ? await render(entry) : null;
 const Content = rendered?.Content;
+const lede = (entry?.data.description as string | undefined) ?? 'Working notes on mindset, habits, and judgment.';
 
 const all = await getCollection('notes');
 
@@ -35,39 +40,75 @@ const notes = all
 const settled = all
   .filter((e) => e.data.type === 'personal' && !e.id.startsWith('personal/'))
   .sort((a, b) => deriveTitle(a.data, a.id, a.body).localeCompare(deriveTitle(b.data, b.id, b.body)));
+
+// Wing (the folder a settled page lives in) → row label, icon, and a domain hue spread for
+// rhythm, the way the home hub lists spread the palette.
+const wingOf = (id: string): string => (id.split('/')[1] ?? '').toLowerCase();
+const WING_ICONS: Record<string, string> = { fitness: 'ti-heartbeat', fashion: 'ti-hanger', travel: 'ti-plane' };
+const WING_COLORS: Record<string, string> = { fitness: 'var(--d-focus)', fashion: 'var(--d-gen)', travel: 'var(--d-language)' };
+
+// The personal neighborhood: every settled page + every note, 1 hop into the rest of the vault.
+const seeds = [...settled, ...notes].map((e) => e.id);
 ---
 
-<Base title="Personal" description="Working notes on mindset, habits, and judgment." active="personal">
-  <main class="personal-page">
+<Base title="Personal" description={lede} active="personal">
+  <main class="personal">
     <div class="wrap">
-      <article class="kb-shell-prose personal-prose">
-        {Content ? <Content /> : <p>Personal not found.</p>}
-        {
-          notes.length > 0 && (
-            <section>
-              <h2>Notes</h2>
-              <ul class="personal-list">
-                {notes.map((e) => (
-                  <li>
-                    <span class="personal-date">{fmtDate(e.data.created)}</span>
-                    <a href={'/' + simplifySlug(e.id)}>{deriveTitle(e.data, e.id, e.body)}</a>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          )
-        }
-        <section>
-          <h2>Settled</h2>
-          <ul class="personal-list">
+      <section class="hero">
+        <h1 class="hero__title">Personal</h1>
+        <p class="hero__lede">{lede}</p>
+      </section>
+
+      {Content && (
+        <section class="contract kb-shell-prose">
+          <Content />
+        </section>
+      )}
+
+      <section class="map">
+        <Constellation mode="local" seeds={seeds} hops={1} height="clamp(150px, 17vh, 200px)" />
+      </section>
+
+      {
+        notes.length > 0 && (
+          <section class="notes">
+            <h2 class="sec-head">Notes</h2>
+            <div class="notes__box">
+              {notes.map((e) => (
+                <div class="notes__item">
+                  <div class="notes__date">{fmtDate(e.data.created)}</div>
+                  <a class="notes__title" href={'/' + simplifySlug(e.id)}>
+                    {deriveTitle(e.data, e.id, e.body)}
+                  </a>
+                  {e.data.description && <p class="notes__blurb">{e.data.description}</p>}
+                </div>
+              ))}
+            </div>
+          </section>
+        )
+      }
+
+      <section class="settled">
+        <h2 class="sec-head">Settled</h2>
+        <div class="hub-card">
+          <ul class="hub-list">
             {settled.map((e) => (
               <li>
-                <a href={'/' + simplifySlug(e.id)}>{deriveTitle(e.data, e.id, e.body)}</a>
+                <a href={'/' + simplifySlug(e.id)}>
+                  <Icon
+                    name={WING_ICONS[wingOf(e.id)] ?? 'ti-notes'}
+                    size="16px"
+                    class="hub-list__icon"
+                    style={`color:${WING_COLORS[wingOf(e.id)] ?? 'var(--d-mind)'}`}
+                  />
+                  <span class="hub-list__title">{deriveTitle(e.data, e.id, e.body)}</span>
+                  <span class="hub-list__wing">{wingOf(e.id)}</span>
+                </a>
               </li>
             ))}
           </ul>
-        </section>
-      </article>
+        </div>
+      </section>
     </div>
   </main>
 </Base>
@@ -76,29 +117,146 @@ const settled = all
   .wrap {
     max-width: var(--kb-content);
     margin: 0 auto;
-    padding: 34px 28px 52px;
+    padding: 0 28px;
   }
-  .personal-prose {
-    margin-top: 0;
-    min-width: 0;
+  .personal {
+    padding-bottom: 40px;
   }
-  .personal-list {
+
+  .hero {
+    max-width: 60ch;
+    padding: 40px 0 0;
+  }
+  .hero__title {
+    font-family: var(--ming);
+    font-weight: 500;
+    font-size: var(--kb-text-h1-shell);
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.5rem;
+    color: var(--ink);
+  }
+  .hero__lede {
+    font-family: var(--mono);
+    font-size: var(--kb-text-xs);
+    letter-spacing: 0.04em;
+    line-height: 1.55;
+    color: var(--mut);
+    margin: 0;
+  }
+
+  .contract {
+    max-width: 60ch;
+    margin-top: 14px;
+  }
+  .contract :global(p) {
+    font-size: var(--kb-text-base);
+    line-height: var(--kb-lh-body);
+    color: var(--ink);
+    margin: 0;
+  }
+
+  .map {
+    margin: 18px 0 0;
+  }
+
+  .sec-head {
+    font-family: var(--ming);
+    font-size: var(--kb-text-base);
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: var(--ink);
+  }
+
+  .notes {
+    margin-top: 26px;
+  }
+  .notes__box {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: var(--tsg-radius);
+    padding: 4px 16px;
+    box-shadow: var(--tsg-shadow);
+  }
+  .notes__item {
+    padding: 12px 0;
+  }
+  .notes__item + .notes__item {
+    border-top: 1px solid var(--rule);
+  }
+  .notes__date {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    color: var(--faint);
+    margin: 0 0 4px;
+  }
+  .notes__title {
+    font-family: var(--ming);
+    font-size: var(--kb-text-base);
+    font-weight: 600;
+    line-height: 1.25;
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .notes__title:hover {
+    text-decoration: underline;
+  }
+  .notes__blurb {
+    font-size: var(--kb-text-sm);
+    color: var(--mut);
+    line-height: var(--kb-lh-body);
+    margin: 3px 0 0;
+  }
+
+  .settled {
+    margin-top: 26px;
+  }
+  .hub-card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: var(--tsg-radius);
+    padding: 14px 16px;
+    box-shadow: var(--tsg-shadow);
+  }
+  .hub-list {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-  .personal-list li {
-    margin: 0 0 8px;
+  .hub-list li {
+    border-top: 1px solid var(--rule);
   }
-  .personal-date {
+  .hub-list li:first-child {
+    border-top: none;
+  }
+  .hub-list a {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 2px;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .hub-list a:hover .hub-list__title {
+    color: var(--accent);
+  }
+  .hub-list a :global(.hub-list__icon) {
+    flex-shrink: 0;
+  }
+  .hub-list__title {
+    font-size: var(--kb-text-base);
+  }
+  .hub-list__wing {
+    margin-left: auto;
     font-family: var(--mono);
-    font-size: var(--kb-text-2xs);
-    color: var(--ink3, var(--ink));
-    margin-right: 10px;
+    font-size: 11px;
+    color: var(--faint);
   }
+
   @media (max-width: 640px) {
     .wrap {
-      padding: 28px 16px 40px;
+      padding: 0 16px;
     }
   }
 </style>
