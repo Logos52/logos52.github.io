@@ -16,6 +16,8 @@ interface Props {
   domain?: string;
   /** local mode: 'vertical' lays the neighborhood out as a tall column (for a side rail). */
   orient?: 'horizontal' | 'vertical';
+  /** marker-size multiplier for this instance (e.g. 0.7 for a minimap); default 1. */
+  nodeScale?: number;
   /** data source URL (default /graph.json); the Map page points this at /map.json. */
   src?: string;
   /** draw persistent domain territory labels (the Map). */
@@ -29,6 +31,7 @@ const {
   hops,
   domain,
   orient,
+  nodeScale,
   src = '/graph.json',
   domainLabels = false,
 } = Astro.props;
@@ -42,6 +45,7 @@ const {
   data-hops={hops != null ? String(hops) : undefined}
   data-domain={domain || undefined}
   data-orient={orient || undefined}
+  data-node-scale={nodeScale != null ? String(nodeScale) : undefined}
   data-src={src}
   data-domain-labels={domainLabels ? 'true' : undefined}
   style={`height:${height}`}

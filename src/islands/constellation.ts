@@ -695,6 +695,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   const filterDomain = root.dataset.domain || ''; // full mode: restrict to one domain (MOC sub-graph)
   const showDomainLabels = root.dataset.domainLabels != null; // the Map: label each domain cluster
   const vertical = root.dataset.orient === 'vertical'; // local mode: lay out as a tall column
+  const nodeScale = Number(root.dataset.nodeScale) || 1; // per-instance marker scaling (e.g. a minimap)
   const isMobile = window.matchMedia('(max-width: 700px)').matches;
   let colors = readColors();
 
@@ -719,7 +720,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   const htmlHoverTips = mode === 'local' || mode === 'spine' || mode === 'full';
   const flagSet = mode === 'local' ? seedSet : hubSet;
 
-  function screenR(n: CNode, graphMode: 'spine' | 'full' | 'local'): number {
+  function screenRBase(n: CNode, graphMode: 'spine' | 'full' | 'local'): number {
     if (graphMode === 'local' && noteRailLocal) {
       const r = Math.min(LOCAL_NODE_LEAF_PX + LOCAL_NODE_GROW_PX * Math.sqrt(n.degree), LOCAL_NODE_CAP_PX);
       return n.isFlag ? Math.max(r, LOCAL_CURRENT_PX) : r;
@@ -735,6 +736,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
     if (n.isFlag) return Math.max(r, NODE_FLAG_MIN_PX);
     return r;
   }
+  const screenR = (n: CNode, graphMode: 'spine' | 'full' | 'local'): number => screenRBase(n, graphMode) * nodeScale;
 
   let nodes: CNode[];
   let links: CLink[];
