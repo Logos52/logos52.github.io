@@ -4,13 +4,25 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-08-03
+updated: 2026-08-10
 tags:
   - system
 ---
 # Journal Calendar
 
 Five most recent journal entries, newest first. Older entries stay in the vault; add a dated `journal/YYYY-MM-DD-*.md` file and this page updates on build.
+
+## 2026-08-10
+
+[[journal/2026-08-10-pages-read-as-posts|Pages Read as Posts]]
+
+Ruling: the blog register's voice becomes the default for wiki and personal pages going forward; WPW everywhere; Condensed/MOC/decision/chrome keep their own registers; em-dash scope unruled.
+
+## 2026-08-10
+
+[[journal/2026-08-10-picking-voice-candidates-by-range|Picking Voice Candidates by Range]]
+
+Wedge's methodology for selecting TTS reference-voice candidates: fresh model-direct generation, ear-picks that carry melodic range, fixed seed, accrete to ten seconds.
 
 ## 2026-08-03
 
@@ -29,18 +41,6 @@ The compaction ruling on the Tsumugu Podcast (Gaming) voice work: ~1.5 GB of tak
 [[journal/2026-07-31-underdone-beats-overdone|Underdone Beats Overdone]]
 
 A working lesson from the voice production: when a fix pass keeps bouncing between too much and too little, the target sits below what the tool can control, so keep the nearest stable take, carry the nuance through the script and take-selection, and build candidate diversity on purpose instead of hoping seeds produce it.
-
-## 2026-07-27
-
-[[journal/2026-07-27-the-break-comes-first|The Break Comes First]]
-
-Three days of fighting over podcast drafts end in a proposed working system: structure broken on a board before any line is written, the division of labor made explicit, and drift caught by machine instead of by argument.
-
-## 2026-07-26
-
-[[journal/2026-07-26-the-margin-and-the-corpus|The Margin and the Corpus]]
-
-An All-In episode on the open-weights ban fight and the $1.5B piracy settlement, and the two tests it hands you for telling a pricing argument from a safety one.
 
 
 [[journal/index|← Back to Journal]]

@@ -1,0 +1,104 @@
+---
+/**
+ * personal.astro — the Personal landing (mirrors journal.astro's vault-file + generated-list split).
+ *
+ * Door prose lives in the vault at personal/index.md (the only hand-written part). The two lists
+ * are generated: Notes = personal/*.md newest-first by `created`; Settled = every `type: personal`
+ * page elsewhere in the vault (the standing pages), so a stance that settles into a wing page
+ * appears here with no curation. An empty Notes list renders nothing — no placeholder.
+ */
+import { getEntry, getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { deriveTitle } from '../lib/note';
+import { simplifySlug } from '../lib/slug';
+
+const entry = await getEntry('notes', 'personal/index');
+const rendered = entry ? await render(entry) : null;
+const Content = rendered?.Content;
+
+const all = await getCollection('notes');
+
+const toTime = (v: unknown): number => {
+  if (!v) return 0;
+  const d = new Date(String(v));
+  return Number.isNaN(d.getTime()) ? 0 : d.getTime();
+};
+const fmtDate = (v: unknown): string => {
+  const t = toTime(v);
+  return t === 0 ? '' : new Date(t).toISOString().slice(0, 10);
+};
+
+const notes = all
+  .filter((e) => e.id.startsWith('personal/') && e.id !== 'personal/index')
+  .sort((a, b) => toTime(b.data.created) - toTime(a.data.created));
+
+const settled = all
+  .filter((e) => e.data.type === 'personal' && !e.id.startsWith('personal/'))
+  .sort((a, b) => deriveTitle(a.data, a.id, a.body).localeCompare(deriveTitle(b.data, b.id, b.body)));
+---
+
+<Base title="Personal" description="Working notes on mindset, habits, and judgment." active="personal">
+  <main class="personal-page">
+    <div class="wrap">
+      <article class="kb-shell-prose personal-prose">
+        {Content ? <Content /> : <p>Personal not found.</p>}
+        {
+          notes.length > 0 && (
+            <section>
+              <h2>Notes</h2>
+              <ul class="personal-list">
+                {notes.map((e) => (
+                  <li>
+                    <span class="personal-date">{fmtDate(e.data.created)}</span>
+                    <a href={'/' + simplifySlug(e.id)}>{deriveTitle(e.data, e.id, e.body)}</a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+        <section>
+          <h2>Settled</h2>
+          <ul class="personal-list">
+            {settled.map((e) => (
+              <li>
+                <a href={'/' + simplifySlug(e.id)}>{deriveTitle(e.data, e.id, e.body)}</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+</Base>
+
+<style>
+  .wrap {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 34px 28px 52px;
+  }
+  .personal-prose {
+    margin-top: 0;
+    min-width: 0;
+  }
+  .personal-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .personal-list li {
+    margin: 0 0 8px;
+  }
+  .personal-date {
+    font-family: var(--mono);
+    font-size: var(--kb-text-2xs);
+    color: var(--ink3, var(--ink));
+    margin-right: 10px;
+  }
+  @media (max-width: 640px) {
+    .wrap {
+      padding: 28px 16px 40px;
+    }
+  }
+</style>
