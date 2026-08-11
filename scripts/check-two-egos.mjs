@@ -60,10 +60,19 @@ for (const file of files) {
     continue;
   }
   const text = stripNonProse(raw);
+  // Position check: first person in the OPENING paragraph (first prose block after the H1)
+  // is a tell, not a worklist item — the camera points at the subject before the person arrives.
+  const h1 = text.match(/^#\s.+$/m);
+  const afterH1 = h1 ? text.slice((h1.index ?? 0) + h1[0].length) : text;
+  const firstPara = afterH1.split(/\n\s*\n/).find((p) => p.trim().length > 0) ?? '';
+  const openingStart = h1 ? (h1.index ?? 0) + h1[0].length + afterH1.indexOf(firstPara) : text.indexOf(firstPara);
+  const openingEnd = openingStart + firstPara.length;
   const tells = [];
   const worklist = [];
   for (const { s, index } of sentences(text)) {
     const fired = TELLS.filter(([, re]) => re.test(s)).map(([name]) => name);
+    const inOpening = index >= openingStart && index < openingEnd;
+    if (inOpening && FIRST_PERSON.test(s)) fired.push('opening-I');
     const line = lineAt(text, index);
     const clipped = s.length > 200 ? s.slice(0, 197) + '…' : s;
     if (fired.length > 0) tells.push(`  [${fired.join(', ')}] L${line}: ${clipped}`);

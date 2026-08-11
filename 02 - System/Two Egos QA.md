@@ -19,6 +19,8 @@ Voice QA for personal-register prose and any first-person surface: it checks tha
 
 **2. Judgment pass.** Every extracted sentence — flagged or not — is ruled against the three line-checks: the I owns events, wants, and judgments, never qualities; internal scoreboard only; the residue test (delete the I-clause — lost subject-facts mean load-bearing, a lost impression of the author means display). Plus the no-flinch discipline: no pre-managing the reader's opinion in either direction. Performed humility and post-wounded coolness are judgment-only catches.
 
+**The position check** (added 2026-08-11, after the first note's struck opening): the opening paragraph carries no first person — the camera points at the subject before the person arrives — and the page's I's are counted, each one irreplaceable: an owned position where an agentless sentence would evade, and nothing else. The author's recorded statements are warrant for an I, never the note's spine; source material in first person does not license a first-person shape.
+
 ## Dispositions
 
 A failing line is never patched: the passage containing it regenerates, diagnosis first. A flag that is kept gets its reason stated next to the ruling. Rulings are per-sentence and recorded in the QA run's output, not on the page.
