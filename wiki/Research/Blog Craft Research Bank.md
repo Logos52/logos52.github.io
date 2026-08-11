@@ -6,7 +6,9 @@ created: 2026-08-11
 updated: 2026-08-11
 description: "50 verbatim-verified blog openings and stated craft principles — supermemo.guru, Naval, gwern.net, Graham, and the opening-move corpus (5 lanes, 2026-08-11)."
 tags:
-  - research\n  - writing\n---
+  - research
+  - writing
+---
 
 # Blog Craft Research Bank
 

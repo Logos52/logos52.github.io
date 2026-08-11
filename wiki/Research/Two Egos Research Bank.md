@@ -6,7 +6,9 @@ created: 2026-08-11
 updated: 2026-08-11
 description: "48 verified works on ego, self-regard, and selfhood — the source bank behind The Two Meanings of Ego (6 lanes, 2026-08-10)."
 tags:
-  - research\n  - mindset\n---
+  - research
+  - mindset
+---
 
 # Two Egos Research Bank
 

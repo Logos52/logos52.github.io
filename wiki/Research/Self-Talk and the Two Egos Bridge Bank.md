@@ -6,7 +6,10 @@ created: 2026-08-11
 updated: 2026-08-11
 description: "16 verified works mapping which self-talk patterns cultivate selfhood vs self-regard (2 lanes, 2026-08-11)."
 tags:
-  - research\n  - mindset\n  - self-talk\n---
+  - research
+  - mindset
+  - self-talk
+---
 
 # Self-Talk and the Two Egos Bridge Bank
 

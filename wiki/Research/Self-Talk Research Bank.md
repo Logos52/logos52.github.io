@@ -6,7 +6,9 @@ created: 2026-08-11
 updated: 2026-08-11
 description: "48 verified works on inner speech, rumination, and the catching practice — the source bank behind Catching the Inner Voice (6 lanes, 2026-08-11)."
 tags:
-  - research\n  - self-talk\n---
+  - research
+  - self-talk
+---
 
 # Self-Talk Research Bank
 
