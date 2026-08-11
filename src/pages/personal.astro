@@ -69,7 +69,7 @@ const questions: string[] = Array.isArray((entry?.data as Record<string, unknown
           )}
         </div>
         <aside class="minimap">
-          <Constellation mode="local" seeds={seeds} hops={2} nodeScale={0.7} labels="hover" height="clamp(140px, 20vh, 180px)" />
+          <Constellation mode="local" seeds={seeds} hops={1} nodeScale={0.55} labels="hover" height="clamp(140px, 20vh, 180px)" />
         </aside>
       </section>
 
@@ -106,7 +106,7 @@ const questions: string[] = Array.isArray((entry?.data as Record<string, unknown
       }
 
       <section class="settled">
-        <h2 class="sec-head">Settled</h2>
+        <h2 class="sec-head">Standing pages</h2>
         <div class="settled__cards">
           {settled.map((e) => (
             <a class="scard" style={`--dc:${WING_COLORS[wingOf(e.id)] ?? 'var(--d-mind)'}`} href={'/' + simplifySlug(e.id)}>

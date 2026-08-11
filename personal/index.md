@@ -4,8 +4,6 @@ description: "Working notes on mindset, habits, and judgment."
 type: personal-index
 questions:
   - "How much of the person belongs in the work?"
-  - "Which artifact makes movement pull — the map, the data loop, or the tech tree?"
-  - "Which temperature does the next one-year contract get lived at?"
 hideFolderListing: true
 created: 2026-08-10
 updated: 2026-08-10
