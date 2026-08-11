@@ -2,6 +2,7 @@
 title: "The Treadmill Library"
 type: personal
 status: draft
+blurb: "Content built for one listener, at the density the stride allows, on a shelf that only fills."
 created: 2026-07-22
 updated: 2026-07-22
 tags:

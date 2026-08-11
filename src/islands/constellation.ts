@@ -696,6 +696,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   const showDomainLabels = root.dataset.domainLabels != null; // the Map: label each domain cluster
   const vertical = root.dataset.orient === 'vertical'; // local mode: lay out as a tall column
   const nodeScale = Number(root.dataset.nodeScale) || 1; // per-instance marker scaling (e.g. a minimap)
+  const hoverLabels = root.dataset.labels === 'hover'; // minimap: no persistent seed titles, hover tips only
   const isMobile = window.matchMedia('(max-width: 700px)').matches;
   let colors = readColors();
 
@@ -1191,7 +1192,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
 
   function shouldSkipHtmlTip(n: CNode) {
     if (mode === 'spine' && n.tier === 'hub') return true;
-    if (localSeedLabels && n.isFlag) return true;
+    if (localSeedLabels && !hoverLabels && n.isFlag) return true;
     return false;
   }
 
@@ -1352,7 +1353,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
     for (const n of nodes) {
-      const persistent = (mode === 'spine' && n.tier === 'hub') || (localSeedLabels && n.isFlag);
+      const persistent = (mode === 'spine' && n.tier === 'hub') || (localSeedLabels && !hoverLabels && n.isFlag);
       if (!persistent) continue;
       const isHub = n.tier === 'hub';
       const focusedHub = mode === 'spine' && isHub && n === hovered;

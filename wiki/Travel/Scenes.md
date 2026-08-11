@@ -2,6 +2,7 @@
 title: "Scenes"
 type: personal
 status: seed
+blurb: "Small scenes, collected as they happen. The patterns can wait until there are enough of them."
 voice: "mine — scenes as they happened; shaping by my collaborator"
 created: 2026-07-21
 updated: 2026-07-21

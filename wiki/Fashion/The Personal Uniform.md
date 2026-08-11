@@ -2,6 +2,7 @@
 title: "The Personal Uniform"
 type: personal
 status: draft
+blurb: "The uniforms only look interchangeable from far away; up close, they're as identifying as handwriting."
 created: 2026-07-22
 updated: 2026-07-22
 tags:

@@ -2,6 +2,7 @@
 title: "Reading as Local"
 type: personal
 status: draft
+blurb: "The world spent decades running its heuristics on me; these pages are the reading running the other way."
 created: 2026-07-22
 updated: 2026-07-22
 tags:

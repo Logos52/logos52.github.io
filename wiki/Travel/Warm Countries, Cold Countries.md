@@ -2,6 +2,7 @@
 title: "Warm Countries, Cold Countries"
 type: personal
 status: draft
+blurb: "A visit shows the sights; a year on a lease shows the personality."
 created: 2026-07-22
 updated: 2026-07-22
 tags:

@@ -18,6 +18,8 @@ interface Props {
   orient?: 'horizontal' | 'vertical';
   /** marker-size multiplier for this instance (e.g. 0.7 for a minimap); default 1. */
   nodeScale?: number;
+  /** 'hover' = suppress persistent seed titles; everything labels on hover only (minimaps). */
+  labels?: 'hover';
   /** data source URL (default /graph.json); the Map page points this at /map.json. */
   src?: string;
   /** draw persistent domain territory labels (the Map). */
@@ -32,6 +34,7 @@ const {
   domain,
   orient,
   nodeScale,
+  labels,
   src = '/graph.json',
   domainLabels = false,
 } = Astro.props;
@@ -46,6 +49,7 @@ const {
   data-domain={domain || undefined}
   data-orient={orient || undefined}
   data-node-scale={nodeScale != null ? String(nodeScale) : undefined}
+  data-labels={labels || undefined}
   data-src={src}
   data-domain-labels={domainLabels ? 'true' : undefined}
   style={`height:${height}`}

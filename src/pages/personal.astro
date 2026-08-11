@@ -49,6 +49,11 @@ const WING_COLORS: Record<string, string> = { fitness: 'var(--d-focus)', fashion
 
 // The personal neighborhood: every settled page + every note, 1 hop into the rest of the vault.
 const seeds = [...settled, ...notes].map((e) => e.id);
+
+// "Rethinking" — open personal questions, owned in personal/index.md frontmatter (`questions:`).
+const questions: string[] = Array.isArray((entry?.data as Record<string, unknown> | undefined)?.questions)
+  ? ((entry!.data as Record<string, unknown>).questions as string[])
+  : [];
 ---
 
 <Base title="Personal" description={lede} active="personal">
@@ -64,9 +69,22 @@ const seeds = [...settled, ...notes].map((e) => e.id);
           )}
         </div>
         <aside class="minimap">
-          <Constellation mode="local" seeds={seeds} hops={1} nodeScale={0.7} height="clamp(140px, 20vh, 180px)" />
+          <Constellation mode="local" seeds={seeds} hops={2} nodeScale={0.7} labels="hover" height="clamp(140px, 20vh, 180px)" />
         </aside>
       </section>
+
+      {
+        questions.length > 0 && (
+          <section class="mind">
+            <h2 class="sec-head">Rethinking</h2>
+            <ul class="mind__list">
+              {questions.map((q) => (
+                <li class="mind__q">{q}</li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
 
       {
         notes.length > 0 && (
@@ -89,23 +107,17 @@ const seeds = [...settled, ...notes].map((e) => e.id);
 
       <section class="settled">
         <h2 class="sec-head">Settled</h2>
-        <div class="hub-card">
-          <ul class="hub-list">
-            {settled.map((e) => (
-              <li>
-                <a href={'/' + simplifySlug(e.id)}>
-                  <Icon
-                    name={WING_ICONS[wingOf(e.id)] ?? 'ti-notes'}
-                    size="16px"
-                    class="hub-list__icon"
-                    style={`color:${WING_COLORS[wingOf(e.id)] ?? 'var(--d-mind)'}`}
-                  />
-                  <span class="hub-list__title">{deriveTitle(e.data, e.id, e.body)}</span>
-                  <span class="hub-list__wing">{wingOf(e.id)}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
+        <div class="settled__cards">
+          {settled.map((e) => (
+            <a class="scard" style={`--dc:${WING_COLORS[wingOf(e.id)] ?? 'var(--d-mind)'}`} href={'/' + simplifySlug(e.id)}>
+              <span class="scard__kind">
+                <Icon name={WING_ICONS[wingOf(e.id)] ?? 'ti-notes'} size="13px" />
+                <span class="scard__wing">{wingOf(e.id)}</span>
+              </span>
+              <span class="scard__title">{deriveTitle(e.data, e.id, e.body)}</span>
+              {e.data.blurb && <span class="scard__sub">{e.data.blurb}</span>}
+            </a>
+          ))}
         </div>
       </section>
     </div>
@@ -205,53 +217,87 @@ const seeds = [...settled, ...notes].map((e) => e.id);
     margin: 3px 0 0;
   }
 
-  .settled {
+  .mind {
     margin-top: 26px;
   }
-  .hub-card {
-    background: var(--card);
-    border: 1px solid var(--rule);
-    border-radius: var(--tsg-radius);
-    padding: 14px 16px;
-    box-shadow: var(--tsg-shadow);
-  }
-  .hub-list {
+  .mind__list {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: grid;
+    gap: 10px;
   }
-  .hub-list li {
-    border-top: 1px solid var(--rule);
-  }
-  .hub-list li:first-child {
-    border-top: none;
-  }
-  .hub-list a {
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    padding: 7px 2px;
-    text-decoration: none;
+  .mind__q {
+    font-family: var(--ming);
+    font-size: var(--kb-text-base);
     color: var(--ink);
   }
-  .hub-list a:hover .hub-list__title {
-    color: var(--accent);
+
+  .settled {
+    margin-top: 26px;
   }
-  .hub-list a :global(.hub-list__icon) {
-    flex-shrink: 0;
+  .settled__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
-  .hub-list__title {
-    font-size: var(--kb-text-base);
+  .scard {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 14px 15px;
+    border-radius: var(--tsg-radius);
+    border: 1px solid color-mix(in oklab, var(--dc) 22%, var(--rule));
+    background: color-mix(in oklab, var(--dc) 6%, var(--card));
+    box-shadow: var(--tsg-shadow);
+    text-decoration: none;
+    transition:
+      transform var(--dur-fast),
+      border-color var(--dur-base);
   }
-  .hub-list__wing {
-    margin-left: auto;
+  .scard:hover {
+    transform: translateY(-1px);
+    border-color: color-mix(in oklab, var(--dc) 40%, var(--rule));
+  }
+  .scard__kind {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .scard__kind :global(.kb-icon) {
+    color: var(--dc);
+    opacity: 0.7;
+  }
+  .scard__wing {
     font-family: var(--mono);
-    font-size: 11px;
-    color: var(--faint);
+    font-size: 8.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--dc);
+  }
+  .scard__title {
+    font-family: var(--ming);
+    font-size: var(--kb-text-base);
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--ink);
+  }
+  .scard__sub {
+    font-size: var(--kb-text-sm);
+    color: var(--mut);
+    line-height: var(--kb-lh-snug);
   }
 
   @media (max-width: 820px) {
     .top {
+      grid-template-columns: 1fr;
+    }
+    .settled__cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 560px) {
+    .settled__cards {
       grid-template-columns: 1fr;
     }
   }

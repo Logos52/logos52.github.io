@@ -2,6 +2,7 @@
 title: "Movement as Accretion"
 type: personal
 status: experiment
+blurb: "Showing up rewards itself when something grows, and absence needs no punishment at all."
 created: 2026-07-21
 updated: 2026-07-22
 tags:
