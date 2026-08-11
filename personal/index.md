@@ -2,8 +2,9 @@
 title: "Personal"
 description: "Working notes on mindset, habits, and judgment."
 type: personal-index
-questions:
-  - "How much of the person belongs in the work?"
+practicing:
+  - text: "Catching the inner voice — noticing the lines that don't advance the goals, and retraining them."
+    page: "wiki/Concepts/Catching the Inner Voice"
 hideFolderListing: true
 created: 2026-08-10
 updated: 2026-08-10

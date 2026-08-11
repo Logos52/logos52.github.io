@@ -14,7 +14,7 @@ import Base from '../layouts/Base.astro';
 import Constellation from '../components/Constellation.astro';
 import Icon from '../components/Icon.astro';
 import { deriveTitle } from '../lib/note';
-import { simplifySlug } from '../lib/slug';
+import { simplifySlug, slugifyFilePath } from '../lib/slug';
 
 const entry = await getEntry('notes', 'personal/index');
 const rendered = entry ? await render(entry) : null;
@@ -50,9 +50,11 @@ const WING_COLORS: Record<string, string> = { fitness: 'var(--d-focus)', fashion
 // The personal neighborhood: every settled page + every note, 1 hop into the rest of the vault.
 const seeds = [...settled, ...notes].map((e) => e.id);
 
-// "Rethinking" — open personal questions, owned in personal/index.md frontmatter (`questions:`).
-const questions: string[] = Array.isArray((entry?.data as Record<string, unknown> | undefined)?.questions)
-  ? ((entry!.data as Record<string, unknown>).questions as string[])
+// "Practicing" — the deliberate practices currently running, owned in personal/index.md
+// frontmatter (`practicing:` — list of { text, page? }); a set page links the line to it.
+type Practice = { text: string; page?: string };
+const practicing: Practice[] = Array.isArray((entry?.data as Record<string, unknown> | undefined)?.practicing)
+  ? ((entry!.data as Record<string, unknown>).practicing as Practice[]).filter((p) => p && p.text)
   : [];
 ---
 
@@ -74,12 +76,14 @@ const questions: string[] = Array.isArray((entry?.data as Record<string, unknown
       </section>
 
       {
-        questions.length > 0 && (
+        practicing.length > 0 && (
           <section class="mind">
-            <h2 class="sec-head">Rethinking</h2>
+            <h2 class="sec-head">Practicing</h2>
             <ul class="mind__list">
-              {questions.map((q) => (
-                <li class="mind__q">{q}</li>
+              {practicing.map((p) => (
+                <li class="mind__q">
+                  {p.page ? <a class="mind__link" href={'/' + simplifySlug(slugifyFilePath(p.page))}>{p.text}</a> : p.text}
+                </li>
               ))}
             </ul>
           </section>
@@ -231,6 +235,13 @@ const questions: string[] = Array.isArray((entry?.data as Record<string, unknown
     font-family: var(--ming);
     font-size: var(--kb-text-base);
     color: var(--ink);
+  }
+  .mind__link {
+    color: inherit;
+    text-decoration: none;
+  }
+  .mind__link:hover {
+    color: var(--accent);
   }
 
   .settled {
