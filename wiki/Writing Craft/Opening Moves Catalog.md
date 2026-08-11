@@ -1,6 +1,6 @@
 ---
 title: "Opening Moves Catalog"
-type: system
+type: concept
 status: developing
 created: 2026-08-11
 updated: 2026-08-11
