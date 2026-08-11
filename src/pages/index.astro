@@ -77,25 +77,12 @@ const topOfMind: Mind[] = [
       L('Story Craft', 'wiki/Story Craft/Story Craft'),
     ],
   },
-  {
-    q: 'What stays human as the models match generativity',
-    links: [
-      L('Human vs AI Capability Lens', 'wiki/Concepts/Human vs AI Capability Lens'),
-      L('Higher-Order Generativity vs Judgment', 'wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment'),
-      L('A Motorcycle for the Mind', 'wiki/Concepts/A Motorcycle for the Mind'),
-      L('The AI Industrial Revolution', 'wiki/Concepts/The AI Industrial Revolution'),
-      L('Automation and the Job Iceberg', 'wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg'),
-    ],
-  },
-  {
-    q: 'What changes when the deliberate reasoning inside a model can be read and steered directly',
-    links: [
-      L('Global Workspace and J-space', 'wiki/Concepts/Global Workspace and J-space'),
-      L('The workspace a language model thinks in', 'journal/2026-07-07-the-workspace-a-language-model-thinks-in'),
-      L('Human vs AI Capability Lens', 'wiki/Concepts/Human vs AI Capability Lens'),
-    ],
-  },
 ];
+// THE FOUR-CAP (Wedge's standing command, re-issued 2026-08-11 after the list drifted to six):
+// Top of mind holds exactly 4. A new entry enters only with the lowest retiring in the same edit,
+// archived below like the others. The guard is fail-closed — the build dies before the list grows.
+if (topOfMind.length > 4)
+  throw new Error(`Top of mind holds 4 entries (Wedge's cap); found ${topOfMind.length} — retire the lowest before adding.`);
 // Retired from the card 2026-07-17 (Wedge: the list must not grow — lowest entry archived, not deleted):
 //   q: 'If a generation offloads its thinking to AI, what are the second-order effects?'
 //   links: Epistemic Exceptionalism (wiki/Red Team) · The Shortcut Problem (wiki/Concepts) · The Age of Nonlinear Returns (wiki/Concepts)
@@ -105,6 +92,11 @@ const topOfMind: Mind[] = [
 // Retired 2026-08-06 (same rule — the Least-Cost Interpretation entry came in, lowest went out):
 //   q: 'Whether the line between what humans and models own is fixed, or keeps shifting'
 //   links: Human vs AI Capability Lens (wiki/Concepts) · Higher-Order Generativity vs Judgment (wiki/Concepts) · The AI Industrial Revolution (wiki/Concepts) · The Floor Rose, the Ceiling Is the Job (journal)
+// Retired 2026-08-11 (the four-cap enforced — list had drifted to six, pruned back, lowest two out):
+//   q: 'What stays human as the models match generativity'
+//   links: Human vs AI Capability Lens (wiki/Concepts) · Higher-Order Generativity vs Judgment (wiki/Concepts) · A Motorcycle for the Mind (wiki/Concepts) · The AI Industrial Revolution (wiki/Concepts) · Automation and the Job Iceberg (wiki/Systems/AI & Agentic Systems)
+//   q: 'What changes when the deliberate reasoning inside a model can be read and steered directly'
+//   links: Global Workspace and J-space (wiki/Concepts) · The workspace a language model thinks in (journal/2026-07-07) · Human vs AI Capability Lens (wiki/Concepts)
 
 // Intent doors ("Start here") — route a visitor by intent, not topic. slug → a note path
 // (resolved via cardHref); the graph door uses a direct href. Titles/subs are mined from each

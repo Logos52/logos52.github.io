@@ -12,7 +12,8 @@ const rendered = entry ? await render(entry) : null;
 const Content = rendered?.Content;
 
 // "Top of mind" = the active projects, shown as a local graph (1-hop neighborhood of each).
-const JOURNAL_PROJECTS = ['projects/tsumugu', 'projects/wnac', 'projects/cos', 'projects/llm-knowledge-base', 'wiki/Story-Craft/Story-Craft'];
+// Pruned 2026-08-11 (Wedge: too many items) — Story-Craft out, the four real projects stay.
+const JOURNAL_PROJECTS = ['projects/tsumugu', 'projects/wnac', 'projects/cos', 'projects/llm-knowledge-base'];
 ---
 
 <Base title="Journal" description="Working notes, decisions, and what's top of mind." active="journal">
