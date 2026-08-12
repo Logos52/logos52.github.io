@@ -2,7 +2,7 @@
 type: reference
 status: developing
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-08-12
 tags:
   - agentic
   - tooling
@@ -13,67 +13,37 @@ tags:
 
 # Current Agentic LLM Stack
 
-This page documents the models, tools, and workflows used for agentic work on the `llm-knowledge-base` project.
+The models and agents doing agentic work across the projects, as of August 2026. Three agents split the work by kind — judgment, execution, standing duty — and the only local models left are audio instruments.
 
 ## Current Stack
 
-| Layer              | Tool / Model                  | Purpose                                      | Notes |
-|--------------------|-------------------------------|----------------------------------------------|-------|
-| **Remote Model**   | Grok 4.3 (via API)            | High-level reasoning, synthesis, framing     | Strong at conceptual work and system-level thinking |
-| **Local Model**    | Hermes 3 8B (via Ollama)      | Local execution, file editing, iteration     | Fast local access, fully private |
-| **Agent Interface**| Hermes (via Ollama)           | Primary interface for agentic work on the wiki | Direct local model access |
-| **Local Runner**   | Ollama                        | Runs local models on this machine            | Currently running `hermes3:8b` |
-| **Instructions**   | `AGENTS.md`                   | Project-specific rules and configuration     | Loaded by the agent at startup |
+| Layer | Tool / Model | Purpose |
+|---|---|---|
+| **Primary agent** | Claude Cowork (Fable 5) | Research lanes, synthesis, structure; page drafting under the vault's [[02 - System/Writing Standards\|writing standards]], final cut at the desk |
+| **Coding agent** | Grok Build (`grok-n1` / `grok-admin` profiles) | Execution on the Mac's real files and toolchain; separate profiles keep personal and work isolated |
+| **Standing agents** | Grok Bot (cloud, one shared computer) | The always-on half — watching, fetching, filing; see [[wiki/Systems/AI & Agentic Systems/Standing Research Agents\|Standing Research Agents]] |
+| **Local models** | Qwen3-TTS + Whisper (MLX, Apple Silicon) | Audio production only: TTS generates the voices, Whisper transcribes them back for QA |
+| **Instructions** | `AGENTS.md` / `CLAUDE.md` per repo | Project rules, loaded at session start |
 
-## Model Usage Patterns (Hybrid Approach)
+## Division of Labor
 
-We deliberately use a **hybrid model workflow** rather than relying on a single model:
+Claude carries the judgment-heavy work: parallel research lanes, synthesis, and drafting, with the model's default voice filtered by the writing standards and every page's final cut staying human. Grok Build carries execution — builds, scripts, batch file work — on the machine where the files and credentials live. Grok Bot carries the standing lanes on its own cloud computer, which holds only what is already public. The local models are production instruments rather than agents: voice generation and its transcription check, both on Apple Silicon.
 
-- **Grok** → Used for high-level thinking, system design, tone calibration, and complex synthesis.
-- **Hermes 3 (8B)** → Used for direct file work, editing, auditing, implementation, and tasks that benefit from local file access and privacy.
+Everything runs on subscription plans or local hardware; nothing in the stack is pay-per-token.
 
-See [[Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]] for the current division of labor and rationale.
+## What's Gone
 
-## Configuration
-
-- Hermes is launched with the alias `hermes-kb`, which automatically:
-  - Uses `ollama/hermes3:8b`
-  - Reads `AGENTS.md`
-- Environment variable `OLLAMA_API_BASE=http://localhost:11434` is set for local model access.
-
-## Key Principles
-
-- **Local vs Remote**: Use local models (Hermes) when working directly with files or private material. Use remote models (Grok) when stronger reasoning or conceptual depth is needed.
-- **Instructions matter more with smaller models**: Hermes 3 8B requires more explicit and structured instructions than Grok.
-- **Context discipline**: Be intentional about what is loaded into context, especially with the 8B model.
-- **Private material**: The private/ICS material is treated as high-quality source truth but is **never cited** in public wiki pages.
-
-## Current Limitations
-
-- Only using the 8B version of Hermes 3.
-- No advanced agent orchestration yet (single agent per session).
-- Limited web access (Playwright not installed).
+Hermes 3 via Ollama — the May version of this page named it the primary interface for wiki work. It was retired within weeks and no local chat or agent model replaced it: local inference at useful agent quality cost more in speed and reliability than the subscription agents charge, and the privacy case it was meant to serve is handled instead by keeping private material out of cloud-agent reach entirely.
 
 ## Evolution
 
-- **Early 2026**: Primarily used Grok for all work on the knowledge base.
-- **May 2026**: Began experimenting with local models. Installed Hermes 3 via Ollama as the primary agent interface for file-level and execution work. Started documenting hybrid model workflows and model-specific instructions in `AGENTS.md`.
+- **Early 2026** — Grok for all knowledge-base work.
+- **May 2026** — local-model experiment: Hermes 3 8B via Ollama as the wiki's agent interface. Retired within weeks.
+- **June 2026** — Claude Cowork becomes the primary agent; vault prose moves under the writing standards.
+- **August 2026** — Grok Bot (beta 2026-08-11) adds the standing half; local models narrow to audio production.
 
-## Tooling Wishlist & Future Experiments
+## Related
 
-- Evaluate Hermes 3 70B (when hardware or workflow allows)
-- Explore multi-agent setups (e.g. one agent for research/synthesis, another for editing and review)
-- Add better RAG / retrieval capabilities over the full knowledge base
-- Test other strong local models (e.g. newer Qwen or Command-R variants)
-- Experiment with more structured agent orchestration tools
-- Improve context management and long-running agent sessions
-
-## Related Pages
-
-- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — Opus · Sonnet · Haiku · Fable · Composer 2.5 · Grok 4.3 profiled on the five AI facets.
-- [[Agentic Engineering|Agentic Engineering]]
-- [[Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]]
-- [[How Top Performers Learn|How Top Performers Learn]]
-- [[Context Engineering|Context Engineering]]
-- [[Vibe Coding|Vibe Coding]]
-- [[Essential AI Skills 2026|Essential AI Skills 2026]]
+- [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]] — the standing half in full
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]] — the doctrine the division of labor answers to
+- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — the zone model behind "judgment stays at the desk"
