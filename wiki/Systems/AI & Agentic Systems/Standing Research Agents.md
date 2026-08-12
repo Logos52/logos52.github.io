@@ -14,7 +14,7 @@ tags:
 
 # Standing Research Agents
 
-For most of this wiki's life, research ran only while a session was open: a laptop awake, an agent running, questions going out and briefs coming back, and all of it stopping the moment the lid closed. Most of what research needs day to day turns out to be smaller than a session and never stops needing done — sources publish overnight, a deploy breaks an hour after it ships, notes drift apart quietly. The apparatus now splits the work along that line. The standing half — watching, fetching, filing — belongs to a set of always-on cloud agents; building and heavy execution stay with the local agents on the Mac; and judgment — what a finding means, what becomes a page, what ships — stays at the desk.
+The research here splits into a standing half and a session half. Four always-on cloud agents hold the standing half — watching, fetching, filing. Execution stays with the local agents on the Mac, and judgment — what a finding means, what becomes a page, what ships — stays at the desk.
 
 <svg viewBox="0 0 720 400" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Standing research structure">
   <g font-size="9" fill="currentColor" opacity=".45" font-weight="700" letter-spacing=".08em">
