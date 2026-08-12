@@ -106,7 +106,7 @@ The cloud side runs on Grok Bot, where every agent on an account shares one pers
 
 All four agents share one cloud computer, where files, logins, and credentials are common property and files outlive any single agent. That geometry sets the trust line: the cloud side carries only what is already public. The vault's private half — drafts, raw sources, finances — is gitignored and structurally out of the agents' reach; they clone the published repo and see what a stranger sees. Execution runs closer to home: the local agents on the Mac hold the disk, the credentials, and the build stacks, with Claude Cowork carrying synthesis and structure and Grok Build carrying toolchain work. Every irreversible act — a page published, a deploy, a vault write — passes the desk.
 
-This is the [[wiki/Concepts/Human vs AI Capability Lens|capability lens]] run as an org chart. The standing lanes are its Delegate cell held as duty; session work is Augment; and the pages stay Own — an agent never writes one, because a page is a position its author holds, and [[wiki/Concepts/The Two Meanings of Ego|the author being present]] is the point of keeping a wiki at all.
+This is the [[wiki/Concepts/Human vs AI Capability Lens|capability lens]] run as an org chart. The standing lanes are its Delegate cell held as duty, and session work is Augment — the pages themselves are its clearest case: agents draft them under the vault's [[02 - System/Writing Standards|writing standards]], the model's default selling voice is rejected on sight, and final cut stays at the desk. A page is a position its author holds, whoever typed the first draft.
 
 ## What the structure costs
 
