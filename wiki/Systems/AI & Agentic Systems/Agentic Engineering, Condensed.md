@@ -53,4 +53,4 @@ Operating adjustments for the models of this moment. Each line names what would 
 
 ---
 
-*Omitted deliberately: the operating stack and model roster ([[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — rots by design, lives one layer down), agent-specific setups ([[wiki/Systems/AI & Agentic Systems/Hermes Agent|Hermes Agent]]), and the wiki-maintenance routines ([[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]] and siblings own them). The invariants/tactics split is itself a falsifiable bet: an invariant that rots belongs in §3's successor, and the move gets recorded when it happens.*
+*Omitted deliberately: the operating stack and model roster ([[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — rots by design, lives one layer down), agent-specific setups (Hermes Agent), and the wiki-maintenance routines ([[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]] and siblings own them). The invariants/tactics split is itself a falsifiable bet: an invariant that rots belongs in §3's successor, and the move gets recorded when it happens.*

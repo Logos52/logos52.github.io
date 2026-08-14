@@ -3,261 +3,172 @@ title: "Deep Processing Tanking"
 type: concept
 status: developing
 created: 2026-05-23
-updated: 2026-05-23
-source-count: 3
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 10
 tags:
   - deep-processing
   - learning-strategy
   - cognitive-load
+  - schema
+  - transitions
   - self-diagnosis
 ---
 
 # Deep Processing Tanking
 
-## Core Thesis
+> Part of [[wiki/Dimensions/Deep Processing|Deep Processing]]
 
-Deep processing tanking happens when a naturally strong learner has been processing new information by instinct: evaluating importance, comparing ideas, building analogies, and forming schema without needing much explicit strategy. Because this works through easier environments, the learner never has to build a deliberate learning system. When complexity or volume rises past what instinct alone can carry, performance drops or effort spikes. The learner has not become less capable; the strategy gap has finally become visible.
+Deep processing tanking is the stretch of years spent evaluating importance, comparing, analogizing, and forming schema by instinct, which clears curricula pitched at the average without a method being demanded. It holds until the material outgrows what instinct can carry. Copying a top learner's visible strategy does not transfer the result, because the strategy was never what produced it.
 
-The fix is often faster than expected because the core processing ability is already there. The work is to turn deep processing from an unconscious strength into a conscious skill: externalize the thinking, organize relationships deliberately, manage cognitive load, and test the structure early enough that natural depth can scale.
-
----
+The type is a history of automatic work, not a measured trait. People who have been evaluating importance, comparing, analogizing, and forming schema without naming any of it as a method clear ordinary environments so cleanly that no deliberate system is ever demanded.
 
 ## Compressed Takeaways
 
-- Deep processing is the mental work of evaluating importance, comparing ideas, making analogies, simplifying accurately, and building schema.
-- Natural deep processors often succeed early because their brain performs this work automatically. That success can hide weak strategy.
-- Tanking usually appears at transitions: school to university, university to work, familiar domain to unfamiliar domain, individual contributor to higher responsibility, or low volume to high volume.
-- The key diagnostic is not "did it get harder?" but "did the effort-to-result ratio suddenly worsen?"
-- Understanding is not enough. The learner can follow the material and still lack an organized structure that can be retrieved, applied, or modified.
+- Deep processing is evaluating importance, comparing, analogizing, simplifying accurately, and building schema.
+- Automatic processing can carry easier environments, and that success hides a missing method.
+- The break usually arrives at a transition: school to university, university to work, a familiar domain to an unfamiliar one, individual work to higher responsibility, low volume to high.
+- The diagnostic is not whether the work got harder. Harder work should cost more. Tanking is a disproportionate jump in hours for the same or worse result.
+- Understanding is not enough. Material can be followed while no retrievable, usable structure exists.
 - More effort only helps when it creates better organization. Effort spent fighting confusion, distraction, or unsupported detail is bad load.
-- The repair is strategy, not brute force: thinking on paper, schema mapping, comparison, importance ranking, micro-retrieval, and early application.
-- The readiness filter is: "Do I know enough about this to make it simpler?" If not, step down a layer before forcing detail.
+- The repairs are handles, not replacements: thinking on paper, schema mapping, comparison, importance ranking, micro-retrieval, early application.
+- The readiness filter is whether enough is already known to make the material simpler. If not, the work steps down a layer.
 
----
+## What the processing is doing
 
-## What Deep Processing Actually Does
+Deep processing is the work of making meaning rather than repeating a surface: evaluating how important a piece is, comparing it with what is already held, finding an analogy, simplifying it accurately, and placing it in a structure that can be retrieved later. Evaluation, stated as an act rather than a feeling, is a value judgment — how important this is, whether it is more or less important than that, what order they go in if they are ranked. Most learners finish a page asking only whether they understood it.
 
-Deep processing is not a vague label for being smart. It is a set of mental operations that turn information into usable knowledge.
+A strong processor runs a higher bar on the same sense-making test. The material does not make sense yet until it has been simplified, connected to what is already known, given an analogy, and ranked against its neighbours. The work keeps going until it is clear what matters, why, how it compares, where it fits, what it changes, how to simplify it, and how to use it. That is what produces schema rather than isolated facts. Surface detail can be forgotten and the idea rebuilt from the structure.
 
-A deep processor does not stop at "I understand this." They keep working until they know:
+The same work can feel effortless. While it stays implicit it is never noticed as a set of skills, and never built into tools that still run when the day is bad and the volume is high.
 
-- what matters,
-- why it matters,
-- how it compares to other ideas,
-- where it fits,
-- what it changes,
-- how it can be simplified,
-- and how it can be used.
+## Why the method never gets built
 
-This produces schema rather than isolated facts. The learner can forget surface details and still rebuild the idea because the structure is intact.
+Three levers move results: time and effort, strategy, and natural processing. Challenge rises, and most learners add time and effort first. That lever is finite. Exhaustion or weak returns end it, and they are pushed onto strategy. Strategy is what carries them upward afterwards. The average learner's strategy improved continuously across those same years because improving it was the only thing available.
 
-The trap is that natural deep processing can feel effortless. If the mind already evaluates, compares, and analogizes automatically, the learner may never notice that these are skills. They may also never build deliberate tools for doing them under pressure.
+A house built with one hammer goes up faster the longer and harder the hammer swings, right up to the jobs a hammer cannot do at all. No amount of swinging converts into those. This system's own teaching model of the same fact: a learner whose methods are limited moves from thirty hours to sixty and lifts total mastery from about 66 percent to about 76 percent. Double the hours, ten points. Time and effort is finite; more of it only helps when it creates better organization.
 
----
+**Some methods are incompatible with the higher levels of mastery unless the processing is already high.**
 
-## Why Deep Processing Tanks
+Someone who can lift a hundred kilos one-handed does not need clean technique to lift five or ten. School curricula, university examinations, and grading standards are pitched at the average, so almost any method clears them for a strong processor. The strategy lever is never pulled because it is never needed. The discovery arrives a long way from shore, in deep water, with no stroke to swim.
 
-Learning performance depends on three levers:
+Natural processing is powerful and unreliable while it stays implicit. The first response to the jump is usually more hours. Grinding the hours, or having someone else break the topic down, clears the instance and leaves the cause in place, so the same wall returns. Being a hard worker is a real capability. Needing maximum effort for everything is not.
 
-| Lever | What it does | Failure mode |
-|---|---|---|
-| Time and effort | Adds more exposure and attempts | Finite; eventually produces exhaustion or weak returns |
-| Strategy | Makes effort more efficient and targeted | Often underbuilt by naturally strong learners |
-| Natural processing | Creates depth, connection, and schema | Powerful but unreliable when left implicit |
+## Nothing was lost
 
-Average learners often hit the limit of time and effort earlier, which forces them to improve strategy. Natural deep processors can skip that forcing function for years because their processing ability compensates for ordinary methods.
+The learner has not become less capable. The limit that was reached is the limit of the strategies already in use. The test is not whether the work got harder. Harder work should cost more. Tanking is the disproportionate jump: the same or worse result for far more hours. The ratio has a real numerator in this system's teaching model: mastery and retention held per hour, not content covered per session. Coverage never measures what is still there a week later, or whether the knowledge can be used rather than recognised.
 
-That works until the environment changes. The material becomes denser, the volume increases, the domain becomes unfamiliar, or the learner is expected to produce more independent judgment. The old method no longer scales, but the learner's first response is usually to add more hours.
+Between the stretch when things were easy and the point where they stopped being easy, the difficulty moved roughly from a three to a seven. Did the strategy move from a three to a seven, or from a three to a four?
 
-This creates the tanking experience:
+The chain is short. Strong processing produces early success on ordinary methods. Early success removes the pressure to build strategy. A transition arrives. Hours go up. Returns decline. The belief forms that ability dropped.
 
-```text
-strong natural processing
--> early success with ordinary methods
--> little pressure to develop strategy
--> transition to higher complexity or volume
--> more time and effort
--> declining return on effort
--> mistaken belief that ability has dropped
+## What the jump looks like from inside
+
+Tanking appears at transitions: school to university, university to work, a familiar domain to an unfamiliar one, individual contributor to higher responsibility, low volume to high. A programme where everyone arrived as the top of their own school, taught at a level pitched for exactly that, removes the margin the strong processor had been living on. When complexity or volume rises past what instinct carries, performance drops or effort spikes.
+
+The signs are concrete. Hours rise without proportional gains. The material makes sense but is not usable. Notes multiply without command. The work feels slower than the self-image. Rereading and rewatching stop solving it. Performance exposes gaps that passive understanding hid.
+
+This is not the main explanation for attention-span problems, low motivation, or misuse of generated answers. Those are adjacent mechanisms. Tanking is specifically the strategy gap when natural depth stops scaling. If a few weeks of externalizing and testing early has not moved the effort-to-result ratio, strategy was not the bottleneck. Volume, sleep, prerequisite knowledge, and attention each produce the same surface and have their own repairs.
+
+## Understanding is not organization
+
+Understanding is not enough. The material can be followed while no retrievable, applicable, modifiable structure exists.
+
+| Understanding | Organization |
+|---|---|
+| Makes sense while looking at it | What matters, where it fits, how to use it |
+| Recognition, familiarity, short-term clarity | Schema, retrieval, transfer, application |
+
+Deep processors are especially exposed because they understand quickly, and quick understanding hides weak organization until performance. The replacement question is "How can I organize this?" [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery]] owns the levels between recognizing a thing and being able to use it. [[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization|Schema Construction, Assimilation, and Reorganization]] owns how an organized structure is actually built, extended, and rebuilt.
+
+## The repair is not easier learning
+
+The repair is not to make learning easier. Easy learning often removes the effort that creates durable encoding. The move is into the right kind of load, not out of load.
+
+## Good load and bad load
+
+More effort only helps when it creates better organization. Load spent decoding, copying, or holding detail that has nothing to attach to occupies working memory, and the structure has to be built with what is left. Resources that interleave fine detail with occasional logic keep relevance fluctuating, so no model can form to hold what arrives, and difficulty stays high the whole way through.
+
+```
+weak: copying notes without judgment; decoding technical language too early; memorizing unsupported detail; fighting distraction; accepting another person's structure wholesale; pushing into material with no foundation
+
+strong: comparing distant concepts; judging importance; simplifying accurately; explaining from memory; asking non-obvious relationship questions; building a schema map; testing a hypothesis; applying immediately
 ```
 
-The ability did not vanish. The hidden strategy gap became visible.
+[[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] is the page that owns this split: effort that builds the model against effort that occupies working memory without building it.
 
----
+## Readiness, and six handles
 
-## The Transition Test
+The readiness filter is a question already half-owned: do I know enough about this to make it simpler? If not, the work steps down a layer. A layer, in this system's teaching model, is one of four: logic — the backbone, the largest chunks and the relationships that hold them; concepts — what a thing is and how it happens; important details — the ones that make a concept concrete; arbitrary details — carried only because they are assessed. Roughly a tenth of the material is conceptual, a fifth is important detail, and the remaining seventy per cent is arbitrary — and the arbitrary share shrinks as the first two layers get better, because relevance is what converts an arbitrary detail into a placed one. Ten thousand leaves hang off five or six branches. The operative move is to improve the backbone, not to memorise harder.
 
-The cleanest diagnostic is the transition test.
+If a piece cannot be simplified, the next move is a simpler explanation, the missing terms, the prerequisites, the detail marked for later, or a rough schema first. Deep processors tolerate high effort and can read it as progress; the question keeps productive depth from becoming unsupported strain. [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]] owns this structure and the volume estimate behind it.
 
-Ask:
+The six repairs do not replace deep processing. They give it handles.
 
-> After a jump in difficulty, did I need disproportionately more effort to get the same or worse result?
+- Thinking on paper makes the evaluation visible, so it can be inspected and revised.
+- Schema mapping places each piece against the others.
+- Importance ranking gives each relationship an explicit significance rating against the wider topic, with a short bounded lookup when the rating is uncertain; gaps stop hiding, and relationships that felt settled turn uncertain.
+- Non-obvious questions force comparisons the source never made.
+- Micro-retrieval reconstructs a piece immediately, before checking.
+- Early application ships an imperfect structure on purpose and tests it.
 
-If the answer is yes, deep processing tanking is plausible.
+[[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]] is the externalizing move and the likely first repair. [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]] is what testing the structure early means in practice.
 
-Common signs:
+Owning a skill takes more than understanding it, remembering it, and applying it correctly. It has to run consistently and easily when tired, stressed, or having a bad day. That fourth requirement is the one that fails, and it fails exactly where the skill was most needed. Implicit depth only runs on a good day. The handles are what change that.
 
-- study or work time rises sharply without proportional gains,
-- material still "makes sense" but does not become usable,
-- notes multiply without improving command of the topic,
-- the learner feels slower in a way that does not match their self-image,
-- rereading or watching more content stops solving the problem,
-- and tests, projects, or real work expose gaps that passive understanding hid.
+Practice time is fixed. Spreading it across five new skills grows each at a fifth of the rate, and a payoff that would have arrived after ten focused hours arrives after fifty. One or two at a time, worked until each is correct and consistent.
 
-The transition test is useful because it separates ordinary challenge from a system failure. Harder work should take more effort. Tanking means the effort-to-result ratio breaks.
+For the average learner the eventual limiter is the processing habits themselves, and retraining those runs in months to years. A learner whose processing is already strong is limited by strategy instead, and strategy moves on a much shorter clock. That is why the repair is often fast. It is a reason, not a promise.
 
----
+The tell is not that the material feels easier — feeling easier is what this page warns against. The same result arriving in fewer hours, and the topic rebuildable from memory with the notes closed, is the check.
 
-## Understanding Is Not Organization
+This is a practitioner category, not a measured syndrome. The nearest public research establishes that instructional support has to change as skill grows — which supports the general shape, that what helped before stops helping, and does not establish a named condition. The reframe is only earned once the ordinary causes of the same surface are ruled out.
 
-The central practical distinction:
+## Making depth repeatable
 
-| Mode | What it feels like | What it produces |
-|---|---|---|
-| Understanding | "This makes sense while I look at it." | Recognition, familiarity, short-term clarity |
-| Organization | "I know what matters, where it fits, and how to use it." | Schema, retrieval, transfer, application |
+The operating model is a short loop: diagnose the transition, identify the hidden strategy gap, externalize, move effort into good load, apply the readiness filter, test early, make depth repeatable. The work is turning deep processing from an unconscious strength into a conscious skill. The repair adds no processing power. It gives the processing handles, and the difference between a capability and a tendency is whether the depth still runs when the learner is tired and the volume is high.
 
-Deep processors can be especially vulnerable to this distinction because they often understand quickly. Quick understanding can hide weak organization until the learner has to perform: explain without notes, solve a new problem, write a synthesis, or apply the concept in a different context.
+## Links into the knowledge base
 
-The replacement question is:
-
-> How can I organize this?
-
-That question forces the learner to rank, group, compare, simplify, and connect. It turns comprehension into structure.
-
----
-
-## Good Load And Bad Load
-
-The repair is not to make learning easier. Easy learning often removes the effort that creates durable encoding. The repair is to move effort into the right kind of cognitive load.
-
-Good load:
-
-- comparing distant concepts,
-- judging importance,
-- simplifying accurately,
-- explaining from memory,
-- asking non-obvious relationship questions,
-- creating a schema map,
-- testing a hypothesis,
-- and applying the idea immediately.
-
-Bad load:
-
-- fighting distraction,
-- decoding unnecessarily technical language too early,
-- copying notes without judgment,
-- accepting another person's structure,
-- trying to memorize unsupported detail,
-- or pushing into material that has no foundation yet.
-
-Good load builds the model. Bad load consumes the energy needed to build the model.
-
----
-
-## Readiness Filtering
-
-The most useful readiness question:
-
-> Do I know enough about this to make it simpler?
-
-If the answer is no, the learner is probably trying to encode detail above their current foundation. The better move is to step down a layer:
-
-- find a simpler explanation,
-- define the missing terms,
-- identify prerequisites,
-- mark the detail for later,
-- or build a rough schema before returning.
-
-This is especially important for deep processors because they may tolerate high cognitive effort and mistake that effort for progress. The question prevents productive depth from becoming unsupported strain.
-
----
-
-## Repair Strategies
-
-The right strategies are the ones that make deep processing visible.
-
-**Thinking on paper:** Externalize the comparison, ranking, and simplification that would otherwise happen invisibly in the head.
-
-**Schema mapping:** Show how concepts relate instead of listing them in source order.
-
-**Importance ranking:** Decide what is central, supporting, optional, or premature.
-
-**Non-obvious questions:** Compare ideas that do not look directly related. This forces relationship-building rather than recognition.
-
-**Micro-retrieval:** After learning a piece, retrieve and reconstruct it immediately before checking. This reveals whether the structure exists.
-
-**Early application:** Use the concept before the learning phase feels finished. Application exposes false understanding quickly.
-
-These strategies work because they do not replace deep processing. They give it handles.
-
----
-
-## The Operating Model
-
-```text
-1. Diagnose the transition
-   Where did the effort-to-result ratio suddenly worsen?
-
-2. Identify the hidden strategy gap
-   Am I relying on automatic understanding without explicit organization?
-
-3. Externalize the model
-   Put relationships, rankings, questions, and simplifications on paper.
-
-4. Move effort into good load
-   Compare, organize, retrieve, simplify, and apply.
-
-5. Filter by readiness
-   If I cannot simplify it, step down a layer before forcing detail.
-
-6. Test early
-   Use retrieval, explanation, examples, or application before the structure hardens.
-
-7. Make depth repeatable
-   Turn natural deep processing into a deliberate skill that can scale.
-```
-
----
-
-## When To Use This Page
-
-Use this page when a learner:
-
-- used to learn quickly but now feels inefficient,
-- adds more hours without getting better results,
-- understands material but cannot use it,
-- struggles after a transition in complexity or volume,
-- has strong curiosity and connection-making but weak explicit method,
-- or needs to convert natural thinking into a repeatable learning strategy.
-
-Do not use this page as the main explanation for attention-span problems, low motivation, or AI misuse. Those are adjacent mechanisms. Deep processing tanking is specifically about the strategy gap exposed when natural depth stops scaling.
-
----
-
-## Links Into the Knowledge Base
-
-- [[wiki/Dimensions/Deep Processing|Deep Processing]] - parent dimension; this page describes one failure mode of strong but implicit deep processing.
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]] - likely first repair strategy.
-- [[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization|Schema Construction, Assimilation, and Reorganization]] - mechanism behind organization and schema repair.
-- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery]] - overlaps with the understanding-versus-organization distinction.
-- [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]] - supports productive struggle and early schema formation.
-- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] - should absorb the good-load versus bad-load distinction.
-
----
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] — the parent dimension; this page is one failure mode of processing that is strong and implicit.
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]] — the externalizing move, and the likely first handle.
+- [[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization|Schema Construction, Assimilation, and Reorganization]] — how an organized structure is built, extended, and rebuilt.
+- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery]] — the ladder from recognizing a thing to being able to use it.
+- [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]] — shipping an imperfect structure on purpose and testing it.
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — good load against bad load, with working-memory occupancy as the reason rather than fuel.
+- [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]] — the logic / concept / important-detail / arbitrary-detail structure that "step down a layer" names.
 
 ## Open Questions
 
-- What are the earliest warning signs before a full tanking event?
-- Which repair strategy should come first for this user: Thinking on Paper, schema mapping, micro-retrieval, or Bear Hunter System?
-- Should "good load versus bad load" become its own reusable concept page?
-- How should this map onto the user's existing Aim, Shoot, Skin language?
-- Can partial tanking happen in one domain while another domain still feels effortless?
+What are the earliest warning signs, before the ratio breaks?
 
----
+Which repair comes first when more than one is missing?
+
+Should good load and bad load have their own page?
+
+How do the six handles map onto Aim, Shoot, and Skin?
+
+Can tanking be partial — one domain failing while another is fine?
 
 ## Sources
 
-- [The Psychology of Deep Thinkers](https://www.youtube.com/watch?v=weq6gamKqcM)
-- [How to Learn ANYTHING Faster Than Everyone](https://www.youtube.com/watch?v=qOjSJVaBV94)
-- [How To Become A Top 1% Learner (Without Being Smart)](https://www.youtube.com/watch?v=1iv4YPQVmTc)
+Craik, F. I. M., & Lockhart, R. S. (1972). Levels of processing: A framework for memory research. *Journal of Verbal Learning and Verbal Behavior*, 11(6), 671–684. Depth of processing as the durability mechanism.
+
+Craik, F. I. M., & Tulving, E. (1975). Depth of processing and the retention of words in episodic memory. *Journal of Experimental Psychology: General*, 104(3), 268–294. The experimental follow-through.
+
+Rozenblit, L., & Keil, F. (2002). The misunderstood limits of folk science: An illusion of explanatory depth. *Cognitive Science*, 26(5), 521–562. Understanding while looking is not a usable structure.
+
+Chi, M. T. H., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. *Cognitive Science*, 5(2), 121–152. Expert representation is organized by principle, not surface.
+
+Bjork, R. A. (1994). Memory and metamemory considerations in the training of human beings. In J. Metcalfe & A. P. Shimamura (Eds.), *Metacognition* (pp. 185–205). MIT Press. Easy-feeling study can be the weaker encoding.
+
+Bjork, R. A., Dunlosky, J., & Kornell, N. (2013). Self-regulated learning: Beliefs, techniques, and illusions. *Annual Review of Psychology*, 64, 417–444. The desirable-difficulties follow-through.
+
+Sweller, J., van Merriënboer, J. J. G., & Paas, F. (2019). Cognitive architecture and instructional design: 20 years later. *Educational Psychology Review*, 31, 261–292. Germane load against extraneous; working-memory occupancy rather than fuel.
+
+Kalyuga, S., Ayres, P., Chandler, P., & Sweller, J. (2003). The expertise reversal effect. *Educational Psychologist*, 38(1), 23–31. Instructional support has to change as skill grows — the nearest public cousin, not a trial of this named condition.
+
+Hagger, M. S., et al. (2016). A multilab preregistered replication of the ego-depletion effect. *Perspectives on Psychological Science*, 11(4), 546–573. The depletion account that would have made bad load a fuel problem did not replicate.
+
+Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students' learning with effective learning techniques. *Psychological Science in the Public Interest*, 14(1), 4–58. Practice testing and elaborative interrogation as the public cousins of the handles.

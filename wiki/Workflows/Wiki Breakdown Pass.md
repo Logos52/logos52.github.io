@@ -1,71 +1,63 @@
 ---
+title: "Wiki Breakdown Pass"
 type: workflow
-status: seed
+status: developing
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-08-14
+written-by: grok
+model: grok
 source-count: 1
 tags:
-  - llm
   - workflow
   - maintenance
+  - llm
   - wiki-expansion
 ---
 
 # Wiki Breakdown Pass
 
-Missing pages, split candidates, and new connections should be found deliberately before hub pages become overloaded.
+A breakdown pass finds missing pages and split candidates before a hub is asked to hold more. Breakdown here is a planned search with a table before anything is created, not a crash. Notice comes first. Change comes after the table.
 
-## Purpose
+## Table first
 
-The goal is to identify subtopics with enough practical value to deserve their own page.
+A hub is a connector page. It orients. It does not carry every subtopic. The pass is useful when a hub has grown large, when several pages mention the same idea, or when new directions are wanted. [[wiki/Workflows/Wiki Status Checks|Wiki Status Checks]] is read-mostly and does not create. This pass is the create-after-table pass.
 
-Breakdown is useful when a hub page has grown large, when several pages mention the same idea, or when the user wants new directions for the wiki.
-
-## Workflow
-
-1. Read [[notes/index|notes/index.md]], recent `log.md`, and relevant hub pages.
-2. Search `wiki/` for recurring named concepts, techniques, workflows, tools, books, people, or systems without dedicated pages.
-3. Identify bloated pages where a subtopic has enough substance to become its own page.
-4. Rank candidates by usefulness to the user's active systems, number of references, and clarity of purpose.
-5. Present a candidate table before creating pages unless the user has already asked to create them.
-6. When creating pages, add backlinks from parent pages and update [[notes/index|notes/index.md]].
+1. Read [[notes/index|notes/index.md]], recent `log.md`, and the relevant hub pages. Also read `notes/catalog.md`. The catalog is how "mentioned without a page" is findable. It is agent-only, not a public page.
+2. Search `wiki/` for recurring named concepts, techniques, workflows, tools, books, people, or systems that have no dedicated page.
+3. Identify bloated pages where a subtopic has enough substance to stand alone. A third substantial paragraph is the smell.
+4. Rank by usefulness to active systems, number of references, and clarity of purpose.
+5. Present a candidate table before creating pages, unless the user has already asked to create them.
+6. When creating, add backlinks from the parent or the hub. Update [[notes/index|notes/index.md]] only when a new hub or condensed page earns a front-door link.
 7. Append a `compile` or `maintenance` entry to `log.md`.
 
-## Candidate Test
+## What is worth a page
 
-A candidate page is worth creating when it can support:
+The goal is to identify subtopics with enough practical value to deserve their own page. A candidate is worth creating when it can support a clear role, a useful summary, practical implications, related links, and at least one source or parent page. A page that would only contain a definition and one vague paragraph is not created.
 
-- a clear role in the knowledge base,
-- a useful summary,
-- practical implications,
-- related links,
-- and at least one source or parent page.
+| Kind of page | Split when |
+|---|---|
+| Hub | A subtopic needs several substantial paragraphs |
+| Technique | A step has its own procedure or failure modes |
+| Synthesis | A recurring concept is useful outside the original |
+| Book | A takeaway becomes a general principle |
+| Workflow | A recurring sub-step is reusable |
 
-Avoid pages that would only contain a definition and one vague paragraph.
+The candidate table uses five columns: Candidate · Proposed folder · Why it matters · Current references · Priority.
 
-## Common Split Patterns
+Breakdown that creates stubs, dumps every new page onto the front door, or runs as a status pass is the case against. The price is a table, then only the rows that pass the candidate test. A candidate that cannot support summary, implications, and links, or two passes that only add definition-and-a-paragraph pages, is the quit signal. The checkable residue is a table before creation, an index that moved only for a hub or condensed page, and a log line.
 
-| Parent Pattern | Split When |
-| --- | --- |
-| Hub page | A subtopic needs several substantial paragraphs. |
-| Technique page | A step has its own operating procedure or failure modes. |
-| Synthesis page | A recurring concept becomes useful outside the original synthesis. |
-| Book page | A takeaway becomes a general principle used elsewhere. |
-| Workflow page | A recurring sub-step becomes reusable across workflows. |
+The wiki is larger only where the table said a page could carry its own weight.
 
-## Output
+## Links into the knowledge base
 
-Use a table like this before creating pages:
+- [[wiki/Workflows/Wiki Status Checks|Wiki Status Checks]] — read-mostly sibling. Does not create.
+- [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]] — lint sibling. Flags; does not table-then-create.
+- [[02 - System/Writing Standards|Writing Standards]] — how a new page has to be written. Unpublished on the public site.
 
-| Candidate | Proposed folder | Why it matters | Current references | Priority |
-| --- | --- | --- | --- | --- |
+## Open Questions
 
-## Related
-
-- [[wiki/Workflows/Wiki Status Checks|Wiki Status Checks]]
-- [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]
-- [[02 - System/Writing Standards|Writing Standards]]
+When is a third substantial paragraph still not a split — a worked example, a bound, a local illustration?
 
 ## Sources
 
-- [[AGENTS]]
+- [[AGENTS]] — live Breakdown operation.

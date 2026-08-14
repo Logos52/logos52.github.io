@@ -11,9 +11,9 @@ tags:
   - ics
 ---
 
-# Good Decisions
+# Judging a Decision by Its Process
 
-A choice should be judged first by the quality of the process, not by whether the outcome happened to work. Use Good Decisions when reviewing a choice after the result is known.
+A choice should be judged first by the quality of the process, not by whether the outcome happened to work. Use this when reviewing a choice after the result is known.
 
 The practical version:
 

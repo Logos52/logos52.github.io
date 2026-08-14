@@ -1,0 +1,50 @@
+---
+type: workflow
+status: seed
+created: 2026-05-02
+updated: 2026-05-02
+source-count: 1
+last-audited:
+tags:
+  - llm
+  - audit
+  - maintenance
+---
+
+# Wiki Health Checks
+
+Coverage, consistency, and source discipline improve when the wiki gets periodic LLM-assisted reviews.
+
+## Checks
+
+- Uncompiled sources.
+- Wiki pages with no sources.
+- Orphan pages.
+- Broken links.
+- Duplicate concepts.
+- Contradictory claims.
+- Stale pages.
+- Missing glossary terms.
+- Good candidate pages not yet written.
+
+## Output
+
+Write health check reports to `01 - Workbench/` unless the user asks for an archive location.
+
+Each report should include:
+
+- Summary.
+- Findings.
+- Suggested edits.
+- Pages created or updated.
+- Questions added to [[journal/index|journal openQuestions]] / `outputs/generated-questions.md`.
+- Entry appended to `log.md`.
+
+## Related Concepts
+
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[Raw to Wiki Compilation]]
+
+## Sources
+
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]

@@ -1,0 +1,45 @@
+---
+type: concept
+status: seed
+created: 2026-05-02
+updated: 2026-06-15
+source-count: 2
+last-audited:
+tags:
+  - llm
+  - software
+  - prompting
+---
+
+# Software 3.0
+
+Natural-language context and prompts become a programming medium when LLMs can interpret them as instructions, constraints, examples, and executable intent.
+
+## Summary
+
+In Software 1.0, humans write explicit code. In Software 2.0, behavior is learned in neural network weights. In Software 3.0, a human supplies context, instructions, examples, files, and constraints to an LLM that interprets that context and acts in the digital environment.
+
+## Why It Matters
+
+The unit of leverage shifts from exact code to effective context. A good instruction to an agent can replace a long shell script or manual setup guide because the agent can inspect the environment, adapt, run commands, and debug.
+
+For this wiki, `AGENTS.md`, `notes/index.md`, and `log.md` are Software 3.0 artifacts: they program future LLM behavior through structured context.
+
+Naval's version of the shift: we learned code to talk to machines, and now the machines speak English — fuzzy, sloppy, human English — so the question becomes where the moat is once the interface language is natural. The early sign of the medium maturing is the reversal of who instructs whom. Today the human still completes the model ("go get this API key, only you can do that"); as SaaS tools expose CLIs and text interfaces, the model starts handing instructions back. See [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].
+
+## Related Concepts
+
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]
+
+## Sources
+
+- [[raw/sources/Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]
+- [[raw/processed/The AI Industrial Revolution|The AI Industrial Revolution]]
+
+## Open Questions
+
+- What parts of this repo are best thought of as Software 3.0 instructions?
+- How should prompts, specs, and agent instructions be versioned?

@@ -1,60 +1,88 @@
 ---
 title: "What the Model Names Signal"
 type: concept
-status: seed
+status: developing
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-08-14
+written-by: grok
+model: grok
 source-count: 4
 tags:
-  - llm
-  - models
   - claude
-  - naming
   - grok
   - composer
+  - naming
+  - llm
+  - models
   - agentic-engineering
 ---
 
 # What the Model Names Signal
 
-Anthropic's model names are a capability ladder dressed as poetry: the *form* in each name encodes the scale and kind of composition the model is tuned for, from a three-line haiku to a full opus. Reading the name points you to the right tier before you read a benchmark.
+Anthropic's first three model names are verse-forms whose size tracks the job — a first look inside one generation, not a spec. Later names, and other vendors, do not play the same game. Reading the name can point at a tier before a benchmark, only inside that generation.
 
-## The poetic ladder
+## The original three
 
-- **Haiku** — the 17-syllable miniature. Smallest, fastest, cheapest; built to condense, not to deliberate. Reach for it on high-volume, verifiable, low-stakes work.
-- **Sonnet** — the 14-line form, structure balanced with room to move. The mid-tier workhorse: structured reasoning at everyday speed and cost.
-- **Opus** — Latin for "work," as in *magnum opus*. The largest and most capable, for complex, layered, creative problems where being right outweighs being cheap.
-- **Fable** — a crafted narrative with a point. The shift to a story-form name signals a model tuned for long-form, creative, narrative generation rather than terse reasoning — generativity strong, taste-bound judgment weaker ([[wiki/Systems/AI & Agentic Systems/Claude Fable|Claude Fable]]).
+The poetic ladder is Haiku, Sonnet, and Opus: named verse-forms that track small and fast, then mid, then large and slow, inside one Anthropic generation.
 
-The through-line: the length and ambition of the poetic form tracks the model's capability and the kind of output it composes. A haiku is precise and small; an opus is large and demanding; a fable is a told story. Pick the form that matches the job.
+**Haiku** is the 17-syllable miniature, in the English-school count. Smallest, fastest, cheapest. Built to condense, not to deliberate. Reach for it on high-volume, verifiable, low-stakes work.
 
-| Name | Poetic form | Signals | Reach for it when |
-| --- | --- | --- | --- |
-| Haiku | 17-syllable miniature | small · fast · cheap | high-volume, verifiable, low-stakes |
-| Sonnet | 14-line structured form | balanced reasoning | the everyday default |
-| Opus | a masterwork | largest · deepest | complex, high-stakes, creative calls |
-| Fable | a crafted narrative | long-form creative generation | storytelling, drafting, ideation |
+**Sonnet** is the 14-line form. Structure, with space left over. Everyday default: mid-tier reasoning at ordinary speed and cost.
 
-## Composer 2.5 vs Grok in Grok Build
+**Opus** is Latin for "work," as in *magnum opus*. The previous top of the family, still the named workhorse for complex, layered, creative problems where being right outweighs being cheap. It is the deepest of the original three. It is not the top of the current family.
 
-Two different bets on the same agentic-coding job. **Composer 2.5** (Cursor's in-house model, built on Kimi K2.5) is a speed specialist: ~250 tokens/sec (vendor-reported, 2–4× typical code models), SWE-Bench Multilingual ~79.8% (≈ Opus-4.7 class), at roughly a tenth of Opus's price, exposing code execution, IDE integration, and parallel agents. It is the mechanical workhorse — fast, cheap, verifiable code loops. **Grok in Grok Build** (xAI's agentic CLI) is the generalist: reasoning plus vision/multimodal, ~100+ tokens/sec and ~$1/$2 per million tokens (vendor-reported), broader in scope but slower, with independent agentic benchmarks still pending.
+The small form is exact. The large form asks more. Match the form to the job.
 
-On the [[wiki/Concepts/Human vs AI Capability Lens|capability lens]] this is two different polygons: Composer spikes Scale, Verifiability, and Autonomy — the mechanical-coding corner — while Grok spreads wider into reasoning and multimodal but sits a notch inside the frontier today. The July Grok release, trained on Composer-style data, is projected near Opus parity; re-grade it on launch rather than now.
+| Name | The form | Reach for it when |
+|---|---|---|
+| Haiku | 17-syllable miniature · small · fast · cheap | High-volume, verifiable, low-stakes |
+| Sonnet | 14-line structured form · balanced reasoning | The everyday default |
+| Opus | A masterwork · deepest of the original three | Complex, high-stakes, creative calls |
 
-## The case against reading names
+## A genre, not a scale
 
-The metaphor is positioning, not a spec. A name marks a tier, and tiers blur across versions: a newer Sonnet can beat an older Opus, so the ladder holds within a generation, not across them. Composer and Grok don't ride the poetry scheme at all — they answer to throughput, price, and SWE-bench, where vendor-reported numbers need independent confirmation. Treat the name as a first heuristic; a task's verifiability and the dated [[wiki/Concepts/Human vs AI Capability Lens|model snapshot]] decide the actual pick.
+The through-line — length and ambition of the poetic form tracks capability — holds for those three. It breaks when the next name is a genre rather than a scale.
 
-## Sources
+**Fable** is from Latin *fabula*, "that which is told," akin to Greek *mythos*. That is the etymology. It is not a causal encoder. On 9 June 2026 Anthropic named a new class above Opus: Mythos-class. Fable is the guarded public release of that class; Mythos is the restricted twin. The safeguards distinguish them. The vendor's use is long-running agents and next-generation intelligence, not "pick this when you want a story."
 
-- [Choosing the right Claude model: Haiku, Sonnet, Opus, or Fable](https://claude.com/resources/tutorials/choosing-the-right-claude-model)
-- [Decoding Anthropic's model names: Fable and the naming shift](https://www.developersdigest.tech/blog/anthropic-model-naming-explained)
-- [Introducing Composer 2.5 — Cursor](https://cursor.com/blog/composer-2-5)
-- [Composer 2.5 vs Grok Build 0.1 comparison](https://www.llmreference.com/compare/composer-2-5/grok-build-0.1)
+Do not send a reader to Fable instead of Opus for storytelling on the strength of the word. Observed behavior of the public model — including taste-bound failure and an elicit-first habit — lives on [[wiki/Systems/AI & Agentic Systems/Claude Fable|Claude Fable]]. That is a reading of the model, not of the name.
+
+## Inside a generation
+
+A name marks a tier, and tiers blur across versions. A newer Sonnet can beat an older Opus, so the ladder holds within a generation, not across them. The metaphor is positioning, not a spec.
+
+## Names that never rode the poetry
+
+Two other names are two different bets on the same agentic-coding job. They do not ride the poetry scheme at all. They answer to throughput, price, and a coding bench.
+
+Composer 2.5 is one vendor's in-house model, built on an open checkpoint. It is a speed specialist and a mechanical workhorse: fast, cheap, verifiable code loops. On that vendor's 18 May 2026 table it scores 79.8% on SWE-Bench Multilingual against 80.5% for Opus 4.7 on the same table. That is one dated bench, vendor-reported. Other benches on the same table are mixed; one number is not the model. The Standard card is $0.50 / $2.50 per million tokens. A Fast card exists at $3 / $15. Do not collapse those into a ratio against Opus.
+
+Grok in Grok Build is the generalist: reasoning plus vision, broader in scope, slower. The 29 May 2026 card is ~100+ tokens per second and ~$1 / $2 per million tokens, vendor-reported.
+
+On the [[wiki/Concepts/Human vs AI Capability Lens|capability lens]] these are two different polygons. One spikes Scale, Verifiability, and Autonomy. The other spreads wider into reasoning and multimodal work. Do not restate the scores here.
+
+## Positioning, not a spec
+
+Vendor-reported numbers need independent confirmation. Treat the name as a first heuristic. A task's verifiability and the dated [[wiki/Concepts/Human vs AI Capability Lens|model snapshot]] decide the actual pick. Which model to spend where, by depth rather than by name, is [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]]. The dated roster is [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]. This page is not that page.
+
+The case against the reading: the metaphor is positioning; the ladder is within a generation; other vendors never played; Fable is a new class above, named for telling, split by safeguards; every number on this page is a dated card.
+
+The name is a first look. The dated snapshot does the pick.
 
 ## Related
 
-- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — the facet snapshot for each model.
-- [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]] — which model to spend where.
-- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]
-- [[wiki/Systems/AI & Agentic Systems/Claude Fable|Claude Fable]]
+- [[wiki/Systems/AI & Agentic Systems/Claude Fable|Claude Fable]] — observed behavior of the public model, including taste-bound failure; not what the name encodes.
+- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — the facet snapshot that actually decides the pick.
+- [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]] — which model to spend where, by depth, not by name.
+- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — the dated roster this page is not.
+
+## Open Questions
+
+- Has the dropped July projection — a Grok release trained on Composer-style data, near Opus parity — been re-graded on a dated card?
+
+## Sources
+
+- Anthropic, [Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family), March 2024. Haiku / Sonnet / Opus as a named family.
+- Anthropic, [Claude Fable 5 and Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5), 9 June 2026, footnotes 1–2. Mythos-class above Opus; Fable public, Mythos restricted; named for telling.
+- Cursor, [Composer 2.5](https://cursor.com/blog/composer-2-5), 18 May 2026. Standard card and the SWE-Bench Multilingual table.
+- xAI, [Grok Build 0.1](https://x.ai/news/grok-build-0-1), 29 May 2026. Throughput and unit price, vendor-reported.

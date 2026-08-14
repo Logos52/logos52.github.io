@@ -1,97 +1,73 @@
 ---
+title: "Judging a Decision by Its Process"
 type: concept
-status: seed
+status: developing
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-08-14
+written-by: grok
+model: grok
 source-count: 3
 tags:
+  - ics
   - decision-making
+  - review
   - uncertainty
   - self-regulation
-  - ics
 ---
 
 # Judging a Decision by Its Process
 
-A choice should be judged first by the quality of the process, not by whether the outcome happened to work. Use this when reviewing a choice after the result is known.
+A process judgment is a dated note of why the choice made sense given what was known, written ahead of the result. A sloppy pick can still get lucky, and a sound one can still fail. Those two cases are why the note, not the later result, is the grade.
 
-The practical version:
+## Why the outcome is not the grade
 
-1. Record why the decision made sense before the outcome is known.
-2. Separate process quality from outcome quality.
-3. Use the outcome as feedback, not as the entire verdict.
-4. Improve the decision process for the next repetition.
+Use this after the result is known. Decisions are made with incomplete information. Outcomes are affected by timing, chance, changing conditions, other people, and variables that were never under control. Outcome-only judgment produces two errors: it rewards a bad process that got lucky, and it abandons a good process that met bad conditions.
 
-This replaces outcome-only judgment. A good outcome can come from a weak decision, and a bad outcome can follow from a strong decision under uncertainty.
+The better question: given what was known at the time, was the process reasonable?
 
-## Why Outcome Is Not Enough
+Different situations have different amounts of control. Some outcomes are mostly the process. Some are mostly luck. The more of the result that was actually owned, the more the result may grade the process. A well-specified exam is higher-control than a career bet. That is a direction, not a percentage.
 
-Decisions are made with incomplete information. Outcomes are affected by timing, chance, changing conditions, other people, and variables the user could not control.
+The instrument that makes the question answerable is a note written before the outcome exists: why the choice made sense then. Afterward, process quality and outcome quality stay separate. The result is one piece of feedback, not the entire verdict. The next repetition is where the process improves.
 
-If the user judges only by outcome, two errors become likely:
+## The reviews
 
-- rewarding bad processes that got lucky,
-- and abandoning good processes that met bad conditions.
+A process review asks six things. What was known at the time? What was uncertain? What downside was protected? What option improved the position — the question [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]] owns? What would change my mind — the handoff to [[wiki/Decision Making/Changing Decisions|Changing Decisions]]? What did the outcome teach?
 
-The better question is: given what was known at the time, was the process reasonable?
+Four lightweight checks sit beside that list. They replace a separate toolkit. What assumption would break this if false? What is the strongest case against the preferred option? If this fails, what is the most likely reason? Is this being chosen because it is good, or because it protects comfort, identity, or self-image?
 
-## Process Review
+Learning outcomes are noisy, but academic assessments are the high-control case. With a sound process, results are more predictive; luck shrinks toward being sick on the day. A poor test score does not automatically mean the method was bad. A good score does not automatically mean it was strong. Inspect the process, and do not treat a single score as nothing.
 
-Use this review after meaningful decisions:
+Was encoding deep enough? Was retrieval spaced and interleaved? Were gaps found early? Was the exam different from expected? Was the result caused by knowledge, execution, stress, or timing?
 
-| Question | Purpose |
-| --- | --- |
-| What did I know at the time? | Prevents hindsight from rewriting the situation. |
-| What was uncertain? | Shows which variables needed information. |
-| What downside did I protect? | Checks risk management. |
-| What option improved my position? | Checks whether the choice created future leverage. |
-| What would change my mind? | Separates commitment from rigidity. |
-| What did the outcome teach me? | Turns results into process feedback. |
+That inspection turns performance into [[wiki/Dimensions/Self-Regulation|Self-Regulation]] instead of a verdict on the person. [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] is the after-action shape: what happened, how it felt and why, what rule that suggests, what changes next time.
 
-## Lightweight Red Team Checks
+| Failure | What it does |
+|---|---|
+| Resulting | Grades the decision only by the final result |
+| Hindsight certainty | Makes the right answer feel obvious after |
+| Emotional verdict | Treats disappointment as evidence |
+| No feedback loop | Leaves the process unimproved |
+| Overcorrection | Lets one bad outcome flip the whole strategy |
 
-Use these when the decision is meaningful but does not deserve a full analysis ritual:
+Resulting is the name for the first row: treating the result as the grade.
 
-- What assumption would break this decision if false?
-- What is the strongest case against my preferred option?
-- If this fails, what is the most likely reason?
-- Am I choosing this because it is good, or because it protects comfort, identity, or self-image?
+In a high-control repeat the result may amend the dated note. In a low-control bet it is one noisy input. Either way the next move is to improve the process for the next repetition — regulation, not a verdict on the person.
 
-These replace separate Red Team tool pages. They are small checks inside the decision process.
+## Links into the knowledge base
 
-## Relationship To Learning
+- [[wiki/Decision Making/Decision Making|Decision Making]] — hub; the split lives here in full.
+- [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]] — position / EV questions in the review.
+- [[wiki/Decision Making/Changing Decisions|Changing Decisions]] — the change review this page's last questions hand off to.
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] — after-action: what happened, what rule, what changes.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — performance as regulation, not a verdict on the person.
+- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] — empathy replacing judgment.
 
-This principle matters in study systems because learning outcomes are noisy.
+## Open questions
 
-A poor test score does not automatically mean the method was bad. A good score does not automatically mean the method was strong. The user should inspect the process:
+Is the pre-outcome note enough, or does a high-consequence choice need a repeated journal?
 
-- Was encoding deep enough?
-- Was retrieval spaced and interleaved?
-- Were gaps found early?
-- Was the exam different from expected?
-- Was the result caused by knowledge, execution, stress, or timing?
+## Sources
 
-This turns performance into self-regulation instead of self-judgment.
-
-## Failure Modes
-
-| Failure | What It Looks Like | Fix |
-| --- | --- | --- |
-| Resulting | The user judges the decision only by the final result. | Review what was known before the outcome. |
-| Hindsight certainty | The right answer feels obvious after the fact. | Preserve pre-decision notes. |
-| Emotional verdict | Disappointment becomes evidence that the decision was bad. | Separate feeling, process, and outcome. |
-| No feedback loop | The outcome happens but nothing improves. | Extract one process change. |
-| Overcorrection | One bad outcome causes a total strategy change. | Look for repeated evidence before major changes. |
-
-## Related Pages
-
-- [[wiki/Decision Making/Decision Making|Decision Making]]
-- [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]
-- [[wiki/Decision Making/Changing Decisions|Changing Decisions]]
-- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
-
-## Open Questions
-
-- Should the user keep a lightweight decision journal for high-consequence choices?
+- Duke, *Thinking in Bets* (2018) — resulting: grading a decision by how it turned out. Names the two errors (lucky-bad-process, unlucky-good-process).
+- Fischhoff 1975 — hindsight rewrites what was knowable. Support for writing the reasons before the result exists.
+- Howard / decision-analysis — decision quality and outcome quality are separate objects.

@@ -36,4 +36,4 @@ The estimate will sometimes be wrong; the decision to estimate still pays. Runni
 
 ## Links into the system
 
-Grounds [[Positional Decisions and Expected Value]] — that page carries the position-improving move and downside protection across repeated choices; this one explains why the underlying calculation must be banded rather than computed. The cuts slot into the variable-naming and downside steps of the operating loop in [[Decision Making]], and [[Good Decisions]] judges the result the same way this page does: by the quality of the process given the information held at the time.
+Grounds [[Positional Decisions and Expected Value]] — that page carries the position-improving move and downside protection across repeated choices; this one explains why the underlying calculation must be banded rather than computed. The cuts slot into the variable-naming and downside steps of the operating loop in [[Decision Making]], and [[wiki/Decision Making/Judging a Decision by Its Process|judging a decision by its process]] judges the result the same way this page does: by the quality of the process given the information held at the time.

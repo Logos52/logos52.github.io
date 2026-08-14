@@ -1,93 +1,68 @@
 ---
+title: "Positional Decisions and Expected Value"
 type: concept
-status: seed
+status: developing
 created: 2026-05-08
-updated: 2026-05-08
-source-count: 4
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 3
 tags:
+  - ics
   - decision-making
+  - expectancy
   - uncertainty
   - expected-value
-  - ics
 ---
 
 # Positional Decisions and Expected Value
 
-Some choices matter because they improve future leverage, even when the final outcome is uncertain. Use Positional Decisions when certainty is unavailable, but one option creates a better future position.
+An unknown result is scored by the options, information, and ruin left for the next choice. A single outcome does not grade that kind of decision. The same kind of pick still has to pay across repeats.
 
-The practical version:
+## Position, then expectancy
 
-1. Accept that the outcome is uncertain.
-2. Identify which option improves position.
-3. Estimate expected value across repeated or similar decisions.
-4. Protect unacceptable downsides.
-5. Prefer decisions that increase future options, information, leverage, or resilience.
+Use this when certainty is unavailable, but one option creates a better future position. Waiting can be useful if it produces meaningful information. Waiting is also a decision with consequences.
 
-This replaces the need to feel certain before acting.
+A positional decision asks five things. Does this improve future choices? Give information earlier? Reduce a major downside? Increase leverage or flexibility? Make future decisions easier?
 
-## Position Before Certainty
+Expected value, in words, means the decision is favorable across repetitions or similar cases, even though any single outcome may fail. The arithmetic that bands that estimate when the setting will not post odds lives on [[wiki/Decision Making/Expectancy in Wicked Environments|Expectancy in Wicked Environments]]. A good process can still produce a bad result once. The question is whether the decision type has positive expectancy over time — the same split [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]] uses when it grades process rather than one outcome.
 
-In complex decisions, certainty may not arrive in time. Waiting can be useful if it produces meaningful information, but waiting is also a decision with consequences.
+Three study-shaped cases make the type visible. A method that exposes gaps early may feel worse today and still improve a semester. Asking for feedback creates discomfort now and improves later performance. Starting a hard task early does not guarantee success; it improves information, time, and recovery options.
 
-A positional decision asks:
+## Ruin, emotion, and the failures
 
-- Does this option improve my future choices?
-- Does it give me information earlier?
-- Does it reduce a major downside?
-- Does it increase leverage or flexibility?
-- Does it make future decisions easier?
+Expected value does not mean ignoring risk. Before choosing: what are the biggest downsides? Are any unacceptable? Can they be protected, reduced, or made reversible? Is the upside large enough relative to the remaining downside?
 
-The goal is to move into a better decision position.
+If the biggest downside is significant and it cannot be protected, the answer is no. If it is unclear, the next move is information-gathering rather than commitment — do not guess. [[wiki/Red Team/Red Teaming|Red Teaming]] is the pointer for assumption and downside checks; this page does not grow a toolkit.
 
-## Expected Value
+Emotions are information. They should not be the whole decision process. Fear may identify risk. Excitement may identify opportunity. Discomfort may be growth or threat. The problem is not emotion entering. The problem is emotion becoming the only input. Comfort-only deciding is negative-EV over a life, as this system's model, not as a measured finding.
 
-Expected value means the decision is favorable across repetitions or similar cases, even though any single outcome may fail.
+| Failure | What it does |
+|---|---|
+| Waiting for certainty | Holds for a number the situation will not publish |
+| Comfort as strategy | Lets feeling pick the option |
+| Ignoring downside | Skips the ruin question |
+| Overvaluing one outcome | Grades the type by a single result |
+| Information delay framed as neutral | Treats waiting as free |
 
-This matters because a good process can still produce a bad result once. The question is whether the decision type has positive expectancy over time.
+Those five are the quit signals. A choice that only protects comfort, or that cannot name and protect its worst downside, is not a positional yes.
 
-Examples:
+Past two or three predicted replies, variance explodes. Stop simulating the whole tree. Take the move that stays strong regardless of the reply — and that could be stood to repeat. That is the same gap the opening named, now with a stop rule: options, information, and ruin for the next choice, not a forecast of every choice after it. When the position later sours, [[wiki/Decision Making/Changing Decisions|Changing Decisions]] takes the review.
 
-- A study method that exposes gaps early may feel worse today but improve outcomes across a semester.
-- Asking for feedback may create discomfort now but improve future performance.
-- Starting a hard task early may not guarantee success, but it improves information, time, and recovery options.
+## Links into the knowledge base
 
-## Protecting The Downside
+- [[wiki/Decision Making/Decision Making|Decision Making]] — hub; the loop this stance sits inside.
+- [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]] — process vs one outcome.
+- [[wiki/Decision Making/Changing Decisions|Changing Decisions]] — when the position later sours.
+- [[wiki/Decision Making/Expectancy in Wicked Environments|Expectancy in Wicked Environments]] — why the calculation must be banded.
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] — position improves in increments.
+- [[wiki/Red Team/Red Teaming|Red Teaming]] — assumption / downside checks.
 
-Expected value does not mean ignoring risk.
+## Open questions
 
-Before choosing, ask:
+Which current decisions should be reframed as positional rather than right or wrong?
 
-1. What are the biggest downsides?
-2. Are any unacceptable?
-3. Can they be protected, reduced, or made reversible?
-4. Is the upside large enough relative to the remaining downside?
+## Sources
 
-If the biggest downside is unclear, the next move may be information-gathering rather than commitment.
-
-## Emotion In Decisions
-
-Emotions are information, but they should not be the whole decision process.
-
-Fear may identify risk. Excitement may identify opportunity. Discomfort may identify growth or threat. The problem is not emotion entering the decision. The problem is emotion becoming the only input.
-
-## Failure Modes
-
-| Failure | What It Looks Like | Fix |
-| --- | --- | --- |
-| Waiting for certainty | No decision happens because no option feels guaranteed. | Ask which option improves position. |
-| Comfort as strategy | The user chooses the least uncomfortable option. | Check expected value and downside. |
-| Ignoring downside | Upside dominates the decision. | Name and protect the biggest loss. |
-| Overvaluing one outcome | A single possible result controls the decision. | Think in repeated-decision terms. |
-| Information delay | Waiting is framed as neutral. | Ask what waiting costs and what information it produces. |
-
-## Related Pages
-
-- [[wiki/Decision Making/Decision Making|Decision Making]]
-- [[wiki/Decision Making/Good Decisions|Good Decisions]]
-- [[wiki/Decision Making/Changing Decisions|Changing Decisions]]
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- [[wiki/Red Team/Red Teaming|Red Teaming]]
-
-## Open Questions
-
-- Which current user decisions should be reframed as positional decisions rather than right/wrong choices?
+- Expected value as definitional: a kind of choice that pays on average across similar cases, even if this one fails.
+- Dixit & Pindyck, *Investment under Uncertainty* (1994) — real options as the formal cousin of improving the next choice when the tree cannot be calculated. Bound: not a protocol by this page's name.

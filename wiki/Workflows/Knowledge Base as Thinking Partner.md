@@ -1,239 +1,146 @@
 ---
 title: "Knowledge Base as Thinking Partner"
-description: "A workflow for using the knowledge base to think, decide, synthesize, and generate next questions instead of only storing notes."
 type: workflow
 status: developing
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
   - workflow
-  - metacognition
   - knowledge-base
+  - metacognition
 ---
 
 # Knowledge Base as Thinking Partner
 
-The knowledge base should help decide what to think about next while preserving what has already been learned.
+The knowledge base should help decide what to think about next and still hold what has already been learned. Did this page make the next action clearer? A no on that question is the system drifting toward storage.
 
-An archive stores finished material. A thinking partner changes the next move. It helps surface patterns, expose gaps, test frames, generate questions, and turn vague interests into concrete work.
+## Archive or partner
 
-The practical test is simple:
+An archive stores finished material. A thinking partner changes the next move. The page is not the endpoint. The page is a thinking surface.
 
-> Did this page make the next action clearer?
+If the test fails, the system is drifting toward storage. The partner's kinds of help are pattern-finding, gap-finding, frame-testing, question-generation, and turning a vague interest into concrete work.
 
-If not, the system is drifting toward storage.
+**Every interaction leaves at least one of five outputs.** A sharper question. A better frame. A visible gap. A next action. A reusable synthesis. A session that produces none of these retrieved well and still failed the test.
 
-## Core Mechanism
+The mechanism is two beats. The current mental model is written down. Related pages then pressure-test it. A partner that only retrieves is an archive with better search.
 
-The knowledge base becomes a thinking partner when every interaction creates at least one of five outputs:
-
-1. a sharper question,
-2. a better frame,
-3. a visible gap,
-4. a next action,
-5. a reusable synthesis.
-
-The page is not the endpoint. The page is a thinking surface.
-
-Use it to externalize the current mental model, then pressure-test that model against related pages.
+The loop is:
 
 ```text
-interest
--> question
--> relevant pages
--> pattern or contradiction
--> synthesis
--> next action
--> updated page
+interest → question → relevant pages → pattern or contradiction → synthesis → next action → updated page
 ```
 
-This is how the knowledge base compounds. It does not grow only by adding sources. It grows when old pages start changing how new problems are approached.
+The last arrow is load-bearing. Without the write-back the loop is browsing.
 
-## Archive Mode vs Thinking Partner Mode
+The knowledge base compounds when old pages start changing how new problems are approached, not only by adding sources.
 
-| Mode | Question | Output |
-| --- | --- | --- |
-| Archive | Where should this go? | Stored note |
-| Thinking partner | What does this change? | Updated model |
-| Archive | What did this source say? | Summary |
-| Thinking partner | What can I do differently now? | Action or experiment |
-| Archive | What pages exist? | Index |
-| Thinking partner | What pages should talk to each other? | Link, synthesis, or split |
-| Archive | What do I know? | Catalog |
-| Thinking partner | What am I missing? | Gap list |
+| Archive asks | Partner asks |
+|---|---|
+| Where should this go | What does this change |
+| What did this source say | What can I do differently now |
+| What pages exist | What pages should talk to each other |
+| What do I know | What am I missing |
 
-Archive mode is still useful. It keeps the system legible.
+Archive mode is still useful. It keeps the system legible. Thinking-partner mode is where the system becomes alive.
 
-But thinking partner mode is where the system becomes alive. It asks whether the current structure is producing better thinking, not just more organized material.
+## Five moves
 
-## The Five Moves
+**Start from an active pressure, not a random topic.** The system serves current judgment, not only future retrieval. The prompts that find that pressure: what is being decided; where the work is stuck; what keeps recurring; what feels important but under-formed; what would make this easier to act on.
 
-### 1. Ask From A Live Problem
+**Pull nearby pages. Do not start from scratch.** Graph, index, backlinks, and the obvious links are enough. The starter packs are doors into this wiki, not summaries of those pages. Categories stay stable. Specific doors follow the live names.
 
-Start with an active pressure, not a random topic.
+Learning: [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] is the encoding-and-retrieval synthesis. [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]] is the mechanism layer. [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] is the diagnostic that asks whether the method is doing any work. [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] is the ladder from recognition to use.
 
-Good prompts:
+Execution: [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] is the flow-preservation door. [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] is entry and recovery inside a block. [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]] is delay as a system, not a character flaw. [[wiki/Decision Making/Decisional Delays|Decisional Delays]] is the stall that looks like thinking.
 
-- What am I trying to decide?
-- Where am I stuck?
-- What keeps recurring?
-- What feels important but under-formed?
-- What would make this easier to act on?
+Judgment: [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] is how a frame gets tested. [[wiki/Decision Making/Decision Making|Decision Making]] is the decision page. [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] is the transfer problem. [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] is empathy that erases a necessary line.
 
-This keeps the knowledge base tied to reality. The system should serve current judgment, not only future retrieval.
+Building: [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] is how agents get built here. [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]] is the comprehension stall. [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] is mixed practice on hard work.
 
-### 2. Pull The Nearby Pages
+**The useful part is usually the tension between pages, not the page itself.** Look for a concept with no operating model; two pages that imply different actions; a repeated failure mode; a missing theory/practice bridge; a technique that does not change behavior; an interest with no next action. Pages that came from that tension: [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]] is the breadth-versus-focus collision. [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] is the cheap path that skips the encoding. [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] is method that looks right and changes nothing. [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] is the unlearning problem.
 
-Do not start from scratch.
+**Convert the insight into a handle.** A handle is a short name, question, or rule that can be picked up later when the situation returns. Title, question, checklist, contrast, next exercise, decision rule, page split, journal prompt. The handle is what makes the idea reusable. A good handle lets the system call the idea back at the moment it matters.
 
-Read the pages that are already adjacent to the problem. Use the graph, index, backlinks, and obvious links.
+Worked conversions:
 
-For learning questions, start with [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]], [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]], [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]], and [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]].
+- "better study habits" → [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- "too many interests" → [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]], [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]
+- "consuming without changing" → [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
+- "method looks right but nothing improves" → [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 
-For execution questions, start with [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]], [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]], [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]], and [[wiki/Decision Making/Decisional Delays|Decisional Delays]].
+**File the result into the smallest useful destination.** Write-back is a move, not a courtesy.
 
-For judgment questions, start with [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]], [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]], and [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]].
-
-For building questions, start with [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]], [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]], and [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]].
-
-### 3. Find The Tension
-
-The useful part is usually not the page itself. It is the tension between pages.
-
-Look for:
-
-- a concept that appears in several places but has no clear operating model,
-- two pages that imply different actions,
-- a repeated failure mode,
-- a missing bridge between theory and practice,
-- a technique that looks correct but does not change behavior,
-- an interest that keeps returning without a next action.
-
-This is where the knowledge base stops being a library and starts acting like a mirror.
-
-The best pages often come from tension:
-
-- [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]
-- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
-- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
-
-### 4. Convert Insight Into A Handle
-
-Do not leave the output as an abstract insight.
-
-Turn it into a handle:
-
-- a title,
-- a question,
-- a checklist,
-- a contrast,
-- a next exercise,
-- a decision rule,
-- a page split,
-- a journal prompt.
-
-The handle is what makes the idea reusable.
-
-Examples:
-
-- "I need better study habits" becomes [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], and [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
-- "I have too many interests" becomes [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]] and [[wiki/Self Management/Priority 0+1 System|Priority 0+1]].
-- "I keep consuming without changing" becomes [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]].
-- "The method looks right but nothing improves" becomes [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]].
-
-A good handle lets the system call the idea back at the moment it matters.
-
-### 5. File The Result Back Into The System
-
-The output should land somewhere durable.
-
-Use the smallest useful destination:
-
-| Output | Destination |
-| --- | --- |
-| Passing thought | [[journal/index|Journal]] |
-| Active question | Journal `What's On My Mind` |
-| Current working area | Journal `Current Focus` |
-| Durable operating model | Wiki page |
+| Kind of result | Destination |
+|---|---|
+| Passing thought | [[journal/index\|Journal]] |
+| Active question | Journal, What's On My Mind |
+| Current working area | Journal, Current Focus |
+| Durable operating model | wiki |
 | Personal plan | private Goals or Skills |
-| Public argument | Blog draft |
-| System change | README, AGENTS, or workflow page |
+| Public argument | blog draft |
+| System change | README, AGENTS, or a workflow page |
 
-Do not create a page just because an idea exists.
+A page is not created just because an idea exists. A page is created when it will be reused, linked, practiced, or argued with — the same candidate test [[wiki/Workflows/Wiki Breakdown Pass|Wiki Breakdown Pass]] applies when a new page is on the table.
 
-Create a page when the idea will be reused, linked, practiced, or argued with.
+## When it is working
 
-## What A Session Looks Like
+Used well, it feels like returning to a room where the important threads are already laid out. Old pages are changing how new problems get approached. A session that produced no write-back failed the test, however much was read. This is not another feed; the mechanism that turns a vault into one lives on [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]].
 
-Use this when the system feels passive.
+## One session, the failures
 
-1. Pick one live question.
-2. Read three to six related pages.
+When the system feels passive, one session is enough. The goal is not to process the whole vault. The goal is to make one part more usable.
+
+1. One live question.
+2. Read three to six related pages. The bound is a house limit, not a finding.
 3. Write the current answer in plain language.
-4. Name the tension or missing piece.
-5. Decide whether the result belongs in Journal, a wiki page, a private template, or a blog draft.
+4. Name the tension.
+5. Pick a destination.
 6. Add one link, one next action, or one open question.
 
-That is enough.
+| Failure | Repair |
+|---|---|
+| Knowledge hoarding | Ask what the page changes |
+| Index addiction | Start from a live problem |
+| Link decoration | Link only when the relationship matters |
+| Permanent synthesis | Use [[journal/index\|Journal]] for temporary thinking |
+| Private/public confusion | Keep private Goals, Skills, and Kolbs local unless they are intentionally publishable |
+| Agent overproduction | Ask for operating model, causal chain, failure modes, practical feel, and implications |
+| Archive drift | End each session with a question or an action |
 
-The goal is not to process the whole vault. The goal is to make one part of the system more usable.
+Kolbs, in this vault: after an attempt, what happened, how it felt and why, what rule that suggests, what changes next time.
 
-## Failure Modes
+## Signs, weekly, the price
 
-| Failure | What It Looks Like | Repair |
-| --- | --- | --- |
-| Knowledge hoarding | More pages, no changed behavior. | Ask what the page changes. |
-| Index addiction | Reorganizing instead of thinking. | Start from a live problem. |
-| Link decoration | Links exist but do not clarify the idea. | Link only when the relationship matters. |
-| Permanent synthesis | Every answer becomes a polished page. | Use Journal for temporary thinking. |
-| Private/public confusion | Personal planning leaks into public pages. | Keep private Goals, Skills, and Kolbs local unless intentionally publishable. |
-| Agent overproduction | The LLM creates too much text. | Ask for operating model, causal chain, failure modes, practical feel, and implications. |
-| Archive drift | The system stores what happened but does not guide what happens next. | End each session with a question or action. |
+Good signs: the next question is obvious; old pages explain new problems; titles have become handles; interests are alive but bounded; the Journal reflects current attention; the index is stable enough; outputs are shorter because context is already held.
 
-## Practical Feel
+Warning signs: every session starts from zero; pages are polished but unused; the graph is interesting but not actionable; new sources do not update old pages; Journal questions sit unchanged for weeks; the system is impressive and inert.
 
-Used well, the knowledge base should feel like returning to a room where the important threads are already laid out.
+Weekly questions, asked once: what page changed how the week was acted; what question kept returning; what thread is stale; what should be synthesized next; what belongs in a blog post. The weekly review is not a productivity ritual for its own sake.
 
-Good signs:
+A partner that never writes back is an archive. Starter packs rot as pages are renamed; the categories stay and the doors follow the live names. Artifact production without a live question is the agent-overproduction failure. A session costs three to six pages plus a write-back, not a tour. Two sessions that start from zero, a week of Journal questions unchanged, or a weekly review that produces no next action are quit signals. One session leaves a destination, and the test can be answered yes or no.
 
-- the next question becomes obvious,
-- old pages start explaining new problems,
-- titles become handles for action,
-- active interests feel alive but bounded,
-- the Journal reflects current attention,
-- the Index remains stable enough to navigate,
-- outputs become shorter because the system already holds the context.
+The same test, after something has been filed: did this page make the next action clearer?
 
-Warning signs:
+## Links into the knowledge base
 
-- every session starts from zero,
-- pages are polished but unused,
-- the graph is interesting but not actionable,
-- new sources do not update old pages,
-- Journal questions stay unchanged for weeks,
-- the system feels impressive but inert.
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]] — the three-layer pattern this workflow sits on.
+- [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]] — how sources become pages.
+- [[wiki/Workflows/Question Answering Against a Wiki|Question Answering Against a Wiki]] — how a question is answered from the wiki first.
+- [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]] — the lint sibling.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] — the control layer the weekly review is a special case of.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — building-starter door; the questions this page starts from.
+- [[journal/index|Journal]] — temporary thinking; the destination for a passing thought, an active question, and current focus.
 
-## Weekly Use
+## Open Questions
 
-Once a week, ask:
+Starter packs will go stale during regen — how should a later pass refresh the doors without rewriting the moves?
 
-1. What page changed how I acted?
-2. What question kept returning?
-3. What active thread is getting stale?
-4. What source, page, or experience should be synthesized next?
-5. What idea belongs in a blog post instead of staying internal?
+When is archive mode the right mode for a stretch of work, rather than a drift to correct?
 
-The weekly review should not become a productivity ritual for its own sake.
+## Sources
 
-Its job is to keep the knowledge base pointed at live thinking.
-
-## Related
-
-- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
-- [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]]
-- [[wiki/Workflows/Question Answering Against a Wiki|Question Answering Against a Wiki]]
-- [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
-- [[journal/index|Journal]]
+- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]] — vault pattern this workflow sits on.
+- [[AGENTS]] — house operating rules for ingest, query, and write-back.
+- Sönke Ahrens, *How to Take Smart Notes* (2017); Vannevar Bush, "As We May Think" (1945); Douglas Engelbart (1962) — the popular "notes as thinking" lineage. Named here only. Not required reading. Nothing in them replaces the five moves or the archive/partner table.

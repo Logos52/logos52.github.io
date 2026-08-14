@@ -1,10 +1,15 @@
 ---
-type: concept
+title: "Applied Critical Thinking - Testing Frames"
+type: technique
 status: developing
 created: 2026-05-10
-updated: 2026-05-12
-source-count: 2
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 3
 tags:
+  - red-team
+  - judgment
   - red-teaming
   - decision-making
   - critical-thinking
@@ -13,300 +18,116 @@ tags:
   - ai
 ---
 
-# Applied Critical Thinking: Testing Frames
+# Applied Critical Thinking - Testing Frames
 
-Doubt becomes useful when it is turned into better judgment instead of hesitation, cynicism, or vibes.
+Applied Critical Thinking is a short pause between seeing a claim and accepting it, long enough to name the first coherent frame and short enough that a decision still happens. Doubt becomes useful when it turns into better judgment instead of hesitation, cynicism, or vibes. The pause is for a media narrative, an institutional statement, an expert claim, a team plan, or a fluent model output that looks coherent enough to trust — usually a fast filter, slower when the decision deserves it.
 
-It is the disciplined pause between seeing a claim and accepting the claim.
+## How deep, how fast
 
-Use it when a media narrative, institutional statement, expert claim, team plan, or AI output looks coherent enough to trust.
+Two risks sit on either side. Move too fast and a bad frame is accepted. Move too slowly and analysis becomes delay — the cost [[wiki/Decision Making/Decisional Delays|Decisional Delays]] names. The standard is not "think as much as possible." It is: think enough to find the **load-bearing assumption**, the one thing that, if false, drops the recommendation. Most situations do not need a full [[wiki/Red Team/Red Teaming|Red Teaming]] process. They need a short interruption. If the method is too slow, people will not use it. If too shallow, it becomes vibes. The skill is choosing depth.
 
-The emphasis should be speed plus accuracy. Applied Critical Thinking should usually be a fast diagnostic filter. Slow thinking is valuable when the decision, claim, or risk deserves it.
+| Speed | What happens |
+|---|---|
+| 30 seconds | Name the frame and the main assumption |
+| 3 minutes | Evidence shown, what was omitted, one alternative, what would change the interpretation |
+| 30 minutes | Write the frame, the assumptions, the most likely failure path, a few serious alternatives, the decision rule |
 
-## The Practical Role
+The clocks are house times, not a trial. They are the usable invention.
 
-Applied Critical Thinking protects the mind from the first convincing explanation.
+One table of questions, not three. Use as many as the speed allows.
 
-The practical version:
+| Ask | To find |
+|---|---|
+| What is the actual claim | What belief is being sold |
+| What frame is being used | The interpretation sold as if it were the event |
+| What must be true | The load-bearing assumption |
+| What evidence would matter | What is shown, and what is missing |
+| What is being refused | The omission that would change the reading |
+| What would make this fail | The most likely failure path |
+| What would change the recommendation | The stop rule |
 
-1. Name the claim or decision.
-2. Identify the frame being used.
-3. Surface the assumptions that make the frame work.
-4. Check what evidence actually matters.
-5. Generate a small number of serious alternatives.
-6. Look for the most likely failure path.
-7. Decide what would change the recommendation.
+The 30-minute row is those seven in writing: name the claim, name the frame, surface assumptions, check what evidence matters, generate a few serious alternatives, name the most likely failure path, name what would change the recommendation. If those questions do not change anything, a heavier tool probably will not help.
 
-The goal is to prevent a bad frame from moving straight into belief, speech, planning, or execution while preserving decision speed.
+## Two fluent traps
 
-## Speed And Accuracy
+Mainstream media can be wrong for ordinary reasons: speed, incentives, ideological capture, activist framing, poor sourcing, selective omission, institutional self-protection. That is a list of reasons, not a verdict on "the media." Test the media frame without automatically adopting its opposite. Automatic inversion is reverse gullibility.
 
-Applied Critical Thinking should balance two risks:
+Separate the event, the evidence, the interpretation, the emotional language, the omitted context, and the conclusion being pushed. A pool, not a required six: what happened; what is being asked; what language is doing emotional work — [[wiki/Red Team/The Twitter Test|The Twitter Test]] owns that at word level; what comparison is missing; who benefits; what would be expected if the opposite frame were closer.
 
-- moving too fast and accepting a bad frame;
-- moving too slowly and turning analysis into delay.
+AI is persuasive because it is fluent. A model can be organized, calm, and confident while generic, incomplete, or wrong for the context. A pool, not a required six: what it assumed; specific versus boilerplate; missing source or constraint; what would break; what to verify; what opposing view is absent. Human judgment stays above model fluency, which is why this filter belongs inside [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] as a fast review loop, not a second catalog.
 
-The practical standard is not "think as much as possible." The standard is:
+## What the pause is for
 
-> Think enough to find the load-bearing assumption.
+Think enough to find the load-bearing assumption. A plan can be logical and still be wrong. The failure is often not stupidity. It is **premature coherence**: treating a story that fits together as a story that is true. People converge because the story feels clean, matches prior experience, protects status or tempo or ideology, the headline feels obvious, the model is fluent, the briefing sounds professional, the team has spent too much to reopen.
 
-Most situations do not need a full Red Team process. They need a short interruption before belief or action hardens.
+Do not confuse:
 
-Use three speeds:
+- confidence with evidence
+- consensus with truth
+- a complete plan with a tested plan
+- prestige with reliability
+- fluency with understanding
+- more analysis with better judgment
+- an early preferred answer with a protected one
 
-| Speed | Use When | Output |
-| --- | --- | --- |
-| 30 seconds | Low-stakes claim, article, AI answer, or everyday decision. | Name the frame and the main assumption. |
-| 3 minutes | The claim feels persuasive, emotionally loaded, or action-relevant. | Identify evidence, omission, alternative explanation, and what would change your mind. |
-| 30 minutes | High-stakes decision, public claim, important plan, or repeated uncertainty. | Write the frame, assumptions, failure path, alternatives, and decision rule. |
+## Use and failure
 
-The point is to make critical thinking usable under real conditions.
+In Red Teaming, the pause tests plans, assumptions, group narratives, and preferred courses of action before they harden. Stay fast. Do not become a catalog of old tools. The parent cluster is [[wiki/Decision Making/Decision Making|Decision Making]]; process over outcomes lives on [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]].
 
-If the method is too slow, people will not use it. If it is too shallow, it becomes vibes. The skill is choosing the right depth for the situation.
+Before a decision: is it clearly stated; are the options real; is the choice being made because the process is good or because the room is tired; what is the cost of waiting; what is the cost of moving now. Too many options as delay is [[wiki/Decision Making/Choice Throttling|Choice Throttling]].
 
-## Fast Filter
+During planning: the heaviest assumption; the brittle condition; the other actor; the underestimated incentive; the part that needs people to behave ideally.
 
-For mainstream media, institutional statements, AI answers, expert claims, and viral narratives, start with four questions:
+During learning: thinking versus a correct-looking artifact; whether the map shows relationships; whether the structure can be explained; what retrieval would expose; what shortcut was taken. Those questions route to [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], and [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — encoding that is thinking, not an artifact; what retrieval would expose; why the first coherent path wins on [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]].
 
-1. What am I being asked to believe?
-2. What frame is being used?
-3. What evidence is actually shown?
-4. What important alternative or omission would change the interpretation?
+The pause replaces passive acceptance, tool theater, and analysis avoidance — hiding from action inside more questions. The distinctive one is the third. Test: did the thinking improve the decision, or only postpone it?
 
-This is the minimum viable version of Applied Critical Thinking.
+| Failure | What it looks like | Correction |
+|---|---|---|
+| Endless questioning | More confused, not wiser | Stop at the load-bearing assumption |
+| Contrarian identity | The opposite of the room as a default | Reconstruct the valid part first |
+| Tool dependence | Waiting for a named method | The 30-second row is enough |
+| AI outsourcing | Fluent output treated as checked | Fluency is not accuracy |
+| Media inversion | The opposite frame adopted automatically | Reverse gullibility |
+| Activist capture | One preferred answer protected early | Name what would change the recommendation |
+| Black-swan fixation | Exotic failure crowding out the likely one | Most likely failure path first |
 
-It does not require full certainty. It creates enough distance to avoid automatic acceptance.
+## Empathy and the other three
 
-## Media And AI
+**Rational empathy** reconstructs the other position well enough to keep what is valid in it, without agreement and without surrender. When disagreement would become reflexive: what is the strongest version of their case; what would have to be true; what part survives if the rest is dropped; what would change *this* side's mind; what is being protected. The communication layer is [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]]. Applied Critical Thinking without rational empathy becomes brittle contrarianism. Empathy without Applied Critical Thinking becomes [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]].
 
-This is the main everyday use case.
+The pause depends on the other three Red Team principles. Without [[wiki/Red Team/Red Teaming#Self-Awareness and Reflection|self-awareness]], the pause is projection. Without [[wiki/Red Team/Red Teaming#Groupthink Mitigation and Decision Support|groupthink mitigation]], social pressure suppresses it. Without [[wiki/Red Team/Red Teaming#Fostering Cultural Empathy|cultural empathy]], the original frame is the only one available. Those principles live on the hub. This page does not restate them.
 
-Most people do not need a slow formal Red Team process for every article, podcast, expert statement, or AI answer. They need a fast filter that keeps them from absorbing someone else's frame too quickly.
+The pause should feel like sharpening: a vague concern becomes a specific assumption, risk, alternative, or rule. Good signs: a clearer decision, a visible key assumption, a named alternative, a concrete failure path, known evidence, an endpoint. Bad signs: more confused not wiser, repeating abstract concerns, a process that protects delay, performative critique, no one can say what changed.
 
-### Mainstream Media And Public Narratives
+The method can become identity, delay, or a catalog. Thirty seconds is cheap. Thirty minutes is a real meeting. Quit when the questions do not change anything, or when the thinking only postponed the decision. Checkable: the decision moved, or it did not.
 
-Mainstream media can be wrong for ordinary reasons: speed, incentives, ideological capture, activist framing, poor sourcing, selective omission, and institutional self-protection.
+The pause should make action cleaner, not impossible. A clean story still arrives. The decision still happens.
 
-The useful move is to test the media frame without automatically adopting its opposite. Automatic inversion is just reverse gullibility.
+## Related
 
-The point is to separate:
-
-- the event;
-- the evidence;
-- the interpretation;
-- the emotional language;
-- the omitted context;
-- the conclusion the reader is being pushed toward.
-
-Fast questions:
-
-- What happened?
-- What am I being asked to believe about what happened?
-- What language is doing emotional work?
-- What relevant fact or comparison is missing?
-- Who benefits if this frame becomes the default?
-- What would I expect to see if the opposite frame were closer to true?
-
-This keeps critical thinking fast. You are not trying to become certain. You are trying to avoid being installed with a frame before you have noticed it.
-
-### LLMs And AI Output
-
-AI output has a different failure mode. It is persuasive because it is fluent.
-
-A model can give an answer that is organized, calm, and confident while still being generic, incomplete, or wrong for the actual context.
-
-Fast questions:
-
-- What did the model assume?
-- Which part is specific, and which part is boilerplate?
-- What source, constraint, or context is missing?
-- What would break if I followed this advice?
-- What should I verify before acting?
-- What competent opposing view is absent?
-
-The goal is to keep human judgment above model fluency.
-
-This is why Applied Critical Thinking belongs inside [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: good agent work requires fast review loops, not blind acceptance and not endless inspection.
-
-## The Mindset
-
-Applied Critical Thinking starts from a simple premise:
-
-> A plan can be logical and still be wrong.
-
-The failure is often not stupidity. It is premature coherence.
-
-People converge because the story feels clean. The map matches prior experience. The preferred option protects status, tempo, ideology, or identity. The headline feels obvious. The AI answer is fluent. The briefing sounds professional. The team has already spent too much effort to reopen the question.
-
-Applied Critical Thinking interrupts that momentum.
-
-The mindset is:
-
-- do not confuse confidence with evidence;
-- do not confuse consensus with truth;
-- do not confuse a complete plan with a tested plan;
-- do not confuse institutional prestige with reliability;
-- do not confuse fluency with understanding;
-- do not confuse more analysis with better judgment;
-- do not protect the preferred answer too early.
-
-This is why Applied Critical Thinking belongs with [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Decision Making/Good Decisions|Good Decisions]], and [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]].
-
-## What To Ask First
-
-Start with the smallest useful questions.
-
-| Question | Purpose |
-| --- | --- |
-| What is the actual claim or decision? | Prevents analysis from drifting away from the claim or choice. |
-| What frame are we using? | Makes the hidden interpretation visible. |
-| What must be true for this to work? | Finds load-bearing assumptions. |
-| What evidence would matter most? | Separates signal from persuasive detail. |
-| What are we refusing to notice? | Opens space for dissent and discomfort. |
-| What would make this fail? | Finds the shortest path from plan to failure. |
-| What would change our mind? | Prevents unfalsifiable analysis. |
-
-If those questions do not change anything, a heavier tool probably will not help.
-
-## Red Teaming Application
-
-Applied Critical Thinking still needs a dedicated Red Teaming use case.
-
-In [[wiki/Red Team/Red Teaming|Red Teaming]], it is the principle that tests plans, assumptions, group narratives, and preferred courses of action before they harden into decisions. The page should not become another catalog of old tools. The Red Team version should stay fast, practical, and decision-focused.
-
-### Before A Decision
-
-Use Applied Critical Thinking to test whether the decision is ready.
-
-Ask:
-
-- Is the decision clearly stated?
-- Are the options real, or is one option being smuggled in as inevitable?
-- Are we choosing because the process is good, or because we are tired of thinking?
-- What is the cost of waiting?
-- What is the cost of moving now?
-
-This connects directly to [[wiki/Decision Making/Decisional Delays|Decisional Delays]] and [[wiki/Decision Making/Choice Throttling|Choice Throttling]].
-
-### During Planning
-
-Use Applied Critical Thinking to prevent the plan from becoming self-protective.
-
-Ask:
-
-- Which assumption carries the most weight?
-- What condition would make this plan brittle?
-- What actor sees this situation differently?
-- What incentive are we underestimating?
-- What part of the plan depends on people behaving ideally?
-
-This is where Applied Critical Thinking overlaps with [[wiki/Red Team/Red Teaming|Red Teaming]] as a decision-support discipline.
-
-### During Learning
-
-Use Applied Critical Thinking to check whether a technique is producing the intended cognition.
-
-Ask:
-
-- Am I thinking, or only producing a correct-looking artifact?
-- Is this map helping me understand relationships?
-- Can I explain why this structure matters?
-- What would retrieval expose?
-- What shortcut am I taking?
-
-This links Applied Critical Thinking to [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], and [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
-
-## What It Replaces
-
-Applied Critical Thinking replaces three bad habits:
-
-1. **Passive acceptance:** taking the first coherent answer as sufficient.
-2. **Tool theater:** using a formal method to look rigorous without improving the decision.
-3. **Analysis avoidance:** continuing to analyze because deciding feels risky.
-
-The third failure matters. Critical thinking should not become a hiding place from action.
-
-The test is simple:
-
-> Did the thinking improve the decision, or did it only postpone it?
-
-## Failure Modes
-
-| Failure Mode | What It Looks Like | Correction |
-| --- | --- | --- |
-| Endless questioning | Every answer creates another abstract concern. | Return to the actual decision. |
-| Contrarian identity | The analyst performs dissent instead of improving judgment. | Ask what would change the recommendation. |
-| Tool dependence | The team waits for a named method before thinking clearly. | Use the smallest useful question. |
-| AI outsourcing | The model generates critique and the human accepts it. | Judge the critique, do not just collect it. |
-| Media inversion | The reader assumes the opposite of the media frame must be true. | Separate evidence from interpretation before reversing anything. |
-| Activist capture | Moral pressure substitutes for evidence. | Identify what claim is factual, moral, or strategic. |
-| Black-swan fixation | Rare catastrophe crowds out likely failure. | Compare likelihood, impact, and decision relevance. |
-
-Applied Critical Thinking should make action cleaner, not impossible.
-
-## Rational Empathy
-
-[[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] adds a useful communication layer to Applied Critical Thinking.
-
-The point is to see clearly enough to choose well.
-
-Rational empathy means reconstructing another person's position well enough to see the valid part of it. This is different from agreement. It is also different from surrender. It lets the thinker preserve what is true in the other frame while still rejecting weak assumptions, bad evidence, emotional pressure, or strategic nonsense.
-
-Use it when disagreement would otherwise become reflexive:
-
-1. What problem is the other person trying to solve?
-2. What part of their frame is valid?
-3. What assumption makes their conclusion work?
-4. Where does the frame stop being useful?
-5. What decision becomes clearer after separating valid perception from bad judgment?
-
-This is the bridge between critical thinking and communication. Applied Critical Thinking without rational empathy can become brittle contrarianism. Rational empathy without Applied Critical Thinking can become [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]].
-
-## Relationship To The Other Red Team Principles
-
-Applied Critical Thinking depends on the other Red Team principles.
-
-- [[wiki/Red Team/Red Teaming#Self-Awareness and Reflection|Self-Awareness and Reflection]] keeps the thinker from trusting their own lens too easily.
-- [[wiki/Red Team/Red Teaming#Groupthink Mitigation and Decision Support|Groupthink Mitigation and Decision Support]] creates space for the questions to be asked.
-- [[wiki/Red Team/Red Teaming#Fostering Cultural Empathy|Fostering Cultural Empathy]] supplies perspective, but Applied Critical Thinking decides what that perspective means for the mission.
-
-Without self-awareness, critical thinking becomes projection.
-
-Without groupthink mitigation, critical thinking gets socially suppressed.
-
-Without perspective-taking, critical thinking stays trapped inside the original frame.
-
-## How It Should Feel
-
-Applied Critical Thinking should feel like sharpening the decision.
-
-There should be a moment where the vague concern becomes a specific assumption, risk, alternative, or decision rule.
-
-It should not feel like drowning in possibilities.
-
-Good signs:
-
-- the decision becomes clearer;
-- the key assumption becomes visible;
-- the strongest alternative is named;
-- the failure path is concrete;
-- the team knows what evidence would matter;
-- the analysis has an endpoint.
-
-Bad signs:
-
-- everyone feels more confused but not wiser;
-- the same abstract concerns repeat;
-- the process protects delay;
-- the critique becomes performative;
-- the team cannot say what changed.
-
-## Sources
-
-- TRADOC G-2 / UFMCS, *The Red Team Handbook: The Army's Guide to Making Better Decisions*, Version 9.0. Public release; distribution unlimited.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — fast review loops over fluent model output
+- [[wiki/Decision Making/Decision Making|Decision Making]] — parent decision cluster
+- [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]] — process over outcomes
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] — why the first coherent path wins
+- [[wiki/Red Team/Red Teaming|Red Teaming]] — hub; this page is the operational filter
+- [[wiki/Decision Making/Decisional Delays|Decisional Delays]] — cost of waiting versus cost of more analysis
+- [[wiki/Decision Making/Choice Throttling|Choice Throttling]] — too many options as delay
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] — learning-use case
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — encoding that is thinking, not artifact
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — what retrieval would expose
+- [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] — rational-empathy layer
+- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] — empathy without Applied Critical Thinking
+- [[wiki/Red Team/The Twitter Test|The Twitter Test]] — what language is doing emotional work
 
 ## Open Questions
 
-- What is the smallest Applied Critical Thinking exercise worth using before an important personal decision?
-- How should Applied Critical Thinking be combined with AI-generated premortems without turning into tool bloat?
-- What would a weekly Red Team review look like if it centered only on frame, assumption, shortcut, and decision quality?
+- The smallest personal-decision exercise that still trains the pause.
+- How to run a model premortem without the 30-minute row bloating into a second meeting.
+- Whether a weekly review on frame, assumption, shortcut, and decision quality is enough to keep the filter alive.
+
+## Sources
+
+- TRADOC G-2 / UFMCS. *The Red Team Handbook*, v9.0. Public release, distribution unlimited. Applied-critical-thinking principle: challenge the frame before adopting it.
+- Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*. The first coherent frame is sticky.
+- Alter, A. L., & Oppenheimer, D. M. (2009). Uniting the tribes of fluency to form a metacognitive nation. *Personality and Social Psychology Review*. Fluency is mistaken for accuracy.

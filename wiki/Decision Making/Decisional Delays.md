@@ -1,93 +1,74 @@
 ---
+title: "Decisional Delays"
 type: concept
 status: seed
 created: 2026-05-08
-updated: 2026-05-08
-source-count: 1
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 2
 tags:
+  - ics
   - decision-making
+  - time-management
   - self-management
   - focus
   - productivity
-  - ics
 ---
 
 # Decisional Delays
 
-Focus often leaks in the small gaps where the user has to decide what to do next. Use Decisional Delays when the day technically has enough time, but transition friction keeps breaking the thread.
+A decisional delay is the unplanned stretch between a finished task and the next start, closed by writing tonight's next task, start, stop, materials, and fallback. A day can have enough hours and still lose the thread at every handoff; the hidden minutes break the absorption the next block needs.
 
-The practical version:
+## What the gap costs, and how to see it
 
-1. Plan decisions outside execution time.
-2. Make the next action specific before starting.
-3. Protect focus blocks from new choices.
-4. Measure how much time disappears between tasks.
+The visible minutes between tasks are only part of the delay. The bigger cost is the break in [[wiki/Self Management/Flow State|Flow State]] — the absorption, not a timer, that the gap snaps. When the next action is decided in that gap, four things happen together. Attention leaves the work that just ended. Planning consumes the effort that should have gone into the next start. Uncertainty invites whatever is already open on the desk. Re-entry into focused work takes time of its own. The decision feels small. Repeated across a day, the switching adds up to a large loss.
 
-Decisional delays replace the vague habit of "figuring it out as I go." Execution mode should not require constant re-planning.
+The repair starts by seeing the leak. For about a week, mark when a focused task ends and when the next focused task actually begins. Compare the planned schedule to the real flow. Count unplanned transition time and the focus breaks that follow those gaps. The first days of the log usually see nothing; awareness of the gap builds over the week. The goal is not a feeling of being more decisive. It is to see whether decisions between tasks are creating hidden drag.
 
-## Why It Matters
+Those two jobs belong together: plan the decisions outside execution time, and measure how much time disappears between tasks. The audit names the leak. The day-edge plan stops it.
 
-The visible minutes between tasks are only part of the delay. The bigger cost is the break in [[wiki/Self Management/Flow State|Flow State]].
+## Plan outside the block
 
-When a user stops to decide what to do next, several things happen:
+The next action has to be specific before the block starts, and the block itself has to be protected from new choices. That is what replaces figuring it out as the work goes. Execution mode should not require constant re-planning.
 
-- attention leaves the current task,
-- planning consumes cognitive energy,
-- uncertainty invites distractions,
-- and re-entry into focused work takes time.
+Batch planning and prioritisation at the start or end of the day so mid-day planning is unnecessary. During a focus zone, block inputs so new options do not enter.
 
-The decision may feel small, but repeated task-switching can create a large productivity loss across a day.
+A usable plan names six things: the next task; the start condition; the stopping condition; the materials needed; the fallback if the task is blocked; and what not to do during the block. "Study biology" still contains decisions. "At 9:00, Aim the endocrine chapter for 25 minutes" — write what the material must answer before opening it — "and produce five why/how questions" removes more of the ambiguity.
 
-## How To Find It
+When the plan fails, the failure usually has a named shape.
 
-Use a short audit.
+| Failure | Repair |
+|---|---|
+| Vague plan | Write the next action |
+| Mid-task planning | Batch at the day edges |
+| Open distraction channels | Block inputs |
+| Overplanned day | Fallbacks and buffers |
+| Invisible transition loss | Track a week |
 
-1. Track work blocks for about a week.
-2. Mark when a focused task ends.
-3. Mark when the next focused task actually begins.
-4. Compare the planned schedule to the real task flow.
-5. Count unplanned transition time and focus breaks.
+An overplanned day recreates decisions the moment anything slips. Fallbacks and buffers are the signal to loosen a schedule that is too tight to survive contact.
 
-The goal is to see whether decisions between tasks are creating hidden drag.
+The stretch after the last task is still there. Tonight's six items have already spent the decision, so the next start is just a start.
 
-## How To Reduce It
+## Links into the knowledge base
 
-Use planning to remove mid-day ambiguity.
+- [[wiki/Decision Making/Decision Making|Decision Making]] — hub for how much thinking a choice is worth.
+- [[wiki/Decision Making/Choice Throttling|Choice Throttling]] — a different problem: a tangled choice, not a between-task gap.
+- [[wiki/Self Management/Flow State|Flow State]] — the state the gap breaks — absorption, not a timer.
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] — inside-the-block recover; this page is between blocks.
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] — between-block friction from the attention side.
+- [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]] — when the gap becomes avoidance.
+- [[wiki/Dimensions/Self-Management|Self-Management]] — parent dimension.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — control of the switch.
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] — small leaks compound.
 
-Good planning output:
+## Open questions
 
-- next task,
-- start condition,
-- stopping condition,
-- materials needed,
-- fallback if blocked,
-- and what not to do during the block.
+Which transitions create the most delay?
 
-For example, "study biology" still contains decisions. "At 9:00, Aim the endocrine chapter for 25 minutes and produce five why/how questions" removes more ambiguity.
+Does a written next-action queue, calendar blocks, or both close the gap better?
 
-## Failure Modes
+## Sources
 
-| Failure | What It Looks Like | Fix |
-| --- | --- | --- |
-| Vague plan | The schedule names a subject but not an action. | Write the next action before the block starts. |
-| Mid-task planning | The user keeps choosing while trying to work. | Batch planning at the start or end of the day. |
-| Open distraction channels | New options keep entering awareness. | Block inputs during focus zones. |
-| Overplanned day | The schedule is too brittle to survive reality. | Add fallback instructions and buffers. |
-| Invisible transition loss | The user only notices completed tasks, not gaps. | Track task transitions for a week. |
-
-## Related Pages
-
-- [[wiki/Decision Making/Decision Making|Decision Making]]
-- [[wiki/Decision Making/Choice Throttling|Choice Throttling]]
-- [[wiki/Self Management/Flow State|Flow State]]
-- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
-- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
-- [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
-- [[wiki/Dimensions/Self-Management|Self-Management]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-
-## Open Questions
-
-- Which transitions in the user's current day create the most decisional delay?
-- Should the user use a written next-action queue, calendar blocks, or both?
+- Mark, Gudith & Klocke 2008, CHI — 23 min 15 sec to return to an interrupted task after intervening tasks. Bound only: that study measures resume-after-others, not a self-posed "what next?" after a task ends.
+- Gollwitzer & Sheeran 2006 — implementation intentions: a specific next action reduces start friction. Support for writing the next action before the gap, not a timer for the gap itself.

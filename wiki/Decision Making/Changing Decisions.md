@@ -1,11 +1,15 @@
 ---
+title: "Changing Decisions"
 type: concept
-status: seed
+status: developing
 created: 2026-05-08
-updated: 2026-05-08
-source-count: 3
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 4
 tags:
   - decision-making
+  - judgment
   - adaptability
   - bias
   - self-regulation
@@ -14,77 +18,52 @@ tags:
 
 # Changing Decisions
 
-New information can turn persistence into rigidity if the original choice no longer has the same decision quality. Use Changing Decisions when the user is unsure whether to continue, revise, or stop.
+The original reasons go on the page next to the facts now in hand, then get asked whether the same pick would be made today. Sticking is not automatically stronger than revising. The new facts are what the stay has to answer to.
 
-The practical version:
+## Persistence, rigidity, and when the facts have moved
 
-1. Identify what has changed.
-2. Check whether the original reasons still hold.
-3. Watch for sunk cost, status quo bias, and loss aversion.
-4. Decide whether changing improves position or expected value.
-5. Treat adaptive revision as a decision skill, not as failure.
+The trigger is the moment it is unclear whether to continue, revise, or stop. Persistence is useful when the decision still aligns with goals, values, and priorities. Without that keep-half, every stay looks like a failure.
 
-This replaces the belief that sticking with a decision is always stronger than changing it.
+Rigidity appears when staying is driven by something else: changing feels embarrassing; effort has already been invested; the current path is familiar; loss feels more painful than future upside; or consistency is being confused with good judgment. Embarrassment and identity are the tells a reader will not already have named. Effort is sunk cost. Familiarity is status quo. Loss larger than upside is loss aversion.
 
-## Persistence Versus Rigidity
+The useful question is: does this still make sense with the information I have now?
 
-Persistence is useful when the decision still aligns with goals, values, and priorities.
+Changing can be better when new information changes expected value; when the downside is larger than first understood; when the original assumptions were wrong; when the opportunity landscape has changed; when the decision no longer fits current goals; or when staying mostly protects comfort rather than purpose. Comfort-versus-purpose is what stops the list being only "new information arrived."
 
-Rigidity appears when the user keeps going mainly because:
+Later decisions can be better than earlier ones because later decisions can contain more information. The original pick does not gain odds from tenure. New facts re-weight what remains; time-in-seat is not evidence. "Already come this far" is not a reason. Whether changing improves position or expected value belongs to [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]].
 
-- changing feels embarrassing,
-- effort has already been invested,
-- the current path is familiar,
-- loss feels more painful than future upside,
-- or the user confuses consistency with good judgment.
+## The checks and the review
 
-The useful question is: "Does this still make sense with the information I have now?"
+Four reads catch the stay that is no longer a choice.
 
-## When Changing Is Better
+- Status quo: staying because it is already in motion, not because it is better.
+- Sunk cost: would this be chosen again if time, money, or identity had not already been invested? Identity is part of the spend.
+- Loss aversion: overweighting the pain of changing against the benefit of adapting. Lab ratios sit near 2:1, not a folklore multiple.
+- Identity lock-in: protecting an image of consistency rather than the goal.
 
-Changing can be the better decision when:
+Then the seven-question review: what was the original decision; what information changed; which assumptions no longer hold; what is the cost of staying; what is the cost of changing; which option improves future position; what would force another change. The last question is the kill criterion. Process versus outcome after the change belongs to [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]]. Catching the tell in real time is a [[wiki/Dimensions/Self-Regulation|Self-Regulation]] problem.
 
-- new information changes the expected value,
-- the downside is larger than originally understood,
-- the original assumptions were wrong,
-- the opportunity landscape has changed,
-- the decision no longer fits current goals,
-- or staying mostly protects comfort rather than purpose.
+## Revision as a skill
 
-Later decisions can be better than earlier decisions because later decisions can contain more information.
+Adaptive revision is a skill, not a failure. Write the next exit test at the moment of the change — the same reasons sheet, dated forward. [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] is the after-action on the old choice — what happened, what rule, what changes.
 
-## Bias Checks
+## Links
 
-Use these checks before staying or changing:
-
-| Bias | Question |
-| --- | --- |
-| Status quo bias | Am I staying because the current path is better, or because it is already in motion? |
-| Sunk cost bias | Would I choose this again if I had not already invested time, money, or identity? |
-| Loss aversion | Am I overweighting the pain of changing compared with the benefit of adapting? |
-| Identity lock-in | Am I protecting an image of consistency rather than the goal? |
-
-## Decision Change Review
-
-Use this short review:
-
-1. What was the original decision?
-2. What information has changed?
-3. What assumptions no longer hold?
-4. What is the cost of staying?
-5. What is the cost of changing?
-6. Which option improves future position?
-7. What would make me change my mind again?
-
-## Related Pages
-
-- [[wiki/Decision Making/Decision Making|Decision Making]]
-- [[wiki/Decision Making/Good Decisions|Good Decisions]]
-- [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Decision Making/Decision Making|Decision Making]] — the hub: how much thinking a choice is worth, and when this page is the right tier.
+- [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]] — process versus outcome after the change.
+- [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]] — whether changing improves the next choice, not only this result.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — bias as a control problem, catching the tell in real time.
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] — after-action on the old choice.
 
 ## Open Questions
 
-- Which current commitments should have explicit change criteria?
-- What signs distinguish persistence from rigidity in the user's study system?
+Which current commitments should have explicit change criteria?
+
+What signs distinguish persistence from rigidity in the study system?
+
+## Sources
+
+- Arkes & Blumer 1985 — sunk cost keeps people on a spent path.
+- Samuelson & Zeckhauser 1988; Kahneman, Knetsch & Thaler 1991 — status quo: staying because it is already in motion.
+- Kahneman & Tversky 1979 — loss aversion; typical lab coefficient near 2:1. A 3–10× range is rhetoric, not the finding.
+- Duke, *Quit* (2022); CNBC 2023-06-11 interview — quitting can be the skilled move; grit without an exit test is a trap.
