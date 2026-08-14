@@ -26,4 +26,6 @@ Every page in this vault is something you own — lived, tested, or built — be
 
 The stance holds for the whole page, not an intro stapled to a body of verdicts.
 
-What that act sounds like when it runs (same day, 15:11–15:14): ease in; a simple starting story; bird's-eye, something easy to look at; stop trying to do too much too quickly. Even seven plain words are a step if they are a thesis-atom. Live models: [[wiki/Concepts/Selfhood and the Ledger|Selfhood and the Ledger]], [[wiki/Concepts/Good Faith|Good Faith]] (GF-A), [[wiki/Dimensions/Mindset/Confidence Calibration|Confidence Calibration]] (CC-B).
+When it runs, the writer stays inside the thing. The opening is long enough to hand it over — what it is, what holding it costs, what it buys — and then it stops. The name arrives when it is already obvious. A short ramp and a punchline is still a card.
+
+What that act sounds like (same day, 15:11–15:14): ease in; a simple starting story; bird's-eye, something easy to look at; stop trying to do too much too quickly. Even seven plain words are a step if they are a thesis-atom. Live models: [[wiki/Concepts/Selfhood and the Ledger|Selfhood and the Ledger]], [[wiki/Concepts/Good Faith|Good Faith]] (GF-A), [[wiki/Dimensions/Mindset/Confidence Calibration|Confidence Calibration]] (CC-B).
