@@ -1,9 +1,12 @@
 ---
-type: concept
+title: "Design of Everyday Things"
+type: book
 status: developing
 created: 2026-05-16
-updated: 2026-06-30
-source-count: 1
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 8
 tags:
   - design
   - affordances
@@ -15,112 +18,132 @@ tags:
 
 # Design of Everyday Things
 
-When a capable person fails at an everyday thing — pushes a door that pulls, leaves the stove burner that maps to no knob, gives up on a thermostat — the fault is in the design, and a small set of principles is what separates an object that explains itself from one that defeats its user. Don Norman's revised edition (Basic Books, 2013) names those principles, grounds them in how people actually perceive and act, and argues they outlast the technology they are applied to. The whole book turns one reflex — *the user is the problem* — into its opposite: difficulty is data about the design.
+A capable person stuck on a door, a stove, or a thermostat has met a design failure. The object was supposed to explain what can be done, where, and what state it is in. A small set of principles, grounded in how people perceive and act, is what would have made the next move obvious, and those principles outlast the particular technology they sit on.
 
-## The two questions every design must answer
+## What makes an object explain itself
 
-Norman reduces good design to two properties a person must be able to satisfy on first contact:
+Two properties decide the first contact. **Discoverability** is whether the possible actions are findable, and where and how they are done. **Understanding** is whether the person can tell what the thing is for, what the controls do, and what state it is in. Discoverability is built from affordances, signifiers, constraints, mappings, and feedback. Understanding rests on the conceptual model. A simple object that still needs an added instruction has already failed. When a sign has to be taped to a door, the door did not do its job.
 
-- **Discoverability** — can I figure out what actions are possible, and where and how to perform them?
-- **Understanding** — what does it all mean? What is this for, what do the controls do, what state is it in?
+An **affordance** is a relationship between the object's properties and what a particular kind of user can do. A chair offers sitting to someone of about the right size. It offers nothing of the kind to a mouse, and it does not stop offering sitting just because nobody has noticed the chair. The word was overused for a generation to mean "visible control." This edition repaired that. The repair is a second word.
 
-Discoverability is built from five of these principles — affordances, signifiers, constraints, mappings, feedback; understanding rests on the conceptual model. A simple object that needs an added instruction has already failed one of these. "When external signifiers — signs — have to be added to something as simple as a door, it indicates bad design."
+A **signifier** is the visible or audible clue that shows the place and the manner of the action. A flat plate says push. A slot says insert. An underline says this text is a link. What can be done is the affordance. Where to do it is the signifier. Both are needed. For a designer, signifiers do the heavier work, because an unused possibility that nobody can see is not a usable action.
 
-## The core principles
+Weak: a glass door with no hardware and a printed "PUSH" beside it. Strong: a plate that *is* the instruction.
 
-**Affordance.** A relationship between an object's properties and the capabilities of the agent using it, which determines what action is possible. A chair affords sitting *for a person of roughly the right size*. Affordance is a relationship, not a property of the object alone, and it exists whether or not anyone notices it. The term is J.J. Gibson's; Norman's contribution is to separate it from its perception.
+**Mapping** is how controls line up with what they change. A *natural mapping* puts that line-up into physical space so nothing has to be memorized. Stove knobs laid out like the burners. A seat control shaped like the seat, so the part you press is the part that moves. Light switches arranged like the lights in the room. When the layout matches the thing, labels become optional. When the layout is arbitrary, the person will get it wrong on the next cold start.
 
-**Signifier.** A perceptible signal of where and how an action should be done. Norman introduces the word in this edition to repair his own overloaded first-edition use of "affordance": the flat plate that says *push*, the slot that says *insert card here*, the underline that says *link*. "Affordances determine what actions are possible. Signifiers communicate where the action should take place. We need both." For a designer, signifiers do the heavier work — the affordance can exist and still go undiscovered if nothing signifies it.
+**Feedback** is immediate, informative confirmation of the result and of the new state. Speed matters: a tenth of a second of lag is already enough to unsettle. Poor feedback can be worse than none: when every alarm screams at once, operators learn to silence all of them, and the channel that was supposed to help becomes a reason to stop listening.
 
-**Mapping.** The correspondence between controls and their effects. A *natural mapping* puts that relationship into physical space so no learning is required: stove knobs laid out in the pattern of the burners, the Mercedes seat-adjustment control shaped like a seat, a bank of light switches arranged like the lights they drive. A good natural mapping needs no labels; an arbitrary one guarantees error every time.
+A **conceptual model** is a short story about how the thing works. It can be incomplete or even wrong, if it is useful. The desktop's files and folders are that kind of story. Two dials on a fridge that pretend to own one compartment each turn a simple job into an impossible one, because the story the panel tells is false. The designer is not in the room. Everything the person can see, hear, and touch has to carry the designer's model — that is the **system image**. If that image is wrong, the user's model will be wrong, and no amount of later explanation will arrive in time.
 
-**Feedback.** Immediate, informative confirmation of the result of an action and the new state of the system. It must be fast — "even a delay of a tenth of a second can be disconcerting" — and it must be managed, because "poor feedback can be worse than no feedback at all." Back-channel overload is its own failure: when every alarm in a control room screams at once, operators silence all of them and miss the one that mattered.
+## The loop and the two gulfs
 
-**Conceptual model and the system image.** A conceptual model is a simplified explanation of how something works; it "doesn't have to be complete or even accurate as long as it is useful." Files and folders are a useful fiction; a refrigerator with two dials presented as if each controlled one compartment makes a trivial task impossible because the model is false. The designer never speaks to the user directly, so everything perceivable — the controls, the layout, the microcopy, the manual — has to carry the model: "the entire burden of communication is on the system image."
+Every use is a loop of seven stages. On the way out: form a goal, plan, specify the action, perform it. On the way back: perceive the state, interpret it, compare it to the goal.
 
-## How action works: seven stages and two gulfs
+1. Goal — what do I want.
+2. Plan — what sequence would get it.
+3. Specify — which action, exactly.
+4. Perform — do that action.
+5. Perceive — what changed.
+6. Interpret — what does that change mean.
+7. Compare — was that the goal.
 
-Norman models every use of a thing as a loop of seven stages — form a **goal**, then **plan**, **specify**, and **perform** an action; then **perceive** the result, **interpret** it, and **compare** it against the goal. Execution runs down the left side; evaluation runs back up the right. The design's job is to answer the seven questions a user implicitly asks ("What do I want? What can I do? How do I do it? Did it work?").
+Execution runs down one side of the loop. Evaluation runs back up the other. The design is there to answer the questions the loop keeps asking: what do I want, what can I do, how do I do it, did it work.
 
-Two gaps are where designs fail:
+The **Gulf of Execution** is the distance between the intention and the actions the system actually allows. Signifiers, constraints, mappings, and a conceptual model are feed-forward across that gulf. The **Gulf of Evaluation** is the distance between the system's new state and the person's ability to tell what happened. Feedback and the same conceptual model bridge that one.
 
-- **The Gulf of Execution** — the distance between intention and the actions the system allows. Bridged by signifiers, constraints, mappings, and a clear conceptual model (the feed-*forward* that serves the doing).
-- **The Gulf of Evaluation** — the distance between the system's state and the user's ability to tell what happened. Bridged by feedback and a conceptual model (which serves the interpreting).
+Take any stuck flow through the seven stages and the break shows up. "I cannot find how" is an execution problem. "I did something and cannot tell what" is an evaluation problem. They take different fixes. Treating both as "the user is confused" is the reflex this page is for.
 
-The practical value: run any flow against the seven stages and the failing one is locatable. A user who "can't find how to do it" is stuck in execution; a user who "did something but can't tell what" is stuck in evaluation, and the two call for different fixes.
+## Make remembering unnecessary
 
-## Knowledge in the world vs. knowledge in the head
+Exact action does not need exact memory, because some of the information lives in the room. The best memory help is to remove the need to remember.
 
-Precise behavior does not require precise knowledge, because information is split between memory and the environment. "The most effective way of helping people remember is to make it unnecessary" — put the cue in the world. People store only partial descriptions, enough to discriminate among the choices actually present; working memory holds roughly three to five items and is wiped by a single interruption. The tradeoff is explicit: knowledge in the world is easy to use but requires the cue to be present and perceived; knowledge in the head is fast and portable but costs learning and is fragile under load. Good design tilts the everyday case toward the world while leaving fast paths for experts.
+People store only partial descriptions — enough to discriminate among the choices actually present, not enough to reconstruct the object from nothing. Working memory holds roughly three to five items and is wiped by a single interruption. That is the number behind [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]], not the older seven.
 
-## Constraints and forcing functions
+Knowledge in the world is easy to use and requires the cue to be sitting there. Knowledge in the head is fast and portable, costs learning, and is fragile under load. Good design tilts everyday action toward the world, and leaves fast paths for people who already know. [[wiki/Minimalism/Environment Design|Environment Design]] is that tilt applied to rooms: put the cue where the action happens.
 
-Constraints narrow the action space toward the one correct move, and Norman names four classes — **physical** (the plug only fits one way), **cultural** (conventions learned socially), **semantic** (meaning of the situation: the rider faces forward, so the windshield goes in front), and **logical** (the one leftover part goes in the one empty hole). Stacked together — as on the Lego motorcycle he uses as the worked example — they make instructions unnecessary. A single feature can serve several roles at once: the holes in a pair of scissors are affordance, signifier, and constraint together.
+**The most effective memory aid is an object that does not need one.**
 
-**Forcing functions** are constraints applied to safety, in three flavors: **interlocks** force operations into sequence (the ATM returns your card before dispensing cash so you can't walk away without it; "save changes?" on exit); **lock-ins** keep an operation active so you can't end it prematurely; **lockouts** prevent entry into a dangerous state (the stairwell gate at the ground floor stops people fleeing a fire into the basement). The recurring caveat: a forcing function annoying enough to be defeated gets defeated, and then it is worse than useless.
+## Constraints, then blame
 
-## Human error is usually bad design
+Four classes of constraint, stacked, do the remembering.
 
-When Norman investigated the Three Mile Island accident, the operators were blamed for "human error"; the committee found a control room that made the errors all but inevitable. "In my experience, human error usually is a result of poor design: it should be called system error." Two corollaries:
+- **Physical** — a plug that only fits one way.
+- **Cultural** — conventions a group already shares.
+- **Semantic** — a windshield belongs at the front of a vehicle, because that is what a windshield is for.
+- **Logical** — the leftover part goes in the leftover hole.
 
-- **Root-cause analysis continues past the person.** Keep asking *why* down the causal chain until it reaches the design or the system beneath the operator — the practice he draws from Toyota's repeated-why method.
-- **The Swiss-cheese model.** Accidents come from many holes in many layers lining up, never one cause. So design against accidents on three levers: add layers, shrink each layer's holes, and alert people when several holes have already aligned.
+A brick-toy motorcycle that uses all four lets the parts themselves be the guide. One part can do several jobs: scissor holes are the possible action, the clue, and the limit at the same time.
 
-A "conspiracy of silence" keeps these problems invisible: people who struggle assume they are at fault, hide it, and the widespread defect reads as personal incompetence. "If you have difficulties, remember, it's not your fault: it's bad design."
+**Forcing functions** are those limits used for safety. **Interlocks** refuse the next step until the previous one is done — the card comes out before the cash; the dialog asks whether to save. **Lock-ins** refuse to end the activity prematurely. **Lockouts** refuse entry to a place that would be unsafe — a gate at the ground floor of a stairwell so a fire escape does not dump you in the basement. A safety lock that people hate enough to disable will be disabled, and then you have no lock and a practiced workaround.
 
-### Slips and mistakes need different cures
+When a famous nuclear plant came close to disaster, the operators were blamed. The inquiry found a control room that almost required the mistakes. What gets called human error is, in that shape, a design result — a system error. Root-cause analysis that stops at the person has not finished; the useful version keeps asking why until the design, the procedure, or the missing signal is on the table.
 
-Error splits in two, and conflating them mis-aims the fix:
+Accidents happen when several holes line up. The **Swiss-cheese model** treats that as the unit of design. Three levers: add layers, shrink the holes, and alert when several holes have already aligned.
 
-- **Slips** — the right goal, the wrong execution. They rise with skill, because experts run on autopilot. Norman names four design-relevant kinds: **capture** (a more-practiced sequence hijacks the intended one), **description-similarity** (the right action on the wrong, similar object), **mode errors** (the action was correct for a different mode the system is silently in — "mode error is really design error"), and **memory-lapse** slips (a step dropped after an interruption). Cures live in the design: differentiate similar controls, make modes loud and visible or eliminate them, and let interrupted steps be resumed.
-- **Mistakes** — the wrong goal or plan, formed from a faulty model or the wrong rule. Cures are better feedback about state, clearer conceptual models, and guidance toward sensible plans.
+The everyday version of the same blame is quieter. People who struggle assume they are at fault, hide the struggle, and the defect reads as personal. If you have difficulties, it is not your fault. It is bad design. That is the opening turn, at the scale of shame.
 
-### Designing for error
+**Slips** are the move going wrong while the goal is right. Skilled people do this more, because they have gone automatic. Four kinds matter for design:
 
-Assume error will happen and build for it. Norman's doctrine: add constraints to block the slip; make actions reversible, with **undo as the single most powerful tool**; make the unreversible hard to do by accident; let the system sensibility-check absurd input rather than meekly accepting it; and treat what the person enters as an approximation to be helped toward the intended result. "Never make people start over."
+- **Capture** — a frequent action seizes a similar, less frequent one.
+- **Description-similarity** — two controls look alike, and the wrong one is used.
+- **Mode errors** — the same action means something else in this state. Mode error is really design error.
+- **Memory-lapse** — an interrupted step is never resumed.
 
-## Beyond usability: emotion and the whole experience
+The cures live in the object: differentiate similar controls, make modes loud or eliminate them, let an interrupted step be picked up. **Mistakes** are the other family — wrong goal or wrong plan, from a faulty model or the wrong rule. Their cures are better state feedback, clearer models, and guidance toward a sensible plan.
 
-Usability is necessary and not sufficient. The full experience runs across three levels of processing — **visceral** (the immediate gut reaction, tied to perception and motor feel), **behavioral** (the feel of using it, tied to expectation and outcome), and **reflective** (the story you tell afterward, which often outweighs the reality). One bad moment at the end — a hostile checkout, a cryptic final error — can poison an otherwise good product's reflective verdict. "Attractive things work better": positive affect makes people more tolerant and more creative in working around minor trouble. Aesthetics and usability coexist: the prize-winning post-office doors with no visible hardware were beautiful *and* trapped his friend inside, and the corrective signifiers "need not destroy the aesthetics."
+Assume error will happen. Add constraints. Make actions reversible. **Undo is the single most powerful tool.** Make the irreversible hard. Check absurd input for sensibility and treat input as an approximation. Never make people start over.
 
-## Process: human-centered design
+People process at three levels: **visceral**, **behavioral**, **reflective**. One bad moment at the end can poison the reflective verdict on the whole encounter. Attractive things work better in a narrow, real sense: positive affect makes people more tolerant of minor trouble and more able to invent a way around it. Aesthetics and usability are not a trade. Prize-winning doors with no hardware still trapped a friend, because beauty that removes the signifier has not made the object work.
 
-The design process is two diamonds. The first diverges to explore the problem and converges to define the *right* problem (discover, define); the second diverges to explore solutions and converges to deliver one (develop, deliver). Solving the right problem matters more than solving a problem well. Requirements come from observation: "requirements made in the abstract are invariably wrong… requirements are developed by watching people in their natural environment." The work iterates — observe, ideate, prototype, test — with as few as five users per round and a redesign between rounds. Two field truths anchor it: "most cases are 'special'… any system that does not allow for special cases will fail," and there is no average person, so flexible and adjustable beats optimized-for-the-mean.
+## Process, limits, how to use
 
-**Activity-centered design** is the scaling move: build the conceptual model on the structure of the whole *activity*. "Design for activities and the result will be usable by everyone." The iPod won by supporting the entire activity of acquiring, organizing, and listening to music; the best isolated player would have lost.
+The process is two diamonds. First discover and define the *right* problem. Then develop and deliver a solution. Finding the actual problem beats solving the wrong one cleanly. Written requirements invented at a desk are almost always wrong. They come from watching people in the place the work actually happens.
 
-## The business reality
+Iterate: observe, ideate, prototype, test. As few as five people per round, with a redesign between rounds, is enough to see the repeating failures. That number is a diminishing-returns argument for *iterative* tests, not a sample-size law. Most cases are special. There is no average person. Flexible beats optimized-for-the-mean.
 
-Two forces bend designs away from these principles. **Featuritis** (creeping featurism) is the steady accretion of features — the Lego set that went from 15 pieces to 29 — because features get added and never removed, and because matching a competitor feature-for-feature converges every product toward sameness. **Legacy and habit** beat technically superior designs that demand relearning: QWERTY persists over the faster Dvorak layout because the switching cost exceeds the gain, and "standardization is indeed the fundamental principle of desperation" — a fallback used when no better solution is reachable, valuable because people learn the pattern once. Innovation is mostly incremental hill-climbing; radical leaps are rare, usually fail, and rarely come from asking users, who cannot request what does not yet exist. Norman closes on permanence: "our technologies may change, but the fundamental principles of interaction are permanent."
+**Activity-centered design** builds the conceptual model on the whole activity, not on a feature list. Design for the activity and the result will be usable by the people who do that activity. A music player won its generation by supporting three verbs — acquire, organize, listen — not by adding another button.
 
-## The case against (and the boundaries)
+**Featuritis** (creeping featurism) is what happens instead. Features get added and never removed. Matching a competitor converges products toward sameness. A brick-toy set that was fifteen pieces becomes twenty-nine.
 
-- **The vocabulary needed repairing in its own lifetime.** The signifier concept exists because the first edition's "affordance" was misapplied to screens for two decades. The framework is sharpest on physical objects; on virtual surfaces it works only after the affordance/signifier split is held carefully.
-- **"Make it discoverable and effortless" has exceptions Norman grants.** Security, games, and deliberate skill-building are cases where friction is the point; ease is the wrong goal there. A design that hides an action on purpose is defensible only when difficulty serves the user.
-- **Standardization is a confessed last resort.** It locks in whatever was standardized, good or bad (QWERTY), and trades long-run optimality for learn-once familiarity.
-- **Human-centered observation is slow, costly, and weak at radical novelty.** Watching people in context surfaces what to fix in things that exist; it rarely produces the leap to things that don't, since users describe their present world.
-- **The model underdetermines aesthetics and business.** It tells you when a thing is usable and understandable, not whether it is beautiful, desirable, or viable to ship.
+An older, worse layout that everyone already knows will beat a better layout that has to be relearned. A standard typewriter arrangement stays in place over a rearranged one because the cost of switching exceeds the gain. That is lock-in. It does not need a speed contest to be true. Standardization locks in whatever was standardized. It is the fundamental principle of desperation — a fallback when no better solution is reachable, and valuable because people learn the pattern once.
 
-## How to use it
+Innovation is mostly incremental hill-climbing. Radical leaps are rare, usually fail, and rarely come from asking users, who cannot request what does not yet exist.
 
-- Audit a thing against the two questions (discoverability, understanding) and the seven stages; name the stage that breaks.
-- Read every difficulty as a signifier of where the design can improve, not as a user defect.
-- For any control, check that something *signifies* the affordance, that the mapping is natural, and that acting on it returns feedback.
-- For any risk, reach for constraints and forcing functions before instructions; for any irreversible action, reach for undo before a confirmation dialog.
+The vocabulary itself needed repairing. After two decades of screen work, "affordance" had been stretched to mean any visible control, which is why "signifier" had to be introduced. The principles are sharpest on physical objects. On a screen, the same words still work, and they are easier to fake.
 
-## Related Pages
+Friction is sometimes the point. Security, games, and deliberate skill-building are granted exceptions: the difficulty is the product. Watching people is slow, expensive, and a weak way to invent something nobody has seen. The model also underdetermines aesthetics and business. It will not tell you what to charge, or which of two beautiful objects to ship.
+
+How to use the page, as an operator:
+
+- Audit a stuck object against the two first-contact questions and the seven stages.
+- Read the difficulty as design data, not as a report on the person.
+- Check the signifier, the mapping, and the feedback before writing a help article.
+- Reach for constraints and undo before you reach for instructions and confirmations.
+
+Technologies change. The principles of interaction do not. A new device can still fail a capable person, and the object still failed to explain the next move.
+
+## Open questions
+
+Whether these principles later earn seven owner pages of their own.
+
+## Related
 
 - [[wiki/Design/Design, Condensed|Design, Condensed]] — this book's doctrine compressed to one rule per line.
-- [[wiki/Design/Front-End Web Design|Front-End Web Design]] — these principles mapped onto web UI and the tsumugu reader and dictionary.
-- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — the working-memory limits behind knowledge-in-the-world.
-- [[wiki/Minimalism/Environment Design|Environment Design]] — the same move (put the cue in the world) applied to rooms and defaults instead of devices.
-- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] — visible activity that bypasses the intended cognition, the learning analogue of a signifier with nothing behind it.
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking]] — re-examining the assumptions baked into an interface.
+- [[wiki/Design/Front-End Web Design|Front-End Web Design]] — these principles mapped onto web UI.
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — working-memory limits behind knowledge-in-the-world.
+- [[wiki/Minimalism/Environment Design|Environment Design]] — put the cue in the world, applied to rooms.
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] — visible activity that bypasses intended cognition, a signifier with nothing behind it.
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking]] — re-examining assumptions baked into an interface.
 
 ## Sources
 
-- Don Norman, *The Design of Everyday Things*, revised and expanded edition (Basic Books, 2013). Chapters 1–7: psychopathology of everyday things, the psychology of everyday actions, knowledge in the head and the world, constraints and forcing functions, human error, design thinking, and design in the world of business.
-
-## Open Questions
-
-- Whether the core concepts — Affordances, Signifiers, the Seven Stages of Action, Constraints, Forcing Functions, Designing for Error — should each become their own owner page, split out from this overview.
+- Don Norman, *The Design of Everyday Things*, revised and expanded edition, Basic Books, 2013. The book is the source of the principles, the worked objects, and the turn.
+- James J. Gibson, *The Ecological Approach to Visual Perception*, 1979. Affordance as a relationship between object and agent.
+- Edwin Hutchins, James Hollan, and Don Norman, "Direct Manipulation Interfaces," 1985. The two gulfs.
+- James Reason, *Human Error*, 1990. Swiss-cheese model of accidents.
+- Jakob Nielsen, "Why You Only Need to Test with 5 Users," Nielsen Norman Group, 2000. A diminishing-returns argument for iterative tests, not a sample-size law.
+- Stuart Card, Thomas Moran, and Allen Newell, *The Psychology of Human-Computer Interaction*, 1983; the 100 ms feedback threshold as an HCI convention.
+- Noam Tractinsky, Adi Katz, and D. Ikar, "What is beautiful is usable," *Interacting with Computers*, 2000. Aesthetics and judged usability.
+- S. J. Liebowitz and Stephen Margolis, "The Fable of the Keys," *Journal of Law and Economics*, 1990. Contests the speed claim often attached to a rearranged typewriter layout; lock-in by switching cost does not depend on that figure.
+- A vault design-extraction restates handle-versus-plate and the self-blame reflex. The book remains the source.

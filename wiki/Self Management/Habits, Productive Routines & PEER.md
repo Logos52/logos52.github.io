@@ -1,8 +1,12 @@
 ---
+title: "Habits, Productive Routines & PEER"
 type: technique
-status: stable
+status: developing
 created: 2026-05-22
-source-count: 5
+updated: 2026-08-14
+written-by: grok
+model: grok
+description: "Five supports that make the wanted action the easy one, so a day of good work does not wait on a surge of motivation."
 tags:
   - self-management
   - habits
@@ -10,37 +14,37 @@ tags:
 
 # Habits, Productive Routines & PEER
 
-This area focuses on designing the external conditions that make good work more likely to happen without requiring heroic levels of motivation every day.
+PEER is five supports for one habit tonight — room and cue, two-minute start, written stop, locked reward, optional person. The wanted action becomes the easy one, so the day does not wait on a surge of motivation.
 
-## Core Idea
+## Five supports, one habit tonight
 
-Most high-quality work does not come from constant high motivation. It comes from environments and routines that make the desired behavior the path of least resistance.
+High-quality work does not come from a daily surge of will. It comes from rooms and sequences that make the desired move the **path of least resistance** — the action that happens when no extra will is applied. This page designs those conditions. A habit, in the design sense, is a small repeatable action that compounds: easy to start and hard to skip. Automaticity grows with repetition. A three-week myth is not a finding and is not used here. Productive routines are larger sequences of those habits that create protected blocks — a morning, a deep-work stretch, an end-of-day review. That is a scale distinction, not a second page.
 
-## Key Concepts
+**Prep.** The room and the cue are set before the hour they are needed. Good cues are planted; the competing ones are removed until starting the wrong thing takes more effort than starting the right one.
 
-**Habit Design**  
-Building small, repeatable actions that compound over time. Emphasis on making the habit easy to start and hard to skip.
+**Easy.** The first step is tiny enough to take. Sitting at the desk can be the whole of it. The activation cost of beginning is what is lowered; the rest of the work is allowed to follow.
 
-**PEER System (Prep, Easy, Exit, Reward, Peer)**  
-A practical framework for supporting habit formation:
-- Prep: Set up the environment and triggers in advance
-- Easy: Lower the activation energy required to begin
-- Exit: Define clear stopping conditions so the habit does not become unsustainable
-- Reward: Attach some form of positive reinforcement
-- Peer: Use accountability or social support where helpful
+**Exit.** A stop is written before the start. Permission to quit at the minimum step is what keeps the habit from becoming a session that cannot be repeated tomorrow. Most habit pages skip this letter. It is the distinctive one.
 
-**Productive Routines**  
-Larger sequences of habits that create protected blocks of high-quality work (morning routines, deep work blocks, end-of-day reviews, etc.).
+**Reward.** Something pleasant sits behind a finished threshold, locked until that threshold is met, then faded. It is a start scaffold, not the long-run engine of a mature habit. A habit that has compiled is less driven by the treat.
 
-## Common Mistakes
+**Peer.** Another person, where that helps, then faded. Written consequences are allowed. A forum is not required, and this page does not send anyone to one.
 
-- Trying to build too many new habits at once
-- Making the habit too difficult in the early stages
-- Relying only on motivation or willpower
-- Never defining what “done” looks like for a session
+Tonight, for one habit: write a two-minute start, write a stop, hide the reward until after.
 
-## Integration
+Four mistakes that kill the design: too many new habits at once; a first step that is already hard; will as the only support; never defining done. The last of those is Exit, skipped.
 
-This material is a core part of [[wiki/Dimensions/Self-Management|Self-Management]]. It is the practical layer that turns intentions around focus, energy, and consistency into daily reality.
+The same room and first step, once the stop is written and the reward is still locked, are what tomorrow runs on — so [[wiki/Dimensions/Self-Management|Self-Management]] does not have to spend a surge of will on focus, energy, or showing up.
 
-See also the broader [[wiki/Techniques/Techniques - Learning Craft|Techniques - Learning Craft]] hub.
+## Related
+
+- [[wiki/Dimensions/Self-Management|Self-Management]] — parent dimension: systems that replace a daily spend of willpower
+- [[wiki/Techniques/Techniques - Learning Craft|Techniques - Learning Craft]] — broader techniques hub this practical layer sits under
+
+## Sources
+
+- Wood, W., & Neal, D. T. (2007). A new look at habits and the habit-goal interface. *Psychological Review*. Environment as the lever for repeated action.
+- Wood, W., & Rünger, D. (2016). Psychology of habit. Mature habits are less outcome-driven; reward fades as a scaffold.
+- Thaler, R. H., & Sunstein, C. R. *Nudge*. Cue and default design as a class.
+- Fogg, B. J. Tiny first actions. Sitting down can be the start.
+- Lally, P., et al. (2010). How are habits formed? *European Journal of Social Psychology*. Automaticity grows with repetition; median far longer than three weeks. The three-week figure is not used.

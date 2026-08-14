@@ -1,138 +1,154 @@
 ---
+title: "The Shortcut Problem"
 type: concept
 status: seed
 created: 2026-05-09
-updated: 2026-05-12
-source-count: 2
-last-audited:
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 5
 tags:
   - learning
   - metacognition
-  - self-regulation
-  - deep-processing
   - ics
 ---
 
 # The Shortcut Problem
 
-Hard thinking often gets replaced by visible activity that looks like learning while avoiding the cognition that actually creates learning.
+A finished note, highlight, map, or answered prompt can stand in for evaluation, comparison, or reconstruction. The swap usually feels productive, because easy processing is taken as evidence of learning.
 
-It is especially dangerous because it usually feels productive. A note gets written. A highlight gets made. A map gets drawn. A prompt gets answered. But the learner may have avoided the evaluation, comparison, uncertainty, reconstruction, or organization that the task required.
+## The five-step pattern
 
-This problem is the main failure mode behind [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] and the main reason [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]] emphasizes meta-strategies for overwhelm.
+When the work gets uncertain, effortful, or uncomfortable, the mind looks for a simpler path. Simplifying is useful when it keeps the important thinking. It is a problem when it removes the thinking.
 
-## Core Idea
+The chain is recognisable. The task needs evaluation, comparison, or reconstruction. Load arrives. A cheaper path is searched for. A visible study behavior gets finished. The artifact looks right and the knowledge did not move enough.
 
-When learning becomes uncertain, effortful, or uncomfortable, the brain often tries to make the task simpler.
+That is one reason a method can look correct while results stay flat. The cheap path borrows from later sessions. Easy processing is being counted as mastery during the hour, which is why the session feels like it worked and the next test does not.
 
-That can be useful when the simplification preserves the important thinking. It becomes a problem when simplification removes the thinking.
+[[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] is the sibling diagnosis this page names as its main failure mode.
 
-The pattern is:
+[[wiki/Syntheses/First Principles of Learning|First Principles of Learning]] keeps meta-strategies for overwhelm because this swap is why overwhelm produces busywork.
 
-1. The task requires higher-order cognition.
-2. The learner feels uncertainty or cognitive load.
-3. The brain searches for an easier path.
-4. The learner completes a visible study behavior.
-5. The result looks correct, but the knowledge does not improve enough.
+## The eight shortcuts
 
-This is one reason a technique can look right while results stay flat.
+| Visible move | Thinking it skipped |
+|---|---|
+| Transcribing someone else's explanation | Inventing and checking a structure of your own |
+| Marking a line | Asking why that line earns its place |
+| Putting an arrow between two nodes | Stating the relation the arrow claims |
+| Asking a language model for the outline before a first pass | Doing the first organization |
+| Polishing a map | Ranking relations and sitting with the confusion |
+| Going over the text again | Reconstructing from a closed book |
+| Reciting details | Building a schema those details can hang on |
+| Changing methods | Staying long enough for the method to train the skill |
 
-## Common Shortcuts
+Each row is the same handover. The left column is the finished object. The right column is the cognition the object was supposed to force. The session produced the object. It did not produce the cognition.
 
-| Shortcut | What It Avoids |
-| --- | --- |
-| Copying an explanation | Generating and testing one's own structure. |
-| Highlighting a sentence | Evaluating why the sentence matters. |
-| Drawing an arrow | Explaining the relationship represented by the arrow. |
-| Asking an LLM for the structure too early | Doing the first-pass organization oneself. |
-| Making a clean map | Resolving confusion and prioritizing relationships. |
-| Re-reading | Reconstructing knowledge from memory. |
-| Repeating details | Building a schema that gives details a place to attach. |
-| Switching techniques | Staying with one method long enough to train the skill. |
+## The recognitional test
 
-The shortcut often reduces effort in the short term and increases study load later.
+The cleanest signal is a page that looks ordered and cannot be used. During the session, not after: the feeling of productivity is a misread of fluency. Easy processing is being taken as evidence that the knowledge is there.
 
-Some shortcuts are not deliberate choices. They are old cue-response habits. If overwhelm reliably triggers copying, AI offloading, rote memorization, or avoidance, the repair belongs partly in [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]: notice the cue, script the replacement response, and rehearse the judgment before the next live attempt.
+Learning techniques exist to produce a specific kind of thinking. This page is the negative of that fact.
 
-## Why It Matters
+[[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] is the positive twin: pick a method for the cognition it triggers.
 
-The goal of learning techniques is to produce a specific kind of thinking.
+The pair stays a pair.
 
-[[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] explains the positive version: choose a method because it triggers the cognition the goal requires.
+## Where it shows up
 
-The Shortcut Problem is the negative version: the learner performs the method while avoiding the cognition.
+Bear Hunter System is four-pass encoding: a rough frame, questions the material must answer, a working map of connections, then a cut-down structure that survives without the source. The shortcut arrives when the steps become surface actions.
 
-## How It Shows Up In BHS
+| Pass | Surface fake | Repair |
+|---|---|---|
+| Aim | Listing topics | Write what, why, and how the material must answer before it is opened |
+| Shoot | Filling the map with source explanations | Use the source to answer the Aim questions |
+| Skin | Making the map neat | Cut to what can be rebuilt with the source closed |
 
-[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] can fail when its steps become surface actions.
+What matters is whether the map made someone decide what was important, how pieces relate, and how they group. A clean map that never made those decisions is the arrow-and-polish rows wearing a method's clothes.
 
-| Step | Shortcut Version | Repair |
-| --- | --- | --- |
-| [[wiki/Dimensions/Deep Processing/Aim|Aim]] | Listing topics or generic questions. | Ask what matters, why it matters, and how ideas relate. |
-| [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] | Filling the map with source explanations. | Use sources to answer Aim questions and revise structure. |
-| [[wiki/Dimensions/Deep Processing/Skin|Skin]] | Making the map neat. | Make the map easier to reconstruct and use. |
+[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is the method.
 
-The question is whether the map forced importance, relationship, and chunking decisions.
+[[wiki/Dimensions/Deep Processing/Aim|Aim]] is the first pass: listing topics is the shortcut; what, why, and how is the repair.
 
-## How It Shows Up In Retrieval
+[[wiki/Dimensions/Deep Processing/Shoot|Shoot]] is the second: filling the map with source explanations is the shortcut.
 
-[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] can also be faked.
+[[wiki/Dimensions/Deep Processing/Skin|Skin]] is the third: making the map neat is the shortcut.
 
-Shortcut versions include:
+[[wiki/Dimensions/Deep Processing/Chunking as a Technique - Good chunking at different levels, and how to layer importance and meaningfulness|Chunking as a Technique]] is the real work a clean map is supposed to have done.
 
-- checking notes too early,
-- recognizing an answer instead of reconstructing it,
-- repeating the same prompt until it feels familiar,
-- avoiding interleaving because discrimination feels uncomfortable,
-- and treating a gap as failure instead of information.
+Spaced Interleaved Retrieval is retrieval spread over time and mixed across topics and forms. It can be faked five ways.
 
-Good retrieval should expose whether the knowledge can be reconstructed, compared, explained, and applied.
+| Fake | What it avoids |
+|---|---|
+| Peeking at notes too soon | Reconstructing with the source closed |
+| Recognizing a line instead of rebuilding it | Recall rather than familiarity |
+| Repeating the same prompt until it feels familiar | A new angle on the same knowledge |
+| Staying inside one topic to avoid the mix | The discomfort of interleaving |
+| Treating a gap as failure | Using the gap as information |
 
-## How To Detect It
+Good retrieval should expose whether knowledge can be rebuilt, compared, explained, and applied. A queue that only confirms recognition has been faked.
 
-Ask:
+[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is where look-up, recognition, and blocked practice wear the method's clothes.
 
-- Did I produce an artifact without changing my understanding?
-- Did I choose the easiest version of the task?
-- Did I avoid uncertainty by looking up, copying, or outsourcing?
-- Can I explain why the relationships in my notes matter?
-- Can I reconstruct the structure without looking?
-- Did the technique make me think harder, or did it let me look busy?
+## Detection
 
-The clearest signal is often a mismatch: the work looks organized, but the learner cannot use it.
+Six questions, during the session:
 
-## How To Design Around It
+- Is there an artifact I cannot explain?
+- Did I take the easiest version of the task?
+- Did I steer around uncertainty?
+- Can I state the relationships, not just name the nodes?
+- Can I rebuild it with the source closed?
+- Did the method make me think harder, or look busy?
 
-Make techniques harder to fake.
+Design around the swap. Require a reason for every connection. Ask why a piece matters before adding detail. Compare similar ideas before summarizing. Dump from memory before checking notes. Mix topics.
 
-Practical constraints:
+After an attempt, name what just happened, how it felt and why, what rule that suggests, and what changes next time, so the shortcut that just fired gets a name.
 
-- Require a reason for every connection.
-- Ask "why does this matter?" before adding detail.
-- Compare similar ideas before summarizing them.
-- Brain dump before checking notes.
-- Use interleaving to force discrimination.
-- Use [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] to name the shortcut after it happens.
-- Choose one [[wiki/Dimensions/Mindset/Marginal Gains|marginal gain]] that targets the shortcut directly.
+[[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] is that after-the-fact naming.
 
-The point is to prevent the learner from unconsciously replacing learning with performance theater.
+Pick one small, named change aimed at the shortcut itself, not a new system.
 
-## Related Pages
+[[wiki/Dimensions/Mindset/Marginal Gains|marginal gain]] is that change.
 
-- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
-- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
-- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
-- [[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- [[wiki/Dimensions/Deep Processing/Chunking as a Technique - Good chunking at different levels, and how to layer importance and meaningfulness|Chunking as a Technique]]
+Some shortcuts are old cue-response habits — overwhelm, then copy, ask a model, rote, or leave. The repair of a habit is a different job from catching a one-off.
+
+[[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] owns that half.
+
+Catching the swap in motion is a noticing skill.
+
+[[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]] is that skill.
+
+The point is to stop replacing learning with performance theater. The artifact can stay. The thinking it was supposed to force has to stay with it.
+
+## Links
+
+- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] — the sibling diagnosis this page names as its main failure mode.
+- [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]] — why meta-strategies for overwhelm exist; this problem is the reason.
+- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] — repair when the shortcut is a cue-response habit, not a one-off choice.
+- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] — the positive twin: choose a method for the cognition it triggers.
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — where the shortcut shows up as surface Aim, Shoot, and Skin.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — where retrieval can be faked by look-up, recognition, or blocked practice.
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] — after-the-fact naming of the shortcut that just happened.
+- [[wiki/Dimensions/Mindset/Marginal Gains|marginal gain]] — one small change aimed at the shortcut itself.
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — sibling: consumption-as-thinking, the input-side version of this trap.
+- [[wiki/Dimensions/Self-Regulation/Building the Radar|Building the Radar]] — the noticing skill that catches the shortcut in motion.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — parent of the radar and overwhelm layer.
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] — parent of Bear Hunter System.
+- [[wiki/Dimensions/Deep Processing/Chunking as a Technique - Good chunking at different levels, and how to layer importance and meaningfulness|Chunking as a Technique]] — the real work a clean map is supposed to have done.
 
 ## Open Questions
 
-- Which shortcut appears most often during the user's current study system?
-- What constraint would make that shortcut harder to take?
-- Which technique currently needs a better "how it should feel" signal?
+Which shortcut is current?
+
+What constraint would block it?
+
+Which technique needs a better signal for how it should feel?
+
+## Sources
+
+- Bjork, Dunlosky & Kornell 2013, *Annual Review of Psychology* — learners take easy processing as evidence of learning. Support for the fluency misread.
+- Dunlosky, Rawson, Marsh, Nathan & Willingham 2013, *Psychological Science in the Public Interest* — highlighting and rereading, low utility.
+- Roediger & Karpicke 2006, *Psychological Science*; Karpicke & Blunt 2011 — rereading loses to reconstruction from memory.
+- Karpicke, Butler & Roediger 2009, *Memory* — students rate rereading as more effective than retrieval even though retrieval wins.
+- Koriat & Bjork 2005, *Journal of Experimental Psychology: Learning, Memory, and Cognition* — foresight bias: studying with the answer in view inflates judgments of learning.

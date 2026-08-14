@@ -1,62 +1,74 @@
 ---
 title: "Building a Schedule That Survives"
-description: "Priority-first nightly scheduling built for bad days: name the three ways schedules die — no schedule, vague blocks, over-packing — and build the plan that completes nine days out of ten."
 type: system
-status: seed
-created: 2026-06-11
-updated: 2026-06-11
-ics-stage: Technique Training
+status: developing
+created: 2026-05-08
+updated: 2026-08-14
+written-by: grok
+model: grok
+description: "Three ways a day-plan dies, and a nightly build that still holds on a tired, interrupted day."
 tags:
   - self-management
   - scheduling
-  - time-management
+  - time
 ---
 
 # Building a Schedule That Survives
 
-Bad days decide whether a plan holds. A calendar built for the best-case version of tomorrow collapses the first time focus dips, and one missed block is demoralizing enough to drag down everything after it — so the standard is achievable on a bad day: a plan that completes nine days out of ten beats one that works only when everything goes perfectly. Contents matter more than layout. Fifteen minutes deciding what deserves tomorrow can save days; an immaculate calendar of low-value tasks is still wasted time, and without an active prioritizing step, urgency does the prioritizing for you.
+A plan built the night before for a tired, interrupted tomorrow still finishes its two protected blocks. A calendar drawn for the best tomorrow dies the first time focus dips, and the miss takes the rest of the day with it.
 
-## Three ways schedules die
+## Three deaths
 
-- **No schedule.** Waking up and deciding as you go leaves nothing to execute against; the day gets allocated by whatever shouts loudest.
-- **Vague blocks.** "1–3pm: biology" gives no next action. You sit down at 1pm, ask "what do I do now?", and that delay is the opening distraction walks through — one drifting block can derail the day.
-- **Over-packing.** Back-to-back blocks leave no room for error, and something always comes up. One slipped deadline invites quitting for the day. Vague *and* packed compound: every block carries a delay, with no slack to absorb it.
+**No schedule.** Deciding as the day unfolds allocates the hours to whatever shouts. The loud item wins. The compounding one does not get a block, because nothing was reserved for it.
+
+**Vague blocks.** "1–3pm: biology" names a subject and no next action. The delay at the start of the block is the opening a distraction walks through. A three-hour "study biology" block assumes three hours of perfect hold, which is the same assumption wearing a longer label. Vague blocks fail by delay-then-drift; [[Procrastination - a System Problem]] owns that sequence.
+
+**Over-packing.** No room for error. One slip invites quitting, and a vague block inside a packed day compounds: the delay uses the slack that was never left, then the miss is read as the plan being impossible. The three-hour biology block is this death when it is also the only block that could have moved.
+
+Those are the three. A fourth is not needed.
 
 ## The nightly build
 
-- **Prioritize, then schedule, every night.** If only two things got done tomorrow and the day still counted, which two? Block those first; arrange everything else around them.
-- **Cap top priorities at three.** More than three rarely complete reliably. Anything "also kind of important" can be tomorrow's top slot — nightly reprioritizing means nothing is lost by deferring.
-- **Weekly first, daily later.** Set the week's priorities and schedule in one sitting (Sunday night works); switch to nightly planning once life changes fast enough to need it.
-- **Schedule the planning itself.** The system collapses when no slot exists to run it. The unscheduled half hour at the day's end doubles as planning time.
+**Contents before layout.** Fifteen minutes deciding what deserves tomorrow can save days — a house line, not a measured saving. Without an active sort, urgency does the sorting.
 
-## Layer the calendar, then aim each block
+**Prioritize, then block, every night.** If only two things got done and the day still counted, which two? Those two are blocked first. That two-thing check is the seed of [[Priority 0+1 System]] — the evening sort that defends the top item when the day breaks. This page turns that sort into blocks. It does not re-derive the sort.
 
-- **Non-negotiables first, with travel time.** Classes, work, family events, training — fixed commitments plus travel go in first, exposing how much real time exists.
-- **Important-non-urgent before urgent.** Protected slots for what compounds — skill practice, prestudy, exercise — get placed before deadline work; otherwise everything urgent masquerades as important.
-- **Give every block a measurable intention.** Two reserved hours guarantee nothing. "Write two paragraphs of ~250 words each" is checkable at the end of the block, and that pass/fail clarity cuts procrastination.
-- **Script the entry minute by minute.** "2:00 library, 2:10 books open and seated, 2:15 set goals for the hour" writes down only the setup that happens anyway, and it removes every "what next?" gap where drift begins. Beginners should over-specify, then loosen.
-- **Set an intention every 30–60 minutes.** A three-hour "study biology" block assumes three hours of perfect focus. Split it: hour one covers A–C, hour two D–E, hour three revises. Shaky focus calls for 30-minute goals.
+**Cap at three.** More than three top items rarely complete reliably. That is a house cap, not a finding.
 
-## Size for the day you'll actually have
+**Nine days out of ten** is a feel-check, not a score. A plan that completes on ordinary days beats one that works only when everything is perfect. A reader who misses that feel-check shrinks the day. The repair is not grit.
 
-- **Overestimate every task by 25%.** A one-hour estimate goes on the calendar as 1:15. With experience the padding shrinks toward 10%.
-- **Underfill the day by 25%.** In practice: a ~15-minute buffer between tasks and 30–60 unscheduled minutes at the end. If the buffers don't fit, remove items and prioritize harder.
-- **Overfilling costs four ways.** Illusion of productivity (completed counts; scheduled doesn't), hidden true capacity so limits stay unknown, corrupted time estimates that future plans depend on, and a habit of living behind.
-- **Book rest deliberately.** Skipped relaxation returns as unplanned procrastination plus guilt; a scheduled wind-down keeps energy available when it counts.
+**Weekly first, nightly later.** Sunday night works while life is stable. Switch to every night when the week changes fast. The planning itself is scheduled: the unscheduled half hour at day's end doubles as the slot that builds tomorrow.
 
-## Defend the blocks you placed
+**Non-negotiables first, with travel time.** Then **important-non-urgent** work — the kind that compounds and has no deadline shouting — before the urgent. Otherwise urgency masquerades as important, the same trap the Priority 0+1 sort is built to catch.
 
-- **Keep important work out of high-risk zones.** Early morning without a demonstrated wake-up habit, or straight after a draining commute — those slots fail on energy and missing habit, and an important task placed there bets on building a new habit just to support it. Email can live there; the least-disturbed hours go to what matters most.
-- **If a risky slot must be used, install rails.** A five-minute energizer before the block (short walk, press-ups, a favorite smoothie), automated do-not-disturb, telling others the slot is protected, one space conditioned for focus only.
-- **Write the protections into the plan.** "I'll try my best at 5:30" guards nothing — the same as leaving a baby alone in a room and hoping. Protection is a documented action.
-- **Treat repeated failure as an execution problem.** When a block keeps dying, the entry, energy, or environment needs to change. Wanting it more is the wrong repair.
+**Every block gets a measurable intention.** "Write two paragraphs of about 250 words" is checkable. That pass/fail is what a vague block lacked. Beginners script the entry minute by minute, then loosen. An intention every thirty to sixty minutes is the house knob; shaky focus uses the thirty-minute end of it.
 
-## Run the reality check
+**Overestimate every task by about 25 percent**, shrinking toward 10 percent with experience. **Underfill the day by about 25 percent**: a quarter-hour between tasks, and thirty to sixty minutes unscheduled at the end. Both numbers are starting knobs. The range they come from is wider. They are not laws.
 
-- **Track actual against planned.** A week of comparing the calendar to what really happened converts vague frustration into a specific barrier list.
-- **Resolve each barrier: accept or address.** Accept means nothing more can reasonably be done; address means changing something to shrink it.
-- **Most acceptance is premature.** Barriers get accepted because addressing them is uncomfortable, and discomfort gets misread as impossibility — the accept/address call is really about tolerable discomfort. A barrier genuinely not worth removing can still have its impact mitigated.
+Overfilling costs four ways: an illusion of a productive plan, hidden capacity that never gets seen, estimates that stay corrupted, and the habit of living behind the calendar.
 
-## Links into the system
+**Rest is booked.** Skipped relaxation returns as unplanned delay plus guilt.
 
-The nightly two-thing check seeds the [[Priority 0+1 System]]; [[Study Scheduling]] fills the protected blocks with learning content. Vague blocks fail by the delay-then-drift mechanism [[Procrastination - a System Problem]] treats, and a bad-day-achievable schedule keeps every block below the willpower threshold. Defended blocks make [[Flow State]] reachable; the cluster home is [[Time Management, Attention & Scheduling]].
+**Important work stays out of high-risk zones** — an unproven early morning, a post-drain commute. Mail can live there. If a risky slot must be used, rails go in with it: a five-minute energizer, do-not-disturb, other people told, one space that is only for the block.
+
+**Protections are written into the plan.** "I'll try my best at 5:30" guards nothing. The rail is on the calendar or it is not a rail.
+
+**Repeated failure is an execution problem** — entry, energy, environment — not a shortage of wanting it. Track actual against planned for a week. Each barrier is accepted or addressed. That week is the only number that calibrates the pads. Most acceptance is premature: discomfort misread as impossibility.
+
+The two-thing check becomes Priority 0+1. [[Study Scheduling]] fills the protected blocks once they exist. A defended block is what makes [[Flow State]] reachable. The cluster home is [[Time Management, Attention & Scheduling]]. Blocks sized for a tired day, not a heroic one, are the prescription. Heroic days are not required.
+
+A week of actual against planned is what sizes the slack and writes the rail.
+
+## Related
+
+- [[Priority 0+1 System]] — what the two-thing check becomes: evening sort, top item defended when the day breaks
+- [[Study Scheduling]] — what fills the protected blocks once they exist
+- [[Procrastination - a System Problem]] — delay-then-drift of a vague block
+- [[Flow State]] — why a defended block is worth defending
+- [[Time Management, Attention & Scheduling]] — cluster home
+
+## Sources
+
+- Kahneman, D., & Tversky, A. (1979). Planning fallacy: people under-estimate how long a task will take. Buehler, Griffin, & Ross later reviews. Direction for the pad; the 25 percent figure is this system's knob, not theirs.
+- Gollwitzer, P. M. Implementation intentions. A specified next action beats a vague block at the cue. Confirmed at [Implementation intention](https://en.wikipedia.org/wiki/Implementation_intention).
+- Eisenhower / Covey as a practice: important-non-urgent work is crowded out unless it is blocked before urgency fills the day.
