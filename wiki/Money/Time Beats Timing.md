@@ -16,7 +16,7 @@ tags:
 
 # Time Beats Timing
 
-The compound on an invested surplus is built from the years the money stays in, including the crash. A sale during a crash cuts those years at the cluster of recovery days. The usual break is the owner reacting to prices.
+The compound on an invested surplus is built from the years the money stays in, including the crash. Those years pay more than clever entry dates. A sale during a crash cuts the stretch at the cluster of recovery days. The usual break is the owner reacting to prices.
 
 ## Opposite skills, and why a sale wrecks the stretch
 

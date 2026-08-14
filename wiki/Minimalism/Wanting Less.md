@@ -20,7 +20,7 @@ Sasaki writes that we use objects to tell people how valuable we are. The same b
 
 ## The question
 
-Naming the motive at the moment of wanting converts an impulse into a legible decision. The question is: what is this purchase saying, and to whom?
+Naming the motive at the moment of wanting converts an impulse into a legible decision. The question is: what is this purchase saying, and to whom? Holding the same want down leaves the want in place and spends the day on resistance. Naming the job is what dissolves it.
 
 Seeing the motive does not cancel spending by magic and does not replace all discipline. Naming turns an impulse into a decision. The want often loses its charge. Often is not a spell. A jacket that still looks good after the question is named is not a failed test.
 

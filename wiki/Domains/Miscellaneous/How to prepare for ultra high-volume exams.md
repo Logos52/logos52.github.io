@@ -21,6 +21,8 @@ A pile spanning years grows a review backlog of forgotten facts that consumes th
 
 ## Why scale breaks repetition
 
+The break is the math, not the person. The backlog is a structural failure; extra grit does not close an equation that does not close.
+
 Repetition works tolerably when the pile is limited and the retention window is short. A single-semester exam can survive the same forgetting because the pile is small and the sitting is weeks away, not years. Ultra high-volume exams break both assumptions: years of material, a long horizon.
 
 The spiral, as a block: learn, then forget a large percentage, then review old content, then new content waits, then old content decays again, then the review load grows, then all time becomes maintenance. If forgetting is on the order of half of what was covered — a worked assumption, not a measured constant — and the content spans multiple years, the relearning backlog eventually consumes all available study time. Connected, tested material often retains more than that; unconnected facts often retain less. A reader holding seventy percent still runs the spiral check if the backlog is growing.
