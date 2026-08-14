@@ -1,79 +1,69 @@
 ---
-part-of: "[[wiki/Dimensions/Self-Management|Self-Management]]"
+title: "Skills Audit"
 type: technique
 status: seed
 created: 2026-05-14
-updated: 2026-05-14
-source-count: 1
-last-audited:
+updated: 2026-08-14
+written-by: grok
+model: grok
+part-of: "[[wiki/Dimensions/Self-Management|Self-Management]]"
 tags:
-  - learning
-  - self-regulation
-  - skill-development
-  - marginal-gains
+  - skills-audit
+  - self-management
+  - calibration
 ---
+
+> Part of [[wiki/Dimensions/Self-Management|Self-Management]]
 
 # Skills Audit
 
-Regular technique review surfaces the specific defects that steady-state practice tends to hide. A skills audit is a structured walk through your own learning system, rated against known guidelines, to find the gaps before they compound.
+A skills audit is a structured walk through current methods, scored against a written standard, producing a short list of what to fix. Everyday practice hides specific defects. The score is only as good as the standard it is scored against, and a row of high marks is not a win.
 
-## Summary
+## When to run it, and the four moves
 
-The audit is most useful when progress has plateaued, when a new stage is approaching, or when practice has been inconsistent. Its output is a targeted list of what to improve next — specific enough to act on immediately.
+Most useful when progress has plateaued, a technique that assumes an earlier one is about to be leaned on, or practice has been inconsistent. Four triggers make that executable.
 
-The underlying discipline: a growth mindset is required to perform an audit honestly. Accuracy in self-assessment is what makes the output useful. A low rating means the direction of improvement has been found, not that the effort was wasted.
+After rushing or selective learning: techniques taken up quickly, or steps skipped, introduce quiet defects that are hard to trace without a systematic pass. After a long break: skills degrade without use — **technique decline**, the house name for that decay — and the audit finds where the method has slipped. Before a technique that assumes an earlier one is solid: an undetected foundational gap travels forward and compounds. When stuck or plateaued: the pass often finds a subtle technique error not obvious during normal use.
 
-## When To Run an Audit
+**LEEP** is four moves: map the flow, rate each method, correct one or two gaps, then practise the repair.
 
-**After rushing or selective learning.** Learning techniques quickly without adequate practice — or skipping steps because they seemed unnecessary — introduces quiet defects. These can be hard to trace without systematic review.
+**L, learning flow map.** Write the actual sequence used on one piece of information, from first contact to later recall. That walk *is* the flow map. A named inventory of techniques by stage is not required and is not reachable from here.
 
-**After a long break.** Skills degrade without use (technique decline). An audit after a break identifies where the technique has slipped.
+**E, evaluate.** Review each method against a written standard for the technique, a recorded attempt, or a comparison against a known-good example that can actually be reached. Rate 1–5 (1 = poor, 5 = excellent). Focus below 4; for foundational techniques — encoding, retrieval, session setup, the ones everything else assumes — below 5. The 1–5 scale is only as good as the standard it is scored against. People lowest in a skill lack the knowledge needed to see they are low, so honesty of attitude is not enough. Rate against the standard, not against a feeling. What "better technique" is being scored against lives in [[wiki/Concepts/Learning Efficiency|Learning Efficiency]]. A low rating means the direction of improvement has been found, not that the effort was wasted.
 
-**Before progressing to a new stage.** Some techniques build directly on earlier ones. Entering a new stage with an undetected gap in foundational technique means the gap travels forward and compounds.
+**E, error correction.** Fix identified gaps against a target. One or two aspects at a time. Feedback comes from self-evaluation, a peer, or a coach-class reviewer — or from [[wiki/Dimensions/Self-Management/How to Ask for Feedback|How to Ask for Feedback]] when the self-rating cannot resolve the gap.
 
-**When stuck or plateaued.** If progress feels stuck despite consistent practice, an audit often finds a subtle technique error that is not obvious during normal use.
+**P, perfect practice.** Apply [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] — the next small improvement that is almost certain, then stacked — and [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] — what happened, how it felt and why, what rule that suggests, what changes next — to the identified skills. Expect multiple cycles. Technique decline and rushed learning do not repair in a single pass.
 
-## LEEP: The Four Steps
+## Two depths, and what the scores are worth
 
-**L — Learning flow map.** Create a flow map of your complete learning process step by step. Use a gear checklist or similar reference. Confirm that techniques from all completed stages are present in the flow.
+Two modes. The **skill screen** is a fast pass over the methods currently in use, not every note ever taken. Rate 1–5; focus below 4. Regular maintenance and known gaps. The **comprehensive audit** is a slow pass over the whole system, including methods that have been stopped. Look for theory-versus-practice discrepancies. Focus below 4, or below 5 for foundational techniques. Use it when the screen missed the root, or the issues are long-standing.
 
-**E — Evaluate.** Review your techniques against the program guidelines — checkpoint videos, milestone checklists, meta-checklists, stage objectives, and end-of-stage quizzes. Rate each technique on a 1-5 scale (1 = poor, 5 = excellent). Focus on areas rated below 4. For foundational techniques, focus on areas below 5.
-
-**E — Error correction.** Fix identified gaps by working against the target metrics and stage checkpoints. Focus on one or two aspects at a time to avoid overload. Seek feedback through self-evaluation, peer community, or coaching.
-
-**P — Perfect practice.** Apply [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] and [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] to develop the identified skills. Reflect on mistakes through systematic experimentation. Expect that fixing a gap may require multiple Kolbs cycles — technique decline and rushed learning do not repair in a single pass.
-
-## Two Modes
-
-**Skill screen (faster).** Review checkpoint videos and major lessons introducing new techniques. Rate competency on a lesson-by-lesson basis using the 1-5 scale. Identify key aspects of each technique that require high competence. Focus on scores below 4. Useful when performed regularly — it catches major gaps and keeps technique fresh.
-
-**Comprehensive audit (detailed).** Review every lesson, checkpoint, and end-of-stage quiz from the beginning of the program. Look for discrepancies between theoretical understanding and practical application. Focus on scores below 4, and below 5 for foundational techniques. Use when the skill screen has not found the root of a problem, or when issues are long-standing.
-
-| Aspect | Skill screen | Comprehensive audit |
-| --- | --- | --- |
-| Coverage | Key checkpoints and major technique lessons | Every lesson from the start |
-| Rating focus | Below 4 | Below 4, or below 5 for foundational techniques |
+| | Skill screen | Comprehensive audit |
+|---|---|---|
+| Coverage | Methods in current use | The whole system, including ones no longer used |
+| Rating focus | Below 4 | Below 4, or below 5 for foundational |
 | Speed | Faster | Slower, more detailed |
-| Best use | Regular maintenance, known gaps | Persistent issues, long-standing defects |
+| Best use | Regular maintenance; known gaps | Persistent issues; long-standing defects |
 
-## Mindset for Auditing
+Defensiveness hides defects. A 'bad' rating is not a negative reflection on past effort; it is a sign the direction has been found. The temptation to rate generously to avoid revisiting old material is the same temptation that created the defect. A good audit result is a clear, actionable list of improvement targets — not a row of 5s.
 
-The audit relies on honesty. The temptation to rate generously to avoid revisiting old material is the same temptation that creates the defect in the first place. What counts as a "good" audit result is a clear, actionable list of improvement targets — not a row of 5s.
+A thorough comprehensive audit on a mature practice can take hours. That is the price. Sometimes applying the technique during the audit is necessary to rate it. Run a pass every two to three months, or more often during rapid skill acquisition. That cadence is this system's own teaching default, not a law. Regular audits keep the learning system flexible.
 
-Take time. A thorough comprehensive audit on a mature practice can take hours. In some cases, applying a technique during the audit itself is necessary to gain enough self-awareness to rate it accurately.
+A 1–5 pass against a feeling reproduces the defect. Hours spent rating without a standard is ritual. Beginners systematically overrate. [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is why an audit is a control move, not a personality test. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] is why honest rating is a control skill.
 
-Keep it regular. Running an audit every two to three months — or more frequently during rapid skill acquisition — maintains the flexibility of the learning system.
+Quit if two audits in a row produce a row of top marks and no next action. The checkable form is two named defects and a next attempt, not a completed grid.
 
-## Related Pages
+## A list, not a row of top marks
 
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
-- [[wiki/Concepts/Learning Efficiency|Learning Efficiency]]
-- [[wiki/Dimensions/Self-Management/How to Ask for Feedback|How to Ask for Feedback]]
+A good result is a list of what to fix, not a row of top marks. Generous rating is the same temptation that hid the defect. The walk was only ever for that list.
 
 ## Open Questions
 
-- Which stage of the current learning system would benefit most from an audit right now?
-- What is the right frequency for skill screens given the current rate of technique development?
+Which current methods would repay a pass first. What frequency fits the current rate of technique development.
+
+## Sources
+
+- Ericsson, K. A., Krampe, R. T. & Tesch-Römer, C. 1993. *Psychological Review*. Expert performance is built by isolating specific weaknesses, not by more undifferentiated practice. Not a trial of this audit.
+- Arthur, W., Bennett, W., Stanush, P. L. & McNelly, T. L. 1998. *Human Performance*. Physical and cognitive skills decay with non-use.
+- Kruger, J. & Dunning, D. 1999. *Journal of Personality and Social Psychology* 77(6), 1121–1134. Self-assessment accuracy tracks actual skill; beginners systematically overrate.

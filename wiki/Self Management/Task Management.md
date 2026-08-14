@@ -1,45 +1,74 @@
 ---
-title: "Task Management"
+title: Task Management
 type: system
-status: seed
+status: developing
 created: 2026-06-11
-updated: 2026-06-11
-ics-stage: Camp II
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
   - self-management
-  - task-management
-  - prioritisation
+  - tasks
+  - prioritization
 ---
 
 # Task Management
 
-Every item competing for a day passes through two separate decisions: whether it deserves doing at all, and when it actually gets done. Task management owns the first decision — to-do lists, project lists, study queues, competing commitments, the question of what is worth effort and at what priority. Time management owns the second — scheduling, the question of what an 8–9am block is best spent on. Each fails alone: skip the first and the calendar fills with neatly arranged low-value work; skip the second and a perfectly ranked list never meets a clock.
+Task management is deciding which work deserves a clock at all. Time management owns the when — leave whether out and the calendar becomes a tidy stack of work that should never have been scheduled, leave when out and a ranked list never meets a day. The small item other work is waiting on belongs in the same pass: it earns a slot because of what sits behind it, not because it looks large.
 
-A dedicated system earns its overhead only when the plate is genuinely full. With a few things to balance, tasks run fine out of the calendar or its built-in list. Once commitments multiply — several projects, other people's timelines, life admin on top — an app becomes close to mandatory, because the volume exceeds what a head reliably holds and the loop below assumes one trusted place where everything lands.
+## The loop
 
-## The loop: collect, prioritize, allocate
+A dedicated inbox earns its overhead only when the plate is full. A handful of items can live on the calendar. Many projects, plus other people's reply times, make one trusted place close to mandatory — a class of tool, not a product.
 
-Three steps on a daily rhythm:
+**Collect** everything, all day, into that one place. Do not sort in the moment. Capture costs seconds. Remembering costs attention and still drops things. The dump exists so the item leaves working memory and the rest of the day can run.
 
-- **Collect everything, all day, into one place.** A task enters the app the moment it appears, with no sorting and no judgment in the moment. Capture costs seconds; trying to remember costs attention all day and still drops things.
-- **Prioritize once a day.** At the end of the day — twice if tasks accumulate fast — run the list through the existing machinery: the [[Priority 0+1 System]] with its modified Eisenhower matrix decides what must happen, what can happen, and what gets deleted. The sort doubles as a daily review of everything on the plate.
-- **Allocate what survives.** Two-minute jobs get done during the sort itself; everything else takes a slot in tomorrow's schedule. The order those slots take comes from the lenses below.
+**Prioritize** once a day — twice if items arrive fast — through [[Priority 0+1 System]], the evening sort that names what must be done, what can be done, and what to drop. That sort is the daily review. It happens off the clock because [[Decisional Delays]] is what those choices become when they leak into the block: the work that should have started waits on a decision that belongs to yesterday evening.
 
-## Which task gets the first block
+**Allocate** what survives. Anything that would take less time to finish than to track gets done during the sort. Everything else gets a slot tomorrow.
 
-Equal priority and equal urgency still leave a sequencing question. Two lenses settle it inside the day; a third — bottlenecking — reaches across days.
+The loop is overhead the calendar does not need when the plate is light. An evening sort costs minutes every day. If the trusted place is empty most days, drop back to the calendar.
 
-- **Eat the frog first.** Among tomorrow's high-priority tasks, one is being quietly dreaded — usually the most complex, highest-investment, and most impactful of the set. That one opens the day. Clearing it removes the largest mental burden early, which makes every later block easier to enter, and it simplifies scheduling because the number-one block names itself. Frogs left in place linger on the list precisely because they need the most time, until the remaining runway is shorter than the task and urgency and stress spike together.
-- **Two-minute jobs never reach the schedule.** Listing, re-reading, and re-deciding a tiny task across several days costs more than the task itself. Do it on the spot and keep the list for items that need real planning.
+## Three lenses
 
-## Bottlenecking: promote whatever gates later work
+What survives the sort still has to be sequenced. Three lenses do that work. They are not a second system. They are how the next day's first hours get named.
 
-- **A trivial task can gate an important one.** Some tasks matter little in themselves but sit upstream of heavier work: until they are done, a later step cannot start. Graded in isolation they score low on importance; their real weight is the work waiting behind them.
-- **Anything involving other people is the standard case.** Once a request leaves your hands — an email, a booking, an invitation — the reply timing leaves your control. Sent early, the wait runs in parallel with other work. Sent only when it finally feels urgent, the time remaining may be shorter than the other party's response time, and the important downstream work dies on schedule. A clinician requesting a scan performs a two-minute task whose timing fixes the date of everything that follows it.
-- **The repair is deliberate urgency inflation.** While sorting an important-but-not-urgent task, ask: once this is done, will I be waiting on someone or something else? If yes, raise its urgency and clear it as early as possible. Deferred, it resurfaces as urgent exactly when the list is fullest, stacked on top of newer tasks that are genuinely high priority.
+**Eat the frog first.** Among tomorrow's high-priority tasks, the one quietly dreaded — most complex, highest investment, the one that sits on the chest — opens the day. Clearing it removes the largest mental burden and names the number-one block. Frogs linger until the runway left is shorter than the task, which is why first is not a preference. The frog becomes the first protected block on [[Building a Schedule That Survives]], the page that turns allocated items into a day that can still run.
 
-The three lenses compress into a per-task test: frog → first block of the day; starts a wait on someone else → as early as possible; under two minutes → immediately.
+**Two-minute jobs never reach the schedule.** Listing them, ranking them, and re-deciding them tomorrow costs more than doing them during the sort. They finish in the review or they do not belong on a list.
 
-## Links into the system
+**Bottlenecking** grades a task by what waits behind it, not by how large it looks. A trivial item can gate important work. Anything that involves other people is the standard case. Sent early, their wait runs in parallel with other work. Sent when it finally feels urgent, remaining time may be shorter than their reply.
 
-The prioritize step is the [[Priority 0+1 System]] running against a fuller inbox; the allocate step hands its output to [[Building a Schedule That Survives]], where the frog becomes the first protected block of the nightly build. Sorting once each evening keeps choices out of execution time — the same repair [[Decisional Delays]] makes — and the cluster home is [[Time Management, Attention & Scheduling]].
+A scan request is the picture. The scan itself is not the emergency. The result is what later work needs. Sent in the morning, the lab's turnaround runs while other blocks run. Sent at the end of the week, the wait starts when the list is fullest and the remaining days may be fewer than the lab needs. The repair, during the sort, is **deliberate urgency inflation**: if this item starts a wait, raise its urgency and clear it early. Deferred, it resurfaces when the list is already packed.
+
+The portable test, per item:
+
+| If | Then |
+|---|---|
+| frog — high-priority and quietly dreaded | first protected block |
+| starts a wait on someone else | as early as possible |
+| under two minutes | immediately, during the sort |
+
+After one evening sort, tomorrow's first block should be named — the frog or the wait-starter — and nothing under two minutes should still be on the list.
+
+## What the clock receives
+
+The clock only receives work that earned a slot. The wait other work is on has already started. Two-minute jobs never made the calendar. That is the whether pass finished: [[Time Management, Attention & Scheduling]] is the cluster that then schedules the day and protects the attention those slots need.
+
+## Links into the knowledge base
+
+- [[Priority 0+1 System]] — the sort this inbox feeds: what must be done, what can be done, what to drop.
+- [[Building a Schedule That Survives]] — where allocated items become blocks; the frog is the first protected block.
+- [[Decisional Delays]] — why the sort happens off the clock: choices kept out of execution time.
+- [[Time Management, Attention & Scheduling]] — cluster home: this page chooses; that cluster schedules and protects attention.
+
+## Open Questions
+
+When two frogs and a wait-starter land on the same morning, which lens wins?
+
+At what plate-size does the trusted inbox start costing more than it returns?
+
+## Sources
+
+- Allen, David. *Getting Things Done*. Capture into one trusted place, and finish anything cheaper to do than to track. Public practice, not a required purchase.
+- Cowan, Nelson. Working-memory limits: a few items in mind, easily displaced. Externalizing the rest is why capture is cheap and remembering is not.
+- Goldratt, Eliyahu M. *The Goal*. A small gate can determine the throughput of everything behind it. The personal-list version is bottlenecking, not a project-management course.

@@ -1,168 +1,108 @@
 ---
+title: "Prestudy, BHS, and SIR - Turning Information into Usable Structure"
 type: synthesis
 status: developing
 created: 2026-05-04
-updated: 2026-05-12
-source-count: 2
-last-audited:
+updated: 2026-08-14
+last-audited: 2026-08-14
+written-by: grok
+model: grok
+source-count: 10
+description: "Usable study structure starts before the main event, continues through encoding, and survives through retrieval."
 tags:
   - learning-system
-  - metacognition
-  - encoding
-  - retrieval
+  - synthesis
+  - prestudy
+  - bhs
+  - sir
 ---
 
-# Prestudy, BHS, and SIR: Turning Information into Usable Structure
+# Prestudy, BHS, and SIR - Turning Information into Usable Structure
 
-Usable study structure starts before the main learning event, continues through active encoding, and survives through retrieval. The current loop is [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] for the frame, [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] for encoding, and [[wiki/Dimensions/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] for preservation and improvement.
+Usable study structure starts before the main event, continues through active encoding, and survives through later reconstruction. The house names for those three jobs come after the jobs. [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] is a short pass that builds a rough frame and a few questions before the main event. [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is four-pass encoding: a rough frame, the questions the material must answer, a working map of connections, then a cut-down structure that survives without the source. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is retrieval spread over time and mixed across topics and forms.
 
-The goal is usable structure: a stable mental model where information can sit, connect, and later be reconstructed.
+## The loop, then the three jobs
 
-## Summary
+The loop starts with a topic, a syllabus area, a reading, a lecture, or a project requirement.
 
-The system is built around one core idea: useful learning is the repeated construction, testing, and refinement of a knowledge structure.
+1. Prestudy builds a rough frame before the main event.
+2. Bear Hunter System forms a useful structure before detail buries the hour.
+3. That structure becomes a map, a question set, or an explanation that can be retrieved later.
+4. Spaced Interleaved Retrieval is scheduled soon enough to expose gaps before the knowledge decays.
+5. During retrieval, task format, topic mix, difficulty, and angle of questioning vary.
+6. Failures are read as signals: missing facts, weak relationships, poor chunking, shallow understanding, or not enough application practice.
+7. The weak parts are re-encoded. The whole topic is not reread passively.
+8. The loop runs again on what failed.
 
-The broader model is [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]. Prestudy creates readiness. Encoding creates the structure. Retrieval stress-tests it. Self-regulation decides what to change next.
+Prestudy is the reference image for the puzzle. Its job is big-picture familiarity, rough chunks, importance questions, likely relationships, and enough context to follow detail without overload. Use it before lectures, dense readings, videos, workshops, or any session where first contact would be too fast and too crowded. The practical output is a short concept list, a rough chunk map, two to five questions (a ceiling, not a finding), a few suspected relationships, and a clear sense of what to watch for. The portable minimum: skim, list the main ideas, ask why they matter, guess how they relate, then enter the main event with those questions.
 
-## Operating Loop
+Bear Hunter System lives primarily under [[wiki/Dimensions/Deep Processing|Deep Processing]] and secondarily under [[wiki/Dimensions/Self-Regulation|Self-Regulation]]. The job is importance-oriented questions; compare concepts; build chunks from meaning, function, causality, priority, and use; represent the structure externally so working memory does not overload; refine after several complete-but-shallow sweeps that deepen, so logic is in place before detail. Outputs: a chunk map, a concept map, a compressed explanation, high-quality questions, a short teaching script, or a decision tree / procedure map for procedural domains. [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] is why the map goes outside the head.
 
-1. Start with a topic, syllabus area, reading, lecture, or project requirement.
-2. Use [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] to build a rough frame before the main learning event.
-3. Use [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] to form a useful structure before getting buried in details.
-4. Convert that structure into a map, question set, or explanation that can be retrieved later.
-5. Schedule [[wiki/Dimensions/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] soon enough to expose gaps before the knowledge decays.
-6. During retrieval, vary the task format, topic mix, difficulty, and angle of questioning.
-7. Use failures as diagnostic signals: missing facts, weak relationships, poor chunking, shallow understanding, or insufficient application practice.
-8. Re-encode the weak parts rather than repeating the whole topic passively.
+Spaced Interleaved Retrieval lives primarily under [[wiki/Dimensions/Retrieval|Retrieval]] and secondarily under Self-Regulation. The job is recall before checking; widening gaps; interleaving related-but-distinct topics; mixing lower, mid, and higher-order tasks; forcing full answers rather than mental familiarity; looking for gaps instead of confirming comfort.
 
-## Prestudy Layer
+## Usable structure
 
-The prestudy layer prepares the brain before the main learning event.
+The goal is a stable mental model where information can sit, connect, and later be reconstructed. Useful learning is the repeated construction, testing, and refinement of that structure — not a pile of notes.
 
-Its job is to create:
+[[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] is the broader model. Prestudy creates readiness. Encoding creates the structure. Retrieval stress-tests it. Self-regulation decides what to change next.
 
-- big-picture familiarity;
-- rough chunks;
-- importance questions;
-- likely relationships;
-- enough context to follow detail without overload.
+## Failures and the questions that catch them
 
-Prestudy is the reference image for the puzzle. It gives the learner a rough frame before detailed learning, memorization, or map refinement begins.
+| Failure | Diagnosis | Repair |
+|---|---|---|
+| Overwhelm at first contact | No prestudy | Build the reference image before the event |
+| Prestudy becomes memorization | Details before structure | Stop at the frame and the two-to-five questions |
+| Notes look complete and cannot be recalled | Recognition replaced retrieval | Reconstruct before opening the source |
+| Flashcards exploding | Encoding stayed too low-order | Keep cards for definitions, labels, details, or relationships that do not fit the map |
+| Maps become messy webs | Too many undifferentiated relationships | Cut by importance, not by how many arrows will fit |
+| Retrieval feels easy and the exam is weak | Retrieval too narrow or too familiar | Vary format, mix, difficulty, and angle |
+| Feels slow early | Real processing | Track the structure, not the pages |
+| Feels impossible | Load too high | Split, externalize, or drop to an easier format |
 
-Use [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] before lectures, dense readings, videos, workshops, or any session where first contact would be too fast and too crowded.
+During encoding, four questions: comparing or collecting? simpler or more decorated? chunks by importance or by source order? productive processing or unproductive overload? During retrieval: full retrieve or recognize? the right level of mastery? a gap worth re-encoding? next session for maintenance, challenge, or repair? Those questions live at depth on [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]].
 
-The practical output should usually be:
+For complex material, also test the approach layer. [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] reconstructs the same knowledge under changed variables, contexts, and outputs.
 
-- a short concept list;
-- a rough chunk map;
-- 2-5 questions;
-- a few suspected relationships;
-- a clear sense of what to watch for during the main event.
+[[wiki/Dimensions/Retrieval/Flashcards|Flashcards]] stay narrow, which is the anti-explosion rule on the table.
 
-Minimum version: skim, list the main ideas, ask why they matter, guess how they relate, then enter the main event with questions.
+Personal defaults, compressed: Prestudy before important events; Bear Hunter System for first-pass encoding; Spaced Interleaved Retrieval as maintenance and gap-detection; interleave when target performance depends on variable relationships; flashcards narrow; a notes vault for durable structures; generated questions and teaching prompts for higher-order retrieval. A language model is for variations, counterexamples, and question sets. It is not a replacement for chunking judgment.
 
-## Encoding Engine
+The case against the loop is that it feels slow at first contact, and the failure table will be read as eight new chores. The price is a short pass before the event and a reconstruction after it. Quit if the eight steps have become a dashboard. The checkable expectation is a named gap from a retrieval that was not a recognition check, then a targeted re-encode of that gap.
 
-The encoding side is [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], which lives primarily under [[wiki/Dimensions/Deep Processing|Deep Processing]] and secondarily under [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
+## After a skipped beat
 
-Its job is to turn new information into a navigable structure by:
+A skipped beat produces a named row in the table. Structure that starts before the event, is encoded while it can still be held, and is rebuilt later is what usable means. [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] owns the weight limit on this loop. This page owns the loop.
 
-- Asking importance-oriented questions.
-- Comparing concepts instead of memorizing them one by one.
-- Building chunks from meaning, function, causality, priority, or use.
-- Representing the structure externally so working memory does not overload.
-- Refining the final structure after multiple passes.
+## Links
 
-The practical output should usually be one of:
+- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] — frame before the event
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — encoding engine; this page uses the job list, not the four passes
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — retrieval under variation
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — broader model
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] — BHS's primary home
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — control layer; secondary home of BHS and SIR
+- [[wiki/Dimensions/Retrieval|Retrieval]] — SIR's primary home
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] — the encoding and retrieval questions at depth
+- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] — approach-layer retrieval under changed variables
+- [[wiki/Syntheses/ICS System|ICS System]] — five-part diagnosis plus a loop for fixing the current limiter
+- [[wiki/Dimensions/Self-Management|Self-Management]] — related dimension
+- [[wiki/Dimensions/Mindset|Mindset]] — related dimension
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]] — how chunks should be cut
+- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] — the recognition-to-use ladder
+- [[wiki/Concepts/Memory Handling|Memory Handling]] — shaping information so it can be encoded
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] — why the map goes outside the head
+- [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] — the weight limit on this loop
+- [[wiki/Dimensions/Retrieval/Flashcards|Flashcards]] — stay narrow; anti-explosion
 
-- A chunk map.
-- A concept map.
-- A compressed explanation.
-- A set of high-quality questions.
-- A short teaching script.
-- A decision tree or procedure map for procedural domains.
+## Sources
 
-## Retrieval Engine
-
-The retrieval side is [[wiki/Dimensions/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], which lives primarily under [[wiki/Dimensions/Retrieval|Retrieval]] and secondarily under [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
-
-Its job is to make knowledge durable and usable by:
-
-- Recalling before checking.
-- Spacing sessions with widening gaps.
-- Interleaving related but distinct topics.
-- Mixing lower-order, mid-order, and higher-order tasks.
-- Forcing full answers rather than accepting mental familiarity.
-- Looking for gaps instead of confirming comfort.
-
-## Metacognitive Control Layer
-
-The control layer is [[wiki/Dimensions/Self-Regulation|Self-Regulation]], supported by [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]].
-
-During encoding, metacognition asks:
-
-- Am I comparing and judging, or just collecting?
-- Is the structure becoming simpler, or just more decorated?
-- Are my chunks based on importance, or copied from the source order?
-- Is the discomfort productive processing or unproductive overload?
-
-During retrieval, metacognition asks:
-
-- Did I retrieve fully, or only recognize the answer?
-- Did this task test the level of mastery I actually need?
-- Did I find a gap worth re-encoding?
-- Is the next session scheduled for maintenance, challenge, or repair?
-
-For complex material, retrieval should also test the approach layer. [[wiki/Dimensions/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] asks whether the learner can reconstruct the same knowledge under changed variables, contexts, and outputs.
-
-## Personal Implementation
-
-For the user's current system, the recommended default is:
-
-- Use Prestudy before any important learning event so the material is not first contact.
-- Use Bear Hunter System for first-pass encoding of any important topic.
-- Use SIR as the recurring maintenance and gap-detection layer.
-- Use interleaving when the target performance depends on variable relationships, problem framing, or transfer.
-- Keep flashcards narrow: definitions, labels, details, or relationships that do not fit cleanly into the map.
-- Use Obsidian pages for durable structures and synthesis.
-- Use generated questions and teaching prompts for higher-order retrieval.
-- Use LLMs to generate variations, counterexamples, and question sets, but not to replace the user's own chunking judgment.
-
-## Failure Modes
-
-| Failure | Likely Diagnosis | Repair |
-| --- | --- | --- |
-| Lecture or reading feels overwhelming immediately | No prestudy frame | Do a minimum prestudy pass before the next exposure. |
-| Prestudy turns into memorization | Details arrived before structure | Return to big-picture chunks and why/how questions. |
-| Notes look complete but cannot be recalled | Recognition replaced retrieval | Do a closed-book brain dump, then re-encode gaps. |
-| Flashcards are exploding in number | Encoding is too low-order | Rebuild the topic around chunks and relationships. |
-| Maps become messy webs | Too many undifferentiated relationships | Re-chunk around importance and reduce visible connections. |
-| Retrieval feels easy but exam performance is weak | Retrieval is too narrow or too familiar | Add interleaving, variation, and higher-order prompts. |
-| Learning feels slow early | The system is doing real processing | Track quality of structure, not pages covered. |
-| Learning feels impossible | Cognitive load may be too high | Split the topic, externalize the map, or use an easier retrieval format. |
-
-## Related Concepts
-
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]
-- [[wiki/Syntheses/ICS System|ICS System]]
-- [[wiki/Dimensions/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Dimensions/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Dimensions/Retrieval|Retrieval]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Dimensions/Self-Management|Self-Management]]
-- [[wiki/Dimensions/Mindset|Mindset]]
-- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
-- [[wiki/Concepts/Memory Handling|Memory Handling]]
-- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
-
-## Open Questions
-
-- What should the user's default weekly SIR calendar look like for current real study obligations?
-- Which subjects should be encoded with full BHS versus a lighter Hipshot-style variation?
-- What should the user's default weekly Prestudy rhythm look like?
-- What retrieval formats best fit the user's most common target performances?
+- Ausubel, D. P. (1960). The use of advance organizers in the learning and retention of meaningful verbal material. *Journal of Educational Psychology*, 51(5), 267–272. Frame before the event.
+- Mayer, R. E. (2009). *Multimedia Learning* (2nd ed.). Pre-training: names and characteristics before the process.
+- Craik, F. I. M., & Lockhart, R. S. (1972). Levels of processing. *Journal of Verbal Learning and Verbal Behavior*, 11(6), 671–684. Active encoding.
+- Chi, M. T. H., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. *Cognitive Science*, 5(2), 121–152. Structure by deep relations.
+- Fiorella, L., & Mayer, R. E. (2015). *Learning as a Generative Activity.* Teaching scripts as encoding output.
+- Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*, 17(3), 249–255. Reconstruction as preservation.
+- Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks. *Psychological Bulletin*, 132(3), 354–380. Retrieve early enough to catch decay.
+- Rohrer, D. (2012). Interleaving helps students distinguish among similar concepts. *Educational Psychology Review*, 24, 355–367.
+- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students' learning with effective learning techniques. *Psychological Science in the Public Interest*, 14(1), 4–58. Rereading the whole is the low-utility move.
+- Sweller, J., van Merriënboer, J. J. G., & Paas, F. (2019). Cognitive architecture and instructional design: 20 years later. *Educational Psychology Review*, 31, 261–292. External representation drops working-memory load.

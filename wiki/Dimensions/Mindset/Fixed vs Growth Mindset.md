@@ -1,31 +1,36 @@
 ---
+title: "Fixed vs Growth Mindset"
 type: concept
-status: seed
+status: developing
 created: 2026-05-07
-updated: 2026-05-07
-source-count: 8
-last-audited: 2026-05-07
+updated: 2026-08-14
+written-by: fable
+ics-stage: Base Camp
+last-audited: 2026-08-14
+description: "A mindset is a trained prediction about what a mistake will mean — and it retrains only on evidence, never on argument."
 tags:
   - mindset
   - learning
   - growth
   - self-regulation
+  - identity
+  - mistakes
 ---
 
 # Fixed vs Growth Mindset
 
 > Part of [[wiki/Dimensions/Mindset|Mindset]]
 
-> Part of [[wiki/Dimensions/Mindset|Mindset]]
+A growth mindset is a prediction your nervous system makes about what happens after a mistake. Nobody adopts a prediction. It gets trained — by what mistakes have actually cost you — and it retrains the same way.
 
-Difficulty becomes useful or threatening depending on how the learner interprets ability, intelligence, mistakes, effort, feedback, and identity.
+A fixed mindset is the same machinery running the opposite forecast. One prediction treats a result as information: "my current performance tells me what to train next." The other treats it as a verdict: "my current performance reveals my fixed ability." Two boundaries keep the growth half honest. It is not "try harder" — it is "learn from the attempt and improve the process." And it never means pretending everything is fine: what it asserts is that ability is modifiable, through five routes — better strategy, practice, feedback, support, and time. Support and time are the two nobody lists, and the two that make the claim honest: other people and patience are training inputs, not admissions of weakness.
 
-A growth mindset treats ability as developable. A fixed mindset treats ability as evidence of who you are. In the ICS learning system, this distinction matters because mindset controls whether the learner can stay in contact with difficulty long enough to improve.
+Neither forecast is a personality. Everyone runs both at once — growth-oriented in some domains, avoidant in others — and the mix shifts with time and stakes. That decides what the work is. "Become a growth-mindset person" is a self-classification exercise with no next action. The actual job is to find the domain where you are currently fixed and convert that one, and there is always one.
 
-## Core Difference
+The fork, read across the questions a learner actually meets — one event, two readings:
 
-| Question | Growth Mindset | Fixed Mindset |
-| --- | --- | --- |
+| The question | Read as information | Read as a verdict |
+|---|---|---|
 | What is ability? | Something trainable. | Something mostly static. |
 | What is effort? | The path to improvement. | Evidence that you lack talent. |
 | What is a mistake? | Feedback about the process. | Evidence about the self. |
@@ -33,235 +38,80 @@ A growth mindset treats ability as developable. A fixed mindset treats ability a
 | What is challenge? | A growth opportunity. | A threat to identity. |
 | What is uncertainty? | Normal during learning. | A reason to delay action. |
 
-The difference is interpretation.
+The event in every row is identical. The difference is interpretation.
 
-## Why It Matters
+## Why a learning system cares
 
-Learning requires repeated contact with things you cannot yet do.
+Learning is repeated contact with things you cannot yet do: attempts before you feel ready, errors, corrections, confusion, old methods revised, gaps exposed by testing, and improvement resumed after disappointment. A verdict-prediction makes each of those contacts feel dangerous; an information-prediction makes them usable. Mindset does not control whether you can learn — the record below does not support anything that strong — but it sets how long you can stay in contact with difficulty before something in you calls the session off, and it matters most for learners who are currently struggling.
 
-That means a serious learner must be able to:
+ICS — the learning system this wiki organizes — places mindset at the bottom of a four-layer chain. Outcomes and performance come from skills and processes; skills and processes come from attributes and behaviours; attributes and behaviours come from mindsets, beliefs, and identities. Outcomes are downstream, so a learner who only pushes on the outcome misses every deeper control point. Walked downward on a real case: a poor exam score traces partly to weak retrieval and poor time management; those trace partly to avoidance, impatience, and an unwillingness to test early; and those trace partly to a belief that mistakes mean failure rather than information. Mindset is not the only cause at any layer, but it decides whether the learner can repair the process at all.
 
-- attempt before feeling ready;
-- make errors;
-- receive correction;
-- tolerate confusion;
-- revise old methods;
-- expose gaps through retrieval;
-- keep improving after disappointment.
+Each layer has a working vocabulary, useful as a diagnostic checklist. Skills and processes: encoding and retrieval, time management and prioritisation, self-reflection and problem-solving, focus, emotional self-regulation. Attributes and behaviours: open-mindedness, willingness to experiment and to face discomfort, diligence, patience, humility, self-compassion. The mindset layer: fear of failure, beliefs about intelligence and talent, and identities — a learner, someone who tries their best, someone who gets back up.
 
-A fixed mindset makes those events feel dangerous. A growth mindset makes them usable.
+Two tests keep the chain honest. "Studying for twelve hours this week" is an outcome — twelve hours is a symptom of how the time got spent. What replaces it is a two-part target: performance, meaning what it actually takes — the skills and intermediate milestones, like "this topic at 90% retention by the end of the week" — and process, the concrete daily and weekly actions that build them, found by asking what it takes to get there. And whether you attribute a result to controllable causes at all is machinery of its own, covered on [[wiki/Dimensions/Mindset/Locus of Control|Locus of Control]]. [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]] runs the same causal insight in the planning direction — from a wanted outcome down to the skills, habits, and actions that control it indirectly; this page runs it in the repair direction, from a bad result down to the belief that keeps the process broken.
 
-## Fixed Mindset
+## The fixed pattern up close
 
-A fixed mindset says: "My current performance reveals my fixed ability."
+A fixed prediction builds a fragile identity. If doing badly means "I am bad," every situation that might reveal weakness becomes something to manage. Four behaviours carry most of the pattern:
 
-This creates a fragile identity. If doing badly means "I am bad," then the learner naturally tries to avoid situations that might reveal weakness.
+- **Information over experimentation.** Asking many questions before making a low-risk attempt, and waiting for certainty before experimenting, is the most reliable tell on this page — a fixed mindset wearing the costume of diligence. The decision-theoretic treatment of that loop is on [[wiki/Dimensions/Mindset/Perfectionism and Overthinking|Perfectionism and Overthinking]].
+- **Reverting to familiar methods** even when they are weaker — the mid-practice turnaround documented as the reversion response on [[wiki/Dimensions/Mindset/The Learning Zone and the Reversion Response|The Learning Zone and the Reversion Response]], along with the uncertainty gauge that detects it while it is happening.
+- **Comparing with peers for self-worth.**
+- **Concluding in identity terms:** "I'm just not good at this."
 
-Common fixed-mindset behaviors:
+The rest of the classic list — avoiding difficult tasks, hearing feedback as personal criticism, giving up when progress feels slow — is the same prediction in different clothes.
 
-- avoiding difficult tasks;
-- asking many questions before making a low-risk attempt;
-- waiting for certainty before experimenting;
-- treating feedback as personal criticism;
-- choosing familiar study methods even when they are weaker;
-- comparing with peers for self-worth;
-- overworking to protect identity;
-- giving up when progress feels slow;
-- saying "I'm just not good at this."
+The pattern does not require low performance. It hides inside achievement: a high performer can work brutally hard, overworking precisely to protect the identity, while the engine underneath is fear that failure would expose them. How confident an achiever looks and how calibrated that confidence actually is are separate questions, and [[wiki/Dimensions/Mindset/Confidence Calibration|Confidence Calibration]] owns the gap. Positive identities are traps of the same construction: when "I am smart" becomes central, difficult work becomes threatening because it might contradict the identity. "I am bad at math" and "I always mess this up" run the same fusion in the other direction. A mindset gets its real power at the moment it merges with identity.
 
-Fixed mindset can also hide inside achievement. A high performer may work extremely hard but still be driven by the fear that failure would expose them.
+The full trajectory has a name: the early peaker. Early schooling is easy, so high outcomes come cheaply, and identity attaches to the outcome. From then on, anything that risks the outcome is a risk to the self, so the student takes the easier option every time — even when there is no learning in it — because a guaranteed record beats an uncertain gain. The skills that only difficulty builds never get built, and when difficulty finally arrives, there is nothing underneath. What the trade gave up: opportunity, growth, personal development, challenges, new skills, and — the two that matter most — true confidence and a stable sense of security. The fixed pattern is a bid for security that produces the opposite.
 
-## Growth Mindset
+Whether the bid escalates depends partly on temperament. A fixed mindset makes a mistake identity-relevant; neuroticism amplifies the threat emotionally; the product is uncertainty avoidance. The fixed loop, in its own words: "I need more information before I try, because trying and failing would mean something bad about me." The growth interrupt: "Trying gives me information. If it fails, I have found the next thing to train." The trait side — threat sensitivity, the what-if spiral, and where the useful amount of it ends — lives on [[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]].
 
-A growth mindset says: "My current performance gives information about what to train next."
+None of this is exotic in origin. Fixed predictions grow in environments that reward performance more than learning: praise aimed at intelligence rather than strategy, a high cost of failure, comparison-heavy classrooms and families, labels like "gifted" or "not academic," punishment or shame after mistakes, success with easy methods that later stop working, and places where asking for help feels unsafe. A prediction trained by years of that does not move for a quote on a poster. It resists on purpose: a fixed mindset actively avoids the growth that would replace it, which is why, left to change on its own, it often takes years.
 
-It does not mean pretending everything is fine. It means treating ability as modifiable through better strategy, practice, feedback, support, and time.
+## What the record actually supports
 
-Common growth-mindset behaviors:
+The claim this page makes for mindset is narrower than the poster version, because the record is narrower. Across 63 studies and 97,672 people, the average effect of a mindset intervention on achievement is d ≈ 0.05 — and it stops being distinguishable from zero once publication bias is corrected. That correction has evidence behind it, not suspicion: authors with a financial incentive published significantly larger effects, 94% of the interventions carried confounds, and the financially incentivised authors were 2.5 times as likely to report a positive result. The largest national experiment — 65 schools, 12,490 ninth-graders, two online sessions of about 25 minutes — found +0.10 grade points for lower-achieving students, no significant effect for higher achievers, and a rise in advanced-maths enrolment from 33% to 36%; the gains held where peer norms supported challenge-seeking and vanished where they did not. Meta-analyses that filter for targeted populations and high implementation fidelity find d = 0.14 on achievement and d = 0.32 on mental health — averages whose 95% prediction intervals span negative to positive, so even under the favourable filters the effect in a given context can run the other way.
 
-- attempting before certainty is complete;
-- seeking feedback;
-- using mistakes as data;
-- changing strategies;
-- valuing effort when it is attached to improvement;
-- tracking process quality;
-- accepting temporary incompetence;
-- separating performance from identity;
-- adding "yet" to ability statements.
+Read correctly, none of that says the mechanism is fake. It says a brief mindset message changes little on its own; that mindset moves people who are currently struggling — in the intervention record, specifically low-SES and academically at-risk students; and that a new prediction survives only where the surrounding environment gives it evidence. So stop looking for a reframe, and start engineering consequences and company — which is what everything below does. One more term from the record worth owning: "false growth mindset," the field's own name for praising effort regardless of whether the strategy changed. Effort counts here only when it is attached to improvement, and praise lands on strategies and improvement rather than on intelligence — the one intervention with seminal, replicated support behind it.
 
-The growth mindset is not "try harder." It is "learn from the attempt and improve the process."
+## Retraining the prediction
 
-## The Chain Of Performance
+The program treats a growth mindset as a trainable habit system, in four phases the rest of this vault uses by name: building awareness, learning to fall, getting up and getting better, enjoying the ride.
 
-The ICS material frames mindset through a chain:
+**Building awareness.** Three questions locate the domain where you are currently fixed. What is your self-worth based on — outcomes and comparison, or effort and process? Do you feel good from good outcomes, or from having put in the effort? Do you seek comfort through ease, or growth through challenge? Run them separately across studies, work, sport, hobbies, family: the pattern hides in whichever domain you did not check. The moment-level version is catching conclusions — any sentence that ends "…therefore I am…" is the fixed machinery announcing itself — along with the four behaviours above: when do I avoid trying, need certainty first, hear feedback as personal, compare.
 
-1. **Outcomes and performance** come from...
-2. **Skills and processes**, which come from...
-3. **Attributes and behaviors**, which come from...
-4. **Mindsets, beliefs, and identities.**
+**Learning to fall.** Failure isn't scary; the consequence is. So mistakes get easier when the fall is smaller and comes sooner: smaller practice problems, draft versions, early retrieval — testing yourself from memory, without looking, before you feel ready — short experiments, private attempts before public performance, feedback requested while there is still time to use it. The aim is to experience mistakes without serious consequences, repeatedly, until being bad at something registers as what it is — a temporary state — and to treat the discomfort as expected tuition rather than proof the method is wrong.
 
-This matters because outcomes are downstream. If a learner only tries to force the outcome, they miss the deeper control points.
+The scheduled form is a practice block: 30 minutes to 3 hours, every 3 to 7 days, at a time you can consistently keep, on one technique you feel unconfident about, with a single goal — find as many of your own mistakes as possible. You fail the block only by finding none. The arithmetic that makes this bearable: a skill might admit ten thousand possible mistakes, but only about ten of them are yours. Fearing the ten thousand stalls experimentation for months or even years; a week of deliberate error-hunting surfaces your ten. Score a block against three definitions of an error — the activity did not produce the intended result; you could not follow the procedure as instructed; external feedback flagged something — with self-feedback as the dominant form and external feedback for calibration, never replacement. Once mistakes are a session's yield rather than its risk, the band of fear between comfort and growth stops being a barrier and becomes the practice zone. Speed multiplies the effect: shorten each attempt, stop the moment a mistake appears, spend ten to fifteen minutes diagnosing, and go again — the organisation behind the curriculum trains its own coaches on fifteen-minute cycles and speaking skills on cycles as short as thirty seconds, and reports a five-fold cut in training time. Those are program-reported figures, not peer-reviewed ones, and the stated caveat is to start slow: felt intensity is the point, not the minutes. The sequence for sizing the next small move — goal, current level, next improvement — is the subject of [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]], and it is what makes "make the first fall small" operational.
 
-Example:
+**Getting up and getting better.** Mistakes do not teach automatically; reflection converts them. The loop is [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] — do the thing, inspect what happened, form a diagnosis, design the next experiment — compressed here into four questions: What happened? Why did it happen? What does it reveal about the process? What should I try next? Sort what the mistake taught you into one of two bins. A barrier is something preventing success, mostly internal and behavioural — energy, planning, distraction, competing priorities, missing resources or knowledge, an existing habit — and each has a matched fix: learn more, challenge the habit, reschedule around the priorities. A condition is a variable you did not know existed and could only have discovered by attempting. If no barrier explains the mistake, it was probably tuition on a condition.
 
-- Poor exam score.
-- Caused partly by weak retrieval and poor time management.
-- Caused partly by avoidance, impatience, and low willingness to test early.
-- Caused partly by a belief that mistakes mean failure rather than information.
+For the twenty seconds immediately after a bad result, the routine is Conclusion–Process–Journey. Catch the conclusion: what "therefore I am…" statement did I just make? Replace identity judgment with process diagnosis: what specific process produced this result? Choose the journey: what improvement do I try next time? The failure mode at each layer is the fixed default — "I failed, therefore I am stupid"; no diagnosis, only self-judgment; no next step, only avoidance or shame. The repair in one breath: "I made a mistake. Full stop. Now I will —." The honest-diagnosis step is the one ego defends hardest; [[wiki/Dimensions/Self-Regulation|Self-Regulation]] owns it.
 
-The mindset is not the only cause, but it shapes whether the learner can repair the process.
+**Enjoying the ride.** The brain needs repeated evidence that mistakes can be safe and useful. Over time, the learner starts to expect errors, correction, adjustment, improvement. That expectation is the real growth mindset. It is the opening claim of this page arriving as an outcome: the prediction got retrained; it was never argued with.
 
-## Mindset Becomes Identity
+**The moment it fires.** The urge this script exists for is wanting to gather more information before starting. Ask yourself why you want more information. Assess whether the reason is making sure you do it right. Spot the thought pattern — chains of "what if." Challenge it: so what if I don't do it right? Retrain: you are worried because you care, and the best move is to give it a go first and ask questions later. Reassure your brain that there is no consequence to this mistake and that this is a safe place to make it. Then act. Action is upstream of belief — the feeling of readiness follows the attempt rather than preceding it, so do not wait for it. The classic micro-move — appending "yet" to "I'm just not good at this" — works when it opens a question, "what can I learn from this instead?", and stays a poster line when it does not.
 
-Mindset becomes more powerful when it merges with identity.
+**Converting one domain.** Pick the attribute you currently believe is fixed — creativity, social skills, problem solving, intelligence, "laziness." Spend at most an hour learning about it, then build an experience that forces you to perform it, and run short reflection cycles on the results. The success criterion is honest: for many people it takes months before the new prediction is habitual, and success in the first round is exposure, not conversion — so choose one new behaviour and repeat it until the emotional response to it changes. When the domain fights back with "it's too hard, I can't do this," read that sentence as a perceived loss talking, and compare it to the real alternative: losing later, at higher stakes, having never invested. Why losses shout louder than gains is the subject of [[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]].
 
-Fixed identity:
+## Where mindset sits among the five dimensions
 
-- "I am smart."
-- "I am bad at math."
-- "I am a slow learner."
-- "I always mess this up."
-- "I am someone who needs to get it right."
+The five dimensions are the trainable capacities every study method draws on — deep processing, retrieval, self-regulation, self-management, mindset — and the vault's standing claim about them is stronger than "mindset helps": the weakest dimension sets the ceiling for the rest. Program cohort data puts mindset first twice over. Across roughly 10,000 surveyed learners, improvement in mindset predicted improvement in the other dimensions and in performance more strongly than any other variable; and in a separate analysis of more than 5,000 learners, mindset was the fastest of the five to move — the largest short-term improvement of any dimension inside a six-month window, with measurable change inside 60 days of structured work — against the research position that an untreated fixed mindset takes years. The reconciliation is this page's whole argument: years is what change takes when it is left to argument; sixty days is what it takes when mistakes are engineered small, frequent, and reflected on.
 
-Growth identity:
+What the prediction buys each dimension, concretely: [[wiki/Dimensions/Deep Processing|Deep Processing]] needs confusion tolerated while structure gets built; [[wiki/Dimensions/Retrieval|Retrieval]] needs gaps welcomed as useful exposure, because testing yourself is emotionally expensive under a verdict-prediction; [[wiki/Dimensions/Self-Regulation|Self-Regulation]] needs diagnosis without ego defense; [[wiki/Dimensions/Self-Management|Self-Management]] needs someone who returns after the plan fails. The dimension-level overview, including where mindset training sits in the program's stages, is [[wiki/Dimensions/Mindset|Mindset]]; the four-step drill progressions for training each dimension are on [[wiki/Dimensions/Dimension Practice Tracks|Dimension Practice Tracks]].
 
-- "I am someone who learns from attempts."
-- "I can improve the process."
-- "I can find the next bottleneck."
-- "I can be bad at something temporarily."
-- "I get back up."
+## Open questions
 
-The danger is that even positive fixed identities can become traps. If "I am smart" becomes central, then difficult work becomes threatening because it may contradict the identity.
-
-## How Fixed Mindset Is Trained
-
-Fixed mindset often grows from environments that reward performance more than learning.
-
-Common inputs:
-
-- praise for intelligence rather than strategy or effort;
-- high cost of failure;
-- comparison-heavy classrooms or families;
-- identity labels such as "gifted" or "not academic";
-- punishment or shame after mistakes;
-- success with easy methods that later stop working;
-- environments where asking for help feels unsafe.
-
-This is why changing mindset takes more than reading a quote. The old mindset has often been trained by many repetitions.
-
-## How Growth Mindset Is Trained
-
-The ICS material treats growth mindset as a trainable habit system, not a slogan.
-
-### 1. Build Awareness
-
-Notice fixed-mindset thoughts and triggers:
-
-- When do I avoid trying?
-- When do I need certainty before acting?
-- When does feedback feel personal?
-- When do I compare?
-- When do I conclude "therefore I am..."?
-
-### 2. Reduce The Consequence Of Mistakes
-
-Mistakes become easier when the fall is smaller.
-
-Break tasks into low-risk attempts:
-
-- smaller practice problems;
-- draft versions;
-- early retrieval;
-- short experiments;
-- private attempts before public performance;
-- feedback before the deadline.
-
-The aim is to experience mistakes that do not cause serious consequences.
-
-### 3. Reflect Effectively
-
-Mistakes do not automatically teach. Reflection converts mistakes into learning.
-
-Use [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]:
-
-- What happened?
-- Why did it happen?
-- What does it reveal about the process?
-- What should I try next?
-
-### 4. Repeat Until The Emotional Prediction Changes
-
-The brain needs repeated evidence that mistakes can be safe and useful.
-
-Over time, the learner starts to expect:
-
-- errors;
-- correction;
-- adjustment;
-- improvement.
-
-That expectation is the real growth mindset.
-
-## CPJ Reframe
-
-The ICS material includes a useful mindset reframe:
-
-| Layer | Question | Fixed-Mindset Failure |
-| --- | --- | --- |
-| Conclusion | What "therefore I am..." statement did I make? | "I failed, therefore I am stupid." |
-| Process | What process produced the result? | No diagnosis, only self-judgment. |
-| Journey | What improvement can I try next? | No next step, only avoidance or shame. |
-
-The move is:
-
-1. Catch the conclusion.
-2. Replace identity judgment with process diagnosis.
-3. Choose the next experiment.
-
-## Relationship To Neuroticism
-
-[[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]] and fixed mindset reinforce each other.
-
-Fixed mindset makes mistakes identity-threatening. Neuroticism amplifies the threat emotionally. Together, they produce uncertainty avoidance:
-
-> "I need more information before I try, because trying and failing would mean something bad about me."
-
-Growth mindset interrupts the loop:
-
-> "Trying gives me information. If it fails, I have found the next thing to train."
-
-## Relationship To The Learning System
-
-Growth mindset supports all five dimensions:
-
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]: tolerating confusion while building structure.
-- [[wiki/Dimensions/Retrieval|Retrieval]]: treating gaps as useful exposure.
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: diagnosing honestly without ego defense.
-- [[wiki/Dimensions/Self-Management|Self-Management]]: returning after planning failures.
-- [[wiki/Dimensions/Mindset|Mindset]]: interpreting difficulty as part of growth.
-
-It also connects to:
-
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- [[wiki/Dimensions/Dimension Practice Tracks|Dimension Practice Tracks]]
-- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]
-- [[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]]
-
-## Practical Rules
-
-- Do not wait to feel ready before making a low-risk attempt.
-- Make the first fall small.
-- Use mistakes as process data.
-- Praise strategies, effort quality, and improvement rather than innate ability.
-- Add "yet" to fixed ability statements.
-- Track what changed, not only whether the outcome was good.
-- Ask for feedback while there is still time to use it.
-- Treat discomfort as expected, not as proof the method is wrong.
-- Choose one new behavior and repeat it long enough for the emotional response to change.
-
-## Open Questions
-
-- Where does the user most often ask for certainty before attempting?
-- Which current learning task could be made safe enough to fail quickly?
-- What fixed identity is most likely to block experimentation?
+- Which current learning task could you make safe enough to fail at quickly?
 - What process metric should replace outcome-only judgment this week?
+
+## Sources
+
+- Yeager & Dweck (2020), *American Psychologist*, doi:10.1037/amp0000794 — open access, PMC8299535. The field's definitions and its response to the replication record.
+- Yeager et al. (2019), *Nature* 573, 364–369, doi:10.1038/s41586-019-1466-y — open access, PMC6786290. The national experiment: 65 schools, 12,490 students.
+- Mueller & Dweck (1998), *Journal of Personality and Social Psychology* 75(1), 33–52, doi:10.1037/0022-3514.75.1.33 — intelligence praise versus process praise.
+- Sisk, Burgoyne, Sun, Butler & Macnamara (2018), *Psychological Science*, doi:10.1177/0956797617739704 — two meta-analyses, N = 365,915 and N = 57,155.
+- Macnamara & Burgoyne (2023), *Psychological Bulletin*, doi:10.1037/bul0000352 — 63 studies, N = 97,672.
+- Burnette et al. (2023), *Psychological Bulletin*, doi:10.1037/bul0000368 — 53 samples; the targeted-subsample estimates.
+- The four-phase protocol, practice-block format, cycle-time figures, and cohort numbers (10,000-learner survey; 60-day movement) are program-internal material from the learning system this wiki organizes, reported as such.

@@ -3,7 +3,9 @@ title: "The AI Industrial Revolution"
 type: concept
 status: seed
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-08-14
+written-by: grok
+model: grok
 source-count: 1
 tags:
   - llm
@@ -15,79 +17,86 @@ tags:
 
 # The AI Industrial Revolution
 
-When agents do the implementation, the engineer's job stops being "ship output B" and becomes "build the factory that ships outputs B through Z." This Naval Podcast roundtable (Guillermo Rauch of Vercel, Blake Scholl of Boom, Max Hodak of Science) is a field report on what changes once that shift is real: how to operate, what stays human, and what the economics do. It strengthens the agentic-engineering cluster rather than starting a new one — most threads below land on a page that already owns them.
+On 2 June 2026, four people from the software and hardware frontier said an engineer is now judged on the factory, not the artifact. Once agents write the implementation, the score moves off any one delivered piece and onto the setup that keeps shipping the next ones. The hour was a field report, not a law.
 
-## Core takeaways
+## What the job becomes
 
-- **You are judged on the factory, not the artifact.** Build the thing that ships outputs, not the output; in idea domains the gap is 100x–1,000x.
-- **Waste tokens, save time.** In verifiable domains, throw several models at one problem and optimize your own time — a frontier model is still cheaper than a human. Breaks where verification is costly.
-- **Models plan unprompted now.** They return routes and trade-offs like a principal engineer; your value is the override — taste and judgment — not drafting the route.
-- **The human becomes a verifier.** "I understand the consequences and I'll sign off," or "I wrote the test harness." The real cost is the thousand-day maintenance question, not zero-to-one.
-- **Your job is to train the agent.** The work shifts from doing the task to training the agent that does it, and extracting your repeated moves into reusable skills.
-- **Vibe coding crossed into hardware.** Domain experts vibe-code their pieces over engineer-built architectures; reuse building blocks instead of reinventing them.
-- **Intelligence vs agency is the live debate.** Returns flow to the person who opens the model and asks "what should I build?" rather than watching YouTube.
-- **More productivity means more teams, not fewer jobs.** Small teams and an explosion of founders; the jargon-and-credentials moat erodes and generalists gain.
-- **Always want the smartest model** where verification is expensive; economize on cheaper models where checks are cheap.
-- **The durable human edge is out-of-distribution work with intent** — stepping outside the system, not interpolating inside it — plus accountable judgment.
+In idea domains the same room claimed the gap between engineers is now a hundred times or a thousand, because output there was never linear. That multiplier is their speech, dated that day. It is not a labor-economy finding.
 
-## The operating shifts
+Where a result can be checked, the method is to waste tokens and save time: throw several models at one problem, measure the human time saved, and keep the run that works. A frontier pass is still cheaper than a human hour. The method breaks where verification is costly, and it degrades at the creative frontier, where the work has to stay close to the model. Model names in that lineup will rot. The method is what travels. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]] files that dated tactic, and the specs-as-source-code half that goes with it.
 
-**Software factories.** Rauch judges an engineer by the factory, not the artifact: "are you producing the factory that will produce multiplicative outputs B through Z?" The 10x engineer that Twitter once flamed Naval for asserting is now visibly 100x or 1,000x, because in idea domains output was never linear. This is the practical face of [[wiki/Concepts/The Age Of Nonlinear Returns|nonlinear returns]] inside a codebase: the leverage moves from the output to the machine that makes outputs.
+Models now return routes and trade-offs the way a principal engineer would. They also bullshit confidently on estimates. They will refuse a bad call — high-cardinality telemetry in one store, consider another — and still invent a schedule with a straight face. The override is taste and judgment, which is the durable half [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] already owns. This page strengthens that hub. It does not replace it.
 
-**Waste tokens, save time.** Naval's stated method is to throw Codex, Claude, and Gemini at the same problem repeatedly and brute-force it, measuring his own time and the final output, never the token count — "no matter how expensive these models might seem, they're still way cheaper than a human." The boundary condition is verifiability: the method works in solved, checkable domains and degrades at the creative frontier, where you work closely with the model instead of spraying attempts. Filed as a dated tactic in [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]].
+That override is also why the human role becomes verifier. The signoff is consequences understood, or a test harness written. The pull-request standard is not every line read. It is consequences plus signoff, or simulations and type-checkers standing behind the change. The real cost is the thousand-day question: security, tests, production, and the motivation to keep spending tokens after the demo still looks finished. The same shift generalizes, in their telling, to lawyers and operators. The work moves onto checking the assembled system and putting a name under it.
 
-**Models plan unprompted.** Rauch's "principal engineer" observation: models now return a set of routes and trade-offs before running with the idea, without being told to plan, and will refuse a bad call ("we don't put high-cardinality telemetry in Postgres — consider ClickHouse"). They also bullshit confidently on estimates. What you supply is the override — taste and judgment about which route is right — which is the durable half of [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]. This reframes upfront planning: see the planning-as-spec vs planning-as-ritual split below.
+Training the agent is the culture half. Repeated moves get extracted into reusable skills, which is the turn [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]] is built for. Where verification is expensive, the smartest model is still the one to want. Where checks are cheap, cheaper models are enough. [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]] refines that by cost and latency. Traffic mix through one speaker's gateway stays panel color, not a published series.
 
-**You don't get stuck anymore.** Hodak's point that the indefinite-debugging plateau is gone — the random narrow thing that used to eat a week now resolves quickly. The old teaching that programming is "intrinsically frustrating, that's how you learn" stopped being true.
+## The factory in hardware
 
-**Humans are becoming verifiers.** Rauch's standard for a PR is not "I read every line" but "I understand the consequences of this PR, and I'll sign off on them" — or "I wrote the test harness, simulations, and type-checkers, so I can stand behind it without reading it." Naval generalizes: the old function of engineers, lawyers, and operators moves to verifying the stack and standing behind it. The real cost surfaces at a thousand days, not zero-to-one: is the software still secure, tested, and maintained, and are you still willing to spend tokens keeping it alive? This extends the verification invariant already in the hub.
+The same method crossed into hardware. Software engineers build the architectures. Domain experts then write their pieces over those blocks, reusing what already exists. [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] owns that crossing in depth.
 
-**Your job is to train the agent.** Rauch describes a culture shift where the work is not the task but training the agent that does the task — Scholl's company-wide week where everyone from the receptionist up had to build something with AI produced mostly needle-movers, not toys. The corollary is skill extraction: capture your inputs and outputs and distill them into reusable skills, which is [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]] pointed at your own work.
+At one aerospace seat, a jet engine has on the order of a thousand blades. One engineer, one day, one blade, for one analysis, used to be the unit of work. Two engineers can now iterate an entire engine. Those are his numbers from that day, not an industry statistic.
 
-**Vibe coding crosses into hardware.** At Boom, software engineers build the architectures and domain experts vibe-code their pieces; two engineers can iterate an entire jet engine where the cold-shape/hot-shape analysis for a single blade used to cost one engineer one day. Reuse beats first-principles rebuilds — Rauch's "building blocks economy," where existing infrastructure is a token cache the agent forks from instead of reinventing. Extends [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]].
+The same company ran a week in which everyone from the receptionist up had to build something with the new tools. Most of what came back, they said, moved a needle rather than sitting as a toy.
 
-## What stays human, and the economics
+The plateau of indefinite debugging is gone, in one seat's report from that same June day. The odd blocker that used to consume a week now clears in an afternoon. The older lesson — that writing software is supposed to feel miserable, and that the misery is the education — stopped matching their days. Existing infrastructure, in the software seat's phrase, is a token cache the agent forks from.
 
-**Intelligence vs agency.** Hodak frames returns to humans as flipping from 70% intelligence / 30% agency toward agency-dominant; Naval takes the counterpoint that it is 99% intelligence and 1% agency because the agents supply the agency on command. Both agree on the person who wins: the one who opens Claude and asks "what should I build?" rather than watching YouTube. The contested variable is where to invest — raw thinking, or the disposition to act on it. Tracked against [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]].
+## Who captures the return
 
-**A very large number of small teams.** The first-order read — "a jet engine needs two people not a thousand, so 998 jobs vanish" — inverts on the second order: when each engine needs few people, you get many different engines, an explosion of founders, and small teams. Higher productivity makes strong operators worth hiring more, not less. The jargon-and-credentials moat erodes; generalists who think across domains gain, because base intelligence and domain knowledge are now cheap and the barrier of spending twenty years before contributing falls.
+Intelligence versus agency is the live argument, and both sides sat in the room. One seat sees returns flipping from seventy-thirty intelligence-over-agency toward agency-dominant. The other seat says ninety-nine to one the other way, because agents now supply the agency. They agree on who captures the return: the person who opens the model and asks what to build.
 
-**Out-of-distribution creativity.** Naval's bar for what humans still own: stepping outside the system to do something not imaginable within it, with intent — Gödel breaking the formal system, not interpolating inside it. Max's definition of art is meaningful out-of-distribution behavior — surprising, and changing your future trajectory. Both expect the surprise bar to keep rising (OpenAI's Ghibli flood put that style in-distribution and killed its art value). This is the generativity ceiling discussed in [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]].
+First-order thinking says most roles vanish — nine hundred and ninety-eight out of a thousand, in the cartoon version. The second-order from the software seat inverts it. Higher output, in this telling, hires more crews rather than deleting roles. Tiny groups, and a rush of new companies, ship what used to need a department. The jargon-and-credentials moat erodes. The twenty-years-before-contributing barrier falls. Generalists who think across domains gain. Strong operators become more worth hiring, not less.
 
-**Always want the smartest model.** Naval treats intelligence as an unalloyed good — given the leverage poured behind a decision, you want the best judgment every time, and you stop asking the model you believe is weaker. The caveat from Vercel's gateway data: frontier intelligence at the right cost/latency wins most production traffic, but cheaper models earn their place on verifiable, high-volume tasks (support, browser automation). Refines [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]].
+The durable human remainder is out-of-distribution work with intent, plus accountable judgment. [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]] holds the ceiling. [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] grades the same split as the AI axis. A public flood of one studio's style in 2025 put that style in-distribution and killed its art value. That was the referent they named for what happens when the distinctive thing becomes cheap to sample.
 
-## Planning as spec vs planning as ritual
+Factory leverage inside a codebase is the same shape [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] already names.
 
-The source pulls two ways on upfront planning, and the tension resolves by splitting the word. Naval ignored "always use plan mode" and every other trick on the bet that the model improves faster than he can learn the tooling. Rauch reports the models now plan on their own. Both point at the same thing rotting: planning-as-**ritual** — the human hand-writing the route the agent will take. What does not rot is planning-as-**spec**: the problem, the success criteria, the scope, the trade-off you actually want. The Condensed page already holds that specs are source code, so the prediction is narrow and falsifiable — the drafting of the plan migrates to the model; the ownership of intent and acceptance criteria stays human. Open question, not a settled rule (see the journal entry of 2026-06-15).
+## Planning that rots
 
-## The case against
+One seat ignored the standing instruction to always use plan mode, on the bet that the model improves faster than the tooling can be learned. The other seat said models now plan on their own.
 
-This is three frontier founders and Naval talking their own book — Rauch sells the agent cloud and the building blocks; Hodak is an AGI maximalist; the room is selected for people for whom this is already working. Rauch's own line cuts against the optimism: most AI output is "a mountain of slop," every Claude website now looks identical, and software that is trivial to create at zero-to-one rots expensively by day a thousand. Naval also concedes the failure cases — you don't know when a model is wrong, the smartest-model logic drives toward an AI oligopoly, and "human plus AI" is a bet on a window staying open, not a permanent state. Treat the page as operating intelligence from inside the bubble, weighted by how much these claims already match what the vault has run.
+Planning-as-ritual — a human hand-writing the route — rots. Planning-as-spec — the problem, the success criteria, the scope, the trade-off wanted — does not. The split is still open against a still-mandated write-the-plan-first rule. The falsifiable prediction is that drafting of the plan migrates to the model, and ownership of intent and acceptance criteria stays human.
+
+## The room, talking its book
+
+The room is three frontier founders and a host talking their book. One sells the agent cloud and the building blocks. One is an AGI maximalist. The panel was selected for people for whom this is already working.
+
+The same software seat said most generated output is a mountain of slop. Every generated website now looks identical. A product that is cheap to start becomes costly to keep alive a thousand days later.
+
+The host conceded three things. There is no reliable way to know when a model is wrong. Smartest-model logic drives toward an oligopoly. Human-plus-AI is a bet on a window, not a permanent state.
+
+Read the hour as a dispatch from people already living this, and only as strongly as it already matches what this vault has actually run.
+
+The factory test is still the sentence that carries the day. What it is worth depends on slop, on the thousand-day maintenance bill, and on the fact that the room was talking its book. Weighted that way, it remains a useful report from June 2026, not a law.
 
 ## Related
 
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]]
-- [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]
-- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]]
-- [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]]
-- [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]
-- [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]]
-- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — Naval's "intelligence vs agency" and the verifier role, graded as the AI axis.
-- [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
-- [[wiki/Concepts/A Return to Code|A Return to Code]]
-- [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
-- [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]] — whether the AI capex here is showing up in the productivity statistics
-- [[wiki/Concepts/Riding the AGI|Riding the AGI]] — the sibling Naval field report (nav.al/future); commoditization stack, time-contracted advantage, live-in-the-future positioning
-- [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival]] — the macro demand-side read on the same AI-capex stimulus
+- [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] — factory leverage is this frame inside a codebase
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]] — where waste-tokens-save-time is filed as a dated tactic
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — taste and judgment as the durable half; the hub this field report strengthens
+- [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]] — skill extraction: capture repeated moves into reusable skills
+- [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] — hardware crossing; domain experts on engineer-built architectures
+- [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]] — intelligence-versus-agency and the out-of-distribution ceiling
+- [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]] — always-want-the-smartest-model, refined by cost and latency
+- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]] — adjacent stack page
+- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — verifier role and intelligence-versus-agency, graded as the AI axis
+- [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] — sibling field report from the same host
+- [[wiki/Concepts/A Return to Code|A Return to Code]] — sibling field report from the same host
+- [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]] — sibling field report from the same host
+- [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]] — whether the capex here is showing up in the productivity statistics
+- [[wiki/Concepts/Riding the AGI|Riding the AGI]] — sibling field report: commoditization stack, time-contracted advantage
+- [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival]] — macro demand-side read on the same AI-capex stimulus
+
+## Open questions
+
+Where is the line between planning-as-spec and planning-as-ritual, while write-the-plan-first is still mandated?
+
+On which tasks is verification actually cheap?
+
+What in this workflow is generativity to hand off, and what is judgment to keep?
+
+Which repeated moves in vault maintenance become skills, if train-the-agent is applied here?
 
 ## Sources
 
-- Naval Ravikant, Nivi, with Guillermo Rauch, Blake Scholl, and Max Hodak, "The AI Industrial Revolution," [nav.al/industrial](https://nav.al/industrial) (2026-06-02). Local transcript in `raw/processed`.
-
-## Open Questions
-
-- Where is the real line between planning-as-spec (keep) and planning-as-ritual (let the model own)? My operating doc still mandates PRD-first; this is the first source arguing the drafting can migrate.
-- "Waste tokens, save time" assumes a cheap verifier. On which of my tasks is verification actually cheap, and where would brute-forcing just produce confident slop?
-- If the durable edge is out-of-distribution creativity and judgment, what in my own workflow is generativity I can hand off versus judgment I must keep?
-- What would "train the agent, don't do the work" look like applied to vault maintenance — which repeated moves should become extracted skills?
+Naval Ravikant, Nivi, Guillermo Rauch, Blake Scholl, and Michael Hodak. "The AI Industrial Revolution." *Naval*, 2 June 2026. https://nav.al/industrial. Roundtable: software-platform seat (Vercel), aerospace seat (Boom), science seat (Science), and host. The 2025 studio-style image flood they named as a referent is the public GPT-4o event of that year.

@@ -1,9 +1,12 @@
 ---
+title: "Meiwaku"
 type: concept
 status: developing
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-08-14
+written-by: fable
 source-count: 2
+description: "The trouble you cause other people that you did not need to cause — and the habit of counting it before you act."
 tags:
   - japanese
   - personal-philosophy
@@ -14,88 +17,48 @@ tags:
 
 # Meiwaku
 
-迷惑 (めいわく, meiwaku) is the Japanese concept of causing unnecessary trouble, burden, annoyance, or imposition on others. It is not mere politeness. It is a practical optimization principle: minimize the negative externalities you create for the people and systems around you, from the largest life decisions down to the smallest daily behaviors.
+迷惑 (めいわく, *meiwaku*) is the Japanese word for unnecessary trouble caused to other people — noise, space, attention, time, and energy exported to everyone nearby. This page treats the word as social cost accounting: counting the burden you put on other people, and pricing it before you act, at every scale from where to stand to how to live. The goal is presence without unnecessary imposition.
 
-## Core Thesis
+The distinction between word and habit is worth keeping honest. In Japan the word names the burden itself, and *meiwaku o kakenai* — do not impose avoidable inconvenience — is a consideration norm, one of several behind the everyday discipline around quietness, cleanliness, punctuality, and restraint. It runs deeper than politeness: politeness governs how you treat the person in front of you, while this norm counts what your presence costs people who never chose to deal with you. Counting that cost deliberately, and scaling the count through three tiers — micro (how you walk, speak, park, consume in public), meso (home, neighbourhood, workplace), macro (life plans, career, family structure) — is this vault's extension. The micro tier is the native usage; the two above it keep the word's direction without being what the word means.
 
-Meiwaku is **social cost accounting applied to everyday life**. It asks whether your presence, possessions, communication, or choices are taking up more space, noise, attention, time, or energy than the situation requires. The goal is presence without unnecessary imposition.
+## The operating loop
 
-It is the cultural operating system behind many Japanese norms around quietness, cleanliness, punctuality, and restraint.
+The count runs before an act, not after a complaint. Name the burden the act exports — noise, space, attention, maintenance, risk. Cut the portion that serves no purpose. Keep the portion that does. Presence remains; imposition shrinks. The keep-step is load-bearing: run the loop without it and the practice stops being consideration and becomes disappearance.
 
-## Operating Model
+At street level the burden hides as personal preference until the social cost is counted. A loud exhaust or an oversized vehicle exports noise and spatial risk to a whole block. A bag on a train seat exports navigation to every boarding passenger. Performative or attention-hungry communication consumes collective attention without returning value. A poorly designed or cluttered system charges cognitive rent to every user on every visit.
 
-```text
-Action or choice
--> calculate external burden created (noise, space, attention, maintenance, risk)
--> reduce or eliminate the unnecessary portion
--> keep the burden that serves a clear purpose
--> presence remains, imposition is minimized
-```
+The social grammar of the norm has one sharp edge: the strongest reaction is reserved for open defiance, never for ignorance. Someone unaware of a custom gets patience; someone who visibly enjoys imposing — noise, space, and attention used as a status display — gets contempt. That is the failure loop at full length: wanting status, convenience, or self-expression, externalizing its cost onto the shared environment, normalizing dominance through noise, space, and attention, and degrading the commons for everyone in it.
 
-The failure mode (anti-meiwaku):
+## Four failure modes
 
-```text
-Desire for status, convenience, or self-expression
--> externalize cost onto others
--> normalize dominance through noise/space/attention
--> shared environment degrades for everyone
-```
+The first is the one a conscientious reader will actually hit.
 
-## Key Mechanisms
+- **Self-erasure.** Avoiding all impact in order to avoid all burden: suppressing speech, action, creativity, and self-advocacy until nothing is left to impose. The loop's keep-step already forbids it, and the frame itself prices the other side — [[wiki/Concepts/Good Faith|Good Faith]] counts hidden information as an imposition on the person who needed it. The full accounting for speech — what a contribution returns, and when the silence is the imposition — is [[wiki/Concepts/Selfhood and the Ledger|Selfhood and the Ledger]].
+- **Quiet resentment.** Expecting others to follow the norm without ever naming it. An unshared count reads as rudeness on one side and arbitrary judgment on the other. The repair is to convert the value into explicit rules — a stated request, a house norm, a design constraint.
+- **Over-policing.** Treating every inconvenience as a moral failure. The count targets repeated, avoidable, high-cost burdens; it is not a tax on existing.
+- **Aesthetic minimalism.** A visually quiet space can still export noise, shifted work, and poor function. The count is of burden, never of appearance.
 
-**Burden Externalization**  
-Many common behaviors feel like personal preference until the social cost is counted:
-- Loud exhaust or oversized vehicles export noise and spatial risk.
-- Taking up excessive space in shared areas forces others to navigate around you.
-- Performative or attention-hungry communication consumes collective attention without returning value.
-- Poor design or cluttered systems forces cognitive rent on users.
+## Neighbouring practices
 
-**Scale**  
-Meiwaku operates at every level:
-- Macro (life plans, career choices, family structure)
-- Meso (home, neighborhood, workplace)
-- Micro (how you walk, speak, park, consume in public)
+Two practices implement the habit directly. Recessive [[wiki/Concepts/Style|Style]] — the wardrobe that recedes, the interface that does not fight its message — demands no attention for itself and creates the conditions for the substance, or the person, to come forward. [[wiki/Minimalism/Minimalism as Systems Design|Minimalism]] cuts exported burden by owning less: less storage and maintenance on yourself and your household, less spatial and visual load on shared space, fewer objects making work for someone else.
 
-**Contempt for Defiance**  
-The strongest negative reaction is not toward people who are unaware of the norm, but toward those who openly defy it — people who seem to enjoy imposing on others as a form of status display.
+Further out: [[wiki/Concepts/Anti-Marketing|Anti-Marketing]] is the same habit applied to communication and self-presentation; [[wiki/Concepts/Charisma|Charisma]] at its best minimizes social friction rather than manufacturing presence; [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] spends a listener's attention budget deliberately; and the impulse and presence management underneath all of it is [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
 
-## Recessive Style as Meiwaku
+## The working test
 
-Meiwaku has a direct relationship with style. The best styles are often recessive: they do not demand attention but create the conditions for the actual substance (or the person) to come forward.
+Five questions, before the act:
 
-Uniqlo clothing works because it recedes. Anime characters often use one exaggerated feature precisely so the rest of the design can stay quiet. In writing and interface design, the same principle applies: the medium should not fight the message.
+1. Am I taking more space, time, or attention than the situation needs?
+2. Does this object or habit create ongoing work or friction for someone else?
+3. Is my communication useful, or is it primarily demanding attention?
+4. Would removing or quieting this thing meaningfully improve the shared environment?
+5. What burden am I exporting that I could internalize or eliminate?
 
-## Relation to Minimalism
-
-Minimalism is one practical implementation of meiwaku thinking. By owning less, you reduce:
-- The burden of storage and maintenance on yourself
-- The spatial and visual burden on shared environments
-- The cognitive load of decision fatigue
-
-However, meiwaku is broader than aesthetics. You can have visually minimalist spaces that still create high external cost (e.g., through noise, poor functionality, or shifted work onto others).
-
-## Practical Application
-
-Ask these questions regularly:
-
-- Am I taking more space, time, or attention than the situation needs?
-- Does this object or habit create ongoing work or friction for someone else?
-- Is my communication useful, or is it primarily demanding attention?
-- Would removing or quieting this thing meaningfully improve the shared environment?
-- What burden am I exporting that I could internalize or eliminate?
-
-## Related Pages
-
-- [[wiki/Concepts/Style|Style]] — recessive style as applied meiwaku in design and communication.
-- [[wiki/Concepts/Charisma|Charisma]] — high-quality charisma minimizes negative social friction.
-- [[wiki/Concepts/Good Faith|Good Faith]] — good faith reduces the imposition created by hidden information.
-- [[wiki/Concepts/Anti-Marketing|Anti-Marketing]] — anti-marketing is a form of meiwaku applied to communication and self-presentation.
-- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism]] — burden reduction through selection and restraint.
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — meiwaku as an advanced form of impulse and presence management.
-- [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] — communication that respects the recipient's attention budget.
+The word still means what it means in Japan: the trouble you did not need to cause. What this page adds is the habit of counting it — in both columns, the burden a presence exports and the cost of a presence withheld.
 
 ## Sources
 
-- Original NX note: `Capture/meiwaku.org`
-- GPT - NX Meiwaku synthesis
-- Personal observation and cross-cultural reflection
+- Original note: `Capture/meiwaku.org` (personal, unpublished), with its synthesis in `outputs/L3/GPT/NX Meiwaku.md`.
+- Personal observation of the norm in use.
+- On the gloss: standard dictionary entries (Kenkyusha; Daijisen) — 迷惑 as trouble, nuisance, or inconvenience caused to others.
+- On the Japanese usage: Lebra (1976), *Japanese Patterns of Behavior* (restraint and consideration); Hendry (1995), *Wrapping Culture*; Georgetown Berkley Center (2017) on *teinei* versus *meiwaku*.

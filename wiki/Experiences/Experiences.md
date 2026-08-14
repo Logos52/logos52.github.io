@@ -1,8 +1,11 @@
 ---
+title: Experiences
 type: hub
 status: developing
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
   - experiences
   - personal
@@ -12,25 +15,22 @@ tags:
 
 # Experiences
 
-This section collects reflections, observations, and operating principles extracted from direct personal experience rather than from books or abstract study.
+Experiences here are lived events treated as sources, cut for a reusable rule rather than told as travelogues. A diary keeps the day. This section keeps the rule the day left behind.
 
-> **Note:** This content is surfaced publicly in the Journal as [[journal/experiences|Experiences]].
+## Current entries
 
-These are not travelogues. They are attempts to extract durable, usable principles from lived situations — cultural immersion, professional training, periods of stability or disruption, and real-world systems.
+[[wiki/Experiences/Taiwan 2020|Taiwan 2020]] is language study and cultural observation in Taiwan from late 2019 into early 2020, including an eight-day side trip to Japan forced by early COVID disruptions. [[wiki/Experiences/Red Team Training|Red Team Training]] is a U.S. Army UFMCS Red Team period, kept for cultural empathy and breaking groupthink, not for weapons. The same two notes also surface publicly as [[journal/experiences|Experiences]].
 
-## Current Entries
+A new page belongs here when the situation is cultural immersion, professional training, a stretch of stability or disruption, or a real-world system — and only if a mechanism, a failure mode, or a reusable operating principle was pulled out of it. Treat these the way dense sources are treated: extract those three things. Personal experience is a different kind of source than theory or secondhand synthesis.
 
-- [[wiki/Experiences/Taiwan 2020|Taiwan 2020]] — Language study and cultural observations in Taiwan (late 2019 – early 2020), including a short 8-day side trip to Japan forced by early COVID disruptions.
-- [[wiki/Experiences/Red Team Training|Red Team Training]] — U.S. Army UFMCS Red Team experience, with emphasis on cultural empathy and breaking groupthink.
+What comes off that extraction is sharper constraints, a more honest sense of the trade-offs, and principles that have already been run against a real situation. This shelf has two notes. It is not a survey of a place and not a doctrine of training.
 
-## Philosophy
+## Related
 
-Personal experience is a different kind of source than theory or secondhand synthesis. It tends to produce sharper constraints, more honest trade-off awareness, and principles that have already been tested against reality.
+- [[journal/experiences|Experiences]] — public journal surface of this same section
+- [[wiki/Experiences/Taiwan 2020|Taiwan 2020]] — language study and Taiwan observations, plus the COVID-forced Japan detour
+- [[wiki/Experiences/Red Team Training|Red Team Training]] — cultural empathy and breaking groupthink, from a professional training period
 
-The goal is to treat these experiences the same way we treat dense sources: extract mechanisms, failure modes, and reusable operating principles.
+## Sources
 
-## Philosophy
-
-Personal experience is a different kind of source than theory or secondhand synthesis. It tends to produce sharper constraints, more honest trade-off awareness, and principles that have already been tested against reality.
-
-The goal is to treat these experiences the same way we treat dense sources: extract mechanisms, failure modes, and reusable operating principles.
+Owner experience. Nothing external.

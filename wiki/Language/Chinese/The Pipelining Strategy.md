@@ -1,10 +1,12 @@
 ---
+title: "The Pipelining Strategy"
 type: technique
 status: developing
 created: 2026-06-10
-updated: 2026-07-03
-source-count: 1
-sources: Outlier Linguistics — Chinese Character Masterclass (local PDFs, not in repo)
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 3
 tags:
   - chinese
   - characters
@@ -15,71 +17,99 @@ tags:
 
 # The Pipelining Strategy
 
-Attaching a written form to a word already known by sound and meaning takes a fraction of the effort of learning all three attributes cold. Native literacy runs on this asymmetry: a child learning to write already commands the spoken form of each word being learned, so brute repetition alone carries them to literacy — no analysis of the character's internal structure required. The default foreign-learner flashcard throws that advantage away — front "self; from", back 自 (zì, "self; from") — forcing form, meaning, and sound into memory in one session while grammar, tones, and vocabulary compete for the same attention. The Pipelining Strategy manufactures the native precondition across three staggered study sessions: practice the spoken word first, in both directions, then bind the character to a word that is already overlearned.
+Binding a character to a spoken word already owned is cheaper than taking form, sound, and meaning in as three unknowns. The three-session stagger manufactures that precondition: the spoken word both ways first, then the character bound to a pair already overlearned.
 
-The schedule works like overlapping laundry loads — load two washes while load one dries, so stages stack without stretching the finish rate. Each session a new cohort of 3–5 characters enters the pipeline; each cohort spends three sessions inside it; in steady state one cohort still graduates every session. One session a day is the usual rhythm, but the ladder is the construct, not the calendar. The pace stays constant while the cost structure changes: by the form session only one of the three chunks is still unfamiliar, instead of all three arriving at once. Across the thousands of characters a learner eventually studies, that per-item saving compounds into large overall gains.
+## Why the default card fails, and the ladder
 
-## The Three-Session Ladder
+Native literacy already runs on the asymmetry. A child learning to write commands the spoken form, so brute repetition can carry them to literacy. Analysis of internal structure is a foreign-learner tool, not a native prerequisite.
 
-- **Session 1 — word, one direction.** Practice the pronunciation–meaning pair as a spoken-word card, with no written form anywhere on the card.
-- **Session 2 — word, reversed.** Run the same pair in the opposite direction. The reversal is markedly lighter work because the forward link already exists; relearning an association backwards costs far less than learning it fresh.
-- **Session 3 — form attachment.** Put pronunciation plus meaning on the front and the character on the back: prompt "dào — way, path", recall 道 (dào, "way, path"). By now the word has been retrieved in both directions, so the form binds to a known anchor instead of joining two other unknowns.
-- **Direction order varies.** Meaning-to-pronunciation or pronunciation-to-meaning can go first; what stays fixed is one direction, then its reverse, then the form.
+The default foreign-learner flashcard throws that advantage away. Front "self; from", back 自. Form, meaning, and sound all hit memory in one session, while grammar, tones, and vocabulary compete. [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] is the bundle this schedule staggers. [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] is the domain-general version of one new link at a time.
 
-## Overlap Keeps Intake at One Cohort per Session
+Session 1 is the spoken word, one direction. A pronunciation–meaning pair sits on a spoken-word card. No written form anywhere on it.
 
-- **A new group starts every session.** Session 1 runs Group A's first direction. Session 2 adds Group B's new cards plus Group A reversed. Session 3 adds Group C's new cards plus Group B reversed plus Group A's forms — and a Group D begins in session 4. A worked rotation: Group A = 道, 那 (nà, "that; in that case"), 但 (dàn, "but; only"); Group B = 前 (qián, "front"), 很 (hěn, "very"), 性 (xìng, "human nature"); Group C = 情 (qíng, "feeling"), 物 (wù, "thing"), 等 (děng, "to wait; grade").
-- **Finished cohorts exit.** After its form session a group leaves the rotation and survives only as ordinary review cards.
-- **Throughput stays intact.** A common misreading turns pipelining into "five characters every three sessions." That penalty only appears under sequential batching — finishing one group's full cycle before starting the next, the slow-laundry mistake the overlap exists to remove.
+Session 2 is the same pair reversed. The forward link already exists, so the backward association costs less than learning the pair fresh. That is a direction, not a measured ratio.
 
-## Card Granularity and the Daily Mix
+Session 3 attaches the form. Front "dào — way, path", back 道. The shape locks onto a pair already held, instead of arriving as a third stranger.
 
-- **One card per pronunciation–meaning pairing.** 道 (dào, "way, path") and 道 (dǎo, "to guide") get separate cards, as do 那 (nà) and 那 (nèi, "that") — so a three-character cohort can yield five session-1 cards. Narrow cards keep per-card effort low; merged cards remain a legitimate variant worth testing personally.
-- **3–5 characters inside a 20-item session.** Fill the rest of the session's budget with common words built from the new characters or from characters already known — 3 characters plus 17 words is a typical split.
-- **Carrier words earn the character its keep.** One or two high-frequency carrier words per new character give the form somewhere to live in real usage.
-- **The form gap can stretch.** Three back-to-back sessions is the compact default; deferring a character's form for a month or two after the spoken word still preserves the mechanism.
+Which direction goes first can vary. Meaning→pronunciation or pronunciation→meaning can lead. The invariant is the order: one direction, its reverse, then the form.
 
-## Where Pipelining Ends and SIR Begins
+One session a day is the usual rhythm. The ladder is the construct, not the calendar.
 
-- **Pipelining schedules intake only.** It decides which attribute of which cohort appears in each of an item's first three sessions. After the form session it has nothing further to say about the item.
-- **[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] governs everything after.** Spacing, interleaving, and ongoing reconstruction of every graduated card belong to SIR; pipelining never touches review scheduling.
-- **Both share the session.** A study session is the active cohorts' pipeline cards plus every review SIR has scheduled — reviews maintain the existing stock while the pipeline feeds it, and pipeline cards never substitute for due reviews.
+## Overlap, not a slower batch
 
-## Ways the Rotation Breaks
+Each session a new cohort enters. A cohort is a small set of characters that climb the three-session ladder together. House tripwire: 3–5 characters, not a finding. Each cohort spends three sessions inside. In steady state one cohort still graduates every session.
 
-- **Bundled cards.** One card carrying form, sound, and meaning while all three are unfamiliar triples the new material per repetition — the default this schedule replaces.
-- **Imitating native rote copying.** Hand-copying works for natives because the spoken word is already overlearned; without that precondition, copying is brute force applied to three unknowns at once.
-- **Sequential batching.** Completing one cohort before starting the next cuts intake to one cohort per three sessions and gains nothing in exchange.
-- **Reading sample glosses as a meanings curriculum.** Which senses to learn per character is a separate decision — see [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]].
-- **Early verdicts.** Skepticism before the flow settles in is expected; run the rotation for a few weeks before judging the payoff.
+Overlap is what keeps throughput constant. Session 2 is B new plus A reversed. Session 3 is C new plus B reversed plus A forms.
 
-## Related Pages
+A worked rotation:
 
-- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] - hub for this cluster and the reading order it fits into
-- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] - the form–meaning–sound bundle the pipeline staggers across sessions
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] - the review system that takes over once a cohort exits the pipeline
-- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] - decides which senses deserve cards before the pipeline schedules them
-- [[wiki/Language/Chinese/The IME Method|The IME Method]] - production-recall protocol that exercises the same form–sound–meaning links after intake
-- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] - the domain-general memory rules this schedule instantiates
+- A = 道 那 但
+- B = 前 很 性
+- C = 情 物 等
 
-## Sources
+A common misreading turns this into five characters per three sessions. That slowdown is sequential batching: one cohort finishes its whole ladder before the next one starts. Staggered entry is what avoids the penalty.
 
-- Outlier Linguistics, *Chinese Character Masterclass* — commercial course; lesson PDFs kept locally outside this repository. https://www.outlier-linguistics.com/
+One card per pronunciation–meaning pairing. 道 dào and 道 dǎo get separate cards; 那 nà and 那 nèi too. A three-character cohort can yield five session-1 cards. Merged cards are a legitimate personal variant.
+
+## What the stagger buys
+
+By the form session two of the three chunks are already owned. Across thousands of characters that per-item saving compounds.
+
+The price is three sessions of attention per cohort before the form is even on a card. The benefit in the same breath: the form binds to an overlearned pair.
+
+This schedule governs intake only. After the form session it has nothing further to say about the item. The group leaves the rotation and survives only as ordinary review cards. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is the other system.
+
+## Session budget and the deferred variant
+
+House tripwire, not a finding: 3–5 new characters inside a 20-item session. The rest of the session is common words built from the new characters or from known ones. 3 + 17 is a typical split, also a house default.
+
+One or two high-frequency host words per new character give the written shape a real sentence to live in. Isolated-character study is the thing those host words refuse.
+
+The wait before the form session can stretch. Three consecutive sessions is the compact default. Parking a character's writing for a month or two after the spoken pair is overlearned still keeps the cheap-attachment mechanism. That span is a house tripwire. The practical ceiling is open.
+
+## After intake, and the breaks
+
+Spaced Interleaved Retrieval governs everything after. SIR is retrieval spread over time and mixed across topics and forms. Spacing, interleaving, and ongoing reconstruction belong there. This stagger never touches review scheduling.
+
+A study session is the active cohorts' intake cards plus every review SIR has scheduled. Intake cards never substitute for due reviews.
+
+Bundled cards — form, sound, and meaning while all three are unfamiliar — triple the new material per repetition. That "triple" is this page's cost-structure claim, labelled, not a measured finding. It is the default the stagger replaces.
+
+Imitating native rote copying fails without the spoken-word precondition.
+
+Sequential batching drops intake to one graduating cohort every three sessions and buys nothing.
+
+Reading sample glosses as a meanings curriculum is a separate decision, owned by [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]].
+
+[[wiki/Language/Chinese/The IME Method|The IME Method]] is production recall after intake. It is not this schedule.
+
+Early skepticism is expected. A few weeks of running the stagger is the honest window before a verdict.
+
+The schedule does not choose senses. It does not retrieve missing forms. It does not space reviews. 3–5 and 20 are unmeasured house defaults. If form-session cards are still three unfamiliar chunks, the spoken pair was never overlearned — new cohorts wait, and the existing ones reverse longer. What "working" looks like: after a few weeks, one cohort still exits each session, and form-session cards feel like attaching a shape to a word already held, not like a third new item.
+
+The same asymmetry is now a stagger that holds in steady state. Spoken first, both ways, then the form. One cohort still finishes each session. Review is the other system.
+
+## Links into the knowledge base
+
+- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] — the hub: the cluster this schedule finishes.
+- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] — the bundle this schedule staggers.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — review after a cohort exits. This page stops at intake.
+- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] — which senses deserve cards.
+- [[wiki/Language/Chinese/The IME Method|The IME Method]] — production recall after intake.
+- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] — domain-general rules the schedule instantiates.
 
 ## Open Questions
 
-- Does the one-card-per-pairing policy hold up personally, or do merged cards for characters like 道 work better in practice?
-- How far can the deferred-form variant stretch before the spoken anchor stops paying off — is a month or two the practical ceiling?
-- At what daily review load does SIR backlog start crowding out the 20-item intake budget?
+One card per pairing versus merged cards for a character with two readings — which holds in practice?
 
-## Maintenance — next compile pass
+How far the form session can be deferred after the spoken pair is overlearned, past the house "month or two."
 
-**Wedge (2026-07-03):** this page still reads too much like a single-source digest. Fix on the next pass — do not ship as-is if Outlier is still the only voice.
+How a 20-item intake budget sits next to a large SIR backlog on the same day.
 
-1. **Replace the laundry / washing-machine analogy.** The overlap section (para 2, "overlapping laundry loads"; §Overlap, "slow-laundry mistake") tracks the Outlier Masterclass metaphor too closely. Keep the *mechanism* (staggered stages, constant throughput, overlap vs sequential batching) but derive a fresh analogy or explain it without echoing the course's domestic-appliance frame. After rewrite, grep the page for `laundry`, `wash`, `dry`, `loads` — none should remain unless citing Outlier in Sources only.
+## Sources
 
-2. **Demote the source in the prose.** Outlier should ground claims in `## Sources`, not shape the page's images and section rhetoric. The thesis, ladder, rotation, and failure modes are vault doctrine now — rewrite any passage that still *sounds* like lesson handout copy. Condensed cross-links (`Chinese Characters, Condensed`, `Learning, Condensed`) and sibling cluster pages may count as synthesis inputs once claims are re-derived, but they are not substitutes for external sources.
+Share, David L. "Phonological recoding and self-teaching: sine qua non of reading acquisition." *Cognition* 55 (1995): 151–218. Phonological-primary, orthographic-secondary — a new written form attaches more cheaply to a word already held by sound.
 
-3. **Bring `source-count` to at least 3.** Currently `source-count: 1` (Outlier only). Wedge's bar from school: minimum three independent sources before the page counts as compiled. Hunt corroboration in `raw/Source Index.md`, `raw/sources/`, ICS retrieval/SRS material, and Anki/SRS literature for: (a) staggering attributes across sessions rather than bundling them; (b) overlapping intake schedules with constant daily throughput; (c) native spoken-word-before-form asymmetry. Add each to `## Sources` with what claim it supports. Update frontmatter `source-count` and `sources:` to match. If a third source cannot be found, say so in Open Questions — do not pad with wiki-only backlinks.
+L2 character work showing oral associations developing before form associations, e.g. the open-access study at PMC10313221. Spoken-first is not a house preference; it is the cheaper order.
 
-4. **Sweep dependents after rewrite.** `Chinese Characters, Condensed`, `Learning, Condensed`, and the two July 2026 journal drafts on pipelining may still echo the laundry frame or single-source phrasing — align them in the same pass.
+Paired-associate / incremental vocabulary (ERIC ED550749 and kin): a new link onto an existing pair costs less than three new nodes at once. Backward recall after a forward link is the same direction this ladder uses in session 2.

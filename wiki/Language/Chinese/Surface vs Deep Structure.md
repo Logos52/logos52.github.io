@@ -1,10 +1,12 @@
 ---
+title: "Surface vs Deep Structure"
 type: concept
 status: developing
 created: 2026-06-10
-updated: 2026-06-10
-source-count: 1
-sources: Outlier Linguistics — Chinese Character Masterclass (local PDFs, not in repo)
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 4
 tags:
   - chinese
   - characters
@@ -15,53 +17,78 @@ tags:
 
 # Surface vs Deep Structure
 
-Cutting a character into parts stops paying off at the functional level — the components doing a job in that specific character, expressing its sound or its meaning. 部 (bù, "area") splits into 咅 (pǒu) — a shape that contributes only sound here, no sense — and 邑 (yì, "city; political area"), compressed to 阝, which carries the meaning. The 立 (lì, "to stand") and 口 (kǒu, "mouth") visible inside 咅 do nothing in 部; cutting that deep produces shapes with no explanatory content. Decomposition that stops at functional components yields analysis; going further yields noise.
+Deep structure is the functional parse of a character, the parts doing sound or meaning work in this host. Surface structure is how the same graph is written and filed today: strokes, radicals, leftover marks, and the official standards. The cut stops at the parts that do a job here; the radical is a filing address, and neither layer is generative grammar.
 
-The stopping rule falls out of a two-layer model. Deep structure is the character system's internal logic: functional components and the sound–meaning connections they encode, which answer why a character looks the way it does. Surface structure is what characters look like at the present historical moment: strokes, stroke order, radicals, non-functional components, and the differences among the Taiwanese, Hong Kong, and PRC writing standards, which answer how to write a character correctly today. Each layer answers its own question, and a recurring failure mode is feeding a surface fact (usually the radical) into a deep-structure question.
+## The stopping rule
 
-## One Shape, Many Roles
+部 splits into 咅, sound only here, and 邑 compressed to 阝, meaning. 立 and 口 inside 咅 do nothing in 部. Cutting that deep yields noise.
 
-- **Four functional roles exist.** Form components express meaning through what their shape depicts, meaning components through one of their senses, sound components indicate pronunciation, and empty components express neither; the first two are jointly called semantic components.
-- **Roles are assigned character by character.** 立 is a meaning component in 端 (duān, "to stand up straight"), simultaneously meaning and sound component in 位 (wèi, "position"), a sound component in 粒 (lì, "grain") and 拉 (lā, "to pull"), an empty component in 音 (yīn, "sound"), and non-functional in 部 and 章 (zhāng, "chapter"). The shape stays constant while the job changes, so every new character demands a fresh classification.
-- **Component senses run on their own track.** A glyph's component sense can differ from its standalone word sense: as a component, 而 (ér) means "beard"; in 端, its modern conjunction sense "and; yet" plays no part. There, 而 and 山 (shān, "mountain") are mere sub-components — visible but functionally inert — of 耑 (duān), a shape acting purely as the sound carrier.
-- **Opaque sound links still count.** 立 (lì) in 位 (wèi), 丁 (dīng, "fourth; nail") in 成 (chéng, "to achieve"), and 疋 (zhèng), a variant of 正 (zhèng, "upright; correct"), in 定 (dìng, "stable and quiet") are genuine sound components even though modern Mandarin has drifted past the resemblance.
+A functional component is a part doing a job in this host. Four roles cover the jobs: form, meaning, sound, empty. Form plus meaning is the semantic pair. The first three are field-standard; empty is a functional verdict — no sound, no meaning. Non-functional is a different word: a sub-component below the stopping line, the way 立 and 口 sit inside 咅 in 部. [[wiki/Language/Chinese/Form Components|Form Components]] owns depicting. [[wiki/Language/Chinese/Meaning Components|Meaning Components]] owns sense. [[wiki/Language/Chinese/Sound Components|Sound Components]] owns pronunciation, including drifted phonetics. [[wiki/Language/Chinese/Empty Components|Empty Components]] owns the residue verdict. [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] is the triad those roles express.
 
-## The Radical Is a Filing Address
+立 keeps its shape and changes its job. It is meaning in 端. It is meaning and sound in 位. It is sound in 粒 and 拉. It is empty in 音. It is non-functional in 部 and 章 — below the stopping line, not a residue verdict. Six hosts, one shape.
 
-- **部首 (bùshǒu) means "section head."** Radicals were invented to arrange characters into dictionary sections, and paper-dictionary lookup remains their one dependable use. The most traditional radical list still in modern use is the 214-radical scheme of the 康熙字典 (Kāngxī Zìdiǎn, Kangxi Dictionary), published 1716, a list with roots in earlier dictionaries.
-- **Radical status is a per-character, per-standard role.** Among six characters containing 立 (部, 端, 位, 粒, 拉, 章), it is the radical in only two — 端 and 章 — and in 章 the radical is simultaneously non-functional. In 位, 立 supplies both sound and meaning, yet the radical is 亻 (rén, "person"). The PRC standard files the simplified form of 問 (wèn, "to ask") under its sound component, the door element 門 (mén, "door"); the Taiwanese standard files 問 under the semantic 口.
-- **The radical can cut against the functional joints.** 聚 (jù, "to gather together") takes its sound from 取 (qǔ, "to take") and its meaning from the three-person cluster at the bottom; the assigned radical, 耳 (ěr, "ear"), plays no functional role at all.
-- **The 錦 fallacy shows the cost.** Parsing characters as radical-plus-remainder led a published scholar to read 錦 (jǐn, "brocade") as semantic 金 (jīn, "metal") plus phonetic 帛 (bó, "silk fabrics") and to conclude that sound components are ineffective. Functionally, 金 carries the sound and 帛 the meaning — a quick check of each part's reading exposes the error. Scholars, editors, and citing researchers copied the mistake anyway; radical-first parsing blinds even capable analysts.
+Component sense can differ from the standalone word. 而 as a component is a beard; in 端 the conjunction "and" plays no part. 而 and 山 are inert sub-components of 耑, the sound carrier in 端.
 
-## Writing Lives on the Surface
+Opaque sound links still count. 立 in 位, 丁 in 成, 疋 (a variant of 正) in 定 are still doing sound work, even when modern ears do not hear it.
 
-- **Three standards overlap heavily and still differ.** Taiwan, Hong Kong, and the PRC each maintain their own writing standard, so two textbooks can disagree on a stroke order with neither being wrong.
-- **Stroke order diverges by rule choice.** For 戈 (gē, "dagger-axe"), the PRC standard writes the upper-right dot last while the Taiwanese standard writes the bottom 撇 (piě, "left-falling stroke") last. The individual ordering rules — top-to-bottom, left-to-right, upper-right dots last, top strokes before bottom strokes — are not mutually exclusive: the PRC applies dots-last here, Taiwan applies top-before-bottom, and good handwriting is achievable under either.
-- **Component shapes diverge too.** In dot-topped components such as 言 (yán, "speech"), 宀 (mián, "house"), 广 (yǎn, "building; hut"), and 疒 (nè, "disease"), the PRC standard floats the dot above the horizontal stroke while the Taiwanese standard makes them touch; in 女 (nǚ, "woman"), the PRC right-hand 撇 stops at the horizontal stroke and Taiwan extends it above.
-- **Expect deviation in the wild.** Native writers and font designers don't always follow official details, so the variation learners meet signals nothing alarming. Writing every stroke correctly under one chosen standard is the prerequisite for correct, good-looking characters.
-- **Stroke-level detail lives in dedicated references.** Johan Björkstén's *Learn to Write Chinese Characters* and Harvey Dam's *Regular Script Graphemics: How Chinese Characters Are Written* carry the full stroke-order treatment.
+## Each layer its own question
 
-## Routing the Question
+Each layer answers its own question. The recurring failure is feeding a surface fact — usually the radical — into a why-it-looks-that-way question.
 
-- **To understand a character,** decompose to functional components and ask how each one relates to the character's pronunciation and original meaning.
-- **To write a character,** consult the governmental standard you have adopted.
-- **To look a character up in a paper dictionary,** use the radical — and draw no functional conclusions from it.
+部首 means section head. Radicals arrange characters into dictionary sections. Paper-dictionary lookup is their one dependable use; a popup dictionary does not make them a second functional analysis. The list still in modern use is the 214 of the 康熙字典, published 1716, rooted in the 字彙 of 1615. Two hundred fourteen is a filing inventory. It is not a study list.
 
-## Related Pages
+Radical status is per-character and per-standard. Among the six 立-hosts it is radical in only 端 and 章, and in 章 the radical is also non-functional. In 位 the radical is 亻 even though 立 supplies sound and meaning. Radical and functional core are not the same object.
 
-- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] - hub for this cluster; situates the two-layer model in the reading order
-- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] - the form–meaning–sound triad that functional components express
-- [[wiki/Language/Chinese/Form Components|Form Components]] - the depicting role in the per-character classification
-- [[wiki/Language/Chinese/Meaning Components|Meaning Components]] - the sense-contributing role in the per-character classification
-- [[wiki/Language/Chinese/Sound Components|Sound Components]] - the pronunciation-indicating role, including non-obvious links like 立 in 位
-- [[wiki/Language/Chinese/Empty Components|Empty Components]] - the residue role: parts expressing neither sound nor meaning
-- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] - the original senses that functional analysis is anchored to
+聚 takes sound from 取 and meaning from the three-person cluster. The assigned radical 耳 plays no functional role.
 
-## Sources
+The 錦 inversion makes the diagnostic checkable. A published scholar read 錦 as semantic 金 plus phonetic 帛 and concluded sound components are ineffective. Functionally 金 is sound and 帛 is meaning. Radical-first parsing blinds even capable analysts.
 
-- Outlier Linguistics, *Chinese Character Masterclass* — commercial course; lesson PDFs kept locally outside this repository. https://www.outlier-linguistics.com/
+## Writing, filing, routing
+
+Taiwan, Hong Kong, and the PRC each maintain a writing standard. Two textbooks can disagree on stroke order with neither being wrong.
+
+戈 is the checkable case. The PRC writes the upper-right dot last. Taiwan writes the bottom 撇 last. Both apply real rules — dots-last against top-before-bottom.
+
+Dot-topped components (言, 宀, 广, 疒) float the top mark in PRC print and touch it in Taiwan print. Native writers and font designers do not always follow official details. Variation in the wild signals nothing alarming.
+
+Writing every stroke correctly under one chosen standard is the prerequisite for correct, good-looking characters. That is a routing rule, not a handwriting course. Stroke-level detail lives in the two books named under Sources; they are optional pointers, not required purchases for this parse.
+
+Filing is standard-relative too. The PRC files simplified 問 under the door 門 (sound). Taiwan files 問 under 口 (semantic). Hong Kong positions on 戈, the dots, 女, and 問 are not used here; they matter only if Hong Kong forms are the target script.
+
+Three questions, three answers.
+
+To understand a character: the functional parts, plus the original sense on [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]].
+
+To write it: the governmental standard already adopted.
+
+To look it up on paper: the radical, and no functional conclusions drawn from it.
+
+The method fails where every cut is treated as a finding — the stopping rule has already been left. It does not teach handwriting. Two hundred fourteen radicals will not become a study list by being named. A popup-dictionary reader will rarely need the radical's one job. The price is one functional parse per character, paid once. After that parse, the functional parts can be named, the radical named separately, and those two answers kept apart.
+
+The same cut is now the thing that stops. Writing and filing go to their own questions. A surface fact is not fed back into why the graph looks that way.
+
+## Links into the knowledge base
+
+- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] — the hub: this page is the stopping rule the component pages assume.
+- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] — the triad functional components express.
+- [[wiki/Language/Chinese/Form Components|Form Components]] — depicting role.
+- [[wiki/Language/Chinese/Meaning Components|Meaning Components]] — sense-contributing role.
+- [[wiki/Language/Chinese/Sound Components|Sound Components]] — pronunciation-indicating role; drifted phonetics.
+- [[wiki/Language/Chinese/Empty Components|Empty Components]] — residue role, a functional verdict, not "below the stopping line."
+- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] — original senses the parse anchors to.
 
 ## Open Questions
 
-- Only PRC–Taiwan contrasts are documented here (戈 stroke order, dot-topped components, 女, the 問 radical); where the Hong Kong standard sits on each is unknown.
-- How widespread standard-relative radical assignment is beyond the 問 case — whether it affects enough characters to matter for dictionary work across standards.
+How widespread is standard-relative radical assignment beyond 問?
+
+Hong Kong positions on 戈, dots, 女, and 問 remain unused here.
+
+## Sources
+
+Kangxi radicals: 214 section heads popularized by the 康熙字典 (1716), taken from the 字彙 (1615). 部首 is literally "section head."
+
+Taft & Zhu 1997, and the component-processing neighbourhood around it: functional parts, not arbitrary stroke groups, carry information.
+
+Shu & Anderson 1997: meaning-component awareness in character learning.
+
+Johan Björkstén, *Learn to Write Chinese Characters*; Harvey Dam, *Regular Script Graphemics* — optional handwriting pointers, not a curriculum for this page.

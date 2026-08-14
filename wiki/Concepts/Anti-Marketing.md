@@ -1,9 +1,12 @@
 ---
+title: "Anti-Marketing"
 type: concept
 status: developing
 created: 2026-05-16
-updated: 2026-07-11
-source-count: 1
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 2
 tags:
   - communication
   - trust
@@ -13,57 +16,45 @@ tags:
 
 # Anti-Marketing
 
-Anti-marketing is the deliberate practice of exposing constraints, flaws, trade-offs, and weak points early in a relationship or pitch, rather than hiding them behind polished promotion.
+Anti-marketing is the practice of showing constraints, flaws, trade-offs, and weak points before the other party has invested, instead of hiding them behind a polished pitch. The aim is accurate fit, not the largest possible audience.
 
-It shifts the goal from persuasion to accurate fit.
+## The timing rule
 
-## Core Thesis
+Ordinary marketing and self-presentation work the other way: they put the flattering surface first and hope the rest can wait. Anti-marketing pulls the difficult, limited, or unattractive parts forward while the other person can still walk away cheaply.
 
-Normal marketing and self-presentation optimize for maximum appeal by showing only the flattering surface. Anti-marketing does the opposite: it brings the difficult, limited, or less attractive parts forward before the other party has invested heavily. The result is faster, more honest trust calibration.
+**A weakness shown early is read as honesty. The same weakness found after a smooth pitch is read as something hidden.** That is the whole mechanism. The cost of discovering a mismatch is much lower at the start — in dating, hiring, and a product trial alike — so later disillusionment does less damage when the fact was already in the room.
 
-A flaw revealed early feels like honesty. The same flaw discovered later feels like concealment.
+The operator is two questions. Who should still want this once they have seen what it actually is? Not: how do I make this look desirable to as many people as possible? [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] is how the unflattering fact gets into the other person's frame without turning into a speech.
 
-## Key Mechanisms
+## Where it applies, and the pose
 
-**Timing of Disclosure**  
-The cost of discovering a mismatch is much lower early on. By surfacing reality upfront, anti-marketing reduces the damage of later disillusionment.
+The same timing rule covers public writing and knowledge work, personal sites and portfolios, dating and friendship, a product or service, and the sharing of research or ideas. It does not need a fifth channel.
 
-**Fit Over Persuasion**  
-It asks: "Who should actually want this once they see what it really is?" rather than "How do I make this look desirable to as many people as possible?"
+On this vault it changes what the site is allowed to look like. Current questions, unfinished thinking, named limits, and corrections left visible keep the work from hardening into a personal brand.
 
-This is useful for:
-- Public writing and knowledge work
-- Personal websites and portfolios
-- Dating and friendship
-- Product or service offerings
-- Research or idea sharing
+In a relationship, showing the awkward parts early takes the exchange out of performance and lets people test whether they actually fit. That is not a license to dump. [[wiki/Concepts/Meiwaku|Meiwaku]] is the burden-on-others constraint that stops over-disclosure; over-sharing that loads the other person is not anti-marketing.
 
-## Applications
+Naming what the thing is not good for, what it asks of the user, and where it falls short can raise credibility — when the listener can use the negative information to decide fit. It is not a universal lift, and it is not magic.
 
-**Public Knowledge Work**  
-A site or body of work can show current questions, unfinished thinking, explicit limits, and ongoing corrections. This prevents the site from becoming pure personal branding.
+The practice dies in three poses:
 
-**Relationships**  
-Showing the awkward or difficult parts early moves the interaction out of performance mode. It allows real compatibility testing instead of impression management.
+- Honesty worn as a costume — humblebragging, or the strategic vulnerability [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]] names as a tell.
+- Over-disclosure that creates a burden the other person never asked to carry.
+- Negativity mistaken for realism: all caveat and no value.
 
-**Brands and Offers**  
-Being upfront about what the thing is *not* good for, what it requires from the user, and where it falls short builds credibility faster than over-promising.
+[[wiki/Concepts/Good Faith|Good Faith]] is the stance this practice expresses in public. [[wiki/Concepts/Style|Style]] is where the same choice sits as a deliberate register.
 
-## Failure Modes
+Reveal what changes fit, trust, or understanding. Not everything. A page of caveats with nothing to want is the other failure, just quieter.
 
-- Using "honesty" as a performance (humblebragging or strategic vulnerability)
-- Over-disclosing in ways that create unnecessary burden (not the same as anti-marketing)
-- Mistaking negativity for realism
+## Related
 
-## Related Pages
-
-- [[wiki/Concepts/Style|Style]] — anti-marketing is often a deliberate stylistic choice.
-- [[wiki/Concepts/Meiwaku|Meiwaku]] — anti-marketing is a form of meiwaku applied to public presence and communication.
-- [[wiki/Concepts/Good Faith|Good Faith]] — anti-marketing is one of the clearest expressions of good faith in public work.
-- [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]]
-- [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]] — unconditional honesty as the source-level mechanism; strategic vulnerability is the performance tell all three models flag.
+- [[wiki/Concepts/Style|Style]] — anti-marketing as a deliberate stylistic choice.
+- [[wiki/Concepts/Meiwaku|Meiwaku]] — the burden-on-others constraint that stops over-disclosure.
+- [[wiki/Concepts/Good Faith|Good Faith]] — the stance this practice expresses in public.
+- [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] — how to put the unflattering fact inside the other person's frame.
+- [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]] — unconditional honesty as the source-level mechanism; strategic vulnerability as the performance tell.
 
 ## Sources
 
-- Original NX note: `anti_marketing.org`
-- GPT - NX Anti-Marketing synthesis
+- Williams, K. D., Bourgeois, M. J., and Croyle, R. T. (1993). The effects of stealing thunder in criminal and civil trials. *Personality and Social Psychology Bulletin*, 19(5), 597–604. Early disclosure of a weakness reduces its later damage.
+- Crowley, A. E., and Hoyer, W. D. (1994). An integrative framework for understanding two-sided persuasion. *Journal of Consumer Research*, 20(4), 561–574. Two-sided claims can raise credibility when the audience can use the negative information.

@@ -1,115 +1,101 @@
 ---
+title: Deep Processing
 type: dimension
 status: developing
-description: "Dimension for encoding quality — connecting, comparing, critiquing, and model-building during learning. The quality of thinking during encoding decides what the memory is made of; the felt effort is the mechanism, not a malfunction."
 created: 2026-05-16
-updated: 2026-06-11
-source-count: 3
-last-audited: 2026-06-11
+updated: 2026-08-14
+last-audited: 2026-08-14
+source-count: 12
+written-by: grok
+model: grok
+description: "The felt effort is the mechanism, not a malfunction."
 tags:
   - learning
-  - dimensions
+  - encoding
   - deep-processing
+  - dimensions
 ---
 
-<div class="hub-page-title">
-<i class="ti ti-affiliate" style="color:#8dc63f"></i>
-<h1>Deep Processing</h1>
-</div>
+# Deep Processing
 
-> Part of the [[wiki/Dimensions/Dimensions of Learning|Five Dimensions of Learning]].
+Deep Processing is the thinking a page sets off on arrival, not the page and not the method used on it. What remains in memory is that thinking, not the wording that passed through. Connecting, comparing, and judging extract what storing the wording never touches.
 
-The quality of thinking during encoding decides what the memory is made of — connecting, comparing, critiquing, and building mental models extracts learning that absorbing surface facts never touches. Deep Processing is that quality: the depth of cognitive engagement with information while you meet it.
+[[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] is the five-part cut this capacity sits inside.
 
-If learning is like driving a car, Deep Processing is the power and quality of the engine.
+## What depth changes
 
----
+Two people can read the same page at the same speed. One is occupied with holding the words — repeating them, trying to keep them, getting to the end. The other's thinking runs sideways while the words arrive: what this connects to, where it could be used, how it would simplify, where it sits in the whole. The page is identical. What is left afterwards is not.
 
-## Summary
+What those two readers leave behind is a difference in how meaningfully the material is encoded into long-term memory. Higher depth produces stronger retention and understanding that stays usable. Shallow processing produces thinner memory and more surface understanding. The shallow forms are concrete: rote memorisation, passive reading, rereading and highlighting, isolated facts with no bigger picture.
 
-Deep Processing determines **how deeply and meaningfully** information is encoded into long-term memory. Higher levels of deep processing result in stronger retention, deeper understanding, and the ability to use knowledge flexibly in new and complex situations.
+The thinking that produces depth is a small set of questions running while the material arrives — what this relates to that is already known, how it could be applied, how it would simplify, where it sits in the larger picture. Those questions are also how new information connects to prior knowledge, and how analysis and critique actually run. Higher-order work is two operations: comparing information against other information to find similarities and differences, then judging which of those matter. Lower-order is the absence of the comparison, not a different act. Transferable models and high-pressure use need this depth *and* retrieval practice that matches the way the knowledge will be asked for; depth alone does not deliver either.
 
-Lower levels of processing (often called shallow processing) produce weaker memory and more superficial understanding — for example, rote memorisation, passive reading, or focusing only on isolated facts without connecting them to the bigger picture.
+Material connected to what is already known outlasts isolated facts. Why and how outrank what. Explanations, comparisons, and implications do the encoding a second highlighting pass does not. Extra time on the shallow form rarely makes up the gap. A thin first pass is paid for later in hours and strain. That payment works while the material stays easy. Volume and difficulty are what stop the payment scaling.
 
-Unlike many techniques that can be applied mechanically, deep processing is fundamentally about the *quality of thinking* during learning.
+## Schemas, and how they change
 
----
+One of the mechanisms on the structural side is how related ideas get held together so a new fact has somewhere to sit. A [[wiki/Dimensions/Deep Processing/Schema|schema]] is that holding. Construction builds a new model when arriving information does not fit what exists. Assimilation folds in what fits reasonably well. Reorganization — accommodation, under the standard name — restructures or replaces a model when contradictions or gaps force a rebuild. The cycle is what lets knowledge become more accurate, more connected, and more usable over time. [[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization|Schema Construction, Assimilation, and Reorganization]] is the same cycle run deliberately rather than left to happen.
 
-## What This Dimension Controls
+## A habit, not a technique
 
-- Whether you move beyond surface-level understanding
-- How effectively you connect new information to prior knowledge
-- Your ability to analyse, critique, and evaluate ideas
-- How well you build transferable mental models
-- Whether knowledge remains usable in varied, high-pressure, or novel contexts
+Unlike a procedure that can be applied mechanically, this is a quality of thinking during the hour. The same technique can be run at more than one depth, from holding the wording through judging what matters. A technique produces only the thinking it produces — which is why [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] sits under this hub as the check, not as another method.
 
----
+The difference lives in the thinking, and the thinking is invisible from outside. The visible method is the part that gets copied, so two learners running the same method get different results and the method takes the credit or the blame either way. A gap that looks like a difference in talent is often a difference in how thoroughly the material was thought about.
 
-## Key Principles of Deep Processing
+Most of how information gets processed is not under conscious control while a session is running, so what changes is a habit of thinking rather than a decision to think harder. Habits move through repeated, targeted practice, not through knowing about them. That is why this page has children, and why [[wiki/Dimensions/Self-Regulation|Self-Regulation]] decides whether the deeper habit is the one that actually runs when pressure arrives.
 
-- **Connection over isolation**: The more you actively link new ideas to existing knowledge, the deeper the processing.
-- **Meaning over mechanics**: Focusing on *why* and *how* something works produces better results than focusing only on *what*.
-- **Active construction**: Deep processing requires the learner to do cognitive work — generating explanations, making comparisons, identifying implications, and asking higher-order questions.
-- **Quality over quantity**: Spending more time on shallow processing rarely compensates for a lack of depth.
+## Where it gets trained
 
----
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — questions written before the source is opened, the source worked into a map, the map pruned to what survives without it
+- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] — the pass before the real one, so arriving material has somewhere to land
+- [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]] — puts the relationships outside the head, where they can be judged and rearranged
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]] — externalising the reasoning so the thinking has to finish rather than stall half-formed
+- [[wiki/Dimensions/Deep Processing/Syntopical Reading - Learning from Multiple Dense Resources|Syntopical Reading]] — several dense sources read against each other instead of one after another
+- [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]] — encoding as deeply as current skill allows, and treating the first structure as something to revise
+- [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]] — the depths a topic can be held at, and which one a session is aiming for
+- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]] — comparing and judging as the operations that turn facts into a network
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]] — grouping by what matters rather than by the order the source happened to use
+- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery]] — the progression from recognising something to being able to use it
+- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] — mixing problem types so that choosing the approach is part of the practice; the depth-flavoured variant of a technique that more often belongs to Retrieval
+- [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]] — practice aimed at the processing itself rather than at a subject
+- [[wiki/Dimensions/Deep Processing/Deep Processing for Research|Deep Processing for Research]] — the applied version for research reading
+- [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]] — the failure where strong processing covers for a weak method until the goal gets hard enough
+- [[wiki/Dimensions/Dimension Practice Tracks|Dimension Practice Tracks]] — the four-step track for training the dimension rather than collecting techniques
+- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]] — a month of structured practice with the reps laid out
 
-## Schema Construction, Assimilation, and Reorganization
+## The dimensions around it
 
-One of the most fundamental mechanisms of deep processing is the way the brain builds and refines mental models, known as **schemas**.
+[[wiki/Dimensions/Self-Regulation|Self-Regulation]] decides whether the deeper approach actually gets used under pressure or fatigue, when control shifts toward habit. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]] surfaces, mid-session, whether the thinking is going deep or idling. [[wiki/Dimensions/Self-Management|Self-Management]] creates the time, energy, and environment the work needs before any of it is possible. [[wiki/Dimensions/Mindset|Mindset]] is what makes sustained discomfort survivable rather than a reason to stop.
 
-When engaging in deep processing, the brain typically does three things:
+[[wiki/Dimensions/Retrieval|Retrieval]] is the other half of the pair. Depth builds richer structures; retrieval strengthens access; both are required. Retrieval practice can outperform elaborative study on later tests, which is exactly why the answer is never "encode harder." Depth is also not automatically transferable. Encoding that matches the way the knowledge will be used is the other half of a session that still has to survive an exam.
 
-- **Construction**: Creating new mental models when encountering information that doesn’t fit existing schemas.
-- **Assimilation**: Integrating new information into existing schemas when it fits reasonably well.
-- **Reorganization** (sometimes called accommodation): Restructuring or replacing schemas when new information creates contradictions or reveals gaps.
+## The honest version
 
-This cycle — construction, assimilation, and reorganization — is what allows knowledge to become more accurate, connected, and usable over time. The technique of **Schema Construction, Assimilation, and Reorganization** is one of the most direct ways to deliberately engage in this core work of deep processing.
+What strong depth buys is less time lost to shallow repetition, durable retention, and knowledge that stays usable. It does not buy a career. The price is that it feels bad: slow, effortful, uncomfortable by design. The load *is* the encoding — which is what [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] is trying to cue — and methods that feel smooth are usually shallow.
 
----
+Strong natural processing covers for a weak method until complexity or volume exposes the gap. [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Tanking]] is that cover, and it arrives precisely when the stakes rise. What breaks first is not the method but the belief that the method was working.
 
-## Key Supporting Techniques & Concepts
+The check is production, not recognition. An explanation that survives [[wiki/Dimensions/Retrieval/WPW|WPW]] — teaching the topic back with every source closed — and a hard example that can be generated rather than only recognised are the marks that the structure holds. If time-on-material keeps growing while transfer does not, the gap is depth rather than duration: change the processing, not the hours. The change is measured in months of consistent practice, not in sessions.
 
-- **[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]** (including Aim, Shoot, and Skin) — The user’s primary and most fundamental encoding system. It systematically drives high-quality deep processing through targeted questioning, active mapping, and schema restructuring. Schema Construction, Assimilation, and Reorganization is one of the underlying principles behind how the system works.
-- **[[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]** — Externalization tool for building and testing relational structure during encoding.
-- **[[wiki/Dimensions/Deep Processing/Syntopical Reading - Learning from Multiple Dense Resources|Syntopical Reading]]** — A structured method for processing multiple dense sources at a high level.
-- **[[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]]** — Externalization technique that significantly improves encoding depth and quality.
-- **[[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]** — Preparation layer that sets up effective deep processing.
-- **[[wiki/Dimensions/Deep Processing/Schema|Schema]]** and **[[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization|Schema Construction, Assimilation, and Reorganization]]** — Core mechanisms of how deep processing works in the brain.
-- **[[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]** — Directly addresses how to encode information as deeply and effectively as possible.
-- **[[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]]** — Meta-framework for understanding different depths of processing.
-- **[[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]** — Advanced application of deep processing.
-- **[[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]]** — Dedicated practice for building this capability.
-- **[[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]** — Failure mode where strong natural deep processing hides weak strategy until complexity or volume exposes the gap.
-- **[[wiki/Dimensions/Deep Processing/Deep Processing for Research|Deep Processing for Research]]** — Applied version in research and academic contexts.
-- **[[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]** — Chunking strategy that supports higher-quality encoding.
-- **[[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery]]** — Progression from shallow recognition to deep, flexible understanding.
-- **[[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]** — Interleaving technique applied to complex problem-solving contexts.
+## Related
 
----
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — the five-part cut this capacity sits inside
+- [[wiki/Dimensions/Retrieval|Retrieval]] — access to what depth built; the other half of the pair
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — whether the deeper approach is used when pressure and fatigue push toward the cheaper one
+- [[wiki/Dimensions/Self-Management|Self-Management]] — the time, energy and environment the work needs
+- [[wiki/Dimensions/Mindset|Mindset]] — what makes sustained discomfort survivable rather than a reason to stop
 
-## Relationship to Other Dimensions
+## Sources
 
-- **[[wiki/Dimensions/Self-Regulation|Self-Regulation]]**: Determines *whether* you actually engage in deep processing or default to shallower approaches under pressure or fatigue. Metacognition is a key supporting mechanism that helps surface whether deep processing is occurring in real time.
-- **[[wiki/Dimensions/Self-Management|Self-Management]]**: Creates the time, energy, and environment needed for deep processing to occur.
-- **[[wiki/Dimensions/Mindset|Mindset]]**: A growth-oriented mindset makes it easier to persist with the sustained effort required for high-quality deep processing.
-- **[[wiki/Dimensions/Retrieval|Retrieval]]**: Deep Processing creates richer knowledge structures; Retrieval strengthens access to them. Both are required for high performance.
-
----
-
-## The Honest Version
-
-Strong deep processing buys efficiency (less time lost to shallow repetition), durable retention, transfer to novel and high-stakes situations, and expertise instead of fragile familiarity. Many performance gaps that look like "intelligence" differences are differences in processing quality.
-
-The price is that it feels bad: deep processing is slow, effortful, and uncomfortable by design — the load *is* the encoding, and methods that feel smooth are usually shallow ([[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]). The case against trusting your own depth: natural processors hide weak strategy behind talent until complexity or volume exposes the gap — the [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|tanking]] failure mode, which arrives precisely when the stakes rise.
-
-The check that depth is real: your explanations survive teach-back ([[wiki/Dimensions/Retrieval/WPW|WPW]]) and you can generate a hard example, not just recognize one. The quit signal: if time-on-material keeps growing while transfer doesn't, the gap is depth, not duration — change the processing, not the hours ([[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]).
-
----
-
-## Related Pages
-
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
-- [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Dimensions/Retrieval|Retrieval]]
+- Craik, F. I. M., & Lockhart, R. S. (1972). Levels of processing: A framework for memory research. *Journal of Verbal Learning and Verbal Behavior*. Depth of the encoding operation, not store duration, determines the trace.
+- Craik, F. I. M., & Tulving, E. (1975). Depth of processing and the retention of words in episodic memory. *Journal of Experimental Psychology: General*. Semantic encoding beats structural and phonemic encoding on later recall.
+- Anderson, J. R., & Reder, L. M. (1979). An elaborative processing explanation of depth of processing. In Cermak & Craik (Eds.), *Levels of Processing in Human Memory*. Connection over isolation.
+- Ausubel, D. P. (1968). *Educational Psychology: A Cognitive View*. Prior knowledge as the hook arriving material attaches to.
+- Chi, M. T. H., de Leeuw, N., Chiu, M.-H., & LaVancher, C. (1994). Eliciting self-explanations improves understanding. *Cognitive Science*. Active construction as encoding.
+- Slamecka, N. J., & Graf, P. (1978). The generation effect: Delineation of a phenomenon. *Journal of Experimental Psychology: Human Learning and Memory*.
+- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students' learning with effective learning techniques. *Psychological Science in the Public Interest*. Elaborative interrogation moderate; rereading and highlighting rated low.
+- Morris, C. D., Bransford, J. D., & Franks, J. J. (1977). Levels of processing versus transfer appropriate processing. *Journal of Verbal Learning and Verbal Behavior*. Depth is not automatically transferable; encoding that matches the use is the other half.
+- Karpicke, J. D., & Blunt, J. R. (2011). Retrieval practice produces more learning than elaborative studying with concept mapping. *Science*. Retrieval can beat elaborative mapping on later tests; both remain required.
+- Bjork, R. A. (1994). Memory and metamemory considerations in the training of human beings. In Metcalfe & Shimamura (Eds.), *Metacognition*. Desirable difficulties: the harder method is routinely judged the worse one.
+- Kornell, N., & Bjork, R. A. (2008). Learning concepts and categories: Is spacing the “enemy of induction”? *Psychological Science*; Kirk-Johnson, A., Galla, B. M., & Fraundorf, S. H. (2019). Perceiving effort as poor learning. *Cognitive Psychology*. Fluency illusion / ease-as-effectiveness.
+- Schwabe, L., & Wolf, O. T. (2009). Stress prompts habit behavior in humans. *Journal of Neuroscience*. Stress shifts control toward habit — the Self-Regulation bound.

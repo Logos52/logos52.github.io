@@ -1,10 +1,12 @@
 ---
+title: "Meaning Components"
 type: concept
 status: developing
 created: 2026-06-10
-updated: 2026-06-10
-source-count: 1
-sources: Outlier Linguistics — Chinese Character Masterclass (local PDFs, not in repo)
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 3
 tags:
   - chinese
   - characters
@@ -14,54 +16,68 @@ tags:
 
 # Meaning Components
 
-A drawing of a plow lends power to 勢 (shì, "power"), effort to 功 (gōng, "achievement"), and hard work to 勞 (láo, "toil") — characters with no farming in them. That transfer defines the meaning component: an abstract extension of a concrete original sense, tied only loosely to the visible shape. The same glyph can still act as a literal picture — 力 (lì, "plow") beside a field 田 (tián, "field") makes 男 (nán, "male"), "the ones who work the field" — so role classification happens per character. English runs the plow metaphor too ("he plowed through his work"), so 力's extension costs an English speaker almost nothing.
+A meaning component is an abstract extension of a concrete original sense, not a drawing of the host character's modern meaning. 力, whatever object it first named, lends power to 勢, effort to 功, toil to 勞 — characters with no farming in them. Beside 田 the same strokes still draw the people who work the field: role is assigned per character, the same split [[wiki/Language/Chinese/Form Components|Form Components]] makes from the other side.
 
-Generations of rewriting dissolved the script's picture quality, and modern native readers now parse nearly every character as if it were assembled from meanings; very few are. Meaning components live mostly inside sound-meaning characters, 形聲字 (xíngshēngzì) — a semantic component paired with a sound component — and the perception gap breeds folk decompositions built on non-functional parts. Three habits protect the system: learn each component through its semantic series, test every reading across sibling characters, and let opacity decide where research effort goes.
+## Where they live
 
-## Abstraction Draws the Line
+Generations of rewriting dissolved picture quality. Modern native readers now parse nearly every character as if assembled from meanings. Very few are. Meaning components live mostly inside sound-meaning characters, **形聲字** — a semantic part paired with a sound part. [[wiki/Language/Chinese/Sound Components|Sound Components]] is the other half of that pair, the syllable-range cycle this page does not rebuild.
 
-- **One shape, two jobs.** 木 (mù, "tree") is a pure picture in 本 (běn, "root of a tree") — a tree with a stroke marking the root. As a meaning component it ranges far from any picture: 根 (gēn, "tree root"), 標 (biāo, "treetop"), and 樣 (yàng, originally "acorn") name parts of a tree; 機 (jī, "crossbow trigger mechanism") and 架 (jià, "rack for objects") name things made of wood.
-- **Jobs stack.** 工 (gōng, "work") in 功 supplies sound and part of the meaning at once; 土 (tǔ, "chunk of dirt") carries sound plus a locale sense in 社 (shè, "god over a locale"); in 基 (jī, "base, foundation") it points at ground and location — in both characters the meaning/form boundary blurs, and the role gets settled per character.
-- **All-meaning characters barely exist.** 歪 (wāi, "crooked") — 不 (bù, "not") over 正 (zhèng, "straight") — and 尖 (jiān, "sharp") — 小 (xiǎo, "small") over 大 (dà, "big") — nearly exhaust the list. The proof is formal: 不 depicts part of a plant, 正 is a foot under a sound element, and small-over-big draws nothing pointed — only the components' senses can carry these characters.
+The perception gap breeds folk decompositions built on parts that do no work.
 
-## Semantic Series as the Learning Unit
+A **semantic series** is the family of characters that share one meaning component, studied together. Three habits follow once the home is clear: learn each component through its series; test every reading across sibling characters; let opacity decide where research effort goes.
 
-- **Study the family table.** List each sibling with pronunciation, original meaning, and the component's role in that member. The 力 series runs six characters — 勢, 功, 勞, 辦 (bàn, "handle affairs"), 助 (zhù, "help"), 努 (nǔ, "make an effort") — with roles from "power" to "put forth effort." The 土 series runs four: 地 (dì, "the ground"), 社, 場 (chǎng, "flat field"), 基.
-- **The spread recurs.** One member shows one role; the band structure — part of, type of, made of — recurs across the series and narrows the plausible roles in unfamiliar characters.
+木 is a picture in 本 — a tree plus a stroke at the root. As a meaning component it ranges: 根, 標, 樣 as parts of a tree; 機, 架 as things of wood. The spread recurs as part of / type of / made of, and that three-way cut narrows plausible roles in an unfamiliar character.
 
-## The Cross-Character Consistency Test
+Jobs stack. 工 in 功 is sound and part of the meaning. 土 in 社 and 基 blurs meaning and form. Role is settled per character; 土-in-基 stays a blur, not a test.
 
-- **One sibling falsifies.** Test every component reading or mnemonic against all known characters containing it; a single sibling that cannot absorb the story kills it.
-- **The burglar story fails on contact.** 偷 (tōu, "to steal") circulates as a person 亻 (rén, "person") climbing onto someone's rooftop by night, knife in hand. Four siblings built on 俞 (yú, "the shared phonetic") — 輸 (shū, "transport; lose"), 愈 (yù, "heal"), 愉 (yú, "delighted"), 喻 (yù, "explain; analogy") — absorb no roofs, nights, or knives. Really 俞 gives sound and 亻 gives meaning; the original "degenerate, insincere" extended through "secretly" into "steal."
-- **A false reading exports damage.** 亼 (a mouth speaking downward from above) unlocks the original senses of 合 (hé, "to answer"), 命 (mìng, "to give orders"), and 令 (lìng, "command") — three of the four common hosts it appears in (會 huì, "to meet," benefits less). Read 亼 as a roof and all three get harder: a bad mnemonic degrades its whole cluster.
-- **Ground mnemonics in the real analysis.** A story built on actual history reinforces the character and the system at once; learn the true structure first, then decorate it. Internet breakdowns earn default suspicion — they often carve characters into non-functional pieces.
+All-meaning characters are rare, late, and never the default. 歪 (不 over 正) and 尖 (小 over 大) show why: the parts' pictures do not draw "crooked" or "pointed." Only their senses carry those characters. 林, 森, 炎 exist. They do not make the pattern the majority type.
 
-## Transparency Triage
+The learning unit is the family table: each sibling with pronunciation, original meaning, and the component's role. The 力 series runs 勢 功 勞 辦 助 努. The 土 series runs 地 社 場 基. [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] is the original-sense trunk those tables hang from.
 
-Four forces obscure a character's structure: stylization, accrued component senses, pronunciation change, and shape corruption. Explanation effort should follow how many have acted.
+## One sibling falsifies
 
-- **Transparent characters encode themselves.** 想 (xiǎng, "to think, feel") stays legible without research: 相 (xiāng, also xiàng; originally "to observe") sounds nearly identical, and 心 (xīn, "heart") is the familiar marker of thoughts and feelings.
-- **Opaque characters demand research.** In 藍 (lán, "blue; originally the indigo-dye plant"), the vegetation component ⺾ plainly gives meaning, and the parallel 籃 (lán, "basket") with the bamboo component ⺮ does the same — leaving 監 (jiān) as the sound-giver, a conclusion modern Mandarin makes unbelievable.
-- **Old Chinese restores the broken cue.** 監 *kram, 籃 *k.ram, and 藍 *g.ram were nearly identical at creation, and k and g share a place of articulation (say them aloud, then p). The asterisk reads "reconstructed"; reconstructions explain a link and never enter review cards.
-- **Flag drift to keep trusting the phonetic system.** 且 (qiě) in 助, 也 (yě) in 地, and 土 in 社 are genuine sound components now inaudible in Mandarin; marking the drift keeps them read as sound.
+The action is a test. Try the mnemonic against every known host of the same part. A single sibling that cannot wear the story kills it. That is the **sibling-falsifies test**. The family is the unit, not the isolated character.
 
-## Related Pages
+## 偷, then triage
 
-- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] - hub for the cluster; orients the component roles and reading order
-- [[wiki/Language/Chinese/Form Components|Form Components]] - the concrete counterpart: components that contribute their literal picture
-- [[wiki/Language/Chinese/Sound Components|Sound Components]] - the other half of 形聲字; why drifted links still count as phonetic
-- [[wiki/Language/Chinese/Empty Components|Empty Components]] - the residual role when a part carries neither meaning nor sound
-- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] - the original-sense trunk whose abstract extensions meaning components carry into hosts
-- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] - decomposition into functional components only; the per-character role principle
-- [[wiki/Language/Chinese/The IME Method|The IME Method]] - the recall protocol that draws its meaning-side candidates from these components
-- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] - the memory rules behind why grounded mnemonics beat invented stories
+偷 as person plus rooftop plus night plus knife fails on contact with 輸, 愈, 愉, 喻. All four sit on 俞. None of them absorbs a roof, a night, or a knife. 俞 gives sound. 亻 gives meaning. The original sense "degenerate, insincere" extended through "secretly" into "steal." The story was a folk assembly of leftover strokes. [[wiki/Language/Chinese/Empty Components|Empty Components]] is the residual role those invented pieces were pretending to fill.
 
-## Sources
+A false reading exports damage. 亼 — a mouth speaking downward — unlocks 合, 命, 令. Read it as a roof and all three get harder.
 
-- Outlier Linguistics, *Chinese Character Masterclass* — commercial course; lesson PDFs kept locally outside this repository. https://www.outlier-linguistics.com/
+Ground the mnemonic in the real analysis; decorate after. Internet breakdowns earn default suspicion. [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] is why a grounded mnemonic beats an invented story: the story that cannot survive the siblings is noise.
+
+Four forces obscure structure: stylization, accrued component senses, pronunciation change, shape corruption. Effort follows how many have acted.
+
+Transparent: 想. 相 sounds nearly identical; 心 marks thoughts and feelings. No research needed.
+
+Opaque: 藍. ⺾ is meaning. 籃 runs parallel with ⺮, so 監 is the sound-giver — a pairing modern Mandarin makes unbelievable. Sound Components may walk the same pair as a reconstructed chain. This page uses it as opacity.
+
+Old Chinese restores the cue: 監 *kram, 籃 *k.ram, 藍 *g.ram. The asterisk marks a reconstruction. Reconstructions explain a link. They never enter review cards.
+
+Flag drift so a silent phonetic stays read as sound: 且 in 助, 也 in 地, 土 in 社. The mark keeps the role from flipping to a folk meaning.
+
+[[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] is the hub. [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] is the per-character role — where to stop cutting. [[wiki/Language/Chinese/The IME Method|The IME Method]] is the meaning-side candidate list when a form has to be rebuilt.
+
+The family is the unit. One sibling is enough to kill a story. Ground the analysis, then decorate. The transfer that opened the page — a concrete sense stretched into hosts that no longer name the original object — holds only across the hosts that can wear it.
 
 ## Open Questions
 
-- Which folk readings have already settled into the current vocabulary decks, and which sibling sets should be lined up to test them?
-- Where should semantic-series tables live in the vault — per-component pages or rows inside vocab notes — so the consistency test stays runnable as new characters arrive?
-- How far does the form/meaning boundary blur in practice when the semantic side of a 形聲字 concretely depicts the original sense, as with 土 in 基?
+- Folk readings already sitting in review decks: whether to rip them out or flag them and wait for the next miss.
+- Form/meaning blur on 土 in 基 stays case-by-case. No mechanical test is offered here.
+
+## Related
+
+- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] — hub; reading order
+- [[wiki/Language/Chinese/Form Components|Form Components]] — concrete counterpart: serves by depiction
+- [[wiki/Language/Chinese/Sound Components|Sound Components]] — the other half of 形聲字; 監/藍 as a sound chain
+- [[wiki/Language/Chinese/Empty Components|Empty Components]] — residual role; invented structure
+- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] — original-sense trunk
+- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] — per-character role; where to stop cutting
+- [[wiki/Language/Chinese/The IME Method|The IME Method]] — meaning-side candidates
+- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] — why grounded mnemonics beat invented stories
+
+## Sources
+
+- DeFrancis, J. (1984). *The Chinese Language: Fact and Fantasy*. University of Hawaii Press. Most characters are semantic-phonetic compounds, not all-meaning assemblies.
+- Zhang, J. (1999). Dictionary counts: about 85% of 9,641 Xinhua characters are phonetic compounds. The 形聲 majority, not a census of the exceptions.
+- Baxter, W. H., & Sagart, L. (2014). Old Chinese reconstructions. Public method; the reconstructions explain a link and do not belong on review cards. Site: sites.lsa.umich.edu/ocbaxtersagart.

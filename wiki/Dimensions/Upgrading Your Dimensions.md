@@ -1,10 +1,12 @@
 ---
-type: technique
-status: seed
+type: hub
+status: developing
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-08-14
 source-count: 1
-last-audited:
+last-audited: 2026-08-14
+written-by: grok
+model: grok
 tags:
   - learning
   - dimensions
@@ -13,71 +15,45 @@ tags:
 
 # Upgrading Your Dimensions
 
-The learning system improves when short-term foundations and long-term cognitive growth are upgraded deliberately instead of left to chance.
+A trainable part of how a person learns upgrades in two tempos, blockers first and deeper habits second. A dimension is one such part. The work is naming the part that is currently setting the ceiling, not adding methods.
 
-## Summary
+[[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] is the five-dimension map this page sequences. The two tempos are Foundation and Growth. They are speeds, not program stages.
 
-The practical idea is that learning growth has two tempos:
+## Two horizons, then the loop
 
-- Short-term, high-yield foundations that quickly remove common blockers.
-- Longer-term growth work that reshapes deeper cognitive habits.
+Foundation is the short, high-yield tempo. Its job is enough control over time, tasks, retrieval, mindset, and basic learning methods to function well. Common blockers come off quickly. Its risk is rushing: progress that looks like movement and has to be re-learned.
 
-The mistake is to chase advanced cognitive upgrades while the foundation is unstable, or to stay forever in quick fixes without training the deeper system.
+Growth is the longer tempo. Its job is deeper habits of processing, reflection, transfer, and self-directed improvement. Its risk is starting too early. Without a stable foundation the later work overloads the system, reads as confusing, and appears not to work.
 
-## Two Growth Horizons
+| Tempo | Job | Risk |
+|---|---|---|
+| Foundation | Enough control over time, tasks, retrieval, mindset, and basic methods to function | Rushing this creates fragile progress |
+| Growth | Deeper habits of processing, reflection, transfer, and self-directed improvement | Starting too early overloads the system |
 
-| Horizon | Job | Risk |
-| --- | --- | --- |
-| Foundation | Build enough control over time, tasks, retrieval, mindset, and basic learning methods to function well. | Rushing this creates fragile progress. |
-| Growth | Train deeper habits of processing, reflection, transfer, and self-directed improvement. | Starting too early can overload the system. |
+The fork that makes the table usable: once the limiting dimension is named, decide whether that bottleneck is foundational or growth-oriented. Then choose the smallest useful improvement target, run practice and reflection cycles, and stabilize the improvement before adding more complexity. One or two non-overlapping techniques at a time. Rushing produces errors that cannot be attributed to any one change.
 
-## Upgrade Logic
+[[wiki/Dimensions/Dimension Practice Tracks|Dimension Practice Tracks]] is the four-step practice sequence to run once a limiter is named. [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] chooses the next small upgrade and whether to stay or switch. [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] turns each attempt into a next change: what happened, how it felt and why, what rule that suggests, what changes next time. The map, the track, the small upgrade, and the reflection cycle are the whole apparatus. [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] names the five; [[wiki/Dimensions/Dimension Practice Tracks|Dimension Practice Tracks]] sequences the reps; [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] picks the increment; [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] reads the attempt.
 
-1. Identify the limiting dimension.
-2. Decide whether the bottleneck is foundational or growth-oriented.
-3. Choose the smallest useful improvement target.
-4. Run practice and reflection cycles.
-5. Stabilize the improvement before adding more complexity.
+The other pole, this page's own: staying forever in quick fixes leaves the deeper system untrained. The two-tempo rule cuts both ways.
 
-## Relationship To Other Pages
+## How it fails, how it should feel
 
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] defines the map.
-- [[wiki/Dimensions/Dimension Practice Tracks|Dimension Practice Tracks]] provides practice sequences.
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] chooses the next small upgrade.
-- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] converts attempts into learning.
+Chasing advanced methods too early produces many techniques and little consistency. The return is Foundation: self-management, retrieval, and basic [[wiki/Dimensions/Self-Regulation|Self-Regulation]], the real-time steering that a foundation return-target still has to hold.
 
-## Failure Modes
+Staying in quick wins too long produces stable but plateaued performance. The move then is growth-oriented difficulty. There is no clock for "too long." The feel is the same methods going easy while the ceiling has not moved.
 
-| Failure | Signal | Repair |
-| --- | --- | --- |
-| Chasing advanced methods too early | Many techniques, little consistency. | Return to foundation: self-management, retrieval, and basic self-regulation. |
-| Staying in quick wins too long | Stable but plateaued performance. | Add growth-oriented difficulty. |
-| Improving too many dimensions | Reflection becomes noisy and actions scatter. | Pick one primary dimension and one support dimension. |
-| Theory-heavy upgrading | Lots of reading, little practice. | Run a small experiment quickly. |
+Improving too many dimensions at once makes reflection noisy and actions scatter.
 
-## How It Should Feel
+**One primary dimension, one support dimension.**
 
-Upgrading Your Dimensions should feel like finding the current limiter in the learning system. The work should make one dimension more capable, not add a pile of disconnected techniques.
+That 1+1 cap is the operational rule. The work should make one dimension more capable, not add a pile of disconnected techniques.
 
-Good signs:
+Theory-heavy upgrading produces lots of reading and little practice. The repair is a small experiment, run quickly. [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] is the meta-check: a new method that does not change thinking is not an upgrade.
 
-- the limiting dimension is named;
-- the upgrade is small enough to practice;
-- the change affects future sessions, not just one artifact;
-- and the learner can explain what improved in the process.
+Upgrading should feel like finding the current limiter in the learning system. Good signs: the limiting dimension is named; the upgrade is small enough to practice; the change affects future sessions, not just one artifact; what improved in the process can be explained. The warning sign is named technique collecting: many new methods added, the same bottleneck still in place.
 
-Warning sign: dimension upgrading has become technique collecting when many new methods are added but the same bottleneck remains.
+If memory, scheduling, procrastination, or knowledge-quality problems still eat the week, the tempo is still Foundation. If those are quiet and the same methods feel easy, Growth is available. The upgrade that counts is the one that shows up in the next session, not in one artifact. Two tempos, one limiter, and a pile of methods with the same bottleneck is not an upgrade.
 
-## Related Pages
+## Sources
 
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
-- [[wiki/Dimensions/Dimension Practice Tracks|Dimension Practice Tracks]]
-- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
-
-## Open Questions
-
-- Which dimension is the user's highest-leverage upgrade right now?
-- What evidence would show that the foundation is stable enough for growth-phase work?
+This page is this system's own sequencing rule. No public trial of the two-tempo split exists, and no stranger-reachable source is cited. The private lesson behind it does not ship.

@@ -1,8 +1,11 @@
 ---
+title: "A Return to Code"
 type: concept
-status: seed
+status: developing
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-08-14
+written-by: grok
+model: grok
 source-count: 1
 tags:
   - llm
@@ -13,73 +16,48 @@ tags:
 
 # A Return to Code
 
-Vibe coding is a return to the original spirit of programming: making the computer do exactly the thing you want, faster and with less ceremony.
+A return to code is a cheap-custom-software loop that turns a clear ask into a one-afternoon program the market would never have funded. You describe the program, an agent builds and tests it, you correct it, and the keepable result can serve one person for one afternoon.
 
-## Core Synthesis
+## What got cheaper
 
-The source frames AI-assisted development as a return to code because it restores the playful, direct loop of intent to executable artifact. The programmer can now describe a desired app, watch an agent build it, test it, correct it, and keep iterating.
+Getting a traditional program to first-run used to cost a pile of ceremony: pick a framework, wire dependencies, build the interface, host it, then chase the errors. Agents flatten that pile. They walk a repository, run shell commands, read the failure, and keep editing — if the surrounding stack is [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]], surfaces an agent can read and act on without a human click-path.
 
-This especially changes the economics of small personal software. A niche workflow that would never justify a full product can become a "one-shot app": useful for one person, one task, or one afternoon. The personal app store becomes plausible because the cost of making custom software falls toward the cost of asking clearly.
+The loop that comes back is playful and direct. A wanted behavior becomes a file you can execute. That fast creative loop is [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] is the professional quality system wrapped around it, and the two should stay separate concepts.
 
-## What Changed
+What the person still owns is narrower and harder: name the behavior you actually want; hold taste and product judgment; catch the agent's wrong assumptions; decide when to stop; tell the difference between "good enough to keep" and "this needs real engineering." Wanting a clear thing is the scarce skill. Cheap implementation is not permission to keep adding.
 
-Traditional software production required significant activation energy: frameworks, setup, dependencies, UI work, hosting, and debugging. Coding agents compress that overhead. They can operate across a codebase, run commands, inspect errors, and keep editing.
+## Why code, and where it fails
 
-The human role shifts toward:
+Think of a personal app store the way you think of a folder of spreadsheets — a shelf, not a company. You stop waiting for a startup to ship the exact workflow and you keep a rough tool of your own. A one-shot app is that tool when it serves one person, one job, or one afternoon. Disposable still counts. It does not have to grow into a product or a codebase you maintain. Some programs are jigs: a script you throw away after the job, the way a spreadsheet is thrown away after the quarter.
 
-- Defining the desired behavior.
-- Providing taste and product judgment.
-- Catching wrong assumptions.
-- Choosing when to stop.
-- Knowing when generated code is good enough and when it needs engineering discipline.
+Code is the domain where a model cannot hide. Prose can sound finished while being wrong. A program either runs, fails a test, writes a log, or shows the user a broken screen.
 
-This is why [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] and [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] should remain separate concepts. Vibe coding is the fast creative loop. Agentic engineering is the professional quality system around that loop.
+**Execution is a verdict.** A one-shot you cannot run, cannot test, and cannot discard is not a return to code.
 
-## Useful Ideas
+Models are not interchangeable. Some plan well, some edit well, some are just fast. Matching the model to the job, and stuffing the window with enough of the right material, is [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]].
 
-The personal app store is a strong mental model. Instead of waiting for a startup to build the exact app you need, you can build a rough custom tool for your own workflow.
+Knowledge work has the same economics. This wiki can grow small tools as they earn their keep — a markdown search command, a check that the source index is sound, a health pass for orphans and missing backlinks, a listing of still-uncompiled intake, a generator for ingest prompts. Build one only when it cuts real maintenance. That is the stop decision, applied here.
 
-One-shot apps are valuable even when they are disposable. The output does not have to become a company or durable codebase. Some software is more like a spreadsheet, a script, or a temporary jig.
+The same cheapness that makes the loop worth running is what breaks it:
 
-Code remains special because it is verifiable. Unlike many domains where an LLM can sound right while being wrong, software gives immediate feedback through execution, tests, logs, and user interaction.
+- A jig dressed up as production software.
+- Scope that grows because the next feature feels free.
+- Taste that drowns in a stream of generated extras.
+- A wide edit accepted with no test and no review.
+- An agent trusted as if it could see the whole project, when the window still cannot.
 
-Model differences matter. Some models are better at planning, others at editing, others at speed. The operator's job includes matching the model to the task and giving enough context.
+A return to code is only a return when the thing runs and the operator can still stop. Cheap custom software that never executes, or that grows because growth is now easy, is just more untested text.
 
-## Failure Modes
+## Related
 
-- Treating disposable code as production code.
-- Letting the agent expand scope because implementation feels cheap.
-- Losing product taste in a stream of generated features.
-- Trusting a large codebase edit without tests or review.
-- Forgetting that context windows still limit what the agent truly sees.
-
-## Applications For This Vault
-
-The same pattern applies to knowledge work. This wiki can accumulate small custom tools as needed:
-
-- A markdown search CLI.
-- A source-index validator.
-- A backlink/orphan-page health check.
-- A script that lists uncompiled raw sources.
-- A prompt/template generator for ingest runs.
-
-These should be added only when they reduce real maintenance cost.
-
-## Related Concepts
-
-- [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]]
-- [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]
-- [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
+- [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] — the fast creative loop this page's economics sit under.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — the professional quality system around that loop; the two stay separate.
+- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]] — the broader frame: software as English plus models.
+- [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]] — what the surrounding stack has to look like for agents to run commands and edit files.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]] — giving the agent enough context to match model to task.
+- [[wiki/Concepts/LLM Tool Use|LLM Tool Use]] — operator craft for calling tools from a model.
 
 ## Sources
 
-- Naval Ravikant and Nivi, "A Return to Code" (2026-04-29). [[raw/sources/A Return to Code|Local source]]
-
-## Open Questions
-
-- Which personal workflows deserve a one-shot app instead of another note, template, or spreadsheet?
-- What is my threshold for promoting a vibe-coded tool into maintained software?
-- What tests or checks should every agent-built tool in this repo have?
+- Naval Ravikant and Nivi, [A Return to Code](https://nav.al/code), 2026-04-29.
+- The phrase "vibe coding" was popularised in 2025 (Andrej Karpathy).

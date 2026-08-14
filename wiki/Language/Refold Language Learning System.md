@@ -1,274 +1,170 @@
 ---
+title: "Refold Language Learning System"
 type: synthesis
-status: seed
-created: 2026-05-06
-updated: 2026-05-07
-source-count: 41
-last-audited: 2026-05-07
+status: developing
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 8
 tags:
   - language-learning
-  - refold
   - immersion
-  - acquisition
 ---
 
-# Refold Language Learning System
+# The three-mode immersion system
 
-Fluency grows when the language becomes increasingly comprehensible experience until words, sounds, grammar, and phrasing become instinctive.
+The three-mode immersion system is accumulated attentive experience with language a person can partly follow. Sounds, words, grammar, and phrasing become instinct from that experience. Study about the language does not replace time in it. The three moves sit in one breath: large amounts of attentive time, input made easier when a stretch is still a wall, and a small prime so the next session can meet something already seen.
 
-For this vault, Refold is the language-learning counterpart to the [[wiki/Syntheses/ICS System|ICS System]]. ICS explains how to learn deliberately; Refold gives the domain-specific operating system for language acquisition. The bridge between them is simple: use metacognitive control to choose better input, sustain attention, increase comprehension, notice patterns, and accumulate hours.
+## What the object asks for
 
-## Core Idea
+Beginners often collect vocabulary lists, memorize grammar, and translate from English. That sequence treats language as a generator to finish before listening. [[wiki/Language/Language Isn't Math|Language Isn't Math]] is the mindset that refuses the generator. Language learning is mainly an acquisition problem: implicit knowledge is what produces speech. Explicit work still earns a place, later on this page, as noticing — not as the engine.
 
-Language learning is mainly an acquisition problem.
+The feel of the object, once it has started to take: noise in the ear resolves into speech; marks on the page resolve into writing; high-frequency words arrive without a search; patterns are spotted inside live sentences; understanding stops being a decode and starts being direct. Those five are experience, not a rubric to score a week against.
 
-Beginners often try to learn a language by collecting vocabulary lists, memorizing grammar explanations, and translating from English into the target language. Refold points in a different direction: spend large amounts of attentive time with the language, make that input easier to understand, and use light preparation to prime the brain for what it will meet in immersion.
+The learner is not merely logging hours. The learner is managing attention, difficulty, friction, and feedback. That is what distinguishes this from "just immerse," and why it is compatible in one clause with [[wiki/Dimensions/Deep Processing|Deep Processing]] (noticing and comparing examples), [[wiki/Dimensions/Self-Regulation|Self-Regulation]] (diagnosing the current limiter), and [[wiki/Dimensions/Self-Management|Self-Management]] (daily minimums, friction, tracking).
 
-The goal is to build a feel for the language:
+Attention is the entry fee. Background audio may increase familiarity; it should not be counted as the session. Unattended speech is not worthless — implicit statistical learning is not zero — and it is the wrong unit of study. [[wiki/Language/Attention is Important|Attention is Important]] is the page that owns that fee.
 
-- sounds stop being noise;
-- writing stops being decoration;
-- common words become instantly recognizable;
-- grammar becomes something noticed in real sentences;
-- comprehension gradually shifts from effortful decoding to direct understanding.
+The early beginner problem is staying engaged with something barely understood. [[wiki/Language/Noticing Game|Noticing Game]] gives attention a concrete target so beginner input has something to do. The game is not rebuilt here.
 
-This makes Refold especially compatible with [[wiki/Dimensions/Deep Processing|Deep Processing]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], and [[wiki/Dimensions/Self-Management|Self-Management]]. The learner is not merely logging hours; the learner is managing attention, difficulty, friction, and feedback.
+Comprehension is adjustable. Subtitles, transcripts, pop-up dictionaries, prior viewing, slower playback, familiar topics, repeated content, and bilingual support can move the same material closer. [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]] is how to adjust input; the menu is not rebuilt here.
 
-## Key Takeaways
+[[wiki/Language/Preparation|Preparation]] is priming that makes the next session enterable. It supports immersion and does not replace it. Vocabulary, writing-system study, pronunciation, character awareness, and grammar primers are valuable because they make future input more transparent. A small prime that makes a passage enterable is not the enemy. List-first study is. The main event is meeting the language in use.
 
-**1. Attention is the entry fee.**  
-Immersion only works when the learner is mentally present. Background audio may increase familiarity, but it should not be counted as real study. Refold's early beginner problem is not "how do I understand everything?" but "how do I stay engaged with something I barely understand?" The [[wiki/Language/Noticing Game|Noticing Game]] answers that by giving attention a concrete target.
+## Grammar, output, the default climb
 
-**2. Comprehension is adjustable.**  
-Input is not simply too hard or easy. It can be modified. Subtitles, transcripts, pop-up dictionaries, prior viewing, slower playback, familiar topics, repeated content, and bilingual support can all move the same material closer to the learner's current level. This is the logic behind [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]].
+[[wiki/Language/Three Pillars of Language Learning|Three Pillars of Language Learning]] is the central three-mode model. Preparation primes. Interactive stretches with tools. Freeflow builds volume and instinct. Overusing any one creates a bottleneck. Balance is by whichever of those is starving — house doctrine, not a published standard, and not three separate problems. The taxonomy is not reopened here.
 
-**3. Preparation supports immersion; it does not replace it.**  
-Vocabulary decks, writing-system study, pronunciation work, character awareness, and grammar primers are valuable because they make future input more transparent. They are not the main event. The main event is meeting the language in use.
+Grammar is a comprehension tool, not a speaking formula. A pattern is primed, then noticed in real input. A [[wiki/Language/Refold Grammar Primers|grammar primer]] is a short orientation to patterns, used so those patterns can be noticed in input. The sibling owns the loop; this page does not rebuild it.
 
-**4. The three pillars must stay balanced.**  
-[[wiki/Language/Preparation|Preparation]] primes the learner. [[wiki/Language/Interactive Immersion|Interactive Immersion]] stretches comprehension with tools and active problem-solving. [[wiki/Language/Freeflow Immersion|Freeflow Immersion]] builds volume, ease, and instinct. Overusing any one pillar creates a bottleneck.
+Language practice should use [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|interleaving]]: varied speakers, topics, formats, comprehension supports, and small production attempts. The target is not isolated vocabulary fluency. It is reconstructing meaning across changing contexts.
 
-**5. Grammar is a comprehension tool, not a speaking formula.**  
-Grammar study should make input easier to parse. The move is not "memorize this rule and produce correct sentences." The move is "prime this pattern, then notice it in real input until it becomes familiar." This connects directly to [[wiki/Language/Language Isn't Math|Language Isn't Math]].
+Reading, listening, and output have a default order: make written and auditory language less alien, then build comprehension, then develop output from a large base. That climb is a default, not a unique path. A sound-heavy language may listen before it reads — Vietnamese, below, is the live case. Early speech is not banned. Comprehension is still the base it stands on. What comes out is only as good as the model input has built; a thin model produces lines that are still English in another costume. Sequencing matters for that reason, not because speech is banned.
 
-Language practice should also use [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|interleaving]]: varied speakers, topics, formats, comprehension supports, and small production attempts. The target is not isolated vocabulary fluency; it is reconstructing meaning across changing contexts.
+Systems beat motivation as a working rule, not as a finding. Daily minimums, habit tracking, time tracking, friction reduction, and realistic expectations survive low-energy weeks. Motivation research is mixed; the minimums are what the week can still run.
 
-**6. Reading, listening, and output are sequenced.**  
-Refold treats fluency as a staged climb: first make the written and auditory language less alien, then build reading and listening comprehension, then develop output from a large base of understanding. Speaking too early is not forbidden, but comprehension remains the foundation.
+The default sequence in domain terms, not as a syllabus: (1) fundamentals — sounds, script, first words, attention — whose goal is orientation, not mastery; (2) reading — vocabulary, grammar comprehension, script familiarity; (3) listening — native-speed understanding; (4) output — speaking and writing from a comprehension base. Text paired with audio is a preference whenever it is available, not a requirement. A dual-channel or subtitle player is the tool class.
 
-**7. Systems beat motivation.**  
-Refold repeatedly turns language learning into daily minimums, habit tracking, time tracking, friction reduction, and realistic expectations. This is where the method overlaps with [[wiki/Dimensions/Self-Management|Self-Management]] and [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]].
+## The control loop
 
-## Course Architecture
+The object at full magnification is metacognitive control: choose better input, sustain attention, increase comprehension, notice patterns, and accumulate hours. That control runs as seven steps, and it is not a linear checklist.
 
-The course material centers on the first two stages of Refold: fundamentals and reading-plus-listening.
+1. Pick content that can hold attention.
+2. Adjust until some meaning is reachable.
+3. Prepare — words, sounds, script, characters, grammar — only so the next session is more comprehensible or more likely to happen.
+4. Inspect closely (interactive).
+5. Accumulate relaxed attentive exposure (freeflow).
+6. Track time and minimums.
+7. Reflect on bottlenecks and change the mix.
 
-**Fundamentals** are about making the target language stop feeling like pure noise. The learner studies the writing system, learns the first useful words, trains attention, and starts spending small but consistent time with the language. The goal is not mastery. The goal is orientation.
+Attention gone: switch to something that holds, or something easier. A stretch that is still a wall: add one aid. A session eaten by lookups: simpler material, or the same clip again. A week of flashcards and no input: the mix has flipped, and time in the language has to come back.
 
-**Reading plus listening** is about building comprehension through text paired with audio whenever possible: subtitles, transcripts, graded content, videos, shows, and other dual-channel input. This stage expands vocabulary, strengthens grammar intuition, improves sound-to-word mapping, and prepares the learner for deeper listening.
+Preparation, under that test, is any deliberate priming that makes future input easier. The question that decides whether an hour counted: does this make the next session more comprehensible or more likely to happen? Bad preparation becomes avoidance.
 
-The broader path can be summarized as:
+[[wiki/Language/Interactive Immersion|Interactive Immersion]] is the inspect-with-tools pillar. [[wiki/Language/Freeflow Immersion|Freeflow Immersion]] is the volume-and-instinct pillar. Both are run from this loop, not as a waterfall of stages.
 
-1. **Fundamentals:** sounds, script, first words, attention.
-2. **Reading:** vocabulary, grammar comprehension, character/script familiarity.
-3. **Listening:** faster direct understanding of native-speed speech.
-4. **Output:** speaking and writing from a large comprehension base.
+## Running it tomorrow
 
-The sequencing matters because output quality depends on the internal model built through input. If the model is thin, output becomes translation-heavy and awkward.
+Interactive immersion is still real input, interrogated: pause, look up, check subtitles, compare lines, count known and unknown, confirm guesses, unlock meaning. Examples, routed not defined: Noticing Game; noticing with confirmation; intensive reading; sentence mining; intensive listening; transcription; [[wiki/Language/Immersion Metalayers|Immersion Metalayers]] for subtitle and transcript tooling.
 
-## The Operating Loop
+Freeflow is attentive exposure without constant tool use. It is not passive listening. Content must hold focus and yield at least the gist.
 
-The practical Refold loop is:
+A beginner who cannot yet follow much still has seven hunts: known words; cognates; proper names; repeated phrases; sounds that stand out; subtitles matching audio; a recently primed grammar point. The early emotional problem is helplessness. Noticing gives traction. Noticing is the language-learning version of [[wiki/Dimensions/Deep Processing/Aim|Aim]]: write what the material must answer before opening it.
 
-1. Pick target-language content that has some reason to hold attention.
-2. Adjust the content until some meaning is reachable.
-3. Use preparation to prime words, sounds, script, characters, and grammar.
-4. Use interactive immersion to inspect real input closely.
-5. Use freeflow immersion to accumulate relaxed, attentive exposure.
-6. Track time and minimums so the system survives normal life.
-7. Reflect on bottlenecks and change the activity mix.
+Adjust tools, techniques, or content. The practical question: what one change would make this input more understandable without removing the target-language experience? [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] is the smallest-adjustment home for that question. No percentage is attached; any number here would be a house feel-test, not a finding.
 
-This is not a linear checklist. It is a control loop. If attention collapses, choose more compelling or easier content. If content is too opaque, add comprehension aids. If lookups consume the whole session, simplify the material or reuse familiar content. If study becomes all Anki and no input, rebalance toward immersion.
+Tool classes, not products: an SRS; a popup dictionary or subtitle inspector; a dual-channel player. None of them is required under a brand name.
 
-## The Three Pillars
+For phonetic writing systems, early script competence opens subtitles, transcripts, dictionaries, and search. For Vietnamese, the Latin script is an advantage; tone marks, sound distinctions, spelling, and audio mapping still have to be trained. The early bottleneck is likely listening discrimination and tone-aware word recognition — the clause that scopes listening-first. The [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]] is the language-specific primer for the noticing half of that work.
 
-Refold's central model is [[wiki/Language/Three Pillars of Language Learning|Three Pillars of Language Learning]].
+For character languages, characters stop being visual noise once they are seen as recurring structures with components, meanings, sounds, and context-sensitive uses. [[wiki/Language/Character Primer|Character Primer]] is the orientation. The learner does not need to become an etymology specialist. Five recognitions are enough: characters as word-building units; context decides meaning and pronunciation; semantic components as meaning hints; phonetic components as sound hints; recognition as vocabulary priming plus repeated reading.
 
-### Preparation
+The grammar workflow, once: study one small pattern briefly; do not master it abstractly; look for it in immersion; let repeated examples train; return to explanations when input raises a question.
 
-Preparation is any deliberate priming that makes future input easier to acquire from. It includes vocabulary priming, phonetic writing-system study, character awareness, grammar priming, tool setup, and resource selection.
+The best role for an SRS: high-frequency items in the first weeks; forms primed ahead of a session; words already met in a video or a page, reviewed; character recognition supported; reviews kept short enough that they do not eat the immersion block. Deck statistics are not the score. The score is whether the same kind of content yields more gist this month than last.
 
-Good preparation reduces friction. Bad preparation becomes avoidance. A useful test is: does this make the next immersion session more comprehensible or more likely to happen?
+Useful tracking questions:
 
-Preparation connects to:
+- How much time actually ran today?
+- Was attention on?
+- Which of the three modes took the hour?
+- Which change made meaning easier to reach?
+- Where did the session snag?
+- Which clip or page made continuing feel cheap?
+- What is the smallest change for tomorrow?
 
-- [[wiki/Language/Refold Grammar Primers|Refold Grammar Primers]]
-- [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]]
-- [[wiki/Language/Character Primer|Character Primer]]
-- [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]]
-- [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]]
+Those questions map onto [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: after an attempt, what happened, how it felt and why, what rule that suggests, what changes next time.
 
-### Interactive Immersion
+Two worked cases, same standard. Vietnamese: audio, tones, phrases, a [[wiki/Language/YouTube Immersion Account|YouTube Immersion Account]] as the content pipeline, a lightweight primer. Mandarin: characters, audio-rich reading, script conversion, subtitle tooling, components. The standard in both is compelling content a little more comprehensible each week.
 
-Interactive immersion is close contact with real language using tools and deliberate attention. The learner pauses, looks things up, checks subtitles, compares lines, counts known and unknown pieces, confirms guesses, and tries to unlock meaning.
+## Routing, red team, honesty
 
-This is where acquisition becomes active without turning into school-style rule memorization. The learner is still in real input, but the input is being interrogated.
+[[wiki/Syntheses/ICS System|ICS System]] is the general learning OS: a five-part diagnosis of the learner plus a loop for fixing the current limiter. The acronym is not expanded here and names no provider. That page explains how to learn deliberately. This page is the domain-specific operating system for language.
 
-Examples include:
+The same plugs, one line each: Deep Processing (noticing); [[wiki/Dimensions/Retrieval|Retrieval]] (vocab, characters, audio-to-word); Self-Regulation (the current limiter); Self-Management (minimums); [[wiki/Dimensions/Mindset|Mindset]] (ambiguity and partial understanding).
 
-- [[wiki/Language/Noticing Game|Noticing Game]]
-- noticing with confirmation;
-- intensive reading;
-- sentence mining;
-- intensive listening;
-- transcription;
-- subtitle and transcript work through [[wiki/Language/Immersion Metalayers|Immersion Metalayers]].
+Five failure assumptions the week can be read against:
 
-### Freeflow Immersion
+- Every word has to land or the session failed.
+- A finished grammar is the gate to listening.
+- Unattended audio logs as study.
+- Harder is always the upgrade.
+- Speaking should start before a large input base exists.
 
-Freeflow immersion is attentive exposure without constant tool use. It trains the learner to rely on developing instinct rather than pausing at every gap. It is especially useful when reusing material already processed interactively, watching familiar content, or consuming easier material for volume.
-
-Freeflow is not passive listening. If attention disappears, the learning value drops sharply. The right freeflow content should be interesting enough to hold focus and comprehensible enough to follow at least the gist.
-
-## Attention and Noticing
-
-Attention is one of the highest-value ideas in Refold. The learner must have something to do with their mind while watching or listening. At the beginner stage, this can be as simple as looking for:
-
-- words already studied;
-- cognates;
-- proper names;
-- repeated phrases;
-- sounds that stand out;
-- subtitles matching audio;
-- a grammar point recently primed.
-
-The [[wiki/Language/Noticing Game|Noticing Game]] turns beginner immersion from "I understand nothing" into "I can hunt for recognizable signal." This matters because the early emotional problem is helplessness. Noticing gives the learner traction.
-
-For this vault, noticing is the language-learning version of [[wiki/Dimensions/Deep Processing/Aim|Aim]]. It tells the brain what to look for before the session begins.
-
-## Comprehension Hacking
-
-Refold treats comprehension as something the learner can engineer.
-
-The [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]] should be used whenever immersion is too difficult, too boring, or too lookup-heavy. The learner can adjust three broad categories:
-
-- **Tools:** pop-up dictionaries, subtitles, transcripts, audio controls, AI subtitles, subtitle conversion, dual-language display, dictionary apps, Anki, Migaku, Language Reactor.
-- **Techniques:** previewing, rewatching, slowing playback, pausing after lines, reading before listening, listening after reading, using familiar stories, checking summaries, focusing on one grammar point, hunting known words.
-- **Content:** graded material, beginner channels, children's content, familiar domains, rewatched videos, dubbed shows, target-language YouTube accounts, short clips, transcript-rich content.
-
-The practical question is: "What one change would make this input 10-20% more understandable without removing the target language experience?"
-
-## Writing Systems and Characters
-
-For phonetic writing systems, Refold emphasizes early script competence because reading opens access to subtitles, transcripts, dictionaries, search, and vocabulary tools. For Vietnamese, this means using the Latin script as an advantage while still training tone marks, sound distinctions, spelling conventions, and audio mapping.
-
-For character-based languages, the core move is to stop seeing characters as visual noise. Characters should be understood as recurring visual structures with components, meanings, sounds, and context-sensitive uses. The learner does not need to become a character etymology specialist, but should learn enough to recognize:
-
-- characters as word-building units;
-- context as the decider of meaning and pronunciation;
-- semantic components as meaning hints;
-- phonetic components as sound hints;
-- character recognition as a product of vocab priming plus repeated reading.
-
-For Mandarin, this means [[wiki/Language/Character Primer|Character Primer]] is high leverage. It should be paired with Traditional/Simplified conversion where needed, audio-rich reading, and repeated exposure to real words rather than isolated character trivia.
-
-## Grammar Priming
-
-Refold's grammar stance is restrained but not anti-grammar. Grammar study is useful when it helps the learner notice and comprehend patterns in input.
-
-The workflow is:
-
-1. Study one small grammar pattern briefly.
-2. Do not try to master it abstractly.
-3. Look for that pattern in immersion.
-4. Let repeated examples do the real training.
-5. Return to explanations only when input raises a real question.
-
-This is why [[wiki/Language/Refold Grammar Primers|Refold Grammar Primers]] and [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]] should remain concise. Their job is to create hooks for noticing, not to replace acquisition.
-
-## Vocabulary and Review
-
-Vocabulary priming is useful because known words make immersion more comprehensible. But vocabulary study should be judged by whether it improves contact with real input.
-
-The best role for Anki or another SRS is:
-
-- learn frequent words early;
-- prime forms before immersion;
-- reinforce words met repeatedly in content;
-- support character recognition;
-- keep reviews short enough that they do not crowd out immersion.
-
-This also means the learner should avoid treating Anki statistics as the main score. The main score is increasing comprehension in the wild.
-
-## Systems, Tracking, and Expectations
-
-Refold is practical about motivation. The system asks the learner to create minimum viable daily contact with the language, track time, reduce friction, and build routines.
-
-The useful tracking questions are:
-
-- Did I spend time with the language today?
-- Was it active enough to count?
-- Which pillar did I use?
-- What made comprehension easier?
-- What caused friction?
-- What content made me want to continue?
-- What is the smallest adjustment for tomorrow?
-
-This maps directly to [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: experience, observe, abstract, experiment. Every language session can produce a small system improvement.
-
-## Personal Translation
-
-For the user's current interests, Refold should become a two-track language system:
-
-**Vietnamese:** prioritize audio mapping, tones, natural phrase patterns, YouTube immersion, beginner-friendly comprehensible input, and a lightweight Vietnamese grammar primer. Vietnamese has an accessible script but a demanding sound system; the early bottleneck is likely listening discrimination and tone-aware word recognition.
-
-**Mandarin Chinese:** prioritize character recognition, audio-rich reading, Traditional/Simplified conversion, subtitle tooling, and component awareness. Mandarin has a more demanding writing system, so character priming and metalayers are higher leverage.
-
-For both languages, the main standard is the same: build a pipeline where compelling content becomes a little more comprehensible each week.
-
-## Relationship to the Learning System
-
-Refold is not separate from the rest of the vault. It plugs into the existing learning dimensions:
-
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]: noticing patterns, comparing examples, connecting grammar to actual usage.
-- [[wiki/Dimensions/Retrieval|Retrieval]]: vocabulary recall, character recognition, audio-to-word mapping, Anki reviews.
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: diagnosing whether the bottleneck is attention, comprehension, tooling, content, consistency, or expectations.
-- [[wiki/Dimensions/Self-Management|Self-Management]]: protecting daily minimums, content queues, device setup, habit tracking.
-- [[wiki/Dimensions/Mindset|Mindset]]: tolerating ambiguity, accepting partial understanding, trusting accumulation.
-
-The Red Team lens also applies. A language plan can fail from hidden assumptions: "I need to understand everything," "grammar mastery comes first," "background listening counts," "harder content is always better," or "I should output before I have enough input." Refold is a way to test and replace those assumptions.
-
-## High-Value Pages
-
-- [[wiki/Language/Attention is Important|Attention is Important]]
-- [[wiki/Language/Noticing Game|Noticing Game]]
-- [[wiki/Language/YouTube Immersion Account|YouTube Immersion Account]]
-- [[wiki/Language/Three Pillars of Language Learning|Three Pillars of Language Learning]]
-- [[wiki/Language/Preparation|Preparation]]
-- [[wiki/Language/Interactive Immersion|Interactive Immersion]]
-- [[wiki/Language/Freeflow Immersion|Freeflow Immersion]]
-- [[wiki/Language/Immersion Metalayers|Immersion Metalayers]]
-- [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]]
-- [[wiki/Language/Character Primer|Character Primer]]
-- [[wiki/Language/Refold Grammar Primers|Refold Grammar Primers]]
-- [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]]
-- [[wiki/Language/Language Isn't Math|Language Isn't Math]]
-- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
-
-## Resource Catalogs
-
-- [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]]
-- [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]]
+Content supply lives at [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]] and [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]].
+
+The three-mode partition is vault doctrine, not a published standard. The four-stage climb is a default, and listening-first is live. The method is expensive in attentive hours. A reader who wants a speaking course from week one will bounce. The price is daily attentive time plus a minimum that survives low-energy weeks. The quit signal: a week of all priming and no input; or all background audio logged as study; or output that is still translation after a large input base was never built. The checkable expectation: the same kind of content yields more gist this month than last, and at least one mode is not starving.
+
+The same object, after the loop has a name: the score of those hours is increasing comprehension in the wild, and the mix stays pointed at that score because it is a loop, not a checklist.
+
+## Related
+
+- [[wiki/Syntheses/ICS System|ICS System]] — five-part diagnosis plus a loop for the current limiter
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] — noticing and comparing examples
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — diagnosing the current limiter
+- [[wiki/Dimensions/Self-Management|Self-Management]] — daily minimums, friction, tracking
+- [[wiki/Language/Noticing Game|Noticing Game]] — beginner attention target
+- [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]] — how to adjust input
+- [[wiki/Language/Preparation|Preparation]] — priming that makes the next session enterable
+- [[wiki/Language/Interactive Immersion|Interactive Immersion]] — inspect-with-tools pillar
+- [[wiki/Language/Freeflow Immersion|Freeflow Immersion]] — volume-and-instinct pillar
+- [[wiki/Language/Language Isn't Math|Language Isn't Math]] — grammar is not a generator
+- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|interleaving]] — varied speakers, topics, formats
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] — smallest adjustment
+- [[wiki/Language/Three Pillars of Language Learning|Three Pillars of Language Learning]] — the central three-mode model
+- [[wiki/Language/Refold Grammar Primers|grammar primer]] — short orientation used to notice patterns in input
+- [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]] — language-specific primer
+- [[wiki/Language/Character Primer|Character Primer]] — orientation to characters
+- [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]] — VN content supply
+- [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]] — ZH content supply
+- [[wiki/Language/Immersion Metalayers|Immersion Metalayers]] — subtitle and transcript tooling
+- [[wiki/Dimensions/Deep Processing/Aim|Aim]] — write what the material must answer before opening it
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] — after-session loop
+- [[wiki/Dimensions/Retrieval|Retrieval]] — vocab, characters, audio-to-word
+- [[wiki/Dimensions/Mindset|Mindset]] — ambiguity and partial understanding
+- [[wiki/Language/Attention is Important|Attention is Important]] — attention as entry fee
+- [[wiki/Language/YouTube Immersion Account|YouTube Immersion Account]] — content pipeline
 
 ## Open Questions
 
-- What should count as an "active enough" Vietnamese immersion session?
-- Which Vietnamese YouTube channels are compelling enough to sustain daily attention?
-- What is the best beginner Mandarin workflow for Traditional/Simplified conversion without adding too much friction?
-- Should Vietnamese and Mandarin use the same daily template, or should Mandarin get a heavier character-prep block?
-- Which pillar is currently undertrained: preparation, interactive immersion, or freeflow?
-- What is the minimum daily system that still compounds during low-energy weeks?
+Which pillar is undertrained this week?
+
+What is the minimum system that survives a low-energy week?
 
 ## Sources
 
-Refold language-learning materials, synthesized in original language.
+Krashen, S. D. (1982). *Principles and Practice in Second Language Acquisition*. Comprehensible-input neighbourhood: fluency from experience that can already be partly followed.
+
+Tomasello, M. (2003). *Constructing a Language*. Usage-based account of the same accumulation.
+
+Schmidt, R. (1990). "The Role of Consciousness in Second Language Learning." *Applied Linguistics* 11(2). Intake requires attention.
+
+Ellis, R. (2005). "Measuring implicit and explicit knowledge of a second language." *Studies in Second Language Acquisition* 27. Explicit knowledge as noticing and monitoring.
+
+VanPatten, B. Processing instruction. Form–meaning mapping in input; production of the target form is not required.
+
+Pawley, A., & Syder, F. H. (1983). "Two puzzles for linguistic theory: nativelike selection and nativelike fluency." Thin input models produce translation-heavy output.
+
+Nation, I. S. P. Coverage and high-frequency vocabulary as the bound on "adjust until some meaning is reachable."
+
+Rohrer, D., & Taylor, K. Interleaving and desirable difficulties: varied speakers, topics, and formats.

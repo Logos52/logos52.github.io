@@ -1,10 +1,13 @@
 ---
+title: "Front-End Web Design"
 type: synthesis
 status: developing
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-08-14
 source-count: 1
-description: "The Design of Everyday Things mapped onto web UI: a screen owns no physical affordances, so the front-end supplies every signifier and the rendered surface is the whole system image — worked through the tsumugu reader (Silk-Seam) and dictionary (Paper & Ink)."
+description: "A web page has no physical hardware, so every cue is placed on purpose, and the rendered surface is the whole system image."
+written-by: grok
+model: grok
 tags:
   - design
   - front-end
@@ -17,105 +20,113 @@ tags:
 
 # Front-End Web Design
 
-A screen owns no physical affordances, so a front-end developer must deliberately supply every perceptible cue, and the rendered DOM is the entire system image — the only channel through which the design speaks. [[wiki/Concepts/Design of Everyday Things|Norman's principles]] predate the web and govern it exactly: every interface is a field of affordances, signifiers, mappings, and feedback, and the difference between a surface that explains itself and one that traps the user is whether those cues were supplied on purpose. The [[projects/tsumugu-ed|tsumugu]] reader and dictionary run as the worked examples throughout, surfaces where the cost of each choice is already paid in a concrete decision.
+A web page has no physical hardware, so every perceptible cue has to be placed on purpose. The rendered page is the whole **system image**, the only channel the design gets to speak through. Whether the surface explains itself or traps the person using it is whether those cues were supplied.
 
-## Signifiers are the front-end's main job
+[[wiki/Concepts/Design of Everyday Things|Norman's principles]] predate the web and still govern it, once the old overload is held carefully. Screens have *perceived* affordances — a beveled control looks pressable — and they lack physical hardware. Every interface is a field of affordances, signifiers, mappings, and feedback. Constraints arrive later. The worked examples throughout are the [[projects/tsumugu-ed|tsumugu]] reader (Silk-Seam) and dictionary (Paper & Ink).
 
-Everything on a screen is technically clickable, which means a thing looks interactive only if it is *styled* to. The signifier is carried entirely by appearance and behavior: shape, elevation, an underline, the cursor change, the hover and focus and active states. A button has to look pressable; a link has to look like a link; an inert label has to look inert. The flat-design trap is the digital version of the prize-winning post-office door with no visible hardware — strip the cues for the sake of a clean look and you ship an invisible affordance. The reliable test: any control that needs a tooltip to be understood is the hand-lettered "PUSH" sign taped to a badly designed door, and the fix is the signifier, not the tooltip.
+## Signifiers, then feedback
 
-In tsumugu's reader, word-learning status lives in a reserved underline channel (clay-new solid, amber-learning dotted, a scarce violet wash for lesson targets, plain for known) rather than recoloring the reading glyph, so the reading face stays calm while the signal stays legible; a legend maps each mark — knowledge in the world for a vocabulary the reader has not yet internalized (`mockups/site/reader.html`). Violet is held as a single reserved accent — brand, the cognate bridge, and the known-confirm — so color never overloads into meaning two things at once.
+Appearance, not physics, carries the cue. Not every pixel has a handler, but anything that *looks* inert can still be wired, so a thing looks interactive only if it is styled to. The signifier lives in shape, elevation, an underline, the cursor change, and the hover, focus, and active states.
 
-## Feedback and visible system status
+**A button has to look pressable. A link has to look like a link. An inert label has to look inert.** In a dense UI, not every link needs color; primary navigation still does. The flat-design trap is the digital version of the prize-winning post-office door with no visible hardware.
 
-Acknowledge every action within about 100 ms, the threshold below which a response feels instant; optimistic UI, spinners, skeletons, and progress bars all exist to close [[wiki/Concepts/Design of Everyday Things|the Gulf of Evaluation]]. Long operations get progress and an honest ETA. When acknowledgment lags, guard against the user jabbing the control again — debounce, disable on submit, make the operation idempotent — because the jabbed elevator button is a web double-submit. Notifications get prioritized so the one alert that matters is not muted along with the noise, which is the alarm-cacophony failure ported to a notification center.
+**A control that needs a tooltip to be understood is the hand-lettered PUSH sign taped to a badly designed door.** The fix is the signifier, not the tooltip. Signs do not correct a missing cue.
 
-tsumugu's dictionary search renders instantly from client-side shards and logs to the console whenever a query crosses 150 ms, treating its own latency as a measured defect; it shows honest empty and unavailable states ("no match yet — coverage grows level by level") instead of a blank panel, and a tapped word opens its gloss popover immediately so the action is confirmed (`exports/site/assets/search.js`).
+**tsumugu** is the language-learning project: a reader and a dictionary. **Silk-Seam** is the reader's visual system. Word-learning status lives in a reserved underline channel rather than recoloring the reading glyph:
 
-## Trace a broken flow through the seven stages
+```text
+clay-new, solid
+amber-learning, dotted
+lesson target, a scarce violet wash
+known, plain
+```
 
-Any stuck flow can be run against [[wiki/Concepts/Design of Everyday Things|the seven stages of action]] to find the stage that breaks. A user who cannot find how to start is stuck in execution: close that gulf with discoverable actions, a clear primary call-to-action, signified controls, and sensible defaults (feedforward). A user who acted but cannot tell what happened is stuck in evaluation: close that gulf with visible status, confirmation, and results. Pair the two on every interaction — a control that signifies how to use it and then reports what it did.
+A legend maps each mark — knowledge in the world for a vocabulary the reader has not yet internalized. Violet is held as a single reserved accent: brand, the **cognate bridge** (the shared morpheme on the Vietnamese rail), and the known-confirm. Color never overloads into meaning two things at once. The reading face stays calm while the signal stays legible.
 
-tsumugu's reader externalizes due/known/coverage state into a right rail and a Continue strip (where you left off, percent known, minutes left, a Resume button), so the prose column stays uncluttered while the system's state stays visible (`mockups/site/library.html`).
+Every action is acknowledged within about **100 ms**, the threshold below which a response feels instant. Optimistic UI, spinners, skeletons, and progress bars exist to close the [[wiki/Concepts/Design of Everyday Things|Gulf of Evaluation]] — the gap between doing something and knowing what happened. Long operations get progress and an honest ETA. When acknowledgment lags, the control is guarded against a second jab: debounce, disable-on-submit, idempotent operations. The jabbed elevator button is a web double-submit. Notifications are prioritized so the one alert that matters is not muted along with the noise — the alarm-cacophony failure.
 
-## Recognition over recall
+Dictionary search on [[projects/tsumugu-ed|tsumugu-ed]] renders from client-side shards and logs to the console whenever a query crosses **150 ms**. That logger is a stricter project budget, not a second HCI figure. The empty state is honest copy — "no match yet — coverage grows level by level" — not a blank panel. A tapped word opens its gloss popover immediately, so the action is confirmed.
 
-Working memory holds three to five items and is erased by a single interruption, so the interface should show the options instead of demanding the user remember them: visible menus, autocomplete, recent and saved lists, breadcrumb context. Never let entered data — a confirmation code, a half-typed form, a search query — vanish at the moment it is needed; persist it across navigation and across a failed submit. Chunk long values and split long forms so no single step exceeds the limit. This is [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|the working-memory constraint]] turned into a layout rule.
+## Stages, memory, constraints
 
-tsumugu's library makes readiness legible *before* the reader opens anything — each card carries a coverage-percent meter, an in-range/stretch tag, estimated minutes, and a new-word count — and the lesson-viewer heat-map colors each character by how many of three articles use it, externalizing exposure count so nobody has to track it in their head.
+Any stuck flow can be run against [[wiki/Concepts/Design of Everyday Things|the seven stages of action]] to find the stage that breaks: goal, plan, specify, perform, perceive, interpret, compare. Cannot find how to start is stuck in execution — the **Gulf of Execution**, the gap between intending and doing. Close it with discoverable actions, a clear primary action, signified controls, and sensible defaults (feedforward). Acted but cannot tell what happened is stuck in evaluation. Close that gulf with visible status, confirmation, and results. Pair the two on every interaction: a control that signifies how to use it, then reports what it did.
 
-## Constraints and forcing functions
+The reader externalizes due, known, and coverage into a right rail and a Continue strip: where the last session left off, percent known, minutes left, a Resume button.
 
-Narrow the action space so the wrong move is hard or impossible: disable or hide invalid options, mask inputs to the legal shape, and order a wizard so only the next valid step is reachable. Gate submit on validity; prompt on unsaved changes; and for destructive actions use a real forcing function — a confirm, or type-to-confirm for the destructive one. Keep the friction *local* to the single risky step, because a forcing function annoying enough to be worked around gets worked around and then it is worse than useless.
+Working memory holds three to five items and is erased by a single interruption. That number lives with the mapping, not as a claim [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|the working-memory constraint]] page itself states. The interface shows the options instead of demanding they be remembered: visible menus, autocomplete, recent and saved lists, breadcrumb context. Entered data does not vanish at the moment it is needed; it persists across navigation and across a failed submit. Long values are chunked and long forms are split so no single step exceeds the limit.
 
-tsumugu uses a quiet forcing function in its palette switcher: selecting a dark-native palette auto-flips the theme to dark and a paper palette flips it back, so a paper-on-dark combination that would render illegibly can never be produced (`mockups/site/_shell.html`).
+Each library card carries a coverage-percent meter, an in-range or stretch tag, estimated minutes, and a new-word count. The lesson-viewer heat-map colors each character by how many of **three** articles use it, externalizing exposure count.
 
-## Design for error, and keep the surface calm
+The action space is narrowed: invalid options are disabled or hidden, inputs are masked to the legal shape, a wizard exposes only the next valid step. Submit is gated on validity. Unsaved changes get a prompt. Destructive actions take a real **forcing function** — a confirm, or type-to-confirm — and the friction stays local to that one risky step. A forcing function annoying enough to be worked around gets worked around, and then it is worse than useless.
 
-Assume error and make it cheap. Prefer undo and soft-delete over a confirm dialog the user learns to dismiss reflexively — undo is the strongest tool Norman names. Sensibility-check input that is orders of magnitude off rather than meekly accepting it, and treat what the user types as an approximation to help toward the intended result. Differentiate destructive controls in label, color, shape, and position; never ship a row of identical critical buttons, which manufactures description-similarity slips. When data is missing, surface the missing data instead of a silent fallback that hides the state.
+The palette switcher is one such function. Selecting a dark-native palette auto-flips the theme to dark; a paper palette flips it back. A paper-on-dark combination that would render illegibly can never be produced.
 
-tsumugu shows a missing Vietnamese gloss on a character entry as an explicit `.vi-leak` marker rather than silently substituting English, making the gap visible to the maintainer who has to fill it (`exports/site/assets/site.css`).
+## The system image at full magnification
 
-## The conceptual model and audience rails
+Every interaction pairs a signifier with a report. The rendered DOM is the only channel. Signifier discipline costs visual restraint: every cue cannot be stripped for a minimalist look. [[wiki/Design/Design, Condensed|Design, Condensed]] holds the same doctrine one rule per line. [[wiki/Concepts/The Screen Inferiority Effect|The Screen Inferiority Effect]] is why a reading surface earns extra care.
 
-UI, microcopy, empty states, and onboarding are the only channel to the user's mental model, so they carry the whole burden of communication; when a "cloud" or "synced" model silently breaks, surface the offline, syncing, and error states or the model becomes the false two-dial refrigerator. A two-layer token architecture — raw palette variables that a semantic layer points at, both driven by one attribute on the root element — gives the whole UI a single canonical state source, so chrome cannot drift between surfaces. tsumugu-core builds exactly this: raw palette vars swap per `[data-palette]` and `[data-theme]`, semantic `--tsg-*` names reference them, and every page is assembled from one shared shell so the chrome is byte-identical everywhere (`mockups/site/_shell.html`).
+## Error, model, disclosure, convention
 
-tsumugu treats audience as an axis of the same surface rather than a separate site: an EN英 ⇄ VI越 rail swaps one stream's gloss and recolors the ruby, and on the Vietnamese rail it surfaces the cognate bridge — the shared morpheme of a word the learner already says — while the English rail swaps in a phonetic-series note. The conceptual model adapts to who is reading, and the new word is anchored to morphemes the learner already owns.
+Assume error and make it cheap. Undo and soft-delete beat a confirm dialog the person learns to dismiss reflexively. Undo is the strongest tool the mapping names. Input that is orders of magnitude off is sensibility-checked rather than meekly accepted; what gets typed is treated as an approximation. Destructive controls are differentiated in label, color, shape, and position. A row of identical critical buttons manufactures description-similarity slips.
 
-## Progressive disclosure and cognitive load
+When data is missing, the missing data is surfaced instead of a silent fallback that hides the state. A missing Vietnamese gloss on a character entry shows as an explicit `.vi-leak` marker rather than silently substituting English. Word entries still fall back to English without a mark. Two failure behaviors across types — the honesty tension, not a later confession.
 
-Depth hidden behind a clear trigger keeps the default surface calm while the detail stays one interaction away. Reveal mechanism and memory aid side by side rather than dumping everything at once; prefer the native `<details>` element where you can, since it carries no JavaScript state to get stuck in. Cognitive-load management is the strongest through-line in both tsumugu projects: the sound-component "drift" line collapses a phonology micro-lesson into one plain sentence with a `<details>` expansion into the named sound-family and a say-it cue; the `設⚙` gear hides four toggle axes behind one control; the FORM and STORY cards split a character's mechanism from its mnemonic; and glossed words show nothing on hover, revealing the popup only while Shift is held, so the reader gets a retrieval rep before the answer appears while the content itself always renders complete (`DECISIONS.md`, `exports/drift-redesign-mockup.html`).
+UI, microcopy, empty states, and onboarding are the only channel to the user's mental model. When a "cloud" or "synced" model silently breaks, the offline, syncing, and error states have to appear, or the model becomes the false two-dial refrigerator.
 
-## Standardization and resisting featuritis
+**tsumugu-core** is the shared shell and token layer both surfaces assemble from. A two-layer token architecture — raw palette variables that a semantic layer points at, both driven by one attribute on the root — gives the whole UI a single canonical state source. Raw palette vars swap per `[data-palette]` and `[data-theme]`. Semantic `--tsg-*` names reference them. Every page assembles from one shared shell. The EN英 ⇄ VI越 rail swaps one stream's gloss and recolors the ruby. On the Vietnamese rail it surfaces the cognate bridge; the English rail swaps in a phonetic-series note.
 
-When no better solution exists, adopt the convention people already learned — cart top-right, a gear for settings, underlined links, the platform's date and number formats — because a per-screen reinvented pattern is the arbitrary-stove-knob failure in software. Features only accrete, so budget for deprecation, audit usage, and remove dead UI before it becomes the 29-piece Lego set; resist matching a competitor feature-for-feature, which converges every product toward sameness. On a redesign, preserve the familiar patterns and shortcuts and give a migration path, because legacy habit beats a technically superior layout that demands relearning, the way QWERTY beats Dvorak. tsumugu enforces this against itself: FORM leads every dictionary entry sitewide with no per-entry override, and only first-language translations are gated — a deliberate constraint against per-entry drift.
+Depth hidden behind a clear trigger keeps the default surface calm while the detail stays one interaction away. Mechanism and memory aid sit side by side rather than dumping everything at once — FORM and STORY. Native `<details>` carries no JavaScript state to get stuck in. Cognitive-load management is the strongest through-line in both projects.
 
-## Accessibility is inclusive design
+Four worked disclosures. The sound-component "drift" line expands inside `<details>`. The `設⚙` gear hides four toggle axes. FORM and STORY cards split mechanism from mnemonic. Glossed words show nothing on hover and reveal the popup only while Shift is held.
 
-What gets built for a special need helps everyone: large high-contrast type, full keyboard paths, semantic markup, captions, and visible focus states are good design for every user under load, in sunlight, or in a hurry. Make the accessible path the mainstream experience rather than a stigmatizing bolt-on mode, and provide flexibility — adjustable font size, density, theme, and reading direction — because there is no average user. tsumugu's toggle layer (gloss, reading, script, theme, writing direction) is this flexibility made concrete, each axis a single persisted attribute with pre-baked sibling spans shown by CSS alone, working offline with no re-render.
+**Shift-peek**, or guess-first, is that last one: hover shows nothing; holding Shift — or tapping, on touch — reveals the gloss, so the reader tries to retrieve the word first. The reader gets a retrieval rep before the answer appears, while the content itself always renders complete. That is desirable difficulty applied. [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]] is the pedagogy half of the same choice.
 
-## The case against — where this tensions tsumugu
+When no better solution exists, the convention people already learned is adopted: cart top-right, a gear for settings, underlined links, the platform's date and number formats. A per-screen reinvented pattern is the arbitrary-stove-knob failure in software. Features only accrete, so deprecation is budgeted, usage is audited, and dead UI is removed before it becomes the 29-piece Lego set. Matching a competitor feature-for-feature converges every product toward sameness. On a redesign, familiar patterns and shortcuts are preserved and a migration path is given, because legacy habit beats a technically superior layout that demands relearning — the way QWERTY beats Dvorak on preference, not as a speed benchmark.
 
-The principles are not free, and tsumugu's own choices show where they pull against each other:
+FORM leads every dictionary entry sitewide, with no per-entry override. Only first-language translations are gated.
 
-- **Guess-first hides a signifier on purpose.** Hover shows nothing; Shift-peek reveals. This is defensible as Norman's "deliberately difficult" design in service of a retrieval rep, but to a user who never discovers the Shift gesture it reads as a Norman door, and there is no keyboard-tab or visible-cue equivalent — touch only gets tap. The principle (discoverability) and the pedagogy (desirable difficulty) conflict here, and the resolution is to add a discoverable affordance for the peek without removing the guess-first default.
-- **Emoji as the only label is a missing signifier.** `🔊` `☀` `☾` carry no text for a screen reader or a low-vision user; every emoji control needs a paired text label or `aria-label`.
-- **Two design systems is a standardization cost.** Silk-Seam in the reader and Paper & Ink in the dictionary mean a user crossing reader↔dictionary meets two chromes (reserved-violet vs seal-vermillion, Newsreader vs Songti). Intentional per-project, and a real cross-surface consistency tax by Norman's learn-once principle.
-- **Honesty behaves differently across entry types.** Character entries surface a missing Vietnamese gloss; word entries silently fall back to English. The per-type choice is intentional, but a user crossing types meets two failure behaviors, so the rule belongs in the documented conceptual model.
+What gets built for a special need helps everyone: large high-contrast type, full keyboard paths, semantic markup, captions, and visible focus states. The accessible path is the mainstream experience, not a stigmatizing bolt-on mode. Flexibility — adjustable font size, density, theme, and reading direction — exists because there is no average user. The toggle layer makes that concrete: gloss, reading, script, theme, writing direction, each a single persisted attribute with pre-baked sibling spans shown by CSS alone, working offline with no re-render.
 
-## Price the method
+## What the cues cost
 
-Signifier discipline costs visual restraint — you cannot strip every cue for a minimalist look. Human-centered testing costs the time of watching real users between iterations. Progressive disclosure costs the user finding the trigger, and a hidden affordance only pays when the surface it calms is worth more than the discovery it risks. Forcing functions cost friction at the protected step, which has to stay tolerable. A token architecture costs the up-front design of two layers before the first screen ships.
+Guess-first conceals a cue on purpose: hover is blank, Shift-peek is the reveal. The defense is difficulty in service of a retrieval rep. Anyone who never finds the Shift key meets a door with no hardware, and the keyboard never offers a tab-stop or a visible hint — touch gets a tap and nothing else. The repair is a peek that can be found without dropping the guess-first default. That repair is not on the surface yet.
 
-## Quit signals
+A lone pictogram as the name of a control — `🔊` `☀` `☾` — is a missing cue. Each of those needs words beside it, or an `aria-label`.
 
-Stop adding usability machinery when it stops changing behavior. If two rounds of testing a flow change nothing a user does, the problem is elsewhere — look at the conceptual model or the offering, not the controls. If a guess-first or progressive-disclosure pattern depresses task completion, the difficulty stopped being desirable; add the signifier back. If a forcing function is being routed around, it is too heavy — lighten it or move it.
+Keeping Silk-Seam and Paper & Ink as separate systems is a learn-once tax: reserved-violet against seal-vermillion, Newsreader against Songti. The split is intentional per project, and it is still a tax.
 
-## Checkable expectations
+Character entries mark a missing Vietnamese gloss. Word entries swap in English with no mark. The two types do not tell the same honesty story.
 
-A finished surface should pass these, each verifiable without asking what was meant:
+Putting every cue on the surface costs the right to look spare. Watching people between iterations costs calendar time. Hiding depth behind a trigger costs the moment of finding it; the hide is worth doing only when the calmer default outweighs that search. A forcing function spends friction at the protected step, and that friction has to remain bearable. Two token layers have to be designed before the first screen ships.
 
-- Every action is reachable and operable by keyboard alone, with a visible focus state.
-- No primary action depends on a tooltip to be discovered.
-- Every action returns perceptible feedback within ~100 ms.
-- Every destructive action is reversible (undo) or guarded by a forcing function, and is visually distinct from its neighbors.
-- Entered data survives navigation and a failed submit.
-- Each interactive element looks interactive; each inert element looks inert.
+Usability machinery that no longer changes what anyone does can stop. After two test rounds, a flow that still produces the same actions is not a control problem — look at the model the surface induces, or at the offering itself. A guess-first or hidden-depth pattern that drops task completion has left desirable difficulty; put the cue back. A forcing function people walk around is overweight: reduce it, or relocate it.
 
-## Related Pages
+| Check | Passes when |
+|---|---|
+| Keyboard | Every action is reachable and operable by keyboard alone, with a visible focus state. |
+| Tooltip | No primary action depends on a tooltip to be discovered. |
+| Feedback | Every action returns perceptible feedback within about 100 ms. |
+| Destructive | Every destructive action is reversible (undo) or guarded by a forcing function, and is visually distinct from its neighbors. |
+| Persistence | Entered data survives navigation and a failed submit. |
+| Appearance | Each interactive element looks interactive; each inert element looks inert. |
 
-- [[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]] — the principles applied here.
-- [[wiki/Design/Design, Condensed|Design, Condensed]] — the same doctrine compressed to one rule per line.
-- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — the working-memory limits behind recognition-over-recall.
-- [[wiki/Concepts/The Screen Inferiority Effect|The Screen Inferiority Effect]] — why a reading surface earns extra design care.
+The cues were supplied on purpose. The four tensions — a hidden peek, an unlabeled emoji, two design systems, two honesty behaviors — are what that costs.
+
+## Related
+
+- [[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]] — the principles being mapped; applied here, not re-taught.
 - [[projects/tsumugu-ed|tsumugu-ed]] — the dictionary surface in the worked examples.
-
-## Sources
-
-- Don Norman, *The Design of Everyday Things*, revised and expanded edition (Basic Books, 2013).
-- tsumugu-core front-end: `mockups/site/_shell.html`, `reader.html`, `library.html`, `lesson-viewer.html` (Silk-Seam reader and Reading Wall).
-- tsumugu-ed front-end: `exports/site/assets/site.css`, `site.js`, `search.js`, `c/投.html`, `DECISIONS.md`, `drift-redesign-mockup.html` (Paper & Ink dictionary).
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — the related working-memory concept; that page does not itself state the 3–5 number.
+- [[wiki/Design/Design, Condensed|Design, Condensed]] — the same doctrine, one rule per line.
+- [[wiki/Concepts/The Screen Inferiority Effect|The Screen Inferiority Effect]] — why a reading surface earns extra design care.
+- [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]] — the pedagogy half of guess-first.
 
 ## Open Questions
 
-- Whether the guess-first peek can gain a discoverable, keyboard-reachable affordance without losing the retrieval-rep default.
-- Whether a shared token vocabulary could reconcile Silk-Seam and Paper & Ink across reader and dictionary without flattening the two product identities.
+Whether guess-first can gain a keyboard-reachable affordance without losing the retrieval-rep default.
+
+Whether a shared token vocabulary could reconcile Silk-Seam and Paper & Ink without flattening the two identities.
+
+## Sources
+
+Norman, *The Design of Everyday Things*, revised and expanded (Basic Books, 2013). Card, Moran & Newell, *The Psychology of Human-Computer Interaction* (1983). Cowan, "The magical number 4 in short-term memory," *Behavioral and Brain Sciences* 24(1), 2001. WCAG 2.2 Success Criteria 2.1.1 Keyboard, 2.4.7 Focus Visible, 4.1.2 Name, Role, Value, 1.1.1 Non-text Content. Bjork, desirable difficulties; Brown, Roediger & McDaniel, *Make It Stick* (2014), as the pedagogy named on the guess-first tension, not as a second design extract.

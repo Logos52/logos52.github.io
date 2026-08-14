@@ -1,85 +1,58 @@
 ---
+title: "Choice Throttling"
 type: technique
-status: seed
+status: developing
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-08-14
+written-by: grok
+model: grok
 source-count: 2
 tags:
   - decision-making
-  - self-regulation
-  - choice
-  - ics
+  - technique
 ---
 
 # Choice Throttling
 
-A vague decision becomes easier to handle when too many floating variables are reduced into a small set of closed questions. Use Choice Throttling when the user needs the decision space narrowed before judgment can work.
+Choice throttling is a short chain of closed questions that throws options away. Each answer narrows the space. The chain replaces rumination, not willpower over a pile of options.
 
-The practical version:
+## How the path narrows
 
-1. Name the variables creating uncertainty.
-2. Turn each variable into a yes/no or closed question.
-3. Answer the questions in order.
-4. Let the answers narrow the decision.
+Use it when the decision space must be narrowed before judgment can work. Name the variables creating uncertainty. Turn each into a yes/no or other closed question. Answer in order. Let the answers narrow the decision. That is a dichotomous key — ordinary operations research, not a ritual numbered for its own sake.
 
-Choice throttling replaces open-ended rumination with a decision path.
+It replaces open-ended rumination with a decision path. Scope is low-to-medium complexity where the main problem is too many floating variables, not a lack of values. For the heaviest choices this is not enough. Good local uses: choosing between study methods; an optional event; a task for a work block; continue or switch; narrowing tools, resources, or plans. For a very simple decision, a faster filter may be enough: if it is not a clear yes or a clear no, the decision may not matter much.
 
-## When To Use It
+The bad version is "What should I do?" Better starters: Is this choice high consequence? Is the decision reversible? Will waiting produce useful information? Does this protect the main downside? Does this align with the current goal? Each question should reduce the decision space. Cut whole branches that will not be taken on principle. Stop evaluating options inside a rejected category.
 
-Use it for low-to-medium complexity decisions where the main problem is too many options, not lack of values.
+## What a good question does — and the failures
 
-Good use cases:
+Open questions create sprawl. Closed questions create movement. Some yes/no questions take time, especially values. That is still progress, because the missing information is now named. A values question can take months and still be the right question. Simpler is not faster.
 
-- choosing between study methods,
-- deciding whether to attend an optional event,
-- selecting a task for a work block,
-- choosing whether to continue or switch,
-- narrowing a list of tools, resources, or plans.
+Failures, and the fix beside each:
 
-For very simple decisions, a faster filter may be enough: if the option is not a clear yes or clear no, the decision may not matter much.
+- Fake binary — yes/no where the variable has degrees. Rewrite, or add thresholds.
+- Wrong variable — the answer does not change the decision. Ask what uncertainty actually controls the choice.
+- Too many questions — overthinking in a new costume. Keep only the variables that change the decision. A long chain that never throws anything away is rumination wearing a key.
+- Values unclear — every option looks equivalent. Reflection, a values check, or [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] first.
+- Complexity mismatch — move to a heavier process on the [[wiki/Decision Making/Decision Making|Decision Making]] hub.
 
-## How To Use It
+## When to stop
 
-Start with the uncertainty.
+Stop when the next answer would not change the choice, or when a whole branch is already rejected on principle. The key has a stop condition, not only a start. Heaviest choices still need a heavier process.
 
-Bad version:
+## Links
 
-- "What should I do?"
-
-Better version:
-
-- "Is this choice high consequence?"
-- "Is the decision reversible?"
-- "Will waiting produce useful information?"
-- "Does this protect the main downside?"
-- "Does this align with the current goal?"
-
-Each question should reduce the decision space.
-
-## Why It Works
-
-Open questions create sprawl. Closed questions create movement.
-
-The point is to isolate the variables that actually matter. Some yes/no questions may take time to answer, especially when values or consequences are unclear. That is still progress because the user now knows what information is missing.
-
-## Failure Modes
-
-| Failure | What It Looks Like | Fix |
-| --- | --- | --- |
-| Fake binary | The question forces a yes/no where the real variable has degrees. | Rewrite the question or add thresholds. |
-| Wrong variable | The answer is clear but does not change the decision. | Ask what uncertainty actually controls the choice. |
-| Too many questions | The method becomes another form of overthinking. | Keep only decision-changing variables. |
-| Values are unclear | Every option looks equivalent. | Use reflection, Kolbs, or a values check before deciding. |
-| Complexity mismatch | The decision is high-stakes but treated like a quick filter. | Move to a complex-decision process. |
-
-## Related Pages
-
-- [[wiki/Decision Making/Decision Making|Decision Making]]
-- [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
-- [[wiki/Decision Making/Good Decisions|Good Decisions]]
-- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+- [[wiki/Decision Making/Decision Making|Decision Making]] — the hub: when this is the right tier (low-to-medium; not the heaviest choices).
+- [[wiki/Decision Making/Decisional Delays|Decisional Delays]] — mid-day "what next" is a different problem: a gap, not a tangled choice.
+- [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]] — after-action on the path that remains.
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] — values and reflection when every option still looks equivalent.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — rumination as a control problem.
 
 ## Open Questions
 
-- What are the user's most common repeat decisions that could become choice-throttling checklists?
+When a values question is still open after months, is the method still the right tier?
+
+## Sources
+
+- Identification keys / ordinary decision trees — the method is a dichotomous key. Any intro operations-research text. Support for C3 as a method, not as a named trial of this protocol.
+- Scheibehenne, Greifeneder & Todd 2010, *Journal of Consumer Research* — fifty experiments, mean effect of "too many options" near zero (d ≈ 0.02). Bound only: this page does not rest on choice-overload. Do not treat the jam study as the reason.

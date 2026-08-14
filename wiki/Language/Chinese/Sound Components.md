@@ -1,10 +1,12 @@
 ---
+title: "Sound Components"
 type: concept
 status: developing
 created: 2026-06-10
-updated: 2026-06-10
-source-count: 1
-sources: Outlier Linguistics — Chinese Character Masterclass (local PDFs, not in repo)
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 3
 tags:
   - chinese
   - characters
@@ -15,54 +17,73 @@ tags:
 
 # Sound Components
 
-An unfamiliar character yields two predictions before the dictionary opens: a meaning domain from its semantic component and a syllable range from its sound component. The sound component records what the word sounded like when the character was coined — for most characters, in toneless Old Chinese — so it cues a historical pronunciation that millennia of sound change have since pulled apart. The accuracy profile is English spelling's: imperfect, still indispensable. The productive cycle is predict the range, look up the exact reading, learn the tone as a separate fact.
+An unfamiliar character yields a meaning domain and a syllable range ahead of any dictionary lookup. The sound part cues a range, not today's exact reading. The competing hopes — that the part will give today's pronunciation, or that the matches are too broken to use — are both wrong.
 
-The system exists because pictures run out. Early characters depicted things, and abstract words resist depiction. Scribes patched the gap two ways: indicating marks — 本 (běn, "root") adds a stroke at the base of 木 (mù, "tree") — and the rebus: borrowing an existing character purely for its sound. 北 (běi, "north") originally drew two people back to back and wrote the word for a person's back; "north" sounded similar and could not be drawn, so the glyph was borrowed. Borrowing bred ambiguity, so a semantic component was added to split the words apart: 肉 (ròu, "meat; body"), in its 月 form, placed under 北 produced 背 (bèi, "back"), while 北 kept the loan sense. This disambiguation move is how sound components arose, and the pairing required only similar sounds.
+## Why the hint exists
 
-## Running the Prediction
+A drawing cannot carry an abstract word. Two patches covered the gap. An indicating mark: 本 is 木 plus a stroke at the base. A **rebus**: borrow an existing character for another word that sounded like it.
 
-- **Predict before lookup.** Read the semantic component for a meaning domain and the sound component for a syllable set, commit to a guess, then open the dictionary.
-- **The 棠 walkthrough.** Meeting 棠 (táng, "birchleaf pear") cold: 木 below points to a tree- or wood-related meaning; 尚 (shàng, "to esteem; still") above points to one of shang, chang, zhang, tang, or dang. Five candidates is a real constraint; the dictionary settles on táng, and the tone was unguessable.
-- **Install the correspondence patterns.** zh-, ch-, and sh- initials regularly relate to d- and t- initials. With that pattern in place, 黨 (dǎng, "political party"), 堂 (táng, "hall"), and 躺 (tǎng, "to lie down") all taking 尚 read as one family, and 店 (diàn, "store") taking 占 (zhān/zhàn, "to divine; to occupy") is the same move again.
-- **Use the series for association.** A new character sharing a sound component with known characters inherits their neighborhood of related pronunciations — something to attach to.
+北 originally drew two people back-to-back, a person's back. "North" sounded similar and could not be drawn. 肉/月 under 北 produced 背 for "back," and 北 kept the loan. Pairing required only similar sounds. That is how sound components arose.
 
-## Why the Matches Look Broken
+The sound component — a part cueing a range of syllables, not today's exact reading — stores the pronunciation the word had at the moment the character was made. For most characters that language is **Old Chinese**: the spoken language of the coinage period, with no modern-style tones. Centuries of sound change then pulled the matches apart. The accuracy profile is English spelling's: imperfect, still indispensable.
 
-- **The pairings were made in a toneless language.** Old Chinese had no tones, so tone rarely carries from component to character — 北 and 背 surface as běi and bèi. Characters coined later, in the Middle Chinese period, correlate more closely with their components, tone included.
-- **Sound change magnified tiny gaps.** 監 (jiān) was *kram, 籃 (lán) was *k.ram, 藍 (lán) was *g.ram — three near-identical ancient syllables that passed through Middle Chinese as kaem, lam, lam and surfaced as jiān, lán, lán. The original spread was no wider than English here, ear, year.
-- **Approximation was the design.** Every script presupposes the spoken language: a native reader resolves an inexact spelling from context, the way a picture of an ear between O and U-R still reads "oh, here you are" despite the missing h. A semantic component inserts that h inside the script itself, removing the dependence on context. Learners feel the gaps because they lack the spoken base the system assumes.
+Old Chinese had no tones, so tone rarely carries from component to character. 北 is běi and 背 is bèi. Later Middle-Chinese coinages correlate more closely, tone included. Tone is almost never the prediction.
 
-## The Borrowing Story Is the Mnemonic
+## One character, one cycle
 
-- **Loan senses attach by sound alone.** 北 "north," 良 (liáng, "good") on a glyph that depicted a hallway, 古 (gǔ, "old") — each sense arrived as a sound borrowing, so tag it as one rather than reading a story off the picture.
-- **One component can play two roles.** Inside 背, 北 supplies both the meaning (a back) and the sound — two retrieval routes through a single part.
-- **Original senses migrate to successor characters.** 寺 (sì, "Buddhist temple") first wrote "to grasp," now carried by 持 (chí, "to grasp"); 兌 (duì, "to convert; cash in") first wrote "to be happy," now 悅 (yuè, "to be happy"); 各 (gè, "each") first wrote "to arrive." Following these links keeps each trunk sense findable.
-- **The explanation does the remembering.** jiān beside lán looks arbitrary in isolation; the *kram chain turns the oddity itself into the hook that holds the pair together.
+The productive cycle is three beats: predict the range, look up the exact reading, learn the tone as a separate fact. Commit to a guess, then open the dictionary. [[wiki/Language/Chinese/The IME Method|The IME Method]] trains that predict-then-verify habit; this page is the single-character version of the same commit.
 
-## Where the Tool Breaks
+棠 walks the cycle once. 木 gives the meaning domain: tree or wood. 尚 gives a syllable range: shang, chang, zhang, tang, dang. The dictionary settles táng. The tone was unguessable. Five candidates is a real constraint — a neighborhood, not a reading.
 
-- **Inferring tone from the component.** The tone of an unfamiliar character is rarely predictable from structure; treat every tone as a separate fact to learn.
-- **Demanding exact readings.** Structure narrows possibilities; only a lookup confirms.
-- **Expecting series uniformity.** Characters sharing one component can differ in initial, final, and tone with no obvious surface connection; divergence is common.
-- **Reading every part as a cue.** Some parts carry neither sound nor meaning: the 口 (kǒu, "mouth") in 尚 evens out the character's shape, and the 口 in 周 (zhōu, "cycle; complete") is a distinguishing mark added when the glyph was borrowed as a country name. Running predictions on such parts manufactures noise.
-- **Dismissing the tool over accuracy.** Neither sound components nor English spelling predict pronunciation with 100% accuracy — non-natives read "iron" as eye-run, natives misread print-only words like "archetype" — yet both constrain the search enough to be worth trusting.
+zh-/ch-/sh- regularly relate to d-/t-. With that pattern, 黨 堂 躺 — all on 尚 — read as one family, and 店 taking 占 is the same move. A new character sharing a sound component inherits that neighborhood. [[wiki/Language/Chinese/Sound Series|Sound Series]] scales the inheritance to families and holds the other related-initial groups. This page teaches one correspondence.
 
-## Related Pages
+## Why matches look broken
 
-- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] - cluster hub; where this page sits in the reading order
-- [[wiki/Language/Chinese/Sound Series|Sound Series]] - the phonetic families a sound component defines, with the recurring related-initial groups
-- [[wiki/Language/Chinese/Meaning Components|Meaning Components]] - the disambiguating partner added to sound-borrowed characters
-- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] - per-character component roles, including dual-function cases like 立 in 位
-- [[wiki/Language/Chinese/Empty Components|Empty Components]] - the non-functional parts (balance strokes, distinguishing marks) that prediction must skip
-- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] - loan senses and successor links as branches of each character's sense tree
-- [[wiki/Language/Chinese/The IME Method|The IME Method]] - the recall protocol that trains the predict-then-verify cycle
+Sound change magnified tiny gaps. 監 *kram, 籃 *k.ram, 藍 *g.ram become jiān / lán / lán. The original spread was no wider than English here / ear / year. The asterisk marks a reconstruction. Reconstructions explain a link. They never enter review cards. [[wiki/Language/Chinese/Meaning Components|Meaning Components]] uses 監/藍 as opacity. This page uses the chain.
 
-## Sources
+Approximation was the design. A native reader resolves inexact spelling from context. A semantic component inserts that context inside the script. Learners feel the gaps more sharply: they do not yet have the spoken base the script was built to assume.
 
-- Outlier Linguistics, *Chinese Character Masterclass* — commercial course; lesson PDFs kept locally outside this repository. https://www.outlier-linguistics.com/
+Loan senses attach by sound alone. Tag 北 "north," 良, 古 as borrowings rather than reading a story off the picture. [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] owns loan senses and the successors they leave behind.
+
+One component can play two roles. Inside 背, 北 supplies meaning — a back — and sound. [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] is the dual-function parse: where to stop cutting.
+
+Original senses migrate to successor characters: 寺 "to grasp" is now 持; 兌 "to be happy" is now 悅; 各 kept "to arrive" only in the older layer. Meaning Trees owns those moves.
+
+The explanation does the remembering. jiān beside lán looks arbitrary. The *kram chain is the hook. The reconstruction stays off the card.
+
+The tool breaks in five places.
+
+Inferring tone from the component. Treat every tone as a separate fact.
+
+Demanding exact readings. Structure narrows. Only a lookup confirms.
+
+Expecting series uniformity. Divergence in initial, final, and tone is common. Sound Series makes that precise.
+
+Reading every part as a cue. 口 in 尚 evens the shape. 口 in 周 is a distinguishing mark. Predictions on those parts manufacture noise. [[wiki/Language/Chinese/Empty Components|Empty Components]] is the skip list.
+
+Dismissing the tool over accuracy. Neither sound components nor English spelling are complete. Non-natives read "iron" as eye-run. The tool is imperfect and still the one that narrows the page.
+
+This page is the single-character mechanism. Sound Series is the family page. Which correspondences to memorize up front is answered there: install the seven groups. [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] is the hub; the domain-and-range payoff lives there as a one-liner.
+
+The same two predictions, now bounded: a handful of syllables, never the tone, never the empty stroke. Lookup confirms the reading. The spoken base the system assumes is still the hours of listening — the form attaches to a word the ear already holds.
 
 ## Open Questions
 
-- Which initial-correspondence patterns beyond zh-/ch-/sh- relating to d-/t- recur often enough to memorize up front rather than absorb series by series?
-- Is there a practical marker for spotting Middle Chinese coinages, where component-to-character correlation — including tone — runs stronger?
-- Where in the review pipeline should the predict-then-verify practice live: at first contact with a character, or as a standing retrieval exercise?
+- A marker for Middle-Chinese coinages, whose tones correlate more closely, is not installed here.
+- Where predict-then-verify lives in review is an IME question, not a second cycle.
+
+## Related
+
+- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] — hub; the domain-and-range payoff lives there as a one-liner
+- [[wiki/Language/Chinese/Sound Series|Sound Series]] — families and the other related-initial groups
+- [[wiki/Language/Chinese/Meaning Components|Meaning Components]] — disambiguating partner; 監/藍 as opacity
+- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] — dual-function cases; where to stop cutting
+- [[wiki/Language/Chinese/Empty Components|Empty Components]] — parts prediction must skip
+- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] — loan senses and successors
+- [[wiki/Language/Chinese/The IME Method|The IME Method]] — trains predict-then-verify
+
+## Sources
+
+- DeFrancis, J. (1984). *The Chinese Language: Fact and Fantasy*. University of Hawaii Press. Most characters are a meaning-hint plus a sound-hint; the rebus is the historical patch when pictures run out.
+- Haudricourt, A.-G.; Baxter, W. H., & Sagart, L. (2014). Old Chinese lacked Middle-Chinese-style tones; later tones arise from lost finals. Reconstructions explain a link and do not belong on cards.
+- Karlgren, B.; Baxter–Sagart phonetic series. zh-/ch-/sh- related historically to d-/t/. The other groups live on Sound Series.
