@@ -1,10 +1,10 @@
 ---
 title: "Hipshot"
 type: technique
-status: seed
+status: developing
 created: 2026-06-11
-updated: 2026-06-11
-ics-stage: Base Camp
+updated: 2026-08-14
+written-by: fable
 tags:
   - deep-processing
   - encoding
@@ -13,28 +13,34 @@ tags:
 
 # Hipshot
 
-Writing every keyword and every question down before answering any of them trains the brain to generate curiosity on demand. Once that generation runs near-unconsciously, the writing becomes overhead — and Hipshot drops it. Aim moves into your head, Aim and Shoot switch back and forth so quickly they function as a single step, and the workflow becomes Hipshot-then-Skin: a quick-draw shot from the hip instead of sighting carefully down the barrel. The gain is speed on two fronts — Aim takes drastically less time, and fewer iterations separate the first keyword from a map ready to Skin — while quality and accuracy must stay exactly where they were. This is the first named variation of the [[Bear Hunter System]] and the upgrade path for the written Aim + Shoot pair once they are mastered; Skin carries over unchanged.
+Hipshot is what Aim and Shoot become once the writing has done its work: a single fused step, questions held in the head, with Skin unchanged at the end. The writing was the training — putting every keyword and question on paper before answering any of them is what teaches a brain to generate curiosity on demand. Once the questions arrive unprompted the paper is overhead, so the paper is the one thing dropped: the questions stay, and the careful sight down the barrel becomes a quick shot from the hip.
 
 ## Aim moves into your head
 
-- **Filter at collection.** Collect only the most important keywords — the layer-one concepts that build the topic's fundamental logic and form its structural backbone. Ignore the rest on this pass; later cycles pull them in once the structure can hold them. Beginners cannot run this filter reliably, which is one reason the prerequisite exists.
-- **Ask the same questions, mentally.** What is it, why is it important, how does it relate to X, Y, and Z — the identical high-quality questions from written Aim, held in the head instead of listed on paper. Only the medium changes; any drop in question quality means the variation is being faked.
-- **Shoot immediately.** Each mental question goes straight to the available resources — guides, videos, search — and each answer goes straight onto the mind map. No comprehensive question list ever exists outside your head.
+**A shot from the hip is still aimed: one keyword per cycle — question, answer, place, relate, next.** The session runs inside the [[Bear Hunter System]] as its first named variation, and scheduling stays with the parent, inherited once the standard versions feel stable. Collection now carries a filter: only the keywords that build the topic's fundamental logic make this pass — layer one in the [[Layers of Learning]] sense, logic and big ideas before details — and a filter that sharp already takes competence a beginner does not have. The rest wait. Each keyword that survives gets the questions the written [[Aim]] exists to produce — what is it, why does it matter, how does it relate to what the map holds — asked mentally, and [[Shoot]] answers on the spot: straight to the resources — guides, videos, search — straight onto the mind map, no comprehensive question list ever existing outside your head.
 
-## The question–answer–map loop
+At a wider grain the same cycle is a hypothesis loop: each round of questions proposes a rough logic layer, shooting validates or corrects it, and the layer commits to the map as it holds up — never the instant an answer surfaces. The map pays the loop back as it grows. Every placement gives the next keyword something to attach to, every answer sharpens the next questions, and the cycles climb from layer one through two, three, four until, run correctly, the whole thing feels like free exploration and organic discovery rather than executed steps. The speed has a plain cause: the sub-skills that once needed their own attention — laying out the map, thinking in relationships, turning an idea into a note — now run unattended, with relationships forming fast enough that the map gets built while the answering is still happening. So Aim takes drastically less time, and far fewer iterations separate the first keyword from a map ready to Skin. Underneath, this is [[Inquiry-Based Learning]] at full speed: question then answer in rapid alternation, the questions never leaving the head.
 
-- **One keyword per cycle.** Take a keyword, ask the questions mentally, answer them, place the answers on the map, and relate them to everything already there. Then the next keyword, and the cycle repeats.
-- **The map must feed back.** Each placement should sharpen the next round of questions. When that feedback stops, the cycle degrades into a one-directional information dump — answering questions without relating anything — which is the signature failure of learners who attempt the variation too early.
-- **Spiral up through the layers.** Early cycles produce basic layer-one questions and notes; as the map grows the questions get more advanced, and the loop climbs through layers two, three, and four until the topic is finished. Run correctly, it feels like free exploration and organic discovery of the topic rather than executing steps.
-- **Expect mess, then Skin as usual.** A Hipshot map has connections going everywhere. Skin is identical to the standard system: the same cleaning pass turns the mess into a well-connected, retrievable structure. Skipping it leaves the whole effort untapped.
+## Only the medium changes
 
-## Readiness and the fallback rule
+**The questions themselves do not change.** They are the same ones the written Aim would have asked, at the same quality — the medium is the entire difference, and any drop in question quality means the variation is being faked rather than run. What the speed traded away is the comprehensive list: the written system lays out every keyword and question before answering any of them, and Hipshot gives that inventory up to build bit by bit, which only works while the big picture is still being held in mind.
 
-- **Prerequisite.** Close to unconscious competence with the standard Aim–Shoot cycle. The written version exists to train curiosity generation; only when curiosity arrives without the writing can the writing be skipped. The variation often emerges on its own as a byproduct of that competence rather than as a deliberate switch.
-- **Three tells you are not ready.** Relationships slip to second place and the session slides toward memorization; layers of learning get compromised; order control gets compromised. Any one of the three means dropping back to the standard system and rebuilding.
-- **Fallback costs nothing.** If the variation feels overwhelming, return to standard BHS — it works well on its own. Even a glimmer of Hipshot on an easy subject is progress; running it without mistakes takes consistent practice and very deep familiarity with the underlying skills.
-- **Scheduling lives elsewhere.** The implementation schedules for fitting the system into a real term — default weekly, accelerated, and minimum viable — are on [[Bear Hunter System]]; Hipshot inherits them once the standard versions feel stable.
+## Three tells you are not ready
 
-## Links into the system
+**Holding that big picture is the prerequisite, and it sits high: close to unconscious competence with the standard written Aim–Shoot cycle.** Attempted earlier, the variation fails with a signature: answering consumes the attention, the relating step drops out, placements stop sharpening the next questions, and the map degrades into a one-directional information dump. Three tells catch it early — the same shortcut showing up three ways — and any one of them alone means the session drops back:
 
-Replaces the written [[Aim]]–[[Shoot]] pair inside the [[Bear Hunter System]] once they run near-unconsciously (implementation schedules live there); leaves [[Skin]] untouched; stands or falls on [[Layers of Learning]] and [[Order Control]]; and runs [[Inquiry-Based Learning]] at full speed — question and answer in rapid alternation, with the questions held in the head.
+- **Relationships slip to second place**, and the session starts sliding toward memorization.
+- **The layers of learning get compromised** — details landing before the logic that should carry them.
+- **[[Order Control]] gets compromised** — the source's order steering the session instead of relevance pulling it.
+
+A compromised run costs nothing to abandon: the fallback is the written system, which works as well as it ever did, and finding the variation overwhelming at first is ordinary — it passes with practice. Even a glimmer of clean Hipshot on an easy subject is progress; a mistake-free run takes consistent practice and deep familiarity.
+
+What practice never removes is the mess. A Hipshot map has connections going everywhere, and [[Skin]] runs on it unchanged — still required, and skipping it leaves the whole effort untapped. The bar is checkable: the map should come out at least as good as one a dedicated written Aim and Shoot would have produced — logical, chunked, layers intact — and at moderately low effort, since effort still running high means the fused step has not replaced anything yet. No outside trial of this variation exists; the reachable research supports only the family it belongs to — support that helps a novice becomes overhead once the skill runs on its own — the shape of the idea, nothing about this named procedure.
+
+Acquiring Hipshot is mostly waiting: it tends to emerge on its own, the way seamless cycling between the written Aim and Shoot emerged before it — one more scaffold falling away once each step can stand alone. The written system stays the default until, some session, the questions stop waiting for the paper.
+
+## Sources
+
+- Kalyuga, Ayres, Chandler & Sweller (2003), "The Expertise Reversal Effect," *Educational Psychologist* 38(1) — instructional support that helps novices becomes overhead for advanced learners; bounds the family this variation belongs to, and tests nothing about the variation itself.
+- Collins, Brown & Newman (1989), "Cognitive Apprenticeship: Teaching the Crafts of Reading, Writing, and Mathematics" — scaffolds are deliberately faded as competence grows.
+- Four stages of competence — a broad practitioner frame, used here only for the vocabulary of "unconscious competence"; a frame, not a finding.

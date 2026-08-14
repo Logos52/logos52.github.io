@@ -1,10 +1,11 @@
 ---
+title: "Spaced Interleaved Retrieval"
 type: technique
 status: developing
 created: 2026-05-04
-updated: 2026-05-14
-source-count: 2
-last-audited:
+updated: 2026-08-14
+written-by: fable
+description: "The standing retrieval practice: answers produced from memory before any source opens, at widening intervals, from a different angle each pass — the sessions that find gaps while there is still time to fix them."
 tags:
   - learning
   - retrieval
@@ -15,222 +16,138 @@ tags:
 
 # Spaced Interleaved Retrieval
 
-Encoded knowledge decays unless it is reconstructed, spaced, varied, and repaired over time. Spaced Interleaved Retrieval is the user's main system for that work.
+Spaced Interleaved Retrieval is the practice of getting knowledge back out of memory to find out what did not survive. Retrieval means producing the answer — spoken, written, or solved — before the source is opened. Spacing leaves days between those sessions, and interleaving comes at the same knowledge from a different angle on each one.
 
-## Summary
+The sessions have two jobs. Finding gaps early is the first, because a gap's cost compounds: between reading something and having to produce it, a misunderstanding gives no signal, everything learned on top of it inherits the error, and the time left for repairs keeps shrinking. The second is building fluency to the standard the use demands — how fast the knowledge comes, and how complex a use it can support: the low end is half a minute of hunting for simple recall, the high end near-instant and usable inside a complex problem. Both jobs run for the whole life of the material; the sessions never switch on a few weeks before an exam.
 
-SIR combines three principles:
+## One session
 
-- Retrieval: recall or use knowledge before checking the source.
-- Spacing: revisit material after delays that gradually widen.
-- Interleaving: mix topics, formats, difficulty levels, and angles of use.
+The unit everything else schedules is a single session, and every session runs the same five moves. The material is produced before anything is looked up — and produced in full: written, spoken, drawn, or performed, never answered silently in the head. A quiet mental answer feels sufficient because familiarity reads as capability; it reliably fails to find gaps, and it burns practice questions that cannot be reused. Wherever the attempt felt shaky, that spot gets marked, even when the final answer was right, because an answer that came out once, uncertainly, does not survive a variation. The attempt is then checked against the source, an answer key, or a worked example. Each miss gets a decision — another retrieval pass, or a return to how the material was encoded — and what failed sets the next session's agenda.
 
-The goal is to prove that knowledge can be reconstructed and used under varied conditions.
+**A gap is anything that could not be produced, came out wrong, or felt unsure — including what eventually came out right.**
 
-In the user's system, SIR sits under [[wiki/Dimensions/Retrieval|Retrieval]] and is coordinated by [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
+Checking is where most of the measured value sits: testing with feedback lands around d = 0.73 in the meta-analytic record; without feedback it drops to d = 0.39. An unchecked session is worth roughly half a session, so the key gets built before the session gets scheduled. Even a failed attempt followed by feedback beats never attempting — generating first is what makes the feedback worth anything. At least one method in rotation also checks against something outside your own head — an official key, a question bank, a model answer built against the real assessment scope — because self-testing can miss the same gaps for rounds on end: the sense of what the scope even includes is part of what is missing. And what recognition-style checking misses most is transfer. Recall of the practised form usually holds while use beyond that form fails, and only full production shows the difference.
 
-For complex problem solving and knowledge work, interleaving should be treated as reconstruction practice, not only mixed scheduling. [[wiki/Dimensions/Retrieval/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] is the more general operating note for using interleaving to expose approach gaps, variable relationships, and weak problem frames.
+Deliberate retrieval also has a miniature form, micro-retrieval: recalling or explaining something within seconds or minutes of first meeting it, inside the learning session. Its practical shape is note-taking — think the material through first, write only once it makes sense, and keep the notes as keywords, arrows, and sketches rather than sentences.
 
-## What It Tests
+## Angles, not topics
 
-SIR should test multiple levels of mastery:
+Interleaving is wider than mixing subjects. The angle changes between passes: the same material taught on one pass, solved with on the next, and argued against a rival explanation on a third is already interleaved — the knowledge is one object with several faces, and the sessions work the faces in turn.
 
-- Facts and labels.
-- Explanations of individual concepts.
-- Relationships between concepts.
-- Judgments about which relationships matter most.
-- Application in unfamiliar cases.
-- Procedure execution under realistic constraints.
+The mixing pays inside a specific window: two things similar enough to be confused and distinct enough to be separated. Working both from several angles shows where the boundary actually runs — much of the gain is learning what a concept is *not* — and it fails at both ends: nothing to separate where most people would call the two things one thing, nothing to learn where they were never confusable. The outside record draws the same window: mixed practice helps at g = 0.42 overall, does nothing measurable on expository text, and reverses to about g = −0.39 on word learning, where blocking wins. So near-identical items — vocabulary above all — get blocked, and problem types get interleaved.
 
-If retrieval only tests recognition or isolated recall, it will miss many of the gaps that matter for real performance.
+Designing a session means setting three dials. Order: whether answering requires two or more concepts and the relationship between them — a problem in context is high-order, one isolated fact is low-order. Volume: how much ground the method covers — a whole topic taught is high-volume, two concepts explained is low. Type: declarative or procedural, matched to the subject's real balance — [[wiki/Concepts/Declarative, Procedural, and Conditional Knowledge|Declarative, Procedural, and Conditional Knowledge]] carries that distinction in full, and [[wiki/Dimensions/Retrieval/Interleaving - Multiple Angles and Session Design|Interleaving - Multiple Angles and Session Design]] works all three dials at length. The order dial's top rungs are identifying relationships, then judging which of them matter most — the rung sessions most often under-test; the full ladder is at [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery - From Recognition to Usable Knowledge]].
 
-## Default Retrieval Menu
+Across a topic's life the dials follow a funnel: high-order and high-volume early, mixed-order and low-volume late, matched to type throughout. The arithmetic behind the funnel is the cost of surfacing one gap. Two days after learning, teaching the whole topic out loud produces a gap every few sentences; months in, the same dump might yield one gap per page of output, and targeted questions aimed at known weak spots become the better trade. During the early wide passes, low-order gaps get noted and passed over rather than filled on the spot — the note list becomes the next session's agenda, which is where the funnel narrows. An integrated, high-order foundation sticks and makes later detail placeable, where detail learned first stays a pile of unconnected items; higher-order methods surface both kinds of gap, lower-order methods only their own kind.
 
-Use different methods depending on the target knowledge.
+The type dial is where self-diagnosis goes wrong most. Applying knowledge to a case is still declarative; procedural means execution that has become automatic — driving without thinking about the pedals, speaking without assembling the sentence, writing code without looking up the syntax — and most subjects hold less of it than they appear to. Even in subjects everyone calls procedural, the usual bottleneck is declarative: isolated problems solve cleanly, then a problem in context stalls on which tools apply and in what order — a conceptual foundation wearing the costume of a practice problem. The working diagnostic is one complex challenge, classified by how it missed. A wrong approach, a wrong strategy, a wrong ordering, no grip on how the ideas connect: declarative. The right approach with wrong arithmetic, sound architecture with a syntax bug, strong ideas in clumsy sentences: procedural. Where the bottleneck really is procedural, varied execution starts early — mixed problem sets beat blocked ones 61% to 37% on a test a month later, around d = 0.83 — and [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] treats that mixing as reconstruction practice rather than as scheduling.
 
-| Need | Useful Retrieval Format |
-| --- | --- |
-| Isolated facts | Narrow flashcards, image occlusion, quick written recall. |
-| Concept explanation | Teach the concept without notes, then check. |
-| Relationships | Answer relational questions or create a map from memory. |
-| Big-picture structure | Closed-book mindmap or chunkmap brain dump. |
-| Evaluation | Compare competing explanations and justify which relationship matters more. |
-| Procedural skill | Solve varied problems, execute the skill, or simulate the target task. |
-| Exam readiness | Timed mixed questions, full answer generation, and error review. |
+## Choosing the method
 
-## SIR Methods
+Methods are chosen off the dials, never by taste — and never every method for every subject. The working core of the menu, with [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]] holding the full catalog it compresses:
 
-This list is a working menu of retrieval methods. The goal is to choose methods by knowledge type and mastery target, not to use every method for every subject.
+| What is being tested | Session forms | Watch for |
+|---|---|---|
+| Isolated facts, labels, constants | Narrow flashcards, image occlusion, quick written recall; cover-copy-check — cover the notes, reproduce them from memory, uncover and compare | Too low-order for complex understanding; cover-copy-check's public evidence sits in spelling and arithmetic fluency, exactly as narrow as this row |
+| One concept | Teach it aloud without notes, then check; single-concept generated questions | Stays low-order if the questions stay narrow |
+| Relationships | Relational questions — compare, contrast, connect; a local map rebuilt from memory | Needs full answers; "I could have answered that" is familiarity, never evidence |
+| The big picture | Closed-book brain dump — everything recallable written out with the source shut, as running text or a branching map; a chunkmap rebuilt from memory — a map of a few named clusters and the cross-links that matter most | Linear dumps under-represent relationships; maps can miss fine detail; a hard rebuild means the encoding was shallow |
+| Judgment | Evaluative questions on importance, relevance, and priority; directed discussion arguing which relationship matters more | Time-costly, so the questions get written in one session and answered in another — both halves are retrieval, and the first sets up the second |
+| A procedure | Varied problems, execution under realistic constraints, simulation of the target task, or working backward from a target output; change the values first, then add conditions that change the structure — the same problem re-asked with a new condition each pass | Repetition past first success buys nothing — vary the practice or stop it |
+| Exam readiness | Timed mixed questions, full answer generation, error review | Checking too fast files a real gap as a silly mistake and leaves its cause intact |
 
-### Declarative Methods
+The teaching-shaped methods are one act at four volumes. Explaining a thing simply until the stumble shows is the micro end — a repair tool, never a system. Explaining one concept, then how several interact, scales the act up. [[wiki/Dimensions/Retrieval/WPW|WPW]] — whole-part-whole: the big picture from memory, each part in detail, then the big picture again with the parts interacting — is the heavyweight end, and belongs early in a topic's life where the funnel is wide. Teaching goes to an imaginary student, never a friend: a friend fills the gaps, which is the one thing the method exists to prevent.
 
-Use these when the target knowledge is mostly conceptual, factual, explanatory, or relational.
+The strongest single method here is the extended practice question, in four moves: answer from memory, mark every point of low confidence, build your own best answer from the material, then check that answer sheet against the official one. Elaborated production of exactly this kind is one of the three factors that decide whether retrieval transfers at all. The group form runs the same logic through more hands — each person writes a hard exam with model answers, the exams are exchanged and answered from memory, then the answer sheets are exchanged and the differences argued — and its consolidation per hour ranks among the highest of any method here. The undirected version underperforms that structure; small-group work in general still measures out well, around d = 0.51 in the STEM record, so the structure is what gets kept. Memory palaces and their kin stay narrow by design: trained mnemonic work can roughly double recall on a word-list task, and the gain is confined to that shape of demand — ordered lists, labels, rote sequences. As a substitute for encoding they are a dead end.
 
-| Method | Best Use | Watch For |
-| --- | --- | --- |
-| 3Cs | Basic labels, diagrams, isolated terms, and fill-in-style details. | Too low-order for complex understanding. |
-| Simple flashcards | Narrow facts, definitions, constants, labels, and small details. | Exploding card counts usually indicate weak encoding. |
-| Simple relational flashcards | Specific relationships between a small number of concepts. | Do not force every relationship into cards. |
-| Evaluative flashcards | High-value questions that require judgment about relationships. | Better created from a strong map or question set. |
-| Isolated generated questions | Single-concept recall or explanation. | Can become too low-order if overused. |
-| Relational generated questions | Compare, contrast, connect, or explain interaction between concepts. | Needs full answers, not mental familiarity. |
-| Evaluative generated questions | Judge importance, relevance, priority, or conditions across concepts. | Time-consuming but high value. |
-| Linear brain dump | Rapid recall of facts, terms, and broad coverage. | Weak at representing relationships. |
-| Mindmap brain dump | Reconstruct the topic structure and relationships from memory. | May miss tiny details unless followed by detail checks. |
-| Isolated teaching | Explain one concept or process out loud. | Often less efficient than narrower tools for pure facts. |
-| Relational teaching | Explain how concepts interact. | Strong early-to-mid retrieval method. |
-| [[wiki/Dimensions/Retrieval/WPW|WPW]] | High-volume, multi-order reteaching across whole and parts. | Requires strong encoding and can expose many gaps. |
-| Direct practice questions | Answer from memory, then check. | Can hide uncertain reasoning if checking is too fast. |
-| Extended practice questions | Answer, mark uncertainty, build a better answer, then check. | More time-intensive but better for gap finding. |
-| Advanced group practice | Create, exchange, answer, compare, and discuss challenging questions. | High setup cost; best for important topics. |
-| Evaluative discussion | Argue and judge relationships, importance, and edge cases. | Must be directed; undirected discussion is usually weak. |
-| Chunkmap reconstruction | Rebuild or improve the chunk structure from memory. | If hard, the original encoding may have been shallow. |
-| Feynman-style explanation | Explain simply, find gaps, refine the explanation. | Useful as micro-retrieval, not a full system by itself. |
-| Memory systems | Ordered lists, labels, vocabulary, or narrow rote demands. | Avoid using them as a substitute for encoding. |
+The failure mode with a house name is REBIM — Repetitive Execution Beyond Initial Mastery, overlearning in the public literature: continuing to practise a procedure already performed smoothly, without changing its difficulty, constraints, or context — coding the same simple scripts, solving problems at a difficulty already comfortable, running the same conversation pattern in a language that already handles it. Its return is measured: six extra problems past the first success bought no score gain at one week or at four, while the same practice moved a week out bought a large gain at four weeks. The reason it persists is measured too — learners rated blocked practice more effective immediately after a test they had just done better on under interleaving, because smooth performance is indistinguishable from progress from the inside. The exclusion list follows the same grain: passive rereading rates low utility in the technique-comparison literature, rewriting and relistening share its shape, and mental-only answers and answers checked before a full attempt fail for the reasons above. [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] explains why the cheaper-feeling version of each method is the one that fails.
 
-### Procedural Methods
+A model fits in on the low-cognitive side — question variations, mixed sets, counterexamples, completeness checks, follow-ups after a weak answer, prompts converted from a map, questions graded by difficulty, keyword collection, big-picture orientation — and on consolidating several sources into one, which removes the split-attention cost of working across documents, one of the most replicated results in cognitive-load research. Guardrails decide whether it helps or harms: a tutor configuration that would not hand over answers raised practice performance 127% with no later damage, while unrestricted access raised practice scores 48% and cut unaided exam performance 17% against students who never had it — the model did the structural thinking, so the schema never got built. Beginners are the most exposed — a reliable feel for one's own cognitive load is what they have not built yet — and checking the truth of nuanced claims stays outside a model's reliable range for now. The rule that keeps the benefit: produce first, in full, then hand the answer over for feedback and calibration. When the model becomes the thinker and the learner becomes the editor, the benefit of every method above disappears.
 
-Use these when the target knowledge is mostly skill execution, problem solving, production, language use, coding, calculation, lab work, or performance.
+## The other half
 
-| Method | Best Use | Watch For |
-| --- | --- | --- |
-| Retrieved execution, simple | Perform a basic procedure from memory. | Stop once it becomes repetitive beyond mastery. |
-| Retrieved execution, integrative | Combine multiple component skills into a larger function. | Move here early once simple execution is stable. |
-| Retrieved execution, applied | Start from a target output and work backward to execute. | Best for realistic transfer. |
-| Simple challenges | Solve prompted basic problems. | Good entry point, but not enough for mastery. |
-| Integrative challenges | Combine multiple processes to solve a less predictable task. | Requires both procedural skill and declarative understanding. |
-| Edge-case challenges | Handle atypical, unfamiliar, or boundary-condition problems. | Excellent for high-level transfer. |
-| Variable modification | Change values or constraints while keeping the same basic problem type. | Good for early variation. |
-| Variable addition | Add new conditions that change the problem structure. | Requires stronger conceptual judgment. |
+None of these sessions stands alone. Retrieval is half of a two-part system — one process in the research, split in practice only because the techniques differ — and the half that gets trained first. The working model is a bucket with a hole in it: encoding — how material is structured while it is being learned — patches the hole, the permanent fix and a skill that takes months to years to build. Retrieval is the cup that catches what leaks and pours it back: repetitive by nature, usable within a day or two of learning it, and what keeps performance standing while the patching is in progress — the reason [[wiki/Syntheses/ICS System|ICS System]] trains it first. The operating defaults put the stakes plainly: around half of new material gone within a week without it; upward of 70% of study time for most people starting out, under 20% for a practised encoder, never zero. Weaker encoding runs the dependency the other way — more decay, more frequent and longer sessions, and roughly five times more repetition per gap, on the system's own estimate.
 
-### Methods To Avoid As Defaults
+So the sessions double as a readout on the encoding. A retrieval failure is a verdict on whether the [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] pass — questions set before the source, answers built into a relational map, the map cleaned until it can be rebuilt from memory — produced a structure that holds; the questions written there arrive here as prompts, and the finished map serves as the answer key. A pile of low-order gaps is a question about that structure before it is a request for more cards — better chunking removes isolated memorisation at the source, a rule the card-formulation practitioners arrived at independently. Early sessions run long and find a lot, which is the expected state: many gaps found means the session is working, few gaps at low mastery means the probe is too shallow, and the sessions shorten on their own as the encoding improves. [[wiki/Dimensions/Retrieval/Encoding and Retrieval|Encoding and Retrieval]] holds the tradeoff in full.
 
-- Passive rereading.
-- Passive rewriting.
-- Passive relistening.
-- Practice questions answered only mentally.
-- Checking answers before fully generating an attempt.
-- Undirected group discussion.
-- Repeating already-mastered procedures without variation.
+## The rhythm
 
-**REBIM** (Repetitive Execution Beyond Initial Mastery) is the specific failure mode for procedural practice. REBIM is repeating a skill or process that can already be performed to high proficiency — coding the same simple scripts, solving the same difficulty of problems, or running the same conversation pattern in a language already well-handled. The benefit is negligible compared to what could be achieved with variation, edge cases, or applied challenges in the same time. REBIM typically feels productive because it produces smooth performance, which is indistinguishable from progress to the learner.
+**The layers matter more than their dates.** A schedule off by a few days survives; a missing layer does not. That is the system's own rule — session quality outranks scheduling precision — and the outside record bounds it: the useful gap scales with how long the knowledge has to last, roughly 20–40% of a one-week retention interval, falling toward 5–10% of a one-year one, so the interval is set from the date the knowledge is needed. Both mistimings cost something specific: too frequent buys repetition that taught nothing, because the test came before forgetting began; too infrequent turns the session into relearning, and into a session nobody wants to start.
 
-## Encoding and Retrieval: The Tradeoff
+The gaps widen as material ages — a first pass within a day or two, another a week to ten days later, another three to four weeks after that. The honest reason is workload: with new material arriving daily, a fixed interval piles up a backlog without bound. A longer gap is also a harder, more realistic test — knowledge is normally used long after it was learned, and forgetting a little between passes is what makes gaps visible. The expansion itself has no retention evidence behind it; equally spaced retrieval has beaten expanding schedules at a two-day test and matched them on text, so the widening is a logistics decision, made with open eyes.
 
-Encoding and retrieval are not separate processes — the research treats them as fundamentally intertwined. In practice they are addressed separately because the techniques differ, but they influence each other directly: stronger encoding produces higher retention, which means less retrieval is required to maintain it. Weaker encoding produces more knowledge decay, which means retrieval sessions must be more frequent and more extensive.
+Inside a study week the layers land like this. Before new material: prestudy — a fast, shallow pass over the concepts and how they relate, nothing memorised. On the learning day: a light same-day pass — encoding support more than a memory-optimal first test, since delaying the first real test is what the retention evidence favours — the day's material revised and its detail built, first cards started for the isolated facts, definitions left alone for now. Within a day or two: the first gap-finding pass. End of the week: the last two weeks' material by an interleaved method, weak spots revisited, detail memorisation starting here. End of the month: the four weeks again in a different form, which by then should feel easy. Two to four weeks before an assessment — the system's own guidance spans that range — a comprehensive pass over everything relevant; heavy content adds a mid-week or fortnightly layer. Cards run in the spare pockets of the day rather than inside this schedule, because the card apps stage the widening themselves; hours disappearing into cards is a card-count diagnosis pointing back at encoding, and [[wiki/Dimensions/Retrieval/Flashcards|Flashcards]] covers that layer on its own. [[wiki/Dimensions/Retrieval/Multipass System|Multipass System]] runs the same sweep in compressed form; [[wiki/Dimensions/Retrieval/Cramming|Cramming]] is what this schedule degrades into when the window gets short.
 
-As encoding skill develops, retrieval sessions become shorter and find fewer gaps. In the early stages — when encoding quality is still low — retrieval sessions will find many gaps, take longer, and feel laborious. This is the expected state, not a sign the system is failing.
+Counted across the layers, any piece of material gets produced or re-encoded about six times in a month — prestudy, the learning event, the same-day pass, the mid-week pass, the weekly pass, the monthly pass — a count of the schedule's own layers, never a measurement. The time budget rests on a premise: at 80–90% retention by the weekly pass, a week's material takes a few hours and a month's about half a day. Below that, sessions run longer, and the length is information about the encoding rather than a personal failing. The schedule also stops where the use stops: for material needed once, good enough is the correct target — the fluency bar always comes from why the material is being learned.
 
-Finding many gaps during retrieval is a sign the session is working, not that it is ineffective. A retrieval session that finds few gaps when mastery is still low is the sign of a session that is not probing deeply enough.
+## When a gap turns up
 
-## Concrete Spacing Schedule
+Every session ends holding a gap list, and each entry gets a repair matched to its type:
 
-The exact schedule matters less than session quality and consistency. A practical default that works across most academic contexts:
+| The gap | The repair |
+|---|---|
+| A fact would not come | A narrow card, or a quick written recall check |
+| A relationship would not come | Rebuild the local map from memory and compare |
+| The structure would not come | Rebuild the topic's whole structure from memory, compare it against the notes, then rewrite the notes into that structure — the organisation failed, so the organisation gets repaired |
+| Known material failed in a new shape | Raise accuracy on the base form first, then elaborate the production — explain, justify, extend — and only then vary the format |
+| The answer came, without confidence | Build a full answer sheet and compare it against the official one |
+| The procedure stumbled | Practise the execution itself, with feedback |
 
-| When | Session type |
-| --- | --- |
-| Same day | Encode and do a light retrieval pass on new material. |
-| Next day (or within 2 days) | First gap-finding pass for yesterday's content. |
-| End of week | Interleaved retrieval for all material from the last two weeks. |
-| End of month | Interleaved retrieval for all material from the last four weeks. |
-| 3–4 weeks before assessment | Comprehensive retrieval pass for all relevant content. |
+The transfer row is the one the evidence forces. Retrieval transfers at about d = 0.40 overall, but the transfer model predicts no gain at all when three things are absent together — congruent response demands, elaborated production, and high initial accuracy — so adding more interleaving to a foundation that is not yet accurate is not the lever — and neither are edge cases on their own, however much they look like the transfer fix.
 
-With this schedule, any given piece of material is encoded and re-encoded approximately six times in a month — through prestudy, first encoding, same-day retrieval, mid-week retrieval, end-of-week retrieval, and end-of-month retrieval. At strong encoding levels, the end-of-week pass for a full week's material takes a few hours; the end-of-month pass for four weeks takes roughly half a day.
+The first repair for any gap is the same method again. A failed test raises the material's stickiness on its own, and the second pass reads sharper because the miss is known — often revisiting the material in light of how it went wrong is the entire repair. A repeat failure means the connection itself was weak or wrong, so the escalation is a different connection built on purpose: step slightly out of scope, tie the item to problems already understood, or force the wide view with an analogy. Some items take several rounds of that, and several rounds is the normal course rather than a signal to grind the same route harder.
 
-The schedule can be followed loosely. Exact timing matters less than ensuring each layer happens.
+A session also needs a terminate condition, and the relearning literature supplies one: recall each item to a criterion of three correct productions, then relearn to the same criterion across about three widely spaced sessions. The first relearning session runs under two minutes per concept and later ones run shorter — a per-item budget instead of an ending set by fatigue.
 
-## Scheduling Heuristic
+Some sessions cost nothing, because the working day runs them. Any real use of the knowledge — building the plan, judging an approach, taking the wide view — is a retrieval session, and the move that makes it count is labelling it afterwards by order and type. A day that only demanded facts leaves the higher-order side untested, which is the gap a planned session then covers; and where the order of study is free but the order of work is fixed, studying what the coming weeks will demand collects those reps for free. [[wiki/Dimensions/Retrieval/Opportunistic Retrieval|Opportunistic Retrieval]] owns that practice.
 
-The exact schedule is less important than session quality. A useful default for declarative-heavy material:
+## Where it stops
 
-| Timing | Main Job |
-| --- | --- |
-| Same day | Micro-retrieval while encoding. |
-| 2-5 days | First gap-finding pass. |
-| 1-2 weeks | Relationship and question-based pass. |
-| 1 month | Larger mixed challenge. |
-| 2 months and beyond | Maintenance, transfer, and higher-order challenge. |
+The honest case against the system is its ceiling. Retrieval is only as good as the encoding under it: weak encoding means many gaps, long sessions, and the five-fold repetition per gap from earlier accumulating as debt — which is where the feeling of relearning the same material forever comes from. A study system whose only real technique is testing hits a ceiling that no amount of grinding gets past, because the work grows faster than the time available; the way through is [[wiki/Dimensions/Deep Processing|Deep Processing]], the dimension that decides how much retrieval is needed at all, with [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]] as the training ground that cuts the gap count at its source. The price is concrete even when the ceiling is far away: the layers cost the hours in the rhythm above and hold to them only on the stated retention premise, a session worth running needs its key or answer sheet built first, and the group protocol adds coordination on top.
 
-For procedural-heavy topics, move sooner toward varied execution practice. Declarative setup may still matter, but the system should quickly shift toward doing.
+The quit signals are specific. Checking the notes beginning to feel easier than producing the answer means the sessions have quietly become recognition — and the pull toward that state is measured, since learners reliably prefer the condition that teaches them less; [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming]] is the standing test for it. Few gaps surfacing while mastery is still low means the probe is too shallow, never that the material is held — [[wiki/Dimensions/Retrieval/Revision|Revision]] carries the session shapes that keep a probe honest. And sessions that have become smooth repetition of what already runs are REBIM wearing a schedule.
 
-## Session Rules
+What a working system feels like is checkable. Recall feels effortful but reachable — controlled strain, never flailing. Gaps stop being vague and become specific. Similar ideas get easier to tell apart as the mixing does its separating work, with the boundary from earlier still standing: near-identical material stays blocked. Spacing shows which knowledge is actually stable rather than recently seen. Every failure points somewhere — another pass, or re-encoding. One more expectation is a morale shape: when it becomes clear why re-reading was producing nothing, confidence drops before it climbs, because the problem is now visible; the drop is expected and it passes. The system budgets for that period — its own practice plan is two to four weeks of running several kinds of session before any further technique is added, because the skill is mostly selection and honesty, and both come from reps — and because technique added on top of unpractised retrieval produces a collection of methods nobody runs.
 
-- Retrieve before looking.
-- Write, speak, draw, or perform the answer fully.
-- Mark uncertainty as a gap even if the final answer is correct.
-- Check against the source, answer sheet, or worked example.
-- Decide whether the gap needs retrieval repetition or re-encoding.
-- Update the next session based on what failed.
+## The measurement
 
-## Gap Types
+**Retrieval time is never cut on purpose; it falls on its own.** Run this way, the sessions leave behind knowledge that can be rebuilt and used under conditions it was never practised in — and one number worth watching: how much retrieval the material still needs. As encoding improves, sessions find fewer gaps and shorten by themselves; deciding to do less because the encoding should be better by now is how the leak reopens unseen. Read in the other direction, the retrieval time still being spent is the measurement of what the encoding is leaving behind. Total study time may hold steady for weeks or months while that measurement falls, which is the normal course — accuracy comes first, and the efficiency follows from it, never the reverse.
 
-| Gap | Symptom | Repair |
-| --- | --- | --- |
-| Fact gap | Missing term, label, number, definition, or step | Narrow flashcard or quick recall check. |
-| Relationship gap | Cannot explain how ideas influence each other | Rebuild local chunk map. |
-| Structure gap | Cannot reconstruct the topic's big picture | Re-Skin the BHS map. |
-| Transfer gap | Can answer familiar questions but fails variations | Add interleaving and examples. |
-| Confidence gap | Correct answer but shaky reasoning | Generate full answer sheet and compare. |
-| Execution gap | Concept is known but performance fails | Practice the target procedure with feedback. |
+## Open questions
 
-## Relationship To Encoding
+- How is a procedural bottleneck told from a declarative one before the first complex challenge exists to fail at?
+- Where does the line fall between a gap that wants another retrieval pass and a gap that wants re-encoding?
 
-SIR improves the encoding system because retrieval failures reveal whether [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] produced a usable structure.
+## Links into the knowledge base
 
-If retrieval finds many lower-order gaps, do not automatically add hundreds of flashcards. First ask whether the encoding structure was weak. Better chunking can reduce the amount of isolated memorization needed.
+- [[wiki/Dimensions/Retrieval|Retrieval]] — the dimension these sessions sit inside.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — where the decision to run, keep, or change a session gets made.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] — judging what a failed session means before the plan changes.
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — the map both dimensions belong to.
+- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR - Turning Information into Usable Structure]] — the whole pipeline walked end to end.
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] — why a correctly performed session can still produce nothing.
+- [[wiki/Dimensions/Retrieval/Reconstruction - Retrieval Beyond Recall|Reconstruction - Retrieval Beyond Recall]] — why producing the structure beats producing the item.
+- [[wiki/Concepts/Memory Handling|Memory Handling]] — what memory does with what the sessions hand it.
 
-## LLM Use
+## Sources
 
-LLMs can help SIR by:
-
-- Generating question variations.
-- Creating mixed practice sets.
-- Producing counterexamples.
-- Checking answer completeness.
-- Asking follow-up questions after a weak answer.
-- Converting a map into retrieval prompts.
-- Generating questions at varied difficulty levels across mastery levels.
-
-**Use AI for:** saving time on low-cognitive tasks (collecting keywords, big-picture orientation); consolidating multiple sources into a single source to reduce split attention; generating test questions; asking questions to explore a topic like a tutor.
-
-**Avoid using AI for:** checking the truth of nuanced or complex claims (LLMs cannot reliably arbitrate on nuanced topics); bypassing the mental modeling work of chunking, evaluating relationships, and judging importance — these are the processes that create encoding. If AI does the structural thinking, the learner coasts into passive understanding mode without building the schema. For beginners especially, avoid using AI to chunk and organize information until there is a reliable internal sense of when cognitive load is passive versus active.
-
-The practical test: retrieve first, fully generate an answer, then use the model for feedback and calibration. When AI becomes the primary thinker and the learner becomes the editor, the benefit of retrieval practice disappears.
-
-## How It Should Feel
-
-SIR should feel like controlled strain. The point is to expose what can and cannot be reconstructed under spacing, variation, and discrimination.
-
-Good signs:
-
-- recall feels effortful but possible;
-- gaps become specific;
-- interleaving makes similar ideas easier to distinguish;
-- spacing reveals what is actually stable;
-- and failures point back to either retrieval practice or re-encoding.
-
-Warning sign: SIR has become recognition when checking notes feels easier than reconstructing first.
-
-## Related Concepts
-
-- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
-- [[wiki/Dimensions/Retrieval|Retrieval]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Dimensions/Retrieval/WPW|WPW]]
-- [[wiki/Dimensions/Retrieval/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
-- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
-- [[wiki/Concepts/Memory Handling|Memory Handling]]
-- [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]]
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
-- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
-- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
-- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-
-## Open Questions
-
-- What is the user's real weekly retrieval capacity?
-- Which current subjects are declarative-heavy, procedural-heavy, or mixed?
-- Should this vault include an SIR scheduler template?
+- Rowland (2014), *Psychological Bulletin* — testing-effect meta-analysis: recall beats recognition; with feedback d = 0.73, without d = 0.39.
+- Cepeda, Vul, Rohrer, Wixted & Pashler (2008), *Psychological Science* — the spacing ridgeline: optimal gaps near 20–40% of a one-week retention interval, 5–10% of a one-year one.
+- Karpicke & Roediger (2007, *JEP:LMC*; 2010, *Memory & Cognition*) — expanding versus equal spacing: equal wins at two days, no difference on text; delaying the first test helps long-term retention.
+- Latimier, Peyre & Ramus (2021), *Educational Psychology Review* — meta-analytic support for spacing out retrieval episodes.
+- Rohrer & Taylor (2006), *Applied Cognitive Psychology* — overlearning null at one and four weeks; the same practice distributed buys a large delayed gain.
+- Rohrer, Dedrick, Hartwig & Cheung (2020), *Journal of Educational Psychology* — preregistered classroom RCT: interleaved 61% vs blocked 37% one month later, d = 0.83.
+- Brunmair & Richter (2019), *Psychological Bulletin* — interleaving meta-analysis: g = 0.42 overall, −0.39 on word learning, similarity as the governing moderator.
+- Kornell & Bjork (2008), *Psychological Science*; Birnbaum, Kornell, Bjork & Bjork (2013), *Memory & Cognition* — the fluency illusion and the discrimination account.
+- Kornell, Hays & Bjork (2009), *JEP:LMC* — failed retrieval plus feedback beats never attempting.
+- Pan & Rickard (2018), *Psychological Bulletin* — transfer of test-enhanced learning: d = 0.40 overall; response congruency, elaborated retrieval, and initial accuracy decide it.
+- Rawson & Dunlosky (2022), *Current Directions in Psychological Science* — successive relearning: the three-correct-recalls criterion and its time costs.
+- Dunlosky, Rawson, Marsh, Nathan & Willingham (2013), *PSPI* — rereading rated low utility.
+- Fiorella & Mayer (2013), *Contemporary Educational Psychology*; Bisra, Liu, Nesbit, Salimi & Winne (2018), *Educational Psychology Review* — learning by teaching and self-explanation.
+- Springer, Stanne & Donovan (1999), *Review of Educational Research* — structured small-group learning in STEM, d ≈ 0.51.
+- Dresler et al. (2017), *Neuron* — mnemonic training roughly doubles word-list recall, confined to that demand.
+- Ayres & Sweller, in the *Cambridge Handbook of Multimedia Learning* — the split-attention effect.
+- Bastani, Bastani, Sungu, Ge, Kabakcı & Mariman (2025), *PNAS* — guardrailed tutoring +127% practice with no later harm; unrestricted access +48% practice, −17% unaided exam.
+- Woźniak, *Twenty rules of formulating knowledge* — card bloat as a formulation and comprehension failure.
+- Tulving & Thomson (1973), *Psychological Review* — encoding specificity; Chase & Simon (1973) — chunking capacity.
+- The system itself — the session moves, the dials and funnel, the schedule and its layers, and every operating default on this page (the ~6 passes a month, the 80–90% retention premise, the ~5× repetition per gap, the 70%-to-20% share of study time, the half-gone-in-a-week figure) — is the learning doctrine this wiki organises, stated as its own.

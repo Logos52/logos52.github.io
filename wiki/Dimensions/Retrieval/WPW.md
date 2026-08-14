@@ -1,10 +1,10 @@
 ---
+title: "WPW"
 type: technique
-status: seed
+status: developing
 created: 2026-05-06
-updated: 2026-05-06
-source-count: 2
-last-audited:
+updated: 2026-08-14
+written-by: fable
 tags:
   - learning
   - retrieval
@@ -13,132 +13,106 @@ tags:
   - hvrp
 ---
 
-**Part of [[wiki/Dimensions/Retrieval|Retrieval]]**
-
 # WPW
 
-Some topics need retrieval that moves from the whole, into the parts, and back to the whole again.
+*Part of [[wiki/Dimensions/Retrieval|Retrieval]]*
 
-## Summary
+Whole-part-whole is a test of whether a subject is understood or merely familiar, sat by teaching the whole of it out loud from memory — books shut, map out of sight — and scored by the places where the explanation would not come. The teaching moves from the big picture down into each part and back up again, and every place it stalls, goes vague, or turns circular — a term defined with the term — becomes the work list for what to learn next. Of the retrieval methods this vault carries, it is the most demanding.
 
-WPW is useful when the learner needs to test whether a topic is truly structured, not merely familiar. It forces the learner to explain the big picture, zoom into details, and return to the big picture without losing coherence.
+## How a pass moves
 
-In this wiki, WPW is primarily housed under [[wiki/Dimensions/Retrieval|Retrieval]] as an advanced high-volume retrieval method. It also supports [[wiki/Dimensions/Self-Regulation|Self-Regulation]] by training independent diagnosis and repair of understanding. It is one of the more demanding SIR methods and should usually come after solid encoding through [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]].
+The name describes a movement, and the movement is a loop rather than a route. A pass opens with the whole in plain language: what the topic is about, why it is worth knowing, what its major pieces are, how the pieces bear on each other — in that order, with no technical vocabulary anywhere. Then the teaching drops into a part, and it keeps returning to the big picture after almost every new idea: a sentence placing the part in the whole before it begins, a recap handing off through the whole when it ends. A pass with one descent and one return — overview, details, summary — has kept the technique's vocabulary and lost its mechanism. Because the whole is hard to locate from the middle of an explanation, the working discipline is a question kept written in view of the desk: *is what I am teaching right now relevant to the big picture, and would a listener see why?*
 
-## Core Pattern
+The pass also runs in two stages, each protecting against its own class of question. Stage one is the whole topic in layman's terms, importance explained the moment it arises — anchored to a real instance of where the thing operates, never promised for later — and any statement that drifts abstract immediately given something tangible to point at; this is the stage that holds up under conceptual questions, hard short-answer questions, and curveballs. Stage two attaches the technology: **labelling**, each term landing on a component the listener already understands, then **technical elaboration**, each component explained again in its own terms at the depth an exam would ask — the stage that holds up under detail, definition, and pure-recall questions. Withholding terminology that long is deliberate. A term hands the speaker a definition to fall back on; with the term gone, the concept has to be held up by its relationships alone, and every weak relationship becomes audible. Inside a single part, the label's placement has a test of its own: it arrives at the moment the listener would think *I understand this — I just don't know what it is called.*
 
-1. Whole: explain the topic's big picture, purpose, structure, and major chunks.
-2. Part: move into each chunk and explain the relevant details.
-3. Whole: return to the overall structure and explain how the parts affect each other.
+Taught this way, photosynthesis does not open with a definition of photosynthesis. It opens with plants: everywhere, green, and with no mouth or digestive system, so something else must be feeding them. Three things turn out to be involved — the leaves, the roots, and sunlight — and the leaf comes first, because it holds a green pigment that runs the reaction making the plant's food. Only then does the pigment get its name, chlorophyll, landing in a slot the listener has already built; then back up to the whole, to what the trunk and roots are for. Concept before label at every step is the move [[wiki/Dimensions/Retrieval/Reverse Explanation|Reverse Explanation]] owns in full, from the terminology crutch to calibrating the imagined listener.
 
-The point is to test whether the knowledge structure can be navigated from memory.
+## Running one
 
-## What WPW Tests
+A pass starts at least three days after the map it tests was finished; eight or nine days is fine. Too fresh, and everything is still equally available, so the weak relationships hide; given time to soften, they are the first thing the pass finds. The map itself comes from encoding through [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] beforehand — run before that structure has landed, a pass produces failure with nothing to diagnose.
 
-- Big-picture clarity.
-- Relationship strength between chunks.
-- Ability to move between abstraction levels.
-- Recall of details inside each part.
-- Whether technical terms are backed by real understanding.
-- Whether the learner can teach the topic without depending on the original source order.
+The map stays out of sight for the whole session. Teaching off it re-tests the shape already on paper, and memory is what breaks the lock of the source's order, since the best teaching flow often does not match the map's layout. What gets drawn instead is a doodle — a rough [[wiki/Dimensions/Deep Processing/Mindmaps|map]] sketched at speaking speed, symbols over words, disposable, there to track the flow of thinking rather than to be read again. Delivery is out loud or a whisper, and slow, the way a hand finds a faint bump by moving slowly over a surface; rushing reliably ruins a pass. The slowness is exploration time between points, never extra justification per point.
 
-## How To Use
+Repair happens inside the session. A gap stops the pass on the spot: the missing piece gets relearned and re-taught, sometimes three or four times before it holds — the failed explanation becoming the question that drives the next few minutes of study, [[wiki/Dimensions/Deep Processing/Inquiry-Based Learning|Inquiry-Based Learning]] in miniature. A session budgets for interruption rather than a clean run-through, and a pass ending with a tidy gap list and no repairs has produced half its value. Struggle on the first attempt is the technique working; a second and third pass still pay, because the knowledge has changed in between. None of it is quick — a couple of hours for one topic area, five to ten hours across two days for a subject's revision — and those figures, like every number in this section, are this system's operating defaults rather than findings. The hours still count as time-efficient on this system's own accounting, because only the delivery is slow: underneath it the relationships are being navigated fast, so an hour of the pass buys more than the clock suggests.
 
-- Wait until the initial map or structure is reasonably formed.
-- Teach out loud from memory.
-- Sketch a rough map while teaching if it helps reveal structure.
-- Begin with plain-language explanation before leaning on technical labels.
-- Use technical detail after the big picture is clear.
-- Mark every point where the explanation becomes vague, circular, or source-dependent.
-- Re-encode or retrieve the weak parts before the next WPW pass.
+A session this size is what this vault calls high-volume retrieval practice: one long sweep pulling a whole topic out of memory at once, relationships and details together, at its best in the early and middle stretch of revision because it finds weak spots fast while covering the topic comprehensively. The other common sweep, the brain dump — writing or drawing everything producible with every source closed — tests relationships less directly; preferring the whole-part-whole movement over it is a stated preference rather than a finding, and Research Foundations below carries the counter-evidence. Sweeps sit on a spaced ladder whose gaps come from the deadline rather than the calendar: a useful interval runs roughly 10–20% of the time until the material is needed, which is the three-day rule's reason and the way to move it. The default ladder gives the first teaching pass three to four days after the map, challenge questions four to five days after that, answers to those questions one to two weeks on, and a group quiz roughly two weeks after that — each gap there to allow forgetting, so the pass tests durable memory rather than this morning's. Inside a teaching week it compresses to checkpoints at end-of-week and the two-week mark, each one making the sessions after it more targeted:
 
-## When To Use
+| When | The work |
+|---|---|
+| Before the class | [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] through inquiry questions, mapping to layers 1–2 of [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]], ideally 3 |
+| During | Consolidating layers 1–3; for maths and physics, solving problems |
+| Same day after | Layer 4; [[wiki/Dimensions/Deep Processing/Skin|Skin]] the maps; flashcards and own test questions written |
+| Mid-week, when volume is high | A whole-part-whole pass over the week so far |
+| End of week | A pass over what is new since mid-week, or the full week; own test questions answered or swapped with a study group |
+| Three to four weeks on, and before exams | Brain dumps and practice papers |
 
-Use WPW for:
+[[wiki/Dimensions/Retrieval/Flashcards|Flashcards]] run daily in [[wiki/Learning Craft/Microlearning System|Microlearning System]] pockets, no dedicated session — the best-evidenced line in this schedule. And early passes are worth recording: the thing to listen for on playback is the label arriving before its explanation, and the ear trains faster on a study partner's recorded pass, fault predicted before it plays out, because a fault you cannot hear in someone else is one you commit without noticing.
 
-- End-of-week retrieval.
-- Two-week revision checkpoints.
-- Pre-exam integration.
-- Essay planning.
-- Complex topics where relationships matter more than isolated facts.
-- Diagnosing whether BHS produced a usable map.
+## What the pass measures and what it costs
 
-Do not use WPW as the first retrieval method for every topic. It is powerful because it is demanding.
+One pass reads out most of the state of a topic: whether the higher-order structure is clear and its important relationships correctly ordered; whether the joins between layers hold, down into a part and back up without a seam; whether the details inside each part come; and whether the technical terms are backed by anything — mistaking a part's name for a grasp of its causal role is one of the three measured ways understanding gets overestimated. It also reads out independence from the source, since teaching from memory exists to catch the explanation that can only follow the order it was learned in. The reading can be a number: understanding rated 0–10 before and again after the pass drops, and the size of the drop is the finding — thirty seconds of procedure. The three producers of the overestimate are what to listen for: leaning on support that happens to be in the room, a functional description where a mechanism was needed, a name where a causal role was needed.
 
-## Failure Modes
+That coverage is the case for the cost. One pass demands recall, explanation, analysis, judgment of what matters, and fresh connections at once — most of the ladder in [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] — as a claim about what the task asks rather than a measured property; and when the earlier chunking grouped things by why they matter, the teaching tracks the map closely, which is why one pass can test so much. The hours are the price, and the return curve is this system's own teaching model for paying it. Conventional revision returns steeply and then flattens: heavy late hours buy three or four points, when nearly the same score was reachable much earlier for about a third of the time, while examinable material sits outside the tunnel of what keeps being re-revised. A gap-seeking pass returns moderately and does not flatten, because time only goes where a gap was just found; the curve levels off only when no gaps are left. The one outside anchor agrees — extra practice past the point of initial success has measured out to no gain at one or four weeks. Passes belong inside [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] rather than on their own, and what they prepare is use — exams, essays, real problems — with the caveat that transfer beyond the practised form is where retrieval practice most often fails. The checkable expectation follows: a first pass that produced no gaps did not succeed; it failed to bite.
 
-| Failure | Signal | Repair |
-| --- | --- | --- |
-| Reciting source order | Explanation follows the lecture exactly. | Rebuild the whole from your own chunk structure. |
-| Detail collapse | Big picture is clear but details vanish. | Add targeted lower-order retrieval. |
-| Big-picture collapse | Details are recalled but cannot be integrated. | Re-Skin the BHS map. |
-| Fluent vagueness | Explanation sounds smooth but avoids precision. | Add technical labels and concrete examples. |
-| Overlong session | Teaching becomes unfocused. | Pick one topic boundary and one mastery target. |
+## Reading the session
 
-## How It Should Feel
+The first signal is comfort. A pass that feels easy is almost certainly being done wrong — even very strong students struggle on first attempts — and a pass in which no reverse explanations appeared did not happen at all, whatever else looked fine. The commonest silent failure is the terminology crutch, and it is audible: the topic has three components, here are their names, here is each definition in turn. The sequence feels natural, which is the tell. A working pass feels slow, with a hyper-awareness of what to say next — the live evaluation of your own structure — and a steady anxiety of finding gap after gap, which is the overestimate breaking; the anxiety is the intended outcome. Good signs are specific: a first whole that coheres, a second whole cleaner than the first, details that can be tied to the structure they support.
 
-WPW should feel like moving between the whole structure and the parts without losing orientation. It should expose whether you can teach the topic, not just remember fragments.
+Gaps cluster in two places, the transitions between layers and single details never properly memorised, and each signature has its repair. Details that come nowhere take targeted lower-order retrieval on those items. An explanation that can only follow the lecture's order takes a rebuild from your own chunk structure. A big picture that cannot be stated without diving into detail means the understanding is fact-based, and the map gets rebuilt into something redrawable closed-book — the [[wiki/Dimensions/Deep Processing/Skin|Skin]] cleanup, run again on the map that failed. Trouble saying *why* something matters points at the chunking rather than the recall: the chunks were grouped by shared information instead of shared importance, which is [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]'s territory. Smooth delivery that avoids precision takes technical labels and concrete instances, because fluency is not evidence. And a sprawling, unfocused session is a scope problem — one topic boundary, one mastery target, at the same slow pace — never a speed problem.
 
-Good signs:
+Past these sit the faults that surface once the obvious ones are cleared: justifying a point whose importance has already landed; not knowing which points deserve detailed justification at all, so a good line of reasoning drags out to several times its length; and traversing too slowly between the logic layer and the detail, where the target is reaching the detail sooner rather than compressing the explanation. Early on, flow outranks fluency — stuttering and unpolished delivery fix themselves, doubling back is the thing to watch. The listener stays imagined and assumes nothing, the ground-floor build skipped only under genuine confidence and a term allowed early only when it is light and wrapped in context. The imagining has a reason: a listener who already knows the material quietly supplies the structure the pass exists to make you produce. The evidence below adds one correction — preferring a real listener who interrupts wherever one exists — and the reason marks its boundary: the interrupting helps, the already-knowing does not.
 
-- the first whole pass gives a coherent overview;
-- the part pass reveals specific gaps;
-- the second whole pass is cleaner than the first;
-- and you can explain how details support the larger structure.
+## Research Foundations
 
-Warning sign: WPW has become a summary exercise when the whole stays vague and the parts stay disconnected.
+The position underneath this page is that depending on a good teacher is a bad position to be in, and the technique exists to end it. The mechanism runs in four steps. While material is basic, a clear teacher removes the need to work anything out, and early results reward the arrangement; a learner with worse teaching is forced to build the skill of managing difficulty while the material is still easy, which is the cheap time to build it. When the material turns advanced, the well-taught learner needs that skill for the first time, has to build it against hard content, and the results invert. The marker of the condition is results that track how good the teaching was, or how naturally interesting the subject felt — a learner in control of their own learning cannot really have the dependency, because teaching has become an adjunct to their process. The strongest reachable evidence comes from random assignment of students to instructors: the instructors whose students did best in the introductory course had students who did significantly worse in the follow-on courses, and student evaluations predicted contemporaneous achievement while failing to predict follow-on achievement. Two nearby literatures do not carry the claim: fade-out names the decay of early-intervention effects — the canonical case falls from 0.75 SD at age five to a non-significant 0.08 by age eight — and randomised tutoring trials pool at +0.37 SD, which points the other way. So the dependency chain is this page's model resting on the instructor study, and the claim that this technique trains the way out is the page's model too, untested.
 
-## Teaching to Learn: High-Level Framing and HVRP
+The teaching half has direct measurement. Preparing to teach returns about g = 0.35; preparing and actually delivering returns about g = 0.56, larger again when the teaching is interactive, and learners who delivered an explanation matched preparation-only learners on an immediate test while beating them on a delayed one — the delivery is the intervention, not the plan. Speaking aloud has separate support with a boundary, since the laboratory effect is a within-list distinctiveness effect and backs speech only loosely at topic scale; the teaching literature is the load-bearing half. Where a real listener who interrupts is available, the evidence prefers them to the imagined one — a correction to this technique's usual advice. In-session repair is the best-supported design choice on the page: retrieval with feedback substantially outperforms retrieval without it, and a failed attempt followed by correction beats never attempting. The diagnostic core is measured directly: people rate their understanding high, then far lower after attempting a step-by-step causal explanation, and the illusion is strongest for explanatory knowledge specifically — which is why a recognition check cannot substitute for a teaching pass.
 
-It is not good to be dependent on a good teacher. By developing the skills to be your own best teacher, you will always be able to teach yourself.
+The boundaries are just as real. Difficulty that slows acquisition improves retention and transfer only when the learner can meet it; without the prerequisite structure the same difficulty is plain failure, and retrieval's benefit is moderated by initial success — high initial performance is one of the conditions for transfer — which is the evidence under running this only after encoding has landed. Whole-first is not universal either: decades of skill-acquisition comparisons find part practice winning when a task is complex but loosely organised, its components difficult yet barely interdependent, and whole practice winning when the components interlock — computational procedures and discrete, weakly connected techniques route elsewhere first. The multi-order claim keeps its honest size: the taxonomy of thinking levels is real, but no study measures any technique's coverage of it, and the revised taxonomy relaxed its own hierarchy, an empirical probe finding overlap among non-adjacent levels. The published whole-part-whole model is itself a sequence for designing instruction for other people; running it as a closed-book self-test is this system's adaptation, which nothing in the literature has tested. The nearest support is indirect — teaching works, and prompted self-explanation returns about g = 0.55 across 69 effect sizes — while the preference for this over brain dumps leans against the nearest evidence, free recall being the strongest single retrieval format measured and practised retrieval having beaten elaborative concept mapping head to head. The case against, in full: the most expensive method in this vault, wrong for weakly interdependent procedural material, useless before encoding has landed, and untested in the form taught here. The quit signals are behavioural — a pass producing no gaps and no repairs was a ritual rather than a method, the general law in [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] — and two in a row mean the material or the stage is wrong for it.
 
-This is where the Whole-Part-Whole (WPW) technique becomes especially powerful. WPW is a highly multi-order method that covers all levels of retrieval in Bloom's revised taxonomy — from basic recall through application, analysis, evaluation, and creation of new connections. This multi-level coverage is what makes the technique so effective for building durable, usable knowledge.
+## The finish line
 
-A significant amount of deliberate practice is required to perform WPW correctly. Even those with strong competence in the other methods in this system can take months to truly master it.
+It can be felt from inside. The cycle — find a gap, learn it, re-teach it — keeps turning and comes back shorter each time, confidence rising with each return, until the questions run out: nothing about the topic, from any angle, would surprise you. Reaching that state takes deliberate practice over months, even for learners already fluent with mapping and retrieval. What the months buy is the test from the opening, passed — the subject taught whole from memory, nothing open, gaps found and repaired without help — which is [[wiki/Dimensions/Self-Regulation|Self-Regulation]]'s ideal standing: a learner whose results no longer depend on the quality of anyone's teaching.
 
-### Research Foundations
+## Related pages
 
-- **Good teacher dependency and the fade-out effect**: Heavy reliance on external tutoring can create dependency that undermines long-term independent learning. The skills developed through WPW directly counteract this by training you to diagnose and repair your own understanding without constant external guidance. Research on tutoring dependency and the fade-out effect supports this.
-- **WPW in adult education research**: Malcolm Knowles outlines the WPW model in *The Adult Learner: The Definitive Classic in Adult Education and Human Resource Development*. Academic work on threshold concepts and curriculum design (e.g., Barradell & Kennedy-Jones, 2015) and practical strategy integration (e.g., Mowling & Heidorn, 2013) further supports its value for deep, relational understanding.
+- [[wiki/Dimensions/Retrieval|Retrieval]] — the parent dimension: reconstructing knowledge from memory as the primary learning mechanism, with this page as its most demanding method.
+- [[wiki/Dimensions/Retrieval/Reverse Explanation|Reverse Explanation]] — owns concept-before-label in depth: terminology crutching, the imagined listener's calibration, and the easy-means-wrong alarm.
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — the encoding workflow that builds the map a pass tests, and the home of the cleanup pass that repairs a collapsed big picture.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — the scheduling system these passes sit inside: spacing, interleaving, and a method menu by knowledge type.
+- [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]] — the long reference for choosing a retrieval format to match the knowledge being tested.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — the steering dimension; independent diagnosis and repair of understanding is its territory.
+- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] — the five-level ladder this page means whenever it says a pass demands several orders at once.
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] — why a pass that finds no gaps counts as a ritual rather than a method.
+- [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]] — the build order behind every mention of layers: main causal lines first, then key ideas, then detail.
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]] — where the grouped-by-information-instead-of-importance diagnosis lands.
+- [[wiki/Dimensions/Retrieval/Revision|Revision]] — the vault's owner of general revision strategy, which points here for whole-topic sweep sessions.
 
-### WPW as High-Volume Retrieval Practice (HVRP)
+## Open questions
 
-WPW is a prime example of **high-volume retrieval practice (HVRP)**. It is excellent during the early to mid stages of revision because it lets you catch mistakes and target weaknesses quickly while covering the topic comprehensively — including both relationships between ideas and specific details.
+- What should a pass leave behind — an answer sheet, a kept map, the audio, or a short reflection log? Only two points are settled: the doodle is disposable, and recording an early pass is worth it.
+- How should this run on procedural, weakly interdependent material — computational procedures, discrete techniques — where part practice has the better evidence?
 
-Another common form of HVRP is brain dumps (linear or mind-map style). While useful, brain dumps tend to be less effective at testing relationships and conceptual integration compared to the structured whole–part–whole movement of WPW.
+## Sources
 
-**Recommendation**: Use HVRP methods such as WPW as part of a broader spaced retrieval system. This prepares you to use knowledge for exams, essays, and real problem-solving rather than just recognition.
-
-### Implementing HVRP with WPW
-
-Schedule dedicated HVRP sessions for your **end-of-week** or **two-week** revision checkpoints. This keeps subsequent sessions more targeted and efficient.
-
-Example weekly learning schedule with HVRP integration:
-
-| Timing | Activity |
-| --- | --- |
-| Before class/lecture (weekend prior or weeks ahead) | Prestudy with inquiry-based learning via Bear Hunter System, creating at least a basic mind map up to layers 1–2 (ideally layer 3). |
-| During class/lecture | Consolidate layers 1, 2, and 3. For Maths/Physics, use the time to practice applying techniques and solving problems. |
-| Same day after class | Consolidate and add layer 4. Skin your mind maps and create flashcards (and test questions) for yourself. |
-| Mid-week (for high weekly volume) | HVRP using WPW on the content covered so far. |
-| End of the week | HVRP using WPW on the new content since mid-week (or the full week's material if no mid-week session). For additional revision, answer the test questions you created or share them with a study group. |
-| ~3–4 weeks later + before major tests/exams | HVRP via brain dump (linear or mind map) and practice papers. |
-
-Consistently complete flashcards daily through microlearning in small pockets of time. Flashcards should not require their own dedicated session.
-
-Mastery of this level of retrieval takes time. Treat early WPW sessions as diagnostic practice rather than expecting perfect performance immediately.
-
-## Related Pages
-
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]]
-- [[wiki/Dimensions/Retrieval|Retrieval]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
-
-## Open Questions
-
-- What should the user's WPW checklist look like for a real current subject?
-- Should WPW outputs be saved as answer sheets, maps, audio notes, or short reflection logs?
+- Swanson, R. A., & Law, B. (1993). Whole-part-whole learning model. *Performance Improvement Quarterly*, 6(1), 43–53. Free PDF: https://richardswanson.com/publications/Swanson(1993)Whole-Part.pdf
+- Knowles, M., Holton, E. F., & Swanson, R. A. *The Adult Learner* — chapter "Whole–Part–Whole Learning Model" (ch. 18, 6th ed.). https://www.taylorfrancis.com/chapters/mono/10.4324/9780080481913-18/whole-part-whole-learning-model-malcolm-knowles-elwood-holton-iii-richard-swanson
+- Kobayashi, K. (2019). Learning by preparing-to-teach and teaching: a meta-analysis. *Japanese Psychological Research*, 61(3). https://onlinelibrary.wiley.com/doi/10.1111/jpr.12221
+- Fiorella, L., & Mayer, R. E. (2013). The relative benefits of learning by teaching and teaching expectancy. *Contemporary Educational Psychology*, 38, 281–288; and (2014) Role of expectations and explanations in learning by teaching, 39, 75–85.
+- Bisra, K., Liu, Q., Nesbit, J. C., Salimi, F., & Winne, P. H. (2018). Inducing self-explanation: a meta-analysis. *Educational Psychology Review*, 30(3), 703–725. https://link.springer.com/article/10.1007/s10648-018-9434-x
+- Rozenblit, L., & Keil, F. (2002). The misunderstood limits of folk science: an illusion of explanatory depth. *Cognitive Science*, 26(5), 521–562. Free PDF: https://cogdevlab.yale.edu/sites/default/files/files/rozenblit%20&%20keil%20%202002.pdf — plain-language entry: https://thedecisionlab.com/biases/the-illusion-of-explanatory-depth
+- Carrell, S. E., & West, J. E. (2010). Does professor quality matter? Evidence from random assignment of students to professors. *Journal of Political Economy*, 118(3), 409–432. Free PDF: https://faculty.econ.ucdavis.edu/faculty/scarrell/profqual2.pdf
+- Nickow, A., Oreopoulos, P., & Quan, V. (2020). The impressive effects of tutoring on PreK-12 learning. NBER w27476. https://www.nber.org/system/files/working_papers/w27476/w27476.pdf
+- Bailey, D., Duncan, G. J., Odgers, C. L., & Yu, W. (2017). Persistence and fadeout in the impacts of child and adolescent interventions. *Journal of Research on Educational Effectiveness*, 10(1), 7–39. https://pubmed.ncbi.nlm.nih.gov/29371909/
+- Rowland, C. A. (2014). The effect of testing versus restudy on retention. *Psychological Bulletin*, 140(6), 1432–1463. https://pubmed.ncbi.nlm.nih.gov/25150680/
+- Cepeda, N. J., Vul, E., Rohrer, D., Wixted, J. T., & Pashler, H. (2008). Spacing effects in learning: a temporal ridgeline of optimal retention. *Psychological Science*, 19(11), 1095–1102.
+- Karpicke, J. D., & Blunt, J. R. (2011). Retrieval practice produces more learning than elaborative studying with concept mapping. *Science*, 331, 772–775.
+- Pan, S. C., & Rickard, T. C. (2018). Transfer of test-enhanced learning. *Psychological Bulletin*, 144(7), 710–756.
+- Kornell, N., Hays, M. J., & Bjork, R. A. (2009). Unsuccessful retrieval attempts enhance subsequent learning. *JEP: Learning, Memory, and Cognition*, 35(4), 989–998.
+- Koriat, A., & Bjork, R. A. (2005). Illusions of competence in monitoring one's knowledge. *JEP: Learning, Memory, and Cognition*, 31(2), 187–194; and Kornell, N., & Bjork, R. A. (2008) on the same illusion.
+- Bjork, R. A., & Bjork, E. L. (2011). Making things hard on yourself, but in a good way: creating desirable difficulties to enhance learning.
+- MacLeod, C. M., Gopie, N., Hourihan, K. L., Neary, K. R., & Ozubko, J. D. (2010). The production effect: delineation of a phenomenon. *JEP: Learning, Memory, and Cognition*, 36(3), 671–685.
+- Fontana, F. E., Furtado, O., Mazzardo, O., & Gallagher, J. D. (2009). Whole and part practice: a meta-analysis. *Perceptual and Motor Skills*, 109(2), 517–530. https://pubmed.ncbi.nlm.nih.gov/20038005/ — carrying Naylor, J. C., & Briggs, G. E. (1963), the task complexity/organisation hypothesis.
+- Rohrer, D., & Taylor, K. (2006). The effects of overlearning and distributed practise on the retention of mathematics knowledge. *Applied Cognitive Psychology*, 20, 1209–1224.
+- Krathwohl, D. R. (2002). A revision of Bloom's taxonomy: an overview. Free PDF: https://cmapspublic2.ihmc.us/rid=1Q2PTM7HL-26LTFBX-9YN8/Krathwohl%202002.pdf
+- Probing internal assumptions of the revised Bloom's taxonomy. *CBE—Life Sciences Education* (2021). https://www.lifescied.org/doi/10.1187/cbe.20-08-0170
