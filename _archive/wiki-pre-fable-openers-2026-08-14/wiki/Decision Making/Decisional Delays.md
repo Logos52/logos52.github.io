@@ -18,7 +18,7 @@ tags:
 
 # Decisional Delays
 
-Between finishing one task and starting the next there is a stretch that appears on no schedule. That's where the next move usually gets decided — which task, what first step, where the materials are — and deciding it there is expensive: the deciding eats the attention the next start needed, and whatever is already open on the desk gets first claim on it. That stretch is a decisional delay, and closing it costs a few minutes the night before: write the next task, its first action, its materials, and a fallback for when it's blocked. Then finishing something is only finishing it. The next start is already decided.
+A decisional delay is the unplanned stretch between a finished task and the next start, closed by writing tonight's next task, start, stop, materials, and fallback. A day can have enough hours and still lose the thread at every handoff; the hidden minutes break the absorption the next block needs.
 
 ## What the gap costs, and how to see it
 

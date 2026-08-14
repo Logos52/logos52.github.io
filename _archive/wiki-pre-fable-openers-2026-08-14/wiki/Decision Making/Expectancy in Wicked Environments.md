@@ -17,7 +17,7 @@ tags:
 
 # Expectancy in Wicked Environments
 
-There is a usable estimate inside almost any messy choice, and this page is how to get it out. The exact version needs posted odds — chance times size on each side, read the sign — and the choices that matter almost never post them. So the method is three cuts: delete everything small, weigh only the heavyweights that survive, rate those in bands — imperative down to insignificant for size, guaranteed down to low for chance. Crossing the two bands is the whole calculation, and it is small enough to hold in a head.
+Expectancy in a no-odds setting is a two-lever comparison of the large survivors, chance times size on each side. A wicked environment, here, is a choice that will not say what winning is, may only offer a less-bad loss, and has more moving parts than a head can multiply. The job is a usable estimate, made by deleting the small, weighing the heavy, and rating the survivors in bands of size and chance.
 
 ## The game, then the setting that will not post odds
 

@@ -16,7 +16,7 @@ tags:
 
 # Environment Design
 
-Environment design is arranging the room so it makes part of the decision for you. The two moves are placement: the desired action sits where it is seen — file open, headphones where your hand goes — and the competing action costs one more reach, phone in the other room. The resistance you would have spent at the moment of temptation gets spent once, in the arrangement, and the room pays it back every block after. The target is not emptiness. The target is a room that presents the next action.
+A desk holding only the current work, headphones already cued, and clothes on the floor start the next block without a fresh decision. The competing action is one more reach away. The room does not have to be empty.
 
 The room is part of the system that produces a day. It cues an action, consumes attention, creates friction, and shapes the default path. Those four jobs run whether anyone designed them.
 

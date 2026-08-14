@@ -18,7 +18,9 @@ tags:
 
 # How Chinese Characters Work
 
-A character is the written form of a spoken word — a word that had a sound and a meaning before anyone wrote it down, and keeps both when it reaches the page. The parts of the written form each hold a job in that service: some picture a thing, some contribute a sense, some cue a range of syllables, some do nothing at all. Read the parts by their jobs and the thousands of characters stop being arbitrary drawings: you can predict a meaning domain and a sound range for a character you have never met, and rebuild one that has slipped. This page is the map of that model. The child pages carry the load.
+The popular account treats each Chinese character as a picture of an idea that never needed to be spoken.
+
+This page takes the opposite cut. The shape is there to trigger a spoken word — one form bound to that word's sound and meaning.
 
 ## What the parts do
 

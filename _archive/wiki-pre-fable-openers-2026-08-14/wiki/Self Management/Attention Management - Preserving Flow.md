@@ -17,7 +17,7 @@ tags:
 
 # Attention Management: Preserving Flow
 
-Attention management is running the day as an ordered list instead of a grid of clock times. The fixed anchors stay fixed — leaving the house, dinner, sleep — and between them the plan is just an order: when a block ends, the next item starts, already chosen the night before. What that buys is the seams. The minutes after a finish are where a day leaks — messages, food, easier work — and a day run as a list has nothing left to decide there. The score at the end is whether the intended work arrived, not whether the clock was obeyed.
+Attention Management runs the day as an ordered list between the day's fixed anchors — leaving the house, dinner, sleep — so a finished block starts the next item instead of a planning reopen. Attention Management scores the day by whether the intended work arrived with the thread still intact; time management scores it by whether the clock was obeyed.
 
 ## Direction and depth
 

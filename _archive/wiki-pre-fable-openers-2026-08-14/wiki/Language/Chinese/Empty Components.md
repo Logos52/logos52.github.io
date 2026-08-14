@@ -16,7 +16,7 @@ tags:
 
 # Empty Components
 
-夫 is 大 plus one stroke, and the stroke does nothing: it pictures nothing, carries no sense, cues no sound. It is there so this word does not share a glyph with 大. That is an empty component — leftover form with no job — and two accidents produce it: a mark added to split two words apart, or the wreckage of a drawing that collapsed, like the 身-lookalike in 射. The verdict is worth having because it ends a search. Give the leftover its one-line story, render it as glass in the memory image, and go on. There is no hook in those strokes to find.
+An empty component is leftover form with no sound or meaning job, the extra stroke in 夫 or the 身 lookalike in 射. Two accidents produce it: a mark added so two words no longer share one glyph, or wreckage of a part that once did work. It is the fourth role beside form, meaning, and sound — the leftover that [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] has no job for.
 
 ## Distinguishing marks
 

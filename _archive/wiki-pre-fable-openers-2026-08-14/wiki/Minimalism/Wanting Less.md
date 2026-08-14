@@ -16,7 +16,7 @@ tags:
 
 # Wanting Less
 
-Wanting less runs on a single question, asked at the moment of wanting: what is this purchase supposed to say, and to whom? A lot of wanting is a broadcast — the object is there to tell someone, sometimes yourself, what you are worth — and naming the broadcast is usually the end of it. The jacket that is still a jacket after the question can come home; it was never the target. The boundary this page draws is motive, not amount.
+Sasaki writes that we use objects to tell people how valuable we are. The same broadcast runs at the self. Naming what the object is supposed to say, and to whom, often ends the impulse.
 
 ## The question
 

@@ -15,7 +15,9 @@ tags:
 
 # Exit Strategy For Objects
 
-An exit strategy is a decided way for an object to leave — used up, returned, sold, given, discarded — named at the door, before the object gets to stay. A sale carries a deadline with it: two weeks, even when the money is small, because chasing a small recovery is exactly how a sold-someday chair spends a month in the hallway. What the named exit buys shows up downstream: hesitation, resale delay, storage, and the guilt at removal time all drop, because the path out was decided while deciding to let it in.
+Every incoming chair already has a named way out at the door, plus a two-week deadline if the path is a sale. The path is chosen before the object sits. A small unpaid recovery is how selling stalls for weeks.
+
+An exit strategy is a decided way for the object to leave, named before or as soon as it arrives.
 
 ## How an object leaves
 
