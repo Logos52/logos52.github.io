@@ -17,7 +17,7 @@ tags:
 
 # Reverse Causality
 
-Reverse causality, as this page uses it, is a fault in how a chunk gets built: you justify why one idea matters by pointing at a second idea, and the second is itself something you would have to memorize. The two now hold each other up, and nothing outside the pair explains either one, so a move meant to reduce what you carry has added an item to it. The name is borrowed rather than shared — this is not the statistical case where an outcome turns out to cause its predictor. The repair is to anchor the first idea in things you already hold: what else it influences, what produces it, what mechanism it shares. Then the link to the second can be rebuilt from more than one direction.
+Justifying one idea's importance through a second memorized idea adds a memory item instead of removing one. That closed loop is reverse causality here — not the statistics term, where the outcome caused the predictor.
 
 ## The loop you can see
 

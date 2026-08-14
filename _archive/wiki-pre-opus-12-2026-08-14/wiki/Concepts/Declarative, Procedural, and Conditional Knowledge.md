@@ -15,7 +15,7 @@ tags:
 
 # Declarative, Procedural, and Conditional Knowledge
 
-Under any skill there are three separate jobs, and holding one of them does not give you the others. The first is knowing what the thing is and what it accomplishes. The second is running it without spending attention on the running, which is a different achievement and arrives later. The third is judging, in a situation you have not met before, that this is the move to reach for. The labels are the psychology terms — declarative, procedural, conditional — and keeping them apart is what makes them worth having: when a technique you understand completely still fails in performance, the job that is missing tells you which practice to do next.
+Knowing what to do, doing it without thinking, and judging when to use it are different jobs. The names are declarative, procedural, and conditional knowledge, and explanation delivers only the first. A step still chosen on purpose is not yet procedure, and a technique can be understood completely and still not be performable.
 
 ## Where the boundaries sit
 

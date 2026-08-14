@@ -15,7 +15,7 @@ tags:
 
 # Writing with a Structure Engine
 
-You can hand a model most of the labor in a piece of writing and keep everything that makes it yours, and it comes down to how each request is phrased. One job per ask. Either the model is filling a shape — break this scene into beats, order these sections, check this draft against that outline — or it is placing a line you already wrote, moved across verbatim with no rewording in transit. The two never travel in the same request, because a paragraph asked to be structured and worded at once is where your exact language quietly disappears. How confident the model sounds about the result clears nothing; the last call on what ships stays with you.
+A language model is reliable at breaking and ordering a piece of writing, and unreliable at details and at memory. The work is split that way: the model breaks, orders, checks, and places, and the person holds the lines, the rulings, and the last call on what ships. Dated 2026-07, none of the details ships unverified, nothing settled survives a rewrite without a machine check, and confidence clears nothing.
 
 ## One job per ask
 

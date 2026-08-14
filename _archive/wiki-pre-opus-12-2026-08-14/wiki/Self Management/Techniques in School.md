@@ -14,7 +14,7 @@ tags:
 
 # Techniques in School
 
-You can protect the hours that actually teach you something without fighting anyone about grades, and the mechanism is a timer. Weighted work gets a box — forty minutes, whatever is honest for the task — and when the box closes the work is handed in at the standard the gate asked for rather than the standard you could have reached with three more hours. That is a time-box rather than a time-block, and the hard stop at the end is the entire difference. What it buys is the leftover, which is where a real method gets to run. On a notebook nobody will ever inspect, that means using whatever encodes rather than whatever resembles the assignment.
+Parkinson's Law claims work expands to fill the time given to it. The school move is a hard stop on hours that have not earned the right to grow: when the box ends, that work stops. Teacher-set methods often lag the better ones; protect the better method on unweighted work, and on weighted work satisfy the gate, then learn in the leftover time.
 
 ## Inside the room
 

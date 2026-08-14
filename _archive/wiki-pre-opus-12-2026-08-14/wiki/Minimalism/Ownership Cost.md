@@ -15,7 +15,7 @@ tags:
 
 # Ownership Cost
 
-Ownership cost is everything an object continues to take from you after it is paid for: the space it occupies, the cleaning and setup it needs, the attention it draws, the storage it ends up requiring, and the decision about how it will eventually leave, which arrives whether or not you planned for it. The purchase price was the entry fee and it is the smallest part. Reading an object this way changes what you keep, because the question stops being what you paid and becomes what it is still charging. Three questions get most of the way there: how often it is actually used, what it occupies while it waits, and whether you would buy it again today.
+Ownership cost is the charge an object keeps levying after it is paid for. The purchase price is only the entry fee. Keeping a mistake does not refund it.
 
 Objects continue charging through space, maintenance, cleaning, attention, storage, setup friction, and future decisions.
 

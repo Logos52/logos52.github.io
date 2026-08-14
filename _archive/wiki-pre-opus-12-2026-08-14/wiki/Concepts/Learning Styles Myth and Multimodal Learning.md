@@ -15,7 +15,7 @@ tags:
 
 # Learning Styles Myth and Multimodal Learning
 
-A widely held idea about learning says that each person has one channel that suits them best — seeing, hearing, reading, or doing — and that teaching should be matched to it. The preference half of that is real, and nobody is imagining it: there are channels you reach for and channels you avoid. The instruction half is what has not held up. Matching material to a declared type does not outperform running the same material through several channels, so the usable version is multimodal: the same content met more than one way. A stated preference then becomes information about what you will enjoy rather than a constraint on how the next hour gets spent.
+Running the same material through several channels beats matching it to a declared learning type. The folk model says each person owns one best channel, and people still introduce themselves as visual learners. Preferences stay; the ceiling is set by activities you cannot sleepwalk and by stacking the channels school never trained.
 
 ## Where the identity comes from
 

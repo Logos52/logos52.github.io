@@ -14,7 +14,7 @@ tags:
 
 # Time Management, Attention & Scheduling
 
-Time management in this vault covers three questions, answered in order: which work deserves a clock at all, what one hard target needs in order to survive the day, and how an ordinary day still runs when nothing is going particularly well. Task management settles the first, deciding whether a piece of work is worth timing. Scheduling puts what survives onto a clock, with one or two items named as the ones allowed to break everything else. Attention and focus hold the thread once the day is actually underway. This page is the door and the order; the pages beneath it carry the methods.
+Time management in this vault is directing limited attention and energy toward the right work at the right time, not squeezing more hours out of the day. It protects the conditions under which uninterrupted work on a single hard target — deep work — is still possible, and it is the door to the pages that actually run that.
 
 ## The children
 

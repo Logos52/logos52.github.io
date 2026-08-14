@@ -15,7 +15,7 @@ tags:
 
 # Group Study
 
-A study group works when the hour has jobs in it, and there are three. Someone leads, which means pushing the discussion out to the edge of what the group already knows rather than restating the comfortable middle. Someone keeps time and holds the authority to cut a topic once it has started eating the others. Someone checks facts, which in practice means asking why that matters, why it happens, and so what — then opening a source the moment a claim will not stand. The three hold each other honest, and that is the part that makes the arrangement work: none of them can quietly stop doing the job without the others noticing.
+Without assigned jobs a study hour is shared procrastination: people pull each other off the work and the time is gone. Structure is the condition that stops that, not a nicety around a session that would have worked anyway. Three jobs hold the hour as high-pressure retrieval rather than company.
 
 ## Three jobs, in balance
 

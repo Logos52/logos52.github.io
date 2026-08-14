@@ -17,7 +17,7 @@ tags:
 
 # The Almanack of Naval Ravikant
 
-This book collects one investor's public writing on wealth into a single argument, and the argument runs on three things a person can build. Specific knowledge is the kind you cannot be trained into and would pursue anyway. Accountability means putting your own name on outcomes, so the upside has a route back to you. Leverage is whatever lets one unit of effort pay more than once — code and media do this without permission and without hiring anyone. Money is the medium that moves results between people rather than the goal. What the whole thing aims at is a week you no longer have to sell, which is a different target from status, and status is the game running alongside it.
+Wealth is assets that earn without hours, aimed at freedom rather than at status. Money is only how those assets transfer. Status is a zero-sum game that makes enemies.
 
 ## Mindsets
 

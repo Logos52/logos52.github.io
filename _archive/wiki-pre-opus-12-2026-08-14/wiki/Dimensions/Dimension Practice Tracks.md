@@ -16,7 +16,7 @@ tags:
 
 # Dimension Practice Tracks
 
-A practice track is a short sequence of four tasks attached to one particular part of how you learn. The first task is only noticing — where that part actually sits for you right now — because most of these run below the level you would normally observe. The three that follow build on it: working the thing deliberately, then working it while something else is competing for room, then using it during ordinary study with nothing arranged. That last state is the target, the point where the part has stopped being something you attend to. One track runs at a time, and only the next task is ever in view.
+A trainable part of how a person learns changes under a four-step sequence of practice attached to it, not under attention to the category. That sequence is a track: four tasks running from noticing the current state to making the skill ordinary. One track runs at a time, and only the next task on it. The map those parts sit on is [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]].
 
 ## Deep Processing
 

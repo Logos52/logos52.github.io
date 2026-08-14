@@ -20,7 +20,7 @@ tags:
 
 > Part of [[wiki/Dimensions/Deep Processing|Deep Processing]]
 
-What this page adds to research is one habit applied at intake: every source gets placed in a picture of the field while you are reading it, rather than at write-up. Placing it means being able to say three things — what it supports, what it leaves out, and which question in the field is still empty. A source that has not been placed has been stored rather than read, however carefully it was annotated. The picture that accumulates is also what tells you when to stop collecting, which is otherwise a decision made by exhaustion.
+Collecting papers without placing each one in a picture of the field is filing, not research. Each paper is a jigsaw piece, and the useful move is to place it. The argument, the method, and the writing are artifacts of that picture; the field has to be intelligible in one head before any of them is useful.
 
 ## The floor research does not allow
 

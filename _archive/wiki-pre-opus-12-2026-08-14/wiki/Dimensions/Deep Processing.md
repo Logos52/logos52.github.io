@@ -18,7 +18,7 @@ tags:
 
 # Deep Processing
 
-Deep processing is the quality of the thinking you do at the moment you first meet material: connecting it to what you already hold, comparing it against what sits nearby, judging what carries weight, assembling something shaped like a model. The reason it gets a page of its own is that this thinking is what your later memory is made of. An hour spent rereading, highlighting, or storing the exact wording produces an hour of exposure and very little to retrieve from. The techniques below can each carry that thinking, and each can also be performed with none of it happening, which is why the page is about the thinking rather than about the techniques.
+Deep Processing is the thinking a page sets off on arrival, not the page and not the method used on it. What remains in memory is that thinking, not the wording that passed through. Connecting, comparing, and judging extract what storing the wording never touches.
 
 [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] is the five-part cut this capacity sits inside.
 
