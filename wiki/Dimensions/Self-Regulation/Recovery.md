@@ -1,9 +1,12 @@
 ---
+title: "Recovery"
 type: concept
 status: developing
 created: 2026-05-16
-updated: 2026-05-16
-source-count: 1
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 14
 tags:
   - recovery
   - rest
@@ -17,143 +20,100 @@ tags:
 
 > Part of [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 
-Most people confuse **rest** with **recovery**. Rest is the absence of work. Recovery is the active process of reducing activity in the specific system that has been fatigued (physical, cognitive, emotional, or attentional).
+Recovery is quieting the specific system that is tired. Rest is only the absence of work, and a low-effort hour can fail that test. The useful question is what would let the tired system go quiet.
 
-Low effort is not the same as recovery. Many people feel more tired after "resting" because they engage in low-effort agitation (scrolling, passive consumption) that keeps the fatigued system active. Genuine recovery requires a reduction in activity in the depleted system, psychological distance from the problem loop, restored agency over time, and often the rebuilding of energy through mastery rather than passivity.
+This is not a rule that every useful hour has to be hard. The activity has to match the depleted system — physical, cognitive, emotional, or attentional — and change its state. Stopping is necessary. It is not sufficient.
 
-## Core Thesis
+## Why easy rest fails
 
-Recovery is a **matching problem**. The activity must reduce load in the specific system that is depleted. Choosing the wrong type of rest is why many people feel more exhausted after resting than before.
+Many evenings that were supposed to restore end louder than they began. The usual filler is low-effort agitation: an easy-to-start activity, usually a feed, that keeps the tired attentional system running. Directed attention is what fatigues. A feed is low effort and high-load for attention — a constant stream of tiny choices and rapid emotional fluctuation. Each clip asks for a micro-decision. Each headline moves the mood a notch. The work has stopped. The attentional system does not stand down.
 
-## Key Takeaways
+The chain is ordinary. High cognitive or emotional load leaves unresolved loops. The mind reaches for the nearest low-friction loop. That loop keeps the same system active. Sleep quality drops, or the recovery stays shallow, and the exhaustion is still there in the morning. The description is keepable. A tank of decision chemicals is not the reason. Under fatigue the mind defaults to the nearest loop; that is a timing problem, not an empty tank.
 
-- Recovery depends on the **system** being restored, not the apparent effort level of the activity.
-- Phone scrolling is often **low-effort agitation**: easy to start, costly to recover from.
-- Cognitive and emotional exhaustion can survive sleep because the mind keeps rehearsing unresolved loops.
-- **Psychological detachment** is the hinge. If the problem follows you into rest, the body may stop while the mind keeps working.
-- Mastery activities can recover energy because progress creates detachment, identity reinforcement, and a new source of agency.
-- Control matters even in small amounts. Ten minutes of deliberately chosen time can be more restorative than an hour of default drift.
-- Fatigue shows up in **decision quality** before it shows up in self-report.
-- Good rest has to be **pre-decided** before exhaustion gets a vote.
+Physical fatigue is often easier to repair because sleep restores the body directly. Sleep restores more than the body. Cognitive and emotional fatigue leak into rumination, dreams, restlessness, irritability, and poor sleep, so the night does not close the loop the way a sore muscle does. A walk that never lets the problem go, a gym session used as more thinking time, an evening of half-watching while the inbox still runs — those hours are rest. They are not recovery.
 
-## The Operating Model
+The usable check is whether the tired system actually stood down, or kept running through the hour.
 
-```text
-High cognitive or emotional load
--> decision chemicals and unresolved loops accumulate
--> the mind wants the lowest-effort option
--> low-effort stimulation keeps the same system active
--> sleep quality drops or recovery stays shallow
--> exhaustion carries into the next day
-```
+## Four experiences that actually recover
 
-**Repair loop:**
+The check asks which system was tired. Four experiences do the quieting work: relaxation, psychological detachment, mastery, and control. Genuine recovery is a reduction of activity in the depleted system, mental distance from the problem loop, some agency over the hours off, and often energy rebuilt through getting better at something rather than through passivity. Those are the four, restated as jobs.
 
-```text
-Identify the depleted system
--> choose an activity that reduces load in *that specific system*
--> detach from the unresolved work or life loop
--> add mastery, control, or nature when possible
--> remove planning decisions before fatigue arrives
--> repeat until recovery becomes an asset, not an emergency
-```
+Relaxation here means low activity in the system being restored. Effort is the wrong axis. A hard gym hour can still leave a tired mind quiet. A light hour on a feed can leave that same mind no quieter than it started. The pair is the matching rule made visible.
 
-The useful question is not “What feels easy right now?”
+Psychological detachment is mentally leaving the problem during off-time, not just leaving the building. Work, the open loops, the sense of remaining responsible — all of it has to stand down. Detachment tracks recovery more tightly than almost any other experience. Walking out of the office while the problem stays in the head does not restore the mind or the mood. People who do leave the problem behind during off-time show up the next day no less engaged, and often more. Caring does not require keeping the loop running.
 
-The useful question is:
+Mastery experiences provide a sense of progress and competence — getting better at something over time. Exercise, an instrument, a language, painting, a home project. A demanding hobby occupies the mind, which is how mastery structurally enforces detachment on this page: the loop cannot run while the hands are busy on something that has its own next step. Over time those activities become hobby assets — recovery resources that compound. They are a recovery application of [[wiki/Dimensions/Self-Regulation/Marginal Gains|Marginal Gains]]: stacked small progress, kept.
 
-> What would let the tired system actually go quiet?
+Control is autonomy over non-work time. Self-directed activity is restorative simply by virtue of the control involved. Even a short chosen block confers a real benefit. The length is not a measured minimum.
 
-## Rest vs Recovery
+## The Recovery Paradox
 
-**Rest** usually means stopping work.  
-**Recovery** means the depleted system actually restores capacity.
+The Recovery Paradox names a bind: the week that most needs switching off is the week switching off feels least allowed. Load raises the stakes and the obligation, and those two block the off-switch. The load itself is what keeps the system running.
 
-The mind can stop producing visible output while still consuming energy. Physical fatigue is often easier to repair because sleep directly restores the body. Cognitive and emotional fatigue are more slippery — they leak into rumination, dreams, restlessness, irritability, and poor sleep quality.
+That bind is a [[wiki/Dimensions/Self-Regulation|Self-Regulation]] failure. Honesty about limits, non-negotiable routines, and dropping guilt-as-care are the structural override. The protocol below is how those three get installed before the paradox spends the evening.
 
-Recovery requires a **change in state**, not merely the absence of work.
+## How to beat the default
 
-## Low-Effort Agitation
+Matching is a test, not a recipe. Identify the depleted system, choose an activity that reduces load in *that* system, leave the unresolved loop, add mastery or control or nature when they fit, and take the planning decisions off the table before fatigue arrives. Repeat until recovery is an asset rather than an emergency.
 
-Low-effort activities can still be high-load for attention.
+A Relaxation Menu is a running list of activities that feel genuinely relaxing or interesting, including high-effort ones. Recovery Anchors are one or two high-impact activities protected each week as non-negotiables — a starter count, not a finding. Small mastery starts as two or three things and a short evening block, presence and progress, house numbers rather than measurements.
 
-Scrolling social media keeps the brain in a constant stream of tiny choices, rapid emotional fluctuations, and dopamine-driven restlessness. Even though the activity is low effort, the prefrontal cortex remains active. Neurotransmitters that accumulate during cognitive work continue to build, leaving the person more fatigued by the end of the "rest" period.
+The recovery hour has to be chosen before tiredness is the one choosing. The usable form is a scheduled block plus only the minimum viable first action — "get changed and arrive" — so the tired mind is not asked to design the evening. That shape is an implementation intention. It is also the Aim-shaped move of the [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: write what the next hour must answer before opening it. Here, pre-decide the recovery move. This page is not that system.
 
-## The Four Dimensions of Recovery (Sonnentag & Fritz)
+When the evening is too exhausted to plan, nature is the default. A scene can hold attention without the effort of directing it — soft fascination — and that is the most consistent nature finding for working memory. The clock is not a measured dose. A walk that holds the eyes without asking for a decision is doing the work a feed pretends to do.
 
-### 1. Relaxation
-Genuine relaxation is an activity that produces a **low level of activity in the system being recovered**.
+The three-part override is how the paradox loses. Honesty about limits: the cup is empty, and pretending it is not keeps the loop running. A week that already cannot hold another demand is not a week that needs a more ambitious evening. Non-negotiable routines: the anchors stay on the calendar when the week gets loud, which is exactly when they would otherwise be the first thing cancelled. Removing guilt-as-care: staying on the problem during off-time is not the same as caring about it. Guilt about rest is the paradox's subjective face. It feels like responsibility. It is the loop refusing to stand down.
 
-This is **system-specific**, not effort-specific.
+A cheap self-check sits next to that override. Fatigue shows up in decision quality before it shows up in self-report. Consistently choosing the low-effort option, even when it is known to be a poor match, is a more accurate indicator than a tiredness rating. It is a self-check, not a validated test.
 
-- A vigorous gym session can be high effort but produce deep **cognitive** relaxation.
-- An hour of scrolling can be low effort but produce **zero** cognitive relaxation.
+The price is a protected block, and dropping the easy loop that would have filled it.
 
-**Practical test**: Does this activity give the fatigued system a rest, or does it keep it running?
+## What is actually known
 
-### 2. Psychological Detachment
-The ability to fully switch off from work, problems, and responsibilities during non-work time.
+Tired people pick the easy loop. That description is keepable. The explanation that a prefrontal tank has run out of decision chemicals is not: the large replications failed. The replacement reason is habit-timing. Under fatigue the mind defaults to the nearest low-friction loop, so the choice has to be made earlier. Pre-decide survives as an implementation intention, not as a fuel-gauge repair.
 
-This is one of the strongest predictors of effective recovery. Without it, physical absence from the source of stress does not produce mental or emotional recovery.
+If chemistry is mentioned at all, the real metabolic correlate is glutamate in lateral prefrontal cortex after a *full day* of hard cognitive work. That is a day-long timescale, not an hour-long fuel gauge, and it does not license rebuilding the tank.
 
-**The Recovery Paradox**: People who most need recovery are least able to achieve it. When workload is high, it is harder to detach — the stakes feel higher, the sense of obligation stronger.
+Nature and soft fascination have the most consistent support on working memory. Thirty minutes is this system's default, not a measured minimum. Matching the activity to the depleted system is this page's coinage. The four experiences are measured. The matching rule is not. Short chosen blocks are house. Decision-type as a fatigue assay is untested. Emotional fatigue may not split as cleanly as cognitive.
 
-### 3. Mastery
-Mastery experiences are activities that provide a **sense of progress and competence** — getting better at something over time.
+This is not an argument against rest or sleep. If the depletion is genuine sleep deprivation, more sleep remains the priority. The burnout curve, the biological prerequisites, and ordinary rest that has stopped working live in [[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure|How to Maintain Sustainable Energy Under Pressure]]. This page is the matching half.
 
-Examples: exercise, learning an instrument, language learning, painting, home projects.
+A "recovery" block after which the tired system is more agitated than before is the wrong match — change the activity, not the dose. Two of those in a row and the diagnosis is wrong: the wrong system, or sleep deprivation. A paradox week where the anchors keep losing to the easy loop means the override is not in place; adding menu items will not install it.
 
-Mastery has two powerful effects:
-- It structurally enforces psychological detachment.
-- It builds “hobby assets” — recovery resources that compound over time.
+After a matched block the tired system is quieter. After an unmatched one it is not. That is the test, not how easy the block felt.
 
-### 4. Control
-Control refers to **autonomy over non-work time**.
+## Before fatigue casts the vote
 
-Self-directed activity — activity the person intentionally chose — is restorative simply by virtue of the control involved. Even 10–20 minutes of genuinely self-chosen time confers meaningful recovery benefit.
+Recovery is still quieting the tired system. The quieting has to be chosen before fatigue casts the vote, because the vote is the nearest loop. If the night is a sleep debt, sleep still wins.
 
-## Decision Fatigue as a Structural Barrier
+## Links into the knowledge base
 
-When the prefrontal cortex is fatigued, the brain structurally biases toward low-planning, low-effort decisions. The choice to do nothing becomes the path of least resistance.
-
-**Diagnostic test**: Monitor the *type* of decisions you make when tired. Consistently choosing low-effort options — even when you know they are suboptimal — is a more accurate indicator of fatigue than self-reported tiredness.
-
-## Practical Protocol
-
-1. **Build a Relaxation Menu**  
-   Keep a running list of activities that feel genuinely relaxing or interesting (even high-effort ones).
-
-2. **Schedule Recovery Anchors**  
-   Protect 1–2 high-impact recovery activities per week as non-negotiables.
-
-3. **Start Small Mastery Activities**  
-   Pick 2–3 things from your list. Dedicate 10–15 minutes in the evening. Focus on presence and progress.
-
-4. **Pre-Decide to Beat Decision Fatigue**  
-   - Schedule recovery activities in advance.  
-   - Define only the minimum viable first action (e.g., “get changed and arrive”).
-
-5. **Use Nature as the Default**  
-   When too exhausted to plan anything: 30 minutes in nature. This provides “soft fascination” that restores attention and working memory with minimal directed effort.
-
-## What This Framework Is Not Saying
-
-- It is not arguing against rest or sleep. If someone is genuinely sleep-deprived, more sleep remains the priority.
-- It is not saying you should always do high-effort activities. The activity must match the depleted system.
-- Psychological detachment does not mean being indifferent to work. People who detach during non-work time report equal engagement at work.
-
-## Wiki Connections
-
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — The recovery paradox is a self-regulation failure. The three-part override (honesty about limits, non-negotiable routines, removing guilt) is a structural intervention.
-- [[wiki/Dimensions/Self-Regulation/Marginal Gains|Marginal Gains]] — Mastery activities are a recovery application of marginal gains.
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — Pre-deciding and defining the minimum viable first action mirrors the Aim phase (primarily a Deep Processing technique).
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — parent dimension; the paradox is a self-regulation failure, and the three-part override is the structural intervention
+- [[wiki/Dimensions/Self-Regulation/Marginal Gains|Marginal Gains]] — mastery activities as stacked small progress; hobby assets
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — pre-decide and the minimum viable first action as the Aim-shaped move
+- [[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure|How to Maintain Sustainable Energy Under Pressure]] — prerequisites and the burnout curve; matching-rest is the other half
 
 ## Open Questions
 
-- Does the system-specificity model extend cleanly to emotional fatigue, or are the recovery mechanisms distinct?
-- Is psychological detachment trainable as a skill, or primarily a structural variable?
-- Does a complete beginner in a mastery activity get the same recovery benefit as someone developing competence?
+Does system-specificity extend cleanly to emotional fatigue?
+
+Is detachment trainable as a skill, or primarily a structural variable? The literature treats it as both. The off-switch can be trained, and the phone can be removed.
+
+Does a complete beginner in a mastery activity get the same recovery benefit?
 
 ## Sources
 
-- Sonnentag, S., & Fritz, C. research on four dimensions of recovery.
+- Sonnentag, S., & Fritz, C. (2007). The Recovery Experience Questionnaire. *Journal of Occupational Health Psychology* 12(3), 204–221. Four experiences: relaxation, psychological detachment, mastery, control. Confirmatory factor analysis, N=930.
+- Sonnentag, S., & Fritz, C. (2015). Recovery from job stress: the stressor–detachment model. Detachment as the hinge.
+- Sonnentag, S. (2018). The recovery paradox: Portraying the complex interplay between job stressors, lack of recovery, and poor well-being. *Research in Organizational Behavior* 38, 169–185.
+- Sonnentag, S., Binnewies, C., & Mojza, E. J. (2008). "Did you have a nice evening?" *Journal of Applied Psychology*. Next-day residue of failed detachment.
+- Sonnentag, S., Binnewies, C., & Mojza, E. J. (2010). Staying well and engaged when demands are high. Detachment associated with better next-day engagement, not less.
+- Wendsche, J., & Lohmann-Haislah, A. (2017). A meta-analysis on antecedents and outcomes of detachment from work. Better well-being, lower exhaustion.
+- Kaplan, S. (1995). The restorative benefits of nature. Attention Restoration Theory; soft fascination.
+- Berman, M. G., Jonides, J., & Kaplan, S. (2008). The cognitive benefits of interacting with nature. *Psychological Science*. Nature walk improved backwards digit-span versus an urban walk; the walk was about fifty minutes.
+- Ohly, H., et al. (2016). Attention Restoration Theory: a systematic review. Working-memory effects are the most consistent nature finding.
+- Gollwitzer, P. M., & Sheeran, P. (2006). Implementation intentions and goal achievement. Pre-decide; the minimum viable first action is that form.
+- Hagger, M. S., et al. (2016). A multilab preregistered replication of the ego-depletion effect. 23 labs, N=2,141. The resource account failed.
+- Vohs, K. D., et al. (2021). A multisite preregistered paradigmatic test of the ego-depletion effect. Registered replication; same correction.
+- Wiehler, A., Branzoli, F., Adanyeguh, I., Mochel, F., & Pessiglione, M. (2022). A neuro-metabolic account of why daylong cognitive work alters the control of economic decisions. *Current Biology*. Glutamate in lateral PFC after a full day of hard cognitive work — day-scale, not an hour-long fuel gauge.
+- Hardwick, R. M., Forrence, A. D., Krakauer, J. W., & Haith, A. M. (2019). Time-dependent competition between goal-directed and habitual response preparation. Habit-timing under fatigue; the replacement reason for pre-decide.

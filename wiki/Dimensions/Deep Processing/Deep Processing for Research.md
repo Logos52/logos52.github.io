@@ -3,163 +3,151 @@ title: "Deep Processing for Research"
 type: concept
 status: developing
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 8
 tags:
   - research
   - higher-order
   - deep-processing
   - schema-building
   - expertise
+  - schema
 ---
-> Part of [[wiki/Dimensions/Deep Processing|Deep Processing]]
-
 
 # Deep Processing for Research
 
-Research quality lives in the mental schema that can explain why each source matters, where it fits, what it fails to see, and what new knowledge could be created from the gap. Everything downstream — writing, methodology, argument — is an artifact of that internal organization. The field must be made intelligible inside your own head before any output becomes useful.
+> Part of [[wiki/Dimensions/Deep Processing|Deep Processing]]
 
-The analogy that captures it: each paper is a jigsaw piece. The useful move is to place it — where it belongs in the wider picture, what adjacent pieces it touches, what it leaves empty, and whether it distorts the section around it. Collecting pieces without building the picture is not research — it is filing.
+Collecting papers without placing each one in a picture of the field is filing, not research. Each paper is a jigsaw piece, and the useful move is to place it. The argument, the method, and the writing are artifacts of that picture; the field has to be intelligible in one head before any of them is useful.
 
-## Research Raises the Thinking Floor
+## The floor research does not allow
 
-Ordinary academic learning survives at the understanding and recall level. Research does not allow that floor. Each source has to be processed against the whole:
+Understand-and-recall carries a student through school and through most of an undergraduate degree, and it can be stretched through a master's by dipping into higher-order work when a question forces it. The cost is not failure. It is inefficiency, thin and disconnected insight, and no free time. That is why the habit survives into research: it worked for fifteen years. Research is where the option stops existing, because the volume is too high and the output has to be new.
 
-- **Understand** what the source claims.
-- **Locate** it in the wider field — what it supports, challenges, or ignores.
-- **Compare** it against other views and methods.
-- **Detect** what it fails to see: its assumptions, measurement limits, framing choices.
-- **Evaluate** its strength, generalizability, and relevance.
-- **Create** something useful from what the field collectively reveals.
+[[wiki/Dimensions/Deep Processing|Deep Processing]] is the parent: working information for meaning — comparing, judging, connecting. This page is that work applied to a whole field rather than a chapter. [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is the encoding loop that runs the same moves on a source, here pointed at a field instead of a chapter. [[wiki/Dimensions/Deep Processing/Syntopical Reading - Learning from Multiple Dense Resources|Syntopical Reading]] is the same jigsaw at book scale.
 
-The temptation is to stay at the understand-and-summarize level because it feels like progress. In practice, more reading without active placement produces more confusion, not more clarity. Coverage without structure just adds to the pile.
+Each source owes six moves: understand what it claims; locate it against the others as supporting, challenging, or ignoring; compare views and methods; detect what it does not see — assumptions, measures, framing; evaluate strength, generalizability, and relevance; build something from the collective gap. The instrument that runs those moves on a page is a short chain after the claim: so what does it mean; what is its relevance; how does it fit what is already held; who agrees, who disagrees; and what is not here at all. The last question only works once the picture exists. A gap cannot be noticed in an image that cannot yet be seen.
 
-## Overwhelm Is the Raw Material
+The temptation is to stay at understand-and-summarize, because it feels like progress. More reading without active placement produces more confusion, not more clarity. Coverage without structure adds to the pile. The hours that buy expertise are organizing hours, not reading hours or writing hours.
 
-The feeling of being buried under sources often marks the first serious contact with a field — before expertise has organized it. This is not a signal of failure. It is the signal that the real work has begun.
+## Overload, and the pass that clears it
 
-The confusion has a characteristic shape:
-- Many papers → many perspectives → contradictory claims → unclear gaps → cognitive overload → temptation to summarize and file.
+Being buried under sources often marks first serious contact with a field, before expertise has organized it. That is not failure. The real work has started. The shape is familiar: many papers, many perspectives, contradictory claims, unclear gaps, overload, and the pull toward summarizing and filing. The repair is not more reading. It is active organization. The overload is stayed with rather than escaped through passive re-reading.
 
-The repair is not more reading. It is active organization:
+This system's own teaching model of the curve, working a new field from roughly twenty sources: the first large orienting paper can take on the order of four hours, because every idea in it is new. By around the tenth, a paper yields one or two extra details rather than new ideas. By around the fifteenth it takes on the order of ten minutes — read, recognized, placed, and frequently identified as the study an earlier paper was referring to. That curve is also the checkable expectation. Paper ten costing less than paper one, inside a single project, is the sign the picture is forming.
 
-- **Stay with the overload** instead of escaping it through passive re-reading.
-- **Build provisional groups** — even rough, imperfect clusters.
-- **Compare claims** directly: which authors agree, which disagree, and on what specifically.
-- **Name the disagreements** rather than filing them as "different perspectives."
-- **Identify what is missing** — what the existing conversation has not thought to address.
-- **Explain the field simply** — to a colleague, in eight minutes, without notes.
+Once the loop is running, organizing time exceeds consuming time. Reading arrives as a short flood and is deliberately stopped. The pass that follows runs on the order of ten to twenty minutes of thinking with nothing new coming in. Overload does not decline steadily. New information raises it, an organizing pass lowers it, more information raises it again, and a genuinely new perspective resets the cycle rather than adding to it. Thinking time swings the same way.
 
-Expertise appears when the same mass of information starts feeling navigable. Author names, dates, and findings become easier to hold because they have places to sit in the structure you have built.
+Provisional groups get built even when they are rough. Claims get compared directly: who agrees, who disagrees, on what specifically — rather than filed as "different perspectives." Gaps are large and whole perspectives simply absent in emerging or thinly-worked areas; in a mature, heavily-worked field they are not, and hunting for them the same way wastes the pass.
 
-## What Output Reveals
+The feel-test is explaining the field to a colleague in eight minutes without notes. The eight minutes comes from compressing a year or more of work into a short conference presentation, which is unforgiving of a disorganized schema. It stays a feel-test, not a finding.
 
-Weak writing almost always reflects weak internal organization rather than a writing problem. If the literature review has no narrative, if the discussion is hard to write, if the presentation cannot be compressed — the problem is upstream. Diagnose by type:
+The price, as this system's own teaching estimate: roughly four to six months of committed practice before the loop feels second nature. Longer where practice is interrupted for months at a stretch. Some practitioners take two years or more, and the variance is practice volume, not talent. The early pass is supposed to feel slow. The payoff is structurally deferred until the network is dense enough that new papers cost little to absorb. Quitting in week three because it still feels slow is reading a deferred payoff as a failed method.
 
-- **Ideas are disordered** → the higher-order schema is weak; re-organize the map before writing more.
-- **Examples are missing or vague** → the lower-order detail is thin; go back to sources for concrete instances.
-- **Expression is clumsy despite clear thinking** → the procedural writing skill needs practice, not more reading.
-- **Methodology keeps shifting** → the research question may have been narrowed before the field was understood.
-- **Every new paper creates confusion** → the current map cannot absorb new evidence; rebuild the structure before adding sources.
+The picture is the deliverable, so an hour is measured by whether it got clearer, not by pages covered.
 
-The repair often comes from reorganizing what has already been read, not from adding more to the pile.
+## Every output is a readout of the picture
 
-## Learn the Field Before Narrowing
+Weak writing usually reflects weak internal organization rather than a writing problem. That is the usual case, not the only one. Sometimes the difficulty really is procedural — writing or speaking as a trained skill — which is developed separately and slowly with feedback, and is not a schema problem at all. That fork is real, and this page does not cover it.
 
-Early narrowing feels efficient but creates drag. A specific question before a broad schema forces every source through a small frame — the learner then fights the field instead of understanding it. A stronger sequence:
+The limitation sits upstream of where the difficulty is felt. The chain, walked backwards: elaborated prose, then the bullet scaffold, then the order and flow of ideas, then organized ideas, then higher-order organization, then a non-linear representation of the material, then the underlying processing skill. The protocol is to describe the difficulty, locate it on that chain, and clear only the earliest limitation. A later one is not relevant until the earlier one is cleared.
 
-- **Broad orientation first.** Systematic reviews, major competing perspectives, prominent authors.
-- **Contrary views.** Which minority positions have not been absorbed into consensus, and why?
-- **Recurring methods and gaps.** What does the field keep measuring? What does it keep not measuring?
-- **Provisional map.** A rough structure you can draw, explain, and revise.
-- **Focused question.** Narrow only after the field feels navigable.
-- **Study design or argument.** Built on the map, not before it.
+Read against that chain, the common symptoms have a location. A literature review with no narrative, a discussion that will not write, a presentation that will not compress — upstream. Ideas disordered — the higher-order schema is weak, so the map is reorganized before more writing. Examples missing or vague — lower-order detail is thin, so the work goes back to the sources. Methodology that keeps shifting — the question was narrowed before the field was understood. Every new paper creating confusion — the current map cannot absorb it, so it is rebuilt before sources are added.
 
-Once the field is intelligible, a narrow question becomes productive. Before it is intelligible, a narrow question just reduces the surface area of your confusion.
+Asked to explain the field the way it already makes sense, a researcher in difficulty cannot — around nine times in ten, as this system's own teaching observation, not a finding — because it does not yet make sense to them. The output cannot be high quality when it is not high quality at the source, and the researcher is the source.
 
-## Evidence Still Has Limits
+Repair usually comes from reorganizing what has already been read rather than adding to the pile. The early steps are the hard, high-value ones; the late steps are easy and low-value. Difficulty felt late is debt from an early step done badly, paid in wasted time and misdirected attention.
 
-The hierarchy of evidence is useful for orientation — it is not a substitute for thinking. Systematic reviews and meta-analyses aggregate a field's findings, but they also inherit its blind spots: the reviewers' framing, the available measures, the populations studied, and what prior researchers thought to study.
+The reverse transformation has a step that is easy to skip. Linear sources become a non-linear map built for learning. That map becomes an organized schema. Then a second non-linear pass, whose purpose is planning rather than learning, unpacks the schema through the lens of how it will be expressed. Then a bullet scaffold. Then elaboration, with local reordering as the writing goes. The second map is not the same artifact as the first.
 
-A practical stance for evaluating any source:
+## Broad before narrow
 
-- **What was not measured?** The absence of evidence is not evidence of absence.
-- **What assumptions made the research easier to run but less ecologically valid?**
-- **Where do population differences, time costs, or transfer constraints limit the findings?**
-- **Which authors are shaping the framing of the entire conversation?** Following their citations often matters more than following citation counts.
+Early narrowing feels efficient and creates drag. A specific question ahead of a broad schema forces every source through a small frame. A placement question is fine. A thesis question before the map is the drag. Once the field is intelligible, a narrow question becomes productive. Before that, it only reduces the surface area of the confusion.
 
-The move from "what does the literature say" to "what can this literature see and not see" is when research thinking begins.
+The sequence: a few big-picture systematic reviews first; then deliberately contrary perspectives; then the recurring methods, authors, and gaps; then a provisional map; then the focused question; then the design or the argument. [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] is the same bird's-eye-first move at session scale that this sequence runs at field scale.
 
-## AI at the Boundary
+A field may hold hundreds of thousands of researchers, but the ones actually pushing its boundary are usually on the order of five to ten, as this system's working model of a literature. A large remainder read that work and run small follow-ups or replications in different settings, which adds little at review scale. Reading the boundary authors' publication histories holds most of what matters. Following those authors' citations usually matters more than following citation counts.
 
-AI is most useful in research at the edge of your existing model — after you have built the structure yourself. It can widen the searchlight. It should not carry the map.
+Everything produced is a readout of the picture's current state — which is why the repair is upstream, and why the question cannot narrow before the picture exists.
 
-Better uses:
+## What a literature can and cannot see
 
-- **"Here is my current map. What perspectives might be missing?"** — Gap-checking after your own model exists.
-- **"What keywords should I search to investigate this gap?"** — Orientation for the next search pass.
-- **"What contrary positions exist around this claim?"** — Stress-testing a provisional conclusion.
-- **"Find possible weaknesses in this explanation."** — Adversarial pressure on your own reasoning.
-- **"What prominent authors or concepts should I look for?"** — Accelerating source discovery.
+A hierarchy of evidence is useful for orientation, not a substitute for thinking. Anecdote and case report sit at the bottom. Above them, observational and cohort work, used where an effect cannot be produced deliberately or where producing it would be unethical. Above that, interventional work, with the double-blind randomized trial as the standard for primary research: participants do not know which arm they are in, and neither do the people measuring, so their expectations cannot move the result. Above that, non-primary work — meta-analysis and systematic review.
 
-Poor uses:
+A single trial with thirty participants cannot support a claim that transfers to any meaningful population. Pooling on the order of a hundred such trials can reach on the order of four hundred thousand people, and that is exactly why the pooled result is stronger. What pooling cannot do is add a measurement nobody took. A systematic review is the best available evidence up to its date and through the framing of the people who ran it. The thinner the field, the more the framing shows, because the reviewers may simply never have considered a perspective, and the data they then examine is examined through the one they had.
 
-- **"Summarize this field for me."** — Outsources the jigsaw-placing work entirely.
-- **"Write my literature review."** — Produces the artifact without the schema that makes it usable.
-- **"Tell me what the consensus is."** — AI over-indexes on high-citation, mainstream material and cannot surface niche, recent, or low-citation work that may be most relevant.
-- **"Explain the best theory."** — Structures your understanding before you have done the structural work yourself.
+This system's own reading of its own field, hedged, not settled: for roughly four decades up to about 2010, the literature on spaced repetition overwhelmingly tested short word lists at short delays. Very little of it measured the time the schedule costs, which learners can actually sustain it, or performance at higher-order testing across long retention intervals. The evidence base read as overwhelming because the question it answered was narrow, and the last decade of work reads it down considerably.
 
-For source discovery specifically, domain-specific tools (such as Research Rabbit) outperform AI because they map your existing papers and surface adjacent work algorithmically. AI hallucinates citations on niche queries and cannot replace specialized tools for this task.
+What was not measured? Absence of evidence is not evidence of absence. Which assumptions made the research easier to run but less true to the setting it is applied to? Population, time cost, transfer constraints. The working stance is to assume the gap is there and go looking, because a gap that is not believed in is a gap that will not be seen. Every review has one.
 
-## Storing References While Encoding
+The move from "what does the literature say" to "what can this literature see and not see" is when research thinking begins. [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] is how to interrogate what a source cannot see.
 
-Non-linear encoding creates a challenge for reference tracking: the structure being built does not preserve source attribution in the way linear notes do. Three strategies address this without disrupting the encoding process.
+## AI at the edge of a map already built
 
-**Synthesise as you go.** After every two or three sources, write a short linear synthesis with citations — essentially a draft literature review growing alongside the non-linear map. This produces two parallel outputs: a non-linear structure for understanding and evaluation, and a cited linear document that accumulates as a reference bank. Best suited when a single piece of writing is the target, since the linear document is being built toward one output.
+A general model is most useful at the edge of a picture already held. It can widen the searchlight. It should not carry the map. If it does the placement better than the reader does, that is a statement about current skill. Each time placement is outsourced, the skill does not develop, so the overwhelm never resolves and the dependence deepens. The mirror holds: someone who already has the schema gets more from the same tool and can tell when an answer is wrong. [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]] owns the general boundary rule; this page owns only the research-specific uses.
 
-**Second brain.** Use a reference application (Obsidian, Roam, Zotero with notes) to create a page per source with a brief summary and carefully chosen tags. Tag networks and graph views then surface relationships between sources that would otherwise require memory. Higher setup cost, but better suited for long-term, multi-project reference use where the same sources will be needed repeatedly.
+A general model's picture of a field is bounded by what it can retrieve. A large share of journal literature sits behind paywalls it cannot pass, and when it hits one it goes elsewhere. So its account of a field skews to the most mainstream and most accessible material, and where material is missing it produces confident, plausible citations that do not exist. That cause is structural rather than a capability gap the next release closes, which is why the rule outlives any model. Fabricated citations are a documented failure mode, not a permanent scoreboard.
 
-**Reference chunking.** Categorise each source by its importance and role rather than by topic or date. Useful categories include core foundational works, high-leverage applied studies, contextual but peripheral works, counterpoint or minority-view references, and methods or measurement references. Store these in citation software (Zotero, EndNote) with tags and brief notes explaining why each source belongs in its category.
+A citation-network mapper suggests papers to read and generates no claims. A general language model generates. The first is compatible with the rule, because placement stays with the reader, and it beats walking citation lists by hand. No product is required.
 
-Reference chunking requires genuine field expertise to execute accurately — the ability to judge where a paper sits in the landscape depends on already having a mental map of the landscape. It is most effective once a domain schema is established. When it works, it makes pulling high-quality citations for a paper much faster, because the structure of the literature is reflected in the reference collection itself.
+Good uses sit at the edge of a map already held: gap-check it; get keywords for a gap already identified; surface contrary positions; find weaknesses in the current explanation; name prominent authors and concepts to go looking for. The highest-value use is the reverse direction — state the current understanding and ask what perspectives it is missing, which returns terms to go and read and can save weeks of unfocused reading. A genuinely unfamiliar domain can take a short generated orientation as a starting point only, before any review is read.
 
-The choice between methods depends on whether the references will be used once (synthesise as you go), repeatedly across projects (second brain), or in a field where deep expertise is being developed over years (reference chunking). Combinations are possible and often appropriate.
+Poor uses outsource the placement: summarize this field, write the literature review, tell me the consensus, explain the best theory. Separately, reading a generated summary before the paper sets the frame the paper is then read inside, and that holds even when the summary is accurate.
 
-## What It Should Feel Like
+Authors are usually glad to send a copy of their own paper on a polite request. The journal pays them nothing for it, and they want it read.
 
-Good research processing feels like increasing command over a messy territory. The confusion changes character — not less work, but better-organized difficulty.
+The picture is not only of what the field says but of what it is able to see, and it is the one artifact that cannot be held outside one head. A model trained on that literature inherits its blind spots, then loses the paywalled part on top.
 
-Good signs:
+## Keeping references without losing the map
 
-- Papers start falling into recognizable camps without forcing them.
-- Author names and dates become memorable without brute-force repetition.
-- Gaps become more specific — you can say exactly what is missing rather than "this is complicated."
-- Writing starts having a natural order; the argument builds without fighting each sentence.
-- Questions become sharper; the research question narrows because the field demands it, not because you ran out of patience.
-- The field feels arguable — you have a position — not just readable.
+Non-linear encoding is built for understanding and evaluating material, and it does not preserve attribution the way linear notes do. That is a property of the technique, not a mistake in using it, which is why the answer is a parallel system rather than abandoning the encoding.
 
-Warning signs:
+Three strategies, chosen by use. Combinations are normal.
 
-- Every paper becomes a standalone summary filed without placement.
-- Notes grow while the map stays vague.
-- AI summaries feel clearer than your own understanding.
-- The research question narrowed before the field was intelligible.
-- More reading produces more confusion without new structure.
-- Writing begins before the mental schema can explain itself without notes.
+Synthesise as you go: after every two or three sources, a short referenced synthesis, then keep adding to, modifying, and rearranging that piece as more sources arrive. Two parallel sets result: a non-linear map carrying understanding and judgment, and a linear cited draft that consolidates the learning and doubles as the reference bank. Best when one piece of writing is the target. Weak when the same references will be reused across projects and years, where it should be combined with the second method.
+
+A second brain: a page per source with a short summary and deliberately chosen tags, so the tag network shows relationships in a graph view. Tool class only — local notes with tags; no app required. The setup cost is real. Trial the structure on a handful of references before committing, because a large base built on a bad template is very hard to change afterwards. [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] is the sibling where the page-per-source system is worked out properly.
+
+Both of those extend study time and add administrative work. That is the cost of tracking a high volume of references that must be reused.
+
+Reference chunking files sources by the job they do, never by topic or date. Core foundational works, cited in almost any deep discussion. High-leverage applied studies with direct, frequent use. Contextual works that broaden understanding but are cited rarely, sub-categorised by theme where that helps. Controversial or counterpoint works that challenge the prevailing reading — and not always a viable category where competing schools are the discipline's foundation. Methods and measurement references, kept for templates, statistical approaches, and measurement tools. Mechanics: tags for filtering, a note on each reference saying why it sits in that category, collections per project. The payoff is threefold: citations assemble fast, important but rarely-used works stop disappearing, and the strong and thin places in the base become visible at a glance.
+
+Filing by job requires enough grasp of the field's principles to judge importance and relevance accurately, so chunking is the last of the three to become available rather than the most advanced version of the same thing.
+
+Citing the right reference depends on a relational understanding of the topic and on frequent use of references in writing, which acts as natural interleaved retrieval. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is rebuilding the field from memory rather than recognizing papers; that frequent citation use is already interleaved retrieval by another name.
+
+## What it feels like when it is working
+
+The good feel is increasing command over a messy territory. Not less work. Better-organized difficulty, and confusion that has changed character rather than disappeared — the oscillation already named, information raising the load and an organizing pass lowering it.
+
+Papers fall into camps. Names and dates become memorable without brute force, because the chronology is causally connected: a finding published in 2011 could not have appeared in 2015 once what came out in 2013 is known, and connection is what makes it hard to forget. Gaps get specific. Writing finds a natural order. Questions sharpen because the field demands it rather than because one was chosen. The field starts to feel arguable. The checkable sign: new papers slot in and consolidate on contact, so reading happens in the gaps of a day rather than needing a dedicated block.
+
+Warning signs. Summaries that stand alone. Notes growing while the map stays vague. Generated summaries that feel clearer than one's own understanding. A question narrowed before the field was intelligible. More reading producing more confusion. Writing started before the schema can explain itself without notes.
+
+Three honest bounds. The schema-first doctrine becomes an excuse never to start writing. The four-to-six-month ramp does not pay on a short, bounded project where a straight collect-and-write is the correct call. And sometimes the difficulty genuinely is procedural writing skill, which none of this touches.
+
+The filing systems exist to serve the picture rather than replace it. The field is organized when a new paper costs ten minutes and lands somewhere that can be named out loud with everything closed.
 
 ## Open Questions
 
-- What would it look like to treat your current literature pile as a jigsaw-placement problem rather than a reading queue? Which pieces do you actually know where to place?
-- Where in your research process are you still working at the "understand and file" level when the task actually demands comparison, gap detection, or evaluation?
-- How do you distinguish between productive overwhelm (first contact with an unorganized field) and unproductive overwhelm (no placement strategy, just accumulation)?
-- Which part of your current literature map is still just a pile? What would it take to build provisional structure there?
-- Where are you reaching for AI because you do not want to do the hard synthesis yourself — and what does that tell you about where the real gap is?
+Where does the line actually sit, in a live project, between a placement question and a thesis question?
 
-## Related
+What does a research field look like when it is mature enough that gap-hunting stops paying?
 
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]]
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
-- [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]
+## Sources
+
+Adler, M. J., & Van Doren, C. (1972). *How to Read a Book* (rev. ed.), ch. 20. Syntopical reading: the point is the conversation, not the book.
+
+Hart, C. (1998). *Doing a Literature Review*. Sage. The review as an argument, not a pile.
+
+Booth, W. C., Colomb, G. G., & Williams, J. M. *The Craft of Research*. University of Chicago Press. Research as a conversation with a claim.
+
+Nestojko, J. F., Bui, D. C., Kornell, N., & Bjork, E. L. (2014). Expecting to teach enhances learning and organization of knowledge in free recall of text passages. *Memory & Cognition*, 42, 1038–1048. Preparing to explain as a test of organization.
+
+Altman, D. G., & Bland, J. M. (1995). Absence of evidence is not evidence of absence. *BMJ*, 311, 485. The measurement gap.
+
+Ioannidis, J. P. A. (2005). Why most published research findings are false. *PLOS Medicine*, 2(8), e124. Reviews inherit a field's framing, measures, and populations. GRADE and ROBIS are the later instruments for that inheritance.
+
+Walters, W. H., & Wilder, E. I. (2023). Fabrication and errors in the bibliographic citations generated by ChatGPT. *Scientific Reports*, 13, 14045. Fabricated citations as a documented failure mode, not a permanent scoreboard.

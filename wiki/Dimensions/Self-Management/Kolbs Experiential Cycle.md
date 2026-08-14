@@ -1,179 +1,119 @@
 ---
-part-of: "[[wiki/Dimensions/Self-Management|Self-Management]]"
+title: "Kolbs Experiential Cycle"
 type: technique
 status: developing
 created: 2026-05-06
-updated: 2026-05-14
-source-count: 1
-last-audited:
+updated: 2026-08-14
+written-by: grok
+model: grok
+part-of: "[[wiki/Dimensions/Self-Management|Self-Management]]"
+description: "A four-step write-up after one attempt that turns what happened into a changed next attempt."
 tags:
   - learning
   - reflection
   - self-regulation
   - practice
+  - kolbs
 ---
 
 # Kolbs Experiential Cycle
 
-Practice becomes improvement when experience is reflected on, abstracted, tested, and used to shape the next attempt.
+Kolbs is a write-up after one attempt that turns what happened into a changed next attempt. The four steps name that motion in ordinary words: what happened, what it meant, what rule that suggests, what changes next time. The product is a different next attempt, not a better understanding of the last one.
 
-## Summary
+## The four steps
 
-Kolbs is the loop that converts experience into insight, insight into a better experiment, and the next experiment into cleaner feedback.
+**Experience is one line: what was tried, and how it went.** The data has to be real, and it has to be a process, not an outcome. "The test went badly" is a result; the experience is sitting the exam or preparing for it. The exception is when the reaction to the result is what needs understanding — then the reaction is the experience. The line is specific, isolated, targeted, and recent. A whole week or a whole subject cannot be reflected on at the depth the later steps need, so a big experience is split into its processes and run one at a time, starting with the process most likely to pay.
 
-In this wiki, Kolbs sits under [[wiki/Dimensions/Self-Regulation|Self-Regulation]] and links heavily with [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]. Marginal Gains chooses the improvement direction; Kolbs runs the improvement cycle.
+**Reflection mines the process.** It is not rumination: repetitive focus on feelings and causes without a next change predicts worse mood and blocks action. It also fails in two other directions. Run as a checklist, it collects too little. Run long, it can still restate feelings with the process untouched. The kind of information collected decides the kind of repair produced, so skewed input produces a confident repair to the wrong thing. A feeling — discomfort, anxiety, the sense that a step was harder than it should be — is often easier to recall than the process itself; the feeling is a marker to follow back, then the process is what gets examined. A fixed question set, answered in full including the questions that feel repetitive, blunts the pull to collect only what supports the story already held. The vault's own [[templates/Kolbs Template|Kolbs Template]] is that set.
 
-## Core Cycle
+**Abstraction is an observational hypothesis:** a short prediction read out of the reflection, probably not yet right. It is not pulled from what was already believed. If no pattern comes, the reflection was thin — go back and pad it rather than ramble here. When a cycle feels vague, one residue question from [[wiki/Red Team/Red Teaming|Red Teaming]] is enough: why did this happen, and what deeper condition made that possible? Repeat only until the answer is actionable. The first explanation is usually not the useful one.
 
-1. Experience: do the thing and create real data.
-2. Reflection: inspect what happened without turning it into rumination.
-3. Abstraction: form a clear principle, diagnosis, or hypothesis.
-4. Experimentation: design the next attempt based on the hypothesis.
+**Experimentation designs the next attempt from that hypothesis.** "Try harder" changes nothing and is allowed once, the first time a problem is noticed; after that something actionable changes — environment, pacing, order, number of pieces, the trigger. A fourth failure is an experiment connected to nothing the abstraction found. One to three experiments, ideally one or two, because fixing one root issue commonly resolves several others. The exception is a one-off effortless change that stays fixed once made. When an experiment goes nowhere, the usual cause is upstream: the abstraction was not observational.
 
-## What Good Kolbs Produces
+## What a cycle is run on
 
-- A clearer diagnosis.
-- A smaller next experiment.
-- Better awareness of mistakes and conditions.
-- A more accurate model of cause and effect.
-- A practical next action.
+A cycle needs a real attempt that produced data. The attempt need not be dramatic. It needs enough friction, emotion, result, or surprise to teach something. The first line of the write-up is what was tried and how it went; deliberately testing something expected to fail is a legitimate reason to run one.
 
-## Root-Cause Prompt
+| Worth a cycle | Weak as a cycle |
+|---|---|
+| A session that started slowly | Abstract planning with no attempt |
+| A session that went better than expected | Venting with no next experiment |
+| A technique that looked correct and did not work | Too many variables at once |
+| A moment where a [[wiki/Concepts/The Shortcut Problem|shortcut]] appeared | Something already obvious |
+| A repeated failure mode | A long reflection where a quick note would do |
+| A meaningful conversation | |
+| A workout that revealed a bottleneck | |
+| A language session where attention rose or collapsed | |
+| An agent workflow that produced a useful or a bad result | |
 
-When a Kolb feels vague, use one Red Team residue question:
+A failing established script, rather than a one-off attempt, is the subject of [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]. A session whose weak frame showed is a clean experience for [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]].
 
-> Why did this happen, and what deeper condition made that possible?
+| Full cycle | Quick note |
+|---|---|
+| Emotional weight, repeated friction, or a real performance lesson | The lesson is obvious and the next experiment is already clear |
+| Repeated shortcut; strong emotional reaction; technique failure; relationship repair or conflict | Minor logistical issue; simple reminder; one-off low-stakes slip; obvious next action |
 
-Repeat only until the answer becomes actionable. The point is to move past the first explanation.
+End of the day where possible, at least twice a week, and never a week compressed into one cycle, because each session is a separate experience with its own variables.
 
-## What Bad Kolbs Looks Like
+```
+Experience: a language session, attention held for twenty minutes and then collapsed.
+Reflection: collapse arrived when the next item needed a word that would not come; frustration, then a switch to easier items.
+Abstraction: switching down protects the session clock and starves the retrieval that would have rebuilt the missing word.
+Experiment: on the next miss, stay with the item for one more retrieval before switching.
+Next cycle's experience: that stay-with-it attempt, and how it went.
+```
 
-| Failure | Signal | Repair |
-| --- | --- | --- |
-| Rumination | The reflection circles around feelings without changing the next attempt. | Force a concrete hypothesis and experiment. |
-| Too broad | The cycle tries to explain everything. | Narrow the focus to one mistake, variable, or bottleneck. |
-| No experience | Reflection happens before real data exists. | Run a small attempt first. |
-| No abstraction | The learner writes observations but no principle. | Ask what pattern or rule the experience suggests. |
-| No experiment | The reflection ends with insight but no next action. | Define the next attempt before closing the loop. |
+A cycle cannot be run on every problem every day, and a beginner has dozens of candidate directions, so something has to choose which problem gets the thirty minutes. [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] chooses the improvement that is worth making next; this page runs the cycle that makes it. One is the road, the other the vehicle. Together they do four jobs: Marginal Gains stops improvement from being random and names the target; Kolbs stops reflection from staying passive and improves the method. The few areas with first claim on time are the ones where a cycle is worth its half hour — [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]. The page lives with [[wiki/Dimensions/Self-Management|Self-Management]] and is used as the [[wiki/Dimensions/Self-Regulation|Self-Regulation]] loop.
 
-## Relationship To Marginal Gains
+## The arrow back
 
-[[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] asks, "What is the next valuable 1% direction?"
+A single write-up is not the unit. The loop is. The experiment of this cycle is the experience of the next; they are the same object seen twice. The abstraction is a hypothesis, the experiment is its test, and the first test usually does not fix the problem. Several cycles are normally needed to see the problem's nature, and more to repair it. The same hypothesis is retested until the problem goes away. The stopping rule is the problem, not a cycle count.
 
-Kolbs asks, "What did this attempt teach me, and what should I try next?"
+The recognisable failure is diligent, daily, and stuck: a fresh problem every cycle, technique correct, nothing compounding. The next experiment is also cleaner feedback, but only if it comes back as tomorrow's experience. A typed, kept log makes the previous cycle findable, which is the precondition for the arrow. The [[templates/Kolbs Template|Kolbs Template]] already asks whether this cycle reflects an experiment from a previous one.
 
-Together:
+## Where cycles go thin
 
-- Marginal Gains prevents random improvement.
-- Kolbs prevents passive reflection.
-- Marginal Gains prioritizes the target.
-- Kolbs improves the method.
+An experiment that goes nowhere usually points upstream to an abstraction that was not observational. A limit at any step caps every step after it.
 
-## What Kolbs Can Reflect On
+| Step | What thin looks like | What changes it |
+|---|---|---|
+| Experience | A week in one sentence; an outcome in place of a process; reflection with no attempt behind it | One recent process, highest-yield first |
+| Reflection | Circling feelings with the next attempt unchanged; a checklist; long and still only feelings | Mine the process, then force a hypothesis and an experiment |
+| Abstraction | Observations with no principle; a theoretical guess; more reflection wearing the heading | Name the pattern the record shows, or go back and pad the reflection |
+| Experimentation | No next action; "try harder" a second time; too many experiments; unconnected to the findings | One or two actionable changes drawn from the hypothesis |
 
-Kolbs works best after a real attempt produced data. The attempt does not have to be dramatic. It only needs enough friction, emotion, result, or surprise to teach something.
+## Time, and what to expect
 
-Good Kolbs candidates:
+The cycle leans on self-awareness at every step, which is self-limiting: limited introspection limits what can be seen as worth reflecting on. Reflecting feels tedious or confusing when that awareness is still thin. Awareness deepens over weeks of repeated sessions, on the order of four to twelve, not in one sitting. That skill is [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]].
 
-- a session that started slowly;
-- a session that went better than expected;
-- a technique that looked correct but did not work;
-- a moment where a shortcut appeared;
-- a repeated failure mode;
-- a meaningful conversation;
-- a workout that revealed a bottleneck;
-- a language session where attention rose or collapsed;
-- an agent workflow that produced a useful or bad result.
+Early cycles can take hours. With practice they settle around fifteen to twenty minutes. **Cap at thirty minutes**, leave steps unfinished, and let speed arrive. A capped cycle done consistently beats an exhaustive one done rarely. The cap is practical. It is a floor-holder on that curve, not a verdict.
 
-Weak Kolbs candidates:
+It should feel like turning a messy experience into a better next experiment: what happened, then why, then what changes. Four signs a cycle is working: the experience gets more specific as it is written; emotions and triggers become usable information; a pattern appears rather than an event; the next experiment is smaller and clearer than the problem that started it. The first cycles diagnose rather than fix. Several are normally needed before a repair lands.
 
-- abstract planning with no attempt;
-- venting without a next experiment;
-- reviewing too many variables at once;
-- reflecting on something already obvious;
-- forcing a long reflection when a quick note would do.
+The quit signal is felt: the write-up has become journaling when it records the experience and does not change the next attempt. Where insight into one's own process is still thin, the write-up runs shallow and produces little. The repair is the metacognition build, not more cycles.
 
-## Priority 0 Reflection Examples
+The four steps are a discipline for practice, not a claim that minds move through four boxes in order. The cycle is criticised as too linear and thin on the social side.
 
-Use Kolbs to improve the way each Priority 0 area is practiced.
+## What the write-up is training
 
-| Priority 0 Area | Experience To Reflect On | Useful Kolbs Question | Possible Next Experiment |
-| --- | --- | --- | --- |
-| Agentic Engineering | An agent produced a hacky fix. | What instruction, context, or verification gap allowed that? | Give the agent a narrower ownership scope or require a specific verification step. |
-| Agentic Engineering | A coding session moved quickly but felt messy. | Which part was true speed, and which part was debt? | Add one checkpoint before accepting the patch. |
-| Agentic Engineering | A prompt worked well once. | What made it work: role, context, examples, constraints, or output format? | Save the reusable part as a prompt pattern. |
-| Learning Systems | A BHS session became note copying. | Where did Aim, Shoot, or Skin stop forcing useful thinking? | Add one question that forces importance or relationship judgments. |
-| Learning Systems | SIR felt familiar but weak. | Was I reconstructing, or recognizing? | Add interleaving or closed-book explanation before checking. |
-| Learning Systems | Interleaving exposed a weak problem frame. | What variable or relationship did I fail to account for? | Reconstruct the problem from one changed angle before executing again. |
-| Learning Systems | A technique felt right but results did not improve. | What thinking was the technique supposed to trigger, and did it happen? | Change the constraint, not the whole technique. |
-| Vietnamese | Immersion became passive. | What caused attention to drop: content, difficulty, energy, environment, or tool friction? | Shorten the clip, change content, or add one noticing target. |
-| Vietnamese | A video felt more comprehensible than usual. | What made comprehension easier? | Repeat the same content type or setup. |
-| Vietnamese | Grammar study became abstract. | Did the primer help me notice real input, or did it become rule memorization? | Return to input and look for one pattern in context. |
-| 中文 | Chinese reactivation created guilt or distraction. | Is this maintenance contact, or am I trying to reopen the full track? | Limit Chinese to one phrase, sentence, or clip. |
-| Fitness | A workout was skipped. | Was the blocker energy, setup friction, unclear plan, soreness, or avoidance? | Prepare the first exercise or reduce the entry requirement. |
-| Fitness | A lift felt worse than expected. | Was the problem strength, sleep, warm-up, technique, or programming? | Change one variable next session. |
-| Fitness | Training felt good and repeatable. | What condition made initiation easier? | Preserve that condition for the next session. |
-| Relationships | A message was delayed. | What made the contact feel effortful? | Send a smaller message earlier. |
-| Relationships | A conversation repaired something. | What made the repair possible? | Use the same opening move sooner next time. |
-| Relationships | A relationship felt neglected. | Was the issue lack of care, lack of scheduling, or avoidance? | Put one next touchpoint on the calendar. |
-
-## When Kolbs Takes Too Long
-
-Kolbs relies on self-awareness and metacognition at every step. When those are still developing, the cycle can feel slow, vague, or hard to focus. This is a self-limiting property: limited introspection means limited ability to identify what is worth reflecting on, which makes the cycle feel endless.
-
-Common causes and their fixes:
-
-| Experience | Likely cause | Fix |
-| --- | --- | --- |
-| Reflecting feels tedious or confusing | Low metacognitive awareness — unclear what counts as a meaningful event to reflect on | Treat metacognition as a high-priority skill to develop separately. Awareness deepens with repeated sessions over 4–12 weeks. |
-| Sessions take too long with no clear focus | Limited ability to distinguish signal from noise in the experience | Cap sessions at 30 minutes. Because the steps are sequential, limitations early in the cycle affect everything downstream. A capped session done consistently is more valuable than an exhaustive one done rarely. |
-
-The cap is practical, not a sign of failure. Speed and focus improve naturally as metacognition develops with repetition.
-
-## Full Kolbs vs Quick Note
-
-Use a full Kolbs when the experience has emotional weight, repeated friction, or a meaningful performance lesson.
-
-Use a quick note when the lesson is obvious and the next experiment is already clear.
-
-| Situation | Reflection Size |
-| --- | --- |
-| Repeated shortcut | Full Kolbs |
-| Strong emotional reaction | Full Kolbs |
-| Technique failure | Full Kolbs |
-| Relationship repair or conflict | Full Kolbs |
-| Minor logistical issue | Quick note |
-| Simple reminder | Quick note |
-| One-off low-stakes mistake | Quick note |
-| Obvious next action | Quick note |
-
-## How It Should Feel
-
-Kolbs should feel like turning a messy experience into a better next experiment. The reflection should move from what happened, to why it happened, to what you will try differently.
-
-Good signs:
-
-- the experience becomes more specific as you write;
-- emotions and triggers become usable information;
-- you identify a pattern, not just an event;
-- and the next experiment is smaller and clearer than the original problem.
-
-Warning sign: Kolbs has become journaling-only when it records the experience but does not change the next attempt.
-
-## Related Pages
-
-- [[templates/Kolbs Template|Kolbs Template]]
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]
-- [[wiki/Dimensions/Upgrading Your Dimensions|Upgrading Your Dimensions]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Dimensions/Mindset|Mindset]]
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
-- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
-- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
+After long practice the loop starts running inside the experience, with the noticing happening live and the write-up thinning out. What accumulates across cycles is a clearer diagnosis, a smaller next experiment, better awareness of mistakes and conditions, a more accurate model of cause and effect, and a practical next action. The write-up is scaffolding for a way of noticing. The end state is running the loop with no write-up at all.
 
 ## Open Questions
 
-- What situations deserve a full Kolbs cycle versus a quick note?
-- Should Kolbs cycles be stored in daily notes, outputs, or a dedicated practice log?
+How many cycles on one hypothesis before the hypothesis itself is the thing to change.
+
+## Related
+
+- [[wiki/Dimensions/Upgrading Your Dimensions|Upgrading Your Dimensions]] — dimensions as the things a run of cycles is aimed at upgrading.
+- [[wiki/Dimensions/Mindset|Mindset]] — a mindset trains on the same loop: name the problem it answers, meet that problem often enough to practise, and arrange the encounter deliberately when it is rare.
+
+## Sources
+
+- Kolb, D. A. 1984. *Experiential Learning: Experience as the Source of Learning and Development*. Prentice-Hall. Also 2015 2nd ed. Four-stage cycle this version is built on.
+- Kolb, D. A. & Fry, R. 1975. Earlier statement of the cycle.
+- Nolen-Hoeksema, S. 1991; 2000. *Journal of Abnormal Psychology*. Rumination as repetitive focus on symptoms and causes without problem-solving.
+- Pashler, H., McDaniel, M., Rohrer, D. & Bjork, R. 2008. *Psychological Science in the Public Interest* 9(3), 105–119. With Coffield, F., Moseley, D., Hall, E. & Ecclestone, K. 2004, and Newton, P. M. & Miah, M. 2017, *Frontiers in Psychology* 8:444. Why a learning-styles half is not taught here.
+- Bergsteiner, H., Avery, G. C. & Neumann, R. 2010. *Studies in Continuing Education* 32(1), 29–46. With Jarvis, P. 1987, and Holman, D., Pavlica, K. & Thorpe, R. 1997, *Management Learning* 28(2). Linearity and social-context critiques.
+- Schenck, J. & Cruickshank, J. 2015. *Journal of Experiential Education* 38(1). Update the cycle without the styles.
+- Schön, D. A. 1983. *The Reflective Practitioner*. Reflection-in-action as the live end state.
+- Gibbs, G. 1988. *Learning by Doing*. Six-stage teaching cousin.
