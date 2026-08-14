@@ -1,39 +1,68 @@
 ---
 title: "Expectancy in Wicked Environments"
-description: "Makes expected value usable outside games: cut the small fry, weigh only the heavyweights, and rate chance and magnitude in broad bands until a wicked decision shrinks enough for game logic to apply."
 type: model
 status: seed
 created: 2026-06-11
-updated: 2026-06-11
-ics-stage: Higher Ground Decision-Making
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 3
 tags:
   - decision-making
+  - expectancy
+  - estimation
   - expected-value
   - uncertainty
 ---
 
 # Expectancy in Wicked Environments
 
-A game with posted odds lets you compute exactly whether playing is worth it: multiply the chance of the good outcome by its magnitude, subtract the chance of the bad outcome times its magnitude, and read the sign. Win $10 at 75% and lose $50 at 25%, and a hundred rounds nets $750 in wins against $1,250 in losses — expectancy is −$500, so don't play. Shrink the loss to $20 and the same odds flip to +$250. The sign turns on two levers per side: chance and magnitude.
+Expectancy in a no-odds setting is a two-lever comparison of the large survivors, chance times size on each side. A wicked environment, here, is a choice that will not say what winning is, may only offer a less-bad loss, and has more moving parts than a head can multiply. The job is a usable estimate, made by deleting the small, weighing the heavy, and rating the survivors in bands of size and chance.
 
-That arithmetic assumes a kind environment — one that publishes its rules. Chess, golf, and most sports declare what winning and losing mean, so chances and magnitudes can actually be measured. Most of life is a wicked environment instead: the win condition is undefined, the loss condition is undefined, sometimes no win exists at all and the best available outcome is a less-bad loss, and the variable count runs into the thousands. No head computes expectancy over that, and waiting for the perfect calculation means never deciding. The perfect decision is off the table, which leaves the job of building a usable estimate. Three cuts shrink a wicked decision until the game logic applies again.
+## The game, then the setting that will not post odds
 
-## Three Cuts That Make It Computable
+A game that publishes its rules lets the arithmetic run in the open. Chance of the good times its size, minus chance of the bad times its size: read the sign. A positive sign is a bet worth repeating. A negative sign is a bet to refuse.
 
-- **Cut the small fry.** Of, say, ten thousand things that could go right or wrong, roughly 9,995 are low-chance, low-magnitude, or both. Small positives and small negatives roughly cancel, and whatever survives can be handled as it arises. Delete them wholesale — including outcomes that are guaranteed to happen but too insignificant to matter.
-- **Weigh only the heavyweights.** Judge the decision on the few most significant positives against the few most significant negatives. After the first cut, the situation is small enough to plug into the expectancy comparison without drowning in variables.
-- **Rate in broad bands.** Precision like 78% versus 79.3% is fake in a wicked environment. Rate significance as imperative / significant / convenient / insignificant (for a risk, imperative reads as unacceptable), and rate likelihood as guaranteed / very high / somewhat / low. Crossing the two bands over the surviving variables is the whole calculation.
+Take a posted game. Win $10 at 75 percent, lose $50 at 25 percent, one hundred rounds. The wins add to $750. The losses add to $1,250. Expectancy is −$500. Do not play. Shrink the loss to $20 and the same odds flip: $750 of wins against $500 of losses, +$250. Same two levers, one number changed. The sign turns on chance and magnitude on each side.
 
-## What Keeps the Cuts Honest
+That arithmetic assumes a posted-odds setting — one that publishes what winning and losing mean, so chances and sizes can actually be measured. Chess and golf do this. Some other scored games do too; "most sports" is looser once judging, weather, and opponents enter. The rest of life will not post those numbers. The win is undefined. The loss is undefined. Sometimes only a less-bad loss exists. More parts move than a head can multiply. No head computes expectancy over that list, and waiting for the perfect calculation means never deciding.
 
-- **Discovery before deletion.** The danger in blanket simplification is deleting a major downside that was never noticed in the first place. A thorough information pass comes before any cutting, and speed compounds the benefit: the faster high-quality discovery runs, the cheaper good decisions become.
-- **Engineer the biggest downside.** Ask whether its chance can drop (25% to 5%) or its magnitude can shrink ($50 to $20). Either move alone can flip overall expectancy from negative to positive — the same two levers as in the game, applied to the few variables that survived the cuts. Then do the mirror work on the upside: what is the chance of the gain, and how big is it.
-- **Ratings ride on the information behind them.** The bands are subjective, but a rating assigned after extensive, high-quality discovery is an informed estimate; the same rating assigned cold is a guess wearing the framework's clothes. The legitimacy of the whole protocol lives in the quality of what was gathered before judging.
+## Three cuts
 
-## The Bet on Running It at All
+Three cuts shrink that kind of choice until the game logic applies again.
 
-The estimate will sometimes be wrong; the decision to estimate still pays. Running a complex choice through this protocol produces better decisions on average than skipping it, so engaging the framework carries positive expectancy in its own right. Where a genuinely kind pocket of life appears, with real statistics and explicit win conditions, drop the bands and do the exact arithmetic instead.
+Cut the small fry. Low-chance, low-magnitude, or both — including outcomes that are guaranteed but too insignificant to matter — come off the list wholesale. Almost all of any long list is this residue. Small positives and small negatives roughly cancel; the rest can be handled as it arises. The move is delete the small. A count of how many is theatre.
 
-## Links into the system
+Weigh only the heavyweights. After the first cut, judge on the few most significant positives against the few most significant negatives. The situation is now small enough to plug into the two-lever comparison.
 
-Grounds [[Positional Decisions and Expected Value]] — that page carries the position-improving move and downside protection across repeated choices; this one explains why the underlying calculation must be banded rather than computed. The cuts slot into the variable-naming and downside steps of the operating loop in [[Decision Making]], and [[wiki/Decision Making/Judging a Decision by Its Process|judging a decision by its process]] judges the result the same way this page does: by the quality of the process given the information held at the time.
+Rate the survivors in broad bands. Fake precision — 78 percent against 79.3 — is the failure mode here. Size runs imperative, significant, convenient, insignificant; for a risk, imperative means unacceptable. Chance runs guaranteed, very high, somewhat, low. Crossing the two bands over the surviving variables is the whole calculation.
+
+## What keeps the cuts honest
+
+Discovery comes before deletion. The danger is deleting a major downside that was never noticed. A thorough information pass is first, so a reader cannot "simplify" a harm they never listed. Speed compounds the benefit: the faster that pass runs, the cheaper good decisions become.
+
+Then engineer the biggest downside. Drop its chance or its magnitude. Either lever alone can flip the sign — the $50 loss to $20 was one lever; a 25 percent chance cut to 5 percent is the other. Do the mirror work on the upside.
+
+Ratings ride on the information behind them. A band after extensive discovery is an informed estimate. The same band assigned cold is a guess wearing the framework's clothes. That is the quit signal: bands assigned before the pass.
+
+The estimate will sometimes be wrong. The decision to estimate still pays. Running a complex choice through this protocol produces better decisions on average than skipping it — as a reason to run it, not as a measured trial of these labels.
+
+Where a genuinely posted-odds pocket appears — real statistics, explicit win conditions — drop the bands and do the exact arithmetic. [[Positional Decisions and Expected Value]] owns the position-improving move and the downside protection across repeats; this page is why that calculation must be banded until a pocket like that shows up.
+
+The survivors now fit the two-lever comparison, or a posted-odds pocket appeared and the bands dropped. Either way the estimate is one a person can actually run. A cold band is still a guess in this framework's clothes. Stop faking the precision the setting never offered.
+
+## Links into the knowledge base
+
+- [[Positional Decisions and Expected Value]] — position-improving move and downside protection across repeats; this page is why the calculation must be banded.
+- [[Decision Making]] — hub operating loop (variable-naming, downside); the cuts slot into those steps.
+- [[wiki/Decision Making/Judging a Decision by Its Process|judging a decision by its process]] — process vs outcome after the estimate.
+
+## Open questions
+
+When a band stays "I don't know" after the information pass, is the next move delay or a no?
+
+## Sources
+
+- Expected value as definitional: chance of the good times its size, minus chance of the bad times its size. Any finite-sample bet.
+- Tetlock / superforecasting craft — coarse, calibrated probabilities beat fake fine ones for many tasks. Bound: not a trial of *these* four size labels or *these* four chance labels.
+- Hogarth, Lejarraga & Soyer 2015, *Current Directions in Psychological Science* — a kind learning environment is one whose feedback is accurate, plentiful, and tightly linked to the action; a wicked one has missing, delayed, or misleading feedback. Bound only: that paper measures feedback quality. This page's "wicked" means the odds are not posted and the win is not defined.

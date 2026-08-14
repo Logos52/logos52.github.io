@@ -1,8 +1,11 @@
 ---
+title: "Environment Design"
 type: concept
 status: developing
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-08-14
+written-by: grok
+model: grok
 source-count: 3
 tags:
   - minimalism
@@ -13,110 +16,78 @@ tags:
 
 # Environment Design
 
-Physical space can make desired behavior easier and undesired behavior harder before willpower enters the picture.
+A desk holding only the current work, headphones already cued, and clothes on the floor start the next block without a fresh decision. The competing action is one more reach away. The room does not have to be empty.
 
-The room is part of the system. It cues action, consumes attention, creates friction, and shapes the default path of the day.
+The room is part of the system that produces a day. It cues an action, consumes attention, creates friction, and shapes the default path. Those four jobs run whether anyone designed them.
 
-## Core Model
+## Empty floor
 
-```text
-space contains cues
--> cues pull attention
--> attention shapes behavior
--> behavior reinforces identity
-```
+Empty floor changes how a room feels and how it works. The defensible reason is maneuverability. Objects can move. Cleaning has a path. The room is not mentally sticky.
 
-Good environment design reduces the number of decisions required to start.
+An overloaded floor pins objects in place, makes cleaning a negotiation, and leaves the mind catching on every pile. Operational space matters more than visual emptiness. A room that looks bare and still blocks the next action has the wrong target.
 
-The room should make defaults visible. The desired behavior should be easier to notice than the distraction.
+## Start from the behavior
 
-## Empty Floor As Control Surface
-
-Empty floor area changes both the feeling and function of a room.
-
-Useful ratio:
-
-| Room Type | Object Area | Empty Floor Area |
-| --- | --- | --- |
-| Minimalist / museum-like | 3 | 7 |
-| Simple life | 5 | 5 |
-| First clean-room target | 7 | 3 |
-
-Empty floor creates maneuverability. When the floor is overloaded, objects cannot move, cleaning gets harder, and the room becomes mentally sticky.
-
-Operational space matters more than visual emptiness.
-
-## Design For The Desired Action
-
-Start with the behavior.
-
-Ask:
+The design starts from the behavior the space is for, then the cues around it. The questions that aim a room:
 
 - What should this space make easy?
-- What should this space make annoying?
-- What should be visible by default?
-- What should be hidden, removed, or outsourced?
-- What object repeatedly breaks attention?
-- What object repeatedly helps me start?
+- What should this space make hard to begin?
+- What belongs in sight as the default?
+- What should be hidden, removed, or handed off?
+- Which object keeps breaking attention?
+- Which object keeps helping a start?
 
-For study or agentic engineering, the workspace should reduce startup friction.
+Study, or building with agents, wants startup friction down. Fitness wants the first movement obvious. Language learning wants immersion easy to enter. The same pattern: name the action, then change what the room presents.
 
-For fitness, the environment should make the first movement obvious.
+Space contains cues. Cues pull attention. Attention shapes behavior. Behavior can reinforce a picture of the self — that last link is a reading, not a measurement.
 
-For language learning, the environment should make immersion easy to enter.
+## The two moves
 
-## Visible Defaults
+Visible defaults are objects or layouts that quietly tell the next action. The method is two lines. Desired behavior sits where it is seen. Competing behavior is less available. Less available means raised effort, not a drawer that still opens in one motion.
 
-Visible defaults are objects or layouts that quietly tell the user what to do next.
+The effort that would have gone into resisting at the point of action goes into the arrangement instead, and it is spent once. A normally designed room is already optimized — for someone else's outcome. Icons, notifications, and placement attach triggers to other people's behaviors. Being pulled off task is the normal condition of that room, not a personal defect.
 
-Examples:
+A room that shows the desired move more readily than the distraction also cuts the number of decisions required to start. Emptiness is still the wrong target. The next action has to be the thing the room presents.
 
-- a clear desk with only the current work surface open;
-- headphones and target-language media ready before an immersion block;
-- exercise clothes or equipment placed where the first movement is obvious;
-- a reading surface that contains the current book instead of a pile of abandoned options;
-- a charging setup that prevents cable friction from becoming a daily annoyance.
+## What the room puts in reach
 
-The rule:
+Five ordinary layouts do the same job:
 
-```text
-make desired behavior visible
-make competing behavior less available
-```
+- a desk that holds only the current work
+- headphones and the target-language file already cued before an immersion block
+- workout clothes or a mat sitting where the first movement is obvious
+- one book on the reading surface, not a stack of abandoned candidates
+- a charging spot that stops cable-hunting from becoming the morning's first friction
 
-This is intentional selection. The room does not need to be empty. It needs to show the right next action.
+[[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] runs entry, drift, and return once a block has started; this page takes competing cues out before that block begins. [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] is friction between blocks; the defaults here are the preparation that page names as environments set before execution time. The environment should carry part of the self-management load.
 
-## Relationship To Focus
+## When the room still fails
 
-Environment Design supports [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] by reducing the number of competing cues inside a work block.
+| Failure | What it looks like | Repair |
+|---|---|---|
+| Visual minimalism | The room looks finished and still does not support the action | The design starts from the behavior |
+| Hidden usefulness | Useful tools buried for clean surfaces | Selected tools stay visible when they prompt the one behavior this space is for |
+| Storage hiding | Clutter moved into boxes | Reduce the bill, then store what remains |
+| Friction blindness | The same annoying setup repeats daily | Recurring setup friction is a design bug |
+| Attention leaks | Objects pull the mind | The cue is removed, hidden, or relocated |
 
-It supports [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] by reducing friction between blocks.
+Storage-hiding fails because the box still charges. [[wiki/Minimalism/Ownership Cost|Ownership Cost]] itemizes that bill — space, time, attention, upkeep, memory, decisions, exit — so the repair is reduce first, then store what remains.
 
-The environment should carry part of the self-management load.
+A half-done change is still a plan resting on resolve. Muting one notification or moving one object and then declaring the method failed is decoration on top of the old plan. The arrangement has to be the main approach, and it has to go far enough that the competing action is genuinely out of reach.
 
-## Failure Modes
+The price is a real rearrangement, not a tidying hour. If a completed pass has not changed how a week starts, the pass was organisation. Within a week of a real change, the next intended action is the one the room shows first.
 
-| Failure | What It Looks Like | Repair |
-| --- | --- | --- |
-| Visual minimalism | The room looks clean but does not support action. | Start from behavior, then design the space. |
-| Hidden usefulness | Useful tools are removed or buried for the sake of clean surfaces. | Keep selected tools visible when they prompt Priority 0 behavior. |
-| Storage hiding | Clutter disappears into boxes and cabinets. | Reduce ownership cost, then store what remains. |
-| Friction blindness | The same annoying setup repeats daily. | Treat recurring setup friction as a design bug. |
-| Attention leaks | Objects keep pulling the mind away from the intended task. | Remove, hide, or relocate the cue. |
-
-## Practical Use
-
-Choose one space and ask:
-
-1. What behavior should happen here?
-2. What object supports that behavior?
-3. What object competes with that behavior?
-4. What can be removed, downsized, or moved?
-5. What should be visible before the next session starts?
+The desk, the cued file, and the clothes now start the week. The occupancy curve and the reserve-capacity arithmetic live on [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]; this page only had to put the next action in reach.
 
 ## Related
 
-- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]
-- [[wiki/Minimalism/Ownership Cost|Ownership Cost]]
-- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
-- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
+- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] — competing cues inside a work block; this page removes them before the block starts.
+- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] — friction between blocks; these defaults are the preparation named there as environments set before execution time.
+- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] — parent hub: reserve capacity, the occupancy curve, and the cluster map.
+- [[wiki/Minimalism/Ownership Cost|Ownership Cost]] — why storage-hiding fails: the box still charges. The seven-cost table lives there.
+
+## Sources
+
+- Wood, Quinn & Neal (2002). Habits in everyday life: Thought, emotion, and action. *Journal of Personality and Social Psychology.* Context-cued repetition as the frame for C1.
+- Wood, W. (2019). *Good Habits, Bad Habits.* Change the cue and the friction; the arrangement, not the moment of action.
+- Sasaki, F. *Goodbye, Things.* Empty floor as household craft (maneuverability), not as a measured ratio.

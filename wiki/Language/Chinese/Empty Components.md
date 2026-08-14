@@ -1,10 +1,12 @@
 ---
+title: "Empty Components"
 type: concept
 status: developing
 created: 2026-06-10
-updated: 2026-06-10
-source-count: 1
-sources: Outlier Linguistics — Chinese Character Masterclass (local PDFs, not in repo)
+updated: 2026-08-14
+written-by: grok
+model: grok
+source-count: 2
 tags:
   - chinese
   - characters
@@ -14,51 +16,67 @@ tags:
 
 # Empty Components
 
-Two historical accidents leave shapes inside characters that do no work. A scribe adds an arbitrary stroke so one glyph writing two words can split in two; the stroke says only "this one is different." Or form drift grinds a once-functional part into wreckage signaling nothing about the word's sound or meaning. Both routes yield empty components: pure form, carrying no information about the spoken word behind the character — a fourth category beside the form, meaning, and sound components that serve writing's three attributes.
+An empty component is leftover form with no sound or meaning job, the extra stroke in 夫 or the 身 lookalike in 射. Two accidents produce it: a mark added so two words no longer share one glyph, or wreckage of a part that once did work. It is the fourth role beside form, meaning, and sound — the leftover that [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] has no job for.
 
-Absence of function removes the natural retrieval cues, so empty parts are hard to remember and invite false etymologies. The repair has two moves: attach a causal one-liner to each empty component — "mark splitting this character from its twin," "corroded bow-and-arrow" — and render the part as glass inside the mnemonic, storing the non-function in the image itself. Neither move requires paleography; both end the search for a hook that was never there.
+## Distinguishing marks
 
-## Marks That Split One Glyph into Two Characters
+Early script let one character write several words. Context carried the load until the split had to become visible on the page. One way to split is a semantic add: 月/肉 under 北 produced 背 for "back," and 北 kept the other reading. [[wiki/Language/Chinese/Sound Components|Sound Components]] owns how that pair began as a sound-loan. The other way is a **distinguishing mark**: an arbitrary stroke, empty by construction, that only announces "this is a different word."
 
-- **One glyph, several words.** Early script let one character write several words; context carried the load until the split had to become visible. One route adds a semantic component: 月 (ròu, "meat; body") joined 北 (běi, "north"; originally writing "back") to give 背 (bèi, "back"). The other adds an arbitrary mark, empty by construction.
-- **One stroke, one job.** 夫 (fū, "adult male") is the standing-adult picture of 大 (dà, "big") plus one stroke that announces a different character and has no connection to 一 (yī, "one").
-- **Marks ride dual-duty bases.** In 少 (shǎo, "few"), 小 (xiǎo, "small") does meaning and sound work at once; only the slash is empty.
-- **口 is the workhorse mark.** 口 (kǒu, "mouth") separates 高 (gāo, "tall") from 京 (jīng, "capital") and originally sat where 香 (xiāng, "fragrant") now shows 日 (rì, "sun").
-- **Early marks hide kinship.** 高 and 京 began as the same tall-building drawing — tall buildings stood only in cities, whence the "capital" sense — but the early 口 sent them down separate tracks; the modern pair barely resemble each other.
-- **A mark can moonlight as the phonetic.** In 句 (jù, "phrase"; its original "crooked" now written 勾 gōu), 口 disambiguates and supplies the sound; the 勹-shaped leftover is empty residue of 丩 (jiū, "entangled ropes"). In 千 (qiān, "thousand"), 亻 — variant of 人 (rén, "person") — is a real phonetic Mandarin no longer betrays; the crossbar is the empty mark.
+夫 is 大 plus one stroke that has no connection to 一. The extra line does not mean "one." It only separates the character from 大.
 
-## Corruption: Drift That Breaks Function
+Not every stroke in the host is empty. In 少, 小 still does meaning and sound; only the slash is the leftover.
 
-- **The damage test.** Form change counts as corruption only when it damages sound or meaning work; drift that leaves both legible is ordinary evolution.
-- **The bow that became a body.** 射 (shè, "to shoot") began as a drawn bow and arrow; a hand — now written 寸 (cùn) — joined to stress the draw; across a sequence of ancient forms, the bow-and-arrow collapsed into a 身 (shēn, "body") lookalike. That 身 is residue; the traditional pulling-the-string-toward-your-body story reanalyzes residue as semantics.
-- **Corruption by merger.** 春 (chūn, "springtime") was 艸 (cǎo, "grass") + 日 + 屯 (tún, "seedling"), 屯 the phonetic via the zh-/ch-/sh- ↔ d-/t- sound-series trade, until 屯 and 艸 fused into the empty shape 𡗗.
-- **Same shape, different graves.** 𡗗 recurs in 奏 (zòu, "play music"), 泰 (tài, "peaceful"), 奉 (fèng, "to offer"), 秦 (qín, "Qin dynasty"), and 舂 (chōng, "pound grain") — corruption every time, different ingredients each time except 秦 and 舂. Identical shapes prove nothing about origin.
-- **Buried phonetics.** 外 (wài, "outside") carried 月 (yuè, "moon") for sound, now 夕 (xī, "evening"); 布 (bù, "cloth") carried 父 (fù, "father"), now ナ; 早 (zǎo, "morning") carried 棗 (zǎo, "jujube"), now 十 (shí, "ten").
-- **Damage and demotion are separate calls.** The corrupted top of 表 (biǎo, "exterior of clothing") still counts as the phonetic it was, 毛 (máo, "hair"); the corrupted 夕 of 外 is filed empty. Corruption often empties a component, never automatically.
+口 is the workhorse mark. It separates 高 from 京. It originally sat where 香 now shows 日. 高 and 京 began as the same tall-building drawing — tall buildings stood in cities, and that sense produced "capital" — and the early 口 sent them down separate tracks.
 
-## Glass in the Memory Image
+A mark can moonlight as the phonetic. In 句, 口 both disambiguates and supplies sound; the 勹-shaped leftover is residue of 丩. In 千, 亻 is a real phonetic that modern Mandarin no longer betrays, and the crossbar is the empty mark. Empty is not "the leftover that looks leftover."
 
-- **Build on real structure only.** Slicing 偷 (tōu, "to steal") into a person on a roof at night with a knife invents structure the character never had and trains the wrong decomposition. Ground every mnemonic in functional components.
-- **Two legitimate cue sources.** A character's traditional explanation under an explicit historically-false flag — the 射 bowstring story is vivid because it pretends the residue means something — and your own imagination.
-- **Render the empty part transparent.** For 射, picture an archer statue: drawing hand solid, body glass. Transparency makes "carries no information" a perceptual property of the image; recalling the picture recalls which parts to ignore.
-- **Cap the depth.** Universities in Taiwan and China teach corruption as its own graduate paleography subject; a learner needs the one-liner plus the glass image, pulling in full histories only when they aid retention.
+## 射
 
-## Related Pages
+射 makes the second route checkable. It began as a bow and arrow. A hand — now written 寸 — joined the drawing. The bow-and-arrow then collapsed into a 身 lookalike. That 身 is residue. The story that the archer is pulling the string toward his body reanalyzes the residue as if it still meant something.
 
-- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] - cluster hub; where empty components sit in the reading order
-- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] - the form/meaning/sound triad that empty components fall outside of
-- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] - functional-component decomposition; empty parts are where surface shape misleads most
-- [[wiki/Language/Chinese/Sound Components|Sound Components]] - the function that buried phonetics like the 月 of 外 once performed
-- [[wiki/Language/Chinese/Sound Series|Sound Series]] - the initial-correspondence families that make 屯 a credible phonetic for 春
-- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] - the original-sense reasoning and "now written X" notation used throughout
-- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] - the domain-general memory rules the glass convention instantiates
+Absence of function removes the natural retrieval cue. The leftover is hard to remember, and it invites exactly that kind of story: a hook hung on wreckage.
 
-## Sources
+## Corruption, then glass
 
-- Outlier Linguistics, *Chinese Character Masterclass* — commercial course; lesson PDFs kept locally outside this repository. https://www.outlier-linguistics.com/
+Form change counts as **corruption** only when it damages the sound or meaning work the part was doing. Drift that leaves both jobs legible is ordinary evolution.
+
+春 was 艸 + 日 + 屯. 屯 is a credible phonetic through the regular correspondence of zh-/ch-/sh- with d-/t-; [[wiki/Language/Chinese/Sound Series|Sound Series]] is that family of correspondences. 屯 and 艸 fused into empty 𡗗. The same 𡗗 recurs in 奏, 泰, 奉, 秦, 舂 — corruption every time, different ingredients except 秦 and 舂. Identical shapes prove nothing about origin. Same shape, different graves.
+
+Buried phonetics hide the same way. 外's 月/yuè is now 夕. 布's 父 is now ナ. 早's 棗 is now 十. Those parts once cued sound; [[wiki/Language/Chinese/Sound Components|Sound Components]] is what they used to do.
+
+Damage and demotion are separate calls. The corrupted top of 表 still counts as the phonetic 毛. The corrupted 夕 of 外 is filed empty. Corruption often empties a component. It never does so automatically. Remaining work decides the filing, case by case.
+
+Build mnemonics on real structure only. Slicing 偷 into person-on-roof-at-night-with-knife invents structure. The refusal is the whole of the example here.
+
+[[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] is the original-sense trunk: when a leftover is wreckage of an older drawing, the older sense is often now written by a successor character.
+
+The repair is two moves, neither of them paleography. Attach a causal one-liner — "mark splitting this character from its twin," "corroded bow-and-arrow" — and render the empty part as **glass** in the memory image: transparent, so what is stored is "ignore this." For 射, picture an archer statue with the drawing hand solid and the body glass. Recalling the picture recalls which parts to ignore.
+
+Two legitimate cue sources remain. A traditional explanation may be kept under an explicit historically-false flag — the bowstring-toward-the-body story is vivid because it pretends residue means something — and so may the learner's own imagination. False-but-flagged is allowed. False-as-etymology is not.
+
+Universities in Taiwan and China teach corruption as graduate paleography. A learner needs the one-liner plus the glass image. Both end the search for a hook that was never there. [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] is the domain-general version of that stop: store what is there, do not invent a hook to make the leftover feel earned.
+
+Emptiness is a verdict of elimination. That is why [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] puts this page last, after the three jobs have been checked. [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] is where surface shape misleads most — the place a leftover most often gets mistaken for a working part.
+
+The hunt ends. The part is stored as glass, the one-liner names the route, and no hook is invented for a stroke that never had one. Corruption did not decide the filing. The remaining work did.
 
 ## Open Questions
 
-- Strokes added for visual balance are sometimes described as a third origin of empty components; only marks and corruption are established here. Is decorative regularization a real third route or a subtype of corruption?
-- What criterion moves a corrupted component from "still the phonetic" (the 毛 of 表) to "empty" (the 夕 of 外) — residual recognizability, or case-by-case judgment?
-- Does the glass convention stay discriminating once dozens of memory images each contain a transparent element, or does it need variants at scale?
+- Decorative regularization — strokes added only to even a shape — may be a third route into emptiness. It is not a third category yet.
+- Still-phonetic versus empty after damage stays case-by-case: remaining work, not the fact of damage. No mechanical test is offered here.
+- Whether the glass convention holds at the volume of real reading is untested.
+
+## Related
+
+- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] — hub; this page is last because emptiness is a verdict of elimination
+- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] — the triad empty falls outside
+- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] — where surface shape misleads most
+- [[wiki/Language/Chinese/Sound Components|Sound Components]] — what buried phonetics once did; 北/背 origin
+- [[wiki/Language/Chinese/Sound Series|Sound Series]] — why 屯 is a credible phonetic for 春
+- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] — original-sense reasoning; "now written X"
+- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] — domain-general rules glass instantiates
+
+## Sources
+
+- Dong Chinese character etymology for 射: hand pulling a bowstring with an arrow; later written 身+寸. Public paleography, not a course.
+- 說文解字 (Shuowen Jiezi) on 射: already reads 身 as the body in the scene — the folk etymology this page treats as residue reanalyzed, not as origin.
