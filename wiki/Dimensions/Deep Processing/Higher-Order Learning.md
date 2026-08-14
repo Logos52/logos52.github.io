@@ -3,7 +3,9 @@ title: "Higher-Order Learning"
 type: concept
 status: developing
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
   - higher-order
   - encoding
@@ -12,87 +14,126 @@ tags:
   - expertise
   - bloom
 ---
-> Part of [[wiki/Dimensions/Deep Processing|Deep Processing]]
-
 
 # Higher-Order Learning
 
-Expertise is a knowledge structure, not a knowledge volume. The difference between a novice and an expert is not how much they know — it is how that knowledge is organized. Higher-order learning is the process that builds the expert structure: comparing, evaluating, grouping, and connecting information into an integrated network rather than accumulating it as isolated facts.
+> Part of [[wiki/Dimensions/Deep Processing|Deep Processing]]
 
-## Two Orders of Learning
+The version of the taxonomy printed on classroom posters puts remembering and understanding at the base and analysing, evaluating and creating above them, and treats that order as the sequence work has to follow. The lower rungs are the ground. Analysis starts once they are in place.
 
-Learning processes and learning outcomes both exist on a spectrum from lower-order to higher-order.
+Memory and understanding are what the upper work produces, not what it waits for. Higher-order learning is comparing pieces of a subject and judging which relations matter, until the knowledge is one connected network instead of a list. Expertise is a knowledge structure, not a knowledge volume. People who know a field also know more of it. Organisation is the difference that decides whether any of it can be used.
 
-**Lower-order processes** involve repetition, rote memorization, and understanding information in isolation. They produce lower-order outcomes: the ability to recall facts and recognize familiar patterns. They are not sufficient for expertise.
+## Two orders
 
-**Higher-order processes** involve comparing ideas, finding trends and similarities, grouping by importance, making judgments on relevance, and connecting information to a big-picture network. They produce higher-order outcomes: integrated knowledge that can be applied, transferred, and used for complex or novel problem-solving.
+Learning processes and learning outcomes both run on the same spectrum, from lower-order to higher-order. Lower-order work is repetition, rote, and understanding each thing in isolation. What it produces is recall and recognition: facts coming back as they were stored. That work is rarely chosen. It is what old habits produce when nothing forces a comparison.
 
-The asymmetry matters:
+Higher-order work compares, finds trends, groups by importance, judges relevance, and connects pieces into a big-picture network. Integration happens by that analysis and evaluation. The network does not appear on its own. What it produces is material that can be applied and used in a case not met before, inside the same subject. Use in a new case in the subject is the target. A general upgrade to thinking is not what this buys.
 
-- Higher-order processes produce both lower-order and higher-order outcomes. Comparing ideas requires understanding them first — so higher-order learning automatically covers lower-order ground.
-- Lower-order processes produce only lower-order outcomes. Memorizing facts does not produce the ability to use them in unfamiliar conditions.
+**Higher-order methods produce both kinds of knowledge. Lower-order methods produce only their own.**
 
-Starting with higher-order methods is therefore more efficient. The network built by higher-order learning reduces how much isolated memorization is needed afterward — what the ICS system calls reducing the **lower-order burden**.
+Ideas cannot be compared without being understood first, so the comparison uses the elements and strengthens them. It does not skip encoding them. Someone who compares ideas until groupings appear, then judges which grouping matters most and maps it, can retrieve relations, judgments, and structure after retrieval practice. Someone who runs flashcards over a list of facts gets the facts back, at that level and no other. Memorising facts does not produce the ability to use them in unfamiliar conditions. Some carryover from repetition exists. The direction is still one way.
 
-## What Higher-Order Learning Feels Like
+Once the network exists, isolated facts are still left to repeat. That leftover is the lower-order burden: the isolated facts still held by repetition after the network is in place. A network makes material more memorable from the outset, which cuts how much is left over. Starting with the comparison work is the efficiency bet — less isolated memorisation afterward, not none.
 
-Higher-order learning is cognitively effortful. It feels:
+| | Higher-order | Lower-order |
+|---|---|---|
+| What it is | Comparing pieces and judging which relations matter, until the knowledge is a network | Repetition, rote, and understanding each thing on its own |
+| The operation | Compare, then judge importance | Repeat isolated items until they come back |
+| What it produces | Material that can be applied and used in a new case in the subject | Recall and recognition of stored facts |
+| What it sounds like from inside | How does this relate to that. How is this similar or different. What function does it serve. Where does it sit. What is the trend. Early passes feel confusing, taxing, and back-and-forth, and questions multiply as the network grows | What does this mean. What are they trying to say. This feels important, so it needs repeating until it sticks. The work feels tedious, straightforward, and often sleep-inducing, and questions reduce as repetition accumulates |
 
-- challenging and mentally taxing;
-- confusing in early passes — ideas don't sit still;
-- generative — questions produce more questions;
-- back-and-forth rather than linear.
+## What it costs to run
 
-Lower-order learning feels the opposite: tedious, repetitive, mentally straightforward, often sleep-inducing. The comfort of lower-order learning is one of its main failure modes — it produces the feeling of studying without building the structure that studying is for.
+Higher-order work carries more cognitive load by construction, and sustained load is felt as tiredness. That cost is the subject of [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]: why the work feels taxing, and where the load stops being useful. Early on the load lands as unfamiliar, uncomfortable, confusing, and chaotic — a back-and-forth between the material and the map rather than a linear pass.
 
-| Higher-order | Lower-order |
-| --- | --- |
-| Comparing, contrasting, evaluating, grouping | Rote-memorizing, repeating, re-reading |
-| Mentally effortful, potentially confusing | Tedious, time-consuming, straightforward |
-| Questions multiply as understanding develops | Questions reduce as repetition increases |
-| Produces integrated, retrievable structure | Produces isolated, fragile recall |
-| Retention improves without additional repetition | Retention requires sustained repetition |
+Tolerance expands two ways. The same sensation reads differently once a grouping starts to pay. Processing capacity also adapts with use, so a high-quality network gets easier to build.
 
-## Memory and Understanding as Outputs
+The target is high load short of overload, the point where more is being processed than can be held. Three things keep the work under that line. Notes taken non-linearly leave relations on paper instead of in the head. Small throwaway maps test a structure before one is committed to. Short breaks consolidate what has arrived before more is taken in, which cuts the number of loose threads being tracked.
 
-Bloom's revised taxonomy places memory and understanding at the bottom of a hierarchy, below analysis and evaluation. This framing is misleading. Research since Bloom has challenged it.
+Performing an unfamiliar technique consumes capacity itself. One or two new techniques at a time leaves room for the thinking. Several at once spends the capacity on executing the moves and leaves none for the comparison they exist to produce.
 
-A more accurate model treats memory and understanding as **outputs** of higher-order thinking processes, not prerequisites to them. Engaging in comparison, evaluation, and network-building produces better memory and deeper understanding as consequences — not because the learner first memorized and then analyzed, but because the analysis itself is what makes information memorable.
+The comfort of lower-order work is one of its failure modes. The session feels like studying while no structure is being built. Fluency is mistaken for learning.
 
-This reframes what studying is for: the goal is not to accumulate information until enough of it has been processed that analysis becomes possible. The goal is to engage in the analysis processes that make information stick in the first place.
+## Memory as an output
 
-## Higher-Order Learning in Practice
+The dissent above is aimed at the poster, not at the revision. The revised version already treats what is known and what is done with it as two separate dimensions. The ladder is a feature of the chart, not of the framework. The ordering has been challenged since: the hierarchy is not a validated developmental sequence.
 
-Higher-order thinking involves:
+How people sort problems shows what organisation is for. Given the same set of physics problems, people who know the field sort by the principle that governs the solution. Newcomers sort by what the problem looks like. That is the measured form of grouping by function, mechanism, or consequence rather than by surface features.
 
-- asking why something matters and how it connects to the broader topic;
-- comparing two concepts to find the most meaningful similarity or difference;
-- grouping ideas by shared function, mechanism, or consequence rather than surface features;
-- making explicit judgments about which relationships are most important;
-- relating each new piece of information to what is already in the schema.
+**Comparison, evaluation, and network-building produce better memory and deeper understanding as consequences.**
 
-The output should be a network of connected, evaluated, and prioritized knowledge — not a list of facts with labels.
+The goal is not to accumulate information until analysis becomes possible. It is to run the analysis that makes information stick, once enough of the elements are held for a comparison to be possible. Memory and understanding come out of a repeating cycle of comparison and judgment. That cycle is this vault's own model. It is not a published diagram.
 
-## Relationship to the Study System
+## The work itself
 
-Higher-order learning is the cognitive process that [[wiki/Dimensions/Deep Processing/Bear Hunter System|BHS]] is designed to produce. The Aim step forces relationship and importance questions. The Shoot step requires placing each new piece of information into a network rather than a list. The Skin step forces evaluation of which relationships are worth keeping.
+The moves aim at four things at once: how ideas relate to each other, how they relate to what is already held, which of those relations are relevant and important, and a network that has been examined rather than merely assembled. [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]] is the behaviour list in full. What follows is the short form.
 
-[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] tests whether the schema built by higher-order encoding can be reconstructed — and whether the knowledge can be used at higher orders under retrieval conditions, not just recognized.
+Ask why something matters and how it connects. Compare two concepts for the most meaningful similarity or difference, not any similarity that happens to appear. Group by shared function, mechanism, or consequence rather than surface features — the same move the physics-sorting finding measured. Make explicit judgments about which relations matter most. Relate each new piece to what is already in the schema. [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]] is the evaluate half of those two operations, worked out as a method: grouping by why something matters.
 
-[[wiki/Dimensions/Deep Processing/Schema|Schemas]] are the structural outcome of higher-order learning. The network that expertise requires is built by the processes described here.
+Most techniques can be run at any depth. This system's own teaching ladder, from shallowest, is a dial rather than a finding:
 
-## Open Questions
+1. Memorise it.
+2. Try to understand it.
+3. Rate how important each key term is.
+4. Group key terms by similarity.
+5. Find different groupings, each based on a different similarity.
+6. Judge which grouping is best, by importance and relevance.
+7. Connect the groups to show how they influence each other.
 
-- Where in your current study domains are you defaulting to lower-order processes — and what is the specific step where higher-order thinking breaks down?
-- What does the lower-order burden look like for your most important current topic?
+The operating rule is to work one step above what is comfortable, then recalibrate and step again. The output is a network of connected, evaluated, prioritised knowledge, not a list of facts with labels.
+
+A high-quality network passes three tests:
+
+- Relations have been critically examined, not merely spotted.
+- The material has been related to a big picture, not left standing alone.
+- The structure was chosen after alternatives were considered, not settled on because it came first.
+
+## Where it stops
+
+Nothing can be compared that is not yet held at all. Working over material with no elements in place produces overload, not integration. That is the entry condition, and it is the same limit [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] names from the other side.
+
+Retrieval is still required. The brain forgets whatever it encoded. Better encoding makes material more durable. It does not make it permanent, and repetition does not become unnecessary.
+
+Use in a new case within the subject is the target. A general upgrade to thinking is not what this buys.
+
+Starting higher-order first is this system's bet, not the result of a comparative trial. What it costs is the load above. What it buys is less repetition later.
+
+If two sessions of comparing produce no grouping that can be defended, and the material still reads as noise, the missing piece is the elements. Get a rough hold on them, then compare. The count of separate things that have to be held should fall once the structure exists. If that count is not falling, the network is not doing its job.
+
+[[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery]] is the level ladder this page declines to treat as a climb: what each level of usable knowledge actually requires. Comfortable lower-order work that feels like progress is the shortcut [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] names.
+
+Once the network exists, the material is retained without further effort and is available both for recall and for working problems. That is what the work leaves behind.
+
+The encoding procedure built to produce this is [[wiki/Dimensions/Deep Processing/Bear Hunter System|BHS]]. Aim primes with importance-based questions before the source is opened. Shoot answers them into a non-linear map, judging chunks while the map is built — not every question needs a good answer, because the attempt is what forms the relation. Skin is the evaluate-level pass that settles the structure after several of those cycles. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] tests whether that structure can be rebuilt and used, not just recognised. What is left is the [[wiki/Dimensions/Deep Processing/Schema|schema]]: the organised structure that can be retrieved and used.
+
+The orders are not rungs to climb in sequence. They name what the work leaves behind.
+
+## Open questions
+
+Where is the default lower-order in the subject being studied right now, and what does the lower-order burden look like there.
 
 ## Related
 
-- [[wiki/Dimensions/Deep Processing/Schema|Schema]]
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]]
-- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
-- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
-- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] — the parent dimension: what deep processing is, and where higher-order learning sits inside it.
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — the four-pass encoding procedure built to produce this: questions before the source, a working map, a pruned structure.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — retrieval spread over time and mixed across topics, the test of whether the network can be rebuilt and used rather than recognised.
+- [[wiki/Dimensions/Deep Processing/Schema|Schema]] — the organised structure this work leaves behind, and what it takes to keep one usable.
+- [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]] — the behaviour list in full, what running these moves looks like in a session.
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]] — grouping by why something matters, which is the evaluate half of the two operations, worked out in detail.
+- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] — the level ladder this page declines to treat as a climb, and what each level of usable knowledge actually requires.
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] — why this work feels taxing, where the load stops being useful, and the limit behind the entry condition.
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] — comfortable lower-order work as the shortcut that feels like progress.
+
+## Sources
+
+- Chi, Feltovich & Glaser (1981), *Cognitive Science* 5:121–152 — experts sort physics problems by the principle that governs the solution; novices sort by surface features.
+- Chase & Simon (1973) — chess expertise as organised chunks rather than a larger pile of unconnected facts.
+- Ericsson & Kintsch (1995) — experts also store more, via long-term working memory; organisation is the difference that decides use, not a claim that volume is identical.
+- Craik & Lockhart (1972); Craik & Tulving (1975) — deeper, elaborative encoding produces more durable memory.
+- Anderson & Krathwohl (2001) — the revised taxonomy already splits knowledge type from cognitive process, so remembering is not a prerequisite rung under evaluating.
+- Krathwohl (2002), *Theory Into Practice* 41(4) — the hierarchy is not a validated developmental sequence; popular posters still print it as one.
+- Kirschner, Sweller & Clark (2006), *Educational Psychologist* 41(2):75–86 — comparing elements that have not been held overloads working memory; higher-order work uses the elements rather than skipping them.
+- Roediger & Karpicke (2006); Rowland (2014) — retrieval practice is still required; better encoding does not make repetition unnecessary.
+- Barnett & Ceci (2002) — far transfer is rare; use in a new case within the subject is the honest target.
+- Bjork, Dunlosky & Kornell (2013) — fluency is a poor signal of whether structure is being built.
+- Gentner, Loewenstein & Thompson (2003) — comparing two cases for a meaningful similarity is what analogical encoding actually runs.

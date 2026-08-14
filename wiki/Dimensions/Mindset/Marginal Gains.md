@@ -1,10 +1,13 @@
 ---
+title: "Marginal Gains"
 type: technique
 status: developing
 created: 2026-05-06
-updated: 2026-05-14
-source-count: 2
-last-audited:
+updated: 2026-08-14
+last-audited: 2026-08-14
+source-count: 1
+written-by: grok
+model: grok
 tags:
   - learning
   - improvement
@@ -12,76 +15,56 @@ tags:
   - mindset
 ---
 
+> Part of [[wiki/Dimensions/Mindset|Mindset]] · [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+
 # Marginal Gains
 
-> Part of [[wiki/Dimensions/Mindset|Mindset]]
+Marginal gains is a method for choosing what to improve next: the smallest change you are near-certain to pull off, chosen so it builds on the one before it. A small improvement in the wrong place is not a small gain; it compounds with nothing.
 
-> Part of [[wiki/Dimensions/Mindset|Mindset]]
+The question is never what could I improve. It is what is capping the rest.
 
-> Part of [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+## What makes a gain a gain
 
-Improvement becomes easier to start when the next gain is small, concrete, high-probability, and likely to compound.
+A gain stacks when it adds value on top of existing progress rather than scattering effort. The test is one question: does this next gain add value to the progress I just made, or open an unrelated thread?
 
-The same logic applies outside studying. In fast-moving technical work, small improvements to search, review, source hygiene, feedback speed, and sense-making loops can compound into a much stronger operating system.
+Three requirements have to hold together. The improvement targets an important skill that actually moves the goal — chasing a peripheral habit while the bottleneck sits still wastes the compounding, which is why [[wiki/Dimensions/Upgrading Your Dimensions|Upgrading Your Dimensions]] separates short-term foundations from later cognitive growth. It has to persist long enough to find the mistakes, fix them, and let the new way become a habit. And it has to fit the larger operating system, not just score well on a local metric. Miss any one and progress caps. When all three line up, stacking buys two things: growth, and habits. Without the habit, every repetition keeps costing effort and concentration.
 
-## Summary
+One worked case: a first gain in note-taking — compressing difficult concepts into fewer keywords — improved retention and stayed slow. Of the two candidates for next, strengthening the same deep processing stacked; reducing procrastination helped and built on nothing. The operating layer that walks that test in short form is [[wiki/Dimensions/Mindset/Marginal Gains in Practice|Marginal Gains in Practice]].
 
-Marginal Gains turns growth into a sequence of small, reachable improvements. It is useful when the user has many possible things to improve and needs a way to choose the next step without overreaching.
+Poor stacking looks like a switching spiral: non-linear notes, then flashcards, then a method for reducing procrastination, then time management, then back to note-taking, unimproved. Weeks or months pass. Divided effort slows acquisition because each skill needs enough experience and reflection to make mistakes, understand them, and build each increment to a meaningful level. Mistakes surface more slowly, experiments lose focus, and each skill takes longer. Weeks pass with surface familiarity across many areas and competence in none — the plateau [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] names, where better methods leave results unchanged. A clean acquisition creates headroom. Switching creates work without creating competence.
 
-In this wiki, Marginal Gains links heavily with [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]. Marginal Gains chooses the direction; Kolbs runs the learning loop.
+Two fronts is the working number. Three is the ceiling. More than three overwhelms.
 
-## Core Use
+Effort without progress is not one failure. Fluctuating gains come from inconsistency — real increments that do not build on each other — and are repaired by stacking. Negative gains come from unreliable information, calibration, or feedback, and are repaired by getting feedback, not by persisting harder. From inside they feel identical. Persisting harder on a negative gain makes it worse.
 
-Use Marginal Gains to:
+Whether a gain will compound at all is a removal question, not a size question: if the input vanished, would you still be more capable? That test lives in [[wiki/Dimensions/Mindset/Compounding vs Additive Gains|Compounding vs Additive Gains]].
 
-- Anchor improvement to a meaningful goal.
-- Identify the skills, processes, resources, and conditions needed for that goal.
-- Estimate the target level and current level.
-- Choose the next small improvement.
-- Keep progress visible enough to sustain motivation.
-- Avoid switching between too many improvement targets.
+## Where the gain has to sit
 
-## Stacking Gains
+A rate limiter is the part of a process that prevents every other part from improving. Fixing anything else while it remains does not raise the ceiling. Picture a bucket with a hole in its side: perfect everywhere else and it still will not fill above the hole. Work on the handle or the rim changes nothing. The water you pour in meanwhile is wasted.
 
-A gain stacks when it builds on prior progress instead of scattering effort.
+The same principle one level up is [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — five capabilities, and the weakest sets the ceiling for the rest.
 
-Good stacking requires three conditions:
+Limiters are not always obvious. A wrong guess still beats not looking: attempting the wrong limiter still tends to produce smoother progress than charging ahead without looking for one. The discrimination that keeps the hunt from becoming a complaint is: most consistently constraining, not most recently frustrating.
 
-- **Important skill.** The improvement targets a skill that meaningfully affects the goal. Optimizing peripheral habits while the core bottleneck stays unchanged wastes the compounding.
-- **Persist long enough.** Real learning takes repeated exposure, error, and correction. Switching before the pattern has been found and fixed produces surface familiarity, not competence.
-- **Think systemically.** A gain that improves one technique in isolation can hurt overall performance. The improvement has to fit the larger operating system, not just score well on a local metric.
+The first place to look is the enablers. Self-management — procrastination, time management, prioritisation, focus — and the growth skills, experimentation and critical reflection, limit execution across the board. A strong learner can be capped by heavy procrastination alone. Old cue-response habits that fire faster than a new skill can stabilise are a candidate limiter of their own, treated in [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]].
 
-Poor stacking looks like constantly switching targets before mistakes have been found, reflected on, and converted into competence.
+Limiters rotate. Limited by a [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]] early, a learner may be limited by time management a month later — because time management got worse, or because the mindset improved. When a constraint breaks, return to the hunt and do not let inertia keep you optimising the old one.
 
-## REDO: The Improvement Loop
+The check runs every one to two weeks: is there a part of my process that seems to be holding everything else back? If yes, that is the next target, ahead of other improvement work. You may already be working on it, in which case continue. A plateau is the same trigger arriving as an event rather than a calendar date.
 
-REDO is the operational sequence for turning a marginal gain into a stacked improvement. It runs after each serious attempt.
+A technique can be improved forever, so "good enough" cannot come from the skill. It comes from position: you work a skill while it caps the rest, and you move when it stops being the cap.
 
-- **Reflect.** Look at the last attempt honestly. What happened? What did not work? What was harder than expected?
-- **Evaluate.** Identify the limiting factor. Not every problem is worth solving — the question is which problem most constrains the next improvement.
-- **Define.** Name one small, concrete upgrade for the next attempt. Specific enough to test. Small enough to stay with.
-- **Optimise.** Run the next attempt with the defined change applied. The goal is not perfection — it is data.
+## One selection rule, then you run it
 
-REDO is not a planning tool. It runs on real attempts, not on projections. Without an actual attempt to reflect on, the loop has nothing to work with. The sequence connects directly to [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] — Reflect and Evaluate map to Kolbs' observation and conceptualisation phases; Define and Optimise map to the planning and active experimentation phases.
+Does it build on the last one, and is it on the thing capping the rest? Two questions, one selection rule. Selection is half the method. The other half is running it.
 
-## Rate Limiters
+Direction lives here. The improving lives in [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] — the four-stage loop that turns one real attempt into a better next one. This without the cycle becomes wishful planning. The cycle without this becomes unfocused reflection — rumination. You cannot run a reflection cycle on every problem every day, so something has to choose which problems get one.
 
-A rate limiter is the part of a process that prevents every other part from improving. Fixing anything else while the rate limiter remains untouched produces no net gain — like improving the handle on a bucket that has a hole in its side.
-
-Rate limiters are not always obvious. Even an incorrect identification is more useful than ignoring them: attempting to address the wrong limiter still tends to produce smoother progress than charging ahead without looking for one. The method is to reflect regularly on which part of the process is most consistently constraining performance — not just the most recently frustrating part.
-
-Rate limiters also change over time. As one constraint is addressed, a different one becomes the new ceiling. The focus of improvement should shift as the skill landscape shifts. A learner limited by fixed mindset early may be limited by time management a month later, as mindset improves.
-
-The practical check, run every one to two weeks: is there a part of my process that seems to be holding everything else back? If yes, that is the next experiment target — ahead of any other improvement work.
-
-## Relationship To The 30-Day Plan
-
-The 30-Day Plan and Marginal Gains address different parts of the same improvement problem.
-
-Marginal Gains is a perspective and framework for skill development — it describes *how* to improve. The 30-Day Plan is a concrete planning process for action — it describes *what to do* for the next 30 days to make improvement happen.
+[[wiki/Syntheses/The 30-Day Plan|The 30-Day Plan]] describes what to do for the next thirty days. This page describes how to improve inside that plan. Combined, the order is: name the goal, then the performance goals, then the habits and environment in the way; then two or three skills tracked and stacked; then pace adjustments.
 
 | Aspect | Marginal Gains | 30-Day Plan |
-| --- | --- | --- |
+|---|---|---|
 | Primary focus | Skill development (getting better at a skill) | Self-management (taking action productively) |
 | Core insight | Skills improve faster and more sustainably through compounding tiny gains than through large jumps | Goals are more likely to be achieved when plans account for barriers in advance — especially around habits and tendencies |
 | Method | Tracking and stacking 1% gains through experimentation and reflection | Clear goal-setting and habit review to create a high-probability plan |
@@ -89,47 +72,46 @@ Marginal Gains is a perspective and framework for skill development — it descr
 | Scope | Breaks bigger skills into smaller focused gains | Breaks bigger goals into 30-day mini-goals with a clear plan |
 | End goal | High competence in the target skill | Achievement of the medium-term goal |
 
-Used together: the 30-Day Plan provides the structure for action (what to work on and why, barriers addressed in advance); Marginal Gains provides the improvement method within that structure (how to develop each targeted skill through stacking and REDO cycles).
+## The loop, run forward
 
-## Why Limiting To Two Or Three Processes Accelerates Progress
+REDO is the sequence that turns a marginal gain into a stacked improvement. It runs after each serious attempt, looking forward, and it ends in a plan.
 
-Spreading improvement effort across many processes simultaneously tends to reduce the speed of skill acquisition rather than increasing it. The mechanism: each new skill has a set of variables that must be decoded to develop it correctly. Each such variable requires time, cognitive resources, and experience to process. When the attention is divided across many skills, the depth available for any single one shrinks — mistakes surface more slowly, experiments are less focused, and each individual skill takes longer to acquire.
+**R — Reflect.** What have the previous attempts taught, looking for trends across multiple attempts, and what might the next increment be? One attempt cannot show a trend.
 
-The result is that weeks pass with surface familiarity across many areas but genuine competence in none. Progress on the single most important skill — if it had been pursued fully — would have produced a real capability that compounds into the next improvement.
+**E — Evaluate.** Which direction. The fork is: unblock yourself by moving to another skill, or unlock this one with more experimentation, theory, and reflection.
 
-The counter-intuitive principle: focusing on two or three processes is the fastest path even when many skills need developing. Each skill acquired cleanly and completely creates headroom for the next. Switching between many skills creates work without creating competence.
+**D — Define.** Name the increment, specific enough to test, small enough to stay with — and estimate how long results will take. Early improvement usually looks like finding mistakes rather than performing better. One worked case allowed at least ten hours across a week to surface the major mistakes, then another week or two to test fixes.
 
-## Relationship To Kolbs
+**O — Optimise.** Make a specific plan, run it, reflect again from step one. The goal is data, not perfection.
 
-[[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] is how the gain is refined through experience.
+You will not see improvement on every attempt. What you should see is a trend toward clarity and awareness, with performance later. That is the checkable expectation. No attempt, nothing to reflect on — a house guard, not the definition of the loop. Not knowing how to start is a finding: the next move is a best attempt, because working out how to start can run forever.
 
-Marginal Gains without Kolbs can become wishful planning. Kolbs without Marginal Gains can become unfocused reflection.
+Run a cycle after each serious attempt. The form you actually open is [[templates/Kolbs Template|Kolbs Template]].
 
-## Personal Workflow
+## Picking the 1%, and being able to see it
 
-1. Pick a meaningful medium-term goal.
-2. Identify the dimensions or skills that most affect the goal.
-3. Rate current level and target level in plain language.
-4. Choose one small improvement target.
-5. Run a Kolbs cycle after each serious attempt.
-6. Decide whether to persist, refine, or switch targets.
+The five steps, used once to set the field and then kept light:
 
-## Priority 0 Examples
+1. Anchor a meaningful goal, nine months to three years out. Outcomes are controlled indirectly through the skills, attributes, habits, resources and actions that raise their probability — the mechanism in [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]].
+2. Dissect it: what knowledge, attributes, skills, processes, resources does it need — then ask how sure you are. You do not need the full list, only the parts clearly necessary as the next step. At the very beginning, the step is sometimes just taking a step. The structured walk that produces this inventory is [[wiki/Dimensions/Self-Management/Skills Audit|Skills Audit]], run after rushing, after a break, or at a plateau.
+3. Rate the target level out of ten and say in words what that number means.
+4. Rate the current level out of ten and justify it as objectively as you can.
+5. Name the increment that closes the gap.
 
-Marginal Gains works best when the gain is small enough to start and meaningful enough to repeat.
+The justification names the gain. No knowledge → go learn. Knowledge but no practice → run one real attempt. Knows how but has never done it → do it once. Later reviews repeat only steps 4 and 5, because the first three barely change.
 
-For [[wiki/Self Management/Priority 0+1 System|Priority 0+1]], a gain should usually improve one of five things:
+When you cannot see a gain, information is the gain. You cannot take action before knowing what action to take. Know enough to attempt it and start making mistakes → experiment. Not enough even to make a mistake → go learn first. Gains progress knowledge → actions → behaviours and habits → position, meaning how much control you have over reaching the goal.
 
-- recurrence,
-- emotional engagement,
-- identity reinforcement,
-- visible progress,
-- action initiation.
+You cannot feel a 1% change. The brain registers small gradual movement badly, so early on there is no honest intuition about whether you are gaining, which is why invisible progress is one of the most common causes of early demotivation. Stacking keeps the direction positive; tracking keeps it visible. The artefact is one notebook: the targets you are on, a written win criterion that tells a gain from a loss, reviewed weekly. That is not a second dashboard. The gain should make the next attempt easier, cleaner, or more motivating; the day the record becomes a dashboard it has stopped being a gain.
 
-The gain should not create a second dashboard. It should make the next attempt easier, cleaner, or more motivating.
+The same logic runs outside studying. In fast-moving work, small improvements to search, review, source hygiene, feedback speed and sense-making loops compound into a stronger operating system — the claim in [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]. A skill gain pays out everywhere the skill is used.
+
+Keep the increment small enough to start and meaningful enough to repeat. Large strides trade safety for an unlikely boost.
+
+For [[wiki/Self Management/Priority 0+1 System|Priority 0+1]] — one to three priorities for tomorrow, two the usual working number — a gain should usually improve one of five things: recurrence, emotional engagement, identity reinforcement, visible progress, action initiation. Bare operators in the table are defined where they first appear as pages: [[wiki/Dimensions/Deep Processing/Bear Hunter System|BHS]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]], [[wiki/Concepts/The Shortcut Problem|Shortcut detection]], and the approach-layer work in [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]].
 
 | Priority 0 Area | Skill Or Process | Possible Marginal Gain |
-| --- | --- | --- |
+|---|---|---|
 | Agentic Engineering | Prompting agents | Save one reusable prompt pattern after it works. |
 | Agentic Engineering | Agent workflow design | Add one clearer instruction to `AGENTS.md` or a project README. |
 | Agentic Engineering | Code review with agents | Ask for one focused review category instead of a broad review. |
@@ -154,47 +136,28 @@ The gain should not create a second dashboard. It should make the next attempt e
 | Relationships | Appreciation | Express one specific appreciation. |
 | Relationships | Planning | Put one next touchpoint on the calendar. |
 
-## Choosing The Next Gain
+Five questions, and a discard rule. Does it reduce start friction? Does it make the skill feel more alive? Does it reinforce the identity? Does it leave visible progress? Does it improve the next attempt? A gain that scores on none of them is organisation work, not improvement work.
 
-Use this filter when many improvements are possible:
+## Position over size
 
-1. **Does it reduce start friction?** If yes, it supports recurrence.
-2. **Does it make the skill feel more alive?** If yes, it supports emotional engagement.
-3. **Does it reinforce the identity?** If yes, it strengthens the reason to return.
-4. **Does it leave visible progress?** If yes, it creates feedback.
-5. **Does it improve the next attempt?** If yes, it belongs in a Kolbs cycle.
+Position beats size, now that the two questions have been paid for. At this page's own one-to-two week review cadence, a compounding 1% is about 1.7× over a year. The famous 37× needs a daily cadence and every gain compounding — a cadence this page never recommends.
 
-If a gain scores on none of these, it is probably organization work, not improvement work.
+Large strides cost three things: high failure risk, more variables and a smaller margin; low iteration frequency, feedback arriving in weeks or months instead of days; and misalignment risk. Rebuilding a whole workflow around a tool, then finding that the methods that matter are impossible in it, is the misalignment in one picture.
 
-## How It Should Feel
+It should feel like narrowing the improvement field: you leave with one small, believable upgrade that connects to a larger goal. Good signs — specific enough to test, on a real bottleneck, repeatable across sessions, makes progress concrete. It has become avoidance when you keep planning tiny improvements and never run the next attempt. Not knowing how to start is the same finding in other words: make a best attempt.
 
-Marginal Gains should feel like narrowing the improvement field. You should leave with one small, believable upgrade that clearly connects to a larger goal.
+The gain also improves the picking. Learning your own tendencies both prevents the next mistake and makes the next reflection more accurate.
 
-Good signs:
+## Related
 
-- the gain is specific enough to test;
-- it improves a real bottleneck;
-- it can be repeated across sessions;
-- and it reduces pressure by making progress concrete.
-
-Warning sign: Marginal Gains has become avoidance when you keep planning tiny improvements but never run the next attempt.
-
-## Related Pages
-
-- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] (planned)
-- [[wiki/Dimensions/Self-Management/Skills Audit|Skills Audit]] (planned)
-- [[templates/Kolbs Template|Kolbs Template]]
-- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]] (planned)
-- [[wiki/Dimensions/Upgrading Your Dimensions|Upgrading Your Dimensions]]
-- [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Dimensions/Mindset|Mindset]]
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
-- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
-- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
+- [[wiki/Dimensions/Mindset|Mindset]] — parent dimension; the material the fixed-mindset limiter example depends on.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — second parent; the page is dual-parented.
 
 ## Open Questions
 
-- What is the user's current highest-value 1% improvement?
-- How should marginal gains be tracked without creating too much overhead?
+Early cycles that buy clarity rather than performance, and fluctuating gains that never compound, feel identical from inside — effort without visible progress — and they take opposite repairs. How early can the two be told apart?
+
+## Sources
+
+- Theory of Constraints — the public name for the rate limiter, and the five focusing steps whose fifth supplies the inertia warning after a constraint breaks. <https://en.wikipedia.org/wiki/Theory_of_constraints>
+- Compounding arithmetic, stated as computation rather than as a citation: 1.01^52 ≈ 1.68; 1.01^365 ≈ 37.8; 0.99^365 ≈ 0.026.

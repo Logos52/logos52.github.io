@@ -1,105 +1,96 @@
 ---
 title: "Schema Construction, Assimilation, and Reorganization"
 type: technique
-status: seed
+status: developing
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-08-14
+written-by: grok
+model: grok
+description: "Three study passes that build a usable picture of a topic: sketch the names, add only by attaching, stop input and tidy."
 tags:
-  - learning
   - schema
+  - encoding
   - deep-processing
-  - efficiency
-  - cognitive-load
-  - mastery
+  - learning
 ---
-> Part of [[wiki/Dimensions/Deep Processing|Deep Processing]]
-
 
 # Schema Construction, Assimilation, and Reorganization
 
-Build and refine connected mental models by organizing information into clear, connected structures and regularly reorganizing them as you learn.
+A usable picture of a topic is a first sketch of how the names might connect, grown only by attaching new pieces, and kept tidy by stopping input often. Construction, assimilation, and reorganization are this system's names for those jobs: a draft of the network, an add-and-connect pass, and a cleanup that takes no new input. The work sits in [[wiki/Dimensions/Deep Processing|Deep Processing]], encoding that builds relations rather than copies.
 
-## Core Thesis
+## Construction
 
-This is the core process that enables you to study significantly more content in less time while developing stronger retention and higher mastery. The three cognitive pillars — construction, assimilation, and reorganization — are the practical ways to build and refine these mental models efficiently.
+Construction is the first draft of a [[wiki/Dimensions/Deep Processing/Schema|Schema]] for a new topic — a rough but usable foundation, not a deep pass. The aim is a network that can take new pieces later, without filling the workbench with details that have nowhere to sit.
 
-## The Three Cognitive Pillars
+The first move is one page of keywords, pulled from every source that will later be used — slides, a textbook, videos — onto a single list. The same term in three open windows is three workbenches for one name; attention splits across the windows instead of landing on how the names relate. One list is the repair. That setup is a cousin of [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], which is the frame-finding pass before an event, not a substitute for this draft. The same draft-first move, run at the scale of a whole set of dense sources rather than one topic, is [[wiki/Dimensions/Deep Processing/Syntopical Reading - Learning from Multiple Dense Resources|Syntopical Reading - Learning from Multiple Dense Resources]].
 
-Any effective approach to building knowledge schemas should support these three processes. If one is missing or weak, schema formation becomes slow, messy, or shallow.
+The draft begins with what is already known, even if that knowledge is thin. Familiar ideas become the first anchors, and the new names hang off them. A name with no hook is a piece on the floor; a name hung on something already held has a place to wait.
 
-### 1. Schema Construction
-The initial phase of building the first draft of a schema for a new topic.
+From those anchors, educated guesses about how the concepts might relate are allowed and expected. Accuracy is not the goal of this pass. The goal is something that can later be corrected and expanded — a wrong link that can be fixed beats an empty page that cannot. The permission to be wrong is what keeps the draft a draft.
 
-**Purpose**: Create a rough but usable foundation without getting overwhelmed.
+This pass should feel relatively light. Going deep into details too early works against the draft: isolated elements have nowhere to sit, and the session fills with pieces that cannot yet be placed. Depth arrives later, once there is a structure that can receive it.
 
-**How to do it well**:
-- Start by collecting keywords from all your resources (slides, textbook, videos) onto one page. This reduces split attention.
-- Begin with what you already know, even if your understanding is superficial. Use familiar ideas as your first anchor points.
-- Make educated guesses about how concepts might relate. The goal at this stage is not accuracy — it is to create something you can later correct and expand.
+## Assimilation
 
-This phase should feel relatively light. Going too deep into details too early works against good schema construction.
+Assimilation on this page means adding-and-connecting: expanding an existing draft by integrating new information without creating chaos. It is not the published developmental process that shares the name. The published pair is two processes, one of which changes the structure; this pass is the narrower job of hanging a new piece on what is already drawn.
 
-### 2. Schema Assimilation
-The phase of expanding an existing schema by integrating new information.
+Every new piece answers one required question: how does this relate to what is already on the draft? A piece that cannot answer is not added yet. The question is the pass, not a check after it. Without it, adding is just piling under another name.
 
-**Purpose**: Grow and develop the schema without creating chaos.
+The first additions stay simple. Approachable concepts go on first; dense or technical sections get flagged and waited for. A technical paragraph dumped onto a thin sketch recreates the problem construction was meant to prevent — pieces with nowhere to sit, only now they look like progress because they came from a harder source.
 
-**How to do it well**:
-- Always connect new information back to your current schema by asking: “How does this relate to what I already have?”
-- Keep it simple at first. Start with concepts that feel more approachable and flag dense or technical sections to return to later.
-- Use layers of learning. Build a foundation, then add the next layer of detail, rather than trying to understand everything at full depth immediately.
+A foundation first, then the next layer of detail, rather than full depth immediately. Adding-and-connecting becomes easier once a rough draft exists, because each new piece has slots to try and a question to answer. That is why construction comes first. The build order lives in [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]].
 
-Assimilation becomes dramatically easier once you have even a rough draft schema from the first pillar.
+## The gatekeeper
 
-### 3. Schema Reorganization
-The phase of stopping new input and actively cleaning up, simplifying, and restructuring the schema you have built so far.
+Without a regular cleanup, the first two passes produce increasingly messy maps. Reorganization is the gatekeeper: it is what converts raw learning into knowledge that can still be used. Construction and assimilation without it eventually overload — more names, more guessed links, more flagged sections, and no simpler structure underneath. The more consistently the cleanup runs, the faster building can continue. The session that feels slower in the moment is the conversion, not a stall.
 
-**Purpose**: Reduce complexity and improve clarity so the schema becomes more usable and memorable.
+A usable approach to this work supports all three jobs: draft, add, clean. If one is missing, formation gets slow, messy, or shallow. That is a design check for this procedure, not a trial of every method that builds knowledge. When it is working, the session feels more like building a map than consuming content.
 
-**How to do it well**:
-- Do this frequently (ideally every 10–15 minutes during active study at university level).
-- Focus on grouping related ideas, removing unnecessary elements, straightening relationships, and making the overall structure simpler and easier to follow.
-- Do not add new information during this phase.
+## Reorganization
 
-This is the gatekeeper pillar. Without regular reorganization, the first two pillars produce increasingly messy and overwhelming maps. Reorganization is what converts raw learning into high-quality, durable knowledge.
+Reorganization stops new input and actively cleans, simplifies, and restructures what is already there, so the schema becomes more usable and more memorable. Nothing new enters during this pass. A new fact arriving mid-cleanup restarts the mess the pass exists to reduce. That is a law, the same law [[wiki/Dimensions/Deep Processing/Skin|Skin]] owns in full.
 
-## Why These Three Pillars Matter
+The pass runs often. This system's own default during dense university-level study is about every ten to fifteen minutes. "Often" is the load-bearing half; the number is a heuristic, not a finding. Waiting until the map is already overwhelming is waiting too long — the cleanup then has to do construction's job as well as its own.
 
-Construction and assimilation without reorganization eventually leads to cognitive overload. Reorganization is what keeps the growing schema manageable and high-quality over time. The more consistently you reorganize, the faster and more effectively you can continue building and expanding your knowledge.
+Four verbs do the work: group related ideas, remove unnecessary elements, straighten relationships, and make the overall structure simpler to follow. Grouping puts the same-kind pieces under one heading. Removing cuts what does not earn a place. Straightening turns a guessed link into a named relation, or deletes it. Simplifying is the test: a structure that can be followed without the source open. The grouping skill those verbs rely on is [[wiki/Dimensions/Deep Processing/Chunking as a Technique - Good chunking at different levels, and how to layer importance and meaningfulness|Chunking as a Technique]].
 
-## What It Should Feel Like
+The same three moves appear in another vocabulary as Aim, Shoot, and Skin inside the [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]. This page is not a fourth loop.
 
-When this technique is working well, learning feels more like building a map than consuming content.
+## Signs and limits
 
-Good signs include:
-- New information feels easier to place because you already have structure
-- You feel less overwhelmed even when covering a lot of material
-- Reorganization sessions, while they may feel slower in the moment, create a sense of clarity and progress
-- You can explain concepts in your own words and see how they relate to other ideas
-- Forgetting feels less catastrophic because the overall structure remains
-- You become faster at learning new but related topics because your existing models transfer
+When the three passes are working, new information is easier to place, and covering a lot produces less overwhelm, because each piece is arriving into a structure rather than onto a pile. Reorganization sessions feel slower in the moment but create clarity — that slowness is the conversion from W2, felt from the inside. Concepts can be explained in ordinary words with the relations visible. Two signs change the nerve of the work: forgetting feels less catastrophic, because the structure remains even when a detail has gone; and related new topics come faster, because a model already built can take a neighbour.
 
-When it's not working, studying often feels like accumulating disconnected facts, and you rely heavily on re-reading or passive review.
+When it is not working, studying feels like accumulating disconnected facts, and the session falls back on re-reading or passive review. Two sessions in a row that still feel like that are a quit signal.
 
-## When to Use This Approach
+The method belongs where relationships matter: dense university or professional content, problem-solving subjects, a lot to learn in limited time. It is the wrong tool for loosely related item lists — there is no network to draft. It is useless if input never stops. The tidy feels slower, and that slowness is the price. A checkable expectation: a new piece has a place to sit, and the relation can be said in ordinary words.
 
-Use these three pillars whenever you are learning complex or high-volume material where understanding relationships between ideas matters. This is especially useful for:
+A better schema means less relearning. That direction is real. A measured claim that this triad produces significantly more content in less time is a promise this page does not make.
 
-- University or professional study with dense content
-- Subjects that require problem-solving or application rather than rote memorization
-- Situations where you need to learn a lot in a limited amount of time
+Reorganization builds the artifact. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] tests it. A reader who tidies forever and never retrieves has built a cleaner map and not checked whether it can be rebuilt.
 
-## Related Pages
+The usable picture exists because the tidy ran all along, not because more was piled on. Forgetting still happens; the structure that remains is what the next session stands on.
 
-- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] — schema construction has strong overlap with effective prestudy
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — the three pillars map naturally onto Aim (construction), Shoot (assimilation), and Skin (reorganization)
-- [[wiki/Dimensions/Deep Processing/Syntopical Reading - Learning from Multiple Dense Resources|Syntopical Reading - Learning from Multiple Dense Resources]] — both approaches emphasize building structure before diving into dense material
-- [[wiki/Dimensions/Deep Processing|Deep Processing]] — forming integrated mental models is one of the highest forms of deep processing
-- [[wiki/Dimensions/Deep Processing/Schema|Schema]] — the foundational concept behind these three pillars
-- [[wiki/Dimensions/Deep Processing/Chunking as a Technique - Good chunking at different levels, and how to layer importance and meaningfulness|Chunking as a Technique]] — the developmental skill of forming the chunks these pillars rely on
+## Open questions
 
-## Open Questions
+- How the useful cleanup cadence actually shifts by subject, once "often" is already the rule.
 
-- How does the ideal frequency of schema reorganization change across different subjects or levels of study?
-- What external tools or formats best support schema reorganization without adding friction?
-- How do these three pillars interact with retrieval practice and spacing over longer timeframes?
+## Links into the knowledge base
+
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] — the parent hub: encoding that builds relations, not copies.
+- [[wiki/Dimensions/Deep Processing/Schema|Schema]] — the concept this procedure serves; what a schema is, which this page does not re-teach.
+- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] — construction's cousin: the setup pass before an event.
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — Aim, Shoot, and Skin as the same three moves in another vocabulary; this page is not a fourth loop.
+- [[wiki/Dimensions/Deep Processing/Syntopical Reading - Learning from Multiple Dense Resources|Syntopical Reading - Learning from Multiple Dense Resources]] — structure-before-dense-sources: the same draft-first move at the scale of a source set.
+- [[wiki/Dimensions/Deep Processing/Chunking as a Technique - Good chunking at different levels, and how to layer importance and meaningfulness|Chunking as a Technique]] — the grouping skill the three passes rely on.
+- [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]] — the build order assimilation points at: foundation first, then the next layer of detail.
+- [[wiki/Dimensions/Deep Processing/Skin|Skin]] — the no-new-input cleanup this reorganization pass is.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — the test of the artifact reorganization builds.
+
+## Sources
+
+- *Watch This To Force Your Brain To Study FASTER* (public video). House source for the three-pass procedure; the video title is listed, not a program.
+- Chandler, P., & Sweller, J. (1991). Cognitive load theory and the format of instruction. *Cognition and Instruction*. Split attention: the same terms across several open sources waste the workbench.
+- Chandler, P., & Sweller, J. (1992). The split-attention effect as a factor in the design of instruction. *British Journal of Educational Psychology*.
+- Ausubel, D. P. (1960). The use of advance organizers in the learning and retention of meaningful verbal material. *Journal of Educational Psychology*. Draft before depth.
+- Mayer, R. E., Mathias, A., & Wetzell, K. (2002). Fostering understanding of multimedia messages through pre-training: Evidence for two types of pre-training. *Journal of Experimental Psychology: Applied*. Pre-training: a simple model first, then the dense material.
+- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students' learning with effective learning techniques. *Psychological Science in the Public Interest*. The connect-back question is elaborative interrogation / self-explanation, rated moderate utility.

@@ -1,93 +1,74 @@
 ---
+title: Retrieval
 type: dimension
 status: developing
-description: "Dimension for recall, reconstruction, interleaving, spacing, and transfer — the practice that converts knowledge from something you recognise into something you can use under pressure."
 created: 2026-05-16
-updated: 2026-06-11
-source-count: 1
-last-audited: 2026-06-11
+updated: 2026-08-14
+last-audited: 2026-08-14
+source-count: 9
+written-by: grok
+model: grok
+description: "Recall, reconstruction, interleaving, spacing, transfer — converting recognition into use under pressure."
 tags:
-  - learning
-  - dimensions
   - retrieval
+  - dimensions
+  - learning
 ---
 
-<div class="hub-page-title">
-<i class="ti ti-circle-arrow-up" style="color:#f2c94c"></i>
-<h1>Retrieval</h1>
-</div>
+# Retrieval
 
-> Part of the [[wiki/Dimensions/Dimensions of Learning|Five Dimensions of Learning]].
+Retrieval is the practice of producing knowledge from a closed book, treated as the learning rather than as a later check. Rereading until the page feels familiar spends the same hour the other way, and it is the trap. Reconstructing from memory sorts the material, makes it last, and lets it move onto new ground.
 
-Recalling knowledge is what strengthens it: the act of reconstructing information from memory organises it, makes it durable, and makes it flexible — the testing is the training. Retrieval is this dimension: the active process of recalling and using knowledge, treated as a primary learning mechanism.
-
-If [[wiki/Dimensions/Deep Processing|Deep Processing]] is the quality of the engine, Retrieval is what allows the driver to perform reliably on different terrain, under pressure, and in unfamiliar conditions.
-
----
-
-## What This Dimension Controls
-
-- How well knowledge resists forgetting over time
-- The ability to access and apply information in varied or high-stakes contexts
-- The accuracy and flexibility of what you know, beyond mere recognition
-- Whether you can identify and close gaps in your understanding through testing
-- Performance under pressure — exams, real-world application, teaching others
-
----
-
-## Key Supporting Techniques & Concepts
-
-- **[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]** — The primary operational technique for this dimension. Combines spacing (to combat forgetting) with interleaving (to improve discrimination and flexible access).
-  When neglected, retrieval becomes too narrow or too repetitive, leading to good recognition but weak flexible use.
-- **[[wiki/Dimensions/Retrieval/WPW|WPW (Whole-Part-Whole)]]** — A teaching-to-learn technique that cycles through explaining the whole, breaking it into parts, and returning to the whole with stronger integration and higher-order understanding. Tests multi-level retrieval and schema quality at once.
-  When neglected, learners stay at surface-level recall and struggle to integrate details back into the big picture.
-- **[[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]]** — A reference for choosing and varying retrieval formats based on knowledge type and goal.
-  When neglected, retrieval practice stays limited to a few comfortable formats and fails to target different levels of understanding.
-- **[[wiki/Dimensions/Retrieval/Reconstruction - Retrieval Beyond Recall|Reconstruction]]** — The level above recall: forming and judging new relationships among known nodes rather than replaying stored answers.
-
-## Common Problems with Weak Retrieval
-
-How poor retrieval shows up in practice:
-
-- **Confirming rather than testing** — Retrieval sessions are used to verify what is already known instead of deliberately exposing gaps.
-- **Routine rather than strategic** — Spacing and interleaving become habitual instead of being deliberately matched to the current learning goals and knowledge types.
-- **Avoiding difficult retrieval** — Learners shy away from challenging formats or weak areas because they feel uncomfortable, leaving hidden gaps.
-- **Inconsistent across forms** — Good retention in some areas but unreliable performance across subjects or under varied conditions.
-- **Over-reliance on recognition** — Knowledge feels familiar during study but cannot be reconstructed reliably under pressure or after time passes.
-
-## Relationship to Other Dimensions
-
-| Dimension | Relationship |
-| --- | --- |
-| [[wiki/Dimensions/Deep Processing\|**Deep Processing**]] | Deep Processing builds the richness and connectivity of knowledge structures. Without strong retrieval, those structures remain inaccessible when needed. Weak retrieval also fails to expose shallow encoding. |
-| [[wiki/Dimensions/Self-Regulation\|**Self-Regulation**]] | Self-Regulation decides whether retrieval is used deliberately as a diagnostic tool or avoided because it feels uncomfortable. It also determines whether failed retrieval triggers useful adjustments. |
-| [[wiki/Dimensions/Self-Management\|**Self-Management**]] | Self-Management creates (or fails to create) the protected time and long-term consistency required for spaced and varied retrieval. Without it, retrieval stays sporadic. |
-| [[wiki/Dimensions/Mindset\|**Mindset**]] | A fixed mindset makes the discomfort of failed or effortful retrieval feel like a threat, steering people toward easy recognition tasks instead of genuine testing. |
-
----
+[[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] is the five-part cut this capacity sits inside.
 
 ## The Encoding Trap
 
-Over-investing in encoding while under-investing in retrieval produces knowledge that feels familiar during study but cannot be reliably reconstructed when it matters — under time pressure, in new contexts, or after forgetting has set in.
+Spending the hour making the page feel known, and almost none of it producing the knowledge from a closed book, is the Encoding Trap. The notes look ready. A clock, a new setting, or a few days of delay is enough for the same notes to refuse to rebuild. The smoothness of another pass through the text is the fluency illusion the trap is built from: the hour feels like work, and the later demand is the first time production is asked.
 
-Strong retrieval practice is what converts knowledge from something you recognise into something you can actually use. Without it, even excellent Deep Processing remains largely inaccessible in real performance situations.
+What the trap decides is larger than the hour: how well knowledge resists forgetting, and whether it can be reached and used in varied or high-stakes settings. It also decides whether what is known is accurate and flexible rather than only recognisable, whether testing can find and close gaps, and whether performance holds when the setting is an exam, real work, or teaching someone else.
 
-## The Price, the Check, the Boundary
+Five habits keep the trap in place. Sessions that only confirm what already comes back never expose a gap. Spacing and mixing settle into a routine instead of being matched to the current goal and to the kind of knowledge in play. Hard formats and weak areas get skipped because they feel uncomfortable, and the gap stays hidden. Performance holds in some subjects or conditions and fails in others. Recognition does the standing-in: the page is familiar, and reconstruction under pressure or after time is not.
 
-Retrieval charges its fee up front: practice feels worse than re-reading while working better. Failed recalls are visible, fluency is gone, and sessions feel slower — that discomfort is the mechanism operating, and re-reading's smoothness is the fluency illusion that the Encoding Trap is built from.
+## How it is practised
 
-The check that a session was real: at least some recalls failed. A retrieval session that produces only successes was confirmation, not testing — widen the spacing, harden the format, or aim at weaker material.
+The standing method is [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — gaps in time against forgetting, mixed topics so similar items have to be told apart and then used flexibly. Left unused, retrieval stays narrow or repetitive: recognition holds, flexible use does not.
 
-The boundary: retrieval strengthens what encoding built. Run against unstructured material it decays into [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|rote memorisation]] — fragments that recall individually and connect to nothing. If recall keeps succeeding while use keeps failing, the bottleneck has moved to [[wiki/Dimensions/Deep Processing|Deep Processing]]: stop repping and rebuild the structure.
+[[wiki/Dimensions/Retrieval/WPW|WPW]] reteaches a topic from memory: the whole shape, each part, the whole again. It tests retrieval at more than one level and shows whether the structure still joins. Left unused, what comes back is surface recall that will not reintegrate.
 
----
+The [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]] is the format reference. Facts, procedures, and knowing when and why each want a different kind of pull; a few comfortable formats is the neglect. [[wiki/Dimensions/Retrieval/Reconstruction - Retrieval Beyond Recall|Reconstruction]] sits above recall — new relations among known nodes, judged, rather than a stored answer replayed.
 
-## Related Pages
+Harder self-testing is also how retrieval trains encoding. [[wiki/Dimensions/Deep Processing|Deep Processing]] builds richness and connectivity; without retrieval those structures stay unreliable to reach, and weak retrieval also fails to expose shallow encoding. A complex self-test forces processing deeper than habit would go.
 
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Dimensions/Retrieval/WPW|WPW]]
-- [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]]
-- [[wiki/Dimensions/Retrieval/Opportunistic Retrieval|Opportunistic Retrieval]]
+[[wiki/Dimensions/Self-Regulation|Self-Regulation]] decides whether a failed recall is used as a diagnostic or avoided because it feels uncomfortable, and whether the miss triggers a change. [[wiki/Dimensions/Self-Management|Self-Management]] is the protected time and calendar consistency spacing needs; without it retrieval stays sporadic. [[wiki/Dimensions/Mindset|Mindset]] decides whether effortful or failed recall is data or a threat, and a fixed reading steers the hour back toward easy recognition.
+
+In professional work the test can be the work itself: [[wiki/Dimensions/Retrieval/Opportunistic Retrieval|Opportunistic Retrieval]] is that reading, with deliberate practice filling the gaps work does not cover. There is no generic retrieval challenge, because the right method depends on goals and schedule — which is why [[wiki/Dimensions/Dimension Practice Tracks|Dimension Practice Tracks]] carries no fifth track for this capacity.
+
+## What it costs, and when it is not the lever
+
+The cost arrives in the session. A closed-book hour feels worse than another pass through the notes, and it is the hour that pays later. Failed recalls are visible, the fluent feeling is gone, sessions run slower — that discomfort is the mechanism. A session in which every pull succeeded was confirmation, not testing. Wider spacing, a harder format, or weaker material is the repair.
+
+Retrieval strengthens what encoding built. Run against unstructured material it decays into [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|rote memorisation]] — fragments that come back one by one and connect to nothing. Pulls that keep succeeding while application keeps failing mean the lever has moved to [[wiki/Dimensions/Deep Processing|Deep Processing]]: the structure is the problem, not the reps.
+
+## Related
+
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — the five-part cut this capacity sits inside
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] — encoding quality; the other half of the two-way link and of the diagnostic fork
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — whether a failed recall is used as a diagnostic or avoided because it feels uncomfortable
+- [[wiki/Dimensions/Self-Management|Self-Management]] — the calendar consistency spacing needs
+- [[wiki/Dimensions/Mindset|Mindset]] — whether failed recall is data or a threat
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — the standing method: spacing against forgetting, interleaving for discrimination
+- [[wiki/Dimensions/Retrieval/WPW|WPW]] — teach-back from memory: whole, parts, whole again
+- [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]] — format × knowledge-type reference
+- [[wiki/Dimensions/Retrieval/Opportunistic Retrieval|Opportunistic Retrieval]] — work itself as the test, for non-exam contexts
+
+## Sources
+
+- Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. *Psychological Science*. Prior testing beats restudy on a delayed free-recall test; restudy wins only at a short delay and raises confidence while it does.
+- Karpicke, J. D., Butler, A. C., & Roediger, H. L. III (2009). Metacognitive strategies in student learning: Do students practise retrieval when they study on their own? *Memory*. Most learners choose rereading.
+- Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. *Psychological Bulletin*. Spacing against forgetting.
+- Rohrer, D., & Taylor, K. (2007). The shuffling of mathematics problems improves learning. *Instructional Science*; Taylor, K., & Rohrer, D. (2010). The effects of interleaved practice. *Applied Cognitive Psychology*. Interleaving improves discrimination and later flexible use.
+- Butler, A. C. (2010). Repeated testing produces superior transfer of learning relative to repeated studying. *Journal of Experimental Psychology: Learning, Memory, and Cognition*. Repeated testing improves transfer to new inferential questions.
+- Karpicke, J. D., & Blunt, J. R. (2011). Retrieval practice produces more learning than elaborative studying with concept mapping. *Science*. Retrieval can train encoding; both remain required.
+- Kornell, N., & Bjork, R. A. (2008). The promise and perils of self-regulated study. *Psychonomic Bulletin & Review*. Judgments of learning often run the wrong way: the smoother method is rated better and retains worse.
+- Kirk-Johnson, A., Galla, B. M., & Fraundorf, S. H. (2019). Perceiving effort as poor learning: The misinterpreted-effort hypothesis of how experienced effort and perceived learning relate to study strategy choice. *Cognitive Psychology*. Difficulty is misread as ineffectiveness.
+- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students' learning with effective learning techniques. *Psychological Science in the Public Interest*. Practice testing rated high utility.

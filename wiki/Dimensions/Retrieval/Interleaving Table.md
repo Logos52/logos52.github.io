@@ -1,236 +1,127 @@
 ---
+title: "Interleaving Table"
 type: reference
 status: seed
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
   - retrieval
   - interleaving
   - comparison
-  - learning-support
 ---
 
 # Interleaving Table
 
-This is a comprehensive reference for implementing interleaving in your learning system. It includes practical techniques, explanations of why certain approaches are ineffective, guidance on using AI to enhance interleaving, and detailed breakdowns of both declarative-focused and procedural-focused methods.
+The Interleaving Table is a menu of ways to test from memory, meant to be raided rather than read. Two or three methods, picked by whether the knowledge is explainable or executable, and a short list of things that feel like practice and are not. Order is the other axis: follow the rule, apply it, or meet it in an unfamiliar mix.
 
-> **Note:** This is a large resource. You do not need to read everything. Start by identifying the appropriate knowledge type (declarative vs procedural) and explore the relevant sections.
+[[Interleaving - Multiple Angles and Session Design]] decides how a session is built — the funnel and the three dials. This page only supplies what goes in it. [[Spaced Interleaved Retrieval]] is the parent loop: when a session happens, how the delays lengthen, and what the session hands back. Explainable knowledge is facts, concepts, logic. Executable knowledge is skills and processes, sequences and decisions in context. Most real work needs both, in different mixes. [[Declarative, Procedural, and Conditional Knowledge]] owns that split, including the conditional kind the executable half is building.
 
----
+## What to stop
 
-## Mastering Interleaving
+**These are not the default.** For the same time there is always a better alternative.
 
-This guide is a comprehensive resource for implementing interleaving in your learning system. At the top, you will find examples of interleaving techniques for you to use and adapt. At the bottom, there are more notes on general guidelines and frequently asked questions.
+Passive rereading, recopying, and relistening do not activate the pathways that make learning stick. They are slow and demotivating. Rereading is the measured case; recopying and relistening sit in the same family.
 
-### Useless Techniques
+Repetition past mastery — REBIM, repeating a skill already done to a high level, at the same difficulty — is the next exclusion. Same scripts, same-difficulty maths problems, the same conversation when already fluent. Six extra same-difficulty problems after the first success produced no gain at one week and none at four, while the same practice split across two sessions a week apart produced no gain at one week and a large gain at four. Same effort, different placement, opposite result. It feels productive because smooth performance is indistinguishable from progress: learners rated blocked practice as more effective right after a test they had just done better on under interleaving.
 
-These techniques offer so little benefit that they should not be used in any circumstances. There are always better alternatives for the same amount of time.
+Practice questions used passively — answering only in the head, or checking before a full attempt — fail on both halves. Ability is overestimated and challenge is underestimated, and practice questions are a finite resource, so a wasted one is gone. Answers get produced in full, written or typed, never only mentally.
 
-| Declarative-focused                  | Procedural-focused                     |
-|--------------------------------------|----------------------------------------|
-| Passive re-reading and re-writing    | Re-reading and re-rewriting notes      |
-| Passive re-listening                 | REBIM                                  |
-| Practice questions (passive method)  |                                        |
-| Peer/group discussion (undirected)   |                                        |
+Undirected group discussion underperforms a protocol. Structured small-group work can raise achievement; most group study spends more time than the same result costs elsewhere. The protocol lives on [[Group Study]].
 
-#### Explanations
+## Testing explainable knowledge
 
-**Passive re-reading, re-writing, and re-listening**  
-Simply listening, reading, and re-writing notes without any particular cognitive focus. Usually boring, monotonous, disengaged, and repetitive. The focus may be on trying to memorise what is being written, repeatedly saying the sentences mentally, or just “trying to understand”. This does not activate most effective learning pathways and is highly time-consuming and demotivating.
+Science, law, theory-heavy finance, vocabulary and grammar sit here. Isolated fact, a relationship between two or three ideas, then a judgment about which relationship matters more: that is the ladder. A handful of methods work at more than one height.
 
-**REBIM (Repetitive Execution Beyond Initial Mastery)**  
-REBIM refers to the repetitive completion of tasks or activities for skills and processes that can already be done to a high level of proficiency. For example, coding the same simple scripts repeatedly, solving the same difficulty of maths questions despite already being able to answer them easily, or engaging in the same kind of dialogue for languages when already fluent. The benefit of the technique is negligible considering the alternative techniques that could be used instead.
+| Height | What it asks | Methods that sit here |
+|---|---|---|
+| Lower | Direct recall, isolated definitions | Cover-copy-check; simple cards; linear dump; isolated questions; isolated teaching |
+| Mid | Apply it, obvious relationships | Relational cards; map dump; relational questions; teaching; direct practice questions; the exchange protocol |
+| Higher | Unfamiliar contexts where several things interact | Closed-book map rebuild; evaluative cards and questions; map dump; whole-part-whole; directed discussion; extended questions; the exchange protocol |
 
-**Practice questions (passive method)**  
-Solving problems or answering questions and immediately checking the answer. Often paired with answering the question mentally only or concluding, “I could solve that,” without going through all the steps. Because the question seems familiar and the answer makes sense, learners can believe that they can solve it in a realistic retrieval setting. However, the human brain tends to overestimate our abilities and underestimate challenges. As a result, this method consistently fails to identify knowledge gaps while wasting valuable practice questions.
+Cover-copy-check: cover part of the notes, rebuild it from memory, check. It is evidenced for short-term retention of basic information, mostly with school-age children. Image-occlusion cards are the practical variation. Best on labelled diagrams and processes.
 
-**Peer/group discussion (undirected)**  
-Group discussion can be useful. However, most group study wastes time compared to what could be achieved in the same amount of time through alternative techniques. Undirected group discussion has so many more effective alternatives that it has no place in a learning system.
+Simple cards test isolated facts. When the encoding underneath is weak they multiply: a climbing card count is a signal about the encoding, not a reason to study harder. Steep forgetting and wasted repetition follow. [[Flashcards]] owns the restriction these rows assume — what one card may hold, and what a climbing count says.
 
----
+**Write evaluative questions in one session, answer them in another.** Both halves are retrieval events, so splitting them buys two, and the writing session sets up the answering one. Writing those questions is itself a retrieval event; handing the job to a model is a time trade that buys an outside check. Both are real; neither is the default.
 
-## Enhancing Interleaving Using AI
+Brain dumps split by form, and the order is the opposite of instinct. The map form goes early: it finds the big gaps fast, better at higher order, worse at fine detail. The linear form goes late, just before an assessment, because it finds gaps only by dumping until something stumbles.
 
-AI tools can be leveraged to significantly increase the efficiency of your interleaving techniques. Open the sections below to see how to enhance your learning with AI, including examples, while avoiding some learning traps.
+Teach an imaginary student, not a friend. A friend fills the gaps. Isolated teaching is slow for what it returns, which is why cards usually win at that layer. Micro-retrieval is the useful form: teach the piece just processed, inside the same session. Whole-part-whole reteaching is the hardest method here. The benefit tracks skill at the technique, so it returns little until the encoding under it is strong. If the reteach feels easy, it is not happening. [[WPW]] owns that reteach and the diagnostic.
 
-### Principles for Using AI
+Rebuilding an old topic as a closed-book map is a re-encoding move, so it belongs first in a cycle with time left after it. Struggling to build one is the diagnostic that the material was never processed that deeply, not a sign of being bad at maps.
 
-AI chatbots such as ChatGPT, Claude, Gemini, DeepSeek, etc. utilise Large Language Models (LLMs) to generate text and respond to your queries. These can be powerful learning tools when used correctly, but detrimental when over-relied on for certain processes.
+Explaining in plain terms as if to someone with no background returns a moderate teaching benefit across a large set of studies. That measurement is prompted self-explanation inside instruction, so the method is micro-retrieval, not a system.
 
-**Use AI for:**
-- Saving time on tedious tasks that normally would not require much cognitive effort. For example, collecting keywords for a new topic or getting a big picture summary of something.
-- Consolidating lots of sources of information into a single source so it's easier to focus (instead of switching between multiple sources frequently, which creates split attention).
-- Creating test questions for yourself (generating your own test questions has a learning benefit but we believe it is overall more beneficial to use AI to generate questions than creating your own due to the substantial time save and ability to use the AI for external calibration of knowledge).
-- Asking questions to explore a topic, much like how you may ask questions to a tutor.
+```text
+Extended practice questions, four steps:
+1. Answer from memory.
+2. Mark every place that felt unsure.
+3. Build a perfect answer sheet from the material.
+4. Check it against the official answers.
+Uncertainty counts as a gap even when the answer was right,
+because one right answer does not survive a variation.
+A large block, or split across sessions.
+```
 
-**Avoid using AI for:**
-- Checking the "truth" of a nuanced and complex concept: LLMs do not have an inherent understanding of "truth" or "reality", even if it seems like they do. As a result, for very nuanced and complex topics, the answer they give you is much less likely to be reliable.
-- Bypassing meaningful cognitive effort: Making mental models, evaluating relationships and understanding why something is important are crucial processes for your brain to form networks of knowledge. Although AI tools can tell you why something is important directly, this can sometimes cause your brain to enter into a more passive, "understanding" mode, which is vastly less effective. This is a very difficult thing to detect for beginner and intermediate learners. Therefore, for most beginners, we recommend avoiding using AI for chunking and organising information until you have a clear internal sense for passive vs. active learning and cognitive load. If using AI to chunk, evaluate, and group information, always challenge it and evaluate the accuracy and look for alternatives.
+Testing with feedback substantially outperforms testing without it; elaborated retrieval is one of the factors that decide whether retrieval transfers at all.
 
-### Examples of Adapting Methods with AI
+The exchange protocol, for anyone who can arrange one person at the same level or above: each writes an exam of mid and higher-order questions and builds a perfect answer sheet for it; swap exams and answer from memory; mark uncertainty; build a sheet for the exam received; swap sheets; compare and argue the differences. The generative work is in the writing, answering, sheet-building and comparing — six of the eleven steps — not in the discussion. Split across days.
 
-| Initial Method                        | Adapted with AI |
-|---------------------------------------|-----------------|
-| Making flashcards                     | Use AI to generate 3 alternative flashcards on the same concept to create more interleaving |
-| Answering questions and testing yourself | Use AI to generate questions at a variety of levels and complexities. Use AI to check your answers and interact with AI to explore your gaps and questions. |
-| Brain dump                            | Use AI to check for gaps in knowledge after doing a brain dump. |
+Mnemonics — drawn scenes and story links — stay for ordered lists and discrete volumes of isolated information. Learned early they become a substitute for encoding. Six weeks of loci training roughly doubled word-list recall, a real effect confined to exactly that narrow demand. [[Method of Loci]] owns the drawn-scene variant. [[Rote Learning and Memorisation]] is the parent of those rows and of the bound on when memorising is the right move.
 
----
+Every method on this page is the same act at a chosen height: produce it from memory, at an order that is currently uncomfortable, and read what failed. The order dial is the same dial on both sides of the split; the type only changes what "produce it" means. Strong explainable understanding supports executable skill and the reverse; most real tasks want both.
 
-## Declarative-Focused Techniques
+A menu invites collecting methods. Two or three run properly beat eight sampled, and time spent choosing is time not spent retrieving. If a method has become comfortable, it has stopped testing anything: raise the order or change the format. That is the same failure as repetition past mastery, arriving quietly.
 
-Note that some of the techniques are suitable for multiple orders of learning. These techniques are marked with an asterisk (*).
+[[Revision]] is the on-ramp for a reader not yet running retrieval sessions. Nobody has to wait for this table to start.
 
-#### Recap on Declarative Knowledge
+## Testing executable skill
 
-Declarative knowledge is information that is based on facts, concepts and logic. It is the type of knowledge that involves encoding content material. Declarative knowledge is sometimes also called conceptual knowledge or descriptive.
+Retrieved execution, simple: practise the skill from memory with no cue, one isolated application, no variation. It is the right first move. It is also the exact thing that becomes repetition past mastery a week later, once the skill is comfortable.
 
-**Examples of predominantly declarative topics:**
-- Science subjects
-- History
-- Politics
-- Law
-- Economics theory
-- Accounting theory
-- Mathematics theory
-- Business and finance theory
-- Coding logic
-- Language vocabulary, syntax, grammar and structure
+Integrative: chain components into something larger. Basic functions chained into a complex one; simple phrases chained into a dialogue. The purpose is conditional knowledge — knowing when and how to use what is known. Move here as soon as basic competence exists, because it generates more, loads more, and interleaves more.
 
-#### Explanations
+Applied: start from a target output and work backwards. Integrative builds up from components; applied works back from a product. An application someone actually needs, built end to end. A real scene in the language being learned, its plausible variations practised, then the scene entered for real. Realistic transfer does not follow automatically from realistic practice.
 
-**3Cs (Cover, copy, check)**  
-A low-level "fill-in-the-blanks" style retrieval technique whereby you cover part of your notes, then attempt to rewrite or redraw the covered part from memory. You then uncover the notes and check. This has been shown to be effective at improving short-term retention of basic information, especially among younger children. Flashcards that use image-occlusion methods are a more practical and efficient variation of this. Most effective for labelling diagrams and processes.
+Challenges attach a prompt or problem stem to that execution — simple, integrative, or edge-case. Edge cases are unfamiliar by design and need strong explainable knowledge just to choose an approach.
 
-**Flashcards (all variations)**
+Creating an edge case is far cheaper than solving one. Creating needs only the knowledge that two concepts could interact; solving needs the approach and the execution. Two consequences: edge cases can be built for material not yet mastered, and they can stand in for evaluative questions inside the exchange protocol. That is the join between the two halves of the table.
 
-**Simple**  
-Flashcards, either physical or through a digital medium such as Anki (preferred). The characteristic feature of simple flashcards is that each card tests isolated facts, concepts or processes. Concepts do not relate to each other. Often useful for specific definitions, constants or other highly specific pieces of information that do not fit into relational note-taking. When higher-order encoding is inadequate, simple flashcards are often overloaded. This causes substantial wasted time through repetition and steep forgetting curves.
+Variable modification is the same problem with new figures and the same approach. That kind of varied practice is the form with a large measured classroom effect. Variable addition is different: the learning is in choosing the variable — whether it is coherent, what value is reasonable, whether a solution still exists, how it interacts with what is already there. Air resistance and a collision changing a trajectory. A cylinder's volume maximised under a surface-area constraint with radius to height fixed at 1:2. A timeout on a function. A conversation line grown into a conditional with a fallback.
 
-**Simple relational**  
-Each card tests the relationships and influences that two or three concepts have on each other. Useful for key relationships that are highly specific and difficult to remember. These are often processes that are conceptually separate from the rest of the topic and are, therefore, hard to represent through relational note-taking. These relationships may not easily fit into chunks.
+## Working with a model
 
-**Evaluative**  
-Each card holds a generated question (evaluative). See *Generated questions* below for more details on this method.
+A language model raises the efficiency of these methods when used well and damages them when leaned on. That is a caution, not a finding.
 
-**Generated questions (all variations)**
+Use it for the tedious low-effort work — keyword lists, a big-picture summary — for pulling many sources into one place, for generating questions, and for asking a topic open. Consolidating sources reduces a real cost, split attention; a model is not required to do it. One notes page does the same job. The questions clause is the same resolution as above: writing is a retrieval event, a model is a time trade with an outside check.
 
-**Isolated**  
-Create your own practice questions. Isolated questions focus on retrieving single facts, concepts and explanations of isolated processes. Many "what" based questions tend to be isolated. The types of questions at this level are ideally served via simple flashcards.
+Avoid it for judging whether a nuanced claim is true — these systems have no inherent grasp of truth, however fluent the answer — and for the mental-model, importance, and relationship work. That work is what builds the network.
 
-**Simple relational and multi-relational**  
-Simple relational questions challenge you to explain or discuss the relationship between two related ideas. Multi-relational questions challenge you to retrieve the relationships between more than two related ideas. These can be combined as part of *Practice questions - advanced group method*.
+Beginners do not outsource chunking and organising until the difference between passive and active work can be felt. If a model is used anyway, challenge what it gives and look for the alternative it did not offer.
 
-**Evaluative**  
-Evaluative questions challenge you to discuss relationships between multiple related ideas and conclude on the relationships' strength and importance. A crucial part of evaluative questions is that the learner must make a value judgment on the importance of concepts compared to other concepts. This level of questioning has significantly beneficial learning effects for depth of knowledge and retention.
+Adaptations, as tool classes: three different cards on one concept; questions at several heights with the answers checked; a brain dump handed over for gap-finding.
 
-Because evaluative questions are time-consuming to create, it is recommended to create questions in one session and answer them in another. Creating questions produces retrieval benefits, as does answering them. By splitting the question creation and answering process, we are able to receive two rounds of positive learning effects. One retrieval session also prepares us for the next.
+## The menu in use
 
-These can be combined as part of *Practice questions - advanced group method*.
+On explainable-heavy material the two or three methods look like this over a couple of months, offered as a guide to adapt rather than a schedule to obey. Day one, while studying: teach each piece immediately after processing it. Days two to five: a map brain dump, and cards made from the gaps it exposes. Those cards tick along in pockets of time. Days seven to fourteen: relational and evaluative questions, plus their answer sheets. Around a month: collect the questions and run the exchange protocol. Around two months: directed discussion, whole-part-whole if it can be run, or the protocol again.
 
-**Brain dumps (all variations)**
+Executable-heavy material gets the short version: start low, keep escalating. Skills build on themselves so repetition is automatic; competence tracks practice, feedback and difficulty; and higher-order methods test the lower orders directly, which is not true on the explainable side.
 
-**Linear**  
-This is an easy technique for testing mass retrieval at low to mid levels of knowledge mastery. Type out everything you know about a particular topic. Follow learning objectives as a guide if they are available. Due to the limitations of linear notes on representing relationships, it is inefficient for higher-order testing. It is also inefficient at finding gaps as it relies on "dumping" all our knowledge until we stumble upon retrieval difficulties. Linear brain dumps are helpful as an end-stage retrieval technique used just before assessments. Depending on available time, brain dumps can be on individual concepts or entire topics.
+Mixed material runs the explainable cadence until the explainable half is competent, then switches to executable methods and climbs. The more executable the topic, the shorter the explainable stretch — sometimes the first encoding plus one session.
 
-**Mindmap**  
-This variation is the same as a linear brain dump but in a mindmap form. Mindmap brain dumps are superior for higher-order knowledge testing and inferior for lower-order detail testing. As more difficult assessment and retrieval standards force you to think in relationships and chunks, this form of brain dumping is strategically more high-yield for most. Mindmap brain dumps are recommended in the early stages of retrieval practice to find big-picture gaps quickly, before transitioning to lower-order methods.
+Session quality beats timing precision. A schedule off by days or weeks still works if the sessions are good. A first map brain dump that exposes no gaps means the test is sitting below the level already reached — move up a height rather than repeating the dump.
 
-**Teaching (all variations)**
+## Sources
 
-**Isolated**  
-Teach a topic to a friend or imaginary student. Teaching to an imaginary student is preferred because when teaching to a friend, they may fill in gaps for you with their own knowledge instead of forcing you to confront gaps or inadequate explanations. In the isolated variation, teaching is limited to directly explaining facts, concepts and processes. Isolated teaching is a relatively time-consuming retrieval method that is lower-order centred. As a result, other alternatives, such as flashcards, tend to be preferred.
-
-**Simple relational**  
-We now explain and discuss how different concepts and processes relate to each other. Simple relational teaching is a relatively effective form of retrieval and can be incorporated in the early to mid stages of revision scheduling as it can find gaps in knowledge quickly.
-
-**Pro tip:** Isolated and simple relational teaching is most useful when applied **during** learning sessions whereby you teach something you have just processed immediately after learning it. We sometimes call this "micro-retrieval". Forcing yourself to teach what you learn straight away activates beneficial generative effects of learning and can help improve deep processing.
-
-**Modified Whole-Part-Whole (WPW)**  
-Taught in the late stages of the program, the modified WPW is potentially the most difficult learning technique in the program. It requires an expert level of knowledge mastery to execute correctly. It challenges all orders of knowledge mastery with rapid knowledge gap identification. Unfortunately, the benefit of this method is directly related to the learner's skill level at using the technique and their encoding proficiency. Modified WPW can be considered impossible unless the fundamental encoding techniques have reached total mastery, with at least near mastery of the Ascent-stage encoding methods.
-
-**Practice questions (all variations excluding passive)**
-
-**Direct**  
-This is a conventional way of using practice questions. It involves solving problems and answering questions from memory. Answers are checked immediately after. Learning material is reviewed for deeper understanding if answers are incorrect. This method activates beneficial generative learning effects by answering the questions and helps us focus on knowledge gaps.
-
-However, the direct method increases the risk of missing gaps or classifying incorrect answers as "silly mistakes". This is because the root cause of the mistake can remain hidden. This method is not recommended for most situations compared to alternatives, as practice questions are a limited and valuable resource.
-
-**Extended**  
-After answering practice questions to your best attempt, mark the questions you felt unsure about. Then review your learning material and create your own "perfect" answer sheet. If an official answer sheet is available, you can check your answer sheet against an official answer sheet. Any question you were unsure about indicates a knowledge gap for you to pay special attention to, regardless of whether it was "officially" correct or not. This is because getting an answer correct for one question does not guarantee you will get it correct in variations of the same knowledge. A lack of confidence in answering is a sufficient indication of a gap.
-
-In the extended method, we test our knowledge by:
-1. Answering the questions
-2. Evaluating our confidence
-3. Creating perfect answers
-4. Checking our answers against official answers to find even more gaps
-
-As the extended method of practice questions is time-consuming, we recommend dedicating a large block of time or splitting the method across multiple retrieval sessions.
-
-**Peer/group discussion (evaluative)**
-
-Unlike in undirected group discussion, this method sets an explicit goal to critique, judge and argue the importance of different relationships and concepts, especially in view of the bigger picture. Methods of facilitating group study to achieve this are taught in the program.
-
-**Chunkmaps (or GRINDEmaps)**
-
-Using chunked or GRINDE-style maps as a retrieval tool (especially mindmap brain dumps).
-
-**Method of loci, link/story method, and Ben system**
-
-Mnemonic techniques useful for certain types of declarative information (especially when lower-order memorisation is still required).
-
-**Feynman method/technique**
-
-Explaining a concept in simple terms as if teaching it to someone else. Can be used at multiple orders of learning.
-
-**The advanced group method for practice questions**
-
-A more advanced, group-based approach to using practice questions that increases interleaving and gap identification. (Detailed instructions and recommendations are available in the original Learning Support material.)
-
----
-
-## Procedural-Focused Techniques
-
-#### About Procedural Knowledge Types
-
-Procedural knowledge involves skills and processes — knowing *how* to do something rather than just knowing facts about it.
-
-#### Characteristics of Procedural Knowledge
-
-Procedural knowledge is characterised by sequences of actions and decision-making in context. It often involves "knowing how" rather than "knowing that".
-
-#### The Relationship Between Declarative and Procedural Knowledge
-
-Strong declarative understanding often supports procedural skill, and vice versa. Many real-world tasks require both.
-
-#### Explanations
-
-**Ben system and simple flashcards**  
-Can be adapted for procedural sequences.
-
-**Retrieved execution (all variations)**
-
-- **Simple**: Perform the procedure from memory.
-- **Integrative**: Combine multiple procedures or adapt them.
-- **Applied**: Perform the procedure in realistic or varied contexts.
-
-**Challenges (all variations)**
-
-- **Simple**
-- **Integrative**
-- **Edge-case**
-- **Variable modification or addition** (Modification / Addition)
-
-**Example combinations**  
-Various ways to combine the above techniques for maximum effect.
-
----
-
-This version is now significantly more comprehensive and faithful to the full structure of the original ICS "Interleaving table - Learning Support" resource, including all the major headings and technique variations.
-
-Would you like me to also:
-- Add the "Part of Retrieval" header to this page and WPW?
-- Update the main Retrieval hub to link to both the expanded Interleaving Table and the new WPW page?
-- Continue moving more content or do the Notes Index updates?
-
-Just let me know.
+- Dunlosky, J., et al. (2013). Improving students' learning with effective learning techniques. *Psychological Science in the Public Interest*. Rereading: low utility.
+- Rohrer, D., & Taylor, K. (2006). The effects of overlearning and distributed practise on the retention of mathematics knowledge. Extra same-difficulty problems past first success: no gain at 1 or 4 weeks.
+- Kornell, N., & Bjork, R. A. (2008). Learning concepts and categories. Fluency illusion: blocked practice rated more effective after a test already done better under interleaving.
+- Rowland, C. A. (2014). The effect of testing versus restudy on retention. *Psychological Bulletin*. Recall outperforms recognition; testing with feedback d = 0.73 vs without d = 0.39.
+- Springer, L., Stanne, M. E., & Donovan, S. S. (1999). Effects of small-group learning on undergraduates in STEM. *Review of Educational Research*. d ≈ 0.51. Structured cooperative work can raise achievement; undirected discussion underperforms a protocol.
+- Skinner, C. H., McLaughlin, T. F., & Logan, P. (1997). Cover, copy, and compare. Short-term retention of basic information, mostly with school-age children.
+- Bisra, K., et al. (2018). Inducing self-explanation. Prompted self-explanation g = 0.55 across 64 reports.
+- Rohrer, D., Dedrick, R. F., Hartwig, M. K., & Cheung, O. S. (2020). Interleaved mathematics practice. Varied problem types, d = 0.83 at one month.
+- Pan, S. C., & Rickard, T. C. (2018). Transfer of test-enhanced learning. Elaborated retrieval as a transfer condition; realistic practice does not automatically transfer.
+- Dresler, M., et al. (2017). Mnemonic training reshapes brain networks. Six weeks of loci training roughly doubled word-list recall.

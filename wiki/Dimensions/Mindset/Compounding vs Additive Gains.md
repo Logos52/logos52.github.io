@@ -1,10 +1,11 @@
 ---
 title: "Compounding vs Additive Gains"
 type: concept
-status: seed
+status: developing
 created: 2026-06-11
-updated: 2026-06-11
-ics-stage: Fundamentals
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
   - mindset
   - decision-making
@@ -13,40 +14,67 @@ tags:
 
 # Compounding vs Additive Gains
 
-Take any improvement you're paying for — a tutor, a tool, extra hours — and imagine it gone tomorrow. If you would still be more capable than before you had it, the gain changed your state, and the next gain builds on the new baseline. If you would snap back to where you started, the gain was additive: real while it lasted, gone when the input stops. Compounding works the way compound interest works: $100 earns $1, the balance becomes $101, and the next 1% is calculated on the higher number, so the gap widens every cycle. Adding 1% a day in a straight line yields 365% in a year; compounding the same 1% yields roughly 3,600% — about 37 times the start. The entire difference is whether each gain updates the balance. In learning, you are the balance.
+A compounding gain leaves you more capable than you were before the tutor, the tool, or the extra hours arrived. An additive gain is real while those inputs run and gone when they stop, so you snap back to the earlier baseline.
 
-## The removal test
+## Whether the balance moves
 
-- **Imagine the input gone.** If you remain more capable without it, the gain changed your state and can compound. If you land back at baseline, the gain was additive — you rented a result.
-- **Same hour, different purchase.** Both kinds of gain consume the same time and effort, so every additive hour is an hour that could have bought a compounding gain. On any single day the difference is invisible — $1.01 versus $1.00 — and over a year it is multiples.
-- **Expect the slow start.** The compounding curve sits below the additive line early, then overtakes it by several fold. The additive line rises linearly, plateaus, and in some cases turns down.
+Money makes the two kinds visible as arithmetic. Put $100 to work at 1% a cycle. The first cycle pays $1, the balance becomes $101, and the next 1% is taken on $101. The gap against a still-$100 account widens every cycle.
 
-## Borrowed capability fails the test
+The additive picture stays inside the same numbers. The first cycle still pays $1 — but that dollar is moved into a separate account the next calculation cannot see. Cycle two is 1% of $100 again, and so is cycle three. The money is real and it accumulates. The balance never moves, so nothing is ever calculated on a higher number.
 
-- **Tutoring lends gear.** Extra resources, guidance, and explanation raise performance above real ability — a level-one character with level-six gear clearing level-five content. Remove the gear and the character is still level one; knowledge and results drop with it.
-- **Reliance scales the wrong way.** Content gets harder and targets rise, so the borrowed support has to keep growing — until the binding constraint becomes how much your own brain can hold in the time available, which never grew. The fade-out and teacher-dependency research behind this lives in [[WPW#Research Foundations]].
-- **Hours behave the same.** One hour of study buys an 80% result and two hours buy 90%, but drop back to one hour and the result drops with it. Past a threshold, added hours run the curve backward: stress climbs, efficiency falls, and sleep, friends, and hobbies pay the bill.
-- **Some additive spend is unavoidable.** A purely compounding mix doesn't exist; the discipline is knowing which kind of gain you're buying before you spend.
+A 1% gain every day, stacked in a straight line, is 365% in a year. The same 1% compounded is roughly 37 times the start. That is a shape, not a study result, and the working version of the picture is slower still: 1% a week will not make a year 3,600% better, only substantially better. On any single day the two versions are $1.01 against $1.00, which is nothing. The compounding curve even sits below the additive line early, then overtakes it by several fold. The early lag is what choosing the slower method costs. The entire difference is whether each gain updates the balance.
 
-## Skill gains pass — and transfer everywhere at once
+## Gains you rent
 
-- **Skills change the state.** Recall of details, conceptual understanding, problem-solving from routine to curveball questions, execution at speed under time pressure: improving any of these upgrades the person who shows up to every future hour, so the next gain builds on a higher floor.
-- **Transfer multiplies the rate.** Get 1% better at recalling details with no extra time, and the gain applies across all five subjects at once — effectively 5%. Subject-specific help has no such reach: science tutoring does nothing for maths.
-- **Same brushwork, different paint.** Subjects differ the way blue paint differs from yellow; the skill of learning them is the same technique with the brush, which is why a gain in understanding one domain surfaces in the others.
-- **Output rises at constant effort.** Changing how the hour is spent lifts the result of that same hour — 80 to 90 to 100 — with no added time and no rented support.
+Bought support works like the locked-away dollar. Tutoring, extra resources, and guided explanation raise performance above real ability — a level-one character wearing level-six gear, clearing level-five content. Remove the gear and the character is still level one; knowledge and results drop with it. That is the same fade the research in [[WPW#Research Foundations]] records as a class: effects fade when the environment that produced them ends, unless a skill that would not have developed anyway was built.
 
-## The grade is a speedometer
+Reliance scales the wrong way. Content hardens and targets rise, so the borrowed support has to keep growing. Early on the limit is how much support you can obtain. Past a point the limit stops being purchasable: it becomes how much you can hold and use in the hours you actually have, against coursework, projects, and a life outside the subject. You become the bottleneck. The buying never touched that constraint.
 
-- **Wanting the outcome changes nothing.** Punching through a wall barehanded stays slow and bloody however much you want the hole; the odds move when the method moves.
-- **The result reads out the process.** A grade indicates studying skill the way a speedometer indicates speed — tapping the dial doesn't move the car. Improvement effort belongs on the processes upstream of the number.
-- **The outcome arrives as a consequence.** Someone with strong technique, recall, understanding, problem-solving at speed, plus calm and time management is hard to imagine missing the top result. Aim the gains at becoming that person.
+Buy 1% more support and you get 1% more of the same slab, never 1% on top of a raised base. A bought input cannot compound in kind, because nothing about you changed between purchases.
 
-## Running the test on any spend
+The same shape shows up as hours. Imagine one hour of study buying an 80% result and two hours buying 90% — worked numbers, not a measured rate. Drop back to one hour and the result drops with it. Past a threshold, added hours run the curve backward: stress climbs, efficiency falls, and sleep, friends, and hobbies pay the bill. That is a boundary, not a law.
 
-- **Courses and tools.** A tool that performs the work delivers output; a tool that trains a capability you keep delivers state. The removal test separates them instantly.
-- **AI assistance.** Drafts, code, and analysis produced for you are gear. The spend compounds only when the interaction leaves you better at the work once the assistant is closed.
-- **Knowing counts for nothing until used.** An unpracticed technique might as well be unknown — familiarity breeds false security, and the nuances only surface in use. Until a technique runs regularly in real work, the removal test hasn't even started; the full diagnostic lives in [[Are You Learning, or Just Using Techniques]].
+Some additive spend is unavoidable. A purely compounding mix does not exist. The discipline is knowing which kind you are buying before you spend. The rented result keeps getting bought anyway, because giving up a gain already in hand reads as a loss, whatever it costs to keep — the mechanism in [[Loss Aversion]].
 
-## Links into the system
+## You are the balance
 
-The state-change test picks which gains [[Marginal Gains]] should stack, and [[Marginal Gains in Practice]] runs the stacking; [[Loss Aversion]] explains why additive comfort feels safe enough to keep buying; [[Locus of Control]] owns the wider rule of spending attention on process instead of outcome; the dependency research behind borrowed capability lives in [[WPW#Research Foundations]].
+In money the balance is the account. In learning the balance is you. Wanting the outcome changes nothing: punching a wall barehanded stays slow and bloody however much you want the hole. The odds move when the method moves. A grade indicates studying skill the way a speedometer indicates speed — tapping the dial does not move the car. Held as a process instruction, not a measurement theory: results also carry prior knowledge, test design, and sleep. Improvement effort belongs on the processes upstream of the number, which is the wider rule in [[Locus of Control]].
+
+## What a skill gain actually raises
+
+A skill is itself a balance. Take it at 100. Improve it 1% and it stands at 101. The next 1% is taken on 101, which puts it at 102.01. This holds inside one subject with no transfer anywhere. The skill is the floor the next gain stands on.
+
+Improving recall, conceptual understanding, problem-solving from routine to curveball, or execution at speed upgrades the person who shows up to every future hour. Changing how the hour is spent lifts the result of that same hour — 80 to 90 to 100, again as a shape, not a finding — with no added time and no rented support.
+
+The same skill gain can apply across everything you study at once. That is a second multiplier, not the mechanism, and it is the weaker of the two: a gain in how you learn has reach that subject-specific help does not. Science tutoring does nothing for maths, unless the tutor is also training a shared study skill. Subjects differ the way blue paint differs from yellow; the skill of learning them is the same technique with the brush. "Same technique" is stronger than transfer research supports. Keep the reach as a reason to prefer skill gains, not as a measured multiplier.
+
+The processes a result actually reads are exam technique, accurate recall of detail, conceptual understanding, problem-solving across routine and unfamiliar questions, all of it executed at speed under a clock — plus calm under pressure and time management. Aim the gains at becoming that person. Exams still have variance; becoming that person is the aim, not a guarantee.
+
+## What you are buying tonight
+
+A tool that performs the work delivers output. A tool that trains a capability you keep delivers state. The removal test separates them on the spot. Drafts, code, and analysis produced for you are gear. The spend compounds only when the interaction leaves you better at the work once the assistant is closed.
+
+A compounding purchase shows up as the same result at lower cost: the next comparable task takes less support, not more. A purchase that keeps needing to grow has already answered the test.
+
+## The test that has not started
+
+An unpracticed technique might as well be unknown. Familiarity breeds false security, and the nuances only surface in use. Until it is running in regular work, count yourself as not knowing it — the diagnostic lives in [[Are You Learning, or Just Using Techniques]]. The removal test assumes there is something to remove. Until a technique runs regularly in real work, the test has not started.
+
+## Related
+
+- [[Marginal Gains]] — owns stacking, REDO and rate limiters, the machinery for accumulating gains once this page's test has decided which ones are worth stacking.
+- [[Marginal Gains in Practice]] — the operating layer: the stacking test and the tracking ladder. Procedures stay there; this page does not copy them up.
+
+## Open Questions
+
+How much of a study-skill gain actually crosses subjects, when far transfer is the exception and the reach is what makes skill gains worth preferring?
+
+Where does the additive floor sit for a given person — how much bought support is the correct purchase rather than a rented result?
+
+## Sources
+
+- Bailey, Duncan, Cunha, Foorman & Yeager 2020, *Psychological Science in the Public Interest* 21(2) — educational-intervention effects commonly diminish once the intervention ends. Supports fade-out as a class; not a tutoring-hours study.
+- Dunlosky, Rawson, Marsh, Nathan & Willingham 2013, *Psychological Science in the Public Interest* 14(1) — how an hour is spent moves retention more than adding hours of rereading.
+- Plant, Ericsson, Hill & Asberg 2005, *Contemporary Educational Psychology* 30(1) — quantity of study poorly predicts results once quality and prior achievement are controlled.
+- Barnett & Ceci 2002, *Psychological Bulletin* — far transfer is the exception; the bound on the cross-subject reach claim.
+- Clear, *Atomic Habits* — the popular home of the 1%-a-day / 37× illustration (1.01^365 ≈ 37.78).

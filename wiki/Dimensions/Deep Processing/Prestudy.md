@@ -1,10 +1,13 @@
 ---
+title: Prestudy
 type: technique
 status: developing
 created: 2026-05-11
-updated: 2026-05-11
+updated: 2026-08-14
+written-by: grok
+model: grok
 source-count: 4
-last-audited:
+last-audited: 2026-08-14
 tags:
   - learning
   - encoding
@@ -12,267 +15,138 @@ tags:
   - deep-processing
   - self-regulation
 ---
-> Part of [[wiki/Dimensions/Deep Processing|Deep Processing]]
-
 
 # Prestudy
 
-New information lands better when the learner has a rough frame before the main learning event starts. Use Prestudy before a lecture, class, reading, video, meeting, or dense study session.
+> Part of [[wiki/Dimensions/Deep Processing|Deep Processing]]
 
-The goal is to build a rough frame that makes later detail easier to understand, organize, and remember.
+A lecture's detail has somewhere to land when a rough map of the whole topic's relationships is already in hand. The map is built from headings, diagrams, and guesses about how the main ideas connect, and none of the content is learned yet. That pass is prestudy: readiness for a lecture, class, reading, video, meeting, or dense session, not a finished version of any of them.
 
-## Core Thesis
+Without the map, the session is a jigsaw solved with no picture. With it there is both a reference image and a gap each piece can go into. The frame is not a preview of the picture. It is a set of places where things can land. After a short pass the learner holds a rough outline: what the topic is about, the major ideas, how they may relate, which questions matter, and where later detail will eventually fit. The *main learning event* is whichever session would otherwise be first contact.
 
-Without prestudy, the brain meets too much information too quickly and tries to build the puzzle without the picture.
+## Why the frame comes first
 
-With prestudy, the brain has a rough outline:
+**Detail before structure is ordinary study moved earlier.** Load drops in the room because the brain is no longer meeting everything for the first time at full speed. Across weeks the same split runs both ways. Untreated, the overload of a first event is hard to recover from; when such events land weekly the deficit accumulates, and the cheaper moves take over — copying, memorising, sitting through the hour. Treated, the confusion is spread over more sessions, big-picture relevance is settled first, and each later session starts from a stronger foundation.
 
-- what the topic is about,
-- what the major ideas are,
-- how those ideas may relate,
-- what questions matter,
-- where details might eventually fit.
+The untreated chain is recognisable from inside. No frame, the event feels dense, load spikes, details arrive before any structure exists, and retention and application stay weak because nothing had a home. The treated chain is the same events reversed: a rough topic frame, questions about how the pieces relate, lower load during the event, cleaner grouping, and a usable handoff into encoding and retrieval.
 
-Prestudy lowers the load of the main learning event because the brain is no longer processing everything for the first time at full speed.
+Information that has a place to fit is easier to process than information that arrives as random pieces, and the payoff is both retention and speed of recall. A random string of coordinates does not stay; a phone number does — not because it is shorter, but because its place and its relations are already known. Introductory material pitched at a higher level of abstraction, generality, and inclusiveness has been the supported move for six decades, and a complex lesson lands better when the names and behaviours of its key elements are already known.
 
-## The Operating Model
+Detail-level prestudy early activates isolated, lower-order processing. The information arrives without a home, and that is the usual reason the pass feels wasted. The reason the detail still gets learned first is insecurity about not touching the small things. [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] is what the spike is signalling. [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] is why the cheaper-feeling version of the hour is the one that fails.
+
+## What the pass leaves behind
+
+A useful frame, not a finished artifact. Readiness, not completion.
+
+The pass should leave big-picture familiarity, rough groups, early questions, likely relationships, a sense of what matters, and enough context to follow the event. It should not leave perfect notes, memorised facts, detailed flashcards, polished maps, complete understanding, or false confidence.
+
+What the pass is doing, at its core, is four constraints: the smaller details are avoided; the main ideas and the groups they fall into are named; the key relationships between those ideas and groups are named; a big-picture understanding of the topic is reached. Everything else on this page is dosage around that core.
+
+Good prestudy feels broad, shallow, and slightly uncertain. Shallow and broad rather than deep and narrow is the instruction, not a mood.
+
+The pass is complete when:
+
+- the structure is a big picture, not a term list
+- the whole topic or subtopic was covered, not only the next class
+- no details or facts were memorised, because the focus was exclusively the big picture
+- the major ideas have visible relationships
+- some hypotheses exist about how the concepts connect
+- the main event feels like the next step, not first contact
+
+## Where it sits
+
+Prestudy is about *when* the work happens. [[wiki/Dimensions/Deep Processing/Aim|Aim]] is about *how* the mind is pointed while it happens. The two get confused because they share a target: both aim at finding basic relationships through active exploration, building simple networks, and reaching a big-picture understanding quickly. They differ in kind. Prestudy is a chronological step — an act of studying placed before an event that would otherwise overwhelm. Aim is a cognitive step. It begins in the setup pass and carries on through later sessions until the topic is encoded. It does not end when the main event starts.
+
+They usually run together. The setup pass sits before the event; the why, how, and relationship questions are asked during it. Prestudy without those questions becomes shallow previewing — a pass run with the wrong methods can be a waste of time. The questions without prestudy still work, but they are harder inside a fast lecture or a dense source, because there is less time and more load.
+
+The sequence this step opens is Prestudy → Aim → Shoot → Skin → [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]]. Prestudy sits in front of the [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] as the first-contact layer. [[wiki/Dimensions/Deep Processing/Skin|Skin]] is the cleanup at the end of that loop. A change at the earliest point of a study process moves everything downstream, so where prestudy is missing, adjustments further along cannot be judged. That is an ordering fact, not a pitch.
+
+Where no prestudy happened, the questioning still has to happen somewhere worse. Inside the main event it is very hard — and that difficulty is the reason it belongs in a self-paced pass. After the event it is more workable and still not the same thing: the session is spent keeping up and forming rough structure, and the real encoding starts afterwards. The step matters most when the upcoming event is too fast, too dense, or too high-stakes to meet cold. [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] walks the pipeline end to end with this step named in it.
+
+## The pass itself
+
+How long the pass runs decides how much of the questioning step fits inside it. Ten minutes supports the largest chunks and the major relationships only. A comprehensive pass supports the full version, and the step after it can be pulled in as well.
+
+**Skim for scope.** Headings, learning objectives, diagrams, summaries, keywords, problem sets, lecture slides, chapter introductions, and the table of contents. The goal is the boundary of the topic.
+
+**Find the main ideas.** Major ideas, processes, cases, mechanisms, formulas, people, or arguments, listed rough. Not a glossary. Where a term is unfamiliar, just enough is read that the word means something, because a word with no meaning cannot be grouped with anything. No memorising. Grouping of this kind is *chunking*; the judgment of those groups lives on [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]].
+
+**Group by relationship.** Function, cause and effect, sequence, contrast, shared problem, shared mechanism, part-whole, application. The first grouping is a hypothesis and is allowed to be wrong, because the categories are expected to move as more is learned.
+
+**Ask what matters.** More time goes to why something matters than to remembering or understanding it. The questions that implement that comparative: why does this matter, what problem does it solve, what does it connect to, what would break if it were misunderstood, what kind of task would require it, which ideas look central against supporting. This is also the only step that reaches outside the source: analogies are built, and what is being previewed is connected to what is already known.
+
+Notes here, if any, are relational and non-linear, because linear notes cannot hold relationships at a usable accuracy. Where notes are not possible, the mental version still counts.
+
+**Leave with a hunt.** Questions to answer, relationships to verify, chunks to revise, confusing areas to watch, details that would strengthen the frame. Then the session. [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] is what fills the frame once that session starts.
+
+## How far to take it
 
 ```text
-no frame
--> main learning event feels dense
--> cognitive load spikes
--> details arrive before structure
--> learner shortcuts into copying, memorizing, or passive listening
--> retention and application stay weak
+Ten minutes.
+Skim headings, diagrams, summaries.
+List five to ten key ideas.
+Circle the three most important.
+Ask why each matters.
+Guess how they relate.
+Walk in with two or three questions.
 ```
 
-The repair:
+That floor is enough to stop first contact.
 
-```text
-prestudy
--> rough topic frame
--> curiosity and relationship questions
--> lower load during the main event
--> better chunking and attention
--> cleaner handoff into encoding and retrieval
-```
+The comprehensive version previews the whole topic: a rough map of the major chunks, the recurring mechanisms, contrasts and sequences, questions for each major chunk, a light first pass at the biggest ideas, and later classes doing verification and detail-filling. What it buys is a change of job. The main event becomes a gap-finder and detail-filler rather than first contact.
 
-Prestudy works because relevance changes memory. Information that has a place to fit is easier to process than information that arrives as random pieces.
+Whole-topic scope is not about volume. A class boundary cuts relationships in half, and covering several sessions at once is what keeps them intact. A first pass covers more ground than expected, because the goal is familiarity rather than thoroughness. Work ahead of the events where the curriculum allows, because assessments are timed to the end of the classes and studying ahead leaves more room for encoding and retrieval afterwards.
 
-## What Prestudy Is For
+When the week will not hold everything, prestudy outranks reviewing old material. Review can be caught up later, and prestudy leaves less to catch up on. The time is scheduled and protected. A common reason a study schedule collapses is retrieval sessions taking the slot the setup pass needed. The calendar shape is a pass over the coming week at the weekend, or over the day in the morning — broad and superficial first, more depth on each later pass over the same topic. [[wiki/Self Management/Study Scheduling|Study Scheduling]] is the weekly rhythm this pass is scheduled inside, and what it displaces.
 
-Prestudy should create:
+## Where it goes wrong, and where it does not pay
 
-- big-picture familiarity,
-- rough chunks,
-- early questions,
-- likely relationships,
-- a sense of what matters,
-- enough context to follow the main event.
+The warning signs are memorising facts too early, trying to understand every detail, making polished notes, previewing only one lecture, and finishing with no questions.
 
-Prestudy should not create:
+| Failure | Repair |
+|---|---|
+| Detail trap | Return to ideas, relations, and questions |
+| Preview theater | End with questions and rough chunks |
+| Lecture-only scope | Skim the whole topic first |
+| Perfect-map trap | Treat the map as a hypothesis |
+| No handoff | Walk in with explicit questions |
+| Late recovery | A short pass before the next exposure |
 
-- perfect notes,
-- memorized facts,
-- detailed flashcards,
-- polished maps,
-- complete understanding,
-- false confidence.
+[[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] is why a method performed correctly can still produce nothing — preview theater.
 
-The right output is a useful frame, not a finished artifact.
+The pass costs a scheduled block before each topic, protected when the week is full, and it is paid for out of review time on purpose. Covering the content is not sufficient on its own, and most learners do not yet have the study efficiency to work comprehensively faster than class pace. The usual situation is the opposite: class pace is too fast and the learner gradually falls behind. The comprehensive version is not available merely by deciding on it.
 
-Prestudy is complete when:
+Where attendance is compulsory and the prestudy has left the learner far ahead, the class becomes dead time. The deliberate answer is a shallower pass, so more of the load lands in the room and the session is worth attending, with the freed self-study time going to retrieval instead. Prestudy moves load out of a session, so a session that needs load moved in gets less of it.
 
-- the topic has a clear big-picture structure, not just a list of terms;
-- the whole topic or subtopic has been covered, not just the next class;
-- no details or facts have been memorized yet — the focus was exclusively on the big picture;
-- the major ideas have visible relationships to each other;
-- there are some hypotheses about how concepts connect;
-- the main event feels like the next step, not first contact.
+If no relationships can be made at all while studying, the material is too detailed for the current level of knowledge, and the repair is a surface-level pass of this kind.
 
-## Prestudy vs Aim
+If the pass leaves no questions, memorised fragments, and a session that still feels like first contact, the technique is wrong rather than the step. The next move is the same pass run against the four framing constraints, not abandoning it. After a correct pass the next event should feel less overwhelming, the main ideas should already be familiar when they arrive, what happens in the room should be easier to consolidate, and it should be possible to ask deeper or more connected questions there.
 
-Prestudy is about **when** the work happens.
+Strip everything and the framing step is what stays: details avoided, main ideas named, relationships named, big picture reached. Even where the pass has been thorough enough that the session is no longer necessary, the session still opens with it. Where there is no time for anything else, it alone still pays.
 
-[[wiki/Dimensions/Deep Processing/Aim|Aim]] is about **how** the mind is pointed during that work.
+## Open questions
 
-They often happen together:
+- What decides whether a topic is worth a whole-topic pass rather than a pass over the next session alone.
+- Where the frame stops being a frame — how much relationship-mapping is still prestudy, and at what point it has quietly become the study session it was meant to prepare for.
 
-- Prestudy says: do a setup pass before the main learning event.
-- Aim says: use that setup pass to ask why/how/relationship questions.
+## Related
 
-Prestudy without Aim can become shallow previewing. Aim without prestudy can still work, but it is harder during a fast lecture or dense source because the brain has less time and more load.
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] — the parent hub this step belongs to
+- [[wiki/Dimensions/Deep Processing/Aim|Aim]] — how the mind is pointed during the pass, and after it
+- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] — what fills the frame once the session starts
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — the loop this step sits in front of
+- [[wiki/Dimensions/Deep Processing/Skin|Skin]] — the cleanup pass at the end of that loop
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — the retrieval system the encoding hands off to
+- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] — the pipeline walked end to end, with this step named in it
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]] — how the rough groups are judged and layered
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] — why first contact spikes and what the spike is signalling
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] — why the cheaper-feeling version of the method is the one that fails
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] — why a method performed correctly can still produce nothing
+- [[wiki/Self Management/Study Scheduling|Study Scheduling]] — the weekly rhythm this pass is scheduled inside, and what it displaces
 
-## How To Prestudy
+## Sources
 
-### 1. Skim For Scope
-
-Look across the whole topic or subtopic before diving into details.
-
-Useful inputs:
-
-- headings,
-- learning objectives,
-- diagrams,
-- summaries,
-- keywords,
-- problem sets,
-- lecture slides,
-- chapter introductions,
-- table of contents.
-
-The goal is to see the boundaries of the topic.
-
-### 2. Find The Main Ideas
-
-List the major ideas, processes, cases, mechanisms, formulas, people, or arguments.
-
-Keep the list rough. Do not turn it into a glossary yet.
-
-### 3. Group By Relationship
-
-Start grouping ideas by:
-
-- function,
-- cause and effect,
-- sequence,
-- contrast,
-- shared problem,
-- shared mechanism,
-- part-whole relationship,
-- application.
-
-The first grouping is a hypothesis. It is allowed to be wrong.
-
-### 4. Ask Importance Questions
-
-For the main ideas, ask:
-
-- Why does this matter?
-- What problem does this solve?
-- What does this connect to?
-- What would break if I misunderstood this?
-- What kind of task would require this?
-- Which ideas seem central vs. supporting?
-
-The point is to prime attention toward importance, not collect facts.
-
-### 5. Enter The Main Event With A Hunt
-
-Before the lecture, reading, or study session, know what you are hunting for:
-
-- questions to answer,
-- relationships to verify,
-- chunks to revise,
-- confusing areas to watch,
-- details that would strengthen the frame.
-
-Then use [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] to fill, test, and revise the structure.
-
-## How Much To Prestudy
-
-Prestudy as much of the upcoming material as possible before major learning events. In a formal curriculum, assessments are timed to the end of classes — studying ahead creates more time for encoding and retrieval. The goal of comprehensive prestudy is to move beyond class pace: the main learning event becomes a gap-finder and detail-filler rather than the first contact.
-
-Covering content alone is not sufficient. Prestudy at the detail level early activates isolated, lower-order processing — information arrives without a home and requires memorization rather than inference. The frame must come first. Committing to details before the structure exists is a common reason why prestudy feels like wasted time: the details do not stick because the architecture for them has not been built yet.
-
-When time allows comprehensive prestudy, doing it at the whole-topic level — rather than one lecture at a time — creates a more stable scaffold. The first pass can cover far more ground than it seems, because the goal is big-picture familiarity, not thorough understanding.
-
-## Minimum Prestudy
-
-When time is tight, use the 10-minute version:
-
-1. Skim the headings, diagrams, and summaries.
-2. List 5-10 key ideas.
-3. Circle the 3 most important.
-4. Ask why each one matters.
-5. Guess how they relate.
-6. Enter the main event with 2-3 questions.
-
-This is enough to stop the main event from being first contact.
-
-## Comprehensive Prestudy
-
-Use this when a topic is important, dense, or upcoming over several classes.
-
-1. Preview the entire topic, not only the next lecture.
-2. Create a rough map of major chunks.
-3. Identify recurring mechanisms, contrasts, and sequences.
-4. Ask Aim questions for the major chunks.
-5. Do a light [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] pass on the biggest ideas.
-6. Use future classes or readings as verification and detail-filling events.
-
-The goal is to move beyond class pace. The main event becomes a gap-finder, not the first exposure.
-
-## How It Should Feel
-
-Good prestudy should feel broad, shallow, and slightly uncertain.
-
-Good signs:
-
-- the topic feels less random;
-- you can name the main pieces;
-- you have questions you actually want answered;
-- you see possible relationships before they are explained;
-- you feel ready for detail, not finished with the topic.
-
-Warning signs:
-
-- you are memorizing facts too early;
-- you are trying to understand every detail;
-- you are making polished notes;
-- you are previewing only one lecture instead of the larger topic;
-- you finish with no questions.
-
-Prestudy should create readiness, not completion.
-
-## Failure Modes
-
-| Failure | What It Looks Like | Repair |
-| --- | --- | --- |
-| Detail trap | The learner tries to memorize facts before the frame exists. | Return to main ideas, relationships, and questions. |
-| Preview theater | The learner skims passively and calls it prestudy. | End with questions and rough chunks. |
-| Lecture-only scope | The learner previews one class but cannot see the larger topic. | Skim the whole topic or subtopic first. |
-| Perfect-map trap | The learner tries to make the structure final before learning. | Treat the map as a hypothesis. |
-| No handoff | Prestudy never affects the main learning event. | Enter the event with explicit questions to answer. |
-| Late recovery | The learner waits until after confusion builds. | Use a short prestudy pass before the next exposure. |
-
-## Role In The Current Study System
-
-Prestudy sits before [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] as the first contact layer.
-
-The clean handoff:
-
-1. **Prestudy**: build the rough frame.
-2. [[wiki/Dimensions/Deep Processing/Aim|Aim]]: sharpen the frame into importance and relationship questions.
-3. [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]: use the source to answer, test, and revise.
-4. [[wiki/Dimensions/Deep Processing/Skin|Skin]]: clean the structure into a retrieval-ready artifact.
-5. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]]: test whether the structure can be reconstructed and used.
-
-Prestudy is especially important when the upcoming learning event is too fast, too dense, or too high-stakes to process cold.
-
-## Implications For My System
-
-- Prestudy should become a named step in [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]].
-- The default weekly workflow should include a weekend or morning prestudy pass for upcoming material.
-- Prestudy should not become another note-taking burden. Its job is to create readiness.
-- For important topics, Prestudy should cover the whole topic or subtopic, not only the next isolated class.
-- Minimum Prestudy should be allowed when time is tight, because even a rough frame is better than first contact during the main event.
-
-## Related Pages
-
-- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
-- [[wiki/Dimensions/Deep Processing/Aim|Aim]]
-- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]
-- [[wiki/Dimensions/Deep Processing/Skin|Skin]]
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
-- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
-- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-
-## Open Questions
-
-- What subjects or projects currently need a weekly prestudy pass?
-- What is the user's minimum Prestudy template for a busy day?
-- Which topics should be prestudied at the whole-topic level instead of class-by-class?
+- Ausubel, D. P. (1960). The use of advance organizers in the learning and retention of meaningful verbal material. *Journal of Educational Psychology*.
+- Ausubel, D. P. (1968). *Educational Psychology: A Cognitive View*.
+- Mayer, R. E. (1979). Can advance organizers influence meaningful learning? *Review of Educational Research*.
+- Mayer, R. E. Pre-training principle, from multimedia learning research: a complex lesson lands better when the names and behaviours of its key elements are already known.

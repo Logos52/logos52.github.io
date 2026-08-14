@@ -1,10 +1,11 @@
 ---
 title: "Reconstruction — Retrieval Beyond Recall"
 type: concept
-status: seed
+status: developing
 created: 2026-06-11
-updated: 2026-06-11
-ics-stage: Camp II
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
   - retrieval
   - reconstruction
@@ -13,32 +14,51 @@ tags:
 
 # Reconstruction — Retrieval Beyond Recall
 
-Every act of remembering rebuilds knowledge from nodes of information and the relationships that connect them — the relational structure is what carries the meaning. Memory is reconstructed on every retrieval anyway, so a method that demands fresh rebuilding tests the operation memory actually performs. Reconstruction does exactly that: take the knowledge nodes you already hold, form new, valid relationships among them — connections you were never taught and have never made — and judge which connections hold and which are impossible. It sits one level above the familiar retrieval pair: recognition matches a prompt to something seen before and demands almost no mastery, while active recall rebuilds a memory you already know can be built. Reconstruction asks for knowledge that has never existed yet.
+Reconstruction is a test that takes pieces already held and asks for a connection nobody taught, then a yes-or-no on its existence. Memory already rebuilds on every pull — nodes and the relationships between them, not a stored copy — so the honest demand is a new valid relationship, not the taught one. Ruling a link impossible counts; the ask is a relationship that has never existed yet.
 
-## Judging which connections hold
+## Same nodes, new shapes
 
-The work is a validity test run against your own knowledge:
+A method that demands a fresh shape tests the operation memory already performs. That leap is this page's reason, not a prescription from the reconstructive-memory literature. The literature says remembering is rebuilding; the method says: then ask for a rebuild nobody handed over.
 
-- **Same nodes, new shapes.** A session takes concepts already learned and attempts relationships nobody handed you: connect this point to those two, merge two explanations into one, try an equation in a situation where a similar one normally lives. Each attempt either holds or breaks.
-- **Ruling a connection out is as informative as ruling one in.** Deciding "these two cannot connect, but this path works" requires knowing each node precisely enough to see its boundaries. Vague familiarity cannot make that call, which is why the exercise doubles as a mastery check on every node it touches.
-- **It tests Evaluate and Create while exercising everything underneath.** Recall spans the middle of the mastery hierarchy depending on whether you retrieve a fact, an explanation, or an application; forming and judging new relationships works almost exclusively at the top — and since the top is impossible without the lower levels, those get exercised for free.
-- **The output is new material.** Hypotheses, conjectures, fresh ways to explain or apply the same concept. Generating these from existing knowledge is itself a high level of mastery, and the brain works in its efficient learning state when pushed into this higher gear early rather than parked at recognition-level review.
+The rebuild nobody handed over has a few runnable shapes. Join one idea to a pair it was never paired with. Fold two separate explanations into a single account. Drop an equation into a setting that usually hosts a neighbour of it. Each try either stands or falls.
 
-## Curveball immunity
+Deciding two pieces cannot connect is as useful as deciding they can. That verdict needs each piece known well enough that its edges are visible. A foggy sense of having seen the material cannot draw those edges, so the same exercise is a mastery check on every piece it touches. Familiarity is a false cue.
 
-- **A curveball supplies pieces you know and demands a shape you never practiced.** If revision only ever rebuilt the taught configurations, the question reads as impossible even though every component is familiar. Practiced reconstruction has already explored what shapes the pieces can make, so the unfamiliar configuration becomes one more rearrangement.
-- **Owned knowledge moves freely.** With a hobby you know deeply, you can ask what would happen if two favourite characters met and the answer comes without effort — the information combines at will. Reconstruction practice builds the same freedom for study material: the knowledge becomes raw material you can mold to whatever a question demands.
+The demand sits one level above the familiar pair. Matching a prompt to something seen before asks almost no mastery; it is a weak mastery test, not a useless one. Active recall rebuilds a memory already known to be buildable. Reconstruction is a harder ask, not a proven larger mnemonic than recall, so recall stays. Forming and judging new links works almost exclusively at the top of the mastery stack — Evaluate and Create, if those names help — and the lower levels get exercised because the top is impossible without them. That "for free" is a house claim about demand, not a classroom-taxonomy experiment. The node-and-relationship model this already assumes lives in [[Memory Handling]]; the top of the ladder sits on [[Knowledge Mastery - From Recognition to Usable Knowledge]].
 
-## Gaps recall never finds
+What comes out is new: guesses, conjectures, another way to explain or apply the same idea. Making those from pieces already in hand is itself a high mastery mark. Difficulty the learner can still meet is the public cousin of any higher-gear talk; it is not a brain state.
 
-- **Recall can pass while use fails.** You can correctly recall that a relationship exists and still be unable to connect that point in a new direction. Ordinary retrieval never poses that test, so the gap stays invisible — being asked to form a new connection and failing is the moment you discover the knowledge was shallower than it felt.
-- **It turns revision from brute force into gap-seeking.** Past papers work because they test recall and application together, which is why they help even when used alone. Reconstructive prompts probe the same territory deliberately: attempt new connections around each concept, and weak nodes announce themselves without grinding through every question type in the bank.
+## What the test finds
 
-## Setting the blend
+A curveball supplies pieces already known and demands a shape never practised. If revision only ever rebuilt the shapes that were taught, an unfamiliar arrangement looks impossible even when every piece is known. Practice of this demand has already walked the shapes those pieces can take, so a configuration never seen before is just another arrangement — a reason, not a promise that exams become easy. A new shape only transfers under conditions: elaborated retrieval, congruency, or high initial performance. Practising the demand is not curveball insurance. A failed new connection is data, not a broken method.
 
-- **Mix it with recall.** Reconstruction takes longer per item, so a pure regime is hard to sustain. Working ratios run from 90% reconstruction with 10% recall down to an even 50/50 — set the split by what you can actually manage.
-- **Front-load reconstruction, finish with recall.** Weight early-phase revision toward reconstruction, where fast, comprehensive gap-finding pays most while the topic structure is still forming. Shift toward recall in later phases to build detailed retrieval performance and complete the mastery.
+Owned knowledge moves freely. A hobby known deeply lets two favourite characters collide in a scene never written, and the answer arrives without hunting. Practice of this demand builds that same freedom on study material.
 
-## Links into the system
+Recall can pass while use fails. A relationship can come back correctly and still refuse a new heading. Ordinary retrieval never asks for that heading, so the thin spot never shows. The first failed attempt at a brand-new join is the moment the knowledge proves shallower than it felt.
 
-The general concept behind the reconstructive end of [[Spaced Interleaved Retrieval]]'s method menu; [[Interleaving for Complex Problem Solving]] applies it to problem solving and knowledge work. The gaps it surfaces feed the Test–Target–Teach loop in [[Revision]]; the node-and-relationship model it rests on lives in [[Memory Handling]], and the Evaluate/Create levels it targets sit at the top of [[Knowledge Mastery - From Recognition to Usable Knowledge]].
+Past papers work because they test recall and application together, which is why they help even when used alone. Reconstructive prompts probe the same territory deliberately: attempt new connections around each concept, and weak nodes announce themselves without grinding every question type in the bank. That efficiency is a house claim, not a measured finding. The gaps feed the Test–Target–Teach loop in [[Revision]].
+
+Keep recall in the mix. Each reconstruction item costs more minutes, so a diet of nothing else is hard to keep going; a diet of nothing else is not the aim. Working splits run from mostly-reconstruction-with-a-little-recall down to even, set by what can actually be managed — manageability defaults, not findings. Weight the early phase toward reconstruction while the topic structure is still forming, then shift toward recall later for detailed retrieval. The sequence is a funnel, not a law.
+
+Owned pieces combine at will. A failed new connection is the gap recall never posed. That demand is the general concept behind the reconstructive end of [[Spaced Interleaved Retrieval]]'s method menu.
+
+## Open Questions
+
+- Whether reconstructive prompts find gaps faster than an equivalent time on varied recall.
+- Whether front-loading reconstruction then shifting to recall outperforms a mixed schedule.
+
+## Related
+
+- [[Spaced Interleaved Retrieval]] — the method menu whose reconstructive end this page names.
+- [[Interleaving for Complex Problem Solving]] — the applied extension: reconstruction run on problem solving and knowledge work.
+- [[Revision]] — the Test–Target–Teach loop the gaps feed.
+- [[Memory Handling]] — the node-and-relationship model this page's nodes already assume.
+- [[Knowledge Mastery - From Recognition to Usable Knowledge]] — the Evaluate/Create end of the mastery ladder.
+
+## Sources
+
+- Bartlett, F. C. (1932). *Remembering: A Study in Experimental and Social Psychology*. Cambridge University Press. Remembering is reconstructive, not a stored copy pulled intact.
+- Rowland, C. A. (2014). The effect of testing versus restudy on retention: A meta-analytic review of the testing effect. *Psychological Bulletin*. Recall tests outperform recognition tests as practice; reconstruction is not a third cell in that table.
+- Slamecka, N. J., & Graf, P. (1978). The generation effect: Delineation of a phenomenon. *Journal of Experimental Psychology: Human Learning and Memory*. Generating a new structure is itself encoding.
+- Pan, S. C., & Rickard, T. C. (2018). Transfer of test-enhanced learning: Meta-analytic review and synthesis. *Psychological Bulletin*. Transfer to a new form often fails without elaborated retrieval, response congruency, or high initial test performance.
+- Kornell, N., & Bjork, R. A. (2008). Optimising self-regulated study: The benefits — and costs — of dropping flashcards. *Memory*, 16(2), 125–136. A feeling of knowing is a false cue for mastery.
