@@ -1,128 +1,123 @@
 ---
 title: "Arc Types"
-type: technique
+type: system-model
 status: developing
 created: 2026-07-09
-updated: 2026-07-20
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
   - arc
   - character
   - change
   - story-craft
+flag-reason: "cluster held — Story Craft; opener is owner-picked Opus A. Do not promote."
 ---
 
 # Arc Types
 
-Five arc shapes run on one skeleton — a Lie, a Truth, a Want, a Need, a Ghost, and a Normal World — and the type is fixed by a single decision: what the character does at the crux where holding the Lie and holding the Truth become mutually exclusive. Positive, flat, and the three negatives are the same machine with the last lever thrown differently. This is what lets a whole cast run different arcs while no one dies: everyone lives, and no two are the same in the end.
+Arc type is decided at one moment: the point where a character's old belief about themselves and the thing they have come to see cannot both be kept, and they have to act. What they do there is what names the arc. The handful of shapes in use are not separate plots — they run on the same underlying parts, the same false belief and the same accumulating pressure, and they differ only in the throw of that last lever. That changes how you plan, because the arc is not chosen at outline stage and decorated afterward. Everything before the crux is machinery for making the crux cost something.
 
 ## The shared skeleton
 
-Six ingredients sit under every arc (Weiland's vocabulary; Truby and McKee supply the psychology and the value mechanics):
+The skeleton is six pieces. The Lie is the false belief about self or world that governs the character at the start, shown as behaviour and never spoken as a creed. A Lie can be *carry everyone alone, take no hand* — shown as refused help, not as a sentence the character would sign. [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] is the paired unit every type inherits and then diverges from at the crux.
 
-- **The Lie** — the false belief about self or world that governs the character at page one. It shows as behavior, never as a stated creed. [阮草](/tsumugu/cast/ruan-cao.html)'s Lie is *love is provision; carry everyone alone, take no hand*. [沈文](/tsumugu/cast/shen-wen.html)'s Lie is *provision isn't love; only presence — someone who stays — counts*.
-- **The Ghost (the Wound)** — the backstory injury that installed the Lie. [阮草](/tsumugu/cast/ruan-cao.html)'s is the Hanoi shop wiped out by a scam plus being The One Who Made It; [沈文](/tsumugu/cast/shen-wen.html)'s is a provided-for, unseen childhood plus a grandmother slipping into dementia. Render the Ghost as a concrete object introduced early and explained late — the object carries the wound in scene rather than exposition.
-- **The Want** — the external, nameable goal the Lie produces. [阮草](/tsumugu/cast/ruan-cao.html) wants to pay the family out (the monthly envelope home). [沈文](/tsumugu/cast/shen-wen.html) wants to find his grandmother and write her paper letters. Both are objects a beginner-tier vocabulary can name.
-- **The Need** — the internal truth that would make the character whole, and which the Want is standing in for. [阮草](/tsumugu/cast/ruan-cao.html) needs to let herself be carried; [沈文](/tsumugu/cast/shen-wen.html) needs presence-love and a chosen family. In a positive arc the Need arrives late and usually costs the Want.
-- **The Truth** — the accurate worldview the story argues for. Change-arc characters move toward it, flat-arc characters start on it, negative-arc characters lose or refuse it.
-- **The Normal World** — the opening state steeped in the Lie.
+The Ghost is the backstory injury that installed the Lie. It is also called the Wound. Render it as a concrete object introduced early and explained late — cracked hands, a kept letter, a scar the reader meets before anyone accounts for it. [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] is the concrete carrier when Lie and Truth are only stateable by a narrator.
 
-## The crux sets the type
+The Want is the external, nameable goal the Lie produces. A monthly envelope, a seat, a letter — objects a beginner-tier vocabulary can hold in one hand. That one-hand rule is a house constraint, not a craft law. The Need is the internal truth the Want stands in for. A Need can be *let herself be carried*; another can be *presence, not provision*. On a positive throw the Need shows up late and usually spends the Want.
 
-One choice at the crux — where holding the Lie and holding the Truth become mutually exclusive — decides the type.
+The Truth is the worldview the story is actually arguing. Characters on a change throw walk toward it. Characters on a flat throw already stand on it. Characters on a negative throw lose it or turn it down. A presence-love Truth can be one a character mostly holds early — that is the flat throw, not a Lie the same character must overthrow. The Lie on a flat arc is the *world's*. The Normal World is the opening state steeped in the Lie.
 
-| Arc | The choice at the crux | End state | Cast grounding |
-|---|---|---|---|
-| **Positive change** | Rejects the Lie, takes the Truth, usually loses the Want | Whole, changed | [阮草](/tsumugu/cast/ruan-cao.html) lets herself be carried; [白龍](/tsumugu/cast/bai-long.html) lets people in |
-| **Flat** | Already holds the Truth; turns it on the world | World and cast changed, self steady | [沈文](/tsumugu/cast/shen-wen.html)'s presence-Truth draws [白龍](/tsumugu/cast/bai-long.html) into the family |
-| **Disillusionment** | Reaches the Truth; the Truth is bleak | Awake, sobered, still standing | [星野](/tsumugu/cast/hoshino-haruka.html) turns to face the OL life she dreaded |
-| **Fall** | Refuses the Truth, is destroyed by the Lie | Worse, undone | no canon fall (see below) |
-| **Corruption** | Starts on the Truth, abandons it for the Lie | Morally worse | a weaponized confidence beat (partial) |
+## The crux table
 
-Corruption is the positive change arc run backward. Fall is the Aristotelian tragedy: the character never escapes the Lie and it ruins them. Disillusionment is the lightest negative and the only one that ends with the character consciously holding the Truth — awake in a dark place, standing at a crossroads that could still turn life-affirming. Yorke's unifying claim earns its keep here: comedy and tragedy are one five-act shape, and tragedy is the character learning the wrong lesson at the crisis or failing to act on the right one. Design a paired positive and negative arc on one skeleton by writing the crux twice.
+Type is the row the last lever lands on. A scanner can type a draft from this view.
 
-## Positive change
+| Type | At the crux | End-state |
+|---|---|---|
+| Positive change | Rejects the Lie, takes the Truth, usually loses the Want | Whole, changed |
+| Flat | Already holds the Truth; turns it on the world | World and cast changed, self steady |
+| Disillusionment | Reaches the Truth; the Truth is bleak | Awake, still standing |
+| Fall | Refuses the Truth; the Lie destroys them | Worse, undone |
+| Corruption | Starts on the Truth; abandons it for the Lie | Morally worse |
 
-The character begins in the Lie, is progressively cornered by a Truth, and at the climax throws the Lie over and is transformed, gaining the Need at the cost of the Want. [阮草](/tsumugu/cast/ruan-cao.html) runs the cleanest instance: her Want (the envelope, the shifts) dramatizes her Lie in action; her cracked and burned hands accumulate as the visible cost, and when she finally lets herself be carried, she takes the Need and the fortress-Want of *carry it alone* falls. The resolution stays "changed, not restored": she lands a better job, the burden eases, her first day off in a year arrives. Small wins are big. The arc closes without the crisis fully resolving, and it earns that because the reader watched the cost.
+Positive change is the 1989 delivery-service film, and the spine [[wiki/Story Craft/The Change Arc|The Change Arc]] walks beat by beat. Flat is the 2011–2016 soldier-superhero trilogy: the world arcs, a cast converts by watching, and doubt is the test. Disillusionment is the only negative that ends with the character still *consciously holding* the Truth. A companion recut moved the old picture off this row; the type stays, the exemplar does not. Fall is the load-bearing phrase *could have changed and refused*. No completed fall sits in the project canon, and this page does not invent one. Corruption is the positive change run backward. Fall rhymes with Aristotelian tragedy; it is a cousin, not an identity.
 
-[白龍](/tsumugu/cast/bai-long.html) runs the same shape on belonging: isolation as the Lie (*I make peace with being alone*), the group as the Truth he is drawn toward, [沈文](/tsumugu/cast/shen-wen.html) reaching out as the first crack, hosting a gathering himself as the character acting from the Truth he once refused.
+A competing four-type grid (change or steadfast, crossed with positive or negative) will meet a reader elsewhere and look like a missing row. This page's five is a climax-choice typology. That grid is a direction-by-agency typology. They cross. They do not replace each other. A public essay on the soldier-superhero trilogy uses three types, not five; the three negatives here are three throws of that one negative lever.
 
-## Flat
+## Write the crux twice
 
-The character already holds the Truth at page one and does not fundamentally change; the change happens in the world and in the supporting cast, each of whom the character's steady Truth converts away from their own Lie. [沈文](/tsumugu/cast/shen-wen.html)'s presence-love is a Truth he mostly holds early — *show up, stay, be the one who has what you need* — and the flat-arc mechanic is visible in what it does to others: he draws the isolated toward the group, gathering the lonely. [白龍](/tsumugu/cast/bai-long.html)'s isolation-to-belonging arc is the supporting change that [沈文](/tsumugu/cast/shen-wen.html)'s steadiness converts.
+The table is for pairing. Design a positive throw and a negative throw on one skeleton by writing the crux twice — same Lie, same Truth, opposite last move. Comedy and tragedy share one five-act shape. Tragedy is taking the wrong lesson at the crisis, or seeing the right one and not acting. The inversion is the pairing instruction.
 
-This mechanic is free serial architecture. A single steadfast Truth-holder converting a cast gives every side character a natural B-plot that reaches its own turn on a different book, which is why flat-arc stories read as ensemble and world-change stories. Match the vocabulary ramp to arc payoff by handing each converted character their crisis when the language to hold it exists.
+The reason this page exists is that no two members of a cast need end the same. A house constraint this machine happens to serve is that nobody has to die for the five throws to be distinct. That constraint is not what sets type, and it is not a craft law.
 
-## Disillusionment
+## Five throws
 
-The character overcomes a Lie and reaches a Truth, and the Truth is bleak; they end awake in a dark or sobered space, aware of and accepting the thematic Truth. [星野遙香](/tsumugu/cast/hoshino-haruka.html) runs it exactly. Her Want is escape from an assigned life she dreads; her Lie is *the assigned life can be outrun*. She reaches the Truth that the path was always going to claim her, and stands in it clear-eyed, authoring how she lives it rather than running from it. The end is sobered and mature, and she consciously holds the Truth. That conscious hold is what separates disillusionment from the two heavier negatives.
+On a positive throw the Want dramatizes the Lie. Visible cost accumulates — hands worsening, an envelope that never fills the hole. When the Need is taken, the fortress-Want falls. Resolution stays *changed, not restored*: the burden eases, it does not vanish. *Small wins are big.* The arc can close with the crisis still partly open, and it earns that close because the reader already watched what it cost.
 
-## Fall
+Isolation as a Lie, the group as a Truth, a first crack from someone already holding that Truth, then acting from it — hosting, transmitting — is the same positive shape with a different payload. One steadfast Truth-holder who converts a cast hands every side character a B-plot that can take its own turn in a later book. In the soldier-superhero trilogy one convert dumps the files and another says he is in. Match the vocabulary ramp to those payoffs by giving each convert their crisis only once the language exists to hold it.
 
-The character fails to overcome a Lie and ends worse than they began, undone by resisting the light of a hard Truth; the tragedy is that they could have changed and refused. Weiland's "could have changed and refused" is the whole load-bearing element — it is what makes a fall tragic instead of merely sad, and it requires the Truth to be offered repeatedly and turned down in view of the reader.
+A Want can be escape from an assigned life. A Lie can be *the assigned life can be outrun*. Those are types. They do not dictate a bleak-accepted ending. The conscious hold is what separates disillusionment from the two heavier negatives: the character is awake inside a Truth that hurts, and still standing.
 
-No character in canon completes a fall. [阿迪](/tsumugu/cast/adi.html) supplies the descent and the off-ramp without the ending: the Truth he keeps refusing is *own the responsibility, answer the call home*, and he ultimately takes the off-ramp rather than falling. A near-fall becomes a true fall by repeating the refused offer until refusal costs everything and the recovery door is written shut.
+*Could have changed and refused* is what makes a fall tragic instead of merely sad. It requires the Truth offered repeatedly and turned down in view of the reader. A reachable picture is a thane who sees the cost of the next room and walks in anyway, or a son who takes the first hit and does not walk back. A near-fall can supply the descent and an off-ramp without the ending: the Truth being refused is *own the responsibility*; the off-ramp is taken rather than the fall. A near-fall becomes a true fall when the refused offer is repeated until the refusal has taken everything and the way back is closed on the page. No character in the project canon completes that shut door.
 
-## Corruption
+A betrayal beat — confidence weaponized, a group splits — is a partial corruption, both sides written real. A full sustained corruption arc does not exist in the project canon; the betrayal character is unnamed here. Suggestion, not canon: plant a concrete small-compromise scene early that only re-reads as the first domino once the later betrayal lands. Beginner action-only vocabulary cannot state corruption, so the seed has to be an act. This page does not write that scene.
 
-The character starts out holding a Truth and progressively abandons it for a Lie, driven by fear, pride, or desire, ending morally worse; it is the mirror image of the positive change arc. A betrayal beat is a partial, real instance: one confidence gets weaponized or leaked, the betrayed is gutted, and the group splits over the betrayer. The betrayer abandons the group's trust-Truth for a Lie under pressure — a corruption move, both sides written real, and a rupture the story must eventually repair.
+## The abyss, the ceiling, the other "flat"
 
-A full sustained corruption arc does not exist in canon; the betrayal is a single beat, and its character is unnamed. A device that would seed one, marked as a suggestion and not canon: plant a concrete "small compromise" scene early — a character taking something small that is not theirs, shown flat and un-judged — that only re-reads as the first domino once the later betrayal lands. The small-compromise seed pays the show-don't-tell debt: at beginner-level, action-only vocabulary the corruption cannot be stated, so the object and the act must carry it until later, more advanced vocabulary can explain it.
+Pity and fear build to a recognition and a reversal that discharge as catharsis. [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]] is how the abyss prices the crux without deciding its type. Peripeteia and anagnorisis landing at one stroke cut deepest. The power rides on internal stakes — identity, love, belief — never mortal peril. Catharsis without death is the standing rule. The "whiff of death" is the loss of a relationship, a place, or a long-planted Ghost object. Recognition under a vocabulary ceiling is one character finally naming aloud a Truth planted books earlier.
 
-## The abyss prices the crux
+The vocabulary curve is the reveal curve. Arc type gets rationed across the cast rather than loaded into one book; [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] is why the rationing and the front-loaded cores exist. Anchor the early books on the flat-arc, Truth-already-held character, because steadiness reads through repeated concrete action at beginner vocabulary. Put negative arcs on secondary characters whose decline shows externally, so the payoff can wait until abstract-emotion vocabulary exists. Split Want from Need across the ramp: Want is a nameable object early, Need unnamed until later. The Moment of Truth is the first scene the character can say the Need aloud; [[wiki/Story Craft/The Change Arc|The Change Arc]] owns that spine. Front-load the cores to the stretch where most readers leave. That is a design choice, not a measured attrition number.
 
-The low point makes the crux cost something. Pity and fear build to a recognition and a reversal that discharge as catharsis, and Aristotle's strongest-plot rule holds: peripeteia and anagnorisis landing at one stroke cut deepest — the character recognizes the truth at the exact moment the situation reverses, rather than one beat before or after.
+First Plot Point around a quarter, Moment of Truth around half, low point around three-quarters are scaffolding conventions, model-dependent, not laws. One beat-sheet places All Is Lost slightly before the three-quarter mark. All Is Lost (an event) is not Dark Night of the Soul (a reaction valley), is not Ordeal / Approach to the Inmost Cave / Reward, is not Crisis (a knowledge turning point), is not Belly of the Whale. They rhyme. They do not coincide unless a given draft makes them. One model says Crisis need not sit on the three-quarter low point at all.
 
-The power rides on internal stakes — identity, love, belief — never mortal peril. Catharsis without death is the standing rule: the "whiff of death" is the loss of a relationship, a place, or a long-planted Ghost object, and anagnorisis is dramatized as one character finally naming aloud a Truth planted books earlier. The full treatment lives in [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]]; the point for arc typing is that the abyss earns whichever choice the crux demands.
+This page's *flat arc* — a dimensional character who holds the Truth and changes the world — and a *flat character* — built around a single idea, no interiority, no capacity to change — are different axes. Fusing them is the most common error in secondary-arc writing. A round character can run a flat arc. A household cat who is a motif is a genuine no-arc grace note. A diagnostician does not "correct" that cat.
 
-## Typing arcs under a vocabulary ceiling
+Hamartia is an error or misjudgement in action, discovered late — not a labeled fatal flaw worn on the sleeve. The nineteenth-century "tragic flaw" reading is the mis-write. Vocabulary for the five names comes from one craft book; the psychology of weakness-and-Need and the value-swinging gap come from two others. Those two do not independently generate the five names.
 
-The distinctive constraint: the vocabulary curve is the reveal curve, and it forces how types get distributed. Depth arrives exactly as fast as the reader earns the language to hold it, so arc type gets rationed across the cast rather than loaded into one book.
+## A check, not a menu
 
-- **Anchor the early books on the flat-arc, Truth-already-held character.** A steadfast character reads as consistent through repeated concrete action, which beginner-level, action-only vocabulary can depict with plain verbs and no interiority words. [沈文](/tsumugu/cast/shen-wen.html)'s steadiness from the start does this.
-- **Put the negative arcs on secondary characters whose decline shows externally** — choices, who they sit with, what they stop doing — so the payoff can wait until abstract-emotion vocabulary exists later in the series.
-- **Split Want from Need across the ramp.** The Want is a nameable object early on; keep the Need unnamed until much later. The Moment of Truth becomes the literal first scene the character can say the Need aloud.
-- **Front-load the cores to the point where most readers exit the series**, so the change-arc climaxes land while the language to hold interiority has just unlocked; the capstones for finishers come in the later books.
+**The five names earn their keep as a check run on a draft, not as a plan picked in week one.** The taxonomy is applied after the fact. Typing an arc before the Lie is known produces schematic figures.
 
-Percentages elsewhere in the craft (First Plot Point ~25%, Moment of Truth ~50%, low point ~75%) are Weiland/Field/Snyder scaffolding conventions, model-dependent, not laws. Snyder himself hits All Is Lost slightly before 75%.
+## Price, quit, checkable
 
-## Boundaries
+Distributing five types across one cast invites ensemble sprawl. Stagger the spotlight so one character's crisis lands per installment; [[wiki/Story Craft/Spotlight Rotation|Spotlight Rotation]] is that defense. Without a genuine off-ramp repeatedly refused, a fall or corruption reads as arbitrary and merely sad. A Truth-holder who never doubts and faces no real opposition reads as a passive superhero. The misconception is that a flat arc means no internal conflict. The critical detail is doubt about the *ability* to uphold the Truth, or about whether the *cost* of upholding it is too high.
 
-Weiland's **flat arc** describes a fully dimensional character who holds the Truth and changes the world. Forster's **flat character** describes a figure built round a single idea with no interiority and no capacity to change (his **round** character can "surprise convincingly"). These are different axes — capacity-to-change versus steadfast-Truth — and the single most common error in secondary arc writing is fusing them. A flat arc still demands a rich interior and real external opposition; [沈文](/tsumugu/cast/shen-wen.html) is a round character running a flat arc. [將軍](/tsumugu/cast/general.html) the cat is a genuine no-arc grace note, a motif, and worth flagging as such so a diagnostician does not treat him as an under-built character.
+The steadfast flat-arc anchor costs the most inventive external opposition, because the drama cannot come from the Truth being in question. It can and must come from doubt about the cost of holding it.
 
-Hamartia is an error or misjudgement in action, discovered late — [阮草](/tsumugu/cast/ruan-cao.html)'s choice to carry everything alone and shut [沈文](/tsumugu/cast/shen-wen.html) out is the shape of it. A labeled "fatal flaw" the character wears on their sleeve is the mis-write; the error is a misjudgement, not a signposted vice.
+Under a vocabulary ceiling, negative-arc interiority cannot be paid for until later. An early fall or corruption must be carried by external object and action, and if the seed is never re-cued it reads as nothing. Typing an arc spends the freedom to discover it. A character who surprises the draft into a different crux forces a rewrite backward. In this project the method also costs front-loading discipline and plant-to-payoff bookkeeping. Each payoff is planted one or two readings earlier, at a lower vocabulary tier, and drawn out by a curious friend — a second character who pulls a confession into a quiet scene, so the later crisis hits a nerve already in the ground.
 
-The named low-point terms are not interchangeable and sit at slightly different places: All Is Lost (Snyder, an event) and Dark Night of the Soul (Snyder, the reaction valley that follows), Ordeal / Approach to the Inmost Cave / Reward (Vogler's mid-journey death-rebirth unit), Crisis (Yorke's knowledge turning point, which need not coincide with the 75% low point), Belly of the Whale (Campbell's ancestor beat). They rhyme; do not equate them without noting the offset.
+Quit when Lie and Truth are only stateable by the narrator — find the concrete carrier and delete the statement; [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] is that carrier. Quit when the low point raises a bigger external threat and the internal loss cannot be named — cut the threat and threaten identity, love, or belief. Quit when a negative ending feels sad rather than tragic — write the offered-and-refused scene. Quit when a flat-arc protagonist never doubts and meets no resistance — give the world genuine opposition, or move the arc to a supporting character.
 
-## The case against
+A planted Ghost object should discharge its payoff without exposition. On any negative arc, a reader can point to the specific scene where the Truth was offered and refused. A steadfast protagonist should read as consistent through repeated concrete actions a reader can list. If the only answer to what the character stands to lose is their life, internal stakes are missing. The recognition should land within the beat that follows the plant — on the page, not one scene later after being told.
 
-The taxonomy is a diagnostic applied after the fact. Typing an arc before the character's Lie is known produces schematic figures who exist to complete a shape — the character built to be a "corruption arc" reads as a puppet resisting nothing real. The five names earn their keep as a check on a draft (which lever is this character's climax throwing?).
+## What the lever is for
 
-Distributing five types across one cast is a direct invitation to ensemble sprawl: give everyone a full arc at once and none reaches a legible recognition. The defense is staggering the spotlight so one character's crisis lands per installment ([[wiki/Story Craft/Spotlight Rotation|Spotlight Rotation]]).
+Type is still set at the crux. What the body added is that the setting is a check on a draft, and that a steadfast Truth costs doubt about the price of holding it, never doubt about the Truth. No two need end the same. That is what the lever is for. It is not a promise that no one dies.
 
-Negative arcs are the fragile ones. Without a genuine off-ramp repeatedly refused in view of the reader, a fall or corruption reads as arbitrary and merely sad. Flat arcs carry the mirror risk: a Truth-holder who never doubts and faces no real opposition reads as a passive superhero. And under the vocabulary ceiling, negative-arc interiority cannot be paid for until much later in the series; a fall or corruption loaded early has to be carried by external object and action alone, and if the seed is never re-cued it reads as nothing at all.
+## Open questions
 
-## Price the method
+Whether disillusionment can stay a named fifth type in a no-death ensemble once the clean exemplar has moved, or whether the lightest negative is always one axis of a growth arc.
 
-Typing an arc spends the freedom to discover it. Fixing the Lie, the Truth, and the climax choice up front means every scene owes that spine, and a character who surprises you into a different crux forces a rewrite backward. Concretely, in this project it costs the front-loading discipline (cores committed early) and the plant→payoff bookkeeping — every payoff seeded one to two readings earlier at a lower vocabulary tier, drawn out by a curious friend, so the crisis hits a nerve already established. The steadfast flat-arc anchor costs the most inventive external opposition, since the drama cannot come from the anchor's own doubt.
+How the pairing of a positive and a negative (the crux written twice) is checked when the two cruxes land in different books.
 
-## Quit signals
+Whether the four-type grid's "negative steadfast" is a missing row or just this page's fall under another name.
 
-- The Lie and Truth are stateable but only by the narrator — the reader has to be told them, never watches them as behavior or recognition. Next move: find the concrete carrier — a physical object or repeated action standing in for the belief — and delete the statement. See [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]].
-- The low point raises a bigger external threat and you cannot name what the character stands to lose internally. Next move: cut the threat, threaten identity, love, or belief instead.
-- A negative arc's ending feels sad rather than tragic. Next move: the off-ramp was never dramatized — write the scene where the Truth is offered and refused.
-- The flat-arc protagonist never doubts and meets no resistance. Next move: give the world genuine opposition to their Truth, or the arc belongs on a supporting character instead.
+## Sources
 
-## Checkable expectations
+K.M. Weiland, [Learn 5 Types of Character Arc at a Glance](https://www.helpingwritersbecomeauthors.com/learn-5-types-of-character-arc-at-a-glance/) (2019) and [Disillusionment Arc in Storytelling](https://www.helpingwritersbecomeauthors.com/disillusionment-arc-in-storytelling-a-powerful-tool-for-character-growth/) (2025) — five types, one skeleton; disillusionment as the lightest negative.
 
-- A planted Ghost object should discharge its payoff without exposition: [沈文](/tsumugu/cast/shen-wen.html)'s Ghost object should land its late scene on recognition alone.
-- On any negative arc, a reader should be able to point to the specific scene where the character was offered the Truth and chose against it. If they can't, the arc is merely sad.
-- A steadfast (flat-arc) protagonist should read as consistent through repeated concrete actions a reader can list on the page.
-- Ask a reader what the character stands to lose at the low point. If the only answer is "their life," the internal stakes are missing and catharsis will not land.
-- The recognition should land within the beat that follows the plant — the reader feels the reversal on the page, not one scene later after being told what it meant.
+E.M. Forster, *Aspects of the Novel* (1927) — flat vs round character.
 
-## Related
+John Yorke, *Into the Woods* (2013) — comedy and tragedy as one five-act shape.
 
-- [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] — the Ghost and Lie that every arc type inherits and diverges from at the crux.
-- [[wiki/Story Craft/The Change Arc|The Change Arc]] — the beat-by-beat spine of the positive arc this page types against.
-- [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]] — how the abyss prices the crux choice without deciding its type.
-- [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] — why arc types get rationed across the cast and cores front-load early.
+Aristotle, *Poetics* 11 — peripeteia and anagnorisis at one stroke; hamartia as misjudgement (modern reading: Halliwell, Janko).
+
+Blake Snyder, *Save the Cat!* — All Is Lost slightly before 75 percent; Dark Night follows.
+
+[How The Russo Brothers FIXED Captain America](https://www.youtube.com/watch?v=ggGLKJwS470) (Cinema On Trial) and [The Captain America Trilogy is Deceivingly Beautiful](https://www.youtube.com/watch?v=9-w8N7Hke40) (Implicitly Pretentious) — the 2011–2016 soldier-superhero trilogy as a flat arc: already holds the Truth; the world arcs; doubt about cost, not about the Truth; two converts.
+
+Christopher Vogler, *The Writer's Journey*; Joseph Campbell, *The Hero with a Thousand Faces* — Ordeal / Belly, for the offset map.
+
+September C. Fawkes's four-type grid (change/steadfast × positive/negative) — the competing typology named in the crux table section.
+
+The five-name machine applied to a no-death ensemble under a vocabulary ceiling is this vault's (2026-07-09), not a finding from any film.

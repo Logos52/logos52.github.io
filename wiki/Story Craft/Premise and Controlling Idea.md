@@ -3,7 +3,9 @@ title: "Premise and Controlling Idea"
 type: technique
 status: developing
 created: 2026-07-09
-updated: 2026-07-20
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
   - theme
   - structure
@@ -12,96 +14,76 @@ tags:
 
 # Premise and Controlling Idea
 
-A series coheres when every arc argues one causal proposition from a different position, and the series proves that proposition by which value wins at each climax rather than by a character stating it. Write the proposition as one sentence with a cause, spread it across the cast as opposed answers to a single moral question, and deliver it through action and recurring objects the vocabulary can carry before it can name anything.
+A premise is one causal sentence the story sets out to prove, in the form of a trait leading to an end, and it only has to hold inside this story rather than in general. The controlling idea is that sentence as it stands at the final act: a value plus the cause that produced it, of the kind that reads as justice prevailing because of something, or love dying when something. Between the two, the shape of the piece is decided. Proof is structural — the value that wins at the climax is the argument — and the opposing value has to be strong enough that the win was not arranged.
 
-## The premise as a provable sentence (Egri)
+## One sentence, two jobs
 
-A premise is a full sentence with a causal spine: a character trait, a mechanism, and an end. Egri's three slots are `[trait] + leads to + [end]` — "poverty leads to crime," "frugality leads to waste," "great love defies even death" (Romeo and Juliet), "ruthless ambition leads to its own destruction" (Macbeth). The premise carries no obligation to be universally true; it only has to hold for this one story, which the structure then germinates from. One play, one premise.
+A **premise** is a full sentence with a causal spine: `[trait] + leads to + [end]`. Poverty leads to crime. Frugality leads to waste. Great love defies even death. Ruthless ambition leads to its own destruction. The sentence carries no obligation to be universally true. It only has to hold for this one story. One play, one premise.
 
-Tsumugu's founding-pair premise fills the same slots at value level: **provision offered without presence starves the love it means to prove.** Trait: [阮草](/tsumugu/cast/ruan-cao)'s love expresses as provision — tending, providing, working. Mechanism: [沈文](/tsumugu/cast/shen-wen)'s love expresses as fixing, a mechanical repair aimed at an internal problem, and the fix fails, because burnout is internal and no bench repairs a curdled why. End: the bond nearly breaks under the weight of it.
+A **controlling idea** is a different job for a similar sentence. It is the irreducible meaning of the final act: the **value** the climax leaves, plus the **cause** — why. Justice prevails because the protagonist is more violent than the criminals. Love dies when pride outlasts need. The test is one sentence. If it takes two, the work is holding two stories, or a muddy spine.
 
-The series-level premise above the founding pair stays an open authorial choice. A large ensemble runs one dominant proposition with subordinate threads beneath it, and forcing a single flat sentence onto a multi-threaded run falsifies the work. Hold the founding-pair premise as locked; treat "the one series sentence" as a decision to make deliberately, once the cast's answers are known.
+Three ending shapes sit under that sentence. **Idealistic** runs negative to positive. **Pessimistic** runs positive to negative. **Ironic** holds both at once. Ironic is hardest and draws the deepest respect. An ensemble finale as several ironic capstones, not one triumphant climax, keeps the ending from a clean win.
 
-## The controlling idea: value plus cause (McKee)
+## The argument is the structure
 
-McKee's controlling idea is the irreducible meaning of the final act stated in one sentence, and it has two components: the **value** (the positive or negative charge the climax leaves) and the **cause** (why that outcome occurred). "Justice prevails because the protagonist is more violent than the criminals." "Love dies when pride outlasts need." The test is arithmetic: state it as one sentence; if it takes two, you are holding two stories or a muddy spine.
+Theme is an argument of action. A moral is proved by showing two people pursue a goal by different means; the structure adjudicates which values win. Structure does not carry content. It is content.
 
-Tsumugu's founding-pair climax reads as **a bond survives, changed, because presence replaces the failed fix and love is chosen again** — value: love, altered rather than restored; cause: [沈文](/tsumugu/cast/shen-wen) learning to show up instead of trying to fix her, met by [阮草](/tsumugu/cast/ruan-cao) tending one thing from love again. Give each installment of a series its own value trajectory so the whole ramp has shape; the controlling idea disciplines each scene, admitting only what argues its value.
+Climax order: **battle** → **self-revelation** → **moral decision** → **new equilibrium**. Theme lands in the revelation and the decision, never in a speech. [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]] is where those two beats live. A speech about the moral preaches and forfeits the proof.
 
-## Three shapes of the ending (McKee)
+A **counter-idea** is an equally-weighted opposing value. An idea with no such opposition is propaganda.
 
-McKee sorts endings by the charge the climax travels to. **Idealistic** rises negative to positive, life as we wish it. **Pessimistic** sinks positive to negative, life as we dread it. **Ironic** lands both at once — a gain paid for with a loss — the hardest to write cleanly and the shape that draws the deepest respect. Naming each book's trajectory is a diagnostic for whether the ramp has variety or repeats one note.
+No character is built in isolation. Each is defined by opposition. Every major character is a different variation on the theme. [[wiki/Story Craft/The Character Web|The Character Web]] is the machinery for that. **Four-corner opposition** is the floor: a hero, a main opponent, and at least two secondary opponents, each a distinct value-approach to the one question. Four echoes is not four corners. On a cast too large to gather every corner into one scene, rotate which two variations collide.
 
-An ensemble finale distributed across several ironic capstones, rather than staged as one triumphant climax, is what keeps the ending from reading as a clean win.
+## Many positions, one question
 
-## Theme proven by structure, not speech (Truby)
+A series-level premise stays an open authorial choice. Forcing one flat sentence onto a multi-threaded run falsifies the work. One play, one premise still holds at the scale of a single thread. At series scale the honest form is a dominant sentence plus named subordinates — not the same sentence wearing three hats.
 
-Truby reframes theme as an argument of action: you prove a moral by showing hero and opponent pursue a goal by different means and letting structure adjudicate which set of values wins. "Structure doesn't just carry content; it is content." The argument converges at the climax in a fixed order — **battle** (which value-set wins) → **self-revelation** (the hero sees the moral truth) → **moral decision** (acts on it) → **new equilibrium** — and the theme lands in the self-revelation and decision, never in a speech.
+One candidate series question is how a person meets a life they did not choose. It is a candidate, not the lock. A founding-pair sentence about provision and presence, and a care-over-capability thread, are subordinate variations. Mapping every arc onto one flat proposition would flatten those threads.
 
-Tsumugu's founding-pair arc runs this order at value level: the battle is provision-love against presence-love; the self-revelation is [阮草](/tsumugu/cast/ruan-cao) recognizing she can let herself be carried; the moral decision is choosing presence over the old fix; the new equilibrium is the pair changed and not restored. No one announces the moral — structure adjudicates. A version where [阮草](/tsumugu/cast/ruan-cao) delivers a speech about love languages would preach the theme and forfeit the proof — McKee's counter-idea rule bites here, since an idea with no equally-weighted opposition is propaganda.
+## What is locked and what is not
 
-## An ensemble as variations on one question (Truby's character web)
+The founding-pair premise on this page is locked: **provision offered without presence starves the love it means to prove.** One partner's love-as-fixing fails because burnout is internal. The bond nearly breaks. The controlling idea at that climax: **a bond survives, changed, because presence replaces the failed fix and love is chosen again.** Changed, not restored.
 
-No character is built in isolation; each is defined by opposition to the others, and every major character is a different variation on the theme, meeting the same moral problem a different way. The refined form is **four-corner opposition**: a hero, a main opponent, and at least two secondary opponents, each embodying a distinct value-approach to the one question. This is the engine that makes an ensemble argue one theme without collapsing into mush.
+Against the climax order: the battle is provision versus presence; the revelation is that one partner can be carried; the decision is presence over the old fix; the equilibrium is changed, not restored. Each installment still gets its own value trajectory. The controlling idea admits only what argues its value.
 
-On a cast too large to gather every corner into one scene, realize the four corners across scenes instead — rotate which two variations collide. The ensemble's evergreen spine is a single moral question: how do you meet a life you did not choose? The cast gives it opposed answers. [星野](/tsumugu/cast/hoshino-haruka) escapes it, cramming a lifetime of freedom into Taiwan while the camera hoards proof. [林薇](/tsumugu/cast/lin-wei) is trapped by it, the local tethered to Taipei who helps six foreigners fly somewhere she never gets to go. [阿迪](/tsumugu/cast/adi) dodges it, taking the family's money for design school on a promise while the workshop waits. [蘇老師](/tsumugu/cast/teacher-su) faces it at the far end of life, the widow who poured herself into students. [阮草](/tsumugu/cast/ruan-cao) carries it alone; [沈文](/tsumugu/cast/shen-wen) needs presence inside it. The [星野](/tsumugu/cast/hoshino-haruka)↔[林薇](/tsumugu/cast/lin-wei) foils are the sharpest single collision in the cast, each romanticizing the other's cage, because they hold opposite corners of the same question and meet head-on. Peripheral cast carry one note cleanly, which is Forster's flat character put to work: [將軍](/tsumugu/cast/general) the cat is a running gag with a payoff and no arc, and the adults are kept light by design.
+The candidate question, if used, already has distinct answers in the ensemble. [星野遙香](/tsumugu/cast/hoshino-haruka.html) escapes, and the camera hoards proof. [林薇](/tsumugu/cast/lin-wei.html) is tethered and helps six foreigners fly. [阿迪](/tsumugu/cast/adi.html) dodges — design-school money, a workshop that waits. [蘇老師](/tsumugu/cast/teacher-su.html) faces it at the far end of a life. [阮草](/tsumugu/cast/ruan-cao.html) carries it alone. [沈文](/tsumugu/cast/shen-wen.html) needs presence inside it. The sharpest collision is [星野遙香](/tsumugu/cast/hoshino-haruka.html) against [林薇](/tsumugu/cast/lin-wei.html): opposite corners, head-on. Peripheral cast holds one note. [將軍](/tsumugu/cast/general.html) is a gag plus a payoff, no arc. Adults stay light.
 
-Honesty about the scope: the founding-pair love-languages proposition and the care-over-capability AI thread ([金多恩](/tsumugu/cast/kim-da-eun) and [小圖](/tsumugu/cast/xiao-tu), meaning survives when a machine can make the image) are subordinate variations, not the same sentence as the agency question. The series runs a dominant idea with threads beneath it. Mapping every arc to one flat proposition would flatten those threads; the character web tolerates the layering as long as each corner stays a distinct answer.
+Two live candidates exist for a dominant series sentence. This page does not pick. Series-level stays unlocked.
 
-## Meaning through action before statement (Aristotle)
+Delivery is objects, not names. Earliest books have words for actions, not reasons, which is why [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] treats the word-list as a reveal schedule. [阮草](/tsumugu/cast/ruan-cao.html)'s mushroom is one correlative. [金多恩](/tsumugu/cast/kim-da-eun.html)'s empty chair is another. The moment prose names what the object stands for, the correlative dies. The rest of that machinery — the three-term split, the symbol web, the plant that later fires — lives on [[wiki/Story Craft/Motif and Symbol|Motif and Symbol]] and [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]]. Action first, statement second, is the durable precedence. The lineage behind that sentence is not this page's job.
 
-Aristotle's dianoia — "thought," one of the six parts of tragedy — is what characters say to prove a point or express a general truth, and he holds it subordinate to mythos, the plot. Reading dianoia as the ancestor of the modern theme-through-action tradition is a synthesis, not a settled scholarly line from Aristotle to Egri, McKee, and Truby; treat the lineage as useful and the precedence claim as the durable part. Meaning delivered through action first, statement second, is the principle worth carrying.
+## What it costs
 
-A graded reader's vocabulary floor enforces the same discipline without any craft decision: the earliest books have words for actions and not for reasons or interiority, so the proposition can only be shown, never stated. In Tsumugu, that means the envelope handed over in place of a stay, the food cooked and left while [阮草](/tsumugu/cast/ruan-cao) works — the action carries the argument at a tier where no sentence could state it.
+Three failures: one sentence flattens threads that needed named subordinates; a character preaches the moral; the ensemble is redundant, two members giving the same answer.
 
-## The object that carries the feeling (Eliot's objective correlative)
+Skip the apparatus if the work is being discovered as it is written, if the piece is mood or slice-of-life with no argument, or if the series is still finding its spine. This project's series sentence is unlocked. That is a skip case, not a defect to paper over.
 
-Eliot's objective correlative is a set of objects, a situation, or a chain of events that is the formula of a particular emotion, such that when the externals are given, the emotion fires without being named. The operative move: build the configuration that discharges the feeling, and never state the feeling. Eliot reportedly borrowed the phrase from the painter Washington Allston and gave it its literary meaning; his charge that Hamlet is an artistic failure — the prince's emotion exceeds any correlative the play supplies — is the failure test to keep, since feeling loaded past what the concrete situation can justify reads as unearned.
+The price of stating the controlling idea is enforcing it. Alive-but-off-theme scenes get cut. Every scene is policed. Corners stay distinct. The object is never explained. The split into a dominant sentence plus named subordinates stays honest.
 
-Four Tsumugu correlatives do the work the early grammar cannot: the right [阮草](/tsumugu/cast/ruan-cao) mushroom pulled for the right person, the monthly envelope, her cracked and burned hands, [金多恩](/tsumugu/cast/kim-da-eun)'s empty chair. Each needs only nouns a beginner reader already owns, so Eliot's mechanism doubles as vocabulary economy — the object is the emotion engine precisely where the language can afford nothing else. The moment the prose names what the hands "stand for," the correlative dies and turns to exposition; the standing show-don't-tell and no-exposition rules are the same discipline stated for a graded reader.
+Quit signals:
 
-## Motif, symbol, leitmotif — weight accreting across the ramp
+- The claim will not compress to one sentence — two stories are being held.
+- Scenes pull different directions at the climax — cut to one controlling idea.
+- A character announces the moral, or the prose names the object — move the meaning back to who wins.
+- Two members give the same answer — re-oppose or collapse.
 
-Keep the three crisp, since they are conflated often. A **motif** is a concrete element — image, object, phrase, situation — that recurs and gains resonance by repetition. A **symbol** is a single object standing for an abstract meaning beyond its literal form. A **leitmotif** is a tag bound to one character or idea so its return cues recognition, and it is the mechanism by which a motif accretes meaning through repeated context. Truby's symbol web extends this to a network attached to hero, opponents, and world.
+Checkable: after the climax a reader can state which value won and why, unsaid. Each member is a different answer. A returning object's final appearance deflates if earlier plants were cut. Removing a character either breaks the argument or exposes that they carried no note.
 
-Leitmotif mechanics: bind one concrete tag to one idea on its first appearance in a neutral context, then reintroduce it in charged contexts so each return compounds meaning; meaning accretes by repetition-with-variation, with no explanation. [小圖](/tsumugu/cast/xiao-tu)'s two sprout-green eyes bind to growth on first sight and change shape with mood on every return. A signature object per character doubles as a low-vocabulary recognition cue for a young reader tracking a small cast, which is the symbol web sized to the ensemble.
+The ending proves the claim by what happens. Stating the idea is a promise to cut what does not argue it.
 
-## Plant and payoff (Chekhov's gun)
+## Open questions
 
-The rule has two sides. Economy: remove anything prominent that never fires. Preparation: any payoff must be planted earlier as an unremarkable detail. The screenwriting name is setup and payoff.
-
-Attribution, since the popular wording is a conflation: the earliest documented version is Chekhov's November 1889 letter to Lazarev-Gruzinsky, phrased loosely ("one must not put a loaded rifle on the stage if no one is thinking of firing it"); the verbatim "if in the first act you have hung a pistol on the wall, then it should be fired" comes from Gurlyand's 1904 *Reminiscences of A.P. Chekhov*, a secondhand account, not from the letters.
-
-## The case against
-
-The premise discipline strangles an ensemble when it is applied as a mandate rather than a tool. Its three failures are structural. First, one flat proposition forced onto a multi-threaded series either falsifies the work or flattens the threads that do not fit the sentence — Tsumugu carries love-languages, agency, found-family, and care-over-capability at once, and Egri's "one play, one premise" fits a single protagonist more cleanly than a rotating cast, so honesty costs an explicit split into a dominant idea plus subordinate variations. Second, the discipline invites preaching: a writer who has fixed the proposition can be tempted to let a character say it, which converts a proof into an assertion and, without an equally strong counter-idea, into propaganda. Third, a redundant ensemble is the failure four-corner opposition exists to prevent — if two characters embody the same answer to the moral question, the web has no genuine opposition and no variation, and the cast reads as a chorus in unison.
-
-Who should skip it: a discovery writer who finds the spine by drafting will lock a false premise early and then cut living scenes to defend it; a mood or slice-of-life piece with no argument has nothing for the controlling-idea test to grade; a series still finding its spine (Tsumugu's own series-level sentence is unlocked) pays for a premature lock with foreclosed discovery. The cost to believe is real: once you state the controlling idea, you enforce it, and scenes that do not argue it get cut even when they are alive on the page.
-
-## Price the method
-
-- Stating the controlling idea costs a decision you then police on every scene — the sacrifice is the alive-but-off-theme scene.
-- Four-corner opposition costs cast-design time and forbids duplicate positions; a redundant character has to be re-opposed or cut.
-- Leitmotif costs plant readings, cheap in Han count, plus the standing discipline to never explain the object; the day the prose glosses the hands, the correlative stops paying.
-- Locking the premise early costs discovery, which is why a rotating ensemble is paid for with an honest split into one dominant proposition and named subordinate threads instead of a single flat sentence.
-
-## Quit signals
-
-- The premise will not compress to one sentence: you are holding two stories or a muddy spine. Split them, or pick the one the climax actually proves.
-- Scenes pull different directions at the climax and the ending proves nothing cleanly: competing premises are live. Cut to one controlling idea and let the losing thread become a subordinate variation.
-- A character announces the moral, or the prose names what an object stands for: the argument has leaked into dialogue and the correlative has died. Move the meaning back into who wins the battle, and delete the gloss.
-- Two ensemble members give the same answer to the moral question: the web is redundant. Re-oppose one onto a distinct value-approach or collapse the pair.
-
-## Checkable expectations
-
-- After the climax the reader can state which value won and why, with no character having said it aloud. If they cannot, the moral argument stayed in dialogue or never converged at the battle.
-- Each ensemble member gives a different answer to the one moral question. If two land on the same value-approach, the web is redundant and one has to be re-opposed.
-- The leitmotif's final appearance carries weight the reader feels from repetition: cut the earlier plants and the payoff should deflate. If the best-piece-of-food payoff reads the same without its earlier plants, the object was decoration.
-- Removing a character either breaks the thematic argument (they held a needed corner) or exposes that they carried no note. A cast where any member can be removed with no loss to the argument has more characters than the theme needs.
+What is the series-level sentence? The founding-pair is locked. The series is not. This page does not answer.
 
 ## Related
 
-- [[wiki/Story Craft/The Character Web|The Character Web]] — the four-corner opposition and variations-on-a-theme machinery that turns an ensemble into one argument.
-- [[wiki/Story Craft/Motif and Symbol|Motif and Symbol]] — the full treatment of the objective correlative and leitmotif accretion this page leans on.
-- [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] — Chekhov's gun as the plant-spark-payoff engine the thematic reveals depend on.
-- [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]] — where the self-revelation and moral decision that carry the theme actually land.
+- [[wiki/Story Craft/The Character Web|The Character Web]] — four-corner and variations; each recurring character a distinct answer
+- [[wiki/Story Craft/Motif and Symbol|Motif and Symbol]] — objective correlative and leitmotif this page uses for delivery
+- [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] — plant-spark-payoff; why a final object deflates if earlier plants were cut
+- [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]] — where self-revelation and moral decision land
+
+## Sources
+
+- Lajos Egri, *The Art of Dramatic Writing* (1946). Premise as `[trait] leads to [end]`; one play, one premise. Specimens include *Romeo and Juliet* and *Macbeth*.
+- Robert McKee, *Story*. Controlling idea as value + cause; three ending shapes; the counter-idea rule.
+- John Truby, *The Anatomy of Story*. Theme as an argument of action; climax order; four-corner opposition; the character web.

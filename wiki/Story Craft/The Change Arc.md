@@ -3,92 +3,102 @@ title: "The Change Arc"
 type: technique
 status: developing
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
-  - arc
-  - structure
+  - character
+  - change
   - story-craft
+flag-reason: "cluster held — Story Craft; opener is owner-picked Opus A. Do not promote."
 ---
 
 # The Change Arc
 
-A positive change arc is an internal argument staged as escalating external cost: the character begins governed by a Lie, chases a Want the Lie makes sense of, and is driven by rising loss toward a Moment of Truth where holding the Lie and reaching the Need stop being compatible — the character trades the Want for the Need, and the trade is the arc. The vocabulary of Lie / Truth / Want / Need / Ghost is K.M. Weiland's (*Creating Character Arcs*, 2016); the psychology underneath it is Truby's weakness-and-Need and McKee's value-swinging gap.
+A change arc is an argument the character is having with themselves, and it resolves only when they give up something visible in order to keep something real. It starts from a false belief about who they are, which makes a particular goal look like the answer, so the goal and the belief travel together. Loss then accumulates until keeping the belief and getting what they actually need cannot both happen. That incompatibility is the fuel the story spends, and it has to be genuine: the arc ends in a surrender, which means the goal had to be worth something right up to the end.
 
-Four pieces are fixed before a scene is drafted (the Lie, the Ghost, the Want, the Need); three beats move across the book (the escalating cost, the Moment of Truth, the new Truth).
+## The Lie and the Ghost
 
-## The Lie
+The argument starts loaded. The Lie is the false belief about self or world the character is already running when the book opens, shown as behaviour and never spoken as a creed. A test reader early in the book can describe what the character does — always refuses a hand, always fills the same envelope — and cannot quote what the character believes. If the creed can be quoted, the Lie is being announced rather than run.
 
-The false belief about self or world the character runs on at the start, shown as behavior and never spoken as a creed. **[阮草](/tsumugu/cast/ruan-cao.html) refuses every hand** — she takes secret shifts after the six-month work rule and fills the monthly envelope home. The belief underneath (love is what you provide; to be carried is to be a burden) stays unspoken at the outset, because the vocabulary floor there has words for actions and none for a creed. The floor does the writer's discipline for them: the object and the action carry the Lie because nothing else can (see [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]]).
+That unspoken belief has a moral edge. Blindness hurts other people, not only the self: the same wall that carries a family obligation can shut a partner out in one motion. The split underneath is between a psychological Need (what would make the character whole) and a moral Need (what would stop the damage the blindness does to everyone standing next to them). Under a vocabulary floor, where the words for a creed do not exist yet, [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] is how object and action carry the Lie instead.
 
-The Lie has a moral edge where the character's blindness hurts others, not only the self — Truby's split between a psychological Need (damages the self) and a moral Need (damages others). [阮草](/tsumugu/cast/ruan-cao.html)'s wall carries the family debt and shuts [沈文](/tsumugu/cast/shen-wen.html) out in the same motion, which raises the eventual low point past self-improvement.
+The Ghost is the backstory wound that made the Lie feel true. It enters as a concrete trace long before anyone explains it — cracked hands, a kept object, a scar the reader meets as an image and cannot yet account for. The later scene that accounts for the image recolors it rather than delivering fresh information. Meet the Ghost as an unexplained image one or two books before the scene that accounts for it; that later scene is a recolor, not a dump. [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] owns the plant-and-recolor mechanism; this page owns the test. [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] treats Ghost and Lie as a paired unit; this page then spends that pair as the starting load of the trade.
 
-Checkable: a test reader early in the story should describe what [阮草](/tsumugu/cast/ruan-cao.html) *does* (always refuses) and should be unable to quote what she *believes*. The reading where they can quote it is the reading where the Lie was announced.
+The belief underneath stays unspoken at the outset. No origin story, however tidy, gets restored as a spoken creed in the first act.
 
-## The Ghost
+## Want and Need
 
-The backstory wound that made the Lie feel true. **[阮草](/tsumugu/cast/ruan-cao.html)'s Ghost: the Hanoi shop wiped out by a scam, her parents defrauded, and her place as the one who made it out** — the debt is hers because she was far and safe when it happened. The Ghost enters as a concrete trace long before it is explained: her cracked, burned hands, and the scam itself surfacing only once the vocabulary can carry a *reason*.
+The loaded start produces a Want: a concrete external goal that is nameable, winnable, and sized wrong for the real problem. A beginner can hold it in one hand — money, a seat, a letter. A monthly envelope, or any repeating proof of provision, can be a Want when it is the visible stand-in for the Lie rather than the family history behind it. A stranger should be able to state that Want in one sentence by the end of the first act.
 
-Checkable: the reader should meet the Ghost as an unexplained image (the hands) one or two books before the scene that accounts for it, and that later scene should recolor the earlier image rather than deliver fresh information. If the hands mean nothing until they are explained, the plant failed (see [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]]).
+The Need is the inner fact that would make the character whole. It is not recognized at the start and it is reached late. It stays unnamed until the vocabulary can carry abstraction, so the Moment of Truth is the first scene in which the character can say the Need aloud. A Need that would make the character whole can be the opposite of the Want's motion — being carried, rather than carrying. In the 1989 delivery-service film the Want is keeping the service running; the Need is a self not fused to output. The first proposal in a published comedy of manners is the same shape: a visible, winnable match, sized wrong for the person who has to live inside it.
 
-## The Want
+## The gap is the engine
 
-The concrete external goal the Lie generates: nameable, winnable, and sized wrong for the real problem. **[阮草](/tsumugu/cast/ruan-cao.html)'s Want is the envelope** — pay the family out, fill it every month, refuse help until the debt clears. A Want is an object a beginner can hold in one hand: money, a seat, a letter. [沈文](/tsumugu/cast/shen-wen.html)'s runs the same shape — find his grandmother in Taiwan and write her paper letters so some version of him stays in her life.
+**If winning the Want would also grant the Need, there is no gap and the arc flatlines.**
 
-Checkable: a stranger should state the Want in one sentence by the end of the first act.
+That is the test a draft can fail on a single pass: name the Want, name the Need, and ask whether getting the first would hand over the second. The Need should cost the Want. That gap is the engine, not a theme statement sitting next to the plot. The psychology underneath is a weakness that produces a Need, and a value that swings as the gap widens; the names of those source systems live in Sources.
 
-## The Need
+Four pieces are fixed before a scene is drafted — Lie, Ghost, Want, Need. Three beats then move across the book: escalating cost, the Moment of Truth, the new Truth. The four-and-three split is a planning tool this page uses, not a heading inherited from any one craft book. It lands here because the pieces now have names; it does not belong in the opening.
 
-The internal truth that would make the character whole, unrecognized at the start and reached late. **[阮草](/tsumugu/cast/ruan-cao.html)'s Need is to let herself be carried** — to accept presence-love and let the chosen family show up for her. The Need is kept unnamed until the vocabulary can carry abstraction, so the Moment of Truth becomes the first scene in which the character can say the Need aloud.
+## Cost, then the glimpse
 
-Keep the Want and the Need distinct or the arc flatlines: if winning the Want would also grant the Need, there is no gap to close, and [阮草](/tsumugu/cast/ruan-cao.html) simply clearing the debt ends the story with nothing learned. The Need should cost the Want. This gap between the consciously pursued goal and the actually required change is the engine of interiority (Truby's Desire-vs-Need, McKee's controlling idea proven at the climax).
+Each time the character acts on the Lie, the gap widens between what the act promises and what it returns. The widening is easiest to read inside a repeating scene, so a beginner tracks change against a constant. Same speakers, same setting, rising stakes. Cost can run on a table: food chosen and left, an empty chair, a body wearing down, speech thinning. Point to the same recurring scene early and late; stakes rose while vocabulary held flat. The Moment of Truth is where that template finally breaks.
 
-## The escalating cost of the Lie
+The Moment of Truth is the mid-book turn: the character sees the Truth for the first time and starts acting from it instead of defending the Lie. One craft model places it near the midpoint, around fifty percent; that mark is scaffolding inherited from two beat-sheet traditions, model-dependent, not a law. The usable picture of the pivot is a turn from flight to facing — the same character who has been dodging an assigned life now turns toward it on their own terms. After the Moment of Truth, choices differ in kind: action toward the Truth, not a harder version of the old reaction defending the Lie. Degree of trying is not the test.
 
-Each time the character acts on the Lie, widen the gap between what the act promises and what it returns, and stage it inside a repeating scene so a beginner reads change against a constant. **[阮草](/tsumugu/cast/ruan-cao.html)'s cost runs on the table**: the mushroom chosen for her, then cooked and left uneaten while she works a shift, the empty chair across the middle books, her hands worsening, her withdrawal shutting [沈文](/tsumugu/cast/shen-wen.html) out until the founding pair is barely speaking. Same speakers, same setting, rising stakes.
+## The trade and the sequence
 
-Checkable: point to the same recurring scene early and late and confirm the stakes rose while the vocabulary held flat. The Moment of Truth is the beat where the template finally breaks.
+By the last crisis the character acts from the Truth all the way through. On a positive throw that action buys the Need and spends the Want. A reader should be able to name what the character gave up to change. **A climax that keeps both Want and Need is wish-fulfillment.**
 
-## The Moment of Truth
+The series holds small wins as big. The external crisis eases rather than erases. Over-resolving a crisis the reader watched cost everything undoes the trade: the character keeps the new self and the old prize, and the argument the opening named never had to be spent.
 
-The mid-arc pivot where the character first glimpses the Truth and shifts from reacting on the Lie to acting on it. Weiland places it near the midpoint (~50%); that mark is scaffolding inherited from Field's paradigm and Snyder's beat sheet, model-dependent, not a law. **[星野遙香](/tsumugu/cast/hoshino-haruka.html) carries a clean one**: for a long stretch she runs from the summons home (visa hacks, another year of school, anything to dodge the assigned OL life), until the genki mask cracks and she turns to face keigo and karoshi on her own terms. The turn from flight to facing is the pivot.
+**Glimpse, then last stand, then climax from the new self.** Sequence the Moment of Truth — the glimpse — before the low point, which is the last test of that glimpsed Truth. Merging them leaves the climax with no new self to act from. The low point sits just before the climax; it is the last stand of the Ghost and the Lie. Three beats, this order. [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]] is the abyss this arc hands off to; a death is one optional signal, never the mechanism. The discharge runs on internal stakes: identity, love, belief.
 
-Checkable: after the Moment of Truth the character's choices differ in *kind* (action toward the Truth) from before it (reaction defending the Lie). If the behavior looks the same on both sides, the glimpse did not land.
+## One skeleton, five endings
 
-## The new Truth
+The same six pieces build all five arcs. Type is set only by the character's relationship to Lie and Truth at the climax. [[wiki/Story Craft/Arc Types|Arc Types]] is the five-row table this page types against; this page does not reproduce it.
 
-At the climax the character acts fully from the Truth, and in a positive arc gains the Need at the cost of the Want. **[阮草](/tsumugu/cast/ruan-cao.html)'s climax is the wordless food reconciliation** after [沈文](/tsumugu/cast/shen-wen.html) sees her hands: she lets herself be carried, and the bond that comes back is a different one. The external crisis is left deliberately un-tidied — she lands a better job and takes her first day off in a year, the burden easing without erasing, because the series holds small wins as big and warns against over-resolving a crisis the reader watched cost her everything. The Need is won; the Want (pay them all out, alone) is surrendered.
+A corruption arc runs this skeleton backward: it starts in the Truth and finishes inside the Lie. A fall never leaves the Lie. Disillusionment arrives at a Truth, and the Truth is bleak. Negative shapes read cleanest on a secondary character whose decline can be seen from outside. A full corruption arc needs a secondary character who makes a small early compromise. That compromise only rereads as the first domino on a second pass.
 
-Checkable: a reader should name what the character gave up to change. A climax where the character keeps both the Want and the Need skipped the trade and reads as wish-fulfillment.
+A *flat character* — built around a single idea, unable to surprise, does not change — is a different axis from a *flat arc*: a dimensional character who already holds the Truth and changes the world around them. The 1989 delivery-service film is a public picture of the positive-change throw of this engine, not a second taxonomy. The error that drives a fall is a misjudgement discovered late, not a labeled vice worn on the sleeve. That late-discovered error is hamartia.
 
-The low point sits just before this. [阮草](/tsumugu/cast/ruan-cao.html)'s reveal (the hands) is the last stand of the Ghost and the Lie (~75% in Snyder's and Weiland's scaffolding); the reconciliation is the climax that follows. Sequence the Moment of Truth (glimpse) *before* the low point (the last test of that glimpsed Truth) — merging the two leaves the climax with no new self to act from. The abyss earns its discharge through internal stakes, and a death is one optional signal, never the mechanism; the full treatment is in [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]].
+## What it costs, and when to stop
 
-## Where this sits among the arc types
+Make the argument too visible and it hardens into a slogan. A reader who can quote the Truth as a maxim has been sold the theme rather than shown it; announced theme kills catharsis. Hand every character a full change arc in the same stretch and no recognition stays legible. An audio-first cap on speaking voices per reading — a reading here is one graded lesson-length text — and the vocabulary ramp both force staggering. Interiority is handed out one or two characters at a time, which means most of the ensemble waits books for a turn. Every big beat must be seeded one or two readings earlier; [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] is the plant-and-payoff rule that timing lives on.
 
-The same six pieces build all five arcs (positive change, flat, and the three negatives); the type is set only by the character's relationship to the Lie and the Truth at the climax. Positive change ends inside the Truth — [阮草](/tsumugu/cast/ruan-cao.html), [沈文](/tsumugu/cast/shen-wen.html), and the [白龍](/tsumugu/cast/bai-long.html)↔[金多恩](/tsumugu/cast/kim-da-eun.html) pair all run it. A corruption arc runs this same skeleton backward (starts in the Truth, ends in the Lie); a fall never escapes the Lie; disillusionment reaches a Truth that is bleak. Negative arcs read cleanest on secondary characters whose decline shows externally, so the payoff can wait for the books where abstract-emotion vocabulary exists. A full corruption arc needs a secondary character carrying a small early compromise that only rereads as the first domino later. The taxonomy itself lives in [[wiki/Story Craft/Arc Types|Arc Types]].
+Percentage scaffolding hardens into a straitjacket. A late low point that taught nothing since the glimpse produces a climax still acted from the old self — the sequence law, only now as a quit. Some stories do not want change. A steadfast protagonist or a plot-driven genre pays a tax to force interiority, and the tax is not always worth it.
 
-One label discipline to hold: Forster's *flat character* (built round a single idea, incapable of surprising us, does not change) is a different axis from Weiland's *flat arc* (a fully dimensional character who already holds the Truth and changes the world around them). Keep the two apart; the conflation is the most common error in secondary arc writing. And the error that drives a fall is a misjudgement discovered late (Aristotle's *hamartia*), not a labeled vice the character wears on their sleeve.
+The price of the method sits in the same breath as the benefit. Lie, Ghost, Want, Need, and Truth get fixed in advance; a recurring scene gets threaded; the cast is rationed; the book is planned backward from recognition. What the reader gets is a trade that can be pointed at. What it costs is that most of the ensemble waits, and every big beat has to be planted earlier.
 
-## The case against
+A test reader who states the Need in act one is the signal that the Lie is being told. Raising the low point by adding external threat while identity, love, and belief stay untouched is the signal to move the stakes inward. A character who keeps both Want and Need is the signal to find what the Need must cost. Two characters hitting mid-recognition in one reading is the signal to collapse to one spotlight; [[wiki/Story Craft/Spotlight Rotation|Spotlight Rotation]] is the rationing rule that collapse lives on.
 
-- The arc is an argument, and an argument made too visibly becomes a slogan. A reader who can quote the Truth as a maxim has been sold the theme rather than moved by it; announced theme kills catharsis.
-- Ensemble sprawl. Give every character a full change arc at once and none reaches a legible recognition. The audio-first cap of ≤3–4 speaking voices per reading and the vocabulary ramp both force staggering; a writer who insists on simultaneity gets mush.
-- The percentage scaffolding turns into a straitjacket. Placing a low point at 75% because a beat sheet says so, with nothing learned since the midpoint, produces a climax acted from the old self.
-- Some stories do not want change. A steadfast protagonist (a flat arc) or a plot-driven genre pays a pacing and comprehensibility tax to force interiority where the story does not need it.
+## What the trade is for
 
-## Price the method
+The trade is still the arc. What the body added is the sequence that makes the trade earnable: a glimpse held apart from the last stand, a Need that costs the Want, or the book was never a change arc. Some stories should not pay this tax. The ones that do pay it spend the incompatibility the opening named, in that order, and the reader can name what was given up.
 
-The arc costs setup before any scene exists: fix the Lie, Ghost, Want, Need, and Truth in advance, then thread a recurring scene template so cost reads against a constant, which spends plot real estate on repetition. It rations the cast — interiority is doled one or two characters at a time, so most of the ensemble waits books for a turn. And it inverts the drafting order: every big beat must be seeded one or two readings earlier, so the arc is planned backward from its recognition instead of discovered in the writing.
+## Open questions
 
-## Quit signals
+Whether a Want that is also a repeating proof — an envelope, a seat, a letter home — can stay a Want once the reader sees it is sized wrong, or whether seeing the size collapses it into the Need too early.
 
-- A test reader states the Need in act one → the Lie is being told, not shown. Cut the Truth back to behavior and let the object carry it.
-- Raising the low point means adding external threat while identity, love, and belief stay untouched → the abyss will read as spectacle. Move the stakes inward (loss of a relationship, a place, the planted Ghost object).
-- The character keeps both the Want and the Need at the climax → the arc flatlined. Find what the Need must cost.
-- Two characters are mid-recognition in one reading and neither lands → collapse to one spotlight (see [[wiki/Story Craft/Spotlight Rotation|Spotlight Rotation]]) and defer the other.
+How far the repeating-scene template survives when the format cannot hold the same speakers and setting across books.
 
-## Related
+Whether the four-fixed, three-moving split is a planning tool or a diagnostic: whether the three moving beats can be found after the fact, or only written toward.
 
-- [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] — the Ghost and the Lie as a paired unit
-- [[wiki/Story Craft/Arc Types|Arc Types]] — the five arcs one skeleton produces
-- [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]] — the abyss this arc hands off to
-- [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] — the plant→spark→payoff engine every beat rides
+## Sources
+
+K.M. Weiland, *Creating Character Arcs* (2016) and the free series starting at [Character Arcs (Part 1)](https://www.helpingwritersbecomeauthors.com/character-arcs-1/) — Lie / Ghost / Want / Need, midpoint glimpse, third-act low, the five-type taxonomy.
+
+John Truby, *The Anatomy of Story* — Ghost; psychological Need vs moral Need; Desire vs Need.
+
+Robert McKee, *Story* — value-swinging gap; controlling idea proven at the climax.
+
+E.M. Forster, *Aspects of the Novel* ([Gutenberg #70492](https://www.gutenberg.org/ebooks/70492)) — flat vs round character. The axis this page distinguishes from Weiland's flat *arc*.
+
+Aristotle, *Poetics* — hamartia as misjudgement discovered late.
+
+*Kiki's Delivery Service* (1989) — the public positive-change case (gift-as-job; Want = keep the service; Need = self not fused to output). The sibling burnout page owns the eleven-stage telling; this page takes only the trade.
+
+Jane Austen, *Pride and Prejudice* — a public Want-then-Need comedy (first proposal vs later one) a stranger can open.
+
+The engine is this vault's application of Weiland's positive-change arc (2026-07-09), not a finding from any film.

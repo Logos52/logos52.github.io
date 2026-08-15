@@ -3,73 +3,91 @@ title: "Character Voice"
 type: technique
 status: developing
 created: 2026-07-09
-updated: 2026-07-20
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
   - character
   - voice
   - dialogue
   - story-craft
+flag-reason: "cluster held — Story Craft; opener is owner-picked Opus A. Do not promote."
 ---
 
 # Character Voice
 
-A reader assigns each line to its speaker before the dialogue tag when every character meets the same pressure in a different default register, and that register — sentence length, verbal tics, how far a character hedges, and the subjects they skirt rather than the words they know — is the audible print of the wound driving them. Voice is the one interiority tool that survives a hard vocabulary ceiling. Diction narrows to a few hundred shared characters, so no character can be marked by rare words the cast has not learned; structure and content stay free. Sentence length, rhythm, the topics a character refuses, and the register they default to under stress cost no additional vocabulary, and they carry the fingerprint when the lexicon cannot.
-
-The cast needs an unmarked center. [沈文](/tsumugu/cast/shen-wen.html) is built as the baseline — the everyman POV, designed as the neutral standard voice fixture the others bend away from. His flatness of register is load-bearing: [白龍](/tsumugu/cast/bai-long.html)'s clipped deadpan, [星野遙香](/tsumugu/cast/hoshino-haruka.html)'s exclamation runs, and [小圖](/tsumugu/cast/xiao-tu.html)'s four-syllable bursts all read as marked because a plain center exists to read them against. Give every voice a strong tic and none of them registers; the deviations need a norm to deviate from.
+Character voice is what lets a reader assign a line before reaching the name attached to it. It is not vocabulary and not a verbal tic; it is the register a person defaults to when the same pressure arrives — what they reach for, how much they concede, how quickly they get to the point. The half that does the most work is negative: what this person will not say under that pressure, the subject they route around every time. Where interior narration is unavailable or the word list is short, this is the channel that still carries the inside of a person, because the choosing is audible.
 
 ## The dials
 
-Idiolect — a linguistics term for one person's total speech variety across sound, word choice, syntax, and discourse — is built from a small set of dials a writer sets per character. McKee's *Dialogue* names the craft version: personal diction in word choice, rhythm, and word order, at a pitch and register no one else in the cast occupies.
+**Idiolect** is one person's total way of speaking — sound, words, syntax, discourse. The craft version is personal diction in word choice, rhythm, and word order, at a pitch no one else in the cast occupies. Sentence length, rhythm, refused topics, and default register under stress cost no additional vocabulary.
 
-- **Sentence length and rhythm.** [白龍](/tsumugu/cast/bai-long.html) answers in clipped, flat clauses; [星野遙香](/tsumugu/cast/hoshino-haruka.html) runs long and exclamation-heavy. A listener sorts the two by cadence alone, before any content lands.
-- **Register and formality.** The group addresses [將軍](/tsumugu/cast/general.html) the café cat in mock-military rank — 敬禮, 命令, 士兵 — one formality gag that also smuggles old-school vocabulary. A single note, recognizable on every entry.
-- **Relationship to certainty.** [阮草](/tsumugu/cast/ruan-cao.html) asserts flat, sure of what a living thing needs before anyone else sees it; she states, she does not qualify. Her voice is the cast's cleanest, which is why she is heard most, and the bluntness is mát tay speaking aloud: a hand that already knows what a thing needs does not hedge its sentences.
-- **A signature form.** [小圖](/tsumugu/cast/xiao-tu.html) speaks in four-syllable 成語-shaped bursts run through an old-telephone filter. The reader clocks him the instant he speaks, and a tag is never needed.
+A listener sorts two leads by cadence alone: clipped flat clauses against long, exclamation-heavy runs. Formality is another dial. The group addresses one adult in mock-military rank — salute, order, soldier — a formality gag that also smuggles old-school vocabulary into a beginner's book.
 
-## What a character never says
+Relationship to certainty is a third. 阮草 asserts flat and does not qualify. The bluntness is **mát tay** speaking aloud: the hand that already knows what a living thing needs. She is heard most because her voice is the cast's cleanest.
 
-Silence and topic-avoidance cost zero vocabulary, which puts them at the center of the low-level books. McKee separates the Said (the words), the Unsaid (a conscious thought withheld), and the Unsayable (what a character cannot voice at all); a voice lives in which of the three it defaults to. [沈文](/tsumugu/cast/shen-wen.html) never states that his home was cold. He goes quiet whenever family comes up — the plant is that he *lets slip* his home was never warm, never that he announces it. The withheld thing is built from evasion alone early, then spoken once the words arrive. The reader should feel the confession land on a nerve that a full book of avoidance already exposed.
+Signature form is a fourth. 小圖 speaks in four-syllable idiom-shaped bursts run through an old-telephone filter. The tag is never needed. The shape is four-character idiom *shape*, not necessarily a real 成語. Do not restore dispensed-wisdom content to those bursts.
 
-Sol Stein's differentiation checklist works the same seam from the surface — vocabulary, throwaway words, tight versus loose phrasing, grammar — so that speech matches background and no two characters talk alike. What a character declines to say is that checklist's cheapest entry under a Han ceiling.
+Silence and topic-avoidance cost zero vocabulary and sit at the center of the low-level books. A voice lives in which of three it defaults to: the **Said** (words spoken), the **Unsaid** (conscious thought withheld on purpose), the **Unsayable** (the thing that cannot be voiced at all). 沈文 never states that his home was cold. He goes quiet whenever family comes up — lets slip, never announces.
 
-## Voice as the print of the wound
+A published differentiation checklist names vocabulary, throwaway words, tight versus loose phrasing, and grammar — speech matching background, no two talking alike. What a character declines to say is that checklist's cheapest entry under a Han ceiling.
 
-A character's default register is the wound made audible. [白龍](/tsumugu/cast/bai-long.html)'s deadpan is armor: the clipped voice *is* the loneliness he will not admit. A crack in a fixed register reads as a reveal on its own, without new exposition, because the reader has already banked the default as the character's normal. This is the [[wiki/Story Craft/The Wound and the Lie|wound]] surfacing through choice of words instead of through a stated backstory, which the vocabulary floor forbids anyway.
+In audio, the instruct — tired, flat, delighted — is interiority the lexicon cannot buy. That is how a line is marked once voice is treated as heard, not only as written.
 
-## Idiolect that matures with the ramp
+## Center, wound, foil, flat
 
-Register can widen as the reader's vocabulary grows: the same fixed form can carry heavier content once the reader can parse it. [小圖](/tsumugu/cast/xiao-tu.html)'s bursts stay broken in form while what they land on sharpens, the content maturing inside a shape that never does. The widening doubles as a felt signal of the reader's own progress — the same character sounds more complex because the reader can now hold more — and the ensemble's banter carries the high-frequency repetition that story-listening relies on while the voices stay distinct.
+The cast needs an **unmarked center**. 沈文 is built as the baseline — the everyman point of view, the neutral standard the others bend away from. That flatness of register is load-bearing. Give every voice a strong tic and none of them registers. Deviations need a norm. 白龍's clipped deadpan, 星野's exclamation runs, 小圖's four-syllable bursts all read as marked because a plain center exists.
 
-## Foils sound their difference
+**A default register is the wound made audible.**
 
-Two registers colliding is a value-clash made audible. [星野遙香](/tsumugu/cast/hoshino-haruka.html)'s over-enthusiasm meets [林薇](/tsumugu/cast/lin-wei.html)'s dry, faintly sassy local register, each romanticizing the cage the other wants out of; the friction reads first as two ways of talking, then as two ways of wanting. Spend a two-hander on a pair whose registers clash and the scene characterizes both at once.
+白龍's deadpan is armor: the clipped voice *is* the loneliness he will not admit. The [[wiki/Story Craft/The Wound and the Lie|wound]] is that interior engine; voice is it made audible. A crack in a fixed register reads as a reveal on its own, without new exposition.
 
-## Flatness is a budget tool
+Two registers colliding is a value-clash made audible. 星野's over-enthusiasm meets 林薇's dry local. Each romanticizes the cage the other wants out of. A two-hander spent on that pair characterizes both at once.
 
-Forster's economy applies to voice directly: a flat character carries one memorable note and stays recognizable on every entry. [蘇老師](/tsumugu/cast/teacher-su.html) asks the calm question everyone was avoiding; [吳老闆](/tsumugu/cast/boss-wu.html) is deadpan-avuncular; [將軍](/tsumugu/cast/general.html) runs the rank gag. A single fixed register on each frees the scarce roundness budget and the rare characters for the arc-bearing leads. Under a tight word ceiling, one-note voices are a feature of the design.
+A flat character carries one memorable note, recognizable on every entrance. 蘇老師 asks the calm question everyone was avoiding. 吳老闆 is deadpan-avuncular. 將軍 is the rank gag. One-note voices free the scarce roundness budget for arc-bearing leads. Under a tight word ceiling they are a feature, not a defect. [[wiki/Story Craft/Round Characters and the Telling Detail|Round Characters and the Telling Detail]] is the budget this page inherits.
 
-## The cost
+## What survives the ceiling
 
-A distinct-idiolect cast buys the one interiority channel that survives the Han ceiling — the payoff that a beginner reading at 250 characters feels a person rather than a word list — and it charges for that an idiolect sheet per character — the dial settings, the topics each meets versus skirts, the register each occupies now and grows into — plus a differentiation gate at authoring and continuous tracking of which book has widened whose register. Voice competes for attention with meaning: at 250 characters a beginner parsing the sentence has little left over for nuance, so the marking has to be coarse enough to feel on a first read. Tics harden into shtick if unwatched, and the enthusiastic one collapses into only enthusiasm.
+Diction narrows to a few hundred shared characters. No one can be marked by rare words the cast has not learned. Structure and content stay free. The **vocabulary ceiling** is that early-book budget: a few hundred shared characters, actions and objects, almost no feeling-words. It is a house parameter, not a language-test law. [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] is why structure and silence are the only early voice.
 
-## The case against
+Spelling-based accent, the usual cheap differentiator, has no existence in Han. The script is not an alphabet. Eye-dialect does not transfer.
 
-Voice is a thin instrument early, and leaning on it to carry interiority the vocabulary cannot yet name produces mannerism without depth. At 250 Han with three short readings and a four-speaker audio cap, over-marking every voice turns the cast into a lineup of tics, and the reader hears costume where people should be. Spelling-based accent, the usual cheap differentiator, has no existence in Han, which strips the laziest option out of reach. The characters who should stay flat — [將軍](/tsumugu/cast/general.html), the adults — gain nothing from a full idiolect and cost budget if they carry one. Where a scene turns on meaning the reader is still decoding, distinct voice is a luxury the attention cannot spend; carry the beat by [[wiki/Story Craft/Interiority Through Action and Object|object and action]] and let voice return when the sentence is free.
+Register can widen as the reader's vocabulary grows. The same fixed form can carry heavier content. 小圖's bursts stay broken in form while what they land on sharpens — form, not oracle-lines. The widening doubles as a felt signal of the reader's own progress. Ensemble banter carries the high-frequency repetition story-listening relies on while the voices stay distinct.
 
-## Quit signals
+At two hundred and fifty characters a beginner parsing the sentence has little left for nuance. Marking has to be coarse enough to feel on a first read. The **speaker cap** is at most three or four speaking voices in one reading so a listener can tell who is talking.
 
-Strip every dialogue tag from a two-hander and hand it to a fresh reader. If they cannot assign the lines, the voices are not yet distinct, and the fix is content and topic-stance — what each character meets head-on versus skirts — before any more surface tics, which past this point read as caricature. If a reader names the speaker but winces at the voice, the tic has hardened into shtick; dial it back toward the baseline. If a scene only works once a character says the withheld thing outright, the subtext has flattened to on-the-nose dialogue; return the thing to the Unsaid and let a curious friend circle it.
+Gesture and [[wiki/Story Craft/Interiority Through Action and Object|object and action]] are the sibling channel when the sentence has no room for a mark.
 
-## Checkable expectations
+## Cost, case against, tests
 
-- Strip the tags from a two-hander and a fresh reader assigns every line to the right speaker.
-- A crack in [白龍](/tsumugu/cast/bai-long.html)'s fixed deadpan reads as new, because the reader has heard him only in blunt, flat clauses before it happens.
-- [沈文](/tsumugu/cast/shen-wen.html) never states that his home was cold; the reader infers it from a book of him going quiet on family, and feels it confirmed when the words finally arrive in a two-hander.
-- Two designed voices played back-to-back in audio are told apart by cadence and register before any content resolves.
+The benefit is a line that assigns itself. The cost is tracking one habitual register per character, a differentiation gate at authoring, and which book has widened whose register. No purchased sheet is required. The tag-strip test and the dials replace it.
+
+Tics harden into shtick if unwatched. The enthusiastic one collapses into only enthusiasm. Voice is a thin instrument early. Leaning on it to carry un-nameable interiority produces mannerism without depth. At two hundred and fifty Han, with three short readings and a four-speaker cap, over-marking every voice turns the cast into a lineup of tics. Characters who should stay flat — 將軍, the adults — gain nothing from a full idiolect.
+
+Where a scene turns on meaning the reader is still decoding, distinct voice is a luxury. Carry the beat by [[wiki/Story Craft/Interiority Through Action and Object|object and action]].
+
+Quit signals. Strip the tags from a two-hander. If a fresh reader cannot assign the lines, fix content and topic-stance before adding more tics. If they name the speaker but wince, dial back toward baseline. If a scene only works once the withheld thing is said outright, return it to the Unsaid and let a **curious friend** — the second person who circles a withheld thing until it can be said — do the circling.
+
+Checkable. The tag-strip test is the falsifier. A deadpan that cracks should read as new. The cold house is never stated. Two designed voices in audio should be told apart by cadence before content.
+
+The same assignability remains after the ceiling has taken spelling, rare words, and the tic-for-everyone option. The wound-print is what is left.
+
+## Open questions
+
+- Whether the audio instruct should be marked on the line once voice is treated as heard, not only as written.
 
 ## Related
 
-- [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] — the interior engine whose audible print voice is.
-- [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] — the sibling channel that carries a beat when the sentence has no room for voice.
-- [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] — the constraint that makes structure-and-silence voice the only kind available early.
-- [[wiki/Story Craft/Round Characters and the Telling Detail|Round Characters and the Telling Detail]] — roundness and the single fixed note, the budget logic voice inherits.
+- [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] — the interior engine; voice is the wound's audible print
+- [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] — the sibling channel when the sentence has no room for a mark
+- [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] — why structure and silence are the only early voice
+- [[wiki/Story Craft/Round Characters and the Telling Detail|Round Characters and the Telling Detail]] — roundness and the single fixed note; the budget voice inherits
+
+## Sources
+
+- Robert McKee, *Dialogue: The Art of Verbal Action for Page, Stage, and Screen* (2016) — personal diction; Said / Unsaid / Unsayable.
+- Sol Stein, *Stein on Writing* — differentiation checklist: vocabulary, throwaway words, tight versus loose phrasing, grammar.
+- E. M. Forster, *Aspects of the Novel* (1927) — a flat character carries one memorable note.
+- Han as a non-alphabetic script — spelling-accent has no existence in it. A script fact, not a citation.
+
+The unmarked-center law, the wound-print, and the ceiling parameters (two hundred and fifty Han; four-speaker cap) are this vault's teaching defaults (2026-07-09 / 2026-07-20).

@@ -3,95 +3,116 @@ title: "Story Under a Vocabulary Ceiling"
 type: technique
 status: developing
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
-  - graded-reader
-  - pedagogy
-  - constraint
-  - comprehensible-input
   - story-craft
+  - comprehensible-input
+  - graded-readers
+  - vocabulary
+flag-reason: "cluster held — Story Craft; opener is owner-picked Opus A. Do not promote."
 ---
 
 # Story Under a Vocabulary Ceiling
 
-A vocabulary ceiling is a reveal schedule: dramatic structure runs on wants and gaps that need no abstract words, so a full arc stages at 250 characters and deepens book by book, and interiority arrives exactly as fast as the reader earns the language to hold it. The ramp times every reveal — the word the reader is about to learn and the secret the story is about to tell can land in the same beat — which turns the constraint into the instrument.
+A vocabulary ceiling is a hard word list treated as the story's reveal schedule rather than as a restriction to be written around. Wanting something and not getting it needs no feeling-words at all, so a complete arc can be staged inside the first few hundred words: a person wants a thing, moves toward it, and the world returns something else. Interior life is then admitted at the rate the list grows. The useful consequence is that the two schedules can be made to coincide, so the word a reader is about to learn and the thing a character is about to admit can arrive in the same beat.
 
-## The ceiling has a measured shape
+## Coverage as design guidance
 
-The ceiling is a coverage number, and it governs where depth is affordable. A reader needs to know about 98% of the running words for comfortable, unassisted reading with reliable incidental vocabulary uptake (Hu & Nation 2000); the ~95% "minimally adequate" figure comes from the wider Nation/Laufer literature and marks where comprehension holds but effort rises. Below ~95% the text stops teaching and starts frustrating. The practical design rule at the top of a level: hold unknown words to roughly one in twenty, one or two per short page.
+A 2000 fiction-coverage study asked university students to read the same kind of story at four known-word levels — 80, 90, 95, and 100 percent. Adequate unassisted comprehension sat near 98% of running words. The sample was small, sixty-six people, and the thing measured was comprehension, not whether new words stuck. Later coverage work treats the same 98% as a useful target for *comprehension*, and keeps uptake in a separate literature. Incidental learning is a stronger claim than that paper can carry. On this page 98% is a comfort target: the share of running words already known when the reader should be able to move without help.
 
-Coverage is one of three gates, taken in order (Krashen). Input must be **comprehensible** (decodable at i+1, slightly beyond current level), then **compelling** enough that the reader forgets it is a foreign language and enters flow, and it must clear a low **affective filter** — anxiety, boredom, and embarrassment block otherwise-comprehensible input from becoming acquisition. A stressful decode stacked on top of a stressful beat acquires nothing, so warmth and momentum are load-bearing pedagogy. This is why the peak of a scene is where coverage must be highest: a reader can only feel a scene's emotional turn if they are spending zero effort decoding it.
+The wider coverage literature puts a lower figure near 95% and calls it minimally adequate. Comprehension still holds there. Effort rises. Below about 95% the text stops teaching and starts frustrating. That is a direction, not a cliff: some readers and some tasks cross it sooner, some later. The practical design rule is the same arithmetic. Ninety-five percent known is one unknown in twenty, which on a short page is one or two new words. A writer who plants three new items on a page of forty has already left the floor.
 
-The figures are design guidance shaped by real readers and revised as evidence comes in. The 95/98 numbers shift by task (gist versus incidental learning), text type, and reader; i+1 resists precise operationalization and Krashen's input hypothesis is contested in SLA (a 2025 Frontiers neuro-ecological critique among them). They earn their place as the ramp's shape, holding for as long as the evidence keeps supporting them.
+Coverage is one of three gates, held here as a design order and not as measured stages. First the input has to be **comprehensible** — **i+1**, input just past the current level, useful as "slightly beyond" and not as a precise number. Then it has to be **compelling**: the reader forgets the language is foreign. Then the **affective filter** has to stay low — anxiety, boredom, and embarrassment are the named barrier. These are hypotheses. They are already contested later on this page.
 
-## Structure is language-independent
+A stressful decode stacked on a stressful beat acquires nothing. Warmth and momentum are load-bearing for that reason. **The peak of a scene is where coverage has to be highest.** The filter as a mechanism is disputed. The quit is the half that still operates: hard decode plus hard beat, and nothing is learned.
 
-A want, an obstacle, a reversal, a change survive the ramp because none of them is a word. The engine that carries an A1 reader is dramatic, and it can be staged at 250 characters and paid off at 1000.
+The figures are design guidance, revised as evidence comes in. Ninety-five and ninety-eight shift by task, text type, and reader. i+1 resists a clean operationalization. The input hypothesis itself is contested — a 2025 critique among them, arguing that comprehensible input is necessary but not sufficient, and that interaction and production sit outside this page's job. That paper does not say stop making input comprehensible. The numbers stay because they give the ramp a shape. They stay only while later evidence still agrees.
 
-**The gap** — expectation minus result, widening across acts (McKee) — needs only actions to run. A character does the hoped-for thing; the visible result falls short of it. Expectation meets result with no abstract word spent, and the widening gap across acts needs nothing but a repeated action and its outcome to read.
+## Structure is not a word
 
-**The premise** — one arguable sentence, *X leads to Y*, that pre-commits trait, conflict, and ending (Egri) — is the through-line that keeps a five-book arc coherent when the vocabulary to state its theme will not exist for years. (Egri's *bone structure*, the physiology/sociology/psychology method for building an individual character, is his separate tool; the premise is the arc's spine.) McKee's **controlling idea** does the same work as a value plus a cause, stated once and tested by every scene that follows; holding it fixed across the ramp is what lets a hint planted at the floor pay off books later.
+A want, an obstacle, a reversal, and a change survive the ramp because none of them is a word. The engine that carries a first-book reader is dramatic. It can be staged at this project's first-book floor of 250 字 — characters, not English words — and paid off at the last-book floor of 1000 字.
 
-**The story circle** — comfort → want → cross the threshold → search → find → pay the price → return → changed (Harmon, from Campbell via Vogler) — fits a single 250-word episode and nests across a season: the same eight beats that carry one scene also carry a whole book, arrival to belonging, at whatever scale the vocabulary allows.
+The **gap** is expectation minus result, widening across acts. It needs only actions. A reader who can watch someone reach and miss does not need the word for disappointment. The miss is the gap. The next miss, wider, is the same gap after another act.
 
-The Lie/Want/Need triad that dramatizes inner change through choices lives on its own page; here it is enough that the external Want is sayable early in concrete nouns while the internal Need waits for the words.
+The **premise** is one arguable sentence of the form *X leads to Y*. Held fixed, it keeps a multi-book arc coherent in the years before the theme-words exist. A first book can stage the *X* in objects. A last book can pay the *Y* in words the first book did not have. [[wiki/Story Craft/Premise and Controlling Idea|Premise and Controlling Idea]] is the language-independent through-line that holds that arc when the vocabulary cannot yet name it. **Bone structure** — physiology, sociology, psychology — is a separate tool. The premise is the spine. Collapsing the two loses both: a filled-in character sheet is not an argument, and an argument with no body has no one to make it. A **controlling idea** (a value plus its cause) does the same work as the premise under a different name: holding it fixed lets a plant at the first-book floor pay off books later.
 
-## The ramp is the reveal curve
+The **story circle** is eight beats that travel out and back: comfort, want, threshold, search, find, pay the price, return, changed. The same eight carry a single first-book episode at 250 字 and nest across a season. They also claim to scale: one scene, or a whole book from arrival to belonging, at whatever size the vocabulary allows. Lineage of the nest lives in Sources.
 
-Depth arrives as fast as the reader earns the language to hold it, so the per-book Han floor works as a reveal budget that schedules how much interiority each level can afford. These floors are this project's internal design parameters (≈1.5× the textbook article, mapped A1→C1): B1 250 · B2 450 · B3 750 · B4 950 · B5 1000.
+[[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] owns the Lie / Want / Need triad. This page owns only the scheduling split. The external Want is sayable early, in concrete nouns — an envelope, a chair, a hand refused. The internal Need waits. A first-book reader can watch the Want. The Need is a later-book word.
 
-- **B1 (~250, A1) has words for actions only**, so a wound is shown and never explained. [沈文](/tsumugu/cast/shen-wen.html)'s family-hunger is a flinch from warmth; [阮草](/tsumugu/cast/ruan-cao.html)'s burden is an envelope counted and a hand refused. The Lie is legible in choice while the wound-in-words waits.
-- **B2 (~450, A2) gains words for reasons**, so a motive can finally be stated in the same reading that names it — the word and the reason land together, rather than the reason arriving as a later gloss on an action already shown.
-- **B3 (~750, B1) gains words for interiority**, which is why the cores are front-loaded to end of B3: most students leave around one year, near B3, so the reconciliations and reveals are timed to the last book most readers reach.
+## The ramp, and what it spends
 
-A word withheld until its level *is* the reversal. Some content needs a register that does not exist below a certain floor, so the ceiling itself enforces the withhold, and the reveal pays off exactly when the language finally arrives. A wound can also be withheld past the ceiling entirely, never spelled out, carried by object alone.
+This project's five books are named B1 through B5. B1 here is the public language ladder's first rung, not its third. After this paragraph the floors are first-book, third-book, last-book. The counts themselves are house defaults, set at roughly one and a half times a textbook article and mapped onto that public ladder: 250, 450, 750, 950, and 1000 字.
 
-## Prime comprehension before the emotional load
+| Book | Floor (字) | Public-ladder rung |
+|---|---|---|
+| First | 250 | first rung |
+| Second | 450 | second |
+| Third | 750 | third |
+| Fourth | 950 | fourth |
+| Last | 1000 | fifth |
 
-Borrow the staging of Story-Listening and TPRS: establish the scene's few nouns through concrete, repeated, natural use in the calm opening beats, so the turn lands on words already known. TPRS "circling" repeats one structure fifty to a hundred times through a yes/no → either/or → wh- question ladder; the prose equivalent is to let the scene's key objects appear plainly and often across quiet moments, so that when they finally matter the reader decodes nothing and feels everything. Keep the peak scene near 98% known coverage; spend the new-word budget in the calm beats, never on the turn.
+Important story pieces are exempt. A marquee, a deep two-hander, a special has no floor and no ceiling. The writer who cuts a two-hander to 250 字 because "the floor says so" has misread the table. The ceiling still governs run-ups and ordinary coverage. The one-in-twenty rule does not retire because a scene has a special name.
 
-This is the discipline canonical craft already recommends. Eliot's **objective correlative** — a set of objects and events that is the formula for an emotion, so presenting the externals evokes the feeling with no word for it — and Hemingway's **theory of omission** — the reader feels the deliberately unsaid as strongly as the stated — are what a floor forces. A B1 reader can see a bowl and cannot be told about ambivalence, so the bowl carries it. The full treatment of object-as-interiority is its own page; the ceiling's contribution is that it makes the technique mandatory rather than optional.
+Front-loading the cores to the end of the third book buys the median reader and charges the cost against finishers. Later books serve a shrinking audience. The deepest interiority is read by the fewest. That is a priced design choice, not a measured leave-rate.
 
-## Compelling beats merely leveled
+Structure-first work pre-commits the whole arc. The last-book payoff is known before the first-book page is written. An envelope counted on the table, and a chair that stays empty, are promises made at 250 字 and kept for four books. The objects are cheap. The debt they open is not. The clock belongs to the reader's capacity, not to the writer's preference for when a secret would feel elegant.
 
-The want has to be folktale-strength — hunger, a promise, a hidden gift — so that a small register can state it plainly and it intensifies as the vocabulary grows (Krashen's compelling-input hypothesis). [沈文](/tsumugu/cast/shen-wen.html)'s ache for a grandmother and a chosen family, and [阮草](/tsumugu/cast/ruan-cao.html)'s secret provision (send the envelope, refuse every hand), are both fully sayable at 250 words and both deepen through the ramp. Compellingness substitutes for conscious motivation: the reader is carried forward by the want whether or not they are trying to improve, which is the pedagogical mandate for real stakes in a leveled text.
+## Priming, peak, object
 
-The seed of a late payoff must be a re-showable behavior, never a stated theme (the iceberg's hidden eighth, seeded as action). A repeated small act — always paying, never staying, say — signals more than any label could, and pays off once someone finally has the words to name what was visible all along. Because the seed is behavioral, the payoff reads as earned rather than announced.
+The first book has words for actions only. One character's family-hunger arrives as a flinch. Another's load arrives as an envelope she counts and a hand she will not take. [沈文](/tsumugu/cast/shen-wen.html) and [阮草](/tsumugu/cast/ruan-cao.html) illustrate; the sentences stand if the cards are never opened. The second book has words for reasons. Motive is stated in the same reading that names it.
 
-## Price
+A word withheld until its level *is* the reversal. Some content needs a register that does not exist below a floor, and forcing it early produces a sentence the reader can sound out without holding. A wound can be withheld past the ceiling entirely and still be carried by an object. [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] is the object-and-gesture half of that fact — what a floor forces when feeling-words do not exist.
 
-Front-loading the cores to B3 buys legibility for the median reader and charges it against the finishers. The B4–B5 capstones serve a shrinking audience, because most readers leave near B3. The deepest interiority you engineer at the top of the ramp is read by the fewest people.
+The scene's few nouns are established through concrete, repeated, natural use in the calm opening beats. One teaching method repeats a single structure many times through easy questions — **circling**, in the practitioner sense, with the fifty-to-a-hundred counts treated as workshop lore rather than a measurement. The transferable half is the prose equivalent: key objects appear plainly and often in quiet moments, so they are already known when they matter.
 
-The priming tax is real: every noun repeated to secure comprehension in a calm beat is a noun not spent on new texture, and the calm-beat budget is small at B1. The audio-first cap of three or four speaking characters per reading rations ensemble interiority to one or two interiors at a time, so an eleven-member cast needs many readings — three per lesson, rotated by spotlight — to service the web. And structure-first discipline pre-commits the whole arc: the A1 seed is a concrete object chosen now, so you must know the B5 payoff before writing B1. The envelope and the empty chair are promises made at 250 words and kept for four books.
+The peak is held near 98% known. The new-word budget is spent in the calm, never on the turn. A turn that also teaches a word spends the reader's effort on the word. The feeling the turn was built to carry then has to wait. A chosen object standing in for a feeling, and a known thing left unsaid, are what the floor forces; the full treatment sits on Interiority.
 
-## The case against
+The want itself has to be folktale-strength, or a small register cannot state it. Hunger will do. A promise will do. A gift kept hidden will do. Compelling-input is useful as a test of that strength, not as a sufficient theory of how language is acquired. The two load-bearing wants on this project's first book — chosen family, and provision made in secret — are fully sayable at the first-book floor and deepen from there. A first-book reader can watch someone sit down at a table that is not theirs, and watch someone count an envelope and refuse a hand. The later books add the reasons. A want that strong carries the reader whether or not they are trying to improve. That is a teaching claim, and it inherits the hedge in the coverage section.
 
-The ceiling is only an instrument for stories whose depth lives in behavior and want. A story whose depth lives in linguistic texture — wordplay, register irony, dense interior monologue — loses its instrument under the floor and should not be built this way; the constraint amplifies the objective correlative and starves everything that needs the words themselves.
+The seed of a late payoff has to be a behavior the later book can re-show, never a stated theme. [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] is why a first-book behavior can pay off when the words arrive. [[wiki/Story Craft/The Iceberg and World as Pressure|The Iceberg and World as Pressure]] is why the hidden eighth of that behavior must be known to the writer, even when the page never says it.
 
-Show-don't-tell absolutism is the seductive failure. Refusing ever to state can leave an A1 reader unable to tell what just changed, and a minimal, well-placed tell is the cheapest comprehension anchor there is. A well-placed tell is a tool the floor invites — one plain "she was tired" can buy a whole scene of inference.
+Audio-first work in this project caps a scene at three or four speakers. A large ensemble is not a census to freeze. It is a reason to write many short readings — three to a lesson, rotated — rather than one crowded room.
 
-Omission fails when it is hollow (Hemingway's own warning): omitting what the author never worked out leaves a gap the reader senses as emptiness. An unstated wound works only because the author knows exactly what it is; the withhold reads as iceberg-deep precisely when the backstory is fully worked out, and reads as thin when it is under-specified. And atmosphere without a gap is decoration — aspect-to-aspect mood fragments that never resolve into want/obstacle/change waste the scarce word budget while looking like craft.
+## Price, case against, quit
 
-The pedagogy underneath is contested. i+1, the compelling-input hypothesis, and the exact coverage figures are influential craft scaffolding for graded readers, and they are not settled fact; treat them as the ramp's design guidance, checked against real readers, never as a guarantee that engineering the numbers produces acquisition.
+Every noun repeated for comprehension is a noun not spent on new texture. That is the priming tax, and the calm-beat budget at the first book is small. The ceiling is an instrument only for stories whose depth lives in behavior and want. Wordplay, register irony, and dense monologue lose their instrument here. Those stories should skip this page.
 
-## Quit signals
+Show-don't-tell absolutism is the seductive failure. A well-placed tell — "she was tired" — can buy a whole scene of inference. Omission fails when it is hollow. An unstated wound works only if the author knows exactly what it is; [[wiki/Story Craft/The Iceberg and World as Pressure|The Iceberg and World as Pressure]] is why that hidden eighth has to be written down somewhere, even if it never ships. Atmosphere without a gap is decoration.
 
-- A reading reads as a drill — the scene exists to exercise this level's word list. Compellingness is gone and the affective filter is rising. Re-beat from the want, and let the list serve the scene instead of the scene serving the list.
-- A reader stalls on a new word during the emotional turn. Coverage dropped below ~95% exactly where feeling was needed. Move the new words to the calm beats and hold the peak near 98% known.
-- An A1 hint is a stated theme rather than a re-showable object. Nothing concrete survives to be paid off at B4–B5. Replace it with a behavior that can be shown again — the always-paying, never-staying act carries what the word "sacrifice" would only announce.
-- The omission reads as empty rather than loaded. The hidden eighth was never worked out. Write the backstory even if it never ships, or the withhold reads as a blank.
-- More than three or four tracked speakers crowd a reading and a listener loses who is talking. Pronoun and name disambiguation is itself a vocabulary cost. Cut to one or two interiors and rotate the spotlight to the next reading.
+The pedagogy is contested. The coverage figures tell a writer where feeling is affordable. They do not promise that a text built to those figures will teach the language. A well-engineered 98% is not proof of acquisition. The test is the readers in the chair.
 
-## Checkable expectations
+When the reading has become a worksheet, the beat is rebuilt from the want. When the reader stalls on a new word at the turn, coverage has dropped: the new words move to the calm, and the peak is held near 98% again. When a first-book hint is a stated theme, it is replaced with a behavior the later book can re-show. When an omission reads empty, the backstory is written even if it never ships. When more than three or four people speak in one scene, interiors are cut and the rest of the cast rotates through later readings.
 
-- Shown only a character repeatedly refusing help, a B1 reader should infer she carries something alone before any line names it. If they cannot, the behavioral tell is too faint for the floor.
-- A B2 reading that finally states a motive should leave a reader able to restate both the fact and the reason, after one pass — the word and the reason acquired together. If either needs a second reading, the reveal outran the vocabulary.
-- A peak reveal should land its emotional beat within the sentence that follows it, with no explanatory line, and no reader should stall on a word inside that beat. A stall means the peak scene fell below coverage; a needed narration line means the plant failed upstream.
-- A late rupture should read as latent in the early specifics — objects and gestures seeded books before — with no new exposition at the payoff. A turn that reads as a cheat on re-read means the ceiling deferred the word without seeding the behavior.
+The checks are visible on the page. A character refuses help, and the reader infers she carries the load alone. A second-book motive reading yields the fact and the reason after one pass. A peak reveal lands in the next sentence: no stall, no narration line to explain what just happened. A late rupture reads as something that was already latent in the early objects.
+
+The same list that looked like a handicap is the instrument. Want stages early, in nouns a first-book reader already has. Interiority arrives on the clock the list sets. The numbers were never a promise that the language would be acquired.
 
 ## Related
 
-- [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] — the object and gesture that carry a feeling the floor gives no word for; this page's other half.
-- [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] — the PLANT→SPARK→PAYOFF rhythm that lets a behavior seeded at A1 pay off when the vocabulary finally lands.
-- [[wiki/Story Craft/Premise and Controlling Idea|Premise and Controlling Idea]] — the language-independent through-line that keeps a five-book arc coherent across the ramp.
-- [[wiki/Story Craft/The Iceberg and World as Pressure|The Iceberg and World as Pressure]] — omission as depth, and why the hidden eighth must be known before it is withheld.
+- [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] — the object-and-gesture half of this page: what a floor forces when feeling-words do not exist.
+- [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] — why a first-book behavior can pay off when the words arrive.
+- [[wiki/Story Craft/Premise and Controlling Idea|Premise and Controlling Idea]] — the language-independent through-line that holds a multi-book arc when theme-words will not exist for years.
+- [[wiki/Story Craft/The Iceberg and World as Pressure|The Iceberg and World as Pressure]] — why the hidden eighth must be known, and why hollow omission fails.
+- [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] — owns Lie / Want / Need; this page owns only the scheduling split, Want early and Need waiting.
+
+## Open Questions
+
+Whether 98% as a peak-scene design target survives a larger, non-fiction sample.
+
+How a marquee with no floor still holds the one-in-twenty rule in its run-ups.
+
+Whether a first-book tell is cheaper than a hollow object.
+
+## Sources
+
+- Hu, Hsueh-chao Marcella, and I. S. P. Nation. "Unknown Vocabulary Density and Reading Comprehension." *Reading in a Foreign Language* 13, no. 1 (2000). Fiction texts at 80 / 90 / 95 / 100% coverage; N = 66 university students; ~98% for adequate unassisted comprehension.
+- Laufer, Batia. "What Percentage of Text-Lexis Is Essential for Comprehension?" In *Special Language: From Humans Thinking to Thinking Machines*, edited by Christer Laurén and Marianne Nordman, 316–323. Clevedon: Multilingual Matters, 1989. The ~95% "minimally adequate" figure and the later Nation / Laufer coverage reviews.
+- Nguyen, Q. N., and D. T. H. Doan. "Beyond Comprehensible Input: A Neuro-Ecological Critique of Krashen's Hypothesis." *Frontiers in Psychology* 16 (16 October 2025): 1636777. Necessary-but-not-sufficient; does not argue that input should stop being comprehensible.
+- McKee, Robert. *Story: Substance, Structure, Style, and the Principles of Screenwriting*. New York: ReganBooks, 1997. The gap as expectation minus result.
+- Egri, Lajos. *The Art of Dramatic Writing*. New York: Simon & Schuster, 1946. Premise (*X leads to Y*) held apart from bone structure.
+- Harmon, Dan. Channel 101 / *Community* lectures on the story circle. The eight-beat nest; claimed to scale from scene to season. Lineage through Christopher Vogler, *The Writer's Journey*, and Joseph Campbell, *The Hero with a Thousand Faces*.
+- Eliot, T. S. "Hamlet and His Problems." In *The Sacred Wood*. London: Methuen, 1920. Objective correlative: a chosen object standing in for a feeling.
+- Hemingway, Ernest. *Death in the Afternoon*. New York: Scribner, 1932. Omission, and the warning that it fails when hollow.

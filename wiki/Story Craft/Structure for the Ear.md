@@ -3,135 +3,123 @@ title: "Structure for the Ear"
 type: technique
 status: developing
 created: 2026-07-27
-updated: 2026-07-27
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
-  - audio
-  - dialogue
-  - structure
-  - pacing
   - story-craft
+  - audio
+  - radio
+  - structure
+flag-reason: "cluster held — Story Craft; opener is owner-picked Opus A. Do not promote."
 ---
 
-# Structure for the Ear - Audio-Only Structure from the Cast Ceiling to the Completion Curve
+# Structure for the Ear
 
-## Core Thesis
+Structure for the ear starts from a hard fact about the medium: on a recording, a character exists only while they are speaking or while someone says their name. A silent presence, which on a stage still presses on a scene, is simply not in the room. So people have to be bought back into the listener's picture line by line, entrances and exits have to be audible, and anything the eye would have carried has to be carried by something that makes a sound. The check that catches all of it is listening rather than reading, because the page keeps showing you people who are not there.
 
-In audio a character exists only while speaking or being named — a silent presence does not exist — and the rest of audio structure unwinds from that fact: the ear is the story's only channel, so every structural unit is built from the sounds that carry information, and every structural judgement is verified in sound. The writer's ear runs the first audit, reading the script aloud against the clock; the audience's ears run the last, voting with a drop-off timestamp on the completion curve. A structure designed for the ear is measured in sound at every scale the form has.
+## Voices, the sequence, the four dials
 
-## Compressed Takeaways
+On stage or screen a silent body still occupies space. In audio that character has ceased to exist. Existence has to be re-purchased continuously: a line of their own, or someone else's line that uses the name. A person standing in the corner of a kitchen, saying nothing, watching, is a pressure on camera. On a recording they are not in the kitchen. They are not anywhere. The next time they speak they have to re-enter, as if the room had never held them.
 
-- Six characters is the ceiling for a half-hour play; past six the listener risks confusing them. The listener knows a character exists only when that character speaks or is named by another — a character who merely stands in the room has vanished.
-- Per scene, three to four speakers; an unavoidable group scene gets one dominant speaker and frequent name-checks. (This specific rule survives only on secondary craft sites repeating BBC guidance.)
-- The unit is the sequence, and it can be one line of dialogue or a single effect. Cut straight to the sound that carries information.
-- Variety is the attention mechanism, on four dials: sequence length, speaker count, dialogue pace, location. The named high-value contrasts: a noisy many-voice sequence against a quiet interior monologue; indoor against outdoor.
-- Effects are used sparingly — functional or mood — and become tedious and pointless in excess. Silence is a writing tool in its own right; pauses let listeners absorb what they heard and prepare for what comes next.
-- Runtime is measurable only by reading the script aloud against the clock, with allowances for effects and music. A broadcast slot is fixed and the script is cut to it.
-- Two rules govern every transition, whichever technique carries it: establish non-naturalistic conventions early, and let the last line before the cut foreshadow the new location.
-- A new scene is signalled by a change in the texture of the ambient bed, and place is re-established by layering — background wash first, foreground detail second. Acoustics must match the actors or the image collapses.
-- Audio comedy establishes a premise, escalates it roughly three times, and exits on the strongest line. The pause is a punchline of its own — once the ensemble is established enough for the listener to fill the silence.
-- A cold open primes mood, scene, stakes, and a question the listener now needs answered; most shows lose listeners in the first few minutes, and episodes close on a question, revelation, or cliffhanger.
-- Chapter markers lift completion roughly 8% — an industry figure with no stated methodology, like the completion benchmarks around it. A consistent drop-off timestamp across episodes locates a structural fault at that minute of the show.
+The **speaker cap** for a half-hour play written for strangers is six. Past six, the listener risks confusing them. That number comes from a national broadcaster's radio-play guide, and it is the one census on this page that is primary in that sense. It was written for people who have never heard these voices before and will not hear them next week.
 
-## Six voices, none silent
+Per scene the working number is three or four. When a group cannot be avoided, one voice leads and names get said often. That rule is practice, not the same guide. Two independent practitioner clusters treat three-to-four as the field norm, two-handers as the workhorse, and five-plus as a scene that needs strong vocal contrast. It is still practice. It is not a finding, and it is not a citation to invent for the broadcaster.
 
-A BBC drama producer's guide states the ceiling as a flat rule: "Do not have more than 6 characters in a half hour play. There is a risk of confusion if you do." The guide's corollary: "the listener only knows the character exists if that character speaks, or if another character refers to him or her by name." On a stage or a screen a character can sit in the corner all scene and still press on it. In audio that character has ceased to exist — there is no corner, no glance, no body in frame. Existence must be re-purchased continuously, in speech or in a name spoken by someone else. The ceiling's price falls on the ensemble: crowd texture and the full-room scene are what the cap spends, and a larger cast must be staged across scenes or episodes instead of assembled at once.
+The cap's price is crowd texture. The full-room scene is what the number spends. A larger cast is staged across scenes, not inside one. A wedding, a market, a staff meeting — those rooms exist as a sequence of smaller rooms, or as one room with one person talking and the rest named. [[wiki/Story Craft/Character Voice|Character Voice]] is the other half of that ceiling: the dials that keep six voices six. In audio the tag does not exist, so a line that cannot be assigned before any tag is not a virtue. It is the requirement.
 
-The scene-level version of the ceiling is three to four speakers, with a repair for the scenes that cannot obey it: give the group one dominant speaker, and name-check the others frequently so they keep flickering back into existence. This per-scene rule carries a caveat the half-hour rule does not — it is confirmed only from secondary craft sites repeating BBC guidance, with no BBC-authored document located behind it.
+The unit is the **sequence**. It can be one line. It can be a single effect. It lasts as long as its informative sounds last. The cut goes straight to the sound that carries information.
 
-## The sequence
+```text
+weak
+FX: car draws up. Engine off. Door. Feet on gravel. Key in lock.
 
-The guide's structural unit is the "sequence," and it has no minimum length: a sequence can be one line of dialogue, or a single effect. A worked pair makes the cut concrete. The NO version: a car draws up, the engine switches off, the door opens, feet walk to the house, a key turns in the lock — a chain of sounds faithfully reproducing an arrival, none of which the story needs. The YES version: "FX: KNOCKING AT DOOR," straight into the line. The instruction underneath the pair: get to the sound that carries information. Naturalism is a spending habit the ear does not reward; a sequence is exactly as long as its informative sounds, and a scene that would take a page of establishing action in another medium is legal in audio at one knock and one sentence. The cut's price is texture: the naturalistic sound it removes is the same sound that builds place, so a script trimmed hard to informative sounds leans that much harder on its ambient beds to keep the world physical.
+strong
+FX: knocking at the door.
+   — and the line that answers it.
+```
 
-## Variety on four dials
+The knock that replaces the five-sound arrival is the effects budget applied. Naturalism is a spending habit the ear does not reward. A listener who has already understood "someone is at the door" does not need the car, the gravel, and the key. Those five sounds were a film-school arrival, played for an ear that cannot see the drive. The honest price of the cut is the sound that used to build place. A hard-trimmed script leans on an **ambient bed** — the background wash that says where we are — because the footsteps and the key no longer will. [[wiki/Story Craft/Setting as Character|Setting as Character]] is how that wash becomes pressure: place exists as a bed with acoustics that match the actors, and layering is how the pressure is established in sound.
 
-With no minimum sequence length, what holds a listener is variety, and the guide names it as the attention mechanism with four dials: the length of sequences, the number of people speaking, the pace of the dialogue, and the location of the action. Each dial is a dimension along which the next sequence can contrast with the current one, and the contrast is what re-grips the ear. The guide's named high-value contrasts sit at the extremes of two dials at once: a noisy sequence with many voices against a quiet interior monologue, and indoor against outdoor. A script whose sequences run the same length, at the same pace, with the same three voices in the same room, has every dial at rest — and no single sequence needs to be badly written for the whole to go slack. The mechanism's price is a scheduling pass: contrast is planned across the script, sequence against neighbouring sequence, on top of the work of writing each sequence well.
+Variety is the attention mechanism. It runs on **four dials**: sequence length, speaker count, dialogue pace, and location. The high-value contrasts are a noisy many-voice stretch against a quiet monologue, and indoor against outdoor. A two-minute kitchen argument next to a twenty-second street crossing next to a one-voice room is the mechanism working. A script whose sequences run the same length, the same pace, three voices, the same room, has every dial at rest. No sequence needs to be badly written for the whole to go slack. The mechanism's price is a scheduling pass, each sequence read against its neighbour, the way a cut is judged against the cut before it.
 
-## Effects and silence, rationed
+The four dials resist falsification after the fact. They earn their keep only prospectively, as a revision instrument. That case is taken up after the clock.
 
-The guide's rule for effects is a budget: they "should be used sparingly and effectively," doing one of two jobs — functional (a door opening) or mood (dogs barking in the distance) — and "if used to excess they become tedious and pointless." The knock that replaces the five-sound arrival is this budget applied: the faithful chain is excess, one informative knock is the spend.
+Effects are used sparingly, for function or for mood. Excess is tedious. A door that slams every time someone is angry stops meaning anger. Silence is a writing tool. Pauses let a listener absorb and prepare. In a medium that is nothing except sound, the absence of sound is a marked event. A held breath after a name, a room that goes still before a decision — those are writing, not empty tape.
 
-Silence sits on the guide's list of writing tools with a positive job description, conveying suspense, anxiety, or tranquility, and pauses "help listeners take in what they have heard and help prepare for what happens next." In a medium that is nothing except sound, the absence of sound is a marked event — which is why it works, and why it obeys the same ration as the effects.
+## Cuts, comedy, the clock
 
-## Eight ways across a cut
+Two transition rules do most of the work, and both come from a single self-published studio blog. They are not the broadcaster. Non-naturalistic conventions are taught early — a harp, a sting, a fade that does not occur in rooms — and that teaching is a spend of early runtime. The last line before a cut foreshadows the new location. The cut is seeded one line before it happens. "I'll see you at the harbour" is not decoration. It is the harbour arriving a sentence early, so the new wash has somewhere to land.
 
-A studio transition catalogue names eight techniques:
+A scene change arrives as a change in the wash under the voices. Place is re-established by layering: the wash first, a foreground detail second. A café is the room-tone of cups and talk, then one cup set down. Acoustics have to match the actors. Interiors are reverberant and wet. Exteriors are flat and dry. A mismatched effect destroys the image the voices were building: a tiled kitchen with a dry outdoor footstep, a street with a bathroom slap. Perspective can flip by promoting a background sound to the foreground — the rain that was weather becomes the rain someone is standing in. Scene-change signalling is the complaint productions hear most often, which is why some of them give each location a short sound-mark. That, too, is practice.
 
-1. **Pause and fade** — a 4–15 second fade, ending the scene on unimportant words so that listeners at low volume lose nothing that matters.
-2. **Narration bridge** — a narrator carries the cut, needing only a 3–5 word fade off the prior scene.
-3. **FX or ambience crossfade** — one soundscape dissolves into the next.
-4. **Music sting** — an auditory curtain dropped between scenes.
-5. **Combination** — any of the above stacked.
-6. **Conventional symbols** — the harp glissando that means flashback; the tradeoff is cliché.
-7. **Dialogue on the move** — the voices themselves fade away and fade back in the new place.
-8. **Moving microphone** — the voices stay foreground and the effects change around them, the perspective walking while the speakers hold still.
+Audio comedy establishes a premise, escalates it roughly three times, and exits on the strongest line. The strongest line is spent leaving. The scene does not linger to enjoy itself. A pause can be the punchline once the ensemble is established enough for the listener to fill the silence. If the listener cannot yet predict the character, the same pause is dead air. How much establishment is enough is still an open question on this page. Live-audience shows have a further mechanical demand: the script has to leave air for the laugh, or the next line is walked on. [[wiki/Story Craft/Tonal Modulation|Tonal Modulation]] holds the register-scale version of the same variety law: a beat lands in proportion to the contrast around it. The four dials are that law's audio-surface instruments. The exit-on-the-strongest-line shape sits beside that page's timing rule for comic relief — after the crest, never on the beat still working.
 
-Two rules govern the whole menu. Non-naturalistic transitions must be established early, so the convention is taught before it is leaned on — and the teaching is a spend of its own, early runtime doing orientation work instead of story work. And the last line before the cut should foreshadow the new location, so the listener lands already oriented — the cut is seeded one line before it happens.
+The only reliable runtime is a spoken read against a clock, leaving room for effects and music. Page count will not do it. A silent read will not do it. The slot does not move. The pages do. One such slot, the origin of the discipline rather than a law for podcasts, is exactly 28 minutes excluding intro and credits. Each structural pass is another full spoken performance. That is the price of knowing whether the cut is shorter, and whether the story is still there.
 
-What the cut lands on is governed by the sound-effects craft. A sound-effects outline has the new scene announce itself as a change in the texture of the ambient bed, and place re-established by layering: the background wash first, the foreground detail second. The layers must agree acoustically with the actors — "An effect that doesn't sound like it's in the same place as the actors can destroy the image you were trying to build" — interiors reverberant and wet, exteriors flat and dry. The same layering runs in reverse as a camera move: perspective can flip by promoting the current background to the foreground.
+A podcast has no slot. The read-aloud survives. Which cutting disciplines survive without an external force is untested here. The industry default for a narrative podcast is three acts and a cold open; one major studio runs five acts and a cold open. Neither is a law. They are shapes people already know how to listen to.
 
-## The comedy shape
+A cold open primes mood, scene, stakes, and a question. Practitioner consensus, unmeasured on this page, is that most shows lose listeners in the first few minutes, and that starting slowly is the medium's single most reliable way to do it. The open's price is that the arresting beat is spent on orientation: the thing that would have been a later payoff is spent so the listener knows where they are and why they should stay. The close mirrors the open: a question, a revelation, or a cliffhanger, so the next episode inherits a debt.
 
-Audio comedy has a stated shape: establish the premise, escalate it roughly three times, then "kick the exit down with a killer punch-line." The strongest line is spent leaving, and the scene does not linger to enjoy it.
+## What the cap spends, and what the instrument costs
 
-The pause is a punchline in its own right. One radio comedian's method was to stop and wait — the laugh lived in the silence, where the listener supplied what the character would be thinking. The precondition: the silence only works once the ensemble is established enough that the listener can fill it. A pause in a show whose characters the audience cannot yet predict is dead air; the same pause, once the audience can predict the character, is the joke. Live-audience shows carry a cousin of the rule — the script must leave air for the laugh.
+Six voices as a ceiling was a rule for a single half-hour play heard by people who had never met the cast. A serialized podcast with a returning cast and distinct actors breaks both conditions. The listeners already know the voices. The actors already sound unlike each other. Whether six still binds is untested here. Voice *differentiation* is the wall, not a headcount. A serial that has already taught its listeners who is who may retire the cap and verify the retirement by ear.
 
-## The clock is read aloud
+The four dials, used after the fact as a post-mortem, cannot be falsified. A slack episode can always be described as a dial at rest. They earn their keep as a revision instrument: sequence against neighbour, before the record button. Used that way they are a checklist. Used as a diagnosis of a finished episode they will confirm whatever the writer already believes.
 
-Runtime is measured by performing the script. The guide: "The only reliable method is to read the script aloud against the clock, making allowances for sound effects, music." The broadcast context makes the stakes exact — the slot the guide was written for ran to exactly 28 minutes excluding intro and credits; the slot is fixed and the script is cut to it. The rule's price is that every structural pass costs a full performance of the script, out loud, with the effects and music allowed for.
+Complete fiction often runs about ten to twenty-five minutes. One daily serial has run about thirteen minutes since the early 1950s. Speech rates differ by language. Some shows hybridize a case-of-the-week with a serial frame. Those lengths are the clock a podcast writer actually cuts to. They are not the 28-minute slot, and they are not a finding. They are the texture the slot does not give: a thing that can be finished on a walk, or that returns tomorrow at the same length.
 
-## The open, the close, and where listeners leave
+The completion curve reads intent it cannot see. A dip may be topic, not shape. A stretch people leave because the subject went dead will look, on a chart, like a stretch people leave because the sequences ran the same length. The measuring instrument is the steepest cost of the method. A writer who cannot spend performance time cannot run the method as stated. There is no cheaper substitute that still hears the room.
 
-At episode scale the default shape in narrative podcasting is three acts fronted by a cold open; one major studio runs five acts plus the cold open. The cold open's job is priming: setting "the mood, imagining a scene, sharing what's at stake… and forcing them to ask some sort of question that they now need answered." The format is loose — one cited example runs 35 seconds — and the job description is the whole spec: a mood, a scene, stakes, and a question now owed an answer. The reason the open carries this much weight is blunt: most shows lose listeners in the first few minutes. The open's price is its material: the beat arresting enough to open on is spent on orientation before the story proper begins. The close mirrors the open — end on a question, a revelation, or a cliffhanger, so the episode hands the next one its opening debt.
+## Cold listen, drop-off, quit
 
-Inside the episode, chapter markers lift completion by roughly 8%, and Apple Podcasts auto-generates chapters from transcripts for English shows when none are supplied — so an English show has chapters whether or not the writer chose them. The cited completion benchmarks: 60%-plus reads as compelling, with averages of 70–80% depending on genre. All three numbers — the two benchmarks and the 8% lift — are industry-checklist figures with no stated methodology. The diagnostic stands without them: a consistent drop-off timestamp across episodes points at a structural fault at that minute — an early ad, a dragging intro, a dead mid-section.
+A **cold listen** is the episode heard without the script in hand. Every line has to be assignable. Every character has to be listable. A forgotten presence is the failure. The test is not whether the writer remembers who was in the room. The test is whether a stranger, hearing it once, can name them. That is the same assignable-before-tag requirement [[wiki/Story Craft/Character Voice|Character Voice]] states as craft, hardened by a medium in which the tag does not exist.
 
-## The case against
+A sequence-cutting pass shows on the clock: a shorter read, and no story beat lost. If the read is shorter and a want, a reversal, or a name has gone missing, the cut was the wrong cut. The first production teaches the correction: speak the pages, make the episode, measure the difference. The gap between the spoken estimate and the finished length is the allowance that later drafts already include.
 
-The six-voice ceiling was written for a one-off half-hour broadcast play heard by strangers. A serialized podcast breaks both conditions: a returning cast arrives pre-distinguished — the listener already knows the voices — and distinct actors buy apartness the writing did not have to purchase. Whether six binds at all under those conditions is untested in this material, and a serial that obeys the cap out of caution pays the ensemble price for a constraint it may no longer have.
+A **drop-off timestamp** is the minute listeners leave, consistently across episodes. A repair at the dip should move the dip or dissolve it. If the same minute keeps emptying after the structure around it has been rebuilt twice, the structure was not the fault. Industry benchmarks play no part in the check. Chapter markers exist, and one large platform will auto-generate them from English transcripts when none are supplied. A lift figure attached to those markers has no stated methodology on this page and is not used as a target.
 
-The four dials resist falsification. Any script that went slack can be re-described afterwards as dials-at-rest, and any script that held can be re-described as contrast; the mechanism earns its keep only prospectively, as a scheduling instrument during revision, and used after the fact it can explain any outcome.
+When the read-aloud is eating the schedule, the next move is one full performance per draft, not a pass on every line. When the cast cap is starving the story, a serial retires the cap and verifies by cold listen. When variety is being added the scenes did not need, the draft is written without the dials and they return as a revision check. When a drop-off has survived two structural repairs, restructuring stops. The content is what is left to re-examine.
 
-The completion curve reads intent it cannot see. A consistent drop-off timestamp says listeners left; it cannot say whether the fault is structural or whether the material at that minute is a topic the audience did not want. The repair menu — turn a dial, cut a sequence, re-seed a transition — assumes the structural reading, and applied to a topic problem it restructures an episode whose shape was never the issue.
+## What is established and what is a blog
 
-The discipline's one measuring instrument is also its steepest cost: a full read-aloud performance per structural pass, with no cheaper approximation offered anywhere in the material. A writer who cannot spend performance time at that rate cannot run the method as stated.
+Established, for the brief they were written for: a silent presence does not exist; six voices is the ceiling on a stranger-heard half-hour; a sequence is an informative sound and may be one line or one effect; variety runs on four dials; silence is a tool and effects are spare; runtime is a read-aloud against the clock; one broadcast slot is 28 minutes excluding intro and credits. Those are the load-bearing receipts from the radio-play guide. They were written for a competition slot and a listener who had never met the cast. They remain the best-sourced half of the page.
 
-## Quit signals
+Practice, or a single blog, and graded that way in the same breath: three to four speakers per scene; ambient layering and matching acoustics; comedy that escalates and exits; the two transition rules (teach the convention early, seed the cut one line before); an eight-item menu of fades, narration bridges, stings, conventional symbols, moving dialogue, and a moving microphone, with timings such as four-to-fifteen-second fades and three-to-five-word bridges. The menu and its numbers inherit the grade of one studio blog. They are not a law, and they are not the broadcaster. A writer who treats the eight-item list as a required kit will spend early runtime teaching conventions the episode may not use.
 
-- Read-aloud passes are eating the schedule while the script is still moving: drop to one full performance per draft, time the in-between passes roughly, and accept the drift until the final cut.
-- The cast cap is starving the story — scenes keep needing a seventh voice, and the repairs (one dominant speaker, constant name-checks) are audible as repairs. For a serialized show with an established cast, retire the cap and verify distinctness by cold listen instead.
-- The dials are producing contrast the material did not ask for — sequences varied for variety's sake. Draft in story order without them, then run the dials as a revision check only.
-- A drop-off dip has survived two structural repairs at the same timestamp. Stop restructuring and re-examine the content at that minute; the curve has stopped saying anything about shape.
+Unmethodologized, and refused as targets: an 8% lift from chapter markers, a 60% floor for a compelling episode, a 70–80% band for an average. One platform documents that chapters exist. It does not publish those lifts. Regeneration does not add data the sources do not have. A timestamp that moves after a repair is a check. A percentage copied from a trade post is not.
 
-## Checkable expectations
+The six-cap was written for strangers in a single half-hour. A writer without performance time cannot run the clock as stated. The completion curve cannot see the difference between a structural fault and a subject people leave. Those three bounds are the case against the method, not a reason to skip the cold listen.
 
-- The cast ceiling and the name-check repair are checkable in one cold listen, script out of hand: every line assignable to its speaker, every character in the scene listable at its end. A character you forgot was in the room is the audible failure case.
-- A sequence-cutting pass shows up on the clock: the next read-aloud runs shorter with no story beat lost. A pass that leaves the read the same length trimmed words and left the sequences standing.
-- The read-aloud measure calibrates itself on first use: time the read, produce the episode, compare. The gap between timed read and produced runtime is the correction for every later pass.
-- The drop-off diagnostic is checkable on a show's own analytics: a repair at the dip's timestamp should move or dissolve the dip in later episodes. The industry benchmarks play no part in the check.
+Structure for the ear is verified for the ear at every scale. The cap, the sequence, the cut, and the clock are the same test: listen, and see who is still in the room.
 
-The script was designed sequence by sequence for an ear, measured by an ear reading aloud against a clock, and is finally audited by thousands of ears voting with a timestamp — the completion curve is the read-aloud test administered by the audience. When the curve dips, the repair is made with the same instruments the design used: a dial of variety turned, a sequence cut to its informative sound, a transition re-seeded, a voice ceiling re-imposed. Structure for the ear is verified for the ear, at every scale the form has.
+## Related
 
-## Links Into the Knowledge Base
-
-- [[wiki/Story Craft/Character Voice|Character Voice]] — the cast ceiling and that page's dials are two halves of one constraint. Six voices are only six if the listener can tell them apart, and the dials that page names — sentence length and rhythm, register, a signature form — are what let a line find its speaker without a tag. In audio the tag does not exist, so that page's opening claim (the line is assigned to its speaker before the tag arrives) hardens from a virtue into a requirement.
-- [[wiki/Story Craft/Tonal Modulation|Tonal Modulation]] — holds the register-scale version of the variety mechanism this page states for sound: a beat lands in proportion to the contrast around it, and no single tone plays long enough to go dead. The four dials are that law's audio-surface instruments, and the noisy-crowd-against-quiet-monologue contrast is tonal modulation executed in texture alone. The comedy shape here — escalate, then exit on the strongest line — sits beside that page's timing rule for comic relief.
-- [[wiki/Story Craft/Setting as Character|Setting as Character]] — a place that presses on the cast must first exist for the listener, and in audio it exists as an ambient bed with matching acoustics. The layering rule — background wash first, foreground detail second — is the audio mechanism for establishing the place that page then puts to work, and the acoustics-match warning is what its pressure costs when violated: a place that sounds wrong stops existing at all.
+- [[wiki/Story Craft/Character Voice|Character Voice]] — the cast ceiling and that page's dials are two halves; in audio the tag does not exist, so assignable-before-tag hardens from virtue to requirement.
+- [[wiki/Story Craft/Tonal Modulation|Tonal Modulation]] — register-scale variety; the four dials are that law's audio instruments; comedy exit sits beside comic-relief timing.
+- [[wiki/Story Craft/Setting as Character|Setting as Character]] — place exists as an ambient bed with matching acoustics; layering is how that page's pressure is established in sound.
 
 ## Open Questions
 
-- The per-scene three-to-four-speaker ceiling traces only to secondary craft sites repeating BBC guidance; no BBC-authored document stating it has been located. It stands here as practice consistent with the guide's corollary, one trust tier below its verbatim rules, until a primary statement surfaces.
-- The eight-technique transition menu, numeric prescriptions included (the 4–15 second fade, the 3–5 word narration fade), rests on a single self-published studio blog; no second source for the catalogue or its numbers has been located.
-- The ceiling is stated for the half-hour play. Whether six scales with runtime — and by what rate — the material does not say.
-- The rules were written for a fixed broadcast slot cut to exactly 28 minutes. A podcast has no slot. The read-aloud rule survives the slot's removal — it measures runtime whatever the target — but which of the cutting disciplines survive when nothing external forces the cut is untested in this material.
-- The completion benchmarks (60%-plus compelling, 70–80% averages, the 8% chapter lift) are analyst-grade industry figures with no stated methodology. The drop-off-timestamp diagnostic is checkable per show and does not depend on them; the benchmarks themselves should not be treated as thresholds with evidence behind them.
-- The pause-as-punchline needs an ensemble established enough for the listener to fill the silence, and the material does not say how much establishment is enough, or how a new show earns its first usable pause.
+Whether the per-scene three-to-four cap, which survives only on secondary craft sites, should bind a serial the way the six-voice half-hour cap binds a one-off.
+
+Whether the eight-technique menu and its timings, which come from one studio blog, earn a place as more than a checklist.
+
+Whether six scales with runtime — a ten-minute episode and a fifty-minute episode asking the same census.
+
+Which cutting disciplines survive when there is no 28-minute slot to cut to.
+
+Whether any of the published completion benchmarks can be given a methodology.
+
+How much establishment a pause needs before it is a punchline rather than dead air.
 
 ## Sources
 
-- Fiona Ledger, BBC Drama Producer, *How to Write a Radio Play* (BBC World Service; primary text mirrored at Lancaster University). The cast ceiling, the silent-presence corollary, the sequence and its NO/YES pair, the four dials of variety, the effects and silence rules, and the read-aloud runtime rule are hers; quotes are verbatim from the mirrored text.
-- "9 Great Techniques for Scene Transitions," weirdworldstudios.com — the eight-technique menu, the tradeoffs, and the two rules over the menu.
-- Stearns & Price, "Outline of Sound Effects," greatnorthernaudio.com — the ambient bed, the layering order, the acoustics-match warning, and the background-to-foreground perspective flip.
-- "Writing for Radio," thecomedycrowd.com, and commonplacefacts.com on the Jack Benny Program — between them, the establish-escalate-exit comedy shape, the pause as method, and its ensemble precondition.
-- podgagement.com, completion-rate checklist, and ireplay.tv on Apple Podcasts chapters — the chapter lift, the auto-generation behavior, the benchmarks, and the drop-off diagnostic; analyst-grade rather than experimental.
-- lowerstreet.co, "How to Structure a Podcast," and thepodcasthost.com on cold opens — the episodic defaults (Airship, PAVE Studios, Black Barrel Media), the priming account of the cold open, the 35-second example, and the close-on-a-question rule.
-- The per-scene speaker ceiling: epicscribe.io and stage32.com, both secondary, both repeating BBC guidance.
+- Fiona Ledger, BBC World Service. *How to Write a Radio Play* (African Performance guide). Silent-presence law; six-character ceiling for a half-hour play; sequence as one line or one effect; four dials of variety; silence and spare effects; read the script aloud against the clock; 28 minutes excluding intro and credits. Mirrored at bbc.co.uk/worldservice and Lancaster teaching copies.
+- "9 Great Techniques for Transitioning Between Scenes in Audio Drama," weirdworldstudios.com. The two transition rules and the eight-item menu with 4–15s / 3–5 word figures. Single self-published studio blog.
+- Rob Stearns and D. Price, greatnorthernaudio.com. Ambient beds, layering (wash then foreground), matching acoustics, wet interiors / dry exteriors, perspective by promoting background to foreground.
+- thecomedycrowd.com, on audio-comedy shape (premise, escalate, exit). Jack Benny Program as the commonplace for pause-as-punchline; commonplacefacts.com is a weak cite for that tradition.
+- lowerstreet.co and thepodcasthost.com. Cold open as mood / scene / stakes / question; three-act-plus-cold-open as the narrative-podcast default; one major studio (Airship / related) running five acts plus cold open. Practitioner consensus that the first minutes lose listeners.
+- Apple creator documentation on podcast chapters and transcripts. Auto-generation of chapters from English transcripts when none are supplied is reported by industry press in 2025 (ireplay.tv and others). Apple documents that chapters exist. It does not publish an 8% completion lift.
+- epicscribe.io and stage32.com as secondary restatements of a 3–4 per-scene practice. Not BBC-primary.
+- podgagement.com / related completion-benchmark commentary. No methodology attached to the 60% / 70–80% bands used in trade writing.

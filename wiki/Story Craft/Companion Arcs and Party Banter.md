@@ -3,64 +3,100 @@ title: "Companion Arcs and Party Banter"
 type: technique
 status: developing
 created: 2026-07-09
-updated: 2026-07-20
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
   - ensemble
   - games
   - relationship
   - story-craft
+flag-reason: "cluster held — Story Craft; opener is owner-picked Opus A. Do not promote."
 ---
 
 # Companion Arcs and Party Banter
 
-A companion's crisis lands only to the degree its detonating trait was planted earlier in quiet downtime the reader already lived through — so give each recurring character one dedicated arc-closing beat and pay for it in advance with scenes that look like filler and are the setup half. The craft is CRPG party-banter logic transposed to prose: build the bond as a running state that never resets, keep the cast alive between big beats with cheap ambient exchanges, and stage every payoff so the confidence it detonates was seeded long enough ago that the reader owns it before the story spends it.
+A companion arc is one closing beat for a recurring person, paid for in advance. The beat spends a habit — the thing this character always does — and it lands only if the reader has already sat with that habit long enough for it to read as a person rather than a trait. That sitting is what the small talk is for. A salute delivered to someone who holds no rank, binoculars produced when nobody asked, enthusiasm arriving at the wrong volume in a quiet room: those scenes look like leftover conversation, and they are the payment. What they buy is that the closing beat costs something when it comes.
 
-## The loyalty mission: one arc-closing beat per companion
+## One beat, a sticky bond
 
-Give each ensemble member a single discrete beat that belongs to them alone, resolves their private thread, and shifts the ending — the model is the Mass Effect 2 loyalty mission, where one dedicated per-companion quest unlocks capability and flips endgame survival, so a squadmate you invested in walks out of the finale alive. The transferable rule is scarcity: one big arc-closing beat per character.
+Those cheap lines are party-banter logic moved into prose. Three disciplines sit in one breath: the bond is a running state that never resets; the cast stays alive between big beats with cheap ambient exchanges; every payoff detonates a confidence that was seeded long enough ago that the reader already owns it.
 
-The beat changes the finale, the way a loyalty mission changes who survives. Reserve the loyalty beat for the character whose arc can bear full weight — not every member needs one, and a deliberately flat character stays fixed texture on purpose: [將軍](/tsumugu/cast/general.html) the café cat runs a gag and a grace note, no arc, and treating him as under-developed is a misread.
+The published model is one dedicated per-companion quest that unlocks a capability and flips who remains at the end. The title sits in Sources. What transfers is scarcity: **one** big arc-closing beat per character. That is a choice. Another published ensemble runs multi-act companion stories; this page takes the one-beat rule, not the multi-act one. A reader who knows the longer form will think the page is wrong without that clause.
 
-## The approval economy: actions that stick
+That **loyalty beat** is one discrete scene that belongs to them alone, resolves their private thread, and shifts the ending. It changes the finale the way the published quest changes who survives. In a no-death charter, "survival" is who is still *with* you — still in the room, still answering, still bound. Not every member needs one. [將軍](/tsumugu/cast/general.html) the café cat runs a gag and a grace note, no arc. Treating him as under-developed is a misread. Reserve the loyalty beat for the character whose arc can bear full weight.
 
-Track the bond as a running state that carries forward and never resets to zero, moved by every beat that touches it — this is the Baldur's Gate 3 and Dragon Age approval system, which Larian's Stephen Rooney describes as making actions "stick" so companions remember and react, with high approval easing but not erasing a later trust or romance check. In an interactive game the player moves the meter; in a graded reader the author does, so the mechanic transfers as a discipline rather than a system: small clashes accrete toward the big one, and no scene gets to reset the relationship for narrative convenience.
+The bond itself is tracked as a running state that carries forward and never resets to zero. Call it **approval**, or the meter: a discipline, not a scoreboard. In a graded reader the author moves it, so the mechanic transfers as a habit of not cheating the ledger, not as a system the reader farms. Actions stick. Companions remember and react. High approval eases a later trust check. It does not erase the check. Romance-check wording does not transfer; the series does not run that system.
 
-The clash beats double as the deposits. Every ⚔️ conflict where no one is right seeds the larger value-collision it rhymes with, so a reader who feels a late rift between two central characters has been watching the meter move for chapters beforehand. Hold the "small wins are big" resolutions off the vending-machine track: a hard circumstance easing without fully resolving keeps the meter climbing without letting the crisis tidy into victory.
+Small clashes accrete toward the big one. No scene gets to reset the relationship for narrative convenience. Every no-one-is-right conflict seeds the larger value-collision it rhymes with. The clash beats double as the deposits.
 
-## Ambient party banter, keyed to who is present
+Hold **small wins** off the **vending-machine track**. A hard circumstance eases without fully resolving. The meter can climb without tidying into victory.
 
-Populate the space between big beats with automatic short exchanges keyed to which characters share the scene — Mass Effect 2 fires a specific Garrus line when he is on Mordin's mission, and Avellone's baseline is that companions need brief barks or conversations reacting to the player to read as alive at all. A hard cap on how many voices can share a scene turns this from a luxury into a forcing function: when only two or three characters can occupy a scene at once, rotating *which* two unlocks pairing-specific micro-exchanges, and the reader who tracks who is present is rewarded with reactivity for the cost of a line. Put [白龍](/tsumugu/cast/bai-long.html) in a scene with [金多恩](/tsumugu/cast/kim-da-eun.html) and the slow-burn deadpan-meets-watcher texture fires; pair [星野](/tsumugu/cast/hoshino-haruka.html) with [林薇](/tsumugu/cast/lin-wei.html) and the belonging-swap friction surfaces — the foreigner in love with Taiwan against the local aching to leave. The running gags are the cheapest reactivity of all — [將軍](/tsumugu/cast/general.html) saluted as a literal military General, [白龍](/tsumugu/cast/bai-long.html)'s binoculars and Starlink-skeptic deadpan, [星野](/tsumugu/cast/hoshino-haruka.html)'s over-enthusiasm — each a recurring bark that signals a living relationship without spending plot.
+**The crisis spends a habit the reader already sat with.**
 
-Scarcity is the whole value. Banter registers only against silence; wall-to-wall chatter makes every line cheap and no line land. Ration it so a specific pairing's exchange feels earned by their being together.
+## Banter, camp, ramp
 
-## Campfire, then battle
+The space between big beats is populated with automatic short exchanges keyed to which characters share the scene. That is **party banter**: a line that fires because *these* two people are in the room, not because the plot needs a line. Companions need brief reactions to the person they travel with, or they do not read as alive at all. A composition-keyed bark — one companion reacting to another's private mission — is the published proof that the mechanism exists. The example sits in Sources.
 
-Stage the plant in a calm scene and fire it in the next stress scene — the quiet beat is Chekhov's gun mounted, the test is the gun going off. The calm scene banks a trait at rest; the stress scene cashes it under pressure, and the second beat reads as earned only because the first one taught it to the reader. Downtime is the setup half, never filler.
+A hard limit on voices in one scene turns the same keyed talk from a luxury into a forcing function. That **speaker cap** (three or four voices per reading) means rotating *which* two unlocks pairing-specific micro-exchanges. A reader who tracks who is present is rewarded with reactivity for the cost of a line.
 
-## The vocabulary ceiling makes the ramp the reveal
+The clean live two-hander is belonging-swap friction: the foreigner in love with the place against the local aching to leave. [星野遙香](/tsumugu/cast/hoshino-haruka.html) with [林薇](/tsumugu/cast/lin-wei.html). [[wiki/Story Craft/Foils and Pairings|Foils and Pairings]] is the pairs those keyed lines are built on.
 
-Plant behaviorally at the low vocab tier, where you have words for actions and not for feelings, and pay off when the language to explain it finally arrives — the ramp itself becomes the reveal mechanism. A behavioral plant made before the vocabulary to explain it exists reads as inexplicable in the moment and clicks retroactively once the reader's own vocabulary has grown enough to supply the missing words, so the reader's own competence becomes part of the reveal. (This dovetails with [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]].)
+Running gags are the cheapest reactivity. [將軍](/tsumugu/cast/general.html) saluted as General. [白龍](/tsumugu/cast/bai-long.html)'s binoculars and skeptic deadpan. Over-enthusiasm that will later read as flight. Banter registers only against silence. Wall-to-wall chatter makes every line cheap.
 
-## The case against
+**Campfire then battle** is the plant order: the trait is shown in a calm scene, then spent in the next stress scene. Downtime is the setup half. It is never leftover. The camp detail is a planted object — the old gun-on-the-wall commonplace, owned as craft by [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]].
 
-The technique fails loudest as an unpaid plant. A camp detail that never fires is a dead Chekhov's gun; a payoff with no earlier plant reads as arbitrary — and both faults amplify across a long multi-book ramp, where an early plant can sit years of story time away from its payoff. Reader attrition compounds it: if most readers drop off partway through a long series, a confidence planted for a late-book detonation is spent on an audience that already left, and the correction — front-loading core payoffs earlier — narrows how epic the late payoffs can be.
+Plant behaviorally at the low vocab tier. Pay off when the language to explain it arrives. The ramp itself becomes the reveal. The reader's own competence becomes part of that reveal. A behavioral plant made before the vocabulary to explain it exists reads as inexplicable in the moment and clicks retroactively. The technique fails loudest as an unpaid plant. Both faults amplify across a long multi-book ramp.
 
-The approval discipline degrades into point-farming: a bond reduced to a scoreboard the reader optimizes instead of feels, with no reactive texture between deposits. The loyalty structure degrades into a mascot when a character banks only shine and never a shadow beat — all wins, uniformly admirable, fan-service rather than a person. Banter degrades into noise without silence around it. And the whole apparatus assumes an ensemble and a long runway: a standalone or short work cannot afford the downtime budget the plants require, and a tight single-POV story has no party to bank banter across. Do not reach for this when the form cannot pay the setup cost.
+## What the apparatus costs
 
-## Price the method
+Late plants miss whoever leaves. Front-loading cores so the early books hold the detonators is a real cost: it narrows how epic the late payoffs can be. That is a design risk, not a measured quit-cliff. The correction is named as a price, not a free lunch.
 
-Downtime is a budget line, not free. Every payoff wants one to two plants, and those plants draw on a limited pool of free texture, most of it spent buying future beats rather than advancing present plot. The bond-never-resets rule is a continuity debt: no scene may reset a relationship for its own convenience, so every later scene inherits the relationship's current state, and someone has to track who is getting spotlight so no character starves. The forcing-function payoff of a hard cap on concurrent voices per scene is real, and its cost is that ensemble interiority is rationed one or two characters at a time — the full cast never assembles in a single scene.
+The apparatus assumes an ensemble and a long runway. A standalone or a tight single-POV cannot afford the downtime budget.
 
-## Quit signals
+Downtime is a budget line. Every payoff wants one to two plants from a limited pool of free texture. Bond-never-resets is a continuity debt. Someone has to track who is getting spotlight. [[wiki/Story Craft/Spotlight Rotation|Spotlight Rotation]] is that tracking: who gets the loyalty beat when.
 
-If the reader cannot recall the plant when the payoff arrives, the plant was too quiet or too far back — move it closer, or make the object more salient (a photo shown twice, not once). If a character banks only shine beats, or has gone quiet for a long stretch of the story, spotlight tracking has caught starvation; give them a shadow beat next. If the banter reads as filler and no one is tracking who is present, cut its frequency until scarcity restores its charge. If a resolution is tidying into a clean victory, it has slipped onto the vending-machine track — pull it back toward a resolution that lands at a changed value.
+The speaker-cap cost is interiority rationed one or two characters at a time. The full cast never assembles in a single scene.
 
-## Checkable expectations
+## Failures and tests
 
-The reveal should land within the beat that follows its plant, not two beats later — if a character's calm under pressure needs the reader to be told they were prepared, the earlier planting scene failed. After a payoff, the reader should be able to name what changed in the bond, not merely that something happened. Re-reading the plant scene after the payoff should read differently: an unexplained detail should carry weight on the second pass that it withheld on the first. A pairing-keyed banter line should read as earned by those two characters being in the room — swap in a different pair and the line should no longer fit.
+Approval degrades into point-farming when a bond is reduced to a scoreboard. Loyalty degrades into a mascot when a character banks only **shine** — competence, warmth — and never a **shadow** beat, a cost or a flaw. Shine and shadow get their full treatment on Spotlight Rotation. Here they are the two halves a loyalty beat has to have earned.
+
+```
+Weak: wall-to-wall chatter; a scoreboard; only shine.
+Strong: a keyed line against silence; a meter that cannot reset; a shadow beat before the close.
+```
+
+Quit when the evidence says so.
+
+- The reader cannot recall the plant. Move it closer, or make the object more salient — a photo shown twice, not once.
+- Only shine beats, or a long quiet stretch. Give a shadow beat next.
+- Banter reads as leftover. Cut frequency until scarcity restores charge.
+- Resolution tidies into clean victory. Pull back to a changed value.
+
+What should be checkable:
+
+- The reveal lands inside the beat that follows its plant, not two beats later.
+- After a payoff the reader can name what changed in the bond.
+- Re-reading the plant after the payoff should read differently.
+- A pairing-keyed banter line should fail if a different pair is swapped in. That last one is the cleanest falsifier.
+
+## The cheap lines
+
+The crisis still spends a habit. The body of the page is what that habit cost: cheap lines, against silence, paid one or two plants early, so the closing beat has something already owned to spend. The leftover talk was the payment.
 
 ## Related
 
-- [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]]
-- [[wiki/Story Craft/Spotlight Rotation|Spotlight Rotation]]
-- [[wiki/Story Craft/Foils and Pairings|Foils and Pairings]]
+- [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] — ramp-as-reveal, and the plant → spark → payoff a prepaid crisis runs on.
+- [[wiki/Story Craft/Spotlight Rotation|Spotlight Rotation]] — who gets the loyalty beat when; shine and shadow in full.
+- [[wiki/Story Craft/Foils and Pairings|Foils and Pairings]] — the pairs the banter is keyed to.
+
+## Open questions
+
+How early a prepaid core can sit before the late payoff has nothing left to detonate.
+
+## Sources
+
+- *Mass Effect 2* (2010). Loyalty missions and endgame survival; composition-keyed party banter (one companion reacting to another's private mission). The page takes this game's one-beat scarcity, not a multi-act companion run.
+- *Baldur's Gate 3*; the *Dragon Age* series. Approval as sticky memory: companions remember and react; high approval eases a later check and does not erase it.
+- Chris Avellone, companion-reactivity interviews (GDC cluster). Brief reactions to the person they travel with, or they do not read as alive.

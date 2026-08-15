@@ -3,65 +3,99 @@ title: "Interiority Through Action and Object"
 type: technique
 status: developing
 created: 2026-07-09
-updated: 2026-07-20
+updated: 2026-08-14
+written-by: grok
+model: grok
 tags:
   - constraint
   - show-dont-tell
   - interiority
   - story-craft
+flag-reason: "cluster held — Story Craft; opener is owner-picked Opus B. Do not promote."
 ---
 
 # Interiority Through Action and Object
 
-Inner life relocates into the changing state of a concrete object and a gesture the reader can watch, because at the bottom of a graded-reader ramp the words for feelings do not exist yet and the scene that needs them still has to land. A B1 (A1) register has words for actions and almost none for interiority, so every feeling has to be staged as something visible: an object's condition, a gaze, what a hand touches or refuses. The constraint forces what T.S. Eliot's objective correlative and Hemingway's omission recommend to writers who have every word available and reach for the abstract one anyway.
+A reader can be brought all the way to what a person is feeling without a single word for the feeling, and two channels do it: a thing and a gesture. Choose an object that belongs to the person and let it change — kept, then not kept; whole, then mended; carried, then put down. Then give them something to do with their hands or their eyes at the moment the feeling is strongest. Nobody says what it is. Here this started as a constraint, since the word list did not contain the feelings, and it turned out to be the better method to have been forced into.
 
-## The object on a leash
+## One object on a leash
 
-Give each lead one concrete object, introduced as plain early-level vocabulary and re-shown across books; its changing condition carries the interiority the word list cannot name. [阮草](/tsumugu/cast/ruan-cao.html) gets the mushroom pulled for the right person: how freely it's given, and how much warmth rides with it, tracks the distance between care and duty without naming either. One noun bought at A1 pays interest through four levels. The eye does the reading; no sentence states love, obligation, or apology. This is Eliot's formula — a set of objects and events that evokes the emotion directly, so presenting the external facts is the expression. [星野](/tsumugu/cast/hoshino-haruka.html) carries the camera that hoards proof of a life she's not sure she gets to keep; [小圖](/tsumugu/cast/xiao-tu.html) carries two sprout-green eyes that change shape with his mood while nothing else on his face moves (McCloud's amplification through simplification — strip the face to the one feature that carries meaning).
+This project's first book sits at about 250 Han characters. Those characters name actions and things. They almost never name a feeling. Give each lead one concrete object, introduced as ordinary first-floor vocabulary, and keep bringing it back. Its changing condition does the interior work the list cannot say.
 
-The object costs one noun of the level's budget and a slot of reader working memory for the whole run, and it pays only when re-shown in changed condition at least twice before the payoff. The object earns an arc only once it has been re-shown in three changed states across three books; a single appearance never pays off.
+**One noun, re-shown in changed condition, carries what the list cannot name.**
 
-## Gesture and gaze, one held thing
+The object costs one noun and a slot of working memory. It pays only when it comes back in changed condition at least twice before payoff. That is the floor. A single appearance never pays. The object earns an arc only once it has been re-shown in three changed states across three books. That is the full earn. One noun bought at the first floor then pays interest through four levels, and the eye does the reading.
 
-Convey the turn through action, gaze, and a single object in frame. [沈文](/tsumugu/cast/shen-wen.html)'s whole family wound enters wordless too: a photo from home surfaces, and the subject changes before anyone explains it — provision without presence, shown and never told. No word for lonely, unseen, or ache exists at A1, and none appears. The reader completes the gap across the cut, the way a comics reader completes action across the gutter — closure, the medium co-authored by inference. A turned back, an untouched dish, a returned coin: each is a one-to-two-word gesture that shows a B1 reader what they have no words to be told.
+```
+mushroom — given freely or not, warm or not; care versus duty, unnamed
+camera — hoards proof of a life the owner is not sure she keeps
+photo from home — the subject in it changes before anyone explains
+```
 
-A B1 reader should be able to say [沈文](/tsumugu/cast/shen-wen.html)'s family gave him everything but wasn't there, from the beat alone, with no sentence naming loneliness. If a test reader cannot, the gesture did not carry, and the beat needs a second showing or a minimal tell.
+阮草 pulls a mushroom for the right person. How freely it is given, and how much warmth is in the giving, tracks care against duty without naming either. 星野 carries a camera that hoards proof of a life she is not sure she keeps. 小圖's two sprout-green eyes change shape with mood while nothing else on the face moves — the comics move of amplifying by simplifying, a cousin of the reader completing an action across a gutter, used here as a face that does one job. 沈文's photo from home surfaces and the subject in it has changed before anyone explains. Provision without presence, from the beat alone. A first-floor reader should be able to say the family gave him everything but was not there.
 
-## The gap runs on no vocabulary
+The turn itself travels through action, gaze, and a single object still in frame.
 
-Drama lives in the space between what a character reaches for and what reality returns — McKee's gap — and a want, an attempt, and a reversal stage cleanly in 250 words. [沈文](/tsumugu/cast/shen-wen.html) wants presence; [阮草](/tsumugu/cast/ruan-cao.html) gives provision until a second job curdles her tending into obligation, and the wall the burnout raises — never planned, never wanted — shuts him out. Neither line needs an abstract noun. The engine is language-independent, so the same gap can deepen across a series as the vocabulary opens, staged first in action alone and only later in speech.
+## The gap and the ramp
 
-## The reveal rides the ramp
+Drama lives in the space between what a character reaches for and what reality returns. That space is the gap. A want, an attempt, and a reversal stage cleanly in 250 Han characters. One lead wants presence. The other gives provision — an envelope, an extra shift, an empty evening — until a second job curdles tending into obligation. Neither line needs an abstract noun.
 
-Treat each level's new-word budget as a reveal schedule: a word withheld until it comes due can be the reversal, so the reader learns the word and the secret in the same beat. [阮草](/tsumugu/cast/ruan-cao.html)'s provision-love can run as pure repeated action long before the vocabulary exists to explain it — the envelope home, the extra shift, the empty evening never named — until the words for reasons, and later for interiority, catch up and let her say it in her own words. The vocabulary curve is the reveal curve: depth arrives exactly as fast as the reader earns the language to hold it.
+The same constraint forces what an objective correlative and a practiced omission already recommend to writers who have every word and reach for the abstract one anyway. An objective correlative is a set of objects, a situation, or a chain of events that is the formula of a particular feeling: give the externals and the feeling fires without being named. Iceberg discipline states about one-eighth and lets the rest carry as felt weight. Omission works only over knowledge the author actually holds. Omitting what was never worked out leaves a hollow, not a depth.
 
-Comprehension has to clear the emotional beat before the feeling can. Establish the scene's few nouns through concrete, repeated use in the calm opening beats, so the peak sits at roughly 98% known-word coverage (Hu & Nation 2000) and the reader spends zero effort decoding and all of it feeling. The ~95% floor below which comprehension frays comes from the wider Nation/Laufer reading for adequate comprehension; 98% is the number to hold a peak-emotion scene at. Push a cluster of new words into the beat that carries the emotional peak and the reader decodes exactly where they most need to feel.
+The engine is language-independent. The same gap can deepen as vocabulary opens. Treat each level's new-character budget as a reveal schedule: a character withheld until it comes due can be the reversal. [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] is that schedule at full length. The vocabulary curve is the reveal curve. Provision-love stays a repeated action until the characters for reasons and interiority catch up.
 
-## Iceberg the arc, seed a re-showable thing
+A seed has to be a re-showable behavior or object, never a stated theme. [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] is that rule as a long-gap discipline: the plant survives only if something concrete can be shown again.
 
-State one-eighth and let the rest carry as felt weight (Hemingway). The seed has to be a re-showable behavior or object, never a stated theme, so the payoff reads as earned. The provision-versus-presence engine is behavioral by nature — giving against being-there — so it can hint through a repeated small action across an entire arc and pay off only once the vocabulary exists to let a character name what was shown all along, with no word for obligation or burnout needed anywhere on the page.
+## What the relocation is for
 
-Hemingway's caveat binds hard here: omission works only over knowledge the author actually holds, and omitting what was never worked out leaves a hollow the reader senses as emptiness. A wound or a diagnosis that's deliberately never named reads as depth only when the reality underneath is fully worked out, invisible and load-bearing; a blank standing in for a decision the author skipped reads as exactly that.
+The inner life is still there. It changed address. The numbers that follow bound a peak scene. They do not replace the object, and they do not produce the feeling.
 
-## Fewer people, more meaningful objects
+A small fiction study of sixty-six students put unassisted pleasure reading at roughly 98% known-word coverage: the reader spends no effort decoding and all of it on the scene. A later replication exists. Wider coverage work puts adequate comprehension nearer 95%. Neither figure is a cliff, and neither is a feeling-machine. They are design targets. Hold a peak-emotion scene at about 98% known words. Push a cluster of new words into that peak and the reader decodes exactly where they most need to feel.
 
-The audio-first cap of three to four speaking characters per reading, plus a low-level reader's working memory for tracked names, make a large emotive cast expensive; pronoun and name disambiguation is itself a vocabulary cost. Mix round and flat (Forster): one or two round leads carry the arc inside a reading, and flat supports carry texture while staying legible on a single clear trait and tag. The object absorbs what the cast cannot hold — fewer tracked people, one loaded thing each.
+```
+weak: new-word cluster at the emotional peak — the reader decodes
+strong: the peak held at roughly 98% known words — new words wait in the calm
+```
 
-## The case against
+[[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] keeps the coverage arithmetic. This page keeps the object that the arithmetic is protecting.
 
-At the bottom of the ramp, pure showing can leave a reader lost, and a minimal, well-placed tell is the cheapest comprehension anchor available. [沈文](/tsumugu/cast/shen-wen.html)'s silent early photo can get its words in one plain sentence once the vocabulary can hold them ("以前，家裡很安靜。" — before, home was very quiet); the constraint is a tool, and treating show-don't-tell as an absolute law is its own failure mode. The technique also fails as decoration: aspect-to-aspect mood fragments that never resolve into a want, an obstacle, and a change are atmosphere with no gap beneath them, and under a ceiling they spend words the budget cannot spare. Where a beat's emotion is one the level can already name plainly and cheaply, the object machinery costs more than the direct line, and the direct line wins.
+## The allowed tell
 
-## Where it stops working
+Audio-first work caps speaking characters at three or four. Name disambiguation is itself a vocabulary cost. Mix round and flat: one or two round leads per reading, flat supports held on a single trait. [[wiki/Story Craft/Round Characters and the Telling Detail|Round Characters and the Telling Detail]] is who is round enough to hold an object-spine, and the telling detail as this method's cousin. The object absorbs what the cast cannot hold.
 
-If test readers cannot state what a character feels after the object beat, the object is not carrying — add a second showing in a changed state, or a one-clause tell. If a recurring object draws no reaction from any character and changes no one's choice, it has gone inert and should be cut or re-loaded. If a scene bends to exercise the level's word list and reads as a drill, the affective filter rises and the compellingness that was doing the acquiring is gone; cut back to the want. If a seed planted at A1 is so faint that nothing concrete survives to be re-shown, it will not pay off at B4–B5; re-plant it as an object or an action.
+At the bottom of the ramp, pure showing can leave a reader lost. A minimal well-placed tell is then the cheapest comprehension anchor. Treating show-don't-tell as an absolute law is its own failure mode. The silent photo can get words in one plain sentence once the vocabulary can hold them: 「以前，家裡很安靜。」 Where the level can already name the emotion plainly and cheaply, the object machinery costs more than the direct line.
 
-Across the run, two effects are checkable: the object's arc should resolve without a single sentence naming the emotion it carries; and a reader should feel the provision-versus-presence turn without being told either character was wrong. If either needs a naming sentence to land, the seeding upstream was too thin.
+Aspect-to-aspect mood fragments that never resolve into a want, an obstacle, and a change are atmosphere with no gap. If a scene bends to exercise the word list and reads as a drill, the affective filter rises — anxiety, boredom, or embarrassment blocking the input from becoming learning. The filter is a contested theory. It is still a usable quit signal. The full hedge lives with the sister page.
+
+If test readers cannot state what a character feels after the object beat, add a second showing or a one-clause tell. If a recurring object draws no reaction and changes no choice, cut it or re-load it. If a first-floor seed is so faint that nothing concrete survives to be re-shown, it will not pay off later.
+
+The checkable test is the object's own arc. It resolves without naming the emotion. The reader feels provision against presence without being told that either one was wrong.
+
+## What arrived
+
+The feeling still arrived through a changed thing. A one-clause tell is the cheap exception when the thing is not enough — not the law, and not a license to name every feeling the object was hired to carry.
 
 ## Related
 
-- [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]]
-- [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]]
-- [[wiki/Story Craft/Round Characters and the Telling Detail|Round Characters and the Telling Detail]]
-- [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]]
-- [[wiki/Story Craft/Companion Arcs and Party Banter|Companion Arcs and Party Banter]]
-- [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]]
+- [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] — the seed must be a re-showable behavior or object, never a stated theme
+- [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] — new-character budget as a reveal schedule, and the coverage numbers at full length
+- [[wiki/Story Craft/Round Characters and the Telling Detail|Round Characters and the Telling Detail]] — who is round enough to hold an object-spine, and the telling detail as cousin
+- [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] — how object and action carry the Lie when no word for a creed exists
+- [[wiki/Story Craft/Companion Arcs and Party Banter|Companion Arcs and Party Banter]] — downtime plants the object the crisis will spend
+- [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]] — where an object-spine is allowed to break
+
+## Open questions
+
+Whether a one-clause tell at the first floor spends the later reveal or saves the scene.
+
+## Sources
+
+- T. S. Eliot, "Hamlet and His Problems," in *The Sacred Wood* (1920). Emotion via a set of objects, a situation, a chain of events. The 1919 periodical appearance of the essay is the same text.
+- Ernest Hemingway, *Death in the Afternoon*. The dignity of an iceberg is the one-eighth above water.
+- Ernest Hemingway, *The Paris Review* interview (1958). Omission works only over knowledge actually held.
+- Robert McKee, *Story*. The gap between what a character expected and what the world returned.
+- Scott McCloud, *Understanding Comics*. Amplify through simplify; the reader completes action across the gutter.
+- Hu Hsueh-chao and I. S. P. Nation (2000), *Reading in a Foreign Language* 13(1). 98% known-word coverage for unassisted pleasure reading. N=66.
+- Batia Laufer (1989 and later reviews with Nation). ~95% as a floor for adequate comprehension.
+- Benjamin Kremmel et al. (2023). Replication of the coverage finding.
+- Norbert Schmitt, Xiangying Jiang, and William Grabe (2011). Comprehension rises with coverage; 98% is a useful target, not a cliff.
