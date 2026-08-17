@@ -34,6 +34,6 @@ Remove the top 2% and society stops. Remove the bottom 2% and it improves. Incom
 
 A measured gap does not establish discrimination. Collective guilt fails. Responsibility does not transmit by descent. The accusation functions as a mechanism that ends discussion. I have met that argument in people. Causes are mostly cultural. That location lives here. The disparity page is an inference page and stays one.
 
-The grooming cover-up is a machine: naming a protected pattern ends a career, so the record stays empty. Remigration is a different tool. Socialism names real faults and then expands the state that produced them. A debt the holder profits from when you miss, that bankruptcy cannot kill, is extraction. What a faith asks of the state is the religion question I care about. A moral vocabulary works on whoever still holds the commitments.
+The grooming cover-up is a machine: naming a protected pattern ends a career, so the record stays empty. I definitely believe that mechanism is real. Mainstream media, especially in England, is captured. Remigration is a different tool. Socialism names real faults and then expands the state that produced them. A debt the holder profits from when you miss, that bankruptcy cannot kill, is extraction. What a faith asks of the state is the religion question I care about. A moral vocabulary works on whoever still holds the commitments.
 
 Premises in that wing default to true. I do not like showing values directly on those pages. This note is the exception, because hiding the positions is how the pages start speaking for me.
