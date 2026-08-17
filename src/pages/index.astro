@@ -68,12 +68,11 @@ const topOfMind: Mind[] = [
     ],
   },
   {
-    q: 'Whether the inner life that makes a written character read as a person is something a model can author',
+    q: 'Worldviews and the political order — which defenses of a contested position still hold once the reasoning is examined',
     links: [
-      L('The Wound and the Lie', 'wiki/Story Craft/The Wound and the Lie'),
-      L('Round Characters and the Telling Detail', 'wiki/Story Craft/Round Characters and the Telling Detail'),
-      L('Human vs AI Capability Lens', 'wiki/Concepts/Human vs AI Capability Lens'),
-      L('Story Craft', 'wiki/Story Craft/Story Craft'),
+      L('Worldviews & the Political Order', 'wiki/Worldviews & the Political Order/Worldviews & the Political Order'),
+      L('Validity and Truth', 'wiki/Worldviews & the Political Order/Validity and Truth'),
+      L('Positions', 'personal/2026-08-17-positions'),
     ],
   },
 ];
@@ -96,6 +95,9 @@ if (topOfMind.length > 4)
 //   links: Human vs AI Capability Lens (wiki/Concepts) · Higher-Order Generativity vs Judgment (wiki/Concepts) · A Motorcycle for the Mind (wiki/Concepts) · The AI Industrial Revolution (wiki/Concepts) · Automation and the Job Iceberg (wiki/Systems/AI & Agentic Systems)
 //   q: 'What changes when the deliberate reasoning inside a model can be read and steered directly'
 //   links: Global Workspace and J-space (wiki/Concepts) · The workspace a language model thinks in (journal/2026-07-07) · Human vs AI Capability Lens (wiki/Concepts)
+// Retired 2026-08-17 (Worldviews & the Political Order entered; lowest out):
+//   q: 'Whether the inner life that makes a written character read as a person is something a model can author'
+//   links: The Wound and the Lie · Round Characters and the Telling Detail · Human vs AI Capability Lens · Story Craft
 
 // Intent doors ("Start here") — route a visitor by intent, not topic. slug → a note path
 // (resolved via cardHref); the graph door uses a direct href. Titles/subs are mined from each
@@ -135,6 +137,7 @@ const executionHubs: Hub[] = [
   { title: 'Focus Management', icon: 'ti-target', color: 'var(--d-focus)', slug: 'wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block', countPrefix: 'wiki/Self Management' },
   { title: 'Decision Making', icon: 'ti-checklist', color: 'var(--d-gen)', slug: 'wiki/Decision-Making/Decision-Making', countPrefix: 'wiki/Decision Making' },
   { title: 'Generativity', icon: 'ti-bulb', color: 'var(--d-mind)', slug: 'wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment', countPrefix: 'wiki/Concepts' },
+  { title: 'Worldviews', icon: 'ti-scale', color: 'var(--d-mind)', slug: 'wiki/Worldviews & the Political Order/Worldviews & the Political Order', countPrefix: 'wiki/Worldviews & the Political Order' },
 ];
 const hubColumns = [
   { title: 'Five Dimensions', items: dimensionHubs },

@@ -11,7 +11,7 @@ tags:
 
 # Knowledge Base Index
 
-There are 431 notes. Use search (⌘K) or the [Map](/map/) to browse by connection.
+There are 437 notes. Use search (⌘K) or the [Map](/map/) to browse by connection.
 
 ## Condensed
 
@@ -38,3 +38,4 @@ Cluster entry points — where a topic fans out into techniques, concepts, and r
 - [[wiki/Red Team/Red Teaming|Red Team / Critical Thinking]] — frame testing, assumptions, decision support, and adversarial thinking.
 - [[wiki/Design/Front-End Web Design|Front-End Web Design]] — design doctrine mapped onto web UI and the tsumugu reader and dictionary.
 - [[wiki/Story Craft/Story Craft|Story Craft]] — graded-reader ensemble arcs; diagnose thin characters with [[wiki/Story Craft/Diagnosing a Character|Diagnosing a Character]]; Tsumugu apply layer lives in `tsumugu-core/docs/companion/craft/`.
+- [[wiki/Worldviews & the Political Order/Worldviews & the Political Order|Worldviews & the Political Order]] — contested public arguments examined for what follows; positions live on [[personal/2026-08-17-positions|Positions]].

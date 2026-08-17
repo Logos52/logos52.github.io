@@ -124,6 +124,7 @@ function assignDomain(note) {
   if (p.startsWith('Language/') || p.startsWith('Resources/')) return 'language';
   if (p.startsWith('Self Management/')) return 'focus';
   if (p.startsWith('Decision Making/')) return 'mind';
+  if (p.startsWith('Worldviews & the Political Order/')) return 'mind';
   if (p.startsWith('Minimalism/')) return 'gen';
   if (p.startsWith('Money/')) return 'gen';
 
@@ -151,7 +152,7 @@ function assignDomain(note) {
   if (root === 'Systems' || root === 'Workflows') return 'agentic';
   if (root === 'Language' || root === 'Resources') return 'language';
   if (root === 'Self Management') return 'focus';
-  if (root === 'Decision Making') return 'mind';
+  if (root === 'Decision Making' || root === 'Worldviews & the Political Order') return 'mind';
   if (root === 'Minimalism' || root === 'Money') return 'gen';
 
   return 'gen';
