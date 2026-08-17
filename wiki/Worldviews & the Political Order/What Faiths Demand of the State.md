@@ -165,7 +165,6 @@ The recurring shape is a premise fixing a moral verdict, with an institutional c
 - [[wiki/Worldviews & the Political Order/Democracy as Sacred Cow|Democracy as Sacred Cow]] — the defenses of democracy examined on their own, which is the work left over once the obligation to it is removed.
 - [[wiki/Worldviews & the Political Order/Mass Immigration - Cohesion|Mass Immigration - Cohesion]] — the same policy argued from selection and settlement rather than from a scriptural premise.
 - [[wiki/Worldviews & the Political Order/LGBT - Permission vs Promotion|LGBT - Permission vs Promotion]] — the distinction the disclaimed-penalty section needs and does not supply.
-- [[wiki/Worldviews & the Political Order/Abortion - The First Trimester|Abortion - The First Trimester]] — the line this section's strategy fight is about, drawn at twelve weeks rather than at conception.
 
 ## Open questions
 

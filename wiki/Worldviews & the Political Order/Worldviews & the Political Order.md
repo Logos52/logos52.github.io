@@ -41,7 +41,6 @@ Start with the method page. It sets what these pages can and cannot establish, a
 - [[wiki/Worldviews & the Political Order/LGBT - Permission vs Promotion|LGBT - Permission vs Promotion]] — the difference between permitting something and being required to affirm it.
 - [[wiki/Worldviews & the Political Order/Schooling - The Format Filter|Schooling - The Format Filter]] — how a seated format filtered boys, and what it taught both sexes about the other.
 - [[wiki/Worldviews & the Political Order/Women's Suffrage - The Substitute Husband|Women's Suffrage - The Substitute Husband]] — what extending the franchise changed about what the electorate wants.
-- [[wiki/Worldviews & the Political Order/Abortion - The First Trimester|Abortion - The First Trimester]] — a stop after twelve weeks, not a ban from conception.
 
 ## Faith
 
@@ -57,4 +56,4 @@ Three pages here are general reasoning tools that happen to be sharpened on cont
 
 ## Open
 
-Nothing currently titled and waiting.
+Nothing waiting. Abortion is not a page.
