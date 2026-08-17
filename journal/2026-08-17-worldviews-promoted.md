@@ -17,4 +17,4 @@ Owner: all of it public, commit to GitHub. B is the public positions note. A (na
 
 **Not shipped.** Workbench intake files, the full-strength A note, OWNER-POSITIONS named-group list. Those stay local.
 
-**Closed 2026-08-17.** Grooming machine, Socialism, Financial Slavery, Faiths, Moral Language — all his. Suffrage and the organized-few theory remain the named pullbacks. Abortion page still unbuilt; that was never this interview.
+**Closed 2026-08-17.** Grooming machine, Socialism, Financial Slavery, Faiths, Moral Language — all his. Suffrage and the organized-few theory remain the named pullbacks. Abortion page built the same day: `Abortion - The First Trimester`. Source inventory; spine is his twelve-week stop, not a conception ban.
