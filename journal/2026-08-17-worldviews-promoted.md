@@ -17,4 +17,4 @@ Owner: all of it public, commit to GitHub. B is the public positions note. A (na
 
 **Not shipped.** Workbench intake files, the full-strength A note, OWNER-POSITIONS named-group list. Those stay local.
 
-**Still open.** Abortion page unbuilt. Wave 2 unfinished: Socialism, Financial Slavery, Faiths, Moral Language, Grooming machine. Not a block on publish — he said go.
+**Closed 2026-08-17.** Grooming machine, Socialism, Financial Slavery, Faiths, Moral Language — all his. Suffrage and the organized-few theory remain the named pullbacks. Abortion page still unbuilt; that was never this interview.
