@@ -29,7 +29,7 @@ This page is about me; for what the site is and how it gets built, see [[about|A
 
 ---
 
-I am a freelance American researcher & educator. I have worked for the US Army, as an intelligence Red Teamer from the 82nd Abn during the Global War on Terror. I'm currently interested in learning science and how we can use AI to improve educational outcomes. Most of it goes into tools for learning Mandarin.
+I am a freelance American researcher & educator. I have worked for the US Army, as an intelligence Red Teamer from the 82nd Abn during the Global War on Terror. I'm currently interested in learning science and how we can use AI to improve and optimize educational outcomes. Most of it goes into tools for learning Mandarin.
 
 ---
 
@@ -45,11 +45,11 @@ I am a freelance American researcher & educator. I have worked for the US Army, 
 
 I travel a lot, so every item I own needs to earn its place.
 
-- iPhone Air, no case.
-- MacBook Pro M3 14", in a MOFT origami sleeve that folds into a stand.
-- AirPods Pro 3, over bulkier headphones, though those are under consideration.
-- Anker 733 GaNPrime power bank, which is also the wall charger.
-- Filson Journeyman in green, holding all of it — two years daily, no visible wear.
+- iPhone Air.
+- MacBook Pro M3 14".
+- AirPods Pro 3.
+- Anker 733 GaNPrime power bank, which doubles as the wall adapter.
+- Filson Journeyman, holding all of it.
 
 [[wiki/Fashion/The Personal Uniform|The Personal Uniform]] is the longer version, and it covers clothes as well.
 

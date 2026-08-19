@@ -12,6 +12,12 @@ tags:
 
 Five most recent journal entries, newest first. Older entries stay in the vault; add a dated `journal/YYYY-MM-DD-*.md` file and this page updates on build.
 
+## 2026-08-20
+
+[[journal/2026-08-20-fable-opus-degradation-brief|Fable 5 and Opus got dumber — brief for confronting Claude]]
+
+The product you get from Fable 5 and Opus is worse than at first release. That is not a mood. Anthropic has already admitted one cycle of this in writing, measured a second cycle after Fable's July 1 return, and is runni
+
 ## 2026-08-19
 
 [[journal/2026-08-19-intro-qa-cut|Intro QA cut: five tests, a script, on-ramp off the battery]]
@@ -35,12 +41,6 @@ Owner agreed the recommended card on the sweep rulings and said proceed. Applied
 [[journal/2026-08-17-tsumugu-ed-gsc-validation-failed|tsumugu-ed.com GSC validation failed because Google has not chosen to index, not because a new block appeared]]
 
 Search Console's 'Crawled — currently not indexed' validation failed on tsumugu-ed.com. Live technical SEO is clean. Googlebot is back but spending crawl budget on search JSON. tsumugu.cc is indexed and still has no crawlable link to the dictionary.
-
-## 2026-08-17
-
-[[journal/2026-08-17-worldviews-promoted|Worldviews wing promoted]]
-
-Owner: all of it public, commit to GitHub. B is the public positions note. A (named groups, parasitic, cohort remigration) stays in the workbench.
 
 
 [[journal/index|← Back to Journal]]
