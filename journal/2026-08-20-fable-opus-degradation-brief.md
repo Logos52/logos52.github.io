@@ -87,7 +87,7 @@ Not proof of weight changes. Proof that the complaint is not you, not new, and n
 
 **June 15, Mark Valorian** ([2066615662743629998](https://x.com/markvalorian/status/2066615662743629998), 445 likes, 99k views): "Using Opus now is just disgusting. The sycophancy is extremely transparent and revolting... it doesn't complete tasks... it doesn't think things through." He floated the conspiracy that Anthropic was kneecapping Opus to make Fable look like a savior. That specific conspiracy is unproven. The *description of Opus after Fable* is the same description still circulating in August.
 
-**July 27, alex (@runtimeking)** ([2081579491550249025](https://x.com/runtimeking/status/2081579491550249025), 1,259 likes, 127k views): "Opus 5 is pure garbage. It's even worse after you get used to using Fable... Fable just gets shit done. Opus is like that annoying engineer who thinks they know everything but their code is shit."
+**July 27, alex (@runtimeking)** ([2081579491550249025](https://x.com/runtimeking/status/2081579491550249025), 1,259 likes, 127k views): calls Opus 5 unusable, and worse once you are used to Fable, which he credits with simply getting the work done. His comparison for Opus is an engineer certain he knows everything whose code does not hold up.
 
 **July 27, Drew Breunig** ([2081535485290430958](https://x.com/dbreunig/status/2081535485290430958), 210 likes): Fable and Opus share the same over-dramatic flourishes, canned phrases, choppy structure. "You can almost feel the RL rewards that have neutered all diversity."
 
@@ -95,7 +95,7 @@ Not proof of weight changes. Proof that the complaint is not you, not new, and n
 
 **This week, Aug 17–19, sampled Latest (not Top — this is the live complaint, not an old viral corpse):**
 
-- Aug 17, @downtownberlin: Fable "dumb as fck," Opus did 20% of the assigned work. "Never had a degradation of this magnitude."
+- Aug 17, @downtownberlin: calls Fable badly degraded, and reports Opus completing 20% of the assigned work. "Never had a degradation of this magnitude."
 - Aug 19, @buildwbhoomika (17 likes, early): "Fable 5 feels almost unusable out of nowhere."
 - Aug 19, @ricebroskitt: "Why does it feel like Claude lost half its IQ in the last week? Fable 5 borderline unusable for anything."
 - Aug 19, @Kplcode: "Fable 5 is completely Nerfed."
@@ -103,7 +103,7 @@ Not proof of weight changes. Proof that the complaint is not you, not new, and n
 - Aug 19, @stdclibrary, tagging @AnthropicAI: "Opus and Fable have degraded. Completely... model makes basic mistakes and then says 'that was on me'."
 - Aug 19, @justice_note: "Claude opus is getting dumber and dumber. it's alarming how Claude lost all its aura in a month."
 - Aug 19, @pedma7: more dumb errors under Claude Code auto; "OPUS apparently going dumber" plus his own reduced review.
-- Aug 19, @Cryptopaul: "Opus 5 is retarded. Fable 5 lasts about 1 hour before burning through my credits."
+- Aug 19, @Cryptopaul: dismisses Opus 5 outright, and reports Fable 5 lasting about an hour before his credits run out.
 - Aug 19, @OneSpicyMeatBol: cannot tell if Fable/Opus got dumber or Grok got better — Grok is the one catching the other models' mistakes.
 
 The Aug 19 cluster is noisy, low-follower, and coincident with the Aug 18 incident. Treat it as temperature, not a bench. The June–July posts above are the load-bearing ones.
