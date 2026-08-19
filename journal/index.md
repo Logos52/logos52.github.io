@@ -38,11 +38,11 @@ tags:
 
 ## Recent entries
 
+- [[journal/2026-08-21-two-window-board|2026-08-21]] — Two-window board — skills / writing / wiki lane — Shared disk for two Grok windows that cannot see each other. Orchestrator writes Current and Rulings. Pieces window writes Findings. Wedge is the only message bus.
 - [[journal/2026-08-20-fable-opus-degradation-brief|2026-08-20]] — Fable 5 and Opus got dumber — brief for confronting Claude — The product you get from Fable 5 and Opus is worse than at first release. That is not a mood. Anthropic has already admitted one cycle of this in writing, measured a second cycle after Fable's July 1 return, and is runni
-- [[journal/2026-08-19-intro-qa-cut|2026-08-19]] — Intro QA cut: five tests, a script, on-ramp off the battery — The nineteen-test intro battery is cut to five judgment tests plus a fail-closed script. Who-cares and transition stay. On-ramp is killed as a test because it fights who-cares. Costumes of the epigram fold into pillow. The owner's eye remains the quality gate.
-- [[journal/2026-08-19-personal-page-cut-back|2026-08-19]] — Personal page cut back to two lines — Owner: "i don't really like talking about this." The profile essay is off the page.
-- [[journal/2026-08-17-rulings-applied|2026-08-17]] — Rulings applied — B A B, keep, neither, retitle, pull closings — Owner agreed the recommended card on the sweep rulings and said proceed. Applied the same day, workbench only except the personal note, which he had already ruled lives under personal/.
-- [[journal/2026-08-17-tsumugu-ed-gsc-validation-failed|2026-08-17]] — tsumugu-ed.com GSC validation failed because Google has not chosen to index, not because a new block appeared — Search Console's 'Crawled — currently not indexed' validation failed on tsumugu-ed.com. Live technical SEO is clean. Googlebot is back but spending crawl budget on search JSON. tsumugu.cc is indexed and still has no crawlable link to the dictionary.
+- [[journal/2026-08-20-report-intro-paragraph|2026-08-20]] — How to write a report intro — A report intro answers the question the piece was asked. After the first paragraph, the reader has the finding. They do not have the parts yet.
+- [[journal/2026-08-20-skills-kb-study-lane|2026-08-20]] — Skills, writing, and the wiki — study lane and rulings — This is the work list for the lane that opened today. You already have a working wiki. You do not need a new religion. You need to decide, piece by piece, what Grok should load, what stays in the vault as law, and what w
+- [[journal/2026-08-20-fable-opus-degradation|2026-08-20]] — What is actually going on with Fable and Opus — Fable and Opus feel worse than they did at launch. That checks out. Anthropic swapping the models for dumber copies does not — we found no sign of it. The worse feeling is coming from how the product works now, and from 
 
 [[journal/calendar|Full calendar →]]
 
