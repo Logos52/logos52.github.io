@@ -1,7 +1,7 @@
 ---
 type: source-index
 created: 2026-05-02
-updated: 2026-07-26
+updated: 2026-08-13
 ---
 
 # Source Index
@@ -95,6 +95,10 @@ This index lets `raw/` and `Clippings/` remain dump directories while still givi
 | [[raw/sources/why ali abdaal's youtube channel is dying (my pov)|Why Ali Abdaal's YouTube Channel is Dying]] | X thread clipping | output synthesized | YouTube strategy, title psychology, thumbnail mechanics, audience model, expectation misalignment, novelty ladder | [[outputs/briefs/GPT - Why Ali Abdaal's YouTube Channel Is Dying|GPT - Why Ali Abdaal's YouTube Channel Is Dying]], [[outputs/briefs/Grok - Why Ali Abdaal's YouTube Channel is Dying|Grok - Why Ali Abdaal's YouTube Channel is Dying]] |
 | [[raw/sources/MG and Kolbs/1. Notion template overview|MG and Kolbs template tour set]] | YouTube transcript set | output synthesized | Notion template, action zone, progress zone, learning zone, Kolbs, marginal gains | [[outputs/briefs/GPT - MG and Kolbs Template|GPT - MG and Kolbs Template]], [[outputs/briefs/Grok - MG and Kolbs Template|Grok - MG and Kolbs Template]] |
 | Live Clinic 61: Opening the Black Box of Learning | ICS Live Clinic transcript | output synthesized | black box of learning, transitions, diagnostic process, process-level questions, self-regulation during change | [[outputs/briefs/Grok - Live Clinic 61 Opening the Black Box of Learning|Grok - Live Clinic 61]] |
+| [[raw/sources/2026-08-11-mattyp-intro-to-grok-bot\|Intro to Grok Bot (Palmer, 2026-08-11)]] | X article | compiled to research bank 2026-08-13; wiki pages not yet updated | Grok Bot, personal agents, shared cloud computer, Auto Review, configuration trap | [[wiki/Research/Grok Bot Practitioner Bank\|Grok Bot Practitioner Bank]] → pending: Standing Research Agents, Bot Operating Rules, Grok Bot Fleet Structures, Current Agentic LLM Stack |
+| [[raw/sources/2026-08-15-grok-guides\|Grok 4.6 + Grok Bot guides (2026-08-15)]] | compiled source list | gold file for Field; packet written 2026-08-15 | Grok 4.6 docs, Grok Bot official how-to, named runners | [[wiki/Research/Grok Bot Field Packet 2026-08-15\|Field Packet 2026-08-15]] → [[wiki/Research/Grok Bot Practitioner Bank\|Practitioner Bank]] |
+| [[raw/sources/2026-08-11-mattyp-content-bot-overnight\|Content Bot + overnight (Palmer, 2026-08-11)]] | X post | compiled into Field packet 2026-08-15 | overnight computer, Demo/Content Bot restated, grocery pair | [[wiki/Research/Grok Bot Field Packet 2026-08-15\|Field Packet 2026-08-15]] |
+| [[raw/sources/2026-08-11-zakariasson-100-use-cases\|100 use cases (Zakariasson, 2026-08-11)]] | X thread | compiled into Field packet 2026-08-15 | catalog; GUI-as-API; promise reconstruction; fleet spend canary | [[wiki/Research/Grok Bot Field Packet 2026-08-15\|Field Packet 2026-08-15]] |
 
 ## Private Course Sources
 

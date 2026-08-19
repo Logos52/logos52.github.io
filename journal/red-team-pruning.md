@@ -44,7 +44,7 @@ I kept the four UFMCS principles inside the page:
 I also kept links from Red Teaming into the current working system:
 
 - [[wiki/Decision Making/Decision Making|Decision Making]]
-- [[wiki/Decision Making/Good Decisions|Good Decisions]]
+- [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]]
 - [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
@@ -241,7 +241,7 @@ The argument:
 
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
-- [[wiki/Decision Making/Good Decisions|Good Decisions]]
+- [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]

@@ -104,7 +104,7 @@ Judgment includes:
 - avoiding status traps,
 - understanding compounding.
 
-This connects to [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Decision Making/Good Decisions|Good Decisions]], and [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]].
+This connects to [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]], and [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]].
 
 ## Productize Yourself
 
@@ -152,7 +152,7 @@ The connection is not "get rich by taking notes." It is that durable public arti
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
-- [[wiki/Decision Making/Good Decisions|Good Decisions]]
+- [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]]
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 
 ## Possible New Pages

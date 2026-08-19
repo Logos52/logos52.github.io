@@ -45,7 +45,7 @@ Here is why the old model no longer fits:
 - Red Teaming was designed to surface failure modes, biases, mirror-imaging, and unexamined assumptions that have historically produced strategic surprise.
 - Its tools once required weeks of workshops and scarce facilitation to generate new perspectives.
 - Artificial intelligence has made generation dramatically cheaper. LLMs and adversarial models can now produce dozens of high-quality red-team outputs in minutes.
-- The remaining bottleneck is no longer perspective generation but rapid, high-quality judgment: knowing which perspectives matter, which shortcuts are acceptable, and when analysis must end and [[wiki/Decision Making/Good Decisions|decision-making]] must begin.
+- The remaining bottleneck is no longer perspective generation but rapid, high-quality judgment: knowing which perspectives matter, which shortcuts are acceptable, and when analysis must end and [[wiki/Decision Making/Judging a Decision by Its Process|decision-making]] must begin.
 - The repeated focus on federal efficiency and budget discipline sends a clear signal: any analytical practice that cannot demonstrate clear value per unit time becomes vulnerable.
 - The Red Team stance, skeptical, adversarial, assumption-challenging, must survive and evolve. The old handbook and course architecture, however, should shrink dramatically and be re-engineered for an [[wiki/Concepts/Agentic Engineering|AI-augmented]] military.
 

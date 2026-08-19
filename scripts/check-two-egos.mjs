@@ -16,6 +16,19 @@ const TELLS = [
   ['self-superlative', /\bmy (?:best|proudest|greatest|finest)\b/i],
 ];
 
+// Headings and titles are a separate unit with a separate rule: a heading names the MATERIAL,
+// never the author's relationship to it. "Positions" names a thing that exists; "What I Hold"
+// names a stance, and a stance in a heading announces that opinions are arriving, which invites
+// the reader's honest reply — who cares. Flags here are candidates like everywhere else; the
+// judgment question in the QA doc decides.
+const HEADING_TELLS = [
+  ['first-person', /\b(I|I'm|I've|my|mine|me)\b/i],
+  ['stance-verb', /\b(hold|holds|believe|believes|think|thinks|feel|feels|value|values|care|cares|love|loves|hate|hates|prefer|prefers|reckon)\b/i],
+  ['what-why-how-I', /^(what|why|how|where|when)\s+(i|my)\b/i],
+  ['evaluative', /\b(best|worst|favou?rite|proudest|greatest|finest|essential|key|important|must-read|top)\b/i],
+  ['self-noun', /\b(journey|story so far|about me|my story|reflections|musings|thoughts)\b/i],
+];
+
 const FIRST_PERSON = /\bI\b|\bI'(?:m|ve|d|ll)\b|\b[Mm]y\b|\b[Mm]e\b|\b[Mm]ine\b|\b[Mm]yself\b/;
 
 function stripNonProse(text) {
@@ -26,6 +39,21 @@ function stripNonProse(text) {
   }
   t = t.replace(/```[\s\S]*?```/g, (m) => m.replace(/[^\n]/g, ' '));
   return t;
+}
+
+/** Headings (## …) plus the frontmatter `title:`, each with its line number. */
+function headings(raw) {
+  const out = [];
+  const fm = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  if (fm) {
+    const m = fm[1].match(/^title:\s*["']?(.+?)["']?\s*$/m);
+    if (m) out.push({ text: m[1], line: 1, kind: 'title' });
+  }
+  raw.split('\n').forEach((l, i) => {
+    const m = l.match(/^(#{1,6})\s+(.*\S)\s*$/);
+    if (m) out.push({ text: m[2], line: i + 1, kind: 'h' + m[1].length });
+  });
+  return out;
 }
 
 function lineAt(text, index) {
@@ -45,6 +73,7 @@ function sentences(text) {
 
 let totalTells = 0;
 let totalFirstPerson = 0;
+let totalHeadings = 0;
 const files = process.argv.slice(2);
 if (files.length === 0) {
   console.error('usage: node scripts/check-two-egos.mjs <file.md> [...]');
@@ -78,6 +107,13 @@ for (const file of files) {
     if (fired.length > 0) tells.push(`  [${fired.join(', ')}] L${line}: ${clipped}`);
     else if (FIRST_PERSON.test(s)) worklist.push(`  L${line}: ${clipped}`);
   }
+  const headingFlags = [];
+  for (const { text: htext, line, kind } of headings(raw)) {
+    const fired = HEADING_TELLS.filter(([, re]) => re.test(htext)).map(([name]) => name);
+    if (fired.length > 0) headingFlags.push(`  [${fired.join(', ')}] L${line} (${kind}): ${htext}`);
+  }
+  totalHeadings += headingFlags.length;
+
   totalTells += tells.length;
   totalFirstPerson += worklist.length;
   console.log(`== ${file}`);
@@ -85,6 +121,8 @@ for (const file of files) {
   for (const t of tells) console.log(t);
   console.log(`FIRST-PERSON worklist (${worklist.length}):`);
   for (const w of worklist) console.log(w);
+  console.log(`HEADING flags (${headingFlags.length}):`);
+  for (const h of headingFlags) console.log(h);
   console.log('');
 }
-console.log(`-- ${files.length} file(s): ${totalTells} tell(s), ${totalFirstPerson} further first-person sentence(s). Flags are candidates; the judgment pass rules.`);
+console.log(`-- ${files.length} file(s): ${totalTells} tell(s), ${totalFirstPerson} further first-person sentence(s), ${totalHeadings} heading flag(s). Flags are candidates; the judgment pass rules. For every heading, flagged or not: does it name something that exists, or your relationship to it — and would a stranger reading only the heading answer "who cares"?`);

@@ -37,4 +37,4 @@ Grouping information and building relationships beats any standalone image. A vi
 
 ## Links into the system
 
-The hand-skill behind [[Bear Hunter System - Shoot]] and [[Mindmaps]]; pairs with [[Thinking on Paper]]. The grouping and relationships it should serve are built through [[Higher-Order Learning]].
+The hand-skill behind [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] and [[Mindmaps]]; pairs with [[Thinking on Paper]]. The grouping and relationships it should serve are built through [[Higher-Order Learning]].

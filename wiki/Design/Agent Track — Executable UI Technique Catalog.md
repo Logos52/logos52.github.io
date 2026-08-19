@@ -3,9 +3,11 @@ title: "Agent Track — Executable UI Technique Catalog"
 type: resource-catalog
 status: developing
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-08-14
 source-count: 2
 last-audited: 2026-06-30
+written-by: grok
+model: grok
 tags:
   - design
   - agentic-engineering
@@ -16,99 +18,180 @@ tags:
 
 # Agent Track — Executable UI Technique Catalog
 
-Machine-consumable design rules — the part of UI a design/coding agent can apply deterministically. Extracted per [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]. Each entry is atomic and prescriptive; where applying it well still needs an eye, a **seam →** link points to the judgment half in [[wiki/Design/Human Track — Taste & Judgment Catalog|the Human Track]]. Source tags: **[RUI]** = Refactoring UI; **[UPOD]** = Universal Principles of Design.
+The Agent Track is a list of interface rules a machine can apply without looking. Each entry is atomic and numbered. Where applying a rule well still needs an eye, a seam note marks the leftover judgment — a reminder, not a jump. The entries were sorted by [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]; leftover looking lives on [[wiki/Design/Human Track — Taste & Judgment Catalog|the Human Track]].
 
-## Systems & constraints (meta-rules)
+## Systems & constraints
 
-- **Define value systems in advance, choose by elimination.** For every recurring property — font size, weight, line-height, color, margin, padding, width, height, shadow, radius, border-width, opacity — pick from a fixed set, never a limitless pool. To choose: guess, then compare the neighbors on each side; two will look obviously wrong. [RUI] *(seam → the final pick is by eye)*
-- **Constrain to the one right action.** Disable/hide invalid options, mask inputs to legal shape, gate submit on validity. Stack physical/cultural/semantic/logical constraints until instructions become unnecessary. [UPOD: Constraint, Poka-Yoke]
-- **Consistency has four kinds — apply all.** Aesthetic (style), functional (same control = same behavior), internal (matches rest of system), external (matches platform conventions). [UPOD: Consistency]
+A **value system** is a fixed set of allowed sizes, weights, colors, or radii, chosen in advance so nothing is picked from a continuous range. [RUI]
+
+**Value systems are defined in advance and chosen by elimination.** For every recurring property — font size, weight, line-height, color, margin, padding, width, height, shadow, radius, border-width, opacity — the pick comes from a fixed set. The method is to guess, then compare the neighbors on each side; two will look obviously wrong. *(seam → the final pick is by eye)*
+
+**The one right action is the only action left open.** Invalid options are disabled or hidden, inputs are masked to legal shape, and submit is gated on validity. Physical, cultural, semantic, and logical constraints stack until instructions become unnecessary. [UPOD]
+
+**Consistency has four kinds, and all four apply.** Aesthetic is style. Functional is the same control doing the same thing. Internal is a match with the rest of the system. External is a match with the platform. [UPOD]
 
 ## Spacing & layout
 
-- **Spacing/sizing scale is non-linear.** Base 16px (browser default, divides well); pack values tightly at the small end, widen gaps toward the large end; **no two adjacent values closer than ~25%.** Use the scale for all margin/padding/width/height. [RUI]
-- **Start with too much whitespace, then remove.** Default to generous space and subtract, rather than adding the minimum to avoid looking bad. [RUI] *(seam → "enough" is judged)*
-- **Don't fill the whole screen.** Give each element only the space it needs; set a `max-width` and only force shrink when viewport < max-width. Don't make something full-width just to match a sibling. [RUI]
-- **Fixed widths beat fluid % when an element shouldn't scale.** Sidebars get a fixed width optimized for contents; main content flexes. Don't use percentages unless you actually want scaling. [RUI]
-- **Don't size relatively across breakpoints.** Use px/rem, not em, for the type scale; large elements must shrink faster than small ones on small screens (e.g. desktop headline 45px → mobile 20–24px). [RUI]
-- **Avoid ambiguous spacing: more space around a group than within it.** Form-group gap > label-to-input gap; space above a section heading > line gap. [RUI]
-- **Design mobile-first on a ~400px canvas**, then expand. [RUI]
-- **Alignment: put every element on a shared edge/axis.** Strong alignment reads as order; misalignment reads as error. [UPOD: Alignment]
-- **Layout to the reading path.** Even-weight layouts: place primary→terminal along the Z (Gutenberg diagram); for asymmetric/visual content use reading-gravity / Rule of Thirds intersections for focal placement. [UPOD: Gutenberg Diagram, Rule of Thirds]
-- **Proportion systems:** golden ratio ≈1.618, Fibonacci (1,2,3,5,8,13…), and rule-of-thirds give ready aspect/size ratios when no other constraint dictates. [UPOD: Golden Ratio, Fibonacci, Rule of Thirds] *(seam → proportion ≠ guaranteed beauty)*
+**The spacing and sizing scale is non-linear.** The base is 16px, because it is the browser default and it divides well. Values pack tight at the small end and widen toward the large end. No two adjacent values sit closer than about 25 percent; closer than that, they stop reading as a scale. The same scale covers margin, padding, width, and height. [RUI]
 
-## Typography (mechanical)
+**Whitespace starts too large, then comes off.** Generous space is the default; subtraction is the edit. [RUI] *(seam → "enough" is judged)*
 
-- **Type scale: hand-picked, non-linear, px/rem (never em).** em compounds on nesting and drops you off the scale. Modular ratios (3:4, golden) produce fractional px — round them. Representative scale (illustrative): 12, 14, 16, 18, 20, 24, 30, 36, 48, 60, 72. [RUI]
-- **Line length 45–75 characters (~20–35em).** Limit paragraph width even when the surrounding content area is wider. [RUI]
-- **Line-height is proportional, two ways:** wider measure → taller leading (narrow ~1.5, wide up to 2.0); larger font → shorter leading (body small = tall, large headlines ≈1.0). CJK body runs higher (~1.7). [RUI; CJK from reading list]
-- **Baseline-align mixed font sizes on one line, never center.** [RUI]
-- **Font weight floor 400 for UI.** 400/500 = body, 600/700 = emphasis; weights <400 only for large headings. To de-emphasize, use lighter color or smaller size, not thinner weight. [RUI]
-- **Letter-spacing: leave default; two exceptions —** tighten headlines set in a body-optimized face; widen all-caps for legibility. [RUI]
-- **Alignment for readability:** left-align for LTR; never center >2–3 lines; right-align numeric columns (decimal aligns); enable hyphenation whenever justifying. [RUI]
-- **Links in link-dense UI don't all need color** — use weight or a darker color; ancillary links get underline/color on hover only. [RUI]
-- **Font picking heuristics (mechanizable filter):** neutral sans for UI or the system font stack; on a directory, filter to 10+ styles as a quality proxy; avoid condensed faces / short x-heights for body. [RUI] *(seam → "good font" is ultimately taste)*
+**The screen is not filled.** Each element gets only the space it needs. A `max-width` is set, and shrink is forced only when the viewport drops below that width. Full-width to match a sibling is not a reason. [RUI]
 
-## Color (systematic)
+**Fixed widths beat fluid percentages when the element should not scale.** Sidebars take a fixed width fitted to their contents; the main column flexes. Percentages appear only when scaling is actually wanted. [RUI]
 
-- **Author in HSL, not hex/RGB.** Browsers take HSL (not HSB). Hue 0/120/240 = R/G/B; saturation 0%→grey; lightness 0/50/100 = black/pure/white. [RUI]
-- **You need ~10 colors × 5–10 shades.** Greys 8–10 shades; one or two primaries 5–10 shades; semantic accents (red/yellow/green) + categorical accents, each with shades. [RUI]
-- **Define shades up front, numbered 100–900** (base 500, darkest 900, lightest 100). Fill from the edges: set 900/500/100, then 700/300, then 800/600/400/200. Never generate shades with runtime `lighten()`/`darken()`. [RUI]
-- **Keep saturation up at the extremes.** As lightness leaves 50%, raise saturation or shades look washed out. [RUI]
-- **Shift brightness by rotating hue, ≤20–30°.** Lighten toward 60/180/300; darken toward 0/120/240 (e.g. yellow→orange as it darkens). [RUI]
-- **Greys carry temperature:** tint toward blue (cool) or yellow/orange (warm); keep the tint consistent across all shades. [RUI]
-- **No grey text on colored backgrounds.** Hand-pick a same-hue color and lower contrast via S/L; don't use white + opacity. [RUI]
-- **Contrast minimums (WCAG): 4.5:1 normal text (<~18px), 3:1 large.** When white-on-color goes too dark and grabs focus, flip it (dark color text on light color bg). [RUI; UPOD: Accessibility]
-- **Never encode meaning in color alone.** Pair with icon/text/position; for colorblind safety distinguish by light–dark contrast, not by hue. [RUI; UPOD: Accessibility]
-- **Background gradients: two hues ≤30° apart**, low contrast. [RUI]
+**Sizes do not travel relatively across breakpoints.** The type scale is px or rem, never em — em compounds on nesting and drops the size off the scale. Large elements shrink faster than small ones: a 45px desktop headline becomes 20–24px on mobile. [RUI]
+
+**Spacing around a group is larger than spacing inside it.** The gap between form groups is larger than the gap from label to input. Space above a section heading is larger than the line gap. [RUI]
+
+**The first canvas is about 400px, then it expands.** [RUI]
+
+**Every element sits on a shared edge or axis.** Strong alignment reads as order. Misalignment reads as error. [UPOD]
+
+**Layout can follow a reading path as an optional placement tool.** On an even-weight page, primary-to-terminal along a Z (the Gutenberg newspaper diagram) is one available order. On asymmetric visual content, reading-gravity or rule-of-thirds intersections are another. Neither is a measured law of how eyes move on screens. [UPOD]
+
+**Proportion systems supply ready ratios when nothing else dictates a size.** Golden ratio ≈1.618, Fibonacci (1, 2, 3, 5, 8, 13…), rule of thirds. [UPOD] *(seam → proportion is not guaranteed beauty)*
+
+## Typography
+
+**The type scale is hand-picked, non-linear, and written in px or rem, never em.** Modular ratios produce fractional pixels; those get rounded. An illustrative scale: 12, 14, 16, 18, 20, 24, 30, 36, 48, 60, 72. [RUI]
+
+**Line length is 45–75 characters, about 20–35em.** Paragraph width is limited even when the surrounding content area is wider. [RUI]
+
+**Line-height is proportional in two directions.** A wider measure takes taller leading (narrow about 1.5, wide up to 2.0). A larger font takes shorter leading (body tall, headlines about 1.0). CJK body conventionally runs higher, about 1.7 — a convention, not a spec mandate. [RUI]
+
+**Mixed font sizes on one line share a baseline. They are never centered on each other.** [RUI]
+
+**UI weight starts at 400.** 400 and 500 are body; 600 and 700 are emphasis. Weights below 400 appear only on large headings. De-emphasis is a lighter color or a smaller size, not a thinner weight. [RUI]
+
+**Letter-spacing stays at the default, with two exceptions.** Headlines set in a body-optimized face get tightened. All-caps get widened. [RUI]
+
+**Alignment follows readability.** Left-align for left-to-right. Never center more than two or three lines. Right-align numeric columns so the decimals line up. Hyphenation is on whenever type is justified. [RUI]
+
+**In a link-dense interface, not every link needs color.** Weight or a darker color can carry the set; ancillary links take underline or color on hover only. The scope is dense UI. Primary navigation still has to look like a link. [RUI]
+
+**Font picking is a filter, not a taste law.** Neutral sans for UI, or the system font stack. On a directory, a face with ten or more styles is a quality *proxy*. Condensed faces and short x-heights stay off body text. [RUI] *(seam → "good font" is taste)*
+
+## Color
+
+**Color is authored in HSL, not hex or RGB.** Browsers take HSL, not HSB — a common trap. Hue 0 / 120 / 240 is red / green / blue. Saturation 0 percent is grey. Lightness 0 / 50 / 100 is black / the pure hue / white. [RUI]
+
+**A working palette is about ten colors, each with five to ten shades.** Greys take eight to ten. One or two primaries take five to ten. Semantic accents (red, yellow, green) and categorical accents each get their own shade ramps. This is a heuristic, not a census. [RUI]
+
+**Shades are defined up front and numbered 100–900.** Base is 500, darkest 900, lightest 100. Fill from the edges: 900 / 500 / 100, then 700 / 300, then 800 / 600 / 400 / 200. Runtime `lighten()` and `darken()` are not used. [RUI]
+
+**Saturation stays up at the extremes.** As lightness leaves 50 percent, saturation rises, or the shades wash out. [RUI]
+
+**Brightness shifts by rotating hue, at most 20–30 degrees.** Lighten toward 60 / 180 / 300. Darken toward 0 / 120 / 240. Yellow moves toward orange as it darkens. [RUI]
+
+**Greys carry a temperature.** Tint toward blue (cool) or toward yellow or orange (warm), and keep that tint consistent across every shade. [RUI]
+
+**Grey text does not sit on a colored background.** A same-hue color is hand-picked and contrast is lowered through saturation and lightness. White plus opacity is the anti-move. [RUI]
+
+**Contrast floors are 4.5:1 for normal text under about 18px, and 3:1 for large text.** When white-on-color has gone so dark it grabs focus, the pair flips: dark-color text on a light-color ground. [RUI] [UPOD]
+
+**Meaning is never encoded in color alone.** An icon, a word, or a position travels with it. Colorblind-safe distinction is light-versus-dark contrast, not hue. [RUI] [UPOD]
+
+**Background gradients use two hues at most 30 degrees apart, at low contrast.** [RUI]
+
+## What "executable" actually means here
+
+Almost every number above already lives in a named law. A few of those numbers are tools, not measurements. The Gutenberg Z-path, the golden ratio, and a highlight of about 10 percent of the field are optional placement and emphasis tools. They are not perception facts. The one number this catalog is truer about than its source: working memory. Miller's classic span is 7±2 chunks. Design is for the modern effective limit of about **3–5**, the same limit [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] names. The catalog holds 66 rules. Seam notes stay reminders, not anchors into the Human Track.
 
 ## Hierarchy & emphasis
 
-- **Carry hierarchy with weight + color, not size alone.** Cap at 2–3 text colors (dark primary / grey secondary / lighter-grey tertiary) and 2 weights. [RUI]
-- **Emphasize by de-emphasizing competitors** — soften inactive items / drop a competing background rather than pushing the focal element harder. [RUI]
-- **Balance weight against contrast.** Heavy elements (solid icons, bold) get lower contrast; too-subtle thin elements (1px borders) get more weight instead of a darker color. [RUI]
-- **Button hierarchy:** primary = solid high-contrast; secondary = outline / low-contrast; tertiary = link-style. Destructive ≠ automatically big-red — give it a secondary/tertiary treatment and reserve the red-bold for the confirmation step where it's primary. [RUI]
-- **Labels are a last resort.** Drop the label when format/context implies the field; fold it into the value ("12 left in stock"); when needed, style it as secondary. [RUI]
-- **Separate visual from document hierarchy.** Choose the semantic tag for meaning, style independently; section titles often render small or visually hidden. [RUI]
-- **Highlight ≤ ~10% of the visible field**, one technique at a time (bold, color, underline, inversion); over-highlighting cancels itself. [UPOD: Highlighting]
-- **Maximize signal-to-noise:** remove or mute every element not doing a job; raise the contrast of the ones that are. [UPOD: Signal-to-Noise Ratio, Horror Vacui]
-- **Isolate the exception to make it pop** (one item visually unlike its neighbors draws the eye). [UPOD: von Restorff Effect]
+**Hierarchy is carried with weight and color, not size alone.** The cap is two or three text colors — dark primary, grey secondary, lighter-grey tertiary — and two weights. [RUI]
 
-## Depth, elevation & shadows
+**Emphasis is the competitors going quiet.** Inactive items soften. A competing background drops. The focal element is not pushed harder. [RUI]
 
-- **Light comes from above.** Raised = lighter top edge + small dark shadow below with slight +y offset and sharp (small blur); inset = dark inset at top + lighter bottom lip. Hand-pick the lighter color (don't overlay semi-transparent white). [RUI; UPOD: Top-Down Lighting Bias]
-- **Elevation = shadow size, ~5 fixed steps.** Tight/small = barely raised (buttons); medium = dropdowns; large/blurred = modals. Pick by where the element sits on the z-axis. [RUI]
-- **Two-part shadows:** large soft (direct light) + tight dark (ambient occlusion); fade the tight one as elevation rises. [RUI]
-- **Flat depth without shadows:** lighter-than-bg = raised, darker = inset; or solid shadows (offset, zero blur). [RUI]
-- **Overlap elements to build layers**; give overlapping images an invisible border matching the bg to prevent clashing. [RUI]
+**Weight is balanced against contrast.** Heavy elements (solid icons, bold) take lower contrast. A too-subtle thin element (a 1px border) takes more weight, not a darker color. [RUI]
 
-## Components, states & interaction
+**Buttons have three ranks.** Primary is solid and high-contrast. Secondary is outline or low-contrast. Tertiary is link-style. Destructive is not automatically big and red; it takes secondary or tertiary treatment, and red-bold is reserved for the confirmation step where that action is primary. [RUI]
 
-- **Acknowledge every action within ~100 ms** (optimistic UI, skeletons, spinners); long ops get progress + honest ETA. [RUI; UPOD: Feedback]
-- **Guard against double-fire** while acknowledgment lags: debounce, disable-on-submit, idempotent ops. [RUI]
-- **Shadow as interaction cue:** press = smaller/removed shadow; drag = added shadow. [RUI]
-- **Forgiveness: prefer undo / soft-delete over confirm dialogs;** reserve a forcing function (confirm / type-to-confirm) for the genuinely destructive, and keep the friction local to that one step. [RUI; UPOD: Forgiveness]
-- **Place frequent / important targets large or near; edges and corners are infinite-depth targets.** Make rare or dangerous targets smaller/farther. [UPOD: Fitts' Law — MT = a + b·log₂(d/s + 1)]
-- **Fewer choices = faster decisions** — reduce or group options on a path to lower decision time. [UPOD: Hick's Law]
-- **Chunk to working-memory limits;** Miller's classic span is 7±2 chunks, but design for the modern effective limit of ~3–5 (matches [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]). Split long forms/values into stages. [UPOD: Miller's Law; Performance Load]
-- **Recognition over recall:** show options (menus, autocomplete, recents); persist entered data across navigation and failed submits. [UPOD: Recognition over Recall; RUI]
-- **Progressive disclosure:** hide depth behind a clear trigger; prefer native `<details>` (no JS state). [UPOD: Progressive Disclosure]
-- **Order by primacy/recency** — most important items first or last in a list (serial position). [UPOD: Serial Position Effects]
-- **Front-load the conclusion** in text blocks (inverted pyramid: most important first). [UPOD: Inverted Pyramid]
-- **Map controls to effects spatially** (control layout mirrors the thing controlled). [UPOD: Mapping]
-- **Use conventional icons; pair with a text label** (similar-, example-, symbolic-, arbitrary-reference types — the more arbitrary, the more a label is required). [UPOD: Iconic Representation]
-- **Make state visible / direct-manipulable (WYSIWYG)** where the user edits the rendered result, not a hidden proxy. [UPOD: WYSIWYG]
-- **Empty states are first impressions:** illustration + emphasized CTA; hide tabs/filters until content exists. [RUI]
-- **Fewer borders:** separate with box-shadow, a second bg color, or extra spacing before reaching for a border. [RUI]
-- **Supercharge defaults:** icon bullets, promoted pull-quotes, custom link underlines, brand-colored form controls, accent borders (card top / active nav / alert side / headline underline). [RUI]
+**Labels are a last resort.** The label drops when format or context already names the field. It folds into the value ("12 left in stock"). When it stays, it is styled as secondary. The accessible name can be visually folded and still present — `aria-label`, or visually hidden text. Folding is not deleting. [RUI]
 
-## Images & media
+**Visual hierarchy and document hierarchy are separate.** The semantic tag is chosen for meaning and styled independently. Section titles often render small, or visually hidden. [RUI]
 
-- **Everything has an intended size.** Don't scale tiny icons up (enclose in a shape instead); don't scale screenshots down (shoot at a smaller layout, crop partial, or redraw simplified); redraw favicons at target size. [RUI]
-- **Make text-on-image contrast consistent:** semi-transparent overlay (black for light text / white for dark), or lower image contrast + rebalance brightness, or colorize (low-contrast + desaturate + multiply fill), or a text shadow used as a soft glow (large blur, no offset). [RUI]
-- **Tame user-uploaded images:** fix container shape/size with `background-size: cover`; prevent bg bleed with an inner box-shadow or semi-transparent inner border (not a hard border). [RUI]
+**Highlight stays at about 10 percent of the visible field, one technique at a time** — bold, color, underline, or inversion. Over-highlighting cancels itself. The 10 percent is a heuristic, not a measured threshold. [UPOD]
+
+**Signal rises and noise falls.** Every element not doing a job is removed or muted. Contrast rises on the ones that remain. [UPOD]
+
+**The exception is isolated.** One item visually unlike its neighbors draws the eye. [UPOD]
+
+## Depth
+
+**Light comes from above.** Raised is a lighter top edge plus a small dark shadow below, with a slight +y offset and a small blur. Inset is a dark inset at the top plus a lighter bottom lip. The lighter color is hand-picked; a semi-transparent white overlay is the anti-move. [RUI] [UPOD]
+
+**Elevation is shadow size, in about five fixed steps.** Tight and small is buttons. Medium is dropdowns. Large and blurred is modals. [RUI]
+
+**Shadows come in two parts.** A large soft layer is the direct light. A tight dark layer is the ambient occlusion. The tight layer fades as elevation rises. [RUI]
+
+**Flat depth does not need a blur.** Lighter-than-background reads as raised; darker reads as inset. Or a solid shadow: offset, zero blur. [RUI]
+
+**Overlap builds layers.** Overlapping images get an invisible border matching the background, so the edges do not clash. [RUI]
+
+## Components & states
+
+**Every action is acknowledged within about 100 ms** — optimistic UI, skeletons, or spinners. Long operations get progress and an honest ETA. [RUI] [UPOD]
+
+**Double-fire is guarded while that acknowledgment lags.** Debounce, disable-on-submit, idempotent operations. All three. [RUI]
+
+**Shadow is also an interaction cue.** Press removes or shrinks the shadow. Drag adds one. [RUI]
+
+**Forgiveness prefers undo and soft-delete over a confirm dialog.** A **forcing function** — confirm, or type-to-confirm — is reserved for the genuinely destructive step, and the friction stays local to that one step. [RUI] [UPOD]
+
+**Frequent or important targets are large or near. Edges and corners are infinite-depth targets.** Rare or dangerous targets sit smaller and farther. Fitts: MT = a + b·log₂(d/s + 1). [UPOD]
+
+**Fewer choices make faster decisions.** Options on a path are reduced or grouped. That is the instruction. The Hick–Hyman formula is not a UI stopwatch; the linear-in-log(n) form assumes equally probable choices. [UPOD]
+
+**Long forms and long values split into stages.** Design for about 3–5 chunks, not 7±2. [UPOD]
+
+**Recognition beats recall.** Options are shown — menus, autocomplete, recents. Entered data persists across navigation and across a failed submit. [UPOD] [RUI]
+
+**Depth hides behind a clear trigger.** Native `<details>` is the tool class; it needs no JavaScript state. [UPOD]
+
+**Order follows primacy and recency.** The most important items sit first or last. [UPOD]
+
+**Text blocks front-load the conclusion.** Inverted pyramid: the important sentence first. [UPOD]
+
+**Controls map spatially to their effects.** The layout of the control mirrors the thing controlled. [UPOD]
+
+**Icons are conventional and paired with a text label.** Four types: similar-reference, example-reference, symbolic-reference, arbitrary-reference. The more arbitrary the icon, the more a label is required. The accessible name can still be visually folded, as with field labels. [UPOD]
+
+**State is visible and directly manipulable** where the person edits the rendered result, not a hidden proxy. [UPOD]
+
+**Empty states are first impressions.** An illustration plus an emphasized action. Tabs and filters stay hidden until content exists. [RUI]
+
+**Borders are a last reach.** Separation tries box-shadow, then a second background color, then extra spacing, before a border. [RUI]
+
+**Defaults get a brand pass.** Icon bullets, promoted pull-quotes, custom link underlines, brand-colored form controls, and accent borders — card top, active nav, alert side, headline underline. [RUI]
+
+## Images
+
+**Everything has an intended size.** Tiny icons are not scaled up; they are enclosed in a shape. Screenshots are not scaled down; they are shot at a smaller layout, cropped partial, or redrawn simplified. Favicons are redrawn at the target size. [RUI]
+
+**Text on an image keeps contrast four ways.** A semi-transparent overlay (black under light text, white under dark). Or lower image contrast and rebalance brightness. Or colorize: low-contrast, desaturate, multiply a fill. Or a text shadow used as a soft glow — large blur, no offset. [RUI]
+
+**User-uploaded images are tamed in the container.** `background-size: cover` fixes shape and size. Background bleed is stopped with an inner box-shadow or a semi-transparent inner border, not a hard border. [RUI]
+
+Gutenberg, the golden ratio, and the 10 percent highlight become false laws if the "~" and the seam drop. Unscoped, the dense-UI link rule strips underlines from primary navigation. Skipped, the folded-label clause deletes accessible names. The catalog cannot produce taste.
+
+Applying the whole set is a constraints pass, not a restyle. Time goes to defining the value systems and the 100–900 ramps up front, not to picking per screen. If two adjacent scale values sit closer than about 25 percent, or if a pass produces no seams, the catalog was used as decoration. A stranger can implement the 16px / 25 percent scale, the 45–75 measure, the 4.5:1 floor, the 100 ms acknowledgment, and the 3–5 chunk split from the numbers on this page, with neither book open.
+
+The ruleset stands without the books. Leftover looking is the other catalog.
+
+## Related
+
+- [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]] — the classification test that produced this catalog.
+- [[wiki/Design/Human Track — Taste & Judgment Catalog|the Human Track]] — the judgment half of every seam.
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — the 3–5 working-memory limit behind the Miller correction.
+
+## Open Questions
+
+Whether CJK body leading of about 1.7 becomes a spec extract, or stays a convention until a CJK typography page exists.
+
+Whether seam notes become jump anchors once the Human Track has stable headings.
 
 ## Sources
 
-- Wathan, A. & Schoger, S. *Refactoring UI* — `raw/sources/design/Refactoring UI.pdf`.
-- Lidwell, W., Holden, K. & Butler, J. *Universal Principles of Design*, 3rd ed. (2023) — `raw/sources/design/Universal Principles of Design.pdf`. UI-scoped per the book's UI / UX / Graphic / Product Designer "most useful" lists plus core Gestalt and interaction laws.
+Wathan & Schoger, *Refactoring UI* (2018). Lidwell, Holden & Butler, *Universal Principles of Design*, 3rd ed. (2023). WCAG 2.2 Success Criteria 1.4.3 Contrast (Minimum) and 1.4.1 Use of Color. Card, Moran & Newell, *The Psychology of Human-Computer Interaction* (1983). Cowan, "The magical number 4 in short-term memory," *Behavioral and Brain Sciences* 24(1), 2001.

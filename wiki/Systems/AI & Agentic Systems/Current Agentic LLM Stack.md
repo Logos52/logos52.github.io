@@ -20,7 +20,7 @@ The models and agents doing agentic work across the projects, as of August 2026.
 | Layer | Tool / Model | Purpose |
 |---|---|---|
 | **Primary agent** | Claude Cowork (Fable 5) | Research lanes, synthesis, structure; page drafting under the vault's [[02 - System/Writing Standards\|writing standards]], final cut at the desk |
-| **Coding agent** | Grok Build (`grok-n1` / `grok-admin` profiles) | Execution on the Mac's real files and toolchain; separate profiles keep personal and work isolated |
+| **Coding agent** | Grok Build (`grok-4.6` as of 2026-08-12; `grok-n1` / `grok-admin` profiles) | Execution on the Mac's real files and toolchain; separate profiles keep personal and work isolated |
 | **Standing agents** | Grok Bot (cloud, one shared computer) | The always-on half — watching, fetching, filing; see [[wiki/Systems/AI & Agentic Systems/Standing Research Agents\|Standing Research Agents]] |
 | **Local models** | Qwen3-TTS + Whisper (MLX, Apple Silicon) | Audio production only: TTS generates the voices, Whisper transcribes them back for QA |
 | **Instructions** | `AGENTS.md` / `CLAUDE.md` per repo | Project rules, loaded at session start |
@@ -44,6 +44,7 @@ Hermes 3 via Ollama — the May version of this page named it the primary interf
 
 ## Related
 
+- [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — the model, the teammate, and Grok Build as three products under one first name
 - [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]] — the standing half in full
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]] — the doctrine the division of labor answers to
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — the zone model behind "judgment stays at the desk"

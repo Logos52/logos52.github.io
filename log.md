@@ -182,7 +182,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Decision Making/Decision Making|Decision Making]]
   - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
   - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]
-  - [[wiki/Decision Making/Good Decisions|Good Decisions]]
+  - [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]]
   - [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]
   - [[wiki/Decision Making/Changing Decisions|Changing Decisions]]
 - Connected the section to [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and selected Red Team pages.
@@ -580,14 +580,14 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Refined the post-migration wiki structure across the Five Dimensions, AI systems, workflows, books, Red Team, language resources, and supporting concept pages.
 - Added [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] as a synthesis page connecting top-performer learning, learning assets, and the Five Dimensions.
-- Added [[wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]] to document the current multi-model workflow: Grok for high-level framing, Hermes/Aider for local execution and structural cleanup.
+- Added Hybrid Model Workflows, Grok + Hermes to document the current multi-model workflow: Grok for high-level framing, Hermes/Aider for local execution and structural cleanup.
 - Strengthened [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]], [[wiki/Dimensions/Retrieval|Retrieval]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Self-Management|Self-Management]], and [[wiki/Dimensions/Mindset|Mindset]] so the hubs function more like diagnostic control surfaces.
 - Repaired many internal links left over from the `wiki/Techniques/` and broad `wiki/Concepts/` migration into `wiki/Dimensions/`, `wiki/Systems/`, and `wiki/Domains/`.
 
 ## [2026-05-17] develop | Agent workflow, 30-day challenges, and session memory
 
 - Added [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] to document Grok, Hermes 3, Ollama, Aider, and the current local/remote division of labor.
-- Refined [[wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes|Hybrid Model Workflows, Grok + Hermes]] around Hermes as the local agent and Grok as the high-level reasoning layer.
+- Refined Hybrid Model Workflows, Grok + Hermes around Hermes as the local agent and Grok as the high-level reasoning layer.
 - Expanded [[AGENTS]] with model-specific guidance, Hermes access boundaries, and the `raw/sessions/` session-summary habit for reviewable agent memory.
 - Added [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] plus dimension-specific challenge pages for Mindset, Self-Management, Self-Regulation, Deep Processing, and Retrieval.
 - Refined [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] around learning assets and the understand / remember / apply / perform model.
@@ -672,7 +672,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## 2026-05-29 — ICS program map + gap-fill compile
 - Created [[wiki/ICS Program Map]] — stage-ordered MOC over the wiki (Kickstart → High-yield → Growth), links wiki notes only (no raw/private links, per Writing Standards Sources policy).
 - Stage→wiki mappings confirmed against ICS stage pages; corrected Fundamentals (SIR + Marginal Gains), Briefing (Kolb + Skills Audit), Technique Training (inquiry-based / unlearning / memory).
-- Gap-filled 7 distilled wiki pages from raw/private/ICS: Camp I — [[wiki/Dimensions/Retrieval/Method of Loci|Method of Loci]], [[wiki/Dimensions/Retrieval/Flashcards|Flashcards]], [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Rote Learning and Memorisation]]; Fundamentals 2 — [[wiki/Dimensions/Deep Processing/Note-Taking|Note-Taking]], [[wiki/Dimensions/Retrieval/Revision|Revision]], [[wiki/Self Management/Study Scheduling|Study Scheduling]]; Summit — [[wiki/Dimensions/Retrieval/Cramming|Cramming]].
+- Gap-filled 7 distilled wiki pages from raw/private/ICS: Camp I — [[wiki/Dimensions/Retrieval/Method of Loci|Method of Loci]], [[wiki/Dimensions/Retrieval/Flashcards|Flashcards]], [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Rote Learning and Memorisation]]; Fundamentals 2 — [[wiki/Dimensions/Deep Processing/Non-Linear Note-Making|Non-Linear Note-Making]], [[wiki/Dimensions/Retrieval/Revision|Revision]], [[wiki/Self Management/Study Scheduling|Study Scheduling]]; Summit — [[wiki/Dimensions/Retrieval/Cramming|Cramming]].
 - Remaining synthesis backlog flagged in the map (Exam technique, Live learning events, Cave theory, Order control, Survive-and-thrive, Loss aversion, Exam execution, Learning Support library).
 
 ## 2026-05-29 — Exam Execution wiki cluster (Summit)
@@ -818,3 +818,76 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 
 - New: [[wiki/Systems/AI & Agentic Systems/Least-Cost Interpretation|Least-Cost Interpretation]] — the cost-function mechanism behind minimal compliant readings; two documented cases (the redo spiral, 2026-07-25; the label case, 2026-08-06); the three-lever repair, widened from revision orders to every ask; the case against, with the flip condition on record.
 - Wired: inline backlink from [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]]; home Top of Mind rotation (new question in, lowest entry archived per the 2026-07-17 rule); source journal [[journal/2026-07-25-the-least-cost-interpretation|2026-07-25]].
+
+## [2026-08-13] compile | Grok Bot practitioner essay → research bank
+
+- Source: Matt Palmer (@mattyp), *Intro to Grok Bot*, X article 2026-08-11 (`https://x.com/mattyp/status/2087252657589412119`). Raw deposit: `raw/sources/2026-08-11-mattyp-intro-to-grok-bot.md`.
+- Bank: [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]] — four lanes (practitioner-claims, architecture-verified, trust-and-safety, vault-friction). Official check against docs.x.ai/grok-bot (overview, bots, computer-and-apps, skills-routines, approvals-security) fetched 2026-08-13.
+- Killed: "each bot gets its own computer" (press); "recent research says trust agents more than ourselves" (unsourced; adjacent evidence runs the other way, including the Operator Instacart purchase).
+- Wiki pages not updated. Ingest map is in the bank: strengthen architecture + name grocery/DoorDash as the usage the public-only line refuses; do not import the trusting-agents-era mood.
+
+## [2026-08-13] compile | Journal: A Field Tracker
+
+- New: [[journal/2026-08-13-a-field-tracker|A Field Tracker]] — Field bot assigned as a specialist (named setups, gates, failures; public posts only; packet only). Not created in product. Gold file and manual packet still owed.
+- Nav: journal/index.md recent + top of mind; journal/calendar.md (five-most-recent window).
+- Related: [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]] remains the seed bank this lane would feed.
+
+## [2026-08-19] compile | Intro QA cut + Grok intro-convergence run
+
+- New: [[02 - System/Intro QA|Intro QA]] — five judgment tests (who-cares, transition, stacking, pillow, selfhood) plus `scripts/intro_qa.py`. Nineteen-test battery cut. On-ramp killed as a named test.
+- Journal: [[journal/2026-08-19-intro-qa-cut|Intro QA cut]].
+- Script validated: live Positions opener FAIL (100% American, rather than, I treat, smoothed pair); Two Egos and What a Label Does PASS.
+- Run in progress: `01 - Workbench/regen-2026-08/INTRO-CONVERGENCE-GROK-RUN.md`. Live Positions.md not overwritten; owner eye is the quality gate.
+
+## [2026-08-19] compile | Claude intro-convergence intake + Grok findings for Claude
+
+- Claude grind (`wf_d38ec1ad-6c6`) killed: 16 critic rounds, no descent (17 → 24 → 13). Transition and referent 24 each. Durable intake: `01 - Workbench/INTAKE-Claude-intro-convergence-2026-08-19.md` (copied out of `/tmp`).
+- Derive (`w3pfvvoea`): announcement vs instrument. Three unaccepted specimens in the intake.
+- Grok packet for Claude: `01 - Workbench/HANDOFF-Grok-findings-for-Claude-2026-08-19.md`. Grind not rerun. Five-test cut stands. Instrument test not run. Positions.md not overwritten.
+
+## [2026-08-19] experiment | Five-test intro loop — no CLEAN
+
+- `01 - Workbench/regen-2026-08/INTRO-CONVERGENCE-FIVE-TEST.md`. Four rounds, three lanes. Script always PASS. Trace moved (creed → dump → one stretch / pillow PASS → forced S1 / pillow FAIL). No lane CLEAN.
+- Bind: his sentence in slot one fails pillow; dropping it for the Army stretch fails who-cares and selfhood. Positions.md not overwritten.
+
+## [2026-08-13] compile | Journal: One month of Cursor Ultra, not a stack change
+
+- New: [[journal/2026-08-13-cursor-ultra-month|One month of Cursor Ultra, not a stack change]] — SuperGrok Heavy linked offer is one free month of Cursor Ultra at $0, no auto-renew. Cursor.app not installed on this Mac.
+- Workbench: `01 - Workbench/regen-2026-08/abc-test/RUN-CURSOR-ARM.md` (Fable 5 pinned, fourth writing arm) and `01 - Workbench/regen-2026-08/RUN-CURSOR-BANK-LANE.md` (one Grok 4.6 bank, not a mill). Pointer added on `RUN-RESEARCH-LANE.md`.
+- Stack page not updated. Dual-use evidence: this desk's 2026-06-12 tsumugu crib cross-check, Morgan Linton, Palmer's Bot→Cloud Agent pairing.
+
+## [2026-08-13] compile | Journal: Grok 4.6 on the frontier, not the lead
+
+- New: [[journal/2026-08-13-grok-4-6-on-the-frontier|Grok 4.6 on the frontier, not the lead]] — day-after-launch briefing vs Claude Opus 5 and Fable 5. AA Intelligence Index 61, tied Sol, one to two behind Anthropic. Not a stack change.
+- Contradiction surfaced, not reconciled: [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] still grades Grok 4.3 (2026-07 snapshot). Re-grade is its own pass.
+- Nav: `journal/index.md` top of mind + Recent entries; `journal/calendar.md` regenerated via `scripts/update-journal-surfaces.mjs` (also picked up Yuedu, which had been missing from the five-window).
+
+## [2026-08-15] compile | Field gold file + first packet
+
+- Pinned list dropped at `/Users/n1/Downloads/grok-guides-2026-08-15.md`. Filed as [[raw/sources/2026-08-15-grok-guides|raw/sources/2026-08-15-grok-guides]] — the gold file [[journal/2026-08-13-a-field-tracker|A Field Tracker]] owed.
+- Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-15|Grok Bot Field Packet 2026-08-15]]. Absorbed into [[wiki/Research/Grok Bot Practitioner Bank|Practitioner Bank]] as lane `field-2026-08-15`.
+- New deposits: [[raw/sources/2026-08-11-mattyp-content-bot-overnight|Palmer overnight]], [[raw/sources/2026-08-11-zakariasson-100-use-cases|Zakariasson 100]].
+- Official re-fetch (get-started + FAQ, 2026-08-15): first-task template (outcome / sources / constraints / deliverable / review point); one computer per user restated; Linux/Android/iPad unsupported.
+- Bank-candidates: first-task template; Nate theme-not-task (body paywalled, watch vs General Helper); Zakariasson #50 fleet-spend canary; Teach-a-task short-vs-long (second-hand).
+- Unfetched: Nate body, both LinkedIn posts, HN 49261514, VentureBeat (Vercel checkpoint).
+- Wiki ingest map still not written. Field not created in product. Grok 4.6 half of the list does not reopen the 13 Aug frontier journal.
+
+## [2026-08-15] compile | New wiki page: Grok 4.6 and Grok Bot
+
+- New: [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — one page for the name collision. Model vs teammate vs Grok Build. Inherits the 13 Aug ranking (frontier, not lead; not a stack change) and the public-only trust line.
+- Wired from Current Agentic LLM Stack (Build row now names `grok-4.6`), Standing Research Agents, What the Model Names Signal, Bot Operating Rules.
+- Does not ingest the Field packet into doctrine. Does not re-grade the capability lens.
+
+## [2026-08-15] compile | Journal: What works, Grok 4.6 and Grok Bot
+
+- New: [[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]] — rank the jobs. Fable writes; Grok 4.6 banks and executes; Grok Bot stands a public, packet-only duty. Field catalog is not a roster.
+- Evidence: A/B/C 13 Aug; 52 Grok openers 14 Aug; 281 banks; AA-Briefcase turn counts; Field packet 15 Aug.
+- Pointer added on [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]].
+- Nav: journal surfaces regenerated.
+
+## [2026-08-15] compile | Grok Build vs Cursor IDE lane + page addendum
+
+- Bank: [[wiki/Research/Grok Build and Cursor Bank|Grok Build and Cursor Bank]] — Build is the TUI/CLI the agent drives; Cursor is the IDE you sit in (Tab, diffs, debugger, Agent as a pane). Composer is a model, not the comparison. SuperGrok Heavy unlocks both.
+- Contradiction surfaced: Cursor help 15 Aug says Ultra lasts while Heavy renews; 13 Aug fetch of the same page said one month, no repeat. Named on the bank, the Ultra journal, and the wiki addendum. Not reconciled.
+- Addendum on [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]]. Cursor.app still not on this Mac.
+- Routing: Build when the agent drives; Cursor IDE when the hands are in the files; one writer per tree.

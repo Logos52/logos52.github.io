@@ -7,7 +7,7 @@ aliases:
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-07-09
+updated: 2026-08-13
 openQuestions:
   - "Which companion character deepenings merge to canon next (星野 package, 林薇 B3 home, B3L08 split) — and which stay proposals?"
   - "Which tsumugu-ed feature earns the next build pass — example sentences, phonetic-family browse, or the 手寫 / handwriting layer?"
@@ -21,6 +21,16 @@ tags:
 
 ## What's top of mind
 
+- **[[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]]** — Fable writes; Grok 4.6 banks and executes; Grok Bot stands a public packet-only duty. Rank the jobs, not the brand.
+- **Intro convergence packets** — Claude intake `01 - Workbench/INTAKE-Claude-intro-convergence-2026-08-19.md`; Grok findings for Claude `01 - Workbench/HANDOFF-Grok-findings-for-Claude-2026-08-19.md`. Grind is a measured null. Instrument test not run.
+- **[[journal/2026-08-19-intro-qa-cut|Intro QA cut]]** — nineteen tests down to five plus a script. Who-cares and transition stay. On-ramp off the battery.
+- **[[journal/2026-08-13-cursor-ultra-month|One month of Cursor Ultra, not a stack change]]** — SuperGrok Heavy's offer is 30 days of Ultra at $0. Harness test on the regen A/B/C pages (Fable 5 in Cursor vs Cowork) plus one Grok 4.6 bank. Not a fourth standing agent.
+- **[[journal/2026-08-13-grok-4-6-on-the-frontier|Grok 4.6 on the frontier, not the lead]]** — shipped 2026-08-12 at $2/$6, AA 61, tied Sol, one to two behind Opus 5 and Fable 5. Briefing, not a stack change. Capability Lens still grades Grok 4.3.
+- **[[wiki/Concepts/The Four Things People Stay For|The Four Things People Stay For]]** — podcast, not a react and not a think-aloud; people stay for content, logic, delivery, message; ego off the title.
+- **[[journal/2026-08-13-jinduoen-kan|多恩刊]]** — 20-minute graded ZH show (DUOEN in the title); midnight bot pings a paste block for Grok Build. Not 閱讀.
+- **[[journal/2026-08-13-tan-yuedu-channel|Tan grows a reader channel: 閱讀]]** — daily Dcard/news graded Chinese is tan channel 15 (Tsumugu reader + 金多恩), not a Grok Bot teacher; channel 14 stays gym lore.
+- **[[journal/2026-08-13-yuedu-traditional-sources|Yuedu: Traditional only, Dcard first]]** — source pin still 繁體 / Dcard first / CNA side; the chat-packet product is dead as of the tan-15 lock.
+- **[[journal/2026-08-13-a-field-tracker|A Field Tracker]]** — how people are actually using agents is its own lane: Field bot assigned on paper, one manual packet before a routine. Not Brief, not Intake.
 - **[[wiki/Language Research/How Foreign Words Become Chinese|How Foreign Words Become Chinese]]** — the new language research lane's explainer: sound vs meaning vs the rare both-at-once (可口可樂), the bleached character pool, why there is no flat-tone rule, and the real 1920s-Shanghai Coca-Cola naming history with both famous legends labeled dead.
 - **The writing process** — structure before lines, and naturalness over counts: a beat takes the length the conversation makes natural, and size marks exist only to keep imbalance visible. [[wiki/Systems/AI & Agentic Systems/Writing with a Structure Engine|Writing with a Structure Engine]] (the six working principles), grounded in [[wiki/Story Craft/Breaking the Story|Breaking the Story]], [[wiki/Story Craft/Structure for the Ear|Structure for the Ear]], and [[wiki/Story Craft/The Beat Board|The Beat Board]]. The working system built on them is [[journal/2026-07-27-the-break-comes-first|The Break Comes First]], unsigned.
 - **[[projects/tsumugu-ed|Tsumugu Encoding Dictionary]]** — live at [tsumugu-ed.com](https://tsumugu-ed.com). Next build pass: handwriting layer, example sentences, or phonetic-family browse.
@@ -28,11 +38,11 @@ tags:
 
 ## Recent entries
 
-- [[journal/2026-08-10-pages-read-as-posts|2026-08-10]] — Pages Read as Posts — Ruling: the blog register's voice becomes the default for wiki and personal pages going forward; WPW everywhere; Condensed/MOC/decision/chrome keep their own registers; em-dash scope unruled.
-- [[journal/2026-08-10-picking-voice-candidates-by-range|2026-08-10]] — Picking Voice Candidates by Range — Wedge's methodology for selecting TTS reference-voice candidates: fresh model-direct generation, ear-picks that carry melodic range, fixed seed, accrete to ten seconds.
-- [[journal/2026-08-03-a-language-research-lane|2026-08-03]] — A Language Research Lane — The ruling that research about how a language behaves gets its own wing: wiki/Language Research/ opens today with the 音譯 bank — two web lanes and 74 lookups commissioned for EP2 of the Tsumugu Podcast (Gaming), banked here with its confidence tags intact instead of injected into a script, while the citable production copy stays in tsumugu-core.
-- [[journal/2026-08-01-artifacts-of-record|2026-08-01]] — Artifacts of Record — The compaction ruling on the Tsumugu Podcast (Gaming) voice work: ~1.5 GB of takes, caches, and audition banks deleted today, with this entry as the surviving record of the method those rounds bought — machine as ranker, ear as judge, diversity built by mechanism, selection applied identity-first — and a map of where every ruling lives.
-- [[journal/2026-07-31-underdone-beats-overdone|2026-07-31]] — Underdone Beats Overdone — A working lesson from the voice production: when a fix pass keeps bouncing between too much and too little, the target sits below what the tool can control, so keep the nearest stable take, carry the nuance through the script and take-selection, and build candidate diversity on purpose instead of hoping seeds produce it.
+- [[journal/2026-08-19-intro-qa-cut|2026-08-19]] — Intro QA cut: five tests, a script, on-ramp off the battery — The nineteen-test intro battery is cut to five judgment tests plus a fail-closed script. Who-cares and transition stay. On-ramp is killed as a test because it fights who-cares. Costumes of the epigram fold into pillow. The owner's eye remains the quality gate.
+- [[journal/2026-08-19-personal-page-cut-back|2026-08-19]] — Personal page cut back to two lines — Owner: "i don't really like talking about this." The profile essay is off the page.
+- [[journal/2026-08-17-rulings-applied|2026-08-17]] — Rulings applied — B A B, keep, neither, retitle, pull closings — Owner agreed the recommended card on the sweep rulings and said proceed. Applied the same day, workbench only except the personal note, which he had already ruled lives under personal/.
+- [[journal/2026-08-17-tsumugu-ed-gsc-validation-failed|2026-08-17]] — tsumugu-ed.com GSC validation failed because Google has not chosen to index, not because a new block appeared — Search Console's 'Crawled — currently not indexed' validation failed on tsumugu-ed.com. Live technical SEO is clean. Googlebot is back but spending crawl budget on search JSON. tsumugu.cc is indexed and still has no crawlable link to the dictionary.
+- [[journal/2026-08-17-worldviews-promoted|2026-08-17]] — Worldviews wing promoted — Owner: all of it public, commit to GitHub. B is the public positions note. A (named groups, parasitic, cohort remigration) stays in the workbench.
 
 [[journal/calendar|Full calendar →]]
 

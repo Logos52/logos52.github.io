@@ -111,7 +111,7 @@ It also belongs with [[wiki/Red Team/Applied Critical Thinking - Testing Frames|
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
-- [[wiki/Decision Making/Good Decisions|Good Decisions]]
+- [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]]
 
 Possible new notes:
 

@@ -62,11 +62,11 @@ Related syntheses: [[ICS System]] · [[First Principles of Learning]] · [[How T
 
 ### 30-Day Plan — *an ultra-strategic 30-day plan (challenges split by dimension)*
 - [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] (hub)
-- [[wiki/Dimensions/30-Day Challenges/Deep Processing|30-Day: Deep Processing]] · [[wiki/Dimensions/30-Day Challenges/Mindset|30-Day: Mindset]] · [[wiki/Dimensions/30-Day Challenges/Retrieval|30-Day: Retrieval]] · [[wiki/Dimensions/30-Day Challenges/Self-Management|30-Day: Self-Management]] · [[wiki/Dimensions/30-Day Challenges/Self-Regulation|30-Day: Self-Regulation]]
+- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|30-Day: Deep Processing]] · [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|30-Day: Mindset]] · [[wiki/Dimensions/30-Day Challenges/Retrieval Challenge|30-Day: Retrieval]] · [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|30-Day: Self-Management]] · [[wiki/Dimensions/30-Day Challenges/Self-Regulation Challenge|30-Day: Self-Regulation]]
 
 ### Fundamentals 2 — *the high-yield suite; master first if time-pressed*
 *Key dimensions: deep processing, self-regulation, self-management, retrieval.*
-- [[wiki/Dimensions/Deep Processing/Note-Taking|Note-Taking]] · [[wiki/Dimensions/Retrieval/Revision|Revision]] · [[wiki/Self Management/Study Scheduling|Study Scheduling]] · [[Rote Learning and Memorisation]]
+- [[wiki/Dimensions/Deep Processing/Non-Linear Note-Making|Non-Linear Note-Making]] · [[wiki/Dimensions/Retrieval/Revision|Revision]] · [[wiki/Self Management/Study Scheduling|Study Scheduling]] · [[Rote Learning and Memorisation]]
 - [[Exam Technique]] · [[Live Learning Events]]
 
 ---
@@ -96,13 +96,13 @@ Related syntheses: [[ICS System]] · [[First Principles of Learning]] · [[How T
 - [[Loss Aversion]] — the "good enough" trap
 
 ### Ascent I — *Aim (step 1 of the Bear Hunter System encoding)*
-- [[Bear Hunter System - Aim]] · [[Aim]]
+- [[wiki/Dimensions/Deep Processing/Aim|Aim]] · [[Aim]]
 
 ### Ascent II — *Shoot (non-linear note-taking)*
-- [[Bear Hunter System - Shoot]] · [[Shoot]]
+- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] · [[Shoot]]
 
 ### Ascent III — *Skin (optimise chunk structure for retention/depth)*
-- [[Bear Hunter System - Skin]] · [[Skin]]
+- [[wiki/Dimensions/Deep Processing/Skin|Skin]] · [[Skin]]
 - [[Importance-Based Chunking]] · [[Chunking as a Technique - Good chunking at different levels, and how to layer importance and meaningfulness|Chunking as a Technique]]
 
 ### Base Camp — *resume self-management; combine advanced encoding*
@@ -128,7 +128,7 @@ Related syntheses: [[ICS System]] · [[First Principles of Learning]] · [[How T
 **Learning Support — synthesized 2026-05-29** (36 clips consolidated into 6 pages):
 [[Measuring Learning]] (mastery levels, efficiency, rate limiters) · [[Marginal Gains in Practice]] (stacking, tracking, vs Kolb/30-Day) · [[Encoding and Retrieval]] (the trade-off, spacing, troubleshooting) · [[Non-Linear Note-Making]] (arrows-vs-lines, spiderwebbing, reverse causality, references) · [[Motivation]] (strategic fuel vs dependency) · [[Pacing Skill Development]] (2–3 processes, Swiss-cheese / missing details). Other clips mapped to existing pages ([[Higher-Order Learning]], [[Prestudy]], [[Inquiry-Based Learning]], [[Skills Audit]], [[How to Ask for Feedback]], [[Interleaving Table]], [[Silly Mistake Syndrome]], [[Kolbs Experiential Cycle]]); only "Recommended apps" (an affiliate list) was left unsynthesized.
 
-- **Decision-making** → [[Decision Making]] · [[Good Decisions]] · [[Changing Decisions]] · [[Choice Throttling]] · [[Decisional Delays]] · [[Positional Decisions and Expected Value]]
+- **Decision-making** → [[Decision Making]] · [[wiki/Decision Making/Judging a Decision by Its Process|judging a decision by its process]] · [[Changing Decisions]] · [[Choice Throttling]] · [[Decisional Delays]] · [[Positional Decisions and Expected Value]]
 - **Exam execution** → [[How to diagnose and fix exam mistakes]] · [[How to prepare for ultra high-volume exams]]
 - **Mindset / Neuroticism** → [[Fixed vs Growth Mindset]] · [[Marginal Gains]] · [[Neuroticism]]
 - **Self-management & feedback** → [[How to Ask for Feedback]] · [[Skills Audit]] · [[Reverse Goal Setting]] · [[Kolbs Experiential Cycle]]
@@ -140,7 +140,7 @@ Related syntheses: [[ICS System]] · [[First Principles of Learning]] · [[How T
 
 ## Coverage notes (cross-check vs `raw/private/ICS`, 207 source files)
 - **Strongest coverage:** Ascent (Bear Hunter Aim/Shoot/Skin), Summit (Multipass), Camp II (interleaved retrieval), Catalyst (retrieval) — wiki notes map ~1:1.
-- **Gaps filled 2026-05-29:** Camp I memorisation ([[Rote Learning and Memorisation]], [[Flashcards]], [[Method of Loci]]); Fundamentals 2 ([[wiki/Dimensions/Deep Processing/Note-Taking|Note-Taking]], [[wiki/Dimensions/Retrieval/Revision|Revision]], [[wiki/Self Management/Study Scheduling|Study Scheduling]]); Summit ([[Cramming]] + the [[Exam Execution]] cluster: [[Breaching Questions]], [[ReCOVer System]], [[Silly Mistake Syndrome]]).
+- **Gaps filled 2026-05-29:** Camp I memorisation ([[Rote Learning and Memorisation]], [[Flashcards]], [[Method of Loci]]); Fundamentals 2 ([[wiki/Dimensions/Deep Processing/Non-Linear Note-Making|Non-Linear Note-Making]], [[wiki/Dimensions/Retrieval/Revision|Revision]], [[wiki/Self Management/Study Scheduling|Study Scheduling]]); Summit ([[Cramming]] + the [[Exam Execution]] cluster: [[Breaching Questions]], [[ReCOVer System]], [[Silly Mistake Syndrome]]).
 - **Filled 2026-05-29 (round 2):** Technique Training ([[Inquiry-Based Learning]], [[Order Control]], [[Survive and Thrive]], [[Cave Theory]], [[Loss Aversion]]); Fundamentals 2 ([[Exam Technique]], [[Live Learning Events]]); Briefing ([[Common Traps]], [[Techniques in School]]).
 - **Filled 2026-05-29 (round 3):** the *Learning Support* library — 36 clips consolidated into 6 pages (see Support library above). The only unsynthesized clip is "Recommended apps" (an affiliate list, not durable knowledge).
 - **Coverage:** the full linear program path and the Learning Support library are now covered. Remaining corpus items are minor (a few duplicate-variant clips and Live Clinic transcripts).

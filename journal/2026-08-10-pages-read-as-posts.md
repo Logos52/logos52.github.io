@@ -27,6 +27,10 @@ Also codified the same day, on Wedge's direction: the two egos enter the Persona
 
 Ratified in full later the same day, Wedge's words: "the standard on how you generated this post is now standard across all posts, with the exception of 'special' posts like the condensed versions." That closes the exemption question — the exception class is the special pages, Condensed the named example, and the four listed above stand as its members.
 
+Extended 2026-08-11, on the first self-talk page: names in footnotes. Body prose on sourced pages carries no source names or work titles — findings arrive as facts, numbers stay plain-clothed where operative, provenance lives only in the Sources block. His derivation, verbatim: "juggling new people in your brain adds an additional piece to an otherwise taxed out working memory… keep all working memory of the human dedicated to absorbing the content." Codified in §The Default Register.
+
 Open, awaiting Wedge's ruling:
+
+- Whether the names-in-footnotes law reaches back to the live ego page (wiki/Concepts/The Two Meanings of Ego, shipped with names in body) or runs forward-only like the register rulings.
 
 - Em-dash scope. The total cut currently binds front-facing surfaces and blog posts only; wiki and personal prose may still carry the dash. If wiki pages now read as posts, does the cut travel with the register? Codified for now as unchanged (the 07-22 personal-register ruling explicitly kept dashes legal there).

@@ -75,6 +75,7 @@ The name is a first look. The dated snapshot does the pick.
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — the facet snapshot that actually decides the pick.
 - [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]] — which model to spend where, by depth, not by name.
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — the dated roster this page is not.
+- [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — the current Grok model against the teammate app that shares its first name
 
 ## Open Questions
 

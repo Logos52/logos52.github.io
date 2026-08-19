@@ -4,7 +4,7 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-08-10
+updated: 2026-08-19
 tags:
   - system
 ---
@@ -12,35 +12,35 @@ tags:
 
 Five most recent journal entries, newest first. Older entries stay in the vault; add a dated `journal/YYYY-MM-DD-*.md` file and this page updates on build.
 
-## 2026-08-10
+## 2026-08-19
 
-[[journal/2026-08-10-pages-read-as-posts|Pages Read as Posts]]
+[[journal/2026-08-19-intro-qa-cut|Intro QA cut: five tests, a script, on-ramp off the battery]]
 
-Ruling: the blog register's voice becomes the default for wiki and personal pages going forward; WPW everywhere; Condensed/MOC/decision/chrome keep their own registers; em-dash scope unruled.
+The nineteen-test intro battery is cut to five judgment tests plus a fail-closed script. Who-cares and transition stay. On-ramp is killed as a test because it fights who-cares. Costumes of the epigram fold into pillow. The owner's eye remains the quality gate.
 
-## 2026-08-10
+## 2026-08-19
 
-[[journal/2026-08-10-picking-voice-candidates-by-range|Picking Voice Candidates by Range]]
+[[journal/2026-08-19-personal-page-cut-back|Personal page cut back to two lines]]
 
-Wedge's methodology for selecting TTS reference-voice candidates: fresh model-direct generation, ear-picks that carry melodic range, fixed seed, accrete to ten seconds.
+Owner: "i don't really like talking about this." The profile essay is off the page.
 
-## 2026-08-03
+## 2026-08-17
 
-[[journal/2026-08-03-a-language-research-lane|A Language Research Lane]]
+[[journal/2026-08-17-rulings-applied|Rulings applied — B A B, keep, neither, retitle, pull closings]]
 
-The ruling that research about how a language behaves gets its own wing: wiki/Language Research/ opens today with the 音譯 bank — two web lanes and 74 lookups commissioned for EP2 of the Tsumugu Podcast (Gaming), banked here with its confidence tags intact instead of injected into a script, while the citable production copy stays in tsumugu-core.
+Owner agreed the recommended card on the sweep rulings and said proceed. Applied the same day, workbench only except the personal note, which he had already ruled lives under personal/.
 
-## 2026-08-01
+## 2026-08-17
 
-[[journal/2026-08-01-artifacts-of-record|Artifacts of Record]]
+[[journal/2026-08-17-tsumugu-ed-gsc-validation-failed|tsumugu-ed.com GSC validation failed because Google has not chosen to index, not because a new block appeared]]
 
-The compaction ruling on the Tsumugu Podcast (Gaming) voice work: ~1.5 GB of takes, caches, and audition banks deleted today, with this entry as the surviving record of the method those rounds bought — machine as ranker, ear as judge, diversity built by mechanism, selection applied identity-first — and a map of where every ruling lives.
+Search Console's 'Crawled — currently not indexed' validation failed on tsumugu-ed.com. Live technical SEO is clean. Googlebot is back but spending crawl budget on search JSON. tsumugu.cc is indexed and still has no crawlable link to the dictionary.
 
-## 2026-07-31
+## 2026-08-17
 
-[[journal/2026-07-31-underdone-beats-overdone|Underdone Beats Overdone]]
+[[journal/2026-08-17-worldviews-promoted|Worldviews wing promoted]]
 
-A working lesson from the voice production: when a fix pass keeps bouncing between too much and too little, the target sits below what the tool can control, so keep the nearest stable take, carry the nuance through the script and take-selection, and build candidate diversity on purpose instead of hoping seeds produce it.
+Owner: all of it public, commit to GitHub. B is the public positions note. A (named groups, parasitic, cohort remigration) stays in the workbench.
 
 
 [[journal/index|← Back to Journal]]

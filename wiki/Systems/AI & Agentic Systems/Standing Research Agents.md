@@ -123,6 +123,7 @@ Sessions stay what they were — the place where findings become positions and p
 ## Related
 
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]
+- [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — the teammate against the model and against Grok Build
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]
 - [[wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg|Automation and the Job Iceberg]]
 - [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]]

@@ -45,6 +45,7 @@ A lane whose packets go three consecutive runs without changing anything read or
 
 ## Related
 
+- [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — the teammate these rules govern, against the model that shares its name
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Fleet Structures|Grok Bot Fleet Structures]] — the seats these rules govern
 - [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]] — the structure one level up, and the trust line
 - [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]] — the older manual checks the audit bot now runs on schedule

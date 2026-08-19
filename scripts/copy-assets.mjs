@@ -17,8 +17,7 @@ function copyDir(srcRel, destRel) {
   }
 }
 
-mkdirSync(join(ROOT, 'public', 'assets'), { recursive: true });
-if (existsSync(join(ROOT, 'assets', 'profile.jpg'))) {
-  copyFileSync(join(ROOT, 'assets', 'profile.jpg'), join(ROOT, 'public', 'assets', 'profile.jpg'));
-}
+// Every image in assets/ ships — the About portrait, the Personal door photo, and whatever
+// joins them — rather than a hand-maintained filename list that silently drops new ones.
+copyDir('assets', 'assets');
 copyDir('projects', 'projects');

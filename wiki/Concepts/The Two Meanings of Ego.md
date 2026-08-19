@@ -2,8 +2,9 @@
 type: concept
 status: developing
 created: 2026-08-10
-updated: 2026-08-13
+updated: 2026-08-19
 written-by: fable
+edited-sections: "The Selling Feeling — added 2026-08-19 by opus, from wiki/Concepts/How to Communicate Truth Into Someone Else's Frame"
 source-count: 32
 tags:
   - mindset
@@ -60,6 +61,16 @@ Several vocabularies reach the same question. A style manual's first reminder pu
 
 The agreement is worth less than it looks, since the four descend from one humanist and rhetorical line rather than from four independent observations. The manual's co-author later called the essayist congenitally self-centered, a remark about motive that leaves his rule about display standing.
 
+## The Selling Feeling
+
+A parallel account arrives from persuasion rather than from prose, and it puts the person in the same place. Credibility there is what remains after an option that would have closed has been refused, so the recommendation that follows has been paid for by the ones declined. Selfhood runs the same arithmetic on a page. The cutting is where the person is, which means a piece that kept everything available to it has spent nothing and can prove nothing.
+
+What that account adds is an instrument the two page-level tests do not cover, and it is a sensation rather than a check. A pitch begins to feel like selling once the thing or the fit is already wrong, which makes the feeling diagnostic instead of an obstacle to push through: it reports that understanding, conviction, clarity or fit has already failed, and technique applied on top of that failure only makes the failure more expensive. The reading transfers intact. A sentence that feels like it is working on a reader belongs to a writer who does not yet have the goods, and revision at the surface cannot repair a paragraph compensating for a claim that was never earned.
+
+Two of the failures named on that side are self-regard with the register changed. Ego in advice is counsel given from the need to be seen as right rather than from the other person's frame. Manufactured enthusiasm is the process tour of a deal, excitement supplied because the fundamentals have not supplied it yet.
+
+**What this establishes and does not.** The analogy holds on structure and breaks on the counterparty. A buyer can decline, negotiate or leave, and the walk-away belongs to both sides; a reader can only stop reading, and the writer never learns which sentence lost him. The deal case therefore supplies a sharper motive than the page case can, since the cost of selling badly returns to the seller on a timescale he will notice, while the same cost on a page arrives slowly if at all, as a reputation for prose nobody could tell from anyone else's.
+
 ## Humility as Costume
 
 Self-regard dresses down as readily as it dresses up, which is where the test starts to pay. Self-criticism staged so that its candour will register is self-regard in a hair shirt, and readers price it the way they price a boast.
@@ -103,6 +114,7 @@ What the objections leave standing is a procedure rather than a picture of the s
 ## Related
 
 - [[wiki/Fashion/The Personal Uniform|The Personal Uniform]] — the object-side case of the same mechanism, where a filter run daily against one particular life converges on a signature nobody was aiming for, which is what judgment looks like when the medium is clothing rather than sentences.
+- [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] — the same location of the person in the refusal, worked out for persuasion rather than for prose, and the source of the selling-feeling diagnostic.
 - [[02 - System/Writing Standards|Writing Standards]] — the two terms working as binding law over every page in this vault rather than as description, and the home of the ruling that hedging is self-regard pointed downward.
 
 ## Sources

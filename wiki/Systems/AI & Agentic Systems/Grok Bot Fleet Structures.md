@@ -96,6 +96,7 @@ One bot per duty, no personas, no orchestrator. The names are working labels.
 
 ## Related
 
+- [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — the teammate these seats run on, against the model that shares its name
 - [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]] — the same structure one level up, and the laws the fleet answers to
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — where the fleet sits among the other agents
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — why every lane ends at the desk

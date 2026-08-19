@@ -28,7 +28,7 @@ Strong technique work improves all five. Weak or inconsistent technique work lim
 
 ## Core Technique Families
 
-- **Encoding & Deep Work** — How to turn new information into well-structured, retrievable knowledge (Bear Hunter System phases, chunking methods, inquiry systems, note-taking formats). See [[wiki/Dimensions/Deep Processing/Bear Hunter System - Aim|Bear Hunter System - Aim]], [[wiki/Dimensions/Deep Processing/Bear Hunter System - Shoot|Bear Hunter System - Shoot]], [[wiki/Dimensions/Deep Processing/Bear Hunter System - Skin|Bear Hunter System - Skin]].
+- **Encoding & Deep Work** — How to turn new information into well-structured, retrievable knowledge (Bear Hunter System phases, chunking methods, inquiry systems, note-taking formats). See Bear Hunter System - Aim, Bear Hunter System - Shoot, Bear Hunter System - Skin.
 - **Revision & Retrieval Systems** — How to strengthen and maintain knowledge over time (including [[wiki/Dimensions/Retrieval/Multipass System|Multipass System]] and broader revision approaches).
 - **Focus, Attention & Energy** — Protecting the conditions under which good technique can actually be used. See [[wiki/Self Management/Time Management, Attention & Scheduling|Time Management, Attention & Scheduling]].
 - **Habit & Routine Architecture** — Making desired behaviors the default rather than relying on motivation. See [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]].
