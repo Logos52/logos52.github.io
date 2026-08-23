@@ -2382,3 +2382,19 @@ The checker was obeyed over him ("I am Asian" written because a cold reader aske
 What held: the content list with the source closed (no sentence carried since), the outline (the one page he was fairly happy with came after it), and removals stated as removals (the face, the I, the dead phrase, the sex-and-family lines). All three are changes to what sits in front of the writer, none is a description of the output.
 
 His question was where he should give up asking. The answer from this record: asking for a quality of voice through the generator. Natural, not curt, plain, no punch, no lecture. Each produced a paragraph and a new costume. What works is structure, content, removals, and his own eye on the result.
+
+## 2026-08-24 — counts and findings are out of context too; the ban goes everywhere
+
+Two more strikes, both on list pages. The positions blurb drafted in a reply on 2026-08-23: "the people who came in" and "the side that tolerates how they live," with nothing on the surface saying who came in where or which side. The live hub line on Democracy: "two are still standing, not for the same reason." His words: "what two? standing on what? what reason?" The first fix reworded it, "two of the seven hold, each of the two holding for a different reason," and he called that "just a rewrite of the language I complained about. the problem is out of context. it's not the writing."
+
+What the instruments missed. The context block and the ledger tested referents: a name, "the X," a pronoun. A count of unnamed things and a finding referred to but not given carry no referent, so both passed. They are the same fault, a sentence pointing at something the surface never put down. The second failure was in the answer: the first two fixes changed wording, which is the move the record above already names as the one that never holds.
+
+What went on disk today, on his order ("out of context writing must be banned every fucking where"; "I'm so tired of trying to remind you"):
+- A hard-rule section in `~/.claude/CLAUDE.md`, seven numbered lines, every surface including replies.
+- A third prompt-hook echo in `~/.claude/settings.json`, so the rule is in front of the writer on every prompt.
+- The context block in all four generators: a list item's only context is its title; a sentence that refers to a finding gives it; a count is given only with the things counted; "the page weighs X" with no result is never a blurb.
+- `scripts/holdings.py` now flags COUNT and ANNOUNCES beside NOT GIVEN.
+- Writing Standards §6, the same floor in the same words.
+- Memory `context-on-the-page.md`, updated.
+
+The hub and the positions page were then regenerated with the things named: which two defenses of majority rule hold and why, which three defenses of a proportionate response hold and on what cost, what the Civil Rights Act delivered and gave up, what the charges against Europe are and why none singles it out.
