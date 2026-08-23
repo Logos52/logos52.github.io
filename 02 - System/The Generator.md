@@ -34,7 +34,7 @@ What that act sounds like (same day, 15:11–15:14): ease in; a simple starting 
 
 Added 2026-08-22 on the owner's word. The two paragraphs above are unchanged.
 
-Nothing on the page is used before the page has given it. A sentence can depend on four things, and the page has to have handed the reader each one before the sentence comes.
+Nothing on the page is used before the page has given it. A sentence can depend on four things, and the page has to have handed the reader each one before the sentence comes. On a list page each item is read alone. Nothing above an item counts as given except the item's own title. Every name, every "the X", and every pronoun in a blurb is given by the blurb itself or by that title.
 
 What the words point at. Every noun, and every "it," "one," and "they," points at something the page has already introduced.
 
