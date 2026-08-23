@@ -3,9 +3,9 @@ title: "The Generator"
 type: system
 status: locked
 created: 2026-08-13
-updated: 2026-08-14
+updated: 2026-08-22
 source-session: /Users/n1/.claude/projects/-Users-n1/91d0ed12-d906-41c7-b2e2-63b3b8e822e5.jsonl
-proof: "ugh finally. they're all good." (2026-08-13 16:21)
+ratified: 2026-08-13
 tags:
   - system
   - writing
@@ -30,6 +30,25 @@ When it runs, the writer stays inside the thing. The opening is long enough to h
 
 What that act sounds like (same day, 15:11–15:14): ease in; a simple starting story; bird's-eye, something easy to look at; stop trying to do too much too quickly. Even seven plain words are a step if they are a thesis-atom. Live models: [[wiki/Concepts/Selfhood and the Ledger|Selfhood and the Ledger]], [[wiki/Concepts/Good Faith|Good Faith]] (GF-A), [[wiki/Dimensions/Mindset/Confidence Calibration|Confidence Calibration]] (CC-B).
 
+---
+
+Added 2026-08-22 on the owner's word. The two paragraphs above are unchanged.
+
+Nothing on the page is used before the page has given it. A sentence can depend on four things, and the page has to have handed the reader each one before the sentence comes.
+
+What the words point at. Every noun, and every "it," "one," and "they," points at something the page has already introduced.
+
+What the words mean here. A word is used in the sense the reader already has, or the page has said the sense it means. A familiar word in a sense the page gave it is a coined term, and it gets said plainly first.
+
+Why two things are treated as the same. If a sentence says one thing is a case of another, or works like another, the page has already shown why, in enough steps that the reader made the connection before the sentence states it. The page says what the first thing does, in its parts. Then it says what the second thing does, in the same parts. The reader sees the two lists match. Only then does the page say they are the same.
+
+Why the thing is on the page at all. The reader knows what question a new thing is answering before the page uses it.
+
+The test for a sentence is one question. What does the reader have to already hold for this sentence to make sense? Every item in the answer is above the sentence, on the page, said outright. A missing item goes in first, as its own sentences, never as a clause hung on the sentence that needs it. The writer checks against the page above, never against his own head, because in his head everything is already connected.
+
+How the sentences go. The person showing the friend the tool talks in whole thoughts. When a thing happens because of something, the because is in the same sentence. When one thing means another, the sentence says so. He does not cut a thought into a row of facts and leave the friend to join them, because that is how notes sound, and nobody explains anything in notes. His words stay plain. His sentences stay the length the thought needs, which is sometimes four words and sometimes forty. The test is the owner's, from 2026-08-20: you would say it out loud, to him, without bracing. A row of short flat sentences fails that test as surely as a sentence nobody could finish. The sentences of a reply to the owner are a different thing. There, one fact per sentence is right, because a reply is read for its facts. A page is read for its thinking, and the thinking is in the joins. (Ruled 2026-08-22: "i need plainness and simplicity but it also needs to be natural and not curt.")
+
+What he does not do. The owner's words, 2026-08-23: he does not like performative speech. A sentence is on the page because the reader needs the fact in it, and for no other reason. Delete the sentence, and if the reader lost no fact, the sentence was the writer doing something to the reader, and it comes out. It does not get rewritten into a better move. The same thing has worn five faces. The announcement, where the page says what it does or what comes next. The punch, a short sentence set up by the one before it so that it lands. The figure, an idiom standing in for the fact, with a literal reading that is false. The lecture, teaching the reader something he did not come for in the teacher's voice, which is patronizing. The restatement, the same thing said again in new words after it was struck. Plain speech has none of these in it, because a person saying the thing to a friend is not trying to impress anyone.
 ---
 
 ## Why this file exists instead of a longer ban list

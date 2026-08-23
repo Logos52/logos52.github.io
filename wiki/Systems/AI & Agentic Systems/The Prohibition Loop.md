@@ -101,6 +101,7 @@ Does a stance decay over a long session the way an advisory reminder does, and i
 - [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]] — the correction-class taxonomy this failure belongs inside, including checks that get satisfied rather than honored.
 - [[wiki/Writing Craft/Opening Moves Catalog|Opening Moves Catalog]] — the derived move palette that the stance draws on, and the place where a rule minted from a strike would otherwise accumulate.
 - [[wiki/Research/Opener Generator Research Bank|Opener Generator Research Bank]] — the full record this page is drawn from: eighteen struck openings, every strike verbatim, the three diagnoses, and the generator.
+- [[wiki/Writing Craft/The Context Problem|The Context Problem]] — a neighboring failure: the sentence uses something the page has not given, and a new ban is read by the same head that already holds the missing piece.
 
 ## Sources
 

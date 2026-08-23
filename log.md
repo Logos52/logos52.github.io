@@ -10,6 +10,35 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-08-22] compile | Context Problem wiki page and Claude generator handoff
+
+- Wiki: `/Users/n1/Projects/llm-knowledge-base/wiki/Writing Craft/The Context Problem.md`
+- Handoff for Claude: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/HANDOFF-Claude-context-generator-2026-08-22.md`
+- Sister links on The Prohibition Loop and Opening Doors.
+- Attempt catalog updated. Generator file itself not written.
+
+## [2026-08-22] research | Context problem — outside lane
+
+- Bank: `/Users/n1/Projects/llm-knowledge-base/wiki/Research/Context Problem Research Bank.md`
+- Attempt catalog: `/Users/n1/Projects/llm-knowledge-base/wiki/Research/ATTEMPT-CATALOG-context-problem.md`
+- Pointer added on the journal instruments list. Research Pipeline §5 updated.
+- Scope: X, papers, Wikipedia MOS, documentation style guides, LLM-wiki systems, tools. Not a rerun of the 218-instance audit.
+- Not a production change. The 2026-08-22 reader file / holdings / cold read stays the live instruments.
+
+## [2026-08-20] ingest | Liberalism as Liberation — Fable bank (fertility page unshipped)
+
+- Owner ruling: ask was liberalism, not fertility; title terrible; draft directed toward women. Wiki page deleted. Sister/hub links reverted.
+- Fable bank: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/regen-2026-08/banks/Liberalism as Liberation-bank.md`
+- Superseded: Fertility Collapse S0 and research bank (numbers reusable; title and women-as-subject not).
+
+## [2026-08-20] ingest | Fertility Collapse — independence channel
+
+- S0: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/Fertility Collapse - S0 Scope.md`
+- Bank: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/Fertility Collapse - Research Bank.md` — four-inference split, named-source claim graph (Musk, Kirk, Walsh, Whatever, Myron, Asmongold null, Wade/Triggernometry, Basic Logic), East Asia / class inversion as falsifiers of liberalism-as-US-left.
+- Wiki: `/Users/n1/Projects/llm-knowledge-base/wiki/Worldviews & the Political Order/Fertility Collapse - The Independence Channel.md`
+- Hub Sex and family cluster updated; sister links on Suffrage, Schooling, Mass Immigration, LGBT.
+- Not a positions update. Owner has no natalism stand on the positions note. Abortion remains not a page.
+
 ## [2026-05-24] maintenance | Workbench loop and taxonomy cleanup
 
 - Updated the active synthesis loop from `raw -> outputs/L3 -> outputs/L2 -> wiki` to `raw -> workbench -> workbench -> wiki`.

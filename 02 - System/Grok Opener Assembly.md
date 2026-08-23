@@ -18,7 +18,7 @@ Re-read two of the **Replacements** immediately before writing sentence one. Do 
 
 ## Why Claude's fix did not travel
 
-Claude's 2026-08-13 gate (`generate-from-what-he-wants`, Fable write lane §§ opening): openings are a handover, written from a material inventory, pillow-test kills the quote card. Fable can run that. Proof: "ugh finally. they're all good."
+Claude's 2026-08-13 gate (`generate-from-what-he-wants`, Fable write lane §§ opening): openings are a handover, written from a material inventory, pillow-test kills the quote card. Fable can run that. Ratified 2026-08-13.
 
 Grok ran a different machine:
 

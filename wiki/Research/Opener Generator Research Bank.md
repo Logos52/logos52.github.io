@@ -96,7 +96,7 @@ The rule came first: never be a bother — count what your presence costs other 
 keep the count low.
 ```
 
-**Owner:** "3. no, look at that first phrase 'the problem first' that's trite. i hate trite." · "4. same problem as 3. look at that first phrase 'the rule came first' that's trite. makes me want to vomit. click off immediately when someone says something trite, like platitudes"
+**Owner:** "look at that first phrase 'the problem first' — that's trite." · "same problem as 3. look at that first phrase 'the rule came first' — that's trite. click off immediately when someone says something trite, like platitudes"
 
 **Ban minted:** never open with the move's own name or any stock announcement; make the move rather than announcing it.
 
@@ -150,7 +150,7 @@ feeling will not do this on its own: confidence certifies itself, reporting its 
 as correct, so the audit can only come from outside.
 ```
 
-**Owner:** "i don't like that sentence 'Everyone manages how they come across' um. vomit." · "your cold thesis opening needs a run-up. it's too heavy to start."
+**Owner:** "i don't like that sentence 'Everyone manages how they come across'." · "your cold thesis opening needs a run-up. it's too heavy to start."
 
 Two new pages, and the sequence resumed at round one: a truism, and a cold thesis too heavy to start. The five bans from the morning were all in force and all obeyed.
 
@@ -164,7 +164,7 @@ Being sure is a feeling before it is anything else.
 Talk, in any dealing that matters, is the one thing both sides can afford.
 ```
 
-**Owner, in four consecutive interrupts:** "stop. 'being sure is a feeling before it is anything else' vomit. vomit vomit vomit" · "'talk, in any dealing that matters, is the one thing both sides can afford' vomit" · "stop doing the same intro over and over" · "DO THE THINKING" · "don't just keep doing the same thing over and over" · "DIAGNOSE PROPERLY AND DONT GIVE ME TRASH"
+**Owner, in four consecutive interrupts:** "stop. 'being sure is a feeling before it is anything else' — struck" · "'talk, in any dealing that matters, is the one thing both sides can afford' — struck" · "stop doing the same intro over and over" · "DO THE THINKING" · "don't just keep doing the same thing over and over" · "DIAGNOSE PROPERLY AND DONT GIVE ME TRASH"
 
 **Diagnosis 2 (accepted as true, insufficient as a fix).** Twelve struck lines, twelve topics, one sentence shape — the aphorism register. Every one is an epigram: balanced, quotable, wisdom-shaped, its real cargo being how well it is put. Every accepted opener in the vault is the opposite register, a plain report carrying pointable machinery. The earlier bans — heavy, part, truism, trite, step — were each a symptom of this one register.
 
@@ -194,7 +194,7 @@ CC-2  The students who defend their study techniques hardest are usually the one
       most technique errors.
 ```
 
-**Owner:** "these are generally better but CC1, CC2 are not up to the standard of quality i want. GF2 GF1 are not good either. good faith is a core value, it needs to be introduced as such. treat it like it is, a value. don't start with negative framing (GF2 and GF1) i generally hate negative framing intros… i hate when you start out with too simple of a sentence 'my study method works for me' that's negative framing. and CC2 is 'the students who defend their study techniques..' stop please. do a proper diagnosis why i hate this sentence. and diagnose the others as well"
+**Owner:** "these are generally better but CC1, CC2 are not up to the standard of quality i want. GF2 GF1 are not good either. good faith is a core value, it needs to be introduced as such. treat it like it is, a value. don't start with negative framing (GF2 and GF1) — negative framing intros are struck. a too-simple opening sentence, 'my study method works for me', is negative framing. and CC2 is 'the students who defend their study techniques..' — do a proper diagnosis of why that sentence fails, and diagnose the others as well"
 
 **Diagnosis 3 (accurate, still a ban).** The aphorism ban had been obeyed — all four openings were built from pre-listed page material, in report register, with pointable nouns. What surfaced underneath was the essay template's other half: open with the problem, sell the solution. A value was being introduced through the diseases it treats; a skill was being introduced through a person doing badly.
 
@@ -237,7 +237,7 @@ CC-B  Two checks can tell you whether a certainty of yours deserves the weight y
       trained time gone into this area?
 ```
 
-**Owner:** "ugh finally. they're all good. GF-A and GF-B. choose GF-A. as for CC, both are good. CC-A and CC-B. CC-B is the better framed intro. now make sure that generation prompt exists throughout the entirety of the written page. not just the intro"
+**Owner:** "they're all good. GF-A and GF-B. choose GF-A. as for CC, both are good. CC-A and CC-B. CC-B is the better framed intro. now make sure that generation prompt exists throughout the entirety of the written page. not just the intro"
 
 The extension in that last sentence is part of the finding: the stance governs every section, not the opening alone. An opening written in the stance stapled to a body of stacked verdicts is a register break.
 

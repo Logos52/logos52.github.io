@@ -38,6 +38,10 @@ tags:
 
 ## Recent entries
 
+- [[journal/2026-08-20-liberalism-bank-not-fertility|2026-08-20]] — Liberalism bank, not fertility page — Ask was liberalism; fertility title struck; Fable writes from the new bank.
+- [[journal/2026-08-20-fertility-independence-channel|2026-08-20]] — Fertility collapse — the independence channel — struck the same day; page deleted.
+- [[journal/2026-08-22-hidden-ideology-and-labels|2026-08-22]] — Hidden ideology and labels — His words on content that hides its ideology and on labels as a mental shortcut. Material for a possible page. Not drafted.
+- [[journal/2026-08-22-the-context-problem|2026-08-22]] — The Context Problem — Six weeks of the same complaint, 218 instances on record, why none of the fixes held, and the production change that replaced them: a reader file, a holdings ledger rebuilt from the text, and a temporary cold read.
 - [[journal/2026-08-21-two-window-board|2026-08-21]] — Two-window board — skills / writing / wiki lane — Shared disk for two Grok windows that cannot see each other. Orchestrator writes Current and Rulings. Pieces window writes Findings. Wedge is the only message bus.
 - [[journal/2026-08-20-fable-opus-degradation-brief|2026-08-20]] — Fable 5 and Opus got dumber — brief for confronting Claude — The product you get from Fable 5 and Opus is worse than at first release. That is not a mood. Anthropic has already admitted one cycle of this in writing, measured a second cycle after Fable's July 1 return, and is runni
 - [[journal/2026-08-20-report-intro-paragraph|2026-08-20]] — How to write a report intro — A report intro answers the question the piece was asked. After the first paragraph, the reader has the finding. They do not have the parts yet.

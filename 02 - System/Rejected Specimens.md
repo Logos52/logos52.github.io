@@ -206,7 +206,7 @@ saying — each sentence weighed for what it would cost everyone, each weighing 
 too expensive.
 ```
 
-**Struck because:** Owner: "no, look at that first phrase 'the problem first' that's trite. i hate trite." Diagnosis: the opener announces its move instead of making it — a label-phrase on-ramp ("The problem first:") is template sound. General law: never open with the move's own name or any stock announcement; just be the move.
+**Struck because:** Owner: "look at that first phrase 'the problem first' — that's trite." Trite openers are struck on sight. Diagnosis: the opener announces its move instead of making it — a label-phrase on-ramp ("The problem first:") is template sound. General law: never open with the move's own name or any stock announcement; just be the move.
 
 ### 21. Selfhood and the Ledger — 2026-08-13 22:06
 
@@ -215,7 +215,7 @@ The rule came first: never be a bother — count what your presence costs other 
 keep the count low.
 ```
 
-**Struck because:** Owner: "same problem as 3. look at that first phrase 'the rule came first' that's trite. makes me want to vomit. click off immediately when someone says something trite, like platitudes." Same diagnosis as #20: a stock announcement phrase in the first breath reads as platitude and loses the reader on contact.
+**Struck because:** Owner: "same problem as 3. look at that first phrase 'the rule came first' that's trite. click off immediately when someone says something trite, like platitudes." Same diagnosis as #20: a stock announcement phrase in the first breath reads as platitude and loses the reader on contact.
 
 ### 22. Selfhood and the Ledger — 2026-08-13 22:14
 
@@ -271,7 +271,7 @@ present but carried as items inside that frame.
 Everyone manages how they come across.
 ```
 
-**Struck because:** Owner: "i don't like that sentence 'Everyone manages how they come across' um. vomit." Diagnosis: a universal truism as the ramp's first step. "Everyone does X" is the platitude shape — kin to specimens 20–21 — and a bird's-eye opener still needs the page's own angle inside it (the accepted ramp's "Most of being considerate is easy to see" carries easy-versus-hard from word one). Wide and easy is necessary; wide and empty is a strike.
+**Struck because:** Owner: "i don't like that sentence 'Everyone manages how they come across'." Diagnosis: a universal truism as the ramp's first step. "Everyone does X" is the platitude shape — kin to specimens 20–21 — and a bird's-eye opener still needs the page's own angle inside it (the accepted ramp's "Most of being considerate is easy to see" carries easy-versus-hard from word one). Wide and easy is necessary; wide and empty is a strike.
 
 ### 28. Confidence Calibration — 2026-08-13 22:55
 
@@ -289,7 +289,7 @@ as correct, so the audit can only come from outside.
 Being sure is a feeling before it is anything else.
 ```
 
-**Struck because:** Owner: "vomit. vomit vomit vomit. stop doing the same intro over and over." See #30 for the root shared by twelve strikes.
+**Struck because:** Owner: "stop doing the same intro over and over." See #30 for the root shared by twelve strikes.
 
 ### 30. Good Faith — 2026-08-13 23:06
 
@@ -297,4 +297,118 @@ Being sure is a feeling before it is anything else.
 Talk, in any dealing that matters, is the one thing both sides can afford.
 ```
 
-**Struck because:** Owner: "vomit. stop doing the same intro over and over… DIAGNOSE PROPERLY." **The root, owner-confirmed in effect, covering every opener strike of 2026-08-13 (15–24, 27–30): the aphorism register in opening position.** All twelve struck lines are epigrams — balanced, quotable, wisdom-shaped sentences whose cargo is how well they are put; they perform insight instead of transferring fact (L22), and by the ego page's own test their cargo is what the reader thinks of the author. Every accepted opener is the opposite register: a plain report carrying pointable machinery (a prediction the nervous system makes; noise, space, attention, time, cleanup; sweeps, skips, sleep). The earlier diagnoses — heavy, part, truism, trite label, step — were each one symptom of this register. Discriminators, both validated against the full accept/strike sets: the pillow test (a sentence that works as a standalone quote card dies) and the machinery test (by sentence two the reader holds page-specific pointable things). Generation-time law: openings are written from a pre-listed material inventory, inside the body's pass, never composed as freestanding lines.
+**Struck because:** Owner: "stop doing the same intro over and over… DIAGNOSE PROPERLY." **The root, owner-confirmed in effect, covering every opener strike of 2026-08-13 (15–24, 27–30): the aphorism register in opening position.** All twelve struck lines are epigrams — balanced, quotable, wisdom-shaped sentences whose cargo is how well they are put; they perform insight instead of transferring fact (L22), and by the ego page's own test their cargo is what the reader thinks of the author. Every accepted opener is the opposite register: a plain report carrying pointable machinery (a prediction the nervous system makes; noise, space, attention, time, cleanup; sweeps, skips, sleep). The earlier diagnoses — heavy, part, truism, trite label, step — were each one symptom of this register. Discriminators, both validated against the full accept/strike sets: the pillow test (a sentence that works as a standalone quote card dies) and the machinery test (by sentence two the reader holds page-specific pointable things). Generation-time law: openings are written from a pre-listed material inventory, inside the body's pass, never composed as freestanding lines.
+
+
+---
+
+## Carried from Writing Standards §15, retired 2026-08-20
+
+The old standard's rejected lines, each with the law it was struck under. Law numbers refer to `_archive/Writing Standards - 156 laws - retired 2026-08-20.md`. Carried so the evidence survives the rebuild; nothing above was changed.
+
+```text
+Maintained in the open, partly by LLM agents — the thinking stays mine.
+        — L70. A boast wearing a defense.
+Each page explains one idea in enough detail to use it, and links to the ideas it depends on.
+        — L66. Describes every wiki ever pitched.
+免費 · FREE
+        — L77. Selling in chrome.
+still open · in progress as a whole · some of it has settled
+        — L136. Hedging is self-regard pointed downward.
+deepest · growing · filling in
+        — L138. Words that admit a degree are grades.
+You can know a character and still be unable to write it.
+        — L64. Dose-legal, but confrontation at sentence one.
+It's common to know a character but still be unable to write it.
+        — L106. Normalizes, but a one-clause opener still drops.
+The precondition can be manufactured.
+        — L50. Density at the door of a paragraph.
+…and how to keep that edge from atrophying.
+        — L145. Answers the question it was supposed to pose.
+Motor training, not study; the boring reps are the consolidating ones.
+        — L88. A compressed aphorism with the semicolon beat, in a bullet.
+The climb is vertical, and each numbered arrow is bought by a different kind of work.
+        — L92. A caption narrating the diagram's own anatomy.
+One did not.
+        — L57. A clipped verdict where the content had not earned the force.
+The sound and the meaning were holding it the whole time.
+        — L110. Tells the lesson instead of showing the resolution.
+屯頁 looked right, and 屯頁 is 頓.
+        — L75, the replay. The bare 頓 lands because the object is the payoff.
+The lookup hands over the form. · 頓 had never left.
+        — L75. Decorative personification dressing up mundane facts.
+The sound narrows down the sound components, and the meaning narrows down the meaning
+components.
+        — L75. Empty parallelism: labels swapped, nothing added.
+The same asymmetry contains the repair.
+        — L75. Abstract nouns doing the acting.
+There's a clean falsifier, too:
+        — L123. An announced move.
+You handed me the interesting problem, so here's my read of your own mechanism.
+        — L113. A "you" pointed at the owner.
+Working with AI turned out to be one of them.
+        — L114. The owning first person was load-bearing and went missing.
+Ever wonder why you blank on a character you'd swear you knew yesterday?
+        — L80. A hooky lead.
+This one method completely transformed how I retain characters — it's almost unfair how well
+it works.
+        — L80. Written to cause a feeling.
+Errors are costly, so accuracy should come first.
+        — L35. Adjectives standing in for an unmeasured claim.
+Spaced retrieval dramatically improves retention.
+        — L41. Not falsifiable by the reader.
+The site should feel faster and links should work well.
+        — L104. Success criteria nobody can verify.
+The current bundle is heavy and the content index is large.
+        — L37. Unmeasured where measurement was cheap.
+[A paragraph of the wiki's life before the structure existed.]
+        — L93. Every sentence true, none of it the page's job.
+[An ASCII letter-scatter standing in for a chart.]
+        — L86.7. Never a chart.
+```
+
+
+### 31. Positions (personal) — 2026-08-21, five-version blind board
+
+```text
+[page-level] Version A — Opus under the retired 156-law Writing Standards. Opens: "The Army was the
+first place that took me for what I could do instead of for who I was. No other ground was ever
+available to me…" then bolded doctrine lines and positions stacked as verdicts.
+```
+
+**Struck because:** Owner, on the blind board (`01 - Workbench/positions-abc-2026-08-21/`): "A C D not really." The control: the old standard's payload-first law applied to a selfhood page — the judgment landing with no ground under it, the body a compiled list. The generator-written version E was picked "clearly the best, and it's not even close."
+
+### 32. Positions (personal) — 2026-08-21, five-version blind board
+
+```text
+[page-level] Versions C and D — Fable under the generator, each built around a chosen shape:
+C a backstory spine ("Twenty years ago these positions would have read as far left, and so did I…"),
+D terms first ("An argument is a case made as well as it can be made for a premise somebody handed
+you. A position is what you'd still be standing on with the argument taken away…").
+```
+
+**Struck because:** Owner: "A C D not really." Same board, same material, same writer and instrument as the picked version E; what differed was that C and D were composed to a pre-chosen shape so the set would vary. Diagnosis (Fable's, not yet confirmed by the owner): a move chosen before writing is a mold the act then fills; the picked version was written from the situation with no move decided. One result; not a law.
+
+
+### 33. Positions (personal), version E — 2026-08-21
+
+```text
+Nothing was ever going to take me on descent — not white enough to count as white, not Asian
+enough to count as Asian — and the first place that took me at all was the Army, where what
+mattered was what I could do. That settled two things at once. A people is a set of values
+rather than a bloodline, and on that ground I'm 100% American: born here, served.
+```
+
+**Struck because:** Owner: "diagnose the failures of this sentence … i have complained about this before but this keeps coming back." The first diagnosis (staging) was a feature list and its repair — his live-page sentences in his order — repeated the fault; he struck it again: "the error repeats … a proper diagnosis doesn't mean cut." **Owner's diagnosis, 2026-08-21, superseding everything below it: "the problem is that you are talking about me. you are breaking the who cares rule." The page is about the positions; sentences about the author — the Army, how he was sorted, what his identity became — are about the author and the reader did not come for them. Fable's two diagnoses (staging; then treatment-as-warrant) were both still inside the frame of how to talk about him; the answer is not to.** Earlier, Fable's: the position written as a response to how he was treated (excluded → values; accepted by the Army → acquired) instead of as a conclusion from what he did.** Treatment-as-warrant produces the grievance register, the consolation-prize reading of his Americanness, the rivals frame (who I was vs what I could do, rejected 08-18), a passive subject, and a label arriving before the events. It recurs because the source material tells it treatment-shaped and the telling gets copied. Repair: conclusion first, the event as where it was learned. Earlier feature-level read: a plainly stated fact staged as a turn — minted negation setup (third return of the 08-18 "nothing … by descent" line, plus a forged "was ever going to"), a counting pivot ("That settled two things at once"), and the owner's own sentence moved to the landing slot. The frame — who I was against what I could do, as rivals — is the reading he rejected 2026-08-18. Repair was his sentences in his order from the live page, no count, no landing.
+
+
+### 34. Positions, four prose versions under the edited Selfhood generator — 2026-08-21
+
+```text
+[page-level] F–J on board2.html: the same first paragraph, then (F) the one thing first and its
+consequences; (G) where the whole sits first; (H) grouped by the question each cluster answers;
+(J) the one thing last, once the positions above make it obvious. 728–748 words each, the life
+off the page, the I only where it marks holding.
+```
+
+**Struck because:** Owner: "i don't like any of these. i think we need to rewrite the whole thing under a different premise. maybe just make a list of each position plus a sentence blurb. kind of like a hub page." The fault is the premise, not a structure: a positions page is an index of what is held, and prose that hands the positions over as an essay was wrong in every arrangement the act produced. Follows his same-day ruling that a positions page is not a personal page. Replacement drafted as a list, one line per position with a sentence and a link to the page that argues it (`01 - Workbench/positions-abc-2026-08-21/LIST.md`).

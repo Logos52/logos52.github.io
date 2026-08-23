@@ -12,6 +12,8 @@ tags:
 
 # Bank Handoff for Grok
 
+> Note, 2026-08-20: Writing Standards was rebuilt on the generator series. Any § or L-number for Writing Standards cited below refers to the retired version at `_archive/Writing Standards - 156 laws - retired 2026-08-20.md`; the live file is `02 - System/Writing Standards.md`.
+
 Build research banks for the remaining 260 wiki pages so Fable can write from them. **You produce
 evidence. You do not write pages.** Nothing needed to do this lives in a chat log.
 

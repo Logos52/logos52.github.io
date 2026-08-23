@@ -12,6 +12,8 @@ tags:
 
 # Wiki Regeneration Handoff
 
+> Note, 2026-08-20: Writing Standards was rebuilt on the generator series. Any § or L-number for Writing Standards cited below refers to the retired version at `_archive/Writing Standards - 156 laws - retired 2026-08-20.md`; the live file is `02 - System/Writing Standards.md`.
+
 The wiki is being regenerated page by page. **Opus does research, preparation, checking and
 bookkeeping. Fable does the writing.** This page is the whole contract; nothing needed to run it
 lives in a chat log.

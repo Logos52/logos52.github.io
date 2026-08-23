@@ -12,6 +12,8 @@ tags:
 
 # Regeneration Checklist
 
+> Note, 2026-08-20: Writing Standards was rebuilt on the generator series. Any § or L-number for Writing Standards cited below refers to the retired version at `_archive/Writing Standards - 156 laws - retired 2026-08-20.md`; the live file is `02 - System/Writing Standards.md`.
+
 Step zero for any agent regenerating a wiki page. Nothing is drafted until every item below is done and proved.
 
 ## 1. Single source per fact

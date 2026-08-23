@@ -13,6 +13,8 @@ tags:
 
 # Research Pipeline for AI Agents
 
+> Note, 2026-08-20: Writing Standards was rebuilt on the generator series. Any § or L-number for Writing Standards cited below refers to the retired version at `_archive/Writing Standards - 156 laws - retired 2026-08-20.md`; the live file is `02 - System/Writing Standards.md`.
+
 How an agent researches something in this vault and turns that research into a deliverable. Eight stages, each handing the next one a file. The rule underneath all of them: **evidence becomes an artifact before it becomes prose**, because an artifact can be checked by something cheaper than a person reading the finished thing.
 
 This applies to any research-then-write job here — a wiki page, a brief, a decision document, a bake-off, a position statement. It was built during the 2026-08 wiki regeneration, which is where the numbers and the failures below come from, but nothing in the stages is specific to that job. The wiki-specific contracts that instantiate it are listed in §7.
@@ -60,7 +62,7 @@ Produces: a supplement to the bank, and a re-run of whatever depended on it.
 
 Decide the structure from the evidence before writing sentences. Which parts exist, in what order, where the whole is stated, where it returns.
 
-Produces: a shape plan naming the opening whole, the sequence of parts, and the constraints the opening inherits.
+Produces: a shape plan naming the opening whole, the sequence of parts, and the constraints the opening inherits. By default the shape plan goes to the owner as an outline before any prose is written, in whole, part, whole shape, any run that starts and ends on a whole, with each section marked as a whole or a part; he can say to skip that for a page (ruled 2026-08-22).
 
 Deciding shape separately removes an entire class of failure, because a structural fault found in finished prose costs a full rewrite and a structural fault found in a shape plan costs a line.
 
@@ -198,6 +200,7 @@ A request either fills a shape or places material already written — never both
 - `02 - System/The Generator.md` — the write-act itself.
 - `02 - System/Writing Standards.md` — the numbered laws prose is bound by.
 - `01 - Workbench/regen-2026-08/ATTEMPT-CATALOG-grok-opener-generator.md` — dead ends, with the rule that a retry changing only the ban list is a violation wearing a new date.
+- `wiki/Research/Context Problem Research Bank.md` — outside research on the context problem (assumed-knowledge writing). Attempt catalog: `wiki/Research/ATTEMPT-CATALOG-context-problem.md`.
 
 ---
 

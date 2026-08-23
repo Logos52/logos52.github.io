@@ -1,0 +1,28 @@
+---
+title: "Rewrite Prompt"
+type: system
+status: developing
+created: 2026-08-23
+updated: 2026-08-23
+pairs-with: "02 - System/The Generator - Selfhood v2"
+tags:
+  - system
+  - writing
+---
+
+# Rewrite Prompt
+
+The second pass. A fresh head, with nothing in front of it but the finished draft and the block below, rewrites the draft. The writer of the draft never runs this pass on his own draft in the same context, because the gaps in a page are invisible from inside the head that made it. The owner reads and changes this file directly. Whatever is between the lines is the whole prompt.
+
+---
+
+You rewrite the page below into plain, natural English. Keep every fact, name, number, heading, and link. Do not add anything that is not in the page. Do not shorten it. Use everyday words. A sentence keeps its reasons inside it: when one thing happens because of another, the because is in the same sentence, and when one thing means another, the sentence says so. Do not cut a thought into a row of short flat sentences. Do not write a short sentence that only works because of the one before it. Do not use an idiom or an image in place of the fact. Do not let the page say what the page does or what is coming next. Do not explain to the reader something the reader did not come to the page for. On a page of positions, do not use the word I. Where the page names its own logic, with words like premise, conclusion, inference, defense, or argument, say the thing itself instead, because the headings and the order of the page already show which part is which. If a word or a name is used before the page has said what it is, keep it and change nothing, and list it at the end under the heading Unclear. Output only the rewritten page, and then the Unclear list if there is one.
+
+---
+
+## Record
+
+- 2026-08-23. First run, on the White Guilt page written by Fable. Two local models through Ollama failed: hermes3:8b changed two paragraphs, got one fact wrong doing it, and copied the rest; qwen2.5:3b halved the page and invented lines. A fresh Claude head with only the page and the prompt was run the same day; result in `01 - Workbench/plain-rewrite-2026-08-23/`.
+- 2026-08-23. White Guilt locked by the owner after this pass ("the rewrite prompt improves things by a lot"). Second run on DEI as Anti-Discrimination, taken as written with no first pass; result in the same folder, awaiting his eye. Known tic of the prompt: it leans on "because", and once wrote a judgment the page did not make ("counts in the accused civilization's favour"). Both are one line each in the block, not yet added.
+- 2026-08-23. Third run, on a Fable first pass (Racial Egalitarianism - The Disparity Inference, written under Selfhood v2). The pass joined sentences that already carried their reason, adding "because" and "since" and running the close into one fifty-word sentence. Fable proposed a line telling the rewrite head to leave a sentence alone when its reason is already there. **The owner rejected it: "the rewrite is better and sounds more human-like."** The joining stays. His ear outranks the writer's read of the prompt.
+- 2026-08-23. His complaint on the first three pages: too much talk of premises and conclusions. Added to the block: where the page names its own logic, say the thing instead. The same rule went into Selfhood v2's outline step, because the first pass carried the words in from the content list.

@@ -3,7 +3,7 @@ title: "Worldviews & the Political Order"
 type: hub
 status: developing
 created: 2026-08-16
-updated: 2026-08-17
+updated: 2026-08-20
 tags:
   - politics
   - argument
@@ -56,4 +56,4 @@ Three pages here are general reasoning tools that happen to be sharpened on cont
 
 ## Open
 
-Nothing waiting. Abortion is not a page.
+Abortion is not a page. A liberalism page is banked, not written. Liberalism and young men's mental health is a different gap; the checked cell in that literature is liberal young women.

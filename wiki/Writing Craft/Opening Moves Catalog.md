@@ -82,7 +82,7 @@ Pick the move before drafting, by genre; under an abstract, the first body sente
 
 Read the move's own entry before drafting, not a summary of it. Every move here is bound by the master rule, and where a gloss and its specimen disagree the specimen wins — the specimens are verbatim and verified, the glosses are description. The failure this prevents was real: move 8's gloss once read "the working terms defined before any argument," a writer implemented that instead of the specimen, and four regenerated pages opened by defining their components before naming the thing.
 
-Openers are presented as several catalog-derived options for the owner's pick — different moves, each written out in full, side by side. One candidate at a time is a funnel (ruled 2026-08-11: "i hate being funneled"), and serial rejection is the most expensive way to find a preference that a parallel pick finds in one round.
+Openers are presented as several catalog-derived options for the owner's pick — different moves, each written out in full, side by side. One candidate at a time is a funnel (ruled 2026-08-11), and serial rejection is the most expensive way to find a preference that a parallel pick finds in one round.
 
 ## Sources
 

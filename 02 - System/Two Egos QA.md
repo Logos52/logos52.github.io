@@ -11,6 +11,8 @@ tags:
 
 # Two Egos QA
 
+> Note, 2026-08-20: Writing Standards was rebuilt on the generator series. Any § or L-number for Writing Standards cited below refers to the retired version at `_archive/Writing Standards - 156 laws - retired 2026-08-20.md`; the live file is `02 - System/Writing Standards.md`.
+
 Voice QA for personal-register prose and any first-person surface: it checks that selfhood stays high and self-regard stays zero, per the Writing Standards section "The two egos." The distinction itself and its full derivation live at [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]]; this page is the procedure. First-paragraph gate for personal and political intros is [[02 - System/Intro QA|Intro QA]] (five tests plus `scripts/intro_qa.py`); this file remains the whole-page first-person pass.
 
 ## Two layers
