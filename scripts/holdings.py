@@ -17,6 +17,8 @@ QUO = re.compile(r"[\"“]([^\"”]{2,60})[\"”]")
 # A count points at things; the things must be on the page. "two of the seven hold" with no list of the seven is a pointer to nothing.
 COUNT = re.compile(r"\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d+)\s+(of\s+(?:the|those|these|them)\b|(?:[a-z-]+\s+){0,2}(?:reasons?|defen[cs]es?|charges?|grounds?|ways?|paths?|accounts?|steps?|links?|claims?|defences?|arguments?|objections?|moves?|cases?|tests?|parts?|kinds?|sides?|options?|versions?|camps?|drivers?|responses?)\b)", re.I)
 # "The page weighs X" with nothing said about what comes out is an announcement, never a blurb.
+# Words about the argument instead of the world. A blurb names the election, the debt, the school day; it never says reasons, claims, premises, evidence, or what holds.
+ARGUING = re.compile(r"\b(reasons? (given|for|offered)|claims?|premises?|conclusions?|evidence|defen[cs]es?|the case for|the argument|holds? up|what holds|which of them hold|establish(es|ed)?|two things|two groups|outcomes?|in each case)\b", re.I)
 ANNOUNCE = re.compile(r"\b(the|this) page (weighs|examines|tests|asks|looks at|traces|follows|says|sets out|takes|argues|describes|answers|shows|covers|treats|considers|explores|goes through|is about|deals with)\b", re.I)
 
 
@@ -62,6 +64,8 @@ def main():
                 refs.append(f"quoted “{m.group(1)}”")
             for m in COUNT.finditer(s):
                 refs.append(f"COUNT “{m.group(0)}” [the things counted must be named, with what each comes to]")
+            for m in ARGUING.finditer(s):
+                refs.append(f"ARGUING “{m.group(0)}” [talk about the world, not about the argument; name the thing]")
             if ANNOUNCE.search(s):
                 refs.append("ANNOUNCES [a blurb or sentence that says what the page does must also say what it finds]")
             for m in CAP.finditer(s):
@@ -85,7 +89,7 @@ def main():
         new_terms = sorted(w for w in (para_seen - seen) if len(w) > 3 and w not in STOP)
         print(f"  holds after ¶{i}: +{len(new_terms)} new words; e.g. {', '.join(new_terms[:14])}")
         seen = para_seen
-    print("\nCOUNT = a number of things is mentioned; the things and what each comes to are on the page or the count goes. ANNOUNCES = the sentence says what the page does; it must also say what the page finds.")
+    print("\nCOUNT = a number of things is mentioned; the things and what each comes to are on the page or the count goes. ANNOUNCES = the sentence says what the page does; it must also say what the page finds. ARGUING = a word about reasoning where the world should be; name the election, the debt, the school day.")
     print("\nNOT GIVEN = a definite reference whose noun never appeared above it on the page. it/this/that followed by →?(…) means more than one noun nearby could be the referent; the writer names it.")
 
 if __name__ == "__main__": main()
