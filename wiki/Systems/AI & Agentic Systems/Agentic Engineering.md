@@ -133,6 +133,7 @@ The person is still answerable for the same bar. Answerability now means the fac
 - [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]] — routing cheap work to cheap models; the practice this hub is
 - [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]] — rival explanation: bad context, not bad model
 - [[wiki/Systems/AI & Agentic Systems/Writing with a Structure Engine|Writing with a Structure Engine]] — uniform confidence across verified and unverified claims
+- [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]] — AI writing works better when it passes through a filter of itself: four separated stages, ending with a fresh head that rewrites the page until a stranger can follow it
 
 ## Open Questions
 
