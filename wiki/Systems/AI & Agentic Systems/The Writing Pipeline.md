@@ -3,7 +3,7 @@ title: "The Writing Pipeline"
 type: concept
 status: developing
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-25
 tags:
   - ai
   - writing
@@ -73,7 +73,7 @@ Every check in that script used to be a rule written in prose, and every one of 
 
 ## Stage four: the filter
 
-A fresh head, which is the same model with no memory of anything above, gets exactly two things: the finished draft and one fixed prompt. The prompt is narrow: rewrite the page into plain, natural English, keep every fact, add nothing, shorten nothing, use everyday words, keep a sentence's reasons inside it, use no idioms, do not announce what is coming, and put everything that cannot be resolved at the end under the heading Unclear.
+A fresh head, which is the same model with no memory of anything above, gets exactly two things: the finished draft and one fixed prompt. The prompt is narrow: rewrite the page into plain, natural English, keep every fact, add nothing, shorten nothing, use everyday words, keep a sentence's reasons inside it, use no idioms, write no epigram, do not announce what is coming, and put everything that cannot be resolved at the end under the heading Unclear.
 
 The Unclear list is what makes the stage work. The writer fixes the draft where the list points, and fixes it at the level of content, putting the missing thing on the page rather than rewording the sentence that points at it, and then a new fresh head runs on the result. That loop ends when the list comes back empty, and on some pages it takes several rounds. The owner reads only the rewrite, never the draft.
 

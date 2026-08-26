@@ -3,7 +3,7 @@ title: "Writing Standards"
 type: system
 status: developing
 created: 2026-05-08
-updated: 2026-08-21
+updated: 2026-08-25
 rebuilt: 2026-08-20
 supersedes: "_archive/Writing Standards - 156 laws - retired 2026-08-20.md"
 tags:
@@ -22,7 +22,7 @@ Scope: every project. Internal documents — PRDs, decision notes, agent instruc
 
 ## 1. The write-act
 
-Read [[02 - System/The Generator|The Generator]] (locked 2026-08-13) and then [[02 - System/The Generator - Selfhood|The Generator — Selfhood]] (being built), in full, before writing anything. They are the act. Nothing in this file says how prose should sound, and nothing of that kind joins it. Whether a sentence can be followed by someone who has only read the sentences above it is not a matter of sound; that floor is in §6 and binds every page.
+Read [[02 - System/The Generator|The Generator]] (locked 2026-08-13) and then [[02 - System/The Generator - Selfhood v2|The Generator — Selfhood v2]] (unproven; v1 stays on disk as history), in full, before writing anything. They are the act. Nothing in this file says how prose should sound, and nothing of that kind joins it. Whether a sentence can be followed by someone who has only read the sentences above it is not a matter of sound; that floor is in §6 and binds every page.
 
 ---
 
@@ -47,6 +47,7 @@ The gate. Mechanical where it can be, run after the draft and never held while w
 - No invented claim about the owner, in any person. No personal fact ships without his sign-off, and he has final cut on every line. (L120, L124)
 - Em dashes cut entirely from blog prose and from front-facing chrome. Legal elsewhere. (L111, L142)
 - The delete list: "honestly," "genuinely," "quite," "very," "really," "it's worth noting," "importantly," "arguably," "probably" where probability is not the content, "I think" in a document, and announcing that something is important instead of showing it. Saying what a fact does, what it changes, and why the reader is being told it is content, not announcement, and stays. "Drill" as a word for practice. (L68, L69)
+- No epigrams, in any writing. A sentence that would still work as a quote on a card dies. A short sentence that only lands because of the one before it is the same fault. This binds pages, replies, reports, workbench files, and the instrument files that this section otherwise leaves out. The owner's words, 2026-08-25: "epigrams are a pet peeve of mine and should never show up in any of the writing." The repair is a plain sentence that keeps the fact and the reason in the same breath. (Ruled 2026-08-25.)
 
 ---
 
@@ -90,7 +91,7 @@ Carried from the 2026-08-10 ruling; the derivation is [[wiki/Concepts/The Two Me
 - One continuous explanation to a real person, in the voice you would use talking them through it. The gate in §3 is applied afterward; it only deletes and swaps, and never repolishes a sentence that was natural speech. Where a deletion leaves a sentence without its referent, the sentence is rewritten, not shipped with the hole. (L6, L7)
 - Every sentence can be followed by someone who has only read the sentences above it: each word refers to something the page already handed them or something they brought from ordinary life. A term the vault coined is said plainly the first time it appears, and the name comes after. If that reader would stop and ask "what does that mean?", the sentence isn't finished. A sentence carried from a source — an earlier page, an interview, a note, a hub's own line — hasn't been written; it is composed here from what it means, or it is left out. (Ruled 2026-08-20, [[journal/2026-08-20-writing-normally|Writing normally]]; 2026-08-21: "the only context you need is what's on the page and what you already establish yourself in a previous paragraph.") A count of things the page never names ("seven defenses", "two of them hold") and a finding the page refers to without giving ("each for a different reason", "the page weighs the trade") fail the same floor, because they point at something the page never put down. On a list page each item is read alone, so a blurb gives its own context and nothing above it counts but its title. This is a content fault and the fix is content: the thing pointed at goes on the page, or the sentence goes. (Ruled 2026-08-24: "out of context writing must be banned every fucking where.")
 - Outline first, then writing, is the default for every page. The outline goes to the owner before any paragraph is written: the sections, what each carries, in what register, what stays out. The outline is shaped whole, part, whole as §2 defines it, any run of parts and wholes that starts and ends on a whole, and each section says which it is, so the shape is judged before a paragraph exists. He can tell the writer to skip it for a page. (Ruled 2026-08-22: "this should be the standard workflow for all pages. outline first then writing"; and that it is a default, not a hard rule.)
-- A page where the thing handed over is the owner's own is made by the five steps in [[02 - System/The Generator - Selfhood|The Generator — Selfhood]]: the old page reduced to facts and closed, the friend's question written down, the answer written to the owner as a message, the message saved as the draft, the old page reopened only to check facts. (Ruled 2026-08-22: "i do not want rearrangements, i want generations.")
+- A page where the thing handed over is the owner's own is made by the steps in [[02 - System/The Generator - Selfhood v2|The Generator — Selfhood v2]]: the old page reduced to facts and closed, the friend's question written down, the outline passed by the owner, the answer written to the owner one paragraph at a time against the holdings ledger, the rewrite pass and cold read, the old page reopened only to check facts. (Ruled 2026-08-22: "i do not want rearrangements, i want generations.")
 - Confidence is sincerity, not a dial: assert what you would say to the listener, and where conversation would qualify, the qualification arrives with the sentence. (L11)
 - A failure regenerates by the layer that failed — the whole page when the structure is wrong, the passage alone when the prose inside a sound structure is. Never line patching. What comes back first is a diagnosis; then, after the owner's eye, the regeneration, re-stitched to its neighbours. A fragment surviving untouched is the tell that no regeneration happened. (L8, L8a, L9, L148)
 - A diagnosis has four parts or it is not one: what the owner holds, in his words from the record, dated; what the sentence makes him hold instead; the one generator in the writer that turns the first into the second; and a prediction — other places the same generator produced, found by looking. A diagnosis that only re-describes the flagged line is a feature list, and a diagnosis that names anything to remove is a cut wearing a label. Neither is answered with a regeneration. (Ruled 2026-08-21: "a proper diagnosis doesn't mean cut.")

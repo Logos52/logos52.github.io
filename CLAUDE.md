@@ -6,6 +6,8 @@ Writing and behavioral guidelines for LLM-assisted brief work. Merge with projec
 
 **Decision documents** (PRDs, proposals, decision notes, memos) additionally follow the High-Signal Decision Writing section of `02 - System/Writing Standards.md`.
 
+**Vault pages** (wiki, positions, personal) are not briefs; they are made by the pipeline in `02 - System/Writing Pipeline.md`: content and outline first (`02 - System/The Generator.md`, then `02 - System/The Generator - Selfhood v2.md`), the draft written to the owner one paragraph at a time against the holdings ledger, then a rewrite pass by a fresh head holding only the draft and `02 - System/Rewrite Prompt.md`, then a cold read per `02 - System/Cold Read.md`. Outline first is the default for every page; the owner can waive it. Epigrams never ship in any writing, including internal documents (ruled 2026-08-25).
+
 ## 1. Before You Write
 
 **Identify the mechanism. Scope the brief. Resolve ambiguity first.**

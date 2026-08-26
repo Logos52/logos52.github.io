@@ -3,9 +3,9 @@ title: "Grok 4.6 and Grok Bot"
 type: concept
 status: developing
 created: 2026-08-15
-updated: 2026-08-15
-source-count: 12
-description: "Grok 4.6 is the model. Grok Bot is the standing teammate. SuperGrok Heavy also unlocks Grok Build and the Cursor IDE — different surfaces, same weights."
+updated: 2026-08-26
+source-count: 14
+description: "Grok 4.6 is the model. Grok Bot is the standing teammate. Grok Build and the Cursor IDE are the local surfaces — different harnesses, same weights."
 tags:
   - grok
   - grok-bot
@@ -30,7 +30,7 @@ That is a card, not a stack change. Judgment work on this vault still sits on Fa
 
 ## The teammate
 
-**Grok Bot is a named agent with a job, a conversation, and a computer that does not die when the laptop closes.** Access rides on SuperGrok Heavy, Cursor Ultra, or Cursor Teams Premium. There is no standalone checkout. The desktop app is macOS and Windows; the companion is iOS 18. Linux desktop, Android, and iPad were unsupported at launch. Billing and sign-in live on a Cursor account. Docs live under the model company. Looking under one name for both fails.
+**Grok Bot is a named agent with a job, a conversation, and a computer that does not die when the laptop closes.** Access rode on SuperGrok Heavy, Cursor Ultra, or Cursor Teams Premium at launch; on 21 August it widened to SuperGrok Plus, Cursor Pro+, and Cursor Teams subscribers, with a limited free trial for everyone else. An account holding both a Cursor and a SuperGrok subscription draws on whichever has more usage. There is still no standalone checkout. The desktop app is macOS and Windows; the companion is iOS 18. Linux desktop, Android, and iPad were unsupported at launch. Billing and sign-in live on a Cursor account. Docs live under the model company. Looking under one name for both fails.
 
 Every Bot on one account uses one persistent cloud computer. They share its files, browser sessions, and logins so they can hand work off. Each Bot gets its own screen on that machine. Screens are work surfaces, not security boundaries. Separate Bots are not a security boundary. Deleting a Bot removes its profile, conversation, and routines; files and logins on the shared computer may remain.
 
@@ -55,7 +55,7 @@ The cloud computer holds only what is already public. A grocery cart, a Gmail se
 
 ## Grok Build and the Cursor IDE
 
-SuperGrok Heavy is how this desk reaches both local surfaces. Grok Build is native to the Grok account and is already on this Mac, with personal and work histories isolated by profile. The Cursor IDE arrives by linking that Heavy account; Ultra is created at $0 and includes Grok Bot. Cursor's own help said the month ends, on 13 August, and said it lasts while Heavy renews, on 15 August. Plan as if the month can end. Do not plan as if the IDE is free forever.
+SuperGrok Heavy is how this desk reaches both local surfaces. Grok Build is native to the Grok account and is already on this Mac, with personal and work histories isolated by profile. The Cursor IDE arrived by linking that Heavy account; Ultra was created at $0 and includes Grok Bot. Cursor's own help said the month ends, on 13 August, and said it lasts while Heavy renews, on 15 August. A third fetch of the same page, 26 August, says linking SuperGrok now grants Grok Bot usage only and does not change the Cursor plan — press has links made after about 21 August no longer receiving Ultra, while earlier links keep it while Heavy renews. Ultra is active on this account, confirmed by the owner 26 August: the free month from the Heavy link, expiring 12 September 2026. Plan as if the month can end. Do not plan as if the IDE is free forever.
 
 Composer 2.5 is a cheap model on Cursor's menu. It is not the IDE. The IDE is the window: syntax, peek, debugger, extensions, git UI, multi-cursor, a visual diff you accept hunk by hunk, and Tab — gray completions while you type, including the next edit and a jump into another file. Agent (Cmd-I) is a pane in that window, not the window. Plan Mode writes a plan and waits. Checkpoints undo Agent edits locally and are not git.
 
@@ -65,7 +65,7 @@ Grok Build is the other way around. You launch it from a project directory. The 
 
 **Use the Cursor IDE when you should be in the files** — reading a large tree, accepting hunks by eye, debugging, or letting Tab take the next edit while your hands stay on the keys. Use it also when one turn needs a model Build does not make cheap: Fable or Opus from Cursor's Other Models pool, Privacy Mode on for Fable. Cloud Agents are not this pick. They are Cursor's isolated VM that opens a PR, closer to a Grok Bot handoff than to sitting in the IDE.
 
-Same 4.6 in both is a harness pick, not a model pick. Two writers on one tree failed on 12 June: independent cribs on separate budgets caught a confident misquote, and two agents editing the same files spent the hour merging. Same day, different jobs. One writer per tree. Cursor.app is still not on this Mac; the last hands-on is that June bake-off. A week of Tab-plus-visual-review on tsumugu or wnab is what would make Ultra a habit instead of an access line. Until that week, Build stays the default execution surface.
+Same 4.6 in both is a harness pick, not a model pick. Two writers on one tree failed on 12 June: independent cribs on separate budgets caught a confident misquote, and two agents editing the same files spent the hour merging. Same day, different jobs. One writer per tree. Cursor.app is on this Mac as of 26 August, with no CLI on the PATH; the last scored hands-on is still that June bake-off. A week of Tab-plus-visual-review on tsumugu or wnab is what would make Ultra a habit instead of an access line. Until that week, Build stays the default execution surface.
 
 ## What the page is not
 
@@ -108,4 +108,6 @@ The shared name still covers two products. Call the model when the job is a turn
 - [Artificial Analysis on Grok 4.6](https://x.com/ArtificialAnlys/status/2087564648325530099) — Intelligence Index 61; Briefcase turn counts
 - [Grok Build overview](https://docs.x.ai/build/overview), [Modes and commands](https://docs.x.ai/build/modes-and-commands) — TUI, headless, plan mode
 - [Cursor quickstart](https://cursor.com/docs/get-started/quickstart), [Agent](https://cursor.com/docs/agent/overview), [Tab](https://cursor.com/docs/tab/overview), [Models & pricing](https://cursor.com/docs/models-and-pricing), [Cloud Agents](https://cursor.com/docs/cloud-agent)
-- [Get access with SuperGrok Heavy](https://cursor.com/help/grok-bot/supergrok-heavy) — Ultra at $0; duration disagreed with the 13 Aug fetch of the same page
+- [Get access with SuperGrok Heavy](https://cursor.com/help/grok-bot/supergrok-heavy) — Ultra at $0; duration disagreed with the 13 Aug fetch; the 26 Aug fetch grants Grok Bot usage only
+- [Wider availability](https://x.com/bot/status/2090852881373311369) — official @bot, 2026-08-21: SuperGrok Plus, Cursor Pro+, Cursor Teams, plus a limited free trial
+- [Grok Bot FAQ, eligible plans](https://docs.x.ai/grok-bot/faq) — fetched 2026-08-26: both-subscription accounts draw on whichever has more usage

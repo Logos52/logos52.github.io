@@ -345,6 +345,7 @@ Every page touched during an ingest should become meaningfully better.
 - Use normal markdown links for external URLs.
 - Avoid decorative formatting that makes files harder to diff.
 - Decision documents (PRDs, proposals, decision notes, weighing-options journal entries, memos) follow the **High-Signal Decision Writing** section of [[02 - System/Writing Standards|Writing Standards]]: verdict first, measured claims, steelman what you reject, price your own recommendation, falsifiable success criteria.
+- Pages written for the vault itself (wiki, positions, personal) are made by the pipeline in [[02 - System/Writing Pipeline|Writing Pipeline]]: content and outline first ([[02 - System/The Generator|The Generator]], then [[02 - System/The Generator - Selfhood v2|Selfhood v2]]), paragraph-at-a-time drafting against the holdings ledger, a fresh-head rewrite pass ([[02 - System/Rewrite Prompt|Rewrite Prompt]]), then a cold read ([[02 - System/Cold Read|Cold Read]]).
 - Wiki pages follow the **High-Signal Wiki Pages** section of Writing Standards (2026-06-11) as the primary bar — thesis first, specifics over adjectives, the case against, price the method, quit signals, checkable expectations. Front-facing surfaces follow **High-Signal Front-Facing Pages**. The May rules are deleted (2026-06-12); do not cite them.
 
 ## Workbench and Archives

@@ -920,3 +920,21 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 - Contradiction surfaced: Cursor help 15 Aug says Ultra lasts while Heavy renews; 13 Aug fetch of the same page said one month, no repeat. Named on the bank, the Ultra journal, and the wiki addendum. Not reconciled.
 - Addendum on [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]]. Cursor.app still not on this Mac.
 - Routing: Build when the agent drives; Cursor IDE when the hands are in the files; one writer per tree.
+
+## [2026-08-26] compile | Claude/Grok tools lane: fold pass
+
+- New workbench draft `01 - Workbench/Fable - How to Use the Claude Tools.md` (beginner door; cold-read pass done, 8 stops fixed). Awaiting owner cut before promotion to wiki.
+- Surgical updates: `wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot.md` (Bot access widening 08-21, Ultra grant change, Cursor.app installed); `Current Agentic LLM Stack.md` (Claude Code + Cursor seats, signed routing table, 4 unsigned proposals).
+- Research bank `01 - Workbench/Fable - Research Bank - Claude and Grok Tools.md` extended by Grok/X fill + Cursor Ultra lane.
+
+## [2026-08-26] compile | How to Use the Claude Tools promoted; vague-gesture rule added to Rewrite Prompt
+
+- Promoted workbench draft to `wiki/Systems/AI & Agentic Systems/How to Use the Claude Tools.md` with all 23 vague-gesture replacements applied (owner-ruled pattern: name the things, no shape-of-information sentences, door image removed).
+- `02 - System/Rewrite Prompt.md`: rule added to the block, ruling logged in Record (rewrite head replaces autonomously).
+- Same-fault sweep of the other lane deliverables: 2 fixes (`02 - System/Writing Pipeline.md` opening, AGENTS.md generator-files naming); Grok and Stack additions clean.
+
+## [2026-08-26] maintenance | Ideal-week rules signed; Ultra confirmed; combined commit
+
+- Owner signed all four ideal-week rules on Current Agentic LLM Stack (Cursor month scope, clean-context passes in Claude Code subagents, effort per job, run-or-drop by 09-12).
+- Ultra confirmed active, expires 2026-09-12 (owner statement); bank, Grok page, Stack roster updated.
+- Writing Standards §1/§6 rerouted to Selfhood v2.

@@ -3,7 +3,7 @@ title: "Intro QA"
 type: system
 status: developing
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-25
 tags:
   - system
   - writing
@@ -42,7 +42,7 @@ Exit 1 is FAIL. Do not send a failing paragraph to the critic.
 
 **3. Stacking.** The paragraph has one job. A brick of biography, five claims in six sentences, or a list of true facts with no reasoning is a fail even when each sentence is locally true. "Reasoning is what I like more than facts." A clause that exists only to fire the next sentence is stacking's joke form.
 
-**4. Pillow.** A sentence that would work as a standalone quote card is drawing force from form. An epigram may appear only as a conclusion after premises that earned it. Antithesis, cadence, and mirrored pairs are costumes of this test, not tests of their own.
+**4. Pillow.** A sentence that would work as a standalone quote card is drawing force from form. An epigram never appears, including as a conclusion. Antithesis, cadence, and mirrored pairs are costumes of this test, not tests of their own. Ruled 2026-08-25: epigrams never show up in any of the writing.
 
 **5. Selfhood.** Does the line change what a reader sees of the subject, or only what they think of the author? Brag, self-classification, "I hold," criterion leak, signposts, and answering a charge nobody made are this test. Personal pages only. A true line can still fail: "willing to put my life on the line" and "not who I was" are his, and they are performative on the page. The script catches those strings. The test is the family.
 

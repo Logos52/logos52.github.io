@@ -3,7 +3,7 @@ title: "Rejected Specimens"
 type: system
 status: developing
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-08-25
 tags:
   - system
   - writing
@@ -412,3 +412,15 @@ off the page, the I only where it marks holding.
 ```
 
 **Struck because:** Owner: "i don't like any of these. i think we need to rewrite the whole thing under a different premise. maybe just make a list of each position plus a sentence blurb. kind of like a hub page." The fault is the premise, not a structure: a positions page is an index of what is held, and prose that hands the positions over as an essay was wrong in every arrangement the act produced. Follows his same-day ruling that a positions page is not a personal page. Replacement drafted as a list, one line per position with a sentence and a link to the page that argues it (`01 - Workbench/positions-abc-2026-08-21/LIST.md`).
+
+
+### 35. Grok rows, wiki audit — 2026-08-25
+
+```text
+Ease is the fool, not the tool.
+Place acts.
+Depth is a budget.
+You don't.
+```
+
+**Struck because:** Owner: "epigrams are a pet peeve of mine and should never show up in any of the writing." The grok-rows file quoted those lines from the public wiki. He ordered them changed to simple explanations, and made the ban standing for every generation. A sentence that still works as a quote on a card is an epigram. A short sentence that only lands because of the one before it is the same fault. The repair is a plain sentence that keeps the fact and the reason together. This binds pages, replies, reports, and workbench files. The old pillow loophole, that an epigram could appear as a conclusion after premises that earned it, is closed.
