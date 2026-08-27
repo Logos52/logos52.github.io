@@ -4,7 +4,7 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-08-19
+updated: 2026-08-27
 tags:
   - system
 ---
@@ -12,35 +12,35 @@ tags:
 
 Five most recent journal entries, newest first. Older entries stay in the vault; add a dated `journal/YYYY-MM-DD-*.md` file and this page updates on build.
 
-## 2026-08-21
+## 2026-08-27
 
-[[journal/2026-08-21-two-window-board|Two-window board — skills / writing / wiki lane]]
+[[journal/2026-08-27-xingye-texts-as-a-person|Xingye texts as a person]]
 
-Shared disk for two Grok windows that cannot see each other. Orchestrator writes Current and Rulings. Pieces window writes Findings. Wedge is the only message bus.
+A Grok Bot named XINGYE texts as 星野遙香. Chinese is always her. Settings live on a second bot. Five random fires a day is a variety test, not the standing clock. LINE Official Account is feasible and looks like a brand, not a friend.
 
-## 2026-08-20
+## 2026-08-26
 
-[[journal/2026-08-20-fable-opus-degradation-brief|Fable 5 and Opus got dumber — brief for confronting Claude]]
+[[journal/2026-08-26-xingye-news-ping|Xingye Field ping: private tutor lane, practice log]]
 
-The product you get from Fable 5 and Opus is worse than at first release. That is not a mood. Anthropic has already admitted one cycle of this in writing, measured a second cycle after Fable's July 1 return, and is runni
+Private 1:1. Field at 13:30 writes the list. Xingye asks simple layman questions. He teaches as 沈文. She copies each of his replies into /workspace/cast/xingye/practice/YYYY-MM-DD.md, verbatim. That folder is gitignored. 
 
-## 2026-08-20
+## 2026-08-25
 
-[[journal/2026-08-20-report-intro-paragraph|How to write a report intro]]
+[[journal/2026-08-25-epigrams-never|Epigrams never, in any writing]]
 
-A report intro answers the question the piece was asked. After the first paragraph, the reader has the finding. They do not have the parts yet.
+Owner, 2026-08-25: "epigrams are a pet peeve of mine and should never show up in any of the writing." He said this after the grok-rows audit still quoted wiki epigrams. He ordered those rows changed to simple explanation
 
-## 2026-08-20
+## 2026-08-25
 
-[[journal/2026-08-20-skills-kb-study-lane|Skills, writing, and the wiki — study lane and rulings]]
+[[journal/2026-08-25-starbucks-wifi-watcher|Starbucks Wi-Fi watcher saved]]
 
-This is the work list for the lane that opened today. You already have a working wiki. You do not need a new religion. You need to decide, piece by piece, what Grok should load, what stays in the vault as law, and what w
+The Peplink at this store still dies on a ~2 minute clock. Hop 1 goes silent. That is the store router stopping forwarding, not a proved VNPT session drop.
 
-## 2026-08-20
+## 2026-08-22
 
-[[journal/2026-08-20-fable-opus-degradation|What is actually going on with Fable and Opus]]
+[[journal/2026-08-22-hidden-ideology-and-labels|Hidden ideology and labels]]
 
-Fable and Opus feel worse than they did at launch. That checks out. Anthropic swapping the models for dumber copies does not — we found no sign of it. The worse feeling is coming from how the product works now, and from 
+His words, 2026-08-22, on content that hides its ideology and on labels as a shortcut. Material for a possible page. Not drafted.
 
 
 [[journal/index|← Back to Journal]]

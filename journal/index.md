@@ -7,7 +7,7 @@ aliases:
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-08-13
+updated: 2026-08-27
 openQuestions:
   - "Which companion character deepenings merge to canon next (星野 package, 林薇 B3 home, B3L08 split) — and which stay proposals?"
   - "Which tsumugu-ed feature earns the next build pass — example sentences, phonetic-family browse, or the 手寫 / handwriting layer?"
@@ -21,6 +21,7 @@ tags:
 
 ## What's top of mind
 
+- **[[journal/2026-08-27-xingye-texts-as-a-person|Xingye texts as a person]]** — XINGYE's only job is 繁體 as 星野遙香. A settings bot holds the clock. Five random fires is a variety test, not forty-eight a day. LINE Official Account is later.
 - **[[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]]** — Fable writes; Grok 4.6 banks and executes; Grok Bot stands a public packet-only duty. Rank the jobs, not the brand.
 - **Intro convergence packets** — Claude intake `01 - Workbench/INTAKE-Claude-intro-convergence-2026-08-19.md`; Grok findings for Claude `01 - Workbench/HANDOFF-Grok-findings-for-Claude-2026-08-19.md`. Grind is a measured null. Instrument test not run.
 - **[[journal/2026-08-19-intro-qa-cut|Intro QA cut]]** — nineteen tests down to five plus a script. Who-cares and transition stay. On-ramp off the battery.
@@ -38,15 +39,11 @@ tags:
 
 ## Recent entries
 
-- [[journal/2026-08-20-liberalism-bank-not-fertility|2026-08-20]] — Liberalism bank, not fertility page — Ask was liberalism; fertility title struck; Fable writes from the new bank.
-- [[journal/2026-08-20-fertility-independence-channel|2026-08-20]] — Fertility collapse — the independence channel — struck the same day; page deleted.
-- [[journal/2026-08-22-hidden-ideology-and-labels|2026-08-22]] — Hidden ideology and labels — His words on content that hides its ideology and on labels as a mental shortcut. Material for a possible page. Not drafted.
-- [[journal/2026-08-22-the-context-problem|2026-08-22]] — The Context Problem — Six weeks of the same complaint, 218 instances on record, why none of the fixes held, and the production change that replaced them: a reader file, a holdings ledger rebuilt from the text, and a temporary cold read.
-- [[journal/2026-08-21-two-window-board|2026-08-21]] — Two-window board — skills / writing / wiki lane — Shared disk for two Grok windows that cannot see each other. Orchestrator writes Current and Rulings. Pieces window writes Findings. Wedge is the only message bus.
-- [[journal/2026-08-20-fable-opus-degradation-brief|2026-08-20]] — Fable 5 and Opus got dumber — brief for confronting Claude — The product you get from Fable 5 and Opus is worse than at first release. That is not a mood. Anthropic has already admitted one cycle of this in writing, measured a second cycle after Fable's July 1 return, and is runni
-- [[journal/2026-08-20-report-intro-paragraph|2026-08-20]] — How to write a report intro — A report intro answers the question the piece was asked. After the first paragraph, the reader has the finding. They do not have the parts yet.
-- [[journal/2026-08-20-skills-kb-study-lane|2026-08-20]] — Skills, writing, and the wiki — study lane and rulings — This is the work list for the lane that opened today. You already have a working wiki. You do not need a new religion. You need to decide, piece by piece, what Grok should load, what stays in the vault as law, and what w
-- [[journal/2026-08-20-fable-opus-degradation|2026-08-20]] — What is actually going on with Fable and Opus — Fable and Opus feel worse than they did at launch. That checks out. Anthropic swapping the models for dumber copies does not — we found no sign of it. The worse feeling is coming from how the product works now, and from 
+- [[journal/2026-08-27-xingye-texts-as-a-person|2026-08-27]] — Xingye texts as a person — A Grok Bot named XINGYE texts as 星野遙香. Chinese is always her. Settings live on a second bot. Five random fires a day is a variety test, not the standing clock. LINE Official Account is feasible and looks like a brand, not a friend.
+- [[journal/2026-08-26-xingye-news-ping|2026-08-26]] — Xingye Field ping: private tutor lane, practice log — Private 1:1. Field at 13:30 writes the list. Xingye asks simple layman questions. He teaches as 沈文. She copies each of his replies into /workspace/cast/xingye/practice/YYYY-MM-DD.md, verbatim. That folder is gitignored. 
+- [[journal/2026-08-25-epigrams-never|2026-08-25]] — Epigrams never, in any writing — Owner, 2026-08-25: "epigrams are a pet peeve of mine and should never show up in any of the writing." He said this after the grok-rows audit still quoted wiki epigrams. He ordered those rows changed to simple explanation
+- [[journal/2026-08-25-starbucks-wifi-watcher|2026-08-25]] — Starbucks Wi-Fi watcher saved — The Peplink at this store still dies on a ~2 minute clock. Hop 1 goes silent. That is the store router stopping forwarding, not a proved VNPT session drop.
+- [[journal/2026-08-22-hidden-ideology-and-labels|2026-08-22]] — Hidden ideology and labels — His words, 2026-08-22, on content that hides its ideology and on labels as a shortcut. Material for a possible page. Not drafted.
 
 [[journal/calendar|Full calendar →]]
 
