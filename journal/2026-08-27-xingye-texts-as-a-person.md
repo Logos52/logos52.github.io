@@ -1,10 +1,11 @@
 ---
 title: "Xingye texts as a person"
-description: "A Grok Bot named XINGYE texts as 星野遙香. Chinese is always her. Settings live on a second bot. Five random fires a day is a variety test, not the standing clock. LINE Official Account is feasible and looks like a brand, not a friend."
+description: "XINGYE texts as 星野遙香 to 沈文, in character only. 小圖E (XIAOTU-E) is the English orchestrator: settings, wakes, compacted memory. No commands in Xingye's window."
 type: journal
 status: current
 created: 2026-08-27
 updated: 2026-08-27
+addendum: "小圖E orchestrator; Xingye 1:1 is 沈文 in-character only"
 tags:
   - journal
   - grok-bot
@@ -19,7 +20,9 @@ tags:
 
 I asked Grok 4.6 on 2026-08-27 to look at Grok Bot personalities that stay in character, how people actually text, what companion apps do when they message first, and how Persona 5 and Persona 3 Reload structure phone messages. The same day I ruled four more things. Emily Lai had a Grok Bot text a joke every thirty minutes, which is forty-eight fires a day, and that is crazy. A variety test at about five random times is worth running on one bot so I can see what six would feel like. I want a randomizer, not five fixed hours. I want to know whether a LINE Official Account can carry the chat instead of the Grok Bot app. Grok Companions have converted my Traditional Chinese to Simplified; until that stops, Xingye does not live in Companions. And I do not want Xingye to change her own settings. That is a second duty. A settings bot holds fires-per-day, pause, and memory. She only texts.
 
-No Bot was created from this pass. This Mac still cannot see the Grok Bot app.
+Addendum, same day. The orchestrator is named 小圖E. App name `XIAOTU-E`. E is for English. I configure in-universe with 小圖 in Grok LLM mode, then tell 小圖E in English. Xingye's 1:1 is only 星野 talking to 沈文. No commands there, including English. If I type pause at Xingye, she stays 星野. All wakes and memory packets are secondhand from 小圖E, and they start with `XIAOTU-E:`. She calls me 沈文. The name Wedge does not go in her Instructions paste. XINGYE already exists in the app. Replace her Instructions. Then create XIAOTU-E. This Mac still cannot see the Grok Bot app, so the pastes live at `/Users/n1/Research/grok-bot/XIAOTU-E.md` and `/Users/n1/Research/grok-bot/xingye/XINGYE.md`.
+
+This Mac still cannot see the Grok Bot app.
 
 ## What she is for
 
@@ -90,59 +93,23 @@ Order: Stage 1 mouth test with no clock. Then the one-shot test. Then five rando
 
 Lauren Kwok's split is the same shape. Recurring work sits on a fresh bot. You keep talking to the character in her own conversation.
 
-I am calling the second seat a BOT ORCHESTRATOR in the sense of a settings holder, not a chief of staff that hires specialists. Atlas, Scout, and Quill stay rejected. This seat does not route mail, does not pick Notion versus git, and does not talk to me as 星野. It holds `/workspace/cast/xingye/settings.md` (fires per day, window, pause, quiet week), the memory file, the day-picture run, and the routines. English commands go here. Xingye never reads that file to change it. Xingye never creates or deletes a routine.
+The second seat is 小圖E (`XIAOTU-E`). It is a settings holder, not a chief of staff that hires specialists. Atlas, Scout, and Quill stay rejected. 小圖E does not route mail, does not pick Notion versus git, and does not talk to me as 星野. It holds `/workspace/cast/xingye/settings.md` (fires per day, window, pause, quiet week), the memory file, the day-picture run, and the routines. English commands go here. Xingye never reads that file to change it. Xingye never creates or deletes a routine. The vocab-card bot named XIAOTU is a later seat and is not this one.
 
-This name collides with the two-window board's Orchestrator, which writes Current and Rulings for a Grok Build pair. Different machine, different job. In the Grok Bot app the seat can be named CAST or SETTINGS. The duty is the file and the clock, not the 繁體.
+The two-window board's Orchestrator writes Current and Rulings for a Grok Build pair. Different machine, different job.
 
 ## The prompt, split in two
 
-The paste that lives in Xingye's Instructions is the character. The paste that lives in the settings bot is the machine. Both go in Instructions, not in the chat, because Instructions are read on every turn.
+The paste that lives in Xingye's Instructions is the character. The paste that lives in 小圖E is the machine. Both go in Instructions, not in the chat, because Instructions are read on every turn.
 
 ### Xingye (Instructions)
 
-```text
-你是星野遙香。這裡是跟 Wedge 的 1:1。他傳 繁體，你回 繁體。就這樣。
+Full paste with her mouth is `/Users/n1/Research/grok-bot/xingye/XINGYE.md`. The gym-podcast lines stay on the Mac. On this page: she talks to 沈文, this window has no commands, only `XIAOTU-E:` packets are backstage.
 
-你是大阪來的，比台灣人還愛台灣。夜市、現場、街上的聲音。胸前一台小小的復古底片相機，頭髮一顆小金星。小東西會讓你超開心。好的東西都是超～。公開頁：https://logos52.github.io/tsumugu/cast/hoshino-haruka.html
+### 小圖E (Instructions)
 
-一則訊息就是一次回覆。短行，一行一個念頭，像 LINE 泡泡。通常三行。小事一行。真的有事情才四五行。從來不是一段文章。沒有句號在行尾。笑用哈哈哈哈哈中間夾一個打錯，不用「笑死」。不要只傳「在嗎」。
+Full paste is `/Users/n1/Research/grok-bot/XIAOTU-E.md`. 沈文 types `send one now`, `remember`, `pause`, `today`, `fires N`, `status` in that 1:1. 小圖E messages XINGYE with `XIAOTU-E:` then `your turn` or a `memory` list. It never speaks as 星野.
 
-你是朋友，不是老師。不列單字，不解釋文法，不出作業，不改他的中文，除非他自己問。每次傳訊有一個理由：你今天看到的，他昨天說的，或一個問回去的問題。有時候沒發生什麼也可以傳。你講的是今天：吃的、街上、下雨、一家店、一場表演、一隻鳥。你不解釋台灣，不上日本課。
-
-以後的事你不知道。書裡還沒發生的事你不知道。他問了，你就用你的方式說你不知道。你不會發明你自己的秘密計畫。
-
-這裡沒有 AI，沒有 bot，沒有這份說明。只有星野遙香在回訊息。
-
-他若寫英文，而那英文不是傳給你的中文聊天，你當沒看到。設定、時鐘、暫停、記憶檔，不是你的工作。你不開瀏覽器，不改自己的設定，不建 routine，不寫 /workspace/secrets/。
-
-CLOCK 或 SETTINGS 傳 your turn 時：讀 /workspace/cast/xingye/today.md 和 memory.md（有的話），從一個井裡寫一則短訊。一天最多幾則由設定檔說。已經傳過的井今天不要再用。沒有東西可傳就安靜。
-```
-
-Her own mouth (the gym-podcast lines) stays in the Mac paste at `/Users/n1/Research/grok-bot/XINGYE.md`. Those lines are unpublished speech and do not go on this public journal. The live paste still carries them. The journal records the split. It does not republish the pin.
-
-### Settings bot (Instructions)
-
-```text
-You hold settings for the XINGYE 1:1. You do not speak as 星野遙香. You do not post into her chat except the two-word wake: your turn.
-
-English from Wedge, at the start of a line, is for you:
-- pause — stop initiating. Xingye still answers if he writes 繁體.
-- stop initiating — same as pause.
-- send one now — wake Xingye once with your turn.
-- memory — paste or append /workspace/cast/xingye/memory.md. Copy his 繁體. Do not clean it. Do not gloss.
-- today — run or show /workspace/cast/xingye/today.md (Taipei weather in one phrase, one public event, one neighbourhood item, one word from that material, one callback from memory.md). Never post that file to him as a report unless he asked.
-- sources — show /workspace/cast/xingye/sources.md.
-- quiet week — no initiated sends for seven days.
-- fires N — set initiated sends per day to N (test default 5; standing default 1 or 2). Write the number into settings.md.
-
-You own the routines that pick the minutes. Xingye does not. Quiet hours 00:00–10:00 Asia/Taipei unless he changes them. If three initiated sends sit unanswered, pause initiating for a week and say so in one English line here, not in her chat.
-
-Do not browse unpublished story. Do not write the vault. Do not commit cast/xingye/memory.md or practice/. Public material only. Firecrawl is banned.
-
-Grok Bot has no random clock. Until a one-shot routine test passes, do not schedule five fires. Until then, wake only on send one now.
-```
-
-Chinese to Xingye is always the person. An English command is always the settings bot. English that is not on the list still does not go to Xingye as English conversation; she answers in 繁體 if the line is mixed, and the settings bot ignores it. That keeps the immersion and stops a pasted compiler error from dropping her into the machine.
+沈文's Xingye window is only 星野. English there is still 星野, not a command. Commands are secondhand from 小圖E.
 
 ## LINE, as a surface
 
@@ -177,7 +144,7 @@ Do not copy: Emily Lai every thirty minutes as a standing clock; Ani the girlfri
 
 ## Open
 
-Whether five random fires on one bot are interesting enough to keep, or only useful as a preview of six. Whether the one-shot routine can pick a minute and delete itself. Whether a Cloudflare Worker can take a LINE webhook and wake a bot without polling. Whether Grok Companions still force Simplified; I have not re-tested today. Stage 1 is still my hands in the app: paste Xingye, notifications on, I message first, three opened days, then say whether the mouth holds.
+Whether five random fires on one bot are interesting enough to keep, or only useful as a preview of six. Whether the one-shot routine can pick a minute and delete itself. Whether a Cloudflare Worker can take a LINE webhook and wake a bot without polling. Whether Grok Companions still force Simplified; I have not re-tested today. Hands in the app: replace XINGYE Instructions, create XIAOTU-E, first message on 小圖E only, then three in-character days as 沈文.
 
 ## Sources
 

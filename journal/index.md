@@ -21,7 +21,7 @@ tags:
 
 ## What's top of mind
 
-- **[[journal/2026-08-27-xingye-texts-as-a-person|Xingye texts as a person]]** — XINGYE's only job is 繁體 as 星野遙香. A settings bot holds the clock. Five random fires is a variety test, not forty-eight a day. LINE Official Account is later.
+- **[[journal/2026-08-27-xingye-texts-as-a-person|Xingye texts as a person]]** — XINGYE talks to 沈文 in character only. 小圖E is the English orchestrator. Five random fires is a variety test. LINE Official Account is later.
 - **[[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]]** — Fable writes; Grok 4.6 banks and executes; Grok Bot stands a public packet-only duty. Rank the jobs, not the brand.
 - **Intro convergence packets** — Claude intake `01 - Workbench/INTAKE-Claude-intro-convergence-2026-08-19.md`; Grok findings for Claude `01 - Workbench/HANDOFF-Grok-findings-for-Claude-2026-08-19.md`. Grind is a measured null. Instrument test not run.
 - **[[journal/2026-08-19-intro-qa-cut|Intro QA cut]]** — nineteen tests down to five plus a script. Who-cares and transition stay. On-ramp off the battery.
