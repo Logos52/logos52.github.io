@@ -1,0 +1,89 @@
+<svg viewBox="0 0 680 487" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chooser from what the number is to which distribution fits" style="max-width:100%;height:auto">
+  <defs><marker id="ar-chooser" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+  <text x="12" y="20" font-size="9.5" font-weight="700" letter-spacing=".09em" fill="currentColor" opacity=".45">WHAT THE NUMBER IS</text>
+  <text x="212" y="20" font-size="9.5" font-weight="700" letter-spacing=".09em" fill="currentColor" opacity=".45">WHAT MAKES IT</text>
+  <text x="500" y="20" font-size="9.5" font-weight="700" letter-spacing=".09em" fill="currentColor" opacity=".45">THE SHAPE</text>
+  <rect x="12" y="34" width="186" height="130" rx="6" fill="rgba(47,158,143,.08)" stroke="#2f9e8f" stroke-opacity=".55"/>
+  <text x="105.0" y="103.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">A count of how many</text>
+  <line x1="198" y1="45" x2="210" y2="45" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="49" font-size="10.5" fill="currentColor" opacity=".78">one yes-or-no try</text>
+  <line x1="492" y1="45" x2="500" y2="45" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="35" width="166" height="21" rx="4" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>One trial with a fixed chance of yes.</title><text x="585" y="49.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Bernoulli</text></g>
+  <line x1="198" y1="72" x2="210" y2="72" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="76" font-size="10.5" fill="currentColor" opacity=".78">a fixed number of tries</text>
+  <line x1="492" y1="72" x2="500" y2="72" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="62" width="166" height="21" rx="4" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>Count of yeses out of n independent tries at the same chance.</title><text x="585" y="76.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Binomial</text></g>
+  <line x1="198" y1="99" x2="210" y2="99" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="103" font-size="10.5" fill="currentColor" opacity=".78">a window of time, steady rate</text>
+  <line x1="492" y1="99" x2="500" y2="99" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="89" width="166" height="21" rx="4" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>Count of events in a window when events do not affect each other.</title><text x="585" y="103.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Poisson</text></g>
+  <line x1="198" y1="126" x2="210" y2="126" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="130" font-size="10.5" fill="currentColor" opacity=".78">a window of time, clumpy</text>
+  <line x1="492" y1="126" x2="500" y2="126" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="116" width="166" height="21" rx="4" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>Poisson counts whose rate itself varies. More zeros and more big days.</title><text x="585" y="130.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Negative binomial</text></g>
+  <line x1="198" y1="153" x2="210" y2="153" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="157" font-size="10.5" fill="currentColor" opacity=".78">tries until the first yes</text>
+  <line x1="492" y1="153" x2="500" y2="153" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="143" width="166" height="21" rx="4" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>Number of tries up to and including the first success.</title><text x="585" y="157.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Geometric</text></g>
+  <rect x="12" y="180" width="186" height="76" rx="6" fill="rgba(198,146,52,.08)" stroke="#c69234" stroke-opacity=".55"/>
+  <text x="105.0" y="222.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">A length of waiting</text>
+  <line x1="198" y1="191" x2="210" y2="191" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="195" font-size="10.5" fill="currentColor" opacity=".78">until the next event</text>
+  <line x1="492" y1="191" x2="500" y2="191" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="181" width="166" height="21" rx="4" fill="rgba(198,146,52,.10)" stroke="#c69234" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>Gap between Poisson events. Memoryless: waiting longer buys nothing.</title><text x="585" y="195.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Exponential</text></g>
+  <line x1="198" y1="218" x2="210" y2="218" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="222" font-size="10.5" fill="currentColor" opacity=".78">until the k-th event</text>
+  <line x1="492" y1="218" x2="500" y2="218" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="208" width="166" height="21" rx="4" fill="rgba(198,146,52,.10)" stroke="#c69234" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>Sum of k exponential gaps.</title><text x="585" y="222.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Gamma</text></g>
+  <line x1="198" y1="245" x2="210" y2="245" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="249" font-size="10.5" fill="currentColor" opacity=".78">until a thing gives out</text>
+  <line x1="492" y1="245" x2="500" y2="245" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="235" width="166" height="21" rx="4" fill="rgba(198,146,52,.10)" stroke="#c69234" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>Failure time where the danger rises or falls with age.</title><text x="585" y="249.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Weibull</text></g>
+  <rect x="12" y="272" width="186" height="103" rx="6" fill="rgba(91,108,176,.08)" stroke="#5b6cb0" stroke-opacity=".55"/>
+  <text x="105.0" y="327.5" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">A measured amount</text>
+  <line x1="198" y1="283" x2="210" y2="283" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="287" font-size="10.5" fill="currentColor" opacity=".78">many small effects added</text>
+  <line x1="492" y1="283" x2="500" y2="283" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="273" width="166" height="21" rx="4" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>Sums of many independent small contributions.</title><text x="585" y="287.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Normal</text></g>
+  <line x1="198" y1="310" x2="210" y2="310" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="314" font-size="10.5" fill="currentColor" opacity=".78">many small factors multiplied</text>
+  <line x1="492" y1="310" x2="500" y2="310" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="300" width="166" height="21" rx="4" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>Products of many independent small factors. Positive, right-skewed.</title><text x="585" y="314.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Log-normal</text></g>
+  <line x1="198" y1="337" x2="210" y2="337" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="341" font-size="10.5" fill="currentColor" opacity=".78">a few giants carry the total</text>
+  <line x1="492" y1="337" x2="500" y2="337" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="327" width="166" height="21" rx="4" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>Pareto. The largest few items dominate the sum.</title><text x="585" y="341.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Power law</text></g>
+  <line x1="198" y1="364" x2="210" y2="364" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="368" font-size="10.5" fill="currentColor" opacity=".78">an average from a small sample</text>
+  <line x1="492" y1="364" x2="500" y2="364" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="354" width="166" height="21" rx="4" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>Normal shape with thicker ends, from estimating the spread on few points.</title><text x="585" y="368.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Student's t</text></g>
+  <rect x="12" y="391" width="186" height="76" rx="6" fill="rgba(129,86,166,.08)" stroke="#8156a6" stroke-opacity=".55"/>
+  <text x="105.0" y="433.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">A choice or a share</text>
+  <line x1="198" y1="402" x2="210" y2="402" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="406" font-size="10.5" fill="currentColor" opacity=".78">one of several named options</text>
+  <line x1="492" y1="402" x2="500" y2="402" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="392" width="166" height="21" rx="4" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>Pick one label out of k, each with its own chance.</title><text x="585" y="406.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Categorical</text></g>
+  <line x1="198" y1="429" x2="210" y2="429" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="433" font-size="10.5" fill="currentColor" opacity=".78">a proportion you are unsure about</text>
+  <line x1="492" y1="429" x2="500" y2="429" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="419" width="166" height="21" rx="4" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>A distribution over a probability between 0 and 1.</title><text x="585" y="433.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Beta</text></g>
+  <line x1="198" y1="456" x2="210" y2="456" stroke="rgba(130,130,130,.35)"/>
+  <text x="214" y="460" font-size="10.5" fill="currentColor" opacity=".78">anywhere in a range, no preference</text>
+  <line x1="492" y1="456" x2="500" y2="456" stroke="rgba(130,130,130,.35)"/>
+  <rect x="502" y="446" width="166" height="21" rx="4" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".5"/>
+  <g style="cursor:help"><title>Every value in the range equally likely.</title><text x="585" y="460.5" font-size="10.5" font-weight="600" fill="currentColor" text-anchor="middle">Uniform</text></g>
+</svg>

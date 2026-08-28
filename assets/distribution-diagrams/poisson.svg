@@ -1,0 +1,39 @@
+<svg viewBox="0 0 680 226" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Poisson distribution at three rates" style="max-width:100%;height:auto">
+  <line x1="52" y1="158" x2="656" y2="158" stroke="rgba(130,130,130,.35)"/>
+  <line x1="65.1" y1="158" x2="65.1" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="65.1" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">0</text>
+  <line x1="117.7" y1="158" x2="117.7" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="117.7" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">2</text>
+  <line x1="170.2" y1="158" x2="170.2" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="170.2" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">4</text>
+  <line x1="222.7" y1="158" x2="222.7" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="222.7" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">6</text>
+  <line x1="275.2" y1="158" x2="275.2" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="275.2" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">8</text>
+  <line x1="327.7" y1="158" x2="327.7" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="327.7" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">10</text>
+  <line x1="380.3" y1="158" x2="380.3" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="380.3" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">12</text>
+  <line x1="432.8" y1="158" x2="432.8" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="432.8" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">14</text>
+  <line x1="485.3" y1="158" x2="485.3" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="485.3" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">16</text>
+  <line x1="537.8" y1="158" x2="537.8" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="537.8" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">18</text>
+  <line x1="590.3" y1="158" x2="590.3" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="590.3" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">20</text>
+  <line x1="642.9" y1="158" x2="642.9" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="642.9" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">22</text>
+  <text x="4" y="16" font-size="9" fill="currentColor" opacity=".45" text-anchor="start" letter-spacing=".06em">chance</text>
+  <path d="M52.0,158.0 L52.0,31.1 L78.3,31.1 L78.3,31.1 L104.5,31.1 L104.5,94.5 L130.8,94.5 L130.8,136.8 L157.0,136.8 L157.0,152.7 L183.3,152.7 L183.3,156.9 L209.6,156.9 L209.6,157.8 L235.8,157.8 L235.8,158.0 L262.1,158.0 L262.1,158.0 L288.3,158.0 L288.3,158.0 L314.6,158.0 L314.6,158.0 L340.9,158.0 L340.9,158.0 L367.1,158.0 L367.1,158.0 L393.4,158.0 L393.4,158.0 L419.7,158.0 L419.7,158.0 L445.9,158.0 L445.9,158.0 L472.2,158.0 L472.2,158.0 L498.4,158.0 L498.4,158.0 L524.7,158.0 L524.7,158.0 L551.0,158.0 L551.0,158.0 L577.2,158.0 L577.2,158.0 L603.5,158.0 L603.5,158.0 L629.7,158.0 L629.7,158.0 L656.0,158.0 L656.0,158.0" fill="none" stroke="#b0895e" stroke-width="1.7" stroke-dasharray="5 4" stroke-linejoin="round"/>
+  <path d="M52.0,158.0 L52.0,151.7 L78.3,151.7 L78.3,132.7 L104.5,132.7 L104.5,107.4 L130.8,107.4 L130.8,90.6 L157.0,90.6 L157.0,90.6 L183.3,90.6 L183.3,104.1 L209.6,104.1 L209.6,122.1 L235.8,122.1 L235.8,137.5 L262.1,137.5 L262.1,147.7 L288.3,147.7 L288.3,153.4 L314.6,153.4 L314.6,156.2 L340.9,156.2 L340.9,157.3 L367.1,157.3 L367.1,157.8 L393.4,157.8 L393.4,157.9 L419.7,157.9 L419.7,158.0 L445.9,158.0 L445.9,158.0 L472.2,158.0 L472.2,158.0 L498.4,158.0 L498.4,158.0 L524.7,158.0 L524.7,158.0 L551.0,158.0 L551.0,158.0 L577.2,158.0 L577.2,158.0 L603.5,158.0 L603.5,158.0 L629.7,158.0 L629.7,158.0 L656.0,158.0 L656.0,158.0 Z" fill="rgba(47,158,143,0.13)" stroke="none"/>
+  <path d="M52.0,158.0 L52.0,151.7 L78.3,151.7 L78.3,132.7 L104.5,132.7 L104.5,107.4 L130.8,107.4 L130.8,90.6 L157.0,90.6 L157.0,90.6 L183.3,90.6 L183.3,104.1 L209.6,104.1 L209.6,122.1 L235.8,122.1 L235.8,137.5 L262.1,137.5 L262.1,147.7 L288.3,147.7 L288.3,153.4 L314.6,153.4 L314.6,156.2 L340.9,156.2 L340.9,157.3 L367.1,157.3 L367.1,157.8 L393.4,157.8 L393.4,157.9 L419.7,157.9 L419.7,158.0 L445.9,158.0 L445.9,158.0 L472.2,158.0 L472.2,158.0 L498.4,158.0 L498.4,158.0 L524.7,158.0 L524.7,158.0 L551.0,158.0 L551.0,158.0 L577.2,158.0 L577.2,158.0 L603.5,158.0 L603.5,158.0 L629.7,158.0 L629.7,158.0 L656.0,158.0 L656.0,158.0" fill="none" stroke="#2f9e8f" stroke-width="1.7" stroke-linejoin="round"/>
+  <path d="M52.0,158.0 L52.0,158.0 L78.3,158.0 L78.3,157.8 L104.5,157.8 L104.5,157.2 L130.8,157.2 L130.8,155.4 L157.0,155.4 L157.0,151.5 L183.3,151.5 L183.3,144.9 L209.6,144.9 L209.6,136.2 L235.8,136.2 L235.8,126.9 L262.1,126.9 L262.1,119.2 L288.3,119.2 L288.3,114.8 L314.6,114.8 L314.6,114.8 L340.9,114.8 L340.9,118.8 L367.1,118.8 L367.1,125.3 L393.4,125.3 L393.4,132.8 L419.7,132.8 L419.7,140.0 L445.9,140.0 L445.9,146.0 L472.2,146.0 L472.2,150.5 L498.4,150.5 L498.4,153.6 L524.7,153.6 L524.7,155.6 L551.0,155.6 L551.0,156.7 L577.2,156.7 L577.2,157.4 L603.5,157.4 L603.5,157.7 L629.7,157.7 L629.7,157.9 L656.0,157.9 L656.0,158.0" fill="none" stroke="#8156a6" stroke-width="1.7" stroke-dasharray="2 3" stroke-linejoin="round"/>
+  <rect x="52.0" y="206" width="9" height="9" rx="2" fill="rgba(176,137,94,.30)" stroke="#b0895e" stroke-opacity=".85"/>
+  <text x="66.0" y="214" font-size="10.5" fill="currentColor" opacity=".68">average 1 per hour</text>
+  <rect x="194.2" y="206" width="9" height="9" rx="2" fill="rgba(47,158,143,.30)" stroke="#2f9e8f" stroke-opacity=".85"/>
+  <text x="208.2" y="214" font-size="10.5" fill="currentColor" opacity=".68">average 4 per hour</text>
+  <rect x="336.4" y="206" width="9" height="9" rx="2" fill="rgba(129,86,166,.30)" stroke="#8156a6" stroke-opacity=".85"/>
+  <text x="350.4" y="214" font-size="10.5" fill="currentColor" opacity=".68">average 10 per hour</text>
+  <text x="52" y="194" font-size="10.5" fill="currentColor" opacity=".62" text-anchor="start">How many arrivals land in one hour at three long-run averages. The spread widens as the average rises.</text>
+</svg>

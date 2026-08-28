@@ -1,0 +1,85 @@
+<svg viewBox="0 0 680 380" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="How the distributions turn into each other" style="max-width:100%;height:auto">
+  <defs><marker id="ar-family" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+  <g style="cursor:help"><title>One yes-or-no trial. Every other counting shape is built from repeats of this.</title>
+  <rect x="24" y="20" width="126" height="40" rx="6" fill="rgba(47,158,143,.08)" stroke="#2f9e8f" stroke-opacity=".55"/>
+  <text x="87.0" y="40.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Bernoulli</text>
+  <text x="87.0" y="54.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">one yes-or-no try</text>
+  </g>
+  <g style="cursor:help"><title>Count of yeses in n fixed tries.</title>
+  <rect x="24" y="104" width="126" height="40" rx="6" fill="rgba(47,158,143,.08)" stroke="#2f9e8f" stroke-opacity=".55"/>
+  <text x="87.0" y="124.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Binomial</text>
+  <text x="87.0" y="138.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">count over n tries</text>
+  </g>
+  <g style="cursor:help"><title>A distribution over the chance p itself. Update it with yeses and noes.</title>
+  <rect x="24" y="188" width="126" height="40" rx="6" fill="rgba(129,86,166,.08)" stroke="#8156a6" stroke-opacity=".55"/>
+  <text x="87.0" y="208.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Beta</text>
+  <text x="87.0" y="222.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">the chance itself</text>
+  </g>
+  <g style="cursor:help"><title>Tries until the first yes.</title>
+  <rect x="24" y="288" width="126" height="40" rx="6" fill="rgba(47,158,143,.08)" stroke="#2f9e8f" stroke-opacity=".55"/>
+  <text x="87.0" y="308.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Geometric</text>
+  <text x="87.0" y="322.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">tries to first yes</text>
+  </g>
+  <g style="cursor:help"><title>Count of events in a window at a steady rate.</title>
+  <rect x="272" y="104" width="136" height="40" rx="6" fill="rgba(47,158,143,.08)" stroke="#2f9e8f" stroke-opacity=".55"/>
+  <text x="340.0" y="124.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Poisson</text>
+  <text x="340.0" y="138.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">count in a window</text>
+  </g>
+  <g style="cursor:help"><title>Sums of many small independent effects.</title>
+  <rect x="272" y="20" width="136" height="40" rx="6" fill="rgba(91,108,176,.08)" stroke="#5b6cb0" stroke-opacity=".55"/>
+  <text x="340.0" y="40.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Normal</text>
+  <text x="340.0" y="54.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">sums of many effects</text>
+  </g>
+  <g style="cursor:help"><title>Poisson whose rate is itself random. Clumpier counts.</title>
+  <rect x="272" y="188" width="136" height="40" rx="6" fill="rgba(47,158,143,.08)" stroke="#2f9e8f" stroke-opacity=".55"/>
+  <text x="340.0" y="208.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Negative binomial</text>
+  <text x="340.0" y="222.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">clumpy counts</text>
+  </g>
+  <g style="cursor:help"><title>Gap between Poisson events.</title>
+  <rect x="272" y="288" width="136" height="40" rx="6" fill="rgba(198,146,52,.08)" stroke="#c69234" stroke-opacity=".55"/>
+  <text x="340.0" y="308.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Exponential</text>
+  <text x="340.0" y="322.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">gap to the next event</text>
+  </g>
+  <g style="cursor:help"><title>Exponential of a normal. Products of many small factors.</title>
+  <rect x="516" y="20" width="140" height="40" rx="6" fill="rgba(198,146,52,.08)" stroke="#c69234" stroke-opacity=".55"/>
+  <text x="586.0" y="40.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Log-normal</text>
+  <text x="586.0" y="54.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">products of factors</text>
+  </g>
+  <g style="cursor:help"><title>Normal with the spread estimated from few points.</title>
+  <rect x="516" y="104" width="140" height="40" rx="6" fill="rgba(91,108,176,.08)" stroke="#5b6cb0" stroke-opacity=".55"/>
+  <text x="586.0" y="124.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Student's t</text>
+  <text x="586.0" y="138.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">small-sample normal</text>
+  </g>
+  <g style="cursor:help"><title>Heavy tail. The largest few carry the total.</title>
+  <rect x="516" y="188" width="140" height="40" rx="6" fill="rgba(176,137,94,.08)" stroke="#b0895e" stroke-opacity=".55"/>
+  <text x="586.0" y="208.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Power law</text>
+  <text x="586.0" y="222.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">a few giants</text>
+  </g>
+  <g style="cursor:help"><title>Sum of k exponential gaps.</title>
+  <rect x="516" y="288" width="140" height="40" rx="6" fill="rgba(198,146,52,.08)" stroke="#c69234" stroke-opacity=".55"/>
+  <text x="586.0" y="308.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Gamma</text>
+  <text x="586.0" y="322.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">wait for the k-th</text>
+  </g>
+  <path d="M150,40 Q211.0,24.0 272,40" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
+  <text x="211.0" y="26.2" font-size="9.5" fill="currentColor" opacity=".6" text-anchor="middle">add up many</text>
+  <path d="M87,60 L87,104" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
+  <path d="M150,124 L272,124" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
+  <text x="211.0" y="119.0" font-size="9.5" fill="currentColor" opacity=".6" text-anchor="middle">n large, p small</text>
+  <path d="M87,188 L87,148" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
+  <text x="96" y="172" font-size="9.5" fill="currentColor" opacity=".6">the chance p, drawn</text>
+  <path d="M150,308 L272,308" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
+  <text x="211.0" y="303.0" font-size="9.5" fill="currentColor" opacity=".6" text-anchor="middle">continuous cousin</text>
+  <path d="M340,144 L340,188" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
+  <path d="M340,124 L340,60" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#ar-family)"/>
+  <path d="M408,40 Q462.0,26.0 516,40" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
+  <text x="462.0" y="27.299999999999997" font-size="9.5" fill="currentColor" opacity=".6" text-anchor="middle">exponentiate</text>
+  <path d="M408,124 L516,124" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
+  <text x="462.0" y="119.0" font-size="9.5" fill="currentColor" opacity=".6" text-anchor="middle">estimate the spread</text>
+  <path d="M408,308 L516,308" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
+  <text x="462.0" y="303.0" font-size="9.5" fill="currentColor" opacity=".6" text-anchor="middle">add k of them</text>
+  <path d="M408,208 Q462.0,194.0 516,208" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
+  <text x="462.0" y="195.3" font-size="9.5" fill="currentColor" opacity=".6" text-anchor="middle">rate spread very wide</text>
+  <text x="340" y="170" font-size="9.5" fill="currentColor" opacity=".55" text-anchor="middle">rate itself varies</text>
+  <text x="352" y="90" font-size="9.5" fill="currentColor" opacity=".5" text-anchor="middle">large mean looks normal</text>
+  <text x="24" y="360" font-size="10" fill="currentColor" opacity=".55">Hover any box for what it is. Follow an arrow to see what one change to the story does to the shape.</text>
+</svg>

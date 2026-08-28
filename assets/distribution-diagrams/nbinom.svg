@@ -1,0 +1,40 @@
+<svg viewBox="0 0 680 226" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Negative binomial compared with Poisson at the same average" style="max-width:100%;height:auto">
+  <line x1="52" y1="158" x2="656" y2="158" stroke="rgba(130,130,130,.35)"/>
+  <line x1="63.2" y1="158" x2="63.2" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="63.2" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">0</text>
+  <line x1="107.9" y1="158" x2="107.9" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="107.9" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">2</text>
+  <line x1="152.7" y1="158" x2="152.7" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="152.7" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">4</text>
+  <line x1="197.4" y1="158" x2="197.4" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="197.4" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">6</text>
+  <line x1="242.1" y1="158" x2="242.1" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="242.1" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">8</text>
+  <line x1="286.9" y1="158" x2="286.9" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="286.9" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">10</text>
+  <line x1="331.6" y1="158" x2="331.6" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="331.6" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">12</text>
+  <line x1="376.4" y1="158" x2="376.4" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="376.4" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">14</text>
+  <line x1="421.1" y1="158" x2="421.1" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="421.1" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">16</text>
+  <line x1="465.9" y1="158" x2="465.9" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="465.9" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">18</text>
+  <line x1="510.6" y1="158" x2="510.6" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="510.6" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">20</text>
+  <line x1="555.3" y1="158" x2="555.3" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="555.3" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">22</text>
+  <line x1="600.1" y1="158" x2="600.1" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="600.1" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">24</text>
+  <line x1="644.8" y1="158" x2="644.8" y2="162" stroke="rgba(130,130,130,.35)"/>
+  <text x="644.8" y="176" font-size="10" fill="currentColor" opacity=".55" text-anchor="middle">26</text>
+  <text x="4" y="16" font-size="9" fill="currentColor" opacity=".45" text-anchor="start" letter-spacing=".06em">chance</text>
+  <path d="M52.0,158.0 L52.0,156.3 L74.4,156.3 L74.4,147.7 L96.7,147.7 L96.7,127.2 L119.1,127.2 L119.1,96.4 L141.5,96.4 L141.5,65.6 L163.9,65.6 L163.9,47.2 L186.2,47.2 L186.2,47.2 L208.6,47.2 L208.6,63.0 L231.0,63.0 L231.0,86.8 L253.3,86.8 L253.3,110.5 L275.7,110.5 L275.7,129.5 L298.1,129.5 L298.1,142.5 L320.4,142.5 L320.4,150.2 L342.8,150.2 L342.8,154.4 L365.2,154.4 L365.2,156.5 L387.6,156.5 L387.6,157.4 L409.9,157.4 L409.9,157.8 L432.3,157.8 L432.3,157.9 L454.7,157.9 L454.7,158.0 L477.0,158.0 L477.0,158.0 L499.4,158.0 L499.4,158.0 L521.8,158.0 L521.8,158.0 L544.1,158.0 L544.1,158.0 L566.5,158.0 L566.5,158.0 L588.9,158.0 L588.9,158.0 L611.3,158.0 L611.3,158.0 L633.6,158.0 L633.6,158.0 L656.0,158.0 L656.0,158.0" fill="none" stroke="#2f9e8f" stroke-width="1.5" stroke-dasharray="5 4" stroke-linejoin="round"/>
+  <path d="M52.0,158.0 L52.0,96.3 L74.4,96.3 L74.4,83.9 L96.7,83.9 L96.7,83.9 L119.1,83.9 L119.1,88.9 L141.5,88.9 L141.5,95.8 L163.9,95.8 L163.9,103.3 L186.2,103.3 L186.2,110.6 L208.6,110.6 L208.6,117.3 L231.0,117.3 L231.0,123.4 L253.3,123.4 L253.3,128.8 L275.7,128.8 L275.7,133.5 L298.1,133.5 L298.1,137.5 L320.4,137.5 L320.4,140.9 L342.8,140.9 L342.8,143.8 L365.2,143.8 L365.2,146.2 L387.6,146.2 L387.6,148.3 L409.9,148.3 L409.9,150.0 L432.3,150.0 L432.3,151.4 L454.7,151.4 L454.7,152.6 L477.0,152.6 L477.0,153.5 L499.4,153.5 L499.4,154.3 L521.8,154.3 L521.8,155.0 L544.1,155.0 L544.1,155.5 L566.5,155.5 L566.5,156.0 L588.9,156.0 L588.9,156.4 L611.3,156.4 L611.3,156.7 L633.6,156.7 L633.6,156.9 L656.0,156.9 L656.0,158.0 Z" fill="rgba(198,146,52,0.13)" stroke="none"/>
+  <path d="M52.0,158.0 L52.0,96.3 L74.4,96.3 L74.4,83.9 L96.7,83.9 L96.7,83.9 L119.1,83.9 L119.1,88.9 L141.5,88.9 L141.5,95.8 L163.9,95.8 L163.9,103.3 L186.2,103.3 L186.2,110.6 L208.6,110.6 L208.6,117.3 L231.0,117.3 L231.0,123.4 L253.3,123.4 L253.3,128.8 L275.7,128.8 L275.7,133.5 L298.1,133.5 L298.1,137.5 L320.4,137.5 L320.4,140.9 L342.8,140.9 L342.8,143.8 L365.2,143.8 L365.2,146.2 L387.6,146.2 L387.6,148.3 L409.9,148.3 L409.9,150.0 L432.3,150.0 L432.3,151.4 L454.7,151.4 L454.7,152.6 L477.0,152.6 L477.0,153.5 L499.4,153.5 L499.4,154.3 L521.8,154.3 L521.8,155.0 L544.1,155.0 L544.1,155.5 L566.5,155.5 L566.5,156.0 L588.9,156.0 L588.9,156.4 L611.3,156.4 L611.3,156.7 L633.6,156.7 L633.6,156.9 L656.0,156.9 L656.0,158.0" fill="none" stroke="#c69234" stroke-width="1.7" stroke-linejoin="round"/>
+  <rect x="52.0" y="206" width="9" height="9" rx="2" fill="rgba(47,158,143,.30)" stroke="#2f9e8f" stroke-opacity=".85"/>
+  <text x="66.0" y="214" font-size="10.5" fill="currentColor" opacity=".68">Poisson, average 6</text>
+  <rect x="194.2" y="206" width="9" height="9" rx="2" fill="rgba(198,146,52,.30)" stroke="#c69234" stroke-opacity=".85"/>
+  <text x="208.2" y="214" font-size="10.5" fill="currentColor" opacity=".68">negative binomial, average 6</text>
+  <text x="52" y="194" font-size="10.5" fill="currentColor" opacity=".62" text-anchor="start">Both average six messages a day. The gold shape has far more silent days and far more twenty-message days.</text>
+</svg>
