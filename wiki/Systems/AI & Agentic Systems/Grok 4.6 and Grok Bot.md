@@ -3,7 +3,7 @@ title: "Grok 4.6 and Grok Bot"
 type: concept
 status: developing
 created: 2026-08-15
-updated: 2026-08-26
+updated: 2026-08-28
 source-count: 14
 description: "Grok 4.6 is the model. Grok Bot is the standing teammate. Grok Build and the Cursor IDE are the local surfaces — different harnesses, same weights."
 tags:
@@ -78,6 +78,8 @@ The shared name still covers two products. Call the model when the job is a turn
 ## Related
 
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — the dated roster this page does not replace
+- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]] — Grok Build grain (subagents, worktrees, workflows, `/loop`, sandbox, memory) plus the other vendors; this page keeps the three Grok jobs
+- [[wiki/Systems/AI & Agentic Systems/Agent Wrong-Door Log|Agent Wrong-Door Log]] — two-writers miss and the other seat misses
 - [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]] — the standing half the teammate actually runs here
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Fleet Structures|Grok Bot Fleet Structures]] — seats and duties, still unruled past Structure A
 - [[wiki/Systems/AI & Agentic Systems/Bot Operating Rules|Bot Operating Rules]] — report-only, one duty, the escalation ladder

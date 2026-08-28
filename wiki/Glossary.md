@@ -2,12 +2,14 @@
 type: reference
 status: seed
 created: 2026-05-02
-updated: 2026-07-07
+updated: 2026-08-28
 tags:
   - reference
 ---
 
 # Glossary
+
+Learning-system terms (encoding, retrieval, WPW). Product and agent names live on [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]].
 
 ## Agent Memory
 

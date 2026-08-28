@@ -3,9 +3,9 @@ title: "How to Use the Claude Tools"
 type: reference
 status: developing
 created: 2026-08-26
-updated: 2026-08-26
-source-count: 6
-description: "The Claude products as of August 2026 — the model family, Chat, Claude Code, and Cowork — and which to use for which job."
+updated: 2026-08-28
+source-count: 8
+description: "The Claude products as of August 2026 — the model family, Chat, Claude Code, Cowork, and the hosted runtime — and which to use for which job."
 tags:
   - ai
   - agentic-engineering
@@ -17,7 +17,7 @@ tags:
 
 *As of August 2026. The prices and product details on this page change often; check them before acting on them.*
 
-When you pay Anthropic for Claude, you are getting two distinct software products: Claude Code and Claude Chat+Cowork. Underneath both runs a model: a program trained on text that does the actual reading, thinking, and writing, and is priced by the amount of text that passes through it. Anthropic sells one family of models with three specializations built on top: chat (Claude Chat), coding (Claude Code), and general agent work (Claude Cowork). In Chat you talk and the model answers. Claude Code and Cowork let the same model act — open your files, run programs, use your other tools — and a model set up to act on its own steps is called an agent.
+When you pay Anthropic for Claude, you are buying a model and the places that model is allowed to act. The model is a program trained on text that does the actual reading, thinking, and writing, priced by the amount of text that passes through it. The places are Chat (you talk, it answers), Claude Code (the model acts on a folder of files on your machine), Cowork (the model acts on documents and the other tools you grant it), and Claude Managed Agents (Anthropic hosts the loop and the sandbox so you can ship an agent to other people). A model set up to act on its own steps is called an agent. The Agent SDK is Claude Code's loop as a library in a process you host. Names for those pieces live on [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]].
 
 ## The models
 
@@ -37,9 +37,19 @@ Claude Code lives in the terminal — the window where you type commands to your
 
 Cowork is the agent for knowledge work: research, documents, recurring reports, and jobs that use your other tools. It is a mode of the Claude desktop app: you state an end goal, and it plans the work, splits it into subtasks, runs what it needs to run in a sandbox — a walled-off workspace where nothing it does can touch the rest of the machine, on Anthropic's computers by default, or inside a sealed computer simulated within your own — and hands you finished output. It can reach the folders you grant it, connect to your other tools through connectors you authorize once, drive your actual screen when a job crosses into an app that has no other route in, run on a schedule so a briefing appears every morning without being asked, and remember facts about you and your projects between sessions. Cowork sits on the paid plans only. Use Cowork when the job spans tools rather than files: research that becomes a document, a recurring digest, work that touches your calendar, your mail, and your notes in one pass.
 
+## Claude Agent SDK
+
+The Agent SDK is Claude Code's loop as a Python or TypeScript library inside a process you run. You host the computer. Calls still hit the Anthropic API and bill per token. This desk does not pick it. It is not the hosted Managed Agents product, and it is not the terminal you sit in.
+
+## Claude Managed Agents
+
+Claude Managed Agents is Anthropic's hosted agent runtime. You define the agent, the tools, and the guardrails. Anthropic runs the loop, the sandbox, and the session. You send events and stream results. Billing is the Messages API token meter plus $0.08 per session-hour while the session is `running`. Sessions are stored on purpose, so Zero Data Retention does not apply. This desk does not buy that meter: subscriptions and local hardware only, not pay-per-token API. Ruled 2026-08-28. The product still exists for teams who will ship an agent to other people and accept API billing. Do not stand up a Managed Agents session here. Record: [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] and [[wiki/Systems/AI & Agentic Systems/Agent Wrong-Door Log|Agent Wrong-Door Log]].
+
+A managed subagent is a different thing: an org-admin markdown file inside Claude Code. The adjective is the collision. Full names: [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]].
+
 ## Choosing between them
 
-All three products run the same models. They differ only in what the model can see and touch. A question you want to think through out loud goes to Chat, because nothing needs touching. A change to a project that lives in folders — code, a knowledge base — goes to Claude Code, because the work is the files, and files are what Code can see and change. A job that crosses tools or repeats on a calendar goes to Cowork, because tools and schedules are what Cowork can reach. Costs rank the same way: Chat spends the least, Code spends tokens on exactly the files in play, Cowork carries the most machinery and spends accordingly, so putting a file-shaped job in Cowork buys overhead without buying capability. Start in Chat, move to Code the first time you catch yourself copying Chat's answers into files by hand, and open Cowork the first time a job needs two of your tools at once. To choose: list what the job needs to see and touch, and pick the product that has exactly that access.
+The products run the same models. They differ in what the model can see and touch, and whose computer it runs on. A question you want to think through out loud goes to Chat, because nothing needs touching. A change to a project that lives in folders — code, a knowledge base — goes to Claude Code, because the work is the files, and files are what Code can see and change. A job that crosses tools or repeats on a calendar goes to Cowork, because tools and schedules are what Cowork can reach. A loop you need inside your own server, billed per token, is the Agent SDK; this desk does not pick it. Managed Agents is the hosted version of that same meter. Start in Chat, move to Code the first time you catch yourself copying Chat's answers into files by hand, and open Cowork the first time a job needs two of your tools at once. To choose: list what the job needs to see and touch, and whose computer should hold it. Do not open a platform.claude.com key for agent work on this desk.
 
 ## Links Into the Knowledge Base
 
@@ -48,6 +58,8 @@ All three products run the same models. They differ only in what the model can s
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — how this desk actually assigns the products, job by job
 - [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]] — the effort dial in depth: when extra thinking pays and when it is decoration
 - [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]] — the clean-context subagent mechanism this vault's writing runs on
+- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]] — Managed Agents, the Agent SDK, Cursor Cloud Agents, Grok Build grain, and the other names around these doors
+- [[wiki/Systems/AI & Agentic Systems/Agent Wrong-Door Log|Agent Wrong-Door Log]] — dated misses when a job went to the wrong product
 
 ## Open Questions
 
@@ -60,5 +72,7 @@ All three products run the same models. They differ only in what the model can s
 - [Claude model and effort level in Claude Code](https://claude.com/blog/claude-model-and-effort-level-in-claude-code) — the effort dial and its levels
 - [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) and [architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview) — cloud default, local VM mode, plan requirements
 - [Claude pricing](https://claude.com/pricing) — plan tiers, fetched 2026-08-26
+- [Claude Managed Agents overview](https://platform.claude.com/docs/en/managed-agents/overview) — hosted runtime, session-hour billing
+- [Agent SDK overview](https://code.claude.com/docs/en/agent-sdk/overview) — loop as a library you host
 - [TechCrunch on Cowork's web and mobile expansion](https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/) — July 2026
 - Sonnet 5 and Opus 5 launch coverage: [codersera](https://codersera.com/blog/claude-sonnet-5-launch-guide-2026/), [claudefa.st](https://claudefa.st/blog/models) — release dates and launch pricing

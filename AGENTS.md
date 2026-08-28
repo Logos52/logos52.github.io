@@ -20,6 +20,8 @@ Every source ingest, question, and lint pass should make the wiki better.
 
 Write role before theory. A wiki page should first explain what the topic does inside this knowledge base, when the user should use it, and what behavior or decision it changes. General background comes after the practical role is clear.
 
+**Agent product names.** Before inventing a parallel note, or picking Claude Code vs Cowork vs Managed Agents vs Cursor Cloud Agents vs Grok Build vs Codex vs Copilot vs Devin, read [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]]. File a miss the same day on [[wiki/Systems/AI & Agentic Systems/Agent Wrong-Door Log|Agent Wrong-Door Log]].
+
 ## Three Layers
 
 ### 1. Raw Sources

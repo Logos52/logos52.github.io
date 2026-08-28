@@ -2,7 +2,7 @@
 type: reference
 status: developing
 created: 2026-05-17
-updated: 2026-08-26
+updated: 2026-08-28
 tags:
   - agentic
   - tooling
@@ -31,7 +31,7 @@ The models and agents doing agentic work across the projects, as of August 2026.
 
 Claude carries the judgment-heavy work: parallel research lanes, synthesis, and drafting, with the model's default voice filtered by the writing standards and every page's final cut staying human. Grok Build carries execution — builds, scripts, batch file work — on the machine where the files and credentials live. Grok Bot carries the standing lanes on its own cloud computer, which holds only what is already public. The local models are production instruments rather than agents: voice generation and its transcription check, both on Apple Silicon.
 
-Everything runs on subscription plans or local hardware; nothing in the stack is pay-per-token.
+Everything runs on subscription plans or local hardware; nothing in the stack is pay-per-token. Claude Managed Agents, the Agent SDK, and the Messages API are that meter (tokens, and for Managed Agents $0.08 per running session-hour). Ruled off the roster 2026-08-28: "i don't like anything with API."
 
 ## Routing by job
 
@@ -69,6 +69,8 @@ Hermes 3 via Ollama — the May version of this page named it the primary interf
 
 ## Related
 
+- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]] — product names and when to use them; this page is the roster, that page is the dictionary
+- [[wiki/Systems/AI & Agentic Systems/Agent Wrong-Door Log|Agent Wrong-Door Log]] — the misses that produced this roster
 - [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — the model, the teammate, and Grok Build as three products under one first name
 - [[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]] — the scored ranking behind the routing table
 - [[journal/2026-08-21-cursor-ultra-vs-build-vs-bot|Cursor Ultra vs Grok Build vs Grok Bot]] — the seat assignment per repo

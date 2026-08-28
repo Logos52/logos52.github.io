@@ -10,6 +10,35 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-08-28] compile | Agent Glossary theming/OTEL + API-meter ruling
+
+- Theming, custom-model endpoints, OpenTelemetry added as glossary headings.
+- Desk ruling: no pay-per-token / session-hour API (Managed Agents, Agent SDK, Messages API). Owner: "i don't like anything with API."
+- Push to logos52.github.io (main → GitHub Pages).
+
+## [2026-08-28] compile | Agent Glossary next moves
+
+- Remaining Grok seat-pick terms: permission modes, MCP config, dashboard vs `/agents`, `/goal`, `/fork`, `/deep-research`, `/workflow` vs `/workflows`, MCP tunnels.
+- Collisions: Grok `/goal` vs Cursor `/goal`; `/agents` vs `/dashboard` vs `/resume` vs `/workflows`.
+- Claude-side skill: symlink `~/.claude/skills/agent-glossary` → `~/.grok/skills/agent-glossary`. Vault copies under `.claude/skills/` and `.grok/skills/`.
+- Audit reminder: Tasks.md 📅 2026-09-28. Still not a live Managed Agents seat.
+
+## [2026-08-28] compile | Agent Glossary expansions
+
+- Glossary: `/Users/n1/Projects/llm-knowledge-base/wiki/Systems/AI & Agentic Systems/Agent Glossary.md` — Grok Build grain from `~/.grok/docs/user-guide/`; Codex CLI vs cloud; Copilot cloud agent (rename); Devin surfaces; surface/harness/hands diagram; split rule; `next-audit: 2026-09-28`.
+- Wrong-door log: `/Users/n1/Projects/llm-knowledge-base/wiki/Systems/AI & Agentic Systems/Agent Wrong-Door Log.md`
+- Skill (pointer only): `/Users/n1/.grok/skills/agent-glossary/SKILL.md` — `/agent-glossary`
+- Session start: vault `AGENTS.md`; n1 `~/.grok/AGENTS.md`
+- How to Use the Claude Tools: Agent SDK + Managed Agents as doors, not a live seat.
+- Did not split Managed Agents / Cloud Agents into own pages (desk does not run them). Did not add Active Questions (cap 5).
+
+## [2026-08-28] compile | Agent Glossary
+
+- Wiki: `/Users/n1/Projects/llm-knowledge-base/wiki/Systems/AI & Agentic Systems/Agent Glossary.md`
+- Home: next to How to Use the Claude Tools and Current Agentic LLM Stack, not `wiki/Glossary.md` (that file is learning-system terms).
+- Pointers: learning Glossary, How to Use the Claude Tools, Current Agentic LLM Stack, Agentic Engineering hub, Grok 4.6 and Grok Bot.
+- Scope: primitives, Anthropic, Cursor, Grok, Chat SDK, name collisions, two-question chooser. Expansion left as open questions.
+
 ## [2026-08-22] compile | Context Problem wiki page and Claude generator handoff
 
 - Wiki: `/Users/n1/Projects/llm-knowledge-base/wiki/Writing Craft/The Context Problem.md`
@@ -891,9 +920,9 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 - Contradiction surfaced, not reconciled: [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] still grades Grok 4.3 (2026-07 snapshot). Re-grade is its own pass.
 - Nav: `journal/index.md` top of mind + Recent entries; `journal/calendar.md` regenerated via `scripts/update-journal-surfaces.mjs` (also picked up Yuedu, which had been missing from the five-window).
 
-## [2026-08-15] compile | Field gold file + first packet
+## [2026-08-15] compile | Field paste + first packet
 
-- Pinned list dropped at `/Users/n1/Downloads/grok-guides-2026-08-15.md`. Filed as [[raw/sources/2026-08-15-grok-guides|raw/sources/2026-08-15-grok-guides]] — the gold file [[journal/2026-08-13-a-field-tracker|A Field Tracker]] owed.
+- Pinned list dropped at `/Users/n1/Downloads/grok-guides-2026-08-15.md`. Filed as [[raw/sources/2026-08-15-grok-guides|raw/sources/2026-08-15-grok-guides]] — the paste [[journal/2026-08-13-a-field-tracker|A Field Tracker]] owed.
 - Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-15|Grok Bot Field Packet 2026-08-15]]. Absorbed into [[wiki/Research/Grok Bot Practitioner Bank|Practitioner Bank]] as lane `field-2026-08-15`.
 - New deposits: [[raw/sources/2026-08-11-mattyp-content-bot-overnight|Palmer overnight]], [[raw/sources/2026-08-11-zakariasson-100-use-cases|Zakariasson 100]].
 - Official re-fetch (get-started + FAQ, 2026-08-15): first-task template (outcome / sources / constraints / deliverable / review point); one computer per user restated; Linux/Android/iPad unsupported.

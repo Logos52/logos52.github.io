@@ -3,7 +3,7 @@ title: "Tasks"
 type: tasks
 status: active
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-08-28
 tags:
   - command-center
   - tasks
@@ -15,6 +15,7 @@ Add open tasks as `- [ ]` checkboxes. Mark `- [x]` when done — done items drop
 
 - [ ] Try out the new Tasks section on Home
 - [ ] Replace these placeholders with real tasks 📅 2026-06-01
+- [ ] Agent Glossary staleness pass: prices, plan boundaries, Copilot/Codex/Devin names against vendor docs 📅 2026-09-28 → [[wiki/Systems/AI & Agentic Systems/Agent Glossary]]
 
 ## Tsumugu — Vietnamese redo (native register)
 
