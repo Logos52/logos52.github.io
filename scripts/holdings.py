@@ -20,6 +20,45 @@ COUNT = re.compile(r"\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|
 # Words about the argument instead of the world. A blurb names the election, the debt, the school day; it never says reasons, claims, premises, evidence, or what holds.
 ARGUING = re.compile(r"\b(reasons? (given|for|offered)|claims?|premises?|conclusions?|evidence|defen[cs]es?|the case for|the argument|holds? up|what holds|which of them hold|establish(es|ed)?|two things|two groups|outcomes?|in each case)\b", re.I)
 ANNOUNCE = re.compile(r"\b(the|this) page (weighs|examines|tests|asks|looks at|traces|follows|says|sets out|takes|argues|describes|answers|shows|covers|treats|considers|explores|goes through|is about|deals with)\b", re.I)
+# Slop, 2026-09-01. Owner on two pipeline rewrites (Fable and Grok): both bad;
+# the riddle sentences are "what most people consider to be slop."
+# Tight on purpose. Do not widen without a new specimen.
+# 1. not X but Y as the next-step definition.
+# 2. not X; it is Y
+# 3. a job/head defined as lacking what the last job/head had.
+NOT_BUT = re.compile(
+    r"\bnot\s+(?:just\s+|only\s+|another\s+|merely\s+|simply\s+)?[^,.;:]{1,40}?\s+but\s+(?:a|an|the|to)\b",
+    re.I,
+)
+NOT_SEMI_IT_IS = re.compile(
+    r"\bis not\s+[^.]{1,60}?;\s+it is\b",
+    re.I,
+)
+HEAD_RIDDLE = re.compile(
+    r"\b(?:head|job|stage|run)\b.{0,55}\b(?:lacks|is missing|does not (?:have|see))\b.{0,45}"
+    r"(?:the (?:head|job|stage) before|"
+    r"(?:the )?(?:last|previous|prior|before)\b.{0,25}\b(?:head|job|stage|run)\b)",
+    re.I,
+)
+SLOP_FIX = (
+    "Drop the not-X half. Say what this step does. If four jobs follow, "
+    "say the work is split into four jobs and let the diagram carry them. "
+    "Do not define a job as missing what the last job had."
+)
+
+
+def slop_hits(sentence):
+    hits = []
+    m = NOT_BUT.search(sentence)
+    if m:
+        hits.append(("not-X-but-Y", m.group(0)))
+    m = NOT_SEMI_IT_IS.search(sentence)
+    if m:
+        hits.append(("not-X; it is Y", m.group(0)))
+    m = HEAD_RIDDLE.search(sentence)
+    if m:
+        hits.append(("riddle-job", m.group(0)))
+    return hits
 
 
 def body_paragraphs(text):
@@ -68,6 +107,8 @@ def main():
                 refs.append(f"ARGUING “{m.group(0)}” [talk about the world, not about the argument; name the thing]")
             if ANNOUNCE.search(s):
                 refs.append("ANNOUNCES [a blurb or sentence that says what the page does must also say what it finds]")
+            for kind, span in slop_hits(s):
+                refs.append(f"SLOP “{span}” [{kind}. {SLOP_FIX}]")
             for m in CAP.finditer(s):
                 t = m.group(1)
                 if t.split("'")[0] in ("I",) or t.startswith("I'"): continue
@@ -84,12 +125,17 @@ def main():
             for w in words(s): para_seen.add(w)
             flag = "  <-- " + "; ".join(refs) if refs else ""
             pr = f"   pronouns: {', '.join(prons)}" if prons else ""
-            short = s if len(s) <= 110 else s[:107] + "…"
+            slop = slop_hits(s)
+            short = s if (slop or len(s) <= 110) else s[:107] + "…"
             print(f"  · {short}{flag}{pr}")
+            if slop:
+                print(f"  >>> SLOP  {s.strip()}")
+                print(f"      {SLOP_FIX}")
         new_terms = sorted(w for w in (para_seen - seen) if len(w) > 3 and w not in STOP)
         print(f"  holds after ¶{i}: +{len(new_terms)} new words; e.g. {', '.join(new_terms[:14])}")
         seen = para_seen
     print("\nCOUNT = a number of things is mentioned; the things and what each comes to are on the page or the count goes. ANNOUNCES = the sentence says what the page does; it must also say what the page finds. ARGUING = a word about reasoning where the world should be; name the election, the debt, the school day.")
     print("\nNOT GIVEN = a definite reference whose noun never appeared above it on the page. it/this/that followed by →?(…) means more than one noun nearby could be the referent; the writer names it.")
+    print("\nSLOP = a sentence people would call AI slop: 'not X but Y' as the next step, or a job defined as lacking what the last job had. Print is the full sentence. Repair: say what this step does; if a diagram follows, let the diagram carry the jobs.")
 
 if __name__ == "__main__": main()
