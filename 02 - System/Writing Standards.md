@@ -22,7 +22,7 @@ Scope: every project. Internal documents — PRDs, decision notes, agent instruc
 
 ## 1. The write-act
 
-Read [[02 - System/The Generator|The Generator]] (locked 2026-08-13) and then [[02 - System/The Generator - Selfhood v2|The Generator — Selfhood v2]] (unproven; v1 stays on disk as history), in full, before writing anything. They are the act. Nothing in this file says how prose should sound, and nothing of that kind joins it. Whether a sentence can be followed by someone who has only read the sentences above it is not a matter of sound; that floor is in §6 and binds every page.
+Read the generator the owner picked. The default pick is [[02 - System/The Generator|The Generator]] (locked 2026-08-13) and then [[02 - System/The Generator - Selfhood v2|The Generator — Selfhood v2]] (unproven; v1 stays on disk as history), in full, before writing anything. They are the act. The list of picks is `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/WRITING-PIPELINE-CATALOG.md`. Nothing in this file says how prose should sound, and nothing of that kind joins it. Whether a sentence can be followed by someone who has only read the sentences above it is not a matter of sound; that floor is in §6 and binds every page.
 
 ---
 

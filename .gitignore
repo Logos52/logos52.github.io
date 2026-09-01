@@ -70,6 +70,7 @@ __pycache__/
 # Local convenience symlink into tsumugu/personal/ — never publish (leaks path + can break the remote build)
 Tsumugu Clips
 !01 - Workbench/README.md
+!01 - Workbench/WRITING-PIPELINE-CATALOG.md
 
 # Finances stay LOCAL — never commit or publish transaction data (card/bank CSVs, etc.)
 finances/**
