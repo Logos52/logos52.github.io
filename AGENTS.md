@@ -343,6 +343,7 @@ Every page touched during an ingest should become meaningfully better.
 - Preserve strong existing language unless there is a clear reason to change it.
 - Avoid generic encyclopedia entries, AI essays, and forced page formats.
 - Avoid hype, peacock words, rhetorical questions, and AI-editorial filler such as "importantly," "interestingly," and "it is worth noting."
+- Do not copy exhausted or offhand chat into files or later replies. Write the ruling. Do not replay the vent. A chat line is not filed as owner words unless he asked for that line to be kept.
 - Use Obsidian links for internal concepts: `[[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]]`.
 - Use normal markdown links for external URLs.
 - Avoid decorative formatting that makes files harder to diff.

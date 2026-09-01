@@ -21,13 +21,13 @@ A generator is how the sentences get made. A seat is which model and which chat 
 
 ## Working
 
-Use these. The owner accepted output under them, in his words.
+Use these. The owner accepted output under them.
 
 ### The Generator
 
 The writer stands in a handover. The page is something the owner lived, tested, or built. It is shown to a reader who is respected, the way a friend is shown a tool. The opening says what the thing is, what it is for, and what it gives. The rest of the page stays inside that stance.
 
-On 13 August 2026 the owner said of the slate written from that stance: "ugh finally. they're all good." Eighteen earlier openings, written from ban lists, had been struck the same day.
+On 13 August 2026 the owner accepted the slate written from that stance. Eighteen earlier openings, written from ban lists, had been struck the same day. The generator was locked from that turn.
 
 Scope: every wiki page. Locked. Do not edit the file.
 

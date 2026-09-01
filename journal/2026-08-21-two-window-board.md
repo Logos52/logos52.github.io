@@ -109,7 +109,7 @@ Claude’s live 22 are COS (`/brief`, `/today`, `/capture`, …) and Cloudflare/
 
 The usable openings live in the vault, from wiki regen:
 
-- Write-act (locked after “ugh finally. they’re all good.”): `/Users/n1/Projects/llm-knowledge-base/02 - System/The Generator.md`
+- Write-act (locked 2026-08-13 after the accepted slate): `/Users/n1/Projects/llm-knowledge-base/02 - System/The Generator.md`
 - Two doors: `/Users/n1/Projects/llm-knowledge-base/wiki/Writing Craft/Opening Doors.md`
 - Owner-picked Fable eight, spliced live: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/regen-2026-08/REPLACEMENTS-FROM-GENERATOR.md` (Attention, Decisional Delays, How Chinese Characters Work, Expectancy B, Environment Design, Wanting Less, Exit Strategy, Empty Components)
 - When Fable ran out, Opus wrote more doors he picked: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/regen-2026-08/REPLACEMENTS-OPUS-13.md` (13 pages, workbench, not all live)
