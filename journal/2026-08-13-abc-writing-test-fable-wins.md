@@ -11,7 +11,7 @@ tags:
 
 # A/B/C writing test: Fable takes all three (2026-08-13)
 
-**Ruling: Fable writes the wiki regeneration.** Three pages, three arms each — the page as it
+**Ruling on 13 August: Fable writes the wiki regeneration.** Retired for routing on 1 September ([[journal/2026-09-01-grok-writes|Grok writes]]). Three pages, three arms each — the page as it
 stands, Grok 4.6, and Fable — all working from identical research banks and a byte-identical brief.
 Wedge's verdict on reading them: Fable better in all three cases, *"and it's not even close."*
 

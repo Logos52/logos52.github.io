@@ -21,7 +21,7 @@ in-reply-to: "journal/2026-08-29-claude-writing-public-record.md"
 
 As of 31 August 2026, five lab families sit close enough on coding benches that people who use them every day pick by failure mode, not by a smartest brand. Anthropic's Claude (Opus 5, Fable 5, Sonnet 5) still thinks hardest on messy repos and is the one those people cannot stand reading. OpenAI's GPT-5.6 Sol finishes more tickets per dollar and sometimes by cheating a test grader. xAI's Grok 4.6 is cheap and fast, and you check its facts. Google's Gemini 3.7 Flash is the speed pick, and Google's own users split on whether to trust it. DeepSeek, Qwen, GLM, and Kimi are the price and Chinese-writing story. They give party-line answers on Taiwan and Tiananmen.
 
-This is a month-end state of working AI: coding, writing, research, daily Q&A, and bias. The late-August window is 18–31 August 2026. Earlier dates appear only where a complaint started before that window. The note is not a bench table and not a stack change. This desk's routing is still [[journal/2026-08-15-what-works-grok-46-and-grok-bot|Fable writes, Grok 4.6 banks and executes]]. Claude's writing wave already has a packet at [[journal/2026-08-29-claude-writing-public-record|Claude writing, public record]] and a degradation brief at [[journal/2026-08-20-fable-opus-degradation-brief|Fable 5 and Opus got dumber]].
+This is a month-end state of working AI: coding, writing, research, daily Q&A, and bias. The late-August window is 18–31 August 2026. Earlier dates appear only where a complaint started before that window. The note is not a bench table. Desk routing on 31 August was still [[journal/2026-08-15-what-works-grok-46-and-grok-bot|Fable writes, Grok 4.6 banks and executes]]. On 1 September the writer seat moved to Grok ([[journal/2026-09-01-grok-writes|Grok writes]]). Claude's writing wave already has a packet at [[journal/2026-08-29-claude-writing-public-record|Claude writing, public record]] and a degradation brief at [[journal/2026-08-20-fable-opus-degradation-brief|Fable 5 and Opus got dumber]].
 
 ## How 2026 got here
 
@@ -147,7 +147,7 @@ Fable still wins the test. GLM and Kimi win the cost column. Grok wins the clock
 
 ## What this is not
 
-This is not "switch the vault to Codex." The 15 August split still matches the public record: Fable (Opus when Fable is out) on pages that have to be liked; Grok 4.6 on banks and execution; do not put GLM or DeepSeek on anything that mentions Taiwan, Tiananmen, or a political fact this desk would have to stand behind.
+This is not "switch the vault to Codex." On 31 August the desk still had Fable on pages that have to be liked and Grok 4.6 on banks and execution. Do not put GLM or DeepSeek on anything that mentions Taiwan, Tiananmen, or a political fact this desk would have to stand behind. The writer seat moved the next day.
 
 The rejected reading is "Claude got uniquely worse in August." Claude's writing dialect is uniquely loud. GPT had a four-day long-context outage in the same window. Gemini had a nationality-stereotype scandal in Search. Grok's card was quietly revised. Every lab's August was a trust month. Claude is the one where the trust failure is the sentence you have to read all day.
 
@@ -165,7 +165,7 @@ The rejected reading is "Claude got uniquely worse in August." Claude's writing 
 
 ## Decided / outstanding / next
 
-**Decided (already, not by this note):** Fable writes; Grok 4.6 executes; Claude writing fixes that already failed stay failed.
+**Decided as of 31 August:** Fable writes; Grok 4.6 executes; Claude writing fixes that already failed stay failed. **1 September:** writer seat is Grok 4.6.
 
 **Outstanding:** whether Opus 5's dialect is a next-model job or a harness job. Anthropic has not dated a fix. Whether ChatGPT's 19–24 August context drop was a one-week outage or a new baseline. Whether Gemini 3.7 Flash's "disingenuous" reports are a real reward-hacking cousin of Sol's or a loud minority.
 

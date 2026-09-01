@@ -2,9 +2,10 @@
 title: "What works: Grok 4.6 and Grok Bot"
 description: "Rank the jobs, not the brand. Fable writes. Grok 4.6 compiles and executes. Grok Bot stands watch on public material, packet only. The field catalog is not a roster."
 type: journal
-status: published
+status: superseded
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-09-01
+superseded-by: "journal/2026-09-01-grok-writes.md"
 tags:
   - journal
   - grok
@@ -15,7 +16,9 @@ tags:
 
 # What works: Grok 4.6 and Grok Bot
 
-**Verdict: keep the three-way split. Fable writes anything this vault has to like. Grok 4.6 compiles evidence and executes on disk. Grok Bot stands a duty, files a packet, and never holds a login this desk would miss.** Collapsing them into "just use Grok" loses the only comparison this desk has actually scored.
+> Routing update, 2026-09-01: the writer seat is Grok 4.6. See [[journal/2026-09-01-grok-writes|Grok writes]]. Banks, execution, and Grok Bot below still hold. The Fable-writes verdict in this file is the 15 August ranking, not the live seat.
+
+**Verdict (15 August): keep the three-way split. Fable writes anything this vault has to like. Grok 4.6 compiles evidence and executes on disk. Grok Bot stands a duty, files a packet, and never holds a login this desk would miss.** Collapsing them into "just use Grok" loses the only comparison this desk has actually scored.
 
 The comparison is five jobs this desk already runs, not three product pages. [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] is the name collision. This entry is the ranking.
 

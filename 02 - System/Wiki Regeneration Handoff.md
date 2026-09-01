@@ -3,7 +3,7 @@ title: "Wiki Regeneration Handoff"
 type: system
 status: developing
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-01
 tags:
   - system
   - writing
@@ -14,13 +14,14 @@ tags:
 
 > Note, 2026-08-20: Writing Standards was rebuilt on the generator series. Any § or L-number for Writing Standards cited below refers to the retired version at `_archive/Writing Standards - 156 laws - retired 2026-08-20.md`; the live file is `02 - System/Writing Standards.md`.
 
-The wiki is being regenerated page by page. **Opus does research, preparation, checking and
-bookkeeping. Fable does the writing.** This page is the whole contract; nothing needed to run it
+The wiki is being regenerated page by page. **A research agent (Opus or Grok) does preparation, checking and
+bookkeeping. Grok 4.6 does the writing.** This page is the whole contract; nothing needed to run it
 lives in a chat log.
 
-Why the split: across 2026-08-13, Opus-written openings were struck repeatedly and the openings
-Wedge accepts are all Fable's. The measurements are in §4 and they are the load-bearing part of this
-document.
+Note, 2026-09-01: the writer seat is Grok 4.6 ([[journal/2026-09-01-grok-writes]]). The 2026-08-13 split put Fable on the page because Fable won that day's A/B/C. That ranking is retired for routing. §4 still describes how an opening is written; it does not name Fable as the live writer.
+
+Why the original split existed: across 2026-08-13, Opus-written openings were struck repeatedly and the openings
+Wedge accepted that week were Fable's. The measurements are in §4. They are history for the Fable seat, not a reason to send drafts through Fable now.
 
 ---
 
@@ -34,14 +35,14 @@ document.
 | Assigned move | in the brief | routed by `scripts/regen-route.py` from the palette |
 | Genre | in the brief | one of concept, technique, system-model, operational, hub-index, synthesis, reference-catalog, book-note, personal |
 
-**Fable writes the page.** One continuous pass, from the bank.
+**Grok writes the page.** One continuous pass, from the bank.
 
-**Opus then checks, boards, and files.** `scripts/regen-check.py` runs the mechanical layer; Wedge
+**A checker then checks, boards, and files.** `scripts/regen-check.py` runs the mechanical layer; Wedge
 rules; `scripts/regen-promote.py` archives and promotes on accept, or files a specimen on reject.
 
 ---
 
-## 2. What Fable reads, and what it must not
+## 2. What the writer reads, and what it must not
 
 **Read, in this order:**
 

@@ -12,7 +12,7 @@ tags:
 
 # Fable Handoff — Selfhood Generator
 
-Opus prepared this. Fable writes. That split is the 2026-08-13 ruling in `/Users/n1/Projects/llm-knowledge-base/02 - System/Wiki Regeneration Handoff.md`, made because Opus-written openings were struck repeatedly and every opening Wedge accepted was Fable's. This handoff is the whole contract; nothing needed to run it lives in a chat log.
+Opus prepared this. Writer as of 2026-09-01 is Grok 4.6 (`/Users/n1/Projects/llm-knowledge-base/journal/2026-09-01-grok-writes.md`). The 2026-08-13 ruling in `/Users/n1/Projects/llm-knowledge-base/02 - System/Wiki Regeneration Handoff.md` put Fable on the page because Opus-written openings were struck and every opening Wedge accepted that week was Fable's. That ranking is retired for routing. This handoff is still the contract for the Selfhood generator; the writer seat is Grok.
 
 ## The job, in three parts
 

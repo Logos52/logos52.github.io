@@ -220,6 +220,6 @@ does not capture.
   duplicate titles, all links repaired, pre-existing broken-link count unchanged at 24.
 - **~25 banks on disk**, including four selfhood research lanes and a Grok Bot press-accuracy audit.
 - **260 pages in the queue.**
-- Downstream: Fable writes the pages from these banks; `scripts/regen-check.py` verifies mechanically;
+- Downstream: Grok 4.6 writes the pages from these banks (as of 2026-09-01); `scripts/regen-check.py` verifies mechanically;
   `scripts/regen-promote.py` archives and promotes on the owner's accept, or files a struck line as a
   specimen every later generation reads.

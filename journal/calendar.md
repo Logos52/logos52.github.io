@@ -4,13 +4,19 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-08-31
+updated: 2026-09-01
 tags:
   - system
 ---
 # Journal Calendar
 
 Five most recent journal entries, newest first. Older entries stay in the vault; add a dated `journal/YYYY-MM-DD-*.md` file and this page updates on build.
+
+## 2026-09-01
+
+[[journal/2026-09-01-grok-writes|Grok writes]]
+
+Fable's writing is a token tax. Grok 4.6 is the default writer for vault wiki, journal, decisions, and reports.
 
 ## 2026-08-31
 
@@ -35,12 +41,6 @@ Private 1:1. Field at 13:30 writes the list. Xingye asks simple layman questions
 [[journal/2026-08-25-epigrams-never|Epigrams never, in any writing]]
 
 Owner, 2026-08-25: "epigrams are a pet peeve of mine and should never show up in any of the writing." He said this after the grok-rows audit still quoted wiki epigrams. He ordered those rows changed to simple explanation
-
-## 2026-08-25
-
-[[journal/2026-08-25-starbucks-wifi-watcher|Starbucks Wi-Fi watcher saved]]
-
-The Peplink at this store still dies on a ~2 minute clock. Hop 1 goes silent. That is the store router stopping forwarding, not a proved VNPT session drop.
 
 
 [[journal/index|← Back to Journal]]
