@@ -154,3 +154,7 @@ Borrowing an existing character to write an unrelated word that sounds the same;
 ## Pipelining (Character Intake)
 
 Staggering a character's spoken word and written form across overlapping three-session cohorts so forms attach to already-overlearned words.
+
+## Stem Separation
+
+An AI model listens to a finished song and splits the song back into parts: vocals, drums, bass, and everything else. Each part is called a stem. Dropping the vocal stem leaves a karaoke track. Demucs, a free model from Meta, does the split on a Mac in a few minutes.

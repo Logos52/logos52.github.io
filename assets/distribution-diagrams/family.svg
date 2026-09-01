@@ -50,11 +50,6 @@
   <text x="586.0" y="124.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Student's t</text>
   <text x="586.0" y="138.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">small-sample normal</text>
   </g>
-  <g style="cursor:help"><title>Heavy tail. The largest few carry the total.</title>
-  <rect x="516" y="188" width="140" height="40" rx="6" fill="rgba(176,137,94,.08)" stroke="#b0895e" stroke-opacity=".55"/>
-  <text x="586.0" y="208.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Power law</text>
-  <text x="586.0" y="222.0" font-size="9.5" fill="currentColor" opacity=".62" text-anchor="middle">a few giants</text>
-  </g>
   <g style="cursor:help"><title>Sum of k exponential gaps.</title>
   <rect x="516" y="288" width="140" height="40" rx="6" fill="rgba(198,146,52,.08)" stroke="#c69234" stroke-opacity=".55"/>
   <text x="586.0" y="308.0" font-size="11" font-weight="600" fill="currentColor" text-anchor="middle">Gamma</text>
@@ -70,16 +65,12 @@
   <path d="M150,308 L272,308" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
   <text x="211.0" y="303.0" font-size="9.5" fill="currentColor" opacity=".6" text-anchor="middle">continuous cousin</text>
   <path d="M340,144 L340,188" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
-  <path d="M340,124 L340,60" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#ar-family)"/>
   <path d="M408,40 Q462.0,26.0 516,40" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
   <text x="462.0" y="27.299999999999997" font-size="9.5" fill="currentColor" opacity=".6" text-anchor="middle">exponentiate</text>
   <path d="M408,124 L516,124" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
   <text x="462.0" y="119.0" font-size="9.5" fill="currentColor" opacity=".6" text-anchor="middle">estimate the spread</text>
   <path d="M408,308 L516,308" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
   <text x="462.0" y="303.0" font-size="9.5" fill="currentColor" opacity=".6" text-anchor="middle">add k of them</text>
-  <path d="M408,208 Q462.0,194.0 516,208" fill="none" stroke="rgba(130,130,130,.5)" stroke-width="1.2" marker-end="url(#ar-family)"/>
-  <text x="462.0" y="195.3" font-size="9.5" fill="currentColor" opacity=".6" text-anchor="middle">rate spread very wide</text>
   <text x="340" y="170" font-size="9.5" fill="currentColor" opacity=".55" text-anchor="middle">rate itself varies</text>
-  <text x="352" y="90" font-size="9.5" fill="currentColor" opacity=".5" text-anchor="middle">large mean looks normal</text>
   <text x="24" y="360" font-size="10" fill="currentColor" opacity=".55">Hover any box for what it is. Follow an arrow to see what one change to the story does to the shape.</text>
 </svg>
