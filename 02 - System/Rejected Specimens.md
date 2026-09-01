@@ -424,3 +424,14 @@ You don't.
 ```
 
 **Struck because:** Owner: "epigrams are a pet peeve of mine and should never show up in any of the writing." The grok-rows file quoted those lines from the public wiki. He ordered them changed to simple explanations, and made the ban standing for every generation. A sentence that still works as a quote on a card is an epigram. A short sentence that only lands because of the one before it is the same fault. The repair is a plain sentence that keeps the fact and the reason together. This binds pages, replies, reports, and workbench files. The old pillow loophole, that an epigram could appear as a conclusion after premises that earned it, is closed.
+
+
+### 36. The Writing Pipeline — 2026-09-01
+
+```text
+So the fix was not another rule but a separation of the work into four jobs, each done by a head that lacks something the head before it had.
+
+four jobs can beat that if each job is done by a head that is missing something the last head still had.
+```
+
+**Struck because:** Owner, on the A/B board: "that writing is what most people consider to be slop." Then, same day: each sentence needs to be perfectly comprehensible out of context; the second clause "definitely sounds wrong." First line is Fable, live wiki. Second line is Grok, same page, same day. A third line, offered as speech, was struck as the same fragment: "That run cannot see the notes the last run used." Owner: a person would say the first two sentences and would not say that; "lacks something the head before it had" is the problem fragment. Diagnosis: the writer states a recurrence (this instance minus the last instance of the same name) instead of saying what this instance is handed, as objects. Everyday nouns on that recurrence are still that recurrence. How to see it: `01 - Workbench/riddle-sentence-how-to-see.md`. Repair: say what this step is handed. If a diagram of four jobs follows, the sentence is that the work is split into four jobs, and the diagram carries them. Do not write the minus.

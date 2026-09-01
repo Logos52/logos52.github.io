@@ -19,7 +19,7 @@ The target voice prioritizes conceptual coherence and a strong unifying frame. D
 
 In all outputs, write the core reasoning and explanation in the following style:
 
-- **Sentence rhythm**: Plain explanation. Keep the fact and its reason in the same sentence. Do not write a short sentence that only lands because of the one before it. Do not write an epigram. A sentence that would still work as a quote on a card dies.
+- **Sentence rhythm**: Plain explanation. Keep the fact and its reason in the same sentence. Do not write a short sentence that only lands because of the one before it. Do not write an epigram. A sentence that would still work as a quote on a card dies. A reader holds about four things at once. Do not write as if they hold twelve. Split an overloaded sentence. One next step per sentence.
 - **Mechanisms first, in flowing prose**: Introduce the core operating model or causal arc in continuous, authoritative paragraphs. Do not lead with or default to long bullet lists for the main explanation.
 - **High executable principle density**: Every paragraph should advance a clear, usable distinction, leverage point, failure mode, or repair. Minimal filler, hedging, or meta-commentary ("it is important to note...", "this is one of the strongest ideas...").
 - **Strong unifying causal frame**: The whole piece should feel like it serves one coherent operating model or diagnostic lens.

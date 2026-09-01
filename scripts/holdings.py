@@ -25,7 +25,14 @@ ANNOUNCE = re.compile(r"\b(the|this) page (weighs|examines|tests|asks|looks at|t
 # Tight on purpose. Do not widen without a new specimen.
 # 1. not X but Y as the next-step definition.
 # 2. not X; it is Y
-# 3. a job/head defined as lacking what the last job/head had.
+# 3. Recurrence-absence (2026-09-01, third specimen). This instance is named
+#    as the last instance of the same noun, minus something.
+#    Hits: "lacks something the head before it had";
+#          "missing something the last head still had";
+#          "That run cannot see the notes the last run used."
+#    Misses on purpose: "Each job is a new run of the model.";
+#          "The previous chapter ends on a question.";
+#          "The rewrite chat gets the finished draft and one prompt."
 NOT_BUT = re.compile(
     r"\bnot\s+(?:just\s+|only\s+|another\s+|merely\s+|simply\s+)?[^,.;:]{1,40}?\s+but\s+(?:a|an|the|to)\b",
     re.I,
@@ -34,17 +41,115 @@ NOT_SEMI_IT_IS = re.compile(
     r"\bis not\s+[^.]{1,60}?;\s+it is\b",
     re.I,
 )
-HEAD_RIDDLE = re.compile(
-    r"\b(?:head|job|stage|run)\b.{0,55}\b(?:lacks|is missing|does not (?:have|see))\b.{0,45}"
-    r"(?:the (?:head|job|stage) before|"
-    r"(?:the )?(?:last|previous|prior|before)\b.{0,25}\b(?:head|job|stage|run)\b)",
+ABSENCE_RE = re.compile(
+    r"\b("
+    r"lacks?|lacking|missing|"
+    r"cannot see|can'?t see|"
+    r"does not (?:have|see|get|know|use)|"
+    r"doesn'?t (?:have|see|get|know|use)|"
+    r"never sees?|"
+    r"without what|"
+    r"only what"
+    r")\b",
     re.I,
 )
-SLOP_FIX = (
-    "Drop the not-X half. Say what this step does. If four jobs follow, "
-    "say the work is split into four jobs and let the diagram carry them. "
-    "Do not define a job as missing what the last job had."
+NOUN_BEFORE_IT = re.compile(
+    r"\bthe ([a-z][a-z'’-]{2,}) before (?:it|that)\b",
+    re.I,
 )
+LAST_NOUN = re.compile(
+    r"\bthe (?:last|previous|prior) ([a-z][a-z'’-]{2,})\b",
+    re.I,
+)
+WEAK_NOUN = STOP | {
+    "time", "day", "year", "week", "moment", "point", "case", "fact",
+    "word", "name", "term",
+}
+SLOP_FIX = (
+    "This thing is written as the last thing of the same name, minus something. "
+    "Say what this thing is handed, as objects. Do not write the minus."
+)
+
+
+def recurrence_absence(sentence):
+    """Return the span if this sentence names an instance as the last
+    instance of the same noun, minus something. Else None.
+
+    QA gate for the fragment the owner named 2026-09-01. Not a write-act.
+    """
+    if not ABSENCE_RE.search(sentence):
+        return None
+    m = NOUN_BEFORE_IT.search(sentence)
+    if m and stem(m.group(1)) not in WEAK_NOUN:
+        return m.group(0)
+    stems = [stem(w) for w in re.findall(r"[a-zA-Z][a-zA-Z'’-]*", sentence)]
+    for m in LAST_NOUN.finditer(sentence):
+        noun = stem(m.group(1))
+        if noun in WEAK_NOUN:
+            continue
+        if stems.count(noun) >= 2:
+            return m.group(0)
+    return None
+
+
+LOAD_FIX = (
+    "A reader holds about four things at once. This sentence asks for more. "
+    "Split it. One next step per sentence. A diagram carries a list of jobs."
+)
+# "that the / that same / that sentence" is a determiner, not a relative.
+LOAD_DET = STOP | {
+    "same", "such", "very", "more", "most", "own", "new", "old", "few",
+    "many", "all", "any", "each", "every", "both", "some", "another",
+    "either", "neither", "its", "his", "her", "their", "our", "my", "your",
+}
+LOAD_VERB = re.compile(
+    r"^(?:is|are|was|were|has|have|had|does|do|did|can|could|will|would|"
+    r"cannot|can't|should|must|may|might|lacks?|missing|"
+    r"wrote|made|held|said|saw|got|came|went|took|gave|kept|left|felt|"
+    r"found|knew|thought|told|put|set|let|led|"
+    r"[a-z]{3,}ed|[a-z]{3,}ing|[a-z]{3,}s)$",
+    re.I,
+)
+
+
+def relative_count(sentence):
+    """Relative clauses the reader has to keep open. Not 'that' as a determiner."""
+    n = len(re.findall(r"\b(?:who|which)\s+[a-z]", sentence, re.I))
+    for m in re.finditer(r"\bthat\s+([a-z']+)", sentence, re.I):
+        w = m.group(1)
+        if w.lower() in LOAD_DET:
+            continue
+        if LOAD_VERB.match(w):
+            n += 1
+    return n
+
+
+def load_hit(sentence):
+    """Overload: the sentence asks a reader to hold more than about four things.
+
+    Owner 2026-09-01: a human mind holds about four items; this writing was
+    for someone with twelve. Cowan working memory, not Miller 7±2.
+
+    Tight: two extra bindings (a relative plus because/if, or two relatives,
+    or because plus a second clause), or a contrast plus a relative.
+    Word-count-plus-and was too noisy on ordinary pages.
+    """
+    t = sentence.lstrip()
+    if t.startswith("|") or t.startswith("```") or "│" in sentence:
+        return None
+    if t.startswith("- ") or t.startswith("* "):
+        return None
+    wc = len(sentence.split())
+    if wc < 22:
+        return None
+    rels = relative_count(sentence)
+    stack = len(re.findall(r"\b(?:because|if|although|while)\b", sentence, re.I))
+    contrasts = len(re.findall(r"\bbut\b", sentence, re.I))
+    extra_and = len(re.findall(r",\s+and\b|; ", sentence))
+    nests = rels + stack + extra_and
+    if nests >= 2 or (contrasts >= 1 and rels >= 1):
+        return (wc, nests, rels)
+    return None
 
 
 def slop_hits(sentence):
@@ -55,9 +160,9 @@ def slop_hits(sentence):
     m = NOT_SEMI_IT_IS.search(sentence)
     if m:
         hits.append(("not-X; it is Y", m.group(0)))
-    m = HEAD_RIDDLE.search(sentence)
+    m = recurrence_absence(sentence)
     if m:
-        hits.append(("riddle-job", m.group(0)))
+        hits.append(("recurrence-minus", m))
     return hits
 
 
@@ -123,19 +228,78 @@ def main():
                 tag = f"{pr}→?({', '.join(cands[-3:])})" if len(cands) >= 2 and pr.lower() in ("it","this","that","its") else pr
                 prons.append(tag)
             for w in words(s): para_seen.add(w)
+            load = load_hit(s)
+            if load:
+                wc, nests, rels = load
+                refs.append(f"LOAD [{nests} extra bindings, {wc} words. {LOAD_FIX}]")
             flag = "  <-- " + "; ".join(refs) if refs else ""
             pr = f"   pronouns: {', '.join(prons)}" if prons else ""
             slop = slop_hits(s)
-            short = s if (slop or len(s) <= 110) else s[:107] + "…"
+            short = s if (slop or load or len(s) <= 110) else s[:107] + "…"
             print(f"  · {short}{flag}{pr}")
             if slop:
                 print(f"  >>> SLOP  {s.strip()}")
                 print(f"      {SLOP_FIX}")
+            if load:
+                wc, nests, rels = load
+                print(f"  >>> LOAD  {s.strip()}")
+                print(f"      {nests} extra bindings in one sentence (about four things is the limit). {LOAD_FIX}")
         new_terms = sorted(w for w in (para_seen - seen) if len(w) > 3 and w not in STOP)
         print(f"  holds after ¶{i}: +{len(new_terms)} new words; e.g. {', '.join(new_terms[:14])}")
         seen = para_seen
     print("\nCOUNT = a number of things is mentioned; the things and what each comes to are on the page or the count goes. ANNOUNCES = the sentence says what the page does; it must also say what the page finds. ARGUING = a word about reasoning where the world should be; name the election, the debt, the school day.")
     print("\nNOT GIVEN = a definite reference whose noun never appeared above it on the page. it/this/that followed by →?(…) means more than one noun nearby could be the referent; the writer names it.")
-    print("\nSLOP = a sentence people would call AI slop: 'not X but Y' as the next step, or a job defined as lacking what the last job had. Print is the full sentence. Repair: say what this step does; if a diagram follows, let the diagram carry the jobs.")
+    print("\nSLOP = a sentence people would call AI slop: 'not X but Y' as the next step, or this thing named as the last thing of the same name minus something. Print is the full sentence. Repair: say what this thing is handed, as objects. Do not write the minus.")
+    print("\nLOAD = the sentence asks the reader to hold more than about four things at once. Split it. One next step per sentence.")
 
-if __name__ == "__main__": main()
+
+SELFTEST = [
+    # must catch
+    (True, "each done by a head that lacks something the head before it had."),
+    (True, "four jobs can beat that if each job is done by a head that is missing something the last head still had."),
+    (True, "That run cannot see the notes the last run used."),
+    (True, "each helper sees only what the last helper wrote."),
+    # must miss
+    (False, "The work is split into four jobs."),
+    (False, "Each job is a new run of the model."),
+    (False, "The rewrite chat gets the finished draft and one prompt."),
+    (False, "What follows is the short form."),
+    (False, "Repeating is not a weak version of processing; it is a different operation."),
+    (False, "The previous chapter ends on a question."),
+    (False, "Watch writes the results of its check to a file in a shared folder."),
+]
+
+
+LOADTEST = [
+    (True, "So the fix was not another rule but a separation of the work into four jobs, each done by a head that lacks something the head before it had."),
+    (True, "four jobs can beat that if each job is done by a head that is missing something the last head still had."),
+    (True, "The head that wrote a sentence cannot see what is missing from that sentence, because the head's own memory fills the gap, and a rule read by that same head is satisfied by that same memory."),
+    (False, "The work is split into four jobs."),
+    (False, "A person can hold about four things at once."),
+    (False, "As of 31 August 2026, five lab families sit close enough on coding benches that people who use them every day pick by failure mode, not by a leaderboard."),
+]
+
+
+def selftest():
+    failed = 0
+    for want, sent in SELFTEST:
+        got = recurrence_absence(sent) is not None
+        if got != want:
+            failed += 1
+            print(f"FAIL want={want} got={got}: {sent}")
+    for want, sent in LOADTEST:
+        got = load_hit(sent) is not None
+        if got != want:
+            failed += 1
+            print(f"FAIL LOAD want={want} got={got}: {sent}")
+    if failed:
+        print(f"{failed} failed")
+        sys.exit(1)
+    print(f"ok {len(SELFTEST)} recurrence-minus cases, {len(LOADTEST)} load cases")
+
+
+if __name__ == "__main__":
+    if "--selftest" in sys.argv:
+        selftest()
+    else:
+        main()
