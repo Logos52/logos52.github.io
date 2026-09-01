@@ -1,7 +1,7 @@
 ---
 type: source-index
 created: 2026-05-02
-updated: 2026-08-13
+updated: 2026-08-31
 ---
 
 # Source Index
@@ -96,9 +96,15 @@ This index lets `raw/` and `Clippings/` remain dump directories while still givi
 | [[raw/sources/MG and Kolbs/1. Notion template overview|MG and Kolbs template tour set]] | YouTube transcript set | output synthesized | Notion template, action zone, progress zone, learning zone, Kolbs, marginal gains | [[outputs/briefs/GPT - MG and Kolbs Template|GPT - MG and Kolbs Template]], [[outputs/briefs/Grok - MG and Kolbs Template|Grok - MG and Kolbs Template]] |
 | Live Clinic 61: Opening the Black Box of Learning | ICS Live Clinic transcript | output synthesized | black box of learning, transitions, diagnostic process, process-level questions, self-regulation during change | [[outputs/briefs/Grok - Live Clinic 61 Opening the Black Box of Learning|Grok - Live Clinic 61]] |
 | [[raw/sources/2026-08-11-mattyp-intro-to-grok-bot\|Intro to Grok Bot (Palmer, 2026-08-11)]] | X article | compiled to research bank 2026-08-13; wiki pages not yet updated | Grok Bot, personal agents, shared cloud computer, Auto Review, configuration trap | [[wiki/Research/Grok Bot Practitioner Bank\|Grok Bot Practitioner Bank]] → pending: Standing Research Agents, Bot Operating Rules, Grok Bot Fleet Structures, Current Agentic LLM Stack |
-| [[raw/sources/2026-08-15-grok-guides\|Grok 4.6 + Grok Bot guides (2026-08-15)]] | compiled source list | gold file for Field; packet written 2026-08-15 | Grok 4.6 docs, Grok Bot official how-to, named runners | [[wiki/Research/Grok Bot Field Packet 2026-08-15\|Field Packet 2026-08-15]] → [[wiki/Research/Grok Bot Practitioner Bank\|Practitioner Bank]] |
+| [[raw/sources/2026-08-15-grok-guides\|Grok 4.6 + Grok Bot guides (2026-08-15)]] | compiled source list | paste for Field; packet written 2026-08-15 | Grok 4.6 docs, Grok Bot official how-to, named runners | [[wiki/Research/Grok Bot Field Packet 2026-08-15\|Field Packet 2026-08-15]] → [[wiki/Research/Grok Bot Practitioner Bank\|Practitioner Bank]] |
 | [[raw/sources/2026-08-11-mattyp-content-bot-overnight\|Content Bot + overnight (Palmer, 2026-08-11)]] | X post | compiled into Field packet 2026-08-15 | overnight computer, Demo/Content Bot restated, grocery pair | [[wiki/Research/Grok Bot Field Packet 2026-08-15\|Field Packet 2026-08-15]] |
 | [[raw/sources/2026-08-11-zakariasson-100-use-cases\|100 use cases (Zakariasson, 2026-08-11)]] | X thread | compiled into Field packet 2026-08-15 | catalog; GUI-as-API; promise reconstruction; fleet spend canary | [[wiki/Research/Grok Bot Field Packet 2026-08-15\|Field Packet 2026-08-15]] |
+| [[raw/sources/2026-08-31-xai-bot-guides\|Grok Bot Guides hub (x.ai/bot/guides, 2026-08-31)]] | first-party playbook hub | compiled 2026-08-31 | CoS, one-finder, finding-as-spec, reuse-first, per-helper-computer language | [[wiki/Research/Grok Bot Field Packet 2026-08-31\|Field Packet 2026-08-31]] → [[wiki/Research/Grok Bot Practitioner Bank\|Practitioner Bank]] → Primer, Bot Operating Rules, Grok 4.6 and Grok Bot |
+| [[raw/sources/2026-08-27-zakariasson-multiple-teams\|How I run multiple teams (Zakariasson, 2026-08-27)]] | first-party guide | compiled into Field packet 2026-08-31 | project channel, roster cap, reuse-first, create-after-yes | [[wiki/Research/Grok Bot Field Packet 2026-08-31\|Field Packet 2026-08-31]] |
+| [[raw/sources/2026-08-25-perry-mobile-app-development\|Grok Bot for mobile (Perry, 2026-08-25)]] | first-party guide | compiled into Field packet 2026-08-31 | one-finder, finding-as-spec, GUI-as-API, own-computer language | [[wiki/Research/Grok Bot Field Packet 2026-08-31\|Field Packet 2026-08-31]] |
+| [[raw/sources/2026-08-24-bai-designing-grok-bot\|Designing Grok Bot (Bai, 2026-08-24)]] | first-party guide | compiled into Field packet 2026-08-31 | real asset, Figma MCP, Experiments-before-roadmap | [[wiki/Research/Grok Bot Field Packet 2026-08-31\|Field Packet 2026-08-31]] |
+| [[raw/sources/2026-08-16-letz-grok-bot-for-gtm\|Grok Bot for GTM (Letz, 2026-08-16)]] | first-party guide | compiled into Field packet 2026-08-31 | CoS, weekly rundown + state file, Gmail/Salesforce/Gong | [[wiki/Research/Grok Bot Field Packet 2026-08-31\|Field Packet 2026-08-31]] |
+| [[raw/sources/2026-08-15-niparko-grok-bot-for-pms\|Grok Bot for PMs (Niparko, 2026-08-15)]] | first-party guide | compiled into Field packet 2026-08-31 | attention list, manager-does-not-code, Amazon order | [[wiki/Research/Grok Bot Field Packet 2026-08-31\|Field Packet 2026-08-31]] |
 
 ## Private Course Sources
 

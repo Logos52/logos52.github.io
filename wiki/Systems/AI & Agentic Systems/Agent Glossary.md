@@ -3,7 +3,7 @@ title: "Agent Glossary"
 type: reference
 status: developing
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-08-31
 source-count: 23
 next-audit: 2026-09-28
 description: "Names for the agent loop, the room it runs in, and the chat window in front of it — Claude, Cursor, Grok, and nearby products as of 28 August 2026, with when to use each."
@@ -239,7 +239,7 @@ Grok Build is the local coding agent on this Mac. You launch it in a project dir
 
 ### Grok Bot
 
-Grok Bot is a named teammate with a cloud computer that keeps running after the chat ends. Every Bot on one account shares that computer. Use it for standing watch, fetch, and file on public material. Do not give it private logins or a spend that does not stop for a person. Depth: [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]].
+Grok Bot is a named teammate with a cloud computer that keeps running after the chat ends. Every Bot on one account shares that computer. Use it for standing watch, fetch, and file on public material. Do not give it private logins or a spend that does not stop for a person. Depth: [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]. The first drawing is [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]].
 
 ### Profile (Grok)
 

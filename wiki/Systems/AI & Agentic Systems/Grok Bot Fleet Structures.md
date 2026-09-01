@@ -3,7 +3,7 @@ title: "Grok Bot Fleet Structures"
 type: reference
 status: seed
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-09-01
 description: "Candidate structures for the Grok Bot fleet — the standing half of the research drawn at configuration resolution. Structure A: five bots, single duties. Nothing ruled yet."
 tags:
   - agents
@@ -81,7 +81,7 @@ One bot per duty, no personas, no orchestrator. The names are working labels.
 
 **Corpus — the wiki auditor.** Weekly clone of the published repo, then the sweep: near-duplicate pages, contradicting claims, dead wikilinks, sourceless pages — one packet, never an edit. Standing sub-duty, the mold check: tracked instruction and config files grepped for resurrections of retired tools, every new spore flagged with file and line. Needs git confirmed present on the box; the repo is public, so no credential at all.
 
-**Steward — the quartermaster, created last.** Weekly: quota burn against the included allowance, routine health, review dates coming due, and one line per lane on whether it earns its rent. Administration, never orchestration — the proven remainder of the chief-of-staff idea.
+**Steward — the quartermaster, created last.** Weekly: quota burn against the included allowance, routine health, review dates coming due, and one line per lane on whether it earns its rent. A catalog of setups other people run includes a row: look at the whole fleet's spend and kill the wasteful ones. That row is this report. If the owner is away long enough that the product asks whether routines should keep running, and nobody answers, those routines pause; Steward reports the pause. Administration, never orchestration — the proven remainder of the chief-of-staff idea. The product's ceiling is fifty helpers and group chats combined, and fifty routines on one helper. Those numbers are not this drawing's roster limit. The weekly meter is.
 
 **Shared clearance.** All five sit on one computer where files and logins are common property, so all five hold the same trust level: public material only, scoped read-only keys only, and every output lands as a push, a chat message, or a review packet. Nothing writes to the vault, nothing touches production.
 
@@ -93,6 +93,7 @@ One bot per duty, no personas, no orchestrator. The names are working labels.
 
 - **B — three generalists.** Ops, Research, Admin. Fewer routines to maintain, muddier accountability per finding; field reports so far favor narrow bots over broad ones.
 - **C — two bots plus routines.** One monitor, one reader; the audit becomes a monthly routine instead of a standing bot. Cheapest on quota, slowest to notice drift.
+- **D — first-party playbooks.** A chief of staff in the middle, specialists around it, helper-to-helper handoff, mail and ads and store listings on the shared computer. That is what the maker's published how-to pages run. It is a candidate only as a record of what this drawing is not. The logins those seats need stay off this account. Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]].
 
 ## Related
 
@@ -100,3 +101,13 @@ One bot per duty, no personas, no orchestrator. The names are working labels.
 - [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]] — the same structure one level up, and the laws the fleet answers to
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — where the fleet sits among the other agents
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — why every lane ends at the desk
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]] — the live setup; Structure A was never signed, the Primer is what runs
+- [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]] — first-party CoS+specialists filed as sketch D, not a roster
+
+## Sources
+
+- [Create and manage Bots](https://docs.x.ai/grok-bot/bots) — account cap of fifty bots and group chats combined.
+- [Skills, routines, and automations](https://docs.x.ai/grok-bot/skills-routines-and-automations) — fifty routines per bot; routines may pause after a long period away.
+- [FAQ](https://docs.x.ai/grok-bot/faq) — one computer per user. Re-fetched 2026-08-31.
+- Named-runner catalog row on fleet spend: [[wiki/Research/Grok Bot Field Packet 2026-08-15|Grok Bot Field Packet 2026-08-15]]
+- First-party playbooks as sketch D: [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]

@@ -3,7 +3,7 @@ title: "Agentic Engineering"
 type: hub
 status: developing
 created: 2026-05-02
-updated: 2026-08-28
+updated: 2026-09-01
 written-by: grok
 model: grok
 source-count: 10
@@ -121,6 +121,8 @@ The person is still answerable for the same bar. Answerability now means the fac
 - [[notes/index|notes/index.md]] — vault front door: hand-maintained list of hubs and doctrine pages
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — live stack: three agents by kind of work, no pay-per-token
 - [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]] — names for the loop, the room it runs in, and the chat window; when to use each product
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]] — how this desk runs the standing teammate: one shared computer, report-only helpers, empty middle
+- [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — the model, the local coding agent, and the standing teammate under one first name
 - [[wiki/Systems/AI & Agentic Systems/Agent Wrong-Door Log|Agent Wrong-Door Log]] — dated misses when a job went to the wrong product
 - [[wiki/Systems/AI & Agentic Systems/Claude Fable|Claude Fable]] — measured operating rules for one model; price, case against, quit, checkable
 - [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]] — natural language as the programming medium; the same artifacts as Software 3.0 objects

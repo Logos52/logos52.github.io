@@ -3,8 +3,8 @@ title: "Grok 4.6 and Grok Bot"
 type: concept
 status: developing
 created: 2026-08-15
-updated: 2026-08-28
-source-count: 14
+updated: 2026-09-01
+source-count: 15
 description: "Grok 4.6 is the model. Grok Bot is the standing teammate. Grok Build and the Cursor IDE are the local surfaces — different harnesses, same weights."
 tags:
   - grok
@@ -36,7 +36,7 @@ Every Bot on one account uses one persistent cloud computer. They share its file
 
 When a step needs a person — password, passkey, two-factor code, CAPTCHA, payment, identity check — the Bot hands the screen over and takes it back. Those secrets do not go in ordinary chat. A first useful request names five things: the outcome, the sources, the constraints, the deliverable, and the review point. A **skill** is how a task is done. A **routine** is when one Bot runs that method, on a schedule or on an event. Teach-a-task, where it is available, records up to ten minutes of visible computer use and drafts a skill that still needs rules, failure handling, and approval boundaries written by hand. Approval stays in front of send, publish, purchase, delete, and production change.
 
-Launch coverage said each Bot gets its own cloud computer. The FAQ's sentence is the other way: the computer is assigned per user, not per Bot.
+Launch coverage said each Bot gets its own cloud computer, and some of SpaceXAI's how-to pages still write that each helper has its own machine. The FAQ's sentence, re-fetched 31 August 2026, is the other way: the computer is assigned per user, not per Bot.
 
 ## What this desk does with each
 
@@ -51,7 +51,7 @@ The split already on the stack page is the one that holds.
 
 [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]] is the always-on half: Watch, Brief, Intake, Corpus, packets to the desk. [[wiki/Systems/AI & Agentic Systems/Grok Bot Fleet Structures|Grok Bot Fleet Structures]] is that half at seat resolution. [[wiki/Systems/AI & Agentic Systems/Bot Operating Rules|Bot Operating Rules]] is the operating claim those seats already run: the report is the product, and no Bot fixes what it finds.
 
-The cloud computer holds only what is already public. A grocery cart, a Gmail session, an Amazon login, or a spend that does not stop for a person is the usage that line exists to refuse. Other people's write-ups of those setups are field evidence, not a roster to copy. [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]] is that evidence compiled; [[wiki/Research/Grok Bot Field Packet 2026-08-15|the 15 August Field packet]] is the first named-runner pass.
+The cloud computer holds only what is already public. A grocery cart, a Gmail session, an Amazon login, or a spend that does not stop for a person is the usage that line exists to refuse. Other people's write-ups of those setups are field evidence, not a roster to copy. SpaceXAI's own how-to pages put a chief of staff on mail and ads; that is still field evidence. [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]] is that evidence compiled; [[wiki/Research/Grok Bot Field Packet 2026-08-15|the 15 August Field packet]] is the first named-runner pass; [[wiki/Research/Grok Bot Field Packet 2026-08-31|the 31 August Field packet]] is the first-party playbook pass.
 
 ## Grok Build and the Cursor IDE
 
@@ -87,6 +87,8 @@ The shared name still covers two products. Call the model when the job is a turn
 - [[wiki/Systems/AI & Agentic Systems/Claude Fable|Claude Fable]] — the judgment model this desk has not moved off
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — the July 4.3 grade that 4.6 has not yet replaced
 - [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]] — official docs plus named-runner claims, confidence-tagged
+- [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]] — five first-party playbooks on x.ai/bot/guides; CoS and per-helper-computer language filed, not copied
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]] — the live setup on this account
 - [[journal/2026-08-13-grok-4-6-on-the-frontier|Grok 4.6 on the frontier, not the lead]] — the day-after ranking this page inherits
 - [[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]] — dated ranking by job, 15 Aug. Not a stack change.
 - [[wiki/Research/Grok Build and Cursor Bank|Grok Build and Cursor Bank]] — the lane behind the Build / IDE addendum
@@ -105,7 +107,8 @@ The shared name still covers two products. Call the model when the job is a turn
 - [Reasoning](https://docs.x.ai/developers/model-capabilities/text/reasoning) — effort levels; default high; cannot disable
 - [Grok 4.6 in GitHub Copilot](https://x.ai/news/grok-4-6-github-copilot) — SpaceXAI, 2026-08-14
 - [Get started](https://docs.x.ai/grok-bot/get-started) — first-task shape; platforms; Cursor sign-in
-- [FAQ](https://docs.x.ai/grok-bot/faq) — one computer per user; delete does not clear files or logins; weekly usage
+- [FAQ](https://docs.x.ai/grok-bot/faq) — one computer per user; delete does not clear files or logins; weekly usage. Re-fetched 2026-08-31
+- [Grok Bot Guides](https://x.ai/bot/guides) — five first-party playbooks captured 2026-08-31. Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]
 - [Overview](https://docs.x.ai/grok-bot/overview), [Bots](https://docs.x.ai/grok-bot/bots), [Computer and apps](https://docs.x.ai/grok-bot/computer-and-apps), [Skills, routines, and automations](https://docs.x.ai/grok-bot/skills-routines-and-automations), [Approvals, security, and privacy](https://docs.x.ai/grok-bot/approvals-security-and-privacy)
 - [Artificial Analysis on Grok 4.6](https://x.com/ArtificialAnlys/status/2087564648325530099) — Intelligence Index 61; Briefcase turn counts
 - [Grok Build overview](https://docs.x.ai/build/overview), [Modes and commands](https://docs.x.ai/build/modes-and-commands) — TUI, headless, plan mode

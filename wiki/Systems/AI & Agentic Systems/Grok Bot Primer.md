@@ -3,7 +3,7 @@ title: "Grok Bot Primer"
 type: concept
 status: developing
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-31
 description: "One person's Grok Bot setup, explained from the one fact that shapes it: one shared cloud computer per account. Helpers with one job each, files instead of chatter, an empty middle, and what stays on the Mac."
 tags:
   - grok-bot
@@ -38,7 +38,7 @@ Steward is the helper that looks after the other helpers, which is one job with 
 
 One more part of the setup is not a helper at all. When Watch reports a fault on one of the websites, the owner reads the report and decides whether it is worth fixing. If it is, a separate coding agent, a different program from the assistant on the laptop and one that runs on a machine of its own that its service provides rather than on the shared computer, opens a pull request against the site's code, which is public. A pull request is a proposed change the owner can read in full and accept with one click, and accepting it is called merging. So a helper only ever finds a fault, while the fix is written elsewhere, and the owner approves the fix before it starts and merges it when it is done.
 
-The helper missing from that setup is the one most people put first, a chief of staff in the middle that holds the logins, takes requests, and hands work to the others. This setup has no such helper, because a middle helper has to hold every login to route every job, and on a shared computer every other helper then holds those logins too. A middle helper also spends its day talking to other helpers, and that talking is charged to the week's allowance, so that when another user of the product ran a chatty chief of staff, the chief of staff used up a week in a few hours, and a quieter version the same user then built of the same helper used about fifteen percent of that. So the middle in this setup is the owner with a phone, opening some notifications and ignoring others.
+The helper missing from that setup is the one most people put first, a chief of staff in the middle that holds the logins, takes requests, and hands work to the others. The how-to pages published by the maker of Grok Bot put that helper first: a sales playbook, a product-manager playbook, and a six-seat studio write-up all start with a manager that routes work and holds mail, an ads account, or a store listing. Those pages are field evidence of what the product is sold to do, not a roster this account copies, because the logins those managers need are the logins this setup keeps off the shared computer. This setup has no such helper, because a middle helper has to hold every login to route every job, and on a shared computer every other helper then holds those logins too. A middle helper also spends its day talking to other helpers, and that talking is charged to the week's allowance, so that when another user of the product ran a chatty chief of staff, the chief of staff used up a week in a few hours, and a quieter version the same user then built of the same helper used about fifteen percent of that. So the middle in this setup is the owner with a phone, opening some notifications and ignoring others.
 
 ## How the helpers talk to each other
 
@@ -77,7 +77,9 @@ So, for the person with two public websites, a notes site, and a reading habit, 
 - [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — the product against the model that shares its name, and the subscription it comes with
 - [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]] — the earlier drawing of the same setup as four always-on helpers, where the line between the cloud computer and the Mac was first drawn
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Fleet Structures|Grok Bot Fleet Structures]] — the earlier plan of five helpers with one duty each, never settled
-- [[wiki/Systems/AI & Agentic Systems/Bot Operating Rules|Bot Operating Rules]] — the report-only rule, and the route a fix takes from a helper's report to the owner's hands
+- [[wiki/Systems/AI & Agentic Systems/Bot Operating Rules|Bot Operating Rules]] — the report-only rule, the route a fix takes from a helper's report to the owner's hands, and the one-finder rule
+- [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]] — the maker's how-to pages this setup is choosing against
+- [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]] — named-runner claims with confidence tags
 
 ## Open Questions
 
@@ -87,7 +89,8 @@ So, for the person with two public websites, a notes site, and a reading habit, 
 
 ## Sources
 
-- [Grok Bot FAQ](https://docs.x.ai/grok-bot/faq) — one computer per user; delete does not clear files or logins; weekly usage. [Bots](https://docs.x.ai/grok-bot/bots) — hide does not pause a routine. [Skills, routines, and automations](https://docs.x.ai/grok-bot/skills-routines-and-automations).
+- [Grok Bot FAQ](https://docs.x.ai/grok-bot/faq) — one computer per user; delete does not clear files or logins; weekly usage. Re-fetched 2026-08-31. [Bots](https://docs.x.ai/grok-bot/bots) — hide does not pause a routine. [Skills, routines, and automations](https://docs.x.ai/grok-bot/skills-routines-and-automations).
+- [Grok Bot Guides](https://x.ai/bot/guides) — five first-party playbooks captured 2026-08-31. Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]].
 - [Session fences: bots are not a security boundary](https://forum.cursor.com/t/grok-bot-ship-real-session-fences-bots-are-not-a-security-boundary/168476) — Cursor forum, 2026-08-16. A bot on one screen opens a site another bot logged into.
 - Lauren Kwok, Grok Bot team, 2026-08-23 — [long chats make routines expensive; a 15-minute routine is about 100 runs a day; put recurring work on a fresh bot](https://x.com/poteto/status/2091368467060662497)
 - Austin Lin — [each routine fire about 0.01% of weekly quota; two polling bots used 15% in half a day](https://x.com/siraustin/status/2090543651508171180)

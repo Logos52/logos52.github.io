@@ -2,7 +2,7 @@
 type: reference
 status: developing
 created: 2026-05-17
-updated: 2026-08-28
+updated: 2026-09-01
 tags:
   - agentic
   - tooling
@@ -29,7 +29,7 @@ The models and agents doing agentic work across the projects, as of August 2026.
 
 ## Division of Labor
 
-Claude carries the judgment-heavy work: parallel research lanes, synthesis, and drafting, with the model's default voice filtered by the writing standards and every page's final cut staying human. Grok Build carries execution — builds, scripts, batch file work — on the machine where the files and credentials live. Grok Bot carries the standing lanes on its own cloud computer, which holds only what is already public. The local models are production instruments rather than agents: voice generation and its transcription check, both on Apple Silicon.
+Claude carries the judgment-heavy work: parallel research lanes, synthesis, and drafting, with the model's default voice filtered by the writing standards and every page's final cut staying human. Grok Build carries execution — builds, scripts, batch file work — on the machine where the files and credentials live. Grok Bot carries the standing lanes on its own cloud computer, which holds only what is already public. Grok Bot shares the same plugins and connectors as the Cursor account this desk already has, so a Cursor user pays less setup cost than someone starting from nothing. That shared plugin surface is not a reason to put a private login on the shared computer. The local models are production instruments rather than agents: voice generation and its transcription check, both on Apple Silicon.
 
 Everything runs on subscription plans or local hardware; nothing in the stack is pay-per-token. Claude Managed Agents, the Agent SDK, and the Messages API are that meter (tokens, and for Managed Agents $0.08 per running session-hour). Ruled off the roster 2026-08-28: "i don't like anything with API."
 
@@ -76,5 +76,12 @@ Hermes 3 via Ollama — the May version of this page named it the primary interf
 - [[journal/2026-08-21-cursor-ultra-vs-build-vs-bot|Cursor Ultra vs Grok Build vs Grok Bot]] — the seat assignment per repo
 - [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]] — the clean-context mechanism the Claude Code seat exists to run
 - [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]] — the standing half in full
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]] — the live Grok Bot setup on this account
+- [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]] — official docs plus named-runner claims; not a roster
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]] — the doctrine the division of labor answers to
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — the zone model behind "judgment stays at the desk"
+
+## Sources
+
+- [Grok Bot computer and apps](https://docs.x.ai/grok-bot/computer-and-apps) — plugins and connectors are account-wide, not isolated per bot.
+- [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]] — Cursor plugin share; public-only line.

@@ -65,8 +65,12 @@ The people stay in the bank as people. A wiki page that later absorbs a mechanis
 
 What would flip me back to "just tag it on Intake": ten Field packets that are indistinguishable from Intake's agentic rows — title, score, link, no setup, no gate, no failure. If the ethnography does not show up in the packet, the seat was a rename and it should die.
 
-I have not created it in the product. This entry is the assignment. One gold file, one pinned source list, one manual packet, then a Tue/Fri routine if the packet was worth opening. Watch and Brief still meter first if the weekly allowance is tight; Field waits a week rather than eating their canary. The ideas are good. The logins are not the ideas.
+I have not created it in the product. This entry is the assignment. One paste, one pinned source list, one manual packet, then a Tue/Fri routine if the packet was worth opening. Watch and Brief still meter first if the weekly allowance is tight; Field waits a week rather than eating their canary. The ideas are good. The logins are not the ideas.
 
 ## Status, 2026-08-15
 
 Gold file and first packet exist. Pinned list: [[raw/sources/2026-08-15-grok-guides|raw/sources/2026-08-15-grok-guides]]. Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-15|Grok Bot Field Packet 2026-08-15]]. Bank lane `field-2026-08-15` on [[wiki/Research/Grok Bot Practitioner Bank|the Practitioner Bank]]. Field is still not a product bot. Tue/Fri routine waits on whether this packet was worth opening.
+
+## Status, 2026-09-01
+
+Second packet exists. Hub: [x.ai/bot/guides](https://x.ai/bot/guides). Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]. Bank lane `field-2026-08-31`. Wiki absorb written onto Primer, Bot Operating Rules, Standing Research Agents, Fleet Structures, Grok 4.6 and Grok Bot, Current Agentic LLM Stack. Field is still not a product bot. Watch and Brief still meter first.

@@ -3,7 +3,7 @@ title: "Standing Research Agents"
 type: system
 status: seed
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-09-01
 description: "The always-on half of the research: four cloud agents — Watch, Brief, Intake, Corpus — filing review packets to the desk, with execution on the Mac and judgment staying human."
 tags:
   - agents
@@ -104,7 +104,7 @@ The cloud side runs on Grok Bot, where every agent on an account shares one pers
 
 ## One computer, one trust line
 
-All four agents share one cloud computer, where files, logins, and credentials are common property and files outlive any single agent. That geometry sets the trust line: the cloud side carries only what is already public. The vault's private half — drafts, raw sources, finances — is gitignored and structurally out of the agents' reach; they clone the published repo and see what a stranger sees. Execution runs closer to home: the local agents on the Mac hold the disk, the credentials, and the build stacks, with Claude Cowork carrying synthesis and structure and Grok Build carrying toolchain work. Every irreversible act — a page published, a deploy, a vault write — passes the desk.
+All four agents share one cloud computer, where files, logins, and credentials are common property and files outlive any single agent. That geometry sets the trust line: the cloud side carries only what is already public. A grocery cart, a mail session, a shopping login, or a spend that does not stop for a person is the usage that line exists to refuse. Other people's write-ups of those setups are field evidence, not a roster to copy. A helper that sweeps a public feed and files a packet is the same shape as Watch and Brief; a helper that shops is the opposite shape. The vault's private half — drafts, raw sources, finances — is gitignored and structurally out of the agents' reach; they clone the published repo and see what a stranger sees. Execution runs closer to home: the local agents on the Mac hold the disk, the credentials, and the build stacks, with Claude Cowork carrying synthesis and structure and Grok Build carrying toolchain work. Every irreversible act — a page published, a deploy, a vault write — passes the desk.
 
 This is the [[wiki/Concepts/Human vs AI Capability Lens|capability lens]] run as an org chart. The standing lanes are its Delegate cell held as duty, and session work is Augment — the pages themselves are its clearest case: agents draft them under the vault's [[02 - System/Writing Standards|writing standards]], the model's default selling voice is rejected on sight, and final cut stays at the desk. A page is a position its author holds, whoever typed the first draft.
 
@@ -116,7 +116,9 @@ Sessions stay what they were — the place where findings become positions and p
 
 ## Sources
 
-- Grok Bot documentation — the shared-computer architecture, routines, and quota model: [docs.x.ai/grok-bot](https://docs.x.ai/grok-bot/overview)
+- Grok Bot documentation — the shared-computer architecture, routines, and quota model: [docs.x.ai/grok-bot](https://docs.x.ai/grok-bot/overview). FAQ re-fetched 2026-08-31: one computer per user, not per Bot.
+- Matt Palmer, *Intro to Grok Bot*, 2026-08-11 — first-party practitioner essay. Sweep-and-file specimens match Watch and Brief. Grocery and delivery specimens are the usage the public-only line refuses. Bank: [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]].
+- First-party playbooks on [x.ai/bot/guides](https://x.ai/bot/guides), captured 2026-08-31 — field evidence of a chief of staff and of mail, ads, and store logins this drawing refuses. Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]
 - On scheduled content drifting generic within weeks: [Things I built with AI that completely fell apart](https://thoughtbymalte.substack.com/p/things-i-built-with-ai-that-completely)
 - On unmonitored agents degrading while reporting success: [You can't train an AI agent and then just go away](https://www.saastr.com/you-cant-train-an-ai-agent-and-then-just-go-away-we-did-and-it-fell-off-the-rails), [a taxonomy of silent agent breakage](https://www.telerik.com/blogs/when-status-ok-still-failure-taxonomy-silent-ai-agent-breakage-how-detect)
 
@@ -124,6 +126,9 @@ Sessions stay what they were — the place where findings become positions and p
 
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]
 - [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — the teammate against the model and against Grok Build
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]] — the live setup this drawing became
+- [[wiki/Systems/AI & Agentic Systems/Bot Operating Rules|Bot Operating Rules]] — report-only, one-finder, finding-as-spec
+- [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]] — the maker's how-to pages this drawing is choosing against
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]
 - [[wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg|Automation and the Job Iceberg]]
 - [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]]

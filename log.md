@@ -10,6 +10,30 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-09-01] lint | Wiki health check after Grok Bot guides ingest
+
+- Report: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/GPT - 2026-09-01 Wiki Health Check.md` (gitignored workbench).
+- 370 wiki pages. Grok Bot cluster has Sources. 29 pages elsewhere still lack a Sources heading (banks, some condensed, some hubs) — flagged, not repaired.
+- Cluster wikilink misses were table-pipe false positives. Killed per-helper-computer claim stays dead on operating pages; first-party playbook language is named as the contradiction.
+- Condensed stays `draft: true`. Home page not edited. Field not created in the product.
+
+## [2026-09-01] compile | Close Grok Bot ingest map onto the wiki
+
+- Remaining 13 Aug / 31 Aug ingest-map rows written onto the compiled pages: Standing Research Agents (Palmer Sources line; grocery as refused usage; sweep-and-file as Watch/Brief shape); Bot Operating Rules (catch-all anti-pattern, first-task template, prepare-before-execute); Fleet Structures (50-bot / 50-routine caps, pause-after-absence, rent-report row, Sources); Current Agentic LLM Stack (shared Cursor plugins, Primer + bank on Related, Sources); Agentic Engineering hub (Primer + Grok 4.6 links).
+- Packet [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]] and bank lane `field-2026-08-31` already on disk from 31 Aug.
+- Field tracker status 2026-09-01: second packet exists; Field still not a product bot.
+- Does not change the stack. Does not undraft Condensed.
+
+## [2026-08-31] ingest | x.ai/bot/guides → Field packet 2026-08-31
+
+- Hub: [x.ai/bot/guides](https://x.ai/bot/guides). Five first-party playbooks, captured 2026-08-31. Authors: Eric Zakariasson (27 Aug), Ryan Perry (25 Aug), John Bai (24 Aug), Krista Letz (16 Aug), Kevin Niparko (15 Aug).
+- Raw: [[raw/sources/2026-08-31-xai-bot-guides|hub]] plus five deposits under `raw/sources/2026-08-2{7,5,4,16,15}-*`.
+- Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]. Absorbed into [[wiki/Research/Grok Bot Practitioner Bank|Practitioner Bank]] as lane `field-2026-08-31`.
+- FAQ re-fetched: one computer per user, not per Bot. First-party playbooks now write "own computer" language; killed claim restated against those pages, not only press.
+- Wiki absorb: Primer (empty middle is a choice against the company's how-to pages); Bot Operating Rules (one-finder, finding-as-spec); Grok 4.6 and Grok Bot (playbook language + packet pointer); Standing Research Agents (source + related); Fleet Structures (sketch D, not a roster); Condensed (two stolen mechanisms).
+- Portable: one-finder; finding-as-spec; reuse-first + create-after-yes. Refused: CoS on mail, Gmail, Salesforce, Gong, Meta Ads, Amazon, store listings, helper-to-helper overnight without a file.
+- Does not change the stack. Field not created in the product. Grok 4.6 ranking not reopened.
+
 ## [2026-08-28] compile | Agent Glossary theming/OTEL + API-meter ruling
 
 - Theming, custom-model endpoints, OpenTelemetry added as glossary headings.

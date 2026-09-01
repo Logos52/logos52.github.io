@@ -3,7 +3,7 @@ title: "Grok Bot Field Packet 2026-08-15"
 type: research
 status: packet
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-08-31
 description: "First Field packet: named setups from the 2026-08-15 pinned source list, against official docs fetched the same day. Packet only. Public posts only."
 tags:
   - research
@@ -63,3 +63,5 @@ Official model page, launch post, Copilot note, reasoning (`xhigh`), release not
 - docs.x.ai/grok-bot get-started + FAQ, fetched 2026-08-15
 - Ruben Hassid, public half, 2026-08-12
 - atomicbot.ai/blog/what-is-grok-bot, 2026-08-13
+
+Later packet (first-party playbooks, not a replacement): [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]

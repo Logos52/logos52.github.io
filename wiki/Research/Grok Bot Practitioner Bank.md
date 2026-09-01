@@ -3,8 +3,8 @@ title: "Grok Bot Practitioner Bank"
 type: research
 status: reference
 created: 2026-08-13
-updated: 2026-08-15
-description: "Claim-by-claim compile of Palmer's 2026-08-11 Grok Bot essay against official docs and the vault's standing-agent pages, plus the first Field packet (2026-08-15)."
+updated: 2026-09-01
+description: "Claim-by-claim compile of Palmer's 2026-08-11 Grok Bot essay against official docs and the vault's standing-agent pages, plus Field packets from 2026-08-15 and 2026-08-31."
 tags:
   - research
   - grok-bot
@@ -17,7 +17,7 @@ Verified research bank, compiled 2026-08-13 from one primary source plus an offi
 
 Primary source: Matt Palmer (@mattyp), *Intro to Grok Bot*, X article, 2026-08-11, post 2087252657589412119. Full text at [[raw/sources/2026-08-11-mattyp-intro-to-grok-bot|raw/sources/2026-08-11-mattyp-intro-to-grok-bot]]. Official check against docs.x.ai/grok-bot as fetched 2026-08-13 (overview, bots, computer-and-apps, skills-routines-and-automations, approvals-security-and-privacy), re-checked get-started + FAQ 2026-08-15.
 
-Field evidence: first packet [[wiki/Research/Grok Bot Field Packet 2026-08-15|Grok Bot Field Packet 2026-08-15]], from the pinned list [[raw/sources/2026-08-15-grok-guides|raw/sources/2026-08-15-grok-guides]]. Lane 5 is that absorb. Wiki ingest (the table at the bottom) is still not written.
+Field evidence: first packet [[wiki/Research/Grok Bot Field Packet 2026-08-15|Grok Bot Field Packet 2026-08-15]], from the pinned list [[raw/sources/2026-08-15-grok-guides|raw/sources/2026-08-15-grok-guides]]. Second packet [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]], from the first-party hub [[raw/sources/2026-08-31-xai-bot-guides|raw/sources/2026-08-31-xai-bot-guides]]. Lane 5 is the 15 August absorb. Lane 6 is the 31 August absorb. Wiki ingest of the 13 August map was later written as [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]] (25 August) and [[wiki/Systems/AI & Agentic Systems/Grok Bot, Condensed|Grok Bot, Condensed]] (27 August, still draft). The 31 August packet is the pass that folds the company's own playbooks into those pages without copying their rosters.
 
 The vault already has three pages on this product, written the next day without this essay: [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]], [[wiki/Systems/AI & Agentic Systems/Grok Bot Fleet Structures|Grok Bot Fleet Structures]], [[wiki/Systems/AI & Agentic Systems/Bot Operating Rules|Bot Operating Rules]]. Lane 4 is the ingest map.
 
@@ -167,9 +167,43 @@ SPECIFIC: The post's UI caption calls the VM "its own computer." FAQ 2026-08-15:
 GOAL: Digest pattern is already Brief. Gmail-as-method is refused. Caption is a vector for the killed per-bot-computer claim. [FIRST-PARTY] on the digest; [PRESS ERROR] risk on the caption.
 
 ================================================================================
+LANE: field-2026-08-31
+SUMMARY: Second Field packet. The five first-party playbooks on x.ai/bot/guides, captured 31 August 2026, do not overturn the 13 August architecture. They show what the people who ship the product actually run: a chief of staff, login-heavy CRM/ads/mail, and helper-to-helper handoff. This desk's empty middle is a choice against those playbooks, not ignorance of them. Three portable items. First-party pages are now a vector for the killed per-helper-computer claim. People stay named.
+------------------------------------------------------------------------
+SOURCE: Eric Zakariasson, How I run multiple teams of Grok Bots (2026-08-27)
+MECHANISM: One project = one Grok Bot channel + a Notion board + a roster. A projects-manager helper opens the channel and staffs it. Reuse existing helpers first. Cap the channel (he picked six). Create a new helper only after a yes. Stuck work is a Blocked card and a ping, not a private chat.
+SPECIFIC: He calls it experimental. The manager watches the databases; specialists claim tasks. Full text: [[raw/sources/2026-08-27-zakariasson-multiple-teams|raw/sources/2026-08-27-zakariasson-multiple-teams]].
+GOAL: Steal reuse-first + create-after-yes + cap. Do not steal a manager that holds the logins. [FIRST-PARTY]
+------------------------------------------------------------------------
+SOURCE: Ryan Perry, Grok Bot for mobile app development (2026-08-25)
+MECHANISM: Six studio seats. Only Analytics may declare a finding. Creatives never buys media. Engineer takes a finding as a spec. GCS is the only path to players. Meta Ads API blocked → recorded the web UI once (GUI-as-API). Handoffs skip the person. Writes "its own computer" per helper.
+SPECIFIC: Claimed $15 → $1 CPI and ~4x D7 retention on Rank'em after a party-ad to partner-ad swap and a hint feature. Overnight Sentry sweep. Full text: [[raw/sources/2026-08-25-perry-mobile-app-development|raw/sources/2026-08-25-perry-mobile-app-development]].
+GOAL: Steal one-finder and finding-as-spec. Keep GUI-as-API as a method, not as a reason to put ads spend on the shared computer. Kill per-helper computer against the FAQ. [FIRST-PARTY] on the roster and the claimed numbers; [SOLID] that the FAQ contradicts "own computer" per helper.
+------------------------------------------------------------------------
+SOURCE: John Bai, Designing Grok Bot with Grok Bot (2026-08-24)
+MECHANISM: Experiments bot makes an idea tangible before it is on a roadmap. Motion God works against the real production asset, not a screenshot. Figma Bro uses the Figma MCP for exact geometry. Judgment stays with the designer. Writes "their own computers."
+SPECIFIC: Three ambient-access prototypes (notch, corner peek, cursor-follower); none shipped as explored. Full text: [[raw/sources/2026-08-24-bai-designing-grok-bot|raw/sources/2026-08-24-bai-designing-grok-bot]].
+GOAL: Steal real-asset + MCP-exact if a design seat is ever added. Not a seat. [FIRST-PARTY]
+------------------------------------------------------------------------
+SOURCE: Krista Letz, Grok Bot for GTM (2026-08-16)
+MECHANISM: Chief of Staff on mail, calendar, and the rest of the team. Weekly media rundown with a state file and a one-line quiet-when-nothing. Teach-by-record. Style from sent mail. Feedback becomes a skill. Parallel cloud agents.
+SPECIFIC: One helper per strategic account; Salesforce forecast notes; Gong coach; Figma slides updated from a Granola transcript. Caption: "Bot has its own computer that runs 24/7." Full text: [[raw/sources/2026-08-16-letz-grok-bot-for-gtm|raw/sources/2026-08-16-letz-grok-bot-for-gtm]].
+GOAL: Steal rundown + state file + quiet-when-nothing for public sources (already Recap/Brief). Refuse CoS-as-inbox, Gmail, Salesforce, Gong. [FIRST-PARTY]
+------------------------------------------------------------------------
+SOURCE: Kevin Niparko, Grok Bot for PMs (2026-08-15)
+MECHANISM: Attention list — what he is actually in, rebuilt hourly from mail, Slack, Granola, and calendar — used as a filter, and compared with stated priorities. CoS is the only generalist and stays quiet if nothing changed. Eng mgr does not code. Human on send, buy, delete. Named helpers, separate memory.
+SPECIFIC: Double-digit percent of internal merged PRs claimed. PM Pete ordered a Raspberry Pi part off Amazon. Recruiter seat. "Always-on agents with their own computer." Full text: [[raw/sources/2026-08-15-niparko-grok-bot-for-pms|raw/sources/2026-08-15-niparko-grok-bot-for-pms]].
+GOAL: Steal attention list as an idea (build from public files or not at all). Steal quiet-when-nothing and manager-does-not-code. Refuse Gmail archive, Amazon, recruiter. [FIRST-PARTY] on the claim about merged PRs.
+------------------------------------------------------------------------
+SOURCE: docs.x.ai/grok-bot/faq, re-fetched 2026-08-31
+MECHANISM: One computer per user, not per Bot. Screens are not a security boundary. Same list as 15 August on delete, Teach-a-task cap, unsupported platforms, weekly usage, Legacy Privacy Mode.
+SPECIFIC: Access list now names SuperGrok Plus, SuperGrok Heavy, Cursor Pro+, Cursor Ultra, Cursor Teams Standard and Premium — matches the 21 August widening already on the Grok 4.6 page.
+GOAL: The killed per-helper-computer claim now has first-party playbook language to contradict, not only press. [SOLID]
+
+================================================================================
 ## Killed claims
 
-- **Each bot gets its own cloud computer.** Press, 2026-08-11. False. One computer per account; screens are not security boundaries.
+- **Each bot gets its own cloud computer.** Press, 2026-08-11; restated in first-party playbooks 2026-08-15–25 (Perry, Bai, and a reading of Niparko/Letz). False. One computer per account; screens are not security boundaries. FAQ 2026-08-31 unchanged.
 - **Recent research says trust agents more than ourselves.** Palmer, unsourced. No paper found. Adjacent evidence runs the other way, including an Instacart computer-use purchase that bypassed the product's own confirmation step.
 - **Separate bots are a security boundary.** Implied by any roster that puts Amazon on one bot and the wiki on another and treats that as isolation. Official docs forbid this reading.
 
@@ -183,23 +217,26 @@ GOAL: Digest pattern is already Brief. Gmail-as-method is refused. Caption is a 
 - Teach-a-task brittleness on long routines is second-hand (Atomic Bot quoting a day-one reviewer). Wait for a named runner.
 - LinkedIn (Gavrilenko, Gupta), HN 49261514 (jjcm), and VentureBeat/Shumer were not retrieved this packet.
 
-## Ingest map (not yet done)
+## Ingest map
 
-What this bank would change if folded into the wiki. Nothing below has been written.
+13 August map, later written as Primer (25 August) and Condensed (27 August, draft). 31 August pass is below. Rows still open stay open.
 
-| Page | Absorb | Refuse |
-| --- | --- | --- |
-| [[wiki/Systems/AI & Agentic Systems/Standing Research Agents\|Standing Research Agents]] | Palmer as a Sources line; the configuration-trap problem statement; Demo/Content/Product as same-shape specimens of Watch/Brief; grocery/DoorDash named as the usage the public-only line refuses | "trusting agents era"; trust-agents-more-than-ourselves; any relaxation of public-only |
-| [[wiki/Systems/AI & Agentic Systems/Bot Operating Rules\|Bot Operating Rules]] | Official "General Helper" anti-pattern as the citation under one-duty; official design-for-trust list (prepare before execute; no-data/stale-data policy); official first-task template (outcome / sources / constraints / deliverable / review point) | Prompt-as-policy as sufficient; "I've yet to observe adverse behavior" as evidence; Nate's theme-not-task as a replacement for one-duty |
-| [[wiki/Systems/AI & Agentic Systems/Grok Bot Fleet Structures\|Grok Bot Fleet Structures]] | Official pause-after-absence as a Steward canary; official 50-bot and 50-routine caps as roster limits; Zakariasson #50 (vet fleet spend, kill waste) as the rent-report specimen | Per-bot isolation as a structure option |
-| [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack\|Current Agentic LLM Stack]] | Source line; optional one sentence on shared Cursor plugins | Stack-diagram change |
+| Page | Absorb | Refuse | Status |
+| --- | --- | --- | --- |
+| [[wiki/Systems/AI & Agentic Systems/Standing Research Agents\|Standing Research Agents]] | Palmer as a Sources line; Demo/Content/Product as same-shape specimens of Watch/Brief; grocery/DoorDash as the usage the public-only line refuses | "trusting agents era"; any relaxation of public-only | Written 2026-09-01. |
+| [[wiki/Systems/AI & Agentic Systems/Bot Operating Rules\|Bot Operating Rules]] | General Helper anti-pattern; design-for-trust; first-task template; **31 Aug:** one helper declares a finding; a finding is handed as a spec | Prompt-as-policy as sufficient; Nate's theme-not-task as a replacement for one-duty | Written 2026-09-01. |
+| [[wiki/Systems/AI & Agentic Systems/Grok Bot Fleet Structures\|Grok Bot Fleet Structures]] | Pause-after-absence canary; 50-bot / 50-routine caps; Zakariasson #50 rent-report; **31 Aug:** first-party CoS+specialists filed as a sketch, not a roster | Per-bot isolation as a structure option; six-seat studio as Structure A replacement | Written 2026-09-01. |
+| [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer\|Grok Bot Primer]] | **31 Aug:** the company's how-to pages put a chief of staff first; this setup still has an empty middle | Copying GTM/PM/studio rosters; mail, ads, store, Amazon | Written 2026-08-31. |
+| [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot\|Grok 4.6 and Grok Bot]] | **31 Aug:** first-party playbooks now write "own computer" language the FAQ kills; pointer to the 31 Aug packet | Reading those pages as a stack change | Written 2026-08-31. |
+| [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack\|Current Agentic LLM Stack]] | Source line; optional one sentence on shared Cursor plugins | Stack-diagram change | Written 2026-09-01. plugin sentence on the division-of-labor paragraph; Primer and bank on Related. |
 
 ## Sources
 
 - Matt Palmer, *Intro to Grok Bot*, X article, 2026-08-11, https://x.com/mattyp/status/2087252657589412119 — full text: [[raw/sources/2026-08-11-mattyp-intro-to-grok-bot|raw/sources/2026-08-11-mattyp-intro-to-grok-bot]]
 - Matt Palmer, Content Bot + overnight computer, X post, 2026-08-11, https://x.com/mattyp/status/2087314806596641159 — [[raw/sources/2026-08-11-mattyp-content-bot-overnight|raw/sources/2026-08-11-mattyp-content-bot-overnight]]
 - Eric Zakariasson, 100 use cases, X thread, 2026-08-11, https://x.com/ericzakariasson/status/2087258914060664902 — [[raw/sources/2026-08-11-zakariasson-100-use-cases|raw/sources/2026-08-11-zakariasson-100-use-cases]]
-- Field gold file / pinned list, 2026-08-15 — [[raw/sources/2026-08-15-grok-guides|raw/sources/2026-08-15-grok-guides]]; packet [[wiki/Research/Grok Bot Field Packet 2026-08-15|Grok Bot Field Packet 2026-08-15]]
+- Field paste / pinned list, 2026-08-15 — [[raw/sources/2026-08-15-grok-guides|raw/sources/2026-08-15-grok-guides]]; packet [[wiki/Research/Grok Bot Field Packet 2026-08-15|Grok Bot Field Packet 2026-08-15]]
+- First-party Guides hub, captured 2026-08-31 — [[raw/sources/2026-08-31-xai-bot-guides|raw/sources/2026-08-31-xai-bot-guides]]; packet [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]. Authors: Eric Zakariasson, Ryan Perry, John Bai, Krista Letz, Kevin Niparko. FAQ re-fetched the same day.
 - Grok Bot docs, fetched 2026-08-13: [overview](https://docs.x.ai/grok-bot/overview), [create and manage bots](https://docs.x.ai/grok-bot/bots), [computer and apps](https://docs.x.ai/grok-bot/computer-and-apps), [skills and routines](https://docs.x.ai/grok-bot/skills-routines-and-automations), [approvals, security, and privacy](https://docs.x.ai/grok-bot/approvals-security-and-privacy). Re-fetched 2026-08-15: [get started](https://docs.x.ai/grok-bot/get-started), [FAQ](https://docs.x.ai/grok-bot/faq)
 - *Towards a Science of AI Agent Reliability*, arXiv:2602.16666, Feb 2026 — reliability lag; Replit production-DB deletion (July 2025); Washington Post / OpenAI Operator unauthorized Instacart purchase
 - Capgemini Research Institute, *Rise of agentic AI* — trust in fully autonomous agents 43% → 27%
