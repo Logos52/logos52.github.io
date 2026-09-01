@@ -4,13 +4,19 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-08-27
+updated: 2026-08-31
 tags:
   - system
 ---
 # Journal Calendar
 
 Five most recent journal entries, newest first. Older entries stay in the vault; add a dated `journal/YYYY-MM-DD-*.md` file and this page updates on build.
+
+## 2026-08-31
+
+[[journal/2026-08-31-state-of-ai|State of AI, end of August 2026]]
+
+Five lab families sit close on capability. Daily users pick by failure mode: Claude's dialect, Sol's cheating, Grok's wrong facts, Gemini's trust split, party-line answers from DeepSeek, Qwen, GLM, and Kimi.
 
 ## 2026-08-27
 
@@ -35,12 +41,6 @@ Owner, 2026-08-25: "epigrams are a pet peeve of mine and should never show up in
 [[journal/2026-08-25-starbucks-wifi-watcher|Starbucks Wi-Fi watcher saved]]
 
 The Peplink at this store still dies on a ~2 minute clock. Hop 1 goes silent. That is the store router stopping forwarding, not a proved VNPT session drop.
-
-## 2026-08-22
-
-[[journal/2026-08-22-hidden-ideology-and-labels|Hidden ideology and labels]]
-
-His words, 2026-08-22, on content that hides its ideology and on labels as a shortcut. Material for a possible page. Not drafted.
 
 
 [[journal/index|← Back to Journal]]
