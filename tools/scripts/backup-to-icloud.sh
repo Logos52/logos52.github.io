@@ -32,6 +32,11 @@ rsync -av --delete \
   --exclude 'quartz/.quartz-cache/' \
   --exclude 'quartz/' \
   --exclude '.git/' \
+  --exclude 'dist/' \
+  --exclude '.astro/' \
+  --exclude '.claude/' \
+  --exclude '.grok/' \
+  --exclude '01 - Workbench/.trash/' \
   --exclude '.DS_Store' \
   --exclude '.obsidian/workspace.json' \
   --exclude '.obsidian/workspace-mobile.json' \
