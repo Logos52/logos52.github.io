@@ -1,0 +1,21 @@
+<svg viewBox="0 0 680 160" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Prime-age male participation fell from 98% to 89%, and one in nine prime-age men is outside the labour force" style="max-width:100%;height:auto">
+<title>Prime-age male participation fell from 98% to 89%, and one in nine prime-age men is outside the labour force</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">MEN 25 TO 54 WORKING OR LOOKING FOR WORK</text>
+<line x1="20.0" y1="124.0" x2="300.0" y2="124.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M40.0,31.9 L280.0,40.3" fill="none" stroke="#5b6cb0" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40.0" cy="31.9" r="5" fill="#5b6cb0"/>
+<text x="40" y="21.879999999999995" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">98%</text>
+<circle cx="280.0" cy="40.3" r="5" fill="#5b6cb0"/>
+<text x="280" y="30.340000000000003" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">89%</text>
+<text x="40" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1954</text>
+<text x="280" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2024</text>
+<text x="360" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">PRIME-AGE MEN OUTSIDE THE LABOUR FORCE</text>
+<text x="412" y="35" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">1960</text>
+<g><title>One in 35 in 1960</title><rect x="420.0" y="24.0" width="47.6" height="14.0" rx="3" fill="rgba(91,108,176,0.5)"/></g>
+<text x="473.6190476190476" y="35" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">1 in 35</text>
+<text x="412" y="61" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">2023</text>
+<g><title>One in nine in 2023, about 6.9 million men</title><rect x="420.0" y="50.0" width="185.2" height="14.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="611.1851851851852" y="61" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">1 in 9</text>
+<text x="360" y="90" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">About 6.9 million men in 2023, 81% to 87% of them</text>
+<text x="360" y="106" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">without a bachelor's degree.</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 680 162" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Interest on Britain's debt rising from £111 billion to £137 billion a year, and its rank among 36 economies" style="max-width:100%;height:auto">
+<title>Interest on Britain's debt rising from £111 billion to £137 billion a year, and its rank among 36 economies</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">INTEREST ON THE DEBT, £ BILLION A YEAR</text>
+<line x1="20.0" y1="114.0" x2="240.0" y2="114.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M40.0,51.8 L220.0,37.3" fill="none" stroke="#5b6cb0" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40.0" cy="51.8" r="5" fill="#5b6cb0"/>
+<text x="40" y="41.84" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">111</text>
+<circle cx="220.0" cy="37.3" r="5" fill="#5b6cb0"/>
+<text x="220" y="27.28" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">137</text>
+<text x="40" y="128" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2026</text>
+<text x="220" y="128" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2030</text>
+<text x="270" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">AMONG 36 ADVANCED ECONOMIES, BRITAIN RANKS</text>
+<rect x="270" y="24" width="390" height="70" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="465.0" y="48.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">5th highest deficit</text>
+<text x="465.0" y="62.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">3rd highest borrowing costs</text>
+<text x="465.0" y="77.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">6th highest debt</text>
+<text x="20" y="150" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Debt is 93% of output, about £2.9 trillion, or £102,000 for every household. The fiscal watchdog calls the position increasingly vulnerable.</text>
+</svg>

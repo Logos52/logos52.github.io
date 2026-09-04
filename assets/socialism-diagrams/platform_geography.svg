@@ -1,0 +1,15 @@
+<svg viewBox="0 0 680 150" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Girls and boys use different platforms, and each platform carries a different politics" style="max-width:100%;height:auto">
+<title>Girls and boys use different platforms, and each platform carries a different politics</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHO IS WHERE</text>
+<rect x="20" y="24" width="300" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="170.0" y="48.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">teen girls</text>
+<text x="170.0" y="62.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">Instagram, TikTok, Snapchat</text>
+<text x="170.0" y="76.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">slide-deck activists with 2 to 3.5 million followers each</text>
+<rect x="360" y="24" width="300" height="70" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="510.0" y="48.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">teen boys</text>
+<text x="510.0" y="62.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">YouTube, Discord, Twitch, Reddit</text>
+<text x="510.0" y="76.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the counterweights pull the other way</text>
+<text x="20" y="122" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">A socialist streamer with three million followers drew over 300,000 live viewers on election night 2024.</text>
+<text x="20" y="138" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Two information economies run in parallel, sorted by platform.</text>
+</svg>

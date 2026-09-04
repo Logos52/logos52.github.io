@@ -1,0 +1,24 @@
+<svg viewBox="0 0 680 160" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A test feed for a teenage boy went from 13% to 56% misogynistic content in seven days" style="max-width:100%;height:auto">
+<title>A test feed for a teenage boy went from 13% to 56% misogynistic content in seven days</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">A TEST FEED FOR A TEENAGE BOY</text>
+<line x1="20.0" y1="124.0" x2="240.0" y2="124.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M40.0,106.5 L220.0,48.8" fill="none" stroke="#5b6cb0" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40.0" cy="106.5" r="5" fill="#5b6cb0"/>
+<text x="40" y="96.54285714285714" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">13%</text>
+<circle cx="220.0" cy="48.8" r="5" fill="#5b6cb0"/>
+<text x="220" y="38.8" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">56%</text>
+<text x="40" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">day 1</text>
+<text x="220" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">day 7</text>
+<text x="300" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">HOW FAST, HOW MUCH</text>
+<rect x="300" y="24" width="170" height="50" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="385.0" y="38.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">about 15 minutes</text>
+<text x="385.0" y="52.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">of ordinary browsing to reach</text>
+<text x="385.0" y="66.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">manosphere content</text>
+<rect x="490" y="24" width="170" height="50" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="575.0" y="38.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">61.5% of YouTube Shorts</text>
+<text x="575.0" y="52.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">recommendations met the</text>
+<text x="575.0" y="66.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">researchers' toxic bar</text>
+<text x="300" y="100" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The path starts with loneliness, lifting weights, and feeling overlooked.</text>
+<text x="300" y="116" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Women's feeds got empowerment, body image, and men as threats.</text>
+<text x="300" y="132" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Neither feed matched real people.</text>
+</svg>

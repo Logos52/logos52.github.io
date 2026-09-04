@@ -3,7 +3,7 @@ title: "Worldviews & the Political Order"
 type: hub
 status: developing
 created: 2026-08-16
-updated: 2026-08-24
+updated: 2026-09-05
 tags:
   - politics
   - argument
@@ -44,6 +44,13 @@ Read the first page before the others. Where the owner of these pages lands on e
 - [[wiki/Worldviews & the Political Order/Schooling - The Format Filter|Schooling - The Format Filter]] — What a school day spent sitting still did to boys and to girls. Sitting still suits girls and fails boys, and because the girls watched the boys fail, the girls learned that boys are less able, while the boys learned that school, and everything built the way school is built, is against them, so each sex grew up with a wrong picture of the other.
 - [[wiki/Worldviews & the Political Order/The Woke Mind Virus|The Woke Mind Virus]] — Young men on the left report worse mental health than young men on the right in every survey that asks, and the position here is that the ideology does the damage, by teaching a man that words are violence, that setbacks are oppression, and that his pain is an illness with a name.
 - [[wiki/Worldviews & the Political Order/Women's Suffrage - The Substitute Husband|Women's Suffrage - The Substitute Husband]] — Why giving women the vote made the state grow. The state can do what a husband once did, provide for a woman and protect her, so a woman without a husband has reason to vote for more state, and because nothing can stand in for a wife, the pull runs in one direction only.
+- [[wiki/Worldviews & the Political Order/The Gen Z Gender War - The Split|The Gen Z Gender War - The Split]] — Young women and young men in every rich country have moved apart in what they believe, whom they vote for, and whether they pair up. Women take most of the degrees and most of the student debt, men leave school for the trades or for nothing, the dating apps reward a few men and exhaust the women, and each sex's phone feed tells it the other sex is the problem.
+- [[wiki/Worldviews & the Political Order/Single-Sex Spaces - The Asymmetry|Single-Sex Spaces - The Asymmetry]] — American courts opened every large men-only club by treating it as a business, and the same laws left women-only colleges, gyms, and a billion-dollar executive club alone under exceptions for privacy, safety, and religion that do not fit them. The men who lost the lodges got nothing in their place, and they show up now as fewer friends, fewer jobs, fewer marriages, and more suicides.
+
+## Markets and the state
+
+- [[wiki/Worldviews & the Political Order/Socialism - The Calculation Problem|Socialism - The Calculation Problem]] — A price is a message that carries what millions of people know, and when the state owns the factories and farms there are no prices for them, so the planners guess, and their guesses stay wrong because admitting them would undermine the planners. Every country that tried it in full ended in shortage, famine, or flight. The Nordic countries that supporters point to are market economies with a welfare state on top, paid for by a sales tax on everyone.
+- [[wiki/Worldviews & the Political Order/Britain - Poorer Than Mississippi|Britain - Poorer Than Mississippi]] — Income per person in Britain now ranks below every American state, and most Britons think it would rank seventh. The country stopped investing, building, and making after 2008, taxes its most productive workers hardest, charges its factories four times the American price for power, refuses permission to build on land it has, and runs a welfare state in which a pay rise can lose more than it gains.
 
 ## Faith
 

@@ -1,0 +1,29 @@
+<svg viewBox="0 0 680 162" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Men's share of degrees and of teachers fell, and 145 boys are held back in kindergarten for every 100 girls" style="max-width:100%;height:auto">
+<title>Men's share of degrees and of teachers fell, and 145 boys are held back in kindergarten for every 100 girls</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">MEN'S SHARE OF BACHELOR'S DEGREES</text>
+<line x1="20.0" y1="114.0" x2="220.0" y2="114.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M40.0,45.6 L200.0,63.6" fill="none" stroke="#5b6cb0" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40.0" cy="45.6" r="5" fill="#5b6cb0"/>
+<text x="40" y="35.599999999999994" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">57%</text>
+<circle cx="200.0" cy="63.6" r="5" fill="#5b6cb0"/>
+<text x="200" y="53.6" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">42%</text>
+<text x="40" y="128" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1970</text>
+<text x="200" y="128" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2021</text>
+<text x="250" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">MEN'S SHARE OF SCHOOL TEACHERS</text>
+<line x1="250.0" y1="114.0" x2="450.0" y2="114.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M270.0,51.0 L430.0,65.7" fill="none" stroke="#5b6cb0" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="270.0" cy="51.0" r="5" fill="#5b6cb0"/>
+<text x="270" y="41.0" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">30%</text>
+<circle cx="430.0" cy="65.7" r="5" fill="#5b6cb0"/>
+<text x="430" y="55.7" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">23%</text>
+<text x="270" y="128" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1988</text>
+<text x="430" y="128" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2021</text>
+<text x="480" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">HELD BACK IN KINDERGARTEN</text>
+<text x="512" y="41" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">girls</text>
+<g><title>For every 100 girls held back</title><rect x="520.0" y="30.0" width="80.0" height="14.0" rx="3" fill="rgba(47,158,143,0.9)"/></g>
+<text x="606.0" y="41" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">100</text>
+<text x="512" y="67" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">boys</text>
+<g><title>145 boys are held back</title><rect x="520.0" y="56.0" width="116.0" height="14.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="642.0" y="67" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">145</text>
+<text x="20" y="150" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Men are about 11% of elementary teachers and under 3% in kindergarten. Boys sit about a grade behind girls in reading.</text>
+</svg>

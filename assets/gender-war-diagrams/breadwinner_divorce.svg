@@ -1,0 +1,17 @@
+<svg viewBox="0 0 680 150" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Divorce rates by which spouse earns more, per thousand couples" style="max-width:100%;height:auto">
+<title>Divorce rates by which spouse earns more, per thousand couples</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">DIVORCES PER 1,000 MARRIED COUPLES, BY WHO EARNS MORE</text>
+<text x="182" y="35" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">she earns more</text>
+<g><title>31 per 1,000 where the woman earns more</title><rect x="190.0" y="24.0" width="222.2" height="14.0" rx="3" fill="rgba(47,158,143,0.9)"/></g>
+<text x="418.16666666666663" y="35" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">31</text>
+<text x="182" y="61" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">he earns more</text>
+<g><title>11 per 1,000 where the man earns more</title><rect x="190.0" y="50.0" width="78.8" height="14.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="274.8333333333333" y="61" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">11</text>
+<text x="182" y="87" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">she is the only earner</text>
+<g><title>54 per 1,000 where the woman is the sole earner</title><rect x="190.0" y="76.0" width="387.0" height="14.0" rx="3" fill="rgba(47,158,143,0.9)"/></g>
+<text x="583.0" y="87" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">54</text>
+<text x="182" y="113" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">he is the only earner</text>
+<g><title>20 per 1,000 where the man is the sole earner</title><rect x="190.0" y="102.0" width="143.3" height="14.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="339.33333333333337" y="113" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">20</text>
+<text x="20" y="138" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Female-breadwinner households are 16% of households and 42% of divorces. 45% of mothers were their family's main earner in 2023.</text>
+</svg>

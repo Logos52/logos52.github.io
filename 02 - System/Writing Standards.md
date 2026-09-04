@@ -3,7 +3,7 @@ title: "Writing Standards"
 type: system
 status: developing
 created: 2026-05-08
-updated: 2026-09-01
+updated: 2026-09-05
 rebuilt: 2026-08-20
 supersedes: "_archive/Writing Standards - 156 laws - retired 2026-08-20.md"
 tags:
@@ -58,7 +58,7 @@ The gate. Mechanical where it can be, run after the draft and never held while w
 
 Content, by genre. These are things a page contains, not ways it sounds; a page missing one is incomplete, not badly written.
 
-**Every wiki page.** A thesis that moves as a causal arc — what mechanism exists, why it works at first, what condition exposes the limit, what the surface experience feels like against what happens underneath, what repair changes the system (L28). Specifics over adjectives, and the specifics operative — numbers, thresholds, worked examples that change what the reader does, each stated with what it was measured over and who it applies to, since a number without those is unreadable; journal names, years and program statistics are decoration (L35, L36). Links into the knowledge base each carrying a clause on what that page contributes (L31). Open questions that stay open and belong to the reader, never the vault's to-do list (L32, L33). Sources, the one home for provenance (L34).
+**Every wiki page.** A thesis that moves as a causal arc — what mechanism exists, why it works at first, what condition exposes the limit, what the surface experience feels like against what happens underneath, what repair changes the system (L28). Specifics over adjectives, and the specifics operative — numbers, thresholds, worked examples that change what the reader does, each stated with what it was measured over and who it applies to, since a number without those is unreadable; journal names, years and program statistics are decoration (L35, L36). Links into the knowledge base each carrying a clause on what that page contributes (L31). Open questions that stay open and belong to the reader, never the vault's to-do list (L32, L33). Sources, the one home for provenance (L34). A three-part layout: first a **Reasoning** section holding an abstract, four to six core takeaways, a short essay, one or two key diagrams, and a conclusion, with few numbers, because that is the part the owner reads; second **The numbers**, every statistic with its figure; third **Sources and links**. Owner, 2026-09-05: "i basically don't want statistics to lead the page, i want it to be maybe secondary. the first section is just reasoning & maybe some small diagrams. the second section is the full stats bloat that i see. third section is sources. first section should have the abstract, core takeaways, small essay and conclusion all together." Earlier the same day: "i need core takeaways (kind of like a TLDR) close to the top of the page"; "i tell you i like them but you never do it. so maybe make this a standard practice for almost all the pages." The gate script beside the ELI5 draft checks the layout. (Ruled 2026-09-05.)
 
 **Pages that recommend an action** — technique, system, workflow, operational — owe the honesty kit on top: the strongest honest case against (L38); benefit and cost in the same breath — time, setup, cognitive load, maintenance (L39); quit signals — what evidence means this is not working for this reader, and the next move (L40); checkable expectations the reader can falsify (L41); every claim about how something behaves checked against the actual thing before it ships, live numbers from the build (L43).
 

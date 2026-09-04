@@ -1,0 +1,29 @@
+<svg viewBox="0 0 680 162" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The median male wage fell, manufacturing jobs fell by 8 million, and men die of overdoses at more than twice the female rate" style="max-width:100%;height:auto">
+<title>The median male wage fell, manufacturing jobs fell by 8 million, and men die of overdoses at more than twice the female rate</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">MEDIAN MALE WAGE, 1979 DOLLARS</text>
+<line x1="20.0" y1="114.0" x2="220.0" y2="114.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M40.0,39.4 L200.0,45.2" fill="none" stroke="#5b6cb0" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40.0" cy="39.4" r="5" fill="#5b6cb0"/>
+<text x="40" y="29.430909090909097" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">19.53</text>
+<circle cx="200.0" cy="45.2" r="5" fill="#5b6cb0"/>
+<text x="200" y="35.158181818181816" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">18.03</text>
+<text x="40" y="128" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1979</text>
+<text x="200" y="128" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2012</text>
+<text x="250" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">MANUFACTURING JOBS, MILLIONS</text>
+<line x1="250.0" y1="114.0" x2="450.0" y2="114.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M270.0,39.2 L430.0,70.1" fill="none" stroke="#8156a6" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="270.0" cy="39.2" r="5" fill="#8156a6"/>
+<text x="270" y="29.163636363636357" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">19.6</text>
+<circle cx="430.0" cy="70.1" r="5" fill="#8156a6"/>
+<text x="430" y="60.09090909090909" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">11.5</text>
+<text x="270" y="128" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1979</text>
+<text x="430" y="128" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2010</text>
+<text x="480" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">OVERDOSES PER 100,000, 2024</text>
+<text x="522" y="41" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">men</text>
+<g><title>32.2 men per 100,000</title><rect x="530.0" y="30.0" width="101.2" height="14.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="637.2" y="41" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">32.2</text>
+<text x="522" y="67" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">women</text>
+<g><title>14.1 women per 100,000</title><rect x="530.0" y="56.0" width="44.3" height="14.0" rx="3" fill="rgba(47,158,143,0.9)"/></g>
+<text x="580.3142857142857" y="67" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">14.1</text>
+<text x="20" y="150" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The male wage fell 7.6% while productivity rose nearly 70%. Nearly half of prime-age men outside the labour force took pain medication daily.</text>
+</svg>

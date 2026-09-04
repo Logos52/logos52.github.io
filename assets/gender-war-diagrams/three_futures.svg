@@ -1,0 +1,24 @@
+<svg viewBox="0 0 680 184" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The three paths the video draws: the current path, convergence, and fragmentation" style="max-width:100%;height:auto">
+<title>The three paths the video draws: the current path, convergence, and fragmentation</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THREE PATHS THE VIDEO DRAWS</text>
+<rect x="20" y="24" width="200" height="120" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="120.0" y="59.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the current path</text>
+<text x="120.0" y="73.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">men under 38% of students by 2030,</text>
+<text x="120.0" y="87.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">first marriage past 32 and 30,</text>
+<text x="120.0" y="101.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">over 30% never marry,</text>
+<text x="120.0" y="115.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">births toward Korea's 0.72</text>
+<rect x="240" y="24" width="200" height="120" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
+<text x="340.0" y="59.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">convergence</text>
+<text x="340.0" y="73.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">boys start school a year later,</text>
+<text x="340.0" y="87.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">men into health, teaching, care,</text>
+<text x="340.0" y="101.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">platform rules in Europe,</text>
+<text x="340.0" y="115.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">both drifts moderate</text>
+<rect x="460" y="24" width="200" height="120" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="560.0" y="59.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">fragmentation</text>
+<text x="560.0" y="73.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">parallel lives, little contact,</text>
+<text x="560.0" y="87.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">AI companions, fewer births,</text>
+<text x="560.0" y="101.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a worker-to-retiree ratio</text>
+<text x="560.0" y="115.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">that breaks the pension</text>
+<text x="20" y="172" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Gen Z wants marriage at higher rates than millennials did at the same age. 55% name housing and 64% name student debt as the barrier.</text>
+</svg>

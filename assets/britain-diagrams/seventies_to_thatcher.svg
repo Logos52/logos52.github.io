@@ -1,0 +1,25 @@
+<svg viewBox="0 0 680 128" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="From the three-day week of 1974 to the privatisations and tax cuts of the 1980s" style="max-width:100%;height:auto">
+<title>From the three-day week of 1974 to the privatisations and tax cuts of the 1980s</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE DECADE THAT BROKE, THEN THE TURN</text>
+<rect x="20" y="24" width="150" height="64" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
+<text x="95.0" y="45.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">1974</text>
+<text x="95.0" y="59.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">coal strike,</text>
+<text x="95.0" y="73.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">three-day week</text>
+<line x1="170.0" y1="56.0" x2="185.0" y2="56.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="185" y="24" width="150" height="64" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
+<text x="260.0" y="45.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">1976</text>
+<text x="260.0" y="59.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">$3.9 billion IMF loan,</text>
+<text x="260.0" y="73.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">inflation 25%</text>
+<line x1="335.0" y1="56.0" x2="350.0" y2="56.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="350" y="24" width="150" height="64" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
+<text x="425.0" y="45.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">1978 to 1979</text>
+<text x="425.0" y="59.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">rubbish, unburied dead,</text>
+<text x="425.0" y="73.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">crisis, what crisis</text>
+<line x1="500.0" y1="56.0" x2="515.0" y2="56.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="515" y="24" width="150" height="64" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="590.0" y="45.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">1979 to 1990</text>
+<text x="590.0" y="59.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">privatisation, top rate</text>
+<text x="590.0" y="73.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">83% to 40%, Big Bang 1986</text>
+<text x="20" y="116" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The coal, steel, and shipbuilding towns never recovered from the turn, and the country split into two Britains.</text>
+</svg>

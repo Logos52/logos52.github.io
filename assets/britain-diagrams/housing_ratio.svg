@@ -1,0 +1,31 @@
+<svg viewBox="0 0 680 222" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="House prices at 7.6 times salary against a long-run 3.9, and home ownership among the young down from 55% to 31%" style="max-width:100%;height:auto">
+<title>House prices at 7.6 times salary against a long-run 3.9, and home ownership among the young down from 55% to 31%</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">HOUSE PRICE AS A MULTIPLE OF SALARY</text>
+<text x="242" y="35" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">long-run average, 20th century</text>
+<g><title>3.9 times earnings</title><rect x="250.0" y="24.0" width="44.8" height="14.0" rx="3" fill="rgba(129,86,166,0.5)"/></g>
+<text x="300.77777777777777" y="35" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">3.9 times</text>
+<text x="242" y="61" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">Britain, 2025</text>
+<g><title>7.6 times</title><rect x="250.0" y="50.0" width="87.3" height="14.0" rx="3" fill="rgba(129,86,166,0.9)"/></g>
+<text x="343.25925925925924" y="61" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">7.6 times</text>
+<text x="242" y="87" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">Kensington and Chelsea</text>
+<g><title>25.2 times</title><rect x="250.0" y="76.0" width="289.3" height="14.0" rx="3" fill="rgba(129,86,166,0.9)"/></g>
+<text x="545.3333333333333" y="87" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">25.2 times</text>
+<text x="20" y="110" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">HOME OWNERSHIP, AGES 25 TO 34</text>
+<line x1="20.0" y1="200.0" x2="300.0" y2="200.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M40.0,141.9 L280.0,167.2" fill="none" stroke="#5b6cb0" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40.0" cy="141.9" r="5" fill="#5b6cb0"/>
+<text x="40" y="131.85714285714286" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">55%</text>
+<circle cx="280.0" cy="167.2" r="5" fill="#5b6cb0"/>
+<text x="280" y="157.22857142857143" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">31%</text>
+<text x="40" y="214" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1990</text>
+<text x="280" y="214" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2023</text>
+<text x="340" y="110" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">HOME OWNERSHIP, ALL</text>
+<line x1="340.0" y1="200.0" x2="620.0" y2="200.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M360.0,134.3 L600.0,141.7" fill="none" stroke="#5b6cb0" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="360.0" cy="134.3" r="5" fill="#5b6cb0"/>
+<text x="360" y="124.32499999999999" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">71%</text>
+<circle cx="600.0" cy="141.7" r="5" fill="#5b6cb0"/>
+<text x="600" y="131.725" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">63%</text>
+<text x="360" y="214" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2003</text>
+<text x="600" y="214" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2024</text>
+</svg>

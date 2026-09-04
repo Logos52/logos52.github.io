@@ -1,0 +1,33 @@
+<svg viewBox="0 0 680 180" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Girls report more sadness, men die by suicide at nearly four times the rate, and time with friends has more than halved" style="max-width:100%;height:auto">
+<title>Girls report more sadness, men die by suicide at nearly four times the rate, and time with friends has more than halved</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">PERSISTENT SADNESS, HIGH SCHOOL, 2023</text>
+<text x="72" y="35" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">girls</text>
+<g><title>53% of girls</title><rect x="80.0" y="24.0" width="116.6" height="14.0" rx="3" fill="rgba(47,158,143,0.9)"/></g>
+<text x="202.6" y="35" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">53%</text>
+<text x="72" y="61" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">boys</text>
+<g><title>28% of boys</title><rect x="80.0" y="50.0" width="61.6" height="14.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="147.6" y="61" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">28%</text>
+<text x="340" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">SUICIDES PER 100,000</text>
+<text x="392" y="35" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">men</text>
+<g><title>22.7 men per 100,000</title><rect x="400.0" y="24.0" width="199.8" height="14.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="605.76" y="35" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">22.7</text>
+<text x="392" y="61" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">women</text>
+<g><title>5.9 women per 100,000</title><rect x="400.0" y="50.0" width="51.9" height="14.0" rx="3" fill="rgba(47,158,143,0.9)"/></g>
+<text x="457.92" y="61" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">5.9</text>
+<text x="20" y="86" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">LONELY, UNDER 35</text>
+<text x="72" y="107" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">men</text>
+<g><title>25% of men under 35</title><rect x="80.0" y="96.0" width="55.0" height="14.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="141.0" y="107" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">25%</text>
+<text x="72" y="133" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">women</text>
+<g><title>18% of women under 35</title><rect x="80.0" y="122.0" width="39.6" height="14.0" rx="3" fill="rgba(47,158,143,0.9)"/></g>
+<text x="125.6" y="133" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">18%</text>
+<text x="340" y="86" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WEEKLY HOURS WITH FRIENDS, YOUNG ADULTS</text>
+<line x1="340.0" y1="156.0" x2="620.0" y2="156.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M360.0,109.9 L600.0,137.6" fill="none" stroke="#8156a6" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="360.0" cy="109.9" r="5" fill="#8156a6"/>
+<text x="360" y="99.91999999999999" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">12.8</text>
+<circle cx="600.0" cy="137.6" r="5" fill="#8156a6"/>
+<text x="600" y="127.63999999999999" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">5.1</text>
+<text x="360" y="170" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2012</text>
+<text x="600" y="170" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2024</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 680 200" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The three reasons a women-only space stays legal, and two spaces that fit none of them" style="max-width:100%;height:auto">
+<title>The three reasons a women-only space stays legal, and two spaces that fit none of them</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHY A WOMEN-ONLY SPACE STAYS LEGAL</text>
+<rect x="20" y="24" width="200" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="120.0" y="48.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">privacy</text>
+<text x="120.0" y="62.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">locker rooms, fitting rooms,</text>
+<text x="120.0" y="76.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">restrooms, shelters</text>
+<rect x="240" y="24" width="200" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="340.0" y="48.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">safety</text>
+<text x="340.0" y="62.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">women are 70% to 80% of</text>
+<text x="340.0" y="76.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">intimate-partner violence victims</text>
+<rect x="460" y="24" width="200" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="560.0" y="48.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">religion</text>
+<text x="560.0" y="62.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">Muslim and Orthodox Jewish women</text>
+<text x="560.0" y="76.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">who cannot exercise in mixed company</text>
+<text x="20" y="124" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHAT SITS OUTSIDE ALL THREE</text>
+<rect x="20" y="132" width="310" height="56" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="175.0" y="156.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a $1.1 billion club for vice presidents</text>
+<text x="175.0" y="170.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">is not a shelter</text>
+<rect x="350" y="132" width="310" height="56" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="505.0" y="156.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a coworking space in the Flatiron</text>
+<text x="505.0" y="170.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">does not protect religious observance</text>
+</svg>

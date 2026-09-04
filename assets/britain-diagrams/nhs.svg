@@ -1,0 +1,19 @@
+<svg viewBox="0 0 680 162" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Waits nearly doubled since 2019, and survival, productivity, and pay all lag" style="max-width:100%;height:auto">
+<title>Waits nearly doubled since 2019, and survival, productivity, and pay all lag</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">MEDIAN WAIT, WEEKS</text>
+<line x1="20.0" y1="114.0" x2="220.0" y2="114.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M40.0,73.1 L200.0,42.6" fill="none" stroke="#5b6cb0" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40.0" cy="73.1" r="5" fill="#5b6cb0"/>
+<text x="40" y="63.05000000000001" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">7.8</text>
+<circle cx="200.0" cy="42.6" r="5" fill="#5b6cb0"/>
+<text x="200" y="32.60000000000001" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">13.6</text>
+<text x="40" y="128" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2019</text>
+<text x="200" y="128" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2025</text>
+<text x="250" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE HEALTH SERVICE, 2025</text>
+<rect x="250" y="24" width="410" height="84" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="455.0" y="48.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">7.25 million on the waiting list, one adult in nine</text>
+<text x="455.0" y="62.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">colon cancer five-year survival 60%, second lowest of 18</text>
+<text x="455.0" y="76.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">productivity 5% to 11% below 2019 with 47% more doctors</text>
+<text x="455.0" y="90.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">junior doctors' pay 21% below 2008 in real terms</text>
+<text x="20" y="150" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Life expectancy stopped rising around 2011, before the pandemic. About £20 billion a year is lost to duplication and administration.</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 680 188" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Extreme poverty fell from 88% to under 3% in China and from 38% to about 10% worldwide as markets spread" style="max-width:100%;height:auto">
+<title>Extreme poverty fell from 88% to under 3% in China and from 38% to about 10% worldwide as markets spread</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">CHINA IN EXTREME POVERTY</text>
+<line x1="20.0" y1="124.0" x2="240.0" y2="124.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M40.0,41.3 L220.0,121.2" fill="none" stroke="#8156a6" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40.0" cy="41.3" r="5" fill="#8156a6"/>
+<text x="40" y="31.28" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">88%</text>
+<circle cx="220.0" cy="121.2" r="5" fill="#8156a6"/>
+<text x="220" y="111.18" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">3%</text>
+<text x="40" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1978</text>
+<text x="220" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2020</text>
+<text x="260" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE WORLD IN EXTREME POVERTY</text>
+<line x1="260.0" y1="124.0" x2="460.0" y2="124.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M280.0,88.3 L440.0,114.6" fill="none" stroke="#8156a6" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="280.0" cy="88.3" r="5" fill="#8156a6"/>
+<text x="280" y="78.28" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">38%</text>
+<circle cx="440.0" cy="114.6" r="5" fill="#8156a6"/>
+<text x="440" y="104.6" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">10%</text>
+<text x="280" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1990</text>
+<text x="440" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2024</text>
+<text x="490" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">OUTPUT PER HEAD BY FREEDOM</text>
+<text x="552" y="41" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">freest</text>
+<g><title>About $120,000</title><rect x="560.0" y="30.0" width="50.0" height="14.0" rx="3" fill="rgba(129,86,166,0.9)"/></g>
+<text x="616.0" y="41" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">$120,000</text>
+<text x="552" y="69" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">least free</text>
+<g><title>About $10,600</title><rect x="560.0" y="58.0" width="4.4" height="14.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="570.4166666666666" y="69" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">$10,600</text>
+<text x="20" y="160" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">About 800 million Chinese and 270 million Indians left poverty after markets were allowed.</text>
+<text x="20" y="176" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Since 1800: life expectancy 38 to 73.2 years, literacy 12% to 87%.</text>
+</svg>
