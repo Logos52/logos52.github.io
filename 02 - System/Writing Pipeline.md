@@ -3,7 +3,7 @@ title: "Writing Pipeline"
 type: system
 status: developing
 created: 2026-08-26
-updated: 2026-09-01
+updated: 2026-09-05
 tags:
   - system
   - writing
@@ -21,9 +21,9 @@ The named methods, which of them worked, and which of them died, live in `/Users
 
 **Pick.** Before the outline, the writer asks the owner two questions and waits. He does not assume Selfhood v2.
 
-Question 1 is which generator. The Generator, then Selfhood v2, is the default for wiki pages, positions pages, and personal pages. ELI5-Haiku is for reference text only: definitions, reference paragraphs, glossary entries, and picture boards. Its draft is `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/GENERATOR-eli5-haiku-DRAFT-2026-09-01.md`. It has not joined `02 - System/`. Selfhood Plain is for replies and reports, not pages.
+Question 1 is which generator. The Generator, then Selfhood v2, is the default for wiki pages, positions pages, and personal pages. ELI5 is a format and not a writer (ruled 2026-09-05): a contents bar, the subject defined in sentence one, example bullets opening every section, and a figure for each main idea, checked by the gate script beside `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/GENERATOR-eli5-haiku-DRAFT-2026-09-01.md`. Its prose comes from the Fable 5.1 one-pass method in the catalog, and Haiku no longer writes sentences. Selfhood Plain is for replies and reports, not pages.
 
-Question 2 is which seat. Grok 4.6 in this session is the default writer. A fresh Grok session runs the rewrite pass and the cold read. Cowork is research on request, not the default writer. Haiku outside this session is forced when the generator is ELI5-Haiku. In that case the session head writes a spec, Haiku writes every reader-facing sentence, and those sentences land verbatim.
+Question 2 is which seat. Grok 4.6 in this session is the default writer. A fresh Grok session runs the rewrite pass and the cold read. Cowork is research on request, not the default writer. Fable 5.1 in the main window is the seat for the one-pass method, which takes no rewrite pass and no cold read (ruled 2026-09-02, 'Draft B is better than C'). Haiku outside the session was retired as a writer on 2026-09-05.
 
 After the pick, the writer reads only the chosen generator. The catalog at `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/WRITING-PIPELINE-CATALOG.md` is the list he offers. He does not offer the Dead rows.
 
@@ -33,7 +33,7 @@ After the pick, the writer reads only the chosen generator. The catalog at `/Use
 
 **Rewrite.** When the draft is whole, a fresh head that has nothing in front of it but the draft and the prompt block in [[02 - System/Rewrite Prompt|Rewrite Prompt]] rewrites the page into plain, natural English and keeps every fact. The writer never runs this pass on his own draft in the same context, because the gaps in a page are invisible from inside the head that made it. The owner reads and changes the prompt file directly. Skip this pass when the generator is ELI5-Haiku. A second head rewriting those sentences is the thing that generator forbids.
 
-**Cold read.** The page after rewrite, or the verbatim Haiku text if rewrite was skipped, goes to a separate reader whose only context is the draft text, following [[02 - System/Cold Read|Cold Read]]. The reader returns every word or reference the page above did not give. A paragraph with an item on the list is written again from its question. The cold read is temporary by the owner's ruling of 2026-08-22 and stays until drafts stop failing it.
+**Cold read.** The page after rewrite goes to a separate reader whose only context is the draft text, following [[02 - System/Cold Read|Cold Read]]. The reader returns every word or reference the page above did not give. A paragraph with an item on the list is written again from its question. The cold read is temporary by the owner's ruling of 2026-08-22 and stays until drafts stop failing it.
 
 **Save.** The draft is saved without rewriting. The gate in Writing Standards §3 deletes and swaps, and nothing else changes. The old page is opened again only to check facts, and a wrong fact is corrected without replacing a sentence.
 
@@ -43,4 +43,4 @@ The first pass and the rewrite are split because content and register turned out
 
 ## Reading order for an agent starting a page
 
-Ask the owner which generator and which seat, using the Working rows in `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/WRITING-PIPELINE-CATALOG.md`. Then read the chosen generator in full. The default pick is The Generator, then The Generator — Selfhood v2. Read [[02 - System/Rejected Specimens|Rejected Specimens]] before drafting. Writing Standards holds the shape (§2), the gate (§3), what a page owes (§4), and the floor every sentence has to clear (§6). The Rewrite Prompt and Cold Read files are for the second and third heads, not the writer; the writer only needs to know the draft will pass through them, except when ELI5-Haiku skipped the rewrite.
+Ask the owner which generator and which seat, using the Working rows in `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/WRITING-PIPELINE-CATALOG.md`. Then read the chosen generator in full. The default pick is The Generator, then The Generator — Selfhood v2. Read [[02 - System/Rejected Specimens|Rejected Specimens]] before drafting. Writing Standards holds the shape (§2), the gate (§3), what a page owes (§4), and the floor every sentence has to clear (§6). The Rewrite Prompt and Cold Read files are for the second and third heads, not the writer; the writer only needs to know the draft will pass through them, except under the Fable 5.1 one-pass method, which skips both.
