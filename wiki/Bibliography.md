@@ -2,7 +2,7 @@
 type: reference
 status: seed
 created: 2026-05-02
-updated: 2026-07-11
+updated: 2026-09-05
 tags:
   - reference
 ---
@@ -15,6 +15,7 @@ Add public source references here as the wiki grows.
 
 - Andrej Karpathy, "llm-wiki" (GitHub Gist). [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
 - Andrej Karpathy, "How I use LLMs" (YouTube, 2025-02-28). [[How I use LLMs|Local transcript]]
+- Front Page, "The Hypocrisy Of Men VS Women On Dating Apps" (YouTube, 2026-08-13). [[wiki/Concepts/Dating Apps - The Gini Coefficient|Dating Apps - The Gini Coefficient]]
 - Andrej Karpathy, "From Vibe Coding to Agentic Engineering" (Sequoia AI Ascent, 2026). [[Andrej Karpathy From Vibe Coding to Agentic Engineering|Local transcript]]
 - Naval Ravikant and Nivi, "A Motorcycle for the Mind" (2026-02-20). [[raw/sources/A Motorcycle for the Mind|Local source]]
 - Naval Ravikant and Nivi, "A Return to Code" (2026-04-29). [[raw/sources/A Return to Code|Local source]]

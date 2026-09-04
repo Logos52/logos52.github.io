@@ -1,0 +1,42 @@
+<svg viewBox="0 0 680 208" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A toy list of ten men shows the Gini falling from 0.72 to 0.43 when the five men with zero likes leave" style="max-width:100%;height:auto">
+<title>A toy list of ten men shows the Gini falling from 0.72 to 0.43 when the five men with zero likes leave</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">TEN MEN, LIKES EACH GOT</text>
+<g><title>man 1: 0 likes</title><rect x="20.0" y="117.0" width="20.0" height="3.0" rx="1" fill="rgba(91,108,176,0.35)"/></g>
+<text x="30" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0</text>
+<g><title>man 2: 0 likes</title><rect x="48.0" y="117.0" width="20.0" height="3.0" rx="1" fill="rgba(91,108,176,0.35)"/></g>
+<text x="58" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0</text>
+<g><title>man 3: 0 likes</title><rect x="76.0" y="117.0" width="20.0" height="3.0" rx="1" fill="rgba(91,108,176,0.35)"/></g>
+<text x="86" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0</text>
+<g><title>man 4: 0 likes</title><rect x="104.0" y="117.0" width="20.0" height="3.0" rx="1" fill="rgba(91,108,176,0.35)"/></g>
+<text x="114" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0</text>
+<g><title>man 5: 0 likes</title><rect x="132.0" y="117.0" width="20.0" height="3.0" rx="1" fill="rgba(91,108,176,0.35)"/></g>
+<text x="142" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0</text>
+<g><title>man 6: 1 likes</title><rect x="160.0" y="113.3" width="20.0" height="6.7" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="170" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1</text>
+<g><title>man 7: 2 likes</title><rect x="188.0" y="106.7" width="20.0" height="13.3" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="198" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2</text>
+<g><title>man 8: 3 likes</title><rect x="216.0" y="100.0" width="20.0" height="20.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="226" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">3</text>
+<g><title>man 9: 6 likes</title><rect x="244.0" y="80.0" width="20.0" height="40.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="254" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">6</text>
+<g><title>man 10: 12 likes</title><rect x="272.0" y="40.0" width="20.0" height="80.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="282" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">12</text>
+<line x1="20.0" y1="120.0" x2="292.0" y2="120.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<text x="20" y="152" font-size="14" fill="currentColor" opacity="0.9" text-anchor="start" font-weight="700">Gini 0.72</text>
+<text x="20" y="168" font-size="10.5" fill="currentColor" opacity="0.6" text-anchor="start">ten men, five of them with nothing</text>
+<text x="360" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE FIVE WITH NOTHING QUIT</text>
+<g><title>man 1: 1 likes</title><rect x="360.0" y="113.3" width="20.0" height="6.7" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="370" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1</text>
+<g><title>man 2: 2 likes</title><rect x="388.0" y="106.7" width="20.0" height="13.3" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="398" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2</text>
+<g><title>man 3: 3 likes</title><rect x="416.0" y="100.0" width="20.0" height="20.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="426" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">3</text>
+<g><title>man 4: 6 likes</title><rect x="444.0" y="80.0" width="20.0" height="40.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="454" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">6</text>
+<g><title>man 5: 12 likes</title><rect x="472.0" y="40.0" width="20.0" height="80.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="482" y="134" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">12</text>
+<line x1="360.0" y1="120.0" x2="492.0" y2="120.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<text x="360" y="152" font-size="14" fill="currentColor" opacity="0.9" text-anchor="start" font-weight="700">Gini 0.43</text>
+<text x="360" y="168" font-size="10.5" fill="currentColor" opacity="0.6" text-anchor="start">the same likes, five men</text>
+<text x="20" y="196" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Nobody got one more like, and the number fell from 0.72 to 0.43. A lower Gini in a later report needs this check first.</text>
+</svg>

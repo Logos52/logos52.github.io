@@ -1,0 +1,27 @@
+<svg viewBox="0 0 680 180" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="One hundred men against the one hundred likes women send them: the top 15% of men take half" style="max-width:100%;height:auto">
+<title>One hundred men against the one hundred likes women send them: the top 15% of men take half</title>
+<text x="150" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE MEN, BY HOW MANY LIKES THEY GET</text>
+<text x="142" y="37" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">100 men</text>
+<g><title>men: top 1% of men, 1%</title><rect x="150.0" y="22.0" width="2.9" height="22.0" rx="3" fill="rgba(91,108,176,0.95)"/></g>
+<g><title>men: next 14%, 14%</title><rect x="154.9" y="22.0" width="66.6" height="22.0" rx="3" fill="rgba(91,108,176,0.7)"/></g>
+<text x="188.2" y="37" font-size="10.5" fill="currentColor" opacity="0.95" text-anchor="middle">14%</text>
+<g><title>men: next 35%, 35%</title><rect x="223.5" y="22.0" width="169.5" height="22.0" rx="3" fill="rgba(91,108,176,0.45)"/></g>
+<text x="308.25" y="37" font-size="10.5" fill="currentColor" opacity="0.95" text-anchor="middle">35%</text>
+<g><title>men: bottom half, 50%</title><rect x="395.0" y="22.0" width="243.0" height="22.0" rx="3" fill="rgba(91,108,176,0.2)"/></g>
+<text x="516.5" y="37" font-size="10.5" fill="currentColor" opacity="0.95" text-anchor="middle">50%</text>
+<text x="150" y="70" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE LIKES WOMEN SEND</text>
+<text x="142" y="93" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">100 likes</text>
+<g><title>likes: to the top 1% of men, 16%</title><rect x="150.0" y="78.0" width="76.4" height="22.0" rx="3" fill="rgba(91,108,176,0.95)"/></g>
+<text x="188.2" y="93" font-size="10.5" fill="currentColor" opacity="0.95" text-anchor="middle">16%</text>
+<g><title>likes: to the next 14%, 34%</title><rect x="228.4" y="78.0" width="164.6" height="22.0" rx="3" fill="rgba(91,108,176,0.7)"/></g>
+<text x="310.7" y="93" font-size="10.5" fill="currentColor" opacity="0.95" text-anchor="middle">34%</text>
+<g><title>likes: to the next 35%, 50%</title><rect x="395.0" y="78.0" width="243.0" height="22.0" rx="3" fill="rgba(91,108,176,0.45)"/></g>
+<text x="516.5" y="93" font-size="10.5" fill="currentColor" opacity="0.95" text-anchor="middle">50%</text>
+<g><title>likes: to the bottom half, 0%</title><rect x="640.0" y="78.0" width="0.0" height="22.0" rx="3" fill="rgba(91,108,176,0.2)"/></g>
+<text x="150" y="124" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The top 1% of men, one bar so thin it is a sliver on the top row, takes 16 of every 100 likes.</text>
+<text x="150" y="140" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The top 15% together take 50. The bottom half of men gets almost nothing, so it has no bar on the second row.</text>
+<rect x="150.0" y="158.0" width="10.0" height="10.0" rx="2" fill="rgba(91,108,176,0.95)"/><text x="165" y="166" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">top 1%</text>
+<rect x="230.0" y="158.0" width="10.0" height="10.0" rx="2" fill="rgba(91,108,176,0.7)"/><text x="245" y="166" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">next 14%</text>
+<rect x="320.0" y="158.0" width="10.0" height="10.0" rx="2" fill="rgba(91,108,176,0.45)"/><text x="335" y="166" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">next 35%</text>
+<rect x="410.0" y="158.0" width="10.0" height="10.0" rx="2" fill="rgba(91,108,176,0.2)"/><text x="425" y="166" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">bottom half</text>
+</svg>

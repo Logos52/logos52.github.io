@@ -1,0 +1,25 @@
+<svg viewBox="0 0 680 240" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="On the 2009 site rating and messaging were separate acts; on a swipe app the right swipe is both" style="max-width:100%;height:auto">
+<title>On the 2009 site rating and messaging were separate acts; on a swipe app the right swipe is both</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE 2009 DATING SITE: TWO SEPARATE ACTS</text>
+<rect x="20" y="24" width="180" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="110.0" y="48.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">she rates him</text>
+<text x="110.0" y="62.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">1 to 5</text>
+<line x1="200.0" y1="52.0" x2="240.0" y2="52.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="242" y="24" width="200" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="342.0" y="48.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">she decides on her own</text>
+<text x="342.0" y="62.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">whether to write to him</text>
+<line x1="442.0" y1="52.0" x2="482.0" y2="52.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="484" y="24" width="170" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="569.0" y="48.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">a message,</text>
+<text x="569.0" y="62.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">to a wide range of men</text>
+<text x="20" y="118" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">A SWIPE APP: ONE MOTION DOES BOTH</text>
+<rect x="20" y="128" width="300" height="56" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="170.0" y="152.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">swipe left = a low rating</text>
+<text x="170.0" y="166.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">no message is possible</text>
+<rect x="340" y="128" width="314" height="56" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="497.0" y="152.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">swipe right = a high rating</text>
+<text x="497.0" y="166.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">and the only way to write to him</text>
+<text x="20" y="212" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The wide messaging from the top row has no way to happen on the bottom row, because a woman can only write to a man she already</text>
+<text x="20" y="228" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">rated highly. Part of the 0.542 is that missing path.</text>
+</svg>

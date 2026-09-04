@@ -1,0 +1,35 @@
+<svg viewBox="0 0 680 246" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gini values of three countries' incomes and of likes received on Hinge and Tinder" style="max-width:100%;height:auto">
+<title>Gini values of three countries' incomes and of likes received on Hinge and Tinder</title>
+<text x="230" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">GINI, 0 = EVERYONE THE SAME, 1 = ONE PERSON HAS EVERYTHING</text>
+<line x1="230.0" y1="22.0" x2="230.0" y2="190.0" stroke="rgba(130,130,130,.18)" stroke-width="1"/>
+<text x="230" y="204" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0.00</text>
+<line x1="332.5" y1="22.0" x2="332.5" y2="190.0" stroke="rgba(130,130,130,.18)" stroke-width="1"/>
+<text x="332.5" y="204" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0.25</text>
+<line x1="435.0" y1="22.0" x2="435.0" y2="190.0" stroke="rgba(130,130,130,.18)" stroke-width="1"/>
+<text x="435.0" y="204" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0.50</text>
+<line x1="537.5" y1="22.0" x2="537.5" y2="190.0" stroke="rgba(130,130,130,.18)" stroke-width="1"/>
+<text x="537.5" y="204" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0.75</text>
+<line x1="640.0" y1="22.0" x2="640.0" y2="190.0" stroke="rgba(130,130,130,.18)" stroke-width="1"/>
+<text x="640" y="204" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1.00</text>
+<text x="222" y="39" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">Denmark, income</text>
+<g><title>Denmark's income Gini: about 0.28</title><rect x="230.0" y="28.0" width="114.8" height="14.0" rx="3" fill="rgba(130,130,130,.55)"/></g>
+<text x="350.8" y="39" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">0.28</text>
+<text x="222" y="65" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">women on Hinge, likes from men</text>
+<g><title>Women on Hinge: 0.376</title><rect x="230.0" y="54.0" width="154.2" height="14.0" rx="3" fill="rgba(47,158,143,0.9)"/></g>
+<text x="390.15999999999997" y="65" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">0.376</text>
+<text x="222" y="91" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">United States, income</text>
+<g><title>United States income Gini: about 0.41</title><rect x="230.0" y="80.0" width="168.1" height="14.0" rx="3" fill="rgba(130,130,130,.55)"/></g>
+<text x="404.1" y="91" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">0.41</text>
+<text x="222" y="117" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">men on Hinge, likes from women</text>
+<g><title>Men on Hinge: 0.542</title><rect x="230.0" y="106.0" width="222.2" height="14.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="458.22" y="117" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">0.542</text>
+<text x="222" y="143" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">men on Tinder, likes from women</text>
+<g><title>Men on Tinder: 0.58</title><rect x="230.0" y="132.0" width="237.8" height="14.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="473.79999999999995" y="143" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">0.58</text>
+<text x="222" y="169" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">South Africa, income</text>
+<g><title>South Africa's income Gini: about 0.63</title><rect x="230.0" y="158.0" width="258.3" height="14.0" rx="3" fill="rgba(130,130,130,.55)"/></g>
+<text x="494.3" y="169" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">0.63</text>
+<rect x="230.0" y="224.0" width="10.0" height="10.0" rx="2" fill="rgba(47,158,143,1.0)"/><text x="245" y="232" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">women on an app</text>
+<rect x="370.0" y="224.0" width="10.0" height="10.0" rx="2" fill="rgba(91,108,176,1.0)"/><text x="385" y="232" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">men on an app</text>
+<rect x="500.0" y="224.0" width="10.0" height="10.0" rx="2" fill="rgba(130,130,130,.55)"/><text x="515" y="232" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">a country's income</text>
+</svg>

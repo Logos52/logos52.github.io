@@ -7,7 +7,7 @@ aliases:
 type: journal-index
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-09-01
+updated: 2026-09-04
 openQuestions:
   - "Which companion character deepenings merge to canon next (星野 package, 林薇 B3 home, B3L08 split) — and which stay proposals?"
   - "Which tsumugu-ed feature earns the next build pass — example sentences, phonetic-family browse, or the 手寫 / handwriting layer?"
@@ -21,6 +21,8 @@ tags:
 
 ## What's top of mind
 
+- **[[journal/2026-09-04-designing-grok-bot-and-self-hosted|Designing Grok Bot and Cursor self-hosted machines]]** — Shortforms Brief skipped. Parked. Not needed this week.
+- **[[journal/2026-09-03-grok-tts-mandarin|Grok TTS is out for Mandarin]]** — Playground ear test failed. Voices not good for Mandarin, and the MP3 files chop. Podcast stays on Qwen3-TTS. Catalog A-43, zero-like. Do not retry.
 - **[[journal/2026-09-01-grok-writes|Grok writes]]** — Fable's writing is a token tax. Grok 4.6 is the default writer for vault wiki, journal, decisions, and reports. The 15 August Fable ranking is history for that seat.
 - **[[journal/2026-08-31-state-of-ai|State of AI, end of August 2026]]** — Month-end snapshot. Five lab families sit close on capability. Daily users pick by failure mode: Claude's dialect, Sol's cheating, Grok's wrong facts, Gemini's trust split, party-line answers from DeepSeek/Qwen/GLM/Kimi.
 - **[[journal/2026-08-27-xingye-texts-as-a-person|Xingye texts as a person]]** — XINGYE talks to 沈文 in character only. 小圖E is the English orchestrator. Five random fires is a variety test. LINE Official Account is later.
@@ -41,6 +43,8 @@ tags:
 
 ## Recent entries
 
+- [[journal/2026-09-04-designing-grok-bot-and-self-hosted|2026-09-04]] — Designing Grok Bot and Cursor self-hosted machines — Shortforms Brief skipped. Parked. Not needed this week.
+- [[journal/2026-09-03-grok-tts-mandarin|2026-09-03]] — Grok TTS is out for Mandarin — Playground ear test failed on podcast lines. Voices not good for Mandarin, MP3 files chop. Stay on Qwen3-TTS. Catalog A-43.
 - [[journal/2026-09-01-grok-writes|2026-09-01]] — Grok writes — Default writer for vault wiki, journal, decisions, and reports. Fable off that seat. Banks and execution stay on Grok.
 - [[journal/2026-08-31-state-of-ai|2026-08-31]] — State of AI, end of August 2026 — Five lab families sit close on capability. Daily users pick by failure mode: Claude's dialect, Sol's cheating, Grok's wrong facts, Gemini's trust split, party-line answers from DeepSeek, Qwen, GLM, and Kimi.
 - [[journal/2026-08-27-xingye-texts-as-a-person|2026-08-27]] — Xingye texts as a person — A Grok Bot named XINGYE texts as 星野遙香. Chinese is always her. Settings live on a second bot. Five random fires a day is a variety test, not the standing clock. LINE Official Account is feasible and looks like a brand, not a friend.
