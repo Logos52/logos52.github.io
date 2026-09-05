@@ -32,7 +32,7 @@ The recognition problem underneath is older than the night. Enough of a true sel
 
 Run the test for two weeks. Persistent recovery means the work is the problem. Separately, audit one success: when something worked, ask whether it was the decision or the moment. A tailwind read as personal skill is how the next bet gets too large and an audience starts writing the self-report. When in doubt, say less.
 
-Success is a lagging indicator. Wealth, when it arrives, often means the field that was loved happened to be rewarded this cycle. That is the talk's claim, not a finding, and it does not say everyone can have the same cycle. [[wiki/Money/Define Enough|Define Enough]] is the sibling that treats money as byproduct and luck-versus-skill as a live question. Optimize for what leaves the evening usable. The rest, if it comes, is byproduct.
+Success is a lagging indicator. Wealth, when it arrives, often means the field that was loved happened to be rewarded this cycle. That is a claim, not a finding, and it does not say everyone can have the same cycle. [[wiki/Money/Define Enough|Define Enough]] is the sibling that treats money as byproduct and luck-versus-skill as a live question. Optimize for what leaves the evening usable. The rest, if it comes, is byproduct.
 
 ## What the test is not
 

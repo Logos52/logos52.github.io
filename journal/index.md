@@ -43,13 +43,11 @@ tags:
 
 ## Recent entries
 
-- [[journal/2026-09-04-designing-grok-bot-and-self-hosted|2026-09-04]] — Designing Grok Bot and Cursor self-hosted machines — Shortforms Brief skipped. Parked. Not needed this week.
-- [[journal/2026-09-03-grok-tts-mandarin|2026-09-03]] — Grok TTS is out for Mandarin — Playground ear test failed on podcast lines. Voices not good for Mandarin, MP3 files chop. Stay on Qwen3-TTS. Catalog A-43.
-- [[journal/2026-09-01-grok-writes|2026-09-01]] — Grok writes — Default writer for vault wiki, journal, decisions, and reports. Fable off that seat. Banks and execution stay on Grok.
-- [[journal/2026-08-31-state-of-ai|2026-08-31]] — State of AI, end of August 2026 — Five lab families sit close on capability. Daily users pick by failure mode: Claude's dialect, Sol's cheating, Grok's wrong facts, Gemini's trust split, party-line answers from DeepSeek, Qwen, GLM, and Kimi.
-- [[journal/2026-08-27-xingye-texts-as-a-person|2026-08-27]] — Xingye texts as a person — A Grok Bot named XINGYE texts as 星野遙香. Chinese is always her. Settings live on a second bot. Five random fires a day is a variety test, not the standing clock. LINE Official Account is feasible and looks like a brand, not a friend.
-- [[journal/2026-08-26-xingye-news-ping|2026-08-26]] — Xingye Field ping: private tutor lane, practice log — Private 1:1. Field at 13:30 writes the list. Xingye asks simple layman questions. He teaches as 沈文. She copies each of his replies into /workspace/cast/xingye/practice/YYYY-MM-DD.md, verbatim. That folder is gitignored. 
-- [[journal/2026-08-25-epigrams-never|2026-08-25]] — Epigrams never, in any writing — Owner, 2026-08-25: "epigrams are a pet peeve of mine and should never show up in any of the writing." He said this after the grok-rows audit still quoted wiki epigrams. He ordered those rows changed to simple explanation
+- [[journal/2026-09-05-eli5-is-a-format-not-a-writer|2026-09-05]] — ELI5 is a format, not a writer — Wedge retired Haiku as the ELI5 writer. The ELI5 treatment is now the format (contents bar, subject defined in sentence one, example bullets, a figure per idea) on top of the Fable 5.1 one-pass method with no rewrite pass. First page built this way: Dating Apps - The Gini Coefficient, with twenty figures.
+- [[journal/2026-09-04-designing-grok-bot-and-self-hosted|2026-09-04]] — Designing Grok Bot and Cursor self-hosted machines — Shortforms of two 3 Sep / 2 Sep ships Brief skipped. Wedge asked for the recaps, said not needed now, park here.
+- [[journal/2026-09-03-grok-tts-mandarin|2026-09-03]] — Grok TTS is out for Mandarin — Grok Text to Speech failed an ear test on Mandarin podcast lines. Production stays on local Chinese TTS (Qwen3-TTS). Catalog A-43. Zero-like. Do not retry this engine for Mandarin.
+- [[journal/2026-09-01-grok-writes|2026-09-01]] — Grok writes — Fable's writing now costs too many tokens for the quality it returns. Grok 4.6 is the default writer for vault wiki, journal, decisions, and reports. Banks and execution stay on Grok. The 13–15 August Fable ranking is history, not the live seat.
+- [[journal/2026-08-31-state-of-ai|2026-08-31]] — State of AI, end of August 2026 — Month-end snapshot of working AI. Five lab families sit close on capability. Daily users pick by failure mode: Claude's dialect, Sol's cheating, Grok's wrong facts, Gemini's trust split, and party-line answers from DeepSeek, Qwen, GLM, and Kimi.
 
 [[journal/calendar|Full calendar →]]
 

@@ -30,10 +30,10 @@ Every other wave in this popular set transformed or multiplied the roles it was 
 |---|---|
 | ATM → bank teller | Teller employment climbed with ATM counts and peaked around 2007. |
 | Autopilot, auto-land → pilot | Pilot demand rose with traffic. |
-| Word processor → fewer writers | An order of magnitude more writers, in the lecture's claim. |
+| Word processor → fewer writers | An order of magnitude more writers, a rough multiple. |
 | Elevator automation → operator | The one full elimination, last counted around 1960. |
 
-The ATM cell is not a doubling. Employment did not fall as the machines rolled out. It climbed, then peaked. The word-processor multiple is the lecture's figure, not a hardened ten-times series.
+The ATM cell is not a doubling. Employment did not fall as the machines rolled out. It climbed, then peaked. The word-processor multiple is a quoted figure, not a hardened ten-times series.
 
 ## Tasks are not the job
 

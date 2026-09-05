@@ -57,7 +57,15 @@ Cost: on 1 September 2026 both a Fable rewrite and a Grok rewrite of The Writing
 
 Evidence: `/Users/n1/Projects/llm-knowledge-base/02 - System/Rewrite Prompt.md` Record. Board: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/ab-grok-pipeline-2026-09-01/RESULT.md`
 
-### ELI5-Haiku
+### Fable 5.1 one pass, his material in front, no rewrite pass
+
+The writer holds four things and nothing else: the stance paragraph from The Generator, a fact list made from the source in the writer's own words with the source then closed, an outline in whole, part, whole, and two accepted pages of the same kind. One pass in the main window. Then the fact gate (`/Users/n1/Research/Fable5.1/04-wiki-rewrite/fact_check.py`, dropped 0 and added 0), the sieve, and the holdings ledger for LOAD. No rewrite pass and no cold read. Ruled 2026-09-02 on Survive and Thrive: "Draft B is better than C. i think the rewrite pass is corrupting the work a little bit." Used on all 374 pages of the 2026-09-03 rewrite queue and, on 2026-09-05, on Dating Apps - The Gini Coefficient.
+
+ELI5 is the format that can sit on top of this method, on the owner's word of 2026-09-05: "what i wanted is the format of ELI5 with the writing and prose of the Fable 5.1 generator we already built. the one without the rewrite prompt." The format half is a contents bar, the subject defined in sentence one, example bullets opening every section, and a figure for each main idea, checked by `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/eli5-haiku-wave-2026-09-01/check-eli5.py`.
+
+Evidence: `/Users/n1/Research/Fable5.1/FINDINGS.md`, the 2026-09-02 ruling. First ELI5-format page under it: `/Users/n1/Projects/llm-knowledge-base/wiki/Concepts/Dating Apps - The Gini Coefficient.md`, twenty figures from `/Users/n1/Projects/llm-knowledge-base/scripts/gen-dating-gini-diagrams.py`.
+
+### ELI5-Haiku (writer retired 2026-09-05; the format lives on above)
 
 A session head writes a spec. A small model outside that session, currently Claude Haiku 4.5, receives only the spec. Every reader-facing sentence lands verbatim. A wrong fact is fixed by a new cold call, never by hand. The session head does not reword what comes back.
 
@@ -148,7 +156,7 @@ A seat is not a generator. Pick it second.
 | Grok 4.6 in this session | Default writer for wiki, journal, decisions, reports. Signed 1 September 2026. | Live |
 | Fresh Grok session | Rewrite pass and cold read. Holds only the draft and the prompt. | Live |
 | Cowork, Fable or Opus | Research and structure on request. Not the default writer. Fable's late-August prose was a token tax. | Live for research |
-| Haiku, outside the session | Writer of reader-facing sentences when ELI5-Haiku is the generator. | Live for that generator |
+| Haiku, outside the session | Wrote reader-facing sentences under ELI5-Haiku until 2026-09-05. Owner: "Haiku generator is not necessary anymore." | Retired |
 | Cursor | Application code. Not the vault's author. | Off this picker |
 
 The 13 August 2026 three-page bakeoff put Fable first, "not even close." That score is history. The live seat is Grok 4.6. Filters stay: The Generator, holdings, the owner's eye.
@@ -171,4 +179,4 @@ Tsumugu blog posts read `/Users/n1/Projects/tsumugu-core/content/blog/STYLE-CARD
 
 ## How an agent uses this file
 
-Ask the owner which generator, then which seat, before the outline. Offer only the Working rows, plus Selfhood Plain if the job is a reply. If he picks ELI5-Haiku, read the draft at `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/GENERATOR-eli5-haiku-DRAFT-2026-09-01.md` and skip the rewrite pass. If he picks the default, read The Generator, then Selfhood v2, then run the rest of `/Users/n1/Projects/llm-knowledge-base/02 - System/Writing Pipeline.md`.
+Ask the owner which generator, then which seat, before the outline. Offer only the Working rows, plus Selfhood Plain if the job is a reply. If he asks for the ELI5 treatment, use the Fable 5.1 one-pass row with the ELI5 format on top and run its gate script. The ELI5-Haiku writer is retired; if he picks it anyway, read the draft at `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/GENERATOR-eli5-haiku-DRAFT-2026-09-01.md` and skip the rewrite pass. If he picks the default, read The Generator, then Selfhood v2, then run the rest of `/Users/n1/Projects/llm-knowledge-base/02 - System/Writing Pipeline.md`.

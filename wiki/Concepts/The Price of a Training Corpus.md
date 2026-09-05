@@ -35,13 +35,13 @@ This is the first major AI-training copyright lawsuit to settle. More are in the
 
 ## Settling versus doctrine
 
-A hypothesis assembled from this episode: holdings appear only in the fights nobody can buy out of. Whoever must go to court lives under case law. Whoever can write a cheque large enough to end the case lives under the last cheque written. One data point. The case against later prices it.
+A hypothesis: holdings appear only in the fights nobody can buy out of. Whoever must go to court lives under case law. Whoever can write a cheque large enough to end the case lives under the last cheque written. One data point. The case against later prices it.
 
 The usual story is that a well-funded defendant pays, and paying ends the opinion that would have bound the next defendant, so the opinions that exist are the ones nobody could afford to stop. This case is the opposite in one respect. The training ruling *preceded* the settlement. Purchased-and-digitized copies had already been held fair use. The buyout covered the copies nobody could show a receipt for.
 
 What then governs depends on who is in the chair. A small builder who cannot buy out a class lives under the opinions. A frontier lab lives under the last cheque, plus whatever the other side's terms of service already forbid.
 
-The episode contradicts itself on whether a court had already spoken. One seat says courts had already held that training on copyrighted books is fair use. Two minutes later another seat calls the question unresolved. A third case is named as a final judgment on AI training copyright. The previous ruling is the June 2025 split. The named database case is *Thomson Reuters v. Ross* — Thomson, never Thompson — a February 2025 district-court summary judgment against fair use for a *competing legal-research tool* trained on a professional database's headnotes. Market harm did the work. It is not generative book-training. It is not appellate. "Final judgment on AI training copyright" overstates.
+The two claims about whether a court had already spoken contradict each other. One seat says courts had already held that training on copyrighted books is fair use. Two minutes later another seat calls the question unresolved. A third case is named as a final judgment on AI training copyright. The previous ruling is the June 2025 split. The named database case is *Thomson Reuters v. Ross* — Thomson, never Thompson — a February 2025 district-court summary judgment against fair use for a *competing legal-research tool* trained on a professional database's headnotes. Market harm did the work. It is not generative book-training. It is not appellate. "Final judgment on AI training copyright" overstates.
 
 On the panel's own summary, IP law does not have the nuance yet, so society will decide what is fair, and the decision route is settlements, lobbying, and legislation. That is their account.
 
@@ -79,7 +79,7 @@ Provenance is circular on the tape: one lab trained on publishers and settled $1
 
 A single buyout is not a market. $3,000 prices that hook, between one defendant holding an indefensible piracy fact and a class whose counsel had a fee. The next buyout can land at a fraction.
 
-The hypothesis that holdings appear only in fights nobody can buy out of is assembled from two data points in one episode. A well-funded defendant that takes a training question all the way to an opinion falsifies it. The June 2025 ruling is already that data point — a training question run to an opinion, *before* the settlement. Stronger than the conversation knows.
+The hypothesis that holdings appear only in fights nobody can buy out of is assembled from two data points. A well-funded defendant that takes a training question all the way to an opinion falsifies it. The June 2025 ruling is already that data point — a training question run to an opinion, *before* the settlement. Stronger than the conversation knows.
 
 The hypocrisy chapter's load-bearing fact is asserted and denied by the same speaker. He never sources the government-meeting version. He is an administration official. He names the stake: tainted foreign-model derivatives, and the startup ecosystem. He opens as no fan of the company and names "regulatory capture." The co-host supplies market-substitution without drawing the hypocrisy. Every clause of that paragraph is the page's. Thinning it to "the room is biased" would drop the mechanism. A ten-figure liability behaves like the fixed cost in [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] step 3, absorbable only by the largest incumbents. That page owns who holds the gate. This page owns how the corpus gets priced. The loop test on [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]] — what a framework can output other than "trust me / my group" — is the check to run on the hypocrisy case, subject to that page's gate.
 

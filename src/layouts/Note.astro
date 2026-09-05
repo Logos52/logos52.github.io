@@ -45,8 +45,15 @@ const crumbParts = slug
   .replace(/\/+$/, '')
   .split('/')
   .filter(Boolean)
-  .map((p) => p.replace(/-/g, ' '));
+  .map((p) => p.replace(/--and--/g, ' & ').replace(/-+/g, ' '));
 const breadcrumb = crumbParts.length ? crumbParts.join(' / ') : title;
+// Each crumb is a link (owner, 2026-09-05: "i also want (and expected) these to be clickable links").
+// The first part ("wiki", "personal", "journal") goes to the notes index, every folder part goes to
+// the page's domain map, and the last part is the page itself, so it stays plain text.
+const crumbs = crumbParts.map((label, i) => ({
+  label,
+  href: i === crumbParts.length - 1 ? null : i === 0 ? '/notes/' : `/domains/${domain}/`,
+}));
 
 const domainVar = `var(--d-${domain})`;
 const hasAside = true;
@@ -60,7 +67,18 @@ const hasAside = true;
         data-pagefind-meta={`domain:${domain}`}
         data-pagefind-meta={`title:${title}`}
       >
-        <div class="kb-crumb">{breadcrumb}</div>
+        <div class="kb-crumb" aria-label={breadcrumb}>
+          {
+            crumbs.length
+              ? crumbs.map((c, i) => (
+                  <Fragment>
+                    {i > 0 && <span class="kb-crumb-sep"> / </span>}
+                    {c.href ? <a href={c.href}>{c.label}</a> : <span>{c.label}</span>}
+                  </Fragment>
+                ))
+              : title
+          }
+        </div>
         <h1 class="kb-note-title">{title}</h1>
         <div class="kb-note-meta">
           {
@@ -113,6 +131,16 @@ const hasAside = true;
     color: var(--faint);
     text-transform: uppercase;
   }
+  /* crumb links keep the crumb's own color; only the hover underline says they are links */
+  .kb-crumb a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .kb-crumb a:hover,
+  .kb-crumb a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
 
   /* title — Ming 34/600 */
   .kb-note-title {
@@ -162,13 +190,23 @@ const hasAside = true;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    overflow: visible;
-  }
-  .kb-localgraph-wrap {
-    /* bleed into the column gap so the graph reads wider than the 240px rail */
+    /* its own scroll area (owner, 2026-09-05: "i expected the right side to be a separate
+       scroll area based on where my mouse is pointed"): the rail is capped at the viewport
+       and scrolls on its own; overscroll-behavior keeps a rail scroll from spilling into the page. */
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    /* the graph used to bleed 20px into the column gap with negative margins; the bleed now
+       lives on the rail itself so the scroll box does not clip it */
     width: calc(100% + 40px);
     margin-left: -20px;
     margin-right: -20px;
+    padding: 0 20px 24px;
+  }
+  .kb-localgraph-wrap {
+    width: 100%;
     overflow: visible;
     z-index: 2;
   }
@@ -183,11 +221,12 @@ const hasAside = true;
     }
     .kb-note-aside {
       position: static;
-    }
-    .kb-localgraph-wrap {
+      max-height: none;
+      overflow: visible;
       width: 100%;
       margin-left: 0;
       margin-right: 0;
+      padding: 0;
     }
   }
 </style>

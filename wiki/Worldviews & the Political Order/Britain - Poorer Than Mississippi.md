@@ -8,7 +8,7 @@ written-by: fable
 method: fable-5.1-one-pass
 diagrams: scripts/gen-britain-diagrams.py
 source-count: 1
-description: "Income per person in the United Kingdom now ranks below every American state, and most Britons think their country would rank seventh. A 2026 video traces a quarter century of choices that got it there: a planning system that blocks building, taxes that drive out the skilled and the rich, energy four times the American price, and a welfare state that stopped rewarding work."
+description: "Income per person in the United Kingdom now ranks below every American state, and most Britons think their country would rank seventh. A quarter century of choices got it there, a planning system that blocks building, taxes that drive out the skilled and the rich, energy four times the American price, and a welfare state that stopped rewarding work."
 tags:
   - britain
   - economics
@@ -39,7 +39,7 @@ Mississippi is the state Americans have mocked for 150 years as the poorest corn
 
 The finding surprises Britons because the country is still big. Total output keeps Britain the fifth largest economy in the world, and that is the number people read in the news. Income per person is the number that decides how much an ordinary worker takes home. On that number the country now sits below every American state, including the ones Americans have joked about for a century and a half. The gap between the country Britons think they live in and the one they do live in is the whole story.
 
-The video traces how it happened as a chain of choices rather than one mistake. After the war the state took over industry and built a welfare state. For twenty years living standards rose while the rebuilt rivals grew three and four times faster. The 1970s broke the arrangement, with power cuts, a bailout, and rubbish in the streets. The reforms of the 1980s revived growth by turning the country into a financial centre, and left the industrial regions behind. The boom that followed was borrowed from lenders and from house prices. When that ended in 2008 the country simply stopped investing, building, and making. The output of an hour's work has barely moved since. Whatever a British university invents now gets sold abroad within a few years.
+It happened as a chain of choices rather than one mistake. After the war the state took over industry and built a welfare state. For twenty years living standards rose while the rebuilt rivals grew three and four times faster. The 1970s broke the arrangement, with power cuts, a bailout, and rubbish in the streets. The reforms of the 1980s revived growth by turning the country into a financial centre, and left the industrial regions behind. The boom that followed was borrowed from lenders and from house prices. When that ended in 2008 the country simply stopped investing, building, and making. The output of an hour's work has barely moved since. Whatever a British university invents now gets sold abroad within a few years.
 
 The tax system then charges people for staying. The rates that bite hardest fall on the mid-career doctors, engineers, and small-business owners a country most wants to keep. Factory electricity costs about four times what an American factory pays. So the rich leave for Dubai and Milan, the young doctors leave for Australia where the pay doubles and the registration takes weeks, and the companies follow, cancelling plants at home and building them in America. The country that invented modern steel-making can no longer make steel from ore.
 

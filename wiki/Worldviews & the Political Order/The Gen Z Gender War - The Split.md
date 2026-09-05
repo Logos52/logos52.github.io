@@ -8,7 +8,7 @@ written-by: fable
 method: fable-5.1-one-pass
 diagrams: scripts/gen-gender-war-diagrams.py
 source-count: 1
-description: "Young women and young men now stand about 30 points apart in politics across 30 countries, up from 6 in 2000, and they vote, date, study, borrow, and scroll apart. A 2026 video lays out the numbers behind the split and three ways it could go."
+description: "Young women and young men now stand about 30 points apart in politics across 30 countries, up from 6 in 2000, and they vote, date, study, borrow, and scroll apart. The numbers behind the split, and three ways it could go."
 tags:
   - gender
   - gen-z
@@ -24,7 +24,7 @@ tags:
 
 ### Abstract
 
-The split between young women and young men that people now call the Gen Z gender war is a gap in what they believe, whom they vote for, and whether they pair up at all. Across 30 countries surveyed in 2025, women aged 18 to 30 sit about 30 points more progressive than men of the same age. In 2000 the same gap was 6 points. In the United States it decided how the youngest voters split in 2024. It also runs through who goes to college and who gets a match on a dating app. It runs through who carries the student debt and what each side sees on its phone at night. A 2026 video lays the numbers out end to end, and the numbers are what this page carries. The split is real, and every rich country that polls its young measures it. The mechanisms driving it are all still gaining force.
+The split between young women and young men that people now call the Gen Z gender war is a gap in what they believe, whom they vote for, and whether they pair up at all. Across 30 countries surveyed in 2025, women aged 18 to 30 sit about 30 points more progressive than men of the same age. In 2000 the same gap was 6 points. In the United States it decided how the youngest voters split in 2024. It also runs through who goes to college and who gets a match on a dating app. It runs through who carries the student debt and what each side sees on its phone at night. The split is real, and every rich country that polls its young measures it. The mechanisms driving it are all still gaining force.
 
 ### Core takeaways
 
@@ -37,7 +37,7 @@ The split between young women and young men that people now call the Gen Z gende
 
 ### Essay
 
-The gender war is one thing seen from several sides. Young women and young men have moved apart in what they believe. The same movement shows up in how they vote, where they study, and whom they date. It shows up in what they owe and in what their phones show them at night. Each of those feeds the others, which is why the video can start from a school classroom and end at a birth rate.
+The gender war is one thing seen from several sides. Young women and young men have moved apart in what they believe. The same movement shows up in how they vote, where they study, and whom they date. It shows up in what they owe and in what their phones show them at night. Each of those feeds the others, which is why the story can start in a school classroom and end at a birth rate.
 
 The chain starts at school. A school day built around sitting still and putting feelings into words suits girls and fails boys, so women now take most of the degrees and men leave for the trades or for nothing. People tend to pair with someone of about their own education. So the pool of men that educated women consider comparable shrinks. The men without degrees fall below what a growing share of women say they want. The apps then amplify a mismatch they did not create. Women engage with a small share of the men they see and men with nearly half the women, so the men get rejection and the women get a flood, and both leave exhausted. Politics has become a filter on top, with a majority of young women now listing political fit among their first requirements in a partner.
 
@@ -120,7 +120,7 @@ The split is real and every rich country that polls its young measures it. Every
 
 ## The numbers
 
-The video's own frame is that nothing here shows on the surface. It shows in polling tables, in birth-rate tables, in hospital admissions, and in election results. In 2024, 24% of American adults aged 18 to 29 had not had sex in the past year, against 12% in 2010, and 48% of Gen Z adults have never had sex at all, against 26% of millennials and 9% of boomers. One in four American men under 35 says he is chronically lonely. The United States recorded 53.1 births per 1,000 women in 2025, the lowest figure in its history. That is 1.6 children per woman, against the 2.1 that holds a population steady. South Korea, which started calling its version a gender war around 2019, sits about 15 years further down the same road at 0.72 children per woman.
+None of this shows on the surface. It shows in polling tables, in birth-rate tables, in hospital admissions, and in election results. In 2024, 24% of American adults aged 18 to 29 had not had sex in the past year, against 12% in 2010, and 48% of Gen Z adults have never had sex at all, against 26% of millennials and 9% of boomers. One in four American men under 35 says he is chronically lonely. The United States recorded 53.1 births per 1,000 women in 2025, the lowest figure in its history. That is 1.6 children per woman, against the 2.1 that holds a population steady. South Korea, which started calling its version a gender war around 2019, sits about 15 years further down the same road at 0.72 children per woman.
 
 **Contents:** [The vote](#the-vote) · [Where the two sides came from](#where-the-two-sides-came-from) · [The education reversal](#the-education-reversal) · [The dating market](#the-dating-market) · [The two exits](#the-two-exits) · [Marriage and money](#marriage-and-money) · [The feeds](#the-feeds) · [Minds and churches](#minds-and-churches) · [Three futures](#three-futures)
 
@@ -326,7 +326,7 @@ The men's side grew in the same digital soil in different rooms. A men's rights 
 </svg>
 <!-- /diagram -->
 
-In 1970 men were 58% of American college students and women 42%. By 2015 women were about 60% and men 40%, and there are now 2.4 million more women than men on American campuses. Among 25 to 34 year olds, 47% of women hold a bachelor's degree against 37% of men. For every 100 women who earn one, 74 men do. Women finish a four-year degree on time at 54% and men at 43%. When women were the ones behind, fifty years ago, the country passed Title IX and put federal money behind female attainment, and the gap closed in about 20 years. The reverse gap has been building for about as long with no equivalent response, and the video calls it the single most distinctive structural trend in the divide and the one almost nobody discusses.
+In 1970 men were 58% of American college students and women 42%. By 2015 women were about 60% and men 40%, and there are now 2.4 million more women than men on American campuses. Among 25 to 34 year olds, 47% of women hold a bachelor's degree against 37% of men. For every 100 women who earn one, 74 men do. Women finish a four-year degree on time at 54% and men at 43%. When women were the ones behind, fifty years ago, the country passed Title IX and put federal money behind female attainment, and the gap closed in about 20 years. The reverse gap has been building for about as long with no equivalent response, and it is the single most distinctive structural trend in the divide and the one almost nobody discusses.
 
 <!-- diagram:boys_and_trades -->
 <svg viewBox="0 0 680 188" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three things that fall harder on boys at school, and the pay of the trades many men choose instead" style="max-width:100%;height:auto">
@@ -445,7 +445,7 @@ On the men's side the parallel is a movement from about 2001 in which men reject
 <text x="142" y="87" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">boomer men</text>
 <g><title>13% of boomer men</title><rect x="150.0" y="76.0" width="122.2" height="14.0" rx="3" fill="rgba(91,108,176,0.4)"/></g>
 <text x="278.2" y="87" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">13%</text>
-<text x="20" y="112" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Young men sit well to the right of their grandfathers on this. The video ties it to men who cannot fill the breadwinner role idealising it more.</text>
+<text x="20" y="112" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Young men sit well to the right of their grandfathers on this. Men who cannot fill the breadwinner role idealise it more.</text>
 </svg>
 <!-- /diagram -->
 
@@ -596,7 +596,7 @@ In 2024 researchers built TikTok accounts that behaved like vulnerable teenage b
 
 The influencers sit in tiers. A Canadian psychology professor who began posting lectures in 2013 sold over 5 million copies of a 2018 book on responsibility and order. 42% of British Gen Z men view him positively, and his message runs on discipline rather than resentment of women. Below him sit debate podcasts that treat women's preferences as a sign of female pathology. Below those sits a subculture in which young men treat extreme physical change as their only leverage. One of them told a newspaper he started steroids at 14 and posted videos advocating striking his own face to shape his jaw. Clinicians call that body dysmorphia driven by isolation and by the rejection rates on the apps. Nearly two-thirds of men aged 16 to 25 now regularly watch masculinity influencers. Nearly half of Gen Z men say they personally face discrimination because of their sex, the highest rate any male age group has recorded.
 
-The female side of pop culture processed the same fracture from its own angle. The video's point is that both sides pick the finding that confirms them. A study of fifty years of rap lyrics found female artists using derogatory words more often than male artists, in reclamation rather than degradation. A separate analysis of 250,000 songs found sexist content rising over time, mostly in male artists' hits, and 72.5% of 2024's top songs contained sexually objectifying phrases about women. Both findings are real.
+The female side of pop culture processed the same fracture from its own angle. Both sides pick the finding that confirms them. A study of fifty years of rap lyrics found female artists using derogatory words more often than male artists, in reclamation rather than degradation. A separate analysis of 250,000 songs found sexist content rising over time, mostly in male artists' hits, and 72.5% of 2024's top songs contained sexually objectifying phrases about women. Both findings are real.
 
 ### Minds and churches
 
@@ -676,10 +676,10 @@ Religion used to supply a couple with default answers about money, roles, childr
 - Gen Z reports wanting marriage at higher rates than millennials did at the same age. 55% name housing costs and 64% name student debt as the barrier.
 
 <!-- diagram:three_futures -->
-<svg viewBox="0 0 680 184" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The three paths the video draws: the current path, convergence, and fragmentation" style="max-width:100%;height:auto">
-<title>The three paths the video draws: the current path, convergence, and fragmentation</title>
+<svg viewBox="0 0 680 184" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three paths: the current path, convergence, and fragmentation" style="max-width:100%;height:auto">
+<title>Three paths: the current path, convergence, and fragmentation</title>
 <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THREE PATHS THE VIDEO DRAWS</text>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THREE PATHS</text>
 <rect x="20" y="24" width="200" height="120" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
 <text x="120.0" y="59.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the current path</text>
 <text x="120.0" y="73.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">men under 38% of students by 2030,</text>
@@ -702,7 +702,7 @@ Religion used to supply a couple with default answers about money, roles, childr
 </svg>
 <!-- /diagram -->
 
-The video ends on three paths. On the current path, men are under 38% of college students by 2030, the gender gap organises American politics by 2032 with young women anchoring one party and young men the other, the median first marriage crosses 32 for men and 30 for women by 2035, more than 30% of Americans never marry, and the birth rate falls toward South Korea's. Korea is the leading indicator. Its government has spent hundreds of billions of won on pronatal programmes with almost no measurable effect. The problem there is that educated young men and women developed expectations of each other that no longer fit. Korean sociologists now describe cultural extinction as a mathematical possibility.
+Three paths lie ahead. On the current path, men are under 38% of college students by 2030, the gender gap organises American politics by 2032 with young women anchoring one party and young men the other, the median first marriage crosses 32 for men and 30 for women by 2035, more than 30% of Americans never marry, and the birth rate falls toward South Korea's. Korea is the leading indicator. Its government has spent hundreds of billions of won on pronatal programmes with almost no measurable effect. The problem there is that educated young men and women developed expectations of each other that no longer fit. Korean sociologists now describe cultural extinction as a mathematical possibility.
 
 The second path is partial convergence through exhaustion and adaptation. The proposals on the table are enrolling boys in school a year later, male-focused mentoring in secondary school, recruiting men into health, education, and social work. Europe's new platform rules may slow the radicalisation pipeline, after which both drifts might moderate. The third path is fragmentation, a war abandoned rather than resolved, each sex withdrawing into parallel arrangements with little contact. AI companions already have large Gen Z user bases. That path lowers conflict now and deepens alienation over decades. It pushes the birth rate further down. It hands Social Security and Medicare a ratio of workers to retirees that cannot carry them.
 
@@ -722,7 +722,7 @@ Both sides describe real problems. Young women face real barriers at work, real 
 
 - The 30-point gap is measured on a progressive-to-conservative scale. How much of it is the same people answering the same questions differently, and how much is different beliefs about the same facts?
 - Korea's cash failed. Would the school-timing and mentoring proposals fail the same way, since they also do not touch what young men and women expect of each other?
-- The video says the apps amplified a disconnect they did not cause. What is the measure of the disconnect before 2012, when the fourth wave went online?
+- The apps amplified a disconnect they did not cause. What is the measure of the disconnect before 2012, when the fourth wave went online?
 - Two-thirds of young men watch masculinity influencers. How many of them hold the obedience view, and how many hold it without watching?
 
 ### Sources
