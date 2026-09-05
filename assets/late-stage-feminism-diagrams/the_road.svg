@@ -1,0 +1,27 @@
+<svg viewBox="0 0 680 124" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The abortion argument moved from not yet a person, to the hard cases, to bodily autonomy, and bodily autonomy does not stop at birth" style="max-width:100%;height:auto">
+<title>The abortion argument moved from not yet a person, to the hard cases, to bodily autonomy, and bodily autonomy does not stop at birth</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE ABORTION ARGUMENT, IN THE ORDER IT WAS MADE, AND WHERE IT GOES</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<rect x="20" y="26" width="116" height="58" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
+<text x="78.0" y="51.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">not yet a person</text>
+<text x="78.0" y="65.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">only cells</text>
+<line x1="138.0" y1="55.0" x2="154.0" y2="55.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="156" y="26" width="116" height="58" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
+<text x="214.0" y="51.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the hard cases</text>
+<text x="214.0" y="65.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">assault</text>
+<line x1="274.0" y1="55.0" x2="290.0" y2="55.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="292" y="26" width="116" height="58" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
+<text x="350.0" y="44.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">bodily autonomy</text>
+<text x="350.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">stress, harm,</text>
+<text x="350.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">dependence</text>
+<line x1="410.0" y1="55.0" x2="426.0" y2="55.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="428" y="26" width="116" height="58" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
+<text x="486.0" y="44.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">birth changes</text>
+<text x="486.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">nothing on</text>
+<text x="486.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">that list</text>
+<line x1="546.0" y1="55.0" x2="562.0" y2="55.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="564" y="26" width="116" height="58" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
+<text x="622.0" y="51.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">autonomy,</text>
+<text x="622.0" y="65.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">full stop</text>
+<text x="20" y="112" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Each argument replaced the one before it once it failed. The last one carries past birth, because a born child is on the same list.</text>
+</svg>
