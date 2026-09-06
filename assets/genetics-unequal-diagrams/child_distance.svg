@@ -1,0 +1,18 @@
+<svg viewBox="0 0 680 152" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A circle-triangle child sits farther from the circle parent than a random circle from another country" style="max-width:100%;height:auto">
+<title>A circle-triangle child sits farther from the circle parent than a random circle from another country</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHERE A CHILD OF TWO SHAPES SITS, ON THE ACCOUNT'S PLOT</text>
+<line x1="60.0" y1="70.0" x2="620.0" y2="70.0" stroke="rgba(130,130,130,.35)" stroke-width="1.2"/>
+<text x="60" y="92" font-size="10" fill="currentColor" opacity="0.6" text-anchor="start">close to the circle parent</text>
+<text x="620" y="92" font-size="10" fill="currentColor" opacity="0.6" text-anchor="end">far</text>
+<circle cx="80" cy="70" r="7" fill="#2f9e8f" opacity=".9"><title>the circle parent</title></circle>
+<text x="80" y="52" font-size="9.5" fill="currentColor" opacity="0.8" text-anchor="middle">the circle parent</text>
+<circle cx="230" cy="70" r="7" fill="#2f9e8f" opacity=".9"><title>a random circle from another country</title></circle>
+<text x="230" y="40" font-size="9.5" fill="currentColor" opacity="0.8" text-anchor="middle">a random circle from another country</text>
+<circle cx="400" cy="70" r="7" fill="#8156a6" opacity=".9"><title>the circle-triangle child</title></circle>
+<text x="400" y="52" font-size="9.5" fill="currentColor" opacity="0.8" text-anchor="middle">the circle-triangle child</text>
+<circle cx="560" cy="70" r="7" fill="#5b6cb0" opacity=".9"><title>the triangle parent</title></circle>
+<text x="560" y="52" font-size="9.5" fill="currentColor" opacity="0.8" text-anchor="middle">the triangle parent</text>
+<text x="20" y="124" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The child sits farther from each parent than a stranger of the parent's own kind, so neither parent is fitted to the child's best environment.</text>
+<text x="20" y="140" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Between circles and triangles an intermediate group already exists. Between squares and either other shape there is none.</text>
+</svg>

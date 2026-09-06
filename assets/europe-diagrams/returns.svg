@@ -1,0 +1,11 @@
+<svg viewBox="0 0 680 116" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="stock market return since 2000, percent" style="max-width:100%;height:auto">
+<title>stock market return since 2000, percent</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">STOCK MARKET RETURN SINCE 2000, PERCENT</text>
+<text x="212" y="38" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">S&amp;P 500, with dividends</text>
+<g><title>about 500%</title><rect x="220.0" y="26.0" width="403.8" height="15.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="629.8461538461538" y="38" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">500%</text>
+<text x="212" y="66" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">Euro Stoxx 50, price</text>
+<g><title>about 0%</title><rect x="220.0" y="54.0" width="0.0" height="15.0" rx="3" fill="rgba(47,158,143,0.9)"/></g>
+<text x="226.0" y="66" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">0%</text>
+<text x="20" y="104" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">58% of American households own stocks, about 20% of German ones, and closer to 15% of Italian ones.</text>
+</svg>

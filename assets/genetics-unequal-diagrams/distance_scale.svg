@@ -1,0 +1,28 @@
+<svg viewBox="0 0 680 152" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The fixation index for the three pairs: circles and triangles 0.11, circles and squares 0.15, triangles and squares 0.19, against dog and wolf at 0.17" style="max-width:100%;height:auto">
+<title>The fixation index for the three pairs: circles and triangles 0.11, circles and squares 0.15, triangles and squares 0.19, against dog and wolf at 0.17</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">FIXATION INDEX, AS THE ACCOUNT GIVES IT (0 = IDENTICAL FREQUENCIES)</text>
+<line x1="60.0" y1="96.0" x2="640.0" y2="96.0" stroke="rgba(130,130,130,.35)" stroke-width="1.2"/>
+<line x1="60.0" y1="92.0" x2="60.0" y2="100.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<text x="60.0" y="114" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0.00</text>
+<line x1="176.0" y1="92.0" x2="176.0" y2="100.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<text x="176.0" y="114" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0.05</text>
+<line x1="292.0" y1="92.0" x2="292.0" y2="100.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<text x="292.0" y="114" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0.10</text>
+<line x1="408.0" y1="92.0" x2="408.0" y2="100.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<text x="408.0" y="114" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0.15</text>
+<line x1="524.0" y1="92.0" x2="524.0" y2="100.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<text x="524.0" y="114" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0.20</text>
+<line x1="640.0" y1="92.0" x2="640.0" y2="100.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<text x="640.0" y="114" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">0.25</text>
+<line x1="408.0" y1="24.0" x2="408.0" y2="96.0" stroke="rgba(130,130,130,.8)" stroke-width="1.2"stroke-dasharray="4 3"/>
+<text x="414.0" y="36" font-size="10" fill="currentColor" opacity="0.7" text-anchor="start">0.15: the line between one kind and two</text>
+<circle cx="315.2" cy="54" r="6" fill="#2f9e8f" opacity=".9"><title>circles vs triangles: 0.11</title></circle>
+<text x="315.2" y="44" font-size="9.5" fill="currentColor" opacity="0.8" text-anchor="middle">circles vs triangles 0.11</text>
+<circle cx="408.0" cy="70" r="6" fill="#8156a6" opacity=".9"><title>circles vs squares: 0.15</title></circle>
+<text x="408.0" y="60" font-size="9.5" fill="currentColor" opacity="0.8" text-anchor="middle">circles vs squares 0.15</text>
+<circle cx="454.4" cy="86" r="6" fill="rgba(130,130,130,.8)" opacity=".9"><title>dog vs wolf: 0.17</title></circle>
+<text x="454.40000000000003" y="76" font-size="9.5" fill="currentColor" opacity="0.8" text-anchor="middle">dog vs wolf 0.17</text>
+<circle cx="500.8" cy="54" r="6" fill="#5b6cb0" opacity=".9"><title>triangles vs squares: 0.19</title></circle>
+<text x="500.8" y="44" font-size="9.5" fill="currentColor" opacity="0.8" text-anchor="middle">triangles vs squares 0.19</text>
+<text x="20" y="140" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Two of the three pairs sit at or past the line a domestic dog and a gray wolf cross at about 0.17.</text>
+</svg>

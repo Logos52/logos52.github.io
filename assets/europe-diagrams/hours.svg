@@ -1,0 +1,14 @@
+<svg viewBox="0 0 680 144" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="hours worked a year" style="max-width:100%;height:auto">
+<title>hours worked a year</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">HOURS WORKED A YEAR</text>
+<text x="152" y="38" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">United States</text>
+<g><title>1,811</title><rect x="160.0" y="26.0" width="457.5" height="15.0" rx="3" fill="rgba(91,108,176,0.9)"/></g>
+<text x="623.5157894736842" y="38" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">1,811</text>
+<text x="152" y="66" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">France</text>
+<g><title>1,490</title><rect x="160.0" y="54.0" width="376.4" height="15.0" rx="3" fill="rgba(47,158,143,0.7)"/></g>
+<text x="542.421052631579" y="66" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">1,490</text>
+<text x="152" y="94" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">Germany</text>
+<g><title>1,341</title><rect x="160.0" y="82.0" width="338.8" height="15.0" rx="3" fill="rgba(47,158,143,0.9)"/></g>
+<text x="504.77894736842103" y="94" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">1,341</text>
+<text x="20" y="132" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">A German works about 470 fewer hours than an American, roughly 10 weeks a year, and takes the difference as vacation.</text>
+</svg>
