@@ -1,0 +1,26 @@
+<svg viewBox="0 0 680 124" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="When the pre-speech check finds a gap, the conclusion still goes first but carries the uncertainty" style="max-width:100%;height:auto">
+<title>When the pre-speech check finds a gap, the conclusion still goes first but carries the uncertainty</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHEN THE CHECK FINDS A GAP</text>
+<rect x="20" y="26" width="146" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="93.0" y="50.666666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">before speaking:</text>
+<text x="93.0" y="64.16666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">what is my</text>
+<text x="93.0" y="77.66666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">conclusion?</text>
+<line x1="168.0" y1="61.0" x2="188.0" y2="61.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="190" y="26" width="146" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="263.0" y="50.666666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">a gap:</text>
+<text x="263.0" y="64.16666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">I know this less well</text>
+<text x="263.0" y="77.66666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">than I thought</text>
+<line x1="338.0" y1="61.0" x2="358.0" y2="61.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="360" y="26" width="146" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="433.0" y="43.916666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">the conclusion with</text>
+<text x="433.0" y="57.416666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">the uncertainty in it:</text>
+<text x="433.0" y="70.91666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">I lean this way, unsure</text>
+<text x="433.0" y="84.41666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">on a few points</text>
+<line x1="508.0" y1="61.0" x2="528.0" y2="61.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="530" y="26" width="146" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="603.0" y="50.666666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">then the reasons</text>
+<text x="603.0" y="64.16666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">and what I see</text>
+<text x="603.0" y="77.66666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">so far</text>
+<text x="20" y="112" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Still first, still easy to follow. It neither overclaims nor glosses over what needs more thought.</text>
+</svg>

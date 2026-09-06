@@ -24,6 +24,7 @@ Add public source references here as the wiki grows.
 - Basic Logic, "The Genetics Behind Unequal Societies" (YouTube, 2026-08-30). [[wiki/Worldviews & the Political Order/Genetics and Unequal Societies - The Distance Claim|Genetics and Unequal Societies - The Distance Claim]]
 - Basic Logic, "How Feminism Justified Killing Children" (YouTube, 2026-09-03). [[wiki/Worldviews & the Political Order/Late Stage Feminism|Late Stage Feminism]]
 - Asmongold TV, "This is genuinely f***ed.." (YouTube, 2026-09-05), a reaction to the Basic Logic video. [[wiki/Worldviews & the Political Order/Late Stage Feminism|Late Stage Feminism]]
+- Justin Sung, "5 Thinking Habits That Make You Look Smarter" (YouTube, 2026-08-28). [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]]
 - Front Page, "How The UK Became Poorer Than Mississippi" (YouTube, 2026-05-15). [[wiki/Worldviews & the Political Order/Britain - Poorer Than Mississippi|Britain - Poorer Than Mississippi]]
 - Andrej Karpathy, "From Vibe Coding to Agentic Engineering" (Sequoia AI Ascent, 2026). [[Andrej Karpathy From Vibe Coding to Agentic Engineering|Local transcript]]
 - Naval Ravikant and Nivi, "A Motorcycle for the Mind" (2026-02-20). [[raw/sources/A Motorcycle for the Mind|Local source]]

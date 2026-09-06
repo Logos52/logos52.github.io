@@ -43,6 +43,7 @@ Which returns to the commitment this page opened on: the true picture, given at 
 - [[wiki/Concepts/Charisma|Charisma]] — charm without this stance is a con.
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking]] — testing the frame you are being forthright inside.
 - [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]] — the trust substrate those models assume.
+- [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]] — the method for the feedback uniform: what was seen goes on the table before what it means.
 
 ## Open questions
 

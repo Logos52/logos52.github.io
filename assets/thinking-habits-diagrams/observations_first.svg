@@ -1,0 +1,29 @@
+<svg viewBox="0 0 680 202" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Feedback as a bare conclusion leaves doubt; observations first then the conclusion leaves something both can check" style="max-width:100%;height:auto">
+<title>Feedback as a bare conclusion leaves doubt; observations first then the conclusion leaves something both can check</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">FEEDBACK AFTER A WORKSHOP, TWO WAYS</text>
+<rect x="20" y="26" width="300" height="62" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
+<text x="170.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the conclusion alone:</text>
+<text x="170.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">it was not good,</text>
+<text x="170.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">fix this slide</text>
+<line x1="322.0" y1="57.0" x2="348.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="350" y="26" width="300" height="62" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="500.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">what the listener</text>
+<text x="500.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">is left with:</text>
+<text x="500.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">how do you know?</text>
+<rect x="20" y="104" width="196" height="62" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="118.0" y="124.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">what was seen:</text>
+<text x="118.0" y="138.33333333333331" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">faces going flat, yawning,</text>
+<text x="118.0" y="152.33333333333331" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">no hands up for questions</text>
+<line x1="218.0" y1="135.0" x2="240.0" y2="135.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="242" y="104" width="196" height="62" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="340.0" y="124.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">then the conclusion:</text>
+<text x="340.0" y="138.33333333333331" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">because of that,</text>
+<text x="340.0" y="152.33333333333331" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">here is what could change</text>
+<line x1="440.0" y1="135.0" x2="462.0" y2="135.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="464" y="104" width="196" height="62" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="562.0" y="124.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">what the listener</text>
+<text x="562.0" y="138.33333333333331" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">is left with:</text>
+<text x="562.0" y="152.33333333333331" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">I see it too</text>
+<text x="20" y="190" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The observations go on the table first. The conclusion arrives as something both people can check.</text>
+</svg>

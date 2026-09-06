@@ -112,6 +112,7 @@ The pause should make action cleaner, not impossible. A clean story still arrive
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] — why the first coherent path wins
 - [[wiki/Red Team/Red Teaming|Red Teaming]] — hub; this page is the operational filter
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]] — cost of waiting versus cost of more analysis
+- [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]] — the spoken forms: play the question back, say what would change the decision
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]] — too many options as delay
 - [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] — learning-use case
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — encoding that is thinking, not artifact
