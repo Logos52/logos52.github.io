@@ -3,7 +3,7 @@ type: synthesis
 status: developing
 description: "Central hub for the five capabilities that decide learning performance — Mindset, Self-Management, Self-Regulation, Deep Processing, Retrieval — where the weakest dimension sets the ceiling for the rest."
 created: 2026-05-04
-updated: 2026-08-14
+updated: 2026-09-06
 source-count: 10
 last-audited: 2026-08-14
 written-by: grok
@@ -59,6 +59,10 @@ Deep processing is how much power the engine has. Self-regulation is driving ski
 
 No one of the five is the foundation. Weakness in any one creates a bottleneck for the rest.
 
+## The n=1 layer
+
+Not everything in the learning pages rests on statistics. The findings that hold across people are a short list, and retrieval, spacing, and depth of processing are on it. Almost everything taught on top of that list is an n=1 solution. A memory trick, a note layout, a study schedule, or a mnemonic system was worked out by one person for one brain and is then taught as if it fit every brain. Taken as a science, that layer is close to a pseudoscience, because a solution built for one brain does not fit the different kinds of brains it gets sold to. Most of the tricks were legitimately derived from a real finding. They still work as a distraction, because the learner ends up working at the trick instead of at the thinking the finding asks for. So every technique page here is read in two layers. The finding underneath is the part that transfers. The trick on top is one person's packaging, kept while it produces the thinking and dropped when it stops.
+
 ## Where techniques sit
 
 Most techniques primarily serve one or two dimensions. Knowing which lets them land on the layer that is actually limiting, instead of stacking activity on a layer that is already holding.
@@ -95,6 +99,7 @@ The check is a bottleneck that can be named in one sentence, and a next session 
 
 ## Sources
 
+- The section on the n=1 layer is the owner's position, stated 2026-09-06. It is not sourced to a paper.
 - Mueller, C. M., & Dweck, C. S. (1998). Praise for intelligence can undermine children's motivation and performance. *Journal of Personality and Social Psychology, 75*(1), 33–52. Implicit theories: difficulty read as fuel, or as evidence of limits.
 - Wood, W., & Rünger, D. (2016). Psychology of habit. *Annual Review of Psychology, 67*, 289–314. Habits and environments that reduce reliance on willpower.
 - Galla, B. M., & Duckworth, A. L. (2015). More than resisting temptation: Beneficial habits mediate the relationship between self-control and positive life outcomes. *Journal of Personality and Social Psychology, 109*(3), 508–525. Consistent action as a product of systems rather than of momentary self-control.
