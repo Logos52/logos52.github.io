@@ -8,7 +8,11 @@ source and interview are not flagged, because the learning pages use them for th
 usage: source-words-check.py [PAGE.md ...]      (no args = every page under wiki/)
 Prints one line per hit and a count per page. Exit 1 if anything was flagged."""
 import re, sys, os, glob
-WORDS = r"\b(the|this|that|its|his|her|one)\s+(video|videos|transcript|transcripts|captions|podcast|podcasts|episode|episodes|documentary|lecture|lectures|talk)\b|\b(video|transcript|podcast|episode|documentary|lecture|talk)'s\b|\bin the (video|transcript|podcast|episode|lecture|talk)\b"
+WORDS = (r"\b(the|this|that|its|his|her)\s+(\d{4}\s+)?(video|videos|transcript|transcripts|captions|podcast|podcasts|episode|episodes|documentary|lecture|lectures|talk)\b"
+         r"|\b(video|transcript|podcast|episode|documentary|lecture|talk)'s\b"
+         r"|\b(a|an|one)\s+\d{4}\s+(video|episode|talk|lecture|podcast|documentary)\b"
+         r"|\b(a|an|one)\s+(video|episode|talk|lecture|podcast|documentary)\s+(about|on|from|by|that|which|traces|says|argues|calls|opens|makes|claims|gives|puts|ends|closes|frames)\b"
+         r"|\bin (a|the) (video|transcript|podcast|episode|lecture|talk)\b")
 pat = re.compile(WORDS, re.I)
 def body_before_sources(text):
     text = re.sub(r"^---\n.*?\n---\n", "", text, count=1, flags=re.S)
