@@ -3,18 +3,19 @@ title: "Five Thinking Habits - Conclusion First"
 type: concept
 status: developing
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-07
 written-by: fable
 method: fable-5.1-one-pass
 diagrams: scripts/gen-thinking-habits-diagrams.py
 source-count: 1
-description: "A listener judges your thinking by how you present it. Say the conclusion first, give observations before conclusions, play the question back, say what would change your mind, and compress to a line or two. Each habit puts the reasoning where the listener can see it, and each one makes you check it before you speak."
+description: "Five checks you run on your own thinking before you speak: say the conclusion first, give observations before conclusions, play the question back, say what would change your mind, and compress to a line or two. Each one catches a gap in your own understanding, which is what makes them a primer for learning, and each one puts your reasoning where a listener can see it."
 tags:
   - communication
   - thinking
   - feedback
   - decision-making
   - metacognition
+  - self-regulation
 ---
 
 # Five Thinking Habits - Conclusion First
@@ -23,7 +24,7 @@ tags:
 
 ### Abstract
 
-Conclusion first is the habit of saying what you think before you say why, and it is the first of five habits that make thinking easy to follow. The other four are to give your observations before your conclusion, to play a question back before answering it, to say up front what would change your mind, and to compress what you have to say into a line or two before you say it. All five rest on one fact about listeners. A listener judges your thinking by how you present it, not by what is in your head. A good thought delivered as a chain of reasoning gets rated as poor thinking, because the listener cannot hold five points at once and piece them together. Each habit puts your reasoning where the listener can see it. Each one also makes you check that reasoning before you speak. That check is why the habits make you smarter and not only sound smarter.
+Conclusion first is the habit of saying what you think before you say why, and it is the first of five habits that make thinking easy to follow. The other four are to give your observations before your conclusion, to play a question back before answering it, to say up front what would change your mind, and to compress what you have to say into a line or two before you say it. Each habit is a check you run on your own thinking before you speak. To say the conclusion first you have to know it. To give observations first you have to have some. To play the question back you have to have understood it. To name what would change your mind you have to have looked. To compress you have to know which parts are necessary. That check is what makes the five habits a primer for learning, and it is why they make you smarter and not only sound smarter. The habits also change what the listener gets. A listener judges your thinking by how you present it, not by what is in your head, and a good thought delivered as a chain of reasoning gets rated as poor thinking, because the listener cannot hold five points at once and piece them together. Each habit puts your reasoning where the listener can see it.
 
 ### Core takeaways
 
@@ -355,6 +356,8 @@ The habit is to compress before speaking. Take the complex opinion and find the 
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]] holds "name the frame" as the thirty-second check and "what would change the recommendation" as a written row. Playing the question back and saying what would change your mind are the spoken forms.
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] holds the illusion of explanatory depth, the fault that starting at the end catches.
 - [[wiki/Writing Craft/The Cold Open|The Cold Open]] holds conclusion first as the shape of a page.
+- [[wiki/Writing Craft/Five Writing Templates|Five Writing Templates]] turns each of the five habits into a shape for writing, at the size of one section or a whole page.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is the learning capacity the five habits train, watching your own thinking and adjusting it before it goes out.
 - [[wiki/Decision Making/Decision Making|Decision Making]] writes the falsifier down before the outcome is known, which is the antithesis on paper.
 
 ### Open questions

@@ -1,0 +1,23 @@
+<svg viewBox="0 0 680 204" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The page shape whole, part, whole with the template that fills each slot and the description line above it" style="max-width:100%;height:auto">
+<title>The page shape whole, part, whole with the template that fills each slot and the description line above it</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE PAGE SHAPE, AND WHICH TEMPLATE FILLS EACH SLOT</text>
+<rect x="20" y="26" width="640" height="40" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="340.0" y="49.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">the description line: compress it first, the page in one or two lines</text>
+<rect x="20" y="84" width="196" height="70" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="118.0" y="108.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">opening whole</text>
+<text x="118.0" y="122.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">start at the end,</text>
+<text x="118.0" y="136.33333333333331" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">or play the question back</text>
+<line x1="218.0" y1="119.0" x2="240.0" y2="119.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="242" y="84" width="196" height="70" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="340.0" y="108.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the parts</text>
+<text x="340.0" y="122.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">observations before</text>
+<text x="340.0" y="136.33333333333331" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">conclusions</text>
+<line x1="440.0" y1="119.0" x2="462.0" y2="119.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="464" y="84" width="196" height="70" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="562.0" y="108.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">closing whole</text>
+<text x="562.0" y="122.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">say what would</text>
+<text x="562.0" y="136.33333333333331" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">change your mind</text>
+<text x="20" y="176" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Whole, part, whole is the shape every page here takes. Four templates fill its three slots and the fifth is the page at its shortest.</text>
+<text x="20" y="192" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Two templates also make a page of their own kind: the record page and the condensed page.</text>
+</svg>

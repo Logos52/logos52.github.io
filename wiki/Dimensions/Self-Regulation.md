@@ -3,7 +3,7 @@ title: Self-Regulation
 type: dimension
 status: developing
 created: 2026-05-04
-updated: 2026-08-14
+updated: 2026-09-07
 last-audited: 2026-08-14
 source-count: 7
 written-by: grok
@@ -39,6 +39,7 @@ Monitoring needs an observer. [[wiki/Dimensions/Self-Regulation/Metacognition - 
 - [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|How to Shift Your Brain to Be Motivated]] — acting while the wanting is absent, without waiting for the feeling to arrive
 - [[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure|How to Maintain Sustainable Energy Under Pressure]] — emotional and energetic resources under load
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] — thinking about thinking so a technique's effect on thinking can be seen; neglected, techniques run blind
+- [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]] — five checks run on your own thinking before you speak: say the conclusion first, observations before conclusions, play the question back, say what would change your mind, compress to a line or two; each one catches a gap in your own understanding
 - [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] — whether a technique produces the intended quality of thinking, or only the appearance of learning
 - [[wiki/Dimensions/30-Day Challenges/Self-Regulation Challenge|30-Day Challenge – Self-Regulation]] — four weeks of monitoring and adjustment practice
 - [[wiki/Dimensions/Self-Regulation/Opening the Black Box of Learning|Opening the Black Box of Learning]] — process-visibility; the dimension's information-flow mapping lives there, not here

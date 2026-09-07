@@ -3,7 +3,7 @@ title: "Writing Standards"
 type: system
 status: developing
 created: 2026-05-08
-updated: 2026-09-05
+updated: 2026-09-07
 rebuilt: 2026-08-20
 supersedes: "_archive/Writing Standards - 156 laws - retired 2026-08-20.md"
 tags:
@@ -33,6 +33,8 @@ You open in the whole — the bird's-eye the act already gives — go into the p
 The parts can run in any number so long as a whole frames them at both ends: whole–part–whole, whole–part–part–whole, whole–part–whole–part–whole. When the parts start to run long, put a whole between them — the reader needs to see the thing again before the next part, and the tell that you've waited too long is monotony: too many parts needs a W. What never happens is parts with no whole in front, where the page opens in the machinery, or parts with no whole behind, where the page just stops.
 
 The closing whole is the opening whole, advanced. Same ground, the reader standing further along on it, the question the opening raised now answerable. Not a replay, not a summary, not the intro re-said — a close that re-said its opening was struck 2026-07-02. And the register the opening set is the register all the way through: a ramp in speech followed by a body of stacked facts breaks the register, and the break is felt hardest in the middle and at the close. Ruled 2026-08-13: the ending and the intro are mirrors; WPW for everything.
+
+Each slot of the shape has a template with its slots written out, one per thinking habit, in [[02 - System/Writing Templates|Writing Templates]]: the opening whole is the answer (or the question played back), each part is observations before the reading, the closing whole carries what would change it, and the description line is the compression written first. Added 2026-09-07 on the owner's direction.
 
 ---
 
