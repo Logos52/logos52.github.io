@@ -1,0 +1,29 @@
+<svg viewBox="0 0 680 202" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Step six: who is looking changes what is seen, and the slide into nobody being allowed to judge" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title>Step six: who is looking changes what is seen, and the slide into nobody being allowed to judge</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">Step six, the one looking: what it sees, and where it slips</text>
+<rect x="20" y="26" width="196" height="58" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="118.0" y="44.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">a different person</text>
+<text x="118.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">looking gives a</text>
+<text x="118.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">different picture</text>
+<line x1="218.0" y1="55.0" x2="240.0" y2="55.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="242" y="26" width="196" height="58" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="340.0" y="51.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">so no view is</text>
+<text x="340.0" y="65.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">fully objective</text>
+<line x1="440.0" y1="55.0" x2="462.0" y2="55.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="464" y="26" width="196" height="58" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="562.0" y="51.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">many views</text>
+<text x="562.0" y="65.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">are valid</text>
+<rect x="20" y="104" width="196" height="58" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="118.0" y="129.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">he broke the rules</text>
+<text x="118.0" y="143.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">of the place he is in</text>
+<line x1="218.0" y1="133.0" x2="240.0" y2="133.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="242" y="104" width="196" height="58" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="340.0" y="129.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">"that is how we do it</text>
+<text x="340.0" y="143.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">where I am from"</text>
+<line x1="440.0" y1="133.0" x2="462.0" y2="133.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="464" y="104" width="196" height="58" rx="8" fill="rgba(91,108,176,.16)" stroke="rgba(91,108,176,.9)" stroke-width="1.3"/>
+<text x="562.0" y="129.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">"who are you</text>
+<text x="562.0" y="143.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">to judge?"</text>
+<text x="20" y="190" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">A high point of moral development, and the level that goes wrong most, because every view being valid slides into nobody being allowed to judge.</text>
+</svg>

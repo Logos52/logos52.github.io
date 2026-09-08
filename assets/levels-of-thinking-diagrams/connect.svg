@@ -1,0 +1,18 @@
+<svg viewBox="0 0 680 122" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="step two, connect: Thinking about other minds begins here, but only to get what you need from them." style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title>step two, connect: Thinking about other minds begins here, but only to get what you need from them.</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">Step two, connect</text>
+<rect x="20" y="26" width="196" height="58" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="118.0" y="51.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">other people</text>
+<text x="118.0" y="65.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">have minds and wants</text>
+<line x1="218.0" y1="55.0" x2="240.0" y2="55.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="242" y="26" width="196" height="58" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="340.0" y="44.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">what I do changes</text>
+<text x="340.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">what they think of me</text>
+<text x="340.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">and do for me</text>
+<line x1="440.0" y1="55.0" x2="462.0" y2="55.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="464" y="26" width="196" height="58" rx="8" fill="rgba(91,108,176,.16)" stroke="rgba(91,108,176,.9)" stroke-width="1.3"/>
+<text x="562.0" y="51.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">maybe the volcano</text>
+<text x="562.0" y="65.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">wants something too</text>
+<text x="20" y="110" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Thinking about other minds begins here, but only to get what you need from them.</text>
+</svg>

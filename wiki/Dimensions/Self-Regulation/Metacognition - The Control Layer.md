@@ -3,7 +3,7 @@ title: "Metacognition - The Control Layer"
 type: concept
 status: seed
 created: 2026-05-02
-updated: 2026-08-14
+updated: 2026-09-08
 written-by: grok
 model: grok
 source-count: 11
@@ -123,6 +123,7 @@ Which signals distinguish productive effort from unproductive overload. [[wiki/C
 - [[wiki/Dimensions/Retrieval|Retrieval]] — the retrieval side the layer watches.
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — the map of layers this one sits inside.
 - [[wiki/Red Team/Red Teaming|Red Teaming]] — the decision-making version of the same noticing: assumptions, frames, group dynamics, and blind spots caught before a plan fails.
+- [[wiki/Concepts/Levels of Thinking - The Step Back|Levels of Thinking - The Step Back]] — nine steps back from your own reaction, from your own needs up to watching your mind build a reaction; the why method for climbing them.
 
 ## Sources
 

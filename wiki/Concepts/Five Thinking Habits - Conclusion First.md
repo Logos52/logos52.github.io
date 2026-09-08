@@ -3,7 +3,7 @@ title: "Five Thinking Habits - Conclusion First"
 type: concept
 status: developing
 created: 2026-09-06
-updated: 2026-09-07
+updated: 2026-09-08
 written-by: fable
 method: fable-5.1-one-pass
 diagrams: scripts/gen-thinking-habits-diagrams.py
@@ -358,6 +358,7 @@ The habit is to compress before speaking. Take the complex opinion and find the 
 - [[wiki/Writing Craft/The Cold Open|The Cold Open]] holds conclusion first as the shape of a page.
 - [[wiki/Writing Craft/Five Writing Templates|Five Writing Templates]] turns each of the five habits into a shape for writing, at the size of one section or a whole page.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is the learning capacity the five habits train, watching your own thinking and adjusting it before it goes out.
+- [[wiki/Concepts/Levels of Thinking - The Step Back|Levels of Thinking - The Step Back]] holds nine steps back from your own reaction. Each habit here is one step back taken before speaking.
 - [[wiki/Decision Making/Decision Making|Decision Making]] writes the falsifier down before the outcome is known, which is the antithesis on paper.
 
 ### Open questions
