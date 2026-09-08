@@ -43,11 +43,11 @@ tags:
 
 ## Recent entries
 
+- [[journal/2026-09-08-the-two-wholes|2026-09-08]] — The two wholes — The owner's definition of the opening whole and the closing whole, given 2026-09-08, and what it changed on the Five Writing Templates page and in Writing Standards §2.
+- [[journal/2026-09-07-dcard-ingest-full-treatment|2026-09-07]] — Dcard ingest gets the full treatment — Wedge ruled that every Dcard ingest includes comments, pictures, scores, reader English in en.json, and a reader restart. Chat translation is extra. The Cantonese hkfreshmen post 262068471 was deleted.
+- [[journal/2026-09-07-page-media-save|2026-09-07]] — Page Media Save instead of FastSave / VDH wait — Built a local unpacked Brave extension at /Users/n1/Projects/private/page-media-save. It saves media the current tab already loaded. No 2-hour wait. Unpublished local tools live under /Users/n1/Projects/private/, not at 
+- [[journal/2026-09-07-stop-auto-opening-markdown|2026-09-07]] — Stop auto-opening markdown — Claude and Grok must not macOS-open .md files. Full /Users/n1/... paths stay in replies. HTML, images, PDF, and audio still open. JSON still does not.
 - [[journal/2026-09-05-eli5-is-a-format-not-a-writer|2026-09-05]] — ELI5 is a format, not a writer — Wedge retired Haiku as the ELI5 writer. The ELI5 treatment is now the format (contents bar, subject defined in sentence one, example bullets, a figure per idea) on top of the Fable 5.1 one-pass method with no rewrite pass. First page built this way: Dating Apps - The Gini Coefficient, with twenty figures.
-- [[journal/2026-09-04-designing-grok-bot-and-self-hosted|2026-09-04]] — Designing Grok Bot and Cursor self-hosted machines — Shortforms of two 3 Sep / 2 Sep ships Brief skipped. Wedge asked for the recaps, said not needed now, park here.
-- [[journal/2026-09-03-grok-tts-mandarin|2026-09-03]] — Grok TTS is out for Mandarin — Grok Text to Speech failed an ear test on Mandarin podcast lines. Production stays on local Chinese TTS (Qwen3-TTS). Catalog A-43. Zero-like. Do not retry this engine for Mandarin.
-- [[journal/2026-09-01-grok-writes|2026-09-01]] — Grok writes — Fable's writing now costs too many tokens for the quality it returns. Grok 4.6 is the default writer for vault wiki, journal, decisions, and reports. Banks and execution stay on Grok. The 13–15 August Fable ranking is history, not the live seat.
-- [[journal/2026-08-31-state-of-ai|2026-08-31]] — State of AI, end of August 2026 — Month-end snapshot of working AI. Five lab families sit close on capability. Daily users pick by failure mode: Claude's dialect, Sol's cheating, Grok's wrong facts, Gemini's trust split, and party-line answers from DeepSeek, Qwen, GLM, and Kimi.
 
 [[journal/calendar|Full calendar →]]
 

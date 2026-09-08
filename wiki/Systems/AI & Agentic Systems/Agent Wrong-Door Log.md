@@ -28,6 +28,7 @@ How to file: date, the job in one sentence, the product used, the product that s
 | standing | Vault prose, openings, craft | Cursor Cloud Agent or Grok Bot | Fable in Cowork; rewrite and cold read as Claude Code subagents | Cloud and standing seats are not the author of this vault | Signed on the stack page 15 and 21 August 2026. |
 | 2026-08-28 | Understanding Claude Managed Agents | Treating Managed Agents as a local coding seat | Claude Code / Grok Build locally | Name collision with "managed subagent"; hosted session billed while this machine already runs the loop | Managed Agents is not a seat. |
 | 2026-08-28 | Hosted / programmable Claude agents | Claude Managed Agents, Agent SDK, Messages API | Chat / Code / Cowork subscription, or Grok Build / Cursor on subscription | Token meter plus $0.08 per running session-hour | "i don't like anything with API." This desk does not buy pay-per-token or session-hour runtimes. |
+| 2026-09-08 | Video Download Helper clone minus the 2-hour lock (Brave unpacked extension, real MP4 to Downloads) | Grok Build | Fable in Cowork, owner-directed | Grok recorded WebM, saved CDN WebM, failed downloads (interrupt 40), never verified a live MP4 | "sorry Grok but you just aren't pulling your weight." Handoff: `/Users/n1/Projects/private/HANDOFF-PAGE-MEDIA-SAVE-TO-FABLE-2026-09-08.md` |
 
 ## Links Into the Knowledge Base
 
