@@ -1,20 +1,20 @@
-<svg viewBox="0 0 680 200" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="deaths, millions, as the account gives them" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 200" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="deaths, millions, as the account gives them" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>deaths, millions, as the account gives them</title>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">DEATHS, MILLIONS, AS THE ACCOUNT GIVES THEM</text>
-<text x="292" y="38" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">the Taiping wars, both sides, 1850s to 1860s</text>
-<g><title>70 million or more</title><rect x="300.0" y="26.0" width="317.3" height="15.0" rx="3" fill="rgba(129,86,166,0.7)"/></g>
-<text x="623.3333333333333" y="38" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">70</text>
-<text x="292" y="66" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">the Great Leap, 1958 to 1962, minimum</text>
-<g><title>at least 45 million</title><rect x="300.0" y="54.0" width="204.0" height="15.0" rx="3" fill="rgba(129,86,166,0.9)"/></g>
-<text x="510.0" y="66" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">45</text>
-<text x="292" y="94" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">the Great Leap, some Chinese historians</text>
-<g><title>50 million</title><rect x="300.0" y="82.0" width="226.7" height="15.0" rx="3" fill="rgba(129,86,166,0.5)"/></g>
-<text x="532.6666666666666" y="94" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">50</text>
-<text x="292" y="122" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">Sichuan alone, upper figure</text>
-<g><title>9 to 12 million</title><rect x="300.0" y="110.0" width="54.4" height="15.0" rx="3" fill="rgba(129,86,166,0.6)"/></g>
-<text x="360.4" y="122" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">12</text>
-<text x="292" y="150" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">one prefecture of 8 million</text>
-<g><title>2.4 million</title><rect x="300.0" y="138.0" width="10.9" height="15.0" rx="3" fill="rgba(47,158,143,0.9)"/></g>
-<text x="316.88" y="150" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">2.4</text>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">Deaths, millions, as the account gives them</text>
+<text x="292" y="38" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">the Taiping wars, both sides, 1850s to 1860s</text>
+<g><title>70 million or more</title><rect x="300.0" y="26.0" width="317.3" height="15.0" rx="4" fill="rgba(129,86,166,0.32999999999999996)" stroke="rgba(129,86,166,.9)" stroke-width="1"/></g>
+<text x="623.3333333333333" y="38" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">70</text>
+<text x="292" y="66" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">the Great Leap, 1958 to 1962, minimum</text>
+<g><title>at least 45 million</title><rect x="300.0" y="54.0" width="204.0" height="15.0" rx="4" fill="rgba(129,86,166,0.39)" stroke="rgba(129,86,166,.9)" stroke-width="1"/></g>
+<text x="510.0" y="66" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">45</text>
+<text x="292" y="94" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">the Great Leap, some Chinese historians</text>
+<g><title>50 million</title><rect x="300.0" y="82.0" width="226.7" height="15.0" rx="4" fill="rgba(129,86,166,0.27)" stroke="rgba(129,86,166,.9)" stroke-width="1"/></g>
+<text x="532.6666666666666" y="94" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">50</text>
+<text x="292" y="122" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">Sichuan alone, upper figure</text>
+<g><title>9 to 12 million</title><rect x="300.0" y="110.0" width="54.4" height="15.0" rx="4" fill="rgba(129,86,166,0.3)" stroke="rgba(129,86,166,.9)" stroke-width="1"/></g>
+<text x="360.4" y="122" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">12</text>
+<text x="292" y="150" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">one prefecture of 8 million</text>
+<g><title>2.4 million</title><rect x="300.0" y="138.0" width="10.9" height="15.0" rx="4" fill="rgba(47,158,143,0.39)" stroke="rgba(47,158,143,.9)" stroke-width="1"/></g>
+<text x="316.88" y="150" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">2.4</text>
 <text x="20" y="188" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Food was the weapon: no work points, no ration, and the pregnant, the sick, the old, and the undesirable were cut off.</text>
 </svg>

@@ -18,11 +18,11 @@ def chain(steps, y, color, w=118, h=58, x0=20, gap=22, size=10, colors=None):
 
 def fig_the_answer():
     out = [MARKER, cap(20, 14, "what happens to each thing the material offers")]
-    out.append(box(20, 26, 150, 62, ["a passage,", "a diagram,", "a fact"], None, 10))
+    out.append(box(20, 26, 150, 62, ["a passage,", "a diagram,", "a fact"], None, 10)); out.append(icon("book", 26, 30, 14))
     out.append(arrow(174, 57, 206, 57))
-    out.append(box(210, 26, 190, 62, ["three questions in the head:", "what is it, why is it important,", "how does it relate"], ST, 9.5))
+    out.append(box(210, 26, 190, 62, ["three questions in the head", "what is it, why is it important,", "how does it relate"], ST, 9.5)); out.append(icon("question", 216, 30, 14, "#2f9e8f"))
     out.append(arrow(404, 57, 436, 57))
-    out.append(box(440, 26, 220, 62, ["onto the map as a link", "to what is already there,", "or marked and left"], ST, 10))
+    out.append(box(440, 26, 220, 62, ["onto the map as a link", "to what is already there,", "or marked and left"], ST, 10)); out.append(icon("map", 446, 30, 14, "#2f9e8f"))
     out.append(txt(20, 112, "An answer counts when it is logical, so it can be rebuilt, and interconnected, so the brain keeps it. Nothing is copied.", 10.5, .78))
     return svg("the_answer", 124, "Each thing the material offers passes through three questions and lands on the map as a link, or is marked and left", "\n".join(out))
 
@@ -30,10 +30,10 @@ def fig_replaces():
     out = [MARKER, cap(20, 14, "what shoot replaces, and what keeps running")]
     out.append(box(20, 26, 200, 50, ["traffic light, green light:", "answering the questions"], None, 10)); out.append(arrow(224, 51, 256, 51)); out.append(box(260, 26, 140, 50, ["Shoot"], ST, 12))
     out.append(box(20, 88, 200, 50, ["collect and process notes"], None, 10)); out.append(arrow(224, 113, 256, 113)); out.append(box(260, 88, 140, 50, ["the map"], ST, 12))
-    out.append(cap(430, 14, "still running underneath"))
-    out.append(box(430, 26, 230, 34, ["Aim, as it was"], ST, 10))
-    out.append(box(430, 68, 230, 34, ["maintaining focus and BEDS-M, into habits"], None, 9.5))
-    out.append(box(430, 110, 230, 34, ["scheduling and retrieval, second nature"], None, 9.5))
+    out.append(panel(418, 6, 254, 152, "still running underneath", ST, 11))
+    out.append(box(430, 34, 230, 32, ["Aim, as it was"], ST, 10))
+    out.append(box(430, 74, 230, 32, ["maintaining focus and BEDS-M, into habits"], None, 9.5))
+    out.append(box(430, 114, 230, 32, ["scheduling and retrieval, second nature"], None, 9.5))
     out.append(txt(20, 166, "The drill is gone from here. Aim and Shoot run alone.", 10.5, .78))
     return svg("replaces", 178, "Shoot replaces the green light and the old notes; Aim, focus, BEDS-M, scheduling, and retrieval keep running", "\n".join(out))
 

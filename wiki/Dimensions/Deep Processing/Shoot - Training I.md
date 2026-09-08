@@ -47,24 +47,27 @@ The feelings are the audit here as they were in Aim. Effort and confusion are th
 The bar at the end of the stage asks for the two passes to connect without a seam, at an effort that has become moderately low. The habits underneath keep running. Kolb's cycle is run well, because from here on the reasons a result is off are fine-grained. The bar is about the pass. Whether the map has the right chunks, in the right layers, with no chains and no reversed causes, is the standard. The standard is the next page.
 
 <!-- diagram:the_answer -->
-<svg viewBox="0 0 680 124" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Each thing the material offers passes through three questions and lands on the map as a link, or is marked and left" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 124" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Each thing the material offers passes through three questions and lands on the map as a link, or is marked and left" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>Each thing the material offers passes through three questions and lands on the map as a link, or is marked and left</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHAT HAPPENS TO EACH THING THE MATERIAL OFFERS</text>
-<rect x="20" y="26" width="150" height="62" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="95.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a passage,</text>
-<text x="95.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a diagram,</text>
-<text x="95.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a fact</text>
-<line x1="174.0" y1="57.0" x2="206.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="210" y="26" width="190" height="62" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="305.0" y="46.666666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">three questions in the head:</text>
-<text x="305.0" y="60.166666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">what is it, why is it important,</text>
-<text x="305.0" y="73.66666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">how does it relate</text>
-<line x1="404.0" y1="57.0" x2="436.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="440" y="26" width="220" height="62" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="550.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">onto the map as a link</text>
-<text x="550.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">to what is already there,</text>
-<text x="550.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">or marked and left</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">What happens to each thing the material offers</text>
+<rect x="20" y="26" width="150" height="62" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="95.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">a passage,</text>
+<text x="95.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">a diagram,</text>
+<text x="95.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">a fact</text>
+<g transform="translate(26.0,30.0) scale(0.875)" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity=".9"><path d="M2 3h5a2 2 0 0 1 2 2v9a1.5 1.5 0 0 0-1.5-1.5H2z"/><path d="M14 3H9a2 2 0 0 0-2 2v9a1.5 1.5 0 0 1 1.5-1.5H14z"/></g>
+<line x1="174.0" y1="57.0" x2="206.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="210" y="26" width="190" height="62" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="305.0" y="46.666666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">three questions in the head</text>
+<text x="305.0" y="60.166666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">what is it, why is it important,</text>
+<text x="305.0" y="73.66666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">how does it relate</text>
+<g transform="translate(216.0,30.0) scale(0.875)" fill="none" stroke="#2f9e8f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity=".9"><circle cx="8" cy="8" r="6.5"/><path d="M6 6.2a2 2 0 1 1 3 1.7c-.8.5-1 1-1 1.8"/><circle cx="8" cy="12" r=".7" fill="#2f9e8f"/></g>
+<line x1="404.0" y1="57.0" x2="436.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="440" y="26" width="220" height="62" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="550.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">onto the map as a link</text>
+<text x="550.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">to what is already there,</text>
+<text x="550.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">or marked and left</text>
+<g transform="translate(446.0,30.0) scale(0.875)" fill="none" stroke="#2f9e8f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity=".9"><circle cx="8" cy="3" r="2"/><circle cx="3" cy="12" r="2"/><circle cx="13" cy="12" r="2"/><path d="M7 4.6L4 10.4M9 4.6l3 5.8M5 12h6"/></g>
 <text x="20" y="112" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">An answer counts when it is logical, so it can be rebuilt, and interconnected, so the brain keeps it. Nothing is copied.</text>
 </svg>
 <!-- /diagram -->
@@ -86,28 +89,29 @@ The five parts below run in the order the pass is learned.
 - Keep Aim, focus, BEDS-M, scheduling, and retrieval running underneath.
 
 <!-- diagram:replaces -->
-<svg viewBox="0 0 680 178" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shoot replaces the green light and the old notes; Aim, focus, BEDS-M, scheduling, and retrieval keep running" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 178" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shoot replaces the green light and the old notes; Aim, focus, BEDS-M, scheduling, and retrieval keep running" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>Shoot replaces the green light and the old notes; Aim, focus, BEDS-M, scheduling, and retrieval keep running</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHAT SHOOT REPLACES, AND WHAT KEEPS RUNNING</text>
-<rect x="20" y="26" width="200" height="50" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="120.0" y="47.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">traffic light, green light:</text>
-<text x="120.0" y="61.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">answering the questions</text>
-<line x1="224.0" y1="51.0" x2="256.0" y2="51.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="260" y="26" width="140" height="50" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="330.0" y="55.0" font-size="12" fill="currentColor" opacity="0.85" text-anchor="middle">Shoot</text>
-<rect x="20" y="88" width="200" height="50" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="120.0" y="116.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">collect and process notes</text>
-<line x1="224.0" y1="113.0" x2="256.0" y2="113.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="260" y="88" width="140" height="50" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="330.0" y="117.0" font-size="12" fill="currentColor" opacity="0.85" text-anchor="middle">the map</text>
-<text x="430" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">STILL RUNNING UNDERNEATH</text>
-<rect x="430" y="26" width="230" height="34" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="545.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">Aim, as it was</text>
-<rect x="430" y="68" width="230" height="34" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="545.0" y="88.16666666666667" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">maintaining focus and BEDS-M, into habits</text>
-<rect x="430" y="110" width="230" height="34" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="545.0" y="130.16666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">scheduling and retrieval, second nature</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">What shoot replaces, and what keeps running</text>
+<rect x="20" y="26" width="200" height="50" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="120.0" y="47.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">traffic light, green light:</text>
+<text x="120.0" y="61.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">answering the questions</text>
+<line x1="224.0" y1="51.0" x2="256.0" y2="51.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="260" y="26" width="140" height="50" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="330.0" y="55.0" font-size="12" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">Shoot</text>
+<rect x="20" y="88" width="200" height="50" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="120.0" y="116.33333333333333" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">collect and process notes</text>
+<line x1="224.0" y1="113.0" x2="256.0" y2="113.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="260" y="88" width="140" height="50" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="330.0" y="117.0" font-size="12" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the map</text>
+<rect x="418" y="6" width="254" height="152" rx="14" fill="rgba(47,158,143,.07)" stroke="rgba(47,158,143,.45)" stroke-width="1"/>
+<text x="545.0" y="24" font-size="11" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="700">still running underneath</text>
+<rect x="430" y="34" width="230" height="32" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="545.0" y="53.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">Aim, as it was</text>
+<rect x="430" y="74" width="230" height="32" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="545.0" y="93.16666666666667" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">maintaining focus and BEDS-M, into habits</text>
+<rect x="430" y="114" width="230" height="32" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="545.0" y="133.16666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">scheduling and retrieval, second nature</text>
 <text x="20" y="166" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The drill is gone from here. Aim and Shoot run alone.</text>
 </svg>
 <!-- /diagram -->
@@ -123,33 +127,33 @@ Two things get replaced and three keep running. The green light of the traffic l
 - Add one note rule at a time until all seven hold. Redo the first messy map; redoing is part of the system.
 
 <!-- diagram:the_session -->
-<svg viewBox="0 0 680 120" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A session runs back and forth between the map and the material, never front to back" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 120" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A session runs back and forth between the map and the material, never front to back" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>A session runs back and forth between the map and the material, never front to back</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">A GOOD SESSION, WATCHED FROM ACROSS A DESK</text>
-<rect x="20" y="26" width="96" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="68.0" y="50.416666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">read a</text>
-<text x="68.0" y="63.916666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">stretch</text>
-<line x1="118.0" y1="54.0" x2="128.0" y2="54.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="130" y="26" width="96" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="178.0" y="50.416666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">stop, flip</text>
-<text x="178.0" y="63.916666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">back</text>
-<line x1="228.0" y1="54.0" x2="238.0" y2="54.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="240" y="26" width="96" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="288.0" y="50.416666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">write a</text>
-<text x="288.0" y="63.916666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">few lines</text>
-<line x1="338.0" y1="54.0" x2="348.0" y2="54.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="350" y="26" width="96" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="398.0" y="50.416666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">join them to</text>
-<text x="398.0" y="63.916666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">the map</text>
-<line x1="448.0" y1="54.0" x2="458.0" y2="54.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="460" y="26" width="96" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="508.0" y="50.416666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">find the next</text>
-<text x="508.0" y="63.916666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">question</text>
-<line x1="558.0" y1="54.0" x2="568.0" y2="54.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="570" y="26" width="96" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="618.0" y="50.416666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">back into</text>
-<text x="618.0" y="63.916666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">the material</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">A good session, watched from across a desk</text>
+<rect x="20" y="26" width="96" height="56" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="68.0" y="50.416666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">read a</text>
+<text x="68.0" y="63.916666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">stretch</text>
+<line x1="118.0" y1="54.0" x2="128.0" y2="54.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="130" y="26" width="96" height="56" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="178.0" y="50.416666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">stop, flip</text>
+<text x="178.0" y="63.916666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">back</text>
+<line x1="228.0" y1="54.0" x2="238.0" y2="54.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="240" y="26" width="96" height="56" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="288.0" y="50.416666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">write a</text>
+<text x="288.0" y="63.916666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">few lines</text>
+<line x1="338.0" y1="54.0" x2="348.0" y2="54.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="350" y="26" width="96" height="56" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="398.0" y="50.416666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">join them to</text>
+<text x="398.0" y="63.916666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the map</text>
+<line x1="448.0" y1="54.0" x2="458.0" y2="54.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="460" y="26" width="96" height="56" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="508.0" y="50.416666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">find the next</text>
+<text x="508.0" y="63.916666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">question</text>
+<line x1="558.0" y1="54.0" x2="568.0" y2="54.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="570" y="26" width="96" height="56" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="618.0" y="50.416666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">back into</text>
+<text x="618.0" y="63.916666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the material</text>
 <text x="20" y="108" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Back and forth, not front to back. It looks chaotic from outside. Reading in the book's order is the real chaos.</text>
 </svg>
 <!-- /diagram -->
@@ -157,33 +161,33 @@ Two things get replaced and three keep running. The green light of the traffic l
 Watched from across a desk, a good session looks like this. A stretch of reading, a stop, a flip back to something earlier, a few lines written, a pause to join them to what is already on the map, and the material re-entered for the question that just appeared. Back and forth, not front to back. It looks chaotic from outside. From inside it is the opposite. Following the order the material was written in is the real chaos. The brain has to work out what a passage means, where it belongs, and why it matters, all at once. That is where retention drops. The order you answer in will change as you go, almost guaranteed. The notes are made so that changing it costs nothing. Three questions run in the head for each thing the material offers. What is it, why is it important, how does it relate. The answer to the second is usually a link to something already on the map, and that link is what gets drawn. Not every question gets a clean answer. Some are too advanced for this pass. The learning is in the attempt, so an unanswered question is marked and left, not forced.
 
 <!-- diagram:the_rules -->
-<svg viewBox="0 0 680 254" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The six letters of the note rules and what each one blocks" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 254" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The six letters of the note rules and what each one blocks" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>The six letters of the note rules and what each one blocks</title>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE SEVEN NOTE RULES, ADDED ONE AT A TIME</text>
-<rect x="20" y="26" width="120" height="28" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="80.0" y="43.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">Visual</text>
-<rect x="150" y="26" width="510" height="28" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="405.0" y="43.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">fewer words, doodles and shorthand carry it</text>
-<rect x="20" y="60" width="120" height="28" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="80.0" y="77.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">Processed</text>
-<rect x="150" y="60" width="510" height="28" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="405.0" y="77.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">nothing on the page that skipped the three questions</text>
-<rect x="20" y="94" width="120" height="28" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="80.0" y="111.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">Relational</text>
-<rect x="150" y="94" width="510" height="28" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="405.0" y="111.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">relationships, not items</text>
-<rect x="20" y="128" width="120" height="28" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="80.0" y="145.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">Freehand</text>
-<rect x="150" y="128" width="510" height="28" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="405.0" y="145.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a pen on an infinite canvas, not a keyboard</text>
-<rect x="20" y="162" width="120" height="28" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="80.0" y="179.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">Reflective</text>
-<rect x="150" y="162" width="510" height="28" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="405.0" y="179.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">your order, the one Aim chose</text>
-<rect x="20" y="196" width="120" height="28" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="80.0" y="213.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">Efficient</text>
-<rect x="150" y="196" width="510" height="28" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="405.0" y="213.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">after a block: did you keep it, can you use it</text>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">The seven note rules, added one at a time</text>
+<rect x="20" y="26" width="120" height="28" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="80.0" y="43.5" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">Visual</text>
+<rect x="150" y="26" width="510" height="28" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="405.0" y="43.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">fewer words, doodles and shorthand carry it</text>
+<rect x="20" y="60" width="120" height="28" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="80.0" y="77.5" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">Processed</text>
+<rect x="150" y="60" width="510" height="28" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="405.0" y="77.33333333333333" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">nothing on the page that skipped the three questions</text>
+<rect x="20" y="94" width="120" height="28" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="80.0" y="111.5" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">Relational</text>
+<rect x="150" y="94" width="510" height="28" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="405.0" y="111.33333333333333" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">relationships, not items</text>
+<rect x="20" y="128" width="120" height="28" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="80.0" y="145.5" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">Freehand</text>
+<rect x="150" y="128" width="510" height="28" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="405.0" y="145.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">a pen on an infinite canvas, not a keyboard</text>
+<rect x="20" y="162" width="120" height="28" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="80.0" y="179.5" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">Reflective</text>
+<rect x="150" y="162" width="510" height="28" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="405.0" y="179.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">your order, the one Aim chose</text>
+<rect x="20" y="196" width="120" height="28" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="80.0" y="213.5" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">Efficient</text>
+<rect x="150" y="196" width="510" height="28" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="405.0" y="213.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">after a block: did you keep it, can you use it</text>
 <text x="20" y="242" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Forgetting more than 30% of what was written means an earlier rule failed. Cornell notes are the overhyped version of collect and process.</text>
 </svg>
 <!-- /diagram -->
@@ -197,30 +201,30 @@ Seven rules hold the notes to the pass. They are added one at a time, because a 
 - No certainty for a while: expected. Early certainty is the illusion.
 
 <!-- diagram:feelings -->
-<svg viewBox="0 0 680 176" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Effort and withheld certainty are expected; drowsiness and ease are the alarms" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 176" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Effort and withheld certainty are expected; drowsiness and ease are the alarms" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>Effort and withheld certainty are expected; drowsiness and ease are the alarms</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">HOW IT FEELS, AND WHAT EACH FEELING MEANS</text>
-<rect x="20" y="26" width="250" height="30" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="145.0" y="44.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">effort, confusion, struggle</text>
-<line x1="274.0" y1="41.0" x2="306.0" y2="41.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="310" y="26" width="350" height="30" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="485.0" y="44.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the brain working; difficulty tracks learning</text>
-<rect x="20" y="62" width="250" height="30" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="145.0" y="80.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">no certainty for a long while</text>
-<line x1="274.0" y1="77.0" x2="306.0" y2="77.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="310" y="62" width="350" height="30" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="485.0" y="80.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the honest version; early certainty is the illusion</text>
-<rect x="20" y="98" width="250" height="30" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="145.0" y="116.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">drowsy</text>
-<line x1="274.0" y1="113.0" x2="306.0" y2="113.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="310" y="98" width="350" height="30" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="485.0" y="116.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the alarm; the processing has stopped</text>
-<rect x="20" y="134" width="250" height="30" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="145.0" y="152.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">easy</text>
-<line x1="274.0" y1="149.0" x2="306.0" y2="149.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="310" y="134" width="350" height="30" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="485.0" y="152.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the alarm; not applied to the standard</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">How it feels, and what each feeling means</text>
+<rect x="20" y="26" width="250" height="30" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="145.0" y="44.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">effort, confusion, struggle</text>
+<line x1="274.0" y1="41.0" x2="306.0" y2="41.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="310" y="26" width="350" height="30" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="485.0" y="44.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the brain working; difficulty tracks learning</text>
+<rect x="20" y="62" width="250" height="30" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="145.0" y="80.33333333333333" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">no certainty for a long while</text>
+<line x1="274.0" y1="77.0" x2="306.0" y2="77.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="310" y="62" width="350" height="30" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="485.0" y="80.33333333333333" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the honest version; early certainty is the illusion</text>
+<rect x="20" y="98" width="250" height="30" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="145.0" y="116.33333333333333" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">drowsy</text>
+<line x1="274.0" y1="113.0" x2="306.0" y2="113.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="310" y="98" width="350" height="30" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="485.0" y="116.33333333333333" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the alarm; the processing has stopped</text>
+<rect x="20" y="134" width="250" height="30" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="145.0" y="152.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">easy</text>
+<line x1="274.0" y1="149.0" x2="306.0" y2="149.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="310" y="134" width="350" height="30" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="485.0" y="152.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the alarm; not applied to the standard</text>
 </svg>
 <!-- /diagram -->
 
@@ -235,24 +239,24 @@ A learner who does not find the pass difficult is the one to worry about. It usu
 - After the class to finish. Skin takes the map at the end of the week.
 
 <!-- diagram:when -->
-<svg viewBox="0 0 680 120" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shoot runs before, during, and after each class; Skin takes the map at the end of the week" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 120" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shoot runs before, during, and after each class; Skin takes the map at the end of the week" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>Shoot runs before, during, and after each class; Skin takes the map at the end of the week</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHEN THE SHOOT GOES</text>
-<rect x="20" y="26" width="190" height="62" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="115.0" y="46.666666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">before the class:</text>
-<text x="115.0" y="60.166666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">the basic concepts</text>
-<text x="115.0" y="73.66666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">and relationships</text>
-<line x1="212.0" y1="57.0" x2="238.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="240" y="26" width="190" height="62" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="335.0" y="46.666666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">during the class:</text>
-<text x="335.0" y="60.166666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">short lines, map growing,</text>
-<text x="335.0" y="73.66666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">question marks left</text>
-<line x1="432.0" y1="57.0" x2="458.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="460" y="26" width="190" height="62" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="555.0" y="46.666666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">after the class:</text>
-<text x="555.0" y="60.166666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">finish the shoot,</text>
-<text x="555.0" y="73.66666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">tidy the map</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">When the shoot goes</text>
+<rect x="20" y="26" width="190" height="62" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="115.0" y="46.666666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">before the class:</text>
+<text x="115.0" y="60.166666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the basic concepts</text>
+<text x="115.0" y="73.66666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">and relationships</text>
+<line x1="212.0" y1="57.0" x2="238.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="240" y="26" width="190" height="62" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="335.0" y="46.666666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">during the class:</text>
+<text x="335.0" y="60.166666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">short lines, map growing,</text>
+<text x="335.0" y="73.66666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">question marks left</text>
+<line x1="432.0" y1="57.0" x2="458.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="460" y="26" width="190" height="62" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="555.0" y="46.666666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">after the class:</text>
+<text x="555.0" y="60.166666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">finish the shoot,</text>
+<text x="555.0" y="73.66666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">tidy the map</text>
 <text x="20" y="108" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Monday to Friday around each class. Skin takes the map at the end of the week.</text>
 </svg>
 <!-- /diagram -->
@@ -268,22 +272,22 @@ If there was no time before, shoot after. The class becomes one more resource. I
 - About 80 percent competence to move on. The map's chunks are graded on the next page.
 
 <!-- diagram:the_bar -->
-<svg viewBox="0 0 680 184" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The one-sentence bar for Shoot and the three things the checkpoint reads" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 184" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The one-sentence bar for Shoot and the three things the checkpoint reads" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>The one-sentence bar for Shoot and the three things the checkpoint reads</title>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE BAR AT THE END OF THE STAGE</text>
-<rect x="20" y="26" width="640" height="44" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="340.0" y="44.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">Shoot: Aim and Shoot connect accurately and seamlessly, with high chunking</text>
-<text x="340.0" y="58.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">and accurate relationships between chunks, at moderately low effort</text>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">The bar at the end of the stage</text>
+<rect x="20" y="26" width="640" height="44" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="340.0" y="44.25" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">Shoot: Aim and Shoot connect accurately and seamlessly, with high chunking</text>
+<text x="340.0" y="58.75" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">and accurate relationships between chunks, at moderately low effort</text>
 <text x="20" y="92" font-size="9.5" fill="currentColor" opacity="0.6" text-anchor="start" font-weight="700" letter-spacing=".08em">the checkpoint looks at three things</text>
-<rect x="20" y="100" width="205" height="46" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="122.5" y="119.41666666666667" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">Kolb's cycle: consistent,</text>
-<text x="122.5" y="132.91666666666669" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">observed not theoretical</text>
-<rect x="238" y="100" width="205" height="46" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="340.5" y="119.41666666666667" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">the fundamentals still running:</text>
-<text x="340.5" y="132.91666666666669" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">retrieval never dropped</text>
-<rect x="456" y="100" width="204" height="46" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="558.0" y="119.41666666666667" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">the aim-and-shoot maps:</text>
-<text x="558.0" y="132.91666666666669" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">graded on the next page</text>
+<rect x="20" y="100" width="205" height="46" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="122.5" y="119.41666666666667" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">Kolb's cycle: consistent,</text>
+<text x="122.5" y="132.91666666666669" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">observed not theoretical</text>
+<rect x="238" y="100" width="205" height="46" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="340.5" y="119.41666666666667" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">the fundamentals still running:</text>
+<text x="340.5" y="132.91666666666669" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">retrieval never dropped</text>
+<rect x="456" y="100" width="204" height="46" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="558.0" y="119.41666666666667" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">the aim-and-shoot maps:</text>
+<text x="558.0" y="132.91666666666669" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">graded on the next page</text>
 <text x="20" y="172" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">About 80% competence with everything so far. People slack on the first two.</text>
 </svg>
 <!-- /diagram -->

@@ -18,7 +18,8 @@ def chain(steps, y, color, w=118, h=58, x0=20, gap=22, size=10, colors=None):
 
 def fig_the_chain():
     out = [MARKER, cap(20, 14, "what the aim step builds, in order")]
-    out += chain([["keywords,", "fast and", "out of order"], ["two questions", "of each: why,", "and how related"], ["relationships,", "several per", "keyword"], ["chunks,", "held loosely"], ["a backbone,", "no details", "on it"]], 26, ST, w=116, gap=20, h=62)
+    out += chain([["keywords", "fast and", "out of order"], ["two questions", "of each: why,", "and how related"], ["relationships", "several per", "keyword"], ["chunks", "held loosely"], ["a backbone", "no details", "on it"]], 26, ST, w=116, gap=20, h=62)
+    for i, ic in enumerate(["list", "question", "map", "target", "book"]): out.append(icon(ic, 20 + i * 136 + 4, 30, 14))
     out.append(txt(20, 116, "Questions before the material, so what is read afterwards has somewhere to land. The chunks are graded a stage later.", 10.5, .78))
     return svg("the_chain", 128, "From keywords to the two questions to relationships, chunks, and a backbone with no details", "\n".join(out))
 
@@ -27,10 +28,10 @@ def fig_replaces():
     out.append(box(20, 26, 190, 54, ["traffic light, red light:", "questions before reading"], None, 10)); out.append(arrow(214, 53, 246, 53)); out.append(box(250, 26, 150, 54, ["Aim"], ST, 12))
     out.append(box(20, 92, 190, 54, ["prestudy basics"], None, 10)); out.append(arrow(214, 119, 246, 119)); out.append(box(250, 92, 150, 54, ["Aim"], ST, 12))
     out.append(box(20, 158, 190, 54, ["traffic light, green light:", "answering the questions"], None, 10)); out.append(arrow(214, 185, 246, 185)); out.append(box(250, 158, 150, 54, ["stays until", "Shoot replaces it"], None, 10))
-    out.append(cap(430, 14, "the three drills the step rests on"))
-    out.append(box(430, 26, 230, 54, ["the traffic light drill:", "inquiry, trained as red and green"], ST, 10))
-    out.append(box(430, 92, 230, 54, ["order control:", "learn in your own order"], ST, 10))
-    out.append(box(430, 158, 230, 54, ["biggest chunks first:", "3 to 6 chunks in 20 to 30 minutes"], ST, 10))
+    out.append(panel(418, 6, 254, 218, "the three drills the step rests on", ST, 11))
+    out.append(box(430, 34, 230, 52, ["the traffic light drill", "inquiry, trained as red and green"], ST, 10))
+    out.append(box(430, 96, 230, 52, ["order control", "learn in your own order"], ST, 10))
+    out.append(box(430, 158, 230, 52, ["biggest chunks first", "3 to 6 chunks in 20 to 30 minutes"], ST, 10))
     out.append(txt(20, 236, "Thirteen skills should be in place before the first Aim. These three are the ones the step is built from.", 10.5, .78))
     return svg("replaces", 248, "Aim replaces the red light and prestudy basics; the green light stays until Shoot; three drills underneath", "\n".join(out))
 

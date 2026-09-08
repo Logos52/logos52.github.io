@@ -49,62 +49,62 @@ It won because two foreign powers made it possible. One sent a million soldiers 
 In power it did what communist regimes do, and then more. Terror against enemies real and imagined. Every shop and factory handed over with a smile, because the state was now the only employer. Every field and tool collectivized. Then the great leap, an attempt to turn every man and woman into a foot soldier and overtake Moscow. It removed every reason to work, so people were whipped to work. Villages lied about their harvests, and inspectors took the grain the lies promised. Food became a weapon that the weak did not earn. Tens of millions starved. The man in charge knew. He purged the people who told him and pushed harder. Then he purged the countryside, then the cities, then the army, until by his own account there was no one left to threaten him. That is the origin of the temple and the monks. A state built to keep everything, by a man who needed to keep everything, still keeps everything.
 
 <!-- diagram:the_flow -->
-<svg viewBox="0 0 680 164" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wealth flows from the people to the state and is spent on trains, towers, and the army; the household share stays the lowest on record" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 164" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wealth flows from the people to the state and is spent on trains, towers, and the army; the household share stays the lowest on record" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>Wealth flows from the people to the state and is spent on trains, towers, and the army; the household share stays the lowest on record</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHERE THE WEALTH GOES: THE TEMPLE IS RICH AND THE MONKS ARE POOR</text>
-<rect x="20" y="26" width="200" height="100" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="120.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the people</text>
-<text x="120.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">no land, deposits in</text>
-<text x="120.0" y="86.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">state banks, the lowest</text>
-<text x="120.0" y="100.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">household share on record</text>
-<line x1="224.0" y1="60.0" x2="296.0" y2="60.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">Where the wealth goes: the temple is rich and the monks are poor</text>
+<rect x="20" y="26" width="200" height="100" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="120.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">the people</text>
+<text x="120.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">no land, deposits in</text>
+<text x="120.0" y="86.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">state banks, the lowest</text>
+<text x="120.0" y="100.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">household share on record</text>
+<line x1="224.0" y1="60.0" x2="296.0" y2="60.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
 <text x="260" y="50" font-size="10" fill="currentColor" opacity="0.7" text-anchor="middle">wealth</text>
-<rect x="300" y="26" width="200" height="100" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="400.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the state</text>
-<text x="400.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">all land, 99.5% of</text>
-<text x="400.0" y="86.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">bank assets, energy,</text>
-<text x="400.0" y="100.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">big industry</text>
-<line x1="504.0" y1="60.0" x2="576.0" y2="60.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="300" y="26" width="200" height="100" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="400.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">the state</text>
+<text x="400.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">all land, 99.5% of</text>
+<text x="400.0" y="86.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">bank assets, energy,</text>
+<text x="400.0" y="100.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">big industry</text>
+<line x1="504.0" y1="60.0" x2="576.0" y2="60.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
 <text x="540" y="50" font-size="10" fill="currentColor" opacity="0.7" text-anchor="middle">spent on</text>
-<rect x="580" y="26" width="80" height="100" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="620.0" y="58.916666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">trains,</text>
-<text x="620.0" y="72.41666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">towers,</text>
-<text x="620.0" y="85.91666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">the army,</text>
-<text x="620.0" y="99.41666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">Taiwan</text>
+<rect x="580" y="26" width="80" height="100" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="620.0" y="58.916666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">trains,</text>
+<text x="620.0" y="72.41666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">towers,</text>
+<text x="620.0" y="85.91666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the army,</text>
+<text x="620.0" y="99.41666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">Taiwan</text>
 <text x="20" y="152" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">To let people consume more, the state would have to keep less, and a state that keeps less can do less. That is why it will not happen.</text>
 </svg>
 <!-- /diagram -->
 
 <!-- diagram:how_they_won -->
-<svg viewBox="0 0 680 128" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="How the communists won: Soviet money, the underdog myth, a Soviet army in Manchuria, American restraint on the central government, and a war of attrition" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 128" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="How the communists won: Soviet money, the underdog myth, a Soviet army in Manchuria, American restraint on the central government, and a war of attrition" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>How the communists won: Soviet money, the underdog myth, a Soviet army in Manchuria, American restraint on the central government, and a war of attrition</title>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">HOW A PARTY OF ONE IN TWELVE THOUSAND TOOK THE COUNTRY</text>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<rect x="20" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="78.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">Moscow's money</text>
-<text x="78.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">and advisers</text>
-<text x="78.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">from 1921</text>
-<line x1="138.0" y1="57.0" x2="154.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="156" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="214.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the myth</text>
-<text x="214.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">from Missouri,</text>
-<text x="214.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">1936</text>
-<line x1="274.0" y1="57.0" x2="290.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="292" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="350.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">1 million Soviet</text>
-<text x="350.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">troops hand over</text>
-<text x="350.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">Manchuria, 1945</text>
-<line x1="410.0" y1="57.0" x2="426.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="428" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="486.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">America stops</text>
-<text x="486.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the central</text>
-<text x="486.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">government, 1946</text>
-<line x1="546.0" y1="57.0" x2="562.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="564" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="622.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">barrier troops,</text>
-<text x="622.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">human waves,</text>
-<text x="622.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">starved cities</text>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">How a party of one in twelve thousand took the country</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<rect x="20" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="78.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">Moscow's money</text>
+<text x="78.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">and advisers</text>
+<text x="78.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">from 1921</text>
+<line x1="138.0" y1="57.0" x2="154.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="156" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="214.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">the myth</text>
+<text x="214.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">from Missouri,</text>
+<text x="214.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">1936</text>
+<line x1="274.0" y1="57.0" x2="290.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="292" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="350.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">1 million Soviet</text>
+<text x="350.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">troops hand over</text>
+<text x="350.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">Manchuria, 1945</text>
+<line x1="410.0" y1="57.0" x2="426.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="428" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="486.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">America stops</text>
+<text x="486.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the central</text>
+<text x="486.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">government, 1946</text>
+<line x1="546.0" y1="57.0" x2="562.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="564" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="622.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">barrier troops,</text>
+<text x="622.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">human waves,</text>
+<text x="622.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">starved cities</text>
 <text x="20" y="116" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Helped by Moscow and protected by Washington at the moment it was nearest extinction, then a war of attrition nobody could fight.</text>
 </svg>
 <!-- /diagram -->
@@ -126,25 +126,25 @@ The figures below are the ones the account gives. Where the account calls a figu
 - Debt has passed 280% of GDP and runs 300% to 320%.
 
 <!-- diagram:quota_counts -->
-<svg viewBox="0 0 680 124" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="What counts toward the growth quota: a hole, the concrete, the house, and the bigger empty house that replaces it" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 124" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="What counts toward the growth quota: a hole, the concrete, the house, and the bigger empty house that replaces it" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>What counts toward the growth quota: a hole, the concrete, the house, and the bigger empty house that replaces it</title>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHAT COUNTS TOWARD THE 5% QUOTA</text>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<rect x="20" y="26" width="140" height="58" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="90.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">dig a hole</text>
-<line x1="162.0" y1="55.0" x2="186.0" y2="55.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="188" y="26" width="140" height="58" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="258.0" y="51.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">fill it with</text>
-<text x="258.0" y="65.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">concrete</text>
-<line x1="330.0" y1="55.0" x2="354.0" y2="55.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="356" y="26" width="140" height="58" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="426.0" y="51.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">build a house</text>
-<text x="426.0" y="65.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">on top</text>
-<line x1="498.0" y1="55.0" x2="522.0" y2="55.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="524" y="26" width="140" height="58" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="594.0" y="44.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">destroy it,</text>
-<text x="594.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">build a bigger</text>
-<text x="594.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">empty one</text>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">What counts toward the 5% quota</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<rect x="20" y="26" width="140" height="58" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="90.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">dig a hole</text>
+<line x1="162.0" y1="55.0" x2="186.0" y2="55.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="188" y="26" width="140" height="58" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="258.0" y="51.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">fill it with</text>
+<text x="258.0" y="65.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">concrete</text>
+<line x1="330.0" y1="55.0" x2="354.0" y2="55.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="356" y="26" width="140" height="58" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="426.0" y="51.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">build a house</text>
+<text x="426.0" y="65.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">on top</text>
+<line x1="498.0" y1="55.0" x2="522.0" y2="55.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="524" y="26" width="140" height="58" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="594.0" y="44.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">destroy it,</text>
+<text x="594.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">build a bigger</text>
+<text x="594.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">empty one</text>
 <text x="20" y="112" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Each step is GDP. The measure counts what comes out, not what went in, and whether or not anyone buys it.</text>
 </svg>
 <!-- /diagram -->
@@ -152,18 +152,18 @@ The figures below are the ones the account gives. Where the account calls a figu
 In a market economy GDP is a measurement of what happened. In China it is a quota, a command from above. The mayor of a city, the head of a province, and the head of a village must each show 5% growth whether or not anyone has money to buy anything. So they can do anything that counts. Dig a hole and it is GDP. Fill it with concrete and it is GDP. Build a house on top and it is GDP. Destroy the house and build a bigger one, still empty, and that is GDP too. The measure counts what comes out and not what went in, and it counts output whether or not anyone buys it. That is the second Stalinist feature, after the quota itself.
 
 <!-- diagram:debt_share -->
-<svg viewBox="0 0 680 144" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="debt as a share of GDP, as the account gives it" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 144" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="debt as a share of GDP, as the account gives it" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>debt as a share of GDP, as the account gives it</title>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">DEBT AS A SHARE OF GDP, AS THE ACCOUNT GIVES IT</text>
-<text x="172" y="38" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">before</text>
-<g><title>280%</title><rect x="180.0" y="26.0" width="378.8" height="15.0" rx="3" fill="rgba(129,86,166,0.6)"/></g>
-<text x="564.8235294117646" y="38" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">280%</text>
-<text x="172" y="66" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">now, lower figure</text>
-<g><title>300%</title><rect x="180.0" y="54.0" width="405.9" height="15.0" rx="3" fill="rgba(129,86,166,0.8)"/></g>
-<text x="591.8823529411765" y="66" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">300%</text>
-<text x="172" y="94" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">now, upper figure</text>
-<g><title>320%</title><rect x="180.0" y="82.0" width="432.9" height="15.0" rx="3" fill="rgba(129,86,166,0.9)"/></g>
-<text x="618.9411764705883" y="94" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">320%</text>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">Debt as a share of GDP, as the account gives it</text>
+<text x="172" y="38" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">before</text>
+<g><title>280%</title><rect x="180.0" y="26.0" width="378.8" height="15.0" rx="4" fill="rgba(129,86,166,0.3)" stroke="rgba(129,86,166,.9)" stroke-width="1"/></g>
+<text x="564.8235294117646" y="38" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">280%</text>
+<text x="172" y="66" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">now, lower figure</text>
+<g><title>300%</title><rect x="180.0" y="54.0" width="405.9" height="15.0" rx="4" fill="rgba(129,86,166,0.36)" stroke="rgba(129,86,166,.9)" stroke-width="1"/></g>
+<text x="591.8823529411765" y="66" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">300%</text>
+<text x="172" y="94" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">now, upper figure</text>
+<g><title>320%</title><rect x="180.0" y="82.0" width="432.9" height="15.0" rx="4" fill="rgba(129,86,166,0.39)" stroke="rgba(129,86,166,.9)" stroke-width="1"/></g>
+<text x="618.9411764705883" y="94" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">320%</text>
 <text x="20" y="132" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Infrastructure is overbuilt, real estate went down, and exports are the engine that is left.</text>
 </svg>
 <!-- /diagram -->
@@ -177,29 +177,29 @@ The debt that pays for it has passed 280% of GDP and now runs 300% to 320%. In 2
 - The household share of GDP is the lowest, or among the lowest, of any modern economy in world history.
 
 <!-- diagram:the_flow -->
-<svg viewBox="0 0 680 164" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wealth flows from the people to the state and is spent on trains, towers, and the army; the household share stays the lowest on record" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 164" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wealth flows from the people to the state and is spent on trains, towers, and the army; the household share stays the lowest on record" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>Wealth flows from the people to the state and is spent on trains, towers, and the army; the household share stays the lowest on record</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHERE THE WEALTH GOES: THE TEMPLE IS RICH AND THE MONKS ARE POOR</text>
-<rect x="20" y="26" width="200" height="100" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="120.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the people</text>
-<text x="120.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">no land, deposits in</text>
-<text x="120.0" y="86.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">state banks, the lowest</text>
-<text x="120.0" y="100.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">household share on record</text>
-<line x1="224.0" y1="60.0" x2="296.0" y2="60.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">Where the wealth goes: the temple is rich and the monks are poor</text>
+<rect x="20" y="26" width="200" height="100" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="120.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">the people</text>
+<text x="120.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">no land, deposits in</text>
+<text x="120.0" y="86.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">state banks, the lowest</text>
+<text x="120.0" y="100.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">household share on record</text>
+<line x1="224.0" y1="60.0" x2="296.0" y2="60.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
 <text x="260" y="50" font-size="10" fill="currentColor" opacity="0.7" text-anchor="middle">wealth</text>
-<rect x="300" y="26" width="200" height="100" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="400.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the state</text>
-<text x="400.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">all land, 99.5% of</text>
-<text x="400.0" y="86.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">bank assets, energy,</text>
-<text x="400.0" y="100.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">big industry</text>
-<line x1="504.0" y1="60.0" x2="576.0" y2="60.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="300" y="26" width="200" height="100" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="400.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">the state</text>
+<text x="400.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">all land, 99.5% of</text>
+<text x="400.0" y="86.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">bank assets, energy,</text>
+<text x="400.0" y="100.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">big industry</text>
+<line x1="504.0" y1="60.0" x2="576.0" y2="60.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
 <text x="540" y="50" font-size="10" fill="currentColor" opacity="0.7" text-anchor="middle">spent on</text>
-<rect x="580" y="26" width="80" height="100" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="620.0" y="58.916666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">trains,</text>
-<text x="620.0" y="72.41666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">towers,</text>
-<text x="620.0" y="85.91666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">the army,</text>
-<text x="620.0" y="99.41666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">Taiwan</text>
+<rect x="580" y="26" width="80" height="100" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="620.0" y="58.916666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">trains,</text>
+<text x="620.0" y="72.41666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">towers,</text>
+<text x="620.0" y="85.91666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the army,</text>
+<text x="620.0" y="99.41666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">Taiwan</text>
 <text x="20" y="152" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">To let people consume more, the state would have to keep less, and a state that keeps less can do less. That is why it will not happen.</text>
 </svg>
 <!-- /diagram -->
@@ -215,19 +215,19 @@ The consequence is the saying. Wealth produced at every level flows toward the s
 - A village reports 100 people where 80 live and keeps the benefits for the 20.
 
 <!-- diagram:who_pays -->
-<svg viewBox="0 0 680 148" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The bullet trains are 900 billion dollars in debt and funded by the savings of the people who ride the slow trains" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 148" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The bullet trains are 900 billion dollars in debt and funded by the savings of the people who ride the slow trains" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>The bullet trains are 900 billion dollars in debt and funded by the savings of the people who ride the slow trains</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHO PAYS FOR THE BULLET TRAINS</text>
-<rect x="20" y="26" width="300" height="84" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="170.0" y="57.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">ordinary people</text>
-<text x="170.0" y="71.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">ride the slow trains,</text>
-<text x="170.0" y="86.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">keep their savings in state banks</text>
-<line x1="324.0" y1="68.0" x2="356.0" y2="68.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="360" y="26" width="300" height="84" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="510.0" y="57.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">the high-speed network</text>
-<text x="510.0" y="71.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">900 billion US dollars in debt,</text>
-<text x="510.0" y="86.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">empty across a continent</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">Who pays for the bullet trains</text>
+<rect x="20" y="26" width="300" height="84" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="170.0" y="57.0" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">ordinary people</text>
+<text x="170.0" y="71.5" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">ride the slow trains,</text>
+<text x="170.0" y="86.0" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">keep their savings in state banks</text>
+<line x1="324.0" y1="68.0" x2="356.0" y2="68.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="360" y="26" width="300" height="84" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="510.0" y="57.0" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">the high-speed network</text>
+<text x="510.0" y="71.5" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">900 billion US dollars in debt,</text>
+<text x="510.0" y="86.0" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">empty across a continent</text>
 <text x="20" y="136" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Some lines between nearby cities do well. The rest will never make money, and the deposits fund them.</text>
 </svg>
 <!-- /diagram -->
@@ -243,18 +243,18 @@ The ghost cities come from the same machine plus one more fact: a communist coun
 - Every county built its own bicycle, sewing-machine, and refrigerator factory in the 1980s, and the World Trade Organization opened the boats in 2001.
 
 <!-- diagram:mismatch -->
-<svg viewBox="0 0 680 148" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Communism produces too much of this and too little of that, not too little overall" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 148" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Communism produces too much of this and too little of that, not too little overall" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>Communism produces too much of this and too little of that, not too little overall</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHAT COMMUNISM PRODUCES, ON THE ACCOUNT</text>
-<rect x="20" y="26" width="305" height="84" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
-<text x="172.5" y="57.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">the common belief</text>
-<text x="172.5" y="71.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">communism means</text>
-<text x="172.5" y="86.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">underproduction, not enough</text>
-<rect x="355" y="26" width="305" height="84" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="507.5" y="57.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">what happens</text>
-<text x="507.5" y="71.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">too much of this and too little of that:</text>
-<text x="507.5" y="86.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">a mountain of size 42 shoes, no size 38</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">What communism produces, on the account</text>
+<rect x="20" y="26" width="305" height="84" rx="8" fill="rgba(130,130,130,.12)" stroke="rgba(130,130,130,.55)" stroke-width="1.3"/>
+<text x="172.5" y="57.0" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">the common belief</text>
+<text x="172.5" y="71.5" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">communism means</text>
+<text x="172.5" y="86.0" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">underproduction, not enough</text>
+<rect x="355" y="26" width="305" height="84" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="507.5" y="57.0" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">what happens</text>
+<text x="507.5" y="71.5" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">too much of this and too little of that:</text>
+<text x="507.5" y="86.0" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">a mountain of size 42 shoes, no size 38</text>
 <text x="20" y="136" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Overproduction was about a fifth of GDP at the Asian crisis of 1996 and 1997. At the height of the famine, grain sat uncollected on the roads.</text>
 </svg>
 <!-- /diagram -->
@@ -262,32 +262,32 @@ The ghost cities come from the same machine plus one more fact: a communist coun
 Europeans complain about overcapacity in solar panels and electric cars as if it were new. It goes back at least to the Asian crisis of 1996 and 1997, when about a fifth of GDP was overproduction, in bicycles and washing machines then, and it is intrinsic to communism. The common belief is that communism means underproduction. It means too much of this and too little of that, a mountain of size 42 shoes and not enough size 38, because nothing is transparent and the state decides what matters and invests in it regardless of what people can produce or want to consume. At the height of the great famine, as people were starved, mountains of grain sat uncollected on dusty roads.
 
 <!-- diagram:subsidy_chain -->
-<svg viewBox="0 0 680 128" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="From a local quota through subsidy and overbuilding to selling below cost abroad" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 128" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="From a local quota through subsidy and overbuilding to selling below cost abroad" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>From a local quota through subsidy and overbuilding to selling below cost abroad</title>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHY THE GOODS GO ON THE BOAT</text>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<rect x="20" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="78.0" y="53.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a quota to hit</text>
-<text x="78.0" y="67.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">locally</text>
-<line x1="138.0" y1="57.0" x2="154.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="156" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="214.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">free land, tax</text>
-<text x="214.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">subsidy, energy</text>
-<text x="214.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">below cost</text>
-<line x1="274.0" y1="57.0" x2="290.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="292" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="350.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">every county</text>
-<text x="350.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">builds the same</text>
-<text x="350.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">factories</text>
-<line x1="410.0" y1="57.0" x2="426.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="428" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="486.0" y="53.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">everyone sells</text>
-<text x="486.0" y="67.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">below cost</text>
-<line x1="546.0" y1="57.0" x2="562.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="564" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="622.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">nobody at home</text>
-<text x="622.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">can buy, so</text>
-<text x="622.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">export</text>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">Why the goods go on the boat</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<rect x="20" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="78.0" y="53.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">a quota to hit</text>
+<text x="78.0" y="67.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">locally</text>
+<line x1="138.0" y1="57.0" x2="154.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="156" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="214.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">free land, tax</text>
+<text x="214.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">subsidy, energy</text>
+<text x="214.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">below cost</text>
+<line x1="274.0" y1="57.0" x2="290.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="292" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="350.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">every county</text>
+<text x="350.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">builds the same</text>
+<text x="350.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">factories</text>
+<line x1="410.0" y1="57.0" x2="426.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="428" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="486.0" y="53.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">everyone sells</text>
+<text x="486.0" y="67.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">below cost</text>
+<line x1="546.0" y1="57.0" x2="562.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="564" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="622.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">nobody at home</text>
+<text x="622.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">can buy, so</text>
+<text x="622.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">export</text>
 <text x="20" y="116" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The trade surplus of about 1.1 trillion dollars exists because the household share of the economy is too small to buy the output.</text>
 </svg>
 <!-- /diagram -->
@@ -301,24 +301,24 @@ The export machine runs on local subsidy. Every county built its own bicycle fac
 - By 1936 it had about 40,000 members, one in 12,500. Portugal had one communist in 280, Finland one in 700, and by 1940 the Comintern counted China at one in 1,700, the same as the United States.
 
 <!-- diagram:one_in -->
-<svg viewBox="0 0 680 200" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="communists as a share of the population, about 1936 to 1940, one in every" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 200" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="communists as a share of the population, about 1936 to 1940, one in every" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>communists as a share of the population, about 1936 to 1940, one in every</title>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">COMMUNISTS AS A SHARE OF THE POPULATION, ABOUT 1936 TO 1940, ONE IN EVERY</text>
-<text x="262" y="38" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">Portugal, under a fascist dictator</text>
-<g><title>one in 280</title><rect x="270.0" y="26.0" width="8.0" height="15.0" rx="3" fill="rgba(130,130,130,.55)"/></g>
-<text x="283.96923076923076" y="38" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">280</text>
-<text x="262" y="66" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">Finland, party banned</text>
-<g><title>one in 700</title><rect x="270.0" y="54.0" width="19.9" height="15.0" rx="3" fill="rgba(130,130,130,.55)"/></g>
-<text x="295.9230769230769" y="66" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">700</text>
-<text x="262" y="94" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">China, Comintern count, 1940</text>
-<g><title>one in 1,700</title><rect x="270.0" y="82.0" width="48.4" height="15.0" rx="3" fill="rgba(129,86,166,0.9)"/></g>
-<text x="324.38461538461536" y="94" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">1,700</text>
-<text x="262" y="122" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">United States</text>
-<g><title>one in 1,700</title><rect x="270.0" y="110.0" width="48.4" height="15.0" rx="3" fill="rgba(130,130,130,.55)"/></g>
-<text x="324.38461538461536" y="122" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">1,700</text>
-<text x="262" y="150" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">China, party membership, 1936</text>
-<g><title>one in 12,500</title><rect x="270.0" y="138.0" width="355.8" height="15.0" rx="3" fill="rgba(129,86,166,0.9)"/></g>
-<text x="631.7692307692307" y="150" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">12,500</text>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">Communists as a share of the population, about 1936 to 1940, one in every</text>
+<text x="262" y="38" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">Portugal, under a fascist dictator</text>
+<g><title>one in 280</title><rect x="270.0" y="26.0" width="8.0" height="15.0" rx="4" fill="rgba(130,130,130,.55)"/></g>
+<text x="283.96923076923076" y="38" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">280</text>
+<text x="262" y="66" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">Finland, party banned</text>
+<g><title>one in 700</title><rect x="270.0" y="54.0" width="19.9" height="15.0" rx="4" fill="rgba(130,130,130,.55)"/></g>
+<text x="295.9230769230769" y="66" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">700</text>
+<text x="262" y="94" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">China, Comintern count, 1940</text>
+<g><title>one in 1,700</title><rect x="270.0" y="82.0" width="48.4" height="15.0" rx="4" fill="rgba(129,86,166,0.39)" stroke="rgba(129,86,166,.9)" stroke-width="1"/></g>
+<text x="324.38461538461536" y="94" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">1,700</text>
+<text x="262" y="122" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">United States</text>
+<g><title>one in 1,700</title><rect x="270.0" y="110.0" width="48.4" height="15.0" rx="4" fill="rgba(130,130,130,.55)"/></g>
+<text x="324.38461538461536" y="122" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">1,700</text>
+<text x="262" y="150" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">China, party membership, 1936</text>
+<g><title>one in 12,500</title><rect x="270.0" y="138.0" width="355.8" height="15.0" rx="4" fill="rgba(129,86,166,0.39)" stroke="rgba(129,86,166,.9)" stroke-width="1"/></g>
+<text x="631.7692307692307" y="150" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">12,500</text>
 <text x="20" y="188" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">About 40,000 members in a country of half a billion. One of the least communist-inclined countries on earth.</text>
 </svg>
 <!-- /diagram -->
@@ -334,34 +334,34 @@ None of the men who won those wars took on the ideas arriving from Europe, the s
 - In May 1946 the American envoy stopped the central government's advance, and the siege of Changchun in 1948 lasted 8 months and killed 160,000 civilians.
 
 <!-- diagram:how_they_won -->
-<svg viewBox="0 0 680 128" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="How the communists won: Soviet money, the underdog myth, a Soviet army in Manchuria, American restraint on the central government, and a war of attrition" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 128" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="How the communists won: Soviet money, the underdog myth, a Soviet army in Manchuria, American restraint on the central government, and a war of attrition" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>How the communists won: Soviet money, the underdog myth, a Soviet army in Manchuria, American restraint on the central government, and a war of attrition</title>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">HOW A PARTY OF ONE IN TWELVE THOUSAND TOOK THE COUNTRY</text>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<rect x="20" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="78.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">Moscow's money</text>
-<text x="78.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">and advisers</text>
-<text x="78.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">from 1921</text>
-<line x1="138.0" y1="57.0" x2="154.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="156" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="214.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the myth</text>
-<text x="214.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">from Missouri,</text>
-<text x="214.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">1936</text>
-<line x1="274.0" y1="57.0" x2="290.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="292" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="350.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">1 million Soviet</text>
-<text x="350.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">troops hand over</text>
-<text x="350.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">Manchuria, 1945</text>
-<line x1="410.0" y1="57.0" x2="426.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="428" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="486.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">America stops</text>
-<text x="486.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the central</text>
-<text x="486.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">government, 1946</text>
-<line x1="546.0" y1="57.0" x2="562.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="564" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="622.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">barrier troops,</text>
-<text x="622.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">human waves,</text>
-<text x="622.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">starved cities</text>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">How a party of one in twelve thousand took the country</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<rect x="20" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="78.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">Moscow's money</text>
+<text x="78.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">and advisers</text>
+<text x="78.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">from 1921</text>
+<line x1="138.0" y1="57.0" x2="154.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="156" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="214.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">the myth</text>
+<text x="214.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">from Missouri,</text>
+<text x="214.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">1936</text>
+<line x1="274.0" y1="57.0" x2="290.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="292" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="350.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">1 million Soviet</text>
+<text x="350.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">troops hand over</text>
+<text x="350.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">Manchuria, 1945</text>
+<line x1="410.0" y1="57.0" x2="426.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="428" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="486.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">America stops</text>
+<text x="486.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the central</text>
+<text x="486.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">government, 1946</text>
+<line x1="546.0" y1="57.0" x2="562.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="564" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="622.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">barrier troops,</text>
+<text x="622.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">human waves,</text>
+<text x="622.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">starved cities</text>
 <text x="20" y="116" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Helped by Moscow and protected by Washington at the moment it was nearest extinction, then a war of attrition nobody could fight.</text>
 </svg>
 <!-- /diagram -->
@@ -377,24 +377,24 @@ Even in 1940 the party was a minority. It won the way East Germany and Poland be
 - The Cultural Revolution ran from 1966. The general who besieged Changchun died in 1971. A tree older than about 70 years is hard to find.
 
 <!-- diagram:the_toll -->
-<svg viewBox="0 0 680 200" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="deaths, millions, as the account gives them" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 200" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="deaths, millions, as the account gives them" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>deaths, millions, as the account gives them</title>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">DEATHS, MILLIONS, AS THE ACCOUNT GIVES THEM</text>
-<text x="292" y="38" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">the Taiping wars, both sides, 1850s to 1860s</text>
-<g><title>70 million or more</title><rect x="300.0" y="26.0" width="317.3" height="15.0" rx="3" fill="rgba(129,86,166,0.7)"/></g>
-<text x="623.3333333333333" y="38" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">70</text>
-<text x="292" y="66" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">the Great Leap, 1958 to 1962, minimum</text>
-<g><title>at least 45 million</title><rect x="300.0" y="54.0" width="204.0" height="15.0" rx="3" fill="rgba(129,86,166,0.9)"/></g>
-<text x="510.0" y="66" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">45</text>
-<text x="292" y="94" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">the Great Leap, some Chinese historians</text>
-<g><title>50 million</title><rect x="300.0" y="82.0" width="226.7" height="15.0" rx="3" fill="rgba(129,86,166,0.5)"/></g>
-<text x="532.6666666666666" y="94" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">50</text>
-<text x="292" y="122" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">Sichuan alone, upper figure</text>
-<g><title>9 to 12 million</title><rect x="300.0" y="110.0" width="54.4" height="15.0" rx="3" fill="rgba(129,86,166,0.6)"/></g>
-<text x="360.4" y="122" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">12</text>
-<text x="292" y="150" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">one prefecture of 8 million</text>
-<g><title>2.4 million</title><rect x="300.0" y="138.0" width="10.9" height="15.0" rx="3" fill="rgba(47,158,143,0.9)"/></g>
-<text x="316.88" y="150" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">2.4</text>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">Deaths, millions, as the account gives them</text>
+<text x="292" y="38" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">the Taiping wars, both sides, 1850s to 1860s</text>
+<g><title>70 million or more</title><rect x="300.0" y="26.0" width="317.3" height="15.0" rx="4" fill="rgba(129,86,166,0.32999999999999996)" stroke="rgba(129,86,166,.9)" stroke-width="1"/></g>
+<text x="623.3333333333333" y="38" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">70</text>
+<text x="292" y="66" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">the Great Leap, 1958 to 1962, minimum</text>
+<g><title>at least 45 million</title><rect x="300.0" y="54.0" width="204.0" height="15.0" rx="4" fill="rgba(129,86,166,0.39)" stroke="rgba(129,86,166,.9)" stroke-width="1"/></g>
+<text x="510.0" y="66" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">45</text>
+<text x="292" y="94" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">the Great Leap, some Chinese historians</text>
+<g><title>50 million</title><rect x="300.0" y="82.0" width="226.7" height="15.0" rx="4" fill="rgba(129,86,166,0.27)" stroke="rgba(129,86,166,.9)" stroke-width="1"/></g>
+<text x="532.6666666666666" y="94" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">50</text>
+<text x="292" y="122" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">Sichuan alone, upper figure</text>
+<g><title>9 to 12 million</title><rect x="300.0" y="110.0" width="54.4" height="15.0" rx="4" fill="rgba(129,86,166,0.3)" stroke="rgba(129,86,166,.9)" stroke-width="1"/></g>
+<text x="360.4" y="122" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">12</text>
+<text x="292" y="150" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">one prefecture of 8 million</text>
+<g><title>2.4 million</title><rect x="300.0" y="138.0" width="10.9" height="15.0" rx="4" fill="rgba(47,158,143,0.39)" stroke="rgba(47,158,143,.9)" stroke-width="1"/></g>
+<text x="316.88" y="150" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">2.4</text>
 <text x="20" y="188" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Food was the weapon: no work points, no ration, and the pregnant, the sick, the old, and the undesirable were cut off.</text>
 </svg>
 <!-- /diagram -->
@@ -402,32 +402,32 @@ Even in 1940 the party was a minority. It won the way East Germany and Poland be
 From 1950 to 1951 the party eliminated real and imagined enemies in a campaign of terror. By 1955 and 1956 every industrialist and shopkeeper had handed his deeds to the state with a smile and become a state employee, because the state was now the only employer. By 1956 and 1957 every farmer's land and tools had been collectivized. That was not enough. The chairman wanted what every communist leader wanted: to take the grain straight from the field into the state granary, sell it abroad, and buy whole industries with the currency. He had one advantage, people. If every man and woman in the countryside became a foot soldier working day and night, China could overtake the Soviet Union, not just England. The man who had brought a quarter of humanity into the communist camp would then lead the camp. So from 1958 every cup and tool was collectivized, people slept in dormitories and children in kindergartens, and the incentive to work vanished, as it had in the party's mountain slivers in the 1930s. Farmers who would not work were whipped. Every village competed to report more grain than it had, and the inspectors took the grain the reports promised. Food became a weapon. Work points earned in the field bought the ration, so the pregnant, the sick, the old, and the undesirable were cut off from the food chain as punishment. The account's minimum, from the archives, is 45 million dead between 1958 and 1962, and some Chinese historians say 50 million, about the toll of the Second World War worldwide. The head of Sichuan, a province the size of France, reported 9 to 12 million starved and told the chairman it was a good thing, because the survivors were the core and the dead were the slackers and riffraff. The sparrows were killed with gongs and drums so they could not land, and the locusts they had eaten thrived. Backyard furnaces smelted pots, pans, and door handles to meet the steel quota. The trees went for fuel, so a tree in China older than about 70 years is hard to find.
 
 <!-- diagram:purge_order -->
-<svg viewBox="0 0 680 128" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The order of the purges from 1959 to 1971" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 128" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The order of the purges from 1959 to 1971" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>The order of the purges from 1959 to 1971</title>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE ORDER OF THE PURGES, SO THAT ONE MAN COULD SLEEP</text>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<rect x="20" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="78.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">1959: the party</text>
-<text x="78.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">members who</text>
-<text x="78.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">raised the famine</text>
-<line x1="138.0" y1="57.0" x2="154.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="156" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="214.0" y="53.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">1962 to 1966:</text>
-<text x="214.0" y="67.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the countryside</text>
-<line x1="274.0" y1="57.0" x2="290.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="292" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="350.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">1966 to 1968:</text>
-<text x="350.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the people</text>
-<text x="350.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">purge the party</text>
-<line x1="410.0" y1="57.0" x2="426.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="428" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="486.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">1968 to 1971:</text>
-<text x="486.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the army purges</text>
-<text x="486.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the people</text>
-<line x1="546.0" y1="57.0" x2="562.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="564" y="26" width="116" height="62" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="622.0" y="53.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">1971: the</text>
-<text x="622.0" y="67.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">army itself</text>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">The order of the purges, so that one man could sleep</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<rect x="20" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="78.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">1959: the party</text>
+<text x="78.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">members who</text>
+<text x="78.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">raised the famine</text>
+<line x1="138.0" y1="57.0" x2="154.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="156" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="214.0" y="53.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">1962 to 1966:</text>
+<text x="214.0" y="67.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the countryside</text>
+<line x1="274.0" y1="57.0" x2="290.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="292" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="350.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">1966 to 1968:</text>
+<text x="350.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the people</text>
+<text x="350.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">purge the party</text>
+<line x1="410.0" y1="57.0" x2="426.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="428" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="486.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">1968 to 1971:</text>
+<text x="486.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the army purges</text>
+<text x="486.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the people</text>
+<line x1="546.0" y1="57.0" x2="562.0" y2="57.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="564" y="26" width="116" height="62" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="622.0" y="53.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">1971: the</text>
+<text x="622.0" y="67.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">army itself</text>
 <text x="20" y="116" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">By 1974 there was no threat left. In Beijing today a military commission of seven lost five to purges, and the sixth has not been seen.</text>
 </svg>
 <!-- /diagram -->

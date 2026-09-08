@@ -1,11 +1,11 @@
-<svg viewBox="0 0 680 120" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="About 80 percent of the concepts in 25 minutes beats all of them in two hours" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 120" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="About 80 percent of the concepts in 25 minutes beats all of them in two hours" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>About 80 percent of the concepts in 25 minutes beats all of them in two hours</title>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">KEYWORD COLLECTION: MINUTES FOR A TOPIC OF 15 TO 30 CONCEPTS</text>
-<text x="232" y="39" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">about 80% of the concepts</text>
-<g><title>25 minutes</title><rect x="240.0" y="26.0" width="76.9" height="16.0" rx="3" fill="rgba(47,158,143,0.9)"/></g>
-<text x="322.9230769230769" y="39" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">25 min</text>
-<text x="232" y="69" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="end">all of them</text>
-<g><title>two hours</title><rect x="240.0" y="56.0" width="369.2" height="16.0" rx="3" fill="rgba(130,130,130,.55)"/></g>
-<text x="615.2307692307693" y="69" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="start">2 h</text>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">Keyword collection: minutes for a topic of 15 to 30 concepts</text>
+<text x="232" y="39" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">about 80% of the concepts</text>
+<g><title>25 minutes</title><rect x="240.0" y="26.0" width="76.9" height="16.0" rx="4" fill="rgba(47,158,143,0.39)" stroke="rgba(47,158,143,.9)" stroke-width="1"/></g>
+<text x="322.9230769230769" y="39" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">25 min</text>
+<text x="232" y="69" font-size="10.5" fill="currentColor" opacity="0.8" text-anchor="end">all of them</text>
+<g><title>two hours</title><rect x="240.0" y="56.0" width="369.2" height="16.0" rx="4" fill="rgba(130,130,130,.55)"/></g>
+<text x="615.2307692307693" y="69" font-size="10.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="600">2 h</text>
 <text x="20" y="108" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The first beats the second. The collection is the easy part and can be handed to a tool. The two questions and the sketch cannot.</text>
 </svg>

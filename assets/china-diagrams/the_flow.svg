@@ -1,25 +1,25 @@
-<svg viewBox="0 0 680 164" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wealth flows from the people to the state and is spent on trains, towers, and the army; the household share stays the lowest on record" style="max-width:100%;height:auto">
+<svg viewBox="0 0 680 164" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wealth flows from the people to the state and is spent on trains, towers, and the army; the household share stays the lowest on record" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title>Wealth flows from the people to the state and is spent on trains, towers, and the army; the household share stays the lowest on record</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHERE THE WEALTH GOES: THE TEMPLE IS RICH AND THE MONKS ARE POOR</text>
-<rect x="20" y="26" width="200" height="100" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="120.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the people</text>
-<text x="120.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">no land, deposits in</text>
-<text x="120.0" y="86.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">state banks, the lowest</text>
-<text x="120.0" y="100.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">household share on record</text>
-<line x1="224.0" y1="60.0" x2="296.0" y2="60.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="currentColor" fill-opacity=".8"/></marker><marker id="arbig" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" fill-opacity=".85"/></marker></defs>
+<text x="20" y="16" font-size="12.5" fill="currentColor" opacity="0.92" text-anchor="start" font-weight="700">Where the wealth goes: the temple is rich and the monks are poor</text>
+<rect x="20" y="26" width="200" height="100" rx="8" fill="rgba(47,158,143,.16)" stroke="rgba(47,158,143,.9)" stroke-width="1.3"/>
+<text x="120.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">the people</text>
+<text x="120.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">no land, deposits in</text>
+<text x="120.0" y="86.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">state banks, the lowest</text>
+<text x="120.0" y="100.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">household share on record</text>
+<line x1="224.0" y1="60.0" x2="296.0" y2="60.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
 <text x="260" y="50" font-size="10" fill="currentColor" opacity="0.7" text-anchor="middle">wealth</text>
-<rect x="300" y="26" width="200" height="100" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="400.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the state</text>
-<text x="400.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">all land, 99.5% of</text>
-<text x="400.0" y="86.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">bank assets, energy,</text>
-<text x="400.0" y="100.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">big industry</text>
-<line x1="504.0" y1="60.0" x2="576.0" y2="60.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="300" y="26" width="200" height="100" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="400.0" y="58.333333333333336" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">the state</text>
+<text x="400.0" y="72.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">all land, 99.5% of</text>
+<text x="400.0" y="86.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">bank assets, energy,</text>
+<text x="400.0" y="100.33333333333334" font-size="10" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">big industry</text>
+<line x1="504.0" y1="60.0" x2="576.0" y2="60.0" stroke="currentColor" stroke-opacity=".75" stroke-width="1.6" marker-end="url(#ar)"/>
 <text x="540" y="50" font-size="10" fill="currentColor" opacity="0.7" text-anchor="middle">spent on</text>
-<rect x="580" y="26" width="80" height="100" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="620.0" y="58.916666666666664" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">trains,</text>
-<text x="620.0" y="72.41666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">towers,</text>
-<text x="620.0" y="85.91666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">the army,</text>
-<text x="620.0" y="99.41666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">Taiwan</text>
+<rect x="580" y="26" width="80" height="100" rx="8" fill="rgba(129,86,166,.16)" stroke="rgba(129,86,166,.9)" stroke-width="1.3"/>
+<text x="620.0" y="58.916666666666664" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="600">trains,</text>
+<text x="620.0" y="72.41666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">towers,</text>
+<text x="620.0" y="85.91666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">the army,</text>
+<text x="620.0" y="99.41666666666666" font-size="9.5" fill="currentColor" opacity="0.92" text-anchor="middle" font-weight="500">Taiwan</text>
 <text x="20" y="152" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">To let people consume more, the state would have to keep less, and a state that keeps less can do less. That is why it will not happen.</text>
 </svg>
