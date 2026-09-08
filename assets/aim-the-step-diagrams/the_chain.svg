@@ -1,0 +1,29 @@
+<svg viewBox="0 0 680 128" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="From keywords to the two questions to relationships, chunks, and a backbone with no details" style="max-width:100%;height:auto">
+<title>From keywords to the two questions to relationships, chunks, and a backbone with no details</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHAT THE AIM STEP BUILDS, IN ORDER</text>
+<rect x="20" y="26" width="116" height="62" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="78.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">keywords,</text>
+<text x="78.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">fast and</text>
+<text x="78.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">out of order</text>
+<line x1="138.0" y1="57.0" x2="154.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="156" y="26" width="116" height="62" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="214.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">two questions</text>
+<text x="214.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">of each: why,</text>
+<text x="214.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">and how related</text>
+<line x1="274.0" y1="57.0" x2="290.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="292" y="26" width="116" height="62" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="350.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">relationships,</text>
+<text x="350.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">several per</text>
+<text x="350.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">keyword</text>
+<line x1="410.0" y1="57.0" x2="426.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="428" y="26" width="116" height="62" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="486.0" y="53.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">chunks,</text>
+<text x="486.0" y="67.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">held loosely</text>
+<line x1="546.0" y1="57.0" x2="562.0" y2="57.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="564" y="26" width="116" height="62" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="622.0" y="46.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a backbone,</text>
+<text x="622.0" y="60.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">no details</text>
+<text x="622.0" y="74.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">on it</text>
+<text x="20" y="116" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Questions before the material, so what is read afterwards has somewhere to land. The chunks are graded a stage later.</text>
+</svg>

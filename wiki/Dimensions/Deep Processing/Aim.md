@@ -133,6 +133,7 @@ Run well, Aim is curiosity becoming directed: the topic that arrived as a loose 
 ## Related Pages
 
 - [[wiki/Dimensions/Deep Processing|Deep Processing]] — the parent dimension; Aim is one encoding operator inside it.
+- [[wiki/Dimensions/Deep Processing/Aim - The Step|Aim - The Step]] — the training page: what has to be in place first, the session, how it feels, when it goes, and the bar.
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — the parent loop; Aim is its first pass, ahead of the working and pruning passes.
 - [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] — the next pass: the source worked against Aim's questions into a rough map.
 - [[wiki/Dimensions/Deep Processing/Skin|Skin]] — the later pass: the map pruned to what survives without the source; it plays no part during Aim.
