@@ -1,12 +1,12 @@
 ---
-title: "Aim - The Step"
+title: "Aim - Training I"
 type: technique
 status: developing
 created: 2026-09-08
 updated: 2026-09-08
 written-by: fable
 method: fable-5.1-one-pass
-diagrams: scripts/gen-aim-the-step-diagrams.py
+diagrams: scripts/gen-aim-training-i-diagrams.py
 source-count: 1
 description: "Training for the first pass of the Bear Hunter System. Thirteen things in place first, three of them drills. Keywords fast and out of order, two questions of each, a structure held loosely. What the pass is meant to feel like, when in the week it goes, and the one-sentence bar."
 tags:
@@ -17,13 +17,13 @@ tags:
   - training
 ---
 
-# Aim - The Step
+# Aim - Training I
 
 ## Reasoning
 
 ### Abstract
 
-The Aim step is the list of questions written before the material is opened, and it is the first pass of the Bear Hunter System. Two questions carry it. Why is this important, and how does it relate to that other concept. The pass collects a topic's keywords fast and out of order, asks the two questions of each, and sketches a structure it refuses to commit to. What comes out is a backbone of the main chunks with no details on it. It also leaves a brain primed, so that everything read afterwards has somewhere to land. Before the first Aim, thirteen skills have to be in place, and three of them are drills the step rests on. A session takes about 25 minutes for a topic of 15 to 30 concepts. It is meant to feel chaotic, and it goes on Sunday for the week's material. The bar is the ability to turn a concept list into questions that find chunks and the relationships between them. Holding those chunks to a standard is the second half of Aim, and it has its own page.
+The Aim step is the list of questions written before the material is opened, and it is the first pass of the Bear Hunter System. Two questions carry it. Why is this important, and how does it relate to that other concept. The pass collects a topic's keywords fast and out of order, asks the two questions of each, and sketches a structure it refuses to commit to. What comes out is a backbone of the main chunks with no details on it. It also leaves a brain primed, so that everything read afterwards has somewhere to land. Before the first Aim, thirteen skills have to be in place, and three of them are drills the step rests on. A session takes about 25 minutes for a topic of 15 to 30 concepts. It is meant to feel chaotic, and it goes on Sunday for the week's material. The bar is the ability to turn a concept list into questions that find chunks and the relationships between them. Holding those chunks to a standard is the second half of Aim, on Aim - Training II.
 
 ### Core takeaways
 
@@ -284,7 +284,7 @@ Aim after the class, with no prestudy, still works. It is the messiest order and
 
 The bar for Aim is one sentence. You can consistently use concept lists to create high-quality questions that identify chunks, sub-chunks, and the relationships between them. Four other things are graded at the same point, because they have to keep running while Aim is learned. Focus is consistent and easy to set up in different environments. The green light of the drill still answers the Aim questions, in processed notes that show chunks and relationships. Spaced interleaved retrieval is near unconscious competence, with several interleaving methods and consistent spacing. Non-linear notes are becoming substantially more comfortable.
 
-The bar is about the step and not the standard, on purpose. Whether the chunks are importance-based, whether the reasons are root reasons, whether a map built from these questions has single-node chains or reverse causality, all of that is graded one stage later, when Shoot maps are read. That is the second half of Aim, on the page Aim - The Standard.
+The bar is about the step and not the standard, on purpose. Whether the chunks are importance-based, whether the reasons are root reasons, whether a map built from these questions has single-node chains or reverse causality, all of that is graded one stage later, when Shoot maps are read. That is the second half of Aim, on the page Aim - Training II.
 
 ## Sources and links
 

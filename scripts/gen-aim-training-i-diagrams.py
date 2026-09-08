@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""gen-aim-the-step-diagrams.py — figures for wiki/Dimensions/Deep Processing/Aim - The Step.md.
-Everything drawn is something the page says. usage: python3 scripts/gen-aim-the-step-diagrams.py [--inject PAGE]"""
+"""gen-aim-training-i-diagrams.py — figures for wiki/Dimensions/Deep Processing/Aim - Training I.md.
+Everything drawn is something the page says. usage: python3 scripts/gen-aim-training-i-diagrams.py [--inject PAGE]"""
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import diagramlib as d
 from diagramlib import *
-d.OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "aim-the-step-diagrams"); os.makedirs(d.OUT, exist_ok=True)
+d.OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "aim-training-i-diagrams"); os.makedirs(d.OUT, exist_ok=True)
 ST, OLD = TEAL, None   # teal = the step, gray = what it replaces
 
 def chain(steps, y, color, w=118, h=58, x0=20, gap=22, size=10, colors=None):
