@@ -8,7 +8,7 @@ written-by: fable
 method: fable-5.1-one-pass
 diagrams: scripts/gen-writing-templates-diagrams.py
 source-count: 0
-description: "A writing template is a shape a section or a page is poured into before the words are written. Each of the five thinking habits gives one. On an ordinary page the five are the five slots of whole, part, whole, and two of them also stand as pages of their own, the record page and the condensed page."
+description: "A writing template is a shape a section or a page is poured into before the words are written, and each of the five thinking habits gives one. On an ordinary page all five run at once inside whole, part, whole, and two of them also stand as pages of their own, the record page and the condensed page."
 tags:
   - writing
   - system
@@ -22,7 +22,7 @@ tags:
 
 ### Abstract
 
-A writing template is a shape that a section or a page is poured into before the words are written. Five thinking habits each give one. The habits are to start at the end, to give observations before conclusions, to play the question back, to say what would change your mind, and to compress it first. Each one is a check a person runs on their own thinking before they speak, and a page is a place where that check can be run in writing. A template can be the size of one section, dropped into a page at the point where it is needed, or it can be the whole page. Every page in this collection takes one shape. It opens in the whole, goes into the parts, and comes back to the whole. Four of the five templates fill the three slots of that shape, and the fifth is the page at its shortest. Two of them also make a page of their own kind, the record page and the condensed page.
+A writing template is a shape that a section or a page is poured into before the words are written. Five thinking habits each give one. The habits are to start at the end, to give observations before conclusions, to play the question back, to say what would change your mind, and to compress it first. Each one is a check a person runs on their own thinking before they speak, and a page is a place where that check can be run in writing. A template can be the size of one section, dropped into a page at the point where it is needed, or it can be the whole page. Every page in this collection takes one shape. It opens in the whole, goes into the parts, and comes back to the whole. Three of the five templates go into the opening whole and the parts. The fourth is the last part before the close. The fifth is the page at its shortest. Two of them also make a page of their own kind, the record page and the condensed page.
 
 ### Core takeaways
 
@@ -30,48 +30,67 @@ A writing template is a shape that a section or a page is poured into before the
 - Start at the end fills the opening whole. The first sentence is the answer, and if it will not come there is no page yet.
 - Observations before conclusions fills the parts. Each part gives what was seen before what it means, and a page made only of this is a record.
 - Play the question back is the opening whole seen from the question's side. The page says what is really being asked, and splits it, before it answers.
-- Say what would change your mind fills the closing whole. The position, the strongest counter, and the condition that would flip it sit together.
+- Say what would change your mind is the last part before the close. The position, the strongest counter, and the condition that would flip it sit together.
 - Compress it first is the page in one or two lines, written before the rest. A page made only of this is a condensed page.
 
 ### Essay
 
-Start with what a template is for. A writer sits down holding something. Sometimes it is a conclusion they have reached. Sometimes it is a pile of things they saw and no conclusion yet. Sometimes it is a question someone asked them that has not been made clear. Sometimes it is a decision. Sometimes it is a whole subject they know well and want to hand over in one breath. Each of those is a different starting point, and a page that starts from the wrong shape fights its own material the whole way down. A template is the shape chosen to fit what the writer holds, so the material goes in without a fight.
+Start with what a template is for. A writer sits down holding something. Sometimes it is a conclusion they have reached. Sometimes it is a pile of things they saw and no conclusion yet. Sometimes it is a question someone asked them that has not been made clear. Sometimes it is a decision. Sometimes it is a whole subject they know well and want to hand over in one breath. Each of those is a different starting point. A page that starts from the wrong shape fights its own material the whole way down. A template is the shape chosen to fit what the writer holds, so the material goes in without a fight.
 
-The five thinking habits are five ways a person checks their own thinking before it leaves their mouth. To say the conclusion first you have to know it. To give observations first you have to have some. To play the question back you have to have understood it. To say what would change your mind you have to have looked. To compress you have to know which parts matter. A page is a slower place to run the same checks, and each habit turns into a shape that makes the writer run its check. That is what makes an article a frame for thinking. The page does more than store a finished thought. It makes the writer run the check.
+The five thinking habits are five ways a person checks their own thinking before it leaves their mouth. To say the conclusion first you have to know it. To give observations first you have to have some. To play the question back you have to have understood it. To say what would change your mind you have to have looked. To compress you have to know which parts matter. A page is a slower place to run the same checks. Each habit turns into a shape that makes the writer run its check. That is what makes an article a frame for thinking. The page does more than store a finished thought. It makes the writer run the check.
 
 <!-- diagram:five_slots -->
-<svg viewBox="0 0 680 204" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The page shape whole, part, whole with the template that fills each slot and the description line above it" style="max-width:100%;height:auto">
-<title>The page shape whole, part, whole with the template that fills each slot and the description line above it</title>
+<svg viewBox="0 0 680 268" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The page shape whole, part, whole with the template that goes into each place and the description line above it" style="max-width:100%;height:auto">
+<title>The page shape whole, part, whole with the template that goes into each place and the description line above it</title>
 <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE PAGE SHAPE, AND WHICH TEMPLATE FILLS EACH SLOT</text>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE PAGE SHAPE, AND WHERE EACH TEMPLATE GOES</text>
 <rect x="20" y="26" width="640" height="40" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
 <text x="340.0" y="49.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">the description line: compress it first, the page in one or two lines</text>
-<rect x="20" y="84" width="196" height="70" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
-<text x="118.0" y="108.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">opening whole</text>
-<text x="118.0" y="122.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">start at the end,</text>
-<text x="118.0" y="136.33333333333331" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">or play the question back</text>
-<line x1="218.0" y1="119.0" x2="240.0" y2="119.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="242" y="84" width="196" height="70" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
-<text x="340.0" y="108.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the parts</text>
-<text x="340.0" y="122.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">observations before</text>
-<text x="340.0" y="136.33333333333331" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">conclusions</text>
-<line x1="440.0" y1="119.0" x2="462.0" y2="119.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="464" y="84" width="196" height="70" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
-<text x="562.0" y="108.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">closing whole</text>
-<text x="562.0" y="122.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">say what would</text>
-<text x="562.0" y="136.33333333333331" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">change your mind</text>
-<text x="20" y="176" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Whole, part, whole is the shape every page here takes. Four templates fill its three slots and the fifth is the page at its shortest.</text>
-<text x="20" y="192" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Two templates also make a page of their own kind: the record page and the condensed page.</text>
+<rect x="20" y="84" width="148" height="74" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="94.0" y="103.91666666666667" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">opening whole:</text>
+<text x="94.0" y="117.41666666666667" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">why it matters, how it</text>
+<text x="94.0" y="130.91666666666669" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">connects to what the</text>
+<text x="94.0" y="144.41666666666669" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">reader knows</text>
+<line x1="170.0" y1="121.0" x2="182.0" y2="121.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="184" y="84" width="148" height="74" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="258.0" y="124.16666666666667" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">the parts</text>
+<line x1="334.0" y1="121.0" x2="346.0" y2="121.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="348" y="84" width="148" height="74" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="422.0" y="124.16666666666667" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">the last part</text>
+<line x1="498.0" y1="121.0" x2="510.0" y2="121.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="512" y="84" width="148" height="74" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="586.0" y="110.66666666666667" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">closing whole:</text>
+<text x="586.0" y="124.16666666666667" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">calls back to the</text>
+<text x="586.0" y="137.66666666666669" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">entire piece</text>
+<rect x="20" y="166" width="148" height="54" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="94.0" y="182.66666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">start at the end,</text>
+<text x="94.0" y="196.16666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">or play the</text>
+<text x="94.0" y="209.66666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">question back</text>
+<line x1="170.0" y1="193.0" x2="182.0" y2="193.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="184" y="166" width="148" height="54" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="258.0" y="189.41666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">observations</text>
+<text x="258.0" y="202.91666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">before conclusions</text>
+<line x1="334.0" y1="193.0" x2="346.0" y2="193.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="348" y="166" width="148" height="54" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="422.0" y="189.41666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">say what would</text>
+<text x="422.0" y="202.91666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">change your mind</text>
+<line x1="498.0" y1="193.0" x2="510.0" y2="193.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="512" y="166" width="148" height="54" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
+<text x="586.0" y="182.66666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">no template</text>
+<text x="586.0" y="196.16666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">the page's own</text>
+<text x="586.0" y="209.66666666666666" font-size="9.5" fill="currentColor" opacity="0.85" text-anchor="middle">callback</text>
+<text x="20" y="240" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Whole, part, whole is the shape every page here takes. Three templates go into the opening whole and the parts.</text>
+<text x="20" y="256" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">One is the last part before the close, and one is the description line. The closing whole belongs to no template.</text>
 </svg>
 <!-- /diagram -->
 
-Every page here takes one shape. It opens in the whole, which is the subject seen from above, goes into the parts, and comes back to the whole with the reader now standing further along. The five templates are that shape's slots, filled. Start at the end is what the opening whole contains, because the whole seen from above is the answer. Play the question back is the same opening whole when the page starts from a question rather than from an answer. Observations before conclusions is what each part contains. Say what would change your mind is what the closing whole contains, because a close that names the condition under which it would be wrong is the close of someone who has looked past their own position. Compress it first is the whole page in one or two lines, and here it lives as the description line, the short text that stands for the page on any list where the page appears.
+Every page here takes one shape. It opens in the whole, goes into the parts, and comes back to the whole. The opening whole answers one or both of two questions: why this matters, and how it connects to something the reader already knows. The closing whole calls back to the entire piece, not to the topic, so the reader leaves holding the whole thing and not the last part. The templates go into that shape at set points. Start at the end puts the answer in the opening whole's first sentence, before the why and the connection. Play the question back is the same opening whole when the page starts from a question rather than from an answer. Observations before conclusions is what each part contains. Say what would change your mind is the last part before the close, where the answer is still the subject. Compress it first is the whole page in one or two lines. Here it lives as the description line. That is the short text that stands for the page on any list where the page appears. The closing whole belongs to no template. It is the page's own callback to everything above it.
 
-Two of the templates also make a page of their own kind. A page made only of observations, with the reading at the end and marked as not settled, is a record. A page made only of the compression, one paragraph that holds the subject and then lines that each stand alone, is a condensed page. A condensed page has no parts in the sense above, only a list of small wholes, so it stands apart from the shape. The other three never stand apart, because each of them is one slot of the shape itself.
+Two of the templates also make a page of their own kind. A page made only of observations, with the reading at the end and marked as not settled, is a record. A page made only of the compression, one paragraph that holds the subject and then lines that each stand alone, is a condensed page. A condensed page has no parts in the sense above, only a list of small wholes, so it stands apart from the shape. The other three never stand apart, because each of them sits inside the shape, in the opening whole or in the last part before the close.
 
 ### Conclusion
 
-A writer who knows the five templates picks by what they hold. A conclusion goes in at the top. Observations go in as parts. A fuzzy question gets played back before anything is answered. A decision gets its counter and its flip condition beside it. A finished subject gets compressed to a line or two first, and the rest expands from there. On an ordinary page all five run at once, one in each slot of the shape. On a record page or a condensed page one of them is the whole page.
+A writer who knows the five templates picks by what they hold. A conclusion goes in at the top. Observations go in as parts. A fuzzy question gets played back before anything is answered. A decision gets its counter and its flip condition beside it. A finished subject gets compressed to a line or two first, and the rest expands from there. On an ordinary page all five run at once. The compression is the description line, the answer or the played-back question opens the page, the observations are the parts, what would change the answer is the last part, and the close calls back to the whole piece. On a record page or a condensed page one template is the whole page.
 
 ## The five templates
 
@@ -123,7 +142,7 @@ Each template below is given at section size and at page size, with one live pag
 
 At section size, this template is a section whose first sentence is its answer, with the reasons after it in the order that supports it. A reader who stops after one sentence has the point. A reader who keeps going learns why. At page size, the same three moves run at page scale. Sentence one is the answer. The parts are the reasons. The close is the answer again, with the reasons now behind it, so the reader stands further along than they did at the top. Five Thinking Habits - Conclusion First is a live page in this shape, and so is The Cold Open, whose first sentence is its whole claim.
 
-The check that comes with the template is the one that matters most. Before a word is written, the writer asks what the answer is. If it will not come in one sentence, the writer does not know the subject well enough yet, and the fix is to go back to the material, not to start writing and hope the answer arrives. When the answer comes but is unsure, it still goes first and it carries the uncertainty with it. Against whole, part, whole, this template is what the opening whole contains. It never stands apart from the shape.
+The check that comes with the template is the one that matters most. Before a word is written, the writer asks what the answer is. If it will not come in one sentence, the writer does not know the subject well enough yet. The fix is to go back to the material. Starting to write and hoping the answer arrives is not the fix. When the answer comes but is unsure, it still goes first and it carries the uncertainty with it. Against whole, part, whole, this template is what the opening whole contains. It never stands apart from the shape.
 
 ### Observations before conclusions
 
@@ -162,9 +181,9 @@ The check that comes with the template is the one that matters most. Before a wo
 </svg>
 <!-- /diagram -->
 
-At section size, this template is a block that lists what was seen, with where and when it was seen, and then gives one line on what it means, marked as not settled. It drops into any page at the point where a claim is made. A claim with an observation block under it is something the reader can check. A claim with nothing under it is a verdict, and the reader is left asking how the writer knows. At page size, the template is a record. The opening says what was watched and where. The parts are the observations, in the order they came. The close is the reading, and the reading is marked as not settled if it is not. The section on the n=1 layer in Dimensions of Learning is a live example at section size. It is stated as one person's position and says so, rather than as a finding from a study.
+At section size, this template is a block that lists what was seen, with where and when. Then it gives one line on what it means, marked as not settled. It drops into any page at the point where a claim is made. A claim with an observation block under it is something the reader can check. A claim with nothing under it is a verdict, and the reader is left asking how the writer knows. At page size, the template is a record. The opening says what was watched and where. The parts are the observations, in the order they came. The close is the reading, and the reading is marked as not settled if it is not. The journal entry The Context Problem is a live record at page size. It lists every instance of one complaint found on record and counts them. Then it gives the change that was made because of them.
 
-Against whole, part, whole, the record bends into the shape. The opening whole says what was watched, the parts are the observations, and the closing whole is the reading. A pure record with no reading yet is the one case that stands apart, because it has no closing whole to come back to. That page is still worth keeping. It is the material a later page will be built from.
+Against whole, part, whole, the record bends into the shape. The opening whole says what was watched, the parts are the observations, and the closing whole is the reading. A pure record with no reading yet stands apart. It has no closing whole to come back to. That page is still worth keeping. It is the material a later page will be built from.
 
 ### Play the question back
 
@@ -213,7 +232,7 @@ Against whole, part, whole, the record bends into the shape. The opening whole s
 </svg>
 <!-- /diagram -->
 
-At section size, this template is the question written back at the top of a page or a section, before the answer. First the question as it was asked. Then what it is really asking. Then its parts, if it has more than one. Then the answer, part by part. Writing the question back does the same work as saying it back in a conversation. It forces the writer to find what the asker meant, and it shows the reader what is being answered, so the page does not come back as not what was asked for. At page size, the template is a page that only unpacks the question and routes each part to the page that answers it. The table of five questions at the top of Dimensions of Learning is this shape at page size. Each question names one thing that can be the weakest, and each row routes to the page for it.
+At section size, this template is the question written back at the top of a page or a section, before the answer. First the question as it was asked. Then what it is really asking. Then its parts, if it has more than one. Then the answer, part by part. Writing the question back does the same work as saying it back in a conversation. It forces the writer to find what the asker meant, and it shows the reader what is being answered, so the page does not come back as not what was asked for. At page size, the template is a page that only unpacks the question and routes each part to the page that answers it. No live page has that shape yet. Today the template runs at the desk, before a page is written. The writer puts down one sentence that says what a friend would ask. That sentence is written before any outline exists.
 
 Against whole, part, whole, this template and the shape are the same thing seen from the question's side. The played-back question is the opening whole. Its parts are the parts. The question answered as a whole is the close. When the question has two parts, the page shows both, or it becomes two pages. A page that answers one part and never says the other exists is the page the reader did not ask for.
 
@@ -254,13 +273,13 @@ Against whole, part, whole, this template and the shape are the same thing seen 
 <text x="588.0" y="134.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the check: is this</text>
 <text x="588.0" y="148.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">case different from</text>
 <text x="588.0" y="162.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">the ones before?</text>
-<text x="20" y="190" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">As a page: a position page. It sits in the closing whole, or as the last part before it.</text>
+<text x="20" y="190" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">As a page: a position page. Against the page shape it is the last part before the close.</text>
 </svg>
 <!-- /diagram -->
 
-At section size, this template is a block that comes after any conclusion, on any page. The position is stated. The strongest counter is stated beside it, well enough that someone who holds the counter would recognize it. Then the condition under which the position would flip. The block tells the reader that the writer has looked past their own position and will not defend it beyond what the evidence supports. It also gives the reader something to hold the page to later. At page size, the template is a position page. The same three moves run, and then a fourth: the check on whether this case differs from the ones the writer has seen before, which is the one moment where a writer working from habit finds out whether the habit fits this time. Applied Critical Thinking - Testing Frames carries this at section size, as one row of a written checklist, named what would change the recommendation. Decision documents, the pages that record a choice between options, carry it at page size, with the verdict in the first two sentences and what would flip it stated after.
+At section size, this template is a block that comes after any conclusion, on any page. The position is stated. The strongest counter is stated beside it, well enough that someone who holds the counter would recognize it. Then the condition under which the position would flip. The block tells the reader that the writer has looked past their own position and will not defend it beyond what the evidence supports. It also gives the reader something to hold the page to later. At page size, the template is a position page. The same three moves run, and then a fourth. The fourth is the check on whether this case differs from the ones the writer has seen before. That check is the one moment where a writer working from habit finds out whether the habit fits this time. Applied Critical Thinking - Testing Frames carries this at section size, as one row of a written checklist, named what would change the recommendation. Decision documents, the pages that record a choice between options, carry it at page size, with the verdict in the first two sentences and what would flip it stated after.
 
-Against whole, part, whole, this template sits inside the closing whole, or as the last part before it. The close of a page is the opening whole advanced, and a close that names its own flip condition is the close of someone who has looked past their own position.
+Against whole, part, whole, this template is the last part before the close. The close itself calls back to the entire piece, so the flip condition goes just before it, while the answer is still the subject.
 
 ### Compress it first
 
@@ -302,7 +321,7 @@ Against whole, part, whole, the compression is the opening whole at its shortest
 - [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]] holds the five habits as spoken habits and the check each one runs before speaking. This page turns each into a shape for writing.
 - [[wiki/Writing Craft/The Cold Open|The Cold Open]] holds the first template at page size, the claim at full strength in sentence one, and says where that form fails.
 - [[02 - System/Writing Standards|Writing Standards]] holds the shape every page here takes, whole, part, whole, in its second section, and what each kind of page owes in its fourth.
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] opens on a table of five questions, one per dimension, which is the third template at page size, and holds a section stated as one person's position, which is the second template at section size.
+- [[journal/2026-08-22-the-context-problem|The Context Problem]] is a record at page size: every instance of one complaint on record, the counts, and the change made because of them.
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]] holds the fourth template as a written row, what would change the recommendation.
 - [[wiki/Dimensions/Mindset/Mindset, Condensed|Mindset, Condensed]] is the fifth template at page size, one paragraph holding the domain and then lines that each stand alone.
 

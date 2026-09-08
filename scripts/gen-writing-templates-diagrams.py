@@ -17,12 +17,13 @@ def chain(steps, y, color, w=118, h=58, x0=20, gap=22, size=10, colors=None):
     return out
 
 def fig_five_slots():
-    out = [MARKER, cap(20, 14, "the page shape, and which template fills each slot")]
+    out = [MARKER, cap(20, 14, "the page shape, and where each template goes")]
     out.append(box(20, 26, 640, 40, ["the description line: compress it first, the page in one or two lines"], T, 10.5))
-    out += chain([["opening whole", "start at the end,", "or play the question back"], ["the parts", "observations before", "conclusions"], ["closing whole", "say what would", "change your mind"]], 84, None, w=196, gap=26, h=70, colors=[S, S, S])
-    out.append(txt(20, 176, "Whole, part, whole is the shape every page here takes. Four templates fill its three slots and the fifth is the page at its shortest.", 10.5, .78))
-    out.append(txt(20, 192, "Two templates also make a page of their own kind: the record page and the condensed page.", 10.5, .78))
-    return svg("five_slots", 204, "The page shape whole, part, whole with the template that fills each slot and the description line above it", "\n".join(out))
+    out += chain([["opening whole:", "why it matters, how it", "connects to what the", "reader knows"], ["the parts"], ["the last part"], ["closing whole:", "calls back to the", "entire piece"]], 84, None, w=148, gap=16, h=74, size=9.5, colors=[S, S, S, S])
+    out += chain([["start at the end,", "or play the", "question back"], ["observations", "before conclusions"], ["say what would", "change your mind"], ["no template", "the page's own", "callback"]], 166, None, w=148, gap=16, h=54, size=9.5, colors=[T, T, T, None])
+    out.append(txt(20, 240, "Whole, part, whole is the shape every page here takes. Three templates go into the opening whole and the parts.", 10.5, .78))
+    out.append(txt(20, 256, "One is the last part before the close, and one is the description line. The closing whole belongs to no template.", 10.5, .78))
+    return svg("five_slots", 268, "The page shape whole, part, whole with the template that goes into each place and the description line above it", "\n".join(out))
 
 def fig_answer_template():
     out = [MARKER, cap(20, 14, "start at the end, as a section and as a page")]
@@ -53,7 +54,7 @@ def fig_change_template():
     out += chain([["the position"], ["the strongest", "counter"], ["the condition", "that would flip it"]], 26, T, w=196, gap=26, h=58)
     out.append(txt(20, 100, "As a section: a block after any conclusion, on any page.", 10.5, .78))
     out += chain([["the position"], ["the strongest", "counter"], ["the conditions", "that would flip it"], ["the check: is this", "case different from", "the ones before?"]], 116, None, w=140, gap=26, h=58, colors=[T, T, T, S])
-    out.append(txt(20, 190, "As a page: a position page. It sits in the closing whole, or as the last part before it.", 10.5, .78))
+    out.append(txt(20, 190, "As a page: a position page. Against the page shape it is the last part before the close.", 10.5, .78))
     return svg("change_template", 202, "Say what would change your mind as a section is position, counter, flip condition, and as a page adds the check", "\n".join(out))
 
 def fig_compress_template():

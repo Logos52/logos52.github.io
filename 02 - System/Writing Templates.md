@@ -3,7 +3,7 @@ title: "Writing Templates"
 type: system
 status: developing
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-08
 tags:
   - system
   - writing
@@ -16,6 +16,8 @@ Five templates, one per thinking habit. Each block below is the template with it
 
 A template is an instrument. It says what goes where. It says nothing about how the sentences sound; that is the write-act's job ([[02 - System/The Generator|The Generator]]).
 
+The shape the templates go into is whole, part, whole (Writing Standards §2). Owner, 2026-09-08: the opening whole answers one or both of two questions, why this is important, and how it relates to something the reader already knows; the closing whole calls back to the entire piece, not to the topic. The closing whole belongs to no template.
+
 ## How to pick
 
 Pick by what the writer holds when sitting down.
@@ -25,16 +27,16 @@ Pick by what the writer holds when sitting down.
 | A conclusion | T1 Start at the end | The opening whole of any page, or the whole page |
 | Observations and no settled conclusion | T2 Observations before conclusions | A block under any claim, or a record page |
 | A fuzzy ask | T3 Play the question back | The opening of any page, or a routing page |
-| A decision or a position | T4 Say what would change your mind | A block after any conclusion, or a position page |
+| A decision or a position | T4 Say what would change your mind | A block after any answer, or a position page |
 | A finished subject | T5 Compress it first | The description line of any page, or a condensed page |
 
-On an ordinary wiki page all five run at once: T5 is the description line, T1 or T3 is the opening whole, T2 is each part, T4 is the closing whole.
+On an ordinary wiki page all five run at once: T5 is the description line, T1 or T3 opens the opening whole, T2 is each part, T4 is the last part before the close. The closing whole is the page's own callback to everything above it.
 
 ---
 
 ## T1. Start at the end
 
-Slot in the shape: the opening whole.
+Slot in the shape: the first sentence of the opening whole. The rest of the opening whole then says why it matters and how it connects to what the reader knows.
 
 ```text
 [ANSWER]      One sentence. The page's or the section's answer. Written from the fact list with the
@@ -57,7 +59,7 @@ Slot in the shape: the parts.
 [READING]      What it means. Marked "not settled" when it is not. Never the reading alone.
 ```
 
-Section: a block dropped in at the point where a claim is made; [SEEN] then [READING]. A takeaway or a claim with no [SEEN] under it is a verdict and gets its observation or goes. Page: a record; [SETTING] is the opening whole, [SEEN] are the parts, [READING] is the close. A record with no [READING] yet stands apart from the shape and is kept as material. Pipeline step it changes: Writing. After the essay, every core takeaway is pointed at the paragraph or figure that holds its [SEEN].
+Section: a block dropped in at the point where a claim is made; [SEEN] then [READING]. A takeaway or a claim with no [SEEN] under it is a verdict and gets its observation or goes. Page: a record, frontmatter `type: record`, with the top-level sections `## What was watched`, `## What was seen`, `## The reading` in that order; [SETTING] is the opening whole, [SEEN] are the parts, [READING] is the close. The layout gate (`01 - Workbench/eli5-haiku-wave-2026-09-01/check-eli5.py`) checks that order for `type: record` and the condensed shape for `type: condensed`. A record with no [READING] yet stands apart from the shape and is kept as material. Pipeline step it changes: Writing. After the essay, every core takeaway is pointed at the paragraph or figure that holds its [SEEN].
 
 ## T3. Play the question back
 
@@ -75,7 +77,7 @@ Section: [ASKED] [REALLY] [PARTS] at the top of a page or a section, before the 
 
 ## T4. Say what would change your mind
 
-Slot in the shape: the closing whole, or the last part before it.
+Slot in the shape: the last part before the closing whole. Never the closing whole itself.
 
 ```text
 [POSITION]   What is held.
@@ -84,7 +86,7 @@ Slot in the shape: the closing whole, or the last part before it.
 [THIS TIME]  Page size only: is this case different from the ones the writer has seen before?
 ```
 
-Section: [POSITION] [COUNTER] [FLIP] as a block after any conclusion, on any page. Page: a position page or a decision document; all four. Pipeline step it changes: Writing. Every wiki page's Conclusion section carries [FLIP]. Action pages and decision documents already owe the fuller form in Writing Standards §4 and keep it.
+Section: [POSITION] [COUNTER] [FLIP] as a block after any conclusion, on any page. Page: a position page or a decision document; all four. Pipeline step it changes: Writing. [FLIP] goes in the last part before the Conclusion section, on any page that takes a position. Action pages and decision documents already owe the fuller form in Writing Standards §4 and keep it.
 
 ## T5. Compress it first
 
@@ -104,4 +106,5 @@ Section: [LINE] at the top of a section, then [EXPANSION]. Page: a condensed pag
 
 ## Record
 
+- 2026-09-08. T4 moved off the closing whole on the owner's word: the closing whole calls back to the entire piece and belongs to no template; T4 is the last part before it. Two example readings on the public page were cut as the writer's inference, not the owner's research: the n=1 layer section is a position with no observations under it, and the five-question table poses diagnostic questions rather than playing back an asked one. The record page and condensed page shapes were added to the layout gate.
 - 2026-09-07. Written on the owner's go, after the outline in chat. Replaces the seven-line addendum draft at `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/thinking-habits-2026-09-06/WS-ADDENDUM-DRAFT.md`, which put all five habits on every page; the owner's frame is one habit per template. That draft's lines A1 and A2 became T1, A3 and A4 became T2, A5 became T3, A6 became T4, A7 became T5.
