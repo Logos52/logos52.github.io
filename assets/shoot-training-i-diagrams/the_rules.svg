@@ -1,0 +1,29 @@
+<svg viewBox="0 0 680 254" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The six letters of the note rules and what each one blocks" style="max-width:100%;height:auto">
+<title>The six letters of the note rules and what each one blocks</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE SEVEN NOTE RULES, ADDED ONE AT A TIME</text>
+<rect x="20" y="26" width="120" height="28" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="80.0" y="43.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">Visual</text>
+<rect x="150" y="26" width="510" height="28" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
+<text x="405.0" y="43.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">fewer words, doodles and shorthand carry it</text>
+<rect x="20" y="60" width="120" height="28" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="80.0" y="77.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">Processed</text>
+<rect x="150" y="60" width="510" height="28" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
+<text x="405.0" y="77.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">nothing on the page that skipped the three questions</text>
+<rect x="20" y="94" width="120" height="28" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="80.0" y="111.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">Relational</text>
+<rect x="150" y="94" width="510" height="28" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
+<text x="405.0" y="111.33333333333333" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">relationships, not items</text>
+<rect x="20" y="128" width="120" height="28" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="80.0" y="145.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">Freehand</text>
+<rect x="150" y="128" width="510" height="28" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
+<text x="405.0" y="145.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a pen on an infinite canvas, not a keyboard</text>
+<rect x="20" y="162" width="120" height="28" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="80.0" y="179.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">Reflective</text>
+<rect x="150" y="162" width="510" height="28" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
+<text x="405.0" y="179.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">your order, the one Aim chose</text>
+<rect x="20" y="196" width="120" height="28" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="80.0" y="213.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">Efficient</text>
+<rect x="150" y="196" width="510" height="28" rx="6" fill="rgba(130,130,130,.18)" stroke="rgba(130,130,130,.35)" stroke-opacity=".55"/>
+<text x="405.0" y="213.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">after a block: did you keep it, can you use it</text>
+<text x="20" y="242" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Forgetting more than 30% of what was written means an earlier rule failed. Cornell notes are the overhyped version of collect and process.</text>
+</svg>

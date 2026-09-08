@@ -84,6 +84,7 @@ With practice the two steps stop being two: answering produces the next question
 ## Related
 
 - [[wiki/Dimensions/Deep Processing|Deep Processing]] — the parent dimension this step belongs to.
+- [[wiki/Dimensions/Deep Processing/Shoot - Training I|Shoot - Training I]] — the training page: what has to be in place first, the session, the seven note rules, how it feels, when it goes, and the bar.
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — the loop this is the second step of.
 - [[wiki/Dimensions/Deep Processing/Aim|Aim]] — where the questions come from, and the step to return to when this one scatters.
 - [[wiki/Dimensions/Deep Processing/Skin|Skin]] — the next step: the map cut down to what can be rebuilt without the source.
