@@ -106,7 +106,7 @@ Carried from the 2026-08-10 ruling; the derivation is [[wiki/Concepts/The Two Me
 
 ## 7. Exemplars
 
-Every accepted opening, verbatim with the date and the owner's words, is in [[02 - System/Accepted Openings|Accepted Openings]]. The writer reads two or three of the same kind before writing (added 2026-09-10).
+The openings that survived, picked on a board or gone live without a strike, are in [[02 - System/Openings on the Record|Openings on the Record]], read for shape and not as a target; the owner has ruled none of them accepted (2026-09-10).
 
 | Genre | Exemplar |
 |---|---|
