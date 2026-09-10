@@ -106,6 +106,8 @@ Carried from the 2026-08-10 ruling; the derivation is [[wiki/Concepts/The Two Me
 
 ## 7. Exemplars
 
+Every accepted opening, verbatim with the date and the owner's words, is in [[02 - System/Accepted Openings|Accepted Openings]]. The writer reads two or three of the same kind before writing (added 2026-09-10).
+
 | Genre | Exemplar |
 |---|---|
 | Wiki concept telling | [[wiki/Concepts/The Two Meanings of Ego\|The Two Meanings of Ego]] |

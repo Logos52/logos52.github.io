@@ -3,7 +3,7 @@ title: "Rejected Specimens"
 type: system
 status: developing
 created: 2026-08-13
-updated: 2026-08-25
+updated: 2026-09-10
 tags:
   - system
   - writing
@@ -435,3 +435,68 @@ four jobs can beat that if each job is done by a head that is missing something 
 ```
 
 **Struck because:** Owner, on the A/B board: "that writing is what most people consider to be slop." Then, same day: each sentence needs to be perfectly comprehensible out of context; the second clause "definitely sounds wrong." First line is Fable, live wiki. Second line is Grok, same page, same day. A third line, offered as speech, was struck as the same fragment: "That run cannot see the notes the last run used." Owner: a person would say the first two sentences and would not say that; "lacks something the head before it had" is the problem fragment. Diagnosis: the writer states a recurrence (this instance minus the last instance of the same name) instead of saying what this instance is handed, as objects. Everyday nouns on that recurrence are still that recurrence. How to see it: `01 - Workbench/riddle-sentence-how-to-see.md`. Repair: say what this step is handed. If a diagram of four jobs follows, the sentence is that the work is split into four jobs, and the diagram carries them. Do not write the minus.
+
+### 37. Trained Contempt — 2026-09-10
+
+```text
+Trained contempt is what happens when a way of seeing what is wrong with a thing gets worn
+so long that it becomes the way you see the thing, and then the world.
+```
+
+**Struck because:** Owner: "that intro needs a re-generation. not a rewrite." A dictionary line for a coined term, built from kinds and not things ("a way of seeing," "a thing," "the thing," "the world"), with a flourish on the end. Nothing to point at. Generator: the layout gate demands the title's key word in the first eight words, so the writer opened with "X is" before any pointable thing existed on the page; a gate held while writing (§3 forbids). Same shape on the habits, templates, and levels abstracts of 09-06 to 09-08.
+
+### 38. Trained Contempt, intro A — 2026-09-10
+
+```text
+[prompt] Take Wedge's three statements from today as the only material, put them in the
+page's voice, add nothing, and let the name arrive last.
+Contempt is the feeling you need to turn something into something beautiful. You look at a
+thing and you cannot stand it the way it is. That is the only reason anyone ever makes a
+better one. The same feeling turns people bitter. It works like a lens. …
+```
+
+**Struck because:** Owner: "all are bad." On the set: "you need to start with a cold definition i think. we have ruled openings that you keep forgetting." The name arrived last; he wants the term first. The prompt is struck with the line.
+
+### 39. Trained Contempt, intro B — 2026-09-10
+
+```text
+[prompt] Wedge asked "idk if this has a name." Answer him as you would across a table, then
+take out the address.
+Does this have a name? Not a good one. Cynicism names the end of it and not the road there.
+Here is the road. A thing fails you at something it should be able to do. …
+```
+
+**Struck because:** Owner: "all are bad." Opens on a question and a road metaphor; the definition never arrives cold. The prompt is struck with the line.
+
+### 40. Trained Contempt, intro C — 2026-09-10
+
+```text
+[prompt] The shape of the Good Faith opening accepted on 08-13: the term first and kept as
+subject, then the parts you can point at, then what holding it gives and costs.
+Trained contempt is the sneer that stays on your face after the wall that earned it is gone.
+The wall is real: a tool fails at something it should manage, a page says less than it
+could, a street is built so nobody can walk on it. …
+```
+
+**Struck because:** Owner: "all are bad." The nearest of the five to a cold definition, and still struck; the complement is a figure (the sneer, the wall) and the paragraph closes on a balanced pair ("right about every flaw and wrong about everything else"), which is the epigram. The prompt is struck with the line.
+
+### 41. Trained Contempt, intro D — 2026-09-10
+
+```text
+[prompt] The on-ramp law of 08-13: start on something easy to look at, small steps, the
+thesis only once the ground exists, the name last.
+A printer jams. You clear it. It jams again on Tuesday, and again on Thursday. By the time
+it jams on Friday you are angry before you reach it. …
+```
+
+**Struck because:** Owner: "all are bad." A story opening on a concept page where he asked for a cold definition; the name arrives in the last sentence. The prompt is struck with the line.
+
+### 42. Trained Contempt, intro E — 2026-09-10
+
+```text
+[prompt] Opening move 16, the why: say why the two halves share a page, declaratively, no
+question mark.
+Two things are true about contempt at the same time, and a page has to hold both or it lies.
+```
+
+**Struck because:** Owner: "E is Claudish … i detest claudish speak." The page talking about itself ("a page has to hold both"), a count of unnamed things ("two things are true"), and a punch on the end ("or it lies"). Three of the five faces in one sentence. The prompt is struck with the line.
