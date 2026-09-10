@@ -58,6 +58,8 @@ Tried, failed, and not to be tried again as the fix.
 | D34 | The rewrite pass on a draft that had just been struck | 2026-09-10 | Entry D26 in a new costume, launched with a broken prompt file and stopped twice. The latest ruling, 2026-09-08, is that changing the writing is about generating from a different base, not rewriting. | This session; plain-writing journal |
 | D35 | A generator file carrying a list of what never happens | 2026-09-10 | The Generator — From Nothing was written with a "what never happens" section. That section is entry D3 inside a generator, which is entry D10. The order of the opening in the same file is the held part. | The Generator — From Nothing |
 | D36 | Writing the whole page in one go under the paragraph-at-a-time lane | 2026-09-10, twice | The body came out as frames with content hung under them, because the outline's notes became the paragraph openers. | Rejected Specimens 51 to 77 |
+| D37 | Calling a page good, accepted, or a sample, on the strength of gates or a pick, when the owner has not read it | 2026-09-10 and 11 | Two pages offered as register samples were both struck on sentence one by the owner's eye within minutes. His count: a 100 percent failure rate on the pages called good. A page is read by him or it is ungraded. | This session; Openings on the Record; Rejected Specimens 82 and 83 |
+| D37 | Destiffening opening N into three near-paraphrases, then calling a self-run shape check a pass | 2026-09-10 | Owner: "no all are bad." N's order kept, sentences assembled. D28, D33, and D34 in one move. | grok-intros-n-shape.md |
 
 ## In conflict, the latest ruling wins
 
@@ -101,3 +103,4 @@ Tried and accepted. Used as recorded, not as a mold.
 ## Record
 
 - 2026-09-10. Compiled on the owner's word after the Trained Contempt session: "search your error index and see if your solution is listed in that error index. if there is no error index, compile one." There was none. The four source files stay as they are.
+- 2026-09-10. Grok destiffened N as three openings. Owner: "no all are bad." Logged as D37.

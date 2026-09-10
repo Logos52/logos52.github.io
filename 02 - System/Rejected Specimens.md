@@ -615,3 +615,227 @@ That question is also the one that would change this page.
 ```
 
 **Struck because:** Owner: "hard no." A sentence about the page. What would change the claim has to be said as a fact about the world, not as a remark about the page.
+
+### 56. Trained Contempt, essay, paragraph one, close — 2026-09-10
+
+```text
+The feeling is the start of the fixing.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." A summary line hung on the paragraph before it. The paragraph had already said the thing.
+
+### 57. Trained Contempt, essay, paragraph two — 2026-09-10
+
+```text
+That is what the work needs.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." A verdict on the sentence before it, in place of a fact.
+
+### 58. Trained Contempt, essay, paragraph three, close — 2026-09-10
+
+```text
+That is the training.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." A label pinned on the paragraph after the paragraph.
+
+### 59. Trained Contempt, essay, paragraph four opener — 2026-09-10
+
+```text
+The same training happens through other people.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." Announces the paragraph before giving the people or what they do.
+
+### 60. Trained Contempt, essay, paragraph five — 2026-09-10
+
+```text
+The question that tells the two apart is simple to ask.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." Announces a question and grades it before asking it.
+
+### 61. Trained Contempt, essay, paragraph six — 2026-09-10
+
+```text
+The claim here is not that the feeling is bad. It is that the feeling, repeated at the same thing long enough, stops waiting for a reason.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." Not this but that. The page talking about its own claim.
+
+### 62. Trained Contempt, essay, paragraph six, close — 2026-09-10
+
+```text
+Where that does not happen, the page has nothing to warn about.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." The page talking about itself.
+
+### 63. Trained Contempt, conclusion — 2026-09-10
+
+```text
+Put together, trained contempt is that useful feeling after it has been felt at the same thing every day for long enough that it arrives before the thing has done anything.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." A summary that re-says the opening.
+
+### 64. Trained Contempt, conclusion, close — 2026-09-10
+
+```text
+The difference between the two was not the assistant. It was the repetition, and repetition is something a person can stop.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." Not this but that, then a punch.
+
+### 65. Trained Contempt, second section, intro line — 2026-09-10
+
+```text
+Each part below takes one piece of the whole above, with the lines that mark it and one case.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." The page describing its own layout.
+
+### 66. Trained Contempt, the useful half, opener — 2026-09-10
+
+```text
+The feeling comes before the plan.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." A frame for the paragraph in place of the thing that happens.
+
+### 67. Trained Contempt, the useful half — 2026-09-10
+
+```text
+The order is the same for a tool, a room, or a street.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." A sentence about the shape of the information, not the information.
+
+### 68. Trained Contempt, the useful half, close — 2026-09-10
+
+```text
+A person who has learned not to feel it about their own work has also learned not to fix their own work.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." A balanced pair that would work on a card.
+
+### 69. Trained Contempt, what it shows and hides, opener — 2026-09-10
+
+```text
+While the feeling is on, the flaw in the thing is at full size and three other things get small. The first is what already works in the thing, which is usually most of it. The second is the people who made it, and the reasons they had. The third is the version that is coming next.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." A count of things announced and then ticked off. The list is the paragraph's skeleton showing.
+
+### 70. Trained Contempt, what it shows and hides, close — 2026-09-10
+
+```text
+During the work none of this matters. After the work it is what the person has to get back.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." A balanced pair as a close.
+
+### 71. Trained Contempt, how it gets trained in, opener — 2026-09-10
+
+```text
+The person who works with the AI assistant is the plain case.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." Announces the case as a case before telling it.
+
+### 72. Trained Contempt, how it gets trained in — 2026-09-10
+
+```text
+By the second week the feeling is there before the assistant has written anything, and that is the sign that it has been trained in.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." A fact with a verdict clipped on, 'that is the sign that.'
+
+### 73. Trained Contempt, how it gets trained in — 2026-09-10
+
+```text
+It runs on repetition.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." A short line that only works because of the one before it.
+
+### 74. Trained Contempt, the question, opener — 2026-09-10
+
+```text
+The question is asked on a day when the thing has done nothing wrong.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." Frames the question instead of asking it.
+
+### 75. Trained Contempt, the question — 2026-09-10
+
+```text
+The repair is the same as the training, run in the other direction.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." An image of a direction in place of what the person does.
+
+### 76. Trained Contempt, the question, close — 2026-09-10
+
+```text
+The feeling is not given up. It is kept for the work and put down after, which is the only setting in which it stays useful.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." Not this but that, then a close that grades itself.
+
+### 77. Trained Contempt, core takeaways, bullet two — 2026-09-10
+
+```text
+That is what trained means here, and it happens by repetition and not by choice.
+```
+
+**Struck because:** Owner, on the four openers and then on the whole page: "all of these sentences are strikes that are the same format but applied everywhere across the entire writing." The page defining its own word again, with a not-this-but-that.
+
+### 78. Trained Contempt, essay, first paragraph under the paragraph-at-a-time lane — 2026-09-11
+
+```text
+Someone writes a page, reads it back, and cannot stand it.
+```
+
+**Struck because:** Owner: "no no no. stop writing like this please. no caveman speak. natural english." A row of bare verbs with no connective tissue, staged like a scene. Natural English carries the when and the because inside the sentence and sounds like a person talking.
+
+### 79. Trained Contempt, essay, first paragraph, second try — 2026-09-11
+
+```text
+and it says less than you meant and says it worse than you would have said it out loud,
+```
+
+**Struck because:** Owner: "bad writing. stop writing like this please." A balanced pair of clauses on a repeated verb, "says less than … and says it worse than," which is the card sentence inside a clause. Plain English says the thing once: the page is not as good as you thought it was.
+
+### 80. Trained Contempt, essay, first paragraph, third try — 2026-09-11
+
+```text
+and the page comes out better, because nobody fixes a page that does not bother them. The same thing happens with a tool.
+```
+
+**Struck because:** Owner: "all of this is bad." A general truth said at the reader in the card shape, then a bridge that names the move instead of making it. The Generator already lists "the same thing happens with a face" as the sentence the writer never says. Both faults were on the record and arrived anyway.
+
+### 81. Trained Contempt, essay, first paragraph, fourth try — 2026-09-11
+
+```text
+When you read back something you wrote the day before and it is not as good as you thought it was, you open it up and start fixing it, and by the time you are done it is a better page than the one you had.
+```
+
+**Struck because:** Owner: "no. needs a completely new different approach." Four tries at one paragraph in the main window, each answering the last strike, is entry D28 in the Error Index. The approach changes; the paragraph is not tried a fifth time by the same head.
+
+### 82. Dating Apps - The Gini Coefficient, live page, sentence one — 2026-09-11
+
+```text
+The Gini coefficient of a dating app is one number, between 0 and 1, for how unevenly the likes that women send land on the men.
+```
+
+**Struck because:** Owner: "this page is terrible … the last part of this sentence is nonsensical … this doesn't make any sense." A figure, likes that "land on" men, standing in for the plain fact, which is how unevenly women's likes are spread across the men on the app. The page went live on 2026-09-05 under the one-pass method with no cold read and no owner's eye on it, and was then used on 2026-09-11 as a register sample for a fresh head.
+
+### 83. Five Thinking Habits - Conclusion First, live page, sentence one — 2026-09-11
+
+```text
+Conclusion first is the habit of saying what you think before you say why, and it is the first of five habits that make thinking easy to follow.
+```
+
+**Struck because:** Owner: "no. especially this part: 'and it is the first of five habits that make thinking easy.'" A count of five things the page has not yet named, and the page previewing its own list in sentence one. Live since 2026-09-06 under the one-pass method with no cold read and no owner's eye. Used with the Gini page (82) as a register sample on 2026-09-11; both samples are now struck, so nothing continued from them counts.
