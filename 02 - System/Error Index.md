@@ -3,7 +3,7 @@ title: "Error Index"
 type: system
 status: developing
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-09-11
 tags:
   - system
   - writing
@@ -59,7 +59,9 @@ Tried, failed, and not to be tried again as the fix.
 | D35 | A generator file carrying a list of what never happens | 2026-09-10 | The Generator — From Nothing was written with a "what never happens" section. That section is entry D3 inside a generator, which is entry D10. The order of the opening in the same file is the held part. | The Generator — From Nothing |
 | D36 | Writing the whole page in one go under the paragraph-at-a-time lane | 2026-09-10, twice | The body came out as frames with content hung under them, because the outline's notes became the paragraph openers. | Rejected Specimens 51 to 77 |
 | D37 | Calling a page good, accepted, or a sample, on the strength of gates or a pick, when the owner has not read it | 2026-09-10 and 11 | Two pages offered as register samples were both struck on sentence one by the owner's eye within minutes. His count: a 100 percent failure rate on the pages called good. A page is read by him or it is ungraded. | This session; Openings on the Record; Rejected Specimens 82 and 83 |
-| D37 | Destiffening opening N into three near-paraphrases, then calling a self-run shape check a pass | 2026-09-10 | Owner: "no all are bad." N's order kept, sentences assembled. D28, D33, and D34 in one move. | grok-intros-n-shape.md |
+| D38 | Destiffening opening N into three near-paraphrases, then calling a self-run shape check a pass | 2026-09-10 | Owner: "no all are bad." N's order kept, sentences assembled. D28, D33, and D34 in one move. | grok-intros-n-shape.md |
+| D39 | Using a coined class noun as the encyclopedia category (standing dislike, leftover dislike, practiced form) | 2026-09-11 | Owner: no "standing dislike"; making up new words for a simple explanation. The category was a term the reader does not own. Same fault as out of context, in a Grokipedia costume. | grok-intro-five-leads.md |
+| D40 | Decoding the title into "the contempt part" and "the trained part" instead of writing an introduction | 2026-09-11 | Owner: it needs to be an introduction, and that was bad. | grok-intro-one.md |
 
 ## In conflict, the latest ruling wins
 
@@ -90,6 +92,7 @@ Tried and accepted. Used as recorded, not as a mold.
 | H12 | A fresh head with one narrow fixed prompt and one specimen | 2026-08-23; 2026-08-29 | Passed. A fresh head with an open instruction did not. | Findings |
 | H13 | Assembling every struck line for a page and reading them together before writing another | 2026-09-10 | The fault across fourteen intros was visible within a minute of doing it. | This session |
 | H14 | The order of the opening for a term the reader does not own: the everyday sense, the page's sense, named things, the other special word the same way, the definition last | 2026-09-10 | Opening N let stand after twenty strikes. The owner: the shape is why it passes; the writing is still not good. | The Generator — From Nothing; Openings on the Record |
+| H15 | The single instruction "avoid all mannered prose," with nothing else in front of the writer, on a definition | 2026-09-11 | The first Trained Contempt intro the owner accepted, after twenty-two strikes under five prompts and a generator file. His words: "seems like that trick on 'avoiding all mannered prose' works." Now a hard rule in CLAUDE.md. | Openings on the Record; CLAUDE.md |
 
 ## Alive and not yet measured
 
@@ -97,10 +100,15 @@ Tried and accepted. Used as recorded, not as a mold.
 |---|---|---|---|
 | A1 | Reader file, holdings ledger, sources closed, isolated cold read | The writer ships against a non-empty ledger. The cold reader shares the bank. | A wave of pages with no "what is this" on first read. |
 | A2 | Continuation instead of a task: two or three of his pages in full, then the new title, then the fact block | The model still writes a document in pieces. | The China test passes his eye. |
-| A3 | Effort at high rather than xhigh, and the maker's mannered-prose paragraph in the user message | Never tried here. | One page, one fact list, both settings, his eye. |
+| A3 | Effort at high rather than xhigh | Never tried here. The mannered-prose half moved to H15 on 2026-09-11. | One page, one fact list, both settings, his eye. |
 | A4 | One named listener, a real person who spoke, as the file prompt | The listener is a described reader, which is D4. | An opening written to him after his question passes. |
 
 ## Record
 
 - 2026-09-10. Compiled on the owner's word after the Trained Contempt session: "search your error index and see if your solution is listed in that error index. if there is no error index, compile one." There was none. The four source files stay as they are.
-- 2026-09-10. Grok destiffened N as three openings. Owner: "no all are bad." Logged as D37.
+- 2026-09-10. Grok destiffened N as three openings. Owner: "no all are bad." Logged as D38 (was filed under a duplicate D37).
+- 2026-09-11. Grok: "not being able to stand a page as it is." Owner: out of context. Same fault Claude named as not establishing context, and the same fault across A through M. "A page" and "as it is" point at a page and a state the sentence never gave. Not a new name. D13.
+- 2026-09-11. Grok coined standing dislike and leftover dislike. Owner: making up new words. Logged as D39.
+- 2026-09-11. Grok decoded the title. Owner: needs to be an introduction. Logged as D40.
+- 2026-09-11. Five leftover-dislike leads. Owner: no to all; number 5 the worst. D28.
+- 2026-09-11. Grok: "A person will not send a page that says less than it could. That is contempt toward the page..." Owner: out of context. Used contempt for the page before the owned sense was on the surface. "Send" and "again" pointed at work the sentence never gave. D13.

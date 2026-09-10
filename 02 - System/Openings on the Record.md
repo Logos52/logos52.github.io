@@ -80,6 +80,17 @@ From the Opening Doors page, the exit-strategy specimen:
 Let stand by the owner after twenty struck openings: "N is better. you can use N." His note with it: the shape is why it passes, and the writing is still not good. Built in the order The Generator — From Nothing describes.
 > Contempt, in everyday use, means looking down on someone. On this page it means something smaller and more useful. It is the feeling of looking at a thing you made or use and not being able to stand it as it is. A page you wrote that says less than it could. A tool that fails at a job it ought to handle. That feeling is where every better version of anything comes from, because nobody remakes a thing they are content with. Trained, on this page, means what it means for a dog or a reflex: done so many times that it now happens without you deciding. So trained contempt is that feeling of not being able to stand a thing, repeated until it comes on its own, before the thing has given you a reason.
 
+## Trained Contempt, the intro accepted 2026-09-11
+
+Written in the main window with one instruction: avoid all mannered prose. The owner: "ok. seems like that trick on 'avoiding all mannered prose' works." The first opening he accepted as the page's intro after twenty-two strikes. N above is superseded by it.
+> Trained contempt is contempt that has become automatic through repetition.
+>
+> Contempt, in the sense used here, is the feeling you have when something you made or use is not good enough and you want to change it. That feeling is useful. It is why people rewrite pages and report faults in tools. Nobody improves a thing they are satisfied with.
+>
+> The feeling becomes trained when the same thing fails in the same way many times and you feel the same contempt each time. After enough repetitions you feel the contempt whenever you see the thing, whether or not it has failed that day. At that point the feeling is no longer a response to a fault. It is a habit.
+>
+> The habit has a cost. While you feel contempt for a thing, you notice its faults and you do not notice what it does well, who made it, or how it is going to improve. The contempt is worth having while you are fixing the thing. After the fixing is done you have to stop feeling it on purpose, because it does not stop by itself.
+
 ## What the surviving openings have in common
 
 From an audit of seven surviving openings, 2026-08-29: things you can point at in the first three sentences (noise, space, a pen, ten seconds, a mistake, books shut, a debt). Five of seven name the page's subject in sentence one. None uses a category word. None defines a word the reader already owns back at him. None talks about the page.
