@@ -75,6 +75,11 @@ Fact-transferring where a sales line would go:
 From the Opening Doors page, the exit-strategy specimen:
 > An exit strategy is a decided way for an object to leave — used up, returned, sold, given, discarded — named at the door, before the object gets to stay. A sale carries a deadline with it: two weeks, even when the money is small, because chasing a small recovery is exactly how a sold-someday chair spends a month in the hallway.
 
+## Trained Contempt, opening N, 2026-09-10
+
+Let stand by the owner after twenty struck openings: "N is better. you can use N." His note with it: the shape is why it passes, and the writing is still not good. Built in the order The Generator — From Nothing describes.
+> Contempt, in everyday use, means looking down on someone. On this page it means something smaller and more useful. It is the feeling of looking at a thing you made or use and not being able to stand it as it is. A page you wrote that says less than it could. A tool that fails at a job it ought to handle. That feeling is where every better version of anything comes from, because nobody remakes a thing they are content with. Trained, on this page, means what it means for a dog or a reflex: done so many times that it now happens without you deciding. So trained contempt is that feeling of not being able to stand a thing, repeated until it comes on its own, before the thing has given you a reason.
+
 ## What the surviving openings have in common
 
 From an audit of seven surviving openings, 2026-08-29: things you can point at in the first three sentences (noise, space, a pen, ten seconds, a mistake, books shut, a debt). Five of seven name the page's subject in sentence one. None uses a category word. None defines a word the reader already owns back at him. None talks about the page.

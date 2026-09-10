@@ -500,3 +500,118 @@ Two things are true about contempt at the same time, and a page has to hold both
 ```
 
 **Struck because:** Owner: "E is Claudish … i detest claudish speak." The page talking about itself ("a page has to hold both"), a count of unnamed things ("two things are true"), and a punch on the end ("or it lies"). Three of the five faces in one sentence. The prompt is struck with the line.
+
+### 43. Trained Contempt, intro F — 2026-09-10
+
+```text
+[prompt] The Flow state shape: the term as subject, a complement the reader can picture, then how it works.
+Trained contempt is anger at a thing that arrives before the thing has done anything.
+```
+
+**Struck because:** Owner: "F no. same problem with G." See 44.
+
+### 44. Trained Contempt, intro G — 2026-09-10
+
+```text
+[prompt] The Good Faith shape: term first, the parts you can point at, the working part, what it buys and costs.
+Trained contempt is a sneer you no longer take off. The flaw in the thing stands out sharp.
+The parts that work go dim, and the people who made it go dim with them.
+```
+
+**Struck because:** Owner: "G no. you are talking abstractly. i need direct." Then, on the set: "simple direct, but not minimal. natural." The nouns are kinds ("a thing," "the flaw," "the parts that work," "a tool") and no actual thing is named: not the AI, not what it failed at, not what the person did. Same fault as the 08-29 Probability Distributions strikes ("some numbers," "a person," "the shape"). Cold definition was right; the complement was still abstract.
+
+### 45. Trained Contempt, intro H — 2026-09-10
+
+```text
+[prompt] The Probability Distributions definition shape: a plain "X is a way of" line, then how it is learned, then the case.
+Trained contempt is a habit of seeing only what is wrong with a thing.
+```
+
+**Struck because:** Owner: "H no. same problem with G and also claudish." "A habit of seeing only what is wrong with a thing" is a category noun over a category noun, and "the seeing is not the problem, the habit is the problem" is the balanced pair.
+
+### 46. Trained Contempt, intro I — 2026-09-10
+
+```text
+[prompt] A friend across the table who works with the same tool every day asks what you call it. Answer him, starting with the definition.
+Trained contempt is being angry at a thing before it has done anything that day. Say you have a tool that fails at one job it should be able to do.
+```
+
+**Struck because:** Owner: "I no. same problem with G." The across-the-table prompt did not by itself make the nouns concrete: "a thing," "a tool," "one job it should be able to do." The listener was named; the things were not.
+
+### 47. Trained Contempt, intros J to M and the plain definition — 2026-09-10
+
+```text
+Trained contempt is what you feel when you open a reply from Claude already angry, before you have read a word of it.
+Trained contempt is anger at Claude that shows up before Claude has done anything.
+Trained contempt is being angry at Claude before you have read its reply.
+Trained contempt is being angry at Claude on a morning when it has not done anything yet.
+Trained contempt is contempt you have practiced so often that it runs on its own.
+```
+
+**Struck because:** Owner: all the same problem as the earlier intros, and the problem named in his words: "you are not establishing context." Every one uses "contempt" and "trained" in the page's own senses before the page has given those senses, and hangs the definition on things the page has not put down (the reply, the wall, the practice). Concrete nouns and a plain genus did not fix it because the fault is what the reader has been given before sentence one, not the nouns. Five prompts, fourteen intros, one fault.
+
+### 48. Trained Contempt, intros O, P, Q — 2026-09-10
+
+```text
+O: A habit is something you did on purpose until it started happening without you. … Contempt can become a habit in the same way.
+P: Anyone who uses a tool that fails at the same job every day ends up disliking the tool, and then the people who made it, and then, if it goes on long enough, most things. That last step is the one worth understanding …
+Q: If you work with an AI assistant every day you know the shape of it.
+```
+
+**Struck because:** Owner: O no, P no, Q no, "for a different reason than the previous ones." The context is built, but the wrong way: each opens on a claim the reader must accept on contact (contempt is a habit; anyone ends up disliking; you know the shape), tells the reader what they know or what is worth understanding, and only then gives the sense of the word. N passed because it gave the reader's own meaning of the word first and moved to the page's meaning from there.
+
+### 49. Trained Contempt, intro R, the ending — 2026-09-10
+
+```text
+Tinted glasses make some things easier to see and hide others, and you forget you are wearing them.
+```
+
+**Struck because:** Owner: "R starts good but then it does that same curt punchy ending … don't tell the reader what they will forget that's just straight up rude." The clause tells the reader what they will do, and it is a punch hung on the sentence before it.
+
+### 50. Trained Contempt, intro S — 2026-09-10
+
+```text
+Anyone who has ever fixed something knows the first half. … Anyone who has ever met a bitter person knows the second half.
+```
+
+**Struck because:** Owner: "same problem as A through M." Two halves counted before they are given, the reader told what they know, and the balance of first half against second half is the performed shape again.
+
+### 51. Trained Contempt, essay, first sentence — 2026-09-10
+
+```text
+Start with the useful half, because it is the half people forget when they hear the word.
+```
+
+**Struck because:** Owner: rejected "for the same reason as the previous ones," then: "i don't want to fix every single sentence that you write. maybe you need a rewrite pass to fix this sort of weird language." The sentence announces what the page does, names a half the page has not given, and tells the reader what people forget. The opening N had passed on shape; the body did not flow from it.
+
+### 52. Trained Contempt, essay, paragraph two opener — 2026-09-10
+
+```text
+The feeling has a cost, and the cost is in what it shows and what it hides.
+```
+
+**Struck because:** Owner: "hard no." "I have real contempt for this sort of language." A sentence that announces two things the paragraph will then give, "what it shows and what it hides," instead of giving them. The cost is named as being "in" a pair the reader does not yet have.
+
+### 53. Trained Contempt, essay, paragraph three opener — 2026-09-10
+
+```text
+Trained, on this page, means done so many times that it happens on its own.
+```
+
+**Struck because:** Owner: "hard no." The page talking about itself, "on this page," to define a word again after the opening already defined it. A restatement of the opening at the head of a paragraph.
+
+### 54. Trained Contempt, essay, paragraph five opener — 2026-09-10
+
+```text
+So the feeling needs two settings, and the person has to know which one they are in.
+```
+
+**Struck because:** Owner: "hard no." A frame, "two settings," coined in the sentence that uses it, with a count of things not yet named, and the paragraph then announced by it.
+
+### 55. Trained Contempt, essay, paragraph six opener — 2026-09-10
+
+```text
+That question is also the one that would change this page.
+```
+
+**Struck because:** Owner: "hard no." A sentence about the page. What would change the claim has to be said as a fact about the world, not as a remark about the page.
