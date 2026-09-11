@@ -61,7 +61,10 @@ export function buildSlugResolver(notesDir = 'src/content/notes'): WikilinkResol
   const byLength = (a: string, b: string) => a.length - b.length;
 
   function resolve(target: string): string | null {
-    const wanted = slugifyFilePath(target);
+    // Astro's smartypants runs before this plugin and curls the quotes inside [[...]] (don't → don’t),
+    // while the note files keep straight quotes. Straighten them back so such targets still resolve.
+    const straight = target.replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"');
+    const wanted = slugifyFilePath(straight);
     if (!wanted) return null;
     if (slugs.has(wanted)) return wanted;
     // path-suffix match, e.g. "Red Team/Red Teaming" → "wiki/Red-Team/Red-Teaming"
