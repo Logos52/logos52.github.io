@@ -3,7 +3,9 @@ title: "Automation and the Job Iceberg"
 type: concept
 status: developing
 created: 2026-07-03
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: opus
 written-by: grok
 model: grok
 source-count: 4
@@ -20,11 +22,22 @@ tags:
 
 # Automation and the Job Iceberg
 
-One U.S. occupation title has been fully eliminated by automation in the modern census record: the elevator operator, last counted around 1960. The live question for a role is not whether a machine can do the current tasks. It is whether the role can absorb the responsibility and volume that cheaper tasks create.
+In the modern U.S. census record, automation has fully eliminated one occupation title: the elevator operator, last counted around 1960.
 
-## The four-row record
+For any other role, the question is not whether a machine can do the tasks the role requires today. The question is whether the role can absorb the responsibility and the volume that cheaper tasks create.
 
-Every other wave in this popular set transformed or multiplied the roles it was predicted to destroy. That is the record in this set, not a proof that no other title ever left the census for some other reason.
+## Core takeaways
+
+- The elevator operator is the one U.S. occupation title that automation fully eliminated in the modern census record. It was last counted around 1960.
+- U.S. bank teller employment climbed alongside ATM counts and peaked around 2007. Cheaper cash handling let banks open more branches.
+- A role survives automation when it can take on more responsibility and more volume. The elevator operator had neither available.
+- Roughly sixty percent of 2018 U.S. employment is in job titles that did not exist in 1940.
+- When production gets cheap, output appears that nobody was paid to make before. That output competes against non-consumption, not against a worker.
+- The record is backward-looking. Earlier waves automated a thin slice of tasks, and nothing in the occupation tables resembles a system that improves across most cognitive work at the same time.
+
+## The four predicted extinctions
+
+Every other wave in this popular set transformed or multiplied the roles it was predicted to destroy. That is the record in this set. It is not a proof that no other title ever left the census for some other reason.
 
 | Predicted extinction | What the record shows |
 |---|---|
@@ -33,55 +46,78 @@ Every other wave in this popular set transformed or multiplied the roles it was 
 | Word processor → fewer writers | An order of magnitude more writers, a rough multiple. |
 | Elevator automation → operator | The one full elimination, last counted around 1960. |
 
-The ATM cell is not a doubling. Employment did not fall as the machines rolled out. It climbed, then peaked. The word-processor multiple is a quoted figure, not a hardened ten-times series.
+The ATM row is not a doubling. Employment did not fall as the machines rolled out. It climbed, and then it peaked. The word-processor multiple is a quoted figure, not a hardened ten-times series.
 
 ## Tasks are not the job
 
-**Every job converts an input to an output. The button-pushing between them is the current required task set, not the job.** Those tasks are frequently the part nobody likes. A lawyer was not the person searching the case law that software now surfaces. Warehouse work grinds people down for the same reason: the task band is the job as lived, and it is the part automation reaches first.
+Every job converts an input to an output. The button-pushing between the input and the output is the task set the job currently requires. It is not the job.
 
-As ATM counts climbed, U.S. bank teller employment climbed with them and peaked around 2007. Cheaper cash-handling let banks open more branches. Tellers per urban branch fell from about twenty to thirteen between 1988 and 2004. The remaining work shifted toward relationship and problem-solving. The role absorbed volume and responsibility. The cash drawer did not.
+Those tasks are frequently the part nobody likes. A lawyer was not the person searching the case law that software now surfaces. Warehouse work is hard on people for the same reason: the tasks are what the work consists of day to day, and tasks are the part automation reaches first.
 
-Flying has been automated in named layers since the 1920s: autopilot, fly-by-wire, auto-land. Traffic grew because the flying got cheaper, and hundreds of millions of passengers still want a responsible human up front. Wanting that human is regulation, liability, and preference, named honestly later. The role had something to absorb.
+## Bank tellers took on more
 
-The elevator operator had nothing to absorb, no responsibility to hold, and no way to expand the role. Modern dispatch outgrew what a human in the car could manage. A hotel elevator has nothing extra to give the person in the box.
+As ATM counts climbed, U.S. bank teller employment climbed with them and peaked around 2007. Cheaper cash handling let banks open more branches. Tellers per urban branch fell from about twenty to thirteen between 1988 and 2004. The remaining work shifted toward relationship and problem-solving. The role absorbed volume and responsibility while the cash handling moved to the machines.
 
-Work, for most people, is an instrument for buying time and the ability to say no. Majority lottery-question results run the same way: most workers would not stay in the current job if money were solved. [[wiki/Money/Money as Life Energy|Money as Life Energy]] is that reading of why the job is held.
+## Pilots stayed in the seat
 
-## The iceberg
+Flying has been automated in named layers since the 1920s: autopilot, fly-by-wire, auto-land. Traffic grew because the flying got cheaper. Hundreds of millions of passengers still want a responsible human up front. That preference comes from regulation, liability, and what passengers want. The role had responsibility to absorb.
 
-The job iceberg is demand that never became work, because the cost of creating it exceeded any visible market. Most things people would value are never created for that reason. The market records nothing.
+## Elevator operators had nothing to absorb
 
-The presenter's worked cost is a day of CAD skill for a one-off object, so the object is never made. When that cost collapses — a few prompts and a printer run — the new output competes against non-consumption. It takes no one's job, because no one was doing the work.
+The elevator operator had no further responsibility to hold and no way to expand the role. Modern dispatch outgrew what a person in the car could manage. A passenger in a hotel elevator has no other need that an operator could meet.
 
-The same shape shows up behind the table. The word processor preceded a multiplication of writers. Digital editing preceded a global streaming industry. Those are illustrations of new work, not measured multiples.
+## Why people hold a job
 
-## New work, and the true window
+For most people, work is an instrument for buying time and the ability to say no. Majority results on the lottery question run the same way: most workers would not stay in the current job if money were solved. [[wiki/Money/Money as Life Energy|Money as Life Energy]] is that reading of why the job is held.
 
-Roughly sixty percent of 2018 employment is in job titles that did not exist in 1940 — about eighty years, not fifty. New occupation titles were traced through that census window. Recognisable arrivals include solar photovoltaic electrician, cybersecurity analyst, and mental health counselor.
+## Demand that never became work
 
-New work pours in where augmenting inventions land. Automation patents do not catalyze title emergence the same way. The first half is the page's engine. The second half, the later weakening, belongs with what the record cannot say.
+The job iceberg is demand that never became work, because the cost of creating it exceeded any visible market. Most things people would value are never created for that reason. The market records nothing about them.
 
-## What the record cannot say
+The presenter's worked cost is a day of CAD skill for a one-off object, so the object is never made. When that cost collapses, to a few prompts and a printer run, the new output competes against non-consumption. It takes no one's job, because no one was doing the work.
 
-The historical argument is backward-looking. The presenter flags the bias: lean this way, assume the lean, check the work. Earlier waves hit a thin slice of tasks. Nothing in the occupation tables looks like a system that gets better across most cognitive work at the same time. Treating the tables as a law that history will augment is an extrapolation. Inside the same new-work paper, the effect of augmentation on title emergence is weaker after 1980 than before.
+The word processor preceded a multiplication of writers. Digital editing preceded a global streaming industry. Those are illustrations of new work, not measured multiples.
+
+## Job titles that did not exist in 1940
+
+Roughly sixty percent of 2018 employment is in job titles that did not exist in 1940. That window is about eighty years, not fifty. New occupation titles were traced through that census window. Recognisable arrivals include solar photovoltaic electrician, cybersecurity analyst, and mental health counselor.
+
+New work arrives where augmenting inventions land. Automation patents do not catalyze title emergence the same way.
+
+## What the record cannot tell you
+
+The historical argument is backward-looking. The presenter flags the bias and says to assume the lean and check the work. Earlier waves hit a thin slice of tasks. Nothing in the occupation tables looks like a system that gets better across most cognitive work at the same time. Treating the tables as a law that history will augment is an extrapolation. Inside the same new-work paper, the effect of augmentation on title emergence is weaker after 1980 than before.
 
 What kept the pilot in the seat was being physically there, plus regulation and liability. A lot of desk roles have none of those three. A general wave finds the roles that cannot take on more responsibility or grow a new edge. The honest reading is a strong prior toward transformation over elimination, held with that tail risk named.
 
-The census argument concerns job titles, not individuals. A category surviving says nothing about a given person's employer. Displacement risk concentrates on workers who refuse the tools, not on the occupation. That is the softened form. It is not a slogan and it is not a law. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] is the practice of being the augmented worker rather than the replaced one. [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]] is the part of a role automation cannot absorb: knowing what is worth building and what is true enough.
+## A surviving title does not protect a person
 
-Economics say nothing about transition pain. A fifty-year climb is cold comfort inside any five of them. After about 2010, mobile banking did what ATMs did not, and teller employment declined. The 2007 peak is a peak, not a destiny.
+The census argument concerns job titles, not individuals. A category surviving says nothing about a given person's employer. Displacement risk concentrates on workers who refuse the tools, not on the occupation. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] is the practice of being the augmented worker rather than the replaced one. [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]] is the part of a role automation cannot absorb: knowing what is worth building and what is true enough.
 
-The price of the prior is believing it too hard, or abandoning it for panic. Using title-survival as personal insurance is a quit signal. The checkable test is whether a given role has the pilot's three anchors or the operator's nothing-to-absorb.
+Economics say nothing about transition pain. A fifty-year climb does not help a worker inside any five of those years. After about 2010, mobile banking did what ATMs did not, and teller employment declined. The 2007 peak did not hold.
 
-The live question is still absorption. The operator test is whether the role has something to take on. The pilot test is whether presence, regulation, and liability still hold. Those are the two structures the record actually leaves in the reader's hands.
+Overconfidence in this prior is a mistake. So is abandoning it for panic. Treating title survival as personal insurance is what makes a person stop adapting.
 
-## Related
+## The two tests
 
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — the practice of being the augmented worker rather than the replaced one
-- [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]] — the part of a role automation cannot absorb: knowing what is worth building and what is true enough
-- [[wiki/Money/Money as Life Energy|Money as Life Energy]] — the work-to-buy-time reading of why people hold jobs
+The live question for a role is still absorption. The operator test asks whether the role has something to take on. The pilot test asks whether presence, regulation, and liability still hold for it. A role with the pilot's three anchors sits in a different position from a role with the operator's nothing to absorb.
 
-## Open Questions
+## How to practice this
+
+1. List the tasks your role requires today. Notice which ones are only the button-pushing between an input and an output.
+2. Ask whether your role has more responsibility available to take on. A role with nothing to absorb matches the elevator operator.
+3. Check your role against the pilot's three anchors: being physically there, regulation, and liability. Count how many of the three apply.
+4. Name work you would want done if it cost almost nothing. Notice that nobody is paid for it today.
+5. Use the new tools instead of refusing them. Displacement risk concentrates on the workers who refuse the tools.
+6. Treat the historical record as a prior, not as insurance. Notice if you are using it as a reason to stop adapting.
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]], the practice of being the augmented worker rather than the replaced one
+- [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]], the part of a role automation cannot absorb: knowing what is worth building and what is true enough
+- [[wiki/Money/Money as Life Energy|Money as Life Energy]], the work-to-buy-time reading of why people hold jobs
+
+## Open questions
 
 - Which current roles have the pilot's structure, and which have the operator's?
 - What would the same census method show by 2030, from a 1940 baseline?

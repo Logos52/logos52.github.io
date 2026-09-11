@@ -57,7 +57,7 @@ Written up 2026-08-14. The day that produced this paragraph ran **eighteen struc
 
 The epigram default is **agent-agnostic** — 52 of 235 workbench first sentences fail the pillow test, across writers on different stacks — so a ban list assembled against one model has to be assembled again against the next. That is why the write-act is handed over as a stance rather than re-derived per model.
 
-- [[wiki/Systems/AI & Agentic Systems/The Prohibition Loop|The Prohibition Loop]] — the mechanism, the tells, and where prohibitions remain the correct instrument.
+- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|The Prohibition Loop]] — the mechanism, the tells, and where prohibitions remain the correct instrument.
 - [[wiki/Research/Opener Generator Research Bank|Opener Generator Research Bank]] — the full record: every struck opening and every strike verbatim, round by round.
 - [[02 - System/Opener Handoff for Grok|Opener Handoff for Grok]] — the same act handed to a second agent, written as a situation rather than a ban list.
 

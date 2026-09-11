@@ -79,7 +79,7 @@ For unfamiliar fields, Sung recommends beginning with the most-cited work in the
 
 ## Connection to existing wiki pages
 
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]] — the research workflow here is structurally identical to the wiki compilation workflow: sources → higher-order processing → durable output.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]] — the research workflow here is structurally identical to the wiki compilation workflow: sources → higher-order processing → durable output.
 - [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]] — the three-stage sequence (non-linear notes → cleaning → linearizing) maps directly to the raw → wiki pipeline.
 - [[wiki/Concepts/LLM Tool Use|LLM Tool Use]] — the AI use rules here are a domain-specific application of the same principles in LC60.
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] — BHS is the session-level implementation of the same sequence: Aim (big picture), Shoot (place each piece), Skin (clean and consolidate).

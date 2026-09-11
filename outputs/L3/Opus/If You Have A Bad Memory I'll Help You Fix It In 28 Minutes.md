@@ -88,7 +88,7 @@ The implication: this is why the chunk-map / Skin technique from BHS works. It's
 ## Connection to existing wiki pages
 
 - [[wiki/Concepts/Memory Handling|Memory Handling]] — this is the page seeded from this source.
-- [[wiki/Techniques/Thinking on Paper|Thinking on Paper]] — strategy six directly.
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]] — strategy six directly.
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] — overload is the signal that working-memory weight limit is hit.
 - [[wiki/Techniques/Skin|Skin]] — chunk-mapping as the externalized working memory.
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — strategies 1 and 2 are the active-versus-passive distinction operationalized.

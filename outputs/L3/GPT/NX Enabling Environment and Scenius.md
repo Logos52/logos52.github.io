@@ -114,6 +114,6 @@ For Priority 0, the practical move is to design small enabling environments arou
 
 - [[private/Goals/Priority 0|Priority 0]]
 - [[wiki/Minimalism/Environment Design|Environment Design]]
-- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
+- [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]
 - [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]
 

@@ -214,9 +214,9 @@ Warning signs:
 
 [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]] should treat motivation dependence as one common avoidance mechanism.
 
-[[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] should include a low-drama start sequence for days when readiness is absent.
+[[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]] should include a low-drama start sequence for days when readiness is absent.
 
-[[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] should use environment design to reduce daily motivational battles.
+[[wiki/Self Management/Flow State|Attention Management: Preserving Flow]] should use environment design to reduce daily motivational battles.
 
 [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] connects directly: old cue -> old response can be replaced by feeling -> label -> chosen action.
 

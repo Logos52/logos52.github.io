@@ -3,10 +3,20 @@ title: "Agent Glossary"
 type: reference
 status: developing
 created: 2026-08-28
-updated: 2026-08-31
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
+aliases:
+  - How to Use the Claude Tools
+  - Grok 4.6 and Grok Bot
+  - What the Model Names Signal
+merged-from:
+  - How to Use the Claude Tools
+  - Grok 4.6 and Grok Bot
+  - What the Model Names Signal
 source-count: 23
 next-audit: 2026-09-28
-description: "Names for the agent loop, the room it runs in, and the chat window in front of it — Claude, Cursor, Grok, and nearby products as of 28 August 2026, with when to use each."
+description: "Names for the agent loop, the room it runs in, and the chat window in front of it: Claude, Cursor, Grok, and nearby products as of 28 August 2026, with when to use each."
 tags:
   - ai
   - agentic-engineering
@@ -15,17 +25,32 @@ tags:
   - claude
   - cursor
   - grok
+  - models
+  - grok-bot
+  - agents
+  - composer
+  - naming
+  - llm
 ---
 
 # Agent Glossary
 
-*As of 28 August 2026. Product names and prices move; check the vendor docs before acting on a number on this page.*
+*As of 28 August 2026. Product names and prices move; check the vendor docs before acting on a number.*
 
-An agent is a language model running in a loop: the model plans a step, calls a tool, reads what the tool returned, and repeats until that work is finished or a person has to take over. Vendors sell that loop under many names. Claude Code, Cursor Cloud Agents, Claude Managed Agents, Grok Build, and Cowork are all that loop in different rooms, on different computers, for different users. The names collide: Claude Managed Agents is Anthropic's hosted production runtime, and a managed subagent is an org-admin markdown file inside Claude Code, and those two are not the same product.
+An agent is a language model running in a loop: the model plans a step, calls a tool, reads what the tool returned, and repeats until that work is finished or a person has to take over. A model set up to act on its own steps is called an agent. Vendors sell that loop under many names. Claude Code, Cursor Cloud Agents, Claude Managed Agents, Grok Build, and Cowork are all that loop in different rooms, on different computers, for different users. The names collide: Claude Managed Agents is Anthropic's hosted production runtime, and a managed subagent is an org-admin markdown file inside Claude Code, and those two are not the same product.
 
-Each entry below is meant to be read on its own. A heading plus its paragraph should make sense without the rest of the page. For which Claude door to walk into on a given job, use [[wiki/Systems/AI & Agentic Systems/How to Use the Claude Tools|How to Use the Claude Tools]]. For which seat this desk actually assigns, use [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]. When a run went to the wrong product, the miss is filed on [[wiki/Systems/AI & Agentic Systems/Agent Wrong-Door Log|Agent Wrong-Door Log]].
+A product name is a label for one of three jobs: the **surface** a person types into, the **harness** that runs the loop, and the **hands** where commands actually execute. For which seat this desk actually assigns, use [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]. When a run went to the wrong product, the miss is filed on [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Agent Wrong-Door Log]].
 
-A product name is a label for one of three jobs: the **surface** a person types into, the **harness** that runs the loop, and the **hands** where commands actually execute.
+## Core takeaways
+
+- An agent is a language model in a loop: plan a step, call a tool, read the result, repeat until the work is finished or a person takes over. "Agentic" names this loop, not a smarter autocomplete.
+- Every product name labels one of three jobs: the surface a person types into, the harness that runs the loop, and the hands where commands execute. Ask who the user of the run is, then whose computer does the work.
+- Anthropic sells four models: Haiku 4.5, Sonnet 5, Opus 5, and Fable 5. Haiku, Sonnet, and Opus are verse-forms whose size tracks the job inside one generation; Fable names a class above Opus, not a genre.
+- Claude Chat answers, Claude Code changes a folder of files, Cowork spans tools and schedules. Managed Agents and the Agent SDK bill on the API meter, and this desk does not buy that meter (ruled 2026-08-28).
+- Grok 4.6 is a model, Grok Build is the local coding agent on this Mac, and Grok Bot is a standing teammate on one cloud computer shared by every Bot on the account. Three jobs sit under one first name.
+- Same words, different products: Claude Managed Agents against a managed subagent, Grok `/goal` against Cursor `/goal`, Grok `/dream` against Managed Agents Dreaming, Grok Agent mode against Cursor Agent mode.
+
+## Surface, harness, and hands
 
 <svg viewBox="0 0 720 220" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Surface, harness, and hands">
   <g font-size="9" fill="currentColor" opacity=".45" font-weight="700" letter-spacing=".08em">
@@ -59,11 +84,11 @@ A product name is a label for one of three jobs: the **surface** a person types 
   </g>
 </svg>
 
-Ask who the user of the run is, then whose computer does the work. The names below are dated labels for those two answers. Prices and plan boundaries on this page were last checked 28 August 2026; the next check is due 28 September 2026.
+Ask who the user of the run is, then whose computer does the work. The names below are dated labels for those two answers. Prices and plan boundaries were last checked 28 August 2026; the next check is due 28 September 2026.
 
-## Shared primitives
+## Shared building blocks
 
-The entries in this section name the jobs the products implement: model, tool, loop, harness, sandbox, session, window, compaction, memory, MCP, skill, hook, computer use, vault, outcome. Product names later on the page are labels for where a vendor put one of those jobs.
+The entries in this section name the jobs the products implement: model, tool, loop, harness, sandbox, session, window, compaction, memory, MCP, skill, hook, computer use, vault, outcome. Product names in the vendor sections are labels for where a vendor put one of those jobs.
 
 ### Model
 
@@ -125,27 +150,65 @@ A vault in Claude Managed Agents is a per-user credential store. Tokens for MCP 
 
 An outcome in Claude Managed Agents is a written rubric the agent can grade its own work against, so "done" is a checkable statement rather than a vibe. Use an outcome when the hosted agent runs without you watching and you still need a stop condition.
 
+## The Claude models
+
+When you pay Anthropic for Claude, you are buying a model and the places that model is allowed to act. The model is a program trained on text that does the actual reading, thinking, and writing, priced by the amount of text that passes through it. The places are Chat (you talk, it answers), Claude Code (the model acts on a folder of files on your machine), Cowork (the model acts on documents and the other tools you grant it), and Claude Managed Agents (Anthropic hosts the loop and the sandbox so you can ship an agent to other people). The Agent SDK is Claude Code's loop as a library in a process you host.
+
+Anthropic sells four models, priced by capability: Haiku 4.5, Sonnet 5, Opus 5, and Fable 5. Text is measured in tokens, where a token is roughly three quarters of an English word, and prices are quoted per million tokens going in and per million coming out. Haiku 4.5 is the small fast one, for bulk work: extraction, classification, summarizing at scale. Sonnet 5, released at the end of June 2026, is the default for everyday coding and drafting, at $3 in and $15 out. Opus 5, released in late July, is built for long agentic runs: hours of coding or research in one session. Fable 5, released in June 2026, is the strongest model Anthropic sells to the public, at $10 in and $50 out, and it thinks before answering on every request, deciding for itself how much thought a request deserves.
+
+Beyond price, compare models on two numbers: context window and effort range. The context window is how much text the model can hold in front of it at once. Fable 5 and Opus 5 hold about a million tokens, which is several long books, and once a conversation outgrows that window, the model no longer sees the start. Effort is how hard the model thinks before it answers: while it judges for itself how much thought a request deserves, you hold a dial over how far that judgment is allowed to run, from low up to a maximum, with high as the default. More effort costs more time and money and returns more thorough answers, so you turn it up for hard diagnosis and down for routine work.
+
+## What the model names signal
+
+Anthropic's first three model names are verse-forms whose size tracks the job: a first look inside one generation, not a spec. Later names, and other vendors, do not play the same game. Reading the name can point at a tier before a benchmark, only inside that generation.
+
+The poetic ladder is Haiku, Sonnet, and Opus: named verse-forms that track small and fast, then mid, then large and slow, inside one Anthropic generation.
+
+**Haiku** is the 17-syllable miniature, in the English-school count. Smallest, fastest, cheapest. Built to condense, not to deliberate. Reach for it on high-volume, verifiable, low-stakes work.
+
+**Sonnet** is the 14-line form. Structure, with space left over. Everyday default: mid-tier reasoning at ordinary speed and cost.
+
+**Opus** is Latin for "work," as in *magnum opus*. The previous top of the family, still the named workhorse for complex, layered, creative problems where being right outweighs being cheap. It is the deepest of the original three. It is not the top of the current family. Match the form to the job.
+
+| Name | The form | Reach for it when |
+|---|---|---|
+| Haiku | 17-syllable miniature · small · fast · cheap | High-volume, verifiable, low-stakes |
+| Sonnet | 14-line structured form · balanced reasoning | The everyday default |
+| Opus | A masterwork · deepest of the original three | Complex, high-stakes, creative calls |
+
+The through-line, that length and ambition of the poetic form tracks capability, holds for those three. It breaks when the next name is a genre rather than a scale.
+
+**Fable** is from Latin *fabula*, "that which is told," akin to Greek *mythos*. That is the etymology. It is not a causal encoder. On 9 June 2026 Anthropic named a new class above Opus: Mythos-class. Fable is the guarded public release of that class. Mythos 5 is the restricted twin: the same model with fewer of the built-in refusals, sold only to approved organizations, and you will not meet it. The safeguards distinguish them. The vendor's use is long-running agents and next-generation intelligence, not "pick this when you want a story."
+
+Do not send a reader to Fable instead of Opus for storytelling on the strength of the word. Observed behavior of the public model, including taste-bound failure and an elicit-first habit, lives on [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Claude Fable]]. That is a reading of the model, not of the name.
+
+A name marks a tier, and tiers blur across versions. A newer Sonnet can beat an older Opus, so the ladder holds within a generation, not across them. The metaphor is positioning, not a spec.
+
+Vendor-reported numbers need independent confirmation. Treat the name as a first heuristic. A task's verifiability and the dated [[wiki/Concepts/Human vs AI Capability Lens|model snapshot]] decide the actual pick. Which model to spend where, by depth rather than by name, is [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]]. The dated roster is [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]].
+
+The case against the reading: the metaphor is positioning; the ladder is within a generation; other vendors never played; Fable is a new class above, named for telling, split by safeguards; every number on the cards above is dated. The name is a first look. The dated snapshot does the pick.
+
 ## Anthropic products
 
 ### Claude Chat
 
-Claude Chat is the conversation app on web, phone, and desktop. You write, it answers, it can search the web and produce documents inside the thread. Use Chat when the answer itself is the deliverable: thinking a decision through, learning something, a draft you will carry away by hand. Depth: [[wiki/Systems/AI & Agentic Systems/How to Use the Claude Tools|How to Use the Claude Tools]].
+Claude Chat is the conversation app, on the web, on a phone, or on the desktop. You write, attach files, and the model answers; it can search the web when a question needs current facts. It can also produce documents and working web pages, published to a private link you can share. Use Chat when the answer itself is the deliverable: thinking a decision through, learning something, getting a draft you will carry away yourself. It requires no setup; there is a free tier, and paid plans start at $20 a month with the Pro plan.
 
 ### Claude Code
 
-Claude Code is the terminal and IDE coding agent. It reads a folder of files, edits across them, runs tests, and uses git. Use it when the work is a repository or a vault that must change correctly, and you are at the keyboard to steer. It is not a hosted product for your users. Depth: [[wiki/Systems/AI & Agentic Systems/How to Use the Claude Tools|How to Use the Claude Tools]].
+Claude Code lives in the terminal, the window where you type commands to your computer directly instead of clicking. It is the agent for file work: code, notes, anything organized in folders. Given a goal, it reads the relevant files itself, plans, edits across many of them, runs the result, reads the errors, fixes them, and records the finished change, without you naming which files matter. It uses git. It keeps a memory file in each project that it reads at the start of every session, so instructions survive between sittings. It can be given skills, which are written procedures it follows for recurring jobs. It can also spawn subagents: fresh copies of itself that start with empty memory and see only what you hand them. That matters most when it has written something and you want the writing checked, because the head that wrote a page cannot see what the page fails to say, since its own memory fills the gap, while a fresh copy holding only the page sees exactly what a stranger would. Use Claude Code when your work is a folder of files that must change correctly, code, a collection of notes, a vault, anything where a history of changes is kept, and you are at the keyboard to steer. It is not a hosted product for your users.
 
 ### Claude Cowork
 
-Cowork is the same agentic engine aimed at knowledge work rather than a git repo: documents, research, recurring reports, jobs that span calendar, mail, and notes. It runs remotely in the cloud by default. Use Cowork when the job spans tools rather than a single folder of files. Depth: [[wiki/Systems/AI & Agentic Systems/How to Use the Claude Tools|How to Use the Claude Tools]].
+Cowork is the agent for knowledge work rather than a git repo: research, documents, recurring reports, and jobs that use your other tools, spanning calendar, mail, and notes. It is a mode of the Claude desktop app: you state an end goal, and it plans the work, splits it into subtasks, and runs what it needs to run in a sandbox, a walled-off workspace where nothing it does can touch the rest of the machine, on Anthropic's computers by default, or inside a sealed computer simulated within your own. It runs remotely in the cloud by default. It hands you finished output. It can reach the folders you grant it, connect to your other tools through connectors you authorize once, drive your actual screen when a job crosses into an app that has no other route in, run on a schedule so a briefing appears every morning without being asked, and remember facts about you and your projects between sessions. Cowork sits on the paid plans only. Use Cowork when the job spans tools rather than a single folder of files: research that becomes a document, a recurring digest, work that touches your calendar, your mail, and your notes in one pass.
 
 ### Claude Agent SDK
 
-The Claude Agent SDK is Claude Code's loop as a Python or TypeScript library inside your own process. You host that process. It was previously named the Claude Code SDK. It is not the hosted Managed Agents product. Calls still hit the Anthropic API and bill per token. This desk does not pick it for the same reason it does not pick Managed Agents.
+The Claude Agent SDK is Claude Code's loop as a Python or TypeScript library inside your own process. You host that process and the computer it runs on. It was previously named the Claude Code SDK. It is not the hosted Managed Agents product, and it is not the terminal you sit in. Calls still hit the Anthropic API and bill per token. This desk does not pick it, for the same reason it does not pick Managed Agents.
 
 ### Claude Managed Agents
 
-Claude Managed Agents is Anthropic's hosted agent runtime, in beta as of April 2026 (`managed-agents-2026-04-01`). You define the agent, the tools, and the guardrails. Anthropic runs the loop, the sandbox, and the session, and you send events and stream results. Billing is the Messages API token meter plus $0.08 per session-hour while status is `running`; idle wait does not count. Sessions are stored on purpose, so Zero Data Retention and HIPAA BAA do not apply. This desk does not buy that meter. The stack runs on subscriptions and local hardware, not pay-per-token API. Ruled 2026-08-28: "i don't like anything with API." Do not stand up a Managed Agents session here. The product still exists for teams who will ship an agent to other people and accept API billing.
+Claude Managed Agents is Anthropic's hosted agent runtime, in beta as of April 2026 (`managed-agents-2026-04-01`). You define the agent, the tools, and the guardrails. Anthropic runs the loop, the sandbox, and the session, and you send events and stream results. Billing is the Messages API token meter plus $0.08 per session-hour while status is `running`; idle wait does not count. Sessions are stored on purpose, so Zero Data Retention and HIPAA BAA do not apply. This desk does not buy that meter. The stack runs on subscriptions and local hardware, not pay-per-token API. Ruled 2026-08-28: "i don't like anything with API." Do not stand up a Managed Agents session here. The product still exists for teams who will ship an agent to other people and accept API billing. Record: [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] and [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Agent Wrong-Door Log]].
 
 Managed Agents is built from an **agent** (model, prompt, tools, MCP, skills, versioned), an **environment** (where code runs: Anthropic cloud or a sandbox you host), a **session** (one running instance, with history and files), and **events** (the append-only log of messages, tool calls, and status). The loop that calls Claude is separate from the sandbox that runs commands, so Claude can start thinking before any container exists. Credentials live in a vault, not in the sandbox.
 
@@ -159,7 +222,7 @@ The Messages API is the raw model interface: tokens in, tokens out, billed per t
 
 ### Subagent (Claude Code)
 
-A Claude Code subagent is a worker with its own context window, its own system prompt, and a limited tool set. It reports a summary back to the parent. Use it when search results, logs, or a review pass would drown the main conversation — the vault's rewrite and cold-read passes run this way. It costs extra tokens because the window is duplicated. It is not automatically parallel.
+A Claude Code subagent is a worker with its own context window, its own system prompt, and a limited tool set. It reports a summary back to the parent. Use it when search results, logs, or a review pass would drown the main conversation: the vault's rewrite and cold-read passes run this way. It costs extra tokens because the window is duplicated. It is not automatically parallel.
 
 ### Managed subagent
 
@@ -225,13 +288,28 @@ Cursor subagents can run on their own virtual machines, each with a clean copy o
 
 Cursor Automations fire Cloud Agents on a cron, or on events from GitHub, Slack, Linear, PagerDuty, or a webhook. Use them for recurring coding work you would otherwise remember to start by hand.
 
-## SpaceXAI / Grok products
+## SpaceXAI and Grok products
 
-Grok Build terms below are taken from the user guide under `~/.grok/docs/user-guide/` as of 28 August 2026. Depth on the three Grok jobs: [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]].
+Grok Build terms below are taken from the user guide under `~/.grok/docs/user-guide/` as of 28 August 2026.
+
+SpaceXAI sells a model and a teammate under the same first name. Grok 4.6 is the model you call from an editor, an API, or a coding agent. Grok Bot is the teammate that keeps a cloud computer running after the chat ends. A third product, Grok Build, sits between them on this desk: a local coding agent that runs the model against the Mac's real files. Calling the model, leaving a teammate overnight, and executing on disk are three jobs.
+
+| Product | What it is | Where the work lives | What it is for here |
+|---|---|---|---|
+| Grok 4.6 | A model | API, Cursor, Grok Build | The weights either local surface can call |
+| Grok Build | A terminal coding agent | This Mac, isolated profiles | Execution the agent drives: plan, edit, test, script |
+| Cursor | A VS Code-fork IDE | This Mac, once installed | Sitting in the files: Tab, visual diffs, debugger, Agent as a pane |
+| Grok Bot | Named teammates | One shared cloud computer | Standing watch, fetch, and file, public material only |
+
+The model card is not a reason to move judgment off Fable; that was the rejected reading from the day-after briefing, [[journal/2026-08-13-grok-4-6-on-the-frontier|Grok 4.6 on the frontier, not the lead]]. Twelve named Bots in an afternoon is not a recommended roster; that is the General Helper anti-pattern under a new count. The cost of keeping the split: four names to hold, and a weekly quota on the standing half that has to earn its rent. The cost of collapsing them: a login typed for one job becomes common property of every job on the account, and a model upgrade gets mistaken for a new worker. Quit if the next week of real work shows 4.6 taking the judgment seat, or if a standing Bot's packets stop changing what gets opened. The first is a stack decision. The second is a retirement. The shared name still covers two products. Call the model when the job is a turn. Leave the teammate running when the job is a duty. The computer that survives the closed laptop is the teammate's, and it is one computer.
 
 ### Grok 4.6
 
-Grok 4.6 is the model. It is not a standing worker. This desk calls it from Grok Build and from Cursor.
+Grok 4.6 is the model. It is not a standing worker. This desk calls it from Grok Build and from Cursor. It is a language model with a dated card. It shipped 12 August 2026 on the same sticker as 4.5: $2 per million input tokens, $6 per million output, 500k context. Reasoning effort is on by default and cannot be switched off; the extra setting is `xhigh`. Live surfaces the same day: Grok Build, Cursor, the API, OpenRouter, later GitHub Copilot.
+
+The public composite that week put it on the frontier and not in the lead. Artificial Analysis scored it 61 on the Intelligence Index, tied with GPT-5.6 Sol, one to two points behind Claude Opus 5 and Claude Fable 5. The number that actually moved agent work was cheaper loops: on AA-Briefcase it finished in about 53 turns and half a billion input tokens against Opus 5 max at about 103 turns and two billion. DeepSWE and Terminal-Bench v3.0 were the gaps that survived the screenshot. Consumer Grok on the web and on X was still listed as later.
+
+That is a card, not a stack change. Judgment work on this vault still sits on Fable in Cowork. Execution still sits on Grok Build. A week where 4.6 beats Opus 5 on the long knowledge-work loops and hard SWE this desk actually runs would reopen the ranking. A week where Fable's trust premium dies on the pages that currently stay in Cowork would reopen the stack. Neither week has happened. [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] is the dated roster. [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] still grades a 4.3 snapshot from July 2026; that row is stale and is not silently re-graded here.
 
 ### Grok Build
 
@@ -239,7 +317,29 @@ Grok Build is the local coding agent on this Mac. You launch it in a project dir
 
 ### Grok Bot
 
-Grok Bot is a named teammate with a cloud computer that keeps running after the chat ends. Every Bot on one account shares that computer. Use it for standing watch, fetch, and file on public material. Do not give it private logins or a spend that does not stop for a person. Depth: [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]. The first drawing is [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]].
+Grok Bot is a named teammate with a job, a conversation, and a cloud computer that keeps running after the chat ends and does not die when the laptop closes. Every Bot on one account shares that computer. Use it for standing watch, fetch, and file on public material. Do not give it private logins or a spend that does not stop for a person. Depth: [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]. The first drawing is [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Standing Research Agents]].
+
+Access rode on SuperGrok Heavy, Cursor Ultra, or Cursor Teams Premium at launch; on 21 August it widened to SuperGrok Plus, Cursor Pro+, and Cursor Teams subscribers, with a limited free trial for everyone else. An account holding both a Cursor and a SuperGrok subscription draws on whichever has more usage. There is still no standalone checkout. The desktop app is macOS and Windows; the companion is iOS 18. Linux desktop, Android, and iPad were unsupported at launch. Billing and sign-in live on a Cursor account. Docs live under the model company. Looking under one name for both fails.
+
+Every Bot on one account uses one persistent cloud computer. They share its files, browser sessions, and logins so they can hand work off. Each Bot gets its own screen on that machine. Screens are work surfaces, not security boundaries. Separate Bots are not a security boundary. Deleting a Bot removes its profile, conversation, and routines; files and logins on the shared computer may remain. Launch coverage said each Bot gets its own cloud computer, and some of SpaceXAI's how-to pages still write that each helper has its own machine. SpaceXAI's Grok Bot FAQ, re-fetched 31 August 2026, says the other way: the computer is assigned per user, not per Bot.
+
+When a step needs a person, a password, passkey, two-factor code, CAPTCHA, payment, or identity check, the Bot hands the screen over and takes it back. Those secrets do not go in ordinary chat. A first useful request names five things: the outcome, its sources, the constraints, the deliverable, and the review point. A **skill** is how a task is done. A **routine** is when one Bot runs that method, on a schedule or on an event. Teach-a-task, where it is available, records up to ten minutes of visible computer use and drafts a skill that still needs rules, failure handling, and approval boundaries written by hand. Approval stays in front of send, publish, purchase, delete, and production change.
+
+[[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Standing Research Agents]] is the always-on half: Watch, Brief, Intake, Corpus, packets to the desk. [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Fleet Structures]] is that half at seat resolution. [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Bot Operating Rules]] is the operating claim those seats already run: the report is the product, and no Bot fixes what it finds. The cloud computer holds only what is already public. A grocery cart, a Gmail session, an Amazon login, or a spend that does not stop for a person is the usage that line exists to refuse. Other people's write-ups of those setups are field evidence, not a roster to copy. SpaceXAI's own how-to pages put a chief of staff on mail and ads; that is still field evidence. [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]] is that evidence compiled; [[wiki/Research/Grok Bot Field Packet 2026-08-15|the 15 August Field packet]] is the first named-runner pass; [[wiki/Research/Grok Bot Field Packet 2026-08-31|the 31 August Field packet]] is the first-party playbook pass.
+
+### Grok Build against the Cursor IDE
+
+SuperGrok Heavy is how this desk reaches both local surfaces. Grok Build is native to the Grok account and is already on this Mac, with personal and work histories isolated by profile. The Cursor IDE arrived by linking that Heavy account; Ultra was created at $0 and includes Grok Bot. Cursor's own help said the month ends, on 13 August, and said it lasts while Heavy renews, on 15 August. A third fetch of the same page, 26 August, says linking SuperGrok now grants Grok Bot usage only and does not change the Cursor plan; press has links made after about 21 August no longer receiving Ultra, while earlier links keep it while Heavy renews. Ultra is active on this account, confirmed by the owner 26 August: the free month from the Heavy link, expiring 12 September 2026. Plan as if the month can end. Do not plan as if the IDE is free forever.
+
+Composer 2.5 is a cheap model on Cursor's menu. It is not the IDE. The IDE is the window: syntax, peek, debugger, extensions, git UI, multi-cursor, a visual diff you accept hunk by hunk, and Tab, gray completions while you type, including the next edit and a jump into another file. Agent (Cmd-I) is a pane in that window, not the window. Plan Mode writes a plan and waits. Checkpoints undo Agent edits locally and are not git.
+
+Grok Build is the other way around. You launch it from a project directory. The session is a TUI, or headless `grok -p` for scripts, or the Agent Client Protocol into another app. Plan mode here gates file edits until the plan is approved. Profiles isolate personal history from work. Worktrees, workflows, `/loop`, and this machine's real toolchain live here. There is no Tab. You are not in the file. The agent is.
+
+**Use Grok Build when the agent should drive the session**: a scoped execution loop whose check is a compiler, a test, or a diff you read after. Banks, regen scripts, tsumugu lanes, 多恩刊 paste-into-Build, anything that should run with the editor closed. That is already the stack's execution seat.
+
+**Use the Cursor IDE when you should be in the files**: reading a large tree, accepting hunks by eye, debugging, or letting Tab take the next edit while your hands stay on the keys. Use it also when one turn needs a model Build does not make cheap: Fable or Opus from Cursor's Other Models pool, Privacy Mode on for Fable. Cloud Agents are not this pick. They are Cursor's isolated VM that opens a PR, closer to a Grok Bot handoff than to sitting in the IDE.
+
+Same 4.6 in both is a harness pick, not a model pick. Two writers on one tree failed on 12 June: independent cribs on separate budgets caught a confident misquote, and two agents editing the same files spent the hour merging. Same day, different jobs. One writer per tree. Cursor.app is on this Mac as of 26 August, with no CLI on the PATH; the last scored hands-on is still that June bake-off. A week of Tab-plus-visual-review on tsumugu or wnab is what would make Ultra a habit instead of an access line. Until that week, Build stays the default execution surface.
 
 ### Profile (Grok)
 
@@ -367,6 +467,16 @@ Grok can export usage metrics and events to a collector **you** run, not to Spac
 
 OpenTelemetry is not `/privacy` and is not SpaceXAI's own telemetry switch. Three knobs, three destinations.
 
+## Names that never rode the poetry
+
+Two other names are two different bets on the same agentic-coding job. They do not ride the poetry scheme at all. They answer to throughput, price, and a coding bench.
+
+Composer 2.5 is Cursor's in-house model, built on an open checkpoint. It is a speed specialist and a mechanical workhorse: fast, cheap, verifiable code loops. On Cursor's 18 May 2026 table it scores 79.8% on SWE-Bench Multilingual against 80.5% for Opus 4.7 on the same table. That is one dated bench, vendor-reported. Other benches on the same table are mixed; one number is not the model. The Standard card is $0.50 / $2.50 per million tokens. A Fast card exists at $3 / $15. Do not collapse those into a ratio against Opus.
+
+Grok in Grok Build is the generalist: reasoning plus vision, broader in scope, slower. The 29 May 2026 card is ~100+ tokens per second and ~$1 / $2 per million tokens, vendor-reported.
+
+On the [[wiki/Concepts/Human vs AI Capability Lens|capability lens]] these are two different polygons. One spikes Scale, Verifiability, and Autonomy. The other spreads wider into reasoning and multimodal work. The facet scores stay on that lens.
+
 ## Chat surfaces and other vendors
 
 ### Chat SDK (Vercel)
@@ -429,7 +539,7 @@ The Agent SDK runs Claude Code's loop in a process you host. Managed Agents runs
 
 ### Grok Build vs Grok Bot vs Grok 4.6
 
-Grok 4.6 is the model. Grok Build is the local coding agent on this Mac. Grok Bot is the standing teammate on a shared cloud computer. Calling the model, executing on disk, and leaving a duty running overnight are three jobs. Depth: [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]].
+Grok 4.6 is the model. Grok Build is the local coding agent on this Mac. Grok Bot is the standing teammate on a shared cloud computer. Calling the model, executing on disk, and leaving a duty running overnight are three jobs.
 
 ### Grok /dream vs Managed Agents Dreaming
 
@@ -477,23 +587,23 @@ Devin Desktop is the local IDE (formerly Windsurf). Devin Cloud is the remote se
 
 ## Choosing
 
-Ask who the user of this run is, then whose computer does the work.
-
-**Who is the user?** If it is you, in a repo, use Claude Code, Cursor Agent, or Grok Build. If it is you, away from the repo, use Cursor Cloud Agents, Claude Code in the cloud, or Cowork. If it is your users — Slack, a web app, support — the industry pattern is Managed Agents plus a chat surface. This desk does not take that pattern, because Managed Agents bills on the API meter.
+**Who is the user?** If it is you, in a repo, use Claude Code, Cursor Agent, or Grok Build. If it is you, away from the repo, use Cursor Cloud Agents, Claude Code in the cloud, or Cowork. If it is your users, in Slack, a web app, or support, the industry pattern is Managed Agents plus a chat surface. This desk does not take that pattern, because Managed Agents bills on the API meter.
 
 **Whose computer?** Your laptop: local agent. Cursor Cloud Agents when the overnight PR seat already holds it (subscription). Not the Anthropic API, not session-hour runtime.
 
 A task that can be written down completely can leave the laptop. A task that needs the thing on the screen right now should stay local. Putting a file-shaped job in Cowork or Managed Agents buys hosted machinery without buying capability you already have on this machine.
 
+The Claude products run the same models. They differ in what the model can see and touch, and whose computer it runs on. A question you want to think through out loud goes to Chat, because nothing needs touching. A change to a project that lives in folders, code or a knowledge base, goes to Claude Code, because the work is the files, and files are what Code can see and change. A job that crosses tools or repeats on a calendar goes to Cowork, because tools and schedules are what Cowork can reach. A loop you need inside your own server, billed per token, is the Agent SDK; this desk does not pick it. Managed Agents is the hosted version of that same meter. Start in Chat, move to Code the first time you catch yourself copying Chat's answers into files by hand, and open Cowork the first time a job needs two of your tools at once. To choose: list what the job needs to see and touch, and whose computer should hold it. Do not open a platform.claude.com key for agent work on this desk.
+
 ## When a term gets its own page
 
 A term stays a heading on this glossary until both of these are true: the blurb no longer fits in a short paragraph, and this desk actually uses the product. Claude Managed Agents and Cursor Cloud Agents are the first candidates. Do not split a page we do not run.
 
-A miss — we picked the wrong product for a job — is filed on [[wiki/Systems/AI & Agentic Systems/Agent Wrong-Door Log|Agent Wrong-Door Log]] the same day, with the job, the product we used, the product we should have used, and the ruling in the owner's words when there is one.
+A miss, where we picked the wrong product for a job, is filed on [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Agent Wrong-Door Log]] the same day, with the job, the product we used, the product we should have used, and the ruling in the owner's words when there is one.
 
-## On this desk
+## What this desk assigns
 
-The roster is dated and lives on [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]. This page does not reopen that assignment. Grok Build is the default local loop. Claude Code is the clean-context writer for vault prose. Cursor Agent is for sitting in application files. Cursor Cloud Agent is the overnight PR seat. Grok Bot is standing watch. Managed Agents is not a seat: it bills on the Anthropic API, and this desk does not buy that meter.
+The roster is dated and lives on [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]; the assignment is not reopened here. Grok Build is the default local loop. Claude Code is the clean-context writer for vault prose. Cursor Agent is for sitting in application files. Cursor Cloud Agent is the overnight PR seat. Grok Bot is standing watch. Managed Agents is not a seat: it bills on the Anthropic API, and this desk does not buy that meter.
 
 | Job | Seat that already holds it |
 |---|---|
@@ -504,40 +614,86 @@ The roster is dated and lives on [[wiki/Systems/AI & Agentic Systems/Current Age
 | Standing watch on public sources | Grok Bot |
 | Shipping an agent to other people | Not a seat. Managed Agents is API-metered (tokens plus $0.08/session-hour). This desk does not buy that meter. |
 
-## Links Into the Knowledge Base
+## How to practice this
 
-- [[wiki/Systems/AI & Agentic Systems/How to Use the Claude Tools|How to Use the Claude Tools]] — Chat, Code, Cowork, and the hosted runtime as doors; this page is the dictionary around those doors
-- [[wiki/Systems/AI & Agentic Systems/Agent Wrong-Door Log|Agent Wrong-Door Log]] — dated misses when a job went to the wrong product; this page is the names, that page is the scoreboard
-- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — which seat this desk assigns; this page is the dictionary, not the roster
-- [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — model, local agent, and standing teammate under one first name; this page now holds Grok Build grain the Grok page should not recopy
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]] — filling the window the loop can see; this page names the loop
-- [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]] — tools as channels into a closed model; this page names the harness around those channels
-- [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]] — the clean-context subagent pattern this vault already runs
-- [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]] — always-on Grok Bots; the Cursor subscription and Managed Agents session are other vendors' version of "stays up"
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — the bar on work agents produce; this page is only the names
-- [[wiki/Glossary|Glossary]] — learning-system terms (encoding, retrieval, WPW); product names stay here
+1. Before opening a product, write down who the user of the run is and whose computer does the work. Notice that the product name follows from those two answers.
+2. Start in Chat. Move to Claude Code the first time you catch yourself copying Chat's answers into files by hand. Open Cowork the first time a job needs two of your tools at once.
+3. Launch Grok Build with the launcher that matches the context: `grok-n1` for personal, `grok-admin` for work. Notice that the wrong launcher leaks history across the two profiles.
+4. Give a second writer on the same tree its own worktree with `isolation: worktree`. Notice that two agents editing the same files on 12 June spent the hour merging.
+5. When a first request goes to a Grok Bot, name the outcome, its sources, the constraints, the deliverable, and the review point. Notice that approval stays in front of send, publish, purchase, delete, and production change.
+6. When a run went to the wrong product, file the miss on Agent Wrong-Door Log the same day. Record the job, the product used, the product that fit, and the ruling in the owner's words.
 
-## Open Questions
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]: which seat this desk assigns, job by job; the dated roster, where this glossary is the dictionary
+- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Agent Wrong-Door Log]]: dated misses when a job went to the wrong product, the two-writers miss and the other seat misses; the scoreboard, where this glossary is the names
+- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Claude Fable]]: operating notes on the top model, where it earns its keep on this desk and where it fails; observed behavior of the public model, including taste-bound failure, not what the name encodes; the judgment model this desk has not moved off
+- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]]: the effort dial in depth, when extra thinking pays and when it is decoration; which model to spend where, by depth, not by name
+- [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]]: the clean-context subagent pattern this vault's writing already runs on
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Standing Research Agents]]: always-on Grok Bots, the standing half the teammate actually runs here; the Cursor subscription and Managed Agents session are other vendors' version of "stays up"
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: filling the window the loop can see; the loop itself is named here
+- [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]]: tools as channels into a closed model; the harness around those channels is named here
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the bar on work agents produce; this glossary is only the names
+- [[wiki/Glossary|Glossary]]: learning-system terms (encoding, retrieval, WPW); product names stay here
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Fleet Structures]]: seats and duties, still unruled past Structure A
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Bot Operating Rules]]: report-only, one duty, the escalation ladder
+- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: the facet snapshot that actually decides the pick; the July 4.3 grade that 4.6 has not yet replaced
+- [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]]: official docs plus named-runner claims, confidence-tagged
+- [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]: five first-party playbooks on x.ai/bot/guides; CoS and per-helper-computer language filed, not copied
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: the live setup on this account
+- [[journal/2026-08-13-grok-4-6-on-the-frontier|Grok 4.6 on the frontier, not the lead]]: the day-after ranking the Grok 4.6 entry inherits
+- [[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]]: dated ranking by job, 15 Aug. Not a stack change.
+- [[wiki/Research/Grok Build and Cursor Bank|Grok Build and Cursor Bank]]: the lane behind the Build / IDE addendum
+- [[journal/2026-08-13-cursor-ultra-month|One month of Cursor Ultra, not a stack change]]: the two assigned harness jobs, still unboarded
+
+## Open questions
 
 - Would a subscription SKU for hosted agents (no per-token, no session-hour) reopen Managed Agents, or does "hosted by Anthropic" stay out even then?
+- Prices and plan boundaries moved three times in the three months before August 2026; which of the numbers above is stale by the time you read it?
+- Cowork began as a desktop app and now runs in the cloud by default; how long does the local-machine mode stay a supported path?
+- What week of this desk's actual loops would move 4.6 from "frontier, not lead" into the judgment seat?
+- When does a standing teammate earn a login its owner would not type onto a machine every other teammate can reach?
+- After a week in the Cursor IDE, does Tab-plus-visual-review take any daily loop off Grok Build?
+- Has the dropped July projection, a Grok release trained on Composer-style data, near Opus parity, been re-graded on a dated card?
 
 ## Sources
 
-- [Claude Managed Agents overview](https://platform.claude.com/docs/en/managed-agents/overview) — four resources, when to use, beta header, ZDR/HIPAA exclusion
-- [The evolution of agentic surfaces](https://claude.com/blog/building-with-claude-managed-agents) — Anthropic, 10 June 2026: brain/hands split, vaults, session events
-- [Agent SDK overview](https://code.claude.com/docs/en/agent-sdk/overview) — SDK vs CLI vs Client SDK vs Managed Agents
-- [Claude Platform pricing](https://platform.claude.com/docs/en/about-claude/pricing) — token rates plus $0.08 per session-hour while `running`
-- [Chat SDK × Claude Managed Agents cookbook](https://github.com/anthropics/claude-quickstarts/tree/main/managed-agents/chat-sdk) — one session per conversation, Chat SDK in front
-- [ClaudeDevs, 27 August 2026](https://x.com/ClaudeDevs/status/2092984433649283284) — cookbook announcement: Chat SDK surface, Managed Agents harness, optional Vercel Sandbox
-- [Build Claude Managed Agents with Chat SDK](https://vercel.com/kb/guide/claude-managed-agents-chat-sdk) — Slack thread maps to one session
-- [Cursor Cloud Agents](https://cursor.com/help/ai-features/cloud-agents) — isolated VMs, PR artifacts, start points
-- [Cloud Agents and Cursor Harness Improvements](https://cursor.com/changelog/08-19-26) — subscriptions, `/goal`, subagent VMs, Custom Modes, 19 August 2026
-- [What are background agents?](https://cursor.com/help/ai-features/background-agents) — old name; now Cloud Agents
-- [[wiki/Systems/AI & Agentic Systems/How to Use the Claude Tools|How to Use the Claude Tools]] — Chat / Code / Cowork doors, fetched into the wiki 26 August 2026
-- [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — the three Grok jobs; grain for Build lives here
-- Grok Build user guide, `~/.grok/docs/user-guide/` — subagents, skills, hooks, sandbox, plan mode, background tasks, sessions, memory, plugins, project rules, headless, agent mode (ACP), theming (`06-theming.md`), custom models (`11-custom-models.md`), OpenTelemetry (`24-monitoring-usage.md`); read 28 August 2026
-- [Codex CLI](https://developers.openai.com/codex/cli) — local TUI agent; npm `@openai/codex` 0.150.1 as of 27 August 2026
-- [Codex cloud](https://learn.chatgpt.com/docs/cloud) — isolated cloud environments, parallel tasks, GitHub/GitLab/Linear/Slack start
-- [About Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent) — formerly coding agent; Actions environment; 59-minute cap; not IDE agent mode
-- [Introducing Devin](https://docs.devin.ai/get-started/devin-intro) — three-hour rule of thumb; cloud, CLI, Desktop; `/handoff` to cloud
-- [Devin CLI](https://cognition.ai/blog/devin-for-terminal) — local start, cloud handoff, 27 April 2026
+- [Claude Managed Agents overview](https://platform.claude.com/docs/en/managed-agents/overview): four resources, when to use, beta header, ZDR/HIPAA exclusion; hosted runtime, session-hour billing
+- [The evolution of agentic surfaces](https://claude.com/blog/building-with-claude-managed-agents): Anthropic, 10 June 2026: brain/hands split, vaults, session events
+- [Agent SDK overview](https://code.claude.com/docs/en/agent-sdk/overview): SDK vs CLI vs Client SDK vs Managed Agents; loop as a library you host
+- [Claude Platform pricing](https://platform.claude.com/docs/en/about-claude/pricing): token rates plus $0.08 per session-hour while `running`
+- [Chat SDK × Claude Managed Agents cookbook](https://github.com/anthropics/claude-quickstarts/tree/main/managed-agents/chat-sdk): one session per conversation, Chat SDK in front
+- [ClaudeDevs, 27 August 2026](https://x.com/ClaudeDevs/status/2092984433649283284): cookbook announcement: Chat SDK surface, Managed Agents harness, optional Vercel Sandbox
+- [Build Claude Managed Agents with Chat SDK](https://vercel.com/kb/guide/claude-managed-agents-chat-sdk): Slack thread maps to one session
+- [Cursor Cloud Agents](https://cursor.com/help/ai-features/cloud-agents): isolated VMs, PR artifacts, start points
+- [Cloud Agents and Cursor Harness Improvements](https://cursor.com/changelog/08-19-26): subscriptions, `/goal`, subagent VMs, Custom Modes, 19 August 2026
+- [What are background agents?](https://cursor.com/help/ai-features/background-agents): old name; now Cloud Agents
+- Grok Build user guide, `~/.grok/docs/user-guide/`: subagents, skills, hooks, sandbox, plan mode, background tasks, sessions, memory, plugins, project rules, headless, agent mode (ACP), theming (`06-theming.md`), custom models (`11-custom-models.md`), OpenTelemetry (`24-monitoring-usage.md`); read 28 August 2026
+- [Codex CLI](https://developers.openai.com/codex/cli): local TUI agent; npm `@openai/codex` 0.150.1 as of 27 August 2026
+- [Codex cloud](https://learn.chatgpt.com/docs/cloud): isolated cloud environments, parallel tasks, GitHub/GitLab/Linear/Slack start
+- [About Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent): formerly coding agent; Actions environment; 59-minute cap; not IDE agent mode
+- [Introducing Devin](https://docs.devin.ai/get-started/devin-intro): three-hour rule of thumb; cloud, CLI, Desktop; `/handoff` to cloud
+- [Devin CLI](https://cognition.ai/blog/devin-for-terminal): local start, cloud handoff, 27 April 2026
+- [Introducing Claude Fable 5 and Claude Mythos 5](https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5): Anthropic, June 2026: the tier, the safeguards split
+- [Claude model and effort level in Claude Code](https://claude.com/blog/claude-model-and-effort-level-in-claude-code): the effort dial and its levels
+- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) and [architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview): cloud default, local VM mode, plan requirements
+- [Claude pricing](https://claude.com/pricing): plan tiers, fetched 2026-08-26
+- [TechCrunch on Cowork's web and mobile expansion](https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/): July 2026
+- Sonnet 5 and Opus 5 launch coverage: [codersera](https://codersera.com/blog/claude-sonnet-5-launch-guide-2026/), [claudefa.st](https://claudefa.st/blog/models): release dates and launch pricing
+- [Grok 4.6 model page](https://docs.x.ai/developers/grok-4-6): call shape, 500k context, reasoning including `xhigh`, $2 / $6
+- [Introducing Grok 4.6](https://x.ai/news/grok-4-6): SpaceXAI, 2026-08-12. Launch surfaces
+- [Reasoning](https://docs.x.ai/developers/model-capabilities/text/reasoning): effort levels; default high; cannot disable
+- [Grok 4.6 in GitHub Copilot](https://x.ai/news/grok-4-6-github-copilot): SpaceXAI, 2026-08-14
+- [Get started](https://docs.x.ai/grok-bot/get-started): first-task shape; platforms; Cursor sign-in
+- [FAQ](https://docs.x.ai/grok-bot/faq): one computer per user; delete does not clear files or logins; weekly usage. Re-fetched 2026-08-31. Eligible plans, fetched 2026-08-26: both-subscription accounts draw on whichever has more usage
+- [Grok Bot Guides](https://x.ai/bot/guides): five first-party playbooks captured 2026-08-31. Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]
+- [Overview](https://docs.x.ai/grok-bot/overview), [Bots](https://docs.x.ai/grok-bot/bots), [Computer and apps](https://docs.x.ai/grok-bot/computer-and-apps), [Skills, routines, and automations](https://docs.x.ai/grok-bot/skills-routines-and-automations), [Approvals, security, and privacy](https://docs.x.ai/grok-bot/approvals-security-and-privacy)
+- [Artificial Analysis on Grok 4.6](https://x.com/ArtificialAnlys/status/2087564648325530099): Intelligence Index 61; Briefcase turn counts
+- [Grok Build overview](https://docs.x.ai/build/overview), [Modes and commands](https://docs.x.ai/build/modes-and-commands): TUI, headless, plan mode
+- [Cursor quickstart](https://cursor.com/docs/get-started/quickstart), [Agent](https://cursor.com/docs/agent/overview), [Tab](https://cursor.com/docs/tab/overview), [Models & pricing](https://cursor.com/docs/models-and-pricing), [Cloud Agents](https://cursor.com/docs/cloud-agent)
+- [Get access with SuperGrok Heavy](https://cursor.com/help/grok-bot/supergrok-heavy): Ultra at $0; duration disagreed with the 13 Aug fetch; the 26 Aug fetch grants Grok Bot usage only
+- [Wider availability](https://x.com/bot/status/2090852881373311369): official @bot, 2026-08-21: SuperGrok Plus, Cursor Pro+, Cursor Teams, plus a limited free trial
+- Anthropic, [Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family), March 2024. Haiku / Sonnet / Opus as a named family.
+- Anthropic, [Claude Fable 5 and Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5), 9 June 2026, footnotes 1–2. Mythos-class above Opus; Fable public, Mythos restricted; named for telling.
+- Cursor, [Composer 2.5](https://cursor.com/blog/composer-2-5), 18 May 2026. Standard card and the SWE-Bench Multilingual table.
+- xAI, [Grok Build 0.1](https://x.ai/news/grok-build-0-1), 29 May 2026. Throughput and unit price, vendor-reported.

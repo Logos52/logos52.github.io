@@ -20,7 +20,7 @@ tags:
 
 **Verdict (15 August): keep the three-way split. Fable writes anything this vault has to like. Grok 4.6 compiles evidence and executes on disk. Grok Bot stands a duty, files a packet, and never holds a login this desk would miss.** Collapsing them into "just use Grok" loses the only comparison this desk has actually scored.
 
-The comparison is five jobs this desk already runs, not three product pages. [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] is the name collision. This entry is the ranking.
+The comparison is five jobs this desk already runs, not three product pages. [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]] is the name collision. This entry is the ranking.
 
 ## What was scored
 
@@ -42,7 +42,7 @@ Grok still writes bodies at volume. Unattended promote after five accepts filed 
 
 ## Banks and execution
 
-Grok 4.6 is the right spend where a check is cheap. A bank is a ledger, links, verdicts, and a gap list — the checker can see a missing target. A build is a compiler, a test, a diff. Extra reasoning helps there; [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]] is that dial. `xhigh` is on the card and cannot be switched to off, only down from the default high. Use it on hidden bugs and high-value diagnosis. Do not use it as a personality upgrade on a taste-bound opening.
+Grok 4.6 is the right spend where a check is cheap. A bank is a ledger, links, verdicts, and a gap list — the checker can see a missing target. A build is a compiler, a test, a diff. Extra reasoning helps there; [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]] is that dial. `xhigh` is on the card and cannot be switched to off, only down from the default high. Use it on hidden bugs and high-value diagnosis. Do not use it as a personality upgrade on a taste-bound opening.
 
 The steelman for "put 4.6 on everything": same-price jump from 4.5, cheaper loops than Opus, already the Build default, Fable is $10 / $50. The condition that would flip the stack is written: a week of this desk's long knowledge-work loops and hard SWE where 4.6 beats Opus 5, plus Fable's trust premium dying on the pages that currently stay in Cowork. Day-one benches and a regen mill that needed Fable/Opus for the doors are not that week.
 
@@ -82,7 +82,7 @@ Cost of holding this ranking: Fable spend on prose, unused Bot quota, a 4.6 that
 
 ## Related
 
-- [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — the products this ranking is about
+- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]] — the products this ranking is about
 - [[journal/2026-08-13-abc-writing-test-fable-wins|A/B/C writing test: Fable takes all three]]
 - [[journal/2026-08-14-grok-aphorism-gate|Grok needs its own aphorism gate]]
 - [[journal/2026-08-13-grok-4-6-on-the-frontier|Grok 4.6 on the frontier, not the lead]]

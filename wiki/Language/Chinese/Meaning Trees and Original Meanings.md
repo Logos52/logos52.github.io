@@ -3,7 +3,9 @@ title: "Meaning Trees and Original Meanings"
 type: concept
 status: developing
 created: 2026-06-10
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 source-count: 3
@@ -16,25 +18,34 @@ tags:
 
 # Meaning Trees and Original Meanings
 
-A meaning tree maps a character's senses from the one meaning the written shape was invented to picture. Later senses either spun from that root by metaphor or metonymy, or were grafted on because the words sounded alike. The tree stores the root and the keepers a reader could not regenerate; every other gloss stays off the card.
+A character's original meaning is the one sense its written shape was invented to picture. A meaning tree is a record of the character's senses, arranged from that original meaning. Every later sense came about in one of two ways: derivation from an earlier sense by metaphor or metonymy, or attachment to the form because two words sounded alike. The tree stores the original meaning and the later senses a reader could not work out from the original meaning. Every other dictionary sense is left out.
 
-## Two roads and a fallback
+## Core takeaways
 
-The original meaning is the only sense the form actually depicts. Explaining why a character looks the way it does always routes through that sense, even when the everyday reading has drifted. 木 was drawn as a tree. The everyday reading "wood" is a later spin from that picture, and it is the one people reach for first. Until the root is restored, the everyday sense and the strokes sit next to each other with no reason to.
+- The original meaning is the only sense the written form pictures. Any explanation of why a character looks the way it does uses that sense.
+- A later sense arises in one of two ways: derivation from an earlier sense, or a sound loan, where the form is borrowed for an unrelated word that sounded alike. When the original sense cannot be found, the earliest recorded use takes its place.
+- A loan sense is circled with 〇. The circle records that the form and the sense have no link, so the reader stops trying to invent one.
+- The tree stores only senses that cannot be worked out from a more basic one. On 長 zhǎng, "to grow" is stored, and context rebuilds "grow old," "develop," "increase," and "leader."
+- A character with two readings gets two trees. A character used as a component inside another character gets a separate tree for its use as a component.
+- A tree draws arrows between senses to show which sense could have produced which. Only the original meaning is verified history.
 
-Derivation is the first road. A new sense spins from an older one the way English "hit the bottle" uses the container for the drinking. 漢 started as a river, which is why 氵 sits on the left. People living beside that river took its name; the dynasty that rose from the region took the name next; the ethnic group that dynasty named; then an adult male of that group. The modern sense "Han / Chinese" is reachable only through that chain. The water component pays off at the first step and nowhere later.
+## Where a character's senses come from
 
-Sound loan is the second road. A form is borrowed to write an unrelated word that sounded alike. 我 drew a saw-toothed pole weapon. The loan evicted the weapon sense. The form still pictures the weapon; the modern word does not.
+The original meaning is the only sense the form pictures. An explanation of why a character looks the way it does always goes through that sense, even when the everyday reading has moved away from it. 木 was drawn as a tree. The everyday reading "wood" is a later sense derived from that picture, and it is the sense people give first. Until the reader knows the original sense, the everyday sense and the strokes have no link.
 
-Evicted senses often get successor characters. 其 lost its winnowing-basket sense and 箕 added ⺮ to keep it. 必 lost "dagger-axe handle" and 柲 added 木. That successor pattern is the same rebus machinery [[wiki/Language/Chinese/Sound Components|Sound Components]] owns; here it is only the eviction made visible. Semantic parts that extend the same roots into later hosts live on [[wiki/Language/Chinese/Meaning Components|Meaning Components]].
+Derivation is the first way a new sense arises. A new sense comes from an older one, the way English "hit the bottle" uses the container to stand for the drinking. 漢 started as the name of a river, which is why 氵 sits on the left. People living beside that river took its name. The dynasty that rose from the region took the name next. Then the ethnic group that dynasty named. Then an adult male of that group. The modern sense "Han / Chinese" is reached only through that chain of senses. The water component explains the first step and none of the later ones.
 
-Two roads plus one fallback is the whole typology. When the invented sense cannot be pinned, the earliest attested usage takes the root slot. 恢 is already "vast" in Warring States texts. Nothing in that sense talks to 忄, and 灰 is the phonetic. The fallback is rare. There is no fourth road.
+Sound loan is the second way. A form is borrowed to write an unrelated word that sounded alike. 我 was drawn as a saw-toothed pole weapon. After the loan, the weapon sense went out of use. The form still pictures the weapon. The modern word has no link to it.
 
-## How a tree is written, and what stays off the card
+Senses that went out of use this way often got a new character. 其 lost its winnowing-basket sense, and 箕 added ⺮ to keep it. 必 lost "dagger-axe handle," and 柲 added 木. That successor pattern is the same sound-borrowing mechanism, called rebus, that [[wiki/Language/Chinese/Sound Components|Sound Components]] describes. In a meaning tree it matters only as the visible sign of the lost sense. Semantic parts that carry the same original meanings into later host characters are described on [[wiki/Language/Chinese/Meaning Components|Meaning Components]].
 
-A meaning tree records the genealogy. The root is tagged original even when it is obsolete. A loan sense is circled — 〇. A break marked before the mind starts mending it is easier to store than a break the mind keeps trying to fix. Derivations are graded by depth: first-stage, second, third, with indentation matching the stage. The arrows encode which sense could have spawned which. Only the root is verified history. Tracing the true historical chain would multiply the work several-fold and change nothing that belongs on a card. A logical tree is not a philological tree.
+When the sense the form was invented for cannot be found, the earliest recorded use is used as the original meaning. This is the fallback. 恢 already means "vast" in Warring States texts. That sense has no link to 忄, and 灰 is the sound component. The fallback is rare. Derivation, sound loan, and this fallback cover every case. There is no other way a sense arises.
 
-Two readings, two trees.
+## How a tree is written
+
+A meaning tree records the line of descent of the senses. The original meaning is tagged as original even when it is no longer in use. A loan sense is circled: 〇. Marking the loan at once stops the reader from trying to make up a link between the form and the sense. A marked break is easier to remember than a break the reader keeps trying to repair. Derived senses are graded by stage: first-stage, second, third, and the indentation matches the stage. Arrows show which sense could have produced which. Only the original meaning is verified history. Tracing the true historical chain would multiply the work several times over and would change nothing that belongs on the card. The tree records a possible order of derivation. It does not record the documented historical order.
+
+A character with two readings gets two trees.
 
 長 cháng:
 
@@ -46,56 +57,67 @@ Two readings, two trees.
 - grow old → grow, develop ⇒ increase
 - plus: leader
 
-One tree per role. 臣 in a text is a ruler's subject; as a component it is the eye of someone bowing. 又 as a word is "again"; inside 取 it is a hand. Construction is analyzed with component meanings; words are read with character meanings. [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] is the meaning leg these trees organize. [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] is the parse they anchor to — character role and component role stay apart.
+Each role a character plays gets its own tree. 臣 in a text is a ruler's subject. As a component inside another character, it is the eye of someone bowing. 又 as a word is "again." Inside 取 it is a hand. The construction of a character is analyzed with component meanings. Words are read with character meanings. [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] lists meaning as one of a character's three attributes, and these trees organize that attribute. [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] gives the parse the trees attach to. Character role and component role are kept separate.
 
-The prune is the action. A sense derivable from a more basic one is not stored: if B is guessable from A and C, B is skipped; if B and C both follow from A, A is stored alone. On 長 zhǎng the keeper is "to grow." Context then rebuilds "grow old," "develop," "increase," even "leader." Rare senses wait. Loading the whole gloss list up front is how many of them are forgotten before they are ever used.
+## Which senses are stored
 
-## What the tree is for
+Cutting senses is the main step. A sense that can be worked out from a more basic one is not stored. If B can be guessed from A and C, B is left out. If B and C both follow from A, only A is stored. On 長 zhǎng the stored sense is "to grow." Context then rebuilds "grow old," "develop," "increase," and even "leader." Rare senses are left out. A reader who learns the whole list of dictionary senses at once forgets many of them before ever using them.
 
-The tree does three jobs. It ties today's ordinary sense back to the strokes. It shows how the other senses grew, or failed to. It cuts the store down to what cannot be rebuilt.
+## What the tree does
 
-Those jobs become a motion in three steps. First, ask whether the form and the ordinary modern sense still talk to each other — a 〇 answers no. Second, choose which senses to keep. Third, wire the keepers together. The savings compound across thousands of characters.
+The tree does three jobs. It links today's ordinary sense back to the strokes. It shows how the other senses developed, or did not. It cuts the stored set down to what cannot be rebuilt.
 
-The work refused is full historical chains. That is the price, paid once per character, against the cost of storing a flat list. [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] is the general form — understanding, association, load-minimization — and this prune is one instance.
+Building a tree takes three steps. First, ask whether the form and the ordinary modern sense are linked. If they are not, the sense gets a 〇. Second, choose which senses to keep. Third, draw the arrows between the kept senses. The saved effort adds up across thousands of characters.
 
-## Four false bridges
+The tree does not record full historical chains. The cost of the method is one root-finding pass per character. The cost it replaces is storing a flat list of every sense. [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] gives the general rules: understanding, association, load-minimization. This cutting of senses is one instance of them.
 
-Inventing a link to a loan is the first. 造 has no path from "create" to 辶; the component served original "to arrive" (ancient cào). "Create" is circled. "Manufacture" is derived from it.
+## Four wrong links
 
-Modern-sense etymology is the second. Hunting "Chinese" in the strokes of 漢 is folk etymology. The river reading already made 氵 obvious.
+Inventing a link to a loan sense is the first. 造 has no path from "create" to 辶. The component served the original sense "to arrive" (ancient cào). "Create" is circled. "Manufacture" is derived from "create."
 
-Role confusion is the third. Carrying a character meaning into construction — 臣 as "official" inside a host, 又 as "again" inside 取 — forces contorted stories.
+Explaining the form from the modern sense is the second. Looking for "Chinese" in the strokes of 漢 is folk etymology. The river sense already explains 氵.
 
-Lookalike traps are the fourth. 必 shares no history with 心. The 旦-shaped element in 是 is unrelated to 旦. Both are [[wiki/Language/Chinese/Empty Components|Empty Components]] — residue, not meaning.
+Confusing the two roles is the third. Carrying a character meaning into the analysis of construction, such as 臣 as "official" inside a host character or 又 as "again" inside 取, produces strained explanations.
 
-## What this is not
+Lookalike parts are the fourth. 必 shares no history with 心. The 旦-shaped element in 是 is unrelated to 旦. Both are [[wiki/Language/Chinese/Empty Components|Empty Components]]: leftover shapes that carry no meaning.
 
-Basic modern meaning is the sense a native gives with no context. A good dictionary's first gloss is the practical proxy when no native is standing at a whiteboard.
+## Limits of the method
 
-Almost no character is a pile of equal glosses. That is a qualitative claim about how senses grow, not a measured share of an unnamed dictionary.
+The basic modern meaning is the sense a native speaker gives with no context. When no native speaker is available to ask, a good dictionary's first gloss stands in for that answer.
 
-This is not a 訓詁 seminar. A tree that invents links is folk etymology with extra steps. A tree that stores every gloss has not pruned. The method does nothing for a reader who will not look up an original sense. The price is a root-finding pass, paid once per character. If the tree keeps growing to match a dictionary entry, the prune failed. After the pass, the stored set is the root plus the non-obvious keepers, and a circled loan no longer asks to be repaired.
+Almost no character has a set of senses that are all equally basic. That statement is about how senses develop. It is not a measured count from any dictionary.
 
-[[wiki/Concepts/Memory Handling|Memory Handling]] is the general prune-by-inference move. This page is the character-sized version.
+The method is not a course in 訓詁. A tree that invents links is folk etymology. A tree that stores every gloss has not been cut down. The method does nothing for a reader who will not look up an original sense. The cost is one root-finding pass per character. If the tree keeps growing to match a dictionary entry, the cutting failed. After the pass, the stored set is the original meaning plus the later senses that cannot be worked out from it. The reader stops trying to link a circled loan to the form.
 
-The same root is now the thing that stays on the card. Context regenerates the obvious extensions. Loans stay circled. The form still pictures only that oldest sense; the store is small enough to use.
+[[wiki/Concepts/Memory Handling|Memory Handling]] describes the general method of leaving out what can be inferred. The meaning tree applies that method to single characters.
 
-## Links into the knowledge base
+The original meaning is what stays stored. Context rebuilds the obvious derived senses. Loan senses stay circled. The form pictures only that oldest sense. The stored set is small enough to use.
 
-- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] — the hub: how the cluster is ordered, and where trees sit after the component pages.
-- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] — the meaning leg these trees organize.
-- [[wiki/Language/Chinese/Meaning Components|Meaning Components]] — semantic parts that extend the same roots into hosts.
-- [[wiki/Language/Chinese/Sound Components|Sound Components]] — rebus machinery behind sound-loans and successor characters.
-- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] — character-versus-component roles; the parse these trees anchor to.
-- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] — understanding, association, load-minimization — the general rules the prune instantiates.
-- [[wiki/Concepts/Memory Handling|Memory Handling]] — inference-over-storage as a general move; this page is the character-sized version.
-- [[wiki/Language/Chinese/Empty Components|Empty Components]] — the lookalike half of 必 and 是.
+## How to practice this
 
-## Open Questions
+1. Pick one character. Look up the sense its written shape was invented to picture. Notice whether the sense you would give first is that one or a later sense.
+2. Ask whether the form and the ordinary modern sense are linked. If they are not, circle the sense with 〇. Notice that you stop trying to invent a link between them.
+3. Drop every sense you can work out from a more basic one. If two senses both follow from one sense, keep only that one. Notice how short the list becomes.
+4. Draw an arrow from each kept sense to the sense it could have produced. Indent each derived sense by its stage: first, second, or third. Notice that only the original meaning in the chain is verified history.
+5. If the character has two readings, write a separate tree for each. If it appears as a component inside another character, use its component meaning there. Notice whether the explanation of how the host character is built stays simple.
+6. Compare the finished tree with a dictionary entry. If the tree has grown to match the entry, cut it again. Notice that what remains is the original meaning plus the senses context cannot rebuild.
 
-How does a pruned sense re-enter once it starts appearing in real text?
+## Related pages
 
-A dictionary's first gloss stands in for the whiteboard test. How far that proxy drifts from the sense a native would give with no context is still open.
+- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]: the hub page for the pages on Chinese characters. It shows how those pages are ordered, and where the tree pages come after the component pages.
+- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]]: meaning is one of the three attributes, and these trees organize it.
+- [[wiki/Language/Chinese/Meaning Components|Meaning Components]]: semantic parts that carry the same original meanings into host characters.
+- [[wiki/Language/Chinese/Sound Components|Sound Components]]: the rebus mechanism behind sound loans and successor characters.
+- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]]: character roles versus component roles, and the parse these trees attach to.
+- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]: understanding, association, load-minimization. The general rules this cutting of senses applies.
+- [[wiki/Concepts/Memory Handling|Memory Handling]]: leaving out what can be inferred, as a general method. The meaning tree is the version for single characters.
+- [[wiki/Language/Chinese/Empty Components|Empty Components]]: the lookalike parts of 必 and 是.
+
+## Open questions
+
+How does a sense that was left out of the tree get added back once it starts appearing in real text?
+
+A dictionary's first gloss stands in for asking a native speaker for the sense with no context. How far that stand-in differs from the sense a native speaker would give is still open.
 
 ## Sources
 

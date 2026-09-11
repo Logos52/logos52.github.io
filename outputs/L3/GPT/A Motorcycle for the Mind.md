@@ -107,13 +107,13 @@ The recommended response is not reassurance. It is action:
 4. Use AI to expose gaps in your thinking.
 5. Convert anxiety into experiments.
 
-This links to [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] and [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]: the point is to externalize thought into artifacts.
+This links to [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] and [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]: the point is to externalize thought into artifacts.
 
 ## Links Into the Knowledge Base
 
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Concepts/Vibe Coding|Vibe Coding]]
-- [[wiki/Concepts/Software 3.0|Software 3.0]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
 - [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]

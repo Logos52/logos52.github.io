@@ -98,3 +98,8 @@ From an audit of seven surviving openings, 2026-08-29: things you can point at i
 ## Five plain-wave pilots, read 2026-09-11
 
 Five pages rewritten under one instruction (avoid all mannered prose) into the simple shape, by fresh Opus heads, one page each: Thinking on Paper, Dimensions of Learning, Five Thinking Habits - Conclusion First, Levels of Thinking - The Step Back, Late Stage Feminism. The owner read all five: "generally speaking these all pass. i read them all." Files under `01 - Workbench/plain-wave-2026-09-11/out/`, not yet on the wiki. The same day he added a section to the shape, How to practice this, which he has not yet read on any page.
+
+## The wiki-wide plain rewrite landed, 2026-09-11
+
+Every prose page on the wiki now carries the simple shape, written under one instruction: avoid all mannered prose. The owner's word after reading the five pilots: "generally speaking these all pass. i read them all." He then added the How to practice this section to the shape, approved the merge map ("ok all good. proceed."), read fifty pages written twice and ruled on the writer ("fable is definitely better"), and said proceed all. The wiki went from 390 pages to 340. Pages whose prose was written by an Opus head carry `prose-model: opus` in their frontmatter; the rest carry `prose-model: fable`. Nothing is pushed.
+

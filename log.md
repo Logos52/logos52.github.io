@@ -127,7 +127,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-15] compile | Opening the Black Box of Learning technique page
 
-- Created [[wiki/Techniques/Opening the Black Box of Learning\|Opening the Black Box of Learning]] as a new technique page distilled from Live Clinic 61.
+- Created [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces\|Opening the Black Box of Learning]] as a new technique page distilled from Live Clinic 61.
 - Used neutral framing (black box as unseen processes, not something you are "inside").
 - Strong diagnostic sequence with process questions, input/output separation, and stress-testing guidance.
 - Added the page to [[notes/index|notes/index.md]].
@@ -140,7 +140,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-15] compile | Schema Construction, Assimilation, and Reorganization technique page
 
-- Created [[wiki/Techniques/Schema Construction, Assimilation, and Reorganization\|Schema Construction, Assimilation, and Reorganization]] in `wiki/Techniques/`.
+- Created [[wiki/Dimensions/Deep Processing/Schema\|Schema Construction, Assimilation, and Reorganization]] in `wiki/Techniques/`.
 - Used an action-oriented Core Thesis focused on building and refining connected mental models.
 - Broke down the three cognitive pillars with practical guidance for each.
 - Added the page to [[notes/index|notes/index.md]].
@@ -184,7 +184,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Added [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] as an environmental systems-design frame for reducing ownership cost, preserving slack, and making physical space support the life being built.
 - Added [[wiki/Minimalism/Environment Design|Environment Design]], [[wiki/Minimalism/Ownership Cost|Ownership Cost]], [[wiki/Minimalism/Product Reduction|Product Reduction]], and [[wiki/Minimalism/Exit Strategy For Objects|Exit Strategy For Objects]].
-- Connected the section to [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]], [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]], and [[wiki/Decision Making/Decision Making|Decision Making]].
+- Connected the section to [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]], [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]], and [[wiki/Decision Making/Decision Making|Decision Making]].
 
 ## [2026-05-12] maintenance | Simplify homepage orientation
 
@@ -194,7 +194,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-12] compile | Minimally viable learning system
 
-- Added [[wiki/Syntheses/Minimally Viable Learning System|Minimally Viable Learning System]] as the current minimum learning system: [[wiki/Techniques/Bear Hunter System|BHS]] for encoding and [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] for retrieval.
+- Added [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Minimally Viable Learning System]] as the current minimum learning system: [[wiki/Techniques/Bear Hunter System|BHS]] for encoding and [[wiki/Techniques/Spaced Interleaved Retrieval|SIR]] for retrieval.
 - Framed Agentic Engineering and the knowledge base as possible extensions being tested, not as confirmed parts of the minimum.
 - Connected the page to [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]], [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]], [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and [[private/Goals/Priority 0|Priority 0]].
 
@@ -232,7 +232,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Added [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] from the Live Clinic 69 output synthesis.
 - Positioned unlearning as cue-response surgery: isolate the old trigger, script the replacement response, rehearse judgment separately, and use Kolbs to calibrate.
-- Connected the page to [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]], and [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]].
+- Connected the page to [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]], and [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]].
 
 ## [2026-05-11] compile | Interleaving for complex problem solving
 
@@ -274,15 +274,15 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Added ICS-sourced self-management pages:
   - [[wiki/Self Management/Flow State|Flow State]]
-  - [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
+  - [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]]
   - [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
 - Updated [[wiki/Decision Making/Decisional Delays|Decisional Delays]] so flow-related disruption links directly to [[wiki/Self Management/Flow State|Flow State]].
 - Connected the new pages to [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Dimensions/Self-Management|Self-Management]], and the public knowledge-base index.
 
 ## [2026-05-08] compile | Attention Management
 
-- Added [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] from the ICS attention-management source.
-- Positioned it as the day-level system for preserving [[wiki/Self Management/Flow State|Flow State]] across task transitions, distinct from [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]] as the block-level setup.
+- Added [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]] from the ICS attention-management source.
+- Positioned it as the day-level system for preserving [[wiki/Self Management/Flow State|Flow State]] across task transitions, distinct from [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]] as the block-level setup.
 - Connected it to [[wiki/Decision Making/Decisional Delays|Decisional Delays]], [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]], and [[wiki/Dimensions/Self-Management|Self-Management]].
 
 ## [2026-05-08] maintenance | Rename homepage to LLM Knowledge Base
@@ -316,8 +316,8 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Added [[00 Command Center/Writing Standards|Writing Standards]] for future page quality, neutral article voice, practical role-first writing, hub/detail discipline, and integration rules.
 - Added [[templates/Writing Standard|Writing Standard]] as a reusable drafting template.
 - Added workflow pages:
-  - [[wiki/Workflows/Wiki Status Checks|Wiki Status Checks]]
-  - [[wiki/Workflows/Wiki Breakdown Pass|Wiki Breakdown Pass]]
+  - [[wiki/Workflows/Wiki Health Checks|Wiki Status Checks]]
+  - [[wiki/Workflows/Wiki Health Checks|Wiki Breakdown Pass]]
 - Updated [[AGENTS|AGENTS]] with status, breakdown, article-development, anti-cramming, and type-specific page rules.
 - Updated [[notes/index|notes/index]] and [[00 Command Center/Index|Command Center Index]].
 
@@ -332,13 +332,13 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Indexed raw YouTube transcript sources in [[raw/Source Index|Source Index]].
 - Compiled initial metacognition-focused pages:
   - [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
-  - [[wiki/Techniques/Building the Radar|Building the Radar]]
+  - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Building the Radar]]
   - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
   - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
   - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
-  - [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
+  - [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Deep Processing Practice]]
   - [[wiki/Concepts/Memory Handling|Memory Handling]]
-  - [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
+  - [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]
 - Updated glossary, bibliography, command center, and open questions.
 
 ## [2026-05-02] maintenance | Align schema with Karpathy LLM-wiki pattern
@@ -355,11 +355,11 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Added agentic engineering cluster:
   - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
   - [[wiki/Concepts/Vibe Coding|Vibe Coding]]
-  - [[wiki/Concepts/Software 3.0|Software 3.0]]
+  - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]
   - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
   - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
   - [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
-  - [[wiki/Concepts/Thinking Models|Thinking Models]]
+  - [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]]
 - Updated [[notes/index|notes/index]], [[raw/Source Index|Source Index]], bibliography, command center, and open questions.
 ## [2026-05-04] compile | Study-system cluster
 
@@ -397,8 +397,8 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
   - [[templates/Kolbs Template|Kolbs Template]]
   - [[wiki/Techniques/Marginal Gains|Marginal Gains]]
-  - [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
-  - [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
+  - [[wiki/Dimensions/30-Day Challenges|Dimension Practice Tracks]]
+  - [[wiki/Dimensions/Dimensions of Learning|Upgrading Your Dimensions]]
 - Rewired related dimension pages, command-center navigation, glossary, source index, and open questions.
 
 ## [2026-05-06] compile | Refold language resource catalogs
@@ -653,7 +653,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Merged the separate [[wiki/Concepts/Bias|Bias]] and [[wiki/Concepts/Framing|Framing]] pages into a single stronger page: [[wiki/Concepts/Bias and Framing|Bias and Framing]].
 - Deleted the two old pages and updated the Notes Index.
 
-- Moved the hybrid (GPT + Sonnet) synthesis of Justin Sung's "How to Rest So Well You Never Feel Exhausted Again" into the wiki as [[wiki/Concepts/Recovery|Recovery]].
+- Moved the hybrid (GPT + Sonnet) synthesis of Justin Sung's "How to Rest So Well You Never Feel Exhausted Again" into the wiki as [[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure|Recovery]].
 - Added to Notes Index.
 - Linked to Self-Regulation, Bear Hunter System, Marginal Gains, and Priority 0.
 - The hybrid brief remains in outputs as reference.
@@ -661,7 +661,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-05-16] refine | Dimension hubs and hybrid model workflow
 
 - Refined the post-migration wiki structure across the Five Dimensions, AI systems, workflows, books, Red Team, language resources, and supporting concept pages.
-- Added [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] as a synthesis page connecting top-performer learning, learning assets, and the Five Dimensions.
+- Added [[wiki/Syntheses/ICS System|How Top Performers Learn]] as a synthesis page connecting top-performer learning, learning assets, and the Five Dimensions.
 - Added Hybrid Model Workflows, Grok + Hermes to document the current multi-model workflow: Grok for high-level framing, Hermes/Aider for local execution and structural cleanup.
 - Strengthened [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]], [[wiki/Dimensions/Retrieval|Retrieval]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Self-Management|Self-Management]], and [[wiki/Dimensions/Mindset|Mindset]] so the hubs function more like diagnostic control surfaces.
 - Repaired many internal links left over from the `wiki/Techniques/` and broad `wiki/Concepts/` migration into `wiki/Dimensions/`, `wiki/Systems/`, and `wiki/Domains/`.
@@ -672,7 +672,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Refined Hybrid Model Workflows, Grok + Hermes around Hermes as the local agent and Grok as the high-level reasoning layer.
 - Expanded [[AGENTS]] with model-specific guidance, Hermes access boundaries, and the `raw/sessions/` session-summary habit for reviewable agent memory.
 - Added [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] plus dimension-specific challenge pages for Mindset, Self-Management, Self-Regulation, Deep Processing, and Retrieval.
-- Refined [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] around learning assets and the understand / remember / apply / perform model.
+- Refined [[wiki/Syntheses/ICS System|How Top Performers Learn]] around learning assets and the understand / remember / apply / perform model.
 - Added new clippings for future processing: Hermes Agent Masterclass, How to Build Your Second Brain, and the r0b0tlab filesystem-first LLM-wiki / Obsidian / Hermes memory system.
 
 ## [2026-05-18] maintenance | L3→L2 skill evolution + cleanup
@@ -692,7 +692,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-05-21] compile | Focus Management return mechanism
 
 - Created GPT - How To Improve Your Focus Permanently as the working output brief.
-- Promoted the synthesis into [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: Training the Return Mechanism]].
+- Promoted the synthesis into [[wiki/Self Management/Flow State|Focus Management: Training the Return Mechanism]].
 - Reframed Focus Management around distraction threshold, environmental and interactive forces, the distraction cheat sheet, FIT training, neural entrainment, and return speed.
 - Updated [[notes/index|Notes Index]] with the new page title and summary.
 
@@ -707,7 +707,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Cleaned up [[index|Home]], [[notes/index|Index]], [[journal/index|Journal]], [[journal/calendar|Journal Calendar]], [[blog/index|Blog]], and [[about|About]] so each front-facing page has a clearer job.
 - Added [[journal/2026-05-21-front-facing-pages-cleanup|Front-Facing Pages Cleanup]] as a short public journal entry.
-- Moved today's strongest pages closer to the entrance of the site: [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: Training the Return Mechanism]] and [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]].
+- Moved today's strongest pages closer to the entrance of the site: [[wiki/Self Management/Flow State|Focus Management: Training the Return Mechanism]] and [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]].
 
 ## [2026-05-23] compile | Focus block split into three GPT workbench briefs
 
@@ -754,7 +754,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## 2026-05-29 — ICS program map + gap-fill compile
 - Created [[wiki/ICS Program Map]] — stage-ordered MOC over the wiki (Kickstart → High-yield → Growth), links wiki notes only (no raw/private links, per Writing Standards Sources policy).
 - Stage→wiki mappings confirmed against ICS stage pages; corrected Fundamentals (SIR + Marginal Gains), Briefing (Kolb + Skills Audit), Technique Training (inquiry-based / unlearning / memory).
-- Gap-filled 7 distilled wiki pages from raw/private/ICS: Camp I — [[wiki/Dimensions/Retrieval/Method of Loci|Method of Loci]], [[wiki/Dimensions/Retrieval/Flashcards|Flashcards]], [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Rote Learning and Memorisation]]; Fundamentals 2 — [[wiki/Dimensions/Deep Processing/Non-Linear Note-Making|Non-Linear Note-Making]], [[wiki/Dimensions/Retrieval/Revision|Revision]], [[wiki/Self Management/Study Scheduling|Study Scheduling]]; Summit — [[wiki/Dimensions/Retrieval/Cramming|Cramming]].
+- Gap-filled 7 distilled wiki pages from raw/private/ICS: Camp I — [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Method of Loci]], [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Flashcards]], [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Rote Learning and Memorisation]]; Fundamentals 2 — [[wiki/Dimensions/Deep Processing/Mindmaps|Non-Linear Note-Making]], [[wiki/Dimensions/Retrieval/Revision|Revision]], [[wiki/Self Management/Study Scheduling|Study Scheduling]]; Summit — [[wiki/Dimensions/Retrieval/Multipass System|Cramming]].
 - Remaining synthesis backlog flagged in the map (Exam technique, Live learning events, Cave theory, Order control, Survive-and-thrive, Loss aversion, Exam execution, Learning Support library).
 
 ## 2026-05-29 — Exam Execution wiki cluster (Summit)
@@ -770,13 +770,13 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## 2026-05-29 — ICS gap-fill round 2 (Technique Training, Fundamentals 2, Briefing)
 - Deleted empty dup raw/private/ICS/Live Clinic 44-.md (0 bytes; real Syntopical Reading clip retained).
-- Technique Training synthesized: [[wiki/Dimensions/Deep Processing/Inquiry-Based Learning|Inquiry-Based Learning]] (Traffic Light System), [[wiki/Dimensions/Deep Processing/Order Control|Order Control]], [[wiki/Dimensions/Deep Processing/Survive and Thrive|Survive and Thrive]], [[wiki/Concepts/Cave Theory|Cave Theory]], [[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]].
-- Fundamentals 2 remainder: [[wiki/Domains/Miscellaneous/Exam Technique|Exam Technique]], [[wiki/Dimensions/Deep Processing/Live Learning Events|Live Learning Events]].
+- Technique Training synthesized: [[wiki/Dimensions/Deep Processing/Inquiry-Based Learning|Inquiry-Based Learning]] (Traffic Light System), [[wiki/Dimensions/Deep Processing/Order Control|Order Control]], [[wiki/Dimensions/Deep Processing/Schema|Survive and Thrive]], [[wiki/Concepts/Cave Theory|Cave Theory]], [[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]].
+- Fundamentals 2 remainder: [[wiki/Domains/Miscellaneous/Exam Technique|Exam Technique]], [[wiki/Dimensions/Deep Processing/Mindmaps|Live Learning Events]].
 - Briefing (mostly recap): [[wiki/Dimensions/Self-Regulation/Common Traps|Common Traps]], [[wiki/Self Management/Techniques in School|Techniques in School]] (time-boxing). Focus/Prestudy/Kolb/skills-audit already covered.
 - ICS Program Map: all four stages updated; full linear path now covered. Only the 32-file Learning Support Q&A library remains as backlog.
 
 ## 2026-05-29 — Learning Support library synthesized (bulk)
-- Consolidated 36 Learning Support clips into 6 pages (grouped by concept, per Writing Standards): [[wiki/Dimensions/Self-Regulation/Measuring Learning|Measuring Learning]], [[wiki/Dimensions/Mindset/Marginal Gains in Practice|Marginal Gains in Practice]], [[wiki/Dimensions/Retrieval/Encoding and Retrieval|Encoding and Retrieval]], [[wiki/Dimensions/Deep Processing/Non-Linear Note-Making|Non-Linear Note-Making]], [[wiki/Dimensions/Mindset/Motivation|Motivation]], [[wiki/Dimensions/Self-Regulation/Pacing Skill Development|Pacing Skill Development]].
+- Consolidated 36 Learning Support clips into 6 pages (grouped by concept, per Writing Standards): [[wiki/Dimensions/Self-Regulation/Measuring Learning|Measuring Learning]], [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains in Practice]], [[wiki/Dimensions/Retrieval/Encoding and Retrieval|Encoding and Retrieval]], [[wiki/Dimensions/Deep Processing/Mindmaps|Non-Linear Note-Making]], [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|Motivation]], [[wiki/Dimensions/Mindset/Marginal Gains|Pacing Skill Development]].
 - Clips already covered by existing pages were linked, not duplicated (higher-order learning, prestudy, inquiry, skills audit, feedback, interleaving table, silly mistakes, Kolb). "Recommended apps" (affiliate list) intentionally not synthesized.
 - ICS Program Map: Support library + coverage notes updated. Full program path + Learning Support now covered.
 - Total ICS wiki pages created this session: 22.
@@ -798,7 +798,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-06-15] ingest | The AI Industrial Revolution → agentic cluster fusion
 - Source: Naval Ravikant et al., "The AI Industrial Revolution" ([nav.al/industrial](https://nav.al/industrial), 2026-06-02), transcript in `raw/inbox`. Scope per Wedge: agentic core + light adjacent; fold into existing pages (no new standalone concept pages beyond the anchor); fuse direct to wiki.
 - New page (anchor): [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]] — software factories, waste-tokens-save-time, models planning unprompted, humans as verifiers, train-the-agent, intelligence vs agency, small teams, model tiering, out-of-distribution creativity, and the planning-as-spec vs planning-as-ritual split. Carries its own Case Against (founders talking their book).
-- Fused (integration rule, frontmatter bumped): [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] (verifier role + factory framing + train-the-agent; src 9→10), [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]] (spec-not-plan invariant + two dated tactics: waste-tokens, stop-hand-writing-the-plan), [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] (no-stuck + hardware crossover; src 4→5), [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]] (models speak English / instruct humans; src 1→2), [[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]] (always-want-smartest + tiering caveat; src 1→2).
+- Fused (integration rule, frontmatter bumped): [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] (verifier role + factory framing + train-the-agent; src 9→10), [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]] (spec-not-plan invariant + two dated tactics: waste-tokens, stop-hand-writing-the-plan), [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] (no-stuck + hardware crossover; src 4→5), [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]] (models speak English / instruct humans; src 1→2), [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]] (always-want-smartest + tiering caveat; src 1→2).
 - Light adjacent: [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] (100x factory leverage; src 1→2), [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]] (out-of-distribution ceiling on generativity).
 - System: Source Index row added; notes/index.md row for the anchor page (also indexed Higher-Order Generativity, previously missing); 4 open questions appended to outputs/generated-questions.md; journal entry 2026-06-15.
 - Flagged, not actioned: (1) about.md line "n=1 learning + encoding solutions" conflicts with the High-Signal Front-Facing standard (no workshop words on the door) — translation options pending Wedge's pick; (2) the PRD-relaxation idea encoded as an open question / invariant-vs-tactic split, NOT a change to the operating doc (Wedge confirmed PRDs stay).
@@ -827,7 +827,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-06-23] capture+compile | ICS Live Clinic 74 (Metacognition) → audio capture, raw page, wiki
 - Source: iCanStudy, "Live Clinic 74: Metacognition as a skill" (`supplementary-learning/.../ls-lc74/pg-lc74`). DRM video captured via the analog-hole pipeline (`~/.cache/ics_transcribe/`, BlackHole 2x → mlx-whisper, 10,594 words), folded into new raw page `raw/private/ICS/course-text/18 Live clinics/237 Live Clinic 74- ...` (seq 237) with the official timestamp index + Usable Takeaways. Raw stays gitignored.
 - L3 brief: `01 - Workbench/Opus - Metacognition as a Skill.md` (High-Signal Wiki kit inside the brief structure).
-- New wiki page: [[wiki/Dimensions/Self-Regulation/Metacognition as a Skill|Metacognition as a Skill]] — cue utilisation framework (cue→monitoring→response, Koriat 2006), prediction error as the engine, the guided Kolb's loop as the develop/track/calibrate surface; full honesty kit (case against, quit signals, checkable expectations). Synthetic only, no raw link (raw/private gitignored).
+- New wiki page: [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition as a Skill]] — cue utilisation framework (cue→monitoring→response, Koriat 2006), prediction error as the engine, the guided Kolb's loop as the develop/track/calibrate surface; full honesty kit (case against, quit signals, checkable expectations). Synthetic only, no raw link (raw/private gitignored).
 - Backlinks: Metacognition - The Control Layer, Building the Radar, The Technique Is Only as Good as the Thinking It Produces, Four Stages of Competence → all now link the new page. Source Index: row added under Private Course Sources.
 - Note (not fixed): Source Index "Public Raw Sources" rows still cite stale paths `wiki/Concepts/Metacognition - The Control Layer` and `wiki/Techniques/Building the Radar`; the live pages are under `wiki/Dimensions/Self-Regulation/`. Pre-existing, left untouched.
 
@@ -898,7 +898,7 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 
 ## [2026-08-06] wiki | Least-Cost Interpretation promoted to the agentic-AI wing
 
-- New: [[wiki/Systems/AI & Agentic Systems/Least-Cost Interpretation|Least-Cost Interpretation]] — the cost-function mechanism behind minimal compliant readings; two documented cases (the redo spiral, 2026-07-25; the label case, 2026-08-06); the three-lever repair, widened from revision orders to every ask; the case against, with the flip condition on record.
+- New: [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Least-Cost Interpretation]] — the cost-function mechanism behind minimal compliant readings; two documented cases (the redo spiral, 2026-07-25; the label case, 2026-08-06); the three-lever repair, widened from revision orders to every ask; the case against, with the flip condition on record.
 - Wired: inline backlink from [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]]; home Top of Mind rotation (new question in, lowest entry archived per the 2026-07-17 rule); source journal [[journal/2026-07-25-the-least-cost-interpretation|2026-07-25]].
 
 ## [2026-08-13] compile | Grok Bot practitioner essay → research bank
@@ -956,7 +956,7 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 
 ## [2026-08-15] compile | New wiki page: Grok 4.6 and Grok Bot
 
-- New: [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — one page for the name collision. Model vs teammate vs Grok Build. Inherits the 13 Aug ranking (frontier, not lead; not a stack change) and the public-only trust line.
+- New: [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]] — one page for the name collision. Model vs teammate vs Grok Build. Inherits the 13 Aug ranking (frontier, not lead; not a stack change) and the public-only trust line.
 - Wired from Current Agentic LLM Stack (Build row now names `grok-4.6`), Standing Research Agents, What the Model Names Signal, Bot Operating Rules.
 - Does not ingest the Field packet into doctrine. Does not re-grade the capability lens.
 
@@ -964,14 +964,14 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 
 - New: [[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]] — rank the jobs. Fable writes; Grok 4.6 banks and executes; Grok Bot stands a public, packet-only duty. Field catalog is not a roster.
 - Evidence: A/B/C 13 Aug; 52 Grok openers 14 Aug; 281 banks; AA-Briefcase turn counts; Field packet 15 Aug.
-- Pointer added on [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]].
+- Pointer added on [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]].
 - Nav: journal surfaces regenerated.
 
 ## [2026-08-15] compile | Grok Build vs Cursor IDE lane + page addendum
 
 - Bank: [[wiki/Research/Grok Build and Cursor Bank|Grok Build and Cursor Bank]] — Build is the TUI/CLI the agent drives; Cursor is the IDE you sit in (Tab, diffs, debugger, Agent as a pane). Composer is a model, not the comparison. SuperGrok Heavy unlocks both.
 - Contradiction surfaced: Cursor help 15 Aug says Ultra lasts while Heavy renews; 13 Aug fetch of the same page said one month, no repeat. Named on the bank, the Ultra journal, and the wiki addendum. Not reconciled.
-- Addendum on [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]]. Cursor.app still not on this Mac.
+- Addendum on [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]]. Cursor.app still not on this Mac.
 - Routing: Build when the agent drives; Cursor IDE when the hands are in the files; one writer per tree.
 
 ## [2026-08-26] compile | Claude/Grok tools lane: fold pass

@@ -158,7 +158,7 @@ A personal harvest rots. Gated doors pretend to be resources. A catalog invites 
 - [[wiki/Dimensions/Retrieval|Retrieval]] — memory track, not a resource
 - [[wiki/Dimensions/Self-Management|Self-Management]] — consistency track
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — optional spaced-repetition home; do not require a named deck program
-- [[wiki/Dimensions/Dimension Practice Tracks|Dimension Practice Tracks]] — practice arcs
+- [[wiki/Dimensions/30-Day Challenges|Dimension Practice Tracks]] — practice arcs
 - [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]] — Vietnamese speaker's head start
 - [[wiki/Language/Character Primer|Character Primer]] — entry orientation for character writing systems
 - [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]] — levers that move real content into the useful band

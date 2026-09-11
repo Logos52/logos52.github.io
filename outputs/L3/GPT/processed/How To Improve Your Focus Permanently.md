@@ -251,11 +251,11 @@ Those two numbers matter more than whether the session felt perfectly focused.
 
 ## Relationship To The Knowledge Base
 
-- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]] should absorb the distraction threshold, cheat sheet, and return-speed model.
-- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management]] is the broader day-level version: preserving where attention goes across transitions.
+- [[wiki/Self Management/Flow State|Focus Management]] should absorb the distraction threshold, cheat sheet, and return-speed model.
+- [[wiki/Self Management/Flow State|Attention Management]] is the broader day-level version: preserving where attention goes across transitions.
 - [[wiki/Self Management/Flow State|Flow State]] depends on entry speed and recovery speed. Flow is easier to sustain when attention can return cheaply.
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination]] often worsens when focus entry feels expensive. If starting reliably takes thirty minutes, avoidance becomes rational.
-- [[wiki/Dimensions/Self-Regulation/Opening the Black Box of Learning|Opening the Black Box of Learning]] provides the diagnostic posture: when focus breaks, open the process and identify the variable.
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|Opening the Black Box of Learning]] provides the diagnostic posture: when focus breaks, open the process and identify the variable.
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]] is the layer that notices drift and triggers return.
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] can choose one recurring distraction or one return-speed bottleneck at a time.
 

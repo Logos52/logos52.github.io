@@ -3,7 +3,9 @@ title: Memory Handling
 type: concept
 status: seed
 created: 2026-05-02
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 tags:
@@ -14,42 +16,71 @@ tags:
 
 # Memory Handling
 
-Memory handling is the work of shaping, attaching, and testing a piece in the short window of arrival. The claim is scoped to ordinary study forgetting, not clinical loss, ADHD working-memory differences, or a night without sleep. The control point is that short window: handle the piece immediately.
+Memory handling is the work of shaping, attaching, and testing a piece of new material in the short window after it arrives. The piece has to be handled at once, while it is still in working memory. That short window is the control point.
 
-Working memory is short and it holds little. Treat it as a workbench, not a box that loads a warehouse. A piece that is not shaped, attached, or tested while it is still on the bench fades, and the next piece lands on top of it. Handle it immediately. The feeling of "bad short-term memory" after two minutes is usually fast long-term decay. Two minutes is already outside the unrehearsed window. Most people have similar raw capacity. Extraordinary recall is strategy, not a bigger store.
+The claim covers ordinary study forgetting only. It does not cover clinical memory loss, ADHD working-memory differences, or a night without sleep.
 
-## What to do in the window
+## Core takeaways
 
-Eight moves sit in that window. They are a menu, not a closed system.
+- Working memory holds few items, and it holds them for a short time. A piece that is not worked on there fades when the next piece arrives.
+- Handle each piece at once. Two minutes is already longer than the window working memory holds an item without rehearsal.
+- Most people have about the same raw capacity. People with extraordinary recall use strategies; they do not have a bigger store.
+- Eight moves fit in the window: increase processing complexity, pause to process, encode relationships, retrieve before checking, retrieve in the target context, reduce spoken noise, think on paper, and monitor whether meaning is forming.
+- Understanding a piece in the moment does not show that it was handled. If you cannot rebuild it later, the handling was too shallow or too late.
 
-Increase processing complexity. Extract keywords. Re-explain. Analogise. Connect to what you already know. Judge importance. Prepare to teach. Those are the moves; "think harder" is not one of them. They belong to [[wiki/Dimensions/Deep Processing|Deep Processing]]. A full encoding loop that is handling lives in [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]].
+## What working memory can hold
 
-Pause consumption to process. Taking in the next sentence while the last one is still raw is extra load. That stuck-signal is what [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] is trying to cue.
+Working memory holds few items, and it holds them for a short time. It is the place where a piece gets worked on. Leaving a piece there does not store it. A piece that is not shaped, attached, or tested while it is still in working memory fades, and the next piece arrives on top of it. So handle each piece immediately.
 
-Encode relationships before you pile up isolated facts. Isolated detail is expensive to hold. Connected structure is cheaper.
+When a person forgets something two minutes after taking it in, they often call it bad short-term memory. Usually it is fast decay from long-term memory. Two minutes is already longer than the window in which working memory holds an item without rehearsal.
 
-Retrieve fully before you check the source. Retrieval is practice, and it also returns the item to the workbench so a correction can be encoded. Do the same later on a schedule: [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is retrieval as a practice, not only an immediate check. Practise retrieval in the target context — the conditions you will need the piece under. Both of those sit on [[wiki/Dimensions/Retrieval|Retrieval]].
+Most people have about the same raw capacity. People with extraordinary recall use strategies. They do not have a bigger store.
 
-Reduce distracting verbal noise. Irrelevant spoken language disrupts serial recall. Someone saying numbers while you count is the lab picture; a talking room is the live one. Move, or cover the ears.
+## What to do while the piece is still in working memory
 
-Think on paper to get the structure out of the head so the workbench can take the next connection. [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]] owns that method.
+Eight moves fit in that window. You can use any of them. The list is not closed.
 
-Monitor whether the piece is being turned into meaning or is only passing through attention. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] is that monitor.
+1. Increase processing complexity. Extract keywords. Re-explain. Analogise. Connect to what you already know. Judge importance. Prepare to teach. Those are the moves. Telling yourself to think harder is not one of them. These moves belong to [[wiki/Dimensions/Deep Processing|Deep Processing]]. [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is a full encoding loop made of this kind of handling.
 
-If you understood it in the moment and cannot rebuild it later, the handling was too shallow or too late. Understanding-in-the-moment is not evidence of handling.
+2. Pause consumption to process. Taking in the next sentence while the last one is still unprocessed adds load. The stuck feeling that comes with it is a cue to stop and process. [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] explains that cue.
 
-## Related
+3. Encode relationships before you pile up isolated facts. An isolated detail costs a lot to hold. Connected structure costs less.
 
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] — the monitor that watches whether material is being transformed or is only passing through
-- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] — why continuing to take in material while the last item is unprocessed overloads the workbench
-- [[wiki/Dimensions/Deep Processing|Deep Processing]] — the family increase-complexity belongs to
-- [[wiki/Dimensions/Retrieval|Retrieval]] — the hub for retrieve-before-checking and retrieve-in-the-target-context
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]] — the offload; that page owns the method
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — a full encoding workflow that is handling
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — retrieval as a scheduled practice, not only an immediate check
-- [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]] — vault overlay: working memory as a global workspace
+4. Retrieve fully before you check the source. Retrieval is practice. It also brings the item back into working memory, so a correction can be encoded.
 
-## Open Questions
+5. Practise retrieval in the target context, the conditions you will need the piece under. Do the same later on a schedule. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] covers retrieval as a scheduled practice, and covers more than the immediate check. Retrieving before checking and retrieving in the target context are both on [[wiki/Dimensions/Retrieval|Retrieval]].
+
+6. Reduce distracting spoken noise. Speech you are not attending to disrupts recall of items in order (serial recall). In the lab, the test is someone saying numbers while you count. In daily life, it is a room where people are talking. Move to another room, or cover your ears.
+
+7. Think on paper. Writing the structure down moves it out of your head, so working memory is free to take the next connection. The method is on [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]].
+
+8. Monitor whether the piece is being turned into meaning or is only passing through attention. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] covers that monitoring.
+
+## How to tell whether the handling worked
+
+If you understood a piece in the moment and cannot rebuild it later, the handling was too shallow or too late. Understanding in the moment is not evidence that the piece was handled.
+
+## How to practice this
+
+1. Read one sentence, then stop before the next one. Restate it in your own words and connect it to something you already know. Notice any stuck feeling when you try to read on; it means the last sentence is still unprocessed.
+2. Before you check the source, recall the whole piece from memory. Notice which parts you cannot rebuild. Correct those parts now, while the piece is back in working memory.
+3. Write the structure of what you are learning on paper. Notice whether you can now hold the next connection in your head.
+4. Study where no one is talking, or cover your ears. Notice whether you can hold a list in order for longer than in a room with speech.
+5. While you read, ask whether the piece is becoming meaning or only passing through your attention. Notice when it is only passing through, and stop to process it.
+6. Later, try to rebuild a piece you felt you understood at the time. If you cannot, the handling was too shallow or too late.
+
+## Related pages
+
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: the monitor that watches whether material is being transformed or is only passing through
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]: why continuing to take in material while the last item is unprocessed overloads working memory
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]: the family increase-complexity belongs to
+- [[wiki/Dimensions/Retrieval|Retrieval]]: the hub for retrieve-before-checking and retrieve-in-the-target-context
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]: the offload; that page owns the method
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: a full encoding workflow that is handling
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: retrieval as a scheduled practice, not only an immediate check
+- [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]], vault overlay: working memory as a global workspace
+
+## Open questions
 
 Which of these moves transfer when the material is professional rather than academic.
 

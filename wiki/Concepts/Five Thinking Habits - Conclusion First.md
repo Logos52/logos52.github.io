@@ -3,9 +3,10 @@ title: "Five Thinking Habits - Conclusion First"
 type: concept
 status: developing
 created: 2026-09-06
-updated: 2026-09-08
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: opus
 written-by: fable
-method: fable-5.1-one-pass
 diagrams: scripts/gen-thinking-habits-diagrams.py
 source-count: 1
 description: "Five checks you run on your own thinking before you speak: say the conclusion first, give observations before conclusions, play the question back, say what would change your mind, and compress to a line or two. Each one catches a gap in your own understanding, which is what makes them a primer for learning, and each one puts your reasoning where a listener can see it."
@@ -20,30 +21,24 @@ tags:
 
 # Five Thinking Habits - Conclusion First
 
-## Reasoning
+Conclusion first means saying what you think before you say why. It is the first of five habits that make thinking easy to follow. The other four, in the order they build on each other, are giving your observations before your conclusion, playing a question back before you answer it, saying up front what would change your mind, and compressing what you have to say into a line or two before you say it.
 
-### Abstract
+Each habit does two jobs. It puts your reasoning where a listener can see it, and it checks your own thinking before you speak. The check is what makes the five habits a way to learn a subject, and not only a way to sound clear.
 
-Conclusion first is the habit of saying what you think before you say why, and it is the first of five habits that make thinking easy to follow. The other four are to give your observations before your conclusion, to play a question back before answering it, to say up front what would change your mind, and to compress what you have to say into a line or two before you say it. Each habit is a check you run on your own thinking before you speak. To say the conclusion first you have to know it. To give observations first you have to have some. To play the question back you have to have understood it. To name what would change your mind you have to have looked. To compress you have to know which parts are necessary. That check is what makes the five habits a primer for learning, and it is why they make you smarter and not only sound smarter. The habits also change what the listener gets. A listener judges your thinking by how you present it, not by what is in your head, and a good thought delivered as a chain of reasoning gets rated as poor thinking, because the listener cannot hold five points at once and piece them together. Each habit puts your reasoning where the listener can see it.
+A listener judges your thinking by how you present it, not by what is in your head. A good thought delivered as a chain of reasoning gets rated as poor thinking. The listener cannot hold five points at once and piece them together.
 
-### Core takeaways
+## Core takeaways
 
 - A listener judges your thinking by how you present it, not by what is in your head. A good thought delivered as a chain of reasoning reads as poor thinking.
-- Say the conclusion first and the reasons after. If you cannot say the conclusion, you have found the gap in your own understanding before anyone else did.
-- Give what you saw before what you think it means. Observations on the table make it us against the problem, and they let the other person reach their own conclusion.
-- Play the question back before answering. It buys thinking time, it finds the parts the asker had not separated, and it stops the work from coming back as not what was asked.
+- Say the conclusion first and the reasons after. If the conclusion will not come, you have found a gap in your own understanding before anyone else did.
+- Say what you saw before you say what you think it means. Observations on the table make the conversation us against the problem, and they let the other person reach their own conclusion.
+- Play the question back before you answer it. It buys you thinking time, it finds the parts the asker had not separated, and it stops the work from coming back as not what was asked.
 - Say what would change your mind in the same breath as the decision. It earns trust, and it is the one check that catches a habit that no longer fits.
-- Compress to a line or two before speaking. Cutting to what is necessary takes the deepest knowledge, which is why it is the hardest of the five.
+- Compress to a line or two before you speak. Cutting to what is necessary takes the deepest knowledge of a subject, which is why this is the hardest of the five.
 
-### Essay
+## How a listener judges your thinking
 
-Start with what happens in the listener. Someone asks you what you think. You begin where your thinking began, at the first angle, and walk forward through the factors and the contexts until you reach the opinion. It is honest and it is complete. It is also unfollowable. The listener has to hold every step until the last one arrives, and a few minutes in they have dropped the thread. They do not conclude that the delivery was hard to follow. They conclude that the thinking was muddled. That judgment is the cost, and it lands on people whose thinking is very good.
-
-All five habits work on the same cost. Each takes something a good thinker already does silently and puts it where the listener can see it. The conclusion goes first, so the listener knows what everything after it is for. The observations go before the conclusion, so the listener can see how the conclusion was reached and reach their own. The question gets said back, so both people know what is being answered. The counterarguments get said with the decision, so the listener knows the decider has looked past their own position. And the whole thing gets compressed, so the listener holds two lines instead of twenty.
-
-The second effect is on the speaker. Every one of these habits is a check that runs before speaking. To say the conclusion first you have to know it, and often you find you do not. To give observations first you have to have some, and often you find the conclusion arrived without them. To play the question back you have to have understood it. To name what would change your mind you have to have looked. To compress you have to know which parts are necessary, and that is the same thing as knowing the subject. The habits sound smart at once because they are legible. They make you smarter over time because each one refuses to let a gap through.
-
-The five belong together because each does both jobs. The check runs before the sentence, and the sentence is what the listener hears. The price is one sentence said before the rest.
+Someone asks you what you think. You begin where your thinking began, at the first angle, and you walk forward through the factors and the contexts until you reach the opinion. The answer is honest and it covers everything. It is still hard to follow. The listener has to hold every step until the last one arrives, and a few minutes in they have lost the thread. They do not decide that the delivery was hard to follow. They decide that the thinking was muddled. That judgment lands on people whose thinking is very good.
 
 <!-- diagram:judged_by_presentation -->
 <svg viewBox="0 0 680 202" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The same thought told as a chain is rated muddled and told conclusion first is rated clear" style="max-width:100%;height:auto">
@@ -78,21 +73,17 @@ The five belong together because each does both jobs. The check runs before the 
 </svg>
 <!-- /diagram -->
 
-### Conclusion
+All five habits work on that problem. Each one takes something a good thinker already does silently and puts it where the listener can see it. The conclusion goes first, so the listener knows what everything after it is for. The observations go before the conclusion, so the listener can see how the conclusion was reached and can reach their own. The question gets said back, so both people know what is being answered. The counterarguments get said with the decision, so the listener knows the decider has looked past their own position. The whole thing gets compressed, so the listener holds two lines instead of twenty. Each habit costs one sentence, said before the rest.
 
-The five habits share one move. Before you speak, find the end, the observations, the question, the counterargument, and the short form. Then say that first. The listener gets thinking they can follow. You get a check on your own reasoning every time you open your mouth. The compression takes years and the others take a week, which is the order to learn them in.
+## The check that runs before you speak
 
-## The five habits
+To say the conclusion first you have to know it, and often you find that you do not. To give observations first you have to have some, and often you find that the conclusion arrived without them. To play the question back you have to have understood it. To name what would change your mind you have to have looked. To compress you have to know which parts are necessary, and knowing that is the same as knowing the subject.
 
-The five habits below are given in the order they build on each other, with the spoken form of each and the example it was drawn from.
+The habits make you sound organized straight away, because the listener can see the reasoning. They make you a better thinker over time, because each one catches a gap instead of letting it through.
 
-**Contents:** [Start at the end](#start-at-the-end) · [Observations before conclusions](#observations-before-conclusions) · [Play the question back](#play-the-question-back) · [Say what would change your mind](#say-what-would-change-your-mind) · [Compress it first](#compress-it-first)
+## Say the conclusion first
 
-### Start at the end
-
-- "This is what I think. Here is why."
-- "I lean toward doing it this way. I am unsure about a few points. Here is what I see so far."
-- Before speaking: what is my conclusion? If it will not come, that is the gap.
+Some of the best researchers in the world are confusing to listen to. Ask one for an opinion and the answer starts from one angle. Then it adds a factor. Then it adds a context in which things get complicated. Then it arrives at "therefore, here is my opinion". About 5 minutes in, the listener has lost the thread and could not say what the conclusion was. The fix is to say the conclusion and then go back to the reasons. "This is what I think. Here is why." The conclusion frames the issue, so the listener knows how to hear everything that follows.
 
 <!-- diagram:end_first -->
 <svg viewBox="0 0 680 202" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The chain of reasoning loses the listener; the conclusion first frames every reason that follows" style="max-width:100%;height:auto">
@@ -134,7 +125,9 @@ The five habits below are given in the order they build on each other, with the 
 </svg>
 <!-- /diagram -->
 
-Some of the best researchers in the world are confusing to listen to. Ask one for an opinion and the answer starts from one angle. Then it adds a factor. Then it adds a context in which things get complicated. Then it arrives at "therefore, here is my opinion". About 5 minutes in, the listener has lost the thread and could not say what the conclusion was. The fix is to say the conclusion and then go back to the reasons. "This is what I think. Here is why." The conclusion frames the issue, so the listener knows how to hear everything that follows.
+Starting at the end also catches a fault in the speaker. People often start explaining something before they know where it is heading, and the explaining is what shows them they knew it less well than they thought. That is the illusion of explanatory depth: you believe you understand a thing until you try to lay it out step by step. Asking "what is my conclusion?" before speaking is a quick check of the reasoning for gaps.
+
+When the check finds a gap, the conclusion still comes first, and it carries the uncertainty with it. Not "we should do it this way" but "I lean toward doing it this way, I am unsure about a few points, and here is what I see so far", followed by the reasons. That is just as easy to follow. It does not claim more than you know, and it does not skip over the part that still needs thought.
 
 <!-- diagram:hedged_conclusion -->
 <svg viewBox="0 0 680 124" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="When the pre-speech check finds a gap, the conclusion still goes first but carries the uncertainty" style="max-width:100%;height:auto">
@@ -165,13 +158,15 @@ Some of the best researchers in the world are confusing to listen to. Ask one fo
 </svg>
 <!-- /diagram -->
 
-Starting at the end also catches a fault in the speaker. People often start explaining something before they know where it is heading, and the explaining is what shows them they knew it less well than they thought. That is the illusion of explanatory depth: you believe you understand a thing until you try to lay it out step by step. Asking "what is my conclusion?" before speaking is a quick check of the reasoning for gaps. When the check finds a gap, the conclusion still comes first, but it carries the uncertainty with it. Not "we should do it this way" but "I lean toward doing it this way, I am unsure about a few points, and here is what I see so far", followed by the reasons. That is just as easy to follow, and it neither overclaims nor glosses over what still needs thought.
+In practice:
 
-### Observations before conclusions
+- "This is what I think. Here is why."
+- "I lean toward doing it this way. I am unsure about a few points. Here is what I see so far."
+- Before speaking: what is my conclusion? If it will not come, that is the gap.
 
-- "During this activity I noticed people yawning and looking confused. When you asked questions, nobody put a hand up."
-- Then: because of those observations, here is what could change.
-- Never the conclusion alone: "the workshop was not good, fix this slide."
+## Give your observations before your conclusion
+
+A workshop ends and a team member comes up to say it was not good, there were a lot of issues, and some things need to change. Asked what went wrong, they say this slide was weak, this question should have been worded differently, and this activity should be swapped for another. It sounds like useful feedback from a trusted colleague. What it leaves in the listener is doubt. How did you reach that conclusion? How do you know a different slide is the right fix? The better version states what was seen before what it means. "During this activity I noticed people's faces going flat. They were yawning. They looked confused. When you asked questions, nobody put a hand up." Then, because of those observations, here is what could be improved.
 
 <!-- diagram:observations_first -->
 <svg viewBox="0 0 680 202" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Feedback as a bare conclusion leaves doubt; observations first then the conclusion leaves something both can check" style="max-width:100%;height:auto">
@@ -205,7 +200,7 @@ Starting at the end also catches a fault in the speaker. People often start expl
 </svg>
 <!-- /diagram -->
 
-A workshop ends and a team member comes up to say it was not good, there were a lot of issues, and some things need to change. Asked what went wrong, they say this slide was weak, this question should have been worded differently, and this activity should be swapped for another. It sounds like useful feedback from a trusted colleague. What it leaves in the listener is doubt. How did you reach that conclusion? How do you know a different slide is the right fix? The better version states what was seen before what it means. "During this activity I noticed people's faces going flat. They were yawning. They looked confused. When you asked questions, nobody put a hand up." Then, because of those observations, here is what could be improved.
+Observations first works for three reasons. It gets buy-in, because with the observations on the table the conversation becomes us against the problem instead of me against you. It lets everyone reach their own conclusion, so the discussion is about how to read the observations rather than a clash of two locked-in opinions. And it checks the giver's own bias. Every person has bias. Shallow thinkers are the confident ones, holding opinions they swear are right. Keeping observations apart from conclusions forces you to challenge your own assumptions, and that flexibility is a mark of intelligence.
 
 <!-- diagram:three_reasons -->
 <svg viewBox="0 0 680 148" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Observations first gets buy-in, lets others reach their own conclusion, and checks the giver's own bias" style="max-width:100%;height:auto">
@@ -227,13 +222,15 @@ A workshop ends and a team member comes up to say it was not good, there were a 
 </svg>
 <!-- /diagram -->
 
-Observations first works for three reasons. It gets buy-in, because with the observations on the table the conversation becomes us against the problem instead of me against you. It lets everyone reach their own conclusion, so the discussion is about how to read the observations rather than a clash of two locked-in opinions. And it checks the giver's own bias. Every person has bias. Shallow thinkers are the confident ones, holding opinions they swear are right. Keeping observations apart from conclusions forces you to challenge your own assumptions, and that flexibility is a mark of intelligence.
+In practice:
 
-### Play the question back
+- "During this activity I noticed people yawning and looking confused. When you asked questions, nobody put a hand up."
+- Then: because of those observations, here is what could change.
+- Never the conclusion alone: "the workshop was not good, fix this slide."
 
-- "So what you are really asking me is this."
-- "There are two parts to this question, this one and this one. Let us take them separately."
-- In your head: what is the crux, what is the real issue, what is the purpose behind the ask?
+## Play the question back
+
+When someone asks a question, asks for input, or asks you to start a project, begin by saying what they are really asking. "So what you are really asking me is this." Or "there are two parts to this question, this one and this one, so let us take them separately." The question in your own head is what the crux is, what the real issue is, and what purpose sits behind the ask. Saying it aloud buys time to think while sounding organized. It also does real work. It forces you to find the essence of what the person means. Playing it back exposes gaps in your own reading while they are still cheap to fix.
 
 <!-- diagram:play_it_back -->
 <svg viewBox="0 0 680 202" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="An ask kept silent comes back as not what was asked; an ask played back finds its parts before the work starts" style="max-width:100%;height:auto">
@@ -275,15 +272,17 @@ Observations first works for three reasons. It gets buy-in, because with the obs
 </svg>
 <!-- /diagram -->
 
-When someone asks a question, asks for input, or asks you to start a project, begin by saying what they are really asking. "So what you are really asking me is this." Or "there are two parts to this question, this one and this one, so let us take them separately." The question in your own head is what the crux is, what the real issue is, and what purpose sits behind the ask. Saying it aloud buys time to think while sounding organized. It also does real work. It forces you to find the essence of what the person means. Playing it back exposes gaps in your own reading while they are still cheap to fix.
-
 It sharpens the other person too. Told that their question has two parts, they often answer that yes, those are separate, and now that you mention it there is a third. Their understanding gets more organized because of your question, and people rate the person who triggered that as smarter. Most good thinkers already do this silently and never say it back. The cost of silence is that they work on their own unspoken reading and deliver the result. Then they hear "this is not what I asked for", because nobody made the question clear at the start.
 
-### Say what would change your mind
+In practice:
 
-- "I think we should do this. Here are the arguments that would change that decision."
-- "We should launch 2 months from now. Here are the three conditions that would push that back."
-- Under time pressure: is this time different from all the other times?
+- "So what you are really asking me is this."
+- "There are two parts to this question, this one and this one. Let us take them separately."
+- In your head: what is the crux, what is the real issue, what is the purpose behind the ask?
+
+## Say what would change your mind
+
+A hypothesis is what you think will happen. The antithesis is the counterargument swinging the other way. The thesis is where you land between them. The habit is to say the antithesis out loud with the decision. "I think we should do this. Here are the arguments that would change that decision." "We should launch this product 2 months from now. Here are the three conditions that would push that date back." Thoughtful people already run these counterarguments in their heads. They do not say them, and they do not run them every time.
 
 <!-- diagram:antithesis -->
 <svg viewBox="0 0 680 202" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The thesis sits between hypothesis and antithesis, and the antithesis gets said with the decision" style="max-width:100%;height:auto">
@@ -314,15 +313,17 @@ It sharpens the other person too. Told that their question has two parts, they o
 </svg>
 <!-- /diagram -->
 
-A hypothesis is what you think will happen. The antithesis is the counterargument swinging the other way. The thesis is where you land between them. The habit is to say the antithesis out loud with the decision. "I think we should do this. Here are the arguments that would change that decision." "We should launch this product 2 months from now. Here are the three conditions that would push that date back." Thoughtful people already run these counterarguments in their heads. They do not say them, and they do not run them every time.
-
 Saying them does two things. It tells the listener that you have thought past your own position and will not defend the decision beyond what the evidence supports. That is the decision-maker people trust. And it works as a checklist against habit. Someone with a lot of experience, busy and under time pressure, falls back on pattern recognition: we do it this way because this is how it has always been done. The shortcut saves time and is usually fine. Naming what would change the decision is the one moment where you check whether this time is different.
 
-### Compress it first
+In practice:
 
-- Find the one or two lines that carry every important point and none of the fluff. Say those.
-- Every word out of your mouth should be a golden pearl.
-- The test of knowing it: could you teach it to a 10-year-old?
+- "I think we should do this. Here are the arguments that would change that decision."
+- "We should launch 2 months from now. Here are the three conditions that would push that back."
+- Under time pressure: is this time different from all the other times?
+
+## Compress to a line or two
+
+A senior doctor once told a medical student who rambled through patient histories that every word out of your mouth should be a golden pearl. Deep thinkers have many thoughts and like to elaborate on all of them. Elaborating on all of them does not sound smart. It is hard to follow and it makes the speaker look disorganized. Endless elaboration also stops a deep thinker from reaching the next level down. Being ruthless about what is and is not necessary to think about or to say takes the deepest expertise, which is why teaching a thing to a 10-year-old is such a hard test of knowing it.
 
 <!-- diagram:compress -->
 <svg viewBox="0 0 680 174" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Every thought elaborated becomes the one or two lines that carry the important points" style="max-width:100%;height:auto">
@@ -344,28 +345,42 @@ Saying them does two things. It tells the listener that you have thought past yo
 </svg>
 <!-- /diagram -->
 
-A senior doctor once told a medical student who rambled through patient histories that every word out of your mouth should be a golden pearl. Deep thinkers have many thoughts and like to elaborate on all of them. Elaborating on all of them does not sound smart. It is hard to follow and it makes the speaker look disorganized. Worse, endless elaboration stops a deep thinker from reaching the next level down. Being ruthless about what is and is not necessary to think about or to say takes the deepest expertise, which is why teaching a thing to a 10-year-old is such a hard test of knowing it.
+The habit is to compress before speaking. Take the complex opinion and find the one or two lines that carry every important point and none of the fluff. Then say those. This one takes years, and the person who set it as a target says he has not got there yet. The gains show up on both sides. The thinking gets more organized and more to the point, and the people listening say it has become easier to understand.
 
-The habit is to compress before speaking. Take the complex opinion and find the one or two lines that carry every important point and none of the fluff. Then say those. This one takes years, and the person who set it as a target still counts the distance left to go. The gains show up on both sides: the thinking gets more organized and more to the point, and the people listening say it has become easier to understand.
+In practice:
 
-## Sources and links
+- Find the one or two lines that carry every important point and none of the fluff. Say those.
+- Every word out of your mouth should be a golden pearl.
+- The test of knowing it: could you teach it to a 10-year-old?
 
-### Links into the knowledge base
+## Which one to learn first
 
-- [[wiki/Concepts/Good Faith|Good Faith]] holds the stance behind feedback given at the giver's own expense. Observations before conclusions is the method that stance was missing.
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]] holds "name the frame" as the thirty-second check and "what would change the recommendation" as a written row. Playing the question back and saying what would change your mind are the spoken forms.
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] holds the illusion of explanatory depth, the fault that starting at the end catches.
-- [[wiki/Writing Craft/The Cold Open|The Cold Open]] holds conclusion first as the shape of a page.
+The five habits share one move. Before you speak, find the end, the observations, the question, the counterargument, and the short form. Then say that first. The listener gets thinking they can follow. You get a check on your own reasoning every time you open your mouth. Compression takes years and the other four take a week, which is the order to learn them in.
+
+## How to practice this
+
+1. Before you speak, ask yourself what your conclusion is. Say that first, then give the reasons. If the conclusion will not come, you have found a gap in your own understanding.
+2. Say what you saw before you say what you think it means. List what you noticed, then give the conclusion that follows from it. Notice whether the other person argues with you or works on the problem with you.
+3. Play a question back before you answer it. Say what the person is really asking, or say which two parts it has. Notice whether they add a part they had not separated yet.
+4. Name what would change your mind when you give a decision. Say the arguments or the conditions that would push the decision the other way. Notice whether you chose this because it is how it has always been done.
+5. Before you speak, find the one or two lines that carry every important point. Say those and drop the rest. If you cannot pick them, you do not yet know which parts are necessary.
+
+## Related pages
+
+- [[wiki/Concepts/Good Faith|Good Faith]] gives the stance behind feedback offered at the giver's own expense. Observations before conclusions is the method that stance was missing.
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]] gives "name the frame" as a thirty-second check and "what would change the recommendation" as a written row. Playing the question back and saying what would change your mind are the spoken forms.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] explains the illusion of explanatory depth, the fault that starting at the end catches.
+- [[wiki/Writing Craft/The Cold Open|The Cold Open]] gives conclusion first as the shape of a page.
 - [[wiki/Writing Craft/Five Writing Templates|Five Writing Templates]] turns each of the five habits into a shape for writing, at the size of one section or a whole page.
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is the learning capacity the five habits train, watching your own thinking and adjusting it before it goes out.
-- [[wiki/Concepts/Levels of Thinking - The Step Back|Levels of Thinking - The Step Back]] holds nine steps back from your own reaction. Each habit here is one step back taken before speaking.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is the learning capacity the five habits train, which is watching your own thinking and adjusting it before it goes out.
+- [[wiki/Concepts/Levels of Thinking - The Step Back|Levels of Thinking - The Step Back]] gives nine steps back from your own reaction. Each habit here is one step back taken before speaking.
 - [[wiki/Decision Making/Decision Making|Decision Making]] writes the falsifier down before the outcome is known, which is the antithesis on paper.
 
-### Open questions
+## Open questions
 
 - Observations before conclusions assumes the observations are shared. What is the form when the giver saw something the receiver could not have seen?
-- The compressed one or two lines and the hedged conclusion pull in opposite directions. Which wins when the uncertainty is the important point?
+- The compressed one or two lines and the hedged conclusion conflict. Which one wins when the uncertainty is the important point?
 
-### Sources
+## Sources
 
-- Justin Sung, *5 Thinking Habits That Make You Look Smarter* (YouTube, published 2026-08-28, 11 min). <https://www.youtube.com/watch?v=6Z3I-9HvBQA>. Read from YouTube's original-language auto-generated captions. The whole page is this account. The speaker's own examples carry the page: the researchers he has worked with, a workshop he ran, a senior doctor's advice from his time as a medical student. He names the illusion of explanatory depth as the term from the literature and calls the teach-it-to-a-child test the Feynman method. Left out: a newsletter promotion, an aside about the senior doctor, and a closing pointer to another of his videos on thinking on paper.
+- Justin Sung, *5 Thinking Habits That Make You Look Smarter* (YouTube, published 2026-08-28, 11 min). <https://www.youtube.com/watch?v=6Z3I-9HvBQA>. Read from YouTube's original-language auto-generated captions. The whole page is this account. The examples are the speaker's own: the researchers he has worked with, a workshop he ran, a senior doctor's advice from his time as a medical student. He names the illusion of explanatory depth as the term from the literature and calls the teach-it-to-a-child test the Feynman method. Left out: a newsletter promotion, an aside about the senior doctor, and a closing pointer to another of his videos on thinking on paper.

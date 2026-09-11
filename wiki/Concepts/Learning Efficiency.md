@@ -3,7 +3,9 @@ title: "Learning Efficiency"
 type: concept
 status: developing
 created: 2026-05-14
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 tags:
@@ -15,27 +17,42 @@ tags:
 
 # Learning Efficiency
 
-Learning efficiency is usable knowledge kept per hour spent, hidden by tracking pages covered. Two learners can log the same hours and leave with different usable knowledge. A plateau after honest hours is usually a method ceiling, not a time shortage.
+Learning efficiency is the amount of usable knowledge a learner keeps per hour spent learning. A count of pages covered does not show it. Two learners can log the same hours and leave with different amounts of usable knowledge.
 
-## The ratio you can actually run
+When progress stops after hours the learner actually spent studying, the cause is usually a limit in the method. A shortage of time is the less common cause.
 
-The house formula is total mastery and retention divided by total time spent learning. It is a self-check, not a published metric. The older model underneath is the same shape: degree of learning is time spent over time needed, and time needed moves with method.
+## Core takeaways
 
-[[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] owns the levels the numerator averages. This page does not redefine them. For each required level, partial mastery is current retention at that level divided by the retention the assessment will demand. Total mastery is the average of those partials. The average is a first cut, not a law. If the assessment is mostly higher-order, a strong score on recognition does not rescue a weak score on comparison. Weight the levels the way the test weights them.
+- Learning efficiency is usable knowledge kept per hour spent. Tracking pages covered hides it.
+- The self-check is total mastery and retention divided by total time spent learning. The retention numbers come from a memory test after one spacing interval.
+- The same mastery score over 30 hours and over 80 hours are different problems. The first needs a better method. The second needs more time.
+- A method has a ceiling, the highest mastery it can reach. Past that point, each added hour produces a smaller gain than the one before.
+- A retention gap after a couple of weeks of real study hours usually means the method is the problem. Switch techniques instead of adding hours.
+- Higher mastery levels need methods that force comparison, evaluation, and relationship-building. Recognition and recall practice alone does not reach them.
 
-The percentages have to come from somewhere or the arithmetic is theatre. After one spacing interval, perform each required use from memory. Mark got, half, or gone. That is enough. A full calculation per subject per week is a measurement burden this page does not ask for. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is the retrieval system that produces those retention numbers — retrieval spread over time and mixed across topics and forms.
+## The formula and where its numbers come from
 
-A worked pass: 75, 67, 71, and 50 percent of required retention at four levels averages to 66. The same 66 over 30 hours and the same 66 over 80 hours are different problems. The first needs better methods. The second needs more time. Tracking only hours hides that difference entirely. The hours are pictures, not a census.
+The formula is total mastery and retention divided by total time spent learning. It is a self-check for the learner. It has not been published as a metric. An older model has the same form: degree of learning equals time spent divided by time needed, and time needed changes with the method.
 
-## The hammer
+The mastery levels averaged in the numerator, the top of the ratio, are defined on [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]. That page is the only place they are defined. For each required level, partial mastery is current retention at that level divided by the retention the assessment will demand. Total mastery is the average of those partials.
 
-A house can be started with only a hammer. Wiring, plumbing, and the load calculations cannot be finished with a hammer, no matter how long it swings. When the method has a ceiling, adding hours produces diminishing returns. Early on, more time still helps. Coverage increases. Familiarity grows. At the ceiling, further hours produce smaller and smaller gains. Doubling a limited method from 30 hours to 60 is a house illustration of about ten extra points, not a measured curve.
+The plain average is a starting point and can be wrong. If the assessment is mostly higher-order, a high score on recognition does not make up for a low score on comparison. Weight the levels the way the test weights them.
 
-Some methods hit a ceiling regardless of time invested. Others compound with each hour. Some mastery levels require methods built to reach them. [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is the encoding system designed for those higher levels: a rough frame, the questions the material must answer, a working map of connections, and a cut-down structure that survives without the source.
+The percentages must come from a real test of memory, or the arithmetic means nothing. After one spacing interval, perform each required use from memory. Mark each one got, half, or gone. That is enough. A full calculation for every subject every week is not needed. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is the retrieval system that produces those retention numbers: retrieval spread over time and mixed across topics and forms.
 
-## Four profiles, two next moves
+## A worked example
 
-The four cells below are this system's teaching scenarios, not observations. Method quality sets the slope. [[wiki/Dimensions/Deep Processing|Deep Processing]] — encoding that works the meaning and the relationships, not just the surface form — sets how high the slope can go. That dimension most directly determines the method ceiling.
+Retention of 75, 67, 71, and 50 percent of what is required at four levels averages to 66. A 66 reached over 30 hours and a 66 reached over 80 hours are different problems. The 30-hour case needs a better method. The 80-hour case needs more time. A record of hours alone does not show that difference. The 30 and 80 are example figures. Nobody measured them.
+
+## Why more hours stop helping
+
+A method ceiling is the highest mastery a method can reach, however many hours go into it. Early on, more time still helps: coverage increases and familiarity grows. At the ceiling, each further hour adds a smaller gain than the one before. As an illustration, doubling the hours spent with a limited method from 30 to 60 adds about ten points. That ten is an example figure. Nobody measured it.
+
+Some methods reach a ceiling regardless of the time invested. Other methods keep adding gains with each hour. Some mastery levels can only be reached by methods built for them. [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is the encoding system built for those higher levels. It has four parts: a rough frame, the questions the material must answer, a working map of connections, and a cut-down structure the learner can use without the source.
+
+## Four learner profiles
+
+The four profiles in the table are teaching scenarios. They are not observed data. Method quality sets the slope, meaning the mastery gained per hour. [[wiki/Dimensions/Deep Processing|Deep Processing]], encoding that works on the meaning and the relationships and not only the surface form, sets how high the slope can go. That dimension most directly determines the method ceiling.
 
 | Method × processing | Scenario | What hours do |
 |---|---|---|
@@ -44,29 +61,40 @@ The four cells below are this system's teaching scenarios, not observations. Met
 | Efficient, low deep processing | 70% over 50 hours | Mastery rises with time. The slope is proportional and has not been given enough hours |
 | Efficient, high deep processing | 90% over 30 hours | Each hour produces a proportional gain. Retention stays high. Time cost stays low |
 
-The two middle cells can print the same 70 percent over 50 hours. One is a shallow slope. One is a proportional slope that has not been given enough time. Same observed ratio, different next move.
+The two middle cells can show the same 70 percent over 50 hours. One is a shallow slope. The other is a proportional slope that has not been given enough time. The observed ratio is the same in both. The next move is different.
 
-The useful diagnostic is whether a plateau is a time problem or a method problem. A retention gap after a couple of weeks of honest hours — thirty hours is the picture, not a threshold — usually points to method. Switch techniques rather than add hours. Lower requirements are easier to meet with limited methods. Higher mastery levels require methods that force comparison, evaluation, and relationship-building, not just recognition and recall. [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]] is what those higher uses look like in practice.
+## Time problem or method problem
 
-Time needed also moves with prior knowledge and with the quality of instruction, not only with the technique's name. Switching method while keeping a bad explanation of the same material will still plateau. [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] is how to find which part of the system is creating the current ceiling. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] is the control layer that actually runs the time-versus-method diagnosis.
+The question to ask is whether a plateau is a time problem or a method problem. A retention gap after a couple of weeks of real study hours usually points to the method. Thirty hours is an example figure for those weeks. It is not a threshold. Switch techniques rather than add hours. Lower requirements are easier to meet with limited methods. Higher mastery levels require methods that force comparison, evaluation, and relationship-building. Recognition and recall alone do not reach them. [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]] describes those higher uses in practice.
 
-The equation's equal-weight average lies when the assessment is not equal-weight. Invented percentages that harden into findings make this page worse than silent. The quit signal is running the arithmetic and then adding hours anyway. The check: after one spacing interval, the higher required uses are either still producible from memory or they are not.
+Time needed also changes with prior knowledge and with the quality of instruction, and not only with the technique's name. A learner who switches method but keeps a bad explanation of the same material will still plateau. [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] is the method for finding which part of the system is creating the current ceiling. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] is the control layer that runs the time-versus-method diagnosis.
 
-## After honest hours
+After the hours are in, the next move is one of two: switch method or add time. Higher uses need comparison, evaluation, and relationship-building. More recognition practice does not produce them.
 
-After honest hours the next move is switch method or add time. Higher uses need comparison, evaluation, and relationship-building — not more recognition.
+## Where the self-check goes wrong
 
-## Related
+The equal-weight average gives a wrong answer when the assessment does not weight the levels equally. Percentages invented without a memory test, then treated as findings, are worse than no number at all. The sign to stop the self-check is running the arithmetic and then adding hours anyway. The check itself is one question. After one spacing interval, the higher required uses either come out of memory or they do not.
 
-- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] — owns the mastery levels the equation averages; this page consumes those levels and does not redefine them
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — the retrieval system that produces the retention numbers in the numerator
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — encoding system designed to reach the higher levels, the methods that raise the ceiling
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] — framework for finding which part of the system is creating the current efficiency ceiling
-- [[wiki/Dimensions/Deep Processing|Deep Processing]] — the dimension that most directly determines the method ceiling
-- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]] — what higher mastery levels means in practice: comparison, evaluation, relationship-building
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] — the control layer that runs the time-versus-method diagnosis
-- [[wiki/Dimensions/Retrieval|Retrieval]] — parent hub for the retention half of the numerator
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — parent hub for the diagnostic use
+## How to practice this
+
+1. After one spacing interval, perform each required use from memory. Mark each one got, half, or gone. Notice which of the higher uses you can still produce.
+2. For each required level, divide your current retention by the retention the assessment will demand. Average the results, weighting each level the way the test weights it. Notice whether a high recognition score is hiding a low comparison score.
+3. Write the total hours spent next to that average. Notice whether the average came after few hours or many. Few hours points to the method; many hours points to time.
+4. If the retention gap is still there after a couple of weeks of real hours, switch techniques instead of adding hours. Notice whether the higher uses become producible from memory after the switch.
+5. If a switch of technique does not end the plateau, check the explanation of the material and your prior knowledge. Notice which part of the system is holding mastery at its current level.
+6. If you run the arithmetic and then add hours anyway, notice that you have ignored the result. Stop the self-check at that point.
+
+## Related pages
+
+- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]: defines the mastery levels the equation averages, and is the only place they are defined
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: the retrieval system that produces the retention numbers in the numerator
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: the encoding system built to reach the higher levels, the methods that raise the ceiling
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: the framework for finding which part of the system is creating the current efficiency ceiling
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]: the dimension that most directly determines the method ceiling
+- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]: what the higher mastery levels mean in practice, meaning comparison, evaluation, and relationship-building
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: the control layer that runs the time-versus-method diagnosis
+- [[wiki/Dimensions/Retrieval|Retrieval]]: parent hub for the retention half of the numerator
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: parent hub for the diagnostic use
 
 ## Sources
 

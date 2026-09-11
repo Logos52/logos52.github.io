@@ -3,7 +3,9 @@ title: "30-Day Challenge - Retrieval"
 type: concept
 status: developing
 created: 2026-05-22
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 source-count: 8
@@ -15,45 +17,65 @@ tags:
 
 # 30-Day Challenge - Retrieval
 
-The Retrieval Challenge is a four-week practice plan for replacing rereading with a closed-book reconstruction, then making the attempt harder and using the misses as the map. Retrieval here means pulling an idea out of memory without looking.
+The Retrieval Challenge is a four-week practice plan. It replaces rereading with closed-book reconstruction: the reader shuts the source and writes or says the key ideas from memory. Over the four weeks the attempt gets harder, and the ideas the reader fails to recall decide what gets restudied. Retrieval here means pulling an idea out of memory without looking at the source.
 
-## Week 1 — Basic Retrieval Practice
+## Core takeaways
 
-The first week replaces passive review with active retrieval. The attempt itself is the practice. After a first pass through the material, the source closes, and the key ideas are reconstructed from memory. A reread-then-quiz is not this week. The book closes first. A fluent reread leaves the page looking known, and the reconstruction never has to start. The minimum dose is one closed-book reconstruction per study block. That frequency is this system's default, not a measured law.
+- Every study block ends with the source closed and the key ideas rebuilt from memory. Rereading and then quizzing is not the method.
+- In week 1 the attempt counts and the score does not. A thin reconstruction is still the week's work.
+- In week 2 the same recall is done as teaching, as problem-solving, and as writing, because each form finds gaps the others miss.
+- In week 3 recall gets harder by one lever at a time: fewer cues, more delay, or mixed topics.
+- In week 4 the reader restudies only the ideas that failed. Restudy after a correct recall adds little. Restudy after a failure adds a lot.
+- Research finds that testing beats restudy after a week, and that the effect is larger when the test is harder. Those findings do not set the timing of any week in this plan.
 
-The week's training emphasis is the act of retrieval itself rather than the score. Accuracy is not discarded. It is postponed. Week 4 uses the misses. A reconstruction that comes out thin still counts as the week's work, because the attempt is what the month is training. A fluent reread with the page still in peripheral vision is not the method. It is the enemy of the week.
+## How the four weeks fit together
 
-## Week 2 — Varying Retrieval Conditions
+Every week uses the same closed-book attempt. What changes is the demand placed on it. Week 1 replaces review with recall. Week 2 varies the form. Week 3 raises the demand. Week 4 uses the misses to choose what to restudy. Week 1 trains the attempt and ignores the score. Week 4 uses the score to find weak areas. Because each week builds on the one before it, the month is one sequence rather than four separate tips. Every week ends with the source closed. What differs is what happens after the reconstruction: another form, a harder demand, or a restudy of only what failed.
 
-With the book already closing, the second week changes the form of the same attempt. Teaching, problem-solving, and writing from memory replace a single method. Teaching-from-memory can take the shape of a whole-part-whole retell: the whole topic spoken aloud, then each part, then the whole again. Writing from memory is the same reconstruction as week 1, now kept as one form among three rather than the only form. Problem-solving asks the idea to do a job, which a retell can skip. Different conditions expose different gaps. A written reconstruction hides a gap that teaching out loud will surface. A problem will hide a gap that a free retell never asked for. The week's product is a short note of which form found what. Transfer to an unpractised form is not assumed. That is why the form changes inside the month rather than after it.
+[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is the standing method this month trains: retrieval spread over time and mixed across topics and forms. That page describes the full system. This challenge covers only the four weeks of closed-book practice.
 
-## The ladder
+This challenge is one of the five tracks under [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]. The wider dimension, beyond this month's practice, is [[wiki/Dimensions/Retrieval|Retrieval]].
 
-**The move never changes and the demand does.** Replace review, vary the form, raise the demand, treat the miss as the map. Week 1 trains the act over the score. Week 4 reverses that into diagnosis. That reversal is what makes the month a ladder rather than four tips. Every week ends on the same closed book. What changes is what happens after the reconstruction — another form, a harder demand, or a restudy of only what failed.
+## Week 1: closed-book recall
 
-[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is the standing method this month trains: retrieval spread over time and mixed across topics and forms. That page owns the system. This page owns the four-week closed-book *do*.
+Week 1 replaces passive review with active retrieval. The attempt is the practice. After a first pass through the material, the reader closes the source and rebuilds the key ideas from memory. Rereading and then quizzing is not the week 1 method. The source closes before any recall starts. After a fluent reread the material feels familiar, and the reader skips the reconstruction. The minimum dose is one closed-book reconstruction per study block. That frequency is a default chosen for this plan. No study measured it.
 
-## Week 3 — Increasing Retrieval Difficulty
+Week 1 trains the act of retrieval, not the score. Accuracy still matters. It is scored in week 4, which uses the misses. A reconstruction that comes out thin still counts as the week's work, because the attempt is what the month trains. A reread with the page still visible is not the method.
 
-The third week raises the demand on the same closed-book attempt with three levers: fewer cues, more time between exposure and retrieval, or several topics mixed in one session. One lever at a time keeps the cause of a drop readable. Fewer cues means the heading stays and the bullet list does not. More delay means the reconstruction happens at the next session rather than at the end of this one. Mixed topics means two related subjects share the same closed-book pass. Performance under the higher demand gets logged. The log is the week's product: what held, what thinned, which lever produced the thinness. Spacing and mixing are the evidence under the second and third levers. They are not re-derived here.
+## Week 2: changing the form of recall
 
-## Week 4 — Using Retrieval as Diagnosis
+Week 2 keeps the closed-book attempt and changes its form. Teaching from memory, solving problems from memory, and writing from memory replace the single method of week 1. Teaching from memory can take the shape of a whole-part-whole retell: the reader says the whole topic aloud, then each part, then the whole again. Writing from memory is the same reconstruction as week 1, now one form among three. Problem-solving requires applying the idea. A retell can state the idea without applying it. Different conditions expose different gaps. Teaching out loud can show a gap that a written reconstruction hid. A problem tests a use of the idea that a free retell never asked for. The week's product is a short note of which form found which gap. Skill at recall in one form does not carry over to an unpractised form on its own. That is why the form changes during the month rather than after it.
 
-The last week treats the retrieval session as a diagnostic tool. Gaps and struggles name the weak areas. Those areas then get targeted re-processing. Restudy after a successful recall is mostly waste. Restudy after a failure is the useful half. That split is what makes week 4 a method rather than a mood.
+## Week 3: making recall harder
 
-The re-processing itself belongs on [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]] — relating the missed idea to others and to why it matters, rather than rereading the page that did not stick.
+Week 3 raises the demand on the same closed-book attempt with three levers: fewer cues, more time between exposure and retrieval, or several topics mixed in one session. The reader changes one lever at a time, so that the cause of any drop in recall is clear. Fewer cues means the heading stays and the bullet list does not. More delay means the reconstruction happens at the next session rather than at the end of this one. Mixed topics means two related subjects share the same closed-book pass. The reader logs performance under the higher demand. The log is the week's product: what was recalled, what came out thin, and which lever caused the loss. Research on spacing is the evidence for the delay lever. Research on mixing topics is the evidence for the mixed-topics lever.
 
-A diagnostic miss becomes the next experiment the way [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] already names: what failed, how it felt and why, what rule that suggests, what changes next time.
+## Week 4: using misses to choose what to restudy
 
-The month is useless before encoding has landed. A closed-book pass that is actually a reread with the page still visible is not the method. Transfer past the practised form is not automatic, which is why week 2 varied the form in the first place.
+Week 4 treats the retrieval session as a diagnostic tool. The gaps, and the ideas that were hard to recall, are the weak areas. Those areas then get targeted re-processing. Restudy after a correct recall adds little. Restudy after a failed recall adds a lot. Week 4 restudies only what failed.
 
-After a one-week delay, repeated testing has beaten repeated study on a prose passage by a wide margin, and extra study trials after a successful recall have added little while extra retrieval trials have added a lot. Across the literature the testing effect sits at a medium size and grows when the test is more demanding. Those are findings about the world. They are not this week's timers. There are no private week files behind this track, and none are invented here.
+The re-processing itself is described on [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]]: relating the missed idea to other ideas and to why it matters, rather than rereading the page that did not stick.
 
-## What the month leaves
+Each miss can become the next experiment through the four steps of [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: what failed, how it felt and why, what rule that suggests, and what changes next time.
 
-What the month leaves is a closed-book habit and a miss-as-map, not a mastered spacing system. The book stays closed. The miss now decides the next restudy. A week 1 that still opens with a fluent reread has not started. A week 4 that restudies what was already recalled has missed the useful half. Either is the quit signal: the next move is the week again, not a wider method.
+## What the plan needs first, and what the research says
 
-The parent frame for the five tracks is [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]. The parent dimension, past this month's *do*, lives on [[wiki/Dimensions/Retrieval|Retrieval]].
+The plan only works on material that has already been encoded. A closed-book pass that is really a reread, with the page still visible, is not the method. Recall practised in one form does not carry over to other forms on its own. That is why week 2 varies the form.
+
+After a one-week delay, repeated testing has beaten repeated study on a prose passage by a wide margin. Extra study trials after a correct recall have added little. Extra retrieval trials have added a lot. Across the research literature the testing effect is medium in size and grows when the test is more demanding. Those are research findings. They do not set the timing of any week in this plan. This track has no separate week files.
+
+## What the reader has at the end of the month
+
+At the end of the month the reader has two habits: closing the source before recall, and using the misses to choose what to restudy. The month does not produce a mastered spacing system. If week 1 still begins with a fluent reread, the week has not started. If week 4 restudies material that was already recalled, the week has skipped the part that helps. In either case the next step is to repeat that week, not to move to a wider method.
+
+## How to practice this
+
+1. Read the material once. Close the source before any recall. Write the key ideas from memory. If the reconstruction comes out thin, it still counts.
+2. Do this closed-book reconstruction at least once per study block. Notice whether the page is still in view during recall. If it is, the attempt is a reread and not the method.
+3. In week 2, recall the same material three ways: teach it aloud, solve a problem with it, and write it out. For teaching, say the whole topic, then each part, then the whole again. Write a short note of which form found which gap.
+4. In week 3, make the attempt harder with one lever at a time. The levers are fewer cues, more delay, or two related topics in one closed-book pass. Log what was recalled, what came out thin, and which lever caused it.
+5. In week 4, restudy only the ideas that failed. Skip restudy of anything recalled correctly. Relate each missed idea to other ideas and to why it matters, rather than rereading the page.
+6. If week 1 still begins with a reread, or week 4 restudies what was already recalled, repeat that week. Do not move on to a wider method.
 
 ## Open questions
 
@@ -64,10 +86,10 @@ What a first closed-book reconstruction looks like on procedural material.
 ## Sources
 
 - Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*, 17(3). After a one-week delay, repeated testing beat repeated study (61% vs 40% on a prose passage).
-- Karpicke, J. D., & Roediger, H. L. (2008). The critical importance of retrieval for learning. *Science*, 319, 966–968. Additional study trials after successful recall added little; additional retrieval trials added a lot. Restudy after failure is the useful half.
+- Karpicke, J. D., & Roediger, H. L. (2008). The critical importance of retrieval for learning. *Science*, 319, 966–968. Additional study trials after successful recall added little; additional retrieval trials added a lot. Restudy after failure is the part that helps.
 - Morris, C. D., Bransford, J. D., & Franks, J. J. (1977). Levels of processing versus transfer appropriate processing. Different retrieval conditions expose different gaps.
 - Fiorella, L., & Mayer, R. E. (2013). The relative benefits of learning by teaching and teaching expectancy. Teaching from memory is one of week 2's forms.
 - Bjork, R. A. (1994). Memory and metamemory considerations in the training of human beings. Effortful retrieval is the mechanism; fewer cues and more delay are desirable difficulties.
-- Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks. *Psychological Bulletin*. Spacing is the evidence under week 3's delay lever.
-- Rohrer, D., & Taylor, K. (2007). The shuffling of mathematics problems improves learning. Rohrer, D., Dedrick, R. F., & Stershic, S. (2015). Interleaved practice improves mathematics learning. Mixing topics is the evidence under week 3's third lever.
+- Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks. *Psychological Bulletin*. Spacing is the evidence for week 3's delay lever.
+- Rohrer, D., & Taylor, K. (2007). The shuffling of mathematics problems improves learning. Rohrer, D., Dedrick, R. F., & Stershic, S. (2015). Interleaved practice improves mathematics learning. Mixing topics is the evidence for week 3's third lever.
 - Rowland, C. A. (2014). The effect of testing versus restudy on retention. *Psychological Bulletin*. Meta-analysis of the testing effect, *g* ≈ 0.50 overall, larger when retrieval succeeds and when tests are more demanding. Adesope, O. O., Trevisan, D. A., & Sundararajan, N. (2017). Rethinking the use of tests. *Review of Educational Research*. Practice-testing meta-analysis, similar medium effect.

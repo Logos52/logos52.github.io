@@ -3,7 +3,9 @@ title: The Energize Test
 type: concept
 status: developing
 created: 2026-06-19
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: opus
 written-by: grok
 model: grok
 tags:
@@ -14,45 +16,80 @@ tags:
 
 # The Energize Test
 
-The Energize Test is a nightly check of whether the day's work left the evening usable or spent it. Possessions bought to look successful often keep spending the attention the good work needed. Treat it as a direction, not a switch to throw tomorrow.
+The Energize Test is a nightly check. At the end of the day, you ask whether the day's work left the evening usable or used the evening up.
 
-## The invert
+Possessions bought to look successful often keep spending the attention the good work needed. Treat the test as a direction to move in. It is not one change to make tomorrow.
 
-A thing that is not needed does not sit still. It inverts into something that owns attention. One watch is the start. Three watches want a winder. The winder wants a jeweler. The jeweler wants insurance. The insurance wants off-site storage. Each purchase is small. The chain is not. That chain is [[wiki/Minimalism/Ownership Cost|Ownership Cost]] lived: after the sale, the object keeps charging time and attention. This page keeps the example; that page owns the tax.
+## Core takeaways
 
-The social version is the same invert, one layer out. The trappings of success have detached from success. Living by other people's definition of a life is the distraction. [[wiki/Minimalism/Wanting Less|Wanting Less]] is the sibling that treats those symbols as someone else's scoreboard.
+- The check is one question asked each night: did the day's work leave the evening usable, or did it use the evening up?
+- Depletion shows up as irritability and doom-scrolling, with the evening spent recovering from the day. The other outcome is the 9-to-5 leaving something for the 5-to-9.
+- A possession keeps costing time and attention after the sale. One watch leads to three, then a winder, a jeweler, insurance, and off-site storage.
+- Spending to buy time and remove friction is different from spending to announce a status. The line between the two is real and hard to apply.
+- Running the check costs nothing. Acting on the result has switching costs and social costs, and it assumes economic security is already there.
+- Success is a lagging indicator. Wealth, when it arrives, often means the field that was loved happened to be rewarded this cycle. That is a claim, not a finding.
 
-The opposite of the trap is money spent to buy time and strip friction, so focus can sit on the few things already chosen. That is **buying-to-buy-time**. **Buying-to-signal** is spending that announces a status. The line is real and it is slippery, which is why the case against has to sit in the same page, not in a footnote. This is attention-protection, not deprivation. It is not a shack and a two-thousand-dollar car. Spend time and money to remove friction from the few things that matter, and refuse the rest. [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management]] is the resource this page is trying to keep intact.
+## How one purchase turns into a chain
 
-## Running the test
+A thing that is not needed starts taking attention. One watch is the start. Three watches need a winder. The winder needs a jeweler. The jeweler needs insurance. The insurance needs off-site storage. Each purchase is small. The chain of purchases is not. That chain is [[wiki/Minimalism/Ownership Cost|Ownership Cost]] in practice: after the sale, the object keeps costing time and attention.
 
-At the end of the day, look at the evening. Depletion shows up as irritability and a slide into doom-scrolling: the evening is repairing the day. Empowerment shows up as arriving whole: the 9-to-5 left something for the 5-to-9. Those are the signals. They are a heuristic, not a proof that energizing work predicts success.
+The social version works the same way, one layer out. The trappings of success have detached from success itself. Living by other people's definition of a life is the distraction. [[wiki/Minimalism/Wanting Less|Wanting Less]] covers those symbols as other people's measure of success.
 
-The recognition problem underneath is older than the night. Enough of a true self has to be visible to notice the work that would hold attention for hours, time gone without being counted. A degree chosen for the wrong reason, and a school that never asked, bury that signal under someone else's story. That is not a protocol. It is why the evening readout is needed at all.
+## Buying time and buying status
 
-Run the test for two weeks. Persistent recovery means the work is the problem. Separately, audit one success: when something worked, ask whether it was the decision or the moment. A tailwind read as personal skill is how the next bet gets too large and an audience starts writing the self-report. When in doubt, say less.
+The opposite of the trap is money spent to buy time and remove friction, so attention can go to the few things already chosen. That is **buying-to-buy-time**. **Buying-to-signal** is spending that announces a status. The line between the two is real, and it is hard to apply, because almost any purchase can be described as friction-removal.
 
-Success is a lagging indicator. Wealth, when it arrives, often means the field that was loved happened to be rewarded this cycle. That is a claim, not a finding, and it does not say everyone can have the same cycle. [[wiki/Money/Define Enough|Define Enough]] is the sibling that treats money as byproduct and luck-versus-skill as a live question. Optimize for what leaves the evening usable. The rest, if it comes, is byproduct.
+The aim is to protect attention. It does not mean going without. It does not mean a shack and a two-thousand-dollar car. Spend time and money to remove friction from the few things that matter, and refuse the rest. [[wiki/Self Management/Flow State|Attention Management]] covers attention as the resource this is trying to keep intact.
 
-## What the test is not
+## Reading the evening
 
-Running the check costs nothing. Acting on a stretch of spent evenings costs plenty when the wage is what pays the bills. Divesting a path has switching costs and social costs. It is a direction, not a switch.
+At the end of the day, look at the evening. Depletion shows up as irritability and a slide into doom-scrolling, with the evening spent repairing the day. The other outcome shows up as still having something left when the workday ends: the 9-to-5 left something for the 5-to-9. Those are the signals. They are a rough guide. They do not prove that energizing work predicts success.
 
-Four objections sit in the same breath as that benefit.
+## Seeing which work holds your attention
 
-The first objection is how easy the test looks from the far side of a private life already paid for. Survivorship is the honest name: the person who can treat energizing work as a career algorithm already has runway. The carve-out — spend to buy time — is slippery, because almost any luxury can be narrated as friction-removal. The test is underspecified for debt, for obligations, and for a degree already sunk. Economic security is a precondition, not a detail.
+The recognition problem comes before the evening check. A person needs enough of a true self in view to notice the work that would hold attention for hours, with the time gone without being counted. A degree chosen for the wrong reason covers that signal. A school that never asked covers it too. Someone else's story sits on top of it. That is not a procedure to run. It is the reason the evening readout is needed at all.
 
-Two weeks of nightly recovery, with no change in what the day is made of, means the test has been run and not acted on — or cannot be, given those preconditions. Either way it stops being a switch.
+## Two weeks, then one audit
 
-## Links into the knowledge base
+Run the test for two weeks. If the evenings keep going to recovery, the work is the problem.
 
-- [[wiki/Minimalism/Ownership Cost|Ownership Cost]] — the general tax; the watch-chain is this page's worked example.
-- [[wiki/Minimalism/Wanting Less|Wanting Less]] — status symbols as other people's success.
-- [[wiki/Money/Define Enough|Define Enough]] — success as lagging; money as byproduct.
-- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management]] — attention as the protected resource.
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] — divesting distraction as a compounding gain.
+Separately, audit one success. When something worked, ask whether the result came from the decision or from the moment. Reading favorable conditions as personal skill is how the next bet gets too large, and how an audience starts shaping the self-report. When in doubt, say less.
 
-## Open Questions
+## Success arrives late
+
+Success is a lagging indicator. Wealth, when it arrives, often means the field that was loved happened to be rewarded this cycle. That is a claim, not a finding, and it does not say everyone can have the same cycle. [[wiki/Money/Define Enough|Define Enough]] covers money as a byproduct and treats luck versus skill as a live question. Optimize for what leaves the evening usable. The rest, if it comes, is a byproduct.
+
+## What acting on the test costs
+
+Running the check costs nothing. Acting on a stretch of spent evenings costs plenty when the wage is what pays the bills. Leaving a path has switching costs and social costs. The test gives a direction, not a single change to make.
+
+## Four objections
+
+1. The test looks easy from the far side of a private life already paid for. Survivorship is the honest name for that: the person who can treat energizing work as a career algorithm already has runway.
+2. The carve-out, spend to buy time, is hard to apply, because almost any luxury can be described as friction-removal.
+3. The test is underspecified for debt, for obligations, and for a degree already sunk.
+4. Economic security is a precondition, not a detail.
+
+Two weeks of nightly recovery, with no change in what the day is made of, means the test has been run and not acted on. It can also mean the result cannot be acted on, given those preconditions. Either way it is not a single change to make.
+
+## How to practice this
+
+1. Tonight, look at your evening. Notice irritability and doom-scrolling. Notice whether the evening is going to repairing the day.
+2. Run the check every night for two weeks. Notice whether the evenings keep going to recovery. That points at the work itself.
+3. Pick one success you had. Ask whether the result came from your decision or from the moment. Notice which answer you reach.
+4. Trace one thing you own. List what it required after the purchase. Notice whether one purchase pulled others behind it.
+5. Take a recent purchase. Ask whether it bought time and removed friction, or announced a status. Notice how hard that call is to make.
+6. Name the few things that matter to you now. Spend time and money to remove friction from those. Refuse the rest.
+
+## Related pages
+
+- [[wiki/Minimalism/Ownership Cost|Ownership Cost]]: the general tax. The watch-chain is the worked example.
+- [[wiki/Minimalism/Wanting Less|Wanting Less]]: status symbols as other people's success.
+- [[wiki/Money/Define Enough|Define Enough]]: success as lagging, money as byproduct.
+- [[wiki/Self Management/Flow State|Attention Management]]: attention as the protected resource.
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: divesting distraction as a compounding gain.
+
+## Open questions
 
 What does a non-survivorship version of the test look like?
 
@@ -60,6 +97,6 @@ Where is the line between buying time and buying status?
 
 ## Sources
 
-- Palihapitiya, Chamath. "It took me 30+ years to realize what I'll tell you in 13 minutes." YouTube, 2026-06-19. Originating talk. The page takes the nightly litmus, the watch-chain, and the case-against. It does not take a lifestyle, a fund, or a storefront.
+- Palihapitiya, Chamath. "It took me 30+ years to realize what I'll tell you in 13 minutes." YouTube, 2026-06-19. Originating talk. The nightly litmus, the watch-chain, and the case-against come from it. A lifestyle, a fund, and a storefront do not.
 - Frank, Robert H. Status consumption as comparison: the trappings detach from the thing status was supposed to mark.
-- Sasaki, Fumio. Objects keep charging attention after purchase — the general form of the watch-chain.
+- Sasaki, Fumio. Objects keep charging attention after purchase: the general form of the watch-chain.

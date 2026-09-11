@@ -3,9 +3,10 @@ title: "The Gen Z Gender War - The Split"
 type: concept
 status: developing
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: opus
 written-by: fable
-method: fable-5.1-one-pass
 diagrams: scripts/gen-gender-war-diagrams.py
 source-count: 1
 description: "Young women and young men now stand about 30 points apart in politics across 30 countries, up from 6 in 2000, and they vote, date, study, borrow, and scroll apart. The numbers behind the split, and three ways it could go."
@@ -20,30 +21,28 @@ tags:
 
 # The Gen Z Gender War - The Split
 
-## Reasoning
+The Gen Z gender war is the name given to the split between young women and young men in what they believe, whom they vote for, and whether they pair up at all. Across 30 countries surveyed in 2025, women aged 18 to 30 answer about 30 points more progressive than men of the same age. In 2000 the same gap was 6 points.
 
-### Abstract
+In the United States the split decided how the youngest voters divided in 2024. It also runs through who goes to college and who gets a match on a dating app. It runs through who carries the student debt and what each sex sees on its phone at night. Every rich country that polls its young people measures the split, and every mechanism behind it is still gaining force.
 
-The split between young women and young men that people now call the Gen Z gender war is a gap in what they believe, whom they vote for, and whether they pair up at all. Across 30 countries surveyed in 2025, women aged 18 to 30 sit about 30 points more progressive than men of the same age. In 2000 the same gap was 6 points. In the United States it decided how the youngest voters split in 2024. It also runs through who goes to college and who gets a match on a dating app. It runs through who carries the student debt and what each side sees on its phone at night. The split is real, and every rich country that polls its young measures it. The mechanisms driving it are all still gaining force.
-
-### Core takeaways
+## Core takeaways
 
 - Young women and young men have moved apart in politics in every rich country that polls them, and the gap opened in about 25 years.
-- The split runs through the vote, college, dating, debt, and what each side's phone feed shows, and each of those feeds the others.
+- The split runs through the vote, college, dating, debt, and what each sex's phone feed shows. Each of those affects the others.
 - Women now hold most degrees and most student debt, men have left college for the trades or for nothing, and people pair by education, so the dating pool no longer matches up.
 - Both sides describe real problems. The people who profit from leaving them unresolved are the influencers, the engagement algorithms, and the political consultants.
-- South Korea is about 15 years ahead. It spent billions on cash incentives and its birth rate kept falling, because the problem is what young men and women expect of each other, not money.
-- The wish to marry has not gone. What went is the housing and debt relief that once made a partnership affordable.
+- South Korea is about 15 years further along the same path. It spent billions on cash incentives and its birth rate kept falling, because the obstacle is what young men and women expect of each other, not money.
+- The wish to marry has not gone. What has gone is the affordable housing and the debt relief that once made a partnership possible to pay for.
 
-### Essay
+## How the parts feed each other
 
-The gender war is one thing seen from several sides. Young women and young men have moved apart in what they believe. The same movement shows up in how they vote, where they study, and whom they date. It shows up in what they owe and in what their phones show them at night. Each of those feeds the others, which is why the story can start in a school classroom and end at a birth rate.
+The split shows up in several areas at once, and those areas are connected. Young women and young men have moved apart in what they believe. The same movement shows in how they vote, where they study, and whom they date. It shows in what they owe and in what their phones show them at night. Each of those affects the others.
 
-The chain starts at school. A school day built around sitting still and putting feelings into words suits girls and fails boys, so women now take most of the degrees and men leave for the trades or for nothing. People tend to pair with someone of about their own education. So the pool of men that educated women consider comparable shrinks. The men without degrees fall below what a growing share of women say they want. The apps then amplify a mismatch they did not create. Women engage with a small share of the men they see and men with nearly half the women, so the men get rejection and the women get a flood, and both leave exhausted. Politics has become a filter on top, with a majority of young women now listing political fit among their first requirements in a partner.
+The sequence starts at school. A school day built around sitting still and putting feelings into words suits girls and fails boys, so women now take most of the degrees and men leave for the trades or for nothing. People tend to pair with someone of about their own education. The pool of men that educated women consider comparable therefore shrinks. Men without degrees fall below what a growing share of women say they want. The apps then amplify a mismatch they did not create. Women engage with a small share of the men they see and men with nearly half the women they see, so the men get rejection and the women get a flood of messages, and both leave exhausted. Politics has become a filter on top of that, and a majority of young women now list political fit among their first requirements in a partner.
 
-The feeds do the sorting. A teenage boy's account shows interest in loneliness and lifting weights. The feed walks it toward content that tells him women are the problem. Each step on the way looks reasonable on its own. A teenage girl's account is walked toward content that tells her men are the problem. Neither feed matches the real distribution of people. Both match whatever keeps people watching, and each side gets its own reading served back as confirmation. The influencers, the algorithms, and the political consultants all earn from that. Every actor with real power has an incentive to keep the conflict running.
+The feeds sort people further. A teenage boy's account shows an interest in loneliness and lifting weights. The recommendations move him toward material that tells him women are the problem. Each step looks reasonable on its own. A teenage girl's account is moved toward material that tells her men are the problem. Neither feed matches the real distribution of people. Both match whatever keeps a person watching, and each side is shown its own reading back as confirmation. The influencers, the algorithms, and the political consultants all earn from that. Every actor with real power has a reason to keep the conflict running.
 
-Money sits underneath everything. This generation carries more debt than the last two did at the same age, cannot buy a home, and does not expect the pension system to be there for it. Women hold most of the student debt because they hold most of the degrees. Men hold most of the wage decline because they held most of the jobs that vanished. A state paying more in interest than on its military has no room to fix any of it. South Korea is about fifteen years further down the same road. It spent enormous sums on cash for births and the births kept falling. What young men and women expect of each other no longer fits, and money does not touch that.
+Money is underneath all of it. This generation carries more debt than the two before it did at the same age, cannot buy a home, and does not expect the pension system to be there for it. Women hold most of the student debt because they hold most of the degrees. Men hold most of the wage decline because they held most of the jobs that disappeared. A government paying more in interest than it spends on its military has no room to fix any of it. South Korea is about 15 years further along the same path. It spent enormous sums on cash payments for births and the births kept falling. What young men and women expect of each other no longer fits, and money does not change that.
 
 Both sides are describing real problems. Young women face real barriers at work, real physical risk in dating, and a court ruling they reject. Young men face a school system that fails them and a suicide rate near four times women's with a fraction of the attention. They face family courts that disadvantage them and a culture that often treats their sex as the thing to be managed. The people who profit from leaving both unresolved are the ones running the feeds and the campaigns.
 
@@ -114,21 +113,11 @@ Both sides are describing real problems. Young women face real barriers at work,
 </svg>
 <!-- /diagram -->
 
-### Conclusion
+## What the split looks like across the population
 
-The split is real and every rich country that polls its young measures it. Every mechanism behind it is still gaining force. Three futures follow from it. On the current path the sexes keep drifting, marriage keeps falling, and the birth rate heads toward Korea's. On the convergence path, schools start boys later, men are recruited into teaching and care, and the platforms are made to slow the pipeline. On the fragmentation path each sex withdraws into a parallel life with software for company. The one fact that cuts against all three is that this generation says it wants marriage at higher rates than the last one did. The wish stayed. What went is the housing and the debt relief that once made a partnership affordable. That is the part a policy could reach.
+None of this is visible from the outside. It shows in polling tables, in birth-rate tables, in hospital admissions, and in election results. In 2024, 24% of American adults aged 18 to 29 had not had sex in the past year, against 12% in 2010, and 48% of Gen Z adults have never had sex at all, against 26% of millennials and 9% of boomers. One in four American men under 35 says he is chronically lonely. The United States recorded 53.1 births per 1,000 women in 2025, the lowest figure in its history. That is 1.6 children per woman, against the 2.1 that holds a population steady. South Korea, which started calling its version a gender war around 2019, is about 15 years further along the same path, at 0.72 children per woman.
 
-## The numbers
-
-None of this shows on the surface. It shows in polling tables, in birth-rate tables, in hospital admissions, and in election results. In 2024, 24% of American adults aged 18 to 29 had not had sex in the past year, against 12% in 2010, and 48% of Gen Z adults have never had sex at all, against 26% of millennials and 9% of boomers. One in four American men under 35 says he is chronically lonely. The United States recorded 53.1 births per 1,000 women in 2025, the lowest figure in its history. That is 1.6 children per woman, against the 2.1 that holds a population steady. South Korea, which started calling its version a gender war around 2019, sits about 15 years further down the same road at 0.72 children per woman.
-
-**Contents:** [The vote](#the-vote) · [Where the two sides came from](#where-the-two-sides-came-from) · [The education reversal](#the-education-reversal) · [The dating market](#the-dating-market) · [The two exits](#the-two-exits) · [Marriage and money](#marriage-and-money) · [The feeds](#the-feeds) · [Minds and churches](#minds-and-churches) · [Three futures](#three-futures)
-
-### The vote
-
-- In 2024, young women under 30 backed the Democrat by 24 points and young men backed the Republican by 16.
-- Young men had backed the Democrat by 8 points in 2020, a 24-point swing in one election.
-- In Germany's 2025 election one in four men aged 18 to 24 voted AfD. In Britain's 2024 election 12% of men under 24 voted Reform against 6% of women.
+## How the two sexes voted
 
 <!-- diagram:vote_2024 -->
 <svg viewBox="0 0 680 226" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Margins among voters under 30 in 2024: women toward the Democrat, men toward the Republican" style="max-width:100%;height:auto">
@@ -167,9 +156,9 @@ None of this shows on the surface. It shows in polling tables, in birth-rate tab
 </svg>
 <!-- /diagram -->
 
-In November 2024 young women under 30 backed the Democratic candidate by 24 points nationally while young men backed the Republican by 16, a 40-point gap in one age group. In North Carolina the figures were 33 points one way and 23 the other. Young men had backed the Democrat by 8 points in 2020, so their move to the Republican by 16 was a 24-point swing in a single election cycle. The campaign that won them went where they were, with a podcast appearance that drew nearly 60 million YouTube views and more than a dozen shows the researchers class as next door to the manosphere. The economy was the top issue for 31% of young men. Among young men who named immigration as their main concern, the Republican won by nearly 70 points.
+In November 2024 young women under 30 backed the Democratic candidate by 24 points nationally while young men backed the Republican by 16, a 40-point gap in one age group. In North Carolina the figures were 33 points one way and 23 the other. Young men had backed the Democrat by 8 points in 2020, so their move to the Republican by 16 was a 24-point swing in a single election cycle. The campaign that won them went to where those men already were, with a podcast appearance that drew nearly 60 million YouTube views and more than a dozen shows the researchers class as close to the manosphere. The economy was the top issue for 31% of young men. Among young men who named immigration as their main concern, the Republican won by nearly 70 points.
 
-Young women moved the other way for reasons with direct stakes. After the 2022 court decision that ended the federal right to abortion, 76% of Gen Z women wanted abortion to stay legal against 59% of men. Threats to democracy ranked as the top concern for 22% of women. College-educated white women backed the Democrat by 17 points, up from 7 in 2016 and 9 in 2020. Among Gen Z women who voted Democrat, having children ranked second to last in their definition of a successful life. Among Gen Z men who voted Republican it ranked first.
+Young women moved in the opposite direction, for reasons that affect them directly. After the 2022 court decision that ended the federal right to abortion, 76% of Gen Z women wanted abortion to stay legal against 59% of men. Threats to democracy ranked as the top concern for 22% of women. College-educated white women backed the Democrat by 17 points, up from 7 in 2016 and 9 in 2020. Among Gen Z women who voted Democrat, having children ranked second to last in their definition of a successful life. Among Gen Z men who voted Republican it ranked first.
 
 <!-- diagram:europe_young -->
 <svg viewBox="0 0 680 156" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The young gender gap across 30 countries, Germany, and Britain, and young men's vote for AfD and Reform" style="max-width:100%;height:auto">
@@ -200,13 +189,9 @@ Young women moved the other way for reasons with direct stakes. After the 2022 c
 </svg>
 <!-- /diagram -->
 
-The same split shows up wherever a rich country polls its young. In Germany's 2025 election one in four men aged 18 to 24 voted for the AfD, which made it the most popular party among young German men. In Britain's 2024 election 12% of men under 24 voted Reform against 6% of women. The gap among voters under 30 is 30 points in Germany and 25 in Britain. The pattern repeats across Scandinavia, Southern Europe, and South Korea.
+The same split appears wherever a rich country polls its young people. In Germany's 2025 election one in four men aged 18 to 24 voted for the AfD, which made it the most popular party among young German men. In Britain's 2024 election 12% of men under 24 voted Reform against 6% of women. The gap among voters under 30 is 30 points in Germany and 25 in Britain. The pattern repeats across Scandinavia, Southern Europe, and South Korea.
 
-### Where the two sides came from
-
-- The vote asked for at an 1848 convention took 72 years to arrive, in 1920.
-- A 1963 book on the dissatisfaction of educated wives sold 1.4 million copies in three years, and the Equal Pay Act, Title IX, and the 1973 abortion ruling followed within a decade.
-- A 2017 tweet asking women to reply with two words drew 12 million Facebook engagements in 24 hours. A kickboxer had 13.6 billion TikTok views by 2022.
+## Where the two sides came from
 
 <!-- diagram:two_timelines -->
 <svg viewBox="0 0 680 190" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Four waves on the women's side and the growth of the manosphere on the men's side" style="max-width:100%;height:auto">
@@ -255,7 +240,7 @@ The same split shows up wherever a rich country polls its young. In Germany's 20
 </svg>
 <!-- /diagram -->
 
-The women's side has four waves behind it. The first began with an 1848 convention in upstate New York that asked for the vote and took 72 years to get it, along with the right to own property and to stand as a full citizen. The second began in 1963 with a book by a housewife who had surveyed college graduates fifteen years out and found a deep, unnamed dissatisfaction behind their comfortable lives. That book sold 1.4 million copies in three years and a decade of law followed it, the Equal Pay Act in 1963, Title IX in 1972, and the abortion ruling in 1973. The third wave, in the 1990s, added the idea that race, sex, and class overlap rather than acting one at a time. The fourth wave began around 2012 and lives online. In October 2017 one tweet asked women who had been harassed or assaulted to reply with two words. Within 24 hours it had 12 million engagements on Facebook. A film producer and dozens of other powerful men lost their careers, and a large, coordinated move by young women toward progressive politics sped up.
+The women's side has four waves behind it. The first began with an 1848 convention in upstate New York that asked for the vote, along with the right to own property and to stand as a full citizen. The vote arrived 72 years later, in 1920. The second wave began in 1963 with a book by a housewife who had surveyed college graduates fifteen years out and found a deep, unnamed dissatisfaction behind their comfortable lives. That book sold 1.4 million copies in three years and a decade of law followed it, the Equal Pay Act in 1963, Title IX in 1972, and the abortion ruling in 1973. The third wave, in the 1990s, added the idea that race, sex, and class overlap rather than acting one at a time. The fourth wave began around 2012 and takes place online. In October 2017 one tweet asked women who had been harassed or assaulted to reply with two words. Within 24 hours it had 12 million engagements on Facebook. A film producer and dozens of other powerful men lost their careers, and a large, coordinated move by young women toward progressive politics sped up.
 
 <!-- diagram:influencer_reach -->
 <svg viewBox="0 0 680 122" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Share of young men with a positive view of the two best-known male influencers, by country" style="max-width:100%;height:auto">
@@ -278,13 +263,9 @@ The women's side has four waves behind it. The first began with an 1848 conventi
 </svg>
 <!-- /diagram -->
 
-The men's side grew in the same digital soil in different rooms. A men's rights forum opened in 2008. A forum built on the film image of waking from a false reality opened in 2012 and reached 300,000 members before the platform walled it off in 2018. Those rooms came to be called the manosphere, along with two other groups. One was the men who had sworn off relationships. The other was the men who blamed their isolation on women's preferences. Its most careful text was a 1993 book on male disadvantage in family courts, schools, and health. The author had once sat on the board of a national women's organisation. The manosphere took what the book said far past where the book left it. The figure who took it to mass scale was a kickboxer with a modest fighting record. He found that the algorithms paid him for saying ever more extreme things about women. By 2022 he had 13.6 billion TikTok views. One in five British men aged 16 to 29 held a positive view of him, 28% of Australian teenage boys said they looked up to him, and 13% of American Gen Z men approved. He was arrested in Romania in December 2022 on trafficking charges he denies, and his reach among young men grew after the arrest.
+The men's side grew online as well, in different forums. A men's rights forum opened in 2008. A forum built on the film image of waking from a false reality opened in 2012 and reached 300,000 members before the platform walled it off in 2018. Those rooms came to be called the manosphere, along with two other groups. One was the men who had sworn off relationships. The other was the men who blamed their isolation on women's preferences. The most careful text behind those groups was a 1993 book on male disadvantage in family courts, schools, and health. The author had once sat on the board of a national women's organisation. The manosphere took what the book said far past where the book left it. The figure who took it to mass scale was a kickboxer with a modest fighting record. He found that the algorithms rewarded him for saying more and more extreme things about women. By 2022 he had 13.6 billion TikTok views. One in five British men aged 16 to 29 held a positive view of him, 28% of Australian teenage boys said they looked up to him, and 13% of American Gen Z men approved. He was arrested in Romania in December 2022 on trafficking charges he denies, and his reach among young men grew after the arrest.
 
-### The education reversal
-
-- In 1970 men were 58% of American college students. By 2015 women were about 60%.
-- For every 100 women who earn a bachelor's degree, 74 men do. Women finish on time at 54%, men at 43%.
-- An electrician, a plumber, or an air-conditioning technician earns $50,000 to $80,000 a year with no tuition debt.
+## The reversal in college
 
 <!-- diagram:college_share -->
 <svg viewBox="0 0 680 200" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The college population flipped from 58% men in 1970 to 60% women by 2015, and women lead on degrees and on finishing" style="max-width:100%;height:auto">
@@ -326,7 +307,7 @@ The men's side grew in the same digital soil in different rooms. A men's rights 
 </svg>
 <!-- /diagram -->
 
-In 1970 men were 58% of American college students and women 42%. By 2015 women were about 60% and men 40%, and there are now 2.4 million more women than men on American campuses. Among 25 to 34 year olds, 47% of women hold a bachelor's degree against 37% of men. For every 100 women who earn one, 74 men do. Women finish a four-year degree on time at 54% and men at 43%. When women were the ones behind, fifty years ago, the country passed Title IX and put federal money behind female attainment, and the gap closed in about 20 years. The reverse gap has been building for about as long with no equivalent response, and it is the single most distinctive structural trend in the divide and the one almost nobody discusses.
+In 1970 men were 58% of American college students and women 42%. By 2015 women were about 60% and men 40%, and there are now 2.4 million more women than men on American campuses. Among 25 to 34 year olds, 47% of women hold a bachelor's degree against 37% of men. For every 100 women who earn one, 74 men do. Women finish a four-year degree on time at 54% and men at 43%. When women were the ones behind, fifty years ago, the country passed Title IX and put federal money behind female attainment, and the gap closed in about 20 years. The reverse gap has been building for about as long with no equivalent response. It is the most distinctive structural trend in the divide and almost nobody discusses it.
 
 <!-- diagram:boys_and_trades -->
 <svg viewBox="0 0 680 188" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three things that fall harder on boys at school, and the pay of the trades many men choose instead" style="max-width:100%;height:auto">
@@ -351,15 +332,11 @@ In 1970 men were 58% of American college students and women 42%. By 2015 women w
 </svg>
 <!-- /diagram -->
 
-The mechanism starts early. Boys develop verbal and executive skills 12 to 18 months later than girls on average. Zero-tolerance discipline, less time to move, and classrooms that reward sitting still and putting feelings into words all fall harder on the typical boy. Boys are diagnosed with ADHD at twice the rate of girls and are more likely to be medicated than to have the instruction changed, and more of them drop out. Not every man who skips college is choosing badly. An electrician, a plumber, or an air-conditioning technician earns $50,000 to $80,000 a year without tuition debt, vocational enrolment at community colleges is up nearly 20% since 2020, and 42% of Gen Z adults were working in or heading for blue-collar jobs in 2025, men more than women.
+The cause starts early. Boys develop verbal and executive skills 12 to 18 months later than girls on average. Zero-tolerance discipline, less time to move, and classrooms that reward sitting still and putting feelings into words all fall harder on the typical boy. Boys are diagnosed with ADHD at twice the rate of girls and are more likely to be medicated than to have the instruction changed, and more of them drop out. Not every man who skips college is choosing badly. An electrician, a plumber, or an air-conditioning technician earns $50,000 to $80,000 a year without tuition debt, vocational enrolment at community colleges is up nearly 20% since 2020, and 42% of Gen Z adults were working in or heading for blue-collar jobs in 2025, men more than women.
 
 The female side of the gap carries its own cost. Gen Z women are piling up credentials faster than the economy produces jobs that match them. Female graduates take lower-paid or part-time roles at higher rates than male graduates, who hold out for better pay. The education gap then feeds every other gap. People tend to partner with someone of about their own education, so a widening female lead shrinks the pool of men that educated women consider comparable and puts men without degrees below the stated preferences of a growing share of women. Both findings sit in the same peer-reviewed literature.
 
-### The dating market
-
-- Tinder's paying users peaked at 10.9 million in 2021 and were 9.2 million by late 2025.
-- On one large platform women engage positively with about 14% of male profiles and men with about 46% of female profiles.
-- 44% of Gen Z men have never asked someone out in person. 44% did not date as teenagers, against 20% of boomer men.
+## The dating market
 
 <!-- diagram:app_asymmetry -->
 <svg viewBox="0 0 680 214" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Women engage with about 14 of 100 male profiles and men with about 46 of 100 female profiles" style="max-width:100%;height:auto">
@@ -375,7 +352,7 @@ The female side of the gap carries its own cost. Gen Z women are piling up crede
 </svg>
 <!-- /diagram -->
 
-Tinder's paying users peaked at 10.9 million in 2021 and fell to 9.2 million by the third quarter of 2025. More than half of Gen Z say the apps leave them burnt out often or always, the highest rate of any age group, and 79% of American college students open a dating app less than once a month. The apps did not cause the disconnect, and they did amplify it. On one large platform women engage positively with about 14% of the male profiles they see and men with about 46% of the female profiles. So the typical man expresses interest in nearly half the women he meets and gets almost nothing back, and the typical woman gets a flood of matches and messages, many of them low quality or hostile. The system fails both at once through opposite mechanisms, rejection on one side and exhaustion on the other.
+Tinder's paying users peaked at 10.9 million in 2021 and fell to 9.2 million by the third quarter of 2025. More than half of Gen Z say the apps leave them burnt out often or always, the highest rate of any age group, and 79% of American college students open a dating app less than once a month. The apps did not cause the disconnect, and they did amplify it. On one large platform women engage positively with about 14% of the male profiles they see and men with about 46% of the female profiles. The typical man expresses interest in nearly half the women he meets and gets almost nothing back. The typical woman gets a flood of matches and messages, many of them low quality or hostile. The system fails both at the same time through opposite mechanisms. The men get rejection and the women get exhaustion.
 
 <!-- diagram:never_asked -->
 <svg viewBox="0 0 680 152" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="44% of Gen Z men did not date as teenagers against 20% of boomers, and 44% have never asked in person" style="max-width:100%;height:auto">
@@ -395,13 +372,9 @@ Tinder's paying users peaked at 10.9 million in 2021 and fell to 9.2 million by 
 </svg>
 <!-- /diagram -->
 
-The habit of asking in person is going with it. 44% of Gen Z men have never asked someone out face to face, citing social anxiety and fear of rejection, and 44% did not date at all as teenagers, against 20% of boomer men at the same age. Politics has become a filter that did not exist before. Before 2017 a political affiliation rarely appeared in a profile or counted as a deal-breaker. By 2024 a majority of Gen Z women listed political compatibility among their top three requirements in a partner, and with 43% of Gen Z men approving of the Republican president against 24% of Gen Z women, the 21-point approval gap works as a dating number as much as a political one.
+Asking someone out in person is going as well. 44% of Gen Z men have never asked someone out face to face, citing social anxiety and fear of rejection, and 44% did not date at all as teenagers, against 20% of boomer men at the same age. Politics has become a filter that did not exist before. Before 2017 a political affiliation rarely appeared in a profile or counted as a deal-breaker. By 2024 a majority of Gen Z women listed political compatibility among their top three requirements in a partner. 43% of Gen Z men approve of the Republican president against 24% of Gen Z women, and that 21-point approval gap works as a dating number as much as a political one.
 
-### The two exits
-
-- 4B began in South Korea around 2015: no dating men, no sex with men, no marriage, no childbirth. American searches for it hit record highs within hours of the November 2024 election.
-- A men's movement from about 2001 rejects relationships to avoid the risk of divorce. Its forum had over 100,000 members before a 2021 ban.
-- Across 29 countries, 33% of Gen Z men say a wife should obey her husband, against 18% of Gen Z women and 13% of boomer men.
+## Two movements away from relationships
 
 <!-- diagram:two_exits -->
 <svg viewBox="0 0 680 212" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The women's exit, 4B, and the two men's exits, going their own way and relocating abroad" style="max-width:100%;height:auto">
@@ -428,9 +401,9 @@ The habit of asking in person is going with it. 44% of Gen Z men have never aske
 </svg>
 <!-- /diagram -->
 
-Out of that market two movements came at the same time from opposite directions. The first, called 4B, began in South Korea around 2015 in radical feminist online communities responding to deepfake pornography, a wide wage gap, and firings of women for liking feminist posts. The name is four Korean words that each start with the syllable for no: no dating men, no sex with men, no marriage, no childbirth. After the November 2024 election American searches for it hit record highs within hours, one explanatory tweet drew 17 million views that night, and for a subset of progressive American women it became shorthand for a position they had already reached, that a relationship with a man was incompatible with their politics. The number who formally adopted it was in the thousands.
+Two movements came out of that market at the same time, from opposite directions. The first, called 4B, began in South Korea around 2015 in radical feminist online communities responding to deepfake pornography, a wide wage gap, and firings of women for liking feminist posts. The name is four Korean words that each start with the syllable for no: no dating men, no sex with men, no marriage, no childbirth. After the November 2024 election American searches for it hit record highs within hours, one explanatory tweet drew 17 million views that night, and for a subset of progressive American women it became shorthand for a position they had already reached, that a relationship with a man was incompatible with their politics. The number who formally adopted it was in the thousands.
 
-On the men's side the parallel is a movement from about 2001 in which men reject relationships to avoid the legal and financial risk of marriage and divorce. Its forum had over 100,000 members by 2019 before the platform banned it in 2021. A newer version sees American and British men relocate to Thailand, Colombia, the Philippines, or Brazil to find more traditional partners. Their reason is that Western women shaped by feminism hold unrealistic expectations. Critics call it sex tourism built on economic disparity, participants call it a rational answer to a market that failed them. Local protests against them go viral and deepen the divide at home. Underneath sits a shift in what young men say they want. Across 29 countries in 2025, 33% of Gen Z men said a wife should obey her husband and 33% said a husband should have the final word on big family decisions, against 18% of Gen Z women and 13% of boomer men. Men who cannot fill the breadwinner role idealise it more rigidly. The content they watch speeds up both the inability and the idealising.
+On the men's side the parallel is a movement from about 2001 in which men reject relationships to avoid the legal and financial risk of marriage and divorce. Its forum had over 100,000 members by 2019 before the platform banned it in 2021. A newer version sees American and British men relocate to Thailand, Colombia, the Philippines, or Brazil to find more traditional partners. Their reason is that Western women shaped by feminism hold unrealistic expectations. Critics call it sex tourism built on economic disparity. Participants call it a rational answer to a market that failed them. Local protests against them spread widely online and deepen the divide at home. Underneath sits a shift in what young men say they want. Across 29 countries in 2025, 33% of Gen Z men said a wife should obey her husband and 33% said a husband should have the final word on big family decisions, against 18% of Gen Z women and 13% of boomer men. Men who cannot fill the breadwinner role hold to it more rigidly. The content they watch increases both the inability and the strict view.
 
 <!-- diagram:obey -->
 <svg viewBox="0 0 680 124" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="33% of Gen Z men say a wife should obey her husband, against 18% of Gen Z women and 13% of boomer men" style="max-width:100%;height:auto">
@@ -451,11 +424,7 @@ On the men's side the parallel is a movement from about 2001 in which men reject
 
 One 2024 clip shows how fast the divide surfaces. A creator asked women whether, alone in the woods, they would rather meet an unknown man or a bear, and millions chose the bear. For the women it was about the constant threat assessment they run around strange men and the statistics on who commits violence. For the men who watched it was a verdict on them by category. Both readings were sincere, they talked past each other almost completely, and each side's feed served its own reading back as confirmation.
 
-### Marriage and money
-
-- The marriage rate fell from 10.6 per 1,000 Americans in 1970 to 6.2 in 2024. Only 56% to 58% of Gen Z is projected to ever marry, against 87% to 92% of boomers.
-- The average Gen Z adult owes about $94,000, against $59,000 for millennials at the same age. 7.6% of Gen Z holds a mortgage.
-- Women earn 85 cents per dollar across all full-time workers, 95 cents at ages 25 to 35, and about 99 cents in truly equivalent roles.
+## Marriage and money
 
 <!-- diagram:marriage_fall -->
 <svg viewBox="0 0 680 172" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marriages per thousand fell from 10.6 to 6.2, first marriage moved past 30 for men, and barely half of Gen Z is expected to marry" style="max-width:100%;height:auto">
@@ -515,7 +484,7 @@ The marriage rate fell from 10.6 per 1,000 Americans in 1970 to 6.2 in 2024. The
 </svg>
 <!-- /diagram -->
 
-Under every pattern on this page sits money. Gen Z entered the worst conditions for young people since the Depression. Americans aged 18 to 29 carry $1.12 trillion of debt, and the average Gen Z adult owes about $94,000 against $59,000 for millennials and $53,000 for Gen X at the same age. 41% run out of money before the end of the month and 22% call themselves financially stable. The median home passed $420,000 in 2025 and 7.6% of Gen Z holds a mortgage. Asked what stands between them and marriage, 55% name housing costs and 64% name student debt. Women hold 63% to 65% of the country's $1.66 trillion in student loans, because they go to college more. That is the education reversal arriving as a bill.
+Money is behind every one of these patterns. Gen Z entered the worst conditions for young people since the Depression. Americans aged 18 to 29 carry $1.12 trillion of debt, and the average Gen Z adult owes about $94,000 against $59,000 for millennials and $53,000 for Gen X at the same age. 41% run out of money before the end of the month and 22% call themselves financially stable. The median home passed $420,000 in 2025 and 7.6% of Gen Z holds a mortgage. Asked what stands between them and marriage, 55% name housing costs and 64% name student debt. Women hold 63% to 65% of the country's $1.66 trillion in student loans, because they go to college more. The education reversal produces that share of the debt.
 
 <!-- diagram:wage_gap -->
 <svg viewBox="0 0 680 126" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The pay gap narrows from 85 cents to 99 cents as the comparison tightens" style="max-width:100%;height:auto">
@@ -535,7 +504,7 @@ Under every pattern on this page sits money. Gen Z entered the worst conditions 
 </svg>
 <!-- /diagram -->
 
-The wage gap shrinks as the comparison tightens. Across all full-time workers women earn about 85 cents per dollar men earn. For workers aged 25 to 35 it is 95 cents. A 2026 analysis that controlled for job title, hours, experience, industry, and education found about 99 cents in truly equivalent roles. What explains the last cent, discrimination or choices constrained by childcare and hiring, is one of the most contested questions in labour economics. Behind all of it is a state with no room to help. The national debt stood at about $38.98 trillion in April 2026, interest ran at about $10 billion a week in 2025, and by 2051 interest is projected to be the largest single item of federal spending. 45% of Gen Z expect no Social Security at all and 70% expect cuts, which is what the programme's own actuaries project.
+The wage gap gets smaller as the comparison gets narrower. Across all full-time workers women earn about 85 cents per dollar men earn. For workers aged 25 to 35 it is 95 cents. A 2026 analysis that controlled for job title, hours, experience, industry, and education found about 99 cents in truly equivalent roles. What explains the last cent, discrimination or choices constrained by childcare and hiring, is one of the most contested questions in labour economics. The federal government has no room to help. The national debt stood at about $38.98 trillion in April 2026, interest ran at about $10 billion a week in 2025, and by 2051 interest is projected to be the largest single item of federal spending. 45% of Gen Z expect no Social Security at all and 70% expect cuts, which is what the programme's own actuaries project.
 
 <!-- diagram:breadwinner_divorce -->
 <svg viewBox="0 0 680 150" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Divorce rates by which spouse earns more, per thousand couples" style="max-width:100%;height:auto">
@@ -557,13 +526,9 @@ The wage gap shrinks as the comparison tightens. Across all full-time workers wo
 </svg>
 <!-- /diagram -->
 
-One figure makes everyone uncomfortable. In 2023, 45% of American mothers were their family's main earner. Married couples where the woman earns more divorce at 31 per 1,000 against 11 where the man does, and where the woman is the only earner the rate is 54 against 20 the other way. Female-breadwinner households are 16% of households and 42% of divorces. One economist reads that as norms creating stress when partners break them. Others read it as financially independent women leaving bad marriages because they can. The census data supports both readings.
+In 2023, 45% of American mothers were their family's main earner. Married couples where the woman earns more divorce at 31 per 1,000 against 11 where the man does, and where the woman is the only earner the rate is 54 against 20 the other way. Female-breadwinner households are 16% of households and 42% of divorces. One economist reads that as norms creating stress when partners break them. Others read it as financially independent women leaving bad marriages because they can. The census data supports both readings.
 
-### The feeds
-
-- Test accounts posing as vulnerable teenage boys went from 13% to 56% misogynistic content on TikTok in seven days.
-- Manosphere content reached young male test accounts after about 15 minutes of ordinary browsing.
-- Nearly two-thirds of men aged 16 to 25 regularly watch masculinity influencers.
+## What the phone feeds show
 
 <!-- diagram:feed_escalation -->
 <svg viewBox="0 0 680 160" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A test feed for a teenage boy went from 13% to 56% misogynistic content in seven days" style="max-width:100%;height:auto">
@@ -592,17 +557,13 @@ One figure makes everyone uncomfortable. In 2023, 45% of American mothers were t
 </svg>
 <!-- /diagram -->
 
-In 2024 researchers built TikTok accounts that behaved like vulnerable teenage boys interested in loneliness, self-improvement, and masculinity. Within seven days the share of misogynistic content in those feeds rose from 13% to 56%. A separate study found manosphere content reaching young male test accounts after about 15 minutes of ordinary browsing, and on YouTube Shorts 61.5% of what was recommended met the researchers' bar for toxic material. The path is gradual. It starts with videos about loneliness, lifting weights, and feeling overlooked. Each step is reasonable on its own, and the destination is extreme. The same platforms served women feminist empowerment, body image, breakup processing, and videos framing men as threatening or incompetent. Neither feed matched the real distribution of people. Both matched what held attention longest.
+In 2024 researchers built TikTok accounts that behaved like vulnerable teenage boys interested in loneliness, self-improvement, and masculinity. Within seven days the share of misogynistic content in those feeds rose from 13% to 56%. A separate study found manosphere content reaching young male test accounts after about 15 minutes of ordinary browsing, and on YouTube Shorts 61.5% of what was recommended met the researchers' bar for toxic material. The path is gradual. It starts with clips about loneliness, lifting weights, and feeling overlooked. Each step is reasonable on its own, and the material at the end is extreme. The same platforms served women feminist empowerment, body image, breakup processing, and clips framing men as threatening or incompetent. Neither feed matched the real distribution of people. Both matched what held attention longest.
 
-The influencers sit in tiers. A Canadian psychology professor who began posting lectures in 2013 sold over 5 million copies of a 2018 book on responsibility and order. 42% of British Gen Z men view him positively, and his message runs on discipline rather than resentment of women. Below him sit debate podcasts that treat women's preferences as a sign of female pathology. Below those sits a subculture in which young men treat extreme physical change as their only leverage. One of them told a newspaper he started steroids at 14 and posted videos advocating striking his own face to shape his jaw. Clinicians call that body dysmorphia driven by isolation and by the rejection rates on the apps. Nearly two-thirds of men aged 16 to 25 now regularly watch masculinity influencers. Nearly half of Gen Z men say they personally face discrimination because of their sex, the highest rate any male age group has recorded.
+The influencers sit in tiers. A Canadian psychology professor who began posting lectures in 2013 sold over 5 million copies of a 2018 book on responsibility and order. 42% of British Gen Z men view him positively, and his message runs on discipline rather than resentment of women. Below him sit debate podcasts that treat women's preferences as a sign of female pathology. Below those sits a subculture in which young men treat extreme physical change as their only leverage. One of them told a newspaper he started steroids at 14 and posted clips advocating striking his own face to shape his jaw. Clinicians call that body dysmorphia driven by isolation and by the rejection rates on the apps. Nearly two-thirds of men aged 16 to 25 now regularly watch masculinity influencers. Nearly half of Gen Z men say they personally face discrimination because of their sex, the highest rate any male age group has recorded.
 
-The female side of pop culture processed the same fracture from its own angle. Both sides pick the finding that confirms them. A study of fifty years of rap lyrics found female artists using derogatory words more often than male artists, in reclamation rather than degradation. A separate analysis of 250,000 songs found sexist content rising over time, mostly in male artists' hits, and 72.5% of 2024's top songs contained sexually objectifying phrases about women. Both findings are real.
+The female side of pop culture handled the same fracture from its own angle. Both sides pick the finding that confirms them. A study of fifty years of rap lyrics found female artists using derogatory words more often than male artists, in reclamation rather than degradation. A separate analysis of 250,000 songs found sexist content rising over time, mostly in male artists' hits, and 72.5% of 2024's top songs contained sexually objectifying phrases about women. Both findings are real.
 
-### Minds and churches
-
-- 61% of Gen Z has been diagnosed with anxiety and 42% with depression.
-- Men are about 75% of American suicides, 22.7 per 100,000 against 5.9 for women.
-- Among women aged 18 to 24 the religiously unaffiliated went from 29% in 2013 to 40% in 2024. Among men the same age, 35% to 36%.
+## Mental health and religion
 
 <!-- diagram:distress_by_sex -->
 <svg viewBox="0 0 680 180" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Girls report more sadness, men die by suicide at nearly four times the rate, and time with friends has more than halved" style="max-width:100%;height:auto">
@@ -640,7 +601,7 @@ The female side of pop culture processed the same fracture from its own angle. B
 </svg>
 <!-- /diagram -->
 
-Gen Z is the most distressed generation the country has measured. 61% have been diagnosed with anxiety and 42% with depression. The distress runs in two directions at once. In 2023, 53% of high-school girls reported persistent sadness or hopelessness against 28% of boys. Girls are far more likely to say social media hurt their body image and confidence, which one 2024 book puts down to girls' social lives depending more on reputation. The male side is quieter and deadlier. Men are about 75% of American suicides, 22.7 per 100,000 against 5.9 for women, and among men aged 25 to 34 suicide is the second leading cause of death. Men seek treatment less, keep fewer friends as they age, and lean on one romantic partner for support, so as dating and marriage fall, that one support goes with them. 25% of men under 35 report loneliness against 18% of women. Weekly time young adults spend with friends fell from 12.8 hours in 2012 to 5.1 in 2024, for both sexes.
+Gen Z is the most distressed generation the country has measured. 61% have been diagnosed with anxiety and 42% with depression. The distress runs in two directions at once. In 2023, 53% of high-school girls reported persistent sadness or hopelessness against 28% of boys. Girls are far more likely to say social media hurt their body image and confidence, which one 2024 book puts down to girls' social lives depending more on reputation. The male pattern shows up less in surveys and more in deaths. Men are about 75% of American suicides, 22.7 per 100,000 against 5.9 for women, and among men aged 25 to 34 suicide is the second leading cause of death. Men seek treatment less, keep fewer friends as they age, and lean on one romantic partner for support, so as dating and marriage fall, that one support goes with them. 25% of men under 35 report loneliness against 18% of women. Weekly time young adults spend with friends fell from 12.8 hours in 2012 to 5.1 in 2024, for both sexes.
 
 <!-- diagram:religion_shift -->
 <svg viewBox="0 0 680 172" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Young women left religion, from 29% to 40% unaffiliated, while young men barely moved" style="max-width:100%;height:auto">
@@ -667,13 +628,9 @@ Gen Z is the most distressed generation the country has measured. 61% have been 
 </svg>
 <!-- /diagram -->
 
-Religion used to supply a couple with default answers about money, roles, children, and fidelity. Those defaults spared them negotiating everything from first principles. Gen Z is the least religious generation on record, with 47% having attended no service in six months and 45% calling themselves Christian against 55% of millennials, and the fall is almost all women. Among women aged 18 to 24 the religiously unaffiliated went from 29% in 2013 to 40% in 2024. Among men the same age they went from 35% to 36%. A subset of young men moved the other way into conservative Catholicism, strict evangelical churches, and Orthodox Judaism, seeking a clear moral order, the way men moved toward structured institutions during industrialisation. At work, after 2017, senior men in finance, technology, and law quietly stopped mentoring junior women, meeting alone with them, or travelling with them. That cut young women off from the informal sponsorship that is the fastest route up.
+Religion used to give a couple default answers about money, roles, children, and fidelity. With those answers the couple did not have to negotiate everything from first principles. Gen Z is the least religious generation on record, with 47% having attended no service in six months and 45% calling themselves Christian against 55% of millennials, and the fall is almost entirely among women. Among women aged 18 to 24 the religiously unaffiliated went from 29% in 2013 to 40% in 2024. Among men the same age they went from 35% to 36%. A subset of young men moved the other way into conservative Catholicism, strict evangelical churches, and Orthodox Judaism, seeking a clear moral order, as men moved toward structured institutions during industrialisation. At work, after 2017, senior men in finance, technology, and law quietly stopped mentoring junior women, meeting alone with them, or travelling with them. That cut young women off from the informal sponsorship that is the fastest route up.
 
-### Three futures
-
-- On the current path men are under 38% of college students by 2030 and more than 30% of Americans never marry.
-- South Korea spent hundreds of billions of won on pronatal programmes with almost no measurable effect.
-- Gen Z reports wanting marriage at higher rates than millennials did at the same age. 55% name housing costs and 64% name student debt as the barrier.
+## Three ways it could go
 
 <!-- diagram:three_futures -->
 <svg viewBox="0 0 680 184" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three paths: the current path, convergence, and fragmentation" style="max-width:100%;height:auto">
@@ -702,30 +659,28 @@ Religion used to supply a couple with default answers about money, roles, childr
 </svg>
 <!-- /diagram -->
 
-Three paths lie ahead. On the current path, men are under 38% of college students by 2030, the gender gap organises American politics by 2032 with young women anchoring one party and young men the other, the median first marriage crosses 32 for men and 30 for women by 2035, more than 30% of Americans never marry, and the birth rate falls toward South Korea's. Korea is the leading indicator. Its government has spent hundreds of billions of won on pronatal programmes with almost no measurable effect. The problem there is that educated young men and women developed expectations of each other that no longer fit. Korean sociologists now describe cultural extinction as a mathematical possibility.
+Three paths lie ahead. On the current path, men are under 38% of college students by 2030, the gender gap organises American politics by 2032 with young women anchoring one party and young men the other, the median first marriage crosses 32 for men and 30 for women by 2035, more than 30% of Americans never marry, and the birth rate falls toward South Korea's. Korea is ahead of the United States on the same path. Its government has spent hundreds of billions of won on pronatal programmes with almost no measurable effect. The problem there is that educated young men and women developed expectations of each other that no longer fit. Korean sociologists now describe cultural extinction as a mathematical possibility.
 
-The second path is partial convergence through exhaustion and adaptation. The proposals on the table are enrolling boys in school a year later, male-focused mentoring in secondary school, recruiting men into health, education, and social work. Europe's new platform rules may slow the radicalisation pipeline, after which both drifts might moderate. The third path is fragmentation, a war abandoned rather than resolved, each sex withdrawing into parallel arrangements with little contact. AI companions already have large Gen Z user bases. That path lowers conflict now and deepens alienation over decades. It pushes the birth rate further down. It hands Social Security and Medicare a ratio of workers to retirees that cannot carry them.
+The second path is partial convergence through exhaustion and adaptation. The proposals on the table are enrolling boys in school a year later, male-focused mentoring in secondary school, and recruiting men into health, education, and social work. Europe's new platform rules may slow the radicalisation pipeline, after which both drifts might moderate. The third path is fragmentation, with the conflict abandoned rather than resolved and each sex withdrawing into parallel arrangements with little contact. AI companions already have large Gen Z user bases. That path lowers conflict now and deepens alienation over decades. It pushes the birth rate further down. It hands Social Security and Medicare a ratio of workers to retirees that cannot carry them.
 
-Both sides describe real problems. Young women face real barriers at work, real physical risk in dating, and a court decision they reject. Young men face an education crisis, a suicide rate near four times women's with a fraction of the attention, documented disadvantage in family court, and a culture that often treats their sex as the pathology to be managed. The people who profit from leaving both unresolved are the influencers, the engagement algorithms, and the political consultants. Resentment between the sexes drives donations and watch time more reliably than any policy. Korea tried cash and it did not work, and the United States, at $38.98 trillion of debt, has no room for that scale of intervention. What remains is the thing that has ended every disruptive period, enough people deciding the dysfunction is not worth sustaining and moving quietly back toward each other. Gen Z reports wanting marriage at higher rates than millennials did at the same age. The desire stayed. What went was the housing and the debt relief that once made a partnership affordable, and 55% and 64% of them say so.
+Both sides describe real problems. Young women face real barriers at work, real physical risk in dating, and a court decision they reject. Young men face an education crisis, a suicide rate near four times women's with a fraction of the attention, documented disadvantage in family court, and a culture that often treats their sex as the pathology to be managed. The people who profit from leaving both unresolved are the influencers, the engagement algorithms, and the political consultants. Resentment between the sexes drives donations and watch time more reliably than any policy. Korea tried cash and it did not work, and the United States, at $38.98 trillion of debt, has no room for that scale of intervention. What is left is the thing that has ended every disruptive period before, enough people deciding the dysfunction is not worth sustaining and moving quietly back toward each other. Gen Z reports wanting marriage at higher rates than millennials did at the same age. The desire stayed. What went was the housing and the debt relief that once made a partnership affordable, and 55% and 64% of them say so. That is the part a policy could reach.
 
-## Sources and links
+## Related pages
 
-### Links into the knowledge base
+- [[wiki/Concepts/Dating Apps - The Gini Coefficient|Dating Apps - The Gini Coefficient]]. The apps side of this page in full: half of the likes women send go to the top 15% of men, and part of that number is made by the swipe itself.
+- [[wiki/Worldviews & the Political Order/Schooling - The Format Filter|Schooling - The Format Filter]]. The mechanism behind the education reversal here: a school day built around sitting still suited girls and failed boys, and each sex came out with a wrong picture of the other.
+- [[wiki/Worldviews & the Political Order/The Woke Mind Virus|The Woke Mind Virus]]. The measured mental health of young men by politics, beside the anxiety and suicide figures here.
+- [[wiki/Worldviews & the Political Order/Women's Suffrage - The Substitute Husband|Women's Suffrage - The Substitute Husband]]. Why a woman without a husband has reason to vote for a bigger state. The 40% of young women who call themselves liberal against 25% of young men is that pull measured in one age group.
+- [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]]. A feed with no end. The two feeds on this page, one per sex, are that design sorting people by what keeps them watching.
 
-- [[wiki/Concepts/Dating Apps - The Gini Coefficient|Dating Apps - The Gini Coefficient]] — the apps side of this page in full: half of the likes women send go to the top 15% of men, and part of that number is made by the swipe itself.
-- [[wiki/Worldviews & the Political Order/Schooling - The Format Filter|Schooling - The Format Filter]] — the mechanism behind the education reversal here: a school day built around sitting still suited girls and failed boys, and each sex came out with a wrong picture of the other.
-- [[wiki/Worldviews & the Political Order/The Woke Mind Virus|The Woke Mind Virus]] — the measured mental health of young men by politics, beside the anxiety and suicide figures here.
-- [[wiki/Worldviews & the Political Order/Women's Suffrage - The Substitute Husband|Women's Suffrage - The Substitute Husband]] — why a woman without a husband has reason to vote for a bigger state. The 40% of young women who call themselves liberal against 25% of young men is that pull measured in one age group.
-- [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]] — a feed with no end. The two feeds on this page, one per sex, are that design sorting people by what keeps them watching.
-
-### Open questions
+## Open questions
 
 - The 30-point gap is measured on a progressive-to-conservative scale. How much of it is the same people answering the same questions differently, and how much is different beliefs about the same facts?
 - Korea's cash failed. Would the school-timing and mentoring proposals fail the same way, since they also do not touch what young men and women expect of each other?
 - The apps amplified a disconnect they did not cause. What is the measure of the disconnect before 2012, when the fourth wave went online?
 - Two-thirds of young men watch masculinity influencers. How many of them hold the obedience view, and how many hold it without watching?
 
-### Sources
+## Sources
 
 - Front Page, *The Gen Z Gender War* (YouTube, published 2026-05-08, 44 minutes). <https://www.youtube.com/watch?v=MVPpfKOqXY0>. Read from YouTube's auto-generated captions. Personal names in the captions are not relied on. Two sponsor segments, a budgeting app and a bank, are excluded.
 - Where the video says its figures come from: a 2025 King's College London survey of 30 countries; the General Social Survey; the Kinsey Institute; Gallup; Navigator Research (5,000 voters); the Survey Center on American Life; the Movember Institute; a 2025 NBC poll; a 2025 King's College and Ipsos survey of 29 countries; the Federal Reserve Bank of New York; Pew Research (2024); a 2026 pay analysis controlling for role; the Joint Economic Committee and the Congressional Budget Office; census data 2012 to 2023; the Walton Family Foundation survey; the 2023 CDC Youth Risk Behavior Survey; the CDC on suicide; the Public Religion Research Institute; a 2024 University College London and University of Kent study of TikTok accounts; a Dublin City University study; UCLA and a 250,000-song analysis.

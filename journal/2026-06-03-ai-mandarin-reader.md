@@ -23,7 +23,7 @@ This is the [[wiki/Workflows/Raw to Wiki Compilation|raw → wiki compilation]] 
 
 ## Improvements and directions
 
-- **Keep it active, not a lookup crutch.** The point of immersion is high-attention input ([[wiki/Language/Attention is Important|attention is important]]). Gate the reveal — guess first, then expose meaning — so the reader trains comprehension instead of replacing it. The [[wiki/Techniques/Building the Radar|radar]] concern applies: frictionless lookups can quietly turn active reading passive.
+- **Keep it active, not a lookup crutch.** The point of immersion is high-attention input ([[wiki/Language/Attention is Important|attention is important]]). Gate the reveal — guess first, then expose meaning — so the reader trains comprehension instead of replacing it. The [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|radar]] concern applies: frictionless lookups can quietly turn active reading passive.
 - **Track what's already known.** The value is surfacing the *unknown*. A known-words list (even rough) lets the reader skip what's learned, focus attention where it counts, and feed a spacing schedule so idioms resurface before they fade.
 - **Traditional + Taiwan specifics.** Dcard is Taiwanese, so this leans Traditional characters and Taiwan register. Decide the phonetic layer early — Zhuyin (注音) fits the Taiwan context; Pinyin is more portable.
 - **Let the pages compound into a graph.** Idiom and vocab pages can link by shared characters or themes, so the same focus-graph treatment used elsewhere on the site becomes a living map of the Mandarin being built.

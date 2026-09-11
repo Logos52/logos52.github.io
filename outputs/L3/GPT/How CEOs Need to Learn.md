@@ -65,7 +65,7 @@ A practical metacognitive loop:
 5. Check how soon the information is retrieved, applied, or integrated.
 6. Diagnose whether the bottleneck is comprehension, organization, relevance, retrieval, or motivation.
 
-This belongs near [[wiki/Dimensions of Learning/Self-regulation|Self-regulation]] and [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]. The learner is not passively hoping the method works. The learner is actively regulating the method.
+This belongs near [[wiki/Dimensions of Learning/Self-regulation|Self-regulation]] and [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]. The learner is not passively hoping the method works. The learner is actively regulating the method.
 
 ## Higher-Order Retrieval
 
@@ -237,8 +237,8 @@ Relevant existing pages:
 - [[wiki/Dimensions of Learning/Deep Processing|Deep Processing]]
 - [[wiki/Dimensions of Learning/Retrieval|Retrieval]]
 - [[wiki/Dimensions of Learning/Self-regulation|Self-regulation]]
-- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
-- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
+- [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]
+- [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]]
 
 Possible new or expanded pages:
 

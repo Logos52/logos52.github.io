@@ -3,7 +3,9 @@ title: "Breaching Questions"
 type: technique
 status: developing
 created: 2026-05-29
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 tags:
@@ -15,46 +17,82 @@ tags:
 
 # Breaching Questions
 
-A breaching question finds leftover unfeelable holes by writing an unanswerable question on each. The hunt runs late, after ordinary retrieval has stopped turning anything up, and it pairs a sweep across the subject's headings with that unanswerable question.
+A breaching question is a question the learner writes on one hole in their own knowledge and cannot answer at the time of writing. The method finds the holes that are left after ordinary retrieval practice has stopped turning up anything new, and that the learner cannot feel. It has two parts. The first is a sweep across the subject's headings. The second is an unanswerable question written on each hole the sweep finds.
 
-By this late stage the leftover holes are few, and the ones left hide. A known hole shows up as difficulty recalling or applying — the edges can be felt. An unknown hole is a perspective that was never there, so answers come confidently from what is known while an entire angle is missing. Ordinary self-testing rarely catches that second kind, because confidence tracks what can be retrieved, not what was never encoded. Nothing isolates that as a trialled finding; it is the reason the method exists.
+By this late stage few holes are left, and the ones left are hard to notice. A known hole shows up as difficulty recalling or applying something; the learner can feel its edges. An unknown hole is a perspective the learner never had. Answers on that topic come quickly and confidently from what is known, while an entire angle is missing. Ordinary self-testing rarely catches the second kind, because confidence tracks what can be retrieved. Confidence does not track what was never encoded. No trial isolates that as a finding. That miss is the reason the method exists.
 
-| How it feels | What it means | What finds it |
-|---|---|---|
-| The map will not form here | A known hole | The sweep |
-| The answer came fast and confidently | Possibly nothing, possibly an unknown hole | Cross-application |
-| A hard question on it will not invent itself | Either solid, or standing inside the hole | The second stage |
+## Core takeaways
 
-## Finding the soft spots
+- The method runs late in the study period, after spaced retrieval, revision, and practice papers have stopped turning up anything new.
+- Two kinds of hole are left by then. A known hole can be felt as difficulty. An unknown hole cannot be felt, because confidence only tracks what was retrieved.
+- The sweep lists every keyword under each syllabus heading, then asks a term from one heading of a heading that never held it. That forced question is how unknown holes show up.
+- Each hole then gets a question the learner writes and cannot answer. The question is harder than anything the exam could ask. It is not written to be answered; the value is in the work of trying.
+- The sweep costs an evening per subject. Each question costs thirty minutes to two hours for a central concept, or fifteen to twenty minutes for a minor detail, and then the learner stops.
+- Nothing isolates the method's advantage over ordinary practice. Its parts are plausible, and no trial isolates the protocol as a whole.
 
-Ordinary self-testing is the wrong instrument for a hole that never announces itself. The sweep starts from the map of the subject already held: the concepts, facts, and details that will not come quickly or confidently. When that reflection stalls, the published syllabus headings, exam-spec topics, or chapter titles work as the spine — an exam built from a published spec can only ask what the spec covers.
+## The sweep
 
-Under each heading, every related keyword that can be reached gets listed, and the relations get mapped as they come. Difficulty forming that map is itself the signal of a known hole. Then a scan for the term that belongs and was not listed. The last move is the one the method is named for. A word sitting under one heading and missing from the next gets asked of the next heading anyway. That forced fit is what brings up holes that never announced themselves.
+Ordinary self-testing is the wrong instrument for a hole the learner cannot feel. The sweep starts from the map of the subject the learner already holds: the concepts, facts, and details that do not come quickly or confidently. When that reflection stalls, the published syllabus headings, exam-spec topics, or chapter titles supply the list of headings. An exam built from a published spec can only ask what the spec covers.
+
+Under each heading, the learner lists every related keyword they can reach and maps the relations between the keywords as they come. Difficulty forming that map is itself the signal of a known hole. Next the learner scans for the term that belongs under the heading and was not listed.
+
+The last move is the one the method is named for. A word that sits under one heading and is missing from the next gets asked of the next heading anyway. That forced question is what brings up the holes the learner could not feel.
 
 ```text
-A term listed under control loops — feedback — asked of market regulation,
+Feedback is listed under control loops. It is asked of market regulation,
 a heading that never held it. Either it applies and that angle was never
 looked at (a hole, now visible), or it does not and the reason can be
 stated (itself a check).
 ```
 
-## The question you cannot answer
+## The question
 
-Those surfaced holes, once listed, are only a list, and a list is not the method. The name is literal: the question breaches the plateau on one piece of knowledge that ordinary retrieval work — repeat explanation cycles, flashcards, revision — has already stopped moving.
+The holes the sweep turns up, once listed, are only a list. The list by itself is not the method. The name is literal. The question is written to break through a plateau: one piece of knowledge that ordinary retrieval work has stopped moving. Ordinary retrieval work here means repeat explanation cycles, flashcards, and revision.
 
-Related soft spots group into one question; scraps that will not group take one each. The question is written by the learner and aimed above the hardest thing the assessment could plausibly ask — no real curveball could be that curved. It must be unanswerable at the moment of writing. A question that can be answered as it is written is a revision question.
+Related soft spots group into one question. Scraps that will not group get one question each. The learner writes the question and aims it above the hardest thing the assessment could plausibly ask. No question on the real exam would be that hard. The question must be unanswerable at the moment of writing. A question that can be answered as it is written is a revision question.
 
 **The question is not written to be answered.**
 
-The value is the depth of the dig, which usually runs out of scope, and the soft spot comes out strong. A maximally hard question draws on several concepts at once, so answering one covers neighbouring material without aiming at it. Time scales with importance: on the order of thirty minutes to two hours for a central concept, fifteen to twenty minutes for a minor detail, then stop whether or not it is answered.
+The value is in the work of trying to answer it. That work usually goes beyond the syllabus, and the soft spot ends up well learned. A maximally hard question draws on several concepts at once, so answering one covers neighbouring material without aiming at it. Time scales with importance: on the order of thirty minutes to two hours for a central concept, fifteen to twenty minutes for a minor detail. Then the learner stops, whether or not the question is answered.
 
-The same term that cross-applied becomes the question. Feedback, asked of market regulation at a height no real paper would reach, is a question the writer cannot answer as it is written. That is the check.
+The same term that was cross-applied in the sweep becomes the question. Feedback, asked of market regulation at a level no real paper would reach, is a question the writer cannot answer as it is written. That is the check.
 
-The method is advanced. It asks for cognitive-load tolerance and the ability to map relationships non-linearly in the head. It rests on the relational depth built through [[Higher-Order Learning]]; without that network the keyword lists stay flat and there is nothing to cross-apply.
+## What the method needs
 
-The sweep costs an evening per subject; each question costs fifteen minutes to two hours to chase. It spends time the late stage has, not time a full schedule has. Run early it produces flat keyword lists and nothing to force. Near an exam it can eat hours going out of scope while broad coverage is still weak. Nothing isolates its advantage over ordinary practice. Two headings' worth of cross-application turning up nothing new means the holes left are not the kind this finds: the next move is timed practice. Difficulty mapping one topic is the diagnostic, and the sweep continues. Inability to hold any map at all means the network is not there yet, and the network comes first. Past papers adjust for predictable styles. Concept mapping draws the network already held, rather than forcing terms onto headings that never held them. Those are neighbours, not this method.
+The method is advanced. It asks for tolerance of cognitive load and the ability to map relationships non-linearly in the head. It rests on the relational depth built through [[Higher-Order Learning]]. Without that network the keyword lists stay flat and there is nothing to cross-apply. Inability to hold any map at all means the network is not there yet, and the network comes first.
 
-It sits in the last stretch, once [[Spaced Interleaved Retrieval]] has already cleared the obvious holes and [[Revision]] — the ordinary test, target, teach pass — has stopped turning anything up. The layer immediately before is practice papers, in roughly the last two to three weeks; the signal to switch is practice questions no longer surfacing anything new. What the late stage is buying is a small number of much less predictable marks, not coverage. The protocol is this system's own teaching model. Its parts are plausible — confidence tracks retrieval, forced comparison surfaces relations — and no trial isolates it.
+## Cost and timing
+
+The sweep costs an evening per subject. Each question costs fifteen minutes to two hours to chase. That time is available in the late stage. A full study schedule does not have that time. Run early, the method produces flat keyword lists and nothing to force. Run near an exam while broad coverage is still weak, it can use up hours going out of scope.
+
+The method sits in the last part of the study period, once [[Spaced Interleaved Retrieval]] has already cleared the obvious holes and [[Revision]], the ordinary test, target, teach pass, has stopped turning anything up. The layer immediately before is practice papers, in roughly the last two to three weeks. The signal to switch is practice questions no longer surfacing anything new. The late stage aims at a small number of marks from much less predictable questions. It does not aim at coverage.
+
+## Reading the signals
+
+| How it feels | What it means | What finds it |
+|---|---|---|
+| The keyword map for this topic will not form | A known hole | The sweep |
+| The answer came fast and confidently | Possibly nothing, possibly an unknown hole | Cross-application |
+| No hard question on this topic comes to mind | Either the topic is solid, or the hole is one the learner cannot see | The unanswerable question |
+
+Difficulty mapping one topic is the diagnostic, and the sweep continues. Two headings' worth of cross-application that turns up nothing new means the holes left are not the kind this method finds. The next move is timed practice.
+
+## Related methods
+
+Past papers adjust for predictable question styles. Concept mapping draws the network the learner already holds, rather than forcing terms onto headings that never held them. Those are related methods, not this one.
+
+## Evidence
+
+Nothing isolates the method's advantage over ordinary practice. The protocol is this system's own teaching model. Its parts are plausible: confidence tracks retrieval, and forced comparison surfaces relations. No trial isolates the protocol.
+
+## How to practice this
+
+1. Start only after practice papers, in roughly the last two to three weeks, stop surfacing anything new. If practice questions still turn up new holes, keep doing them instead.
+2. Take the published syllabus headings, exam-spec topics, or chapter titles. Under each, list every related keyword you can reach and map the relations. Notice any heading where the map will not form; that is a known hole.
+3. Scan each heading for a term that belongs there and was not listed. Then ask a term from one heading of the next heading, where it was not listed. Notice whether it applies to an angle you never looked at, or does not and you can say why.
+4. Group related soft spots into one question, and give each ungrouped scrap its own. Write each question harder than anything the exam could ask. Check that you cannot answer it as written; if you can, it is a revision question.
+5. Work on a central concept's question for thirty minutes to two hours, a minor detail's for fifteen to twenty minutes. Stop at the limit whether or not you answered it. Notice that the work goes beyond the syllabus and covers neighbouring material.
+6. After two headings of cross-application turn up nothing new, stop the sweep and switch to timed practice. If you cannot hold any map at all, stop and build the network first.
 
 ## Sources
 

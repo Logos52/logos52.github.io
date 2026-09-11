@@ -3,7 +3,9 @@ title: "Rapid Skill Acquisition"
 type: technique
 status: developing
 created: 2026-05-23
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 source-count: 8
@@ -15,73 +17,101 @@ tags:
 
 # Rapid Skill Acquisition
 
-Rapid skill acquisition, as this page uses it, is a single loop run often: make an attempt, watch what comes back, change one thing, go again. The condition that makes the loop work is capacity. You need enough attention free to perform the move and observe it at the same time, which is why a move still absorbing all of your working memory cannot be improved yet. Each move that becomes automatic frees room for the next piece of theory to mean something. That is also the sequencing rule the page runs on: theory arrives when there is somewhere for it to land.
+Rapid skill acquisition is one loop run many times: make an attempt, look at the result, change one thing, try again. The loop needs spare attention. You have to be able to perform the move and watch it at the same time. A move that still takes all of your working memory cannot be improved yet, because no attention is left over to watch it. When a move becomes automatic, it stops using working memory, and the freed capacity can then hold the next piece of theory. So new theory is added only after an earlier move has become automatic.
 
-## The cycle is the engine
+## Core takeaways
 
-Every skill improves through an experiential cycle: attempt, observe the result, identify what should change, then test the adjustment. Without that cycle, practice is just activity. Mere repetition is not deliberate practice. Volume is not the variable.
+- A skill improves through a four-step cycle: make an attempt, observe the result, decide what to change, test the change. Repetition without those steps does not improve the skill.
+- Working memory is limited. Every technique that is not yet automatic uses some of it, and performing the new skill uses more. This leaves less room for new theory than it seems.
+- A starting ratio is about five hours of practice for each hour of new instruction. The ratio is a starting default, and no research isolates it as a finding. After starting, add theory when the current techniques run without deliberate monitoring, and stop using the ratio.
+- A technique is ready to build on when it gets faster without effort, accuracy holds, performance stays stable under fatigue or distraction, and you can reconstruct it without notes.
+- Work on one or two techniques at a time. With more than that, feedback is noisy and you cannot tell which change caused which result.
+- When progress stalls, the common mistake is to add more material. The fix is to reduce the active theory, return to one or two techniques, and wait for the readiness signs.
 
-Archery is the picture, not a person. Fire. See where it lands. Name the change. Run the experiment. More arrows without those four moves accumulate motion, not skill.
+## The practice cycle
 
-The same four moves are [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb's Experiential Cycle]], and on this page they are not optional phases. After an attempt: what happened, how it felt and why, what rule that suggests, what changes next time. Concrete experience, reflective observation, abstract conceptualization, active experimentation. Leave one out and repetition still accumulates without improvement.
+Every skill improves through the same cycle: make an attempt, observe the result, identify what should change, then test the adjustment. Without that cycle, practice is activity without improvement. Repetition on its own is not deliberate practice. The number of repetitions is not what decides whether the skill improves.
 
-Theory serves the cycle. It supplies better hypotheses for the reflection and more precise targets for the next experiment. It does not replace the loop.
+Archery shows the cycle. Shoot an arrow, see where it lands, decide what to change, and shoot again with that change. Shooting more arrows without those four steps adds repetitions and does not add skill.
 
-## Why the next idea has to wait
+The four steps are the four stages of [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb's Experiential Cycle]]: concrete experience, reflective observation, abstract conceptualization, active experimentation. After an attempt, the questions are: what happened, how it felt and why, what rule that suggests, and what to change next time. None of the four stages is optional. If one is left out, repetition continues and improvement does not.
 
-The cycle only works when there is capacity to perform the skill and monitor the change at the same time. Once the loop is intact, the governing variable is cognitive load. Working memory is finite. [[Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] is why that headroom is thin during early skill learning: the work and the watching share the same limited resource.
+Theory supports the cycle. It gives better hypotheses to consider during reflection and more precise targets for the next experiment. It does not replace the cycle.
 
-On this page **habit** and **habituated** mean a move that now runs without being held in working memory — compiled enough to free the slot. That is not the cue-response object on the unlearning-habits page. New techniques demand conscious resources. Compiled ones do not. Habit formation in that sense is the rate limiter.
+## Why working memory limits new theory
 
-Every technique not yet habituated occupies some of that capacity as a live instruction. The new skill itself consumes still more, just to perform. Available space for new theory is narrower than it appears.
+The cycle works only when you have enough attention to perform the skill and watch the result at the same time. Once the cycle is in place, the limiting factor is cognitive load. Working memory is finite. [[Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] explains why there is little spare working memory early in learning a skill: performing the move and watching it use the same limited resource.
 
-Cognitive skills are doubly expensive. Unlike physical skills, they burn the same resource — working memory — for both execution and learning. Motor skills can offload more cleanly onto procedural loops. The contrast is real and not absolute: early motor learning is also working-memory heavy. A simple motor pattern might habituate in hours. A complex metacognitive technique might take weeks of daily use. Those timescales are this system's illustration, not a finding.
+A **habit**, or a **habituated** move, is a move that now runs without being held in working memory. It has been compiled far enough that it no longer takes up a working-memory slot. This is not the cue-and-response habit described on the unlearning-habits page. A new technique needs conscious attention. A compiled technique does not. The rate at which techniques become habits in this sense sets the rate at which you can learn.
 
-## The signal is the rule
+Every technique that is not yet automatic takes up part of working memory as an instruction you are holding in mind. Performing the new skill itself takes more. The room left for new theory is smaller than it seems.
 
-As practice makes a move easier, faster, accurate, and consistent, it frees mental resources for the next piece of theory. Each new idea enters when the system can absorb it. That is the compounding. The rule that produces it is not a ratio.
+Cognitive skills draw on working memory for two jobs at once: performing the skill and learning it. Motor skills can move more of the performing onto procedural loops that do not use working memory. The difference is real but not absolute: early motor learning also uses a lot of working memory. A simple motor pattern might become automatic in hours. A complex metacognitive technique might take weeks of daily use. Those timescales are examples. They are not measured findings.
 
-A useful starting guess is roughly five hours of practice for every hour of new instruction, then the number is ignored and the signal is watched. That is the house **1:5 rule**: a floor, never a finding. At five hours of weekly practice, one hour of theory. At twenty hours, up to four. The proportion holds regardless of absolute volume, as this system's own teaching default. Slower habit formers need 15:1 or more. Fifteen-to-one is the page's extension, also not a finding. The ratio is personal and should be calibrated to feel.
+## How much theory to add, and when
 
-Theory is added when the current batch is smooth enough to execute without deliberate monitoring. Calibrate by that signal, not by the ratio. The number is the ladder, then it is kicked away. [[wiki/Syntheses/The 30-Day Plan|The 30-Day Plan]] reuses the same floor-then-signal rule, so the two pages cannot drift. [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is the metacognitive work of watching how fast a move is habituating and throttling intake to match.
+As practice makes a move easier, faster, more accurate, and more consistent, working memory is freed for the next piece of theory. Each new idea is added when there is capacity to absorb it. This is what makes the gains compound: each automatic move makes the next piece of theory cheaper to take in. What decides when to add theory is whether the current move has become automatic.
+
+A starting guess is roughly five hours of practice for every hour of new instruction. This is the **1:5 rule**. It is a starting default. No research isolates this ratio as a finding. At five hours of weekly practice, add one hour of theory. At twenty hours, add up to four. The proportion is a teaching default that holds at any weekly volume. People who form habits more slowly need 15:1 or more. The 15:1 figure is an extension of the same default, and it is also not a finding. The ratio is personal and should be adjusted by how the practice feels.
+
+After starting from the ratio, add theory when the current set of techniques runs smoothly without deliberate monitoring. Adjust by that sign, and stop using the ratio. The number is a starting point that is dropped once the sign can be read. [[wiki/Syntheses/The 30-Day Plan|The 30-Day Plan]] uses the same rule: start from the ratio, then follow the sign. [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is the metacognitive work of watching how fast a move is becoming automatic and adjusting theory intake to match.
+
+## Signs that a move has become automatic
+
+Readiness for new theory has recognisable signs. Execution speeds up without you trying to go faster, and accuracy holds or improves. Two more signs sit beside that one: performance stays stable under fatigue or distraction, and you can reconstruct the technique without reference materials. The first of these two is a dual-task test. The second is a retrieval test. A training folk-model calls this shift conscious competence becoming automatic execution. That description is from a training folk-model. It is not from a research paper. These signs are more reliable than a time-based rule because people become automatic at different rates. Until the signs appear, keep working on the current pair of techniques and add nothing.
 
 ## Running a session
 
-Readiness has a feel. Execution speeds up without anyone trying to go faster, and accuracy holds or improves. Two further signals sit beside that one: performance remains stable under fatigue or distraction, and the technique can be reconstructed without reference materials. The first is a dual-task test. The second is a retrieval test. A training folk-model calls the same shift conscious competence becoming automatic execution; that gloss is not a paper. The signal is more reliable than a time-based rule because it accounts for how differently people compile. Until it arrives, the current pair of techniques stays.
+A narrow session target produces a clear signal. Track one or two things. Too many corrections at once produce noisy feedback, and you cannot tell which change produced which result. [[Marginal Gains]] applies the same isolation logic at a different scale.
 
-A narrow session target produces a clear signal. One or two things to track. Too many concurrent corrections produce noisy feedback, and nothing can be attributed. [[Marginal Gains]] is the same isolation logic at a different scale.
+A session is a short sequence. Define the target skill in observable terms. Identify the smallest useful version of it. Try it earlier than feels comfortable. Notice how it fails. Learn only the theory needed to fix that failure. Practise again with better constraints, then again with tighter feedback. [[Prestudy]] is the question of how much conceptual preparation is useful before that first attempt in context: enough to know what to aim for, and not so much that the first attempt is delayed.
 
-The session itself is a short sequence. Define the target skill in observable terms. Identify the smallest useful version of it. Try it earlier than feels comfortable. Notice the failure mode. Learn only the theory needed to fix that failure. Practice again with better constraints, then again with tighter feedback. [[Prestudy]] is the question of how much conceptual preparation is useful before that first attempt in context — enough to aim, not enough to postpone the shot.
+New methods go into the hours you already spend practising, in place of old methods. Adding hours on top of an unchanged routine is the same mistake as covering more content: more activity without improvement.
 
-New methods replace old ones inside hours already spent. Extra hours stacked on top of an unchanged routine is the coverage failure from the other side.
+In a session run this way, the target is narrow and the feedback can be interpreted. Progress feels directional, though not necessarily fast. The list of theory still to be learned is visible, and it does not create pressure to skip ahead.
 
-Each session has a narrow target. Feedback is interpretable. Progress feels directional, not necessarily fast. The theory queue is visible and does not create urgency to jump ahead.
+## When progress stalls
 
-The common failure is mistaking content coverage for skill progress. Many live instructions, noisy feedback, nothing consolidates. The learner concludes the skill is difficult or the method is not working, when the actual problem is sequencing. The instinct when progress stalls is to add more. The productive move is the opposite: reduce active theory load, return to one or two techniques, wait for the signal. [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] is the sibling warning: understanding the theory is not the same as being ready to use it.
+The common failure is mistaking content coverage for skill progress. Many techniques are held in mind at once, feedback is noisy, and nothing becomes automatic. The learner concludes that the skill is difficult or that the method is not working. The actual problem is sequencing: too much was added too soon. When progress stalls, the usual instinct is to add more. The productive move is to reduce the active theory load, return to one or two techniques, and wait for the readiness signs. [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] gives the related warning: understanding the theory is not the same as being ready to use it.
 
-## Research Foundations
+## What the research supports and what it does not
 
-Theory and practice have to scale together. Neither alone produces skill. Unguided practice fails. Theory without the cycle is coverage mistaken for progress.
+Theory and practice have to grow together. Neither alone produces skill. Practice without guidance fails. Theory without the practice cycle is content coverage mistaken for progress.
 
-What is established: skill moves toward autonomy and attentional demand falls; practice frees working memory for a second load; deliberate practice is not mere volume; schema automation is a cognitive-load fact; the experiential cycle is a named loop. What is not established: 1:5, 15:1, or any neighbouring ratio as an isolating finding. Whether 1:5 outperforms 1:3 or 1:10 when signal-calibration is held constant is open. Four stages of competence remains a training folk-model.
+Established in the research: as a skill develops it moves toward automatic execution and needs less attention; practice frees working memory for a second task; deliberate practice is not the same as volume of practice; automation of schemas is a cognitive-load fact; the experiential cycle is a named, studied loop. Not established: 1:5, 15:1, or any nearby ratio as an isolated finding. Whether 1:5 outperforms 1:3 or 1:10 when signal-based calibration is held constant is an open question. The four stages of competence is a training folk-model, and no research result confirms it.
 
-The case against this method is specific. Waiting for a signal that will not come because the target is too coarse. Treating the floor as a law and starving a ready skill of the next instruction. Running the wait as a reason to avoid theory when the cycle itself is broken — there is then nothing for the signal to report on. A learner with no attempt-feedback loop yet should not be calibrating intake.
+## When this method fails
 
-The price is hours of practice per hour of new instruction, and the wait for the signal. The benefit in the same breath: each new idea arrives into spare capacity. Quit signals: nothing has habituated after a long stretch at one or two techniques — the target or the grain is wrong; feedback stays noisy — too many live instructions; two sessions of "add more" as the repair means sequencing has failed. Checkable: speed without effort; accuracy holding; stable under a second load; reconstructible with the notes closed.
+The method fails in specific ways. Waiting for a readiness sign that never comes because the target skill is too coarse to become automatic. Treating the 1:5 floor as a law and withholding the next instruction from a skill that is ready for it. Using the wait as a reason to avoid theory when the practice cycle itself is broken; a broken cycle produces no sign to wait for. A learner who does not yet have an attempt-and-feedback loop should not be calibrating theory intake at all.
 
-A compiled move has stopped occupying attention. The next instruction is finally cheap. That is the same bottleneck the page opened on, seen from the far side.
+The cost is hours of practice for each hour of new instruction, plus the wait for the readiness sign. The benefit is that each new idea is taken in when there is working memory free for it.
 
-## Links into the knowledge base
+Signs to stop and change the approach: nothing has become automatic after a long stretch on one or two techniques, which means the target or its size is wrong; feedback stays noisy, which means too many techniques are active; two sessions in a row where the repair was to add more, which means sequencing has failed.
 
-- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb's Experiential Cycle]] — the four-stage loop the session actually runs.
-- [[Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — why working-memory headroom is thin while a move is still a live instruction.
-- [[Marginal Gains]] — one or two techniques at a time is the same isolation logic.
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — watching habit-formation speed and calibrating intake.
-- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — understanding theory is not being ready to use it.
-- [[Prestudy]] — how much conceptual preparation is useful before the first attempt in context.
-- [[wiki/Syntheses/The 30-Day Plan|The 30-Day Plan]] — the same floor-then-signal rule at plan scale.
+Signs that can be checked directly: speed without effort; accuracy holding; performance stable under a second task; the technique reconstructible with the notes closed.
 
-## Open Questions
+A move that has become automatic no longer uses attention. The next instruction is then cheap to take in.
+
+## How to practice this
+
+1. Define the target skill in observable terms and pick the smallest useful version of it. Try it earlier than feels comfortable. Notice how the attempt fails.
+2. Learn only the theory needed to fix that failure. Then practise again with better constraints, and again with tighter feedback. Notice whether the feedback is clear enough to tell what changed.
+3. Keep one or two techniques active at a time. If feedback is noisy and you cannot tell which change caused a result, too many techniques are active.
+4. Start with about five hours of practice for each hour of new instruction. Then watch the current techniques instead of the ratio. Notice when they run without deliberate monitoring.
+5. Check the readiness signs before adding theory: faster without effort, accuracy holding, stable when tired or distracted, reconstructible without notes. Add the next piece of theory when these signs appear. Until then, keep the same one or two techniques.
+6. If progress stalls, do not add material. Reduce the active theory, return to one or two techniques, and wait for the readiness signs. If two sessions in a row were repaired by adding more, sequencing has failed.
+
+## Related pages
+
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb's Experiential Cycle]]: the four-stage loop a session runs.
+- [[Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]: why there is little spare working memory while a move still needs conscious attention.
+- [[Marginal Gains]]: one or two techniques at a time is the same isolation logic.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: watching how fast a move becomes automatic and adjusting theory intake.
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]: understanding theory is not being ready to use it.
+- [[Prestudy]]: how much conceptual preparation is useful before the first attempt in context.
+- [[wiki/Syntheses/The 30-Day Plan|The 30-Day Plan]]: the same start-from-the-ratio, then-follow-the-sign rule at plan scale.
+
+## Open questions
 
 Whether 1:5 outperforms nearby ratios when signal-calibration is held constant.
 

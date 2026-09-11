@@ -121,7 +121,7 @@ GOAL: Access through Heavy is not a reason to run both on every task. [SOLID] on
 
 | Page | Absorb | Refuse |
 |---|---|---|
-| [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot\|Grok 4.6 and Grok Bot]] | Addendum: Heavy unlocks Build and the Cursor IDE; routing table by surface; one writer per tree; Ultra-duration contradiction named | Composer as the comparison; Cursor as a fourth standing agent; settling Ultra as one month or as forever-while-Heavy |
+| [[wiki/Systems/AI & Agentic Systems/Agent Glossary\|Grok 4.6 and Grok Bot]] | Addendum: Heavy unlocks Build and the Cursor IDE; routing table by surface; one writer per tree; Ultra-duration contradiction named | Composer as the comparison; Cursor as a fourth standing agent; settling Ultra as one month or as forever-while-Heavy |
 | [[journal/2026-08-13-cursor-ultra-month\|Cursor Ultra month]] | Footnote: 15 Aug help text disagrees with this entry's duration | Silent overwrite of the 13 Aug verdict |
 | [[journal/2026-08-15-what-works-grok-46-and-grok-bot\|What works]] | Harness row can now say "route by surface; still unscored as a habit" | Claiming Cursor won |
 

@@ -79,7 +79,7 @@ Cursor.app is not on this Mac as of this writing (`/Applications` has no Cursor;
 
 ## Duration note, 2026-08-15
 
-The same help page, re-fetched two days later, now says Ultra "remains active at no charge so long as the SuperGrok Heavy plan is active on renewal." That contradicts the one-month / no-repeat / no-auto-renew reading recorded above. Not silently reconciled. The two assigned jobs still have to run before anyone treats Ultra as a standing seat. Bank: [[wiki/Research/Grok Build and Cursor Bank|Grok Build and Cursor Bank]]. Addendum: [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]].
+The same help page, re-fetched two days later, now says Ultra "remains active at no charge so long as the SuperGrok Heavy plan is active on renewal." That contradicts the one-month / no-repeat / no-auto-renew reading recorded above. Not silently reconciled. The two assigned jobs still have to run before anyone treats Ultra as a standing seat. Bank: [[wiki/Research/Grok Build and Cursor Bank|Grok Build and Cursor Bank]]. Addendum: [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]].
 
 ## Sources
 

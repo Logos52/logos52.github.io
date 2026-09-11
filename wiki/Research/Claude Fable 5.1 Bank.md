@@ -18,13 +18,13 @@ source-count: 18
 
 Raw reference. One fact per line. Grades: **documented** (vendor docs or official post), **reported** (press or several outlets), **single-source** (one outlet, verify before shipping), **firsthand** (this desk). The writer does not paste this file into the page.
 
-**Novelty note.** Entries checked: [[wiki/Systems/AI & Agentic Systems/Claude Fable|Claude Fable]] (Fable 5 operating notes, last updated 2026-08-14), [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] (writer seat moved off Fable 2026-09-01), [[01 - Workbench/Fable - Research Bank - Claude and Grok Tools.md]] (tools, 2026-08-26), [[journal/2026-09-01-grok-writes]]. This bank differs by compiling the 5.1 launch (2026-09-01) plus the first day of field talk, including Anthropic's own "mannered prose" prompt. It is not a rewrite of the June Fable 5 page.
+**Novelty note.** Entries checked: [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Claude Fable]] (Fable 5 operating notes, last updated 2026-08-14), [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] (writer seat moved off Fable 2026-09-01), [[01 - Workbench/Fable - Research Bank - Claude and Grok Tools.md]] (tools, 2026-08-26), [[journal/2026-09-01-grok-writes]]. This bank differs by compiling the 5.1 launch (2026-09-01) plus the first day of field talk, including Anthropic's own "mannered prose" prompt. It is not a rewrite of the June Fable 5 page.
 
 ## Brief for the writer (Fable)
 
 The owner wants a **rolling webpage** for Fable 5.1, and is considering the same shape for most models this desk uses. Rolling means one public page per model family that gets a new dated pass when a point release ships. It is not a new URL per decimal.
 
-Recommended target: update [[wiki/Systems/AI & Agentic Systems/Claude Fable|Claude Fable]]. Do not invent a second glossary entry. The glossary already holds Fable as a **model**. The page title stays Claude Fable. Sentence one names the current version. A short dated section holds Fable 5 as history.
+Recommended target: update [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Claude Fable]]. Do not invent a second glossary entry. The glossary already holds Fable as a **model**. The page title stays Claude Fable. Sentence one names the current version. A short dated section holds Fable 5 as history.
 
 Do not reverse the stack. As of 1 September 2026 this desk's default writer is Grok 4.6. Cowork on Fable is research on request. Late-August Fable prose was a rewrite tax. A 5.1 writing improvement is a field claim to weigh, not a silent restack.
 
@@ -130,7 +130,7 @@ Say who measured. Do not treat as this desk's measurement. Fable 5.1 vs Fable 5 
 
 ## What this desk already holds
 
-- [[wiki/Systems/AI & Agentic Systems/Claude Fable]]: Fable 5, June 2026. Earns on wide tasks over files on disk. Fails on taste-bound work without exemplars. Five invariants listed there. Suspension 12 June 2026, later returned. firsthand / that page.
+- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Claude Fable]]: Fable 5, June 2026. Earns on wide tasks over files on disk. Fails on taste-bound work without exemplars. Five invariants listed there. Suspension 12 June 2026, later returned. firsthand / that page.
 - Stack as of 1 September 2026: Grok 4.6 is primary writer; Cowork (Fable 5 / Opus 5) is research on request. firsthand.
 - Token-metered API is off the roster (2026-08-28: "i don't like anything with API."). Cowork/Code seats are subscription. firsthand.
 - No 5.1 hands-on on this desk as of the bank date. Do not invent a 5.1 firsthand writing result.
@@ -171,7 +171,7 @@ Say who measured. Do not treat as this desk's measurement. Fable 5.1 vs Fable 5 
 - [CodeRabbit](https://www.coderabbit.ai/blog/fable-5-1-model-review)
 - [Snorkel](https://snorkel.ai/blog/fable-5-1-vs-opus-5-coding-benchmark)
 - [Simon Willison pelican](https://simonwillison.net/2026/Sep/1/claude-fable-5-1/)
-- [[wiki/Systems/AI & Agentic Systems/Claude Fable|Claude Fable]] — Fable 5 operating notes
+- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Claude Fable]] — Fable 5 operating notes
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]
 - [[journal/2026-09-01-grok-writes]]
 - `01 - Workbench/fable-51-mannered-prose-prompt-2026-09-02.md`

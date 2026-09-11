@@ -87,7 +87,7 @@ It also connects to LLM use. A model can produce fluent claims that sound comple
 ## Candidate Wiki Updates
 
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
-- [[wiki/Concepts/Thinking Models|Thinking Models]]
+- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]]
 - [[wiki/Concepts/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 

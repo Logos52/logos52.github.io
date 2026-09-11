@@ -113,7 +113,7 @@ Small teams focused on one product outperform large teams spread across many. Th
 
 ## Links Into the Knowledge Base
 
-- [[wiki/Self Management/Attention Management - Preserving Flow]] — related; covers flow and attention from a different angle
+- [[wiki/Self Management/Flow State|Attention Management - Preserving Flow]] — related; covers flow and attention from a different angle
 - [[wiki/Self Management/Flow State]] — deep work prerequisites overlap with flow state conditions
 - [[wiki/Self Management/Procrastination - a System Problem]] — frontloading connects to procrastination as a setup problem
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer]] — notice-and-return is a metacognitive act

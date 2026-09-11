@@ -20,7 +20,7 @@ Mindset is the interpretation layer under everyday action: it decides what diffi
 ## 1. The stance toward difficulty
 
 - **Abilities read as improvable, and the reading is trained, not affirmed.** Growth mindset moves through smaller, cheaper mistakes accumulated in practice, never through slogans ([[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]], [[wiki/Dimensions/Mindset|Mindset]]).
-- **Difficulty is fuel or verdict, and the choice of reading decides the response.** Felt challenge means the edge of ability has been found, which is where improvement lives ([[wiki/Dimensions/Mindset/The Learning Zone and the Reversion Response|The Learning Zone]]).
+- **Difficulty is fuel or verdict, and the choice of reading decides the response.** Felt challenge means the edge of ability has been found, which is where improvement lives ([[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|The Learning Zone]]).
 - **Threat inflation is a known hijacker.** High emotional reactivity turns ordinary difficulty into danger, feedback into identity damage, and uncertainty into avoidance — worth recognizing as a pattern rather than as truth ([[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]]).
 
 ## 2. Mistakes are the mechanism
@@ -31,18 +31,18 @@ Mindset is the interpretation layer under everyday action: it decides what diffi
 
 ## 3. Wanting instead of forcing
 
-- **Motivation is startup fuel, never the engine.** It carries the upfront stretch of habit formation, before progress is visible, then hands off to the habit and frees itself for the next skill ([[wiki/Dimensions/Mindset/Motivation|Motivation]]).
+- **Motivation is startup fuel, never the engine.** It carries the upfront stretch of habit formation, before progress is visible, then hands off to the habit and frees itself for the next skill ([[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|Motivation]]).
 - **The target state is motivation-enhanced, not motivation-dependent.** Waiting to feel ready is the hidden rule under most procrastination, and consistency built on internal readiness inherits its volatility ([[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|How to Shift Your Brain to Be Motivated]]).
 - **Feeling, thought, and action are three events, not one.** "I feel tired" is a sensation, "I can't work" is an interpretation, "I stop" is an action; noticing the first without obeying the second leaves the third a free choice — defusion, not suppression, and the feeling stays ([[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|the DFUZ page]], the D).
 - **The loop runs backwards too.** Acting like the person who does the task produces the thoughts that change the feeling; the want can be built from the action side ([[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|DFUZ]]).
 - **Willpower spent on routine starts is missing on hard days.** The reserve model: structure carries the ordinary, and the reserve stays full for genuine difficulty ([[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|DFUZ]], [[wiki/Dimensions/Self-Management|Self-Management]]).
-- **Visible progress manufactures the want.** Concrete evidence of improvement is what sustains effort through habit formation — tracking small gains is a motivation instrument, not bookkeeping ([[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]], [[wiki/Dimensions/Mindset/Marginal Gains in Practice|Marginal Gains in Practice]]).
+- **Visible progress manufactures the want.** Concrete evidence of improvement is what sustains effort through habit formation — tracking small gains is a motivation instrument, not bookkeeping ([[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]], [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains in Practice]]).
 
 ## 4. The traps
 
 - **"Good enough" is usually loss aversion in a reasonable coat.** Protecting the familiar method costs the skills that would compound for life, and learners who settled there report the regret later ([[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]]).
 - **The small pond flatters.** Measuring against whoever is visible feels like standards and isn't; the comparison that means something is against the standard itself ([[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]]).
-- **Ordinary resistance and genuine depletion are different signals.** Defusion handles the first; only recovery answers the second, and rest read as failure is the method turning on its user ([[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|DFUZ]], [[wiki/Dimensions/Self-Regulation/Recovery|Recovery]]).
+- **Ordinary resistance and genuine depletion are different signals.** Defusion handles the first; only recovery answers the second, and rest read as failure is the method turning on its user ([[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|DFUZ]], [[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure|Recovery]]).
 
 ## 5. Judging gains
 

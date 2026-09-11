@@ -3,9 +3,10 @@ title: "Levels of Thinking - The Step Back"
 type: concept
 status: developing
 created: 2026-09-08
-updated: 2026-09-08
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: opus
 written-by: fable
-method: fable-5.1-one-pass
 diagrams: scripts/gen-levels-of-thinking-diagrams.py
 source-count: 1
 description: "A level of thinking is one step back from your own reaction, and there are nine of them, from your own needs up to watching your own mind build a reaction. Higher means more aware and not a better person, each capacity climbs at its own pace, and the way up is to sit with a reaction and ask why until you reach where it came from."
@@ -19,26 +20,26 @@ tags:
 
 # Levels of Thinking - The Step Back
 
-## Reasoning
+A level of thinking is one step back from your own reaction. There are nine of them.
 
-### Abstract
+At the first level you have needs and feelings and no idea that anyone else has a mind. At the second you know other people have minds. At the third you see that they see each other too, which makes a web of relationships you can work. At the fourth you see yourself the way another person in your culture sees you. At the fifth you see your culture the way a stranger would. At the sixth you see that who is looking changes what is seen. At the seventh you see your own view as something that grew over time. At the eighth you watch your own mind build a reaction as it happens. At the ninth you watch the watching and choose where to look from.
 
-A level of thinking is one step back from your own reaction, and there are nine steps. At the first you have needs and feelings and no idea that anyone else has a mind. At the second you know other people have minds. At the third you see that they see each other too, which makes a social web you can work. At the fourth you see yourself the way another person in your culture sees you. At the fifth you see your culture the way a stranger would. At the sixth you see that who is looking changes what is seen. At the seventh you see your own view as something that grew over time. At the eighth you watch your own mind build a reaction as it happens. At the ninth you watch the watching and choose where to look from. Nobody lives at a level. A person slowly gains the ability to think at the higher ones with experience, and everyone runs the lower ones every day. Higher means more aware, not a better person, and each capacity a person has climbs at its own pace, so a person can be far up on thinking and far down on morals. The way up is to sit with a reaction and ask why it is there, then why that matters, until you reach where it came from.
+Nobody lives at a level. A person slowly gains the ability to think at the higher ones with experience, and everyone runs the lower ones every day. A higher level means more awareness. It does not mean a better person. Each capacity a person has climbs at its own pace, so a person can be far up on thinking and far down on morals. The way up is to sit with a reaction and ask why it is there, then why that matters, until you reach where it came from.
 
-### Core takeaways
+## Core takeaways
 
-- A level of thinking is how many steps back you can take from your own reaction. The first three steps are about getting what you want. From the fourth on, you can see yourself from outside.
-- Higher means more aware, not a better person, and not always more effective. Level six, where every view counts as valid, is the one that goes wrong most.
+- A level of thinking is how many steps back you can take from your own reaction. The first three steps are about getting what you want. From the fourth step on, you can see yourself from outside.
+- A higher level means more awareness. It does not mean a better person, and it does not always mean more effective. The sixth level, where every view counts as valid, is the one that goes wrong most.
 - Each capacity climbs at its own pace. Someone can be at nine on thinking and at three on morals, or high overall and still worse than another person at one thing.
-- Some problems cannot be solved at the level they came from. That is the reason to climb even though higher is not always better.
+- Some problems cannot be solved at the level they came from. That is the reason to climb even though a higher level is not always better.
 - The way up is the why method. Sit with a reaction and ask why it is there. Then ask why that matters. Keep going until you reach where it came from.
 - Seeing a thing, then seeing your own reaction to it, then knowing where that reaction comes from, is what stops you from just reacting.
 
-### Essay
+## The nine steps back
 
-Start with the smallest case. You need the bathroom. That is a feeling, an urge, and nothing more, and it is a level-one process. Everyone runs it every day, including people who can think at the top of the ladder. Nobody lives at a level. What a person gains with experience is the ability to think at higher levels when it matters. How far and how fast they get there depends on four things. Their surroundings, their choices, their culture, and the brain they were born with. Everyone starts at the bottom. Nearly everyone reaches at least the fourth level by adulthood. Most people on Earth spend most of their time in the first four, and the fifth is common only in modernized places.
+You need the bathroom. That is a feeling, an urge, and nothing more, and it is a level-one process. Everyone runs it every day, including people who can think at the ninth level. Nobody lives at a level. What a person gains with experience is the ability to think at higher levels when it matters. How far and how fast they get there depends on four things. Their surroundings, their choices, their culture, and the brain they were born with. Everyone starts at the bottom. Nearly everyone reaches at least the fourth level by adulthood. Most people on Earth spend most of their time in the first four levels, and the fifth is common only in modernized places.
 
-The ladder is a ladder of perspective. Each step is one more step back. At the first three you are the main character. You have needs. Then you know other people have needs. Then you see that they see each other, so there is a web of relationships you can step back from and work. Those three think about thinking, but only for the purpose of getting what you want. The fourth step is the first one that turns the looking around. You see yourself the way another person in your culture sees you. That is where fitting in begins, and shared rules, and morality as most people mean it. The fifth step turns it around again. You see your culture's rules the way a stranger would, which is where science and the comparing of rule sets come from. The sixth sees that who is looking changes what is seen, so many views are valid. The seventh sees that a view grew over time, yours and everyone's, so people and behaviors belong where they fit. The eighth watches the mind build a reaction as it happens. The ninth watches the watching.
+Each step is one more step back than the one below it. At the first three levels everything is arranged around what you want. You have needs. Then you know other people have needs. Then you see that they see each other, so there is a web of relationships you can step back from and work. Those three levels think about thinking, but only for the purpose of getting what you want. The fourth step is the first one that turns the looking around. You see yourself the way another person in your culture sees you. That is where fitting in begins, and shared rules, and morality as most people mean it. The fifth step turns it around again. You see your culture's rules the way a stranger would, which is where science and the comparing of rule sets come from. The sixth sees that who is looking changes what is seen, so many views are valid. The seventh sees that a view grew over time, yours and everyone's, so people and behaviors belong where they fit. The eighth watches the mind build a reaction as it happens. The ninth watches the watching.
 
 <!-- diagram:ladder -->
 <svg viewBox="0 0 680 252" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The nine levels of thinking as nine steps back from your own reaction" style="max-width:100%;height:auto" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
@@ -82,19 +83,17 @@ The ladder is a ladder of perspective. Each step is one more step back. At the f
 </svg>
 <!-- /diagram -->
 
-Two things keep the ladder honest. Higher does not mean a better person. It means more aware, and it does not always mean more effective either. The sixth level is famous for turning people into hippies. Once every view is valid, who is anyone to say what should and should not be done. And each capacity a person has climbs at its own pace. A person can be at nine on thinking and at three on morals. One person can understand history and politics to a high degree and have little empathy, while another half gets it and is great with people. Everyone's pattern of development is different, so the ladder is not a ranking of people.
+## What a level does not tell you about a person
 
-Then why climb at all? Because higher is usually better. A world with grocery stores and electricity is a complex world, and it needs complex thinking. And some problems cannot be solved at the level they came from. A reaction that came from a feeling off a phone cannot be sorted out by having the feeling harder. It gets sorted out one step back, where the reaction can be seen as a reaction. That is what the ladder is for, and it is why thinking about thinking is worth the time.
+A higher level means more awareness. It does not mean a better person, and it does not always mean more effective. Each capacity a person has climbs at its own pace. A person can be at nine on thinking and at three on morals. One person can understand history and politics to a high degree and have little empathy. Another person half gets history and politics and is great with people. Everyone's pattern of development is different, so the nine levels are not a ranking of people.
 
-### Conclusion
+## Why the higher levels are worth reaching
 
-A level of thinking is one step back from your own reaction. The nine steps go from your own needs, through other minds and the web between them, to seeing yourself from outside, then your culture from outside, then the looking itself, then your view as a history, then your mind at work, then the watching. Higher means more aware and not better, and your capacities climb unevenly. The climb is made by sitting with a reaction and asking why until you reach where it came from. The reason to make it is that the problem you are stuck on may not be solvable at the level that made it.
+A higher level is usually better. A world with grocery stores and electricity is a complex world, and it needs complex thinking. Some problems cannot be solved at the level they came from. A reaction that came from a feeling off a phone does not get sorted out by having the feeling harder. It gets sorted out one step back, where the reaction can be seen as a reaction. That is what makes thinking about thinking worth the time. The problem you are stuck on may not be solvable at the level that made it.
 
 ## The nine levels
 
 Each level below is given with what comes into view at that step, what it lets you do, and, where it matters, where it goes wrong. They run in order, and each one keeps everything below it.
-
-**Contents:** [Step one, survive](#step-one-survive) · [Step two, connect](#step-two-connect) · [Step three, control](#step-three-control) · [Step four, belong](#step-four-belong) · [Step five, observe from outside](#step-five-observe-from-outside) · [Step six, the one looking](#step-six-the-one-looking) · [Step seven, harmonize](#step-seven-harmonize) · [Step eight, watch the mind build itself](#step-eight-watch-the-mind-build-itself) · [Step nine, choose where to look from](#step-nine-choose-where-to-look-from) · [The why method](#the-why-method)
 
 ### Step one, survive
 
@@ -122,7 +121,7 @@ Each level below is given with what comes into view at that step, what it lets y
 </svg>
 <!-- /diagram -->
 
-The first level is moment to moment. What do I need, do I need food, do I need sleep. It is your own feelings and nothing else, and at this level there is no such thing as another person's mind. A group of people living here would be a small band doing what it must to survive, not thinking much about each other's thoughts. Everyone keeps this level for life. It is where an urge lives.
+The first level is moment to moment. What do I need, do I need food, do I need sleep. It is your own feelings and nothing else, and at this level there is no such thing as another person's mind. A group of people living here would be a small band doing what it must to survive, without thinking much about each other's thoughts. Everyone keeps this level for life. An urge is a level-one process.
 
 ### Step two, connect
 
@@ -151,7 +150,7 @@ The first level is moment to moment. What do I need, do I need food, do I need s
 </svg>
 <!-- /diagram -->
 
-At the second level you can think about what is in someone else's mind. What does this person want or need? The thought that follows is that what you do changes what they think of you and what they do for you. The same move gets applied to things that are not people. If it is not raining, maybe someone in the sky has not been pleased. If the volcano is angry, maybe it wants something. A group living here would be a small tribe focused on safety, security, and dependable day-to-day habits. The thinking about other minds has begun, but it is about getting what you need from them.
+At the second level you can think about what is in someone else's mind. What does this person want or need? The thought that follows is that what you do changes what they think of you and what they do for you. The same move gets applied to things that are not people. If it is not raining, maybe someone in the sky has not been pleased. If the volcano is angry, maybe it wants something. A group living here would be a small tribe focused on safety, security, and dependable day-to-day habits. Thinking about other minds has begun at this level, and it is about getting what you need from them.
 
 ### Step three, control
 
@@ -179,7 +178,7 @@ At the second level you can think about what is in someone else's mind. What doe
 </svg>
 <!-- /diagram -->
 
-At the third level you know that other people know that others have feelings and needs. That means they have relationships to each other, the same way you have relationships to each of them. Direct connections become a web, and a web is a social situation you can step back from and manage. Someone sees a bad thing about men on her phone, then sees the man in her life, and at this level she steps back to ask why he is being like that and what she can do about the relationship. This level is still very common. It shows up in the mafia, in sports teams, among firemen, police, and the military. Levels two and three both think about thinking, but the purpose is still to get what you want and to have power over others.
+At the third level you know that other people know that others have feelings and needs. That means they have relationships to each other, the same way you have relationships to each of them. Direct connections become a web, and a web is a social situation you can step back from and manage. Someone sees a bad thing about men on her phone, then sees the man in her life, and at this level she steps back to ask why he is being like that and what she can do about the relationship. This level is still very common. It shows up in the mafia, in sports teams, among firemen, police, and the military. Levels two and three both think about thinking, and the purpose is still to get what you want and to have power over others.
 
 ### Step four, belong
 
@@ -229,7 +228,7 @@ At the third level you know that other people know that others have feelings and
 
 The fourth level is where the looking turns around. You see yourself the way another person in your culture sees you. That is the old folk wisdom of not judging a man until you have walked a mile in his shoes. You are in your situation over here. You can imagine being him in his situation over there. Maybe you would have done what he did. The drive at this level is to fit in, and the entry to it is a focus on acceptable behavior and social norms. You can see it arrive in children, because they start looking in the mirror more. They have realized that other people are looking at them and having feelings about them.
 
-This is the beginning of what most people call morality, and the first point where thinking about thinking obviously matters. A lot of people see something on a phone or a screen and get a feeling from it. Then they see that feeling coming from somebody near them, and they act on the relationship. The step back is to look at yourself as if you were a second person. Then you ask whether that is the right thing to do. The level typically works through agreement and conformity. A group agrees on what is right and wrong, makes a set of rules, and follows them. That solves some of the earlier problems. The trouble is that there are endless ways to decide what is right and wrong, so one set of rules sits next to another set of rules, and the two clash.
+This is the beginning of what most people call morality, and the first point where thinking about thinking obviously matters. A lot of people see something on a phone or a screen and get a feeling from it. Then they see that feeling coming from somebody near them, and they act on the relationship. The step back is to look at yourself as if you were a second person. Then you ask whether that is the right thing to do. The level typically works through agreement and conformity. A group agrees on what is right and wrong, makes a set of rules, and follows them. That solves some of the earlier problems. There are endless ways to decide what is right and wrong, so one set of rules sits next to another set of rules, and the two clash.
 
 ### Step five, observe from outside
 
@@ -301,7 +300,7 @@ The fifth level brings in objective observation as a value. Two groups each thin
 
 The sixth level sees the role of the one looking. Where you look from decides what you see, so there is no fully objective observation. Everyone has a private view that nobody else can check, and there is no way to know that the red you see is the red someone else sees. That means many views are valid at once. This level is very new. A few philosophers talked at it in the eighteen hundreds, and it did not show up in the wider world until the nineteen sixties. It is a very high degree of moral development, because it recognizes the validity of everyone's perspective.
 
-It is also the level that goes wrong most. Take a person who does something the place he is in counts as wrong. He says that is how they do it where he is from. At this level the reply is that nobody can make him follow these rules just because he is here. Who is anyone to judge which set of rules is better? That gives a lot of people the idea that they can do whatever they want, because who is anyone to judge. Some of the people who end up on the street are unfortunate, and some are doing whatever they want. Laws written at this level no longer tell the two apart. The level is also famous for making people into hippies. Going through it can be stressful. There are so many ways of seeing the world and so many life choices that a person cannot pick one. If they cannot pick one, they cannot get anywhere. The answer that finally works is that you never know what will happen until you try it.
+It is also the level that goes wrong most. Take a person who does something the place he is in counts as wrong. He says that is how they do it where he is from. At this level the reply is that nobody can make him follow these rules just because he is here. Who is anyone to judge which set of rules is better? That gives a lot of people the idea that they can do whatever they want, because who is anyone to judge. Some of the people who end up on the street are unfortunate, and some are doing whatever they want. Laws written at this level no longer tell the two apart. This level also turns a lot of people into hippies. Going through it can be stressful. There are so many ways of seeing the world and so many life choices that a person cannot pick one. If they cannot pick one, they cannot get anywhere. The answer that finally works is that you never know what will happen until you try it.
 
 ### Step seven, harmonize
 
@@ -333,7 +332,7 @@ It is also the level that goes wrong most. Take a person who does something the 
 
 Between the sixth level and the seventh there is a break. The seventh is the first level that understands and includes all the earlier ones instead of insisting on its own. At six people still insist that they are right and nobody else is. A church and a mosque next door to each other argue at level four over who has the true faith. Level six says they could all get along with more understanding. More understanding is not what either group wants. Level six says everyone needs to be equal even if they do not want to be. The seventh level knows how to give each earlier level what it wants so that they can live together.
 
-The step back that gets you here extends the sixth level through time. Your unique view did not come from nowhere. It developed over years, and everyone else's is developing too. At six everyone is the same, so everyone belongs anywhere. At seven everyone changes over time, so people and behaviors belong where they fit best. Does this behavior fit here? If not, it goes where it belongs. If so, everyone can learn something from it. It is no longer about including everything. It is about seeing which systems fit together and which clash, and putting each thing where it belongs. People at this level tend to notice development on their own. Asked a question, one of them answered with how he would have answered it a little while ago. Then how he would have answered before that, and years before that. Then how he answers it now. There is not yet any large group of people here.
+The step back that gets you here extends the sixth level through time. Your unique view did not come from nowhere. It developed over years, and everyone else's is developing too. At six everyone is the same, so everyone belongs anywhere. At seven everyone changes over time, so people and behaviors belong where they fit best. Does this behavior fit here? If not, it goes where it belongs. If so, everyone can learn something from it. The work at this level is no longer to include everything. The work is to see which systems fit together and which clash, and to put each thing where it belongs. People at this level tend to notice development on their own. Asked a question, one of them answered with how he would have answered it a little while ago. Then how he would have answered before that, and years before that. Then how he answers it now. There is not yet any large group of people here.
 
 ### Step eight, watch the mind build itself
 
@@ -368,12 +367,12 @@ The step back that gets you here extends the sixth level through time. Your uniq
 
 The eighth level is watching yourself change in the moment, as you behave and think and feel, with new parts of you coming out as they form. Look at a doughnut on a plate. You feel hunger, because it looks good. You also feel a guilt from the time you ate a whole box that was not yours and got shamed for it. You remember the stomach ache from eating too many. All of that is in you as you look, and it is shaping what you want to do. Once you can see it, the question changes. Do you want to listen to it or not? Do you want to be the kind of person who has the doughnut anyway? You are an adult and can do what you want.
 
-That sounds small with a doughnut and is not small with politics or a relationship. You saw something on your phone and it gave you a feeling. You know where that feeling sits in you. You know you are projecting it onto a person. You know your impulse for what to do about it. You know what your culture says you should do about it. All of that is wrapped in observation, and in the story of who you are and how you got here. That gives far more power to change what you do than reacting does. If more people could see a thing, then see their own reaction to it, then know where the reaction comes from in their history and their culture, they would not have to react in the moment. This level is rare. Few people are stable at it, and even they do not spend much time there.
+The doughnut is a small case. The same thing happens with politics or a relationship, and there it is not small. You saw something on your phone and it gave you a feeling. You know where that feeling sits in you. You know you are projecting it onto a person. You know your impulse for what to do about it. You know what your culture says you should do about it. All of that is wrapped in observation, and in the story of who you are and how you got here. That gives far more power to change what you do than reacting does. If more people could see a thing, then see their own reaction to it, then know where the reaction comes from in their history and their culture, they would not have to react in the moment. This level is rare. Few people are stable at it, and even they do not spend much time there.
 
 ### Step nine, choose where to look from
 
 - All I am ever doing is watching and wishing.
-- At eight you watch the show without being it. At nine what matters is how you do the looking.
+- At eight you watch what happens in you without being it. At nine what matters is how you do the looking.
 - A responsibility for knowing where to look.
 
 <!-- diagram:choose -->
@@ -397,9 +396,9 @@ That sounds small with a doughnut and is not small with politics or a relationsh
 </svg>
 <!-- /diagram -->
 
-The ninth level is hard to describe. At the first three levels you are the main character. At the fourth you understand that everyone is their own main character. Then you see that everyone is watching a different show, because everyone is a different show, and the show keeps changing. At the eighth you are watching the show happen without being identified with it. At the ninth you are watching yourself watch. You see yourself seeing your history and what it made you like, you see what is happening now, and you watch the two come together. What matters at this level is how the looking is done. What are you looking at? Maybe you are looking from here when you should be looking from there. Each lower level is a place to look from: your needs, other people's reactions, your situation, what others expect, observable reality, where you are from, the habits and pieces that make you, and those pieces coming together in the moment. The ninth level is the felt responsibility for knowing which of those to watch right now.
+The ninth level is hard to describe. At the first three levels everything is arranged around what you want. At the fourth you understand that everyone else arranges things around what they want. Then you see that everyone sees something different, because everyone is different, and what each person is keeps changing. At the eighth you watch what is happening in you without taking it as who you are. At the ninth you are watching yourself watch. You see yourself seeing your history and what it made you like, you see what is happening now, and you watch the two come together. What matters at this level is how the looking is done. What are you looking at? Maybe you are looking from here when you should be looking from there. Each lower level is a place to look from: your needs, other people's reactions, your situation, what others expect, observable reality, where you are from, the habits and pieces that make you, and those pieces coming together in the moment. The ninth level is the felt responsibility for knowing which of those to watch right now.
 
-### The why method
+## The why method
 
 - Sit with a thought and figure out where it comes from.
 - Why? Then why does that matter? Then how do I know?
@@ -447,21 +446,28 @@ The best way to move up the levels is to sit with your thoughts and think about 
 
 Not every run ends that cleanly. Another run starts with a pattern of choosing partners who will not stay. Why? Because of not believing you can support them. Why does that matter? Because they want more support than you can give. Why does that matter? Because it hurts when they leave. Can it change some other way, a better job? That has been tried. Somewhere here the run gets fuzzy, and the pattern has repeated and has not been fixed. The method is still doing its work. Each why is one step back. What it builds is the ability to see through what is going on in your own mind, and to see the same complexity in the world around you.
 
-## Sources and links
+## How to practice this
 
-### Links into the knowledge base
+1. Pick a reaction you had recently and sit with it instead of acting on it. Ask why the reaction is there. Notice that this one question puts you one step back.
+2. Take the answer and ask why that matters. Keep asking until you reach where the reaction came from. Notice whether the run reaches an answer or the question dissolves.
+3. Ask how you know the bad outcome would happen. Look for evidence that it has happened so far. If there is none, nothing is wrong, and the problem is solved.
+4. Run the same questions on a reaction that has repeated for years. Notice that the run gets fuzzy and does not finish. Each why is still one step back.
+5. Look at what you are about to do as if you were a second person. Then ask whether that is the right thing to do. Notice whether the answer differs from your impulse.
+6. Name what you can feel pulling at you before you decide. Then ask whether you want to listen to it. Notice that the question changes once you can see all of it.
 
-- [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]] holds five checks a person runs on their own thinking before speaking. The why method here is the same kind of check, run on a reaction instead of on a sentence.
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] holds thinking about thinking as the layer that lets a technique's effect be seen. The nine levels are that layer taken one step back at a time.
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is the learning capacity the ladder trains, noticing what is happening in your own head and adjusting it.
-- [[wiki/Dimensions/Mindset/Confidence Calibration|Confidence Calibration]] holds how sure to be, given the evidence. The why method's last question, how do you know, is the same check.
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]] holds naming the frame as the first check on a claim. Step six, seeing that who is looking changes what is seen, is where that check comes from.
+## Related pages
 
-### Open questions
+- [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]] gives five checks a person runs on their own thinking before speaking. The why method here is the same kind of check, run on a reaction instead of on a sentence.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] gives thinking about thinking as the layer that lets a technique's effect be seen. The nine levels are that layer taken one step back at a time.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is the learning capacity the nine levels train, noticing what is happening in your own head and adjusting it.
+- [[wiki/Dimensions/Mindset/Confidence Calibration|Confidence Calibration]] gives how sure to be, given the evidence. The why method's last question, how do you know, is the same check.
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]] gives naming the frame as the first check on a claim. Step six, seeing that who is looking changes what is seen, is where that check comes from.
+
+## Open questions
 
 - Each capacity climbs at its own pace, so a person can be high on thinking and low on morals. When the two are far apart, which one does the why method move?
 - The sixth level is where every view is valid and the seventh is where things belong where they fit. What does the move from six to seven look like from inside, for a person who is still at six?
 
-### Sources
+## Sources
 
 - hoe_math (PsychoMath), *LEVELS OF THINKING (Basic Version)* (YouTube, published 2023-10-28, 27 min). <https://www.youtube.com/watch?v=kse87ocS0Uo>. Read from YouTube's original-language auto-generated captions. The whole page is this account. The speaker gives it as his own reading of a model of consciousness he studied, built on several researchers. He names two well-known developmental models behind it, a stage model of child development and the hierarchy of needs. He says the model is theoretical, that he is less sure of the top levels than the bottom ones, and that a longer version will follow. The speaker's own examples carry the page: the woman and her phone, the doughnut, the two runs of the why method, and a client who answered a question with his own development. Left out: an advertisement in the middle, the channel's promotions at the end, an invitation to write in for people at the seventh level, the era in history the speaker matches to each level, and the other parts of the model he names but does not cover, the quadrants, states, and types.

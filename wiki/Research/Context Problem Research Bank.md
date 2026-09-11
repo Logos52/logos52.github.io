@@ -25,7 +25,7 @@ The local record lives in [[journal/2026-08-22-the-context-problem|The Context P
 Checked before this lane:
 
 - [[journal/2026-08-22-the-context-problem|The Context Problem]] (218 instances, three local analyses, production change of 2026-08-22)
-- [[wiki/Systems/AI & Agentic Systems/The Prohibition Loop|The Prohibition Loop]]
+- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|The Prohibition Loop]]
 - [[wiki/Research/Opener Generator Research Bank|Opener Generator Research Bank]]
 - [[wiki/Research/Two Egos Research Bank|Two Egos Research Bank]] (Pinker's curse of knowledge already in the vault as a source for ego, not as a production fix for wiki pages)
 - `01 - Workbench/regen-2026-08/ATTEMPT-CATALOG-grok-opener-generator.md` (ban-list retries are dead)
@@ -83,7 +83,7 @@ Do not shorten the page as the fix. Anthropic shipped a Concise bandage on 2026-
 
 Public talk about "LLM writing" is mostly a different problem.
 
-**Mannerisms.** "Delve," "tapestry," "it's not X, it's Y," em-dash piles. Wikipedia catalogs this as [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing). The usual fix is a ban list. This vault already ran that loop. It is [[wiki/Systems/AI & Agentic Systems/The Prohibition Loop|The Prohibition Loop]].
+**Mannerisms.** "Delve," "tapestry," "it's not X, it's Y," em-dash piles. Wikipedia catalogs this as [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing). The usual fix is a ban list. This vault already ran that loop. It is [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|The Prohibition Loop]].
 
 **Assumed knowledge.** The sentence is grammatical. The reader still cannot follow it, because a word, a sense, a connection, or a referent was never given. Shreya Shankar: "LLMs can't reliably distinguish what's assumed knowledge and what needs explanation." Pritish Mishra, to Anthropic, 2026-08-20: "claude is deep into the codebase and I'm seeing it from outside his responses assumes I know and have context of each and every detail that it did."
 

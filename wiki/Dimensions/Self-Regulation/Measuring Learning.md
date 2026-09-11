@@ -3,7 +3,9 @@ title: "Measuring Learning"
 type: concept
 status: developing
 created: 2026-05-29
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 tags:
@@ -15,59 +17,75 @@ tags:
 
 # Measuring Learning
 
-A week-later closed-book reconstruction scored against the highest and lowest level the assessment asks for is the count that decides what to improve. Pages covered, lectures sat, and hours logged stay off that count.
+The count that decides what to improve is a closed-book reconstruction done about a week after study, scored against the highest and the lowest level of performance the assessment asks for. Pages covered, lectures sat, and hours logged are not part of that count.
 
-## What coverage hides
+The count has one more item: the name of the part of the learning process that is currently capping every other part. A skill is good enough when it is no longer that part.
 
-That count of hours spent covering measures motion, not learning. It ignores whether anything is still there a week later. It ignores the quality of what was built and whether it can be used in more than one way. It hides the time spent later relearning what was forgotten — and that hidden time is what makes the metric expensive rather than merely thin.
+## Core takeaways
 
-The thin metric is also fed by ease of rereading and the sense of having covered a stretch — those are the cues judgment runs on, and they are poorly calibrated against what can actually be produced later. Material reread until it is fluent feels known. That feeling is the signal being measured. Rereading is also the method learners prefer, which inflates the sense of coverage still further.
+- The count that decides what to improve is a closed-book reconstruction done about a week later, scored at the highest and the lowest level the assessment asks for.
+- Hours logged, pages covered, and lectures sat measure activity. They do not show what is still there a week later, and they hide the time later spent relearning.
+- Learned material sits at one of three levels: isolated recall, use of one idea, and concepts held as a network with judgment about which relations matter. The third level is the target.
+- Efficient learning means reaching the mastery the purpose requires, holding it at each required level, and doing both in less time. It is a direction; there is no formula to compute it.
+- A rate limiter is the part of the process that caps every other part. It is found by reflection every week or two, and it is the next thing to work on.
+- A skill is good enough when it is no longer the rate limiter. No absolute standard exists; enough is decided by comparison with the rest of the system.
 
-## The levels of mastery
+## What a count of hours leaves out
 
-Coverage counted in pages is not "how much" on a useful count. It is a position on a local ladder, inspired by published taxonomies of learning outcomes and not either taxonomy verbatim.
+A count of hours spent covering material measures activity. It does not measure learning. It leaves out whether anything is still there a week later. It leaves out the quality of what was built and whether it can be used in more than one way. It also hides the time spent later relearning what was forgotten. That hidden relearning time makes the count expensive as well as incomplete.
 
-| Rung | What it lets you do | How it shows up on a check |
+Two feelings inflate the count. Rereading feels easy, and a reader has a sense of having covered a stretch of material. People judge what they know by those two feelings, and both are poorly calibrated against what can be produced later. Material reread until it is fluent feels known, and that feeling of fluency is what the count of coverage records. Rereading is also the method learners prefer, and that preference inflates the sense of coverage further.
+
+## Three levels of knowing
+
+Pages covered do not say how much has been learned. The useful count is a position on a scale of levels. The scale is this system's own. It is built from published taxonomies of learning outcomes and does not copy either taxonomy word for word.
+
+| Level | What it lets you do | How it shows up on a check |
 |---|---|---|
 | Isolated recall | Recite facts and recognise terminology | Flashcards on leftover facts, cover-copy-check |
 | One-idea use | Explain a single concept and solve a simple problem with it | Extended or atypical applications still stall |
-| Relational and evaluative | Hold concepts as a network and handle novel, interrelated problems | The check asks which relations matter, not how many facts remain |
+| Relational and evaluative | Hold concepts as a network and handle novel, interrelated problems | The check asks which relations matter; it does not count how many facts remain |
 
-The first rung of the ladder is built by repetition: flashcards on leftover facts, cover-copy-check. Rung two explains a single concept and solves simple problems with it, while extended or atypical applications still stall — the stall is what distinguishes it from the rung above. Higher rungs hold concepts as a network and handle novel, interrelated problems. That is the target.
+The first level is built by repetition: flashcards on leftover facts, and cover-copy-check. At the second level a learner can explain a single concept and solve simple problems with it, but extended or atypical applications still stall. That stall separates the second level from the third. At the third level a learner holds concepts as a network and handles novel, interrelated problems. The third level is the target.
 
-The ranking has a reason. Lower-order work produces only lower-order outcomes. Higher-order work produces both. Both are needed; the lower-order reps belong as a supplement and closer to the assessment. "Higher" here does not mean more relations. Identifying how concepts relate helps moderately. Weighing which of those relations matter is where the encoding deepens.
+The levels are ranked for a reason. Lower-order work produces only lower-order outcomes. Higher-order work produces both lower-order and higher-order outcomes. Both kinds of work are needed. The lower-order repetitions belong as a supplement, and they belong closer to the assessment. A higher level does not mean more relations. Identifying how concepts relate helps moderately. Weighing which of those relations matter is where the encoding deepens.
 
-Connected knowledge is more usable and usually more durable. A well-drilled isolated fact can still outlast a sloppy comparison, so a rung-one limiter is not abandoned because a higher rung is the long-term target.
+Connected knowledge is more usable and usually more durable. A well-drilled isolated fact can still outlast a sloppy comparison. So a first-level limiter is still worked on, even though the third level is the long-term target.
 
-The higher rungs this page collapses into one live on [[Higher-Order Learning]]. The recognition-to-use ladder at full granularity lives on [[Knowledge Mastery - From Recognition to Usable Knowledge]].
+The third row of the table holds several levels. [[Higher-Order Learning]] describes them one by one. The full scale from recognition to usable knowledge, level by level, is on [[Knowledge Mastery - From Recognition to Usable Knowledge]].
 
-## Measuring the system, not the session
+## Two questions for one week of work
 
-A session measure that stops at coverage will keep producing coverage rather than the long-term target. A system measure has to answer two things, and both have to be asked of the same week of work.
+If the measure stops at coverage, the work keeps producing coverage rather than the long-term target. A system measure has to answer two questions, and both are asked of the same week of work.
 
-**What can still be produced later, at the level the purpose asks for — and what is currently capping everything else.**
+1. What can still be produced later, at the level the purpose asks for?
+2. What is currently capping everything else?
 
-The second question exists because a week of technique can be improved endlessly, so no absolute standard says when to stop. Enough is always comparative, and the comparison is against the rest of the system rather than against a target rung.
+The second question exists because a week of technique can be improved endlessly, so no absolute standard says when to stop. Enough is always comparative. The comparison is with the other parts of the same system. It is not a comparison with a target level.
 
-## What survives a week
+## The week-later check
 
-The target check names the highest and the lowest level of performance the assessment actually asks for, comes back about a week later, and sees what can still be produced at each against what will be demanded. The week is this system's own interval — its spacing cadence already puts a retrieval session about a week out. No percentages, no ratio, no average.
+The learner names the highest and the lowest level of performance the assessment actually asks for. About a week later, the learner tries to produce the material at each of those levels and compares the result with what will be demanded. The week is this system's own interval: its spacing cadence already puts a retrieval session about a week out. The check does not produce a percentage, a ratio, or an average.
 
-Efficient learning, as this system defines it, is three conditions together: reaching the mastery the purpose requires, holding it at each level required, and getting both in less time. That is a direction — retained usable mastery per hour, not pages per hour — not a formula to compute. A home-made quotient is the coverage metric wearing arithmetic. Efficiency is also relative to the requirement. The same week of work is efficient against one assessment and not another.
+The check uses up one study session. It also produces a list of what could not be produced at the higher levels. It is slower and less pleasant than rereading. That is its cost.
 
-Better encoding means less forgetting, which means less relearning, which collapses total time. Better organisation makes the material mean more, which is why it needs repeating less often. Doubling the hours moves the number very little once the method caps the level reachable. A house built with only a hammer is the image: more swings help until the job needs a tool a hammer cannot be. At large volumes the forgetting rate is high enough that full retention is never reached, and the shortfall is worst at the higher levels.
+## What efficient learning means
 
-The same check costs a session slot, and a list of what could not be produced at those higher levels. It is slower and less pleasant than rereading, and that is the trade. The arithmetic behind the efficiency idea has no published validation.
+Efficient learning, as this system defines it, is three conditions met together: reaching the mastery the purpose requires, holding it at each level required, and getting both in less time. That is a direction: retained usable mastery per hour. Pages per hour is not the measure. There is no formula to compute. A home-made quotient is the coverage count with arithmetic added. Efficiency is also relative to the requirement. The same week of work is efficient against one assessment and not efficient against another.
 
-## Rate limiters
+Better encoding causes less forgetting, so less relearning is needed, and total time falls a great deal. Better organisation makes the material mean more, so it needs repeating less often. Once the method caps the level reachable, doubling the hours moves the result very little. More hours help until the work needs something the current method cannot do. At large volumes the forgetting rate is high enough that full retention is never reached, and the shortfall is worst at the higher levels.
 
-The efficiency question still has a cap: a rate limiter is the part of the process that caps every other part — a bucket with a hole in its side, which cannot be filled past the hole however good the rest of it is. A strong learner crippled by procrastination is limited by procrastination, not by learning technique. Effort spent on the rest of the process is water poured into that bucket.
+The arithmetic behind the efficiency idea has no published validation.
 
-**Work the limiter next even when which part it is is still unsure — attempting to find and address it improves things more smoothly than charging ahead elsewhere.**
+## The part that caps the rest
 
-The limiter moves. The cap a month from now may be time management rather than mindset — because time management got worse, or because mindset got better. A plateau is the signal that a new limiter has appeared, and a plateau can also be a measurement ceiling or a drop in motivation.
+A rate limiter is the part of the learning process that caps every other part. However good the other parts are, the result cannot rise past the limiter. A learner with strong technique who procrastinates is limited by procrastination. Technique is not the limit in that case. Effort spent on the other parts does not raise the result past the cap.
 
-They are found by reflection every week or two — a heuristic, not a measured optimum — with [[Marginal Gains]] (improving the current limiter by a small named amount and stacking those improvements) and [[Kolbs Experiential Cycle]] (the after-attempt pass: what happened, how it felt and why, what rule that suggests, what changes next time).
+Work on the limiter next, even when you are not yet sure which part it is. Trying to find it and address it improves the whole process more smoothly than working on other parts first.
+
+The limiting part changes over time. A month from now the cap may be time management instead of mindset, either because time management got worse or because mindset got better. A plateau is the signal that a new limiter has appeared. A plateau can also be a measurement ceiling or a drop in motivation.
+
+Limiters are found by reflection every week or two. That interval is a rule of thumb; it has not been measured as the best interval. Two methods are used in the reflection. [[Marginal Gains]] improves the current limiter by a small named amount and stacks those improvements. [[Kolbs Experiential Cycle]] is the pass done after an attempt: what happened, how it felt and why, what rule that suggests, and what changes next time.
 
 ```
 A method is learned.
@@ -77,23 +95,32 @@ The barriers that showed up are named and ranked by how much each caps the rest.
 The top one is the next piece of work.
 ```
 
-A plateau-week self-check that always asks the easy question is the coverage metric in new clothes, and hunting for a constraint can become the way to avoid the reps that are the constraint. When the limiter has been named correctly, improvement shows up in parts of the process that were not touched. If two rounds of limiter-hunting change nothing about the next session, the limiter is the one already named and the next move is the work already named. No trial shows that a fortnightly reflection loop finds the true constraint.
+A self-check in a plateau week that only asks the easy question is the coverage count again in a different form. Searching for a limiter can also become a way to put off the repetitions when those repetitions are the limiter. When the limiter has been named correctly, improvement shows up in parts of the process that were not touched. If two rounds of searching for the limiter change nothing about the next session, the limiter is the one already named, and the next move is the work already named. No trial shows that a reflection loop run every two weeks finds the true constraint.
 
-## The stopping rule
+## When a skill is good enough
 
-A skill is good enough when it is no longer the rate limiter. Techniques can be improved endlessly, so no absolute standard exists to stop at. The count that survives is the week-later reconstruction together with the name of what is currently capping the rest. Enough is answered by comparison rather than by a standard.
+A skill is good enough when it is no longer the rate limiter. Techniques can be improved endlessly, so there is no absolute standard to stop at. The count that decides what to improve is the week-later reconstruction together with the name of what is currently capping the rest. Enough is decided by comparison. No standard decides it.
 
-## Related
+## How to practice this
 
-- [[Marginal Gains in Practice]] — the practice this page is the measurement layer for.
-- [[Metacognition - The Control Layer]] — what to notice while measuring; this page is what to measure.
+1. Name the highest and the lowest level of performance the assessment asks for. About a week after studying, close the book and reconstruct the material at each of those levels. Notice what you can still produce at each level against what will be demanded.
+2. Write down what you could not produce at the higher level. Do not turn the result into a percentage, a ratio, or an average. Notice that the check is slower and less pleasant than rereading; that is its cost.
+3. Next time you reread something until it feels fluent, test it closed-book a week later. Notice the gap between how known it felt and what you can produce.
+4. Every week or two, review the last attempt. Ask what happened, how it felt and why, what rule that suggests, and what changes next time. Name the barriers that showed up and rank them by how much each caps the rest.
+5. Improve the top barrier by a small named amount, even if unsure it is the real limiter. Notice whether parts of the process you did not touch also improve. That improvement is the sign the limiter was named correctly.
+6. If two rounds of this search change nothing about the next session, stop searching. The limiter is the one already named, and the next move is the work already named. Treat a skill as good enough once it is no longer the limiter.
+
+## Related pages
+
+- [[Marginal Gains|Marginal Gains in Practice]]: the practice that the week-later check and the limiter name are the measurement for.
+- [[Metacognition - The Control Layer]]: what to notice while measuring. The week-later check and the limiter name are what to measure.
 
 ## Sources
 
-- Goodhart 1975; Campbell 1979 — metrics that become targets.
-- Bjork, Dunlosky & Kornell 2013; Dunlosky & Lipko 2007; Koriat 1997 — fluency and coverage as poorly calibrated cues to what has been learned.
-- Karpicke, Butler & Roediger 2009 — the preference for rereading.
-- Anderson & Krathwohl 2001; Biggs & Collis 1982 — the two published taxonomies the ladder is built from.
-- Craik & Lockhart 1972; Craik & Tulving 1975 — depth of processing and retention.
-- Cepeda et al. 2006; Rawson & Dunlosky 2011 — spacing, retrieval practice, and the relearning cost.
-- Goldratt 1984 — throughput set by the constraint.
+- Goodhart 1975; Campbell 1979: metrics that become targets.
+- Bjork, Dunlosky & Kornell 2013; Dunlosky & Lipko 2007; Koriat 1997: fluency and coverage as poorly calibrated cues to what has been learned.
+- Karpicke, Butler & Roediger 2009: the preference for rereading.
+- Anderson & Krathwohl 2001; Biggs & Collis 1982: the two published taxonomies the levels are built from.
+- Craik & Lockhart 1972; Craik & Tulving 1975: depth of processing and retention.
+- Cepeda et al. 2006; Rawson & Dunlosky 2011: spacing, retrieval practice, and the relearning cost.
+- Goldratt 1984: throughput set by the constraint.

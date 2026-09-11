@@ -94,10 +94,10 @@ The ceiling for a retrained deep processor is substantially higher than for the 
 Deep Processing Tanking introduces a named failure pattern not currently in the wiki. Most related content covers deep processing as a positive skill, not as a liability when strategy is absent.
 
 - [[wiki/Dimensions/Deep Processing]] — the main hub; tanking is the failure mode of the learner described here
-- [[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization]] — schema formation is what deep processing produces
+- [[wiki/Dimensions/Deep Processing/Schema|Schema Construction, Assimilation, and Reorganization]] — schema formation is what deep processing produces
 - [[wiki/Syntheses/Are You Learning, or Just Using Techniques]] — covers the technique-without-thinking trap; tanking is the inverse (thinking without technique)
 - [[wiki/Concepts/Understanding Bottleneck]] — related concept; the bottleneck here is strategy, not processing
-- [[wiki/Dimensions/Upgrading Your Dimensions]] — relevant if the fix involves identifying which dimension to develop
+- [[wiki/Dimensions/Dimensions of Learning|Upgrading Your Dimensions]] — relevant if the fix involves identifying which dimension to develop
 - [[wiki/Syntheses/First Principles of ICS]] — the ICS system is designed for the learner described here
 
 ---

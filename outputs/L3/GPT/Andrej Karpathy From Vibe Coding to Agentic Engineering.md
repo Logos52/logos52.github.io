@@ -142,7 +142,7 @@ The human role shifts toward:
 - Knowing when an answer is outside the model's reliable range.
 - Deciding what should be remembered, published, or discarded.
 
-This links strongly to [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]. A knowledge base is not valuable because it stores everything. It is valuable because it helps the human understand enough to direct future work.
+This links strongly to [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]. A knowledge base is not valuable because it stores everything. It is valuable because it helps the human understand enough to direct future work.
 
 ## Agent-Native Workflow
 
@@ -195,8 +195,8 @@ In this repo, that implies:
 This brief suggests possible updates to:
 
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
-- [[wiki/Concepts/Software 3.0|Software 3.0]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]
 - [[wiki/Concepts/Vibe Coding|Vibe Coding]]
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]

@@ -79,7 +79,7 @@ The learner's job is to stop treating overwhelm as a reason to retreat. Overwhel
 
 ## Candidate Wiki Updates
 
-This should eventually strengthen [[wiki/Syntheses/ICS System|ICS System]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Deep Processing|Deep Processing]], [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]], and [[wiki/Techniques/Bear Hunter System|Bear Hunter System]].
+This should eventually strengthen [[wiki/Syntheses/ICS System|ICS System]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Deep Processing|Deep Processing]], [[wiki/Dimensions/Dimensions of Learning|Upgrading Your Dimensions]], and [[wiki/Techniques/Bear Hunter System|Bear Hunter System]].
 
 Possible new notes: **Overwhelm as a Cue**, **Processing Quality**, **Priming Before Consumption**, **Learning in Layers**, and **Assessment Stack**.
 

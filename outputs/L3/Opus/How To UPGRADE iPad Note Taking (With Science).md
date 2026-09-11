@@ -72,7 +72,7 @@ The sign of real nonlinear note-taking: the canvas grows in multiple directions,
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] — the full BHS spine.
 - [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]] — the relevance + grouping logic.
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — annotation as a passive trap.
-- [[wiki/Techniques/Thinking on Paper|Thinking on Paper]] — the canvas as cognitive offload.
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]] — the canvas as cognitive offload.
 
 ## Open Questions
 

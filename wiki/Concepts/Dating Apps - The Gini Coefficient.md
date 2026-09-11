@@ -3,9 +3,10 @@ title: "Dating Apps - The Gini Coefficient"
 type: concept
 status: developing
 created: 2026-09-04
-updated: 2026-09-05
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: fable
-method: fable-5.1-one-pass
 diagrams: scripts/gen-dating-gini-diagrams.py
 model: fable
 source-count: 1
@@ -21,94 +22,26 @@ tags:
 
 # Dating Apps - The Gini Coefficient
 
-## Reasoning
+The Gini coefficient of a dating app is one number between 0 and 1 for how unevenly the likes that women send land on the men. On Hinge in 2017 it came out at 0.542 for the men. On the list economists keep for national incomes, 0.542 sits near apartheid-era South Africa. One of Hinge's own engineers ran the sum on the app's own record of every like and published the result. He kept his job, the post stayed up, and the company changed nothing about the product.
 
-### Abstract
+The number gives a measurement of something a man on the app otherwise only experiences, an inbox that stays empty however much he swipes. A measurement can be compared across apps and over years. The number is also narrower than the way it gets quoted. It measures how the likes are shared out among the men. It does not measure how few women are there to send them. Part of the number is made by the swipe itself, because on a swipe app rating a man and writing to him are one motion.
 
-The Gini coefficient of a dating app is one number, between 0 and 1, for how unevenly the likes that women send land on the men. On Hinge in 2017 it came out at 0.542 for the men, which on the list economists keep for national incomes sits near apartheid-era South Africa. One of Hinge's own engineers ran it on the app's own record of every like and published it. He kept his job, the post stayed up, and the company changed nothing about the product. The number turns the thing a man feels on the app, an inbox that stays empty however much he swipes, into a measurement. A measurement can be compared across apps and over years. It is also narrower than the way it gets quoted. It says how the likes are shared out among the men, and nothing about how few women are there to send them. Part of it is made by the swipe itself, because on a swipe app rating a man and writing to him are one motion.
+## Core takeaways
 
-### Core takeaways
-
-- The dating apps' own data shows that the likes women send pile up on a small share of men. Hinge's own engineer published the number, and the company changed nothing.
-- The Gini number measures only how the likes are shared out among the men. It says nothing about how few women are on the app, which is a separate and larger problem.
+- The apps' own data shows that the likes women send go to a small share of men. Hinge's own engineer published the number, and the company changed nothing.
+- The Gini number measures only how the likes are shared out among the men. It does not measure how few women are on the app, which is a separate problem and a larger one.
 - Part of the number is made by the swipe itself. Rating a man and messaging him became one motion, so the wide messaging that the old sites saw cannot happen.
-- The men who get almost nothing are the paying customers, and the top price tier sells them the right to skip the mutual swipe.
-- Young men are leaving the apps for software companions, and the exodus sits beside birth rates already far below replacement in the United States and East Asia.
-- The country comparison gives a feel for the size and no more. A lower Gini in a future report would prove nothing if the men with nothing simply left.
+- The men who get almost nothing are the paying customers. The top price tier sells them the right to skip the mutual swipe.
+- Young men are leaving the apps for software companions. Birth rates in the United States and East Asia are already far below replacement.
+- The country comparison gives a feel for the size of the number and no more. A lower Gini in a future report would prove nothing if the men with nothing had simply left.
 
-### Essay
+## One man's six months
 
-A man who swipes for six months and gets three dates feels unlucky, or feels that something is wrong with him. The Gini coefficient is what turns that feeling into a fact that can be checked against other apps and other years. It is a single number for how evenly something is shared across a group, built for income and applied here to likes. When Hinge's own engineer ran it on the app's own record, the likes that men send to women came out spread fairly evenly, and the likes that women send to men came out piled onto a few. He said so in public, the company left the post up, and the product stayed as it was. So the man in the story is not unlucky. He is an ordinary draw from a distribution the company had already measured.
+A man of 28 in Phoenix checks three apps at seven in the morning and finds nothing new. Tinder has no matches for him. Hinge has one match from eleven days ago who never wrote back. Bumble still shows a woman who matched with him nine months ago and has never sent a word. Over six months he has paid the three apps $287 and swiped right on 14,000 women. He matched with 41, talked with nine, met three, and went home alone from all three dinners. There is nothing wrong with his photos or his profile. Each month he pays the company that owns Tinder and Hinge more than he pays for Netflix, Spotify, and electricity together. Hinge's own data shows that six months like his are what an ordinary man should expect.
 
-The number is narrower than the way people quote it. It describes how the likes that do get sent are shared out among the men. It says nothing about how many women are there to send them, and on these apps men outnumber women about two to one. Those are two different problems, and they stack. The shortage halves every man's average before anyone swipes, and the concentration decides who gets what is left. An app with equal numbers of men and women but the same concentration would double the average man's matches and leave the Gini exactly where it is. Grindr, where everyone is a man and the two sides of the market are the same people, is the one big app that grew.
+A man who swipes for six months and gets three dates feels unlucky, or feels that something is wrong with him. The Gini coefficient makes that experience a fact that can be checked against other apps and other years. When Hinge's own engineer ran it on the app's own record, the likes that men send to women came out spread fairly evenly, and the likes that women send to men came out concentrated on a few. He said so in public, the company left the post up, and the product stayed as it was. So the man in Phoenix is not unlucky. His six months are an ordinary result from a distribution the company had already measured.
 
-Part of the number is made by the app's design. On the old dating sites, women rated men harshly and then wrote to a much wider range of men than the ratings suggested. The rating and the message were separate acts. On a swipe app they are the same motion. A woman can only write to a man she has already swiped right on, so the harsh rating is the only signal that ever leaves her phone, and the wider messaging has nowhere to happen. Filters do the same job earlier. A minimum height set at six feet removes most men before any rating takes place. So the same women and the same men, given a form where rating and writing are separate, should produce a lower number, and nobody has run that test.
-
-The men who receive almost nothing are the ones who pay. Fewer men are paying each year, and revenue stays flat because the price rises for the ones who stay. The top tier sells the thing the swipe was built to prevent, a message sent before the woman has swiped at all. A class action says the apps are built like gambling, with the match made rare on purpose, and in the spring of 2025 the heads of the two biggest companies said in their own words that the product had become a numbers game rooted in rejection. Young men are leaving for software that pretends to be a companion. That exit sits beside birth rates already far below replacement in the United States, and further below it in Korea and Japan.
-
-The number can carry less than people hang on it. A Gini of likes covers one app at one moment, while a country's income Gini covers every household over a year, so the comparison to South Africa gives a feel for the size and nothing more. The women's figure and the men's figure describe two different sets of people, each rated by the other, so calling one Western Europe and the other South Africa compares two measurements never taken on the same group. And the men leaving change the measurement. Suppose the men who quit are the ones who were getting nothing. Then the Gini among the men who remain falls while nobody's chances improve. So a lower number in a future report needs that check before it counts as good news.
-
-<!-- diagram:two_problems -->
-<svg viewBox="0 0 680 240" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two separate problems, the shortage of women and the concentration of likes, combine into a 0.87% match chance per swipe" style="max-width:100%;height:auto">
-<title>Two separate problems, the shortage of women and the concentration of likes, combine into a 0.87% match chance per swipe</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<rect x="20" y="30" width="250" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="145.0" y="54.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">half as many women as men</text>
-<text x="145.0" y="68.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">every man's average is halved</text>
-<text x="145.0" y="83.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">before anyone swipes</text>
-<rect x="20" y="130" width="250" height="70" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
-<text x="145.0" y="154.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">the likes women send</text>
-<text x="145.0" y="168.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">land on a few men</text>
-<text x="145.0" y="183.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">this is what the 0.542 measures</text>
-<line x1="270.0" y1="65.0" x2="380.0" y2="108.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<line x1="270.0" y1="165.0" x2="380.0" y2="122.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="385" y="80" width="270" height="70" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
-<text x="520.0" y="103.66666666666667" font-size="11" fill="currentColor" opacity="0.85" text-anchor="middle">0.87% chance of a match</text>
-<text x="520.0" y="118.66666666666667" font-size="11" fill="currentColor" opacity="0.85" text-anchor="middle">per right swipe for the average man</text>
-<text x="520.0" y="133.66666666666669" font-size="11" fill="currentColor" opacity="0.85" text-anchor="middle">fewer than 1 in 100</text>
-<text x="20" y="228" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The Gini describes only the second box. Fix the first box alone and the average man's matches double while the Gini stays where it is.</text>
-</svg>
-<!-- /diagram -->
-
-<!-- diagram:swipe_collapse -->
-<svg viewBox="0 0 680 240" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="On the 2009 site rating and messaging were separate acts; on a swipe app the right swipe is both" style="max-width:100%;height:auto">
-<title>On the 2009 site rating and messaging were separate acts; on a swipe app the right swipe is both</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE 2009 DATING SITE: TWO SEPARATE ACTS</text>
-<rect x="20" y="24" width="180" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="110.0" y="48.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">she rates him</text>
-<text x="110.0" y="62.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">1 to 5</text>
-<line x1="200.0" y1="52.0" x2="240.0" y2="52.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="242" y="24" width="200" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="342.0" y="48.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">she decides on her own</text>
-<text x="342.0" y="62.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">whether to write to him</text>
-<line x1="442.0" y1="52.0" x2="482.0" y2="52.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="484" y="24" width="170" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="569.0" y="48.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">a message,</text>
-<text x="569.0" y="62.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">to a wide range of men</text>
-<text x="20" y="118" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">A SWIPE APP: ONE MOTION DOES BOTH</text>
-<rect x="20" y="128" width="300" height="56" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
-<text x="170.0" y="152.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">swipe left = a low rating</text>
-<text x="170.0" y="166.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">no message is possible</text>
-<rect x="340" y="128" width="314" height="56" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
-<text x="497.0" y="152.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">swipe right = a high rating</text>
-<text x="497.0" y="166.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">and the only way to write to him</text>
-<text x="20" y="212" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The wide messaging from the top row has no way to happen on the bottom row, because a woman can only write to a man she already</text>
-<text x="20" y="228" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">rated highly. Part of the 0.542 is that missing path.</text>
-</svg>
-<!-- /diagram -->
-
-### Conclusion
-
-The Gini is worth having because it makes one man's empty inbox comparable across apps and across years. It is also worth having because the app's own engineer produced it from the app's own data. It measures the concentration of likes and nothing else. The shortage of women is a second problem the number does not see, and the swipe design is a cause the number partly is. A repair would show up in the number, and the data points at two moves, separating the rating from the message again or bringing the numbers of women and men closer to even. The run clubs and companion apps the men have moved to do neither, and the same concentration is already reported in the run clubs.
-
-## The numbers
-
-A man of 28 in Phoenix checks three apps at seven in the morning and finds nothing new. Tinder has no matches for him. Hinge has one match from eleven days ago who never wrote back. Bumble still shows a woman who matched with him nine months ago and has never said a word. Over six months he has paid the three apps $287 and swiped right on 14,000 women. He matched with 41, talked with nine, met three, and went home alone from all three dinners. There is nothing wrong with his photos or his profile. Each month he pays the company that owns Tinder and Hinge more than he pays for Netflix, Spotify, and electricity together. Hinge's own data says six months like his are what an ordinary man should expect.
-
-**Contents:** [The number](#the-number) · [What the spread looks like in likes](#what-the-spread-looks-like-in-likes) · [The fact the number leaves out](#the-fact-the-number-leaves-out) · [Why the swipe pushes the number up](#why-the-swipe-pushes-the-number-up) · [Who pays for the spread](#who-pays-for-the-spread) · [Where the men went](#where-the-men-went) · [What the number can carry](#what-the-number-can-carry) · [What the number is for](#what-the-number-is-for)
-
-### The number
+## What the number is
 
 - Denmark's income sits near 0.28, the United States near 0.41, and South Africa near 0.63.
 - Women on Hinge, counting the likes they got from men: 0.376. Men on Hinge, counting the likes they got from women: 0.542.
@@ -166,7 +99,7 @@ A man of 28 in Phoenix checks three apps at seven in the morning and finds nothi
 </svg>
 <!-- /diagram -->
 
-The Gini coefficient is one number between 0 and 1 for how evenly something is shared across a group of people, and it was built for income. At 0 every person has exactly the same amount. At 1 one person has everything and everyone else has nothing. Denmark's income sits near 0.28. The United States sits near 0.41, which is high for a rich country. South Africa, the most unequal country measured, sits near 0.63. So the whole range that real countries occupy is about a third of the scale.
+The Gini coefficient is one number between 0 and 1 for how evenly something is shared across a group of people. It was built for income. At 0 every person has exactly the same amount. At 1 one person has everything and everyone else has nothing. Denmark's income sits near 0.28. The United States sits near 0.41, which is high for a rich country. South Africa, the most unequal country measured, sits near 0.63. So the whole range that real countries occupy is about a third of the scale.
 
 <!-- diagram:gini_scale -->
 <svg viewBox="0 0 680 246" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gini values of three countries' incomes and of likes received on Hinge and Tinder" style="max-width:100%;height:auto">
@@ -206,9 +139,9 @@ The Gini coefficient is one number between 0 and 1 for how evenly something is s
 </svg>
 <!-- /diagram -->
 
-In 2017 an engineer at Hinge ran the same arithmetic on likes, treating each man on the app as a person and the likes he received from women as his income, and then the other way round, with each woman a person and her likes from men as her income. The women's Gini came out at 0.376, about the level of income inequality in a Western European country. The men's came out at 0.542. On the list of 149 countries in the CIA World Factbook, a public reference book of country statistics, 0.542 would be the eighth most unequal economy on earth. He wrote that the men's side of his app looked like apartheid and perpetual civil war, and he published the analysis online. Outside researchers then ran the same calculation on Tinder's data and got 0.58 for men, more unequal than 95% of the countries on that list. He kept his job, the post stayed up, and the product did not change.
+In 2017 an engineer at Hinge ran the same arithmetic on likes. He treated each man on the app as a person and the likes he received from women as his income. Then he did the same the other way round, with each woman as a person and her likes from men as her income. The women's Gini came out at 0.376, about the level of income inequality in a country in Western Europe. The men's came out at 0.542. On the list of 149 countries in the CIA World Factbook, a public reference book of country statistics, 0.542 would be the eighth most unequal economy on earth. He wrote that the men's side of his app looked like apartheid and perpetual civil war, and he published the analysis online. Outside researchers then ran the same calculation on Tinder's data and got 0.58 for men, more unequal than 95% of the countries on that list. He kept his job, the post stayed up, and the product did not change.
 
-### What the spread looks like in likes
+## How the likes are split
 
 - Half of all the likes women send go to the top 15% of men.
 - The top 1% of men on Hinge receive 16% of every like sent.
@@ -244,7 +177,7 @@ In 2017 an engineer at Hinge ran the same arithmetic on likes, treating each man
 </svg>
 <!-- /diagram -->
 
-Half of all the likes that women send on these apps go to the top 15% of men, so the other 85% of men divide the other half between them. On Hinge the top 1% of men receive 16% of every like sent, and the bottom half of men receive almost nothing at all. An analyst who built on the Hinge numbers put an average man's chance of a match at 0.87% per right swipe. A 0.87% chance is fewer than one match for every 100 women he swipes right on.
+Half of all the likes that women send on these apps go to the top 15% of men. The other 85% of men divide the other half between them. On Hinge the top 1% of men receive 16% of every like sent, and the bottom half of men receive almost nothing at all. An analyst who built on the Hinge numbers put an average man's chance of a match at 0.87% per right swipe. A 0.87% chance is fewer than one match for every 100 women he swipes right on.
 
 <!-- diagram:swipe_rates -->
 <svg viewBox="0 0 680 190" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two grids of one hundred: a woman likes under 5 of 100 men, a man likes 62 of 100 women" style="max-width:100%;height:auto">
@@ -260,7 +193,7 @@ Half of all the likes that women send on these apps go to the top 15% of men, so
 </svg>
 <!-- /diagram -->
 
-The swiping underneath those figures runs in opposite directions. On Tinder a woman likes fewer than 5 of every 100 men she is shown and a man likes 62 of every 100 women, so in a 2024 set of 294 million swipes from 7,000 real accounts, the average man had swiped right 15,609 times over his whole time on one major app against 2,283 for the average woman. He swipes right seven times as often as she does and ends the month with less than half her matches, 33 against her 81.
+Men and women swipe at very different rates. On Tinder a woman likes fewer than 5 of every 100 men she is shown, and a man likes 62 of every 100 women. In a 2024 set of 294 million swipes from 7,000 real accounts, the average man had swiped right 15,609 times over his whole time on one major app, against 2,283 for the average woman. He swipes right seven times as often as she does and ends the month with less than half her matches, 33 against her 81.
 
 <!-- diagram:swipe_volume -->
 <svg viewBox="0 0 680 130" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Right swipes and matches per month for the average man and the average woman on Tinder" style="max-width:100%;height:auto">
@@ -285,7 +218,7 @@ The swiping underneath those figures runs in opposite directions. On Tinder a wo
 </svg>
 <!-- /diagram -->
 
-### The fact the number leaves out
+## How few women are on the apps
 
 - Tinder's users are 78% men, Hinge's about 65%, and Bumble's 62.5%.
 - In some European markets there are nine men for every woman.
@@ -321,7 +254,7 @@ The swiping underneath those figures runs in opposite directions. On Tinder a wo
 </svg>
 <!-- /diagram -->
 
-The Gini says how the women's likes are spread across the men and nothing about how many women there are to send them, and on these apps there are few. Tinder's users are 78% men, Hinge's about 65% and Bumble's 62.5%, and in some European markets there are nine men for every woman, so across the big apps for men and women, men outnumber women about two to one.
+The Gini measures how the women's likes are spread across the men. It does not count how many women there are to send them, and on these apps there are few. Tinder's users are 78% men, Hinge's about 65%, and Bumble's 62.5%. In some European markets there are nine men for every woman. Across the big apps for men and women, men outnumber women about two to one.
 
 <!-- diagram:two_problems -->
 <svg viewBox="0 0 680 240" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two separate problems, the shortage of women and the concentration of likes, combine into a 0.87% match chance per swipe" style="max-width:100%;height:auto">
@@ -345,9 +278,9 @@ The Gini says how the women's likes are spread across the men and nothing about 
 </svg>
 <!-- /diagram -->
 
-A man on the app is therefore up against two separate problems that stack. There are half as many women as men, which halves the likes an average man can receive before anyone has swiped. And the likes the women do send land on a few men, which is the piling-up the 0.542 measures. The 0.87% match rate is what the two problems produce together. An app with as many women as men but the same piling-up would double the average man's matches while leaving the Gini exactly where it is. Grindr shows what the first problem does on its own, because every user there is a man, so the people looking and the people being looked at are the same set. Grindr's revenue grew 25% in the first three months of 2025 while the apps for men and women shrank.
+A man on the app is therefore up against two separate problems, and they add together. There are half as many women as men, which halves the likes an average man can receive before anyone has swiped. And the likes the women do send go to a few men, which is the concentration the 0.542 measures. The 0.87% match rate is what the two problems produce together. An app with as many women as men but the same concentration would double the average man's matches while leaving the Gini exactly where it is. Grindr is the one big app without the first problem. Every user there is a man, so the people looking and the people being looked at are the same set. Grindr's revenue grew 25% in the first three months of 2025 while the apps for men and women shrank. It is the one big app that grew.
 
-### Why the swipe pushes the number up
+## Why the swipe pushes the number up
 
 - In 2009 women on a dating site rated about 80% of men as below average, then wrote to a far wider range of men than those ratings.
 - On a swipe app, swiping right is both a high rating and the only way to send a message.
@@ -383,7 +316,7 @@ A man on the app is therefore up against two separate problems that stack. There
 </svg>
 <!-- /diagram -->
 
-In 2009 a dating site asked its users to rate the looks of the opposite sex from one to five. Women rated about 80% of men as below average, which cannot be true of any group, since half of any group sits below its own middle. Men rated women on a near-perfect bell curve, with a few at the top, a few at the bottom, and most in the middle. The 80% is the figure people quote. The same study also recorded which men the women actually wrote to. The messages went to a far wider range of men than the ratings did, so the women who had rated four men in five as below average were still writing to many of those men.
+In 2009 a dating site asked its users to rate the looks of the opposite sex from one to five. Women rated about 80% of men as below average. That cannot be true of any group, since half of any group sits below its own middle. Men rated women on a near-perfect bell curve, with a few at the top, a few at the bottom, and most in the middle. The 80% is the figure people quote. The same study also recorded which men the women actually wrote to. The messages went to a far wider range of men than the ratings did. The women who had rated four men in five as below average were still writing to many of those men.
 
 <!-- diagram:swipe_collapse -->
 <svg viewBox="0 0 680 240" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="On the 2009 site rating and messaging were separate acts; on a swipe app the right swipe is both" style="max-width:100%;height:auto">
@@ -413,7 +346,7 @@ In 2009 a dating site asked its users to rate the looks of the opposite sex from
 </svg>
 <!-- /diagram -->
 
-On a swipe app those two acts are one motion. Swiping left is the rating and swiping right is the only way to send a message, so a woman can only write to a man she has already rated highly, and the wider messaging that the 2009 site saw has no way to happen. That fused motion is why the 0.542 is partly a measurement of the app's design, on top of what women want. The same women and the same men, given a form where rating and writing are separate acts, should produce a lower Gini. No one has reported testing such a form.
+On a swipe app those two acts are one motion. Swiping left is the rating, and swiping right is the only way to send a message. A woman can only write to a man she has already rated highly, so the wider messaging that the 2009 site saw has no way to happen. That is why the 0.542 is partly a measurement of the app's design, on top of what women want. The same women and the same men, given a form where rating and writing are separate acts, should produce a lower Gini. No one has reported testing such a form.
 
 <!-- diagram:height_filter -->
 <svg viewBox="0 0 680 160" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Of one hundred American men about fifteen are six feet or taller, the floor 60% of women on Bumble set" style="max-width:100%;height:auto">
@@ -428,9 +361,9 @@ On a swipe app those two acts are one motion. Swiping left is the rating and swi
 </svg>
 <!-- /diagram -->
 
-Filters push the same way. In leaked Bumble data from 2023, about 60% of women had set six feet as their minimum height, and about 14.5% of American men are that tall, so for those women that one floor removes 85% of men before any rating happens and the likes that remain land on a smaller set of men. Tinder began selling a height filter to paying users in 2025.
+Filters remove men before any rating happens. In leaked Bumble data from 2023, about 60% of women had set six feet as their minimum height. About 14.5% of American men are that tall. For those women, that one floor removes 85% of men before any rating happens, and the likes that remain go to a smaller set of men. Tinder began selling a height filter to paying users in 2025.
 
-### Who pays for the spread
+## Who pays
 
 - Tinder's paying users fell from 10.4 million in late 2023 to 8.77 million in late 2025 while its revenue stayed flat.
 - Tinder's top tier costs $499 a month and lets under 1% of users message without a match.
@@ -462,7 +395,7 @@ Filters push the same way. In leaked Bumble data from 2023, about 60% of women h
 </svg>
 <!-- /diagram -->
 
-The men who receive almost nothing are the paying customers. Match Group owns more than forty dating brands, Tinder and Hinge among them, and took in $831 million in the first three months of 2025 with Tinder alone bringing in more than half of it. Tinder's paying users fell from 10.4 million in late 2023 to 8.77 million in late 2025. Its revenue stayed flat over those two years because the people who stayed were charged more. The top of its price ladder, launched in late 2023, is a $499-a-month tier offered by invitation to under 1% of users, and what the $499 buys is the right to message a woman before she has swiped at all and to sit at the top of every woman's queue. A match normally needs both people to swipe right, and the $499 removes that condition for the buyer.
+The men who receive almost nothing are the paying customers. Match Group owns more than forty dating brands, Tinder and Hinge among them. It took in $831 million in the first three months of 2025, and Tinder alone brought in more than half of that. Tinder's paying users fell from 10.4 million in late 2023 to 8.77 million in late 2025. Its revenue stayed flat over those two years because the people who stayed were charged more. Tinder's most expensive tier, launched in late 2023, costs $499 a month and is offered by invitation to under 1% of users. The $499 buys the right to message a woman before she has swiped at all, and a place at the top of every woman's queue. A match normally needs both people to swipe right. The $499 removes that condition for the buyer. So the top tier sells the one thing the mutual swipe otherwise prevents, a message sent before the woman has swiped.
 
 <!-- diagram:dates_per_year -->
 <svg viewBox="0 0 680 206" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dates a year for paying men and paying women on Tinder and on Bumble" style="max-width:100%;height:auto">
@@ -494,7 +427,7 @@ The men who receive almost nothing are the paying customers. Match Group owns mo
 </svg>
 <!-- /diagram -->
 
-What the money buys is uneven too. A paying man on Tinder averages 13.2 dates a year and a paying woman 32, on Bumble the figures are 4.8 and 26.8, and across the big apps a man pays about five times more per date than a woman does. A class action, a lawsuit brought for a whole group of users at once, was filed against Match Group in a California federal court on Valentine's Day 2024. It says the apps are built to work like gambling, with the reward, a match, made rare on purpose. Match Group calls the suit meritless. The companies' own leaders came close to agreeing the next year. In March 2025 the new chief executive of Match Group wrote to staff that the apps had felt like a numbers game rather than a place to build real connections. The same month the founder of Bumble, back as its chief executive, gave an interview. She said that dating apps are rooted in rejection and judgement, and that those are not healthy dynamics. By then Bumble's shares had gone from a peak of $84.80 the day after the 2021 listing toward the $2.61 they closed at in February 2026, a fall of 96.9%, and Match Group's market value from about $45 billion in 2021 to about $10 billion by late 2025.
+The dates that the money buys are also unevenly split. A paying man on Tinder averages 13.2 dates a year and a paying woman 32. On Bumble the figures are 4.8 and 26.8. Across the big apps a man pays about five times more per date than a woman does. A class action, a lawsuit brought for a whole group of users at once, was filed against Match Group in a California federal court on Valentine's Day 2024. It says the apps are built to work like gambling, with the reward, a match, made rare on purpose. Match Group calls the suit meritless. In the spring of 2025 the heads of the two biggest companies described the product in their own words. In March 2025 the new chief executive of Match Group wrote to staff that the apps had felt like a numbers game rather than a place to build real connections. The same month the founder of Bumble, back as its chief executive, gave an interview. She said that dating apps are rooted in rejection and judgement, and that those are not healthy dynamics. By then Bumble's shares had gone from a peak of $84.80 the day after the 2021 listing toward the $2.61 they closed at in February 2026, a fall of 96.9%. Match Group's market value went from about $45 billion in 2021 to about $10 billion by late 2025.
 
 <!-- diagram:share_price -->
 <svg viewBox="0 0 680 110" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bumble's share price fell from $84.80 to $2.61 and Match Group's market value from about $45 billion to about $10 billion" style="max-width:100%;height:auto">
@@ -518,7 +451,7 @@ What the money buys is uneven too. A paying man on Tinder averages 13.2 dates a 
 </svg>
 <!-- /diagram -->
 
-### Where the men went
+## Where the men went
 
 - From 2023 to 2025 young men's use of Tinder, Bumble, and Hinge fell 15% to 22% while young women's use stayed flat.
 - The average Character AI user spends 92 to 120 minutes a day on the app, against about 56 minutes on TikTok.
@@ -560,7 +493,7 @@ What the money buys is uneven too. A paying man on Tinder averages 13.2 dates a 
 </svg>
 <!-- /diagram -->
 
-Young men are leaving. From 2023 to 2025 the number of young men using Tinder, Bumble, and Hinge fell by 15% to 22%. The number of young women stayed about flat. That tilts the count of men to women further against the men who stay. Across the apps the share of matches that turned into a date fell from 4.8% in 2020 to 2.1% in 2025. The share of all users who said they were satisfied fell from 44% in 2019 to 22% in 2025.
+Young men are leaving. From 2023 to 2025 the number of young men using Tinder, Bumble, and Hinge fell by 15% to 22%. The number of young women stayed about flat. That moves the count of men to women further against the men who stay. Across the apps the share of matches that turned into a date fell from 4.8% in 2020 to 2.1% in 2025. The share of all users who said they were satisfied fell from 44% in 2019 to 22% in 2025.
 
 <!-- diagram:minutes_per_day -->
 <svg viewBox="0 0 680 152" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Minutes a day on Character AI, 92 to 120, against about 56 on TikTok" style="max-width:100%;height:auto">
@@ -588,7 +521,7 @@ Young men are leaving. From 2023 to 2025 the number of young men using Tinder, B
 </svg>
 <!-- /diagram -->
 
-Many of the men who left went to apps that supply a companion made of software. Replika, the first big one, passed 40 million users by 2025, and on Character AI the average user spends 92 to 120 minutes a day against about 56 minutes on TikTok. The companion apps earned about $82 million in the first half of 2025 and are growing 64% a year. Behind those figures sit the births. The United States runs near 1.6 births per woman, against the 2.1 that holds a population steady. South Korea was at 0.72 in 2023, Seoul at 0.55, and Tokyo at 0.96.
+Many of the men who left went to apps that supply a companion made of software. Replika, the first big one, passed 40 million users by 2025. On Character AI the average user spends 92 to 120 minutes a day, against about 56 minutes on TikTok. The companion apps earned about $82 million in the first half of 2025 and are growing 64% a year. At the same time, birth rates are far below replacement. The United States runs near 1.6 births per woman, against the 2.1 that holds a population steady. South Korea was at 0.72 in 2023, Seoul at 0.55, and Tokyo, in Japan, at 0.96.
 
 <!-- diagram:fertility -->
 <svg viewBox="0 0 680 178" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Births per woman in the United States, Tokyo, South Korea, and Seoul against the 2.1 that holds a population steady" style="max-width:100%;height:auto">
@@ -646,9 +579,9 @@ Many of the men who left went to apps that supply a companion made of software. 
 </svg>
 <!-- /diagram -->
 
-One figure reads like a Gini outside the app. In a 2022 survey 63% of American men under 30 were single, against 34% of women under 30. That gap reads as partners piling up on a few men the way likes do. Either young women are pairing with older men, or a small set of young men each hold several uncommitted partners while the rest hold none. Run clubs, the in-person replacement for the apps, reproduced the same spread within a few years, with the most attractive members getting most of the attention. No Gini has been computed for run clubs.
+One figure outside the apps has the same shape as the Gini. In a 2022 survey 63% of American men under 30 were single, against 34% of women under 30. That gap suggests that partners are concentrated on a few men the way likes are. Either young women are pairing with older men, or a small set of young men each hold several uncommitted partners while the rest hold none. Run clubs, the in-person replacement for the apps, reproduced the same spread within a few years, with the most attractive members getting most of the attention. No Gini has been computed for run clubs.
 
-### What the number can carry
+## What the number can and cannot show
 
 - A Gini of likes covers the profiles on one app at one moment. A country's income Gini covers every household across a year.
 - The women's 0.376 and the men's 0.542 come from two different sets of people, each rated by the other.
@@ -684,13 +617,13 @@ One figure reads like a Gini outside the app. In a 2022 survey 63% of American m
 </svg>
 <!-- /diagram -->
 
-The country comparison gives a feel for the size of 0.542 and no more. A Gini of likes is worked out over the profiles on one app at one moment, while a country's income Gini is worked out over every household across a year. So the eighth-of-149 ranking says where 0.542 falls on a list built for national incomes, and nothing about the app itself.
+The country comparison gives a feel for the size of 0.542 and no more. A Gini of likes is worked out over the profiles on one app at one moment. A country's income Gini is worked out over every household across a year. So the eighth-of-149 ranking says where 0.542 falls on a list built for national incomes, and nothing about the app itself.
 
-The women's 0.376 and the men's 0.542 describe two different sets of people, each rated by the other. The women's figure says that men spread their likes widely and the men's figure says that women concentrate theirs, so calling the first a Western European economy and the second South Africa puts side by side two measurements that were never taken on the same people.
+The women's 0.376 and the men's 0.542 describe two different sets of people, each rated by the other. The women's figure shows that men spread their likes widely. The men's figure shows that women concentrate theirs. Calling the first a Western European economy and the second South Africa puts side by side two measurements that were never taken on the same people.
 
-The Hinge figures come from the company's own engineer on the company's own data. The Tinder 0.58 and the 0.87% match rate are second-hand figures, from unnamed researchers and from one analyst. A figure that arrives that way is a weaker grade of number.
+The Hinge figures come from the company's own engineer on the company's own data. The Tinder 0.58 and the 0.87% match rate are second-hand figures, from unnamed researchers and from one analyst. A figure that arrives second-hand is less certain than one from the company's own data.
 
-The line that 80% of men lose means they end up with almost none of the likes. The figure behind that line is the top 15% of men taking half the likes, which is the split the Gini summarises.
+The line that 80% of men lose means that they end up with almost none of the likes. The figure behind that line is the top 15% of men taking half the likes, which is the split the Gini summarises.
 
 <!-- diagram:survivorship -->
 <svg viewBox="0 0 680 208" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A toy list of ten men shows the Gini falling from 0.72 to 0.43 when the five men with zero likes leave" style="max-width:100%;height:auto">
@@ -737,9 +670,9 @@ The line that 80% of men lose means they end up with almost none of the likes. T
 </svg>
 <!-- /diagram -->
 
-The men leaving change the measurement. Suppose the men who quit are the ones who were receiving nothing. Then the Gini among the men still on the app falls, and nobody's chances have improved. So a lower Gini in a future report needs that check before it counts as a fix.
+The men leaving change the measurement. Suppose the men who quit are the ones who were receiving nothing. Then the Gini among the men still on the app falls, and nobody's chances have improved. Ten men with likes of 0, 0, 0, 0, 0, 1, 2, 3, 6, and 12 have a Gini of 0.72. When the five men with nothing quit, the same likes over the five men who remain give 0.43. So a lower Gini in a future report needs that check before it counts as a fix.
 
-### What the number is for
+## What the number is for
 
 - The man in Phoenix got 41 matches from 14,000 right swipes. An average man at 0.87% would have had about 120.
 - The app's own engineer measured the spread and published it, and the product did not change.
@@ -758,6 +691,69 @@ The men leaving change the measurement. Suppose the men who quit are the ones wh
 </svg>
 <!-- /diagram -->
 
-The man in Phoenix closed his accounts in the end, stopped paying, joined a run club, and is still alone. The Gini turns his six months from a story about one man into one draw from a spread that was measured. At the 0.87% rate an average man would have had about 120 matches from his 14,000 right swipes, and he had 41. So he sits below an average that is already under one match per hundred swipes. His empty inbox is the shortage of women and the piling-up of their likes stacked on each other. Hinge's own engineer measured that spread and published it, the company left the post online, and the product did not change, so a fix would show up in the number. The data points at two ways to move it, separating the rating from the message again or bringing the number of women and men closer to even. The run clubs and companion apps the men have moved to change nothing about how many women there are, and the run clubs already show the same spread of attention, so the early signs from them are not encouraging.
+The man in Phoenix closed his accounts in the end, stopped paying, joined a run club, and is still alone. The Gini makes his six months one result from a spread that was measured, rather than a story about one man. At the 0.87% rate an average man would have had about 120 matches from his 14,000 right swipes, and he had 41. So he sits below an average that is already under one match per hundred swipes. His empty inbox comes from the shortage of women and the concentration of their likes, added together.
 
-## Sources and links
+<!-- diagram:two_problems -->
+<svg viewBox="0 0 680 240" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two separate problems, the shortage of women and the concentration of likes, combine into a 0.87% match chance per swipe" style="max-width:100%;height:auto">
+<title>Two separate problems, the shortage of women and the concentration of likes, combine into a 0.87% match chance per swipe</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<rect x="20" y="30" width="250" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="145.0" y="54.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">half as many women as men</text>
+<text x="145.0" y="68.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">every man's average is halved</text>
+<text x="145.0" y="83.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">before anyone swipes</text>
+<rect x="20" y="130" width="250" height="70" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="145.0" y="154.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">the likes women send</text>
+<text x="145.0" y="168.5" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">land on a few men</text>
+<text x="145.0" y="183.0" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">this is what the 0.542 measures</text>
+<line x1="270.0" y1="65.0" x2="380.0" y2="108.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="270.0" y1="165.0" x2="380.0" y2="122.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="385" y="80" width="270" height="70" rx="6" fill="rgba(129,86,166,.10)" stroke="#8156a6" stroke-opacity=".55"/>
+<text x="520.0" y="103.66666666666667" font-size="11" fill="currentColor" opacity="0.85" text-anchor="middle">0.87% chance of a match</text>
+<text x="520.0" y="118.66666666666667" font-size="11" fill="currentColor" opacity="0.85" text-anchor="middle">per right swipe for the average man</text>
+<text x="520.0" y="133.66666666666669" font-size="11" fill="currentColor" opacity="0.85" text-anchor="middle">fewer than 1 in 100</text>
+<text x="20" y="228" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The Gini describes only the second box. Fix the first box alone and the average man's matches double while the Gini stays where it is.</text>
+</svg>
+<!-- /diagram -->
+
+The Gini is worth having for two reasons. It makes one man's empty inbox comparable across apps and across years. And the app's own engineer produced it from the app's own data. It measures the concentration of likes and nothing else. The shortage of women is a second problem the number does not measure. The swipe design is a cause of the concentration, and part of the number is a measurement of that design. Hinge's own engineer measured the spread and published it, the company left the post online, and the product did not change, so a repair would show up in the number. Two changes would move it: separating the rating from the message again, or bringing the number of women and men closer to even.
+
+<!-- diagram:swipe_collapse -->
+<svg viewBox="0 0 680 240" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="On the 2009 site rating and messaging were separate acts; on a swipe app the right swipe is both" style="max-width:100%;height:auto">
+<title>On the 2009 site rating and messaging were separate acts; on a swipe app the right swipe is both</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">THE 2009 DATING SITE: TWO SEPARATE ACTS</text>
+<rect x="20" y="24" width="180" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="110.0" y="48.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">she rates him</text>
+<text x="110.0" y="62.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">1 to 5</text>
+<line x1="200.0" y1="52.0" x2="240.0" y2="52.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="242" y="24" width="200" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="342.0" y="48.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">she decides on her own</text>
+<text x="342.0" y="62.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">whether to write to him</text>
+<line x1="442.0" y1="52.0" x2="482.0" y2="52.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="484" y="24" width="170" height="56" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="569.0" y="48.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">a message,</text>
+<text x="569.0" y="62.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">to a wide range of men</text>
+<text x="20" y="118" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">A SWIPE APP: ONE MOTION DOES BOTH</text>
+<rect x="20" y="128" width="300" height="56" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="170.0" y="152.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">swipe left = a low rating</text>
+<text x="170.0" y="166.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">no message is possible</text>
+<rect x="340" y="128" width="314" height="56" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="497.0" y="152.25" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">swipe right = a high rating</text>
+<text x="497.0" y="166.75" font-size="10.5" fill="currentColor" opacity="0.85" text-anchor="middle">and the only way to write to him</text>
+<text x="20" y="212" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">The wide messaging from the top row has no way to happen on the bottom row, because a woman can only write to a man she already</text>
+<text x="20" y="228" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">rated highly. Part of the 0.542 is that missing path.</text>
+</svg>
+<!-- /diagram -->
+
+The run clubs and companion apps the men have moved to do neither. They change nothing about how many women there are, and the run clubs already show the same spread of attention. So far the two replacements have not changed either problem.
+
+## How to practice this
+
+1. Count your matches and your right swipes over the same months. Divide the matches by the swipes. Notice whether your rate is above or below the 0.87% average.
+2. Before reading a Gini as a verdict on the men, find the share of users who are women. Notice that the Gini stays the same when the count of women doubles, while matches per man double.
+3. On a swipe app, list who you would write to if writing did not need a right swipe. Notice whether that list is wider than the people you swiped right on.
+4. Before treating a lower Gini as an improvement, check whether the users with nothing left the group. In the ten-man example, dropping the five men with zero likes moves the Gini from 0.72 to 0.43. Notice that nobody's chances improved.
+5. When a likes Gini is set beside a country's income Gini, check what each was computed over. Notice that one covers one app at one moment and the other every household across a year.
+6. When two Gini figures are compared, check whether they were taken on the same group. Notice that the women's 0.376 and the men's 0.542 describe two different sets of people, each rated by the other.
+
+## Sources

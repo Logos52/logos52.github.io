@@ -77,7 +77,7 @@ Useful maps:
 - change as understanding changes,
 - support later reconstruction.
 
-This connects to [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]] and [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]].
+This connects to [[wiki/Concepts/Importance-Based Chunking|Importance-Based Chunking]] and [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Deep Processing Practice]].
 
 ## Skills Acquisition
 

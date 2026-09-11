@@ -13,7 +13,7 @@ Add public source references here as the wiki grows.
 
 ## Sources
 
-- Andrej Karpathy, "llm-wiki" (GitHub Gist). [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]
+- Andrej Karpathy, "llm-wiki" (GitHub Gist). [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]
 - Andrej Karpathy, "How I use LLMs" (YouTube, 2025-02-28). [[How I use LLMs|Local transcript]]
 - Front Page, "The Hypocrisy Of Men VS Women On Dating Apps" (YouTube, 2026-08-13). [[wiki/Concepts/Dating Apps - The Gini Coefficient|Dating Apps - The Gini Coefficient]]
 - Front Page, "The Gen Z Gender War" (YouTube, 2026-05-08). [[wiki/Worldviews & the Political Order/The Gen Z Gender War - The Split|The Gen Z Gender War - The Split]]
@@ -26,6 +26,7 @@ Add public source references here as the wiki grows.
 - Asmongold TV, "This is genuinely f***ed.." (YouTube, 2026-09-05), a reaction to the Basic Logic video. [[wiki/Worldviews & the Political Order/Late Stage Feminism|Late Stage Feminism]]
 - Justin Sung, "5 Thinking Habits That Make You Look Smarter" (YouTube, 2026-08-28). [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]]
 - hoe_math (PsychoMath), "LEVELS OF THINKING (Basic Version)" (YouTube, 2023-10-28). [[wiki/Concepts/Levels of Thinking - The Step Back|Levels of Thinking - The Step Back]]
+- Wanhee Kim (완희), YouTube channel @wanheekim, 209 long videos posted 2022-08 to 2026-09. [Web](https://www.youtube.com/@wanheekim) [[wiki/Fitness/Fitness Mindsets|Fitness Mindsets]]
 - Front Page, "How The UK Became Poorer Than Mississippi" (YouTube, 2026-05-15). [[wiki/Worldviews & the Political Order/Britain - Poorer Than Mississippi|Britain - Poorer Than Mississippi]]
 - Andrej Karpathy, "From Vibe Coding to Agentic Engineering" (Sequoia AI Ascent, 2026). [[Andrej Karpathy From Vibe Coding to Agentic Engineering|Local transcript]]
 - Naval Ravikant and Nivi, "A Motorcycle for the Mind" (2026-02-20). [[raw/sources/A Motorcycle for the Mind|Local source]]

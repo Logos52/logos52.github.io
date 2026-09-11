@@ -3,7 +3,9 @@ title: "Silly Mistake Syndrome"
 type: technique
 status: developing
 created: 2026-05-29
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 tags:
@@ -14,58 +16,105 @@ tags:
 
 # Silly Mistake Syndrome
 
-Exam-room folklore calls the leftover error silly, and the word closes the case with the cause still unfound. The cause is almost always fixable, and it is more often a logic gap than carelessness.
+Silly Mistake Syndrome is a habit. A student gets an exam question wrong, calls the error "silly", and stops looking for its cause. The cause is not found, so it stays and produces the same error again.
 
-## What the label is usually hiding
+The cause is almost always fixable. The cause is more often a gap in reasoning than carelessness.
 
-Silly Mistake Syndrome is that habit: the label ends the search, so the cause stays. Two causes sit under most of the marks. Low attention to detail is sometimes transient — a bad night of sleep, a week of high stress — and more often habitual, built over years of dismissing the same errors instead of examining them. Lacking logic is the more common cause, as this page ranks it: not being able to generate the chain of reasoning unassisted, even though the official answer looks obvious once seen. Exam technique is the rare one.
+## Core takeaways
 
-A gap in understanding makes information get *missed*. A unit conversion that looked like sloppiness disappears once units mean something: grams into kilograms the wrong way stops making sense, so the hand no longer writes it. The official mark scheme then reads as obvious. That obviousness is the hide. Reading the answer "makes sense" masks that the chain could not have been generated on its own. Recognition is not generation. The costume is carelessness. The thing wearing it is a comprehension gap.
+- Calling an exam error "silly" ends the search for its cause. The cause stays and the error repeats.
+- Most lost marks come from one of two causes: low attention to detail, or not being able to produce the chain of reasoning without help. The second is the more common. Poor exam technique is rare.
+- A missing chain of reasoning looks like carelessness, because the official answer looks obvious once read. Recognizing a correct answer is not the same as producing it.
+- Resolving to be more careful does not find the cause.
+- MR FIG is a routine of five practices, Mirror, Ritual, Focus, Image, and Graduated exposure, for errors that come from attention dropping under pressure. It does not supply a missing chain of reasoning, and the five have never been tested together.
+- The result that can be checked is an error that has been given a cause and a next experiment.
 
-"Be more careful" is the repair the label produces. Intention and extra caution do not find the cause. [[Metacognition - The Control Layer]] is noticing that "it makes sense when I read the answer" is not the same as being able to generate it. [[Higher-Order Learning]] is the upstream repair for the logic-gap cause. "Silly" is not a category. The table that sorts the rest — test anxiety, thin lower-order knowledge, thin higher-order knowledge, thin procedural practice, mixed unidentified gaps — lives in [[How to diagnose and fix exam mistakes]].
+## What usually causes the error
 
-## The repair depends on the cause
+Most lost marks come from one of two causes.
 
-When the failure is detail under pressure, a five-part pre-performance routine can steady the performance state. Applied to a comprehension gap, the same routine is the misfit. The letters do not grow a missing chain of reasoning.
+The first is low attention to detail. Low attention is sometimes temporary, from a bad night of sleep or a week of high stress. More often low attention is habitual, built over years of dismissing the same errors instead of examining them.
 
-## The pressure protocol, scoped
+The second is lacking logic. The student cannot produce the chain of reasoning without help, even though the official answer looks obvious once seen. Lacking logic is the more common of the two causes.
 
-MR FIG is a mnemonic for that detail-under-pressure case, not a trialled bundle. Attention to detail degrades under pressure. The five parts come from five literatures and have not been tested as one treatment.
+Poor exam technique is a third cause, and it is rare.
 
-The letters start with the performance state, not with the content of the paper. **Mirror** is values-level affirmation: writing about a core value unrelated to the threatened domain. Speaking well of exam prep is a different act, and positive self-statements can backfire when self-esteem is already low.
+## Why a gap in reasoning looks like carelessness
 
-**Ritual** is a short fixed sequence before the paper. Cheap to keep. It is not a finding that rituals raise exam scores.
+A gap in understanding makes the student miss information. Take a unit conversion that looked like sloppiness. Once units mean something to the student, converting grams into kilograms the wrong way stops making sense, and the student stops writing it. The error was a comprehension gap that looked like carelessness.
 
-**Focus** is attention training — mindfulness as a tool class, not a named school and not a daily-minute prescription.
+When the student reads the official mark scheme, the answer looks obvious. That obviousness hides the gap. An answer that makes sense on reading gives no sign that the student could not have produced the chain of reasoning alone. Recognizing a correct answer is not the same as producing it.
 
-**Image** is mental rehearsal of performing well *and the steps that got there*. Process imagery beats outcome-alone.
+## Why resolving to be more careful does not work
 
-**Graduated exposure** is revision run under conditions that move toward the exam.
+The label "silly" produces one repair: the student resolves to be more careful. Intention and extra caution do not find the cause.
 
-Sleep, movement, connection, and light are prerequisites the letters cannot replace. Those sit in [[How to Maintain Sustainable Energy Under Pressure]]. When the "silly" errors are coming from a depleted system, the matching problem is [[Recovery]] — rest versus recovery, and detachment. Double-generation practice tests belong on [[Exam Execution]], not here.
+[[Metacognition - The Control Layer]] is the act of noticing that an answer making sense on reading is not the same as being able to produce it. [[Higher-Order Learning]] is the repair for the missing chain of reasoning, done during learning, before the exam.
 
-The price is five practices, maintained over weeks, not a morning-of trick. There is no trial of the bundle, no prevalence data that logic-gap outranks attention, and no evidence that the word "silly" itself causes persistence — foreclosure is plausible, not shown. If the errors are relational, strategy, or "makes sense when I read the answer," this protocol is the wrong page. Two "silly" logs in a row that were actually logic gaps means the misfit is repeating. A "silly" error that gets a cause and a next experiment is the checkable result. A vow to be more careful is not.
+"Silly" is not a category of error. The remaining causes are test anxiety, thin lower-order knowledge, thin higher-order knowledge, thin procedural practice, and mixed unidentified gaps. The table that sorts them is on [[How to diagnose and fix exam mistakes]].
 
-## Start the search
+## Which repair fits which cause
 
-Drop the label and the search can start. The protocol only helps the cause it was built for.
+When the errors come from attention to detail dropping under pressure, a five-part routine done before the exam can steady the student's state during the exam. Applied to a comprehension gap, the same routine does not fit. It does not supply a missing chain of reasoning.
 
-## Links into the knowledge base
+## The five-part routine for attention under pressure
 
-- [[How to Maintain Sustainable Energy Under Pressure]] — sleep, movement, connection, light; the prerequisites MR FIG cannot replace
-- [[Recovery]] — rest vs recovery; detachment; what to do when the "silly" errors are coming from a depleted system
-- [[Higher-Order Learning]] — the upstream repair for the logic-gap cause
-- [[Metacognition - The Control Layer]] — noticing that "it makes sense when I read the answer" is not the same as being able to generate it
-- [[How to diagnose and fix exam mistakes]] — the diagnosis table and the argument that "silly" is not a category
-- [[Exam Execution]] — the hub that already points here; double-generation belongs there
+MR FIG is a mnemonic. Its letters stand for Mirror, Ritual, Focus, Image, and Graduated exposure. It covers the case where attention to detail drops under pressure. Attention to detail gets worse under pressure. MR FIG is not a trialled bundle: the five parts come from five separate bodies of research and have not been tested as one treatment. All five parts work on the student's state before the exam. None of the five deal with the content of the exam paper.
 
-## Open Questions
+**Mirror** is affirmation at the level of values: writing about a core value that has nothing to do with the subject being examined. Speaking well of one's exam preparation is a different act. Positive self-statements can backfire when self-esteem is already low.
+
+**Ritual** is a short fixed sequence of actions done before the paper. It costs little to keep. There is no finding that rituals raise exam scores.
+
+**Focus** is attention training, using mindfulness in general. No named school is prescribed, and no number of minutes per day is prescribed.
+
+**Image** is mental rehearsal of performing well, including the steps that led to performing well. Rehearsing the process works better than rehearsing the outcome alone.
+
+**Graduated exposure** is revision done under conditions that move closer to exam conditions.
+
+## What the routine cannot replace
+
+Sleep, movement, connection, and light are prerequisites. The five parts cannot replace them. They are covered in [[How to Maintain Sustainable Energy Under Pressure]].
+
+When the errors called "silly" come from a depleted system, the cause to fix is the depletion. [[How to Maintain Sustainable Energy Under Pressure|Recovery]] covers that cause: rest versus recovery, and detachment.
+
+A practice-test method called double-generation is described on [[Exam Execution]].
+
+## What the routine costs and what is not known
+
+The routine costs five practices, kept up over weeks. It does not work as a single practice on the morning of the exam.
+
+No trial has tested the five parts as a bundle. No prevalence data shows that lacking logic is a more common cause than low attention. No evidence shows that the word "silly" itself makes errors persist. It is plausible that the label ends the search, but this has not been shown.
+
+If the errors are relational errors, strategy errors, or errors where the answer makes sense once read, the routine does not apply. If two errors in a row were logged as "silly" and both turned out to be logic gaps, the routine has been applied to the wrong cause twice.
+
+The result that can be checked is an error that has been given a cause and a next experiment. A promise to be more careful is not a checkable result.
+
+Once the student stops calling the error "silly", the search for its cause can start. The routine helps only the cause it was built for.
+
+## How to practice this
+
+1. Take the last exam error you called "silly". Try to produce the full chain of reasoning without looking at the answer. Notice whether you can do it unaided.
+2. Read the official answer. If it makes sense only once read, the cause is a missing chain of reasoning. The repair for that cause is [[Higher-Order Learning]].
+3. Check whether the error came after a bad night of sleep or a week of high stress. If so, the cause is a temporary drop in attention. Sleep, movement, connection, and light come before any routine.
+4. If the error came from attention dropping under exam pressure, keep the five MR FIG practices for weeks. Notice that none of the practices deal with the paper's content.
+5. Log each error with a cause and a next experiment. If two errors logged as "silly" in a row were logic gaps, the routine is on the wrong cause. Notice that a promise to be more careful gives you nothing to check.
+
+## Related pages
+
+- [[How to Maintain Sustainable Energy Under Pressure]]: sleep, movement, connection, light. The prerequisites MR FIG cannot replace.
+- [[How to Maintain Sustainable Energy Under Pressure|Recovery]]: rest versus recovery, and detachment. What to do when the errors called "silly" come from a depleted system.
+- [[Higher-Order Learning]]: the repair for the missing chain of reasoning, done during learning.
+- [[Metacognition - The Control Layer]]: noticing that an answer making sense on reading is not the same as being able to produce it.
+- [[How to diagnose and fix exam mistakes]]: the diagnosis table, and why "silly" is not a category.
+- [[Exam Execution]]: the hub page for exams. Double-generation practice tests belong there.
+
+## Open questions
 
 Once the label is dropped, what is the smallest written record that keeps a "silly" error from being re-filed as silly next time?
 
 ## Sources
 
-- Rozenblit, L., & Keil, F. (2002). The misunderstood limits of folk science: an illusion of explanatory depth. *Cognitive Science*. Recognition is not generation.
+- Rozenblit, L., & Keil, F. (2002). The misunderstood limits of folk science: an illusion of explanatory depth. *Cognitive Science*. Recognizing an answer is not the same as generating it.
 - Alhola, P., & Polo-Kantola, P. (2007). Sleep deprivation: impact on cognitive performance. Transient attention cost of a bad night.
 - Newbury, C. R., Crowley, R., Rastle, K., & Tamminen, J. (2021). Sleep deprivation and memory. *Psychological Bulletin*. Deprivation before and after encoding harms memory.
 - McQueen, A., & Klein, W. M. P. (2006). Experimental manipulations of self-affirmation. *Self and Identity*. The studied manipulation is not pep-talk.

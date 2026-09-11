@@ -49,7 +49,7 @@ The exception is real and narrow. When the job forces constant application — s
 
 Teaching is the natural slot inside working hours. What was learned goes to a colleague or a junior, into a meeting, or into a recurring hour every couple of weeks with the team. The retrieval happens while the hour still contributes. [[WPW]] suits that session: the topic reteaches aloud as a whole, then each part, then the whole again. The weekend retrieval mission itself runs on [[Spaced Interleaved Retrieval]] — reconstruct, space, mix, repair.
 
-Scarce minutes belong to logic and conceptual mastery. Small searchable facts go into a notes vault or a spreadsheet. For the rare item that genuinely must be memorized, cards get cut during Dive or Consolidate and a review algorithm carries them. Keep that deck small. [[Flashcards]] is that rare load. Dive notes mature in the four-pass format of the [[Bear Hunter System]].
+Scarce minutes belong to logic and conceptual mastery. Small searchable facts go into a notes vault or a spreadsheet. For the rare item that genuinely must be memorized, cards get cut during Dive or Consolidate and a review algorithm carries them. Keep that deck small. [[Rote Learning and Memorisation|Flashcards]] is that rare load. Dive notes mature in the four-pass format of the [[Bear Hunter System]].
 
 The case against the cycle is already in the ranking. A free weekend of the full encoding toolkit still beats it head-to-head. Fragments without a frame are just interruption. Designed-module microlearning is a different object and its effect sizes do not prove the train-and-elevator day. The price is the narrative cost of every gap, a Consolidate after every dive, and a weekend retrieval mission unless the job already forced reconstruction. Quit signals: diving point-to-point with no zoom-out; a week unused and no mission booked; shrinking the timer because pressure is supposed to help. After a week of pockets the Explore frame should still redraw closed-book. If it cannot, the fragments did not land inside a frame.
 
@@ -64,7 +64,7 @@ A free weekend of extended study still beats this cycle sitting down against it.
 - [[Bear Hunter System]] — the nonlinear dive notes mature in this four-pass format.
 - [[Spaced Interleaved Retrieval]] — the weekend retrieval mission: reconstruct, space, mix, repair.
 - [[WPW]] — whole-part-whole reteach for the big teaching-style session.
-- [[Flashcards]] — the rare memorization load; keep the deck small.
+- [[Rote Learning and Memorisation|Flashcards]] — the rare memorization load; keep the deck small.
 
 ## Open Questions
 

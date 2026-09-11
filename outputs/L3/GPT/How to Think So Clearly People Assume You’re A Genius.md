@@ -38,7 +38,7 @@ The source frames clear thinking as the removal of common thinking traps. The go
 5. Map the relationships.
 6. Decide the next test or action.
 
-This connects to [[wiki/Techniques/Thinking on Paper|Thinking on Paper]] and [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]].
+This connects to [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]] and [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]].
 
 ## What This Should Feel Like
 
@@ -48,8 +48,8 @@ It should not feel like generating impressive language around a confused model.
 
 ## Links Into the Knowledge Base
 
-- [[wiki/Concepts/Thinking Models|Thinking Models]]
-- [[wiki/Techniques/Thinking on Paper|Thinking on Paper]]
+- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]]
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]
 - [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]

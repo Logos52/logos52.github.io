@@ -125,7 +125,7 @@ Sung's question: *Are you organized? Can you think in an organized way?* The end
 
 - [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] — the page seeded directly from this principle.
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] — the brain's shortcut-seeking is the page-level concept.
-- [[wiki/Techniques/Building the Radar|Building the Radar]] — required to detect shortcut-execution.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Building the Radar]] — required to detect shortcut-execution.
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — the canonical anti-shortcut technique.
 - [[wiki/Syntheses/ICS System|ICS System]] — the chain Strategy → Thinking → Result is foundational to ICS.
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — passivity is shortcut-execution by another name.

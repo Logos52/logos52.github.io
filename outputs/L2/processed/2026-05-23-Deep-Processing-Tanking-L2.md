@@ -241,8 +241,8 @@ Do not use this page as the main explanation for attention-span problems, low mo
 ## Links Into the Knowledge Base
 
 - [[wiki/Dimensions/Deep Processing]] - parent dimension; this page describes one failure mode of strong but implicit deep processing.
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper]] - likely first repair strategy.
-- [[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization]] - mechanism behind organization and schema repair.
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]] - likely first repair strategy.
+- [[wiki/Dimensions/Deep Processing/Schema|Schema Construction, Assimilation, and Reorganization]] - mechanism behind organization and schema repair.
 - [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge]] - overlaps with the understanding-versus-organization distinction.
 - [[wiki/Dimensions/Deep Processing/Best-attempt Encoding]] - supports productive struggle and early schema formation.
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue]] - should absorb the good-load versus bad-load distinction.

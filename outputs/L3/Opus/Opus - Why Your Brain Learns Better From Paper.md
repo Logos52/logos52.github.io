@@ -64,7 +64,7 @@ If deep processing on screen still leaves you unable to recall or transfer, stop
 
 - [[wiki/Dimensions/Deep Processing|Deep Processing]] — the actual lever; this source is external corroboration that medium is downstream of processing.
 - [[wiki/Concepts/Metacognition - The Control Layer|Metacognition]] — fluency-vs-performance misjudgment is a metacognitive failure.
-- [[wiki/Techniques/Thinking on Paper|Thinking on Paper]] — the source's own closing recommendation; spatial-memory and mind-mapping connect here.
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]] — the source's own closing recommendation; spatial-memory and mind-mapping connect here.
 - [[wiki/Concepts/Memory Handling|Memory Handling]] — recognition vs recall, encoding context.
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — the screen-inferiority habit is consuming wearing learning's clothes.
 - [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design]] — where the shallow-screen habit is trained.

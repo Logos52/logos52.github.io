@@ -11,7 +11,7 @@ tags:
 
 # Knowledge Base Index
 
-There are 543 notes. Use search (⌘K) or the [Map](/map/) to browse by connection.
+There are 499 notes. Use search (⌘K) or the [Map](/map/) to browse by connection.
 
 ## Condensed
 
@@ -29,11 +29,11 @@ One rule per line — each corpus compressed to doctrine with links to the pages
 
 Cluster entry points — where a topic fans out into techniques, concepts, and related pages.
 
-- [[wiki/Syntheses/First Principles of Learning|Learning Systems]] — encoding, retrieval, self-regulation, and the five dimensions.
+- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Learning Systems]] — encoding, retrieval, self-regulation, and the five dimensions.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — building with agents while preserving judgment, taste, and ownership.
 - [[wiki/Language/Refold Language Learning System|Language Learning]] — immersion, attention, comprehension, and practical language workflows.
 - [[wiki/Language/Chinese/How Chinese Characters Work|Chinese Characters]] — form, sound, meaning, components, and how the script becomes predictable.
-- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Attention & Self-Management]] — focus, flow, procrastination, recovery, and usable work blocks.
+- [[wiki/Self Management/Flow State|Attention & Self-Management]] — focus, flow, procrastination, recovery, and usable work blocks.
 - [[wiki/Minimalism/Minimalism as Systems Design|Minimalism]] — environment design, ownership cost, and reduction that makes action easier.
 - [[wiki/Red Team/Red Teaming|Red Team / Critical Thinking]] — frame testing, assumptions, decision support, and adversarial thinking.
 - [[wiki/Design/Front-End Web Design|Front-End Web Design]] — design doctrine mapped onto web UI and the tsumugu reader and dictionary.

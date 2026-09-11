@@ -58,7 +58,7 @@ The practical lesson for this repo is similar:
 - Let indexes, outputs, backlinks, and summaries help route attention.
 - Treat the knowledge base as a living surface, not a filing cabinet.
 
-This connects to [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]].
+This connects to [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]].
 
 ## Democratized Risk
 
@@ -91,7 +91,7 @@ Practical optimism means:
 - [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 
 ## Open Questions

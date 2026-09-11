@@ -31,11 +31,11 @@ These are claims about responsibility and judgment, not about model capability �
 
 ## 2. Invariants — the medium
 
-- **Natural language is now a programming medium.** Context, instructions, examples, and constraints are interpreted as executable intent — so specs are source code, and writing better specs is writing better software ([[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]]).
+- **Natural language is now a programming medium.** Context, instructions, examples, and constraints are interpreted as executable intent — so specs are source code, and writing better specs is writing better software ([[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]).
 - **Own the spec, not the hand-written plan.** As models return routes and trade-offs unprompted, planning-as-ritual (you drafting the route) migrates to the model; planning-as-spec (the problem, the success criteria, which trade-off you actually want) stays yours. The PRD's content is the invariant; its authorship is not ([[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]).
 - **Shape the context around the task.** What the model can see *is* the program; indexes, constraints, examples, and desired-output shapes are engineering, not prompt garnish ([[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]).
 - **Build agent-native surfaces.** Copy-pasteable instructions, CLI commands, machine-readable state, API-first workflows — infrastructure legible to agents gets tended by agents ([[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]).
-- **Knowledge compounds in durable files.** Collect sources, compile to linked pages, query against the compiled layer, audit for drift — the wiki pattern that makes agent work accumulate instead of evaporate ([[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]).
+- **Knowledge compounds in durable files.** Collect sources, compile to linked pages, query against the compiled layer, audit for drift — the wiki pattern that makes agent work accumulate instead of evaporate ([[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]).
 - **Convert repeated mistakes into instructions or tools.** An agent error that happens twice is a missing rule, not bad luck; file durable lessons back into the system ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]).
 - **The cost of custom software falls toward the cost of asking clearly** — one-shot apps for one person, one task, one afternoon become rational ([[wiki/Concepts/A Return to Code|A Return to Code]]).
 
@@ -44,7 +44,7 @@ These are claims about responsibility and judgment, not about model capability �
 Operating adjustments for the models of this moment. Each line names what would obsolete it.
 
 - **Models are jagged:** brilliant in one domain, bizarrely wrong in the next — never extrapolate competence across domains. (Obsoleted if capability surfaces smooth out.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
-- **Fast model by default, thinking model when it's hard** — latency buys accuracy only on problems that need it. (Obsoleted when routing happens automatically or the trade-off collapses.) ([[wiki/Systems/AI & Agentic Systems/Thinking Models|Thinking Models]])
+- **Fast model by default, thinking model when it's hard** — latency buys accuracy only on problems that need it. (Obsoleted when routing happens automatically or the trade-off collapses.) ([[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]])
 - **Keep diffs small enough to review and delegations small enough to specify.** (Relaxes as verification tooling — not model trust — scales to bigger scopes.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
 - **Learn one layer below the abstraction** — enough fundamentals to catch the leaks. (Shifts as the layer worth knowing moves; the need for *some* lower layer may be permanent.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
 - **Agent councils share blind spots.** A second model's review is a second sample, not an independent auditor. (Obsoleted by genuinely diverse model families — not yet observed.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])

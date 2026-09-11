@@ -3,7 +3,9 @@ title: "Immersion Metalayers"
 type: tool
 status: developing
 created: 2026-05-06
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 source-count: 1
@@ -16,53 +18,77 @@ tags:
 
 # Immersion Metalayers
 
-A metalayer is a tool on top of real input that inspects a line without leaving the language. Lookup, pause, replay, and compare stay inside the video or the page; the session remains input. The tool fails the moment the hour becomes software operation.
+A metalayer is a tool that sits on top of real input and lets the learner inspect a line without leaving the language. Looking up a word, pausing, replaying, and comparing all happen inside the video or the page. The session stays input. The tool has failed when the learner spends the session operating software instead of taking in input.
 
-## What they do
+## Core takeaways
 
-**The durable object is a class of jobs, not a product.** Subtitle control, popup lookups, line replay, auto-pause, audio lookup, subtitle search, and translation support all sit on the input. They make subtitle lines easier to inspect, look up unknown words quickly, replay audio, pause after lines, and compare target-language subtitles with native-language support when needed. [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]] owns the lever list, including the blurred native-language row; this page is the tool-lever sibling, not a second copy of that table.
+- A metalayer is any tool that does one of a set of jobs on top of real input. It is not one specific product.
+- The jobs are subtitle control, popup lookups, line replay, auto-pause, audio lookup, subtitle search, and translation support.
+- A metalayer helps comprehension. It does not replace listening.
+- The tool is working when the session still feels like language exposure. It has failed when the session feels like operating software.
+- Setup ends when the next session can be started, or after a short fixed block of time, whichever comes first.
+- Two sessions that felt like operating software are the signal to quit the tool.
 
-The same class turns a video into an interactive reading and listening surface. That mode is [[wiki/Language/Interactive Immersion|Interactive Immersion]] — real content plus deliberate tools, used when the line is close enough to understand with help. The confirmation version of [[wiki/Language/Noticing Game|Noticing Game]] uses this tool layer to check that a noticed piece was actually there.
+## The jobs these tools do
 
-Two jobs show up whenever the writing system on screen is not the writing system being learned. Convert Simplified to Traditional when the content does not match the preferred script. Fetch or generate subtitles when the platform has none. Any tool that does those two jobs is enough, including free ones. The two standards are not interchangeable at the character level; that is a linguistic fact, not a product claim.
+A metalayer is any tool that does one of a set of jobs. It is not one specific product. The jobs are subtitle control, popup lookups, line replay, auto-pause, audio lookup, subtitle search, and translation support. All of them sit on the input. They make subtitle lines easier to inspect, let the learner look up unknown words quickly, replay audio, pause after lines, and compare target-language subtitles with native-language support when needed. The full list of levers lives on [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]]. That list includes the row for blurring the native-language support.
 
-**This is a comprehension aid, not a replacement for listening.** The goal is input usable enough to keep attention and notice patterns. Making otherwise-too-hard content usable is the comprehension-menu job from the tool side.
+With these tools, a video becomes something the learner can read and listen to with help. That mode is [[wiki/Language/Interactive Immersion|Interactive Immersion]]: real content plus deliberate tools, used when the line is close enough to understand with help. The confirmation version of [[wiki/Language/Noticing Game|Noticing Game]] uses the same tool layer to check that a noticed piece was actually there.
 
-## When they stop helping
+A metalayer helps comprehension. It does not replace listening. The goal is input that is usable enough to keep attention and to let the learner notice patterns. Tools that make content usable when it would otherwise be too hard are doing the job of the comprehension menu from the tool side.
 
-**Metalayers reduce friction, and they become counterproductive as tool fiddling, over-translation, or lookup addiction.** The tests are the page.
+## Script mismatch and missing subtitles
 
-Good use:
+Two more jobs come up whenever the writing system on screen differs from the writing system being learned. The first is converting Simplified to Traditional when the content does not match the preferred script. The second is fetching or generating subtitles when the platform has none. Any tool that does those two jobs is enough, and free tools count. Simplified and Traditional are not interchangeable at the character level. That is a fact about the two writing systems and does not depend on any product.
 
-- A tool directly removes a known bottleneck.
+## What good use looks like
+
+Metalayers reduce friction. They become counterproductive in three ways: fiddling with the tool, over-translation, and lookup addiction. Four signs mark good use:
+
+- The tool directly removes a known bottleneck.
 - The session stays in the language being learned as much as possible.
 - Lookups stay selective.
-- The hour still feels like language exposure, not software operation.
+- The session still feels like language exposure. It does not feel like operating software.
 
-Bad use:
+## What bad use looks like
+
+Three signs mark bad use:
 
 - Every line becomes an English translation task.
-- Setup consumes more time than immersion.
+- Setup takes more time than immersion.
 - Ambiguity is avoided entirely.
 
-The second bad-use row needs a stop. Setup ends when the next session is enterable, or after a short fixed slice, whichever comes first. [[wiki/Language/Preparation|Preparation]] is the setup-time sibling; the cap-and-enter repair lives there as a failure-table cell and is imported here so the session starts.
+## When to stop setting up
 
-The case against the class is the same as the case against any friction-remover: the tool can eat the session. The price is setup time and lookup time. Two sessions that felt like software are the quit signal. The checkable expectation is the next stretch of input, enterable without a new install. Dual-channel input — audio plus matching target-language subtitles — is the default content shape for the mode these tools live in; it is not a finding that it beats audio-only for everyone.
+The second sign of bad use, setup taking more time than immersion, needs a stopping rule. Setup ends when the next session can be started, or after a short fixed block of time, whichever comes first. This rule is the cap-and-enter repair. [[wiki/Language/Preparation|Preparation]] covers setup time and records the cap-and-enter repair as one cell in its failure table. The same rule applies to metalayer setup, so that the session starts.
 
-The same tools, judged after the hour: the session still felt like language, or it felt like software. Only the first reading is still a metalayer.
+## The cost and the quit signal
 
-## Links into the knowledge base
+The main risk with these tools is the same as with any tool that removes friction: the tool can take up the whole session. The cost is setup time and lookup time. Two sessions that felt like operating software are the signal to quit the tool. The expected result, which can be checked, is that the next stretch of input can be started without a new install. Dual-channel input, meaning audio plus matching target-language subtitles, is the default content shape for Interactive Immersion. There is no finding that dual-channel input beats audio-only input for everyone.
 
-- [[wiki/Language/Interactive Immersion|Interactive Immersion]] — the mode these tools live in: real content plus deliberate tools, used when the line is close enough to understand with help.
-- [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]] — the lever menu; this page is the tool-lever sibling, not a second copy of the table.
-- [[wiki/Language/Noticing Game|Noticing Game]] — the confirmation version of the hunt uses this tool layer to check that a noticed piece was actually there.
-- [[wiki/Language/Preparation|Preparation]] — the setup-time sibling, including the cap-and-enter repair this page imports.
-- [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]] — where to find content the tools will sit on, including Traditional-target material.
-- [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]] — the same, for the other language.
+After a session, judge the tools by one question. Did the session feel like language, or did it feel like software? Only when the answer is language is the tool still a metalayer.
 
-## Open Questions
+## How to practice this
 
-Whether any one commercial metalayer outperforms another is unverified. The page is a class and a stop test, not a comparison.
+1. Before opening a tool, name the one bottleneck it should remove. After the session, notice whether the tool removed that bottleneck directly. A tool that did not remove it was not good use.
+2. During the session, keep lookups selective. Notice whether every line is turning into an English translation task. That is the first sign of bad use.
+3. Cap setup time. Stop setting up when the next session can be started, or after a short fixed block, whichever comes first. Notice whether setup took more time than immersion.
+4. Leave some ambiguity in place. Notice whether you avoid every unclear line. Avoiding ambiguity entirely is a sign of bad use.
+5. After each session, ask whether it felt like language or like software. Count the sessions that felt like software. Two of them are the signal to quit the tool.
+6. Before the next session, check whether the next stretch of input can be started without a new install. If it can, the setup has done what it should.
+
+## Related pages
+
+- [[wiki/Language/Interactive Immersion|Interactive Immersion]]: the mode these tools live in. Real content plus deliberate tools, used when the line is close enough to understand with help.
+- [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]]: the lever menu. The full lever list lives there.
+- [[wiki/Language/Noticing Game|Noticing Game]]: the confirmation version of the hunt uses this tool layer to check that a noticed piece was actually there.
+- [[wiki/Language/Preparation|Preparation]]: the page on setup time, including the cap-and-enter repair that also applies to metalayer setup.
+- [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]]: where to find content the tools will sit on, including Traditional-target material.
+- [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]]: the same, for Vietnamese.
+
+## Open questions
+
+Whether any one commercial metalayer outperforms another is unverified. No comparison between products has been made.
 
 ## Sources
 

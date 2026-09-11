@@ -3,9 +3,10 @@ title: "Five Writing Templates"
 type: concept
 status: developing
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: opus
 written-by: fable
-method: fable-5.1-one-pass
 diagrams: scripts/gen-writing-templates-diagrams.py
 source-count: 0
 description: "A writing template is a shape a section or a page is poured into before the words are written, and each of the five thinking habits gives one. On an ordinary page all five run at once inside whole, part, whole, and two of them also stand as pages of their own, the record page and the condensed page."
@@ -18,13 +19,11 @@ tags:
 
 # Five Writing Templates
 
-## Reasoning
+A writing template is the shape a section or a page is given before the words are written. Five thinking habits each give one. The habits are to start at the end, to give observations before conclusions, to play the question back, to say what would change your mind, and to compress it first. Each habit is a check a person runs on their own thinking before they speak. A page is a place where that check can be run in writing.
 
-### Abstract
+A template can be the size of one section, dropped into a page at the point where it is needed, or it can be the whole page. Every page in this collection takes one shape. It opens in the whole, goes into the parts, and comes back to the whole. Three of the five templates go into the opening whole and the parts. The fourth is the last part before the close. The fifth is the page at its shortest. Two of them also make a page of their own kind, the record page and the condensed page.
 
-A writing template is a shape that a section or a page is poured into before the words are written. Five thinking habits each give one. The habits are to start at the end, to give observations before conclusions, to play the question back, to say what would change your mind, and to compress it first. Each one is a check a person runs on their own thinking before they speak, and a page is a place where that check can be run in writing. A template can be the size of one section, dropped into a page at the point where it is needed, or it can be the whole page. Every page in this collection takes one shape. It opens in the whole, goes into the parts, and comes back to the whole. Three of the five templates go into the opening whole and the parts. The fourth is the last part before the close. The fifth is the page at its shortest. Two of them also make a page of their own kind, the record page and the condensed page.
-
-### Core takeaways
+## Core takeaways
 
 - A template is picked by what a writer holds when they sit down. A conclusion, some observations, a fuzzy question, a decision, or a finished subject each call for a different one.
 - Start at the end fills the opening whole. The first sentence is the answer, and if it will not come there is no page yet.
@@ -33,11 +32,19 @@ A writing template is a shape that a section or a page is poured into before the
 - Say what would change your mind is the last part before the close. The position, the strongest counter, and the condition that would flip it sit together.
 - Compress it first is the page in one or two lines, written before the rest. A page made only of this is a condensed page.
 
-### Essay
+## What a writer holds when they sit down
 
-Start with what a template is for. A writer sits down holding something. Sometimes it is a conclusion they have reached. Sometimes it is a pile of things they saw and no conclusion yet. Sometimes it is a question someone asked them that has not been made clear. Sometimes it is a decision. Sometimes it is a whole subject they know well and want to hand over in one breath. Each of those is a different starting point. A page that starts from the wrong shape fights its own material the whole way down. A template is the shape chosen to fit what the writer holds, so the material goes in without a fight.
+A writer sits down holding something. Sometimes it is a conclusion they have reached. Sometimes it is a pile of things they saw and no conclusion yet. Sometimes it is a question someone asked them that has not been made clear. Sometimes it is a decision. Sometimes it is a whole subject they know well and want to hand over all at once. Each of those is a different starting point.
 
-The five thinking habits are five ways a person checks their own thinking before it leaves their mouth. To say the conclusion first you have to know it. To give observations first you have to have some. To play the question back you have to have understood it. To say what would change your mind you have to have looked. To compress you have to know which parts matter. A page is a slower place to run the same checks. Each habit turns into a shape that makes the writer run its check. That is what makes an article a frame for thinking. The page does more than store a finished thought. It makes the writer run the check.
+When the shape does not fit what the writer holds, the material has to be forced into it for the length of the page. A template is the shape chosen to fit what the writer holds, so the material goes in as it is.
+
+## From a check before speaking to a shape on the page
+
+The five thinking habits are five ways a person checks their own thinking before it leaves their mouth. To say the conclusion first you have to know it. To give observations first you have to have some. To play the question back you have to have understood it. To say what would change your mind you have to have looked. To compress you have to know which parts matter.
+
+A page is a slower place to run the same checks. Each habit turns into a shape that makes the writer run its check. That is what makes an article a frame for thinking. The page stores a finished thought, and it also makes the writer run the check.
+
+## Where each template goes in the page shape
 
 <!-- diagram:five_slots -->
 <svg viewBox="0 0 680 268" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The page shape whole, part, whole with the template that goes into each place and the description line above it" style="max-width:100%;height:auto">
@@ -84,25 +91,21 @@ The five thinking habits are five ways a person checks their own thinking before
 </svg>
 <!-- /diagram -->
 
-Every page here takes one shape. It opens in the whole, goes into the parts, and comes back to the whole. The opening whole answers one or both of two questions: why this matters, and how it connects to something the reader already knows. The closing whole calls back to the entire piece, not to the topic, so the reader leaves holding the whole thing and not the last part. The templates go into that shape at set points. Start at the end puts the answer in the opening whole's first sentence, before the why and the connection. Play the question back is the same opening whole when the page starts from a question rather than from an answer. Observations before conclusions is what each part contains. Say what would change your mind is the last part before the close, where the answer is still the subject. Compress it first is the whole page in one or two lines. Here it lives as the description line. That is the short text that stands for the page on any list where the page appears. The closing whole belongs to no template. It is the page's own callback to everything above it.
+Every page here takes one shape. It opens in the whole, goes into the parts, and comes back to the whole. The opening whole answers one or both of two questions: why this matters, and how it connects to something the reader already knows. The closing whole calls back to the entire piece, not to the topic, so the reader leaves holding the whole thing and not the last part.
 
-Two of the templates also make a page of their own kind. A page made only of observations, with the reading at the end and marked as not settled, is a record. A page made only of the compression, one paragraph that holds the subject and then lines that each stand alone, is a condensed page. A condensed page has no parts in the sense above, only a list of small wholes, so it stands apart from the shape. The other three never stand apart, because each of them sits inside the shape, in the opening whole or in the last part before the close.
+The templates go into that shape at set points. Start at the end puts the answer in the opening whole's first sentence, before the why and the connection. Play the question back is the same opening whole when the page starts from a question rather than from an answer. Observations before conclusions is what each part contains. Say what would change your mind is the last part before the close, where the answer is still the subject. Compress it first is the whole page in one or two lines. Here it lives as the description line, the short text that stands for the page on any list where the page appears. The closing whole belongs to no template. It is the page's own callback to everything above it.
 
-### Conclusion
+## Two templates that also make a whole page
 
-A writer who knows the five templates picks by what they hold. A conclusion goes in at the top. Observations go in as parts. A fuzzy question gets played back before anything is answered. A decision gets its counter and its flip condition beside it. A finished subject gets compressed to a line or two first, and the rest expands from there. On an ordinary page all five run at once. The compression is the description line, the answer or the played-back question opens the page, the observations are the parts, what would change the answer is the last part, and the close calls back to the whole piece. On a record page or a condensed page one template is the whole page.
+A page made only of observations, with the reading at the end and marked as not settled, is a record. A page made only of the compression, one paragraph that holds the subject and then lines that each stand alone, is a condensed page. A condensed page has no parts, only a list of small wholes, so it stands apart from the shape. The other three never stand apart. Each of them sits inside the shape, in the opening whole or in the last part before the close.
 
 ## The five templates
 
-Each template below is given at section size and at page size, with one live page from this collection that already has the shape, and where the template sits against whole, part, whole.
-
-**Contents:** [Start at the end](#start-at-the-end) · [Observations before conclusions](#observations-before-conclusions) · [Play the question back](#play-the-question-back) · [Say what would change your mind](#say-what-would-change-your-mind) · [Compress it first](#compress-it-first)
-
 ### Start at the end
 
-- Section: the first sentence of the section is its answer. Then the reasons, in the order that supports it.
-- Page: sentence one of the page is the answer. The parts are the reasons. The close is the answer with the reasons now behind it.
-- Check before writing: what is the answer? If it will not come, there is no page yet.
+- As a section: the first sentence of the section is its answer. Then the reasons, in the order that supports it.
+- As a page: sentence one of the page is the answer. The parts are the reasons. The close is the answer with the reasons now behind it.
+- The check before writing: what is the answer? If it will not come, there is no page yet.
 
 <!-- diagram:answer_template -->
 <svg viewBox="0 0 680 202" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Start at the end as a section is answer then reasons, and as a page is sentence one then parts then close" style="max-width:100%;height:auto">
@@ -142,12 +145,12 @@ Each template below is given at section size and at page size, with one live pag
 
 At section size, this template is a section whose first sentence is its answer, with the reasons after it in the order that supports it. A reader who stops after one sentence has the point. A reader who keeps going learns why. At page size, the same three moves run at page scale. Sentence one is the answer. The parts are the reasons. The close is the answer again, with the reasons now behind it, so the reader stands further along than they did at the top. Five Thinking Habits - Conclusion First is a live page in this shape, and so is The Cold Open, whose first sentence is its whole claim.
 
-The check that comes with the template is the one that matters most. Before a word is written, the writer asks what the answer is. If it will not come in one sentence, the writer does not know the subject well enough yet. The fix is to go back to the material. Starting to write and hoping the answer arrives is not the fix. When the answer comes but is unsure, it still goes first and it carries the uncertainty with it. Against whole, part, whole, this template is what the opening whole contains. It never stands apart from the shape.
+The check matters more than either shape. Before a word is written, the writer asks what the answer is. If it will not come in one sentence, the writer does not know the subject well enough yet. The fix is to go back to the material. Starting to write and hoping the answer arrives is not the fix. When the answer comes but is unsure, it still goes first, and it carries the uncertainty with it. Against whole, part, whole, this template is what the opening whole contains. It never stands apart from the shape.
 
 ### Observations before conclusions
 
-- Section: what was seen, with where and when. Then one line on what it means, marked as not settled.
-- Page: what was watched and where. Then the observations, in order. Then the reading at the end.
+- As a section: what was seen, with where and when. Then one line on what it means, marked as not settled.
+- As a page: what was watched and where. Then the observations, in order. Then the reading at the end.
 - Never the conclusion alone, with nothing under it that the reader can check.
 
 <!-- diagram:observation_template -->
@@ -181,15 +184,17 @@ The check that comes with the template is the one that matters most. Before a wo
 </svg>
 <!-- /diagram -->
 
-At section size, this template is a block that lists what was seen, with where and when. Then it gives one line on what it means, marked as not settled. It drops into any page at the point where a claim is made. A claim with an observation block under it is something the reader can check. A claim with nothing under it is a verdict, and the reader is left asking how the writer knows. At page size, the template is a record. The opening says what was watched and where. The parts are the observations, in the order they came. The close is the reading, and the reading is marked as not settled if it is not. The journal entry The Context Problem is a live record at page size. It lists every instance of one complaint found on record and counts them. Then it gives the change that was made because of them.
+At section size, this template is a block that lists what was seen, with where and when. Then it gives one line on what it means, marked as not settled. It drops into any page at the point where a claim is made. A claim with an observation block under it is something the reader can check. A claim with nothing under it is a verdict, and the reader is left asking how the writer knows.
 
-Against whole, part, whole, the record bends into the shape. The opening whole says what was watched, the parts are the observations, and the closing whole is the reading. A pure record with no reading yet stands apart. It has no closing whole to come back to. That page is still worth keeping. It is the material a later page will be built from.
+At page size, the template is a record. The opening says what was watched and where. The parts are the observations, in the order they came. The close is the reading, and the reading is marked as not settled if it is not settled. The journal entry The Context Problem is a live record at page size. It lists every instance of one complaint found on record and counts them. Then it gives the change that was made because of them.
+
+Against whole, part, whole, the record fits the shape. The opening whole says what was watched, the parts are the observations, and the closing whole is the reading. A pure record with no reading yet stands apart, because it has no closing whole to come back to. That page is still worth keeping. It is the material a later page will be built from.
 
 ### Play the question back
 
-- Section: the question as asked. Then what it is really asking. Then its parts. Then the answer.
-- Page: the question as asked, its parts, and for each part the page that answers it.
-- Check before writing: what is the real issue, and what purpose sits behind the ask?
+- As a section: the question as asked. Then what it is really asking. Then its parts. Then the answer.
+- As a page: the question as asked, its parts, and for each part the page that answers it.
+- The check before writing: what is the real issue, and what purpose sits behind the ask?
 
 <!-- diagram:question_template -->
 <svg viewBox="0 0 680 202" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Play the question back as a section is the question unpacked before the answer, and as a page routes each part" style="max-width:100%;height:auto">
@@ -232,14 +237,16 @@ Against whole, part, whole, the record bends into the shape. The opening whole s
 </svg>
 <!-- /diagram -->
 
-At section size, this template is the question written back at the top of a page or a section, before the answer. First the question as it was asked. Then what it is really asking. Then its parts, if it has more than one. Then the answer, part by part. Writing the question back does the same work as saying it back in a conversation. It forces the writer to find what the asker meant, and it shows the reader what is being answered, so the page does not come back as not what was asked for. At page size, the template is a page that only unpacks the question and routes each part to the page that answers it. No live page has that shape yet. Today the template runs at the desk, before a page is written. The writer puts down one sentence that says what a friend would ask. That sentence is written before any outline exists.
+At section size, this template is the question written back at the top of a page or a section, before the answer. First the question as it was asked. Then what it is really asking. Then its parts, if it has more than one. Then the answer, part by part. Writing the question back does the same work as saying it back in a conversation. It makes the writer find what the asker meant, and it shows the reader what is being answered, so the page does not come back as not what was asked for.
 
-Against whole, part, whole, this template and the shape are the same thing seen from the question's side. The played-back question is the opening whole. Its parts are the parts. The question answered as a whole is the close. When the question has two parts, the page shows both, or it becomes two pages. A page that answers one part and never says the other exists is the page the reader did not ask for.
+At page size, the template is a page that only unpacks the question and routes each part to the page that answers it. No live page has that shape yet. Today the template runs at the desk, before a page is written. The writer puts down one sentence that says what a friend would ask. That sentence is written before any outline exists.
+
+Against whole, part, whole, this template and the shape are the same thing seen from the question's side. The played-back question is the opening whole. Its parts are the parts. The question answered as a whole is the close. When the question has two parts, the page shows both, or it becomes two pages. A page that answers one part and never says the other exists is not the page the reader asked for.
 
 ### Say what would change your mind
 
-- Section: the position. Then the strongest counter. Then the condition that would flip it.
-- Page: the same three, and then the check on whether this case differs from the ones the writer has seen before.
+- As a section: the position. Then the strongest counter. Then the condition that would flip it.
+- As a page: the same three, and then the check on whether this case differs from the ones the writer has seen before.
 - "This is what I think. Here is what would change it."
 
 <!-- diagram:change_template -->
@@ -277,15 +284,17 @@ Against whole, part, whole, this template and the shape are the same thing seen 
 </svg>
 <!-- /diagram -->
 
-At section size, this template is a block that comes after any conclusion, on any page. The position is stated. The strongest counter is stated beside it, well enough that someone who holds the counter would recognize it. Then the condition under which the position would flip. The block tells the reader that the writer has looked past their own position and will not defend it beyond what the evidence supports. It also gives the reader something to hold the page to later. At page size, the template is a position page. The same three moves run, and then a fourth. The fourth is the check on whether this case differs from the ones the writer has seen before. That check is the one moment where a writer working from habit finds out whether the habit fits this time. Applied Critical Thinking - Testing Frames carries this at section size, as one row of a written checklist, named what would change the recommendation. Decision documents, the pages that record a choice between options, carry it at page size, with the verdict in the first two sentences and what would flip it stated after.
+At section size, this template is a block that comes after any conclusion, on any page. The position is stated. The strongest counter is stated beside it, well enough that someone who holds the counter would recognize it. Then comes the condition under which the position would flip. The block tells the reader that the writer has looked past their own position and will not defend it beyond what the evidence supports. It also gives the reader something to hold the page to later.
+
+At page size, the template is a position page. The same three moves run, and then a fourth. The fourth is the check on whether this case differs from the ones the writer has seen before. That check is where a writer working from habit finds out whether the habit fits this time. Applied Critical Thinking - Testing Frames carries this at section size, as one row of a written checklist, named what would change the recommendation. Decision documents, the pages that record a choice between options, carry it at page size, with the verdict in the first two sentences and what would flip it stated after.
 
 Against whole, part, whole, this template is the last part before the close. The close itself calls back to the entire piece, so the flip condition goes just before it, while the answer is still the subject.
 
 ### Compress it first
 
-- Section: the one or two lines at the top, before the section expands.
-- Page: one paragraph that holds the whole subject. Then numbered lines that each stand alone.
-- Check before writing: could the whole thing be said in two lines? If not, the writer does not yet know which parts matter.
+- As a section: the one or two lines at the top, before the section expands.
+- As a page: one paragraph that holds the whole subject. Then numbered lines that each stand alone.
+- The check before writing: could the whole thing be said in two lines? If not, the writer does not yet know which parts matter.
 
 <!-- diagram:compress_template -->
 <svg viewBox="0 0 680 202" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Compress it first as a section is the short version then the expansion, and as a page is the condensed page" style="max-width:100%;height:auto">
@@ -310,26 +319,41 @@ Against whole, part, whole, this template is the last part before the close. The
 </svg>
 <!-- /diagram -->
 
-At section size, this template is the one or two lines at the top of a section, before it expands. On every page here it also lives as the description line, the short text that stands for the page on any list where the page appears. The lines are written before the rest, from the material, and the rest expands from them. After the expansion, two checks run. Everything in the short version appears in the long one. The long one adds nothing the short one does not carry. A point that turns up only in the long version either goes up into the short one or comes out. At page size, the template is the condensed page. One paragraph holds the whole subject, written so that someone who has never met the subject can follow it. Then numbered lines, each one a rule stated so that it stands without following any link. Mindset, Condensed is a live page in this shape.
+At section size, this template is the one or two lines at the top of a section, before it expands. On every page here it also lives as the description line, the short text that stands for the page on any list where the page appears. The lines are written before the rest, from the material, and the rest expands from them. After the expansion, two checks run. Everything in the short version appears in the long one. The long one adds nothing the short one does not carry. A point that turns up only in the long version either goes up into the short one or comes out.
+
+At page size, the template is the condensed page. One paragraph holds the whole subject, written so that someone who has never met the subject can follow it. Then numbered lines, each one a rule stated so that it stands without following any link. Mindset, Condensed is a live page in this shape.
 
 Against whole, part, whole, the compression is the opening whole at its shortest. The condensed page has no parts, only a list of small wholes, so it stands apart from the shape. It is also the hardest of the five to write, because cutting a subject to what is necessary takes the deepest knowledge of it.
 
-## Sources and links
+## All five on one page
 
-### Links into the knowledge base
+A writer who knows the five templates picks by what they hold. A conclusion goes in at the top. Observations go in as parts. A fuzzy question gets played back before anything is answered. A decision gets its counter and its flip condition beside it. A finished subject gets compressed to a line or two first, and the rest expands from there.
 
-- [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]] holds the five habits as spoken habits and the check each one runs before speaking. This page turns each into a shape for writing.
+On an ordinary page all five run at once. The compression is the description line. The answer or the played-back question opens the page. The observations are the parts. What would change the answer is the last part. The close calls back to the whole piece. On a record page or a condensed page, one template is the whole page.
+
+## How to practice this
+
+1. Before writing, say your answer in one sentence. If it will not come, go back to the material. Do not start writing and hope the answer arrives.
+2. Put an observation block under your next claim: what you saw, with where and when. Then add one line on what it means, marked as not settled. Check that a reader could test the claim from what you wrote.
+3. Write the question back at the top before you answer it. Say what it is really asking, then split it into its parts. Notice any part you were about to leave unanswered.
+4. After your next conclusion, write the strongest counter and the condition that would flip your position. Then ask whether this case differs from the ones you have seen before.
+5. Write the whole subject in one or two lines before you write the rest. After the expansion, check that everything in the short version appears in the long one. Check that the long one adds nothing the short one does not carry.
+6. Read your closing paragraph. It should call back to the entire piece, not to the last part. If it calls back only to the last part, that is what the reader leaves holding.
+
+## Related pages
+
+- [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]] holds the five habits as spoken habits and the check each one runs before speaking. The five templates are those habits as shapes for writing.
 - [[wiki/Writing Craft/The Cold Open|The Cold Open]] holds the first template at page size, the claim at full strength in sentence one, and says where that form fails.
 - [[02 - System/Writing Standards|Writing Standards]] holds the shape every page here takes, whole, part, whole, in its second section, and what each kind of page owes in its fourth.
 - [[journal/2026-08-22-the-context-problem|The Context Problem]] is a record at page size: every instance of one complaint on record, the counts, and the change made because of them.
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]] holds the fourth template as a written row, what would change the recommendation.
 - [[wiki/Dimensions/Mindset/Mindset, Condensed|Mindset, Condensed]] is the fifth template at page size, one paragraph holding the domain and then lines that each stand alone.
 
-### Open questions
+## Open questions
 
 - A record page with no reading yet has no closing whole. Does it get one when the reading arrives, or does a new page get written on top of it and the record stay as it was?
-- The compression and the hedged answer pull in opposite directions. When the uncertainty is the important point, which of the two lines is the one the description carries?
+- The compression cuts the page to one or two lines. An answer that is unsure carries its uncertainty with it. The two requirements conflict. When the uncertainty is the important point, which of the two is the line the description carries?
 
-### Sources
+## Sources
 
 - Built from the page Five Thinking Habits - Conclusion First in this collection and from the page shape in Writing Standards, on the owner's direction of 2026-09-07 that each habit becomes its own writing template, at section size or page size, inside whole, part, whole or apart from it. No outside source.

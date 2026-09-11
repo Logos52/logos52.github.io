@@ -68,7 +68,7 @@ It should not feel like guessing randomly or copying the resource order.
 - [[wiki/Techniques/Aim|Aim]]
 - [[wiki/Techniques/Shoot|Shoot]]
 - [[wiki/Techniques/Skin|Skin]]
-- [[wiki/Concepts/Deep Processing Practice|Deep Processing Practice]]
+- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Deep Processing Practice]]
 - [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 
 ## Open Questions

@@ -70,7 +70,7 @@ The motivation-enhanced person has more capacity available on hard days precisel
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]] — motivation dependence is one of the structural causes of procrastination; DFUZ is the operating repair for the feeling→avoidance chain.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — Distinguish is a self-regulation move: monitoring the internal state and choosing a response rather than being driven by the automatic one.
 - [[wiki/Concepts/How to maintain sustainable energy under pressure|How to maintain sustainable energy under pressure]] — the burnout mechanism here connects directly to the burnout descent model; willpower depletion is the same structural collapse as chronic energy depletion from misaligned or prerequisite-starved work.
-- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]] — the Zone step and Uptime work together to support clean entry into a work block without requiring motivation to start.
+- [[wiki/Self Management/Flow State|Focus Management]] — the Zone step and Uptime work together to support clean entry into a work block without requiring motivation to start.
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]] — the Uptime progression (10 minutes → 12 → 20 → 30) is marginal gains applied to motivational independence; the wins compound invisibly.
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] — the cue→feeling→automatic action chain is exactly what DFUZ interrupts; defusion inserts a gap where the habit used to run automatically.
 

@@ -4,13 +4,19 @@ description: "Chronological index of public journal entries."
 type: journal-calendar
 hideFolderListing: true
 created: 2026-05-09
-updated: 2026-09-08
+updated: 2026-09-11
 tags:
   - system
 ---
 # Journal Calendar
 
 Five most recent journal entries, newest first. Older entries stay in the vault; add a dated `journal/YYYY-MM-DD-*.md` file and this page updates on build.
+
+## 2026-09-08
+
+[[journal/2026-09-08-how-to-make-the-ai-write-plainly|How to make the AI write plainly]]
+
+The owner's ask for a new approach to plain writing in files, the research pass that answered it, the four options, and the one recommended.
 
 ## 2026-09-08
 
@@ -35,12 +41,6 @@ Built a local unpacked Brave extension at /Users/n1/Projects/private/page-media-
 [[journal/2026-09-07-stop-auto-opening-markdown|Stop auto-opening markdown]]
 
 Claude and Grok must not macOS-open .md files. Full /Users/n1/... paths stay in replies. HTML, images, PDF, and audio still open. JSON still does not.
-
-## 2026-09-05
-
-[[journal/2026-09-05-eli5-is-a-format-not-a-writer|ELI5 is a format, not a writer]]
-
-Wedge retired Haiku as the ELI5 writer. The ELI5 treatment is now the format (contents bar, subject defined in sentence one, example bullets, a figure per idea) on top of the Fable 5.1 one-pass method with no rewrite pass. First page built this way: Dating Apps - The Gini Coefficient, with twenty figures.
 
 
 [[journal/index|← Back to Journal]]

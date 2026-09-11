@@ -125,7 +125,7 @@ From the template's own instructions:
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] — the ☑️ chaining mechanic enforces the cycle structurally: no new Kolbs without completing the previous one. The "full Kolbs vs quick note" distinction from the wiki maps to the "new vs follow-on" distinction in the template.
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — SIR is the primary example skill in the template. The SIR Kolbs chain (SIR 1 → SIR 2) is the intended model for how any skill is developed through repeated reflection cycles.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — the three recurring cadences (weekly eval, skills audit, Priority 0 check-in) are the structural self-regulation mechanism. Without them running, the system degrades into a static snapshot.
-- [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]] — the skills audit → feedback request cadence is the external calibration step for dimension upgrades.
+- [[wiki/Dimensions/Dimensions of Learning|Upgrading Your Dimensions]] — the skills audit → feedback request cadence is the external calibration step for dimension upgrades.
 - [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] — the Priority 0 check-in (six-monthly) maps to the meta-strategy level: stepping back to ask whether the current processes are still the right ones to be developing.
 
 ## Open Questions

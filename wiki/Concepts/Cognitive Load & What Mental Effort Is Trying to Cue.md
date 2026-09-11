@@ -3,7 +3,9 @@ title: "Cognitive Load & What Mental Effort Is Trying to Cue"
 type: concept
 status: developing
 created: 2026-05-14
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 tags:
@@ -14,11 +16,20 @@ tags:
 
 # Cognitive Load & What Mental Effort Is Trying to Cue
 
-Cognitive load is mental effort used as a pointer to the work the mind is holding, resolving, comparing, or transforming. Too little of this effort and too much of it are different problems. The next move depends on which kind of hard is on the table.
+Cognitive load is mental effort, read as a signal of the work the mind is doing: holding pieces of material, resolving them, comparing them, or transforming them. Too little effort and too much effort are different problems. The right next move depends on which kind of difficulty the effort is signalling.
 
-## Reading the signal
+## Core takeaways
 
-The feeling arrives before any diagnosis. Drowsiness while the page is still in view is one state. Confusion that will not resolve while several factors stay in the head at once is another. A session that is working, and is tiring because it is working, is a third. Treating all three as "hard" or "easy" collapses the pointer.
+- Mental effort is a signal of what the mind is doing. The right response depends on which kind of effort is present, and treating every session as "hard" or "easy" loses that information.
+- Low effort with drowsiness means the mind is taking material in without working on it. Teaching, mapping, questioning, or comparing starts the work and raises the effort.
+- High effort with progress is productive deep processing. High effort with confusion is working memory overload, and the response is to pause and reduce the number of pieces held at once.
+- Working memory holds about four items. Overload is a biological limit, and enduring it does not raise the limit.
+- The same work feels cheaper later because the pieces have become automatic, so they no longer have to be assembled from scratch. This is schema automation.
+- A new technique costs effort of its own, separate from the material. Add one or two new techniques at a time.
+
+## Five felt states and what each one means
+
+The feeling of effort comes before any judgement about what is causing it. Drowsiness while the page is still in view is one state. Confusion that does not resolve while several factors stay in the head at once is another. A session that is producing progress, and is tiring because of that work, is a third. Treating all three as "hard" or "easy" loses the information the feeling carries.
 
 | Felt state | What it is pointing at | Next move |
 |---|---|---|
@@ -28,45 +39,58 @@ The feeling arrives before any diagnosis. Drowsiness while the page is still in 
 | Overwhelm | A triage problem, not a capacity verdict | Name the biggest constraint first |
 | Repeated stuckness | A strategy mismatch | Change the angle or the practice condition |
 
-The low-effort row is the one that looks like rest and is not. Yawning, rereading the same paragraph, or switching tabs without a reason are the usual tells: the mind is receiving, not transforming. Teaching, mapping, questioning, or comparing raises the load because work has started.
+The low-effort state can be mistaken for rest. Yawning, rereading the same paragraph, or switching tabs without a reason are the usual signs. They mean the mind is taking material in without doing anything to it. Teaching, mapping, questioning, or comparing raises the load because work has started.
 
-The high-effort row splits on whether anything is moving. Progress means the comparisons are landing and the map is changing. That load is the encoding. Fatigue still has to be watched, because productive work still costs. Confusion without progress is a different reading. The usual cause is knowing that several pieces relate without knowing how they relate, so all of them stay in working memory at once. The matching moves are a pause, a narrower scope, the pieces out on paper, and the concerns that were being resolved together taken apart.
+High effort divides into two cases, based on whether progress is being made. Progress means the comparisons are producing results and understanding is changing. That load is the encoding taking place. Fatigue still has to be watched, because productive work still costs effort. Confusion without progress is a different state. The usual cause is knowing that several pieces relate without knowing how they relate, so all of them stay in working memory at once. The matching moves are a pause, a narrower scope, the pieces written out on paper, and the concerns that were being resolved together taken apart.
 
-Overwhelm is the state where too much is on the table to pick a next move. It is a triage cue, not a verdict that the tank is too small. [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]] owns the move: make the pile explicit, turn it into a question, let the question organise what happens next. This page only names the signal.
+Overwhelm is the state where too much is present to pick a next move. It is a cue to triage. It is not evidence that working memory is too small. [[wiki/Syntheses/Are You Learning, or Just Using Techniques|First Principles of Learning]] gives the response: make the set of pieces explicit, turn it into a question, and let the question organise what happens next.
 
-Stuckness that repeats after those moves have been tried is usually the method, not the material. The angle or the practice condition is what changes.
+Stuckness that repeats after those moves have been tried usually comes from the method being used. The response is to change the angle or the practice condition.
 
-## What kind of hard
+## Which kind of difficulty is present
 
-The key question is not whether the work is hard. It is what kind of hard this is. Hard because two ideas have to be compared and judged is the productive range. Hard because too many interacting factors are being held at once is overload, and the work stops until the pile is smaller. Easy because the session is coasting is the low-effort row again: the depth has to rise.
+The useful question is what kind of difficulty is present. Difficulty because two ideas have to be compared and judged is the productive range. Difficulty because too many interacting factors are being held at once is overload, and the work stops until the number of pieces held is smaller. Ease because the session has become passive is the low-effort state again, and the depth of processing has to rise.
 
-Efficient learning keeps load in a productive band — high enough that processing is actually happening, low enough that the workbench is not jammed. Overload is a biological limit on how many pieces can be resolved internally at once, not a discipline failure. High load during genuine higher-order thinking is a feature, as long as it is not tipping into the confusion row. Relational work raises how many elements interact, so it feels different, uncomfortable, and confusing at first. [[wiki/Dimensions/Deep Processing|Deep Processing]] is that productive high load: meaningful comparison and transformation. Reading which kind, and choosing the response, is what [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] is for.
+Efficient learning keeps load in a productive band: high enough that processing is happening, and low enough that working memory is not overloaded. Overload is a biological limit on how many pieces can be resolved in the head at once. A lack of discipline is not the cause. High load during genuine higher-order thinking is normal and useful, as long as it is not turning into the confusion state. Relational work raises how many elements interact, so it feels different, uncomfortable, and confusing at first. [[wiki/Dimensions/Deep Processing|Deep Processing]] is that productive high load: meaningful comparison and transformation. Reading which kind of difficulty is present, and choosing the response, is what [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] is for.
 
-The table fails in both directions when the discriminator is dropped. Labelling every hard session productive turns high effort into permission to continue a jammed pile. Labelling every hard session overload turns useful comparison into an exit. Progress versus confusion is the cut. The bound on the feature reading is the same cut.
+The table gives wrong answers when the progress check is skipped. Labelling every hard session productive leads to continuing an overloaded session. Labelling every hard session overload leads to stopping useful comparison. Whether progress is happening is the test. The same test decides whether high load is useful.
 
-## When the same work gets cheaper
+## Working memory holds about four items
 
-Working memory is a small workbench. Current estimates put the focus of attention nearer four items than the older seven. Trying to resolve many interacting factors on that bench is what produces the confusion row. Six responses sit on the bench without cutting the work that belongs there: separating concerns, mapping dependencies, thinking on paper, pausing consumption, handling a piece before the next one arrives, and narrowing the question. [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]] is the offload that gets the interacting factors out of the head. [[wiki/Concepts/Memory Handling|Memory Handling]] is what to do inside the short window once a piece is on the bench.
+Working memory holds a small number of items. Current estimates put the focus of attention nearer four items than the older seven. Trying to resolve many interacting factors within that limit is what produces the confusion state. Six responses reduce the overload without removing the productive work: separating concerns, mapping dependencies, thinking on paper, pausing consumption, handling a piece before the next one arrives, and narrowing the question. [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]] is the method for putting the interacting factors on paper so they no longer have to be held in the head. [[wiki/Concepts/Memory Handling|Memory Handling]] is what to do inside the short window once a piece is in working memory.
 
-The same process can feel cheaper later without the bench getting larger. **Cognitive load tolerance** is that cheaper feeling: the pieces have compiled, or they have somewhere to sit, so the same relational work no longer has to be assembled from scratch. Schema automation is the mechanism. Enduring overload does not grow the tank. Sitting in the confusion row as training is the reading this clause is there to stop.
+Offloading can cut the extra holding without cutting the productive work. Non-linear notes, mini hypothetical maps, and short consolidation pauses keep the comparison work and remove the extra items being held. A consolidation pause is a summary written before more material is taken in.
 
-Offload can cut the extra hold without cutting the productive work. Non-linear notes, mini hypothetical maps, and short consolidation pauses — a summary before more is taken in — keep the comparisons and drop the pile. A new technique consumes load of its own, independent of the content it was meant to help. Two new techniques at once spend the bandwidth the techniques were supposed to free. The planning rule here is one or two new techniques at a time, until they have compiled enough to stop competing with the material.
+The model behind the limit, effort as contents competing for a limited workspace, is described on [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]]. [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is choosing the response once the signal has been read.
 
-The workspace model behind the limit — effort as contents competing for a limited workspace — lives on [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]]. [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is choosing the response once the signal has been read.
+## Why the same work gets cheaper later
 
-## The next move follows the kind
+The same process can feel cheaper later without working memory getting larger. **Cognitive load tolerance** is that cheaper feeling: the pieces have become automatic, or a structure exists to hold them, so the same relational work no longer has to be assembled from scratch. Schema automation is the mechanism. Enduring overload does not increase working memory capacity. Staying in the confusion state as training does not build capacity.
 
-The next move is chosen by the kind of hard just named. A low-effort hour wants transformation. A high-effort hour with progress wants continuation and a watch on fatigue. A high-effort hour with confusion wants a smaller pile. Overwhelm wants the biggest constraint named first. Repeated stuckness wants a different angle. The cheaper feeling later is compilation, not toughness.
+A new technique consumes load of its own, separate from the content it was meant to help with. Two new techniques at once use up the capacity the techniques were supposed to free. The planning rule is one or two new techniques at a time, until they have become automatic enough that they no longer compete with the material.
 
-## Related
+## Choosing the next move
 
-- [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]] — overwhelm as a triage cue: make it explicit, turn it into a question, let the question organise the next move
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] — reading which kind of hard, and choosing the response, is metacognition
-- [[wiki/Concepts/Memory Handling|Memory Handling]] — what to do inside the short working-memory window
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]] — the offload that gets interacting factors out of the head
-- [[wiki/Dimensions/Deep Processing|Deep Processing]] — productive high load: meaningful comparison and transformation
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — choosing the response once the signal has been read
-- [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]] — effort as contents competing for a limited workspace
+The next move follows from the kind of difficulty named. In a low-effort hour, the move is to start transforming the material. In a high-effort hour with progress, the move is to continue and watch for fatigue. In a high-effort hour with confusion, the move is to hold fewer pieces at once. In overwhelm, the move is to name the biggest constraint first. In repeated stuckness, the move is to change the angle. The cheaper feeling later comes from schema automation, and enduring overload does not produce it.
+
+## How to practice this
+
+1. During a session, notice whether you are yawning, rereading the same paragraph, or switching tabs without a reason. Those signs mean the mind is taking material in without working on it. Teach, map, question, or compare the material, and notice that the effort rises.
+2. When a session feels hard, check whether progress is happening. Progress means the comparisons are producing results and your understanding is changing. If so, continue, and watch for fatigue.
+3. When a session feels hard and nothing is resolving, count how many pieces you are holding at once. Pause, narrow the scope, write the pieces on paper, and separate the concerns. Notice whether the confusion drops once fewer pieces are in the head.
+4. When too much is present to pick a next move, name the biggest constraint first. Then make the set of pieces explicit and turn it into a question.
+5. When you stay stuck after those moves, change the angle or the practice condition. Notice whether the stuckness clears once the method changes.
+6. When adding a study technique, add one or two at a time. Notice that a new technique costs effort of its own until it has become automatic.
+
+## Related pages
+
+- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|First Principles of Learning]]: overwhelm as a triage cue. Make it explicit, turn it into a question, let the question organise the next move.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: reading which kind of hard, and choosing the response, is metacognition.
+- [[wiki/Concepts/Memory Handling|Memory Handling]]: what to do inside the short working-memory window.
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]: the offload that gets interacting factors out of the head.
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]: productive high load, meaningful comparison and transformation.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: choosing the response once the signal has been read.
+- [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]]: effort as contents competing for a limited workspace.
 
 ## Sources
 

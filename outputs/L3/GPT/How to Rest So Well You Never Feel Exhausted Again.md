@@ -126,7 +126,7 @@ The point is not indulgence. The point is agency.
 
 Exhaustion often feels like being dragged by obligations. A small chosen action interrupts that pattern. It reminds the nervous system that the day is not only extraction.
 
-This connects directly to [[wiki/Concepts/Attention Management - Preserving Flow|Attention Management: Preserving Flow]] and [[wiki/Concepts/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]. Control over recovery time helps protect the next work block because attention is no longer trying to recover while also producing output.
+This connects directly to [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]] and [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]]. Control over recovery time helps protect the next work block because attention is no longer trying to recover while also producing output.
 
 ## Fatigue Changes The Decision-Maker
 
@@ -253,7 +253,7 @@ Warning signs:
 
 ## Implications For My System
 
-Recovery should be treated as part of [[wiki/Dimensions/Self-Management|Self-Management]], not as a reward after work is done. If recovery is weak, [[wiki/Concepts/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]] and [[wiki/Concepts/Attention Management - Preserving Flow|Attention Management]] both degrade.
+Recovery should be treated as part of [[wiki/Dimensions/Self-Management|Self-Management]], not as a reward after work is done. If recovery is weak, [[wiki/Self Management/Flow State|Focus Management]] and [[wiki/Self Management/Flow State|Attention Management]] both degrade.
 
 [[wiki/Concepts/Procrastination - A System Problem|Procrastination: A System Problem]] should include fatigue diagnosis. If the default choice keeps becoming the lowest-planning option, the bottleneck may be depleted control rather than laziness.
 

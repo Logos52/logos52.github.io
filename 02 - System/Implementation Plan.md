@@ -53,7 +53,7 @@ First compiled thread: metacognition and learning-to-learn.
 Created pages:
 
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
-- [[wiki/Techniques/Building the Radar|Building the Radar]]
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Building the Radar]]
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
@@ -63,9 +63,9 @@ Created pages:
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Mindset|Mindset]]
-- [[wiki/Dimensions/Deep Processing/Deep Processing Practice|Deep Processing Practice]]
+- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Deep Processing Practice]]
 - [[wiki/Concepts/Memory Handling|Memory Handling]]
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]]
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]
 - [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Dimensions/Deep Processing/Aim|Aim]]
@@ -75,8 +75,8 @@ Created pages:
 - [[wiki/Dimensions/Retrieval/WPW|WPW]]
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- [[wiki/Techniques/Dimension Practice Tracks|Dimension Practice Tracks]]
-- [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]]
+- [[wiki/Dimensions/30-Day Challenges|Dimension Practice Tracks]]
+- [[wiki/Dimensions/Dimensions of Learning|Upgrading Your Dimensions]]
 
 Next compile candidates:
 

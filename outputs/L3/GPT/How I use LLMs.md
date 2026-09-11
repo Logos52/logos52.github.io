@@ -113,8 +113,8 @@ The next step is to make these modes more explicit so the user can choose whethe
 - [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
 - [[wiki/Techniques/Context Engineering|Context Engineering]]
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
-- [[wiki/Concepts/Software 3.0|Software 3.0]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]
 - [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]]
 
 ## Open Questions

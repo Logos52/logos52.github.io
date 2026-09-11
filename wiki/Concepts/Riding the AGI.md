@@ -3,7 +3,9 @@ title: "Riding the AGI"
 type: concept
 status: developing
 created: 2026-07-21
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: opus
 written-by: grok
 model: grok
 source-count: 3
@@ -20,85 +22,117 @@ tags:
 
 # Riding the AGI
 
-A lead in this technology now expires in weeks, so the working move is to live a bit ahead of it rather than defend last month's edge. Which layer stays scarce is contested, and that hedge sits next to the claim rather than under it. The duration of exclusivity is the new variable.
+Riding the AGI is a way of working under one condition: a lead in this technology now expires in weeks. The smartest model available is exclusive for two to four weeks, and then it is not exclusive at all. Under that condition the working move is to live a bit ahead of the technology and keep moving to the next lead, rather than to defend last month's edge. How long exclusivity lasts is the new variable.
 
-## The stack, held loosely
+The claims here come from three founders and a host. They have a financial interest in the view they present, and they were selected because AI is already working for them. Which layer of the technology stays scarce is contested, and the main claim about weeks-long leads does not depend on how that contest is settled.
 
-The room's picture has three layers. Hardware is treated as a commodity a manufacturing-scale state already owns: anything that can be made in the US can be made there more cheaply, one tiny cable has thousands of manufacturers in a single city, and production is subsidized to capture scale. Manufacturing scale is real. "Owns hardware" and "no one beats them in a decade" are partisan, and they are not load-bearing for the operators that follow.
+## Core takeaways
 
-Software is treated as commoditized the moment an agent can one-shot a specification — the economic consequence of [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]], which owns natural language as a programming medium. The completed tense overstates it. The direction is the usable claim.
+- The smartest model is exclusive for two to four weeks. The response is to move to the next edge rather than defend the current one.
+- The speakers split the technology into hardware, software, and model-building. They treat hardware and software as commodities and model-building as the one layer that is not. Whether model-building stays scarce is contested.
+- Living in the future means paying to work under next year's conditions and building backwards from what that shows.
+- The current lever is context. A long context window can hold a whole corpus, while a person holds a handful of items in mind at once.
+- Errors compound when a model is run many times. A nine-in-ten success rate over a hundred runs comes out near zero. A 999-in-a-thousand rate over the same hundred runs still comes out around nine in ten.
+- If models reach expert capability without supplying their own aims, people stay the motivated element. Desire is the one input a model cannot supply.
 
-Model-building is treated as the one layer that is not a commodity. Nobody builds a frontier model in a garage: clusters, proprietary data, scarce researchers, and a regulatory field that [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] owns as the way an uncommoditized layer concentrates. Fine-tunes and small models are garage-accessible. The hedge is on frontier training. Doom-era democratization never arrived at that scale.
+## Three layers: hardware, software, model-building
 
-This is the claim with the shortest shelf life, and the one [[wiki/Concepts/The Margin Moves to the Serving Layer|The Margin Moves to the Serving Layer]] contests in full. A sibling episode three weeks later puts durable money in applications above and cloud and chips below. This page does not settle the layer. It points.
+The speakers describe three layers: hardware, software, and model-building.
 
-Open source, on the same picture, rarely surrenders a lead it takes. Once an open project pulls ahead, an ecosystem accretes — the maintenance-lead pattern of a kernel or a mobile OS, used here as analogy, not proof. A closed lab then cannot justify burning runway to re-pass something free. Open-source *maintenance* leads are real. Open-source *frontier-model* leads, as of 2026, are not established. Keep it as a tendency the panel believes, not as a law.
+They treat hardware as a commodity that a state with manufacturing scale already owns. Their supporting points are that anything that can be made in the US can be made there more cheaply, that one tiny cable has thousands of manufacturers in a single city, and that production is subsidised to capture scale. The manufacturing scale is real. The claims that this state owns hardware and that no one beats it in a decade are partisan, and the operating advice that follows does not depend on them.
 
-China's open-source flood is offered as deliberate state strategy: a cheap software layer keeps Chinese hardware competitive, and funding labs to stay number two or three and publish anyway would be rational statecraft. Complementary-goods logic is real economics. The *intent* is unshown. No funding evidence was offered. Theory, marked.
+They treat software as commoditised the moment an agent can produce a working program from a specification in one pass. That is the economic consequence of natural language becoming a programming medium, which [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]] covers. Saying this has already happened overstates it. The direction is the usable claim.
 
-Two labs earning revenue directly off their models, with user bases feeding reinforcement trajectories, were named as the remaining kings where five had stood two years earlier. That snapshot will rot. It is color, not the spine.
+They treat model-building as the one layer that is not a commodity. Nobody builds a frontier model in a garage. It takes compute clusters, proprietary data, and researchers who are scarce, and the regulation around it favours the labs that already exist. [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] covers how a layer that stays uncommoditised concentrates. Fine-tunes and small models are within reach of one person with a garage. The claim covers frontier training only. Democratisation at that scale, predicted during the doom debate, never arrived.
 
-The strongest open models already run cheaper and, given a good harness, close much of the usable gap. The multiples named on air are unsourced. The direction travels. Power users reach for open or jailbroken models to shed the refusal-and-tone-policing tax. That is a pull, not a market share.
+This is the claim with the shortest life, and [[wiki/Concepts/The Margin Moves to the Serving Layer|The Margin Moves to the Serving Layer]] contests it in full. Three weeks later, a second discussion put the durable money in applications above the model and in cloud and chips below it. Which layer is scarce is not settled either way here.
 
-## Live in the future
+## Open models, and who earns money from models now
 
-The same smartest model can be exclusive for two to four weeks and then not exclusive at all. The prior world let an edge be operationalized with some durability. That window is contracting toward zero. The response is not to defend the edge. It is to keep moving to the next one. [[wiki/Decision Making/Positional Decisions and Expected Value|positional]] decisions are how those bets get priced when the compounding surface is that short.
+On the same account, open source rarely gives back a lead once it has one. When an open project gets ahead, tools and contributors build up around it, and a closed lab then cannot justify the spending needed to overtake something free. The examples given are a kernel and a mobile operating system, used as an analogy rather than as proof. Open-source leads in maintained software are real. Open-source leads in frontier models, as of 2026, are not established. Treat this as a tendency the speakers believe, not as a law.
 
-Live in the future, here, means paying to work under next year's conditions and building backwards from what that reveals. The heuristic is old and public. It is a method, not a budget. Spending on the order of a hundred thousand dollars a year on tokens, in the room's illustration, buys the working conditions of a normal user two years later. That figure is a 2026-07 illustration, not a price forecast and not a commandment. The open question is the smallest spend that actually puts a year of conditions ahead.
+The volume of open models coming out of China is offered as deliberate state strategy. A cheap software layer keeps Chinese hardware competitive, and funding labs to stay number two or three and publish anyway would be rational statecraft. Making a complement cheap in order to sell more of your own product is ordinary economics. The intent was not shown and no funding evidence was offered. This stays a theory.
 
-The present lever is context. A long window can hold a whole corpus. A person holds a handful of items in mind at once. The contrast is corpus-in-context against handful-in-mind, not a claim about how many facts a company can be known by. A dated product illustration — a million-token window, three novels — will move. The contrast will not.
+Two labs were named as the ones earning revenue directly from their own models, with user bases that feed reinforcement trajectories. Two years earlier there were five. That count will be out of date soon and the argument does not rest on it.
 
-Orders of magnitude more inference change what can be done, not only how fast. A volunteered multiple for the next two to three years was offered with a hedge of a couple of orders of magnitude and is not a finding.
+The strongest open models already run cheaper, and with a good harness they close much of the usable gap. The cost multiples given in the conversation are unsourced. The direction still holds. Some heavy users choose open or jailbroken models to avoid the cost of refusals and tone policing. That is a reason people switch, not a measure of market share.
 
-A named tool in December 2025 was the room's tipping point. The pattern is the keepable thing. Dismiss the tool at capability N, and the jump to N+1 makes the earlier verdict wrong. The product name is not the spine.
+## Moving to the next edge instead of defending the last one
 
-## What survives whichever layer is scarce
+The same smartest model can be exclusive for two to four weeks and then not exclusive at all. In the previous world an edge could be put to work and held for a while. That window is contracting toward zero. The response is not to defend the edge. It is to keep moving to the next one. [[wiki/Decision Making/Positional Decisions and Expected Value|positional]] decisions are how those bets get priced when the compounding period is that short.
 
-Advantage decaying in weeks, the compounding-error reason to pay for intelligence, and the context lever survive whichever layer turns out to be scarce. The rest is operating intelligence from inside a room selected for people for whom this is already working. Timelines rot fastest. Geopolitics is partisan and not load-bearing.
+## Paying to work under next year's conditions
 
-[[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]] is the sibling field report: factory rather than artifact, the smartest-model logic. Those compressions stay there. [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]] asks whether the compute build-out shows up in productivity. This page does not steal that question.
+Living in the future here means paying to work under next year's conditions and building backwards from what that reveals. The heuristic is old and public, and it describes a method rather than a budget. In the speakers' illustration, spending on the order of a hundred thousand dollars a year on tokens buys the working conditions a normal user will have two years later. That figure is a 2026-07 illustration, not a price forecast and not an instruction to spend that amount. The smallest spend that actually puts a year of conditions ahead is not known.
 
-## Where intelligence is worth paying for
+## Context as the current lever
 
-Loop a model many times and a middling-reliable one collapses. A much more reliable one degrades slowly. Independent trials make the arithmetic ordinary: a nine-in-ten success rate, run a hundred times, is nearly zero; a 999-in-a-thousand success rate, run the same hundred, is still about nine in ten. The input percentages on air were invented. The arithmetic is not. A large error-rate gap is worth paying for on high-leverage judgment. Cost-sensitivity belongs on cheap repetitive tasks. [[wiki/Concepts/Accuracy Before Speed|Accuracy Before Speed]] owns that compounding-error arithmetic.
+The present lever is context. A long window can hold a whole corpus. A person holds a handful of items in mind at once. The comparison is between a corpus held in context and a handful held in mind. It is not a claim about how many facts a company can be known by. The product figure used to illustrate it, a million-token window holding about three novels, will change. The comparison will not.
 
-The same compounding surface, here time-contracted from years to weeks, is what [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] owns at full depth.
+Orders of magnitude more inference change what can be done, not only how fast it is done. A speaker volunteered a multiple for the next two to three years and hedged it by a couple of orders of magnitude. That number is not a finding.
 
-The bitter lesson is the finding that general methods that ride more compute beat specialized, hand-built systems. The startup implication is the panel's, not the finding's: vertical AI software is exposed to a frontier model with tool use. Small leveraged teams reaching large revenue is real. Selling software that is itself commoditizing is a shrinking base. The structural risk is ordinary antitrust intuition: if the harness war collapses to one provider, or labs nationalize, startups face a monopolist. Dates and revenue figures attached to that risk are the room's.
+A named tool released in December 2025 was the point at which the speakers changed their minds. The pattern is the part worth keeping. If you dismiss a tool at capability N, the jump to N+1 makes your earlier verdict wrong. The product name is not the important part.
+
+## What holds whichever layer turns out to be scarce
+
+Three claims hold whichever layer turns out to be scarce: advantage decays in weeks, compounding errors make accuracy worth paying for, and context is the current lever. The rest is operating advice from people for whom this is already working. The timeline predictions go out of date fastest. The geopolitical claims are partisan and the advice does not depend on them.
+
+[[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]] is the companion field report. It covers treating AI as a factory rather than as an artifact, and the logic of always using the smartest model. [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]] asks whether the compute build-out shows up in productivity.
+
+## When a more accurate model is worth the money
+
+Loop a model many times and a middling-reliable one collapses. A much more reliable one degrades slowly. If the attempts are independent, the arithmetic is ordinary. A nine-in-ten success rate, run a hundred times, comes out near zero. A 999-in-a-thousand success rate, run the same hundred times, still comes out at about nine in ten. The input percentages given in the conversation were invented. The arithmetic is not. A large gap in error rate is worth paying for on high-leverage judgment. Cost-sensitivity belongs on cheap repetitive tasks. [[wiki/Concepts/Accuracy Before Speed|Accuracy Before Speed]] covers that compounding-error arithmetic.
+
+[[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] covers the same compounding at full depth. Here it runs over weeks instead of years.
+
+## The bitter lesson and what it means for startups
+
+The bitter lesson is the finding that general methods which use more compute beat specialised, hand-built systems. The conclusion drawn for startups belongs to the speakers, not to the finding: AI software built for a single vertical market is exposed to a frontier model with tool use. Small leveraged teams reaching large revenue is real. Selling software that is itself commoditising is a shrinking base. The structural risk is an ordinary antitrust worry: if the competition between harnesses collapses to one provider, or if labs are nationalised, startups face a monopolist. The dates and revenue figures attached to that risk came from the conversation.
 
 ## What stays human
 
-If capability reaches expert level but not a system that supplies its own aims, humans remain the motivated element — handlers of a fleet, supplying taste, judgment, accountability, and desire. Desire is the one input a model cannot supply. [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]] grades the writing argument that follows. [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] owns what stays human on two axes. [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] already owns tutor-at-your-level and the full desire-as-human-input treatment. This page keeps desire as the remainder, not as a restaged essay.
+If capability reaches expert level but no system supplies its own aims, people remain the motivated element. A person handles a fleet of agents and supplies taste, judgment, accountability, and desire. Desire is the one input a model cannot supply. [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]] grades the argument about AI and writing. [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] covers what stays human on two axes. [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] covers a tutor at your own level and treats desire as the human input in full.
 
-Displacement, on this page's bet, concentrates on people who refuse the tools, not on those who pick them up. [[wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg|Automation and the Job Iceberg]] owns the displacement record. Complementary-automation evidence is mixed. The bet is pointed there, not proven here.
+The bet made here is that displacement lands on people who refuse the tools rather than on people who pick them up. [[wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg|Automation and the Job Iceberg]] holds the displacement record. The evidence on automation that complements workers is mixed. The bet is pointed at that record, not proven by it.
 
-Writing and speaking are the output of thinking. Outsourcing them wholesale atrophies the thinking. Prose a human never compressed wastes the reader's time. Agent-to-agent text with neither human in the loop is the degenerate end. [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]] owns the offloading line. The counter already on the table: a large enough personal corpus plus an eval harness can make a "skill file" indistinguishable from the person. The harder claim from the room — good writing is novelty a next-token model cannot produce — grades badly against the generativity-versus-judgment split. The grade stands. The split is not resolved the other way.
+## Writing, speaking, and thinking
 
-The room is three founders and a host talking their own book, selected for people for whom AI is already working. That interest mark is part of the report.
+Writing and speaking are the output of thinking. Handing all of it over weakens the thinking. Prose that no human ever compressed wastes the reader's time. Text passed between agents with no human at either end is the extreme case. [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]] covers what should not be offloaded. There is a counter-argument already on the table: a large enough personal corpus plus an eval harness can make a skill file indistinguishable from the person. The harder claim from the speakers, that good writing is novelty a next-token model cannot produce, grades badly against the split between generating and judging. That grade stands, and the split is not resolved the other way.
 
-The strongest internal counter is already inside the same picture. The commoditization and concentration they describe drive toward an oligopoly, where "just ride it" is a bet on a window staying open. A sibling episode three weeks later compresses the exclusive-to-commodity cycle and puts durable money above and below the model. Newest wins. The model layer stays contested. The recap lives on [[wiki/Concepts/The Margin Moves to the Serving Layer|The Margin Moves to the Serving Layer]].
+## The strongest counter-argument
 
-The same weeks-long exclusivity is still the condition. Riding it is remaining the motivated element while each lead dies. Desire is the input that does not arrive with the model.
+The strongest counter comes from inside the same picture. The commoditisation and concentration the speakers describe drive toward an oligopoly, and in an oligopoly the advice to keep riding the technology is a bet on a window staying open. The second discussion three weeks later compresses the cycle from exclusive to commodity and puts the durable money above and below the model. The newer account wins. The model layer stays contested. That argument is set out on [[wiki/Concepts/The Margin Moves to the Serving Layer|The Margin Moves to the Serving Layer]].
 
-## Related
+The weeks-long exclusivity is still the condition. Working under it means staying the motivated element while each lead dies. Desire is the input that does not arrive with the model.
 
-- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]] — sibling field report: factory-not-artifact, smartest-model logic
-- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]] — natural language as a programming medium; this page is the economic consequence
-- [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] — how the uncommoditized layer concentrates
-- [[wiki/Concepts/The Margin Moves to the Serving Layer|The Margin Moves to the Serving Layer]] — the counter-position on which layer is scarce
-- [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] — the compounding surface, here time-contracted
-- [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]] — whether the compute build-out shows up in productivity
-- [[wiki/Concepts/Accuracy Before Speed|Accuracy Before Speed]] — compounding-error arithmetic
-- [[wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg|Automation and the Job Iceberg]] — the displacement record this page's refuse-the-tools bet points at
-- [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]] — grades the AI-writing argument
-- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — what stays human, two axes
-- [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] — desire as the human input; tutor-at-your-level stays there
-- [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]] — the offloading line
-- [[wiki/Decision Making/Positional Decisions and Expected Value|positional]] — how to price bets when the compounding surface is short
+## How to practice this
 
-## Open Questions
+1. Write down the date you got your current AI advantage. Check four weeks later whether it is still exclusive. Notice how much of the advantage survives.
+2. Pay for the strongest model and the longest context you can afford on one real task. Build backwards from what that shows you. Notice which parts of your usual workflow stop being necessary.
+3. Load a whole corpus into a long context window instead of the handful of items you would hold in mind. Notice what you can ask that you could not ask before.
+4. Take a task you run in a loop and count the steps. Work out the success rate across all of them. Notice how a nine-in-ten step rate comes out near zero over a hundred runs.
+5. Take a tool you dismissed at an earlier capability level and try the current version. Notice whether your earlier verdict still holds.
+6. Take a piece of writing you handed over whole. Check whether you compressed any of it yourself. Notice whether you can still explain the thinking behind it.
 
-- Which layer is scarce — model-building, or applications above and cloud and chips below — stays open.
+## Related pages
+
+- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]: sibling field report, factory-not-artifact, smartest-model logic
+- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]]: natural language as a programming medium. The economic consequence is the subject here.
+- [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]]: how the uncommoditised layer concentrates
+- [[wiki/Concepts/The Margin Moves to the Serving Layer|The Margin Moves to the Serving Layer]]: the counter-position on which layer is scarce
+- [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: the compounding surface, contracted here to weeks
+- [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]]: whether the compute build-out shows up in productivity
+- [[wiki/Concepts/Accuracy Before Speed|Accuracy Before Speed]]: compounding-error arithmetic
+- [[wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg|Automation and the Job Iceberg]]: the displacement record that the refuse-the-tools bet points at
+- [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]]: grades the AI-writing argument
+- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: what stays human, two axes
+- [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]: desire as the human input. Tutor-at-your-level stays there.
+- [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]]: the offloading line
+- [[wiki/Decision Making/Positional Decisions and Expected Value|positional]]: how to price bets when the compounding period is short
+
+## Open questions
+
+- Which layer is scarce stays open: model-building, or applications above and cloud and chips below.
 - What is the smallest spend that actually puts a year of working conditions ahead.
 
 ## Sources

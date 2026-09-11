@@ -160,7 +160,7 @@ real-world task
 
 The cost is not only the minutes spent checking. The cost is that the day loses continuity. Real life starts to feel like a feed: shallow, interrupted, and hard to remember.
 
-This connects directly to [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]. A day can be technically full and still feel thin if attention never settles long enough to form a coherent route.
+This connects directly to [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]. A day can be technically full and still feel thin if attention never settles long enough to form a coherent route.
 
 ## Attention Management Layer
 
@@ -455,9 +455,9 @@ Warning signs:
 
 ## Implications For My System
 
-[[wiki/Self Management/Attention Management - Preserving Flow|Attention Management]] should treat feeds as day-fragmentation machines, not merely distractions during work blocks.
+[[wiki/Self Management/Flow State|Attention Management]] should treat feeds as day-fragmentation machines, not merely distractions during work blocks.
 
-[[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]] should include social media as a recurring external and interactive distractor. The issue is not only that it interrupts work. It trains shallow re-entry and slow recovery.
+[[wiki/Self Management/Flow State|Focus Management]] should include social media as a recurring external and interactive distractor. The issue is not only that it interrupts work. It trains shallow re-entry and slow recovery.
 
 [[wiki/Decision Making/Decisional Delays|Decisional Delays]] is one of the cleanest links. Social media often enters through the unplanned gap between tasks. Pre-deciding the next move protects both time and memory.
 

@@ -2,5 +2,209 @@
   {
     "from": "/blog/",
     "to": "/journal/index/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Aim---Training-I/",
+    "to": "/wiki/Dimensions/Deep-Processing/Aim/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Shoot---Training-I/",
+    "to": "/wiki/Dimensions/Deep-Processing/Shoot/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Hipshot/",
+    "to": "/wiki/Dimensions/Deep-Processing/Bear-Hunter-System/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Syntopical-Reading---Learning-from-Multiple-Dense-Resources/",
+    "to": "/wiki/Dimensions/Deep-Processing/Prestudy/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Non-Linear-Note-Making/",
+    "to": "/wiki/Dimensions/Deep-Processing/Mindmaps/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Live-Learning-Events/",
+    "to": "/wiki/Dimensions/Deep-Processing/Mindmaps/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Chunking-as-a-Technique---Good-chunking-at-different-levels,-and-how-to-layer-importance-and-meaningfulness/",
+    "to": "/wiki/Dimensions/Deep-Processing/Importance-Based-Chunking/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Deep-Processing-Practice/",
+    "to": "/wiki/Dimensions/Deep-Processing/Higher-Order-Learning/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Schema-Construction,-Assimilation,-and-Reorganization/",
+    "to": "/wiki/Dimensions/Deep-Processing/Schema/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Survive-and-Thrive/",
+    "to": "/wiki/Dimensions/Deep-Processing/Schema/"
+  },
+  {
+    "from": "/wiki/Dimensions/Dimension-Practice-Tracks/",
+    "to": "/wiki/Dimensions/30-Day-Challenges/"
+  },
+  {
+    "from": "/wiki/Dimensions/Upgrading-Your-Dimensions/",
+    "to": "/wiki/Dimensions/Dimensions-of-Learning/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Management/Performance-Goals/",
+    "to": "/wiki/Dimensions/Self-Management/Reverse-Goal-Setting/"
+  },
+  {
+    "from": "/wiki/Dimensions/Mindset/Marginal-Gains-in-Practice/",
+    "to": "/wiki/Dimensions/Mindset/Marginal-Gains/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Regulation/Pacing-Skill-Development/",
+    "to": "/wiki/Dimensions/Mindset/Marginal-Gains/"
+  },
+  {
+    "from": "/wiki/Dimensions/Mindset/The-Learning-Zone-and-the-Reversion-Response/",
+    "to": "/wiki/Dimensions/Mindset/Fixed-vs-Growth-Mindset/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Regulation/Metacognition-as-a-Skill/",
+    "to": "/wiki/Dimensions/Self-Regulation/Metacognition---The-Control-Layer/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Regulation/Building-the-Radar/",
+    "to": "/wiki/Dimensions/Self-Regulation/Metacognition---The-Control-Layer/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Regulation/Recovery/",
+    "to": "/wiki/Dimensions/Self-Regulation/How-to-Maintain-Sustainable-Energy-Under-Pressure/"
+  },
+  {
+    "from": "/wiki/Dimensions/Mindset/Motivation/",
+    "to": "/wiki/Dimensions/Self-Regulation/How-to-shift-your-brain-to-be-motivated-(when-you-don't-feel-like-it)/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Regulation/Opening-the-Black-Box-of-Learning/",
+    "to": "/wiki/Dimensions/Self-Regulation/The-Technique-Is-Only-as-Good-as-the-Thinking-It-Produces/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Flashcards/",
+    "to": "/wiki/Dimensions/Retrieval/Rote-Learning-and-Memorisation/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Method-of-Loci/",
+    "to": "/wiki/Dimensions/Retrieval/Rote-Learning-and-Memorisation/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Cramming/",
+    "to": "/wiki/Dimensions/Retrieval/Multipass-System/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Interleaving---Multiple-Angles-and-Session-Design/",
+    "to": "/wiki/Dimensions/Retrieval/Interleaving-Table/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Reverse-Explanation/",
+    "to": "/wiki/Dimensions/Retrieval/WPW/"
+  },
+  {
+    "from": "/wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block/",
+    "to": "/wiki/Self-Management/Flow-State/"
+  },
+  {
+    "from": "/wiki/Self-Management/Attention-Management---Preserving-Flow/",
+    "to": "/wiki/Self-Management/Flow-State/"
+  },
+  {
+    "from": "/wiki/Self-Management/OFF-Rest-Timing/",
+    "to": "/wiki/Self-Management/Flow-State/"
+  },
+  {
+    "from": "/wiki/Self-Management/Task-Management/",
+    "to": "/wiki/Self-Management/Priority-0+1-System/"
+  },
+  {
+    "from": "/wiki/Self-Management/Building-a-Schedule-That-Survives/",
+    "to": "/wiki/Self-Management/Priority-0+1-System/"
+  },
+  {
+    "from": "/wiki/Workflows/Wiki-Status-Checks/",
+    "to": "/wiki/Workflows/Wiki-Health-Checks/"
+  },
+  {
+    "from": "/wiki/Workflows/Wiki-Breakdown-Pass/",
+    "to": "/wiki/Workflows/Wiki-Health-Checks/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Standing-Research-Agents/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Grok-Bot-Primer/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Grok-Bot-Fleet-Structures/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Grok-Bot-Primer/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Bot-Operating-Rules/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Grok-Bot-Primer/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/How-to-Use-the-Claude-Tools/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Agent-Glossary/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Grok-4.6-and-Grok-Bot/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Agent-Glossary/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/What-the-Model-Names-Signal/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Agent-Glossary/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Agent-Wrong-Door-Log/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Current-Agentic-LLM-Stack/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Least-Cost-Interpretation/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Working-With-a-Model-That-Cannot-Remember/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/The-Prohibition-Loop/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Working-With-a-Model-That-Cannot-Remember/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Claude-Fable/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Working-With-a-Model-That-Cannot-Remember/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Writing-with-a-Structure-Engine/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/The-Writing-Pipeline/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Software-3.0/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Context-Engineering/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/LLM-Knowledge-Systems/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Context-Engineering/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Thinking-Models/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Automatic-and-Deliberate-Work-with-AI/"
+  },
+  {
+    "from": "/wiki/Syntheses/How-Top-Performers-Learn/",
+    "to": "/wiki/Syntheses/ICS-System/"
+  },
+  {
+    "from": "/wiki/Syntheses/Minimally-Viable-Learning-System/",
+    "to": "/wiki/Syntheses/Prestudy,-BHS,-and-SIR---Turning-Information-into-Usable-Structure/"
+  },
+  {
+    "from": "/wiki/Syntheses/First-Principles-of-Learning/",
+    "to": "/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Thinking-on-Paper/",
+    "to": "/wiki/Dimensions/Deep-Processing/Thinking-on-Paper---Mindmaps-and-Other-Techniques/"
   }
 ]

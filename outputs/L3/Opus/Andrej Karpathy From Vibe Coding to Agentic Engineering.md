@@ -84,7 +84,7 @@ This brief overlaps with several existing concept pages that were originally see
 
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]] — the discipline.
 - [[wiki/Concepts/Vibe Coding|Vibe Coding]] — the floor-raising practice.
-- [[wiki/Concepts/Software 3.0|Software 3.0]] — context-as-program.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]] — context-as-program.
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]] — the infrastructure shift.
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]] — the human ceiling.
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] — Karpathy's framing of AI tooling.

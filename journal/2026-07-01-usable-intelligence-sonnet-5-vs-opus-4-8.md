@@ -49,4 +49,4 @@ When a lane's bar moves to what the gate can't verify — subtle naturalness, cr
 ## Links
 
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — updated: Sonnet 5 in the table + penta card, new "Usable intelligence — Sonnet 5 vs Opus 4.8" section.
-- [[wiki/Systems/AI & Agentic Systems/What the Model Names Signal|What the Model Names Signal]] — what Opus/Sonnet tiers signal.
+- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|What the Model Names Signal]] — what Opus/Sonnet tiers signal.

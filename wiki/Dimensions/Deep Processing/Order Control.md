@@ -3,7 +3,9 @@ title: "Order Control"
 type: concept
 status: developing
 created: 2026-05-29
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 description: "The next piece of a topic is chosen by what already-held knowledge it can attach to, not by the order a book or lecture prints."
@@ -15,11 +17,30 @@ tags:
 
 # Order Control
 
-The next piece of a topic is opened at the heading that attaches to knowledge already held. Page two's second paragraph, back to page one, out to page three is a normal working path, and that choice is order control. The best path differs for every learner, because the relationships that can be built depend on what is already known.
+Order control is choosing the next piece of a topic by what it can attach to in knowledge the learner already holds. A book or lecture prints one order. The learner opens instead at the heading that attaches to something already held, and that heading is often not the first one. A normal working path reads the second paragraph of page two, goes back to page one, and then goes out to page three. That choice of path is order control.
 
-An expert holds knowledge as a network and linearises it into what they assume will make sense. The author sequences for the best way to teach the subject, but does not know this reader, cannot know what is already held, and therefore cannot know which order this understanding will assemble in. The linearisation is not careless. It is addressed to a generic reader who does not exist. Attachment happens by analogy, including from ground unrelated to the subject: a mechanism becomes understandable because it resembles something already done. The sequencer is what can already attach, which often feels like curiosity. Curiosity is not a free-standing rule.
+The best path differs for every learner. The relationships a learner can build depend on what that learner already knows, so two learners with different prior knowledge need different paths through the same material.
 
-The honest size of the correction: the printed order will almost always have to change, at least a little and often a lot. Page two's second paragraph, back to page one, out to page three is a normal working path. Detail that would overload is delayed until a frame exists to make sense of it.
+## Core takeaways
+
+- The next piece of a topic is chosen by what it can attach to in knowledge already held. The printed order does not decide the sequence.
+- The author orders the material for a generic reader. No real reader matches that generic reader, so the printed order will almost always need to change.
+- Each piece gets three questions: what is it, why does it matter, how is it used. Whichever question is still live after those are answered decides where to go next.
+- The learner's job is to rebuild the material as their own network of knowledge. The material gives the facts, the learner builds the connections, and that building is encoding.
+- Ordering by attachment stays inside the material. It gives no permission to follow interest away from the material, and it does not mean inventing the curriculum.
+- Missed material is material that went past without entering memory. A passive linear pass produces the most of it. A paragraph skipped on purpose is a different thing.
+
+## Why the printed order does not fit the reader
+
+An expert holds knowledge as a network. To teach it, the expert puts the network into a line, in the order they assume will make sense. The author picks the sequence they judge best for teaching the subject. The author does not know this reader, cannot know what this reader already holds, and so cannot know the order in which this reader's understanding will assemble. The author is careful with the order. The order is written for a generic reader, and no real reader is that generic reader.
+
+New material attaches to held knowledge by analogy. The analogy can come from knowledge unrelated to the subject. A mechanism becomes understandable because it resembles something the learner has already done.
+
+What can attach next is the sequencer. The learner often experiences the sequencer as curiosity. Curiosity by itself is not the rule.
+
+## How much the order changes
+
+The printed order will almost always need to change, at least a little and often a lot. Reading page two's second paragraph, then page one, then page three is a normal working path. Detail that would overload the learner is delayed until a frame exists that makes sense of it.
 
 | | Conventional | Controlled |
 |---|---|---|
@@ -28,24 +49,47 @@ The honest size of the correction: the printed order will almost always have to 
 | Overload | Tackled when it appears | Delayed until it can attach |
 | Feel | Overwhelming or irrelevant | Stays manageable on a path of relevance |
 
-It is always the learner's job to rebuild the knowledge as their own network. Sequence is part of the encoding, not a preference about study habits. The rebuild is encoding, not discovery of the curriculum: the facts are given, the network is constructed.
+Rebuilding the knowledge as their own network is always the learner's job. The order in which pieces are taken in is part of how they are encoded. It is more than a preference about study habits. The material gives the facts. The learner constructs the network that connects them. That construction is encoding. The learner is not discovering the curriculum.
 
-Relevance is operationalised as three questions per piece: what is it, why does it matter, how is it used. Those three are answered, relationships to what is already held are built, and whichever question is now live is followed.
+## Choosing the next piece
+
+Relevance is made concrete as three questions asked of each piece: what is it, why does it matter, how is it used. The learner answers those three, builds relationships between the piece and what is already held, and then follows whichever question is now live.
+
+An example:
 
 ```text
 A guide prints a heading, and directly beneath it a sub-topic.
 The jump is already too big: the top-level thing is not yet known,
 and the sub-topic has nothing to attach to.
-Leave the running order. Find what the heading is and why it matters —
+Leave the running order. Find what the heading is and why it matters,
 from outside the guide if the guide never answers the why.
 Come back. Run the same three questions on the sub-topic.
 ```
 
-Holding the order feels chaotic: paragraphs skipped, material left behind, and the worry that something important went past or that the question chosen was the wrong one. No pass is complete. Question-driven work pushes back across ground already crossed, from a different angle each time, so what one pass missed a later one catches. "Missing something" is not the eyes failing to cross a page in order. It is material that went past without entering memory, which is what a passive linear pass produces most reliably. Getting more of it to hold on the first pass is cheaper than refilling it later. The path stays manageable because a path of relevance is being picked, not because every page is being crossed.
+## What it feels like and what gets missed
 
-The working move is three questions the chapter has not yet answered, written before the book opens, then the heading that answers the first one. [[Inquiry-Based Learning|Traffic Light System]] is the practice that makes that ordering deliberate — questions written first, then hunted — and it is practice with an expiry: once the ordering is automatic the scaffold is no longer needed.
+Controlling the order feels chaotic. Paragraphs are skipped. Material is left behind. The learner worries that something important went past, or that the question they chose was the wrong one. No single pass is complete. Question-driven work sends the learner back across ground already crossed, from a different angle each time. What one pass missed, a later pass catches.
 
-The failure the principle exists to prevent is committing the linear order to memory instead of reconstructing the network. The behaviour that replaces the fixation names what it needs, goes and finds it, and repeats. Rebuilding is not inventing the curriculum, and ordering by attachment is not permission to follow interest away from the material. [[Prestudy]] surfaces the relevance points that make a controlled order possible. [[Higher-Order Learning]] is what a personal network is for — comparing and evaluating, rather than reciting the sequence the material arrived in. [[Inquiry-Based Learning]] is the parent move: questions written and then answered, which is where the sequencing problem comes from in the first place.
+Missing something means material went past without entering memory. Skipping a paragraph on purpose is a different thing. A passive linear pass produces this kind of missing more reliably than any other method. Getting more of the material to hold on the first pass is cheaper than refilling it later. The path stays manageable because each next piece is chosen for relevance. Crossing every page is not required for that.
+
+## Writing the questions first
+
+The working move: before the book opens, write three questions the chapter has not yet answered. Then open at the heading that answers the first one. [[Inquiry-Based Learning|Traffic Light System]] is the practice that makes this ordering deliberate. Questions are written first, then hunted. The practice is temporary. Once the learner orders by attachment without thinking about it, the practice is no longer needed.
+
+## What order control is not
+
+The failure this principle prevents is committing the linear order to memory instead of rebuilding the network. The behaviour that replaces that failure has three steps: the learner names what they need, goes and finds it, and repeats. The learner does not invent the curriculum; the facts stay the ones the material gives. Interest that leads away from the material is not followed, because the order is built from attachment inside the material.
+
+[[Prestudy]] finds the relevance points that make a controlled order possible. [[Higher-Order Learning]] is what a personal network is for: comparing and evaluating, instead of reciting the sequence the material arrived in. [[Inquiry-Based Learning]] is the larger practice this comes from. Questions are written and then answered, and that is where the sequencing problem starts.
+
+## How to practice this
+
+1. Before opening the book, write three questions the chapter has not yet answered. Open at the heading that answers the first one. Notice that the start is often not page one.
+2. For each piece, answer what it is, why it matters, and how it is used. Connect it to something already held. Notice which of the three questions is now live, and follow it.
+3. When a guide puts a sub-topic directly under a heading not yet known, leave the running order. Find what the heading is and why it matters, from outside the guide if needed. Come back and run the same three questions on the sub-topic.
+4. When a detail would overload, delay it until a frame exists for it. Notice that the path stays manageable.
+5. Expect the worry that something important went past. On a later pass, return to crossed ground from a different angle. Notice that the later pass catches what the earlier one missed.
+6. Once ordering by attachment is automatic, stop writing questions first. Notice that the ordering happens without the practice.
 
 ## Sources
 
@@ -53,6 +97,6 @@ The failure the principle exists to prevent is committing the linear order to me
 - Ausubel, D. P. Prior knowledge decides what new material can attach to.
 - Mayer, R. E. Pre-training: a frame before the detail.
 - Pollock, E., Chandler, P., & Sweller, J. (2002). High element-interactivity material is learned better when the elements arrive before their interactions.
-- Geary, D. C. (2008). School knowledge is evolutionarily novel and does not come with its own drive — the bound under the curiosity hedge.
-- Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). The bound on minimally guided discovery — the paper the fence exists to respect.
+- Geary, D. C. (2008). School knowledge is evolutionarily novel and does not come with its own drive. This is the bound on curiosity as the sequencer.
+- Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). The bound on minimally guided discovery. This paper is the reason ordering by attachment stays inside the material.
 - Reason, J. Layered-defence model: multiple passes catch what one misses.

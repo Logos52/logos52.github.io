@@ -203,7 +203,7 @@ The compounding goes further: once the focus muscle is strong, it transfers. Rea
 ## Links Into the Knowledge Base
 
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]] — the layer that notices drift and triggers return; the focus muscle is metacognition made automatic through training
-- [[wiki/Dimensions/Self-Regulation/Opening the Black Box of Learning|Opening the Black Box of Learning]] — the diagnostic posture applied to focus: when a block breaks, open the process and identify the variable
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|Opening the Black Box of Learning]] — the diagnostic posture applied to focus: when a block breaks, open the process and identify the variable
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — the distraction threshold is a cognitive load threshold; above it, working memory is saturated before meaningful processing can begin
 - [[wiki/Techniques/Bear Hunter System|Bear Hunter System]] — structured work blocks assume focus can be entered on command; focus training is the prerequisite the system depends on
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — agentic work requires sustained attention across long task chains; the return reflex determines whether a session holds together

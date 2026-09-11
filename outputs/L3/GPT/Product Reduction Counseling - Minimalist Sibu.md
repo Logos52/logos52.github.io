@@ -305,7 +305,7 @@ Best fit:
 
 **Minimalism as Systems Design** is broad and readable.
 
-**Environment Design** is more functional and connects better to [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]], and [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]].
+**Environment Design** is more functional and connects better to [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]], and [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]].
 
 The structure:
 
@@ -321,8 +321,8 @@ wiki/Minimalism/
 ## Links Into The Knowledge Base
 
 - [[wiki/Dimensions/Self-Management|Self-Management]]
-- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management: Preserving Flow]]
-- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management: How to Enter & Recover Inside a Work Block]]
+- [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]
+- [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]]
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Techniques/Marginal Gains|Marginal Gains]]

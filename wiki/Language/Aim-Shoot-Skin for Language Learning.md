@@ -37,7 +37,7 @@ Shoot is looking up exactly the missing piece, carding it, and spending it in ne
 
 [[Interactive Immersion]] is where the lookups happen. This loop is the limiter: look up exactly what is missing, the gaps the passage itself exposed.
 
-Every new word gets a flashcard and gets used in fresh sentences, replies, rewrites. Use again the same day, more than once. [[Flashcards]] stay constrained to gap-filling. Real use is the retrieval system. Extra retrieval missions exist only for items that use has not yet supplied. The card is the record, not a second life.
+Every new word gets a flashcard and gets used in fresh sentences, replies, rewrites. Use again the same day, more than once. [[Rote Learning and Memorisation|Flashcards]] stay constrained to gap-filling. Real use is the retrieval system. Extra retrieval missions exist only for items that use has not yet supplied. The card is the record, not a second life.
 
 Cards alone fade. A word that never appears in new sentences gains no connections and decays into pure maintenance — a house image of overwhelm at language scale, not a measured review count. Application alone leaks. With no record, fluency is a feeling until the word resurfaces as something once learned and since lost. Those two failures are why both halves are required.
 
@@ -98,7 +98,7 @@ The comfortable band has widened. Yesterday's passage sits inside it. The next o
 - [[wiki/Language/Preparation|Preparation]] — the small prime that makes a passage enterable, which is not list-first.
 - [[wiki/Language/Three Pillars of Language Learning|Three Pillars of Language Learning]] — the three-mode diet named in prose.
 - [[Interactive Immersion]] — where lookups happen; this page disciplines them.
-- [[Flashcards]] — constrained here to gap-filling.
+- [[Rote Learning and Memorisation|Flashcards]] — constrained here to gap-filling.
 - [[Rules of Effective Memorization]] — whether a card encodes; this loop supplies purpose.
 - [[How Chinese Characters Work]] — component mechanics; this page only schedules the pass.
 - [[Sound Series]] — character-sound pattern work.

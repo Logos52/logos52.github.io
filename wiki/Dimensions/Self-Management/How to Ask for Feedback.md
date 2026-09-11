@@ -3,7 +3,9 @@ title: "How to Ask for Feedback"
 type: technique
 status: developing
 created: 2026-05-14
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 part-of: Self-Management
@@ -18,13 +20,24 @@ tags:
 
 # How to Ask for Feedback
 
-A located request comes back with the work's current place, the gap to the goal, and the next change. Those three only arrive if the request named the situation, the skill being built, a real self-evaluation, and one or two questions.
+A request for feedback that names its situation comes back with three things: where the work stands now, the gap between that and the goal, and the next change to make. A request gets those three back only when it states the situation, the skill being built, a genuine self-evaluation of the work so far, and one or two questions.
 
-## Four channels
+Who is asked matters less than how the request is written. The skill is in writing the request.
 
-**Self-evaluation is the first response, not the fallback.** Reliability tracks the skill being judged, so early on this channel is the weakest of the four. Once the skill is there it is the strongest, because an external cycle turns over in days or weeks and a self-generated one closes inside the session. Developing that self-pass is the long-term goal, not a backup for when nobody is free.
+## Core takeaways
 
-The other three channels fill the gaps a session cannot close.
+- Self-evaluation comes first in every situation. It is the least reliable channel before the skill is developed and the most reliable once the skill is there.
+- A request needs two things in balance: enough context for the reviewer to understand the situation, and a narrow enough focus for the reply to land on the skill being built.
+- A vague request can do harm. More than a third of feedback interventions leave performance worse than before, and the harm concentrates in replies about the person rather than the work.
+- A request has five parts: context, learning goal, an evaluation of the work, one or two targeted questions, and a review of the reply.
+- Feedback improves performance only when the next attempt uses it. If the last reply has not changed what happens next, another request will not help; the next step is to run the experiment.
+- The long-term aim is to judge one's own work well enough that a request checks a reading instead of asking for one.
+
+## Who to ask
+
+Self-evaluation is the first response in every situation. How reliable it is depends on the skill being judged. Before the skill is developed, it is the weakest of the four channels. Once the skill is there, it is the strongest, because an external feedback cycle takes days or weeks to come back and a self-generated one finishes inside the same session. Developing that self-evaluation is the long-term goal. It is not a backup for when nobody else is free.
+
+The other three channels cover the gaps a single session cannot close.
 
 | Channel | What it is reliable for | When it earns its place |
 |---|---|---|
@@ -33,63 +46,89 @@ The other three channels fill the gaps a session cannot close.
 | Experienced reviewer | Complex or persistent problems; the reply only counts if it is acted on | When the session cannot close the gap |
 | General-purpose model | Standard technique questions; weaker on nuance | Before spending someone's time |
 
-Peers vary with expertise; they are fast and regular. An experienced reviewer is spent on a complex or persistent problem, and the reply only counts if it is acted on — reviewers disagree with each other and miss things. A general-purpose model is the thing to try for a standard technique question before spending someone's time.
+Peers vary with expertise. They are fast and regular. An experienced reviewer is for a complex or persistent problem, and the reply only counts if it is acted on. Reviewers disagree with each other and miss things. A general-purpose model is the thing to try for a standard technique question before spending someone's time.
 
-Who is asked is the smaller half. The request is the skill, and a [[wiki/Dimensions/Self-Management/Skills Audit|Skills Audit]] is the structured self-pass that comes before one is sent: the skill rated at its current and target level, with the next action set from the gap.
+A [[wiki/Dimensions/Self-Management/Skills Audit|Skills Audit]] is the structured self-evaluation that comes before a request is sent: the skill rated at its current level and its target level, with the next action set from the gap between them.
 
-## What a request has to carry
+## What a request has to include
 
-Even the best channel returns what it was given. A request that works holds two things in balance: enough context that the situation is understood, and enough focus that the reply lands on what matters.
+The reply depends on what the request gives the reviewer. A request that works holds two things in balance: enough context that the reviewer understands the situation, and enough focus that the reply lands on what matters.
 
-Four combinations, and only one of them is the aim. Broad focus with little information comes back as general comment on everything, hard to act on. Narrow focus with little information comes back precise and aimed at the wrong thing. Broad focus with plenty of information comes back thorough and unfocused — more context is not the lesson. Narrow focus with enough information comes back as targeted improvement on the skill the goal names. Naming the goal is what gives the reviewer something to evaluate against.
+Focus and information combine in four ways, and only one of them is the aim.
 
-## An unstructured request is not a neutral one
+- Broad focus with little information comes back as general comment on everything, and it is hard to act on.
+- Narrow focus with little information comes back precise and aimed at the wrong thing.
+- Broad focus with plenty of information comes back thorough and unfocused. Adding more context on its own does not fix a request.
+- Narrow focus with enough information comes back as targeted improvement on the skill the goal names.
 
-A vague request returns vague guidance, and the risk is real without being absolute. More than a third of feedback interventions leave performance worse than before. The harm concentrates where the reply is about the person rather than the work. Feedback aimed at the self is the weakest kind. A request answered badly can cost more than it returns, and the reply that lands on worth rather than work is the one to expect after an unlocated ask. The structure is not manners. It is what keeps the reply on the task.
+Naming the goal gives the reviewer something to evaluate against.
 
-## Five parts of a request
+## Why a vague request can do harm
 
-The house form is five letters. Each letter is something the request does.
+A vague request returns vague guidance. The risk is real, though not every vague request causes harm. More than a third of feedback interventions leave performance worse than before. The harm concentrates where the reply is about the person rather than the work. Feedback aimed at the self is the weakest kind. A badly answered request can cost more than it returns. After a request that does not state its situation, the reply to expect is one about the writer's worth rather than about the work. The structure of a request keeps the reply on the task.
 
-**C, context.** Where the work sits, what is coming — an exam, a deadline — and the circumstances that shape what a good answer looks like.
+## The five parts of a request
 
-**L, learning goal.** The specific skill or process being built. A goal about how the learning happens outlasts a goal about what gets produced: getting better at asking questions, at a mapping technique, at reflecting on what works. Naming that goal is the feed-up the rest of the reply sits against.
+The request has five parts, each named by a letter: C, L, E, A, R. Each letter is something the request does.
 
-**E, evaluate the work.** This is the longest and most important step, and it costs more than a quick ask. On a question with an obvious answer the write-up is not worth doing — a search of existing notes is the cheaper move. Four prompts do the work: what was tried; what went well and what was hard; how that compared with what was expected; where the most important improvement looks to sit. The third prompt is load-bearing. A reply is only usable against a stated expectation, because the gap between what was predicted and what happened is the thing that changes how the work goes. "I don't know" is not an answer: if it were obvious there would be no request. How the work is evaluated tells the reviewer about [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] — the monitoring layer the reviewer is reading when they read the reflection — and is often more diagnostic than the work itself. It also forces engagement with the problem before the problem is handed over.
+**C, context.** Where the work sits, what is coming, such as an exam or a deadline, and the circumstances that shape what a good answer looks like.
 
-**A, ask targeted.** One or two questions. Where many areas feel uncertain, the high-yield ones are the ones that ship, because improving many things at once is not possible. The second question can test the self-assessment itself: is this read right, or is something missing.
+**L, learning goal.** The specific skill or process being built. A goal about how the learning happens lasts longer than a goal about what gets produced: getting better at asking questions, at a mapping technique, at reflecting on what works. Naming that goal is the feed-up, the statement of where the work is going, which the rest of the reply is measured against.
 
-**R, review and follow up.** Absorb before responding. Clarify what is unclear. Stay on the work when a point lands hard.
+**E, evaluate the work.** This is the longest and most important step, and it costs more than a quick ask. On a question with an obvious answer the write-up is not worth doing; a search of existing notes is cheaper. Four prompts do the work: what was tried; what went well and what was hard; how that compared with what was expected; where the most important improvement looks to sit. The third prompt matters most. A reply is only usable against a stated expectation, because the gap between what was predicted and what happened is what changes how the work goes. "I don't know" is not an answer: if the answer were obvious there would be no request. How the work is evaluated tells the reviewer about [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]], the monitoring layer the reviewer reads when they read the reflection, and it is often more diagnostic than the work itself. Writing the evaluation also forces engagement with the problem before the problem is handed over.
 
-Two requests, same work:
+**A, ask targeted.** One or two questions. Where many areas feel uncertain, ask about the ones with the highest yield, because improving many things at once is not possible. The second question can test the self-assessment itself: is this read right, or is something missing.
+
+**R, review and follow up.** Absorb the reply before responding. Clarify what is unclear. When a point is hard to hear, keep attention on the work.
+
+## Two example requests
+
+Two requests about the same work:
 
 ```
 How is my exam prep going?
 ```
 
 ```
-History exam in three months, prepared with interleaved retrieval. Re-reading, summary pages, textbook questions, and a friend's quiz. Big-picture ideas hold; dates do not. Recall is inconsistent — roughly seven in ten come back, and nearly all the loss is detail. Hypothesis: re-reading is eating the time the other methods need. How to improve recall of fine detail without losing the big picture? Is that read right, or is something missing?
+History exam in three months, prepared with interleaved retrieval. Re-reading, summary pages, textbook questions, and a friend's quiz. Big-picture ideas hold; dates do not. Recall is inconsistent: roughly seven in ten come back, and nearly all the loss is detail. Hypothesis: re-reading is taking the time the other methods need. How to improve recall of fine detail without losing the big picture? Is that read right, or is something missing?
 ```
 
-The first returns a comment. The second returns a plan.
+The first request comes back with a general comment, and the second comes back with a plan.
 
-## After the reply
+## What to do with the reply
 
-**Feedback improves performance only when it is used.** The loop is not closed until a next attempt uses it. Three moves: read it objectively, especially where it disagrees; build a plan with priorities and specific experiments; test, review, and return only when the experiments are used up. Receive, analyse, implement, produce new work, receive again.
+Feedback improves performance only when it is used. The loop is not closed until a next attempt uses the reply. Three moves follow a reply: read it objectively, especially where it disagrees with the self-assessment; build a plan with priorities and specific experiments; test, review, and return with a new request only when the experiments are used up. The cycle is: receive, analyse, implement, produce new work, receive again.
 
-The plan a reply produces is a hypothesis. One week of that hypothesis, in the same exam-prep case: re-reading dropped, thirty minutes a day of high-yield cards, summary pages replaced by maps. Inside the week, thirty minutes was not enough and the maps were too hard to build. Time went to forty-five minutes; the maps became a hybrid of short linear notes and small maps. The revision is what "test and review" means. A heavy reply in that same case was handled as material for a plan rather than as a verdict, because the comments were about the methods and not about the ability.
+The plan a reply produces is a hypothesis. In the same exam-prep case, one week of that hypothesis went as follows. Re-reading was dropped. Thirty minutes a day went to high-yield cards. Summary pages were replaced by maps. Inside the week, thirty minutes was not enough and the maps were too hard to build. The time went up to forty-five minutes, and the maps became a hybrid of short linear notes and small maps. That revision is what "test and review" means. In that same case a heavy reply was handled as material for a plan rather than as a verdict, because the comments were about the methods and not about the ability.
 
-[[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] is how big the next experiment should be: the improvement small enough to be almost certain, then stacked. [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] is how that experiment gets reflected on — what happened, how it went, what rule that suggests, what changes next. Three or four experiments before returning on a complex problem; weeks of independent work on a simple one. Those are orders of magnitude, not law.
+## How big the next experiment should be
 
-If the last reply has not changed what happens in the next attempt, the loop is open and another request will not close it. Run the experiment instead.
+[[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] sets the size of the next experiment: an improvement small enough to be almost certain, then another stacked on it. [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] is how the experiment gets reflected on: what happened, how it went, what rule that suggests, what changes next. On a complex problem, run three or four experiments before returning with a new request. On a simple one, do weeks of independent work first. Those numbers are approximate.
 
-A located request comes back with something that can be acted on in the next session. A reply that is general praise, or "keep going," is a report on the request.
+## When to send the next request
 
-Giving a reply pays the giver. It forces critical evaluation and forces reflection on the methods already in use; other people's work widens the approach. Four traits of a reply worth giving: specific with examples, strengths before suggestions, on the work rather than the person, and carrying concrete next steps.
+If the last reply has not changed what happens in the next attempt, the loop is still open, and another request will not close it. Run the experiment instead.
 
-The skill being built is the self-evaluation. The external request is scaffolding for it. The endpoint is an ask that checks a read rather than sourcing one. That monitoring and adjustment is [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — the parent loop this sits inside.
+A request that names its situation comes back with something that can be acted on in the next session. A reply that is general praise, or "keep going," shows that the request did not give the reviewer enough to work with.
 
-## Open Questions
+## Giving feedback to others
+
+Giving a reply benefits the giver. It forces critical evaluation, and it forces reflection on the methods the giver already uses. Seeing other people's work widens the giver's own approach. A reply worth giving has four traits: it is specific and gives examples; it names strengths before suggestions; it is about the work rather than the person; and it carries concrete next steps.
+
+## The skill this builds
+
+The skill being built is self-evaluation. The external request is a temporary support for building it. The end point is a request that checks the writer's own reading of the work rather than asking for one. That monitoring and adjustment is [[wiki/Dimensions/Self-Regulation|Self-Regulation]], the larger loop this practice sits inside.
+
+## How to practice this
+
+1. Before writing a request, rate the skill at its current level and its target level. Set the next action from the gap between them. Notice whether that self-evaluation closes the gap inside the session.
+2. Write the context and the learning goal. Name the skill or process being built rather than the thing being produced. Notice whether the goal gives a reviewer something to evaluate against.
+3. Write what was tried, what went well and what was hard, and where the most important improvement sits. Then write how that compared with what was expected. Notice whether an expectation was stated; without one the reply has nothing to be measured against.
+4. Ask one or two questions, and pick the ones with the highest yield. Make the second question test the self-assessment: is this read right, or is something missing. Notice whether the reply confirms the read or corrects it.
+5. Read the reply objectively, especially where it disagrees with the self-assessment. Build a plan with priorities and specific experiments. Notice whether the comments are about the methods or the ability; comments about methods are plan material.
+6. Run the experiments and revise the plan as they go. Return with a new request only when the experiments are used up. Notice whether the last reply changed the next attempt; if not, run an experiment instead of asking again.
+
+## Open questions
 
 What standard of self-evaluation is good enough before escalating.
 

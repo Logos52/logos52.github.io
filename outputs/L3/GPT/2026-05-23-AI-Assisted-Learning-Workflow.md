@@ -191,10 +191,10 @@ For this wiki, that means AI-learning workflows should begin with the page or ca
 
 - [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]] - the main guardrail.
 - [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]] - existing warning; this brief adds the positive workflow.
-- [[wiki/Syntheses/How Top Performers Learn|How Top Performers Learn]] - connects to goal-driven learning systems.
+- [[wiki/Syntheses/ICS System|How Top Performers Learn]] - connects to goal-driven learning systems.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]] - explains the learner-owned cognitive work.
 - [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] - overlaps with AI-assisted priming.
-- [[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]] - likely place to adapt this into the wiki maintenance process.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]] - likely place to adapt this into the wiki maintenance process.
 
 ## Open Questions
 

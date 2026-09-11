@@ -95,7 +95,7 @@ Where verification is weak, the human needs more skepticism.
 - [[wiki/Concepts/A Return to Code|A Return to Code]]
 - [[wiki/Concepts/Vibe Coding|Vibe Coding]]
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Concepts/Software 3.0|Software 3.0]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]
 - [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
 

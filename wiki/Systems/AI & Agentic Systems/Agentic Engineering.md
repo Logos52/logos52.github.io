@@ -40,7 +40,7 @@ It looks like an execution problem, because code arrives quickly. The higher-lev
 
 **Agent-written work meets the same standard as human-written work.** Vulnerabilities, brittle architecture, messy abstractions, broken tests, privacy leaks, and unclear behavior do not become acceptable because the pass was fast. Speed is only useful if the result remains trustworthy.
 
-The practical checks are ordinary. Run the build and the tests. Inspect the diff. Look for unrelated edits. Review behavior, not the agent's explanation. [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] is the missing calibration for that review: fast loops, not blind acceptance and not endless inspection — a thirty-second pass, a three-minute pass, a thirty-minute pass. [[wiki/Systems/AI & Agentic Systems/Writing with a Structure Engine|Writing with a Structure Engine]] names the same fault from the other side: uniform confidence across verified and unverified claims.
+The practical checks are ordinary. Run the build and the tests. Inspect the diff. Look for unrelated edits. Review behavior, not the agent's explanation. [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] is the missing calibration for that review: fast loops, not blind acceptance and not endless inspection — a thirty-second pass, a three-minute pass, a thirty-minute pass. [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|Writing with a Structure Engine]] names the same fault from the other side: uniform confidence across verified and unverified claims.
 
 The spec is a document that outlives the session: what is being built, what must not change, which existing patterns to follow, which edge cases matter, and how the result will be checked. Planning-as-ritual — a human hand-writing the route — migrates to the model. Planning-as-spec stays. The spec is co-designed, not handed down. When the deeper design is underspecified, the agent fills the gap with a scheme of its own, the way the payments flow invented an email match. The best specs become docs. They guide the agent, guide the human review, and remain useful after the session.
 
@@ -122,10 +122,10 @@ The person is still answerable for the same bar. Answerability now means the fac
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — live stack: three agents by kind of work, no pay-per-token
 - [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]] — names for the loop, the room it runs in, and the chat window; when to use each product
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]] — how this desk runs the standing teammate: one shared computer, report-only helpers, empty middle
-- [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — the model, the local coding agent, and the standing teammate under one first name
-- [[wiki/Systems/AI & Agentic Systems/Agent Wrong-Door Log|Agent Wrong-Door Log]] — dated misses when a job went to the wrong product
-- [[wiki/Systems/AI & Agentic Systems/Claude Fable|Claude Fable]] — measured operating rules for one model; price, case against, quit, checkable
-- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]] — natural language as the programming medium; the same artifacts as Software 3.0 objects
+- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]] — the model, the local coding agent, and the standing teammate under one first name
+- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Agent Wrong-Door Log]] — dated misses when a job went to the wrong product
+- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Claude Fable]] — measured operating rules for one model; price, case against, quit, checkable
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]] — natural language as the programming medium; the same artifacts as Software 3.0 objects
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]] — owns the four-file breakdown this hub only names
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]] — owns the understanding constraint; this hub names it
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]] — owns window-shaping and the drowning warning
@@ -136,7 +136,7 @@ The person is still answerable for the same bar. Answerability now means the fac
 - [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]] — tool versus agent diagram; three-level capability ladder
 - [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]] — routing cheap work to cheap models; the practice this hub is
 - [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]] — rival explanation: bad context, not bad model
-- [[wiki/Systems/AI & Agentic Systems/Writing with a Structure Engine|Writing with a Structure Engine]] — uniform confidence across verified and unverified claims
+- [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|Writing with a Structure Engine]] — uniform confidence across verified and unverified claims
 - [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]] — AI writing works better when it passes through a filter of itself: four separated stages, ending with a fresh head that rewrites the page until a stranger can follow it
 
 ## Open Questions

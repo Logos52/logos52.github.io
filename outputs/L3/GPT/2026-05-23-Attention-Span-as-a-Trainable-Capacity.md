@@ -134,8 +134,8 @@ This belongs on the attention page because subtraction is an attention-preservin
 
 ## Links Into the Knowledge Base
 
-- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management]] - preserves attention across the day.
-- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]] - handles entry and recovery inside a block.
+- [[wiki/Self Management/Flow State|Attention Management]] - preserves attention across the day.
+- [[wiki/Self Management/Flow State|Focus Management]] - handles entry and recovery inside a block.
 - [[wiki/Self Management/Flow State|Flow State]] - the state short-term setup is trying to make more likely.
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]] - frontloading removes the decision gaps where attention leaks.
 - [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]] - explains why attention is degraded by default.

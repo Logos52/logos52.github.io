@@ -89,7 +89,7 @@ Order: Stage 1 mouth test with no clock. Then the one-shot test. Then five rando
 
 ## The settings bot
 
-[[wiki/Systems/AI & Agentic Systems/Bot Operating Rules|Bot Operating Rules]] already says one standing duty per bot. Xingye answering me and Xingye rewriting her own Instructions are two duties. Changing knobs in her 1:1 is how the mouth breaks: the long chat that holds her voice also becomes the place where I say "make it five times" and she stops being a person for a turn.
+[[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Bot Operating Rules]] already says one standing duty per bot. Xingye answering me and Xingye rewriting her own Instructions are two duties. Changing knobs in her 1:1 is how the mouth breaks: the long chat that holds her voice also becomes the place where I say "make it five times" and she stops being a person for a turn.
 
 Lauren Kwok's split is the same shape. Recurring work sits on a fresh bot. You keep talking to the character in her own conversation.
 
@@ -139,8 +139,8 @@ Do not copy: Emily Lai every thirty minutes as a standing clock; Ani the girlfri
 
 - [[journal/2026-08-26-xingye-news-ping|Xingye Field ping]] — yesterday's tutor-lane note; this page supersedes the news-bot frame.
 - [[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]] — Fable writes, 4.6 banks, Grok Bot stands packet-only public duty.
-- [[wiki/Systems/AI & Agentic Systems/Bot Operating Rules|Bot Operating Rules]] — one standing duty; the report is the product.
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Fleet Structures|Grok Bot Fleet Structures]] — unsigned Structure A; gold cadence wins where they disagree.
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Bot Operating Rules]] — one standing duty; the report is the product.
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Fleet Structures]] — unsigned Structure A; gold cadence wins where they disagree.
 
 ## Open
 

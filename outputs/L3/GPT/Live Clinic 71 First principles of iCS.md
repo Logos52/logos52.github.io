@@ -193,7 +193,7 @@ It belongs with [[wiki/Dimensions/Deep Processing|Deep Processing]], because pro
 
 It belongs with [[wiki/Techniques/Bear Hunter System|Bear Hunter System]], because BHS is a concrete implementation of priming, structure-building, and layered encoding.
 
-It belongs with [[wiki/Techniques/Upgrading Your Dimensions|Upgrading Your Dimensions]], because the learner needs to know whether the bottleneck is processing quality, strategy choice, overwhelm response, retrieval, or assessment.
+It belongs with [[wiki/Dimensions/Dimensions of Learning|Upgrading Your Dimensions]], because the learner needs to know whether the bottleneck is processing quality, strategy choice, overwhelm response, retrieval, or assessment.
 
 ## Possible New Notes
 

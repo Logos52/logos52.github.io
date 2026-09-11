@@ -91,8 +91,8 @@ Left out are the helpers' pastes and descriptions, the dates and run records of 
 ## Related
 
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]] — the fleet told as one setup, for a stranger
-- [[wiki/Systems/AI & Agentic Systems/Bot Operating Rules|Bot Operating Rules]] — report-only, one duty, the fix pipeline
-- [[wiki/Systems/AI & Agentic Systems/Standing Research Agents|Standing Research Agents]] — the first drawing of the standing half
-- [[wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot|Grok 4.6 and Grok Bot]] — the product against the model that shares its name
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Fleet Structures|Grok Bot Fleet Structures]] — the unsigned five-seat plan
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Bot Operating Rules]] — report-only, one duty, the fix pipeline
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Standing Research Agents]] — the first drawing of the standing half
+- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]] — the product against the model that shares its name
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Fleet Structures]] — the unsigned five-seat plan
 - [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]] — the maker's how-to pages this setup is choosing against

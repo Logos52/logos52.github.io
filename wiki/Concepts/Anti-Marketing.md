@@ -3,7 +3,9 @@ title: "Anti-Marketing"
 type: concept
 status: developing
 created: 2026-05-16
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 source-count: 2
@@ -16,43 +18,73 @@ tags:
 
 # Anti-Marketing
 
-Anti-marketing is the practice of showing constraints, flaws, trade-offs, and weak points before the other party has invested, instead of hiding them behind a polished pitch. The aim is accurate fit, not the largest possible audience.
+Anti-marketing is the practice of showing constraints, flaws, trade-offs, and weak points before the other party has invested, instead of leaving them out of a polished pitch. The aim is an accurate fit between the thing and the person. Reaching the largest possible audience is not the aim.
 
-## The timing rule
+## Core takeaways
 
-Ordinary marketing and self-presentation work the other way: they put the flattering surface first and hope the rest can wait. Anti-marketing pulls the difficult, limited, or unattractive parts forward while the other person can still walk away cheaply.
+- Show constraints, flaws, trade-offs, and weak points before the other person has invested.
+- When a weakness is shown early, the other person reads it as honesty. When the same weakness is found after a polished pitch, the other person reads it as something that was hidden.
+- Finding a mismatch costs less at the start. Dating, hiring, and product trials all work this way.
+- Ask who should still want this once they have seen what it actually is. Do not ask how to make it look desirable to as many people as possible.
+- Naming limits raises credibility only when the listener can use that information to decide fit.
+- The practice fails when honesty is a performance, when disclosure puts a burden on the other person, or when the statement lists only limits.
 
-**A weakness shown early is read as honesty. The same weakness found after a smooth pitch is read as something hidden.** That is the whole mechanism. The cost of discovering a mismatch is much lower at the start — in dating, hiring, and a product trial alike — so later disillusionment does less damage when the fact was already in the room.
+## Why showing a weakness early works
 
-The operator is two questions. Who should still want this once they have seen what it actually is? Not: how do I make this look desirable to as many people as possible? [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] is how the unflattering fact gets into the other person's frame without turning into a speech.
+In ordinary marketing and self-presentation, the flattering surface comes first and the rest comes later. In anti-marketing, the difficult, limited, or unattractive parts come first, while leaving still costs the other person little.
 
-## Where it applies, and the pose
+When a weakness is shown early, the other person reads it as honesty. When the same weakness is found after a polished pitch, the other person reads it as something that was hidden. This difference in reading is the reason the practice works. Finding a mismatch costs much less at the start. This holds in dating, in hiring, and in a product trial. When the fact was stated at the start, later disillusionment does less damage.
 
-The same timing rule covers public writing and knowledge work, personal sites and portfolios, dating and friendship, a product or service, and the sharing of research or ideas. It does not need a fifth channel.
+## The question to ask
 
-On this vault it changes what the site is allowed to look like. Current questions, unfinished thinking, named limits, and corrections left visible keep the work from hardening into a personal brand.
+Two questions define the practice. The question to ask is: who should still want this once they have seen what it actually is? The question not to ask is: how do I make this look desirable to as many people as possible? [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] describes how to put the unflattering fact inside the other person's frame without the telling becoming a speech.
 
-In a relationship, showing the awkward parts early takes the exchange out of performance and lets people test whether they actually fit. That is not a license to dump. [[wiki/Concepts/Meiwaku|Meiwaku]] is the burden-on-others constraint that stops over-disclosure; over-sharing that loads the other person is not anti-marketing.
+## Where the practice applies
 
-Naming what the thing is not good for, what it asks of the user, and where it falls short can raise credibility — when the listener can use the negative information to decide fit. It is not a universal lift, and it is not magic.
+The same timing rule covers public writing and knowledge work, personal sites and portfolios, dating and friendship, a product or service, and the sharing of research or ideas. The rule does not change from one of these to another.
 
-The practice dies in three poses:
+On this vault, the rule changes what the site is allowed to look like. When current questions, unfinished thinking, named limits, and corrections stay visible, the site does not become a personal brand.
 
-- Honesty worn as a costume — humblebragging, or the strategic vulnerability [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]] names as a tell.
-- Over-disclosure that creates a burden the other person never asked to carry.
-- Negativity mistaken for realism: all caveat and no value.
+## In a relationship
 
-[[wiki/Concepts/Good Faith|Good Faith]] is the stance this practice expresses in public. [[wiki/Concepts/Style|Style]] is where the same choice sits as a deliberate register.
+In a relationship, showing the awkward parts early means neither person is performing, and both can test whether they actually fit. This does not permit telling the other person everything. [[wiki/Concepts/Meiwaku|Meiwaku]] is the constraint against putting a burden on others, and it stops over-disclosure. Over-sharing that puts a burden on the other person is not anti-marketing.
 
-Reveal what changes fit, trust, or understanding. Not everything. A page of caveats with nothing to want is the other failure, just quieter.
+## When naming limits raises credibility
 
-## Related
+Naming what the thing is not good for, what it asks of the user, and where it is weak can raise credibility. This happens when the listener can use the negative information to decide fit. It does not happen in every case.
 
-- [[wiki/Concepts/Style|Style]] — anti-marketing as a deliberate stylistic choice.
-- [[wiki/Concepts/Meiwaku|Meiwaku]] — the burden-on-others constraint that stops over-disclosure.
-- [[wiki/Concepts/Good Faith|Good Faith]] — the stance this practice expresses in public.
-- [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] — how to put the unflattering fact inside the other person's frame.
-- [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]] — unconditional honesty as the source-level mechanism; strategic vulnerability as the performance tell.
+## Three ways the practice fails
+
+The practice fails in three ways:
+
+- Honesty used as a performance. This includes humblebragging, and the strategic vulnerability that [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]] names as the sign of a performance.
+- Over-disclosure that puts a burden on the other person that they did not ask for.
+- Negativity mistaken for realism. The statement lists only limits and gives the reader nothing to want.
+
+## The stance behind it
+
+[[wiki/Concepts/Good Faith|Good Faith]] is the stance this practice expresses in public. [[wiki/Concepts/Style|Style]] is where the same choice appears as a deliberate register.
+
+## How much to reveal
+
+Reveal the facts that change fit, trust, or understanding. Do not reveal everything. A page of limits with nothing to want is also a failure. It is less visible than hiding a weakness.
+
+## How to practice this
+
+1. Before you present a thing, list its constraints, flaws, trade-offs, and weak points. Put them where the other person will see them before they invest. Notice whether the people who stay are the ones who fit.
+2. Ask who should still want this once they have seen what it actually is. Notice if you are instead asking how to make it look desirable to the most people.
+3. Say what the thing is not good for and what it asks of the user. Notice whether the listener can use that information to decide fit. If they cannot, the limit does not raise credibility.
+4. On your own site or page, leave current questions, unfinished thinking, and corrections visible. Notice whether the page still reads as a personal brand.
+5. Before sharing a flaw, check whether it changes fit, trust, or understanding. If it does not, do not share it. Notice whether the sharing puts a burden on the other person that they did not ask for.
+6. Read your statement and check whether it gives the reader anything to want. Notice whether it lists only limits. If it does, it is negativity mistaken for realism.
+
+## Related pages
+
+- [[wiki/Concepts/Style|Style]]: anti-marketing as a deliberate stylistic choice.
+- [[wiki/Concepts/Meiwaku|Meiwaku]]: the burden-on-others constraint that stops over-disclosure.
+- [[wiki/Concepts/Good Faith|Good Faith]]: the stance this practice expresses in public.
+- [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]]: how to put the unflattering fact inside the other person's frame.
+- [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]]: unconditional honesty as the source-level mechanism; strategic vulnerability as the sign of performance.
 
 ## Sources
 

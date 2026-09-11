@@ -3,7 +3,9 @@ title: "How to prepare for ultra high-volume exams"
 type: concept
 status: developing
 created: 2026-05-14
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 source-count: 6
@@ -17,118 +19,186 @@ tags:
 
 # How to prepare for ultra high-volume exams
 
-A pile spanning years grows a review backlog of forgotten facts that consumes the hours meant for the next topic. The question stops being how to get through the volume and becomes what retention level is needed, raised a bit at a time from where the work currently sits.
+An ultra high-volume exam covers material that spans years. The exam is sat a long time after the material was first learned. Over that time the learner forgets a large share of what was covered. The forgotten facts form a review backlog. Reviewing the backlog takes the hours that were meant for the next topic.
 
-## Why scale breaks repetition
+At this volume, how to get through the material is the wrong question. The useful question is what retention level the exam needs. The learner raises retention toward that level a bit at a time, starting from where the work currently sits.
 
-The break is the math, not the person. The backlog is a structural failure; extra grit does not close an equation that does not close.
+## Core takeaways
 
-Repetition works tolerably when the pile is limited and the retention window is short. A single-semester exam can survive the same forgetting because the pile is small and the sitting is weeks away, not years. Ultra high-volume exams break both assumptions: years of material, a long horizon.
+- Years of material, with about half of it forgotten after learning, produce a review backlog that grows until all study time goes to relearning. Extra hours do not clear that backlog.
+- Hit rate decides how widely each item is learned. An item that attaches to an important concept is connected into the learner's map of the topic. So is an item that keeps turning up across question types. An item that does neither gets a narrow flashcard.
+- Confidence is spread across four layers: core principles, extended concepts, first-level details, and fine details. Fine details are allowed to stay thin on purpose.
+- Retention is raised one level above where it currently sits. A ten-percent improvement saves ten percent of every repetition cycle across the whole study period.
+- Each week holds three phases at once: dense retrieval on material encoded within the last week, targeted methods on older material, and daily flashcards bounded at about an hour and a half.
+- A gap is sorted as higher-order, lower-order, or procedural before the gap is repaired. Re-reading repairs none of the three.
 
-The spiral, as a block: learn, then forget a large percentage, then review old content, then new content waits, then old content decays again, then the review load grows, then all time becomes maintenance. If forgetting is on the order of half of what was covered — a worked assumption, not a measured constant — and the content spans multiple years, the relearning backlog eventually consumes all available study time. Connected, tested material often retains more than that; unconnected facts often retain less. A reader holding seventy percent still runs the spiral check if the backlog is growing.
+## Why repetition stops working at this volume
 
-Past a point, extra hours do not solve it. The strategy is minting more review-debt than the week can repay. Even every hour of every day would not be enough if the equation does not close. Fear of missing content feeds the same spiral. Narrow coverage of everything produces a shallow hold, which then demands more review, which then starves new material of time.
+Repetition stops working because of the arithmetic of forgetting, volume, and time. The learner's effort is not the cause. When the hours needed for review exceed the hours available, more effort cannot make up the difference.
 
-Better methods do not cut the clock by much. Hours-saved is the wrong success metric. What changes is the return on those hours: more coverage, deeper retention, earlier gap detection, better prioritization. A conventional flashcard-and-repeat strategy is mathematically unscalable at this volume and horizon. A growing deck's daily review explodes. That is a house argument about the pipeline, not a published model of any one exam.
+Repetition works well enough when the material is limited and the exam is close. A single-semester exam can survive the same rate of forgetting because the material is small and the exam is weeks away. An ultra high-volume exam has years of material and an exam years away, so both conditions fail.
 
-## Hit rate and the four layers
+The backlog grows in a cycle with these steps. The learner learns a topic. A large percentage of the topic is forgotten. The learner reviews the old content. New content waits while the old content is reviewed. The old content decays again. The review load grows. In the end all study time goes to maintenance.
 
-**Hit rate** is how much of what was just learned is likely to be usable on more than one possible question. Every item can be learned one-to-one or wider. One-to-one protects the form that was seen. Wider covers nearby forms and lets the fact be reused as an example. Wider costs more time upfront and protects against more question types per unit of effort. If wider cost the same, there would be nothing to decide. The worked instances of that choice live on [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]; this page keeps the rule.
+Take forgetting to be about half of what was covered. The figure of one half is a worked assumption. It is not a measured constant. If the content spans multiple years, the relearning backlog eventually takes all available study time. Connected, tested material often retains more than half. Unconnected facts often retain less. A learner retaining seventy percent still needs to check for this cycle if the backlog is growing.
 
-Two filters decide the width.
+Past a point, extra hours do not clear the backlog. The strategy creates more review work each week than the week has hours for. Even every hour of every day would fall short once the review load passes the available time. Fear of missing content adds to the same cycle. Narrow coverage of everything produces a shallow hold on each item. A shallow hold needs more review. More review leaves no time for new material.
 
-**Conceptual relevance.** Does this detail attach to a larger, already-important concept? A new fact that connects to an established cluster deserves wider encoding. An isolated one probably does not — yet. The "yet" is load-bearing. Testing later can discover a cluster the intake pass missed.
+Better methods do not cut the study hours by much. Hours saved is the wrong measure of success. What changes is the return on those hours: more coverage, deeper retention, earlier gap detection, and better prioritization. A conventional flashcard-and-repeat strategy cannot scale to this volume and horizon. A deck that keeps growing produces a daily review that grows past what a day can hold. That deck growth is this system's own argument about the study pipeline. It is not a published model of any one exam.
 
-**Repeated testing relevance.** Which details keep turning up across different question forms and settings? Anything that keeps proving useful past its first appearance belongs in the map.
+## Hit rate: how widely to learn each item
 
-When both filters are low, a narrow card is enough, and the work moves on. That is the permission the fear-of-missing reader needs. When *either* filter is high, the item is integrated into the structure. Either, not both.
+Hit rate is how much of what was just learned is likely to be usable on more than one possible question. Every item can be learned one-to-one or wider. One-to-one learning covers only the form of the question that was seen. Wider learning covers nearby forms and lets the fact be reused as an example. Wider learning costs more time up front and covers more question types per unit of effort. If wider learning cost the same as one-to-one, there would be nothing to decide. The worked instances of that choice are on [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]].
 
-For exams at this volume, complete coverage is not the goal. Strategic distribution of confidence is. Four layers, as a design rule, not as a marks table:
+Two filters decide how widely an item is learned.
 
-- Core principles and high-order applications — high confidence. They underpin everything else and carry the highest proportion of marks.
-- Extended concepts — strong confidence.
-- First-level details and examples — decent confidence.
-- Fine random details — accepted mixed confidence. There are too many of them, and each one rarely pays. Time spent here is taken from the layers above.
+Conceptual relevance. Does this detail attach to a larger concept that already matters? A new fact that connects to an established cluster deserves wider encoding. An isolated fact probably does not, at least not yet. The word yet matters here. Testing later can find a cluster that the first pass missed.
 
-Most learners feel FOMO about fine details and underinvest in core concepts. The mark distribution runs the other way. Some things will be missed. The goal is to make those misses intentional rather than chaotic. [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]] is how the layers get built without treating every detail as equal.
+Repeated testing relevance. Which details keep turning up across different question forms and settings? Any detail that keeps proving useful past its first appearance belongs in the learner's map of the topic. The map is the structure that connects the topic's items.
 
-## One level better
+When both filters are low, a narrow card is enough, and the learner moves on. A learner who fears missing content can take the narrow card as permission to move on. When either filter is high, the item is integrated into the map. One high filter is enough. Both are not required.
 
-The work, at full magnification, is raising retention one level from the current baseline and letting that compound. **Best-attempt encoding** is building the most organised structure currently producible, not the ideal one, then testing it.
+## The four confidence layers
 
-Encoding skill sits on a spectrum from high forgetting and low structure to high retention and tight integration. The ceiling lives at the high end. The skill itself develops slowly and cannot be compressed. Months to years is this system's own teaching default, not a measured climb. Encoding at the highest level when the skill is not yet there takes too long per topic, sacrificing coverage for depth that cannot yet be produced efficiently.
+For exams at this volume, complete coverage is not the goal. The goal is a planned distribution of confidence across four layers. The layers are a design rule. They are not a table of marks.
 
-The aim is one level better than the current baseline, then that compounds, and the skill keeps developing. [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] is that stance. [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is the encoding workflow one level better is aiming at.
+- Core principles and high-order applications: high confidence. Everything else depends on them, and they carry the highest proportion of marks.
+- Extended concepts: strong confidence.
+- First-level details and examples: decent confidence.
+- Fine random details: accepted mixed confidence. There are too many of them, and each one rarely pays. Time spent here is taken from the layers above.
 
-A ten-percent retention improvement — a worked example, not a measured effect of one level better — does not just save ten percent of repetition time. It saves ten percent of every repetition cycle across the whole study period. Over two years, if the improvement is real and holds, those marginal encoding gains compound into recovered capacity.
+Most learners fear missing fine details and underinvest in core concepts. The marks run the other way: most marks are on the core concepts, and few are on the fine details. Some things will be missed. The aim is that the learner chose each miss in advance. [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]] is how the layers get built without treating every detail as equal.
 
-Two failure modes sit on either side of a good structure. Too specific: chunk names so domain-specific or arbitrary that each requires separate memorisation, and the structure becomes another thing to remember. Too generic: chunk names reusable across every topic, so they do not help locate specific knowledge. Dividing everything into mechanism / presentation / treatment is the recognisable form. A good structure is unique to this topic, and remembering one piece should surface the others.
+## Raising retention one level at a time
 
-Imperfect early encoding is not a debt to feel guilty about. The improvement compounds forward. The dangerous pattern is aiming for perfection immediately, or staying at the current baseline.
+The work is to raise retention one level from where it currently sits and let that gain compound. Best-attempt encoding means building the most organised structure the learner can currently produce, then testing that structure. It does not mean building the ideal structure.
 
-## The week's shape
+Encoding skill sits on a spectrum. At the low end there is high forgetting and low structure. At the high end there is high retention and tight integration. The upper limit of retention is at the high end. The skill develops slowly and cannot be compressed. This system's own teaching default is that the skill takes months to years to develop. That climb has not been measured. Encoding at the highest level before the skill is there takes too long per topic. Coverage is lost for depth that the learner cannot yet produce efficiently.
 
-New content and old content are in different phases at the same time. Phase 1 on last week's material and Phase 2 on six-month-old material share a week. Without that clause the sequence is read as a year-plan, and Phase 1 gets skipped once "the course has started."
+The aim is one level better than the current level. That gain compounds, and the skill keeps developing. [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] is the name of that stance: one level better, then let it compound. [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is the encoding workflow that one level better is aiming at.
 
-**Phase 1 — dense, high-order retrieval in the first week after a topic is encoded.** Closed-book dumps, teaching the topic to a beginner from memory, full reconstructions. The methods are retrieval, free recall, teaching-to-learn. The timing — within one week, high-volume first — is a scheduling rule, not a finding. It is how the spiral is interrupted early. These expose structural gaps: misunderstood central concepts, missing sections, entire relational errors. Finding those early matters because they compound. Every later session builds on a corrupted foundation. A twenty-hour map that has to be rebuilt is this system's own teaching model of that cost, not a measurement.
+Take a ten-percent retention improvement as a worked example. It is not a measured effect of one level better. A ten-percent improvement does not save only ten percent of repetition time. It saves ten percent of every repetition cycle across the whole study period. Over two years, if the improvement is real and holds, those encoding gains compound into recovered study capacity.
 
-High-volume methods are most efficient early because there are more gaps early. A pass that finds a hole every couple of minutes is still the right method. A pass that finds one every twenty minutes has been left too late — the method is now expensive relative to what it returns. Those two rates are this system's own working test.
+Imperfect early encoding is not something to feel guilty about. The improvement compounds forward. Two patterns are dangerous: aiming for perfection at once, and staying at the current level.
 
-**Phase 2 — targeted, lower-order methods as material matures.** Practice questions, a targeted quiz the reader did not write, closed-book dumps on known weak spots, short-answer probes. These catch the names, dates, and examples the dense pass never reached.
+## Two ways a structure can fail
 
-**Phase 3 — flashcards in parallel, daily.** Not a weekly block. Daily, brief, bounded. Spacing is the supported half. A house tripwire sits at about an hour and a half per day. Exceeding it consistently is a warning signal, not a reason to extend the session. Even one hour is a caution in the source. A reader at eighty minutes should not panic yet.
+A structure can fail in two directions. Too specific: the chunk names are so domain-specific or arbitrary that each one needs separate memorisation, and the structure becomes one more thing to remember. Too generic: the chunk names can be reused across every topic, so they do not help locate specific knowledge. Dividing everything into mechanism / presentation / treatment is the recognisable form of the generic failure. A good structure is unique to its topic. Remembering one piece of a good structure should bring back the others.
 
-The weekly shape, as a procedure: new material, then best-attempt encoding, then high-volume retrieval within one week, then diagnose gap type, then re-encode higher-order gaps, then add only necessary details to flashcards, then use past papers after structure exists, then deepen high-hit-rate topics. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is the retrieval routine that implements the three phases. [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] is the shallow pass that stops a first encounter from happening inside the real session.
+## The three phases in one week
 
-Past papers are a signal, not the curriculum. They sit at the second or third retrieval of a topic, around three to four weeks after first encoding — a teaching default, not a finding — after a high-volume pass has already exposed the structural holes. Once new material has stopped, they become the main ongoing probe. A decent foundation is learned first, then examiner trends choose what to go deeper into. The failure is the reverse: a narrow curriculum built from what last year's paper asked, so a changed paper wipes the over-fit cohort.
+New content and old content are in different phases at the same time. Phase 1 on last week's material and Phase 2 on six-month-old material share the same week. Without that rule, the three phases get read as a year plan, and Phase 1 gets skipped once the course has started.
 
-A card load that blows the daily maintenance window is the system saying something upstream is wrong. It inverts the usual "more card time" response. Causes: too many isolated cards, one-to-one details that belong in the map; weak encoding, the same cards returning because they never stuck; new regulations or examples added with no hit-rate filter; facts that should hang off a concept stored as free-floaters. The upstream problem is fixed before more cards are added. More flashcards on a weak encoding foundation deepen the spiral.
+Phase 1 is dense, high-order retrieval in the first week after a topic is encoded. The methods are closed-book dumps, teaching the topic to a beginner from memory, and full reconstructions. In general terms they are retrieval, free recall, and teaching-to-learn. The timing, within one week and high-volume first, is a scheduling rule of this system. It is not a research finding. That timing rule is how the review cycle is interrupted early. These methods expose structural gaps: a misunderstood central concept, a missing section, or a relational error across the whole topic. Finding those gaps early matters because they compound. Every later session builds on the error. A twenty-hour map that has to be rebuilt is this system's own teaching model of that cost. It is not a measurement.
 
-## Gaps, re-encoding, the price
+High-volume methods are most efficient early because there are more gaps early. A pass that finds a hole every couple of minutes is still the right method. A pass that finds one every twenty minutes has been left too late. At that rate the method costs more than it returns. Those two rates are this system's own working test.
 
-The same three-way split used at item scale on [[wiki/Domains/Miscellaneous/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]] applies here at preparation scale. Lower-order *here* means missing facts. On that sibling, after its repair, the same word may name a missing fact or a slipped step. The two uses are not silently the same.
+Phase 2 is targeted, lower-order methods as material matures. The methods are practice questions, a targeted quiz the learner did not write, closed-book dumps on known weak spots, and short-answer probes. These catch the names, dates, and examples the dense pass never reached.
 
-**Higher-order gap.** Essay flow is weak; the argument does not build; application is confused despite knowing the facts. The repair is to revise the map — challenge chunk structures, connections, relational logic. Re-reading and more practice questions will not fix this. "I know the topic; I am just bad at writing the answer" is almost always a mis-sort. If the facts and the writing skill are both in place, the answer appears. When it does not, the hole is in the structure or in the execution of the form.
+Phase 3 is flashcards in parallel, every day. This is not a weekly block. The sessions are daily, brief, and bounded. Spacing is the supported half of flashcard practice. A house tripwire sits at about an hour and a half per day. Going past that tripwire consistently is a warning signal. It is not a reason to extend the session. Even one hour is a caution in the source this system draws on. A learner at eighty minutes should not panic yet.
 
-**Lower-order gap.** Missing names, dates, definitions, concrete examples. The repair is targeted retrieval: flashcards, focused quizzing, detail review.
+The weekly procedure, in order:
 
-**Procedural gap.** Writing sounds stilted; timing fails; format is weak despite understanding the content. The repair is deliberate procedural practice. Knowing the content more deeply will not fix fluency. More essays on the same map will not fix a structural hole.
+1. New material.
+2. Best-attempt encoding.
+3. High-volume retrieval within one week.
+4. Diagnose the gap type.
+5. Re-encode the higher-order gaps.
+6. Add only the necessary details to flashcards.
+7. Use past papers once a structure exists.
+8. Deepen the high-hit-rate topics.
 
-Re-reading, the default repair, fixes none of the three. Sorting the gap first cuts the practice volume and reaches the real hole sooner.
+[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is the retrieval routine that implements the three phases. [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] is the shallow pass that stops a first encounter with a topic from happening inside the real session.
 
-Every schema is only the current best reading of the material. It is allowed to be wrong. Testing it is what it is for. The map is provisional; testing exposes the flaw; cognitive effort is paid; the structure improves; future learning and retrieval become easier. Most learners experience gap-finding as failure — the map they built is wrong, so the time building it feels wasted. The first map is what made the error visible at all. Repairing it costs a fraction of the time that built it, and the knowledge that comes back is a different quality.
+## Past papers
 
-The specific fear of re-encoding a higher-order structure after significant work is the most expensive fear in high-volume preparation. Skilled learners expect revision, do it quickly, and treat each correction as buying better knowledge. Less experienced learners delay finding gaps, resist revision, and take shortcuts that bypass the actual fix. [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] is why an effortful encode decays into a cheaper imitation.
+Past papers are a signal of what examiners ask. They are not the curriculum. They sit at the second or third retrieval of a topic, around three to four weeks after first encoding. That timing is a teaching default. It is not a finding. By then a high-volume pass has already exposed the structural holes. Once new material has stopped, past papers become the main ongoing test of what has been retained. The learner builds a decent foundation first, then uses examiner trends to choose what to go deeper into. The failure is the reverse order: a narrow curriculum built from what last year's paper asked. When the paper changes, the learners who studied only last year's questions have no coverage of the new questions.
 
-This strategy will not shrink the hours. It is the wrong tool for a single-semester exam that can survive the spiral. It is unused if a layer is not allowed to stay thin. The price is years of work at roughly the same clock time, spent differently, plus the willingness to miss fine details on purpose. The quit signal is that all time is already maintenance, or the deck has blown past the tripwire and the response was more minutes. Checkable: a high-volume pass still finds a hole every couple of minutes on last week's material, and missed details can be named as chosen.
+## When the card load gets too big
 
-## Controlled incompleteness
+A card load that goes past the daily maintenance window is a sign that an earlier step in the process is wrong. The usual response is more card time. Here the response is the reverse. The causes are these:
 
-Good high-volume preparation feels like **controlled incompleteness**: too much content, and a clear stack of what is allowed to be thin. The math can close, and some things stay thin on purpose.
+- too many isolated cards, meaning one-to-one details that belong in the map;
+- weak encoding, meaning the same cards return because they never stuck;
+- new regulations or examples added with no hit-rate filter;
+- facts that should hang off a concept but are stored as free-floating items.
 
-Good signs: core concepts feel solid and new details have obvious places to attach; past papers reveal trends without becoming the curriculum; retrieval finds structural gaps early; missed details feel chosen; flashcards stay inside the window; re-encoding after a gap feels normal.
+The earlier problem is fixed before more cards are added. More flashcards on a weak encoding foundation deepen the review cycle.
 
-Warning signs: all time goes into relearning; fine details dominate before the core is stable; past papers become the curriculum; flashcard volume exceeds the window; gaps trigger fear rather than revision; what is being intentionally skipped cannot be named. That last item is the one that can be acted on. [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is the steering that notices those signs.
+## Three kinds of gap and their repairs
 
-## Open Questions
+[[wiki/Domains/Miscellaneous/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]] splits a single exam mistake three ways: higher-order, lower-order, procedural. The same split applies here at preparation scale. Lower-order here means missing facts. On that page, after its repair, the same word may name a missing fact or a slipped step. The two uses differ.
+
+Higher-order gap. Essay flow is weak; the argument does not build; application is confused even though the facts are known. The repair is to revise the map: challenge the chunk structures, the connections, and the relational logic. Re-reading and more practice questions will not fix a higher-order gap. "I know the topic; I am just bad at writing the answer" is almost always a mis-sort. If the facts and the writing skill are both in place, the answer appears. When the answer does not appear, the hole is in the structure or in the execution of the form.
+
+Lower-order gap. Missing names, dates, definitions, and concrete examples. The repair is targeted retrieval: flashcards, focused quizzing, and detail review.
+
+Procedural gap. Writing sounds stilted; timing fails; format is weak even though the content is understood. The repair is deliberate procedural practice. Knowing the content more deeply will not fix fluency. More essays on the same map will not fix a structural hole.
+
+Re-reading is the default repair, and re-reading fixes none of the three. Sorting the gap first cuts the practice volume, and the learner reaches the real hole sooner.
+
+## Revising the map after testing
+
+Every schema is only the current best reading of the material. A schema is allowed to be wrong. Testing a schema is what a schema is for. The map is provisional. Testing exposes the flaw. The learner spends cognitive effort on the repair. The structure improves. Future learning and retrieval get easier. Most learners experience gap-finding as failure, because the map they built is wrong and the time building it feels wasted. The first map is what made the error visible at all. Repairing the map costs a fraction of the time that built it. The knowledge that comes back after the repair is of a different quality.
+
+The fear of re-encoding a higher-order structure after significant work is the most expensive fear in high-volume preparation. Skilled learners expect revision, do the revision quickly, and treat each correction as a way to get better knowledge. Less experienced learners delay finding gaps, resist revision, and take shortcuts that bypass the actual fix. [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] is why an effortful encode decays into a cheaper imitation.
+
+## What this strategy costs and when to stop
+
+This strategy will not shrink the hours. It is the wrong tool for a single-semester exam, because that exam can survive the review cycle. It goes unused if the learner does not allow any layer to stay thin. The price is years of work at roughly the same number of hours, spent differently, plus the willingness to miss fine details on purpose. Stop when all time is already maintenance. Stop also when the deck has gone past the tripwire and the response was more minutes. The strategy is working when a high-volume pass still finds a hole every couple of minutes on last week's material. It is also working when the learner can name the missed details as chosen.
+
+## What good preparation looks like
+
+Good high-volume preparation is controlled incompleteness. There is too much content, and there is a clear stack of what is allowed to be thin. The review load can fit the available hours, and some things stay thin on purpose.
+
+Good signs:
+
+- core concepts feel solid, and new details have obvious places to attach;
+- past papers reveal trends without becoming the curriculum;
+- retrieval finds structural gaps early;
+- missed details feel chosen;
+- flashcards stay inside the window;
+- re-encoding after a gap feels normal.
+
+Warning signs:
+
+- all time goes into relearning;
+- fine details dominate before the core is stable;
+- past papers become the curriculum;
+- flashcard volume exceeds the window;
+- gaps trigger fear rather than revision;
+- the learner cannot name what is being skipped on purpose.
+
+That last warning sign is the one the learner can act on. [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is the learner's own check for those signs.
+
+## How to practice this
+
+1. Encode a new topic as the most organised structure you can currently build. Within one week, test that structure with a closed-book dump or a full reconstruction from memory. Notice whether you find a hole every couple of minutes or only every twenty minutes.
+2. For each detail, ask whether it attaches to a concept that already matters, or recurs across question forms. Notice that one yes puts the detail in your map of the topic. Two noes leave it as a narrow card.
+3. Sort each gap before you repair it: a missing fact, a weak structure, or a weak writing form. Match the repair to the sort: cards, map revision, or procedural practice. Notice that re-reading closes none of the three.
+4. Time your daily flashcard review. Notice whether the review goes past about an hour and a half on most days. If it does, look for isolated cards, weak encoding, or unfiltered additions before adding any card.
+5. Start past papers at a topic's second or third retrieval, about three to four weeks after encoding. Use the trends in them to choose which topics to deepen. Notice whether last year's paper has started to become your curriculum.
+6. Name the fine details you are skipping on purpose. Notice whether you can list them. If you cannot, that is the warning sign to act on first.
+
+## Related pages
+
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: the retrieval routine that implements the three phases
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: the encoding workflow one level better is aiming at
+- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: the shallow pass that stops a first encounter from happening inside the real session
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: the one-level-better, compound-it stance
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the steering that notices the warning signs
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: why an effortful encode decays into a cheaper imitation
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]: how to build the layers without treating every detail as equal
+- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|First Principles of Learning]]: the underlying rules this strategy is an application of
+- [[wiki/Domains/Miscellaneous/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]]: the same three-way split at item scale; lower-order there may name a slip
+- [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]: holds the worked filter instances and the structure-cues-memory test
+
+## Open questions
 
 - What is the current retention rate, and is the math of the backlog still sustainable?
 - Which gap type is being mis-diagnosed?
 - How does daily flashcard time sit against the house tripwire of about an hour and a half?
 - Where does encoding skill currently sit on the spectrum, and which confidence layer is underprotected?
-
-## Related
-
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — the retrieval routine that implements the three phases
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] — the encoding workflow one level better is aiming at
-- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] — the shallow pass that stops a first encounter from happening inside the real session
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] — the one-level-better, compound-it stance
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — the steering that notices the warning signs
-- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] — why an effortful encode decays into a cheaper imitation
-- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]] — how to build the layers without treating every detail as equal
-- [[wiki/Syntheses/First Principles of Learning|First Principles of Learning]] — the underlying rules this strategy is an application of
-- [[wiki/Domains/Miscellaneous/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]] — the same three-way split at item scale; lower-order there may name a slip
-- [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]] — owns the worked filter instances and the structure-cues-memory test this page does not restate
 
 ## Sources
 

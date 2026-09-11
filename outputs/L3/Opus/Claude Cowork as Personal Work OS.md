@@ -146,7 +146,7 @@ The framing that makes this coherent: Cowork is not replacing your thinking syst
 ## Related Pages
 
 - [[Current Agentic LLM Stack]]
-- [[LLM Knowledge Systems]]
+- [[Context Engineering|LLM Knowledge Systems]]
 - [[Knowledge Base as Thinking Partner]]
 - [[Agentic Engineering]]
 - [Karpathy CLAUDE.md — Behavioral Guidelines](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)

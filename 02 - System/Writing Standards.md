@@ -113,7 +113,7 @@ The openings that survived, picked on a board or gone live without a strike, are
 | Wiki concept telling | [[wiki/Concepts/The Two Meanings of Ego\|The Two Meanings of Ego]] |
 | Concept telling from an evidence bank | [[wiki/Concepts/Catching the Inner Voice\|Catching the Inner Voice]] |
 | Cold-open concept page | [[wiki/Concepts/The Trained Voice\|The Trained Voice]] |
-| Operational page | [[wiki/Systems/AI & Agentic Systems/Bot Operating Rules\|Bot Operating Rules]] |
+| Operational page | [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer\|Bot Operating Rules]] |
 | Craft page | [[wiki/Writing Craft/The Cold Open\|The Cold Open]] |
 | Opening moves, verified specimens | [[wiki/Writing Craft/Opening Moves Catalog\|Opening Moves Catalog]] |
 | Decision document | `/Users/n1/Projects/llm-knowledge-base/decisions/2026-06-11-engine-quartz-over-astro.md` |

@@ -176,8 +176,8 @@ If not, the learner should find an easier version, strengthen prerequisites, or 
 ## Links Into the Knowledge Base
 
 - [[wiki/Dimensions/Deep Processing|Deep Processing]] - parent page for the mechanism.
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper|Thinking on Paper]] - likely first repair strategy.
-- [[wiki/Dimensions/Deep Processing/Schema Construction, Assimilation, and Reorganization|Schema Construction, Assimilation, and Reorganization]] - explains why organization matters.
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]] - likely first repair strategy.
+- [[wiki/Dimensions/Deep Processing/Schema|Schema Construction, Assimilation, and Reorganization]] - explains why organization matters.
 - [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]] - supports productive struggle and early schema formation.
 - [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery]] - overlaps with the understanding-versus-organization distinction.
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] - should absorb the good-load versus bad-load distinction.

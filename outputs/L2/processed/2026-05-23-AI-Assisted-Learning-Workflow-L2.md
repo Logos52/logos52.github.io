@@ -212,7 +212,7 @@ Do not use this page as permission to let AI build the schema from scratch. The 
 - [[wiki/Learning Craft/Don't Outsource the Learning]] - the core rule for learner-owned schema formation.
 - [[wiki/Dimensions/Deep Processing/Prestudy]] - overlaps with the priming step.
 - [[wiki/Dimensions/Deep Processing]] - explains the cognitive work AI must not replace.
-- [[wiki/Syntheses/How Top Performers Learn]] - connects to goal-driven learning systems.
+- [[wiki/Syntheses/ICS System|How Top Performers Learn]] - connects to goal-driven learning systems.
 - [[wiki/Concepts/The Shortcut Problem]] - boundary for when AI support becomes learning avoidance.
 
 ---

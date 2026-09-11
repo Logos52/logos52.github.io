@@ -145,7 +145,7 @@ Ask:
 
 ## Related Pages
 
-- [[wiki/Techniques/Building the Radar|Building the Radar]] — the skill of noticing when the process has deviated, which feeds directly into the emotional signal in Step 1.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Building the Radar]] — the skill of noticing when the process has deviated, which feeds directly into the emotional signal in Step 1.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — opening the black box is self-regulation applied to the entire learning system, not just individual sessions.
 - [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] — the three-level model (processing quality, strategies, meta-strategies) is the internal structure of the black box.
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] — cognitive load signals are one of the primary emotional cues that something in the process is not right.

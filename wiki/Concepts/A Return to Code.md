@@ -3,7 +3,9 @@ title: "A Return to Code"
 type: concept
 status: developing
 created: 2026-05-06
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 source-count: 1
@@ -16,46 +18,71 @@ tags:
 
 # A Return to Code
 
-A return to code is a cheap-custom-software loop that turns a clear ask into a one-afternoon program the market would never have funded. You describe the program, an agent builds and tests it, you correct it, and the keepable result can serve one person for one afternoon.
+A return to code is a loop for making cheap custom software. You describe the program you want. An agent builds it and tests it. You correct the agent. The result is a program made in one afternoon that the market would never have funded. A result worth keeping can serve one person for one afternoon.
 
-## What got cheaper
+## Core takeaways
 
-Getting a traditional program to first-run used to cost a pile of ceremony: pick a framework, wire dependencies, build the interface, host it, then chase the errors. Agents flatten that pile. They walk a repository, run shell commands, read the failure, and keep editing — if the surrounding stack is [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]], surfaces an agent can read and act on without a human click-path.
+- Agents lower the cost of getting a program to its first run. They walk a repository, run shell commands, read the failure, and keep editing.
+- A one-shot program serves one person, one job, or one afternoon. It does not have to become a product or a codebase you maintain.
+- A program either runs, fails a test, writes a log, or shows the user a broken screen. Running it tells you whether it works.
+- The person still names the behavior, holds taste and product judgment, catches the agent's wrong assumptions, and decides when to stop.
+- The low cost of building also causes the failures: scope grows because each feature costs little, and wide edits pass with no test and no review.
 
-The loop that comes back is playful and direct. A wanted behavior becomes a file you can execute. That fast creative loop is [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] is the professional quality system wrapped around it, and the two should stay separate concepts.
+## What agents made cheaper
 
-What the person still owns is narrower and harder: name the behavior you actually want; hold taste and product judgment; catch the agent's wrong assumptions; decide when to stop; tell the difference between "good enough to keep" and "this needs real engineering." Wanting a clear thing is the scarce skill. Cheap implementation is not permission to keep adding.
+Getting a traditional program to its first run used to take many steps: pick a framework, wire dependencies, build the interface, host it, then chase the errors. Agents remove most of that work. They walk a repository, run shell commands, read the failure, and keep editing. This works when the surrounding stack is [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]], meaning surfaces an agent can read and act on without a human click-path.
 
-## Why code, and where it fails
+The loop is fast and direct. A wanted behavior becomes a file you can execute. That fast creative loop is [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] is the professional quality system around that loop. The two are separate concepts and should stay separate.
 
-Think of a personal app store the way you think of a folder of spreadsheets — a shelf, not a company. You stop waiting for a startup to ship the exact workflow and you keep a rough tool of your own. A one-shot app is that tool when it serves one person, one job, or one afternoon. Disposable still counts. It does not have to grow into a product or a codebase you maintain. Some programs are jigs: a script you throw away after the job, the way a spreadsheet is thrown away after the quarter.
+## What the person still does
 
-Code is the domain where a model cannot hide. Prose can sound finished while being wrong. A program either runs, fails a test, writes a log, or shows the user a broken screen.
+The person's part of the work is narrower than before, and it is harder. It has five tasks: name the behavior you actually want; hold taste and product judgment; catch the agent's wrong assumptions; decide when to stop; tell "good enough to keep" from "this needs real engineering." The skill in short supply is knowing clearly what you want. Because implementation is cheap, adding more is easy. That is not a reason to add more.
 
-**Execution is a verdict.** A one-shot you cannot run, cannot test, and cannot discard is not a return to code.
+## Small programs for one person
 
-Models are not interchangeable. Some plan well, some edit well, some are just fast. Matching the model to the job, and stuffing the window with enough of the right material, is [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]].
+A personal app store is like a folder of spreadsheets. It is a set of small tools you own, with no company behind it. You stop waiting for a startup to ship the exact workflow, and you keep a rough tool of your own. A one-shot app is that tool when it serves one person, one job, or one afternoon. A disposable program counts as a result. It does not have to grow into a product or a codebase you maintain. Some programs are jigs: a script you throw away after the job, as a spreadsheet is thrown away after the quarter.
 
-Knowledge work has the same economics. This wiki can grow small tools as they earn their keep — a markdown search command, a check that the source index is sound, a health pass for orphans and missing backlinks, a listing of still-uncompiled intake, a generator for ingest prompts. Build one only when it cuts real maintenance. That is the stop decision, applied here.
+## Why code shows the errors
 
-The same cheapness that makes the loop worth running is what breaks it:
+In code, a model's mistakes show. Prose can read as finished and still be wrong. A program either runs, fails a test, writes a log, or shows the user a broken screen. Running the program tells you whether it works. A one-shot program you cannot run, cannot test, and cannot throw away is not a return to code.
 
-- A jig dressed up as production software.
-- Scope that grows because the next feature feels free.
-- Taste that drowns in a stream of generated extras.
+## Matching the model to the job
+
+Models are not interchangeable. Some plan well, some edit well, some are fast. Choosing the model for the job, and putting enough of the right material in the context window, is [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]].
+
+## Small tools for knowledge work
+
+Knowledge work has the same economics. This wiki can grow small tools when they save maintenance work: a markdown search command, a check that the source index is sound, a health pass for orphans and missing backlinks, a listing of still-uncompiled intake, a generator for ingest prompts. Build one only when it cuts real maintenance. That is the stop decision, applied to the wiki.
+
+## Where the loop fails
+
+The low cost that makes the loop worth running also causes its failures:
+
+- A throwaway script treated as production software.
+- Scope that grows because the next feature costs almost nothing.
+- The operator's taste lost among the many extras the agent generates.
 - A wide edit accepted with no test and no review.
-- An agent trusted as if it could see the whole project, when the window still cannot.
+- An agent trusted as if it knew the whole project, when its context window holds only part of it.
 
-A return to code is only a return when the thing runs and the operator can still stop. Cheap custom software that never executes, or that grows because growth is now easy, is just more untested text.
+A return to code is a return only when the program runs and the operator can still stop. Cheap custom software that never runs, or that grows because growth is now easy, is untested text.
 
-## Related
+## How to practice this
 
-- [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] — the fast creative loop this page's economics sit under.
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — the professional quality system around that loop; the two stay separate.
-- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]] — the broader frame: software as English plus models.
-- [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]] — what the surrounding stack has to look like for agents to run commands and edit files.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]] — giving the agent enough context to match model to task.
-- [[wiki/Concepts/LLM Tool Use|LLM Tool Use]] — operator craft for calling tools from a model.
+1. Write down the one behavior you want from a program before you ask an agent for it. Notice whether you can state it clearly. If you cannot, work on the description before any building starts.
+2. Give the description to an agent and let it build and test the program. Notice whether the agent runs shell commands, reads the failure, and keeps editing on its own. If a human click is needed at each step, the stack is not one an agent can act on.
+3. Run the program. Notice which of four things happens: it runs, fails a test, writes a log, or shows a broken screen. A program you cannot run or test gives you no result.
+4. Correct the agent's wrong assumptions, then decide whether the result is good enough to keep or needs real engineering. Notice when you want a feature only because adding it costs almost nothing. That is the point to stop.
+5. Before building a small tool for your own knowledge work, ask whether it cuts real maintenance. Notice whether the tool removes work you already do or adds a codebase you must maintain. Build it only in the first case.
+6. Check that the model fits the job, since some plan well, some edit well, and some are fast. Notice whether the context window holds enough of the right material. An agent with only part of the project in its window cannot check the rest.
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]: the fast creative loop that turns a wanted behavior into a file you can run.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the professional quality system around that loop; the two stay separate.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]: the broader frame, software as English plus models.
+- [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]: what the surrounding stack has to look like for agents to run commands and edit files.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: giving the agent enough context to match model to task.
+- [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]: operator craft for calling tools from a model.
 
 ## Sources
 

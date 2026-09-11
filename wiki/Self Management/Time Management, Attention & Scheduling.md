@@ -22,11 +22,11 @@ Task management chooses whether work deserves a clock. Scheduling puts the choic
 
 **Prioritization.** [[wiki/Self Management/Priority 0+1 System|Priority 0+1 System]] is the sort — what matters, so the day is not re-decided all morning.
 
-**Tasks.** [[wiki/Self Management/Task Management|Task Management]] owns whether, before when: one inbox, the evening sort, the three lenses.
+**Tasks.** [[wiki/Self Management/Priority 0+1 System|Task Management]] owns whether, before when: one inbox, the evening sort, the three lenses.
 
-**Scheduling.** [[wiki/Self Management/Building a Schedule That Survives|Building a Schedule That Survives]] turns priorities into blocks that survive an ordinary day. [[wiki/Self Management/Study Scheduling|Study Scheduling]] is the same job aimed at study specifically.
+**Scheduling.** [[wiki/Self Management/Priority 0+1 System|Building a Schedule That Survives]] turns priorities into blocks that survive an ordinary day. [[wiki/Self Management/Study Scheduling|Study Scheduling]] is the same job aimed at study specifically.
 
-**Attention.** [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]] is entry and recovery inside a block. [[wiki/Self Management/Attention Span and Focus Training|Attention Span and Focus Training]] is the span itself. [[wiki/Self Management/OFF-Rest Timing|OFF-Rest Timing]] is recovery after attention has been spent. [[wiki/Self Management/Flow State|Flow State]] is the focused state that architecture is for.
+**Attention.** [[wiki/Self Management/Flow State|Focus Management]] is entry and recovery inside a block. [[wiki/Self Management/Attention Span and Focus Training|Attention Span and Focus Training]] is the span itself. [[wiki/Self Management/Flow State|OFF-Rest Timing]] is recovery after attention has been spent. [[wiki/Self Management/Flow State|Flow State]] is the focused state that architecture is for.
 
 **Decisions that will not start.** [[wiki/Decision Making/Decisional Delays|Decisional Delays]] is the postponed choice that would let work begin.
 

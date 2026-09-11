@@ -3,9 +3,10 @@ title: "Single-Sex Spaces - The Asymmetry"
 type: concept
 status: developing
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: opus
 written-by: fable
-method: fable-5.1-one-pass
 diagrams: scripts/gen-single-sex-spaces-diagrams.py
 source-count: 1
 description: "American courts opened every large men-only club between 1984 and 1996 under public-accommodation law, while women-only colleges, gyms, and a billion-dollar executive club stayed legal under carve-outs for privacy, safety, and religion. The men left in the gap show up in friends, work, marriage, and suicide."
@@ -19,109 +20,22 @@ tags:
 
 # Single-Sex Spaces - The Asymmetry
 
-## Reasoning
+A single-sex space is a club, a school, a gym, or a shelter that admits one sex only. In the United States the law now treats a men-only one and a women-only one differently. Between 1984 and 1996 American courts opened every large men-only club in the country by applying laws written for shops and businesses. Women-only colleges, gyms, and executive clubs stayed legal under exceptions written for privacy, safety, and religion.
 
-### Abstract
+The men who lost those institutions can be counted. In 1990, 55% of American men had at least six close friends. By 2021 it was 27%, and the share with no close friend at all had gone from 3% to 15%. The same men appear in the figures for school, work, marriage, and death.
 
-The asymmetry between single-sex spaces in the United States is that the law now treats a men-only club and a women-only club differently. A single-sex space is a club, a school, a gym, or a shelter that admits one sex only. Between 1984 and 1996 the courts opened every large men-only club in the country under laws written for shops and businesses. Women-only colleges, gyms, and executive clubs stayed legal under carve-outs written for privacy, safety, and religion. What happened to the men in the gap shows up in friends, work, marriage, and death. In 1990, 55% of American men had at least six close friends. By 2021 it was 27%, and the share with no close friend at all had gone from 3% to 15%.
-
-### Core takeaways
+## Core takeaways
 
 - American courts opened every large men-only club between 1984 and 1996 by treating them as businesses. The same laws left women-only colleges, gyms, and executive clubs alone.
-- The law lets a women-only space stand for privacy, for safety, or for religion. None of those covers a billion-dollar executive club or a coworking space.
-- The men's lodges were the welfare state before the welfare state, paying rent, funerals, and widows, and nothing of the same grade replaced them.
-- The men left in the gap show up in the numbers as fewer friends, fewer jobs, fewer marriages, and more suicides and overdoses.
-- Men lean on one relationship for emotional support, so when it ends or never starts the whole support network goes at once.
-- The rebuilds that work, men's sheds and dawn workouts, run shoulder to shoulder and small. Bare exclusion will not be allowed back, so a men's space has to justify itself as health, faith, service, sport, or craft.
+- The law allows a women-only space for privacy, for safety, or for religion. None of those three reasons covers a $1.1 billion executive club or a coworking space.
+- The men's lodges paid rent, funerals, and widows' stipends before the government did. Nothing of the same size replaced them.
+- The men who lost those institutions have fewer friends, fewer jobs, and fewer marriages than the generation before them, and more of them die by suicide and overdose.
+- Most men name one relationship as their source of emotional support, so when that relationship ends the whole support network ends with it.
+- The rebuilds that work, men's sheds and free dawn workouts, put men side by side on a shared task and stay small. A men-only space now has to justify itself as health, faith, service, sport, or craft.
 
-### Essay
+## The clubs men used to belong to
 
-The asymmetry is easy to state. Between 1984 and 1996 American courts decided that a large men-only club was a business in all but name, a place of networking, job leads, and career advancement. So it had to obey the laws written for shops and offices. The same laws left women-only colleges, gyms, and executive clubs alone, under exceptions written for privacy, safety, and religion. Those three reasons are sound where they apply. A locker room, a shelter for women fleeing violent men, and a gym for women whose faith forbids mixed exercise all fit them. A billion-dollar club for vice presidents and a coworking space with pink walls do not. Both kept their doors closed to men while the men's equivalents were being pried open.
-
-What the men lost was more than a room. The lodges were the welfare state before the welfare state, paying rent when a roofer broke his back and burying a miner and keeping his widow. They were also where a man had friends he did not have to make on purpose. The courts and the culture dismantled them, and nobody under forty joined the ones that survived. Nothing of the same grade was built in their place. The country took the doors off the building and forgot to build a new one.
-
-The men left in the gap show up in every table there is. Boys fall behind at school and are held back and medicated more, so fewer men take degrees. Fewer men then find work as the factories close. The men without work take painkillers, and the painkillers become the overdoses. Fewer men marry, and the ones who do marry later. Men have fewer friends than they did a generation ago, and far more have none. What makes male isolation different is where the support sits. Most men lean on one relationship for all of it, so when that relationship ends, or never starts, the whole network goes at once.
-
-The politics follow the isolation. Young men swung hard toward the right in the last American election and young women went the other way. South Korea got there first, and elected a president on a promise to abolish its gender ministry with most young men and few young women. Two male responses have grown in the gap. One is a grievance culture that names the problem head on and gets some of it wrong. The other is a performance of feminist allyship that women have learned to read as a courtship move. Most men are neither, and they stop taking part.
-
-What is being rebuilt works for a reason the old lodges also worked. Men socialise shoulder to shoulder over a shared task rather than face to face over feelings, so a workshop with tools and a kitchen, or a dawn workout in a park, produces friendship as a side effect. Those rebuilds are small next to what the lodges were, and the law will not let a men-only space exist for its own sake again. A men's space now survives only when it can justify itself as health, fatherhood, mentoring, faith, service, recovery, sport, or craft.
-
-<!-- diagram:three_rationales -->
-<svg viewBox="0 0 680 200" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The three reasons a women-only space stays legal, and two spaces that fit none of them" style="max-width:100%;height:auto">
-<title>The three reasons a women-only space stays legal, and two spaces that fit none of them</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHY A WOMEN-ONLY SPACE STAYS LEGAL</text>
-<rect x="20" y="24" width="200" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="120.0" y="48.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">privacy</text>
-<text x="120.0" y="62.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">locker rooms, fitting rooms,</text>
-<text x="120.0" y="76.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">restrooms, shelters</text>
-<rect x="240" y="24" width="200" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="340.0" y="48.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">safety</text>
-<text x="340.0" y="62.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">women are 70% to 80% of</text>
-<text x="340.0" y="76.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">intimate-partner violence victims</text>
-<rect x="460" y="24" width="200" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
-<text x="560.0" y="48.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">religion</text>
-<text x="560.0" y="62.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">Muslim and Orthodox Jewish women</text>
-<text x="560.0" y="76.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">who cannot exercise in mixed company</text>
-<text x="20" y="124" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHAT SITS OUTSIDE ALL THREE</text>
-<rect x="20" y="132" width="310" height="56" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
-<text x="175.0" y="156.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a $1.1 billion club for vice presidents</text>
-<text x="175.0" y="170.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">is not a shelter</text>
-<rect x="350" y="132" width="310" height="56" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
-<text x="505.0" y="156.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a coworking space in the Flatiron</text>
-<text x="505.0" y="170.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">does not protect religious observance</text>
-</svg>
-<!-- /diagram -->
-
-<!-- diagram:court_timeline -->
-<svg viewBox="0 0 680 144" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Five rulings from 1984 to 1996 that opened the men-only club" style="max-width:100%;height:auto">
-<title>Five rulings from 1984 to 1996 that opened the men-only club</title>
-<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">HOW THE MEN-ONLY CLUB WAS OPENED, ONE RULING AT A TIME</text>
-<rect x="20" y="24" width="124" height="64" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
-<text x="82.0" y="46.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">1984, 7 to 0</text>
-<text x="82.0" y="59.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">the Jaycees: too big and</text>
-<text x="82.0" y="72.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">commercial to choose members</text>
-<line x1="144.0" y1="56.0" x2="152.0" y2="56.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="152" y="24" width="124" height="64" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
-<text x="214.0" y="46.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">1987, 7 to 0</text>
-<text x="214.0" y="59.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">Rotary, 900,000 members:</text>
-<text x="214.0" y="72.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">men-only rule falls</text>
-<line x1="276.0" y1="56.0" x2="284.0" y2="56.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="284" y="24" width="124" height="64" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
-<text x="346.0" y="46.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">1988</text>
-<text x="346.0" y="59.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">New York clubs over 400</text>
-<text x="346.0" y="72.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">members: admit women</text>
-<line x1="408.0" y1="56.0" x2="416.0" y2="56.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="416" y="24" width="124" height="64" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
-<text x="478.0" y="46.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">1990</text>
-<text x="478.0" y="59.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">Princeton eating clubs,</text>
-<text x="478.0" y="72.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">after eleven years</text>
-<line x1="540.0" y1="56.0" x2="548.0" y2="56.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
-<rect x="548" y="24" width="124" height="64" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
-<text x="610.0" y="46.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">1996, 7 to 1</text>
-<text x="610.0" y="59.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">last all-male public</text>
-<text x="610.0" y="72.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">college: admit women</text>
-<text x="20" y="116" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Then Yale's senior society admitted women in 1992, Augusta National admitted two women in 2012,</text>
-<text x="20" y="132" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">and the Boy Scouts admitted girls in 2018 and 2019.</text>
-</svg>
-<!-- /diagram -->
-
-### Conclusion
-
-The men's clubs were exclusionary, and the women's spaces were built for reasons some valid and some not. The judges and legislators who made the asymmetry were mostly acting in good faith. They were balancing access against privacy, safety, and past disadvantage. Measured by what followed, the balance slipped past where anyone wanted it. The men who used to spend Tuesday nights at the lodge are not at the women's clubhouse. They are at home, alone, on their phones, and dying before sixty. The fix that follows is the one the country already did once for women, a civic infrastructure built on purpose, and it gives the country about ten years before the consequences set as hard as they have in Korea.
-
-## The numbers
-
-This is a measurement rather than a complaint, and it opens on the deaths. In 2023 almost 39,000 American men killed themselves, one every 14 minutes, and almost 80% of American suicides are male. The Surgeon General's 2023 advisory put chronic loneliness at about the mortality risk of 15 cigarettes a day, above obesity, air pollution, and inactivity. Single-person households went from 13% of American households in 1960 to 29% in 2022. The average American now spends about 333 minutes a day alone, up from 285 in 2003, and in-person time with friends fell from about 60 minutes a day to about 20. The institutions which used to absorb men were dismantled over about 40 years. They were sued, integrated, defunded, and rebranded out of existence. A women-only ecosystem was built beside the rubble, legal, funded, and unchallenged.
-
-**Contents:** [What men had](#what-men-had) · [The court cases](#the-court-cases) · [What got built on the other side](#what-got-built-on-the-other-side) · [Why the carve-outs stop where they do](#why-the-carve-outs-stop-where-they-do) · [The men in the gap](#the-men-in-the-gap) · [The politics, here and abroad](#the-politics-here-and-abroad) · [What is being rebuilt](#what-is-being-rebuilt)
-
-### What men had
-
-- In 1897 about 5.4 million American men, one in five adults, belonged to a fraternal order.
-- The Freemasons reached about 4 million American members in the 1950s. By 1990 there were still 568 orders with over 6 million members.
-- Before Social Security in 1935, a roofer who broke his back got rent money from his lodge.
+In 1897 a journalist tried to count the American men in secret fraternal orders and reached 5.4 million, about one in five adult men in the country. Bosses, dentists, mailmen, and coaches paid annual dues to a brotherhood with handshakes, ranks, oaths, and weekly meetings. The 1900 mail-order catalogue sold 80 different lapel pins and charms for 28 orders. The Freemasons reached about 4 million American members in the 1950s. The Odd Fellows had close to a million by 1900. The Elks, the Moose, the Knights of Pythias, and the Knights of Columbus were among the others. By 1990 there were still more than 568 orders with over 6 million members between them.
 
 <!-- diagram:lodge_scale -->
 <svg viewBox="0 0 680 124" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Millions of American men in fraternal orders in 1897, the 1950s, and 1990" style="max-width:100%;height:auto">
@@ -140,41 +54,11 @@ This is a measurement rather than a complaint, and it opens on the deaths. In 20
 </svg>
 <!-- /diagram -->
 
-In 1897 a journalist tried to count American men in secret fraternal orders and reached 5.4 million, about one in five adult men in the country. Bosses, dentists, mailmen, and coaches paid annual dues to a brotherhood with handshakes, ranks, oaths, and weekly meetings. The 1900 mail-order catalogue sold 80 different lapel pins and charms for 28 orders. The Freemasons reached about 4 million American members in the 1950s. The Odd Fellows had close to a million by 1900. Behind them stood the Elks, the Moose, the Knights of Pythias, the Knights of Columbus, and more. By 1990 there were still more than 568 orders with over 6 million members between them.
+The orders did work the welfare state did later. Before Social Security in 1935 and Medicare in 1965 they ran private insurance for working men. A roofer who broke his back got rent money from the lodge. A miner who died of tuberculosis at 38 got his funeral paid and left his widow a stipend. His orphaned son went to the lodge's orphanage. Several of the orders survive today as commercial life insurers, and the lodge came first. Black men, shut out of white insurance and white fraternities, built their own orders from 1784 on, with the same functions of mutual aid, burial, mentorship, and a safe room. A man who belonged to a lodge also had friends he did not have to make on purpose. A Harvard political scientist's book on civic decline put about half of the post-1960 fall in American civic life down to the loss of these institutions, because nobody under 40 joined.
 
-<!-- diagram:friends_collapse -->
-<svg viewBox="0 0 680 188" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Men with six or more close friends fell from 55% to 27%, and men with none rose from 3% to 15%" style="max-width:100%;height:auto">
-<title>Men with six or more close friends fell from 55% to 27%, and men with none rose from 3% to 15%</title>
-<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">MEN WITH SIX OR MORE CLOSE FRIENDS</text>
-<line x1="20.0" y1="124.0" x2="300.0" y2="124.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
-<path d="M40.0,44.5 L280.0,85.0" fill="none" stroke="#5b6cb0" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="40.0" cy="44.5" r="5" fill="#5b6cb0"/>
-<text x="40" y="34.46153846153847" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">55%</text>
-<circle cx="280.0" cy="85.0" r="5" fill="#5b6cb0"/>
-<text x="280" y="74.95384615384614" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">27%</text>
-<text x="40" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1990</text>
-<text x="280" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2021</text>
-<text x="360" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">MEN WITH NO CLOSE FRIENDS</text>
-<line x1="360.0" y1="124.0" x2="640.0" y2="124.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
-<path d="M380.0,109.9 L620.0,53.5" fill="none" stroke="#5b6cb0" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="380.0" cy="109.9" r="5" fill="#5b6cb0"/>
-<text x="380" y="99.9" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">3%</text>
-<circle cx="620.0" cy="53.5" r="5" fill="#5b6cb0"/>
-<text x="620" y="43.5" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">15%</text>
-<text x="380" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1990</text>
-<text x="620" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2021</text>
-<text x="20" y="160" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">A 2021 survey repeated the 1990 wording.</text>
-<text x="20" y="176" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">A 2023 survey with different wording found about 9% of men and 8% of women with no close friends.</text>
-</svg>
-<!-- /diagram -->
+## How the courts opened the men's clubs
 
-The orders were the welfare state before the welfare state. Before Social Security in 1935 and Medicare in 1965, they ran private insurance for working men. A roofer who broke his back got rent money from the lodge. A miner who died of tuberculosis at 38 got his funeral paid and left his widow a stipend. His orphaned son went to the lodge's orphanage. Several of the orders survive today as commercial life insurers, and the lodge came first. Black men, shut out of white insurance and white fraternities, built their own orders from 1784 on, with the same functions of mutual aid, burial, mentorship, and a safe room. A Harvard political scientist's book on civic decline put about half of the post-1960 collapse in American civic life down to the loss of these institutions, because nobody under 40 joined.
-
-### The court cases
-
-- 1984, 7 to 0: the Jaycees, 235,000 men aged 18 to 35, lost the right to keep women from voting.
-- 1987, 7 to 0: Rotary, 900,000 members in 157 countries, lost its men-only rule. 1996, 7 to 1: the last all-male public college had to admit women.
-- A Princeton eating-club case ran eleven years and 6,000 pages before the clubs opened in 1990.
+The all-male civic club ended as a legal category in 1984, by a 7 to 0 vote of the Supreme Court. The case was about the Jaycees, the junior chamber of commerce, founded in 1920 with about 235,000 members across 7,400 chapters, whose voting members were men aged 18 to 35. Two Minnesota chapters admitted women as full members and the national body threatened their charters. The chapters sued under a state law that banned sex discrimination in commercial settings. The Jaycees answered with freedom of association. The court split association into three kinds. Intimate association, such as marriage and family, got the strongest protection. Expressive association, such as a political party or a church group, got real protection too. The Jaycees were neither, being too big, too commercial, and too open in their recruiting, so the state's interest in ending sex discrimination won. A separate opinion said the Jaycees were a business in all but name, with networking, job leads, and career advancement, so they should face the same anti-discrimination rules as any business. That opinion was the basis for the rulings that followed.
 
 <!-- diagram:court_timeline -->
 <svg viewBox="0 0 680 144" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Five rulings from 1984 to 1996 that opened the men-only club" style="max-width:100%;height:auto">
@@ -210,9 +94,45 @@ The orders were the welfare state before the welfare state. Before Social Securi
 </svg>
 <!-- /diagram -->
 
-The all-male civic club died as a legal category in 1984, by a 7 to 0 vote of the Supreme Court. The case was about the Jaycees, the junior chamber of commerce, founded in 1920 with about 235,000 members across 7,400 chapters, whose voting members were men aged 18 to 35. Two Minnesota chapters admitted women as full members and the national body threatened their charters. The chapters sued under a state law that banned sex discrimination in commercial settings. The Jaycees answered with freedom of association. The court split association into three kinds. Intimate association, like marriage and family, got the strongest protection. Expressive association, like a political party or a church group, got real protection too. The Jaycees were neither, being too big, too commercial, and too open in their recruiting, so the state's interest in ending sex discrimination won. A separate opinion said the Jaycees were a business in all but name, with networking, job leads, and career advancement, so they should face the same anti-discrimination rules as any business. That opinion dismantled the rest.
+<!-- diagram:court_timeline -->
+<svg viewBox="0 0 680 144" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Five rulings from 1984 to 1996 that opened the men-only club" style="max-width:100%;height:auto">
+<title>Five rulings from 1984 to 1996 that opened the men-only club</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">HOW THE MEN-ONLY CLUB WAS OPENED, ONE RULING AT A TIME</text>
+<rect x="20" y="24" width="124" height="64" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="82.0" y="46.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">1984, 7 to 0</text>
+<text x="82.0" y="59.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">the Jaycees: too big and</text>
+<text x="82.0" y="72.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">commercial to choose members</text>
+<line x1="144.0" y1="56.0" x2="152.0" y2="56.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="152" y="24" width="124" height="64" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="214.0" y="46.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">1987, 7 to 0</text>
+<text x="214.0" y="59.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">Rotary, 900,000 members:</text>
+<text x="214.0" y="72.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">men-only rule falls</text>
+<line x1="276.0" y1="56.0" x2="284.0" y2="56.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="284" y="24" width="124" height="64" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="346.0" y="46.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">1988</text>
+<text x="346.0" y="59.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">New York clubs over 400</text>
+<text x="346.0" y="72.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">members: admit women</text>
+<line x1="408.0" y1="56.0" x2="416.0" y2="56.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="416" y="24" width="124" height="64" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="478.0" y="46.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">1990</text>
+<text x="478.0" y="59.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">Princeton eating clubs,</text>
+<text x="478.0" y="72.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">after eleven years</text>
+<line x1="540.0" y1="56.0" x2="548.0" y2="56.0" stroke="rgba(130,130,130,.6)" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="548" y="24" width="124" height="64" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="610.0" y="46.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">1996, 7 to 1</text>
+<text x="610.0" y="59.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">last all-male public</text>
+<text x="610.0" y="72.0" font-size="9" fill="currentColor" opacity="0.85" text-anchor="middle">college: admit women</text>
+<text x="20" y="116" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">Then Yale's senior society admitted women in 1992, Augusta National admitted two women in 2012,</text>
+<text x="20" y="132" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">and the Boy Scouts admitted girls in 2018 and 2019.</text>
+</svg>
+<!-- /diagram -->
 
-Three years later the same logic ended Rotary's men-only rule, again 7 to 0, after a California chapter admitted three women in 1977 and lost its charter. Rotary then had nearly 20,000 clubs and 900,000 members in 157 countries, and in 1989 its governing body voted 328 to 117 to strike men-only from its constitution. About a quarter of its members today are women, and the Lions and Kiwanis followed. In 1988 the court upheld a New York City law forcing private clubs with over 400 members and regular meal service to admit women, which ended men-only membership at the New York Athletic Club and the Cosmos Club. In 1996, by 7 to 1, it struck down men-only admission at the Virginia Military Institute, the last all-male public college, founded in 1839. The state had offered a parallel women's programme at another college, and the court called it a pale shadow. The institute's board voted 9 to 8 to admit women rather than go private, mailed 35,000 applications to high-school girls, and enrolled 30 in 1997, of whom 23 survived the first-year hazing.
+Three years later the same reasoning ended Rotary's men-only rule, again 7 to 0, after a California chapter admitted three women in 1977 and lost its charter. Rotary then had nearly 20,000 clubs and 900,000 members in 157 countries, and in 1989 its governing body voted 328 to 117 to strike men-only from its constitution. About a quarter of its members today are women, and the Lions and Kiwanis followed. In 1988 the court upheld a New York City law forcing private clubs with over 400 members and regular meal service to admit women, which ended men-only membership at the New York Athletic Club and the Cosmos Club. In 1996, by 7 to 1, it struck down men-only admission at the Virginia Military Institute, the last all-male public college, founded in 1839. The state had offered a parallel women's programme at another college, and the court called it a pale shadow. The institute's board voted 9 to 8 to admit women rather than go private, mailed 35,000 applications to high-school girls, and enrolled 30 in 1997, of whom 23 survived the first-year hazing.
+
+In 1977 a Princeton sophomore registered for the eating clubs' selection process under her initials with the box for male ticked. She received appointments at all five of the most selective clubs, three of them men-only, and showed up as a woman. She got no bids and filed a civil-rights complaint in 1979. The case ran eleven years and 6,000 pages of record. She graduated, went to law school, passed the bar, and represented herself on her own appeal. Club members printed shirts with her face and a drawn-on moustache. One club settled in 1986. The state supreme court ruled unanimously in 1990 that the clubs were public accommodations tied to the university, the United States Supreme Court declined the case in 1991, and the last holdout elected a woman president in 2015.
+
+Augusta National held out longest. Its chairman wrote in 2002 that women might be invited one day, on the club's timetable and not at the point of a bayonet. Two discrimination suits against companies whose chief executives were members settled for about $79 million, and on 20 August 2012 the club admitted two women out of about 300 members. Yale's secret senior society, founded in 1832, admitted its first women in 1992 after alumni changed the locks on the building and a vote of 368 to 320. The Boy Scouts, founded in 1906, admitted girls in 2018 and 2019 and renamed the whole organisation in 2024. Their membership had fallen from about 6 million in 1972 to about 1 million. They left bankruptcy in 2024 with a $2.46 billion settlement covering more than 80,000 people who reported abuse. The Girl Scouts sued them over the name and stayed girls-only.
 
 <!-- diagram:scouts_fall -->
 <svg viewBox="0 0 680 114" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Boy Scouts membership fell from about 6 million in 1972 to about 1 million" style="max-width:100%;height:auto">
@@ -229,13 +149,9 @@ Three years later the same logic ended Rotary's men-only rule, again 7 to 0, aft
 </svg>
 <!-- /diagram -->
 
-The Princeton case shows the texture of the era. In 1977 a sophomore registered for the eating clubs' selection process under her initials with the box for male ticked, received appointments at all five of the most selective clubs, three of them men-only, and showed up as a woman. She got no bids and filed a civil-rights complaint in 1979. The case ran eleven years and 6,000 pages of record. She graduated, went to law school, passed the bar, and represented herself on her own appeal. Club members printed shirts with her face and a drawn-on moustache. One club settled in 1986. The state supreme court ruled unanimously in 1990 that the clubs were public accommodations tied to the university, the United States Supreme Court declined the case in 1991, and the last holdout elected a woman president in 2015. Augusta National held out longest. Its chairman wrote in 2002 that women might be invited one day, on the club's timetable and not at the point of a bayonet. Two discrimination suits against companies whose chief executives were members settled for about $79 million, and on 20 August 2012 the club admitted two women out of about 300 members. Yale's secret senior society, founded in 1832, admitted its first women in 1992 after alumni changed the locks on the building and a vote of 368 to 320. The Boy Scouts, founded in 1906, admitted girls in 2018 and 2019 and renamed the whole organisation in 2024. Their membership had fallen from about 6 million in 1972 to about 1 million. They left bankruptcy in 2024 with a $2.46 billion settlement covering more than 80,000 people who reported abuse. The Girl Scouts sued them over the name and stayed girls-only.
+## The women-only spaces that stayed legal
 
-### What got built on the other side
-
-- About 30 women's colleges remain women-only. Three all-male four-year colleges remain.
-- A women-only executive club raised $100 million in 2022 at a $1.1 billion valuation, with 20,000 members and a 60,000 waiting list.
-- A women-only coworking club in Manhattan lost its women-only rule to a 2018 complaint and closed in 2022.
+In 1960 the United States had more than 250 women's colleges. About 30 still operate as women-only, and most of the prestigious Seven Sisters remain all-women. The complete list of all-male four-year colleges as of 2026 is three, founded in 1775, 1832, and 1867. Title IX exempts institutions that have always been single-sex, which is why the women's colleges are legal.
 
 <!-- diagram:colleges_left -->
 <svg viewBox="0 0 680 124" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="More than 250 women's colleges in 1960, about 30 today, and three men's colleges" style="max-width:100%;height:auto">
@@ -254,7 +170,7 @@ The Princeton case shows the texture of the era. In 1977 a sophomore registered 
 </svg>
 <!-- /diagram -->
 
-In 1960 the United States had more than 250 women's colleges. About 30 still operate as women-only, and most of the prestigious Seven Sisters remain all-women. The complete list of all-male four-year colleges as of 2026 is three, founded in 1775, 1832, and 1867. Title IX exempts institutions that have always been single-sex, which is why the women's colleges are legal.
+A women-only coworking and social club opened in Manhattan in October 2016 at $2,700 a year, with pink walls and a library of books by women. It raised $2.4 million, then $8 million, then a $32 million round led by a large coworking company. It reached a valuation of $200 to $400 million, with investors and visitors from tennis, football, film, and both houses of Congress. By early 2020 it had 11 locations, 500 staff, over 12,000 members, and a waiting list of 35,000. In August 2018 a man filed a sex-discrimination complaint under the city's human rights law, the same statute used in 1988 against the athletic club, and by September the club had dropped its women-only rule. It did not survive the change. A newspaper investigation into its treatment of hourly staff came in March 2020, the founder resigned in June, members demanded refunds, a majority stake was sold in 2021, and the club closed on 31 August 2022. It was one of the few women-only spaces to get the same treatment as the men's clubs, and most did not.
 
 <!-- diagram:wing_vs_chief -->
 <svg viewBox="0 0 680 162" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The coworking club that lost its women-only rule and the executive club valued at $1.1 billion that kept it" style="max-width:100%;height:auto">
@@ -276,7 +192,9 @@ In 1960 the United States had more than 250 women's colleges. About 30 still ope
 </svg>
 <!-- /diagram -->
 
-The clearest case is a women-only coworking and social club that opened in Manhattan in October 2016 at $2,700 a year, with pink walls and a library of books by women. It raised $2.4 million, then $8 million, then a $32 million round led by a coworking giant. It reached a valuation of $200 to $400 million, with investors and visitors from tennis, football, film, and both houses of Congress. By early 2020 it had 11 locations, 500 staff, over 12,000 members, and a waiting list of 35,000. In August 2018 a man filed a sex-discrimination complaint under the city's human rights law, the same statute used in 1988 against the athletic club, and by September the club had dropped its women-only rule. It did not survive the change. A newspaper investigation into its treatment of hourly staff came in March 2020, the founder resigned in June, members demanded refunds, a majority stake was sold in 2021, and the doors closed on 31 August 2022. This was one of the few women-only spaces to get the same treatment as the men's clubs, and most did not.
+A women-only executive club founded in January 2019 learned from that. Membership runs $5,800 a year for vice presidents and up to $8,900 for chief officers. It raised $22 million in 2019 and $100 million in March 2022 in a round led by a venture arm of Google's parent, at a valuation of $1.1 billion. It has about 20,000 members, a waiting list of 60,000, and five clubhouses. Its corporate partners include Morgan Stanley, IBM, Goldman Sachs, Nike, Pfizer, and Lockheed Martin. A male equivalent with the same model, investors, partners, and valuation exists nowhere in the United States. There is no legal path to building one.
+
+Gyms show the same pattern. A women-only gym chain founded in 1992 peaked in 2006 at over 10,000 locations, 7,848 of them American, shrank to about 367 American franchises by 2019 under budget-gym competition, and is still legal and still opening new locations. Women-only gyms in Boston and New York from the 1970s and 1960s still operate under state carve-outs: a 1998 fitness exemption in Massachusetts, a single-sex exemption in New York's human rights law, and one in Connecticut. No state exemption permits a male-only gym chain, and any attempt would run into the 1984 ruling.
 
 <!-- diagram:gyms -->
 <svg viewBox="0 0 680 124" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The women-only gym chain's locations at its 2006 peak and in 2019" style="max-width:100%;height:auto">
@@ -295,13 +213,9 @@ The clearest case is a women-only coworking and social club that opened in Manha
 </svg>
 <!-- /diagram -->
 
-A women-only executive club founded in January 2019 learned from it. Membership runs $5,800 a year for vice presidents and up to $8,900 for chief officers. It raised $22 million in 2019 and $100 million in March 2022 in a round led by a venture arm of Google's parent, at a valuation of $1.1 billion. It has about 20,000 members, a waiting list of 60,000, and five clubhouses. Its corporate partners include Morgan Stanley, IBM, Goldman Sachs, Nike, Pfizer, and Lockheed Martin. A male equivalent with the same model, investors, partners, and valuation exists nowhere in the United States. There is no legal path to building one. Fitness is sharper still. A women-only gym chain founded in 1992 peaked in 2006 at over 10,000 locations, 7,848 of them American, shrank to about 367 American franchises by 2019 under budget-gym competition, and is still legal and still opening new locations. Women-only gyms in Boston and New York from the 1970s and 1960s still operate under state carve-outs, a 1998 fitness exemption in Massachusetts, a single-sex exemption in New York's human rights law, and one in Connecticut. No state exemption permits a male-only gym chain, and any attempt would meet the 1984 lawsuit.
+## The three reasons the law gives
 
-### Why the carve-outs stop where they do
-
-- Women are 70% to 80% of intimate-partner violence victims, which is the safety case for a women-only shelter.
-- Courts accept women-only gyms as religious accommodation for Muslim and Orthodox Jewish women.
-- A $1.1 billion executive club is not a shelter, and a coworking space is not a place of worship.
+The same laws were not applied to the women's institutions, for three stated reasons. The first is privacy. Locker rooms, fitting rooms, restrooms, and shelters have been single-sex in American law since the nineteenth century, and that protection applies to men in the same settings. The second is domestic violence. Women are 70% to 80% of intimate-partner violence victims and the perpetrators are overwhelmingly men, so a women-only shelter has a safety case a men-only one could not make in court. The third is religion. Courts have held that women-only gyms serve Muslim and Orthodox Jewish women who cannot exercise in mixed company. No equivalent exists for men's gyms.
 
 <!-- diagram:three_rationales -->
 <svg viewBox="0 0 680 200" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The three reasons a women-only space stays legal, and two spaces that fit none of them" style="max-width:100%;height:auto">
@@ -330,15 +244,40 @@ A women-only executive club founded in January 2019 learned from it. Membership 
 </svg>
 <!-- /diagram -->
 
-The legal pressure rolled through every men's institution and stopped at the women's door for three stated reasons. The first is privacy. Locker rooms, fitting rooms, restrooms, and shelters have been single-sex in American law since the nineteenth century. That protection applies to men in the same settings. The second is domestic violence. Women are 70% to 80% of intimate-partner violence victims and the perpetrators are overwhelmingly men, so a women-only shelter has a safety case a men-only one could not make in court. The third is religion. Courts have held that women-only gyms serve Muslim and Orthodox Jewish women who cannot exercise in mixed company. No equivalent exists for men's gyms.
+<!-- diagram:three_rationales -->
+<svg viewBox="0 0 680 200" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The three reasons a women-only space stays legal, and two spaces that fit none of them" style="max-width:100%;height:auto">
+<title>The three reasons a women-only space stays legal, and two spaces that fit none of them</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="rgba(130,130,130,.6)"/></marker></defs>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHY A WOMEN-ONLY SPACE STAYS LEGAL</text>
+<rect x="20" y="24" width="200" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="120.0" y="48.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">privacy</text>
+<text x="120.0" y="62.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">locker rooms, fitting rooms,</text>
+<text x="120.0" y="76.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">restrooms, shelters</text>
+<rect x="240" y="24" width="200" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="340.0" y="48.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">safety</text>
+<text x="340.0" y="62.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">women are 70% to 80% of</text>
+<text x="340.0" y="76.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">intimate-partner violence victims</text>
+<rect x="460" y="24" width="200" height="70" rx="6" fill="rgba(47,158,143,.10)" stroke="#2f9e8f" stroke-opacity=".55"/>
+<text x="560.0" y="48.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">religion</text>
+<text x="560.0" y="62.333333333333336" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">Muslim and Orthodox Jewish women</text>
+<text x="560.0" y="76.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">who cannot exercise in mixed company</text>
+<text x="20" y="124" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">WHAT SITS OUTSIDE ALL THREE</text>
+<rect x="20" y="132" width="310" height="56" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="175.0" y="156.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a $1.1 billion club for vice presidents</text>
+<text x="175.0" y="170.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">is not a shelter</text>
+<rect x="350" y="132" width="310" height="56" rx="6" fill="rgba(91,108,176,.10)" stroke="#5b6cb0" stroke-opacity=".55"/>
+<text x="505.0" y="156.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">a coworking space in the Flatiron</text>
+<text x="505.0" y="170.33333333333334" font-size="10" fill="currentColor" opacity="0.85" text-anchor="middle">does not protect religious observance</text>
+</svg>
+<!-- /diagram -->
 
-Those three reasons do not cover the ecosystem that now operates. A $1.1 billion club for vice presidents at Goldman Sachs is not a shelter. A coworking space in the Flatiron does not protect religious observance. Stripped to its operations, the Manhattan club was an elite networking platform with a sex-restricted door, which is the exact pattern the Jaycees were dismantled for in 1984. The right calls the result a double standard and the left calls it a corrective, and law professors have started calling the landscape asymmetric anti-discrimination. Under federal law, the 1964 Civil Rights Act's public-accommodations title does not reach a private club closed to the public. Title IX carves out fraternities, sororities, the YMCA and YWCA, the Girl Scouts, the renamed Boy Scouts, and some youth groups. That is why fraternities are still men-only and sororities still women-only. The broad male civic infrastructure sat outside those carve-outs, and it was dissolved by court order, integrated under pressure, or starved by decline. Nothing of the same grade replaced it. In 2025 Britain's Supreme Court defined woman by biological sex for its equality law, which is reshaping single-sex spaces there. The American courts have not decided the same question.
+Those three reasons do not cover the set of institutions that now operates. A $1.1 billion club for vice presidents at Goldman Sachs is not a shelter. A coworking space in the Flatiron does not protect religious observance. In its operations the Manhattan club was an elite networking business that admitted only women, which is what the Jaycees were dismantled for in 1984. The right calls the result a double standard and the left calls it a corrective, and law professors have started calling it asymmetric anti-discrimination. Under federal law, the 1964 Civil Rights Act's public-accommodations title does not reach a private club closed to the public. Title IX carves out fraternities, sororities, the YMCA and YWCA, the Girl Scouts, the renamed Boy Scouts, and some youth groups. That is why fraternities are still men-only and sororities still women-only. The broad male civic infrastructure sat outside those carve-outs, and it was dissolved by court order, integrated under pressure, or lost its members. Nothing of the same size replaced it. In 2025 Britain's Supreme Court defined woman by biological sex for its equality law, which is reshaping single-sex spaces there. The American courts have not decided the same question.
 
-### The men in the gap
+The men's institutions were dismantled over about 40 years. They were sued, integrated, defunded, and renamed out of existence. A women-only set of institutions was built over the same period, legal, funded, and unchallenged.
 
-- Men earned 57% of bachelor's degrees in 1970 and 42% in 2021. For every 100 girls held back in kindergarten, 145 boys are.
-- About 98% of men aged 25 to 54 were working or looking in 1954. About 89% are in 2024, and 6.9 million are outside the labour force.
-- The male overdose death rate in 2024 was 32.2 per 100,000 against 14.1 for women.
+## What happened to the men
+
+Men earned 57% of American bachelor's degrees in 1970 and 42% in 2021, the lowest share on record. There are about 2.4 million more women than men in undergraduate programmes, and among 25 to 34 year olds 47% of women hold a degree against 37% of men. The difference starts early. In every major school district boys sit about a full grade behind girls in reading, the twelfth-grade reading gap is about 13 points, boys carry double the ADHD diagnosis rate and double the suspension rate, and for every 100 girls held back in kindergarten, 145 boys are. The number of male teachers is falling as well. Men were 30% of school teachers in 1988 and 23% in 2021, about 11% in elementary schools and under 3% in kindergarten. A scholar who founded an institute for boys and men in 2023 puts the gap down to girls' executive function developing one to two years earlier. He proposes that boys start school a year later. He points to a Michigan programme that paid full state college tuition for one district's graduates. It raised women's degree completion by about 12 points and men's not at all, and programmes in three other states found the same, so whatever holds boys back acts before a cash incentive can reach it.
 
 <!-- diagram:degrees_and_teachers -->
 <svg viewBox="0 0 680 162" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Men's share of degrees and of teachers fell, and 145 boys are held back in kindergarten for every 100 girls" style="max-width:100%;height:auto">
@@ -372,7 +311,7 @@ Those three reasons do not cover the ecosystem that now operates. A $1.1 billion
 </svg>
 <!-- /diagram -->
 
-Men earned 57% of American bachelor's degrees in 1970 and 42% in 2021, the lowest share on record. There are about 2.4 million more women than men in undergraduate programmes, and among 25 to 34 year olds 47% of women hold a degree against 37% of men. The pipeline tilts early. In every major school district boys sit about a full grade behind girls in reading, the twelfth-grade reading gap is about 13 points, boys carry double the ADHD diagnosis rate and double the suspension rate, and for every 100 girls held back in kindergarten, 145 boys are. The men in front of those boys are disappearing too. Men were 30% of school teachers in 1988 and 23% in 2021, about 11% in elementary schools and under 3% in kindergarten. A scholar who founded an institute for boys and men in 2023 puts the gap down to girls' executive function developing one to two years earlier. He proposes that boys start school a year later. His sharpest data point is a Michigan programme that paid full state college tuition for one district's graduates. It raised women's degree completion by about 12 points and men's not at all, and programmes in three other states found the same, so whatever breaks the pipeline for boys breaks before a cash incentive can reach it.
+Male employment has been falling for seventy years. In 1954 about 98% of men aged 25 to 54 were working or looking for work. In 2024 it is about 89%. One in 35 prime-age men was out of the labour force in 1960 and one in nine in 2023, about 6.9 million men, of whom 81% to 87% have no degree. Manufacturing jobs peaked at 19.6 million in June 1979 and fell to 11.5 million by February 2010, with 3.4 million of them lost between 2001 and 2007 after China got permanent normal trade status, and economists put the net cost of that shock at about 2.4 million jobs. The median male wage was $19.53 an hour in 1979 and $18.03 in 2012 in the same dollars, down 7.6% while productivity rose nearly 70%. Men with only a high-school diploma lost about 14%, and men with less lost more than 24%.
 
 <!-- diagram:labor_force -->
 <svg viewBox="0 0 680 160" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Prime-age male participation fell from 98% to 89%, and one in nine prime-age men is outside the labour force" style="max-width:100%;height:auto">
@@ -398,7 +337,7 @@ Men earned 57% of American bachelor's degrees in 1970 and 42% in 2021, the lowes
 </svg>
 <!-- /diagram -->
 
-The men then arrive in a labour market that has been shedding them for seventy years. In 1954 about 98% of men aged 25 to 54 were working or looking for work. In 2024 it is about 89%. One in 35 prime-age men was out of the labour force in 1960 and one in nine in 2023, about 6.9 million men, of whom 81% to 87% have no degree. Manufacturing jobs peaked at 19.6 million in June 1979 and fell to 11.5 million by February 2010, with 3.4 million of them lost between 2001 and 2007 after China got permanent normal trade status, and economists put the net cost of that shock at about 2.4 million jobs. The median male wage was $19.53 an hour in 1979 and $18.03 in 2012 in the same dollars, down 7.6% while productivity rose nearly 70%. Men with only a high-school diploma lost about 14%, and men with less lost more than 24%.
+A 2017 study found nearly half of prime-age men out of the labour force taking pain medication daily, two-thirds of them opioids. In 2024 the male overdose death rate was 32.2 per 100,000 against 14.1 for women, and men are about 71% of opioid deaths. From 1995 on, male labour-force participation and male overdose deaths move together closely. The two economists who coined the phrase deaths of despair in 2015 found that mortality among middle-aged white Americans had stopped falling and reversed, alone among rich countries, concentrated in men without a degree.
 
 <!-- diagram:wages_and_overdose -->
 <svg viewBox="0 0 680 162" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The median male wage fell, manufacturing jobs fell by 8 million, and men die of overdoses at more than twice the female rate" style="max-width:100%;height:auto">
@@ -432,7 +371,7 @@ The men then arrive in a labour market that has been shedding them for seventy y
 </svg>
 <!-- /diagram -->
 
-The wages connect to the deaths. A 2017 study found nearly half of prime-age men out of the labour force taking pain medication daily, two-thirds of them opioids. In 2024 the male overdose death rate was 32.2 per 100,000 against 14.1 for women, and men are about 71% of opioid deaths. From 1995 on, male labour-force participation and male overdose deaths track each other almost line for line. The two economists who coined the phrase deaths of despair in 2015 found that mortality among middle-aged white Americans had stopped falling and reversed, alone among rich countries, concentrated in men without a degree.
+In July 2022, 63% of American men aged 18 to 29 said they were single against 34% of women, a 29-point gap. Another survey puts the true gap nearer 10 points, and every dataset agrees on the direction. The median age at first marriage was 23.2 for men and 20.8 for women in 1970 and 30.5 and 28.6 in 2024. The share of working-class men under 40 who have never married went from about 25% in 1980 to about 50% in 2018. Their children are mostly raised by mothers who never married them, and about 80% of custodial parents are mothers. Between 2019 and 2022 the share of single men looking for a relationship or a date fell from 61% to 50%, while single women went from 38% to 35%. About 30% of men aged 18 to 29 reported no sex in the past year, the highest in over thirty years of data, and regular pornography use among men that age runs at 76% to 87% across four rich countries.
 
 <!-- diagram:single_and_marriage -->
 <svg viewBox="0 0 680 206" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="63% of young men are single against 34% of young women, and half of working-class men under 40 have never married" style="max-width:100%;height:auto">
@@ -471,7 +410,35 @@ The wages connect to the deaths. A 2017 study found nearly half of prime-age men
 </svg>
 <!-- /diagram -->
 
-Private life follows the same line. In July 2022, 63% of American men aged 18 to 29 said they were single against 34% of women, a 29-point gap. Another survey puts the true gap nearer 10 points, and every dataset agrees on the direction. The median age at first marriage was 23.2 for men and 20.8 for women in 1970 and 30.5 and 28.6 in 2024. The share of working-class men under 40 who have never married went from about 25% in 1980 to about 50% in 2018. Their children are mostly raised by mothers who never married them, and about 80% of custodial parents are mothers. Between 2019 and 2022 the share of single men looking for a relationship or a date fell from 61% to 50%, while single women went from 38% to 35%. About 30% of men aged 18 to 29 reported no sex in the past year, the highest in over thirty years of data, and regular pornography use among men that age runs at 76% to 87% across four rich countries.
+The friendship figures come from a 2021 survey that repeated a 1990 survey word for word. That is the source of the fall from 55% to 27% with six close friends, and of the rise from 3% to 15% with none. A 2023 survey with different wording found about 9% of men and 8% of women with no close friends, so the level is disputed and the direction is not.
+
+<!-- diagram:friends_collapse -->
+<svg viewBox="0 0 680 188" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Men with six or more close friends fell from 55% to 27%, and men with none rose from 3% to 15%" style="max-width:100%;height:auto">
+<title>Men with six or more close friends fell from 55% to 27%, and men with none rose from 3% to 15%</title>
+<text x="20" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">MEN WITH SIX OR MORE CLOSE FRIENDS</text>
+<line x1="20.0" y1="124.0" x2="300.0" y2="124.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M40.0,44.5 L280.0,85.0" fill="none" stroke="#5b6cb0" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40.0" cy="44.5" r="5" fill="#5b6cb0"/>
+<text x="40" y="34.46153846153847" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">55%</text>
+<circle cx="280.0" cy="85.0" r="5" fill="#5b6cb0"/>
+<text x="280" y="74.95384615384614" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">27%</text>
+<text x="40" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1990</text>
+<text x="280" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2021</text>
+<text x="360" y="14" font-size="9.5" fill="currentColor" opacity="0.45" text-anchor="start" font-weight="700" letter-spacing=".09em">MEN WITH NO CLOSE FRIENDS</text>
+<line x1="360.0" y1="124.0" x2="640.0" y2="124.0" stroke="rgba(130,130,130,.35)" stroke-width="1"/>
+<path d="M380.0,109.9 L620.0,53.5" fill="none" stroke="#5b6cb0" stroke-width="2" stroke-opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="380.0" cy="109.9" r="5" fill="#5b6cb0"/>
+<text x="380" y="99.9" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">3%</text>
+<circle cx="620.0" cy="53.5" r="5" fill="#5b6cb0"/>
+<text x="620" y="43.5" font-size="10.5" fill="currentColor" opacity="0.9" text-anchor="middle">15%</text>
+<text x="380" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">1990</text>
+<text x="620" y="138" font-size="10" fill="currentColor" opacity="0.6" text-anchor="middle">2021</text>
+<text x="20" y="160" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">A 2021 survey repeated the 1990 wording.</text>
+<text x="20" y="176" font-size="10.5" fill="currentColor" opacity="0.78" text-anchor="start">A 2023 survey with different wording found about 9% of men and 8% of women with no close friends.</text>
+</svg>
+<!-- /diagram -->
+
+Male isolation differs from female isolation in who provides the support. In 2025, 85% of men said their spouse was their main source of emotional support against 72% of women. A man puts almost everything into one relationship, and when it ends through divorce or death, or never starts, the whole network goes at once. Single, divorced, and widowed men score highest on every measure of severe isolation. In a 2023 survey 44% of American men said they had thought of suicide in the previous two weeks, and 65% of men aged 18 to 23 agreed that nobody really knows them well.
 
 <!-- diagram:support_and_suicide -->
 <svg viewBox="0 0 680 108" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="85% of men rely on a spouse for emotional support, and 44% reported thoughts of suicide in a two-week window" style="max-width:100%;height:auto">
@@ -494,13 +461,9 @@ Private life follows the same line. In July 2022, 63% of American men aged 18 to
 </svg>
 <!-- /diagram -->
 
-The friendship figures come from a 2021 survey that repeated a 1990 survey word for word. That is where the fall from 55% to 27% with six close friends comes from. A 2023 survey with different wording found about 9% of men and 8% of women with no close friends, so the level is disputed and the direction is not. What makes male isolation different is where the support sits. In 2025, 85% of men said their spouse was their main source of emotional support against 72% of women. A man funnels almost everything into one relationship, and when it ends, through divorce, death, or never starting, the whole network goes at once. Single, divorced, and widowed men score highest on every measure of severe isolation. In a 2023 survey 44% of American men said they had thought of suicide in the previous two weeks, and 65% of men aged 18 to 23 agreed that nobody really knows them well.
+## How the politics moved
 
-### The politics, here and abroad
-
-- Men aged 18 to 29 broke about 56% for the Republican in 2024. Women the same age went about 60% for the Democrat.
-- In South Korea's 2022 election the winner took 59% of men in their twenties and 34% of women.
-- Japan has about 1.5 million people who do not leave home for months or years, and a fertility rate of 1.2.
+In November 2024 men aged 18 to 29 broke for the Republican by about 56% to 57%, a swing of about 16 points from 2020, and women the same age went about 60% for the Democrat. The gender gap inside that age group grew from 17 points in 2020 to 31 in 2024. South Korea reached the same split earlier. Its 2022 presidential election was won by 0.7 points by a candidate who promised to abolish the gender equality ministry. He took 59% of men aged 18 to 29 against 34% of women, the largest gap of any age group. A 2021 survey found 66% of Korean men in their twenties could not accept a feminist as a neighbour, colleague, friend, or relative. Korea's fertility fell to 0.78 in 2023 and 0.72 to 0.74 in 2024, the lowest in the world, a national population emergency was declared in 2024, and more than half the population is projected to be 65 or older by 2065. The women's answer, called 4B, began around 2016 after a murder in a Seoul subway bathroom and surged in American searches after the November 2024 election. Japan has about 1.5 million people who do not leave home for months or years. It has a named category of men who withdrew from dating, marriage, and careers, and a fertility rate of 1.2.
 
 <!-- diagram:korea_vote -->
 <svg viewBox="0 0 680 124" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Young men and women split 59 to 34 in Korea's 2022 election and about 56 to 60 the other way in America's 2024 election" style="max-width:100%;height:auto">
@@ -524,7 +487,7 @@ The friendship figures come from a 2021 survey that repeated a 1990 survey word 
 </svg>
 <!-- /diagram -->
 
-In November 2024 men aged 18 to 29 broke for the Republican by about 56% to 57%, a swing of about 16 points from 2020, and women the same age went about 60% for the Democrat. The gender gap inside that age group grew from 17 points in 2020 to 31 in 2024. South Korea got there first. Its 2022 presidential election was won by 0.7 points by a candidate who promised to abolish the gender equality ministry. He took 59% of men aged 18 to 29 against 34% of women, the largest gap of any age group. A 2021 survey found 66% of Korean men in their twenties could not accept a feminist as a neighbour, colleague, friend, or relative. Korea's fertility fell to 0.78 in 2023 and 0.72 to 0.74 in 2024, the lowest in the world, a national population emergency was declared in 2024, and more than half the population is projected to be 65 or older by 2065. The women's answer, called 4B, began around 2016 after a murder in a Seoul subway bathroom and surged in American searches after the November 2024 election. Japan has about 1.5 million people who do not leave home for months or years. It has a named category of men who withdrew from dating, marriage, and careers, and a fertility rate of 1.2.
+Two male responses have grown. The first is the manosphere, a network of podcasts, channels, servers, and forums organised around male grievance. It tells isolated men directly, as mainstream institutions did not, that the dating market is broken, the schools punish them, the family courts disadvantage them, and the labour market treats them badly. Some of that survives scrutiny, some distorts the data, and some is false. Its followers show more homophobia, more support for authoritarian talk, and a large overlap with gun culture. The second is the performative male: feminist slogans on a tote bag, a visible feminist book, a self-deprecating joke about masculinity at every gathering. Critics, and by their account women, read that as a mating strategy rather than a belief. Most men are neither, and they stop taking part.
 
 <!-- diagram:two_responses -->
 <svg viewBox="0 0 680 146" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The two visible male responses, the manosphere and the performative male" style="max-width:100%;height:auto">
@@ -545,13 +508,9 @@ In November 2024 men aged 18 to 29 broke for the Republican by about 56% to 57%,
 </svg>
 <!-- /diagram -->
 
-Two visible male responses have grown in the gap. The first is the manosphere, a network of podcasts, channels, servers, and forums organised around male grievance. It does what mainstream institutions refused to do and tells isolated men, head on, that the dating market is broken, the schools punish them, the family courts disadvantage them, and the labour market grinds them down. Some of that survives scrutiny, some distorts the data, and some is false. Its followers show more homophobia, more support for authoritarian talk, and a large overlap with gun culture. The second is the performative male, feminist slogans on a tote bag, a visible feminist book, a self-deprecating joke about masculinity at every gathering, which critics and, by their account, women have learned to read as a mating strategy rather than a belief. The majority of men in the middle are neither, and they stop participating.
+## What is being built now
 
-### What is being rebuilt
-
-- There are about 3,000 men's sheds across 12 countries, more than 1,200 of them in Australia.
-- A free dawn-workout network for men reports over 50,000 participants at more than 3,500 American sites.
-- About 40,000 American men a year die by suicide and about 32,000 by overdose. Loneliness costs over $406 billion a year.
+The most successful rebuild by almost every measure is the men's shed, which started in Australia in the early 1990s as a community health project. A nonprofit owns or rents a building stocked with woodworking and metal tools and a kitchen. Older, retired, unemployed, divorced, and widowed men show up, build things, talk while they build, have a coffee, and go home. There are more than 1,200 sheds in Australia, over 450 in Ireland, and about 3,000 across 12 countries by 2026. Study after study finds lower loneliness and depression scores among regulars. The format works because men talk more easily side by side over a shared task than face to face about feelings, and a workshop is side by side by design. An American network founded in Charlotte in 2011 runs free dawn workouts in parks for men, volunteer-led, and reports over 50,000 participants at more than 3,500 sites. Friendship is a side effect of both. Both share with the old lodges purpose, repetition, presence, mentorship across generations, and local roots. They have no app, no subscription, and no venture capital. They are also small. Three thousand sheds is very little next to the membership the Masons had in 1950.
 
 <!-- diagram:rebuild_scale -->
 <svg viewBox="0 0 680 124" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The men's sheds and the dawn-workout network against the four million Freemasons of the 1950s" style="max-width:100%;height:auto">
@@ -570,7 +529,9 @@ Two visible male responses have grown in the gap. The first is the manosphere, a
 </svg>
 <!-- /diagram -->
 
-The most successful rebuild by almost every measure is the men's shed, which started in Australia in the early 1990s as a community health project. A nonprofit owns or rents a building stocked with woodworking and metal tools and a kitchen. Older, retired, unemployed, divorced, and widowed men show up, build things, talk while they build, have a coffee, and go home. There are more than 1,200 sheds in Australia, over 450 in Ireland, and about 3,000 across 12 countries by 2026. Study after study finds lower loneliness and depression scores among regulars. The format works because men socialise shoulder to shoulder through a shared task rather than face to face through disclosure. A workshop is shoulder to shoulder by design. An American network founded in Charlotte in 2011 runs free dawn workouts in parks for men, volunteer-led, with friendship as the side effect, and reports over 50,000 participants at more than 3,500 sites. Both share with the old lodges purpose, repetition, presence, mentorship across generations, and local roots. They have no app, no subscription, and no venture capital. They lack scale. Three thousand sheds is a rounding error next to what the Masons had in 1950.
+## The three paths ahead
+
+Three paths lie ahead. In the pessimistic one, where most of the academic literature sits, women keep their suspicion of male-only groups, men resent protected women's spaces, grievance networks turn isolation into resentment, politicians use the crisis for show, the dating market divides further, fertility falls, and the deaths of despair hold or rise. In the optimistic one the country builds a civic infrastructure for men without stigma, the way it built one for women between about 1965 and 2000. That means boys starting school a year later and male teachers recruited. It means sheds and dawn-workout networks funded the way community centres once were. It means the earned income tax credit expanded for men without degrees and men recruited into health, teaching, and care. It means young male loneliness treated as a public health crisis with the seriousness the country brought to AIDS in the 1990s. In 2025 California's governor signed an executive order on boys' and men's mental health and schooling, the first such signal to cross party lines without becoming a partisan attack. The realistic path sits between them. Men's status clubs keep shrinking or integrating. Women-only spaces tied to safety, privacy, trauma, and advancement keep their legitimacy and their statutory protection. Male spaces survive only when they justify themselves as health, fatherhood, mentorship, faith, service, recovery, sport, or craft. Exclusion on its own will not be enough, and a club that admits only men and gives no other reason is not coming back.
 
 <!-- diagram:three_projections -->
 <svg viewBox="0 0 680 174" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The pessimistic, optimistic, and realistic paths" style="max-width:100%;height:auto">
@@ -599,7 +560,9 @@ The most successful rebuild by almost every measure is the men's shed, which sta
 </svg>
 <!-- /diagram -->
 
-Three paths lie ahead. The pessimistic one, where most of the academic literature sits, has women keeping their suspicion of male-only groups, men resenting protected women's spaces, grievance ecosystems converting isolation into resentment, politicians using the crisis for show, dating fracturing further, fertility falling, and the deaths of despair holding or rising. The optimistic one has the country building a civic infrastructure for men without stigma, the way it built one for women between about 1965 and 2000. That means boys starting school a year later and male teachers recruited. It means sheds and dawn-workout networks funded the way community centres once were. It means the earned income tax credit expanded for men without degrees and men recruited into health, teaching, and care. It means young male loneliness treated as a public health crisis with the seriousness the country brought to AIDS in the 1990s. In 2025 California's governor signed an executive order on boys' and men's mental health and schooling, the first such signal to cross party lines without being turned into a weapon. The realistic path sits between them. Men's status clubs keep shrinking or integrating. Women-only spaces tied to safety, privacy, trauma, and advancement keep their legitimacy and their statutory protection. Male spaces survive only when they justify themselves as health, fatherhood, mentorship, faith, service, recovery, sport, or craft. Bare exclusion will not be enough, and the leather-chair club with its blackball ballot is not coming back.
+## What building nothing costs
+
+The cost of building nothing can already be counted. About 40,000 American men a year die by suicide and about 32,000 by overdose. In 2023 almost 39,000 American men killed themselves, one every 14 minutes, and almost 80% of American suicides are male. About 6.9 million prime-age men sit outside the labour force. Tens of millions are unpartnered and about 15% have no close friend. Single-person households went from 13% of American households in 1960 to 29% in 2022. The average American now spends about 333 minutes a day alone, up from 285 in 2003, and in-person time with friends fell from about 60 minutes a day to about 20. The Surgeon General's 2023 advisory put chronic loneliness at about the mortality risk of 15 cigarettes a day, above obesity, air pollution, and inactivity, and put the economic burden above $406 billion a year in lost productivity, healthcare, and absence.
 
 <!-- diagram:alone_time -->
 <svg viewBox="0 0 680 162" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Minutes alone rose, minutes with friends fell by two-thirds, and single-person households more than doubled" style="max-width:100%;height:auto">
@@ -635,26 +598,33 @@ Three paths lie ahead. The pessimistic one, where most of the academic literatur
 </svg>
 <!-- /diagram -->
 
-The cost of building nothing is already on the table. About 40,000 American men a year die by suicide and about 32,000 by overdose. About 6.9 million prime-age men sit outside the labour force. Tens of millions are unpartnered and about 15% have no close friend. The Surgeon General's estimate puts the economic burden of loneliness above $406 billion a year in lost productivity, healthcare, and absence. Neither side comes out clean. The men's clubs were exclusionary too. The women's spaces were built for reasons some valid and some not. The judges and legislators who built the asymmetry were mostly balancing access against privacy, safety, and past disadvantage in good faith. Measured by what happened, the balance slipped past where almost anyone wanted it. The men who spent Tuesday nights at the lodge or the union hall are not at the women's clubhouse. They are at home, alone, on their phones, dying before 60. The country took the doors off the building and forgot to build a new one, and it has perhaps ten years before the consequences set as hard as they have in South Korea.
+The men's clubs excluded women. Some of the women's spaces were built for reasons that hold and some were not. The judges and legislators who built the asymmetry were mostly balancing access against privacy, safety, and past disadvantage in good faith. Measured by what happened, the balance went further than almost anyone wanted. The men who spent Tuesday nights at the lodge or the union hall are not at the women's clubhouse. They are at home, alone, with their phones, and many die before 60. The country took away the men's institutions and did not build replacements, and it has perhaps ten years before the consequences become as fixed as they are in South Korea.
 
-## Sources and links
+## How to practice this
 
-### Links into the knowledge base
+1. Write down everyone you would go to for emotional support. Count the names. One name means the whole network rests on one relationship.
+2. Count the friends you would call close. In 1990 most men had at least six.
+3. Arrange to see a friend around a task rather than a conversation. Notice whether you talk more with your hands busy.
+4. Find a men's shed or a free dawn workout near you and go once. Notice whether anyone asked you to talk about feelings.
+5. List the clubs and groups you belong to. Check whether each one could justify itself as health, faith, service, sport, or craft.
+6. Add up the hours you spent alone last week. Compare them with the hours you spent with friends in person.
 
-- [[wiki/Worldviews & the Political Order/The Gen Z Gender War - The Split|The Gen Z Gender War - The Split]] — the same young men and women measured on politics, dating, and debt. This page is the institutional half: what men lost and what women built.
-- [[wiki/Concepts/Dating Apps - The Gini Coefficient|Dating Apps - The Gini Coefficient]] — the dating market in numbers: half the likes women send go to the top 15% of men.
-- [[wiki/Worldviews & the Political Order/The Civil Rights Act - Freedom of Association|The Civil Rights Act - Freedom of Association]] — what everyone gave up when refusing to serve a person became illegal. The 1984 ruling on this page is that trade applied to a men's club.
-- [[wiki/Worldviews & the Political Order/Schooling - The Format Filter|Schooling - The Format Filter]] — a school day built around sitting still suited girls and failed boys. The reading gap and the kindergarten hold-backs here are that filter measured.
-- [[wiki/Worldviews & the Political Order/The Woke Mind Virus|The Woke Mind Virus]] — young men's mental health by politics, beside the suicide and overdose figures here.
+## Related pages
 
-### Open questions
+- [[wiki/Worldviews & the Political Order/The Gen Z Gender War - The Split|The Gen Z Gender War - The Split]] holds the same young men and women measured on politics, dating, and debt. This page is the institutional half: what men lost and what women built.
+- [[wiki/Concepts/Dating Apps - The Gini Coefficient|Dating Apps - The Gini Coefficient]] holds the dating market in numbers: half the likes women send go to the top 15% of men.
+- [[wiki/Worldviews & the Political Order/The Civil Rights Act - Freedom of Association|The Civil Rights Act - Freedom of Association]] holds what everyone gave up when refusing to serve a person became illegal. The 1984 ruling on this page is that trade applied to a men's club.
+- [[wiki/Worldviews & the Political Order/Schooling - The Format Filter|Schooling - The Format Filter]] holds a school day built around sitting still, which suited girls and failed boys. The reading gap and the kindergarten hold-backs here are that filter measured.
+- [[wiki/Worldviews & the Political Order/The Woke Mind Virus|The Woke Mind Virus]] holds young men's mental health by politics, beside the suicide and overdose figures here.
+
+## Open questions
 
 - The Manhattan club was closed by the same statute that closed the athletic club. Why has no one brought the same complaint against the executive club with the $1.1 billion valuation?
 - The two friendship surveys disagree by a factor of five on the share of men with no friends. Which wording is closer to what a man means by a close friend?
-- The sheds work shoulder to shoulder. Is that the whole reason the lodges worked, or was the insurance the reason men showed up every week?
+- The sheds work side by side. Is that the whole reason the lodges worked, or was the insurance the reason men showed up every week?
 - Korea declared a population emergency and its fertility kept falling. What did its men-only and women-only spaces look like in 2010, before the split?
 
-### Sources
+## Sources
 
 - Front Page, *The Hypocrisy Of Male VS Women Spaces* (YouTube, published 2026-07-30, 47 minutes). <https://www.youtube.com/watch?v=Kcy9rQjMglU>. Read from YouTube's auto-generated captions. Personal names in the captions are not relied on. Two sponsor segments, a budgeting app and a bank, are excluded.
 - Where the video says its figures come from: an 1897 count in the North American Review; a Harvard political scientist's book on civic decline; the Supreme Court cases of 1984, 1987, 1988, and 1996 and the New Jersey Supreme Court case of 1990; the 2023 Surgeon General advisory on loneliness; a 2021 Survey Center on American Life replication of a 1990 Gallup friendship survey and a 2023 Pew study; Pew surveys of 2022, 2023, and 2025; the Bureau of Justice Statistics; the Economic Policy Institute on wages; a 2017 Brookings study on pain medication; the 2015 paper and 2020 book on deaths of despair; a 2021 Journal of Marriage and Family paper; the Equimundo 2023 and 2025 State of American Men reports; exit polls and youth vote analyses for 2024; a 2021 Korean survey; the Australian, Irish, and international men's shed associations; F3 Nation's 2024 count.

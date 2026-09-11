@@ -176,7 +176,7 @@ Warning signs of the theft loop:
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]] — the awareness layer required to detect when autopilot has taken over; metacognition is what right-angle turns restore
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — the same passivity distinction applied to information intake; scrolling is the consumption-without-processing mode
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — desensitisation as a cognitive load effect: the brain routes around persistent alarm by treating it as background noise
-- [[wiki/Dimensions/Self-Regulation/Opening the Black Box of Learning|Opening the Black Box of Learning]] — the diagnostic posture toward experience: when a session ends without memory, open the process and identify what prevented encoding
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|Opening the Black Box of Learning]] — the diagnostic posture toward experience: when a session ends without memory, open the process and identify what prevented encoding
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — the intentional-over-habitual distinction runs through both the time-theft mechanism and its repair
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — the chatbot addendum is directly relevant: AI tools designed with curvilinear conversation mechanics replicate the same awareness and memory impairment
 - [[raw/private/ICS/Maintaining focus - Ascent I|Maintaining Focus (ICS)]] — intention setting and ritualisation as the named practices for engineering right-angle turns before a session begins

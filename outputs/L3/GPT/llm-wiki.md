@@ -77,12 +77,12 @@ The human role is to curate sources and decide what matters. The LLM role is to 
 
 ## Links Into the Knowledge Base
 
-- [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems]]
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]
 - [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]]
 - [[wiki/Workflows/Question Answering Against a Wiki|Question Answering Against a Wiki]]
 - [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]
-- [[wiki/Workflows/Wiki Status Checks|Wiki Status Checks]]
-- [[wiki/Workflows/Wiki Breakdown Pass|Wiki Breakdown Pass]]
+- [[wiki/Workflows/Wiki Health Checks|Wiki Status Checks]]
+- [[wiki/Workflows/Wiki Health Checks|Wiki Breakdown Pass]]
 
 ## Open Questions
 

@@ -3,7 +3,9 @@ title: "Social Media - Curvilinear Design & the Theft of Time"
 type: concept
 status: developing
 created: 2026-05-21
-updated: 2026-08-14
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: fable
 written-by: grok
 model: grok
 source-count: 7
@@ -19,73 +21,84 @@ tags:
 
 # Social Media - Curvilinear Design & the Theft of Time
 
-A feed has no chapter end, last page, or closing time. Continuation never has to be chosen, so an hour leaves nothing the day can file as an event. Any feed, app, chatbot, or recommendation engine produces the same effect once it starts to feel pleasant, endless, and strangely forgettable.
+A feed has no chapter end, no last page, and no closing time. Because there is no end, the person using it never has to decide whether to continue. An hour spent this way leaves almost no distinct memories, so the day has nothing to file as an event. Any feed, app, chatbot, or recommendation engine produces this effect once it starts to feel pleasant, endless, and hard to remember afterward.
 
-Curvilinear design is the name for that path: no corners, no endings, so whether to continue never has to be chosen.
+Curvilinear design is the name for a path with no corners and no endings. On such a path, whether to continue never has to be chosen.
 
-## Why a feed compresses time
+## Core takeaways
 
-The loop is a chain, not a slogan. Smooth continuation removes decision points. Fewer decision points weaken present awareness. Inputs arrive fragmented. No coherent story forms. Memory traces stay weak. Time disappears while the session is happening, and it disappears again afterward because there is almost nothing to retrieve.
+- A feed has no chapter end, last page, or closing time, so continuing never has to be chosen.
+- A period feels longer afterward when it holds many distinct memories. A feed session leaves few, so the hour is missing from the remembered day.
+- Casino floors avoid right-angle turns because a corner makes a walker aware, and an aware walker may leave. Infinite scroll and autoplay removed the ends that served as corners in early feeds.
+- Time that passes quickly is rated as time that was enjoyable, so the lost hour is filed as a good hour and is not regretted.
+- Notifications cut the day into pieces, and feeds are opened in the unplanned gaps between tasks. Continuity is lost as well as minutes.
+- The repair is a corner put back: open with a purpose, decide the next move in advance, set a hard ending, choose activities with a beginning, middle, and end, and leave evidence of the time.
 
-Experienced life depends partly on memory density. A period feels longer in retrospect when it contains more distinct, retrievable memories. A holiday feels fast while it is happening, because attention is engaged, and long afterward, because it left many anchors. Humans remember time by turning it into stories, routes, choices, surprises, and emotionally weighted episodes. Emplotment is that turning: a stretch of time becomes a story with sequence and cause.
+## How a feed makes an hour disappear
 
-A feed session inverts the holiday. It can feel fast while it is happening and almost nonexistent afterward, because it leaves so few anchors. Present awareness drops because the interface removes stopping points. Retrospective memory weakens because the content resists narrative structure. Both sides run at once.
+The steps form a chain. Smooth continuation removes decision points. Fewer decision points weaken present awareness. Inputs arrive fragmented. No coherent story forms. Memory traces stay weak. The person does not notice time passing during the session. Afterward the session is nearly absent from memory, because there is almost nothing to retrieve.
 
-## The maze
+How long a period feels afterward depends partly on memory density. A period feels longer in retrospect when it contains more distinct, retrievable memories. A holiday feels fast while it is happening, because attention is engaged. The same holiday feels long afterward, because it left many anchors. Humans remember time by turning it into stories, routes, choices, surprises, and emotionally weighted episodes. Emplotment is the name for that turning: a stretch of time becomes a story with a sequence and causes.
 
-Casino floors are laid out with as few right-angle turns as possible. A sharp bend jolts a pedestrian into awareness, and a person who has just become aware may head for the exit. A curvilinear path has no corners, no beginning, and no end. That is design intent, not a psychology experiment. The portable piece is the right-angle turn: a forced decision point that brings attention back.
+A feed session differs from a holiday on both counts. It feels fast while it is happening, and afterward it is almost absent from memory, because it left so few anchors. Present awareness drops because the interface removes stopping points. Retrospective memory weakens because the content has no narrative structure. Both effects run at the same time.
 
-Retail mazes use a related disorientation — the whole layout hidden, impulse arriving after the shopper can no longer see the door. Casino cubicles hide the floor and manufacture missing-out from nearby cheers. Both stay light here. The digital translation is the load-bearing one.
+## Casino floors and the right-angle turn
 
-Early feeds had ends. An end acted like a right-angle turn. Infinite scroll and autoplay removed the end, and the feed became curvilinear. Autoplay, recommendations, notifications, unrelated links, and algorithmic novelty keep the hand moving before the mind chooses. A right-angle turn creates awareness because it requires a decision. A feed removes those turns so continuation happens before the mind fully re-enters.
+Casino floors are laid out with as few right-angle turns as possible. A sharp bend makes a pedestrian aware of their surroundings, and a person who has just become aware may head for the exit. A curvilinear path has no corners, no beginning, and no end. Casino designers chose this layout on purpose. The part that transfers to feeds is the right-angle turn: a forced decision point that brings attention back.
 
-The theft is practical. The number of moments that ask "what am I doing?" goes down.
+Retail mazes use a related method. The whole layout is hidden, so the impulse to buy arrives after the shopper can no longer see the door. Casino cubicles hide the floor, and cheers from nearby tables make the player feel they are missing something.
 
-## Why the theft is invisible and unregretted
+Early feeds had ends. An end worked like a right-angle turn. Infinite scroll and autoplay removed the end, and the feed became curvilinear. Autoplay, recommendations, notifications, unrelated links, and algorithmic novelty start the next item before the user has decided to continue. A right-angle turn creates awareness because it requires a decision. A feed removes those turns, so continuation happens before attention has fully returned.
 
-The mechanism that would detect the theft is memory, and memory is the first thing disabled. Fast-passing time is also mistaken for enjoyment. A session that flew is read as a session that was fun, so the hour is not only missing from the remembered day. It is filed as a good hour. That is why the theft is invisible and unregretted.
+The result is that the number of moments that ask "what am I doing?" goes down.
 
-This is a claim about time and memory, not about mood, puberty, or biological aging. Those wings stay off.
+## Why the lost hour is not noticed or regretted
 
-## Story, spikes, cuts, chatbots
+A person would notice the lost hour by remembering it. The session leaves weak memories, so there is little to remember. Time that passes quickly is also read as time that was enjoyable. A session that went by fast is rated as a session that was fun. So the hour is missing from the remembered day, and it is also filed as a good hour. For both reasons the lost hour is not noticed and not regretted.
 
-A story is a route through time. A feed is a chronological maze: one post has little relationship to the next. Beginning, middle, and end do not form. No causal chain holds. No stable emotional arc lasts long enough to be a story. Emplotment collapses, and memory collapses with it. A book in a windstorm is the image: pages, no plot. The plot of a book from years ago can still be told. Yesterday's scroll often cannot.
+The claim concerns time and memory. It does not concern mood, puberty, or biological aging.
 
-The Lethe effect is a metaphor for habituation, not a neuroscience claim. Each post tries to spike attention. When every post spikes, spikes become routine. The brain adapts. What should have been memorable becomes background. High stimulation, low awareness, high emotional switching, low memory, high time loss, low life density.
+## Stories, spikes, notifications, and chatbots
 
-Notifications puncture the day. A real-world task is running, a cue arrives, attention enters the feed partway, residue stays when the task resumes, another cue arrives, and the day becomes intercut. The cost is continuity, not only minutes. A day can be technically full and still feel thin if attention never settles long enough to form a coherent route. [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management]] owns feeds as day-fragmentation machines, not merely in-block distractions.
+Call a stretch of time with a beginning, a middle, and an end a route. A story is a route. Call a stretch where one item has little relationship to the next a maze. A feed is a maze in time: one post has little relationship to the next. No beginning, middle, or end forms. No causal chain holds. No emotional arc lasts long enough to become a story. Emplotment fails, and memory fails with it. A person can usually retell the plot of a book read years ago. The same person often cannot retell yesterday's scroll.
 
-Feeds enter through unclear transitions: after a task, before the next, during uncertainty, while waiting, when the next action has not been pre-decided. The feed is the instant default. [[wiki/Decision Making/Decisional Delays|Decisional Delays]] owns that unplanned gap. The repair script is an implementation intention: when X is done, move to Y. If Y is blocked, Z. If a break is needed, a defined break.
+The Lethe effect is the name for habituation to the feed. The name is a metaphor, not a neuroscience claim. Each post tries to spike attention. When every post spikes attention, the spikes become routine, and the brain adapts. Content that should have been memorable becomes background. Stimulation is high. Awareness is low. Emotional switching is frequent. Memory is weak. Time loss is high. Life density is low.
 
-A chatbot becomes a time maze when it is verbose, ends every answer with another invitation, validates weak frames, creates tangents, and lets synthesis be consumed without a model being formed. Conversational infinite scroll is the class. Dated product leaks about unsolicited re-entry will date. The class will not.
+A notification interrupts a task. The task is running, a cue arrives, attention enters the feed partway, some of that attention stays behind when the task resumes, and then another cue arrives. The day is cut into pieces. Minutes are lost, and continuity is lost as well. A day can be full of tasks and still leave few memories if attention never stays in one place long enough to form a sequence. The page [[wiki/Self Management/Flow State|Attention Management]] covers feeds as machines that fragment the whole day, beyond distractions inside a work block.
 
-AI is useful when it creates right-angle turns: clarifies the question, asks for a decision, compresses the frame, names the next action, forces a choice, turns consumption into an output. [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] is the boundary. A knowledge base that becomes another feed has failed this page's test.
+People open feeds at unclear transitions: after a task, before the next one, during uncertainty, while waiting, or when the next action has not been decided in advance. The feed is the instant default in those gaps. The page [[wiki/Decision Making/Decisional Delays|Decisional Delays]] covers that unplanned gap. The repair is an implementation intention: when X is done, move to Y. If Y is blocked, do Z. If a break is needed, take a defined break.
 
-## Turns you can put back
+A chatbot becomes a time maze when it is verbose, ends every answer with another invitation, validates weak frames, creates tangents, and lets the user consume a synthesis without forming a model. This pattern is called conversational infinite scroll. Specific products have been reported to re-enter a conversation uninvited. Those reports will go out of date. The pattern of conversational infinite scroll will stay.
 
-The central move is the same in every instance: smooth continuation, interrupted by a right-angle turn, resolved as an intentional choice. Close the surface when the purpose is gone. Ask what this opening was for. Write one sentence about today. Choose a story-shaped activity. Take a novel route. Put a mortality cue where autopilot begins.
+AI is useful when it creates right-angle turns: it clarifies the question, asks for a decision, compresses the frame, names the next action, forces a choice, or turns consumption into an output. The page [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] sets the boundary. A knowledge base that has become another feed has failed.
 
-Five anchors put edges back. They are a counter-system, not a personality program.
+## Putting the corners back
+
+The central move is the same in every case: smooth continuation is interrupted by a right-angle turn, and the interruption is resolved by an intentional choice. Close the surface when the purpose is gone. Ask what the opening was for. Write one sentence about today. Choose an activity shaped like a story. Take a new route. Put a mortality cue where autopilot begins.
+
+Five anchors put edges back into time. Together they form a counter-system. They do not require a change of personality.
 
 | Anchor | What it does | Small instance |
 |---|---|---|
 | Story | Gives a stretch of time a beginning, a middle, and an end | A book, a lecture, a conversation that closes |
 | Novelty | Breaks habituation so the stretch can be retrieved later | A different walking route, a new problem, a medium that is not the feed |
 | Sentiment | Weights an episode so it is not interchangeable with the next | One feeling named, one person actually spoken to |
-| Selection | Forces a choice, which is itself a corner | One query, one account, one output, then stop |
-| Mortality cue | Reminds the body that the hour is not renewable | A clock, a remaining-life number, a sentence about what the day was for |
+| Selection | Forces a choice, and a choice is a right-angle turn | One query, one account, one output, then stop |
+| Mortality cue | Reminds the person that the hour is not renewable | A clock, a remaining-life number, a sentence about what the day was for |
 
-Open with a purpose: this is being opened to check X. When X is done, leave. If there is no X, the app is already winning.
+Open with a purpose: the app is being opened to check X. When X is done, leave. If there is no X, the opening was not chosen.
 
-Pre-decide the next move, including a backup. Create hard endings: a timer, one query, one account, one output, stop when the purpose is complete.
+Decide the next move in advance, including a backup. Create hard endings: a timer, one query, one account, one output, and a stop when the purpose is complete.
 
-Prefer routes over mazes: a book over a feed, an essay over a thread, a lecture over a clip chain, a planned playlist over recommendations, a direct search over algorithmic wandering. That is not a purity rule. It is a memory-structure rule. The maze can still be used. It should not be the default shape of the day.
+Prefer routes over mazes: a book over a feed, an essay over a thread, a lecture over a chain of clips, a planned playlist over recommendations, a direct search over algorithmic wandering. The reason is that routes leave memories and mazes do not. The maze can still be used. It should not be the default shape of the day.
 
-Make time leave evidence: one note, one filed link, one question, one sentence, one action.
+Leave evidence of the time: one note, one filed link, one question, one sentence, or one action.
 
-A real break restores a depleted system. A feed keeps the attentional system active. Better: a walk without input, breathing, a stretch, water or sunlight, a short tidy, eyes closed for five minutes, one chosen song, a short conversation with an end.
+A real break restores a depleted system. A feed keeps the attentional system active, so it is not a break. Better breaks: a walk without input, breathing, a stretch, water or sunlight, a short tidy, eyes closed for five minutes, one chosen song, or a short conversation with an end.
 
-Good signs: edges in the day, memories of yesterday that can be told, a rare "where did the time go," days that can be recounted as a story. Warning signs: every break is a feed, rabbit holes, days that were full and cannot be recounted, informed and unchanged.
+## Signs it is working and signs it is not
+
+Good signs: the day has edges, yesterday's memories can be told, "where did the time go" is rare, and days can be recounted as a story. Warning signs: every break is a feed, rabbit holes, days that were full and cannot be recounted, and being informed but unchanged.
 
 | Failure | What it looks like |
 |---|---|
@@ -94,27 +107,38 @@ Good signs: edges in the day, memories of yesterday that can be told, a rare "wh
 | Transition leakage | The unplanned gap between tasks is still the entry |
 | Memoryless learning | A session leaves no model, no note, no changed behavior |
 | Fake novelty | Algorithmic variety is mistaken for a new route |
-| Notification leakage | The day is still intercut |
+| Notification leakage | The day is still cut into pieces |
 | False urgency | A badge or a trending item is treated as a decision that had to be made now |
 | Fake recovery | The break is another feed |
 | Moralizing instead of designing | The hour is condemned and the path is left curvilinear |
 
-[[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]] owns the shallow re-entry and slow recovery that interactive distractors train. [[wiki/Self Management/Flow State|Flow State]] owns feeds as route-breakers. [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] owns digital feeds as inventory. A session with no remembered model, no action, and no changed behavior is consumption — the diagnostic [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] owns. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]] is the right-angle turn of noticing that the hand is still moving after the purpose is gone.
+## What other pages cover
 
-Time without edges is still the theft. The repair is putting a corner back — a chapter end, a last page, a closing time — so the session has to be chosen again.
+The page [[wiki/Self Management/Flow State|Focus Management]] covers the shallow re-entry and slow recovery that interactive distractors train. [[wiki/Self Management/Flow State|Flow State]] covers feeds as things that break a route. [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] covers digital feeds as inventory. A session with no remembered model, no action, and no changed behavior is consumption. The diagnostic [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] covers that test. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]] covers the right-angle turn of noticing that scrolling continues after the purpose is gone.
 
-## Related
+The lost time comes from time without edges. The repair is to put a corner back: a chapter end, a last page, a closing time. Then the session has to be chosen again.
 
-- [[wiki/Self Management/Attention Management - Preserving Flow|Attention Management]] — feeds as day-fragmentation machines, not merely in-block distractions
-- [[wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block|Focus Management]] — shallow re-entry and slow recovery
-- [[wiki/Decision Making/Decisional Delays|Decisional Delays]] — the unplanned gap the feed enters through
-- [[wiki/Self Management/Flow State|Flow State]] — feeds as route-breakers
-- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] — digital feeds as inventory
-- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — a session with no remembered model and no action is consumption
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]] — the right-angle turn: noticing purpose is gone
-- [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] — the knowledge base must not become another feed; useful AI puts corners back
+## How to practice this
 
-## Open Questions
+1. Before opening a feed, name what it is for: this is being opened to check X. When X is done, leave. Notice whether there was an X at all.
+2. At the end of each task, decide the next move before the gap opens. Name Y, a backup Z, and a defined break if one is needed. Notice whether the feed still enters through that gap.
+3. Set a hard ending before a session: a timer, one query, one account, or one output. Stop when the purpose is complete. Notice how often scrolling continues past the ending.
+4. Once a day, choose a route instead of a maze: a book, an essay, a lecture, or a planned playlist. Notice whether that stretch of time can be retold the next day.
+5. Leave evidence of each session: one note, one filed link, one question, one sentence, or one action. Notice which sessions left nothing.
+6. Take a real break instead of a feed: a walk without input, a stretch, or eyes closed for five minutes. Notice whether every break today was a feed.
+
+## Related pages
+
+- [[wiki/Self Management/Flow State|Attention Management]]: feeds as machines that fragment the whole day, beyond distractions inside a work block
+- [[wiki/Self Management/Flow State|Focus Management]]: shallow re-entry and slow recovery
+- [[wiki/Decision Making/Decisional Delays|Decisional Delays]]: the unplanned gap the feed enters through
+- [[wiki/Self Management/Flow State|Flow State]]: feeds as things that break a route
+- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]: digital feeds as inventory
+- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]: a session with no remembered model and no action is consumption
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]]: the right-angle turn of noticing that the purpose is gone
+- [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]: the knowledge base must not become another feed; useful AI puts corners back
+
+## Open questions
 
 - Which parts of a personal knowledge base are routes, and which have become mazes.
 - Where a default mortality cue should sit, if anywhere, without becoming decoration.
@@ -122,7 +146,7 @@ Time without edges is still the theft. The repair is putting a corner back — a
 
 ## Sources
 
-- Gurwinder, "How Social Media Shortens Your Life," 3 August 2025. The essay this operating manual is extracted from. Public.
+- Gurwinder, "How Social Media Shortens Your Life," 3 August 2025. The essay the page is extracted from. Public.
 - Robert E. Ornstein, *On the Experience of Time* (1969); Richard A. Block and Dan Zakay (1997), prospective versus retrospective duration; Claudia Hammond, *Time Warped* (2012), the holiday paradox. Retrospective duration tracks memory density.
 - Bill Friedman, *Designing Casinos to Dominate the Competition* and related industry books. Curvilinear paths as design intent: few right-angle turns, because a corner restores awareness.
 - Gordon H. Bower and Michal C. Clark (1969); Gordon H. Bower, John B. Black, and Terrence J. Turner (1979); Tom Trabasso and Paul van den Broek. Narrative structure aids memory.
