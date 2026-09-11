@@ -65,6 +65,14 @@ ELI5 is the format that can sit on top of this method, on the owner's word of 20
 
 Evidence: `/Users/n1/Research/Fable5.1/FINDINGS.md`, the 2026-09-02 ruling. First ELI5-format page under it: `/Users/n1/Projects/llm-knowledge-base/wiki/Concepts/Dating Apps - The Gini Coefficient.md`, twenty figures from `/Users/n1/Projects/llm-knowledge-base/scripts/gen-dating-gini-diagrams.py`.
 
+### From Nothing, for a definition the reader does not own
+
+The reader holds nothing from the page. Sentence one uses the key word in the everyday sense the reader owns. Then the page's sense in plain words, then named things that carry it, then every other special word from something the reader owns, then the definition last, made only of words already put down. No twist in the definition. No sentence about what the reader knows or feels. The body gives every new thing the same way before using it.
+
+On 2026-09-10 the owner picked opening N of Trained Contempt after twenty struck openings under five prompts, and said the shape is why it passes and the writing is still not good. Unproven until a page under it is accepted.
+
+Instrument: `/Users/n1/Projects/llm-knowledge-base/02 - System/The Generator - From Nothing.md`
+
 ### ELI5-Haiku (writer retired 2026-09-05; the format lives on above)
 
 A session head writes a spec. A small model outside that session, currently Claude Haiku 4.5, receives only the spec. Every reader-facing sentence lands verbatim. A wrong fact is fixed by a new cold call, never by hand. The session head does not reword what comes back.
