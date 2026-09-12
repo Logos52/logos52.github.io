@@ -245,12 +245,11 @@ The [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: the four-pass loop the criterion runs inside, hypothesized in the first pass, tested in the middle, pruned in the last; the encoding routine this skill is practised inside, and where in it the restructuring pass falls.
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: the test of whether the groups can actually be unpacked from memory; the sessions that show which groups have stopped earning their place, and the pass where restructuring from memory happens.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the control layer that decides when a structure gets rebuilt rather than defended, when to stop, when to re-group, and when the structure has expired.
-- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Deep Processing Practice]]: rating importance as a practised behaviour rather than a one-off judgment.
+- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]: rating importance as a practised behaviour rather than a one-off judgment.
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]: why a hierarchy lowers what has to be held at once, what the effort is signalling when it does not, and how overwhelm gets told apart from confusion.
 - [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]: the level at which judging which relations matter becomes the thing being practised.
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]: getting the grouping out of a head where it can be rearranged; the offload that makes the remaining difficulty legible as confusion rather than overload.
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]: getting the grouping out of a head where it can be rearranged; the offload that makes the remaining difficulty legible as confusion rather than overload.
 - [[wiki/Dimensions/Deep Processing/Schema|Schema]]: what a group is a choice about, the structure the decision builds.
-- [[wiki/Dimensions/Deep Processing/Schema|Schema Construction, Assimilation, and Reorganization]]: what the click is doing underneath, and what it costs to rebuild a structure rather than extend one.
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: why the cheaper-feeling version of a method is the one that fails; the failure pass is this problem as it appears in chunking.
 - [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: the thin pass at full length, allowed to be wrong, building the prior knowledge the main pass then leans on.
 

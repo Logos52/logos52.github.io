@@ -77,7 +77,7 @@ The machine also makes the split between selfhood and self-regard easier to see 
 
 - [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]]: the split between selfhood and self-regard. The trained voice is that split applied to a language model.
 - [[02 - System/Writing Standards|Writing Standards]]: the rejection made mechanical. It holds the banned moves, the strike history, and the tests.
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Standing Research Agents]]: where agent drafting happens under the standards, with the final cut made at the desk.
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: where agent drafting happens under the standards, with the final cut made at the desk.
 
 ## Sources
 

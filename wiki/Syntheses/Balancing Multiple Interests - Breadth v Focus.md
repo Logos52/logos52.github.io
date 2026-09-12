@@ -127,7 +127,6 @@ The unused interests are still meant. The day is quiet enough to move the ones t
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: use mainly on active processes
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]: refuse extra options when the active set wants to grow
 - [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]: protects the active set from daily drift
-- [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]]: session-level entry and recovery
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]: decision hygiene around whether to activate
 - [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: outcome-under-the-goal check before a season starts
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: isolation and a small active set

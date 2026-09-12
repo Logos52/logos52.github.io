@@ -111,7 +111,7 @@ Purpose locked means every unlearned tool has a named job. The first calculation
 
 - [[Bear Hunter System]]: the aim–shoot–skin cycle this specialises
 - [[Cave Theory]]: why purpose-before-information is the keep-signal
-- [[Schema|Survive and Thrive]]: the relation-map that memory actually keeps
+- [[Schema|Schema]]: the relation-map that memory actually keeps
 - [[Layers of Learning]]: big-picture-before-details as the same sequence
 - [[Declarative, Procedural, and Conditional Knowledge]]: the split this page spends, map vs equations
 - [[Agentic Engineering]]: where the AI-absorbs-procedure angle goes

@@ -145,7 +145,7 @@ The checkable residue of a status pass is answers to the two status questions, p
 
 ## Related pages
 
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]: why a compiled wiki needs audits.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: why a compiled wiki needs audits.
 - [[Raw to Wiki Compilation|Raw to Wiki Compilation]]: ingest sibling.
 - [[journal/index|journal openQuestions]]: human orientation. Do not auto-append here.
 - [[02 - System/Writing Standards|Writing Standards]]: how pages should read and how a new page has to be written. Unpublished on the public site.

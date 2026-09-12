@@ -128,7 +128,7 @@ When a published score is matched within weeks, the profit still stops going to 
 - [[wiki/Concepts/The Price of a Training Corpus|The Price of a Training Corpus]]: the model layer's other cost line, what a training corpus costs once liability is a balance-sheet item.
 - [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival — The Freight Signal]]: AI capex as accidental real-economy stimulus. The margin on that capex lands at the serving layer.
 - [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]]: whether the spend pays off at all.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]: the application layer that value migrates up into.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the application layer that value migrates up into.
 
 ## Open questions
 

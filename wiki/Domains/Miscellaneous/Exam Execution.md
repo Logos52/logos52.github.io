@@ -61,8 +61,7 @@ A built system that delivers and a built system that spends the night on the syl
 - [[Silly Mistake Syndrome]] — diagnosis of "careless" errors, plus the five-letter protocol
 - [[Group Study]] — role-based group revision (leader / timekeeper / fact-checker)
 - [[wiki/ICS Program Map|system map, late layer]] — the map of the whole learning system, at the late-layer node this hub occupies
-- [[Multipass System|Cramming]] — the other late-stage neighbour: how to compress when time has already run out
-- [[Multipass System]] — covering a large topic in several complete-but-shallow sweeps that deepen
+- [[Multipass System|Multipass System]] — the other late-stage neighbour: how to compress when time has already run out
 - [[How to diagnose and fix exam mistakes]] — the three-category error diagnosis this hub does not repeat
 - [[How to prepare for ultra high-volume exams]] — the years-long volume problem this hub assumes is already solved
 

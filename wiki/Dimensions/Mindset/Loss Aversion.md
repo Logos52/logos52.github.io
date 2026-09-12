@@ -98,7 +98,7 @@ The good-enough verdict can be tested with the three questions and the three hid
 - [[wiki/Decision Making/Judging a Decision by Its Process|judging a decision by its process]]: review the decision afterward by its process, with the outcome set aside
 - [[Compounding vs Additive Gains]]: additive comfort is what this bias keeps buying
 - [[Confidence Calibration]]: where the split between feeling-made and reasoning-made decisions is developed
-- [[How to shift your brain to be motivated (when you don't feel like it)|Motivation]]: the handoff from effort to habit
+- [[How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated (when you don't feel like it)]]: the handoff from effort to habit
 
 ## Sources
 

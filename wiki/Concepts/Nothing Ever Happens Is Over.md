@@ -83,10 +83,10 @@ Cynicism is sometimes right. Not every shock is a regime change. Tracking that n
 
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]: systems legible to agents and humans.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: how small teams actually run with agents.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]: the implicit-intranet claim's home.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the implicit-intranet claim's home.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: review loops when assumptions expire.
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: small improvements to the sense-making system.
-- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]]: how the models used for that synthesis think.
+- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: how the models used for that synthesis think.
 
 ## Open questions
 

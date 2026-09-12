@@ -85,8 +85,6 @@ The stretch between tasks does not go away. The six items written the night befo
 - [[wiki/Decision Making/Decision Making|Decision Making]]: hub for how much thinking a choice is worth.
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]: a different problem, a tangled choice rather than a between-task gap.
 - [[wiki/Self Management/Flow State|Flow State]]: the state the gap breaks, absorption, not a timer.
-- [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]]: recovery inside the block; decisional delays are the gap between blocks.
-- [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]: between-block friction from the attention side.
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]: when the gap becomes avoidance.
 - [[wiki/Dimensions/Self-Management|Self-Management]]: parent dimension.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: control of the switch.

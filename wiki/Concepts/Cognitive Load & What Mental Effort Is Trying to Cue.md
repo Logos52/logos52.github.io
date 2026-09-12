@@ -84,10 +84,10 @@ The next move follows from the kind of difficulty named. In a low-effort hour, t
 
 ## Related pages
 
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|First Principles of Learning]]: overwhelm as a triage cue. Make it explicit, turn it into a question, let the question organise the next move.
+- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]: overwhelm as a triage cue. Make it explicit, turn it into a question, let the question organise the next move.
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: reading which kind of hard, and choosing the response, is metacognition.
 - [[wiki/Concepts/Memory Handling|Memory Handling]]: what to do inside the short working-memory window.
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]: the offload that gets interacting factors out of the head.
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]: the offload that gets interacting factors out of the head.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: productive high load, meaningful comparison and transformation.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: choosing the response once the signal has been read.
 - [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]]: effort as contents competing for a limited workspace.

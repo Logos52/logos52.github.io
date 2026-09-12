@@ -74,4 +74,4 @@ A cold open gives away the page's one surprise at the start. Nothing downstream 
 
 - [[wiki/Writing Craft/Opening Moves Catalog|Opening Moves Catalog]]: the corpus-derived opener menu. The cold open is the master rule ("say the most important sentence first") adopted as a genre's whole form.
 - [[02 - System/Writing Standards|Writing Standards]]: §The Cold Open, the binding law with the full exemplar and strike record.
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Bot Operating Rules]]: a page written in the form.
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: a page written in the form.

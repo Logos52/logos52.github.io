@@ -78,7 +78,6 @@ The feeling of ease is what misleads. The tool does not mislead. A map made mech
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: monitoring the thought pattern, not the method.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: transformation.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: choosing to switch out of passive.
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Building the Radar]]: detecting the passive state in real time.
 - [[wiki/Concepts/Memory Handling|Memory Handling]]: retrieval as one of the six verbs.
 
 ## Sources

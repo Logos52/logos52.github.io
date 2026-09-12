@@ -150,7 +150,7 @@ The fetching, the converting, and the tidying can stay with the machine. Importa
 - [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]]: the evidence page. The same tool, used in two different ways, produced different comprehension.
 - [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: the priming step worked out, with the completion test for priming.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: the dimension that the rule against handing over schema formation protects.
-- [[wiki/Syntheses/ICS System|How Top Performers Learn]]: learning engineers design a personal system rather than hunting one technique.
+- [[wiki/Syntheses/ICS System|ICS System]]: learning engineers design a personal system rather than hunting one technique.
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: the general mechanism. This workflow is a special case of it.
 - [[wiki/Dimensions/Deep Processing/Problem-First Learning|Problem-First Learning]]: problem before tool; the engine on the bench.
 - [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]]: logic, concept, and detail, presented mixed together in sources.

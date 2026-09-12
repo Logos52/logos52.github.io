@@ -102,7 +102,6 @@ Once the student stops calling the error "silly", the search for its cause can s
 ## Related pages
 
 - [[How to Maintain Sustainable Energy Under Pressure]]: sleep, movement, connection, light. The prerequisites MR FIG cannot replace.
-- [[How to Maintain Sustainable Energy Under Pressure|Recovery]]: rest versus recovery, and detachment. What to do when the errors called "silly" come from a depleted system.
 - [[Higher-Order Learning]]: the repair for the missing chain of reasoning, done during learning.
 - [[Metacognition - The Control Layer]]: noticing that an answer making sense on reading is not the same as being able to produce it.
 - [[How to diagnose and fix exam mistakes]]: the diagnosis table, and why "silly" is not a category.

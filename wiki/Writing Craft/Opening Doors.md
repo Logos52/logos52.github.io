@@ -101,7 +101,7 @@ The doors were not designed in advance. They were named in the regeneration hand
 
 - [[wiki/Writing Craft/Opening Moves Catalog|Opening Moves Catalog]]: the layer below this one. It says which move sentence one takes, with verbatim specimens from the admired corpus. A door is chosen first, then a move inside it.
 - [[wiki/Writing Craft/The Cold Open|The Cold Open]]: the payload-first default that the handover door executes at paragraph scale.
-- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|The Prohibition Loop]]: why the fault list here is short and the write-act is long, and why a strike gets answered with a regeneration rather than a new ban.
+- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model Collaborator]]: why the fault list here is short and the write-act is long, and why a strike gets answered with a regeneration rather than a new ban.
 - [[wiki/Writing Craft/The Context Problem|The Context Problem]]: the same mechanism off the opening. A sentence uses something as given before the page has given it, anywhere on the page.
 
 ## Sources

@@ -192,7 +192,7 @@ The two orders are not rungs to climb in sequence. They name what the work leave
 - [[wiki/Dimensions/Retrieval|Retrieval]]: the sister dimension. Processing builds the structure; retrieval is what keeps it reachable.
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]: the same audit aimed at reading and watching, where the shallow list does most of its damage.
 - [[wiki/Concepts/Memory Handling|Memory Handling]]: the working-memory window that limits how much can be held while running these operations at once.
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]: how the operations get out of the head and onto a surface where things can actually be compared.
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]: how the operations get out of the head and onto a surface where things can actually be compared.
 
 ## Open questions
 

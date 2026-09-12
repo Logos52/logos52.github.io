@@ -112,7 +112,7 @@ A skill is good enough when it is no longer the rate limiter. Techniques can be 
 
 ## Related pages
 
-- [[Marginal Gains|Marginal Gains in Practice]]: the practice that the week-later check and the limiter name are the measurement for.
+- [[Marginal Gains|Marginal Gains]]: the practice that the week-later check and the limiter name are the measurement for.
 - [[Metacognition - The Control Layer]]: what to notice while measuring. The week-later check and the limiter name are what to measure.
 
 ## Sources

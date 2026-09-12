@@ -187,7 +187,6 @@ The strongest case against this method: the trials are not on study habits; the 
 - [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: a technique is judged by the thinking it produces; sibling of this page's "easier equals better" row
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: parent hub for the control-layer cluster
 - [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]: attention as the scarce resource across a day; this page supplies the cue-hijack
-- [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]]: entry into and recovery inside a work block; the page the Breaks section defers to
 - [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: daily prioritisation; a place to apply cue-response upgrades
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]: procrastination as environment design rather than willpower
 - [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]]: the vault's habit-design page; owns environment, cue prep, and the minimum viable goal

@@ -79,7 +79,7 @@ Running the same material through several channels still beats matching a declar
 
 ## Related pages
 
-- [[wiki/Dimensions/Deep Processing/Mindmaps|Non-Linear Note-Making]]: covers the craft of routing material through the visual channel
+- [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]: covers the craft of routing material through the visual channel
 - [[Attention is Important]]: the attention rule stated for language, applied above to every mode
 - [[Inquiry-Based Learning]]: question-driven exploration as another mode that is hard to sleepwalk through
 - [[Fixed vs Growth Mindset]]: the parent of the trait trap, where a style label frames the brain as a fixed object

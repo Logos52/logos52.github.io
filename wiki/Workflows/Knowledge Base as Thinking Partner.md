@@ -167,7 +167,7 @@ One session leaves a destination, and the test can be answered yes or no. The sa
 
 ## Related pages
 
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]: the three-layer pattern this workflow sits on.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the three-layer pattern this workflow sits on.
 - [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]]: how sources become pages.
 - [[wiki/Workflows/Question Answering Against a Wiki|Question Answering Against a Wiki]]: how a question is answered from the wiki first.
 - [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]: the lint workflow.

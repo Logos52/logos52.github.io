@@ -626,21 +626,17 @@ The roster is dated and lives on [[wiki/Systems/AI & Agentic Systems/Current Age
 ## Related pages
 
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]: which seat this desk assigns, job by job; the dated roster, where this glossary is the dictionary
-- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Agent Wrong-Door Log]]: dated misses when a job went to the wrong product, the two-writers miss and the other seat misses; the scoreboard, where this glossary is the names
-- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Claude Fable]]: operating notes on the top model, where it earns its keep on this desk and where it fails; observed behavior of the public model, including taste-bound failure, not what the name encodes; the judgment model this desk has not moved off
-- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]]: the effort dial in depth, when extra thinking pays and when it is decoration; which model to spend where, by depth, not by name
+- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model Collaborator]]: operating notes on the top model, where it earns its keep on this desk and where it fails; observed behavior of the public model, including taste-bound failure, not what the name encodes; the judgment model this desk has not moved off
+- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: the effort dial in depth, when extra thinking pays and when it is decoration; which model to spend where, by depth, not by name
 - [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]]: the clean-context subagent pattern this vault's writing already runs on
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Standing Research Agents]]: always-on Grok Bots, the standing half the teammate actually runs here; the Cursor subscription and Managed Agents session are other vendors' version of "stays up"
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: always-on Grok Bots, the standing half the teammate actually runs here; the Cursor subscription and Managed Agents session are other vendors' version of "stays up"
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: filling the window the loop can see; the loop itself is named here
 - [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]]: tools as channels into a closed model; the harness around those channels is named here
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the bar on work agents produce; this glossary is only the names
 - [[wiki/Glossary|Glossary]]: learning-system terms (encoding, retrieval, WPW); product names stay here
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Fleet Structures]]: seats and duties, still unruled past Structure A
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Bot Operating Rules]]: report-only, one duty, the escalation ladder
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: the facet snapshot that actually decides the pick; the July 4.3 grade that 4.6 has not yet replaced
 - [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]]: official docs plus named-runner claims, confidence-tagged
 - [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]: five first-party playbooks on x.ai/bot/guides; CoS and per-helper-computer language filed, not copied
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: the live setup on this account
 - [[journal/2026-08-13-grok-4-6-on-the-frontier|Grok 4.6 on the frontier, not the lead]]: the day-after ranking the Grok 4.6 entry inherits
 - [[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]]: dated ranking by job, 15 Aug. Not a stack change.
 - [[wiki/Research/Grok Build and Cursor Bank|Grok Build and Cursor Bank]]: the lane behind the Build / IDE addendum

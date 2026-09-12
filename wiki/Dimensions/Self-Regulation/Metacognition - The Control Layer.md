@@ -263,7 +263,7 @@ The response being trained is the only readout of that thinking there is. It sha
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]: what to do once the layer catches an old habit resuming.
 - [[wiki/Concepts/Memory Handling|Memory Handling]]: what gets blamed when the layer is weak, and what memory actually does.
 - [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]]: the ladder gains are sized against, and where the outcome benefit actually arrives.
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]: puts the invisible process outside the head where it can be inspected.
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]: puts the invisible process outside the head where it can be inspected.
 - [[wiki/Dimensions/Deep Processing/Schema|Schema]]: why relational beats isolated, and what understanding alone leaves unbuilt.
 - [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]: the late-stage move that keeps surfacing errors once ordinary practice stops producing them.
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: the planning-and-evaluation half of the loop, a small named improvement to the current limiter, stacked, which is how the experience gets sized.

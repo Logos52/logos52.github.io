@@ -329,10 +329,8 @@ The checkpoint looks at three things, and people slack on the first two. Kolb's 
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: the parent dimension this step belongs to.
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: the loop this is the second step of.
 - [[wiki/Dimensions/Deep Processing/Aim|Aim]]: where the questions come from, and the step to return to when this one scatters.
-- [[wiki/Dimensions/Deep Processing/Aim|Aim - Training I]]: the training for the pass before this one, and the Aim bar that has to be in place before Shoot starts.
 - [[wiki/Dimensions/Deep Processing/Skin|Skin]]: the next pass, the map cut down to what can be rebuilt without the material.
-- [[wiki/Dimensions/Deep Processing/Mindmaps|Non-Linear Note-Making]]: the note form this step writes in, and why delayed writing does the processing.
-- [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]: the map as a technique.
+- [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]: the note form this step writes in, and why delayed writing does the processing.
 - [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]]: the layer theory behind detail waiting for structure, and the ordering rule Shoot - Training II holds the map to.
 - [[wiki/Dimensions/Deep Processing/Order Control|Order Control]]: the sequence belonging to the reader rather than the material.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the control layer that notices the warning signs while the session runs.

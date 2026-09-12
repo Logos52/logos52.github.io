@@ -63,8 +63,7 @@ A README that still sends a person through a settings page is not agent-native. 
 ## Related pages
 
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]], the professional system that uses agent-native surfaces.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]], the broader frame that this property is part of.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]], how a notes vault becomes operable by a model.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]], the broader frame that this property is part of.
 
 ## Sources
 

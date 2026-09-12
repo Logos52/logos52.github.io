@@ -125,7 +125,6 @@ The cost of these methods is the awareness work, a diary, and, for repeated beha
 - [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: planning protocol that turns "I am not enough" into specific gaps
 - [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]: identity-threat versus information reading of mistakes
 - [[wiki/Dimensions/Mindset/Perfectionism and Overthinking|Perfectionism and Overthinking]]: what-if stacking and certainty-before-moving
-- [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|The Learning Zone and the Reversion Response]]: returning to familiar weaker methods
 - [[wiki/Dimensions/Retrieval|Retrieval]]: whether gaps are treated as data or proof of failure
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: whether confusion is tolerated long enough to build structure
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: where specific-gap plans feed in

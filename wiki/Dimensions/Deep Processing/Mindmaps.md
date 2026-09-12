@@ -188,7 +188,7 @@ The deciding is the encoding. A finished page says which order the work ran in. 
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: where leftover unconnected facts go, and how the finished map is tested.
 - [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]: how wide to build the schema.
 - [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]: the encoding step the delay and the mark serve.
-- [[Schema|Survive and Thrive]]: why relations are the keep-signal.
+- [[Schema|Schema]]: why relations are the keep-signal.
 - [[wiki/Concepts/Reverse Causality|Reverse Causality]]: the A→B loop that adds a memory burden.
 
 ## Open questions

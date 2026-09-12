@@ -151,8 +151,6 @@ The pieces of the setup work have one thing in common. Each piece takes one deci
 ## Related pages
 
 - [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]]. Everything inside the block: the entry ritual, noticing drift, and training the return.
-- [[wiki/Self Management/Flow State|Flow State]]. The state that becomes available after starting, and the source of its clarity-and-low-friction entry conditions.
-- [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]. The bridge between tasks, so that a transition stops resetting attention to zero and a repaired start does not leak away at the seam.
 - [[wiki/Dimensions/Self-Management|Self-Management]]. The parent dimension: the habits, routines, structures and environments that make action possible without spending willpower on it.
 - [[wiki/Dimensions/Mindset|Mindset]]. The interpretive layer that decides whether a stall reads as information or as evidence against the self, which is the layer underneath the moralizing failure.
 

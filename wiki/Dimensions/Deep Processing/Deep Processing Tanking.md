@@ -143,8 +143,8 @@ The operating model is a short loop: diagnose the transition, identify the hidde
 ## Related pages
 
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: the parent dimension; this page is one failure mode of processing that is strong and implicit.
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]: the externalizing move, and the likely first handle.
-- [[wiki/Dimensions/Deep Processing/Schema|Schema Construction, Assimilation, and Reorganization]]: how an organized structure is built, extended, and rebuilt.
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]: the externalizing move, and the likely first handle.
+- [[wiki/Dimensions/Deep Processing/Schema|Schema]]: how an organized structure is built, extended, and rebuilt.
 - [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery]]: the ladder from recognizing a thing to being able to use it.
 - [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]: shipping an imperfect structure on purpose and testing it.
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]: good load against bad load, with working-memory occupancy as the reason rather than fuel.

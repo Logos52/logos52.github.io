@@ -120,17 +120,14 @@ Hermes 3 via Ollama: the May version of this page named it the primary interface
 ## Related pages
 
 - [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]]: product names and when to use them; this page is the roster, that page is the dictionary
-- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]]: the model, the teammate, and Grok Build as three products under one first name
 - [[journal/2026-09-01-grok-writes|Grok writes]]: live writer-seat ruling
 - [[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]]: 15 August ranking; writer seat retired 1 September
 - [[journal/2026-08-21-cursor-ultra-vs-build-vs-bot|Cursor Ultra vs Grok Build vs Grok Bot]]: the seat assignment per repo
 - [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]]: the clean-context mechanism the Claude Code seat exists to run
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Standing Research Agents]]: the standing half in full
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: the live Grok Bot setup on this account
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: the standing half in full
 - [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]]: official docs plus named-runner claims; not a roster
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]]: the doctrine the division of labor answers to
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: the zone model behind "judgment stays at the desk"
-- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|How to Use the Claude Tools]]: Chat / Code / Cowork / hosted runtime
 
 ## Open questions
 

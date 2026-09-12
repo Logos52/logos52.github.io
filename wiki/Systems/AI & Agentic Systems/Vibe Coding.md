@@ -81,10 +81,9 @@ Forgetting the code is a choice about the artifact. It is not a default about al
 
 - [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]: the "don't get stuck" feeling, one factory's two-engineer engine, and building blocks as a token cache.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the ceiling this page is not; the routing partner for durable work.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]: the medium vibe coding runs on, and the owner of the menu-photo / spurious-app example.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the medium vibe coding runs on, and the owner of the menu-photo / spurious-app example.
 - [[wiki/Concepts/A Return to Code|A Return to Code]]: the playful loop and the one-shot app rebuilt the way the maker wanted it.
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]: niche apps the market would not fund an engineer for a year to build.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: what you still have to shape even when you stop reading the code.
 
 ## Open questions
 

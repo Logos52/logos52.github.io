@@ -189,7 +189,7 @@ That last warning sign is the one the learner can act on. [[wiki/Dimensions/Self
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the steering that notices the warning signs
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: why an effortful encode decays into a cheaper imitation
 - [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]: how to build the layers without treating every detail as equal
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|First Principles of Learning]]: the underlying rules this strategy is an application of
+- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]: the underlying rules this strategy is an application of
 - [[wiki/Domains/Miscellaneous/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]]: the same three-way split at item scale; lower-order there may name a slip
 - [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]: holds the worked filter instances and the structure-cues-memory test
 

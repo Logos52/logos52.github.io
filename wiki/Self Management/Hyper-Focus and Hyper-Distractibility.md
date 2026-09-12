@@ -91,11 +91,11 @@ These constraints are the condition under which a new method can be picked up at
 
 ## Related pages
 
-- [[Marginal Gains|Pacing Skill Development]]: the default parallel-skill cap. This page drops it to one.
+- [[Marginal Gains|Marginal Gains]]: the default parallel-skill cap. This page drops it to one.
 - [[Four Stages of Competence]]: habituate-before-adding, the test for whether the system is already overloaded.
 - [[Kolbs Experiential Cycle]]: daily reflection after an attempt, with its own thirty-minute cap.
 - [[Attention Span and Focus Training]]: the general return-rep. This page owns the tighter dose and the adjunct hedge.
-- [[Flow State|Focus Management - How to Enter & Recover Inside a Work Block]]: intention-check as a tightened entry and recovery loop inside a block.
+- [[Flow State|Attention, Focus & Flow]]: intention-check as a tightened entry and recovery loop inside a block.
 
 ## Open questions
 

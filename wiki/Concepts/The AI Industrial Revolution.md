@@ -105,8 +105,8 @@ The main claim of the hour is that an engineer is now judged on the factory. How
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]], skill extraction: capture repeated moves into reusable skills
 - [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]: hardware crossing; domain experts on engineer-built architectures
 - [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]]: intelligence-versus-agency and the out-of-distribution ceiling
-- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]]: always-want-the-smartest-model, refined by cost and latency
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]: adjacent stack page
+- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: always-want-the-smartest-model, refined by cost and latency
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: adjacent stack page
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: verifier role and intelligence-versus-agency, graded as the AI axis
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]: sibling field report from the same host
 - [[wiki/Concepts/A Return to Code|A Return to Code]]: sibling field report from the same host

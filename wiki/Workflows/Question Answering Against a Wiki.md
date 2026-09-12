@@ -68,7 +68,7 @@ The order does not change after something durable has been filed. The next answe
 ## Related pages
 
 - [[notes/index|notes/index.md]]: public front door. Always first.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]: why a compiled wiki beats re-reading source files.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: why a compiled wiki beats re-reading source files.
 - [[Raw to Wiki Compilation|Raw to Wiki Compilation]]: how sources become pages.
 - [[Wiki Health Checks|Wiki Health Checks]]: the audit counterpart.
 

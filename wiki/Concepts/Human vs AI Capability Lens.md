@@ -123,7 +123,7 @@ The two scores stay independent, and the both-high cell stays real, only as long
 - [[wiki/Money/The Almanack of Naval Ravikant|The Almanack of Naval Ravikant]]: specific knowledge, accountability, leverage.
 - [[wiki/Concepts/Wabi-Sabi|Wabi-Sabi]]: a Human-5 that graduates to its own page.
 - [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]: the Agent/Human split this lens grades.
-- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|What the Model Names Signal]]: natural home for the dated snapshot table.
+- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]]: natural home for the dated snapshot table.
 - [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]]: related skill list for the same year.
 - [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]]: the offloading line. The artifact arrives either way, the encoding must not be handed over.
 - [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]]: interpretability substrate for the two axes. The lens is not the Global Workspace paper.

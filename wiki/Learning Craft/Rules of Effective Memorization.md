@@ -118,7 +118,7 @@ Checkable results: an unknown item can be decomposed into a guess; a spoken word
 - [[wiki/Dimensions/Retrieval|Retrieval]]: where the repetition rule opens out
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: the house retrieval system the repetition rule plugs into
 - [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]]: the encoding work must stay in the learner's hands
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|First Principles of Learning]]: the study-system frame; these rules sit at its processing-quality level
+- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]: the study-system frame; these rules sit at its processing-quality level
 
 ## Open questions
 

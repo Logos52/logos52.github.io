@@ -143,7 +143,7 @@ It can be felt from inside. The cycle, find a gap, learn it, re-teach it, keeps 
 - [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]]: the build order behind every mention of layers, main causal lines first, then key ideas, then detail.
 - [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]: where the grouped-by-information-instead-of-importance diagnosis lands.
 - [[wiki/Dimensions/Retrieval/Revision|Revision]]: the vault's owner of general revision strategy, which points here for whole-topic sweep sessions.
-- [[Schema|Survive and Thrive]]: why a connected term survives pruning.
+- [[Schema|Schema]]: why a connected term survives pruning.
 - [[Inquiry-Based Learning]]: the loop a failed reverse explanation opens.
 - [[Memory Handling]]: relationships-before-facts on intake, not only on output.
 - [[Theme-First Text Analysis]]: the same ordering at essay scale.

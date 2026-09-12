@@ -108,8 +108,6 @@ Once the sit has run long enough, the same hard target is held with fewer props 
 ## Related pages
 
 - [[wiki/Self Management/Flow State|Attention Management]]. Day-level: where attention is pointed, and the chain of blocks.
-- [[wiki/Self Management/Flow State|Focus Management]]. Entry and recovery inside a single block. This page is the baseline that makes those returns cheaper over months.
-- [[wiki/Self Management/Flow State|Flow State]]. The state the deep-work conditions aim at. Covers the state, not the sit.
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination]]. The intention-to-action gap that frontloading is built to close.
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]]. Notice-and-return is already a control-layer move. That page covers the steering.
 - [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]]. Capture design in feeds. A hedge, not a national-decline finding.

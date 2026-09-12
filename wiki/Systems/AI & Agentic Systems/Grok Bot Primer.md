@@ -316,7 +316,7 @@ So, for the person with two public websites, a notes site, and a reading habit, 
 
 ## Related pages
 
-- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]]: the product against the model that shares its name and against Grok Build, and the subscription it comes with
+- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]]: the product against the model that shares its name and against Grok Build, and the subscription it comes with
 - [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]: the maker's how-to pages this setup is choosing against, filed as sketch D and not as a roster; one-finder and finding-as-spec as they showed up in a first-party studio playbook
 - [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]]: named-runner claims with confidence tags
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: why every lane ends with the owner, and why judgment stays there

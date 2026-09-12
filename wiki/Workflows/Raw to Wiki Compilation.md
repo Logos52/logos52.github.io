@@ -71,7 +71,7 @@ Stop the run when a new wiki page turns out to be a long excerpt, or when a conc
 ## Related pages
 
 - [[notes/index|notes/index.md]]: front door. Updated only for a new hub or condensed link.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]: the three-layer pattern.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the three-layer pattern.
 - [[Wiki Health Checks|Wiki Health Checks]]: lint after ingest.
 - [[Question Answering Against a Wiki|Question Answering Against a Wiki]]: the query workflow.
 

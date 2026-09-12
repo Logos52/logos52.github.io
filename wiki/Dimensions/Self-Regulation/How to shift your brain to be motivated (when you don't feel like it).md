@@ -160,11 +160,9 @@ The honest cost: noticing the automatic responses takes days or weeks; the entry
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the dimension this sits inside, monitoring and adjusting the process while the work is happening
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]: waiting on the feeling is one structural cause of not starting; that page treats the whole system
 - [[wiki/Self Management/Flow State|Focus Management]]: entering and recovering inside a block, which is where the extended window is actually spent
-- [[wiki/Self Management/Flow State|Attention Management]]: protecting a block from the interruptions the room cannot remove in advance
 - [[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure|How to Maintain Sustainable Energy Under Pressure]]: what to do when the tiredness is the real kind, the prerequisites this method assumes are in place
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]: the unlearning step in the five-step arc; the cue-to-automatic-action chain this interrupts, and the method for replacing one
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: visible small progress during the weeks the habits are forming; sustains motivation through the build phase by making progress visible
-- [[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure|Recovery]]: what genuine exhaustion asks for instead of another start
 - [[Habits, Productive Routines & PEER]]: the habit system that takes over after the handoff
 
 ## Open questions

@@ -122,22 +122,17 @@ The person is still answerable for the same bar. Answerability now means the fac
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — live stack: three agents by kind of work, no pay-per-token
 - [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]] — names for the loop, the room it runs in, and the chat window; when to use each product
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]] — how this desk runs the standing teammate: one shared computer, report-only helpers, empty middle
-- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]] — the model, the local coding agent, and the standing teammate under one first name
-- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Agent Wrong-Door Log]] — dated misses when a job went to the wrong product
-- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Claude Fable]] — measured operating rules for one model; price, case against, quit, checkable
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]] — natural language as the programming medium; the same artifacts as Software 3.0 objects
+- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model Collaborator]] — measured operating rules for one model; price, case against, quit, checkable
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]] — natural language as the programming medium; the same artifacts as Software 3.0 objects
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]] — owns the four-file breakdown this hub only names
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]] — owns the understanding constraint; this hub names it
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]] — owns window-shaping and the drowning warning
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] — acceleration-needs-direction; layer-below in its original form
 - [[wiki/Concepts/A Return to Code|A Return to Code]] — one-shot-app economics; the two practices stay separate
 - [[wiki/Red Team/Red Teaming|Red Teaming]] — red-team output before trusting it
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] — thirty-second / three-minute / thirty-minute filter for review
 - [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]] — tool versus agent diagram; three-level capability ladder
 - [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]] — routing cheap work to cheap models; the practice this hub is
-- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]] — rival explanation: bad context, not bad model
-- [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|Writing with a Structure Engine]] — uniform confidence across verified and unverified claims
-- [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]] — AI writing works better when it passes through a filter of itself: four separated stages, ending with a fresh head that rewrites the page until a stranger can follow it
+- [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]] — uniform confidence across verified and unverified claims
 
 ## Open Questions
 

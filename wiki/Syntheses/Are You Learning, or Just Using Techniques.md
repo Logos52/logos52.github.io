@@ -260,7 +260,7 @@ How technique failure distributes across the three levels is unmeasured, and nob
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: noticing mid-session drift and steering back
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: encoding quality; home of "what kind of thinking"
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]: effort as a signal
-- [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|The Learning Zone and the Reversion Response]]: the page that assigns the misinterpreted-effort diagnostic here
+- [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]: the page that assigns the misinterpreted-effort diagnostic here
 
 ## Open questions
 

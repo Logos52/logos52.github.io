@@ -117,7 +117,7 @@ The weeks-long exclusivity is still the condition. Working under it means stayin
 ## Related pages
 
 - [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]: sibling field report, factory-not-artifact, smartest-model logic
-- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Software 3.0]]: natural language as a programming medium. The economic consequence is the subject here.
+- [[wiki/Systems/AI & Agentic Systems/Software 3.0|Context Engineering]]: natural language as a programming medium. The economic consequence is the subject here.
 - [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]]: how the uncommoditised layer concentrates
 - [[wiki/Concepts/The Margin Moves to the Serving Layer|The Margin Moves to the Serving Layer]]: the counter-position on which layer is scarce
 - [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: the compounding surface, contracted here to weeks

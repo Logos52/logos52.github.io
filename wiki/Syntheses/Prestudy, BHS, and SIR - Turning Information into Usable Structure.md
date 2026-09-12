@@ -162,7 +162,7 @@ A skipped step produces a named row in the failure table. Structure that starts 
 - [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]: the recognition-to-use ladder
 - [[wiki/Concepts/Memory Handling|Memory Handling]]: shaping information so it can be encoded
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]: why the map goes outside the head
-- [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Flashcards]]: stay narrow; anti-explosion
+- [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Rote Learning and Memorisation]]: stay narrow; anti-explosion
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: upgrade, after-attempt loop
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: upgrade, next improvement small enough to start
 - [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]]: upgrade, session entry and recovery

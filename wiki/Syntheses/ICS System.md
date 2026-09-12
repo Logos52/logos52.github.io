@@ -99,7 +99,7 @@ Outcomes are not yours to hold directly. What can be trusted instead is a track 
 ## Related pages
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]: the five-way diagnostic for finding the weakest link
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|Opening the Black Box of Learning]]: the sibling that owns the metaphor
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: the sibling that owns the metaphor
 - [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]: the later test when the method looks right and results do not move
 - [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]: what happens when natural processing strength outruns strategy
 - [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]]: how a model can accelerate a system without replacing schema formation

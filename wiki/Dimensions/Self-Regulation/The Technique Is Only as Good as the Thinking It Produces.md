@@ -232,11 +232,8 @@ The middle was inspected because conversion had failed. Once a named variable ha
 - [[wiki/Syntheses/ICS System|ICS System]]: five-part diagnosis of the learner (process, retrieve, steer, execute, interpret difficulty) plus a loop for fixing the current limiter
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]: the consumption-versus-thought contrast
 - [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]: recognition is not use
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Building the Radar]]: catching the slide into surface routine
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition as a Skill]]: the loop that inspects the thought process
-- [[wiki/Syntheses/ICS System|How Top Performers Learn]]: a broader mindset for how high performers think about learning, not evidence that the five-step diagnostic separates them
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]]: catching the slide into surface routine
 - [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: the five-step diagnostic is prestudy aimed at the learning system itself
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|First Principles of Learning]]: making processing quality visible
 - [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]: stress-testing by adding load is related to it and is not the same move
 
 ## Open questions

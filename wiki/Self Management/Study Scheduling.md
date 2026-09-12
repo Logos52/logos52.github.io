@@ -100,11 +100,9 @@ Four ways to use this wrongly: a fixed ladder at both ends of the horizon, inter
 - [[Spaced Interleaved Retrieval]]: spacing and interleaving theory, the method menu, and its own four-layer schedule. The pre-assessment interval agrees at three to four weeks.
 - [[Time Management, Attention & Scheduling]]: the cluster hub and the parent home, not a technique dependency.
 - [[Revision]]: Test / Target / Teach, the definition of a gap, and the warning that finding no gaps carries.
-- [[Priority 0+1 System|Building a Schedule That Survives]]: how a block survives a bad day.
-- [[Priority 0+1 System]]: the prioritisation layer. Destination for mis-prioritisation.
-- [[Priority 0+1 System|Task Management]]: collects the day's list before the sort.
+- [[Priority 0+1 System|Priority 0+1 and the Nightly Build]]: how a block survives a bad day.
 - [[Procrastination - a System Problem]]: destination when the block keeps failing.
-- [[Rote Learning and Memorisation|Flashcards]]: the arbitrary-detail rule and the pocket layer.
+- [[Rote Learning and Memorisation|Rote Learning and Memorisation]]: the arbitrary-detail rule and the pocket layer.
 - [[Microlearning System]]: daily discrete pockets. Flashcards get no session of their own.
 
 ## Open questions

@@ -103,8 +103,7 @@ The protocol is slow to write and will feel like delay. It is the wrong tool for
 
 - [[30-Day Challenges]]: month-long practice content a plan can schedule; not this protocol
 - [[Reverse Goal Setting]]: does the goal still serve the outcome underneath
-- [[Reverse Goal Setting|Performance Goals]]: attribute-based checkpoints; why hours-and-pages mislead
-- [[Priority 0+1 System|Building a Schedule That Survives]]: full defense kit for protected blocks
+- [[Priority 0+1 System|Priority 0+1 and the Nightly Build]]: full defense kit for protected blocks
 - [[How to Unlearn Old or Bad Habits Efficiently]]: cue-response surgery behind the scripted actions
 - [[Environment Design]]: trigger-removal and friction
 - [[Rapid Skill Acquisition]]: calibrate pace by the automaticity signal, not a fixed 1:5

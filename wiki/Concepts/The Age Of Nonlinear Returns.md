@@ -137,7 +137,7 @@ A small exchange is still scored by the position it leaves standing. Some fights
 - [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]: the decision calculus this frame uses.
 - [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]: the repair for treating every interest as a compounding surface.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the domain where factory improvements compound across sessions.
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|First Principles of Learning]]: learning as a compounding structure future work attaches to.
+- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]: learning as a compounding structure future work attaches to.
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: the check against hidden system debt and hacky fixes.
 - [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: where a Priority 0 area is defined as an identity surface, not only an interest.
 

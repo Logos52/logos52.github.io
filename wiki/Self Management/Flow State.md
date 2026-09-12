@@ -282,16 +282,15 @@ All of it reduces to holding three things steady while the day pulls at them: th
 - [[wiki/Self Management/Attention Span and Focus Training|Attention Span and Focus Training]]: baseline capacity over months versus today's session; owns the sit, the frontload at length, and active relaxation as daily training reps, the boring-target method.
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]: an unclear next action as a break inside the block, and the named leak at the seam; its week-long audit is a diagnostic, where the daily end-of-day pass covers the same seams more cheaply.
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]: pre-decide so execution is not a decision; the setup list (next action, materials, blocked pulls, fallback) under its own name.
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|Opening the Black Box of Learning]]: in-session noticing made visible as process.
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: in-session noticing made visible as process.
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: notice-and-return as the control layer.
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: earlier detection is a small gain that compounds inside a block.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the noticing half is real-time steering during the work; the preparation half is Self-Management.
 - [[wiki/Self Management/Priority 0+1 System|Priority 0+1 System]]: the evening sort the list-run day is paired with; priority one protected, the rest absorbing the damage.
-- [[wiki/Self Management/Priority 0+1 System|Task Management]]: the other prerequisite, intake and a list that can be ranked.
 - [[wiki/Self Management/Time Management, Attention & Scheduling|Time Management, Attention & Scheduling]]: cluster stub for the umbrella the list-run day argues under.
 - [[wiki/Self Management/Hyper-Focus and Hyper-Distractibility|Hyper-Focus and Hyper-Distractibility]]: when strong focus is the problem rather than the goal.
 - [[wiki/Self Management/The Energize Test|The Energize Test]]: which work belongs in which stretch of energy.
-- [[How to Maintain Sustainable Energy Under Pressure|Recovery]]: break quality, matched to the system that is depleted.
+- [[How to Maintain Sustainable Energy Under Pressure|How to Maintain Sustainable Energy Under Pressure]]: break quality, matched to the system that is depleted.
 
 ## Open questions
 

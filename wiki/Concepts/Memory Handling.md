@@ -75,7 +75,7 @@ If you understood a piece in the moment and cannot rebuild it later, the handlin
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]: why continuing to take in material while the last item is unprocessed overloads working memory
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: the family increase-complexity belongs to
 - [[wiki/Dimensions/Retrieval|Retrieval]]: the hub for retrieve-before-checking and retrieve-in-the-target-context
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]: the offload; that page owns the method
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]: the offload; that page owns the method
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: a full encoding workflow that is handling
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: retrieval as a scheduled practice, not only an immediate check
 - [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]], vault overlay: working memory as a global workspace

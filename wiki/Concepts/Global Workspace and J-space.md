@@ -150,7 +150,6 @@ The workspace is as well established as the deletion result. Multi-step reasonin
 - [[wiki/Concepts/Memory Handling|Memory Handling]]: the learner's working-memory workbench; a small store, everything else elsewhere.
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]: effort as contents competing for the workspace.
 - [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]]: the unconscious-competence handoff is execution leaving the workspace.
-- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]]: extended reasoning as workspace engagement; that page does not cover this paper.
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the context-window-as-working-memory analogy.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: deep work as deliberate manipulation inside the workspace.
 - [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]]: offloading the deliberate workspace is encoding that never happens.

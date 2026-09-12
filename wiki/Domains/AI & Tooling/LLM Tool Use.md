@@ -68,7 +68,6 @@ Each tool listed above is a channel. The work is picking the channel that matche
 
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: how the window is shaped once tools have filled it. LLM Tool Use covers which channels feed the window.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the standard for IDE-agent work. LLM Tool Use does not expand into that hub.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]: the compiled wiki as a readable tool.
 - [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]]: the list of skills this tool list sits under. LLM Tool Use is the tool-pattern page beneath it.
 
 ## Open questions

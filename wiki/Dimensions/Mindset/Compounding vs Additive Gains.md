@@ -85,7 +85,6 @@ A technique you have not practiced counts as a technique you do not know. Knowin
 ## Related pages
 
 - [[Marginal Gains]]: owns stacking, REDO and rate limiters, the machinery for accumulating gains once the removal test has decided which ones are worth stacking.
-- [[Marginal Gains|Marginal Gains in Practice]]: the operating layer, holding the stacking test and the tracking ladder. Procedures stay on that page.
 
 ## Open questions
 

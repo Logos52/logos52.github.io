@@ -146,7 +146,6 @@ The aim is to stop replacing learning with the appearance of learning. The artif
 ## Related pages
 
 - [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]: the related diagnosis of the same failure.
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|First Principles of Learning]]: keeps meta-strategies for overwhelm because this swap turns overwhelm into busywork.
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]: the repair for shortcuts that are cue-response habits.
 - [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: the rule for choosing a method by the cognition it triggers.
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: where the shortcut shows up as surface Aim, Shoot, and Skin.
@@ -154,7 +153,7 @@ The aim is to stop replacing learning with the appearance of learning. The artif
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: after-the-fact naming of the shortcut that just happened.
 - [[wiki/Dimensions/Mindset/Marginal Gains|marginal gain]]: one small change aimed at the shortcut itself.
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]: the same failure on the input side, consuming taken as thinking.
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Building the Radar]]: the noticing skill that catches the shortcut while it happens.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]]: the noticing skill that catches the shortcut while it happens.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: parent of the radar and the overwhelm layer.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: parent of Bear Hunter System.
 - [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Chunking as a Technique]]: the real work a clean map is supposed to have done.

@@ -245,7 +245,7 @@ The class still picks the repair. Which classes a matcher can reach will move. T
 
 ## Related pages
 
-- [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|Writing with a Structure Engine]]: the workflow the four classes were sorted out of, and the division of labor that decides who writes first when the spec lives in the operator's head.
+- [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]]: the workflow the four classes were sorted out of, and the division of labor that decides who writes first when the spec lives in the operator's head.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]]: the twice-means-a-missing-rule instruction this record qualifies; the doctrine layer that files the five invariants on the durable side and the model facts on the dated-tactics side.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the hub the five rules serve.
 - [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]]: why the accountable call stays human; the discriminator (who pays if it is wrong) that routes interpretation to the human.

@@ -124,7 +124,7 @@ The writer who produced that sentence was checking against knowledge that alread
 
 ## Related pages
 
-- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|The Prohibition Loop]]: why a new ban, even an accurate one, leaves the writer in the same act.
+- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model Collaborator]]: why a new ban, even an accurate one, leaves the writer in the same act.
 - [[wiki/Writing Craft/Opening Doors|Opening Doors]]: the same failure at paragraph scale. An opening eases the reader in and then dumps the page's parts as a list.
 - [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]]: one account of opaque writing treats the writer as narrating a trade he can no longer imagine not knowing.
 - [[wiki/Writing Craft/The Cold Open|The Cold Open]]: when sentence one can carry the whole claim, and when it cannot because the claim's own terms are not parseable yet. A context problem is what happens when that run-up is skipped, in an opening or anywhere else.

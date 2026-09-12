@@ -133,8 +133,8 @@ The check is a bottleneck that can be named in one sentence, and a next session 
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: real-time monitoring and adjustment.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: encoding quality, transforming information into usable structure.
 - [[wiki/Dimensions/Retrieval|Retrieval]]: reconstructing and using knowledge when it is needed.
-- [[wiki/Syntheses/ICS System|How Top Performers Learn]]: the engineering stance behind the model, learning as a designed process.
-- [[wiki/Dimensions/30-Day Challenges|Dimension Practice Tracks]]: four-step practice sequences once a limiter is named.
+- [[wiki/Syntheses/ICS System|ICS System]]: the engineering stance behind the model, learning as a designed process.
+- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]: four-step practice sequences once a limiter is named.
 
 ## Sources
 

@@ -79,9 +79,8 @@ A return to code is a return only when the program runs and the operator can sti
 
 - [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]: the fast creative loop that turns a wanted behavior into a file you can run.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the professional quality system around that loop; the two stay separate.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]: the broader frame, software as English plus models.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the broader frame, software as English plus models.
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]: what the surrounding stack has to look like for agents to run commands and edit files.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: giving the agent enough context to match model to task.
 - [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]: operator craft for calling tools from a model.
 
 ## Sources

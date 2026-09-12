@@ -109,12 +109,11 @@ Automatic means this version of the skill runs without effort. It does not mean 
 
 - [[Encoding and Retrieval]]: the confidence drop on entering CI, when the mistakes become visible.
 - [[Confidence Calibration]]: how to read that drop and keep practicing through it.
-- [[Marginal Gains|Pacing Skill Development]]: the how-many-at-once rule that the add-only-near-automatic rule sits inside.
+- [[Marginal Gains|Marginal Gains]]: the how-many-at-once rule that the add-only-near-automatic rule sits inside.
 - [[Knowledge Mastery - From Recognition to Usable Knowledge]]: the knowledge-side diagnostic. Understanding is not mapped onto these stages.
-- [[Marginal Gains]]: the path, the next improvement small enough to see, stacked.
 - [[Kolbs Experiential Cycle]]: the procedure that produces each gain.
 - [[Rapid Skill Acquisition]]: speed-up without effort as the sign of the move from CC to UC.
-- [[Metacognition - The Control Layer|Metacognition as a Skill]]: the trainable skill of reading which stage a skill is in and sizing the next gain.
+- [[Metacognition - The Control Layer|Metacognition - The Control Layer]]: the trainable skill of reading which stage a skill is in and sizing the next gain.
 - [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]]: why UC frees attention. Execution has left the deliberate workspace.
 
 ## Open questions

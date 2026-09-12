@@ -117,7 +117,7 @@ Across about eight weeks, a miss that used to take days to come back from now ta
 - [[wiki/Dimensions/Retrieval|Retrieval]]: failed recall as data rather than personal failure
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: honest diagnosis without self-attack
 - [[wiki/Dimensions/Self-Management|Self-Management]]: planning failures stay planning failures, not identity
-- [[wiki/Dimensions/30-Day Challenges|Dimension Practice Tracks]]: the four-step mindset track
+- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]: the four-step mindset track
 
 ## Sources
 

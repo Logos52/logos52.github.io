@@ -188,8 +188,7 @@ Two checks show the system works: a morning file that can be acted on without re
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]]: the decision between supervising the agent and letting it run.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the doctrine of specs, verification, and a standard a human sets. Cowork is one implementation.
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]: the live split. Cowork makes judgments, the coding agent executes, the cloud bot does the always-on monitoring.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]: why a compiled markdown wiki is the context layer agents should read.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the right context at the right level of detail, covered in more depth.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: why a compiled markdown wiki is the context layer agents should read.
 - [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]]: the local-agent rung on that page's ladder of skills. Cowork is the worked example.
 - [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]]: the related page on conduct and on keeping the thinking with the user.
 - [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]: Cowork as a work OS is not vibe coding applied to a person's life.

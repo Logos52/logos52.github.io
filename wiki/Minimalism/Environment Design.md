@@ -110,7 +110,6 @@ After a real change, the desk, the cued file, and the clothes are what start the
 ## Related pages
 
 - [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]]: competing cues inside a work block. Environment design removes them before the block starts.
-- [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]: friction between blocks. Visible defaults are the preparation named there as environments set before execution time.
 - [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]: parent hub. It holds reserve capacity, the occupancy curve, and the cluster map.
 - [[wiki/Minimalism/Ownership Cost|Ownership Cost]]: why storage hiding fails. A stored object still costs. The seven-cost table is on that page.
 

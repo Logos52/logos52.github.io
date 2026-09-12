@@ -121,7 +121,7 @@ The live risk is sprawl across overlapping tools. The discipline is mastering a 
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]], owns the Level 3 coding doctrine; this page points to it.
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]], live proof of Level 2: a desktop file-agent, a coding agent, a standing cloud bot.
 - [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]], the sibling page on conduct and on not outsourcing your thinking.
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]], compiled context as memory.
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]], compiled context as memory.
 - [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]], what lipstick on a pig looks like in code.
 
 ## Open questions

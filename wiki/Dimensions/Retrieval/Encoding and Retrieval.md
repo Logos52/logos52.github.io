@@ -80,7 +80,7 @@ Later retrievals take less time as the first pass improves. They do not stop. Th
 - [[Interleaving Table]]: the method menu. This page does not teach formats.
 - [[Revision]]: the first retrieval loop.
 - [[Higher-Order Learning]]: what interleaved retrieval is supposed to force even before encoding skill arrives.
-- [[Schema|Survive and Thrive]]: a sibling page on encoding quality, about what survives pruning.
+- [[Schema|Schema]]: a sibling page on encoding quality, about what survives pruning.
 - [[Bear Hunter System]]: the encoding method that eventually reduces retrieval load.
 
 ## Open questions

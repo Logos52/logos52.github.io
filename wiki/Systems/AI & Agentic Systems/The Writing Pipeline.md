@@ -162,7 +162,6 @@ What survives both objections: hand the model structure, verify its specifics, m
 ## Related pages
 
 - [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]]: the memory limits the pipeline turns into an advantage, and the triage layer under this workflow; four classes, and the class picks the repair.
-- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|The Prohibition Loop]]: why a rule can be obeyed while the fault stands, which is the failure the stages replaced.
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the general craft of deciding what a head gets to see.
 - [[wiki/Concepts/The Same Model Twice|The Same Model Twice]]: operator memory failing at the same rate as the model's.
 - [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]]: human eye last, on taste.

@@ -45,8 +45,8 @@ const topOfMind: Mind[] = [
   {
     q: 'Whether an agent can be made to show its reading of an ask, forks and discards included, before the reading becomes work',
     links: [
-      L('Least-Cost Interpretation', 'wiki/Systems/AI & Agentic Systems/Least-Cost Interpretation'),
-      L('Working With a Model That Cannot Remember', 'wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember'),
+      L('Working With a Model Collaborator', 'wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember'),
+      L('Automatic and Deliberate Work with AI', 'wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI'),
       L('Higher-Order Generativity vs Judgment', 'wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment'),
     ],
   },
@@ -108,7 +108,7 @@ type Door = { intent: string; icon: string; title: string; sub: string; color: s
 const startHere: Door[] = [
   { intent: 'Understand', icon: 'ti-bulb',      title: 'Build the Factory',            sub: 'When agents do the work, you build the system that ships it.',      color: 'var(--i-understand)', slug: 'wiki/Concepts/The-AI-Industrial-Revolution' },
   { intent: 'Apply',      icon: 'ti-robot',     title: 'Raise the Floor',              sub: 'Ask in plain language; the agent edits, runs, iterates.',          color: 'var(--i-apply)',      slug: 'wiki/Systems/AI & Agentic Systems/Vibe-Coding' },
-  { intent: 'Learn',      icon: 'ti-school',    title: 'Self Correction',              sub: 'See three levels at once, and adjust when a technique stalls.',     color: 'var(--i-learn)',      slug: 'wiki/Syntheses/First-Principles-of-Learning' },
+  { intent: 'Learn',      icon: 'ti-school',    title: 'Self Correction',              sub: 'See three levels at once, and adjust when a technique stalls.',     color: 'var(--i-learn)',      slug: 'wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques' },
   { intent: 'Decode',     icon: 'ti-language',  title: '立 — Three Jobs, One Shape',    sub: 'Meaning in 端, sound in 拉, empty in 音 — the role is per character.', color: 'var(--i-decode)',     slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work' },
   { intent: 'Explore',    icon: 'ti-affiliate', title: 'Follow the Threads',           sub: 'Which notes are hubs, and how the six domains connect.',                color: 'var(--i-explore)',    href: '/map/' },
 ];
@@ -133,8 +133,8 @@ const lifeHubs: Hub[] = [
 ];
 const executionHubs: Hub[] = [
   { title: 'Agentic Engineering', icon: 'ti-robot', color: 'var(--d-agentic)', slug: 'wiki/Systems/AI & Agentic Systems/Agentic-Engineering', countPrefix: 'wiki/Systems/AI & Agentic Systems' },
-  { title: 'Learning Systems', icon: 'ti-network', color: 'var(--d-learning)', slug: 'wiki/Syntheses/First-Principles-of-Learning', countPrefix: 'wiki/Syntheses' },
-  { title: 'Focus Management', icon: 'ti-target', color: 'var(--d-focus)', slug: 'wiki/Self-Management/Focus-Management---How-to-Enter--and--Recover-Inside-a-Work-Block', countPrefix: 'wiki/Self Management' },
+  { title: 'Learning Systems', icon: 'ti-network', color: 'var(--d-learning)', slug: 'wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques', countPrefix: 'wiki/Syntheses' },
+  { title: 'Focus Management', icon: 'ti-target', color: 'var(--d-focus)', slug: 'wiki/Self-Management/Flow-State', countPrefix: 'wiki/Self Management' },
   { title: 'Decision Making', icon: 'ti-checklist', color: 'var(--d-gen)', slug: 'wiki/Decision-Making/Decision-Making', countPrefix: 'wiki/Decision Making' },
   { title: 'Generativity', icon: 'ti-bulb', color: 'var(--d-mind)', slug: 'wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment', countPrefix: 'wiki/Concepts' },
   { title: 'Worldviews', icon: 'ti-scale', color: 'var(--d-mind)', slug: 'wiki/Worldviews & the Political Order/Worldviews & the Political Order', countPrefix: 'wiki/Worldviews & the Political Order' },

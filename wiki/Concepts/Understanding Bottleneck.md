@@ -60,9 +60,8 @@ The wiki should answer the questions the person already has. It should also prod
 ## Related pages
 
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: the control layer, the steering that the bottleneck names, as distinct from producing output
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]: the wiki-as-projections setup the conversation describes
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the wiki-as-projections setup the conversation describes
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the work being directed; the understanding bottleneck is the human limit on that work
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: how the human's understanding gets into the agent's window
 
 ## Open questions
 

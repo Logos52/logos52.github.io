@@ -130,9 +130,7 @@ The lost time comes from time without edges. The repair is to put a corner back:
 ## Related pages
 
 - [[wiki/Self Management/Flow State|Attention Management]]: feeds as machines that fragment the whole day, beyond distractions inside a work block
-- [[wiki/Self Management/Flow State|Focus Management]]: shallow re-entry and slow recovery
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]: the unplanned gap the feed enters through
-- [[wiki/Self Management/Flow State|Flow State]]: feeds as things that break a route
 - [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]: digital feeds as inventory
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]: a session with no remembered model and no action is consumption
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]]: the right-angle turn of noticing that the purpose is gone
