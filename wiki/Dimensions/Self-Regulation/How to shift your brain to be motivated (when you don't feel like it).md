@@ -3,7 +3,7 @@ title: "How to shift your brain to be motivated (when you don't feel like it)"
 type: technique
 status: developing
 created: 2026-05-14
-updated: 2026-09-11
+updated: 2026-09-13
 written-by: grok
 model: grok
 method: plain-rewrite-2026-09-11
@@ -164,6 +164,7 @@ The honest cost: noticing the automatic responses takes days or weeks; the entry
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]: the unlearning step in the five-step arc; the cue-to-automatic-action chain this interrupts, and the method for replacing one
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: visible small progress during the weeks the habits are forming; sustains motivation through the build phase by making progress visible
 - [[Habits, Productive Routines & PEER]]: the habit system that takes over after the handoff
+- [[wiki/Fitness/Fitness Mindsets|Fitness Mindsets]]: the same moves applied to training and eating, such as noticing that a craving is a feeling, starting smaller than you want, and taking the snack out of the room
 
 ## Open questions
 

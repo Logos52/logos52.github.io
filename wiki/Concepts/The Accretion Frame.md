@@ -3,7 +3,7 @@ title: "The Accretion Frame"
 type: concept
 status: draft
 created: 2026-07-21
-updated: 2026-09-11
+updated: 2026-09-13
 method: plain-rewrite-2026-09-11
 prose-model: fable
 written-by: grok
@@ -123,6 +123,7 @@ Wanting to return still comes from structure. The structure has to include how t
 - [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|DFUZ]]: reserve move for a cold start, never the daily motor
 - [[wiki/Fitness/Movement as Accretion|Movement as Accretion]]: the first live conversion of this frame
 - [[wiki/Fitness/The Treadmill Library|The Treadmill Library]]: the listening arm of that conversion
+- [[wiki/Fitness/Fitness Mindsets|Fitness Mindsets]]: rules for keeping training and eating going for years, such as saying no and fixed time slots. It tracks the body for a few weeks, while this frame keeps the body untracked.
 
 ## Open questions
 

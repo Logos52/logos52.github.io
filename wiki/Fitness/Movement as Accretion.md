@@ -4,7 +4,8 @@ type: personal
 status: experiment
 blurb: "Showing up rewards itself when something grows, and absence needs no punishment at all."
 created: 2026-07-21
-updated: 2026-07-22
+updated: 2026-09-13
+prose-model: opus (the 2026-09-13 paragraphs only)
 tags:
   - fitness
   - mindset
@@ -30,6 +31,12 @@ Movement that produces material. A walk that leaves something behind stops being
 Movement that produces data to work on together. Part of why the AI days pull is the company: the collaboration itself is fun, and it stays at the desk while the walking happens alone. If sessions produce something that comes back to the desk — routes, times, whatever turns out to be interesting — the movement feeds the collaboration and the collaboration feeds back: patterns found, next experiments designed, the numbers becoming a small shared project of their own. What the data is matters less than the loop existing; the habit worth building is bringing something back.
 
 Movement as a tech tree. Capacity drawn as a structure that grows — first unbroken hour, first hill route, first weighted carry, branches opening off branches. A tree only ever shows what exists; a ring only ever shows today's shortfall. Nodes don't decay when a week goes quiet. The structure waits, whole, for the next addition.
+
+Working at the computer with the AI feels productive and good. A workout does not feel good afterwards. It makes me sweaty, so there is more laundry and more showering. Training feels more like a hassle than anything else. A session costs less when it is calm cardio. Calm cardio keeps the heart rate low, does not cause sweating, and lowers stress. Without the sweat, the session adds nothing to the laundry or the showering. Walking, walking around in a pool, and paddle boarding are examples. Hard, sweaty cardio is not needed to get lean. The rules on why to train, and on keeping training low in effort and sweat, are in [[wiki/Fitness/Fitness Mindsets|Fitness Mindsets]].
+
+The walk that fills a map takes a concrete form as a walk every day, which is calm cardio. Each walk adds its streets to the map. Walking every day costs no mental energy. It is good for the joints and the mood. It does not raise hunger the way running does.
+
+The tech tree takes a concrete form as a training log. The log records the sets, reps and weight of every exercise. Each session tries to beat the one before. After a month off, a dated best still means something, unlike a closed ring or a chain of days in a row. A sport alongside the gym, such as a combat sport, fits the tree too. The sport and the gym each teach movements the other one uses. Climbing, skating, dance and martial arts also fit, because the skill in each one keeps growing. The group of people around each of those sports provides the structure. Without the other people, starts get slower.
 
 The test for any of these is the pull, not the compliance. Three weeks in, the honest question is whether the sessions started wanting to happen — whether a skipped day produces that same specific regret, pointed at a map that didn't fill in. If it doesn't, the artifact was decoration and the fix is a different artifact, not more discipline; that reframe matters, because the old frame spends every failure on willpower. The other thing to watch is quieter: any of these can turn back into a number that can be failed. The moment checking the map starts feeling like owing the map something, the maintenance engine has snuck back in wearing project clothes.
 
