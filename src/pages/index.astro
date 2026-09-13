@@ -43,7 +43,7 @@ type Mind = { q: string; links: { t: string; href: string }[] };
 const L = (t: string, p: string) => ({ t, href: slugToUrl(slugifyFilePath(p)) });
 const topOfMind: Mind[] = [
   {
-    q: 'Whether an agent can be made to show its reading of an ask, forks and discards included, before the reading becomes work',
+    q: 'Whether an agent can be made to state its reading of an ask, including the other readings it considered and rejected, before it acts on that reading',
     links: [
       L('Working With a Model Collaborator', 'wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember'),
       L('Automatic and Deliberate Work with AI', 'wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI'),
@@ -51,7 +51,7 @@ const topOfMind: Mind[] = [
     ],
   },
   {
-    q: 'Whether every story that lasts keeps the same loop at its center, where arcs forge a moral core and the moral core is tested by the arcs',
+    q: "Whether every story that lasts has arcs that create a character's moral core and later arcs that test it",
     links: [
       L('Tsumugu', 'wiki/Tsumugu/Tsumugu'),
       L('The Moral Core', 'wiki/Story Craft/The Moral Core'),
@@ -59,7 +59,7 @@ const topOfMind: Mind[] = [
     ],
   },
   {
-    q: 'Personal items — movement, the uniform, and travel, written for my own growth',
+    q: 'Personal items: movement, my daily uniform, and travel, written for my own growth',
     links: [
       L('Movement as Accretion', 'wiki/Fitness/Movement as Accretion'),
       L('The Personal Uniform', 'wiki/Fashion/The Personal Uniform'),
@@ -68,7 +68,7 @@ const topOfMind: Mind[] = [
     ],
   },
   {
-    q: 'Worldviews and the political order — which defenses of a contested position still hold once the reasoning is examined',
+    q: 'Worldviews and the political order: which defenses of a contested position remain valid once the reasoning is examined',
     links: [
       L('Worldviews & the Political Order', 'wiki/Worldviews & the Political Order/Worldviews & the Political Order'),
       L('Validity and Truth', 'wiki/Worldviews & the Political Order/Validity and Truth'),
@@ -106,11 +106,11 @@ if (topOfMind.length > 4)
 // dark override. Five doors cover all three hero domains: learning · agentic · language.
 type Door = { intent: string; icon: string; title: string; sub: string; color: string; slug?: string; href?: string };
 const startHere: Door[] = [
-  { intent: 'Understand', icon: 'ti-bulb',      title: 'Build the Factory',            sub: 'When agents do the work, you build the system that ships it.',      color: 'var(--i-understand)', slug: 'wiki/Concepts/The-AI-Industrial-Revolution' },
-  { intent: 'Apply',      icon: 'ti-robot',     title: 'Raise the Floor',              sub: 'Ask in plain language; the agent edits, runs, iterates.',          color: 'var(--i-apply)',      slug: 'wiki/Systems/AI & Agentic Systems/Vibe-Coding' },
-  { intent: 'Learn',      icon: 'ti-school',    title: 'Self Correction',              sub: 'See three levels at once, and adjust when a technique stalls.',     color: 'var(--i-learn)',      slug: 'wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques' },
-  { intent: 'Decode',     icon: 'ti-language',  title: '立 — Three Jobs, One Shape',    sub: 'Meaning in 端, sound in 拉, empty in 音 — the role is per character.', color: 'var(--i-decode)',     slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work' },
-  { intent: 'Explore',    icon: 'ti-affiliate', title: 'Follow the Threads',           sub: 'Which notes are hubs, and how the six domains connect.',                color: 'var(--i-explore)',    href: '/map/' },
+  { intent: 'Understand', icon: 'ti-bulb',      title: 'What Engineers Build Now',            sub: 'When agents do the work, you build the system that ships it.',      color: 'var(--i-understand)', slug: 'wiki/Concepts/The-AI-Industrial-Revolution' },
+  { intent: 'Apply',      icon: 'ti-robot',     title: 'More People Can Build Software',              sub: 'Ask in plain language, and an agent edits, runs, and iterates.',          color: 'var(--i-apply)',      slug: 'wiki/Systems/AI & Agentic Systems/Vibe-Coding' },
+  { intent: 'Learn',      icon: 'ti-school',    title: 'Self Correction',              sub: "See a session's three levels at once; adjust a technique that stops helping.",     color: 'var(--i-learn)',      slug: 'wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques' },
+  { intent: 'Decode',     icon: 'ti-language',  title: '立: One Shape With Three Jobs',    sub: 'It gives meaning in 端, sound in 拉, and is empty in 音. Its role differs by character.', color: 'var(--i-decode)',     slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work' },
+  { intent: 'Explore',    icon: 'ti-affiliate', title: 'See How Notes Link',           sub: 'Which notes are hubs, and how notes in six domains connect.',                color: 'var(--i-explore)',    href: '/map/' },
 ];
 
 type Hub = { title: string; icon: string; color: string; slug: string; tag?: string; countPrefix?: string };
@@ -157,25 +157,25 @@ const projectUpdates: UpdateDay[] = [
       {
         title: 'The Floor Rose, the Ceiling Is the Job',
         blurb:
-          'Vibe coding lowers the floor of who can build software, and anyone can ship a working app in an afternoon. The ceiling stays a job: whether the result is correct, secure, and worth building, judged by someone who knows what correct looks like.',
+          'Vibe coding lowers the skill needed to build software, and anyone can ship a working app in an afternoon. Judging whether the app is correct, secure, and worth building is still a job. That job takes someone who knows what correct looks like.',
         slug: 'journal/2026-07-03-the-floor-rose-the-ceiling-is-the-job',
       },
       {
         title: 'Doctrine With a Half-Life',
         blurb:
-          'AI advice rots fast, but not evenly. Splitting notes into invariants and dated tactics keeps them trustworthy: claims about what stays human in one section, today’s model-specific tricks stamped with a date in the other.',
+          'Advice about AI goes out of date quickly, and some of it faster than the rest. Notes stay trustworthy when split into two sections. One section holds invariants: what stays human. The other holds dated tactics: today’s model-specific tricks, stamped with a date.',
         slug: 'journal/2026-07-03-doctrine-with-a-half-life',
       },
       {
         title: 'Automation and the Job Iceberg',
         blurb:
-          'Sixty years of census data record exactly one job eliminated outright by automation. The rest were transformed or multiplied, and 60% of today’s jobs did not exist 50 years ago. Whether a role gets augmented or replaced turns on whether it can absorb responsibility.',
+          'Sixty years of census data record exactly one job that automation eliminated outright. Other jobs were transformed or grew in number, and 60% of today’s jobs did not exist 50 years ago. Whether a role is augmented or replaced depends on whether it can take on more responsibility.',
         slug: 'wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg',
       },
       {
         title: 'Mindset, Condensed',
         blurb:
-          'The mindset corpus compressed to doctrine: difficulty read as fuel, mistakes as the mechanism of improvement, motivation as startup fuel with defusion carrying the daily load, and gains judged by whether they compound.',
+          'The mindset corpus stated as doctrine: difficulty read as a sign of where improvement can happen, mistakes as the way improvement happens, motivation used to start a habit and defusion used day to day, and gains judged by whether they compound.',
         slug: 'wiki/Dimensions/Mindset/Mindset, Condensed',
       },
     ],
@@ -186,7 +186,7 @@ const projectUpdates: UpdateDay[] = [
       {
         title: 'Usable Intelligence: Sonnet 5 vs Opus 4.8',
         blurb:
-          "For controlled-vocabulary authoring behind a fail-closed gate, Sonnet 5 becomes the default author at 0.6 times Opus 4.8's per-token price with near-identical first-pass gate rates, and Opus stays the orchestrator and the fallback for calls the gate cannot verify.",
+          "For controlled-vocabulary authoring checked by a fail-closed gate, Sonnet 5 becomes the default author: it costs 0.6 times Opus 4.8's per-token price and passes the gate on the first try at nearly the same rate. Opus stays the orchestrator and the fallback for calls the gate cannot verify.",
         slug: 'journal/2026-07-01-usable-intelligence-sonnet-5-vs-opus-4-8',
       },
     ],
@@ -197,13 +197,13 @@ const projectUpdates: UpdateDay[] = [
       {
         title: 'Human vs AI Capability Lens',
         blurb:
-          'Every capability scores on two independent axes, Human and AI, each broken into five facets, and lands in one of four zones: Own, Augment, Delegate, or Low-leverage.',
+          'Every capability scores on two independent axes, Human and AI, each divided into five facets, and the two scores place it in one of four zones: Own, Augment, Delegate, or Low-leverage.',
         slug: 'wiki/Concepts/Human vs AI Capability Lens',
       },
       {
         title: 'Design Two-Track Extraction',
         blurb:
-          'Two design books split into an Agent Track of 66 executable UI rules and a Human Track of 35 taste-and-judgment calls.',
+          'Techniques from two design books, sorted into an Agent Track of 66 executable UI rules and a Human Track of 35 taste-and-judgment calls.',
         slug: 'wiki/Design/Design Two-Track Extraction',
       },
     ],
@@ -214,19 +214,19 @@ const projectUpdates: UpdateDay[] = [
       {
         title: 'Story Cards as Memory Scenes',
         blurb:
-          "The dictionary's Story card becomes a single-character memory scene, carrying only the residue the Form card leaves: the arbitrary binding of components and the part of the sound the phonetic series does not predict.",
+          'In the Tsumugu Encoding Dictionary, the Story card becomes a memory scene for one Chinese character. It holds only what the Form card does not explain: the arbitrary way the components combine, and the part of the sound the phonetic series does not predict.',
         slug: 'journal/story-cards-as-memory-scenes',
       },
       {
         title: 'The First Principles of the Story Card',
         blurb:
-          'The rules a memory scene must obey reduce to two axes that generate every card: thirty character situations crossed with forty-two memory levers.',
+          'The rules a memory scene must follow come down to two axes, and every card combines the two: thirty character situations and forty-two memory techniques, called levers.',
         slug: 'journal/first-principles-of-the-story-card',
       },
       {
         title: 'The Story-Card Catalog',
         blurb:
-          'Those two axes generate thirty-four card archetypes, the working set a future authoring agent selects from and extends.',
+          'Thirty character situations crossed with forty-two memory techniques give thirty-four card archetypes that a future authoring agent picks from and extends.',
         slug: 'journal/the-story-card-catalog',
       },
     ],

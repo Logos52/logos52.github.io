@@ -51,13 +51,13 @@ const groups: { key: Status; label: string }[] = [
 const projectSeeds = projects.filter((p) => p.status === 'current').map((p) => p.slug);
 ---
 
-<Base title="Projects" description="Learning systems, agentic engineering, personal tooling." active="projects">
+<Base title="Projects" description="Projects in learning systems, agentic engineering, and personal tooling." active="projects">
   <main class="projects-page">
     <div class="wrap projects-grid">
       <div class="projects-main">
         <header class="head">
           <h1>Projects</h1>
-          <p class="head__lede">Learning systems, agentic engineering, personal tooling.</p>
+          <p class="head__lede">Projects in learning systems, agentic engineering, and personal tooling.</p>
         </header>
         {groups.map((g) => {
           const items = projects.filter((p) => p.status === g.key);

@@ -12,7 +12,7 @@ import { slugifyFilePath, slugToUrl } from '../lib/slug';
 const href = (slug: string) => slugToUrl(slugifyFilePath(slug));
 ---
 
-<Base title="Notes" description="Entry points into the wiki — doctrine pages, hubs, and orientation." active="notes">
+<Base title="Notes" description="Entry points into the wiki: doctrine pages, hubs, and orientation." active="notes">
   <main class="notes-page">
     <div class="wrap">
       <Constellation mode="full" height="clamp(340px, 56vh, 580px)" />
@@ -23,15 +23,14 @@ const href = (slug: string) => slugToUrl(slugifyFilePath(slug));
         </p>
 
         <h2 class="notes-head">Condensed</h2>
-        <p class="notes-sub">One rule per line — each corpus compressed to doctrine with links to the pages that own it.</p>
+        <p class="notes-sub">One rule per line: each corpus condensed into doctrine, with links to the pages each rule comes from.</p>
         <ul class="entry-list">
           {CONDENSED_ENTRIES.map((e) => (
             <li>
               <a href={href(e.slug)}>
                 <Icon name={e.icon} size="17px" class="entry-list__icon" style={`color:${e.color}`} />
                 <span class="entry-list__body">
-                  <span class="entry-list__title">{e.title}</span>
-                  <span class="entry-list__blurb"> — {e.blurb}</span>
+                  <span class="entry-list__title">{e.title}</span><span class="entry-list__blurb">: {e.blurb}</span>
                 </span>
               </a>
             </li>
@@ -39,15 +38,14 @@ const href = (slug: string) => slugToUrl(slugifyFilePath(slug));
         </ul>
 
         <h2 class="notes-head">Hubs</h2>
-        <p class="notes-sub">Cluster entry points — where a topic fans out into techniques, concepts, and related pages.</p>
+        <p class="notes-sub">Entry pages for topic clusters, linking each topic to its techniques, concepts, and related pages.</p>
         <ul class="entry-list">
           {HUB_ENTRIES.map((e) => (
             <li>
               <a href={href(e.slug)}>
                 <Icon name={e.icon} size="17px" class="entry-list__icon" style={`color:${e.color}`} />
                 <span class="entry-list__body">
-                  <span class="entry-list__title">{e.title}</span>
-                  <span class="entry-list__blurb"> — {e.blurb}</span>
+                  <span class="entry-list__title">{e.title}</span><span class="entry-list__blurb">: {e.blurb}</span>
                 </span>
               </a>
             </li>
