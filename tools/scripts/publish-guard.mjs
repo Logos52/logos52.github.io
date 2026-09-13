@@ -48,8 +48,10 @@ const SOFT = [
   { name: "dollar amount", re: /\$[0-9][0-9,]*\.[0-9]{2}\b/ },
 ];
 
+// core.quotepath=false: without it git prints a path holding a non-ASCII character (an em dash)
+// as a quoted octal string, `git show` cannot find that name, and the file is skipped unscanned.
 const gitLines = (args) =>
-  execFileSync("git", args, { encoding: "utf8" }).split("\n").map((s) => s.trim()).filter(Boolean);
+  execFileSync("git", ["-c", "core.quotepath=false", ...args], { encoding: "utf8" }).split("\n").map((s) => s.trim()).filter(Boolean);
 
 // Private/ignored path prefixes, derived from the shared denylist (single source of truth:
 // src/lib/ignore-patterns.mjs — replicated 1:1 from the former quartz.config.ts ignorePatterns).

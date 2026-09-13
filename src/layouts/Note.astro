@@ -271,6 +271,8 @@ const hasAside = true;
     color: var(--accent);
     text-decoration: none;
     border-bottom: 1px solid color-mix(in oklab, var(--accent) 35%, transparent);
+    /* a bare URL is one unbroken word; without this it runs past a phone screen */
+    overflow-wrap: anywhere;
   }
   .kb-prose a:hover {
     border-bottom-color: var(--accent);
@@ -331,6 +333,10 @@ const hasAside = true;
     font-family: var(--sans);
     font-size: var(--kb-text-base);
     margin: 0 0 18px;
+    /* a table wider than the column scrolls inside its own box, not the whole page */
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
   }
   .kb-prose th,
   .kb-prose td {
