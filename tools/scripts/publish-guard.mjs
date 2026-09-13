@@ -39,7 +39,10 @@ const HARD = [
     re: /(?:access[_-]?token|api[_-]?key|secret[_-]?key|client[_-]?secret)["']?\s*[:=]\s*["']?[A-Za-z0-9_\-]{16,}/i,
   },
 ];
-const SENSITIVE_TAGS = ["finances", "budget", "money", "private", "secret", "secrets", "salary", "networth"];
+// "money" is not on this list (owner ruling 2026-09-13): it tags public topic pages such as Define Enough
+// and The Savings Rate Is the Master Lever, which hold no personal figures. Personal financial data is
+// caught by the finances/budget/salary/networth tags and by the HARD patterns above.
+const SENSITIVE_TAGS = ["finances", "budget", "private", "secret", "secrets", "salary", "networth"];
 const SOFT = [
   { name: "named financial institution", re: /\b(Apple Card|Charles Schwab|USAA|Wells Fargo|Capital One)\b/ },
   { name: "dollar amount", re: /\$[0-9][0-9,]*\.[0-9]{2}\b/ },

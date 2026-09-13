@@ -398,6 +398,7 @@ Three ways to keep content off the public site, strongest first:
 
 Enforcement — defense-in-depth, see `tools/scripts/publish-guard.mjs`:
 
+- **The `money` tag is a topic label, not a privacy signal** (ruled 2026-09-13). It marks public pages about money ideas and stays off `SENSITIVE_TAGS` in the guard and in `src/pages/tags/[tag].astro`. Personal financial data is still private under rule 1 above; tag it `finances`, `budget`, `salary`, or `networth` if it must be flagged, and keep it out of the repo.
 - **Pre-commit hook** (`.githooks/pre-commit`, enable once with `git config core.hooksPath .githooks`) blocks committing private/financial content into publish-eligible paths *before it reaches the public repo*. First and most important line.
 - **Deploy guard** — `deploy.yml` runs the guard on the built `public/` output after `astro build`; a leak fails the job and blocks the deploy.
 - **Source audit** — `npm run guard:source` flags private content that is tracked-but-unrendered (raw-exposed on the public repo). Run periodically; the fix is to gitignore those folders.
