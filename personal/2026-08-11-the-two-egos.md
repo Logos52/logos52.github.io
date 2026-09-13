@@ -3,8 +3,10 @@ title: "The Two Egos"
 type: personal
 status: note
 created: 2026-08-11
-updated: 2026-08-11
-description: "Ego turned out to be two words, and this section exists because of the second one."
+updated: 2026-09-13
+method: plain-register-2026-09-13
+prose-model: opus
+description: "The word ego has two meanings, self-regard and the author being present in the work, and this section exists because of the second one."
 tags:
   - mindset
   - personal
@@ -12,8 +14,8 @@ tags:
 
 # The Two Egos
 
-This site ran for months on a simple rule: keep the self out of the notes. The rule came from good instincts — an author's ego in a piece of work is hard to like, and the safest distance from it is zero. The notes stayed clean, organized, impersonal. And slowly they began to read like anyone could have built them, which for a second brain is a strange kind of failure. The one thing a second brain shouldn't be is anyone's.
+For months this site followed a simple rule: keep the self out of the notes. The rule came from a sound instinct. Readers find an author's ego in a piece of work hard to like, and the surest way to avoid it was to leave the author out completely. The notes stayed clean, organized, and impersonal. Over time they started to read as if anyone could have built them. For a second brain that is an unusual failure, because a second brain should not read as if it could belong to anyone.
 
-Working the tension out split the word in two. [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]] carries the full derivation; the short version is that the ego worth disliking — self-regard, the author asking to be admired — was never the same substance as the author being present at all. For me the two had always been one dial, one quantity to turn down until the work is polite. They turn out to be two. A page can hold a whole person and ask for nothing.
+Working through that conflict showed that the word ego has two meanings. [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]] has the full derivation. In short, the ego worth disliking, which is self-regard or the author asking to be admired, was never the same thing as the author being present in the work at all. For me the two had always been one quantity, and I reduced it until the work was polite. They are two separate things. A page can include a whole person without asking the reader to admire that person.
 
-This section is the rule reversed, carefully. Notes with the person left in, dated so the positions can move. The gate each one passes comes straight from the derivation: a sentence either changes what a reader sees of the subject, or only what they think of me — and the second kind is the old ego, which dies here the same as it would anywhere.
+This section reverses that rule, carefully. It holds notes with the person left in, and each note is dated so the positions in it can change. Each note has to pass a test that comes directly from the derivation. A sentence passes if it changes what a reader sees of the subject. A sentence that changes only what the reader thinks of me is the self-regard kind of ego, and it is cut here as it would be cut anywhere else.

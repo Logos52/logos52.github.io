@@ -1,9 +1,11 @@
 ---
 type: condensed
 status: developing
-description: "The agentic engineering corpus as doctrine, split by half-life: invariants expected to survive far more capable models — taste, specs, verification, understanding — and dated tactics stamped 2026-06 and expected to rot."
+description: "The agentic engineering corpus condensed into rules in two groups: invariants expected to stay true for far more capable models (taste, specs, verification, understanding), and tactics dated 2026-06 that are expected to go out of date."
 created: 2026-06-11
-updated: 2026-06-15
+updated: 2026-09-13
+method: plain-register-2026-09-13
+prose-model: opus
 tags:
   - agents
   - llm
@@ -13,44 +15,44 @@ tags:
 
 # Agentic Engineering, Condensed
 
-Agents are tireless junior collaborators with huge recall, fast execution, and jagged judgment — they move implementation faster than traditional workflows, and the engineering bar survives only if human judgment, architecture, verification, and taste protect it. Vibe coding raises the floor: anyone can build. Agentic engineering raises the ceiling: speed without surrendering correctness, security, or responsibility. The human role moves up the stack — spec writer, taste holder, architect, reviewer, director — because thinking can be outsourced and understanding cannot. Everything below is split by half-life: the invariants should hold however capable the models become; the tactics are stamped with their date and expected to rot.
+Agents work like junior collaborators who do not get tired. They have large recall and fast execution, and their judgment is good in some areas and poor in others. They get implementation done faster than traditional workflows do. The engineering standard holds only if human judgment, architecture, verification, and taste protect it. Vibe coding makes it possible for anyone to build software. Agentic engineering raises the upper limit of what engineers can do: more speed, while keeping correctness, security, and responsibility. The human role moves to higher-level work, as spec writer, taste holder, architect, reviewer, and director. The reason is that thinking can be handed to an agent, while understanding has to stay with the human. Some of the claims that follow are invariants, which should hold however capable models become. The others are tactics, dated to when they were written and expected to go out of date.
 
 ---
 
-## 1. Invariants — the human role
+## 1. Invariants: the human role
 
-These are claims about responsibility and judgment, not about model capability — which is why more capable models don't dissolve them.
+These claims are about responsibility and judgment. They do not depend on model capability, so more capable models do not make them false.
 
-- **Outsource thinking, never understanding.** Agents generate options, code, and summaries; the human must hold enough internal model to know what is worth building, what is true enough, and how to steer ([[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]).
-- **Taste, judgment, architecture, spec, understanding** — the five things that stay human as agents improve; each is about *what good looks like*, which no implementation speed supplies ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]).
-- **Define the quality bar before delegating.** A delegation without a stated bar inherits the agent's bar ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]).
-- **Verify the artifact, never the explanation.** Run the build, inspect the diff, check behavior — a polished account of the work is not the work ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]).
-- **Verifiability is leverage.** Steer by externally checkable facts — tests, builds, logs, runnable commands — and design work so those checks exist ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]).
-- **Acceleration needs direction.** The motorcycle multiplies speed; the rider supplies destination, curiosity, and the noticing of wrongness ([[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]).
-- **Disposable vs durable is the dividing line.** Vibe-code the experiments; engineer the systems you'll still be running next year ([[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]], [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]).
+- **An agent can do thinking work, and the human must still understand the result.** Agents generate options, code, and summaries. The human must hold enough of an internal model to know what is worth building, what is true enough, and how to direct the agent ([[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]).
+- **Taste, judgment, architecture, spec, understanding.** These five stay with the human as agents improve. Each one concerns *what good looks like*, and faster implementation does not supply it ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]).
+- **Define the quality standard before delegating.** If you delegate without stating a standard, the work is done to the agent's standard ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]).
+- **Verify the artifact instead of the explanation.** Run the build, inspect the diff, and check behavior. A well-written account of the work does not show that the work is correct ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]).
+- **Work that can be verified gives you more control over agents.** Direct agents using facts that can be checked from outside: tests, builds, logs, runnable commands. Design the work so that those checks exist ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]).
+- **Faster work still needs someone to set its goal.** AI multiplies how fast a person works. The person still has to decide the goal, bring curiosity, and notice when something is wrong ([[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]).
+- **Decide whether the software is disposable or durable.** Vibe coding is fine for experiments. Systems you will still be running next year need engineering ([[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]], [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]).
 
-## 2. Invariants — the medium
+## 2. Invariants: the medium
 
-- **Natural language is now a programming medium.** Context, instructions, examples, and constraints are interpreted as executable intent — so specs are source code, and writing better specs is writing better software ([[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]).
-- **Own the spec, not the hand-written plan.** As models return routes and trade-offs unprompted, planning-as-ritual (you drafting the route) migrates to the model; planning-as-spec (the problem, the success criteria, which trade-off you actually want) stays yours. The PRD's content is the invariant; its authorship is not ([[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]).
-- **Shape the context around the task.** What the model can see *is* the program; indexes, constraints, examples, and desired-output shapes are engineering, not prompt garnish ([[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]).
-- **Build agent-native surfaces.** Copy-pasteable instructions, CLI commands, machine-readable state, API-first workflows — infrastructure legible to agents gets tended by agents ([[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]).
-- **Knowledge compounds in durable files.** Collect sources, compile to linked pages, query against the compiled layer, audit for drift — the wiki pattern that makes agent work accumulate instead of evaporate ([[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]).
-- **Convert repeated mistakes into instructions or tools.** An agent error that happens twice is a missing rule, not bad luck; file durable lessons back into the system ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]).
-- **The cost of custom software falls toward the cost of asking clearly** — one-shot apps for one person, one task, one afternoon become rational ([[wiki/Concepts/A Return to Code|A Return to Code]]).
+- **Natural language is now a programming medium.** The model interprets context, instructions, examples, and constraints as intent to execute. That makes specs work as source code, so writing better specs produces better software ([[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]).
+- **Keep ownership of the spec, and let the model write the plan.** Models now propose plans and trade-offs without being asked. So planning-as-ritual (you drafting the sequence of steps) moves to the model. Planning-as-spec (the problem, the success criteria, which trade-off you actually want) stays with you. The content of the PRD is the invariant. Who writes the PRD can change ([[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]).
+- **Build the context around the task.** The context the model can see functions as its program. Writing indexes, constraints, examples, and desired-output shapes is engineering work ([[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]).
+- **Build agent-native interfaces.** Provide copy-pasteable instructions, CLI commands, machine-readable state, and API-first workflows. Agents can maintain infrastructure that agents can read ([[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]).
+- **Knowledge builds up when it is kept in durable files.** Collect sources, compile them into linked pages, query the compiled pages, and check them for pages that have become inaccurate or out of date. This wiki pattern keeps the results of agent work, so later work adds to them and they are not lost ([[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]).
+- **Convert repeated mistakes into instructions or tools.** When an agent makes the same error twice, treat it as a sign that a rule is missing. Record lessons that will keep applying in the system ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]).
+- **The cost of custom software is dropping close to the cost of asking for it clearly.** It becomes reasonable to build a one-shot app for a single person and a single task in an afternoon ([[wiki/Concepts/A Return to Code|A Return to Code]]).
 
-## 3. Dated tactics — written 2026-06, expected to rot
+## 3. Dated tactics: written 2026-06, expected to go out of date
 
-Operating adjustments for the models of this moment. Each line names what would obsolete it.
+Adjustments to how we work with the models available in 2026-06. Each tactic comes with the condition that would make it obsolete.
 
-- **Models are jagged:** brilliant in one domain, bizarrely wrong in the next — never extrapolate competence across domains. (Obsoleted if capability surfaces smooth out.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
-- **Fast model by default, thinking model when it's hard** — latency buys accuracy only on problems that need it. (Obsoleted when routing happens automatically or the trade-off collapses.) ([[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]])
-- **Keep diffs small enough to review and delegations small enough to specify.** (Relaxes as verification tooling — not model trust — scales to bigger scopes.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
-- **Learn one layer below the abstraction** — enough fundamentals to catch the leaks. (Shifts as the layer worth knowing moves; the need for *some* lower layer may be permanent.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
-- **Agent councils share blind spots.** A second model's review is a second sample, not an independent auditor. (Obsoleted by genuinely diverse model families — not yet observed.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
-- **Waste tokens, save time — in verifiable domains.** Throw several models at the same solved problem and optimize your own time, not token count; a frontier model is still cheaper than a human. (Obsoleted where verification is expensive or the work sits at the creative frontier — there, brute force just multiplies confident slop.) ([[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]])
-- **Stop hand-writing the plan; keep writing the spec.** Models now plan unprompted and return trade-offs, so the drafted route is migrating to them. (The ritual obsoletes; the spec invariant above does not.) ([[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]])
+- **Model skill is uneven:** a model can be excellent in one domain and badly wrong in the next. Do not assume that competence in one domain carries over to another. (Obsolete if model capability becomes even across domains.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
+- **Use a fast model by default and a thinking model for hard problems.** The extra wait for a thinking model is worth it only on problems that need the added accuracy. (Obsolete when routing between models happens automatically or the trade-off disappears.) ([[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]])
+- **Keep each diff small enough to review, and keep each delegated task small enough that you can specify it.** (This loosens as verification tooling grows to handle bigger scopes. More trust in the model does not loosen it.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
+- **Learn one layer below the abstraction you work in.** Know enough fundamentals to catch problems that come from the layer below. (The layer worth knowing changes over time. The need to know *some* lower layer may be permanent.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
+- **Agent councils miss the same things.** A second model's review counts as a second sample. It does not count as an independent audit. (Obsolete once model families are genuinely diverse, which has not yet been observed.) ([[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]])
+- **In domains where results can be verified, spend extra tokens to save your own time.** Give several models the same solved problem, and optimize for your own time instead of token count. A frontier model still costs less than a human. (Obsolete where verification is expensive or the work is creative work that has not been done before. In that work, running more models only produces more low-quality output stated with confidence.) ([[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]])
+- **Write the spec, and leave the plan to the model.** Models now plan without being asked and return trade-offs, so drafting the plan is moving to them. (This makes the planning ritual obsolete. It does not change the spec invariant in section 2.) ([[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]])
 
 ---
 
-*Omitted deliberately: the operating stack and model roster ([[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — rots by design, lives one layer down), agent-specific setups (Hermes Agent), and the wiki-maintenance routines ([[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]] and siblings own them). The invariants/tactics split is itself a falsifiable bet: an invariant that rots belongs in §3's successor, and the move gets recorded when it happens.*
+*The operating stack and model roster are deliberately kept on [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]], a page one layer down that is built to go out of date. Agent-specific setups (Hermes Agent) and the wiki-maintenance routines are also deliberately left out. [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]] and its sibling pages cover those routines. Splitting the claims into invariants and tactics is itself a claim that can be proven false: if an invariant stops holding, it moves to the successor of section 3, and the move is recorded when it happens.*

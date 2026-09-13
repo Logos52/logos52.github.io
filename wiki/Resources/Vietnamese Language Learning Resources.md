@@ -3,7 +3,9 @@ title: Vietnamese Language Learning Resources
 type: resource-catalog
 status: developing
 created: 2026-05-06
-updated: 2026-08-14
+updated: 2026-09-13
+method: plain-register-2026-09-13
+prose-model: opus
 source-count: 78
 written-by: grok
 model: grok
@@ -15,15 +17,15 @@ tags:
 
 # Vietnamese Language Learning Resources
 
-Vietnamese study starts by picking Northern or Southern on purpose, not by mixing both as if they were one sound system. Start with beginner input and sound. Add a tool only when it removes a pause.
+Start Vietnamese study by choosing Northern or Southern pronunciation on purpose. Do not mix the two as if they were one sound system. Begin with beginner input and material on sound. Add a tool only when it removes a pause in your study.
 
 ## How this list is used
 
-**Northern** and **Southern** are the two widely taught Vietnamese pronunciation standards. Pick one. Several beginner channels already carry a tag. Most native rows say "unsure of dialect" — that note is more useful than a fake tag. **Comprehensible input** is speech or text you mostly already understand. Start there.
+**Northern** and **Southern** are the two widely taught Vietnamese pronunciation standards. Pick one. Several beginner channels already have a dialect tag. Most native channels are marked "unsure of dialect". That mark is more useful than a made-up Northern or Southern tag. **Comprehensible input** is speech or text you mostly already understand. Start with that.
 
-A **metalayer** is a subtitle or popup layer on top of real video. A **seeder playlist** is a starter list used to train a recommendation feed. Tooling waits until it removes friction from immersion. A spaced-repetition deck is optional. Previously watched content you already care about is a valid source.
+A **metalayer** is a subtitle or popup layer on top of real video. A **seeder playlist** is a starter list used to train a recommendation feed. Add tools only when they remove a difficulty you hit during immersion. A spaced-repetition deck is optional. Content you have watched before and already care about counts as a source.
 
-Gated cheat sheets, week-reflection templates, habit-tracker apps, graduation surveys, and redacted primers are not resources a stranger can use. They are not listed. One live-page kids row pointed at the wrong channel; it is not reproduced.
+Gated cheat sheets, week-reflection templates, habit-tracker apps, graduation surveys, and redacted primers cannot be used by a stranger, so they are left out. On the live page, one row for children's content linked to the wrong channel, so that row is left out too.
 
 ## The list, by job
 
@@ -45,7 +47,7 @@ Gated cheat sheets, week-reflection templates, habit-tracker apps, graduation su
 
 | Resource | Notes |
 |---|---|
-| [How to Vietnamese — alphabet and tones](https://howtovietnamese.com/vietnamese-alphabet-tones/) | Alphabet, tones, vowel and consonant clusters |
+| [How to Vietnamese: alphabet and tones](https://howtovietnamese.com/vietnamese-alphabet-tones/) | Alphabet, tones, vowel and consonant clusters |
 | [Vietnamese Phonetics](https://youtu.be/wJA5i9yluPo) | Sound priming |
 | [Vietnamese Tonal System](https://www.youtube.com/watch?v=-x_saXbV8hQ) | Sound priming |
 
@@ -79,8 +81,8 @@ Gated cheat sheets, week-reflection templates, habit-tracker apps, graduation su
 
 | Resource | Notes |
 |---|---|
-| [How to get started with Anki](https://www.youtube.com/watch?v=3Vc_C3Zcs0Q) | Optional public tutorial, not a requirement |
-| Xefjord's Complete Vietnamese | Optional deck; Dropbox shares rot |
+| [How to get started with Anki](https://www.youtube.com/watch?v=3Vc_C3Zcs0Q) | Optional public tutorial; not required |
+| Xefjord's Complete Vietnamese | Optional deck; Dropbox share links stop working over time |
 | [7k Vocab Master Deck](https://drive.google.com/drive/folders/1qU9P5ILZMBPfPA3DE24VBqusiekNMcns) | Optional |
 
 ### Interviews, variety, titles
@@ -94,7 +96,7 @@ Gated cheat sheets, week-reflection templates, habit-tracker apps, graduation su
 | [TrắngTV](https://www.youtube.com/@trangdentv) | Variety |
 | [Phân Tích Game](https://www.youtube.com/@PhanTichGame) | Game reviews; dialect unsure |
 | [Tizi Đích Lép](https://www.youtube.com/@TiziDichLep) | Vlogs and skits; dialect unsure |
-| Dreamy Eyes | Subscription video; drama. Title IDs drift |
+| Dreamy Eyes | Subscription video; drama. Title IDs change |
 | Furie | Subscription video; drama |
 | The Ancestral | Subscription video; horror |
 
@@ -111,7 +113,7 @@ Gated cheat sheets, week-reflection templates, habit-tracker apps, graduation su
 | [Intensive Reading Demo](https://youtu.be/XLZCM8f61yY) | |
 | [Audio Lookups Demo](https://youtu.be/GDLaONXLzMw) | |
 | [Forvo](https://forvo.com) | Audio dictionary |
-| [VietnamesePod101 dictionary](https://www.vietnamesepod101.com/vietnamese-dictionary/) | Optional audio dictionary, not required |
+| [VietnamesePod101 dictionary](https://www.vietnamesepod101.com/vietnamese-dictionary/) | Optional audio dictionary; not required |
 
 ### News and native stretch
 
@@ -149,21 +151,21 @@ Gated cheat sheets, week-reflection templates, habit-tracker apps, graduation su
 | [Hour Calculation Worksheet](https://docs.google.com/spreadsheets/d/1sFJacSrlMeEPyCvu5Lzm5t2VUO2uRZqZ1GSBSZL8b2g) | Optional |
 | [Hour tutorial](https://youtu.be/rz3IAfYpCc4) | Optional |
 | [Toggl tutorial](https://www.youtube.com/watch?v=dm6RYK9J61k) | Optional timer class |
-| [Toggl](https://track.toggl.com) | Optional timer class, not a required app |
+| [Toggl](https://track.toggl.com) | Optional timer class; not a required app |
 
 ## What becomes daily
 
-Which of these become daily immersion defaults after testing — and in which dialect? Which should be tagged beginner, bridge, native, or stretch once they have been used? An honest "unsure" is still better than a fake Northern or Southern tag.
+After testing, which of these resources become daily immersion defaults, and in which dialect? After they have been used, which should be tagged beginner, bridge, native, or stretch? A tag of "unsure" is still better than a made-up Northern or Southern tag.
 
-A personal harvest rots. Gated doors pretend to be resources. Time spent choosing is time not spent on input. If nothing dialect-tagged becomes daily, the list is not the lever. The [[wiki/Language/The Han-Viet Bridge|Hán-Việt Bridge]] is the reverse direction from this catalog: turning Sino-Vietnamese vocabulary into a Mandarin head start.
+A list collected by one person goes out of date. Links to gated material look like resources, but a stranger cannot open them. Time spent choosing resources reduces the time spent on input. If no dialect-tagged resource comes into daily use, the list itself is not what will change that. The [[wiki/Language/The Han-Viet Bridge|Hán-Việt Bridge]] goes in the reverse direction from these Vietnamese resources: it uses Sino-Vietnamese vocabulary to give a learner an advantage when starting Mandarin.
 
 ## Related
 
-- [[wiki/Dimensions/Retrieval|Retrieval]] — memory track
-- [[wiki/Dimensions/Self-Management|Self-Management]] — consistency
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — optional spaced-repetition home; do not require a named deck program
-- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] — practice arcs
-- [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]] — turning Sino-Vietnamese vocabulary into a Mandarin head start
+- [[wiki/Dimensions/Retrieval|Retrieval]]: memory track
+- [[wiki/Dimensions/Self-Management|Self-Management]]: consistency
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: where optional spaced repetition is covered; do not require a named deck program
+- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]: practice over a fixed number of days
+- [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]]: using Sino-Vietnamese vocabulary as an advantage when starting Mandarin
 
 ## Open Questions
 
@@ -173,4 +175,4 @@ Which should be tagged beginner / bridge / native / stretch after direct testing
 
 ## Sources
 
-Personal harvest of public Vietnamese input and tool classes. No private-corpus path. Course-week scaffolding and gated shortlinks were dropped as unusable doors. The live-page kids row that opened FAP TV was not reproduced.
+A personal collection of public Vietnamese input and classes of tools. No path to a private corpus is included. Materials that structure each course week and gated shortlinks were dropped because a stranger cannot use them. The children's content row on the live page, which opened FAP TV, was not reproduced.

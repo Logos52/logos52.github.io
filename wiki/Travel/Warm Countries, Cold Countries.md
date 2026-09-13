@@ -2,9 +2,11 @@
 title: "Warm Countries, Cold Countries"
 type: personal
 status: draft
-blurb: "A visit shows the sights; a year on a lease shows the personality."
+blurb: "How people in a country treat a foreigner day to day becomes clear after a year living there on a lease, and a visit mostly shows the sights."
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-09-13
+method: plain-register-2026-09-13
+prose-model: opus
 tags:
   - travel
   - expat
@@ -13,14 +15,14 @@ tags:
 
 # Warm Countries, Cold Countries
 
-Live somewhere long enough and the place stops being scenery. After enough countries, the places themselves start reading like people — each with a temperament that shows up in the small daily interactions long before it shows up in any guidebook. A visit shows the sights; a year on a lease shows the personality. And the personalities sort, roughly, into warm and cold — a read that only becomes available after living in both kinds, because it's made of accumulated days, not impressions.
+After living in a place long enough, it is no longer just something to look at. After living in enough countries, the people in each country turn out to share a typical manner, and that manner shows in small daily interactions long before any guidebook mentions it. A visit is enough to see the sights. Seeing a country's manner takes longer, for example a year living there on a lease. The countries fall roughly into two groups, warm and cold. This sorting is possible only after living in both kinds of country, because it comes from many ordinary days added together, and first impressions do not supply it.
 
-HCMC reads warmer than most. Manila had a warmness of its own — a place where I felt at peace and welcome. The warmth is hard to itemize because it lives in the default temperature of ordinary interactions, the ones too small to write down, which is exactly why it takes residence rather than tourism to feel it.
+HCMC seems warmer than most. Manila was warm in its own way: I felt at peace and welcome there. This warmth is hard to list point by point, because it is in how people normally behave in ordinary interactions that are too small to write down. For that reason a person has to live in a place to feel it, and a tourist trip does not show it.
 
-Taipei, Hanoi, and to some extent Tokyo read cold. I often felt lonely in those countries. Part of the read is a self-bias mindset — people oriented toward their own — and that exists everywhere, in every city on earth; it's just more striking in those places, visible in a way it isn't elsewhere.
+Taipei, Hanoi, and to some extent Tokyo seem cold. I often felt lonely in those countries. Part of this impression comes from a self-bias mindset, where people put their own group first. That mindset exists in every city on earth. In those places it is more noticeable than elsewhere.
 
-Taipei deserves the closer look, because its reputation runs the other way: warm and friendly to foreigners, famously so. The reputation may well be earned — for foreigners who look Western. An Asian face gets a different reception. The bias shown toward people who look similar to the locals is one the Western-looking visitor never encounters, and the odds of running into real racism are simply higher. The warmth is real — it just isn't aimed at everyone, and which side of it a foreigner lands on is decided by their face before they say a word.
+Taipei needs a closer look, because it has the opposite reputation: it is famous for being warm and friendly to foreigners. The reputation may be accurate for foreigners who look Western. Foreigners with Asian faces are treated differently. People who look similar to the locals face a bias that Western-looking visitors never encounter, and they are more likely to run into real racism. The warmth in Taipei is real. Locals show it to some foreigners and not to others, and they decide which from the foreigner's face before the foreigner says anything.
 
-The map explains a gravitation that was never planned. After living in America since birth, the pull turned out to run toward the warm countries — not as a decision but as a pattern, visible only in retrospect: the places where peace happened versus the places where loneliness accumulated. A personality finds its climate the way the wardrobe found its filter — by living, not by choosing.
+Sorting countries into warm and cold explains a movement toward certain countries that was never planned. After living in America since birth, the countries lived in since then have tended to be warm ones. No decision produced this pattern. It became visible only when looking back at the places where life was peaceful and the places where loneliness built up over time. A person finds out which kind of country suits them by living in countries, without choosing in advance. The wardrobe filter was found the same way.
 
-None of this ranks the countries. The cold reads are full of people running warm, and the self-bias lives everywhere, Manila included. The map's use is smaller and personal: knowing, before the next one-year contract gets signed, which temperature the year is going to be lived at.
+The warm and cold sorting does not rank the countries. The cold countries have many people who are warm, and the self-bias mindset exists everywhere, Manila included. The sorting has a smaller, personal use: before the next one-year contract is signed, it helps to know whether that year will be lived in a warm country or a cold one.

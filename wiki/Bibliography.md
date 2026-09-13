@@ -2,14 +2,14 @@
 type: reference
 status: seed
 created: 2026-05-02
-updated: 2026-09-05
+updated: 2026-09-13
+method: plain-register-2026-09-13
+prose-model: opus
 tags:
   - reference
 ---
 
 # Bibliography
-
-Add public source references here as the wiki grows.
 
 ## Sources
 
@@ -23,7 +23,7 @@ Add public source references here as the wiki grows.
 - Triggernometry, "How China Fakes Its Success with Frank Dikötter" (YouTube and X, 2026-09-05). [[wiki/Worldviews & the Political Order/China - The Temple and the Monks|China - The Temple and the Monks]]
 - Basic Logic, "The Genetics Behind Unequal Societies" (YouTube, 2026-08-30). [[wiki/Worldviews & the Political Order/Genetics and Unequal Societies - The Distance Claim|Genetics and Unequal Societies - The Distance Claim]]
 - Basic Logic, "How Feminism Justified Killing Children" (YouTube, 2026-09-03). [[wiki/Worldviews & the Political Order/Late Stage Feminism|Late Stage Feminism]]
-- Asmongold TV, "This is genuinely f***ed.." (YouTube, 2026-09-05), a reaction to the Basic Logic video. [[wiki/Worldviews & the Political Order/Late Stage Feminism|Late Stage Feminism]]
+- Asmongold TV, "This is genuinely f***ed.." (YouTube, 2026-09-05), a reaction video to the Basic Logic video above. [[wiki/Worldviews & the Political Order/Late Stage Feminism|Late Stage Feminism]]
 - Justin Sung, "5 Thinking Habits That Make You Look Smarter" (YouTube, 2026-08-28). [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]]
 - hoe_math (PsychoMath), "LEVELS OF THINKING (Basic Version)" (YouTube, 2023-10-28). [[wiki/Concepts/Levels of Thinking - The Step Back|Levels of Thinking - The Step Back]]
 - Wanhee Kim (완희), YouTube channel @wanheekim, 209 long videos posted 2022-08 to 2026-09. [Web](https://www.youtube.com/@wanheekim) [[wiki/Fitness/Fitness Mindsets|Fitness Mindsets]]
@@ -45,6 +45,6 @@ Add public source references here as the wiki grows.
 - Stanford Center for Teaching and Learning, "Growth Mindset." [Web](https://ctl.stanford.edu/growth-mindset)
 - Harvard Graduate School of Education, "Mindset and Motivation" (2018-03-15). [Web](https://www.gse.harvard.edu/ideas/edcast/18/03/mindset-and-motivation)
 - National Institute of Mental Health, "My Mental Health: Do I Need Help?" [Web](https://www.nimh.nih.gov/health/publications/my-mental-health-do-i-need-help)
-- Outlier Linguistics, *Chinese Character Masterclass*. Commercial course; lesson PDFs kept locally, outside this repository. [Web](https://www.outlier-linguistics.com/)
-- Kenneth L. Higbee, *Your Memory: How It Works and How to Improve It*. Origin of the seven memory rules; known through the course above, not consulted directly.
+- Outlier Linguistics, *Chinese Character Masterclass*. Commercial course. The lesson PDFs are kept locally, outside this repository. [Web](https://www.outlier-linguistics.com/)
+- Kenneth L. Higbee, *Your Memory: How It Works and How to Improve It*. This book is the origin of the seven memory rules. The book is known through the Outlier Linguistics course above and was not consulted directly.
 - Anthropic, "Verbalizable Representations Form a Global Workspace in Language Models" (2026-07-07). [Web](http://transformer-circuits.pub/2026/workspace/index.html) · [Companion](https://www.anthropic.com/research/global-workspace). External commentary by Dehaene & Naccache, Butlin et al. (Eleos AI Research), and Neel Nanda. [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]]

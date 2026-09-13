@@ -1,6 +1,6 @@
 ---
 title: "Personal"
-description: "Notes, tools, and the arguments underneath them."
+description: "Personal notes, the tools I build and use, and pages of political argument."
 type: personal-index
 elsewhere:
   - text: "GitHub"
@@ -14,7 +14,9 @@ practicing:
     page: "wiki/Concepts/Catching the Inner Voice"
 hideFolderListing: true
 created: 2026-08-10
-updated: 2026-08-20
+updated: 2026-09-13
+method: plain-register-2026-09-13
+prose-model: opus
 tags:
   - personal
 ---
@@ -25,33 +27,33 @@ tags:
 
 ![At Ichiran in Taiwan](/assets/personal.jpg)
 
-This page is about me; for what the site is and how it gets built, see [[about|About]].
+For what the site is and how it gets built, see [[about|About]].
 
 ---
 
-I am a freelance American researcher & educator. I have worked for the US Army, as an intelligence Red Teamer from the 82nd Abn during the Global War on Terror. I'm currently interested in learning science and how we can use AI to improve and optimize educational outcomes. Most of it goes into tools for learning Mandarin.
+I am a freelance American researcher & educator. I have worked for the US Army, as an intelligence Red Teamer from the 82nd Abn during the Global War on Terror. I'm currently interested in learning science and in how we can use AI to improve educational outcomes. Most of that work is building tools for learning Mandarin.
 
 ---
 
 ## Building
 
-- A graded reader in Mandarin, told in episodes — [Tsumugu](https://logos52.github.io/tsumugu/)
-- A podcast following the same characters, voiced — [Tsumugu Podcast](https://tsumugu.cc/podcast/)
-- A dictionary teaching Traditional characters by shape and by the story behind them — [Tsumugu Encoding Dictionary](https://tsumugu-ed.com)
+- A graded reader in Mandarin, written in episodes: [Tsumugu](https://logos52.github.io/tsumugu/)
+- A podcast with the same characters, voiced: [Tsumugu Podcast](https://tsumugu.cc/podcast/)
+- A dictionary for learning Traditional characters from their shapes and from the stories about them: [Tsumugu Encoding Dictionary](https://tsumugu-ed.com)
 
 ## Uses This
 
 ### Everyday Carry
 
-I travel a lot, so every item I own needs to earn its place.
+I travel a lot, so I own few items, and each one has to be useful enough to justify carrying it.
 
 - iPhone Air.
 - MacBook Pro M3 14".
 - AirPods Pro 3.
-- Anker 733 GaNPrime power bank, which doubles as the wall adapter.
-- Filson Journeyman, holding all of it.
+- Anker 733 GaNPrime power bank, which is also the wall adapter.
+- Filson Journeyman, which holds all of the items above.
 
-[[wiki/Fashion/The Personal Uniform|The Personal Uniform]] is the longer version, and it covers clothes as well.
+[[wiki/Fashion/The Personal Uniform|The Personal Uniform]] is a longer version of this list, and it also covers clothes.
 
 ### Agents
 
@@ -59,18 +61,18 @@ I travel a lot, so every item I own needs to earn its place.
 - SuperGrok Heavy, for code, image generation, file and project management, and the bots.
 - Qwen TTS 0.7B, downloaded and run locally, for Mandarin voice.
 
-Most of the software here gets built by those instead of by hand. What they work to is published in the vault: a writing standard, a script that checks a draft against it, and a file describing the write-act instead of listing rules. Drafts come back and get cut by hand, which is where most of the time goes.
+The agents above build most of the software, and little of it is written by hand. The instructions they follow are published in the vault: a writing standard, a script that checks a draft against it, and a file that describes the write-act instead of listing rules. The drafts they return are then cut by hand, and that cutting takes most of the time.
 
 ### Software
 
-Writing runs on Obsidian, less than it used to. More of it now is conversations with an LLM working from the vault as a corpus, which means the notes get talked to more than read.
+Writing is done in Obsidian, though less of it than before. More of the writing is now done in conversations with an LLM that uses the vault as a corpus, so the notes are more often queried through the LLM than read directly.
 
 ## Studying
 
-Learning science and Mandarin. On the AI side, how agents actually write and where they fail in ways that repeat, since a tool built on a model gets the average output and has to work anyway.
+Learning science and Mandarin. On the AI side, how agents actually write and the ways they fail repeatedly, because a tool built on a model receives the model's average output and still has to work.
 
 ## Arguments
 
-Twenty-two pages taking contested political premises as given and testing whether the reasoning holds. Several end with a defense left standing. What I hold myself is written down separately.
+Twenty-two pages that take contested political premises as given and test whether the reasoning is sound. Several end with one defense that the testing did not refute. My own positions are written on a separate page.
 
 [[wiki/Worldviews & the Political Order/Worldviews & the Political Order|Worldviews & the Political Order]] · [[personal/2026-08-17-positions|Positions]]

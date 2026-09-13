@@ -1,16 +1,18 @@
 ---
 title: "MG & Kolbs Template"
-description: "A learning-system template — Kolb's reflective cycles, skill tracking, and goal anchoring — adapted to Obsidian from Pan's Notion original."
+description: "A learning-system template with Kolb's reflective cycles, skill tracking, and goal anchoring, adapted to Obsidian from Pan's Notion original."
 type: about
 created: 2026-05-30
-updated: 2026-06-01
+updated: 2026-09-13
+method: plain-register-2026-09-13
+prose-model: opus
 tags:
   - system
 ---
 
 # MG & Kolbs Template
 
-A learning-system template built around **Kolb's reflective cycles**, **skill-level tracking**, and **goal anchoring** — adapted to Obsidian (on Bases) from Pan's Notion original ([@pan.ps](https://panstemplates.notion.site/)). This page is a public demo; the data below is illustrative.
+A learning-system template that uses **Kolb's reflective cycles**, **skill-level tracking**, and **goal anchoring**. It was adapted to Obsidian (on Bases) from Pan's Notion original ([@pan.ps](https://panstemplates.notion.site/)). The data below is example data for a public demo.
 
 <div class="mgk-showcase">
 <div class="mgk-grid">
@@ -70,4 +72,4 @@ A learning-system template built around **Kolb's reflective cycles**, **skill-le
 
 ## Your learning dimensions
 
-The five ICS learning dimensions, as a quick self-check. Drag the sliders — this is an interactive example, not anyone's real scores.
+A quick self-check on the five ICS learning dimensions. Drag the sliders. The sliders are an interactive example, and the scores they show are not anyone's real scores.

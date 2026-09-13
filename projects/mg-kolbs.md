@@ -7,35 +7,37 @@ stack:
   - Bases
   - Templater
 order: 3
-blurb: "A learning-system template — Kolb's reflective cycles, skill tracking, and goal anchoring — rebuilt in Obsidian from Pan's Notion original. Vault path: mg-kolbs/."
+blurb: "A learning-system template with Kolb's reflective cycles, skill tracking, and goal anchoring, rebuilt in Obsidian from Pan's Notion original. Vault path: mg-kolbs/."
 created: 2026-06-02
-updated: 2026-07-09
+updated: 2026-09-13
+method: plain-register-2026-09-13
+prose-model: opus
 tags:
   - projects
 ---
 
 ## What it is
 
-MG & Kolbs is a learning-system template built around **Kolb's reflective cycles**, **skill-level tracking**, **goal anchoring**, and task management with deliberate break timing. You run short reflective cycles, track the skills each one develops, and tie the work back to goals. It is adapted to Obsidian from Pan's Notion original ([@pan.ps](https://panstemplates.notion.site/)) — all credit for the underlying method goes to Pan. There is a [live demo on this site](../mg-kolbs-template).
+MG & Kolbs is a learning-system template based on **Kolb's reflective cycles**, **skill-level tracking**, **goal anchoring**, and task management with deliberate break timing. You run short reflective cycles, track the skills you develop in each cycle, and link the work to your goals. It is adapted to Obsidian from Pan's Notion original ([@pan.ps](https://panstemplates.notion.site/)). All credit for the underlying method goes to Pan. There is a [live demo on this site](../mg-kolbs-template).
 
-**Vault home (canonical):** `mg-kolbs/` (lowercase). The temporary dual root `MG & Kolbs/` was archived 2026-07-09 → `_archive/MG-Kolbs-template-2026-06-01/`.
+**Vault folder (canonical):** `mg-kolbs/` (lowercase). The temporary dual root folder `MG & Kolbs/` was archived on 2026-07-09 to `_archive/MG-Kolbs-template-2026-06-01/`.
 
 ## How it's built
 
-Each database in the original — Tasks, Kolbs, Skills, Goals, Goal-tracking — is an Obsidian **Base** (`.base`), one markdown note per row, related by wikilinks. Running in Obsidian adds graph view and backlinks for navigating how skills, cycles, and goals connect. It is deliberately two-tier: **Tier 1** runs fully without any AI (plugins plus small scripts), and **Tier 2** optionally layers AI suggestions onto the same triggers.
+The original has these databases: Tasks, Kolbs, Skills, Goals, and Goal-tracking. Each one is an Obsidian **Base** (`.base`), with one markdown note per row and wikilinks between related notes. In Obsidian, graph view and backlinks let you move between connected skills, cycles, and goals. The template has two tiers on purpose. **Tier 1** runs fully without any AI, using plugins and small scripts. **Tier 2** optionally adds AI suggestions to the same triggers.
 
 ## What worked
 
-Porting a Notion system onto Obsidian Bases kept the workflow intact while adding what Notion can't do — local markdown, version control, graph navigation. Designing it to work with zero AI first, then adding AI as an optional layer, keeps it usable for anyone and degrades gracefully when the model is off.
+Porting the Notion system to Obsidian Bases kept the workflow the same and added features Notion doesn't have: local markdown, version control, and graph navigation. The template was designed to work with no AI first, and AI was added afterward as an optional part. Anyone can use it, and it still works without the AI suggestions when the model is off.
 
 ## Lessons
 
-- **Port the workflow, not the screens.** The win was reproducing the *system* — cycles, skills, goals, break timing — on Obsidian's primitives, then using graph and backlinks the original couldn't offer.
-- **AI as a layer, not a dependency.** Building Tier 1 to stand alone keeps the template honest: the method works without a model, and AI only sweetens it.
+- **Port the workflow instead of the screen layouts.** What worked was reproducing the *system* on Obsidian's primitives: cycles, skills, goals, and break timing. Graph view and backlinks, which the original couldn't offer, were then added to it.
+- **Make AI optional, so the template does not depend on it.** Tier 1 was built to work on its own, so the method works without a model. AI only adds suggestions.
 
 ## Status
 
-**Parked as daily workflow** (2026-07-09) — system kept at root in `mg-kolbs/` because the method is still useful; not the active driver vs Tsumugu. Showcase page still public on illustrative data. Reopen by using Command Center / `mg-kolbs/index.md`.
+**Paused as daily workflow** (2026-07-09). The system stays at the vault root in `mg-kolbs/` because the method is still useful. Tsumugu is the active project instead. The showcase page is still public and uses illustrative data. To reopen it, use Command Center / `mg-kolbs/index.md`.
 
 <!-- Design notes (TODO, Wedge): how it looks and why it's built this way. -->
 

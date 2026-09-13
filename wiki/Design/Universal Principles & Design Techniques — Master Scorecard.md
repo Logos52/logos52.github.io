@@ -3,7 +3,9 @@ title: "Universal Principles & Design Techniques — Master Scorecard"
 type: resource-catalog
 status: developing
 created: 2026-06-30
-updated: 2026-08-14
+updated: 2026-09-13
+method: plain-register-2026-09-13
+prose-model: opus
 source-count: 2
 last-audited: 2026-06-30
 written-by: grok
@@ -20,15 +22,15 @@ tags:
 
 # Universal Principles & Design Techniques — Master Scorecard
 
-On 30 June 2026 two hundred fifty design items were scored on two independent axes, person and machine. Two hundred came from a 2023 principles book and fifty from a visual-craft book. The grades are dated judgment, not findings.
+On 30 June 2026 two hundred fifty design items were scored on two independent axes, one for the person and one for the machine. Two hundred came from a 2023 principles book and fifty from a visual-craft book. The grades record judgment made on that date and are not research findings.
 
 ## How a row is scored
 
-**H** is human ownership, 1–5: how much this still needs a person. **AI** is machine executability, 1–5: how much an agent can run this without looking. The two axes are independent — a thing can be H5 and AI4 at once. **B** is Build relevance to the tsumugu surfaces, 1–5. **L** is Learning relevance to the owner's growth, 1–5. **tsumugu** is the language-learning reader and dictionary those Build scores refer to. The scoring model is the [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]. The books were split by [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]] into [[wiki/Design/Agent Track — Executable UI Technique Catalog|Agent Track]] and [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track]].
+**H** is human ownership, 1–5: how much the item still needs a person. **AI** is machine executability, 1–5: how much an agent can carry out the item without a person looking at the result. The two axes are independent: one item can score H5 and AI4. **B** is Build relevance to the tsumugu surfaces, 1–5. **L** is Learning relevance to the owner's growth, 1–5. **tsumugu** is the language-learning reader and dictionary that the Build scores refer to. The scoring model is the [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]. The two books were split into the [[wiki/Design/Agent Track — Executable UI Technique Catalog|Agent Track]] and the [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track]] by the process in [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]].
 
-**Zone** is the cell on the H × AI plane. The names, verbatim: **Own** — yours to make, agents can't. **Augment** — both high; the agent drafts, you judge and own. **Delegate** — hand to the agent. **Low-leverage** — neither pulls hard.
+**Zone** is the item's cell on the H × AI grid. The zone names, verbatim, with what each means: **Own**: you have to make it, and agents cannot. **Augment**: both scores are high; the agent drafts, and you judge and own the result. **Delegate**: you hand it to the agent. **Low-leverage**: both scores are 3 or lower.
 
-**The cut that produces Zone is regular and has no exceptions.**
+**Zone is set by fixed cutoffs on the H and AI scores, with no exceptions.**
 
 | H | AI | Zone | Count |
 |---|:-:|---|:-:|
@@ -37,19 +39,19 @@ On 30 June 2026 two hundred fifty design items were scored on two independent ax
 | ≤3 | ≥4 | Delegate | 84 |
 | ≤3 | ≤3 | Low-leverage | 51 |
 
-The HTML badge on this page is a *page* profile, not a mean of the 250: Human about 60 percent, AI about 60 percent, Build 100 percent, Learning 80 percent — H3 / AI3 / B5 / L4. The mean of the rows is about H 3.4 and AI 3.1.
+The HTML badge on this page scores the page as a whole and is not a mean of the 250 rows: Human about 60 percent, AI about 60 percent, Build 100 percent, Learning 80 percent, which is H3 / AI3 / B5 / L4. The mean of the rows is about H 3.4 and AI 3.1.
 
-Highlight sections below are *slices*, not the zone. Own lists 25 of 95. Delegate lists 25 of 84. Augment lists all 20. Human-5 lists all 31 items scored H=5, candidates for their own page. Wabi-Sabi has already graduated.
+The highlight lists below are selections and are not the zones themselves. The Own list has 25 of 95 items. The Delegate list has 25 of 84. The Augment list has all 20. The Human-5 list has all 31 items scored H=5, and each is a candidate for a page of its own. Wabi-Sabi already has its own page.
 
-Miller's Law is glossed here as 7±2, the source wording, and scored Delegate (H2 AI4). The design instruction on this vault is about 3–5 chunks. The gloss is not the instruction.
+The Miller's Law row gives the source wording, 7±2, as its gloss and is scored Delegate (H2 AI4). The design instruction in this vault is about 3–5 chunks. Do not read the 7±2 gloss as the design instruction.
 
-The principles book is grouped Interaction & UI (48), Aesthetics & Form (26), Cognition & Perception (23), Learning & Communication (9), Strategy & Decision (40), Process & Systems (30), Persuasion & Social (24) — 200. The visual-craft block is 50 executable rules, mostly Interaction & UI, the production half. Items repeat across highlight and category on the live layout; unique names stay 250. The inventory below is the unique 250, once each, by zone. Table rows on the older layout numbered 351 because of those repeats.
+The principles book's 200 items are grouped into Interaction & UI (48), Aesthetics & Form (26), Cognition & Perception (23), Learning & Communication (9), Strategy & Decision (40), Process & Systems (30), Persuasion & Social (24), for a total of 200. The 50 visual-craft items are executable rules, mostly in Interaction & UI, and they cover production work. On the live layout some items appear both in a highlight list and in a category, and the count of unique names is still 250. The inventory below lists the 250 unique names once each, grouped by zone. The older layout had 351 table rows because of those repeats.
 
-Grades were judged against the frontier on 30 June 2026. The AI column drifts up as models improve. Reproducing a number is not asserting it as a law.
+Grades were set against the most capable models available on 30 June 2026. AI scores rise as models improve. Reproducing a score here does not assert it as a law.
 
 ### Own slice — 25 of 95
 
-High human ownership, agents can't. Sorted by Human, then Learning: Ackoff's Law; Box's Law; Causal Reductionism; Chesterton's Fence; Confirmation Bias; Creator Blindness; Dunning-Kruger Effect; First Principles; Gall's Law; Knowing-Doing Gap; Leverage Point; Maslow's Hammer; Nirvana Fallacy; Ockham's Razor; Perverse Incentive; Process Eats Goal; Satisficing; Selection Bias; Status Quo Bias; Streetlight Effect; Sunk Cost Effect; Survivorship Bias; Back of the Dresser; Paradox of Great Ideas; User-Centered vs. User-Driven Design.
+These items score high on human ownership, and agents cannot do them. They are sorted by Human, then Learning: Ackoff's Law; Box's Law; Causal Reductionism; Chesterton's Fence; Confirmation Bias; Creator Blindness; Dunning-Kruger Effect; First Principles; Gall's Law; Knowing-Doing Gap; Leverage Point; Maslow's Hammer; Nirvana Fallacy; Ockham's Razor; Perverse Incentive; Process Eats Goal; Satisficing; Selection Bias; Status Quo Bias; Streetlight Effect; Sunk Cost Effect; Survivorship Bias; Back of the Dresser; Paradox of Great Ideas; User-Centered vs. User-Driven Design.
 
 ### Augment — complete, 20 of 20
 
@@ -57,15 +59,15 @@ Storytelling; Framing; Mental Model; Desire Line; Error, Design; Error, Human; F
 
 ### Delegate slice — 25 of 84
 
-High AI, low human ownership. Sorted by Build relevance: Alignment; Constraint; Feedback; Proximity; Similarity; Spacing & sizing scale; px/rem never em; Type scale; Line length 45-75; Weight floor 400; Contrast minimums; Accessibility; Affordance; Color Theory; Consistency; Forgiveness; Legibility; Mapping; Performance Load; Progressive Disclosure; Readability; Recognition over Recall; Signal-to-Noise Ratio; Visibility; Define value systems.
+These items score high on AI and low on human ownership. They are sorted by Build relevance: Alignment; Constraint; Feedback; Proximity; Similarity; Spacing & sizing scale; px/rem never em; Type scale; Line length 45-75; Weight floor 400; Contrast minimums; Accessibility; Affordance; Color Theory; Consistency; Forgiveness; Legibility; Mapping; Performance Load; Progressive Disclosure; Readability; Recognition over Recall; Signal-to-Noise Ratio; Visibility; Define value systems.
 
-### Pure human moat — Human 5, complete, 31 of 31
+### Human 5 — complete, 31 of 31
 
-The 25 Own-slice H5 items plus Storytelling; Framing; Rebuild interfaces from scratch; Look for decisions you wouldn't have made; Choose a personality; Wabi-Sabi. Storytelling and Framing are H5 Augment. Candidates for their own page; Wabi-Sabi already has one.
+The 31 items are the 25 H5 items in the Own slice plus Storytelling; Framing; Rebuild interfaces from scratch; Look for decisions you wouldn't have made; Choose a personality; Wabi-Sabi. Storytelling and Framing are H5 items in the Augment zone. Each item is a candidate for a page of its own; Wabi-Sabi already has one.
 
 ## The inventory
 
-Two hundred fifty unique names. Scores reproduced from the 30 June 2026 grade. Glosses that had been cut mid-word are restored, including Golden Ratio (1.618, not 0).
+The inventory has two hundred fifty unique names. The scores are copied from the 30 June 2026 grading. Glosses that had been cut off mid-word are restored, including Golden Ratio (1.618, not 0).
 
 ### Own — 95
 
@@ -96,9 +98,9 @@ Two hundred fifty unique names. Scores reproduced from the 30 June 2026 grade. G
 | Back of the Dresser | 5 | 2 | 4 | 4 | Own | All parts of a design, visible and nonvisible, should be held to the same standard of quality |
 | Look for decisions you wouldn't have made | 5 | 1 | 4 | 4 | Own | Collect the unintuitive moves on designs you like. |
 | Paradox of Great Ideas | 5 | 1 | 2 | 4 | Own | Great ideas are indistinguishable from crazy ideas when first introduced |
-| Rebuild interfaces from scratch (eye training) | 5 | 1 | 4 | 4 | Own | Matching the original surfaces the invisible tricks. |
+| Rebuild interfaces from scratch (eye training) | 5 | 1 | 4 | 4 | Own | Matching the original reveals techniques that are hard to see. |
 | User-Centered vs. User-Driven Design | 5 | 2 | 4 | 4 | Own | A focus on understanding and meeting user needs versus simply implementing user requests |
-| Choose a personality | 5 | 2 | 4 | 3 | Own | Font, color, radius, tone cohere to one character. |
+| Choose a personality | 5 | 2 | 4 | 3 | Own | Font, color, radius, and tone all fit one personality. |
 | Wabi-Sabi | 5 | 1 | 3 | 3 | Own | An aesthetic style that emphasizes naturalness, simplicity, and subtle imperfection |
 | Depth of Processing | 4 | 2 | 2 | 5 | Own | Thinking hard about a thing improves the likelihood that it can be recalled |
 | Flow | 4 | 2 | 3 | 5 | Own | A state of immersion so intense that awareness of the real world is lost |
@@ -133,7 +135,7 @@ Two hundred fifty unique names. Scores reproduced from the 30 June 2026 grade. G
 | Reverse Salient | 4 | 3 | 3 | 4 | Own | An element that limits the overall performance of the system of which it is part |
 | Scaling Fallacy | 4 | 2 | 3 | 4 | Own | The assumption that designs that work at one scale will work at smaller or larger scales |
 | Social Trap | 4 | 2 | 1 | 4 | Own | A tendency to pursue short-term gains that create long-term losses for the greater group |
-| Start with a feature, not a layout | 4 | 2 | 4 | 4 | Own | Frame the real problem before the shell. |
+| Start with a feature, not a layout | 4 | 2 | 4 | 4 | Own | Define the real problem before building the surrounding layout. |
 | Uncertainty Principle | 4 | 2 | 2 | 4 | Own | Measuring things can change them, often making the results invalid |
 | Zeigarnik Effect | 4 | 2 | 3 | 4 | Own | Incomplete or interrupted tasks are more likely to hold attention and be remembered |
 | Aesthetic-Usability Effect | 4 | 2 | 4 | 3 | Own | Aesthetic things are perceived to be easier to use than ugly things |
@@ -144,12 +146,12 @@ Two hundred fifty unique names. Scores reproduced from the 30 June 2026 grade. G
 | Death Spiral | 4 | 2 | 1 | 3 | Own | A phenomenon in which a social organization persists in behaviors that lead to self-destruction |
 | Design by Committee | 4 | 1 | 2 | 3 | Own | A design process based on consensus building, group decision-making, and extensive iteration |
 | Diffusion of Innovations | 4 | 2 | 2 | 3 | Own | A theory describing how new things gain acceptance in a population over time |
-| Emphasize by de-emphasizing | 4 | 3 | 5 | 3 | Own | Soften competitors instead of pushing the focal harder. |
+| Emphasize by de-emphasizing | 4 | 3 | 5 | 3 | Own | Reduce the emphasis on competing elements instead of adding emphasis to the focal element. |
 | Empty states as first impressions | 4 | 3 | 4 | 3 | Own | Illustration + emphasized CTA; hide idle controls. |
 | Exposure Effect | 4 | 3 | 3 | 3 | Own | The more people are exposed to a thing, the more they like and trust it |
 | Faith Follows Function | 4 | 1 | 2 | 3 | Own | Ideological and spiritual considerations should be secondary to functional considerations |
 | Font-picking heuristics | 4 | 3 | 4 | 3 | Own | Neutral sans / system stack; filter to 10+ styles. |
-| Icarus Matrix | 4 | 2 | 1 | 3 | Own | A 2 × 2 matrix representing the possible success- failure outcomes of a design iteration |
+| Icarus Matrix | 4 | 2 | 1 | 3 | Own | A 2 × 2 matrix representing the possible success-failure outcomes of a design iteration |
 | Identifiable Victim Effect | 4 | 2 | 1 | 3 | Own | A single, identifiable victim elicits more helping behaviors than a group of anonymous victims |
 | Levels of Invention | 4 | 2 | 1 | 3 | Own | A model that classifies inventions based on complexity, nonobviousness, and impact |
 | Propositional Density | 4 | 2 | 4 | 3 | Own | The number of independent meanings conveyed by a design |
@@ -223,7 +225,7 @@ Two hundred fifty unique names. Scores reproduced from the 30 June 2026 grade. G
 | ~100ms feedback; guard double-fire | 3 | 4 | 5 | 3 | Delegate | Optimistic UI; debounce; disable-on-submit. |
 | Avoid ambiguous spacing | 3 | 4 | 5 | 2 | Delegate | More space around a group than within it. |
 | Button hierarchy; destructive treatment | 3 | 4 | 5 | 2 | Delegate | Primary solid, secondary outline, tertiary link. |
-| Closure | 3 | 4 | 4 | 2 | Delegate | The brain automatically completes recognizable forms when they are interrupted or incomple |
+| Closure | 3 | 4 | 4 | 2 | Delegate | The brain automatically completes recognizable forms when they are interrupted or incomplete |
 | Color Theory | 3 | 4 | 5 | 2 | Delegate | A body of practical knowledge regarding the application and mixing of colors |
 | Define shades up front (100-900) | 3 | 4 | 5 | 2 | Delegate | Fill from the edges; no runtime lighten/darken. |
 | Don't fill the screen; use max-width | 3 | 4 | 4 | 2 | Delegate | Give elements only the space they need. |
@@ -277,13 +279,13 @@ Two hundred fifty unique names. Scores reproduced from the 30 June 2026 grade. G
 | Gutenberg Diagram | 2 | 4 | 4 | 1 | Delegate | A diagram that describes the pattern followed by the eyes when looking at a page of information |
 | Orientation Sensitivity | 2 | 4 | 3 | 1 | Delegate | Certain line orientations are more quickly and easily processed and discriminated than others |
 | Perspective Cues | 2 | 4 | 3 | 1 | Delegate | Visual properties that create the perception of depth and three-dimensionality |
-| px/rem, never em, for the type scale | 2 | 5 | 5 | 1 | Delegate | em compounds on nesting and drops off the scale. |
+| px/rem, never em, for the type scale | 2 | 5 | 5 | 1 | Delegate | em values multiply when elements are nested, so sizes end up off the scale. |
 | Top-Down Lighting Bias | 2 | 5 | 4 | 1 | Delegate | A tendency to interpret objects as being lit from a single light source from above |
 | Uniform Connectedness | 2 | 4 | 4 | 1 | Delegate | The brain automatically assumes elements connected by lines or boxes are related |
 
 ### Low-leverage — 51
 
-Fifty-one items parked here are part of the product. Neither axis pulls hard.
+These fifty-one items are set aside and remain part of the product. Both their H and AI scores are 3 or lower.
 
 | Principle | H | AI | B | L | Zone | Gloss |
 |---|:-:|:-:|:-:|:-:|---|---|
@@ -339,22 +341,22 @@ Fifty-one items parked here are part of the product. Neither axis pulls hard.
 | Visuospatial Resonance | 2 | 3 | 1 | 1 | Low-lev | A phenomenon in which different images are visible at different distances |
 | Waist-to-Hip Ratio | 2 | 2 | 1 | 1 | Low-lev | A preference for a particular ratio of waist size to hip size in men and women |
 
-The scores are a snapshot. The AI column will drift. Human-5 items are still candidates, one already graduated. Parking the fifty-one Low-leverage rows is a decision, not an omission.
+The scores are from one date, 30 June 2026. The AI scores will change. Human-5 items are still candidates for pages of their own, and Wabi-Sabi already has its page. Setting aside the fifty-one Low-leverage rows was a decision.
 
 ## Related
 
-- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — the scoring model, the two independent axes, the four zones.
-- [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]] — how the two books were split into Agent and Human tracks.
-- [[wiki/Design/Agent Track — Executable UI Technique Catalog|Agent Track]] — the executable rules, many of which appear here as Delegate rows.
-- [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track]] — the judgment entries, many of which appear here as Own rows.
-- [[wiki/Design/Design Expansion — Reading & Resources|Design Expansion — Reading & Resources]] — the reading list; the principles book is also a Feeds item there.
+- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: the scoring model, the two independent axes, the four zones.
+- [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]: how the two books were split into Agent and Human tracks.
+- [[wiki/Design/Agent Track — Executable UI Technique Catalog|Agent Track]]: the executable rules, many of which appear here as Delegate rows.
+- [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track]]: the judgment entries, many of which appear here as Own rows.
+- [[wiki/Design/Design Expansion — Reading & Resources|Design Expansion — Reading & Resources]]: the reading list; the principles book is also a Feeds item there.
 
 ## Open Questions
 
-Whether the owner re-grades the AI column against a later model snapshot, or leaves 30 June 2026 as the dated cut.
+Whether the owner re-grades the AI scores against a later model snapshot, or keeps the 30 June 2026 grades as the dated version.
 
-Whether more Human-5 items graduate the way Wabi-Sabi did.
+Whether more Human-5 items get a page of their own, as Wabi-Sabi did.
 
 ## Sources
 
-Lidwell, Holden & Butler, *Universal Principles of Design*, 3rd ed. (2023) — 200 principles. Wathan & Schoger, *Refactoring UI* (2018) — 50 rules. Grades are the owner's, 30 June 2026, not the books'. Miller 1956 for the 7±2 wording; Cowan 2001 for the 3–5 design instruction used on the Agent Track and Front-End pages.
+Lidwell, Holden & Butler, *Universal Principles of Design*, 3rd ed. (2023): 200 principles. Wathan & Schoger, *Refactoring UI* (2018): 50 rules. The grades are the owner's, from 30 June 2026, and do not come from the books. Miller 1956 for the 7±2 wording; Cowan 2001 for the 3–5 design instruction used on the Agent Track and Front-End pages.
