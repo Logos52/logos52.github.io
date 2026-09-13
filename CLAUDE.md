@@ -2,7 +2,7 @@
 
 **Decision documents** (PRDs, proposals, decision notes, memos) additionally follow the High-Signal Decision Writing section of `02 - System/Writing Standards.md`.
 
-**Vault pages** (wiki, positions, personal) are not briefs; they are made by the pipeline in `02 - System/Writing Pipeline.md`: content and outline first (`02 - System/The Generator.md`, then `02 - System/The Generator - Selfhood v2.md`), the draft written to the owner one paragraph at a time against the holdings ledger, then a rewrite pass by a fresh head holding only the draft and `02 - System/Rewrite Prompt.md`, then a cold read per `02 - System/Cold Read.md`. Outline first is the default for every page; the owner can waive it. Epigrams never ship in any writing, including internal documents (ruled 2026-08-25).
+**Vault pages** (wiki, positions, personal) are not briefs. Since 2026-09-13 they are written with Explain First by default (`/Users/n1/.claude/skills/explain-first/SKILL.md`): the subject is explained to the owner in the chat and corrected until the meaning is settled, then the page is written fresh with the old page closed. The other route is the pipeline in `02 - System/Writing Pipeline.md`: content and outline first (`02 - System/The Generator.md`, then `02 - System/The Generator - Selfhood v2.md`), the draft written to the owner one paragraph at a time against the holdings ledger, then a rewrite pass by a fresh head holding only the draft and `02 - System/Rewrite Prompt.md`, then a cold read per `02 - System/Cold Read.md`. Outline first is the default for every page; the owner can waive it. Epigrams never ship in any writing, including internal documents (ruled 2026-08-25).
 
 ## 4. Surgical Changes
 

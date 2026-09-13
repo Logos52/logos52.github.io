@@ -3,9 +3,7 @@ title: "Probability Distributions"
 type: reference
 status: developing
 created: 2026-08-28
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-09-01
 description: "The common probability distributions, each with a picture, a plain definition, and real-world examples, grouped by the kind of number they fit."
 tags:
   - statistics
@@ -16,9 +14,9 @@ tags:
 
 # Probability Distributions
 
-A probability distribution describes how likely each possible outcome is when a result is uncertain. It assigns each outcome a probability, which is a number between 0 and 1. A higher number means the outcome is more likely to occur.
+A probability distribution is a way of describing how likely each possible outcome is when something is uncertain. It assigns a probability—a number between 0 and 1—to each outcome, where a higher number means the outcome is more likely to occur.
 
-Start by deciding what kind of number you have. In the chart below, read each row from left to right: the kind of number, what produces it, and the distribution that fits.
+Start by asking what kind of number you have. The chart moves from your number to its pattern.
 
 <!-- diagram:chooser -->
 <svg viewBox="0 0 680 487" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chooser from what the number is to which distribution fits" style="max-width:100%;height:auto">
@@ -112,7 +110,7 @@ Start by deciding what kind of number you have. In the chart below, read each ro
 </svg>
 <!-- /diagram -->
 
-**Contents:** [A count of how many](#a-count-of-how-many) · [A length of waiting](#a-length-of-waiting) · [A measured amount](#a-measured-amount) · [A choice or a share](#a-choice-or-a-share) · [How the distributions are related](#how-the-distributions-are-related)
+**Contents:** [A count of how many](#a-count-of-how-many) · [A length of waiting](#a-length-of-waiting) · [A measured amount](#a-measured-amount) · [A choice or a share](#a-choice-or-a-share) · [One family](#one-family)
 
 ## A count of how many
 
@@ -136,7 +134,7 @@ These distributions describe the number of occurrences or successes in a fixed s
 </svg>
 <!-- /diagram -->
 
-The Bernoulli distribution models a single event that either happens or does not happen. It has one parameter: the probability that the event occurs.
+The Bernoulli distribution models a single event that either happens or does not. It has one parameter: the probability that the event occurs.
 
 **Examples:** whether a message gets a reply · whether a visitor signs up
 
@@ -227,7 +225,7 @@ The Binomial distribution models a fixed number of independent trials, each with
 </svg>
 <!-- /diagram -->
 
-The Poisson distribution models the count of events that occur at a constant rate over a period of time or space. It has one parameter: the average count during that period. In this distribution, the mean and the variance are equal.
+The Poisson distribution models the count of events that occur at a constant rate over a period of time or space. It has one parameter: the average count during that period—and in this distribution, the mean and variance are equal.
 
 **Examples:** emails in an hour · typos on a page
 
@@ -276,7 +274,7 @@ The Poisson distribution models the count of events that occur at a constant rat
 </svg>
 <!-- /diagram -->
 
-The Negative binomial distribution describes event counts in a period when the underlying rate varies from one period to the next. When the rate varies this way, there are more periods with a count of zero and more periods with very large counts than under a Poisson distribution with the same average, so the spread is wider. This distribution has two parameters: the average count, and how much wider the spread is than that of a Poisson distribution with the same average. The same distribution also describes the number of failures before a fixed number of successes in repeated yes-or-no trials. The counts from a varying rate and the failures before a fixed number of successes follow the same mathematical formula.
+The Negative binomial distribution describes event counts in a period when the underlying rate varies from one period to the next. When rates vary this way, you get both more zero-count periods and more very large counts than a Poisson distribution with the same average—the spread is wider. This distribution has two parameters: the average count and how much wider the counts run compared to Poisson with that average. The same distribution also describes the number of failures before you achieve a fixed number of successes in repeated yes-or-no trials—these are two views of the same mathematical shape.
 
 **Examples:** messages sent per day · page views per day
 
@@ -322,7 +320,7 @@ The Geometric distribution models the number of trials until the first success. 
 
 ## A length of waiting
 
-These distributions describe how long you wait for one event or for several events.
+These distributions describe how long you wait for an event or collection of events.
 
 ### Exponential
 
@@ -428,13 +426,13 @@ The Gamma distribution models the time until a fixed number of events occur in a
 </svg>
 <!-- /diagram -->
 
-The Weibull distribution models the time until a system fails, and it applies when the failure rate changes over time. It has two parameters: a shape parameter that sets whether failures become more likely or less likely as time passes, and a scale parameter that sets the overall length of time.
+The Weibull distribution models the time until failure of a system, and handles situations where the failure rate changes over time. It has two parameters: a shape parameter that controls whether failures become more or less likely as time passes, and a scale parameter that sets the overall timespan.
 
 **Examples:** the life of a hard drive · how long a subscription is kept
 
 ## A measured amount
 
-These distributions describe continuous quantities such as heights, weights, or errors.
+These distributions describe continuous quantities like heights, weights, or errors.
 
 ### Normal
 
@@ -468,7 +466,7 @@ These distributions describe continuous quantities such as heights, weights, or 
 </svg>
 <!-- /diagram -->
 
-The Normal distribution, also called the Gaussian distribution, has one peak at its center and is symmetric around that center. Its curve is called a bell curve. It has two parameters: the mean (center) and the standard deviation (spread).
+The Normal distribution, also called the Gaussian distribution, is a bell curve symmetric around its center. It has two parameters: the mean (center) and the standard deviation (spread).
 
 **Examples:** people's heights · measurement error
 
@@ -510,7 +508,7 @@ The Normal distribution, also called the Gaussian distribution, has one peak at 
 </svg>
 <!-- /diagram -->
 
-The Log-normal distribution models quantities that cannot be negative and have a long tail toward larger values. A quantity has this distribution when the logarithm of the quantity follows a normal distribution.
+The Log-normal distribution models quantities that cannot be negative and have a long tail toward larger values. It arises when the logarithm of the quantity follows a normal distribution.
 
 **Examples:** reply delays · file sizes · incomes
 
@@ -555,7 +553,7 @@ The Log-normal distribution models quantities that cannot be negative and have a
 </svg>
 <!-- /diagram -->
 
-The Power law distribution describes quantities where larger values are rarer than smaller values, and the distribution has no natural peak. It has one parameter: an exponent that sets how fast the chance of a value drops as the value gets larger.
+The Power law distribution describes quantities where larger values are rarer than smaller values, with no natural peak. It has one parameter: an exponent that controls how steeply the tail falls off.
 
 **Examples:** city sizes · follower counts
 
@@ -596,7 +594,7 @@ The Power law distribution describes quantities where larger values are rarer th
 </svg>
 <!-- /diagram -->
 
-Student's t distribution is a bell curve like the normal distribution, with heavier tails. It arises when you average a small sample from a normal population. It has one parameter: the degrees of freedom, which relates to the sample size.
+Student's t distribution is a bell curve like the normal distribution but with heavier tails, arising when you average a small sample from a normal population. It has one parameter: the degrees of freedom, which relates to the sample size.
 
 **Examples:** the average of five test runs
 
@@ -675,7 +673,7 @@ These distributions describe proportions, probabilities, or selections among cat
 </svg>
 <!-- /diagram -->
 
-The Categorical distribution models the outcome when you choose one item from a fixed set of categories, each with its own probability. The Zipf distribution is a special categorical distribution where category popularity follows a power law. The first category is the most popular, the second is half as popular as the first, and so on.
+The Categorical distribution models the outcome when you choose one item from a fixed set of categories, each with its own probability. The Zipf distribution is a special categorical distribution where category popularity follows a power law—the first category is most popular, the second half as popular, and so on.
 
 **Examples:** which friend you text most · which words a language uses most
 
@@ -711,7 +709,7 @@ The Categorical distribution models the outcome when you choose one item from a 
 </svg>
 <!-- /diagram -->
 
-The Beta distribution describes a probability whose value is uncertain, where the probability is how likely an event is to occur. The distribution is based on the successes and failures observed so far. It has two parameters: the count of observed successes and the count of observed failures.
+The Beta distribution describes an uncertain probability—how likely an event is to occur—based on observed successes and failures. It has two parameters: the count of observed successes and the count of observed failures.
 
 **Examples:** how often customers click, after watching 40 of them
 
@@ -741,9 +739,9 @@ The Uniform distribution gives equal probability to all values in a range. It ha
 
 **Examples:** a computer's raw random number · a delivery window between 9 and 5, nothing else known
 
-## How the distributions are related
+## One family
 
-Many distributions can be produced from one another by a simple modification. The exponential distribution is a special case of the gamma distribution. The geometric distribution is a special case of the negative binomial distribution. The normal distribution is the limit of many other distributions as samples grow large.
+Many distributions arise from one another through simple modifications. The exponential distribution is a special case of the gamma distribution; the geometric distribution is a special case of the negative binomial; and the normal distribution emerges as the limit of many other distributions when samples grow large.
 
 <!-- diagram:family -->
 <svg viewBox="0 0 680 380" width="680" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="How the distributions turn into each other" style="max-width:100%;height:auto">
@@ -826,16 +824,16 @@ Many distributions can be produced from one another by a simple modification. Th
 
 ## Links
 
-- [[wiki/Worldviews & the Political Order/Per Capita|Per Capita]] is about the division that converts a raw count into a rate. Do that division first, before you look up which distribution a count follows.
-- [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]] is about how much an average over many repeats is worth to a decision when any single result can fail.
-- [[wiki/Decision Making/Expectancy in Wicked Environments|Expectancy in Wicked Environments]] is about estimating chance times size when no one has published the odds. One of the distributions above can supply the chance in that estimate.
-- [[wiki/Dimensions/Mindset/Confidence Calibration|Confidence Calibration]] is about two checks on whether your level of certainty about something is justified. You can check the same thing with the beta distribution above, using counts of yeses and noes.
+- [[wiki/Worldviews & the Political Order/Per Capita|Per Capita]] gives the division that turns a raw count into a rate. That division comes before any count here gets its distribution read.
+- [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]] gives what an average over many repeats is worth to a decision when any single result can fail.
+- [[wiki/Decision Making/Expectancy in Wicked Environments|Expectancy in Wicked Environments]] gives a way to weigh chance times size when nobody posts the odds. The chance in that weighing is what a distribution here supplies.
+- [[wiki/Dimensions/Mindset/Confidence Calibration|Confidence Calibration]] gives two checks on whether a certainty of yours deserves the weight you put on it. The beta here asks the same question with counted yeses and noes.
 
 ## Open questions
 
-- A computer's random number generator produces uniform draws. How does it convert those draws into draws from the other distributions?
+- A computer's random number generator produces uniform draws. How it bends those draws into the other distributions here is not on this page.
 
 ## Sources
 
-- Claude Haiku 4.5 wrote the section texts on 2026-09-01 with no context except a spec that named the audience, the format, and the facts that had to appear. The spec and the method are in `01 - Workbench/GENERATOR-eli5-haiku-DRAFT-2026-09-01.md`.
-- The script `scripts/gen-distribution-diagrams.py` draws the figures from the real mass and density functions.
+- The section texts were written by Claude Haiku 4.5 on 2026-09-01, cold, from a spec naming the audience, the format, and the facts that had to appear. The spec and the method are in `01 - Workbench/GENERATOR-eli5-haiku-DRAFT-2026-09-01.md`.
+- The figures are drawn from the real mass and density functions by `scripts/gen-distribution-diagrams.py`.

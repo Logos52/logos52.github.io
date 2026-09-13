@@ -65,6 +65,14 @@ ELI5 is the format that can sit on top of this method, on the owner's word of 20
 
 Evidence: `/Users/n1/Research/Fable5.1/FINDINGS.md`, the 2026-09-02 ruling. First ELI5-format page under it: `/Users/n1/Projects/llm-knowledge-base/wiki/Concepts/Dating Apps - The Gini Coefficient.md`, twenty figures from `/Users/n1/Projects/llm-knowledge-base/scripts/gen-dating-gini-diagrams.py`.
 
+### Explain First, for rebuilding or writing any page
+
+The writer reads the old page once, for what it says, and then closes it. In the main window the writer explains the page's subject to the owner as a chat message, in a few short paragraphs. The first sentence says what the subject is. Each term is given before it is used, and the people and things involved are named. The explanation is written under "Avoid all mannered prose. Say what you mean. When a literal phrase is available, use it." It goes through the holdings ledger before it is sent. The owner corrects it until the meaning is settled. Then the page is written fresh from the settled explanation, one section at a time, with the old page still closed, and its facts are checked against the old page. The owner reads the finished page before it goes live and before any other page starts.
+
+Named on 2026-09-13 at the owner's request, after the first explanation passed on the Agentic Engineering hub: "good. this is what i expected." The page written from that explanation is unread, so only the explanation step is accepted. The workflow exists because the mannered-prose instruction, used on a rewrite of the old page, changed the figures of speech and kept the missing content (Error Index D41).
+
+Instrument: `/Users/n1/.claude/skills/explain-first/SKILL.md`
+
 ### From Nothing, for a definition the reader does not own
 
 The reader holds nothing from the page. Sentence one uses the key word in the everyday sense the reader owns. Then the page's sense in plain words, then named things that carry it, then every other special word from something the reader owns, then the definition last, made only of words already put down. No twist in the definition. No sentence about what the reader knows or feels. The body gives every new thing the same way before using it.
@@ -187,4 +195,4 @@ Tsumugu blog posts read `/Users/n1/Projects/tsumugu-core/content/blog/STYLE-CARD
 
 ## How an agent uses this file
 
-Ask the owner which generator, then which seat, before the outline. Offer only the Working rows, plus Selfhood Plain if the job is a reply. If he asks for the ELI5 treatment, use the Fable 5.1 one-pass row with the ELI5 format on top and run its gate script. The ELI5-Haiku writer is retired; if he picks it anyway, read the draft at `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/GENERATOR-eli5-haiku-DRAFT-2026-09-01.md` and skip the rewrite pass. If he picks the default, read The Generator, then Selfhood v2, then run the rest of `/Users/n1/Projects/llm-knowledge-base/02 - System/Writing Pipeline.md`.
+Explain First is the default for every wiki page (owner, 2026-09-13). Run it unless the owner names another generator. Ask the owner which generator, then which seat, before the outline. Offer only the Working rows, plus Selfhood Plain if the job is a reply. If he asks for the ELI5 treatment, use the Fable 5.1 one-pass row with the ELI5 format on top and run its gate script. The ELI5-Haiku writer is retired; if he picks it anyway, read the draft at `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/GENERATOR-eli5-haiku-DRAFT-2026-09-01.md` and skip the rewrite pass. If he picks the default, read The Generator, then Selfhood v2, then run the rest of `/Users/n1/Projects/llm-knowledge-base/02 - System/Writing Pipeline.md`.
