@@ -106,11 +106,11 @@ if (topOfMind.length > 4)
 // dark override. Five doors cover all three hero domains: learning · agentic · language.
 type Door = { intent: string; icon: string; title: string; sub: string; color: string; slug?: string; href?: string };
 const startHere: Door[] = [
-  { intent: 'Understand', icon: 'ti-bulb',      title: 'What Engineers Build Now',            sub: 'When agents do the work, you build the system that ships it.',      color: 'var(--i-understand)', slug: 'wiki/Concepts/The-AI-Industrial-Revolution' },
-  { intent: 'Apply',      icon: 'ti-robot',     title: 'More People Can Build Software',              sub: 'Ask in plain language, and an agent edits, runs, and iterates.',          color: 'var(--i-apply)',      slug: 'wiki/Systems/AI & Agentic Systems/Vibe-Coding' },
-  { intent: 'Learn',      icon: 'ti-school',    title: 'Self Correction',              sub: "See a session's three levels at once; adjust a technique that stops helping.",     color: 'var(--i-learn)',      slug: 'wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques' },
-  { intent: 'Decode',     icon: 'ti-language',  title: '立: One Shape With Three Jobs',    sub: 'It gives meaning in 端, sound in 拉, and is empty in 音. Its role differs by character.', color: 'var(--i-decode)',     slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work' },
-  { intent: 'Explore',    icon: 'ti-affiliate', title: 'See How Notes Link',           sub: 'Which notes are hubs, and how notes in six domains connect.',                color: 'var(--i-explore)',    href: '/map/' },
+  { intent: 'Understand', icon: 'ti-bulb',      title: 'What Engineers Are Judged On',            sub: 'Now AI agents write much of the code, so an engineer is judged on the setup the engineer builds.',      color: 'var(--i-understand)', slug: 'wiki/Concepts/The-AI-Industrial-Revolution' },
+  { intent: 'Apply',      icon: 'ti-robot',     title: 'Vibe Coding',              sub: 'You ask an AI agent for an app in everyday language, and the agent writes the code and runs it. Soon all coding will become vibe coding.',          color: 'var(--i-apply)',      slug: 'wiki/Systems/AI & Agentic Systems/Vibe-Coding' },
+  { intent: 'Learn',      icon: 'ti-school',    title: 'Does a Study Technique Work?',              sub: 'A technique such as notes or a mind map works only if it makes you process the material in your mind.',     color: 'var(--i-learn)',      slug: 'wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques' },
+  { intent: 'Decode',     icon: 'ti-language',  title: 'How Chinese Characters Are Built',    sub: 'Each character is made of smaller parts, and each part has a different function.', color: 'var(--i-decode)',     slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work' },
+  { intent: 'Explore',    icon: 'ti-affiliate', title: 'Map of the Site',           sub: 'Every node is an article on the site, and a line between two nodes shows a relationship.',                color: 'var(--i-explore)',    href: '/map/' },
 ];
 
 type Hub = { title: string; icon: string; color: string; slug: string; tag?: string; countPrefix?: string };
