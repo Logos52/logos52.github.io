@@ -3,7 +3,7 @@ title: "Current Agentic LLM Stack"
 type: reference
 status: developing
 created: 2026-05-17
-updated: 2026-09-11
+updated: 2026-09-16
 method: plain-rewrite-2026-09-11
 prose-model: fable
 aliases:
@@ -125,6 +125,7 @@ Hermes 3 via Ollama: the May version of this page named it the primary interface
 - [[journal/2026-08-21-cursor-ultra-vs-build-vs-bot|Cursor Ultra vs Grok Build vs Grok Bot]]: the seat assignment per repo
 - [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]]: the clean-context mechanism the Claude Code seat exists to run
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: the standing half in full
+- [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents and Grok Bots|Cursor Cloud Agents & this fleet]]: how this fleet launches Cloud Agents and keeps the merge with the owner
 - [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]]: official docs plus named-runner claims; not a roster
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]]: the doctrine the division of labor answers to
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: the zone model behind "judgment stays at the desk"

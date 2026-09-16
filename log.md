@@ -10,6 +10,12 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-09-16] ingest | Cursor Cloud Agents & this fleet
+
+- New page: [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents and Grok Bots|Cursor Cloud Agents & this fleet]] — eggbot-voice operating note from Cursor Cloud Agents docs plus Grok Bot Galaxy Day 1 (2026-09-15).
+- Discovery: Related on Agentic Engineering (cluster hub), Grok Bot Primer, Current Agentic LLM Stack, Agent Glossary (Cloud Agents entry + Related), Grok Bot, Condensed. Not added to `notes/index.md` Condensed/Hubs (leaf, not a new hub or doctrine page).
+- Sources indexed in [[raw/Source Index|Source Index]] (vendor docs + livestream; no raw deposit in this repo).
+
 ## [2026-09-16] maintenance | Site audit cuts and deploy hardening
 
 - Deploy workflow: PR CI (lint-frontmatter, guard:source, build, guard, leak.test); deploy only from `main`; `cancel-in-progress: true`; `fetch-depth: 1`; npm cache. Catalog/journal scripts print the filename on YAML failure.

@@ -3,7 +3,7 @@ title: "Agent Glossary"
 type: reference
 status: developing
 created: 2026-08-28
-updated: 2026-09-11
+updated: 2026-09-16
 method: plain-rewrite-2026-09-11
 prose-model: fable
 aliases:
@@ -262,7 +262,7 @@ Cursor Agent mode is the coding agent inside the editor. You are at the keyboard
 
 ### Cloud Agents
 
-Cursor Cloud Agents run on isolated virtual machines that Cursor operates, not on your laptop. Each run clones the repo, can install dependencies, edits, tests, and usually opens a pull request, with screenshots or a video attached. You can start one from the editor, the web, Slack, GitHub, Linear, or the API. Use them for overnight or parallel coding work on a fully specified task. They start from a clean git state on the remote; local uncommitted files do not go with the run unless you commit or stash first. Formerly named Background Agents.
+Cursor Cloud Agents run on isolated virtual machines that Cursor operates, not on your laptop. Each run clones the repo, can install dependencies, edits, tests, and usually opens a pull request, with screenshots or a video attached. You can start one from the editor, the web, Slack, GitHub, Linear, or the API. Use them for overnight or parallel coding work on a fully specified task. They start from a clean git state on the remote; local uncommitted files do not go with the run unless you commit or stash first. Formerly named Background Agents. This fleet's launch-and-merge policy is on [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents and Grok Bots|Cursor Cloud Agents & this fleet]].
 
 ### Long-running agents (Cursor)
 
@@ -630,6 +630,7 @@ The roster is dated and lives on [[wiki/Systems/AI & Agentic Systems/Current Age
 - [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: the effort dial in depth, when extra thinking pays and when it is decoration; which model to spend where, by depth, not by name
 - [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]]: the clean-context subagent pattern this vault's writing already runs on
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: always-on Grok Bots, the standing half the teammate actually runs here; the Cursor subscription and Managed Agents session are other vendors' version of "stays up"
+- [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents and Grok Bots|Cursor Cloud Agents & this fleet]]: how this fleet uses Cloud Agents (dispatch from eggbot, human merge); not a second glossary
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: filling the window the loop can see; the loop itself is named here
 - [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]]: tools as channels into a closed model; the harness around those channels is named here
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the bar on work agents produce; this glossary is only the names

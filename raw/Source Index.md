@@ -1,7 +1,7 @@
 ---
 type: source-index
 created: 2026-05-02
-updated: 2026-08-31
+updated: 2026-09-16
 ---
 
 # Source Index
@@ -105,6 +105,8 @@ This index lets `raw/` and `Clippings/` remain dump directories while still givi
 | [[raw/sources/2026-08-24-bai-designing-grok-bot\|Designing Grok Bot (Bai, 2026-08-24)]] | first-party guide | compiled into Field packet 2026-08-31 | real asset, Figma MCP, Experiments-before-roadmap | [[wiki/Research/Grok Bot Field Packet 2026-08-31\|Field Packet 2026-08-31]] |
 | [[raw/sources/2026-08-16-letz-grok-bot-for-gtm\|Grok Bot for GTM (Letz, 2026-08-16)]] | first-party guide | compiled into Field packet 2026-08-31 | CoS, weekly rundown + state file, Gmail/Salesforce/Gong | [[wiki/Research/Grok Bot Field Packet 2026-08-31\|Field Packet 2026-08-31]] |
 | [[raw/sources/2026-08-15-niparko-grok-bot-for-pms\|Grok Bot for PMs (Niparko, 2026-08-15)]] | first-party guide | compiled into Field packet 2026-08-31 | attention list, manager-does-not-code, Amazon order | [[wiki/Research/Grok Bot Field Packet 2026-08-31\|Field Packet 2026-08-31]] |
+| [Cursor Cloud Agents docs](https://cursor.com/docs/cloud-agent.md) | vendor docs | compiled 2026-09-16 | isolated VM, PR artifacts, capabilities, security | [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents and Grok Bots\|Cursor Cloud Agents & this fleet]] |
+| Grok Bot Galaxy Livestream Day 1 (2026-09-15, [broadcast](https://x.com/i/broadcasts/1AxRnZbVpjaxl); notes on the Grok Bot box at `Galaxy/notes/2026-09-15-day-1-grok-bot-galaxy.md`) | X broadcast + Galaxy notes | compiled 2026-09-16 | manage cloud agents, agents as colleagues, auto-fix vs human merge | [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents and Grok Bots\|Cursor Cloud Agents & this fleet]] |
 
 ## Private Course Sources
 
