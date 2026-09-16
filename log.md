@@ -10,6 +10,13 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-09-16] setup | Cloud Agent environment for the Astro wiki site
+
+- Confirmed the published site is Astro (not Jekyll), Node 22, `npm ci` + `astro build`, GitHub Pages via `.github/workflows/deploy.yml`.
+- Added `.cursor/environment.json` (`npm ci`, optional Astro preview on :4321) so Cloud Agents can install and preview without a custom Dockerfile.
+- Added `npm run verify` as the existing PR CI sequence: frontmatter lint, source guard, build, publish guard, leak tests.
+- Pointers: `.github/CONTRIBUTING.md`, plus short notes in `README.md` and `AGENTS.md`. Agents open draft PRs; humans merge.
+
 ## [2026-09-16] maintenance | Site audit cuts and deploy hardening
 
 - Deploy workflow: PR CI (lint-frontmatter, guard:source, build, guard, leak.test); deploy only from `main`; `cancel-in-progress: true`; `fetch-depth: 1`; npm cache. Catalog/journal scripts print the filename on YAML failure.

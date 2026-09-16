@@ -423,6 +423,8 @@ Local preview workflow:
 - Dev server: `npm run dev` then open <http://localhost:4321>
 - Build, then preview: `npm run build` then `npm run preview`
 
+Cursor Cloud Agents use `.cursor/environment.json` (`npm ci`, optional Astro preview on port 4321). After wiki or site edits, run `npm run verify` — the same checks as `.github/workflows/deploy.yml` on a pull request. Open a draft PR; a human merges. See `.github/CONTRIBUTING.md`.
+
 
 ## Feedback protocol (standing rule — canonical in ~/Projects/AGENTS.md)
 

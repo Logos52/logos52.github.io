@@ -21,7 +21,8 @@
     "guard:source": "node tools/scripts/publish-guard.mjs --source",
     "lint:fm": "node scripts/lint-frontmatter.mjs",
     "lint:front": "node tools/scripts/lint-front-facing.mjs",
-    "test": "node --test tools/scripts/leak.test.mjs"
+    "test": "node --test tools/scripts/leak.test.mjs",
+    "verify": "npm run lint:fm && npm run guard:source && npm run build && npm run guard && npm test"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",
