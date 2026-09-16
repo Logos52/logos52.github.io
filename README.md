@@ -150,6 +150,8 @@ npm run build
 npm run preview
 ```
 
+Cursor Cloud Agents install with `npm ci` from `.cursor/environment.json` and should run `npm run verify` (the PR CI checks) before opening a draft pull request. A human merges. See `.github/CONTRIBUTING.md`.
+
 ### Adding or editing notes
 
 Just write Markdown the way you normally would in Obsidian. Push to `main` and the site rebuilds automatically. Wikilinks (`[[Page Name]]`) are resolved at build time the same way Obsidian resolves them; backlinks and the graph update on every build.

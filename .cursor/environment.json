@@ -1,0 +1,17 @@
+{
+  "name": "Logos52 wiki site",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "Astro dev",
+      "command": "npm run dev -- --host 0.0.0.0 --port 4321",
+      "description": "Local preview of the published wiki at http://localhost:4321. Optional. After wiki or site edits, run npm run verify (the same checks as PR CI)."
+    }
+  ],
+  "ports": [
+    {
+      "name": "Astro dev",
+      "port": 4321
+    }
+  ]
+}
