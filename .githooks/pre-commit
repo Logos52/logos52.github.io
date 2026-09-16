@@ -9,6 +9,12 @@
 # See AGENTS.md -> Privacy and Publication.
 
 if command -v node >/dev/null 2>&1; then
+  node scripts/lint-frontmatter.mjs --staged || {
+    echo "" >&2
+    echo "pre-commit: lint-frontmatter blocked this commit (invalid YAML)." >&2
+    echo "If it is a genuine false positive: git commit --no-verify" >&2
+    exit 1
+  }
   node tools/scripts/publish-guard.mjs --staged || {
     echo "" >&2
     echo "pre-commit: publish-guard blocked this commit (details above)." >&2
@@ -16,5 +22,5 @@ if command -v node >/dev/null 2>&1; then
     exit 1
   }
 else
-  echo "pre-commit: node not found; skipping publish-guard (install node to enable the privacy check)." >&2
+  echo "pre-commit: node not found; skipping lint-frontmatter and publish-guard (install node to enable the checks)." >&2
 fi

@@ -39,7 +39,14 @@ function loadEntries() {
   return files
     .map((file) => {
       const raw = readFileSync(join(JOURNAL, file), 'utf8');
-      const { data, content } = matter(raw);
+      let data, content;
+      try {
+        ({ data, content } = matter(raw));
+      } catch (err) {
+        const msg = err && err.message ? err.message.split('\n')[0] : String(err);
+        console.error(`update-journal-surfaces: invalid frontmatter in journal/${file}: ${msg}`);
+        process.exit(1);
+      }
       if (data.draft === true) return null;
       const slug = `journal/${file.replace(/\.md$/, '')}`;
       const date = file.match(DATED)[1];

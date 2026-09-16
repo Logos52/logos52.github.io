@@ -168,7 +168,15 @@ function buildCatalogTables() {
 
   for (const file of [...files, ...extras]) {
     const raw = readFileSync(file, 'utf8');
-    const { data, content } = matter(raw);
+    let data, content;
+    try {
+      ({ data, content } = matter(raw));
+    } catch (err) {
+      const rel = relative(ROOT, file);
+      const msg = err && err.message ? err.message.split('\n')[0] : String(err);
+      console.error(`update-notes-catalog: invalid frontmatter in ${rel}: ${msg}`);
+      process.exit(1);
+    }
     if (data.draft === true) continue;
     const slug = relative(ROOT, file).replace(/\.md$/, '').replace(/\\/g, '/');
     const title = deriveTitle(data, content, slug);

@@ -3,9 +3,9 @@
  *
  * Runs AFTER a build, against `dist/`. Enumerates every denied/private directory from the 1:1
  * denylist and asserts none of them was published, then re-checks for hard content-leak signals.
- * Wired into CI as a required gate (see .github/workflows/deploy.yml). Non-negotiable.
+ * CI: .github/workflows/deploy.yml runs this after `npm run build` and `npm run guard`.
  *
- * Local use:  npm run build && node --test tools/scripts/leak.test.mjs
+ * Local use:  npm run build && npm test
  */
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
@@ -41,18 +41,27 @@ function distHtml(dir = DIST, acc = []) {
   return acc;
 }
 
+/** Astro redirect stubs for denylisted URLs are not published content. */
+function isRedirectHtml(abs) {
+  return /<title>Redirecting to:/i.test(readFileSync(abs, 'utf8'));
+}
+
 test('dist/ exists — build before running the leak test', () => {
   assert.ok(existsSync(DIST), 'dist/ not found — run `npm run build` first');
 });
 
 test('no denied/private directory is published to dist', () => {
-  const files = distHtml().map((f) => relative(DIST, f).split('\\').join('/'));
+  const files = distHtml();
   for (const slug of DENIED_DIR_SLUGS) {
     // Denied dirs are TOP-LEVEL (rooted) in the denylist, so match only as a leading path segment —
     // NOT a nested same-named folder (e.g. the public "public-snapshots/decisions/" is legitimately
     // public; only the root "decisions/" is denied).
-    const hit = files.find((f) => f === `${slug}/index.html` || f.startsWith(`${slug}/`));
-    assert.ok(!hit, `denied directory "${slug}/" leaked into dist: ${hit}`);
+    const hit = files.find((abs) => {
+      const f = relative(DIST, abs).split('\\').join('/');
+      if (!(f === `${slug}/index.html` || f.startsWith(`${slug}/`))) return false;
+      return !isRedirectHtml(abs);
+    });
+    assert.ok(!hit, `denied directory "${slug}/" leaked into dist: ${hit ? relative(DIST, hit) : hit}`);
   }
 });
 
@@ -62,6 +71,18 @@ test('the specific ignored note is not published', () => {
     !files.some((f) => /wnab-direction-decided/i.test(f)),
     'ignored note journal/2026-05-29-wnab-direction-decided leaked into dist',
   );
+});
+
+test('research banks and design extraction catalogs are not published', () => {
+  const hit = distHtml().find((abs) => {
+    const f = relative(DIST, abs).split('\\').join('/');
+    const match =
+      f.startsWith('wiki/Research/') ||
+      /Design-Two-Track-Extraction|Agent-Track|Human-Track|Master-Scorecard|Design-Expansion/i.test(f);
+    if (!match) return false;
+    return !isRedirectHtml(abs);
+  });
+  assert.ok(!hit, `denied research/design catalog leaked into dist: ${hit ? relative(DIST, hit) : hit}`);
 });
 
 test('no hard content-leak signal in rendered HTML', () => {

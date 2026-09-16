@@ -86,7 +86,7 @@ Search terms to start from: sounds like ChatGPT, AI slop, delve, not X but Y, em
 
 1. Whether rows about other models count as much as rows about Claude. The owner writes with Claude. A method shown on GPT or Gemini may not carry over.
 2. Whether Chinese-language posts belong in the bank. The owner reads Chinese. The X search is wider with them and the rows are harder to compare.
-3. Whether the bank is public. Banks in `wiki/Research/` publish with the site. If it stays private it goes under `01 - Workbench/`.
+3. Whether the bank is public on GitHub. Banks in `wiki/Research/` stay in the repo for agents and are denylisted from the public site. If it must not be on GitHub at all it goes under `01 - Workbench/`.
 
 ## The lane
 

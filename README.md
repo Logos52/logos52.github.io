@@ -123,7 +123,9 @@ LLM agents should read [[notes/index]] and [[AGENTS]] first.
 
 ## Published Site
 
-The site is published at <https://logos52.github.io>, built with [Astro](https://astro.build). To publish at the root GitHub Pages URL, the deploy source is the `Logos52/logos52.github.io` repository, not a project page under `Logos52/llm-knowledge-base`. A push to `main` triggers `.github/workflows/deploy.yml`, which builds and deploys.
+The site is published at <https://logos52.github.io>, built with [Astro](https://astro.build). The live GitHub repository is `Logos52/logos52.github.io`. This folder is named `llm-knowledge-base` locally; that is not the deploy remote. `Logos52/llm-knowledge-base` is an archived Quartz snapshot and must not receive pushes.
+
+A push to `main` or a pull request runs `.github/workflows/deploy.yml`: frontmatter lint, `npm ci`, build, publish-guard, leak tests. Only `main` uploads the Pages artifact and deploys. A pull request never deploys.
 
 What gets published is the public subset of the vault. `scripts/copy-public-notes.mjs` is the publish boundary: it copies public `.md` (and their images) into `src/content/notes/`, the only directory Astro builds from. A note is public when git does not ignore it, it is not matched by the denylist in `src/lib/ignore-patterns.mjs`, and it does not carry `draft: true`. A denied note is never copied, so it physically cannot reach the build; `npm run guard` is the second gate, blocking private or financial leaks before deploy.
 

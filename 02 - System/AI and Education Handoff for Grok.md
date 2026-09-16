@@ -73,7 +73,7 @@ Time window: the last twelve months for groups 1, 2, 3, and 5. Any date for grou
 ## What only the owner can answer, before the lane runs
 
 1. The question the eventual page would answer. Two candidates: what a learner should do about AI in the next five years, or what schools become when AI takes the teaching. The bank can serve either, but the groups above weight differently.
-2. Whether the bank is public. Banks in `wiki/Research/` publish with the site. If it stays private it goes under `01 - Workbench/`.
+2. Whether the bank is public on GitHub. Banks in `wiki/Research/` stay in the repo for agents and are denylisted from the public site. If it must not be on GitHub at all it goes under `01 - Workbench/`.
 3. Whether his line on classes, "putting people into classes stunts the growth of the people at both the top end and the bottom end," goes onto the positions page now or waits for the page.
 
 ## The lane

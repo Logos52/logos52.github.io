@@ -92,3 +92,25 @@ notes/catalog.md
 
 # grok session dir
 .grok/
+
+# Legacy L3 comparison drafts — never commit (02 - System/L3-Brief-Policy-Options.md)
+outputs/L3/
+
+# Pre-regen / cut wiki snapshots; recover from git history if needed
+_archive/wiki-pre-*/
+_archive/wiki-cut-*/
+
+# Diagram source SVGs. Generators inject the same SVG into wiki markdown.
+assets/*-diagrams/
+
+# Copied at prebuild from projects/ and assets/ (scripts/copy-assets.mjs)
+public/projects/*.png
+public/projects/*.jpg
+public/assets/*.jpg
+public/assets/*.png
+
+# Local Obsidian themes — not site content
+.obsidian/themes/
+
+# Finance dashboard loads gitignored CSVs; do not track the page either
+00 Command Center/Finances.md

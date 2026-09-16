@@ -45,6 +45,19 @@ export const IGNORE_PATTERNS = [
   // (The ONLY addition to the otherwise-verbatim Quartz denylist; it touches no existing content.)
   'kb-astro/**',
 
+  // Agent research banks — stay in the repo for agents, not on the public site.
+  'wiki/Research/**',
+
+  // Design extraction catalogs (agent/WIP). Keep Design, Condensed and Front-End Web Design.
+  'wiki/Design/Agent Track — Executable UI Technique Catalog.md',
+  'wiki/Design/Design Expansion — Reading & Resources.md',
+  'wiki/Design/Design Two-Track Extraction.md',
+  'wiki/Design/Human Track — Taste & Judgment Catalog.md',
+  'wiki/Design/Universal Principles & Design Techniques — Master Scorecard.md',
+
+  // Stray COS PRD (empty). The PRDs/ tree is already denied; this path was not.
+  'cos/**',
+
   // Former Quartz framework + build artifacts (kept for parity; harmless once Quartz is gone)
   'quartz/**',
   'public/**',

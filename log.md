@@ -10,6 +10,15 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-09-16] maintenance | Site audit cuts and deploy hardening
+
+- Deploy workflow: PR CI (lint-frontmatter, guard:source, build, guard, leak.test); deploy only from `main`; `cancel-in-progress: true`; `fetch-depth: 1`; npm cache. Catalog/journal scripts print the filename on YAML failure.
+- Ghost Pages: `/llm-knowledge-base/` redirects to `/` on the user site. Archived `Logos52/llm-knowledge-base` Pages to be disabled.
+- Untracked: `outputs/L3/`, `_archive/wiki-pre-*` and `wiki-cut-*`, `assets/*-diagrams/`, duplicate `public/projects` PNGs, `.obsidian/themes/`, `00 Command Center/Finances.md`.
+- Site denylist: `wiki/Research/**`, five Design extraction catalogs, `cos/**`.
+- Dead Astro graph/search leftovers removed. `d3-drag` and unused mdast deps dropped.
+- Local disk: closed workbench regen/plain/merge/mannered waves deleted.
+
 ## [2026-09-01] lint | Wiki health check after Grok Bot guides ingest
 
 - Report: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/GPT - 2026-09-01 Wiki Health Check.md` (gitignored workbench).

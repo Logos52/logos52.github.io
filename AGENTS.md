@@ -373,16 +373,7 @@ Workflow:
 
 ## Tooling
 
-At small scale, `notes/index.md` plus `notes/catalog.md` plus `rg` is enough.
-
-As the wiki grows, consider adding:
-
-- A naive local markdown search script in `tools/search/`.
-- Health-check scripts in `tools/healthchecks/`.
-- Optional qmd integration for local hybrid search.
-- Marp support for slide outputs.
-
-Do not add tooling until the wiki's shape justifies it.
+At this scale, `notes/index.md` plus `notes/catalog.md` plus `rg` is enough locally. The published site search is Pagefind. Do not add a second local search engine or a health-check framework until a pass actually needs one.
 
 ## Privacy and Publication
 
@@ -400,19 +391,19 @@ Enforcement — defense-in-depth, see `tools/scripts/publish-guard.mjs`:
 
 - **The `money` tag is a topic label, not a privacy signal** (ruled 2026-09-13). It marks public pages about money ideas and stays off `SENSITIVE_TAGS` in the guard and in `src/pages/tags/[tag].astro`. Personal financial data is still private under rule 1 above; tag it `finances`, `budget`, `salary`, or `networth` if it must be flagged, and keep it out of the repo.
 - **Pre-commit hook** (`.githooks/pre-commit`, enable once with `git config core.hooksPath .githooks`) blocks committing private/financial content into publish-eligible paths *before it reaches the public repo*. First and most important line.
-- **Deploy guard** — `deploy.yml` runs the guard on the built `public/` output after `astro build`; a leak fails the job and blocks the deploy.
+- **Deploy guard** — `deploy.yml` runs the guard on the built `dist/` HTML after `astro build`; a leak fails the job and blocks the deploy. `node --test tools/scripts/leak.test.mjs` runs in the same job.
 - **Source audit** — `npm run guard:source` flags private content that is tracked-but-unrendered (raw-exposed on the public repo). Run periodically; the fix is to gitignore those folders.
 
-Known raw-exposure: some un-rendered folders (`PRDs/`, `decisions/`, `00 Command Center/`, `mg-kolbs/`) are still tracked, so their raw `.md` is public. If any holds genuinely-private content, gitignore + untrack it (and scrub history if it was already pushed).
+Known raw-exposure: some un-rendered folders (`PRDs/`, `decisions/`, `00 Command Center/` except `Finances.md`, `mg-kolbs/`) are still tracked, so their raw `.md` is public. `00 Command Center/Finances.md` is gitignored. If any remaining file holds genuinely-private content, gitignore + untrack it (and scrub history if it was already pushed).
 
 ## Static Site (Astro)
 
-The site is published at <https://logos52.github.io>. Astro builds from `src/`; before each build, `scripts/copy-public-notes.mjs` copies the public subset of the vault into `src/content/notes/` (the only directory the `notes` collection reads). Pushes to `main` trigger a rebuild via `.github/workflows/deploy.yml` (which runs the publish-guard before deploying).
+The site is published at <https://logos52.github.io>. Astro builds from `src/`; before each build, `scripts/copy-public-notes.mjs` copies the public subset of the vault into `src/content/notes/` (the only directory the `notes` collection reads). Pushes to `main` and pull requests run `.github/workflows/deploy.yml` (frontmatter lint, build, publish-guard on `dist/`, leak tests). Only `main` deploys to GitHub Pages.
 
 Publish model: **publish-by-default.** Every `.md` is published EXCEPT (a) paths git ignores, (b) paths matched by the denylist in `src/lib/ignore-patterns.mjs`, and (c) notes with `draft: true`. There is no allow-list, so the denylist plus the guard ARE the privacy gates — keep them current. A denied note is never copied into `src/content/notes/`, so it physically cannot appear in the build (stronger than a render-time filter).
 
-- **Published (publish-eligible):** `index.md`, `about.md`, `README.md`, `AGENTS.md` / `CLAUDE.md` / `GROK.md`, `wiki/`, `blog/`, `journal/`, `public-snapshots/`, `notes/index.md`.
-- **Not published (gitignored or denylist):** `notes/catalog.md` (gitignored — agent-only full inventory), `00 Command Center/`, `raw/`, `private/`, `finances/`, `outputs/`, `templates/`, `tools/`, `PRDs/`, `decisions/`, `mg-kolbs/`, `pans-mg-kolbs-template/`, `01 - Workbench/`, `02 - System/`, `_archive/` (incl. archived `MG-Kolbs-template-2026-06-01/`), `hermes/`, `_meta/`, `log.md`.
+- **Published (publish-eligible):** `index.md`, `about.md`, `README.md`, `AGENTS.md` / `CLAUDE.md` / `GROK.md`, `wiki/` except `wiki/Research/` and the Design extraction catalogs, `journal/`, `public-snapshots/`, `notes/index.md`, `personal/`, `projects/`.
+- **Not published (gitignored or denylist):** `notes/catalog.md` (gitignored — agent-only full inventory), `wiki/Research/` (agent banks, tracked), Design extraction catalogs (tracked), `00 Command Center/`, `raw/`, `private/`, `finances/`, `outputs/`, `templates/`, `tools/`, `PRDs/`, `decisions/`, `mg-kolbs/`, `cos/`, `01 - Workbench/`, `02 - System/`, `_archive/`, `hermes/`, `_meta/`, `kb-astro/`, `log.md`.
 
 Do not move content between these without updating `src/lib/ignore-patterns.mjs` — and remember (above) that un-publishing is not the same as private.
 

@@ -13,14 +13,15 @@
     "sync:tsumugu": "node scripts/sync-tsumugu-status.mjs",
     "predev": "node scripts/update-notes-count.mjs && node scripts/update-notes-catalog.mjs && node scripts/update-journal-surfaces.mjs && node scripts/ensure-pagefind.mjs && npm run copy-notes && npm run copy-assets && npm run sync:tsumugu",
     "dev": "astro dev",
-    "prebuild": "node scripts/update-notes-count.mjs && node scripts/update-notes-catalog.mjs && node scripts/update-journal-surfaces.mjs && npm run copy-notes && npm run copy-assets && npm run sync:tsumugu",
+    "prebuild": "node scripts/lint-frontmatter.mjs && node scripts/update-notes-count.mjs && node scripts/update-notes-catalog.mjs && node scripts/update-journal-surfaces.mjs && npm run copy-notes && npm run copy-assets && npm run sync:tsumugu",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
     "guard": "node tools/scripts/publish-guard.mjs",
     "guard:source": "node tools/scripts/publish-guard.mjs --source",
+    "lint:fm": "node scripts/lint-frontmatter.mjs",
     "lint:front": "node tools/scripts/lint-front-facing.mjs",
-    "test": "node --test"
+    "test": "node --test tools/scripts/leak.test.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",
@@ -28,21 +29,17 @@
     "@tabler/icons-webfont": "^3.44.0",
     "astro": "^6.4.7",
     "astro-pagefind": "^2.0.0",
-    "d3-drag": "^3.0.0",
     "d3-force": "^3.0.0",
     "d3-selection": "^3.0.0",
     "d3-zoom": "^3.0.0",
     "pagefind": "^1.5.2"
   },
   "devDependencies": {
-    "@types/d3-drag": "^3.0.7",
     "@types/d3-force": "^3.0.10",
     "@types/d3-selection": "^3.0.11",
     "@types/d3-zoom": "^3.0.8",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
-    "mdast-util-find-and-replace": "^3.0.2",
-    "mdast-util-to-string": "^4.0.0",
-    "unist-util-visit": "^5.1.0"
+    "mdast-util-find-and-replace": "^3.0.2"
   }
 }
