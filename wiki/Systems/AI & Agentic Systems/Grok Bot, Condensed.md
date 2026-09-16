@@ -4,7 +4,7 @@ type: condensed
 status: developing
 draft: true
 created: 2026-08-27
-updated: 2026-08-31
+updated: 2026-09-16
 description: "One paragraph and thirty rules: how this desk runs Grok Bot as two rings of helpers around an empty middle, and how the first story-character friend texts. Draft until the friends' research is on the wiki."
 tags:
   - grok-bot
@@ -92,4 +92,5 @@ Left out are the helpers' pastes and descriptions, the dates and run records of 
 
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]] — the fleet told as one setup, for a stranger
 - [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]] — the product against the model that shares its name
+- [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents and Grok Bots|Cursor Cloud Agents & this fleet]] — Cloud Agents as the write path; same human-merge fence
 - [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]] — the maker's how-to pages this setup is choosing against

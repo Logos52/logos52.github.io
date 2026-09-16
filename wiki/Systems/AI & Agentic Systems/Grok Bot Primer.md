@@ -3,7 +3,7 @@ title: "Grok Bot Primer"
 type: concept
 status: developing
 created: 2026-08-25
-updated: 2026-09-11
+updated: 2026-09-16
 method: plain-rewrite-2026-09-11
 prose-model: fable
 description: "One person's Grok Bot setup, explained from the one fact that shapes it: one shared cloud computer per account. Helpers with one job each, files instead of chatter, an empty middle, and what stays on the Mac."
@@ -321,6 +321,7 @@ So, for the person with two public websites, a notes site, and a reading habit, 
 - [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]]: named-runner claims with confidence tags
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: why every lane ends with the owner, and why judgment stays there
 - [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]: where the fleet sits among the other agents
+- [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents and Grok Bots|Cursor Cloud Agents & this fleet]]: Cloud Agents as the write path; Watch and Corpus stay report-only; Wedge merges
 - [[wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg|Automation and the Job Iceberg]]
 - [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]]
 - [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]: the older manual checks the audit helper now runs on schedule
