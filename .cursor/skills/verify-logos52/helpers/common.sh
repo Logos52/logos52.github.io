@@ -122,11 +122,12 @@ port_owned_by_run() {
 
 http_ok() {
   local path="${1:-/}"
-  curl -sS -o /dev/null -w "%{http_code}" --max-time 5 "${BASE_URL}${path}"
+  # Swallow connect errors while the server is still binding; callers treat non-200 as not ready.
+  curl -sS -o /dev/null -w "%{http_code}" --max-time 5 "${BASE_URL}${path}" 2>/dev/null || echo "000"
 }
 
 page_has_marker() {
   local path="$1"
   local marker="$2"
-  curl -sS --max-time 8 "${BASE_URL}${path}" | grep -q "${marker}"
+  curl -sS --max-time 8 "${BASE_URL}${path}" 2>/dev/null | grep -q "${marker}"
 }
