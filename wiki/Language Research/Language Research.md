@@ -3,9 +3,9 @@ title: Language Research
 type: hub
 status: developing
 created: 2026-08-03
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-09-16
+method: eggbot-tight-2026-09-16-generate
+prose-model: grok
 written-by: grok
 model: grok
 description: "Hub for descriptive research on languages; the first note is on Mandarin transliteration (音譯)."
@@ -17,7 +17,7 @@ tags:
 
 # Language Research
 
-Language Research holds facts about how a language works: spelling, sound, borrowing, and orthography. Each fact is recorded with its confidence level. Claims that were checked and found false are recorded too, so the same search does not have to be run again. What a learner should do is covered by the language-learning wing, which is a separate section of the vault. This wing covers how the language itself works.
+Language Research records how a language works: spelling, sound, borrowing, and orthography. Each fact carries its confidence level. Claims that were checked and found false stay on the record, so the same search does not have to be run again. What a learner should do lives in the language-learning wing, a separate section of the vault. This wing is the language itself.
 
 ## What is in it
 
@@ -74,7 +74,7 @@ The [[wiki/Language/Refold Language Learning System|language-learning wing]] has
 
 ## What accumulates here
 
-This wing exists so that a research pass that took a lot of search time is recorded once and cited after that. Each record keeps its confidence level, and claims found false stay marked as false. The wing has one note. The language-learning pages are not moved into this wing. What collects here is descriptive material, one level below the learning wing's advice. A hub page that restates the pages it lists becomes a second copy of them that goes out of date. A new note is added here only when it records a fact about how the language works, with its confidence marked.
+This wing exists so a research pass that took a lot of search time is recorded once and cited after that. Each record keeps its confidence level. Claims found false stay marked as false. The wing has one note. The language-learning pages stay where they are. What collects here is descriptive material, one level below the learning wing's advice. A hub that restates the pages it lists becomes a second copy that goes out of date. A new note is added only when it records a fact about how the language works, with its confidence marked.
 
 ## Open Questions
 

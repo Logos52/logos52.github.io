@@ -6,7 +6,7 @@ stack:
   - Python
   - Static site generation
 order: 3
-blurb: "A Chinese dictionary that explains characters through their form and through stories."
+blurb: "A Chinese dictionary. Each character is explained by its form and by a story."
 image: projects/tsumugu-ed.png
 cardHref: "/projects/tsumugu-ed-status.html"
 created: 2026-06-15

@@ -8,7 +8,7 @@ stack:
   - SQLite (WASM)
 order: 5
 image: projects/wnab.png
-blurb: "A fork of Actual Budget made into a YNAB-style envelope app with a coaching layer. Retired because the daily upkeep of envelope budgeting took more effort than the insight it gave."
+blurb: "A fork of Actual Budget, turned into a YNAB-style envelope app with a coaching layer. Retired: the daily upkeep of envelope budgeting cost more than the insight it gave."
 created: 2026-06-02
 updated: 2026-09-13
 method: plain-register-2026-09-13

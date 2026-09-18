@@ -19,6 +19,45 @@ function preloadPagefind(): void {
 const domainLabel = (raw?: string) => (raw && isDomain(raw) ? DOMAIN_LABELS[raw] : (raw ?? ''));
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+/**
+ * Pagefind's `excerpt` is already HTML: it entity-escapes the page text, then wraps each matched
+ * word in its own `<mark>` tags. Running esc() over it a second time printed those tags as visible
+ * characters ("<mark>Agent</mark> Native…"). Keep the marks, drop any other tag.
+ */
+const excerptHtml = (s: string) => s.replace(/<(?!\/?mark\b)[^>]*>/g, '');
+
+/**
+ * Every note's markdown body opens with an <h1> repeating its title (hidden on the page by
+ * `.kb-prose > h1`, but Pagefind indexes hidden text), so the excerpt opened by saying the title
+ * the row already shows one line above. Drop that leading restatement. Returns the excerpt
+ * untouched whenever the opening is not the title, so a genuine match at the top is never eaten.
+ */
+function dropTitlePrefix(html: string, title: string): string {
+  const isWord = (c: string) => /[\p{L}\p{N}]/u.test(c);
+  const want = [...title].filter(isWord).join('').toLowerCase();
+  if (want.length < 4) return html;
+
+  let seen = '';
+  let inTag = false;
+  for (let i = 0; i < html.length; i++) {
+    const c = html[i];
+    if (c === '<') inTag = true;
+    else if (c === '>') inTag = false;
+    else if (!inTag) {
+      if (isWord(c)) seen += c.toLowerCase();
+      if (seen.length >= want.length) {
+        if (seen !== want) return html;
+        // Skip the punctuation and whitespace closing the restatement, plus a <mark> we cut inside of.
+        let j = i + 1;
+        while (j < html.length && /[\s.,;:!?—–-]/.test(html[j])) j++;
+        const rest = html.slice(j).replace(/^<\/mark>/, '').replace(/^[\s.,;:!?—–-]+/, '');
+        return rest.length > 20 ? rest : html;
+      }
+    }
+  }
+  return html;
+}
+
 let cmdKBound = false;
 
 export function initInlineSearch(root: HTMLElement): void {
@@ -48,7 +87,9 @@ export function initInlineSearch(root: HTMLElement): void {
       a.innerHTML =
         `<span class="kb-ac-title">${esc(r.title)}</span>` +
         (r.domain ? `<span class="kb-ac-domain">${esc(r.domain)}</span>` : '') +
-        (r.excerpt ? `<span class="kb-ac-ex">${esc(r.excerpt)}</span>` : '');
+        (r.excerpt
+          ? `<span class="kb-ac-ex">${dropTitlePrefix(excerptHtml(r.excerpt), r.title)}</span>`
+          : '');
       a.addEventListener('mousedown', (e) => {
         e.preventDefault();
         window.location.href = r.url;

@@ -6,15 +6,14 @@ tags:
   - techniques
   - learning-craft
   - dimensions
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-09-16
+method: eggbot-tight-2026-09-16-generate
+prose-model: grok
 ---
 
 # Techniques - Learning Craft
 
-The techniques in the knowledge base are specific methods, mental models, and ways of working for applying the Five Dimensions in daily practice.
-
-The Five Dimensions are the high-level framework. Each technique is a specific method used within that framework.
+The techniques in this knowledge base are specific methods, mental models, and ways of working for applying the Five Dimensions in daily practice. The Five Dimensions are the high-level framework. Each technique is a method used inside that framework.
 
 ## The Five Dimensions
 

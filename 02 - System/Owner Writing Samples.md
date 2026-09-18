@@ -69,3 +69,14 @@ Claude wrote a plain meaning for each of the ten summaries, and the owner edited
 10. The Story-Card Catalog: This is a journal entry that lists the kinds of Story card. The 30 situations and the 42 memory techniques combine into 34 kinds of card.
    Cut by Claude on the same pattern, not named by the owner: "A future AI agent that writes cards picks from these 34 kinds and can add new ones."
 
+## Argument Validation, the opening, 2026-09-18
+
+He wrote the opening himself after striking two generated versions ("your intro sentence is weird, here's a better one"). His words:
+
+> An argument is a set of facts that infer a conclusion.  Validating an argument means checking it's facts are true and that it's conclusion follows. It's closely tied to soundness.
+
+He asked for "a brief definition of what soundness is in the same sort of style as what i just wrote", because "it's not possible to talk about validity without talking about soundness". On the page his three sentences are word for word, with "it's" spelled "its", followed by the soundness definition Claude wrote in that shape.
+
+Later the same day he reordered the opening with the definitions in it ("your wording is weird. maybe try this"), and added "but i'm thinking it has some redundant definitions":
+
+> An argument is a set of facts that infer a conclusion. Validating an argument means checking its facts are true and that its conclusion follows. An argument is valid when its conclusion follows from its facts, whether or not the facts are true. It's closely tied to soundness. Logic gives each check its own name. An argument is sound when it is valid and its facts are true.

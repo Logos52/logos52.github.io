@@ -3,9 +3,9 @@ title: Time Management, Attention & Scheduling
 type: hub
 status: stable
 created: 2026-05-22
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-09-16
+method: eggbot-tight-2026-09-16-generate
+prose-model: grok
 written-by: grok
 model: grok
 tags:
@@ -16,7 +16,7 @@ tags:
 
 # Time Management, Attention & Scheduling
 
-Time management in this vault covers three questions, answered in order: which work is worth scheduling at all, what one hard target needs so that it is still completed by the end of the day, and how work still gets done on an ordinary day when nothing is going particularly well. Task management answers the first question by deciding whether a piece of work is worth timing. Scheduling assigns the work that passes that test to set times, and names one or two items that may displace every other item on the schedule. Attention and focus keep a person on the chosen work once the day has started. The methods for each part are described on the pages linked below.
+Time management in this vault answers three questions, in this order. Which work is worth scheduling at all. What one hard target needs so it is still finished by the end of the day. How work still gets done on an ordinary day when nothing is going particularly well. Task management answers the first question by deciding whether a piece of work is worth timing. Scheduling assigns the work that passes that test to set times, and names one or two items that may displace every other item on the schedule. Attention and focus keep a person on the chosen work once the day has started. The methods for each part are on the pages linked below.
 
 ## The child pages
 

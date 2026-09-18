@@ -3,9 +3,9 @@ title: "Story Craft"
 type: hub
 status: developing
 created: 2026-07-09
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-09-16
+method: eggbot-tight-2026-09-16-generate
+prose-model: grok
 written-by: grok
 model: grok
 tags:
@@ -17,7 +17,7 @@ flag-reason: "cluster held — Story Craft; opener is owner-picked Opus A. Do no
 
 # Story Craft
 
-This wing collects the methods this project uses to build a group of people who stay believable across a long story, told under two constraints that shape everything else: a tight word list, and nobody dies. The constraints are not obstacles the pages work around. They decide the methods — feeling reaches the reader through objects and gestures because the words for it are rationed, and tension comes from what a person can lose short of their life. Some of the group change over the course of the story and some do not, and the pages here treat both as things to be built.
+This wing is how this project builds a group of people who stay believable across a long story. Two constraints decide every method: a tight word list, and nobody dies. Those constraints are not obstacles the pages work around. Feeling reaches the reader through objects and gestures, because the words for feeling are rationed. Tension comes from what a person can lose short of their life. Some of the group change over the course of the story and some do not. The pages here treat both as things to be built.
 
 Start with [[wiki/Story Craft/Story Craft, Condensed|Story Craft, Condensed]] to see the whole section on one page. The other three pages that lay out the section are [[wiki/Story Craft/Arc Types|Arc Types]], which describes five arc types built on one shared structure so the characters in a cast can change in different ways; [[wiki/Story Craft/The Character Web|The Character Web]], which makes each recurring character a distinct answer to one controlling question; and [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]], which uses the word list as a reveal schedule.
 

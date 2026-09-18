@@ -115,6 +115,18 @@ Evidence: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/label-abc-2026-0
 
 He liked something. A retry is legal only if the condition named here actually changes.
 
+### Eggbot Tight, after meaning is settled
+
+The page has a data shape before it has sentences: one job (the friend's question), anti-jobs (adjacent questions this page never answers), the Generator's handover as voice, and the Readers row. Leftover is a fail: a second job, a second name for the same thing, a sentence whose deletion loses no fact, a figure of speech doing a fact's work. Each sentence is written clean on the first draft, as a whole thought, with the because inside it. Short is not an excuse to drop a fact. The rewrite pass is off. The costume (lowercase mad-scientist) stays off.
+
+Written 2026-09-16 from the owner's ask after reading Dr Eggbot. First accepted use the same day: the Worldviews hub, generated from a fact list, not rewritten. Owner: good for hub pages and simple blurbs; Claude has a hard time with those. Still unproven on essay hubs and on concept pages.
+
+This pick is new if leftover is a fail on content and the joins stay. It is a retry of Selfhood Plain if it becomes one fact per sentence on a page. It is a retry of the prohibition loop if a strike is answered with a banned-word list. It is Eggbot's costume if a public page goes lowercase.
+
+Instrument: `/Users/n1/Projects/llm-knowledge-base/02 - System/The Generator - Eggbot Tight.md`
+
+Do not offer it as the default. Explain First still settles meaning. The Generator still wins on disagreement.
+
 ### Fable, one pass, no shape chosen in advance
 
 On 21 August 2026 five blind versions of the positions page were ranked. E was Fable under the generator, written in one pass with no opening move chosen. Owner: "E is clearly the best, and it's not even close." B, the same writer with a reader-problem shape, was "not bad." Versions built around a named move lost. Opus under the retired 156-law standards lost.

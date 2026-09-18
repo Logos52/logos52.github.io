@@ -839,3 +839,37 @@ Conclusion first is the habit of saying what you think before you say why, and i
 ```
 
 **Struck because:** Owner: "no. especially this part: 'and it is the first of five habits that make thinking easy.'" A count of five things the page has not yet named, and the page previewing its own list in sentence one. Live since 2026-09-06 under the one-pass method with no cold read and no owner's eye. Used with the Gini page (82) as a register sample on 2026-09-11; both samples are now struck, so nothing continued from them counts.
+
+### 84. Argument Validation, hub — 2026-09-17
+
+```text
+Validating one means testing whether it holds, and that test asks two separate questions.
+```
+
+**Struck because:** Owner, 2026-09-17, on the hub as Opus 5 wrote it on 2026-09-16: "there's a lot of problems with out of content information." On this sentence: "two separate questions." The sentence announces a count of questions in place of asking them. The count is structure the reader has no use for.
+
+### 85. Argument Validation, hub — 2026-09-17
+
+```text
+the two places an argument fails, the eight ways reasoning breaks, and the nine shapes an argument page takes, each with the way that shape fails.
+```
+
+**Struck because:** Owner: "no one cares about two places, eight ways, nine shapes. stop using numbers." The blurb described the linked page by its inventory. The counts were carried from that page's own takeaways list, and the blurb was compressed from the description line and the takeaways, never from what the page says about the world. Holdings flagged COUNT on this line; the writer cut the output at 200 characters and reported the page clean.
+
+### 86. Argument Validation, hub — 2026-09-17
+
+```text
+Read this one first.
+```
+
+**Struck because:** Owner: "don't say \"Read this one first.\" no commands." An instruction aimed at the reader, copied from the Worldviews hub's "Read the first page below before the others."
+
+### 87. Argument Validation, hub, second version — 2026-09-18
+
+```text
+Someone says that one bag has many poisoned apples and another bag has only a couple, so the second bag is the safer one to eat from. Both facts can be true and the conclusion still wrong, because the second bag might hold a handful of apples and the first bag hundreds.
+At a New York City housing hearing an eviction was called violence, and the word blamed the property owner before anyone had argued anything.
+Societies are told they must be diverse by people whose own societies stay homogeneous.
+```
+
+**Struck because:** Owner: "i don't fully like the examples in the Argument Validation. i just want it to be a plain explanation. yo uhave a tendency to whip up examples that are just downright weird", then "remember, no rewrites. regenerations only." Each case was lifted from the linked page, where a paragraph of setup precedes it. In a blurb read alone the case arrives with no setup. Regenerated 2026-09-18 from a fact list with every case left out.

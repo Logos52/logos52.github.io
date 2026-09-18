@@ -4,9 +4,9 @@ type: hub
 status: developing
 description: "Cluster hub: writing records speech, so each character connects a written form to a sound and a meaning. Classifying each component by the job it does in each character lets a learner predict a meaning domain and a sound range, so the script is not arbitrary. Reading order, a one-line summary of each page, and where the cluster belongs in the three-mode immersion system."
 created: 2026-06-10
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-09-16
+method: eggbot-tight-2026-09-16-generate
+prose-model: grok
 written-by: grok
 model: grok
 source-count: 3
@@ -20,7 +20,7 @@ tags:
 
 # How Chinese Characters Work
 
-A character is the written form of a spoken word. The word had a sound and a meaning before anyone wrote it down, and the written word still has both. Each part of the written form has a job: some parts picture a thing, some contribute a sense, some indicate a range of syllables, and some do nothing. If you identify each part by its job, the thousands of characters are no longer arbitrary drawings. You can then predict a meaning domain and a sound range for a character you have never seen. You can also rebuild a character whose form you have partly forgotten.
+Speech comes first. A character is the written form of a spoken word. That word already had a sound and a meaning. The writing still has both. Each part of the writing has a job: some parts picture a thing, some add a sense, some point to a range of syllables, and some do nothing. Once you can name the job of each part, the thousands of characters are not arbitrary drawings. You can predict a meaning domain and a sound range for a character you have never seen. You can rebuild a character whose form you have only half forgotten.
 
 ## What the parts do
 
@@ -42,19 +42,19 @@ Read the pages of the cluster in this order. Each page uses a classification tha
 
 Read [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] first. It covers one written word and its three links, each of which can fail separately. [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] gives the rule for when to stop dividing a character: stop at the level of functional components, and do not divide the character into every stroke. Next, read the pages on the three working roles in any order: form, meaning, and sound. [[wiki/Language/Chinese/Sound Series|Sound Series]] extends the study of sound components from single characters to families and related-initial groups. Empty Components comes after those pages, because a part can be classified as leftover only after it has been checked for the other three jobs. [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] covers how the senses of characters developed from their original meanings, and compares the character-tree with the component-tree. The practice pages come last. The **IME Method** recovers a form you cannot recall: you list candidates that fit the sound side, list candidates that fit the meaning side, and cross the two lists. [[wiki/Language/Chinese/The IME Method|The IME Method]] covers that crossing of the two lists. **Pipelining** means learning the spoken word first, in both directions, and adding the written form afterward. [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]] covers that sequence. The whole cluster is based on Rules of Effective Memorization.
 
-The same eleven pages, with one line on each:
+The same eleven pages, one line each:
 
-- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]]: one item with three links that fail independently
-- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]]: where to stop dividing a character
-- [[wiki/Language/Chinese/Form Components|Form Components]]: parts that do their job by what they depict
-- [[wiki/Language/Chinese/Meaning Components|Meaning Components]]: parts that do their job through an extended sense
-- [[wiki/Language/Chinese/Sound Components|Sound Components]]: parts that indicate a syllable range
+- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]]: one written word, three links, each of which can fail on its own
+- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]]: stop dividing at functional components, not at every stroke
+- [[wiki/Language/Chinese/Form Components|Form Components]]: parts whose job is a picture
+- [[wiki/Language/Chinese/Meaning Components|Meaning Components]]: parts whose job is an extended sense
+- [[wiki/Language/Chinese/Sound Components|Sound Components]]: parts that point to a syllable range
 - [[wiki/Language/Chinese/Sound Series|Sound Series]]: families and related-initial groups
 - [[wiki/Language/Chinese/Empty Components|Empty Components]]: marks, and leftover shapes from corrupted forms
-- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]]: the character-tree compared with the component-tree
-- [[wiki/Language/Chinese/The IME Method|The IME Method]]: recalling a form by crossing lists of candidates
-- [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]]: learning the spoken word first and the written form later
-- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]: why dividing characters by function is a better use of study time
+- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]]: the character-tree next to the component-tree
+- [[wiki/Language/Chinese/The IME Method|The IME Method]]: recover a forgotten form by crossing sound-side candidates with meaning-side candidates
+- [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]]: learn the spoken word first, then add the written form
+- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]: why dividing characters by function beats copying strokes
 
 [[wiki/Language/Character Primer|Character Primer]] was the first page on this subject. This cluster replaces that short outline with a model a learner can use, and it keeps the same study materials: real words, audio, popup dictionaries, and traditional script.
 

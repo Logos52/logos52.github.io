@@ -7,7 +7,7 @@ stack:
   - Bases
   - Templater
 order: 3
-blurb: "A learning-system template with Kolb's reflective cycles, skill tracking, and goal anchoring, rebuilt in Obsidian from Pan's Notion original. Vault path: mg-kolbs/."
+blurb: "A learning-system template: Kolb's reflective cycles, skill tracking, and goal anchoring, rebuilt in Obsidian from Pan's Notion original. Vault path: mg-kolbs/."
 created: 2026-06-02
 updated: 2026-09-13
 method: plain-register-2026-09-13

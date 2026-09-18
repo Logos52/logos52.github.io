@@ -45,6 +45,14 @@ export const IGNORE_PATTERNS = [
   // (The ONLY addition to the otherwise-verbatim Quartz denylist; it touches no existing content.)
   'kb-astro/**',
 
+  // Agent instruction files at the repo root. They were publishing as notes, so searching
+  // "agent" or "claude" returned AGENTS.md and CLAUDE.md above real wiki pages.
+  'AGENTS.md',
+  'CLAUDE.md',
+  'GROK.md',
+  'README.md',
+  'mg-kolbs-template.md',
+
   // Agent research banks — stay in the repo for agents, not on the public site.
   'wiki/Research/**',
 

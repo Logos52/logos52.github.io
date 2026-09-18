@@ -3,9 +3,9 @@ title: Tsumugu
 type: hub
 status: developing
 created: 2026-07-17
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-09-16
+method: eggbot-tight-2026-09-16-generate
+prose-model: grok
 written-by: grok
 model: grok
 tags:
@@ -18,9 +18,9 @@ tags:
 
 # Tsumugu
 
-Tsumugu is an offline graded-reader engine. It has a Taiwan-Mandarin pack, a Vietnamese pack that uses Vietnamese words of Chinese origin, and a fixed cast of characters who go through the lessons of a classroom textbook. The project's status and stack are on the project page.
+Tsumugu is a graded-reader engine that runs offline. It ships a Taiwan-Mandarin pack, a Vietnamese pack that starts from Vietnamese words of Chinese origin, and a fixed cast who go through the lessons of a classroom textbook. Status and stack live on the project page.
 
-The engine is open-source and runs client-side. Its core loop does not use a paid API. The first pack is Traditional Chinese as spoken and written in Taiwan. The Vietnamese pack starts from the [[wiki/Language/The Han-Viet Bridge|Hán-Việt bridge]]: the Sino-Vietnamese words a Vietnamese speaker already knows, used as a starting point for learning Chinese. Companion stories follow a five-book classroom Mandarin series. One pack is built on that series. A reader does not need to buy the series to use the engine. Each character's voice is fixed: the sound of their speech is stored as a written description plus a local synthesis seed, so it stays the same from one generation to the next. The in-browser reader tracks what the user knows word by word and scores how much of a passage the user already knows.
+The engine is open-source and runs in the browser. The core loop does not call a paid API. The first pack is Traditional Chinese as spoken and written in Taiwan. The Vietnamese pack starts from the [[wiki/Language/The Han-Viet Bridge|Hán-Việt bridge]]: Sino-Vietnamese words a Vietnamese speaker already knows, used as a way into Chinese. Companion stories follow a five-book classroom Mandarin series. One pack is built on that series. A reader does not need to buy the series to use the engine. Each character's voice is fixed: a written description plus a local synthesis seed, so the sound stays the same from one generation to the next. The in-browser reader tracks what the user knows word by word and scores how much of a passage is already known.
 
 ## The class
 

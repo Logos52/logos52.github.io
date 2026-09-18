@@ -3,9 +3,9 @@ title: Experiences
 type: hub
 status: developing
 created: 2026-05-16
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-09-16
+method: eggbot-tight-2026-09-16-generate
+prose-model: grok
 written-by: grok
 model: grok
 tags:
@@ -17,15 +17,13 @@ tags:
 
 # Experiences
 
-Each page in this section takes a lived event as a source. The page records the reusable rule that came out of the event. It does not tell the event as a travel story or as a diary entry.
+A page in this section starts from something that happened to the writer. It keeps the rule that came out of that event. It is not a travel story, and it is not a diary.
 
-## Current entries
+The section has two notes. [[wiki/Experiences/Taiwan 2020|Taiwan 2020]] is language study and cultural observation in Taiwan from late 2019 into early 2020, including an eight-day side trip to Japan that early COVID disruptions made necessary. [[wiki/Experiences/Red Team Training|Red Team Training]] is a period in the U.S. Army UFMCS Red Team. That page keeps what the period taught about cultural empathy and about breaking groupthink. It does not cover weapons. The same two notes are also in the journal as [[journal/experiences|Experiences]].
 
-[[wiki/Experiences/Taiwan 2020|Taiwan 2020]] covers language study and cultural observation in Taiwan from late 2019 into early 2020. It includes an eight-day side trip to Japan that early COVID disruptions made necessary. [[wiki/Experiences/Red Team Training|Red Team Training]] covers a period in the U.S. Army UFMCS Red Team. The page keeps what that period taught about cultural empathy and about breaking groupthink. It does not cover weapons. The same two notes are also published in the journal as [[journal/experiences|Experiences]].
+A new page belongs here when the situation was cultural immersion, professional training, a period of stability or disruption, or a real-world system, and when the page takes a mechanism, a failure mode, or a reusable operating principle from that situation. Handle the event the way a dense source is handled: extract the mechanism, the failure mode, and the operating principle. Personal experience is a different kind of source from theory or from secondhand synthesis.
 
-A new page goes in this section if the situation was cultural immersion, professional training, a period of stability or disruption, or a real-world system. The page also needs a mechanism, a failure mode, or a reusable operating principle taken from that situation. Handle these experiences the way dense sources are handled: extract the mechanism, the failure mode, and the operating principle. Personal experience is a different kind of source from theory or secondhand synthesis.
-
-The extraction produces more precise constraints, a more accurate view of the trade-offs, and principles that have already been tested in a real situation. The section has two notes. It does not survey a place or set out a training doctrine.
+That extraction produces tighter constraints, a more accurate view of the trade-offs, and principles that have already been tested in a real situation. The section does not survey a place. It does not set out a training doctrine.
 
 ## Related
 

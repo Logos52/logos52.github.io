@@ -26,21 +26,21 @@ export const CONDENSED_ENTRIES: {
   {
     title: 'Learning, Condensed',
     slug: 'wiki/Syntheses/Learning, Condensed',
-    blurb: 'Taking in new material, remembering it, and planning your study.',
+    blurb: 'How to take in new material, how to remember it, and how to plan study.',
     icon: 'ti-school',
     color: 'var(--d-learning)',
   },
   {
     title: 'Chinese Characters, Condensed',
     slug: 'wiki/Language/Chinese/Chinese Characters, Condensed',
-    blurb: 'Learning Chinese characters. The parts of a character give clues to its sound and meaning.',
+    blurb: 'How to learn Chinese characters. The parts of a character give clues to its sound and to its meaning.',
     icon: 'ti-language',
     color: 'var(--d-language)',
   },
   {
     title: 'Agentic Engineering, Condensed',
     slug: 'wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed',
-    blurb: 'Building software with AI agents. Rules that last are separated from tips that go out of date.',
+    blurb: 'How to build software with AI agents. Rules that stay true are kept apart from tips that go out of date.',
     icon: 'ti-robot',
     color: 'var(--d-agentic)',
   },
@@ -68,7 +68,7 @@ export const CONDENSED_ENTRIES: {
   {
     title: 'Story Craft, Condensed',
     slug: 'wiki/Story Craft/Story Craft, Condensed',
-    blurb: 'Writing stories for language learners. The stories use only words the reader already knows.',
+    blurb: 'How to write stories for language learners, using only words the reader already knows.',
     icon: 'ti-book',
     color: 'var(--d-mind)',
   },
@@ -84,7 +84,7 @@ export const HUB_ENTRIES: {
 }[] = [
   {
     title: 'Learning Systems',
-    slug: 'wiki/Syntheses/First Principles of Learning',
+    slug: 'wiki/Syntheses/Are You Learning, or Just Using Techniques',
     blurb: 'How learning works. A study technique is useful only if it makes you process the material in your mind.',
     icon: 'ti-network',
     color: 'var(--d-learning)',
@@ -92,14 +92,14 @@ export const HUB_ENTRIES: {
   {
     title: 'Agentic Engineering',
     slug: 'wiki/Systems/AI & Agentic Systems/Agentic Engineering',
-    blurb: 'AI agents write much of the code, and the developer is still responsible for it.',
+    blurb: 'AI agents write much of the code. The developer is still responsible for that code.',
     icon: 'ti-robot',
     color: 'var(--d-agentic)',
   },
   {
     title: 'Language Learning',
     slug: 'wiki/Language/Refold Language Learning System',
-    blurb: 'Learning a language by listening and reading a lot.',
+    blurb: 'How to learn a language by listening and reading a lot.',
     icon: 'ti-language',
     color: 'var(--d-language)',
   },
@@ -112,22 +112,22 @@ export const HUB_ENTRIES: {
   },
   {
     title: 'Attention & Self-Management',
-    slug: 'wiki/Self Management/Focus Management - How to Enter & Recover Inside a Work Block',
-    blurb: 'Focus and your own attention. Flow is being fully absorbed in a task.',
+    slug: 'wiki/Self Management/Flow State',
+    blurb: 'Focus, and a person\'s own attention. Flow is being fully absorbed in a task.',
     icon: 'ti-target',
     color: 'var(--d-focus)',
   },
   {
     title: 'Minimalism',
     slug: 'wiki/Minimalism/Minimalism as Systems Design',
-    blurb: 'Owning fewer things. A possession costs attention, space and upkeep.',
+    blurb: 'Owning fewer things. A possession costs attention, space, and upkeep.',
     icon: 'ti-box',
     color: 'var(--d-focus)',
   },
   {
     title: 'Red Team / Critical Thinking',
     slug: 'wiki/Red Team/Red Teaming',
-    blurb: 'Attacking your own plan before you carry it out.',
+    blurb: 'How to attack your own plan before you carry it out.',
     icon: 'ti-shield',
     color: 'var(--d-mind)',
   },
@@ -141,8 +141,15 @@ export const HUB_ENTRIES: {
   {
     title: 'Story Craft',
     slug: 'wiki/Story Craft/Story Craft',
-    blurb: 'Building characters who stay believable across a long story.',
+    blurb: 'How to build characters who stay believable across a long story.',
     icon: 'ti-book',
+    color: 'var(--d-mind)',
+  },
+  {
+    title: 'Worldviews & the Political Order',
+    slug: 'wiki/Worldviews & the Political Order/Worldviews & the Political Order',
+    blurb: 'Contested public arguments, each checked for what follows from it.',
+    icon: 'ti-scale',
     color: 'var(--d-mind)',
   },
 ];

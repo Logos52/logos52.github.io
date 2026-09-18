@@ -14,9 +14,9 @@ practicing:
     page: "wiki/Concepts/Catching the Inner Voice"
 hideFolderListing: true
 created: 2026-08-10
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-09-16
+method: eggbot-tight-2026-09-16-generate
+prose-model: grok
 tags:
   - personal
 ---
@@ -73,6 +73,6 @@ Learning science and Mandarin. On the AI side, how agents actually write and the
 
 ## Arguments
 
-Twenty-two pages that take contested political premises as given and test whether the reasoning is sound. Several end with one defense that the testing did not refute. My own positions are written on a separate page.
+Each page takes a contested political premise as given and tests whether the reasoning holds. Several end with one defense the testing did not refute. The positions themselves are on a separate page.
 
 [[wiki/Worldviews & the Political Order/Worldviews & the Political Order|Worldviews & the Political Order]] · [[personal/2026-08-17-positions|Positions]]

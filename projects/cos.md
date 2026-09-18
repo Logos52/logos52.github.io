@@ -6,7 +6,7 @@ stack:
   - Python
   - HTML/CSS
 order: 4
-blurb: "A personal operating system for daily life: finances, tasks, and dates in one view. It moved from terminal apps to a static HTML dashboard that uses WNAC's design language."
+blurb: "A personal OS for finances, tasks, and dates in one view. Terminal apps were replaced by a static HTML dashboard that uses WNAC's design language."
 created: 2026-06-02
 updated: 2026-09-13
 method: plain-register-2026-09-13

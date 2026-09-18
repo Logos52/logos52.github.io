@@ -67,7 +67,7 @@ const hasAside = true;
         data-pagefind-meta={`domain:${domain}`}
         data-pagefind-meta={`title:${title}`}
       >
-        <div class="kb-crumb" aria-label={breadcrumb}>
+        <div class="kb-crumb" data-pagefind-ignore aria-label={breadcrumb}>
           {
             crumbs.length
               ? crumbs.map((c, i) => (
@@ -79,8 +79,11 @@ const hasAside = true;
               : title
           }
         </div>
-        <h1 class="kb-note-title">{title}</h1>
-        <div class="kb-note-meta">
+        {/* The markdown body carries its own leading <h1> (hidden below by `.kb-prose > h1`), and
+            Pagefind indexes hidden text — so without this ignore every excerpt opened by saying the
+            title twice. The row's title comes from data-pagefind-meta, not from this element. */}
+        <h1 class="kb-note-title" data-pagefind-ignore>{title}</h1>
+        <div class="kb-note-meta" data-pagefind-ignore>
           {
             type && (
               <span class="kb-type-tag" style={`border-color:${domainVar};color:${domainVar}`}>

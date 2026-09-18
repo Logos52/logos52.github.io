@@ -10,6 +10,25 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-09-18] compile | Grok Bot Galaxy rebuilt, and the rules as a journal entry
+
+- `wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy.md` rebuilt through Explain First. Owner's ruling: keep the first day's talks and the advice repeated across talks; drop the sales, support and marketing talks of the second and third days; state advice as general rules with sources only in Sources.
+- New: `journal/2026-09-18-grok-bot-galaxy-rules.md`, the rules in short form on one page.
+- Link clauses updated on Agentic Engineering, Agent Glossary and Using Grok Bot. The page before the rebuild is in `01 - Workbench/galaxy-rebuild-2026-09-18/`.
+- Not done: the new rules are not yet on Cursor Cloud Agents or Using Grok Bot. Not committed. The owner has not read the finished page.
+
+## [2026-09-17] compile | Cursor Cloud Agents and Picking a computer
+
+- New pages: `wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents.md`, `Picking a computer.md`. Same WPW as Using Grok Bot / pstack / Galaxy: why in the opening whole, whether before how-to.
+- Wired from glossary, Agentic Engineering, stack, notes index, and the three sibling pages.
+
+## [2026-09-17] compile | Grok Bot usability guides and pstack
+
+- New pages under Agentic: `wiki/Systems/AI & Agentic Systems/Using Grok Bot.md`, `pstack.md`, `Grok Bot Galaxy.md` (Day 1 + Day 2 findings).
+- Wired from Agentic Engineering, Grok Bot Primer, Grok Bot Condensed, Agent Glossary, Current Agentic LLM Stack, `notes/index.md`.
+- Day 1 field notes copied to `raw/sources/2026-09-15-day-1-grok-bot-galaxy.md`.
+- pstack not installed. Not a stack change.
+
 ## [2026-09-16] maintenance | Site audit cuts and deploy hardening
 
 - Deploy workflow: PR CI (lint-frontmatter, guard:source, build, guard, leak.test); deploy only from `main`; `cancel-in-progress: true`; `fetch-depth: 1`; npm cache. Catalog/journal scripts print the filename on YAML failure.
