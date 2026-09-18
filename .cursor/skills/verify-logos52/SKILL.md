@@ -102,7 +102,7 @@ Wiki note (`src/pages/[...slug].astro` → `Note.astro`):
 - Body links `.kb-prose a` (resolved wikilinks). Unresolved targets are `span.missing`, not links
 - Rail: `[data-constellation-root][data-mode="local"]`, `nav.kb-toc[aria-label="Contents"]`, `section.kb-backlinks[aria-label="Backlinks"]`
 
-Map (`/map/`): `h1.map-head__title` is `The vault`; full graph `[data-constellation-root][data-mode="full"][data-domain-labels]`; domain headings link to `/domains/{d}/`.
+Map (`/map/`): `h1.map-head__title` is `The vault`; full graph `[data-constellation-root][data-mode="full"][data-domain-labels]`; domain headings link to `/domains/{d}/`. Domain pages and `/graph/` set Chrome `active="notes"`, so Notes is `.on` after those hops — not a Map failure.
 
 Graph (`/graph/`): `h1` is `Vault graph`; same constellation island. Not in Chrome nav.
 

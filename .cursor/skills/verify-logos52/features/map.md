@@ -22,7 +22,7 @@ Click `Map` in Chrome, click the Explore door on Home, or follow the Map link on
 2. Resulting state: `/map/` or `/map`, `h1.map-head__title` = `The vault`, Chrome `Map` is `.on`.
 3. Assert `[data-constellation-root][data-mode="full"]` and a `canvas`.
 4. Click a domain heading link (accessible name is the domain label, e.g. the `learning` chip's destination is `/domains/learning/`).
-5. Resulting state: `/domains/{d}/`, an `h1` with that label, and a `.moc` list.
+5. Resulting state: `/domains/{d}/`, an `h1` with that label, and a `.moc` list. Chrome `Notes` is `.on` (domain pages set `active="notes"`).
 6. Optional: open `/graph/` directly and confirm `h1` `Vault graph`. Do not use canvas pixel clicks unless the bug is node-hit testing.
 
 ## Gotchas
@@ -32,3 +32,4 @@ Click `Map` in Chrome, click the Explore door on Home, or follow the Map link on
 - Canvas nodes have no ARIA name. Prefer the domain list and Notes/Home links when proving navigation.
 - Home's constellation is `mode="spine"` (landmark subset). Map/Notes/Graph use `mode="full"`. A sparse home graph is not a Map failure.
 - `/graph/` sets Chrome `active="notes"`, so the Notes nav item is `.on` while you are on the graph page. Record that if you land there; do not "correct" it in the map.
+- Domain pages (`src/pages/domains/[domain].astro`) also set `active="notes"`. After you follow a domain heading from `/map/` to `/domains/{d}/`, Notes is `.on`, not Map. Same surprise as `/graph/`. The `a.head__kind` link back to `/map/` is the way to restore the Map highlight.

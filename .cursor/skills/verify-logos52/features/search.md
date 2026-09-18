@@ -30,5 +30,6 @@ Do not stub `/pagefind/pagefind.js`. If the dropdown says `Search index loadingâ
 - Pagefind is emitted at `dist/pagefind/` on `astro build`. `predev` runs `scripts/ensure-pagefind.mjs`, which builds the whole site when that file is missing. A fresh checkout's first `npm run dev` is slow; search before that build finishes is empty/loading.
 - Vite must not bundle `/pagefind/pagefind.js` (see `astro.config.ts` `external-pagefind`). A transform-time import error is a product/setup bug.
 - Results cap at eight. Keyboard highlight class is `.kb-ac-row.on`.
+- A row's domain/path label can show `AI & Agentic Systems`. The live note URL uses `slugifyFilePath` (`AI--and--Agentic-Systems`, spaces around `&`). Assert `h1.kb-note-title`, not a hyphen count in the address bar.
 - At â‰¤720px the field still exists; the nav hides behind `#kb-menu-btn`.
 - Never test search against https://logos52.github.io from this skill.

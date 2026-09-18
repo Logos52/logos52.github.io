@@ -4,7 +4,7 @@ The home page is the visitor's first door into the wiki. Prove that the hero ren
 
 ## Sub-features
 
-- Hero `.hero__title` + `.hero__lede` (from `kb-astro/site-data/home.json` when present, else the fallback strings in `src/pages/index.astro`)
+- Hero `.hero__title` + `.hero__lede` (from `kb-astro/site-data/home.json` when present, else the fallback strings in `src/pages/index.astro`). On this tree the JSON is present, so the live `h1` is `LLM Knowledge Base` — do not assert the longer fallback title.
 - Constellation spine (`[data-constellation-root][data-mode="spine"]`) and domain chips `a.kb-domainchip[data-domain]` → `/domains/{d}/`
 - Start here: five `a.door` with `.door__intent` Understand / Apply / Learn / Decode / Explore
 - Top of mind: exactly four `.topmind__item` (build dies if a fifth is added)

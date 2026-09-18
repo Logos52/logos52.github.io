@@ -27,6 +27,6 @@ The vault file `notes/index.md` (`title: Knowledge Base Index`) is the Obsidian/
 ## Gotchas
 
 - Chrome href is `/notes` (no trailing slash). `trailingSlash` is `ignore`, so `/notes` and `/notes/` should both work.
-- `/notes/index/` is not a generated slug. Treat a 404 there as a routing fact, not something to hide by rewriting the map to a URL that 200s.
-- `notes/index.md` and `HUB_ENTRIES` can drift. Example already on this tree: the vault lists Learning Systems → `Are You Learning, or Just Using Techniques`; `icons.ts` lists Learning Systems → `First Principles of Learning`. Record drift; do not "fix" it in the skill.
+- `/notes/index/` is not a generated slug. Live `GET /notes/index/` is 404. Treat that as a routing fact, not something to hide by rewriting the map to a URL that 200s. The published index is `/notes/` (`src/pages/notes.astro`).
+- `notes/index.md` and `HUB_ENTRIES` can drift. Examples on this tree: Learning Systems in `icons.ts` is `First Principles of Learning` (vault lists `Are You Learning, or Just Using Techniques`); Attention & Self-Management in `icons.ts` is the old Focus Management path (vault/current note is `Flow State`). Those published hrefs **301** via `kb-astro/site-data/redirects.json` to the current notes — the visitor still lands on a page. Record the slug drift; do not treat the 301 as a harness miss, and do not "fix" `icons.ts` in this skill.
 - This page is not the gitignored `notes/catalog.md`.

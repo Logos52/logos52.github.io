@@ -15,7 +15,7 @@ A published note is one `[...slug].astro` route wrapped in `Note.astro`. Driving
 
 From Home, use a Start-here door (Understand / Apply / Learn / Decode), a Top of mind link, a hub-list row, or a Project Update title. From Notes, use a Condensed or Hubs row. From a note, click a `.kb-prose a`.
 
-A stable first note: Understand door → `/wiki/Concepts/The-AI-Industrial-Revolution/` (`wiki/Concepts/The AI Industrial Revolution.md`).
+A stable first note: Understand door → `/wiki/Concepts/The-AI-Industrial-Revolution/` (`wiki/Concepts/The AI Industrial Revolution.md`). The door title is `What Engineers Are Judged On`; the note `h1.kb-note-title` is `The AI Industrial Revolution` (frontmatter `title` via `deriveTitle`). Assert the derived title, not the door copy.
 
 ## Driving it with computerUse
 
