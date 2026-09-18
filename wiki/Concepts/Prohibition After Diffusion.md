@@ -3,12 +3,12 @@ title: "Prohibition After Diffusion"
 type: concept
 status: developing
 created: 2026-07-26
-updated: 2026-09-11
+updated: 2026-09-17
 method: plain-rewrite-2026-09-11
 prose-model: fable
 written-by: grok
 model: grok
-source-count: 5
+source-count: 6
 description: "A ban that arrives after the file is already on other machines does not take the file back. It binds the people who can be audited."
 tags:
   - ai-policy
@@ -59,6 +59,8 @@ Open weights are a model that can be downloaded and run without calling the publ
 Call a banned upstream weight tainted. Declaring an upstream weight tainted reaches every derivative trained or post-trained on it. Two examples of that chain were given on the panel: a best American open model distilled off an earlier Chinese open release, and a coding agent shipped by post-training the same weights. Both examples were unsourced and came from the person arguing hardest against the ban. The mechanism holds without them. The two examples are unverified.
 
 Nearly two hundred startups urged the president not to ban Chinese models. The IP-theft framing is being asserted and has not been adjudicated.
+
+In September 2026 the head of Nvidia said the same of Linux, Kubernetes and Chinese models alike. Once any of them has been downloaded and forked, it belongs to whoever forked it. He also said that the vast majority of the world's open-source contribution now comes from China, which has more engineers producing more of it.
 
 ## Work that never gets billed
 
@@ -141,3 +143,4 @@ The speakers' interests are public. The most active advocate of the ban was the 
 - *Universal City Studios, Inc. v. Reimerdes*, 111 F. Supp. 2d 294 (S.D.N.Y. 2000), aff'd *Universal City Studios, Inc. v. Corley*, 273 F.3d 429 (2d Cir. 2001). DMCA injunction on posting and linking DeCSS after the code had spread.
 - Digital Millennium Copyright Act, 17 U.S.C. § 1201 (1998). Anti-circumvention written after the tools existed.
 - U.S. Department of State letter to Defense Distributed, May 2013; Andy Greenberg, "State Department Demands Takedown Of 3D-Printable Gun Plans," *Forbes*, 9 May 2013. More than 100,000 downloads in two days; files already on other hosts.
+- All-In, All-In Summit interview with Jensen Huang, 14 September 2026. The fork claim applied to kernels, orchestrators and open weights, and the origin of most open-source contribution. First-party captions. Local copy: `/Users/n1/handoff-2026-09-14-to-16.md`; originating packets under `/workspace/recap/` on the collecting machine.

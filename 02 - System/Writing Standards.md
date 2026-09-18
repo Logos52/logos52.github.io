@@ -3,7 +3,7 @@ title: "Writing Standards"
 type: system
 status: developing
 created: 2026-05-08
-updated: 2026-09-08
+updated: 2026-09-18
 rebuilt: 2026-08-20
 supersedes: "_archive/Writing Standards - 156 laws - retired 2026-08-20.md"
 tags:
@@ -51,6 +51,7 @@ The gate. Mechanical where it can be, run after the draft and never held while w
 - Do not file exhausted or offhand chat as documentation. Write the ruling. Do not copy the vent onto a page, a catalog, a journal, or a later reply. A chat line is not stored as owner words unless he asked for that line to be kept. Strikes he wants as craft law still go in Rejected Specimens. (Ruled 2026-09-01.)
 - Em dashes cut entirely from blog prose and from front-facing chrome. Legal elsewhere. (L111, L142)
 - The delete list: "honestly," "genuinely," "quite," "very," "really," "it's worth noting," "importantly," "arguably," "probably" where probability is not the content, "I think" in a document, and announcing that something is important instead of showing it. Saying what a fact does, what it changes, and why the reader is being told it is content, not announcement, and stays. "Drill" as a word for practice. (L68, L69)
+- No observer's-seat sentence on a political page. A page that argues a position is written from the seat of the person making the argument: no attribution frame, hedge, softer word, concession-first order, minimiser or added objection that the argument did not make. `scripts/bias-sweep.py` lists the marks; the read and the cold read in [[02 - System/Bias QA|Bias QA]] are the judgment half. Owner, 2026-09-18: "for any political pages, make sure you add a QA to avoid left biases from now on." (Ruled 2026-09-18.)
 - No epigrams, in any writing. A sentence that would still work as a quote on a card dies. A short sentence that only lands because of the one before it is the same fault. This binds pages, replies, reports, workbench files, and the instrument files that this section otherwise leaves out. The owner's words, 2026-08-25: "epigrams are a pet peeve of mine and should never show up in any of the writing." The repair is a plain sentence that keeps the fact and the reason in the same breath. (Ruled 2026-08-25.)
 
 ---
