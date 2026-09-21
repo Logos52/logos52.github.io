@@ -74,6 +74,7 @@ Stop the run when a new wiki page turns out to be a long excerpt, or when a conc
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the three-layer pattern.
 - [[Wiki Health Checks|Wiki Health Checks]]: lint after ingest.
 - [[Question Answering Against a Wiki|Question Answering Against a Wiki]]: the query workflow.
+- [[wiki/Systems/Agentic Workflows/Karpathy LLM-Wiki|Karpathy LLM-Wiki]]: the pattern of compiling sources into pages once, with the model owning the sentences. This workflow keeps the sentences with you.
 
 ## Open questions
 
