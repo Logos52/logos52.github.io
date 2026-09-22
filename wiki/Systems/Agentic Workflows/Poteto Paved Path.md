@@ -16,7 +16,7 @@ tags:
 
 # Poteto Paved Path
 
-You can leave an agent alone only as far as you trust it. An agent is a program that edits files from a chat. Trust grows when a file, or a check that fails the build, catches a mistake you would otherwise catch yourself. A stronger prompt does not grow that trust. The next agent opens the files. The next agent does not open the chat where you explained yourself more carefully.
+You can leave an agent alone only as far as you trust it. Trust grows when a file, or a check that fails the build, catches a mistake you would otherwise catch yourself. A stronger prompt does not grow that trust. The next agent opens the files. The next agent does not open the chat where you explained yourself more carefully.
 
 While you still have to watch every chat and correct it by hand, you can keep a handful of agents in front of you. Starting a large batch before a file or a check can reject a mistake spends the work on bad edits. Poteto Paved Path is the way up from that handful. Show that the result does the thing. Teach the method in a file the agent can load. Change the files so the easy edit is the correct one.
 
