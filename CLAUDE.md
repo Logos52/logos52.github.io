@@ -1,10 +1,15 @@
 # CLAUDE.md
 
-**Decision documents** (PRDs, proposals, decision notes, memos) additionally follow the High-Signal Decision Writing section of `02 - System/Writing Standards.md`.
+**Decision documents** (PRDs, proposals, decision notes, memos) additionally follow the Decision documents section of `02 - System/Writing Standards.md`.
 
-**Vault pages** (wiki, positions, personal) are not briefs. Since 2026-09-13 they are written with Explain First by default (`/Users/n1/.claude/skills/explain-first/SKILL.md`): the subject is explained to the owner in the chat and corrected until the meaning is settled, then the page is written fresh with the old page closed. The other route is the pipeline in `02 - System/Writing Pipeline.md`: content and outline first (`02 - System/The Generator.md`, then `02 - System/The Generator - Selfhood v2.md`), the draft written to the owner one paragraph at a time against the holdings ledger, then a rewrite pass by a fresh head holding only the draft and `02 - System/Rewrite Prompt.md`, then a cold read per `02 - System/Cold Read.md`. Outline first is the default for every page; the owner can waive it. Epigrams never ship in any writing, including internal documents (ruled 2026-08-25). A political page (anything in `wiki/Worldviews & the Political Order/`, or any page arguing a position on politics or society) passes `02 - System/Bias QA.md` before the owner sees it: script, read from the holder's seat, cold read for lean (ruled 2026-09-18).
+**Vault pages** (wiki, positions, personal) are not briefs. This file is Claude's instruction set for the vault. Grok has its own (`AGENTS.md`, `GROK.md`). For Claude, ruled 2026-09-18 and 2026-09-20:
 
-## 4. Surgical Changes
+- The old page is read once and closed, and the page is written fresh as a plain explanation of its subject to the owner, in his style. No step waits on him (ruled 2026-09-20). When he tells Claude to put a specific text on a page, it goes on word for word.
+- One style rule: avoid all mannered prose. The target is the owner's own writing in `02 - System/Owner Writing Samples.md`, read before writing a page. What never ships and the page layout are in `02 - System/Writing Standards.md`, which is short. There is no generator file.
+- A political page (anything in `wiki/Worldviews & the Political Order/`, or any page arguing a position on politics or society) passes `02 - System/Bias QA.md` before the owner sees it (ruled 2026-09-18).
+- Several windows may be working in this vault. Run `git status` before staging. Stage and push only files this window wrote, unless the owner says to push everything.
+
+## Surgical changes
 
 **When updating an existing page, touch only what the new source changes.**
 
@@ -32,6 +37,6 @@ status, created, updated, tags).
 ---
 
 
-## Feedback protocol (standing rule — canonical in ~/Projects/AGENTS.md)
+## Feedback protocol, for Claude
 
-Deep read before execution, always: enumerate everything Wedge asked, details included, never the gist; find the general principle behind the specific complaint; then execute against both, and record the principle in the appropriate standard. Prose is generated as a continuous explanation to a real person first, then filtered through the writing standards — never assembled from rule-compliant fragments.
+Deep read before execution, always: enumerate everything Wedge asked, details included, never the gist; find the general principle behind the specific complaint; then execute against both. When he strikes a text, stop. Do not rewrite it until he says what he wants. Do not add a rule, a memory or a record line unless he says "make this a rule" (ruled 2026-09-18). Prose is generated as a continuous explanation to a real person, never assembled from rule-compliant fragments.
