@@ -65,7 +65,12 @@ export interface NoteFrontmatter {
   draft?: boolean;
   aliases?: string[];
   description?: string;
-  /** Passthrough — any other frontmatter key the vault carries. */
+  /** One of the six domains, when a note sets it. Folder rules apply when it is absent. */
+  domain?: Domain;
+  /**
+   * Pipeline keys (method, prose-model, written-by, model, source-count, and the rest
+   * listed in content.config.ts) are allowed and are not rendered.
+   */
   [key: string]: unknown;
 }
 

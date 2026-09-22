@@ -26,6 +26,8 @@ interface Heading {
 interface Props {
   title: string;
   type?: string;
+  /** Frontmatter description or blurb, shown under the title and used as the meta description. */
+  description?: string;
   updated?: string;
   domain: Domain | string;
   slug: string;
@@ -36,7 +38,7 @@ interface Props {
   active?: string;
 }
 
-const { title, type, updated, domain, slug, headings, backlinks, active } = Astro.props;
+const { title, type, description, updated, domain, slug, headings, backlinks, active } = Astro.props;
 
 // Breadcrumb from the folder slug: "wiki/Concepts/Higher-Order-Generativity" →
 // "wiki / Concepts / Higher-Order Generativity" (DS .crumb / NotePage breadcrumb).
@@ -47,19 +49,28 @@ const crumbParts = slug
   .filter(Boolean)
   .map((p) => p.replace(/--and--/g, ' & ').replace(/-+/g, ' '));
 const breadcrumb = crumbParts.length ? crumbParts.join(' / ') : title;
-// Each crumb is a link (owner, 2026-09-05: "i also want (and expected) these to be clickable links").
-// The first part ("wiki", "personal", "journal") goes to the notes index, every folder part goes to
-// the page's domain map, and the last part is the page itself, so it stays plain text.
-const crumbs = crumbParts.map((label, i) => ({
-  label,
-  href: i === crumbParts.length - 1 ? null : i === 0 ? '/notes/' : `/domains/${domain}/`,
-}));
+// Each crumb is a link (owner, 2026-09-05). A folder crumb lists that folder.
+// journal, personal, and projects keep their section landings. The page title stays plain text.
+// journal / personal / projects keep their section landings.
+const LANDING: Record<string, string> = {
+  journal: '/journal/',
+  personal: '/personal/',
+  projects: '/projects/',
+  notes: '/notes/',
+};
+const slugParts = slug.replace(/^\/+/, '').replace(/\/+$/, '').split('/').filter(Boolean);
+const crumbs = slugParts.map((part, i) => {
+  const label = part.replace(/--and--/g, ' & ').replace(/-+/g, ' ');
+  if (i === slugParts.length - 1) return { label, href: null as string | null };
+  if (i === 0 && LANDING[part]) return { label, href: LANDING[part] };
+  return { label, href: `/folder/${slugParts.slice(0, i + 1).join('/')}/` };
+});
 
 const domainVar = `var(--d-${domain})`;
 const hasAside = true;
 ---
 
-<Base title={title} description={updated ? `Updated ${updated}` : undefined} active={active}>
+<Base title={title} description={description || (updated ? `Updated ${updated}` : undefined)} active={active}>
   <main class="kb-note-main">
     <div class="kb-note-grid">
       <article
@@ -93,6 +104,7 @@ const hasAside = true;
           }
           {updated && <span>updated {updated}</span>}
         </div>
+        {description && <p class="kb-note-dek" data-pagefind-ignore>{description}</p>}
         <div class="kb-prose">
           <slot />
         </div>
@@ -173,6 +185,14 @@ const hasAside = true;
     border: 1px solid var(--accent);
     border-radius: 999px;
     padding: 2px 9px;
+  }
+  .kb-note-dek {
+    margin: 16px 0 0;
+    max-width: 64ch;
+    font-family: var(--ming);
+    font-size: var(--kb-text-base);
+    line-height: var(--kb-lh-body);
+    color: var(--mut);
   }
 
   /* prose body — Ming serif, 16.5/1.75, max ~64ch */
@@ -363,5 +383,17 @@ const hasAside = true;
   }
   .kb-prose .callout b {
     color: var(--ink);
+  }
+  .kb-prose .kb-related-more {
+    margin: 0 0 18px;
+  }
+  .kb-prose .kb-related-more summary {
+    cursor: pointer;
+    color: var(--mut);
+    font-size: var(--kb-text-sm);
+    margin: 0 0 8px;
+  }
+  .kb-prose .kb-related-more ul {
+    margin-top: 8px;
   }
 </style>

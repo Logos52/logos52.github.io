@@ -182,7 +182,7 @@ Applying the full set of rules is a constraints pass, which is a different task 
 
 The rules can be used without the books. The judgments that still require looking are in the other catalog, the Human Track.
 
-## Related
+## Related pages
 
 - [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]: the classification test that produced this catalog.
 - [[wiki/Design/Human Track — Taste & Judgment Catalog|the Human Track]]: the catalog of the judgment part of every seam note.

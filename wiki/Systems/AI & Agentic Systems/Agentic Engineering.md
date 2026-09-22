@@ -3,7 +3,7 @@ title: "Agentic Engineering"
 type: hub
 status: developing
 created: 2026-05-02
-updated: 2026-09-13
+updated: 2026-09-22
 method: plain-register-2026-09-13
 prose-model: opus
 written-by: grok
@@ -19,10 +19,7 @@ tags:
   - agentic-engineering
 ---
 
-<div class="hub-page-title">
-<i class="ti ti-robot" style="color:#4f9dff"></i>
-<h1>Agentic Engineering</h1>
-</div>
+# Agentic Engineering
 
 In agentic engineering, the person stays answerable for ordinary work that agents now build, and that work has to meet the same standard as before. Agents produce more than a person can read line by line. So the evidence that the work is good comes from checks the person built and from consequences the person signs for. The person still owns the spec, taste, architecture, review, verification, and direction. That effort goes into the factory, meaning the reusable machinery that ships the next pieces of work, and not into reading every file. The one-line versions of these rules are on [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]].
 
@@ -30,7 +27,7 @@ In agentic engineering, the person stays answerable for ordinary work that agent
 
 [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] lowers the skill needed to build: more people can now build software at all, by describing a result in ordinary language and judging it by whether it runs. Agentic engineering raises the quality that skilled builders can reach. People who already know what good looks like keep correctness, security, architecture, taste, and responsibility in their own hands, and they use agents to work faster while holding that standard.
 
-Agents act like junior collaborators who never get tired. They can recall a very large amount, and they carry out steps quickly. Their judgment is jagged, meaning uneven: they do some tasks extremely well and do closely related tasks very badly, and there is no reliable way to tell from outside which kind a task will be. Doing well in one area does not predict doing well in the next.
+Agents do not get tired. They can recall a very large amount, and they carry out steps quickly. Their judgment is jagged, meaning uneven: they do some tasks extremely well and do closely related tasks very badly, and there is no reliable way to tell from outside which kind a task will be. Doing well in one area does not predict doing well in the next.
 
 They handle API details, boilerplate, refactors (including a 100,000-line class), shell commands, file edits, first-pass debugging, and repetitive implementation. They are much weaker at taste, architecture, identity, product judgment, security boundaries, unstated assumptions, and knowing when a local solution violates a larger system. Here is a real case of the last two. An agent building a payments flow once tried to associate purchased credits with a user by matching a payment-provider email address against a login-provider email address, because no persistent user id existed. The two email addresses can be anything, so they need not match. In that one piece of code, the local match "worked." It was still wrong for the larger system.
 
@@ -40,7 +37,7 @@ Because code arrives quickly, the work can look like a problem of execution. The
 
 ## Spec, standard, layer below, bounded jobs
 
-**Agent-written work meets the same standard as human-written work.** Security vulnerabilities, architecture that breaks easily, badly organized abstractions, broken tests, privacy leaks, and unclear behavior are not acceptable just because the agent produced the work quickly. Speed is useful only if the result can still be trusted.
+**Agent-written work meets the same standard as human-written work.** Security vulnerabilities, architecture that breaks easily, badly organized abstractions, broken tests, privacy leaks, and unclear behavior are not acceptable just because the agent produced the work quickly.
 
 The practical checks are ordinary ones: run the build and the tests, inspect the diff, look for unrelated edits, and review what the code does instead of the agent's explanation of it. [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] supplies what this review was missing, which is how much time to give it: short review passes of thirty seconds, three minutes, or thirty minutes, instead of accepting output without looking or inspecting it without end. [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|Writing with a Structure Engine]] describes the same fault in another form: stating verified and unverified claims with the same confidence.
 
@@ -75,7 +72,7 @@ Judgment shifts from checking any one output to building the factory, which is t
 
 The quality of an agent's work is limited by the context it can use. The right files, constraints, examples, commands, and prior decisions go into the context, and material that does not help is taken out. The model itself is a stateless function from inputs to outputs. A larger context window only lets the model see more at once. It does not give the agent a persistent store of knowledge like a wiki, and it does not give the agent a record of past conversations. Two added layers provide those. Across conversations, a queryable store holds facts that stay true in every session: people, projects, decisions, and policies. Within a conversation, the raw transcript is kept where it can be retrieved, even when the model is currently seeing only a summary of it. [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]] covers how to shape what goes into the context window. [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]] gives a different explanation for what looks like a "bad model": bad context.
 
-This vault already serves as the across-conversations layer. The files named here are examples from it, and they are not a complete list. [[notes/index|notes/index.md]] is the entry point: a hand-maintained list of hubs and doctrine pages, so an agent starting with no context knows what exists. `log.md` is an append-only operational record of what was done and when. A source manifest with a status column shows what material exists and how far it has been compiled. [[AGENTS]] is the standing instruction file. It sets out the three-layer model, what may be edited, and what must not leave the machine. The vault also holds house law files, a decisions tree, and a journal beside those four files. These files let future agents read and understand the environment.
+This vault is already the across-conversations layer. The files named here are examples from it, and they are not a complete list. [[notes/index|notes/index.md]] is the entry point: a hand-maintained list of hubs and doctrine pages, so an agent starting with no context knows what exists. `log.md` is an append-only operational record of what was done and when. A source manifest with a status column shows what material exists and how far it has been compiled. [[AGENTS]] is the standing instruction file. It sets out the three-layer model, what may be edited, and what must not leave the machine. The vault also holds house law files, a decisions tree, and a journal beside those four files. These files let future agents read and understand the environment.
 
 Good context answers four questions.
 
@@ -114,7 +111,7 @@ The strongest case against these rules is the reader's own setting. Experienced 
 
 The person is still answerable for the same standard. That responsibility now covers the factory and the sign-off, meaning the checks the person built and the consequences the person signed for, and it does not depend on reading every line.
 
-## Related
+## Related pages
 
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]]: rules that stay true versus tactics tied to a date; holds the one-line rules, which this hub does not copy
 - [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]: the practice that lets more people build at all; which work goes to disposable practice and which to durable practice
@@ -127,7 +124,8 @@ The person is still answerable for the same standard. That responsibility now co
 - [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]: standing watch after the laptop closes; public material only
 - [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents|Cursor Cloud Agents]]: overnight application code as a pull request on an isolated VM
 - [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]: a ban on calling a UI job done without a picture
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]]: the maker's three-day livestream mostly repeated rules this setup already ran under; its rules for running coding agents and keeping bots cheap were new, and a manager bot in front stays refused
+- [[wiki/Systems/Agentic Workflows/Poteto Paved Path|Poteto Paved Path]]: a repeated correction moves into the files or into a check that fails the build, before you add more agents
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]]: which habits to keep in Grok Bot after the September 2026 public event, and which to refuse
 - [[wiki/Systems/AI & Agentic Systems/Picking a computer|Picking a computer]]: which computer the next job opens
 - [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model Collaborator]]: measured operating rules for one model, covering price, the case against, when to quit, and a checkable test
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: natural language as the programming medium; the same artifacts as Software 3.0 objects

@@ -3,7 +3,7 @@ title: "Positions"
 type: personal
 status: note
 created: 2026-08-17
-updated: 2026-09-13
+updated: 2026-09-22
 method: plain-register-2026-09-13
 prose-model: opus
 description: "The position each Worldviews page reaches, one line each, with the reason in plain words."
@@ -13,6 +13,8 @@ tags:
 ---
 
 # Positions
+
+How do you determine the validity of personal beliefs? Analyzing the logical structure and second order effects of holding certain political opinions. These pages skew toward logic, which is my personal version of centrist arguments, which many people consider biased. If you want to avoid being triggered best to keep away from these pages. It's the internet so someone out there will definitely be offended with something. But I enjoy these topics and avoiding them in my opinion is a detriment to our society.
 
 ## The overall position
 

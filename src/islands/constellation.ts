@@ -2,7 +2,7 @@
  * constellation.ts — the knowledge graph, ported from the original Quartz graph.inline.ts.
  *
  * Modes (set via data-mode on the root):
- *   'spine' (home)  — selectSpineConstellation: 6 hubs + ≤3 sats + 1 outer each (≤30 nodes), pinned to a
+ *   'spine' (home)  — selectSpineConstellation: 6 hubs + ≤3 satellites each (≤24 nodes, no outer ring), pinned to a
  *                     flat horizontal band (SPINE_Y_BAND × domainTargetX), persistent hub labels.
  *   'full'  (/notes) — the full overview graph: every node, domain-clustered into lobes and flattened
  *                     (flatY + a post-settle vertical squash) so it fills the rectangle; labels on hover.
@@ -146,8 +146,8 @@ function neighborhood(seeds: Set<string>, links: SLink[], hops: number, valid: S
 function selectSpineConstellation(hubs: Set<string>, links: SLink[], valid: Set<string>, isMobile: boolean) {
   const { degree, neighbors } = buildAdjacency(links);
   const satellitesPerHub = isMobile ? 1 : 3;
-  const globalCap = 30;
-  const outerPerPrimarySat = isMobile ? 0 : 1;
+  const globalCap = 24;
+  const outerPerPrimarySat = 0;
   const neighbourhood = new Set<string>();
   const satelliteParent = new Map<string, string>();
   const primarySatellites = new Set<string>();

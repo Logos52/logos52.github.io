@@ -15,10 +15,7 @@ tags:
   - ics
 ---
 
-<div class="hub-page-title">
-<i class="ti ti-checklist" style="color:#ff8a3d"></i>
-<h1>Decision Making</h1>
-</div>
+# Decision Making
 
 The quality of a decision is fixed at the moment it is made, before any outcome exists to judge it by. The pages in this section apply that claim to four recurring problems: what to do next, when to commit, when to change course, and how to tell afterwards whether a choice was good or just lucky. When the amount of thinking fits the decision, choosing under uncertainty saves time, focus, and adaptability instead of using them up.
 
@@ -95,7 +92,7 @@ Losing track of the work is the expensive part. An unresolved "what next?" can l
 - Which recurring choices should be converted into standing rules, and which still deserve live deliberation?
 - Which recurring decisions are currently costing the most focus?
 
-## Related Pages
+## Related pages
 
 - [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]]: the post-decision review, with six questions separating what was known then from what is known now, the resulting/hindsight failure table, and the control calibration. How much an outcome says about the process depends on how much of the outcome was controlled.
 - [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]: choosing for a better future position instead of for the outcome, expectancy across repeated choices, and the downside-protection sequence.

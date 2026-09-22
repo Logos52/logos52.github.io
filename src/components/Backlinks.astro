@@ -12,6 +12,9 @@ interface Props {
 }
 const { items } = Astro.props;
 const slugToHref = (slug: string) => '/' + slug.replace(/^\/+/, '').replace(/\/+$/, '') + '/';
+const SHOWN = 5;
+const head = items.slice(0, SHOWN);
+const rest = items.slice(SHOWN);
 ---
 
 {
@@ -19,13 +22,26 @@ const slugToHref = (slug: string) => '/' + slug.replace(/^\/+/, '').replace(/\/+
     <section class="kb-backlinks" aria-label="Backlinks">
       <h3 class="kb-side-h">Backlinks · {items.length}</h3>
       <div class="kb-backlinks-list">
-        {items.map((b) => (
+        {head.map((b) => (
           <a href={slugToHref(b.slug)} class="kb-backlink">
             {b.title}
             {b.context && <span class="kb-backlink-ctx">{b.context}</span>}
           </a>
         ))}
       </div>
+      {rest.length > 0 && (
+        <details class="kb-backlinks-more">
+          <summary>{rest.length} more</summary>
+          <div class="kb-backlinks-list">
+            {rest.map((b) => (
+              <a href={slugToHref(b.slug)} class="kb-backlink">
+                {b.title}
+                {b.context && <span class="kb-backlink-ctx">{b.context}</span>}
+              </a>
+            ))}
+          </div>
+        </details>
+      )}
     </section>
   )
 }
@@ -33,7 +49,7 @@ const slugToHref = (slug: string) => '/' + slug.replace(/^\/+/, '').replace(/\/+
 <style>
   .kb-side-h {
     font-family: var(--mono);
-    font-size: 9.5px;
+    font-size: 0.75rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--mut);
@@ -60,5 +76,14 @@ const slugToHref = (slug: string) => '/' + slug.replace(/^\/+/, '').replace(/\/+
     font-size: 11px;
     color: var(--faint);
     margin-top: 2px;
+  }
+  .kb-backlinks-more {
+    margin-top: 8px;
+  }
+  .kb-backlinks-more summary {
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--mut);
+    margin-bottom: 8px;
   }
 </style>

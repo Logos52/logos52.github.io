@@ -43,7 +43,8 @@ function loadDomainsJson(): Record<string, string> | null {
   return jsonMap;
 }
 
-export function resolveDomain(slug: string): Domain {
+export function resolveDomain(slug: string, explicit?: unknown): Domain {
+  if (typeof explicit === 'string' && isDomain(explicit)) return explicit;
   const map = loadDomainsJson();
   const fromJson = map?.[slug];
   if (typeof fromJson === 'string' && isDomain(fromJson)) return fromJson;

@@ -12,10 +12,7 @@ tags:
   - condensed
 ---
 
-<div class="hub-page-title">
-<i class="ti ti-book-2" style="color:#734bb2"></i>
-<h1>Learning, Condensed</h1>
-</div>
+# Learning, Condensed
 
 Encoding sets the upper limit on learning: the structure you build when you first meet material decides what exists to be remembered. Retrieval also builds. Each recall strengthens, reorganizes, and tests what encoding made. The main failure is passive review, because re-reading and recognition feel like learning but are not learning. So commit to an answer before you see it, connect facts to each other instead of collecting them separately, work with a concept before you learn its label, and use daily work as retrieval practice. When recall keeps failing, check the encoding before you change the schedule. Two more parts surround this cycle. One is regulation: how difficult the work feels is the measure to watch, and calibrating confidence matters more than scores. The other is a session routine that uses no willpower on choices.
 

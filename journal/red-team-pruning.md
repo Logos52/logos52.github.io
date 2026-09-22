@@ -237,7 +237,7 @@ The argument:
 - The federal budget-cut story can be read as a signal: bloated analytical practices are vulnerable when they cannot show clear value per unit time.
 - The Red Team stance should survive, but the handbook and course structure should shrink.
 
-## Related Pages
+## Related pages
 
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 - [[wiki/Decision Making/Decision Making|Decision Making]]

@@ -6,7 +6,7 @@
 interface Props {
   height?: string;
   class?: string;
-  /** 'spine' = home landmark (≤30); 'full' = whole graph flattened; 'local' = neighborhood of `seeds`. */
+  /** 'spine' = home landmark (≤24); 'full' = whole graph flattened; 'local' = neighborhood of `seeds`. */
   mode?: 'spine' | 'full' | 'local';
   /** local mode: seed slugs whose neighborhood to show. */
   seeds?: string[];

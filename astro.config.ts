@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import pagefind from 'astro-pagefind';
 import { remarkWikilinks } from './src/lib/wikilinks';
+import { rehypeFoldRelated } from './src/lib/fold-related';
 
 function loadRedirects(): Record<string, string> {
   const path = 'kb-astro/site-data/redirects.json';
@@ -40,6 +41,7 @@ export default defineConfig({
   },
   markdown: {
     remarkPlugins: [remarkWikilinks],
+    rehypePlugins: [rehypeFoldRelated],
     shikiConfig: {
       themes: { light: 'github-light', dark: 'github-dark' },
       wrap: true,

@@ -155,7 +155,7 @@ Which of these become daily immersion defaults after testing? Which should be ta
 
 Links collected for personal use go out of date and stop working. Gated links look like resources, but a stranger cannot open them. A long catalog makes it easy to spend time collecting links instead of watching. Time spent choosing resources is time taken away from input. If nothing on the list becomes part of daily practice, adding more to the list will not help. To check the list, confirm that every immersion row has a script tag and that something on it was used this week.
 
-## Related
+## Related pages
 
 - [[wiki/Dimensions/Retrieval|Retrieval]]: the memory track; it is not a resource
 - [[wiki/Dimensions/Self-Management|Self-Management]]: the consistency track

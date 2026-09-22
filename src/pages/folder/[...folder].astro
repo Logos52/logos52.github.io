@@ -1,0 +1,195 @@
+---
+/**
+ * folder/[...folder].astro — one listing per vault folder.
+ * Breadcrumbs on a note link here, so "Systems" lists the Systems folder
+ * instead of the whole domain.
+ */
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+import Base from '../../layouts/Base.astro';
+import { deriveTitle, deriveSummary } from '../../lib/note';
+import { slugToUrl } from '../../lib/slug';
+
+function display(seg: string): string {
+  return seg.replace(/--and--/g, ' & ').replace(/-+/g, ' ');
+}
+
+function clip(s: string): string {
+  const t = s.replace(/\s+/g, ' ').trim();
+  if (t.length <= 160) return t;
+  const cut = t.slice(0, 160);
+  const sp = cut.lastIndexOf(' ');
+  return sp > 80 ? cut.slice(0, sp) : cut;
+}
+
+export const getStaticPaths = (async () => {
+  const notes = await getCollection('notes');
+  const folders = new Set<string>();
+  for (const n of notes) {
+    const parts = n.id.split('/').filter(Boolean);
+    for (let i = 1; i < parts.length; i++) folders.add(parts.slice(0, i).join('/'));
+  }
+  return [...folders].sort().map((folder) => ({ params: { folder } }));
+}) satisfies GetStaticPaths;
+
+const { folder } = Astro.params as { folder: string };
+const notes = await getCollection('notes');
+
+type Page = { title: string; href: string; summary: string };
+type Group = { name: string; href: string; count: number };
+
+const pages: Page[] = [];
+const groups = new Map<string, number>();
+let section: Page | null = null;
+
+for (const n of notes) {
+  if (n.id === folder) {
+    section = {
+      title: deriveTitle(n.data, n.id, n.body),
+      href: slugToUrl(n.id),
+      summary: clip(deriveSummary(n.data, n.body)),
+    };
+    continue;
+  }
+  if (!n.id.startsWith(folder + '/')) continue;
+  const rest = n.id.slice(folder.length + 1);
+  const slash = rest.indexOf('/');
+  if (slash === -1) {
+    pages.push({
+      title: deriveTitle(n.data, n.id, n.body),
+      href: slugToUrl(n.id),
+      summary: clip(deriveSummary(n.data, n.body)),
+    });
+  } else {
+    const seg = rest.slice(0, slash);
+    groups.set(seg, (groups.get(seg) ?? 0) + 1);
+  }
+}
+
+pages.sort((a, b) => a.title.localeCompare(b.title));
+const subfolders: Group[] = [...groups.entries()]
+  .map(([name, count]) => ({
+    name: display(name),
+    href: `/folder/${folder}/${name}/`,
+    count,
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const parts = folder.split('/');
+const title = display(parts[parts.length - 1] ?? folder);
+const parent = parts.length > 1 ? `/folder/${parts.slice(0, -1).join('/')}/` : '';
+---
+
+<Base title={title} description={`Pages in ${title}.`} active="notes">
+  <main class="folder-page">
+    <div class="wrap">
+      <header class="head">
+        {parent ? <a class="head__up" href={parent}>Up</a> : <a class="head__up" href="/notes/">Notes</a>}
+        <h1>{title}</h1>
+        <p>{pages.length + subfolders.length + (section ? 1 : 0)} items</p>
+      </header>
+
+      {section && (
+        <ul class="moc">
+          <li>
+            <a href={section.href}>
+              <span class="moc__title">{section.title}</span>
+              {section.summary && <span class="moc__sub">{section.summary}</span>}
+            </a>
+          </li>
+        </ul>
+      )}
+
+      {subfolders.length > 0 && (
+        <ul class="moc">
+          {subfolders.map((s) => (
+            <li>
+              <a href={s.href}>
+                <span class="moc__title">{s.name}</span>
+                <span class="moc__sub">{s.count} {s.count === 1 ? 'page' : 'pages'}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+
+      {pages.length > 0 && (
+        <ul class="moc">
+          {pages.map((p) => (
+            <li>
+              <a href={p.href}>
+                <span class="moc__title">{p.title}</span>
+                {p.summary && <span class="moc__sub">{p.summary}</span>}
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </main>
+</Base>
+
+<style>
+  .wrap {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 32px 28px 52px;
+  }
+  .head {
+    margin-bottom: 16px;
+  }
+  .head__up {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .head h1 {
+    font-family: var(--ming);
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 5px 0 2px;
+    color: var(--ink);
+  }
+  .head p {
+    margin: 0;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--faint);
+  }
+  .moc {
+    list-style: none;
+    margin: 0 0 18px;
+    padding: 0;
+  }
+  .moc li {
+    border-top: 1px solid var(--rule);
+  }
+  .moc a {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 9px 2px;
+    text-decoration: none;
+  }
+  .moc a:hover .moc__title {
+    color: var(--accent);
+  }
+  .moc__title {
+    font-family: var(--ming);
+    font-size: 15px;
+    color: var(--ink);
+  }
+  .moc__sub {
+    font-size: 13px;
+    color: var(--mut);
+    line-height: 1.45;
+  }
+  @media (max-width: 640px) {
+    .wrap {
+      padding: 26px 16px 40px;
+    }
+  }
+</style>

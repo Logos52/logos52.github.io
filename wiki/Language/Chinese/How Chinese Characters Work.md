@@ -62,7 +62,7 @@ In the three-mode immersion system, this cluster belongs to [[wiki/Language/Prep
 
 Once a learner can identify the job of each part, the thousands of characters are no longer arbitrary. This gives the learner a meaning domain, a syllable range, and a way to recover a form they have partly forgotten. It does not give an exact modern reading. It does not replace the listening and reading the learner is already doing. Character study is for words the learner already knows from listening.
 
-## Related
+## Related pages
 
 - [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]]: the first page of the cluster; one written word and its three links, which fail separately
 - [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]]: the rule for when to stop dividing a character; stop at the level of functional components

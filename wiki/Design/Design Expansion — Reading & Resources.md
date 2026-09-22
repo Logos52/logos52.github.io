@@ -64,7 +64,7 @@ With nineteen resources, it is easy to collect titles and not read them. The Pri
 
 The plan still consists of those three goals. Goal 2, the CJK typography page, has not been started. Which Priority source to read first, the visual-craft book or Rutter, is still undecided, and Front-End still has one source.
 
-## Related
+## Related pages
 
 - [[wiki/Design/Design, Condensed|Design, Condensed]]: a condensed summary of design doctrine; still draws mostly on Norman; no longer accurately described as `source-count: 1`.
 - [[wiki/Design/Front-End Web Design|Front-End Web Design]]: the note these resources are meant to add sources to; still `source-count: 1`.

@@ -23,13 +23,25 @@ function deriveTitle(data, body, slug) {
   return slug.replace(/^.*\//, '').replace(/-/g, ' ');
 }
 
+function clip(s) {
+  s = s.replace(/\s+/g, ' ').trim();
+  if (s.length <= 180) return s;
+  const slice = s.slice(0, 180);
+  const period = Math.max(slice.lastIndexOf('. '), slice.lastIndexOf('? '), slice.lastIndexOf('! '));
+  if (period > 60) return slice.slice(0, period + 1);
+  const sp = slice.lastIndexOf(' ');
+  return sp > 60 ? slice.slice(0, sp) : slice;
+}
+
 function deriveSummary(data, body) {
-  if (typeof data.description === 'string' && data.description.trim()) return data.description.trim();
+  if (typeof data.description === 'string' && data.description.trim()) return clip(data.description.trim());
   for (const raw of body.split('\n')) {
     const line = raw.trim();
     if (!line || line.startsWith('#') || line.startsWith('---') || line.startsWith('>')) continue;
-    if (line.startsWith('**Verdict:**')) return line.replace(/^\*\*Verdict:\*\*\s*/, '').slice(0, 220);
-    return line.replace(/\[\[([^\]|]+\|)?([^\]]+)\]\]/g, '$2').replace(/[*_`]/g, '').slice(0, 220);
+    if (line.startsWith('**Verdict:**')) return clip(line.replace(/^\*\*Verdict:\*\*\s*/, ''));
+    const plain = line.replace(/\[\[([^\]|]+\|)?([^\]]+)\]\]/g, '$2').replace(/[*_`]/g, '');
+    if (/01 - Workbench|02 - System\//.test(plain)) continue;
+    return clip(plain);
   }
   return '';
 }
@@ -59,8 +71,7 @@ function loadEntries() {
 }
 
 function row(e) {
-  const sum = e.summary ? ` — ${e.summary}` : '';
-  return `- [[${e.slug}|${e.date}]] — ${e.title}${sum}`;
+  return `- [[${e.slug}|${e.date}]] — ${e.title}`;
 }
 
 function patchIndex(entries) {

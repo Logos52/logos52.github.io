@@ -25,7 +25,7 @@ A new page belongs here when the situation was cultural immersion, professional 
 
 That extraction produces tighter constraints, a more accurate view of the trade-offs, and principles that have already been tested in a real situation. The section does not survey a place. It does not set out a training doctrine.
 
-## Related
+## Related pages
 
 - [[journal/experiences|Experiences]]: the public journal version of this same section
 - [[wiki/Experiences/Taiwan 2020|Taiwan 2020]]: language study and observations in Taiwan, plus the side trip to Japan that COVID made necessary

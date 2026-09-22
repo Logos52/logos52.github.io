@@ -3,7 +3,7 @@ title: "Owner Writing Samples"
 type: system
 status: developing
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-09-22
 tags:
   - system
   - writing
@@ -23,7 +23,25 @@ He wrote these four after two rounds of lines written by Claude did not work. Hi
 3. Pages about exercise, clothing, and travel. These are more about my preferences as a person, so they skew a bit more toward my personal sense of taste.
 4. How do you determine the validity of personal beliefs? Analyzing the logical structure and second order effects of holding certain political opinions. These pages skew toward logic, which is my personal version of centrist arguments, which many people consider biased. If you want to avoid being triggered best to keep away from these pages. It's the interent so someone out there will definitely be offended with something. But I enjoy these topics and avoiding them in my opinion is a detriment to our society.
 
-All four are on the home page word for word, with "interent" spelled "internet" (commit 0c218ef).
+These four were the home page text, with "interent" spelled "internet" on the site (commit 0c218ef). On 2026-09-22 the home lines were shortened. The full text above stays in this file. The full text of item 4, with the spelling fixed, is also the opening of `personal/2026-08-17-positions.md`.
+
+## Home page, Top of mind lines, 2026-09-22
+
+The home uses these shorter lines. Item 4 on the home does not include the warning. The warning stays in the 2026-09-14 sample and on Positions.
+
+1. A model reward-hacks by taking a short path. The path still counts as an answer, and a request stays undone.
+2. Many stories give a protagonist a moral code. A later event tests the moral code. Do stories people love all work that way?
+3. Exercise, clothing, and travel pages are my own taste.
+4. How do you check a personal belief? These pages follow the logic of a political opinion, and its second-order effects.
+
+## Home page, Top of mind lines, later on 2026-09-22
+
+He replaced the first line with his question and named the two workflow links. He replaced the personal line with his sentence. The politics line stayed. The story line was rewritten from the moral-core pages.
+
+1. How do you build trust with your agents?
+2. Arcs give a character a moral core first. Later arcs charge the moral core against something the character loves. Do stories people love work that way?
+3. Exercise, clothing, and travel pages, written with my personal taste in mind
+4. How do you check a personal belief? These pages follow the logic of a political opinion, and its second-order effects.
 
 ## Home page, Start here card meanings, 2026-09-14
 
@@ -80,3 +98,16 @@ He asked for "a brief definition of what soundness is in the same sort of style 
 Later the same day he reordered the opening with the definitions in it ("your wording is weird. maybe try this"), and added "but i'm thinking it has some redundant definitions":
 
 > An argument is a set of facts that infer a conclusion. Validating an argument means checking its facts are true and that its conclusion follows. An argument is valid when its conclusion follows from its facts, whether or not the facts are true. It's closely tied to soundness. Logic gives each check its own name. An argument is sound when it is valid and its facts are true.
+
+## Front-facing blurbs, live text before tighten, 2026-09-20
+
+He asked for a general cleanup: most blurbs ran too long, they are his writing, save them, then make the live blurbs tighter. The Top of mind items and the Project Updates summaries above were still live word for word. Those stay in this file. The live site was shortened on 2026-09-20. Human vs AI Capability Lens was left as he wrote it ("um actually that one is fine").
+
+Notes index hub lines that were longer than the live Notes page (`src/lib/icons.ts`), saved before they were cut:
+
+- Using Grok Bot: A job that must keep running after the laptop closes cannot live in Grok Build or Cursor. Grok Bot is the app for that standing job, on public material only.
+- pstack: A coding-agent plugin whose one rule is proof from the running app. This desk uses the rule; it uses the plugin only after a local reader can already be driven without a person.
+- Cursor Cloud Agents: Overnight application code cannot live in the editor or on Grok Bot's shared desktop. Isolated VMs clone, test, and open a pull request. You merge.
+- Picking a computer: Four products can look like overnight work. This is the map so the next job opens one computer.
+- Story Craft: How to build characters who stay believable across a long story. Characters who feel thin are diagnosed with Diagnosing a Character. The Tsumugu application layer is in `tsumugu-core/docs/companion/craft/`.
+- Worldviews & the Political Order: Contested public arguments, each checked for what follows from it. The positions taken on them are on Positions.

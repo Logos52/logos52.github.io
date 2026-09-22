@@ -127,7 +127,7 @@ Readers of a judgment catalog tend to collect named effects, in the same way rea
 
 Following the rules is not enough to tell whether the result is good. That takes trained visual judgment, and the trained judgment matters more than this written catalog.
 
-## Related
+## Related pages
 
 - [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]: the classification test used to sort entries into this catalog.
 - [[wiki/Design/Agent Track — Executable UI Technique Catalog|the Agent Track]]: where the mechanical core of each entry here is kept.

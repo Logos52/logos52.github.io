@@ -56,7 +56,7 @@ When a person already has a built study system, these adjustments decide whether
 - Whether a short quiet sit between papers works better than any other brief disengagement.
 - Whether two hours is the right length for the house meal buffer.
 
-## Related
+## Related pages
 
 - [[Breaching Questions]]: a late-stage method for finding the known and unknown gaps that remain
 - [[ReCOVer System]]: a structure for essays and long answers

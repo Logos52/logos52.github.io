@@ -80,7 +80,7 @@ The rejected reading is "the field has 100 use cases, so the fleet should grow."
 
 Cost of holding this ranking: Fable spend on prose, unused Bot quota, a 4.6 that looks underused next to the launch screenshots. Cost of reversing it without a scored week: another opener class, a login on a shared machine, and a fourth agent to coordinate.
 
-## Related
+## Related pages
 
 - [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]] — the products this ranking is about
 - [[journal/2026-08-13-abc-writing-test-fable-wins|A/B/C writing test: Fable takes all three]]
