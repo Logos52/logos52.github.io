@@ -4,7 +4,7 @@ type: concept
 status: developing
 created: 2026-09-22
 updated: 2026-09-22
-description: "Trust is how many agents you can leave alone. A harder prompt does not raise it. The codebase is the memory the next agent copies."
+description: "Trust is how many agents you can leave alone. The codebase is the memory, and a longer prompt does not raise that trust."
 method: plain-rewrite-2026-09-22
 prose-model: grok
 written-by: grok
@@ -17,53 +17,29 @@ tags:
 
 # Poteto Paved Path
 
-Trust is how many agents you can leave alone. A harder prompt does not raise it, because the next agent opens the files and extends the pattern already there. The codebase is the memory.
+Trust is how many agents you can leave alone. The next agent copies the pattern already in the files, so the codebase is the memory, and a longer prompt does not raise that trust.
 
-## How do you trust an agent more?
+You build the trust in three steps. Verification comes first: a feature map of what the app can do and how a person reaches it, plus a command that runs the app and saves proof. Until that exists, you are the check. A skill such as pstack comes next. It lives in the repo, and the agent can still skip it. Architecture is the step that lasts. Agents take the shortcut, so the shortcut has to be the right edit.
 
-Verification for correctness comes first. A feature map says what the app can do and how a person reaches it. A command runs the real app and saves the proof. Until those two exist, you are still the check.
+A new program has no walls yet. That is the greenfield case, and the short edit becomes the structure. Grok Bot started there. Dune is what it runs on now: one folder and one job for each kind of code, and a bad comment or a bad import fails the build. An older program is brownfield. The walls are already there, the way a check stops someone from deleting the live database, and you add a wall where agents still fall through.
 
-High quality skills come next, and pstack is the example. The procedure lives in the repo, so the next session can load it. The agent can still skip it. You do not install pstack in order to copy someone else's pull-request count.
+Mold is what you call the spread. A gardener deletes the debt, keeps one paved path, and lints the anti-pattern before the copies take over.
 
-Then you refactor the architecture so it is agent friendly. Agents like the shortcut, so the shortcut has to be the correct edit.
+Once the files can hold an agent, the outer loop is a Michelin kitchen rather than a factory. You still answer for what ships. Grok Bot is the line cook and starts work from Slack, Sentry, Datadog, and PlanetScale. Cloud agents do the edit on another computer. Automations and the Agent SDK are the team. A helper does not merge.
 
-A greenfield program has no walls yet. The short edit becomes the structure, and the next agent copies it. Grok Bot started as that kind of prototype. Dune is what the app runs on now. Each kind of code has one folder and one job. A bad comment fails the build, because agents were treating the comment as permission to patch over the bug. A bad import fails the build.
+## How to use this
 
-A brownfield program already has walls. A new person cannot delete the live database, and an agent that copies the files stays inside those walls. You add a wall where agents still fall through.
-
-A gardener stops the spread. It grows like weeds. You call it mold. The three moves are delete tech debt, keep one paved path, and lint against anti-patterns. Catch the mold while it is still one patch.
-
-## Whenever you correct your agent
-
-Put the correction as high on this list as it can go.
-
-1. Codebase. Change the files so the mistake cannot be written.
-2. Static analysis (lint/compiler/ci). Make the build fail.
-3. Rules/bugbot. A written rule can be skipped.
-4. Skills. A procedure in the repo can also be skipped.
-5. "Style guide." Only a person reading the change can apply it. A harder prompt lives here.
-
-## Your code, and this wiki
-
-The files you accept are the memory. A shortcut you leave is the pattern the next edit copies.
-
-On this wiki, the pages you have already accepted are the brownfield, along with two checks. `scripts/holdings.py` rejects a sentence that points at something the page never named. `scripts/source-words-check.py` rejects a sentence that points at where the words came from. A page you have not named is the greenfield. You name it, you open it, and you read it. A bad sentence left in place is mold.
-
-## Building a Michelin kitchen
-
-The picture for the outer loop is a Michelin kitchen, not a software factory. You still answer for the plate. You are no longer cooking each part yourself.
-
-Grok Bot is the line cook. It watches Slack, Sentry, Datadog, and PlanetScale, and starts the next station.
-
-Cloud agents are a separate computer. They keep working after the laptop is closed and open a pull request.
-
-Automations and the Agent SDK are the team. They start agents from events, on the same skills.
-
-You are not in that kitchen on this wiki yet, because you still open the page. A helper does not merge. You merge.
+1. When you correct an agent, change the files so that mistake cannot be written.
+2. If you cannot change the files yet, add a lint, a compiler check, or a CI check that fails the build.
+3. A rule, Bugbot, or a skill can help, and each one can be skipped. Do not stop there.
+4. Do not rely on a style guide or a longer prompt. The next session will not have it.
+5. On a new codebase, choose the one allowed way before agents write it. On an old codebase, add a wall where they keep taking the wrong shortcut.
+6. When you see mold, delete what is already there, keep one paved path, and add the lint while the cleanup is still going.
+7. On this wiki, name the page before a draft starts, then open it and read it. `scripts/holdings.py` and `scripts/source-words-check.py` are the checks you already have. You are not running the kitchen here yet.
 
 ## The slides
 
-Redrawn from the deck, in order. The words on each slide are the words from the original.
+The original slides, in order, with the webcam cropped out.
 
 ### Agenda
 
