@@ -3,8 +3,8 @@ title: "Writing pipeline catalog"
 type: catalog
 status: draft
 created: 2026-09-01
-updated: 2026-09-01
-description: "Writing methods that the owner accepted, plus the ones that died. Built from Claude memory, vault instruments, and workbench RESULT files on 2026-09-01. The picker on 02 - System/Writing Pipeline.md reads this list."
+updated: 2026-09-20
+description: "Writing methods that the owner accepted, plus the ones that died. Built from Claude memory, vault instruments, and workbench RESULT files on 2026-09-01. The picker on (deleted 2026-09-20) Writing Pipeline.md reads this list."
 tags:
   - writing
   - catalog
@@ -12,6 +12,8 @@ tags:
 ---
 
 # Writing pipeline catalog
+
+**2026-09-20.** The owner cut the writing system: "i need you to cut all the generators. make the writing standards simple. only thing i really care about is no mannered prose." Later that day he said of the generator files: "remove them all." Every generator file named below is deleted, and other paths in this file that name one are dead. No live instruction file tells a writer to pick a generator. What a writer reads is `/Users/n1/Projects/llm-knowledge-base/02 - System/Writing Standards.md` and `/Users/n1/Projects/llm-knowledge-base/02 - System/Owner Writing Samples.md`. This file stays as the record of what was tried.
 
 A writing pipeline is a named way a page, a reply, or a board gets its sentences. This file lists the ones that worked, the ones that worked once then failed, and the ones that must not be tried again.
 
@@ -31,7 +33,7 @@ On 13 August 2026 the owner accepted the slate written from that stance. Eightee
 
 Scope: every wiki page. Locked. Do not edit the file.
 
-Instrument: `/Users/n1/Projects/llm-knowledge-base/02 - System/The Generator.md`
+Instrument: the file was deleted on 2026-09-20.
 
 Live models named in that file: `/Users/n1/Projects/llm-knowledge-base/wiki/Concepts/Selfhood and the Ledger.md`, Good Faith opening A, Confidence Calibration opening B.
 
@@ -41,13 +43,13 @@ The old page is reduced to a fact list and closed. The friend's question is writ
 
 On 22 August 2026 the owner said of the outline for What a Label Does: "the outline is good." After the page was written under that outline he said "fine" and cut one line. Earlier the same day he had said the writing was better once the lane was used, and that the context problem was still there until the outline existed.
 
-Scope: wiki pages, positions pages, personal pages. Live as the Content, Outline, and Writing stages on `/Users/n1/Projects/llm-knowledge-base/02 - System/Writing Pipeline.md`.
+Scope: wiki pages, positions pages, personal pages. The Writing Pipeline file that held these stages was deleted on 2026-09-20.
 
 Evidence: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/label-fusion-2026-08-22/RESULT.md`
 
 ### Selfhood v2 plus a fresh-head rewrite
 
-The first pass uses `/Users/n1/Projects/llm-knowledge-base/02 - System/The Generator - Selfhood v2.md`. That file says what goes on the page. It says nothing about how sentences sound. A second chat, holding only the finished draft and `/Users/n1/Projects/llm-knowledge-base/02 - System/Rewrite Prompt.md`, rewrites the page.
+The first pass uses `(deleted 2026-09-20) The Generator - Selfhood v2.md`. That file says what goes on the page. It says nothing about how sentences sound. A second chat, holding only the finished draft and `(deleted 2026-09-20) Rewrite Prompt.md`, rewrites the page.
 
 On 23 August 2026 the owner locked White Guilt after that pass and said "the rewrite prompt improves things by a lot." The live page is `/Users/n1/Projects/llm-knowledge-base/wiki/Worldviews & the Political Order/White Guilt.md`. DEI as Anti-Discrimination was locked the same day from a rewrite-only pass, at `/Users/n1/Projects/llm-knowledge-base/wiki/Worldviews & the Political Order/DEI as Anti-Discrimination.md`. On a third page he rejected a line that would have stopped the rewriter joining sentences. His words: "the rewrite is better and sounds more human-like."
 
@@ -55,7 +57,7 @@ Scope: wiki pages that are not reference catalogs. Unproven as a whole generator
 
 Cost: on 1 September 2026 both a Fable rewrite and a Grok rewrite of The Writing Pipeline were ranked bad. That family of sentence is now flagged as SLOP. The pass still exists. It is not a free win on every page.
 
-Evidence: `/Users/n1/Projects/llm-knowledge-base/02 - System/Rewrite Prompt.md` Record. Board: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/ab-grok-pipeline-2026-09-01/RESULT.md`
+Evidence: the file was deleted on 2026-09-20.
 
 ### Fable 5.1 one pass, his material in front, no rewrite pass
 
@@ -64,6 +66,14 @@ The writer holds four things and nothing else: the stance paragraph from The Gen
 ELI5 is the format that can sit on top of this method, on the owner's word of 2026-09-05: "what i wanted is the format of ELI5 with the writing and prose of the Fable 5.1 generator we already built. the one without the rewrite prompt." The format half is a contents bar, the subject defined in sentence one, example bullets opening every section, and a figure for each main idea, checked by `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/eli5-haiku-wave-2026-09-01/check-eli5.py`.
 
 Evidence: `/Users/n1/Research/Fable5.1/FINDINGS.md`, the 2026-09-02 ruling. First ELI5-format page under it: `/Users/n1/Projects/llm-knowledge-base/wiki/Concepts/Dating Apps - The Gini Coefficient.md`, twenty figures from `/Users/n1/Projects/llm-knowledge-base/scripts/gen-dating-gini-diagrams.py`.
+
+### Page Generator
+
+One page holds an explanation and a how-to in separate sections, explanation first, about two thirds to one third. The method is a fact list with the source closed. The sentence rules are Lauren Tan's technical-writing and unslop skills. On 2026-09-20 the owner read the Cursor Cloud Agents page as an explanation, as a how-to and as this mix. He said both single modes were "not bad", then "i think i need a mix of Explanation and How-To. i don't want to separate them", then of the mix, "shape is right."
+
+On 2026-09-20 the file was widened from tool pages to any wiki page and renamed. Four tool pages were rebuilt under it, and the owner said "these pages are much better." On concept pages and argument pages it is still a test.
+
+Instrument: the file was cut on 2026-09-22.
 
 ### Explain First, for rebuilding or writing any page
 
@@ -79,7 +89,7 @@ The reader holds nothing from the page. Sentence one uses the key word in the ev
 
 On 2026-09-10 the owner picked opening N of Trained Contempt after twenty struck openings under five prompts, and said the shape is why it passes and the writing is still not good. Unproven until a page under it is accepted.
 
-Instrument: `/Users/n1/Projects/llm-knowledge-base/02 - System/The Generator - From Nothing.md`
+Instrument: the file was deleted on 2026-09-20.
 
 ### ELI5-Haiku (writer retired 2026-09-05; the format lives on above)
 
@@ -93,7 +103,7 @@ This is not the line "explain like I'm five" inside a prompt. That line was alre
 
 Draft. It has not joined `/Users/n1/Projects/llm-knowledge-base/02 - System/`.
 
-Instrument: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/GENERATOR-eli5-haiku-DRAFT-2026-09-01.md`
+Instrument: the file was deleted on 2026-09-20.
 
 Evidence: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/distributions-2026-08-29-grok/ATTEMPT-CATALOG.md` entries H-1 and E-1.
 
@@ -107,25 +117,25 @@ On 22 August 2026 a page written under this file came last on a three-way board.
 
 Scope: replies, reports, and explanations to the owner. Not pages.
 
-Instrument: `/Users/n1/Projects/llm-knowledge-base/02 - System/Selfhood Plain - Generator.md`
+Instrument: the file was deleted on 2026-09-20.
 
 Evidence: `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/label-abc-2026-08-22/RESULT.md`
+
+### Cold Thesis, simple sentences, WPW, Layers of Learning
+
+Sentence one is the claim at full strength, said simply, not necessarily "X is Y." The opening whole then gives the logic: relations in the world, not a sentence about the page. The parts are the concepts. Details attach to a concept or stay off. The close is the claim advanced. Simple is not curt: a sentence is a whole thought you would say out loud. A failed page is generated again, not rewritten.
+
+On 18 September 2026 the owner said of Grok Bot Galaxy written under this file: "this is acceptable." On this pick, The Generator's ease-in is off for sentence one. Explain First still settles meaning. Grok's wiki default as of that day.
+
+Instrument: the file was deleted on 2026-09-20.
+
+Snapshot: the file was deleted on 2026-09-20.
+
+Live model: `/Users/n1/Projects/llm-knowledge-base/wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy.md`
 
 ## Partial
 
 He liked something. A retry is legal only if the condition named here actually changes.
-
-### Eggbot Tight, after meaning is settled
-
-The page has a data shape before it has sentences: one job (the friend's question), anti-jobs (adjacent questions this page never answers), the Generator's handover as voice, and the Readers row. Leftover is a fail: a second job, a second name for the same thing, a sentence whose deletion loses no fact, a figure of speech doing a fact's work. Each sentence is written clean on the first draft, as a whole thought, with the because inside it. Short is not an excuse to drop a fact. The rewrite pass is off. The costume (lowercase mad-scientist) stays off.
-
-Written 2026-09-16 from the owner's ask after reading Dr Eggbot. First accepted use the same day: the Worldviews hub, generated from a fact list, not rewritten. Owner: good for hub pages and simple blurbs; Claude has a hard time with those. Still unproven on essay hubs and on concept pages.
-
-This pick is new if leftover is a fail on content and the joins stay. It is a retry of Selfhood Plain if it becomes one fact per sentence on a page. It is a retry of the prohibition loop if a strike is answered with a banned-word list. It is Eggbot's costume if a public page goes lowercase.
-
-Instrument: `/Users/n1/Projects/llm-knowledge-base/02 - System/The Generator - Eggbot Tight.md`
-
-Do not offer it as the default. Explain First still settles meaning. The Generator still wins on disagreement.
 
 ### Fable, one pass, no shape chosen in advance
 
@@ -143,11 +153,15 @@ A separate reader who has only the draft lists every word the page above did not
 
 Keep one cold read after the rewrite. Do not loop it until the list is empty.
 
-Instrument: `/Users/n1/Projects/llm-knowledge-base/02 - System/Cold Read.md`
+Instrument: the file was deleted on 2026-09-20.
 
 ## Dead
 
 Do not retry these as the method. A retry that changes only the date is a violation.
+
+### Eggbot Tight
+
+A pick written on 2026-09-16 from the owner's ask after he read Dr Eggbot's bot descriptions: one job, anti-jobs, leftover is a fail, each sentence written clean on the first draft. On 2026-09-16 the record says he accepted a Grok pass of the Worldviews hub under it and called it good for hub pages and simple blurbs. On 2026-09-18 he said Eggbot pages were curt, and Cold Thesis was written in answer. On 2026-09-20 he removed it: "remove eggbot tight. it hasn't produced anything." The file is deleted. Some wiki pages still carry `method: eggbot-tight-2026-09-16-generate` in their frontmatter as a record of how they were made.
 
 ### Ban lists and detectors as the write-act
 
@@ -195,7 +209,7 @@ Evidence: `/Users/n1/Projects/llm-knowledge-base/journal/2026-09-01-grok-writes.
 
 These are not generators. They stay on every wiki pick.
 
-The old page is reduced to facts and closed before writing. The only picture of the reader is `/Users/n1/Projects/llm-knowledge-base/02 - System/Readers.md`. After each paragraph, `scripts/holdings.py` runs. The next paragraph may use only what the ledger holds. A research bank is built before the page, under `/Users/n1/Projects/llm-knowledge-base/02 - System/Research Pipeline for AI Agents.md`. The owner asked for that file on 15 August 2026 so the method that helped regenerate articles would be written down.
+The old page is reduced to facts and closed before writing. The only picture of the reader is `(deleted 2026-09-20) Readers.md`. After each paragraph, `scripts/holdings.py` runs. The next paragraph may use only what the ledger holds. A research bank is built before the page, under `/Users/n1/Projects/llm-knowledge-base/02 - System/Research Pipeline for AI Agents.md`. The owner asked for that file on 15 August 2026 so the method that helped regenerate articles would be written down.
 
 The draft is written as an explanation to the owner in the chat. On 11 August 2026 he said the chat voice and the page voice should be the same. The filter after that only deletes and swaps. It does not rebuild the sentence.
 
@@ -207,4 +221,4 @@ Tsumugu blog posts read `/Users/n1/Projects/tsumugu-core/content/blog/STYLE-CARD
 
 ## How an agent uses this file
 
-Explain First is the default for every wiki page (owner, 2026-09-13). Run it unless the owner names another generator. Ask the owner which generator, then which seat, before the outline. Offer only the Working rows, plus Selfhood Plain if the job is a reply. If he asks for the ELI5 treatment, use the Fable 5.1 one-pass row with the ELI5 format on top and run its gate script. The ELI5-Haiku writer is retired; if he picks it anyway, read the draft at `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/GENERATOR-eli5-haiku-DRAFT-2026-09-01.md` and skip the rewrite pass. If he picks the default, read The Generator, then Selfhood v2, then run the rest of `/Users/n1/Projects/llm-knowledge-base/02 - System/Writing Pipeline.md`.
+Read it before proposing a new writing method, so that a dead method is not tried again. Do not pick a generator from it. As of 2026-09-20 there is no pick.
