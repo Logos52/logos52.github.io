@@ -4,7 +4,7 @@ type: concept
 status: developing
 created: 2026-09-22
 updated: 2026-09-22
-description: "Trust is how many agents you can leave alone. The codebase is the memory, and a longer prompt does not raise that trust."
+description: "You can leave an agent alone after the files, not the prompt, are what the next session will copy."
 method: plain-rewrite-2026-09-22
 prose-model: grok
 written-by: grok
@@ -17,25 +17,25 @@ tags:
 
 # Poteto Paved Path
 
-Trust is how many agents you can leave alone. The next agent copies the pattern already in the files, so the codebase is the memory, and a longer prompt does not raise that trust.
+You can leave an agent working once you trust what it will leave in the files. The next agent copies the pattern it finds there, so a longer prompt does not carry over. The codebase is the memory.
 
-You build the trust in three steps. Verification comes first: a feature map of what the app can do and how a person reaches it, plus a command that runs the app and saves proof. Until that exists, you are the check. A skill such as pstack comes next. It lives in the repo, and the agent can still skip it. Architecture is the step that lasts. Agents take the shortcut, so the shortcut has to be the right edit.
+Getting there takes three kinds of work. First you give the agent a way to check that the feature does what a person came to do. A feature map lists the parts of the app and how someone reaches them. A command runs the real app and saves the proof. Until those exist, you are still the one checking. Next you keep a skill in the repo, such as pstack, so the next session can load the working method. The agent can still skip a skill. The change that lasts is in the architecture. Agents take the shortcut, so you make the shortcut the correct edit.
 
-A new program has no walls yet. That is the greenfield case, and the short edit becomes the structure. Grok Bot started there. Dune is what it runs on now: one folder and one job for each kind of code, and a bad comment or a bad import fails the build. An older program is brownfield. The walls are already there, the way a check stops someone from deleting the live database, and you add a wall where agents still fall through.
+A new program is greenfield. Nothing stops the short edit yet, and the next agent copies it until that edit is the structure. Grok Bot started as that kind of prototype. Dune is the framework it runs on now. Each kind of code has one folder and one job, and a bad comment or a bad import fails the build. An older program is brownfield. It already has checks, the way a rule can stop a new person from deleting the live database. Your job there is to add a check where agents still get through.
 
-Mold is what you call the spread. A gardener deletes the debt, keeps one paved path, and lints the anti-pattern before the copies take over.
+You call the spread mold. It grows the way weeds do, one shortcut sending up copies. A gardener pulls the debt that is already in the files, keeps one paved path, and adds a lint before the copies take over.
 
-Once the files can hold an agent, the outer loop is a Michelin kitchen rather than a factory. You still answer for what ships. Grok Bot is the line cook and starts work from Slack, Sentry, Datadog, and PlanetScale. Cloud agents do the edit on another computer. Automations and the Agent SDK are the team. A helper does not merge.
+When the files can hold an agent, the rest of the work looks like a Michelin kitchen. You still answer for what ships, and you are no longer making each part yourself. Grok Bot is the line cook. It watches Slack, Sentry, Datadog, and PlanetScale, and it starts the next station. Cloud agents do the edit on another computer and open a pull request. Automations and the Agent SDK are the team that starts those agents from events. A helper does not merge.
 
 ## How to use this
 
-1. When you correct an agent, change the files so that mistake cannot be written.
-2. If you cannot change the files yet, add a lint, a compiler check, or a CI check that fails the build.
-3. A rule, Bugbot, or a skill can help, and each one can be skipped. Do not stop there.
-4. Do not rely on a style guide or a longer prompt. The next session will not have it.
-5. On a new codebase, choose the one allowed way before agents write it. On an old codebase, add a wall where they keep taking the wrong shortcut.
-6. When you see mold, delete what is already there, keep one paved path, and add the lint while the cleanup is still going.
-7. On this wiki, name the page before a draft starts, then open it and read it. `scripts/holdings.py` and `scripts/source-words-check.py` are the checks you already have. You are not running the kitchen here yet.
+1. When you correct an agent, change the files so the same mistake cannot be written again.
+2. If you cannot change the files yet, add a lint, a compiler error, or a CI check that fails the build.
+3. A rule, Bugbot, or a skill is worth having, and any of them can be skipped, so do not leave the correction there.
+4. A style guide and a longer prompt only work if you are in the room. The next session will not have them.
+5. On a new codebase, choose the one allowed way before agents start writing. On an old codebase, add a check at the place where they keep taking the wrong shortcut.
+6. When you see mold, delete what is already there, keep one paved path, and add the lint while you are still cleaning up.
+7. On this wiki, name the page before a draft starts, then open it and read it. `scripts/holdings.py` and `scripts/source-words-check.py` are the checks you already have. You are not running the kitchen here yet, because you still read the page yourself.
 
 ## The slides
 
