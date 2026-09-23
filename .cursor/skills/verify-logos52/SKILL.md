@@ -91,6 +91,7 @@ Home (`src/pages/index.astro`, `active="home"` so no nav item is `.on`):
 - Start here: `section.start-here` → five `a.door`; intent text is `.door__intent` (`Understand`, `Apply`, `Learn`, `Decode`, `Explore`)
 - Explore door `href` is `/map/`. The other four resolve through `slugifyFilePath` / `slugToUrl`
 - Top of mind: `.topmind__item` — the build throws if there are more than four
+- Home graph: default `Constellation` is `mode="spine"` — six hubs, up to three satellites each, no outer ring
 - Hub columns: `.hub-lists` / `.hub-card` / `.hub-list a`
 - Project Updates: `.updates a.updates__title`
 
@@ -98,9 +99,12 @@ Wiki note (`src/pages/[...slug].astro` → `Note.astro`):
 
 - `article[data-pagefind-body]`
 - `h1.kb-note-title`
-- Breadcrumb `.kb-crumb` (first crumb → `/notes/`)
+- Optional `.kb-note-dek` when the note has `description` or `blurb`
+- Type pill `.kb-type-tag` is the reader label (`Concept`, `Method`, `Essay`, …), not the raw type string
+- Breadcrumb `.kb-crumb`: last segment is text. `journal` / `personal` / `projects` / `notes` first segments go to those landings. A wiki note's earlier crumbs go to `/folder/…/`, not `/notes/` and not `/domains/{d}/`
 - Body links `.kb-prose a` (resolved wikilinks). Unresolved targets are `span.missing`, not links
-- Rail: `[data-constellation-root][data-mode="local"]`, `nav.kb-toc[aria-label="Contents"]`, `section.kb-backlinks[aria-label="Backlinks"]`
+- A `Related` or `Related pages` list shows five items, then `details.kb-related-more`
+- Rail: `[data-constellation-root][data-mode="local"]`, `nav.kb-toc[aria-label="Contents"]`, `section.kb-backlinks[aria-label="Backlinks"]` (five rows, then `details.kb-backlinks-more`)
 
 Map (`/map/`): `h1.map-head__title` is `The vault`; full graph `[data-constellation-root][data-mode="full"][data-domain-labels]`; domain headings link to `/domains/{d}/`. Domain pages and `/graph/` set Chrome `active="notes"`, so Notes is `.on` after those hops — not a Map failure.
 

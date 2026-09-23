@@ -30,6 +30,10 @@ Click `Map` in Chrome, click the Explore door on Home, or follow the Map link on
 - Chrome href is `/map`; the Explore door is `/map/`. Both should resolve (`trailingSlash: ignore`).
 - The graph fetches `/graph.json`. A fallback paragraph `Graph data unavailable.` is a product/data miss, not a reason to mock the JSON.
 - Canvas nodes have no ARIA name. Prefer the domain list and Notes/Home links when proving navigation.
-- Home's constellation is `mode="spine"` (landmark subset). Map/Notes/Graph use `mode="full"`. A sparse home graph is not a Map failure.
+- Home's constellation is `mode="spine"`: six hubs, up to three satellites each, no outer ring (`outerPerPrimarySat = 0` in `selectSpineConstellation`). Map, Notes, and Graph use `mode="full"`. A home graph without an outer ring is not a Map failure.
 - `/graph/` sets Chrome `active="notes"`, so the Notes nav item is `.on` while you are on the graph page. Record that if you land there; do not "correct" it in the map.
 - Domain pages (`src/pages/domains/[domain].astro`) also set `active="notes"`. After you follow a domain heading from `/map/` to `/domains/{d}/`, Notes is `.on`, not Map. Same surprise as `/graph/`. The `a.head__kind` link back to `/map/` is the way to restore the Map highlight.
+
+## Source
+
+`src/pages/map.astro` sets `active="map"`, `h1.map-head__title` to `The vault`, and `<Constellation mode="full" domainLabels>`. Domain headings use `DOMAIN_LABELS` (`Learning`, `Agentic`, `Language`, `Focus`, `Mind`, `Generativity`) and link to `/domains/{d}/`. `src/pages/domains/[domain].astro` sets `active="notes"` and renders `ul.moc`. `src/pages/graph.astro` titles the page `Vault graph` and also sets `active="notes"`.

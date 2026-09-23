@@ -33,3 +33,7 @@ Do not stub `/pagefind/pagefind.js`. If the dropdown says `Search index loading�
 - A row's domain/path label can show `AI & Agentic Systems`. The live note URL uses `slugifyFilePath` (`AI--and--Agentic-Systems`, spaces around `&`). Assert `h1.kb-note-title`, not a hyphen count in the address bar.
 - At ≤720px the field still exists; the nav hides behind `#kb-menu-btn`.
 - Never test search against https://logos52.github.io from this skill.
+
+## Source
+
+`src/components/Chrome.astro` renders `input[data-search-input]` and `[data-search-results]`. `src/islands/search-inline.ts` queries Pagefind, caps rows at eight, writes `a.kb-ac-row`, and shows `No notes found.` or `Search index loading…`. `scripts/ensure-pagefind.mjs` runs from `predev`.

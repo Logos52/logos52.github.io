@@ -5,7 +5,7 @@ The home page is the visitor's first door into the wiki. Prove that the hero ren
 ## Sub-features
 
 - Hero `.hero__title` + `.hero__lede` (from `kb-astro/site-data/home.json` when present, else the fallback strings in `src/pages/index.astro`). On this tree the JSON is present, so the live `h1` is `LLM Knowledge Base` — do not assert the longer fallback title.
-- Constellation spine (`[data-constellation-root][data-mode="spine"]`) and domain chips `a.kb-domainchip[data-domain]` → `/domains/{d}/`
+- Home graph `[data-constellation-root][data-mode="spine"]` and domain chips `a.kb-domainchip[data-domain]` → `/domains/{d}/`. `index.astro` omits `mode`; the component default is `spine`. `selectSpineConstellation` keeps the six hubs in `src/lib/spine.ts`, plus up to three `wiki/` satellites each (Self-Regulation: none). `outerPerPrimarySat` is 0, so there is no outer ring. The cap is 24. Persistent labels are the hub labels.
 - Start here: five `a.door` with `.door__intent` Understand / Apply / Learn / Decode / Explore
 - Top of mind: exactly four `.topmind__item` (build dies if a fifth is added)
 - Hub columns `.hub-card` and Project Updates `.updates a.updates__title`
@@ -34,3 +34,8 @@ Resolved hrefs for the other doors (spaces → `-`, `&` → `-and-`):
 - `active="home"` is not a Chrome nav id, so no `.kb-nav__link.on` on `/`.
 - Do not click constellation canvas nodes for this feature; that is Map/Graph.
 - Top-of-mind count is a build invariant, not a runtime check. If you see more than four items, that is a product bug — record it.
+- `.door__intent` is uppercased with CSS (`text-transform: uppercase`). The DOM text is still `Explore`. Match that text, not the painted case.
+
+## Source
+
+`src/pages/index.astro` renders the hero from `kb-astro/site-data/home.json` (live `h1` is `LLM Knowledge Base`), five `a.door` intents, four `.topmind__item`, three `.hub-card` columns, and `.updates`. The spine graph is the default `Constellation`. Explore's href is `/map/`. The other doors use `slugToUrl(slugifyFilePath(slug))`.

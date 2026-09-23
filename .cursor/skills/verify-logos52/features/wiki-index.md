@@ -22,11 +22,15 @@ The vault file `notes/index.md` (`title: Knowledge Base Index`) is the Obsidian/
 2. Resulting state: URL `/notes` or `/notes/`, `main.notes-page`, Chrome `Notes` has class `on`.
 3. Assert headings `Condensed` and `Hubs`, and at least one `.entry-list a`.
 4. Click `.entry-list__title` `Learning, Condensed`. Land on a note page (`article[data-pagefind-body]`, `h1.kb-note-title`).
-5. Use `.kb-crumb a` back toward `/notes/` if you need the index again.
+5. To open the index again, click Chrome `Notes`. On a wiki note the first crumb is `wiki` → `/folder/wiki/`, not `/notes/`.
 
 ## Gotchas
 
 - Chrome href is `/notes` (no trailing slash). `trailingSlash` is `ignore`, so `/notes` and `/notes/` should both work.
 - `/notes/index/` is not a generated slug. Live `GET /notes/index/` is 404. Treat that as a routing fact, not something to hide by rewriting the map to a URL that 200s. The published index is `/notes/` (`src/pages/notes.astro`).
-- `notes/index.md` and `HUB_ENTRIES` can drift. Examples on this tree: Learning Systems in `icons.ts` is `First Principles of Learning` (vault lists `Are You Learning, or Just Using Techniques`); Attention & Self-Management in `icons.ts` is the old Focus Management path (vault/current note is `Flow State`). Those published hrefs **301** via `kb-astro/site-data/redirects.json` to the current notes — the visitor still lands on a page. Record the slug drift; do not treat the 301 as a harness miss, and do not "fix" `icons.ts` in this skill.
+- `notes/index.md` and `HUB_ENTRIES` can drift. On this tree the Condensed slugs match. The published Hubs list is shorter than the vault index: `src/lib/icons.ts` omits Using Grok Bot, pstack, Cursor Cloud Agents, and Picking a computer. Learning Systems and Attention & Self-Management now point at `Are You Learning, or Just Using Techniques` and `Flow State`. Those are direct links. The old First Principles and Focus Management paths still 301 in `kb-astro/site-data/redirects.json`, but the Notes page does not use them. Record the missing hubs as a product gap. Do not edit `icons.ts` from this skill.
 - This page is not the gitignored `notes/catalog.md`.
+
+## Source
+
+`src/pages/notes.astro` owns `/notes/` (`active="notes"`). Rows come from `CONDENSED_ENTRIES` and `HUB_ENTRIES` in `src/lib/icons.ts`. The graph is `<Constellation mode="full">`. `[...slug].astro` skips `notes/index`. `GET /notes/index/` is 404. The published index is `/notes/`.
