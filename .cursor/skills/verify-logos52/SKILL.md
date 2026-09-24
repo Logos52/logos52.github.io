@@ -91,7 +91,7 @@ Home (`src/pages/index.astro`, `active="home"` so no nav item is `.on`):
 - Start here: `section.start-here` → five `a.door`; intent text is `.door__intent` (`Understand`, `Apply`, `Learn`, `Decode`, `Explore`)
 - Explore door `href` is `/map/`. The other four resolve through `slugifyFilePath` / `slugToUrl`
 - Top of mind: `.topmind__item` — the build throws if there are more than four
-- Home graph: default `Constellation` is `mode="spine"` — six hubs, up to three satellites each, no outer ring
+- Home graph: default `Constellation` is `mode="spine"` — six hubs, up to three satellites each. On this tree `outerPerPrimarySat` is `isMobile ? 0 : 1` (Self-Regulation: none). `origin/main` sets that to `0` (no outer ring). Assert `data-mode="spine"` here.
 - Hub columns: `.hub-lists` / `.hub-card` / `.hub-list a`
 - Project Updates: `.updates a.updates__title`
 
@@ -99,12 +99,12 @@ Wiki note (`src/pages/[...slug].astro` → `Note.astro`):
 
 - `article[data-pagefind-body]`
 - `h1.kb-note-title`
-- Optional `.kb-note-dek` when the note has `description` or `blurb`
-- Type pill `.kb-type-tag` is the reader label (`Concept`, `Method`, `Essay`, …), not the raw type string
-- Breadcrumb `.kb-crumb`: last segment is text. `journal` / `personal` / `projects` / `notes` first segments go to those landings. A wiki note's earlier crumbs go to `/folder/…/`, not `/notes/` and not `/domains/{d}/`
+- This tree does not render `.kb-note-dek`. A frontmatter `description` (Learning, Condensed has one) still leaves the dek absent. `origin/main` renders `.kb-note-dek` from `description` or `blurb`.
+- Type pill `.kb-type-tag` is the raw frontmatter string (`concept`, `condensed`). This tree has no `readerTypeLabel`. `origin/main` maps `concept` → `Concept`, `technique` → `Method`, `synthesis` → `Essay`, `condensed` → `Condensed`.
+- Breadcrumb `.kb-crumb`: last segment is text. The first segment links to `/notes/`. Each middle segment links to `/domains/{domain}/` for that note's domain, not to a folder listing. There is no `src/pages/folder/` on this branch. `origin/main` sends wiki crumbs to `/folder/…/`.
 - Body links `.kb-prose a` (resolved wikilinks). Unresolved targets are `span.missing`, not links
-- A `Related` or `Related pages` list shows five items, then `details.kb-related-more`
-- Rail: `[data-constellation-root][data-mode="local"]`, `nav.kb-toc[aria-label="Contents"]`, `section.kb-backlinks[aria-label="Backlinks"]` (five rows, then `details.kb-backlinks-more`)
+- Related lists are not folded here. `src/lib/fold-related.ts` is absent. Do not assert `details.kb-related-more`. `origin/main` folds after five.
+- Rail: `[data-constellation-root][data-mode="local"]`, `nav.kb-toc[aria-label="Contents"]`, `section.kb-backlinks[aria-label="Backlinks"]`. This tree lists every backlink (no `details.kb-backlinks-more`). `origin/main` folds after five.
 
 Map (`/map/`): `h1.map-head__title` is `The vault`; full graph `[data-constellation-root][data-mode="full"][data-domain-labels]`; domain headings link to `/domains/{d}/`. Domain pages and `/graph/` set Chrome `active="notes"`, so Notes is `.on` after those hops — not a Map failure.
 
