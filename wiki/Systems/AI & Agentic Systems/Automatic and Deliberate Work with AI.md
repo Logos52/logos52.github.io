@@ -87,7 +87,7 @@ Human working memory holds about four chunks at once, and a single deliberate st
 - Two sessions in a row treating script-checkable work as deliberate is the signal to re-sort.
 - Accepting the model's narration as a check is the other signal.
 - When model capability rises, the routing is reopened. No vendor tier is fixed.
-- The words come from the two-system account of human thought, which is contested even for humans. Here they are a routing rule, not a claim about what happens inside the model.
+- The words come from the two-system account of human thought, which is contested even for humans. Here they are only a routing rule; they say nothing about what happens inside the model.
 - Handing off every deliberate step means the skill never gets built in the person doing the handing off.
 
 ## Related pages
