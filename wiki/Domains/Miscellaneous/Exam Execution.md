@@ -17,45 +17,6 @@ tags:
 
 # Exam Execution
 
-Exam execution is the layer of the learning system that covers exam day, after the syllabus is already learned. It protects three things: calm retrieval, a full night of sleep, and a morning without a large meal. Anyone still encoding the syllabus is working in a different layer.
-
-## State, sleep, the short break
-
-At this point, the things a person can still change are their state, their sleep, and the short break between papers.
-
-Pressure makes the retrieval set smaller. Higher-order connections that form easily when a person is calm become unavailable. Tunnel vision is the folk name for this narrowing of the goal-directed set, and relational and shifting work is impaired first. On the night before the exam and on the day of the exam, the aim is to stay calm, and covering more material is not a goal. Last-minute revision and cramming in the corridor raise stress, and they rarely cover material that changes the result.
-
-A calm, alert state can be brought on by focus training, a short mindfulness sit, or any slow or cyclic breathing technique the person already knows. The same techniques help a person recover between papers.
-
-Sleep matters more than anything else a person can control on exam day. Sleep deprivation lowers performance whenever peak cognition is needed, and attention and working memory are affected first. The loss to consolidation and performance cannot be made up on exam day. Recovery sleep does not restore that day's performance in time.
-
-On exam morning, when a person eats matters more than what they eat. This ranking is a local rule and is not a general law of nutrition. A large meal triggers postprandial somnolence, which is the rest-and-digest response, and it makes a person drowsy. The drowsiness is worse if the person is also sleep-deprived. The house rule is a two-hour buffer: no large meal in the two hours before an assessment. Sleepiness commonly starts thirty minutes to two hours after a meal.
-
-In a short break between exams, a quiet sit focused on breathing or on stillness restores alertness for the next exam. A short break is enough for this.
-
-## The four methods
-
-Four methods each handle a separate part of the work.
-
-[[Breaching Questions]] is a late-stage method for finding the gaps that remain, both the gaps a person already knows about and the gaps they do not know about.
-
-[[ReCOVer System]] is a structure for long answers that keeps an argument focused on the question from the start of the answer to its conclusion.
-
-[[Silly Mistake Syndrome]] is a method for fixing avoidable errors, and it includes the five-letter pre-performance sequence.
-
-[[Group Study]] is revision in a group in which members hold three roles: leader, timekeeper, and fact-checker.
-
-Protecting exam day is a separate job from diagnosing errors and from a strategy for handling a large volume of material over years.
-[[How to diagnose and fix exam mistakes]] covers error diagnosis in three categories.
-[[How to prepare for ultra high-volume exams]] covers the problem of a large volume of material over years, and exam execution assumes that problem is already solved.
-
-When a person already has a built study system, these adjustments decide whether the system performs in the exam or the person spends the night before the exam on the syllabus. The work that remains at that point does not include another pass of coverage.
-
-## Open Questions
-
-- Whether a short quiet sit between papers works better than any other brief disengagement.
-- Whether two hours is the right length for the house meal buffer.
-
 ## Related pages
 
 - [[Breaching Questions]]: a late-stage method for finding the known and unknown gaps that remain

@@ -6,7 +6,7 @@ created: 2026-08-22
 updated: 2026-09-11
 method: plain-rewrite-2026-09-11
 prose-model: opus
-description: "A sentence that uses something the page has not given looks complete to the writer and unreadable to everyone else. Rules about the output do not catch it. The repair changes what is in front of the writer, and who checks the draft."
+description: ""
 tags:
   - writing
   - llm
@@ -16,112 +16,6 @@ source-count: 18
 
 # The Context Problem
 
-A context problem is a sentence that uses something the reader was never given. Nothing above the sentence introduced the thing it points at, or said the sense the word carries here, or showed why two things are being treated as the same.
-
-The only context a sentence may rely on is what is on the page and what an earlier paragraph already established. A sentence that relies on more than that fails.
-
-A writer who produces such a sentence is not usually skipping work on purpose. The writer already holds the whole subject, so from inside the writer's knowledge the sentence is complete.
-
-## Core takeaways
-
-- A sentence fails in one of four ways: a word points at nothing above it, a familiar word is used in a sense the page never gave, two things are called the same before their parts were shown to match, or a new thing arrives without the question it answers.
-- The writer cannot catch it. Once a person knows the subject, the sentence reads as complete to that person.
-- A rule about the output does not catch it either. The rule is read by the writer who already holds the missing piece, so the sentence passes the rule and is still unfollowable.
-- What worked replaced the writer's judgment of what the reader knows: a list of what this reader already has, a list rebuilt from each paragraph that came out, drafting with the sources closed, and a second reader whose only context is the draft.
-- Holding those checks in mind while composing made the writing worse. They belong in what the second reader is asked to look for, and in the list rebuilt from the text.
-- The gap shows up in chat replies as much as in pages. Half the logged instances here were messages in the conversation, not pages.
-
-## What a sentence can need
-
-A sentence can depend on four things. Each one has to be on the page, above the sentence, said outright.
-
-What the words point at. Every noun, and every "it," "one," and "they," points at something the page has already introduced. If the sentence says "the political wing" and no earlier sentence said what that wing is, the reader cannot tell what the words refer to.
-
-What the words mean here. A word is used in the sense the reader already has from ordinary life, or the page has said the sense it means. A familiar word in a new sense is a new term. If "bank" is being used to mean "a list of claims with the evidence for each one," the page has to say that in those words before it uses bank that way.
-
-Why two things are treated as the same. If a sentence says one thing is a case of another, or works like another, the page has already shown why. It says what the first of those two things does, in its parts. Then it says what the second thing does, in the same parts. Those two sets of parts sit side by side. A reader sees them match. Only then does the page say the two things are the same. A sentence that says a face does the same job as a name on a page fails this, if the page has not first said what that name does, then what a face does, in those same parts.
-
-Why the thing is on the page at all. The reader knows what question a new thing is answering before the page uses it.
-
-The check for a sentence is one question. What does a reader have to already hold for this sentence to make sense? Every item in the answer is above the sentence, on the page, said outright. A missing item goes in first, as its own sentences, never as a clause hung on the sentence that needs it. The person writing checks against the page above, never against their own knowledge. In that knowledge everything is already connected.
-
-The same failure happens at the start of a page. An opening can settle the reader and then list the rest of the page as parts, with each part arriving before anything above it lets the reader hold it. That failure is covered on [[wiki/Writing Craft/Opening Doors|Opening Doors]]. A context problem can happen in sentence one or in sentence forty. Something is used as given before the page has given it.
-
-## Why the writer cannot see it
-
-Once a person knows a thing, they cannot reliably simulate the person who does not. In a well-known classroom exercise, one person taps a song's rhythm on a table and another person hears only the taps. The tapper knows the song and predicts that the listener will guess it about half the time. The listener guesses it about three times in a hundred. The tapper knows which song it is. The listener has only the taps. The same difference separates a writer from a reader. The writer holds the whole argument. The reader has only the page.
-
-## How a public encyclopedia handles it
-
-A public encyclopedia already tells its editors not to use a technical term before defining it, and not to treat a link as a stand-in for that definition. The article has to make sense if the reader cannot follow the links. The rule here is that a sentence may rely only on what is already on the page. The encyclopedia's rule is that an article has to make sense without the links. Both rules refuse a missing piece that lives somewhere else. The encyclopedia enforces its rule after publish, with human tags. Thousands of articles still carry a banner that says the page is too technical for a non-expert. The convention is real. The method of catching it is a queue of tagged articles waiting to be rewritten.
-
-## The same gap in language models
-
-A language model is software that writes from a prompt and from whatever files it has open. The gap is not a private quirk of one such program. People who work with these models in public describe the same gap. The model writes as if the reader sat through the stretch of chat that just happened, or as if the reader had the same files open. One engineer, watching a coding assistant report on its own work, described being outside a codebase the model was deep inside. The assistant's replies assumed he already had every detail. He did not want shorter replies. He wanted replies written for someone who was not in the room with the model.
-
-Training these models makes the gap worse rather than better. Models trained to follow instructions write a dense style packed with nouns even when asked to write simply. A later training step ranks answers the way users tend to like them. That step reduces the moves that check shared ground, such as a clarifying question, and rewards answering as if that ground were already shared. Prompting for a named audience, such as an eleven-year-old or a college graduate, puts about fifteen percent of answers in the requested band. Naming the audience does not control these models.
-
-## Why a rule about the output does not hold
-
-A rule that says "define your terms" is read by the same person who wrote the sentence. That person already holds the terms, so the sentence passes. Output that satisfies the rule can still be unfollowable.
-
-In this knowledge base the person who reads the drafts kept stopping on this gap. From mid-July to late August of 2026 the stop was logged two hundred and eighteen times, across thirty-two of forty-six stretches of work with a language model. About a hundred and forty-five of the replies that followed changed no standing file that later stretches would read. The same gap came back later in the same stretch a hundred and eighty-seven times. A new rule was the reply ninety-one percent of the time. One standing rule said not to crush several spoken turns into one line. It was written at 19:17 one evening and broken at 19:23. The writer then produced output that passed a new count of how many lines the speech used, and the speech was still crushed. The person who reads the drafts here rejected the rule itself. A rule just made and called permanent was wrong because the output that satisfied it was still unsatisfactory.
-
-Lists of banned words address a different problem: prose that sounds like a machine because it overuses a small set of polished phrases. A short unexplained sentence can pass every such ban and still fail the check for what the reader was given.
-
-Asking the same model to critique its own draft fails for the same reason the rule fails. The critic holds the writer's knowledge. Extra notes and stacks of source files given to a model that is judging the draft bias it further. A plan written before the paragraph, by the person who already knows the answer, asserts the missing link instead of showing it. That sequence was built here on 2026-08-21 at 18:35 and rejected at 18:38.
-
-Answering a rejected line with a new ban is the same kind of miss, named on [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|The Prohibition Loop]]. Each round clears the last wording. The same writing habit comes back in a form no ban yet covers.
-
-## What does hold
-
-The fixes that stopped the fault replaced the writer's judgment of what the reader knows with something outside the writer.
-
-A list of what this kind of reader already has, written once, not during the drafting of the page. This site is a knowledge base of linked pages. For a page here, that reader has read no other page. They know ordinary English and ordinary life. They do not know terms coined on this site, the projects of the person who runs it, or what was said in the conversation that produced the page.
-
-A list rebuilt from the paragraph that actually came out. It records every name, every familiar word used in a new sense, every pronoun, and every definite phrase such as "the X" that the paragraph used, and whether the page above gave it. The next paragraph may use only what that list holds. The list is not a plan.
-
-Drafting with the source page, the research notes, and the interview closed. Only the two lists and the draft so far stay open. A writing system that kept the source pile open while it drafted encyclopedia-like articles produced more fabricated connections as more sources were added. The model treated a link that existed in the pile as a link the page had shown.
-
-A second reader whose only context is the draft. No research notes, no interview, no conversation, no other page. It returns every word and reference it cannot resolve from the sentences above. Those paragraphs are written again. The writer cannot run this check, because the writer cannot detect a gap that their own knowledge fills in. The same idea appears as showing a draft to a representative reader in the writing advice that named this gap for human experts.
-
-Each of those four fixes changes what the writer is looking at. None of them is a new ban. Page openings derived from a researched set of real pages closed a run of failures that ten regenerated openings under accumulating bans had not. A vocabulary list of 4,961 entries, checked instead of "what feels familiar," removed words the reader had not been taught, in one stretch of work. Each of those two methods was used once and, until 2026-08-22, not kept as a standing step for later pages.
-
-None of that is a description of good prose. Each one changes what is in front of the writer, or who decides whether the draft goes out.
-
-## What it costs
-
-The strongest honest case against this repair is that a short standing instruction ("define jargon the first time") sometimes helps one person, on chat replies, for a while. A public report in 2026 claimed exactly that. The record here is six weeks, twenty-eight kinds of writing, and saved instructions that later sessions loaded and then broke the same morning.
-
-Three versions of one page were shown without labels for which method produced them. The person who reads the drafts here picked the version written under the original stance alone. That stance says a page is something you own being handed to a reader you respect. The versions written with extra checks in mind while composing lost. Checks held in mind while writing produce a page put together from pieces. The result does not explain anything. That is the cost of putting the four things a sentence can need into the writer's mind as a list to consult. They belong in what the second reader is asked to look for, and in the list rebuilt from the text. They do not belong in the mind of the person who is explaining.
-
-The time cost is real. A second reader and a list after every paragraph is slower than a one-shot draft. The cost of not doing it, measured here, was about five stops of this kind a day for six weeks.
-
-## When to quit, and what this does not fix
-
-If the second reader returns a clean list and a first-time human still cannot follow the page, the list is too coarse. It is catching "the X" and missing a familiar word used in a new sense, or a connection stated but never shown. If the writer keeps shipping against a non-empty list, the check is not actually stopping the page from going out. If the second reader is given the research notes or the conversation, it will start passing sentences a stranger cannot follow. Extra context biases a judging model.
-
-Success takes a form you can check: a wave of pages here whose second-reader lists are empty or near empty, and a first read by someone who was not in the session produces no "what is this" of this kind.
-
-This repair does not touch a paragraph that names every thing it points at and is still too crushed to follow. It does not touch a screen layout that hides the writing. It does not touch a reply that refers to work the person reading it was never shown because it was buried in the middle of a long message. Those fail for other reasons.
-
-Chat replies count too. Half the logged instances here were not a page. They were messages in the conversation. A check that only runs on files leaves those messages unreadable in the same way, and that unreadability then gets copied into the next page.
-
-## What to check when a sentence stops the reader
-
-One of four things happened. A word pointed at nothing above it. A familiar word was used in a sense the page never gave. Two things were called the same before the parts had been shown to match. A new thing arrived without the question it was answering.
-
-The writer who produced that sentence was checking against knowledge that already held the missing piece. A rule about the finished sentence is read by that same writer. What changes the sentence is moving the picture of the reader, and the check, outside the writer. The picture of the reader is the list of what this kind of reader already has. The check is the second reader who has only the draft.
-
-## How to practice this
-
-1. Write down, before you draft, what this kind of reader already has. For a page here, that reader has read no other page and knows ordinary English and ordinary life.
-2. Ask of each sentence what a reader must already hold for it to make sense. Put every missing item above the sentence, in its own sentences. Notice whether you were about to hang it on the sentence that needs it.
-3. After each paragraph, list every name, pronoun, familiar word in a new sense, and phrase like "the X" it used. Mark whether the page above gave each one. Let the next paragraph use only what the list holds.
-4. Draft with the source page, the research notes, and the interview closed. Keep only the two lists and the draft so far open. Notice any link you assert that the page has not shown.
-5. Give the draft to a second reader who has nothing else, and ask for every word it cannot resolve. Write those paragraphs again. Give that reader no notes and no conversation.
-6. Run the same check on chat replies, not only on files. Half the logged instances here were messages in the conversation.
-
 ## Related pages
 
 - [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model Collaborator]]: why a new ban, even an accurate one, leaves the writer in the same act.
@@ -129,12 +23,6 @@ The writer who produced that sentence was checking against knowledge that alread
 - [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]]: one account of opaque writing treats the writer as narrating a trade he can no longer imagine not knowing.
 - [[wiki/Writing Craft/The Cold Open|The Cold Open]]: when sentence one can carry the whole claim, and when it cannot because the claim's own terms are not parseable yet. A context problem is what happens when that run-up is skipped, in an opening or anywhere else.
 - [[wiki/Research/Context Problem Research Bank|Context Problem Research Bank]]: the outside search this page is compiled from, with claim verdicts and the public sources.
-
-## Open questions
-
-If you stripped every link off a page you know well, which sentences would stop making sense? The encyclopedia already asks that as a print test, and it is a test you can run on your own work.
-
-When a sentence feels dense rather than confusing, is the difficulty in pieces the page never gave, or in too many pieces arriving in one breath? Those two fail differently, and a shorter sentence can make the first one worse.
 
 ## Sources
 

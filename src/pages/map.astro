@@ -20,12 +20,12 @@ const PER_SECTION = 8;
 // restatement of the category (the heading and the list already say what it is). Front-facing:
 // 02 - System/Writing Standards.md → Specific Beats Generic, Details Not Conclusions (no A-is-A).
 const DOMAIN_BLURB: Record<string, string> = {
-  learning: 'You remember a page when you recall it later, and when those recalls are spaced out.',
-  agentic: 'Agents write the code. The person still sets the direction.',
-  language: 'A Chinese character is made of a few hundred parts that get reused.',
-  focus: 'You only have so much attention. A feed spends it.',
-  mind: 'A decision gets better when you attack your own reasoning before you use it.',
-  gen: 'Wealth is owning a share of something that grows without taking more of your hours.',
+  learning: 'Each time you recall something that you studied, the recall strengthens the memory.',
+  agentic: 'An AI agent writes the code and runs it. A person decides whether the app is correct, safe and worth building.',
+  language: 'Chinese characters are built from a few hundred parts that get reused.',
+  focus: 'Flow needs a challenge that matches your skill, a clear next move, and feedback from the work itself.',
+  mind: 'The U.S. Army trains its planners to look for the weaknesses in their own plan before they use it.',
+  gen: 'The difference between what you earn and what you spend is the number that you can change this month.',
 };
 
 // Doctrine-first ordering: hubs and condensed pages lead, then syntheses, then supporting types,
@@ -50,6 +50,7 @@ const input: NoteInput[] = notes.map((n) => ({
   title: deriveTitle(n.data, n.id, n.body),
   type: typeof n.data.type === 'string' ? n.data.type : '',
   body: n.body ?? '',
+  domain: typeof n.data.domain === 'string' ? n.data.domain : undefined,
 }));
 const full = buildGraph(input);
 

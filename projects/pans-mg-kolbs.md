@@ -7,7 +7,7 @@ stack:
   - Bases
   - Git submodule
 order: 6
-blurb: "A standalone Obsidian rebuild of Pan's Notion learning template, copying the original's structure. Archived after the system was built directly into the vault."
+blurb: "Pan made a learning template in Notion. This project copied that template into Obsidian."
 created: 2026-06-02
 updated: 2026-09-13
 method: plain-register-2026-09-13

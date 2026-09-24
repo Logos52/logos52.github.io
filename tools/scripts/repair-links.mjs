@@ -64,7 +64,7 @@ const REPLACEMENTS = [
   ['[[llm-wiki|Local clipping]]', '[[wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems|LLM Knowledge Systems]]'],
   ['[[log|log.md]]', '`log.md`'],
   ['[[Writing Standards]]', '[[02 - System/Writing Standards|Writing Standards]]'],
-  ['[[Open Questions]]', '[[02 - System/Open Questions|Open Questions]]'],
+  ['[[Open Questions]]', '[[00 Command Center/Active Questions|Active Questions]]'],
   ['[[Finance MOC]]', '[[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]]'],
   ['[[PRDs/PRD-Tsumugu]]', '[[projects/tsumugu|Tsumugu]]'],
   [

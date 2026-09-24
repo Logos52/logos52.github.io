@@ -3,7 +3,7 @@ title: "Claude Fable 5.1 Bank"
 type: research
 status: reference
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-18
 description: "Fact list for a rolling public page on Claude Fable, current version 5.1. Raw material only. The writer closes this file while drafting."
 tags:
   - research
@@ -11,7 +11,7 @@ tags:
   - fable
   - models
   - agentic-engineering
-source-count: 18
+source-count: 19
 ---
 
 # Claude Fable 5.1 Bank
@@ -88,6 +88,19 @@ Say who measured. Do not treat as this desk's measurement. Fable 5.1 vs Fable 5 
 - Fable 5.1 trained a network on Magellan radar to make a higher-resolution elevation map of about one third of Venus; released on Zenodo CC. documented.
 - Mythos 5.1 sped seven open-source protein/genomics models up to 2.5× on an H100 with identical outputs; estimated 30–60% GPU cost cut on genome-wide analyses. Plan to open-source. documented.
 - These are Anthropic's own research demos, not independent replication. Grade documented-as-claimed. The page may not need the protein and Venus work; they are Mythos/science, not the desk's Fable seat.
+
+## Military and intelligence evals (vendor, 2026-09-10)
+
+Anthropic's Frontier Red Team published evaluations of tactical intelligence targeting and conventional-weapons software in simulation. Grade documented-as-claimed. The public Fable page may not need this block; it is Mythos and government-use, not the desk's writer seat.
+
+- Tasks: find and fix people from fragmentary digital residue (account linkage, photo geolocation, text geolocation); write guidance, navigation and control code for a simulated quadcopter. documented. [post](https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities)
+- Threat Intelligence: real actors already using models for surveillance and conventional weapons. New classifiers to block that misuse. documented.
+- Account linkage on simulated social media: Mythos Preview is the top model tested. Median sample about 37,000 words. A human analyst would take about 2.5 hours to read. Mythos Preview took about 11 minutes. documented.
+- Photo geolocation, no tools, outdoor photos: Mythos Preview median error 37.0 km, Mythos 5 47.2 km, across 6,000 photos. Champion-level GeoGuessr proxy 151 km (different imagery, pan and move allowed). Opus 5 181 km. documented.
+- Open-weights models (Kimi K3, GLM 5.2) sit behind the frontier and still do easy targeting and some weapons tasks. documented.
+- Simulated one-way drone strike, parked high-contrast car: Opus 5 80% of launches, Mythos Preview 70%, Mythos 5 53%, Kimi K3 15%, Sonnet 5 5%. Rates collapse on camouflage, evasion, decoys. Across nine settings Opus 5 hits on 20% of 540 launches. documented.
+- Opus 5 beat Mythos-class on the drone eval by making smaller edits, using proportional navigation and a Kalman filter earlier, and writing its own physics model to test the controller before a flight. No other model tried the physics model. documented.
+- Simulation is not hardware. Anthropic says the threat is already real from Threat Intelligence, and the evals show trajectory and a gradient between models. documented.
 
 ## Writing, including mannered prose
 
@@ -176,3 +189,4 @@ Say who measured. Do not treat as this desk's measurement. Fable 5.1 vs Fable 5 
 - [[journal/2026-09-01-grok-writes]]
 - `01 - Workbench/fable-51-mannered-prose-prompt-2026-09-02.md`
 - `01 - Workbench/riddle-sentence-how-to-see.md`
+- [Measuring tactical intelligence targeting and conventional weapons capabilities of AI models](https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities) — Frontier Red Team, 10 September 2026. Mythos as targeter and as GNC coder. Local packet: `/Users/n1/Research/grok-bot/inbox/bank/raw/ai/2026-09-11-anthropic-measuring-tactical-intelligence-targeting-and-conventional.md`.

@@ -10,12 +10,42 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
-## [2026-09-18] compile | Grok Bot Galaxy rebuilt, and the rules as a journal entry
+## [2026-09-20] archive | Grok Bot and Galaxy research banks copied off the public tree
 
-- `wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy.md` rebuilt through Explain First. Owner's ruling: keep the first day's talks and the advice repeated across talks; drop the sales, support and marketing talks of the second and third days; state advice as general rules with sources only in Sources.
-- New: `journal/2026-09-18-grok-bot-galaxy-rules.md`, the rules in short form on one page.
-- Link clauses updated on Agentic Engineering, Agent Glossary and Using Grok Bot. The page before the rebuild is in `01 - Workbench/galaxy-rebuild-2026-09-18/`.
-- Not done: the new rules are not yet on Cursor Cloud Agents or Using Grok Bot. Not committed. The owner has not read the finished page.
+- Spare copy at `/Users/n1/Projects/private/grok-bot-research/` (unpublished; not `logos52.github.io`).
+- Includes Galaxy bank, named Grok Bot banks, wiki Research pages, raw source deposits, galaxy-rebuild workbench. Does not include the live bot inbox harvest.
+
+## [2026-09-18] compile | Cold Thesis generator saved
+
+- Owner accepted `wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy.md` ("this is acceptable").
+- Saved the write-act as working: `02 - System/The Generator - Cold Thesis.md`. Snapshot: `02 - System/_accepted/The Generator - Cold Thesis 2026-09-18.md`. Catalog: Working. Grok default already points at it (`~/.grok/AGENTS.md`).
+- Do not edit the live generator unless a later page under it is struck.
+
+## [2026-09-18] compile | Grok Bot Galaxy rewritten under Eggbot Tight
+
+- Rewrote `wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy.md` as a usability page: which habits to keep in the app, which to refuse. Opening why is the shared computer and weekly allowance. Load-bearing core takeaways are bold. `draft: true` until he reads it.
+- Grok instruction set: `~/.grok/AGENTS.md` writes under Eggbot Tight. `~/Projects/Agents.md` is repo facts only. Claude workspace memory moved to `~/Projects/.claude/CLAUDE.md` so Grok does not load it (`compat.claude.agents = false`).
+- Not committed, not pushed.
+
+## [2026-09-18] compile | Using Grok Bot: match the failure before Reset
+
+- Patched `wiki/Systems/AI & Agentic Systems/Using Grok Bot.md` with Recover / Update / Reset order and the September forum mappings (Reconnecting, spent week, lost computer, Slack invite, GitHub clock, image stall, iPhone error, repair delay, memory files).
+- Owner refused statistic patches on Rules of Effective Memorization, Don't Outsource the Learning, and Automation and the Job Iceberg: a technique page takes the action, not a measured percentage.
+- Not committed, not pushed. Page is local until he reads it.
+
+## [2026-09-18] journal | Three days of bot packets sifted for wiki candidates
+
+- New: `journal/2026-09-18-bot-packets-wiki-candidates.md`. It holds five subjects large enough for a page, smaller items for seven existing pages, sixteen finance terms from the All-In interviews, twelve language learning tools with links, and ten unread arXiv titles.
+- `journal/index.md` and `journal/calendar.md` synced by `scripts/update-journal-surfaces.mjs`.
+- Left out on purpose: the bots' reports on this desk's own sites and bots, game news, and Chinese reading picks.
+- Not done: no wiki page was touched and no Economics & Finance section was created. The owner is considering that section. Not committed, not pushed.
+
+## [2026-09-18] compile | Grok Bot Galaxy wiki page and rules journal, Grok
+
+- `wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy.md` generated under Eggbot Tight from the explanation he accepted. First day's sessions plus repeated rules. Sales, support, and marketing sessions left out as sessions. Advice as general rules. Sources only in Sources. `draft: true`.
+- `journal/2026-09-18-grok-bot-galaxy-rules.md`: Why SpaceXAI ran it, the rules shortened, "Put one bot in front" as refused. `draft: true`. `prose-model: grok`.
+- Related Galaxy clauses rewritten on Agentic Engineering, Agent Glossary, and Using Grok Bot. New Cloud Agent rules are not yet on Cursor Cloud Agents or Using Grok Bot; that wait is until he has read the wiki page.
+- Fable's struck files remain in `01 - Workbench/galaxy-rebuild-2026-09-18/`. Owner struck those ("your writing style has degraded"). Not committed, not pushed.
 
 ## [2026-09-17] compile | Cursor Cloud Agents and Picking a computer
 

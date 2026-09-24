@@ -33,6 +33,7 @@ design it once in the Bridge PRD. Upstream-Merge is independent and the soonest-
 | PRD | What | Status |
 |---|---|---|
 | [[PRDs/PRD-Obsidian-LifeOS-Command-Center]] | LifeOS command center | locked |
+| [[PRDs/PRD-American-Suburbs-Page]] | One Worldviews argument page from the Front Page suburbs documentary, written by Grok under Explain First with Bias QA | unsigned (2026-09-18) |
 
 ## tsumugu — graded reader + LLM-wiki
 

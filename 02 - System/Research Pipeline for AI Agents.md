@@ -3,7 +3,7 @@ title: "Research Pipeline for AI Agents"
 type: system
 status: active
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-09-20
 tags:
   - system
   - research
@@ -13,13 +13,11 @@ tags:
 
 # Research Pipeline for AI Agents
 
-> Note, 2026-08-20: Writing Standards was rebuilt on the generator series. Any § or L-number for Writing Standards cited below refers to the retired version at `_archive/Writing Standards - 156 laws - retired 2026-08-20.md`; the live file is `02 - System/Writing Standards.md`.
+How an agent researches something in this vault and turns that research into a deliverable. The rule underneath all of it: **evidence becomes an artifact before it becomes prose**, because an artifact can be checked by something cheaper than a person reading the finished thing.
 
-How an agent researches something in this vault and turns that research into a deliverable. Eight stages, each handing the next one a file. The rule underneath all of them: **evidence becomes an artifact before it becomes prose**, because an artifact can be checked by something cheaper than a person reading the finished thing.
+This applies to any research-then-write job here — a wiki page, a brief, a decision document, a bake-off, a position statement. It was built during the 2026-08 wiki regeneration, which is where the numbers and the failures below come from.
 
-This applies to any research-then-write job here — a wiki page, a brief, a decision document, a bake-off, a position statement. It was built during the 2026-08 wiki regeneration, which is where the numbers and the failures below come from, but nothing in the stages is specific to that job. The wiki-specific contracts that instantiate it are listed in §7.
-
-**Read §3 before starting and §4 before proposing an improvement.** §4 is a list of things that looked like improvements and were not.
+Cut on 2026-09-20 on the owner's word. The research stages are as they were. The writing stages, the specimen corpus and the August regeneration contracts came out, because his rulings of 2026-09-18 and 2026-09-20 replaced them. The file as it was is in git history.
 
 ---
 
@@ -58,40 +56,24 @@ Before anything is blamed on the writing, check what the bank actually saw. The 
 
 Produces: a supplement to the bank, and a re-run of whatever depended on it.
 
-### S3 — Shape
+### S3 — Write
 
-Decide the structure from the evidence before writing sentences. Which parts exist, in what order, where the whole is stated, where it returns.
+The deliverable is written from the bank, with the text being replaced closed. Carried-over phrasing is the most common way a regeneration turns out to be a retouch. How a page is written, its layout, and the one style rule are in `02 - System/Writing Standards.md` and in each model's own instruction set. No step waits on the owner.
 
-Produces: a shape plan naming the opening whole, the sequence of parts, and the constraints the opening inherits. By default the shape plan goes to the owner as an outline before any prose is written, in whole, part, whole shape, any run that starts and ends on a whole, with each section marked as a whole or a part; he can say to skip that for a page (ruled 2026-08-22).
-
-Deciding shape separately removes an entire class of failure, because a structural fault found in finished prose costs a full rewrite and a structural fault found in a shape plan costs a line.
-
-### S4 — Draft
-
-One continuous pass, written from the bank and the shape plan. **Never open the thing being replaced, and never open a previous draft.** Carried-over phrasing is the most common way a regeneration turns out to be a retouch, and the discipline that prevents it is not seeing the old text at all.
-
-Produces: the draft, and a **droplog** beside it recording what was in the bank and did not make the draft, and why. The droplog is what makes the next stage possible — without it, nobody can tell a deliberate cut from an accidental loss.
-
-### S5 — Mechanical check
+### S4 — Mechanical check
 
 A script judges only what a script can judge. Two categories, and the distinction is load-bearing:
 
-- **Verdicts** — pass or fail. Links preserved and annotated, quotes grepped verbatim against their source, claim coverage against the bank, structural limits, required sections present.
-- **Worklist** — candidates for a human to look at. Cadence, register, seams. **An empty worklist is not a pass.**
+- **Verdicts** — pass or fail. Links preserved, quotes grepped verbatim against their source, every number and name traced to the bank.
+- **Worklist** — candidates to look at. **An empty worklist is not a pass.**
 
-Anything about quality belongs in the second category or nowhere. See §3.6.
+Anything about quality belongs in the second category or nowhere. See §3.2.
 
-### S6 — Judgment
+### S5 — The owner reads it
 
-A person reads it. This is the scarce resource, and every stage above exists to make it cheap to spend rather than to replace it.
+This is the scarce resource, and every stage above exists to make it cheap to spend. Where the work is a creative direction, it arrives as several fully-written options side by side, never as one candidate.
 
-Work arrives as **several fully-written options side by side**, never as one candidate. One candidate at a time is a funnel, and serial rejection is the most expensive way to find a preference that a parallel pick finds in one round.
-
-### S7 — Record the ruling
-
-An accept archives what it replaced. A **strike is filed verbatim** — the exact rejected text plus the reviewer's own words, unparaphrased — into a specimen corpus that later runs read before drafting.
-
-The specimen corpus is what makes the pipeline improve rather than repeat. Paraphrasing a strike destroys it: the reviewer's wording is the evidence, and a summary of it is already an interpretation.
+An accept archives what it replaced. A struck text is regenerated from the bank. No rule or record line is added unless he says "make this a rule" (ruled 2026-09-18).
 
 ---
 
@@ -119,113 +101,33 @@ The most portable thing in this file. Every claim in a bank carries one:
 
 Corrections have to reach the next unit of work. Six items run sequentially in one context produced one correction total, with the rest accepted untouched. Eight run in parallel in fresh contexts produced the same two faults eight times, because no item could learn from any other.
 
-Wave one is one item. Later waves read the specimen corpus first. Widen as the corpus thickens: 1, then 2, then 5, then 20. **A fault appearing twice in one wave means the wave was too wide.**
+Wave one is one item. Widen only after the owner has read a finished item: 1, then 2, then 5, then 20. **A fault appearing twice in one wave means the wave was too wide.**
 
 Parallel fan-out is correct for *gathering* — independent searches that do not need to learn from each other — and wrong for anything corrective.
 
-### 3.2 Generate from the write-act, never from the ban list
-
-Eighteen openings were struck under accumulating prohibitions, each ban obeyed exactly and each next output failing somewhere new. Four were accepted in a single pass once the positive write-act was stated instead.
-
-**Obedience is the tell: a correction that produces a compliant failure has not reached the generator.** Full record in `wiki/Systems/AI & Agentic Systems/The Prohibition Loop.md`.
-
-### 3.3 Never answer a strike with a detector
-
-A regex, a mandatory checklist section, or an overlap threshold is the same top-down move that already failed, one level up. **A rule is wrong when the rejected output would pass it.**
-
-The response to a strike is to name the single generator in one sentence and regenerate from the evidence with the prior draft dead.
-
-### 3.4 Regeneration is an option, not the default
-
-**Editing in place is the normal repair.** Full regeneration is an escalation with a real cost, and defaulting to it was found to hold work back more than it helped. A fault gets a fix; it does not automatically get a rewrite.
-
-**Internal documents are exempt entirely.** Instruments — this file, contracts, PRDs, decision notes, agent instructions, workbench drafts, repo docs — are edited in place and are not bound by the generation laws at all (Writing Standards, scope note). Treating a spec like prose that must come again whole is pure waste.
-
-Regeneration earns its cost in one situation: a diagnosis says the **structure** is wrong, so no edit to any line can reach the fault.
-
-| Diagnosis | Scope | Plan |
-|---|---|---|
-| Structure — the opening does not name the whole, the piece ends inside a part, the shape fights the material | whole piece | re-derived |
-| Prose inside a sound structure — cadence, an appended formulation, a passage that does not flow, a wrong claim | edit in place, or that passage only | inherited |
-
-**Three failed attempts halts the run** and goes to the reviewer with all three drafts and all three diagnoses: the same fault three times means a law is missing, three different faults mean the failure is upstream in the bank or the scoping.
-
-### 3.5 If you did regenerate, a surviving fragment means you did not
-
-Scoped to the escalation in §3.4 and to nothing else. Favourite sentences carry themselves across rewrites, so when full regeneration was the chosen route and a phrase came through untouched, what happened was a retouch. This is a check on a regeneration, never a reason to start one.
-
-### 3.6 No flag graduates to a verdict without validation
+### 3.2 No flag graduates to a verdict without validation
 
 Run any proposed threshold against the accepted set and the rejected set first. Keep it only if accepted output passes and rejected output fails. Two thresholds failed this test on one day: a cadence detector that scored the accepted exemplars highest of anything it measured, and a repetition check that failed the piece the reviewer ranked best.
 
-### 3.7 One job per ask
+No script can see register. Every struck line in the worst run passed the checker.
+
+### 3.3 One job per ask
 
 A request either fills a shape or places material already written — never both. Asking for a finished passage that is simultaneously structured and worded is where exact wording quietly disappears into paraphrase.
 
----
+### 3.4 Never answer a strike with a detector
 
-## 4. Honest ledger
+A regex, a mandatory checklist section, or an overlap threshold written after a strike is a ban list one level up. Eighteen openings were struck under accumulating bans on 2026-08-13, each ban obeyed exactly and each next output failing somewhere new. **A rule is wrong when the rejected output would pass it.** Full record in `wiki/Systems/AI & Agentic Systems/The Prohibition Loop.md`.
 
-**Carried the work.**
+### 3.5 Instruments are edited in place
 
-- Evidence as an artifact before prose. The claim ledger and its verdicts are what let a deliverable be argued about rather than felt about.
-- The ownership line in the bank — owned, half-owned, not-owned — which routes the entrance more reliably than any judgment made while drafting.
-- Deciding shape separately from sentences.
-- Drafting blind to the thing being replaced.
-- Sequential waves for anything corrective.
-- The write-act stated positively, and re-derived rather than extended when corrections accumulated.
-- The specimen corpus with the reviewer's words verbatim.
-- The droplog, which is the only thing that distinguishes a deliberate cut from a loss.
-
-**Was wasted motion.**
-
-- Detectors minted from strikes: a specimen regex, a mandatory inventory section, a token-overlap threshold, a ban on one phrasing.
-- Pasting the write-act into a contract as more prose to satisfy. A stance changes what the writer is doing or it does nothing.
-- Self-administered quality tests. An agent's own register check passed every line it was applied to, including the struck ones.
-- Thresholds shipped without §3.6 validation.
-- Parallel fan-out for corrective work.
-- Escalating the wording of an instruction rather than changing the artifact it asks for.
-- **Regeneration as the default repair.** Ruled 2026-08-15: it cost more than it returned. Fix in place; escalate only on a structural diagnosis (§3.4).
-- Applying prose laws to instruments. Contracts, specs, and working docs get edited, not re-derived.
-
-**The load-bearing limitation.** No script can see register. Every struck line in the worst run passed the checker — word limits, banned phrases, structure, all green. Any future stage claiming to catch a quality fault mechanically has to clear §3.6, and it will still not replace S6.
+This file, contracts, PRDs, decision notes, agent instructions, workbench drafts and repo docs are edited in place. Only prose written for a reader is regenerated.
 
 ---
 
-## 5. Where the evidence lives
+## 4. Where the evidence lives
 
-- `wiki/Systems/AI & Agentic Systems/The Prohibition Loop.md` — why corrections are answered with regeneration rather than with rules.
-- `wiki/Research/Opener Generator Research Bank.md` — the full record of the day that produced §3.2, every strike verbatim.
-- `02 - System/Rejected Specimens.md` — the standing specimen corpus.
-- `02 - System/The Generator.md` — the write-act itself.
-- `02 - System/Writing Standards.md` — the numbered laws prose is bound by.
-- `01 - Workbench/regen-2026-08/ATTEMPT-CATALOG-grok-opener-generator.md` — dead ends, with the rule that a retry changing only the ban list is a violation wearing a new date.
-- `wiki/Research/Context Problem Research Bank.md` — outside research on the context problem (assumed-knowledge writing). Attempt catalog: `wiki/Research/ATTEMPT-CATALOG-context-problem.md`.
-
----
-
-## 6. Adapting this to a new job
-
-Keep S1, S5, S6, and S7 intact — evidence, mechanical check, judgment, recorded ruling. Those four are the pipeline.
-
-S0 and S3 change shape with the deliverable: a decision document scopes to a verdict and a set of options, a bake-off scopes to a comparison and its criteria, a brief scopes to one source's argument. S2 only exists where there is a corpus that could have been under-read. S4's blindness rule applies wherever something is being replaced, and drops away for net-new work.
-
-Every law in §3 transfers unchanged.
-
----
-
-## 7. The wiki instantiation
-
-The concrete contracts that run these stages for wiki pages:
-
-| Stage | Contract |
-|---|---|
-| S0 | `scripts/regen-route.py`, and the worklist it produces |
-| S1 | `02 - System/Bank Handoff for Grok.md` |
-| S3 | `01 - Workbench/regen-2026-08/GROK-SKELETON-CONTRACT.md` |
-| S4 | `02 - System/Wiki Regeneration Handoff.md` · `01 - Workbench/regen-2026-08/GROK-WRITE-CONTRACT.md` |
-| S5 | `scripts/regen-check.py` |
-| S6 | `wiki/Writing Craft/Opening Doors.md` · `wiki/Writing Craft/Opening Moves Catalog.md` |
-| S7 | `scripts/regen-promote.py` · `02 - System/Rejected Specimens.md` |
-
-`01 - Workbench/regen-2026-08/` is the dated working lane. It is gitignored and not durable; nothing that needs to survive belongs there.
+- `wiki/Systems/AI & Agentic Systems/The Prohibition Loop.md` — why a strike is answered with a regeneration and not with a rule.
+- `wiki/Research/Opener Generator Research Bank.md` — the full record of 2026-08-13, every strike verbatim.
+- `wiki/Research/Context Problem Research Bank.md` — outside research on writing that assumes knowledge the reader lacks. Attempt catalog: `wiki/Research/ATTEMPT-CATALOG-context-problem.md`.
+- `01 - Workbench/WRITING-PIPELINE-CATALOG.md` — every writing method tried here, working and dead.

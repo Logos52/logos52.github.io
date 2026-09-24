@@ -7,7 +7,7 @@ stack:
   - LLM agents (batch)
   - Open dictionary data
 order: 2
-blurb: "A graded reader that writes its own pages, tied to a running record of the words you already know."
+blurb: "Tsumugu is a reading app for language learners. An AI writes each text so that 80 to 95 percent of the words are ones the reader already knows."
 image: projects/tsumugu.png
 created: 2026-06-03
 updated: 2026-09-13

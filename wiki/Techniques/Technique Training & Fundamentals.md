@@ -16,26 +16,6 @@ tags:
 
 # Technique Training & Fundamentals
 
-Technique Training and Fundamentals are the study methods used on purpose. Later, harder work depends on them. Training is how material is encoded and how it is thought about. Fundamentals are checks that show when encoding or thinking stops working as the work gets harder. The aim is to use these methods without coaching yourself through them all the time.
-
-## The four bundles
-
-Each method is explained on its own linked page.
-
-[[wiki/Dimensions/Deep Processing/Inquiry-Based Learning|Inquiry-Based Learning]] means asking structured questions before you consume a source. In the education literature, the same name means minimally guided discovery, and that is not the meaning used here. If a passage needs a mark for what is already clear, what is not clear, and what to do next, that mark is a checkpoint, and it is covered on the same Inquiry-Based Learning page.
-
-[[wiki/Dimensions/Deep Processing/Mindmaps|Non-Linear Note-Making]] is the note-taking page that exists. Three variant names are sometimes listed beside it, and they have no pages.
-
-[[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Chunking as a Technique]] is how you group material so that you can hold it in mind. [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]] is the same method, where you decide first what is most worth grouping.
-
-[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], [[wiki/Dimensions/Retrieval/Multipass System|Multipass System]], and [[wiki/Dimensions/Retrieval/Revision|Revision]] are the basic retrieval methods. Each one is explained on its own page.
-
-These methods are repeatable actions for reaching the abstract goals listed on [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]. Conscious competency is the ordinary skill-acquisition target described on [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]]. Here it means you can use the methods as tools without coaching yourself through each one.
-
-[[wiki/Techniques/Techniques - Learning Craft|Techniques - Learning Craft]] is the parent craft hub. It lists the working methods grouped by the part of learning each one is used for.
-
-These methods are the base for later study. Later, harder work succeeds only if these methods are in use. The instructions for practicing each method are on its linked page.
-
 ## Links into the knowledge base
 
 - [[wiki/Techniques/Techniques - Learning Craft|Techniques - Learning Craft]]: parent craft hub, with working methods grouped by the part of learning each one is used for

@@ -26,21 +26,21 @@ export const CONDENSED_ENTRIES: {
   {
     title: 'Learning, Condensed',
     slug: 'wiki/Syntheses/Learning, Condensed',
-    blurb: 'How to take in new material, how to remember it, and how to plan study.',
+    blurb: 'Most study fails through passive review, in which a student re-reads notes and recognises them without recalling anything.',
     icon: 'ti-school',
     color: 'var(--d-learning)',
   },
   {
     title: 'Chinese Characters, Condensed',
     slug: 'wiki/Language/Chinese/Chinese Characters, Condensed',
-    blurb: 'How to learn Chinese characters. The parts of a character give clues to its sound and to its meaning.',
+    blurb: 'The parts of a Chinese character give clues to its sound and to its meaning.',
     icon: 'ti-language',
     color: 'var(--d-language)',
   },
   {
     title: 'Agentic Engineering, Condensed',
     slug: 'wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed',
-    blurb: 'How to build software with AI agents. Rules that stay true are kept apart from tips that go out of date.',
+    blurb: 'An AI agent works like a junior collaborator who does not get tired. The engineer writes the spec, reviews the work and stays responsible for it.',
     icon: 'ti-robot',
     color: 'var(--d-agentic)',
   },
@@ -113,7 +113,7 @@ export const HUB_ENTRIES: {
   {
     title: 'Attention & Self-Management',
     slug: 'wiki/Self Management/Flow State',
-    blurb: 'Focus, and a person\'s own attention. Flow is being fully absorbed in a task.',
+    blurb: 'Flow is being fully absorbed in a task.',
     icon: 'ti-target',
     color: 'var(--d-focus)',
   },

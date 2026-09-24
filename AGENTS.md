@@ -6,374 +6,48 @@ tags:
 
 # AGENTS.md
 
-This repository is an LLM-maintained Obsidian wiki. Obsidian is the IDE, the LLM is the wiki maintainer, and the markdown wiki is the persistent compiled artifact.
+This repository is an Obsidian vault that an LLM maintains, and a public wiki built from it. It is public on GitHub under `logos52`. Raw sources are compiled into linked wiki pages, so that knowledge is not worked out again from the sources each time a question is asked.
 
-Assume this repository may be public on GitHub under `logos52`.
-
-## Core Idea
-
-Do not treat this vault as a passive RAG folder. The goal is not to rediscover knowledge from raw sources every time a question is asked.
-
-The goal is to incrementally compile raw sources into a persistent, interlinked wiki that accumulates understanding over time.
-
-Every source ingest, question, and lint pass should make the wiki better.
-
-Write role before theory. A wiki page should first explain what the topic does inside this knowledge base, when the user should use it, and what behavior or decision it changes. General background comes after the practical role is clear.
+Cut on 2026-09-20 on the owner's word. Earlier versions are in git history.
 
 **Agent product names.** Before inventing a parallel note, or picking Claude Code vs Cowork vs Managed Agents vs Cursor Cloud Agents vs Grok Build vs Codex vs Copilot vs Devin, read [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]]. File a miss the same day on [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Agent Wrong-Door Log]].
 
-## Three Layers
+## Layers
 
-### 1. Raw Sources
+- `raw/` holds the sources: `raw/inbox/` for new clippings, `raw/sources/` for active material, `raw/processed/` for sources already compiled, `raw/private/` for human-only sources, `raw/sessions/` for agent activity. Do not edit a raw source unless the owner asks. Put metadata in `raw/Source Index.md`. Keep private, copyrighted, paywalled or sensitive material out of public commits.
+- `01 - Workbench/` is the only draft surface. A model first pass is named `[Model] - [Title].md` and a fused synthesis is named `L2 - [Title].md`. After a draft is promoted or rejected, move it out. `outputs/` is an archive and takes no new work.
+- `wiki/` is the compiled layer. A page there is named `[Title].md`, with no model name and no prefix.
 
-Raw sources are the source of truth. They may include articles, transcripts, papers, screenshots, repos, datasets, or clipped web pages.
+## Special files
 
-Current raw-source locations:
-
-- `raw/inbox/` for new unsorted L4 clippings and imports
-- `raw/sources/` for active source material still useful for synthesis
-- `raw/processed/` for sources that already have usable workbench synthesis or wiki output
-- `raw/private/` for human-only sources
-- `raw/sessions/` for agent activity
-
-Rules:
-
-- Treat raw sources as immutable.
-- Read raw sources, but do not edit them unless the user explicitly asks.
-- Prefer adding metadata in `raw/Source Index.md` over modifying source files.
-- Keep private, copyrighted, paywalled, or sensitive material out of public commits.
-
-### 2. Wiki
-
-`wiki/` is the compiled understanding layer. The LLM owns this layer.
-
-The LLM should:
-
-- Create concept, technique, workflow, entity, tool, paper, and synthesis pages.
-- Update existing pages when new sources change or enrich the synthesis.
-- Add cross-references between pages.
-- Flag contradictions and unresolved claims.
-- Keep `notes/index.md` hub links current; `notes/catalog.md` regenerates on build.
-- Keep claims source-grounded.
-
-The human mostly reads the wiki and gives direction.
-
-### 3. Schema
-
-`AGENTS.md` is the operating schema for the LLM. Update it when the workflow changes.
-
-`notes/index.md` and `log.md` are special navigation/history files and must be maintained as part of normal work.
-
-## Working With Different Models
-
-We use three models in the current setup: Claude/Opus (via Cowork), Grok (remote), and GPT (remote). Each has different strengths.
-
-### Claude / Opus (via Cowork)
-- Primary model for synthesis, brief writing (L4→L3), and wiki work.
-- Reads `CLAUDE.md` for brief writing conventions and `AGENTS.md` for system operations.
-- Has direct access to the filesystem via Cowork.
-- Best used for:
-  - L4→L3 brief conversion
-  - L2 fused synthesis
-  - Wiki page creation and updates
-  - File operations, archiving, and folder maintenance
-
-### Grok (Remote)
-- Strong at high-level reasoning, system design, and maintaining conceptual coherence.
-- Good at synthesizing new ideas and writing in the desired operating tone.
-- Best used for:
-  - Designing or refining frameworks
-  - Writing new synthesis pages
-  - High-level audits and structural recommendations
-  - Philosophical framing and orientation pieces
-
-### GPT (Remote)
-- Strong on taxonomy, structured analysis, and exhaustive coverage.
-- Best used for:
-  - Detailed breakdown of systems and failure modes
-  - Comparative analysis across multiple sources
-  - Structured reference documents
-
-**General rule of thumb:**  
-Use **Claude** for file work, briefs, and wiki.  
-Use **Grok** for thinking and design.  
-Use **GPT** for structured reference and taxonomy.
-
-## Special Files
-
-### `notes/index.md`
-
-Public entry-point index for the wiki. Read this first for orientation before answering questions or compiling sources.
-
-It lists hand-curated hubs and condensed doctrine pages — not every leaf page. Keep it short.
-
-Update the **Condensed** or **Hubs** sections when a new doctrine page or cluster hub deserves a front-door link.
-
-### `notes/catalog.md`
-
-Agent-only full wiki inventory. **Gitignored** — never committed, never published. Regenerated automatically by `scripts/update-notes-catalog.mjs` on `npm run dev` / `npm run build`.
-
-Read `notes/catalog.md` when you need exhaustive coverage: lint, status, breakdown, or verifying that every wiki page is accounted for. Each row has link, type, and one-line summary (from frontmatter).
-
-Do not edit the catalog tables by hand. Re-run `node scripts/update-notes-catalog.mjs` (or `npm run dev`) after bulk wiki changes if you need a fresh local copy before the next build.
-
-### `log.md`
-
-Chronological append-only record of operations.
-
-Every entry must start with this parseable format:
-
-```md
-## [YYYY-MM-DD] operation | Title
-```
-
-Allowed operation labels:
-
-- `setup`
-- `ingest`
-- `query`
-- `lint`
-- `compile`
-- `tool`
-- `maintenance`
-
-Useful shell check:
-
-```sh
-grep "^## \\[" log.md | tail -5
-```
-
-Append to `log.md` after every meaningful ingest, query, lint pass, compile pass, or tool change.
+- `notes/index.md` is the public entry index. It lists hand-picked hubs and condensed pages, not every page. Read it first for orientation. Add a line only when a new hub or condensed page deserves a front-door link.
+- `notes/catalog.md` is the full inventory for agents. It is gitignored, and `scripts/update-notes-catalog.mjs` regenerates it on `npm run dev` and `npm run build`. Do not edit it by hand.
+- `log.md` is the append-only record of operations. Each entry starts `## [YYYY-MM-DD] operation | Title`, where the operation is one word such as `ingest`, `compile` or `maintenance`. Append an entry after every meaningful ingest, compile or tool change.
 
 ## Operations
 
-### Ingest
-
-Use when the user drops in a new source and asks to process it.
-
-Workflow:
-
-1. Read `notes/index.md`, `notes/catalog.md`, `raw/Source Index.md`, and recent `log.md` entries.
-2. Read the new source from `raw/inbox/`, `raw/sources/`, or `raw/private/` when explicitly allowed.
-3. Identify source metadata: title, author, URL, date, type, topic, and publication/privacy risk.
-4. Add or update the source row in `raw/Source Index.md`.
-5. Write or update relevant wiki pages.
-6. Update related pages that the new source strengthens, contradicts, or reframes.
-7. Add backlinks between source, concepts, techniques, workflows, tools, and outputs.
-8. Update `notes/index.md` if a new hub or condensed page needs a front-door link (the full catalog regenerates on build).
-9. Append an `ingest` or `compile` entry to `log.md`.
-
-Prefer one-source-at-a-time ingest when the user wants close supervision.
-
-### Query
-
-Use when the user asks a question against the wiki.
-
-Workflow:
-
-1. Read `notes/index.md` first; use `notes/catalog.md` when you need the full inventory.
-2. Search relevant terms across `wiki/`, `raw/`, `01 - Workbench/`, and legacy archives when needed.
-3. Read the most relevant wiki pages before raw sources.
-4. Read raw sources only when the wiki is insufficient or citations need checking.
-5. Write durable synthesis candidates to `01 - Workbench/` when they need review before wiki promotion.
-6. Include consulted wiki pages and sources.
-7. Add unresolved issues to `outputs/generated-questions.md`. (Not `02 - System/Open Questions.md` — archived stub. Live human orientation is `journal/index.md` openQuestions + `00 Command Center/Active Questions.md`. Auto-appends go only to the generated bucket.)
-8. Promote durable insights back into `wiki/`.
-9. Update `notes/index.md` if a hub or condensed front-door link changed (full catalog regenerates on build).
-10. Append a `query` entry to `log.md`.
-
-### Lint
-
-Use for health checks.
-
-Check for:
-
-- Uncompiled sources.
-- Wiki pages with no sources.
-- Orphan pages.
-- Missing cross-references.
-- Duplicate concepts.
-- Contradictory claims.
-- Stale pages superseded by newer sources.
-- Important concepts mentioned repeatedly without their own page.
-- Public/private publication risks.
-
-Write reports to `01 - Workbench/GPT - YYYY-MM-DD Wiki Health Check.md` unless the user asks for a different location.
-
-Append a `lint` entry to `log.md`.
-
-### Status
-
-Use when the user asks how the wiki is doing, whether anything needs cleanup, or what should be improved next.
-
-Workflow:
-
-1. Read `notes/catalog.md`, `notes/index.md`, recent `log.md` entries, and the top-level `wiki/` directory list.
-2. Count wiki pages by folder and page type when practical.
-3. Identify recently updated pages, high-value pages, likely orphans, pages missing source sections, bloated pages, and pages that may need splitting.
-4. Check for public/private risk at a high level.
-5. Return a concise status report with recommended next actions.
-6. Write a durable report to `01 - Workbench/GPT - YYYY-MM-DD Wiki Status.md` only if the status report is substantial.
-7. Append a `lint` or `maintenance` entry to `log.md` when a durable report or wiki change is made.
-
-Status is read-mostly. Do not reorganize files during a status pass unless the user explicitly asks.
-
-### Breakdown
-
-Use when the user asks for missing page ideas, split candidates, or ways to grow the wiki.
-
-Workflow:
-
-1. Read `notes/catalog.md`, `notes/index.md`, recent `log.md`, and relevant hub pages.
-2. Search `wiki/` for recurring named concepts, techniques, workflows, tools, books, people, or systems without dedicated pages.
-3. Identify bloated pages where a subtopic has enough substance to become its own page.
-4. Rank candidates by usefulness to the user's active systems, number of references, and clarity of purpose.
-5. Present a candidate table before creating pages unless the user has already asked to create them.
-6. When creating pages, add backlinks from the parent or hub pages; update `notes/index.md` only when a new hub or condensed page earns a front-door link.
-7. Append a `compile` or `maintenance` entry to `log.md`.
-
-Breakdown expands the wiki deliberately. Avoid creating stubs that cannot support at least one useful summary, a few practical implications, and related links.
-
-## Page Standards
-
-Every durable wiki page should include:
-
-- YAML frontmatter with `type`, `status`, `created`, `updated`, `source-count`, and `tags`.
-- A short summary near the top.
-- Related concept links.
-- A `Sources` section.
-- An `Open Questions` section when uncertainty remains.
-
-### Type vocabulary (canonical)
-
-Core content types:
-
-- `concept` — an idea, principle, or framework
-- `technique` — an actionable practice or method
-- `workflow` — a sequenced process
-- `synthesis` — integration of multiple ideas/sources into a higher-level frame
-- `hub` — top-level connector page for a category
-- `dimension` — major component of a multi-dimensional model
-
-Source / reference types:
-
-- `book` — book note (the user's reading of the book, not the book itself)
-- `paper` — paper or academic source note
-- `person` — person note
-- `tool` — software / service / platform note
-- `resource-catalog` — curated list of external resources
-
-Meta / system types:
-
-- `system` — operational pages (AGENTS, log, indexes, command-center pages)
-- `reference` — bibliography, glossary, timeline (the wiki's own reference scaffolding)
-
-Do not invent new types ad hoc. If a page does not fit any of the above, propose a new type to the user before using it.
-
-### Status vocabulary
-
-- `seed` — created, may be partial; the default for new pages
-- `developing` — actively expanded; default for new wings (e.g. Story Craft) until a Wedge pass hardens them
-- `stable` — usable doctrine; cross-link freely (preferred over `mature` for most wiki pages)
-- `mature` — synonym of `stable` for older notes; prefer `stable` on new writes
-- `needs-review` — flagged during a health check; revisit before next promotion
-- `draft` — early scratch state, not ready for cross-linking
-
-## Article Development Rules
-
-These rules apply to newly created pages and substantial rewrites. Do not retroactively rewrite existing pages just to match this standard unless the user asks.
-
-### Useful Operating Notes
-
-Write useful operating notes, not generic articles.
-
-A good page should usually make clear:
-
-- what the idea is,
-- when the user should use it,
-- what problem or bad habit it replaces,
-- what it produces,
-- and what it connects to.
-
-Do this naturally. Do not force every page into the same template.
-
-Keep theory after usefulness. Background is welcome when it helps the user apply, diagnose, or connect the idea.
-
-Examples:
-
-- A book page is not only a book summary; it explains what the book clarifies, challenges, or changes in the user's thinking.
-- A technique page is not only a definition; it explains when to use the technique, how to run it, and how it fails.
-- A concept page is not only background; it explains what the concept helps diagnose, build, or decide.
-
-### Hub And Detail Discipline
-
-Hub pages should orient. Detail pages should carry the load.
-
-Avoid cramming repeated subtopics into large hub pages. If a subtopic needs a third substantial paragraph, consider whether it deserves its own page.
-
-Avoid thinning the wiki into many weak stubs. A new page should have enough material to explain its role, practical use, related pages, and open questions.
-
-### Integration Rule
-
-When updating an existing page:
-
-1. Re-read the page first.
-2. Integrate new material into the existing structure.
-3. Improve the page's coherence, links, and practical usefulness.
-4. Avoid appending disconnected notes to the bottom.
-5. Update frontmatter `updated` and `source-count` when relevant.
-
-Every page touched during an ingest should become meaningfully better.
-
-## Source Discipline
-
-- Do not fabricate sources, citations, authors, publication dates, URLs, or claims.
-- If a claim is uncertain, mark it explicitly.
-- Use source links or local source-note links for factual claims.
-- Do not copy long copyrighted passages into public wiki pages.
-- Summarize and synthesize in original language.
-- Keep copyrighted full-text transcripts local/private unless the user explicitly decides otherwise.
-
-## Writing Style
-
-- Write useful operating notes, not rigid templates.
-- Prefer plain, active sentences and concrete verbs.
-- Name real failure modes in ordinary language.
-- Make pages specific to this knowledge base.
-- Preserve strong existing language unless there is a clear reason to change it.
-- Avoid generic encyclopedia entries, AI essays, and forced page formats.
-- Avoid hype, peacock words, rhetorical questions, and AI-editorial filler such as "importantly," "interestingly," and "it is worth noting."
-- Do not copy exhausted or offhand chat into files or later replies. Write the ruling. Do not replay the vent. A chat line is not filed as owner words unless he asked for that line to be kept.
-- Use Obsidian links for internal concepts: `[[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]]`.
-- Use normal markdown links for external URLs.
-- Avoid decorative formatting that makes files harder to diff.
-- Decision documents (PRDs, proposals, decision notes, weighing-options journal entries, memos) follow the **High-Signal Decision Writing** section of [[02 - System/Writing Standards|Writing Standards]]: verdict first, measured claims, steelman what you reject, price your own recommendation, falsifiable success criteria.
-- Pages written for the vault itself (wiki, positions, personal) are made by the pipeline in [[02 - System/Writing Pipeline|Writing Pipeline]]. Before the outline, ask the owner which generator and which seat, offering the Working rows in `/Users/n1/Projects/llm-knowledge-base/01 - Workbench/WRITING-PIPELINE-CATALOG.md`. The default is [[02 - System/The Generator|The Generator]], then [[02 - System/The Generator - Selfhood v2|Selfhood v2]], paragraph-at-a-time drafting against the holdings ledger, a fresh-head rewrite pass ([[02 - System/Rewrite Prompt|Rewrite Prompt]]), then a cold read ([[02 - System/Cold Read|Cold Read]]). ELI5-Haiku is the other wiki pick. It stays a draft in the workbench. It skips the rewrite pass.
-- Wiki pages follow the **High-Signal Wiki Pages** section of Writing Standards (2026-06-11) as the primary bar — thesis first, specifics over adjectives, the case against, price the method, quit signals, checkable expectations. Front-facing surfaces follow **High-Signal Front-Facing Pages**. The May rules are deleted (2026-06-12); do not cite them.
-
-## Workbench and Archives
-
-The active synthesis loop is `raw/` → `01 - Workbench/` → `wiki/`.
-
-Use `01 - Workbench/` as the only active draft surface for synthesis work. Wiki-shaped material that is ready should be promoted to `wiki/`; material that still needs comparison, voice work, or human review stays in `01 - Workbench/`.
-
-Workbench conventions:
-
-- L3 first-pass drafts use model-first filenames: `[Model] - [Title].md`.
-- L2 fused syntheses use `L2 - [Title].md`.
-- Keep `01 - Workbench/` temporary and easy to scan. After promotion or rejection, move drafts out of the active surface.
-- `outputs/` is legacy/archive space for older generated artifacts. Do not use it for new active synthesis unless the user explicitly asks.
-
-Workflow:
-
-1. Put active synthesis, comparison, and status drafts in `01 - Workbench/`.
-2. Promote durable, reviewed material into `wiki/`.
-3. Archive completed, rejected, or superseded drafts outside the active workbench.
-4. Keep source material in `raw/`; do not treat archived drafts as source of truth unless explicitly cited.
-
-## Tooling
-
-At this scale, `notes/index.md` plus `notes/catalog.md` plus `rg` is enough locally. The published site search is Pagefind. Do not add a second local search engine or a health-check framework until a pass actually needs one.
+**Ingest**, when the owner drops in a source:
+
+1. Read `notes/index.md`, `notes/catalog.md`, `raw/Source Index.md` and recent `log.md` entries.
+2. Read the source. Read from `raw/private/` only when he allows it.
+3. Add or update its row in `raw/Source Index.md`: title, author, URL, date, type, topic, and publication or privacy risk.
+4. Write or update the wiki pages it bears on, including pages it contradicts. Add links both ways.
+5. Append an entry to `log.md`.
+
+**Query**, when he asks a question against the wiki: read `notes/index.md` first, then the relevant wiki pages, and raw sources only when the wiki is not enough. Name the pages and sources consulted. Unresolved issues go to `outputs/generated-questions.md`. His live open questions are in `journal/index.md` and `00 Command Center/Active Questions.md`.
+
+**Health check, status, or new-page ideas**, when he asks: work from `notes/catalog.md`. Look for uncompiled sources, pages with no sources, orphans, duplicates, contradictions, pages that need splitting, and public or private risk. Report first. Do not reorganize files during a status pass unless he asks. Show a table of candidate pages before creating any. A long report goes in `01 - Workbench/[Model] - YYYY-MM-DD [Title].md`.
+
+## Pages
+
+- Match the frontmatter of the pages already in the section the new page joins: `title`, `type`, `status`, `created`, `updated`, `tags`, and `source-count` where the section uses it.
+- The page layout, what never ships, and the one style rule are in [[02 - System/Writing Standards|Writing Standards]]. That file is short. Read it before writing a page. Grok's own writing rules are in `/Users/n1/.grok/AGENTS.md`. Claude's are in `CLAUDE.md` and `/Users/n1/.claude/CLAUDE.md`.
+- A hub orients the reader, and the detail pages hold the content. Do not make a page too thin to say what its subject is, how it is used, and what it links to.
+- When updating a page, re-read it first, put new material into the existing structure, do not append notes at the bottom, and update `updated`.
+- Do not fabricate sources, citations, authors, dates, URLs or claims. Mark an uncertain claim as uncertain. Do not copy long copyrighted passages into public pages. Keep full copyrighted transcripts private.
+- Do not copy offhand chat into files. Write the ruling. A chat line is filed as the owner's words only when he asked for that line to be kept.
+- Use wikilinks for internal pages, such as `[[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]]`, and normal markdown links for external URLs.
+- `notes/index.md`, `notes/catalog.md` and `rg` are enough for local search. The published site search is Pagefind. Do not add another search tool or a health-check framework.
 
 ## Privacy and Publication
 
@@ -384,7 +58,7 @@ At this scale, `notes/index.md` plus `notes/catalog.md` plus `rg` is enough loca
 Three ways to keep content off the public site, strongest first:
 
 1. **Genuinely private (money, secrets, personal life, credentials):** keep it OUT of the repo — gitignore it or store it externally. `finances/` and `private/` are gitignored; financial data/secrets live in a gitignored, external location. Do not commit it.
-2. **Keep-unpublished but OK in the repo:** add `draft: true` to the note's frontmatter — the `RemoveDrafts` filter drops it from the build. (Still raw-browsable in the repo, so not for genuinely-private content.)
+2. **Keep-unpublished but OK in the repo:** add `draft: true` to the note's frontmatter — `scripts/copy-public-notes.mjs` skips it, so it never reaches the build. (Still raw-browsable in the repo, so not for genuinely-private content.)
 3. **Never put sensitive content in a publish-eligible path** — anything under `wiki/`, `journal/`, `blog/`, `public-snapshots/`, or a root `.md` renders by default.
 
 Enforcement — defense-in-depth, see `tools/scripts/publish-guard.mjs`:
@@ -402,8 +76,8 @@ The site is published at <https://logos52.github.io>. Astro builds from `src/`; 
 
 Publish model: **publish-by-default.** Every `.md` is published EXCEPT (a) paths git ignores, (b) paths matched by the denylist in `src/lib/ignore-patterns.mjs`, and (c) notes with `draft: true`. There is no allow-list, so the denylist plus the guard ARE the privacy gates — keep them current. A denied note is never copied into `src/content/notes/`, so it physically cannot appear in the build (stronger than a render-time filter).
 
-- **Published (publish-eligible):** `index.md`, `about.md`, `README.md`, `AGENTS.md` / `CLAUDE.md` / `GROK.md`, `wiki/` except `wiki/Research/` and the Design extraction catalogs, `journal/`, `public-snapshots/`, `notes/index.md`, `personal/`, `projects/`.
-- **Not published (gitignored or denylist):** `notes/catalog.md` (gitignored — agent-only full inventory), `wiki/Research/` (agent banks, tracked), Design extraction catalogs (tracked), `00 Command Center/`, `raw/`, `private/`, `finances/`, `outputs/`, `templates/`, `tools/`, `PRDs/`, `decisions/`, `mg-kolbs/`, `cos/`, `01 - Workbench/`, `02 - System/`, `_archive/`, `hermes/`, `_meta/`, `kb-astro/`, `log.md`.
+- **Published (publish-eligible):** `index.md`, `about.md`, `README.md`, `wiki/` except `wiki/Research/` and the Design extraction catalogs, `journal/`, `public-snapshots/`, `notes/index.md`, `personal/`, `projects/`.
+- **Not published (gitignored or denylist):** `AGENTS.md`, `CLAUDE.md`, `GROK.md` (denylisted, but tracked, so their raw text is public on GitHub), `notes/catalog.md` (gitignored — agent-only full inventory), `wiki/Research/` (agent banks, tracked), Design extraction catalogs (tracked), `00 Command Center/`, `raw/`, `private/`, `finances/`, `outputs/`, `templates/`, `tools/`, `PRDs/`, `decisions/`, `mg-kolbs/`, `cos/`, `01 - Workbench/`, `02 - System/`, `_archive/`, `hermes/`, `_meta/`, `kb-astro/`, `log.md`.
 
 Do not move content between these without updating `src/lib/ignore-patterns.mjs` — and remember (above) that un-publishing is not the same as private.
 
@@ -411,7 +85,7 @@ Rules for LLM agents:
 
 - Wikilinks (`[[Page]]` and `[[path/to/Page|Alias]]`) are first-class on the published site. Prefer wikilinks over raw markdown links so the build can resolve them and feed them into the graph and backlinks.
 - Wikilinks pointing into excluded folders (e.g., `[[raw/Source Index|Source Index]]`, `[[templates/Kolbs Template]]`) will render as broken on the site. They are still valuable inside Obsidian; leave them unless the user asks for a cleanup.
-- When adding a new wiki page, prefer placing it under one of the existing top-level subfolders in `wiki/` (`Books/`, `Concepts/`, `Decision Making/`, `Dimensions/`, `Domains/`, `Experiences/`, `Language/`, `Learning Craft/`, `Story Craft/`, `Minimalism/`, `Money/`, `Red Team/`, `Resources/`, `Self Management/`, `Syntheses/`, `Systems/`, `Techniques/`, `Workflows/`, `Design/`).
+- When adding a new wiki page, place it under an existing top-level subfolder of `wiki/`. List the folder to see them. Do not add a top-level subfolder without asking.
 - Do not commit `node_modules/`, `dist/`, or `.astro/`. These are gitignored.
 - The site is a normal Astro project: pages in `src/pages/`, UI in `src/components/`, layouts in `src/layouts/`, client islands in `src/islands/`, shared logic in `src/lib/`. The publish boundary is `scripts/copy-public-notes.mjs` plus the denylist `src/lib/ignore-patterns.mjs`.
 - The site's home page is `src/pages/index.astro`, the public LLM Knowledge Base landing page.
@@ -424,6 +98,6 @@ Local preview workflow:
 - Build, then preview: `npm run build` then `npm run preview`
 
 
-## Feedback protocol (standing rule — canonical in ~/Projects/AGENTS.md)
+## Feedback protocol
 
-Deep read before execution, always: enumerate everything Wedge asked, details included, never the gist; find the general principle behind the specific complaint; then execute against both, and record the principle in the appropriate standard. Prose is generated as a continuous explanation to a real person first, then filtered through the writing standards — never assembled from rule-compliant fragments.
+Deep read before execution, always: enumerate everything Wedge asked, details included, never the gist; find the general principle behind the specific complaint; then execute against both. When he strikes a text, regenerate it. Do not add a rule or a record line unless he says "make this a rule" (ruled 2026-09-18). Prose is generated as a continuous explanation to a real person, never assembled from rule-compliant fragments.

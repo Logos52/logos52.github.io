@@ -196,6 +196,6 @@ return function Tasks() {
 >
 > **Reference** — [[wiki/Glossary|Glossary]] · [[wiki/Bibliography|Bibliography]] · [[wiki/Timeline|Timeline]]
 >
-> **Ops** — [[Implementation Plan]] · [[Active Questions]] · [[02 - System/Open Questions|Open Questions (archived)]] · [[Changelog]] · [[Writing Standards]] · [[raw/Source Index|Source Index]]
+> **Ops** — [[Implementation Plan]] · [[Active Questions]] · [[_archive/system-stale-2026-09-20/Open Questions|Open Questions (archived)]] · [[Changelog]] · [[Writing Standards]] · [[raw/Source Index|Source Index]]
 >
 > **Templates** — [[templates/Source Note|Source]] · [[templates/Concept Note|Concept]] · [[templates/Tool Note|Tool]] · [[templates/Kolbs Template|Kolbs]]

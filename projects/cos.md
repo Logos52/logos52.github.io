@@ -6,7 +6,7 @@ stack:
   - Python
   - HTML/CSS
 order: 4
-blurb: "A personal OS for finances, tasks, and dates in one view. Terminal apps were replaced by a static HTML dashboard that uses WNAC's design language."
+blurb: "cos is a personal dashboard that shows finances, tasks and dates on one page. It replaced a set of terminal apps."
 created: 2026-06-02
 updated: 2026-09-13
 method: plain-register-2026-09-13

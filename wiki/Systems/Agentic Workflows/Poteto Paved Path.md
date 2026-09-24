@@ -2,125 +2,69 @@
 title: "Poteto Paved Path"
 type: concept
 status: developing
-created: 2026-09-22
-updated: 2026-09-22
-description: "You can leave an agent alone after the files, not the prompt, are what the next session will copy."
-method: plain-rewrite-2026-09-22
-prose-model: grok
-written-by: grok
-tags:
-  - agents
-  - agentic-engineering
-  - cursor
-  - grok-bot
+description: ""
 ---
 
-# Poteto Paved Path
+## The paved path
 
-You can leave an agent working once you trust what it will leave in the files. The next agent copies the pattern it finds there, so a longer prompt does not carry over. The codebase is the memory.
+High-quality work has to continue when you are not at the computer. While you are away, a helper keeps doing the job. That helper is a program that writes the code for the app, the text the app is built from. It continues one saved way of doing the job. Poteto calls that saved way the paved path.
 
-Getting there takes three kinds of work. First you give the agent a way to check that the feature does what a person came to do. A feature map lists the parts of the app and how someone reaches them. A command runs the real app and saves the proof. Until those exist, you are still the one checking. Next you keep a skill in the repo, such as pstack, so the next session can load the working method. The agent can still skip a skill. The change that lasts is in the architecture. Agents take the shortcut, so you make the shortcut the correct edit.
+## how do i trust my agents more?
 
-A new program is greenfield. Nothing stops the short edit yet, and the next agent copies it until that edit is the structure. Grok Bot started as that kind of prototype. Dune is the framework it runs on now. Each kind of code has one folder and one job, and a bad comment or a bad import fails the build. An older program is brownfield. It already has checks, the way a rule can stop a new person from deleting the live database. Your job there is to add a check where agents still get through.
+An agent is that helper. The check on its work answers whether the feature does what you asked. A feature is the part of the app you asked for. The check does not answer whether the change is fast or whether the code is tidy.
 
-You call the spread mold. It grows the way weeds do, one shortcut sending up copies. A gardener pulls the debt that is already in the files, keeps one paved path, and adds a lint before the copies take over.
+Saved instructions teach the helper to work the way the engineers work. pstack is the named example of those instructions.
 
-When the files can hold an agent, the rest of the work looks like a Michelin kitchen. You still answer for what ships, and you are no longer making each part yourself. Grok Bot is the line cook. It watches Slack, Sentry, Datadog, and PlanetScale, and it starts the next station. Cloud agents do the edit on another computer and open a pull request. Automations and the Agent SDK are the team that starts those agents from events. A helper does not merge.
+The app is rebuilt so a small edit in one file leaves the rest intact.
 
-## How to use this
+You start by watching one to five chats and correcting them yourself. If you are not there, nothing useful happens. Helpers on the order of a hundred produce broken work if they start before the check, the saved instructions, and the rebuilt app are in place. More helpers help once the saved project and the check are in place. The saved project is the stored work the next helper sees.
 
-1. When you correct an agent, change the files so the same mistake cannot be written again.
-2. If you cannot change the files yet, add a lint, a compiler error, or a CI check that fails the build.
-3. A rule, Bugbot, or a skill is worth having, and any of them can be skipped, so do not leave the correction there.
-4. A style guide and a longer prompt only work if you are in the room. The next session will not have them.
-5. On a new codebase, choose the one allowed way before agents start writing. On an old codebase, add a check at the place where they keep taking the wrong shortcut.
-6. When you see mold, delete what is already there, keep one paved path, and add the lint while you are still cleaning up.
-7. On this wiki, name the page before a draft starts, then open it and read it. `scripts/holdings.py` and `scripts/source-words-check.py` are the checks you already have. You are not running the kitchen here yet, because you still read the page yourself.
+## High-quality verification
 
-## The slides
+With a map of the app and a command the helper can run, the helper can check its own work.
 
-The original slides, in order, with the webcam cropped out.
+The map says what is in the app and how a person reaches each part. The map is kept with the saved instructions, and something keeps the map current. The map existed because a bug report was often a small screenshot and three question marks. A screenshot is a picture of the screen. The helper could open the app and still not know what the report meant.
 
-### Agenda
+A command is a line the helper runs. The command runs the real app and saves proof. Proof is a record of what the app did. The examples are `$ drive settings` and `$ capture proof`. The command is kept with the saved instructions, so the helper does not write a new script every session. A script is a short program written for one job.
 
-![Agenda](poteto-slides/01-agenda.jpg)
+## whenever you correct your agent
 
-### Michelin kitchen
+When a way you do not want appears again, add an automatic check before you have finished removing it. The check stops new copies. The helper then removes the copies already saved.
 
-![Michelin kitchen](poteto-slides/02-michelin-kitchen.jpg)
+Put the correction at the earliest place on this list that can hold it.
 
-### Five thousand pull requests
+1. The saved project. The saved project is the strongest place, because the next helper repeats what it can see there. Build the project so the mistake cannot be written.
+2. An automatic check when the work is built: a linter, the compiler, or the build system. A linter flags a known mistake in the code. A compiler stops when the code is invalid. The build system puts the app together. A repeated mistake becomes a check that fails the build, so nobody has to remember a note.
+3. Rules and Bugbot. A rule is an instruction saved for the helper. The helper can forget a rule. The person running the helper can ignore a rule, and can ignore Bugbot.
+4. Skills. A skill is a saved procedure for one kind of task, and it has the same limit as a rule.
+5. A style guide. A person enforces the style guide in review by reading the change. Someone who is not reading every line will miss the note they meant to leave.
 
-![5000 plus PRs](poteto-slides/03-five-thousand-prs.jpg)
+Start from a note you already keep writing, and move it up that list. Rules and skills are still worth having. They are not enough by themselves.
 
-### Trust and the number of agents
+Dune is the example of putting the correction in the saved project. It is the internal framework of the Grok Bot desktop app, and it is not open source. A framework is the shared structure of the app. People outside the group that makes the app cannot read Dune.
 
-![Trust curve](poteto-slides/04-trust-curve.jpg)
+The helper repeats the easiest way already in the project, so that way has to be the one you want repeated.
 
-### How do I trust my agents more?
+Dune uses five names. Each name has one folder and one job. A folder holds one part of the app.
 
-![How do I trust my agents more](poteto-slides/05-how-to-trust.jpg)
+A feature is one folder of the product's screens.
 
-### High-quality verification
+An entrypoint is one screen a person can open.
 
-![Feature map and CLI](poteto-slides/06-feature-map.jpg)
+A transcript card is the body for one kind of entry. The body is the content of that entry. The feature owns the card.
 
-### Whenever you correct your agent
+A client remembers what the screen is showing. Only one part may write what the client remembers.
 
-![Whenever you correct your agent](poteto-slides/07-whenever-you-correct.jpg)
+A host is the behavior that stays on. It runs under a stated agreement, and that agreement is set ahead of time.
 
-### Your codebase is memory
+A folder sets which imports are allowed. An import is one part of the app using another part. An import that is not allowed fails.
 
-![Your codebase is memory](poteto-slides/08-codebase-is-memory.jpg)
+A note in the code is text a person writes there for someone to read. Shipping a change means sending it out as finished. Dune does not allow notes in the code, because the helper treated a note in the code as a reason to ship a short change.
 
-### Gardeners
+## What you do with a correction
 
-![Gardener](poteto-slides/09-gardener.jpg)
+When you correct the helper, put the correction at the earliest place on that list that can hold it. The next helper repeats whatever you leave saved in the project.
 
-### Dune
+## On this account
 
-![Dune](poteto-slides/10-dune.jpg)
-
-### Five nouns
-
-![Five nouns](poteto-slides/11-five-nouns.jpg)
-
-### Process boundaries
-
-![Process boundaries](poteto-slides/12-process-boundaries.jpg)
-
-### A feature adds files, not registry branches
-
-![A feature adds files](poteto-slides/13-feature-adds-files.jpg)
-
-### Host-backed feature blueprint
-
-![Host-backed feature blueprint](poteto-slides/14-host-backed-blueprint.jpg)
-
-### The three stations
-
-![Kitchen stations](poteto-slides/15-kitchen-stations.jpg)
-
-### Benny
-
-![Benny](poteto-slides/16-benny-thread.jpg)
-
-### The close
-
-![Closing list](poteto-slides/17-closing-list.jpg)
-
-## Related pages
-
-- [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]: the written procedures for proof from the running app. You do not install them to copy a count of pull requests.
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: you keep the judgment of whether a result is right, and a check beats a feeling that it is.
-- [[wiki/Systems/Agentic Workflows/Karpathy LLM-Wiki|Karpathy LLM-Wiki]]: the same split between a file that stays and a chat that disappears, applied to pages instead of to code.
-- [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]: a helper can watch and report. You still read, and you still merge.
-- [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents|Cursor Cloud Agents]]: the separate computer that opens a pull request after the laptop is closed, once you trust the files enough to leave an agent there.
-
-## Sources
-
-- Lauren Tan, recording posted 21 Sep 2026, for Cursor Compile in London: https://x.com/poteto/status/2102050467505430555. The slide "how do i trust my agents more?" lists verification for correctness, skills such as pstack, and refactoring the architecture to be agent friendly, with the grey note "greenfield vs brownfield." The closing list puts a correction in the codebase, then static analysis, then rules and Bugbot, then skills, then a style guide.
-- Earlier workshop, the trust curve, the feature map, the command that drives the app, and the contrast between a new program and a program that already constrains a new hire: https://www.youtube.com/watch?v=Cmoh-yR-usA and the transcript at https://cho.sh/w/7D77B5. That account includes the move of the Grok Bot app onto Dune.
-- Dune named on 11 Aug 2026, in the post quoted at https://x.com/MarkVillacampa/status/2087458215386632229.
-- pstack: https://github.com/cursor/plugins/tree/main/pstack.
-- The two wiki checks named above are `scripts/holdings.py` and `scripts/source-words-check.py` in this knowledge base.
+This desk does not run Dune. Helpers on this desk do not write the wiki. You merge application code yourself. You keep that change.

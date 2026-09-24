@@ -3,7 +3,7 @@ title: "Bias QA"
 type: system
 status: developing
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-09-20
 tags:
   - system
   - writing
@@ -51,13 +51,4 @@ The writer rewrites each reported sentence from the holder's seat, or leaves it 
 
 ## 4. What is said to the owner
 
-Nothing about this QA, unless he asks. The read runs, its findings are fixed, and what he sees is the page. Owner, 2026-09-18: "stop being so anal about sources... everything related to sources just stop bothering me about." A lean he finds himself goes into the Record below, in his words, and into the script if it is a string.
-
----
-
-## Record
-
-- 2026-09-17. South Africa is a Warning to the West, Opus. Two countries brought in as control cases that were in none of the owner's research; a mechanism built on one of them and recommended over his; his source's figures swapped for web-search figures; "on the account in the source used here" on the Rhodesia section; two of that source's claims left out; a "what would show this is wrong" section; a "where the two accounts agree and disagree" section; four open questions that were objections. Owner: "hedging is your model bias"; "stop objecting. remove your objections"; "remove your structure"; "let the research stand on its own".
-- 2026-09-17. Same page, Fable, first pass: "held that" for "knew that"; "condemned" for "demonised"; "false" for "nonsense propaganda"; "starving" for "starve to death"; "what was done to them" for "atrocities"; "the white farmers" for "whites"; "insurgent" had been Opus's word for "terrorist"; every person hidden as "a president" or "a family". Owner: "i care more about bias then sources, and you are not checking for bias, just sources. you are looking at things completely backwards."
-- 2026-09-18. Same page, Fable, second pass: "make the races equal" for "racial equity"; "ordinary" as a minimiser on the Western signs; "choosing by group" for "equity over merit". Regulatory Capture via Doom-Marketing: a concession placed before the attack it softened; an added sentence discounting the September speakers. All rewritten from the holder's seat. This file and `scripts/bias-sweep.py` written the same day.
-- 2026-09-18, first cold read on South Africa is a Warning to the West. The pulled-punch list was right and was acted on: a passive hiding a poisoning, "described as", "is claimed to", "was reported to", a concession placed before the result it softened, "can" twice, the section's strongest line orphaned at its end, "other countries" for "the international community", and a British figure applied to both countries. The prompt's other half, unsupported punches, returned 30 demands for a figure or a citation under the essay's claims, which is the academic standard the owner rejected the same day. That half is removed from the prompt.
+Nothing about this QA, unless he asks. The read runs, its findings are fixed, and what he sees is the page. Owner, 2026-09-18: "stop being so anal about sources... everything related to sources just stop bothering me about." A lean he finds himself goes into the script if it is a string.

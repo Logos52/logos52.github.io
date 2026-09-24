@@ -71,7 +71,7 @@ Single markdown file at `01 - Workbench/wiki-cleanup-{YYYY-MM-DD}.md`. Use `## S
 
 - **Do not edit any wiki page.** Output only.
 - **Do not delete anything.**
-- **Do not append to `02 - System/Open Questions.md`.** That file is an archived stub. Auto-appends go to `outputs/generated-questions.md` per `AGENTS.md` step 7. Live human orientation is journal + Active Questions.
+- **Do not create or append to an Open Questions file in `02 - System/`.** The old stub was archived on 2026-09-20. Auto-appends go to `outputs/generated-questions.md` per `AGENTS.md` step 7. Live human orientation is journal + Active Questions.
 - Respect frontmatter conventions described in `AGENTS.md` and `CLAUDE.md`.
 - Stay inside `wiki/`, `raw/`, `01 - Workbench/`, `outputs/`, `00 Command Center/`, and `journal/index.md` (orientation check only). Do not scan `decisions/`, `PRDs/`, full `journal/` bodies, or `mg-kolbs/` unless Wedge asks.
 

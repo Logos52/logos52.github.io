@@ -1,86 +1,64 @@
 ---
-title: "Grok Bot Galaxy: the rules on one page"
-description: "Grok Bot Galaxy was the three-day livestream in September 2026 where the maker of Grok Bot built a company on camera with bots. Its advice comes down to a short set of rules: one job for each bot, a person approving what leaves the account, coding agents that write the code while a person merges, cheap clocks, and reports with a date and a source on every figure."
+title: "Grok Bot Galaxy: the rules"
+description: "SpaceXAI ran Grok Bot Galaxy so people would see how Grok Bot fits into each stage of building a product, and would leave with uses for their own job. The rules from that livestream, shortened, with the ones this setup already refuses named as refused."
 type: journal
 status: active
+draft: true
 created: 2026-09-18
 updated: 2026-09-18
-prose-model: fable
+prose-model: grok
 tags:
-  - ai
   - grok-bot
+  - research
   - agents
-  - agentic-engineering
 ---
 
-# Grok Bot Galaxy: the rules on one page
+# Grok Bot Galaxy: the rules
 
-Grok Bot Galaxy was a three-day public livestream, 15 to 17 September 2026. It was run by SpaceXAI, the company that makes Grok Bot. Three of its staff built a company on camera with bots, and guest speakers gave talks between the building. A bot is a named helper with one job that works on a computer in the cloud. The rules below are the event's advice in short form, written for any setup. The longer account is [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]]. It says which of these rules this wiki already had and which were new.
+SpaceXAI ran Grok Bot Galaxy so people would see how Grok Bot fits into each stage of building a product, and would leave with uses for their own job. Grok Bot is a desktop app where you give a named helper one job and it works on a computer in the cloud. SpaceXAI makes it. Three of its staff built a company on camera with bots, so viewers would see the product in each stage. The company shipped as Thursday Arena, a browser card game whose cards are shareable copies of a bot's setup.
 
-## Why the event was held
+Grok Bot entered beta on 11 August 2026. Cursor, the code editor company, announced on 14 August that it had joined SpaceX. On 21 August Grok Bot opened to more SuperGrok and Cursor plans. On 3 September Grok Bot for Enterprise went live. Galaxy started twelve days later, 15 to 17 September 2026.
 
-The organizer's stated aim was to show how Grok Bot fits each stage of building a business, and to send each viewer home with uses for their own job. The event came five weeks after the product's beta and twelve days after its enterprise release.
+What was put on screen also did these things. The organizer did not state them.
 
-Three more aims show in what was put on screen. The first is to move people from asking a chatbot questions to staffing a whole job function with a team of bots. The second is to fill the template marketplace, where people publish shareable copies of a bot's setup. Every giveaway required a template, and the card game the staff shipped uses templates as its cards. The third is to present Grok Bot as the product that starts Cursor Cloud Agents. A Cursor Cloud Agent is a coding agent that runs on its own virtual machine and hands back a pull request.
+Most sessions opened with a curve: ask a chatbot, have a copilot do a task, hand a whole job to a bot, staff a function with a team of bots. Then came a "Meet the team" slide with named bots for that function.
 
-## Setting up a bot
+A template is a shareable copy of one bot's setup. People publish those copies on the [template marketplace](https://x.ai/bot/marketplace). Giveaways required a template. The game the builders shipped uses shared templates as its playing cards.
 
-- **Scope a bot like a job description.** One bot gets one standing job. Bloated context and extra duties slow a bot down. Spend an hour or two writing out the duties before creating the bot.
-- **Lasting rules go in the description, and today's task goes in the chat.** Format rules and the line saying what the bot never does sit where every run reads them.
-- **Ask a bot to write a file of all its own duties.** Then cut, split or add.
-- **Duplicate a bot to get the same setup with an empty memory.** A long chat makes every routine on that bot cost more.
+A Cursor Cloud Agent is a coding agent that runs on its own virtual machine, clones a GitHub repo, and opens a pull request. The builders used Cloud Agents for all the code in their company. One of the product pillars on screen was managing those agents through Grok Bot.
 
-## Keeping bots cheap
+Most of the sessions were for people outside engineering: sales engineers, sales, sales development, support, marketing operations, post-sales, and marketing.
 
-- **Use a connector before a browser.** Browser use costs more. Where no connector exists, have the bot watch the site's network requests once and call that API directly after that.
-- **Audit routines, and have them report exceptions only.** An hourly routine that finds nothing most hours becomes a weekly one.
-- **Adding bots does not remove the slow steps.** The slow steps are the merge that waits on a person, and one person approving every task while status arrives in several chats.
+## The rules
 
-## What a bot may do on its own
+Scope a bot like a job description. One bot per job. Bloated context and duties slow a bot down. Spend the time writing the duties before creating the bot.
 
-- **A bot prepares, and a person approves what leaves the account.** The bot writes drafts and sends nothing. A person approves messages, writes to a customer database, refunds and changes to infrastructure.
-- **Answer from public documents.** Internal policy is for deciding and is never pasted into a reply. Low confidence, missing information or an unclear request means handing the item to a person.
-- **Hold is the default for anything protective.** When a bot offers to pause a firewall so another bot can get through, leave the firewall alone.
-- **Put a fork to the owner as three choices.** Lock, iterate or hold, with the bot that would build it named.
-- **Record a decision as a yes or no answer.** Later reports then build on it.
+Lasting rules go in the description. The current task goes in chat. Format rules, never-do lines, and how the bot should work live in the profile. Routines are set up by asking the bot in chat.
 
-## Running coding agents
+Audit routines and make them report exceptions only. An hourly run that almost always finds nothing should move to a weekly clock, with a ping only when something fails to match.
 
-- **All code goes through Cloud Agents, and a person merges.** The bot that starts the agent is a coordinator. It collects the proof and stops.
-- **Lock a written spec before engineering starts.** One bot writes the spec as a file and marks it locked. The bot that starts the Cloud Agent works from that file.
-- **One Cloud Agent for each pull request and its follow-ups.** Open no new pull request against the default branch.
-- **Done means merged.** An agent that has finished is not a finished job. A pull request is ready for review only after its checks come back clean several times in a row.
-- **Proof is a playable video of the real product, in the pull request text.** A mock does not count. Proof files stay on disk and out of git.
-- **Write a verification skill for each app.** It is a folder of instructions in the repo that tells an agent how to launch the app, use each feature the way a user does, and save proof. Run it before agents work unattended.
-- **Write a row before work starts.** Task, owner, stage, pull request, agent, last comment.
-- **An urgent run gets a short check that ends.** Every five minutes it looks for stalling, long sleeps, too much caution or drift, and it deletes itself once the run is clean.
-- **A reading bot can hand a Cloud Agent one small job a day.** The bot picks one item, the agent builds a demo and checks it with screenshots and video, and the bot sends a preview link in the morning. A person still decides what merges.
+Browser use costs more than connectors. Use a connector when one exists. When none exists, watch the site's network requests once and call that programming interface the next time.
 
-## Reports
+All code goes through Cursor Cloud Agents, and a person merges. One Cloud Agent per stream of pull requests. Put a row on the task board before starting work: task, owner, stage, pull request, agent, last comment. Finished by the agent does not mean done. Done means merged. Visual proof must be a playable video of the real product in the pull request body. Proof files stay on disk and out of git. One slide claimed the opposite: the bot fixes a failing build and merges its own pull request. The written rules said humans own every merge. This setup follows the written rule.
 
-- **Put the date and the source beside every figure.**
-- **Keep one status line for the whole roster.** For each bot: the last run, and whether it stayed silent or pinged.
-- **One bot owns a shared document such as a playbook.** Other bots read it and never edit it.
+Write a verification skill for each app. A verification skill is a folder in the repo with instructions for an agent: how to launch the app, how to check the app is healthy, how to use each feature the way a user does, what to save as proof, and how to clean up.
 
-## Advice this desk refuses
+Lock a written spec before engineering starts. The coding agent starts from that file, not from a chat that is still moving.
 
-- Bots in group chats. Here bots pass work through files.
-- A chief of staff bot in front of the others, and manager bots over engineer bots. A bot in front has to hold every login, and all the bots share one cloud computer.
-- More logins for bots, imported browser cookies, and bots using the owner's IP address. Only public material goes on the shared computer.
-- A bot that merges its own fix. No bot merges.
-- A bot that learns the owner's voice from texts and email, or builds a list from mail and meetings. Both need private material.
-- Routines that tune other routines, and a nightly pass that opens cleanup pull requests across a whole repo.
+Let bots act, with a person approving anything that reaches an outside person or system. That sits between approving every step and approving nothing. Drafts, sheets, and reply text stop until a person says yes. When an agent hits a firewall block, hold: leave the firewall alone.
 
-## What was done with it
+A bot can hand a Cloud Agent one small job a day. A reading bot picks one item from public material, starts a Cursor agent that builds a demo of it, checks the demo with screenshots and video, pushes a branch, and gets a preview link. The person still merges.
 
-The wiki page was rebuilt through Explain First on 18 September 2026. The owner ruled the same day that the page keeps the first day's talks and the advice repeated across talks, and drops the sales, support and marketing talks of the second and third days. He also ruled that the advice is written as general rules, with where each rule came from left to the Sources block. The new rules have not yet been added to the operating pages, [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents|Cursor Cloud Agents]] and [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]].
+Duplicate a bot when you want the same setup with an empty memory. Ask a bot to write a file of all its own duties, so you can cut or split them. Put the date and the source beside every figure in a report.
 
-## Sources
+More bots did not make the work faster. An audit of the livestream's own bots said "you're not under-botted. you're coordination-bound." Merging still waited on a person. One person was approving every task while status updates landed in four different chats.
 
-- Event hub: https://x.ai/galaxy
-- Event page on Luma: https://luma.com/3ifrgttw
-- Day 1 X broadcast: https://x.com/i/broadcasts/1AxRnZbVpjaxl
-- Day 2 X broadcast: https://x.com/i/broadcasts/1PKqrNyvmYwGb
-- Day 3 X broadcast: https://x.com/i/broadcasts/1YGNrbXEeazGw
-- Public notes on all three days, taken from slides and shared screens: https://github.com/Roenel/Grok-Bot-Galaxy-Notes
-- This desk's own notes on the three broadcasts, taken the same way by a note-taking bot. The broadcasts had no captions, so nothing the speakers said out loud is recorded.
+## Refused
+
+Put one bot in front. This setup already refused that design. A manager bot has to hold every login to route every job, and on one shared computer every other bot then holds those logins too. Bots talking to bots empties the weekly allowance. The middle here is the person with a phone. The helper that reports on the others and backs up their files administers and never routes work.
+
+Extra logins, imported browser cookies, and a bot that merges its own pull request stay refused for the same reason. Whatever is on the shared computer is there for every bot. You merge.
+
+None of the three broadcasts had captions. These notes come from slides and shared screens. Nothing spoken was recorded. The hosts showed no cost figures.
+
+The wiki page is [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]].

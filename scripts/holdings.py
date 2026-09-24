@@ -5,7 +5,7 @@ For each paragraph of a draft, list every definite reference ("the X", "this X",
 "these/those X"), every pronoun, every quoted or capitalised term, and say whether the page
 gave it above. The writer may use in the next paragraph only what the ledger holds.
 
-usage: holdings.py DRAFT.md [--upto N]   (N = check only the first N body paragraphs)
+usage: holdings.py DRAFT.md [--upto N] [--load]   (N = check only the first N body paragraphs; --load turns the overload flag on)
 """
 import re, sys
 
@@ -124,6 +124,12 @@ def relative_count(sentence):
     return n
 
 
+# Owner ruling 2026-09-18: the LOAD flag is off by default. It flagged sentences he had accepted word for
+# word, and writers chopped pages to clear it. Each model has its own instruction set, so a set that still
+# wants the flag passes --load. Claude's set does not.
+LOAD_ON = "--load" in sys.argv
+
+
 def load_hit(sentence):
     """Overload: the sentence asks a reader to hold more than about four things.
 
@@ -228,7 +234,7 @@ def main():
                 tag = f"{pr}→?({', '.join(cands[-3:])})" if len(cands) >= 2 and pr.lower() in ("it","this","that","its") else pr
                 prons.append(tag)
             for w in words(s): para_seen.add(w)
-            load = load_hit(s)
+            load = load_hit(s) if LOAD_ON else None
             if load:
                 wc, nests, rels = load
                 refs.append(f"LOAD [{nests} extra bindings, {wc} words. {LOAD_FIX}]")
@@ -250,7 +256,8 @@ def main():
     print("\nCOUNT = a number of things is mentioned; the things and what each comes to are on the page or the count goes. ANNOUNCES = the sentence says what the page does; it must also say what the page finds. ARGUING = a word about reasoning where the world should be; name the election, the debt, the school day.")
     print("\nNOT GIVEN = a definite reference whose noun never appeared above it on the page. it/this/that followed by →?(…) means more than one noun nearby could be the referent; the writer names it.")
     print("\nSLOP = a sentence people would call AI slop: 'not X but Y' as the next step, or this thing named as the last thing of the same name minus something. Print is the full sentence. Repair: say what this thing is handed, as objects. Do not write the minus.")
-    print("\nLOAD = the sentence asks the reader to hold more than about four things at once. Split it. One next step per sentence.")
+    if LOAD_ON:
+        print("\nLOAD = the sentence asks the reader to hold more than about four things at once. Split it. One next step per sentence.")
 
 
 SELFTEST = [
