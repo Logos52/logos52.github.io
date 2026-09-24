@@ -3,10 +3,11 @@ title: "pstack"
 type: concept
 status: developing
 created: 2026-09-17
-updated: 2026-09-22
-description: ""
-method: page-generator-2026-09-22
-written-by: grok
+updated: 2026-09-24
+description: "A Cursor plugin of playbooks, principles and a verification skill that makes a coding agent prove a change against the running app."
+method: outline-2026-09-24
+written-by: fable
+prose-model: fable
 tags:
   - grok-bot
   - cursor
@@ -16,6 +17,73 @@ tags:
 ---
 
 # pstack
+
+pstack is a plugin for Cursor, a code editor, written by Lauren Tan of SpaceXAI. It gives a coding agent a set of saved working methods: playbooks for common jobs, short principles, and a skill that starts the app being built and saves proof that a change works. A coding agent left alone will often report that a change works when it only compiles.
+
+## Core takeaways
+
+- Proof comes from the running app, never from the agent's claim.
+- `/poteto-mode` is the command to start with: type a goal, and it picks one of twenty-three playbooks and works through that playbook's steps.
+- A skipped step stays in the list with a written reason.
+- `/create-verification-skill` writes a `verify-<app>` skill: one command that drives the real app, plus a Feature Map that lists every feature and how to reach it.
+- The Feature Map goes stale as the app changes, so a daily `/maintain-verification-skill` run keeps it current.
+- `/deslop`, `control-cli` and `control-ui` belong to the Cursor Team Kit plugin, a separate plugin.
+- On this desk the plugin is not installed. The desk keeps the rule behind it: no UI work is called done without a picture from the running app.
+
+## How it works
+
+- Install: `/add-plugin pstack` in Cursor. The same plugin is packed for Grok Bot on its marketplace.
+- Setup: `/setup-pstack` finds which AI models the account can use, maps each role (writing code, judgment, review) to a model, and writes a small always-on rule file.
+- `/poteto-mode`
+  - Reads the goal and matches it to one playbook.
+  - Copies the playbook's steps into the todo list. The first step is always to read the principles index.
+  - Calls other skills as the steps need them: `/how` to learn a subsystem, `/architect` to design, `/tdd`, `/create-verification-skill`.
+  - Stays on for later turns once entered.
+- Playbooks cover: investigation, bug fix, performance, feature, refactoring, prototype, visual parity, eval, shipping, autonomous run, orchestrate, autopilot, session pickup, pause safely, multi-phase plan, worktree cleanup, opening a pull request.
+- Principles: twenty-three short skill files, grouped as core, architecture, verification, delegation and meta. Examples, by name: prove it works; subtract before you add; test behavior, not implementation; attack the premise; never block on the human, present the result and let them correct it after.
+- `/automate-me` reads recent chat transcripts and drafts a `<your-name>-mode` skill from how the person using it has worked.
+- Version 0.15.0 (8 September 2026) cut token use by 3 to 11 percent depending on skills loaded, removed stray semicolons and em dashes, and cut mannered prose from the skill files.
+
+## The verification skill
+
+- `/create-verification-skill` reads the repo for: what kind of thing the app is (web UI, command line, API), the start command, how to drive it, what evidence can be observed, and whether two copies can run apart. It asks the person only what the code does not show.
+- It writes `.cursor/skills/verify-<app>/SKILL.md` with sections Launch, Doctor, Drive, Evidence and Cleanup, plus a features folder with one file per feature, three to five to start.
+- It then proves one feature end to end: launch the app, run the doctor check, drive the feature, save evidence, clean up. Evidence is screenshots, terminal transcripts, response bodies, logs, exit codes or database state.
+- One shared command is better than a script the agent writes fresh each time. A fresh script per agent costs tokens and gives each agent a different check.
+- The Feature Map is written for the agent: what the app has, how to reach each part, keyboard shortcuts. Its index is the order for a full regression sweep.
+
+```
+goal
+  |
+/poteto-mode -> playbook -> steps in todo list
+  |
+change made
+  |
+verify-<app>: launch -> doctor -> drive -> evidence
+  |
+proof saved -> done
+```
+
+## The architect skill
+
+- Ground: run `/how` over the parts of the code the change touches.
+- Sketch: several models each draft a design; at least two distinct candidates; the best candidate is merged into one package.
+- Implement: replace stubs with code. Where the code fights the sketch, the agent notes the mismatch.
+- Scrap: when the fights repeat (workarounds, type escape hatches, shared state), drop the design, redesign from first principles, and go back to Sketch.
+
+## Seen in use at Grok Bot Galaxy
+
+Grok Bot Galaxy was a three-day public livestream in September 2026 where SpaceXAI staff built a browser card game on camera.
+
+- A Cursor Cloud Agent made a `verify-thursday` skill with pstack for that game; pull request 10 merged it, and proof files stayed out of git.
+- Poteto Mode and a `/verify-cupcake` run were shown before a group of agents was allowed to work alone.
+- The architect skill ran four models on a prototype design; the builders skipped the result for the prototype.
+- The full autopilot playbook spawns agents that build and agents that run the code to check it. With `/setup-pstack` at its highest level, a group of agents clicks through the app like users.
+
+## This desk
+
+- Not installed. The desk's Grok Bot bots only report, and have no app to drive.
+- Cursor Cloud Agents on this desk produced a `verify-logos52` skill with a weekday 08:15 maintain routine, in a draft pull request with checks green and unmerged as of 18 September 2026. The owner merges pull requests himself.
 
 ## Related pages
 

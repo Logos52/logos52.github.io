@@ -3,13 +3,13 @@ title: "Agentic Engineering"
 type: hub
 status: developing
 created: 2026-05-02
-updated: 2026-09-22
-method: plain-register-2026-09-13
-prose-model: opus
-written-by: grok
+updated: 2026-09-24
+method: outline-2026-09-24
+prose-model: fable
+written-by: fable
 model: grok
 source-count: 10
-description: ""
+description: "How a person keeps the quality bar when AI agents write the code: the spec, the checks and the sign-off, and where the section's pages sit."
 tags:
   - llm
   - agents
@@ -20,6 +20,45 @@ tags:
 ---
 
 # Agentic Engineering
+
+Agentic engineering is building software with AI agents, programs that run an AI model in a loop to carry out a job, while a person stays answerable for the result. Agents write more code than anyone reads line by line, so agentic engineering settles what the person still does: writing down what to build (the spec), running checks, and signing off.
+
+## Core takeaways
+
+- Vibe coding lets anyone describe an app in plain words and get one that runs. Agentic engineering keeps the old quality bar for professional software while agents make the work faster.
+- The person keeps the spec, the architecture, the taste and the review. The agent takes the syntax, the API details and the repetitive steps.
+- Models are strong where the output can be checked by a machine, such as code and maths, and weak where it cannot. One model can refactor a codebase of 100,000 lines and still give a wrong answer to a simple everyday question.
+- A gap in the spec gets filled by the agent's own scheme. An agent once linked purchases to users by matching the email on the payment account with the email on the login account, which can differ, because no user id had been specified.
+- Proof comes from checks that ran: a build, tests, a picture of the running app. An agent's account of what it did is no proof.
+- In a 2025 METR study, 16 experienced developers took 19% longer on 246 tasks in their own repositories with AI allowed, and afterwards believed they had gone 20% faster, so a felt speedup is no measure.
+- Learn one layer below the one you work at. Every abstraction leaks, and the agent's code gets fixed there.
+
+## How it works
+
+- Write the spec with the agent before any code: what to build, what must not change, the patterns to follow, the edge cases, and how the result will be checked.
+- Hand the agent one bounded job of a few steps with a clear finish. Big work is cut into such jobs.
+- The agent builds, and the person runs the build and the tests and reads the change for edits that were not asked for.
+- Sign-off means the person understands the consequences and puts a name under them, or wrote the check that stands in for reading. It does not require reading every line.
+- A correction the person has made twice goes into a file the agent reads or into a check that fails the build.
+- Never give one agent all three of: private data, content from strangers, and a way to send data out. A model follows instructions it finds in content and cannot tell them from the instructions of the person running it.
+- On the owner's own setup no agent merges code. A Cursor Cloud Agent writes application code on its own isolated machine and the owner merges the change himself.
+
+```
+spec ---> agent builds ---> checks run ---> person signs
+               ^                |
+               +---- fails -----+
+```
+
+## What the section holds
+
+- Rules that stay true, in one line each: Agentic Engineering, Condensed.
+- The looser practice, and apps made from one description: Vibe Coding, A Return to Code.
+- Engineers judged on the machinery they build to make the output, and the size of the change: The AI Industrial Revolution.
+- The person's part and its limits: Understanding Bottleneck, A Motorcycle for the Mind, Working With a Model That Cannot Remember, Interleaving for Complex Problem Solving.
+- The files an agent reads: Context Engineering, Agent-Native Infrastructure.
+- Which computer runs the job: Agent Glossary, Picking a computer, Current Agentic LLM Stack, Grok Bot Primer, Using Grok Bot, Grok Bot Galaxy, Cursor Cloud Agents.
+- Checking the work: pstack, Poteto Paved Path, Red Teaming, Applied Critical Thinking, The Writing Pipeline.
+- Sending cheap work to cheap models: Automatic and Deliberate Work with AI, Essential AI Skills 2026.
 
 ## Related pages
 
