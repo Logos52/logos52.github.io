@@ -2,16 +2,81 @@
 type: concept
 status: developing
 created: 2026-08-11
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-24
+method: outline-2026-09-24
 prose-model: fable
 source-count: 31
+written-by: fable
+description: "Noticing your own self-talk as it runs, what the replay loop costs, and the moves after a catch that hold up in trials."
 tags:
   - mindset
   - self-talk
 ---
 
 # Catching the Inner Voice
+
+Catching the inner voice is the practice of noticing a sentence you say to yourself at the moment it runs, and then choosing what to do with it. Most of that self-talk passes unnoticed, and the part that replays a bad moment costs mood, action and health in proportion to how long it runs, so the practice decides where a few minutes a day of effort go.
+
+## Core takeaways
+
+- Self-talk is speech run silently on the same brain machinery as speaking, so it is trained the way a habit of action is trained.
+- Your own impression of how often you talk to yourself is not evidence. Questionnaires put self-talk in most of the day; random prompts find it in about a quarter of moments.
+- The target is the loop: thinking that keeps replaying distress without producing anything new. Its cost to the body scales with duration.
+- Replacing a critical line with its opposite backfires for people with low self-confidence. Change what the thought does, and leave its truth undecided.
+- A cue rehearsed before the moment works; one invented in the moment works less. The effect is moderate and has held steady across a decade of trials.
+- Before training vigilance, audit the cues. About 43 percent of daily behavior repeats in the same context, so removing a trigger beats catching what it starts.
+- Count behavior, since self-rated awareness measures confidence.
+
+## How it works
+
+- Where the voice comes from
+  - Children talk themselves through hard tasks out loud, in words learned from adults. The talk goes silent and shortens.
+  - Silent self-talk is compressed. One word can stand for a whole argument, so a critical line arrives already condensed and half-verbal.
+  - Saying it aloud or writing it out expands it back into something you can inspect.
+  - Self-directed speech gets louder when a task is hard, which is the moment worth watching.
+- Why it passes unnoticed
+  - The brain sends an advance copy of what it is about to say, matched to content and timing. The line arrives pre-marked as your own and raises no alarm.
+  - Awareness of being off-task comes and goes. A random prompt catches episodes that you never catch yourself.
+- What the loop costs
+  - Replaying distress leaves the quality of your solutions alone and lowers the chance you act on them.
+  - Negative material is processed more thoroughly and held longer than positive material of the same size, so one critical line outweighs one kind line.
+  - Blood pressure, heart rate and stress hormones rise with the minutes spent thinking, so a forty-minute replay of a thirty-second slight is charged for forty minutes.
+  - The loop persists because it feels like problem-solving. The catch cue is noticing that reflection has stopped producing anything new.
+- What a redirect does
+  - A deliberate cue works by moving attention, so a cue that names where to look beats a pep talk.
+  - Switching the question from "why is this happening to me" to "how do I do the next step" changes the mode of thinking without disputing its content.
+  - Speaking to yourself by name instead of "I" lowers reactivity a little. In daily life the name swap paid off only when preparing for something, and did nothing during self-criticism.
+
+```
+line fires --> caught? --no--> loop runs, cost grows by the minute
+                 |
+                yes
+                 |
+   label it --> sort it --> defer or switch mode --> act
+```
+
+## How to do it
+
+- Audit the cues first. List the meeting, hour, app or room where the line fires, and change those before training noticing.
+- Sample instead of recalling. Set random prompts a few times a day and log three things: the situation, the exact wording, what happened next.
+- Write an if-then plan on the exact sentence: "If I catch myself thinking <this line>, then I <this move>." A category such as "negative thoughts" does not fire.
+- Four moves after a catch, each usable on its own:
+  - Label: prefix the line with "I'm having the thought that". Believability and sting both drop without any argument.
+  - Sort: within your control or not. What is not gets dismissed.
+  - Defer: park the loop to a fixed daily window. Most parked items are never collected.
+  - Switch: turn a "why" question into a "how" question.
+- Install a new line by taking it out loud on real occasions, then whispering it, then running it silently. Train it in the situations where the old line fires, since a trained line rarely carries over to other situations.
+- Dose: a daily diary entry about the day's main event, written in the third person, for about a month; or ten minutes a day of focused-attention practice for two weeks. Early gains are large for the most distractible and then flatten.
+- Track counts: how many prompts caught a loop, how many loops got deferred, whether the planned move fired.
+
+## Where it fails
+
+- Inner speech is a spectrum trait. Some adults report almost none, and its measured footprint is on verbal rehearsal, with no effect found on task switching.
+- People explain the causes of their own behavior with confidence and no access. Log what was observable, and treat any explanation of why the line fired as a guess.
+- The numbers are small. Reflecting on a stressor from the outside, by name or from a year ahead, beats reflecting from inside it by a pooled effect of 0.19, with a lower bound near zero. Trained cues sit near 0.47.
+- Talk of "rewiring" descends from a nineteenth-century argument about habit, written without measurement. Attention training has the weakest evidence of all for changing the brain.
+- Whether stopping a thought makes it rebound is contested. One study of three days of trained stopping found no rebound and lower anxiety, so the question stays open.
+- Venting to a sympathetic listener meets the emotional need and leaves the thought unchanged, so venting can deepen the loop.
 
 ## Related pages
 
