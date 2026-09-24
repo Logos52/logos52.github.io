@@ -17,14 +17,14 @@ tags:
 
 # Using Grok Bot
 
-Grok Bot is a desktop app from SpaceXAI. You create a named bot, give it one standing job, and it does that job on a computer in the cloud that keeps running after your laptop is closed. Most first setups fail on one of three things: a login every bot can reach, a usage allowance spent in days, or a routine that reports nothing useful.
+Grok Bot is a desktop app from SpaceXAI. You create a named bot, give it one standing job, and the bot does its job on a cloud computer, which keeps running after your laptop is closed. Every bot on your account shares that one computer and one weekly usage allowance, so what matters is what goes on the computer, how often each routine fires, and what a bot sends back.
 
 ## Core takeaways
 
-- One job per bot. The lasting rules go in the description you write for the bot; today's task goes in the chat.
-- Every bot on the account works on the same cloud computer and can use every login and file on it. Put nothing there that one bot should not be able to reach.
+- One job per bot. Lasting rules go in the description you write for the bot; today's task goes in chat.
+- Every bot on the account works on the same cloud computer and can use every login and file on it. Put nothing there that one bot should not reach.
 - Do a task in chat first. Save it as a skill once it works. Put the skill on a routine only after three manual runs came back right.
-- Usage is one weekly allowance for the whole account. A routine that fires every 15 minutes runs about 100 times a day and can spend the week in days.
+- Usage is one weekly allowance for the whole account, charged per step. A routine that fires every 15 minutes runs about 100 times a day, and two bots each on such a routine used 15% of the allowance in half a day.
 - Keep a bot's output to a file or a short report. Sending, buying, deleting and publishing stay behind approval.
 - Old chat turns get dropped over time. Facts a bot must keep go in a file under /workspace, which survives updates.
 
@@ -48,14 +48,6 @@ Grok Bot is a desktop app from SpaceXAI. You create a named bot, give it one sta
   - Cadence is coarse: three times a week, or daily when there is something new.
   - Reuse a bot you have before you create one. Hiding a bot does not pause its routines; pause them first, then delete.
 
-```
-chat task -> works? -> save as skill -> 3 manual runs
-                                            |
-                              routine on a clock, one bot
-                                            |
-                              file or short report -> you
-```
-
 ## The shared computer
 
 - The account gets one cloud computer. All bots share it. Each bot gets its own screen on that computer, and all screens share the files, the browser and the logins.
@@ -65,10 +57,11 @@ chat task -> works? -> save as skill -> 3 manual runs
 
 ## Usage
 
-- One routine run costs about 0.01% of the week. Two polling bots have used 15% of a week in half a day.
-- A bot that chats with other bots to hand off work spends far more than a bot that writes a file for the next one to read.
-- An open-ended "keep going until done" task can spend the week in one run. Give a task a maximum item count and a stop.
-- Blank replies while the computer preview still works usually mean the week's allowance is gone.
+- The allowance is charged by the steps and tokens a bot uses, not by the message.
+- One routine run uses about 0.01% of the weekly allowance. Two bots polling every 15 minutes used 15% of it in half a day.
+- A bot that hands work to other bots through chat spends far more than a bot that writes a file for the next bot to read. One chat-based handoff setup used a full weekly allowance in hours; the same work through files used about 15% of that.
+- A task told to keep going until done can use a full weekly allowance in one run. The same work in short slices with a maximum item count used 20% with five days of the week left.
+- Blank replies while the computer preview still works usually mean the weekly allowance is gone.
 
 ## When it breaks
 
@@ -82,9 +75,9 @@ chat task -> works? -> save as skill -> 3 manual runs
 
 - Nothing private on the shared computer: no mail, no ads accounts, no store logins, no password manager, no VPN, no card.
 - Bots only report. Work between bots passes through files in a repository, never through a chat.
-- No chief-of-staff bot in front of the others. It would hold every login, and all bots share one computer.
+- No router bot, meaning one bot that takes requests in and hands the work out to the other bots. It would need every login, on a computer every bot already shares, and bot-to-bot chat is the costliest use of the allowance.
 - No bot merges code. Application code is written by a Cursor Cloud Agent on its own isolated machine, and the owner merges the pull request.
-- A new bot is added only when the current reports show a gap.
+- No bot creates other bots. A new bot is created only after the owner says yes, and existing bots are reused first.
 
 ## Related pages
 

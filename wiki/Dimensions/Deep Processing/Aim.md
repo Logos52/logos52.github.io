@@ -3,9 +3,9 @@ title: "Aim"
 type: technique
 status: developing
 created: 2026-05-04
-updated: 2026-09-11
+updated: 2026-09-24
 written-by: fable
-method: plain-rewrite-2026-09-11
+method: outline-2026-09-24
 prose-model: fable
 source-count: 6
 last-audited: 2026-05-07
@@ -13,6 +13,7 @@ aliases:
   - "Aim - Training I"
 merged-from:
   - "Aim - Training I"
+description: "The first pass of the Bear Hunter System: collect a topic's keywords out of order, ask why each matters and how it relates, and sketch a rough backbone."
 tags:
   - learning
   - bhs
@@ -22,6 +23,71 @@ tags:
 ---
 
 # Aim
+
+The Bear Hunter System is the workflow this vault uses to take in a new topic, in three passes. Aim is the first pass. Before reading in depth, the learner lists the topic's main terms and asks two questions of each, so the first structure of the topic comes from a judgment about what matters instead of from the book's headings.
+
+## Core takeaways
+
+- Collect the main terms of the topic fast and out of order, then ask two questions of each: why is this important, and how does it relate to another term.
+- Never ask what something is. Comparing two terms forces you to learn what each one is, with a purpose attached.
+- A single reason for a term is too little. Most terms matter for several reasons, and the question has worked only when it produced several links that were then compared.
+- Hold every grouping as a guess. Certainty this early is a bad sign, and effort spent on a fixed structure makes it costly to break later.
+- Cover the whole topic thinly: the main groups and their links, no details.
+- Aim counts as learning. It goes first, before the class or the reading, even when it gets only ten minutes.
+
+## The steps
+
+- Collect keywords.
+  - Skim every resource: video, slides, book, class notes. A search engine or a model fills gaps.
+  - Write the terms out of the resource's order, so the groups do not copy its headings.
+  - Name a concept or diagram yourself when the resource does not.
+  - A term you cannot guess gets a one-paragraph gloss, then move on.
+  - Most topics of a few chapters or a few weeks of class hold 15 to 30 major terms. About 80 percent of those terms in about 25 minutes is worth more than all of them in two hours. A tool can do this step.
+- Ask the two questions of each keyword.
+  - Why is this important? This pulls the term toward the big picture and forces a judgment about its weight.
+  - How does this relate to another keyword? This finds links the first question misses, because importance gets judged through what you already believe.
+  - Start at the top of the list, since the first terms have nothing to relate to. By the third or fourth term there is enough, and curiosity picks the next one.
+- Hypothesise a structure.
+  - As links appear, sketch possible groups (chunks) and how they connect. This sketch is the backbone.
+  - Several drafts at once, redrawn as later terms change earlier guesses, is what a real Aim looks like.
+  - Stop when the main groups and their main links are on the page. Details belong to the next pass, Shoot.
+
+```
+keywords, out of order
+   |
+   v
+why important?  <-->  how related to X?
+   |
+   v
+several links per term --> compared --> chunks
+   |
+   v
+rough backbone: a guess, no details
+```
+
+## Where it fails
+
+- Importance checklisting: one sentence per term, then on to the next. No comparison, so no chunk.
+- Finding links but never comparing them. Chunks form when links are set against each other: similar, different, more or less important.
+- Writing a paragraph under each question. A linear answer narrows the open links back to one line.
+- Groups copied from the book. The book's grouping usually beats a random one, but the learner regroups most of the time so the structure fits what they already know. Test: if the only way to hold a group is to memorise its members, relabel or regroup.
+- Starting before the earlier skills are solid. Aim needs comfortable practice with comparing ideas, non-linear notes, and the drill of writing questions before reading and answering them after (the traffic light drill). Without that practice the pass produces noise.
+
+## How it feels
+
+| Feeling | What is happening |
+|---|---|
+| Overwhelmed by the number of links | A network of possible links is forming for you to refine |
+| Confused about which structure to pick | Prioritising and evaluating, the highest order of thinking |
+| Slow, each term takes long | Deep examination; it fades as speed grows |
+| Easy | Usually the technique is not being applied to standard |
+
+## When to aim
+
+- Prestudy is study done before a class or lecture; it settles when learning starts. Aim is what to do with that time.
+- Five or ten minutes of prestudy buys a superficial Aim: the largest groups and their main links. More time buys a full Aim and part of Shoot.
+- Aim after the class, with no prestudy, still works. It is the messiest order. Class notes become one more resource.
+- Aim inside an intensive lecture is hard; the thinking does not fit a lecture's pace.
 
 ## Related pages
 

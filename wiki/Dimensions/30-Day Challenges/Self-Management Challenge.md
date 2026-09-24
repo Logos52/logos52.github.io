@@ -55,7 +55,7 @@ A month-long practice plan for the conditions a working day runs on: sleep, room
 ```
 Week 1      Week 2       Week 3        Week 4
 log    ->   one change -> perfect day -> strip
-baseline    read it      find cracks   find floor
+baseline    read it      see failures  find minimum
 ```
 
 ## Why the last set holds
@@ -67,7 +67,7 @@ Habits run on cues from the surroundings and survive as long as the surroundings
 - Week 2 with five changes at once. Nothing can be read; return to one.
 - Week 3 pressure without a written plan tests nothing. Write the day first.
 - Week 4 that never strips has turned into a permanent tracking project. Tracking is a week 1 tool, and most of it should be gone by the end.
-- In each case the move is the same week again, not the next one.
+- In each case, run the same week again before moving on.
 
 ## Where it sits
 

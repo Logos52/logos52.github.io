@@ -26,13 +26,13 @@ tags:
 
 # Grok Bot Primer
 
-Grok Bot is a desktop app from SpaceXAI. You create named bots, give each one a standing job, and they work on a computer in the cloud that keeps running when the laptop is shut. This desk staffs it around three facts about the product: every bot on the account shares that one computer and its logins, usage is a weekly allowance for the whole account, and the owner reads what a bot produces before anything leaves the account.
+Grok Bot is a desktop app from SpaceXAI. You create named bots, give each one a standing job, and they work on a computer in the cloud that keeps running when the laptop is shut. This desk's setup follows three facts about the product: every bot on an account shares that one computer and its logins, usage is a weekly allowance for the whole account, and the owner reads what a bot produces before anything leaves the account.
 
 ## Core takeaways
 
 - All bots on an account share one cloud computer, its files and its logins, so a site one bot logged into is open to every other bot.
-- Usage is a weekly allowance for the whole account; a bot that polls often or chats at length can spend the week in hours.
-- One bot gets one job, written in its description; the maker's docs name "General Helper" as the setup to avoid.
+- Usage is a weekly allowance for the whole account; a bot that polls often or chats at length can use the whole allowance in hours.
+- One bot gets one job, written in its description; a catch-all helper is the setup to avoid.
 - A bot prepares and the owner approves anything that leaves the account: a send, a purchase, a delete, a publish, a change to a live system.
 - On this desk every bot reads public material only and ends its run by writing a file the owner reads.
 - Application code is written by a Cursor Cloud Agent, a coding agent that works on its own isolated machine, and the owner merges the result himself.
@@ -40,9 +40,9 @@ Grok Bot is a desktop app from SpaceXAI. You create named bots, give each one a 
 ## How it works
 
 - The computer
-  - One cloud computer per user, not per bot. Deleting a bot does not clear its files or logins from that computer.
-  - Files in the shared folder /workspace stay across product updates; packages installed on the computer wipe on an update.
-  - When a bot meets a login, a two-factor prompt, a captcha or a payment, it hands the screen to the owner and takes it back after.
+  - One cloud computer per user, not per bot. Deleting a bot removes its profile, its chat and its routines; its files and logins stay on that computer.
+  - Files in a shared folder named /workspace stay across product updates; packages installed on the computer are wiped by an update.
+  - At a login, a two-factor prompt, a captcha or a payment, the bot hands the screen to the owner and takes it back after. A password goes through a masked form, never the chat.
 - A bot
   - A name, a description and a memory.
   - Lasting rules go in the description; today's task goes in the chat.
@@ -54,12 +54,12 @@ Grok Bot is a desktop app from SpaceXAI. You create named bots, give each one a 
   - "Teach a task" records the screen for up to ten minutes, no microphone, and gives a draft skill that still needs its rules and its approval points added by hand.
   - "Test run" on a routine does real work. One bot holds at most fifty routines. Routines may pause after a long period away from the app.
 - The allowance
-  - Each routine run spends some of the week. A routine every 15 minutes is about 100 runs a day.
-  - Two polling bots have used 15% of a week in half a day; a bot that chatted all day burned a week in hours.
+  - Each routine run uses a small part of the weekly allowance. A routine every 15 minutes is about 100 runs a day.
+  - Two polling bots used 15% of a week's allowance in half a day. A bot that chatted all day used the whole allowance in hours.
   - A long chat makes every routine on that bot cost more, so recurring work goes on a fresh bot.
   - A routine reports exceptions only; an hourly routine that finds nothing becomes a weekly one.
 - Approval
-  - The app asks before a send, a purchase, a delete, a publish, or a production change.
+  - The app asks before a send, a purchase, a delete, a publish, or a change to a live system.
   - A first task says what should be finished, which sources the bot may use, what limits it works under, what it hands back, and where it stops for review.
 
 ```
@@ -72,24 +72,28 @@ task in chat ---worked---> skill ---on a clock---> routine
                                         the owner reads it
 ```
 
-## How this desk runs it
+## Desk rules
 
 - Bots only report. Work between bots passes through files in a repository, never through a chat.
 - Only public material goes on the shared computer: no mail, no ads accounts, no store logins, no password manager, no VPN, no card.
 - Approval stays on for anything that leaves the account. No bot merges code; the owner merges each pull request himself.
-- No chief-of-staff bot, one bot that takes every request and passes it to the others: a bot in front would hold every login, and all bots share one computer. No manager bots over engineer bots, for the same reason.
-- No overnight factory of pull requests: the weekly allowance and a person reading each change decide how many changes ship.
-- A new bot is added only when the current reports show a gap. The playbooks from the maker's own staff run a chief of staff on mail and calendar and put mail, ads and store logins on the shared computer; this desk does not copy them.
-- Watch writes one file per run. Brief sweeps public sources and files what it finds. Steward is the report-and-backup bot and does not route work.
+- No chief-of-staff bot, one bot that takes every request and passes it to the others. No manager bots over engineer bots.
+- No unattended run that opens pull requests overnight. How many changes ship is limited by the weekly allowance and by the owner reading each change.
+- A new bot is added only when the current reports show a gap. SpaceXAI publishes playbooks that run a chief of staff on mail and calendar and put mail, ads and store logins on the shared computer; this desk does not copy them.
+- Three bots on this desk hold standing jobs:
+  - Watch runs checks on public sites, writes one file per run and reports only when something changed. A day with nothing to report is normal.
+  - Brief sweeps public sources each morning and files one brief, exceptions first.
+  - Steward reports weekly allowance use and routine health, one line per bot, and makes backups. It does not hand out work.
 - Roster: 9 bots on 25 August 2026, 18 by 18 September 2026.
 
 ## Where it fails
 
-- Scheduled writing drifts generic within weeks unless the owner keeps reading it; each bot gets a freshness check and a review date, and a bot is retired when its output stops changing what the owner reads or does.
-- An unwatched bot can degrade while reporting success, so a run that ends with a success message still needs its file checked.
-- A bot's memory is not the record; a fact that changes stays in the system it came from. The built-in memory write failed for a stretch in September 2026, and people kept notes as files instead.
-- Field faults on a first run: "can't reach your computer" was a bot name over 255 characters; endless Reconnecting was missing paid access; blank replies with a working computer preview was a spent week.
-- The maker's troubleshooting order is retry, restart, Recover, Update, then Reset last. Recover and Update keep files and logins; Reset puts the computer back to its last saved copy.
+- Scheduled writing turns generic within weeks unless the owner keeps reading it. Each bot gets a freshness check and a review date, and a bot is retired when its output stops changing what the owner reads or does.
+- A bot left unwatched can fail while still reporting success, so a run that ends with a success message still needs its file checked.
+- A bot's memory does not replace the system a fact came from; a fact that changes is read from that system each time. Safety rules go in the description.
+- The built-in memory write failed for a stretch in September 2026.
+- First-run faults reported by other users: a "can't reach your computer" message was a bot name over 255 characters; others were missing paid access and a used-up weekly allowance.
+- Troubleshooting order: retry, restart, Recover, Update, then Reset last. Recover and Update keep files and logins; Reset puts the computer back to its last saved copy.
 
 ## Related pages
 

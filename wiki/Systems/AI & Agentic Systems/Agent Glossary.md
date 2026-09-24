@@ -42,8 +42,8 @@ An agent is a language model run in a loop: it plans a step, calls a tool, reads
 
 - Every product name labels one of three jobs: the window a person types into, the loop that plans and calls tools, or the computer where the commands run.
 - Pick a model for depth, cost and context size. Pick a product for what the model may touch and whose computer runs it.
-- Before choosing, ask who the user of this run is and whose computer does the work. A job that can be written down in full can leave the laptop. A job that needs what is on the screen right now stays local.
-- Same-name products differ by computer: Claude Managed Agents is a hosted runtime and a managed subagent is a file inside Claude Code; Codex CLI is local and Codex cloud is remote; Grok /goal and Cursor /goal share a slash and nothing else.
+- Before choosing, ask who will use the run and whose computer does the work. When the whole job is written down, it can run on a remote machine. When the job needs what is on the screen right now, it runs on the laptop.
+- Products that share a name often differ by computer or by job: Claude Managed Agents is a hosted runtime and a managed subagent is a file inside Claude Code; Codex CLI is local and Codex cloud is remote; Grok /goal is a local loop and Cursor /goal is an objective given to a remote agent.
 - This desk runs on subscriptions and local hardware. Claude Managed Agents, the Agent SDK and the Messages API, the raw per-token interface to the model, all bill per token, so none of them holds a seat here (ruled 2026-08-28).
 - A term stays a heading here until its blurb outgrows a paragraph and this desk uses the product.
 
@@ -57,18 +57,18 @@ An agent is a language model run in a loop: it plans a step, calls a tool, reads
                    repeats             cloud machine
 ```
 
-- Window: the chat app, Slack, a Vercel Chat SDK bot, an editor pane. It is who the person talks to, not the worker.
+- Window: the chat app, Slack, a Vercel Chat SDK bot, an editor pane. The person types here and reads the reply here. The window does no work of its own.
 - Loop: Claude Code, Grok Build, Cursor Agent, Managed Agents. It plans, calls tools, feeds results back, and stops when the job ends or waits for a person.
-- Computer: the laptop, an Anthropic sandbox, a Cursor VM, a GitHub Actions runner, Grok Bot's shared cloud machine. Damage from a bad command or a planted instruction lands here.
+- Computer: the laptop, an Anthropic sandbox, a Cursor VM, a GitHub Actions runner, Grok Bot's shared cloud machine. A bad command or a planted instruction does its damage on this computer, so the choice of computer sets how far a mistake can reach.
 
 ## Shared terms
 
 - Model: the program that reads text and writes the next action. It cannot open a file or post a message on its own.
 - Tool: a named action the model asks for, such as run a command or read a file. The loop runs it or asks a person first.
-- Harness: everything around the model: tools, system prompt, permissions, retries, sandbox. The model can be swapped; the harness is the product you operate.
+- Harness: everything around the model: tools, system prompt, permissions, retries, sandbox. Claude Code, Grok Build, Cursor and Managed Agents are each a harness, and a harness can run more than one model.
 - Sandbox: an isolated machine or container where tool calls run, so a bad command has a limited reach. A local agent's sandbox is still the laptop.
 - Session: one run and its history. Memory: what should still be true in the next session. Compaction: an automatic summary when the context window fills, so early detail is lost unless it was written to a file.
-- MCP: a standard plug for reaching an outside system such as GitHub or Slack. Skill: a written procedure loaded when the task matches. Hook: code that runs at a fixed point, before a command or after an edit, without the model deciding.
+- MCP: a standard plug for reaching an outside system such as GitHub or Slack. Skill: a written procedure loaded when a task matches it. Hook: code that runs at a fixed point, before a command or after an edit, without the model deciding.
 - Subagent: a fresh worker with its own context window that hands a summary back. It costs extra tokens and is not automatically parallel.
 - Computer use: the agent driving a screen with mouse and keyboard. Slower and more fragile than a tool call; use it when the system has no API.
 
@@ -83,9 +83,9 @@ An agent is a language model run in a loop: it plans a step, calls a tool, reads
 | Claude Managed Agents | Anthropic's hosted runtime and sandbox, per token plus session-hours | you ship an agent to other people |
 | Cursor Agent mode | the laptop, editor pane | the task needs what is on your screen |
 | Cursor Cloud Agents | an isolated Cursor VM per job, hands back a pull request | the task is fully written down and the laptop can close |
-| Grok 4.6 | it is the model, not a worker | called from Grok Build or Cursor |
+| Grok 4.6 | none, this row is a model | choosing the model inside Grok Build or Cursor |
 | Grok Build | the laptop, terminal | a scoped loop checked by a compiler, test or diff |
-| Grok Bot | one shared cloud computer per account, keeps running | standing watch, fetch and file on public material |
+| Grok Bot | one shared cloud computer per account, keeps running | a scheduled job or a monitor that fetches and files public material |
 | Codex CLI | the laptop, terminal | same slot as Claude Code |
 | Codex cloud | isolated OpenAI cloud environments, returns a diff | same slot as Cursor Cloud Agents |
 | Copilot cloud agent | a GitHub Actions runner, 59 minutes per session | the work already lives as a GitHub issue |
@@ -106,8 +106,8 @@ Cursor Cloud Agents, Codex cloud, Copilot cloud agent and Devin Cloud do one job
 
 ## On this desk
 
-- Grok Bot bots only report; work passes between them as files in a repository, and only public material goes on the shared cloud computer.
-- Application code is written by a Cursor Cloud Agent on its own machine, and the owner merges the pull request. No bot merges.
+- Grok Bot bots only report. Work passes between them as files in a repository, and only public material goes on the shared cloud computer.
+- Application code is written by a Cursor Cloud Agent on its own machine. The owner merges the pull request, and no bot has the right to merge.
 - One writer per tree. Two agents editing the same files failed on 12 June 2026, and Grok Build's worktree isolation exists for two writers on one tree.
 - The dated seat roster lives on Current Agentic LLM Stack.
 

@@ -22,13 +22,13 @@ pstack is a plugin for Cursor, a code editor, written by Lauren Tan of SpaceXAI.
 
 ## Core takeaways
 
-- Proof comes from the running app, never from the agent's claim.
-- `/poteto-mode` is the command to start with: type a goal, and it picks one of twenty-three playbooks and works through that playbook's steps.
+- A change counts as working when the running app shows it, and the agent saves what it saw: a screenshot, a log, a response body or an exit code.
+- Work starts with `/poteto-mode`: type a goal, and it picks one of twenty-three playbooks and follows its steps.
 - A skipped step stays in the list with a written reason.
-- `/create-verification-skill` writes a `verify-<app>` skill: one command that drives the real app, plus a Feature Map that lists every feature and how to reach it.
+- `/create-verification-skill` writes a `verify-<app>` skill: one command to drive the real app, plus a Feature Map that lists every feature and how to reach it.
 - The Feature Map goes stale as the app changes, so a daily `/maintain-verification-skill` run keeps it current.
 - `/deslop`, `control-cli` and `control-ui` belong to the Cursor Team Kit plugin, a separate plugin.
-- On this desk the plugin is not installed. The desk keeps the rule behind it: no UI work is called done without a picture from the running app.
+- This desk keeps the plugin's main rule without the plugin: no UI work is called done without a picture from the running app.
 
 ## How it works
 
@@ -67,17 +67,17 @@ proof saved -> done
 ## The architect skill
 
 - Ground: run `/how` over the parts of the code the change touches.
-- Sketch: several models each draft a design; at least two distinct candidates; the best candidate is merged into one package.
-- Implement: replace stubs with code. Where the code fights the sketch, the agent notes the mismatch.
-- Scrap: when the fights repeat (workarounds, type escape hatches, shared state), drop the design, redesign from first principles, and go back to Sketch.
+- Sketch: several models each draft a design; at least two distinct candidates; the best of them is merged into one package.
+- Implement: replace stubs with code. Where the code does not match the sketch, the agent writes the mismatch down.
+- Scrap: when the same kind of mismatch keeps coming back (workarounds, type escape hatches, shared state), drop the design, redesign from first principles, and go back to Sketch.
 
-## Seen in use at Grok Bot Galaxy
+## At Grok Bot Galaxy
 
-Grok Bot Galaxy was a three-day public livestream in September 2026 where SpaceXAI staff built a browser card game on camera.
+Grok Bot Galaxy was a public livestream by SpaceXAI, 15 to 17 September 2026, in which three SpaceXAI staff built a company on camera over three days. The company, Ship by Thursday, changed product twice: software for running a food pop-up on the first day, then a browser card game, launched on the third day as Thursday Arena.
 
-- A Cursor Cloud Agent made a `verify-thursday` skill with pstack for that game; pull request 10 merged it, and proof files stayed out of git.
-- Poteto Mode and a `/verify-cupcake` run were shown before a group of agents was allowed to work alone.
-- The architect skill ran four models on a prototype design; the builders skipped the result for the prototype.
+- Day 1: a Cursor Cloud Agent, a coding agent on its own virtual machine that opens pull requests, used pstack to make a `verify-thursday` skill for the pop-up software. Pull request 10 merged it. The three staff ruled that proof files stay on disk and out of git.
+- Day 2: Poteto Mode and a `/verify-cupcake` run were shown before a group of agents was allowed to work alone.
+- Day 2: the architect skill ran four models on a prototype design for the game; the staff skipped the result for the prototype.
 - The full autopilot playbook spawns agents that build and agents that run the code to check it. With `/setup-pstack` at its highest level, a group of agents clicks through the app like users.
 
 ## This desk

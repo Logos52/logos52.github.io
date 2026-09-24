@@ -3,12 +3,12 @@ title: "Mindmaps"
 type: technique
 status: developing
 created: 2026-05-14
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-24
+method: outline-2026-09-24
 prose-model: fable
-written-by: grok
+written-by: fable
 model: grok
-description: ""
+description: "Why building a mindmap feels slow and confusing, why that effort is what stores knowledge, and how to build and check one in layers."
 aliases:
   - Non-Linear Note-Making
   - Live Learning Events
@@ -28,6 +28,63 @@ tags:
 ---
 
 # Mindmaps
+
+A mindmap is a page of short keywords placed in space and joined by lines that show how the ideas cause, need or contain each other. Making one is slower and more confusing than writing normal notes, and that is the part that builds lasting memory, so a reader who expects the discomfort can keep going where most people quit.
+
+## Core takeaways
+
+- The map itself is a by-product. The thinking needed to place and link each idea is what stores the knowledge, so a copied or downloaded map gives almost nothing.
+- Normal notes feel like learning: understanding, progress, speed. Those feelings are a poor guide to what you can later recall or use.
+- Mapping feels confusing and slow because each idea needs decisions about position, links and direction. That effort is what stores the knowledge.
+- A messy map shows that the knowledge is messy. Cleaning it up is where the structure forms.
+- If mapping feels no different from normal notes, the map is a list in disguise: ideas in source order with few links.
+- Build in layers: the main cause-and-effect logic first, then concepts, then only the details that help a concept make sense.
+- Draw a link only where a real cause-and-effect relation exists, and draw only the links that matter.
+
+## How it works
+
+- Input arrives in a line: a book, a lecture, a video, one word after another.
+- Linear notes keep that order and only shorten it. The brain rewards this with a feeling of fluency.
+- A map breaks the order. Each idea needs a place on the page, its links, their direction, and a short label.
+- Those extra decisions force retrieval of what came before and comparison with what came after.
+- New facts fade fast unless they attach to a network of things already known. Linking on paper is how a fact attaches.
+- Each fact attached becomes an anchor for the next, so later facts in the same field land faster.
+- Arranging and re-arranging the page also stores position and shape, an extra memory cue.
+
+```
+ source (linear)      normal notes        map
+ A B C D  ------->    a b c d   feels     A--B
+                      (shorter)  fluent    | /
+                                           C--D  feels slow,
+                                                 confusing
+```
+
+## How to do it
+
+- Hold two questions while reading: why does this matter, and how does it relate to the rest.
+- Decide the relations before writing content. Arrows added afterwards, crossing through words, are the sign that relations were an afterthought.
+- Layer 1: the few core points and the main flow between them. Layer 2: the concepts that hang off them. Layer 3: details that make a concept concrete. Facts with no connection do not go on the map; they go to flashcards.
+- Group ideas by why they matter, not by the headings the source used. The first grouping is rarely the simplest; assume a better one exists and look for it.
+- Expect a tangled first draft. Redraw it: pull apart crossing lines, regroup, give ideas room.
+- A tangle that will not untangle is a cue to regroup around a different central idea.
+- Use few words, your own shorthand, and simple symbols. Do not copy a diagram from the source; drawing it yourself is the processing.
+- Make the main path visibly bigger or thicker than the rest so the eye knows where to go.
+- Test yourself from the map. An error found means the map gets redrawn.
+- Practical: unlined paper, a page large enough that the links stay visible, drawn by hand until the skill is fluent.
+
+## Where it fails
+
+- Hub and spokes: good groups, but every line runs from the centre and none run sideways between groups.
+- Reverse causality: an item explained by what it produces rather than by what gives rise to it. It sits isolated, and everything downstream must be memorised by rote.
+- Too many arrows: every relation drawn, so none can be read. Draw only the ones that matter.
+- The list in disguise: source order kept, links few, no confusion felt. Ask how else the ideas could be arranged and which real relations are still undrawn.
+- Quitting at the confusion. The confusion is the map showing what is not yet organised.
+
+## Evidence
+
+- A meta-analysis of 55 studies found learner-built concept maps beat conventional study, with a moderate effect, larger when learners build the map than when they study a provided one.
+- Experts sort problems by underlying principle, novices by surface features; grouping by why something matters is the expert habit made explicit.
+- Handwriting did not beat typing for notes once the study was repeated. What held: notes that copy the source word for word retain less, and a map cannot be word for word.
 
 ## Related pages
 

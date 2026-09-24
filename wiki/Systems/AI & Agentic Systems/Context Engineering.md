@@ -4,11 +4,11 @@ type: concept
 status: developing
 created: 2026-05-02
 updated: 2026-09-24
-written-by: fable
+written-by: opus
 model: grok
 source-count: 2
 method: outline-2026-09-24
-prose-model: fable
+prose-model: opus
 aliases:
   - Software 3.0
   - LLM Knowledge Systems
@@ -29,44 +29,44 @@ tags:
 
 # Context Engineering
 
-Context engineering is choosing what text a language model sees before it works on the next step. The model can only use what is in front of it, so that choice decides the quality of the answer more than the wording of the request does.
+Context engineering is choosing which text a language model is given before each step of a task. A model can use only the text it is given, so choosing that text improves its answers more than rewording a request does.
 
 ## Core takeaways
 
-- A model works from one fixed window of text. Everything it should use has to be in that window, and everything in the window competes for its attention.
-- The job is selection. Put in what the next step needs and leave the rest out. Too much lowers accuracy; too little leaves the model guessing.
+- A model works from one fixed window of text. Everything it should use has to be in that window, and everything in the window takes some of its attention.
+- Put in what the next step needs and leave everything else out. Material that has nothing to do with the step lowers accuracy.
 - The files a model reads at the start of a session are its program. A rules file, an index and a log shape what the next session does.
 - Read the index first, then open only what the question needs. Do not paste in everything.
-- A wider window does not cure forgetting. A place to look facts up does more than a bigger pile of text.
-- Stop when a session is all sorting and no thinking.
+- When an agent forgets a fact, a longer window does not help. The fact needs to be written down somewhere the agent can look it up.
+- A session spent organizing notes with no step that uses them is a signal to stop.
 
 ## How it works
 
 - The window
   - Each request and reply is chopped into tokens, small chunks of text, and added to one running sequence. That sequence is the context window.
-  - The window is the model's working memory. What is in it is directly usable. What is not in it is unknown to the model, apart from what it absorbed in training.
+  - The window is the model's working memory. Apart from what it learned in training, the model knows only what the window holds.
   - Starting a new chat empties the window.
 - What goes in
-  - The task, examples, files, retrieved pages, tool results and the conversation so far all take space in the same window.
+  - A task description, examples, files, retrieved pages, tool results and everything already said in the session all take space in the same window.
   - Tools write into the window too. A web search drops page text in. An uploaded document is converted to text and dropped in.
 - What a full window costs
-  - Accuracy falls when the window holds material that does not bear on the step.
+  - Accuracy falls when the window holds material that has nothing to do with the step.
   - Each new token costs a little more to produce as the window grows.
   - Position matters. A model uses material at the start and end of a long window more reliably than material in the middle (Liu and others, "Lost in the Middle", 2023).
-- Why the name
+- Where the term comes from
   - Andrej Karpathy's numbering: Software 1.0 is code written by hand. Software 2.0 is weights learned from data. Software 3.0 is text a model reads and acts on, so the text in the window is the program.
-  - The term "context engineering" spread in June 2025 as a replacement for "prompt engineering". A prompt sounds like one line typed into a chat box. The real work is assembling everything the model needs for the task to be solvable: the task, examples, retrieved documents, tools, state and history.
+  - People started saying "context engineering" in June 2025 as a replacement for "prompt engineering". A prompt sounds like one line typed into a chat box. The real work is assembling everything the model needs for the task to be solvable: the task, examples, retrieved documents, tools, state and history.
 
 ## Examples
 
-- Installing a program. The old form is a shell script that grows as it handles more kinds of machine. The new form is a block of instructions pasted to an agent, which looks at the machine, runs the steps and fixes what breaks.
+- Installing a program. A shell script that grows with each kind of machine it must handle can be replaced by a block of instructions pasted to an agent. The agent checks the machine it is running on, runs the steps and fixes what breaks.
 - Menu pictures. An app that took a photo of a restaurant menu and fetched a picture of each dish can be replaced by handing the photo to a model with one instruction. The app in between did work the model does on its own.
 - A knowledge base. A model can read a pile of documents and recompile them into a linked wiki. No hand-written code could do that before.
 
-## How this desk does it
+## On this desk
 
-- Three files program the next session: a rules file the model reads first, an index that lists every page with one line each, and a dated log of what was done.
-- On a question or an ingest, the model reads the index first, then opens only the pages it needs. This works without a search engine up to a few hundred pages.
+- The wiki on this desk is a folder of markdown pages. Three files program the next session: a rules file the model reads first, an index with one line for each page in the folder, and a dated log of what was done.
+- When a question comes in, or a new source is added to the folder, the model reads the index first, then opens only the pages it needs. This works without a search engine up to a few hundred pages.
 
 ```
 question
@@ -82,15 +82,15 @@ answer, then a line in the log
 ```
 
 - Habits that keep the window small: summaries stay short; related pages are linked; each page carries where its facts came from; a repeated output becomes a skill or a spec; a stale claim is audited, since a wrong sentence in the window is read as fact.
-- The handles a model has on a folder of markdown files: the index, backlinks, filenames and text search. Organization does the retrieval work.
-- The test of a good setup: the next thinking step has less friction. The next action is obvious, and nothing had to be dumped in wholesale.
+- A page in the folder can be found in four ways: the index, a backlink from another page, its filename, or text search. Up to a few hundred pages, these four do the job a search engine would do.
+- A setup passes when what to do next is obvious from what the model has read, and no whole folder had to be pasted in to get there.
 
 ## Where it fails
 
 - Stuffing. Pasting everything in gives worse answers than picking the pages the question needs.
 - Sorting instead of using. A session spent organizing notes with no thinking step is a signal to stop and ask what question the notes were for.
 - Blaming the model. When an answer is bad, check what was in the window before deciding the model is weak.
-- A bigger window. Piling on history does not let the model find the one line that matters. When an agent forgets, check in order: was the fact ever captured; did it survive compression of the conversation; can it be looked up across conversations; did it surface for this step; did the task say why it matters.
+- A bigger window. Piling on history does not let the model find the one line that matters. When an agent forgets, check in order: was the fact ever captured; did it survive when a long conversation was compressed; can it be looked up across conversations; did it surface for this step; did the task say why it matters.
 
 ## Related pages
 

@@ -82,7 +82,7 @@ demand
 - Obvious links go uncertain in week 3. The uncertainty comes from noticing variables that were ignored before, and that noticing is what strengthens the network. Full certainty is never available; decide on the best reading within the three minutes.
 - A value will not settle. Explain the relation twice, once in detail and once in a sentence a stranger would follow; the one that holds decides.
 - Relating does not replace learning each item on its own. Both are needed.
-- The tally never falls and the effort never eases. The habit is not landing; run week 4 again. Rereading harder is the isolated mode again.
+- The tally never falls and the effort never eases. The habit is not landing, and rereading harder is the isolated mode again.
 
 ## Related pages
 
