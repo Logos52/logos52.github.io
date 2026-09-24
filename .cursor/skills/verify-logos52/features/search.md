@@ -28,7 +28,6 @@ Do not stub `/pagefind/pagefind.js`. If the dropdown says `Search index loadingâ
 ## Gotchas
 
 - Pagefind is emitted at `dist/pagefind/` on `astro build`. `predev` runs `scripts/ensure-pagefind.mjs`, which builds the whole site when that file is missing. A fresh checkout's first `npm run dev` is slow; search before that build finishes is empty/loading.
-- On this tree `esc()` runs over Pagefind's excerpt HTML, so a row's `.kb-ac-ex` can show the characters `<mark>`. `origin/main` keeps the marks as HTML and drops a leading title restatement. Visible `<mark>` text is a product gap on this branch. Record it. Do not patch `search-inline.ts` from this skill, and do not treat it as a failed search.
 - Vite must not bundle `/pagefind/pagefind.js` (see `astro.config.ts` `external-pagefind`). A transform-time import error is a product/setup bug.
 - Results cap at eight. Keyboard highlight class is `.kb-ac-row.on`.
 - A row's domain/path label can show `AI & Agentic Systems`. The live note URL uses `slugifyFilePath` (`AI--and--Agentic-Systems`, spaces around `&`). Assert `h1.kb-note-title`, not a hyphen count in the address bar.
