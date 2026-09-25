@@ -129,5 +129,10 @@ http_ok() {
 page_has_marker() {
   local path="$1"
   local marker="$2"
-  curl -sS --max-time 8 "${BASE_URL}${path}" 2>/dev/null | grep -q "${marker}"
+  # Read the body before matching. `grep -q` exits at the first hit and
+  # SIGPIPEs curl (exit 23). Under pipefail that looks like a missing marker
+  # even when the page is fine — doctor then refuses a healthy instance.
+  local html
+  html="$(curl -sS --max-time 8 "${BASE_URL}${path}" 2>/dev/null || true)"
+  [[ -n "${html}" && "${html}" == *"${marker}"* ]]
 }
