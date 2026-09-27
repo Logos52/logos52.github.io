@@ -3,10 +3,11 @@ title: "The Wound and the Lie"
 type: technique
 status: developing
 created: 2026-07-09
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
-written-by: fable
+updated: 2026-09-27
+method: outline-2026-09-27
+prose-model: fable
+written-by: opus
+description: "The past event, the pain and the false belief behind a character's arc, and how each scene should press on them."
 tags:
   - character
   - arc
@@ -15,6 +16,53 @@ tags:
 ---
 
 # The Wound and the Lie
+
+The wound and the lie are the two pieces of backstory that drive a character's arc. An event in the past, which writers call the ghost, left a pain called the wound, and the character came away believing something false, the lie, which protects them from that pain. A writer who names the event and the false belief knows what every scene has to press on and what the character must face before the end.
+
+## Core takeaways
+
+- A ghost is a past event, and a mood cannot be one.
+- The wound is the pain that event still causes.
+- The lie is the false belief that shields against that pain.
+- The goal the character chases, the want, serves the lie.
+- What the character needs is to give the lie up.
+- Every scene should press on the lie in some way.
+- The climax forces a choice between the want and the need.
+
+## How it works
+
+K. M. Weiland lays the sequence out in order, using John Truby's word ghost for the event. In A Christmas Carol, Scrooge's father left him at boarding school as a child, and that is the ghost. The pain of being unloved is the wound, and the belief that a man's worth is his money is the lie. His cruelty to the poor is the weakness the lie produces, and it hurts him and everyone near him.
+
+- Ghost: the event from the past that still haunts the character.
+- Wound: the pain the event leaves in the present.
+- Lie: the belief adopted to avoid that pain.
+- Weakness: the behaviour that belief produces.
+- Want: the outer goal the character chases, shaped by the lie.
+- Need: the truth that would free them, usually the lie reversed.
+
+```
+ghost --> wound --> lie --> weakness
+ event     pain    belief   behaviour
+                     |
+            want (serves the lie)  vs  need (the truth)
+```
+
+## Three ways the arc can end
+
+The gap between the lie and the truth can close in three ways. In a change arc the character gives up the lie and ends better off. In a flat arc the character already holds the truth and changes the people around them instead. In a negative arc the character keeps the lie or trades it for a worse one and ends in ruin. Michael Hauge describes the same movement as wound, belief, fear, identity, and finally essence, the self the character becomes when the identity is dropped.
+
+- Change arc: the lie breaks and the need is met.
+- Flat arc: the truth holds and the world changes.
+- Negative arc: the lie wins and the character is ruined.
+
+## Showing it on the page
+
+The lie should rarely be spoken aloud, because a character who could name it would already be free of it. Robert McKee splits dialogue into the said, the unsaid and the unsayable, and the lie belongs in the last two. He also holds that true character is revealed by choices under pressure, and the greater the pressure, the deeper the revelation. E. M. Forster's test for a round character, one capable of surprising in a convincing way, applies here: the surprise is the moment the character acts against the lie.
+
+- Give each character a way of speaking only they have.
+- Carry the need through objects and gestures when words fail.
+- Plant the ghost early so a late crisis hits a known nerve.
+- Test each scene: does it press on the false belief.
 
 ## Related pages
 

@@ -3,11 +3,12 @@ title: "The Accretion Frame"
 type: concept
 status: draft
 created: 2026-07-21
-updated: 2026-09-13
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: grok
+written-by: opus
 model: grok
+description: "Keeping exercise or any practice going through a record that grows and survives breaks, in place of streaks, daily targets and willpower."
 tags:
   - motivation
   - fitness
@@ -17,6 +18,57 @@ tags:
 ---
 
 # The Accretion Frame
+
+The accretion frame is a way to keep a practice such as exercise going by building it around something that grows with each session, in place of streaks, daily targets and willpower. A logbook of personal bests, a skill that keeps improving, or a book heard only while walking all add up, and each is still there after a break. The frame matters because streaks and daily targets turn one missed day into a reason to quit.
+
+## Core takeaways
+
+- Build the practice around something that grows and stays.
+- A streak measures how much you stand to lose.
+- A useful measure still means something after a month off.
+- Keep the effort at a level that feels good.
+- A missed day costs the body almost nothing.
+- Save willpower tricks for rare cold starts.
+
+## Push and pull
+
+Most fitness advice pushes: set a daily bar, keep a streak, find motivation, use willpower. Pull works the other way round, since the practice itself holds something you want to come back to, such as the next chapter, the next grade on a climbing wall, or a new best in a training log. The accretion frame uses pull every day and keeps the push tools for the occasional start from cold. The idea that willpower is a store that runs down failed a replication across 23 labs, so it is a poor thing to build a plan on.
+
+- Push: bars, streaks, rings, motivation, willpower.
+- Pull: a growing record, and a next step you cannot see yet.
+- Skill sports give pull through a skill that keeps growing.
+  - The group around the sport holds the schedule.
+
+```
+streak:     day 1, 2, 3 ... 40 | one miss | 0
+accretion:  best 40 kg ... 45 kg | month off | still 45 kg
+```
+
+## Why streaks fail
+
+The longer a streak runs, the more a single miss wipes out. Anything below a daily bar reads as zero, and once the bar is missed the cost of missing more drops to nothing, which psychologists call the what-the-hell effect. Measuring an activity people enjoy makes them do more of it for a while and enjoy it less, and later they do less of it. One test sorts measures by whether they still mean something after a month off: a dated best in a training log passes, and a streak or a closed activity ring fails.
+
+- Daily bars turn a miss into a loss.
+- Tracking an enjoyed activity lowers enjoyment.
+- Missing one day does not slow habit formation.
+- A small reward for coming back after a miss helps most.
+
+## Keep it pleasant
+
+How exercise feels during a session predicts whether people are still doing it six and twelve months later. People who train for enjoyment, skill or company keep going, while people who train for weight or appearance tend to start and then quit. In a 2024 trial, people told to set the intensity for pleasure did 14 sessions in eight weeks, against 8 for people given fitness targets. Mood during exercise turns negative near the point where breathing gets hard, so being able to talk in full sentences is the practical guide.
+
+- Pick an intensity at which you can still talk.
+- Choose activities with skill, company or a story attached.
+- Do it in the same place at the same time.
+
+Most behaviour that repeats does so in the same place and at the same time.
+
+## What a missed day costs
+
+The body loses fitness slowly. Fatigue fades faster than fitness, so a short break often leaves a person fresher than before it. A missed day has no physical cost, so it needs no guilt.
+
+- Skills, tendon strength, bone and muscle memory last weeks to months.
+- Muscle that comes back regrows faster than it first built.
 
 ## Related pages
 

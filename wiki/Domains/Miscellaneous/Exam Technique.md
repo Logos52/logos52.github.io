@@ -3,12 +3,13 @@ title: "Exam Technique"
 type: technique
 status: developing
 created: 2026-05-29
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: grok
+written-by: opus
 model: grok
 source-count: 8
+description: "Habits for sitting an exam: sleep before it, pace and check answers, practise examiner-style questions, and calm nerves with slow breathing."
 tags:
   - exams
   - performance
@@ -16,6 +17,56 @@ tags:
 ---
 
 # Exam Technique
+
+Exam technique is a small set of habits for sitting a paper: how to sleep before it, how to pace and check your answers, how to practise the questions an examiner is likely to set, and how to stop anxiety taking over. Each habit protects marks you have already earned by studying, and each can be practised before the exam.
+
+## Core takeaways
+
+- Sleep the night before, since sleep is when study is stored.
+- Keep a steady pace and flag answers you are unsure of.
+- Recheck only the flagged answers.
+- A hard question gets its time, a best guess and a flag.
+- Practise by writing the hard questions an examiner might set.
+- Slow breathing with long out-breaths calms exam nerves.
+- Write a pre-exam checklist weeks ahead.
+
+## Sleep
+
+The brain stores the day's learning during sleep. Studying through the night before an exam leaves that night's material unstored and tires you for the paper. Sleeping in the following day reduces the damage without undoing it. Do the heavy study in the weeks before, and use the last night for sleep.
+
+- Adults need seven to nine hours.
+- An all-nighter costs recall and problem solving together.
+
+## Pacing and checking
+
+Checking every answer at the end wastes time and invites changes to answers that were right. Set a pace that leaves spare time at the end, answer each question once you are fairly sure, and put a mark beside any answer you felt weak on. At the end, return to the marked answers only. This way of checking, called priority checking, avoids both problems.
+
+- Stuck past a question's time: write your best answer, mark it, move on.
+- Staying on a stuck question tends to deepen the confusion.
+- A later question sometimes shows the answer to an earlier one.
+- An answer you were sure of usually gets worse when changed.
+
+## Thinking like the examiner
+
+Students tend to practise the question types they already do well. Asking how you would test a topic if you wanted to catch people out turns up the types you have been avoiding. Writing your own questions does this more thoroughly than past papers. It also helps where past papers are scarce or misleading.
+
+- Write forty to fifty questions on a subject.
+- Swap them with a study group and answer each other's.
+- Aim each question at an angle you find hard.
+
+## Handling anxiety
+
+Anxiety narrows thinking until obvious answers stop coming. Slow, deep breaths with a very long out-breath move the body from its alarm state towards rest, and after a minute or two the mind has room to work again. Nerves that appear only in high-stakes exams respond to practice under growing pressure, since avoiding the feeling keeps it strong.
+
+- Breathe out for about ten seconds, and repeat until calm.
+- Around six breaths a minute is the calming range.
+- Practise with strict time limits and full exam conditions.
+- Add friends and a bit of competition to raise the pressure.
+- Replace "I'll fail" thoughts with what you actually prepared.
+
+## The checklist
+
+Under stress people forget the advice they meant to follow. A written checklist holds the plan for you, with a date in the calendar to start working through it. The day-of details, such as meal timing and breaks between papers, sit on the exam execution page.
 
 ## Related pages
 

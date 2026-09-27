@@ -5,18 +5,19 @@ Keeps the frontmatter (with a few keys set), the H1, and everything from the fir
 block heading (## Sources, ## Related pages, ## Related, ## Links, ## Links into the
 knowledge base, ## See also) to the end, byte for byte. Replaces only what sits between.
 
-usage: outline-splice.py PAGE BODYFILE --description "one sentence" [--written-by fable] [--date 2026-09-24]
+usage: outline-splice.py PAGE BODYFILE --description "one sentence" [--written-by opus] [--prose-model fable] [--date YYYY-MM-DD] [--method outline-2026-09-27]
 """
-import re, sys, argparse
+import re, sys, argparse, datetime
 
 KEPT = ("sources", "related pages", "related", "links", "links into the knowledge base", "see also")
 
 ap = argparse.ArgumentParser()
 ap.add_argument("page"); ap.add_argument("body")
 ap.add_argument("--description", required=True)
-ap.add_argument("--written-by", default="fable")
-ap.add_argument("--date", default="2026-09-24")
-ap.add_argument("--method", default="outline-2026-09-24")
+ap.add_argument("--written-by", default=None, help="model that wrote the draft; default keeps the page's current value, or fable")
+ap.add_argument("--prose-model", default=None, help="model that did the final prose pass; default = written-by")
+ap.add_argument("--date", default=datetime.date.today().isoformat())
+ap.add_argument("--method", default="outline-2026-09-27")
 a = ap.parse_args()
 
 txt = open(a.page, encoding="utf-8").read()
@@ -49,8 +50,10 @@ def setkey(lines, key, value):
 
 desc = a.description.strip().replace('"', "'")
 fm = setkey(fm, "updated", a.date)
-fm = setkey(fm, "written-by", a.written_by)
-fm = setkey(fm, "prose-model", a.written_by)
+cur = next((l.split(":",1)[1].strip() for l in fm if l.startswith("written-by:")), None)
+wb = a.written_by or cur or "fable"
+fm = setkey(fm, "written-by", wb)
+fm = setkey(fm, "prose-model", a.prose_model or wb)
 fm = setkey(fm, "method", a.method)
 fm = setkey(fm, "description", f'"{desc}"')
 

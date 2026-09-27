@@ -3,12 +3,13 @@ title: "AI-Assisted Learning Workflow"
 type: workflow
 status: developing
 created: 2026-05-23
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
 source-count: 7
-written-by: grok
+written-by: opus
 model: grok
+description: "Where AI speeds up learning, such as finding, converting and quizzing, and which thinking the learner has to keep."
 tags:
   - ai-tools
   - learning-workflow
@@ -17,6 +18,57 @@ tags:
 ---
 
 # AI-Assisted Learning Workflow
+
+An AI-assisted learning workflow uses chatbots and study tools for the parts of learning that are logistics, such as finding material, changing its format and quizzing, while the learner keeps the thinking that builds understanding. Used that way, AI can cut hours from a course. The risk is letting it write the notes, the summaries or the answers, because that removes the effort that makes knowledge stay.
+
+## Core takeaways
+
+- Let AI find, convert, extract and quiz.
+- Keep the organizing and connecting of ideas for yourself.
+- Ask for information that helps you work out the answer.
+- Never ask for the answer itself.
+- Take a quiz before studying to prime what matters.
+- Matching study format to a learning style gives no advantage.
+
+## The learning steps
+
+Most learning goes through five steps: set a goal, gather resources, prime, understand and apply. The goal is a concrete end result, such as passing an exam, writing a report or building an app, since a goal like "learn about AI" gives no direction. Resources are usually incomplete, so part of the work is finding what is missing. Priming is a quick look at the whole before trying to understand any part, and understanding then happens layer by layer, overview first.
+
+- Goal: name the end product before starting.
+- Resources: fill the gaps a single course leaves.
+- Priming: skim headings, or attempt the quiz first.
+- Understanding: most of the time goes here, often half or more.
+- Applying: use the material on the real goal as you go.
+
+## Where AI helps
+
+AI is fast at jobs that move information around. A search assistant can collect what other learners used for the same goal. A notebook tool can turn a source into a study guide with practice questions, which serves the priming step. The same tools can turn a text into an audio script or a video into text, pull out only the section needed, and tidy rough notes into tables.
+
+- Finding resources: collect courses and what others used.
+- Priming: generate a quiz from the source, then attempt it cold.
+- Format: convert text to audio or audio to text.
+- Extraction: pull out the one section that matters.
+- Confusion: talk the problem through, asking for examples.
+- Note cleanup: turn rough notes into tables after studying.
+- Goal setting: AI adds little here.
+
+## What stays with the learner
+
+Cutting the effort out of a task such as note-making gets the notes done faster, but the notes were only a means to learning, and the learning is put off. Understanding comes from generating: deciding what matters, how the ideas relate and how the material could be organized. A useful test is whether the mind is doing work or only taking words in. Learning also moves by guesses about how facts connect, made early, tested and corrected.
+
+- Ask yourself how the material could be organized.
+- Form a guess about how facts connect, then test it.
+- Write a hypothesis before asking the AI.
+- Start from the problem, and learn each tool when it is needed.
+- Practise learning from every format, including the less preferred ones.
+
+## Checks from the research
+
+Research settles three points that come up in this area. Studies find no benefit from matching teaching to a declared learning style. Failed attempts at a question before study improve later learning, which is why the cold quiz works. Interleaving helps when similar problems from one subject are mixed, which is a different thing from alternating unrelated subjects in a day.
+
+- Learning styles: matching a style gives no advantage.
+- Pretesting: failed guesses before study help later recall.
+- Interleaving: mix similar problems within one subject.
 
 ## Related pages
 

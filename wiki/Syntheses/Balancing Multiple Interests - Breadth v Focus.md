@@ -3,14 +3,14 @@ title: "Balancing Multiple Interests - Breadth v Focus"
 type: synthesis
 status: developing
 created: 2026-05-09
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
+updated: 2026-09-27
+method: outline-2026-09-27
+prose-model: fable
 last-audited: 2026-08-14
-written-by: grok
+written-by: opus
 model: grok
 source-count: 5
-description: ""
+description: "How to split time across many interests with one main focus, one semi-focus and a written plan for each paused one."
 tags:
   - self-management
   - attention
@@ -19,6 +19,47 @@ tags:
 ---
 
 # Balancing Multiple Interests - Breadth v Focus
+
+Someone with many interests has to decide which of them get time this season and which wait. Trying to move all of them at once spreads the week so thin that none makes real progress, and dropping them feels like giving up part of who you are. A workable approach is a small active set, a written plan for each paused interest, and a clear rule for moving interests between active and paused.
+
+## Core takeaways
+
+- Keep a small active set and let the rest sit dormant.
+- One main focus, one semi-focus, everything else a hobby.
+- A dormant interest with a written plan stops nagging.
+- Picking up a dormant interest every day costs a switch.
+- An identity can include selves you are not living right now.
+- Guilt about a paused interest usually comes from sunk cost.
+
+## How to allocate the time
+
+Justin Skycak's allocation is one main focus with the workload of a full-time job, one semi-focus the size of a part-time job, and everything else a hobby in the time left over. The main focus exists so you move at a competitive speed in at least one direction. The semi-focus is a staging area for something you plan to merge into the main focus later, so it needs real depth. Hobbies are for fun, and they are also the pool the next semi-focus comes from.
+
+| Slot | Size | Purpose |
+| --- | --- | --- |
+| Main focus | A full-time job | Competitive speed in one direction |
+| Semi-focus | A part-time job | Build depth to merge into the main focus |
+| Hobbies | What is left, about another part-time job | Fun, and candidates for the next semi-focus |
+
+- The leftover time holds a few serious hobbies or many light ones.
+- When the semi-focus merges, a hobby moves up to replace it.
+
+## Why dormant interests cost less than you think
+
+Unfinished goals keep pulling at attention, which is why a paused interest can feel heavy. E. J. Masicampo and Roy Baumeister found in 2011 that making a specific plan for when a goal will be picked up removes most of that pull. Stephen Monsell's work on task switching explains the daily cost: returning to a paused interest each day for a few minutes is a switch, and every switch costs time and attention. So the cheapest way to hold a paused interest is a written plan for when it comes back, and no daily visits.
+
+- Write the date or trigger that will reactivate each dormant interest.
+- Avoid short daily check-ins on dormant interests.
+- A journal lists active threads, and leaves out the rest.
+
+## Handling the guilt
+
+Hazel Markus and Paula Nurius described possible selves: a person's identity holds versions of themselves that are not being lived right now. A pause does not delete an old self such as a runner, a painter or a language learner. The guilt that comes with pausing usually has two sources: sunk cost, the feeling that past effort is wasted unless you keep going, and the urge to protect an identity. Neither is a reason to keep an interest active.
+
+- Paused is a normal state for most interests most of the time.
+- Past hours spent are not a reason to spend more.
+- Check what outcome sits under a goal before starting a season.
+- Refuse new options when the active set starts to grow.
 
 ## Related pages
 

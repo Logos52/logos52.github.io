@@ -3,13 +3,13 @@ title: The Book of Elon
 type: book
 status: developing
 created: 2026-05-06
-updated: 2026-09-24
-method: outline-2026-09-24
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
 source-count: 8
-written-by: fable
+written-by: opus
 model: grok
-description: "Eric Jorgenson's compilation of Elon Musk's public rules for building: first principles, the five-step algorithm, and the cost of the intensity."
+description: "Eric Jorgenson's collection of Elon Musk's statements, with the five-step building algorithm and the questions to run over a plan."
 tags:
   - books
   - entrepreneurship
@@ -20,70 +20,65 @@ tags:
 
 # The Book of Elon
 
-The Book of Elon is a collection of Elon Musk's public statements, sorted by theme and compiled by Eric Jorgenson, who also compiled The Almanack of Naval Ravikant. It is useful as a short list of building rules to run over a plan: which requirement to question, which part to delete, and what the work will cost the people doing it.
+The Book of Elon is a collection of Elon Musk's public statements, sorted by theme and compiled by Eric Jorgenson, who also compiled The Almanack of Naval Ravikant. The most usable part is a short set of building rules to run over a plan before committing to it. The rules say which requirement to question, which part to delete, and what the work will cost the people doing it.
 
 ## Core takeaways
 
-- Work out what physics and cost allow before accepting the usual way of doing a thing. The book calls this first principles. Copying what others built is reasoning by analogy, and it hides the real constraint.
-- Question every requirement, including the ones that came from smart people.
-- Delete before you simplify, simplify before you speed up, speed up before you automate. Automating a step that should have been deleted wastes the whole effort.
-- Treat how a thing gets made as part of its design. The factory is part of the product.
-- The person with the highest standing is the builder who works closest to the physical constraint.
-- The intensity the book describes has a cost the book leaves out: burnout, distorted judgment, and a life that no longer fits around the work. Take the rules and set the limit yourself.
+- Work out what physics and cost allow before copying the usual way.
+- Question every requirement, including ones from smart people.
+- Delete, then simplify, then speed up, then automate.
+- How a thing gets made is part of its design.
+- The builder closest to the physical constraint has the most standing.
+- The intensity described has a human cost the book leaves out.
 
 ## The algorithm
 
-Five steps, in a fixed order.
+Musk's name for working out what physics and cost allow is first principles, and his name for copying what others built is reasoning by analogy. Reasoning by analogy hides the real constraint, so his building algorithm starts by questioning every requirement. Each requirement carries the name of the person who owns it, so that someone can argue with it. The order of the steps matters, because speeding up or automating a step that should have been deleted makes waste cheaper or faster.
 
-1. Question every requirement. Each one carries the name of the person who owns it, so it can be argued with.
-2. Delete any part or process step you can. If nothing deleted ever has to go back in, not enough was deleted.
-3. Simplify and optimise what is left.
-4. Shorten the cycle: the time from one build to the next test.
-5. Automate.
-
-```
-question -> delete -> simplify -> accelerate -> automate
-    |          |
-    |          +-- some cuts go back in; that proves
-    |              the cut went far enough
-    +-- keeps step two from deleting a real constraint
-```
-
-Steps three to five make a step cheaper or faster. If the step should not exist, they make a waste cheaper or faster.
+- Step 1: question every requirement, with its owner's name on it.
+- Step 2: delete every part or process step you can.
+- If nothing deleted has to go back in, too little was cut.
+- Step 3: simplify and optimise what is left.
+- Step 4: shorten the time from one build to the next test.
+- Step 5: automate.
+- The factory counts as part of the product.
 
 ## What the book holds
 
+The table lists the book's parts, as the book's site gives them. Purpose, in the book, means working on problems that raise the odds of a good future, and the problems it names are energy, life on more than one planet, the risk from machine intelligence, and manufacturing. The companies in the book share one pattern. The founders went all in, the company came close to death, and a goal that looked impossible forced a new technical route.
+
 | Part | What it covers |
 |---|---|
-| Pursue Purpose | purpose beyond comfort; physics-based thinking; engineering |
-| Ultra Hardcore Work | requirements; teams; organisation; urgency; manufacturing |
-| Building Companies | founding; Tesla; SpaceX |
-| On Behalf of Humanity | building the future; abundance; existential risk; other planets |
+| Pursue Purpose | purpose beyond comfort, physics, engineering |
+| Ultra Hardcore Work | requirements, teams, urgency, manufacturing |
+| Building Companies | founding, Tesla, SpaceX |
+| On Behalf of Humanity | the future, abundance, risk, other planets |
 
-- Purpose, in the book, means working on problems that raise the odds of a good future: energy, life on more than one planet, the risk from machine intelligence, manufacturing.
-- The organisation rules in part two: remove boundaries between teams, talk directly to whoever has the answer, tolerate failure that came from a real attempt, simplify before optimising.
-- The company cases are Zip2, PayPal, Tesla, SolarCity and SpaceX. The shared pattern: all in, a period close to death, and a goal that looked impossible and forced a new technical route.
-- The last part argues that the future has to be built. Its claims on population and regulation are contested public arguments, recorded here as the book's position.
+- Remove boundaries between teams.
+- Talk directly to whoever has the answer.
+- Tolerate failure that came from a real attempt.
+- Cases: Zip2, PayPal, Tesla, SolarCity and SpaceX.
+- The last part says people must build a good future on purpose.
+- It names falling birth rates and heavy regulation as threats.
 
 ## Where it fails
 
-- The book flattens the cost of the intensity it describes. A decade of labour reporting on the same companies records the burnout.
-- The cases are the ones that lived. Companies that ran the same rules and died do not appear.
-- If a rule only works with a life you cannot live, drop the rule.
+The book records the intensity of the work and leaves out what it cost. A decade of labour reporting on the same companies records burnout, distorted judgment, and lives that no longer fit around the work. The companies in the book are also the ones that survived. Companies that ran the same rules and died do not appear.
+
+- Take the rules and set the limit on intensity yourself.
+- Drop any rule that needs a life you cannot keep up.
 
 ## How to use it
 
-Seven questions to run over a plan:
+The questions below are run over a plan before committing to it. The reading worked if a fake requirement got deleted or a bottleneck got named. On this desk the chapters on intensity are read with a limit set first, and that limit belongs to self-regulation and self-management. None of the companies in the book are treated here as required tools.
 
 - Is the purpose bigger than personal comfort?
 - Is the constraint real, or inherited?
 - Which requirement can be deleted?
 - What can be simplified before anything is automated?
 - Where is this reasoning by analogy?
-- What would a faster build-and-test loop reveal?
+- What would a faster build-and-test loop show?
 - What physical, technical or behavioural fact is being avoided?
-
-The reading worked if a fake requirement got deleted or a bottleneck got named. On this desk the intensity chapters are read with a limit set first; that limit is the job of [[wiki/Dimensions/Self-Regulation|Self-Regulation]] and [[wiki/Dimensions/Self-Management|Self-Management]]. None of the companies in the book are treated here as required tools.
 
 ## Related pages
 

@@ -3,12 +3,13 @@ title: "Reading & Retention"
 type: technique
 status: developing
 created: 2026-05-23
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: grok
+written-by: opus
 model: grok
 source-count: 8
+description: "How to keep what you read by processing it after reading, sorted into five kinds of information with a method for each."
 tags:
   - reading
   - PACER
@@ -17,6 +18,50 @@ tags:
 ---
 
 # Reading & Retention
+
+Reading for retention means splitting reading into two stages: taking the information in, then working on it so that it stays. Most people try to read faster, but how much they keep depends on the second stage. Sorting what you read into five kinds of information, namely procedures, analogies, concepts, evidence and reference details, tells you what to do with each piece and what to leave for later.
+
+## Core takeaways
+
+- Read less when there is no time to process what you read.
+- Sort each piece as procedure, analogy, concept, evidence or reference.
+- Practise procedures early instead of memorising them.
+- Map concepts as a network of ideas and links.
+- Check each analogy for where it breaks.
+- Store details now and rehearse them later.
+
+## How it works
+
+Every book and lecture arrives one sentence after another, while an expert's knowledge is a network with no set order. Reading by itself only takes the words in. The second stage is what builds the network, and when it is skipped, most of what was read is forgotten. When there is no time to process something, stop reading or move on to other material.
+
+The five kinds of information spell PACER:
+
+| Kind | What it is | What to do with it |
+| --- | --- | --- |
+| Procedural | how to do something | practise it as soon as possible |
+| Analogous | like something you know | test the comparison |
+| Conceptual | facts, theories, relations | map it |
+| Evidence | dates, figures, cases | store now, rehearse later |
+| Reference | details that change nothing | store, flashcards if needed |
+
+## The five kinds in practice
+
+Procedural, analogous and conceptual information take most of the time and form the base of knowledge. Evidence and reference are quick to handle and easy to waste time on. Memorising a date or a gene name during a first read takes time from the parts that build understanding. Notes on a procedure fade before a week of practice has been done, so a procedure is applied the same day it is read.
+
+- Procedural: apply it the same day.
+- Analogous: ask how the two things match and how they differ.
+  - Find where the comparison stops working, then improve it or replace it.
+  - Analogies can occur inside procedures and concepts.
+- Conceptual: draw a map and rearrange it as you read.
+- Evidence: rehearse by using it in a problem, an essay or an explanation.
+- Reference: flashcards only if it must be recalled without notes.
+
+## What to keep
+
+Kim Peek could write out a book word for word after one reading, yet he struggled with reasoning and problem solving. School tests at the lower levels reward recall. University and work reward using knowledge. The goal is to keep what you need in a form you can use, and to look up the rest.
+
+- Encode information the way it will be used later.
+- A notes app holds details and does none of the processing.
 
 ## Related pages
 

@@ -3,9 +3,9 @@ title: "Aim"
 type: technique
 status: developing
 created: 2026-05-04
-updated: 2026-09-24
-written-by: fable
-method: outline-2026-09-24
+updated: 2026-09-27
+written-by: opus
+method: outline-2026-09-27
 prose-model: fable
 source-count: 6
 last-audited: 2026-05-07
@@ -24,70 +24,70 @@ tags:
 
 # Aim
 
-The Bear Hunter System is the workflow this vault uses to take in a new topic, in three passes. Aim is the first pass. Before reading in depth, the learner lists the topic's main terms and asks two questions of each, so the first structure of the topic comes from a judgment about what matters instead of from the book's headings.
+The Bear Hunter System is the three-pass workflow this vault uses to take in a new topic, and Aim is its first pass. Before reading anything in depth, the learner lists the topic's main terms and asks two questions of each one: why it is important, and how it relates to another term. The topic's first structure then comes from a judgment about what matters rather than from the book's headings.
 
 ## Core takeaways
 
-- Collect the main terms of the topic fast and out of order, then ask two questions of each: why is this important, and how does it relate to another term.
-- Never ask what something is. Comparing two terms forces you to learn what each one is, with a purpose attached.
-- A single reason for a term is too little. Most terms matter for several reasons, and the question has worked only when it produced several links that were then compared.
-- Hold every grouping as a guess. Certainty this early is a bad sign, and effort spent on a fixed structure makes it costly to break later.
-- Cover the whole topic thinly: the main groups and their links, no details.
-- Aim counts as learning. It goes first, before the class or the reading, even when it gets only ten minutes.
+- Collect the main terms fast and out of order.
+- Ask of each term why it matters and how it relates.
+- Never ask what a term is, since comparing teaches that anyway.
+- One reason per term is too few, so look for several links.
+- Hold every grouping as a guess.
+- Cover the whole topic thinly, with no details.
+- Aim comes first, before class or reading, even for ten minutes.
 
 ## The steps
 
-- Collect keywords.
-  - Skim every resource: video, slides, book, class notes. A search engine or a model fills gaps.
-  - Write the terms out of the resource's order, so the groups do not copy its headings.
-  - Name a concept or diagram yourself when the resource does not.
-  - A term you cannot guess gets a one-paragraph gloss, then move on.
-  - Most topics of a few chapters or a few weeks of class hold 15 to 30 major terms. About 80 percent of those terms in about 25 minutes is worth more than all of them in two hours. A tool can do this step.
-- Ask the two questions of each keyword.
-  - Why is this important? This pulls the term toward the big picture and forces a judgment about its weight.
-  - How does this relate to another keyword? This finds links the first question misses, because importance gets judged through what you already believe.
-  - Start at the top of the list, since the first terms have nothing to relate to. By the third or fourth term there is enough, and curiosity picks the next one.
-- Hypothesise a structure.
-  - As links appear, sketch possible groups (chunks) and how they connect. This sketch is the backbone.
-  - Several drafts at once, redrawn as later terms change earlier guesses, is what a real Aim looks like.
-  - Stop when the main groups and their main links are on the page. Details belong to the next pass, Shoot.
+Aim has three steps: collect the terms, question each one, and sketch a rough structure from the answers. Asking what a term is gets skipped on purpose, because comparing two terms forces the learner to find out what each one is, with a reason attached. The structure is a set of chunks, groups of terms that belong together for a reason, with lines for how the groups connect, and it stays loose because effort spent on a fixed structure this early makes it costly to change later. Aim stops when the main groups and their main links are on the page, and the details wait for the next pass, called Shoot.
 
-```
-keywords, out of order
-   |
-   v
-why important?  <-->  how related to X?
-   |
-   v
-several links per term --> compared --> chunks
-   |
-   v
-rough backbone: a guess, no details
-```
+- Collect keywords
+  - Skim every resource: video, slides, book, class notes.
+  - A search engine or a language model fills gaps.
+  - Write the terms out of the resource's order.
+  - Name a concept yourself when the resource does not.
+  - A term you cannot guess gets a one-paragraph explanation.
+  - A few chapters usually hold 15 to 30 major terms.
+  - About 80% of them in 25 minutes beats all in two hours.
+- Ask the two questions
+  - Why important: pulls the term toward the big picture.
+  - How related: finds links the first question misses.
+  - Start at the top of the list.
+  - By the third term, follow curiosity.
+- Sketch a structure
+  - Group the terms into chunks and draw how they connect.
+  - Keep several drafts and redraw as later terms arrive.
+  - Stop at the main groups and main links.
 
 ## Where it fails
 
-- Importance checklisting: one sentence per term, then on to the next. No comparison, so no chunk.
-- Finding links but never comparing them. Chunks form when links are set against each other: similar, different, more or less important.
-- Writing a paragraph under each question. A linear answer narrows the open links back to one line.
-- Groups copied from the book. The book's grouping usually beats a random one, but the learner regroups most of the time so the structure fits what they already know. Test: if the only way to hold a group is to memorise its members, relabel or regroup.
-- Starting before the earlier skills are solid. Aim needs comfortable practice with comparing ideas, non-linear notes, and the drill of writing questions before reading and answering them after (the traffic light drill). Without that practice the pass produces noise.
+Most failures skip the comparing. A learner who writes one sentence of importance under each term and moves on has made a checklist, and no chunks form from a checklist, because a chunk forms only when links are set against each other as similar, different, or more and less important. Copying the book's headings is the other common failure. The book's grouping is usually better than a random one, and the learner still regroups most of the time, so that the structure fits what they already know.
+
+- One sentence per term, then the next: no comparison.
+- Links found but never compared: no chunks.
+- A paragraph under each question narrows the links to one line.
+- A group held only by memorising its members: regroup it.
+- Starting before comparing ideas and non-linear notes feel easy.
+
+The last point is there because Aim builds on earlier skills. One of them is the traffic light drill, which means writing questions before reading and answering them after.
 
 ## How it feels
 
+Aim usually feels uncomfortable, and each feeling has a cause in what the mind is doing at that moment. The discomfort is the comparing and ranking happening, so it is a sign that the work is being done. An easy Aim is the one to worry about, since ease usually means the steps are being skipped.
+
 | Feeling | What is happening |
 |---|---|
-| Overwhelmed by the number of links | A network of possible links is forming for you to refine |
-| Confused about which structure to pick | Prioritising and evaluating, the highest order of thinking |
-| Slow, each term takes long | Deep examination; it fades as speed grows |
-| Easy | Usually the technique is not being applied to standard |
+| Overwhelmed by links | A network of possible links is forming |
+| Unsure which structure | Ideas are being weighed and ranked |
+| Slow on each term | Close examination, which speeds up with practice |
+| Easy | The steps are usually being skipped |
 
 ## When to aim
 
-- Prestudy is study done before a class or lecture; it settles when learning starts. Aim is what to do with that time.
-- Five or ten minutes of prestudy buys a superficial Aim: the largest groups and their main links. More time buys a full Aim and part of Shoot.
-- Aim after the class, with no prestudy, still works. It is the messiest order. Class notes become one more resource.
-- Aim inside an intensive lecture is hard; the thinking does not fit a lecture's pace.
+Prestudy is study done before a class or lecture, and Aim is what to do with that time. Five or ten minutes gives a shallow Aim, with the largest groups and their main links. More time gives a full Aim and part of Shoot.
+
+- Aim after class with no prestudy still works, messily.
+- Class notes then become one more resource.
+- Aim during a fast lecture is hard to keep up.
 
 ## Related pages
 

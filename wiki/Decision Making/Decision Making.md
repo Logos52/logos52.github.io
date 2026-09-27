@@ -3,11 +3,12 @@ title: "Decision Making"
 type: hub
 status: developing
 created: 2026-05-08
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
-written-by: fable
+updated: 2026-09-27
+method: outline-2026-09-27
+prose-model: fable
+written-by: opus
 source-count: 19
+description: "How to size a decision method to what a choice can cost, and which page covers each step."
 tags:
   - decision-making
   - self-regulation
@@ -16,6 +17,47 @@ tags:
 ---
 
 # Decision Making
+
+Decision making, as used here, is a set of methods sized to how much a choice matters. What to eat for lunch and whether to change careers need different amounts of thought, and a heavy method used on a light choice leaves a person stuck on small things. The pages in this section cover the light methods, the heavy ones, and how to review a decision once the result is in.
+
+## Core takeaways
+
+- Match the method to what the choice can cost.
+- Most daily choices are low stakes and should be quick.
+- The future is unknown, so every decision is a bet.
+- Not deciding is a decision, usually one that loses opportunity.
+- Judge a decision by the process, since luck shapes the result.
+- A need for certainty blocks every method on this list.
+
+## How to pick a method
+
+Start by asking what the choice could cost. If the worst case is small, a quick test is enough: a clear yes or a clear no gets acted on, and an answer in the middle means either choice will do. If the choice has several tangled parts, break it into a chain of yes or no questions. If the downside is large and long-lasting, use the slower methods that weigh chances and sizes and protect against the worst case.
+
+- Low stakes and a clear yes or no: act on it.
+- Low stakes and an answer in the middle: either choice will do.
+- Several tangled parts: a chain of yes or no questions.
+- Large, lasting downside: weigh chances and sizes, protect the worst case.
+- After the result: review how the choice was made.
+
+## What each page is for
+
+Each page below handles a step of its own. The list runs in the order of the steps above, with the quick methods first, the heavy ones in the middle, and review and change at the end. The line after each name says what that page settles.
+
+- [[wiki/Decision Making/Choice Throttling|Choice Throttling]]: a chain of yes or no questions for tangled choices.
+- [[wiki/Decision Making/Decisional Delays|Decisional Delays]]: the minutes lost deciding what to do next.
+- [[wiki/Decision Making/The Uncertainty-Opportunity Tradeoff|The Uncertainty-Opportunity Tradeoff]]: why waiting for certainty costs opportunity.
+- [[wiki/Decision Making/Expectancy in Wicked Environments|Expectancy in Wicked Environments]]: odds times size, simplified for messy choices.
+- [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]: choosing for a better position.
+- [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]]: reviewing without letting luck grade it.
+- [[wiki/Decision Making/Changing Decisions|Changing Decisions]]: when to drop a course already chosen.
+
+## What gets in the way
+
+Most decision methods fail for the same reason: a person who needs certainty before acting keeps gathering information and never uses the method. Overthinking looks like careful planning, yet the thoughts circle a single feeling without progress. The fix is to write the feeling down, turn it into a list of problems, and turn each problem into an action or an acceptance.
+
+- Perfectionism is usually fear of mistakes.
+- Overthinking repeats a worry without reaching a plan.
+- Emotion, then problem list, then actions.
 
 ## Related pages
 

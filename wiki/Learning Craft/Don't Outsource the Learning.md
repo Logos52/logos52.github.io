@@ -3,12 +3,13 @@ title: "Don't Outsource the Learning"
 type: concept
 status: developing
 created: 2026-05-23
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: grok
+written-by: opus
 model: grok
 source-count: 11
+description: "How handing tasks to AI weakens a person's own skill, what the 2025 and 2026 studies found, and how to use AI and still learn."
 tags:
   - ai-use
   - learning
@@ -17,6 +18,49 @@ flag-reason: "cluster held: Learning Craft; opener is owner-picked Opus A. Do no
 ---
 
 # Don't Outsource the Learning
+
+When a person lets an AI write the code or the essay, the task gets done but their own understanding stays where it was. Over months of small handoffs, what the person can do without the tool gets weaker, and nothing on any single day shows it. The fix is to change how the tool is asked, since the same tool used for questions instead of answers produced better understanding in a controlled trial.
+
+## Core takeaways
+
+- Getting the task done and learning the skill are separate results.
+- Default AI tools are tuned to finish tasks quickly.
+- Asking conceptual questions kept comprehension high in trials.
+- Copying generated answers left comprehension lowest.
+- Write your own guess before asking the model.
+- Delegate throwaway work, and learn the parts you must maintain.
+
+## What the studies found
+
+Several studies from 2025 and 2026 point the same way. In a randomized trial that Anthropic ran in early 2026, engineers learned a new Python library with or without AI help. Both groups finished at about the same speed, but the AI group scored 50% on the follow-up quiz against 67% for the other group, with the widest gap on debugging. Inside the AI group, the people who asked conceptual questions scored above 65%, and the people who pasted generated code scored below 40%.
+
+- Anthropic trial: same speed, lower quiz scores with AI.
+- MIT essay study: 83% of chatbot users could not quote their essay.
+- MIT essay study: brain connectivity was lowest in the chatbot group.
+- CHI 2026: AI framing a task first led to worse decisions.
+- METR 2025: experienced developers were slower with AI, while believing otherwise.
+- Harvard physics: a tutor built to teach beat an active-learning class.
+
+## Why the default loop fails
+
+The usual loop is to paste an error into the tool, take the fix and ship it, and the struggle between problem and solution, where learning happens, drops out. The tools do not stop to ask what you think the problem is, because they are built and rewarded for finished tasks. Learning modes exist, such as Anthropic's learning mode for Claude, Google's Guided Learning and Claude Code's learning output style, but few people use them for real work. Someone on a team still has to understand the system in the cases below.
+
+- Code breaks and someone has to debug it.
+- The model gives a plausible, wrong answer.
+- A framework update forces a migration.
+- The problem is far from ones solved many times online.
+
+## How to use AI and still learn
+
+The changes are small and happen inside the same tools. The main one is order: form your own view first, then use the model to test it. The model can also teach what it just did, if it is asked to. Delegating boilerplate, glue code and one-off scripts costs little, because nobody needs to understand them later.
+
+- Write two or three sentences on the likely cause first.
+- Ask for an explanation and the trade-offs before any code.
+- Turn on a learning mode in unfamiliar territory.
+- Review output like a junior colleague's pull request.
+- Rebuild a piece of generated code by hand now and then.
+- Ask which concepts the model used and what to read.
+- End a session by asking whether anything was learned.
 
 ## Related pages
 

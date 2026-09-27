@@ -3,11 +3,12 @@ title: "Motif and Symbol"
 type: technique
 status: developing
 created: 2026-07-09
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
-written-by: grok
+updated: 2026-09-27
+method: outline-2026-09-27
+prose-model: fable
+written-by: opus
 model: grok
+description: "How repeated objects, images and sounds carry a story's feeling and central idea, from Eliot's objective correlative to Chekhov's gun."
 tags:
   - theme
   - motif
@@ -17,6 +18,56 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 ---
 
 # Motif and Symbol
+
+A motif is something that comes back in a story again and again: an object, an image, a phrase or a sound. A symbol is an object that stands for more than itself. Used together, they let a story state its central idea through things the audience sees, so the characters never have to say it aloud.
+
+## Core takeaways
+
+- A motif repeats, and each return adds meaning.
+- A symbol is an object that carries an idea or a feeling.
+- Arrange objects and events that would cause the feeling.
+- An object shown early should matter later.
+- Tie a symbol to each main character and to the world.
+- Aristotle put a play's meaning below its plot.
+
+## Objects that carry feeling
+
+T. S. Eliot called the method an objective correlative: a set of objects, a situation or a chain of events arranged so that it produces one particular emotion. He judged Hamlet a failure on this ground, because Hamlet's feelings are larger than anything in the play that could cause them. Critics still argue about that verdict. As a test for a writer it is useful: if a character's emotion is bigger than what the scene shows, the reader will not feel it.
+
+- Find the objects that would cause the feeling.
+- Put them on the page and let them work.
+- If the feeling outruns the objects, add objects or lower the feeling.
+
+The painter Washington Allston used the same phrase earlier, with a different meaning.
+
+## Plant and fire
+
+Anton Chekhov wrote in a letter in 1889 that a loaded rifle should not be put on stage if nobody means to fire it. A friend's memoir, written later, gives the sharper version, that a gun hung on the wall in the first act must go off by the last, and that wording is secondhand. The rule covers motifs as well as guns. Anything the story shows with weight becomes a promise to the audience.
+
+```
+act one:    gun on the wall    (plant)
+middle:     gun noticed again  (reminder)
+end:        gun fires          (payoff)
+```
+
+- An object shown with weight tells the audience it will matter.
+- Remove the plant if there is no payoff.
+- Keep the reminder short.
+
+## Leitmotif
+
+In Wagner's operas a short musical theme returns each time a particular character, place or idea appears. Hans von Wolzogen made the word Leitmotiv popular in 1876, and Wagner himself preferred other terms. Film scores use the same device. In a written story a repeated object or phrase does the same job, so the reader feels the character's presence when the object appears.
+
+- One motif per character or idea.
+- Change it slightly as the character changes.
+
+## The symbol web
+
+John Truby treats symbols as a web across the whole cast. The hero, the opponents and the world each carry their own symbols, and the symbols connect the way the characters do. Aristotle placed thought, what a play means, below plot, what happens in it. A symbol web follows that order, since the objects deliver the idea through events.
+
+- Give the hero a symbol.
+- Give each opponent a symbol that answers it.
+- Give the story's world a symbol of its own.
 
 ## Related pages
 

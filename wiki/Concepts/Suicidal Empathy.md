@@ -3,13 +3,13 @@ title: "Suicidal Empathy"
 type: concept
 status: developing
 created: 2026-05-09
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: fable
+written-by: opus
 last-audited: 2026-08-14
 source-count: 8
-description: ""
+description: "Empathy aimed at the wrong target so a kind act harms more than it helps, why it resists correction, and a check to run on the urge."
 tags:
   - gad-saad
   - suicidal-empathy
@@ -20,6 +20,45 @@ tags:
 ---
 
 # Suicidal Empathy
+
+Suicidal empathy is a term from the evolutionary behavioural scientist Gad Saad for empathy aimed at the wrong target, so that a kind act harms the person acting, the group they belong to, or more people than it helps. He has used the phrase since 2017 and published a book of that name in 2026. The idea gives a test for the moments when a strong urge to help should be checked before it is acted on.
+
+## Core takeaways
+
+- Empathy follows the one visible person and misses the many.
+- A moving story can override a fairness rule people still hold.
+- Weighing costs against a sacred value feels like an offence.
+- Public displays of feeling can buy status.
+- Compassion checked by counting works better.
+- Pause the urge to help and ask where it points.
+
+## How empathy misfires
+
+Empathy evolved to respond to people near us and like us, and it responds most to one identifiable person. The psychologist Paul Bloom compares it to a spotlight, which lights one face brightly, leaves the rest dark, and does not count. Studies of charity show the same pattern. People give more to one named child than to the same need stated as numbers, and adding the numbers to the named child's story lowers the giving.
+
+- Empathy is strongest for the near, the similar and the named.
+- It weighs a single visible case above many unseen ones.
+- Adding numbers to a story lowers giving.
+- Induced empathy moved a child up a treatment waiting list.
+  - The people who moved her still judged it unfair.
+
+## Why it is hard to correct
+
+Two social forces protect a misfired response. When a value is treated as sacred, such as a life or a group's dignity, even weighing its costs counts as an offence, and people who do weigh them feel a need to clean their record afterwards. Showing strong feeling in public also earns standing, so the most intense position wins attention whatever it costs. Saad's earlier book, The Parasitic Mind, covers how beliefs resist evidence, and suicidal empathy covers the feeling that drives them.
+
+- Sacred values make cost-counting taboo.
+- Intense displays of concern earn social standing.
+- Status goes to intensity, whatever the cost to others.
+
+## How to check the impulse
+
+The check is a short pause between feeling the urge to help and acting on it. It treats your own response as a plan to be attacked before use, the way a red team, a group assigned to find the holes in a plan, tests a position. The questions are about the targets and the costs the feeling leaves out.
+
+- Who is the visible person, and who are the unseen ones?
+- Who pays for this act, and how many are they?
+- Would a fair rule you already hold decide differently?
+- Is the act for the people helped, or for being seen?
+- Would this still seem right if stated as numbers?
 
 ## Related pages
 

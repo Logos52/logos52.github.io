@@ -3,12 +3,13 @@ title: "Rules of Effective Memorization"
 type: system-model
 status: developing
 created: 2026-06-10
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
 source-count: 7
-written-by: grok
+written-by: opus
 model: grok
+description: "Seven conditions that decide whether new material is stored in memory, and how to apply them, with Chinese characters as the example."
 tags:
   - memory
   - encoding
@@ -16,6 +17,49 @@ tags:
 ---
 
 # Rules of Effective Memorization
+
+The rules of effective memorization are seven conditions that decide whether new material is stored in memory: meaningfulness, organization, association, visualization, attention, repetition and interest. Kenneth Higbee grouped them for a general audience. They explain why reviewing flashcards on its own often fails, and they apply to any subject, with Chinese characters as a clear test case.
+
+## Core takeaways
+
+- Most forgetting happens because the material was never stored at all.
+- Understanding how an item works is the strongest memory aid.
+- Link new items to items you already know well.
+- Repetition works only on top of the other rules.
+- Check storage in the study session itself, before any review schedule.
+
+## How it works
+
+Recall works by pulling on cues. When the sound or meaning of a spoken word is linked to a written character, hearing the word can bring the character back. That only happens if the link was built when the item was first studied. Each rule adds a link or strengthens one, and repetition then keeps those links fresh.
+
+- Meaningfulness: know what each part does, as well as its shape.
+  - Strokes, then parts, then working parts, then what each part does.
+  - Copying a character many times trains the hand and stores little.
+- Organization: group items by the structure they share.
+  - Compare a new item with known ones that share a part.
+  - Do not memorize whole families at once in list order.
+- Association: tie a part that will not stick to a familiar item.
+- Visualization: picture the object an old form of the character drew.
+- Attention: many forgotten items were never properly noticed at all.
+- Repetition: re-showing a failed card repeats the original failure.
+- Interest: material you care about is stored with less effort.
+
+## How to apply it
+
+When a card fails, the fix is to study it again through its meaning before spacing it out again. Showing the same card again as it was only repeats a weak link. The cue used at recall should match the cue used when the item was learned. So practise recall from the direction the item will be needed in, such as from sound to character.
+
+- First, study the item until you can explain it.
+- Next, check recall before the session ends.
+- Then space reviews over days.
+- On a failure, study the meaning again before the next review.
+
+## Chinese characters as a test case
+
+A Chinese character joins three things: a shape, a meaning and a spoken sound. Many parts inside a character give a hint to its sound or its meaning, and the same part can play a different role in a different character. A learner who knows what each part does in a given character can rebuild the character from the spoken word. A memorized shape on its own does not allow that.
+
+- Learn the spoken word first, then attach the character to it.
+- Ask which job each part does in this character.
+- Test shape to sound and shape to meaning separately.
 
 ## Related pages
 

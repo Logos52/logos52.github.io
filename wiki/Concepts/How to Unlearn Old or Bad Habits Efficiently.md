@@ -3,11 +3,12 @@ title: How to Unlearn Old or Bad Habits Efficiently
 type: technique
 status: developing
 created: 2026-05-12
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: grok
+written-by: opus
 model: grok
+description: "How to replace an old habit by finding its cue, planning the new response in advance, and drilling that response in short steps."
 tags:
   - habits
   - unlearning
@@ -17,6 +18,73 @@ tags:
 ---
 
 # How to Unlearn Old or Bad Habits Efficiently
+
+A habit is a response the brain runs on its own when a familiar cue appears, such as picking up the phone when a task feels boring. Unlearning one means putting a better response on the same cue and repeating it until the new response runs on its own. Most of the effort in changing what you do goes into getting past the old habit, so anything that shortens that step shortens the learning of any new skill.
+
+## Core takeaways
+
+- A habit is a cue followed by an automatic response.
+- The cue is often a feeling, such as overwhelm or boredom.
+- Swap the response on one cue at a time.
+- Plan the replacement in advance as a when-then rule.
+- A plan to stop doing X fails unless it names a replacement.
+- The old habit is never erased and can come back.
+- Under stress or when tired, the old habit usually wins.
+
+## Why old habits win
+
+A new skill passes through three stages. First you understand it as an idea, then you find a way of doing it that works in real situations, then you repeat that way until it runs without effort. The old habit gets in the way during the second stage. It fires fast and costs almost nothing, while the new response is slow and has to be chosen on purpose every time.
+
+```
+cue: page feels overwhelming
+        |
+        +--> old: memorise, skip, ask AI   (fast, easy)
+        |
+        +--> new: list points, group them  (slow, chosen)
+
+tired or stressed --> the old path fires first
+```
+
+- Given time to think, the chosen response can win.
+- When rushed, stressed or tired, the old response fires first.
+- Watching for the old habit takes effort from learning the new one.
+- In a four-hour session the old habit often returns in the later hours.
+- Most people cannot name the cues that set off their habits.
+
+## How to do it
+
+Work in short drills rather than long sessions. The cue can be set off without doing the whole task: give yourself ten keywords and try to map them, and the overwhelm arrives within seconds. Practise the response in three parts, which are noticing the cue, deciding what to do instead, and doing it. The deciding part can be practised in your head, which takes far less effort than doing the whole task while fighting the old habit.
+
+- Notice: spot the cue and the old response, and change nothing yet.
+- Decide: feel the cue, pick the replacement, and imagine doing it.
+- Script: write the plan as "when I feel X, I will do Y".
+- Repeat the deciding step until the choice takes no thought.
+- Do: use the script in real work.
+- Reflect after each attempt, and adjust the script.
+
+Planning the response in advance as a when-then rule has strong support: a review of 94 studies, with about 8,000 people in total, found a clear gain over setting a goal alone. Habit reversal therapy, which trains a person to notice the cue and run a competing response, shows large effects on tics and nervous habits.
+
+## Behaviours to cut
+
+A behaviour you want more of needs the new response drilled. A behaviour you want less of also needs its cue or its reward taken away, because the reward keeps the old response strong. Scrolling a feed is the common case, since the quick good feeling pulls you back every time.
+
+- Remove the cue where possible: the phone out of the room.
+- Delay the reward, such as an app blocker with a wait.
+- Make the reward dull, such as a feed reset so nothing interests you.
+- Add a replacement response as well.
+- Watch closely for the old habit each time the cue appears.
+- Resisting the pull by willpower alone works poorly.
+
+## Where it fails
+
+The old habit stays stored in the brain. It can return in a new place, after a gap, or after a reminder, so a relapse means the old path fired and the script needs another round. An attempt can also uncover a deeper cue. Someone replacing rote memorisation may find that fear of making a mistake stops them trying the new method at all, and that fear has to be worked on first.
+
+- Choosing the version that feels easier is a warning sign.
+- Check that each change moves you closer to the goal.
+- Old habits weaken after a move or a new routine, so start then.
+- Forming a habit took a median of 66 days in one study.
+- The range in that study was 18 to 254 days.
+- A missed day did not reset progress.
 
 ## Related pages
 

@@ -24,13 +24,14 @@ On 2026-09-24 the owner deleted the prose from every wiki page and asked for it 
 - "do as many as you can before we run out of tokens for the week."
 - "i want the wiki to be written from the notes and NOT a rewrite. a regeneration from my research notes."
 - "when fable tokens run out for the week, i want you to continue the full assignment using Opus 5.5."
+- 2026-09-27, after reading the first 71 pages: "i didn't want just one paragraph also, i wanted some prose interspersed between pages." Then: "i generally don't mind a little bit more prose for the prose sections, and prefer a little bit less prose for the bullet points." Shown a rewrite of the Mindmaps page beside a fresh regeneration of it, he chose the rewrite: "the rewrite is actually better in my opinion. i think that might be the better option going forward."
 
 ## 2. State of the branch
 
 - Base commit `6e20c69` on `outline-regen-2026-09-24`: every wiki page stripped to frontmatter, H1, and its kept blocks (`## Related pages`, `## Sources`, sometimes `## Links`). The writing-system files under `02 - System/` that described voice are deleted in that commit. `main` is untouched and still serves the live site. Never push to `main`, never merge, never open a pull request. The owner merges when he has read the pages.
 - Two helper scripts were added in that commit: `scripts/outline-splice.py` (puts a new body on a page and sets the frontmatter keys) and `scripts/outline-kept-check.py` (proves the kept blocks and the H1 survived, byte for byte). `scripts/holdings.py` and `scripts/bias-sweep.py` were already there.
 - 328 pages are in scope. Three pages keep the body they have and are not touched: `wiki/Systems/Agentic Workflows/Poteto Paved Path.md` (the owner wrote it after the strip), `wiki/Research/Grok Bot Galaxy Transcripts.md`, `wiki/Research/Claude Fable 5.1 Bank.md`. The research banks under `wiki/Research/` that were never stripped, and the four catalogs under `wiki/Design/` with an em dash in the name, are also not touched. `wiki/Bibliography.md` is not touched.
-- A page is done when its frontmatter says `method: outline-2026-09-24`. That key is the only record of progress. Run `git pull --rebase` before you start and before each batch, and skip every page that already carries it. The local session works from the front of the batch order below; you work from the back, so the two of you meet in the middle.
+- A page is done when its frontmatter says `method: outline-2026-09-27`. That key is the only record of progress. A page carrying `method: outline-2026-09-24` was written in the first, thinner form (one opening paragraph, then bullets only) and needs the rewrite pass in section 4a; its own bullets are the fact list, and no new note-gathering is needed. Run `git pull --rebase` before you start and before each batch, and skip every page that already carries the 09-27 key. The local session works from the front of the batch order below; you work from the back, so the two of you meet in the middle.
 - The research notes are not in the public repo. They are in a private repo, `Logos52/llm-wiki-regen-private`, which holds the same branch and history plus one folder, `research-notes/`. On the web you clone that private repo, on the branch `outline-regen-2026-09-24`, and work there. `research-notes/raw/` is the vault's raw source folder (clippings, transcripts, papers, and `Source Index.md`, which maps each source to the pages it was compiled into), including `raw/private/`, where the owner's copies of paid course material sit (the iCanStudy program, the Refold courses, and others). That material is research to write from; the course's name, its lesson names and its links never appear in a page body, and no passage from it is quoted. `research-notes/workbench/` holds the bank, facts and claims files from the owner's workbench. `research-notes/research/` is the owner's research folder (banks on Grok Bot, East Asian education, American suburbs, Fable 5.1, and others). Commit and push only wiki pages and `log.md`; never commit a change under `research-notes/`. The local session pulls your commits from the private repo and moves the wiki pages onto the public branch, so the notes never reach the public repo.
 - Model: Fable 5.1 writes first. When Fable's weekly tokens are gone, the owner's instruction is to continue the whole assignment with Opus 5.5. A page Opus writes gets `--written-by opus` on the splice.
 
@@ -51,15 +52,59 @@ These override anything in `CLAUDE.md` or `AGENTS.md` about reading Owner Writin
 Body layout, between the H1 and the first kept block:
 
 - Opening: one paragraph of 1 to 3 plain sentences, no heading. Sentence one says what the subject is, in words a stranger has. The next sentence says why a new reader would care, concretely: what it changes, what it prevents, what decision it settles.
-- `## Core takeaways`: 3 to 7 bullets, one level, each a single claim the reader can act on or repeat. No sub-bullets, no bold lead-ins.
-- A mechanism section with a plain heading of 1 to 4 everyday words that fits the subject (`## How it works`, `## The mechanism`, `## How to do it`, `## The argument`, `## The steps`): outline form, bullets nested at most two levels, cause and effect said plainly, numbers only where they change what the reader does.
-- More sections only where the subject needs them, in the same outline form, with plain headings (`## Where it fails`, `## How to apply it`, `## What this desk refuses`, `## Terms`, `## Examples`). A hub or map page lists what the section holds and what each part is for. A Condensed page is the shortest form: takeaways and mechanism only.
+- `## Core takeaways`: 3 to 7 bullets, one level. A bullet is one sentence of about twelve words at most, one line on a phone. A fact that needs more words goes into a paragraph, never into a longer bullet. No sub-bullets, no bold lead-ins. The owner's words, 2026-09-27: "i want bullets to be shorter and not so dense."
+- A mechanism section with a plain heading of 1 to 4 everyday words that fits the subject (`## How it works`, `## The mechanism`, `## How to do it`, `## The argument`, `## The steps`): a paragraph of three to four sentences that explains the mechanism to a new reader, then bullets of one short sentence each, nested at most two levels, cause and effect said plainly, numbers only where they change what the reader does.
+- More sections only where the subject needs them, each opening with the same kind of paragraph and then short bullets, with plain headings (`## Where it fails`, `## How to apply it`, `## What this desk refuses`, `## Terms`, `## Examples`). A hub or map page lists what the section holds and what each part is for. A Condensed page is the shortest form: takeaways and mechanism only.
 - One diagram where a picture shows the mechanism better than bullets: a fenced code block with no language tag holding an ASCII drawing (a flow with arrows, a 2 by 2, a timeline, a ladder, a before and after). Under 12 lines and under 60 characters wide so it fits a phone. A markdown table is right for a comparison of two to five things. No diagram for decoration; skip it when the bullets already say it. The site does not render mermaid.
-- Explanatory paragraphs: at most two on the page beyond the opening, each 2 to 4 sentences, only where a bullet cannot carry the idea for a new reader.
-- Body length: 25 to 90 lines including blank lines for a normal page; under 40 for a Condensed page, a hub, or a thin subject.
+- Explanatory paragraphs: one at the top of every section after Core takeaways, three to four sentences, written for a new reader. A section may close with one or two more sentences where the bullets leave something to say. The prose carries the explanation and the bullets carry the facts. Reference page: `wiki/Dimensions/Deep Processing/Mindmaps.md` as of 2026-09-27.
+- Body length: 35 to 100 lines including blank lines for a normal page; under 50 for a Condensed page, a hub, or a thin subject.
 - Then the kept blocks, unchanged, byte for byte, in the order they already stand, at the end. The splice script does this.
 
-Frontmatter after the splice: `updated: 2026-09-24`, `written-by: <model>`, `prose-model: <model>`, `method: outline-2026-09-24`, and `description:` set to one plain sentence under 160 characters saying what the page is about (no title restated with a colon, no quality words). Every other key stays. Pass `--written-by opus` or `--written-by sonnet` if that is the model writing; the default is `fable`.
+Frontmatter after the splice: `updated: <the date of the write>`, `written-by: <model>`, `prose-model: <model>`, `method: outline-2026-09-27`, and `description:` set to one plain sentence under 160 characters saying what the page is about (no title restated with a colon, no quality words). Every other key stays. Pass `--written-by opus` or `--written-by sonnet` if that is the model writing; the default is `fable`.
+
+## 4a. The rewrite pass for a page carrying the 09-24 key
+
+The 71 pages written on 2026-09-24 have the right facts in the wrong shape. Do not regenerate them from the notes. Rewrite each from its own body:
+
+1. `cat` the page. Its body is the fact list. The kept blocks stay.
+2. Write the body again in the section 4 format: keep the sections and their facts; open every section after Core takeaways with a paragraph of three to four sentences for a new reader; cut every bullet to one sentence of about twelve words at most, and move what does not fit into the paragraph; keep the diagram or table where it earns its place, and tidy it if it is cramped.
+3. Steps 5 to 7 below, with the splice writing the 09-27 key (the script default), then step 8 and step 10.
+
+## 4b. Two passes, ruled 2026-09-27
+
+The owner's words: "if there is anything that still needs to be rewritten, go ahead and finish that rewrite using Opus 5.5, then do the final rewrite using Fable (to make it sound as natural as the one you just wrote, the Mindmaps -- rewrite)."
+
+- Pass 1, Opus 5.5: the rewrite pass of section 4a on every page carrying `method: outline-2026-09-24`, and the generation of section 5 on every page whose body is empty. Splice with `--written-by opus --method draft-2026-09-27`.
+- Pass 2, Fable 5.1: the final prose pass on every page carrying `method: draft-2026-09-27`. Reads the page as it stands and the reference page `wiki/Dimensions/Deep Processing/Mindmaps.md`, nothing else. Writes the body again as one fresh write in the section 4 format: keeps every section and fact, adds none, and brings the prose to the reference page's register. Splice with `--prose-model fable` and no `--written-by`, which keeps `written-by: opus` and sets `method: outline-2026-09-27`, the final key.
+- Keys, in order: `outline-2026-09-24` (thin first form) or an empty body, then `draft-2026-09-27` (Opus pass done), then `outline-2026-09-27` (final). A page is done only at the final key.
+
+## 4c. Checkpoint, 2026-09-27 evening, and how to resume
+
+State on the branch at the stop: 285 pages carry the final key `outline-2026-09-27`, 39 carry `draft-2026-09-27` (the Opus pass done, the Fable pass not), none carry the 09-24 key, none are empty. The Opus pass is complete for every page. The owner stopped the run to save session tokens.
+
+To resume: list the pages with `grep -rl --include='*.md' '^method: draft-2026-09-27' wiki`, group them by folder into batches of about ten, and give each batch to a fresh Claude Fable 5.1 agent with the instructions below (the same text the 2026-09-27 agents ran from). Political pages (section 6) go in their own batch. After each batch, run the QA script the local session used, or its equivalent: kept-check against 6e20c69, no bullet over about fourteen words outside hub link lines and tables, a paragraph at the top of every section after Core takeaways, and no em dash, bold, first person, source pointer, course name or private path in a body. Then `npm run copy-notes` and look at a few pages on the local site.
+
+### The Fable pass instructions, verbatim
+
+You are Claude Fable 5.1 working locally in `/Users/n1/Projects/llm-knowledge-base` on the git branch `outline-regen-2026-09-24`. Run `git branch --show-current` first; if it prints anything else, stop and report. You do the final prose pass on one batch of wiki pages, listed one repo-relative path per line in the batch file named in your task message. Your scratch folder is also named there.
+
+Each page in the batch carries `method: draft-2026-09-27`: an Opus 5.5 draft with the right facts and the right sections. Your job is to make each page read like the reference page `wiki/Dimensions/Deep Processing/Mindmaps.md`, which the owner chose on 2026-09-27 as the model for the whole wiki. Read the reference page first, then sections 3, 4, 4a, 4b and 9 of `/Users/n1/Projects/llm-knowledge-base/HANDOFF-web-outline-regen-2026-09-24.md`. Those, and the page in front of you, are the only wiki text you read. No notes, no other pages, no git history. If a page in the batch does not carry `method: draft-2026-09-27`, skip it and say so.
+
+For each page:
+
+1. `cat` the page. Note its type, its sections, its facts, its diagram or table, its kept blocks.
+2. Write the whole body again, from the opening paragraph to the line before the first kept block, as one fresh write, forward, for a stranger with ordinary English and ordinary life. Keep every section and every fact. Add no fact. Every section after `## Core takeaways` opens with a paragraph of three to four plain sentences that explains the section to a new reader, and may close with one or two sentences where the bullets leave something to say. A sentence uses only what the reader already has from the lines above it or from ordinary life. One fact per sentence. Everyday words. No mannered prose: no figure of speech doing a fact's work, no feeling or idea acting like a person, no balanced pair, no "not X but Y", no "X is not a Y; it is a Z", no epigram, no short punch line, no rhetorical question, no em dash, no bold in the body, no "This page", no first person, no source pointer in the body, no chat register. The bullets: one sentence each, about twelve words at most, one line on a phone. No semicolon anywhere in the body: a bullet with a semicolon is two bullets or a sentence in the paragraph. Move anything longer into the paragraph. Keep a diagram or table that shows the mechanism, tidy it if it is cramped, and drop it if the bullets already say it. A Condensed page, a hub, and the three reference pages (Glossary, Timeline, ICS Program Map) stay short.
+3. Write the body to `<scratch>/bodies/<slug>.md` (slug = the page path without `wiki/` and `.md`, slashes and spaces turned into hyphens). Run `python3 scripts/holdings.py <that file>`. Fix only NOT GIVEN where the noun is neither something a stranger has from ordinary life nor given in an earlier line, and COUNT. Ignore every other flag; do not reword or split a sentence for any other flag. Then:
+   `python3 scripts/outline-splice.py "<page>" <scratch>/bodies/<slug>.md --description "<one plain sentence under 160 characters>" --prose-model fable`
+   (no `--written-by`: the script keeps `written-by: opus` and sets `method: outline-2026-09-27`, the final key). Then `python3 scripts/outline-kept-check.py "<page>" --base 6e20c69` must print `OK`.
+4. Reread the page once as the stranger. Cut any closing line that only restates. If a section reads as written to clear a rule, write that section again as one fresh write from the facts in it.
+5. Political pages (handoff section 6) get the bias check again after your pass, with the cold read done as a separate pass with only the page and the cold-read prompt in front of you.
+
+No git command that changes anything (no add, commit, push, pull, rebase, checkout, stash, reset). No subagents. Touch only the pages in your batch and your scratch folder. Do not edit the handoff, the scripts, the reference page, or any other file. Re-read handoff sections 3 and 9 after every five pages.
+
+Final report, and nothing else. One line per page:
+`<path> | done | <body line count> | <longest bullet, in words>` or `<path> | skipped | <why>`.
+Then one line naming any rule you could not follow and why, or `rules: all followed`.
 
 ## 5. The steps for one page
 
@@ -70,7 +115,7 @@ Work with subagents where you can: one writer, one checker, one fixer per page, 
 3. Write a fact list to `/tmp/regen/facts/<slug>.md`: one fact per bullet, each ending in a tag: `[kept]`, `[notes: filename]`, `[url: host]`, `[owner-facts]`, or `[general]`. Ten to forty bullets, most of them tagged `[notes: ...]`. If fewer than five facts come from the notes and the kept blocks together, the page is thin: write the opening and the takeaways the notes support, and stop.
 4. Write the body to `/tmp/regen/bodies/<slug>.md` in the format above. Compose it as one fresh write from the fact list, forward, for a stranger who has ordinary English and ordinary life. Write it so the stranger can use the subject; check it afterwards. Never write it to clear a check.
 5. `python3 scripts/holdings.py /tmp/regen/bodies/<slug>.md`. Fix each NOT GIVEN where the noun is neither something a stranger has from ordinary life nor given in an earlier line: introduce it earlier, or take the reference out. Fix each COUNT: name the things counted or drop the number. Ignore every other flag. Do not reword anything for another flag, and do not split a sentence to clear a flag.
-6. `python3 scripts/outline-splice.py "<page>" /tmp/regen/bodies/<slug>.md --description "<one plain sentence>"`.
+6. `python3 scripts/outline-splice.py "<page>" /tmp/regen/bodies/<slug>.md --description "<one plain sentence>"`. The script writes today's date and `method: outline-2026-09-27` unless told otherwise.
 7. `python3 scripts/outline-kept-check.py "<page>" --base 6e20c69` must print `OK`. If it prints PROBLEMS, fix and rerun.
 8. Check as an adversary (a second agent if you have one): read the page once as a stranger, then against every rule in section 3 and the format in section 4. Report each offending line by kind: kept, holds, fact (a claim about the owner's setup that traces only to `[general]` or to nothing; a number or date with no traced fact), format, mannered, privacy, frontmatter. Quote the line. If anything is reported, regenerate the section that holds it as one fresh write from the fact list, never a patched sentence, then run steps 5 to 7 again. Two rounds at most; after that, record what is left.
 9. Political pages (section 6) get the bias check after step 8.
@@ -89,7 +134,7 @@ Every page under `wiki/Worldviews & the Political Order/`, the three under `wiki
 
 ## 7. Batches and order
 
-The local session takes batches from A forward. You take them from G backward. Skip any page already carrying `method: outline-2026-09-24` after a `git pull --rebase`.
+The local session takes batches from A forward. You take them from G backward. Skip any page already carrying `method: outline-2026-09-27` after a `git pull --rebase`.
 
 | Batch | Folders under `wiki/` | Pages |
 | --- | --- | --- |
@@ -172,7 +217,7 @@ These are the patterns the owner has struck in earlier sessions, taken from the 
 17. The cop-out. Reverting to old text, handing the page to another model, or asking the owner for the words when the prose fails. His words: "no cop outs please. finish what you started." Find what generated the fault, change how the sentence is produced, write it again.
 18. Listing everything when asked for what is relevant. Minimal means the reader's next action, not coverage.
 19. Rewording an accepted text on its way into a file. If the owner gives words, they go on word for word.
-20. Reporting work that did not run. Every "done" in the final report traces to a page that carries `method: outline-2026-09-24` and passed the kept-check. Never say his work is done or ready, never announce a next step for him.
+20. Reporting work that did not run. Every "done" in the final report traces to a page that carries `method: outline-2026-09-27` and passed the kept-check. Never say his work is done or ready, never announce a next step for him.
 21. Made-up names. Do not coin a label for a file, a batch or a pattern and then use it as if he knew it.
 22. Long-context decay. Reasoning holds, recall of rulings decays. Re-read sections 3 and 9 every ten pages.
 23. Personal facts. Draft freely, publish never. Country, residence, language level: never on a page.
@@ -180,4 +225,4 @@ These are the patterns the owner has struck in earlier sessions, taken from the 
 
 ## 10. What to say when you stop
 
-One short message. First line: how many pages carry `method: outline-2026-09-24` on the branch, and which batches. Then the pages you marked thin, each with the one thing that was missing. Then any page you skipped and why, in one line each. Nothing else: no next steps, no summary of the rules, no account of the checks.
+One short message. First line: how many pages carry `method: outline-2026-09-27` on the branch, and which batches. Then the pages you marked thin, each with the one thing that was missing. Then any page you skipped and why, in one line each. Nothing else: no next steps, no summary of the rules, no account of the checks.

@@ -3,10 +3,11 @@ title: "The Context Problem"
 type: concept
 status: developing
 created: 2026-08-22
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: draft-2026-09-27
 prose-model: opus
-description: ""
+description: "Sentences that rely on words or links the page has not yet given, why writers and language models produce them, and what fixes them."
+written-by: opus
 tags:
   - writing
   - llm
@@ -15,6 +16,54 @@ source-count: 18
 ---
 
 # The Context Problem
+
+The context problem is the fault of a sentence that uses a word, a meaning, a connection or a reference the page has not yet given the reader. The writer knows the missing piece, so the sentence reads fine to them, and a reader who has only the lines above it cannot follow. Language models make this mistake often, because they write while holding the whole subject, and the usual fixes do not stop it.
+
+## Core takeaways
+
+- A sentence may use only what earlier lines on the page gave.
+- Knowing a subject makes it hard to see what others lack.
+- Trying harder to picture the reader does not fix it.
+- New rules, ban lists and "write simply" prompts did not hold.
+- A checker who knows less than the writer catches it.
+- Links do not count as definitions; the page must stand alone.
+
+## What a sentence can need
+
+Every sentence rests on things the reader must already have. There are four kinds, and a gap in any one of them loses the reader. A familiar word used in a special sense is the hardest to catch, because the reader recognises the word and misses the meaning. A connection between two ideas can also be missing even when both ideas were given.
+
+- A word: a term the page never defined.
+- A meaning: a common word used in a sense special to this site.
+- A connection: a link between ideas stated as obvious, never shown.
+- A reference: "the X", "it" or "one" with nothing earlier to point at.
+
+## Why it happens
+
+People who know something cannot fully set that knowledge aside when judging what others know. In a 1990 study, people tapped out well-known songs and predicted listeners would name about half of them. Listeners named 3 of 120, about 2.5 percent. Speakers plan from what they themselves can see and only later check for gaps, and that check is the first thing lost when they are busy.
+
+- Better-informed people cannot ignore what they know, even when paid to.
+- A writer builds each sentence from their own knowledge, then checks it.
+- A language model holds the whole subject while writing each line.
+- Models trained on human preferences check less for shared understanding.
+- Asking a model for a set reading level hit it about 15 percent of the time.
+
+## The local record
+
+On this site the problem was logged over six weeks of drafting before 2026-08-22. The record counts 218 instances, in 32 of 46 working sessions. Of the responses to those instances, 145 changed nothing about how pages get written, and where a rule was written against the problem, it came back 91 percent of the time. Each fix was obeyed in form and the fault came back in a new place.
+
+- Added rules and memory notes: broken within the day.
+- Ban lists of words and shapes: output passed and was still unclear.
+- The same model reviewing its own draft: failed within minutes.
+- Readability scores and "be concise": measure length, not missing context.
+
+## What works
+
+The change made on 2026-08-22 alters what is in front of the writer and who checks the draft. The writer drafts with the research notes closed. A list of every term the page has already given is rebuilt from the text as it grows. A second model that sees only the draft reads it cold and reports every line it cannot follow.
+
+- Draft with the research notes closed.
+- Track what the page has given so far.
+- Have a reader with less knowledge check the draft.
+- Write every page so it works as the first page read.
 
 ## Related pages
 

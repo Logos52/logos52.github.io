@@ -3,12 +3,13 @@ title: "Exam Execution"
 type: hub
 status: developing
 created: 2026-05-29
-updated: 2026-09-16
-method: eggbot-tight-2026-09-16-generate
-prose-model: grok
-written-by: grok
+updated: 2026-09-27
+method: outline-2026-09-27
+prose-model: fable
+written-by: opus
 model: grok
 source-count: 9
+description: "How stress, sleep, meals and breaks affect marks on exam day, and which late methods find the last gaps before an exam."
 tags:
   - performance
   - exams
@@ -16,6 +17,43 @@ tags:
 ---
 
 # Exam Execution
+
+Exam execution is what you do in the last weeks, the night before and the day of an exam to turn what you know into marks. Most marks lost at this stage come from stress, lost sleep and meal timing, and few come from missing knowledge. A few plain habits protect the work already done.
+
+## Core takeaways
+
+- Calm on the day matters more than last-minute revision.
+- Stress narrows thinking, so known answers fail to come back.
+- Sleep the night before, since a later lie-in does not repay it.
+- No large meal in the two hours before a paper.
+- Between papers, rest the mind with slow breathing or meditation.
+- Late practice adjusts knowledge to the exam's style.
+
+## How pressure costs marks
+
+Recalling an answer means rebuilding it from the connections you made while studying. Under strong stress the body prepares to fight or run, and the loose, wide thinking that finds those connections shuts down. That is why an answer that will not come in the exam hall arrives an hour later over lunch. Anxious cramming outside the room adds stress and gives little chance of covering the exact question that appears.
+
+- Flick through notes only if it keeps you calm.
+- Better: run through your mind maps with your eyes closed.
+- Slow breathing with long out-breaths calms the body within minutes.
+
+## The day itself
+
+Sleep, food and breaks are the physical side. The brain stores what was learned during the sleep that follows study, so losing sleep before an exam costs more than recovery sleep can give back in time. Sleepiness after a meal peaks one to two hours later and is stronger after a large meal. Between two papers, twenty to thirty minutes of meditation or quiet rest restores focus better than a big lunch.
+
+- Seven to nine hours of sleep the night before.
+- Have a snack, such as half a cereal bar, and no full meal.
+- Even three or four minutes of meditation helps in a short gap.
+
+## The late methods
+
+Late in preparation the gaps are few and hard to find. Some gaps are known, and they feel like slow or shaky recall. Others are unknown, a whole angle on the topic you never considered and feel falsely sure about. Past papers in the last two to three weeks tune your answers to the exam's style, and the pages below cover the rest of the late work.
+
+- [[Breaching Questions]]: write the hardest question you cannot answer, then work on it.
+- [[ReCOVer System]]: recall, chunk, order, then write, for essays.
+- [[Silly Mistake Syndrome]]: most "careless" errors are gaps in logic.
+- [[Group Study]]: a leader, a timekeeper and a fact-checker quiz each other.
+- [[Multipass System|Multipass System]]: covers everything in layers when time has run out.
 
 ## Related pages
 

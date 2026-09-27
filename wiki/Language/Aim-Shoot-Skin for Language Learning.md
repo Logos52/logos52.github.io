@@ -3,12 +3,13 @@ title: "Aim-Shoot-Skin for Language Learning"
 type: system
 status: developing
 created: 2026-06-11
-updated: 2026-09-13
-method: plain-register-2026-09-13
+updated: 2026-09-27
+method: draft-2026-09-27
 prose-model: opus
-written-by: grok
+written-by: opus
 model: grok
 source-count: 5
+description: "A loop for learning a language from material just above your level: choose a passage, fill the gaps, use the words, then link them by roots."
 tags:
   - language-learning
   - immersion
@@ -18,6 +19,58 @@ tags:
 ---
 
 # Aim-Shoot-Skin for Language Learning
+
+Aim-Shoot-Skin for language learning is a loop for picking up words and grammar from material you want to understand. You choose a passage a little beyond your level, look up only what you need to follow it, use those words, and later look for patterns that link them. Words learned to solve a real problem stay longer than words drilled from a list, and the loop keeps every study hour tied to something you want to read or say.
+
+## Core takeaways
+
+- Choose material you care about, slightly above your level.
+- Work out new words from context before looking them up.
+- Look up only what blocks understanding of the passage.
+- Use each new word as often as you can, and keep a flashcard.
+- Invent variations of a dialogue to create more questions.
+- Look for roots and shared parts later, when time allows.
+
+## The three steps
+
+The names come from a general study method: aim sets the questions, shoot answers them, skin trims the result to what you can use without the source. In a language the question is always the same, namely what this passage means and how to say something like it. The steps run as a cycle, and most of the learning happens in the back and forth between the first two.
+
+```
+aim:   passage you half understand
+          │
+shoot: look up the gap, say it, write it
+          │
+skin:  link it to roots and words you know
+          │
+       passage now understood ──> pick a harder one
+```
+
+## Aim
+
+Language material sits at three levels for any learner: what is comfortable, what is just beyond, and what is too hard to follow. The aim is the middle band, where you catch the gist and part of the words. Readers need about 98% of the words on a page known to read without help, and at 80% reading becomes frustrating. Any subject works as long as you want to understand it.
+
+- A favourite show scene, article or book passage all work.
+- Hold the "partly get it" feeling; that is the problem to solve.
+- Branch a dialogue: what would you say, and what might they reply?
+- Advanced learners use technical material to reach the same band.
+
+## Shoot
+
+Shooting is the plain work of filling the gap. When a word or phrase blocks the meaning, or you cannot say what you want to say, you look it up and learn to produce it. Flashcards alone fade because the word stays unconnected, and use alone fades because nothing records what you learned, so the two go together.
+
+- Use each new word in listening, speaking, reading and writing.
+- More use means fewer flashcard repeats.
+- A little preparation makes a passage possible to start.
+- As the passage becomes easy, aim at harder material.
+
+## Skin
+
+Skinning means finding structure so there is less to memorise. Words that share a root can be learned as a family, as photo, photograph and photometry share the Greek word for light. In Chinese, characters that share a component often share part of their sound or meaning. This step is optional for fluency and pays most for reading and writing, and most of all for character scripts.
+
+- Every few weeks, scan your flashcards for shared parts.
+- About half an hour usually turns up a few links.
+- Drawing all the links can get crowded; capture them another way.
+- Short on time: keep aim and shoot, skip skin.
 
 ## Links into the knowledge base
 

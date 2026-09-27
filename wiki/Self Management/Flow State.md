@@ -3,10 +3,10 @@ title: "Attention, Focus & Flow"
 type: concept
 status: developing
 created: 2026-05-08
-updated: 2026-09-11
-written-by: fable
-method: plain-rewrite-2026-09-11
-prose-model: fable
+updated: 2026-09-27
+written-by: opus
+method: draft-2026-09-27
+prose-model: opus
 source-count: 15
 aliases:
   - "Flow State"
@@ -20,6 +20,7 @@ merged-from:
   - "Focus Management: Training the Return Mechanism"
   - "Attention Management: Preserving Flow"
   - "OFF-Rest Timing"
+description: "How to get back into focus quickly, move between tasks without gaps, and time rest inside long work blocks."
 tags:
   - self-management
   - focus
@@ -31,6 +32,73 @@ tags:
 ---
 
 # Attention, Focus & Flow
+
+Flow is the state of full attention on one task, where the work feels easy and time passes without notice. Almost nobody stays in it for long: attention drifts, and the skill that decides a day's output is how quickly you get back. Three habits cover most of that skill: removing what pulls you out, moving straight from one task to the next, and resting before you are drained.
+
+## Core takeaways
+
+- Focus rises and falls; getting back quickly matters most.
+- Slow re-entry can halve the useful time in a long block.
+- Log every break in flow, then remove the causes one by one.
+- Between fixed appointments, go from priority to priority with no gap.
+- Rest when your thinking goes dull, before you feel tired.
+- Rest for about a third of the time you just worked.
+
+## How focus works
+
+Think of a line on a chart: below it you can do real work, above it you are too distracted. Forces push you up, such as a notification, a noisy room, a stuffy space, or a person who might walk in. Other forces pull you down, mainly a trained habit of noticing drift and coming back. On any day the balance decides where you sit, and the time spent crossing back below the line is what gets wasted.
+
+- Output on a single task climbs over the first ten minutes or so.
+- A two-minute interruption resets that climb.
+- A two-second glance usually does not.
+- After a real interruption, returning to complex work can take over 20 minutes.
+- Multitasking is fast switching, and each switch reloads the task.
+
+```
+3-hour block, 30-minute focus stretches
+
+enter in 5 min:  5|30|5|30|5|30|...   ~85% useful
+enter in 30 min: 30|30|30|30|30|30    ~50% useful
+```
+
+## Removing what pulls you out
+
+Distractions come in two kinds. Environmental ones act on your senses: sound, alerts, things in view, heat or discomfort. Interactive ones come from people and obligations, including the mere chance that someone will interrupt or the knowledge that another task is due later. The quickest way to find yours is to keep paper beside you during a session and write down each thing that broke your focus.
+
+- Write the cause the moment you notice the break.
+- Label it environmental or interactive.
+- Fix one or two causes before the next session.
+- Tell the people around you when you are not to be disturbed.
+- Use sound to mask noise; special "focus" frequencies add little beyond that.
+- Before a block, write the next action, the materials, what is blocked, and a fallback task.
+- Before switching away, note where you stopped and what comes next.
+
+## Moving between tasks
+
+A clock-based schedule assigns tasks to times, and then most of the day's stress comes from running over or finishing early. Managing attention instead of time means dropping the clock between fixed points such as school, meetings, meals and sleep. Inside those gaps you do the top priority, then the next, with no pause to decide. The only check you run is whether your attention is where you meant it to be.
+
+- Keep the fixed appointments and ignore the clock between them.
+- Finish a task, then start the next priority at once.
+- Use low-attention stretches such as a commute for flashcards or planning.
+- Leave full-attention stretches, such as a class or a match, alone.
+- Judge the day by tasks done and time held in flow.
+- A break is fine when it is the break you chose.
+- Plan a short reprioritising pass before and after each meeting.
+- It suits people who already run a basic schedule well.
+- For a task that must stop at a set time, use a hard time limit instead.
+
+## Resting inside a long block
+
+A fixed timer, such as 25 minutes of work and 5 of rest, cuts you off in the middle of flow and keeps you at the desk after focus has gone. Resting at the first sign of dullness works better: reading takes longer, focus takes more effort, interest drops. Rest caught early restores focus quickly, while rest taken after you are exhausted takes much longer to work. For work periods of an hour and a half or more, time each stretch and rest for a third of it.
+
+- 45 minutes of work, then 15 of rest.
+- Work stretches get shorter as the day goes on.
+- Still fresh: take a walk and mentally go over the topic.
+- Still fresh: or do calm chores that need little thought.
+- Tired: sit and follow your breath for 5 to 15 minutes.
+- Very short break: slow breathing, or looking at trees and distant views.
+- Scrolling during a break rarely leaves you rested.
+- Done well, timed rest gives five to six focused hours a day instead of two or three.
 
 ## Related pages
 

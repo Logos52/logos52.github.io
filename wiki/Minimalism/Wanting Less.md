@@ -2,12 +2,12 @@
 title: "Wanting Less"
 type: concept
 status: seed
-description: ""
+description: "Avoiding purchases by checking the motive behind them, especially the wish to show others who we are."
 created: 2026-06-11
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
+updated: 2026-09-27
+method: draft-2026-09-27
+prose-model: opus
+written-by: opus
 model: grok
 source-count: 3
 tags:
@@ -17,6 +17,32 @@ tags:
 ---
 
 # Wanting Less
+
+Wanting less is the practice of not buying an object in the first place, by checking the reason for wanting it. It is the cheapest form of minimalism, because an object never bought has no space, upkeep, attention or exit cost. Many purchases are made to show other people who we are, and naming that motive often removes the want.
+
+## Core takeaways
+
+- The cheapest object to own is the one not bought.
+- Many purchases aim to show others who we are.
+- Other people notice far less than we expect.
+- Ask what the purchase is meant to prove, and to whom.
+- An object that passes still needs a plan for leaving.
+
+## How it works
+
+People treat their possessions as part of themselves, so buying a thing can feel like becoming the person who owns it. A camera can stand for being a photographer, and a set of books for being well read. Studies of the spotlight effect show that people overestimate how much others notice their clothes and belongings. When the audience is not watching, the object bought to impress it has no job left.
+
+- Ask what the object says about you.
+- Ask who you imagine noticing it.
+- Ask whether you would buy it if no one saw it.
+- If the answer is no, the want is for approval.
+
+## A useful comparison
+
+A hotel room shows how little is needed to live well for a stretch of time. Travellers pack a few favourite clothes and the essentials, and the room feels good because it is clean and uncluttered. Using that as a reference makes it easier to see which objects at home do real work.
+
+- Pack for a week, then notice what went unused at home.
+- Buy for how you live now.
 
 ## Related pages
 

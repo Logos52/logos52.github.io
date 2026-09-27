@@ -2,11 +2,12 @@
 type: concept
 status: developing
 created: 2026-05-08
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: draft-2026-09-27
 prose-model: opus
-written-by: fable
+written-by: opus
 source-count: 20
+description: "Why putting tasks off is a learned escape from a bad feeling, and the changes to surroundings, plans and first steps that reduce it."
 tags:
   - self-management
   - focus
@@ -16,6 +17,59 @@ tags:
 ---
 
 # Procrastination: a System Problem
+
+Procrastination is putting off a task you intend to do, knowing the delay will cost you. Most people treat it as a shortage of motivation and try to feel more driven, which works for a few days and then fades. Delay is more reliably cut by changing the surroundings, the plan and the size of the first step, so the task gets started on low-motivation days too.
+
+## Core takeaways
+
+- Motivation rises and falls, so a plan that needs it fails most days.
+- Build plans you could finish on a bad day.
+- Remove temptations from view before relying on self-control.
+- Name the exact behaviour and its cause; "procrastination" covers many.
+- Make the first step so small it needs no motivation.
+- Forgiving yourself for a past delay reduces the next one.
+
+## Why it happens
+
+Putting a task off is a way of escaping a bad feeling now: boredom, doubt, or the size of the job. The relief is immediate and the cost comes later, so the brain learns the delay the way it learns any habit. Sleep, mood, other people and life events move motivation up and down every day, so a system built on feeling motivated breaks often. Each round of pumping motivation back up leaves less to work with, and the end of that cycle is burnout.
+
+```
+motivated --> progress --> progress unclear --> fade
+    ^                                            |
+    +---------- push yourself again <------------+
+                (less left each round)
+```
+
+- The more unpleasant the task, the more likely the delay.
+- People who act on impulse delay more.
+- Delay rises when the reward is far off.
+- People pick small, easy tasks first and leave the important one.
+- Tests of willpower as a fuel that runs out failed large replications.
+
+## What works
+
+People who reach their goals most reliably meet fewer temptations, and effort spent resisting temptation predicts little. Changing the situation works better than fighting an urge in the moment. Five changes work together: surroundings, a distraction list, a schedule, a minimum goal and consequences. Using only one or two of them is the most common reason the approach fails. Treatments based on changing thoughts and behaviour have the strongest record in trials.
+
+- Surroundings: phone in another room, blockers on, a different room for work.
+- Distraction list: write down each thing that pulls you away, then remove it.
+- Schedule: specific blocks with a clear task, since "what now?" invites delay.
+- Minimum goal: a chain of tiny steps.
+  - Stand up, walk to the desk, sit, open the book, work two minutes.
+- Consequences: tell someone the goal and agree a cost for missing it.
+  - Useful for short, urgent pushes; it does not build a habit.
+- "When X happens, I will do Y" plans raise follow-through.
+- Deadlines you set yourself help, and evenly spaced ones help more.
+
+## Quick moves for today
+
+When a task is stuck right now, lower the cost of starting. Setting up the work without committing to do it often leads straight into doing it. Starting a small piece the evening before makes the next day's start easier, because an unfinished task is easier to pick up than a blank one. Aiming for your own best effort in the time given takes away the pressure of a perfect result.
+
+- Break the task into small written steps.
+- Close tabs, silence the phone, open the materials, then decide.
+- Do five minutes tonight to a good standard.
+- Work next to friends in a shared focus session.
+- Start at a fresh point, such as a Monday, if that helps you begin.
+- After a bad day, forgive the delay and plan the next step.
 
 ## Related pages
 

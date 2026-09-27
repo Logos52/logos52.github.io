@@ -2,12 +2,13 @@
 type: concept
 status: developing
 created: 2026-05-16
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: grok
+written-by: opus
 model: grok
 source-count: 2
+description: "Where a recognisable style comes from, why a quiet style keeps attention on substance, and why a consistent style helps an audience."
 tags:
   - style
   - communication
@@ -17,6 +18,44 @@ tags:
 ---
 
 # Style
+
+Style is the recognisable way a person does something, such as writing, dressing or designing, and it comes from what they notice, what they pick and how they arrange it. A style put on deliberately tends to show the effort behind it, and readers and viewers notice that effort before the content. Knowing this changes where to spend the effort: on the substance and the choices, with the look following from them.
+
+## Core takeaways
+
+- Style comes from what you notice, choose and order.
+- Trying to look stylish tends to show the effort.
+- A quiet style keeps attention on the substance.
+- A steady style tells the audience what to expect.
+- Cut words and parts that do no work.
+- Writing a thing out helps work out what you think.
+
+## How style forms
+
+Style builds up from many small decisions made the same way over time. A writer who keeps choosing the plain word and the concrete example ends up with a voice readers recognise, without setting out to have one. E. B. White, co-author of the writing guide The Elements of Style, advised writers to keep themselves in the background, so the reader's attention goes to what is said and away from the writer's mood. The same holds for clothing and design, where a few choices repeated over a life become a signature.
+
+- Repeated choices, made the same way, add up to a style.
+- The person shows in the selection more than in decoration.
+- Omit needless words, and make each remaining one do a job.
+  - Omitting words is different from writing only short sentences.
+- Composing something also clarifies the thought behind it.
+
+## Recessive style
+
+A recessive style is one that draws little attention to itself. Plain, well-made clothing is the everyday example: it fits and works, and people notice the person wearing it. In writing and design it means layout and wording that let the content come forward. It is also a form of restraint toward others, since it spends less of their attention.
+
+- The form stays plain so the content is easy to see.
+- It spends little of the audience's attention on the surface.
+- It must still show the important facts plainly.
+- It fits the setting, which charisma also depends on.
+
+## Why consistency helps
+
+Once people recognise a pattern, they get ready for the kind of input that pattern brings. A consistent style lets readers or viewers set that expectation early and spend their effort on the content. A style that changes without reason makes them read the surface again each time.
+
+- A known pattern tells the audience what is coming.
+- Consistency lowers the effort of reading or viewing.
+- Change the style only when the content calls for it.
 
 ## Related pages
 

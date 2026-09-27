@@ -3,14 +3,15 @@ title: "WPW"
 type: technique
 status: developing
 created: 2026-05-06
-updated: 2026-09-11
-written-by: fable
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+written-by: opus
+method: outline-2026-09-27
 prose-model: fable
 aliases:
   - Reverse Explanation
 merged-from:
   - Reverse Explanation
+description: "Revising by teaching a topic from memory to an imagined student, big picture first, each idea explained before its name."
 tags:
   - learning
   - retrieval
@@ -21,6 +22,68 @@ tags:
 ---
 
 # WPW
+
+Whole-part-whole, or WPW, is a way of revising by teaching a topic from memory to an imagined student who knows nothing about it. You first explain what the topic is about as a whole, the big picture, then go into one of its parts, then return to the whole before the next part. Done properly it finds the gaps in a whole topic within a session or two, which is why it is used for weekly revision.
+
+## Core takeaways
+
+- Teach from memory, with notes closed.
+- Explain an idea first and give its name last.
+- Tie every part back to the big picture.
+- Speak slowly, out loud or in a whisper.
+- Each explanation you cannot give is a gap to study.
+- If it feels easy, it is probably being done wrong.
+
+## How it works
+
+Most people teach in a line: a term, its definition, an example, then another term. That order matches a textbook, and it lets you recite facts without showing how they connect. WPW forces the connections, because every part has to be placed against the whole before you move on. A single session tests recall of facts, explanation, application and judgment together, which few other methods do.
+
+```
+whole --> part --> whole --> part --> whole
+          after each part: does it still fit the whole?
+```
+
+- Imagine a student, since a real friend already knows things.
+- After nearly every sentence, ask if it relates to the whole.
+- If no link is clear, go back to the whole.
+- Whisper or speak, since talking forces a slow pace.
+- Doodle a rough map at the speed you talk.
+- Avoid retracing the order you first learned it in.
+
+## Name last
+
+A reverse explanation gives the meaning before the word. To teach oxygen, first describe breathing, then the molecule every cell needs, then how cells use it, and only then say the word oxygen. The term arrives already attached to something the student understands. Giving a term and then defining it is a habit worth catching, and recording yourself the first few times shows whether you do it.
+
+- Idea first, then why it matters, then its name.
+- Starting with a definition means it is being done wrong.
+- Failing to explain without the term reveals a gap.
+
+## The two stages
+
+The session runs in two stages. First explain in plain words, with no technical terms, in this order: what the topic is about, why it matters, its main parts, and how those parts relate. Then add the terms to each part and explain each part in full detail. Plain explanation prepares you for hard and unexpected questions, and technical explanation for definition and detail questions.
+
+- Plain stage: about, why, parts, relations.
+- Technical stage: label the parts, then explain each in detail.
+- If you cannot describe the topic without details, rebuild the big picture.
+
+## Finding and fixing gaps
+
+When an explanation fails, stop and go back to your notes and sources. Learn what was missing well enough to teach it, then teach it again. A point may need three or four attempts. Feeling uneasy about how many gaps appear is a normal part of this, since people usually think they understand more than they can explain.
+
+- Wait at least three days after first building the notes.
+- A few days lets weak links fade enough to show.
+- Eight or nine days is still fine.
+- Repeating the method later still finds new gaps.
+
+## Time and place in a schedule
+
+A full pass on a subject can take a couple of hours, and revising a large course can take five to ten hours over two days. Rushing breaks the method. It fits an end-of-week or two-week review, so later sessions can target what it found. Three to four weeks later, writing out everything you remember and practice papers take over.
+
+- Mid-week sessions only when weekly volume is high.
+- Flashcards stay daily, in short spare moments.
+- Past papers stop improving scores after a while.
+- WPW keeps helping because time goes only to gaps.
+- Learners who rely on a good teacher fall behind as material gets harder.
 
 ## Related pages
 

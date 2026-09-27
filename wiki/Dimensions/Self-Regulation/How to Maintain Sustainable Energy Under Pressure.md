@@ -3,12 +3,12 @@ title: "How to Maintain Sustainable Energy Under Pressure"
 type: concept
 status: developing
 created: 2026-05-14
-updated: 2026-09-11
-written-by: grok
+updated: 2026-09-27
+written-by: opus
 model: grok
-method: plain-rewrite-2026-09-11
+method: outline-2026-09-27
 prose-model: fable
-description: ""
+description: "What restores energy after heavy work, why weekends and holidays fall short, and how to fit recovery into a busy week."
 aliases:
   - Recovery
 merged-from:
@@ -26,6 +26,82 @@ tags:
 ---
 
 # How to Maintain Sustainable Energy Under Pressure
+
+Recovery is what restores energy after work, and time off does not guarantee it. A person under heavy load can take every weekend off, come back tired each Monday, and slide toward burnout over months or years. Knowing what recovery needs lets a busy person get it in short blocks of time, and shows why a holiday on its own rarely fixes the problem.
+
+## Core takeaways
+
+- Low effort and relaxation are different things.
+- Scrolling a phone is low effort and keeps the brain busy.
+- Recovery needs a mental switch-off from work.
+- High load makes switching off hardest when it matters most.
+- Effortful hobbies with visible progress can restore more than rest.
+- Exercise, people, daylight and sleep give the largest return.
+- Tiredness shows in choices, so plan before the tired moment arrives.
+
+## How recovery works
+
+Research on recovery from work finds four experiences that restore energy: relaxation, detachment, mastery and control. Relaxation means low activity in whatever system was worked hard that day, so a mentally draining day needs something mentally quiet. Scrolling a phone is low effort and keeps up a stream of small decisions and emotional swings, so it relaxes little. Sleep repairs physical tiredness well, while mental tiredness can carry on for weeks.
+
+- Relaxation: low activity for the tired system.
+- Detachment: not thinking about work outside work.
+  - Among the strongest predictors of recovery.
+  - People who detach are no less engaged at work next day.
+- Mastery: an activity with a sense of progress, such as a sport.
+  - Progress makes detachment easier.
+  - Over years it becomes a hobby that restores reliably.
+- Control: time spent on something you chose, even 15 minutes.
+
+## Why breaks alone fail
+
+Heavy work makes detachment harder, so the people who most need recovery get the least of it. A common belief adds to this, that caring about the work means thinking about it all the time. A weekend under that load stops the decline for two days without reversing it. Repeated over months, the result is a long slide in which feeling well becomes hard to remember.
+
+- A two-week holiday reduced burnout in one study.
+  - Three weeks after return, most of the effect was gone.
+- Recovery that falls short while demands continue adds up.
+- Burnout builds up over time, with no single event behind it.
+
+```
+energy
+  |\
+  | \__ weekend
+  |    \__ weekend
+  |       \____ holiday
+  |            \______
+  +----------------------> months
+```
+
+## The prerequisites
+
+A few activities give a large return for the time they take. They are easy to dismiss because they sound basic, and they tend to be the first things cut in a busy week. Protecting them means taking time away from the urgent work, which feels wrong at first. How the time is spent also matters, since an hour of work you chose and care about drains less than an hour of work you did not choose.
+
+- Exercise reduces depression, anxiety and distress.
+- In-person contact helps more than online contact.
+- Daylight lifts mood.
+- Light is the main signal for the body clock.
+- Sleep of 7 to 9 hours for adults.
+- Nature: 30 minutes at once, or about 120 minutes a week.
+  - A park walk improved working memory more than a city walk.
+
+## When too tired to start
+
+A tired brain picks the option that needs less planning, even when the person knows it is worse. The kind of choice a person makes is a better measure of fatigue than asking how tired they feel. A long day of hard mental work changes the chemistry of the brain area that handles planning, which fits the shift toward low-planning choices. The fix is to take the planning out of the moment of action.
+
+- Decide in advance: book exercise in the calendar a week ahead.
+- Plan nothing on arrival: get changed and go.
+- Keep a list of activities that might be relaxing to try.
+- Give two or three of them 10 to 15 minutes some evenings.
+- With no energy to plan, spend 30 minutes somewhere green.
+
+## Building resilience
+
+Some people react so strongly to stress that no amount of rest keeps up. For them, exercise, people, daylight and sleep buy a short-term lift, and the lift is the time to build resilience skills. Mindfulness meditation helps, and the benefit can take 20 to 30 minutes a day for about two months, which is unrealistic for someone already burnt out. Trials find modest effects on anxiety and depression at eight weeks.
+
+- Get the prerequisites in place first.
+- In the better weeks, practise reframing stress and meditation.
+- Most stresses still involve a choice, often a choice with more steps.
+- Judge urgency by consequences you could not deal with.
+- Reading a racing heart as readiness can improve performance.
 
 ## Related pages
 

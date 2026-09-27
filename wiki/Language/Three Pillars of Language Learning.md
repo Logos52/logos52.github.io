@@ -2,12 +2,13 @@
 type: synthesis
 status: developing
 created: 2026-05-06
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: fable
+written-by: opus
 source-count: 14
 last-audited: 2026-08-13
+description: "Preparation, input with lookup tools and input without tools: what each kind of study time does, how to do the last two, and how to balance them."
 tags:
   - language-learning
   - immersion
@@ -15,6 +16,62 @@ tags:
 ---
 
 # Three Pillars of Language Learning
+
+The three pillars are three kinds of language study time: preparation, which is study of the language itself, interactive immersion, which is watching or reading real material with lookup tools, and freeflow, which is the same kind of material with no tools at all. Each kind does a different job, and a learner who does only one kind stalls. Sorting a week's hours into the three shows which one is short.
+
+## Core takeaways
+
+- Preparation makes later input easier to follow.
+- Interactive immersion uses tools to understand hard material.
+- Freeflow builds instinct and gives far more exposure per hour.
+- All three need full attention to count.
+- The right mix depends on what is limiting progress now.
+- Re-check that limit every one to two weeks.
+
+## The three modes
+
+The modes differ in how much help the learner takes while listening or reading. In preparation there is no real input at all, since the learner is learning sounds, the script, common words and grammar points so that later input makes more sense. In interactive immersion the learner watches or reads with tools on and stops to work out sentences. In freeflow the learner lets the material run without pausing, rewinding or looking anything up, and relies on what is already known.
+
+| Mode | Tools | What it builds |
+| --- | --- | --- |
+| Preparation | study tools | sounds, script, words, grammar |
+| Interactive | lookups, pause | understanding of hard sentences |
+| Freeflow | none | speed, instinct, volume |
+
+- Preparation includes word review and short grammar reading.
+- Interactive work covers intensive reading, listening and transcription.
+- Freeflow gives up to five times more exposure than interactive work.
+- Freeflow is also practice for real life, where no tools exist.
+
+## How to do interactive work
+
+Interactive work is slow on purpose. A learner may spend ten minutes on two minutes of video, pausing after each line to test whether it was understood. The working rule is to count the unknown words in a sentence, and the count decides whether to work through the sentence or let it go.
+
+- Pause after each line and check your understanding.
+- Count the unknown words in the sentence.
+- Two or fewer: look them up and piece the sentence together.
+- Three or more: check one word, then move on.
+- Count minutes of work, whatever length of video they cover.
+
+## How to do freeflow
+
+Freeflow needs material that is interesting and close to the learner's level, or attention drifts and the time is wasted. The easiest way to get such material is to reuse something already worked through with tools, or something already seen in the learner's own language. After a session, a short note records how much was understood, whether it was interesting and whether focus held.
+
+- Rewatch material done interactively, now without tools.
+- Or watch something already seen in your own language.
+- Getting the gist is enough.
+- Understanding grows with volume.
+- Note comprehension, interest and focus after each session.
+
+## Balancing the three
+
+Balance means giving the most time to whichever mode is holding progress back. If input is almost all noise, more preparation helps. If preparation starts taking the hours meant for input, it has grown too large, and a cap on new words fixes it. A text becomes readable at about 95 percent known words and comfortable at about 98, which is a way to check whether material is at the right level.
+
+- Too little understood: add preparation or choose easier material.
+- Too much time on word review: cap new words, add input.
+- Material easy and comfortable: shift hours toward freeflow.
+- Raise comprehension with slower playback, rewinding or plot summaries.
+- Change one thing at a time and watch the result.
 
 ## Related pages
 

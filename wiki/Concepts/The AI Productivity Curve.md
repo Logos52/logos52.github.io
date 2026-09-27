@@ -2,12 +2,12 @@
 title: "The AI Productivity Curve"
 type: concept
 status: seed
-description: ""
+description: "Whether AI is raising US productivity yet: national figures above trend, company surveys reporting little gain, and why both can hold."
 created: 2026-06-19
-updated: 2026-09-18
-method: plain-rewrite-2026-09-11
-prose-model: opus
-written-by: grok
+updated: 2026-09-27
+method: outline-2026-09-27
+prose-model: fable
+written-by: opus
 model: grok
 source-count: 9
 tags:
@@ -19,6 +19,59 @@ tags:
 ---
 
 # The AI Productivity Curve
+
+The AI productivity curve is the question of whether AI is already making the US economy produce more per hour worked, and how fast. In 2026 the national statistics and the surveys of companies give opposite answers, and each side has solid data. Reading the two together keeps a person from betting on AI's economic payoff, or dismissing it, on the strength of one chart.
+
+## Core takeaways
+
+- US productivity grew 3.0 percent in 2024 and 2.1 in 2025.
+- Growth since ChatGPT sits above the 2015 to 2019 trend.
+- Most firms report no productivity gain from AI yet.
+- The most cautious estimate is about half a percent in ten years.
+- Past technologies raised productivity only after long delays.
+- A gap above trend does not prove AI caused it.
+
+## The case that it is showing up
+
+Labour productivity is the output of the economy divided by the hours worked to make it. US productivity rose 3.0 percent in 2024 and 2.1 percent in 2025, and the St. Louis Fed measured cumulative growth since ChatGPT's release at 1.89 percentage points above the 2015 to 2019 trend. A popular 2026 chart lines up productivity since ChatGPT against productivity since the internet opened to the public, and the AI line runs higher. Big tech's data-centre spending, around $150 billion in 2026, adds demand across the economy either way.
+
+- Growth in 2024 beat the late-1990s boom average of 2.5 percent.
+- The Fed figure is a trend gap, which differs from AI's share.
+- The Fed's time-savings model puts AI's effect at 1.1 to 1.3 percent.
+
+## The case that it is not
+
+Company data points the other way. A 2026 survey of nearly 6,000 senior executives in the US, UK, Germany and Australia found that 89 percent saw no effect on labour productivity over the previous three years. McKinsey found that almost nine in ten companies had deployed AI by the end of 2025, and 94 percent were not seeing significant value. The economist Daron Acemoglu puts the upper bound for AI's added efficiency at around 0.55 to 0.71 percent over ten years.
+
+- Deployment is wide, and reported value is rare.
+- A typical firm spends about $12 per employee a month on AI.
+- The top 1 percent of firms spend about $7,000.
+
+## Why both can be true
+
+New general technologies usually take years to show up in the statistics. In 1987 the economist Robert Solow wrote that the computer age was visible everywhere except in the productivity figures, and the payoff arrived in the late 1990s. Electricity took decades, because factories had to be rebuilt around it. Firms first spend on training, new processes and data, which the statistics do not count as output, so measured productivity can dip before it rises.
+
+- The early spending hides the gains in the figures.
+- Economists call the dip and rise the productivity J-curve.
+- The national gap may be early payoff, or noise.
+
+```
+productivity
+     |                          ___/
+     |                     ___/
+     |\___           ___/
+     |    \_________/
+     +---------------------------------> years
+      invest      reorganise     payoff
+```
+
+## How to read new numbers
+
+Keep both sets of data in view until they start to agree. National figures get revised and move for many reasons, so a single strong quarter says little. Company surveys trail real use, since managers report gains only once they see them in results. Agreement would show first as company surveys reporting gains in line with the national trend.
+
+- Treat a trend gap as a question.
+- Check the dates behind each figure.
+- Watch for surveys and national data to converge.
 
 ## Related pages
 

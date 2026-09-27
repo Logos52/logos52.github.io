@@ -3,12 +3,13 @@ title: "How to diagnose and fix exam mistakes"
 type: concept
 status: developing
 created: 2026-05-14
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: grok
+written-by: opus
 model: grok
 source-count: 5
+description: "How to sort exam errors into fact, understanding and procedure gaps, find hidden gaps with practice tests, and fix each kind."
 tags:
   - exam-technique
   - error-analysis
@@ -18,6 +19,56 @@ tags:
 ---
 
 # How to diagnose and fix exam mistakes
+
+An exam mistake almost always points to a specific gap in what you know or in how you use it, even when it looks careless. Sorting each wrong answer by the kind of gap behind it tells you which fix to use. That works better than promising to be more careful next time.
+
+## Core takeaways
+
+- Most errors called careless come from shaky understanding.
+- Trying harder or ignoring the mistake does not fix it.
+- Sort each error by its gap: facts, understanding or procedure.
+- Each kind of gap has its own repair.
+- A right answer you were unsure of counts as a gap.
+- Write answers out in full, since answering in your head hides gaps.
+- Rereading notes is a weak repair for any kind of gap.
+
+## The three kinds of gap
+
+The sort uses the pattern of the errors. Missing facts show up as wrong names, dates, values or definitions. Weak understanding shows up on questions that join two or more ideas, ask about the big picture, or ask how to approach a problem. Weak procedure shows up in working that takes several steps, where you know the method and slip while carrying it out.
+
+| Gap | What the errors look like | Repair |
+| --- | --- | --- |
+| Facts | A specific detail recalled wrong | Flashcards or other recall drills |
+| Understanding | Links between ideas, approach | Re-learn with why and how questions |
+| Procedure | Slips in multi-step working | Repeat the steps until automatic |
+
+- Unit conversion errors usually mean the units themselves are not understood.
+- Once you understand a unit, a wrong conversion looks wrong.
+- Errors with no pattern, worse in big exams, point to nerves.
+- The silly mistakes page covers that pattern.
+
+## How to find the gaps
+
+A practice test finds more gaps when you go through it twice. First answer every question as you would in the real exam, written out in full, and mark the ones you felt unsure about. Then write your own model answers from your notes and compare them with what you wrote, and after that compare both with the official answers if there are any. Writing the model answers makes you study around each question, which covers material the test never asked about.
+
+```
+sit test ──> mark unsure ──> write model answers
+                                   │
+         restudy each gap <── compare with yours,
+                                then with official
+```
+
+- Unsure but right still goes on the restudy list.
+- No practice test: write one, find one, or swap with a study group.
+- A friend's model answers catch what your own missed.
+
+## How to fix and track
+
+An error helps only once it has been named and corrected. Take the biggest cause first, try a fix aimed at it, and check on the next test whether that kind of error dropped. Over several tests the errors form clusters. A cluster shows which part of your study method needs to change.
+
+- One cause at a time, then test again.
+- For understanding gaps, ask why each step holds and how ideas connect.
+- For procedure gaps, practise the full sequence from start to finish.
 
 ## Related pages
 

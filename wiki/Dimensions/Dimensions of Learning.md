@@ -1,14 +1,14 @@
 ---
 type: synthesis
 status: developing
-description: ""
+description: "The five separate skills that decide how well a person learns, how they depend on each other, and how to find the one to train first."
 created: 2026-05-04
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
+updated: 2026-09-27
+method: outline-2026-09-27
+prose-model: fable
 source-count: 10
 last-audited: 2026-08-14
-written-by: grok
+written-by: opus
 model: grok
 tags:
   - learning-system
@@ -18,6 +18,50 @@ tags:
 ---
 
 # Dimensions of Learning
+
+The dimensions of learning are five separate skills that together decide how well a person learns: mindset, self-management, self-regulation, deep processing and retrieval. Splitting learning this way lets a learner find which skill is holding them back and train that one, instead of changing everything at once. Each dimension has its own hub in this section.
+
+## Core takeaways
+
+- Learning depends on five skills that can be trained separately.
+- A weakness in one limits the results of the others.
+- Deep processing sets how much meaning is taken from material.
+- Self-regulation steers the whole process while it runs.
+- Find the weakest dimension and work on that first.
+- The five-way split is a coaching tool for choosing what to train.
+
+## The five dimensions
+
+Each dimension answers a different question about a learner. Mindset and self-management decide whether study happens and how the learner reacts to difficulty. Deep processing and retrieval decide what happens to information once study starts. Self-regulation watches all of them and makes adjustments.
+
+| Dimension | What it covers |
+| --- | --- |
+| Mindset | Whether difficulty, effort and mistakes are read as a chance to improve or as proof of a limit |
+| Self-management | Habits, schedules and surroundings that make steady study happen without constant willpower |
+| Self-regulation | Thinking about one's own thinking, noticing what is going wrong and changing course |
+| Deep processing | Linking ideas to each other and to what is already known |
+| Retrieval | Practising recall so knowledge stays accurate and usable under pressure |
+
+Children praised for being smart tend to avoid hard tasks later, and that is a mindset effect.
+
+## How they interact
+
+The dimensions depend on each other: deep processing sets how much a learner can get out of material, and self-regulation decides whether that ability is pointed at the right task. A learner with strong processing and weak self-regulation does well when teaching is clear and guided, and struggles when it is not. A person with naturally strong processing can also get good results with poor methods, until the material gets hard enough that natural ability is no longer enough. Retrieval in turn depends on how well the material was processed and how well the learner monitors their own gaps.
+
+- Knowledge that feels familiar in study can fail to come back later.
+- That gap is a processing problem seen as a retrieval problem.
+- Deep processing is shaped by early experience and still trainable.
+
+## How to use it
+
+The five dimensions are a way to find the limiting skill. Once that skill is named, the learner practises it with a focused plan, often a month-long challenge built for that dimension. Changing how one learns means replacing old habits, so each change needs practice until it becomes automatic.
+
+- Name the dimension that most limits results right now.
+- Practise one or two techniques at a time.
+- Spend far more time applying a technique than reading about it.
+- Recheck which dimension limits results as habits change.
+
+The five-part split is a practical cut. A 1992 teaching framework by Robert Marzano uses the same name for a different set of five, and researchers still disagree on where awareness of one's own thinking ends and adjusting it begins.
 
 ## Related pages
 

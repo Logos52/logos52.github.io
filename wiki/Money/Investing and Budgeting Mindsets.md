@@ -3,12 +3,13 @@ title: "Investing and Budgeting Mindsets"
 type: hub
 status: developing
 created: 2026-06-05
-updated: 2026-09-16
-method: eggbot-tight-2026-09-16-generate
-prose-model: grok
-written-by: grok
+updated: 2026-09-27
+method: outline-2026-09-27
+prose-model: fable
+written-by: opus
 model: grok
 source-count: 7
+description: "The money pages and the six books behind them, on saving, index investing, a written target and spending while alive."
 tags:
   - money
   - investing
@@ -19,6 +20,48 @@ tags:
 ---
 
 # Investing and Budgeting Mindsets
+
+The money pages of this wiki come from six books about saving, investing and spending. Between them the pages answer how much to save, where to put it, how long to leave it there, and when to stop saving and spend it. A new reader can start with the savings rate and with time in the market, since those two decide most of the final balance, and read the rest as needed.
+
+## Core takeaways
+
+- Behaviour decides results more than intelligence or stock picks.
+- The gap between income and spending is the main thing to change.
+- Staying invested beats picking moments to buy.
+- Most active funds trail a low-cost index fund after fees.
+- A written target lets a person both save and spend.
+- Money can be counted in hours of work traded for it.
+- Owned objects keep costing attention after purchase.
+
+## The books
+
+Each of the six books adds one idea the others lack. Two are about behaviour, two about saving, one about spending while alive, and one about owning fewer things. The pages in this section draw facts from all six.
+
+| Book | Main idea |
+| --- | --- |
+| Housel, The Psychology of Money | Temperament beats intelligence, and wealth is money not spent |
+| Ravikant, How to Get Rich and The Almanack | Wealth over status, and leverage from code and media |
+| Robin and Dominguez, Your Money or Your Life | Price things in hours of work, at a real hourly wage |
+| Collins, The Simple Path to Wealth | Spend less, avoid debt, buy index funds |
+| Perkins, Die With Zero | Spend on experiences while they still fit |
+| Sasaki, Goodbye, Things | Objects cost attention, so own less |
+
+- F-you money means enough to leave a job by choice.
+- Low-cost index funds beat most managed funds over 10 to 15 years.
+- The 4% withdrawal rule is a dated US guide.
+
+## Where each idea lives
+
+The pages below split the subject by question. The first four are the core of the money side. The rest connect money to spending habits, tools and decisions.
+
+- The Savings Rate Is the Master Lever: the gap sets the timeline.
+- Time Beats Timing: why staying in the market wins.
+- Define Enough: setting a written target from yearly spending.
+- Money as Life Energy: hours of work as the unit.
+- The Almanack of Naval Ravikant: wealth, status and leverage.
+- Ownership Cost and Wanting Less: the spending side.
+- Positional Decisions and Expected Value: money choices as part of a position.
+- Judging a Decision by Its Process: money choices judged by their process.
 
 ## Links
 

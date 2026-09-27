@@ -3,12 +3,13 @@ title: "Claude Cowork as Personal Work OS"
 type: workflow
 status: developing
 created: 2026-05-23
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: grok
+written-by: opus
 model: grok
 source-count: 11
+description: "Setting up Claude Cowork with plain text instruction, memory and skill files so it keeps your context between sessions."
 tags:
   - cowork
   - agentic
@@ -19,6 +20,75 @@ tags:
 ---
 
 # Claude Cowork as Personal Work OS
+
+Claude Cowork is a mode of the Claude desktop app that works on the files in a folder you choose and on the apps you connect to it. A few plain text files in that folder hold your projects, your rules and your writing style. Cowork reads those files, so you stop explaining the same context every time you open it.
+
+## Core takeaways
+
+- One instruction file loads every session, so keep it short.
+- The instruction file holds rules.
+- The memory file holds facts that change.
+- Split work into areas, each with its own rules and memory.
+- Do a task by hand first, then save it as a skill.
+- Put a skill on a schedule only when it needs no judgment.
+- Old memory moves to an archive file that loads only on request.
+
+## What Cowork is
+
+Cowork sits in the Claude desktop app beside Chat and Code, and it needs a paid plan. You give it an end goal. It plans the work, splits the plan into steps, runs any code in a sealed workspace and hands back the result. By default the work runs on Anthropic's computers, and Cowork can reach the files on your own machine only while the desktop app is open. Each Cowork session starts with more setup than a session in Claude Code, so a job that only edits files costs less in Code.
+
+- It reads, moves, renames and creates files in a folder you allow.
+- Connectors link it to your mail, calendar and other apps.
+- It can run a task on a schedule, such as a morning digest.
+- It can drive the screen when an app has no other way in.
+
+## How the files work
+
+The setup is a folder with an instruction file, a memory file and a resources folder, all plain text. The instruction file is named CLAUDE.md, Cowork reads it at the start of every session, and it says how Cowork should behave. The memory file is named memory.md, it holds what is going on right now, and a rule in the instruction file tells Cowork to read it first and to write to it when you say "remember this". The resources folder holds longer material, such as a description of your writing voice, which Cowork opens only when a task needs it.
+
+```
+root:  CLAUDE.md  memory.md  resources/
+  |
+  +-- email/     CLAUDE.md  memory.md  resources/
+  +-- finance/   CLAUDE.md  memory.md  resources/
+        |
+        +-- trip-2026/  CLAUDE.md  memory.md
+```
+
+- Root rules apply to everything, and area rules add to them.
+- An area is a part of your life: email, finances, a newsletter.
+- A project inside an area gets its own three files.
+- A table in the root file maps each task to an area.
+- A rule lives in one file only, never repeated lower down.
+
+## Keeping it lean
+
+Both root files load at the start of every session, so every line in them costs tokens every time. One user cut his instruction file from over 600 lines to about 250, and his token use fell by about a quarter. The test for a rule is whether Cowork needs it in every session or only for a particular task. A rule for a particular task moves to a reference file, and a one-line pointer to that file stays behind. The same test sorts memory from rules. A line with "always" or "never" in it is a rule. A fact that could change tomorrow is memory.
+
+- Instruction file: 200 to 250 lines, 300 at most.
+- Memory file: one or two sentences per entry, 150 lines at most.
+- Over either limit, compress and archive instead of raising the limit.
+- archive.md keeps old entries and loads only when you ask about them.
+- Each area keeps its own memory, so the root stays small.
+
+Cowork can run on a cheaper Claude model or a larger one. Use the cheaper model by default and the larger one only for a long chain of steps.
+
+## Skills and schedules
+
+A skill is a saved set of instructions for one task you repeat. The order that works is to do the task in a normal session, adjust it until the result is right, and then ask Cowork to make a skill from what it just did. An area is where you work on a part of your life, and a skill is one task you run. A task that needs your decisions along the way stays in an area. A task that runs like a checklist becomes a skill, and a skill can go on a schedule.
+
+- Start with two or three areas, and add one as needs appear.
+- End a session with an audit that saves any unsaved preferences.
+- Ask for a written plan and your sign-off before any build.
+- Require a confirmation before anything hard to undo.
+- Memory grows over time and needs regular trimming.
+
+## On this desk
+
+This setup splits the work between Cowork, a coding agent and a cloud bot. Cowork takes the decisions that need judgment. Checking on work that ran while you were away is one more switch of attention in the day. Scheduled output is therefore kept to what gets read.
+
+- The coding agent writes the code.
+- The cloud bot does the monitoring while the laptop is closed.
 
 ## Related pages
 

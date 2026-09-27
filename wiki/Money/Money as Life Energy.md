@@ -3,12 +3,13 @@ title: "Money as Life Energy"
 type: concept
 status: developing
 created: 2026-06-11
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
+updated: 2026-09-27
+method: draft-2026-09-27
+prose-model: opus
+written-by: opus
 model: grok
 source-count: 4
+description: "Pricing money in hours of life: the real hourly wage, the fulfilment curve and the crossover point."
 tags:
   - money
   - life-energy
@@ -18,6 +19,50 @@ tags:
 ---
 
 # Money as Life Energy
+
+Money as life energy is the idea, from the book Your Money or Your Life by Vicki Robin and Joe Dominguez, that each dollar stands for hours of a person's life spent earning it. Pricing a purchase in hours instead of dollars makes its cost concrete. A $300 jacket at a real wage of $15 an hour is twenty hours of work, and that figure changes many buying decisions.
+
+## Core takeaways
+
+- A dollar earned is a slice of limited life hours.
+- The real hourly wage is lower than the paid rate.
+- Price each purchase in hours of that real wage.
+- Satisfaction from spending rises, peaks, then falls.
+- The peak of that curve is the point of enough.
+- Crossover comes when investment income covers monthly spending.
+
+## How to work out the real wage
+
+The paid hourly rate hides two things. A job has costs that exist only because of the job, and it takes hours that are never paid. Subtract the costs from the pay and add the unpaid hours to the paid ones, and the hourly figure drops, often by a third or more.
+
+- Job costs: commuting, work clothes, meals out, spending to recover from work.
+- Unpaid hours: the commute, getting ready, and recovery time after work.
+- Real wage = (pay minus job costs) / (paid hours plus unpaid hours).
+
+```
+paid:   $1,000 for 40 h        = $25 / h
+costs:  - $250 commute, meals
+hours:  + 10 h commute, prep
+real:   $750 for 50 h          = $15 / h
+```
+
+## The fulfilment curve
+
+The book draws satisfaction against spending. The first dollars buy survival and bring large gains. The next buy comfort, then small luxuries, and each adds less than the one before. Past a peak, more spending brings clutter, upkeep and worry, and satisfaction falls.
+
+- Survival: food, shelter, basic safety.
+- Comforts: a chair, warm clothes, a reliable car.
+- Luxuries: the first few treats bring real pleasure.
+- Past the peak: extra things cost attention and upkeep.
+- Studies of income and happiness also find satisfaction levelling off.
+
+## Crossover
+
+Tracking every dollar in and out each month, and asking whether each category gave satisfaction worth its hours, tends to lower spending without a strict budget. The saved money is invested. When monthly income from investments passes monthly spending, work becomes optional; the book calls that the crossover point.
+
+- The gap between income and spending sets how fast crossover comes.
+- Higher income and investment returns also move the crossover date.
+- Spending on experiences that fit a limited window is still worth the hours.
 
 ## Related pages
 

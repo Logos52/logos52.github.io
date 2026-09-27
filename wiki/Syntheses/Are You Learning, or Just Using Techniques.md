@@ -3,12 +3,12 @@ title: "Are You Learning, or Just Using Techniques"
 type: synthesis
 status: developing
 created: 2026-05-11
-updated: 2026-09-11
+updated: 2026-09-27
 last-audited: 2026-08-14
-written-by: grok
+written-by: opus
 model: grok
 source-count: 18
-description: ""
+description: "Why a study method done correctly can still fail, and how to check the thinking it produces instead of the steps."
 tags:
   - learning-system
   - ics
@@ -16,7 +16,7 @@ tags:
   - technique-evaluation
   - self-regulation
   - deep-processing
-method: plain-rewrite-2026-09-11
+method: outline-2026-09-27
 prose-model: fable
 aliases:
   - First Principles of Learning
@@ -25,6 +25,59 @@ merged-from:
 ---
 
 # Are You Learning, or Just Using Techniques
+
+A study technique helps only when it makes the learner do the thinking that builds knowledge, and following its steps correctly does not ensure that thinking happens. When a method looks right and results stay flat, the fault is usually in the thinking the method was meant to trigger. Checking the thinking first saves a learner from switching techniques every few weeks and never improving.
+
+## Core takeaways
+
+- A technique is done right when it produces its intended effect.
+- The technique triggers thinking, and the thinking creates the knowledge.
+- Ratings of techniques mislead without the goal they serve.
+- The brain looks for shortcuts that skip the hard thinking.
+- Effective methods often feel slow and get dropped too early.
+- Good-looking notes can come from the weaker method.
+- Aim for the feeling that a topic has locked in.
+
+## How it works
+
+Results come from a chain: a strategy prompts a kind of thinking, and that thinking decides how well the material is understood, remembered and applied. If the strategy runs and the thinking does not happen, there is no result, so the useful question when progress stalls is whether the problem sits in the strategy or in the thinking. The same passage can be mapped with low, middle or high levels of thinking, and only the higher levels build a structure that lasts.
+
+- Strategy prompts thinking.
+- Thinking sets understanding, memory quality and use.
+- Steps done without the thinking produce no result.
+- Higher-order thinking compares, evaluates and connects ideas.
+- Lower-order thinking handles isolated, separate facts.
+- Without higher-order structure, memorised facts fade fast.
+
+```
+technique --> thinking --> knowledge --> result
+   ^             |
+   |   shortcut: skip the thinking,
+   +-- keep the technique's steps
+```
+
+## The shortcuts
+
+Most people carry a habit of making study simple, easy and quick, which means memorising, repeating and keeping ideas separate. When connecting ideas feels overwhelming, the brain finds a way out: look up the answer, copy someone else's map, or draw an arrow for the sake of drawing it. Highlighting shows the problem well, because marking a sentence says there is some relationship here without working out what it is. A good technique is built so the brain cannot slide back into the easier kind of thinking.
+
+- Looking up an answer instead of working it out.
+- Copying another person's structure instead of building one.
+- Drawing links without deciding what each link means.
+- Highlighting in place of evaluating.
+- If several ideas must be worked together, the task is higher order.
+
+## Judging whether it works
+
+People often try an effective strategy, feel it is not working, and stop. Researchers call this the misinterpreted-effort hypothesis: effort is read as a sign of poor learning, when progress is only too small to notice yet or the skill is still too weak to carry out. The fix is a clear idea of what thinking the technique should produce and a record of how results change over time. Day to day, the best guide is whether it feels like the right kind of thinking, with more curiosity and questions coming freely.
+
+- Ask: is the thinking at the level the result needs.
+- Ask: is any part of you looking for a lower-effort shortcut.
+- Practise mixed retrieval to meet the level the goal demands.
+- Repeated testing kept 61% after a week, and repeated study kept 40%.
+- Students who made the best-looking concept maps learned less.
+- Unrestricted AI help raised practice scores and lowered unaided exam scores.
+
+The end state is a topic that no longer feels confusing and that you can use with confidence in any direction. Retention is a separate matter: even well-organised knowledge fades and needs topping up later.
 
 ## Related pages
 

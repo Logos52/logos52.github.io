@@ -3,11 +3,12 @@ title: "Red Teaming"
 type: hub
 status: developing
 created: 2026-05-06
-updated: 2026-09-13
-method: plain-register-2026-09-13
+updated: 2026-09-27
+method: draft-2026-09-27
 prose-model: opus
-written-by: fable
+written-by: opus
 source-count: 10
+description: "Assigning people to attack a plan before it runs: the methods, what the studies found, why it fails, and the Army program."
 tags:
   - red-teaming
   - decision-making
@@ -17,6 +18,47 @@ tags:
 ---
 
 # Red Teaming
+
+Red teaming is assigning a person or group to attack a plan from the opponent's side before the plan is carried out. The US Army ran a school for it and published a public handbook of its methods. A team that is tested this way finds the weak assumptions while they are still cheap to fix.
+
+## Core takeaways
+
+- A red team argues against the plan on purpose.
+- It helps only when allowed to expose real weaknesses.
+- Imagining a plan has already failed surfaces more reasons it could fail.
+- Formal dissent improves decisions but lowers team satisfaction.
+- Many structured analysis methods have little testing behind them.
+- The Army school closed in 2020, and its handbook remains public.
+
+## How it works
+
+A group planning together tends to settle early on one view and stop looking. A red team is given the job of breaking that view: taking the adversary's position, checking the assumptions, and imagining the plan's failure. Because it is an assigned role, the dissent carries no social cost for the person voicing it.
+
+- Devil's advocacy: one member argues against the proposal.
+- Dialectical inquiry: a full counter-plan is built and compared.
+- Both produced better recommendations than consensus in a 1986 study.
+- Groups using them liked the process and each other less.
+- Imagining an event as already happened raised reasons found by about 30% (1989).
+- A premortem uses this: the team imagines the plan failed and lists why.
+- Groups brainstorming aloud produce fewer ideas than the same people working alone.
+
+## Where it fails
+
+A red team helps only if the organisation lets it expose real weaknesses. In the Millennium Challenge war game of 2002, a $250 million US exercise, retired Marine general Paul Van Riper led the opposing side and sank sixteen US ships early with a surprise missile strike. Organisers restarted the game, restored the ships, and scripted the rest, and Van Riper left.
+
+- Red teams need independence and backing from leadership.
+- The evidence for groupthink itself is thin: 2 of 12 experiments supported it.
+- Many structured analytic techniques remain unvalidated.
+
+## The Army program
+
+The school, the University of Foreign Military and Cultural Studies at Fort Leavenworth, trained officers in these methods. The Army moved to close it in October 2020. Its parent command, TRADOC, was dissolved on 26 September 2025 and its duties passed to a new training command. The handbook's version 9.0 remains in public release, with earlier editions archived online.
+
+## Pages in this cluster
+
+- Applied Critical Thinking - Testing Frames: testing assumptions before reasoning inside them.
+- Epistemic Exceptionalism: treating one's own reasoning as the only reliable one.
+- The Twitter Test: reading what word choices are doing to the reader.
 
 ## Sources
 

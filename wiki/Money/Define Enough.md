@@ -3,12 +3,13 @@ title: "Define Enough"
 type: concept
 status: developing
 created: 2026-06-11
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: grok
+written-by: opus
 model: grok
 source-count: 8
+description: "Why a savings target keeps rising unless it is written down, and how to set one from yearly spending."
 tags:
   - money
   - enough
@@ -18,6 +19,56 @@ tags:
 ---
 
 # Define Enough
+
+Enough is a money figure written down in advance, the amount at which saving more stops being the goal. Without a written figure, each raise and each milestone sets a higher target, and a person can save for decades without reaching an end. With one, a person can save hard now and also know the point at which spending on life is the better use of the money.
+
+## Core takeaways
+
+- A target that is never written down keeps moving up.
+- People adjust to each new income level within a short time.
+- Comparing with peers resets the target once basic needs are met.
+- Status is ranked against other people, so it has no fixed end.
+- Wealth is an amount, so a target for it can be reached.
+- A common rough target is 25 times yearly spending.
+- Some experiences only fit a certain decade and should be planned.
+
+## Why the target moves
+
+Two things push the figure up. The first is adaptation: a new salary, house or car feels like a gain for a while and then feels normal. The second is comparison: once basic needs are covered, people judge their income against the people around them, who are also earning and spending more. Each milestone raises both the normal level and the group being compared with, so the old target starts to look small.
+
+- People adapt to gains and drift back to their usual mood.
+- National income rose for decades while happiness stayed about level.
+- People rate themselves against others by default.
+- Spending on visible goods rises when neighbours spend more.
+- Later large studies still find that higher income raises well-being.
+
+A simple test is whether the figure went up after each of the last two milestones. If it did, the target is moving on its own.
+
+## How to set the figure
+
+Start from spending, since spending sets how much money is needed. The most used rule of thumb comes from 1990s research on US stock and bond portfolios over retirements of 30 years. In that research, taking out about 4% of the portfolio in the first year, and raising the amount with inflation after that, lasted in almost every historical period tested. Yearly spending divided by 4% is the same as yearly spending times 25.
+
+```
+yearly spending x 25 = target at a 4% withdrawal
+yearly spending x 30 = target at about 3.3%
+$40,000 x 25 = $1,000,000
+```
+
+- Write down the yearly spending of the life actually wanted.
+- Multiply by 25, or by 30 for a safer margin.
+- Later studies put the rate that lasts between 3.3% and 4%.
+- The right rate depends on bond yields at the time.
+- The 25 times figure can still fail in a bad market run.
+- Retirements longer than 30 years need the lower rate.
+
+## Spending on the way
+
+A fixed figure also gives permission to spend. Saving everything until the target is reached can mean missing things that only work at a given age, such as hard travel or time with young children. To plan for this, list the experiences wanted and assign each to the decade in which it still fits.
+
+- Frugality makes sense until work becomes optional.
+- After that point, extra saving adds little.
+- An experience bought early is enjoyed again in memory for years.
+- Some options end when health and energy decline with age.
 
 ## Related pages
 

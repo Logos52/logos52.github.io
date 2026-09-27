@@ -3,11 +3,12 @@ title: Tsumugu
 type: hub
 status: developing
 created: 2026-07-17
-updated: 2026-09-16
-method: eggbot-tight-2026-09-16-generate
-prose-model: grok
-written-by: grok
+updated: 2026-09-27
+method: outline-2026-09-27
+prose-model: fable
+written-by: opus
 model: grok
+description: "Tools for learning to read Chinese, with a reading-material generator, a graded reader and a character dictionary, and links to each."
 tags:
   - tsumugu
   - hub
@@ -17,6 +18,28 @@ tags:
 ---
 
 # Tsumugu
+
+Tsumugu is a set of tools for learning to read Chinese: a generator of reading material pitched just above what the learner already knows, a graded reader built on it, and a dictionary that explains each character through its shape and a short story. Everything a learner meets in it is meant to be mostly understood on first reading, so reading more is how the language gets learned.
+
+## Core takeaways
+
+- The reader, the wiki and the engine code are public.
+- Each text keeps to a limit on which characters it may use.
+- A record of known words sets what the next text can contain.
+- Each book's story goes further as the reader knows more characters.
+- The dictionary gives each character a page on its form and story.
+- Current status is kept only on the Tsumugu project page.
+
+## What the links hold
+
+The links below fall into three groups. The Story Craft pages hold the storytelling side: what the people in the story will not give up, the shapes a story arc can take, and how a full story works under a limit on vocabulary. The project pages hold the product: the generator and reader, and the character dictionary. The logs hold the build history, from the first engine to the change of direction toward one companion app for a textbook.
+
+- Story craft: the cast's values, arc shapes, writing under a character limit.
+- Product: the reader and generator, and the character dictionary.
+- Build log: the engine and reader, built in phases.
+- Voice log: a test of local text-to-speech models for reading texts aloud.
+- Each voice is fixed by a written description plus a seed.
+- Change of direction: one app built as a companion to a textbook.
 
 ## Links
 

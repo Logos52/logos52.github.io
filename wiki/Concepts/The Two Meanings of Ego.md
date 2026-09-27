@@ -2,12 +2,13 @@
 type: concept
 status: developing
 created: 2026-08-10
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: fable
+written-by: opus
 edited-sections: "The Selling Feeling: added 2026-08-19 by opus, from wiki/Concepts/How to Communicate Truth Into Someone Else's Frame"
 source-count: 32
+description: "The two things the word ego names, a writer's judgment and a writer's wish to be admired, and a test that tells them apart in a sentence."
 tags:
   - mindset
   - writing
@@ -15,6 +16,58 @@ tags:
 ---
 
 # The Two Meanings of Ego
+
+The English word ego covers two different things: a person's own judgment, and a person's wish to be admired. Writing needs the first and is spoiled by the second, and the usual advice to drop the ego removes both. Keeping the two apart gives a writer a test for any sentence: whether it shows the reader the subject or shows the reader the author.
+
+## Core takeaways
+
+- Selfhood is the judgment in the work, what is kept and cut.
+- Self-regard is a bid for the reader's good opinion.
+- The two are separate and can move independently.
+- A line that works for any subject is about the author.
+- Staged modesty is still self-regard.
+- Work with the judgment removed reads as competent and lifeless.
+
+## Where the two meanings came from
+
+Freud wrote about das Ich, German for the I, the part of the mind that deals with the world and weighs demands against each other. His English translator put it into Latin as ego, which turned an everyday word into a technical one. By then English already used ego for conceit, a use attested from 1891, three years before the psychoanalytic sense arrived. Two different ideas ended up under one word.
+
+- 1707: ego as the thinking self, in philosophy.
+- 1891: ego as conceit.
+- 1894: ego as Freud's term, through translation.
+- William James: the self as knower, and the self that others see.
+
+## Selfhood
+
+Selfhood is one person's judgment, left visible in the work. It shows in selection: which example stays, which point is dropped, where the writer stands to look at the subject. Writers from Montaigne to John McPhee put the person at the centre of the work while refusing ornament meant to impress. George Orwell listed sheer egoism as the first reason anyone writes, and still said that good prose hides the writer's personality.
+
+- It shows in what the writer chose and cut.
+- It needs no I on the page.
+- Without it, text is complete, correct and shaped by nothing.
+- Too little of it is called echoism, fear of taking up space.
+
+## Self-regard
+
+Self-regard on the page is a sentence written so that the reader will think well of the author. It shows up as a credential dropped in passing, a tour of how hard the work was, or a confession arranged so that the reader notices the writer's honesty. A study of humblebragging, which is bragging disguised as a complaint or as modesty, found that it lowered liking and perceived competence more than plain bragging did. Readers notice the disguise and count it against the writer.
+
+- Credentials that do not help the reader understand the subject.
+- Process described to show how much effort went in.
+- Modesty or confession staged to be noticed.
+
+## The test
+
+A reader can check any line by asking what it changes. A line that changes what the reader sees about the subject carries selfhood. A line that changes only what the reader thinks of the author carries self-regard. A second check is to imagine the same line in a piece on a different subject, and a line that still fits there was about the author.
+
+- Ask what the line changes for the reader.
+- Move the line to another subject and see whether it still fits.
+
+## Where it is contested
+
+Several thinkers deny that the two can be cleanly separated. Erving Goffman argued that a self is produced by how a person performs in front of others, with nothing standing behind the performance. Heinz Kohut argued that the wish to be admired matures into creativity and humour, so the two are one drive at different stages. Will Storr argued that status-seeking cannot be switched off and only moves, for instance from showing skill to showing restraint.
+
+- People are poor judges of their own motives.
+- A refusal to show off can itself be a bid for status.
+- The test checks a sentence and cannot prove an intention.
 
 ## Related pages
 

@@ -3,12 +3,13 @@ title: "Attention is Important"
 type: concept
 status: developing
 created: 2026-05-06
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
+updated: 2026-09-27
+method: draft-2026-09-27
+prose-model: opus
+written-by: opus
 model: grok
 source-count: 4
+description: "Why only attended immersion time teaches a language, and simple ways to keep attention on content you barely understand."
 tags:
   - attention
   - immersion
@@ -16,6 +17,43 @@ tags:
 ---
 
 # Attention is Important
+
+In language learning by immersion, only the time you spend paying attention to the language teaches you anything. A show playing in the background while you cook teaches almost nothing, so the task is to give your attention a job even when you understand very little.
+
+## Core takeaways
+
+- Language you do not attend to is not learned.
+- Background listening does not count as immersion time.
+- A beginner needs a small task to hold attention.
+- Content you enjoy makes attention easier to keep.
+- Not understanding is normal and passes with more exposure.
+- Watching without pausing still needs full attention.
+
+## How it works
+
+Hearing a sentence is different from learning from it. Research on second languages finds that a learner has to register a word, a sound or a grammar form consciously before it can be stored; what passes by unregistered never becomes part of the learner's knowledge. That is why hours of half-heard audio produce so little. The parts of the input you attend to are the parts the brain keeps.
+
+- Registering a form is the step that matters.
+- Unattended exposure is not stored.
+
+## Giving attention a task
+
+At the start, a new language is mostly noise, and noise is hard to attend to. A simple game solves this: watch or listen and try to spot things you recognise, such as borrowed words, words that sound like your own language, or words from a short list you studied. Later the game adds a check, where you confirm a word you think you heard with subtitles or a lookup tool.
+
+- Spot cognates and words you already know.
+- Tick words off a list as you hear them.
+- Later, confirm what you noticed with a lookup.
+- Treat every session as high attention.
+
+## Staying with it
+
+Adults are used to understanding everything in their own language, so long stretches of not understanding feel uncomfortable and even embarrassing. A useful drill is ten minutes of hard content with no tools, attending the whole time and noticing anything familiar. Choosing shows and channels you actually like makes this far easier to sustain.
+
+- Pick content that interests you, in the variety you want to learn.
+- Rewatch content you studied closely; it is easier to follow.
+- Watching without lookups gives several times more exposure per hour.
+- That exposure only counts if you are paying attention.
+- After a session, note how much you understood and whether you focused.
 
 ## Related pages
 

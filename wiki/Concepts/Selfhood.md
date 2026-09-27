@@ -3,11 +3,11 @@ title: "Selfhood"
 type: concept
 status: seed
 created: 2026-08-14
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: fable
-description: ""
+written-by: opus
+description: "Acting from goals a person owns versus rules followed to feel worthy, and what that means for tracking, habits and self-worth."
 tags:
   - self
   - mindset
@@ -15,6 +15,45 @@ tags:
 ---
 
 # Selfhood
+
+Selfhood here means acting from goals and judgments a person owns, instead of acting to protect how they look to others or to themselves. Which of the two drives a person decides whether a habit lasts, whether tracking helps or hurts, and whether a bad day turns into quitting. Motivation research has measured the difference for decades, and the findings give plain tests a person can run on their own reasons.
+
+## Core takeaways
+
+- A rule you follow to feel worthy still controls you.
+- Owned goals keep going after the first few weeks.
+- Measuring a pleasant activity can drain the pleasure.
+- Habits form from repetition in a setting, without scores.
+- One missed day does not break a habit.
+- Ask whether a "should" protects your worth or serves a value.
+
+## Two kinds of internal push
+
+Some motives feel internal and still work as pressure. A person who studies to avoid guilt, or trains to feel proud, is following a rule taken in from others without accepting it as their own. Psychologists call this introjection, and its common form is proving ability in order to keep a sense of worth. It produces effort, and the effort comes with anxiety and poorer coping, while goals a person owns carry effort without the anxiety.
+
+- Introjected: done to avoid guilt or earn approval, even one's own.
+- Owned: done because the person values the result.
+- Ownership, more than enjoyment, marks the lasting goal.
+- Owned and pressured goals split apart around weeks two to four.
+
+## Scores, streaks and habits
+
+Tracking an activity changes why you do it. In experiments, people who measured an enjoyable activity did more of it and enjoyed it less, with no reward attached. Habits need no score, since they form when the same action repeats in the same setting, and missing one chance does not reset the process. In one well-known study, an action took from 18 to 254 days to become automatic, depending on the person and the behaviour.
+
+- Measuring leisure raises output and lowers enjoyment.
+- Habits are links between a setting and an action.
+- Change the setting before relying on willpower.
+- People infer their own intentions from what they do often.
+- Immediate feedback from the task differs from keeping score.
+
+## Where worth gets staked
+
+People tend to stake their worth on specific areas, such as looks, grades or others' approval, and the damage from outside standards stays mostly inside those areas. What matters is how central goals like money, image and fame are compared with other goals, more than how much a person wants them. Self-esteem works as a gauge of standing with others rather than as a thing to raise directly. So a behaviour, something you did, is a better test than a feeling of certainty.
+
+- Worth can be tied to one area, or not staked at all.
+- Harm from outside standards stays in the area it touches.
+- Judge by what you did, since feeling sure proves little.
+- Absorbed work, with no scoreboard, is where self-watching stops.
 
 ## Sources
 

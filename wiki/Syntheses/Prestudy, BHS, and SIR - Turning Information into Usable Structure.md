@@ -3,18 +3,18 @@ title: "Prestudy, BHS, and SIR - Turning Information into Usable Structure"
 type: synthesis
 status: developing
 created: 2026-05-04
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
 aliases:
   - Minimally Viable Learning System
 merged-from:
   - Minimally Viable Learning System
 last-audited: 2026-08-14
-written-by: grok
+written-by: opus
 model: grok
 source-count: 10
-description: ""
+description: "A quick look before a lesson, connected notes during it and spaced self-tests after it, run as one study loop."
 tags:
   - learning-system
   - synthesis
@@ -24,6 +24,82 @@ tags:
 ---
 
 # Prestudy, BHS, and SIR - Turning Information into Usable Structure
+
+Three study methods run in order around any class, lecture or long reading: a quick look over the whole topic before it, a way of building connected notes during it, and a schedule of self-tests after it. This wiki calls them Prestudy, the Bear Hunter System (BHS) and Spaced Interleaved Retrieval (SIR). Run in order, they turn new information into connected notes you can recall and use weeks later, and they show where the gaps are.
+
+## Core takeaways
+
+- Build a rough frame of the topic before the lesson.
+- Ask why and how questions, since what questions only produce loose facts.
+- Group ideas by importance and draw how they connect.
+- Test yourself on a loose schedule: day, week, month.
+- Many gaps found in a test means the test worked.
+- Each gap gets repaired, then tested again later.
+- Better notes up front mean fewer tests later.
+
+## The loop
+
+The three methods make one cycle. You frame the topic, build the notes, try to rebuild them from memory later, and repair whatever did not come back. Each pass leaves the notes better connected, so the next frame is easier to build. On a tired day the cycle still works if it shrinks to its two core jobs: store the material in a connected form, and check later that it comes back.
+
+```
+Prestudy        BHS              SIR
+frame it  -->  build it  -->  rebuild it later
+                  ^                  |
+                  |                  v
+                  +---- repair the gap found
+```
+
+- Frame, before the lesson: main ideas and how they group.
+- Build, during and after: questions, answers, a map.
+- Rebuild, later: recall with the notes closed.
+- Repair: store the missed part again from a new angle.
+
+## Prestudy
+
+A lesson delivers too much, too fast, when all of it is new to you in one sitting. Prestudy is a short, shallow pass over the whole topic beforehand, so the lesson fills in a frame you already have. The pass covers the whole topic, which is usually wider than one lecture, and it skips the details on purpose. Committing to details this early pulls you into memorising isolated facts, which wastes the time.
+
+- Group information by how it relates.
+- Ask why each part matters as well as what it is.
+- Link new ideas to things you know, by analogy.
+- Stay broad and shallow, since details come later.
+- Done right, the big picture is clear and nothing is memorised yet.
+- Done right, you have guesses about how the ideas relate.
+- With no time, a ten-minute skim before class still helps.
+
+## The Bear Hunter System
+
+The Bear Hunter System is the method for the main study session, and it runs in three steps named Aim, Shoot and Skin. Aim asks the questions that find the key terms and the main groups of ideas. Shoot answers those questions and draws the answers as a map of connected ideas. Skin comes after several rounds of Aim and Shoot, when you settle what the final grouping should be.
+
+- Aim: why and how questions connect ideas.
+- Aim: what questions leave facts isolated.
+- Aim: skip questions you already know the answer to.
+- Aim: rank the groups by importance, whatever order the source used.
+- Shoot: answer the questions and add detail to the map.
+- Shoot: a question too hard to answer still helps when attempted.
+- Shoot: when answers come easily, the aiming was good.
+- Skin: combine, refine and judge the final structure.
+- Facts that connect to nothing go to flashcards or rote memory.
+
+## Spaced Interleaved Retrieval
+
+Spaced Interleaved Retrieval means testing yourself at growing intervals and mixing topics within each session. The point of a test is to find gaps, meaning parts you cannot recall or get wrong. Early on, when your notes are weaker, the tests find many gaps and take many hours. As the first-pass notes get better, fewer gaps appear and the tests shrink, though they never reach zero.
+
+- Loose schedule: same day, next day, end of week, end of month.
+- Mid-week and end-of-week sessions mix several days of material.
+- Material gets stored again about six times in a month this way.
+- Write your own questions as well as using ready-made ones.
+- Start each session with your weakest areas.
+- Teach the idea as if to a ten-year-old, before any jargon.
+
+## Where it fails
+
+Most failures come from running one method in a form that skips its hard part. A prestudy that memorises details becomes a slow first reading. Notes that follow the textbook's order with a few arrows added never build new connections. Tests that re-read the notes only check whether the material looks familiar.
+
+- Prestudy goes deep on one lecture instead of broad on the topic.
+- The map keeps the source's order with few real links.
+- Review re-reads the notes instead of recalling with them closed.
+- Many gaps get read as failure, and testing stops.
+- One drill repeats, and the missed item never gets stored again.
 
 ## Related pages
 

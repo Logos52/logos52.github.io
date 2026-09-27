@@ -3,11 +3,11 @@ title: "The Three Readings of a Silence"
 type: concept
 status: seed
 created: 2026-08-14
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: fable
-description: ""
+written-by: opus
+description: "How to tell a standard a person holds as their own from one kept for approval, using the stretches of work that nobody sees."
 tags:
   - self
   - mindset
@@ -15,6 +15,17 @@ tags:
 ---
 
 # The Three Readings of a Silence
+
+A silence is a stretch of work that nobody sees, praises or checks. What keeps a person working through one shows whether a standard they hold is their own or one kept for other people's approval. Studies of motivation give a few ways to tell the two apart, and in those studies the two kinds of standard look the same for the first few weeks.
+
+## Core takeaways
+
+- A standard kept for approval still runs when nobody is watching.
+- Pressure drives effort and brings more anxiety after failure.
+- Owned and pressured goals look alike until weeks two to four.
+- Measuring a hobby in private can turn it into work.
+- People read their own unseen actions as evidence about themselves.
+- A fact about a memory is safer than a feeling of certainty.
 
 ## Sources
 

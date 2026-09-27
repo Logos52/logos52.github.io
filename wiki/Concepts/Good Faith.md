@@ -3,10 +3,10 @@ title: "Good Faith"
 type: concept
 status: developing
 created: 2026-05-16
-updated: 2026-09-24
-method: outline-2026-09-24
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: fable
+written-by: opus
 description: "Telling the other side your limits, intentions and downsides at a cost to yourself, why the cost makes it credible, and when to extend it."
 tags:
   - ethics
@@ -17,28 +17,31 @@ tags:
 
 # Good Faith
 
-Good faith, as this vault uses the term, is the practice of telling the other side your limits, your intentions and the downsides of what you offer, even when saying so costs you something right now. The cost is what makes the words believable, so the other side can read them as an offer to cooperate. A reader who takes this up gets fewer late surprises in deals, feedback and close relationships, and a way to tell which counterparts to keep extending it to.
+Good faith, as this wiki uses the term, is telling the other side your limits, your intentions and the downsides of what you offer, even when saying so costs you something right now. The cost is why the other side can believe you and read the words as an offer to cooperate. Practising it means fewer late surprises in deals, feedback and close relationships, and a way to tell which counterparts to keep extending it to.
 
 ## Core takeaways
 
-- Disclose three things: your constraints, your intentions, and the downsides of what you offer.
-- A disclosure counts as a signal only where it could have cost you. Transparency that costs nothing tells the other side nothing.
-- Raise a problem early. A problem raised early is a plan change, and the same problem found late is read as a betrayal.
-- Hiding, omitting and managing impressions all need upkeep. Saying the thing needs none.
-- Extend it in full to people who can return it. When a counterpart only takes, narrow what you disclose and keep what you say true.
-- Good faith is ethical and strategic at the same time, so there is no trade to make between the two.
+- Disclose your constraints, your intentions and your offer's downsides.
+- A disclosure signals something only if it could have cost you.
+- A problem raised early is a plan change.
+- The same problem found late reads as betrayal.
+- Hiding a fact needs upkeep in every later exchange.
+- Extend it fully to people who return it.
+- With someone who only takes, say less and keep it true.
 
 ## How it works
 
-- You hold something the other side cannot see: a constraint, an intention, a downside.
-  - Keeping it hidden means managing an impression from then on, and the upkeep grows with each exchange.
-  - Saying it gives up some leverage now.
-- Because saying it costs you, the other side can read two things: you are willing to cooperate, and you are not working at their expense.
-  - Telling them what they could already see carries neither message.
-- Timing sets the cost. The same fact raised before a plan is fixed is a small adjustment; the same fact found after commitments are made is read as concealment.
-- The signal pays most where the people around you are vague on purpose, because your disclosure stands out against that background.
-- In repeated dealings the practice spreads: the other side returns it, and the norm holds as long as both sides keep answering in kind. It depends on their response, and on both sides expecting to meet again.
-- A working test: problems surface before trust is spent, and no disclosed fact turns up later as a surprise.
+You hold something the other side cannot see, such as a constraint, an intention or a downside. Keeping it hidden means managing an impression from then on, and that upkeep grows with each exchange. Saying it gives up some leverage now, and because it costs you, the other side can read from it that you are willing to cooperate and that you are not working at their expense. Telling them what they could already see carries neither message.
+
+- Timing sets the cost of a disclosure.
+- Before a plan is fixed, a fact is a small adjustment.
+- After commitments are made, the same fact reads as concealment.
+- The signal stands out most among people who are vague on purpose.
+- In repeated dealings the other side tends to return it.
+- Good faith lasts while both sides answer in kind.
+- It needs both sides to expect to meet again.
+- Test: problems surface before trust is spent.
+- Test: no disclosed fact turns up later as a surprise.
 
 ```
 hold a limit, intention or downside
@@ -57,26 +60,31 @@ hold a limit, intention or downside
 
 ## Where it applies
 
+The same practice works wherever people deal with each other more than once. What you disclose and what it costs you change with the setting. The table gives four common settings.
+
 | Setting | What to disclose | What it costs you |
 |---|---|---|
-| Negotiation | your real constraints, no bluffing | leverage |
-| Feedback | what you saw, said directly, without needless cruelty | the comfortable version |
+| Negotiation | real constraints, no bluffing | leverage |
+| Feedback | what you saw, direct, not cruel | the comfortable version |
 | Close relationships | difficult truths, early | short-term ease |
-| Public work | what is known, what is not, what the work requires | a polished front |
+| Public work | what is known and not known | a polished front |
 
-- In feedback, honesty outranks kindness; how to put a hard fact inside the other person's way of seeing it is on [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]].
-- The public-work practice of this stance is on [[wiki/Concepts/Anti-Marketing|Anti-Marketing]].
-- Good faith also rules out manipulative framing: the words that make a fact land are allowed, the words that steer someone against their own interest are not.
+- In feedback, honesty outranks kindness.
+- Words that help a fact land are allowed.
+- Words that steer someone against their own interest are ruled out.
+
+The way to put a hard fact in the listener's terms is on [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]], and the public-work version is [[wiki/Concepts/Anti-Marketing|Anti-Marketing]].
 
 ## The limit
 
-- The signal is aimed at someone, and who receives it changes how far to extend it.
-- Forthrightness offered to everyone without condition can be exploited. A counterpart who only extracts turns your disclosure into their advantage, and the stance costs most where it is least returned.
-- The sign to watch for: over several rounds they take what you disclose and give nothing back.
-- At that point narrow what you disclose, and keep what remains true. Say less, and keep every word of it honest.
-- What changes is how far you extend it. The commitment to honesty itself does not change.
-- Disclosure can also become a load on the other person. Hidden information is a burden on them, and so is every detail dumped at once; where care for the other person tips into erasing yourself is on [[wiki/Concepts/Meiwaku|Meiwaku]].
-- What is owed to a counterpart who extracts is still an open question on this desk.
+A disclosure is aimed at a particular person, and who receives it changes how far to extend it. Forthrightness offered to everyone without condition can be exploited, because a counterpart who only takes turns each disclosure into an advantage for themselves. The sign to watch for is that over several rounds they take what you disclose and give nothing back. At that point you say less, and every word of what you still say stays honest.
+
+- Narrow how far you extend it, and keep the commitment to honesty.
+- Disclosure can also burden the other person.
+- Hidden information is a burden, and so is every detail at once.
+- What is owed to someone who only takes is still open here.
+
+Where care for others turns into erasing yourself is on [[wiki/Concepts/Meiwaku|Meiwaku]].
 
 ## Related pages
 

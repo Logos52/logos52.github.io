@@ -3,13 +3,13 @@ title: "30-Day Challenge - Deep Processing"
 type: concept
 status: developing
 created: 2026-05-22
-updated: 2026-09-24
-method: outline-2026-09-24
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: fable
+written-by: opus
 model: grok
 source-count: 6
-description: "A four-week practice that trains comparing and ranking new material as it is met, one step more demanding each week."
+description: "A four-week practice that trains comparing new material with what is known and ranking the links, one step more demanding each week."
 tags:
   - learning
   - deep-processing
@@ -19,70 +19,70 @@ tags:
 
 # 30-Day Challenge - Deep Processing
 
-A four-week practice for changing what the mind does with new material at the moment it is met: comparing it to what is already known and judging which links matter, in place of reading it and holding the words. The month starts by noticing which of the two the mind is doing, then asks more of the comparing each week, so that by the end it runs without a timer and less repetition is needed later.
+The Deep Processing challenge is four weeks of ordinary study sessions with one job added: each new fact gets compared with facts already known, and the learner judges which of the links between them matter. Reading a fact and holding its words is the habit the month replaces. The first week only asks the learner to notice which of the two the mind is doing, each week after asks more of the comparing, and by the end the comparing starts on its own and less repetition is needed later.
 
 ## Core takeaways
 
-- There are two ways to handle a new fact or idea. One way, call it the isolated mode, remembers and understands the fact on its own, by rereading, rewriting or repeating. The other, the relating mode, compares the fact to other facts and ideas for similarities and differences, then judges which of those matter, so that the fact sits in a network of related facts. Material held in a network is retained longer and understood more fully.
-- Effort tells which mode is running: relating costs mental effort, and the isolated mode feels easy and often brings on drowsiness. That difference in feeling is how the mode gets caught mid-session.
-- The same three questions run all month: what does this mean, how does it connect, why does it matter. Only how much is asked of them rises, week by week.
-- Week 1 changes nothing except awareness. A tally mark each time the isolated mode is noticed is all week 1 asks.
-- Overwhelm in week 2 and uncertainty in week 3 are expected. Both mean the practice is working.
-- Most people need more than four weeks and repeat week 4.
-- Any material works: next term's content, a new topic, an old weak one, a set of encyclopaedia articles. The content is only practice material; the relating mode is what is being trained.
+- New material can be held alone or compared with other material.
+- Compared material sits in a network and lasts longer.
+- Comparing takes effort, and holding words alone feels easy.
+- Three questions run all month: meaning, connection, importance.
+- Week 1 asks only for noticing, with a tally mark.
+- Overwhelm in week 2 and doubt in week 3 are expected.
+- Most people repeat week 4 at least once.
+
+## The two modes
+
+A new fact can be handled in an isolated mode or a relating mode. In the isolated mode the fact is remembered on its own, by rereading it, rewriting it or repeating it. In the relating mode the fact is compared with other facts for what is similar and what is different, and the learner then judges which of those links matter. The relating mode takes more effort, and that difference in effort is how a learner catches which mode is running in the middle of a session.
+
+- Isolated mode: reread, rewrite, repeat, and it feels easy.
+- Relating mode: compare, judge the links, and it feels effortful.
+- Drowsiness during study is a sign of the isolated mode.
+- Any material works, including next term's content or an old weak topic.
 
 ## The four weeks
 
+The same three questions run through all four weeks: what a thing means, how it connects, and how much it matters. What changes is how much each week asks of them. Week 1 asks only for awareness of which mode is running. Weeks 2 and 3 put the comparing on a clock and then add a ranking of the links, and week 4 takes the clock away, so the comparing has to start without a prompt.
+
 - Week 1, notice the mode
-  - A sheet of paper beside the work. A tally mark each time thinking is noticed in the isolated mode.
-  - Every 30 minutes, pause and rebuild the big picture of the session so far.
-  - End of each session, a short written reflection: how each mode felt for effort, engagement, memory and understanding.
-  - The 30-minute rebuild is weaker than relating at first pass, and gaps remain. Week 1 produces awareness and a falling share of time in the isolated mode.
+  - Keep a sheet of paper beside the work.
+  - Make a tally mark each time the isolated mode is caught.
+  - Every 30 minutes, rebuild the big picture of the session so far.
+  - End each session with a short note on how each mode felt.
 - Week 2, relate on a clock
-  - Every 15 minutes, 5 minutes comparing what was just covered: similarities, differences, trends, influences.
-  - Every hour, 15 minutes doing the same comparing across the whole topic so far.
-  - A relation is unclear: one or two minutes of looking up, then move on.
+  - Every 15 minutes, spend 5 minutes comparing what was just covered.
+  - Every hour, spend 15 minutes comparing across the whole topic.
+  - Look for similarities, differences, trends and influences.
+  - An unclear relation gets one or two minutes of lookup.
   - Notes change only for the relations that matter most.
 - Week 3, rank the relations
   - Keep the week 2 clock.
-  - Each new relation gets a value out of five for its importance to the whole topic.
-  - Unsure of the value: up to three minutes of reading, then assign the best value available.
-  - Week 3 is usually the hardest of the four weeks. Gaps show, relations that felt obvious become uncertain, and more reading is needed to judge them.
+  - Score each new relation out of five for importance.
+  - Unsure of a score: read for up to three minutes, then decide.
 - Week 4, run it unprompted
-  - No clock. Whenever the isolated mode is noticed, compare.
-  - Only relations rated four or five go into the notes.
-  - The big picture is lost: build a simple overarching structure for the topic.
-  - Three minutes is the cap on any exploring.
-
-```
-demand
-  ^
-  |  week 4  run it unprompted   notes keep 4 and 5
-  |  week 3  rank each relation  value out of 5
-  |  week 2  relate on a clock   15+5 min, 60+15 min
-  |  week 1  notice the mode     tally per catch
-  +-------------------------------------------->
-     same questions: meaning, connection, importance
-```
+  - No clock, so compare whenever the isolated mode is caught.
+  - Only relations scored four or five go into the notes.
+  - Big picture lost: build a simple structure for the topic.
+  - Cap any exploring at three minutes.
 
 ## What success looks like
 
-- Moderate comfort with the effort and uncertainty of relating and ranking, rather than avoiding them or picking only the easy links.
-- New material gets related to the big picture often, with no timer running.
-- A curiosity gets explored and settled within a few minutes when the network needs it.
-- Until these three hold, week 4 runs again.
+The month has done its work when the comparing starts without a timer and the effort no longer puts the learner off it. The learner can also sit with a ranking that stays uncertain, where before only the easy links got picked. Week 4 is repeated until the comparing starts on its own, and most people repeat it at least once.
+
+- Moderate comfort with the effort and doubt of ranking.
+- New material gets related to the big picture unprompted.
+- A curiosity gets settled within a few minutes when it matters.
 
 ## Where it gets hard
 
-- Relating feels tiring. It costs more effort per minute, and the cost falls as it becomes habit.
-- Sessions feel slow. A session runs longer at first, and fewer repeat sessions are needed later for the same amount remembered.
-- The relating mode is rare at first. Normal for anyone without the habit, which is why week 1 asks only for awareness.
-- Relations are hard to find. Narrow what is looked for to similar, different, trend, influence. A note on the desk asking how the last two items are similar helps.
-- Too many relations in week 2. More links than can be held is expected. Week 3's ranking reduces the overwhelm, in the way that a maze is easier once the main path is marked.
-- Obvious links go uncertain in week 3. The uncertainty comes from noticing variables that were ignored before, and that noticing is what strengthens the network. Full certainty is never available; decide on the best reading within the three minutes.
-- A value will not settle. Explain the relation twice, once in detail and once in a sentence a stranger would follow; the one that holds decides.
-- Relating does not replace learning each item on its own. Both are needed.
-- The tally never falls and the effort never eases. The habit is not landing, and rereading harder is the isolated mode again.
+Comparing costs more effort per minute than rereading, so sessions run longer at first. The cost falls as the comparing becomes a habit, and fewer repeat sessions are needed later for the same amount remembered. Week 3 is usually the hardest week, because links that felt obvious in week 2 turn uncertain once the learner notices factors that were ignored before. Full certainty is never available, so the learner decides on the best reading within three minutes.
+
+- Relations hard to find: look only for similar, different, trend, influence.
+- A desk note asking how the last two items are similar helps.
+- Too many links in week 2: week 3's ranking cuts them down.
+- A score will not settle: explain the relation in detail, then simply.
+- Relating does not replace learning each item on its own.
+- Tally never falls: rereading harder is the isolated mode again.
 
 ## Related pages
 

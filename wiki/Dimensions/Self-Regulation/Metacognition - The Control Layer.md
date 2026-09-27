@@ -3,11 +3,11 @@ title: "Metacognition - The Control Layer"
 type: concept
 status: seed
 created: 2026-05-02
-updated: 2026-09-11
-written-by: grok
+updated: 2026-09-27
+written-by: opus
 model: grok
 source-count: 11
-method: plain-rewrite-2026-09-11
+method: outline-2026-09-27
 prose-model: fable
 aliases:
   - Metacognition as a Skill
@@ -16,6 +16,7 @@ aliases:
 merged-from:
   - Metacognition as a Skill
   - Building the Radar
+description: "How to notice your own thinking during study, catch the drift into passive reading, and use missed predictions to improve study skills."
 tags:
   - metacognition
   - self-regulation
@@ -28,6 +29,62 @@ tags:
 ---
 
 # Metacognition - The Control Layer
+
+Metacognition is awareness of your own thinking while you think. Cognition does the task, such as reading a chapter, and metacognition notices how the reading is going and whether to change it. It sets how fast every other study skill improves, because a learner who cannot see what their mind is doing cannot correct it.
+
+## Core takeaways
+
+- Thinking is invisible, which is why learning to learn is hard.
+- The first signals are feelings: effort, difficulty, confusion, overwhelm.
+- Those feelings usually mean deep processing is happening.
+- Passive study is the default, and it goes unnoticed.
+- Predict before you practise, since the miss is what drives change.
+- Keep reflections short and frequent.
+
+## How it works
+
+In golf or engineering an error leaves something visible to trace back. In learning the error is a pattern of thought that no one can see, so the only way to see it is your own awareness. That awareness runs as a loop of three parts: a cue, monitoring, and a response. The cue is usually a feeling, because feelings arrive faster than thoughts, monitoring decides whether the cue reaches awareness, and the response is what you then choose to do.
+
+- Cue: effort, difficulty, confusion, overwhelm.
+- Monitoring: the cue reaches awareness, or slips past.
+- Response: stay with the hard thinking, or retreat.
+  - The untrained response treats the cue as a warning.
+  - It retreats to rereading, which feels like work.
+- Catch the slip back to the old response, and return.
+
+Awareness has levels: at the lowest you know you are struggling, above that you know why, and above that you switch strategy on purpose. Watching without changing anything does not improve performance.
+
+## Building the radar
+
+The practical first skill is detecting when you drift into passive study, and this vault calls learning that skill building the radar. Mind-wandering during reading is common, and the eyes keep moving over the page after attention has left. Most learners find that passive time is most of their study time. At about ten hours of study a week, learning to detect the drift takes around a month, and learning to switch back reliably takes one or two weeks more.
+
+- Split a sheet into two columns: passive and active.
+- Start active, for example by planning to teach the material.
+- When you notice you drifted, mark passive with a short note.
+- Return to active and continue for one to two hours.
+- Repeat until you catch the drift as it starts.
+
+Expecting to teach material leads to better organised recall than expecting a test on it.
+
+## Using prediction errors
+
+Skill changes when a prediction misses. State what you expect before a practice session, and the gap between the expectation and the result is the signal to change. A prediction you set yourself gives feedback in minutes, while feedback from outside, such as exam results, comes in days or weeks and arrives with nothing to compare it against. Complex skills show results late, so early progress is finding your own mistakes.
+
+- Predict: state the expected effect of a strategy.
+- Narrow: pick one small, specific slice of practice.
+- Reflect: record how you felt and responded, as well as events.
+- Abstract: look for habits that recur, and skip one-off causes.
+- Test: make the next change as a new prediction.
+
+Cap each reflection at about 30 minutes, a rule of thumb that no study has tested. A long reflection means self-awareness is the weak point, and more short sessions build it faster.
+
+## Limits
+
+Difficulty is useful only when it comes from productive thinking. Effort spent fighting distractions or decoding a half-known language builds nothing. Monitoring has its own cost in mental load, so it belongs on high-value practice and can be switched off for simple drills. Cue labels are private, since one person's "curiosity" may be another person's "difficulty", so cues guide one learner and do not compare across people.
+
+- No effort or confusion means the method is not engaging you.
+- Understanding each sentence is different from building connected knowledge.
+- Metacognitive skill is trainable, and training shows gains in studies.
 
 ## Related pages
 

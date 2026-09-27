@@ -3,12 +3,13 @@ title: Mandarin Chinese Language Learning Resources
 type: resource-catalog
 status: developing
 created: 2026-05-06
-updated: 2026-09-13
-method: plain-register-2026-09-13
+updated: 2026-09-27
+method: draft-2026-09-27
 prose-model: opus
 source-count: 83
-written-by: grok
+written-by: opus
 model: grok
+description: "Free Mandarin channels, series and tool types for input-based learning, sorted from beginner to native material."
 tags:
   - resources
   - mandarin
@@ -16,6 +17,67 @@ tags:
 ---
 
 # Mandarin Chinese Language Learning Resources
+
+Free Mandarin video and audio exists at every level, from slow channels made for beginners to native news. A learner who studies mainly by watching and listening needs a steady supply at the right level, and finding it is the hardest part of the first months. Start with learner channels and move to native ones as more is understood.
+
+## Core takeaways
+
+- Start with channels made for learners, then move to native ones.
+- Choose simplified or traditional characters and stay with one.
+- Learn the four tones and tone pairs in the first weeks.
+- Use pinyin first; add characters once the sounds are comfortable.
+- Switchable subtitles let a lookup tool read them.
+- Spaced repetition review is optional.
+
+## Choosing material
+
+Mandarin video comes with two choices that affect a learner. The first is the script: the Mainland uses simplified characters and Taiwan and Hong Kong use traditional ones, and a learner does better reading one set until it is familiar. The second is subtitles: burned-in subtitles are part of the picture, while switchable ones are text a browser tool can read, translate and look up. Slow speech with switchable subtitles in the chosen script is the easiest material to work with.
+
+```
+learner channels  -->  slow native  -->  native  -->  news
+(simple,               (monologues,      (cooking,    (fast)
+ explained)             podcasts)         vlogs)
+```
+
+## Beginner and slow input
+
+These channels speak slowly about simple topics, often with word-by-word help on screen. Most use simplified characters. They are the right starting place for the first months.
+
+- Comprehensible Chinese: simple stories with word translations.
+- Hit Chinese: beginner and advanced-beginner playlists with teaching parts.
+- Acquire Mandarin: pre-beginner to intermediate playlists.
+- LingLing Mandarin: beginner videos with English subtitles.
+- Mandarin Corner: slow monologues, stories and street interviews.
+- TeaTime Chinese: an audio podcast in slow Mandarin.
+- Intermediate Chinese Podcast with Shenglan: everyday topics.
+
+## Native material
+
+Once slow material is easy, native channels with subtitles are the next step. Cooking and teaching channels help because the picture shows what is being said. Interviews and podcasts come after that.
+
+| Channel | Script | Topic |
+| --- | --- | --- |
+| Chef Wang 美食作家王刚 | both | cooking |
+| 李永乐老师 Teacher Li Yongle | both | science lessons |
+| Dashu Mandarin | simplified | podcast |
+| Easy Mandarin | simplified | street interviews |
+| 千千進食中 Chienseating | traditional | food |
+| 滾動力 rollor | traditional | talk show |
+
+- Streaming series with Chinese subtitles: Reset, Nothing But Thirty.
+- Also: The Longest Day in Chang'An, The King's Avatar.
+- Hard material for later: news and comedy channels.
+
+## Tools
+
+Each kind of tool below exists in free versions. None of them is required, and a learner should add one only when a specific problem shows up.
+
+- A pinyin chart with audio, for learning the sounds.
+- A tone-pair trainer, for hearing tones in two-syllable words.
+- A popup dictionary that shows a character's reading on hover.
+- A browser subtitle extension for lookups and pausing per line.
+- An audio dictionary with recordings by native speakers.
+- A list of the 100 most common words.
 
 ## Related pages
 

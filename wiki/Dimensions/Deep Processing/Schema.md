@@ -3,10 +3,10 @@ title: Schema
 type: concept
 status: developing
 created: 2026-05-14
-updated: 2026-09-11
-written-by: grok
+updated: 2026-09-27
+written-by: opus
 model: grok
-method: plain-rewrite-2026-09-11
+method: outline-2026-09-27
 prose-model: fable
 aliases:
   - "Schema Construction, Assimilation, and Reorganization"
@@ -14,6 +14,7 @@ aliases:
 merged-from:
   - "Schema Construction, Assimilation, and Reorganization"
   - "Survive and Thrive"
+description: "How the network of links between facts decides what is remembered, and how to build one in three passes: draft, add, reorganise."
 tags:
   - schema
   - encoding
@@ -27,6 +28,73 @@ tags:
 ---
 
 # Schema
+
+A schema is the network of connections a person holds between the facts and ideas of a subject. How well that network is built decides how long the knowledge lasts and whether it can be used on hard problems, so the speed of learning a subject is the speed of building its schema. A schema is built in three passes: a rough draft, then adding new material to it, then cleaning it up.
+
+## Core takeaways
+
+- Facts are kept when they connect to other facts.
+- The brain drops information that links to nothing.
+- Build a rough draft first, from keywords and guesses.
+- Add each new fact by asking how it connects.
+- Stop adding and reorganise often.
+- Reorganising feels slow and is the step most people skip.
+- Knowledge that connects can be used on unfamiliar problems.
+
+## How it works
+
+A schema can be pictured as a city's transport map, with each station a concept and each line a relationship between concepts. Holding information costs the brain effort, so it keeps what solves a problem it cares about or fits a pattern it already has, and drops the rest. A fact memorised on its own is soon forgotten, and so is a concept understood on its own. A good learner facing a hard problem can break it into its concepts and see how they connect, because their schema already holds those links.
+
+- Wanting to remember a fact does not make it stay.
+- A fact stays if it solves a problem or fits a pattern.
+- A link to something already known helps, such as an analogy.
+- A link between two new facts helps too, such as a comparison.
+- A weak schema leads to forgetting, relearning and forgetting again.
+
+## The three passes
+
+The first pass builds a draft. All the key terms of the topic, from every source, go on one page, so attention does not jump between books and slides. The learner starts from the terms that feel familiar and guesses how they relate, knowing the guesses will change. Detail comes in the second pass, and the third pass adds nothing new.
+
+```
+construct    keywords + guessed links     (draft)
+    |
+assimilate   add each fact where it fits  (grows)
+    |
+reorganise   regroup, cut, simplify       (no new input)
+    |
+    +-- back to assimilate, every 10-15 minutes
+```
+
+- Construct: list the keywords on one page and guess the links.
+  - Start with what is already familiar.
+  - Leave every detail for later.
+- Assimilate: read the material and fit each piece in.
+  - Ask what it connects to and what it leads to.
+  - Mark dense paragraphs and return to them later.
+- Reorganise: stop reading and clean the map.
+  - Regroup items so that lines stop crossing.
+  - Remove what turned out to be irrelevant.
+
+## Where it fails
+
+Most learners skip reorganising because it feels like studying less, since no new pages get covered. That time is when information turns into lasting knowledge. The step also becomes overwhelming when the learner piles up detail for hours before stopping, or went into detail too early in the earlier passes. When no connections form at all, the material is too detailed for the learner's current base, and a quick overview of the topic has to come first.
+
+- Reorganise every 10 to 15 minutes at university level.
+- A map left for hours becomes too tangled to clean.
+- Early detail makes every later pass harder.
+- No links at all: do a big-picture pass first.
+
+## Ways to make links
+
+Making links is the main work of learning, so it helps to know several ways to make them. Some tie new material to old knowledge, and some tie new pieces to each other. An analogy helps most when it matches how the parts of the idea work together.
+
+- Make an accurate analogy to something known.
+- Rename jargon in plain words.
+- Use the fact on a problem right away.
+- Compare new facts with each other.
+- Group facts that share a trait.
+- Draw arrows between groups to show what affects what.
+- Place related groups near each other on the page.
 
 ## Related pages
 

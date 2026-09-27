@@ -3,11 +3,11 @@ title: "Spaced Interleaved Retrieval"
 type: technique
 status: developing
 created: 2026-05-04
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: fable
-description: ""
+written-by: opus
+description: "A standing habit of testing yourself at growing gaps and from varied angles, with a sample schedule and how to set each session."
 tags:
   - learning
   - retrieval
@@ -17,6 +17,78 @@ tags:
 ---
 
 # Spaced Interleaved Retrieval
+
+Spaced interleaved retrieval is a standing habit of testing yourself on what you have learned, at growing gaps of time, in a different way each time. Knowledge that is not used fades, often by about half within a week. Regular varied self-testing finds what has faded or was never understood, while there is still time to fix it.
+
+## Core takeaways
+
+- Retrieval means any use of knowledge from memory.
+- Space sessions further apart each time.
+- Test the same idea from different angles.
+- A session that finds many gaps is working.
+- Start broad and deep, then narrow to details.
+- Better first learning means less retrieval later.
+
+## Why it matters
+
+Learning has two halves. Encoding is getting information into long-term memory, and retrieval is any later use of it, such as testing yourself, teaching, explaining, solving a problem or discussing it. Better encoding does more for recall, but it takes months or years to get good at, while useful retrieval habits take a day or two to learn. Until encoding improves, retrieval is what keeps knowledge from fading.
+
+- Beginners may spend 70% or more of study time on retrieval.
+- Skilled learners may need under 20%.
+- Some retrieval is always needed, since all memory fades.
+- An early error spreads to everything built on it.
+- Fluency means fast recall that can be used on hard problems.
+- The fluency needed depends on why you are learning.
+
+## Spacing
+
+Each session should come a little later than the last. A fixed interval, such as every two days, builds a backlog once new material arrives daily. A growing gap keeps the workload small and lets weak memories fade, so the next test shows where the real gaps are. A loose rule of thumb is one day, one week, one month.
+
+- Example gaps: day 1, day 3, day 8, day 18, day 48.
+- Too soon repeats what has not yet faded.
+- Too late means relearning and a very long session.
+- A rough trend matters more than exact dates.
+- Flashcard apps can run their own schedule alongside.
+
+## A sample month
+
+Material learned on Monday or Tuesday is reviewed the same day. Wednesday tests both days together. Friday or Saturday tests the last two weeks, and the end of the month tests the last four weeks. Three to four weeks before an exam, everything relevant gets tested.
+
+- Each piece is met about six times a month this way.
+- With good encoding, 80 to 90% survives the first week.
+- A week of material then takes a few hours to test.
+- A month of it takes about half a day.
+
+## Interleaving
+
+Interleaving means coming at one piece of knowledge from many angles. Switching subjects inside one session is a narrow version of it. The broader version changes what kind of thinking the test asks for: answer a simple question, then a complex one, then teach it, then apply it to a real case. Each method uses the knowledge differently and exposes different gaps.
+
+- Methods: practice questions, flashcards, teaching, mind maps, drawings.
+- Write your own hard questions, or alter a practice question.
+- Frame a problem in a real-world setting.
+- Mixing works best for ideas that are similar but distinct.
+- Mixing identical or unrelated ideas teaches nothing new.
+- Mixing single vocabulary words tends to hurt.
+
+## Setting each session
+
+Three settings define a session: order, volume and type. Order is whether it uses knowledge in a connected way, such as solving a problem or writing an essay, or as isolated facts, and volume is how much ground it covers. Type is whether it tests knowing what something is or doing something automatically. Early sessions should be high on order and volume, and later ones narrower.
+
+- Early: teach the whole topic from memory to find many gaps.
+- Note small fact gaps then, and fill them later.
+- Later: targeted questions on details, flashcards alongside.
+- Diagnosing a patient from facts still tests knowing what.
+- Most weak spots are in how ideas connect.
+
+## When it is not working
+
+A session that finds few gaps, on material not yet mastered, was probably too easy. A session that finds many gaps is doing its job. Common causes of weak sessions are testing only big ideas or only small facts, and skipping practice on the doing side of a subject.
+
+- A failed attempt followed by the answer still helps.
+- Feedback on answers roughly doubles the benefit of testing.
+- Mixed practice beat one-topic-at-a-time practice a month later, 61% to 37%.
+- AI help that does the work lowers unaided exam scores.
+- Limited AI help raised practice with no drop in exam scores.
 
 ## Related pages
 

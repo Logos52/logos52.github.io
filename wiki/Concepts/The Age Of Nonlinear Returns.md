@@ -3,12 +3,13 @@ title: "The Age Of Nonlinear Returns"
 type: concept
 status: developing
 created: 2026-05-12
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
 source-count: 3
-written-by: grok
+written-by: opus
 model: grok
+description: "Why the top result now outweighs all others in many fields, and what that means for spending time, settling deals and choosing projects."
 tags:
   - priority-0
   - leverage
@@ -16,6 +17,59 @@ tags:
 ---
 
 # The Age Of Nonlinear Returns
+
+Nonlinear returns are outcomes where a small difference in effort, skill or choice produces a result many times larger, as when one startup in a fund returns more than all the others together. Software, media and AI have made this the usual shape of returns in much of today's work. Where it holds, the way to spend time, settle disputes and choose projects changes: protect the chance of a very large outcome, and stop fighting over small ones.
+
+## Core takeaways
+
+- In many fields, the top result outweighs all the rest combined.
+- A future upside can be 100 to 10,000 times today's stakes.
+- Time and open options are the scarce resource.
+- Skip fights over small stakes, and grow the total instead.
+- Fight when a loss would cost you a year of sleep.
+- Build systems that produce work, beyond one-off pieces of work.
+
+## How the returns work
+
+In a power law, results fall off steeply from the top. The best investment in a venture fund is worth more than the second through the last combined, and the second is worth more than the third through the last. The economist Sherwin Rosen showed the same shape in 1981 for performers and professionals: when one winner can serve a whole market, a slightly better input gets a much larger share. Work with ideas, code and media fits this shape because a copy costs almost nothing to make.
+
+- One outcome dominates the total.
+- Selling early caps a result below the top of the curve.
+- Small differences in input become large differences in outcome.
+- Picking the right project matters more than working faster.
+
+```
+value
+ |#
+ |#
+ |# #
+ |# # # . . . . . . .
+ +---------------------> projects, ranked
+  1 2 3 4 ...
+```
+
+## Time, deals and fights
+
+When the future upside can be a hundred or a thousand times larger than today's stakes, a person's time and open options are what to protect. Giving them up makes sense only for a chance at an outcome of that size. In deals, the working rule is to focus on making the total bigger and on what each side can do for the other later, and to spend little effort splitting what already exists. Three exceptions stand: defend yourself when large gains are being grabbed, fight when an unsettled loss would keep you awake for a year, and stand up on principle so the loss does not set a precedent.
+
+- Keep time and options free for the large chance.
+- Walk away from small stakes, and avoid that partner next time.
+- Protect your reputation and your peace.
+- Fight big grabs, sleep-costing losses, and precedents.
+
+## Factories and people
+
+In work done with AI, the same shape shows in how engineers are judged. An engineer who builds a setup that produces many outputs can be worth 100 or 1,000 ordinary ones. Higher output per person is a reason to hire more strong people, since each one adds so much. Improvements to that setup carry forward from one session to the next.
+
+- Build the system that produces work, and improve it.
+- Hire more strong operators as productivity rises.
+
+## Where it fails
+
+The frame breaks when every interest is treated as a possible huge winner, since effort spread that thin does not reach the top of any curve. It also breaks when fast, hacky fixes pile up hidden costs in the system that later cancel the gains. A few areas get long-term effort, and the rest are handled simply.
+
+- Choose a few areas that can compound.
+- Watch for shortcuts that build hidden debt.
 
 ## Related pages
 

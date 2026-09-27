@@ -3,12 +3,13 @@ title: "The Shortcut Problem"
 type: concept
 status: seed
 created: 2026-05-09
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: grok
+written-by: opus
 model: grok
 source-count: 5
+description: "How a learner can follow every step of a study technique while skipping the thinking it was meant to cause, and how to catch it."
 tags:
   - learning
   - metacognition
@@ -16,6 +17,61 @@ tags:
 ---
 
 # The Shortcut Problem
+
+A study shortcut is a way of doing a learning technique that produces the visible result, such as a note, a map or a highlight, without the thinking the technique was meant to cause. The learner follows every step and sees no improvement. Knowing the common shortcuts lets a learner check whether the method failed or whether the thinking never happened.
+
+## Core takeaways
+
+- A technique works only through the thinking it forces.
+- The brain looks for the easiest route through any technique.
+- Shortcuts leave the same visible output as real work.
+- Easy processing feels like learning and usually is not.
+- Staying with confusion is part of the work.
+- Build techniques that are hard to fake.
+
+## How it works
+
+A study technique produces its result through the thinking it forces, such as comparing two ideas, judging which points matter or linking a new fact to an old one. That thinking is what stores knowledge and makes it usable later. When linking ideas gets confusing, the mind reaches for something simpler: memorising, repeating or keeping the facts apart. The output still looks right, so the learner blames the technique.
+
+- Confusion about how ideas connect is the trigger.
+- The shortcut removes the discomfort and the uncertainty.
+- The learner feels productive because something was produced.
+
+```
+technique -> thinking -> knowledge -> result
+
+shortcut:  technique -> output that looks right
+                        (no thinking, no result)
+```
+
+## Common shortcuts
+
+A shortcut keeps the look of a technique and drops its purpose. Highlighting a sentence marks it as important without working out why it matters or how it connects to the rest. Drawing an arrow on a map marks two ideas as linked without deciding what the link is. Looking up which points matter skips the judging that the exercise was for.
+
+| Shortcut | What it skips |
+| --- | --- |
+| Highlighting | Judging why the line matters |
+| Arrow drawn for its own sake | Deciding the relation |
+| Looking up the answer | Working it out |
+| Copying another person's method | Building a structure of one's own |
+| Rereading | Recalling from memory |
+| Checking with the answer in view | Testing what is known |
+
+## Why it feels fine
+
+Research on study habits shows that learners take easy processing as proof of learning. Rereading and highlighting rate low in reviews of study methods, yet students rate rereading above testing themselves, even though testing wins. Studying with the answer in view makes people overrate what they will remember later. A session that feels smooth is often one in which little was stored.
+
+- Fluency while reading predicts little about later recall.
+- Recall with the source closed shows what was actually stored.
+
+## How to catch it
+
+The hardest part of learning well is noticing how one tends to think. Two questions help during study: is this thinking at the level the result needs, and is the easier route being taken right now. A technique can also be changed so that the shortcut stops working, for example by writing down why a highlighted line matters before moving on.
+
+- Ask the two questions at each step, during the work.
+- Name the shortcut after the session, then change one thing.
+- Replace look-ups with a first attempt from memory.
+- Treat a clean, easy session as a warning sign.
 
 ## Related pages
 
