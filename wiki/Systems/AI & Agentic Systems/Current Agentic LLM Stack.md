@@ -3,14 +3,14 @@ title: "Current Agentic LLM Stack"
 type: reference
 status: developing
 created: 2026-05-17
-updated: 2026-09-24
-method: outline-2026-09-24
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
 aliases:
   - Agent Wrong-Door Log
 merged-from:
   - Agent Wrong-Door Log
-written-by: fable
+written-by: opus
 description: "Which AI model or agent product holds which job on this desk, the rules behind each seat, and what was dropped."
 tags:
   - agentic
@@ -25,76 +25,105 @@ tags:
 
 # Current Agentic LLM Stack
 
-The current agentic LLM stack is the list of AI models and agent products this desk runs, with the one job each product holds and the date that assignment was made. A reader who runs more than one agent can use it to see which product takes a given job and why no two products share one.
+# Current Agentic LLM Stack
+
+The current agentic LLM stack is the list of AI models and agent products this desk runs, with the one job each product holds and the date that job was given to it. A reader who runs more than one agent can use it to see which product takes a given job and why no two products share one.
 
 ## Core takeaways
 
-- Each product holds one seat, and a seat is one kind of job: prose, local execution, editor work, overnight code, standing watch, audio.
-- Only one writer edits a folder tree at a time. Two agents editing the same files failed on 12 June 2026, and the roster was cut back within the hour.
-- Every product on the roster runs on a subscription or on the owner's laptop. Nothing billed per token holds a seat.
-- All the Grok bots on an account share one cloud computer, and it holds public material only, so bots report and file and never write this wiki.
-- Application code written in the cloud arrives as a pull request, and the owner merges it himself.
-- Local models do audio only. A local chat model was tried in May 2026 and dropped within weeks.
+- Each product holds a seat, meaning a kind of job.
+- Only one agent edits a folder tree at a time.
+- Every product runs on a subscription or on the owner's laptop.
+- Nothing billed per token of text holds a seat.
+- Grok bots share one cloud computer that holds public material only.
+- Cloud-written application code arrives as a pull request the owner merges.
+- Local models do audio only.
 
 ## The roster
 
-As of 1 September 2026.
+Each seat is a kind of job: prose, local execution, editor work, overnight code, standing watch or audio. The list below is as of 1 September 2026, with later counts where the records give them. Products on the laptop stop when the lid closes, and the two cloud products, Grok Bot and Cursor Cloud Agents, keep running.
 
-- Grok 4.6, running in Grok Build, the terminal coding agent on the laptop: writes this wiki's prose and executes where the files live. Ruled 1 September 2026.
-- Claude Code, the terminal agent from Anthropic: runs this wiki's writing pipeline, a set of steps in which a fresh agent that has seen only the notes for one page writes that page. The 15 August ranking that put Claude Fable on wiki prose is kept as history and no longer routes work.
-- Claude Cowork, the desktop app: research when asked. It is not the default writer, since its late-August prose cost extra tokens to make readable.
-- Cursor, the code editor on the laptop: sitting inside application files, a large tree, diff hunks, debugging, tab completion. Its split against Grok Build was ruled 21 August 2026.
-- Cursor Cloud Agents: overnight code. An isolated machine per job clones a code repository, works, and opens a pull request. Run three times as of 18 September 2026, giving draft pull requests 3, 4 and 5, all checks green, none merged.
-- Grok Bot: standing watch on a cloud computer that keeps running when the laptop is closed. 9 bots on 25 August 2026, 18 by 18 September. Bots report; work between bots passes through files in a repository, never through a chat.
-- Local models on Apple Silicon: voice generation (Qwen3-TTS) and a transcription check (Whisper). They generate and check audio and do nothing else.
+- Grok 4.6 in Grok Build, the terminal coding agent on the laptop.
+  - Writes this wiki's prose and runs work where the files live.
+- Claude Code, Anthropic's terminal agent: runs this wiki's writing pipeline.
+  - Each page is written by a fresh agent that sees only its notes.
+  - A 15 August ranking put Claude Fable on prose, now kept as history.
+- Claude Cowork, the desktop app: research when asked, never the default writer.
+  - Its late-August prose needed costly cleanup.
+- Cursor, the code editor on the laptop: application files, diffs, debugging.
+  - Its split against Grok Build was ruled 21 August 2026.
+- Cursor Cloud Agents: overnight code, one isolated machine per job.
+  - Each clones a repository, works, and opens a pull request.
+  - Three runs by 18 September 2026: draft pull requests 3, 4 and 5.
+  - All checks green, none merged.
+- Grok Bot: standing watch on a cloud computer that stays on.
+  - 9 bots on 25 August 2026, 18 by 18 September.
+  - Bots only report, and work between them passes through files.
+- Local models on Apple Silicon: Qwen3-TTS for voice, Whisper to check it.
 
 ```
 laptop: Grok Build, Claude Code, Cursor
-  | prose and code, owner looking
-  v
-repository  <-- files --  Grok Bot cloud computer
-  |                       (public material, reports)
-  v
+   |  prose and code, owner watching
+   v
+repository  <-- files --  Grok Bot computer
+   |                      (public material only)
+   v
 Cursor Cloud Agent, one machine per job
-  |
-  v
-pull request --> owner merges
+   |
+   v  pull request, merged by the owner
 ```
 
 ## How a job is routed
 
-- Ask who the run is for, then whose computer does the work.
-- The owner at the laptop, inside a repository: Grok Build by default; Cursor when the work is reading and editing application files.
-- The owner away from the laptop: Grok Bot for a watch that reports, Cursor Cloud Agents for code. Grok Build and Cursor stop when the laptop lid closes.
-- A task that can be written down completely can leave the laptop. A task that needs what is on the screen right now stays local.
-- Effort setting: high in Grok Build when hunting hidden bugs, lower for research in Cowork.
-- Rewrite passes and cold reads run as fresh sessions, so the reader carries none of the writer's memory.
+Routing starts with who the run is for and whose computer does the work. With the owner at the laptop inside a repository, Grok Build is the default, and Cursor takes the reading and editing of application files. With the owner away, Grok Bot keeps a watch that reports and Cursor Cloud Agents write code. A task that can be written down completely can leave the laptop, and a task that needs what is on the screen right now stays local.
+
+- Grok Build effort: high when hunting hidden bugs.
+- Cowork effort: lower for research.
+- Rewrites and cold reads run as fresh sessions.
+- A fresh session starts with only what it is handed.
 
 ## The rules behind the seats
 
-- One writer per tree. Two agents may work the same day on different jobs, or as writer and reviewer, never both editing the same folder.
-- Grok Bot never writes the wiki. It drops files into an inbox folder, and the owner compiles them in Grok Build while watching.
-- Grok Bot shares plugins and connectors with the Cursor account, and a connector is account-wide, not per bot. That saves setup for a Cursor user. It is not a reason to put a private login on the shared computer.
-- No pay-per-token product. Claude Managed Agents, the Agent SDK and the Messages API bill that way, ruled off 28 August 2026, so none of them holds a seat.
-- No bot merges code. No chief-of-staff bot sits in front of the others, and no overnight factory of pull requests runs. The weekly allowance and a person reading each change set the limit.
-- No UI work is called done without a picture from the running app.
-- A wrong door is a job run on a product that could not see or touch what the job needed, or two writers on one tree. It is filed the same day: date, job, product used, product that should have been used, what broke, ruling.
+Two agents editing the same files failed on 12 June 2026, and the roster was cut back within the hour. Since then two agents may work the same day on different jobs, or as writer and reviewer, and never both editing one folder. The other rules keep private material off the shared cloud computer, keep per-token billing out, and keep a person between any change and its merge.
+
+- Grok Bot never writes the wiki.
+- It drops files in an inbox folder.
+- The owner compiles those files in Grok Build.
+- Grok Bot shares plugins and connectors with the Cursor account.
+- A connector applies to the whole account, so every bot has it.
+- Shared connectors never justify a private login on that computer.
+- Anthropic's Managed Agents, Agent SDK and Messages API bill per token.
+  - Ruled off on 28 August 2026.
+- No bot merges code.
+- No chief-of-staff bot sits in front of the others.
+- No overnight factory of pull requests.
+- The limit is Grok Bot's weekly allowance and a person reading each change.
+- No UI work is done without a picture from the running app.
+
+A wrong door is a job run on a product that could not see or touch what the job needed, or two agents writing one tree. It is filed the same day with the date, the job, the product used, the product that should have been used, what broke, and the ruling.
 
 ## What is gone
 
-- Hermes 3 8B through Ollama, the owner's main interface in May 2026, dropped within weeks. Local inference cost more in speed and reliability than subscription agents, and privacy is handled by keeping private material out of cloud reach instead.
-- Codex, off the roster since 12 August 2026.
-- The Cursor Ultra month, used only where Grok Build was weak (tab completion, visual review, an Xcode project, one overnight Cloud Agent), expired 12 September 2026.
+Three things have left the roster. The local chat model went because running it on the laptop cost more in speed and reliability than subscription agents, and privacy is handled instead by keeping private material out of cloud reach.
+
+- Hermes 3 8B through Ollama: main interface in May 2026, dropped within weeks.
+- Codex: off the roster since 12 August 2026.
+- A month of Cursor Ultra, expired 12 September 2026.
+  - Used for tab completion, visual review, an Xcode project, one Cloud Agent.
 
 ## Timeline
 
+The stack has changed about once a month in 2026. Each line below is a date and what changed on it.
+
 - Early 2026: Grok.
 - May 2026: Hermes 3 8B, local.
-- June 2026: Claude Cowork as the primary agent.
-- 11 August 2026: Grok Bot beta opens; 12 August: Grok 4.6 ships; 21 August: Grok Bot access widens.
-- 13 to 15 August 2026: Claude Fable wins the prose bake-off.
-- 26 August 2026: Cursor app installed on the laptop; the ideal week signed.
-- 1 September 2026: writer seat to Grok 4.6.
+- June 2026: Claude Cowork as the main agent.
+- 11 August: Grok Bot beta opens.
+- 12 August: Grok 4.6 ships.
+- 13 to 15 August: Claude Fable wins the prose comparison.
+- 21 August: Grok Bot access widens.
+- 26 August: Cursor installed on the laptop.
+- 1 September: writer seat to Grok 4.6.
 
 ## Related pages
 

@@ -3,12 +3,12 @@ title: Deep Processing
 type: dimension
 status: developing
 created: 2026-05-16
-updated: 2026-09-24
-method: outline-2026-09-24
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
 last-audited: 2026-08-14
 source-count: 12
-written-by: fable
+written-by: opus
 model: grok
 description: "How the thinking done while new material arrives sets what can be recalled and used later, and where the shallow pass fails."
 tags:
@@ -20,52 +20,55 @@ tags:
 
 # Deep Processing
 
-Deep processing is the thinking a learner does while new material arrives: comparing it with what is already known, judging which parts matter, and fitting it into a structure. How much of that thinking happens sets how much can be recalled and used later, so it decides whether an hour of study leaves something usable or only a feeling of familiarity.
+Deep processing is the thinking a learner does while new material arrives: comparing it with what is already known, judging which parts matter, and fitting it into a structure. How much of that thinking happens sets how much can be recalled and used later. It decides whether an hour of study leaves something usable or only a feeling of familiarity.
 
 ## Core takeaways
 
-- Memory strength is set by what the mind does with material at first contact; repeating a shallow pass more times does not improve the result.
-- Trying to understand is still a shallow pass. Comparing, judging and connecting build the memory, and understanding follows from that work.
-- Rereading, highlighting, copying notes out and reciting until it sticks are the shallowest forms. They leave a memory that fades and cannot be applied.
-- Any method can be run shallow or deep. The method gets the credit or the blame for thinking it did or did not carry.
-- Depth alone does not give access under pressure. Pulling material back from memory with the source closed is a separate skill, and it can beat elaborate study on a later test.
-- The deeper pass feels slow and uncomfortable, and learners read that discomfort as a sign of the worse method.
-- Processing is a habit built over years. Changing it takes weeks for a learner who already does most of it and months or years for most people.
+- Memory strength is set at first contact with the material.
+- Repeating a shallow pass more times adds little.
+- Comparing, judging and connecting build the memory.
+- Rereading, highlighting and copying notes are the shallowest forms.
+- Any method can be run shallow or deep.
+- The deep pass feels slow, and learners mistake that for failure.
+- Changing the habit takes months or years for most people.
 
 ## How it works
 
-- Material arrives and the mind does one of two things with it.
-  - Hold the wording: repeat it, keep it, move on. The memory left is thin, and later recall is recognition at best.
-  - Work on it: ask how it relates to what is known, how it is like or unlike the nearest idea, which parts carry the weight, and where it sits in the whole.
-- Comparison plus a judgement of what matters is the step that counts. Once it runs, remembering and understanding come along without separate effort.
-- The connected result is a schema: a structure in which a new fact has a place.
-  - A fact that fits is absorbed.
-  - A fact that contradicts forces a rebuild, and each rebuild makes the structure more accurate.
-- A 1969 word-list study tested this. People asked only to rate each word pleasant or unpleasant, with no instruction to remember, recalled as many words as people told to memorise the list, because rating a word forces a comparison with other things.
-- Handwritten notes beat typed notes in a 2014 study for the same reason. Writing is slow, so the writer has to condense and paraphrase, and that condensing is the thinking.
+When material arrives, the mind either holds the wording or works on it. Holding the wording means repeating it and moving on, which leaves a thin memory that is recognised at best. Working on it means asking how it relates to what is known, how it is like or unlike the nearest idea, and which parts carry the weight. Comparing and judging what matters is the step that counts, and once it runs, remembering and understanding come along without separate effort.
+
+- The result is a schema, a structure where facts have a place.
+- A fact that fits is absorbed.
+- A fact that contradicts forces a rebuild.
+- Each rebuild makes the structure more accurate.
 
 ```
 material arrives
    |
-   +-- hold the wording --> thin trace --> relearn
+   +-- hold the wording ---------> thin memory --> relearn
    |
-   +-- compare, judge, --> schema --> recall and use
-       connect
+   +-- compare, judge, connect --> schema ------> recall and use
 ```
+
+Two studies show the mechanism. In a 1969 word-list study, people asked only to rate each word as pleasant or unpleasant recalled as many words as people told to memorise the list, because rating a word forces a comparison. In a 2014 study, handwritten notes beat typed notes, because slow writing forces the writer to condense and paraphrase, and that condensing is the thinking.
 
 ## Where it fails
 
-- More hours on the same shallow pass. Doubling study time with the same method buys a small gain; changing the processing buys a larger one.
-- One fact per card. A card that tests a single fact builds no connection. Fusing two known cards into one question about how they relate does.
-- Pressure and fatigue. Under stress the mind falls back on habit, so the deep pass only survives when it is the habit.
-- Instinct that runs out. A learner who has always done this by instinct clears school without a method, and the instinct fails when volume or complexity outgrows it. The usual first response is more hours.
-- Encoding that does not match the use. Practice that looks nothing like the later task transfers poorly.
+Depth alone does not give access under pressure. Pulling material back from memory with the source closed is a separate skill, and on a later test it can beat elaborate study. Under stress or fatigue the mind falls back on habit, so the deep pass survives only when it has become the habit.
+
+- Doubling study time with the same method buys a small gain.
+- A card that tests one fact builds no connection.
+- Fuse two known cards into one question about how they relate.
+- Practice unlike the later task transfers poorly.
+- Instinct fails when volume or complexity outgrows it.
+
+A learner who has always processed deeply by instinct can clear school without a method. When the instinct runs out, the usual first response is more hours, which does not fix it.
 
 ## How to check
 
-- Close the sources and explain the topic, or produce a hard example. Only production shows what was built.
-- If time on the material keeps growing and the ability to use it does not, the depth of the pass is the problem.
-- Work on it after daily setup and retrieval habits are in place, since the change takes months and needs that time.
+The check is to close the sources and explain the topic, or to produce a hard example. Only producing something shows what was built. If time on the material keeps growing while the ability to use it does not, the depth of the pass is the problem.
+
+- Work on depth after daily setup and recall habits are in place.
+- The change takes weeks for a learner already doing most of it.
 
 ## Related pages
 

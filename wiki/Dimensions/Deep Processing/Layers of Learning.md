@@ -2,10 +2,10 @@
 type: concept
 status: developing
 created: 2026-05-14
-updated: 2026-09-24
-method: outline-2026-09-24
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: fable
+written-by: opus
 model: grok
 description: "Sorting a topic into logic, concepts, important details and arbitrary details, and studying the four layers from the inside out."
 tags:
@@ -19,58 +19,59 @@ tags:
 
 # Layers of Learning
 
-Layers of learning is a way of sorting everything in a topic into four layers by how much the rest of the topic depends on it, and studying the layers from the inside out. It settles what to read first when a textbook or lecture hands you detail before you know what the detail is for, and it cuts the share of facts you have to memorise by rote.
+Layers of learning is a way of sorting everything in a topic into four layers by how much the rest of the topic depends on it, then studying the layers from the inside out. It settles what to read first when a textbook or lecture gives detail before the reader knows what the detail is for. It also cuts the share of facts that have to be memorised by rote.
 
 ## Core takeaways
 
-- Every topic has four layers: the logic, the concepts, the important details and the arbitrary details. Study them in that order.
-- The logic layer is the few biggest ideas and the cause-and-effect links between them. Find it by asking of each thing why it matters and how it relates to the rest.
-- A detail is important when knowing it makes a concept easier to understand. A detail that does not is arbitrary, and gets memorised only because an exam asks for it.
-- Spend more time than feels needed on the logic and concept layers. Most wasted study time sits in the two detail layers, and a good inner structure shrinks them.
-- The inner layers stay provisional. Revise them whenever a later piece shows they were wrong.
-- Textbooks and lectures mix the layers and give detail far too early. Nobody tells you which layer a piece belongs to, so you sort it yourself.
+- Every topic has four layers: logic, concepts, important and arbitrary details.
+- Study them in that order.
+- Logic is the few biggest ideas and how they cause each other.
+- A detail is important if it makes a concept clearer.
+- Spend more time than feels needed on logic and concepts.
+- Revise the inner layers when a later piece shows an error.
+- Textbooks mix the layers, so the reader has to sort them.
 
 ## The four layers
 
+Each layer is found by asking a different question of a piece of the topic. The logic layer is found by asking why something matters and how it relates to the rest. The concept layer is found by asking what something is and how it happens. A detail that does not make any concept clearer is arbitrary, and it gets memorised only because an exam asks for it.
+
 | Layer | Question that finds it | What it holds |
 |---|---|---|
-| Logic | Why does this matter, how does it relate | The main purpose, the biggest ideas, the key cause-and-effect links |
-| Concepts | What is it, how does it happen | The ideas that make up most of the subject's understanding |
-| Important details | Does knowing this make a concept clearer | Specific facts that anchor a concept, such as the name of a substance involved or the exact number |
-| Arbitrary details | None, it is on the exam | Disconnected facts, rote-learned until later knowledge gives them a place |
+| Logic | Why it matters, how it relates | Main purpose, biggest ideas, key causes |
+| Concepts | What it is, how it happens | Most of the subject's understanding |
+| Important details | Whether it makes a concept clearer | Facts that anchor a concept |
+| Arbitrary details | None, only that the exam asks | Loose facts, learned by rote |
 
 ## How it works
 
-- A memory is rebuilt each time it is recalled.
-  - A few highly connected points let the whole shape of a topic be rebuilt from them.
-  - The same number of points picked from the edges leaves gaps everywhere.
-- Learning a topic in its resource's order keeps the difficulty high the whole way.
-  - Each new piece has no place to attach to, so its relevance is unclear.
-  - Read front to back, a student's material comes out at about 10 percent concepts, 20 percent important details and 70 percent arbitrary details.
-- Learning the logic first lowers the difficulty of each later layer.
-  - A concept has a purpose to hang from, so it makes sense the first time.
-  - A detail has a concept to explain, so fewer details are arbitrary. Built this way, the arbitrary details fall to about half of the details, and the details to about a fifth or a third of the topic.
-- A small logic layer is easy to keep clean and rarely changes, so what gets built on it stays right.
+A memory is rebuilt each time it is recalled. A few highly connected points let the whole shape of a topic be rebuilt from them, while the same number of points from the edges leaves gaps everywhere. Reading a topic in the order of the book keeps the difficulty high throughout, because each new piece has nothing to attach to. Learning the logic first makes each later layer easier, since a concept then has a purpose to hang from and a detail has a concept to explain.
+
+- Read front to back: about 10% concepts, 20% important details.
+- The other 70% of the material is arbitrary detail.
+- Built in layers: arbitrary details fall to about half of all details.
+- Details shrink to about a fifth or a third of the topic.
+- A small logic layer rarely changes, so what it carries stays right.
 
 ```
-resource order          layered order
-  detail                  logic     (few points, set early)
-  concept                   |
-  detail                  concepts  (hang off the logic)
-  logic, late               |
-  detail                  details   (each tied to a concept)
-difficulty: high        difficulty: falls each layer
+book order            layered order
+  detail                logic     (few points, set early)
+  concept                 |
+  detail                concepts  (hang off the logic)
+  logic, late             |
+  detail                details   (each tied to a concept)
+difficulty high       difficulty falls each layer
 throughout
 ```
 
 ## How to do it
 
-- Before the main read, skim the topic for its biggest ideas and how they connect. That skim is the logic layer, and it is also where a mind map starts.
-- Move through the material in the order your own questions set. The order on the page is only one option. Choosing your own order is a separate practice, and the layers say what the order should be.
-- Start with the keywords and concepts that feel simplest. Mark a dense paragraph and come back to it once the layer under it is in place.
-- Test each specific fact against the concept it sits under. Keep it in the important layer only if it makes that concept clearer.
-- Group the pieces of each layer by importance yourself. A resource's headings are not always the right top-level groups.
-- When a detail still seems random, go back and fix the logic or concept layer rather than memorising harder.
+Before the main read, skim the topic for its biggest ideas and how they connect. That skim is the logic layer, and it is also where a mind map starts. The reader then moves through the material in the order their own questions set, since the order on the page is only one option. When a detail still seems random, the reader goes back and fixes the logic or concept layer above it.
+
+- Start with the keywords and concepts that feel simplest.
+- Mark a dense paragraph and return once the layer below is set.
+- Test each fact against the concept it sits under.
+- Group each layer's pieces by importance yourself.
+- A book's headings are not always the right top-level groups.
 
 ## Related pages
 

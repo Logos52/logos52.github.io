@@ -3,10 +3,10 @@ title: "Deep Processing Tanking"
 type: concept
 status: developing
 created: 2026-05-23
-updated: 2026-09-24
-method: outline-2026-09-24
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: fable
+written-by: opus
 model: grok
 source-count: 10
 description: "Why a naturally deep thinker's results drop at a step up in difficulty, how to tell it from other causes, and how to repair the study method."
@@ -25,58 +25,61 @@ Deep processing tanking is the pattern where a person who has always understood 
 
 ## Core takeaways
 
-- A strong natural thinker gets good results with ordinary methods, because the thinking makes up for the method.
-- School and most university courses are set for the average learner, so a strong thinker never has to build a method there.
-- The gap between the thinking and the method shows at a step up in difficulty or volume: hours rise sharply for the same result.
-- The thinking ability has not dropped. The method stopped growing years earlier and the material has now outgrown it.
-- Adding hours has already been tried by the time the drop is noticed. The repair is a method that fits how the person already thinks.
-- A strong thinker who picks up such a method usually improves within days or weeks, because the slow part, the thinking habit, is already in place.
-- Copying a top learner's visible methods does not work for other people, because the part doing the work was in the head.
+- A strong natural thinker does well with ordinary study methods.
+- Most courses suit the average learner, so the method never grows.
+- At a jump in difficulty, hours rise sharply for the same result.
+- The thinking ability is unchanged, and the method was outgrown.
+- More hours have usually been tried already and do not work.
+- A matching method often brings improvement within days or weeks.
+- Copying a top learner's visible habits rarely helps others.
 
 ## How it works
 
-- Deep processing means making meaning of new material: judging how important each piece is, comparing it with what is already known, finding an analogy, simplifying it, and placing it in a structure that can be recalled later.
-- Most learners check one thing after a page: did I understand it. A strong processor uses the same check with a higher bar: it makes sense only once it has been simplified, ranked and connected.
-- Three things push results up as work gets harder: time and effort, the study method, and natural processing ability.
-- The average learner adds hours first, reaches the limit of hours, and then has to improve the method. The method grows year by year because it is the only lever left.
-  - The strong processor covers each step up with hours alone. The method never grows.
-  - At some step up, the material outgrows what hours plus instinct can cover. Effort rises out of proportion to the result. Results flatten or fall.
-- The person reads this as lost ability. What has happened is that the method is still at the level it had when it was first needed, which for most strong processors was never.
+Deep processing means making meaning of new material: judging how important each piece is, comparing it with what is known, finding an analogy, simplifying it, and placing it in a structure that can be recalled later. Results depend on three things: time and effort, the study method, and natural ability to process. The average learner adds hours first, reaches the limit of hours, and then has to improve the method, so the method grows year by year. The strong processor covers each step up with hours alone, until the material outgrows what hours and instinct can cover.
+
+- Most learners ask after a page whether they understood it.
+- A strong processor asks the same, with a higher bar.
+- For them, it makes sense only once simplified, ranked and connected.
+- Past some level, effort rises far faster than results.
+- Results flatten or fall, and the person blames lost ability.
 
 ```
-challenge   low ...........................> high
-average     hours | method | method | method
-strong      hours | hours  | hours  | wall
-                                      method never built
+difficulty   low  ------------------------>  high
+average      hours | method | method | method
+strong       hours | hours  | hours  | wall
+                                       (no method built)
 ```
 
-The usual places the pattern shows are school to university, university to a first job, a promotion, or a course where everyone was top of their own school. In each case difficulty and volume rise at once. Fewer than one in ten learners are natural deep thinkers, so up to that point the person has mostly been ahead of what the courses were set for.
+The pattern usually shows at the move from school to university, from university to a first job, at a promotion, or on a course where everyone was top of their school. In each case difficulty and volume rise at once. Fewer than one in ten learners are natural deep thinkers, so until that point the person has mostly been ahead of what the course asked.
 
 ## Signs
 
-- A record of top results with little effort, through school and often through university.
-- Constant value judgments while learning: how important is this, why is it here, how does it compare with what I know.
+The signs split into a history and a present problem. The history is years of top results with little effort, and a study method that was never chosen on purpose. The present problem is that hours go up and results do not, and material that made sense while reading cannot be used afterwards.
+
+- Top results with little effort through school.
+- Constant judgments while learning about what matters and why.
 - Curiosity from a young age.
-- A plain study method that was never chosen on purpose: rereading, highlighting, ordinary notes.
-- At a step up, hours rise and results do not follow.
-- Material makes sense while reading and is not usable afterwards.
+- A default method: rereading, highlighting, ordinary notes.
 - Notes multiply without giving command of the subject.
-- Rereading no longer closes gaps; a test or a real task exposes them.
+- Rereading no longer closes gaps that a test exposes.
 
 ## What it is not
 
-- It does not explain a short attention span, low motivation, or leaning on generated answers. Those need their own repairs.
-- It is a gap in method only. If a few weeks of writing the structure out and testing it early change nothing, the cause is elsewhere: volume, sleep, missing prerequisites, or attention.
+The pattern is a gap in study method only. It does not explain a short attention span, low motivation, or leaning on answers written by a chatbot, and each of those needs its own repair. If a few weeks of drawing the structure out and testing early change nothing, the cause lies elsewhere.
+
+- Other causes to check: volume, sleep, missing background, attention.
 
 ## How to repair it
 
-- Compare the difficulty of the old work with the new. Ask whether the method grew by the same amount, or barely at all.
-- Pick methods built around the thinking that is already there. Thinking on paper, drawing the structure of a topic out by hand, is the usual first one.
-- Replace the check "did I understand this" with "how can I organize this". Quick understanding hides weak organization.
-- Before trying to simplify, ask whether enough is known to make it simpler. If not, go down a level, to the concepts under it or to the logic that holds those concepts together.
-- Test early: build a rough structure, close the notes, rebuild it. The target is the same result in fewer hours.
-- Train one or two methods at a time. Practice time is fixed, and five methods at once give each a fifth of it.
-- The method adds no thinking power. It makes the deep thinking repeatable on tired days and at high volume, which is where instinct alone fails.
+The repair is a study method built around the thinking the person already does. The usual first method is thinking on paper, which means drawing the structure of a topic by hand. The method adds no thinking power, and it makes the deep thinking repeatable on tired days and at high volume, which is where instinct alone fails.
+
+- Compare the old work's difficulty with the new work's.
+- Ask whether the method grew by the same amount.
+- Ask how to organize the material, rather than whether it was understood.
+- Too little known to simplify a topic: study the concepts under it.
+- Build a rough structure, close the notes, rebuild it.
+- The target is the same result in fewer hours.
+- Train one or two methods at once, since practice time is fixed.
 
 ## Related pages
 

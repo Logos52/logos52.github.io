@@ -3,10 +3,10 @@ title: "Design of Everyday Things"
 type: book
 status: developing
 created: 2026-05-16
-updated: 2026-09-24
-method: outline-2026-09-24
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: fable
+written-by: opus
 model: grok
 source-count: 8
 description: "Don Norman's terms for why everyday objects and screens are hard to use, how people act on them, and how to design for error."
@@ -21,74 +21,99 @@ tags:
 
 # Design of Everyday Things
 
-The Design of Everyday Things is a book by Don Norman about why doors, stoves, thermostats and screens are hard to use and what a designer can do about it. It gives a short list of terms and principles for checking any object or interface, and it settles one question: when a capable person fails at an everyday object, the fault is in the design.
+The Design of Everyday Things is a book by Don Norman about why doors, stoves, thermostats and screens are hard to use, and what a designer can do about it. It gives a short set of terms for checking any object or interface. It also settles one question: when a capable person fails at an everyday object, the fault is in the design.
 
 ## Core takeaways
 
-- When a capable person cannot work a door, a stove or a form, the object failed. A taped sign on a door means the door failed.
-- An object should show what can be done, where to do it, and what state it is in, without a manual.
-- Put a cue on the object or in the room. Knowledge held in the head costs learning and is lost under interruption.
-- Lay controls out in the same pattern as the things they change. An arbitrary layout fails on first use.
-- Assume the user will make errors. Make actions reversible, make the irreversible ones hard, and treat an error that keeps recurring as a design fault.
-- Watch people use the thing in the place they use it. Requirements written at a desk miss what people do.
-- The principles rest on how people see and act, so they outlast any one technology.
+- A taped sign on a door means the door failed.
+- An object should show what it does and what state it is in.
+- Put cues on the object, since memory fails under interruption.
+- Lay controls out like the things they change.
+- Assume errors: make actions reversible, and irreversible ones hard.
+- Watch people use the thing where they use it.
+- The principles rest on how people see and act, so they last.
 
 ## The terms
 
-- Affordance: a relationship between an object and what a kind of user can do with it. A chair affords sitting. It holds whether or not the user notices it.
-- Signifier: a visible or audible clue to where and how to act. A flat plate says push, a slot says insert, an underline says link. The affordance is what is possible; the signifier is where.
-  - The word affordance was overused to mean a visible control, so the 2013 edition added signifier.
-  - Weak: a glass door with no hardware and a PUSH sticker. Strong: the plate itself is the instruction.
-- Mapping: controls laid out like the things they change. Stove knobs in the pattern of the burners, a seat control shaped like the seat. With a good mapping, labels are optional.
-- Feedback: immediate confirmation that says what happened. A lag of about a tenth of a second is where people start to notice. Too much feedback is worse than none; people silence every alarm.
-- Conceptual model: the short story a user holds of how the thing works. It can be incomplete or wrong as long as it helps, like files and folders on a desktop. A fridge with two dials that look like one per compartment tells a false story.
-- System image: everything the user can see, hear and touch. The designer is not in the room, so the system image is the only thing carrying the model. A wrong image gives the user a wrong model.
-- Constraints: limits on what can be done. The kinds are physical, cultural, semantic and logical. A kit whose parts only fit together in the right places needs no instructions.
-- Forcing functions: constraints for safety. A cash machine returns the card before the cash. A save dialog appears before a window closes. A hated lock gets disabled, and then the workaround is the design.
+Norman's vocabulary names the parts of an object that tell a person what to do. An affordance is what an object lets a kind of user do, whether or not they notice it, so a chair affords sitting. A signifier is a visible or audible clue to where and how to act, such as a flat plate that says push or an underline that says link. The 2013 edition added the word signifier because "affordance" had come to be used for any visible control.
+
+- Weak signifier: a glass door with a PUSH sticker.
+- Strong signifier: a push plate that is itself the instruction.
+- Mapping: stove knobs arranged like the burners they control.
+- With a good mapping, labels are optional.
+- Feedback: an immediate sign of what just happened.
+- People notice a lag of about a tenth of a second.
+- Too much feedback is worse than none, and people silence alarms.
+
+A conceptual model is the user's short story of how the thing works, and it can be wrong and still help, the way desktop files and folders do. A fridge whose two dials look like one per compartment gives a wrong model. The system image is everything the user can see, hear and touch, and since the designer is absent, the system image is what carries the model. Constraints limit what a person can do with the object, and they are physical, cultural, semantic or logical.
+
+- A kit whose parts only fit together the right way needs no instructions.
+- Forcing functions are constraints for safety.
+- A cash machine returns the card before the cash.
+- A hated lock gets disabled, and the workaround becomes the design.
 
 ## How a person acts
 
+Using an object runs as a loop. On the way out, the person forms a goal, plans, chooses an action and does it, which Norman calls execution. On the way back, the person perceives the new state, interprets it and compares it with the goal, which he calls evaluation. Each half has a gap where people get stuck.
+
 ```
-  goal
-   |  plan -> specify -> perform      (execution)
-   v                        |
-  [ the world changes ]     |
-   ^                        v
-   |  compare <- interpret <- perceive (evaluation)
+goal
+ |  plan -> specify -> perform      (execution)
+ v                        |
+[ the world changes ]     |
+ ^                        v
+ |  compare <- interpret <- perceive (evaluation)
 ```
 
-- Execution runs down the left of the drawing: the user forms a goal, plans, chooses an action, does it.
-- Evaluation runs up the right: the user perceives the new state, interprets it, compares it with the goal.
-- The gulf of execution is the gap between what the user intends and what the object lets them do. Signifiers, constraints, mappings and the model close it. "I cannot find how" is this gap.
-- The gulf of evaluation is the gap between the new state and the user knowing what happened. Feedback and the model close it. "I did something and cannot tell what" is this gap.
-- Working memory holds about three to five items and an interruption wipes it. Precise action does not need precise memory when the information is in the room. The best memory aid is an object that does not need one.
+- Gulf of execution: intent outruns what the object allows.
+- "I cannot find how" is this gulf.
+- Signifiers, constraints, mappings and the model close it.
+- Gulf of evaluation: the user cannot tell what happened.
+- Feedback and the conceptual model close it.
+- Working memory holds about three to five items.
+- An interruption wipes it.
+- Information placed in the room removes the need to remember it.
 
 ## Errors
 
-- A slip is the right goal with the wrong movement. Skilled people slip more, because the action runs without attention. The fix goes in the object.
-- A mistake is the wrong goal or the wrong plan. The fixes are feedback, a good model and guidance.
-- Human error is system error. At the Three Mile Island nuclear plant the operators were blamed for the accident, and the inquiry found the control room almost required the mistake. Root cause means asking why until the design answers.
-- An accident needs holes in several layers to line up. The levers are add a layer, shrink the holes, or alert when they align.
-- People who struggle with an object assume it is their fault and hide it. That is why a bad design goes unreported.
-- Design for error: constrain, make undo available, treat input as approximate, check it for sense, and never make the user start over.
+Norman splits errors into slips and mistakes. A slip is the right goal carried out with the wrong movement, and skilled people slip more because their actions run without attention. A mistake is the wrong goal or the wrong plan. In both cases he treats human error as a fault in the system, and the fix goes into the design.
+
+- Fix slips in the object itself.
+- Fix mistakes with feedback, a good model and guidance.
+- At the Three Mile Island nuclear plant, operators were blamed for an accident.
+- An inquiry found the control room almost required their mistake.
+- Keep asking why until the design answers.
+- Accidents need holes in several safety layers to line up.
+- Add a layer, shrink the holes, or alert when they align.
+- Constrain input, offer undo, check input for sense.
+- Never make the user start over.
+
+People who struggle with an object blame themselves and hide it, so bad designs go unreported.
 
 ## How to design
 
-- Find the right problem before the right solution. The first problem stated is usually a symptom.
-- Iterate: observe, come up with ideas, prototype, test. About five people per round, then a redesign, then another round. After five, a round finds few new problems.
-- There is no average person. Design for a range.
-- Design around what the person is trying to do. A music player covers acquire, organize and listen.
-- Attractive things work better. People tolerate more and try more with a thing they like. A bad ending still poisons how the person remembers the thing.
-- Matching competitors feature by feature makes products the same and bloated.
-- A known layout beats a better one that has to be relearned. The typewriter keyboard layout survives because switching costs relearning; whether it was ever the fastest layout is contested and does not matter.
-- Radical innovation is rare, usually fails, and does not come from asking users. Most useful innovation is incremental.
+The first problem someone states is usually a symptom, so the work starts with finding the right problem before the right solution. Designs then improve in rounds of observing, generating ideas, prototyping and testing. About five people per round is enough, because after five a round finds few new problems.
+
+- There is no average person, so design for a range.
+- Design around the whole activity the person is doing.
+- A music player covers acquiring, organising and listening.
+- People tolerate more and try more with an attractive thing.
+- A bad ending still spoils how the thing is remembered.
+- Copying competitors feature by feature makes bloated, identical products.
+- A known layout beats a better one that must be relearned.
+- The typewriter keyboard survives because switching costs relearning.
+- Whether it was ever the fastest layout is contested.
+- Radical innovation is rare, usually fails, and does not come from users.
+- Most useful innovation is incremental.
 
 ## Where it fails
 
-- Friction is sometimes wanted: security, games, skill-building.
-- Watching users is slow and expensive and weak for invention.
-- The method says little about aesthetics or business.
-- The terms are sharpest on physical objects. On screens, a cue is easy to fake: a control that looks pressable and does nothing.
+The method has limits. Some friction is wanted, watching users is slow and does little for invention, and the book says little about looks or business. The terms are sharpest on physical objects, because on a screen a cue is easy to fake.
+
+- Security, games and skill-building want friction.
+- Observation is slow, expensive and weak for invention.
+- Little on aesthetics or business.
+- A screen control can look pressable and do nothing.
 
 ## Related pages
 

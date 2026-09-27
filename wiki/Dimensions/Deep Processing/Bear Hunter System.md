@@ -3,10 +3,10 @@ title: "Bear Hunter System"
 type: technique
 status: developing
 created: 2026-05-04
-updated: 2026-09-24
-written-by: fable
+updated: 2026-09-27
+written-by: opus
 last-audited: 2026-05-07
-method: outline-2026-09-24
+method: outline-2026-09-27
 prose-model: fable
 description: "Three-pass study method: questions before reading, answers on one diagram, redraw from memory, with its schedules and the Hipshot variation."
 aliases:
@@ -25,83 +25,84 @@ tags:
 
 # Bear Hunter System
 
-The Bear Hunter System is a way of studying in three passes: write questions before the material is opened, answer them onto one diagram while reading, then redraw the diagram from memory. It replaces reading front to back and taking notes in the source's order, and it is the default way this desk learns any subject.
+The Bear Hunter System is a way of studying in three passes: write questions before the material is opened, answer them onto one diagram while reading, then redraw the diagram from memory. It takes the place of reading front to back and taking notes in the source's order. It is the default way this desk learns any subject.
 
 ## Core takeaways
 
-- Write the questions before opening the material. Questions asked first raise recall of the content they point at and of little else, so the questions decide what gets learned.
-- Ask two questions of every main idea: why does it matter, and how does it connect to the others. Skip "what is" questions, since answering why and how supplies the what.
-- Put every answer on one growing diagram, in the order the questions send you, never in the source's order.
-- Build in layers: the cause-and-effect logic first, then the concepts, then the details that make a concept concrete. Details that hang on nothing go to flashcards.
-- The work is finished when the diagram can be redrawn with the sources closed.
-- An easy pass is a sign that nothing is being built.
+- Write the questions before opening the material.
+- Ask of each idea why it matters and how it connects.
+- Skip "what is" questions, since why and how teach what it is.
+- Put every answer on one growing diagram, in question order.
+- Build in layers: logic, then concepts, then details.
+- Finished means the diagram can be redrawn with sources closed.
+- An easy pass means nothing is being built.
 
 ## The three passes
 
-The name comes from hunting: sight the target, fire, then process the animal. Each pass has its own page, [[wiki/Dimensions/Deep Processing/Aim|Aim]], [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] and [[wiki/Dimensions/Deep Processing/Skin|Skin]], because each is a skill built from simpler ones and is learned on its own before the three run together.
+The name comes from hunting: sight the target, fire, then process the animal. The passes are called Aim, Shoot and Skin, and each has a page of its own ([[wiki/Dimensions/Deep Processing/Aim|Aim]], [[wiki/Dimensions/Deep Processing/Shoot|Shoot]], [[wiki/Dimensions/Deep Processing/Skin|Skin]]) because each is learned on its own before the three run together. Questions asked before study raise recall of the content they point at and of little else, so the questions written in Aim decide what gets learned. Aim and Shoot usually loop several times before Skin, since reading turns up questions that were not asked.
 
 - Aim, before the material is open
-  - Collect the main ideas of the topic as keywords, out of the source's order. A topic of a few chapters holds about 15 to 30 keywords. Getting 80 percent of them in 25 minutes beats getting all of them in two hours.
-  - Sort the keywords into three to seven guessed groups. A group of ideas held as one unit is called a chunk.
-  - Write the two questions for each keyword. Good questions are why- or how-shaped and cannot yet be answered. Personal or curious ones work better still.
+  - Collect the topic's main ideas as keywords, out of order.
+  - Sort them into three to seven guessed groups, called chunks.
+  - Write why and how questions that cannot yet be answered.
   - Five or ten minutes of Aim still pays.
 - Shoot, with the material open
-  - Read to answer the questions, and place each answer on the diagram next to the ideas it connects to.
-  - An answer counts when you know where it comes from and what it joins. A memorised answer does not count.
-  - Not every question gets a full answer. The learning happens in the attempt.
-  - When new questions appear, Aim again and Shoot again. This loop runs several rounds before the diagram settles.
-  - If Shoot feels hard, Aim was thin or the old habit of reading in order is running.
+  - Read to answer the questions and place answers on the diagram.
+  - An answer counts when its source and links are known.
+  - The learning happens in the attempt, even without a full answer.
+  - New questions appear: Aim again, then Shoot again.
+  - Shoot feels hard: Aim was thin, or reading in order returned.
 - Skin, sources closed
-  - Redraw the diagram from memory in its final shape. Every grouping is a judgment about what matters most, and that judgment is most of the learning.
-  - The finished diagram is grouped, sorted into layers, cross-linked with labelled arrows, mostly non-verbal, drawn with a visible direction of flow, and has its main line made bigger or bolder than the rest.
-  - Each node aims for two branches and never more than four, since working memory holds about four items. A node with one branch merges into its parent.
-  - Checks: can the topic be explained from the diagram alone; do the chunks follow importance rather than the source's order; does every arrow show a real cause or effect.
-  - Skin the same day or once a week. A correct cycle turns about fifty flashcards' worth of loose detail into ten to twenty.
+  - Redraw the diagram from memory in its final shape.
+  - Each item gets two to four branches.
+  - An item with one branch merges into its parent.
+  - Check that the topic can be explained from the diagram alone.
+  - Check that every arrow shows a real cause or effect.
+  - Skin the same day or once a week.
 
-```
- Aim ────► Shoot ────► Skin
- (ask)     (draw)      (redraw from memory)
-   ▲         │
-   └─────────┘  repeat until the diagram holds
-```
+The finished diagram is grouped, layered and cross-linked with labelled arrows, and it is mostly pictures and symbols with few sentences. Its main line is drawn bigger than the rest. The branch limit comes from working memory, which holds about four items at once. A correct cycle turns about fifty flashcards' worth of loose detail into ten or twenty.
 
 ## The four layers
 
-- Logic: cause and effect, why a thing happens, why it matters. Built first.
+The diagram is built from the top layer down, so that each detail has something to hang on. A reader who goes front to back keeps mostly loose detail with nothing to attach it to. A reader who builds in layers keeps mostly logic and concepts, and the pile of loose detail shrinks. The layers, from the top, are logic, concepts, important details and arbitrary details.
+
+- Logic, built first: cause and effect, why a thing happens.
 - Concepts: how things work and what they are.
-- Important details: the ones that make a concept concrete. The sort question is whether knowing the detail helps you understand the concept. About a third to a half of details pass.
-- Arbitrary details: needed for a test only. Kept off the diagram and learned by retrieval practice.
-- A reader who goes front to back keeps mostly arbitrary detail with nothing to hang it on. A reader who builds in layers keeps mostly logic and concepts, and the arbitrary pile shrinks.
+- Important details: the ones that make a concept concrete.
+- Arbitrary details: needed only for a test, so they go to flashcards.
+- Sort test: whether knowing the detail helps understand the concept.
+- About a third to a half of details pass that test.
 
 ## Three schedules
 
+The three schedules change when the passes happen and leave everything else the same. Under every schedule, recalling the material from memory at weekly and monthly intervals keeps running. A class taken after self-study then serves as a recheck and an easy recall session. The Standard schedule spreads a week's material around its classes, and the other two compress a whole topic into a weekend or a single session.
+
 | Schedule | Aim | Shoot | Skin | Difficulty |
 | --- | --- | --- | --- | --- |
-| Standard | a week of material, at the end of the previous week | before, during and after each class | daily, or the whole week at once | low |
-| Accelerated | a whole topic, one subject per weekend | 60 to 70 percent at the weekend, the rest around classes | end of the week | moderate |
-| Ultra-accelerated | a whole topic in one session, before any class | same session | same session | high, needs long training |
+| Standard | a week of material, the week before | around each class | daily or weekly | low |
+| Accelerated | a whole topic per weekend | 60 to 70% at the weekend | end of week | moderate |
+| Ultra | a whole topic in one session | same session | same session | high |
 
-- Under every schedule, weekly and monthly retrieval practice, recalling the material from memory at set intervals, keeps running. The schedules change when the three passes happen and nothing about that practice.
-- A class taken after self-study serves as a recheck and an easy retrieval session.
-- The target is 90 percent coverage at 90 percent retention. The gaps get covered later.
-- Smallest useful run: five to ten keywords, a why for each, three to seven chunks, only the connections that are needed.
+- Target: 90% of the material covered at 90% retention.
+- Smallest useful run: five to ten keywords, three to seven chunks.
 
 ## Hipshot
 
-Hipshot is the same loop with Aim and Shoot fused into one fast pass, for a learner who runs the written loop, the questions on paper, without thinking about it.
+Hipshot is the same loop with Aim and Shoot fused into one fast pass, done in the head rather than on paper. It suits a learner who already runs the written loop without thinking about it, and it usually arrives on its own as that happens. Support that helps a beginner becomes overhead for an expert, and Hipshot is the written loop with that support removed. Skin runs unchanged.
 
-- Collect keywords, filtered to the ones that build the logic layer.
-- Ask the Aim questions in your head, guess the logic layer, and Shoot at once to confirm or correct the guess.
-- Commit the layer to the diagram once it holds, then repeat for the next layer. Skin runs unchanged.
-- It cuts the Aim time and the number of rounds before Skin. The questions are the same as in written Aim; only the paper is gone.
-- Signs of a learner who is not ready: answering takes all the attention, relating stops, the diagram turns into a one-way dump. Any one of those three signs means return to the written loop.
-- It usually arrives on its own as the written loop becomes automatic. Support that helps a novice becomes overhead for an expert, and Hipshot is that support removed.
+- Collect keywords that build the logic layer.
+- Guess the logic layer in your head, then read to confirm.
+- Commit the layer to the diagram, then repeat for the next.
+- Not ready: answering takes all the attention and linking stops.
+- The diagram becomes a one-way dump: return to paper.
 
 ## Where it fails
 
-- The cost is front-loaded. The first weeks are slower than reading, and the gain shows later.
-- Material with little internal logic, such as vocabulary lists, resists grouping by importance.
-- Reading in order, copying the source's headings, or looking at the answer before making your own attempt each turn the loop back into memorising.
+The cost comes at the start. The first weeks are slower than plain reading, and the gain shows later. Material with little internal logic, such as a vocabulary list, does not group well by importance. Three habits turn the loop back into memorising.
+
+- Reading in order turns the loop back into memorising.
+- So does copying the source's headings.
+- So does looking at the answer before attempting one.
 
 ## Sources
 

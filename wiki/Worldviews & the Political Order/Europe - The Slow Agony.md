@@ -3,13 +3,13 @@ title: "Europe - The Slow Agony"
 type: concept
 status: developing
 created: 2026-09-06
-updated: 2026-09-24
-method: outline-2026-09-24
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: fable
+written-by: opus
 diagrams: scripts/gen-europe-diagrams.py
 source-count: 1
-description: "Why the EU economy fell behind the US after 2008: the euro, austerity, Russian gas, tech rules, immigration mix, hours, and the fixes on paper."
+description: "The policy choices since 2008 that left the EU economy far behind the US: the euro, austerity, energy, rules, split markets and falling births."
 tags:
   - europe
   - economics
@@ -21,38 +21,20 @@ tags:
 
 # Europe - The Slow Agony
 
-"Slow agony" is the phrase a 2024 report on European competitiveness, written for the EU by a former head of the European Central Bank, used for the gap that has opened between Europe's economy and the United States' economy since 2008. Each cause of the gap is a policy choice, and a reader who knows the choices can check any claim about European decline against them.
+In 2024 a former head of the European Central Bank wrote a report on European competitiveness for the EU, and he called the gap that had opened between Europe's economy and the American economy since 2008 a "slow agony". Each cause of the gap is a policy choice. A reader who knows the choices can check any claim about European decline against them.
 
 ## Core takeaways
 
-- In 2008 the EU economy was larger than the US economy. By 2025 the US produced about 29 trillion dollars a year and the EU about 19.5 trillion.
-- The gap was built by choices that each looked safe on their own: a shared currency without shared taxes, spending cuts after the 2008 crash, a phase-out of nuclear power, a bet on Russian gas, strict rules on data and AI, and 27 separate national markets.
-- No EU company worth over 100 billion euros has been founded in the last 50 years. The US founded Apple, Microsoft, Amazon, Alphabet, Meta, Nvidia and Tesla in the same period.
-- The EU's working-age population, people aged 20 to 64, is projected to fall from 262 million in 2025 to 198 million by 2100. Every European pension and welfare system assumes a young workforce paying for an old one.
-- The fix is written down in the same 2024 report: shared borrowing, one capital market, simpler rules, cheaper energy, skilled immigration. A year later 11.2% of its recommendations had been carried out, and each one needs all 27 governments to agree.
-- Europe is still a rich region, with life expectancy of about 82 years against 79 in the US. The argument is about growth and about who will pay for pensions.
+- In 2008 the EU economy was larger than the US economy.
+- In 2025 the US made about $29 trillion, the EU $19.5 trillion.
+- Each choice behind the gap looked safe on its own.
+- No EU company worth over €100 billion was founded in 50 years.
+- The EU's working-age population is shrinking, and pensions assume it will not.
+- The 2024 report's fix needs all 27 governments to agree.
 
 ## The choices
 
-- The euro, 1999. Eleven currencies merged into one.
-  - A Nobel-winning paper on shared currencies, written decades earlier, said one works only when the member economies are alike, workers can move between them, and a central authority can move tax money from booming regions to struggling ones. The eurozone at launch met none of these conditions.
-  - For ten years cheap German credit flowed south. In 2006 Spain started more houses than Germany, France and Italy combined.
-- The 2008 crash. The US spent: a 475 billion dollar bank rescue within three weeks, an 831 billion dollar stimulus in 2009, a deficit of 10% of GDP. Europe cut spending, and the European Central Bank raised interest rates in 2011.
-  - A country without its own currency cannot print money or devalue, so the only option left was cutting wages, pensions and public jobs. Greece shrank 26% between 2010 and 2014; youth unemployment reached 59.5% in Greece and 56.4% in Spain, and the educated young left.
-  - Italy's economy in 2026 is still below its 2008 level, and Italian real wages are below their 1990 level. The US recovery was finished by 2012.
-- Energy. The US drilled shale and by 2018 was the largest oil producer; in 2024 its gas price averaged 2.21 dollars per million BTU, the lowest on record after inflation.
-  - Germany announced its nuclear phase-out in 2011, shut its last three reactors in April 2023, banned fracking across most of its land, and built a direct gas pipeline from Russia. By 2021 Germany took 55% of its gas from Russia, and 10 EU countries took over half of theirs.
-  - After Russia invaded Ukraine in February 2022, European gas prices rose over 1,000% at the peak and industrial electricity in Germany and France went to three times the American price. The largest chemical plant on Earth closed 11 units and put its next complex in China; Europe lost about half its aluminium smelting; Volkswagen announced its first German plant closures in 87 years.
-- Technology. In 2000 Nokia made 40% of the world's phones. Since then Stripe moved to San Francisco, Skype was sold to Microsoft, and Arm, Spotify and Klarna trade in New York.
-  - Venture money in 2024: about 250 billion dollars into US startups, about 45 billion into European ones. US pension funds put about 2% of assets into venture capital; European funds put 0.01%.
-  - GDPR, the EU's 2018 data protection law, cut venture deals led by US investors in Europe by more than 20%. Large American firms could pay for compliance and small European startups could not. Of the 7 firms the EU later named as digital gatekeepers, 6 are American, 1 is Chinese, none is European.
-  - A US software company reaches 335 million customers under one legal system on day one. A Berlin company faces 27 legal systems and 24 languages. The IMF puts the EU's internal barriers at the equivalent of a 45% tariff on goods and 110% on services.
-- Universities and immigration. The US National Institutes of Health spends 47 billion dollars a year; the European Research Council spends 2.3 billion euros. 15 of the world's top 20 universities are American. 55% of US startups worth over a billion dollars have at least one immigrant founder.
-  - Europe's immigration after 2015 was mostly asylum: over 1.3 million applications in one year, about 890,000 of those applications in Germany. In a recent German analysis 78% of unemployed immigrants had no vocational qualification, against 38% of unemployed natives, and the apprenticeship system needs near-native German.
-  - The political result was Brexit in 2016, a far-right party as the second largest in the German parliament, far-right wins or second places in Italy, Sweden, the Netherlands and Austria, and five French prime ministers in under two years.
-- Hours and pay. An American works about 1,811 hours a year, a German 1,341, a French worker 1,490. Output per hour in Germany and France is close to American; the difference is taken as leave, and voters have kept choosing that.
-  - A young engineer at Google's Munich office earns 40 to 50% less than the same job in California once stock is counted. A bankrupt French founder takes nine times longer to legally start again than an American one, and European startups do not pay engineers in stock.
-- Savings. Since 2000 the S&P 500 returned about 500% with dividends; the Euro Stoxx 50 returned about 0% in price terms. 58% of US households own stocks, about 20% of German and 15% of Italian households do. The EU has 27 stock exchanges and no shared capital market.
+In 1999 eleven currencies merged into the euro. An earlier Nobel-winning paper on shared currencies said one works only when the member economies are alike, when workers can move between them, and when a central authority can move tax money from booming regions to struggling ones, and the eurozone met none of these. For ten years cheap German credit flowed south, and in 2006 Spain started more houses than Germany, France and Italy combined. The other choices came after: cuts after the 2008 crash, a phase-out of nuclear power, a bet on Russian gas, strict rules on data and AI, and 27 separate national markets.
 
 ```
 2008 crash  US: spend, print      -> recovered by 2012
@@ -63,19 +45,73 @@ startups    US: 250 bn venture    -> seven 100 bn+ firms
             EU: 45 bn, 27 markets -> founders leave
 ```
 
+## The 2008 crash
+
+The US spent its way out, with a $475 billion bank rescue within three weeks, an $831 billion stimulus in 2009, and a deficit of 10% of GDP. Europe cut spending, and the European Central Bank raised interest rates in 2011. A country without its own currency cannot print money or devalue, so the only tool left was cutting wages, pensions and public jobs. The US recovery was finished by 2012.
+
+- Greece shrank 26% between 2010 and 2014.
+- Youth unemployment reached 59.5% in Greece and 56.4% in Spain.
+- The educated young left.
+- Italy's economy in 2026 is still below its 2008 level.
+- Italian real wages are below their 1990 level.
+
+## Energy
+
+The US drilled shale, was the largest oil producer by 2018, and in 2024 paid an average of $2.21 per million BTU for gas, the lowest on record after inflation. Germany announced its nuclear phase-out in 2011, shut its last three reactors in April 2023, banned fracking across most of its land and built a direct gas pipeline from Russia. After Russia invaded Ukraine in February 2022, European gas prices rose over 1,000% at the peak. Industrial electricity in Germany and France now costs three times the American price.
+
+- By 2021 Germany took 55% of its gas from Russia.
+- 10 EU countries took over half their gas from Russia.
+- The largest chemical plant on Earth closed 11 units.
+- It put its next complex in China.
+- Europe lost about half its aluminium smelting.
+- Volkswagen announced its first German plant closures in 87 years.
+
+## Technology and money
+
+In 2000 Nokia made 40% of the world's phones. Since then Stripe has moved to San Francisco, Skype was sold to Microsoft, and Arm, Spotify and Klarna trade in New York. A US software company reaches 335 million customers under one legal system on day one, while a Berlin company faces 27 legal systems and 24 languages. The IMF puts the EU's internal barriers at the equal of a 45% tariff on goods and 110% on services.
+
+- Venture money in 2024: US $250 billion, Europe $45 billion.
+- US pension funds put 2% into venture capital, European funds 0.01%.
+- GDPR, the 2018 data law, cut US-led European venture deals over 20%.
+- Large American firms could afford compliance and small European ones could not.
+- Of 7 EU-named digital gatekeepers, 6 are American, 1 Chinese, none European.
+- AI investment in 2024: US $109 billion, EU under $10 billion.
+- In late 2025 the EU drafted rollbacks to its own AI Act.
+- Since 2000: S&P 500 up about 500%, Euro Stoxx 50 about 0%.
+- 58% of US households own stocks, 20% of German, 15% of Italian.
+
+## People and work
+
+The US National Institutes of Health spends $47 billion a year and the European Research Council €2.3 billion, and 15 of the world's top 20 universities are American. 55% of US startups worth over a billion dollars have at least one immigrant founder. Europe's immigration after 2015 was mostly asylum, over 1.3 million applications in one year and about 890,000 of them in Germany, and German apprenticeships need near-native German. Europeans also work fewer hours at about the same output per hour, and voters have kept choosing the leave.
+
+- 78% of unemployed immigrants in Germany had no vocational qualification.
+- The figure for unemployed natives was 38%.
+- Hours a year: US 1,811, France 1,490, Germany 1,341.
+- A Munich Google engineer earns 40 to 50% less than in California.
+- French founders wait nine times longer than Americans to restart after bankruptcy.
+
+The votes followed: Brexit in 2016, anti-immigration parties first or second in Germany, Italy, Sweden, the Netherlands and Austria, and five French prime ministers in under two years.
+
 ## The numbers ahead
 
-- EU fertility in 2024 was 1.34 births per woman, the lowest recorded; Italy 1.18, Spain 1.0. Every member state is below 2.1.
-- Between 2000 and 2025 the US added about 53 million people and the EU about 22 million. Germany's GDP per person is now about that of Oklahoma; France is below Arkansas.
-- The IMF projects US GDP at about 40 trillion dollars by 2030 and Europe's at about 25 trillion, so the gap grows from 10 to 15 trillion.
-- AI: US private investment was 109 billion dollars in 2024, the EU under 10 billion. By late 2025 the EU was drafting a package to roll back parts of its own AI Act.
+EU fertility in 2024 was 1.34 births per woman, the lowest recorded, and every member state is below 2.1, the rate that keeps a population steady. The EU's people aged 20 to 64 are projected to fall from 262 million in 2025 to 198 million by 2100, and every European pension system assumes a young workforce paying for an old one. The IMF projects US GDP at about $40 trillion by 2030 and Europe's at about $25 trillion, so the gap grows from $10 trillion to $15 trillion.
+
+- Italy's fertility is 1.18, Spain's 1.0.
+- 2000 to 2025: US population up 53 million, EU up 22 million.
+- Germany's GDP per person is about that of Oklahoma.
+- France's is below Arkansas.
 
 ## What has moved
 
-- All 32 NATO members met the 2% of GDP defence target by 2025; Poland spends over 4%.
-- Germany amended its constitutional debt brake in March 2025 to allow unlimited borrowing for defence.
-- Proposals now before the 27 governments: a savings and investments union, and one corporate legal regime for tech companies across all 27 states. Each needs unanimous agreement.
-- Growth outside Germany, France and Italy: Poland is projected to pass Japan in GDP per person by 2030; Norway's oil fund holds 2.1 trillion dollars; Dublin hosts half of US Big Tech's European headquarters.
+The 2024 report wrote down the fix: shared borrowing, one capital market, simpler rules, cheaper energy and skilled immigration. A year later 11.2% of its recommendations had been carried out, and each needs all 27 governments to agree. Europe is still rich, with life expectancy of about 82 years against 79 in the US, and some parts of it are growing.
+
+- All 32 NATO members met the 2% defence target by 2025.
+- Poland spends over 4% on defence.
+- In March 2025 Germany exempted defence from its constitutional borrowing limit.
+- Proposed: a savings and investments union, and one legal regime for tech.
+- Poland is projected to pass Japan in GDP per person by 2030.
+- Norway's oil fund holds $2.1 trillion.
+- Dublin hosts half of US Big Tech's European headquarters.
 
 ## Related pages
 

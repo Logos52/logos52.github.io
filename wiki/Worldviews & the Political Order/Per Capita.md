@@ -3,11 +3,11 @@ title: "Per Capita"
 type: concept
 status: developing
 created: 2026-08-16
-updated: 2026-09-24
-method: outline-2026-09-24
+updated: 2026-09-27
+method: outline-2026-09-27
 prose-model: fable
-written-by: fable
-description: "Why a count must be divided by the size of its group before two groups are compared, and how to tell an honest objection to the rate from a dodge."
+written-by: opus
+description: "Why a count must be divided by group size before two groups are compared, and how to test someone who refuses the division."
 tags:
   - argument
   - statistics
@@ -19,21 +19,21 @@ Per capita means per person: a count divided by the size of the group it came fr
 
 ## Core takeaways
 
-- A raw count says how much of something there is. A per capita rate says how common it is inside a group.
-- Two groups of different sizes can only be compared by rate. The bigger group will usually win any raw count.
-- A rate says how common something is. It does not say why.
-- Someone who cites per capita when it helps their case and calls it misleading when it hurts is reasoning selectively.
-- Saying that other factors explain a gap is legitimate only when the person measures those factors and shows the result.
+- A raw count says how much there is.
+- A rate says how common something is inside a group.
+- Groups of different sizes can only be compared by rate.
+- The bigger group usually wins any raw count.
+- Citing rates only when they help is selective reasoning.
+- A gap blamed on other factors needs those factors measured.
 - Per capita is division, and anyone can check it.
 
 ## How it works
 
-- Bag A holds 1,000 apples including 20 poisoned apples. Bag B holds 10 apples including 2 poisoned apples. You must eat one apple from one bag.
-- Bag A has ten times as many poisoned apples.
-- The chance of picking a poisoned one is 20 in 1,000 from bag A, which is 2 in 100. From bag B it is 2 in 10, which is 20 in 100.
-- Bag A is the safe pick, though it holds more poisoned apples.
-- The same division applies to countries: a country with a higher total output can have a poorer average citizen than a country with a lower total.
-- To compare groups, divide each count by its group, then write both as a count per 100 or per 100,000.
+Take two bags of apples. Bag A holds 1,000 apples including 20 poisoned ones, bag B holds 10 apples including 2 poisoned ones, and you must eat one apple from one bag. Bag A has ten times as many poisoned apples, but the chance of a poisoned pick is 2 in 100 from bag A and 20 in 100 from bag B, so bag A is the safe pick. The same division applies to countries, where a country with a higher total output can have a poorer average citizen than a country with a lower total.
+
+- Divide each count by the size of its group.
+- Write both as a count per 100 or per 100,000.
+- Compare the two rates.
 
 ```
 Bag A  1,000 apples, 20 poisoned   20/1,000 =  2 in 100
@@ -44,17 +44,20 @@ raw count says A is worse    rate says B is worse
 
 ## Why people refuse it
 
-- Cannot do it. The rate needs work the count does not: hold two numbers, divide, read the result. Some people stop at the count.
-- Will not do it. The person can do the division, and in this case the result would hurt their argument. This takes two forms.
-  - They know they are skipping it and do so to mislead an audience.
-  - They never think of it, because the raw number already matches what they expected.
-- Wants other variables. The rate says a thing is more common in one group, and the person wants to know why, for example whether poverty explains a gap in crime rates between groups. This is the only legitimate objection.
+People who stay with the raw count do so for one of the reasons below. Some cannot do the rate, because it needs work the count does not: hold two numbers, divide, and read the result. Some will not do it, because they can divide and the result would hurt their argument. A rate leaves out why, so the last group wants other variables, for example whether poverty explains a gap in crime rates between groups, and that is the only legitimate objection.
+
+- Cannot: they stop at the count.
+- Will not, knowingly: they skip the rate to mislead an audience.
+- Will not, unknowingly: the raw number already matched what they expected.
+- Wants other variables: they want to know why the rate differs.
 
 ## How to test the objection
 
-- Selective use: watch whether the same person cites per capita when it favours them. If the person calls the rate misleading only when it hurts them, they are reasoning selectively.
-- Variables: ask the person to control for the variable they named, show the numbers, and say why that variable matters. A named variable with no numbers behind it is an excuse.
-- "We need more variables to understand this" asks for work. "Per capita is useless unless it explains everything" dismisses the rate.
+Two checks separate a real objection from an excuse. The first is whether the person cites per capita when it favours them and calls it misleading only when it hurts them, which is selective reasoning. The second is whether a named variable comes with numbers, meaning the person controls for it, shows the result and says why it matters.
+
+- A named variable with no numbers behind it is an excuse.
+- "We need more variables to understand this" asks for work.
+- "Per capita is useless unless it explains everything" dismisses the rate.
 
 ## Related pages
 
