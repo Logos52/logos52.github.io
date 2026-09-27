@@ -82,6 +82,8 @@ The owner's words: "if there is anything that still needs to be rewritten, go ah
 
 State on the branch at the stop: 285 pages carry the final key `outline-2026-09-27`, 39 carry `draft-2026-09-27` (the Opus pass done, the Fable pass not), none carry the 09-24 key, none are empty. The Opus pass is complete for every page. The owner stopped the run to save session tokens.
 
+Before resuming, stop the other Claude Code session on this Mac that the 2026-09-24 local run left alive. It commits wiki pages on a timer with the message "Outline regen: local session, N pages", copies pages from the private remote's branch over `wiki/` with the message "Outline regen: sync from web session, N pages", and pushes to origin and to private. On 2026-09-27 at 14:15 that sync overwrote 71 finished pages with their 09-24 versions; commit ccc87cb restored them. The private branch holds only the 09-24 state and the research notes, so any sync from it now is a regression.
+
 To resume: list the pages with `grep -rl --include='*.md' '^method: draft-2026-09-27' wiki`, group them by folder into batches of about ten, and give each batch to a fresh Claude Fable 5.1 agent with the instructions below (the same text the 2026-09-27 agents ran from). Political pages (section 6) go in their own batch. After each batch, run the QA script the local session used, or its equivalent: kept-check against 6e20c69, no bullet over about fourteen words outside hub link lines and tables, a paragraph at the top of every section after Core takeaways, and no em dash, bold, first person, source pointer, course name or private path in a body. Then `npm run copy-notes` and look at a few pages on the local site.
 
 ### The Fable pass instructions, verbatim
