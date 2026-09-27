@@ -3,13 +3,13 @@ title: "Agentic Engineering"
 type: hub
 status: developing
 created: 2026-05-02
-updated: 2026-09-27
-method: outline-2026-09-27
+updated: 2026-09-24
+method: outline-2026-09-24
 prose-model: fable
-written-by: opus
+written-by: fable
 model: grok
 source-count: 10
-description: "How a person keeps the quality bar when AI agents write the code, and where each page of the section sits."
+description: "How a person keeps the quality bar when AI agents write the code: the spec, the checks and the sign-off, and where the section's pages sit."
 tags:
   - llm
   - agents
@@ -21,50 +21,39 @@ tags:
 
 # Agentic Engineering
 
-# Agentic Engineering
-
-Agentic engineering is building software with AI agents, programs that run an AI model in a loop until a job is done, while a person stays answerable for the result. An agent writes more code than anyone reads line by line, so the practice settles what the person still does: write down what to build, called the spec, run checks, and sign off.
+Agentic engineering is building software with AI agents, programs that run an AI model in a loop to carry out a job, while a person stays answerable for the result. Agents write more code than anyone reads line by line, so agentic engineering settles what the person still does: writing down what to build (the spec), running checks, and signing off.
 
 ## Core takeaways
 
-- Agent-written code meets the same standard as any professional code.
-- The agent writes the code, and the person decides what to build.
-- Models are strong where a machine can check the output, like code.
-- A gap in the spec gets filled by a choice the agent makes alone.
-- Proof is a build, a test or a screenshot.
-- Measure the speed-up instead of trusting how fast it felt.
-- Agent code is often bloated, and the model resists simplifying it.
+- Agentic engineering holds code written by agents to the standard professional software already met, so no bug or security hole is excused because an agent wrote it.
+- The agent looks up the API details and writes the code, and the person still has to decide what to build and know how the code works underneath, for example whether memory gets copied.
+- Models are strong where a machine can check what the model produced, such as code and maths, and weak where it cannot, so one model can refactor a codebase of 100,000 lines and still answer a simple everyday question wrongly.
+- A gap in the spec gets filled by a choice the agent makes on its own: given no user id, one agent matched purchases to users by email address, taking one from a payment account and one from a login account, and those two addresses can differ.
+- A report from the agent about what it did does not count as proof; proof is a check with a result, such as a build, a test, or a picture of the running app.
+- Measure how much faster the work went instead of trusting how fast it felt: in a 2025 METR study, 16 experienced developers took 19% longer with AI allowed on 246 tasks in their own repositories, and afterwards believed they had gone 20% faster.
+- Code the agent wrote is often bloated, copied and pasted, and built on fragile abstractions, and the model resists a request to simplify it further.
 
 ## How it works
 
-The person and the agent pass the work back and forth in a loop. Before any code, the person writes the spec with the agent: what to build, what must not change, which patterns to follow, which edge cases to handle, and how the result will be checked. The agent builds, the checks run, and a failure goes back to the agent. The person signs off only when they understand what the change does, and a check the person wrote can stand in for reading every line, while the agent's own report that it finished cannot.
+- Write the spec with the agent before any code: what to build, what must not change, which patterns to follow, which edge cases to handle, and how the result will be checked.
+- Give the agent one bounded job of a few steps with a clear finish; big work gets cut into such jobs.
+- The agent builds, and the person runs the build and the tests and reads the change for edits that were not asked for.
+- Sign-off means the person understands what the change does and takes responsibility for it; a check the person wrote can stand in for reading every line.
+- A correction the person has had to make more than once goes into a file the agent reads or into a check that fails the build.
+- Never give one agent all three of: private data, content from strangers, and a way to send data out. A model follows instructions it finds in content and cannot tell them from instructions given by the person running it.
+- On the owner's own setup no agent merges code. A Cursor Cloud Agent writes application code on its own isolated machine and the owner merges the change himself.
 
-- Give the agent one bounded job of a few steps with a clear finish.
-- Cut big work into such jobs.
-- Run the build and the tests, and read the change for unasked edits.
-- A correction made twice goes into an agent file or a build check.
-- Never give one agent private data, strangers' content and a way out together.
-- On the owner's setup, no agent merges code.
-
-A model follows instructions it finds in content and cannot tell them apart from its user's instructions, so an agent that holds private data, reads strangers' content and can send data out can be told by a stranger to leak the data. On the owner's setup a Cursor Cloud Agent writes application code on its own isolated machine, and the owner merges the change himself.
-
-## Where it goes wrong
-
-Models do well where a machine can check the output, such as code and maths, and badly where it cannot. One model can refactor a codebase of 100,000 lines and still answer a simple everyday question wrongly. Given no user ID in the spec, one agent matched purchases to users by email address, taking one address from a payment account and one from a login account, and the two can differ. In a 2025 METR study, 16 experienced developers worked on 246 tasks in their own repositories, took 19% longer with AI allowed, and believed they had gone 20% faster.
-
-- The person still has to know the code underneath.
-- No bug or security hole is excused because an agent wrote it.
-- Agent code is often copied, pasted and built on fragile abstractions.
-
-Knowing the code underneath includes things such as whether memory gets copied.
+```
+spec ---> agent builds ---> checks run ---> person signs
+               ^                |
+               +---- fails -----+
+```
 
 ## What the section holds
 
-The pages in this section cover the practice from the rules down to the tools. Each line below names one topic and the pages that hold it.
-
-- The rules in one line each: Agentic Engineering, Condensed.
+- Rules that stay true, in one line each: Agentic Engineering, Condensed.
 - A looser practice, and apps made from one description: Vibe Coding, A Return to Code.
-- Engineers judged by the machinery they build: The AI Industrial Revolution.
+- Engineers judged on the machinery they build to produce their work, and engineers rated at 100 or 1,000 times an ordinary one: The AI Industrial Revolution.
 - The person's part and its limits: Understanding Bottleneck, A Motorcycle for the Mind, Working With a Model That Cannot Remember, Interleaving for Complex Problem Solving.
 - The files an agent reads: Context Engineering, Agent-Native Infrastructure.
 - Which computer runs the job: Agent Glossary, Picking a computer, Current Agentic LLM Stack, Grok Bot Primer, Using Grok Bot, Grok Bot Galaxy, Cursor Cloud Agents.

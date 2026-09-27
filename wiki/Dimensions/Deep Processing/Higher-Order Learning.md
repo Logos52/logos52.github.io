@@ -3,10 +3,10 @@ title: "Higher-Order Learning"
 type: concept
 status: developing
 created: 2026-05-14
-updated: 2026-09-27
-written-by: opus
+updated: 2026-09-24
+written-by: fable
 model: grok
-method: outline-2026-09-27
+method: outline-2026-09-24
 prose-model: fable
 aliases:
   - "Deep Processing Practice"
@@ -25,83 +25,77 @@ tags:
 
 # Higher-Order Learning
 
-Higher-order learning is studying by comparing the pieces of a subject and judging which of them matter most, so that they end up joined into one network in memory. Lower-order learning is reading, repeating and memorising each piece on its own. The choice decides what a study session leaves behind: a network can be used on a new problem in the subject, and a list of facts can only be recited.
+Higher-order learning is studying by comparing the pieces of a subject and judging which of them matter most, so that they end up joined into one network in memory. Lower-order learning is reading, repeating and memorising each piece on its own. The choice decides what a study session leaves behind: a network can be used on a new problem in the subject, a list of facts can only be recited.
 
 ## Core takeaways
 
-- Higher-order work compares pieces, then judges which links matter.
-- It builds the lower-order knowledge along the way.
-- Lower-order work builds only lower-order knowledge.
-- Start with comparison, so less is left to drill afterwards.
-- Repetition is still needed, since a network only slows forgetting.
-- Bored and sleepy means the session is lower-order work.
-- Get a rough grip on the pieces before comparing them.
+- Every higher-order technique does the same two things: compare pieces of information for similarities and differences, then judge which of those matter.
+- Working at the higher order also builds the lower-order knowledge, because nothing can be compared before it is understood. Working at the lower order builds only lower-order knowledge.
+- Start with comparison. A network is easier to remember, so less is left over to drill by repetition.
+- Repetition is still needed afterwards. A network slows forgetting; it does not stop it.
+- The work feels hard, confusing and tiring at first. Feeling bored and sleepy is a sign the session is lower-order work. Higher-order work feels like an effortful back-and-forth between the material and the notes.
+- Nothing can be compared that is not yet held at all. Get a rough grip on the pieces first, then compare.
 
 ## How it works
 
-Comparing finds groups: which pieces share a function, a mechanism or a consequence. Judging then picks which groups and which links matter most for the purpose at hand. The result is a network of pieces that are connected, weighted and tied to the big picture, and memory and understanding come out of building it. Nothing can be compared before it is understood, which is why the higher-order work also produces the lower-order knowledge.
-
-- Novices sort physics problems by the objects drawn in them.
-- Experts sort them by the principle that solves them.
-- A page covered in arrows is grouping without judging.
-- The work should feel like effortful back-and-forth with the notes.
+- Comparing finds groups: which pieces share a function, a mechanism, a consequence.
+  - Sorting by what things look like on the surface is the novice move. People who know a field sort physics problems by the principle that solves them; newcomers sort by the objects in the picture.
+- Judging picks which groups and which links matter most for the purpose at hand.
+  - A page covered in arrows is grouping without judging, and still shallow.
+- The result is a network: pieces connected, weighted and tied to the big picture. Memory and understanding come out of building it.
+- Bloom's taxonomy, the ladder of learning printed in most teaching guides, puts remembering and understanding at the bottom and analysing and evaluating above them. Treating that order as a sequence to climb is the mistake: the upper work produces the lower rungs.
 
 ```
-lower order              higher order
-read, repeat,            compare -> judge -> connect
-memorise each piece                   |
-       |                              v
-       v                       network in memory
-  list of facts                (facts included)
+lower order            higher order
+read, repeat,          compare  ->  judge  ->  connect
+memorise each piece         |
+      |                     v
+      v                network in memory
+list of facts          (facts included)
 ```
-
-Bloom's taxonomy, a ladder printed in most teaching guides, puts remembering and understanding at the bottom and analysing and evaluating above them. Treating that order as steps to climb is a mistake, because the upper work produces the lower steps.
 
 ## Levels of depth
 
-Depth runs on seven levels, from the shallowest to the deepest, and most study techniques can be run at any of them. The working rule is to study one level above what feels comfortable. Once that level is comfortable, move one deeper.
+Seven levels, from shallowest to deepest. Most study techniques can be run at any level.
 
 1. Memorise the material.
 2. Try to understand it.
 3. Rate how important each key term is.
 4. Group the key terms by similarity.
 5. Find other groupings, each on a different similarity.
-6. Judge which grouping best fits importance and relevance.
+6. Judge which grouping is best for importance and relevance.
 7. Connect the groups to show how they influence each other.
+
+Work at one level above what is comfortable. Once that level is comfortable, move one deeper.
 
 ## Questions that force it
 
-Some questions can only be answered by comparing, and asking them pushes a session up a level. The lower-order versions ask what a passage means, or mark something as important and repeat it. The questions below are asked of each new piece against the pieces already held.
-
-- How it relates to another idea.
-- How it is similar to or different from what is known.
-- What function it serves, and what the trend is.
-- How it fits the big picture.
+- How is this related to that other idea?
+- How is it similar to, or different from, what is already known?
+- What function does it serve? What is the trend?
+- How does it fit the big picture?
+- The lower-order versions are: what does this mean, what are they saying, this feels important so repeat it.
 
 ## Managing the load
 
-Higher-order work takes more mental effort by nature. The aim is high effort short of overload, which is the point where more is being handled than can be held in mind at once. Tolerance grows with practice, the effort starts to feel like progress once a grouping pays off, and the moves get faster. A new technique uses the same mental room that the comparing needs, so only one or two techniques should be new at once.
-
-- Take notes that record relations, in place of sentences in order.
-- Try a structure on a small throwaway map first.
-- Take short breaks before taking in more.
-- Learn one or two new techniques at a time.
+- Higher-order work costs more mental effort by nature. The aim is high load short of overload, the point where more is being processed than can be held.
+- Three habits keep the load under that line: notes that record relations rather than sentences in order; small throwaway maps to try a structure before committing to it; short breaks to consolidate before taking in more.
+- Learn one or two new techniques at a time. Performing an unfamiliar technique uses the same capacity the comparing needs.
+- Tolerance grows with practice: the effort starts to read as progress once a grouping pays off, and the moves get faster.
 
 ## Checking a session
 
-A session can be checked with four questions, asked once it is over. Feeling fluent with the material answers none of them. A session that passes has changed something that can be named.
-
-- What was done with the information.
-- What relationship was created.
-- What changed in the mental model.
-- Whether it could be used where it is meant to be used.
+- What was done with the information?
+- What relationship was created?
+- What changed in the mental model?
+- Could this be used in the situation it is being learned for?
+- Feeling fluent with the material is not an answer to any of these.
 
 ## Where it stops
 
-The target is using the knowledge on a new case inside the same subject. Higher-order learning does not improve thinking in general. Once the network exists, the number of separate things to keep in mind should fall, and if it does not, the network is not working.
-
-- Two sessions with no defensible grouping: the pieces are not held yet.
-- Go back and get a rough hold on them first.
+- Use in a new case inside the same subject is the target. It does not upgrade thinking in general.
+- If two sessions of comparing give no grouping that can be defended, the pieces are not yet held. Go back and get a rough hold on them.
+- The number of separate things to keep in mind should fall once the network exists. If it does not, the network is not doing its job.
 
 ## Related pages
 

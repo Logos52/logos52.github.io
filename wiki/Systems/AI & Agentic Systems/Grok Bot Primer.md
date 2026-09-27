@@ -3,9 +3,9 @@ title: "Grok Bot Primer"
 type: concept
 status: developing
 created: 2026-08-25
-updated: 2026-09-27
-method: outline-2026-09-27
-written-by: opus
+updated: 2026-09-24
+method: outline-2026-09-24
+written-by: fable
 description: "How this desk staffs Grok Bot: one shared cloud computer, a weekly allowance, public material only, and the owner approving what leaves the account."
 aliases:
   - Standing Research Agents
@@ -26,99 +26,74 @@ tags:
 
 # Grok Bot Primer
 
-# Grok Bot Primer
-
 Grok Bot is a desktop app from SpaceXAI. You create named bots, give each one a standing job, and they work on a computer in the cloud that keeps running when the laptop is shut. This desk's setup follows three facts about the product: every bot on an account shares that one computer and its logins, usage is a weekly allowance for the whole account, and the owner reads what a bot produces before anything leaves the account.
 
 ## Core takeaways
 
-- All bots on an account share one cloud computer and its logins.
-- A site one bot logged into is open to every other bot.
-- One weekly allowance covers the whole account.
-- A polling or chatty bot can spend that allowance in hours.
-- One bot, one job, written in its description.
-- A bot prepares, and the owner approves anything that leaves the account.
-- Here, bots read public material only and end each run with a file.
+- All bots on an account share one cloud computer, its files and its logins, so a site one bot logged into is open to every other bot.
+- Usage is a weekly allowance for the whole account; a bot that polls often or chats at length can use the whole allowance in hours.
+- One bot gets one job, written in its description; a catch-all helper is the setup to avoid.
+- A bot prepares and the owner approves anything that leaves the account: a send, a purchase, a delete, a publish, a change to a live system.
+- On this desk every bot reads public material only and ends its run by writing a file the owner reads.
+- Application code is written by a Cursor Cloud Agent, a coding agent that works on its own isolated machine, and the owner merges the result himself.
 
 ## How it works
 
-Each user gets one cloud computer, and every bot on the account shares it. Deleting a bot removes its profile, its chat and its routines, and its files and logins stay on that computer. Files in a shared folder, `/workspace`, survive product updates, and packages installed on the computer are wiped by one. At a login, a two-factor prompt, a captcha or a payment, the bot hands the screen to the owner and takes it back after, and a password goes through a masked form and never appears in the chat.
-
-- A bot has a name, a description and a memory.
-- Lasting rules go in the description, and today's task in the chat.
-- Duplicating a bot copies its setup with an empty memory.
-- Hiding a bot does not pause its routines.
-- An account holds at most fifty bots and group chats combined.
-
-## Skills and routines
-
-A skill is a saved way of doing a task, and a routine runs a skill on a clock or when something happens in Slack or GitHub. The order is to do the task in chat first, save it as a skill, then put the skill on a routine. "Teach a task" records the screen for up to ten minutes with no microphone and gives a draft skill, which still needs its rules and approval points added by hand.
+- The computer
+  - One cloud computer per user, not per bot. Deleting a bot removes its profile, its chat and its routines; its files and logins stay on that computer.
+  - Files in a shared folder named /workspace stay across product updates; packages installed on the computer are wiped by an update.
+  - At a login, a two-factor prompt, a captcha or a payment, the bot hands the screen to the owner and takes it back after. A password goes through a masked form, never the chat.
+- A bot
+  - A name, a description and a memory.
+  - Lasting rules go in the description; today's task goes in the chat.
+  - Duplicating a bot copies its setup with an empty memory.
+  - Hiding a bot does not pause its routines. An account holds at most fifty bots and group chats combined.
+- Skills and routines
+  - A skill is a saved way of doing a task. A routine runs a skill on a clock or when something happens in Slack or GitHub.
+  - Order: do the task in chat, save it as a skill, then put the skill on a routine.
+  - "Teach a task" records the screen for up to ten minutes, no microphone, and gives a draft skill that still needs its rules and its approval points added by hand.
+  - "Test run" on a routine does real work. One bot holds at most fifty routines. Routines may pause after a long period away from the app.
+- The allowance
+  - Each routine run uses a small part of the weekly allowance. A routine every 15 minutes is about 100 runs a day.
+  - Two polling bots used 15% of a week's allowance in half a day. A bot that chatted all day used the whole allowance in hours.
+  - A long chat makes every routine on that bot cost more, so recurring work goes on a fresh bot.
+  - A routine reports exceptions only; an hourly routine that finds nothing becomes a weekly one.
+- Approval
+  - The app asks before a send, a purchase, a delete, a publish, or a change to a live system.
+  - A first task says what should be finished, which sources the bot may use, what limits it works under, what it hands back, and where it stops for review.
 
 ```
-task in chat --> skill --> routine on a clock
-                               |
-                               v
-                     a file in /workspace
-                               |
-                               v
-                       the owner reads it
+task in chat ---worked---> skill ---on a clock---> routine
+                                                     |
+                                                     v
+                                     a file in /workspace
+                                                     |
+                                                     v
+                                        the owner reads it
 ```
-
-- "Test run" on a routine does real work.
-- One bot holds at most fifty routines.
-- Routines may pause after a long time away from the app.
-
-## The allowance
-
-Every routine run spends a small part of the account's weekly allowance, and the cost adds up quickly. A routine every 15 minutes is about 100 runs a day. A long chat makes every routine on that bot cost more, so recurring work goes on a fresh bot.
-
-- Two polling bots used 15% of a week in half a day.
-- A bot that chatted all day used the whole week in hours.
-- Routines report exceptions only.
-- An hourly routine that finds nothing becomes a weekly one.
-
-## Approval
-
-The app asks before a send, a purchase, a delete, a publish, or a change to a live system. The first task a bot gets should carry its own review points, in five parts. Written that way, the bot has its stopping places before it starts.
-
-- What should be finished.
-- Which sources the bot may use.
-- What limits it works under.
-- What it hands back.
-- Where it stops for review.
 
 ## Desk rules
 
-The rules here follow from the shared computer. A bot in front of the others would hold every login, so none sits there, and private accounts stay off the computer entirely. SpaceXAI publishes playbooks that run a chief of staff on mail and calendar and put mail, ads and store logins on the shared computer, and this desk does not copy them.
-
-- Bots only report.
-- Work between bots passes through repository files and never through chat.
-- No mail, ads accounts, store logins, password manager, VPN or card.
-- Approval stays on for anything that leaves the account.
-- No bot merges code, and the owner merges each pull request.
-- Cursor Cloud Agents, on their own isolated machines, write application code.
-- No chief-of-staff bot passing requests to the others.
-- No manager bots over engineer bots.
-- No overnight runs that open pull requests unattended.
-- The allowance and the owner's reading limit how much ships.
-- A new bot only when current reports show a gap.
-- Roster: 9 bots on 25 August 2026, 18 by 18 September.
-
-Three of the bots are Watch, Brief and Steward. Watch checks public sites, writes one file per run, and reports only when something changed, so a day with nothing to report is normal. Brief sweeps public sources each morning and files one brief, exceptions first. Steward reports allowance use and routine health, one line per bot, makes backups, and does not hand out work.
+- Bots only report. Work between bots passes through files in a repository, never through a chat.
+- Only public material goes on the shared computer: no mail, no ads accounts, no store logins, no password manager, no VPN, no card.
+- Approval stays on for anything that leaves the account. No bot merges code; the owner merges each pull request himself.
+- No chief-of-staff bot, one bot that takes every request and passes it to the others. No manager bots over engineer bots.
+- No unattended run that opens pull requests overnight. How many changes ship is limited by the weekly allowance and by the owner reading each change.
+- A new bot is added only when the current reports show a gap. SpaceXAI publishes playbooks that run a chief of staff on mail and calendar and put mail, ads and store logins on the shared computer; this desk does not copy them.
+- Three bots on this desk hold standing jobs:
+  - Watch runs checks on public sites, writes one file per run and reports only when something changed. A day with nothing to report is normal.
+  - Brief sweeps public sources each morning and files one brief, exceptions first.
+  - Steward reports weekly allowance use and routine health, one line per bot, and makes backups. It does not hand out work.
+- Roster: 9 bots on 25 August 2026, 18 by 18 September 2026.
 
 ## Where it fails
 
-Scheduled writing turns generic within weeks unless the owner keeps reading it, so each bot gets a freshness check and a review date. A bot is retired when its output stops changing what the owner reads or does. A bot left unwatched can also fail while reporting success, so a run's file gets checked even after a success message.
-
-- A bot's memory does not replace the system a fact came from.
-- Read a changing fact from its system each time.
-- Safety rules go in the description.
+- Scheduled writing turns generic within weeks unless the owner keeps reading it. Each bot gets a freshness check and a review date, and a bot is retired when its output stops changing what the owner reads or does.
+- A bot left unwatched can fail while still reporting success, so a run that ends with a success message still needs its file checked.
+- A bot's memory does not replace the system a fact came from; a fact that changes is read from that system each time. Safety rules go in the description.
 - The built-in memory write failed for a stretch in September 2026.
-- "Can't reach your computer" was once a bot name over 255 characters.
-- Other first-run faults: missing paid access, a spent weekly allowance.
-- Fix order: retry, restart, Recover, Update, then Reset.
-- Recover and Update keep files and logins.
-- Reset restores the computer's last saved copy.
+- First-run faults reported by other users: a "can't reach your computer" message was a bot name over 255 characters; others were missing paid access and a used-up weekly allowance.
+- Troubleshooting order: retry, restart, Recover, Update, then Reset last. Recover and Update keep files and logins; Reset puts the computer back to its last saved copy.
 
 ## Related pages
 

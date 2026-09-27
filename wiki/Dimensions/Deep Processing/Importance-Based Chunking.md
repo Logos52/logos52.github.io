@@ -2,12 +2,12 @@
 type: concept
 status: seed
 created: 2026-05-04
-updated: 2026-09-27
-written-by: opus
+updated: 2026-09-24
+written-by: fable
 model: grok
 source-count: 8
 last-audited:
-method: outline-2026-09-27
+method: outline-2026-09-24
 prose-model: fable
 aliases:
   - Chunking as a Technique - Good chunking at different levels, and how to layer importance and meaningfulness
@@ -27,65 +27,71 @@ tags:
 
 # Importance-Based Chunking
 
-Importance-based chunking is the habit of grouping the ideas in a topic by what matters most, then naming each group so that one group's name suggests what the others are. It decides how much of a topic has to be memorised. A group that follows from something already known needs almost no memorising, and a group that does not has to be learned by repetition.
+Importance-based chunking is the habit of grouping the ideas in a topic by what matters most, then naming each group so that one group's name tells you what the others are likely to be. It decides how much of a topic has to be memorised: a group that follows from something you already know needs almost no memorising, and a group that does not has to be learned by repetition.
 
 ## Core takeaways
 
-- A chunk is a group of ideas sharing one role.
-- Memory keeps ideas that sit inside a pattern.
-- Ideas with no pattern fade within weeks unless repeated.
-- Keep two to four items in every group.
-- Confusion while grouping is part of the method.
-- Treat the first structure as a guess and change it.
-- Memorise by rote only after pattern-finding has failed.
+- A chunk is a group of ideas that share the same relation to the rest of the topic. Naming the group is a decision about how the whole topic hangs together.
+- Long-term memory only keeps an idea that sits inside a pattern. Ideas held without a pattern fade in days to weeks unless repeated.
+- A good group is relevant to what the learner is studying for, connected to the other groups, and built on something already known. A mnemonic scores low on all three; plain repetition scores lower.
+- Keep two to four items in every group. Past four, split the group. Under two, merge it into another.
+- Confusion while grouping is part of the method. Ending confusion by stopping is a common failure.
+- A first structure is a guess. Test it as more of the topic comes in, and change it when it stops fitting.
+- Rote memorising is a last resort, used only after repeated attempts to find a pattern have failed, and done at the end.
 
 ## How it works
 
-The method starts by collecting keywords from the topic and finding how they relate. The learner then names one group after a familiar pattern, such as before, cause, driver or mechanism, and checks whether the rest of the topic fits under names of the same kind. A good name suggests the other groups: before suggests during and after, and drivers suggests responses. When the rest does not fit, the learner renames the group and tries again, and with practice four or five patterns can be tried in under a minute.
+- Collect keywords from the topic and find how they relate to each other.
+- Pick a name for one group that carries a familiar pattern: before, driver, cause, prerequisite, mechanism.
+  - The name should suggest the other groups. "Before" suggests "during" and "after". "Drivers" suggests "responses".
+  - When the rest of the topic does not fit the pattern, change the name and try another. With practice, four or five patterns get tried in under a minute.
+- Check every group against the 2 to 4 rule.
+  - Two to four items under a group. Five or more, split into sub-groups. A single item, merge it upward or into a neighbour.
+  - A node with one arrow in and one arrow out usually means the structure can be tightened.
+- Check whether each group's importance would be known without memorising it.
+  - Say "A matters because B". Then ask whether you would only know that by having memorised it.
+  - If yes, turn the group around: put a situation first and a specific term at the end, so the term follows from the situation.
+- Stop taking in new material once five to seven new things have arrived and group what is there before reading on.
+- Later, when the topic gets used, the first groups often turn out too basic. Regroup to stress what has proved important.
 
-- Two to four items per group.
-- Five or more: split into sub-groups.
-- One item: merge it upward or into a neighbour.
-- One arrow in and one out: the structure can be tightened.
-- Pause after five to seven new ideas and group them.
-- Regroup later when the first groups prove too basic.
-
-The last check is whether each group's importance would be known without memorising it. Say that A matters because B, then ask whether that could only be known by having memorised it. If so, turn the group around: put a situation first and the specific term last, so that the term follows from the situation.
-
-## What makes a good group
-
-A good group is relevant to the goal of study, connected to the other groups, and built on something already known. A mnemonic scores low on all three, and plain repetition scores lower still. Naming a group is a decision about how the whole topic fits together, so a group with no link to the others costs two separate lists to memorise.
-
-- Relevant to what the learner is studying for.
-- Connected to the other groups.
-- Built on something the learner already knows.
+```
+keywords --> relations --> name one group
+                             |
+              fits the rest? no --> rename, retry
+                             |
+                            yes
+                             |
+                    2 to 4 per group?
+                     no --> split or merge
+                     yes --> check: known, or memorised?
+```
 
 ## Levels of skill
 
-Skill at chunking is set by how a person handles confusion, more than by how much they already know about the topic. Knowing more does change what a person can group. There are four levels, and every level beyond the fourth is the fourth done faster.
+Skill here is set by how well a person handles confusion. Prior knowledge of the topic does not set it.
 
 | Level | What the person does |
 | --- | --- |
 | 1 | Feels confused, stops, makes no group |
 | 2 | Makes a group anyway, even a wrong one |
-| 3 | Changes groups as new material shows errors |
-| 4 | Gets groups accurate on a first pass |
+| 3 | Changes groups as new material shows they were off |
+| 4 | Gets groups accurate and intuitive on a first pass |
 
-- Level 2 to 3 stalls on needing to be right at once.
-- Level 3 to 4 stalls when early hard thinking feels unusual.
+- The move from 2 to 3 fails when the person wants to be right straight away and will not correct.
+- The move from 3 to 4 fails when the person is not used to thinking hard at the start.
+- Every level above 4 is level 4 done faster.
 
 ## Where it fails
 
-A structure that felt obvious, with no confusion first, usually means the topic was simplified without being made meaningful, often by reusing one favourite pattern. Another common failure is taking a textbook's headings as the groups, since an author's order is often not what matters for the learner's goal. Overwhelm is also often mistaken for confusion. Overwhelm is too many items and unknown connections all held in the head, and writing them down removes it, so what remains is confusion about one item or one connection.
+- The structure feels obvious without any confusion first. This usually means the topic was made simpler without being made meaningful, often by reusing one favourite pattern for everything.
+- The person cannot say why one arrangement rather than another. Most chunking problems seen in coaching come down to this.
+- Two groups have nothing to do with each other. Then the pair has to be memorised as two lists.
+- Textbook headings get used as the groups. An author's order is often not the most important order for what the learner is studying for.
+- Overwhelm gets mistaken for confusion. Overwhelm is too many items, unknown connections, and all of it held in memory rather than on paper. Writing it down removes the last part; what remains is confusion, which has two causes: an item is not understood, or the connections are not.
 
-- No confusion at all: the topic was probably oversimplified.
-- Unable to say why one arrangement beats another: the most common problem.
-- Two unrelated groups: memorised as two lists.
-- Textbook headings used as groups.
+## Prestudy and the main pass
 
-## First read and main pass
-
-Grouping during a quick first read and during the main study session works the same way. The first read takes only headings and keywords, guesses a structure, and leaves it. The main session takes the full detail and keeps correcting that guess.
+Grouping during a first thin read and grouping during a main study session use the same mechanism. The first read takes only headings and keywords, guesses a structure, and leaves it. The main session takes the full detail and keeps correcting that guess.
 
 ## Related pages
 

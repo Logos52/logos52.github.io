@@ -3,11 +3,11 @@ title: "Automatic and Deliberate Work with AI"
 type: concept
 status: developing
 created: 2026-07-07
-updated: 2026-09-27
-written-by: opus
+updated: 2026-09-24
+written-by: fable
 model: grok
 source-count: 7
-method: outline-2026-09-27
+method: outline-2026-09-24
 prose-model: fable
 aliases:
   - Thinking Models
@@ -30,78 +30,65 @@ tags:
 
 # Automatic and Deliberate Work with AI
 
-# Automatic and Deliberate Work with AI
-
-Some work with a language model is pattern matching: drafting, recalling, classifying, reformatting, extracting. Other work is building steps: chaining one inference to the next, or constructing something under several constraints at once. Sorting a task as one or the other decides which model to use, whether to pay for extra thinking time, and how the answer gets checked.
+Some work with a language model is pattern matching: drafting, recalling, classifying, reformatting, extracting. Some work is building steps: chaining inferences, or constructing something under several constraints at once. Sorting a task as pattern matching or step building decides which model to use, whether to pay for extra thinking time, and how the answer gets checked.
 
 ## Core takeaways
 
-- Sort each task first: pattern matching or step building.
-- Pattern matching gets the cheapest model whose output passes a check.
-- Step building gets a stronger model, thinking time and a final check.
-- Check from outside the model, never by its own account of its reasoning.
-- One focal task and a few constraints per call.
-- A move that comes up a third time becomes a reusable file.
-- Keep the step building you want to learn yourself.
+- Sort each task first: pattern completion or step building. Pattern completion gets the cheapest model whose output passes the check. Step building gets a stronger model, a thinking budget and a check at the end.
+- Start on the fast model. Switch to a thinking model when the task is hard and checkable, or when the first answer looks weaker than it should.
+- Check outputs from outside: a test, a stated criterion, or an independent second pass. The model's account of its own reasoning is not a check.
+- Give the model one focal task and a few constraints per call. Put the other constraints into a template or a checker.
+- When a move comes up a third time, turn it into an artifact: a skill, a spec, a prompt template or a checker, within a week.
+- Keep the deliberate reasoning you want to learn. Hand off the repetitive work.
 
 ## How to route
 
-Pattern-matching tasks are called automatic here, and step-building tasks deliberate. The quickest test is whether a script or a test can check the output in seconds. If it can, the task is automatic even when it looks hard, and it goes to the cheapest model that passes. If it cannot, the task is deliberate, and it gets a strong model, a budget of thinking time, and a gate that holds the output back until a check passes. Start on the fast model, and switch to a thinking model, one that spends extra computation before it answers, when the task is hard and checkable or when the first answer looks weaker than it should.
+- Automatic work
+  - A gloss, a reformat, a tone label, a vocabulary pull, a two-hundred-item cleanup.
+  - Cheap and fast. Errors are rare on ordinary input and a cheap check catches them.
+  - Never a reasoning model. If a script can check the output in seconds, the task is automatic even when it looks hard.
+- Deliberate work
+  - Multi-hop inference, a diagnosis with no obvious cause, a passage that must hold a word list, continuity with earlier passages and one register at once.
+  - Costs more, and this is where errors gather. Gate it: the output does not pass until the check passes.
+- Thinking models
+  - A thinking model spends extra computation before it answers. It was trained by reinforcement learning on math and code problems with checkable answers, so that is where it helps: hard math, code, technical diagnosis.
+  - The price is a wait, usually a minute or more, plus a meter on the reasoning tokens.
+  - It adds nothing on recall, travel advice or casual chat. On easy items it can do worse than the fast model.
+  - A fast model can still beat a thinking model on a bug. Thinking time is one lever, and which model is the other.
+- The check
+  - When two models disagree and no check exists, the cheaper model saved nothing, because nobody sees the wrong answer. That argues for the smartest model wherever a wrong answer is expensive to catch.
+  - Where a wrong answer is cheap to catch, such as support replies or browser automation, cheaper models earn their place.
 
 ```
-task --> can a script check it in seconds?
-           | yes                  | no
-           v                      v
-     automatic:             deliberate:
-     cheapest model         strong model,
-     that passes            thinking budget
-           |                      |
-           v                      v
-     cheap check            check before use
+task ──► can a script or test check it in seconds?
+            │ yes                     │ no
+            ▼                         ▼
+      automatic: cheapest       deliberate: strong model,
+      model that passes         thinking budget, gate
+            │                         │
+            ▼                         ▼
+      cheap external check      external check before use
 ```
 
-- Automatic: a gloss, a reformat, a tone label, a cleanup of 200 items.
-  - Errors are rare on ordinary input, and a cheap check catches them.
-  - These never go to a thinking model.
-- Deliberate: multi-step inference, or a diagnosis with no obvious cause.
-  - A passage that keeps a word list, continuity and one tone is deliberate.
-  - Most errors happen in deliberate tasks.
+## Protecting the channel
 
-## Thinking models
+Human working memory holds about four chunks at once, and a single deliberate step in a model degrades under load the way a learner does. Stacking ten constraints into one prompt is overload, and the result is a step that silently drops some of them. The fix is to decompose: one focal task and a few constraints per call, with a template, a cast sheet or a checker carrying the rest. Running the same small move many times in parallel is the same fix at scale.
 
-A thinking model spends extra computation before it answers. It was trained by reinforcement learning on maths and code problems with checkable answers, so that is where it helps: hard maths, code, technical diagnosis. The cost is a wait, usually a minute or more, plus a charge for the reasoning tokens, the units of text the model generates while it thinks.
+## Why the narration is not a check
 
-- It adds nothing on recall, travel advice or casual chat.
-- On easy items it can do worse than the fast model.
-- A fast model can still beat a thinking model on a bug.
-- Thinking time is one lever, and which model is the other.
-
-The check decides where the money goes. When two models disagree and no check exists, the cheaper model saved nothing, because nobody sees the wrong answer, so the smartest model belongs wherever a wrong answer is expensive to catch. Where a wrong answer is cheap to catch, such as support replies or browser automation, a cheaper model does the job.
-
-## Keeping each call small
-
-Human working memory holds about four chunks at once, and a single deliberate step in a model degrades under load in a similar way. Ten constraints stacked into one prompt produce a step that quietly drops some of them. The fix is to split the work: one focal task and a few constraints per call, with a template, a character sheet or a checker carrying the rest. Running the same small step many times in parallel is the same fix at a larger scale.
-
-- A move repeated three times becomes a skill, spec, template or checker.
-- Make that file within a week.
-- Asking the model to restate the rule shows whether it is overloaded.
-- Restating does not build the skill or replace the checker.
-
-## The model's own account
-
-People cannot report the steps of a skill they have automated, and their verbal accounts are often made up after the fact. A model's written chain of thought has the same problem. In one 2023 study, reordering answer options so the right one was always first cut accuracy by up to 36 percent across 13 tasks, and the written reasoning never mentioned the reordering. A thinking model's written reasoning has the same problem.
-
-- Larger models gave reasoning that drove the answer less, on most tasks studied.
-- Use a test, a stated criterion or an independent second pass instead.
+- Skill steps in humans are not reportable, and verbal reports of them are often made up after the fact. The same holds for a model's chain of thought.
+- Reordering the answer options in a prompt so the right answer was always the first one cut accuracy by up to 36 percent on 13 tasks, and the models' written reasoning never mentioned the reordering (Turpin et al. 2023).
+- Larger models gave reasoning that drove the answer less, on most tasks studied (Lanham et al. 2023). Reasoning models are not exempt.
+- Asking the model to restate the rule tells you whether it is overloaded. It does not build the skill and it does not replace the checker.
 
 ## Where it fails
 
-Tasks blend, and the sort can be wrong. The safe error is to call a task deliberate, unless a script can check it in seconds. The labels come from the two-system account of human thought, which is contested even for humans, and here they are only a routing rule that says nothing about what happens inside the model.
-
-- Two sessions treating script-checkable work as deliberate: re-sort.
-- Accepting the model's own account as a check: re-sort.
-- When models get better, reopen the routing.
-- Handing off every deliberate step means the person never learns it.
+- Tasks blend. The sort can be wrong. The safe error is to call a task deliberate, unless a script can check it in seconds.
+- Two sessions in a row treating script-checkable work as deliberate is the signal to re-sort.
+- Accepting the model's narration as a check is the other signal.
+- When model capability rises, the routing is reopened. No vendor tier is fixed.
+- The words come from the two-system account of human thought, which is contested even for humans. Here they are only a routing rule; they say nothing about what happens inside the model.
+- Handing off every deliberate step means the skill never gets built in the person doing the handing off.
 
 ## Related pages
 

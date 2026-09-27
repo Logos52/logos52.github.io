@@ -3,10 +3,10 @@ title: "Cursor Cloud Agents"
 type: concept
 status: developing
 created: 2026-09-17
-updated: 2026-09-27
+updated: 2026-09-24
 description: "How a Cursor Cloud Agent runs a coding task on its own cloud machine and hands back a pull request, and how this desk uses it."
-method: outline-2026-09-27
-written-by: opus
+method: outline-2026-09-24
+written-by: fable
 prose-model: fable
 tags:
   - cursor
@@ -17,76 +17,57 @@ tags:
 
 # Cursor Cloud Agents
 
-# Cursor Cloud Agents
-
-A Cursor Cloud Agent is a coding agent that runs on a computer Cursor rents in the cloud, one fresh virtual machine per job. It copies a repository from GitHub or a similar host, makes its changes on a branch, and opens a pull request for a person to review. It keeps working after the laptop is closed, so it is the place for coding work that can be written down in full before it starts.
+A Cursor Cloud Agent is a coding agent that runs on a computer Cursor rents in the cloud, one fresh virtual machine per job. It copies a repository from GitHub or a similar host, makes its changes on a branch, and opens a pull request for a person to review. It keeps working after the laptop is closed, so it is the place for coding work that is written down in full before it starts.
 
 ## Core takeaways
 
-- Write the whole task down before the run starts.
-- The agent gets the repository and the task text only.
-- One Cloud Agent per pull request, with follow-ups sent to that agent.
-- The pull request carries a screenshot or video of the running app.
-- Set up `.cursor/environment.json` once so runs start ready.
-- Runs bill at API prices, so bigger models and contexts cost more.
-- On this desk the owner, never a bot, merges each pull request.
+- Write the whole task down before starting a run. The agent gets the repository and the task text, and nothing from the laptop screen.
+- A run ends in a pull request. Use one Cloud Agent per pull request and send follow-ups to that same agent.
+- Ask for proof in the pull request: a screenshot or a video of the app running, made by the agent on its own machine.
+- Set up `.cursor/environment.json` once so every run starts with the tools the repository needs already installed.
+- Each run is billed at API prices. A dearer model or a larger context window costs more.
+- On this desk a Cloud Agent writes application code, and the owner, never a bot, merges each pull request.
 
 ## How it works
 
-A run has three stages: start, run and hand back. It starts from the repository as it stands on the code host, so files not yet committed on the laptop stay behind. The agent works on its own machine, where it can build, test and open the app in a browser to check its work. It ends by pushing a branch and opening a pull request, then keeps listening for review comments and check results until a person merges.
-
-```
-task text + repo on host --> fresh machine
-        |
-edit, test, look at the app
-        |
-branch + pull request with proof
-        |
-review or failed check --> agent fixes
-        |
-person merges
-```
-
-- Start from the editor's Cloud option, cursor.com/agents, the phone app or Slack.
-  - Also from a GitHub issue comment, Linear or the API.
-- Needs a paid Cursor plan and a connected code host.
-  - GitHub, GitLab, Bitbucket or Azure DevOps, with read and write access.
-- `.cursor/environment.json` gives an install step and processes to keep running.
-  - A disk snapshot after a good build makes later runs start faster.
-- Several runs can go at once, each on its own machine.
-- A person can take over the machine's desktop and hand it back.
-- A failed check on its pull request makes the agent try a fix.
-  - It stops if a person has pushed to the branch.
-  - `@cursor autofix off` in the pull request turns fixes off.
+- Start
+  - A run starts from the Cursor editor (the Cloud option), the web page cursor.com/agents, the phone app, Slack, a comment on a GitHub issue or pull request, Linear, or the API.
+  - It needs a paid Cursor plan, a connected code host (GitHub, GitLab, Bitbucket or Azure DevOps), and read and write access to the repository.
+  - The run starts from the repository as it is on the host. Uncommitted files on the laptop do not go with it.
+- Run
+  - The machine is built from `.cursor/environment.json`: an install step, processes to keep running, and a snapshot of the disk saved after a good build so later runs start faster.
+  - The agent edits, runs tests, and can open the app in a browser on its own desktop to check its work.
+  - Several runs can go at the same time, each on its own machine.
+  - A person can take over the machine's desktop during a run and hand it back.
+- Hand back
+  - The agent pushes a branch and opens a pull request with screenshots, video or logs attached.
+  - The agent then waits on events: a review comment, a result from the repository's automated checks, a Slack reply, a timer. When a check on its pull request fails, it tries a fix, unless a person has pushed to the branch. `@cursor autofix off` in the pull request stops the fix attempts.
+  - A person merges.
 
 ## Where it fails
 
-Most failures come from giving the agent a job it cannot see enough of, or from letting agents merge their own work. At the Grok Bot Galaxy event in September 2026, an overnight run of about 100 to 150 pull requests included a bad SQL change that took production down. A task that needs what is on the laptop screen right now belongs in the Cursor editor's Agent mode instead.
-
-- No environment file: the first minutes go on installing, or nothing builds.
-- A dearer model or a larger context raises the bill.
+- A task that needs what is on the laptop screen right now belongs in the Cursor editor's Agent mode.
+- A run with no environment file spends its first minutes installing, or does not build at all.
+- Agents merging their own work. At the Grok Bot Galaxy event in September 2026 an overnight run of about 100 to 150 pull requests included a bad SQL change that took production down.
+- Cost. Runs are billed at API prices, so a dearer model or a larger context costs more.
 
 ## On this desk
 
-On this desk a Cloud Agent writes the application code, and the Grok Bots, the agents on a shared cloud computer, only report. A Grok Bot may start a Cloud Agent but does not merge. Runs are not queued overnight in bulk, because one person reads each change before it merges and that sets the pace.
-
-- Three runs by 18 September 2026, all on the owner's website repository.
-- They gave draft pull requests 3, 4 and 5.
-- All checks green, none merged at that date.
-- No UI change is done without a picture from the running app.
+- Cloud Agents have run three times as of 18 September 2026, all on the repository of the owner's website, giving draft pull requests 3, 4 and 5. All checks were green and none had merged.
+- Application code comes from a Cloud Agent on its own machine. Grok Bots, the agents on the shared cloud computer, only report. A Grok Bot may start a Cloud Agent and does not merge.
+- Runs are not queued overnight in bulk. One person reads each change before it merges, and that sets the pace.
+- No UI change is called done without a picture from the running app.
 
 ## Nearby products
 
-Four products can look alike because each runs an agent on code. They differ in which computer does the work, what they hand back, and whether the work stops when the laptop closes. Copilot cloud agent, Codex cloud and Devin Cloud do the same job as a Cloud Agent on other vendors' machines.
-
 | Product | Computer | Output | Laptop closed |
 |---|---|---|---|
-| Cursor Agent mode | the laptop, in the editor | edits in the editor | stops |
-| Grok Build | the laptop, in a terminal | edits on disk | stops |
+| Cursor Agent mode | the laptop, in the editor | edits shown in the editor | stops |
+| Grok Build | the laptop, in a terminal window | edits on disk | stops |
 | Grok Bot | one shared cloud computer per account | reports and files | keeps going |
 | Cursor Cloud Agent | one isolated machine per job | a pull request | keeps going |
 
-Pick the one whose code host and subscription are already paid for.
+Copilot cloud agent, Codex cloud and Devin Cloud do the same job on other vendors' machines. Pick the one whose code host and subscription are already paid for.
 
 ## Related pages
 

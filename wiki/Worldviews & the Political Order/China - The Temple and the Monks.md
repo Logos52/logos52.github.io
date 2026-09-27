@@ -3,13 +3,13 @@ title: "China - The Temple and the Monks"
 type: concept
 status: developing
 created: 2026-09-06
-updated: 2026-09-27
-method: outline-2026-09-27
+updated: 2026-09-24
+method: outline-2026-09-24
 prose-model: fable
-written-by: opus
+written-by: fable
 diagrams: scripts/gen-china-diagrams.py
 source-count: 1
-description: "How China's state sets growth as a quota, pays for building and exports with household savings, and keeps the household share low."
+description: "How China's state-run economy turns household savings into empty trains, empty towers and below-cost exports while households stay poor."
 tags:
   - china
   - economics
@@ -20,27 +20,36 @@ tags:
 
 # China - The Temple and the Monks
 
-China's economy is still run by command from the state. The skyscrapers, the bullet trains and the export surplus are paid for with money taken from households, and the households stay poor, which a Chinese saying puts as the temple is rich and the monks are poor. A reader who knows this reads a Chinese growth figure as output ordered from above, with no bearing on what people can afford to buy.
+China's economy is still run by command from the state, and its skyscrapers, bullet trains and export surplus are paid for with money taken from households, which stay poor. A Chinese saying describes this: the temple is rich, the monks are poor. A reader who knows this reads a Chinese growth figure as output ordered from above, which says nothing about what people could afford to buy.
 
 ## Core takeaways
 
-- GDP growth in China is a quota every level must report.
-- Officials build things nobody buys and count them.
-- The state owns the land, the banks, energy and big industry.
-- Household deposits fund what the state builds.
-- Goods nobody at home can afford are sold abroad.
-- Copying China's subsidies means ending unions, free speech and worker rights.
-- Official counts cannot be trusted.
+- GDP growth in China is a quota. Every province, city and village must report 5 percent, so officials build things nobody buys and count them.
+- The state owns the land, 99.5 percent of bank assets, the energy supply and big industry. No person in China owns a plot of land.
+- Households keep a smaller share of national income than in almost any modern economy. Their bank deposits fund what the state builds.
+- A command economy overproduces by design. Goods that nobody at home can afford go abroad, which is where a trade surplus of about 1.1 trillion dollars comes from.
+- Shifting money toward household spending would take money from trains, the army and control, so the state does not do it.
+- A country cannot copy China's subsidies without ending unions, free speech and worker rights.
+- Official counts cannot be trusted, because every level reports what the level above wants and nothing is open to check.
 
 ## How it works
 
-Growth of 5 percent is ordered from the top, and every province, city and village must show it. Anything with output counts, so digging a hole, filling it with concrete, building a house on it and tearing the house down for a bigger one all count. Nothing checks whether anyone bought the output. Every level reports what the level above wants to hear, nothing is open to outside checking, and the figures are made to fit the quota.
-
-- Households save in state banks.
-- State banks hold 99.5 percent of bank assets.
-- The state lends the savings to its own projects.
-- The debt that funds this runs 300 to 320 percent of GDP.
-- No person in China owns a plot of land.
+- The quota
+  - Growth of 5 percent is ordered from the top. Each province, city and village must show it.
+  - Anything with output counts: digging a hole, filling it with concrete, building a house on it, tearing the house down for a bigger one.
+  - Nothing checks whether anyone bought the output.
+- The money
+  - Households put their savings in state banks, which hold 99.5 percent of bank assets.
+  - The state lends that money to its own projects: high-speed rail, apartment towers, factories.
+  - The debt that funds this runs 300 to 320 percent of GDP.
+- What gets built
+  - The high-speed rail network owes 900 billion US dollars and will never earn it back. Most people cannot afford the fares and ride the slow trains, and their deposits pay for the high-speed network.
+  - Towers built to hit the quota stand empty. Cities are sized for people who do not exist, because a village reports 100 residents when it has 80 and keeps the benefits for the missing 20.
+- The exports
+  - In the 1980s every county built its own bicycle, sewing-machine and refrigerator factory, so a hundred good factories became thousands of bad ones.
+  - Local governments give free land, tax breaks and energy below cost, then tell the factory to keep producing. Every locality does the same, so all of them sell below cost.
+  - Overproduction was already about a fifth of GDP in the financial crisis that hit Asia in 1996 and 1997.
+  - Since China joined the World Trade Organization in 2001, the unsold goods go abroad. That is the trade surplus.
 
 ```
 household savings
@@ -55,51 +64,24 @@ quota projects: rail, towers, factories
  empty at home     sold abroad below cost
 ```
 
-## What gets built
-
-The high-speed rail network owes 900 billion US dollars and will never earn it back. Most people cannot afford its fares and ride the slow trains, while their bank deposits pay for the fast lines. Towers built to hit the quota stand empty, and cities are sized for people who do not exist. A village with 80 residents reports 100 and keeps the benefits meant for the missing 20.
-
-- Empty towers count as growth.
-- Unused rail lines count as growth.
-- Households keep a smaller share of national income than almost anywhere.
-
-## The exports
-
-In the 1980s every county built its own bicycle factory, sewing-machine factory and refrigerator factory, so a hundred good factories became thousands of bad ones. Local governments give a factory free land, tax breaks and energy below cost, and then tell it to keep producing. Every locality does the same, so all of them sell below cost. Since China joined the World Trade Organization in 2001 the unsold goods have gone abroad, and those goods are the trade surplus of about 1.1 trillion dollars.
-
-- A command economy overproduces by design.
-- Overproduction was about a fifth of GDP by 1996 and 1997.
-- Solar panels and electric cars repeat the 1990s bicycle problem.
-
-## Why households stay poor
-
-Outsiders say China should shift toward household spending. For households to spend more, the state would have to hand them a larger share of what the country makes. A state with a smaller share builds fewer trains, buys fewer arms and has less to spend on control. So the state keeps the household share low.
+Outsiders say China needs to shift toward household spending. For households to spend more, the state would have to give them a larger share of what the country makes. A state with a smaller share builds fewer trains, arms less and has less to spend on control. So the household share stays low.
 
 ## The same machine, earlier
 
-The Communist Party was founded in 1921 by 12 people, in a country of 400 to 500 million, and by 1936 it had about 40,000 members, one in 12,500 people. It took power in 1949 with outside help. In August 1945 one million Soviet troops entered Manchuria, China's northeast, and handed the countryside and the captured weapons to the party, and in May 1946 an American envoy stopped the advance of the government the party was fighting and later cut off that government's arms. From 1958 to 1962, in the campaign the party called the Great Leap Forward, villages reported grain they did not have and inspectors collected it anyway.
-
-- In 1936 Portugal had one communist in 280 people.
-- Finland had one in 700.
-- The party starved cities into surrender.
-- In 1948 Changchun was besieged for 8 months, and 160,000 civilians died.
-- The party rationed food by work points earned in the field.
-- That cut off the sick, the old and the pregnant.
-- At least 45 million died, counted from the state's own archives.
-- A campaign against sparrows let the locusts they ate thrive.
-- Backyard furnaces melted pots and door handles for a steel quota.
-- Sichuan's head reported 9 to 12 million starved and called it good.
-- From 1966 the Cultural Revolution set people on party members.
-- Then the army purged the people, and then the army was purged.
-- The current leader purged five of the army command's seven members.
+- The party was founded in 1921 by 12 people for about 50 members in a country of 400 to 500 million. By 1936 it had about 40,000 members, one in 12,500 people. Portugal had one communist in 280 people and Finland one in 700.
+- It took power in 1949 with outside help. In August 1945 one million Soviet troops entered Manchuria, China's northeast, and handed the countryside and captured weapons to the party. In May 1946 an American envoy stopped the advance of the central government the party was fighting, and later cut off that government's arms.
+- It starved cities into surrender. Changchun was besieged for 8 months in 1948, and 160,000 civilians there died.
+- From 1958 to 1962, in a campaign the party called the Great Leap Forward, villages reported grain they did not have and inspectors collected it anyway. Food was rationed by work points earned in the field, so the sick, the old and the pregnant were cut off. At least 45 million people died, counted from the People's Republic's own archives.
+- A campaign against sparrows let the locusts they ate thrive. Backyard furnaces melted pots and door handles to meet a steel quota.
+- The head of Sichuan province reported 9 to 12 million starved and called it good, because the survivors were the core.
+- The Cultural Revolution from 1966 had ordinary people denounce party members, then the army purge the people, then the army itself purged. The current leader purged five of the seven members of the body that runs the army.
 
 ## What outsiders get wrong
 
-Visitors see the malls, the luxury shops and the clean streets and conclude that the state has given up command. The state still decides who keeps what. It also decides what a visitor sees, and it clears away anything that does not fit the picture.
-
-- Billionaires lose their assets and disappear when the state decides.
-- Homeless people are deported to the countryside, off city streets.
-- A highway between showcase cities becomes a dirt track beyond them.
+- Shopping malls and luxury shops do not show the state has given up command. Billionaires lose their assets and disappear when the state decides.
+- There are no homeless people on city streets because they are deported to the countryside.
+- A highway between two showcase cities turns into a two-lane road and then a dirt track once a visitor leaves them.
+- Overcapacity in solar panels and electric cars is the 1990s bicycle problem with new products.
 
 ## Related pages
 

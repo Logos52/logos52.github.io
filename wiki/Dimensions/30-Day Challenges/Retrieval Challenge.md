@@ -3,10 +3,10 @@ title: "30-Day Challenge - Retrieval"
 type: concept
 status: developing
 created: 2026-05-22
-updated: 2026-09-27
-method: outline-2026-09-27
+updated: 2026-09-24
+method: outline-2026-09-24
 prose-model: fable
-written-by: opus
+written-by: fable
 model: grok
 source-count: 8
 description: "A four-week plan that replaces rereading with closed-book recall, raises the demand each week, and uses misses to pick what to restudy."
@@ -18,61 +18,61 @@ tags:
 
 # 30-Day Challenge - Retrieval
 
-Retrieval is pulling an idea out of memory with the source closed. The Retrieval challenge is a four-week plan that swaps rereading for that closed-book recall and then makes each recall harder. After the month, the habit when studying is to test what is held rather than look at the page again.
+Retrieval means pulling an idea out of memory without looking at the source. This challenge is a four-week plan that swaps rereading for closed-book recall, then makes each recall harder, so that after a month the study habit is to test what is held rather than to look at the page again.
 
 ## Core takeaways
 
-- After the first pass, close the source and rebuild the ideas.
-- In week 1, a thin or wrong attempt still counts.
-- The closed-book move stays the same and only the difficulty rises.
-- Each miss names a weak spot to work on.
-- Restudy after a failed recall helps.
-- Restudy after a successful recall wastes time.
-- Retrieval works only on ideas that were understood first.
+- Close the source after the first pass and rebuild the key ideas from memory. Rereading with the page in view is the habit being replaced.
+- In week 1, doing the attempt is what counts. A thin or wrong reconstruction still counts.
+- The move stays the same all month, close the book and rebuild, and only how hard the attempt is rises.
+- A miss names the weak spot to work on, so the month ends with a map of gaps.
+- Restudy after a failed recall helps. Restudy after a successful recall is wasted time.
+- Retrieval works only on ideas that were understood and stored first. Nothing can be pulled out that was never put in.
 
 ## The four weeks
 
-The whole month uses one move: close the book and rebuild the ideas from memory. Week 1 puts that move where rereading used to be. Week 2 tries it in different forms, because each form finds different gaps. Week 3 makes the recall harder by changing one thing at a time, with fewer cues, more delay, or mixed topics, and week 4 turns the misses into the list of what to work on.
-
-- Week 1, replace review
-  - After first reading a block, write the key ideas from memory.
-  - One closed-book attempt per study block is the minimum.
-  - Reading the page and then quizzing does not count.
-  - Accuracy is not judged until week 4.
-- Week 2, vary the form
-  - Teach from memory: whole, then parts, then whole again.
-  - Solve a problem that makes the idea do a job.
-  - Write the idea out from memory.
-  - Note which form found which gap.
-- Week 3, raise the demand
-  - Fewer cues: keep the headings of the notes, hide the rest.
-  - More delay: rebuild at the next session, not the same one.
+- Week 1: replace review
+  - After the first read of a block of material, the source closes and the key ideas are written or said from memory.
+  - Minimum is one closed-book reconstruction per study block. This is a default; a lighter or heavier load is fine.
+  - Reading the page and then quizzing does not count. A fluent reread makes the page look known when it is not.
+  - Accuracy is not judged this week. That waits for week 4.
+- Week 2: vary the form
+  - Three forms: teaching from memory, solving a problem with the idea, writing from memory.
+  - Teaching runs whole, then parts, then whole again.
+  - Problem-solving asks the idea to do a job rather than be restated.
+  - Each form exposes different gaps. Doing well in one form does not carry to the others.
+  - Product: a note of which form found which gap.
+- Week 3: raise the demand
+  - Three levers: fewer cues, more delay, mixed topics. Move fewer cues, more delay or mixed topics on its own, never two together.
+  - Fewer cues: in the notes used as a prompt, the heading stays and the bullets under it go.
+  - More delay: the reconstruction waits until the next session.
   - Mixed topics: two related subjects in one pass.
-  - Change one thing at a time, never two.
-  - Log what held, what thinned, and which change was on.
-- Week 4, read the misses
-  - Treat each session as a check for weak areas.
-  - Re-process each gap, using the [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]].
-  - A gap that returns becomes an experiment: change one thing.
+  - Product: a log of what held, what thinned, and which lever was on.
+- Week 4: read the misses
+  - Each session is a diagnostic. Every gap names a weak area.
+  - A gap gets targeted re-processing, using the work in [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]].
+  - A gap that repeats after re-processing becomes an experiment: change one thing, run again, see if the miss returns.
+
+```
+Week 1      Week 2        Week 3         Week 4
+close the   same move,    same move,     same move,
+book and    three forms   fewer cues /   misses become
+rebuild                   more delay /   the work list
+                          mixed topics
+```
 
 ## Why it works
 
-Rereading with the page in view makes the material look familiar, and that familiarity is easy to mistake for knowing it. A recall attempt with the page closed shows what is actually held. In one study, people who tested themselves on a prose passage recalled 61% of it a week later, and people who reread it recalled 40%. The week lengths in this plan are the owner's choice, since the studies show what helps and set no length for any step.
-
-- Extra study after a correct recall added little.
-- Extra recall attempts added a lot.
-- The gain from testing over rereading is medium in size.
-- The gain is larger when the test is harder, hence week 3.
+- After a one-week delay, people who tested themselves repeatedly recalled a prose passage at 61%. People who reread it repeatedly recalled 40%.
+- Extra study after a successful recall added little. Extra retrieval attempts added a lot.
+- Across many studies the gain from testing over restudy is medium in size, and larger when the test is more demanding. That is why week 3 removes cues and adds delay.
+- The week lengths are the owner's plan. The studies say what helps; they do not say how long each step takes.
 
 ## Where it fails
 
-The usual failure in week 1 is sliding back into rereading, because rereading feels smoother than recall. The usual failure in week 4 is spending the time restudying what was already recalled, which the study above showed adds little. Either one is fixed by running that week again with its rule held. The month also leaves one thing untaught, which is spacing the reviews out over time.
-
-- Week 1 drifts into rereading: run week 1 again.
-- Week 4 restudies what was recalled: run it again, misses only.
-- The month does not teach spacing reviews over time.
-
-Spacing reviews over time is covered in [[wiki/Dimensions/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], and retrieval as a whole in [[wiki/Dimensions/Retrieval|Retrieval]].
+- Week 1 drifts back into fluent rereading. Run week 1 again.
+- Week 4 spends time restudying what was already recalled. Run week 4 again, restudying only misses.
+- The month leaves a closed-book habit and the habit of treating a miss as the next task. It does not leave mastered spacing. Spacing is the standing method in [[wiki/Dimensions/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]], and the hub for the whole dimension is [[wiki/Dimensions/Retrieval|Retrieval]].
 
 ## Sources
 

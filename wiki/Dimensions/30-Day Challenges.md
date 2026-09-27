@@ -3,10 +3,10 @@ title: 30-Day Challenges
 type: hub
 status: developing
 created: 2026-05-17
-updated: 2026-09-27
-method: outline-2026-09-27
+updated: 2026-09-24
+method: outline-2026-09-24
 prose-model: fable
-written-by: opus
+written-by: fable
 model: grok
 aliases:
   - Dimension Practice Tracks
@@ -22,45 +22,45 @@ tags:
 
 # 30-Day Challenges
 
-A 30-day challenge is a four-week practice plan aimed at one part of how a person learns, such as how deeply new material gets processed or how the study day is run. Each week has one task, and each week is harder than the one before. The plans are called tracks, and a track settles which habit gets worked on this month and what to do when a week fails.
+A 30-day challenge is a four-week practice plan aimed at a part of how a person learns, such as how deeply material gets processed or how the study day is run, with one task per week and each week harder than the last. It settles which one habit gets worked on this month and what to do when a week fails.
 
 ## Core takeaways
 
-- Run one track at a time, on the weakest part of learning.
-- Week 1 changes nothing and measures the habit as it is.
-- Later weeks make the same task harder each time.
-- Every step fits inside study sessions that already happen.
-- A failed week means the change was too big, so shrink it.
-- End each day with a short note on what happened and why.
+- Run one track at a time, on the weakest of five parts of learning: deep processing, self-regulation, self-management, mindset and retrieval. All five in one month only when the workload is deliberately light.
+- Week 1 changes nothing. It measures where the habit sits now, with a tally, a table or a log.
+- Each later week makes the same task harder: do it on purpose, then under pressure, then during ordinary study with nothing arranged.
+- Every step happens inside study sessions that were going to happen anyway. The cost is a log, some interruptions and extra effort, with no extra hours added.
+- A week that fails means the change was too large. Run the week again with a smaller change. Do not rebuild the whole plan.
+- End each day with a short note: what happened, why, the rule drawn from it, the change for tomorrow. A track ends when its part of learning stops being the limit, and it can be run again when that part slips.
 
 ## How a track runs
 
-Every track has the same four-week shape. The first week only measures, with a tally, a table or a log, so the later weeks have something to compare against. The middle weeks change one thing on purpose and then add pressure until the weak point shows. The last week cuts the effort back to the smallest set of habits that still keeps the result.
+```
+week 1  notice    change nothing, measure the habit
+week 2  work      move one variable on purpose
+week 3  pressure  same move with less room for it
+week 4  fade      keep only what still holds
+```
 
-- Week 2 moves one variable, since two at once cannot be read.
-- Week 3 adds load, such as a full day planned ahead.
-- Week 4 trims tracking to what keeps the result.
-- The cost is a log, some interruptions and extra effort.
-- Most habits take longer than 30 days, so any week can repeat.
-
-The daily note has four parts: what happened, why it happened, the rule drawn from it, and the change for tomorrow. A track ends when its part of learning stops being the limit, and it runs again when that part slips.
+- The first week refuses to intervene, so the later weeks have a baseline to read against.
+- Week 2 moves one variable. Two changes at once leave the next result unreadable.
+- Week 3 adds load, such as a full day planned in advance or shorter attempts at the same intensity, so the weak point shows.
+- Week 4 cuts tracking and effort back to the smallest set that keeps the result.
+- The 30-day box is a convenience. Most habits take longer, and any week can be repeated.
 
 ## The five tracks
 
-There are five tracks, one each for deep processing, self-regulation, self-management, mindset and retrieval. Running all five in one month works only when the workload is kept deliberately light. The Self-Management track protects the time the other four need.
-
-- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]]: relate new material, then rank the links.
-- [[wiki/Dimensions/30-Day Challenges/Self-Regulation Challenge|Self-Regulation Challenge]]: map study methods, drop weak ones, change a fifth.
-- [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|Self-Management Challenge]]: log real days, test one change, trim supports.
-- [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset Challenge]]: make wrong attempts small and early, one change per miss.
-- [[wiki/Dimensions/30-Day Challenges/Retrieval Challenge|Retrieval Challenge]]: close the book and rebuild ideas, then make recall harder.
+- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]]: catch the moment material only feels familiar, then relate it to other ideas on a schedule, rank the relations found, and wait for the habit to run on its own.
+- [[wiki/Dimensions/30-Day Challenges/Self-Regulation Challenge|Self-Regulation Challenge]]: list every study method in use and what it does, drop the ones that only make a page look known, then rebuild the sequence with about a fifth of it changed.
+- [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|Self-Management Challenge]]: log a real day's energy and focus for a week, test one change, run one planned perfect day so the cracks show, then keep the smallest supports that hold. This track protects the time the other tracks need.
+- [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset Challenge]]: make a wrong attempt small and early enough that the next attempt runs, with one change after each miss, then aim it at a trait written off as fixed.
+- [[wiki/Dimensions/30-Day Challenges/Retrieval Challenge|Retrieval Challenge]]: close the book after the first pass and rebuild the key ideas, then make it harder with fewer cues, longer delay or mixed topics, and treat each miss as a map of what to re-process.
 
 ## Where it fails
 
-A track fails when its result cannot be read. That happens when week 1 is skipped, or when week 2 changes several things at once. A pressure week with no planned day tests nothing, and a week 4 that never cuts back becomes a permanent project. No track page yet records a week that was actually run, so the plans are untested so far.
-
-- Several changes in week 2: nothing can be read.
-- No attempts in the month: no evidence either way.
+- Five changes in week 2, or the method list skipped in week 1: nothing can be read from the result.
+- A pressure week with no planned day is only a mood, and a week 4 that never fades is a permanent project.
+- A month with no attempts, which leaves a slogan and no evidence. Nothing on any track page yet records a week that was run, so the plans are untested so far.
 
 ## Related pages
 

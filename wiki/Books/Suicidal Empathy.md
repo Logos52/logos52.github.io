@@ -3,12 +3,12 @@ title: "Suicidal Empathy (Book)"
 type: book
 status: seed
 created: 2026-05-16
-updated: 2026-09-27
-method: outline-2026-09-27
+updated: 2026-09-24
+method: outline-2026-09-24
 prose-model: fable
 source-count: 1
-written-by: opus
-description: "Gad Saad's 2026 book on empathy that goes to the wrong target, and the check he gives for holding the feeling back before a decision."
+written-by: fable
+description: "Gad Saad's 2026 book on empathy aimed at the wrong target, with the steps for checking the feeling before a decision rests on it."
 tags:
   - books
   - gad-saad
@@ -20,25 +20,24 @@ tags:
 
 # Suicidal Empathy (Book)
 
-Suicidal Empathy is a 2026 book by Gad Saad, subtitled Dying to Be Kind. Its subject is empathy that goes to the wrong target, where the feeling of caring settles a decision before anyone has checked the facts or counted who pays. The book closes with a check for holding that feeling back until the target and the cost are known, and the check serves anyone who decides under emotional pressure, in policy, in product work or in their own giving.
+Suicidal Empathy is a 2026 book by Gad Saad, subtitled Dying to Be Kind, about empathy aimed at the wrong target: the feeling of caring is allowed to settle a decision before anyone has checked the facts or counted who pays. A reader who makes decisions under emotional pressure, in policy, in product work or in their own giving, gets a five-step check for holding the feeling back until the target and the cost are known. It follows Saad's earlier book, The Parasitic Mind, which covered bad ideas spreading through thinking; this book covers the feeling that makes those ideas seem required.
 
 ## Core takeaways
 
-- Empathy turns harmful when cut off from truth, reciprocity and proportion.
-- The feeling goes to whoever is nearest, most visible or most similar.
-- Once a group is protected, questions about it count as cruelty.
-- Public displays of empathy buy moral standing.
-- A cost nobody may discuss is paid by someone out of view.
-- Thinking harder weakens the feeling without changing where it points.
+- Empathy is useful, and it turns harmful when it is cut off from truth, from anything owed in return, from proportion and from long-term survival.
+- The feeling goes to whoever is nearest, most visible or most like the person feeling it, so it picks targets badly at scale.
+- Once a target is protected, questions about it get treated as cruelty, and policy gets built on claims nobody is allowed to check.
+- Performing empathy in public buys moral standing. Institutions that reward the performance drift away from what they were built to do.
+- Refusing to discuss a cost does not remove it; someone outside the conversation pays it.
+- Thinking harder lowers the empathy response. It does not re-aim it, so the check has to run before the decision, and it has to name a target and a cost.
 
 ## The argument
 
-Empathy evolved among people who lived close together and met again, where it served bonding and cooperation. Cognitive empathy takes another person's point of view, and affective empathy feels what that person feels. Both go wrong when they fire on their own, when they run at the scale of a whole country, or when they land on someone who gains by staying in view. Saad calls help that works, at a level the helper can keep up, calibrated empathy, and he calls help that feels good now and does damage over years suicidal empathy.
-
-- One study shows feeling overriding a person's sense of fairness.
-- Feeling for one sick child moved her up a waiting list.
-- She went ahead of children in greater need.
-- The same people then rated their choice as less fair.
+- Empathy evolved for bonding, care and cooperation among people who lived close together and met again.
+  - Cognitive empathy takes another person's perspective. Affective empathy feels what they feel.
+  - Both run out of control when they fire automatically, at the scale of a country, or at someone who profits from staying in view.
+- Calibrated empathy is help that helps, at a level the helper can keep up, without wearing out the helper or the system giving it. Suicidal empathy feels good in the moment and does damage over years.
+- The feeling can override a person's own sense of fairness. In one study, people led to feel for one sick child moved her up a waiting list ahead of children in more need, and then rated their own choice as less fair than an unmoved allocation.
 
 ```
 suffering seen (real or framed)
@@ -55,34 +54,27 @@ cost lands on whoever is out of view
 
 ## Where it shows up
 
-The chain in the diagram runs through several parts of public life. In each part a group is marked as favoured, a question about that group is treated as harm, and the cost moves to people who are not in the conversation. Diversity mandates, trainings and corporate statements work like the indulgences the medieval church sold, payments that buy forgiveness. The display buys moral standing, and the institution that makes it pays in competence, truth and its own purpose.
+- Knowledge: findings, statistics and questions get labelled harmful to a favoured group, so seeking truth reads as cruelty, and policy rests on falsehoods that stay in place.
+- Other cultures: Western observers project their own values, individualism, secularism, equal treatment of the sexes and free speech, onto populations whose own values and incentives differ. Empathy without that understanding goes to the wrong target, and a culture that does not understand the people it takes in or defends cannot protect itself.
+- Crime: offenders are explained as products of social forces, and victims and public safety move to the background. Defending yourself and protective masculinity get treated as sickness while predation gets explained away.
+- Science: once a group is favoured, dissent counts as harm and trade-offs may not be discussed. Calling a question settled ends the conversation; the cost stays.
+- Institutions: diversity mandates, trainings and corporate statements work like the indulgences the medieval church sold, payments that bought forgiveness. Moral standing is bought by display, and competence, truth and the mission pay for it. Universities, companies, medicine and science drift from their purpose.
+- The state: welfare growth, open-ended foreign aid with nothing owed back, and a military run on diversity and therapeutic goals. Taxation and bureaucracy become empathy done with other people's money and choices. A weakened military invites attack.
 
-- Knowledge: findings that hurt a favoured group get labelled harmful.
-- Other cultures: Western observers project their own values onto them.
-- A culture that misreads the people it takes in cannot protect itself.
-- Crime: offenders are explained by social forces, and victims fade from view.
-- Self-defence and protective masculinity get treated as sickness.
-- Science: dissent counts as harm, and "settled" ends the discussion.
-- Institutions: universities, companies and medicine drift from their purpose.
-- The state: welfare growth and foreign aid with nothing owed back.
-- The state: a military run on diversity and therapeutic goals invites attack.
+## The inoculation
 
-## The check
+The steps from the final chapter, to run before a decision:
 
-The final chapter gives a check to run before a decision rests on the feeling. The feeling peaks and fades, and a decision made after the peak can take in the facts the feeling pushed aside. Each step asks for something concrete: a wait, a name, a cost, a plan.
-
-1. Delay the good feeling of acting on the impulse until it passes.
-2. Name who gets helped, who pays, and how much.
-3. Require something in return and a plan that can last.
-4. Treat truth and merit as fixed, whoever the facts hurt.
-5. Keep cultural self-respect, or the group cannot defend its claims.
+1. Delay the dopamine hit, the good feeling of acting on the impulse. Wait until the feeling has peaked and passed.
+2. Name the target and the cost. Who gets helped, who pays, and how much.
+3. Require something in return and a realistic plan. Help that is never returned and cannot last is a transfer, and the giver weakens.
+4. Treat truth and merit as fixed. No fact is off limits because it hurts a favoured group.
+5. Keep cultural self-respect. A group that treats its own claims as worthless cannot defend them.
 
 ## On this desk
 
-Saad's earlier book, The Parasitic Mind, covered bad ideas that spread through thinking. This book covers the feeling that makes those ideas seem required. The owner uses the check as red teaming, a deliberate search for the weak point, aimed at his own emotional response before a policy, a design or a decision with a lot at stake.
-
-- It is the clearest model here for filtering empathy before deciding.
-- It is kept for the decisions with the most at stake.
+- The book is the clearest model this desk has for delaying and filtering the empathy response before a policy, a design or a decision.
+- The steps are red teaming turned on one's own emotional response, and they are for the decisions with the most at stake.
 
 ## Related pages
 

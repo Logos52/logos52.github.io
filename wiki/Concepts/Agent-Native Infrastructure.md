@@ -3,13 +3,13 @@ title: "Agent-Native Infrastructure"
 type: concept
 status: developing
 created: 2026-05-02
-updated: 2026-09-27
-method: outline-2026-09-27
+updated: 2026-09-24
+method: outline-2026-09-24
 prose-model: fable
-written-by: opus
+written-by: fable
 model: grok
 source-count: 1
-description: "Software and docs an AI agent can read, check and act on by itself, and the one-prompt test that shows whether a tool is there."
+description: "Software and docs an AI agent can read, check and act on by itself, and the one-prompt test that shows whether a tool has got there."
 tags:
   - llm
   - agents
@@ -18,57 +18,46 @@ tags:
 
 # Agent-Native Infrastructure
 
-Agent-native infrastructure is software, a hosted service or its documentation written so that an AI agent can read the instructions, see the current state and take the actions by itself, with no web page a person has to click through. It matters as soon as a build or a deploy is handed to an agent. Each step that still needs a person in a settings menu is a step the agent cannot finish, so the job comes back to the person.
+Agent-native infrastructure is software, a hosted service or its documentation written so that an AI agent can read the instructions, see the current state and take the actions on its own, with no web page a person has to click through. It matters the moment a build or a deploy is handed to an agent: each step that still needs a person in a settings menu is a step the agent cannot finish, so the job comes back to the person.
 
 ## Core takeaways
 
-- An agent finishes a job only when every step is callable.
-- Callable means a command, an API call or a readable file.
-- Docs that say "open settings" stop an agent.
-- Agent-ready docs start with text to paste into the agent.
-- The test is one prompt reaching a live result with nobody stepping in.
-- In 2026 most tools fail at the deploy and wiring steps.
-- No particular stack is required.
+- An agent can finish a job only when every step is callable: a command, an API call, or a file it can read and write.
+- Docs written for a person (go to this URL, open settings) stop an agent; docs written for an agent give a block of text to paste in and let the agent do the rest.
+- A prompt tests a tool: if "build this and deploy it" runs to a live result without a person touching anything, the infrastructure is agent-native.
+- In 2026 most frameworks, libraries and hosting services fail that test, and the failure is usually in deploy and wiring rather than in the code.
+- No particular stack is required; what counts is what a tool exposes, whichever tool it is.
 
 ## How it works
 
-Any job can be split into the parts that read the world and the parts that change it. The reading parts are sensors: a status call, a log file, a config file. The changing parts are actuators: a deploy command, a DNS record update, a write to a setting. An agent needs both kinds described to it in text, and it works best on data a model reads easily, meaning plain files, structured text and a command line.
-
-- A tool has five things to expose.
-- They are instructions, sensors, actuators, APIs and data structures.
-- If any one sits only behind a browser page, the agent stops there.
-- Old installers were shell scripts grown to cover every machine.
-- Now a block of text goes to the agent instead.
-- The agent checks its machine, follows the text and fixes problems.
-- Later, agents may act for people and settle details between themselves.
-- A meeting time is one such detail.
+- Split any job into parts that read and parts that change.
+  - Sensors: parts that read the world, such as a status call, a log file or a config file.
+  - Actuators: parts that change the world, such as a deploy command, a DNS record update or a settings write.
+- Describe both to the agent first, in text, then build automation around data a model can read easily: plain files, structured text, a command line.
+- A tool has five things to expose: instructions, sensors, actuators, APIs and data structures. When any of them sits only behind a browser page, the agent stops there.
+- Installing a program is a clear example. Before, a shell script that grew to cover every kind of machine did the work. Now a block of text is handed to the agent; the agent looks at the machine it is on, follows the instructions and fixes problems as it goes.
+- A later step: agents that act for a person or a company and talk to each other to settle details such as a meeting time.
 
 ```
-old: person reads docs -> clicks settings -> sets DNS -> live
-new: one prompt -> agent reads state -> agent calls APIs -> live
+old:  person reads docs -> clicks settings -> sets DNS -> live
+new:  one prompt -> agent reads state -> agent calls APIs -> live
 ```
 
-The one-prompt test came from a small app that turns a photo of a restaurant menu into pictures of the dishes. Writing the code took little of the time. Deploying it meant stringing several hosted services together, opening each one's settings menu and setting up DNS by hand. None of that could be handed to an agent, because it lived in menus.
+The example that produced the test was a small app that turns a photo of a restaurant menu into pictures of the dishes. Writing the code took little of the time. Deploying it meant stringing several hosted services together, opening each one's settings menu and setting up DNS by hand, and none of that could be handed to an agent because it lived in menus.
 
 ## How to apply it
 
-A tool becomes agent-native when every action a person can take in its web pages also exists as something a program can call. Most of the work is in the docs and the settings, since the code itself is rarely where an agent gets stuck. The quickest check is the last line of a README.
-
-- Write setup as tasks an agent can run.
-- Give every settings-page action a command or API equivalent.
+- Write setup as tasks an agent can run, in place of a numbered list for a person.
+- Give every action on the settings page a command line or API equivalent.
 - Open the docs with the text to paste into an agent.
-- Keep project and deploy state in parseable files or endpoints.
-- A README that ends in a settings page still needs a person.
-- A README ending in a command can be run by an agent.
+- Keep project and deploy state in files or endpoints a program can parse.
+- Check a README by its ending: a settings page means a person still clicks; a command means an agent can run it.
 
 ## How this desk applies it
 
-The owner keeps a vault of notes, arranged so that a model can operate it. A person reading it in an editor comes second. Four public files are there for the model, and a fuller catalog that agents use locally stays private.
-
-- notes/index.md: an index of what the vault holds.
-- log.md: a record of what changed.
-- AGENTS.md: the rules an agent follows.
-- The Source Index: which source fed which page.
+- The owner's vault of notes is kept so that a model can operate it; a person reading in an editor comes second.
+- Four public files serve the model: notes/index.md, an index of what the vault holds; log.md, a record of what changed; AGENTS.md, the rules an agent follows; and the Source Index, which says which source fed which page.
+- A fuller catalog that agents use locally stays private.
 
 ## Related pages
 
