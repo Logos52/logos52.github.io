@@ -86,6 +86,14 @@ Before resuming, stop the other Claude Code session on this Mac that the 2026-09
 
 To resume: list the pages with `grep -rl --include='*.md' '^method: draft-2026-09-27' wiki`, group them by folder into batches of about ten, and give each batch to a fresh Claude Fable 5.1 agent with the instructions below (the same text the 2026-09-27 agents ran from). Political pages (section 6) go in their own batch. After each batch, run the QA script the local session used, or its equivalent: kept-check against 6e20c69, no bullet over about fourteen words outside hub link lines and tables, a paragraph at the top of every section after Core takeaways, and no em dash, bold, first person, source pointer, course name or private path in a body. Then `npm run copy-notes` and look at a few pages on the local site.
 
+### Pages that came out thin or notes-poor
+
+Thin, because the notes gave too little: The Three Readings of a Silence, Diagnosing a Character, Opening Moves Catalog, Front-End Web Design, The Personal Uniform, The Treadmill Library, Language Research, Reading as Local, Warm Countries Cold Countries, Glossary, Timeline, ICS Program Map.
+
+Resting mostly on kept blocks and general knowledge, because no notes existed: seventeen Story Craft pages (Breaking the Story, Character Voice, Companion Arcs and Party Banter, Diagnosing a Character, Motif and Symbol, Premise and Controlling Idea, Round Characters and the Telling Detail, and the ten in the second Story Craft batch other than The Burnout Arc), the six book-based Money pages (Define Enough, Investing and Budgeting Mindsets, Money as Life Energy, Money Condensed, The Almanack of Naval Ravikant, Time Beats Timing), and Status, Vulnerability, and the Three Conversations.
+
+Written from the owner's own capture notes: Red Team Training and Taiwan 2020.
+
 ### The Fable pass instructions, verbatim
 
 You are Claude Fable 5.1 working locally in `/Users/n1/Projects/llm-knowledge-base` on the git branch `outline-regen-2026-09-24`. Run `git branch --show-current` first; if it prints anything else, stop and report. You do the final prose pass on one batch of wiki pages, listed one repo-relative path per line in the batch file named in your task message. Your scratch folder is also named there.
