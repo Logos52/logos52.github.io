@@ -38,8 +38,6 @@ tags:
 
 A language model keeps nothing between one session and the next. Everything it knows about the job is the text in front of it, and when that text is wiped or crowded out, the settled facts go with it. Knowing this settles how to fix its mistakes: which ones need a stored rule, which need a check that runs, and which need the person to write the line.
 
-## Core takeaways
-
 - The model's working memory is the text in the current session.
 - A new session starts empty, and a full one drops older material.
 - Sort each correction by kind first, since the kind picks the repair.

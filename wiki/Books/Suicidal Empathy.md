@@ -22,8 +22,6 @@ tags:
 
 Suicidal Empathy is a 2026 book by Gad Saad, subtitled Dying to Be Kind. Its subject is empathy that goes to the wrong target, where the feeling of caring settles a decision before anyone has checked the facts or counted who pays. The book closes with a check for holding that feeling back until the target and the cost are known, and the check serves anyone who decides under emotional pressure, in policy, in product work or in their own giving.
 
-## Core takeaways
-
 - Empathy turns harmful when cut off from truth, reciprocity and proportion.
 - The feeling goes to whoever is nearest, most visible or most similar.
 - Once a group is protected, questions about it count as cruelty.

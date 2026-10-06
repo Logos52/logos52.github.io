@@ -20,8 +20,6 @@ tags:
 
 Reading as Local is a set of readings of cultures, each made from months of daily life in a place. A short visit mostly shows the sights. How a foreigner is treated day to day shows only after a longer stay, and that is what these readings cover.
 
-## Core takeaways
-
 - A short visit mostly shows the sights.
 - Daily treatment of a foreigner shows after months of living there.
 - First reading filed here: [[wiki/Travel/Warm Countries, Cold Countries|Warm Countries, Cold Countries]].

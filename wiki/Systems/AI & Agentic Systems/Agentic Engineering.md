@@ -25,8 +25,6 @@ tags:
 
 Agentic engineering is building software with AI agents, programs that run an AI model in a loop until a job is done, while a person stays answerable for the result. An agent writes more code than anyone reads line by line, so the practice settles what the person still does: write down what to build, called the spec, run checks, and sign off.
 
-## Core takeaways
-
 - Agent-written code meets the same standard as any professional code.
 - The agent writes the code, and the person decides what to build.
 - Models are strong where a machine can check the output, like code.

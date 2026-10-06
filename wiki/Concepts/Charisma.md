@@ -19,8 +19,6 @@ tags:
 
 Charisma is the set of signals, in body, voice, timing and words, that make other people want to deal with you. It can be trained, so the useful questions are which signals to send and what has to be true underneath for them to hold.
 
-## Core takeaways
-
 - People judge warmth and competence in you within seconds.
 - Charisma is both signals arriving at once.
 - Put plainly, it is confidence and care for the other person together.

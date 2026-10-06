@@ -20,8 +20,6 @@ tags:
 
 Since 2024, Democratic and Labour politicians have backed away in public from the cultural positions their parties held from about 2014: pronoun rules, trans women in women's sport, and speech treated as harm. One explanation says the right's campaign against those positions did not cause the change. It says the left let in large numbers of immigrants from poor countries who reject those positions, their votes now decide elections, and the left is dropping the positions to keep them.
 
-## Core takeaways
-
 - The retreat is real among named politicians and party strategists.
 - Party votes in Congress have barely moved.
 - Courts, an executive order and sports bodies ended trans inclusion in sport.

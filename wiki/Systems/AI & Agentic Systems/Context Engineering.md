@@ -33,8 +33,6 @@ tags:
 
 Context engineering is choosing which text a language model is given before each step of a task. A model can use only the text it is given, so choosing that text improves its answers more than rewording a request does.
 
-## Core takeaways
-
 - A model works from one fixed window of text.
 - Everything in the window takes some of its attention.
 - Give it what the next step needs and leave the rest out.

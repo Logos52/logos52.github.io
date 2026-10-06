@@ -21,8 +21,6 @@ tags:
 
 Four AI products on this desk, the owner's own setup, can be given a job and left alone: Grok Build, Cursor, Grok Bot, and Cursor Cloud Agents. They differ in where the work runs, on the laptop or on a computer in the cloud, and that decides which one can take a job that must keep going after the laptop lid closes.
 
-## Core takeaways
-
 - Grok Build and Cursor run on the laptop and stop when it closes.
 - Grok Bot's bots all share one cloud computer, files and logins.
 - Only public material goes on the Grok Bot computer.

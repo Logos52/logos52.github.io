@@ -19,8 +19,6 @@ tags:
 
 A proportionate response answers an attack with a strike of similar size, such as a transmitter for a downed plane. The question in the title is a line from The West Wing in 1999, and in June 2026 Donald Trump reposted a clip of that scene after his own military called its strikes on Iran proportional. Proportion has no moral virtue of its own, and its real case rests on what the alternative costs.
 
-## Core takeaways
-
 - The law of war never requires answering blow for blow.
 - A predictable response deters nothing, because the enemy plans around it.
 - A disproportionate strike costs allies.

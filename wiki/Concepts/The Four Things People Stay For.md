@@ -19,8 +19,6 @@ tags:
 
 Listeners stay with an hour of talk, such as a podcast episode, for four things: the content, the logic, the delivery and the message. Each of the four is about the subject under discussion, and none is about the host as a person. Knowing this settles what goes into a hosted hour and what stays out, especially when an AI model writes the script.
 
-## Core takeaways
-
 - Content: the subject itself, with real facts.
 - Logic: how one point leads to the next.
 - Delivery: how it sounds, which changes with the speaker.

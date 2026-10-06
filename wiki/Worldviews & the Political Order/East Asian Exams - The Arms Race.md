@@ -19,8 +19,6 @@ tags:
 
 In China, South Korea, Japan, Taiwan and Singapore, one national exam at the end of school decides which university a student enters, and the university's name then follows the person into hiring and pay for life. The exam ranks students against each other, so every family that pays for extra tutoring forces every other family to pay too. That contest explains the region's tutoring bills, its birth rates and its surplus of graduates, and it settles whether the fix is a ban on tutoring or a different way of picking people.
 
-## Core takeaways
-
 - The exam ranks students against each other, with no fixed bar.
 - One family's tutoring forces every other family to pay to hold rank.
 - All would gain if all stopped, and none can stop alone.

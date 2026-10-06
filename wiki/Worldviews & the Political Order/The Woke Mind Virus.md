@@ -21,8 +21,6 @@ tags:
 
 Young men on the political left report worse mental health than young men on the right, in every American survey that asks. Woke ideology is a large part of the cause. It teaches a young man to read everyday pain as illness, and a man taught to call himself sick starts to live like a patient.
 
-## Core takeaways
-
 - Liberal young men report depression about twice as often as conservatives.
 - The young men furthest left are the worst off of anyone.
 - The ideology teaches that words are violence and setbacks are oppression.

@@ -21,8 +21,6 @@ tags:
 
 Knowledge mastery is how well a person knows a subject, on a scale that runs from recognising its terms to making new ideas with it. The level a person reaches decides which questions they can answer and how much repetition they need to keep what they learned. A learner who knows their level also knows which study method to use next.
 
-## Core takeaways
-
 - There are five levels, from recalling facts to creating new knowledge.
 - Higher levels link more of the facts to each other.
 - Level 4 adds a judgement of which links matter most.

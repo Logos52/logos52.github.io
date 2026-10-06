@@ -18,8 +18,6 @@ tags:
 
 Mindset is how you respond to difficulty and mistakes, and it sets how fast every other learning skill can improve. A learner who fears mistakes avoids the practice that builds skill, so most of the rules below make mistakes cheaper and more useful.
 
-## Core takeaways
-
 - Skill grows by trying, making mistakes, reflecting and trying again.
 - Read a mistake as information about your method.
 - Put effort into the study processes you control, since grades follow.

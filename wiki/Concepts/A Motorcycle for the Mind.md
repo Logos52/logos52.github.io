@@ -21,8 +21,6 @@ tags:
 
 A motorcycle for the mind is a name for an AI agent. The computer was once called a bicycle for the mind, because it carried a person through mental work faster than they could go on their own, and the agent adds an engine to that bicycle. The engine does the moving, and the person still picks the destination, steers, and notices when the machine goes wrong.
 
-## Core takeaways
-
 - The agent works, and the person sets the goal and checks it.
 - The agent has no wants of its own.
 - The agent makes mistakes, so the person has to catch them.

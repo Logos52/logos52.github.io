@@ -32,8 +32,6 @@ tags:
 
 Metacognition is awareness of your own thinking while you think. Cognition does the task, such as reading a chapter, and metacognition notices how the reading is going and whether to change it. It sets how fast every other study skill improves, because a learner who cannot see what their mind is doing cannot correct it.
 
-## Core takeaways
-
 - Thinking is invisible, which is why learning to learn is hard.
 - The first signals are feelings: effort, difficulty, confusion, overwhelm.
 - Those feelings usually mean deep processing is happening.

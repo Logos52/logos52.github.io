@@ -21,8 +21,6 @@ tags:
 
 Fitness mindsets are the beliefs that decide whether a person keeps training and eating well for years. Most people who want a leaner or stronger body already know the sets, the meals and the daily steps, and the people who know the most about nutrition are often not the leanest. Results depend on whether the routine is still running after a year, and a person who trains much less but never misses is ahead of a hard trainer who stops within six months.
 
-## Core takeaways
-
 - Change who you are, and the routine follows.
 - Saying no to food and plans matters more than a big calorie deficit.
 - Do fewer things and keep them for years.

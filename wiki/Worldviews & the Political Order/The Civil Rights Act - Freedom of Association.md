@@ -19,8 +19,6 @@ tags:
 
 Freedom of association is the right of a person to choose whom he keeps company and does business with, free from force. Jim Crow laws broke that right by forcing businesses to refuse customers by race, and the Civil Rights Act of 1964 broke it the other way, by forcing businesses to serve, hire and school by group. Sixty years later America is still accused of institutional racism, racial tension is rising, and the lost freedom has not returned.
 
-## Core takeaways
-
 - Jim Crow and the Act's service rule both tell owners whom to serve.
 - Refusing a customer group can be a rational business choice.
 - The Act's hiring rule made matching group shares the only safe defense.

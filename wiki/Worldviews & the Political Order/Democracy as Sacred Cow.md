@@ -17,8 +17,6 @@ tags:
 
 Democracy is usually treated as a good that needs no defence and that every country should have. People defend it with seven arguments: consent, the wisdom of crowds, the lack of a better alternative, fairness, peaceful transfer of power, liberty and wealth. Only peaceful transfer of power survives a close reading, so a reader can stop leaning on the others.
 
-## Core takeaways
-
 - All but one of the usual arguments break or shrink.
 - Elections let the likely loser of a fight concede without fighting.
 - That holds only while votes track who would actually fight.

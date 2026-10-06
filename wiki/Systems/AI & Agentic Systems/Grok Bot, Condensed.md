@@ -22,8 +22,6 @@ tags:
 
 Grok Bot is a desktop app from SpaceXAI. You create a named bot, write its one standing job in its description, and the bot does the job on a cloud computer that keeps running after your laptop closes. Knowing how the computer, the allowance and the approvals work settles which jobs to give a bot and which to keep off it.
 
-## Core takeaways
-
 - All bots on an account share one computer and cannot keep secrets apart.
 - One job per bot, and SpaceXAI warns against a general helper.
 - Standing rules go in the description, and today's task in the chat.

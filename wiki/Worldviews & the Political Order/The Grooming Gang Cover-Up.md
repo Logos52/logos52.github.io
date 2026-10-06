@@ -18,8 +18,6 @@ tags:
 
 For two to three decades, organised gangs of mostly Pakistani Muslim men groomed, trafficked and raped young white British girls in dozens of towns across the United Kingdom. Police, councils and prosecutors knew and did little, because naming the pattern meant naming the group, and naming the group brought the charge of racism. An independent inquiry puts the victims at a conservative minimum of 250,000.
 
-## Core takeaways
-
 - The offenders came overwhelmingly from a group about 2.3% of the population.
 - Victims were chosen for being white and Christian.
 - Reporting the pattern exposed each official to a racism charge.

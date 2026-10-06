@@ -19,8 +19,6 @@ tags:
 
 The iceberg is Ernest Hemingway's rule that a writer can leave out what they know and the reader will still feel it. World as pressure is the companion rule for setting: a story world shows itself through what it stops the characters from doing. Together they let a writer build a large world and put only a small part of it on the page, which keeps scenes short and makes the parts shown carry weight.
 
-## Core takeaways
-
 - Leave out only what you know in full.
 - About one-eighth of the world belongs on the page.
 - A world's limits matter more than its powers.

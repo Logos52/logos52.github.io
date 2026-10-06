@@ -18,8 +18,6 @@ tags:
 
 An argument is a conclusion and the facts offered for it. Checking one means asking two separate things: whether the facts are true, and whether the conclusion follows from them if they are. Each page below describes one such check, kept apart from any one belief so it can be used on any argument, including your own.
 
-## Core takeaways
-
 - One false fact is enough to make an argument fail.
 - True facts can still fail to support the conclusion.
 - Whether a conclusion follows is the same for every reader.

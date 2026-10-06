@@ -18,8 +18,6 @@ tags:
 
 Personal money comes down to a few habits: spend less than you earn, invest the difference in low-cost index funds, leave it there for decades, and decide in writing how much is enough. For most people's long-run wealth, these habits matter more than income level or skill at picking stocks.
 
-## Core takeaways
-
 - The gap between income and spending is the main lever.
 - A higher savings rate shortens the working years sharply.
 - Staying invested for years beats trying to time the market.

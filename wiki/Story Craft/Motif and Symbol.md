@@ -21,8 +21,6 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 A motif is something that comes back in a story again and again: an object, an image, a phrase or a sound. A symbol is an object that stands for more than itself. Used together, they let a story state its central idea through things the audience sees, so the characters never have to say it aloud.
 
-## Core takeaways
-
 - A motif repeats, and each return adds meaning.
 - A symbol is an object that carries an idea or a feeling.
 - Arrange objects and events that would cause the feeling.

@@ -20,8 +20,6 @@ tags:
 
 Freeflow immersion is watching, listening to or reading content in the language you are learning straight through, with no lookups, no pausing and no rewinding. It is one of three study modes, next to preparation, which is studying the language itself with flashcards and grammar notes, and interactive immersion, which is working through content with tools. Freeflow is the mode that turns what you have studied into instinct, and it gets through far more of the language in an hour than the other two.
 
-## Core takeaways
-
 - No tools: no dictionary, no pausing, no rewinding.
 - Full attention the whole time.
 - Listening in the background does not count.

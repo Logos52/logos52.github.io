@@ -19,8 +19,6 @@ tags:
 
 Neuroticism is the personality trait of feeling negative emotions such as worry, fear and self-criticism often and strongly. In a learner it shows up as "what if I fail" spirals, avoidance of hard tasks and study plans built around fear. The trait itself changes slowly, and the habits of thought that feed it can be retrained.
 
-## Core takeaways
-
 - Some caution is useful, and too much turns into avoidance and anxiety.
 - Neuroticism does not make people better students.
 - Worry helps only when it is paired with planning.

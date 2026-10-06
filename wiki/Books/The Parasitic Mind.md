@@ -21,8 +21,6 @@ tags:
 
 The Parasitic Mind is a 2020 book by Gad Saad, a professor who applies evolutionary psychology to how people buy and believe. Some ideas survive because of what they pay the person holding them, those ideas leave the holder less able to reason, and Saad calls the worst of them idea pathogens. A reader gets a method for testing a belief before agreeing with it, and a reason to say the result out loud.
 
-## Core takeaways
-
 - An idea can survive on what it pays its holder.
 - The payment can be belonging, moral standing or certainty.
 - A question of evidence and logic is not settled by feeling.

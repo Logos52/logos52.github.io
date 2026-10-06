@@ -22,8 +22,6 @@ tags:
 
 pstack is a plugin for Cursor, a code editor, written by Lauren Tan of SpaceXAI. It gives a coding agent a set of saved working methods: playbooks for common jobs, short principles, and a skill that starts the app being built and saves proof that a change works. It exists because a coding agent left alone will often report that a change works when it only compiles.
 
-## Core takeaways
-
 - A change works when the running app shows it and the agent saves proof.
 - Proof is a screenshot, a log, a response body or an exit code.
 - `/poteto-mode` takes a goal and picks one of twenty-three playbooks.

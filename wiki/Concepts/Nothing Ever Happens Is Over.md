@@ -23,8 +23,6 @@ tags:
 
 "Nothing ever happens" is an internet joke that says the big events people predict never arrive. In a podcast episode in May 2026, the investor Naval Ravikant said the joke has stopped being true, because since COVID the world has been changing faster in politics, the economy and technology. The practical use is to check old assumptions more often, since the conditions they rested on are changing.
 
-## Core takeaways
-
 - Since COVID, change has sped up in politics, economics and technology.
 - Investors now fund rockets, drones, hardware and AI.
 - Small teams can use AI in place of an intranet.

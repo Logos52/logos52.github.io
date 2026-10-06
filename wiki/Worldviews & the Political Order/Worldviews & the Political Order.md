@@ -19,8 +19,6 @@ tags:
 
 Each page in this section takes one disputed political belief, such as that democracy is sacred or that a racial gap proves racism, and tests whether it holds. The pages check whether a conclusion follows from its facts, so a reader can apply the same check to beliefs these pages do not cover.
 
-## Core takeaways
-
 - Read [[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]] first, since it is the method.
 - Each page states an argument at its full strength.
 - The facts are taken as given unless something checkable overturns them.

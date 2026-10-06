@@ -22,8 +22,6 @@ tags:
 
 The AI industrial revolution is the change in how companies build things once AI agents write most of the code: engineers build systems that produce the work, and people check the output. The idea comes from a June 2026 conversation between the investor Naval Ravikant and founders of three companies that build their own products from the ground up, in cloud software (Vercel), supersonic jets (Boom) and brain implants (Science). It changes what a skilled worker is paid for and how many people a project needs.
 
-## Core takeaways
-
 - Engineers are judged on the systems they build, beyond their own output.
 - Spend AI usage freely to save human time.
 - Use the smartest model for decisions that carry weight.

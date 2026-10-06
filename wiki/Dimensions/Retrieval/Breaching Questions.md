@@ -20,8 +20,6 @@ tags:
 
 Breaching questions are practice questions you write for yourself, each made harder than anything the exam is likely to ask. They are for the late stage of study, when most gaps are closed and results have stopped improving. Trying to answer them exposes the few gaps that normal practice misses, including ones you did not know you had.
 
-## Core takeaways
-
 - Late in study, the remaining gaps are few and hard to find.
 - Some gaps you feel, and others sit under a confident wrong answer.
 - Write the hardest question you can imagine for each weak spot.

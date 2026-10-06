@@ -19,8 +19,6 @@ tags:
 
 Cave Theory is the idea that the human brain was shaped to solve survival problems, and that reading, note-taking, classes and rote drill are recent ways of learning that it handles badly. It explains why a school fact learned on its own fades within days. It also settles what to do first with new material: attach it to a problem or to something already known before trying to memorise it.
 
-## Core takeaways
-
 - The brain keeps a fact by how much it connects to.
 - A fact that connects to nothing gets dropped.
 - School delivers facts one at a time, tied to no problem.

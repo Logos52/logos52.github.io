@@ -23,8 +23,6 @@ tags:
 
 Claude Cowork is a mode of the Claude desktop app that works on the files in a folder you choose and on the apps you connect to it. A few plain text files in that folder hold your projects, your rules and your writing style. Cowork reads those files, so you stop explaining the same context every time you open it.
 
-## Core takeaways
-
 - One instruction file loads every session, so keep it short.
 - The instruction file holds rules.
 - The memory file holds facts that change.

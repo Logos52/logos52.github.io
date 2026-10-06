@@ -20,8 +20,6 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 A change arc is the path of a character who starts out believing something false about themselves or the world and ends by acting on the truth. It is the most common arc in fiction, and K. M. Weiland's work on character arcs gives it a standard set of parts. A writer who knows the parts can place the key turns and check that the ending follows from the start.
 
-## Core takeaways
-
 - The character begins holding a false belief, called the Lie.
 - A past hurt, the Ghost, taught them the Lie.
 - The Want is what they chase, the Need is what they lack.

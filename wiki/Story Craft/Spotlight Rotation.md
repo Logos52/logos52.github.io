@@ -21,8 +21,6 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus B. Do not p
 
 Spotlight rotation is the scheduling of which cast member carries each episode, chapter or scene in a story with several leads. Television writers' rooms do it by weighting each episode's storylines as A, B and C. Rotating on purpose keeps every lead in the audience's memory and stops one character from taking every big moment.
 
-## Core takeaways
-
 - The cast list says who, and rotation decides when each one leads.
 - A, B and C mark how much weight a storyline gets.
 - Each lead needs a dedicated turn of their own.

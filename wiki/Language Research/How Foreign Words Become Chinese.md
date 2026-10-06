@@ -23,8 +23,6 @@ tags:
 
 When a foreign name enters Mandarin, it is rewritten one syllable at a time in Chinese characters picked mainly for their sound. The characters keep their own meanings and their own tones, so every borrowed name also gets a meaning, usually nonsense, and a set of tones the original never had. That is why Coca-Cola reads as tasty and joyful in Chinese, why English speakers often fail to recognise their own names in Mandarin, and why Taiwan and the Mainland write the same name differently.
 
-## Core takeaways
-
 - Each foreign syllable becomes one character chosen for sound.
 - A small set of characters is used again and again.
 - Read one by one, those characters usually mean nothing together.

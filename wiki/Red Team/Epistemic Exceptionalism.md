@@ -21,8 +21,6 @@ tags:
 
 Epistemic exceptionalism is the belief that one's own reasoning is the reliable one, so that when other people reach a different conclusion, the cause must be their bias, corruption or slowness and never one's own mistake. It differs from plain arrogance because it can sound modest and careful. A person or group in its grip cannot be corrected by disagreement, and tends to conclude that only they should hold power.
 
-## Core takeaways
-
 - Disagreement gets read as proof the other side is flawed.
 - The list of trusted people narrows to those who think alike.
 - Every lost conflict is recorded as someone else's failure.

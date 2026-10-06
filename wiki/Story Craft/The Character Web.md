@@ -21,8 +21,6 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 A character web is a cast designed as a set, where each character is defined by how they differ from the others. John Truby's rule in The Anatomy of Story is that no character is designed alone. A writer who builds the cast this way gets characters who each stand for a different answer to one question the story asks, and that spread of answers is where a story's moral complexity comes from.
 
-## Core takeaways
-
 - Design every character against the others in the cast.
 - Hero against villain alone gives a flat, two-sided story.
 - Four positions on one question is the minimum for complexity.

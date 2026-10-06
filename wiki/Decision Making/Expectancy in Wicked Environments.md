@@ -22,8 +22,6 @@ tags:
 
 Expectancy is the average result of a choice if you could make it many times: the chance of a good result times its size, minus the chance of a bad result times its size. In a game with fixed rules the sum can be done exactly. Most life decisions have no fixed rules and too many factors, a setting called wicked, so the sum needs three simplifications before it is usable.
 
-## Core takeaways
-
 - Expectancy is chance times size, good results minus bad ones.
 - Games like chess have clear rules, so the sum is exact.
 - Most life choices have unclear rules and no clear win.

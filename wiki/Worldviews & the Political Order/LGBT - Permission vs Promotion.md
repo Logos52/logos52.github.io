@@ -17,8 +17,6 @@ tags:
 
 Letting adults do a thing and having schools, companies and governments push the thing are two different acts. Most arguments made for LGBT causes show that adults should be left alone, and they are then used to ask for school lessons, public money, parades and required affirmation. Keeping the two acts apart shows which of those requests the arguments support.
 
-## Core takeaways
-
 - Permission means the law and other people leave the conduct alone.
 - Promotion means institutions teach it, fund it, celebrate it or require affirmation.
 - The privacy argument is the strongest, and it supports permission only.

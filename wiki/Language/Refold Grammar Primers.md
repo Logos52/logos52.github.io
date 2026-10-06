@@ -19,8 +19,6 @@ tags:
 
 A grammar primer is a short written tour of the most common patterns in one language, read once so that those patterns stand out later in real speech and text. For a learner who studies mainly by watching, listening and reading, it takes the place of the grammar textbook. Grammar then takes five to ten minutes a day, and no rule is drilled.
 
-## Core takeaways
-
 - The grammar itself is learned from many hours of real input.
 - A primer shows a pattern once, so it can be noticed later.
 - Start after 10 to 15 hours of input and a few hundred words.

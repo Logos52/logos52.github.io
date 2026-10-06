@@ -20,8 +20,6 @@ tags:
 
 Wanting less is the practice of not buying an object in the first place, by checking the reason for wanting it. It is the cheapest form of minimalism, since an object never bought has no space, upkeep, attention or exit cost. Many purchases are made to show other people who we are, and naming that motive often removes the want.
 
-## Core takeaways
-
 - An object never bought costs nothing to own.
 - Many purchases aim to show others who we are.
 - Other people notice far less than we expect.

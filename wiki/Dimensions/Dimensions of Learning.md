@@ -21,8 +21,6 @@ tags:
 
 The dimensions of learning are five separate skills that together decide how well a person learns: mindset, self-management, self-regulation, deep processing and retrieval. Splitting learning this way lets a learner find which skill is holding them back and train that one, instead of changing everything at once. Each dimension has its own hub in this section.
 
-## Core takeaways
-
 - Learning depends on five skills that can be trained separately.
 - A weakness in one limits the results of the others.
 - Deep processing sets how much meaning is taken from material.

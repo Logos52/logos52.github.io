@@ -21,8 +21,6 @@ tags:
 
 Reverse causality is a note-making mistake where an idea is called important because of something it produces, as in "mRNA is important because it creates the protein". The reason sounds sensible, yet it only works for a learner who has already memorised the protein. Catching the mistake saves memorising a second fact for every idea explained this way.
 
-## Core takeaways
-
 - Explaining an idea by its product adds a fact to memorise.
 - The idea and its product form a closed loop with nothing outside.
 - Explain an idea by what causes it or what needs it.

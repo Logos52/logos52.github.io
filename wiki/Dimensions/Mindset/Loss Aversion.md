@@ -20,8 +20,6 @@ tags:
 
 Loss aversion is the tendency to weigh a possible loss more heavily than a gain of the same size. In study it keeps people on a method they already know, because the weeks spent learning a better one feel like a loss. Knowing the bias makes it easier to tell a real risk from a felt one when deciding whether to change how you work.
 
-## Core takeaways
-
 - Most people need about twice the gain before they accept a loss.
 - Some people need four to ten times, which blocks almost every change.
 - The bias makes a current method feel "good enough".

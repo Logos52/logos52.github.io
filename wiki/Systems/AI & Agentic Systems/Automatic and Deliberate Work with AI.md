@@ -34,8 +34,6 @@ tags:
 
 Some work with a language model is pattern matching: drafting, recalling, classifying, reformatting, extracting. Other work is building steps: chaining one inference to the next, or constructing something under several constraints at once. Sorting a task as one or the other decides which model to use, whether to pay for extra thinking time, and how the answer gets checked.
 
-## Core takeaways
-
 - Sort each task first: pattern matching or step building.
 - Pattern matching gets the cheapest model whose output passes a check.
 - Step building gets a stronger model, thinking time and a final check.

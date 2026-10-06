@@ -23,8 +23,6 @@ tags:
 
 The Design of Everyday Things is a book by Don Norman about why doors, stoves, thermostats and screens are hard to use, and what a designer can do about it. It gives a short set of terms for checking any object or interface. It also settles one question: when a capable person fails at an everyday object, the fault is in the design.
 
-## Core takeaways
-
 - A taped sign on a door means the door failed.
 - An object should show what it does and what state it is in.
 - Put cues on the object, since memory fails under interruption.

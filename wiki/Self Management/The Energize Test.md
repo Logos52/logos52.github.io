@@ -19,8 +19,6 @@ tags:
 
 The energize test is a check at the end of a workday on whether the work left you with more energy for the evening or used it up. Most people come home drained and spend the first hours decompressing, scrolling or snapping at family. Work that passes the test is a sign of having found something that suits you, and work that fails it every night is worth changing.
 
-## Core takeaways
-
 - Ask each night whether the work gave energy or used it up.
 - Energizing work is work where time passes without notice.
 - Possessions keep taking time and attention after you buy them.

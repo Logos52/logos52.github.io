@@ -20,8 +20,6 @@ tags:
 
 Ownership cost is everything an object keeps costing after it has been paid for: the space it takes, the cleaning and repairs, the attention it pulls, the decisions it creates and the effort to get rid of it. The price is paid once, and the other costs run for as long as the object stays. Counting them changes which purchases look cheap.
 
-## Core takeaways
-
 - The price is paid once and the other costs continue.
 - Space, upkeep and attention cost something every day the object stays.
 - Keeping an object does not get back the money spent on it.

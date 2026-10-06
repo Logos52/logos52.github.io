@@ -19,8 +19,6 @@ tags:
 
 Don Norman's book The Design of Everyday Things explains why doors, stoves and screens confuse people. The book puts the fault for that confusion on the design and takes it off the person using the thing. The rules below are the book's rules, one per line, and each can be checked against a real object in a few seconds.
 
-## Core takeaways
-
 - When people struggle with an object, look first at the design.
 - A person should see what they can do and what just happened.
 - Put the knowledge in the object so nothing has to be remembered.

@@ -21,8 +21,6 @@ tags:
 
 Red teaming is assigning a person or group to attack a plan from the opponent's side before the plan is carried out. The US Army ran a school for it and published a public handbook of its methods. A team tested this way finds its weak assumptions while they are still cheap to fix.
 
-## Core takeaways
-
 - A red team argues against the plan on purpose.
 - It helps only when allowed to expose real weaknesses.
 - Imagining the plan as already failed finds more ways it could fail.

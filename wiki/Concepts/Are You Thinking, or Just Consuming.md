@@ -20,8 +20,6 @@ tags:
 
 Consuming is taking study material in as it comes: reading the pages in order, watching the video, marking lines, copying a diagram. Thinking is doing something to the material, such as comparing it with another idea, guessing what comes next, explaining it, recalling it without looking, deciding what matters or building something from it. The same hour with a highlighter or a mind map can be either, and only thinking leaves knowledge behind.
 
-## Core takeaways
-
 - Notes, cards and maps do not show which mode you were in.
 - Consuming is the default, often over nine tenths of study time.
 - A smooth session is no sign that anything stuck.

@@ -21,8 +21,6 @@ tags:
 
 An immersion metalayer is a piece of software that sits on top of a video, show or text in the language you are learning and adds study controls to it. The usual controls look up a word when you hover over it, pause the video after each spoken line, jump between subtitle lines, and show a hidden translation on request. With them, content that is slightly too hard can be worked through line by line instead of given up on.
 
-## Core takeaways
-
 - A metalayer adds lookup, pausing and translation to real content.
 - Use it with audio and subtitles in the language you are learning.
 - Keep the translation hidden until you want to check yourself.

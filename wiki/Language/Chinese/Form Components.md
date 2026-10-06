@@ -21,8 +21,6 @@ tags:
 
 A form component is a part of a Chinese character that adds meaning through the picture it once was. Early Chinese writing drew things, so the character for a dog looked like a dog and the character for a mountain looked like a mountain, and many of those drawings live on as parts of other characters. A learner who knows what a part first showed can picture a scene where the modern shape looks like random strokes.
 
-## Core takeaways
-
 - A form component works through its original picture.
 - The picture may no longer show in the modern shape.
 - Look at the ancient form the first time you meet the character.

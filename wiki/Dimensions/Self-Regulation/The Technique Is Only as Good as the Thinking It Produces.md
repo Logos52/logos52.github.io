@@ -27,8 +27,6 @@ tags:
 
 A study technique, such as a mindmap or a set of practice questions, produces results only through the thinking it makes the learner do. Two students can follow the same steps, and the one who compares, judges and connects ideas while doing them remembers more and can use it. When a technique looks right and results do not improve, the thinking is the first thing to check.
 
-## Core takeaways
-
 - The technique triggers thinking, and the thinking creates the knowledge.
 - Doing a technique right means getting its intended effect.
 - Every technique can be done without its thinking.

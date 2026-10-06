@@ -25,8 +25,6 @@ tags:
 
 Shoot is the step in a study session where the learner reads the material to answer questions they wrote beforehand, and records the answers as a map of connected ideas. It is the second of three steps in the Bear Hunter System, where Aim writes the questions, Shoot answers them and Skin cleans up the result. Done well, it replaces notes copied from a textbook with notes already organised around why each idea matters.
 
-## Core takeaways
-
 - Read to answer questions written in advance.
 - Ask what each idea is, why it matters and how it relates.
 - Record relationships, and treat facts as what follows from them.

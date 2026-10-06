@@ -20,8 +20,6 @@ tags:
 
 A trap in learning is a study habit whose harm outweighs the benefit of the good methods used alongside it. One trap can cancel weeks of work with good methods, so finding and removing traps usually pays more than adding a new technique. Three come up most often: a short-term fix that grows into a debt, a method copied because others use it, and a method used on a problem it cannot solve.
 
-## Core takeaways
-
 - One trap can undo the gains from good methods.
 - A fix that helps now can create extra work later.
 - A popular method is not proof that the method works.

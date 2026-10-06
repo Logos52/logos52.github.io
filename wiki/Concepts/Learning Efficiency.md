@@ -20,8 +20,6 @@ tags:
 
 Learning efficiency is how much usable, remembered knowledge you end up with for the hours you spend. Most people count pages or lectures covered per session, and that count says nothing about what is still in memory a week later. Measuring it properly tells you whether to study longer or to change how you study.
 
-## Core takeaways
-
 - Content covered per hour does not measure learning.
 - Count what you still know and can use after a week.
 - Measure at each level of use, from recalling a fact upward.

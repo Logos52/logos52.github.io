@@ -19,8 +19,6 @@ tags:
 
 Statisticians have named a set of standard shapes for how often each value of a changing quantity turns up, and the bell curve is the one most people have seen. Each shape comes from one way the number gets made, such as adding up many small effects or counting random arrivals in an hour. Picking the right shape lets you predict values you have not seen yet, and picking the wrong one gives confident wrong answers about queues, risk and budgets.
 
-## Core takeaways
-
 - Choose the shape from how the number is made.
 - Fitting a curve to a chart of the data is the weaker way.
 - Counts of independent arrivals follow the Poisson shape.

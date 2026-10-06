@@ -20,8 +20,6 @@ tags:
 
 A study shortcut is a way of doing a learning technique that produces the visible result, such as a note, a map or a highlight, without the thinking the technique was meant to cause. The learner follows every step and sees no improvement. Knowing the common shortcuts lets a learner check whether the method failed or whether the thinking never happened.
 
-## Core takeaways
-
 - A technique works only through the thinking it forces.
 - The brain looks for the easiest route through any technique.
 - Shortcuts leave the same visible output as real work.

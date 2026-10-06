@@ -21,8 +21,6 @@ tags:
 
 A Return to Code is a podcast conversation from 2026 in which Naval Ravikant explains why he started building software again. He holds a computer science degree and had not written code in decades, and he came back to it once AI coding agents began to work. The conversation helps a reader decide whether to build their own apps with an agent: what an agent builds on its own, where it goes wrong, and what the person running it still has to do.
 
-## Core takeaways
-
 - A coding agent runs commands and edits files by itself.
 - A simple app can come from one written description.
 - A complex app still needs a person to steer.

@@ -20,8 +20,6 @@ tags:
 
 Rapid skill acquisition is the work of taking a new method from the point where you can explain it to the point where you do it without thinking, in as little time as possible. Most of that time goes into practice. Most of the wasted time comes from too much theory, too many new methods at once, or rushing, and getting the proportions right early saves months of relearning later.
 
-## Core takeaways
-
 - Being able to explain a method does not mean you can use it.
 - Spend about five hours of practice for each hour of theory.
 - Learn one or two new techniques at a time, never more.

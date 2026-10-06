@@ -22,8 +22,6 @@ tags:
 
 The IME method is a way to bring back a Chinese character you have forgotten by doing in your head what a Chinese keyboard does. On a computer, the input method editor, or IME, takes a typed sound and shows a short list of characters with that sound, and the typist picks the right one by sight. The method builds the same list from memory, out of the word's sound and meaning, so a learner can write or read the character without a dictionary.
 
-## Core takeaways
-
 - Chinese characters are built from parts that hint at sound or meaning.
 - Start from the sound and meaning of the word you want.
 - List the parts that could give that sound.

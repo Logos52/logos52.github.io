@@ -20,8 +20,6 @@ tags:
 
 A religion that teaches how people should act ends up with positions on law, because law is where conduct is enforced. Christianity and Islam both make demands of the state, and those demands reach people outside the faith. Each demand can be set out and judged from outside without first settling whether the faith is true.
 
-## Core takeaways
-
 - Christianity requires opposing abortion as the killing of a human being.
 - Obedience to rulers is conditional, and tyranny can be lawfully resisted.
 - Charity is for those unable to work, which the state does badly.

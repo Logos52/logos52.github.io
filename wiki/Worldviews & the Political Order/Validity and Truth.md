@@ -20,8 +20,6 @@ tags:
 
 An argument can fail in two places: a starting fact can be false, or the conclusion can fail to follow from the facts. The argument pages under Worldviews & the Political Order test the second. A reader who can see where a conclusion stops following can check a political argument without first settling every disputed number in it.
 
-## Core takeaways
-
 - A conclusion can follow from false facts.
 - It can also fail to follow from true ones.
 - A starting fact stands unless something a reader can check overturns it.

@@ -20,8 +20,6 @@ tags:
 
 Agentic engineering is building software with AI coding agents, programs built on a language model that can edit files and run commands. The work keeps a professional's standards: no new security holes, tests that pass, and a person who answers for the code. Knowing which parts go to the agent and which the person keeps means a change the agent built in minutes still gets checked before it ships.
 
-## Core takeaways
-
 - Vibe coding, asking an AI to build without checks, lets anyone ship something.
 - Agentic engineering keeps that speed and adds a professional's checks.
 - The person stays responsible for the software.

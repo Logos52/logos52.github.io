@@ -20,8 +20,6 @@ tags:
 
 Free Vietnamese video and audio exists at every level, from slow channels made for beginners to native news. Vietnamese has less learner material than larger languages, so knowing where it is saves weeks of searching. The first choice to make is which dialect to learn, since most channels use one or the other.
 
-## Core takeaways
-
 - Pick northern or southern speech before choosing channels.
 - Start with learner channels, then native vlogs and dramas.
 - The alphabet is Latin letters with marks for tone.

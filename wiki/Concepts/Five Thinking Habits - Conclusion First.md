@@ -23,8 +23,6 @@ tags:
 
 Five habits make what you say out loud easy for another person to follow: give the conclusion first, say what you saw before what you concluded, play the question back, name the counterargument to your own decision, which is called the antithesis, and cut to the short version. People judge your thinking by how it comes across, and a listener who loses the thread rates good thinking as poor. The same habits also catch gaps in your own reasoning before you speak.
 
-## Core takeaways
-
 - Say the conclusion first, then the reasons.
 - A conclusion you cannot state in one line is not yet understood.
 - Give feedback as what you saw, then what you conclude.

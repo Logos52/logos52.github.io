@@ -20,8 +20,6 @@ tags:
 
 The Mindset challenge is four weeks of practising a skill in a way that makes being wrong cheap. Each week makes a wrong attempt cost less and teach more, so the next attempt gets made rather than put off. The last week points the same practice at a trait the learner believes is fixed, such as creativity.
 
-## Core takeaways
-
 - A miss costs most when it is both likely and large.
 - Smaller, sooner attempts lower both the chance and the size.
 - A miss teaches only when one change and a new attempt follow.

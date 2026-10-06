@@ -20,8 +20,6 @@ tags:
 
 Minimalism as systems design treats a home as a system that objects pass through: each one comes in, gets used, takes up room and at some point leaves, and each of those stages can be planned. The aim is a home with spare room, low running costs and the right things in view. Studies link a cluttered home to worse mood and worse daily stress-hormone patterns, and show that objects in view compete for attention.
 
-## Core takeaways
-
 - Measure what you own by the space it fills, never by count.
 - Keep spare room so a new need has somewhere to go.
 - Plan how an object will leave before it comes in.

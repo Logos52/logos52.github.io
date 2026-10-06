@@ -20,8 +20,6 @@ tags:
 
 Decision making, as used here, is a set of methods sized to how much a choice matters. What to eat for lunch and whether to change careers need different amounts of thought, and a heavy method used on a light choice leaves a person stuck on small things. The pages in this section cover the light methods, the heavy ones, and how to review a decision once the result is in.
 
-## Core takeaways
-
 - Match the method to what the choice can cost.
 - Most daily choices are low stakes and should be quick.
 - The future is unknown, so every decision is a bet.

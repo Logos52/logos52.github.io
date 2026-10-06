@@ -20,8 +20,6 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 A character blueprint is an introduction that shows a character so fully that every later scene plays as a variation on it. Most introductions give one moment, and the audience learns one trait. A blueprint gives the writer a pattern to vary for the rest of the story, and it tells the audience what time with this person will be like.
 
-## Core takeaways
-
 - A blueprint sets the pattern every later scene repeats with changes.
 - The first two minutes can carry the whole character.
 - A choice made with nothing to gain tells more than dialogue.

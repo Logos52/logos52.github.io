@@ -25,8 +25,6 @@ tags:
 
 The interleaving table is a list of recall methods, sorted by the kind of knowledge being practised and by how deep the practice goes. Interleaving means retrieving the same material from different angles and at different levels of difficulty, instead of repeating the same question. The table helps a learner pick two or three methods that fit a subject, and drop the ones that waste time.
 
-## Core takeaways
-
 - First decide whether the material is facts and concepts, or skills.
 - Then pick methods at low, middle and high depth.
 - Rereading, rewriting and repeating mastered tasks give almost nothing.

@@ -21,8 +21,6 @@ tags:
 
 Meiwaku (迷惑) is the Japanese word for trouble or inconvenience caused to other people. Japanese children are taught not to cause it, which is why people on a Tokyo train keep their voices low and do not take phone calls. The owner uses the idea as a personal rule: before doing something, count what it costs the people around you.
 
-## Core takeaways
-
 - Meiwaku means trouble you cause other people.
 - Every choice puts some cost on others: noise, space, attention, upkeep.
 - Counting those costs is a habit of consideration.

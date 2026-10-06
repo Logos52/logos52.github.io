@@ -18,8 +18,6 @@ tags:
 
 Western countries are told to take in people from everywhere, share their wealth and stop discriminating, and the people telling them often come from countries that stay homogeneous, keep their wealth and discriminate openly. Pointing out this double standard has never stopped it. Words such as racist and discrimination get results from Westerners whether or not the speaker believes them, so they get used wherever they bring results.
 
-## Core takeaways
-
 - A double standard that survives exposure is a tactic.
 - Societies keep order through guilt, shame or fear.
 - Guilt only works in a highly homogeneous society.

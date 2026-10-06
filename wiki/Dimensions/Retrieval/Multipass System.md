@@ -23,8 +23,6 @@ tags:
 
 Multipass is a study system for learning a large block of material in a few days by going through all of it several times, each time in more depth. It was built for cramming, which is a large amount of study packed into the days before an exam. It covers more of the exam, with better recall, than ordinary study does in longer hours.
 
-## Core takeaways
-
 - Every pass covers the whole block, shallow at first.
 - Logic and concepts come first, details come last.
 - Most exam questions draw on logic and concepts.

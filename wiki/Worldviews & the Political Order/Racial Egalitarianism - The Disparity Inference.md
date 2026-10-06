@@ -17,8 +17,6 @@ tags:
 
 Racial egalitarianism is the belief that all racial groups are the same in every trait that affects how their members live. From that belief comes an inference: if groups differ in income, crime or schooling, discrimination must be the cause. Policy across the West rests on the inference, and the inference holds only if the belief is true.
 
-## Core takeaways
-
 - The inference needs every group to be innately the same.
 - Intelligence and temperament are partly inherited.
 - Small genetic differences can matter a great deal.

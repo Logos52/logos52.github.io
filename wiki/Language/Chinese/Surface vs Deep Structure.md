@@ -22,8 +22,6 @@ tags:
 
 A Chinese character can be looked at for how it is written or for why it is built the way it is. Deep structure means the parts that give the character its sound or its meaning, and surface structure means the strokes, the stroke order, the dictionary heading called the radical, and the pieces that do no job. Knowing which is which tells a learner where to stop dividing a character, so memory work goes into the parts that explain it.
 
-## Core takeaways
-
 - Deep structure explains why a character looks the way it does.
 - Surface structure tells you how to write it.
 - Both matter, at different moments.

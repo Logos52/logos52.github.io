@@ -22,8 +22,6 @@ tags:
 
 The wrong way to work with AI while studying is to let the AI model do the summarising, grouping and connecting, which is the thinking that would have built the knowledge in your head. The right way keeps that thinking with you and uses the model for chores, checks and pointed questions. The difference decides whether you end a study session understanding the topic or holding a tidy explanation you cannot use.
 
-## Core takeaways
-
 - Treat AI like a web search, a place to fill a specific gap.
 - Asking AI to summarise and connect a topic skips the learning.
 - A tidy AI answer feels like understanding without being it.

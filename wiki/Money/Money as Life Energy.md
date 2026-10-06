@@ -22,8 +22,6 @@ tags:
 
 Money as life energy is the idea, from the book Your Money or Your Life by Vicki Robin and Joe Dominguez, that each dollar stands for hours of a person's life spent earning it. Pricing a purchase in hours instead of dollars makes its cost concrete. A $300 jacket at a real wage of $15 an hour is twenty hours of work, and that figure changes many buying decisions.
 
-## Core takeaways
-
 - A dollar earned stands for hours of a limited life.
 - The real hourly wage is lower than the paid rate.
 - Price each purchase in hours of that real wage.

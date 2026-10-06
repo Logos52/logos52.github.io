@@ -23,8 +23,6 @@ tags:
 
 In April 2026 the Institute of Economic Affairs, a London think tank, asked 3,000 British voters where Britain would rank on income per person if it were an American state. The average guess was seventh, and the answer was last, below Mississippi. Britain's economy keeps growing in total while each person in it gets poorer, and the causes are policies: refused building permission, high tax on the next pound earned, expensive energy, welfare that penalises taking a job, and immigration with no matching housing.
 
-## Core takeaways
-
 - Britain's total output is fifth in the world.
 - Output per person has fallen, and it sets take-home pay.
 - Firms invest less than in any other large wealthy country.

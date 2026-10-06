@@ -23,8 +23,6 @@ tags:
 
 Deep processing tanking is the pattern where a person who has always understood things easily gets good results with a plain study method, until the work gets hard enough that understanding alone stops covering it. Knowing the pattern settles one question when results drop: whether the person has lost ability, or has a study method that never grew.
 
-## Core takeaways
-
 - A strong natural thinker does well with ordinary study methods.
 - Most courses suit the average learner, so the method never grows.
 - At a jump in difficulty, hours rise sharply for the same result.

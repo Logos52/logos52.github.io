@@ -21,8 +21,6 @@ tags:
 
 Every Chinese character has three attributes: its form, which is how it looks, its sound, which is how it is said, and its meaning. A spoken word already carries the sound and the meaning, and writing adds the form to record that word. A learner can therefore learn the word by ear first and then test each link to the written form on its own.
 
-## Core takeaways
-
 - A character writes down a spoken word.
 - Speech carries sound and meaning, and writing adds form.
 - Learn the word by ear before its written form.

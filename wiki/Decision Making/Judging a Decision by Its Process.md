@@ -22,8 +22,6 @@ tags:
 
 Judging a decision by its process means grading how a choice was made, using what was known at the time, instead of grading it by how things turned out. Every result depends partly on luck and on people outside your control. A careful choice can end badly, and a careless one can end well, so the result alone gives a wrong grade and teaches the wrong lesson.
 
-## Core takeaways
-
 - A decision splits into how it was made and what happened.
 - You control only how it was made.
 - A good process can still produce a bad result.

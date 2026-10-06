@@ -21,8 +21,6 @@ tags:
 
 Study scheduling is fixing in advance when each topic is first met, when it is revised and when it is tested, so that review happens before the material is forgotten. A week of material revised at the right gaps takes far less time to keep than the same week crammed before an exam. A simple weekly template is enough for most learners in their first couple of weeks.
 
-## Core takeaways
-
 - Revise after about a day, a week, then a month.
 - Put each session in the calendar as a repeating block.
 - Prestudy: skim the week's concepts before class.

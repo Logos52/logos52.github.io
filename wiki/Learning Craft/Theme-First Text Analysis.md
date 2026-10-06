@@ -21,8 +21,6 @@ flag-reason: "cluster held: Learning Craft; opener is owner-picked Opus A. Do no
 
 Theme-first text analysis is a way to read and write about a text, often in a school English exam, by finding what it is trying to say before looking at how it says it. Students often list techniques first, such as repetition or rhetorical questions, and then try to attach them to a theme. That order produces a repetitive essay and misses the main point, while starting from themes produces a clear structure.
 
-## Core takeaways
-
 - Ask three questions in a fixed order: what, why, how.
 - Themes first, then the techniques that carry them.
 - The author's background explains why a theme matters.

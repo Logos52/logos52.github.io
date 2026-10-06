@@ -21,8 +21,6 @@ tags:
 
 Layers of learning is a way of sorting everything in a topic into four layers by how much the rest of the topic depends on it, then studying the layers from the inside out. It settles what to read first when a textbook or lecture gives detail before the reader knows what the detail is for. It also cuts the share of facts that have to be memorised by rote.
 
-## Core takeaways
-
 - Every topic has four layers: logic, concepts, important and arbitrary details.
 - Study them in that order.
 - Logic is the few biggest ideas and how they cause each other.

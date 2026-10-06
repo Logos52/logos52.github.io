@@ -22,8 +22,6 @@ tags:
 
 Interleaving for a complex problem means solving the same problem again from a different angle, context, constraint or outcome, in place of repeating one attempt. Most trouble with hard knowledge work comes from how the problem was set up, and rebuilding the problem from new angles is what improves the setup.
 
-## Core takeaways
-
 - A problem is complex when many factors change each other.
 - Solving one has three parts: understanding, approach, execution.
 - The approach is seeing which factors exist and how they relate.

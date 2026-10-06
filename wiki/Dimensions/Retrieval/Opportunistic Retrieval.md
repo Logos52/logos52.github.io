@@ -19,8 +19,6 @@ tags:
 
 Opportunistic retrieval is recall practice that happens because work makes a person use what they are learning. A doctor who reads about heart disease on Monday and treats a heart patient on Tuesday has practised recall without setting any time aside. Counting that use means a working learner can schedule fewer study sessions, and sometimes none.
 
-## Core takeaways
-
 - Any use of knowledge from memory counts as retrieval practice.
 - Students mostly need planned sessions.
 - Workers often get the same practice free from the job.

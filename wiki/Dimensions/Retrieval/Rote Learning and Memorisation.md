@@ -26,8 +26,6 @@ tags:
 
 Rote learning is memorising facts that have no reason behind them, such as dates, names, constants, or a sequence of steps. It is the last step in learning a topic, used only for what remains once the topic makes sense. Two tools cover most of it: flashcards for single facts, and a drawn memory story for ordered lists.
 
-## Core takeaways
-
 - Understand the topic first, then memorise only what is left.
 - A fact you understand the reason for needs no card.
 - Flashcards test one fact each, in short bursts.

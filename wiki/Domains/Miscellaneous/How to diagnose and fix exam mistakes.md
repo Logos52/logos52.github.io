@@ -22,8 +22,6 @@ tags:
 
 An exam mistake almost always points to a specific gap in what you know or in how you use it, even when it looks careless. Sorting each wrong answer by the kind of gap behind it tells you which fix to use. That works better than promising to be more careful next time.
 
-## Core takeaways
-
 - Most errors called careless come from shaky understanding.
 - Trying harder or ignoring the mistake does not fix it.
 - Sort each error by its gap: facts, understanding or procedure.

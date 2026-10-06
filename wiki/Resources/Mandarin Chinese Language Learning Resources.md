@@ -20,8 +20,6 @@ tags:
 
 Free Mandarin video and audio exists at every level, from slow channels made for beginners to native news. A learner who studies mainly by watching and listening needs a steady supply at the right level, and finding that supply is the hardest part of the first months. Start with channels made for learners and move to native ones as more is understood.
 
-## Core takeaways
-
 - Start with channels made for learners, then move to native ones.
 - Choose simplified or traditional characters and stay with one.
 - Learn the four tones and tone pairs in the first weeks.

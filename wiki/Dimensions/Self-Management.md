@@ -21,8 +21,6 @@ tags:
 
 Self-management is the set of habits, routines and surroundings a person builds so that the work they mean to do gets done. It covers time, tasks, focus, planning and habits. A learner with good study techniques and no time set aside to use them gets little from the techniques, so this is usually the first thing to fix.
 
-## Core takeaways
-
 - Build systems so that daily work needs little willpower.
 - A plan that only works on a good day will fail.
 - List every past barrier before choosing a fix.

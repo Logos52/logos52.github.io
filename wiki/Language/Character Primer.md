@@ -21,8 +21,6 @@ tags:
 
 Chinese and Japanese are written with characters instead of an alphabet. Each character stands for a word or for a part of a word. A beginner who knows how characters join into words, why one character can have many meanings, and which parts of a character give hints can start on real text sooner.
 
-## Core takeaways
-
 - A character stands for a word or a word part.
 - Most words are one or two characters long.
 - A common character can have ten or more meanings.

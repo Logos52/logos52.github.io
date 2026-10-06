@@ -31,8 +31,6 @@ tags:
 
 A mindmap is a page of short keywords placed in space and joined by lines that show how the ideas cause, need or contain each other. Making one is slower and more confusing than writing normal notes, and that slowness is the part that builds lasting memory. A reader who expects the confusion can keep going where most people quit.
 
-## Core takeaways
-
 - The map is a by-product of the thinking that stores the knowledge.
 - Feeling fluent while taking notes is a poor guide to recall.
 - Mapping feels slow because every idea needs decisions.

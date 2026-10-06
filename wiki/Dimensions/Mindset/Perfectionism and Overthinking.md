@@ -19,8 +19,6 @@ tags:
 
 Perfectionism in study usually means a fear of making mistakes, and overthinking is the loop of worried thought that goes with it. Both slow learning, because the learner asks "what if" questions instead of trying the technique and finding out. A short written routine turns that worry into a list of problems and then into one action you can take now.
 
-## Core takeaways
-
 - Most perfectionism is anxiety about failing.
 - Someone aiming for the best result would make mistakes fast.
 - Overthinking goes in circles, and the fix is thinking aimed at problems.

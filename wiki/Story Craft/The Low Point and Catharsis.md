@@ -18,8 +18,6 @@ tags:
 
 The low point is the moment late in a story when the main character loses so badly that the story seems over. Catharsis is the release the audience feels when the character comes through it, usually because the character finally sees the truth they have been avoiding. Where the writer places the low point, and how fully the story earns it, decides whether the ending moves the audience.
 
-## Core takeaways
-
 - The low point must look final to the reader.
 - The character's inner loss matters more than the outer one.
 - Recognition of the truth is what turns the story.

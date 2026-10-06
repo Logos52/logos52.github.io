@@ -17,8 +17,6 @@ tags:
 
 Racial fatigue, often called black fatigue, is the weariness many people feel toward the culture of permanent grievance in black American public life, and it is felt by people who were never victims of a crime and by people on other continents. It comes from an argument in which every problem is traced to white racism and which no fact or concession can end. That argument grew out of a chain that runs through welfare, the family and crime.
 
-## Core takeaways
-
 - Welfare after the 1960s paid more when no father was at home.
 - In the 1940s about 78% of black children lived with both parents.
 - Today fewer than half do.

@@ -21,8 +21,6 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus B. Do not p
 
 Stakes without mortality are the ways a story stays tense when no one is at risk of dying: the risk is to a friendship, a trust, a skill or a sense of self. These stakes matter in stories with a loved cast, in gentle stories, and in long series, where killing a character is ruled out or would end the series. The tension comes from what the characters value, so the work starts with showing that value.
 
-## Core takeaways
-
 - Tension is the gap between what a character expects and what happens.
 - Show the value first, then put it at risk.
 - A threat to something unvalued carries no weight.

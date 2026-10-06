@@ -20,8 +20,6 @@ tags:
 
 The Self-Regulation challenge is a four-week plan for finding out what each study method a learner uses actually does, and for changing the ones that do nothing. It suits someone who has used the same methods for years without checking them. At the end there is a written map of the methods and a routine changed a little, built from what the map showed.
 
-## Core takeaways
-
 - In week 1 write the methods down and change nothing.
 - Many methods survive from school out of habit alone.
 - Recognising a fact is easier than producing it.

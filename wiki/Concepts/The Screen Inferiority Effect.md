@@ -21,8 +21,6 @@ tags:
 
 People understand a text they are studying slightly better on paper than on a screen, and the main cause is the reading habit they bring to the screen. Most screen reading is messages, news and captions that ask for nothing afterwards, so people skim. A reader who knows this can learn from a screen as well as from paper by choosing to read deeply.
 
-## Core takeaways
-
 - Paper beats screens by a small, steady margin for study.
 - The gap vanishes for stories and for untimed reading.
 - Screens train a habit of shallow reading.

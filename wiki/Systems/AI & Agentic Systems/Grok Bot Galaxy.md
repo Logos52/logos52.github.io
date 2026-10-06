@@ -22,8 +22,6 @@ tags:
 
 Grok Bot Galaxy was a three-day public livestream, 15 to 17 September 2026, in which SpaceXAI staff built a company on camera with Grok Bot, while other staff gave talks on using it in sales, support and marketing. Grok Bot is a desktop app whose named bots each hold one standing job and work on a computer in the cloud. The talks are the largest public record of how SpaceXAI wants a bot scoped, approved and checked, and the mistakes made on camera show which habits this desk keeps out.
 
-## Core takeaways
-
 - Scope a bot like a job description: one job per bot.
 - Lasting rules go in the description, and today's task in the chat.
 - A bot prepares, and a person approves anything that leaves the account.

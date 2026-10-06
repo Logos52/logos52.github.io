@@ -21,8 +21,6 @@ tags:
 
 The understanding bottleneck is the limit that a person's own understanding puts on how much work they can direct AI agents to do. Andrej Karpathy described it in April 2026: agents can now do much of the thinking, and the person directing them still has to know what is being built and why. For anyone running agents, the slow step is getting enough of the subject into their own head to give good directions.
 
-## Core takeaways
-
 - Thinking can be handed to a model, understanding stays with the person.
 - The person directing agents must know what to build and why.
 - Details like exact function names can be left to the model.

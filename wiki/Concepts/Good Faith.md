@@ -19,8 +19,6 @@ tags:
 
 Good faith, as this wiki uses the term, is telling the other side your limits, your intentions and the downsides of what you offer, even when saying so costs you something right now. The cost is why the other side can believe you and read the words as an offer to cooperate. Practising it means fewer late surprises in deals, feedback and close relationships, and a way to tell which counterparts to keep extending it to.
 
-## Core takeaways
-
 - Disclose your constraints, your intentions and your offer's downsides.
 - A disclosure signals something only if it could have cost you.
 - A problem raised early is a plan change.

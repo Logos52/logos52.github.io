@@ -18,8 +18,6 @@ tags:
 
 Socialism is usually argued for as a moral repair: a few people own most things, workers are paid less than they produce, medicine is too expensive, and the economy crashes. Some of those faults are real, and in each case the cause is the state and big business working together. Socialism answers by making the state bigger, which enlarges the cause.
 
-## Core takeaways
-
 - Arguments about ownership, medicine and crashes name real faults.
 - Each of those faults comes from state power joined to wealth.
 - Arguments about inequality and exploitation misread people and work.

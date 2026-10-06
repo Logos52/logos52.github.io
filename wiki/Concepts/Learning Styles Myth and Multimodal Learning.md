@@ -20,8 +20,6 @@ tags:
 
 The idea of learning styles says each person is a visual, auditory, reading or hands-on learner and learns best when the teaching matches that style. Studies built to test the matching find no benefit. What does help is using several modes on the same material, such as reading it, then drawing it, then explaining it aloud, with full attention in each.
 
-## Core takeaways
-
 - Matching teaching to a learning style does not improve results.
 - People have preferences, and a preference does not limit what they can learn.
 - Most teachers still believe in matching.

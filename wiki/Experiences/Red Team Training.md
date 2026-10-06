@@ -19,8 +19,6 @@ tags:
 
 A red team is a group that plays the enemy in a wargame or in intelligence analysis and challenges a plan with the reasoning the opponent would use. The US Army trains its red teamers at the University of Foreign Military and Cultural Studies, known as UFMCS, which sits under the Army's Training and Doctrine Command. The training has uses outside the military because it finds a plan's mistakes before money, people or time are committed to it.
 
-## Core takeaways
-
 - A red team argues against a plan from the opponent's side.
 - Good red teaming finds the flaw before resources are spent.
 - Naming a bias is the first step to catching it in yourself.

@@ -22,8 +22,6 @@ tags:
 
 Someone with many interests has to decide which of them get time this season and which wait. Trying to move all of them at once spreads the week so thin that none makes real progress, and dropping them feels like giving up part of who you are. A workable approach is a small active set, a written plan for each paused interest, and a clear rule for moving interests between active and paused.
 
-## Core takeaways
-
 - Keep a small active set and let the rest sit dormant.
 - One main focus, one semi-focus, everything else a hobby.
 - A dormant interest with a written plan stops nagging.

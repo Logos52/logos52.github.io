@@ -26,8 +26,6 @@ tags:
 
 Automation usually removes tasks from a job, leaves the job in place, and often makes more of it. Eighty years of US job records show which roles grew after their tasks were automated and which ended, and that record settles how to treat an AI tool that now does part of your own work.
 
-## Core takeaways
-
 - One US census job title was removed by automation: elevator operator.
 - A cheaper task usually means more demand and more people in the role.
 - A role survives if it can absorb more volume or responsibility.

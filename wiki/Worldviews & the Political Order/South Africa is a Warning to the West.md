@@ -23,8 +23,6 @@ tags:
 
 South Africa after apartheid had the strongest economy in Africa, world-class companies, precious metals and gems, and safe streets. Within about a decade of 2009 its power grid, railways, police and inner cities had failed, and its murder rate reached about ten times America's. Britain and the United States show the same steps at an earlier stage.
 
-## Core takeaways
-
 - A ruling party placed loyalists at the top of every institution.
 - A connected family ran a business empire from inside the state.
 - About $65 billion was taken, a process named state capture.

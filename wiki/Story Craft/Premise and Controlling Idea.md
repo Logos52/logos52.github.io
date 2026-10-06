@@ -19,8 +19,6 @@ tags:
 
 A premise is the one-sentence claim a story proves through what happens in it. Writing that sentence down before drafting gives every later choice a test, since a scene that does not help prove or challenge the claim can be cut. Lajos Egri, Robert McKee and John Truby each give a version of the same tool.
 
-## Core takeaways
-
 - State the story's claim in one sentence before drafting.
 - The claim names a value and the cause that decides it.
 - One story proves one premise.

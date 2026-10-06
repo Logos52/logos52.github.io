@@ -19,8 +19,6 @@ tags:
 
 In every society big enough to need running, a small organized group governs a large unorganized one. The idea comes from the Italian school of elite theory, the writers Gaetano Mosca, Vilfredo Pareto and Robert Michels, and it explains why voters hold little power in practice. Applied to the West today, it explains why the ruling group favours policies that weaken the population it rules.
 
-## Core takeaways
-
 - A hundred people who act together beat a hundred thousand who cannot.
 - A ruling group must use its advantages or a rival group will.
 - Ruling ability runs in families through who marries whom.

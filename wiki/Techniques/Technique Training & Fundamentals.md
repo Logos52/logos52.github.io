@@ -19,8 +19,6 @@ tags:
 
 Technique training is the stage of learning how to learn where a few core methods are practised until they run without effort. Knowing a study method takes minutes, and using it well takes hours of practice, which is why reading about good methods rarely changes how someone studies. The pages linked here hold the core methods and the model of skill growth used to pace them.
 
-## Core takeaways
-
 - Practise a method at least five times longer than you learned it.
 - Practice with the wrong form makes the wrong form stronger.
 - Add a new method only when the current ones feel nearly automatic.

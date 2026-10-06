@@ -22,8 +22,6 @@ tags:
 
 A positional decision is a choice made because it leaves you in a better place for the choices that follow, with more skill, more options and more access to opportunities. When the future is too uncertain to predict, asking whether a choice improves your position is more useful than asking whether it will turn out well. Expected value is the check that tells you whether a way of choosing pays off over many decisions.
 
-## Core takeaways
-
 - Ask whether a choice puts you in a better position.
 - Nobody can plan more than a few moves ahead.
 - Expected value judges a way of choosing across many repeats.

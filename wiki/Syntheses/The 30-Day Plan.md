@@ -21,8 +21,6 @@ tags:
 
 The 30-Day Plan is a written plan that breaks a goal six to twelve months away into what to improve in the next thirty days, and how to protect that work from the things that usually stop it. Most people who say they have a goal have only a wish, with no list of actions behind it. The plan puts the actions, the checkpoints and the defences on paper before the month starts.
 
-## Core takeaways
-
 - Pick one goal six to twelve months out.
 - Track the skills and habits that reach the goal.
 - Hours studied and pages covered are poor measures of progress.

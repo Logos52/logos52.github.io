@@ -19,8 +19,6 @@ tags:
 
 People in different countries treat a foreigner differently in daily life. A holiday mostly shows a country's sights, and the daily treatment becomes clear only after about a year of living there on a lease.
 
-## Core takeaways
-
 - A holiday mostly shows a country's sights.
 - A year on a lease shows how a foreigner is treated daily.
 - Parent page: [[wiki/Travel/Reading as Local|Reading as Local]].

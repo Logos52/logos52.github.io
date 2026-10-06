@@ -22,8 +22,6 @@ tags:
 
 Higher-order thinking is the work of seeing how the facts, people and pressures in one situation change each other, in a case with no single right answer. The owner splits that work into two jobs: generativity, which is producing a draft, a plan or a design that hangs together, and judgment, which is choosing one and answering for the result when it goes wrong. The split tells a worker which job to hand to an AI model and which to keep.
 
-## Core takeaways
-
 - Employers pay for solving future problems nobody has defined yet.
 - AI models already produce drafts, plans and designs that hang together.
 - A model does not carry the cost when a call turns out wrong.

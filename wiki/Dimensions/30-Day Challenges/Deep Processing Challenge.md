@@ -21,8 +21,6 @@ tags:
 
 The Deep Processing challenge is four weeks of ordinary study sessions with one job added: each new fact gets compared with facts already known, and the learner judges which of the links between them matter. Reading a fact and holding its words is the habit the month replaces. The first week only asks the learner to notice which of the two the mind is doing, each week after asks more of the comparing, and by the end the comparing starts on its own and less repetition is needed later.
 
-## Core takeaways
-
 - New material can be held alone or compared with other material.
 - Compared material sits in a network and lasts longer.
 - Comparing takes effort, and holding words alone feels easy.

@@ -21,8 +21,6 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 A seed is a small detail a story shows early, and the payoff is the later scene that uses it. Anton Chekhov set down a rule in a letter in 1889: a loaded rifle shown on stage has to go off, or it should not be on stage. A writer who keeps track of seeds can make a late turn feel earned, and can cut any detail that promises something the story never uses.
 
-## Core takeaways
-
 - An audience expects a use for any detail the story lingers on.
 - Cut a detail the story never uses, or give it a use.
 - A big payoff needs its seed placed well before it.

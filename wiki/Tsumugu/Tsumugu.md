@@ -21,8 +21,6 @@ tags:
 
 Tsumugu is a set of tools for learning to read Chinese: a generator of reading material pitched just above what the learner already knows, a graded reader built on it, and a dictionary that explains each character through its shape and a short story. Everything a learner meets in it is meant to be mostly understood on first reading, so reading more is how the language gets learned.
 
-## Core takeaways
-
 - The reader, the wiki and the engine code are public.
 - Each text keeps to a limit on which characters it may use.
 - A record of known words sets what the next text can contain.

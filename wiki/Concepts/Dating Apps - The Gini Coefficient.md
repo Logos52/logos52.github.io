@@ -24,8 +24,6 @@ tags:
 
 The Gini coefficient is a number between 0 and 1 that says how unevenly something is shared across a group, where 0 means everyone has the same amount and 1 means one person has all of it. Economists use it for income. Run on the likes sent inside a dating app, it shows attention from women landing on a small share of men, which is why most men on the apps get few matches and why the apps can charge those men for a small edge.
 
-## Core takeaways
-
 - Likes received by men are more unequal than most countries' incomes.
 - Half the likes from women go to the top 15% of men.
 - Women like under 5% of the men they see.

@@ -20,8 +20,6 @@ tags:
 
 Product reduction is the work of cutting down what a home holds, done as one focused pass instead of a little at a time. The usual method is to gather every item of the same kind in one place, such as all clothes or all cables, so the total can be seen and decided at once. The aim is a room where the objects in view are the ones in daily use.
 
-## Core takeaways
-
 - Gather a whole category in one place before deciding.
 - Start with the objects that cost the most to keep.
 - Do the reduction in a short, concentrated pass.

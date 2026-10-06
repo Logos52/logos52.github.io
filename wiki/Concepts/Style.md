@@ -21,8 +21,6 @@ tags:
 
 Style is the recognisable way a person does something, such as writing, dressing or designing, and it comes from what they notice, what they pick and how they arrange it. A style put on deliberately tends to show the effort behind it, and readers and viewers notice that effort before the content. Knowing this changes where to spend the effort: on the substance and the choices, with the look following from them.
 
-## Core takeaways
-
 - Style comes from what you notice, choose and order.
 - Trying to look stylish tends to show the effort.
 - A quiet style keeps attention on the substance.

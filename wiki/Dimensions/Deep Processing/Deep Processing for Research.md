@@ -23,8 +23,6 @@ tags:
 
 Deep processing for research is a way of reading a field of published papers so that each paper is placed in a picture of the field while it is read: what it supports, what it leaves out, and which open question it answers. Read this way, the reader knows when to stop collecting papers, and the review written at the end makes an argument rather than listing summaries.
 
-## Core takeaways
-
 - Place every paper in the field while reading it.
 - Organising papers already read beats reading new ones.
 - Overload on first contact with a field is normal and passes.

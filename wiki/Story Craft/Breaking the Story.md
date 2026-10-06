@@ -20,8 +20,6 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 Breaking the story is what a TV writers' room calls working out an episode's events one at a time before anyone writes script pages. Each event is called a beat, and a beat is one event that changes the situation. Doing the break first means structure problems get found on a board of cards, where moving a card is cheap, instead of in a finished draft.
 
-## Core takeaways
-
 - The room breaks the story together, then one writer scripts it.
 - Structure is most of the writing work.
 - A break moves from area to beats to outline to script.

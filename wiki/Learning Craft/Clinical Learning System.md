@@ -20,8 +20,6 @@ flag-reason: "cluster held — Learning Craft; opener is owner rewrite 2026-08-1
 
 The clinical learning system is a way for doctors, residents and clinical students to decide what to study each evening, using the patients they saw that day. Clinical learners face a huge syllabus, very little free time, and exams that do not match what the ward teaches. Letting each day's patients set the order turns daily work into both the starting point for study and its review.
 
-## Core takeaways
-
 - The patients you saw today decide what you study tonight.
 - Map one patient's journey, then branch it into variations.
 - Study one branch a day, plus the basic science it touches.

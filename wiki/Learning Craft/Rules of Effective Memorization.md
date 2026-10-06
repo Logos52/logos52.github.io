@@ -20,8 +20,6 @@ tags:
 
 The rules of effective memorization are seven conditions that decide whether new material is stored in memory: meaningfulness, organization, association, visualization, attention, repetition and interest. Kenneth Higbee grouped them for a general audience. They explain why reviewing flashcards on its own often fails, and they apply to any subject, with Chinese characters as a clear test case.
 
-## Core takeaways
-
 - Most forgetting happens because the material was never stored at all.
 - Understanding how an item works is the strongest memory aid.
 - Link new items to items you already know well.

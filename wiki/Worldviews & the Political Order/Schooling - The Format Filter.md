@@ -17,8 +17,6 @@ tags:
 
 Modern schooling asks young children to sit still and listen to an adult for hours, and girls handle that format better than boys. Schools treated the boys who failed it as the problem, and then taught both sexes a story about men that set them against each other. Gen Z, the generation born around 1997 to 2012, carries the result into dating, work and politics.
 
-## Core takeaways
-
 - The seated classroom filters children by sex.
 - Boys who fail it are punished or medicated.
 - Boys catch up on standard tests by 16 to 18.

@@ -19,8 +19,6 @@ tags:
 
 The trained voice is the way a language model writes when nobody has told it how, using habits it learned from the text it was trained on. Much of that text was written online to win attention, so the model learned the moves people make to look impressive, humble or honest. A person editing a model's drafts can predict those moves and cut them.
 
-## Core takeaways
-
 - A model's default style comes from the text it was trained on.
 - Much web writing was shaped to win clicks and reactions.
 - The model copies self-display along with the facts.

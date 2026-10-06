@@ -21,8 +21,6 @@ tags:
 
 A meaning component is a part of a Chinese character that adds a sense it has picked up over time, usually a wider and more abstract sense than the picture it started as. 力 began as a drawing of a plow and, as a part, now stands for strength and effort. A learner who knows the sense a part has gained can see why a group of characters that share it mean related things, and can spot a memory story that will break.
 
-## Core takeaways
-
 - A meaning component adds an acquired, abstract sense.
 - A form component does a different job and adds a concrete picture.
 - Very few characters are made only of meaning parts.

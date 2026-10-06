@@ -20,8 +20,6 @@ tags:
 
 A moral core is the one rule a character keeps even when keeping it costs them something they love. Robert McKee's point is that true character shows in choices made under pressure, and the moral core is what those choices keep returning to. A writer who knows a character's core can decide what that character does in any scene and can price each choice so the audience feels it.
 
-## Core takeaways
-
 - A core is one rule, said in a few plain words.
 - The audience learns the core from what the character chooses.
 - Each test of the core should cost more than the last.

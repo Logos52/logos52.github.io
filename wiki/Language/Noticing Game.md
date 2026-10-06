@@ -21,8 +21,6 @@ tags:
 
 The noticing game is a way to pay attention to content in a language you cannot yet understand. You pick a set of words to listen or look for, then spot them as they come up. It gives a beginner something specific to do with a show or video they cannot yet follow, and each word spotted is a word heard in real speech, which is how it starts to become familiar.
 
-## Core takeaways
-
 - Pick targets before you start, then hunt for them.
 - Full attention the whole time.
 - Listening in the background does not count.

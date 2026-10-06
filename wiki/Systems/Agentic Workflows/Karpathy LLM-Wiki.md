@@ -20,8 +20,6 @@ tags:
 
 Karpathy LLM-Wiki is a short idea file by Andrej Karpathy for a personal knowledge base that an AI model writes and maintains. It settles who does what: the person who owns the knowledge base collects sources and asks questions, and the model writes every page, keeps the links current and flags contradictions.
 
-## Core takeaways
-
 - Keep raw sources, model-written pages and one schema file apart.
 - The model reads raw sources and never edits them.
 - One source at a time, since one source can touch 10 to 15 pages.

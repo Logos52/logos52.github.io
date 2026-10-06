@@ -21,8 +21,6 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus B. Do not p
 
 Diagnosing a character means running a written character against a fixed list of checks to find why they feel thin or interchangeable. This desk keeps a checklist for the job. The list grades how the character is built on the page, and it says nothing about whether the character is a good person.
 
-## Core takeaways
-
 - The checklist grades the build of a character.
 - Check every character against the full cast, never alone.
 - Two characters with near-identical traits is a cast problem.

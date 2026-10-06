@@ -18,8 +18,6 @@ tags:
 
 The uncertainty-opportunity tradeoff is the pattern where the longer you wait on a choice, the more you know about it and the less there is to gain from it. Waiting until you feel sure usually means waiting until other people have acted and the gain is small or gone. The useful response is to find things out fast and decide while the opportunity is still large.
 
-## Core takeaways
-
 - Uncertainty about a choice falls as information comes in.
 - The opportunity in the choice tends to fall at the same time.
 - Zero uncertainty usually arrives after the chance has passed.

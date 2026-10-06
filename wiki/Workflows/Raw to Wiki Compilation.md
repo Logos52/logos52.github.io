@@ -21,8 +21,6 @@ tags:
 
 Raw to wiki compilation is how a new source, such as an article, a transcript or a paper, becomes part of a wiki that an AI model maintains for its owner. The source is filed unchanged and recorded in an index of sources, its facts are written into every wiki page it bears on, and a line is added to a log of operations. Done this way, the facts are worked out once and kept current, and a later question is answered from the pages.
 
-## Core takeaways
-
 - Source files are never edited unless the owner asks.
 - Every source gets a row in the Source Index.
 - One source can change many wiki pages, including ones it contradicts.

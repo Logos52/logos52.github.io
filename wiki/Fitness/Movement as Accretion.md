@@ -19,8 +19,6 @@ tags:
 
 Movement as Accretion is a plan, still being tried on this desk, to make movement a daily habit by having each session add to something that lasts. A missed day costs nothing, because nothing resets. The plan is the first use in this wiki of a wider idea, the accretion frame, which keeps a practice going through a record that grows and survives breaks, in place of streaks, daily targets and willpower.
 
-## Core takeaways
-
 - Each session adds to a record that keeps its value.
 - A missed day removes nothing from the record.
 - Streaks and closed rings reset, so every break reads as a loss.

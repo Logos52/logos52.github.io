@@ -20,8 +20,6 @@ tags:
 
 Inquiry-based learning is studying a topic by writing questions about it first, reading to answer them, and then writing new questions from what the answers turned up. Reading this way has a target, so less of the material has to be held in mind at once and more of it is kept.
 
-## Core takeaways
-
 - Write the questions before reading.
 - A question tells the reader what counts as relevant.
 - Ask why and how questions, since "what is" builds one lone fact.

@@ -17,8 +17,6 @@ tags:
 
 Learning has two jobs: storing new material well the first time you meet it, and pulling it back out of memory later, often enough that it stays. Most study time goes on re-reading and re-watching, which do neither job well.
 
-## Core takeaways
-
 - How well you store material at first sets the limit on later recall.
 - Re-reading and recognising feel like learning and store little.
 - Guess an answer before you look it up.

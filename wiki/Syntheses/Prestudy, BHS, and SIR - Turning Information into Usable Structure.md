@@ -27,8 +27,6 @@ tags:
 
 Three study methods run in order around any class, lecture or long reading: a quick look over the whole topic before it, a way of building connected notes during it, and a schedule of self-tests after it. This wiki calls them Prestudy, the Bear Hunter System (BHS) and Spaced Interleaved Retrieval (SIR). Run in order, they turn new information into connected notes you can recall and use weeks later, and they show where the gaps are.
 
-## Core takeaways
-
 - Build a rough frame of the topic before the lesson.
 - Ask why and how questions, since what questions only produce loose facts.
 - Group ideas by importance and draw how they connect.

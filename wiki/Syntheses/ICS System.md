@@ -28,8 +28,6 @@ tags:
 
 ICS is the learning system this wiki is organised around. It treats learning as a set of trainable habits in five areas and improves whichever area is weakest first. It explains why two people using the same method get different results, and it tells a learner where to spend practice time instead of collecting more techniques.
 
-## Core takeaways
-
 - Learning is habit change, so practice matters more than theory.
 - Spend about five hours practising for every hour of theory.
 - Five areas decide results, and the weakest one gets fixed first.

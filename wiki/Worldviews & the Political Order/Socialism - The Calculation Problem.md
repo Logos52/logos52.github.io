@@ -23,8 +23,6 @@ tags:
 
 Socialism in the strict sense means the state owns the farms, factories and mines, and a central plan decides what they produce. Without private owners buying and selling those things there are no prices for them, so the planners cannot know what anything is worth. Every country that tried full state ownership ended in shortage, famine or mass emigration, and the countries its supporters now point to are market economies.
 
-## Core takeaways
-
 - A price tells everyone at once how scarce a thing is.
 - State ownership removes those prices, so planners guess.
 - Every full attempt ended in shortage, famine or flight.

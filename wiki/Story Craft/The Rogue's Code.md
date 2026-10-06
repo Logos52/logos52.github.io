@@ -19,8 +19,6 @@ tags:
 
 The rogue's code is the short private rule that an outlaw character keeps while breaking the public ones. Robin Hood, the gentleman thief and Jack Sparrow all steal, lie or cheat, and audiences still side with them because the rule they keep is plain and the powers around them are worse. A writer who gets the code right can make a lawbreaker the character readers trust most.
 
-## Core takeaways
-
 - The rogue breaks the law openly and says so.
 - He keeps one private rule, and the audience sees him keep it.
 - He tells the truth about what he is.

@@ -23,8 +23,6 @@ tags:
 
 In 2026, companies in the middle of the United States were paying about twice the old price to hire a flatbed truck, and carriers were turning down about half of the flatbed loads offered to them. A flatbed is the open trailer that carries steel, lumber and heavy machines, so its price tracks factory and building work. Anyone who wants to know whether American factories are growing again can check what is said about it against this spending.
 
-## Core takeaways
-
 - What companies pay for is better evidence than what anyone says.
 - Flatbeds carry industrial cargo, never shopping deliveries.
 - Freight demand moved from the coasts to the middle of the country.

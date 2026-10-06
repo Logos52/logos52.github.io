@@ -22,8 +22,6 @@ tags:
 
 Hyper-focus is getting locked onto one thing and being unable to move off it, and hyper-distractibility is being pulled off a task every few seconds. Both are common with ADHD and autism, and both also show up in people with no diagnosis. Study methods that need long, ordered effort are harder under either pattern, and a few changes to how the methods are learned make the effort easier without removing it.
 
-## Core takeaways
-
 - Learn one technique at a time, and do not read ahead.
 - Write two or three goals for the next 15 minutes, kept visible.
 - Check the goals on an analog timer, with the phone elsewhere.

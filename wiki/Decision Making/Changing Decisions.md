@@ -23,8 +23,6 @@ tags:
 
 Changing a decision means dropping a course already chosen, such as a degree, a job or a project, and taking a different one. Most decisions are made with less information than arrives later, so the first choice is rarely the best one available. Knowing what keeps a person on the old course, and how new information shifts the odds, makes it easier to tell persistence from being stuck.
 
-## Core takeaways
-
 - No decision is permanent.
 - A choice made with little information is rarely the best one.
 - Four pulls keep people on a course after it stops fitting.

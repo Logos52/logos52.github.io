@@ -24,8 +24,6 @@ tags:
 
 A 30-day challenge is a four-week practice plan aimed at one part of how a person learns, such as how deeply new material gets processed or how the study day is run. Each week has one task, and each week is harder than the one before. The plans are called tracks, and a track settles which habit gets worked on this month and what to do when a week fails.
 
-## Core takeaways
-
 - Run one track at a time, on the weakest part of learning.
 - Week 1 changes nothing and measures the habit as it is.
 - Later weeks make the same task harder each time.

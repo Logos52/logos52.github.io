@@ -27,8 +27,6 @@ tags:
 
 The Bear Hunter System is a way of studying in three passes: write questions before the material is opened, answer them onto one diagram while reading, then redraw the diagram from memory. It takes the place of reading front to back and taking notes in the source's order. It is the default way this desk learns any subject.
 
-## Core takeaways
-
 - Write the questions before opening the material.
 - Ask of each idea why it matters and how it connects.
 - Skip "what is" questions, since why and how teach what it is.

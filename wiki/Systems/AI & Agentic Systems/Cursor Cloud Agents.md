@@ -21,8 +21,6 @@ tags:
 
 A Cursor Cloud Agent is a coding agent that runs on a computer Cursor rents in the cloud, one fresh virtual machine per job. It copies a repository from GitHub or a similar host, makes its changes on a branch, and opens a pull request for a person to review. It keeps working after the laptop is closed, so it is the place for coding work that can be written down in full before it starts.
 
-## Core takeaways
-
 - Write the whole task down before the run starts.
 - The agent gets the repository and the task text only.
 - One Cloud Agent per pull request, with follow-ups sent to that agent.

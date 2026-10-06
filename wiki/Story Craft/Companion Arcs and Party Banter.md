@@ -21,8 +21,6 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 Companion arcs and party banter are the two tools role-playing games use to make the people travelling with the player feel alive. A companion arc is one character's personal story inside the main plot. Party banter is the short talk between companions that depends on who is in the group at the time. Both show a writer how to give a large cast depth without giving each character a full plot.
 
-## Core takeaways
-
 - Give each companion one well-placed personal crisis.
 - Tie that crisis to the main ending so it matters.
 - Companions remember how they were treated and react later.

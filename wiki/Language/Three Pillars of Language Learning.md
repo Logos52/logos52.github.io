@@ -19,8 +19,6 @@ tags:
 
 The three pillars are three kinds of language study time: preparation, which is study of the language itself, interactive immersion, which is watching or reading real material with lookup tools, and freeflow, which is the same kind of material with no tools at all. Each kind does a different job, and a learner who does only one kind stalls. Sorting a week's hours into the three shows which one is short.
 
-## Core takeaways
-
 - Preparation makes later input easier to follow.
 - Interactive immersion uses tools to understand hard material.
 - Freeflow builds instinct and gives far more exposure per hour.

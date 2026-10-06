@@ -25,8 +25,6 @@ tags:
 
 Global workspace theory is a theory of the human mind in which a small shared area holds a few pieces of information at once, so that they can be reported, reasoned with and used to steer action. In July 2026 Anthropic found such an area inside its language models, called it the J-space, and showed that removing it ends multi-step reasoning while fluent text continues. The finding shows what a model does by habit and what it has to work out, and it gives an operator no usable tool yet.
 
-## Core takeaways
-
 - Most of a model's work runs outside the workspace.
 - Only work that needs steps passes through it.
 - The J-space holds about 25 concepts at a time.

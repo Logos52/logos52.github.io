@@ -22,8 +22,6 @@ tags:
 
 Vibe coding is building software by telling an AI coding agent what you want in plain English and accepting the code it writes without reading it closely. For a person who does not code, or stopped years ago, it turns a description into a working app in minutes. The code is unchecked, so the practice suits prototypes and personal tools and stops short of software that many other people depend on.
 
-## Core takeaways
-
 - Andrej Karpathy named the practice in February 2025.
 - Coding agents became reliable enough for it around December 2025.
 - The hard part is knowing what you want.

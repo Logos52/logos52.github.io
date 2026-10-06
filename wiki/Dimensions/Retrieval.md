@@ -21,8 +21,6 @@ tags:
 
 Retrieval is pulling knowledge out of memory and using it: recalling a fact, explaining an idea, solving a problem, or teaching someone. Unused memory fades. Retrieval practice slows the fading, catches errors, and prepares knowledge for use under pressure.
 
-## Core takeaways
-
 - Self-testing beats rereading on any delayed test.
 - Most learners still choose rereading, because it feels smoother.
 - Effort during recall feels like failure but builds memory.

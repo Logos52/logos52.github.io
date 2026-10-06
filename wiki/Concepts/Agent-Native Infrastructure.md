@@ -20,8 +20,6 @@ tags:
 
 Agent-native infrastructure is software, a hosted service or its documentation written so that an AI agent can read the instructions, see the current state and take the actions by itself, with no web page a person has to click through. It matters as soon as a build or a deploy is handed to an agent. Each step that still needs a person in a settings menu is a step the agent cannot finish, so the job comes back to the person.
 
-## Core takeaways
-
 - An agent finishes a job only when every step is callable.
 - Callable means a command, an API call or a readable file.
 - Docs that say "open settings" stop an agent.

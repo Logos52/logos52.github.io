@@ -20,8 +20,6 @@ tags:
 
 A personal uniform is a small set of clothes that a person wears nearly every day, chosen once and then repeated. People expect that kind of minimalism to make everyone look the same, and from a distance the uniforms do look interchangeable. Up close each one identifies its wearer, because it was filtered through the needs of one particular life.
 
-## Core takeaways
-
 - Keep few things, each one used in daily life.
 - The look is a side effect of what the clothes are for.
 - Repetition filters out whatever does not fit one person's days.

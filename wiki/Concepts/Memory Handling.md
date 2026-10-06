@@ -19,8 +19,6 @@ tags:
 
 Memory handling is what you do with new information in the first seconds after you meet it. Most people have about the same raw memory, and the difference between someone who remembers and someone who forgets is mostly in this handling. Handling can be learned, so a person who thinks they have a bad memory can usually fix it.
 
-## Core takeaways
-
 - Raw memory capacity is similar across most people.
 - Working memory holds new information for about 15 to 30 seconds.
 - What you do in that window decides what is stored.

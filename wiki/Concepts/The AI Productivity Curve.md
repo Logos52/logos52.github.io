@@ -22,8 +22,6 @@ tags:
 
 The AI productivity curve is the question of whether AI is already making the US economy produce more per hour worked, and how fast. In 2026 the national statistics and the surveys of companies give opposite answers, and each side has solid data. Reading the two together keeps a person from betting on AI's economic payoff, or dismissing it, on the strength of one chart.
 
-## Core takeaways
-
 - US productivity grew 3.0 percent in 2024 and 2.1 in 2025.
 - Growth since ChatGPT sits above the 2015 to 2019 trend.
 - Most firms report no productivity gain from AI yet.

@@ -20,8 +20,6 @@ tags:
 
 The Twitter test is a way of reading a persuasive text one word at a time, on the assumption that the writer had a strict length limit and had to justify every word. Under that assumption, a word that carries no fact was kept for the feeling it gives. Running the test shows what a text is working to make you feel before you decide whether to agree with it.
 
-## Core takeaways
-
 - Read as if every word was paid for.
 - Ask why each word is there and what it makes you feel.
 - A word with no plain job is there to steer you.
