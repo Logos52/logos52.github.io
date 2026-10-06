@@ -22,6 +22,8 @@ tags:
 
 Best-attempt encoding means arranging new material into the best structure the learner can make right now and then testing that structure, in place of waiting until the topic is fully understood. Done this way, the errors in the structure show up within a week, while they are still cheap to fix. Study time also stops going to facts that a flashcard would have covered.
 
+## Takeaways
+
 - Build from what is understood now, and let testing correct it.
 - Each item can be learned narrow or wider.
 - Take about 20 seconds per item to choose.

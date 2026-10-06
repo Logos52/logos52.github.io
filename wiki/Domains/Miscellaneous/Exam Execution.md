@@ -20,6 +20,8 @@ tags:
 
 Exam execution is what you do in the last weeks, the night before and the day of an exam to turn what you know into marks. Most marks lost at this stage come from stress, lost sleep and meal timing, and few come from missing knowledge. A few plain habits protect the work already done.
 
+## Takeaways
+
 - Calm on the day matters more than last-minute revision.
 - Stress narrows thinking, so known answers fail to come back.
 - Sleep the night before, since a later lie-in does not repay it.

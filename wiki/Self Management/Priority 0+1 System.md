@@ -32,6 +32,8 @@ tags:
 
 Priority 0+1 is a way of planning each day around the one task that moves you furthest toward your goals, booked and protected before anything else. The plan is made the evening before, so the next day starts with no choices left to make. On a bad day the lower priorities give way and the top task still gets done.
 
+## Takeaways
+
 - Priority 0 is your long-term values and direction.
 - Priority 1 is the one task today that serves them most.
 - Book priority 1 first and protect it from everything else.

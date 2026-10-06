@@ -21,6 +21,8 @@ tags:
 
 White guilt is the claim that people of European descent alive today carry a debt for their history and for a system that still favours them. Six arguments are usually made for it: the slave trade, colonialism, the killing of native peoples, systemic oppression, inherent white racism, and the Holocaust. Each one needs European conduct to have been uniquely bad, none of them shows it, and a true charge would still not pass to people born later.
 
+## Takeaways
+
 - Guilt belongs to the person who acted, and it cannot be inherited.
 - Slavery, conquest and mass killing were practised almost everywhere.
 - Europe was the first civilisation to call slavery evil and end it.

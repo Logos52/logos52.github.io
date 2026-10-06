@@ -26,6 +26,8 @@ tags:
 
 The Bear Hunter System is the three-pass workflow this vault uses to take in a new topic, and Aim is its first pass. Before reading anything in depth, the learner lists the topic's main terms and asks two questions of each one: why it is important, and how it relates to another term. The topic's first structure then comes from a judgment about what matters rather than from the book's headings.
 
+## Takeaways
+
 - Collect the main terms fast and out of order.
 - Ask of each term why it matters and how it relates.
 - Never ask what a term is, since comparing teaches that anyway.

@@ -20,6 +20,8 @@ tags:
 
 Most learners measure study by how much they covered, and five lectures in two hours feels efficient. That number leaves out how much is remembered a week later, the hours spent relearning what was forgotten, and whether the knowledge can be used. A better measure is how much usable, retained knowledge each hour of study produces, checked one week later.
 
+## Takeaways
+
 - Content covered per hour is a poor measure of learning.
 - Feeling fluent while studying is a poor guide to later recall.
 - Measure retention one week later, at each depth the test needs.

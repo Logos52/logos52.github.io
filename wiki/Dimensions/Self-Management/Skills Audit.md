@@ -20,6 +20,8 @@ tags:
 
 A skills audit is a sit-down review of how you actually study or work, step by step, checked against a written description of how each technique should be done. It finds errors that came from rushing, skipping steps or time away. Each technique gets a rating, and whichever one or two score lowest become the next things to practise.
 
+## Takeaways
+
 - Map your real process before judging any part of it.
 - Rate each technique from 1 to 5 against a written standard.
 - Work on anything below 4, one or two at a time.

@@ -20,6 +20,8 @@ tags:
 
 Tonal modulation is the planned alternation of heavy and light moments in a story, so that grief, fear and laughter each get room. A light moment after a heavy one lets the audience rest and makes the next heavy beat land harder. A joke that arrives too early cuts off a feeling the audience was still having.
 
+## Takeaways
+
 - Comedy goes after the emotional peak.
 - A light beat rests the audience before the next heavy beat.
 - Mixing tones is old: tragicomedy was defended in 1601.

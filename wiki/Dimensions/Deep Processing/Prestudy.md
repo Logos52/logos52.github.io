@@ -31,6 +31,8 @@ tags:
 
 Prestudy is a short pass over a topic before the main lesson, lecture or study session, done to find the main ideas and how they fit together. Classes deliver new material quickly, and a learner who arrives with no frame for it spends the class overloaded and falls further behind each week. A learner who has done prestudy spends the class filling in details on a structure that already exists.
 
+## Takeaways
+
 - Prestudy organises a topic, and learning the content comes later.
 - Find the main groups of ideas and how they relate.
 - Memorise nothing yet, and skip the small details.

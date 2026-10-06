@@ -20,6 +20,8 @@ tags:
 
 Three charges are brought against European history: slavery, colonialism and mass killing. Europeans living now are asked to pay reparations, run diversity, equity and inclusion programmes and open their borders on the strength of them. Each charge singles Europe out, so each needs Europe to have done what no other people did, and in all three cases most civilisations did the same.
 
+## Takeaways
+
 - Punishing one people alone requires that its conduct was unique.
 - Slavery, conquest and mass killing appear in nearly every civilisation.
 - Europe alone ran a worldwide campaign to end slavery.

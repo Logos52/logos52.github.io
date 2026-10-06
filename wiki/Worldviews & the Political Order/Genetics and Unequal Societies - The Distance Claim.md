@@ -21,6 +21,8 @@ tags:
 
 The distance claim says that peoples who lived apart for tens of thousands of years differ in their genes enough that one form of society cannot fit them all, and that a child of two distant peoples fits no society that exists. It accounts for unequal outcomes between peoples without needing discrimination as a cause, which is why it turns up in debate over immigration. The argument uses three made-up peoples, circles, squares and triangles, names no real group, and says any real group a listener matches to a shape is the listener's own doing.
 
+## Takeaways
+
 - The claim runs from isolation to a society fitted to each people.
 - Its measured link is the fixation index, a number for genetic distance.
 - The claim draws the line between kinds at 0.15.

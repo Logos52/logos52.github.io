@@ -22,6 +22,8 @@ tags:
 
 An ultra high-volume exam covers years of material, often with a stream of new material such as current events added along the way, and it tests only a small, unknown fraction of it. Methods that work for a single semester, such as rereading and heavy repetition, break down at this scale. The plan has to raise how much you keep from each hour of study, since adding hours cannot cover the loss.
 
+## Takeaways
+
 - At high volume, poor retention means you can never catch up.
 - Better methods show as more coverage and depth in the same hours.
 - Learn important facts widely and isolated facts on flashcards.

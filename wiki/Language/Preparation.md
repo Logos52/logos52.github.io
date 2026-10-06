@@ -18,6 +18,8 @@ tags:
 
 Preparation is the part of language study spent on the language itself, through flashcards, grammar notes and the writing system, so that you recognise more of what you meet in real content. It is one of three study modes, next to interactive immersion, which is working through content with tools, and freeflow, which is watching content without them. Preparation is short and daily, and its job is to make the hours spent with real content more useful.
 
+## Takeaways
+
 - Preparation makes words and patterns familiar before you meet them.
 - Keep it short: about 15 minutes of words, 5 to 10 of grammar.
 - Ten new words a day at most.

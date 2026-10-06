@@ -17,6 +17,8 @@ tags:
 
 Gender ideology is the claim that a person's inner sense of being a man or a woman overrides the sex of the body. Ten arguments are made for it in public debate, and they differ a great deal in strength. Sorted by strength, one of them is worth debating, and the rest reach a wrong conclusion, fail on the facts, or work by putting pressure on the person who disagrees.
 
+## Takeaways
+
 - An identity has to identify with something outside itself.
 - "A woman is someone who identifies as a woman" is circular.
 - Only adult autonomy holds, since an adult cannot be stopped without force.

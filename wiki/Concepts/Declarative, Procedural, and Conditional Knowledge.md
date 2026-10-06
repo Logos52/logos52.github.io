@@ -20,6 +20,8 @@ tags:
 
 Declarative, procedural and conditional knowledge are three names for three different things a person can hold about one skill: what it is, how to do it without thinking, and when to use it. Keeping them apart tells a learner which kind of practice to do next when a skill that is fully understood still fails in use.
 
+## Takeaways
+
 - Declarative knowledge is anything that can be explained.
 - Procedural knowledge runs with no attention on the steps.
 - Procedural knowledge comes only from doing, and slowly.

@@ -31,6 +31,8 @@ tags:
 
 Marginal gains is the practice of improving a skill by about 1% at a time and making sure each small improvement builds on the last. It replaces the search for one big breakthrough with a steady run of small, tracked changes. For a learner it settles two practical questions: how many things to work on at once, and which one to work on next.
 
+## Takeaways
+
 - Small gains that build on each other compound over time.
 - A gain only compounds if it changes what you can do.
 - Work on two or three skills at a time, no more.

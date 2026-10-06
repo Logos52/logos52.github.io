@@ -25,6 +25,8 @@ tags:
 
 Whole-part-whole, or WPW, is a way of revising by teaching a topic from memory to an imagined student who knows nothing about it. You first explain what the topic is about as a whole, the big picture, then go into one of its parts, then return to the whole before the next part. Done properly it finds the gaps in a whole topic within a session or two, which is why it is used for weekly revision.
 
+## Takeaways
+
 - Teach from memory, with notes closed.
 - Explain an idea first and give its name last.
 - Tie every part back to the big picture.

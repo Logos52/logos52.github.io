@@ -19,6 +19,8 @@ tags:
 
 A student who learns better study methods often finds that school asks for different ones, such as copying linear notes or finishing large amounts of ungraded homework. Teacher training covers little of the research on how people learn, so classroom methods can lag behind it. A student can keep the better methods and still meet what the school requires, mostly by limiting the time spent on low-value work.
 
+## Takeaways
+
 - Use your own method in class where nobody checks.
 - Spend the minimum time on work that does not count toward grades.
 - Use class to find what you do not yet understand.

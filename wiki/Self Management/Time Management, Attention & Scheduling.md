@@ -19,6 +19,8 @@ tags:
 
 Time management covers three jobs: choosing which tasks are worth doing, putting them in order, and fitting them into the day. A perfect calendar still wastes the day if the tasks on it were the wrong ones, or if attention wanders once each block starts. Attention is the limited resource in all three jobs, since a booked hour produces work only while attention stays on the task.
 
+## Takeaways
+
 - Choose the tasks first, order them second, schedule them last.
 - Gut feeling ranks urgent tasks as important, and it is often wrong.
 - A few tasks produce most of the progress toward a goal.

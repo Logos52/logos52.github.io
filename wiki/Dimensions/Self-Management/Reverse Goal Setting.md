@@ -26,6 +26,8 @@ tags:
 
 Reverse goal setting is a way of planning toward a hard goal by first working out what kind of person would reach it, then closing the gap between that person and yourself. A goal on its own, such as passing an exam or getting a job, comes with no plan beyond "work hard". Rating the skills and habits the goal needs, and your current level in each, turns it into two or three things to work on now.
 
+## Takeaways
+
 - A goal is a means to an outcome you want.
 - Keep the outcome fixed and let the goal change.
 - Rate the skills and habits the goal needs, out of 10.

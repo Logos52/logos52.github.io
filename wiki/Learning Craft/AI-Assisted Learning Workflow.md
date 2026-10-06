@@ -21,6 +21,8 @@ tags:
 
 An AI-assisted learning workflow uses chatbots and study tools for the parts of learning that are logistics, such as finding material, changing its format and quizzing, while the learner keeps the thinking that builds understanding. Used that way, AI can cut hours from a course. The risk is letting it write the notes, the summaries or the answers, because that removes the effort that makes knowledge stay.
 
+## Takeaways
+
 - Let AI find, convert, extract and quiz.
 - Keep the organizing and connecting of ideas for yourself.
 - Ask for information that helps you work out the answer.

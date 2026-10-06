@@ -23,6 +23,8 @@ tags:
 
 Essential AI Skills 2026 is a ladder of AI skills with three levels: the basics, agents, and building for others. The first level is what every adult needs, and the top level is what a person who builds AI products for other people needs. The ladder helps a reader decide which level to learn next and which levels to skip.
 
+## Takeaways
+
 - Everyone needs the first level: investing, prompting and a few tools.
 - A stock index fund already holds a large bet on AI.
 - Learn a few tools well instead of trying each new release.

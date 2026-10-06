@@ -21,6 +21,8 @@ tags:
 
 Reading for retention means splitting reading into two stages: taking the information in, then working on it so that it stays. Most people try to read faster, but how much they keep depends on the second stage. Sorting what you read into five kinds of information, namely procedures, analogies, concepts, evidence and reference details, tells you what to do with each piece and what to leave for later.
 
+## Takeaways
+
 - Read less when there is no time to process what you read.
 - Sort each piece as procedure, analogy, concept, evidence or reference.
 - Practise procedures early instead of memorising them.

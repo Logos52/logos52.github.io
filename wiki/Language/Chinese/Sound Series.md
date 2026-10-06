@@ -21,6 +21,8 @@ tags:
 
 A sound series is the set of Chinese characters that share one sound component, the part that hints at pronunciation. The readings inside a series often look unrelated in modern Mandarin, because the links were made in Old Chinese and sounds have changed since. A learner who knows which sounds are related can see the family resemblance, trust the sound part again, and guess better about characters never studied.
 
+## Takeaways
+
 - Few series have identical readings, and most vary in a regular way.
 - Tones do not count when matching a character to its series.
 - Related first consonants are made in the same part of the mouth.

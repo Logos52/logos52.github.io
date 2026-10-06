@@ -21,6 +21,8 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 A story under a vocabulary ceiling is fiction written for language learners, where every sentence uses only words the reader already knows. A reader at the start has no words for feelings or ideas. The parts of a plot, a want, an obstacle, a reversal and a change, are events, and simple words can show an event.
 
+## Takeaways
+
 - Readers need about 98% of words known to follow a story alone.
 - A full story arc can run on action words only.
 - Show feeling through a choice, an object, or a thing left undone.

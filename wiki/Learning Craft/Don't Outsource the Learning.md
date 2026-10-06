@@ -21,6 +21,8 @@ flag-reason: "cluster held: Learning Craft; opener is owner-picked Opus A. Do no
 
 When a person lets an AI write the code or the essay, the task gets done but their own understanding stays where it was. Over months of small handoffs, what the person can do without the tool gets weaker, and nothing on any single day shows it. The fix is to change how the tool is asked, since the same tool used for questions instead of answers produced better understanding in a controlled trial.
 
+## Takeaways
+
 - Getting the task done and learning the skill are separate results.
 - Default AI tools are tuned to finish tasks quickly.
 - Asking conceptual questions kept comprehension high in trials.

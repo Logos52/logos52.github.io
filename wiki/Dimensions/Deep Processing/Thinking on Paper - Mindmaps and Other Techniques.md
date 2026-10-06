@@ -20,6 +20,8 @@ tags:
 
 Thinking on paper means working through a hard problem by writing and drawing it out, instead of trying to hold every part of it in the head. The mind can only handle a few things at once, so a problem with many parts overloads it and feels confusing. Putting the parts on a page leaves the mind free to work on one connection at a time.
 
+## Takeaways
+
 - Working memory holds only a few items at once.
 - Feeling stuck usually means it is full.
 - Thinking harder while stuck makes the overload worse.

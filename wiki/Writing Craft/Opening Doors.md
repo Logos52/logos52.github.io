@@ -17,6 +17,8 @@ tags:
 
 The opening paragraph of a page can be built in a few different ways, and this wiki calls each of those ways a door. The door decides what the reader gets first, which can be a definition, a claim, a question, or a short run of familiar ground that leads to the subject. The door is chosen before sentence one is written, because the right door depends on what the reader already knows.
 
+## Takeaways
+
 - Pick the door first, then write sentence one inside it.
 - A reader who has never met the term needs it defined.
 - A reader who already has the term can take the claim first.

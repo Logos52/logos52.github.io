@@ -21,6 +21,8 @@ tags:
 
 Time beats timing is the finding that investors who buy a broad, low-cost fund and hold it for decades end up with more than those who try to pick the right moments to buy and sell. Most attempts to time the market lose money to bad entries, bad exits and fees. For an ordinary saver, that settles the main investing decision: buy the whole market cheaply and leave it alone.
 
+## Takeaways
+
 - Households that trade more earn less.
 - Average investors earn less than the funds they own.
 - Signals that seem to predict returns fail on new data.

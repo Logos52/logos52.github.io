@@ -29,6 +29,8 @@ tags:
 
 The current agentic LLM stack is the list of AI models and agent products this desk runs, with the one job each product holds and the date that job was given to it. A reader who runs more than one agent can use it to see which product takes a given job and why no two products share one.
 
+## Takeaways
+
 - Each product holds a seat, meaning a kind of job.
 - Only one agent edits a folder tree at a time.
 - Every product runs on a subscription or on the owner's laptop.

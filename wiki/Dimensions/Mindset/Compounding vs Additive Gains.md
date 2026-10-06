@@ -19,6 +19,8 @@ tags:
 
 A compounding gain is an improvement that changes the learner, so every later gain builds on a higher starting point. An additive gain raises results only while it lasts and leaves the learner the same underneath. The difference decides where limited study time should go, because two gains can look alike this week and end up far apart after a year.
 
+## Takeaways
+
 - A gain compounds only if it changes the learner's own ability.
 - An additive gain helps only while it is in place.
 - Test a gain by imagining it removed.

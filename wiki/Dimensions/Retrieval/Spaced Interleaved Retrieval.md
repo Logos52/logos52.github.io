@@ -20,6 +20,8 @@ tags:
 
 Spaced interleaved retrieval is a standing habit of testing yourself on what you have learned, at growing gaps of time, in a different way each time. Knowledge that is not used fades, often by about half within a week. Regular varied self-testing finds what has faded or was never understood, while there is still time to fix it.
 
+## Takeaways
+
 - Retrieval means any use of knowledge from memory.
 - Space sessions further apart each time.
 - Test the same idea from different angles.

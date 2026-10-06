@@ -20,6 +20,8 @@ tags:
 
 The Self-Management challenge is a month of work on the conditions a working day runs on: sleep, the room, the order of tasks, the plan and the breaks. In place of guessing why a day went badly, it gives a week of records, one tested change, one day run at full stretch, and then a search for the fewest habits that keep a day good enough. The month is repeated whenever days start slipping again.
 
+## Takeaways
+
 - Track a week of real days before changing anything.
 - Change one factor at a time, small and realistic.
 - An experiment ends when it names one help and one harm.

@@ -30,6 +30,8 @@ tags:
 
 A fixed mindset is the belief that intelligence and ability are set, so a hard task or a bad mark tells a person what they are. A growth mindset treats the same abilities as a starting point that practice changes. The difference decides what a learner does in the minute after a mistake, and that choice, repeated over years, decides whether new skills get built.
 
+## Takeaways
+
 - Most people are fixed in some areas and growth-minded in others.
 - Fixed thinking avoids challenge to protect a self-image built on results.
 - Praise for results rather than effort builds a fixed mindset.

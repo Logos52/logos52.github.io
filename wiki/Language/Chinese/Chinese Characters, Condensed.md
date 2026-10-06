@@ -19,6 +19,8 @@ tags:
 
 Chinese characters write the words of spoken Chinese, and each character carries a shape, a meaning and a sound. Most characters are built from a part that hints at the meaning and a part that hints at the sound, so a learner who reads each part for the job it does has far less to memorise.
 
+## Takeaways
+
 - Learn the spoken word first and the written shape on a later day.
 - Divide a character only down to the parts that do a job.
 - A part gives meaning, sound, an old picture, or nothing.

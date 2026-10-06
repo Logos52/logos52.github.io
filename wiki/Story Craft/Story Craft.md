@@ -20,6 +20,8 @@ flag-reason: "cluster held — Story Craft; opener is owner-picked Opus A. Do no
 
 Story Craft collects published writing craft on character, structure and scene, from screenwriting teachers, novelists and television writers' rooms. The owner opened the section in July 2026 to find the names for techniques he had used by instinct while building a cast for a graded-reader story, and to work out why one character read thin. Each page takes one technique, says how it works, and gives a published example.
 
+## Takeaways
+
 - Start with [[wiki/Story Craft/Story Craft, Condensed|Story Craft, Condensed]] for the short version.
 - Character pages explain what a person is built from.
 - Structure pages explain how the parts of a plot connect.

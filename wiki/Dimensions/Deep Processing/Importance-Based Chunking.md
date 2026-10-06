@@ -29,6 +29,8 @@ tags:
 
 Importance-based chunking is the habit of grouping the ideas in a topic by what matters most, then naming each group so that one group's name suggests what the others are. It decides how much of a topic has to be memorised. A group that follows from something already known needs almost no memorising, and a group that does not has to be learned by repetition.
 
+## Takeaways
+
 - A chunk is a group of ideas sharing one role.
 - Memory keeps ideas that sit inside a pattern.
 - Ideas with no pattern fade within weeks unless repeated.

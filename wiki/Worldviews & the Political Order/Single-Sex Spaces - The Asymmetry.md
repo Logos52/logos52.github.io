@@ -22,6 +22,8 @@ tags:
 
 Over about 40 years, American courts and laws opened almost every men-only club, lodge and school to women, while women-only colleges, clubs and gyms kept legal protection and new ones were funded. The men who lost those places now make up most of the country's suicides, overdoses and loneliness figures. The same anti-discrimination law is applied in one direction.
 
+## Takeaways
+
 - Men's lodges once enrolled about one in five adult American men.
 - A 1984 Supreme Court ruling ended the legal all-male civic club.
 - Women's colleges, clubs and gyms stay legal under exemptions.

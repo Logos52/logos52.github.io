@@ -19,6 +19,8 @@ tags:
 
 The wound and the lie are the two pieces of backstory that drive a character's arc. An event in the past, which writers call the ghost, left a pain called the wound, and the character came away believing something false, the lie, which protects them from that pain. A writer who names the event and the false belief knows what every scene has to press on and what the character must face before the end.
 
+## Takeaways
+
 - A ghost is a past event, and a mood cannot be one.
 - The wound is the pain that event still causes.
 - The lie is the false belief that shields against that pain.

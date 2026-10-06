@@ -29,6 +29,8 @@ tags:
 
 Recovery is what restores energy after work, and time off does not guarantee it. A person under heavy load can take every weekend off, come back tired each Monday, and slide toward burnout over months or years. Knowing what recovery needs lets a busy person get it in short blocks of time, and shows why a holiday on its own rarely fixes the problem.
 
+## Takeaways
+
 - Low effort and relaxation are different things.
 - Scrolling a phone is low effort and keeps the brain busy.
 - Recovery needs a mental switch-off from work.

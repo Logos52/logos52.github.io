@@ -17,6 +17,8 @@ tags:
 
 A cold open puts the page's main claim, at full strength, in its first sentence, with no lead-in. The reasons and details follow, and the reader takes each one as support for the claim already given. The form suits a reader who already knows the words the claim is made of.
 
+## Takeaways
+
 - The main claim goes in sentence one, at full strength.
 - The reasons come after the claim.
 - A doubt goes into the first sentence along with the claim.

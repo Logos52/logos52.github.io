@@ -19,6 +19,8 @@ tags:
 
 A silly mistake is an exam error that looks careless afterwards, such as a wrong unit or a dropped sign. Students who file these errors as silly tend to keep making them, because the label hides the cause. Most have a cause that can be found and fixed, and the fix is usually in how the material was learned more than in exam technique.
 
+## Takeaways
+
 - Most "silly" mistakes come from gaps in understanding.
 - An answer that makes sense when read may not be producible.
 - Trying to be more careful rarely works.

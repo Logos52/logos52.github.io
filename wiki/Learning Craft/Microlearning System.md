@@ -20,6 +20,8 @@ tags:
 
 Microlearning is a way to study a subject in many short sittings of five to thirty minutes each instead of one long session. It is built for people who rarely get a free hour, such as a university athlete who trains thirty or more hours a week or someone working two jobs. When the sittings follow a set order, a train ride, a lunch break and the wait for a kettle can add up to real understanding of the subject.
 
+## Takeaways
+
 - Each sitting does one step: prime, map, explore, dive or consolidate.
 - Scope each topic to about one or two hours of normal study.
 - Consolidate after every deep dive, before starting the next one.

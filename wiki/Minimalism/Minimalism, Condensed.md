@@ -17,6 +17,8 @@ tags:
 
 Minimalism, in the sense used here, means designing a home so that objects come in rarely, stay only while they do a job and leave easily. The design cuts the running costs of owning things and keeps the right objects in view.
 
+## Takeaways
+
 - Check why you want an object before buying it.
 - Plan how an object will leave before it comes in.
 - Every object costs space, upkeep and attention after purchase.

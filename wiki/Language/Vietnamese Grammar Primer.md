@@ -19,6 +19,8 @@ tags:
 
 Vietnamese grammar for a beginner comes down to a short list of patterns, read once and then looked for in real speech and text. Vietnamese words never change their form, so most of the grammar is word order and a small set of helper words. A learner who knows the handful of patterns below can follow the shape of most everyday sentences.
 
+## Takeaways
+
 - Words never change form for tense, number or person.
 - The basic order is subject, verb, object.
 - Describing words come after the noun they describe.

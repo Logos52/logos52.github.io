@@ -24,6 +24,8 @@ tags:
 
 A training corpus is the body of text a company feeds an AI model so that the model learns language and facts. In 2025 and 2026 American courts and settlements began to put a price on that text: a judge ruled that training on bought books is allowed and that copying pirated ones is not. For anyone building a model, the two questions that now set the cost are how the text was obtained and whether the finished model competes with the people who wrote it.
 
+## Takeaways
+
 - Anthropic paid $1.5 billion to settle claims over pirated books.
 - The payout was about $3,000 for each of 500,000 books.
 - Training on lawfully bought books was ruled fair use.

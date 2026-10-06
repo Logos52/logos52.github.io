@@ -23,6 +23,8 @@ tags:
 
 In 2024 a former head of the European Central Bank wrote a report on European competitiveness for the EU, and he called the gap that had opened between Europe's economy and the American economy since 2008 a "slow agony". Each cause of the gap is a policy choice. A reader who knows the choices can check any claim about European decline against them.
 
+## Takeaways
+
 - In 2008 the EU economy was larger than the US economy.
 - In 2025 the US made about $29 trillion, the EU $19.5 trillion.
 - Each choice behind the gap looked safe on its own.

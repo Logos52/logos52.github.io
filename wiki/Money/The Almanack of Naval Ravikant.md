@@ -22,6 +22,8 @@ tags:
 
 The Almanack of Naval Ravikant is a 2020 book in which Eric Jorgenson collected the investor Naval Ravikant's 2018 thread "How to Get Rich" and his public interviews. One half covers getting wealthy and the other covers being happy. The wealth half gives a working plan for earning without trading hours for pay, and the thread itself is free to read online.
 
+## Takeaways
+
 - Seek wealth rather than money or status.
 - Wealth is assets that earn while you sleep.
 - Status is a ranking, so one person's gain is another's loss.

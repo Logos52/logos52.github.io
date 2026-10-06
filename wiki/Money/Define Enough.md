@@ -22,6 +22,8 @@ tags:
 
 Enough is a money figure written down in advance, the amount at which saving more stops being the goal. Without a written figure, each raise and each milestone sets a higher target, and a person can save for decades without reaching an end. With one, a person can save hard now and also know the point at which spending on life is the better use of the money.
 
+## Takeaways
+
 - A target that is never written down keeps moving up.
 - People adjust to each new income level within a short time.
 - Comparing with peers resets the target once basic needs are met.

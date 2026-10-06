@@ -21,6 +21,8 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 A round character is one who can surprise the reader and still feel true. A telling detail is one small, specific thing a character does or owns that shows who they are faster than a description could. Together they settle how much depth each character in a cast needs and how to show that depth in a few lines.
 
+## Takeaways
+
 - A round character can surprise the reader convincingly.
 - A character who never surprises is flat.
 - A surprise that does not convince is a flat character in disguise.

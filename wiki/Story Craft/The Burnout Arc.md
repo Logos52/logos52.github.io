@@ -19,6 +19,8 @@ tags:
 
 The burnout arc is the path of a character who turns a gift into a job, loses first the joy and then the ability, and gets both back through rest and a return to the reason they started. Hayao Miyazaki's 1989 film Kiki's Delivery Service is the clearest worked example. The shape suits gentle stories, because the trouble comes from inside the character and no villain is needed.
 
+## Takeaways
+
 - The gift becomes a job, and the job crowds out everything else.
 - Comparison with others speeds the loss of confidence.
 - The character withdraws from friends before the ability goes.

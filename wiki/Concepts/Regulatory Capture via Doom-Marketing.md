@@ -21,6 +21,8 @@ tags:
 
 Regulatory capture via doom-marketing is when a company warns loudly that its own technology is dangerous and then asks the government to decide who may build or sell it. The rules that follow tend to protect the few firms already in front and keep cheaper competitors out. Knowing the pattern lets a reader judge an AI safety warning by who gains from the rule it asks for.
 
+## Takeaways
+
 - Warning of danger can win a company a say in the rules.
 - An approval process favours the firms that already pass it.
 - Check whether the company used the fixes it controls itself.

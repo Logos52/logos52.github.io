@@ -20,6 +20,8 @@ tags:
 
 Retrieval is pulling an idea out of memory with the source closed. The Retrieval challenge is a four-week plan that swaps rereading for that closed-book recall and then makes each recall harder. After the month, the habit when studying is to test what is held rather than look at the page again.
 
+## Takeaways
+
 - After the first pass, close the source and rebuild the ideas.
 - In week 1, a thin or wrong attempt still counts.
 - The closed-book move stays the same and only the difficulty rises.

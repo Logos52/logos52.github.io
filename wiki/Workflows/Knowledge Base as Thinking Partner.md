@@ -19,6 +19,8 @@ tags:
 
 A knowledge base, also called a vault, is a set of notes kept in one place, and it can be used to decide what to think about next as well as to store what was read. Most vaults drift toward storage: sources pile up, nobody asks the notes anything, and they never change a decision. Here a person and an AI model work on the same notes, and the notes turn into questions, links between ideas and a choice of what to work on.
 
+## Takeaways
+
 - A vault used only for storage becomes an archive nobody reads.
 - The person picks sources and asks questions.
 - The model does the summarising, linking and filing.

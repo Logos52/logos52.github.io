@@ -25,6 +25,8 @@ tags:
 
 The writing pipeline is the route a page on this site takes from source notes to published text when an AI model does the drafting. It splits the work into stages so that the model session which wrote a sentence is never the one that checks it, and that stopped drafts from referring to things the page had never explained.
 
+## Takeaways
+
 - Turn the source into a fact list in your own words, then close it.
 - Show an outline before any prose.
 - Write one paragraph at a time and check each with a script.

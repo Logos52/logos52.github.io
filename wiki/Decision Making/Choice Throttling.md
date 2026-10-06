@@ -19,6 +19,8 @@ tags:
 
 Choice throttling is a way to make a tangled decision by breaking it into a chain of yes or no questions, each narrowing the options left. A choice with many moving parts, such as which university to attend or whether to leave a career, becomes a set of steps small enough to answer one at a time.
 
+## Takeaways
+
 - Ask one yes or no question at a time.
 - Order the questions from broad to narrow.
 - A yes leads to the next question or to concrete steps.

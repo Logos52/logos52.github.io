@@ -18,6 +18,8 @@ tags:
 
 Many people decide whether to speak in a meeting or a group chat by counting what speaking might cost them: bothering others, looking foolish, being judged. They rarely count what their words would give the group, so the count favours silence nearly every time. Studies in social psychology find that people overrate how much others notice and judge them, and that groups lose information when members keep quiet.
 
+## Takeaways
+
 - People count the costs of speaking and skip its value.
 - Others notice and judge us less than we think.
 - Others like us more after a talk than we guess.

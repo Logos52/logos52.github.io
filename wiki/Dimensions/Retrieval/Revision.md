@@ -20,6 +20,8 @@ tags:
 
 Revision is going back to material already studied to find what is missing, fix it, and check that it can be used. First learning always leaves gaps, and revision is where they get caught before an exam or a job exposes them. A simple loop of test, target and teach covers most of what good revision needs.
 
+## Takeaways
+
 - Revision exists to find gaps and fix them.
 - Test yourself, target your weakest area, teach it back.
 - Start with what you are worst at.

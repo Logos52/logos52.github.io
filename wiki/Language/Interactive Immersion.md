@@ -20,6 +20,8 @@ tags:
 
 Interactive immersion is working through real content in the language you are learning with tools, such as a pop-up dictionary, pausing and rewinding, to understand lines you could not follow on your own. It suits content that is a little too hard to follow straight through and close enough to understand with help. It is where new words and grammar get worked out in real sentences.
 
+## Takeaways
+
 - Real content plus tools, used on purpose.
 - Use it when a line is understandable with some help.
 - Work on sentences with one or two unknown words.

@@ -21,6 +21,8 @@ tags:
 
 A writing template is a fixed order for the sentences of a section or a whole page. The five here come from five habits of clear speaking: say the conclusion first, give observations before conclusions, restate the question, say what would change your mind, and compress the point before saying it. Each one also works as a check on the writer, because it cannot be filled in without doing the thinking it asks for.
 
+## Takeaways
+
 - Each template fits a single section or a whole page.
 - To put the conclusion first, you must know it.
 - To give observations first, you must have some.

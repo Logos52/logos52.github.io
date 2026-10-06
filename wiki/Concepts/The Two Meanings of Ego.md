@@ -19,6 +19,8 @@ tags:
 
 The English word ego covers two different things: a person's own judgment, and a person's wish to be admired. Writing needs the first and is spoiled by the second, and the usual advice to drop the ego removes both. Keeping the two apart gives a writer a test for any sentence: whether it shows the reader the subject or shows the reader the author.
 
+## Takeaways
+
 - Selfhood is the judgment in the work, what is kept and cut.
 - Self-regard is a bid for the reader's good opinion.
 - The two are separate and can move independently.

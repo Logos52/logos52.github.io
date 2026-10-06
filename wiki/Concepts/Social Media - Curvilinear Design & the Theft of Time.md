@@ -23,6 +23,8 @@ tags:
 
 Social media feeds are built so that people keep scrolling without noticing time pass, and the layout ideas come from casinos. A half hour on a feed leaves few memories, so the day looks shorter afterwards and the lost time is hard to account for. Knowing how the design works shows where to put back the points of choice that make a person notice the time.
 
+## Takeaways
+
 - Time feels long when you are alert or remember a lot.
 - Feeds lower alertness during use and memory afterwards.
 - Casinos avoid sharp corners because corners make people decide.

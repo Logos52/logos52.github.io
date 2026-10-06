@@ -23,6 +23,8 @@ tags:
 
 Young men and young women of Gen Z, born roughly 1997 to 2012, now vote, study, date and think about family in opposite directions, by margins no earlier generation showed. In 2000 women aged 18 to 30 were about 6 points more progressive than men the same age, and by 2025 the gap was about 30 points across 30 countries. The split runs through school, the dating apps, debt and the social media feeds each sex sees.
 
+## Takeaways
+
 - Young women moved left and young men moved right after 2016.
 - Women now earn most college degrees, and men fall behind.
 - Dating apps give men constant rejection and women overload.

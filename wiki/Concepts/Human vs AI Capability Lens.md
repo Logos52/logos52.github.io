@@ -27,6 +27,8 @@ tags:
 
 The human versus AI capability lens is a way to score a skill, a design principle or a task twice: once for how much it needs a person, and once for how well an AI model can do it. The two scores are separate, so a task can need a person badly and still be easy for a model. Where a task lands on the two scores tells you whether to keep it, share it with a model, or hand it over.
 
+## Takeaways
+
 - Score the human side and the AI side separately, from 1 to 5.
 - A task can score high on both at once.
 - The human side is judging quality, making new things and owning the call.

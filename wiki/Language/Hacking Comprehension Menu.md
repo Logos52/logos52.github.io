@@ -21,6 +21,8 @@ tags:
 
 The hacking comprehension menu is a list of changes a language learner can make when a video, show or text in the language they are learning is too hard to follow. The changes come in three lists: tools, techniques and choices of content. Picking one item from each list usually brings hard content back to a level where the learner follows it and learns from it.
 
+## Takeaways
+
 - Use it when a session fails because you understand too little.
 - Pick at least one tool, one technique and one content change.
 - Change one small thing, then check whether it helped.

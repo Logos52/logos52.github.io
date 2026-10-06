@@ -19,6 +19,8 @@ tags:
 
 Order control means the learner decides the order in which to learn a topic, in place of the order set by the textbook, the course or the teacher. A person who reorders the material around their own questions understands more on the first pass and spends less time rereading. Many learners keep to the given order anyway, because leaving it feels like skipping work.
 
+## Takeaways
+
 - The best order depends on what the learner already knows.
 - An author cannot know that, so the given order rarely fits.
 - Read next whatever answers the question most worth answering.

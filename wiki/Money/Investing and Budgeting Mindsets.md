@@ -23,6 +23,8 @@ tags:
 
 The money pages of this wiki come from six books about saving, investing and spending. Between them the pages answer how much to save, where to put it, how long to leave it there, and when to stop saving and spend it. A new reader can start with the savings rate and with time in the market, since those two decide most of the final balance, and read the rest as needed.
 
+## Takeaways
+
 - Behaviour decides results more than intelligence or stock picks.
 - The gap between income and spending is the main thing to change.
 - Staying invested beats picking moments to buy.

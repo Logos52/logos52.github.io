@@ -20,6 +20,8 @@ tags:
 
 Attention span is how long a person can keep their mind on one chosen task, and how fast they bring it back once it drifts. Most focus tips raise attention for one session and have to be applied again the next time. A daily practice of bringing attention back, kept up for weeks, raises the level each session starts from, so fewer tips are needed.
 
+## Takeaways
+
 - A tip helps today's session.
 - Training changes the level every session starts from.
 - Needing more and more tips means that level is low.

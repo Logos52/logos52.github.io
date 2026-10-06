@@ -22,6 +22,8 @@ tags:
 
 A sound component is the part of a Chinese character that hints at how the character is pronounced. Most Chinese characters have one, paired with a part that hints at the meaning. A sound component rarely gives the exact reading, but it narrows the reading to a small range, and that is enough to make a new character easier to learn and an old one easier to recall.
 
+## Takeaways
+
 - A sound component narrows the reading to a small range.
 - Tones almost never carry from the part to the character.
 - Odd-looking matches usually sounded close in ancient Chinese.

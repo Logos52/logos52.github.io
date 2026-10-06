@@ -23,6 +23,8 @@ tags:
 
 Prohibition after diffusion is what happens when a government tries to ban software after copies have already spread. Open-weight AI models, whose files are published for anyone to download, are the current case: anyone who downloaded one can run it offline, so a ban cannot recall it. What a ban can still reach is the domestic companies and developers who would build on the model, while the rest of the world keeps using it.
 
+## Takeaways
+
 - A published model file cannot be pulled back.
 - A late ban reaches only law-abiding users at home.
 - The cheapest place to stop copying is before release.

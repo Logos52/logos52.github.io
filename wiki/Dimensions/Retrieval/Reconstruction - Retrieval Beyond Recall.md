@@ -19,6 +19,8 @@ tags:
 
 Reconstruction is a way of testing yourself in which you take facts you already know and try to join them in ways you have not joined them before. Plain recall checks only that a memory you built can be brought back. Reconstruction checks whether those facts still work in a new arrangement, which is what hard and unexpected exam questions ask for.
 
+## Takeaways
+
 - Recognising is weaker than recalling, and recalling is weaker than reconstructing.
 - Reconstruction builds new links between facts you already hold.
 - Each proposed link has to be judged: possible or not.

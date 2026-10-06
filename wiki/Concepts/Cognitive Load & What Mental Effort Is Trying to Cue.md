@@ -19,6 +19,8 @@ tags:
 
 Cognitive load is how much your brain is holding and working on at one moment, and mental effort is what that load feels like from the inside. Reading the feeling correctly settles a decision that comes up many times a day: whether to keep going, slow down, or unload something onto paper.
 
+## Takeaways
+
 - Effort shows what kind of mental work you are doing.
 - Easy, smooth reading usually stores very little.
 - Confusion about where a thing fits is the load that builds memory.

@@ -24,6 +24,8 @@ tags:
 
 AGI, artificial general intelligence, is AI that can do most tasks a person can, and riding it means working with AI models while they improve month by month. The method is to use the newest tools every day, stay ready to switch tools, and expect any edge to last weeks. It comes from a July 2026 conversation between the investor Naval Ravikant and three founders who run AI agents in their daily work, and it changes how long a bet on one model, one product or one skill can be expected to pay.
 
+## Takeaways
+
 - A lead from the best model now lasts weeks.
 - Open models trail the best closed models by months.
 - Software is getting cheap to build, so it is hard to own.

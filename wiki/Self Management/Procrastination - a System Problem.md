@@ -20,6 +20,8 @@ tags:
 
 Procrastination is putting off a task you intend to do, knowing that the delay will cost you. Most people treat it as a shortage of motivation and try to feel more driven, which works for a few days and then fades. Delay is cut more reliably by changing the surroundings, the plan and the size of the first step, so the task gets started on low-motivation days too.
 
+## Takeaways
+
 - Motivation rises and falls from day to day.
 - A plan that needs motivation fails on most days.
 - Build plans you could finish on a bad day.

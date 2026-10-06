@@ -19,6 +19,8 @@ source-count: 18
 
 The context problem is the fault of a sentence that uses a word, a meaning, a connection or a reference the page has not yet given the reader. The writer knows the missing piece, so the sentence reads fine to them, and a reader who has only the lines above it cannot follow. Language models make this mistake often, because they write while holding the whole subject, and the usual fixes do not stop it.
 
+## Takeaways
+
 - A sentence may use only what earlier lines on the page gave.
 - Knowing a subject makes it hard to see what others do not know.
 - Trying harder to picture the reader does not fix it.

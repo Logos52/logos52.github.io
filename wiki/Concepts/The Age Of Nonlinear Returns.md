@@ -20,6 +20,8 @@ tags:
 
 Nonlinear returns are outcomes where a small difference in effort, skill or choice produces a result many times larger, as when one startup in a fund returns more than all the others together. Software, media and AI have made this the usual shape of returns in much of today's work. Where it holds, the way to spend time, settle disputes and choose projects changes: protect the chance of a very large outcome, and stop fighting over small ones.
 
+## Takeaways
+
 - In many fields, the top result outweighs all the rest combined.
 - A future upside can be 100 to 10,000 times today's stakes.
 - Time and open options are the scarce resource.

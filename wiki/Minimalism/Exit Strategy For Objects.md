@@ -20,6 +20,8 @@ tags:
 
 An exit strategy for an object is a plan for how it will leave your home, made before you buy it. Objects that are large, awkward or wanted by few people cost the most to get rid of, and without a plan they stay for months or years. Deciding the exit at the point of purchase settles the question once, instead of leaving it to come back again and again.
 
+## Takeaways
+
 - Plan how an object will leave before it comes in.
 - Large, awkward, low-demand objects cost the most to remove.
 - Waiting for a good resale price keeps objects for weeks.

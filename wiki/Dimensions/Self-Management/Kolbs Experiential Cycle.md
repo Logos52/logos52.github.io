@@ -22,6 +22,8 @@ tags:
 
 Kolb's experiential cycle is a four-step routine for learning from something you just did: describe what happened, reflect on it, find a cause, and plan an experiment. The experiment becomes the next experience, so each cycle builds on the last. It turns mistakes into specific changes to try.
 
+## Takeaways
+
 - Pick one small, recent process, never an outcome.
 - Reflect in detail, including how it felt.
 - Find the cause in your own notes on what happened.

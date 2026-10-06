@@ -31,6 +31,8 @@ tags:
 
 A schema is the network of connections a person holds between the facts and ideas of a subject. How well that network is built decides how long the knowledge lasts and whether it can be used on hard problems, so the speed of learning a subject is the speed of building its schema. A schema is built in three passes: a rough draft, then adding new material to it, then cleaning it up.
 
+## Takeaways
+
 - Facts are kept when they connect to other facts.
 - The brain drops information that links to nothing.
 - Build a rough draft first, from keywords and guesses.

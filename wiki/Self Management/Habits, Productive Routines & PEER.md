@@ -18,6 +18,8 @@ tags:
 
 A habit is a behaviour that starts from a cue in your surroundings and runs without a decision. Work that depends on feeling motivated gets done on good days only, and work built into a habit gets done on most days. PEER is a routine of five steps for building a productive habit: Prep, Easy, Exit, Reward and Peer.
 
+## Takeaways
+
 - Run routine work on habit and keep motivation for hard days.
 - Every habit runs cue, then behaviour, then reward.
 - Change the cues around you before relying on willpower.

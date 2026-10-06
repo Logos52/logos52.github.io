@@ -18,6 +18,8 @@ tags:
 
 Confidence calibration is how closely a person's confidence in their knowledge or skill matches how good they actually are. People are usually more confident than their results justify, most of all when they know a little about a subject. A learner who checks their confidence against evidence changes their methods sooner and avoids decisions built on knowledge they do not have.
 
+## Takeaways
+
 - Most people rate themselves above average at most things.
 - Confidence often peaks early, after only a little learning.
 - High confidence without years of study is usually overconfidence.

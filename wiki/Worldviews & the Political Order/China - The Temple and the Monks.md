@@ -22,6 +22,8 @@ tags:
 
 China's economy is still run by command from the state. The skyscrapers, the bullet trains and the export surplus are paid for with money taken from households, and the households stay poor, which a Chinese saying puts as the temple is rich and the monks are poor. A reader who knows this reads a Chinese growth figure as output ordered from above, with no bearing on what people can afford to buy.
 
+## Takeaways
+
 - GDP growth in China is a quota every level must report.
 - Officials build things nobody buys and count them.
 - The state owns the land, the banks, energy and big industry.

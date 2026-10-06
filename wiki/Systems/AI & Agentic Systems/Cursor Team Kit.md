@@ -21,6 +21,8 @@ tags:
 
 Cursor Team Kit is a plugin for the Cursor code editor, published by Cursor, and a plugin is a package of saved procedures, called skills, each run by name in chat. This kit's skills cover the chores after a code change: watching a repository's automated checks, cleaning a branch, opening a pull request, and proving a screen change in a real browser. On this desk no screen work counts as done without a picture taken in the app after the change, and this kit holds the skill that takes that picture.
 
+## Takeaways
+
 - Install inside Cursor with `/add-plugin cursor-team-kit`.
 - Version 1.2.0, MIT licence, listed author Eric Zakariasson.
 - It needs only a repository, GitHub and a local browser.

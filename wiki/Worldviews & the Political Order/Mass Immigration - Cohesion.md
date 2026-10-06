@@ -18,6 +18,8 @@ tags:
 
 Mass immigration here means large inflows of people from places whose way of life differs enough that most arrivals will not take on the local one. The question that settles the policy is whether an admitted person can support himself and will join the host society. That question is decided one person at a time, at the point of admission.
 
+## Takeaways
+
 - Select on the person: capacity, skill, self-sufficiency.
 - Assimilation follows from selecting well.
 - Cohesion is the real concern, wages and tax the public argument.

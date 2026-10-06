@@ -20,6 +20,8 @@ tags:
 
 ReCOVer is a four-step way to plan and write an essay, especially under exam time, and the steps are Recall, Chunk, Order and Verbalise. The writer decides what to say and in what order before writing any sentences, where most writers try to do both at the same time. An essay planned this way is quicker to write, and each problem in it can be traced to the step that caused it.
 
+## Takeaways
+
 - Plan the flow of ideas before writing any sentences.
 - Recall the points, cut to a few groups, order them, write.
 - Most essays need three or four main points.

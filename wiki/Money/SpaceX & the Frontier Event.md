@@ -26,6 +26,8 @@ tags:
 
 SpaceX lands and reflies its rockets, and that has cut the cost of reaching orbit enough to open space as a place to do business. When a new physical region opens, as the oceans did in the 1400s and the American West in the 1800s, much of the early money goes to whoever controls transport and the few best locations. Seeing space that way helps an investor judge where the money is likely to go and where the risks sit.
 
+## Takeaways
+
 - A frontier opens when people can reliably come back from it.
 - Reusable rockets opened space the way better sails opened the oceans.
 - Early on, rules are thin and the first arrivals claim the best spots.

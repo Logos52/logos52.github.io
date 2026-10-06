@@ -20,6 +20,8 @@ tags:
 
 Wabi-sabi is a Japanese idea of beauty that values natural materials, simple forms and small imperfections. A designer uses it to make a room, an object or a page feel made by hand and cared for over time, in places where a flawless finish would feel cold. The amount matters, since a heavy dose makes the object look neglected.
 
+## Takeaways
+
 - Wabi is the beauty of slight imperfection, like handmade pottery.
 - Sabi is the beauty that comes with age, like patina on copper.
 - The core ideals are impermanence, imperfection and incompleteness.

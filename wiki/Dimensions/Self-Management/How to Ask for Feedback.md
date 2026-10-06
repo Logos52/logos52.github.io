@@ -23,6 +23,8 @@ tags:
 
 Feedback is information about how your work or your understanding is going that tells you what to change next. What comes back depends heavily on how the request is written: your situation, your goal, your own assessment and one or two focused questions get a useful answer, and "any thoughts?" gets a vague one.
 
+## Takeaways
+
 - Assess your own work first, every time.
 - Frame the goal as a skill or process to build.
 - Give enough context, then narrow to one or two questions.

@@ -18,6 +18,8 @@ tags:
 
 The three-mode immersion system is a way to learn a language mainly from hours spent watching, listening to and reading real material, with study used only to make that material easier to follow. Its three modes are the kinds of time in a study day: preparation, input with lookup tools, and input with no tools. It sets the order of work over months and the shape of a single day, so a learner does not have to decide each morning what to study.
 
+## Takeaways
+
 - Progress comes from time spent understanding the language, even partly.
 - Rules and word lists crammed for a test fade within weeks.
 - The order is reading, then listening, then speaking.

@@ -18,6 +18,8 @@ tags:
 
 DEI stands for diversity, equity and inclusion. It is a set of workplace policies that give priority to under-represented groups in hiring and promotion, and it presents itself as a fight against discrimination. Each argument made for it has an answer, and a reader who has the answers can judge a DEI policy in a few minutes.
 
+## Takeaways
+
 - Every argument for DEI assumes outcome gaps come from discrimination.
 - Once identity counts in hiring, merit counts less.
 - The business arguments can be checked against data, and all fail.

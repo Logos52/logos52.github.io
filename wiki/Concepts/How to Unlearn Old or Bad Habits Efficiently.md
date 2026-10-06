@@ -21,6 +21,8 @@ tags:
 
 A habit is a response the brain runs on its own when a familiar cue appears, such as picking up the phone when a task feels boring. Unlearning one means putting a better response on the same cue and repeating it until the new response runs on its own. Most of the effort in changing what you do goes into getting past the old habit, so anything that shortens that step shortens the learning of any new skill.
 
+## Takeaways
+
 - A habit is a cue followed by an automatic response.
 - The cue is often a feeling, such as overwhelm or boredom.
 - Swap the response on one cue at a time.

@@ -18,6 +18,8 @@ tags:
 
 Financial slavery is lending set up so that the lender earns most when the borrower never clears the debt. The same design runs from a small buy now pay later purchase up to a government's budget, with the state holding it in place. A reader who knows the pattern can spot a loan whose terms reward the lender for the borrower's failure.
 
+## Takeaways
+
 - An honest loan shares risk between lender and borrower.
 - A predatory loan pays the lender more when the borrower falls behind.
 - The state makes a predatory loan hold, by blocking bankruptcy.

@@ -21,6 +21,8 @@ tags:
 
 The Hán-Việt bridge is the head start a Vietnamese speaker has when learning Mandarin. Over many centuries Vietnamese borrowed a large share of its words from Chinese, and those words, called Sino-Vietnamese or Hán-Việt, are still everyday Vietnamese, with sounds that match Mandarin in regular ways. A learner who knows the regular sound changes can guess the meaning of many Mandarin words on first contact, and knows where the guess will fail.
 
+## Takeaways
+
 - A Vietnamese speaker already knows about 3,000 syllables borrowed from Chinese.
 - 學生 is học sinh in Vietnamese and xuéshēng in Mandarin.
 - Meaning carries over well.

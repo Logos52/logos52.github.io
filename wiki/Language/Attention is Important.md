@@ -20,6 +20,8 @@ tags:
 
 In language learning by immersion, only the time you spend paying attention to the language teaches you anything. A show playing in the background while you cook teaches almost nothing. The task is to give your attention a job even when you understand very little of what you hear.
 
+## Takeaways
+
 - Language you do not attend to is not learned.
 - Background listening does not count as immersion time.
 - A beginner needs a small task to hold attention.

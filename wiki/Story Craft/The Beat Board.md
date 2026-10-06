@@ -20,6 +20,8 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus B. Do not p
 
 A beat is one change in a story, and a beat board is a wall or table of index cards, one card per beat, used to plan the structure before any scene is written. Television writers' rooms use a board to lay out a whole season, and novelists use the same method alone. Cards are cheap to move, cut and test, and a board shows gaps that a draft hides.
 
+## Takeaways
+
 - One beat per card, in about seven words.
 - Neighbouring beats should connect with "but" or "therefore".
 - Beats joined by "and then" have no cause between them.

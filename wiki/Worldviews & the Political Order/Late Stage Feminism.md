@@ -22,6 +22,8 @@ tags:
 
 Late stage feminism is the name used here for the point where feminism, having set out to free women from the old order between men and women, turns on the instincts that order was built on, up to the instinct to protect one's own children. Two payments show the point. Lindsay Clancy, a mother in Massachusetts who murdered her three children, was given more than $1 million by supporters online, and a woman burned over 93% of her body carrying six children out of a fire was given $42,000.
 
+## Takeaways
+
 - The thing to explain is public support for the mother.
 - Ideologies justified murder before, and wide sympathy for the murderer is new.
 - The abortion debate moved from personhood to hard cases to bodily autonomy.

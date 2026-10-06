@@ -21,6 +21,8 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 A character arc is the change a main character goes through between the first page and the last, measured by what the character believes. Naming the arc type before writing settles what the ending has to prove. It also stops a writer from giving a good character a fake flaw because the textbooks expect one.
 
+## Takeaways
+
 - Most arcs turn on a false belief, the Lie, and a Truth.
 - Positive change: the character gives up the Lie and takes the Truth.
 - Flat arc: the character holds the Truth and the world changes.

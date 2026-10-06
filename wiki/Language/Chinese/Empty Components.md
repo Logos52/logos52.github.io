@@ -21,6 +21,8 @@ tags:
 
 An empty component is a part of a Chinese character that gives neither its sound nor its meaning. Some were added on purpose as small marks to tell two characters apart, and others are what is left of older parts whose shapes wore down over the centuries. A learner who knows a part is empty, and why, will not build a memory story on it as if it carried meaning.
 
+## Takeaways
+
 - An empty part gives no sound and no meaning in that character.
 - Call a part empty only after ruling out picture, meaning and sound.
 - A distinguishing mark was added to separate two words.

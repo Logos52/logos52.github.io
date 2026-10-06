@@ -27,6 +27,8 @@ tags:
 
 Higher-order learning is studying by comparing the pieces of a subject and judging which of them matter most, so that they end up joined into one network in memory. Lower-order learning is reading, repeating and memorising each piece on its own. The choice decides what a study session leaves behind: a network can be used on a new problem in the subject, and a list of facts can only be recited.
 
+## Takeaways
+
 - Higher-order work compares pieces, then judges which links matter.
 - It builds the lower-order knowledge along the way.
 - Lower-order work builds only lower-order knowledge.

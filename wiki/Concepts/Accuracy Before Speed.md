@@ -20,6 +20,8 @@ tags:
 
 Accuracy before speed is a rule for work and practice: do the task right at a pace you can hold, and let speed come on its own as the method settles. It settles a decision that comes up every day, whether to push harder on a familiar task. Pushing buys almost nothing, because the errors it adds cost more time than the extra speed saves.
 
+## Takeaways
+
 - On familiar work, the unused speed is only 5 to 10 percent.
 - One error costs about four times doing the work right once.
 - The four-times figure is a practitioner's estimate, unmeasured by any study.

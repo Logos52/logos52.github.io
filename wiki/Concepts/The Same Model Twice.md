@@ -20,6 +20,8 @@ source-count: 1
 
 A comparison test can put one AI model on both sides under two different names and score it against itself. On this desk a voice model test ran for two days and ten rounds on the belief that a stronger model was losing to a weaker one, until a read of the configuration file on disk showed that the two were one and the same model, 1.7 billion parameters in size. A model's folder name does not say which file is loaded, so anyone comparing local models can lose days the same way.
 
+## Takeaways
+
 - A model's name does not show which file is loaded.
 - Read the configuration file before the first test round.
 - Check the size, the precision and the task it was set.

@@ -17,6 +17,8 @@ tags:
 
 Story craft is the set of working rules writers use to build characters, plot and scenes that hold an audience. A writer who has the core rules can start a story before reading the full page on each one.
 
+## Takeaways
+
 - A character starts from a wound, false belief, want and need.
 - The arc is the distance from the false belief to the truth.
 - Every scene turns a value, from better to worse or the reverse.

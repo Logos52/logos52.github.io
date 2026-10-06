@@ -20,6 +20,8 @@ tags:
 
 A large language model on its own can only produce text from what it absorbed in training, and that training stops at a cutoff date and is stored as a blurred average of what it read. Tools are the ways an app puts new text in front of the model: a web search, an uploaded file, or the output of a program the model wrote. Knowing which tool a question needs tells you when to trust an answer and when to check it.
 
+## Takeaways
+
 - The model knows only its training and what is in the conversation.
 - A tool adds text to the conversation for the model to read.
 - Recent events need a search, since training ends at a fixed date.

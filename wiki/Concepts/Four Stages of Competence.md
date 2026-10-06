@@ -21,6 +21,8 @@ tags:
 
 The four stages of competence describe how a skill moves from doing it wrong without knowing to doing it right without thinking. Knowing which stage a skill is in tells you what progress looks like right now, so you keep practising while the results have not arrived yet.
 
+## Takeaways
+
 - Stages: wrong and unaware, wrong and aware, right with effort, habit.
 - Seeing your own mistakes is the first real progress.
 - Results mostly arrive in the last stage.

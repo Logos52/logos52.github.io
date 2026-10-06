@@ -21,6 +21,8 @@ tags:
 
 Self-regulation is the ability to watch your own learning while it happens, judge whether it is working, and change it. It matters most when outside structure drops away, such as the move from school to university or into study on your own. A learner who cannot adjust falls back on whatever way of studying came naturally, and results drop when the material or the setting gets harder.
 
+## Takeaways
+
 - Self-regulation runs on awareness of your own thinking.
 - Mistakes are expected, and the skill is noticing them and steering.
 - Most learners read difficulty as a sign that a method is failing.

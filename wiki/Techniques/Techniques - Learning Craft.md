@@ -17,6 +17,8 @@ prose-model: fable
 
 A study technique is a named method such as flashcards, mind maps or practice papers. The same technique can work well or badly depending on how it is done, because what a learner remembers depends on the thinking the technique makes them do. Each common technique has one change that makes it work better, and each part of learning has its own page in the wiki.
 
+## Takeaways
+
 - How a technique is done matters more than which one is picked.
 - Most upgrades add thinking to a technique that used to allow less.
 - Confidence marks a knowledge gap better than a right answer does.

@@ -21,6 +21,8 @@ tags:
 
 The accretion frame is a way to keep a practice such as exercise going by building it around something that grows with each session, in place of streaks, daily targets and willpower. A logbook of personal bests, a skill that keeps improving, or a book heard only while walking all add up, and each is still there after a break. The frame matters because streaks and daily targets turn one missed day into a reason to quit.
 
+## Takeaways
+
 - Build the practice around something that grows and stays.
 - A streak measures how much you stand to lose.
 - A useful measure still means something after a month off.

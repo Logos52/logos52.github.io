@@ -20,6 +20,8 @@ tags:
 
 Problem-first learning starts a topic from the problems it solves and learns the theory in order to solve them, instead of learning the theory first and looking for problems afterwards. It is aimed mostly at maths and similar subjects, where students often memorise equations and practise until each question type works, and then fail on any question worded in a new way. A student who knows what each idea is for handles new and applied questions more easily.
 
+## Takeaways
+
 - Start with what a topic is for, then learn how it works.
 - Ask what each idea is, why it matters and how it relates.
 - Map the uses of a concept before learning its equations.

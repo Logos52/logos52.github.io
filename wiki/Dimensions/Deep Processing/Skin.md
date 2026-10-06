@@ -20,6 +20,8 @@ tags:
 
 Skin is the cleanup pass on a study map: the learner stops taking in new material and reorganises what is already on the page until the structure is simple and can be rebuilt from memory. It is the third step of the Bear Hunter System, after Aim writes the questions and Shoot answers them on a map. The regrouping and ranking in this pass turns a map that covers a topic into one that is remembered and can be used on unfamiliar questions.
 
+## Takeaways
+
 - No new material comes in during the pass.
 - Group items into chunks, and chunks into larger chunks.
 - Keep each point to two to four branches.

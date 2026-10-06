@@ -21,6 +21,8 @@ tags:
 
 A bias is a lean in a person's judgment that runs the same way every time. Framing is the choice of words and emphasis that carries that lean into a sentence. Knowing how the two connect tells a reader where to look, because every fact in a sentence can be true while one word has already set which conclusion feels right.
 
+## Takeaways
+
 - A bias has a direction and a random mistake has none.
 - Correcting a bias means finding its direction and adjusting for it.
 - Framing changes how facts feel, so fact checking misses it.

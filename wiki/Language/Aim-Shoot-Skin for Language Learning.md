@@ -22,6 +22,8 @@ tags:
 
 Aim-Shoot-Skin for language learning is a loop for picking up words and grammar from material you want to understand. You choose a passage a little beyond your level, look up only what you need to follow it, use those words, and later look for patterns that link them. Words learned to solve a real problem last longer than words drilled from a list, and the loop ties every study hour to something you want to read or say.
 
+## Takeaways
+
 - Choose material you care about, a little above your level.
 - Work out new words from context before looking them up.
 - Look up only what blocks understanding of the passage.

@@ -21,6 +21,8 @@ tags:
 
 When an AI model is asked a question about a subject a wiki covers, it can answer from the wiki pages, which were written from source material such as articles and transcripts, and open the source files only when the pages fall short. A model that searches the source files for every question finds and joins the same pieces each time, and nothing it works out is kept. Reading a short index first, then the pages, is faster, and a good answer can be filed back so the next question starts further along.
 
+## Takeaways
+
 - Read the public index first, every time.
 - Then read the wiki pages the index points to.
 - Open source files only when the pages are not enough.

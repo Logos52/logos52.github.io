@@ -24,6 +24,8 @@ tags:
 
 The serving layer is the business of running AI models for customers: the cloud computers, the chips and the hosting companies that answer each request. When a free open-weight model does the same work as a paid frontier model, the profit in AI moves from the labs that train models to the companies that run them most cheaply. That shift explains who argues for open weights, who argues against them, and why a lab's revenue can keep growing while its share of all AI use falls.
 
+## Takeaways
+
 - Open models now match closed ones within weeks of a published benchmark.
 - A model that anyone can copy stops earning a premium.
 - The profit moves to the cloud, the chips and the applications.

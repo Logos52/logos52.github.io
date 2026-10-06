@@ -18,6 +18,8 @@ tags:
 
 A silence is a stretch of work that nobody sees, praises or checks. What keeps a person working through one shows whether a standard they hold is their own or one kept for other people's approval. Studies of motivation give a few ways to tell the two apart, and in those studies the two kinds of standard look the same for the first few weeks.
 
+## Takeaways
+
 - A standard kept for approval still runs when nobody is watching.
 - Pressure drives effort and brings more anxiety after failure.
 - Owned and pressured goals look alike until weeks two to four.

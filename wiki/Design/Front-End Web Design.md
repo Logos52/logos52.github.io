@@ -24,6 +24,8 @@ tags:
 
 Front-end web design is the work of deciding what a web page shows, where each thing sits, and what happens when someone clicks, types or waits. Don Norman's rules from The Design of Everyday Things apply to a screen as they apply to a door or a stove, and a screen makes them easier to break without anyone noticing. Checking a page against them catches the faults that send a visitor away before they find what they came for.
 
+## Takeaways
+
 - Every clickable thing should look clickable.
 - Every action should show a result within a tenth of a second.
 - Show on the screen what the visitor would otherwise have to remember.

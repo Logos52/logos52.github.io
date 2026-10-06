@@ -22,6 +22,8 @@ tags:
 
 Deep processing is the thinking a learner does while new material arrives: comparing it with what is already known, judging which parts matter, and fitting it into a structure. How much of that thinking happens sets how much can be recalled and used later. It decides whether an hour of study leaves something usable or only a feeling of familiarity.
 
+## Takeaways
+
 - Memory strength is set at first contact with the material.
 - Repeating a shallow pass more times adds little.
 - Comparing, judging and connecting build the memory.

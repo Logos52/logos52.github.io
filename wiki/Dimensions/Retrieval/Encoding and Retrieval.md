@@ -20,6 +20,8 @@ tags:
 
 Encoding is getting information into long-term memory, and retrieval is any later use of it: testing yourself, explaining, teaching or solving a problem. The two trade off against each other. The better you encode, the less retrieval practice you need, and while encoding skill is still weak, retrieval practice has to make up the difference.
 
+## Takeaways
+
 - Weakly encoded material loses around half within a week.
 - Retrieval methods take days to learn and good encoding takes months.
 - Learn retrieval first, then build encoding skill.

@@ -17,6 +17,8 @@ tags:
 
 An opening move is a way to write the first sentence of a page. The catalog lists nineteen of them. Fourteen come from writers whose openings were studied line by line: Piotr Woźniak, Gwern Branwen, Paul Graham, Naval Ravikant, Maciej Cegłowski and Scott Alexander. The last five come from rulings by this wiki's owner on openings he struck. A writer who knows the options can pick the one that fits the page instead of reaching for a hook.
 
+## Takeaways
+
 - Say the most important sentence first.
 - A page's type sets the shape of its opening.
 - The first sentence says something, and does not announce what is coming.

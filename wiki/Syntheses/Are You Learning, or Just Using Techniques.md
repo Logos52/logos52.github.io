@@ -28,6 +28,8 @@ merged-from:
 
 A study technique helps only when it makes the learner do the thinking that builds knowledge, and following its steps correctly does not ensure that thinking happens. When a method looks right and results stay flat, the fault is usually in the thinking the method was meant to trigger. Checking the thinking first saves a learner from switching techniques every few weeks and never improving.
 
+## Takeaways
+
 - A technique is done right when it produces its intended effect.
 - The technique triggers thinking, and the thinking creates the knowledge.
 - Ratings of techniques mislead without the goal they serve.

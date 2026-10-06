@@ -21,6 +21,8 @@ tags:
 
 A Chinese character usually has several meanings, and they grew from one starting sense, the meaning the character was first made to write. A meaning tree lays the senses out with that original meaning at the root, the senses that grew from it as branches, and borrowed senses marked apart. Seeing the tree explains why a character looks the way it does and cuts down how many meanings a learner has to memorise.
 
+## Takeaways
+
 - The original meaning is the only one tied to the shape.
 - The everyday modern meaning can be far from the original.
 - About 85% of characters have senses grown from an older one.

@@ -19,6 +19,8 @@ tags:
 
 A locus of control is the set of things a person can actually do that make a result more likely. The rule of learning built on it says to spend attention on those things and to leave the result alone. A student who follows the rule stops worrying about the grade and starts working on the study methods, the focus and the schedule that produce grades.
 
+## Takeaways
+
 - A grade, an admission or a job offer cannot be controlled directly.
 - Wanting a result more does not make it more likely.
 - Results follow from the process that produced them.

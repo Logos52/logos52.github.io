@@ -19,6 +19,8 @@ tags:
 
 Women in Western democracies outnumber men and vote at higher rates, so their average preferences set much of public policy. On average they vote for a larger state that protects and provides, which are the jobs a husband once did. The state pays for that role by taxing men, and the result weakens the family.
 
+## Takeaways
+
 - Women vote well left of men on welfare, guns and immigration.
 - Many use the state as a substitute husband.
 - The state produces nothing, so it takes the provision from men.

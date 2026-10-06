@@ -20,6 +20,8 @@ tags:
 
 Communicating truth into someone else's frame is a way of selling: first work out what the other person wants, then say what you believe is true in terms they already hold. Done this way, people who see through sales tactics still listen, and you know when to stop pitching and move on.
 
+## Takeaways
+
 - Credibility does more than sales technique.
 - The people you most want notice a pitch at once.
 - Only sell what you believe in.

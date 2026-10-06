@@ -23,6 +23,8 @@ tags:
 
 Suicidal empathy is a term from the evolutionary behavioural scientist Gad Saad for empathy aimed at the wrong target, so that a kind act harms the person acting, the group they belong to, or more people than it helps. He has used the phrase since 2017 and published a book of that name in 2026. The idea gives a test for the moments when a strong urge to help should be checked before it is acted on.
 
+## Takeaways
+
 - Empathy follows the one visible person and misses the many.
 - A moving story can override a fairness rule people still hold.
 - Weighing costs against a sacred value feels like an offence.

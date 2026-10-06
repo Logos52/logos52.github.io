@@ -20,6 +20,8 @@ tags:
 
 Structured group study is a small study group run with fixed roles, used to quiz and teach each other before an exam. Without structure, a group tends to chat and drift, and it teaches less than studying alone for the same time. With the roles assigned, it trains fast, accurate recall under pressure and finds gaps that one person working alone would miss.
 
+## Takeaways
+
 - Unstructured group discussion is a poor use of study time.
 - Assign the roles of leader, timekeeper and fact-checker.
 - The core activities are quizzing and teaching each other.

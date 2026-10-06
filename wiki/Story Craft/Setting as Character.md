@@ -20,6 +20,8 @@ tags:
 
 Setting as character means writing a place so that it acts on the people in it: it makes demands, blocks plans and shapes how they live. A place written this way gives a story pressure and texture without any extra plot. A place written as scenery stays in the background, and any other place could stand in for it without changing the story.
 
+## Takeaways
+
 - One small, exact detail shows a place better than a description.
 - Culture comes from how people in a place earn a living.
 - Deepen the places you have before adding new ones.

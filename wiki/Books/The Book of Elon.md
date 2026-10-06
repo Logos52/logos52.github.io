@@ -22,6 +22,8 @@ tags:
 
 The Book of Elon is a collection of Elon Musk's public statements, sorted by theme and compiled by Eric Jorgenson, who also compiled The Almanack of Naval Ravikant. The most usable part is a short set of building rules to run over a plan before committing to it. The rules say which requirement to question, which part to delete, and what the work will cost the people doing it.
 
+## Takeaways
+
 - Work out what physics and cost allow before copying the usual way.
 - Question every requirement, including ones from smart people.
 - Delete, then simplify, then speed up, then automate.

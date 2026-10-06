@@ -31,6 +31,8 @@ tags:
 
 A health check is a pass by an AI model over a whole wiki, looking for problems and reporting them to the wiki's owner without changing any page. A wiki that nobody maintains fills with orphan pages, which nothing links to, with out-of-date statements, and with contradictions nobody has noticed, and people give up on it when the upkeep grows faster than its value. Regular passes catch these problems while they are small, and a model makes the upkeep cheap enough to keep doing.
 
+## Takeaways
+
 - Every pass starts from a full catalog of pages.
 - Report first, and move or rewrite no file during the pass.
 - Status, lint and breakdown are one sweep with different permissions.

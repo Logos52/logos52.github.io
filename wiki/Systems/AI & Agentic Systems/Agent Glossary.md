@@ -38,6 +38,8 @@ tags:
 
 An agent is a language model run in a loop: it plans a step, calls a tool, reads what came back, and repeats until the job ends or a person has to step in. Vendors sell that loop under many names, and some names collide, so a name alone does not say who the run is for or whose computer does the work. The list below places each name against the job it does, with prices and plan lines last checked on 28 August 2026.
 
+## Takeaways
+
 - Each product is a window, a loop, or a computer.
 - Pick a model for depth, cost and context size.
 - Pick a product for what it may touch and where it runs.

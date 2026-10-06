@@ -21,6 +21,8 @@ tags:
 
 Mindset is how a person reads and responds to difficulty: what they believe about their own ability, and how they handle stress, mistakes and setbacks. It decides whether a mistake gets used as information or avoided as a threat. Since every skill is learned by making mistakes and correcting them, mindset limits how fast every other part of learning can improve.
 
+## Takeaways
+
 - Skills grow through a loop of trying, failing, reflecting and trying again.
 - Mindset sets how willing you are to enter that loop.
 - Everyone is fixed in some areas and growth-minded in others.

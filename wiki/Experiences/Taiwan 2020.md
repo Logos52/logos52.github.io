@@ -19,6 +19,8 @@ tags:
 
 In late 2019 the owner began a stay in Taiwan to study Mandarin, and in February 2020 COVID forced a short trip to Japan. The observations from that time compare everyday life in Taiwan with everyday life in the United States. Two of them apply beyond travel: how widely manners vary within one country, and what a public rail system does for a city.
 
+## Takeaways
+
 - Average friendliness in Taiwan is close to the United States.
 - The United States has a much wider range, from very polite to rude.
 - The Taipei MRT, the city's metro rail system, was the standout.

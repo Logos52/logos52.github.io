@@ -17,6 +17,8 @@ tags:
 
 Per capita means per person: a count divided by the size of the group it came from. Dividing lets two groups of different sizes be compared, and skipping the division is a common way an argument from numbers goes wrong.
 
+## Takeaways
+
 - A raw count says how much there is.
 - A rate says how common something is inside a group.
 - Groups of different sizes can only be compared by rate.

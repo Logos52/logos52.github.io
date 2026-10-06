@@ -21,6 +21,8 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 Character voice is the set of habits in a character's speech that lets a reader tell who is talking without a name attached. When every character talks the same way, the reader has to track the speaker tags, and the dialogue stops showing who these people are.
 
+## Takeaways
+
 - Cover the names: a reader should still know who is speaking.
 - Voice comes from word choice, filler words, sentence length and grammar.
 - Each line carries what is said and what is held back.

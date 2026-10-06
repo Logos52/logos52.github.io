@@ -23,6 +23,8 @@ tags:
 
 A decisional delay is the time spent working out what to do next, in the gap after one task ends and before the next begins. People notice time passing during a task and rarely while sitting between tasks, so these gaps go unmeasured. Reported totals run from about thirty minutes to two hours a day, which is an extra task's worth of time.
 
+## Takeaways
+
 - The gap between tasks is where the time goes.
 - Five to ten minutes per gap adds up over a day.
 - A long gap often turns into procrastination.

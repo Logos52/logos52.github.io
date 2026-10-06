@@ -25,6 +25,8 @@ tags:
 
 Applied critical thinking is the habit of testing the frame of a problem before reasoning inside it, where the frame means the assumptions and the question as first posed. The US Army's Red Team Handbook teaches it as one of its core practices. It catches the common failure where a team works hard on a badly posed question, or trusts an answer because it reads smoothly.
 
+## Takeaways
+
 - Test the frame before adopting it.
 - The first story that makes sense tends to stay in place.
 - Smooth, confident wording is often mistaken for accuracy.

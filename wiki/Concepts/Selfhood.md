@@ -18,6 +18,8 @@ tags:
 
 Selfhood here means acting from goals and judgments a person owns, instead of acting to protect how they look to others or to themselves. Which of the two drives a person decides whether a habit lasts, whether tracking helps or hurts, and whether a bad day turns into quitting. Motivation research has measured the difference for decades, and the findings give plain tests a person can run on their own reasons.
 
+## Takeaways
+
 - A rule you follow to feel worthy still controls you.
 - Owned goals keep going after the first few weeks.
 - Measuring a pleasant activity can drain the pleasure.

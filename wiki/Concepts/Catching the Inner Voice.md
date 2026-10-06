@@ -17,6 +17,8 @@ tags:
 
 Catching the inner voice is noticing a sentence you say to yourself at the moment it runs, and then choosing what to do with it. Most self-talk passes unnoticed. The part that replays a bad moment costs mood, action and health in proportion to how long it runs, so catching it early is where a few minutes a day of effort pay off.
 
+## Takeaways
+
 - Self-talk runs on the brain's speaking machinery, so it trains like a habit.
 - Your sense of how often you talk to yourself is unreliable.
 - The target is the loop: replayed distress that produces nothing new.

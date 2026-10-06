@@ -21,6 +21,8 @@ tags:
 
 Anti-marketing is showing the flaws, limits and trade-offs of a thing before the other person has spent time or money on it. It changes who stays. People who would have left later leave now, while leaving is still cheap, and the people who stay know what they chose.
 
+## Takeaways
+
 - Show the difficult parts while walking away still costs little.
 - A weakness shown early reads as honesty.
 - The same weakness found later reads as something hidden.

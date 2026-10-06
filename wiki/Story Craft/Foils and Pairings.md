@@ -21,6 +21,8 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus B. Do not p
 
 A foil is a character placed beside another so that the difference between them makes each one easier to see. The word comes from jewellery, where a thin leaf of metal set behind a gem makes the stone look brighter. Pairing characters this way lets a writer show a trait by contrast instead of explaining it.
 
+## Takeaways
+
 - A foil shows a trait by standing next to its opposite.
 - The strongest pairs share a situation and make different choices.
 - The pair is the smallest unit of a cast.

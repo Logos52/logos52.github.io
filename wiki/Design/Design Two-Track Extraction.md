@@ -21,6 +21,8 @@ tags:
 
 Design two-track extraction is a way of reading a design book so that each technique in it goes to the reader who can use it, either an AI coding agent or a person. It was worked out on two books, Refactoring UI and Universal Principles of Design. The reading produces two lists, one of rules an agent can apply in code and one of judgments that need a person to look at the result.
 
+## Takeaways
+
 - Every technique in the book gets the same test.
 - The test is whether an agent can apply it without looking.
 - A yes sends it to the agent track, the fixed rules.

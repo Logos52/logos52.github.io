@@ -21,6 +21,8 @@ tags:
 
 Environment design means arranging a room, a desk or a phone so that the behaviour you want is the easy default and the behaviour you want to stop is hard to reach. Most daily actions are habits set off by what is in front of you, so changing the surroundings works better than resisting each urge. A cookie jar left on the table gets emptied every day, and one put away in a cupboard may be forgotten for months.
 
+## Takeaways
+
 - Behaviour follows what is in view more than willpower.
 - Remove the cue for a bad habit.
 - Add a cue for a good one.

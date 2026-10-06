@@ -18,6 +18,8 @@ tags:
 
 A YouTube immersion account is a separate YouTube account used only for videos in the language being learned. YouTube recommends videos from what an account has watched, searched for and subscribed to, so an account that only ever sees the target language soon has a home page full of it. That removes the daily work of finding something worth watching, which is where many learners stop.
 
+## Takeaways
+
 - Make a new account and use it only for the target language.
 - Watch history drives the recommendations, so keep it clean.
 - Seed it with playlists on topics you already enjoy.

@@ -21,6 +21,8 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus B. Do not p
 
 Interiority is what a character thinks and feels inside. The technique here is to show it through what the character does and what they handle, instead of through words that name the feeling. It matters most when the writer cannot use many words, as in a story for people learning the language, and it makes any scene stronger, because readers trust what they see a character do.
 
+## Takeaways
+
 - Show a feeling through an action or an object.
 - Readers fill in what a clear action leaves out.
 - Leave things out only if you know what they are.

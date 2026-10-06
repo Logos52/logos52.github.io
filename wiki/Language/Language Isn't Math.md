@@ -22,6 +22,8 @@ tags:
 
 Many language courses teach vocabulary and grammar rules and expect the learner to build sentences from them, the way a student works a math problem with a formula. Sentences built that way are often correct by the rules and still sound wrong, or are not understood at all, because native speakers say most things in fixed ways that no rule predicts. A learner who wants to sound natural has to hear how native speakers say a thing before trying to say it.
 
+## Takeaways
+
 - Vocabulary plus grammar rules does not produce natural speech.
 - Languages say the same idea in different ways that no rule predicts.
 - Native speakers repeat fixed phrases word for word, every time.

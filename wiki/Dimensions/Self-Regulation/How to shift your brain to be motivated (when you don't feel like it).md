@@ -26,6 +26,8 @@ tags:
 
 Motivation is the feeling of wanting to do something, and it rises and falls with sleep, mood, health, money and the people around you. Someone who waits for the feeling before starting has many days with little done. The method separates the feeling from the action, so work can start on a tired or flat day, and spends the motivation that does show up on building habits that later run without it.
 
+## Takeaways
+
 - Motivation varies by day, so work that depends on it varies too.
 - Tiredness is a sensation, and acting on it is optional.
 - Acting like a person who is not tired changes the next thought.

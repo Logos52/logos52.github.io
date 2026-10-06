@@ -35,6 +35,8 @@ tags:
 
 Flow is the state of full attention on one task, where the work feels easy and time passes without notice. Almost nobody stays in it for long, since attention drifts, and the skill that decides a day's output is how quickly you get back. Three habits cover most of that skill: removing what pulls you out, moving straight from one task to the next, and resting before you are drained.
 
+## Takeaways
+
 - Focus rises and falls through the day.
 - Getting back quickly matters more than never drifting.
 - Slow re-entry can halve the useful time in a long block.

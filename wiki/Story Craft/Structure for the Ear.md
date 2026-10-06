@@ -21,6 +21,8 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 Structure for the ear is the craft of building a story that is only heard, as in a radio play, an audio drama or a narrative podcast. A listener has no page to look back at and no faces to tell the speakers apart. A writer who plans for that keeps the cast small, marks every change of scene with sound, and varies the scenes so attention does not drop.
 
+## Takeaways
+
 - A character exists for the listener only when speaking or named.
 - Keep a half-hour play to six characters or fewer.
 - Each line should tell the listener who is speaking.

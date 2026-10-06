@@ -17,6 +17,8 @@ tags:
 
 A savings rate is the share of income a person keeps instead of spending. For someone starting from zero, it sets the number of working years before investments can cover living costs, and it sets them more than salary or investment returns do. A person saving 10% needs about 51 years, and a person saving 50% needs about 16.
 
+## Takeaways
+
 - The savings rate sets the years until investments cover living costs.
 - Lower spending helps twice: more invested, less needed later.
 - Each extra point of savings cuts the most years at low rates.

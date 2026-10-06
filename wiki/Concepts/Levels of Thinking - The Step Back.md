@@ -22,6 +22,8 @@ tags:
 
 Levels of thinking is a model of how people grow in awareness, where each level is one more step back from your own reaction. At the bottom you only feel what you want, and higher up you can see how others see you, how your culture looks to a stranger, and at the top how your own mind builds a reaction while it happens. Knowing the steps gives a way to slow down before acting on a feeling.
 
+## Takeaways
+
 - Each level adds one step back from your own reaction.
 - Everyone uses the lower levels every day.
 - Higher levels mean more awareness, and nothing about being a good person.

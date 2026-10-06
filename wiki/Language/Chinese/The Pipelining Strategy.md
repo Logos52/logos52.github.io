@@ -22,6 +22,8 @@ tags:
 
 The pipelining strategy is a schedule for learning new Chinese characters that spreads a character's sound, its meaning and its written form over three days. Learning all three on one day means holding three unfamiliar things at once. Spread out, each day holds one new task and two that are already half known, so each character costs less effort.
 
+## Takeaways
+
 - Never learn a character's sound, meaning and form on the same day.
 - Learn the spoken word first and the written form last.
 - Work in small groups of three to five characters.

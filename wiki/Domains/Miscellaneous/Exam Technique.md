@@ -20,6 +20,8 @@ tags:
 
 Exam technique is a small set of habits for sitting a paper: how to sleep before it, how to pace and check your answers, how to practise the questions an examiner is likely to set, and how to stop anxiety taking over. Each habit protects marks you have already earned by studying, and each can be practised before the exam.
 
+## Takeaways
+
 - Sleep the night before, since sleep is when study is stored.
 - Keep a steady pace and flag answers you are unsure of.
 - Recheck only the flagged answers.

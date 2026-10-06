@@ -21,6 +21,8 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 A reading frame is the set of questions a reader brings to a character, such as a therapist's diagnostic checklist or a screenwriter's arc chart. Each frame makes some things about the character easy to see and leaves others invisible. Knowing which frame a critique uses tells a writer which of its verdicts to act on and which to set aside.
 
+## Takeaways
+
 - Every frame arrives with its own list of what counts.
 - A diagnostic checklist measures harm to real people.
 - A frame that looks for improvement calls a flat arc no arc.

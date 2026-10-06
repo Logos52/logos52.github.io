@@ -19,6 +19,8 @@ tags:
 
 Being called racist is used to end an argument without answering it. The word shifts the question from whether a statement is true to whether the speaker is allowed to make it, and it is applied almost only to whites. A judgment about a group that is accurate and used in the right conditions is a tool for staying safe.
 
+## Takeaways
+
 - A group judgment used well saves lives.
 - Use one only when there is no time to judge the individual.
 - It must be accurate, which means comparing rates per head.

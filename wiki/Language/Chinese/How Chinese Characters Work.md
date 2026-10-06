@@ -22,6 +22,8 @@ tags:
 
 A Chinese character writes a spoken word or a part of a word, and it has three things attached: a shape, a meaning and a sound. Most characters are built from smaller parts, and each part does a job, such as hinting at the meaning or at the sound. A learner who reads each part for its job can remember a character from how it works, where copying strokes only stores a shape.
 
+## Takeaways
+
 - A character writes a spoken word or a word part.
 - Every character has a shape, a meaning and a sound.
 - Shape to sound and shape to meaning are tested separately.
