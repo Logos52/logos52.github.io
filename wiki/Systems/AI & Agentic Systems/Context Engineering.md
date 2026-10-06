@@ -67,15 +67,16 @@ Much code that sat between a person and a model can now be replaced by text hand
 
 The wiki on this desk is a folder of markdown pages, and three files program the next session: a rules file the model reads first, an index with one line for each page, and a dated log of what was done. When a question comes in or a new source is added, the model reads the index first and opens only the pages it needs. Up to a few hundred pages this works without a search engine.
 
-```
-question --> index (one line per page)
-                  |
-        pick the few pages needed
-                  |
-   window = rules + picked pages + question
-                  |
-       answer, then a line in the log
-```
+<figure class="aid aid-flow">
+<ol>
+<li>a question comes in</li>
+<li>read the index, one line per page</li>
+<li>pick the few pages the question needs</li>
+<li>window = rules file + picked pages + question</li>
+<li class="aid-out">answer, then one line in the log</li>
+</ol>
+<figcaption>One question through the wiki. The index chooses the pages, and the window holds only those.</figcaption>
+</figure>
 
 - Summaries stay short.
 - Related pages are linked.

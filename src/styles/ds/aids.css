@@ -1,0 +1,173 @@
+/* aids.css — visual aids inside wiki pages: inline HTML/SVG figures written in the
+   Markdown body (PRD-visual-aids-2026-10-06.md). Paper tokens only, so both themes read.
+   Forms: .aid-flow (a chain of steps), .aid-ladder (levels), .aid-compare (things side by side),
+   .aid-pair (before and after), .aid-figure (an SVG drawn to the page). */
+
+.kb-prose .aid {
+  margin: 22px 0 26px;
+  max-width: 100%;
+  font-family: var(--ming);
+  color: var(--ink);
+}
+.kb-prose .aid figcaption {
+  margin-top: 10px;
+  font-family: var(--mono);
+  font-size: var(--kb-text-xs);
+  letter-spacing: 0.03em;
+  color: var(--faint);
+}
+.kb-prose .aid p { margin: 0; }
+.kb-prose .aid ol,
+.kb-prose .aid ul { margin: 0; padding: 0; list-style: none; }
+.kb-prose .aid li { margin: 0; }
+
+/* ── flow: a vertical chain of boxes joined by arrows ─────────────────────── */
+.kb-prose .aid-flow ol {
+  display: flex;
+  flex-direction: column;
+  max-width: 26rem;
+}
+.kb-prose .aid-flow li {
+  position: relative;
+  background: var(--card);
+  border: 1px solid var(--rule2);
+  border-radius: var(--pi-radius);
+  padding: 9px 14px;
+  font-size: var(--kb-text-base);
+  line-height: var(--kb-lh-snug);
+  text-align: center;
+  color: var(--ink);
+}
+.kb-prose .aid-flow li + li { margin-top: 22px; }
+.kb-prose .aid-flow li + li::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -22px;
+  height: 16px;
+  width: 1px;
+  background: var(--rule2);
+}
+.kb-prose .aid-flow li + li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -7px;
+  width: 7px;
+  height: 7px;
+  border-right: 1px solid var(--rule2);
+  border-bottom: 1px solid var(--rule2);
+  transform: translateX(-50%) rotate(45deg);
+}
+.kb-prose .aid-flow li.aid-out {
+  background: var(--accent-soft);
+  border-color: color-mix(in oklab, var(--accent) 45%, transparent);
+}
+
+/* ── ladder: levels on a rail, numbered ───────────────────────────────────── */
+.kb-prose .aid-ladder ol {
+  position: relative;
+  max-width: 34rem;
+  padding-left: 44px;
+}
+.kb-prose .aid-ladder ol::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background: var(--rule2);
+}
+.kb-prose .aid-ladder li {
+  position: relative;
+  padding: 7px 0 7px 4px;
+  font-size: var(--kb-text-base);
+  line-height: var(--kb-lh-snug);
+  color: var(--mut);
+}
+.kb-prose .aid-ladder li::before {
+  content: attr(data-n);
+  position: absolute;
+  left: -44px;
+  top: 6px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--card);
+  border: 1px solid var(--rule2);
+  display: grid;
+  place-items: center;
+  font-family: var(--mono);
+  font-size: var(--kb-text-sm);
+  color: var(--ink);
+}
+.kb-prose .aid-ladder li b {
+  color: var(--ink);
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+/* ── compare: two to four cards side by side ──────────────────────────────── */
+.kb-prose .aid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+  gap: 12px;
+}
+.kb-prose .aid-card {
+  background: var(--card);
+  border: 1px solid var(--rule2);
+  border-radius: var(--pi-radius);
+  padding: 12px 14px;
+  min-width: 0;
+}
+.kb-prose .aid-card h4 {
+  margin: 0 0 6px;
+  font-family: var(--mono);
+  font-size: var(--kb-text-2xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+.kb-prose .aid-card p {
+  font-size: var(--kb-text-sm);
+  line-height: var(--kb-lh-snug);
+  color: var(--mut);
+}
+.kb-prose .aid-card .aid-big {
+  font-size: 1.55rem;
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--ink);
+  margin: 4px 0 2px;
+}
+.kb-prose .aid-verdict {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  font-size: var(--kb-text-sm);
+  color: var(--mut);
+}
+.kb-prose .aid-verdict span {
+  background: var(--raised);
+  border-radius: 999px;
+  padding: 3px 11px;
+}
+
+/* ── pair: before and after ───────────────────────────────────────────────── */
+.kb-prose .aid-pair .aid-cards { grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); }
+
+/* ── figure: an inline SVG drawn to the page ──────────────────────────────── */
+.kb-prose .aid-figure svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 34rem;
+  color: var(--ink);
+  font-family: var(--ming);
+}
+.kb-prose .aid-figure .aid-muted { color: var(--mut); }
+.kb-prose .aid-figure .aid-fill { fill: var(--card); }
+.kb-prose .aid-figure .aid-soft { fill: var(--accent-soft); }

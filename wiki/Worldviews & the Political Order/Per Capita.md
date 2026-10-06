@@ -33,12 +33,14 @@ Take two bags of apples. Bag A holds 1,000 apples including 20 poisoned ones, ba
 - Write both as a count per 100 or per 100,000.
 - Compare the two rates.
 
-```
-Bag A  1,000 apples, 20 poisoned   20/1,000 =  2 in 100
-Bag B     10 apples,  2 poisoned    2/10    = 20 in 100
-
-raw count says A is worse    rate says B is worse
-```
+<figure class="aid aid-compare">
+<div class="aid-cards">
+<div class="aid-card"><h4>Bag A</h4><p>1,000 apples, 20 poisoned</p><p class="aid-big">2 in 100</p><p>chance of a poisoned pick</p></div>
+<div class="aid-card"><h4>Bag B</h4><p>10 apples, 2 poisoned</p><p class="aid-big">20 in 100</p><p>chance of a poisoned pick</p></div>
+</div>
+<p class="aid-verdict"><span>raw count says A is worse</span><span>rate says B is worse</span></p>
+<figcaption>The same two bags counted two ways.</figcaption>
+</figure>
 
 ## Why people refuse it
 

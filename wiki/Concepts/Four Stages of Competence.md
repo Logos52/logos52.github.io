@@ -53,12 +53,15 @@ Most people sit in the first stage for most skills, including the skill of learn
 
 A stage is passed through many small cycles of trying, reflecting, adjusting and trying again. What counts as a gain changes with the stage, and chasing a later stage's gain raises the error rate. In stage 3 the gains come in a fixed order: consistency first, then less effort, then speed. Going faster before accuracy is there is where people start making errors and quit.
 
-```
-4 Habit      refine it, make it your own, keep using it
-3 Effortful  more consistent, then less effort, then faster
-2 Aware      spot more of your own mistakes, more often
-1 Unaware    learn what wrong and right look like
-```
+<figure class="aid aid-ladder">
+<ol>
+<li data-n="4"><b>Habit</b> refine it, make it your own, keep using it</li>
+<li data-n="3"><b>Effortful</b> more consistent, then less effort, then faster</li>
+<li data-n="2"><b>Aware</b> spot more of your own mistakes, more often</li>
+<li data-n="1"><b>Unaware</b> learn what wrong and right look like</li>
+</ol>
+<figcaption>The gain to aim for at each stage, read from the bottom rung up.</figcaption>
+</figure>
 
 - In stage 3, vary material, difficulty and time pressure.
 - Variety keeps surfacing errors once they become rare.
