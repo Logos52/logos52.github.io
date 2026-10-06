@@ -3,9 +3,9 @@ title: Mandarin Chinese Language Learning Resources
 type: resource-catalog
 status: developing
 created: 2026-05-06
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 source-count: 83
 written-by: opus
 model: grok
@@ -18,20 +18,21 @@ tags:
 
 # Mandarin Chinese Language Learning Resources
 
-Free Mandarin video and audio exists at every level, from slow channels made for beginners to native news. A learner who studies mainly by watching and listening needs a steady supply at the right level, and finding it is the hardest part of the first months. Start with learner channels and move to native ones as more is understood.
+Free Mandarin video and audio exists at every level, from slow channels made for beginners to native news. A learner who studies mainly by watching and listening needs a steady supply at the right level, and finding that supply is the hardest part of the first months. Start with channels made for learners and move to native ones as more is understood.
 
 ## Core takeaways
 
 - Start with channels made for learners, then move to native ones.
 - Choose simplified or traditional characters and stay with one.
 - Learn the four tones and tone pairs in the first weeks.
-- Use pinyin first; add characters once the sounds are comfortable.
+- Use pinyin, the Latin-letter spelling, first.
+- Add characters once the sounds are comfortable.
 - Switchable subtitles let a lookup tool read them.
-- Spaced repetition review is optional.
+- Flashcard review at spaced intervals is optional.
 
 ## Choosing material
 
-Mandarin video comes with two choices that affect a learner. The first is the script: the Mainland uses simplified characters and Taiwan and Hong Kong use traditional ones, and a learner does better reading one set until it is familiar. The second is subtitles: burned-in subtitles are part of the picture, while switchable ones are text a browser tool can read, translate and look up. Slow speech with switchable subtitles in the chosen script is the easiest material to work with.
+Mandarin video comes with two choices that affect a learner. The first is the script: the Mainland uses simplified characters, Taiwan and Hong Kong use traditional ones, and a learner does better reading one set until it is familiar. The second is subtitles: burned-in subtitles are part of the picture, while switchable ones are text a browser tool can read, translate and look up. Slow speech with switchable subtitles in the chosen script is the easiest material to work with.
 
 ```
 learner channels  -->  slow native  -->  native  -->  news
@@ -41,11 +42,11 @@ learner channels  -->  slow native  -->  native  -->  news
 
 ## Beginner and slow input
 
-These channels speak slowly about simple topics, often with word-by-word help on screen. Most use simplified characters. They are the right starting place for the first months.
+These channels speak slowly about simple topics, often with word-by-word help on the screen. Most of them use simplified characters. They are the right starting place for the first months.
 
 - Comprehensible Chinese: simple stories with word translations.
 - Hit Chinese: beginner and advanced-beginner playlists with teaching parts.
-- Acquire Mandarin: pre-beginner to intermediate playlists.
+- Acquire Mandarin: playlists from pre-beginner to intermediate.
 - LingLing Mandarin: beginner videos with English subtitles.
 - Mandarin Corner: slow monologues, stories and street interviews.
 - TeaTime Chinese: an audio podcast in slow Mandarin.
@@ -65,12 +66,12 @@ Once slow material is easy, native channels with subtitles are the next step. Co
 | 滾動力 rollor | traditional | talk show |
 
 - Streaming series with Chinese subtitles: Reset, Nothing But Thirty.
-- Also: The Longest Day in Chang'An, The King's Avatar.
+- Also The Longest Day in Chang'An and The King's Avatar.
 - Hard material for later: news and comedy channels.
 
 ## Tools
 
-Each kind of tool below exists in free versions. None of them is required, and a learner should add one only when a specific problem shows up.
+Each kind of tool below exists in a free version. None of them is required. A learner does better adding one only when a specific problem shows up.
 
 - A pinyin chart with audio, for learning the sounds.
 - A tone-pair trainer, for hearing tones in two-syllable words.

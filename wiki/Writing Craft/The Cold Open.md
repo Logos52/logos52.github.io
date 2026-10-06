@@ -3,9 +3,9 @@ title: "The Cold Open"
 type: concept
 status: seed
 created: 2026-08-12
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 description: "An opening that states the page's main claim in its first sentence, why it works, and when a page needs a run-up instead."
 written-by: opus
 tags:
@@ -28,7 +28,7 @@ A cold open puts the page's main claim, at full strength, in its first sentence,
 
 ## How it works
 
-A reader given reasons before the claim has to hold each one without knowing what it is for, and loses track. Given the claim first, the reader knows how to read every reason that follows. The form also checks the writer: a claim cannot be put in sentence one until the writer knows what it is. If the reasons have gaps, the claim still leads, with the doubt stated in it.
+A reader given the reasons before the claim has to hold each one without knowing what it is for, and loses track. Given the claim first, the reader knows how to read every reason that follows. The form also checks the writer, since a claim cannot be put in sentence one until the writer knows what it is. If the reasons have gaps, the claim still leads, with the doubt stated in it.
 
 - Paul Graham: say the most important sentence first.
 - Gwern Branwen: every essay starts with a summary of its findings.
@@ -43,11 +43,11 @@ run-up:     familiar ground --> terms --> claim
 
 ## Where it fails
 
-The form needs a reader who can parse the claim on sight. When the claim depends on terms the page has not yet given, the reader cannot follow the first sentence, and leaves or guesses. This wiki's owner struck such an opening on 2026-08-13 as too heavy to start, and a ruling the same day kept the cold open as the default while allowing other openings. A subject whose terms need building gets a few plain sentences of familiar ground first.
+The form needs a reader who can take in the claim on sight. When the claim depends on terms the page has not yet given, the reader cannot follow the first sentence, and leaves or guesses. The owner of this wiki struck such an opening on 2026-08-13 as too heavy to start, and a ruling the same day kept the cold open as the default while allowing other openings. A subject whose terms need building gets a few plain sentences of familiar ground first.
 
-- Unfamiliar terms in sentence one: use a run-up.
+- Unfamiliar terms in sentence one call for a run-up.
 - A short sentence can still be too dense to follow.
-- The Grok Bot Primer page on this wiki is written as a cold open.
+- The Grok Bot Primer page on this wiki is a cold open.
 
 ## Related pages
 

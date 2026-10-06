@@ -3,9 +3,9 @@ title: "Product Reduction"
 type: technique
 status: developing
 created: 2026-05-12
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 written-by: opus
 model: grok
 source-count: 2
@@ -18,7 +18,7 @@ tags:
 
 # Product Reduction
 
-Product reduction is the work of cutting down what a home holds, done as a focused pass instead of a little at a time. The usual method is to gather every item of one kind in one place, such as all clothes or all cables, so the total can be seen and decided at once. The aim is a room where the objects in view are the ones in daily use.
+Product reduction is the work of cutting down what a home holds, done as one focused pass instead of a little at a time. The usual method is to gather every item of the same kind in one place, such as all clothes or all cables, so the total can be seen and decided at once. The aim is a room where the objects in view are the ones in daily use.
 
 ## Core takeaways
 
@@ -31,7 +31,7 @@ Product reduction is the work of cutting down what a home holds, done as a focus
 
 ## How it works
 
-Objects spread across cupboards and rooms hide how much of each kind a home holds. Putting them all in one pile shows the total, and the decision becomes simple. Starting with bulky, high-upkeep items frees the most space and effort for the least work. A short, focused pass keeps the momentum, while a slow one lets new objects arrive faster than old ones leave.
+Objects of the same kind spread across cupboards and rooms hide how many of them a home holds. Putting them all in one pile shows the total, and the decision becomes simple. Starting with the bulky items that need the most upkeep frees the most space and effort for the least work. A short, focused pass keeps going to the end, and a slow one lets new objects arrive faster than old ones leave.
 
 - Gather: all items of one category in one spot.
 - Price: rank by space, upkeep and difficulty to remove.
@@ -47,14 +47,20 @@ gather -> rank by cost -> decide -> exit -> review
 
 ## Where it fails
 
-The most common failure is a pile of objects waiting to be sold, which keeps every running cost while the listing sits. Another is buying storage to hold what should have gone. A third is keeping objects bought for an imagined version of yourself, such as gear for a hobby never taken up, without naming that reason. Moving house is a good moment for a pass, because the old routines around objects are broken anyway.
+The usual failures all keep the running costs going after the pass. A pile of objects waiting to be sold keeps every cost while the listing sits. Another failure is buying storage to hold what should have gone. Objects bought for an imagined version of yourself, such as gear for a hobby never taken up, stay unless that reason is named.
 
 - A home with no hidden storage shows how much is owned.
 - Aim for a room where every object in view gets used.
+- Moving house suits a pass, since the old routines are already broken.
 
 ## Review after a pass
 
-Each pass is also a lesson for the next one. Write down what was removed, how it felt to let it go and why, and what rule that suggests. Then change one buying or storing habit.
+Each pass is also a lesson for the next one. The lesson is kept by writing a short note straight after the pass, before the next category is started. The note ends with one change to a buying or storing habit.
+
+- Note what was removed.
+- Note how it felt to let each thing go, and why.
+- Write the rule the note suggests.
+- Change one buying or storing habit.
 
 ## Related pages
 

@@ -3,13 +3,13 @@ title: "Study Scheduling"
 type: technique
 status: developing
 created: 2026-05-29
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 written-by: opus
 model: grok
 source-count: 4
-description: "When to revise after first learning (a day, a week, a month) and a weekly template that gives each study session its own depth."
+description: "When to revise after first learning, and a weekly template that gives prestudy, weekday review and weekend review each a different depth."
 tags:
   - scheduling
   - prestudy
@@ -19,7 +19,7 @@ tags:
 
 # Study Scheduling
 
-Study scheduling is fixing in advance when each topic is first met, when it is revised, and when it is tested, so review happens before the material is forgotten. A week of material revised at the right gaps takes far less time to keep than the same week crammed before an exam. A simple weekly template is enough for most learners in their first couple of weeks.
+Study scheduling is fixing in advance when each topic is first met, when it is revised and when it is tested, so that review happens before the material is forgotten. A week of material revised at the right gaps takes far less time to keep than the same week crammed before an exam. A simple weekly template is enough for most learners in their first couple of weeks.
 
 ## Core takeaways
 
@@ -27,36 +27,37 @@ Study scheduling is fixing in advance when each topic is first met, when it is r
 - Put each session in the calendar as a repeating block.
 - Prestudy: skim the week's concepts before class.
 - Given the choice, prestudy beats reviewing old material.
-- Flashcards go in spare pockets of time, not their own session.
+- Flashcards go in spare pockets of time.
+- They need no session of their own.
 - Trouble keeping the schedule usually means a planning problem.
 
 ## How spacing works
 
-Memory fades fast after first learning and slower after each successful recall. Revising just as recall starts to get hard stores the material for longer than revising while it is still fresh. The best gap grows with how long you need to remember: for a test a week away it is roughly a day or two, and for one a year away it is several weeks. A growing ladder of gaps is a convenient way to plan the workload; equal gaps work about as well in studies.
+Memory fades fast after first learning and more slowly after each successful recall. Revising just as recall starts to get hard stores the material for longer than revising while it is still fresh. The best gap grows with how long you need to remember: for a test a week away it is roughly a day or two, and for a test a year away it is several weeks. A ladder of growing gaps is a convenient way to plan the workload, and equal gaps work about as well in studies.
 
 ```
-learn   +1-2 days   +7-10 days    +3-4 weeks
-  |---------|-----------|--------------|
-       revise 1    revise 2       revise 3
+learn    +1-2 days    +7-10 days    +3-4 weeks
+  |----------|------------|-------------|
+         revise 1     revise 2      revise 3
 ```
 
-- Deciding when, where and how in advance makes a plan far more likely to happen.
-- An exact day does not matter; the rough gaps do.
+- Fixing when, where and how in advance makes a plan far likelier.
+- The exact day matters less than keeping the rough gaps.
 
 ## A weekly template
 
-Each session has a different depth. Prestudy gives an outline of how the ideas relate, the weekday session builds understanding, and the weekend session starts memorising details. Keeping these jobs apart stops early sessions sliding into memorising definitions before the ideas make sense.
+Each session in the week has a different depth. Prestudy gives an outline of how the ideas relate, the weekday session builds understanding, and the weekend session starts memorising details. Keeping these jobs apart stops the early sessions from sliding into memorising definitions before the ideas make sense.
 
 | When | What | Depth |
 | --- | --- | --- |
-| Weekend before | Prestudy the week | Concepts and how they relate; a basic mind map |
-| Each weekday evening | Revise that day | Fuller understanding; add to the map; make flashcards |
-| End of week | Revise the week | Mixed-topic retrieval; start on details |
-| Spare minutes | Flashcards | Whatever fits; no need to finish |
+| Weekend before | Prestudy the week | Concepts and how they relate, a basic mind map |
+| Each weekday evening | Revise that day | Fuller understanding, add to the map, make flashcards |
+| End of week | Revise the week | Mixed-topic retrieval, start on details |
+| Spare minutes | Flashcards | Whatever fits, no need to finish |
 | End of month | Revise the month | Another mixed-topic method |
 | 2 to 3 weeks before a test | Retrieval practice | Past papers, hard questions, quizzing friends |
 
-- No flashcards for concepts; they are for fixed facts.
+- Flashcards are for fixed facts rather than concepts.
 - Teaching the material and writing hard questions suit the weekly session.
 - With heavy content, add a mid-week or mid-month review.
 - Move the days to fit your week.
@@ -65,7 +66,8 @@ Each session has a different depth. Prestudy gives an outline of how the ideas r
 
 A schedule that keeps failing usually points to weak time management or wrong priorities, such as spending the prestudy slot on retrieval. The fix is to go back to basic scheduling and daily priorities before adding more study sessions. The template is too much for some subjects and too little for others, so review it each week and adjust.
 
-- Protect prestudy first; less forgetting means less revision later.
+- Protect prestudy first.
+- Less forgetting means less revision later.
 - A missed review can be caught up later.
 - Give a new schedule two weeks before judging it.
 

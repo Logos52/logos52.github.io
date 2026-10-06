@@ -3,13 +3,13 @@ title: "Hyper-Focus and Hyper-Distractibility"
 type: technique
 status: developing
 created: 2026-06-11
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 written-by: opus
 model: grok
 source-count: 4
-description: "Changes to how study techniques are learned for people who lock onto one thing or get pulled away every few seconds."
+description: "Changes to how study methods are learned for people who lock onto one thing or get pulled off a task every few seconds."
 tags:
   - attention
   - hyper-focus
@@ -20,52 +20,54 @@ tags:
 
 # Hyper-Focus and Hyper-Distractibility
 
-Hyper-focus is getting locked onto one thing and being unable to move off it; hyper-distractibility is being pulled off a task every few seconds. Both are common with ADHD and autism, and both also show up in people with no diagnosis. Study methods that need long, ordered effort are harder under either pattern, and a few changes to how the methods are learned make that effort easier without removing it.
+Hyper-focus is getting locked onto one thing and being unable to move off it, and hyper-distractibility is being pulled off a task every few seconds. Both are common with ADHD and autism, and both also show up in people with no diagnosis. Study methods that need long, ordered effort are harder under either pattern, and a few changes to how the methods are learned make the effort easier without removing it.
 
 ## Core takeaways
 
 - Learn one technique at a time, and do not read ahead.
-- Write two or three goals for the next 15 minutes and keep them visible.
-- Check the goals on an analog timer, not a phone.
+- Write two or three goals for the next 15 minutes, kept visible.
+- Check the goals on an analog timer, with the phone elsewhere.
 - Cap each day's list of fixes at two.
 - Keep a daily review to 30 minutes, even if unfinished.
 - Meditation helps alongside treatment, and does not replace it.
 
 ## Why fewer things at once
 
-Every new technique needs conscious attention until it becomes a habit. A person who is easily pulled away has less spare attention to hold several at once, and the techniques get applied badly. The test for overload is simple: if applying each technique takes concentration, you already have too many. Get the current one close to automatic, then add the next.
+Every new technique needs conscious attention until it becomes a habit. A person who is easily pulled away has less spare attention, so holding several new techniques at once means each gets applied badly. The test for overload is whether applying each technique still takes concentration, and if it does there are already too many. Get the current one close to automatic, then add the next.
+
+```
+technique 1:  effortful --> automatic
+                               |
+                               v
+              technique 2:  effortful --> automatic
+```
 
 - One technique in practice at a time.
 - Knowing another exists pulls attention, so stay on the current one.
 - Slower on paper, but fewer things to relearn later.
-- Methods that only need time to pass, such as a new schedule, can run alongside.
 
-```
-technique 1: effortful --> automatic
-                               |
-                               v
-               technique 2: effortful --> automatic
-```
+A method that only needs time to pass, such as a new schedule, can run alongside the one being learned.
 
 ## Adjustments inside a session
 
-Short, visible goals give the attention something to return to. Right before a session, write two or three things to finish in the next 10 to 15 minutes and put the note where you will see it. A cheap egg timer rings every 10 to 15 minutes to prompt a check: on track or not, and what the next goal is. A phone does the same job but brings its own distractions, so it is better in another room.
+Short, visible goals give attention something to return to. Right before a session, write two or three things to finish in the next 10 to 15 minutes and put the note where you will see it. A cheap egg timer rings every 10 to 15 minutes to prompt a check: on track or not, and what the next goal is. A phone can do the same job and brings its own distractions, so it is better off in another room.
 
 - Goals on a sticky note on the monitor or wall.
 - A timer that has no other function.
 - Group chats set to notify only when you are named.
-- For diagnosed ADHD on medication, train new methods in the most focused hours.
+- With ADHD on medication, train new methods in the most focused hours.
 
 ## Daily review and meditation
 
-A short daily review of what went well and what to change produces the most long-term improvement, and it is easy to overdo. Limit the changes for the next day to two, because one technique plus two changes is already a lot to hold. Hold the review in your best-focus hours, and stop at 20 to 30 minutes. A short review done every day beats a long one that gets dropped.
+A short daily review of what went well and what to change produces the most long-term improvement, and it is easy to overdo. Limit the changes for the next day to two, because one technique plus two changes is already a lot to hold. Hold the review in your best-focus hours and stop at 20 to 30 minutes. A short review done every day beats a long one that gets dropped.
 
-- Some people print the review sheet with two lines and a rule under them.
+- Some print a review sheet with two lines and a rule beneath.
 - Meditation: start at 2 to 10 minutes and build up.
 - Each time attention drifts and comes back counts as a repetition.
 - Expect no visible change for a month or two.
-- Reviews show medium benefits against no treatment and smaller ones against other active treatments.
-- Guidance on ADHD treats mindfulness as an add-on, not first-line care.
+- Reviews show medium benefits against no treatment.
+- Against other active treatments the benefits are smaller.
+- Guidance on ADHD ranks mindfulness as an add-on to first-line care.
 - Meditation can cause distress in some people, including after trauma.
 - Where a specialist's advice differs from these changes, follow the specialist.
 

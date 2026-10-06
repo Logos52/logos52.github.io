@@ -3,9 +3,9 @@ title: Vietnamese Language Learning Resources
 type: resource-catalog
 status: developing
 created: 2026-05-06
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 source-count: 78
 written-by: opus
 model: grok
@@ -26,11 +26,11 @@ Free Vietnamese video and audio exists at every level, from slow channels made f
 - Start with learner channels, then native vlogs and dramas.
 - The alphabet is Latin letters with marks for tone.
 - News channels are the hardest input and come last.
-- Spaced repetition review is optional.
+- Flashcard review at spaced intervals is optional.
 
 ## Choosing a dialect
 
-Northern Vietnamese, based on Hanoi speech, and southern Vietnamese, based on Saigon speech, differ in several sounds and some everyday words. Northern speech keeps six distinct tones, and southern speech merges the hỏi and ngã tones into one. A learner hears progress sooner by sticking to one dialect for the first months, though both are understood everywhere. Learner channels usually state which one they use.
+Northern Vietnamese is based on Hanoi speech and southern Vietnamese on Saigon speech, and the two differ in several sounds and some everyday words. Northern speech keeps six distinct tones, and southern speech merges the hỏi and ngã tones into one. A learner hears progress sooner by sticking to one dialect for the first months, though both are understood everywhere. Learner channels usually state which one they use.
 
 | Channel | Dialect | What it is |
 | --- | --- | --- |
@@ -42,10 +42,10 @@ Northern Vietnamese, based on Hanoi speech, and southern Vietnamese, based on Sa
 
 ## Native material
 
-After learner channels, native video with Vietnamese subtitles is the next step. Skits and vlogs with burned-in subtitles in Vietnamese and English help bridge the gap. Food and travel channels help because the picture shows what is being talked about.
+After learner channels, native video with Vietnamese subtitles is the next step. Skits and vlogs with burned-in subtitles in both Vietnamese and English make that step easier. Food and travel channels help because the picture shows what is being talked about.
 
 - aNcari Room: vlogs with Vietnamese and English subtitles.
-- Anh Shipper, Anh Áo Đen: comedy skits with subtitles.
+- Anh Shipper and Anh Áo Đen: comedy skits with subtitles.
 - Khoai Lang Thang: food and travel.
 - Giang Ơi: vlogs and explainers.
 - Đại Khái Là Thế: educational videos.
@@ -54,9 +54,9 @@ After learner channels, native video with Vietnamese subtitles is the next step.
 
 ## Tools
 
-Each kind of tool below exists in free versions. Add one only when a specific problem shows up, such as not hearing a tone or not finding a word.
+Each kind of tool below exists in a free version. Add one only when a specific problem shows up. Two examples are not hearing a tone and not finding a word.
 
-- A guide to the alphabet, vowels and tones with audio.
+- A guide to the alphabet, vowels and tones, with audio.
 - A list of the 100 most common words.
 - A popup dictionary for looking up words in text.
 - A browser subtitle extension for lookups and pausing per line.

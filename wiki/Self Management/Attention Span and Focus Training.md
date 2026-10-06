@@ -3,12 +3,12 @@ title: "Attention Span and Focus Training"
 type: technique
 status: developing
 created: 2026-05-23
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 written-by: opus
 model: grok
-description: "How to raise baseline focus with a daily return-to-target sit, and how to set up a single session so it reaches deep work."
+description: "How a daily sit that returns attention to one target raises baseline focus, and how to set up a single session so it reaches deep work."
 tags:
   - self-management
   - attention
@@ -18,12 +18,13 @@ tags:
 
 # Attention Span and Focus Training
 
-Attention span here means how long a person can keep their mind on one chosen task, and how fast they bring it back after it drifts. Most focus tips lift attention for a single session and have to be repeated every time. Training the habit of bringing attention back, over weeks, raises the baseline, the level each session starts from, so fewer tips are needed.
+Attention span is how long a person can keep their mind on one chosen task, and how fast they bring it back once it drifts. Most focus tips raise attention for one session and have to be applied again the next time. A daily practice of bringing attention back, kept up for weeks, raises the level each session starts from, so fewer tips are needed.
 
 ## Core takeaways
 
-- Tips help today's session; training changes the baseline.
-- Needing more and more tips is a sign the baseline is low.
+- A tip helps today's session.
+- Training changes the level every session starts from.
+- Needing more and more tips means that level is low.
 - Give each session one named output and one task.
 - Set up everything the session needs well before it starts.
 - Train by picking a boring target and returning to it.
@@ -31,28 +32,30 @@ Attention span here means how long a person can keep their mind on one chosen ta
 
 ## Two strategies
 
-Picture a wall between a distracted state and a focused one. Short-term strategies are ways of getting over the wall in a given session: a clear goal, a quiet room, a blocked phone. Long-term strategies lower the wall by training the brain to return from drift faster. Both are needed, and the short-term ones matter most at the start because training takes one to two months to show.
+Focus strategies come in a short-term kind and a long-term kind, and the two work on different timescales. A short-term strategy gets one session from distracted to focused: a clear goal, a quiet room, a phone in another room. A long-term strategy trains the brain to come back from drift faster, so every later session starts closer to focus. Both are needed, and the short-term ones matter most at the start, because training takes one to two months to show.
 
 ```
-focused  ------------------------------
-            wall of distraction
-         ------------------------------
-          ^ tips lift you over, once
-baseline  ___  trained baseline rises
-         ___/   over weeks of practice
+focused   -----------------------------------
+            ^ a tip lifts            ^ less
+            | one session            | to lift
+baseline    |                 _______|
+          --+----------------/
+             weeks of training raise the start
 ```
 
-- Short term: helps the next hour.
-- Long term: helps every hour after it.
-- Feeds and apps capture attention without training the return.
-- Whether phones shrank attention across a whole population is disputed.
+- A short-term strategy helps the next hour.
+- A long-term strategy helps every hour after it.
+- Feeds and apps hold attention without training it to come back.
+- Whether phones shrank attention across whole populations is disputed.
 
 ## The session setup
 
-Two conditions decide whether a session reaches deep, single-task work. The first is a clear target: the session has a named output, one task, and a length of an hour or less. The second is frontloading, which means doing the steps between not starting and starting well in advance, including removing distractions you can predict. Done the day or night before, the only thing left at the start of the session is a small push.
+Two conditions decide whether a session reaches deep, single-task work. The first is a clear target: the session has a named output, one task, and a length of an hour or less. The second is frontloading: doing every step between not having started and having started well in advance, including removing the distractions you can predict. When the frontloading is done the day or night before, the only thing left at the start of the session is a small push.
 
-- Name the output: "draft the first section", not "study".
-- Keep one task per block; each switch costs time to reload.
+- Name the output, such as "draft the first section".
+- "Study" on its own names no output.
+- Keep one task per block.
+- Each switch between tasks costs time to reload.
 - Do a small piece of the hardest part beforehand.
 - Plan to start, and let finishing be optional.
 - Lay out books, tabs and materials the night before.
@@ -61,23 +64,23 @@ Two conditions decide whether a session reaches deep, single-task work. The firs
 
 ## Training the return
 
-The training is a daily sit with one target, usually the breath. The mind wanders within seconds, and each time you notice and come back counts as one repetition. A boring target makes wandering more likely, which gives more repetitions; a video game holds attention easily and trains almost nothing. Over weeks, the gap between drifting and noticing shrinks, and focused stretches grow from one or two seconds to several.
+The training is a daily sit with one target, usually the breath. The mind wanders within seconds, and each time you notice and come back counts as one repetition. A boring target makes wandering more likely and so gives more repetitions, where a video game holds attention on its own and trains almost nothing. Over weeks the gap between drifting and noticing shrinks, and the focused stretches grow from one or two seconds to several.
 
 - Target: one simple thing, such as the breath or a repeated word.
-- Frequency: many returns per sit; frequent wandering is the point.
-- Time: 10 to 15 minutes a day, more if possible.
-- Feeling that the sit is not working is normal and part of each repetition.
-- One study found attention gains after 8 weeks of 13 minutes daily, not at 4.
-- Another found gains after 30 days of 10 to 15 minutes.
+- Many returns per sit, so frequent wandering is the point.
+- 10 to 15 minutes a day, more if possible.
+- Feeling that the sit is not working is part of each repetition.
 - Reviews find some parts of attention improve and others do not.
+
+One study found attention gains after eight weeks of 13 minutes a day and none after four. Another found gains after 30 days of 10 to 15 minutes.
 
 ## Focus by removal
 
-The fewer things competing for attention, the less focus each hour needs. Cutting priorities, open projects, apps, tools and commitments lowers the wall before any training starts. Specific goals also outperform vague ones, which is why a named output matters.
+The fewer things competing for attention, the less focus each hour needs. Cutting priorities, unfinished projects, apps, tools and commitments lowers the demand before any training starts. A specific goal also beats a vague one, which is why the named output in the session setup matters.
 
 - Fewer priorities means fewer switches.
-- Fewer open loops means fewer thoughts pulling you away.
-- Fewer tools and surfaces means fewer notifications.
+- Fewer unfinished projects means fewer thoughts pulling you away.
+- Fewer tools and apps means fewer notifications.
 
 ## Related pages
 

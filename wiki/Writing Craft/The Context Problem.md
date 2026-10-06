@@ -3,9 +3,9 @@ title: "The Context Problem"
 type: concept
 status: developing
 created: 2026-08-22
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 description: "Sentences that rely on words or links the page has not yet given, why writers and language models produce them, and what fixes them."
 written-by: opus
 tags:
@@ -22,15 +22,15 @@ The context problem is the fault of a sentence that uses a word, a meaning, a co
 ## Core takeaways
 
 - A sentence may use only what earlier lines on the page gave.
-- Knowing a subject makes it hard to see what others lack.
+- Knowing a subject makes it hard to see what others do not know.
 - Trying harder to picture the reader does not fix it.
 - New rules, ban lists and "write simply" prompts did not hold.
 - A checker who knows less than the writer catches it.
-- Links do not count as definitions; the page must stand alone.
+- Links do not count as definitions, so the page must stand alone.
 
 ## What a sentence can need
 
-Every sentence rests on things the reader must already have. There are four kinds, and a gap in any one of them loses the reader. A familiar word used in a special sense is the hardest to catch, because the reader recognises the word and misses the meaning. A connection between two ideas can also be missing even when both ideas were given.
+Every sentence rests on things the reader must already have. The kinds are listed below, and a gap in any of them loses the reader. A familiar word used in a special sense is the hardest to catch, because the reader recognises the word and misses the meaning. A connection between two ideas can also be missing even when both ideas were given.
 
 - A word: a term the page never defined.
 - A meaning: a common word used in a sense special to this site.
@@ -39,13 +39,13 @@ Every sentence rests on things the reader must already have. There are four kind
 
 ## Why it happens
 
-People who know something cannot fully set that knowledge aside when judging what others know. In a 1990 study, people tapped out well-known songs and predicted listeners would name about half of them. Listeners named 3 of 120, about 2.5 percent. Speakers plan from what they themselves can see and only later check for gaps, and that check is the first thing lost when they are busy.
+People who know something cannot fully set that knowledge aside when judging what others know. In a 1990 study, people tapped out well-known songs and predicted that listeners would name about half of them. The listeners named 3 of 120, about 2.5 percent. Speakers plan from what they themselves can see and only later check for gaps, and that check is the first thing lost when they are busy.
 
 - Better-informed people cannot ignore what they know, even when paid to.
 - A writer builds each sentence from their own knowledge, then checks it.
 - A language model holds the whole subject while writing each line.
 - Models trained on human preferences check less for shared understanding.
-- Asking a model for a set reading level hit it about 15 percent of the time.
+- Models hit a requested reading level about 15 percent of the time.
 
 ## The local record
 
@@ -54,7 +54,7 @@ On this site the problem was logged over six weeks of drafting before 2026-08-22
 - Added rules and memory notes: broken within the day.
 - Ban lists of words and shapes: output passed and was still unclear.
 - The same model reviewing its own draft: failed within minutes.
-- Readability scores and "be concise": measure length, not missing context.
+- Readability scores and "be concise": a short unclear sentence still passes.
 
 ## What works
 

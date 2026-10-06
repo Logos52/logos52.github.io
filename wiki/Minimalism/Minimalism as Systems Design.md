@@ -2,12 +2,12 @@
 type: hub
 status: developing
 created: 2026-05-12
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 written-by: opus
 source-count: 11
-description: "Treating a home as a system where objects enter, cost, and leave, with spare capacity kept free, and a map of the minimalism pages."
+description: "Treating a home as a system where objects enter, cost and leave, with spare room kept free, and a map of the minimalism pages."
 tags:
   - minimalism
   - self-management
@@ -18,34 +18,38 @@ tags:
 
 # Minimalism as Systems Design
 
-Minimalism as systems design treats a home the way an engineer treats any system: objects come in, get used, take up capacity and eventually leave, and each stage can be designed. The goal is a home with spare room, few running costs and the right things in view. Studies link cluttered homes to worse mood and daily stress-hormone patterns, and link visible objects to competition for attention.
+Minimalism as systems design treats a home as a system that objects pass through: each one comes in, gets used, takes up room and at some point leaves, and each of those stages can be planned. The aim is a home with spare room, low running costs and the right things in view. Studies link a cluttered home to worse mood and worse daily stress-hormone patterns, and show that objects in view compete for attention.
 
 ## Core takeaways
 
-- Measure what you own by volume, not count.
+- Measure what you own by the space it fills, never by count.
 - Keep spare room so a new need has somewhere to go.
-- Plan the exit before an object enters.
-- Every object keeps costing after purchase.
+- Plan how an object will leave before it comes in.
+- Every object keeps costing after it is bought.
 - Change the surroundings instead of relying on willpower.
 - Moving house is a good moment to change habits.
 
 ## How it works
 
-A hospital that runs its beds close to full has shortages whenever demand spikes, and studies put the danger zone at an average occupancy of around 85 percent, depending on how much demand varies. A home works the same way: cupboards packed to the limit leave no room for a new need, so objects pile up on surfaces. Spare capacity absorbs the swings. Objects also cost space, upkeep, attention, decisions and effort to remove, and moving house adds the costs of carrying and replacing them.
+A hospital that keeps its beds close to full runs short of beds whenever admissions rise. Studies put the danger point at an average occupancy of around 85 percent, with the exact figure depending on how much demand swings. A home fills up the same way: cupboards packed to the limit leave no room for a new need, so new objects end up on the surfaces. Spare room is what absorbs the swings.
+
+- An object costs space, upkeep, attention and decisions while it stays.
+- Getting rid of an object costs effort too.
+- Moving house adds the cost of carrying or replacing every object.
 
 ```
   ease of use
-      |  ********
-      |          ****
-      |              ***
-      |                 **
+      |  ########
+      |          ####
+      |              ###
+      |                 ##
       +------------------------> how full
       empty          ~85%   full
 ```
 
 ## What the cluster holds
 
-The pages in this section each cover one stage of an object's life in a home.
+Each page in this section covers one stage of an object's life in a home. They run from the moment before a purchase, through the costs of keeping, to the way an object leaves. One page holds the whole subject in short form.
 
 - Wanting Less: checking the motive before buying.
 - Exit Strategy For Objects: planning how an object will leave.
@@ -56,7 +60,12 @@ The pages in this section each cover one stage of an object's life in a home.
 
 ## Why it matters
 
-Clutter in a home has been linked to lower well-being about the home itself. Each object in view competes in the brain for attention, and browser tabs left open as reminders show the same cost on a screen. A large self-storage industry exists in the United States because many people pay monthly to keep objects they do not use.
+A full home costs its owner in mood, in attention and in money. Studies of homes measured the first, studies of the brain measured the second, and the money shows up as rent paid for storage units. The attention cost also applies on a screen, where browser tabs left open as reminders show the same effect.
+
+- Clutter is linked to lower well-being about the home itself.
+- Each object in view competes for attention in the brain.
+- Browser tabs kept open as reminders show the same cost.
+- Many people in the United States pay monthly to store unused objects.
 
 ## Sources
 

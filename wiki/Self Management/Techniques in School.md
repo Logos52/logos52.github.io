@@ -3,12 +3,12 @@ title: Techniques in School
 type: technique
 status: developing
 created: 2026-05-29
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 written-by: opus
 model: grok
-description: "How a student can keep effective study methods when school requires different ones, using class for recall and time-boxing low-value work."
+description: "How a student keeps effective study methods when school asks for different ones, by using class for recall and time-boxing ungraded work."
 tags:
   - self-management
   - school
@@ -17,7 +17,7 @@ tags:
 
 # Techniques in School
 
-Students who learn better study methods often find that school asks for different ones, such as copying linear notes or finishing large amounts of ungraded homework. Teacher training covers little of the research on how people learn, so classroom methods can lag behind it. A student can keep the better methods and still meet what the school requires, mostly by limiting the time spent on low-value work.
+A student who learns better study methods often finds that school asks for different ones, such as copying linear notes or finishing large amounts of ungraded homework. Teacher training covers little of the research on how people learn, so classroom methods can lag behind it. A student can keep the better methods and still meet what the school requires, mostly by limiting the time spent on low-value work.
 
 ## Core takeaways
 
@@ -39,7 +39,7 @@ Most classes leave some room for a student's own approach. Where a teacher does 
 
 ## Time-boxing
 
-Time-blocking reserves an hour for a task and lets it run over if needed. Time-boxing reserves the hour and stops the task when the hour ends. It suits two kinds of work: important work that is never urgent and never finished in one sitting, and compulsory work that barely matters, such as homework that carries no marks. The goal is the best result in the time given, which also stops perfectionism from stretching one task across a whole evening.
+Time-blocking reserves an hour for a task and lets the task run over if needed. Time-boxing reserves the hour and stops the task when the hour ends. Boxing suits two kinds of work: important work that is never urgent and never finished in one sitting, and compulsory work that barely matters, such as homework that carries no marks. The goal is the best result in the time given, which also stops perfectionism from stretching one task across a whole evening.
 
 ```
 time-blocking:  |== task ==|==> runs over if needed
@@ -52,10 +52,10 @@ time-boxing:    |== task ==|  stop
 
 ## When class cannot be changed
 
-Some teachers will agree to a different approach once a student shows they are ahead, and a few have let such students study alone in the library. When no option works and class repeats material already learned, a student can do a lighter pass before class so the lesson has more to work out. The time saved goes to mixed practice from memory after class. The other choice is to stay ahead and accept a dull hour.
+Some teachers will agree to a different approach once a student shows they are ahead, and a few have let such students study alone in the library. When no option works and the class repeats material already learned, a student can do a lighter pass before class so the lesson has more to work out. The time saved goes to mixed practice from memory after class. The other choice is to stay ahead and accept a dull hour.
 
 - Explain the method to the teacher and ask permission.
-- Show results first, since a teacher is more likely to agree.
+- Show results first, since a teacher is then more likely to agree.
 - Shorten the pre-class pass so the lesson holds some challenge.
 
 ## Related pages

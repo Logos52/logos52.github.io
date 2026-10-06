@@ -3,9 +3,9 @@ title: "Red Teaming"
 type: hub
 status: developing
 created: 2026-05-06
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 written-by: opus
 source-count: 10
 description: "Assigning people to attack a plan before it runs: the methods, what the studies found, why it fails, and the Army program."
@@ -19,42 +19,46 @@ tags:
 
 # Red Teaming
 
-Red teaming is assigning a person or group to attack a plan from the opponent's side before the plan is carried out. The US Army ran a school for it and published a public handbook of its methods. A team that is tested this way finds the weak assumptions while they are still cheap to fix.
+Red teaming is assigning a person or group to attack a plan from the opponent's side before the plan is carried out. The US Army ran a school for it and published a public handbook of its methods. A team tested this way finds its weak assumptions while they are still cheap to fix.
 
 ## Core takeaways
 
 - A red team argues against the plan on purpose.
 - It helps only when allowed to expose real weaknesses.
-- Imagining a plan has already failed surfaces more reasons it could fail.
-- Formal dissent improves decisions but lowers team satisfaction.
+- Imagining the plan as already failed finds more ways it could fail.
+- Formal dissent improves decisions and lowers team satisfaction.
 - Many structured analysis methods have little testing behind them.
 - The Army school closed in 2020, and its handbook remains public.
 
 ## How it works
 
-A group planning together tends to settle early on one view and stop looking. A red team is given the job of breaking that view: taking the adversary's position, checking the assumptions, and imagining the plan's failure. Because it is an assigned role, the dissent carries no social cost for the person voicing it.
+A group planning together tends to settle early on one view and stop looking. A red team is given the job of breaking that view by taking the adversary's position, checking the assumptions, and imagining the plan's failure. Because the dissent is an assigned role, the person voicing it pays no social cost.
 
 - Devil's advocacy: one member argues against the proposal.
 - Dialectical inquiry: a full counter-plan is built and compared.
-- Both produced better recommendations than consensus in a 1986 study.
+- Both beat plain consensus on recommendation quality in a 1986 study.
 - Groups using them liked the process and each other less.
-- Imagining an event as already happened raised reasons found by about 30% (1989).
-- A premortem uses this: the team imagines the plan failed and lists why.
+- A 1989 study had people imagine an event as already happened.
+- They then found about 30% more reasons for it.
+- A premortem applies this, imagining the plan failed and listing why.
 - Groups brainstorming aloud produce fewer ideas than the same people working alone.
 
 ## Where it fails
 
-A red team helps only if the organisation lets it expose real weaknesses. In the Millennium Challenge war game of 2002, a $250 million US exercise, retired Marine general Paul Van Riper led the opposing side and sank sixteen US ships early with a surprise missile strike. Organisers restarted the game, restored the ships, and scripted the rest, and Van Riper left.
+A red team helps only if the organisation lets it expose real weaknesses. In the Millennium Challenge war game of 2002, a US exercise that cost 250 million dollars, retired Marine general Paul Van Riper led the opposing side and sank sixteen US ships early with a surprise missile strike. The organisers restarted the game, restored the ships, and scripted the rest, and Van Riper left.
 
 - Red teams need independence and backing from leadership.
-- The evidence for groupthink itself is thin: 2 of 12 experiments supported it.
-- Many structured analytic techniques remain unvalidated.
+- The early settling on one view is called groupthink.
+- Only 2 of 12 experiments on groupthink supported it.
+- Many structured analytic techniques have never been properly tested.
 
 ## The Army program
 
-The school, the University of Foreign Military and Cultural Studies at Fort Leavenworth, trained officers in these methods. The Army moved to close it in October 2020. Its parent command, TRADOC, was dissolved on 26 September 2025 and its duties passed to a new training command. The handbook's version 9.0 remains in public release, with earlier editions archived online.
+The school was the University of Foreign Military and Cultural Studies at Fort Leavenworth, and it trained officers in these methods. The Army moved to close it in October 2020. Its parent command, TRADOC, was dissolved on 26 September 2025 and its duties passed to a new training command. The handbook's version 9.0 remains in public release, and earlier editions are archived online.
 
 ## Pages in this cluster
+
+Three pages sit under this one. Each covers a part of the practice on its own. The first is the Handbook's core habit, the second a failure of judgment that red teaming guards against, and the third a reading test.
 
 - Applied Critical Thinking - Testing Frames: testing assumptions before reasoning inside them.
 - Epistemic Exceptionalism: treating one's own reasoning as the only reliable one.

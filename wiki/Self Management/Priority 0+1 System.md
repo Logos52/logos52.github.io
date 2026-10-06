@@ -3,11 +3,11 @@ title: "Priority 0+1 and the Nightly Build"
 type: system
 status: developing
 created: 2026-06-11
-updated: 2026-09-27
+updated: 2026-10-06
 written-by: opus
 model: grok
-method: draft-2026-09-27
-prose-model: opus
+method: outline-2026-09-27
+prose-model: fable
 source-count: 3
 aliases:
   - "Priority 0+1 System"
@@ -17,7 +17,7 @@ aliases:
 merged-from:
   - "Task Management"
   - "Building a Schedule That Survives"
-description: "Planning each day around one protected top task, chosen the evening before from long-term values, with padding so the plan survives a bad day."
+description: "How to plan each day around one protected top task chosen the evening before, and pad the day so the plan survives delays."
 tags:
   - prioritisation
   - priority-0
@@ -30,7 +30,7 @@ tags:
 
 # Priority 0+1 and the Nightly Build
 
-Priority 0+1 is a way of planning each day around the single task that moves you furthest toward your goals, placed and protected before anything else. The plan is made the evening before, off the clock, so the next day starts with no choices left to make. On a bad day the lower priorities give way, and the top one still gets done.
+Priority 0+1 is a way of planning each day around the one task that moves you furthest toward your goals, booked and protected before anything else. The plan is made the evening before, so the next day starts with no choices left to make. On a bad day the lower priorities give way and the top task still gets done.
 
 ## Core takeaways
 
@@ -39,28 +39,28 @@ Priority 0+1 is a way of planning each day around the single task that moves you
 - Book priority 1 first and protect it from everything else.
 - Sort tomorrow's list tonight, while the day is quiet.
 - Book important, non-urgent work before urgent work.
-- Pad every estimate by a quarter and leave the day part empty.
-- Delete freely; a task that matters will come back.
+- Pad estimates by a quarter and leave part of the day empty.
+- Delete freely, since a task that matters will come back.
 
 ## The two layers
 
-Priority 0 is the answer to where you are heading: your values and a broad picture of the life and person you want. It works better as an open picture than as a precise ten-year goal, because people change and a narrow goal closes off options. Review it about every six months, and look for signs it has changed. Priority 1 is chosen daily or weekly from whatever serves priority 0 best.
+Priority 0 is the answer to where you are heading: your values and a broad picture of the life and the person you want. It works better as an open picture than as a precise ten-year goal, because people change and a narrow goal closes off options. Review it about every six months and look for signs that it has changed. Priority 1 is chosen daily or weekly from whatever serves priority 0 best.
 
-- Priority 0 wrong means every choice beneath it is wrong.
-- Priority 1: usually one or two tasks, never more than three.
+```
+Priority 0   values, direction     review twice a year
+     |
+Priority 1   today's top task      set each evening
+     |
+the rest     fitted around it      dropped first
+```
+
+- A wrong priority 0 makes every choice beneath it wrong.
+- Priority 1 is usually one or two tasks, never more than three.
 - Busy weeks fall slightly behind, and quiet weeks catch up.
-
-```
-Priority 0   values, direction      review ~6 months
-    |
-Priority 1   today's top task       set each evening
-    |
-the rest     fitted around it       dropped first
-```
 
 ## The nightly sort
 
-During the day, every task that turns up goes onto one list, because holding tasks in your head costs attention. At the end of the day, sort the list by two questions: how urgent is it, and how large is the consequence of not doing it. Urgent tasks feel important because their deadline is close, and left alone they fill every day, so the important but non-urgent work gets booked first. The result is tomorrow's schedule.
+During the day, every task that turns up goes onto one list, because holding tasks in your head costs attention. At the end of the day the list is sorted by two questions: how urgent the task is, and how large the consequence of leaving it undone. An urgent task feels important because its deadline is close. Urgent tasks left to themselves fill every day, so the important work with no deadline gets booked first.
 
 | | Urgent | Not urgent |
 | --- | --- | --- |
@@ -68,9 +68,11 @@ During the day, every task that turns up goes onto one list, because holding tas
 | Not important | batch it late | delete it |
 
 - A task under two minutes: do it now instead of listing it.
-- The task you least want to do: first in its group.
+- The task you least want to do goes first in its group.
 - A task that waits on other people: send it early.
-- Tasks with no urgency and no importance: delete them.
+- A task with no urgency and no importance: delete it.
+
+The sorted list is tomorrow's schedule.
 
 ## Building a day that holds
 

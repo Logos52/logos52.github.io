@@ -3,9 +3,9 @@ title: "Epistemic Exceptionalism"
 type: concept
 status: developing
 created: 2026-06-19
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 source-count: 2
 written-by: opus
 description: "The belief that one's own reasoning is the reliable one and disagreement is others' error, how it leads to central control, and how to check for it."
@@ -19,7 +19,7 @@ tags:
 
 # Epistemic Exceptionalism
 
-Epistemic exceptionalism is the belief that one's own reasoning is the reliable one, so that when others reach different conclusions, the cause must be their bias, corruption or slowness and never one's own mistake. It differs from plain arrogance because it can sound modest and careful. Spotting it matters because a person or group in its grip cannot be corrected by disagreement, and tends to conclude that only they should hold power.
+Epistemic exceptionalism is the belief that one's own reasoning is the reliable one, so that when other people reach a different conclusion, the cause must be their bias, corruption or slowness and never one's own mistake. It differs from plain arrogance because it can sound modest and careful. A person or group in its grip cannot be corrected by disagreement, and tends to conclude that only they should hold power.
 
 ## Core takeaways
 
@@ -32,18 +32,19 @@ Epistemic exceptionalism is the belief that one's own reasoning is the reliable 
 
 ## How it works
 
-The pattern starts with a long list of actors who cannot be trusted and a short list who can. On inspection, the short list turns out to be people who reason the same way and follow rules the person holding the belief helped write. If a safety plan then requires someone to hold the keys, and the analysis rules out everyone else, the plan will always hand the keys back to that person.
+The pattern starts with a long list of people and groups who cannot be trusted and a short list who can. On inspection, the short list turns out to be people who reason the same way and follow rules the person holding the belief helped write. If a safety plan then requires someone to be in control, and the analysis has ruled out everyone else, the plan hands control to that person every time.
 
 ```
 others disagree
       |
       v
-"they are biased / slow"
+"they are biased or slow"
       |
       v
 only we can be trusted --> we should decide
-      |
-      '-- no disagreement can reach the loop
+      ^                          |
+      '--- objections to this ---'
+           read as more bias
 ```
 
 - A lost negotiation becomes "they were unfair".
@@ -54,11 +55,11 @@ only we can be trusted --> we should decide
 
 ## Where it was named
 
-The term epistemic exceptionalism was used on All-In, a US tech and business podcast, in June 2026. A panelist read out an AI-written psychological profile of an AI lab's founder, which listed his distrust of other labs, foreign states, markets, institutions and government. Another panelist argued that treating competition as dangerous leads to a small cartel of approved companies, and that competition is what protects customers and prevents regulators being captured.
+The term was used on All-In, a US tech and business podcast, in June 2026. A panelist read out a psychological profile of an AI lab's founder, written by an AI model, which listed the founder's distrust of other labs, foreign states, markets, institutions and government. Another panelist argued that treating competition as dangerous leads to a small cartel of approved companies. He also argued that competition is what protects customers and keeps regulators from being captured by the companies they oversee.
 
 ## How to check for it
 
-The checks below apply to any source, including friendly ones and oneself. A month later the same podcast showed one chart of AI revenue, and panelists with money in different companies read it in opposite directions. Both readings fit their holdings, so the chart settled nothing.
+The checks below apply to any source, including friendly ones and oneself. A month after the term was named, the same podcast showed one chart of AI revenue, and panelists with money in different companies read it in opposite directions. Both readings fit the reader's holdings, so the chart settled nothing.
 
 - List who you trust, and see whether they all think like you.
 - Name a result that would prove you wrong, before looking.

@@ -2,12 +2,12 @@
 type: concept
 status: developing
 created: 2026-05-08
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 written-by: opus
 source-count: 20
-description: "Why putting tasks off is a learned escape from a bad feeling, and the changes to surroundings, plans and first steps that reduce it."
+description: "Why a task gets put off, and the changes to surroundings, plan and first step that get it started on low-motivation days."
 tags:
   - self-management
   - focus
@@ -18,20 +18,21 @@ tags:
 
 # Procrastination: a System Problem
 
-Procrastination is putting off a task you intend to do, knowing the delay will cost you. Most people treat it as a shortage of motivation and try to feel more driven, which works for a few days and then fades. Delay is more reliably cut by changing the surroundings, the plan and the size of the first step, so the task gets started on low-motivation days too.
+Procrastination is putting off a task you intend to do, knowing that the delay will cost you. Most people treat it as a shortage of motivation and try to feel more driven, which works for a few days and then fades. Delay is cut more reliably by changing the surroundings, the plan and the size of the first step, so the task gets started on low-motivation days too.
 
 ## Core takeaways
 
-- Motivation rises and falls, so a plan that needs it fails most days.
+- Motivation rises and falls from day to day.
+- A plan that needs motivation fails on most days.
 - Build plans you could finish on a bad day.
 - Remove temptations from view before relying on self-control.
-- Name the exact behaviour and its cause; "procrastination" covers many.
+- Name the exact behaviour and its cause, since the word covers many.
 - Make the first step so small it needs no motivation.
 - Forgiving yourself for a past delay reduces the next one.
 
 ## Why it happens
 
-Putting a task off is a way of escaping a bad feeling now: boredom, doubt, or the size of the job. The relief is immediate and the cost comes later, so the brain learns the delay the way it learns any habit. Sleep, mood, other people and life events move motivation up and down every day, so a system built on feeling motivated breaks often. Each round of pumping motivation back up leaves less to work with, and the end of that cycle is burnout.
+Putting a task off is a way of escaping a bad feeling now: boredom, doubt, or the size of the job. The relief is immediate and the cost comes later, so the brain learns the delay the way it learns any habit. Sleep, mood, other people and life events move motivation up and down every day, so a system built on feeling motivated breaks often. Each round of pushing motivation back up leaves less to work with, and that cycle ends in burnout.
 
 ```
 motivated --> progress --> progress unclear --> fade
@@ -48,17 +49,20 @@ motivated --> progress --> progress unclear --> fade
 
 ## What works
 
-People who reach their goals most reliably meet fewer temptations, and effort spent resisting temptation predicts little. Changing the situation works better than fighting an urge in the moment. Five changes work together: surroundings, a distraction list, a schedule, a minimum goal and consequences. Using only one or two of them is the most common reason the approach fails. Treatments based on changing thoughts and behaviour have the strongest record in trials.
+People who reach their goals most reliably meet fewer temptations, and effort spent resisting temptation predicts little. Changing the situation works better than fighting an urge in the moment. Five changes work together: the surroundings, a distraction list, a schedule, a minimum goal and consequences. Using only one or two of them is the most common reason the approach fails.
 
 - Surroundings: phone in another room, blockers on, a different room for work.
-- Distraction list: write down each thing that pulls you away, then remove it.
+- Distraction list: write down what pulls you away, then remove it.
 - Schedule: specific blocks with a clear task, since "what now?" invites delay.
 - Minimum goal: a chain of tiny steps.
-  - Stand up, walk to the desk, sit, open the book, work two minutes.
+  - Stand, walk to the desk, sit, open the book, work two minutes.
 - Consequences: tell someone the goal and agree a cost for missing it.
-  - Useful for short, urgent pushes; it does not build a habit.
+  - Useful for short, urgent pushes.
+  - A consequence does not build a habit.
 - "When X happens, I will do Y" plans raise follow-through.
 - Deadlines you set yourself help, and evenly spaced ones help more.
+
+Treatments based on changing thoughts and behaviour have the strongest record in trials.
 
 ## Quick moves for today
 
@@ -68,7 +72,7 @@ When a task is stuck right now, lower the cost of starting. Setting up the work 
 - Close tabs, silence the phone, open the materials, then decide.
 - Do five minutes tonight to a good standard.
 - Work next to friends in a shared focus session.
-- Start at a fresh point, such as a Monday, if that helps you begin.
+- Start at a fresh point such as a Monday if that helps.
 - After a bad day, forgive the delay and plan the next step.
 
 ## Related pages

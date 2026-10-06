@@ -3,9 +3,9 @@ title: "Ownership Cost"
 type: concept
 status: developing
 created: 2026-05-12
-updated: 2026-09-27
-method: draft-2026-09-27
-prose-model: opus
+updated: 2026-10-06
+method: outline-2026-09-27
+prose-model: fable
 written-by: opus
 model: grok
 source-count: 3
@@ -18,12 +18,12 @@ tags:
 
 # Ownership Cost
 
-Ownership cost is everything an object keeps costing after you have paid for it: the space it takes, the cleaning and repairs, the attention it pulls, the decisions it creates and the effort to get rid of it. The price is paid once, while the other costs run for as long as the object stays. Counting them changes which purchases look cheap.
+Ownership cost is everything an object keeps costing after it has been paid for: the space it takes, the cleaning and repairs, the attention it pulls, the decisions it creates and the effort to get rid of it. The price is paid once, and the other costs run for as long as the object stays. Counting them changes which purchases look cheap.
 
 ## Core takeaways
 
-- The price is paid once; the other costs continue.
-- Space, upkeep and attention continue every day the object stays.
+- The price is paid once and the other costs continue.
+- Space, upkeep and attention cost something every day the object stays.
 - Keeping an object does not get back the money spent on it.
 - Volume counts for more than the number of objects.
 - Storage out of sight still costs space and money.
@@ -31,7 +31,13 @@ Ownership cost is everything an object keeps costing after you have paid for it:
 
 ## How it works
 
-Attention is limited, and every object in view or in mind takes a little of it. An object that needs a decision, such as whether to repair it, sell it or keep it, stays an open question until someone settles it. Money already spent is gone whether the object stays or goes, so keeping it only keeps its running costs. A large object carries more of every cost than a small one, which is why volume matters more than count.
+The price of an object is paid once, at the shop. Every other cost falls due again for as long as the object stays, and each one falls due on its own schedule. Some of the costs are money, such as storage rent and repairs, and some are paid in attention and in decisions left open. A cost paid in attention is paid every time the object is seen.
+
+- Attention is limited, and every object in view or in mind takes some.
+- An object that needs a decision stays an open question until settled.
+- Money already spent is gone whether the object stays or goes.
+- Keeping the object keeps its running costs and nothing else.
+- A large object carries more of every cost than a small one.
 
 | Cost | When it is paid | Example |
 | --- | --- | --- |
@@ -45,10 +51,10 @@ Attention is limited, and every object in view or in mind takes a little of it. 
 
 ## How to use it
 
-Run the table before a purchase and again during a clear-out. A cheap object that is bulky, hard to clean and hard to sell can cost more over a year than an expensive small one. Objects that serve two jobs lower several costs at once. Owning two of the same item, such as two identical shirts worn in turn, removes a daily decision.
+The costs are counted twice: before a purchase, and again during a clear-out. Before buying, the count shows whether a cheap object is cheap at all, since a bulky one that is hard to clean and hard to sell can cost more over a year than an expensive small one. During a clear-out, the count ranks the objects, and the ones with the highest running costs go first. A purchase can also lower the running costs: an object that does two jobs cuts several costs at once, and two identical items worn in turn remove a daily decision.
 
 - Ask what each cost comes to before buying.
-- Price moving house by volume, not by count.
+- Price a house move by volume, never by count.
 - Prefer objects that fold, stack or serve two uses.
 - Settle open questions about objects in one sitting.
 
