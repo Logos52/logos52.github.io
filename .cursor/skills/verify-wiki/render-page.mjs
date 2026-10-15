@@ -347,15 +347,24 @@ async function main() {
   const cdp = new Cdp(ws);
 
   const meta = new Map();
-  const recordSessions = new Set();
+  const frames = new Map();
+  const stoppedFrames = new Set();
+  const contextFrame = new Map();
   const errors = [];
   const warnings = [];
   const loaded = new Set();
+  let laptopSession = null;
 
   function pushIssue(list, item) {
     const key = `${item.where}|${item.kind}|${item.text}|${item.url}|${item.line}`;
     if (list.some((row) => row.key === key)) return;
     list.push({ ...item, key });
+  }
+
+  function samePage(url) {
+    if (!url) return false;
+    const bare = pageUrl.replace(/\/$/, '');
+    return url === pageUrl || url === bare || url.startsWith(pageUrl) || url.startsWith(`${bare}?`) || url.startsWith(`${bare}/`);
   }
 
   async function enable(sessionId) {
@@ -369,31 +378,42 @@ async function main() {
       const { sessionId, targetInfo, waitingForDebugger } = msg.params;
       const url = targetInfo.url || '';
       meta.set(sessionId, { url, type: targetInfo.type || '' });
-      if (url.startsWith(origin)) recordSessions.add(sessionId);
       try {
         await enable(sessionId);
-        if (url.startsWith(origin)) {
-          await cdp.send('Emulation.setDeviceMetricsOverride', {
-            width: PHONE.width,
-            height: PHONE.height,
-            deviceScaleFactor: 1,
-            mobile: true,
-          }, sessionId);
-        }
       } finally {
         if (waitingForDebugger) await cdp.send('Runtime.runIfWaitingForDebugger', {}, sessionId);
       }
       return;
     }
-    if (msg.method === 'Page.frameNavigated' && msg.params.frame && !msg.params.frame.parentId) {
-      const row = meta.get(msg.sessionId);
-      const url = msg.params.frame.url || '';
-      if (row) row.url = url || row.url;
-      if (url.startsWith(origin)) recordSessions.add(msg.sessionId);
+    if (msg.method === 'Page.frameNavigated' && msg.params.frame) {
+      const frame = msg.params.frame;
+      frames.set(frame.id, frame.url || '');
+      if (!frame.parentId) {
+        const row = meta.get(msg.sessionId);
+        if (row) row.url = frame.url || row.url;
+      }
+    }
+    if (msg.method === 'Page.frameStoppedLoading' && msg.params.frameId) {
+      stoppedFrames.add(msg.params.frameId);
+    }
+    if (msg.method === 'Runtime.executionContextCreated') {
+      const context = msg.params.context;
+      if (context && context.auxData && context.auxData.frameId) {
+        contextFrame.set(context.id, context.auxData.frameId);
+      }
     }
     if (msg.method === 'Page.loadEventFired' && msg.sessionId) loaded.add(msg.sessionId);
-    const where = (meta.get(msg.sessionId) || {}).url || '';
-    if (!recordSessions.has(msg.sessionId) && !where.startsWith(origin)) return;
+    const ctxId = msg.params && (msg.params.executionContextId
+      || (msg.params.exceptionDetails && msg.params.exceptionDetails.executionContextId));
+    const frameUrl = frames.get(contextFrame.get(ctxId)) || '';
+    const detailUrl = (msg.params && msg.params.exceptionDetails && msg.params.exceptionDetails.url) || '';
+    const entryUrl = (msg.params && msg.params.entry && msg.params.entry.url) || '';
+    const onWikiFrame = samePage(frameUrl) || samePage(detailUrl);
+    const onLaptop = Boolean(laptopSession) && msg.sessionId === laptopSession;
+    const onPhone = Boolean(phoneSession) && msg.sessionId === phoneSession;
+    const resourceOnWiki = entryUrl.startsWith(origin);
+    if (!onLaptop && !onWikiFrame && !(onPhone && resourceOnWiki)) return;
+    const where = frameUrl || detailUrl || (meta.get(msg.sessionId) || {}).url || '';
     if (msg.method === 'Runtime.consoleAPICalled') {
       const type = msg.params.type;
       const text = (msg.params.args || []).map(remoteText).filter(Boolean).join(' ');
@@ -441,7 +461,8 @@ async function main() {
       mobile: metrics.mobile,
     }, sessionId);
     loaded.delete(sessionId);
-    if (url.startsWith(origin)) recordSessions.add(sessionId);
+    if (url === harnessUrl) phoneSession = sessionId;
+    else if (samePage(url)) laptopSession = sessionId;
     await cdp.send('Page.navigate', { url }, sessionId);
     const deadline = Date.now() + 20000;
     while (!loaded.has(sessionId)) {
@@ -461,19 +482,17 @@ async function main() {
   }
 
   const frameDeadline = Date.now() + 20000;
-  let frameSession = null;
-  while (!frameSession) {
-    for (const [id, row] of meta) {
-      if (row.url.startsWith(pageUrl) || row.url.startsWith(pageUrl.replace(/\/$/, ''))) {
-        if (loaded.has(id)) frameSession = id;
-      }
+  let frameUrl = '';
+  while (!frameUrl) {
+    for (const [id, url] of frames) {
+      if (samePage(url) && stoppedFrames.has(id)) frameUrl = url;
     }
-    if (frameSession) break;
+    if (frameUrl) break;
     if (Date.now() > frameDeadline) {
       console.error('verify-wiki: step 4 FAIL');
       console.error(`iframe never loaded ${pageUrl}`);
-      const seen = [...meta.values()].map((row) => row.url).filter(Boolean);
-      if (seen.length) console.error(`targets: ${seen.join(', ')}`);
+      const seen = [...frames.values()].filter(Boolean);
+      if (seen.length) console.error(`frames: ${seen.join(', ')}`);
       finish(4);
     }
     await sleep(100);
@@ -504,7 +523,6 @@ async function main() {
   writeFileSync(path.join(outDir, 'page.txt'), `${rel}\n${pageUrl}\niframe ${box.w}x${box.h}\n`, 'utf8');
 
   step = 5;
-  let laptopSession;
   try {
     laptopSession = await openPage(pageUrl, LAPTOP);
   } catch (err) {
