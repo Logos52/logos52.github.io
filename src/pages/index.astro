@@ -377,13 +377,10 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
     color: var(--mut);
     margin: 0;
   }
-  /* links in ink with an accent underline (2026-10-15) */
+  /* links in ink, no underline; accent on hover (2026-10-15) */
   .topmind__links a {
     color: var(--ink);
-    text-decoration: underline;
-    text-decoration-color: color-mix(in oklab, var(--accent) 70%, transparent);
-    text-decoration-thickness: 1.5px;
-    text-underline-offset: 3px;
+    text-decoration: none;
   }
   .topmind__links a:hover {
     color: var(--accent);
@@ -559,10 +556,7 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
     font-weight: 600;
     line-height: 1.25;
     color: var(--ink);
-    text-decoration: underline;
-    text-decoration-color: color-mix(in oklab, var(--accent) 70%, transparent);
-    text-decoration-thickness: 1.5px;
-    text-underline-offset: 3px;
+    text-decoration: none;
   }
   .updates__title:hover {
     color: var(--accent);
