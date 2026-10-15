@@ -6,7 +6,8 @@
  *   left  = <article data-pagefind-body> : mono breadcrumb, Ming <h1>, meta row
  *           (domain-colored pill type tag + "updated …"), then the prose <slot/>
  *           in the Ming serif at max ~64ch.
- *   right = sticky aside rail (top:80px) = constellation neighborhood + Toc + Backlinks.
+ *   right = sticky aside rail (top:80px) = constellation neighborhood + Toc (h2 only).
+ *   Backlinks ("Linked from") sit at the end of the article, after the prose.
  *
  * Wraps Base (which owns <html data-accent="violet">, the DS css imports, the
  * no-flash theme script, Chrome + Footer). All tokens are DS custom properties.
@@ -108,6 +109,7 @@ const hasAside = true;
         <div class="kb-prose">
           <slot />
         </div>
+        <Backlinks items={backlinks} />
       </article>
 
       {
@@ -117,7 +119,6 @@ const hasAside = true;
               <Constellation mode="local" seeds={[slug]} hops={2} height="118px" />
             </div>
             <Toc headings={headings} />
-            <Backlinks items={backlinks} />
           </aside>
         )
       }
@@ -289,16 +290,18 @@ const hasAside = true;
   .kb-prose em {
     font-weight: 500;
   }
-  /* wikilink / internal link — DS .abody a.wl */
+  /* wikilink / internal link — ink text, accent underline (2026-10-15) */
   .kb-prose a {
-    color: var(--accent);
-    text-decoration: none;
-    border-bottom: 1px solid color-mix(in oklab, var(--accent) 35%, transparent);
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in oklab, var(--accent) 70%, transparent);
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
     /* a bare URL is one unbroken word; without this it runs past a phone screen */
     overflow-wrap: anywhere;
   }
   .kb-prose a:hover {
-    border-bottom-color: var(--accent);
+    color: var(--accent);
   }
   /* pull quote — DS .pq / NotePage blockquote */
   .kb-prose blockquote {

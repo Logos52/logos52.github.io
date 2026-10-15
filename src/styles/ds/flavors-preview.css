@@ -22,6 +22,8 @@ html[data-palette="slate"] {
   --accent-ink:#FFFFFF;
   --d-learning:#5C63E6; --d-agentic:#9B5DE5; --d-language:#15A8C2;
   --d-mind:#10A982; --d-focus:#E0568F; --d-gen:#4F76C9;
+  /* flat surfaces on slate (2026-10-15); the search dropdown keeps --tsg-shadow-md */
+  --tsg-shadow:none; --tsg-shadow-sm:none;
 }
 html[data-palette="slate"][data-theme="dark"] {
   --paper:#16181C; --card:#1D2026; --raised:#262A32;
@@ -33,6 +35,7 @@ html[data-palette="slate"][data-theme="dark"] {
   --accent-ink:#16181C;
   --d-learning:#8B91F2; --d-agentic:#B98BEE; --d-language:#4FCBDD;
   --d-mind:#3FCBA3; --d-focus:#F07FAE; --d-gen:#7C9DEE;
+  --tsg-shadow:none; --tsg-shadow-sm:none;
 }
 
 /* ── Overcast (hushed pastels) ──────────────────────────────────────────── */

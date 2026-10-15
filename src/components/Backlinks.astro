@@ -1,9 +1,8 @@
 ---
 /**
- * Backlinks.astro — "Backlinks · N" sticky-aside panel.
- * Mirrors the NotePage aside backlinks block in the DS screens.jsx: mono uppercase
- * heading with the count, each entry a title link (var(--ink)) with a hairline
- * bottom rule and a faint context line below it.
+ * Backlinks.astro — "Linked from" block at the end of the note article, after the prose
+ * (moved out of the aside rail 2026-10-15). A top rule separates it from the prose; each
+ * entry is a title link (var(--ink)) with a hairline bottom rule and a muted context line.
  */
 import type { Backlink } from '../lib/types';
 
@@ -19,8 +18,8 @@ const rest = items.slice(SHOWN);
 
 {
   items.length > 0 && (
-    <section class="kb-backlinks" aria-label="Backlinks">
-      <h3 class="kb-side-h">Backlinks · {items.length}</h3>
+    <section class="kb-backlinks" aria-label="Linked from" data-pagefind-ignore>
+      <h2 class="kb-backlinks-h">Linked from</h2>
       <div class="kb-backlinks-list">
         {head.map((b) => (
           <a href={slugToHref(b.slug)} class="kb-backlink">
@@ -47,14 +46,18 @@ const rest = items.slice(SHOWN);
 }
 
 <style>
-  .kb-side-h {
-    font-family: var(--mono);
-    font-size: 0.75rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
+  .kb-backlinks {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    max-width: 64ch;
+  }
+  .kb-backlinks-h {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 500;
     color: var(--mut);
-    margin: 0 0 10px;
-    font-weight: 600;
+    margin: 0 0 12px;
   }
   .kb-backlinks-list {
     display: flex;
@@ -62,7 +65,8 @@ const rest = items.slice(SHOWN);
     gap: 8px;
   }
   .kb-backlink {
-    font-size: 13px;
+    font-family: var(--sans);
+    font-size: 15px;
     color: var(--ink);
     text-decoration: none;
     border-bottom: 1px solid var(--rule);
@@ -73,8 +77,8 @@ const rest = items.slice(SHOWN);
   }
   .kb-backlink-ctx {
     display: block;
-    font-size: 11px;
-    color: var(--faint);
+    font-size: 13px;
+    color: var(--mut);
     margin-top: 2px;
   }
   .kb-backlinks-more {

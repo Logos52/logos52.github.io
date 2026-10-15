@@ -263,7 +263,7 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
               {col.items.map((h) => (
                 <li>
                   <a href={hubHref(h.slug)}>
-                    <Icon name={h.icon} size="16px" class="hub-list__icon" style={`color:${h.color}`} />
+                    <Icon name={h.icon} size="16px" class="hub-list__icon" />
                     <span class="hub-list__title">{h.title}</span>
                     <span class="hub-list__count">{hubCount(h)}</span>
                   </a>
@@ -377,12 +377,16 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
     color: var(--mut);
     margin: 0;
   }
+  /* links in ink with an accent underline (2026-10-15) */
   .topmind__links a {
-    color: var(--accent);
-    text-decoration: none;
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in oklab, var(--accent) 70%, transparent);
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
   }
   .topmind__links a:hover {
-    text-decoration: underline;
+    color: var(--accent);
   }
 
   /* start here — intent doors (wash cards, icon left of the intent label) */
@@ -415,17 +419,14 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
     gap: 6px;
     padding: 14px 15px;
     border-radius: var(--tsg-radius);
-    border: 1px solid color-mix(in oklab, var(--dc) 22%, var(--rule));
-    background: color-mix(in oklab, var(--dc) 6%, var(--card));
-    box-shadow: var(--tsg-shadow);
+    /* plain card; the domain hue stays on the icon and intent label only */
+    border: 1px solid var(--rule);
+    background: var(--card);
     text-decoration: none;
-    transition:
-      transform var(--dur-fast),
-      border-color var(--dur-base);
+    transition: border-color var(--dur-base);
   }
   .door:hover {
-    transform: translateY(-1px);
-    border-color: color-mix(in oklab, var(--dc) 40%, var(--rule));
+    border-color: var(--rule2);
   }
   .door__kind {
     display: flex;
@@ -465,12 +466,9 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
     gap: 12px;
     margin-top: 26px;
   }
+  /* unboxed: titles, row rules and counts carry the structure */
   .hub-card {
-    background: var(--card);
-    border: 1px solid var(--rule);
-    border-radius: var(--tsg-radius);
-    padding: 14px 16px;
-    box-shadow: var(--tsg-shadow);
+    padding: 14px 0;
   }
   .hub-card__title {
     font-family: var(--ming);
@@ -504,6 +502,7 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
   }
   .hub-list a :global(.hub-list__icon) {
     flex-shrink: 0;
+    color: var(--faint);
   }
   .hub-list__title {
     font-size: var(--kb-text-base);
@@ -527,11 +526,7 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
     color: var(--ink);
   }
   .updates__box {
-    background: var(--card);
-    border: 1px solid var(--rule);
-    border-radius: var(--tsg-radius);
-    padding: 4px 16px;
-    box-shadow: var(--tsg-shadow);
+    padding: 4px 0;
   }
   .updates__day {
     padding: 14px 0;
@@ -563,11 +558,14 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
     font-size: var(--kb-text-base);
     font-weight: 600;
     line-height: 1.25;
-    color: var(--accent);
-    text-decoration: none;
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in oklab, var(--accent) 70%, transparent);
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
   }
   .updates__title:hover {
-    text-decoration: underline;
+    color: var(--accent);
   }
   .updates__blurb {
     font-size: var(--kb-text-sm);
