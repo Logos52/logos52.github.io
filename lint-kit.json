@@ -26,7 +26,7 @@
   "rules": {
     "R1": "error",
     "R2": "warn",
-    "R4": "warn",
+    "R4": "error",
     "R5": "error",
     "R8": "error",
     "R10": "error",
