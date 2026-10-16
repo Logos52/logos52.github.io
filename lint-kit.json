@@ -25,7 +25,7 @@
   "baseline": ".lint-kit-baseline.json",
   "rules": {
     "R1": "error",
-    "R2": "warn",
+    "R2": "error",
     "R4": "error",
     "R5": "error",
     "R8": "error",
