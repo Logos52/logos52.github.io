@@ -7,7 +7,12 @@
     ".git/**",
     "coverage/**",
     ".astro/**",
-    "src/content/notes/**"
+    "src/content/notes/**",
+    "**/*.sh",
+    "**/*.js",
+    "**/*.cjs",
+    "**/*.tsx",
+    "**/*.scss"
   ],
   "proseGlobs": [
     "README.md",
