@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
-# verify-wiki: run the six post-batch checks in order. Stop at the first failure.
 # Usage: bash .cursor/skills/verify-wiki/run.sh [checkout]
 # The checkout defaults to the repo that contains this skill.
-# Does not install dependencies. Does not kill a server on port 4321 that this run did not start.
 
 set -uo pipefail
 

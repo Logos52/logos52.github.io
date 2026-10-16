@@ -1,15 +1,8 @@
 #!/usr/bin/env python3
-"""kept-blocks-check.py — prove a wiki page kept the blocks regeneration must not touch.
-
-What this check is
-------------------
-On `outline-regen-2026-09-24`, `scripts/outline-kept-check.py` is the check.
-Main does not have that file. This script is the same check for a checkout
-that lacks it, and a batch runner for a checkout that has it.
+"""Prove a wiki page kept the blocks regeneration must not touch.
 
 A kept block is the tail of the page from the first of these headings through
-the end of the file, byte for byte as that script compares them (decoded
-text, final newlines stripped):
+the end of the file, byte for byte (decoded text, final newlines stripped):
 
   ## Sources
   ## Related pages
@@ -27,21 +20,11 @@ kept blocks"), which lives on `outline-regen-2026-09-24`, not on main.
 Override with --base or KEPT_BLOCKS_BASE.
 
 The four stamp keys (`updated`, `written-by`, `method`, `description`) are
-required only when the working file is not the skeleton blob. `outline-splice.py`
-writes those keys when it regenerates a page, and `outline-kept-check.py`
-refuses a regenerated page that lacks them. A file still byte-identical to
-the skeleton was not in a batch; hashing it is enough to prove the kept
-blocks did not change, and this script does not demand a stamp the splice
-never wrote. Research banks are in that unchanged set on the regen branch.
-They are not skipped by name.
+required only when the working file is not the skeleton blob.
 
 When `<repo>/scripts/outline-kept-check.py` exists, every page that differs
 from the skeleton is handed to that script (`--base REF`). The rules below
 run only when that file is absent, or when --no-delegate is set.
-
-This is not `scripts/source-words-check.py`. That one flags source-medium
-words outside the Sources block ("What never ships" in Writing Standards).
-This one checks that the blocks themselves survived.
 
 usage:
   python3 scripts/kept-blocks-check.py [--repo DIR] [--base REF] [--no-delegate] [PAGE ...]

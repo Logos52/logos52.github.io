@@ -7,7 +7,7 @@ description: After a wiki batch, run the kept-blocks check, frontmatter lint, th
 
 Run this after a batch of wiki pages, before calling the batch done.
 
-The ordered list below is the whole list. It was meant to live in `02 - System/Writing Standards.md` under "Checks after a batch". That section is not on main. This skill does not edit that file.
+The ordered list below is the whole list. This skill does not edit `02 - System/Writing Standards.md`.
 
 ## Run
 
@@ -48,7 +48,7 @@ Regeneration may replace the prose between the H1 and that heading. It may not c
 
 The skeleton is git commit `6e20c69` on `outline-regen-2026-09-24`, the commit that stripped every wiki page to frontmatter, the H1, and these blocks. Pass `--base REF` or set `KEPT_BLOCKS_BASE` when a batch used a different skeleton. If that commit is not in the repo, step 1 fails and says so.
 
-On a checkout that still has `scripts/outline-kept-check.py`, every changed page is handed to that script. That is the original check. `scripts/kept-blocks-check.py` repeats the same rules in-process only when the original file is absent (it is absent on main).
+On a checkout that still has `scripts/outline-kept-check.py`, every changed page is handed to that script. `scripts/kept-blocks-check.py` repeats the same rules in-process only when the original file is absent.
 
 This is not `scripts/source-words-check.py`. That script flags a video, a transcript, or an episode named outside the Sources block. Writing Standards lists that under "What never ships". The kept-blocks check is the survival of the blocks themselves.
 
@@ -88,4 +88,4 @@ Do not start step N+1 after step N fails. The report names the step and the outp
 
 ## What this skill leaves alone
 
-It does not edit Writing Standards. It does not merge. It does not replace `verify-logos52` (the visitor-driving skill on `cursor/verify-logos52-skill-31d4`). Two habits come from that skill: one preview server, and never kill a server this run did not start. Evidence stays after the preview process is stopped.
+It does not edit Writing Standards. It does not merge. It does not replace `verify-logos52`. It uses one preview server, and it never kills a server this run did not start. Evidence stays after the preview process is stopped.

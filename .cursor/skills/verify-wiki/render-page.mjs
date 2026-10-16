@@ -1,15 +1,5 @@
 #!/usr/bin/env node
 /**
- * Steps 4–6 of verify-wiki, one browser session so the console belongs to the
- * page that was actually rendered.
- *
- *   4. Open one published wiki page inside an iframe whose CSS box is 390×844.
- *   5. Read that page's JS console (and the laptop load of the same URL).
- *      console.error, uncaught exceptions, and error-level browser logs fail
- *      the step. Warnings are printed and do not fail it.
- *   6. Write phone-390.png (the iframe viewport) and laptop-1280.png
- *      (the same URL at 1280×800) only after step 5 passes.
- *
  * Exit code is the failing step (4, 5, or 6), or 0.
  *
  *   node render-page.mjs --repo DIR --origin http://127.0.0.1:4321 --out DIR
@@ -49,13 +39,13 @@ let userData;
 function finish(code) {
   clearTimeout(timer);
   if (chrome && !chrome.killed) {
-    try { chrome.kill('SIGKILL'); } catch { /* already gone */ }
+    try { chrome.kill('SIGKILL'); } catch {}
   }
   if (server) {
-    try { server.close(); } catch { /* already closed */ }
+    try { server.close(); } catch {}
   }
   if (userData) {
-    try { rmSync(userData, { recursive: true, force: true }); } catch { /* temp dir */ }
+    try { rmSync(userData, { recursive: true, force: true }); } catch {}
   }
   process.exit(code);
 }
@@ -267,9 +257,7 @@ async function waitForJson(port) {
     try {
       const res = await fetch(`http://127.0.0.1:${port}/json/version`);
       if (res.ok) return await res.json();
-    } catch {
-      /* chrome still booting */
-    }
+    } catch {}
     await sleep(200);
   }
   throw new Error('Chrome DevTools did not open');
@@ -582,7 +570,7 @@ async function main() {
     finish(6);
   }
 
-  try { ws.close(); } catch { /* closing */ }
+  try { ws.close(); } catch {}
   finish(0);
 }
 
