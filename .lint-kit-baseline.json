@@ -1,0 +1,4589 @@
+{
+  "entries": [
+    {
+      "rule": "R1",
+      "file": ".cursor/skills/verify-wiki/render-page.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": ".cursor/skills/verify-wiki/render-page.mjs",
+      "fingerprint": "c33167c5"
+    },
+    {
+      "rule": "R1",
+      "file": ".cursor/skills/verify-wiki/render-page.mjs",
+      "fingerprint": "f22eda29"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "445491f5"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "8ce180cb"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "2e572ef"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "4709f616"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "33fd6596"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "93c1bc4a"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "8e4aa510"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "9d2ef388"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "ce77ce9e"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "37739d72"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "4da42f97"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "a67eabd7"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "b1b158fa"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "4bf1f617"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "73ef109"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "41351d5"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/mgk-template-layout.css",
+      "fingerprint": "c058c655"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/mgk-template-layout.css",
+      "fingerprint": "dffc8791"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/mgk-template-layout.css",
+      "fingerprint": "8e305ce9"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/mgk-template-layout.css",
+      "fingerprint": "62a6e077"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/mgk-template-layout.css",
+      "fingerprint": "b34d9622"
+    },
+    {
+      "rule": "R1",
+      "file": ".obsidian/snippets/mgk-template-layout.css",
+      "fingerprint": "d680ebf5"
+    },
+    {
+      "rule": "R1",
+      "file": "_archive/MG-Kolbs-template-2026-06-01/scripts/complete-task.mjs",
+      "fingerprint": "3b1e67cc"
+    },
+    {
+      "rule": "R1",
+      "file": "_archive/MG-Kolbs-template-2026-06-01/scripts/complete-task.mjs",
+      "fingerprint": "a287dabc"
+    },
+    {
+      "rule": "R1",
+      "file": "_archive/MG-Kolbs-template-2026-06-01/scripts/complete-task.mjs",
+      "fingerprint": "7772536f"
+    },
+    {
+      "rule": "R1",
+      "file": "_archive/MG-Kolbs-template-2026-06-01/scripts/new-kolbs.mjs",
+      "fingerprint": "4de173bb"
+    },
+    {
+      "rule": "R1",
+      "file": "_archive/MG-Kolbs-template-2026-06-01/scripts/new-kolbs.mjs",
+      "fingerprint": "a89dc079"
+    },
+    {
+      "rule": "R1",
+      "file": "_archive/MG-Kolbs-template-2026-06-01/scripts/new-kolbs.mjs",
+      "fingerprint": "c7a64f00"
+    },
+    {
+      "rule": "R1",
+      "file": "_archive/MG-Kolbs-template-2026-06-01/scripts/new-kolbs.mjs",
+      "fingerprint": "86795ea8"
+    },
+    {
+      "rule": "R1",
+      "file": "astro.config.ts",
+      "fingerprint": "9a477928"
+    },
+    {
+      "rule": "R1",
+      "file": "astro.config.ts",
+      "fingerprint": "d73952d1"
+    },
+    {
+      "rule": "R1",
+      "file": "astro.config.ts",
+      "fingerprint": "efd8b717"
+    },
+    {
+      "rule": "R1",
+      "file": "astro.config.ts",
+      "fingerprint": "2daaf11d"
+    },
+    {
+      "rule": "R1",
+      "file": "index.d.ts",
+      "fingerprint": "6d07ab4e"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "da100c3e"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "a537c8e6"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "292ccee5"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "22dde34f"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "7ee7cd03"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "4aac640f"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "f5ee8f3c"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "1e631825"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "f1b82f48"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "ad7984ab"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "555dea0"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "fd5a21b7"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "d46363e4"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "35dbfdae"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "f2c81dc1"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "3c86c51e"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "e7eccdfc"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "fb16f382"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "28be0015"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "1cfa4ac1"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "d72454d7"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "8a5ececf"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "e538df49"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "11e0d375"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "3b30166"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "c4257c07"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "5c31d452"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "bc47c1bb"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "febb4ebb"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "e5e2dc55"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "efe02518"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "bb646c9"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "f23a2f2d"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "173d88ec"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "bd5bab09"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "7c02c7ba"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "e99ab4da"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "c6c12b19"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "ab27a941"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "a81dbf58"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "36450ce7"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "382ba67"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "11822ba1"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "cfc7885c"
+    },
+    {
+      "rule": "R1",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "b708f46d"
+    },
+    {
+      "rule": "R1",
+      "file": "mg-kolbs/scripts/complete-task.mjs",
+      "fingerprint": "3b1e67cc"
+    },
+    {
+      "rule": "R1",
+      "file": "mg-kolbs/scripts/complete-task.mjs",
+      "fingerprint": "a287dabc"
+    },
+    {
+      "rule": "R1",
+      "file": "mg-kolbs/scripts/complete-task.mjs",
+      "fingerprint": "7772536f"
+    },
+    {
+      "rule": "R1",
+      "file": "mg-kolbs/scripts/new-kolbs.mjs",
+      "fingerprint": "4de173bb"
+    },
+    {
+      "rule": "R1",
+      "file": "mg-kolbs/scripts/new-kolbs.mjs",
+      "fingerprint": "a89dc079"
+    },
+    {
+      "rule": "R1",
+      "file": "mg-kolbs/scripts/new-kolbs.mjs",
+      "fingerprint": "c7a64f00"
+    },
+    {
+      "rule": "R1",
+      "file": "mg-kolbs/scripts/new-kolbs.mjs",
+      "fingerprint": "86795ea8"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/bias-sweep.py",
+      "fingerprint": "5378b182"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/bias-sweep.py",
+      "fingerprint": "e107e7d7"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/bias-sweep.py",
+      "fingerprint": "b7212596"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/bias-sweep.py",
+      "fingerprint": "571f6bd2"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/bias-sweep.py",
+      "fingerprint": "c5a6672b"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/bias-sweep.py",
+      "fingerprint": "9c3cd806"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/bias-sweep.py",
+      "fingerprint": "79878930"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/bias-sweep.py",
+      "fingerprint": "5e4e5f90"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/bias-sweep.py",
+      "fingerprint": "c003b465"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/check-two-egos.mjs",
+      "fingerprint": "8beecc64"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/check-two-egos.mjs",
+      "fingerprint": "2ed97dec"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/check-two-egos.mjs",
+      "fingerprint": "4b0123d1"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/check-two-egos.mjs",
+      "fingerprint": "fc28744c"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/check-two-egos.mjs",
+      "fingerprint": "aeefd43"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/check-two-egos.mjs",
+      "fingerprint": "af1ae634"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/check-two-egos.mjs",
+      "fingerprint": "c3ada6f5"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/check-two-egos.mjs",
+      "fingerprint": "4613d48b"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/check-two-egos.mjs",
+      "fingerprint": "c47febe8"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/check-two-egos.mjs",
+      "fingerprint": "e866d2df"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/check-two-egos.mjs",
+      "fingerprint": "db5831ce"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/copy-assets.mjs",
+      "fingerprint": "b86a1101"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/copy-assets.mjs",
+      "fingerprint": "d6aaecbc"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/copy-assets.mjs",
+      "fingerprint": "6f7f0061"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/copy-public-notes.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/copy-public-notes.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/copy-public-notes.mjs",
+      "fingerprint": "a62c56ba"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/copy-public-notes.mjs",
+      "fingerprint": "e2f97cb2"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/diagramlib.py",
+      "fingerprint": "28c041d4"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/diagramlib.py",
+      "fingerprint": "9b8df04e"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/diagramlib.py",
+      "fingerprint": "a67a4ae1"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/diagramlib.py",
+      "fingerprint": "5e7c1d3f"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/diagramlib.py",
+      "fingerprint": "d962447e"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/diagramlib.py",
+      "fingerprint": "7b1076e1"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/ensure-pagefind.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-aim-training-i-diagrams.py",
+      "fingerprint": "2fa25f7b"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-argument-validation-diagrams.py",
+      "fingerprint": "591c9da6"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-argument-validation-diagrams.py",
+      "fingerprint": "125d0144"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-argument-validation-diagrams.py",
+      "fingerprint": "317abc37"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-china-diagrams.py",
+      "fingerprint": "649339ea"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "28c041d4"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "f823e23e"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "5e7c1d3f"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "f5f06339"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "c23a462e"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "fb3a828c"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "fb3d8df8"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "aa0f3944"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "4178723e"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "c5eabaff"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "4ada100f"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "df4cebb4"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "e6c30abe"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "2f2ba8b5"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "5c1c1ff7"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "cec6ac20"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "2aea7eef"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "dfe99edc"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "fc97af0a"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "8c03a431"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "8ea354c8"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "56bc004e"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "fe619d2e"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "833e99f0"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "10f4f76e"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "73ac4728"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "b415f70a"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "5259d407"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "4224b6f7"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "a3ebd2c9"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "5d1e7f2d"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "ae6b68d8"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "f39fbfed"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "906d3156"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "5b3a23a3"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "39e0a57d"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "6016ec28"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "380d62f0"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "7d9e8bde"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "de9297fa"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "c875f388"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "df69dd45"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-east-asian-exams-diagrams.py",
+      "fingerprint": "330743a7"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-gender-war-diagrams.py",
+      "fingerprint": "3d28bb4b"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-genetics-unequal-diagrams.py",
+      "fingerprint": "8c07b9eb"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-levels-of-thinking-diagrams.py",
+      "fingerprint": "87eb9feb"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-thinking-habits-diagrams.py",
+      "fingerprint": "9e9af5a6"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/gen-writing-templates-diagrams.py",
+      "fingerprint": "695ed1b"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "b3c24ce7"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "64afd279"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "69e3c0f5"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "a422e763"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "d06af40"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "7f13fd21"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "e7a03d90"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "cbac54dc"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "933651f"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "c29d3554"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "4587a633"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "28551b91"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "dab68b93"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "9bac9737"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "cc04ed20"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "e82299b5"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "caa37a3"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "3a8084b8"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/holdings.py",
+      "fingerprint": "ce90d56d"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/intro_qa.py",
+      "fingerprint": "e25bede1"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/intro_qa.py",
+      "fingerprint": "154058e5"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/lint-frontmatter.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "a5432b1a"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "3138b409"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "f3a85bf4"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "f3d7c8c6"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "86a0693e"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "bdb8eb5"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "ff642104"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "bca23d12"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "d55415a1"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "d8195120"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "c25ffb98"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "6925ea0a"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "e3668c05"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "cafceef2"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "d7a1c012"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "657a048a"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "62cb9271"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "b9f41334"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "800788e4"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "8a21c33e"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "7dbc6143"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "44750cdb"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "554ca7da"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "4565deda"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "54b2feae"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "e30095f5"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "adc03eb9"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "468a9b75"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "9ca86dd8"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "9963a9ed"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "36f6b3d6"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "d3c12468"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "3a1cf9c3"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "51b015aa"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "e9cacf11"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "17eebe0a"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "a4d44fc8"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "90b14e0a"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "b778da37"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "e6246312"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "b6c580e4"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "a69c3ed6"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "3297adc2"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "61b34faa"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "c93ae45a"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "473d1fd2"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "4d5891f6"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "9e38c7d5"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "4a1ff862"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "dfa6d821"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "fc90c0c4"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "432e4140"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "bf223fb2"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "4520af51"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "d7045f0f"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "5cfeca28"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "2d77c601"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "2dadebcb"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "b0b2c8f"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "6b95187c"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "9cdb95a"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "e9913f39"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "c218f696"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "63cfbe3a"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "1067af83"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "831888b7"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "79f1b840"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "c3dfc6a3"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "d2aa902"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "f92af1ca"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "2eb054de"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "2a516d8c"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "2cc21d72"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "35e37e29"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "eba22e04"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "a7db327a"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "71fa649c"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "afd21668"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "848836f2"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "fae37093"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "5a3b8b36"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "c6d59a6a"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "1317532b"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "3645ffb8"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "4334e53c"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "a8070e69"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "1733f4cb"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "d0605092"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "e022cc3c"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "fff9c811"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "2adebff4"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "9f6c497e"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "6496d8d"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "7d98835f"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "607c8f47"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "98b99f7c"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "516d55f0"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "7434b2cf"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "752ee79b"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "75a6bfd8"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "53034aa8"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-promote.py",
+      "fingerprint": "7ea5bd9d"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-promote.py",
+      "fingerprint": "e89d4890"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-route.py",
+      "fingerprint": "f9b1056a"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-route.py",
+      "fingerprint": "e2d83f72"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/regen-route.py",
+      "fingerprint": "bb6e85fc"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/sync-tsumugu-status.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/sync-tsumugu-status.mjs",
+      "fingerprint": "8c1fd89e"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/update-journal-surfaces.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/update-journal-surfaces.mjs",
+      "fingerprint": "2d0badea"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/update-notes-catalog.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/update-notes-catalog.mjs",
+      "fingerprint": "34e6397d"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/update-notes-catalog.mjs",
+      "fingerprint": "251bf7f6"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/update-notes-count.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Backlinks.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Chrome.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Chrome.astro",
+      "fingerprint": "d37253d3"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Constellation.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/DomainChip.astro",
+      "fingerprint": "ee62fb34"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Footer.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Icon.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/NoteCard.astro",
+      "fingerprint": "ee62fb34"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Toc.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/content.config.ts",
+      "fingerprint": "1685e2d9"
+    },
+    {
+      "rule": "R1",
+      "file": "src/content.config.ts",
+      "fingerprint": "937b3b69"
+    },
+    {
+      "rule": "R1",
+      "file": "src/content.config.ts",
+      "fingerprint": "5f576d2a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/content.config.ts",
+      "fingerprint": "351f13f4"
+    },
+    {
+      "rule": "R1",
+      "file": "src/content.config.ts",
+      "fingerprint": "283c7471"
+    },
+    {
+      "rule": "R1",
+      "file": "src/content.config.ts",
+      "fingerprint": "e70cc963"
+    },
+    {
+      "rule": "R1",
+      "file": "src/content.config.ts",
+      "fingerprint": "3b96ffda"
+    },
+    {
+      "rule": "R1",
+      "file": "src/content.config.ts",
+      "fingerprint": "ebc9fb6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/content.config.ts",
+      "fingerprint": "b86999b7"
+    },
+    {
+      "rule": "R1",
+      "file": "src/content.config.ts",
+      "fingerprint": "6d5e3aaf"
+    },
+    {
+      "rule": "R1",
+      "file": "src/content.config.ts",
+      "fingerprint": "bbc57539"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "d2323757"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "ecd50f00"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "9b20f372"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "ae45ac99"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "5f17694c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "d5869f3b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "764f1d77"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "419f8156"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "7642a8e4"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "c6afe1c6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "77a15ae8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "fab9ec06"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "2f57525d"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "d98da2b8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "7c416271"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "f8b8171d"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "a05f300a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "82156717"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "95659e88"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "84f20155"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "2c686d6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "bbe0c603"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "962e9de"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "be4f7fe7"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "46495b1c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "6d3a4a0a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "47d253d0"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "fca5ef05"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "999ed74a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "ff5917c7"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "4e6021b4"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "770a4bdd"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "55aa6e05"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "d3a0152"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "30e94e2"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "100f150f"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/search-inline.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/search-inline.ts",
+      "fingerprint": "39300a1b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/search-inline.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/search-inline.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/islands/search-inline.ts",
+      "fingerprint": "4c687870"
+    },
+    {
+      "rule": "R1",
+      "file": "src/layouts/Base.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/layouts/Note.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/backlinks.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/backlinks.ts",
+      "fingerprint": "3db816ed"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/domain.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/domain.ts",
+      "fingerprint": "a2e5945f"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/domain.ts",
+      "fingerprint": "88e3b667"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/domain.ts",
+      "fingerprint": "f21a6c82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/domain.ts",
+      "fingerprint": "221df707"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/domain.ts",
+      "fingerprint": "8292c242"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/fold-related.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/graph.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/graph.ts",
+      "fingerprint": "aa7310bb"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/icons.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/icons.ts",
+      "fingerprint": "e760e493"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/icons.ts",
+      "fingerprint": "f1fc9c1c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "3175dc82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "5aa25ce2"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "3fa7283"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "1c6b341c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "f59020c8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "6bb85bef"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "810c7a46"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "65d6276e"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "38db3099"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "b7d26be9"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "56c3bddf"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "ef758547"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "31899ca6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "df08595d"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "cb567898"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "3a6929a7"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "cce237c6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "cb70309c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "dd2db9b8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/journal.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/note.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/note.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/note.ts",
+      "fingerprint": "4799c8a1"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/pagefind-client.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/slug.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/slug.ts",
+      "fingerprint": "444c2b6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/slug.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/slug.ts",
+      "fingerprint": "96ddfb56"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/slug.ts",
+      "fingerprint": "dcfae449"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/spine.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/spine.ts",
+      "fingerprint": "cd60e0e3"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/spineZoom.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/spineZoom.ts",
+      "fingerprint": "dabddf34"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/spineZoom.ts",
+      "fingerprint": "9730dfa9"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d1d55b04"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "dc4a21cf"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d1d55b04"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "435243ed"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "cd6159f6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d9de703c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d8bd092a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d1d55b04"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "c03cb3ca"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "df650e49"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "83095b15"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "c9e2bb55"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d1d55b04"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "86ec09a4"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d1d55b04"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "2b8beeda"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "8c0156a8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "6f9c9d4e"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "a908def6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "c9db47d5"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "6026862b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "9479fa91"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "609443d2"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "43b936dd"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "c39c0ca5"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "e2746300"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "808f73f0"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "ef3c0ded"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "d20c7bd"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/[...slug].astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/about.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/backlinks.json.ts",
+      "fingerprint": "3b205a5b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/domains/[domain].astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/folder/[...folder].astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/graph.json.ts",
+      "fingerprint": "68984cda"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/index.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/journal.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/llm-knowledge-base.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/map.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/notes.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/personal.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/projects.astro",
+      "fingerprint": "7d6fb823"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/tags/[tag].astro",
+      "fingerprint": "7d6fb823"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "a5d26b9c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "54dca927"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "1435ead0"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "8350fb4"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "e6172420"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "9f991a11"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "ce4d27cf"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/flavors-preview.css",
+      "fingerprint": "904d5dc8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/flavors-preview.css",
+      "fingerprint": "e292c192"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/flavors-preview.css",
+      "fingerprint": "d68b25b0"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/flavors-preview.css",
+      "fingerprint": "f54a56f6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/flavors-preview.css",
+      "fingerprint": "fd6a3fd6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/fonts.css",
+      "fingerprint": "2bc2d854"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/fonts.css",
+      "fingerprint": "db1e17c5"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/fonts.css",
+      "fingerprint": "351fdd7f"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/kb-prose.css",
+      "fingerprint": "f14a1e27"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/kb-prose.css",
+      "fingerprint": "79999c3b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/kb-prose.css",
+      "fingerprint": "1fece46e"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/styles.css",
+      "fingerprint": "904d5dc8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "904d5dc8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "464d979e"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "35e12f46"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "fd7d589a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "cc116ad8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "d37ad491"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "c56a320a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "caae56d4"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "a51e5c47"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "9390a737"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "24775704"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "aadf9870"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "1edbb61b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "b1cfdacd"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "703ed0e6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "f55f934a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "e1621c9d"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "a98c9cdc"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "33e2e4d"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "8bf30000"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "74b5c0c6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "c1a26883"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "e3847bfc"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "6521de79"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "8b18a9bf"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "1ac28902"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "6931b070"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "634e0f9a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "e7ca19d"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "63880e48"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "5402595e"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "bcbcdc73"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "c229f154"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "dbd04285"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "703ed0e6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "904d5dc8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "8d477c9b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "217c2c92"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "da968fb1"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "6ce98fb5"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "914cfba7"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "614c3e42"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "4129e337"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "e1ed1caa"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "a8907070"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "582f8011"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "f925fe02"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "392784d1"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "31c06c9a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "bbceac6a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "4284652c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "c8c4d9fc"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "f7a7e39c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "d142ba47"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "1d015dec"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "fe23b58f"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "39fdfba7"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "334212fc"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "39a6fb66"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "838def3e"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "904d5dc8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "80fd50a8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "82ffabb2"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "32d99aea"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "d50a2e46"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "cf699bcd"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "e02d1d71"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "304c5f9a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "ad409019"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "11f1cbe8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "e7cf6ba2"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "904d5dc8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "8551b91"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "83a8eb3"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "3c5d6c8f"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "43152792"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "5e641fac"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "ba20d54f"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "3b706838"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "e40abc34"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "61a0453"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "dcf104d8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "87e0b3b1"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "80d6e9ba"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "2b5c3e87"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "28da4ce1"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "45dfe79c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "1b86a882"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "c4ef3efe"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "82076c9"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "8cd6e9a7"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "ef3f4b29"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "c87d980b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "f7efc46b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "df2e899d"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "bf987cbf"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "54ec6795"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "fc1e22f3"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "2c56e047"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "a5871b44"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "785de2c7"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "6d29cd89"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "7db7249f"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "baf03096"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "65655c90"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/evolve/evaluate.py",
+      "fingerprint": "816f5abc"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/evolve/evaluate.py",
+      "fingerprint": "7662c39f"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/maintenence/drift.py",
+      "fingerprint": "16ce3f23"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/maintenence/drift.py",
+      "fingerprint": "4bb28f52"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/maintenence/drift.py",
+      "fingerprint": "42573a22"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/maintenence/maintenence.py",
+      "fingerprint": "4f4a9944"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/maintenence/maintenence.py",
+      "fingerprint": "d76dbed1"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/leak.test.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/leak.test.mjs",
+      "fingerprint": "ad579e2d"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/leak.test.mjs",
+      "fingerprint": "f39ee240"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/leak.test.mjs",
+      "fingerprint": "27458fff"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/leak.test.mjs",
+      "fingerprint": "3f7d3c6f"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/leak.test.mjs",
+      "fingerprint": "13cb821c"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/leak.test.mjs",
+      "fingerprint": "7812b8fc"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/leak.test.mjs",
+      "fingerprint": "d5b94f32"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/lint-front-facing.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/lint-front-facing.mjs",
+      "fingerprint": "d3400005"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/lint-front-facing.mjs",
+      "fingerprint": "576a296d"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/publish-guard.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/publish-guard.mjs",
+      "fingerprint": "bf551a11"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/publish-guard.mjs",
+      "fingerprint": "81a6f5af"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/publish-guard.mjs",
+      "fingerprint": "ed9b17ec"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/publish-guard.mjs",
+      "fingerprint": "65d51ec4"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/publish-guard.mjs",
+      "fingerprint": "5d4ccf4e"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/publish-guard.mjs",
+      "fingerprint": "9012896"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/publish-guard.mjs",
+      "fingerprint": "f4dcdc0c"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/publish-guard.mjs",
+      "fingerprint": "74f521cf"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/publish-guard.mjs",
+      "fingerprint": "247e3e2d"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/repair-links.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/repair-links.mjs",
+      "fingerprint": "9ca24a33"
+    },
+    {
+      "rule": "R1",
+      "file": "tools/scripts/repair-links.mjs",
+      "fingerprint": "9b06a8da"
+    },
+    {
+      "rule": "R2",
+      "file": ".cursor/skills/verify-wiki/render-page.mjs",
+      "fingerprint": "e28e9bfc"
+    },
+    {
+      "rule": "R2",
+      "file": ".obsidian/snippets/kb.css",
+      "fingerprint": "b0eb5cbf"
+    },
+    {
+      "rule": "R2",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "bc47c1bb"
+    },
+    {
+      "rule": "R2",
+      "file": "scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "3003f4cd"
+    },
+    {
+      "rule": "R2",
+      "file": "scripts/gen-distribution-diagrams.py",
+      "fingerprint": "6ac694a6"
+    },
+    {
+      "rule": "R2",
+      "file": "scripts/holdings.py",
+      "fingerprint": "a1fbeb8a"
+    },
+    {
+      "rule": "R2",
+      "file": "scripts/kept-blocks-check.py",
+      "fingerprint": "d5bdf23e"
+    },
+    {
+      "rule": "R2",
+      "file": "scripts/regen-check.py",
+      "fingerprint": "3297adc2"
+    },
+    {
+      "rule": "R2",
+      "file": "scripts/update-notes-catalog.mjs",
+      "fingerprint": "6d777e41"
+    },
+    {
+      "rule": "R2",
+      "file": "src/components/Chrome.astro",
+      "fingerprint": "a0b4615b"
+    },
+    {
+      "rule": "R2",
+      "file": "src/islands/constellation.ts",
+      "fingerprint": "fb7b2356"
+    },
+    {
+      "rule": "R2",
+      "file": "src/layouts/Base.astro",
+      "fingerprint": "59bda16c"
+    },
+    {
+      "rule": "R2",
+      "file": "src/layouts/Note.astro",
+      "fingerprint": "48e1780e"
+    },
+    {
+      "rule": "R2",
+      "file": "src/pages/index.astro",
+      "fingerprint": "5f9716e1"
+    },
+    {
+      "rule": "R2",
+      "file": "src/pages/map.astro",
+      "fingerprint": "9f0de675"
+    },
+    {
+      "rule": "R2",
+      "file": "src/pages/personal.astro",
+      "fingerprint": "163ad823"
+    },
+    {
+      "rule": "R2",
+      "file": "src/pages/projects.astro",
+      "fingerprint": "ca38afd0"
+    },
+    {
+      "rule": "R5",
+      "file": "tsconfig.json",
+      "fingerprint": "fe0c521a"
+    },
+    {
+      "rule": "R5",
+      "file": "tsconfig.json",
+      "fingerprint": "fe0c521a"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/check-recurrence.py",
+      "fingerprint": "a147a172"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "27f7980e"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "27f7980e"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "57be63d1"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-agentic-engineering-diagrams.py",
+      "fingerprint": "f9fda20c"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-agentic-engineering-diagrams.py",
+      "fingerprint": "f9fda20c"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-agentic-engineering-diagrams.py",
+      "fingerprint": "f9fda20c"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-britain-diagrams.py",
+      "fingerprint": "2a38fc32"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "203aa028"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "65de9d75"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "faf90ed8"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "852f5e07"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-east-asian-exams-diagrams.py",
+      "fingerprint": "fed2c804"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-gender-war-diagrams.py",
+      "fingerprint": "8fc5e829"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-gender-war-diagrams.py",
+      "fingerprint": "14110eea"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-genetics-unequal-diagrams.py",
+      "fingerprint": "f04a949f"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-genetics-unequal-diagrams.py",
+      "fingerprint": "76bf94b8"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-genetics-unequal-diagrams.py",
+      "fingerprint": "4de7a506"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-red-teaming-diagrams.py",
+      "fingerprint": "d14993d2"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-shoot-training-i-diagrams.py",
+      "fingerprint": "50aabc5c"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-shoot-training-i-diagrams.py",
+      "fingerprint": "387949d1"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-socialism-diagrams.py",
+      "fingerprint": "4699295c"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-thinking-habits-diagrams.py",
+      "fingerprint": "d4843014"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-writing-templates-diagrams.py",
+      "fingerprint": "8d5794"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-writing-templates-diagrams.py",
+      "fingerprint": "e29a8dcd"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/intro_qa.py",
+      "fingerprint": "f9172cf8"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/intro_qa.py",
+      "fingerprint": "12288032"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/intro_qa.py",
+      "fingerprint": "a003e7c3"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/intro_qa.py",
+      "fingerprint": "9ae47a3"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/evolve/evaluate.py",
+      "fingerprint": "3d213368"
+    },
+    {
+      "rule": "R8",
+      "file": "rules.json",
+      "fingerprint": "10f94bb4"
+    },
+    {
+      "rule": "R10",
+      "file": "package.json",
+      "fingerprint": "fe0c521a"
+    },
+    {
+      "rule": "R10",
+      "file": ".github/workflows/lint-kit.yml",
+      "fingerprint": "e48bceee"
+    },
+    {
+      "rule": "R0",
+      "file": "check:fixtures",
+      "fingerprint": "a7c7d15"
+    },
+    {
+      "rule": "R16",
+      "file": "AGENTS.md",
+      "fingerprint": "194a90de"
+    },
+    {
+      "rule": "R16",
+      "file": "AGENTS.md",
+      "fingerprint": "2fcaf1e6"
+    },
+    {
+      "rule": "R16",
+      "file": "AGENTS.md",
+      "fingerprint": "e7166a2e"
+    },
+    {
+      "rule": "R16",
+      "file": "AGENTS.md",
+      "fingerprint": "10bd699f"
+    },
+    {
+      "rule": "R16",
+      "file": "AGENTS.md",
+      "fingerprint": "8991440f"
+    },
+    {
+      "rule": "R16",
+      "file": "AGENTS.md",
+      "fingerprint": "34fdd0e9"
+    },
+    {
+      "rule": "R16",
+      "file": "AGENTS.md",
+      "fingerprint": "1f0805e8"
+    },
+    {
+      "rule": "R16",
+      "file": "AGENTS.md",
+      "fingerprint": "266703a6"
+    },
+    {
+      "rule": "R16",
+      "file": "CLAUDE.md",
+      "fingerprint": "3d60bb00"
+    },
+    {
+      "rule": "R16",
+      "file": "CLAUDE.md",
+      "fingerprint": "6739c94d"
+    },
+    {
+      "rule": "R16",
+      "file": "CLAUDE.md",
+      "fingerprint": "6de29c5d"
+    },
+    {
+      "rule": "R16",
+      "file": "CLAUDE.md",
+      "fingerprint": "6de29c5d"
+    },
+    {
+      "rule": "R16",
+      "file": "README.md",
+      "fingerprint": "e0acb68c"
+    },
+    {
+      "rule": "R16",
+      "file": "README.md",
+      "fingerprint": "ce40fcfa"
+    },
+    {
+      "rule": "R16",
+      "file": "README.md",
+      "fingerprint": "3dbe9d51"
+    },
+    {
+      "rule": "R16",
+      "file": "README.md",
+      "fingerprint": "e1b81b76"
+    },
+    {
+      "rule": "R16",
+      "file": "README.md",
+      "fingerprint": "a10ad05c"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/01-overview.md",
+      "fingerprint": "91f31fd"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/01-overview.md",
+      "fingerprint": "bd60159"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/01-overview.md",
+      "fingerprint": "f0bd77c5"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/01-overview.md",
+      "fingerprint": "7668a615"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/01-overview.md",
+      "fingerprint": "f0bd77c5"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/01-overview.md",
+      "fingerprint": "2309fcd3"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/01-overview.md",
+      "fingerprint": "ae7fa362"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/02-concepts.md",
+      "fingerprint": "db407da1"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/02-concepts.md",
+      "fingerprint": "db407da1"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/02-concepts.md",
+      "fingerprint": "4cf08eba"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/02-concepts.md",
+      "fingerprint": "afbe5ce3"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/02-concepts.md",
+      "fingerprint": "eef5639f"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/02-concepts.md",
+      "fingerprint": "fe7d788e"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/03-architecture.md",
+      "fingerprint": "7ef428b4"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/03-architecture.md",
+      "fingerprint": "ba4e879a"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/03-architecture.md",
+      "fingerprint": "111358b5"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/03-architecture.md",
+      "fingerprint": "fc2ac9c"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/03-architecture.md",
+      "fingerprint": "a335ab5d"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/04-the-loop.md",
+      "fingerprint": "142f6aa9"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/04-the-loop.md",
+      "fingerprint": "8107103a"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/04-the-loop.md",
+      "fingerprint": "5f1ee8e2"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/04-the-loop.md",
+      "fingerprint": "cf40f92a"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/05-features.md",
+      "fingerprint": "ecf0fd10"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/05-features.md",
+      "fingerprint": "aa5beda6"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/05-features.md",
+      "fingerprint": "b8551bee"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/05-features.md",
+      "fingerprint": "b8551bee"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/06-extending.md",
+      "fingerprint": "1b95484b"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/06-extending.md",
+      "fingerprint": "80d95fd7"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/06-extending.md",
+      "fingerprint": "540ff473"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/06-extending.md",
+      "fingerprint": "97d78d19"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/README.md",
+      "fingerprint": "a9503527"
+    },
+    {
+      "rule": "R16",
+      "file": "projects/tsumugu/docs/README.md",
+      "fingerprint": "f3d38535"
+    },
+    {
+      "rule": "R21",
+      "file": "package.json",
+      "fingerprint": "fe0c521a"
+    },
+    {
+      "rule": "R21",
+      "file": ".github/workflows/lint-kit.yml",
+      "fingerprint": "159675f8"
+    },
+    {
+      "rule": "R21",
+      "file": "src/lib/slug.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R21",
+      "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R21",
+      "file": "src/lib/domain.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R21",
+      "file": "src/lib/types.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R21",
+      "file": "src/lib/spine.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R21",
+      "file": "src/lib/spineZoom.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R21",
+      "file": "src/lib/wikilinks.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R21",
+      "file": "src/lib/icons.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R21",
+      "file": "src/lib/pagefind-client.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R21",
+      "file": "scripts/gen-china-diagrams.py",
+      "fingerprint": "50ac5ca9"
+    },
+    {
+      "rule": "R21",
+      "file": "scripts/intro_qa.py",
+      "fingerprint": "c23f5297"
+    },
+    {
+      "rule": "R21",
+      "file": "tools/maintenence/drift.py",
+      "fingerprint": "5ed62cb7"
+    },
+    {
+      "rule": "R0",
+      "file": "eslint:repo",
+      "fingerprint": "1e22fb30"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/bias-sweep.py",
+      "fingerprint": "c26bbcd4"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/bias-sweep.py",
+      "fingerprint": "9554e4b0"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/bias-sweep.py",
+      "fingerprint": "e3f07003"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/check-recurrence.py",
+      "fingerprint": "a147a172"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/check-recurrence.py",
+      "fingerprint": "7f86b975"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/check-recurrence.py",
+      "fingerprint": "4d6c34d5"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/check-recurrence.py",
+      "fingerprint": "5c1346f9"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/check-recurrence.py",
+      "fingerprint": "607e015b"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/check-recurrence.py",
+      "fingerprint": "f0971002"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "b5480de"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "14a9c414"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "5d41fe99"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "6e03249c"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "8822f21c"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "a8b4a874"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "fe851eef"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "e0c6b14d"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "4e4d6d12"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "a0e7600c"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "72b30031"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "995687e3"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "6703616"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "b3486ede"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "45c8abef"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/diagramlib.py",
+      "fingerprint": "9520cb5"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-agentic-engineering-diagrams.py",
+      "fingerprint": "bba9efb1"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-agentic-engineering-diagrams.py",
+      "fingerprint": "3171d3c3"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-aim-training-i-diagrams.py",
+      "fingerprint": "f8647ee3"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-aim-training-i-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-argument-validation-diagrams.py",
+      "fingerprint": "97a8407a"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-britain-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-china-diagrams.py",
+      "fingerprint": "73f7d890"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-china-diagrams.py",
+      "fingerprint": "1459d897"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-china-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "1cf85991"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "b2ef0c4c"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "5d41fe99"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "6e03249c"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "8822f21c"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "a8b4a874"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "fe851eef"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "e0c6b14d"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "ac35e3fb"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "16982534"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "60650d7a"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "67240b70"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "e838eeb2"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "918c226e"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "da2624b5"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "63a380e3"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "9520cb5"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-dating-gini-diagrams.py",
+      "fingerprint": "c9ec3dbd"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "8f55e01b"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "b58a7879"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "dc7ddf7c"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "51b6517e"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "7b362f60"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "b9139b7e"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "6ae318f9"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "90b7b751"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "2c066871"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "a2376fbe"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "f474bea6"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "f477622"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "32b41101"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "32b41101"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "b07a1b3d"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-distribution-diagrams.py",
+      "fingerprint": "ce470f72"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-east-asian-exams-diagrams.py",
+      "fingerprint": "7eb1471f"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-east-asian-exams-diagrams.py",
+      "fingerprint": "1459d897"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-east-asian-exams-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-europe-diagrams.py",
+      "fingerprint": "41a591ac"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-europe-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-gender-war-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-genetics-unequal-diagrams.py",
+      "fingerprint": "73f7d890"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-genetics-unequal-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-late-stage-feminism-diagrams.py",
+      "fingerprint": "73f7d890"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-late-stage-feminism-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-levels-of-thinking-diagrams.py",
+      "fingerprint": "f8647ee3"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-levels-of-thinking-diagrams.py",
+      "fingerprint": "3e56ef76"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-levels-of-thinking-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-red-teaming-diagrams.py",
+      "fingerprint": "3171d3c3"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-shoot-training-i-diagrams.py",
+      "fingerprint": "f8647ee3"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-shoot-training-i-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-single-sex-spaces-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-socialism-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-south-africa-diagrams.py",
+      "fingerprint": "1459d897"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-south-africa-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-thinking-habits-diagrams.py",
+      "fingerprint": "f8647ee3"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-thinking-habits-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-writing-templates-diagrams.py",
+      "fingerprint": "f8647ee3"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/gen-writing-templates-diagrams.py",
+      "fingerprint": "18ae6373"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "68bc1794"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "68bc1794"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "ec8af754"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "216388c4"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "baa2abf"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "88d94c75"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "a51b7647"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "c71d327b"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "b7189649"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "591b7d1b"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "3e96ca9b"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "db5feadb"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "295049f6"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "152b7b01"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "cad3190d"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "2fad4001"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/holdings.py",
+      "fingerprint": "671ae042"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/intro_qa.py",
+      "fingerprint": "63867ef8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/intro_qa.py",
+      "fingerprint": "8dad222a"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/intro_qa.py",
+      "fingerprint": "2fcbd9f4"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/intro_qa.py",
+      "fingerprint": "7203de2f"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/intro_qa.py",
+      "fingerprint": "90408326"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/intro_qa.py",
+      "fingerprint": "51b99f22"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/kept-blocks-check.py",
+      "fingerprint": "b54b7732"
+    },
+    {
+      "rule": "R22",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/kept-blocks-check.py",
+      "fingerprint": "b9153b6"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/kept-blocks-check.py",
+      "fingerprint": "c0a014d"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/kept-blocks-check.py",
+      "fingerprint": "8e68182e"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/kept-blocks-check.py",
+      "fingerprint": "a823325a"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/kept-blocks-check.py",
+      "fingerprint": "fe9241c2"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/kept-blocks-check.py",
+      "fingerprint": "d5bdf23e"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/kept-blocks-check.py",
+      "fingerprint": "996f39e0"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-check.py",
+      "fingerprint": "dba76ef"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-check.py",
+      "fingerprint": "dfe34fb8"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-check.py",
+      "fingerprint": "dfe34fb8"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-check.py",
+      "fingerprint": "dfe34fb8"
+    },
+    {
+      "rule": "R22",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-check.py",
+      "fingerprint": "39fb6106"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-check.py",
+      "fingerprint": "b345c7dc"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-check.py",
+      "fingerprint": "d5e3acf"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-check.py",
+      "fingerprint": "d6c715e4"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-check.py",
+      "fingerprint": "ceda369a"
+    },
+    {
+      "rule": "R22",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-promote.py",
+      "fingerprint": "d021b571"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-promote.py",
+      "fingerprint": "68bc1794"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-promote.py",
+      "fingerprint": "f34edd2b"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-promote.py",
+      "fingerprint": "e139943d"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-promote.py",
+      "fingerprint": "938c7beb"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-promote.py",
+      "fingerprint": "7bf9addb"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-promote.py",
+      "fingerprint": "4088eb8d"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-promote.py",
+      "fingerprint": "58a8cdb3"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-promote.py",
+      "fingerprint": "50306827"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-promote.py",
+      "fingerprint": "69baa516"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-promote.py",
+      "fingerprint": "fee387f7"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-promote.py",
+      "fingerprint": "8112695b"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-route.py",
+      "fingerprint": "68bc1794"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-route.py",
+      "fingerprint": "4e7daca5"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-route.py",
+      "fingerprint": "bdea8ff9"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/regen-route.py",
+      "fingerprint": "c5d5a209"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/source-words-check.py",
+      "fingerprint": "c26bbcd4"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/source-words-check.py",
+      "fingerprint": "99437842"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/scripts/source-words-check.py",
+      "fingerprint": "634db96b"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/evolve/evaluate.py",
+      "fingerprint": "3f729b7a"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/evolve/evaluate.py",
+      "fingerprint": "fe9f67e5"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/evolve/evaluate.py",
+      "fingerprint": "d4f208df"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/evolve/evaluate.py",
+      "fingerprint": "d837ad39"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/evolve/evaluate.py",
+      "fingerprint": "fbb06097"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/evolve/evaluate.py",
+      "fingerprint": "911ff48c"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/evolve/evaluate.py",
+      "fingerprint": "cd438bd8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/maintenence/drift.py",
+      "fingerprint": "f4ef2ccd"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/maintenence/maintenence.py",
+      "fingerprint": "adffc6e4"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/maintenence/maintenence.py",
+      "fingerprint": "edebd03c"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/maintenence/maintenence.py",
+      "fingerprint": "3f734668"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/maintenence/maintenence.py",
+      "fingerprint": "7fff7bff"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/maintenence/maintenence.py",
+      "fingerprint": "7fff7bff"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/maintenence/maintenence.py",
+      "fingerprint": "ff4c864"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/maintenence/maintenence.py",
+      "fingerprint": "edb37425"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/maintenence/maintenence.py",
+      "fingerprint": "77be8abb"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/maintenence/maintenence.py",
+      "fingerprint": "bc064a15"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/logos52.github.io/logos52.github.io/tools/maintenence/maintenence.py",
+      "fingerprint": "84a603d0"
+    }
+  ]
+}
