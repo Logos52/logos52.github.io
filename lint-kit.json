@@ -1,0 +1,46 @@
+{
+  "profile": "adopt",
+  "languages": ["ts", "mjs", "astro", "py", "css"],
+  "ignore": [
+    "node_modules/**",
+    "dist/**",
+    ".git/**",
+    "coverage/**",
+    ".astro/**",
+    "src/content/notes/**",
+    "**/*.sh",
+    "**/*.js",
+    "**/*.cjs",
+    "**/*.tsx",
+    "**/*.scss"
+  ],
+  "proseGlobs": [
+    "README.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "docs/**/*.md",
+    "**/docs/**/*.md"
+  ],
+  "boundaryFiles": [],
+  "baseline": ".lint-kit-baseline.json",
+  "rules": {
+    "R1": "warn",
+    "R2": "warn",
+    "R4": "warn",
+    "R5": "warn",
+    "R8": "warn",
+    "R10": "warn",
+    "R14": "warn",
+    "R16": "warn",
+    "R17": "warn",
+    "R18": "warn",
+    "R19": "warn",
+    "R20": "warn",
+    "R21": "warn",
+    "R22": "warn",
+    "R23": "warn"
+  },
+  "prose": {
+    "allow": []
+  }
+}
