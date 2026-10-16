@@ -38,7 +38,7 @@
     "R20": "warn",
     "R21": "warn",
     "R22": "warn",
-    "R23": "warn"
+    "R23": "error"
   },
   "prose": {
     "allow": []
