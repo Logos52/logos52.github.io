@@ -10,6 +10,11 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-10-16] maintenance | Cloud Agent environment landed; agents may merge
+
+- Brought `.cursor/environment.json` and `npm run verify` onto current main. The September branch conflicted only in this log.
+- Owner ruling 2026-10-16: squash-merge when the checks are green. The line that agents do not merge is not carried forward. Do not force-push main.
+
 ## [2026-09-18] compile | Grok Bot Galaxy rebuilt, and the rules as a journal entry
 
 - `wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy.md` rebuilt through Explain First. Owner's ruling: keep the first day's talks and the advice repeated across talks; drop the sales, support and marketing talks of the second and third days; state advice as general rules with sources only in Sources.
@@ -28,6 +33,13 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Wired from Agentic Engineering, Grok Bot Primer, Grok Bot Condensed, Agent Glossary, Current Agentic LLM Stack, `notes/index.md`.
 - Day 1 field notes copied to `raw/sources/2026-09-15-day-1-grok-bot-galaxy.md`.
 - pstack not installed. Not a stack change.
+
+## [2026-09-16] setup | Cloud Agent environment for the Astro wiki site
+
+- Confirmed the published site is Astro (not Jekyll), Node 22, `npm ci` + `astro build`, GitHub Pages via `.github/workflows/deploy.yml`.
+- Added `.cursor/environment.json` (`npm ci`, optional Astro preview on :4321) so Cloud Agents can install and preview without a custom Dockerfile.
+- Added `npm run verify` as the existing PR CI sequence: frontmatter lint, source guard, build, publish guard, leak tests.
+- Pointers: `.github/CONTRIBUTING.md`, plus short notes in `README.md` and `AGENTS.md`.
 
 ## [2026-09-16] maintenance | Site audit cuts and deploy hardening
 
