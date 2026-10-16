@@ -11,6 +11,7 @@ export const GET: APIRoute = async () => {
     title: deriveTitle(n.data, n.id, n.body),
     type: typeof n.data.type === 'string' ? n.data.type : '',
     body: n.body ?? '',
+    domain: typeof n.data.domain === 'string' ? n.data.domain : undefined,
   }));
   return new Response(JSON.stringify(buildGraph(input)), {
     headers: { 'Content-Type': 'application/json' },

@@ -94,7 +94,7 @@ A catalog with ten rows will miss many usages, and it does not cover serializati
 
 After a pattern has a name, the steps are the same short list: watch a video with one row in mind, mark what matches that row, and come back to the catalog when the same confusion repeats.
 
-## Related
+## Related pages
 
 - [[wiki/Language/Refold Grammar Primers|grammar primer]]: the approach and loop that this catalog supports
 - [[wiki/Language/Noticing Game|Noticing Game]]: how to look for the chosen pattern in input

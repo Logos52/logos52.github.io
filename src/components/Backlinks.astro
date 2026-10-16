@@ -1,9 +1,8 @@
 ---
 /**
- * Backlinks.astro — "Backlinks · N" sticky-aside panel.
- * Mirrors the NotePage aside backlinks block in the DS screens.jsx: mono uppercase
- * heading with the count, each entry a title link (var(--ink)) with a hairline
- * bottom rule and a faint context line below it.
+ * Backlinks.astro — "Linked from" block at the end of the note article, after the prose
+ * (moved out of the aside rail 2026-10-15). A top rule separates it from the prose; each
+ * entry is a title link (var(--ink)) with a hairline bottom rule and a muted context line.
  */
 import type { Backlink } from '../lib/types';
 
@@ -12,33 +11,53 @@ interface Props {
 }
 const { items } = Astro.props;
 const slugToHref = (slug: string) => '/' + slug.replace(/^\/+/, '').replace(/\/+$/, '') + '/';
+const SHOWN = 5;
+const head = items.slice(0, SHOWN);
+const rest = items.slice(SHOWN);
 ---
 
 {
   items.length > 0 && (
-    <section class="kb-backlinks" aria-label="Backlinks">
-      <h3 class="kb-side-h">Backlinks · {items.length}</h3>
+    <section class="kb-backlinks" aria-label="Linked from" data-pagefind-ignore>
+      <h2 class="kb-backlinks-h">Linked from</h2>
       <div class="kb-backlinks-list">
-        {items.map((b) => (
+        {head.map((b) => (
           <a href={slugToHref(b.slug)} class="kb-backlink">
             {b.title}
             {b.context && <span class="kb-backlink-ctx">{b.context}</span>}
           </a>
         ))}
       </div>
+      {rest.length > 0 && (
+        <details class="kb-backlinks-more">
+          <summary>{rest.length} more</summary>
+          <div class="kb-backlinks-list">
+            {rest.map((b) => (
+              <a href={slugToHref(b.slug)} class="kb-backlink">
+                {b.title}
+                {b.context && <span class="kb-backlink-ctx">{b.context}</span>}
+              </a>
+            ))}
+          </div>
+        </details>
+      )}
     </section>
   )
 }
 
 <style>
-  .kb-side-h {
-    font-family: var(--mono);
-    font-size: 9.5px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
+  .kb-backlinks {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    max-width: 64ch;
+  }
+  .kb-backlinks-h {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 500;
     color: var(--mut);
-    margin: 0 0 10px;
-    font-weight: 600;
+    margin: 0 0 12px;
   }
   .kb-backlinks-list {
     display: flex;
@@ -46,7 +65,8 @@ const slugToHref = (slug: string) => '/' + slug.replace(/^\/+/, '').replace(/\/+
     gap: 8px;
   }
   .kb-backlink {
-    font-size: 13px;
+    font-family: var(--sans);
+    font-size: 15px;
     color: var(--ink);
     text-decoration: none;
     border-bottom: 1px solid var(--rule);
@@ -57,8 +77,17 @@ const slugToHref = (slug: string) => '/' + slug.replace(/^\/+/, '').replace(/\/+
   }
   .kb-backlink-ctx {
     display: block;
-    font-size: 11px;
-    color: var(--faint);
+    font-size: 13px;
+    color: var(--mut);
     margin-top: 2px;
+  }
+  .kb-backlinks-more {
+    margin-top: 8px;
+  }
+  .kb-backlinks-more summary {
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--mut);
+    margin-bottom: 8px;
   }
 </style>

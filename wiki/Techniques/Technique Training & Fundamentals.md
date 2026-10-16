@@ -3,9 +3,9 @@ title: "Technique Training & Fundamentals"
 type: hub
 status: developing
 created: 2026-05-22
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-09-16
+method: eggbot-tight-2026-09-16-generate
+prose-model: grok
 written-by: grok
 model: grok
 tags:
@@ -16,7 +16,7 @@ tags:
 
 # Technique Training & Fundamentals
 
-Technique Training and Fundamentals are the study methods you use on purpose. Later, harder work depends on them. Training covers how you encode material and how you think about it. Fundamentals are checks that show when your encoding or thinking stops working as the work gets harder. The aim is to use these methods without having to coach yourself through them all the time.
+Technique Training and Fundamentals are the study methods used on purpose. Later, harder work depends on them. Training is how material is encoded and how it is thought about. Fundamentals are checks that show when encoding or thinking stops working as the work gets harder. The aim is to use these methods without coaching yourself through them all the time.
 
 ## The four bundles
 

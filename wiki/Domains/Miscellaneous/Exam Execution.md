@@ -3,9 +3,9 @@ title: "Exam Execution"
 type: hub
 status: developing
 created: 2026-05-29
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-09-16
+method: eggbot-tight-2026-09-16-generate
+prose-model: grok
 written-by: grok
 model: grok
 source-count: 9
@@ -17,7 +17,7 @@ tags:
 
 # Exam Execution
 
-Exam execution is the layer of the learning system that covers exam day, after the syllabus has already been learned. It protects three things: calm retrieval, a full night of sleep, and a morning without a large meal. Anyone who is still encoding the syllabus is working in a different layer.
+Exam execution is the layer of the learning system that covers exam day, after the syllabus is already learned. It protects three things: calm retrieval, a full night of sleep, and a morning without a large meal. Anyone still encoding the syllabus is working in a different layer.
 
 ## State, sleep, the short break
 
@@ -56,7 +56,7 @@ When a person already has a built study system, these adjustments decide whether
 - Whether a short quiet sit between papers works better than any other brief disengagement.
 - Whether two hours is the right length for the house meal buffer.
 
-## Related
+## Related pages
 
 - [[Breaching Questions]]: a late-stage method for finding the known and unknown gaps that remain
 - [[ReCOVer System]]: a structure for essays and long answers

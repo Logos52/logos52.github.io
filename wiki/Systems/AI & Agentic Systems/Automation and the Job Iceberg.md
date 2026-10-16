@@ -3,12 +3,12 @@ title: "Automation and the Job Iceberg"
 type: concept
 status: developing
 created: 2026-07-03
-updated: 2026-09-11
+updated: 2026-09-17
 method: plain-rewrite-2026-09-11
 prose-model: opus
 written-by: grok
 model: grok
-source-count: 4
+source-count: 5
 description: "Machines have almost never erased a kind of job. The live question is absorption: can the role take on the responsibility and volume that cheaper tasks create. Roughly sixty percent of 2018 U.S. employment sits in titles that did not exist in 1940."
 tags:
   - automation
@@ -47,6 +47,8 @@ Every other wave in this popular set transformed or multiplied the roles it was 
 | Elevator automation → operator | The one full elimination, last counted around 1960. |
 
 The ATM row is not a doubling. Employment did not fall as the machines rolled out. It climbed, and then it peaked. The word-processor multiple is a quoted figure, not a hardened ten-times series.
+
+A fifth prediction of the same kind also failed. Radiologists were predicted to be gone within five years. AI did take over the reading of scans, and the need for radiologists went up. The radiology claim is a quoted figure from September 2026, not a census series like the elevator operator. Two other predictions quoted with it had already failed: that AI would write 90% of code within six to twelve months, and that half of entry-level jobs would be gone within six to nine months.
 
 ## Tasks are not the job
 
@@ -128,3 +130,4 @@ The live question for a role is still absorption. The operator test asks whether
 - David Autor, Caroline Chin, Anna Salomons, and Bryan Seegmiller, "New Frontiers: The Origins and Content of New Work, 1940–2018," NBER Working Paper 30389. Summary: [MIT News, 2024-04-01](https://news.mit.edu/2024/most-work-is-new-work-us-census-data-shows-0401).
 - James Bessen, [Toil and Technology](https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm), *Finance & Development*, IMF, March 2015.
 - Quartz, [Over the last 60 years, automation has totally eliminated just one US occupation](https://qz.com/968307/over-the-last-60-years-automation-has-totally-eliminated-just-one-us-job).
+- All-In, All-In Summit interview with Jensen Huang, 14 September 2026. The radiology prediction and the two failed coding and entry-level predictions. First-party captions. Local copy: `/Users/n1/handoff-2026-09-14-to-16.md`; originating packets under `/workspace/recap/` on the collecting machine.

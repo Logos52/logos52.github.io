@@ -3,9 +3,9 @@ title: "Investing and Budgeting Mindsets"
 type: hub
 status: developing
 created: 2026-06-05
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-09-16
+method: eggbot-tight-2026-09-16-generate
+prose-model: grok
 written-by: grok
 model: grok
 source-count: 7
@@ -20,19 +20,19 @@ tags:
 
 # Investing and Budgeting Mindsets
 
-Investing and Budgeting Mindsets is the vault's hub page on money. It covers two subjects. The first is that temperament matters more than tactics. The second is the conflict between saving money for freedom and spending money during the years a person can still use it. Tactics depend on the market and change when the market changes. The mindsets stay the same. [[projects/wnac|WNAC]] is the applied loop that uses these mindsets to set a budget. The child pages already written in the knowledge base also come from this hub.
+This is the vault's money hub. It covers two subjects. Temperament matters more than tactics. Saving for freedom and spending while a person can still use the money pull against each other. Tactics depend on the market and change when the market changes. The mindsets stay the same. [[projects/wnac|WNAC]] is the applied loop that uses these mindsets to set a budget. The child pages already written in the knowledge base also come from this hub.
 
 ## Four main claims
 
 Four claims already have their own pages. Each claim was checked, and the checked version differs from the short slogan used when its page was created.
 
-[[wiki/Money/The Savings Rate Is the Master Lever|Spend less than you earn.]] The difference between income and spending is the factor a person can change this month. In the early years, and when the savings rate is high, that difference affects the time needed to reach the savings goal more than investment returns do. It is not the only factor. In some lives, income is easier to change than spending, because some costs are committed years in advance. A large sudden change in income, or a savings rate of zero, changes which factor matters most. The calculations are on the child page.
+[[wiki/Money/The Savings Rate Is the Master Lever|The Savings Rate Is the Master Lever]]: The difference between income and spending is the factor a person can change this month. In the early years, and when the savings rate is high, that difference affects the time needed to reach the savings goal more than investment returns do. It is not the only factor. In some lives, income is easier to change than spending, because some costs are committed years in advance. A large sudden change in income, or a savings rate of zero, changes which factor matters most. The calculations are on the child page.
 
-[[wiki/Money/Time Beats Timing|Time beats timing.]] Staying invested for a long period without interruption produces better results than choosing a clever moment to buy. Getting rich and staying rich require opposite skills. The Time Beats Timing page covers the first of those two skills, getting rich.
+[[wiki/Money/Time Beats Timing|Time Beats Timing]]: Staying invested for a long period without interruption produces better results than choosing a clever moment to buy. Getting rich and staying rich require opposite skills. That page covers the first of those two skills, getting rich.
 
-[[wiki/Money/Define Enough|Define "enough."]] If a person does not write down the amount of money that is enough, the target goes up each time they reach a milestone. Calling that habit the most dangerous one is rhetoric. The child page gives a written number and does not repeat the ranking.
+[[wiki/Money/Define Enough|Define Enough]]: If a person does not write down the amount of money that is enough, the target goes up each time they reach a milestone. Calling that habit the most dangerous one is rhetoric. The child page gives a written number and does not repeat the ranking.
 
-[[wiki/Money/Money as Life Energy|Price things in life energy.]] Money stands for hours of work a person has already traded for it. A purchase is priced in those hours, using the hourly wage that is left after the true costs of working are subtracted. Spending should match the person's values. The crossover point is the point where investment income covers expenses. The child page has both calculations.
+[[wiki/Money/Money as Life Energy|Money as Life Energy]]: Money stands for hours of work a person has already traded for it. A purchase is priced in those hours, using the hourly wage that is left after the true costs of working are subtracted. Spending should match the person's values. The crossover point is the point where investment income covers expenses. The child page has both calculations.
 
 Two related pages cover spending. Every object costs attention and upkeep after it is bought, and that cost is [[wiki/Minimalism/Ownership Cost|ownership cost]]. [[wiki/Minimalism/Wanting Less|Wanting Less]] covers the related point that fewer obligations to objects leave a person more money, time, and mobility. The Define Enough page already states that money should be used to buy freedom and should not be used to buy status.
 

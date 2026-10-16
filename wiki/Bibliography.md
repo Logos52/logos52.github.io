@@ -21,6 +21,8 @@ tags:
 - Front Page, "Socialism Always Fails..." (YouTube, 2026-07-03). [[wiki/Worldviews & the Political Order/Socialism - The Calculation Problem|Socialism - The Calculation Problem]]
 - Front Page, "Europe Is Failing…" (YouTube, 2026-06-26). [[wiki/Worldviews & the Political Order/Europe - The Slow Agony|Europe - The Slow Agony]]
 - Triggernometry, "How China Fakes Its Success with Frank Dikötter" (YouTube and X, 2026-09-05). [[wiki/Worldviews & the Political Order/China - The Temple and the Monks|China - The Temple and the Monks]]
+- The Invisible Hand, "Why Education is Destroying East Asia" (YouTube, 2026-07-26), with "Something Terrible is Happening in South Korea" (YouTube, 2025-03-07). [[wiki/Worldviews & the Political Order/East Asian Exams - The Arms Race|East Asian Exams - The Arms Race]]
+- Sam's POV, YouTube Shorts channel @sszuchan, 20 Shorts on exams, tutoring, graduates and birth rates posted 2026-03 to 2026-09. [[wiki/Worldviews & the Political Order/East Asian Exams - The Arms Race|East Asian Exams - The Arms Race]]
 - Basic Logic, "The Genetics Behind Unequal Societies" (YouTube, 2026-08-30). [[wiki/Worldviews & the Political Order/Genetics and Unequal Societies - The Distance Claim|Genetics and Unequal Societies - The Distance Claim]]
 - Basic Logic, "How Feminism Justified Killing Children" (YouTube, 2026-09-03). [[wiki/Worldviews & the Political Order/Late Stage Feminism|Late Stage Feminism]]
 - Asmongold TV, "This is genuinely f***ed.." (YouTube, 2026-09-05), a reaction video to the Basic Logic video above. [[wiki/Worldviews & the Political Order/Late Stage Feminism|Late Stage Feminism]]

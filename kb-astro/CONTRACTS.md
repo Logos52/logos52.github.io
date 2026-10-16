@@ -35,16 +35,22 @@ llm-knowledge-base/
 ## 1. Frontmatter schema (`notes` collection)
 
 Defined in `src/content.config.ts`, mirrored as `NoteFrontmatter` in `types.ts`. **Lenient by
-design** — ~314 notes with messy frontmatter; validation must never break the build.
+design** — validation must never break the build. Unknown keys still pass through.
+
+Reader fields are the ones the site can show. Pipeline fields parse and are not rendered.
 
 | field | type | notes |
 |-------|------|-------|
-| `title` | `string?` | present on ~half; **derive from H1/filename when missing** |
-| `type` | `string?` | 34 distinct values — **free string, not an enum** |
+| `title` | `string?` | **derive from H1/filename when missing** |
+| `description` | `string?` | meta description, and the line under the title when present |
+| `blurb` | `string?` | card text; used as the description line when `description` is absent |
+| `type` | `string?` | free string in the file; the note pill maps a known set to a reader word and hides the rest |
+| `domain` | one of the 6 keys? | wins over the folder rule when set |
 | `status` | `string?` | informational; not a publish signal |
 | `created`,`updated` | `string \| Date ?` | YAML may parse a bare date to `Date`; accept both |
 | `tags` | `string[]?` | accepts list / single string / absent |
-| `order`,`image`,`blurb`,`draft`,`aliases`,`description` | optional | — |
+| `order`,`image`,`draft`,`aliases`,`cardHref` | optional | — |
+| pipeline keys | any | `method`, `prose-model`, `written-by`, `model`, `source-count`, `flag-reason`, `last-audited`, `merged-from`, `provenance`, and the others named in `content.config.ts`. Not rendered. |
 | *(any other key)* | passthrough | unknown keys allowed |
 
 `draft: true` (boolean or `"true"`) → the note is **not published** (parity with Quartz `RemoveDrafts`).

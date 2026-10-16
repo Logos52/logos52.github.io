@@ -52,7 +52,7 @@ What this ruling does not cover: tsumugu companion fiction and dialogue. That la
 
 Pairing that earns rent: Grok banks, Grok writes, checker grades, owner eyes the door. Do not send the draft through Fable "for polish" as a default. That is the token tax this ruling exists to stop.
 
-## Related
+## Related pages
 
 - [[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]] — the ranking this note retires for the writer seat
 - [[journal/2026-08-13-abc-writing-test-fable-wins|A/B/C writing test: Fable takes all three]] — the test that was true on 13 August

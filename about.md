@@ -3,9 +3,9 @@ title: "About"
 description: "A short bio of Wedge and a list of what the site covers."
 type: about
 created: 2026-05-08
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-09-16
+method: eggbot-tight-2026-09-16-generate
+prose-model: grok
 enableToc: false
 tags:
   - system
@@ -22,11 +22,11 @@ The site is a set of linked notes on learning systems, language study, and softw
 ## What I write about
 
 - **Learning systems**: encoding, retrieval, metacognition, and self-regulation.
-- **Agentic engineering**: building software with LLM agents while keeping taste, verification, and ownership.
-- **Attention and environment**: focus, social media, minimalism, recovery, and decision friction.
-- **Money**: budgeting and investing mindsets from first principles, and where AI changes them.
-- **中文**: Traditional Mandarin: how characters work, comprehensible input, and a reader that adds text as your vocabulary grows.
-- **Language learning**: immersion, attention, comprehension, and practical workflows.
+- **Agentic engineering**: building software with LLM agents, and keeping taste, verification, and ownership in the person's hands.
+- **Attention and environment**: focus, social media, minimalism, recovery, and the friction of a decision.
+- **Money**: budgeting and investing mindsets from first principles, and the places AI changes them.
+- **中文**: Traditional Mandarin. How characters work, comprehensible input, and a reader that adds text as vocabulary grows.
+- **Language learning**: immersion, attention, comprehension, and the workflows that use them.
 
 ## How it's built
 

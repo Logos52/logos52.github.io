@@ -185,7 +185,7 @@ turn schemas into action
 
 The knowledge base should make the next act of thought sharper. If it only makes the archive prettier, it is drifting toward passive consumption.
 
-## Related
+## Related pages
 
 - [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]
 - [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]

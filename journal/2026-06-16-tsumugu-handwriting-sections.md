@@ -78,7 +78,7 @@ The ingestion harness has already been duplicated from the GSM pattern into:
 
 This feels like a high-leverage addition that turns the dictionary from "excellent for reading and understanding" into "also excellent for learning to write." The timing with the two dedicated Outlier workshops is perfect.
 
-## Related
+## Related pages
 
 - [[journal/2026-06-15-tsumugu-encoding-dictionary-deployment|2026-06-15 deployment]]
 - [[journal/2026-06-11-tsumugu-dictionary-custody-and-display|Dictionary custody and display rules]]

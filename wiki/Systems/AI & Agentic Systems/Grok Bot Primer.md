@@ -316,6 +316,9 @@ So, for the person with two public websites, a notes site, and a reading habit, 
 
 ## Related pages
 
+- [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]: the product how-to; this page is how this desk staffs helpers
+- [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]: coding plugin a helper can load; not a roster change
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]]: September 2026 event findings; does not override the refusals on this page
 - [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]]: the product against the model that shares its name and against Grok Build, and the subscription it comes with
 - [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]: the maker's how-to pages this setup is choosing against, filed as sketch D and not as a roster; one-finder and finding-as-spec as they showed up in a first-party studio playbook
 - [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]]: named-runner claims with confidence tags

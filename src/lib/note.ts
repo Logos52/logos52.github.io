@@ -13,6 +13,58 @@ export function deriveTitle(data: { title?: unknown }, slug: string, body?: stri
   return basename(slug).replace(/-/g, ' ');
 }
 
+/**
+ * Reader-facing label for the note pill. Filing strings such as `journal-entry`
+ * and `system-model` map to a short word. Unknown strings return undefined so the
+ * pill is omitted.
+ */
+const TYPE_LABELS: Record<string, string> = {
+  concept: 'Concept',
+  technique: 'Method',
+  hub: 'Hub',
+  moc: 'Hub',
+  synthesis: 'Essay',
+  'blog-post': 'Essay',
+  condensed: 'Condensed',
+  workflow: 'Workflow',
+  system: 'System',
+  model: 'Model',
+  'system-model': 'Model',
+  dimension: 'Dimension',
+  book: 'Book',
+  reference: 'Reference',
+  'reference-catalog': 'Reference',
+  'resource-catalog': 'Reference',
+  journal: 'Journal',
+  'journal-entry': 'Journal',
+  'journal-note': 'Journal',
+  'journal-draft': 'Journal',
+  'journal-index': 'Journal',
+  'journal-calendar': 'Journal',
+  'journal-template': 'Journal',
+  personal: 'Personal',
+  'personal-index': 'Personal',
+  project: 'Project',
+  'project-doc': 'Project',
+  'projects-index': 'Project',
+  experience: 'Experience',
+  decision: 'Decision',
+  research: 'Research',
+  bank: 'Research',
+  catalog: 'Catalog',
+  tool: 'Tool',
+  operational: 'Guide',
+  about: 'About',
+  index: 'Index',
+};
+
+export function readerTypeLabel(type: unknown): string | undefined {
+  if (typeof type !== 'string') return undefined;
+  const key = type.trim().toLowerCase();
+  if (!key) return undefined;
+  return TYPE_LABELS[key];
+}
+
 /** A one-line summary for cards / search rows: frontmatter blurb/description, else first prose line. */
 export function deriveSummary(data: { blurb?: unknown; description?: unknown }, body?: string): string {
   if (typeof data.blurb === 'string' && data.blurb.trim()) return data.blurb.trim();

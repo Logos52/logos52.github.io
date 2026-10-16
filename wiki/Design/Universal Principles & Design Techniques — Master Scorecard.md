@@ -343,7 +343,7 @@ These fifty-one items are set aside and remain part of the product. Both their H
 
 The scores are from one date, 30 June 2026. The AI scores will change. Human-5 items are still candidates for pages of their own, and Wabi-Sabi already has its page. Setting aside the fifty-one Low-leverage rows was a decision.
 
-## Related
+## Related pages
 
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: the scoring model, the two independent axes, the four zones.
 - [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]: how the two books were split into Agent and Human tracks.

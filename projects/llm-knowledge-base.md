@@ -8,7 +8,7 @@ stack:
   - LLM agents
 order: 1
 image: projects/llm-knowledge-base.png
-blurb: "This site. A public, LLM-maintained knowledge base published from an Obsidian vault. It turns source material into durable, linked notes."
+blurb: "This site. A public knowledge base, kept by LLM agents, published from an Obsidian vault. Source material becomes durable linked notes."
 created: 2026-06-02
 updated: 2026-09-13
 method: plain-register-2026-09-13

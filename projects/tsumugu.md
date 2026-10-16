@@ -7,7 +7,7 @@ stack:
   - LLM agents (batch)
   - Open dictionary data
 order: 2
-blurb: "A comprehensible-input generator combined with a graded reader and connected to a persistent record of the vocabulary you've learned."
+blurb: "A graded reader that writes its own pages, tied to a running record of the words you already know."
 image: projects/tsumugu.png
 created: 2026-06-03
 updated: 2026-09-13

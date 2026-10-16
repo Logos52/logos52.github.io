@@ -159,7 +159,7 @@ After testing, which of these resources become daily immersion defaults, and in 
 
 A list collected by one person goes out of date. Links to gated material look like resources, but a stranger cannot open them. Time spent choosing resources reduces the time spent on input. If no dialect-tagged resource comes into daily use, the list itself is not what will change that. The [[wiki/Language/The Han-Viet Bridge|Hán-Việt Bridge]] goes in the reverse direction from these Vietnamese resources: it uses Sino-Vietnamese vocabulary to give a learner an advantage when starting Mandarin.
 
-## Related
+## Related pages
 
 - [[wiki/Dimensions/Retrieval|Retrieval]]: memory track
 - [[wiki/Dimensions/Self-Management|Self-Management]]: consistency

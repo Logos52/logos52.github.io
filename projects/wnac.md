@@ -8,7 +8,7 @@ stack:
   - LLM (swappable)
 order: 2
 image: projects/wnac.png
-blurb: "A static, local-first, AI-narrated finance dashboard. It shows one flex number and a debt-payoff dial in place of envelope budgets. The code is public and the financial data stays private."
+blurb: "A static, local-first finance dashboard with AI narration. One flex number and a debt-payoff dial replace envelope budgets. The code is public. The financial data stays private."
 created: 2026-06-02
 updated: 2026-09-13
 method: plain-register-2026-09-13

@@ -135,7 +135,7 @@ Amiko, Pingo, and Chill Chinese already sell a Chinese chat buddy with voice and
 
 Do not copy: Emily Lai every thirty minutes as a standing clock; Ani the girlfriend; Replika the therapist; Nomi Very Frequent doubling; Fundman's 10x idea in every response; Frantz's manuscript on the box; a teacher-Bot; 在嗎; a period at the end of a line; 笑死; a paragraph; a news report with her voice painted on; unofficial LINE clients; Telegram as the home surface; Grok Ship; a five-Bot group before the one-bot five-fire test is scored.
 
-## Related
+## Related pages
 
 - [[journal/2026-08-26-xingye-news-ping|Xingye Field ping]] — yesterday's tutor-lane note; this page supersedes the news-bot frame.
 - [[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]] — Fable writes, 4.6 banks, Grok Bot stands packet-only public duty.

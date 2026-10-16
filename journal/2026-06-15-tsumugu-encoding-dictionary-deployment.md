@@ -22,6 +22,6 @@ The site publishes the encoding corpus produced by the tsumugu-ed private store 
 - Generator and content work: [[journal/2026-06-15-tsumugu-grammar-browse-and-site-copy|2026-06-15 grammar browse and site copy]]
 - Prior custody and display contract: [[journal/2026-06-11-tsumugu-dictionary-custody-and-display|2026-06-11]]
 
-## Related
+## Related pages
 
 - [[projects/tsumugu|Tsumugu]] (reader, wiki, engine)

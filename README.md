@@ -150,7 +150,7 @@ npm run build
 npm run preview
 ```
 
-Cursor Cloud Agents install with `npm ci` from `.cursor/environment.json` and should run `npm run verify` (the PR CI checks) before opening a draft pull request. A human merges. See `.github/CONTRIBUTING.md`.
+Cursor Cloud Agents install with `npm ci` from `.cursor/environment.json` and should run `npm run verify` (the PR CI checks) before opening a pull request. Squash-merge when the checks are green. See `.github/CONTRIBUTING.md`.
 
 ### Adding or editing notes
 

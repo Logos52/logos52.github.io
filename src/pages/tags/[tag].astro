@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import type { GetStaticPaths } from 'astro';
 import Base from '../../layouts/Base.astro';
 import NoteCard from '../../components/NoteCard.astro';
-import { deriveTitle, deriveSummary } from '../../lib/note';
+import { deriveTitle, deriveSummary, readerTypeLabel } from '../../lib/note';
 import { resolveDomain } from '../../lib/domain';
 import { simplifySlug, slugToUrl } from '../../lib/slug';
 
@@ -40,8 +40,8 @@ export const getStaticPaths = (async () => {
           slug: n.id,
           title: deriveTitle(n.data, n.id, n.body),
           summary: deriveSummary(n.data, n.body),
-          domain: resolveDomain(n.id),
-          kind: typeof n.data.type === 'string' ? n.data.type : 'Note',
+          domain: resolveDomain(n.id, n.data.domain),
+          kind: readerTypeLabel(n.data.type) ?? 'Note',
         }))
         .sort((a, b) => a.title.localeCompare(b.title)),
     },

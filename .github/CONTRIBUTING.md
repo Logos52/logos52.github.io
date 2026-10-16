@@ -4,7 +4,7 @@ This repository is an Obsidian vault published as a static Astro site at <https:
 
 ## Cloud Agents
 
-Cursor Cloud Agents can edit the wiki or site on a branch and open a pull request. A human reviews and merges. Agents do not merge.
+Cursor Cloud Agents can edit the wiki or site on a branch and open a pull request. Squash-merge when the checks are green. Do not force-push main.
 
 `.cursor/environment.json` installs dependencies with `npm ci` (Node 22+, lockfile pinned) and can start the Astro preview on port 4321. After edits, run the same checks as PR CI:
 

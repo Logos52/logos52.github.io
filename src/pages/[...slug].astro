@@ -14,7 +14,7 @@
 import { getCollection, render } from 'astro:content';
 import type { GetStaticPaths } from 'astro';
 import Note from '../layouts/Note.astro';
-import { deriveTitle } from '../lib/note';
+import { deriveTitle, readerTypeLabel } from '../lib/note';
 import { resolveDomain } from '../lib/domain';
 import { simplifySlug } from '../lib/slug';
 import { buildGraph, localGraph, type NoteInput as GraphNoteInput } from '../lib/graph';
@@ -44,6 +44,7 @@ async function getGlobalIndices(): Promise<{ graph: GraphData; backlinks: Backli
     title: deriveTitle(n.data, n.id, n.body),
     type: typeof n.data.type === 'string' ? n.data.type : '',
     body: n.body ?? '',
+    domain: typeof n.data.domain === 'string' ? n.data.domain : undefined,
   }));
   const backlinkInput: BacklinkNoteInput[] = notes.map((n) => ({
     slug: n.id,
@@ -60,8 +61,10 @@ const { entry } = Astro.props as { entry: Awaited<ReturnType<typeof getCollectio
 const { Content, headings } = await render(entry);
 
 const title = deriveTitle(entry.data, entry.id, entry.body);
-const domain = resolveDomain(entry.id);
-const type = typeof entry.data.type === 'string' ? entry.data.type : undefined;
+const domain = resolveDomain(entry.id, entry.data.domain);
+const type = readerTypeLabel(entry.data.type);
+const rawDescription = entry.data.description ?? entry.data.blurb;
+const description = typeof rawDescription === 'string' && rawDescription.trim() ? rawDescription.trim() : undefined;
 const updated =
   entry.data.updated instanceof Date
     ? entry.data.updated.toISOString().slice(0, 10)
@@ -80,6 +83,7 @@ const tocHeadings = headings.map((h) => ({ depth: h.depth, text: h.text, slug: h
 <Note
   title={title}
   type={type}
+  description={description}
   updated={updated}
   domain={domain}
   slug={entry.id}

@@ -10,12 +10,14 @@ const looseStringList = z
   .preprocess((v) => (Array.isArray(v) ? v : v == null ? [] : [v]), z.array(z.string()))
   .optional();
 
-// Lenient by design. The vault holds ~314 publishable notes with inconsistent frontmatter:
-// `title` is present on ~half, there are 34 distinct `type` values, and dates vary. Schema
-// validation must NEVER break the build, so every field is optional and unknown keys pass through.
-// (See CONTRACTS.md — this is the single source of truth for the `notes` collection shape.)
+// Reader fields are what the site shows. Pipeline fields are kept so old notes still
+// parse, and the note template does not render them. Unknown keys still pass through
+// so one odd key cannot break the build. (CONTRACTS.md §1.)
+const pipelineField = z.any().optional();
+
 const noteFrontmatter = z
   .object({
+    // Reader fields
     title: z.string().optional(),
     type: z.string().optional(),
     status: z.string().optional(),
@@ -29,6 +31,39 @@ const noteFrontmatter = z
     draft: z.boolean().optional(),
     aliases: looseStringList,
     description: z.string().optional(),
+    domain: z.enum(['learning', 'agentic', 'language', 'focus', 'mind', 'gen']).optional(),
+    // Pipeline fields. Not rendered.
+    method: pipelineField,
+    'prose-model': pipelineField,
+    'written-by': pipelineField,
+    model: pipelineField,
+    'source-count': pipelineField,
+    'flag-reason': pipelineField,
+    'last-audited': pipelineField,
+    'merged-from': pipelineField,
+    provenance: pipelineField,
+    date: pipelineField,
+    diagrams: pipelineField,
+    stack: pipelineField,
+    project: pipelineField,
+    source: pipelineField,
+    'ics-stage': pipelineField,
+    links: pipelineField,
+    hideFolderListing: pipelineField,
+    'in-reply-to': pipelineField,
+    'part-of': pipelineField,
+    locked: pipelineField,
+    sources: pipelineField,
+    genre: pipelineField,
+    depth: pipelineField,
+    'edited-sections': pipelineField,
+    'next-audit': pipelineField,
+    openQuestions: pipelineField,
+    addendum: pipelineField,
+    'superseded-by': pipelineField,
+    elsewhere: pipelineField,
+    practicing: pipelineField,
+    enableToc: pipelineField,
   })
   .passthrough();
 

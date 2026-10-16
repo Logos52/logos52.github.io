@@ -262,7 +262,7 @@ Cursor Agent mode is the coding agent inside the editor. You are at the keyboard
 
 ### Cloud Agents
 
-Cursor Cloud Agents run on isolated virtual machines that Cursor operates, not on your laptop. Each run clones the repo, can install dependencies, edits, tests, and usually opens a pull request, with screenshots or a video attached. You can start one from the editor, the web, Slack, GitHub, Linear, or the API. Use them for overnight or parallel coding work on a fully specified task. They start from a clean git state on the remote; local uncommitted files do not go with the run unless you commit or stash first. Formerly named Background Agents.
+Cursor Cloud Agents run on isolated virtual machines that Cursor operates, not on your laptop. Each run clones the repo, can install dependencies, edits, tests, and usually opens a pull request, with screenshots or a video attached. You can start one from the editor, the web, Slack, GitHub, Linear, or the API. Use them for overnight or parallel coding work on a fully specified task. They start from a clean git state on the remote; local uncommitted files do not go with the run unless you commit or stash first. Formerly named Background Agents. Depth: [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents|Cursor Cloud Agents]]. The map of which computer a job needs is [[wiki/Systems/AI & Agentic Systems/Picking a computer|Picking a computer]].
 
 ### Long-running agents (Cursor)
 
@@ -287,6 +287,10 @@ Cursor subagents can run on their own virtual machines, each with a clean copy o
 ### Automations (Cursor)
 
 Cursor Automations fire Cloud Agents on a cron, or on events from GitHub, Slack, Linear, PagerDuty, or a webhook. Use them for recurring coding work you would otherwise remember to start by hand.
+
+### pstack
+
+pstack is a Cursor and Grok Bot plugin whose one rule is proof from the running app. The usual entry is `/poteto-mode`. This desk uses the rule; it has not installed the plugin. Depth: [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]. Grok Bot as a product is [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]].
 
 ## SpaceXAI and Grok products
 
@@ -317,7 +321,7 @@ Grok Build is the local coding agent on this Mac. You launch it in a project dir
 
 ### Grok Bot
 
-Grok Bot is a named teammate with a job, a conversation, and a cloud computer that keeps running after the chat ends and does not die when the laptop closes. Every Bot on one account shares that computer. Use it for standing watch, fetch, and file on public material. Do not give it private logins or a spend that does not stop for a person. Depth: [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]. The first drawing is [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Standing Research Agents]].
+Grok Bot is a named teammate with a job, a conversation, and a cloud computer that keeps running after the chat ends and does not die when the laptop closes. Every Bot on one account shares that computer. Use it for standing watch, fetch, and file on public material. Do not give it private logins or a spend that does not stop for a person. How to operate the app: [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]. How this desk staffs helpers: [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]. The first drawing is [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Standing Research Agents]].
 
 Access rode on SuperGrok Heavy, Cursor Ultra, or Cursor Teams Premium at launch; on 21 August it widened to SuperGrok Plus, Cursor Pro+, and Cursor Teams subscribers, with a limited free trial for everyone else. An account holding both a Cursor and a SuperGrok subscription draws on whichever has more usage. There is still no standalone checkout. The desktop app is macOS and Windows; the companion is iOS 18. Linux desktop, Android, and iPad were unsupported at launch. Billing and sign-in live on a Cursor account. Docs live under the model company. Looking under one name for both fails.
 
@@ -399,7 +403,7 @@ A Grok skill is a `SKILL.md` directory Grok loads when the task matches. Discove
 
 ### Plugin (Grok)
 
-A Grok plugin bundles skills, slash commands, agents, hooks, and MCP servers from a marketplace. Nothing runs until you install and trust it. Same job as a Claude Code plugin, different installer.
+A Grok plugin bundles skills, slash commands, agents, hooks, and MCP servers from a marketplace. Nothing runs until you install and trust it. Same job as a Claude Code plugin, different installer. pstack is one such pack, also installable in Cursor; see that heading.
 
 ### Hook (Grok)
 
@@ -630,6 +634,11 @@ The roster is dated and lives on [[wiki/Systems/AI & Agentic Systems/Current Age
 - [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: the effort dial in depth, when extra thinking pays and when it is decoration; which model to spend where, by depth, not by name
 - [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]]: the clean-context subagent pattern this vault's writing already runs on
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: always-on Grok Bots, the standing half the teammate actually runs here; the Cursor subscription and Managed Agents session are other vendors' version of "stays up"
+- [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]: standing job vs laptop job
+- [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents|Cursor Cloud Agents]]: isolated VM, pull request, you merge
+- [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]: proof from the running app; this desk uses the rule, not the plugin yet
+- [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]]: the advice from the maker's three-day livestream, with what this wiki already had, what was new, and what stays refused
+- [[wiki/Systems/AI & Agentic Systems/Picking a computer|Picking a computer]]: which of the four computers the next job opens
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: filling the window the loop can see; the loop itself is named here
 - [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]]: tools as channels into a closed model; the harness around those channels is named here
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the bar on work agents produce; this glossary is only the names

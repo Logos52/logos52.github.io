@@ -1,6 +1,7 @@
 ---
 /**
- * Toc.astro — sticky aside table of contents (h2/h3).
+ * Toc.astro — sticky aside table of contents, h2 only (2026-10-15: h3 dropped, no static
+ * current-item highlight since nothing follows the scroll).
  * No visible section label — the list of anchors is self-explanatory; a heading
  * that restates "on this page" is pure redundancy.
  */
@@ -13,16 +14,16 @@ interface Props {
   headings: Heading[];
 }
 const { headings } = Astro.props;
-const items = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
+const items = headings.filter((h) => h.depth === 2);
 ---
 
 {
   items.length > 0 && (
     <nav class="kb-toc" aria-label="Contents">
       <ul class="kb-toc-list">
-        {items.map((h, i) => (
-          <li class:list={[`kb-toc-d${h.depth}`]}>
-            <a href={`#${h.slug}`} class:list={["kb-toc-link", { "is-current": i === 0 }]}>
+        {items.map((h) => (
+          <li>
+            <a href={`#${h.slug}`} class="kb-toc-link">
               {h.text}
             </a>
           </li>
@@ -42,9 +43,6 @@ const items = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
     gap: 7px;
     border-left: 1px solid var(--rule);
   }
-  .kb-toc-d3 {
-    padding-left: 12px;
-  }
   .kb-toc-link {
     font-size: 12.5px;
     color: var(--mut);
@@ -53,9 +51,5 @@ const items = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
   }
   .kb-toc-link:hover {
     color: var(--ink);
-  }
-  .kb-toc-link.is-current {
-    color: var(--accent);
-    font-weight: 600;
   }
 </style>

@@ -13,10 +13,7 @@ tags:
   - condensed
 ---
 
-<div class="hub-page-title">
-<i class="ti ti-wallet" style="color:#2fa36b"></i>
-<h1>Money, Condensed</h1>
-</div>
+# Money, Condensed
 
 Doing well with money depends on behaviour, and intelligence matters less. Temperament decides outcomes, and the math is the easy part. Money is stored life energy: it stands for limited hours a person has already traded for pay. The only worthwhile final use of it is to buy back time, so the person no longer has to trade hours for money. The gap between what a person earns and what they spend is the only factor they fully control. Most of that gap is made by wanting less, which happens before a purchase ever reaches a budget. Compound returns depend on staying invested without interruption over a long horizon. They do not depend on buying at a clever moment. A person has no point at which they are finished until they have written down a number for "enough". Without that number, each milestone they reach is followed by a higher target. Tactics change with the market, and the mindset does not.
 

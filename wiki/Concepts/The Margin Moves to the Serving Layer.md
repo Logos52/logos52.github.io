@@ -3,10 +3,10 @@ title: "The Margin Moves to the Serving Layer"
 type: concept
 status: developing
 created: 2026-07-26
-updated: 2026-09-11
+updated: 2026-09-17
 method: plain-rewrite-2026-09-11
 prose-model: fable
-source-count: 2
+source-count: 3
 written-by: grok
 model: grok
 tags:
@@ -32,6 +32,7 @@ This reading inverts [[wiki/Concepts/Riding the AGI|Riding the AGI]], which was 
 - Companies that sell compute gain when weights are free. More tokens get run, and one competitor for the customer's money is removed.
 - Harnesses, connectors, and enterprise agreements keep a premium price after the weights are cheap.
 - For tasks that many models can do, use the cheapest model that does the job. Do not assign large terminal value to the model layer.
+- In September 2026 the head of Microsoft said open models are what let applications and middleware keep a margin, and that a hyperscaler is not a supplier to two labs.
 - Which layer stays scarce is not settled. Riding the AGI argues that the model layer is the scarce one.
 
 ## Why a published score ends the advantage
@@ -54,9 +55,9 @@ The normal time from an exclusive product to a commodity is five to ten years. O
 
 The panel grants one way for a lab to keep durable value: the lab sells a life-sciences or cyber product under the model company's name. This concession matters. If the durable money is in the application, the model file was never the terminal asset.
 
-## Five price-gap figures that do not agree
+## Six price-gap figures that do not agree
 
-Five figures for the price gap between open and closed models are on the tape, and they cannot all be true. Open-weight Kimi is "about 50% cheaper." Closed models are "mispriced 25 to 50x." Restricted options are "50 to 100 times more." Open source is "100 times cheaper." A counter comes from a 2026 Stratechery piece that the show named. It says the open alternative is "not that much cheaper to run." The Stratechery piece was not consulted; the counter is quoted from the show. Which figure is right is not settled. The way to settle it is a comparison of published list prices one year out, and that comparison is worth more than any one figure from the show.
+Six figures for the price gap between open and closed models are on the tape, and they cannot all be true. Open-weight Kimi is "about 50% cheaper." Closed models are "mispriced 25 to 50x." Restricted options are "50 to 100 times more." Open source is "100 times cheaper." A counter comes from a 2026 Stratechery piece that the show named. It says the open alternative is "not that much cheaper to run." The Stratechery piece was not consulted; the counter is quoted from the show. A sixth figure came in September 2026, which was about fifty dollars per million tokens at OpenAI against an estimate of cents for DeepSeek, a cut of roughly 99%. Which figure is right is not settled. The way to settle it is a comparison of published list prices one year out, and that comparison is worth more than any one figure from either show.
 
 ## Who gains when weights are free
 
@@ -95,6 +96,16 @@ Both sides argue from numbers that cannot settle the question. A token run on a 
 A ladder of costs for reaching five nines of reliability was recited from memory. The first two nines are cheap. The third is "probably… billions." The fourth is tens of billions. The fifth is "hundreds of billions." One panelist said there are "only three games in town." Next to the ladder sat two catch-up anecdotes: one hyperscaler was given something like seventeen years to mostly catch up, and another twelve or thirteen. Industry folklore holds that each added nine costs more, and that is true. The ladder of billions, tens of billions, and hundreds of billions is not a citation. It has no source.
 
 An unsourced claim that closed labs have ninety-percent gross margins, and a forecast that those margins will fall hard, are speech of the same kind.
+
+## What the head of Microsoft said in September 2026
+
+In September 2026 the head of Microsoft was asked whether the fall in token prices puts frontier labs in the wrong business. He called it old-fashioned competition between closed and open, and gave two earlier cases, Windows against Linux, and SQL Server against Postgres and MySQL. The open option is a check on the closed one, and that check is what lets applications keep a margin. Applications and middleware, which means memory, harness and orchestration, become more viable. Model companies are still fine if they manage token pricing and standards. Windows and Unix became interoperable and both were used more, and he expects the same between model families.
+
+He said Microsoft sizes its cloud for a long tail of customers and not for one or two model builders, because a hyperscaler is not a supplier to two labs. Microsoft trains its own models from the bottom with its own data rather than distilling them, and it sells enterprises weights they can extend with their own knowledge. It runs OpenAI's models, Anthropic's and its own on mixed hardware, with Nvidia first and then its own chip, OpenAI's chip and AMD.
+
+He said two things are needed. One is a standard for reusing a model's cached state across model families. The other is a harness outside the model that holds the customer's memory, so that the memory is not locked to one model. His comparison was a database in which your data is not yours, which no customer would accept. His advice to a buyer is to use every model and be independent of all of them. The test is to measure outcomes across several models, pull one out, and see whether the result holds.
+
+The head of Nvidia gave one more figure the same week. About 400 billion dollars of venture money went into AI-native companies in six months, and about 80% of those companies use open models. Both figures are speech.
 
 ## Two theories of where the value goes
 
@@ -145,3 +156,4 @@ How much of current AI spend is a bet that the model layer holds value.
 - All-In, episode 282, 25 July 2026. <https://www.youtube.com/watch?v=wcV0SRPFK9s>. Panel: Jason Calacanis, Chamath Palihapitiya, David Sacks, David Friedberg. Source of the mechanism, the walk-back, the five incompatible price-gaps, the seats, and the dark-token epistemology. Sacks is the administration official and co-author of the government's AI-race report.
 - Moonshot AI, Kimi K3 public release notes. API opened 16 July 2026; full 2.8T-parameter weights released 27 July 2026. Dates only; the on-par comparison with named frontier models is the episode's, not re-benchmarked here.
 - Cited on air, not consulted: TickerTrends ARR tracking; Stratechery, "Who's Afraid of Chinese Models" (2026), the source of the "not that much cheaper to run" counter.
+- All-In, All-In Summit interview with Satya Nadella, 15 September 2026, and the Jensen Huang interview of 14 September 2026. The sixth price figure, the operating-system and database precedent, the long-tail remark, the two missing standards, and the open-model venture share. First-party captions. Local copy: `/Users/n1/handoff-2026-09-14-to-16.md`; originating packets under `/workspace/recap/` on the collecting machine.

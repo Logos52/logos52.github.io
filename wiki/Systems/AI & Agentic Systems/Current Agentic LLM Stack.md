@@ -125,6 +125,10 @@ Hermes 3 via Ollama: the May version of this page named it the primary interface
 - [[journal/2026-08-21-cursor-ultra-vs-build-vs-bot|Cursor Ultra vs Grok Build vs Grok Bot]]: the seat assignment per repo
 - [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]]: the clean-context mechanism the Claude Code seat exists to run
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: the standing half in full
+- [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]: standing watch; not a seat change
+- [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents|Cursor Cloud Agents]]: overnight PR seat, in full
+- [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]: the proof ban; not installed, not a seat
+- [[wiki/Systems/AI & Agentic Systems/Picking a computer|Picking a computer]]: which computer the next job opens; this page stays the dated roster
 - [[wiki/Research/Grok Bot Practitioner Bank|Grok Bot Practitioner Bank]]: official docs plus named-runner claims; not a roster
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]]: the doctrine the division of labor answers to
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: the zone model behind "judgment stays at the desk"

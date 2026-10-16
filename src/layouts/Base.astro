@@ -163,6 +163,12 @@ const { title, description, active } = Astro.props;
   .kb-ac-title {
     font-family: var(--ming);
     font-size: var(--kb-text-base);
+    /* A grid item's auto minimum is its longest word, so a long title used to widen the row
+       and wrap to two and three lines. Clamp it to one line instead. */
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .kb-ac-domain {
     font-family: var(--mono);
@@ -171,6 +177,10 @@ const { title, description, active } = Astro.props;
     text-transform: uppercase;
     color: var(--accent);
     white-space: nowrap;
+    /* "Generativity" is the longest label and the most common one; uncapped it ate the title. */
+    max-width: 84px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .kb-ac-ex {
     grid-column: 1 / -1;
@@ -179,6 +189,13 @@ const { title, description, active } = Astro.props;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  /* Pagefind's match highlight. Without this the UA default paints bright yellow on black. */
+  .kb-ac-ex mark {
+    background: color-mix(in oklab, var(--accent) 22%, transparent);
+    color: var(--ink);
+    border-radius: 3px;
+    padding: 0 1px;
   }
   .kb-ac-empty {
     padding: 12px;

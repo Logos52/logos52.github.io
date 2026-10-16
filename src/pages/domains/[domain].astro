@@ -21,7 +21,7 @@ const { domain } = Astro.params as { domain: Domain };
 const label = DOMAIN_LABELS[domain] ?? domain;
 
 const pages = (await getCollection('notes'))
-  .filter((n) => simplifySlug(n.id) !== '/' && resolveDomain(n.id) === domain)
+  .filter((n) => simplifySlug(n.id) !== '/' && resolveDomain(n.id, n.data.domain) === domain)
   .map((n) => ({
     slug: n.id,
     title: deriveTitle(n.data, n.id, n.body),

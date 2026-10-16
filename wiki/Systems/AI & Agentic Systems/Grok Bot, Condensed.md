@@ -90,6 +90,7 @@ Left out are the helpers' pastes and descriptions, the dates and run records of 
 
 ## Related
 
+- [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]] — how to use the app: first helper, skill, routine
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]] — the fleet told as one setup, for a stranger
 - [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]] — the product against the model that shares its name
 - [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]] — the maker's how-to pages this setup is choosing against
