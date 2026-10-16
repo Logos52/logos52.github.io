@@ -24,7 +24,7 @@
   "boundaryFiles": [],
   "baseline": ".lint-kit-baseline.json",
   "rules": {
-    "R1": "warn",
+    "R1": "error",
     "R2": "warn",
     "R4": "warn",
     "R5": "error",
