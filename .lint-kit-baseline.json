@@ -3157,11 +3157,6 @@
     },
     {
       "rule": "R10",
-      "file": ".github/workflows/lint-kit.yml",
-      "fingerprint": "790f4270"
-    },
-    {
-      "rule": "R10",
       "file": "package.json",
       "fingerprint": "fe0c521a"
     },
@@ -6974,11 +6969,6 @@
       "rule": "R5",
       "file": "tsconfig.json",
       "fingerprint": "fe0c521a"
-    },
-    {
-      "rule": "R8",
-      "file": "rules.json",
-      "fingerprint": "10f94bb4"
     }
   ]
 }
