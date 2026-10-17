@@ -30,7 +30,7 @@
     "R5": "error",
     "R8": "error",
     "R10": "error",
-    "R14": "warn",
+    "R14": "error",
     "R16": "error",
     "R17": "warn",
     "R18": "warn",
