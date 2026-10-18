@@ -298,11 +298,6 @@
     {
       "rule": "R1",
       "file": "kb-astro/generate-site-data.mjs",
-      "fingerprint": "ad7984ab"
-    },
-    {
-      "rule": "R1",
-      "file": "kb-astro/generate-site-data.mjs",
       "fingerprint": "b708f46d"
     },
     {
@@ -4433,12 +4428,12 @@
     {
       "rule": "R2",
       "file": "kb-astro/generate-site-data.mjs",
-      "fingerprint": "bc47c1bb"
+      "fingerprint": "811c9dc5"
     },
     {
       "rule": "R2",
       "file": "kb-astro/generate-site-data.mjs",
-      "fingerprint": "bc47c1bb"
+      "fingerprint": "811c9dc5"
     },
     {
       "rule": "R2",
@@ -4868,12 +4863,12 @@
     {
       "rule": "R2",
       "file": "scripts/update-notes-catalog.mjs",
-      "fingerprint": "6d777e41"
+      "fingerprint": "5cf5b88e"
     },
     {
       "rule": "R2",
       "file": "scripts/update-notes-catalog.mjs",
-      "fingerprint": "6d777e41"
+      "fingerprint": "5cf5b88e"
     },
     {
       "rule": "R2",
@@ -5218,7 +5213,7 @@
     {
       "rule": "R2",
       "file": "src/pages/index.astro",
-      "fingerprint": "5f9716e1"
+      "fingerprint": "811c9dc5"
     },
     {
       "rule": "R2",
