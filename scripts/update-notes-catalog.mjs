@@ -24,9 +24,7 @@ const SECTIONS = [
       s === 'wiki/Systems/AI & Agentic Systems/LLM Knowledge Systems' ||
       s === 'wiki/Systems/AI & Agentic Systems/Context Engineering' ||
       s === 'wiki/Concepts/LLM Knowledge Systems' ||
-      s === 'wiki/Concepts/LLM Tool Use' ||
-      s === 'wiki/Concepts/Thinking Models' ||
-      s === 'wiki/Domains/AI & Tooling/LLM Tool Use',
+      s === 'wiki/Concepts/Thinking Models',
   },
   {
     title: 'Agentic engineering',
@@ -35,7 +33,6 @@ const SECTIONS = [
       s.startsWith('wiki/Domains/AI & Tooling/') ||
       [
         'wiki/Concepts/Agentic Engineering',
-        'wiki/Concepts/Vibe Coding',
         'wiki/Concepts/Software 3.0',
         'wiki/Concepts/Agent-Native Infrastructure',
         'wiki/Concepts/Understanding Bottleneck',
@@ -45,8 +42,6 @@ const SECTIONS = [
         'wiki/Concepts/How to Communicate Truth Into Someone Else\'s Frame',
         'wiki/Concepts/The Age Of Nonlinear Returns',
         'wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment',
-        'wiki/Concepts/The AI Industrial Revolution',
-        'wiki/Concepts/The AI Productivity Curve',
         'wiki/Concepts/Regulatory Capture via Doom-Marketing',
       ].includes(s),
   },

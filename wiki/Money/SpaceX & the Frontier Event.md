@@ -94,7 +94,7 @@ Find who solves the return trip. Map the chokepoints. Prefer picks and shovels e
 
 In the 2026 IPO-week argument, bears anchored on a valuation near 100 times trailing revenue. One Friday close implied about 112 times last year's revenue. Bulls anchored on a near-monopoly on launch plus the constellation and orbital compute. In the bull frame the valuation does not price launch revenue. It prices a call option on orbital data centers plus continued constellation growth. The two sides use different definitions, so they talk past each other. Both have a point. One will be badly wrong. The multiple is a dated print. It will move.
 
-Frontiers only open when the surrounding economy can fund decades-long bets that may never pay back. Patient capital is a precondition. If the option is ever exercised, orbital compute is where this stack connects to AI capex, and that connection is [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].
+Frontiers only open when the surrounding economy can fund decades-long bets that may never pay back. Patient capital is a precondition. If the option is ever exercised, orbital compute is where this stack connects to AI capex.
 
 ## Where everyday life touches it
 
@@ -130,7 +130,6 @@ The return lever is real. The landing is still spectacle. All of it can still be
 - [[journal/2026-06-12-SpaceX-IPO-Stock-Craze-Future-Vision|SpaceX IPO — 2026-06-12]]: IPO-day snapshot and personal position. Off this argument.
 - [[wiki/Books/The Book of Elon|The Book of Elon]]: first-principles and civilizational-optimism frame, with the economic-structure read added here.
 - [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival]]: companion piece; orbital data centers bridge them. Not the same page.
-- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]: orbital compute as the join between space and AI capex.
 - [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: frontier wealth as a nonlinear-returns pattern.
 - [[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]]: the money hub.
 

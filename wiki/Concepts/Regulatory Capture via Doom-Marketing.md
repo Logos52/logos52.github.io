@@ -54,7 +54,7 @@ In July 2026 a quoted claim that a Chinese lab had distilled an American model r
 
 The direction of the proposed remedy shows the problem. Distillation happens when a Chinese company queries an American model. A ban on American access to Chinese weights does nothing to that process. A lab serious about stopping extraction would push to ban Chinese access to American models, which is the reverse of what was proposed. Extraction can only be stopped at the American model, where it happens.
 
-One panelist contends that the ban proposal traces back to a frontier lab's alarm. That is his contention, not a reported fact. That panelist is himself an administration official, and he says he is pressing his own view so that the president hears it. What such a ban could still reach once the weights have spread is [[wiki/Concepts/Prohibition After Diffusion|a separate question]].
+One panelist contends that the ban proposal traces back to a frontier lab's alarm. That is his contention, not a reported fact. That panelist is himself an administration official, and he says he is pressing his own view so that the president hears it. What such a ban could still reach once the weights have spread is a separate question.
 
 ## The September 2026 case: four answers to a slowdown essay
 
@@ -127,9 +127,6 @@ The danger and the gate stay separable, and that separation is what makes the co
 ## Related pages
 
 - [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]]: supplies the "only we can be trusted" premise that doom-marketing turns into gatekeeping.
-- [[wiki/Concepts/Prohibition After Diffusion|Prohibition After Diffusion]]: what a ban can still reach once the weights have already spread, and what enforcement meets when it arrives.
-- [[wiki/Concepts/Riding the AGI|Riding the AGI]]: the commoditization counterforce in fuller form. Every layer of the stack goes generic, and an open project that takes a lead rarely gives it back.
-- [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]]: the economic-side companion, written under the same rule of not using the convenient dataset.
 - [[wiki/Red Team/Red Teaming|Red Teaming]]: the who-benefits and falsifiability checks are red-team moves.
 
 ## Open questions

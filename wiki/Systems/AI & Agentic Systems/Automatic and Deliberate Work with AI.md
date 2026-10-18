@@ -51,7 +51,7 @@ Automatic work is cheap and fast. It is reliable enough that a cheap check catch
 | Automatic | Fluent drafting, recall, classification, extraction, reformatting | Cheap or local model. Light or no verification. A private-file reformat still gets a glance. |
 | Deliberate | Multi-hop reasoning, inference from context, novel construction under many constraints | Reasoning model with a budget. Gate the output. Decompose first. |
 
-Each task sorts by whether it is pattern completion or genuine step-building, and goes to the cheapest model that clears the bar. A gloss, a reformat, a tone label, a vocabulary pull is automatic work: a small or local model does it about as well as a frontier one, with little checking. Authoring a leveled reading that has to hit a character floor while holding cast continuity and register is deliberate work. That task earns a stronger model, a thinking budget, and a gate on the result. The same spend-where-verification-is-expensive logic is [[wiki/Concepts/The AI Industrial Revolution|the verifier role]].
+Each task sorts by whether it is pattern completion or genuine step-building, and goes to the cheapest model that clears the bar. A gloss, a reformat, a tone label, a vocabulary pull is automatic work: a small or local model does it about as well as a frontier one, with little checking. Authoring a leveled reading that has to hit a character floor while holding cast continuity and register is deliberate work. That task earns a stronger model, a thinking budget, and a gate on the result.
 
 ## When extra thinking pays
 
@@ -98,11 +98,11 @@ The reason is not taste. At the moment a person can no longer tell which of two 
 
 The other half of the same rule: cheaper and open models earn their place on high-volume work a test can catch, support and browser automation among it, where a wrong answer is cheap to see. One production gateway reports that frontier intelligence at the right cost and latency still wins most of its traffic. That is one gateway's mix, dated, not a census of the industry.
 
-Which model to spend where, by facet, is [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]. The Naval/Rauch tension, always-smartest against cheap-where-caught, lives on [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].
+Which model to spend where, by facet, is [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]].
 
 ## Turn repeated deliberate work into procedures, and keep what you want to own
 
-Deliberate work becomes automatic through practice. That is proceduralization: a repeated reasoning move extracted into a reusable artifact so it is not re-derived. The operator does it by hand. The four artifact types are a skill, a spec, a prompt template, and a checker. [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]] is where those repeated moves become reusable. The culture half of that extraction is the "train the agent" shift on [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].
+Deliberate work becomes automatic through practice. That is proceduralization: a repeated reasoning move extracted into a reusable artifact so it is not re-derived. The operator does it by hand. The four artifact types are a skill, a spec, a prompt template, and a checker. [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]] is where those repeated moves become reusable.
 
 Having the agent restate a rule in its own words before it acts is a cheaper related move, not the same finding. Articulation strengthening a skill is old cognitive science about people. A model restating a rule is a load-check that the rule was loaded. It is not skill-acquisition, and it is not a substitute for the checker. A reader who paraphrases ten rules and skips the checker has followed the cheap move and still has no procedure.
 
@@ -118,7 +118,7 @@ The safe error is to treat a task as deliberate and verify it. The exception is 
 
 Capability rises, and last year's deliberate task starts completing as pattern-matching. The routing table has to be reopened when that happens. No vendor tier is "the" reasoning model. A 2025 vendor picture that treated thinking models as one lab's product line is already false.
 
-More thinking tokens are not always better. Overthinking can hurt on easy items. Tools are a different axis from thinking: [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]]. Shaping the window is not the same as extra compute: [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]].
+More thinking tokens are not always better. Overthinking can hurt on easy items. Tools are a different axis from thinking. Shaping the window is not the same as extra compute: [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]].
 
 The case against treating thinking models as a dial to turn all the way up: extra compute is a dial on the verifiable slice; a non-thinking frontier model can still win a given bug; overthinking can hurt; traces are not a window onto the work; the 2025 one-lab picture is already false.
 
@@ -150,12 +150,10 @@ Extra time is a dial on the verifiable slice. It is not a personality and not a 
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]: the working-memory limit this budgets against
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the hub this routing serves
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]: where repeated moves become reusable artifacts
-- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]: the train-the-agent shift, and Naval vs Rauch: spend intelligence where verification is expensive
 - [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]]: why offloading thinking skips the encoding
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]: keep the deliberate work you want to own
 - [[wiki/Concepts/Declarative, Procedural, and Conditional Knowledge|Declarative, Procedural, and Conditional Knowledge]]: the split as knowledge types
 - [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]]: proceduralization as the climb to unconscious competence
-- [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]]: tools are a different axis from thinking
 - [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]]: the interpretability paper that prompted this page, and an interpretability view of extended reasoning; the moves owe nothing to its findings
 
 ## Open questions
@@ -177,7 +175,6 @@ Extra time is a dial on the verifiable slice. It is not a personality and not a 
 - Tamera Lanham et al., "Measuring Faithfulness in Chain-of-Thought Reasoning," arXiv:2307.13702 (2023).
 - Yanda Chen et al., "Reasoning Models Don't Always Say What They Think," Anthropic (2025).
 - Andrej Karpathy, [How I use LLMs](https://www.youtube.com/watch?v=EWvNQjAaOHw), ~23:07–30:28. Fast-default / think-when-hard, the travel-advice tell, the gradient-check case.
-- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]: Naval's always-smartest and Rauch's cheap-where-caught.
 - Daya Guo et al., [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948), arXiv:2501.12948, 2025.
 - OpenAI, [o1 System Card](https://openai.com/index/openai-o1-system-card/), December 2024.
 - Charlie Snell et al., [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](https://arxiv.org/abs/2408.03314), arXiv:2408.03314, 2024.

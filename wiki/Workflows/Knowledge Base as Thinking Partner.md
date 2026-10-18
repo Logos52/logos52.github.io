@@ -107,7 +107,7 @@ Write-back is one of the five moves and it is required.
 | Public argument | blog draft |
 | System change | README, AGENTS, or a workflow page |
 
-A page is not created just because an idea exists. A page is created when it will be reused, linked, practiced, or argued with. The same candidate test in [[wiki/Workflows/Wiki Health Checks|Wiki Breakdown Pass]] applies when a new page is on the table.
+A page is not created just because an idea exists. A page is created when it will be reused, linked, practiced, or argued with.
 
 ## What it looks like when it is working
 
@@ -168,9 +168,6 @@ One session leaves a destination, and the test can be answered yes or no. The sa
 ## Related pages
 
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the three-layer pattern this workflow sits on.
-- [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]]: how sources become pages.
-- [[wiki/Workflows/Question Answering Against a Wiki|Question Answering Against a Wiki]]: how a question is answered from the wiki first.
-- [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]: the lint workflow.
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: the control layer the weekly review is a special case of.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the building entry page, and the questions the workflow starts from.
 - [[journal/index|Journal]]: temporary thinking, and the destination for a passing thought, an active question, and current focus.

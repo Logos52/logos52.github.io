@@ -32,7 +32,7 @@ A return to code is a loop for making cheap custom software. You describe the pr
 
 Getting a traditional program to its first run used to take many steps: pick a framework, wire dependencies, build the interface, host it, then chase the errors. Agents remove most of that work. They walk a repository, run shell commands, read the failure, and keep editing. This works when the surrounding stack is [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]], meaning surfaces an agent can read and act on without a human click-path.
 
-The loop is fast and direct. A wanted behavior becomes a file you can execute. That fast creative loop is [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] is the professional quality system around that loop. The two are separate concepts and should stay separate.
+The loop is fast and direct. A wanted behavior becomes a file you can execute. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] is the professional quality system around that loop. The two are separate concepts and should stay separate.
 
 ## What the person still does
 
@@ -77,11 +77,9 @@ A return to code is a return only when the program runs and the operator can sti
 
 ## Related pages
 
-- [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]: the fast creative loop that turns a wanted behavior into a file you can run.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the professional quality system around that loop; the two stay separate.
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the broader frame, software as English plus models.
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]: what the surrounding stack has to look like for agents to run commands and edit files.
-- [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]: operator craft for calling tools from a model.
 
 ## Sources
 

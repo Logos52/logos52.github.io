@@ -59,7 +59,7 @@ These positions describe mid-2026. The split between the two capabilities stays 
 
 [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Claude Fable]] is the generative model currently in use in this vault. It generates fluently across readable artifacts. It stalls on taste-bound work, where the spec exists only in the operator's head and no candidate can be graded without going back to the operator. That is one local example. The next model this vault uses will fill the example differently.
 
-[[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]] makes a related cut. There, the lasting human move is stepping *out of distribution*: doing, with intent, something the system has not seen and cannot reach by averaging what it has seen. That limit falls on the generativity half, not on the judgment half. The two cuts agree on one point: neither out-of-distribution work nor judgment is interpolation. They use different axes. That page uses surprise. This split uses accountability.
+A related cut calls the lasting human move stepping *out of distribution*: doing, with intent, something the system has not seen and cannot reach by averaging what it has seen. That limit falls on the generativity half, not on the judgment half. The two cuts agree on one point: neither out-of-distribution work nor judgment is interpolation. They use different axes. One cut uses surprise. This split uses accountability.
 
 ## The strongest objection
 

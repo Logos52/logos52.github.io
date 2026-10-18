@@ -126,11 +126,6 @@ SOURCE: Bot Operating Rules vs official design-for-trust
 MECHANISM: The vault's "the report is the product / no bot fixes what it finds" is stricter than Palmer and aligned with the official "automate preparation before execution; draft first; approval for send/purchase/delete/publish/production." Official docs also confirm the vault's one-duty rule via the named anti-pattern "General Helper."
 SPECIFIC: Official event-trigger warning ("avoid broad listeners such as every new message") is the missing citation under Brief's exception-only voice and Intake's scored-packet design. Official "routines may pause after a long period away" is a canary the Steward sketch does not yet name.
 GOAL: Ingest two citations into Bot Operating Rules and Fleet Structures: the General Helper anti-pattern, and the pause-after-absence canary. No rule change. [SOLID]
-------------------------------------------------------------------------
-SOURCE: Current Agentic LLM Stack (updated 2026-08-12)
-MECHANISM: The stack page already dates Grok Bot as "beta 2026-08-11" and places it as the standing half. It does not cite a practitioner source.
-SPECIFIC: This bank is that source. The Cursor-coupling claim (same plugins/skills, Cloud Agent dispatch) is the one stack fact the page does not currently carry.
-GOAL: One source line and, if wanted, one sentence on the Cursor plugin share. Not a stack change. [SOLID]
 
 ================================================================================
 LANE: field-2026-08-15
@@ -227,8 +222,6 @@ GOAL: The killed per-helper-computer claim now has first-party playbook language
 | [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer\|Bot Operating Rules]] | General Helper anti-pattern; design-for-trust; first-task template; **31 Aug:** one helper declares a finding; a finding is handed as a spec | Prompt-as-policy as sufficient; Nate's theme-not-task as a replacement for one-duty | Written 2026-09-01. |
 | [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer\|Grok Bot Fleet Structures]] | Pause-after-absence canary; 50-bot / 50-routine caps; Zakariasson #50 rent-report; **31 Aug:** first-party CoS+specialists filed as a sketch, not a roster | Per-bot isolation as a structure option; six-seat studio as Structure A replacement | Written 2026-09-01. |
 | [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer\|Grok Bot Primer]] | **31 Aug:** the company's how-to pages put a chief of staff first; this setup still has an empty middle | Copying GTM/PM/studio rosters; mail, ads, store, Amazon | Written 2026-08-31. |
-| [[wiki/Systems/AI & Agentic Systems/Agent Glossary\|Grok 4.6 and Grok Bot]] | **31 Aug:** first-party playbooks now write "own computer" language the FAQ kills; pointer to the 31 Aug packet | Reading those pages as a stack change | Written 2026-08-31. |
-| [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack\|Current Agentic LLM Stack]] | Source line; optional one sentence on shared Cursor plugins | Stack-diagram change | Written 2026-09-01. plugin sentence on the division-of-labor paragraph; Primer and bank on Related. |
 
 ## Sources
 

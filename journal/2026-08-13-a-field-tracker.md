@@ -73,4 +73,4 @@ Gold file and first packet exist. Pinned list: [[raw/sources/2026-08-15-grok-gui
 
 ## Status, 2026-09-01
 
-Second packet exists. Hub: [x.ai/bot/guides](https://x.ai/bot/guides). Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]. Bank lane `field-2026-08-31`. Wiki absorb written onto Primer, Bot Operating Rules, Standing Research Agents, Fleet Structures, Grok 4.6 and Grok Bot, Current Agentic LLM Stack. Field is still not a product bot. Watch and Brief still meter first.
+Second packet exists. Hub: [x.ai/bot/guides](https://x.ai/bot/guides). Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]. Bank lane `field-2026-08-31`. Wiki absorb written onto Primer, Bot Operating Rules, Standing Research Agents, Fleet Structures, and Grok 4.6 and Grok Bot. Field is still not a product bot. Watch and Brief still meter first.

@@ -131,11 +131,9 @@ Language learning resources:
 LLM systems and agentic engineering:
 
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-- [[wiki/Concepts/Vibe Coding|Vibe Coding]]
 - [[wiki/Concepts/Software 3.0|Software 3.0]]
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
-- [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
 - [[wiki/Concepts/Thinking Models|Thinking Models]]
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
 - [[wiki/Concepts/A Return to Code|A Return to Code]]

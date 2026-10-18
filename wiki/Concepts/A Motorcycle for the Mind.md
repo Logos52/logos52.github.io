@@ -43,7 +43,6 @@ More people can now build things by describing what they want. The people who un
 
 [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]] is that layer-below skill for people who run agents.
 
-[[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] is the fast building loop that the engine makes possible. The ways it fails are listed on that page.
 
 Those four jobs are agency, and agency is the part a person has that the model does not. Entrepreneurs, scientists, artists, and serious learners already pick their own problems and chase problems past what they can currently do. The engine helps when it widens the range of that chase, speeds it up, or raises its quality.
 
@@ -65,7 +64,6 @@ Prefer work where the answer can be checked: code, math, data, diagrams, structu
 
 Use the tool as a tutor at the edge of what you understand. Ask for simpler explanations, pictures, analogies, and a check for prerequisites you are missing. Stay at that edge, so that the tool never becomes a way to let it do the thinking.
 
-[[wiki/Concepts/LLM Tool Use|LLM Tool Use]] is how the rider operates the machine in practice.
 
 [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] is the professional-quality system built around that loop.
 
@@ -90,8 +88,6 @@ This vault is a motorcycle only while the person still chooses the destination a
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: the tutor is valuable only when it forces transformation, not consumption.
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]: the failure mode where the tool lets the human stop understanding.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the professional-quality system around the loop.
-- [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]: the fast creative loop the motorcycle enables.
-- [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]: how the rider actually operates the machine.
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the layer-below skill for people who use agents.
 
 ## Open questions

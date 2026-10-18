@@ -26,7 +26,7 @@ On 30 June 2026 two hundred fifty design items were scored on two independent ax
 
 ## How a row is scored
 
-**H** is human ownership, 1–5: how much the item still needs a person. **AI** is machine executability, 1–5: how much an agent can carry out the item without a person looking at the result. The two axes are independent: one item can score H5 and AI4. **B** is Build relevance to the tsumugu surfaces, 1–5. **L** is Learning relevance to the owner's growth, 1–5. **tsumugu** is the language-learning reader and dictionary that the Build scores refer to. The scoring model is the [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]. The two books were split into the [[wiki/Design/Agent Track — Executable UI Technique Catalog|Agent Track]] and the [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track]] by the process in [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]].
+**H** is human ownership, 1–5: how much the item still needs a person. **AI** is machine executability, 1–5: how much an agent can carry out the item without a person looking at the result. The two axes are independent: one item can score H5 and AI4. **B** is Build relevance to the tsumugu surfaces, 1–5. **L** is Learning relevance to the owner's growth, 1–5. **tsumugu** is the language-learning reader and dictionary that the Build scores refer to. The scoring model is the [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]. The two books were split into an executable catalog and the [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track]] by the process in [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]].
 
 **Zone** is the item's cell on the H × AI grid. The zone names, verbatim, with what each means: **Own**: you have to make it, and agents cannot. **Augment**: both scores are high; the agent drafts, and you judge and own the result. **Delegate**: you hand it to the agent. **Low-leverage**: both scores are 3 or lower.
 
@@ -347,7 +347,6 @@ The scores are from one date, 30 June 2026. The AI scores will change. Human-5 i
 
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: the scoring model, the two independent axes, the four zones.
 - [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]: how the two books were split into Agent and Human tracks.
-- [[wiki/Design/Agent Track — Executable UI Technique Catalog|Agent Track]]: the executable rules, many of which appear here as Delegate rows.
 - [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track]]: the judgment entries, many of which appear here as Own rows.
 - [[wiki/Design/Design Expansion — Reading & Resources|Design Expansion — Reading & Resources]]: the reading list; the principles book is also a Feeds item there.
 

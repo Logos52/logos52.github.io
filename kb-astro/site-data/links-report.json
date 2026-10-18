@@ -372,12 +372,6 @@
     "suggestion": "Check spelling / path / add alias"
   },
   {
-    "file": "wiki/Domains/AI & Tooling/LLM Tool Use.md",
-    "link": "[[How I use LLMs|How I use LLMs]]",
-    "problem": "broken target",
-    "suggestion": "Check spelling / path / add alias"
-  },
-  {
     "file": "wiki/Learning Craft/Don't Outsource the Learning.md",
     "link": "[[wiki/Live Clinic 60 The Right vs Wrong Way to Use AI|Live Clinic 60: The Right vs Wrong Way to Use AI]]",
     "problem": "broken target",
@@ -510,64 +504,10 @@
     "suggestion": "Check spelling / path / add alias"
   },
   {
-    "file": "wiki/Systems/AI & Agentic Systems/Vibe Coding.md",
-    "link": "[[Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]",
-    "problem": "broken target",
-    "suggestion": "Closest basename matches: agentic engineering, vibe coding"
-  },
-  {
-    "file": "wiki/Systems/AI & Agentic Systems/Vibe Coding.md",
-    "link": "[[How I use LLMs|How I use LLMs]]",
-    "problem": "broken target",
-    "suggestion": "Check spelling / path / add alias"
-  },
-  {
     "file": "wiki/Workflows/Knowledge Base as Thinking Partner.md",
     "link": "[[private/Goals/Priority 0|Priority 0]]",
     "problem": "broken target",
     "suggestion": "Closest basename matches: priority 0+1 system"
-  },
-  {
-    "file": "wiki/Workflows/Question Answering Against a Wiki.md",
-    "link": "[[llm-wiki|llm-wiki]]",
-    "problem": "broken target",
-    "suggestion": "Closest basename matches: 2026-05-23-possible-paths-self-updating-wiki-and-llm-wiki-integration"
-  },
-  {
-    "file": "wiki/Workflows/Question Answering Against a Wiki.md",
-    "link": "[[log|log.md]]",
-    "problem": "broken target",
-    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
-  },
-  {
-    "file": "wiki/Workflows/Raw to Wiki Compilation.md",
-    "link": "[[llm-wiki|llm-wiki]]",
-    "problem": "broken target",
-    "suggestion": "Closest basename matches: 2026-05-23-possible-paths-self-updating-wiki-and-llm-wiki-integration"
-  },
-  {
-    "file": "wiki/Workflows/Raw to Wiki Compilation.md",
-    "link": "[[log|log.md]]",
-    "problem": "broken target",
-    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
-  },
-  {
-    "file": "wiki/Workflows/Raw to Wiki Compilation.md",
-    "link": "[[log|log.md]]",
-    "problem": "broken target",
-    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
-  },
-  {
-    "file": "wiki/Workflows/Raw to Wiki Compilation.md",
-    "link": "[[raw/Source Index|Source Index]]",
-    "problem": "broken target",
-    "suggestion": "Closest basename matches: index"
-  },
-  {
-    "file": "wiki/Workflows/Raw to Wiki Compilation.md",
-    "link": "[[raw/Source Index|Source Index]]",
-    "problem": "broken target",
-    "suggestion": "Closest basename matches: index"
   },
   {
     "file": "wiki/Workflows/Wiki Breakdown Pass.md",
@@ -584,24 +524,6 @@
   {
     "file": "wiki/Workflows/Wiki Breakdown Pass.md",
     "link": "[[Writing Standards]]",
-    "problem": "broken target",
-    "suggestion": "Check spelling / path / add alias"
-  },
-  {
-    "file": "wiki/Workflows/Wiki Health Checks.md",
-    "link": "[[llm-wiki|llm-wiki]]",
-    "problem": "broken target",
-    "suggestion": "Closest basename matches: 2026-05-23-possible-paths-self-updating-wiki-and-llm-wiki-integration"
-  },
-  {
-    "file": "wiki/Workflows/Wiki Health Checks.md",
-    "link": "[[log|log.md]]",
-    "problem": "broken target",
-    "suggestion": "Closest basename matches: 2026-06-17-tsumugu-ed-composer-batch-and-backlog"
-  },
-  {
-    "file": "wiki/Workflows/Wiki Health Checks.md",
-    "link": "[[Open Questions]]",
     "problem": "broken target",
     "suggestion": "Check spelling / path / add alias"
   },

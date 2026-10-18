@@ -10,6 +10,10 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-10-18] maintenance | Delete 21 approved AI and agent pages
+
+- Removed the 21 pages Wedge approved, and the inbound links on staying pages that pointed at them.
+
 ## [2026-10-16] maintenance | Cloud Agent environment landed; agents may merge
 
 - Brought `.cursor/environment.json` and `npm run verify` onto current main. The September branch conflicted only in this log.
@@ -19,18 +23,13 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - `wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy.md` rebuilt through Explain First. Owner's ruling: keep the first day's talks and the advice repeated across talks; drop the sales, support and marketing talks of the second and third days; state advice as general rules with sources only in Sources.
 - New: `journal/2026-09-18-grok-bot-galaxy-rules.md`, the rules in short form on one page.
-- Link clauses updated on Agentic Engineering, Agent Glossary and Using Grok Bot. The page before the rebuild is in `01 - Workbench/galaxy-rebuild-2026-09-18/`.
-- Not done: the new rules are not yet on Cursor Cloud Agents or Using Grok Bot. Not committed. The owner has not read the finished page.
-
-## [2026-09-17] compile | Cursor Cloud Agents and Picking a computer
-
-- New pages: `wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents.md`, `Picking a computer.md`. Same WPW as Using Grok Bot / pstack / Galaxy: why in the opening whole, whether before how-to.
-- Wired from glossary, Agentic Engineering, stack, notes index, and the three sibling pages.
+- Link clauses updated on Agentic Engineering and Using Grok Bot. The page before the rebuild is in `01 - Workbench/galaxy-rebuild-2026-09-18/`.
+- Not done: the new rules are not yet on Using Grok Bot. Not committed. The owner has not read the finished page.
 
 ## [2026-09-17] compile | Grok Bot usability guides and pstack
 
 - New pages under Agentic: `wiki/Systems/AI & Agentic Systems/Using Grok Bot.md`, `pstack.md`, `Grok Bot Galaxy.md` (Day 1 + Day 2 findings).
-- Wired from Agentic Engineering, Grok Bot Primer, Grok Bot Condensed, Agent Glossary, Current Agentic LLM Stack, `notes/index.md`.
+- Wired from Agentic Engineering, Grok Bot Primer, Grok Bot Condensed, and `notes/index.md`.
 - Day 1 field notes copied to `raw/sources/2026-09-15-day-1-grok-bot-galaxy.md`.
 - pstack not installed. Not a stack change.
 
@@ -59,7 +58,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-09-01] compile | Close Grok Bot ingest map onto the wiki
 
-- Remaining 13 Aug / 31 Aug ingest-map rows written onto the compiled pages: Standing Research Agents (Palmer Sources line; grocery as refused usage; sweep-and-file as Watch/Brief shape); Bot Operating Rules (catch-all anti-pattern, first-task template, prepare-before-execute); Fleet Structures (50-bot / 50-routine caps, pause-after-absence, rent-report row, Sources); Current Agentic LLM Stack (shared Cursor plugins, Primer + bank on Related, Sources); Agentic Engineering hub (Primer + Grok 4.6 links).
+- Remaining 13 Aug / 31 Aug ingest-map rows written onto the compiled pages: Standing Research Agents (Palmer Sources line; grocery as refused usage; sweep-and-file as Watch/Brief shape); Bot Operating Rules (catch-all anti-pattern, first-task template, prepare-before-execute); Fleet Structures (50-bot / 50-routine caps, pause-after-absence, rent-report row, Sources); Agentic Engineering hub (Primer + Grok 4.6 links).
 - Packet [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]] and bank lane `field-2026-08-31` already on disk from 31 Aug.
 - Field tracker status 2026-09-01: second packet exists; Field still not a product bot.
 - Does not change the stack. Does not undraft Condensed.
@@ -74,33 +73,32 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Portable: one-finder; finding-as-spec; reuse-first + create-after-yes. Refused: CoS on mail, Gmail, Salesforce, Gong, Meta Ads, Amazon, store listings, helper-to-helper overnight without a file.
 - Does not change the stack. Field not created in the product. Grok 4.6 ranking not reopened.
 
-## [2026-08-28] compile | Agent Glossary theming/OTEL + API-meter ruling
+## [2026-08-28] compile | glossary theming/OTEL + API-meter ruling
 
 - Theming, custom-model endpoints, OpenTelemetry added as glossary headings.
 - Desk ruling: no pay-per-token / session-hour API (Managed Agents, Agent SDK, Messages API). Owner: "i don't like anything with API."
 - Push to logos52.github.io (main → GitHub Pages).
 
-## [2026-08-28] compile | Agent Glossary next moves
+## [2026-08-28] compile | glossary next moves
 
 - Remaining Grok seat-pick terms: permission modes, MCP config, dashboard vs `/agents`, `/goal`, `/fork`, `/deep-research`, `/workflow` vs `/workflows`, MCP tunnels.
 - Collisions: Grok `/goal` vs Cursor `/goal`; `/agents` vs `/dashboard` vs `/resume` vs `/workflows`.
 - Claude-side skill: symlink `~/.claude/skills/agent-glossary` → `~/.grok/skills/agent-glossary`. Vault copies under `.claude/skills/` and `.grok/skills/`.
 - Audit reminder: Tasks.md 📅 2026-09-28. Still not a live Managed Agents seat.
 
-## [2026-08-28] compile | Agent Glossary expansions
+## [2026-08-28] compile | glossary expansions
 
-- Glossary: `/Users/n1/Projects/llm-knowledge-base/wiki/Systems/AI & Agentic Systems/Agent Glossary.md` — Grok Build grain from `~/.grok/docs/user-guide/`; Codex CLI vs cloud; Copilot cloud agent (rename); Devin surfaces; surface/harness/hands diagram; split rule; `next-audit: 2026-09-28`.
+- Grok Build grain from `~/.grok/docs/user-guide/`; Codex CLI vs cloud; Copilot cloud agent (rename); Devin surfaces; surface/harness/hands diagram; split rule; `next-audit: 2026-09-28`.
 - Wrong-door log: `/Users/n1/Projects/llm-knowledge-base/wiki/Systems/AI & Agentic Systems/Agent Wrong-Door Log.md`
 - Skill (pointer only): `/Users/n1/.grok/skills/agent-glossary/SKILL.md` — `/agent-glossary`
 - Session start: vault `AGENTS.md`; n1 `~/.grok/AGENTS.md`
 - How to Use the Claude Tools: Agent SDK + Managed Agents as doors, not a live seat.
 - Did not split Managed Agents / Cloud Agents into own pages (desk does not run them). Did not add Active Questions (cap 5).
 
-## [2026-08-28] compile | Agent Glossary
+## [2026-08-28] compile | glossary page
 
-- Wiki: `/Users/n1/Projects/llm-knowledge-base/wiki/Systems/AI & Agentic Systems/Agent Glossary.md`
-- Home: next to How to Use the Claude Tools and Current Agentic LLM Stack, not `wiki/Glossary.md` (that file is learning-system terms).
-- Pointers: learning Glossary, How to Use the Claude Tools, Current Agentic LLM Stack, Agentic Engineering hub, Grok 4.6 and Grok Bot.
+- Home: next to How to Use the Claude Tools, not `wiki/Glossary.md` (that file is learning-system terms).
+- Pointers: learning Glossary, How to Use the Claude Tools, Agentic Engineering hub, Grok 4.6 and Grok Bot.
 - Scope: primitives, Anthropic, Cursor, Grok, Chat SDK, name collisions, two-question chooser. Expansion left as open questions.
 
 ## [2026-08-22] compile | Context Problem wiki page and Claude generator handoff
@@ -355,9 +353,6 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Added [[00 Command Center/Writing Standards|Writing Standards]] for future page quality, neutral article voice, practical role-first writing, hub/detail discipline, and integration rules.
 - Added [[templates/Writing Standard|Writing Standard]] as a reusable drafting template.
-- Added workflow pages:
-  - [[wiki/Workflows/Wiki Health Checks|Wiki Status Checks]]
-  - [[wiki/Workflows/Wiki Health Checks|Wiki Breakdown Pass]]
 - Updated [[AGENTS|AGENTS]] with status, breakdown, article-development, anti-cramming, and type-specific page rules.
 - Updated [[notes/index|notes/index]] and [[00 Command Center/Index|Command Center Index]].
 
@@ -394,11 +389,9 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Partially compiled [[Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]].
 - Added agentic engineering cluster:
   - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
-  - [[wiki/Concepts/Vibe Coding|Vibe Coding]]
   - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]]
   - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
   - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
-  - [[wiki/Concepts/LLM Tool Use|LLM Tool Use]]
   - [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]]
 - Updated [[notes/index|notes/index]], [[raw/Source Index|Source Index]], bibliography, command center, and open questions.
 ## [2026-05-04] compile | Study-system cluster
@@ -484,7 +477,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Added longform book notes:
   - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]]
   - [[wiki/Books/The Book of Elon|The Book of Elon]]
-- Updated [[wiki/Concepts/Vibe Coding|Vibe Coding]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and [[wiki/Dimensions/Mindset|Mindset]] with backlinks and synthesis.
+- Updated [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and [[wiki/Dimensions/Mindset|Mindset]] with backlinks and synthesis.
 - Updated [[notes/index|notes/index]], [[raw/Source Index|Source Index]], bibliography, command center, and open questions.
 
 ## [2026-05-06] compile | Red Team Handbook section
@@ -664,7 +657,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - Full Bear Hunter System (including Aim, Shoot, Skin) into Dimensions/Deep Processing
   - Kolbs Experiential Cycle, Reverse Goal Setting, Skills Audit into Dimensions/Self-Management
   - Marginal Gains into Dimensions/Mindset
-  - Agentic Engineering, Vibe Coding, Software 3.0, LLM Knowledge Systems, Context Engineering, Thinking Models into Systems/AI & Agentic Systems
+  - Agentic Engineering, Software 3.0, LLM Knowledge Systems, Context Engineering, Thinking Models into Systems/AI & Agentic Systems
   - MG & Kolbs into Systems/MG & Kolbs
   - Exam-specific pages into Domains/Miscellaneous
 - Updated Notes Index for moved pages
@@ -708,7 +701,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-17] develop | Agent workflow, 30-day challenges, and session memory
 
-- Added [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] to document Grok, Hermes 3, Ollama, Aider, and the current local/remote division of labor.
+- Documented Grok, Hermes 3, Ollama, Aider, and the current local/remote division of labor.
 - Refined Hybrid Model Workflows, Grok + Hermes around Hermes as the local agent and Grok as the high-level reasoning layer.
 - Expanded [[AGENTS]] with model-specific guidance, Hermes access boundaries, and the `raw/sessions/` session-summary habit for reviewable agent memory.
 - Added [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] plus dimension-specific challenge pages for Mindset, Self-Management, Self-Regulation, Deep Processing, and Retrieval.
@@ -835,26 +828,26 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - notes/index.md: rows added for all 29. The 82 legacy unindexed pages from the 2026-05-29 sessions remain a backlog item.
 - Method note: multi-agent writes landed in a session worktree due to background isolation; shipped to the main checkout in one pass. Two pages written directly (Clinical Learning System, Perfectionism and Overthinking).
 
-## [2026-06-15] ingest | The AI Industrial Revolution → agentic cluster fusion
+## [2026-06-15] ingest | Naval industrial transcript → agentic cluster fusion
 - Source: Naval Ravikant et al., "The AI Industrial Revolution" ([nav.al/industrial](https://nav.al/industrial), 2026-06-02), transcript in `raw/inbox`. Scope per Wedge: agentic core + light adjacent; fold into existing pages (no new standalone concept pages beyond the anchor); fuse direct to wiki.
-- New page (anchor): [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]] — software factories, waste-tokens-save-time, models planning unprompted, humans as verifiers, train-the-agent, intelligence vs agency, small teams, model tiering, out-of-distribution creativity, and the planning-as-spec vs planning-as-ritual split. Carries its own Case Against (founders talking their book).
-- Fused (integration rule, frontmatter bumped): [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] (verifier role + factory framing + train-the-agent; src 9→10), [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]] (spec-not-plan invariant + two dated tactics: waste-tokens, stop-hand-writing-the-plan), [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] (no-stuck + hardware crossover; src 4→5), [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]] (models speak English / instruct humans; src 1→2), [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]] (always-want-smartest + tiering caveat; src 1→2).
+- New page (anchor) — software factories, waste-tokens-save-time, models planning unprompted, humans as verifiers, train-the-agent, intelligence vs agency, small teams, model tiering, out-of-distribution creativity, and the planning-as-spec vs planning-as-ritual split. Carries its own Case Against (founders talking their book).
+- Fused (integration rule, frontmatter bumped): [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] (verifier role + factory framing + train-the-agent; src 9→10), [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]] (spec-not-plan invariant + two dated tactics: waste-tokens, stop-hand-writing-the-plan), [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]] (models speak English / instruct humans; src 1→2), [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]] (always-want-smartest + tiering caveat; src 1→2).
 - Light adjacent: [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] (100x factory leverage; src 1→2), [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]] (out-of-distribution ceiling on generativity).
 - System: Source Index row added; notes/index.md row for the anchor page (also indexed Higher-Order Generativity, previously missing); 4 open questions appended to outputs/generated-questions.md; journal entry 2026-06-15.
 - Flagged, not actioned: (1) about.md line "n=1 learning + encoding solutions" conflicts with the High-Signal Front-Facing standard (no workshop words on the door) — translation options pending Wedge's pick; (2) the PRD-relaxation idea encoded as an open question / invariant-vs-tactic split, NOT a change to the operating doc (Wedge confirmed PRDs stay).
 
-## [2026-06-19] compile | Maxinomics diptych → Money cluster + AI Productivity Curve
+## [2026-06-19] compile | Maxinomics diptych → Money cluster
 - Sources: Maxinomics, "Americans Are About to Get a Lot Richer" (2026-05-30) and "Is SpaceX About to Rule the World?" (2026-06-11), transcripts in `raw/inbox`. Per Wedge: L3 Opus drafts first, then fold to wiki; SpaceX under Money; both pages get three perspectives (investor / everyday-American / Earth); expand the productivity-curve takeaway into its own researched page.
 - L3 drafts: `01 - Workbench/Opus - Americans Are About to Get a Lot Richer.md`, `01 - Workbench/Opus - Is SpaceX About to Rule the World.md`.
-- New pages: [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival — The Freight Signal]], [[wiki/Money/SpaceX & the Frontier Event|SpaceX & the Frontier Event]] (both with the three-perspective treatment; SpaceX links the private journal [[journal/2026-06-12-SpaceX-IPO-Stock-Craze-Future-Vision|SpaceX IPO]] and keeps the personal holding off the public page), and [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]].
+- New pages: [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival — The Freight Signal]], [[wiki/Money/SpaceX & the Frontier Event|SpaceX & the Frontier Event]] (both with the three-perspective treatment; SpaceX links the private journal [[journal/2026-06-12-SpaceX-IPO-Stock-Craze-Future-Vision|SpaceX IPO]] and keeps the personal holding off the public page).
 - Productivity page is web-researched, not restated: macro data (~3.0% 2024, ~2.1% 2025) at/above the late-90s internet pace (~2.5%), but firm-level evidence inverts it (Feb 2026 NBER survey ~6,000 execs → ~90% no measurable gain; Solow paradox redux). Verdict: J-curve, attribution unproven. Sourced to BLS, Chicago Fed/CBO, McKinsey/NBER, AEI.
-- Backlinks: AI Industrial Revolution Related → productivity page + Americans page (bidirectional); Source Index two rows added (status compiled); notes/index.md three rows added.
+- Backlinks: Americans page (bidirectional); Source Index two rows added (status compiled); notes/index.md rows added.
 - Parked, awaiting Wedge: inbox cleanup (delete junk `Give me 28 Minutes`; move 4 finished + 3 Hermes/Cowork sources to `raw/processed/`; archive 4 stale workbench L3s). CONTRADICTION surfaced: Wedge said "everything else has already been done" but ~10 inbox files have no synthesis output / Source Index entry — not actioned pending his call.
 
 ## [2026-06-19] ingest | All-In episode → split by half-life (concepts to wiki, world-state to journal)
 - Source: All-In Podcast, "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal" (2026-06-20), transcript in `raw/inbox`. Mined to L3: `01 - Workbench/Opus - All-In - Trillionaire, Fable Ban, Oligarchs, Iran.md` (attributed by host; rewritten to High-Signal Wiki standard — no-scaffolding, thesis-first, delete-list; Sacks' account treated as the firsthand account per Wedge, bias-flagging removed).
 - Architecture decision (Wedge): mixed sources get split by half-life at ingest — evergreen concepts → wiki concept pages; dated world-state → journal/ snapshots (reuse existing dated layer, no new structure); concept pages cite the dated source as worked example so they survive snapshot decay. This generalizes the Condensed-Pages invariants-vs-dated-tactics split to ingestion.
-- New evergreen pages (scope: the two clear ones): [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]], [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] — anonymized worked examples (Anthropic/Fable as the public case), High-Signal standard, cross-linked to each other + Red Teaming + AI Industrial Revolution + AI Productivity Curve.
+- New evergreen pages (scope: the two clear ones): [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]], [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] — anonymized worked examples (Anthropic/Fable as the public case), High-Signal standard, cross-linked to each other and to Red Teaming.
 - System: Source Index row added (status partially compiled); notes/index.md two rows. Deferred per scope: 4 more candidate concepts (wealth-as-machine, learned helplessness, frontier events, AI-diffusion fold-in) and the dated journal snapshots (Fable ban, Iran MOU, IPO/Cursor) — offered, not yet built.
 
 ## [2026-06-19] compile | Paper-vs-Screen + Chamath-on-focus → wiki, then workbench cleaned
@@ -922,8 +915,7 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 ## [2026-07-26] ingest | All-In ep. 282 → three new concept pages, five strengthened
 
 - Source: All-In Podcast ep. 282, *The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?* (2026-07-25). Read by five parallel chapter agents plus a vault-cluster mapper; every page fact-checked against transcript lines and audited against the High-Signal Wiki Pages bar before promotion.
-- New: [[wiki/Concepts/The Margin Moves to the Serving Layer|The Margin Moves to the Serving Layer]] (model-layer parity relocates margin to serving; whoever sells compute wants weights free; dark tokens), [[wiki/Concepts/The Price of a Training Corpus|The Price of a Training Corpus]] (liability priced by settlement not doctrine; the acquisition/training seam; positional hypocrisy as litigation exposure; market substitution as the surviving test), [[wiki/Concepts/Prohibition After Diffusion|Prohibition After Diffusion]] (a ban on a file that already runs offline binds only the compliant, and taints their derivatives).
-- Strengthened: [[wiki/Concepts/Riding the AGI|Riding the AGI]] — the newer panel contradicts its uncommoditized-model-layer claim; **reversal surfaced, not resolved**. Same pass corrected four figures against that page's own transcript ("7±2" → seven plus or minus three, as said; the 0.003% loop figure → what the speaker actually stated; three weeks → two-to-four; Shenzhen fab detail). [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] gains a fourth check (is the cheaper remedy unpursued?). [[wiki/Concepts/Bias and Framing|Bias and Framing]] gains its first worked case (moral-predicate framing). Also [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]], [[wiki/Money/America's Industrial Revival - The Freight Signal|The Freight Signal]].
+- Strengthened: [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] gains a fourth check (is the cheaper remedy unpursued?). [[wiki/Concepts/Bias and Framing|Bias and Framing]] gains its first worked case (moral-predicate framing). Also [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]], [[wiki/Money/America's Industrial Revival - The Freight Signal|The Freight Signal]].
 - Journal: [[journal/2026-07-26-the-margin-and-the-corpus|The Margin and the Corpus]].
 - **Not folded, by design (14 threads):** ARR/forecast state, the model leaderboard, policy and Polymarket state, the stock moves, the Apple buyback counterfactual, eviction economics, luxury beliefs, the Netscape/Apache chain, the 10%-of-revenue licensing pool, the IPO-derailment call, depreciation (never mentioned on air), and the segment's invented book titles and ad reads. Two errors recorded rather than repeated: a "95%" figure asserted as capability parity, silently converted to task coverage, then repeated as settled; and a housing segment that misstates the bill it read out ten minutes earlier and misattributes a John Adams quotation.
 
@@ -933,7 +925,7 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 - **Uncompiled but in-domain → `raw/sources/` (14):** six Justin Sung learning-craft, seven agentic-engineering (Hermes ×2, Cowork, second brain, r0b0tlab, Obsidian research stack, Grok x_search), one Outlier chorusing. Each got a `queued` row in `raw/Source Index.md` with a likely compile target, so the backlog stays findable.
 - **Gaming → `~/Research/wow/raw/inbox/` (10):** six new-player WoW runs, two WoW histories, one lore primer, one Warcraft III playthrough. Per the standing rule that gaming research lives outside this vault; moved, not destroyed.
 - **Left in the inbox (1):** *Give me 28 Minutes, And I'll Reprogram You To Learn Anything FASTER* — a broken clip. Justin Sung frontmatter, body is one line of an unrelated Wizard101 video. Needs re-clipping; not processed.
-- **Pointers repaired** so nothing dangles: `[[raw/inbox/...]]` → `raw/processed` in Software 3.0, Thinking Models, Vibe Coding, The AI Industrial Revolution, The Age Of Nonlinear Returns, Riding the AGI, The Burnout Arc and six Source Index rows; cross-repo in `tsumugu-core` (CHARACTER-INTRO-PRINCIPLES, B5-PHASE2-MINING, SHENWEN-DEEPENING, JINDUOEN-DEEPENING → `raw/processed`; WOW-GROUNDING, laneD-newplayer-insights → `~/Research/wow/raw/inbox/`).
+- **Pointers repaired** so nothing dangles: `[[raw/inbox/...]]` → `raw/processed` in Software 3.0, Thinking Models, The Age Of Nonlinear Returns, The Burnout Arc and six Source Index rows; cross-repo in `tsumugu-core` (CHARACTER-INTRO-PRINCIPLES, B5-PHASE2-MINING, SHENWEN-DEEPENING, JINDUOEN-DEEPENING → `raw/processed`; WOW-GROUNDING, laneD-newplayer-insights → `~/Research/wow/raw/inbox/`).
 - **Flagged, not silently fixed:** the All-In June row cited `01 - Workbench/Opus - All-In - Trillionaire, Fable Ban, Oligarchs, Iran.md`, which no longer exists anywhere and was never archived to `outputs/`. Row now says so; the two concept pages are the surviving record.
 
 ## [2026-08-06] wiki | Least-Cost Interpretation promoted to the agentic-AI wing
@@ -996,28 +988,27 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 
 ## [2026-08-15] compile | New wiki page: Grok 4.6 and Grok Bot
 
-- New: [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]] — one page for the name collision. Model vs teammate vs Grok Build. Inherits the 13 Aug ranking (frontier, not lead; not a stack change) and the public-only trust line.
-- Wired from Current Agentic LLM Stack (Build row now names `grok-4.6`), Standing Research Agents, What the Model Names Signal, Bot Operating Rules.
+- New — one page for the name collision. Model vs teammate vs Grok Build. Inherits the 13 Aug ranking (frontier, not lead; not a stack change) and the public-only trust line.
+- Wired from Standing Research Agents, What the Model Names Signal, Bot Operating Rules.
 - Does not ingest the Field packet into doctrine. Does not re-grade the capability lens.
 
 ## [2026-08-15] compile | Journal: What works, Grok 4.6 and Grok Bot
 
 - New: [[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]] — rank the jobs. Fable writes; Grok 4.6 banks and executes; Grok Bot stands a public, packet-only duty. Field catalog is not a roster.
 - Evidence: A/B/C 13 Aug; 52 Grok openers 14 Aug; 281 banks; AA-Briefcase turn counts; Field packet 15 Aug.
-- Pointer added on [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]].
 - Nav: journal surfaces regenerated.
 
 ## [2026-08-15] compile | Grok Build vs Cursor IDE lane + page addendum
 
 - Bank: [[wiki/Research/Grok Build and Cursor Bank|Grok Build and Cursor Bank]] — Build is the TUI/CLI the agent drives; Cursor is the IDE you sit in (Tab, diffs, debugger, Agent as a pane). Composer is a model, not the comparison. SuperGrok Heavy unlocks both.
 - Contradiction surfaced: Cursor help 15 Aug says Ultra lasts while Heavy renews; 13 Aug fetch of the same page said one month, no repeat. Named on the bank, the Ultra journal, and the wiki addendum. Not reconciled.
-- Addendum on [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]]. Cursor.app still not on this Mac.
+- Cursor.app still not on this Mac.
 - Routing: Build when the agent drives; Cursor IDE when the hands are in the files; one writer per tree.
 
 ## [2026-08-26] compile | Claude/Grok tools lane: fold pass
 
 - New workbench draft `01 - Workbench/Fable - How to Use the Claude Tools.md` (beginner door; cold-read pass done, 8 stops fixed). Awaiting owner cut before promotion to wiki.
-- Surgical updates: `wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot.md` (Bot access widening 08-21, Ultra grant change, Cursor.app installed); `Current Agentic LLM Stack.md` (Claude Code + Cursor seats, signed routing table, 4 unsigned proposals).
+- Surgical updates: `wiki/Systems/AI & Agentic Systems/Grok 4.6 and Grok Bot.md` (Bot access widening 08-21, Ultra grant change, Cursor.app installed).
 - Research bank `01 - Workbench/Fable - Research Bank - Claude and Grok Tools.md` extended by Grok/X fill + Cursor Ultra lane.
 
 ## [2026-08-26] compile | How to Use the Claude Tools promoted; vague-gesture rule added to Rewrite Prompt
@@ -1028,6 +1019,6 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 
 ## [2026-08-26] maintenance | Ideal-week rules signed; Ultra confirmed; combined commit
 
-- Owner signed all four ideal-week rules on Current Agentic LLM Stack (Cursor month scope, clean-context passes in Claude Code subagents, effort per job, run-or-drop by 09-12).
-- Ultra confirmed active, expires 2026-09-12 (owner statement); bank, Grok page, Stack roster updated.
+- Owner signed all four ideal-week rules (Cursor month scope, clean-context passes in Claude Code subagents, effort per job, run-or-drop by 09-12).
+- Ultra confirmed active, expires 2026-09-12 (owner statement); bank and Grok page updated.
 - Writing Standards §1/§6 rerouted to Selfhood v2.

@@ -57,7 +57,6 @@ Pairing that earns rent: Grok banks, Grok writes, checker grades, owner eyes the
 - [[journal/2026-08-15-what-works-grok-46-and-grok-bot|What works: Grok 4.6 and Grok Bot]] — the ranking this note retires for the writer seat
 - [[journal/2026-08-13-abc-writing-test-fable-wins|A/B/C writing test: Fable takes all three]] — the test that was true on 13 August
 - [[journal/2026-08-31-state-of-ai|State of AI, end of August 2026]] — the public month that made the token tax visible
-- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] — the live roster
 
 ## Decided / outstanding / next
 

@@ -52,7 +52,7 @@ Keeping the two scores separate exists to protect the Augment cell. A single "hu
 
 A move the training set has not seen and cannot reach by averaging stays on the human side. Discernment that a person is accountable for also stays on the human side. Neither is interpolation. Models are strongest at producing and recalling the average of everything, fast and cheaply, in domains where a result can be checked.
 
-The lens is built on the split described in [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]]. The verifier role, the debate over intelligence versus agency, and the house line "waste tokens, save time" are explained on [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]. Specific knowledge, accountability, and leverage as public terms are explained in [[wiki/Money/The Almanack of Naval Ravikant|The Almanack of Naval Ravikant]].
+The lens is built on the split described in [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]]. Specific knowledge, accountability, and leverage as public terms are explained in [[wiki/Money/The Almanack of Naval Ravikant|The Almanack of Naval Ravikant]].
 
 ## The five human facets
 
@@ -62,7 +62,7 @@ The human axis groups under two pillars. Discernment is choosing what is good. O
 
 **Judgment** is the accountable call in a messy situation with many constraints and incomplete information, where being wrong is costly and there is no retry. Reliability under genuine novelty is where current models are weakest. The Higher-Order Generativity vs Higher-Order Judgment page defines that split. This facet is the no-retry half of it.
 
-**Originality** is the out-of-distribution move made with intent. That is a move the system has not seen and cannot reach by averaging what it has seen. Models interpolate inside their training data. Whether models have a ceiling is discussed on The AI Industrial Revolution page.
+**Originality** is the out-of-distribution move made with intent. That is a move the system has not seen and cannot reach by averaging what it has seen. Models interpolate inside their training data. 
 
 **Specific knowledge** cannot be taught. It grows from curiosity and obsession, and it is a personal mix that resists schooling and automation. It lasts because it is not in the training set.
 
@@ -100,7 +100,7 @@ When the quality bar moves to things a gate cannot check, such as subtle natural
 
 ## What stays out of the lens
 
-Dated model scores, polygon areas, and price ratios are not the lens. They go stale each time a new model is released. Their home is [[wiki/Systems/AI & Agentic Systems/Agent Glossary|What the Model Names Signal]]. The rules about how to grade stay in the lens. The numbers go on that page.
+Dated model scores, polygon areas, and price ratios are not the lens. They go stale each time a new model is released. The rules about how to grade stay in the lens.
 
 ## What the grading is for
 
@@ -119,12 +119,9 @@ The two scores stay independent, and the both-high cell stays real, only as long
 
 - [[wiki/Design/Universal Principles & Design Techniques — Master Scorecard|design scorecard]]: the table this lens grades.
 - [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]]: the split this lens is built on.
-- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]: verifier role, intelligence versus agency, "waste tokens save time."
 - [[wiki/Money/The Almanack of Naval Ravikant|The Almanack of Naval Ravikant]]: specific knowledge, accountability, leverage.
 - [[wiki/Concepts/Wabi-Sabi|Wabi-Sabi]]: a Human-5 that graduates to its own page.
 - [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]: the Agent/Human split this lens grades.
-- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]]: natural home for the dated snapshot table.
-- [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]]: related skill list for the same year.
 - [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]]: the offloading line. The artifact arrives either way, the encoding must not be handed over.
 - [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]]: interpretability substrate for the two axes. The lens is not the Global Workspace paper.
 

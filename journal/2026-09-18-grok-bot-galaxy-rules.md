@@ -73,7 +73,7 @@ Three more aims show in what was put on screen. The first is to move people from
 
 ## What was done with it
 
-The wiki page was rebuilt through Explain First on 18 September 2026. The owner ruled the same day that the page keeps the first day's talks and the advice repeated across talks, and drops the sales, support and marketing talks of the second and third days. He also ruled that the advice is written as general rules, with where each rule came from left to the Sources block. The new rules have not yet been added to the operating pages, [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents|Cursor Cloud Agents]] and [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]].
+The wiki page was rebuilt through Explain First on 18 September 2026. The owner ruled the same day that the page keeps the first day's talks and the advice repeated across talks, and drops the sales, support and marketing talks of the second and third days. He also ruled that the advice is written as general rules, with where each rule came from left to the Sources block. The new rules have not yet been added to the operating pages, including [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]].
 
 ## Sources
 

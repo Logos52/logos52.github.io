@@ -63,7 +63,7 @@ Guidance is not spend, and one year's forecast is not a trend line. Google fell 
 
 ## The productivity numbers
 
-The productivity claim is the weaker booster. US labour productivity since ChatGPT's late-2022 release ran about 3.0% in 2024 and about 2.1% in 2025. The 1995–2000 internet-boom pace was about 2.5%, so the first year was above it and the second was below it. Whether AI causes any of that growth is unsettled. [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]] finds that the macro data support the claim and the firm-level data do not. If the two boosters fade, the reindustrialization claim gets smaller and does not vanish. If they hold, the claim gets larger.
+The productivity claim is the weaker booster. US labour productivity since ChatGPT's late-2022 release ran about 3.0% in 2024 and about 2.1% in 2025. The 1995–2000 internet-boom pace was about 2.5%, so the first year was above it and the second was below it. Whether AI causes any of that growth is unsettled. The macro data support the claim and the firm-level data do not. If the two boosters fade, the reindustrialization claim gets smaller and does not vanish. If they hold, the claim gets larger.
 
 ## Cheap gas, and what it does not settle
 
@@ -106,8 +106,6 @@ The freight data establish one fact about the present: companies are paying doub
 
 ## Related pages
 
-- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]: the supply-side, agentic counterpart. The freight signal is the macro demand-side read.
-- [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]]: the expanded, data-grounded treatment of the productivity amplifier.
 - [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: the productivity claim as a nonlinear-returns instance.
 - [[wiki/Money/SpaceX & the Frontier Event|SpaceX & the Frontier Event]]: the companion frontier piece, built on the same channel's follow-up video (*Is SpaceX About to Rule the World?*), not on the podcast.
 - [[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]]: the money-side hub the freight signal sits under.
@@ -124,4 +122,3 @@ The freight data establish one fact about the present: companies are paying doub
 
 - Maxinomics, *Americans Are About to Get a Lot Richer* (YouTube, published 2026-05-30). Includes an in-video interview with a freight-intelligence platform founder; sponsored segment present. Source note: [[raw/Source Index|Source Index]]; L3 draft: `outputs/L3/Opus/Opus - Americans Are About to Get a Lot Richer.md`.
 - All-In Podcast, ep. 282, *The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?* (published 2026-07-25). Transcript: `raw/processed/The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists Evictions = Violence?.md`. Capex figures are as read on air on a quarterly-results day; the molecule-conversion framing is one panelist's argument, made about China rather than the US.
-- Productivity figures sourced and cited on [[wiki/Concepts/The AI Productivity Curve|The AI Productivity Curve]].

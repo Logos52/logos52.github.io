@@ -73,13 +73,13 @@ What would close the experiment: the Cursor arm is a Cowork clone, the bank is t
 
 ## Not a stack change
 
-[[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] is not updated. [[journal/2026-08-13-grok-4-6-on-the-frontier|This morning's 4.6 briefing]] already said a bench jump is not a stack change. A free month is not one either.
+The roster is not updated. [[journal/2026-08-13-grok-4-6-on-the-frontier|This morning's 4.6 briefing]] already said a bench jump is not a stack change. A free month is not one either.
 
 Cursor.app is not on this Mac as of this writing (`/Applications` has no Cursor; `which cursor` is empty). Install is the first physical step.
 
 ## Duration note, 2026-08-15
 
-The same help page, re-fetched two days later, now says Ultra "remains active at no charge so long as the SuperGrok Heavy plan is active on renewal." That contradicts the one-month / no-repeat / no-auto-renew reading recorded above. Not silently reconciled. The two assigned jobs still have to run before anyone treats Ultra as a standing seat. Bank: [[wiki/Research/Grok Build and Cursor Bank|Grok Build and Cursor Bank]]. Addendum: [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]].
+The same help page, re-fetched two days later, now says Ultra "remains active at no charge so long as the SuperGrok Heavy plan is active on renewal." That contradicts the one-month / no-repeat / no-auto-renew reading recorded above. Not silently reconciled. The two assigned jobs still have to run before anyone treats Ultra as a standing seat. Bank: [[wiki/Research/Grok Build and Cursor Bank|Grok Build and Cursor Bank]].
 
 ## Sources
 
