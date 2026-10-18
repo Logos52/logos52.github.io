@@ -25,7 +25,7 @@ In agentic engineering, the person stays answerable for ordinary work that agent
 
 ## What the collaborator is
 
-[[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]] lowers the skill needed to build: more people can now build software at all, by describing a result in ordinary language and judging it by whether it runs. Agentic engineering raises the quality that skilled builders can reach. People who already know what good looks like keep correctness, security, architecture, taste, and responsibility in their own hands, and they use agents to work faster while holding that standard.
+More people can now build software at all, by describing a result in ordinary language and judging it by whether it runs. Agentic engineering raises the quality that skilled builders can reach. People who already know what good looks like keep correctness, security, architecture, taste, and responsibility in their own hands, and they use agents to work faster while holding that standard.
 
 Agents do not get tired. They can recall a very large amount, and they carry out steps quickly. Their judgment is jagged, meaning uneven: they do some tasks extremely well and do closely related tasks very badly, and there is no reliable way to tell from outside which kind a task will be. Doing well in one area does not predict doing well in the next.
 
@@ -39,7 +39,7 @@ Because code arrives quickly, the work can look like a problem of execution. The
 
 **Agent-written work meets the same standard as human-written work.** Security vulnerabilities, architecture that breaks easily, badly organized abstractions, broken tests, privacy leaks, and unclear behavior are not acceptable just because the agent produced the work quickly.
 
-The practical checks are ordinary ones: run the build and the tests, inspect the diff, look for unrelated edits, and review what the code does instead of the agent's explanation of it. [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] supplies what this review was missing, which is how much time to give it: short review passes of thirty seconds, three minutes, or thirty minutes, instead of accepting output without looking or inspecting it without end. [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|Writing with a Structure Engine]] describes the same fault in another form: stating verified and unverified claims with the same confidence.
+The practical checks are ordinary ones: run the build and the tests, inspect the diff, look for unrelated edits, and review what the code does instead of the agent's explanation of it. [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] supplies what this review was missing, which is how much time to give it: short review passes of thirty seconds, three minutes, or thirty minutes, instead of accepting output without looking or inspecting it without end. The same fault shows up in another form: stating verified and unverified claims with the same confidence.
 
 The spec is a document that stays in use after the session ends. It says what is being built, what must not change, which existing patterns to follow, which edge cases matter, and how the result will be checked. Planning as a routine, in which a human writes out the route by hand, moves to the model. Planning as a spec stays. The spec is designed jointly, and is not handed down finished. When the deeper design is not specified, the agent makes up a design of its own to cover it, as the agent in the payments flow made up the email match. The best specs become documentation. They guide the agent and the human review, and they stay useful after the session ends.
 
@@ -66,7 +66,7 @@ Whenever possible, a vague sense of quality is turned into checks. If a task can
 
 The claim that agents make experienced developers faster has one randomized measurement, and it found the opposite. Experienced developers working on issues in their own repositories were randomly assigned to be allowed or forbidden AI tools on tasks of about two hours. With the tools allowed, they took longer. They had predicted a speedup. After finishing more slowly, they still believed the tools had made them faster. The setting is narrow, and the authors say so. For an operator, the lesson is that a sense of speedup is not evidence. The result does not support the reading "agents make people slower." Before reorganizing work on the assumption that agents save time, time one real bounded task.
 
-Judgment shifts from checking any one output to building the factory, which is the reusable machinery that produces outputs: templates, harnesses, skills, and agents. [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]] gives the claimed size of the gap between people who build the factory and people who judge single outputs. The cost that matters is the thousand-day question: three years after the software was easy to create, is it still secure, tested, maintained, and worth the tokens, and is someone still willing to be paged if it goes down?
+Judgment shifts from checking any one output to building the factory, which is the reusable machinery that produces outputs: templates, harnesses, skills, and agents. The cost that matters is the thousand-day question: three years after the software was easy to create, is it still secure, tested, maintained, and worth the tokens, and is someone still willing to be paged if it goes down?
 
 ## Context, agent-facing tools, the human, multi-model review
 
@@ -89,13 +89,13 @@ Six things stay with the human. Taste is knowing what good looks like. Judgment 
 
 Sign-off means "the consequences of this change are understood, and a name goes under them", or it means "the harness was written, so the unread work can still be stood behind." It does not mean "every line was read." The tools for sign-off are tests, simulations, proofs, and type-checkers.
 
-More and more of the work is training the agent and saving repeated moves as skills. [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]] already names this part of the work as the culture half.
+More and more of the work is training the agent and saving repeated moves as skills.
 
 Having several models review the same work can help, and the models can also miss the same problems. A council of models reviewing together can still fall into groupthink. A second model that scores the output against a criterion, in a cycle of generate, evaluate, and repeat, is different from a second model giving an opinion. Agent review is worth its cost on obvious bugs, security, alternative designs, generated tests, assumption checks, and scanning large diffs. Taste, priority, and final judgment stay with humans.
 
 The common failure modes are the opposites of the rules above. A person accepts a polished explanation instead of checking the artifact. Fast implementation leads to scope creep. Code is trusted because it works once. The agent invents its own architecture instead of following the codebase, as in the payments-flow email match. The person forgets that agent skill is jagged. The same class of model will walk a person to a car wash fifty metres away, and in the same week it will refactor a 100,000-line codebase or find a zero-day. The person's skill in the layer below weakens if it is never used.
 
-The current stack is not "use several models." [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]] splits three agents by kind of work: judgment, execution, and standing duty. It limits local models to audio, and it runs on subscription plans or local hardware, with nothing paid per token.
+The current stack is not "use several models." Three agents split by kind of work: judgment, execution, and standing duty. Local models stay limited to audio, and the work runs on subscription plans or local hardware, with nothing paid per token.
 
 ## What is actually known
 
@@ -114,19 +114,12 @@ The person is still answerable for the same standard. That responsibility now co
 ## Related pages
 
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]]: rules that stay true versus tactics tied to a date; holds the one-line rules, which this hub does not copy
-- [[wiki/Systems/AI & Agentic Systems/Vibe Coding|Vibe Coding]]: the practice that lets more people build at all; which work goes to disposable practice and which to durable practice
-- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]: the factory framing and the claimed size of the gap; the waste-tokens boundary; the case against that this hub used to lack
 - [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]: the seven concrete interleaving moves this hub extends
 - [[notes/index|notes/index.md]]: vault entry point, a hand-maintained list of hubs and doctrine pages
-- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]: the stack in current use, with three agents split by kind of work and nothing paid per token
-- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]]: names for the agent loop, the environment it runs in, and the chat window; when to use each product
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: how this setup runs the standing teammate: one shared computer, helpers that only report, and an empty middle
 - [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]: standing watch after the laptop closes; public material only
-- [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents|Cursor Cloud Agents]]: overnight application code as a pull request on an isolated VM
 - [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]: a ban on calling a UI job done without a picture
-- [[wiki/Systems/Agentic Workflows/Poteto Paved Path|Poteto Paved Path]]: a repeated correction moves into the files or into a check that fails the build, before you add more agents
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]]: which habits to keep in Grok Bot after the September 2026 public event, and which to refuse
-- [[wiki/Systems/AI & Agentic Systems/Picking a computer|Picking a computer]]: which computer the next job opens
 - [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model Collaborator]]: measured operating rules for one model, covering price, the case against, when to quit, and a checkable test
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: natural language as the programming medium; the same artifacts as Software 3.0 objects
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]: explains in full the four files this hub only names
@@ -135,9 +128,7 @@ The person is still answerable for the same standard. That responsibility now co
 - [[wiki/Concepts/A Return to Code|A Return to Code]]: the economics of apps built in one shot; the two practices stay separate
 - [[wiki/Red Team/Red Teaming|Red Teaming]]: red-team output before trusting it
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]: review passes of thirty seconds, three minutes, or thirty minutes
-- [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]]: diagram of tool versus agent; a capability scale with three levels
 - [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: routing cheap work to cheap models; the practice this hub describes
-- [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]]: stating verified and unverified claims with the same confidence
 
 ## Open Questions
 

@@ -35,7 +35,7 @@ The test is one question. Can this technique be reduced to a deterministic rule 
 
 ## The two tracks
 
-A yes goes to the [[wiki/Design/Agent Track — Executable UI Technique Catalog|Agent Track — Executable UI Technique Catalog]]. That catalog holds design rules a machine can apply without looking: checkable numbers, fixed scales, and yes/no states. Each rule can be set as a parameter and checked, and none needs taste. Three examples: body line-height is 1.5×; the spacing scale is 4/8/12/16/24/32; a disabled state gets lower opacity and does not turn gray. The spacing list looks linear. It is a shorthand: each step is at least a quarter of the value before it.
+A yes goes to the executable catalog. That catalog holds design rules a machine can apply without looking: checkable numbers, fixed scales, and yes/no states. Each rule can be set as a parameter and checked, and none needs taste. Three examples: body line-height is 1.5×; the spacing scale is 4/8/12/16/24/32; a disabled state gets lower opacity and does not turn gray. The spacing list looks linear. It is a shorthand: each step is at least a quarter of the value before it.
 
 A no goes to the [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track — Taste & Judgment Catalog]]. That catalog holds design calls that still need an eye: which of several correct options is better, when to break a rule, and whether the thing feels right. Each call depends on perception, context, or taste. Three examples: does this hierarchy feel right; when to break the grid; which of three correct layouts is *better*.
 
@@ -89,7 +89,6 @@ The test over-sorts toward the Agent Track when "deterministic" is read as "a pr
 
 ## Related pages
 
-- [[wiki/Design/Agent Track — Executable UI Technique Catalog|Agent Track — Executable UI Technique Catalog]]: the executable-rules product of this process.
 - [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track — Taste & Judgment Catalog]]: the judgment product of this process.
 - [[wiki/Design/Design Expansion — Reading & Resources|Design Expansion — Reading & Resources]]: unstaged sources and the CJK thread.
 - [[wiki/Design/Universal Principles & Design Techniques — Master Scorecard|Master Scorecard]]: all 250 items graded on the lens. It does not cover the extraction method.

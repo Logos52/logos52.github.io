@@ -43,13 +43,6 @@ type Mind = { q: string; links: { t: string; href: string }[] };
 const L = (t: string, p: string) => ({ t, href: slugToUrl(slugifyFilePath(p)) });
 const topOfMind: Mind[] = [
   {
-    q: 'How do you build trust with your agents?',
-    links: [
-      L('Poteto Paved Path', 'wiki/Systems/Agentic Workflows/Poteto Paved Path'),
-      L('Karpathy LLM-Wiki', 'wiki/Systems/Agentic Workflows/Karpathy LLM-Wiki'),
-    ],
-  },
-  {
     q: 'Arcs give a character a moral core first. Later arcs charge the moral core against something the character loves. Do stories people love work that way?',
     links: [
       L('Tsumugu', 'wiki/Tsumugu/Tsumugu'),
@@ -88,10 +81,10 @@ if (topOfMind.length > 4)
 //   links: Understanding Bottleneck (wiki/Concepts) · Are You Thinking, or Just Consuming (wiki/Concepts) · The Screen Inferiority Effect (wiki/Concepts)
 // Retired 2026-08-06 (same rule — the Least-Cost Interpretation entry came in, lowest went out):
 //   q: 'Whether the line between what humans and models own is fixed, or keeps shifting'
-//   links: Human vs AI Capability Lens (wiki/Concepts) · Higher-Order Generativity vs Judgment (wiki/Concepts) · The AI Industrial Revolution (wiki/Concepts) · The Floor Rose, the Ceiling Is the Job (journal)
+//   links: Human vs AI Capability Lens (wiki/Concepts) · Higher-Order Generativity vs Judgment (wiki/Concepts) · The Floor Rose, the Ceiling Is the Job (journal)
 // Retired 2026-08-11 (the four-cap enforced — list had drifted to six, pruned back, lowest two out):
 //   q: 'What stays human as the models match generativity'
-//   links: Human vs AI Capability Lens (wiki/Concepts) · Higher-Order Generativity vs Judgment (wiki/Concepts) · A Motorcycle for the Mind (wiki/Concepts) · The AI Industrial Revolution (wiki/Concepts) · Automation and the Job Iceberg (wiki/Systems/AI & Agentic Systems)
+//   links: Human vs AI Capability Lens (wiki/Concepts) · Higher-Order Generativity vs Judgment (wiki/Concepts) · A Motorcycle for the Mind (wiki/Concepts) · Automation and the Job Iceberg (wiki/Systems/AI & Agentic Systems)
 //   q: 'What changes when the deliberate reasoning inside a model can be read and steered directly'
 //   links: Global Workspace and J-space (wiki/Concepts) · The workspace a language model thinks in (journal/2026-07-07) · Human vs AI Capability Lens (wiki/Concepts)
 // Retired 2026-08-17 (Worldviews & the Political Order entered; lowest out):
@@ -100,13 +93,10 @@ if (topOfMind.length > 4)
 
 // Intent doors ("Start here") — route a visitor by intent, not topic. slug → a note path
 // (resolved via cardHref); the graph door uses a direct href. Titles/subs are mined from each
-// destination note (concrete, note-grounded). Colors: Understand/Apply ride DS theme tokens
-// (--violet / --cool, auto-lift in dark); Learn/Decode/Explore are seeded in .start-here CSS with a
-// dark override. Five doors cover all three hero domains: learning · agentic · language.
+// destination note (concrete, note-grounded). Learn/Decode/Explore are seeded in .start-here CSS with a
+// dark override.
 type Door = { intent: string; icon: string; title: string; sub: string; color: string; slug?: string; href?: string };
 const startHere: Door[] = [
-  { intent: 'Understand', icon: 'ti-bulb',      title: 'What Engineers Are Judged On',            sub: 'Now AI agents write much of the code, so an engineer is judged on the setup the engineer builds.',      color: 'var(--i-understand)', slug: 'wiki/Concepts/The-AI-Industrial-Revolution' },
-  { intent: 'Apply',      icon: 'ti-robot',     title: 'Vibe Coding',              sub: 'You ask an AI agent for an app in everyday language, and the agent writes the code and runs it. Soon all coding will become vibe coding.',          color: 'var(--i-apply)',      slug: 'wiki/Systems/AI & Agentic Systems/Vibe-Coding' },
   { intent: 'Learn',      icon: 'ti-school',    title: 'Does a Study Technique Work?',              sub: 'A technique such as notes or a mind map works only if it makes you process the material in your mind.',     color: 'var(--i-learn)',      slug: 'wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques' },
   { intent: 'Decode',     icon: 'ti-language',  title: 'How Chinese Characters Are Built',    sub: 'Each character is made of smaller parts, and each part has a different function.', color: 'var(--i-decode)',     slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work' },
   { intent: 'Explore',    icon: 'ti-affiliate', title: 'Map of the Site',           sub: 'Every node is an article on the site, and a line between two nodes shows a relationship.',                color: 'var(--i-explore)',    href: '/map/' },
@@ -150,23 +140,6 @@ const hubColumns = [
 type Update = { title: string; blurb: string; slug: string };
 type UpdateDay = { date: string; updates: Update[] };
 const projectUpdates: UpdateDay[] = [
-  {
-    date: '2026-09-22',
-    updates: [
-      {
-        title: 'Poteto Paved Path',
-        blurb:
-          'An agent copies a shortcut left in a file. A correction of the shortcut goes into the file, or into a check that fails a build, before the next agent extends the shortcut.',
-        slug: 'wiki/Systems/Agentic Workflows/Poteto Paved Path',
-      },
-      {
-        title: 'Karpathy LLM-Wiki',
-        blurb:
-          'A question against a pile of files makes a model search the pile again and save nothing. The model then writes each source into pages, and the next question starts from the pages.',
-        slug: 'wiki/Systems/Agentic Workflows/Karpathy LLM-Wiki',
-      },
-    ],
-  },
   {
     date: '2026-09-16',
     updates: [
@@ -407,7 +380,7 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
   }
   .start-here__doors {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
   .door {

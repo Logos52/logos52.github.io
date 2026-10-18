@@ -54,7 +54,6 @@ This produces a wiki that gets *smarter* over time with relatively low per-inges
 
 The current setup already has pieces that point in similar directions:
 
-- `wiki/Workflows/Raw to Wiki Compilation.md` and `Wiki Breakdown Pass.md`, `Wiki Health Checks.md` describe ingestion, backlinking, and maintenance.
 - There are existing `index.md` patterns in various folders and a Source Index.
 - The `workbench/` + normalized model-prefixed files + `index.md` per topic is already a strong "active synthesis cockpit".
 - Strong emphasis on mechanism-first language and living style rules (style-feedback.md) that any automation must respect.
@@ -75,7 +74,7 @@ These are not mutually exclusive and can be staged. They are logged here as poss
 
 - Add a root-level `wiki/SCHEMA.md` (or per major area) that codifies current conventions plus new rules drawn from the Karpathy pattern: file naming, frontmatter fields (including `confidence`, `contested`, `contradictions`), tag taxonomy aligned with Five Dimensions + Concepts, page thresholds, update policy, provenance marker syntax.
 - Introduce lightweight `raw/wiki-ingest/` or mirror selected raw sources with sha256 frontmatter.
-- Update the existing Raw to Wiki Compilation workflow and the L3→L2 converter to emit provenance markers and required frontmatter fields.
+- Update the existing ingest workflow and the L3→L2 converter to emit provenance markers and required frontmatter fields.
 - Enhance `index.md` generation (possibly via a skill) so every new L2 promotion automatically appears in the right section.
 - Add a recurring "wiki lint" pass (manual at first, later skill- or script-driven) that surfaces orphans, broken links, low-confidence pages, and contradictions.
 
@@ -135,12 +134,12 @@ These skills can be built incrementally and will pay dividends on any of the pat
 This exploration directly extends:
 - [[journal/knowledge-base-as-thinking-partner-reflection|Knowledge Base as Thinking Partner]] — the wiki becomes a more active, compounding second brain while keeping the first brain in the loop.
 - [[wiki/Workflows/Knowledge Base as Thinking Partner|Workflows page]] and the various Wiki Health / Compilation workflows.
-- The Claude Cowork as Personal Work OS synthesis (especially the ambitious blueprint layer around skills, scheduled autonomous work, mission control, and self-documenting systems).
+- The Cowork synthesis (especially the ambitious blueprint layer around skills, scheduled autonomous work, mission control, and self-documenting systems).
 - The recent directory and pipeline cleanup that made `workbench/` the single cockpit for active L3/L2 work.
 
 ## Concrete Next Micro-Steps (Low Commitment)
 
-1. Read the full Hermes llm-wiki SKILL.md and Karpathy gist side-by-side with the existing Raw to Wiki Compilation and Wiki Health Checks pages.
+1. Read the full Hermes llm-wiki SKILL.md and Karpathy gist side-by-side with the existing ingest and health-check pages.
 2. Draft a first version of `wiki/SCHEMA.md` that captures current practice plus the most useful new conventions (frontmatter fields, provenance syntax, tag taxonomy starter set).
 3. Once the synthesis-workbench skill is correctly aligned with the root `workbench/` structure, use it to create the next few topics and observe what additional automation would feel natural.
 4. Log any recurring pain points during the next 5–10 L3→L2→L1 cycles; those become the spec for the first wiki-oriented skills.
@@ -158,6 +157,6 @@ This entry exists primarily as a seed. The paths are options to be stress-tested
 ---
 
 **Logged:** 2026-05-23 as part of ongoing architecture and skills exploration.  
-**Related:** [[journal/index|Journal Index]] · [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]] · [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]] · Claude Cowork synthesis in workbench.
+**Related:** [[journal/index|Journal Index]] · Claude Cowork synthesis in workbench.
 
 [[journal/calendar|Journal Calendar]] · [[journal/index|Back to Journal]]

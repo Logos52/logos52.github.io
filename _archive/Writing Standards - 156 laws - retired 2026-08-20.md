@@ -803,7 +803,5 @@ Run in order. Each step cites the laws it enforces.
 ## 17. Consuming workflows
 
 - [[AGENTS]]
-- [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]]
-- [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]
 - [[wiki/Workflows/Wiki Status Checks|Wiki Status Checks]]
 - [[wiki/Workflows/Wiki Breakdown Pass|Wiki Breakdown Pass]]

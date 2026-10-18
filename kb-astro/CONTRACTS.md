@@ -125,7 +125,7 @@ Pagefind indexes rendered HTML (full body). Result rows show title + domain + sn
 
 ```jsonc
 // domains.json — every public note slug → one of the 6 domains. 100% coverage.
-{ "wiki/Concepts/Higher-Order-Generativity...": "gen", "wiki/Workflows/Wiki-Health-Checks": "agentic" }
+{ "wiki/Concepts/Higher-Order-Generativity...": "gen", "wiki/Systems/AI--and--Agentic-Systems/Context-Engineering": "agentic" }
 
 // home.json — curated atlas home (shapes mirror the DS data.js). Use REAL vault notes only.
 {

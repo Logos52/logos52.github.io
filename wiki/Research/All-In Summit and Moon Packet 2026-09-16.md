@@ -16,7 +16,7 @@ tags:
 
 **What this is:** the Recap bot's intake for 14 to 16 September 2026 held three daily lists and five ingests. Four ingests are All-In Summit interviews recorded at one conference: Jensen Huang (with a call from President Trump), Gwynne Shotwell with Elon Musk, Satya Nadella, and Vice President JD Vance. The fifth is Moon's essay *How South Africa Became 3rd World in 10 Years*. The whole intake is at `/Users/n1/handoff-2026-09-14-to-16.md`. Nothing from it is in `raw/`.
 
-**Novelty note.** Entries checked: [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]], [[wiki/Concepts/The Margin Moves to the Serving Layer|The Margin Moves to the Serving Layer]], [[wiki/Concepts/Prohibition After Diffusion|Prohibition After Diffusion]], [[wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg|Automation and the Job Iceberg]]. None held September 2026 material before this packet. The first two already drew on the same podcast panel.
+**Novelty note.** Entries checked: [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]], [[wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg|Automation and the Job Iceberg]]. None held September 2026 material before this packet.
 
 Written 2026-09-16 by Opus and written again 2026-09-17 by Fable, after the owner struck the first version for carrying the writer's own verdicts.
 
@@ -26,8 +26,6 @@ Written 2026-09-16 by Opus and written again 2026-09-17 by Fable, after the owne
 |---|---|
 | [[wiki/Worldviews & the Political Order/South Africa is a Warning to the West\|South Africa is a Warning to the West]] | New page. The whole Moon essay, with the owner's clipped Rhodesia video as the second source. |
 | Regulatory Capture via Doom-Marketing | A September 2026 case section. Huang: the extinction predictions are "made up", the list of failed predictions, the incidents came from the frontier labs. Trump: the doom narrative is a hoax. Vance: the Frankenstein question, and defensive tools being withheld. Musk: the danger is real, and competing labs should test each other's models with no state regime. Nadella: outside testers, no cozy arrangements. |
-| The Margin Moves to the Serving Layer | A sixth price-gap figure (about $50 per million tokens at OpenAI against cents for DeepSeek). Nadella on Windows and Linux, the long tail, interop standards, and "use all but be independent of all". Huang's $400 billion and 80% open figure. |
-| Prohibition After Diffusion | Huang: once downloaded and forked it is yours, and most open-source contribution now comes from China. |
 | Automation and the Job Iceberg | Huang: radiologists were predicted gone in five years and demand rose. Two other failed predictions. |
 
 ## Who should test the models: three answers given

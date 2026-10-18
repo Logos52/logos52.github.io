@@ -107,7 +107,5 @@ Notes index hub lines that were longer than the live Notes page (`src/lib/icons.
 
 - Using Grok Bot: A job that must keep running after the laptop closes cannot live in Grok Build or Cursor. Grok Bot is the app for that standing job, on public material only.
 - pstack: A coding-agent plugin whose one rule is proof from the running app. This desk uses the rule; it uses the plugin only after a local reader can already be driven without a person.
-- Cursor Cloud Agents: Overnight application code cannot live in the editor or on Grok Bot's shared desktop. Isolated VMs clone, test, and open a pull request. You merge.
-- Picking a computer: Four products can look like overnight work. This is the map so the next job opens one computer.
 - Story Craft: How to build characters who stay believable across a long story. Characters who feel thin are diagnosed with Diagnosing a Character. The Tsumugu application layer is in `tsumugu-core/docs/companion/craft/`.
 - Worldviews & the Political Order: Contested public arguments, each checked for what follows from it. The positions taken on them are on Positions.

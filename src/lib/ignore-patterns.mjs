@@ -57,7 +57,6 @@ export const IGNORE_PATTERNS = [
   'wiki/Research/**',
 
   // Design extraction catalogs (agent/WIP). Keep Design, Condensed and Front-End Web Design.
-  'wiki/Design/Agent Track — Executable UI Technique Catalog.md',
   'wiki/Design/Design Expansion — Reading & Resources.md',
   'wiki/Design/Design Two-Track Extraction.md',
   'wiki/Design/Human Track — Taste & Judgment Catalog.md',

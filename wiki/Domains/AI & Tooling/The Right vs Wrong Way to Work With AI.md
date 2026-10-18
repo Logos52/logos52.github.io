@@ -82,7 +82,7 @@ These are off limits because they are the processing that creates the schema. Th
 
 For research, a model over-indexes on high-citation, popular sources. Two biases compound. Training text over-represents what is widely written about. Retrieval over-represents what is reachable: a research agent that hits a paywalled article says so and goes elsewhere. The accessible open web is counted twice.
 
-An ungrounded model hallucinates citations for niche queries. The current failure is more dangerous. The citation is real and clickable. Frequently it does not support the sentence it is attached to. Open the link and check that it supports the sentence. The reference list is not the check. The mechanism is on [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]].
+An ungrounded model hallucinates citations for niche queries. The current failure is more dangerous. The citation is real and clickable. Frequently it does not support the sentence it is attached to. Open the link and check that it supports the sentence. The reference list is not the check.
 
 Generation from parameter memory cannot surface specific, recent, low-citation work. Retrieval-based deep-research increasingly can. Citation-graph traversal beats generative recall for finding the specific low-citation recent paper, because the graph is built from what authors actually cited.
 
@@ -130,11 +130,9 @@ The rules above describe a posture. They have not been measured as a curriculum.
 - [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]]: the positive counterpart; five-step loop; audit: did the model accelerate the learning, or perform it
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: the parent mechanism; AI offloading is one instance
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]: thinking can be outsourced, understanding cannot
-- [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]]: tool-use layer; grounded versus ungrounded; check the link, not the reference list
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: professional-work analogue: keep judgment human
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: retrieval theory behind dump-then-gap-check
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: encoding workflow the off-limits list is protecting
-- [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]]: ladder sibling; thematic adjacency, not mechanism
 - [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: automatic work is cheap; deliberate work is where errors concentrate
 - [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]]: empirical sibling; posture, not tool, drives comprehension
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming]]: passive-versus-active posture under the level claim

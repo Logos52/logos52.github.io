@@ -12,7 +12,7 @@ tags:
 
 # AI Industrial Revolution ingest (2026-06-15)
 
-Ingested Naval's "The AI Industrial Revolution" (nav.al/industrial) into the agentic cluster. Anchor page created at [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]; fused into Agentic Engineering (+ Condensed), Vibe Coding, Software 3.0, Thinking Models, with light touches on Nonlinear Returns and Higher-Order Generativity. Full operation list in `log.md` (2026-06-15 ingest).
+Ingested Naval's "The AI Industrial Revolution" (nav.al/industrial) into the agentic cluster. Fused into Agentic Engineering (+ Condensed), Software 3.0, and Thinking Models, with light touches on Nonlinear Returns and Higher-Order Generativity. Full operation list in `log.md` (2026-06-15 ingest).
 
 ## Decisions
 

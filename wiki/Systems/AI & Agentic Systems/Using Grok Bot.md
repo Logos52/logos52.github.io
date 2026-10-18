@@ -18,7 +18,7 @@ Grok Build is the coding agent on this Mac. It stops when the session stops. Cur
 
 Grok Bot is the desktop app for that standing job. You create a named helper, give it a job, and it works on a computer in the cloud. You talk to the helper in a chat. When a method works, you save it as a skill, which is a written procedure the helper can run again. When that skill should fire without you sitting there, you put it on a clock as a routine. The cloud computer is one machine for every helper on the Cursor account that signs into Grok Bot, so a login typed for one job is there for every other job.
 
-This desk should open Grok Bot for standing watch on public material: fetch, file, report. This desk should not open it to write the notes site, to edit dictionary JSON, or to hold a login you would miss if every helper could use it. How this desk staffs the readers, what it refuses, and how they report is [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]. The dated roster of seats is [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]].
+This desk should open Grok Bot for standing watch on public material: fetch, file, report. This desk should not open it to write the notes site, to edit dictionary JSON, or to hold a login you would miss if every helper could use it. How this desk staffs the readers, what it refuses, and how they report is [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]].
 
 ## Core takeaways
 
@@ -89,14 +89,10 @@ If the duty still needs you at the laptop, this was the wrong app. If the duty r
 
 ## Related pages
 
-- [[wiki/Systems/AI & Agentic Systems/Picking a computer|Picking a computer]]: which computer the next job opens; this page is the standing-watch computer
-- [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents|Cursor Cloud Agents]]: isolated VM for overnight diffs; a Bot may start one and must not merge
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: how this desk staffs readers and friends, and what it refuses
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot, Condensed|Grok Bot, Condensed]]: the same setup as short rules
 - [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]: proof from the running app; not a reason to install a coding plugin on this app first
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]]: the advice from the September 2026 event as rules, with the new ones for coding agents and for keeping bots cheap; not a roster to copy
-- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]]: Bot, computer, skill, routine, plugin, Cloud Agents
-- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]: which seat already holds each job
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the bar that a helper's output still has to meet
 - [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]: the maker's how-to hub this desk already chose against on mail, ads, and a chief of staff
 

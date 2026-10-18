@@ -19,7 +19,7 @@ Paste in real Mandarin sources — Dcard threads, articles, or video transcripts
 
 ## Why LLM-wiki principles fit
 
-This is the [[wiki/Workflows/Raw to Wiki Compilation|raw → wiki compilation]] loop pointed at a language: source material in, durable linked pages out, each pass leaving the base more useful. An idiom looked up once becomes a node that gets reused and spaced, instead of a lookup that evaporates. It plugs into the existing learning loop — [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] for review, [[wiki/Language/Refold Language Learning System|Refold]] for the immersion frame — rather than standing up a new system from scratch.
+This is that compilation loop pointed at a language: source material in, durable linked pages out, each pass leaving the base more useful. An idiom looked up once becomes a node that gets reused and spaced, instead of a lookup that evaporates. It plugs into the existing learning loop — [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] for review, [[wiki/Language/Refold Language Learning System|Refold]] for the immersion frame — rather than standing up a new system from scratch.
 
 ## Improvements and directions
 

@@ -89,7 +89,6 @@ The two tests point at the same place. Neither asks whether a position is right.
 - [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]]: exceptionalism supplies the "only we can be trusted" premise that doom-marketing turns into gatekeeping.
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]: the discipline of testing the frame you reason inside.
 - [[wiki/Red Team/The Twitter Test|The Twitter Test]]: the reading-level version. Interrogate each word choice for whose agenda the feeling serves, then read the author's stake.
-- [[wiki/Concepts/Riding the AGI|Riding the AGI]]: the same talking-your-book audit run on a friendly source, and the commoditization thesis the revenue-and-tokens argument sits inside.
 
 ## Open questions
 

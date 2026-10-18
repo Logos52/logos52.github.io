@@ -103,7 +103,6 @@ function assignDomain(note) {
 
   // Per-note overrides — specific notes whose folder would land them in the wrong domain.
   const OVERRIDE = {
-    'Concepts/The AI Industrial Revolution': 'agentic', // an AI/agentic field report, not learning
     'Concepts/Higher-Order Generativity vs Higher-Order Judgment': 'gen', // the generativity-vs-judgment thesis
     'Red Team/Red Teaming': 'mind', // critical thinking / judgment, not the gen catch-all
   };

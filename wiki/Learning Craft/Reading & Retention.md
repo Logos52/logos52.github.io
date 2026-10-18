@@ -102,7 +102,7 @@ Warning signs: the source moves ahead faster than the map; everything becomes a 
 
 ## Where this fits in the vault
 
-Inside this vault, [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]] should treat PACER as a source-processing lens. The [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] should handle procedural, analogous, and conceptual material while the source is still open. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] should handle reference, and evidence only when the evidence itself must be produced. [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] helps classify and digest. It must not replace first-brain digestion, the digestion the reader does without the tool. [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] describes the warning sign. A knowledge base that collects sources without matching digestion is overconsumption.
+The [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] should handle procedural, analogous, and conceptual material while the source is still open. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] should handle reference, and evidence only when the evidence itself must be produced. [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]] helps classify and digest. It must not replace first-brain digestion, the digestion the reader does without the tool. [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] describes the warning sign. A knowledge base that collects sources without matching digestion is overconsumption.
 
 ## What the research supports, and what it does not
 
@@ -132,7 +132,6 @@ The case against: labeling every sentence stalls the read; using the five letter
 - [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]: the working structure.
 - [[wiki/Dimensions/Deep Processing/Skin|Skin]]: the clean map that can be reconstructed.
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: direct memory for reference, and for evidence only when the evidence itself must be produced.
-- [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]]: PACER as a source-processing lens for this vault.
 - [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]: helps classify; must not replace first-brain digestion.
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]: the warning sign for a knowledge base that collects sources without digesting them.
 

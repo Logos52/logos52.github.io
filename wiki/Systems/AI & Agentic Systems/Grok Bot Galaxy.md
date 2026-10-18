@@ -45,7 +45,7 @@ Three more aims show in what was put on screen, and the organizer did not state 
 
 **A bot prepares, and a person approves what leaves the account.** That covers anything that reaches an outside person or system. A bot writes drafts and sends nothing. It answers from public documents, uses internal policy only to decide, and never pastes that policy into a reply. Low confidence, missing information or an unclear request means handing the item to a person. The working setting sits between approving every step and approving nothing: the bot acts freely inside the account, and a person approves messages, writes to a customer database, refunds and changes to infrastructure. When a bot offers to pause a firewall so that another bot can get through, the answer is to hold and leave the firewall alone.
 
-**All code goes through Cloud Agents, and a person merges.** A bot that starts a Cloud Agent is a coordinator. It collects the proof and stops. The page that holds this rule is [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents|Cursor Cloud Agents]].
+**All code goes through Cloud Agents, and a person merges.** A bot that starts a Cloud Agent is a coordinator. It collects the proof and stops.
 
 **Lock a written spec before engineering starts.** One bot writes the spec as a file and marks it locked. It hands the file to the bot that starts the Cloud Agent. The spec names the outcome and the owner of the build, of the testing, and of any tracking. A finding handed on as a spec is already a rule in the Primer.
 
@@ -111,13 +111,10 @@ Checkable expectation: two weeks after the rules go in, every Cloud Agent pull r
 
 ## Related pages
 
-- [[wiki/Systems/AI & Agentic Systems/Picking a computer|Picking a computer]]: which computer the next job opens, which this event does not change
-- [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents|Cursor Cloud Agents]]: the isolated machine that writes the code and hands back a pull request
 - [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]: the product's four objects, and the order of task, then skill, then routine
 - [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]: the ban on calling a visual job done without a picture, and the verification skill
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: one job for each bot, reports only, files between bots, and no bot in the middle
 - [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]: the maker's earlier how-to pages, which put the same manager bot in front
-- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]: which product holds which job, which this event does not change
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: proof on the finished thing, which the rules for pull requests apply
 
 ## Open questions

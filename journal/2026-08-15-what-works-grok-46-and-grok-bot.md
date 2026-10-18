@@ -20,7 +20,7 @@ tags:
 
 **Verdict (15 August): keep the three-way split. Fable writes anything this vault has to like. Grok 4.6 compiles evidence and executes on disk. Grok Bot stands a duty, files a packet, and never holds a login this desk would miss.** Collapsing them into "just use Grok" loses the only comparison this desk has actually scored.
 
-The comparison is five jobs this desk already runs, not three product pages. [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]] is the name collision. This entry is the ranking.
+The comparison is five jobs this desk already runs, not three product pages. This entry is the ranking.
 
 ## What was scored
 
@@ -82,7 +82,6 @@ Cost of holding this ranking: Fable spend on prose, unused Bot quota, a 4.6 that
 
 ## Related pages
 
-- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Grok 4.6 and Grok Bot]] — the products this ranking is about
 - [[journal/2026-08-13-abc-writing-test-fable-wins|A/B/C writing test: Fable takes all three]]
 - [[journal/2026-08-14-grok-aphorism-gate|Grok needs its own aphorism gate]]
 - [[journal/2026-08-13-grok-4-6-on-the-frontier|Grok 4.6 on the frontier, not the lead]]

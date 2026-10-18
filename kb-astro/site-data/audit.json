@@ -221,14 +221,6 @@
     ]
   },
   {
-    "file": "wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack.md",
-    "issues": [
-      "missing title (frontmatter)",
-      "unusual type 'reference'",
-      "unknown status 'developing'"
-    ]
-  },
-  {
     "file": "wiki/Systems/Obsidian Dashboard.md",
     "issues": [
       "missing title (frontmatter)",
@@ -503,13 +495,6 @@
     ]
   },
   {
-    "file": "wiki/Domains/AI & Tooling/Claude Cowork as Personal Work OS.md",
-    "issues": [
-      "missing title (frontmatter)",
-      "unknown status 'developing'"
-    ]
-  },
-  {
     "file": "wiki/Glossary.md",
     "issues": [
       "missing title (frontmatter)",
@@ -770,13 +755,6 @@
   },
   {
     "file": "wiki/Systems/AI & Agentic Systems/Hybrid Model Workflows, Grok + Hermes.md",
-    "issues": [
-      "missing title (frontmatter)",
-      "unknown status 'developing'"
-    ]
-  },
-  {
-    "file": "wiki/Systems/AI & Agentic Systems/Vibe Coding.md",
     "issues": [
       "missing title (frontmatter)",
       "unknown status 'developing'"
@@ -1217,12 +1195,6 @@
     ]
   },
   {
-    "file": "wiki/Domains/AI & Tooling/LLM Tool Use.md",
-    "issues": [
-      "missing title (frontmatter)"
-    ]
-  },
-  {
     "file": "wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI.md",
     "issues": [
       "unknown status 'developing'"
@@ -1469,25 +1441,7 @@
     ]
   },
   {
-    "file": "wiki/Workflows/Question Answering Against a Wiki.md",
-    "issues": [
-      "missing title (frontmatter)"
-    ]
-  },
-  {
-    "file": "wiki/Workflows/Raw to Wiki Compilation.md",
-    "issues": [
-      "missing title (frontmatter)"
-    ]
-  },
-  {
     "file": "wiki/Workflows/Wiki Breakdown Pass.md",
-    "issues": [
-      "missing title (frontmatter)"
-    ]
-  },
-  {
-    "file": "wiki/Workflows/Wiki Health Checks.md",
     "issues": [
       "missing title (frontmatter)"
     ]

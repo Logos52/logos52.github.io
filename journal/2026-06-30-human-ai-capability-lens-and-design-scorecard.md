@@ -10,7 +10,7 @@ tags: [design, human-ai, ai-durability, naval, taste, judgment, scorecard, agent
 ## What shipped
 
 - [[wiki/Design/Design Expansion — Reading & Resources|Design Expansion — Reading & Resources]] — 19 sources to push the Norman-only Design notes multi-source.
-- [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]] plus [[wiki/Design/Agent Track — Executable UI Technique Catalog|Agent Track]] (66 executable rules) and [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track]] (35 judgment entries), extracted from *Refactoring UI* (3,690 lines of text) and *Universal Principles of Design* (200 principles, 14,503 lines). Both PDFs and their extracted text are staged in `raw/sources/design/`.
+- [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]] and [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track]] (35 judgment entries), extracted from *Refactoring UI* (3,690 lines of text) and *Universal Principles of Design* (200 principles, 14,503 lines). Both PDFs and their extracted text are staged in `raw/sources/design/`.
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — the model below.
 
 ## The model
@@ -48,4 +48,4 @@ The lens is a dated snapshot, not a law. AI scores drift upward as models improv
 
 ## Provenance
 
-This Cowork session. Grounded in the two PDFs read directly, the vault's [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs. Judgment]], [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]], and [[wiki/Money/The Almanack of Naval Ravikant|The Almanack of Naval Ravikant]], plus a web check of Naval's current taste / judgment / specific-knowledge framing.
+This Cowork session. Grounded in the two PDFs read directly, the vault's [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs. Judgment]] and [[wiki/Money/The Almanack of Naval Ravikant|The Almanack of Naval Ravikant]], plus a web check of Naval's current taste / judgment / specific-knowledge framing.

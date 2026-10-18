@@ -110,7 +110,7 @@ Effort relocates rather than disappearing. Squeezed out of the structure it reap
 
 Fluent confidence is uniform across right and wrong, so inspection has nothing to grade. The failure does not feel like guessing. It feels like remembering. A model that felt uncertain could flag itself. None of them do.
 
-[[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|Writing with a Structure Engine]] is the workflow these classes were sorted out of, and cite-or-cut is its policy: a specific ships with a nameable source or stands as an explicit hole. A struck or contested line in a source is no evidence rather than weaker evidence. A sourced fact is sourced for the situation it came from; transplanting voids the citation. Ask before any domain claim reaches a line. This class is held by a rule with one instance of that rule holding, and no machine, because a claim's sourcing has no lexical signature. [[wiki/Concepts/The Same Model Twice|The Same Model Twice]] is cite-or-cut run on the operator's own assumptions.
+Cite-or-cut is the policy these classes were sorted out of: a specific ships with a nameable source or stands as an explicit hole. A struck or contested line in a source is no evidence rather than weaker evidence. A sourced fact is sourced for the situation it came from; transplanting voids the citation. Ask before any domain claim reaches a line. This class is held by a rule with one instance of that rule holding, and no machine, because a claim's sourcing has no lexical signature. [[wiki/Concepts/The Same Model Twice|The Same Model Twice]] is cite-or-cut run on the operator's own assumptions.
 
 ## Why a ban does not reach the generator
 
@@ -188,7 +188,7 @@ Five rules came out of desk work with Claude Fable 5, released in June 2026. Acc
 
 **Encode corrections the day they happen.** A fix that lives only in the chat is gone when the session ends. A fix written into a standard or a memory file is still there in the morning. The file alone is not enough: on the ledger the file was already being kept, and the rulings dropped anyway. The check comes first.
 
-**Demand measures.** Confidence does not change when the claim has not been checked. [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|Writing with a Structure Engine]] is that same even voice on verified and unverified sentences.
+**Demand measures.** Confidence does not change when the claim has not been checked.
 
 The operator job is still what the model looks at first. That first look is now two exemplars and the real artifact, not another candidate.
 
@@ -245,7 +245,6 @@ The class still picks the repair. Which classes a matcher can reach will move. T
 
 ## Related pages
 
-- [[wiki/Systems/AI & Agentic Systems/The Writing Pipeline|The Writing Pipeline]]: the workflow the four classes were sorted out of, and the division of labor that decides who writes first when the spec lives in the operator's head.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]]: the twice-means-a-missing-rule instruction this record qualifies; the doctrine layer that files the five invariants on the durable side and the model facts on the dated-tactics side.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the hub the five rules serve.
 - [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]]: why the accountable call stays human; the discriminator (who pays if it is wrong) that routes interpretation to the human.
@@ -257,7 +256,6 @@ The class still picks the repair. Which classes a matcher can reach will move. T
 - [[wiki/Writing Craft/Opening Moves Catalog|Opening Moves Catalog]]: the derived move palette the stance draws on, and the place where a rule minted from a strike would otherwise accumulate.
 - [[wiki/Research/Opener Generator Research Bank|Opener Generator Research Bank]]: the full record of the opening-generation day: eighteen struck openings, every strike verbatim, the three diagnoses, and the generator.
 - [[wiki/Writing Craft/The Context Problem|The Context Problem]]: a neighboring failure: the sentence uses something the page has not given, and a new ban is read by the same head that already holds the missing piece.
-- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]: where Claude Fable 5 sits among the vault's models; token-price facts live there and rot there.
 
 ## Open questions
 

@@ -109,13 +109,9 @@ If an agent still cannot open the harvest reader without you, the plugin was the
 
 ## Related pages
 
-- [[wiki/Systems/AI & Agentic Systems/Picking a computer|Picking a computer]]: pstack is a ban, not a computer
-- [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents|Cursor Cloud Agents]]: the VM that can enforce the ban overnight
 - [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]: the app you would install this plugin into if the helper should keep running after the laptop closes
 - [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]]: the September 2026 event where this plugin showed up in public; not a reason to install
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the standard this plugin packages as slash commands
-- [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]]: skill, plugin, Custom Mode, Cloud Agents
-- [[wiki/Systems/AI & Agentic Systems/Current Agentic LLM Stack|Current Agentic LLM Stack]]: Cursor is the IDE seat; Grok Bot is standing watch; this plugin is not a seat
 - [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]: why a CLI the agent can rerun beats a paragraph of clicks
 
 ## Open questions

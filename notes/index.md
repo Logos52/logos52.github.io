@@ -13,7 +13,7 @@ tags:
 
 # Knowledge Base Index
 
-There are 479 notes. Search with ⌘K, or open the [Map](/map/) and browse by connection.
+There are 462 notes. Search with ⌘K, or open the [Map](/map/) and browse by connection.
 
 ## Condensed
 
@@ -35,8 +35,6 @@ Each of these pages is the starting point for one subject.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: AI agents write much of the code. The developer is still responsible for that code.
 - [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]: A job that must keep running after the laptop closes cannot live in Grok Build or Cursor. Grok Bot is the app for that standing job, on public material only.
 - [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]: A coding-agent plugin whose one rule is proof from the running app. This desk uses the rule; it uses the plugin only after a local reader can already be driven without a person.
-- [[wiki/Systems/AI & Agentic Systems/Cursor Cloud Agents|Cursor Cloud Agents]]: Overnight application code cannot live in the editor or on Grok Bot's shared desktop. Isolated VMs clone, test, and open a pull request. You merge.
-- [[wiki/Systems/AI & Agentic Systems/Picking a computer|Picking a computer]]: Four products can look like overnight work. This is the map so the next job opens one computer.
 - [[wiki/Language/Refold Language Learning System|Language Learning]]: How to learn a language by listening and reading a lot.
 - [[wiki/Language/Chinese/How Chinese Characters Work|Chinese Characters]]: How Chinese characters are built. Each character is made of smaller parts, and each part has a different function.
 - [[wiki/Self Management/Flow State|Attention & Self-Management]]: Focus, and a person's own attention. Flow is being fully absorbed in a task.

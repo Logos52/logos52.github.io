@@ -20,7 +20,7 @@ tags:
 
 # Human Track — Taste & Judgment Catalog
 
-The Human Track is the catalog of design decisions that a machine can draft but cannot grade. Using it means looking at designs. Memorizing a list of named effects is not the goal. Entries were sorted by [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]. The mechanical core of each entry here is kept on [[wiki/Design/Agent Track — Executable UI Technique Catalog|the Agent Track]]. A **seam** is the point where an entry is split: the mechanical core goes on the Agent Track, and the judgment that remains goes in this catalog. People read this catalog and look at its examples.
+The Human Track is the catalog of design decisions that a machine can draft but cannot grade. Using it means looking at designs. Memorizing a list of named effects is not the goal. Entries were sorted by [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]. A **seam** is the point where an entry is split: the mechanical core goes on the Agent Track, and the judgment that remains goes in this catalog. People read this catalog and look at its examples.
 
 ## Developing the eye
 
@@ -130,7 +130,6 @@ Following the rules is not enough to tell whether the result is good. That takes
 ## Related pages
 
 - [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]: the classification test used to sort entries into this catalog.
-- [[wiki/Design/Agent Track — Executable UI Technique Catalog|the Agent Track]]: where the mechanical core of each entry here is kept.
 - [[wiki/Design/Front-End Web Design|Front-End Web Design]]: the tsumugu surfaces that these good/bad pairs come from.
 
 ## Open Questions

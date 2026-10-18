@@ -32,13 +32,11 @@ Its two sources, and nothing else was allowed in:
 
 The page is meant to carry the argument those two sources make, in their order, at their strength, with their words for contested things (terrorist, genocide, propaganda, demonised, atrocities, whites, white pensioners, equity). The owner chose the title. The owner ruled that the Rhodesia account is asserted, not attributed.
 
-## 2. The four sections on AI pages
+## 2. The two sections on AI pages
 
 Each took material from the All-In Summit interviews in the same intake file, `/Users/n1/handoff-2026-09-14-to-16.md`, lines 247 to 515 (Jensen Huang with a call from Trump; Gwynne Shotwell with Elon Musk; Satya Nadella; JD Vance).
 
 - `/Users/n1/Projects/llm-knowledge-base/wiki/Concepts/Regulatory Capture via Doom-Marketing.md`, the section `## The September 2026 case: four answers to a slowdown essay`, plus one Core takeaway bullet beginning "In September 2026".
-- `/Users/n1/Projects/llm-knowledge-base/wiki/Concepts/The Margin Moves to the Serving Layer.md`, the section `## What the head of Microsoft said in September 2026`, one Core takeaway bullet beginning "In September 2026", and the sixth figure in `## Six price-gap figures that do not agree`.
-- `/Users/n1/Projects/llm-knowledge-base/wiki/Concepts/Prohibition After Diffusion.md`, the paragraph beginning "In September 2026 the head of Nvidia".
 - `/Users/n1/Projects/llm-knowledge-base/wiki/Systems/AI & Agentic Systems/Automation and the Job Iceberg.md`, the paragraph beginning "A fifth prediction of the same kind also failed."
 
 The rest of each page is older and is not under review.

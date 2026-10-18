@@ -11,7 +11,7 @@ tags:
 
 # Glossary
 
-Terms from the learning system: encoding, retrieval, and WPW. Product and agent names are defined on [[wiki/Systems/AI & Agentic Systems/Agent Glossary|Agent Glossary]].
+Terms from the learning system: encoding, retrieval, and WPW.
 
 ## Agent Memory
 

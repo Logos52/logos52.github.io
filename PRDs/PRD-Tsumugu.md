@@ -24,7 +24,6 @@ links:
   - "[[journal/2026-06-03-ai-mandarin-reader]]"
   - "[[wiki/Resources/Mandarin Chinese Language Learning Resources]]"
   - "[[wiki/Language/Refold Language Learning System]]"
-  - "[[wiki/Workflows/Raw to Wiki Compilation]]"
 ---
 
 # PRD — Tsumugu

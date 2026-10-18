@@ -43,7 +43,7 @@ Context engineering is filling the model's visible window with the right informa
 
 What used to be won by exact code is now won by the context put in front of the model. The programming question is now which piece of text to give the agent. A long shell script or a manual setup guide can be replaced by a block of instructions. The agent can look at the machine it is on, change the next command, run it, and fix what breaks. The installer stops being a script that grows with every case it has to handle. It becomes a paste to an agent that can see the machine. That is the shape to recognise when it appears elsewhere.
 
-A second way to say the same shift: people learned code to talk to machines, and now the machines speak English, fuzzy, sloppy, human English. Where the moat sits once the interface language is natural is one clause on [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]].
+A second way to say the same shift: people learned code to talk to machines, and now the machines speak English, fuzzy, sloppy, human English.
 
 The three eras stack. They do not replace each other cleanly. A working system still has explicit code, trained weights, and written context running together. How you keep a quality bar once the medium is context is [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]].
 
@@ -99,7 +99,7 @@ Four signs that the window is doing its job:
 
 ## The two failures
 
-Over-long or noisy context degrades the next step. Performance is not monotonic in window length. Models use the start and the end of a long window more reliably than the middle. Filling the window as full as possible feels thorough, and it measures worse. [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]] is the other thing that occupies the same window: every tool result is more text the middle can lose.
+Over-long or noisy context degrades the next step. Performance is not monotonic in window length. Models use the start and the end of a long window more reliably than the middle. Filling the window as full as possible feels thorough, and it measures worse. Every tool result is more text the middle can lose.
 
 The second failure is separate from the over-long window. Context work has become a shortcut when it turns into sorting inputs instead of using them to think or build. The checklist becomes chores that postpone the work. A session spent organizing, with no next thinking step, is the signal to stop.
 
@@ -125,14 +125,9 @@ The price is maintaining the index, the log, and the compact summaries. Reading 
 ## Related pages
 
 - [[notes/index|notes/index.md]]: read this first on query or ingest
-- [[wiki/Workflows/Question Answering Against a Wiki|Question Answering Against a Wiki]]: the query workflow that starts from the index
-- [[wiki/Domains/AI & Tooling/LLM Tool Use|LLM Tool Use]]: tools as another thing that occupies the window
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the hub, and how you keep a quality bar once the medium is context. Its context section holds the same material at less depth
 - [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: context as the deliberate channel
 - [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]]: rival explanation: bad context, not bad model
-- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]: English as the interface, and the instruction-reversal: the human still completes the model; the model starts handing instructions back.
-- [[wiki/Workflows/Raw to Wiki Compilation|Raw to Wiki Compilation]]
-- [[wiki/Workflows/Wiki Health Checks|Wiki Health Checks]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
 
 ## Open questions
@@ -149,5 +144,4 @@ The price is maintaining the index, the log, and the compact summaries. Reading 
 - Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, and Percy Liang, "Lost in the Middle: How Language Models Use Long Contexts," *Transactions of the Association for Computational Linguistics* (2023).
 - Andrej Karpathy, [From Vibe Coding to Agentic Engineering](https://www.youtube.com/watch?v=96jN2OCOfLs), Sequoia AI Ascent, 29 April 2026, ~2:28–7:22.
 - Andrej Karpathy, [Software Is Changing (Again)](https://www.ycombinator.com/library/MW-andrej-karpathy-software-is-changing-again), YC AI Startup School, June 2025.
-- [[wiki/Concepts/The AI Industrial Revolution|The AI Industrial Revolution]]: the second angle: English as interface, the human completing the model, the model handing instructions back.
 - [[raw/sources/Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]

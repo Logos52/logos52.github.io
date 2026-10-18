@@ -131,7 +131,7 @@ The case against the workflow is three situations. First, no artifact is in mind
 
 The success metric that used to go unstated was hours saved. The reason to keep importance, grouping, and relationships with the learner is that those three operations are the higher-order capability, and they are the part of the loop whose value is going up. The goal step therefore carries a second question: does producing the artifact leave a harder capability than the one already held, or only a faster version of the same work.
 
-[[wiki/Syntheses/ICS System|How Top Performers Learn]] is the systems frame around that question: top learners design a personal system rather than hunting for one best technique. [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]] is the sibling page that holds anything tool-specific, so this workflow does not carry it.
+[[wiki/Syntheses/ICS System|How Top Performers Learn]] is the systems frame around that question: top learners design a personal system rather than hunting for one best technique.
 
 The fetching, the converting, and the tidying can stay with the machine. Importance, grouping, and relationships stay with the learner. The reason is practical: those three operations are the part of the work whose value is rising.
 
@@ -155,7 +155,6 @@ The fetching, the converting, and the tidying can stay with the machine. Importa
 - [[wiki/Dimensions/Deep Processing/Problem-First Learning|Problem-First Learning]]: problem before tool; the engine on the bench.
 - [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]]: logic, concept, and detail, presented mixed together in sources.
 - [[wiki/Concepts/Learning Styles Myth and Multimodal Learning|Learning Styles Myth and Multimodal Learning]]: matching a declared style produces no learning advantage.
-- [[wiki/Domains/AI & Tooling/Essential AI Skills 2026|Essential AI Skills 2026]]: tool-specific guidance, kept separate from this workflow.
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: the real interleaving effect, inside a domain.
 - [[wiki/Dimensions/Retrieval/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]: reconstruction under changed variables.
 

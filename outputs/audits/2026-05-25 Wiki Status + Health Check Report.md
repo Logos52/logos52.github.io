@@ -1,7 +1,7 @@
 # Wiki Status + Lightweight Health Check Report
 **Date:** 2026-05-25  
 **Performed by:** Grok (as part of requested audit + maintenance pass)  
-**Scope:** Lightweight status check (per `wiki/Workflows/Wiki Status Checks.md`) + health check elements (per `wiki/Workflows/Wiki Health Checks.md`). Read-only analysis + synthesis; no destructive changes made during this pass.
+**Scope:** Lightweight status check (per `wiki/Workflows/Wiki Status Checks.md`). Read-only analysis + synthesis; no destructive changes made during this pass.
 
 ## Executive Summary
 
@@ -42,10 +42,8 @@ No critical broken links or contradictions were found in this pass, but lingerin
 
 ### 1. Dormant Maintenance Workflows (Self-Referential Issue)
 The following workflow pages are themselves "seed" with `source-count: 1` and blank or missing `last-audited`:
-- `wiki/Workflows/Wiki Health Checks.md`
 - `wiki/Workflows/Wiki Status Checks.md`
 - `wiki/Workflows/Wiki Breakdown Pass.md`
-- `wiki/Workflows/Question Answering Against a Wiki.md`
 
 **Finding:** The system has documented how to do health checks but has not been running them. The May 24 journal entry explicitly defers "Wiki health pulse" due to lack of clear workflow for acting on results.
 
@@ -64,7 +62,7 @@ Despite the May 24 "major stale links" cleanup, some references to old paths rem
 - Occasional references to retired folder structures in older pages.
 
 ### 4. Underdeveloped Areas
-- **Domains/**: Only `AI & Tooling/` has meaningful content (Claude Cowork, LLM Tool Use, Right vs Wrong Way to Work With AI). Decision Making/, Language/, Minimalism/, Red Team/, and Miscellaneous/ are empty or near-empty folders. This section looks abandoned in the public index.
+- **Domains/**: Only `AI & Tooling/` has meaningful content (Right vs Wrong Way to Work With AI). Decision Making/, Language/, Minimalism/, Red Team/, and Miscellaneous/ are empty or near-empty folders. This section looks abandoned in the public index.
 - **Red Team/**: Only two pages. Strong conceptual desire in Open Questions to integrate Red Teaming tools into BHS/SIR/Kolbs, but almost no actual pages or examples yet.
 - **30-Day Challenges/**: All five dimension challenge pages exist at `source-count: 1`. They feel like placeholders rather than lived practice artifacts.
 
@@ -149,4 +147,4 @@ This pass did not surface major contradictions or dead wikilinks. The May 24 cle
 **Next step after this report:** Human review → append selected questions to Open Questions → log the completion of this health check pass.
 
 ---
-*Report written following the spirit of the documented Wiki Status Checks and Wiki Health Checks workflows. No pages were created, edited, or moved during analysis.*
+*Report written following the spirit of the documented Wiki Status Checks workflow. No pages were created, edited, or moved during analysis.*
