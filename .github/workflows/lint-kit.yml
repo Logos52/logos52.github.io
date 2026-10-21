@@ -30,26 +30,6 @@ jobs:
           npm install --prefix "$RUNNER_TEMP/lint-kit" --install-strategy=nested --no-save --no-package-lock "git+ssh://git@github.com/Logos52/lint-kit.git#6d1dd21036f9517ff28f3e3a2a631039ffcb9416"
           npm --prefix "$RUNNER_TEMP/lint-kit/node_modules/lint-kit" run build
           python -m pip install -r "$RUNNER_TEMP/lint-kit/node_modules/lint-kit/requirements.txt"
-      - name: Prune baseline
-        run: |
-          ln -sfn "$RUNNER_TEMP/lint-kit/node_modules/.bin/kit" node_modules/.bin/kit
-          npx kit --help || true
-          npx kit baseline --help || true
-          node --input-type=module -e 'import b from "./.lint-kit-baseline.json" with { type: "json" }; const c={}; for (const e of b.entries) c[e.rule]=(c[e.rule]||0)+1; console.log("before", JSON.stringify(c), "total", b.entries.length);'
-          npx kit baseline --prune
-          node --input-type=module -e 'import b from "./.lint-kit-baseline.json" with { type: "json" }; const c={}; for (const e of b.entries) c[e.rule]=(c[e.rule]||0)+1; console.log("after", JSON.stringify(c), "total", b.entries.length);'
-          git diff --stat -- .lint-kit-baseline.json
-          cp .lint-kit-baseline.json "$RUNNER_TEMP/pruned-baseline.json"
-          git diff -- .lint-kit-baseline.json | head -c 200000 > "$RUNNER_TEMP/baseline.diff"
-      - name: Upload pruned baseline
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: pruned-baseline
-          path: |
-            ${{ runner.temp }}/pruned-baseline.json
-            ${{ runner.temp }}/baseline.diff
-          if-no-files-found: error
       - name: Check
         run: |
           ln -sfn "$RUNNER_TEMP/lint-kit/node_modules/.bin/kit" node_modules/.bin/kit
