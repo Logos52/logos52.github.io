@@ -39,12 +39,16 @@ jobs:
           npx kit baseline --prune
           node --input-type=module -e 'import b from "./.lint-kit-baseline.json" with { type: "json" }; const c={}; for (const e of b.entries) c[e.rule]=(c[e.rule]||0)+1; console.log("after", JSON.stringify(c), "total", b.entries.length);'
           git diff --stat -- .lint-kit-baseline.json
+          cp .lint-kit-baseline.json "$RUNNER_TEMP/pruned-baseline.json"
+          git diff -- .lint-kit-baseline.json | head -c 200000 > "$RUNNER_TEMP/baseline.diff"
       - name: Upload pruned baseline
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: pruned-baseline
-          path: .lint-kit-baseline.json
+          path: |
+            ${{ runner.temp }}/pruned-baseline.json
+            ${{ runner.temp }}/baseline.diff
           if-no-files-found: error
       - name: Check
         run: |
