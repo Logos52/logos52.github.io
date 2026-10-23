@@ -1,9 +1,3 @@
-/**
- * Behaviour of resolveDomain, including the Working with Agents folder rule.
- * The folder is the fallback for slugs domains.json does not list. The 14
- * published pages in that folder are unlisted, so this fallback is what
- * colors them.
- */
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { resolveDomain } from '../../src/lib/domain.ts';
