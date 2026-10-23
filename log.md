@@ -10,6 +10,12 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-10-23] lint | Replace deprecated content-schema calls and test agent folder domains
+
+- `src/content.config.ts` takes `z` from `astro/zod` and uses `.loose()` where it used `.passthrough()`. The parse result is the same.
+- The 19 R21 baseline rows for those calls are removed. `npx kit baseline --prune` could not run in this environment: the lint-kit repo is private to the deploy key.
+- A behaviour test covers `resolveDomain` for `wiki/Working-with-Agents/`.
+
 ## [2026-10-18] maintenance | Delete 21 approved AI and agent pages
 
 - Removed the 21 pages Wedge approved, and the inbound links on staying pages that pointed at them.

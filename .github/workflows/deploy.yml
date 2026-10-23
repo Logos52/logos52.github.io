@@ -49,8 +49,8 @@ jobs:
       - name: Publish-safety guard (blocks deploy on private/financial leak)
         run: npm run guard
 
-      - name: Leak tests
-        run: node --test tools/scripts/leak.test.mjs
+      - name: Test
+        run: npm test
 
       - name: Upload artifact
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
