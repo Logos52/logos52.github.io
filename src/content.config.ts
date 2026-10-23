@@ -1,4 +1,5 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 import { slugifyFilePath } from './lib/slug';
 
@@ -65,7 +66,7 @@ const noteFrontmatter = z
     practicing: pipelineField,
     enableToc: pipelineField,
   })
-  .passthrough();
+  .loose();
 
 const notes = defineCollection({
   // src/content/notes is a build-time copy of the PUBLIC vault subset, produced by
