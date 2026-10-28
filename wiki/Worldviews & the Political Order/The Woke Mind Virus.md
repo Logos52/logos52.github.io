@@ -50,4 +50,5 @@ The findings point to a growing mental-health gap between teenagers by political
 
 | Section | Note file |
 |---|---|
+| Lead, Where the phrase comes from | Wikipedia "Woke" (https://en.wikipedia.org/wiki/Woke) and Musk's X posts |
 | What one study found, How far the study goes | Same note, Gimbrone, Bates, Prins and Keyes (2022), "The politics of depression" (https://pmc.ncbi.nlm.nih.gov/articles/PMC8713953/) |

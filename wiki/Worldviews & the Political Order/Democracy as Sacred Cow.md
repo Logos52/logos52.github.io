@@ -52,3 +52,7 @@ The same point explains why democracy cannot be imposed from outside. Democracy 
 
 | Section | Note file |
 |---|---|
+| Lead | Basic Logic, https://www.youtube.com/watch?v=z55r37SETiY |
+| Defenses that fail | Basic Logic democracy note and modern democracy note and Naval |
+| The defense that holds | Basic Logic democracy note and modern democracy note |
+| Wealth and imposing it | Basic Logic democracy note and All-In |

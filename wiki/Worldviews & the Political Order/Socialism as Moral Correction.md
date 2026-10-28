@@ -77,3 +77,6 @@ Two economic promises share the fixed-pie error. Socialism cannot reduce scarcit
 
 | Section | Note file |
 |---|---|
+| Lead | |
+| Real problems with the wrong cause | Basic Logic socialism note |
+| Arguments that misread how wealth is made | Basic Logic socialism note |

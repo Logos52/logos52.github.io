@@ -96,3 +96,7 @@ Underneath both replies sits the question of how each system handles mistakes. A
 
 | Section | Note file |
 |---|---|
+| Lead, What prices do | |
+| Lead, second paragraph | Naval |
+| What goes wrong without them | Front Page note and Khemani and Chipkin note |
+| The common replies | Front Page note and Basic Logic note |

@@ -52,3 +52,6 @@ On the system of rule, no passage commands democracy. Democracy is a tool that w
 
 | Section | Note file |
 |---|---|
+| Lead, Authority and its limits, Charity belongs to the church, Nation, law and system of rule | |
+| Lead, Authority and its limits, Charity belongs to the church, Nation, law and system of rule | |
+| Nation, law and system of rule | |

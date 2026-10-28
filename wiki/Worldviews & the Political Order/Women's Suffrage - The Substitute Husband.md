@@ -82,3 +82,6 @@ The two habits meet in the family. In a strong family a husband and wife vote al
 
 | Section | Note file |
 |---|---|
+| Lead, How wide the gap is, The state as substitute husband, Following the consensus, What it does to the family | |
+| How wide the gap is | |
+| The state as substitute husband | |
