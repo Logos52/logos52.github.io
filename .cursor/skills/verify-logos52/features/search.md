@@ -29,7 +29,7 @@ Preconditions:
 - **Wait for rows.** `[data-search-results]` is not `hidden`. A `.kb-ac-row` or `.kb-ac-empty` is present. Wait for the row, not a fixed sleep (the input debounces about 110ms, and the first query may still be loading Pagefind).
 - **Read the first row.** `.kb-ac-title` is `How Chinese Characters Work`. `.kb-ac-domain` is `Language`.
 - **Open it.** Click that row (or press Enter).
-- **Resulting state.** URL is `/wiki/Language/Chinese/How-Chinese-Characters-Work/`. `h1.kb-note-title` is `How Chinese Characters Work`. The type pill reads `Hub`.
+- **Resulting state.** URL is `/wiki/Language/Chinese/How-Chinese-Characters-Work/`. `h1.kb-note-title` is `How Chinese Characters Work`. The type pill's trimmed text is `Hub` (the paint is uppercase).
 
 Do not stub `/pagefind/pagefind.js`. When the dropdown stays on `Search index loading…`, the index was not built. Record that and stop.
 

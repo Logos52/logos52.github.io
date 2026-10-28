@@ -28,7 +28,7 @@ Preconditions:
 - **Open the index.** From `/`, click the nav link named `Notes`.
 - **Resulting state.** URL is `/notes` or `/notes/`. `main.notes-page` is present. Chrome `Notes` has class `on`. Headings `Condensed` and `Hubs` are present. At least one `.entry-list a` is present.
 - **Open a row.** Click the `.entry-list__title` whose text is `Learning, Condensed`.
-- **Land on the note.** `article[data-pagefind-body]` is present. `h1.kb-note-title` is `Learning, Condensed`. `.kb-note-dek` is present. The type pill reads `Condensed`.
+- **Land on the note.** `article[data-pagefind-body]` is present. `h1.kb-note-title` is `Learning, Condensed`. `.kb-note-dek` is present. The type pill's trimmed text is `Condensed` (the paint is uppercase).
 - **Return.** Click Chrome `Notes`. On the note, the first crumb `wiki` goes to `/folder/wiki/`, which is a folder listing, not this index.
 
 ## Gotchas

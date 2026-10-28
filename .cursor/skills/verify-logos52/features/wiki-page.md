@@ -7,7 +7,7 @@ Source: `src/pages/[...slug].astro`, `src/layouts/Note.astro`, `src/components/B
 ## Sub-features
 
 - `note-title` shows `h1.kb-note-title`. `.kb-note-dek` appears when frontmatter `description` or `blurb` is non-empty.
-- `note-pill` shows `.kb-type-tag` from `readerTypeLabel`. `synthesis` → `Essay`, `hub` → `Hub`, `condensed` → `Condensed`, `dimension` → `Dimension`, `concept` → `Concept`. An unknown type omits the pill. `updated` stays in `.kb-note-meta` as `updated YYYY-MM-DD`.
+- `note-pill` shows `.kb-type-tag` from `readerTypeLabel`. `synthesis` → `Essay`, `hub` → `Hub`, `condensed` → `Condensed`, `dimension` → `Dimension`, `concept` → `Concept`. An unknown type omits the pill. The pill sits in `.kb-note-meta`, which uppercases the paint. The DOM text trims to `Essay` (the markup has a space on each side). Match the trimmed text. `updated` stays in `.kb-note-meta` as `updated YYYY-MM-DD`.
 - `note-crumbs` uses `.kb-crumb`. The last segment is plain text. A first segment of `journal`, `personal`, `projects`, or `notes` links to that landing. Every other crumb, including `wiki`, links to `/folder/{path}/`.
 - `note-prose` resolves links as `a` and unresolved targets as `span.missing[title^="unresolved link"]`.
 - `note-related` folds a `Related` or `Related pages` list after five items into `details.kb-related-more`. The summary is `{N} more related pages`. The extra links stay in the HTML.
@@ -28,10 +28,10 @@ Preconditions:
 - The Learn door is on `/` (intent `Learn`).
 
 - **Open the note.** From `/`, click the door whose `.door__intent` is `Learn`.
-- **Read the note.** Wait for `article[data-pagefind-body]` and `h1.kb-note-title` `Are You Learning, or Just Using Techniques`. The type pill reads `Essay`. `.kb-note-dek` is present. The first crumb `wiki` has href `/folder/wiki/`. `details.kb-related-more` is present and its summary matches `{N} more related pages`.
+- **Read the note.** Wait for `article[data-pagefind-body]` and `h1.kb-note-title` `Are You Learning, or Just Using Techniques`. The type pill's trimmed text is `Essay` (the paint is uppercase). `.kb-note-dek` is present. The first crumb `wiki` has href `/folder/wiki/`. `details.kb-related-more` is present and its summary matches `{N} more related pages`.
 - **Linked from.** `section.kb-backlinks[aria-label="Linked from"]` is inside `article`, after `.kb-prose`. Its `h2` text is `Linked from`. The aside does not contain that section. `nav.kb-toc[aria-label="Contents"]` is in the aside.
 - **Follow a prose link.** In `.kb-prose`, click the `a` whose href is `/wiki/Dimensions/Self-Regulation/` and whose text is `Self-Regulation`, the one in the opening paragraphs (before the Related list).
-- **Resulting state.** The URL is `/wiki/Dimensions/Self-Regulation/`. `h1.kb-note-title` is `Self-Regulation`. The type pill reads `Dimension`.
+- **Resulting state.** The URL is `/wiki/Dimensions/Self-Regulation/`. `h1.kb-note-title` is `Self-Regulation`. The type pill's trimmed text is `Dimension` (the paint is uppercase).
 
 ## Gotchas
 
