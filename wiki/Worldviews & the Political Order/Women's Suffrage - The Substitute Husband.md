@@ -26,33 +26,31 @@ The gap shows up on welfare, guns, immigration and abortion. Against men, women 
 Among the young the gap is wider still, because young women have moved left while young men held steady or moved right. Across 30 countries, women aged 18 to 30 years are now on average 30 percentage points more progressive than men of the same age. In 2000 that gap was six percentage points. In the United States, 40% of women aged 18 to 29 identify as liberal against 25% of men.
 
 <figure>
-<svg viewBox="0 0 520 569" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-suff2-a">
+<svg viewBox="-16 -16 552 559" width="100%" style="max-width:552px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="wv-suff2-a">
 <title id="wv-suff2-a">Against men, women show: in favour of expanding welfare, an 8 to 15 percentage-point swing. in favour of more gun control, a 20 percentage-point swing. On mass immigration, the swing reaches 15 percentage points. on abortion, the gap is also 15 percentage points, with 56% of women backing it for any reason. Across 30 countries, women aged 18 to 30 years are now on average 30 percentage points more progressive than men of the same age. In 2000, six percentage points. now, 30 percentage points. In the United States, 40% of women aged 18 to 29 identify as liberal against 25% of men.</title>
-<rect x="10" y="12" width="500" height="293" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="32">Against men, women show</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="53">In favour of expanding welfare</text></g>
-<rect x="212.0" y="59" width="168.0" height="10" style="fill:var(--accent)"/>
-<rect x="20" y="63" width="192.0" height="2" style="fill:var(--rule2)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="85">an 8 to 15 percentage-point swing</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="113">In favour of more gun control</text></g>
-<rect x="20.0" y="119" width="480.0" height="10" style="fill:var(--accent)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="145">a 20 percentage-point swing</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="173">On mass immigration</text></g>
-<rect x="20.0" y="179" width="360.0" height="10" style="fill:var(--accent)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="205">the swing reaches 15 percentage points</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="233">On abortion</text></g>
-<rect x="20.0" y="239" width="360.0" height="10" style="fill:var(--accent)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="265">the gap is also 15 percentage points, with 56% of women backing it for</text><text x="20" y="281">any reason</text></g>
-<rect x="10" y="317" width="500" height="192" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="337">Women aged 18 to 30 years are now on average 30 percentage points</text><text x="20" y="354">more progressive than men of the same age</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="371">Across 30 countries</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="393">In 2000</text></g>
-<rect x="20.0" y="399" width="96.0" height="10" style="fill:var(--accent)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="425">six percentage points</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="453">Now</text></g>
-<rect x="20.0" y="459" width="480.0" height="10" style="fill:var(--accent)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="485">30 percentage points</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="529">In the United States, 40% of women aged 18 to 29 identify as liberal</text><text x="20" y="545">against 25% of men.</text></g>
+<rect x="-15.5" y="-15.5" width="551" height="558" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:16px;font-weight:600" text-anchor="start"><text x="10" y="20">Against men, women show</text></g>
+<path d="M10,44 L510,44" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:15px" text-anchor="start"><text x="10" y="66">In favour of</text><text x="10" y="87">expanding welfare</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px" text-anchor="start"><text x="196" y="66">an 8 to 15 percentage-point swing</text></g>
+<path d="M10,97 L510,97" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:15px" text-anchor="start"><text x="10" y="119">In favour of more</text><text x="10" y="140">gun control</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px" text-anchor="start"><text x="196" y="119">a 20 percentage-point swing</text></g>
+<path d="M10,150 L510,150" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:15px" text-anchor="start"><text x="10" y="172">On mass immigration</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px" text-anchor="start"><text x="196" y="172">the swing reaches 15 percentage</text><text x="196" y="193">points</text></g>
+<path d="M10,203 L510,203" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:15px" text-anchor="start"><text x="10" y="225">On abortion</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px" text-anchor="start"><text x="196" y="225">the gap is also 15 percentage</text><text x="196" y="246">points, with 56% of women backing it</text><text x="196" y="267">for any reason</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:16px;font-weight:600" text-anchor="start"><text x="10" y="317">Women aged 18 to 30 years are now on average 30</text><text x="10" y="338">percentage points more progressive than men of the</text><text x="10" y="359">same age</text></g>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:14px" text-anchor="start"><text x="10" y="381">Across 30 countries</text></g>
+<path d="M10,405 L510,405" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:15px" text-anchor="start"><text x="10" y="427">In 2000</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px" text-anchor="start"><text x="196" y="427">six percentage points</text></g>
+<path d="M10,437 L510,437" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:15px" text-anchor="start"><text x="10" y="459">Now</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px" text-anchor="start"><text x="196" y="459">30 percentage points</text></g>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:14px" text-anchor="start"><text x="10" y="499">In the United States, 40% of women aged 18 to 29 identify as</text><text x="10" y="519">liberal against 25% of men.</text></g>
 </svg>
 <figcaption>The gap shows up on welfare, guns, immigration and abortion.</figcaption>
 </figure>
@@ -84,6 +82,3 @@ The two habits meet in the family. In a strong family a husband and wife vote al
 
 | Section | Note file |
 |---|---|
-| Lead, How wide the gap is, The state as substitute husband, Following the consensus, What it does to the family | `research-raw/raw/politics/2026-08-15-basic-logic-an-honest-review-of-womens-suffrage.md` |
-| How wide the gap is | `research-raw/raw/politics/2026-10-21-front-page-the-gen-z-gender-war.md` and `research-raw/raw/politics/2026-10-21-front-page-socialism-always-fails.md` |
-| The state as substitute husband | `research-raw/raw/politics/2026-08-15-basic-logic-lonely-women-in-politics.md` and `research-raw/raw/politics/2026-05-11-triggernometry-the-biological-reason-socialism-always-fails.md` |

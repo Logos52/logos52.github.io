@@ -33,26 +33,24 @@ Many arguments hide one of their premises, so the first job is to find it. A use
 Hearing barking and howling, for example, supports the claim that a dog is nearby only because we know dogs bark and howl. That known fact is the warrant.
 
 <figure>
-<svg viewBox="0 0 520 300" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-valid2-a">
+<svg viewBox="-16 -16 552 378" width="100%" style="max-width:552px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="wv-valid2-a">
 <title id="wv-valid2-a">Grounds: Hearing barking and howling. Supports. Claim: a dog is nearby. Warrant: we know dogs bark and howl, the assumption, stated or not, that links the grounds to the claim. the claim, grounds, warrant, qualifier, rebuttal and backing. The first three do most of the work.</title>
-<rect x="10" y="12" width="190" height="81" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="middle"><text x="105.0" y="32">Grounds</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="105.0" y="53">Hearing barking and</text><text x="105.0" y="69">howling</text></g>
-<rect x="320" y="12" width="190" height="81" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;stroke:var(--accent);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="middle"><text x="415.0" y="32">Claim</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="415.0" y="53">a dog is nearby</text></g>
-<path d="M204,52.5 L316,52.5" style="fill:none;stroke:var(--mut);stroke-width:1.5"/><polygon points="316.0,52.5 307.0,57.5 307.0,47.5" style="fill:var(--mut)"/>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="middle"><text x="260" y="44">supports</text></g>
-<rect x="110" y="109" width="300" height="101" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="middle"><text x="260.0" y="129">Warrant</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="260.0" y="150">we know dogs bark and howl</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="260.0" y="170">the assumption, stated or not, that links</text><text x="260.0" y="186">the grounds to the claim</text></g>
-<path d="M260,109 L260,52.5" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
-<rect x="10" y="224" width="500" height="64" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="244">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="244">the claim, grounds, warrant, qualifier, rebuttal and backing</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="264">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="264">The first three do most of the work.</text></g>
+<rect x="-15.5" y="-15.5" width="551" height="377" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px;font-weight:600" text-anchor="start"><text x="20" y="36">Grounds</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="60">Hearing barking and</text><text x="20" y="80">howling</text></g>
+<rect x="330" y="18" width="24" height="3" rx="1.5" style="fill:var(--qp-accent)"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px;font-weight:600" text-anchor="start"><text x="330" y="36">Claim</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="330" y="60">a dog is nearby</text></g>
+<path d="M204,60.0 L316,60.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.5"/><polygon points="316.0,60.0 307.0,65.0 307.0,55.0" style="fill:var(--qp-mut)"/>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:12px" text-anchor="middle"><text x="260" y="52">supports</text></g>
+<path d="M110,124 L410,124" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px;font-weight:600" text-anchor="start"><text x="120" y="148">Warrant</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="120" y="172">we know dogs bark and howl</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="120" y="196">the assumption, stated or not, that</text><text x="120" y="216">links the grounds to the claim</text></g>
+<path d="M260,124 L260,60.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.5"/>
+<path d="M10,258 L510,258" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="282">the claim, grounds, warrant, qualifier, rebuttal and backing</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="306">The first three do most of the work.</text></g>
 </svg>
 <figcaption>That known fact is the warrant.</figcaption>
 </figure>
@@ -76,6 +74,5 @@ Being offended is no part of that test, even though debates now often treat it a
 
 | Section | Note file |
 |---|---|
-| Lead, Valid versus sound | `research-raw/raw/ideas/2026-10-21-research-bank-validity-and-truth.md` (Internet Encyclopedia of Philosophy, "Validity and Soundness", https://iep.utm.edu/val-snd/) and `research-raw/raw/politics/2026-05-11-triggernometry-why-critical-thinking-is-dead-warren.md` (TRIGGERnometry with Warren Smith) |
 | Finding the hidden link | Research bank (Purdue OWL, "Toulmin Argument", and Wikipedia, "Stephen Toulmin") and TRIGGERnometry with Warren Smith |
 | Stating the other side first | Research bank (Maria Popova quoting Daniel Dennett on Anatol Rapoport's rules, and Aquinas, *Summa Theologiae* I q.2 a.3) and TRIGGERnometry with Warren Smith |

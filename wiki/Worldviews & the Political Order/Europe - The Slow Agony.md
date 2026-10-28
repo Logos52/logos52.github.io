@@ -29,39 +29,38 @@ The gap shows first in household incomes. Real disposable income per person, mea
 Investors have seen the same divergence. American stocks returned roughly 500% including dividends over the 25 years that the leading eurozone index returned about nothing in price terms. Only 20% of German households own stocks, against 58% of American households, so most European savings sit in bank deposits and government bonds that gain little.
 
 <figure>
-<svg viewBox="0 0 520 529" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-eur2-a">
+<svg viewBox="-16 -16 552 561" width="100%" style="max-width:552px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="wv-eur2-a">
 <title id="wv-eur2-a">Europe has fallen steadily behind the United States. Real disposable income per person has grown almost twice as much in the United States as in the European Union since 2000. Around 70% of the gap in output per person comes from lower productivity, most of that productivity gap lies in the tech sector. Measured at constant prices, the GDP gap between the two widened: 2002 slightly more than 15%, 2023 30%. Over the 25 years: American stocks roughly 500% including dividends, the leading eurozone index about nothing in price terms. Own stocks: German households Only 20%, American households 58%.</title>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px;font-weight:600" text-anchor="middle"><text x="260.0" y="28">Europe has fallen steadily behind the United States</text></g>
-<rect x="10" y="44" width="245" height="109" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="64">Real disposable income per</text><text x="20" y="81">person</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="100">has grown almost twice as much in</text><text x="20" y="116">the United States as in the</text><text x="20" y="132">European Union since 2000</text></g>
-<rect x="265" y="44" width="245" height="109" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="275" y="64">Around 70% of the gap in</text><text x="275" y="81">output per person comes from</text><text x="275" y="98">lower productivity</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="275" y="117">most of that productivity gap</text><text x="275" y="133">lies in the tech sector</text></g>
-<rect x="10" y="163" width="245" height="189" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="183">Measured at constant prices,</text><text x="20" y="200">the GDP gap between the two</text><text x="20" y="217">widened</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="236">2002</text></g>
-<rect x="20" y="242" width="112.5" height="10" style="fill:var(--accent)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="268">slightly more than 15%</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="294">2023</text></g>
-<rect x="20" y="300" width="225.0" height="10" style="fill:var(--accent)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="326">30%</text></g>
-<rect x="265" y="163" width="245" height="189" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="275" y="183">Over the 25 years</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="275" y="202">American stocks</text></g>
-<rect x="275" y="208" width="225.0" height="10" style="fill:var(--accent)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="275" y="234">roughly 500% including dividends</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="275" y="260">the leading eurozone index</text></g>
-<rect x="275" y="266" width="1.5" height="10" style="fill:var(--accent)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="275" y="292">about nothing in price terms</text></g>
-<rect x="10" y="362" width="500" height="155" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="382">Own stocks</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="401">German households</text></g>
-<rect x="20" y="407" width="165.5" height="10" style="fill:var(--accent)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="433">Only 20%</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="459">American households</text></g>
-<rect x="20" y="465" width="480.0" height="10" style="fill:var(--accent)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="491">58%</text></g>
+<rect x="-15.5" y="-15.5" width="551" height="560" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px;font-weight:600" text-anchor="middle"><text x="260.0" y="28">Europe has fallen steadily behind the United States</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="64">Real disposable income per</text><text x="20" y="81">person</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="100">has grown almost twice as much in</text><text x="20" y="116">the United States as in the</text><text x="20" y="132">European Union since 2000</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="275" y="64">Around 70% of the gap in</text><text x="275" y="81">output per person comes from</text><text x="275" y="98">lower productivity</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><text x="275" y="117">most of that productivity gap</text><text x="275" y="133">lies in the tech sector</text></g>
+<path d="M10,163 L255,163" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="183">Measured at constant prices,</text><text x="20" y="200">the GDP gap between the two</text><text x="20" y="217">widened</text></g>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="236">2002</text></g>
+<rect x="20" y="242" width="112.5" height="10" style="fill:var(--qp-accent)"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="268">slightly more than 15%</text></g>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="294">2023</text></g>
+<rect x="20" y="300" width="225.0" height="10" style="fill:var(--qp-accent)"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="326">30%</text></g>
+<path d="M265,163 L510,163" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="275" y="183">Over the 25 years</text></g>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="275" y="202">American stocks</text></g>
+<rect x="275" y="208" width="225.0" height="10" style="fill:var(--qp-accent)"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><text x="275" y="234">roughly 500% including dividends</text></g>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="275" y="260">the leading eurozone index</text></g>
+<rect x="275" y="266" width="1.5" height="10" style="fill:var(--qp-accent)"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><text x="275" y="292">about nothing in price terms</text></g>
+<path d="M10,362 L510,362" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="382">Own stocks</text></g>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="401">German households</text></g>
+<rect x="20" y="407" width="165.5" height="10" style="fill:var(--qp-accent)"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="433">Only 20%</text></g>
+<g style="fill:var(--qp-mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="459">American households</text></g>
+<rect x="20" y="465" width="480.0" height="10" style="fill:var(--qp-accent)"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="491">58%</text></g>
 </svg>
 <figcaption>The gap shows first in household incomes.</figcaption>
 </figure>
@@ -91,6 +90,4 @@ The remedies are known, including common borrowing, a single capital market, sim
 
 | Section | Note file |
 |---|---|
-| Lead, How far behind | `research-raw/raw/politics/2026-10-21-mario-draghi-the-future-of-european-competitiveness-part.md` and `research-raw/raw/politics/2026-10-21-front-page-europe-is-failing.md` |
 | The choices behind it | Front Page note and Draghi Part A note |
-| Why it is now urgent | Draghi Part A note and `research-raw/raw/politics/2026-10-21-mario-draghi-address-presentation-of-the-report-on.md` and `research-raw/raw/politics/2026-08-15-basic-logic-why-europe-is-dying-explained-in.md` and Front Page note |

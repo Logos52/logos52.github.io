@@ -35,44 +35,33 @@ A whole country can fall into a debt trap when its politicians spend more than t
 The American numbers show the scale. The national debt stood at $39 trillion in April 2026 and grows by roughly 7.5 billion dollars a day. Interest alone now costs more than $1 trillion a year, which is more than the country spends on its military. Each household carries a share of about 289,000 dollars of that debt, which it never agreed to borrow. Young adults carry their own load as well, since Americans aged 18 to 29 together owe $1.12 trillion. That combined burden invites an uncomfortable comparison, because slaves in ancient Egypt paid a 20% tax on their harvest.
 
 <figure>
-<svg viewBox="0 0 520 686" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-fin2-a">
+<svg viewBox="-16 -16 552 896" width="100%" style="max-width:552px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="wv-fin2-a">
 <title id="wv-fin2-a">Honest finance: the lender shares the borrower's risk and wins only when the borrower succeeds. if it fails he loses too. Dishonest finance: the lender profits when the borrower fails. interest on the interest and never escapes. student debt cannot be cleared through bankruptcy. Buy now, pay later companies let people finance even a fast-food order without interest until they miss a payment, at which point late fees begin.. A whole country can fall into a debt trap: politicians spend more than they collect in taxes and borrow every year to cover the gap and the growing interest. A central bank deepens the trap. It creates money, buys the government's bonds with it and is repaid out of taxes, so citizens pay interest on money that was printed and that shrank the value of their own savings. Because the government cannot repay, it borrows more printed money to pay off the old loans, and the debt keeps growing. The national debt stood at $39 trillion in April 2026 and grows by roughly 7.5 billion dollars a day. Interest alone now costs more than $1 trillion a year, which is more than the country spends on its military. Each household carries a share of about 289,000 dollars of that debt.</title>
-<rect x="10" y="12" width="240" height="253" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;stroke:var(--accent);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="32">Honest finance</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="53">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="53">the lender shares the</text><text x="34" y="69">borrower's risk and wins only</text><text x="34" y="85">when the borrower succeeds</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="105">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="105">if it fails he loses too</text></g>
-<rect x="270" y="12" width="240" height="253" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="280" y="32">Dishonest finance</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="282" y="53">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="294" y="53">the lender profits when the</text><text x="294" y="69">borrower fails</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="282" y="89">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="294" y="89">interest on the interest and</text><text x="294" y="105">never escapes</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="282" y="125">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="294" y="125">student debt cannot be cleared</text><text x="294" y="141">through bankruptcy</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="282" y="161">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="294" y="161">Buy now, pay later companies</text><text x="294" y="177">let people finance even a</text><text x="294" y="193">fast-food order without</text><text x="294" y="209">interest until they miss a</text><text x="294" y="225">payment, at which point late</text><text x="294" y="241">fees begin.</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px;font-weight:600" text-anchor="middle"><text x="260.0" y="299">A whole country can fall into a debt trap</text></g>
-<rect x="10" y="311" width="300" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="331">politicians spend more than they collect</text><text x="20" y="347">in taxes and borrow every year to cover</text><text x="20" y="363">the gap and the growing interest</text></g>
-<path d="M160.0,387 L160.0,405" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
-<rect x="10" y="405" width="300" height="81" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="425">A central bank deepens the trap.</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="446">It creates money, buys the government's</text><text x="20" y="462">bonds with it and is repaid out of taxes</text></g>
-<path d="M160.0,486 L160.0,504" style="fill:none;stroke:var(--mut);stroke-width:1.5"/><polygon points="160.0,504.0 155.0,495.0 165.0,495.0" style="fill:var(--mut)"/>
-<rect x="10" y="504" width="300" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="524">so citizens pay interest on money that</text><text x="20" y="540">was printed and that shrank the value of</text><text x="20" y="556">their own savings</text></g>
-<path d="M160.0,580 L160.0,598" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
-<rect x="10" y="598" width="300" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="618">Because the government cannot repay, it</text><text x="20" y="634">borrows more printed money to pay off the</text><text x="20" y="650">old loans, and the debt keeps growing.</text></g>
-<rect x="320" y="311" width="190" height="276" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="332" y="331">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="344" y="331">The national debt stood</text><text x="344" y="347">at $39 trillion in</text><text x="344" y="363">April 2026 and grows by</text><text x="344" y="379">roughly 7.5 billion</text><text x="344" y="395">dollars a day.</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="332" y="415">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="344" y="415">Interest alone now</text><text x="344" y="431">costs more than $1</text><text x="344" y="447">trillion a year, which</text><text x="344" y="463">is more than the</text><text x="344" y="479">country spends on its</text><text x="344" y="495">military.</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="332" y="515">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="344" y="515">Each household carries</text><text x="344" y="531">a share of about</text><text x="344" y="547">289,000 dollars of that</text><text x="344" y="563">debt</text></g>
+<rect x="-15.5" y="-15.5" width="551" height="895" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="18" width="24" height="3" rx="1.5" style="fill:var(--qp-accent)"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px;font-weight:600" text-anchor="start"><text x="20" y="36">Honest finance</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="60">the lender shares the</text><text x="20" y="80">borrower's risk and wins</text><text x="20" y="100">only when the borrower</text><text x="20" y="120">succeeds</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="144">if it fails he loses too</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px;font-weight:600" text-anchor="start"><text x="280" y="36">Dishonest finance</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="280" y="60">the lender profits when the</text><text x="280" y="80">borrower fails</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="280" y="104">interest on the interest and</text><text x="280" y="124">never escapes</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="280" y="148">student debt cannot be</text><text x="280" y="168">cleared through bankruptcy</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="280" y="192">Buy now, pay later companies</text><text x="280" y="212">let people finance even a</text><text x="280" y="232">fast-food order without</text><text x="280" y="252">interest until they miss a</text><text x="280" y="272">payment, at which point late</text><text x="280" y="292">fees begin.</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px;font-weight:600" text-anchor="middle"><text x="260.0" y="354">A whole country can fall into a debt trap</text></g>
+<path d="M10,366 L310,366" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="390">politicians spend more than they</text><text x="20" y="410">collect in taxes and borrow every</text><text x="20" y="430">year to cover the gap and the</text><text x="20" y="450">growing interest</text></g>
+<path d="M10,496 L310,496" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px;font-weight:600" text-anchor="start"><text x="20" y="520">A central bank deepens the trap.</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="544">It creates money, buys the</text><text x="20" y="564">government's bonds with it and is</text><text x="20" y="584">repaid out of taxes</text></g>
+<path d="M160.0,612 L160.0,630" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.5"/><polygon points="160.0,630.0 155.0,621.0 165.0,621.0" style="fill:var(--qp-mut)"/>
+<path d="M10,630 L310,630" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="654">so citizens pay interest on money</text><text x="20" y="674">that was printed and that shrank</text><text x="20" y="694">the value of their own savings</text></g>
+<path d="M10,740 L310,740" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="764">Because the government cannot</text><text x="20" y="784">repay, it borrows more printed</text><text x="20" y="804">money to pay off the old loans, and</text><text x="20" y="824">the debt keeps growing.</text></g>
+<path d="M320,366 L510,366" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="330" y="390">The national debt</text><text x="330" y="410">stood at $39 trillion</text><text x="330" y="430">in April 2026 and</text><text x="330" y="450">grows by roughly 7.5</text><text x="330" y="470">billion dollars a</text><text x="330" y="490">day.</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="330" y="514">Interest alone now</text><text x="330" y="534">costs more than $1</text><text x="330" y="554">trillion a year,</text><text x="330" y="574">which is more than</text><text x="330" y="594">the country spends on</text><text x="330" y="614">its military.</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="330" y="638">Each household</text><text x="330" y="658">carries a share of</text><text x="330" y="678">about 289,000 dollars</text><text x="330" y="698">of that debt</text></g>
 </svg>
 <figcaption>Some modern lending works like legal slavery</figcaption>
 </figure>
@@ -88,5 +77,3 @@ The American numbers show the scale. The national debt stood at $39 trillion in 
 
 | Section | Note file |
 |---|---|
-| Lead, Honest and dishonest lending | `research-raw/raw/politics/2026-08-15-basic-logic-how-to-practice-slavery-financially.md` and `research-raw/raw/politics/2026-08-15-basic-logic-the-us-only-has-one-political.md` |
-| The same trap for a nation | Basic Logic slavery note and `research-raw/raw/politics/2026-08-15-basic-logic-printing-money-explained-in-2-minutes.md` and `research-raw/raw/politics/2026-10-21-front-page-socialism-always-fails.md` and `research-raw/raw/politics/2026-10-21-front-page-the-gen-z-gender-war.md` |
