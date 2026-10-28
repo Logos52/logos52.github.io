@@ -1,11 +1,13 @@
 ---
 title: "Socialism as Moral Correction"
+description: "Socialism is offered as a cure for real wrongs, but most of those wrongs come from the state's abuse of markets, so a bigger state makes them worse."
 type: concept
-status: developing
+status: draft
 created: 2026-08-16
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
+updated: 2026-10-23
+method: fresh-v2-primer-multisource-2026-10-23
+section: "Worldviews & the Political Order"
+group: "Markets, states and prosperity"
 tags:
   - politics
   - economics
@@ -14,100 +16,70 @@ tags:
 
 # Socialism as Moral Correction
 
-Socialism is argued for as a repair. The argument starts from things that have gone wrong: a few people own most of it, work is priced below what it produces, medicine costs more than it should, and the economy crashes at intervals. The proposal is a system that would not do those things.
+Socialism is often defended as a moral correction for real wrongs such as inequality, exploitation, predatory industries and market crashes. Several of those wrongs are real, but most of them come from the state's abuse of markets, so the socialist answer of a larger bureaucracy makes them worse. The whole debate over economic models also distracts from a corrupt financial system, because no model works while those financial abuses continue.
 
-Understood as a repair, the case has nine parts. Three of them name a real fault and assign it the wrong cause. The other six fail on their own terms. Where a defense falls in that split decides how much of it holds. The three that name a real fault hold as description, and only their conclusion fails.
+Oligarchy, predatory healthcare firms and market crashes all trace back to the alliance between the state and big business, which is why the cure is more competition with less government picking of winners. The other moral arguments treat wealth as a fixed pie, but wealth grows in long-term games where people build it together. Equality pursued by force can only cut people down, and the charge of exploitation leaves out the owner's work and risk. Socialism also cannot reduce scarcity, because it distributes resources without acquiring new ones.
 
-## Core takeaways
+## Real problems with the wrong cause
 
-- The case for socialism as a repair has nine parts. Three name a real fault. Six fail on their own construction.
-- The three real faults are the concentration of ownership, the extraction in medicine and schooling, and crashes. The diagnosis in each one holds.
-- In all three, the cause is a fusion of state and market rather than a market alone. A remedy that expands the state expands the same instrument.
-- The two moral defenses both require that a coordinating authority be exempt from the fault it is installed to correct.
-- The four factual defenses fail at four separate points: cohesion, missing information, distribution not adding resources, and prices absorbing a transfer.
-- The observations in the first three are worth keeping without the conclusion drawn from them.
+Capitalist societies can slide into oligarchy, where a few people control the nation. The mechanism is political, because the wealthy trade money for power and then use the state to crush competitors and grant themselves monopolies. Once that happens, the market is no longer free. Expanding the state to fix a problem caused by bad actors who control the state will backfire. Socialist societies end in rule by a few as well, a pattern called the iron law of oligarchy. The state and big business therefore work as allies, which is why libertarians watch their freedoms erode while socialists watch wealth concentrate into fewer hands.
 
-## Three faults that are real
+American healthcare shows how that alliance produces the predatory firms socialists point to. Many states require a certificate of need before a hospital or clinic can open or expand, which means the government decides whether there is enough demand. Pharmacies could be penalized for telling customers about cheaper ways to pay until 2018, and government-granted monopolies cover easy-to-make medicines such as insulin. Roughly half of the system runs through government programs, and tax subsidies and employer insurance shape the other half. As a result, the market barely functions.
 
-### Concentration of ownership
+Crashes follow the same pattern. The Great Depression came after decades of central banks changing interest rates and printing money, which invited bad investment. The official inquiry into the 2008 crisis blamed regulatory capture, government-backed mortgage securitization and Federal Reserve interest rate policy. Crony capitalism is the name for a system that produces these outcomes, and its cure is more competition with less government picking of winners.
 
-Capitalist societies do move toward control by a few, and denying that is the weaker position. What this defense gets wrong is the route. Wealth is converted into political power. That political power is then used to shut out competition and to grant monopolies. What results is not a market.
+<figure>
+<svg viewBox="0 0 520 552" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-smc2-a">
+<title id="wv-smc2-a">real wrongs | the state's abuse of markets. oligarchy: the wealthy trade money for power and then use the state to crush competitors and grant themselves monopolies. the predatory firms socialists point to: Many states require a certificate of need before a hospital or clinic can open or expand Pharmacies could be penalized for telling customers about cheaper ways to pay until 2018 government-granted monopolies cover easy-to-make medicines such as insulin. Crashes: The Great Depression came after decades of central banks changing interest rates and printing money, which invited bad investment.. exploitation: Bad actors can corner the means of production or hold wages down, but doing so usually takes force.. Crony capitalism is the name for a system that produces these outcomes, and its cure is more competition with less government picking of winners.</title>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="15" y="26">Real wrongs</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="185" y="26">The state's abuse of markets</text></g>
+<rect x="10" y="36" width="165" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;stroke:var(--accent);stroke-width:2"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="56">Oligarchy</text></g>
+<rect x="185" y="36" width="325" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="195" y="56">the wealthy trade money for power and then</text><text x="195" y="72">use the state to crush competitors and grant</text><text x="195" y="88">themselves monopolies</text></g>
+<rect x="10" y="120" width="165" height="164" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="140">The predatory firms</text><text x="20" y="156">socialists point to</text></g>
+<rect x="185" y="120" width="325" height="164" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="197" y="140">•</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="209" y="140">Many states require a certificate of need</text><text x="209" y="156">before a hospital or clinic can open or</text><text x="209" y="172">expand</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="197" y="192">•</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="209" y="192">Pharmacies could be penalized for telling</text><text x="209" y="208">customers about cheaper ways to pay until</text><text x="209" y="224">2018</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="197" y="244">•</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="209" y="244">government-granted monopolies cover</text><text x="209" y="260">easy-to-make medicines such as insulin</text></g>
+<rect x="10" y="292" width="165" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="312">Crashes</text></g>
+<rect x="185" y="292" width="325" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="195" y="312">The Great Depression came after decades of</text><text x="195" y="328">central banks changing interest rates and</text><text x="195" y="344">printing money, which invited bad investment.</text></g>
+<rect x="10" y="376" width="165" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="396">Exploitation</text></g>
+<rect x="185" y="376" width="325" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="195" y="396">Bad actors can corner the means of production</text><text x="195" y="412">or hold wages down, but doing so usually</text><text x="195" y="428">takes force.</text></g>
+<rect x="10" y="464" width="500" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="484">Crony capitalism is the name for a system that produces these outcomes,</text><text x="20" y="500">and its cure is more competition with less government picking of</text><text x="20" y="516">winners.</text></g>
+</svg>
+<figcaption>Several of those wrongs are real, but most of them come from the state's abuse of markets</figcaption>
+</figure>
 
-A remedy that expands the state expands the instrument being used this way. The tendency toward rule by an organized few then appears again inside whatever replaces the current arrangement.
+## Arguments that misread how wealth is made
 
-This is still not the weakest of the nine. The alternatives to it do not solve the problem either. Those alternatives are to deny that the drift happens, or to assume a market in which no one moves into an empty position of power because everyone acts rationally. A bad remedy aimed at a real and unsolved problem is a smaller failure than a remedy aimed at a problem that does not exist.
+Other moral arguments fail because they treat wealth as a fixed pie. Seeing rich and poor, many socialists judge the gap unjust and conclude that the state should take from one to give to the other. Wealth grows, though, which is why most modern Westerners live better than the kings of old, who died of diseases since cured. It grows in long-term games where people build it together, and someone who arrives at the end to demand a slice by force adds nothing to it.
 
-### Medicine and schooling
+Equality pursued by force also runs into human difference, because some people are more capable and have more to offer. A state cannot raise everyone to the top, so it can only cut people down, and the capable still rise into comfortable posts in the bureaucracy. In a country with a decent welfare system, the sting of inequality comes mostly from a yearning for status, since almost everyone has enough to eat.
 
-These sectors do take money from people who cannot decline to buy, and that extraction is not a market outcome. Producers have been barred from publishing prices in advance. Essential drugs that are cheap to manufacture carry exclusive rights granted by the state. New facilities cannot be built without an official finding that they are needed. Those rules describe a cartel licensed by the state, and the defense is correct that these sectors behave like one.
+The charge of exploitation rests on the labor theory of value, which says profit exists because workers produce more than they are paid. That theory leaves out the owner's work of supplying the means of production, organizing the labor and selling the goods, as well as the risk he carries. If workers could do all of that themselves, they would. Bad actors can corner the means of production or hold wages down, but doing so usually takes force. That puts it among the state's abuses.
 
-### Crashes
-
-Instability is real, and it is not particular to market economies. The episodes usually cited followed long periods of administered interest rates and monetary expansion. Under those conditions, capital is committed to things that look viable only at the current price of borrowing.
-
-### What the three have in common
-
-In all three, the diagnosis holds and the cause is a fusion of state and market rather than a market. A remedy that adds more state to that fusion has to argue that the fusion is the cure. None of the three defenses makes that argument.
-
-## The two moral defenses
-
-### Inequality as something the system produces
-
-This defense needs two premises. The first is that unequal outcomes are bad in themselves. The second is that unequal outcomes are produced by arrangements rather than by differences between people. The second premise is the one that fails. People differ in what they can do, and no arrangement raises everyone to the level of the most capable, so compression works downward.
-
-The larger problem is that removing one hierarchy puts another in place. A state that allocates position still ranks people, and it ranks them by administrative decision rather than by what anyone will voluntarily pay for. The ranking remains. What changes is the criterion, and the new criterion is closeness to whoever allocates.
-
-### Labour producing more than it is paid
-
-The claim is that profit is the gap between what a worker makes and what a worker receives, so returning the gap returns what the worker earned. What the claim leaves out is that supplying equipment, organising production, carrying the loss when output does not sell, and finding a buyer are themselves work. Someone performs each of them, and each is priced.
-
-Where the means of production are monopolised, or where the price of labour is held down by force, the objection holds and the gap is extracted rather than earned. That is a charge against the force rather than against the arrangement in general.
-
-## The four factual defenses
-
-### The European examples
-
-The usual answer is that those countries are market economies with large welfare systems. That answer is true, and it is not the main point. An economic model is a way of aligning incentives, and any model works where incentives already align. A household distributes by need and functions. The European examples share high internal cohesion, and cohesion is what makes the alignment cheap. The claim that needs support is that the result carries over to societies without that cohesion. Pointing at cases that had it supplies no support.
-
-### Computation solving central planning
-
-This defense begins by conceding that planning a whole economy has not worked, and that concession is right to make. It then places the failure in a lack of processing power, which is the wrong constraint. The binding problem is information. What people actually want, and at what price, is revealed by their transactions. Without those transactions the planner estimates instead of reading. More computation applied to absent information produces faster estimates.
-
-### Reducing scarcity
-
-A distribution system does not add resources. It changes who receives them and what people are rewarded for. The observed record of shortages under such systems matches what that mechanism predicts.
-
-### Subsidising demand
-
-Taxing producers to give purchasing power to consumers, who then buy from those producers, does not create wealth. It can appear to create wealth when the money is followed one step at a time and the tracing stops early. Either prices absorb the transfer, or prices are held and production falls.
-
-## What the nine defenses come to
-
-Three defenses correctly identify something wrong. Their conclusion does not follow from their observation, and the observation is worth keeping without the conclusion. The concentration of ownership, the licensed extraction in medicine, and the credit conditions behind crashes are real. Calling the arrangement that produced them a free market does not answer any of them.
-
-The remaining six fail on their own construction. The two moral defenses fail at the same point: both require that a coordinating authority be exempt from what it is being installed to correct. The case for socialism as a moral repair uses a diagnosis it usually gets right and a remedy that returns to the same instrument. The difference in the remedy is that no one can decline the new allocation.
-
-## How to practice this
-
-1. Take a defense of socialism you hold. Separate its diagnosis from its conclusion. Notice whether the conclusion follows from the observation.
-2. For a fault the defense names, ask who set the rules that produced it. Notice whether prices were barred, exclusivities granted, or interest rates administered. Notice whether you are looking at a market or at a fusion of state and market.
-3. Check whether the proposed remedy expands the instrument that produced the fault. Notice whether the defense argues that the fusion is the cure.
-4. For a proposal that removes a hierarchy, ask what ranks people afterwards. Notice whether the new criterion is closeness to whoever allocates.
-5. When a defense points at a country that works, ask whether its incentives already aligned. Notice whether high internal cohesion is doing the work.
-
-## Related pages
-
-- [[wiki/Worldviews & the Political Order/The Organized Minority|The Organized Minority]]: the tendency toward rule by an organized few, which is what the concentration defense correctly identifies and misattributes.
-- [[wiki/Worldviews & the Political Order/Democracy as Sacred Cow|Democracy as Sacred Cow]]: the adjacent question of who decides, defended on a comparable mixture of moral and empirical grounds.
-- [[wiki/Worldviews & the Political Order/Financial Slavery|Financial Slavery]]: the monetary mechanics behind the credit conditions the crash defense points at.
-- [[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]]: the distinction between a sound diagnosis and the conclusion drawn from it.
+Two economic promises share the fixed-pie error. Socialism cannot reduce scarcity, because like any economic system it distributes resources without acquiring new ones, so it can only give up efficiency in exchange for redistribution. Taxing producers and handing the money to consumers who buy from those producers creates no wealth either. Prices simply rise, and if they are fixed, production falls.
 
 ## Open questions
 
-If concentration of ownership follows from wealth converting into political power, what arrangement prevents the conversion without creating an authority large enough to be worth capturing?
-
-Where household-scale distribution works because incentives already align, what is the largest unit at which that alignment has been observed to hold without coercion?
+- Why does a larger state feel like the cure to people who see real wrongs in markets?
+- How does the fixed-pie view shape what a person thinks fairness requires?
+- What feeds the alliance between the state and big business over time?
 
 ## Sources
 
-*Socialism: All Arguments Ranked & Debunked*, 2026-03-16: <https://www.youtube.com/watch?v=WuNJgNhBMJo>. Supplied the nine defenses and their ordering.
+| Section | Note file |
+|---|---|
+| Lead | `research-raw/raw/politics/2026-08-15-basic-logic-socialism-all-arguments-ranked-debunked.md` |
+| Real problems with the wrong cause | Basic Logic socialism note and `research-raw/raw/politics/2026-08-15-basic-logic-the-us-only-has-one-political.md` and `research-raw/raw/politics/2026-10-21-front-page-socialism-always-fails.md` |
+| Arguments that misread how wealth is made | Basic Logic socialism note and `research-raw/raw/ai/2026-05-15-arjunkhemani-what-unifies-the-enemies-of-civilization.md` and `research-raw/raw/ideas/2026-05-07-naval-how-to-get-rich.md` and `research-raw/raw/politics/2026-05-11-triggernometry-the-biological-reason-socialism-always-fails.md` |

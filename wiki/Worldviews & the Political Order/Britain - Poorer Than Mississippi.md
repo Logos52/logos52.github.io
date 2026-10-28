@@ -576,7 +576,7 @@ The IMF cut Britain's 2026 growth forecast to 0.8%, the sharpest cut in the G7. 
 
 ## Related pages
 
-- [[wiki/Worldviews & the Political Order/Socialism - The Calculation Problem|Socialism - The Calculation Problem]]: the full version of what Britain did in 1945 and reversed after 1979, and why a plan cannot know what a price knows.
+- [[wiki/Worldviews & the Political Order/Socialism - Why Planned Economies Fail|Socialism - Why Planned Economies Fail]]: the full version of what Britain did in 1945 and reversed after 1979, and why a plan cannot know what a price knows.
 - [[wiki/Worldviews & the Political Order/Financial Slavery|Financial Slavery]]: how a government's debt takes a population's work. Britain's £102,000 per household and £111 billion a year of interest are that mechanism at national scale.
 - [[wiki/Worldviews & the Political Order/Per Capita|Per Capita]]: a total says how much there is and a rate says what it means for anyone inside it. Britain's total output grew while output per person fell.
 - [[wiki/Worldviews & the Political Order/Mass Immigration - Cohesion|Mass Immigration - Cohesion]]: the vault's own page on who gets let in and how many. The 2.55 million arrivals in four years here are the how-many part, measured against housing.
