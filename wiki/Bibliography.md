@@ -18,7 +18,7 @@ tags:
 - Front Page, "The Hypocrisy Of Men VS Women On Dating Apps" (YouTube, 2026-08-13). [[wiki/Concepts/Dating Apps - The Gini Coefficient|Dating Apps - The Gini Coefficient]]
 - Front Page, "The Gen Z Gender War" (YouTube, 2026-05-08). [[wiki/Worldviews & the Political Order/The Gen Z Gender War - The Split|The Gen Z Gender War - The Split]]
 - Front Page, "The Hypocrisy Of Male VS Women Spaces" (YouTube, 2026-07-30). [[wiki/Worldviews & the Political Order/Single-Sex Spaces - The Asymmetry|Single-Sex Spaces - The Asymmetry]]
-- Front Page, "Socialism Always Fails..." (YouTube, 2026-07-03). [[wiki/Worldviews & the Political Order/Socialism - The Calculation Problem|Socialism - The Calculation Problem]]
+- Front Page, "Socialism Always Fails..." (YouTube, 2026-07-03). [[wiki/Worldviews & the Political Order/Socialism - Why Planned Economies Fail|Socialism - Why Planned Economies Fail]]
 - Front Page, "Europe Is Failing…" (YouTube, 2026-06-26). [[wiki/Worldviews & the Political Order/Europe - The Slow Agony|Europe - The Slow Agony]]
 - Triggernometry, "How China Fakes Its Success with Frank Dikötter" (YouTube and X, 2026-09-05). [[wiki/Worldviews & the Political Order/China - The Temple and the Monks|China - The Temple and the Monks]]
 - The Invisible Hand, "Why Education is Destroying East Asia" (YouTube, 2026-07-26), with "Something Terrible is Happening in South Korea" (YouTube, 2025-03-07). [[wiki/Worldviews & the Political Order/East Asian Exams - The Arms Race|East Asian Exams - The Arms Race]]

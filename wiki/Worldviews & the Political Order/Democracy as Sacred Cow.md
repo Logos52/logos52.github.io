@@ -1,11 +1,13 @@
 ---
 title: "Democracy as Sacred Cow"
+description: "Democracy is a tool that works for some peoples some of the time, and its strongest defense holds only while votes still stand for real strength."
 type: concept
-status: developing
+status: draft
 created: 2026-08-16
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
+updated: 2026-10-23
+method: fresh-v2-primer-multisource-2026-10-23
+section: "Worldviews & the Political Order"
+group: "Who rules, and on what terms"
 tags:
   - politics
   - argument
@@ -13,115 +15,65 @@ tags:
 
 # Democracy as Sacred Cow
 
-Seven arguments for democracy are in common circulation. Five of them break outright or hold only for a limited period. Two are still standing at the end, and they stand for different reasons.
+Democracy is a tool and not a god. Modern societies treat it as an unquestionable good that every people would prosper under and that should be imposed by force wherever it is missing. Like any tool, though, it works for some peoples some of the time, and where it does not fit the job it should be replaced with something better suited. Most of the common defenses of democracy fail, and the one that holds depends on votes still standing for real strength.
 
-The seven get repeated more often than they get examined. Examining them tends to be read as an attack on something settled rather than as a question about something contested. The question here is not whether democracy can work. It is whether the reasons usually given for it hold up.
+The consent defense fails because a democracy is still organized coercion, and the wisdom-of-crowds defense fails because most voters stay ignorant for a rational reason. On its own terms the fairness defense fails too, since one person, one vote is equal without being fair. The defense that holds is that elections replace violent fights for power, because a vote works as a promise of force. That logic breaks once an armed, motivated minority faces an apathetic majority. Democracies are richer because a competent, self-reliant people would prosper anyway, which is also why democracy cannot be imposed from outside.
 
-The wide question cannot be answered. A system can be right for a population that can carry it and wrong for a population that cannot. That makes the interesting claim conditional on the population rather than universal. None of the seven defenses is conditional. Each is offered as a reason democracy suits anyone.
+## Defenses that fail
 
-## Core takeaways
+The consent defense says democracy is fair because the ruled agree to it. If people really consented, a state would need no police, so a democracy is still organized coercion that differs only in justifying its force by majority support.
 
-- Seven defenses of democracy are in common circulation. Five break outright or narrow to a period.
-- The consent defense fails because a vote allows no refusal. Compliance still has to be enforced, which an agreement would not require.
-- The crowd-judgment defense requires independent judgments. Mass electorates do not supply them, and one vote never decides an outcome, so staying uninformed is the rational choice.
-- One defense holds intact: elections measure relative support so rulers can change without a fight. It degrades when votes stop tracking actual force.
-- The equal-weight defense is left standing because the usual answer to it does not address the regress. If votes are weighted, somebody sets the weights, and that somebody rules.
-- The result is a case rather than a verdict. A system can outlive every argument made for it.
+The wisdom-of-crowds defense says the majority is usually right, so everyone should vote on policy. Most opinions are copies, because a person asked about something he does not know repeats whatever he has already heard, which hands the crowd's wisdom to whoever owns the media. Voters also stay ignorant for a rational reason. Learning politics well is hard work and one vote never decides an election, so the reward for being informed is close to zero. Direct votes show the result, since a bare majority of 50.1% can pass anything after reading a headline.
 
-## The consent argument
+Ignorant voters also reward short-term promises, which is why politicians offer free stuff now and leave the bill for later. A people that learns it can vote itself money from the treasury keeps doing so until the country goes bankrupt. Politics then turns into a contest over who will sell the nation's future hardest. Rulers who own the outcome think longer term, because the nation is theirs. A monarch has to care about a subject's whole working life and the skills passed to his heirs, while a politician cares only for the length of his term.
 
-A government is legitimate when the people it rules have agreed to be ruled, and voting is how that agreement is given and renewed. Whoever votes takes part in authorizing the government. Whoever abstains was offered the authorization and declined it. Rule of that kind differs from rule imposed by force.
+The fairness defense fails on its own terms. One person, one vote is equal, which is a different thing from fair, because no two people are equal.
 
-The argument depends on what consent means. Consent that makes an agreement binding requires that refusal be possible and that refusal carry a consequence. A vote offers no refusal. Abstaining exempts nobody from the result, and the losing side is bound on exactly the terms of the winning one. Compliance also still has to be enforced. An arrangement resting on agreement would not require police to collect what was agreed to.
+## The defense that holds
 
-What is left is smaller than the defense claimed. Voting settles who authorizes the coercion, and the coercion stays in place.
+The strongest argument is that elections replace violent fights for power. A vote works as a promise of force. Each side counts its support and assumes the larger side would win a civil war, so the loser concedes and power changes hands peacefully.
 
-## The many judging better than the few
+That logic breaks once votes stop matching force. Suppose a well-armed, motivated minority of about 45% faces a cowardly or apathetic majority of about 55%. The majority wins every election, but the minority would win any civil war, so sooner or later it stops accepting the result. A fight of that kind is worse than a quarrel among a monarch's elites, because mass politics can push ordinary families onto opposite sides.
 
-Average enough independent judgments and the average beats most of the individual judgments in it. The effect is real. If the many judge better than the few, the many should decide.
+<figure>
+<svg viewBox="0 0 520 288" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-dem2-a">
+<title id="wv-dem2-a">A vote works as a promise of force. Suppose a well-armed, motivated minority of about 45% faces a cowardly or apathetic majority of about 55%. a well-armed, motivated minority of about 45%: the minority would win any civil war, so sooner or later it stops accepting the result. a cowardly or apathetic majority of about 55%: The majority wins every election.</title>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px;font-weight:600" text-anchor="middle"><text x="260.0" y="28">A vote works as a promise of force.</text></g>
+<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="10" y="50">Suppose</text></g>
+<rect x="10" y="58" width="240" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;stroke:var(--accent);stroke-width:2"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="130.0" y="78">a well-armed, motivated minority</text><text x="130.0" y="94">of about 45%</text></g>
+<rect x="270" y="58" width="240" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="390.0" y="78">a cowardly or apathetic majority</text><text x="390.0" y="94">of about 55%</text></g>
+<path d="M130,118 L130,136" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
+<path d="M390,118 L390,136" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
+<rect x="10" y="136" width="240" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="130.0" y="156">the minority would win any civil</text><text x="130.0" y="172">war</text></g>
+<rect x="270" y="136" width="240" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="390.0" y="156">The majority wins every election</text></g>
+<path d="M130,196 L130,216" style="fill:none;stroke:var(--mut);stroke-width:1.5"/><polygon points="130.0,216.0 125.0,207.0 135.0,207.0" style="fill:var(--mut)"/>
+<rect x="10" y="216" width="240" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;stroke:var(--accent);stroke-width:2"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="130.0" y="236">so sooner or later it stops</text><text x="130.0" y="252">accepting the result</text></g>
+</svg>
+<figcaption>That logic breaks once votes stop matching force.</figcaption>
+</figure>
 
-The effect has a condition, and the condition is independence. Mass electorates do not supply it. Most voters hold a position they have already heard, so the aggregate measures how widely something was broadcast rather than how many people worked it out.
+## Wealth and imposing it
 
-There is a second problem, and it is structural. Becoming informed costs real time, and one vote never decides an outcome, so the return on the effort rounds to nothing. Staying uninformed is the rational choice. A system that makes ignorance rational cannot then claim the wisdom of the crowd it produced.
+Democracies are richer, but the rich democracies are Western countries, so the link is a correlation. The better explanation runs the other way. Founding a democracy and keeping it alive without outside help takes a competent, self-reliant people, and such a people would prosper anyway.
 
-## Better than every alternative tried
-
-Every alternative has been tried and produced worse results, so democracy wins on comparison even with its defects admitted.
-
-Read across a long enough span, the comparison stops holding. The claim was defensible in the middle of the last century. It now has to survive a pattern where an electorate discovers it can vote itself the contents of the treasury and does so until there is nothing left. That caps the claim to a period rather than destroying it. The cap is the honest result and it is less than the defense needs.
-
-## One vote each
-
-One vote each is the only distribution that requires no judgment about whose opinion counts more. Any other scheme needs someone to set the weights, and whoever sets them holds the real power. Equal weighting is therefore the only distribution that keeps an unaccountable authority out.
-
-The usual answer to this is that equality is not fairness, since equal shares are fair only where the recipients are alike in whatever the shares are for. That answer is true, and it does not reach the argument above. Nothing in it addresses the regress: if votes are to be weighted, somebody weights them, and that somebody rules. A rebuttal would have to break the regress, and the usual one does not touch it.
-
-Composition is a different lever. Who is in the pool can change by admission and by remigration, and nobody has to assign a weight. No weigher is introduced, so the regress does not arise. The defense above covers how votes are counted among whoever already holds them. It says nothing about who those people are.
-
-## Changing rulers without a fight
-
-One defense survives intact.
-
-Before elections, changing rulers meant fighting. Elections let relative support be measured without the fight. Each side estimates who would win, and the side that would lose concedes rather than pay for losing. That is a real achievement, and nothing else on the list comes close to it.
-
-It also has a condition. The mechanism works while votes track actual force, and it degrades when they stop.
-
-```text
-Party A holds a motivated, well-armed 45% of the country.
-Party B holds an apathetic 55%.
-
-B wins every election. A wins any civil war.
-
-The question the arrangement cannot answer is how long A keeps conceding
-to a count that measures something other than what a fight would settle.
-```
-
-There is a second cost, and it belongs to democracies specifically. Where power is contested among a small ruling class, a succession fight stays among them. Mass mobilization carries the same fight into ordinary households and sorts families onto opposite sides.
-
-## Protecting liberties
-
-Democracy protects liberties better than the alternatives, through constitutional protections, independent courts, a free press, and rulers who face re-election and therefore have reason not to abuse the people who will judge them.
-
-The record complicates this. Legislation intended to end discrimination has ended freedom of association instead. One protection was extended, and a different one was quietly spent to pay for it.
-
-The incentive half of the defense is weaker than it sounds. An elected official's horizon ends with his term, and a citizen's usefulness beyond it is somebody else's problem. The alternative on offer, a ruler whose horizon includes his heirs, is asserted rather than demonstrated.
-
-## Democracies being richer
-
-Democracies are substantially richer than non-democracies, and the correlation is strong and persistent.
-
-The correlation is not in dispute. What it licenses is. The wealth tracks the West more closely than it tracks the system, and the direction of the arrow is unsettled. Establishing a democracy and holding it without outside help takes a competent and self-reliant population, which is the sort of population that produces wealth under most arrangements. Where the system has been installed from outside on populations that had not produced it, the results have generally been worse than what preceded them.
-
-## What the count comes to
-
-Five of the seven defenses break outright or narrow to a period. One holds, with a failure condition attached to it. One is left standing because the answer usually given to it does not reach it.
-
-That is a thinner case than the respect democracy usually receives, and it is a case rather than a verdict. A system can outlive every argument made for it. What the count establishes is that the arguments are load-bearing in far fewer places than the people repeating them assume, and that treating the question as closed has cost the defenders the ability to say why.
-
-## How to practice this
-
-1. Take a defense of democracy you hold. Ask whether it is stated as conditional on the population. Notice that none of the seven is.
-2. Test a consent claim by asking whether refusal is possible and carries a consequence. Notice whether compliance still has to be enforced.
-3. Take a claim that the many judge better. Ask whether the judgments in it were formed independently. Notice how many people are repeating a position they already heard.
-4. Work out what one vote returns for the time spent getting informed. Notice that staying uninformed is the rational choice.
-5. Take a claim that democracy beats every alternative. Ask what span of time it covers. Notice whether it survives an electorate voting itself the treasury.
-6. For an election result, ask whether the count tracks who would win a fight. Notice whether the losing side still has reason to concede.
-
-## Related pages
-
-- [[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]]: why a page here can show an argument breaks without showing its conclusion is false.
-- [[wiki/Worldviews & the Political Order/The Organized Minority|The Organized Minority]]: the account of why an organized few rule an unorganized many, which the rational-ignorance objection approaches from the other side.
-- [[wiki/Worldviews & the Political Order/The Civil Rights Act - Freedom of Association|The Civil Rights Act - Freedom of Association]]: the counterexample the liberties defense runs into, argued in full there.
-- [[wiki/Worldviews & the Political Order/Socialism as Moral Correction|Socialism as Moral Correction]]: the adjacent question of how a society distributes, defended on a similar mixture of moral and empirical grounds.
+The same point explains why democracy cannot be imposed from outside. Democracy is an expensive arrangement that needs institutions and social trust built up first, and colonies that moved to majority rule too fast saw it fall. Nations liberated into democracy have often ended up worse than before, which is why outsiders cannot enforce it in the Middle East and a people has to lead its own change. Even the American Constitution "was made only for a moral and religious people."
 
 ## Open questions
 
-If votes work as a proxy for force, what happens to the mechanism in a society where the capacity for force has become concentrated in a professional class that does not vote as a bloc?
-
-Any weighting of votes requires someone to set the weights. Is there a scheme where the weigher is constrained by something other than the votes being weighted?
-
-If composition can change the electorate without anyone assigning weights, what stops that lever from doing the work the weighting debate is trying to do?
+- Why does treating democracy as an unquestionable good make sense to the people who defend it?
+- How does a single voter think about a choice his one vote will never decide?
+- Why does a ruler who owns the outcome think further ahead than an elected one?
 
 ## Sources
 
-*Democracy: All Arguments Ranked & Debunked*, 2026-08-08: <https://www.youtube.com/watch?v=z55r37SETiY>. Supplied the seven defenses, their ordering, and the worked case on armed minorities.
+| Section | Note file |
+|---|---|
+| Lead | `research-raw/raw/politics/2026-08-15-basic-logic-democracy-all-arguments-ranked-debunked.md` (Basic Logic, https://www.youtube.com/watch?v=z55r37SETiY) and `research-raw/raw/politics/2026-08-15-basic-logic-modern-democracy-explained-in-2-minutes.md` and `research-raw/raw/politics/2026-08-15-basic-logic-what-politics-must-christians-support.md` |
+| Defenses that fail | Basic Logic democracy note and modern democracy note and `research-raw/raw/ai/2026-07-21-naval-riding-agi-ai-anxiety-who-funded.md` (Naval) |
+| The defense that holds | Basic Logic democracy note and modern democracy note and `research-raw/raw/politics/2026-08-15-basic-logic-voting-is-not-a-right.md` |
+| Wealth and imposing it | Basic Logic democracy note and `research-raw/raw/politics/2026-08-15-basic-logic-rhodesia-modern-zimbabwe-explained-in-3.md` and `research-raw/raw/ideas/2026-06-20-all-in-worlds-first-trillionaire-anthropic-fable-banned.md` (All-In) |

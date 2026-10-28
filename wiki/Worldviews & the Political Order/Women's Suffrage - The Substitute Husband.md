@@ -1,11 +1,13 @@
 ---
 title: "Women's Suffrage - The Substitute Husband"
+description: "Women vote differently from men because many treat the state as a substitute husband and follow the institutional consensus, which gives parties a reason to work against the family."
 type: concept
-status: developing
+status: draft
 created: 2026-08-16
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
+updated: 2026-10-23
+method: fresh-v2-primer-multisource-2026-10-23
+section: "Worldviews & the Political Order"
+group: "Who rules, and on what terms"
 tags:
   - politics
   - argument
@@ -13,76 +15,75 @@ tags:
 
 # Women's Suffrage - The Substitute Husband
 
-Extending the franchise changed what the electorate wants, and the change has a direction. The claim here is not that the new voters vote badly in a general sense. It is that they vote for one specific substitution: the state taking on the functions a household provider once performed. That substitution is structurally available in one direction only.
+Women in the West vote differently from men, and the gap comes from two habits. Many women vote to make the state a substitute husband that protects and provides for them, and many follow whatever the dominant institutions believe. At best, then, women's suffrage is largely redundant, and at worst it gives parties a reason to undermine the family.
 
-Two mechanisms are proposed for the pattern. One of them is much better supported than the other.
+Against men, women show swings of 8 to 20 percentage points on welfare, guns, immigration and abortion, and among the young the gap has grown from six percentage points in 2000 to 30 percentage points. The state takes over the husband's job of protecting and providing, which leaves men with little but their looks and splits married women from unmarried ones. Women also back whatever the institutions currently teach, because agreeableness brings a fear of going against the consensus. Once votes belong to individuals, a party that appeals to single women has a reason to delay family formation or to set wives against husbands.
 
-## Core takeaways
+## How wide the gap is
 
-- The state can supply income, housing, medical care, and physical security, so it can stand in for a household provider.
-- No programme supplies companionship, a household, or children, so the substitution is available in one direction only.
-- Contemporary surveys place women eight to fifteen points ahead of men in support for expanding transfer programmes that are already large by any historical standard.
-- A Greek comedy from the fourth century BC names the same policy cluster, so the pattern was described long before current polling existed.
-- Women score higher on agreeableness on average and track perceived consensus. When the dominant institutions were conservative, women voted more conservatively than men.
-- The substitution mechanism is available. Its share of the decline in family formation is not measured here.
+The gap shows up on welfare, guns, immigration and abortion. Against men, women show an 8 to 15 percentage-point swing in favour of expanding welfare and a 20 percentage-point swing in favour of more gun control. On mass immigration the swing reaches 15 percentage points, and on abortion the gap is also 15 percentage points, with 56% of women backing it for any reason.
 
-## An old description of the same policy list
+Among the young the gap is wider still, because young women have moved left while young men held steady or moved right. Across 30 countries, women aged 18 to 30 years are now on average 30 percentage points more progressive than men of the same age. In 2000 that gap was six percentage points. In the United States, 40% of women aged 18 to 29 identify as liberal against 25% of men.
 
-This is offered as evidence that the pattern is structural rather than incidental: it was described before it happened. A Greek comedy from the fourth century BC stages women taking control of the assembly and enacting a programme: communal provision, redistribution to eliminate need, hostility to private property, and the dissolution of exclusive pairings in favour of collective arrangement.
+<figure>
+<svg viewBox="0 0 520 569" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-suff2-a">
+<title id="wv-suff2-a">Against men, women show: in favour of expanding welfare, an 8 to 15 percentage-point swing. in favour of more gun control, a 20 percentage-point swing. On mass immigration, the swing reaches 15 percentage points. on abortion, the gap is also 15 percentage points, with 56% of women backing it for any reason. Across 30 countries, women aged 18 to 30 years are now on average 30 percentage points more progressive than men of the same age. In 2000, six percentage points. now, 30 percentage points. In the United States, 40% of women aged 18 to 29 identify as liberal against 25% of men.</title>
+<rect x="10" y="12" width="500" height="293" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="32">Against men, women show</text></g>
+<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="53">In favour of expanding welfare</text></g>
+<rect x="212.0" y="59" width="168.0" height="10" style="fill:var(--accent)"/>
+<rect x="20" y="63" width="192.0" height="2" style="fill:var(--rule2)"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="85">an 8 to 15 percentage-point swing</text></g>
+<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="113">In favour of more gun control</text></g>
+<rect x="20.0" y="119" width="480.0" height="10" style="fill:var(--accent)"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="145">a 20 percentage-point swing</text></g>
+<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="173">On mass immigration</text></g>
+<rect x="20.0" y="179" width="360.0" height="10" style="fill:var(--accent)"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="205">the swing reaches 15 percentage points</text></g>
+<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="233">On abortion</text></g>
+<rect x="20.0" y="239" width="360.0" height="10" style="fill:var(--accent)"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="265">the gap is also 15 percentage points, with 56% of women backing it for</text><text x="20" y="281">any reason</text></g>
+<rect x="10" y="317" width="500" height="192" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="337">Women aged 18 to 30 years are now on average 30 percentage points</text><text x="20" y="354">more progressive than men of the same age</text></g>
+<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="371">Across 30 countries</text></g>
+<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="393">In 2000</text></g>
+<rect x="20.0" y="399" width="96.0" height="10" style="fill:var(--accent)"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="425">six percentage points</text></g>
+<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="453">Now</text></g>
+<rect x="20.0" y="459" width="480.0" height="10" style="fill:var(--accent)"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="485">30 percentage points</text></g>
+<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="529">In the United States, 40% of women aged 18 to 29 identify as liberal</text><text x="20" y="545">against 25% of men.</text></g>
+</svg>
+<figcaption>The gap shows up on welfare, guns, immigration and abortion.</figcaption>
+</figure>
 
-It was written as farce. It names, in order, the policy cluster that modern voting data shows. Contemporary surveys place women eight to fifteen points ahead of men in support for expanding transfer programmes already large by any historical standard.
+## The state as substitute husband
 
-A description that old cannot be an artefact of the data it matches. Whatever produced it was not reading current polling. That makes it stronger evidence than one more contemporary survey.
+The first habit is that the state takes over the husband's old job of protecting and providing. Since the state produces nothing, it can only provide by taking resources from men. The same logic runs through the welfare state as a whole, which promises stability, protection and provision without the reciprocity a relationship demands. Its funding feels infinite because the costs are spread out and delayed.
 
-## The state as a substitute provider
+That loss falls hardest on men. Protecting and providing once gave men an advantage in finding a spouse. Because the state now hands those things out for free, men are left with little but their looks. That shift is a likelier cause of the recent male obsession with appearance than dating apps or social media.
 
-The state can perform the functions of a provider and a protector. It can supply income, housing, medical care, and physical security, imperfectly and at scale.
+The pattern also splits women by their relationships. A woman in a lasting, successful relationship has no wish to share her man through the state, while a woman without one is more likely to want the state to redistribute. Married women and unmarried young women vote very differently, and people grow more conservative once they have something to protect.
 
-That makes it a viable substitute for one half of a household arrangement. A voter for whom it is a viable substitute has a rational interest in expanding it. The interest is strongest among the unpartnered, where the alternative is least available. It is weakest among women whose own household already supplies what the state would.
+## Following the consensus
 
-The asymmetry is what makes this specific rather than general. The state cannot substitute for what a wife provides a husband. There is no programme that delivers companionship, a household, or children, and no expansion of provision creates one. Expanding the state substitutes for a male role and does not substitute for a female one. The coalition it creates has no mirror image.
+The second habit is that women back whatever the institutions currently teach. Women are on average more agreeable than men, and agreeableness brings a fear of going against the perceived consensus. Some decades ago, when mainstream institutions were conservative, women were more conservative than men. Voting as echoes of institutions entrenches those institutions, which shelters corruption and dogma.
 
-One further claim follows. A platform that draws disproportionate support from unpartnered women has an incentive to keep them unpartnered, because partnership reduces the demand for the substitute. Nobody need intend this for it to operate. Incentives of that kind work through what a coalition finds itself rewarded for. No plan is required.
+## What it does to the family
 
-## What the substitution account does not establish
-
-That the incentive exists follows from the asymmetry above. That it has produced the observed decline in family formation is a causal claim about a period with many other things happening in it, and the material does not isolate it. The mechanism is available. Its share of the outcome is not measured here. A sister page traces a schooling chain to the same household result, and neither one is isolated.
-
-## Agreeableness and the pull of consensus
-
-The second mechanism is the better-evidenced one, and it is not about welfare at all.
-
-Women score higher on agreeableness on average. One consequence is greater sensitivity to perceived consensus. A voter with that disposition tracks the dominant institutional position rather than reasoning independently toward a position that would put them at odds with it.
-
-This can be checked against the record, and it holds. When the dominant institutions were conservative, women voted more conservatively than men. The gap ran the other way then, and it turned over when the institutions did. A fixed political preference would not do that.
-
-That is a stronger finding than a claim about which direction women vote, because one mechanism explains both directions. What it identifies is an amplifier: a bloc that increases the weight of whatever the prevailing institutional view happens to be.
-
-The consequence is about scrutiny rather than about policy. A large body of voters tracking consensus makes the consensus harder to dislodge, reduces the electoral cost of institutional capture, and rewards dogmatism over argument. None of that depends on which direction the amplification runs.
-
-## Weighing the two accounts
-
-On the agreeableness account, the extension is largely redundant. It attaches an amplifier to institutions and adds weight to positions that already held it. Where households are intact the redundancy holds for a second reason: aligned spouses vote the same way, and the additional vote changes no outcome.
-
-On the substitution account, it is worse than redundant, because it creates a coalition whose interest runs against the household formation that produces the next electorate.
-
-The two accounts are compatible. The amplification account does not stand on its own: an amplifier is only dangerous in the direction it amplifies, and the direction is set by institutions that have their own reasons for the settlement.
-
-The joint outcome is not in dispute. Family formation is at a recorded low. Transfer spending is at a recorded high. Reported loneliness is rising in both sexes. The range of institutionally acceptable opinion is narrower than it was. The material does not settle whether the franchise caused that or merely coincided with it.
-
-## Related pages
-
-- [[wiki/Worldviews & the Political Order/Democracy as Sacred Cow|Democracy as Sacred Cow]]: the wisdom-of-crowds defense, which requires the independence this account says the amplifier removes.
-- [[wiki/Worldviews & the Political Order/Schooling - The Format Filter|Schooling - The Format Filter]]: a different proposed cause of the same household result, equally unisolated.
-- [[wiki/Worldviews & the Political Order/The Organized Minority|The Organized Minority]]: why a bloc that tracks institutional consensus is useful to whoever holds the institutions.
-- [[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]]: the difference between an available mechanism and a demonstrated cause.
+The two habits meet in the family. In a strong family a husband and wife vote alike, so the extra vote adds nothing. Once votes belong to individuals, a party whose platform appeals to single women has a reason to delay family formation or to set wives against husbands. That reason exists because women in successful marriages rarely vote for the substitute husband. The outcomes are record low family formation, record high spending and lonelier men and women, and the female vote has upheld every policy behind them.
 
 ## Open questions
 
-If the amplification account is correct, the effect reverses whenever institutions do. What would that predict about a period in which institutional consensus moved right?
-
-Where an incentive exists but its share of an outcome is unmeasured, what evidence would separate it from the other changes of the same period?
+- How does a woman without a lasting relationship come to see the state as the safer provider?
+- Why does a welfare state's funding feel infinite to the people relying on it?
+- Why does following the consensus feel like the right choice to the person doing it, even as the consensus itself moves?
+- How does having something to protect change the way a married woman weighs a political choice?
 
 ## Sources
 
-*An Honest Review of Women's Suffrage*, 2026-07-17. <https://www.youtube.com/watch?v=bhyTtUcujQc>. Supplied the voting-gap figures, the substitution account, the agreeableness mechanism, and the historical reversal test. The predicted policy cluster is from Aristophanes, *Assembly of Women* (c. 391 BC).
+| Section | Note file |
+|---|---|
+| Lead, How wide the gap is, The state as substitute husband, Following the consensus, What it does to the family | `research-raw/raw/politics/2026-08-15-basic-logic-an-honest-review-of-womens-suffrage.md` |
+| How wide the gap is | `research-raw/raw/politics/2026-10-21-front-page-the-gen-z-gender-war.md` and `research-raw/raw/politics/2026-10-21-front-page-socialism-always-fails.md` |
+| The state as substitute husband | `research-raw/raw/politics/2026-08-15-basic-logic-lonely-women-in-politics.md` and `research-raw/raw/politics/2026-05-11-triggernometry-the-biological-reason-socialism-always-fails.md` |
