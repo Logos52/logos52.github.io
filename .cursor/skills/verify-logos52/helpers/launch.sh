@@ -31,12 +31,12 @@ fi
 cd "${REPO_ROOT}"
 : > "${LOG_FILE}"
 
-# New process group so cleanup can kill npm + astro + node children we started.
-set -m
-npm run dev -- --host "${BIND_HOST}" --port "${PORT}" >>"${LOG_FILE}" 2>&1 &
+# New session so the dev server survives the launch script exiting.
+# A background job in the launcher's session gets SIGHUP when that shell ends.
+setsid npm run dev -- --host "${BIND_HOST}" --port "${PORT}" >>"${LOG_FILE}" 2>&1 < /dev/null &
 VERIFY_PID=$!
+sleep 0.2
 VERIFY_PGID="$(ps -o pgid= -p "${VERIFY_PID}" | tr -d ' ')"
-set +m
 
 cat > "${STATE_FILE}" <<EOF
 VERIFY_PID=${VERIFY_PID}

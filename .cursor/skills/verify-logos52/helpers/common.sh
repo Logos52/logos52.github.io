@@ -122,8 +122,14 @@ port_owned_by_run() {
 
 http_ok() {
   local path="${1:-/}"
-  # Swallow connect errors while the server is still binding; callers treat non-200 as not ready.
-  curl -sS -o /dev/null -w "%{http_code}" --max-time 5 "${BASE_URL}${path}" 2>/dev/null || echo "000"
+  local code
+  # Curl prints 000 and exits non-zero when nothing is listening. Keep a single code.
+  code="$(curl -sS -o /dev/null -w "%{http_code}" --max-time 5 "${BASE_URL}${path}" 2>/dev/null)" || code="000"
+  if [[ -z "${code}" || "${code}" == "000" ]]; then
+    echo "000"
+  else
+    echo "${code}"
+  fi
 }
 
 page_has_marker() {

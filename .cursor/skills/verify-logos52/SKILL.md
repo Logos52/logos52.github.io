@@ -21,7 +21,7 @@ Install is `npm ci` (Node >= 22). Launch does not install.
 .cursor/skills/verify-logos52/helpers/launch.sh
 ```
 
-That script runs `npm run dev -- --host 0.0.0.0 --port 4321` from the repo root, records the PID and process group in `/tmp/verify-logos52/run.env`, and waits until `GET http://127.0.0.1:4321/` returns 200 and the HTML contains `hero__title`.
+That script runs `npm run dev -- --host 0.0.0.0 --port 4321` from the repo root, in its own session (`setsid`) so the server stays up after the launch script exits. It records the PID and process group in `/tmp/verify-logos52/run.env`, and waits until `GET http://127.0.0.1:4321/` returns 200 and the HTML contains `hero__title`.
 
 Ready means the home page is usable:
 
