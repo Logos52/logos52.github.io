@@ -58,7 +58,7 @@ How do you determine the validity of personal beliefs? Analyzing the logical str
 - **[[wiki/Worldviews & the Political Order/Racial Fatigue|Racial Fatigue]]**: No position. The page is about how people become exhausted by a demand that never stops: the demand that they keep attending to black Americans' grievances against the country.
 - **[[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]]**: No position. It is the page that explains the method for reading the other pages in this list.
 - **[[wiki/Worldviews & the Political Order/Per Capita|Per Capita]]**: No position. It explains how to reason about rates and totals.
-- **[[wiki/Worldviews & the Political Order/What Is the Virtue of a Proportionate Response|What Is the Virtue of a Proportionate Response]]**: No position.
+- **[[wiki/Worldviews & the Political Order/The Virtue of a Proportionate Response|The Virtue of a Proportionate Response]]**: No position.
 
 ## Positions with no page
 

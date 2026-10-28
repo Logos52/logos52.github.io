@@ -30,21 +30,18 @@ Prices carry knowledge, since a price tells everyone at once how much people wan
 Most useful knowledge is also spread across millions of people and cannot be written down, so only prices can gather it. That is also why faster computers would not rescue planning, because demand is subjective and prices are the only real signal of it.
 
 <figure>
-<svg viewBox="0 0 520 264" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-spf-a">
+<svg viewBox="0 0 520 355" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="wv-spf-a">
 <title id="wv-spf-a">In a market: A builder, for example, can judge whether houses are worth building only if he knows what the wood costs and what the houses sell for. Once one institution owns all the resources: there is nobody left to trade with, so no prices form and that knowledge is lost. Planning then becomes "a system of groping about in the dark." Most useful knowledge is also spread across millions of people and cannot be written down, so only prices can gather it.</title>
-<rect x="10" y="12" width="240" height="166" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;stroke:var(--accent);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="32">In a market</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="53">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="53">A builder, for example, can</text><text x="34" y="69">judge whether houses are worth</text><text x="34" y="85">building only if he knows what</text><text x="34" y="101">the wood costs and what the</text><text x="34" y="117">houses sell for.</text></g>
-<rect x="270" y="12" width="240" height="166" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="280" y="32">Once one institution owns all</text><text x="280" y="49">the resources</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="282" y="70">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="294" y="70">there is nobody left to trade</text><text x="294" y="86">with, so no prices form and</text><text x="294" y="102">that knowledge is lost</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="282" y="122">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="294" y="122">Planning then becomes "a</text><text x="294" y="138">system of groping about in the</text><text x="294" y="154">dark."</text></g>
-<rect x="10" y="192" width="500" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="212">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="212">Most useful knowledge is also spread across millions of people and</text><text x="34" y="228">cannot be written down, so only prices can gather it.</text></g>
+<rect x="0.5" y="0.5" width="519" height="354" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="24" y="24" width="24" height="3" rx="1.5" style="fill:var(--qp-accent)"/>
+<g style="fill:var(--qp-ink);font-size:16px;font-weight:600"><text x="24" y="54">In a market</text></g>
+<g style="fill:var(--qp-ink);font-size:15px;font-weight:400"><text x="24" y="80">A builder, for example, can</text><text x="24" y="103">judge whether houses are</text><text x="24" y="126">worth building only if he</text><text x="24" y="149">knows what the wood costs and</text><text x="24" y="172">what the houses sell for.</text></g>
+<g style="fill:var(--qp-ink);font-size:16px;font-weight:600"><text x="274.0" y="54">Once one institution owns</text><text x="274.0" y="77">all the resources</text></g>
+<g style="fill:var(--qp-ink);font-size:15px;font-weight:400"><text x="274.0" y="103">there is nobody left to trade</text><text x="274.0" y="126">with, so no prices form and</text><text x="274.0" y="149">that knowledge is lost</text></g>
+<path d="M274.0,163 L496.0,163" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-size:15px;font-weight:400"><text x="274.0" y="189">Planning then becomes "a</text><text x="274.0" y="212">system of groping about in</text><text x="274.0" y="235">the dark."</text></g>
+<path d="M24,255 L496,255" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-mut);font-size:15px;font-weight:400"><text x="24" y="285">Most useful knowledge is also spread across millions of</text><text x="24" y="308">people and cannot be written down, so only prices can gather</text><text x="24" y="331">it.</text></g>
 </svg>
 <figcaption>Prices carry knowledge, since a price tells everyone at once how much people want something and how hard it is to supply.</figcaption>
 </figure>
@@ -58,20 +55,21 @@ The result is a mismatch economy, with too much of one thing and too little of a
 China under Mao took the same Soviet-style quotas and set one for every village, county and province, and the Great Leap Forward of 1958 shows where that leads. Villages competed to beat their grain and steel quotas, so peasants melted pots and door handles in backyard furnaces. The grain figures rose on paper even as people starved beside mountains of uncollected grain. Between 36 million and more than 45 million people died between 1958 and 1962.
 
 <figure>
-<svg viewBox="0 0 520 336" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-spf-b">
+<svg viewBox="0 0 520 300" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="wv-spf-b">
 <title id="wv-spf-b">Great Leap Forward of 1958: Villages competed to beat their grain and steel quotas, so peasants melted pots and door handles in backyard furnaces. The grain figures rose on paper even as people starved beside mountains of uncollected grain. Between 36 million and more than 45 million people died between 1958 and 1962.</title>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px;font-weight:600" text-anchor="middle"><text x="260.0" y="28">Great Leap Forward of 1958</text></g>
-<rect x="60" y="46" width="400" height="44" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="260.0" y="66">Villages competed to beat their grain and steel quotas</text></g>
-<path d="M260.0,90 L260.0,108" style="fill:none;stroke:var(--mut);stroke-width:1.5"/><polygon points="260.0,108.0 255.0,99.0 265.0,99.0" style="fill:var(--mut)"/>
-<rect x="60" y="108" width="400" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="260.0" y="128">so peasants melted pots and door handles in backyard</text><text x="260.0" y="144">furnaces</text></g>
-<path d="M260.0,168 L260.0,186" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
-<rect x="60" y="186" width="400" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="260.0" y="206">The grain figures rose on paper even as people starved</text><text x="260.0" y="222">beside mountains of uncollected grain</text></g>
-<path d="M260.0,246 L260.0,264" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
-<rect x="60" y="264" width="400" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;stroke:var(--accent);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="260.0" y="284">Between 36 million and more than 45 million people died</text><text x="260.0" y="300">between 1958 and 1962.</text></g>
+<rect x="0.5" y="0.5" width="519" height="299" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-size:16px;font-weight:600"><text x="24" y="37">Great Leap Forward of 1958</text></g>
+<g style="fill:var(--qp-ink);font-size:15px;font-weight:400"><text x="52" y="71">Villages competed to beat their grain and steel quotas</text></g>
+<g style="fill:var(--qp-ink);font-size:15px;font-weight:400"><text x="52" y="113">so peasants melted pots and door handles in backyard</text><text x="52" y="136">furnaces</text></g>
+<g style="fill:var(--qp-ink);font-size:15px;font-weight:400"><text x="52" y="178">The grain figures rose on paper even as people starved</text><text x="52" y="201">beside mountains of uncollected grain</text></g>
+<g style="fill:var(--qp-ink);font-size:15px;font-weight:600"><text x="52" y="243">Between 36 million and more than 45 million people died</text><text x="52" y="266">between 1958 and 1962.</text></g>
+<circle cx="30" cy="66" r="4" style="fill:var(--qp-surface);stroke:var(--qp-mut);stroke-width:1.5"/>
+<path d="M30,72 L30,93" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.5"/><polygon points="30,100 26,93 34,93" style="fill:var(--qp-mut)"/>
+<circle cx="30" cy="108" r="4" style="fill:var(--qp-surface);stroke:var(--qp-mut);stroke-width:1.5"/>
+<path d="M30,114 L30,167" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.5"/>
+<circle cx="30" cy="173" r="4" style="fill:var(--qp-surface);stroke:var(--qp-mut);stroke-width:1.5"/>
+<path d="M30,179 L30,232" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.5"/>
+<circle cx="30" cy="238" r="5" style="fill:var(--qp-accent);stroke:var(--qp-accent);stroke-width:1.5"/>
 </svg>
 <figcaption>A mismatch economy, with too much of one thing and too little of another</figcaption>
 </figure>
@@ -98,7 +96,3 @@ Underneath both replies sits the question of how each system handles mistakes. A
 
 | Section | Note file |
 |---|---|
-| Lead, What prices do | `research-raw/raw/ai/2026-05-15-arjunkhemani-what-unifies-the-enemies-of-civilization.md` and `research-raw/raw/politics/2026-10-21-front-page-socialism-always-fails.md` and `research-raw/raw/politics/2026-08-15-basic-logic-socialism-all-arguments-ranked-debunked.md` |
-| Lead, second paragraph | `research-raw/raw/ideas/2026-05-07-naval-how-to-get-rich.md` (Naval) |
-| What goes wrong without them | Front Page note and `research-raw/raw/politics/2026-10-21-triggernometry-how-china-fakes-its-success-with.md` and Khemani and Chipkin note |
-| The common replies | Front Page note and `research-raw/raw/politics/2026-05-11-triggernometry-the-biological-reason-socialism-always-fails.md` and Basic Logic note |

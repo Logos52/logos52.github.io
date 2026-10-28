@@ -28,35 +28,6 @@ Abortion tests that limit hardest, because it kills a human being. It has happen
 
 The question that follows is when a believer may resist. A just war needs a valid cause, a right intention aimed at lasting peace, and a legitimate authority. Rebellion against a tyrant can still meet that last test, because "Tyranny is not law, but rather a species of violence." Legitimacy then passes to lesser officials committed to God's law and to the community as a whole. Even then the overthrow must not cause a greater evil than the tyranny, and every legal channel must already have failed.
 
-<figure>
-<svg viewBox="0 0 520 413" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-faith2-a">
-<title id="wv-faith2-a">When a believer may resist. When obeying both becomes impossible, a Christian must choose God. A just war needs: a valid cause, a right intention aimed at lasting peace, a legitimate authority. Rebellion against a tyrant. Legitimacy then passes to lesser officials committed to God's law and to the community as a whole. Even then, the overthrow must not cause a greater evil than the tyranny, and every legal channel must already have failed.</title>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px;font-weight:600" text-anchor="middle"><text x="260.0" y="28">When a believer may resist</text></g>
-<rect x="10" y="44" width="500" height="44" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;stroke:var(--accent);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="64">When obeying both becomes impossible, a Christian must choose God.</text></g>
-<path d="M260,88 L260,102" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
-<rect x="10" y="102" width="500" height="105" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="122">A just war needs</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="143">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="143">a valid cause</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="163">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="163">a right intention aimed at lasting peace</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="183">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="183">a legitimate authority</text></g>
-<path d="M260,207 L260,221" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
-<rect x="10" y="221" width="500" height="81" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="241">Rebellion against a tyrant</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="262">Legitimacy then passes to lesser officials committed to God's law and</text><text x="20" y="278">to the community as a whole.</text></g>
-<path d="M260,302 L260,316" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
-<rect x="10" y="316" width="500" height="85" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="336">Even then</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="357">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="357">the overthrow must not cause a greater evil than the tyranny</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="377">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="377">every legal channel must already have failed</text></g>
-</svg>
-<figcaption>"Tyranny is not law, but rather a species of violence."</figcaption>
-</figure>
 
 ## Charity belongs to the church
 
@@ -81,6 +52,3 @@ On the system of rule, no passage commands democracy. Democracy is a tool that w
 
 | Section | Note file |
 |---|---|
-| Lead, Authority and its limits, Charity belongs to the church, Nation, law and system of rule | `research-raw/raw/politics/2026-08-15-basic-logic-what-politics-must-christians-support.md` |
-| Lead, Authority and its limits, Charity belongs to the church, Nation, law and system of rule | `research-raw/raw/politics/2026-08-15-basic-logic-on-faith-power-and-politics-25k.md` |
-| Nation, law and system of rule | `research-raw/raw/politics/2026-08-15-basic-logic-christian-nationalism-explained.md` |

@@ -29,33 +29,30 @@ American healthcare shows how that alliance produces the predatory firms sociali
 Crashes follow the same pattern. The Great Depression came after decades of central banks changing interest rates and printing money, which invited bad investment. The official inquiry into the 2008 crisis blamed regulatory capture, government-backed mortgage securitization and Federal Reserve interest rate policy. Crony capitalism is the name for a system that produces these outcomes, and its cure is more competition with less government picking of winners.
 
 <figure>
-<svg viewBox="0 0 520 552" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-smc2-a">
+<svg viewBox="-16 -16 552 724" width="100%" style="max-width:552px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="wv-smc2-a">
 <title id="wv-smc2-a">real wrongs | the state's abuse of markets. oligarchy: the wealthy trade money for power and then use the state to crush competitors and grant themselves monopolies. the predatory firms socialists point to: Many states require a certificate of need before a hospital or clinic can open or expand Pharmacies could be penalized for telling customers about cheaper ways to pay until 2018 government-granted monopolies cover easy-to-make medicines such as insulin. Crashes: The Great Depression came after decades of central banks changing interest rates and printing money, which invited bad investment.. exploitation: Bad actors can corner the means of production or hold wages down, but doing so usually takes force.. Crony capitalism is the name for a system that produces these outcomes, and its cure is more competition with less government picking of winners.</title>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="15" y="26">Real wrongs</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="185" y="26">The state's abuse of markets</text></g>
-<rect x="10" y="36" width="165" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;stroke:var(--accent);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="56">Oligarchy</text></g>
-<rect x="185" y="36" width="325" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="195" y="56">the wealthy trade money for power and then</text><text x="195" y="72">use the state to crush competitors and grant</text><text x="195" y="88">themselves monopolies</text></g>
-<rect x="10" y="120" width="165" height="164" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="140">The predatory firms</text><text x="20" y="156">socialists point to</text></g>
-<rect x="185" y="120" width="325" height="164" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="197" y="140">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="209" y="140">Many states require a certificate of need</text><text x="209" y="156">before a hospital or clinic can open or</text><text x="209" y="172">expand</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="197" y="192">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="209" y="192">Pharmacies could be penalized for telling</text><text x="209" y="208">customers about cheaper ways to pay until</text><text x="209" y="224">2018</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="197" y="244">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="209" y="244">government-granted monopolies cover</text><text x="209" y="260">easy-to-make medicines such as insulin</text></g>
-<rect x="10" y="292" width="165" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="312">Crashes</text></g>
-<rect x="185" y="292" width="325" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="195" y="312">The Great Depression came after decades of</text><text x="195" y="328">central banks changing interest rates and</text><text x="195" y="344">printing money, which invited bad investment.</text></g>
-<rect x="10" y="376" width="165" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="396">Exploitation</text></g>
-<rect x="185" y="376" width="325" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="195" y="396">Bad actors can corner the means of production</text><text x="195" y="412">or hold wages down, but doing so usually</text><text x="195" y="428">takes force.</text></g>
-<rect x="10" y="464" width="500" height="76" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="484">Crony capitalism is the name for a system that produces these outcomes,</text><text x="20" y="500">and its cure is more competition with less government picking of</text><text x="20" y="516">winners.</text></g>
+<rect x="-15.5" y="-15.5" width="551" height="723" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="15" y="26">Real wrongs</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="185" y="26">The state's abuse of markets</text></g>
+<rect x="20" y="42" width="24" height="3" rx="1.5" style="fill:var(--qp-accent)"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="60">Oligarchy</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="195" y="60">the wealthy trade money for power and</text><text x="195" y="80">then use the state to crush</text><text x="195" y="100">competitors and grant themselves</text><text x="195" y="120">monopolies</text></g>
+<path d="M10,156 L175,156" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="180">The predatory</text><text x="20" y="200">firms socialists</text><text x="20" y="220">point to</text></g>
+<path d="M185,156 L510,156" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="195" y="180">Many states require a certificate of</text><text x="195" y="200">need before a hospital or clinic can</text><text x="195" y="220">open or expand</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="195" y="244">Pharmacies could be penalized for</text><text x="195" y="264">telling customers about cheaper ways</text><text x="195" y="284">to pay until 2018</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="195" y="308">government-granted monopolies cover</text><text x="195" y="328">easy-to-make medicines such as insulin</text></g>
+<path d="M10,364 L175,364" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="388">Crashes</text></g>
+<path d="M185,364 L510,364" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="195" y="388">The Great Depression came after</text><text x="195" y="408">decades of central banks changing</text><text x="195" y="428">interest rates and printing money,</text><text x="195" y="448">which invited bad investment.</text></g>
+<path d="M10,484 L175,484" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="508">Exploitation</text></g>
+<path d="M185,484 L510,484" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="195" y="508">Bad actors can corner the means of</text><text x="195" y="528">production or hold wages down, but</text><text x="195" y="548">doing so usually takes force.</text></g>
+<path d="M10,588 L510,588" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="612">Crony capitalism is the name for a system that produces these</text><text x="20" y="632">outcomes, and its cure is more competition with less</text><text x="20" y="652">government picking of winners.</text></g>
 </svg>
 <figcaption>Several of those wrongs are real, but most of them come from the state's abuse of markets</figcaption>
 </figure>
@@ -80,6 +77,3 @@ Two economic promises share the fixed-pie error. Socialism cannot reduce scarcit
 
 | Section | Note file |
 |---|---|
-| Lead | `research-raw/raw/politics/2026-08-15-basic-logic-socialism-all-arguments-ranked-debunked.md` |
-| Real problems with the wrong cause | Basic Logic socialism note and `research-raw/raw/politics/2026-08-15-basic-logic-the-us-only-has-one-political.md` and `research-raw/raw/politics/2026-10-21-front-page-socialism-always-fails.md` |
-| Arguments that misread how wealth is made | Basic Logic socialism note and `research-raw/raw/ai/2026-05-15-arjunkhemani-what-unifies-the-enemies-of-civilization.md` and `research-raw/raw/ideas/2026-05-07-naval-how-to-get-rich.md` and `research-raw/raw/politics/2026-05-11-triggernometry-the-biological-reason-socialism-always-fails.md` |

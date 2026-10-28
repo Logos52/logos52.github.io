@@ -34,30 +34,24 @@ Leaders could rebalance the economy toward consumption, but doing so would mean 
 The same system keeps building whether or not anyone needs the result. Ghost cities rise for populations that do not exist, partly because nobody can count. A village may report 100 people when it has only 80 people, so that it can collect benefits for 20 people who do not exist. Once infrastructure and real estate stopped carrying growth, exports took over, because nobody inside China has the money to buy what the factories make.
 
 <figure>
-<svg viewBox="0 0 520 442" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-china2-a">
+<svg viewBox="-16 -16 552 564" width="100%" style="max-width:552px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="wv-china2-a">
 <title id="wv-china2-a">"The temple is rich, but the monks are poor." Ordinary savings: state banks hold 99.5% of all bank assets in China. Households, meanwhile, keep one of the smallest shares of national output of any modern economy. The money that builds the trains is money those households do not spend. State projects: The bullet train network is in debt by about 900 billion US dollars and will never make money. Ghost cities rise for populations that do not exist for building up the army and for preparing to invade Taiwan. Once infrastructure and real estate stopped carrying growth, exports took over, because nobody inside China has the money to buy what the factories make.</title>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px;font-weight:600" text-anchor="middle"><text x="260.0" y="28">"The temple is rich, but the monks are poor."</text></g>
-<rect x="10" y="44" width="240" height="144" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;stroke:var(--accent);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="64">Ordinary savings</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="85">state banks hold 99.5% of all</text><text x="20" y="101">bank assets in China</text></g>
-<rect x="270" y="44" width="240" height="144" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="282" y="64">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="294" y="64">Households, meanwhile, keep</text><text x="294" y="80">one of the smallest shares of</text><text x="294" y="96">national output of any modern</text><text x="294" y="112">economy.</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="282" y="132">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="294" y="132">The money that builds the</text><text x="294" y="148">trains is money those</text><text x="294" y="164">households do not spend.</text></g>
-<path d="M130,188 L130,210" style="fill:none;stroke:var(--mut);stroke-width:1.5"/><polygon points="130.0,210.0 125.0,201.0 135.0,201.0" style="fill:var(--mut)"/>
-<rect x="10" y="210" width="500" height="121" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="230">State projects</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="251">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="251">The bullet train network is in debt by about 900 billion US dollars</text><text x="34" y="267">and will never make money.</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="287">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="287">Ghost cities rise for populations that do not exist</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="307">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="307">for building up the army and for preparing to invade Taiwan</text></g>
-<path d="M260,331 L260,349" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
-<rect x="10" y="349" width="500" height="81" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="369">Once infrastructure and real estate stopped carrying growth</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="390">exports took over, because nobody inside China has the money to buy</text><text x="20" y="406">what the factories make.</text></g>
+<rect x="-15.5" y="-15.5" width="551" height="563" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px;font-weight:600" text-anchor="middle"><text x="260.0" y="28">"The temple is rich, but the monks are poor."</text></g>
+<rect x="20" y="50" width="24" height="3" rx="1.5" style="fill:var(--qp-accent)"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px;font-weight:600" text-anchor="start"><text x="20" y="68">Ordinary savings</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="92">state banks hold 99.5% of</text><text x="20" y="112">all bank assets in China</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="280" y="68">Households, meanwhile, keep</text><text x="280" y="88">one of the smallest shares</text><text x="280" y="108">of national output of any</text><text x="280" y="128">modern economy.</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="280" y="152">The money that builds the</text><text x="280" y="172">trains is money those</text><text x="280" y="192">households do not spend.</text></g>
+<path d="M130,220 L130,242" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.5"/><polygon points="130.0,242.0 125.0,233.0 135.0,233.0" style="fill:var(--qp-mut)"/>
+<path d="M10,242 L510,242" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px;font-weight:600" text-anchor="start"><text x="20" y="266">State projects</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="290">The bullet train network is in debt by about 900 billion US</text><text x="20" y="310">dollars and will never make money.</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="334">Ghost cities rise for populations that do not exist</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="358">for building up the army and for preparing to invade Taiwan</text></g>
+<path d="M10,404 L510,404" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px;font-weight:600" text-anchor="start"><text x="20" y="428">Once infrastructure and real estate stopped carrying</text><text x="20" y="448">growth</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="472">exports took over, because nobody inside China has the money</text><text x="20" y="492">to buy what the factories make.</text></g>
 </svg>
 <figcaption>Bank ownership is what turns ordinary savings into state projects.</figcaption>
 </figure>
@@ -78,6 +72,3 @@ The growth China did achieve came from markets. Of the roughly 1.5 billion peopl
 
 | Section | Note file |
 |---|---|
-| Lead, How the wealth reaches the state | `research-raw/raw/politics/2026-10-21-triggernometry-how-china-fakes-its-success-with.md` |
-| Why the state keeps it | TRIGGERnometry interview note and `research-raw/raw/ai/2026-07-21-naval-riding-agi-ai-anxiety-who-funded.md` |
-| What it means for everyone else | TRIGGERnometry interview note and `research-raw/raw/politics/2026-10-21-front-page-socialism-always-fails.md` |

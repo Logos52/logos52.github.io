@@ -35,27 +35,6 @@ The strongest argument is that elections replace violent fights for power. A vot
 
 That logic breaks once votes stop matching force. Suppose a well-armed, motivated minority of about 45% faces a cowardly or apathetic majority of about 55%. The majority wins every election, but the minority would win any civil war, so sooner or later it stops accepting the result. A fight of that kind is worse than a quarrel among a monarch's elites, because mass politics can push ordinary families onto opposite sides.
 
-<figure>
-<svg viewBox="0 0 520 288" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-dem2-a">
-<title id="wv-dem2-a">A vote works as a promise of force. Suppose a well-armed, motivated minority of about 45% faces a cowardly or apathetic majority of about 55%. a well-armed, motivated minority of about 45%: the minority would win any civil war, so sooner or later it stops accepting the result. a cowardly or apathetic majority of about 55%: The majority wins every election.</title>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px;font-weight:600" text-anchor="middle"><text x="260.0" y="28">A vote works as a promise of force.</text></g>
-<g style="fill:var(--mut);font-family:inherit;font-size:12px" text-anchor="start"><text x="10" y="50">Suppose</text></g>
-<rect x="10" y="58" width="240" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;stroke:var(--accent);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="130.0" y="78">a well-armed, motivated minority</text><text x="130.0" y="94">of about 45%</text></g>
-<rect x="270" y="58" width="240" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="390.0" y="78">a cowardly or apathetic majority</text><text x="390.0" y="94">of about 55%</text></g>
-<path d="M130,118 L130,136" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
-<path d="M390,118 L390,136" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
-<rect x="10" y="136" width="240" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="130.0" y="156">the minority would win any civil</text><text x="130.0" y="172">war</text></g>
-<rect x="270" y="136" width="240" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="390.0" y="156">The majority wins every election</text></g>
-<path d="M130,196 L130,216" style="fill:none;stroke:var(--mut);stroke-width:1.5"/><polygon points="130.0,216.0 125.0,207.0 135.0,207.0" style="fill:var(--mut)"/>
-<rect x="10" y="216" width="240" height="60" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;stroke:var(--accent);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="130.0" y="236">so sooner or later it stops</text><text x="130.0" y="252">accepting the result</text></g>
-</svg>
-<figcaption>That logic breaks once votes stop matching force.</figcaption>
-</figure>
 
 ## Wealth and imposing it
 
@@ -73,7 +52,3 @@ The same point explains why democracy cannot be imposed from outside. Democracy 
 
 | Section | Note file |
 |---|---|
-| Lead | `research-raw/raw/politics/2026-08-15-basic-logic-democracy-all-arguments-ranked-debunked.md` (Basic Logic, https://www.youtube.com/watch?v=z55r37SETiY) and `research-raw/raw/politics/2026-08-15-basic-logic-modern-democracy-explained-in-2-minutes.md` and `research-raw/raw/politics/2026-08-15-basic-logic-what-politics-must-christians-support.md` |
-| Defenses that fail | Basic Logic democracy note and modern democracy note and `research-raw/raw/ai/2026-07-21-naval-riding-agi-ai-anxiety-who-funded.md` (Naval) |
-| The defense that holds | Basic Logic democracy note and modern democracy note and `research-raw/raw/politics/2026-08-15-basic-logic-voting-is-not-a-right.md` |
-| Wealth and imposing it | Basic Logic democracy note and `research-raw/raw/politics/2026-08-15-basic-logic-rhodesia-modern-zimbabwe-explained-in-3.md` and `research-raw/raw/ideas/2026-06-20-all-in-worlds-first-trillionaire-anthropic-fable-banned.md` (All-In) |

@@ -30,27 +30,23 @@ Rivalry between minorities also explains revolutions, because a revolution is ne
 The danger grows when a society trains more people for leadership than it has places to give them. That surplus becomes a set of counter-elites, people with the education, money and grievance to turn other people's discontent into a weapon. Massachusetts shows the scale this can reach. Its trained lawyers rose from 15 lawyers in 1740 to 71 lawyers by 1775 while its population merely doubled. Each colony, though, had only about 40 or 50 Crown offices. Their holders kept them until death, so only one or two came open each year. Too many would-be elites came before state breakdown in 75% of the historical cases studied.
 
 <figure>
-<svg viewBox="0 0 520 410" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-om2-a">
+<svg viewBox="-16 -16 552 556" width="100%" style="max-width:552px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="wv-om2-a">
 <title id="wv-om2-a">a society trains more people for leadership than it has places to give them. Massachusetts: Its trained lawyers rose from 15 lawyers in 1740 to 71 lawyers by 1775 while its population merely doubled. Each colony, though, had only about 40 or 50 Crown offices. Their holders kept them until death, so only one or two came open each year. That surplus becomes a set of counter-elites, people with the education, money and grievance to turn other people's discontent into a weapon. Absorption: whether it can make room for the class it has trained. Because its ambitious men had a ladder, the Caribbean stayed loyal.</title>
-<rect x="10" y="12" width="290" height="129" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;stroke:var(--accent);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="155.0" y="32">a society trains more people for</text><text x="155.0" y="48">leadership than it has places to give</text><text x="155.0" y="64">them</text></g>
-<rect x="320" y="12" width="190" height="129" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="330" y="32">Massachusetts</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="330" y="53">Its trained lawyers rose</text><text x="330" y="69">from 15 lawyers in 1740</text><text x="330" y="85">to 71 lawyers by 1775</text><text x="330" y="101">while its population</text><text x="330" y="117">merely doubled.</text></g>
-<path d="M300,76.5 L320,76.5" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
-<rect x="320" y="153" width="190" height="144" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="330" y="173">Each colony, though, had</text><text x="330" y="189">only about 40 or 50 Crown</text><text x="330" y="205">offices.</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="330" y="225">Their holders kept them</text><text x="330" y="241">until death, so only one</text><text x="330" y="257">or two came open each</text><text x="330" y="273">year.</text></g>
-<path d="M415,141 L415,153" style="fill:none;stroke:var(--mut);stroke-width:1.5"/>
-<path d="M155,141 L155,159" style="fill:none;stroke:var(--mut);stroke-width:1.5"/><polygon points="155.0,159.0 150.0,150.0 160.0,150.0" style="fill:var(--mut)"/>
-<rect x="10" y="159" width="290" height="92" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="155.0" y="179">That surplus becomes a set of</text><text x="155.0" y="195">counter-elites, people with the</text><text x="155.0" y="211">education, money and grievance to turn</text><text x="155.0" y="227">other people's discontent into a weapon.</text></g>
-<rect x="10" y="313" width="500" height="85" rx="8" style="fill:var(--paper);stroke:var(--rule2);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="333">Absorption</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="354">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="354">whether it can make room for the class it has trained</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="374">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="374">Because its ambitious men had a ladder, the Caribbean stayed loyal.</text></g>
+<rect x="-15.5" y="-15.5" width="551" height="555" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="18" width="24" height="3" rx="1.5" style="fill:var(--qp-accent)"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="36">a society trains more people for</text><text x="20" y="56">leadership than it has places to</text><text x="20" y="76">give them</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px;font-weight:600" text-anchor="start"><text x="330" y="36">Massachusetts</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="330" y="60">Its trained lawyers</text><text x="330" y="80">rose from 15 lawyers</text><text x="330" y="100">in 1740 to 71 lawyers</text><text x="330" y="120">by 1775 while its</text><text x="330" y="140">population merely</text><text x="330" y="160">doubled.</text></g>
+<path d="M320,200 L510,200" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="330" y="224">Each colony, though,</text><text x="330" y="244">had only about 40 or</text><text x="330" y="264">50 Crown offices.</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="330" y="288">Their holders kept</text><text x="330" y="308">them until death, so</text><text x="330" y="328">only one or two came</text><text x="330" y="348">open each year.</text></g>
+<path d="M155,188 L155,206" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.5"/><polygon points="155.0,206.0 150.0,197.0 160.0,197.0" style="fill:var(--qp-mut)"/>
+<path d="M10,206 L300,206" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="230">That surplus becomes a set of</text><text x="20" y="250">counter-elites, people with the</text><text x="20" y="270">education, money and grievance to</text><text x="20" y="290">turn other people's discontent</text><text x="20" y="310">into a weapon.</text></g>
+<path d="M10,392 L510,392" style="fill:none;stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:15px;font-weight:600" text-anchor="start"><text x="20" y="416">Absorption</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="440">whether it can make room for the class it has trained</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="464">Because its ambitious men had a ladder, the Caribbean stayed</text><text x="20" y="484">loyal.</text></g>
 </svg>
 <figcaption>Too many would-be elites came before state breakdown in 75% of the historical cases studied.</figcaption>
 </figure>
@@ -74,6 +70,4 @@ That history leaves today's Western elites in a weak spot. Their own skills of f
 
 | Section | Note file |
 |---|---|
-| Lead, Why the minority cannot let go | `research-raw/raw/politics/2026-08-15-basic-logic-why-do-western-elites-fear-european.md` (Basic Logic, https://www.youtube.com/watch?v=288u54zMFyg) |
-| Revolutions come from denied elites | Basic Logic note and `research-raw/raw/politics/2026-09-14-sams-pov-revolutions-are-led-by-denied-elites.md` and `research-raw/raw/politics/2026-09-14-sams-pov-elite-overproduction-and-the-american-revolution.md` and `research-raw/raw/politics/2026-09-14-sams-pov-elite-overproduction.md` (Sam's POV) |
 | Turnover and today's elites | Basic Logic note |
