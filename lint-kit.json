@@ -23,23 +23,9 @@
   ],
   "boundaryFiles": [],
   "baseline": ".lint-kit-baseline.json",
+  "batch": "v4",
   "rules": {
-    "R1": "error",
-    "R2": "error",
-    "R3": "error",
-    "R4": "error",
-    "R5": "error",
-    "R8": "error",
-    "R10": "error",
-    "R14": "error",
-    "R16": "error",
-    "R17": "error",
-    "R18": "error",
-    "R19": "error",
-    "R20": "error",
-    "R21": "error",
-    "R22": "error",
-    "R23": "error"
+    "R3": "error"
   },
   "prose": {
     "allow": []
