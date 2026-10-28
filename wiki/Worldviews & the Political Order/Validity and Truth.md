@@ -74,5 +74,6 @@ Being offended is no part of that test, even though debates now often treat it a
 
 | Section | Note file |
 |---|---|
+| Lead, Valid versus sound | Internet Encyclopedia of Philosophy, "Validity and Soundness", https://iep.utm.edu/val-snd/ and TRIGGERnometry with Warren Smith |
 | Finding the hidden link | Research bank (Purdue OWL, "Toulmin Argument", and Wikipedia, "Stephen Toulmin") and TRIGGERnometry with Warren Smith |
 | Stating the other side first | Research bank (Maria Popova quoting Daniel Dennett on Anatol Rapoport's rules, and Aquinas, *Summa Theologiae* I q.2 a.3) and TRIGGERnometry with Warren Smith |

@@ -52,3 +52,5 @@ The case for restraint rests on escalation. Escalation is a natural tendency in 
 
 | Section | Note file |
 |---|---|
+| Lead, The trouble with matching, What the law measures, Going openly disproportionate, Why escalation is the risk | *The West Wing* S01E03 script, Protocol I Arts. 51 and 57 (ICRC), Wikipedia "Dahiya doctrine", RAND MG-614 *Dangerous Thresholds* |
+| The trouble with matching | |

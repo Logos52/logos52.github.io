@@ -62,3 +62,5 @@ The third explanation is the only fair objection, which is that other variables 
 
 | Section | Note file |
 |---|---|
+| Lead, Totals against rates | Basic Logic, [Why Is Per Capita Impossible For Them?](https://www.youtube.com/watch?v=h-zvwRdRzuA) |
+| Why people skip it | Basic Logic per capita note |

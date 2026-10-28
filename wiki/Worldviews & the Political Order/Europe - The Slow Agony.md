@@ -90,4 +90,6 @@ The remedies are known, including common borrowing, a single capital market, sim
 
 | Section | Note file |
 |---|---|
+| Lead, How far behind | |
 | The choices behind it | Front Page note and Draghi Part A note |
+| Why it is now urgent | Draghi Part A note and Front Page note |

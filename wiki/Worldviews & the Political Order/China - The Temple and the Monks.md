@@ -72,3 +72,6 @@ The growth China did achieve came from markets. Of the roughly 1.5 billion peopl
 
 | Section | Note file |
 |---|---|
+| Lead, How the wealth reaches the state | |
+| Why the state keeps it | TRIGGERnometry interview note |
+| What it means for everyone else | TRIGGERnometry interview note |

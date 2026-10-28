@@ -77,3 +77,5 @@ The American numbers show the scale. The national debt stood at $39 trillion in 
 
 | Section | Note file |
 |---|---|
+| Lead, Honest and dishonest lending | |
+| The same trap for a nation | Basic Logic slavery note |
