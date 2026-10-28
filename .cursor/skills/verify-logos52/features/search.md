@@ -27,7 +27,7 @@ Preconditions:
 - **Focus the field.** On `/`, click `input[aria-label="Search notes"]`.
 - **Query.** Type `How Chinese Characters Work`.
 - **Wait for rows.** `[data-search-results]` is not `hidden`. A `.kb-ac-row` or `.kb-ac-empty` is present. Wait for the row, not a fixed sleep (the input debounces about 110ms, and the first query may still be loading Pagefind).
-- **Read the first row.** `.kb-ac-title` is `How Chinese Characters Work`. `.kb-ac-domain` is `Language`.
+- **Read the first row.** `.kb-ac-title` is `How Chinese Characters Work`. `.kb-ac-domain` text is `Language`. The chip is uppercased in paint (`LANGUAGE`). Match the DOM text.
 - **Open it.** Click that row (or press Enter).
 - **Resulting state.** URL is `/wiki/Language/Chinese/How-Chinese-Characters-Work/`. `h1.kb-note-title` is `How Chinese Characters Work`. The type pill's trimmed text is `Hub` (the paint is uppercase).
 
@@ -38,7 +38,7 @@ Do not stub `/pagefind/pagefind.js`. When the dropdown stays on `Search index lo
 - Pagefind is emitted at `dist/pagefind/` on `astro build`. `predev` runs `scripts/ensure-pagefind.mjs`, which builds the whole site when that file is missing. A fresh checkout's first `npm run dev` is slow. Search before that build finishes shows the loading line.
 - Vite must not bundle `/pagefind/pagefind.js` (`astro.config.ts` `external-pagefind`). A transform-time import error is a product or setup bug.
 - Results cap at eight. The keyboard highlight class is `.kb-ac-row.on`.
-- `.kb-ac-domain` is `DOMAIN_LABELS` (`src/lib/types.ts`): `Learning`, `Agentic`, `Language`, `Focus`, `Mind`, `Generativity`. Assert the chip text and the note `h1`, not a hyphen count in the address bar.
+- `.kb-ac-domain` is `DOMAIN_LABELS` (`src/lib/types.ts`): `Learning`, `Agentic`, `Language`, `Focus`, `Mind`, `Generativity`. `src/layouts/Base.astro` uppercases the paint, so the chip reads `LANGUAGE`. Match the DOM text `Language` and the note `h1`, not a hyphen count in the address bar.
 - The excerpt is Pagefind HTML. `excerptHtml` keeps `<mark>` and `dropTitlePrefix` strips a leading restatement of the title. Visible `<mark>` characters in the excerpt are a product bug. Record them.
 - `Vibe Coding` is not a search target. That page was removed. Do not treat a miss on that title as a search failure.
 - At ≤720px the field is `display: none` until the magnifier opens it. A laptop pass that clicks the magnifier is clicking a hidden button.
