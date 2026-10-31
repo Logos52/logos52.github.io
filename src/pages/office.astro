@@ -59,7 +59,9 @@ const APP = 'https://logos52.github.io/grokbot-office/';
         frame.focus();
       });
       fs.addEventListener('click', function () {
-        if (frame && frame.requestFullscreen) frame.requestFullscreen();
+        // iPhone Safari has no element fullscreen: open the app in its own tab instead
+        var go = frame && (frame.requestFullscreen || frame.webkitRequestFullscreen);
+        if (go) go.call(frame); else window.open(APP, '_blank', 'noopener');
       });
     })();
   </script>

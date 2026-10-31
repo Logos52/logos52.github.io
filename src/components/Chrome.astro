@@ -5,7 +5,7 @@
  *
  * Brand lockup (mark-nodes-violet + "Knowledge base" + "second brain" kicker),
  * nav with .on active state, theme-toggle button (#theme-toggle, wired by Base),
- * and one inline search field (dropdown results, no modal). On phones (≤720px) the field is
+ * and one inline search field (dropdown results, no modal). On phones and narrow windows (≤1024px) the field is
  * replaced by a round magnifier button that opens the same field full-width under the header row.
  */
 interface Props {
@@ -234,7 +234,7 @@ const nav: { id: string; label: string; href: string }[] = [
     padding: 4px 10px;
     cursor: pointer;
   }
-  @media (max-width: 720px) {
+  @media (max-width: 1024px) {
     .kb-chrome__inner {
       padding: 0 16px;
       gap: 12px;
