@@ -1,99 +1,127 @@
 ---
 title: "ReCOVer System"
 type: technique
-status: seed
+status: draft
 created: 2026-05-29
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-ics-stage: Summit
-written-by: grok
-model: grok
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "ReCOVer is a four-step way to plan an exam essay: recall the relevant points, cut them down to a clear set of chunks, put those chunks in writing order, then turn the outline into sentences."
 tags:
-  - deep-processing
-  - writing
-  - essays
+  - encoding
+  - essay-writing
+  - exam-technique
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # ReCOVer System
 
-The ReCOVer System is a plan for a timed essay, built in four steps before any sentence is written. The four verbs are retrieve, cut, order, then write. The step names are Recall, Chunk, Order, and Verbalise.
+ReCOVer is a method for structuring an essay during an assessment or examination. You first recall the relevant points, then group them and cut them down to the main parts of the argument, then put those parts in writing order, then turn the outline into sentences. Those four steps are called Recall, Chunk, Order, and Verbalise. In an exam, Recall can take up to 10 minutes, Chunk up to 5 minutes, and Order up to 5 minutes. Verbalise then uses the remaining time, leaving some of it for review.
+<figure>
+<svg viewBox="0 0 520 490" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="dim-recover-a">
+<title id="dim-recover-a">Those four steps are called Recall, Chunk, Order, and Verbalise.</title>
+<rect x="0.5" y="0.5" width="519" height="489" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<text x="24" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Recall, Chunk, Order, and Verbalise</text>
+<circle cx="150" cy="64" r="5" style="fill:var(--qp-ink)"/>
+<path d="M150 69 L150 80" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="150,80 145.5,72 154.5,72" style="fill:var(--qp-mut)"/>
+<rect x="60" y="80" width="180" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="150" y="107" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">Recall</text>
+<text x="256" y="107" text-anchor="start" style="fill:var(--qp-ink2);font-size:13px">can take up to 10 minutes</text>
+<path d="M150 124 L150 176" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="150,176 145.5,168 154.5,168" style="fill:var(--qp-mut)"/>
+<rect x="60" y="176" width="180" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="150" y="203" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">Chunk</text>
+<text x="256" y="203" text-anchor="start" style="fill:var(--qp-ink2);font-size:13px">up to 5 minutes</text>
+<path d="M150 220 L150 272" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="150,272 145.5,264 154.5,264" style="fill:var(--qp-mut)"/>
+<rect x="60" y="272" width="180" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="150" y="299" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">Order</text>
+<text x="256" y="299" text-anchor="start" style="fill:var(--qp-ink2);font-size:13px">up to 5 minutes</text>
+<path d="M150 316 L150 368" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="150,368 145.5,360 154.5,360" style="fill:var(--qp-mut)"/>
+<rect x="60" y="368" width="180" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="150" y="395" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">Verbalise</text>
+<text x="256" y="386" text-anchor="start" style="fill:var(--qp-ink2);font-size:13px">uses the remaining time,</text>
+<text x="256" y="404" text-anchor="start" style="fill:var(--qp-ink2);font-size:13px">leaving some of it for review</text>
+<line x1="150" y1="412" x2="150" y2="428" style="stroke:var(--qp-rule2);stroke-width:1.25"/>
+<circle cx="150" cy="436" r="8" style="fill:none;stroke:var(--qp-ink);stroke-width:1.25"/>
+<circle cx="150" cy="436" r="4" style="fill:var(--qp-ink)"/>
+</svg>
+</figure>
 
-Most essay writing fails at the flow of ideas. The writer spends sentences inventing a plan that should have been retrieved, cut, and ordered first. Perspectives come out in random order. Conclusions have no path leading to them. Points have no instances under them.
+The point of the sequence is to plan the flow of ideas before you write sentences. A common problem at every level of writing is that ideas do not arrive in an order that is easy to follow. New concepts appear at random, conclusions are thinly justified, points lack examples, or the reader has to concentrate hard to track the progression. Most people give planning too little time, and then they spend the writing time trying to invent the flow as they go. The more useful order is to make the logical flow as simple and understandable as you can, then expand each point. That planning step is one of the largest differences between good writing and mediocre writing.
 
-## Core takeaways
+If even the plan looks bad, the written essay is unlikely to be better, and if it somehow is, the writing will be slower and less accurate. Trouble at a given step also points back to a cause. Struggle at Recall usually means the topic was not learned at a high enough order during preparation. Struggle at Chunk often means the relationships were weak. Struggle at Order can mean the chunks themselves were never clear. Struggle only at Verbalise, with none of those earlier problems, points to language mastery, which needs more practice and interleaving.
 
-- Twenty minutes of a timed paper go to the plan before the first sentence: up to ten on Recall, five on Chunk, five on Order.
-- A timed essay needs roughly three or four main chunks, in one direction, with supports under each, and an opening that states the path.
-- Most stuck writing is a missing map of ideas, mistaken for a wording problem. The test is whether the points can be explained in conversation with the source closed.
-- If Recall produces no structure, the topic was not learned deeply enough. Planning stops and the writer goes back to learning the topic.
-- If the plan is clean and the sentences still will not come, the limit is language. The fix is more practice and interleaving.
+## Recall
 
-## The four steps
+After a mapping pass such as the Bear Hunter System, the knowledge of the topic should already be deep and densely connected. Recall is the step where you pull back every point that is relevant to the essay question. You then shape a flow of main points and chunks, the way you would shape a logic-and-concepts layer, using the question stem or prompt as the guide for which chunk structure is most relevant.
 
-The writing is done from chunks, in a fixed order. First, around the question stem, a small map of the points that serve it. Then those chunks arranged so each one leads to the next. Then each chunk expanded into its supports: a concept, an instance, a quote, a tension, a reading. Then that skeleton turned into bullets in writing order, and the bullets into sentences. The four verbs name this sequence.
+This step can take up to 10 minutes in an exam. Difficulty at this step is a sign that higher-order learning of the topic was thin during preparation.
 
-Recall drafts a flow of main points from connected knowledge. The question stem selects which structure is relevant. Difficulty at this step signals shallow [[Higher-Order Learning]] of the topic. If a structure cannot be retrieved, it is not in memory. The exam default is up to ten minutes on Recall. That figure is a working number for this system. It is not a finding.
+## Chunk
 
-Chunk cuts the weaker or less relevant points. It then checks that the remaining flow is one a reader can follow. The default is a progression in one direction, with supports under each chunk, and roughly three or four main chunks for a timed essay. One direction is a default for readability. Some arguments have to turn. The count of three or four changes with the length table below. This step is [[Skin|Skinning]] the map. It takes up to five minutes.
+Once you have a draft flow, drop weaker or less relevant points that do not support the main argument. Check whether the flow of ideas is the easiest one to follow. This cut is similar to skinning a map, meaning you strip it down to what carries the argument.
 
-Order linearises the chunks: the introduction first, then each main point unpacked with its supports. The introduction states the main ideas and how the essay will move between them. The path is then visible before any unpacking starts. This step takes up to five minutes.
+The aim is a clear logic layer with three properties. The flow of ideas should run in one direction, which makes it easier to write out in a straight line. The supporting concepts and arguments should clearly back each chunk of that layer. For most essays you should end with three to four main chunks, so the argument stays concise, though that count can change with your level of writing.
 
-Once Order has set the path, Verbalise expands the skeleton into sentences. With a clean plan this is often the easiest step. If it is hard, the limiter may be language. When the skeleton is long, bullets in order come first, then sentences. Timed short essays usually skip that extra move. They have fewer points, and the remaining minutes go to sentences and a last read. If Verbalise is hard and the first three steps were clean, the limiter is language.
+This step can take up to 5 minutes in an exam.
 
-## Where the fluency comes from
+## Order
 
-Deep encoding done earlier produced the fluency the writer draws on. The ReCOVer System takes a map that has already been retrieved and linearises it under a clock. [[Bear Hunter System]] is the map of ideas. [[WPW]] is the other way of linearising the map: reteach aloud, whole, then parts, then whole. Linearising a map this way is the same move as putting a logic layer before the detail layers, the sequence [[Layers of Learning]] names.
+Order turns the structure into a line you can write down. Arrange the largest chunks, and any major sub-chunks, into the sequence you will follow on the page. A typical shape opens with an introduction that names the main points, then unpacks each main point with its supporting concepts, evidence, and any bridging ideas.
 
-## Time spent on the plan
+The introduction should cleanly cover the main ideas and how you will move between them. Each chunk is then opened out with supporting evidence and statements, in that same order.
 
-What separates an essay a reader can follow from a muddy one is the time spent making the logic easy to follow. Writers routinely spend too little time on that step. The writer then wastes minutes inventing structure in the middle of a clause.
+How many chunks you need grows with the length of the piece. These working ranges show how the number of chunks grows with the piece:
 
-Twenty minutes of a timed paper go to the plan before the first sentence: ten on Recall, then five on Chunk, then five on Order. The plan those twenty minutes produce looks too simple, and a plan that simple is what the method asks for. The remaining minutes are spent writing. None of them go to inventing structure in the middle of a clause.
+- At high-school level, about 3 to 5 chunks, with 0 or 1 sub-chunk each, and 2 to 4 points per chunk, for about 12 to 20 discussion points in total, and a length of about 2,000 words.
+- In early university, about 5 to 7 chunks, with 1 or 2 sub-chunks each, and 3 to 5 points per chunk, for about 20 to 40 discussion points, and a length of about 3,000 words.
+- In late university, about 5 to 7 chunks, with 1 to 3 sub-chunks each, and 4 to 7 points per chunk, for about 40 to 70 discussion points, and a length of about 10,000 words.
+- For an academic publication or thesis, about 5 to 10 chunks, with 2 to 4 sub-chunks each, and 5 to 10 points per chunk, for about 50 to 100 discussion points, and a length of about 30,000 to 100,000 words or more.
 
-## Chunk count and essay length
+If the organisation of the chunks feels messy, the essay is unlikely to come out well. You are also likely to lose a lot of time mid-sentence trying to decide how to place points and references. Allow up to 5 minutes of exam time for this lining-up.
 
-Chunk count drives length. The conversion is a planning heuristic. It is not a law. High school work sits around three to five chunks and roughly two thousand words. Early university sits around five to seven chunks and three thousand words. Late university sits around five to seven chunks and ten thousand words. Ten thousand words is already a paper, and the heuristic still gives a rough guide. Thesis and publication run five to ten chunks and thirty thousand words and up.
+Mapping methods such as the Bear Hunter System can help you find the important concepts and chunks before you reach this linear order. Turning that map into a line is similar to the work done in WPW.
 
-## What a usable plan looks like
+## Verbalise
 
-A usable plan is one a stranger could write the essay from: three or four chunks, one direction, supports under each, and an opening that states the path. If the plan cannot be followed without new decisions, it is not a plan yet.
+Verbalise expands the skeleton outline into sentences and paragraphs. If your technical writing skill and language mastery are in good shape, this should be the easiest step. The content, and the way the supporting statements and evidence belong in the larger picture, are already decided.
 
-A plan that cannot be followed on the page produces an essay that cannot be followed. The writing itself also goes slower and less accurately. Weak plans almost never yield strong prose. Sentences written later do not repair a messy outline. Some writers do discover structure while writing prose. They are slower. The ReCOVer System is for timed work, where there is no time for that.
+If you have many points, write bullet points in the same order first, then turn those bullets into sentences. You are unlikely to have time for that extra pass in an exam. Exam essays are also usually shorter and have fewer points, so the extra pass is less often needed.
 
-A plan a reader can follow is the fix for a muddy essay. The remaining minutes then go to sentences rather than to inventing structure.
+In an exam, the time that remains after the first three steps goes here, except the time you keep for review. If this step is the one that is hard, the cause may be a lower level of language mastery, which takes more practice and interleaving to raise.
 
-## Two kinds of failure and how to tell them apart
+## What a weak step is pointing to
 
-Essay failure has two kinds. The first is not knowing what to say, in what order, or how the points connect. The second is turning an already-ordered skeleton into sentences that read. Most stuck writing is the first kind, mistaken for the second. The check for the first kind: close the source and ask whether these points could be explained in conversation. If they cannot, the gap is in the map of ideas. The wording is not the problem.
+The feeling during writing often names the step that failed.
 
-Each symptom points to a cause. Lacking evidence, or waffling, means Recall was thin, or the topic was learned too superficially. Recalled points that will not support themes means weak chunking, or too little relationship-based learning. Not knowing where the essay is going means inadequate ordering, often caused by weak chunking. Sentences that will not flow despite a good plan mean the limit is language mastery.
+If you lack evidence for your points, or you feel the need to waffle because you do not have enough meaningful statements, the Recall step was thin. The topic may also have been learned too superficially in the first place.
 
-## When the method does not apply
+If you have recalled points but you are unsure how to use them to support the major themes or conclusions, the chunking was inadequate, or the original learning did not build enough relationships.
 
-The method is wrong when the bottleneck is language and not structure. Then the fix is more practice and interleaving. Another plan does not help. The method is wrong for untimed exploratory drafts, where the point is to find the structure in the prose. The method is useless if the topic was never encoded. Recall will fail, and the right repair is the map of ideas. A longer outline does not help. The four-letter name ReCOVer and the length table are packaging made for this system. Neither is a finding.
+If you are unsure how to move from point to point, or you feel you do not know where the essay is heading, the chunks or sub-chunks were not ordered well. Weak ordering can also come from weak chunking.
 
-If Recall will not produce a structure, planning stops and the writer goes back to learning the topic. If the plan is clean and the sentences still will not come, the method has no further step. The limit is language. If two timed attempts produce a tidy plan and a wandering essay, the structure is still being invented in the sentences.
+If the only difficulty is getting the sentences to read smoothly and naturally, and none of the problems above are present, the gap is language mastery.
 
-## How to practice this
+A large share of writers find both the declarative flow of ideas and the act of writing itself difficult. That is why strong writing skill is uncommon. After the structure is planned, the remaining work is building that writing skill and rehearsing it with sound technique.
 
-1. Read the question stem and spend up to ten minutes on Recall, writing the main points it calls up. Notice whether a structure of main points comes to mind. If none comes, stop planning and go back to learning the topic.
-2. Spend up to five minutes on Chunk. Cut the weaker or less relevant points until three or four main chunks remain, with supports under each. Notice whether the remaining chunks run in one direction a reader can follow.
-3. Spend up to five minutes on Order. Write an introduction that states the main ideas and how the essay will move between them. Notice whether a stranger could write the essay from this plan without making new decisions.
-4. Turn the skeleton into sentences, writing bullets in order first if the skeleton is long. Notice whether this step is easy. If it is hard after a clean plan, the limit is language, and the fix is more practice and interleaving.
-5. When the writing sticks, close the source and try to explain the points in conversation. Notice whether you can. If you cannot, the gap is in the map of ideas, and wording will not fix it.
-6. After a timed attempt, compare the plan with the essay. Notice whether the plan was tidy and the essay wandered. If that happens twice, you are still inventing the structure in the sentences.
+## Open questions
 
-## Related pages
-
-- [[Bear Hunter System]], the map of ideas this procedure linearises
-- [[WPW]], the other linearisation: reteach aloud, whole–parts–whole
-- [[Higher-Order Learning]], the recall depth the first step assumes
-- [[Layers of Learning]], logic layer before detail
-- [[Skin]], the cut step that Chunk performs
+- How does spending up to 10 minutes on Recall change what the later writing time is free to do?
+- How does cutting a draft down to three or four main chunks change how easily a reader can follow the argument?
+- How does a messy plan show up in the time spent deciding where a point belongs while a sentence is already underway?
 
 ## Sources
 
-- Kellogg, R. T. (1988). Attentional overload and writing performance: Effects of rough draft and outline strategies. *Journal of Experimental Psychology: Learning, Memory, and Cognition*. An outline written before sentences reduced pause time during translating and raised rated quality for many writers.
-- Kellogg, R. T. (1994). *The Psychology of Writing*. Oxford University Press. Planning before prose as a separate process from translating.
-- Flower, L., & Hayes, J. R. (1981). A cognitive process theory of writing. *College Composition and Communication*. Novices collapse content, structure, and sentences into one pass; experienced writers separate them.
+- iCanStudy, "Essay Writing". Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: the mapping pass that should leave the topic deeply connected before Recall begins.
+- [[wiki/Dimensions/Deep Processing/Skin|Skin]]: the cutting step that Chunk is compared to.
+- [[wiki/Dimensions/Retrieval/WPW|WPW]]: the linearising work that Order is compared to.
+- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]: the preparation whose absence shows up as trouble at Recall.
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]: the dimension this planning method sits in.

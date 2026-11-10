@@ -1,101 +1,96 @@
 ---
 title: "30-Day Challenge - Self-Regulation"
 type: concept
-status: developing
+status: draft
 created: 2026-05-22
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
-model: grok
-source-count: 6
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "A four-week practice that maps what each learning method actually does, adjusts the weak or passive ones, varies time to isolate cause and effect, then locks the better mix into a system that changes by no more than 20%."
 tags:
   - self-regulation
   - practice
   - learning
+  - 30-day-challenge
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # 30-Day Challenge - Self-Regulation
 
-The Self-Regulation Challenge is a four-week practice plan. The learner treats each study method as a tool, records what each method actually does, and ends the month with a sequence of methods that differs only slightly from the old one. In this plan, self-regulation means watching what the methods do and changing the ones that do not do what they are meant to do.
+The Self-Regulation Challenge is a four-week practice for mastering the tools you already use. Mastery here starts with knowing what each tool is for and how to use it. A capable self-regulated learner needs at least three things. The first is metacognition, meaning thinking about thinking, and the second is accurate watching of cause and effect. The third is judgments that follow those observations and aim at the goal, so the next change is a productive one. In other words, you notice your thinking and the effects it produces, draw a conclusion about how well a method worked, and propose a change you think will get a better result. This first week is for seeing how different methods produce different effects.
 
-The record is a four-column sheet. The learner fills it in week 1 and keeps using it through the month.
+## Week 1: mapping
 
-## Core takeaways
+Split a sheet or document into 4 columns. In the first column, list the learning methods you usually use. In the second, write the effect you believe each method has on memory and on how deeply you understand. Through the week, add any extra methods that come to mind. After you use a method, record in the third column the effect you actually observed. That observed effect, after more careful watching, may match what you expected or may differ. In the fourth column, note how easy or hard the method is to work with, and why it feels easier or harder than the others.
 
-- Week 1 fills a four-column sheet: the methods used, the effect each is expected to have, the effect observed, and how each feels. No method changes in week 1.
-- Week 2 modifies or replaces the methods with no observed effect. Review that only asks whether an item looks familiar is replaced with recall.
-- Week 3 varies the time and effort on each method and runs a test every three to seven days, so the cause of each change can be seen.
-- Week 4 puts the better methods into a sequence that changes about 20% of the old system. If the new system fails, the change was too large.
-- Time spent on a method reflects habit. It does not show how well the method works.
-- Problems that appear only when the workload is heavy belong to the Self-Management Challenge. This month does not cover them.
+If you have never thought about this, it is normal to be unsure what a method does to memory and understanding. A more exact way to measure that comes later. For now, make a careful estimate. Even if the estimate is not the most accurate one possible, there is value in getting closer to your own intuitive sense of what works. Later weeks build on that sense.
 
-## Methods are tools
+Through the week you should start to feel the links among the methods themselves, how they feel to use, how effective you believe they are, and how effective they appear once you watch them. Developing that intuitive sense is how metacognition gets trained. The next week uses what you notice here to make more strategic choices and changes.
 
-The month trains the learner to treat each method as a tool: to know what it is for and how to use it. Staying aware of the methods and correcting them while the study continues is a skill. Keeping the sheet over the month builds that skill. One week does not build it. Conditions that fail when the workload is heavy are covered by [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|Self-Management Challenge]], which contains the pressure week. The pressure week is a planned perfect day. It is not the end of this month. The later weeks of this month isolate variables and put in place a slightly new sequence.
+Learners often find that many of their techniques survive only as habit. They are leftovers from methods used at a younger age, still in use without being chosen on purpose to reach an outcome.
 
-## Week 1: fill the sheet
+## Week 2: judgment
 
-In week 1 the learner fills a four-column sheet and changes no method. Filling the sheet is the mapping. Column one lists the methods actually used. Column two records the effect each method is thought to have on memory and depth. Column three records the effect observed after using it. Column four records how easy or hard the method feels, and why. Methods are added to the sheet throughout the week as the learner notices them. The sheet is the only record. The week does not ask for a diary of when attention drifted.
+By now you should know more about using different methods to get different effects. You should also see which parts of your learning system are chosen on purpose and which are leftover habits. You should notice gaps in how well you understand learning and the methods themselves.
 
-Uncertainty on the early rows is normal. A careful estimate is better than leaving a row empty until the effect is certain. Many methods will turn out to be leftover habits rather than tools the learner chose. Finding those leftover habits is the purpose of the week. A row with no observed effect yet still belongs on the sheet. The estimate in column two is the first observation.
+This week is about judging how well methods work and making possible changes from those judgments. That judgment is a lifelong skill with many uses.
 
-The month depends on three skills: noticing one's own thinking, watching cause and effect, and making a change that fits the goal. The first two skills, noticing and monitoring, are trained by [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]]. Week 1 only records. Changes begin in week 2.
+From the sheet you made in the first week, pick methods that are ineffective or that fail to hold your attention. Methods that do not engage the mind are often passive and inefficient, and they can be improved. Using the guidance below, try to change or replace those methods so they work better and hold attention more. Every few days, look back at how the changes moved effectiveness and engagement.
 
-## Week 2: change the methods that do nothing
+When you change a technique, four kinds of guidance are available. You will meet many other techniques, and variations of these, in later training.
 
-In week 2 the learner works from the sheet. Methods that are ineffective or do not engage the mind are picked out and then modified or replaced. These are often the passive methods. The learner reflects on the changes every few days.
+Practice how you play means asking how you will eventually need to use the knowledge, then looking for ways to make the method closer to that later use.
 
-The rows whose method shows no observed effect are the ones to change. Four questions guide the changes. The first is to practise in the way the knowledge will have to be used. The second is to connect details to the big picture. The third is to find gaps, preferring recall over recognition. The fourth is to remove set-up that does not process anything. Notes written only to be reread are the usual case of such set-up.
+Move between levels means looking for chances to connect detailed information to the wider topic, to the purpose, and to what matters at a high level. Linking details to the larger view has several benefits.
 
-Recognition means an item seems familiar when it is shown. Recall means the learner can produce the item from memory. A person can recognise a familiar coin and still be unable to draw it from memory. Tests usually require production, like drawing the coin. Review that relies on recognition is the method to drop. The recall method to use instead is [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
+Find gaps means looking for chances to adjust the method so it tests knowledge you already have, finds holes, and checks them more actively. Some methods are better suited to testing knowledge already learned, so it can be consolidated and refined. Watch out for methods that rest on recognition when the need is recall. Recognition is being familiar with information, such as looking at a diagram and asking yourself whether it makes sense. Recall is generating that knowledge from memory, such as producing the diagram without looking. Recognising something is much easier than recalling it. Most people can recognise a coin, yet most could not draw that coin, with all its details, from memory. Tests usually ask for recall, so revision methods that only train recognition are worth avoiding.
 
-Often no adjustment is known to be right in advance. Each adjustment is a guess, and the observation after it shows whether the guess held. That loop is the one described in [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: what happened, how it felt and why, what rule that suggests, and what changes next time. Discomfort during the week means a new habit is being trained. It does not mean the week is failing.
+Remove unnecessary set-up means cutting methods that do not help learning or understanding and only prepare you for a later session. One example is writing large volumes of notes without thinking them through or processing them well. Hours can go into notes whose only later use is to be read again. Try dropping those methods entirely, or changing them so real processing happens at the same time. That can feel extreme or uncomfortable if years of habit rest on them. The discomfort comes from unfamiliarity. When those redundant steps are gone, the gap can be filled with a much more effective alternative.
 
-## Week 3: find out which change did what
+These changes are guidelines for experiments, not a single correct rewrite. An unavoidable part of self-regulated learning is forming a hypothesis about a change that should raise how well and how efficiently a method works, then testing that hypothesis by using it. There is often no single right way to adjust a technique. There are only attempts and observations.
 
-Week 3 isolates the adjustments made in week 2. The question is which adjustment actually caused a change. The learner varies the time and effort spent on each method so that the cause of each change can be seen. A test runs every three to seven days. The test can take three forms. Questions check whether an item can be produced. A small project asks the method to do a job. A brain dump shows what is left when no prompt is given. These three forms are the plan's default choice. No measurement established them as a rule.
+Capable self-regulated learners move through hypothesis, experimentation, observation, and refinement often enough, and regularly enough, that they eventually arrive at a method that works. People with little practice at regulating their own learning can find the cycle intimidating or too much to take in. Improvement still requires accepting that feeling and continuing anyway. Over time the cycle becomes second nature. Feeling difficulty and discomfort is a sign you are training a new habit.
 
-Isolating the methods usually shows the same things. Reducing a method that has been used for a long time often does no harm. A method that took little time was often doing more than it seemed. Time spent on a method reflects habit. It does not show how well the method works. A method that took a large share of the week can be cut back without the test score changing. A short method that seemed minor can be the one that produced the score.
+## Week 3: refinement
 
-Finding which method caused which change is a skill the learner keeps using for life. One week is not enough to learn it. Repeating the loop for weeks or months is normal. Week 3 starts the loop. It does not finish it.
+By now you should have some experience forming a hypothesis about how to improve a method and changing the method to test that hypothesis. Your metacognition should also be more mindful of how effective different methods are and what they are for.
 
-## Week 4: build the new sequence
+This week improves observation, so later changes can be more meaningful. Keep following the week 2 instructions. One week is not long enough to get much experience adjusting methods. That process needs to continue for weeks or months. Begin to vary how much time and effort you put into different methods. Watch what that does to memory and to how deep the understanding goes by checking yourself every 3 days to 7 days. Practice questions work for this, as do practice projects or challenges, or a brain dump, meaning writing down everything you remember in depth, as if you were writing a book.
 
-In week 4 the learner designs a learning system that uses the better methods in a logical sequence. A daily schedule is allowed. The plan caps the change at about 20% of the old system. About a fifth changes, and the rest stays as it was. The fifth is a default chosen to prevent overload. No measurement established it. The new sequence runs for a week or more. Adjustments during that run stay minor. Week 4 is needed because a list of adjustments that has not been put into a sequence becomes the next overload. The findings from weeks 2 and 3 have to go into a sequence that can be run on an ordinary day. Otherwise they remain a list.
+The aim is to start isolating variables. When several learning methods run at once, cause and effect get hard to see. It becomes unclear which methods help, or which parts of them help. By putting more time into some methods and less into others, you can see which gaps appear and which ones close.
 
-If the new system fails, the change was probably too large. The next step is a redesign that puts more of the old sequence back. A larger rebuild is the wrong step. After a couple of weeks of stability, the learner can run mapping, adjustment, and experiment again. The second run uses the same four-column sheet. It does not start from an empty set of methods.
+Doing that often shows that a method you spent a lot of time on can fade without obvious harm to learning. It can also show that a method you barely used improves learning more than expected once you give it more time and effort. Where time and energy go does not always match the most effective methods. That pattern may simply follow existing habits and behaviours.
 
-## What the month leaves
+Once you can see which variables lead to which effects, you gain finer control over your learning system. That, too, is a lifelong skill.
 
-The month ends with a slightly new sequence of methods that has been run long enough to be familiar. If the sequence fails, the change was too large.
+## Week 4: systemisation
 
-Three things show that the month has gone wrong. If methods change during week 1, the sheet has been skipped. If week 4 rebuilds the whole system, the change has passed the 20% cap; that rebuild is what the cap is meant to prevent. If the reader's problem is workload, the reader is on the wrong track; the Self-Management Challenge covers workload. Each of these is a sign to stop. After stopping, the reader repeats the week. If the day itself is what fails, the reader moves to the Self-Management track.
+By now you should be starting to see how your existing learning system can improve, which methods can be dropped or changed, and you should have a deeper metacognition about learning methods in general.
 
-## How to practice this
+This week takes the insights from the past few weeks and begins to form a coherent, deliberate learning system. Keep following the instructions from the second week and the third week. This is a continuous cycle of refinement. Design a learning system that puts the more effective methods, including any changes you have already made, into a logical sequence. A daily schedule can make that system easier to follow. Aim for a system no more than 20% different from the methods you use now. Too many changes at once are likely to produce overload and error rates that are higher than they need to be. Run that system for a week or more, and make small adjustments so it runs smoothly.
 
-1. In week 1, fill the four-column sheet: method used, expected effect, observed effect, and how it feels and why. Change no method this week. Notice which rows are leftover habits rather than tools you chose.
-2. In week 2, modify or replace the methods whose rows show no observed effect. Drop any review that only checks whether an item looks familiar. Notice that discomfort means a new habit is being trained.
-3. In week 3, vary the time and effort on each method so the cause of any change stays clear. Run a test every three to seven days: questions, a small project, or a brain dump. Notice whether a method that took a large share of the week can shrink without the score moving.
-4. In week 4, arrange the better methods into a sequence that changes about 20% of the old one. Run the new sequence for a week or more. Notice whether it holds on an ordinary day.
-5. If the new system fails, redesign it and put more of the old sequence back. Notice that the failure means the change was too large. After a couple of weeks of stability, run the same loop again from the same sheet.
+If the new system is less effective or less complete than you hypothesised, go back to designing it and try again. If it keeps failing to beat your existing system, you may be changing too many things at the same time. That adds extra variables you do not yet understand, and the failure rate rises.
 
-## Related pages
+The point of this last week is to gather the insights from the earlier experiments into one place. If those findings stay as a long list of changes, the list can become so large to think about that productivity and efficiency drop. After you learn something new about your learning, stabilise those findings in a new system, get familiar with the new methods, and make small adjustments that help the system. After a couple of weeks of experience with that system, you can run the cycle again by mapping, adjusting, and experimenting as you did in the second week.
 
-- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]: the parent page for the five tracks.
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the parent dimension. It covers more than this month's inventory.
+Later training will introduce many new methods that also need to fit into your system. Learners with weaker self-regulation often struggle to upgrade a system and get overwhelmed more easily. The experience of finishing this challenge is meant to make it easier to build a personalised system without that overwhelm.
 
 ## Open questions
 
-How a reader who uses only two methods fills a four-column sheet.
-
-When leftover-habit methods should be kept because they still do one small useful job.
+- How does writing the effect you expected from a method, then the effect you actually saw, change which tools you treat as leftover habit?
+- How does changing a learning system by no more than 20% change whether the new mix holds long enough to judge?
 
 ## Sources
 
-- Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. *Theory Into Practice*, 41(2), 64–70. Monitoring and control are parts of a cycle of forethought, performance, and self-reflection. The four-column sheet is one way to begin the monitoring.
-- Winne, P. H., & Hadwin, A. F. (1998). Studying as self-regulated learning. In D. J. Hacker, J. Dunlosky, & A. C. Graesser (Eds.), *Metacognition in educational theory and practice*. Erlbaum. Describes studying as a COPES loop: conditions, operations, products, evaluations, standards.
-- Nelson, T. O., & Narens, L. (1990). Metamemory: A theoretical framework and new findings. In G. H. Bower (Ed.), *The psychology of learning and motivation* (Vol. 26). Academic Press. Names monitoring and control as the two operations of metamemory.
-- Jacoby, L. L. (1991). A process dissociation framework: Separating automatic from intentional uses of memory. *Journal of Memory and Language*, 30(5), 513–541. Shows that recognition and recall are separate processes. Finding an item familiar is not the same as producing it.
-- Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*, 17(3), 249–255. Retrieval practice works better than restudy that only asks for recognition.
-- Wood, W., & Rünger, D. (2016). Psychology of habit. *Annual Review of Psychology*, 67, 289–314. Habits triggered by cues explain why leftover methods stay in use after they stop being useful.
+- iCanStudy, "Week 1: Mapping", 30-day self-regulation challenge. Private course notes, paraphrased.
+- iCanStudy, "Week 2: Judgment", 30-day self-regulation challenge. Private course notes, paraphrased.
+- iCanStudy, "Week 3: Refinement", 30-day self-regulation challenge. Private course notes, paraphrased.
+- iCanStudy, "Week 4: Systemisation", 30-day self-regulation challenge. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the dimension this challenge trains.
+- [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|Self-Management Challenge]]: another four-week practice in the same set.
+- [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset Challenge]]: nearby work on turning mistakes into experiments.
+- [[wiki/Dimensions/Self-Regulation/Common Traps|Common Traps]]: nearby work on watching what your methods actually do.

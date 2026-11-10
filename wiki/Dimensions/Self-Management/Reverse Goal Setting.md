@@ -1,155 +1,98 @@
 ---
 title: "Reverse Goal Setting"
 type: technique
-status: seed
+status: draft
 created: 2026-05-07
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
-model: grok
-part-of: "[[wiki/Dimensions/Self-Management|Self-Management]]"
-aliases:
-  - Performance Goals
-merged-from:
-  - Performance Goals
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "Reverse goal setting starts with a goal you are willing to change, then rates the skills, attributes, and habits you need against where you are now, so the plan works on the gap rather than on a vague intention."
 tags:
-  - reverse-goal-setting
-  - self-management
+  - goals
   - planning
-  - performance-goals
-  - checkpoints
+  - self-management
+wedge_reviewed: false
 ---
 
-> Part of [[wiki/Dimensions/Self-Management|Self-Management]]
+> Not yet reviewed by Wedge.
 
 # Reverse Goal Setting
 
-Reverse Goal Setting is planning a hard goal from the person who could actually reach it, then closing the gap between that person and now. The named goal is a hypothesis about a deeper result and can be swapped. Outcomes are reached through skills, attributes, habits, resources, and actions. Looking at the outcome does not reach it.
+Ordinary goal setting often stops at a desired result, such as doing well in an exam or getting a job. The plan attached to it is often thin, such as studying hard or trying to get the job. Complex goals rarely follow one straight path. Many paths can lead there, some do not look as if they do, and most of the time you cannot see the paths or where they lead. Effort without visible progress is easy to abandon, even when you were on a useful path. Reverse goal setting is a five-step way to make the path clearer, choose actions that raise the chance of reaching the goal, and keep going long enough to see progress.
+<figure>
+<svg viewBox="0 0 520 530" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="dim-rgs-a">
+<title id="dim-rgs-a">Reverse goal setting is a five-step way to make the path clearer, choose actions that raise the chance of reaching the goal, and keep going long enough to see progress.</title>
+<rect x="0.5" y="0.5" width="519" height="529" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<text x="24" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">five-step way</text>
+<circle cx="260" cy="64" r="5" style="fill:var(--qp-ink)"/>
+<path d="M260 69 L260 80" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="260,80 255.5,72 264.5,72" style="fill:var(--qp-mut)"/>
+<rect x="110" y="80" width="300" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="260" y="107" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">Set the goal</text>
+<path d="M260 124 L260 168" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="260,168 255.5,160 264.5,160" style="fill:var(--qp-mut)"/>
+<rect x="110" y="168" width="300" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="260" y="195" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">Assess the level you need</text>
+<path d="M260 212 L260 256" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="260,256 255.5,248 264.5,248" style="fill:var(--qp-mut)"/>
+<rect x="110" y="256" width="300" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="260" y="283" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">Assess your current level</text>
+<path d="M260 300 L260 344" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="260,344 255.5,336 264.5,336" style="fill:var(--qp-mut)"/>
+<rect x="110" y="344" width="300" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="260" y="371" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">Map the barriers and the drivers</text>
+<path d="M260 388 L260 432" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="260,432 255.5,424 264.5,424" style="fill:var(--qp-mut)"/>
+<rect x="110" y="432" width="300" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="260" y="459" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">Make a short action plan</text>
+<line x1="260" y1="476" x2="260" y2="492" style="stroke:var(--qp-rule2);stroke-width:1.25"/>
+<circle cx="260" cy="500" r="8" style="fill:none;stroke:var(--qp-ink);stroke-width:1.25"/>
+<circle cx="260" cy="500" r="4" style="fill:var(--qp-ink)"/>
+</svg>
+</figure>
 
-The same method run forward gives performance goals. A performance goal is a dated checkpoint on a process still under control, read in time to change the trajectory. The outcome comes later. Feedback that arrives only at the result arrives too late to use.
+A goal is a means to an outcome, such as a way of living or a feeling you want the work to produce. If later information shows that this goal will not produce that outcome, the goal should change so it stays aligned with what you actually want. That change is not easy, and people who never reopen the goal can hit every milestone and still feel stuck.
 
-## Core takeaways
+## Set the goal
 
-- Plan from the person who could reach the goal: list the attributes that make that person's success near-inevitable, rate the required and current levels from 1 to 10, and treat the gap as the plan.
-- Work on two or three gaps, with an action plan of at most two current priorities. Conflicting goals reduce performance.
-- Checkpoints measure attributes, not activity. Hours at the desk and pages covered can be maxed out while the goal is missed.
-- Write each checkpoint as a baseline and a target in concrete numbers, one at thirty days and a smaller one at fourteen, set so the worst case still hits it.
-- Test the date backward from the outcome to now and forward from the real now to the date. On a complex goal run both and look for the miss.
-- The goal is a hypothesis about a deeper outcome and can be swapped. The outcome is a symptom of the process. The person is what gets built.
+The first step is to set the goal. Do your best to work out what is meaningful and how you want to live, and let that be the goal. Stay open to the fact that this goal will probably change.
 
-## Hold the goal, name the person, score the gap
+## Assess the level you need
 
-Conventional goal setting often stops at intention. Get the job. Do well on the exam. Become a doctor. Learn the language. Build the project. A meaningful goal usually has many unclear paths: which path works, how long it takes, what obstacles matter, whether the original goal will still match the deeper result. The common failure is high effort, low visibility, uncertain progress, then demotivation.
+Break the goal into the challenges, problems, and obstacles it will raise. The second step is to judge how capable you must be in order to meet them. Ask what skills, attributes, and habits the person who would get through those challenges easily would have. Write those attributes down. They might include time management, focus, the ability to learn, stress management, resilience, emotional regulation, or organization and planning.
 
-The true target is the outcome the goal is supposed to create. That outcome might be fulfillment, autonomy, competence, impact, income, health, identity, freedom, or access to future opportunities. Those are examples, not a complete list. If the goal stops producing the deeper outcome, the goal should change. The underlying outcome is the anchor. Holding the goal loosely is what prevents lock-in.
+For each one, rate the level it needs to reach, out of 10 points. You do not need a rating of 10 points out of 10 points at every attribute. You might need an organization ability of 4 points out of 10 points and a learning ability of 8 points out of 10 points. Making those numbers explicit turns a vague feeling of anxiety or self-doubt into something you can see. These ratings are meta-goals, meaning the goals that have to be reached so the larger goal becomes more likely.
 
-**Set the goal, and write what it is believed to do.** Four questions: feeling, life position, future options, identity or contribution. Difficulty is easier to persist through when it was expected and written down at this step.
+You cannot control the outcome itself. You can control the skills, attributes, and habits that raise the probability of reaching it. Someone who needs a time-management level of 7 points out of 10 points and currently has 3 points out of 10 points may still succeed, but the attempt will be harder and the chance lower. Someone at 10 points out of 10 points has a higher chance and can still be unlucky. What you can work on is the meta-goals. Asking people who have already attempted the same goal, where it was hard and how they handled it, can help you set those target levels.
 
-**Name the required person.** Every complex goal implies challenges. The question is what kind of person could overcome those challenges. Imagine a person certain to achieve the goal. Fully hypothetical is fine. The test: if this person could not pull it off, nobody could. List the skills, attributes, and habits that make their success near-inevitable: time management, focus, learning ability, emotional regulation, stress tolerance, consistency, organization, social skill, technical skill, physical energy, financial discipline. The list is a starter. Add the attributes people skip: time management; focus and procrastination control; learning efficiency (usable learning per unit of time); learning consistency (how regularly the work happens, a separate variable from efficiency); stress management; resilience under discomfort; sleep quality; support network. Add goal-specific ones, communication, networking, the size of the network, where the goal demands them. Sleep quality is a real performance attribute; how to improve sleep is a separate subject. Resilience gates skill acquisition. Every new technique feels uncomfortable at first, and retreating to the familiar method at that exact moment blocks the acquisition outright. Stress weakens the whole profile no matter how strong the other attributes are.
+## Assess your current level
 
-Rate the required level for each on a 1–10 scale. The number is subjective. It makes the hidden demand visible. The dated checkpoints attach to these attributes, not to coverage.
+The third step uses the same list. Rate where you are now, out of 10 points, on each attribute. If time management needs to be 7 points out of 10 points and you are at 4 points out of 10 points now, that gap is visible. Doing this across the list shows which gaps are largest and turns the vague goal into targets you can act on. You can then track progress by watching those gaps close, and aim effort at the attribute that is holding you back most.
 
-**Score the current level on the same list.** The gap is the real plan: the meta-goals, the capabilities that have to be built so the external goal becomes likely.
+A long list can still feel overwhelming. Outcomes are symptoms of the processes you use, and those processes come from your skills, attributes, and habits, yet each item on the list does not move the outcome to the same degree. Attributes with a high required level usually have a wider gap as well. Prioritize the two or three items whose required score is highest and whose gap is widest. Focus on those until their level starts to rise. Do not pile the lower-priority items on top. The brain does not rewire well when it has to change many things at once. It is better to work on two or three items and then shift to another two or three one or two months later than to chase 5 items or 6 items at the same time.
 
-| Attribute | Required | Current | Gap |
-|---|---|---|---|
-| Focus | 8 | 4 | 4 |
-| Time management | 7 | 3 | 4 |
-| Technical skill | 8 | 6 | 2 |
-| Stress regulation | 6 | 4 | 2 |
+Even without the later steps, these first three already make the work actionable. If the goal is missed, the skills, attributes, and habits are still higher than before, which raises the chance on the next goal. If the goal itself has to change, many of the same attributes still transfer, because what you were developing was yourself moving toward a goal, not a trophy that disappears if the target shifts. Working on the gap also replaces a free-floating anxiety about obstacles with confidence that you can meet challenges even if they change.
 
-The biggest gaps are usually the first priorities. Deficits across many attributes are normal; they mean more room to improve. Conflicting goals reduce performance, so the top two or three are the ones that ship. [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] is how the next small improvement among those gaps is chosen. Treat the gaps as dimensions to improve in [[wiki/Dimensions/Dimensions of Learning|Upgrading Your Dimensions]].
+## Map the barriers and the drivers
 
-Distrust the rating "this doesn't apply to me." Brains assess their own abilities badly. The exemption reflex is strongest in high performers, the group most likely to rush fundamentals and stall later. Rating honestly costs nothing and avoids finding out the same thing later at a higher cost. The honest self-rating the comparison with the required person depends on is the same skill a [[wiki/Dimensions/Self-Management/Skills Audit|Skills Audit]] practises on technique.
+The fourth step is a force-field analysis. Draw a line, with the goal on one side and yourself on the other. On the barrier side, write what makes the goal hard to reach, in specific detail. On the other side, write your drivers, meaning qualities in you and supports within reach that help you get through those barriers, and your resources, including physical resources and people in your network. Match a specific barrier with the drivers and resources that could address it.
 
-## Why hours and pages mislead
+Barriers are not always directly about the goal. They can be about whether you have time and space to do the work that would close the gap, such as hours spent on childcare and school runs. Some barriers cannot be removed and have to be worked through. Others can be eased, for example by asking whether a partner, a sitter, or a relative could take over on one or two days a week. Putting the choice on paper makes it conscious. Would you rather free that time, or try to push through without it?
 
-A driver chasing a one-minute lap reads the lap mid-flight. A hundred metres before a key corner the speed must show 80 km/h; a hundred metres past it the clock must sit at 43 seconds. Miss either marker and the lap target is already gone, with most of the lap still to drive. The early signal creates room to self-correct while correction is cheap. Without it, weeks of effort can run down a wrong path, and the first honest feedback arrives the night before the exam.
+## Make a short action plan
 
-Activity metrics count the studying process: hours at the desk, chapters covered, flashcard counts, pages of notes. Learning is a change in what can be retrieved and used, and it moves independently of those counts. Five hours with a weak technique can produce less mastery than two hours with a strong one. A checkpoint is useful only if it correlates with the outcome. "Cover this much material by this date" can be maxed out while the goal is missed. If the metric can be maxed out while the goal is missed, it is decoration.
-
-## Thirty days, fourteen days, the golden rule
-
-The checkpoints attach to the person being built, not to the coverage being logged. Early targets are supposed to be almost certain, because the work at that stage is building the person; proving the outcome comes later. The process is what is under control.
-
-Write baseline → target for each chosen attribute. Both ends in concrete numbers. Specific and measurable beats "do your best."
-
-A worked time-management line: today, scheduling three days a week, following the schedule about 20%, clearing a third of the daily task list. Thirty days out, scheduling four to five days a week, following it about 60%. Clearly better, nowhere near perfect. That is the right size.
-
-Repeat at fourteen days, smaller. The fourteen-day target should look unimpressive on paper. Its job is momentum: a working improvement system and a visible first gain, so the thirty-day review shows a real step rather than a stall.
-
-**The golden rule:** set each target so the worst case still hits it and the best case far exceeds it. A missed early checkpoint removes momentum at the point where momentum is the product. A guaranteed one is one stacked gain, each fourteen- or thirty-day step being one step, and leaves capacity for the next cycle to aim higher. Instrumenting the process (baselines, dates, a fourteen-day review) is the cost; the benefit is correction while it is still cheap.
-
-Without dated baselines the work becomes the daily grind: weeks of the same activity, no visible progress, rising anxiety, and an outcome left to luck because the process was never instrumented.
-
-## The gap is the plan
-
-Capability-building is what the scores are for. Even if the external goal changes or fails, the person is still improved: better focus, self-management, learning skill, emotional regulation, and planning transfer. That transfer is the reason to hold the goal loosely. Progress is measured by whether the gap is closing, not only by whether the final goal has been achieved. The method costs an honest 1–10 pass and a review cadence; it does not need a vision board. [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is the sibling home: monitoring whether the gap is actually closing. [[wiki/Dimensions/Mindset|Mindset]] is the shift from outcome anxiety to process improvement.
-
-## Forces, the next two moves, and whether the date is real
-
-**Force field analysis** is a list of forces helping the change and forces blocking it, so a specific block can be matched with a specific help. Change happens by strengthening drivers or weakening restraints.
-
-Barriers: lack of time; fatigue; unclear priorities; family obligations; weak environment; missing information; low confidence; poor tools; social pressure; financial constraints.
-
-Drivers and resources: existing strengths; supportive people; money; time blocks; prior experience; mentors; tools; routines; environment changes; accountability.
-
-The value is agency: match a specific barrier with a specific resource or mitigation, instead of seeing one giant obstacle.
-
-**A short action plan, at most two current priorities.** Tighter than the two-or-three scored above. Six types: develop one skill; remove one barrier; build one habit; create one resource; run one experiment; ask one person for help. The plan should be small enough to review frequently.
-
-Suggested default, not a law: every one or two days check the action plan; every one or two weeks update barriers, drivers, resources; every two to four weeks reassess current levels; every one or two months check whether the goal still matches the deeper outcome. Four layers of review is the overhead risk. After an attempt, [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] is how the plan is updated: what happened, how it felt and why, what rule that suggests, what changes next time.
-
-Then the date itself is tested.
-
-**Top-down feasibility.** Start at the outcome and walk the required person backward until "now." The plan fails if that arrived-at now is better than the real now. This pass is the better first one when the goal is easier to take apart from the end, current levels are hard to score, or the work has not started.
-
-**Bottom-up feasibility.** Start from the real now and walk skill and attribute pace forward to the date. The plan fails if that pace cannot reach the required level in the time available. This pass is the better first one when current levels are the clear part, later stages are foggy, or the skill-to-goal link is fairly direct.
-
-On a complex goal, run both and look for the miss. Walking forward is still this method if the required skills were named by analysing the desired outcome. If they were not, it is ordinary forecasting, not this method. A goal a few weeks out often cannot close a real capability gap.
-
-Use the method when the goal is complex enough that ordinary planning feels vague. Good candidates: career transitions; major learning projects; language learning; fitness or health; building a public knowledge base; creating a business or product; long-term identity shifts. The portable question: what skills, attributes, habits, and resources would make this goal much more likely?
-
-It should feel like a vague future becoming a concrete capability gap. Good signs: the desired end state is observable; missing capabilities become visible; blockers become specific; the next step feels smaller than the original ambition.
-
-## What this is not, and when to quit
-
-On a well-learned, simple task, a difficult specific goal beats an easy one. The early targets above are not that kind of goal. They are for building attributes on novel, complex work, where a difficult outcome target can block the learning the attributes require.
-
-The required person, the avatar, is unvalidated. Fourteen and thirty days are teaching defaults, not measured optima. The two-or-three cap is a house default, not trialled. Activity-metric direction is supported; the five-hours-can-lose-to-two comparison is an illustration, not a finding.
-
-The method is useless on a goal that is already a single next action. It is fiction if the 1–10 scores stay vague. If every checkpoint is an activity metric that can be maxed out while the goal is missed, the method is being used as decoration: change the metric, do not add more dates. If seven attributes are all in play, the two-or-three cap has failed and the next cycle will fail with it. If the fourteen-day mark was set to impress, it is the wrong rule.
-
-After one pass the checkable form is two named gaps, one matched barrier, a dated baseline and a dated target on each of the two or three chosen attributes written so a worst honest week still hits the near one, and whether the date survived the top-down or bottom-up test.
-
-## The vivid future is not the method
-
-Reverse Goal Setting has become fantasy planning when the future is vivid and the current gap stays vague. That is the same failure as vague 1–10 scores. The outcome follows as a symptom of a process good enough and consistent enough, and what is left after that is luck. The outcome is not controlled directly. Without the attributes, intermediate goals do not produce the outcome. With them, the goals are reached as a side effect. The goal remains a hypothesis. The person is what actually gets built.
-
-## How to practice this
-
-1. Write the goal and what it is believed to do: feeling, life position, future options, identity or contribution. Notice whether the goal still produces that deeper outcome; if it stops, change the goal.
-2. Imagine the person certain to reach the goal and list the attributes that make their success near-inevitable. Rate required and current levels from 1 to 10, with no attribute marked as not applying. Notice the two or three biggest gaps; those are the plan.
-3. List the forces blocking the change and the forces helping it. Match one specific barrier with one specific resource or mitigation. Notice the next step becoming smaller than the original ambition.
-4. For each chosen attribute write a baseline and a thirty-day target in concrete numbers, then a smaller fourteen-day one. Notice whether a worst honest week still hits the fourteen-day target; if not, lower it.
-5. Walk the required person backward from the outcome to now, then walk the real pace forward to the date. Notice whether the arrived-at now is better than the real now, or the pace falls short.
-6. Check the action plan every one or two days and reassess current levels every two to four weeks. Notice whether the gap is closing; that is the progress measure.
+The fifth step is to make an action plan. Distill everything down to at most two points to work on. Those points might be skill development, or they might be removing a barrier that is blocking any skill work at all. Revise the action plan every 1 to 2 days, checking how those two points are going. Revise the force-field analysis every 1 to 2 weeks. Check which barriers remain, which have changed priority, and whether you now see more resources or understand your drivers more clearly. Assess your current level every 2 to 4 weeks, because skills usually do not shift in a few days. That review tells you what to prioritize next in the action plan. Revisit the goal itself every 1 to 2 months, as you learn more about the challenges and about whether this goal still produces the outcome you want. You may need to add attributes to the list, or shift the goal.
 
 ## Open questions
 
-Which current goal first. Which two gaps. What cadence stays useful without the four-layer overhead. When an attribute has no honest number, resilience, a support network, what is the smallest proxy that still correlates with the outcome rather than decorating it?
+- How does rating a needed skill out of 10 points change what you actually practice in the following week?
+- How does matching one written barrier with a specific driver change which request for help you are willing to make?
 
 ## Sources
 
-- Robinson, J. 1990. "Futures under glass." *Futures* 22(8), 820–842. Work backward from a desired future rather than forecast forward.
-- Locke, E. A. & Latham, G. P. 2002. "Building a practically useful theory of goal setting and task motivation." *American Psychologist* 57(9), 705–717. Specific, measurable goals; feedback as a moderator; outcomes are reached through control over direction, effort, persistence, and strategy.
-- Lewin, K. 1951. *Field Theory in Social Science*. Driving forces versus restraining forces.
-- Kingston, K. & Hardy, L. 1997. *Journal of Sports Sciences* 15, 187–196. Process-goal training improved self-efficacy and concentration more than performance-standard goals: the finding under measuring progress by the gap.
-- Seijts, G. H. & Latham, G. P. 2005. "Learning versus performance goals." *Academy of Management Executive* 19(1). On complex or novel tasks a difficult outcome goal can inhibit learning; a learning goal (strategies, attributes) is the fit.
-- Plant, E. A., Ericsson, K. A., Hill, L. & Asberg, K. 2005. *Contemporary Educational Psychology*. Study hours predicted GPA poorly; deliberate high-quality study predicted it.
-- Roediger, H. L. & Karpicke, J. D. 2006. Testing effect: more exposure time is not more learning.
-- Goodhart, C. 1975; Strathern, M. 1997. When a measure becomes a target it ceases to be a good measure.
-- Kruger, J. & Dunning, D. 1999. *Journal of Personality and Social Psychology* 77(6). Self-assessment is systematically flawed.
-- Dunning, D., Heath, C. & Suls, J. M. 2004. *Psychological Science in the Public Interest*. Same direction.
-- Schwabe, L. & Wolf, O. T. 2009. *Journal of Neuroscience*. Acute stress shifts control toward habit.
+- Justin Sung, "How to Change Your Life in 2026 with Reverse Goal Setting". https://www.youtube.com/watch?v=LTaCZRsVIB0
+
+## Related pages
+
+- [[wiki/Dimensions/Self-Management|Self-Management]]: the dimension this planning method sits in.
+- [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated (when you don't feel like it)]]: acting on the plan on days when motivation is low.
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: improving a few high-gap attributes rather than trying to raise everything at once.

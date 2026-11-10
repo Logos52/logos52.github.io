@@ -1,94 +1,64 @@
 ---
 title: "Inquiry-Based Learning"
 type: technique
-status: seed
+status: draft
 created: 2026-05-29
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
-model: grok
-ics-stage: Technique Training
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "Inquiry-based learning means creating problems and answering them, so curiosity directs what you consume and how you think."
 tags:
   - deep-processing
   - encoding
   - inquiry
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # Inquiry-Based Learning
 
-Incoming material is kept when a written question is already waiting for it. The question is written before the source is opened. Purpose decides what is kept, and writing questions is how purpose gets made. Writing a problem and then answering it changes what gets consumed and how that material is thought about.
+Inquiry-based learning means creating problems and then answering them, so that curiosity directs what you consume and how you think. Seeking an answer and then satisfying that curiosity changes both the information you take in and the depth you can apply later.
 
-Without a written question, part of the effort during intake goes to deciding what is relevant, and that sorting runs at the same time as the material arrives. A reader without a question can spend an hour on a source before noticing that no goal was ever set.
+When you learn by solving problems, the answers give you more information, which leads to more questions. That ongoing cycle produces a richer, more usable understanding and stronger retention. People often struggle to apply what they have learned. The issue described here is that they usually do not try to apply information right after they have learned it. A comparison used for that delay is running down a road just because someone told you to, and only later realising you do not know where you are going or why you are running.
 
-## Core takeaways
+Studying produces learning only when the information you take in has a purpose. Problems can help give it that purpose.
 
-- Write the questions before opening the source. Material is kept when a written question is already waiting for it.
-- The routine is called Traffic Light. Red light writes the questions, green light reads to answer them, and the two repeat until most of the topic is covered.
-- Each question is there to open several relationships, so green light looks for more than one answer and puts the relationships into non-linear notes.
-- The objective is to become familiar with how asking questions changes the processing of new material. Finishing the topic is not the objective.
-- The classroom method with the same name is contested, and this routine is substantially modified from it. A self-written question list with a stopping rule is the scaffolded kind of discovery, which comparison research finds can beat explicit instruction.
-- After several loops the map is built from the learner's own judgments about what matters. Its groups come from comparing concepts, not from the order the source used.
+Ordinary learning is unfocused and causes you to take in too much information at once, which makes it harder to process. You then forget it quickly and waste time going back to relearn it. The unstructured nature also makes the information feel tedious and unenjoyable. A comparison used here is tossing a pile of items into a room, then seeing that you cannot find anything, and taking it all out to organise it again. Organising first avoids that loop.
 
-## Red light: writing the questions
+A training method for this is the traffic-light system. It has a red-light phase and a green-light phase.
 
-The routine's house name is Traffic Light. Red light writes the questions and green light answers them. Unfocused intake takes in too much at once, is harder to process, is forgotten quickly, costs the time of relearning, and feels tedious. Red light breaks the habit of reading to consume.
+Red light forces you to think of questions and directs your focus. It helps break habits of passive learning, or reading and consuming without a clear big-picture purpose. When you first begin studying, make a list of keywords and concepts. The list does not need to be complete. Try to cover the main ideas in the topic. Then ask which keywords feel easier or more relevant immediately, and start with those. Ask what you are curious about, why you need to know this, and what problems it helps you solve or how you can apply it. Other questions may appear as you ask these, especially around curiosity. Note them for the next phase. When red light ends you should hold a set of questions ready to answer.
 
-Red light starts with a list of keywords and concepts. The list covers the topic's main ideas, not every term on the page. Each keyword then gets four stems. The first stem asks which keywords feel most relevant or easiest, and those are where the work starts. The second asks what the learner is curious about. The third asks why this needs knowing. The fourth asks what problem it solves or how it would be applied. Working the stems raises further questions, especially from curiosity, and those get written down too. Red light ends with a written list of questions.
+Green light is when you satisfy that curiosity by answering the questions. This is when you read, listen, and search through content to locate relationships, write notes, and think about how all of it connects. The aim is not to read everything and memorise all the information. The aim is to answer the questions you asked.
 
-```text
-Keywords in: rainfall, drains, soil, paving.
-Questions out: why does paving change where the water goes ·
-what does saturated soil stop doing · where does a drain fail first ·
-how would this street flood differently after a week of rain.
-```
+While answering, think of multiple answers for each question, since the question is a way to find multiple relationships rather than one perfect answer. As you work through each keyword you will find many relationships. Try to express them in your notes, even if the notes are messy at first. After every two or three keywords, look at the growing map and try to tidy it, and tidy it, judging what is important and worth keeping. Continually revise your structure. The map will not be fixed until much later. Everything you map at this point is to help you think and organise. Green light finishes once you have answered every the questions from red light. Then go back to red light and continue the cycle until you feel you have taken in most of the topic.
 
-## Green light: answering the questions
+A few items may still be so fine-grained and specific that the related questions are hard to answer. Those items can go on flashcards or another lower-order memorisation method for now.
 
-Green light reads, listens, and searches to answer the questions from red light. It does not try to memorise everything. Each question is there to open several relationships, not to collect a single correct reply, so green light looks for more than one answer to each. The relationships go into the notes, and the notes are messy at first. Every two or three keywords, the map gets simplified and judged for what is worth keeping.
+During this cycle you will discover many new relationships. Non-linear notes help you think about them. Trying to work it all out only in your head will overload you.
 
-The relationships found are more than a person can hold in the head, so they go on paper, and the notes are non-linear. [[Mindmaps|Non-Linear Note-Making]] is the note form built to hold them. What gets drawn during green light holds thinking outside the head and makes the flow visible. It does not record a result, so the structure stays provisional until much later. Detail too fine-grained to answer any question goes to rote memorisation for now. That detail is parked until it becomes relevant, not written off.
+You can start from any keyword that feels like an important idea. With correct inquiry you ought to be able to begin at any keyword and pick out which words really matter most. The aim is to compare ideas, contrast them, and see how concepts affect and relate to each other, then group words based on that. Do not let your groups be dictated by how the material was presented, or by unexamined ideas about how it should be organised. An effective learner reaches their own carefully checked conclusions about how the information should be organised.
 
-## Running the loop
+At the beginning, do not try to make perfect questions. Struggle with asking questions is normal. You have to keep asking them if you want to get better. The objectives include thinking of questions that create curiosity and possible relationships, and training the brain to become more curious. They also include training it to learn along that line of curiosity, and becoming familiar with how asking questions changes the way you process new information.
 
-Green light ends when the questions from red light are answered. Then red light runs again. Each pass surfaces material that raises the next pass's questions, so the cycle compounds until most of the topic has been covered. Early questions are not going to be good ones. Struggling with them is normal, and the asking continues anyway.
+The work can feel chaotic as you move back and forth between questions and material. That engages more higher-order, integrative thinking, and that helps build networks and relationships. It can feel confusing as you try to work out your questions, which improves active learning and deep processing and helps you reach knowledge mastery earlier. Building a non-linear structure that holds the relationships can feel confusing or overwhelming. That forces prioritisation and evaluation, described as one of the highest orders of learning, and helps you link the notes you take with the thinking that produced them. More curiosity and a sense of active effort show that you are using more cognitive resources on the learning task. If you are doing the technique correctly, that leads to stronger learning. Unease and worry as you leave some details aside and learn out of sequence indicate that you are creating mental schemas, meaning knowledge structures, in whatever arrangement your brain finds the most useful. Those feelings also indicate that you are rightly setting information aside until it becomes more relevant.
 
-**The objective is to become familiar with how asking questions changes the processing of new material. Finishing the topic is not the objective.**
+Researchers have contested how effective and valid inquiry-based learning is, and those concerns are treated as valid here. The method as it appears in research often lacks an agreed definition and clear guidelines, depends heavily on a facilitator, varies widely in measured effectiveness, and rests on theory and science that have been questioned. Almost all of that research is aimed at educators and curriculum makers, not at at individual learners, and it is not generally treated as a method people apply for themselves. The view taken here is that inquiry-based learning in that research space is highly limited, and that some implementations are useless or harmful. The underlying theory still overlaps with better-supported ideas about cognitive load, meaning the amount of mental work a task demands at once. The approach taught here extracts the useful aspects and frames them for a self-regulated learner, from that cognitive-load angle. The version is substantially modified. Mainstream research would not count it as inquiry-based learning.
 
-The routine costs one pass of question-writing before any reading starts, and notes that stay messy through the middle.
+## Open questions
 
-## The classroom method with the same name
-
-The mainstream classroom version of inquiry-based learning is contested. There is no agreed definition of what inquiry is, no clear guidance on how to implement it, heavy dependence on the facilitator, and effectiveness that varies widely across studies. Most of that research is aimed at educators and curriculum makers, not at a person studying alone. Comparison research finds that unassisted discovery loses to explicit instruction, and that discovery with feedback, worked examples, and scaffolding can beat it. A self-written question list with a stopping rule is the scaffolded kind, not the unassisted kind. Implemented badly, the classroom version is useless or harmful.
-
-The Traffic Light routine is framed from a cognitivist, self-regulated angle under cognitive load theory. It keeps the part that survives that framing: the written question removes the relevance sort that otherwise runs at the same time as intake. If the routine is treated as the textbook version, the criticisms apply to it.
-
-**The Traffic Light routine is substantially modified, and it is not what mainstream research calls inquiry-based learning.**
-
-## What the map should look like
-
-The starting keyword does not decide the outcome, because working the questions surfaces which keywords are the important ones. Groups come from comparing concepts against each other. They do not come from the order the source presented them in, and they do not come from what was assumed before starting. A map that keeps reproducing the source's own arrangement means the questions are not doing the work yet.
-
-[[Order Control]] is the order the questions pull, set against the order the source is arranged in. [[Schema|Survive and Thrive]] is why building relationships is what gets knowledge kept. [[Higher-Order Learning]] is comparing, judging, and connecting, which is what the questions are for.
-
-After several loops the map is a structure built from the learner's own judgments about what matters. That map is the result of keeping only the material a written question was waiting for. The same loop tightens later inside the [[Bear Hunter System]]: aim takes over from red light, and shoot takes over from green light.
-
-## How to practice this
-
-1. Before opening the source, write a list of keywords and concepts for the topic. Cover the main ideas, not every term on the page. Notice which keywords feel most relevant or easiest, because the questions start there.
-2. Ask of each keyword what you are curious about, why it needs knowing, and what problem it solves. Write down the further questions the stems raise, especially the ones from curiosity. Notice that you now hold a written list of questions and have read nothing yet.
-3. Read, listen, and search to answer the questions on the list. Look for more than one answer to each question. Notice that each question opens several relationships instead of one correct reply.
-4. Write the relationships into non-linear notes and let them stay messy. Every two or three keywords, simplify the map and judge what is worth keeping. Notice that the relationships are more than you can hold in your head.
-5. Set aside detail too fine to answer any question, for rote memorisation later. Notice that it stays parked until a question makes it relevant.
-6. When the questions are answered, write the next list of questions from what the pass surfaced. Notice that the early questions are not good ones, and keep asking anyway. Notice whether the map copies the source's own order, because that means the questions are not working yet.
+- How does answering your own questions change which relationships you notice in a topic?
+- How does the feeling of skipping details and learning out of order tell you whether the method is working?
 
 ## Sources
 
-- Pressley, McDaniel, Turnure, Wood & Ahmad (1987): elaborative interrogation. Answering why-questions about material improves memory for it.
-- Dunlosky, Rawson, Marsh, Nathan & Willingham (2013), *Psychological Science in the Public Interest* 14(1): practice testing and elaborative interrogation as moderate-utility techniques.
-- Slamecka & Graf (1978): the generation effect. Material produced by the learner is retained better than material only read.
-- Loewenstein (1994), *Psychological Bulletin* 116(1): curiosity as an information gap.
-- Kirschner, Sweller & Clark (2006), *Educational Psychologist* 41(2):75–86. Minimally guided instruction overloads working memory. The classroom form of inquiry is the contested object.
-- Alfieri, Brooks, Aldrich & Tenenbaum (2011), *Journal of Educational Psychology* 103(1): unassisted discovery loses to explicit instruction. Enhanced discovery (feedback, worked examples, scaffolding) can beat it.
-- Rönnebeck, Bernholt & Ropohl (2016), *Studies in Science Education* 52(2): no common ground on what "inquiry" is.
-- Sweller (2021), Centre for Independent Studies, *Why Inquiry-based Approaches Harm Students' Learning*: the classroom version, implemented as minimally guided search, is argued to harm learning.
+- iCanStudy, "Inquiry-based learning", Technique Training. Private course notes, paraphrased.
+- iCanStudy, "Doing TLS correctly", Technique Training. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Dimensions/Deep Processing/Order Control|Order Control]]: choosing sequence by curiosity and relevance, which this method depends on.
+- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: when early inquiry should begin, relative to a main learning event.
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: the later expansion of the traffic-light system named in nearby notes.
+- [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]]: the structure the growing map is organising.
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]: the dimension this page sits in.
