@@ -12,7 +12,9 @@ tags:
   - politics
   - economics
   - argument
+wedge_reviewed: false
 ---
+> Not yet reviewed by Wedge.
 
 # Socialism as Moral Correction
 
@@ -77,3 +79,6 @@ Two economic promises share the fixed-pie error. Socialism cannot reduce scarcit
 
 | Section | Note file |
 |---|---|
+| Lead | Basic Logic socialism note |
+| Real problems with the wrong cause | Basic Logic socialism note and The US Only Has One Political Party and Front Page, "Socialism Always Fails..." |
+| Arguments that misread how wealth is made | Basic Logic socialism note and Khemani, "What Unifies the Enemies of Civilization?" and Naval, "How to Get Rich" and TRIGGERnometry, "The Biological Reason Socialism Always Fails, Nicholas Wade" |

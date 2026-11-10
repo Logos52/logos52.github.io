@@ -11,7 +11,9 @@ group: "How to read these arguments"
 tags:
   - argument
   - statistics
+wedge_reviewed: false
 ---
+> Not yet reviewed by Wedge.
 
 # Per Capita
 
@@ -62,3 +64,5 @@ The third explanation is the only fair objection, which is that other variables 
 
 | Section | Note file |
 |---|---|
+| Lead, Totals against rates | Basic Logic per capita note (https://www.youtube.com/watch?v=h-zvwRdRzuA) and Mass Immigration: All Arguments Ranked & Debunked and Why American Suburbs F*cking SUCK and The Gen Z Gender War |
+| Why people skip it | Basic Logic per capita note and This YouTuber Gave Me Black Fatigue |

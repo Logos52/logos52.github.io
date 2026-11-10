@@ -1,83 +1,94 @@
 ---
 title: "DEI as Anti-Discrimination"
 type: concept
-status: locked
+section: "Worldviews and Society"
+status: developing
+description: "The Basic Logic video argues that every argument for DEI leans on one unproven premise, that any gap in outcomes between groups comes from oppression."
 created: 2026-08-16
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
-locked: "2026-08-23 by the owner; the page as written on 2026-08-16, passed whole through the Rewrite Prompt on a fresh head"
+updated: 2026-10-21
 tags:
   - politics
   - argument
+draft: true
+wedge_reviewed: true
 ---
 
 # DEI as Anti-Discrimination
 
-Diversity, equity, and inclusion programs are defended on two separate grounds. Six of the ten common defenses say the programs make organisations perform better. That is a claim about outcomes, it can be measured, and it has been measured. The other four say the programs put right a wrong. That is a claim about justice, and it is argued a different way. Judging the defenses starts with sorting each one into the right kind, because the two halves have very different records.
+DEI, short for diversity, equity and inclusion, sells itself as a fix for discrimination in hiring and promotion. The Basic Logic video argues that each argument for it leans on one premise that nobody proves, which is that any gap in outcomes between groups comes from oppression. The common defenses of DEI fall into three groups, and none of them survives once that premise is put to the test.
 
-The justice case depends on one premise: unequal outcomes between groups are produced by systems acting on those groups. The defenses that depend on that premise fail wherever the premise fails. The other defenses can be answered without the premise coming up at all.
+## The performance defenses
 
-## Core takeaways
+One group of defenses says DEI makes an organisation work better, and each depends on evidence that does not hold up. The video says the profit argument rests on a McKinsey study claiming a gain of as much as 25%, and that replication attempts, including Green and Han's 2024 study, found no link. It adds that companies that dropped their DEI programs reported no financial harm, and several meta-analyses of women on company boards found a performance link near zero or negative. Had the McKinsey result held, this would have been the strongest case for DEI.
 
-- The ten common defenses split into six about performance and four about justice. The performance half can be checked against measurements.
-- The profit claim has not replicated. An independent 2024 attempt found no relationship, firms that discontinued their programs have reported no financial harm, and meta-analyses of board gender diversity come out around zero or below.
-- Each of the six performance defenses, taken seriously, supports a policy other than the programs: recruiting more widely, hiring people who think differently, or watching for bias in decisions.
-- Five of the ten defenses contain something real, and one more holds in part, in cases where no objective test settles what merit is.
-- The remaining defenses depend on the premise that a gap between groups is evidence of a system acting on them. If the premise fails, they fail with it.
+The creativity argument assumes that every culture brings an equally useful angle to any task. The video cites unnamed studies showing that variety in skills and work background does help new ideas, while the results for race and gender variety run from mixed to negative. The bias argument starts from something true, since people do carry bias, but its cure is a blanket bias written into policy. The video claims the groups with the least in-group bias (it names whites) are the ones DEI marks down, and groups with strong in-group bias get rewarded, which can turn whole firms nepotistic. Morale fares worst of all, because, the video says, DEI programs have been linked to higher staff turnover, including among the groups they meant to help.
 
-## The six defenses about performance
+## The merit defenses
 
-**Higher profits.** The strongest version of this claim comes from a widely circulated consultancy finding of a performance advantage somewhere in the region of a quarter. If that finding held, it would be the best argument available, because the programs would cover their own cost and the defenders would win the debate on the measure they chose. The finding has not replicated. An independent 2024 attempt found no relationship. Firms that discontinued their programs have reported no financial harm. Meta-analyses of board gender diversity come out around zero or below.
+The next group tries to square DEI with hiring on merit, which is a contradiction. If a diverse team really builds a better product for its own community, a plain merit system would already pick that team. If it does not build a better product, identity adds nothing. The same logic sinks the idea that DEI widens the talent pool. Once identity counts in a hiring decision, merit counts for less. Quotas then push firms to lower their standards, and that is most worrying in emergency services such as fire departments.
 
-**More creative teams.** The mechanism offered is that people from different backgrounds bring different ways of seeing a problem. The evidence separates two things that the argument keeps together. Diversity of skill and professional background does show gains in innovation. Diversity defined by demography shows mixed to negative effects. What the finding supports is hiring people who think differently, and the programs do not select for that.
+Equal opportunity gets a short answer. DEI aims at equal outcomes, so it assumes that unequal results come from unequal chances, and it never shows this. The representation defense holds that seeing more groups in media is good. Representation is fine, but recasting established characters or historical figures as members of another group is deception. It insults the group being replaced, and it implies that the new group has no figures of its own.
 
-**Reduced bias.** The observation is true, because people do favour their own. The remedy does not follow from it. A general preference that operates unevenly across individuals is answered here with a preference applied uniformly by policy, so a preference is still being applied, this time by an administrator. The programs are also built to close gaps in outcomes rather than to detect bias in decisions. Success is measured by the distribution of outcomes. It is not measured by whether anyone was treated unfairly.
+## The justice defenses
 
-**Improved morale.** The claim is that people work better where they can see they are included, and that the programs supply that signal. The programs' own results go the other way. They include higher turnover among the groups the programs set out to protect.
+The last group goes after merit and history directly. The first says merit itself is a myth because prejudice runs through everything. Many standards are objective, though. A company makes a profit or it does not, and a plane crashes or lands safely depending on the pilot. A firefighter either can or cannot carry a heavy man out of a burning building. Standards become arbitrary only when people hire to fill a quota regardless of them.
 
-**Serving diverse markets.** If employees from a group really do build a better product for that group, then they are the better hire on ordinary grounds and no separate policy is needed to find them. If they do not build a better product, then identity has no effect of the kind the argument claims. Neither case supports the policy. The defense also assumes a customer preference that price and quality routinely override.
+A second defense says DEI corrects past and systemic injustice. Here the premise shows most clearly, because this defense treats every gap between groups as the result of discrimination and ignores practical limits. The video argues discrimination explains only part of those gaps, and people who hold this view rarely name the laws or systems that cause them. Policies built on the belief create new victims and breed resentment.
 
-**A broader talent pool.** Widening a search does raise the quality of what you find. That is an argument for recruiting more widely, and the programs are not that. Making identity a factor in the decision necessarily lowers the weight carried by everything else, and the claim says the opposite.
+<figure>
+<svg viewBox="0 0 520 341" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-dei-t">
+<title id="wv-dei-t">The Basic Logic video's three groups of defenses. The performance defenses: the profit argument (a McKinsey study), the creativity argument, the bias argument, morale. The merit defenses: hiring on merit, the talent pool, equal opportunity, the representation defense. The justice defenses: merit itself is a myth, past and systemic injustice. Arrows from all three groups meet at one premise that nobody proves, the video argues: any gap in outcomes between groups comes from oppression.</title>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="middle"><text x="260.0" y="28">The Basic Logic video's three groups of defenses</text></g>
+<rect x="10" y="42" width="160" height="174" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="62">The performance</text><text x="20" y="79">defenses</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="100">•</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="100">The profit argument</text><text x="34" y="116">(a McKinsey study)</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="136">•</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="136">The creativity</text><text x="34" y="152">argument</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="172">•</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="172">The bias argument</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="192">•</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="192">Morale</text></g>
+<rect x="180" y="42" width="160" height="141" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="190" y="62">The merit defenses</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="192" y="83">•</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="204" y="83">Hiring on merit</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="192" y="103">•</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="204" y="103">The talent pool</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="192" y="123">•</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="204" y="123">Equal opportunity</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="192" y="143">•</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="204" y="143">The representation</text><text x="204" y="159">defense</text></g>
+<rect x="350" y="42" width="160" height="134" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="360" y="62">The justice</text><text x="360" y="79">defenses</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="362" y="100">•</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="374" y="100">Merit itself is a</text><text x="374" y="116">myth</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="362" y="136">•</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="374" y="136">Past and systemic</text><text x="374" y="152">injustice</text></g>
+<path d="M90,216 L90,252 L200,252 L200,266" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="200.0,266.0 195.0,257.0 205.0,257.0" style="fill:var(--mut,#666)"/>
+<path d="M260,183 L260,266" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="260.0,266.0 255.0,257.0 265.0,257.0" style="fill:var(--mut,#666)"/>
+<path d="M430,176 L430,252 L320,252 L320,266" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="320.0,266.0 315.0,257.0 325.0,257.0" style="fill:var(--mut,#666)"/>
+<rect x="60" y="266" width="400" height="65" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6);stroke-width:2"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="middle"><text x="260.0" y="286">One premise that nobody proves, the video argues</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="260.0" y="307">Any gap in outcomes between groups comes from oppression</text></g>
+</svg>
+<figcaption>The Basic Logic video argues that each argument for it leans on one premise that nobody proves.</figcaption>
+</figure>
 
-Each of the six, taken seriously, supports a policy the programs are not. Recruiting widely, hiring for difference in how people think, and watching for bias in decisions are all defensible. Each of the three is distinct from selecting on demography.
+## What is left
 
-## The four defenses about justice
-
-**Equal opportunity.** Equal opportunity is not controversial as stated. The programs are not equal opportunity. Equalising the chance to compete and equalising the result of the competition are different operations, and the policies measure the second one.
-
-**Representation.** Representation in public life is good, and wanting it is reasonable. The problem is retrofitting, meaning reassigning established characters or historical figures rather than creating new ones. Retrofitting carries an implication the advocates do not intend: that the group being represented could not produce its own.
-
-**Merit as a myth.** The claim is that standards are so full of prejudice that merit cannot be separated from it. Whether an aircraft is landed safely, or whether someone can carry an adult out of a burning building, is settled by the outcome rather than by anyone's opinion of the standard. Where the test is objective, merit is objective. The argument has force only in cases where the test is not objective.
-
-**Correcting historical injustice.** This defense depends directly on the premise stated at the top of this page. The claim requires that present disparities were produced by identifiable systems. Asking which injustices, laws, or systems produce a specific gap generally does not return an answer, because the framework treats a non-systemic explanation as itself evidence of prejudice. A claim that no answer can count against is not an argument.
-
-## What survives of the ten
-
-Five of the defenses contain something real. Bias exists. Wide recruitment helps. Diversity in how people think helps. Representation matters. Equalising opportunity is the right aim. In each of the five cases, what survives supports a policy other than the one being proposed. One more survives in part: merit is open to dispute wherever no objective test settles the matter, and no further than that.
-
-Profits, morale, and market tailoring never needed the premise, and each of the three failed on its own ground. The remaining defenses depend on a single premise, that a gap between groups is evidence of a system acting on them. If the premise holds, they hold, and if it fails, they fail. That premise is examined on its own terms in [[wiki/Worldviews & the Political Order/Racial Egalitarianism - The Disparity Inference|the page on the disparity inference]]. The dispute is about that premise.
-
-## How to practice this
-
-1. Sort each defense you meet into one of the two kinds, a claim about performance or a claim about justice. Notice that only the performance claims can be checked against measurements.
-2. For a performance claim, ask which policy it actually supports. Notice that recruiting widely and hiring people who think differently are separate from selecting on demography.
-3. Check the profit claim against the record. Notice the 2024 attempt that found no relationship. Notice the board gender diversity meta-analyses around zero or below.
-4. When someone says merit is a myth, ask whether an objective test settles the case. Notice that landing an aircraft safely is settled by the outcome, not by an opinion.
-5. For a historical-injustice claim, ask which injustices, laws, or systems produce that specific gap. Notice whether any answer could count against the claim.
+Each defense of DEI, the video concludes, comes back to the idea that disparity proves systemic oppression. If a gap has other causes, the program aims at something that is not there, and it can hurt the people it was built to help. The [[wiki/Worldviews & the Political Order/Racial Egalitarianism - The Disparity Inference|page on the disparity inference]] looks at the premise directly.
 
 ## Related pages
 
-- [[wiki/Worldviews & the Political Order/Racial Egalitarianism - The Disparity Inference|Racial Egalitarianism - The Disparity Inference]]: the premise underneath the equal-opportunity and historical-injustice defenses, argued directly rather than through policy.
-- [[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]]: why a claim that cannot be answered wrongly fails as an argument regardless of whether it is true.
-- [[wiki/Worldviews & the Political Order/White Guilt|White Guilt]]: the moral debt the historical-injustice defense assumes.
-
-## Open questions
-
-If cognitive and professional diversity produce the gains that demographic diversity was credited with, what would a hiring policy built on the former actually select for?
-
-Where a standard genuinely cannot be made objective, what replaces merit as the criterion without reintroducing the discretion the standard was there to remove?
+- [[wiki/Worldviews & the Political Order/Racial Egalitarianism - The Disparity Inference|Racial Egalitarianism - The Disparity Inference]]
+- [[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]]
+- [[wiki/Worldviews & the Political Order/White Guilt|White Guilt]]
 
 ## Sources
 
-*DEI: All Arguments Ranked & Debunked*, 2026-03-02: <https://www.youtube.com/watch?v=9iTBMNY7ous>. Supplied the ten defenses and their ordering.
+- Every section: Basic Logic, "DEI: All Arguments Ranked & Debunked" (YouTube, published 2026-03-02), <https://www.youtube.com/watch?v=9iTBMNY7ous>. Paraphrased.
+
+## Open questions
+
+Which named studies back the claims about creativity, turnover and in-group bias? The video states the findings without citing them.

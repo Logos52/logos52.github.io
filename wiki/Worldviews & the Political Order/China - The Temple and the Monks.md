@@ -13,7 +13,9 @@ tags:
   - economics
   - communism
   - politics
+wedge_reviewed: false
 ---
+> Not yet reviewed by Wedge.
 
 # China - The Temple and the Monks
 
@@ -72,3 +74,6 @@ The growth China did achieve came from markets. Of the roughly 1.5 billion peopl
 
 | Section | Note file |
 |---|---|
+| Lead, How the wealth reaches the state | TRIGGERnometry interview note |
+| Why the state keeps it | TRIGGERnometry interview note and Naval |
+| What it means for everyone else | TRIGGERnometry interview note and Front Page, "Socialism Always Fails..." |

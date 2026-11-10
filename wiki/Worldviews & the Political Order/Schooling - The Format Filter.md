@@ -1,95 +1,92 @@
 ---
 title: "Schooling - The Format Filter"
+description: "A Basic Logic video argues that the school day, with children sitting still while an adult lectures, screens out boys and then blames them for failing."
 type: concept
-status: developing
+status: draft
 created: 2026-08-16
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
+updated: 2026-10-21
+method: fresh-from-notes-2026-10-21
 tags:
   - politics
   - education
+wedge_reviewed: true
 ---
 
 # Schooling - The Format Filter
 
-A seated school format filters by sex. Gender is the explanation given afterward, which says the fault lay with the boys who failed the format.
+The format filter is the claim that the way schools run the day, with children sitting still while an adult lectures for hours, screens out boys and then blames them for failing. The Basic Logic video [How Misandry Destroyed Gen Z's Education](https://www.youtube.com/watch?v=Bnq5feQzbK4) argues that this format, together with three later pressures, taught girls that boys are less capable and taught boys that institutions and women are hostile to them. The video links that split to Gen Z's trouble forming relationships.
 
-Each stage produces the conditions for the next. That is why the effect is larger than any of its parts, and why fixing any single stage would not have prevented the outcome. The end state is two cohorts who have been taught incompatible things about each other.
+The three pressures are teacher bias, MeToo-era suspicion and pay-gap campaigns.
 
-## Core takeaways
-
-- A seated primary school day is harder for boys than for girls, so it works as a filter on sex rather than a neutral requirement.
-- The response was to locate the fault in the students: discipline, and in a growing number of cases medication.
-- By sixteen to eighteen boys close the gap on standardised measures and move ahead in mathematics and at the upper end of technical subjects, while teacher-assigned grades commonly stay lower.
-- Girls who spent a decade watching boys fail concluded that boys are less capable and less responsible. What they were watching was compliance with a format being rewarded.
-- Policy that credited accusations automatically made an ordinary approach risky, and boys withdrew from asking someone out.
-- The unadjusted pay comparison was taught as established, and the sex-restricted scholarships, recruitment targets, and preferential recommendation that followed show up as young women in comparable roles hired more often and paid more.
+<figure>
+<svg viewBox="0 0 520 302" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-school-t">
+<title id="wv-school-t">The Basic Logic video argues. The format: children sitting still while an adult lectures for hours. Three pressures stack on it: teacher bias, MeToo-era suspicion, pay-gap campaigns. At the top, girls learn institutions are their allies, and boys learn institutions are their enemies and women are dangerous.</title>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="middle"><text x="260.0" y="20">The Basic Logic video argues</text></g>
+<rect x="10" y="34" width="240" height="65" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6);stroke-width:2"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="middle"><text x="130.0" y="54">Girls learn</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="130.0" y="75">Institutions are their allies</text></g>
+<rect x="270" y="34" width="240" height="81" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6);stroke-width:2"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="middle"><text x="390.0" y="54">Boys learn</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="390.0" y="75">Institutions are their enemies</text><text x="390.0" y="91">and women are dangerous</text></g>
+<rect x="10" y="149" width="160" height="44" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="90.0" y="169">Teacher bias</text></g>
+<rect x="180" y="149" width="160" height="44" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="260.0" y="169">MeToo-era suspicion</text></g>
+<rect x="350" y="149" width="160" height="44" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="430.0" y="169">Pay-gap campaigns</text></g>
+<rect x="10" y="227" width="500" height="65" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="middle"><text x="260.0" y="247">The format</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="260.0" y="268">Children sitting still while an adult lectures for hours</text></g>
+<path d="M90,227 L90,195" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="90.0,195.0 95.0,204.0 85.0,204.0" style="fill:var(--mut,#666)"/>
+<path d="M260,227 L260,195" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="260.0,195.0 265.0,204.0 255.0,204.0" style="fill:var(--mut,#666)"/>
+<path d="M430,227 L430,195" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="430.0,195.0 435.0,204.0 425.0,204.0" style="fill:var(--mut,#666)"/>
+<path d="M175,149 L130,117" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="130.0,117.0 140.2,118.1 134.4,126.3" style="fill:var(--mut,#666)"/>
+<path d="M345,149 L390,117" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="390.0,117.0 385.6,126.3 379.8,118.1" style="fill:var(--mut,#666)"/>
+</svg>
+<figcaption>The Basic Logic video argues that this format, together with three later pressures, taught girls and boys these lessons.</figcaption>
+</figure>
 
 ## The seated school day
 
-Primary education asks a child to remain still and attend to an adult for hours. Most children find this difficult. Boys find it harder, because at that age they are oriented toward spatial and mechanical activity and carry higher drives for movement and risk. The requirement is not neutral between boys and girls. One group passes it more easily, so it acts as a filter.
+The video's starting point is that hours of sitting still and listening would be unreasonable even for an adult. It says boys at that age are wired for spatial and mechanical activity and have a stronger drive for adventure, so the format is a biological obstruction for most of them. Boys with strong imaginations daydream and the rest mess around, and either way they fall behind and get into trouble.
 
-Boys with strong imaginations escape into inattention. Boys without them find something to do with their hands. Both routes produce the same institutional record: falling behind, and getting into trouble for the mechanism by which they fell behind.
+## Why educators blame the boys
 
-Sex is the kind the filter acts on. Boys and girls are not interchangeable inputs to a seated day. Gender is a later operation: a vocabulary and a set of policies that redescribed a mismatch between sex and format as a moral fact about men. The two claims are easy to fuse, and they are not the same. The blame assumes the sexes are equivalent. Gender supplied the words the blame was spoken in.
+According to the video, reforming the format is hard, so it is easier for educators to blame the boys, punish them until they submit and in some cases give them ADHD prescriptions. When challenged, educators point to the girls' better results as proof that the problem lies with the students. The video calls that defense blank slate ideology, the belief that the sexes are effectively the same and need the same treatment.
 
-## Blaming the students instead of the format
+Its evidence that boys are held back artificially is a gap between two measures. The video says that by age 16 to 18, boys catch up on standardized tests like the SAT and pull ahead in math and at the high end of STEM. Their GPAs stay lower, and the video says that is because grades depend on the judgment of mostly female teachers.
 
-Faced with that pattern, there were two options: question the format, or locate the fault in the students. The second option costs less, and it is what happened. Boys were disciplined, and in a growing number of cases medicated.
+## What girls learn from watching
 
-The defense offered when this is raised points at the girls. Girls' results are better, so the problem must be the individual boys rather than the arrangement. That argument requires the sexes to be equivalent in the relevant respects. That assumption does all the work, and it is never argued for.
+Girls, the video says, had a front-row seat as boys failed and were punished, and were praised as smarter when they were mainly less troublesome and more agreeable. The lesson they took was that boys are stupid troublemakers and girls are smart and responsible, which the video says prepares them for later feminist messaging.
 
-The assumption can also be tested, and it does not survive. By sixteen to eighteen boys close the gap on standardised measures and move ahead in mathematics and at the upper end of technical subjects. Their grades, assigned by teachers over years with discretion, commonly remain lower. The two measures disagree, and the disagreement shows that the grades are tracking the format.
+## New words and new suspicion
 
-## What the girls learned
+The video gives two examples of ordinary male behavior recast as a fault. "Manspreading" named the way men sit, and "mansplaining" named men explaining things to women with enthusiasm. The video argues men bond by explaining how things work while women tend to prefer talking about people, so making explanation taboo cut off a natural way for men to bond with women.
 
-This is the stage that converts an educational problem into a social one.
+MeToo, the video says, went further: teachers treated every male student as a possible harasser, and under the slogan "believe all women" a girl's judgment that a boy was creepy settled the matter. The video says false accusations and reputation attacks became common, male teachers refused to be alone with female students, and boys stopped asking girls out or even talking to them.
 
-Girls spent a decade watching boys fail, get disciplined, and fall behind them. They drew the obvious inference: boys are less capable and less responsible. What was actually being observed was compliance with a format, rewarded. The praise attached to it named the wrong virtue, calling the compliant child smarter rather than more agreeable, and both sides absorbed that mistake.
+## The pay gap
 
-A cohort primed this way will accept whatever it is told later about the group it has watched underperform.
+The narrator recalls classrooms carrying posters, projects and assemblies on the claim that women are paid less for the same job, which the video calls routinely debunked, and says girls got women-only scholarships, glowing recommendations and recruiting quotas, while boys got mixed scholarships and slid down rankings. The video's conclusion is that young women are now often hired and paid more than men for the same job, so an imaginary gap was fixed by creating a real one.
 
-## New words for ordinary behaviour
+## Where it ends up
 
-The propaganda that followed was mostly linguistic and mostly aimed at ordinary behaviour. Terms were coined for a man occupying space and for a man explaining something. Both terms recast unremarkable conduct as an imposition that requires correction.
-
-The term for explaining has a mechanism worth naming. Men commonly bond by demonstrating how things work, which is a friendly act in its native context. Making it taboo removed one of the default routes one sex had to connect with the other, and nothing replaced it.
-
-## Treating every male student as a suspect
-
-The period that followed treated every male student as a potential offender, and made that treatment explicit in policy. Where an accusation was to be credited automatically, female students became authoritative judges of male students' characters. A boy assessed as unsettling was unsettling, and the assessment carried no burden of demonstration.
-
-Two effects followed. Even an ordinary approach became dangerous, because a misjudged attempt produced a reputational outcome instead of a rejection. And where an accusation carries no cost of being wrong, the small fraction of people who will exploit that discover it.
-
-The observable results were male teachers declining to be alone with female students, and boys withdrawing from the ordinary business of asking someone out. A generation was taught that the risk of initiating exceeded the reward, and it responded rationally.
-
-## The pay gap and the policies that followed
-
-The pay claim was taught as established through posters, projects, and assemblies. It was taught in its unadjusted form, comparing all men to all women without controlling for field, hours, tenure, or continuity. That is the form that does not survive the controls.
-
-The response was structural. Scholarships restricted by sex, recruitment targets, and preferential recommendation operated on one side of the cohort, while the other side competed against the results. In the outcomes that matter for early careers, those policies show up as young women in comparable roles hired more often and paid more. The reversed gap is the output of the named rules. It does not require a second inference.
-
-## How the stages add up
-
-No stage accounts for the outcome by itself. Together they produced a settlement in which one sex was taught that the other is less capable and holds whatever it has unfairly, and the other was taught that institutions are adversarial and that approach carries asymmetric risk.
-
-Those are two populations equipped to misread each other. People who have been trained since childhood to read the opposite sex as either incompetent or dangerous do not form households easily, and a generation that cannot form them carries that split into its politics. The mechanism is available. Its share of the outcome is not measured here. Another page traces a different route to the same household result, and neither route is claimed as the only cause.
+The video's end state is that girls learn institutions are their allies and boys learn institutions are their enemies and women are dangerous. It offers this, even setting technology aside, as the reason the sexes are hostile and Gen Z is so politically divided.
 
 ## Related pages
 
-- [[wiki/Worldviews & the Political Order/Racial Egalitarianism - The Disparity Inference|Racial Egalitarianism - The Disparity Inference]]: the same equivalence premise doing the same work in a different institution.
-- [[wiki/Worldviews & the Political Order/Women's Suffrage - The Substitute Husband|Women's Suffrage - The Substitute Husband]]: a different proposed cause of the same household result, equally unisolated.
-- [[wiki/Worldviews & the Political Order/Per Capita|Per Capita]]: the controls objection the unadjusted pay comparison does not survive.
-- [[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]]: why a causal chain fails at any link that is asserted rather than shown.
-- [[wiki/Worldviews & the Political Order/Gender Ideology - The Override Claim|Gender Ideology - The Override Claim]]: identity treated as prior to sex, the renaming that arrives after the filter.
+- [[wiki/Worldviews & the Political Order/Racial Egalitarianism - The Disparity Inference|Racial Egalitarianism - The Disparity Inference]]
+- [[wiki/Worldviews & the Political Order/Per Capita|Per Capita]]
+- [[wiki/Worldviews & the Political Order/Gender Ideology - The Override Claim|Gender Ideology - The Override Claim]]
 
 ## Open questions
 
-If standardised measures and assigned grades disagree consistently in one direction, which of them should determine access to the next stage of education?
-
-Where a format disadvantages one group and the alternative would disadvantage another, what decides which disadvantage a system should carry?
+- The notes give no figures or studies for the SAT, GPA, hiring or pay claims. Decision: the claims stay credited to the video, and no figures are added.
+- The opening teacher story is the narrator's own anecdote and is left out as personal detail.
 
 ## Sources
 
-*How Misandry Destroyed Gen Z's Education*, 2026-08-14. <https://www.youtube.com/watch?v=Bnq5feQzbK4>. Supplied the chain, the standardised-measure comparison, and the account of the vocabulary and the suspicion period.
+| Section | Note file |
+|---|---|
+| All sections | How Misandry Destroyed Gen Z's Education |

@@ -11,7 +11,9 @@ group: "Who rules, and on what terms"
 tags:
   - politics
   - argument
+wedge_reviewed: false
 ---
+> Not yet reviewed by Wedge.
 
 # Women's Suffrage - The Substitute Husband
 
@@ -82,3 +84,6 @@ The two habits meet in the family. In a strong family a husband and wife vote al
 
 | Section | Note file |
 |---|---|
+| Lead, How wide the gap is, The state as substitute husband, Following the consensus, What it does to the family | An Honest Review of Women's Suffrage |
+| How wide the gap is | The Gen Z Gender War and Socialism Always Fails |
+| The state as substitute husband | Lonely Women in Politics and TRIGGERnometry note |

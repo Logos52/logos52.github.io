@@ -13,7 +13,9 @@ group: "Markets, states and prosperity"
 tags:
   - politics
   - economics
+wedge_reviewed: false
 ---
+> Not yet reviewed by Wedge.
 
 # Socialism - Why Planned Economies Fail
 
@@ -96,3 +98,7 @@ Underneath both replies sits the question of how each system handles mistakes. A
 
 | Section | Note file |
 |---|---|
+| Lead, What prices do | Khemani and Chipkin note and Front Page note and Basic Logic note |
+| Lead, second paragraph | Naval |
+| What goes wrong without them | Front Page note and TRIGGERnometry, "How China Fakes Its Success with Frank Dikotter" and Khemani and Chipkin note |
+| The common replies | Front Page note and TRIGGERnometry, "The Biological Reason Socialism Always Fails, Nicholas Wade" and Basic Logic note |
