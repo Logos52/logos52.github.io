@@ -1,85 +1,64 @@
 ---
 title: "Refold Grammar Primers"
 type: technique
-status: developing
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
-written-by: grok
-model: grok
-source-count: 2
+status: draft
+created: 2026-05-06
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "A grammar primer exposes patterns so they can be noticed in immersion. It is not something to memorize or drill."
 tags:
   - language-learning
   - immersion
   - grammar
+wedge_reviewed: false
 ---
 
-# Grammar primers
+> Not yet reviewed by Wedge.
 
-A grammar primer is a short, incomplete orientation to common patterns. It points attention at what to look for in real input. It is not a rulebook for producing sentences.
+# Refold Grammar Primers
 
-Common patterns become easier to notice and understand once they have been seen once, in plain language, with examples. Explicit grammar knowledge is useful for noticing and for monitoring your own output. It is not the engine that produces speech.
+Grammar is learned by immersing and spending time with the language. The brain needs a great deal of time to process the patterns. A primer's goal is to expose those patterns for the first time and help the learner understand what is going on.
 
-## Core takeaways
+The learner should not treat anything in the primer as material to memorize or drill. Languages are large, and the patterns are too many and too dense to commit to memory in an efficient way. The patterns are learned by spending time with them in immersion and understanding the meaning behind them. Traditional study often treats grammar as rote memorization, like math. The approach here is to learn about grammar so comprehension rises, not to memorize rules for the sake of speaking.
 
-- The primer is short and incomplete. It covers common patterns and leaves the rest out.
-- Read one short section without trying to master it, then go back to immersion and hunt the pattern in real speech or text.
-- The pass maps form to meaning in input. It does not require the reader to produce the form.
-- Re-read the sketch as immersion hours accumulate, not on a measured interval.
-- Open a fuller reference only after the primer is familiar and still cannot answer a question that input just raised.
-- The checkable expectation: a primed pattern starts showing up in subtitles or speech within the next few sessions, still incomplete.
+## When to start
 
-## Where the primer sits in the loop
+A recommended-knowledge section sits at the front of each primer. The main idea is to spend about 10 to 15 hours in the language, at least, before grammar study begins, and longer is fine. The learner should also know a good chunk of beginner words, maybe a couple hundred words, and have a quick way to look up words that appear in the primer. Vocabulary should not stand in the way, because the words matter more than the grammar. Grammar puts the words together.
 
-The loop sits inside [[wiki/Language/Preparation|Preparation]], deliberate priming that makes future input easier to follow. A small base comes first: some time already spent attending to the language, a handful of words, basic script or sound orientation, and a lookup tool.
+At the time of the demonstration, there were primers for Korean, Japanese, Spanish, and German. More may appear later, and they all work the same way. Priming grammar, meaning working through a primer so later immersion is easier to understand, is the same kind of process no matter which language is being learned.
 
-Then one short section is read without any attempt to master it. Immersion resumes. The pattern is hunted in real speech or text. [[wiki/Language/Noticing Game|Noticing Game]] is how the primed pattern gets hunted in input. The sketch is re-read as hours accumulate, not on a measured interval. A fuller reference opens only when this one has become familiar and still cannot answer the question input just raised.
+## How to read one
 
-After the loop has run, the reader comes back to the same short guide and leaves it again once input raises questions the sketch cannot answer.
+The primers are long for everyday reading and short for grammar primers. They do not need to be read in one sitting, and not everything in them needs to be understood on the first pass. If a section makes no sense, move on and come back later. Coming back every 50 hours of immersion, more or less, is a good interval. Another option is to read a little every day and cycle through the primer until the material feels solid. A daily stretch of 5 to 10 minutes is the size used once grammar priming has started. A first session studies one new grammar point and then looks for that point in the wild.
 
-## What a working primer does
+Each primer is ordered around what a learner is most likely to meet and have trouble with. The Spanish primer starts with verbs, because those cause many learners problems. The Japanese primer also starts with verbs, and specifically with the predicate, since that is among the largest differences from English. The German primer starts with nouns. The order is not perfect, and skipping around is allowed. The material is grouped in sections, so the learner can bounce between them based on what needs to be understood right then.
 
-A working primer explains common patterns in ordinary words. It leads with the language's hardest-to-miss difference: verbs in one language, the predicate in another, nouns in a third. Examples make the pattern recognizable. Production pressure stays low. The pass maps form to meaning in input, and it does not require producing the form.
+The primer should help the learner understand the language, not teach a pile of disconnected facts. When something in immersion does not make sense, that is a good time to look for it in the primer. After about 15 hours of Japanese immersion, sentences may feel as if something is missing, or as if they are random fragments. The primer explains that sentence fragments, which are treated as incorrect in English, are a normal way to talk in Japanese. The first reading will not make the point fully clear. Further immersion, and one or two later passes through the same section, will.
 
-## What a primer leaves out
+Spanish verbs have about 150 possible forms each. Those forms do not need to be memorized, or even known, at the beginning. A form that ends in "aba" may sound odd at first. It shows up more often when people tell stories about their lives, and the primer identifies it as another way to talk about the past, as in "I was speaking."
 
-What a primer does and what it leaves out both come from the same loop. The sketch is not comprehensive. It does not demand memorization. It does not become a translation-rule manual. [[wiki/Language/Language Isn't Math|Language Isn't Math]] owns the claim that grammar is not a complete generator. It does not replace immersion. A primer that stalls input until grammar is "finished" is being used the wrong way.
+## What a primer is not for
 
-## The outline to reuse
+After using a primer, the learner does not need to be able to produce the patterns or create correct grammar. That is not what the primers are for. They also do not cover everything, and that is on purpose. They get the learner in the door so that grammar can start to be acquired naturally during time with the language. The whole goal, for now, is to understand the language.
 
-The outline is reusable, not a branded template: recommended knowledge; mindset; how to use; core primer; quick reference; what to do after. The [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]] is the language-specific instance of this outline, rebuilt around Vietnamese rather than copied from another language.
-
-## What it costs and when to stop
-
-[[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]] is how to keep input in the zone where patterns stay visible. A short sketch will miss usages. A reader who wants a production grammar will not get one. The cost is a few minutes of orientation, and it only pays if the next session hunts the pattern.
-
-Quit when the sketch is being memorized, when input is postponed until the sketch is "done," or when the same section is re-read with no hunt. The checkable expectation is that a primed pattern starts showing up in subtitles or speech within the next few sessions, still incomplete.
-
-## How to practice this
-
-1. Build the small base first: a handful of words, basic script or sound orientation, and a lookup tool. You should be able to look up a word while reading.
-2. Read one short section of the primer once. Do not try to master it. Notice which difference the section leads with.
-3. Go back to immersion and hunt that pattern in real speech or text. Notice the pattern in subtitles or speech within the next few sessions, still incomplete.
-4. Keep the input in the zone where patterns stay visible. Notice whether you can follow the material without stopping.
-5. Re-read the same section after more immersion hours, not on a measured interval. Notice whether the pattern is more familiar than last time.
-6. Stop if you are memorizing the sketch or postponing input until it is "done." Notice any re-read that is not followed by a hunt.
-
-## Related pages
-
-- [[wiki/Language/Preparation|Preparation]], deliberate priming that makes future input easier to follow
-- [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]], the language-specific instance of this outline, rebuilt around Vietnamese
-- [[wiki/Language/Noticing Game|Noticing Game]], how the primed pattern gets hunted in input
-- [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]], how to keep input in the zone where patterns are visible
-- [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]], content supply for Vietnamese
-- [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]], content supply for Mandarin
-- [[wiki/Language/Language Isn't Math|Language Isn't Math]], owns the claim that grammar is not a complete generator
+When the primer feels comfortable, the next step named in one of the guides is a full grammar reference. Search that reference whenever a grammar point in immersion is not yet understood. Each structure can have dozens of uses. The primer teaches the most common ones to get started. If an explanation does not cover a usage found in immersion, that is something to leave for later.
 
 ## Open questions
 
-When a public sketch is familiar and still insufficient, which full reference can a stranger actually open?
+- How does reading a primer section change what the learner notices the next time that pattern appears in immersion?
+- How does coming back to the same section after another 50 hours with the language change what suddenly makes sense?
 
 ## Sources
 
-Ellis, R. (2005). "Measuring implicit and explicit knowledge of a second language: A psychometric study." *Studies in Second Language Acquisition* 27: 305–352. Explicit knowledge is useful for noticing and monitoring, not as the production engine.
+- Refold, "How to use a Grammar Primer - Demonstration", 2024-03-06, <https://www.youtube.com/watch?v=v_3KgHXi35U>. Private course material, paraphrased.
+- Refold, "The Refold Japanese Grammar Primer", the recommended-knowledge, mindset, and how-to-use sections. Private course material, paraphrased.
+- Refold, Teach Yourself a Language, Day 24, "Grammar". Private course material, paraphrased.
 
-VanPatten, B. Processing instruction. Primary objective is form–meaning mapping in input; production of the target form is not required during the grammar pass.
+## Related pages
+
+- [[wiki/Language/Language Isn't Math|Language Isn't Math]]: why abstract rules are a poor way to generate natural speech.
+- [[wiki/Language/Noticing Game|Noticing Game]]: after a short primer session, the learner looks for that grammar point in the wild.
+- [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]]: lookups of grammar are one way to explain a confusing stretch of input.
+- [[wiki/Language/Three Pillars of Language Learning|Three Pillars of Language Learning]]: a primer is a form of preparation.
+- [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]]: later places to put grammar noticing to work.
+- [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]]: the same, for Mandarin.

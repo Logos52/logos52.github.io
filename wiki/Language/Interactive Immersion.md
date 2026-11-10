@@ -1,99 +1,47 @@
 ---
 title: "Interactive Immersion"
 type: technique
-status: developing
+status: draft
 created: 2026-05-06
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
-model: grok
-source-count: 4
-last-audited: 2026-08-14
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "Interactive immersion is a category of activities that use tools to go deeper into input, not one single exercise."
 tags:
   - language-learning
   - interactive-immersion
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # Interactive Immersion
 
-Interactive immersion is work on real language, audio or text, with tools such as subtitles, replay, and lookups. It sits between a lesson and background watching. The learner uses it when the content is close enough to follow with help. Lookups stay limited. A stretch where every sentence needs lookups before it makes sense is no longer interactive immersion.
+Interactive immersion names a family of activities, not one exercise. It expands understanding through hands-on experiences and tools. The activities that belong in the category are the noticing game, in more than one named version, plus sentence mining, intensive listening, and transcription. The last three sit outside the lessons that list them.
 
-## Core takeaways
+A session of this work includes 20 minutes in the language. It uses dual-channel input, meaning content the learner reads and hears at the same time. On that content the learner keeps playing the noticing game, and watches for two-target sentences when they show up. A two-target sentence, sometimes written 2T, is a sentence with two things the learner needs to look up to piece it through. One check used in the session is to pick an example sentence from the immersion and count the known and unknown words.
 
-- Interactive immersion is a group of activities. Each one works a short stretch of real language with help from subtitles, replay, or lookups.
-- The content must be hard enough to teach the learner something. It must also be easy enough that only some sentences need a lookup.
-- Lookups stay limited, and the work happens on short stretches.
-- The default content is audio with matching subtitles in the target language.
-- When every sentence needs lookups, the learner moves to [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]] or to easier content. Two sessions in a row of that kind are the signal to quit.
-- When the learner gets the gist without help, the activity is [[wiki/Language/Freeflow Immersion|Freeflow Immersion]], a different mode.
+Intensive reading is related, and it is not the same as the noticing game alone. It also looks for two-target sentences and does lookups to get the meaning of the sentence. If no two-target content can be found, the noticing game is the fallback. The two-target threshold is a reminder not to look up every single word. Ten minutes of the activity may cover only a few minutes of content, because the work is the looking-up, not the runtime of the video.
 
-## What counts as interactive immersion
-
-Interactive immersion is a category of activities. A session can run any of these:
-
-- [[wiki/Language/Noticing Game|Noticing Game]] with confirmation. The learner checks that a noticed piece was really in the audio or text. That check separates the interactive version from the freeflow version.
-- Intensive reading: close study of a short stretch of real text for both meaning and form.
-- Intensive listening: the same audio played more than once, with a transcript or subtitles.
-- Writing down a short stretch by ear.
-- Limited lookups of a word, a sentence, or a grammar point.
-- Searching for sentences that are almost understandable.
-- Using subtitles and tools to confirm what was heard.
-
-The default content shape is dual-channel: audio plus matching subtitles in the target language. [[wiki/Language/Immersion Metalayers|Immersion Metalayers]] is the tool layer for pause, replay, lookup, and subtitle compare.
-
-## Where the name comes from
-
-"Interactive immersion" is a house name: it is the name used here for intensive reading and listening done with tools. Intensive reading and intensive listening are an established named mode. Dual-channel content is what practitioners use by default. There is no finding that it beats audio-only for everyone.
-
-## How hard the content should be
-
-The content should be hard enough to create learning. It should not be so hard that every sentence needs lookups before it makes sense. The range between those two limits is the useful-difficulty zone.
-
-A useful session usually has five things:
-
-1. Some recognizable words or forms. [[wiki/Language/Preparation|Preparation]] is the priming step that makes a few of those available before the session starts.
-2. A reason to keep watching.
-3. A limited lookup strategy.
-4. A way to confirm meaning.
-5. Enough attention to notice patterns.
-
-Three of these can be checked during a session: some forms are recognizable, there is a reason to keep watching, and lookups stay limited.
-
-## When to stop or switch
-
-The mode costs attention and lookup time. The learner spends both on short stretches.
-
-If every sentence needs lookups before it makes sense, the learner drops to [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]] or to easier content. Two sessions in a row of that kind are the signal to quit.
-
-The mode does not apply when the learner already gets the gist without help. That is [[wiki/Language/Freeflow Immersion|Freeflow Immersion]]. The mode also does not apply when every line needs lookups.
-
-After an hour's session, one of three things has happened. Help let the learner understand the lines. Or the session turned into lookups on every sentence. Or the learner got the gist without needing help. Only the first outcome is still interactive immersion.
-
-## How to practice this
-
-1. Choose audio with matching subtitles in the target language. Before you start, check that you recognize some words or forms in it. If you recognize none, the content is too hard for this mode.
-2. Play a short stretch more than once with the transcript or subtitles on. Notice which lines you understand on the replay that you missed the first time.
-3. When you notice a word or form, check the subtitles or a tool to confirm it was there. Notice whether what you heard matches what was there.
-4. Look up a word, a sentence, or a grammar point only a few times per stretch. Notice whether you can still follow the content with those few lookups.
-5. Write down a short stretch by ear. Then compare what you wrote with the subtitles. Notice which parts you got wrong.
-6. After the session, decide which of three outcomes happened. Help let you understand the lines, every sentence needed lookups, or you got the gist without help. Only the first outcome means you stay in this mode next time.
-
-## Related pages
-
-- [[wiki/Language/Noticing Game|Noticing Game]]: the first activity; the version with confirmation is the interactive form.
-- [[wiki/Language/Immersion Metalayers|Immersion Metalayers]]: the tool layer for pause, replay, lookup, and subtitle compare.
-- [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]]: the list of adjustments for when the content misses the useful-difficulty zone.
-- [[wiki/Language/Preparation|Preparation]]: the priming step that makes some words or forms available before a session.
-- [[wiki/Language/Freeflow Immersion|Freeflow Immersion]]: the mode to use when the learner gets the gist without help.
+Sentence mining, listed above as one of the interactive activities, means taking sentences and making priming material out of them. Priming here means turning those sentences into study material, such as cards, that will later raise comprehension during immersion. The lessons that name sentence mining do not teach how to do it.
 
 ## Open questions
 
-How a week splits among noticing with confirmation, intensive reading, and a short dictation, without one of them taking the time meant for the other two, is open.
+- How does looking up only a couple of unknown pieces change what the rest of a sentence becomes?
+- How does treating interactive immersion as a category of activities change what a learner picks for a session?
 
 ## Sources
 
-- Nation, I. S. P. (2004, 2007); Nation, I. S. P., & Newton, J. (2009). Intensive reading and listening as a named mode: close study of a short stretch for form and meaning.
-- Schmidt, R. (1990). Attention required for intake.
-- Bjork, R. A. (1994). Desirable difficulties: the basis for the rule that content should be hard enough to learn from and not so hard that every sentence needs lookups.
-- Krashen, S. *i+1*: the existing name for roughly that zone. Dual-channel (audio plus matching target-language subtitles) is a practitioner default. There is no finding that it beats audio-only for everyone.
+- Refold, Teach Yourself a Language, Day 18, "Interactive Immersion", course page. Private course material, paraphrased.
+- Refold, Teach Yourself a Language, Day 20, "The Three Pillars", the sentence that defines interactive immersion. Private course material, paraphrased.
+- Refold, Teach Yourself a Language, Day 19, "Intensive Reading", the comparison with the noticing game and the two-target threshold. Private course material, paraphrased.
+- Refold, "Intensive Reading Demo", 2023-05-06, the definition of a two-target sentence. Private course material, paraphrased.
+- Refold, Teach Yourself a Language, Day 9, "Reading + Listening", dual-channel input as reading and listening at the same time. Private course material, paraphrased.
+- Refold, "Hacking Comprehension Menu", priming as study that raises comprehension during later immersion. Private course material, paraphrased.
+
+## Related pages
+
+- [[wiki/Language/Noticing Game|Noticing Game]]: the activity that sits inside this category.
+- [[wiki/Language/Freeflow Immersion|Freeflow Immersion]]: later watching of the same content without lookups or rewinding.
+- [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]]: tools that make read-and-listen content understandable enough to work with.
+- [[wiki/Language/Immersion Metalayers|Immersion Metalayers]]: the lookup and pause tools used during interactive sessions.
+- [[wiki/Language/Three Pillars of Language Learning|Three Pillars of Language Learning]]: interactive immersion is one of the three pillars.
