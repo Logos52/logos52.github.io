@@ -1,7 +1,7 @@
 ---
 title: "Grok Bot, Condensed"
 type: concept
-status: draft
+status: developing
 draft: true
 created: 2026-11-10
 updated: 2026-11-10

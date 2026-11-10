@@ -1,7 +1,7 @@
 ---
 title: "The Right vs Wrong Way to Work With AI"
 type: concept
-status: draft
+status: developing
 created: 2026-11-10
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10

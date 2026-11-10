@@ -1,7 +1,7 @@
 ---
 title: "Cognitive Load & What Mental Effort Is Trying to Cue"
 type: concept
-status: draft
+status: developing
 created: 2026-05-14
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10

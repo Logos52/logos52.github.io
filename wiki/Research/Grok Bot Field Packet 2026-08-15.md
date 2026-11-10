@@ -1,7 +1,7 @@
 ---
 title: "Grok Bot Field Packet 2026-08-15"
 type: research
-status: draft
+status: packet
 created: 2026-08-15
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10

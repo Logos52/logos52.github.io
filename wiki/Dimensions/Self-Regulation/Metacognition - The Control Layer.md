@@ -1,7 +1,7 @@
 ---
 title: "Metacognition - The Control Layer"
 type: concept
-status: draft
+status: seed
 created: 2026-05-02
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10

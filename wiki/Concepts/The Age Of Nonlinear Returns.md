@@ -1,7 +1,7 @@
 ---
 title: "The Age Of Nonlinear Returns"
 type: concept
-status: draft
+status: developing
 created: 2026-05-12
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10
