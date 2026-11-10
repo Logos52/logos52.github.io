@@ -1,7 +1,7 @@
 ---
 title: "The Screen Inferiority Effect"
 type: concept
-status: draft
+status: seed
 created: 2026-06-19
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10

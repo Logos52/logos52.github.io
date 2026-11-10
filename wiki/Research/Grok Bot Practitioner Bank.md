@@ -1,7 +1,7 @@
 ---
 title: "Grok Bot Practitioner Bank"
 type: research
-status: draft
+status: reference
 created: 2026-08-13
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10

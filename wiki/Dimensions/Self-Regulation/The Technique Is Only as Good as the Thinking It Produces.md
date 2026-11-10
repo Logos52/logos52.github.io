@@ -1,7 +1,7 @@
 ---
 title: "The Technique Is Only as Good as the Thinking It Produces"
 type: concept
-status: draft
+status: developing
 created: 2026-05-09
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10

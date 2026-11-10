@@ -1,7 +1,7 @@
 ---
 title: "Interleaving Table"
 type: reference
-status: draft
+status: seed
 created: 2026-05-16
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10

@@ -1,7 +1,7 @@
 ---
 title: "America's Industrial Revival - The Freight Signal"
 type: concept
-status: draft
+status: developing
 created: 2026-11-10
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10

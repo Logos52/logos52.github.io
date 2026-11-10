@@ -1,7 +1,7 @@
 ---
 title: "Four Stages of Competence"
 type: model
-status: draft
+status: developing
 created: 2026-06-11
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10

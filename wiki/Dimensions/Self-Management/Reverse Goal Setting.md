@@ -1,7 +1,7 @@
 ---
 title: "Reverse Goal Setting"
 type: technique
-status: draft
+status: seed
 created: 2026-05-07
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10
