@@ -4,13 +4,13 @@ type: project
 status: current
 stack:
   - Obsidian
-  - Quartz
+  - Astro
   - LLM agents
 order: 1
 image: projects/llm-knowledge-base.png
 blurb: "This site. A public knowledge base, kept by LLM agents, published from an Obsidian vault. Source material becomes durable linked notes."
 created: 2026-06-02
-updated: 2026-09-13
+updated: 2026-11-10
 method: plain-register-2026-09-13
 prose-model: opus
 tags:
@@ -21,11 +21,11 @@ tags:
 
 ## What it is
 
-This site. `llm-knowledge-base` is a public, LLM-maintained second brain. It turns source material into durable markdown notes that link to each other, and each pass makes the base a little more useful. It is an Obsidian vault published to the web with [Quartz](https://quartz.jzhao.xyz/). It is also an ongoing experiment in using LLM agents to maintain a knowledge base over time.
+This site. `llm-knowledge-base` is a public, LLM-maintained second brain. It turns source material into durable markdown notes that link to each other, and each pass makes the base a little more useful. It is an Obsidian vault published to the web with [Astro](https://astro.build/). It is also an ongoing experiment in using LLM agents to maintain a knowledge base over time.
 
 ## How it's built
 
-The vault is kept in [Obsidian](https://obsidian.md). Quartz compiles it into a static site on GitHub Pages. The wiki is organized as a pipeline: raw sources are compiled into concept, technique, and synthesis pages. The pages are cross-linked so the link graph stays easy to navigate. LLM agents do much of the compilation, health-checking, and synthesis. The agents follow an operating contract that keeps private material out of the public build.
+The vault is kept in [Obsidian](https://obsidian.md). Astro compiles it into a static site on GitHub Pages. The wiki is organized as a pipeline: raw sources are compiled into concept, technique, and synthesis pages. The pages are cross-linked so the link graph stays easy to navigate. LLM agents do much of the compilation, health-checking, and synthesis. The agents follow an operating contract that keeps private material out of the public build.
 
 ## What worked
 

@@ -14,6 +14,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Repointed three targets (six link lines) whose pages live elsewhere, and turned five missing targets into the same visible words as plain text.
 - `tools/publish-snapshots.md` and `tools/scripts/setup-site.sh` now describe the Astro build (`npm ci`, `npm run build`).
+- The project page, the publish-guard header, and the backup exclude comment name Astro. `tools/ledger.mjs` still writes its old output path.
 
 ## [2026-10-23] lint | Replace deprecated content-schema calls and test agent folder domains
 

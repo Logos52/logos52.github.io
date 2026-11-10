@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * publish-guard.mjs — privacy safety net for the public Quartz site and repo.
+ * publish-guard.mjs — privacy safety net for the public Astro site and repo.
  *
  * The source repo is PUBLIC, so private content leaks the moment it is committed/pushed —
  * rendered or not. This guard runs at three points (earliest to latest):
