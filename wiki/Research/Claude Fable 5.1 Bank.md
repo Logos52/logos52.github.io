@@ -18,7 +18,7 @@ source-count: 18
 
 Raw reference. One fact per line. Grades: **documented** (vendor docs or official post), **reported** (press or several outlets), **single-source** (one outlet, verify before shipping), **firsthand** (this desk). The writer does not paste this file into the page.
 
-**Novelty note.** Entries checked: [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Claude Fable]] (Fable 5 operating notes, last updated 2026-08-14), [[01 - Workbench/Fable - Research Bank - Claude and Grok Tools.md]] (tools, 2026-08-26), [[journal/2026-09-01-grok-writes]]. This bank differs by compiling the 5.1 launch (2026-09-01) plus the first day of field talk, including Anthropic's own "mannered prose" prompt. It is not a rewrite of the June Fable 5 page.
+**Novelty note.** Entries checked: [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Claude Fable]] (Fable 5 operating notes, last updated 2026-08-14), 01 - Workbench/Fable - Research Bank - Claude and Grok Tools.md (tools, 2026-08-26), [[journal/2026-09-01-grok-writes]]. This bank differs by compiling the 5.1 launch (2026-09-01) plus the first day of field talk, including Anthropic's own "mannered prose" prompt. It is not a rewrite of the June Fable 5 page.
 
 ## Brief for the writer (Fable)
 

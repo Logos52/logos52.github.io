@@ -290,7 +290,7 @@ From [MOS:NOFORCELINK](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/L
 
 > Use a link when appropriate, but as far as possible do not force a reader to use that link to understand the sentence. The text needs to make sense to readers who cannot follow links. … Do not use links as a substitute for explanation.
 
-[[02 - System/Readers|Readers]] already says this for wiki pages: "A link on the page tells them what is on the other side; they will not follow it to find out what a word means."
+Readers already says this for wiki pages: "A link on the page tells them what is on the other side; they will not follow it to find out what a word means."
 
 Other operational pieces:
 

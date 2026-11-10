@@ -10,6 +10,11 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-11-10] maintenance | Dead wikilinks and Astro setup docs
+
+- Repointed three targets (six link lines) whose pages live elsewhere, and turned five missing targets into the same visible words as plain text.
+- `tools/publish-snapshots.md` and `tools/scripts/setup-site.sh` now describe the Astro build (`npm ci`, `npm run build`).
+
 ## [2026-10-23] lint | Replace deprecated content-schema calls and test agent folder domains
 
 - `src/content.config.ts` takes `z` from `astro/zod` and uses `.loose()` where it used `.passthrough()`. The parse result is the same.

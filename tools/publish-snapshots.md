@@ -3,20 +3,20 @@ title: "Publish snapshots"
 type: skill-prompt
 status: active
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-11-10
 tags:
   - tools
   - publishing
-  - quartz
+  - astro
 ---
 
 # Publish snapshots
 
-Generate the public showcase tables under `public-snapshots/` for the Quartz site (`logos52.github.io`). **AI-agnostic** — any agent (Claude, Grok, ChatGPT, Hermes, others) can read this prompt and produce the output. Manually triggered before `npx quartz build`.
+Generate the public showcase tables under `public-snapshots/` for the Astro site (`logos52.github.io`). **AI-agnostic** — any agent (Claude, Grok, ChatGPT, Hermes, others) can read this prompt and produce the output. Manually triggered before `npm run build`.
 
 ## Intent — important
 
-These are **showcase tables that demonstrate the dashboard's schema and visual pattern, with representative dummy data**. They are **not** snapshots of Wedge's actual decisions, skills, or goals. Personal values stay private (`decisions/`, `mg-kolbs/**` are all in Quartz `ignorePatterns`). The audience of `logos52.github.io` should see what the system *looks like* and be able to fork the patterns — not see Wedge's personal data.
+These are **showcase tables that demonstrate the dashboard's schema and visual pattern, with representative dummy data**. They are **not** snapshots of Wedge's actual decisions, skills, or goals. Personal values stay private (`decisions/` and `mg-kolbs/**` are on the denylist in `src/lib/ignore-patterns.mjs`, so `scripts/copy-public-notes.mjs` never copies them into the Astro build). The audience of `logos52.github.io` should see what the system *looks like* and be able to fork the patterns — not see Wedge's personal data.
 
 If actual values are ever wanted public, they're opted in per-snapshot, by hand. Default is dummy.
 
@@ -61,4 +61,4 @@ The AI produces the three files with fresh dummy examples (or the same ones if t
 
 ## After running
 
-Wedge reviews the three files, confirms no personal data leaked in, then runs `npx quartz build` to publish.
+Wedge reviews the three files, confirms no personal data leaked in, then runs `npm run build`. A push to `main` publishes through `.github/workflows/deploy.yml`: `npm ci`, `npm run lint:fm`, `npm run guard:source`, `npm run build` (`astro build`), `npm run guard`, and `npm test`. Only `main` deploys to GitHub Pages.
