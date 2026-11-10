@@ -1,86 +1,100 @@
 ---
 title: "LGBT - Permission vs Promotion"
 type: concept
-section: "Worldviews and Society"
 status: developing
-description: "The Basic Logic video argues that the best argument for LGBT is privacy, and that the movement dropped it when it moved from asking for permission to promoting itself."
 created: 2026-08-16
-updated: 2026-10-21
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: opus
 tags:
   - politics
   - argument
-draft: true
-wedge_reviewed: true
 ---
 
 # LGBT - Permission vs Promotion
 
-The Basic Logic video argues that the best argument for LGBT is that what two consenting adults do in private is none of anyone else's business. That argument supports leaving people alone. It cannot support pride months, rainbow logos and school lessons, because those make the matter everyone's business. The movement dropped its strongest argument when it moved from asking for permission to promoting itself, and the other defenses in circulation are weaker or fail outright.
+Permitting something and promoting it are two separate acts, and each one needs its own justification. The arguments in general circulation establish permission, and they are used to argue for promotion. That gap is the whole dispute, and it stays hidden because the question gets argued as though one position covered both.
+
+The distinction is old and general. A society can decline to interfere with a practice and at the same time decline to teach it, fund it, celebrate it, or require anyone to say anything about it. Those are separate decisions about the same conduct. An argument that reaches the first does not automatically reach the second.
+
+## Core takeaways
+
+- Permission means the state does not interfere. Promotion means an institution teaches, funds, celebrates, or requires affirmation. Each needs its own argument.
+- The strongest defense is that what consenting adults do privately is not other people's concern. It licenses non-interference and nothing further.
+- That defense holds only while no harm to others is demonstrated. Harm to third parties, once shown, is grounds to interfere under the same principle.
+- Unchosen orientation, historical precedent, occurrence in other species, and scriptural misreading each reach permission and stop there.
+- One defense argues for institutions acting: that treatment prevents self-harm. Its route is medical, benefit to the patient, and its evidence is disputed.
+- The principle protects the person who declines to take part as strongly as the person who takes part.
 
 ## The argument that works
 
-The privacy argument is solid, though imperfect, because its logic holds. It is at once the best and the worst argument for LGBT. It is the best because the reasoning is sound, and the worst because it runs against what the movement now wants. A whole month dedicated to the cause, company logos turned rainbow, media aimed even at children, open parades and lessons in school all make private conduct public. If the movement lived by the privacy argument, the argument would stand, and there is little sign that it will.
+What consenting adults do privately is not other people's concern.
 
-<figure>
-<svg viewBox="0 0 520 259" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-lgbt-t">
-<title id="wv-lgbt-t">The Basic Logic video argues. Permission: what two consenting adults do in private is none of anyone else's business. Leaving people alone. Promotion: pride months, rainbow logos and school lessons. Media aimed even at children. Open parades. These make the matter everyone's business. An arrow from permission to promotion is labelled: the movement dropped its strongest argument.</title>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="middle"><text x="260.0" y="22">The Basic Logic video argues</text></g>
-<rect x="10" y="40" width="200" height="133" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="60">Permission</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="81">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="81">What two consenting</text><text x="34" y="97">adults do in private is</text><text x="34" y="113">none of anyone else's</text><text x="34" y="129">business</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="149">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="149">Leaving people alone</text></g>
-<rect x="310" y="40" width="200" height="137" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="320" y="60">Promotion</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="322" y="81">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="334" y="81">Pride months, rainbow</text><text x="334" y="97">logos and school lessons</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="322" y="117">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="334" y="117">Media aimed even at</text><text x="334" y="133">children</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="322" y="153">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="334" y="153">Open parades</text></g>
-<rect x="310" y="189" width="200" height="60" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="410.0" y="209">Make the matter everyone's</text><text x="410.0" y="225">business</text></g>
-<path d="M210,80 L306,80" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="306.0,80.0 297.0,85.0 297.0,75.0" style="fill:var(--mut,#666)"/>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="middle"><text x="258" y="102">The movement</text><text x="258" y="117">dropped its</text><text x="258" y="132">strongest</text><text x="258" y="147">argument</text></g>
-</svg>
-<figcaption>The Basic Logic video argues that the movement dropped its strongest argument when it moved from asking for permission to promoting itself.</figcaption>
-</figure>
+This is the strongest defense available, and it holds on one condition. It requires no claim about causes. It appeals to neither nature nor history. It asserts nothing about outcomes. It rests on a limiting principle most people already hold for most conduct: whoever proposes to interfere carries the burden, and without a demonstrable harm to others the burden is not met. The condition is that last clause. It is the place where the argument can be contested rather than complete, because a harm to third parties, once shown, is what the principle itself accepts as grounds to interfere.
 
-## Born this way
+The argument is also precise about what it delivers. It licenses non-interference. It says nothing about what a curriculum should contain, what an institution should fund, what a public event should stage, or what anyone else must affirm. None of those is the state declining to intervene in private conduct. Each of them is the state or an institution acting.
 
-The born-this-way defense says people are born LGBT. The video says orientation develops later in life and that studies looking for genetic or prenatal causes have had to concede that childhood environment shows the strongest link, such as an abusive or absent parent or a sexualised setting. The point behind the defense is that nobody should be held responsible for something outside their control, whether it came from birth or from the environment. That point is fair. The movement, however, openly works to normalise that environment for children through schools, media and events. A movement that spreads the conditions which produce more of what it defends cannot then plead that people cannot help it.
+An argument built on privacy cannot be used to argue about visibility. Once the claim becomes a claim about public treatment, the premise that made the argument strong no longer applies.
 
-## Harm
+## The other defenses
 
-The harmless defense says that, apart from in effect sterilising people, LGBT does no harm. The video claims that using body parts against their natural purpose brings health problems, incontinence being the most cited. The video adds that the movement celebrates promiscuity, which weakens families because humans pair-bond. It says that with no risk of pregnancy, many skip precautions, so STD rates rise sharply, and everyone else pays for the treatment through taxes or medical costs. It claims people in same-sex relationships report much higher rates of mental illness and that children raised in such homes face higher risks of emotional and behavioural problems and of confusion about identity.
+Most of the others reach permission by different routes and stop at the same place. One of them does not stop there.
 
-The defense that gender affirmation saves lives rests on studies reporting large drops in what the transcript calls "self-reduction" among young people diagnosed with dysphoria. The Cass Review called that evidence "remarkably weak," with poor study quality, no proper controls and other mental illness ignored. The NHS then stopped routine puberty blockers for minors and recommended therapy by default. The video cites a Swedish study that found a higher rate of "self-reduction" after surgery, no better than among those who skip it, and a 4,000% rise among teenage girls, with no country, years or base given, as evidence of social contagion. The treatment also contradicts itself, since a healthy body paired with a troubled mind calls for treating the mind.
+**Innate orientation.** The claim is that the disposition is not chosen. The strong version does not require the disposition to be present at birth, because something laid down by circumstance before anyone was old enough to weigh it is no more chosen than something carried in the genome. Take that as given, since nobody selects the thing on either account. It strengthens the case against interference, because punishing a person for what they did not select is a poor use of a legal system. It establishes nothing about promotion. A trait's being unchosen is not a reason for institutions to advance it, and the same reasoning would cover any number of unchosen dispositions nobody proposes celebrating.
 
-## Nature, history and scripture
+**Historical precedent and occurrence in other species.** Both establish that the conduct is not novel, and not unnatural in the sense of being unknown. Both are answers to an objection about deviance, and both are silent on public treatment. Cannibalism has a long record and animal instances too, and neither fact is treated as bearing on whether to permit it. That is the test of whether a long record was ever doing the work. Practices are permitted or prohibited on their merits.
 
-Animals do have same-sex relations, and they also practise cannibalism, so animal behaviour settles nothing. The objection that LGBT is unnatural refers to the natural use of the body parts involved, and the video holds that point stands. Some past societies accepted LGBT, as some accepted child sacrifice, and acceptance does not make a practice good. What happened to those societies once it became normal is worth studying.
+**Scriptural misreading.** The claim is that the condemning passages concerned other conduct and were mistranslated. Whichever way the manuscripts go, the argument is addressed to believers, and its reach is a religious prohibition rather than a civil one. Lifting a prohibition inside a faith is one more way of arriving at permission. It instructs no institution to fund or teach anything.
 
-Some religious members say biblical passages against same-sex relations were mistranslated and really concern adultery or pagan rites. The video calls that reading nonsense, made up by pseudo-scholars over the last few decades to push the ideology.
+**No harm is done.** This is the premise the privacy argument depends on, and it is the one item in the set that turns on evidence rather than on reasoning. Health outcomes, the public share of their cost, and the outcomes of children raised in these arrangements are each disputed, and nothing here settles them. What is settled is what an answer would do. Demonstrated harm to third parties licenses interference under the very principle being invoked, so this defense decides whether permission holds at all. Either way it decides nothing about promotion.
 
-The overpopulation defense once said LGBT helps by lowering birth rates. Now that the West faces demographic collapse and imports migrants to make up for low births, the video says, that defense is a relic.
+**Population pressure.** The claim is that the conduct does the public a service by lowering the birth rate against a population that is too large. This is not an argument about liberty. It has already reversed. It ran on the overpopulation forecasts of thirty years ago, and the present worry is a shortfall of births, so the same reasoning now argues the other way.
 
-## Where this leaves the debate
+**Intervention prevents deaths.** This one does not stop at permission. It argues for institutions acting, providing a treatment, funding it, making it the default, on the ground that the treatment prevents self-harm, and the reported drops of 60 to 73 percent among treated youth are what give it force. The review that examined those studies found the evidence weak on study quality, controls, and untreated comorbidities. Long-term follow-up put self-harm at nineteen times the background rate after surgery, no lower than among those who did not have it. That dispute is about evidence and is taken up on its own page. The structural point is narrower. The route this defense takes is the medical one, benefit to the patient, which licenses offering a treatment to a patient who asks for it and settles nothing about what a school teaches or what a bystander must say.
 
-People are not born LGBT, the video concludes, yet they do not choose it either, and the movement spreads the way an idea spreads.
+Apart from that one, these defenses reach permission and stop. None of them establishes the further claims, and the further claims are what is actually contested.
+
+## What an argument for promotion would have to show
+
+The gap can be bridged in principle. An argument for public advancement is available, and it would have to establish something the privacy argument deliberately avoids: that the practice produces a benefit to people other than its participants, large enough to justify institutions spending resources and attention on it.
+
+One defense in circulation takes that route, the demographic one, and it fails on its own numbers. The reason the route is otherwise empty is visible. Taking it means giving up the privacy premise the position won on, because a claim of public benefit invites public examination of the practice, and that examination is what the earlier argument was built to prevent. The two positions cannot be held at the same time. Holding them in turn is what makes the debate feel unfalsifiable to everyone in it.
+
+## The same principle in the other direction
+
+The distinction carries a cost, and the cost falls on both sides.
+
+If the principle is that people are left to their own arrangements absent demonstrable harm, it protects the person who declines to participate as strongly as the person who participates. Compelled affirmation is interference in exactly the sense the argument prohibits. Someone who wants no part in a celebration is exercising the same liberty as someone who wants to hold one.
+
+When permission is granted in one direction and withheld in the other, what is operating is a preference stated in the principle's words rather than the principle itself. The way to tell the two apart is whether the principle ever returns a result the person invoking it dislikes.
+
+## What the position amounts to
+
+Permitted and unremarked is a coherent settlement, and it is what the strongest argument supports. Conduct that is nobody's business does not acquire a claim on anyone by being permitted. Permission obliges nobody to supply a curriculum, an affirmation, or an opinion.
+
+That settlement is smaller than what either position is arguing for, and it is where nearly all of the defenses in circulation end up.
+
+## How to practice this
+
+1. Take an argument you meet for this conduct and write down what it licenses. Notice whether it reaches non-interference, or reaches teaching, funding, and required affirmation.
+2. Check the argument against the harm clause. Ask whether demonstrated harm to third parties would license interference under the same principle you are using.
+3. Apply the unchosen-trait reasoning to another unchosen disposition. Notice whether you would ask institutions to advance that one too.
+4. Test a long-record argument by applying it to cannibalism. Ask whether a long record alone settles whether to permit a practice.
+5. Run the principle in the direction you dislike. Notice whether it protects the person who declines to take part as strongly as the participant.
+6. Watch for a public-benefit claim made beside a privacy claim. Notice that a public-benefit claim invites public examination of the practice.
 
 ## Related pages
 
-- [[wiki/Worldviews & the Political Order/Gender Ideology - The Override Claim|Gender Ideology - The Override Claim]]
-- [[wiki/Worldviews & the Political Order/What Faiths Demand of the State|What Faiths Demand of the State]]
-- [[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]]
-
-## Sources
-
-- Every section: Basic Logic, "LGBT: All Arguments Ranked & Debunked" (YouTube, published 2026-03-30), <https://www.youtube.com/watch?v=S9gmtI_uS50>. Paraphrased. The Cass Review quote is as the video gives it.
+- [[wiki/Worldviews & the Political Order/Gender Ideology - The Override Claim|Gender Ideology - The Override Claim]]: the separate question of whether identity supersedes biology, which travels under the same acronym and turns on different arguments.
+- [[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]]: why an argument that establishes one conclusion cannot be used for an adjacent one.
+- [[wiki/Worldviews & the Political Order/What Faiths Demand of the State|What Faiths Demand of the State]]: the same permission-versus-promotion question asked about religious practice.
 
 ## Open questions
 
-Which studies support the health, mental-health and child-outcome figures? The video description names the Cass Review, twin studies, CDC statistics and suicide research, and the transcript does not tie each figure to one.
+If a public-benefit argument were made rather than avoided, what evidence would it have to produce, and would making it forfeit the privacy claim permanently?
 
-The 4,000% rise has no stated country, years or base.
+Some institutions are already involved: a school, a state broadcaster, a public event. What does declining to promote actually look like there, given that silence is also a choice the institution makes?
+
+## Sources
+
+*LGBT: All Arguments Ranked & Debunked*, 2026-03-30: <https://www.youtube.com/watch?v=S9gmtI_uS50>. Supplied the eight defenses in circulation, and the observation that the privacy argument is the strongest available and also the one its advocates abandoned.
