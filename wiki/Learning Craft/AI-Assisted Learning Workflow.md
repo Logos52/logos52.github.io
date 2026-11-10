@@ -119,7 +119,7 @@ Application starts on the first pass. The working cadence is a thought about app
 
 ## Mixing subjects across a day
 
-Mixing unrelated subjects across a day, such as an hour of one language, an hour of finance, and two hours of agents, can help motivation and sustain attention. That is variety. The interleaving effect is a different thing: related, easily confused items mixed inside one domain, so the learner has to select the approach rather than only execute it. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] and [[wiki/Dimensions/Retrieval/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] cover the real effect.
+Mixing unrelated subjects across a day, such as an hour of one language, an hour of finance, and two hours of agents, can help motivation and sustain attention. That is variety. The interleaving effect is a different thing: related, easily confused items mixed inside one domain, so the learner has to select the approach rather than only execute it. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] and [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] cover the real effect.
 
 ## When the workflow fits and when it does not
 
@@ -156,7 +156,7 @@ The fetching, the converting, and the tidying can stay with the machine. Importa
 - [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]]: logic, concept, and detail, presented mixed together in sources.
 - [[wiki/Concepts/Learning Styles Myth and Multimodal Learning|Learning Styles Myth and Multimodal Learning]]: matching a declared style produces no learning advantage.
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: the real interleaving effect, inside a domain.
-- [[wiki/Dimensions/Retrieval/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]: reconstruction under changed variables.
+- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]: reconstruction under changed variables.
 
 ## Open questions
 

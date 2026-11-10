@@ -61,7 +61,7 @@ Every row has the same shape. The left column is the finished object. The right 
 
 The clearest sign is a page of notes that looks ordered and cannot be used. The feeling of productivity during the session is a misreading of fluency. Easy processing is being taken as evidence that the knowledge is there. The check has to happen during the session. After the session is too late.
 
-[[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] states the same idea as a rule for choosing a method: pick a method for the cognition it triggers.
+[[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] states the same idea as a rule for choosing a method: pick a method for the cognition it triggers.
 
 ## Faking the Bear Hunter System
 
@@ -147,7 +147,7 @@ The aim is to stop replacing learning with the appearance of learning. The artif
 
 - [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]: the related diagnosis of the same failure.
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]: the repair for shortcuts that are cue-response habits.
-- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: the rule for choosing a method by the cognition it triggers.
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: the rule for choosing a method by the cognition it triggers.
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: where the shortcut shows up as surface Aim, Shoot, and Skin.
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: where retrieval is faked by look-up, recognition, or blocked practice.
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: after-the-fact naming of the shortcut that just happened.

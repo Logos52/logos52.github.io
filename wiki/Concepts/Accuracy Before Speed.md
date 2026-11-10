@@ -54,7 +54,7 @@ A new technique is practised for accuracy alone, and pace is left to arrive once
 
 ## Time on the calendar is not practice
 
-Elapsed time is not practice time. Two months in which the method was not actually run is the same as no time having passed. Two weeks of heavy, accurate practice can be enough to move on. The unit is what was practised, plus an honest check that the work now runs correctly without strain. How long the topic has been on the calendar is not the unit. [[Pacing Skill Development]] owns the same load logic for how many processes to run at once.
+Elapsed time is not practice time. Two months in which the method was not actually run is the same as no time having passed. Two weeks of heavy, accurate practice can be enough to move on. The unit is what was practised, plus an honest check that the work now runs correctly without strain. How long the topic has been on the calendar is not the unit. [[wiki/Dimensions/Mindset/Marginal Gains|Pacing Skill Development]] owns the same load logic for how many processes to run at once.
 
 ## Trying hard all the time
 
@@ -89,7 +89,7 @@ Leftover ambition goes into the process, or into the harness. It does not go int
 
 - [[Priority 0+1 System]]: ranking work only pays when each unit of work is done right.
 - [[Rapid Skill Acquisition]]: unforced speed as the mark that a method has settled.
-- [[Pacing Skill Development]]: same load logic for how many processes to run at once. Elapsed time is not the unit.
+- [[wiki/Dimensions/Mindset/Marginal Gains|Pacing Skill Development]]: same load logic for how many processes to run at once. Elapsed time is not the unit.
 - [[Marginal Gains]]: process change as the one speed lever with range.
 
 ## Open questions

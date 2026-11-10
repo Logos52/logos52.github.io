@@ -68,7 +68,7 @@ Excluded from this backup (regenerable from `package.json`):
 - node_modules/
 - public/
 - .quartz-cache/
-- quartz/   (the Quartz framework — re-vendor with tools/scripts/setup-site.sh)
+- quartz/   (former framework directory, if present)
 - .git/     (use GitHub to restore history)
 EOF
 
