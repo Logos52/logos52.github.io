@@ -14,7 +14,9 @@ tags:
   - politics
   - energy
   - demographics
+wedge_reviewed: false
 ---
+> Not yet reviewed by Wedge.
 
 # Europe - The Slow Agony
 
@@ -90,4 +92,6 @@ The remedies are known, including common borrowing, a single capital market, sim
 
 | Section | Note file |
 |---|---|
+| Lead, How far behind | Draghi Part A note and Front Page note |
 | The choices behind it | Front Page note and Draghi Part A note |
+| Why it is now urgent | Draghi Part A note and Address by Mario Draghi, presentation of the report on the future of European competitiveness, European Parliament, 17 Sept 2024 and Why Europe Is Dying Explained In 3 Minutes and Front Page note |

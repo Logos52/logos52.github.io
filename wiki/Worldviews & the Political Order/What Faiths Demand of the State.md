@@ -12,7 +12,9 @@ tags:
   - politics
   - religion
   - argument
+wedge_reviewed: false
 ---
+> Not yet reviewed by Wedge.
 
 # What Faiths Demand of the State
 
@@ -52,3 +54,6 @@ On the system of rule, no passage commands democracy. Democracy is a tool that w
 
 | Section | Note file |
 |---|---|
+| Lead, Authority and its limits, Charity belongs to the church, Nation, law and system of rule | What Politics Must Christians Support? |
+| Lead, Authority and its limits, Charity belongs to the church, Nation, law and system of rule | On Faith, Power, and Politics |
+| Nation, law and system of rule | Christian Nationalism Explained |

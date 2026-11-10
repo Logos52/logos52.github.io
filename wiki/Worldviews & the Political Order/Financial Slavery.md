@@ -12,7 +12,9 @@ tags:
   - politics
   - money
   - argument
+wedge_reviewed: false
 ---
+> Not yet reviewed by Wedge.
 
 # Financial Slavery
 
@@ -77,3 +79,5 @@ The American numbers show the scale. The national debt stood at $39 trillion in 
 
 | Section | Note file |
 |---|---|
+| Lead, Honest and dishonest lending | Basic Logic slavery note and The US Only Has One Political Party |
+| The same trap for a nation | Basic Logic slavery note and Printing Money Explained In 2 Minutes and Front Page, "Socialism Always Fails..." and The Gen Z Gender War |

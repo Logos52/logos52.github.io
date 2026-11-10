@@ -11,7 +11,9 @@ group: "Who rules, and on what terms"
 tags:
   - politics
   - power
+wedge_reviewed: false
 ---
+> Not yet reviewed by Wedge.
 
 # The Organized Minority
 
@@ -70,4 +72,6 @@ That history leaves today's Western elites in a weak spot. Their own skills of f
 
 | Section | Note file |
 |---|---|
+| Lead, Why the minority cannot let go | Basic Logic (https://www.youtube.com/watch?v=288u54zMFyg) |
+| Revolutions come from denied elites | Basic Logic note and Sam's POV |
 | Turnover and today's elites | Basic Logic note |
