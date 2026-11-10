@@ -1,96 +1,53 @@
 ---
 title: "Positional Decisions and Expected Value"
 type: concept
-status: developing
+status: draft
 created: 2026-05-08
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
-model: grok
-source-count: 3
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "Judge a choice by the position it leaves you in if you keep deciding that way, which is expected value, rather than by whether the last single outcome happened to go your way."
 tags:
-  - ics
   - decision-making
-  - expectancy
-  - uncertainty
   - expected-value
+  - risk
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # Positional Decisions and Expected Value
 
-A positional decision is a choice made when the result cannot be known in advance. It is scored by the options, information, and ruin it leaves for the next choice. A single outcome does not grade it. The same kind of choice still has to pay across repeats.
+When the next move is uncertain, it helps to ask what position the choice leaves you in, not only whether this one play will succeed. Chess players think this way early in a game, placing pieces so later attacks become possible even when the next capture is not yet visible. A similar idea shows up in card games. Two strong starting cards can still lose a hand, and two weak ones can still win one. The first position remains statistically stronger. People call that difference expected value. Each decision carries a plus or a minus, and the sign describes what happens if you keep making that kind of choice, not what happened on a single try.
 
-## Core takeaways
+A simple game makes the arithmetic plain. You pay 5 dollars to roll a six-sided die, and if it lands on the 6-pip face you win 10 dollars. The chance of winning is 1 chance in 6 faces. Across 6 games you would spend 30 dollars and expect to win once, taking 10 dollars back, for a loss of 20 dollars. You might win the first two rolls and feel ahead. As the number of plays grows, the results move toward that long-run value. Casino games are built the same way. Most of them have a negative expected value, which means the more you play, the more likely you are to lose.
 
-- A positional decision is judged by the options, information, and ruin it leaves for the next choice, not by one result.
-- Expected value means the kind of choice is favorable across repetitions or similar cases, even when one instance fails.
-- Before choosing, name the biggest downside. If it is significant and cannot be protected, the answer is no.
-- Emotion is one input to the decision. Choosing only for comfort has negative expected value over a life.
-- Stop predicting replies after two or three steps. Take the move that stays strong whatever the reply.
-- Waiting is a decision with consequences. It is useful only when it produces meaningful information.
+In life the same test applies. A better position is one with a positive expected value. Even if a single decision goes against you, repeating that kind of choice should, over time, move you forward. The reverse game, where you win on every face except the 6-pip face, has 5 chances in 6 faces of winning. Early losses would not make that process a bad one.
 
-## When to use it
+## What a weak process looks like
 
-Use this way of choosing when certainty is unavailable but one option creates a better future position. Waiting can be useful if it produces meaningful information. Waiting is also a decision, and it has consequences.
+Someone who decides on impulse, or who chooses only to avoid anxiety and fear, tends not to protect against downside or to take useful chances. Over time the openings shrink, challenges grow, and the position gets worse, even though each choice felt more comfortable in the moment.
 
-A positional decision asks five questions of an option. Does it improve future choices? Does it give information earlier? Does it reduce a major downside? Does it increase leverage or flexibility? Does it make future decisions easier?
+Someone who meets a hard patch can learn the needed skills, raise their tolerance for discomfort, and work on the fear that would have blocked the attempt. Results may stay poor for the first couple of years, even while the position improves. Other people notice the effort and tend to offer more chances. One lucky leap, such as a lottery win, is not a reliable way to jump from a weak position to a strong one. If the same poor money habits remain after a windfall, the new money tends to disappear as well.
 
-## What expected value means here
+Across a week or a month there is not enough data, so people judge a choice by its last outcome. Across years, better decisions improve the position. They rest on checking risks, gathering information, testing openings, reducing what can go badly, and looking for chances on purpose.
 
-Expected value, in words, means the decision is favorable across repetitions or similar cases, even though any single outcome may fail. [[wiki/Decision Making/Expectancy in Wicked Environments|Expectancy in Wicked Environments]] gives the arithmetic for putting a range around that estimate when the setting gives no odds. A good process can still produce a bad result once. The question is whether the decision type has positive expectancy over time. [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]] uses the same split when it grades the process rather than one outcome.
+Feelings belong in that process, because how you feel is part of what you value. If feelings are the only input, the process itself has a negative expected value. The more decisions you make that way, the more likely you are to end up worse off. A familiar study version is knowing that repeating old, comfortable methods is unlikely to produce strong results, and still staying with them because the alternative feels harder. One upcoming test might still go fine. Across many tests, and in the rest of life, that process is unlikely to put you where you want to be.
 
-Three examples from study show the type. A method that exposes gaps early may feel worse today and still improve a semester. Asking for feedback creates discomfort now and improves later performance. Starting a hard task early does not guarantee success. It improves information, time, and recovery options.
-
-## Check the downside first
-
-Expected value does not mean ignoring risk. Before choosing, ask four questions. What are the biggest downsides? Are any of them unacceptable? Can they be protected, reduced, or made reversible? Is the upside large enough relative to the downside that remains?
-
-If the biggest downside is significant and cannot be protected, the answer is no. If it is unclear, the next move is to gather information, not to commit. Do not guess. The checks on assumptions and downsides are on [[wiki/Red Team/Red Teaming|Red Teaming]].
-
-## Emotion is one input
-
-Emotions carry information. They should not be the whole decision process. Fear may identify a risk. Excitement may identify an opportunity. Discomfort may be growth or a threat. Emotion can enter the decision. The failure is when emotion becomes the only input. Choosing only for comfort has negative expected value over a life. That claim is a model, not a measured finding.
-
-## Five ways it goes wrong
-
-| Failure | What it does |
-|---|---|
-| Waiting for certainty | Waits for a probability the situation will never give |
-| Comfort as strategy | Lets comfort choose the option |
-| Ignoring downside | Skips the question of ruin |
-| Overvaluing one outcome | Grades the decision type by a single result |
-| Information delay framed as neutral | Treats waiting as free |
-
-Any of those five is a signal to stop. A choice that only protects comfort, or that cannot name and protect its worst downside, is not a positional yes.
-
-## Stop predicting after a few replies
-
-Past two or three predicted replies, the variance grows too large to work with. Stop simulating the whole decision tree. Take the move that stays strong whatever the reply, and that you could afford to repeat. Score it by the options, information, and ruin it leaves for the next choice, not by a forecast of every choice after it. When the position later gets worse, [[wiki/Decision Making/Changing Decisions|Changing Decisions]] covers the review.
-
-## How to practice this
-
-1. Take one live decision where certainty is not available. Ask each option the five questions: future choices, earlier information, major downside, leverage or flexibility, easier later decisions. Notice which option answers yes most often.
-2. Before committing, write down the biggest downside of the option you favor. Ask whether it is unacceptable and whether it can be protected, reduced, or made reversible. If it is significant and cannot be protected, notice that the answer is no.
-3. If the downside is unclear, gather information instead of committing. Notice whether the waiting produces meaningful information or only delays the choice.
-4. Name the emotion attached to each option: fear, excitement, or discomfort. Notice whether that emotion is one input or the only input. A choice that only protects comfort is not a positional yes.
-5. Predict the replies to your move, but stop after two or three. Take the move that stays strong whatever the reply. Notice whether you could afford to repeat that move.
-6. After the decision, judge it by the position it left: options, information, and ruin for the next choice. Notice when you are grading it by a single result instead.
-
-## Related pages
-
-- [[wiki/Decision Making/Decision Making|Decision Making]]: the hub, and the loop that positional decisions sit inside.
-- [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]]: process versus one outcome.
-- [[wiki/Decision Making/Changing Decisions|Changing Decisions]]: when the position later gets worse.
-- [[wiki/Decision Making/Expectancy in Wicked Environments|Expectancy in Wicked Environments]]: why the calculation must be given as a range.
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: position improves in increments.
-- [[wiki/Red Team/Red Teaming|Red Teaming]]: checks on assumptions and downsides.
+This way of deciding is common in work where the stakes are high and the next result is uncertain. Some fields call the same idea positive or negative expectancy.
 
 ## Open questions
 
-Which current decisions should be reframed as positional rather than right or wrong?
+If I made this kind of choice for 20 more rounds, would I expect my position to be stronger or weaker?
+
+Which part of this decision is a feeling I should weigh as a value, and which part is only a wish to stay comfortable?
 
 ## Sources
 
-- Expected value as a definition: a kind of choice that pays on average across similar cases, even if this one fails.
-- Dixit & Pindyck, *Investment under Uncertainty* (1994): real options as the formal version of improving the next choice when the tree cannot be calculated. The book gives no protocol under the name positional decisions.
+- iCanStudy, "Positional Decisions and Expected Value", Higher ground decision-making. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Decision Making/Choice Throttling|Choice Throttling]]: narrowing options before you judge the position each remaining path would leave you in.
+- [[wiki/Decision Making/Changing Decisions|Changing Decisions]]: revisiting a first pick after new information changes the odds.
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: improving a position through many small moves rather than one leap.
+- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: checking that today's protected work actually improves the position your goals require.
