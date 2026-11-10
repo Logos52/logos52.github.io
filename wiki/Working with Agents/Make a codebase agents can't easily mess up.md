@@ -15,6 +15,7 @@ tags:
   - agents
   - codebase
   - architecture
+wedge_reviewed: true
 ---
 
 # Make a codebase agents can't easily mess up
@@ -38,17 +39,17 @@ Agents copy whatever they find in your code and take the shortest path to a work
 
 <figure>
 <svg viewBox="0 0 500 453" width="100%" style="max-width:500px" role="img" aria-labelledby="cb-paved-t">
-<title id="cb-paved-t">The paved path versus the shortcut. Above, Build the Lever: give agents tools rather than just markdown. Run one command instead of writing a throwaway script. It is attached to the path. An agent with a task reaches a good pull request along the paved path, one conventional way, which is the shortest route. Under it: each feature's code in a single folder. Below, a shortcut or workaround leaves the agent on a dashed route and is crossed out at a wall of three barriers: boundary enforced through the import graph, lint rule, and no code comments. In the corner, a gardener pulls bad patterns before they spread, shown as one bad pattern with three dashed copy boxes spreading behind it.</title>
-<rect x="100" y="8" width="300" height="50" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="110" y="28" style="font-weight:600">Build the Lever</text><text x="110" y="45">Give agents tools rather than just markdown</text></g>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="start"><text x="262" y="74">Run one command instead of</text><text x="262" y="89">writing a throwaway script</text></g>
-<line x1="250" y1="58" x2="250" y2="116" style="stroke:var(--mut,#666);stroke-width:1.5;stroke-dasharray:3 3"/>
+<title id="cb-paved-t">The paved path versus the shortcut. Above, Build the Lever: give agents tools instead of relying only on markdown. Run one command instead of writing a throwaway script. It is attached to the path. An agent with a task reaches a good pull request along the paved path, a single conventional path, which is the shortest route. Under it: each feature's code in a single folder. Below, a shortcut or workaround leaves the agent on a dashed route and is crossed out at a wall of three barriers: boundary enforced through the import graph, lint rule, and no code comments. In the corner, a gardener pulls bad patterns before they spread, shown as one bad pattern with three dashed copy boxes spreading behind it.</title>
+<rect x="100" y="8" width="300" height="62" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6)"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="110" y="26" style="font-weight:600">Build the Lever</text><text x="110" y="43">give agents tools instead of</text><text x="110" y="58">relying only on markdown</text></g>
+<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="start"><text x="262" y="88">Run one command instead of</text><text x="262" y="103">writing a throwaway script</text></g>
+<line x1="250" y1="70" x2="250" y2="116" style="stroke:var(--mut,#666);stroke-width:1.5;stroke-dasharray:3 3"/>
 <rect x="10" y="116" width="110" height="50" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
 <g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="20" y="136" style="font-weight:600">An agent</text><text x="20" y="153">with a task</text></g>
 <rect x="380" y="116" width="110" height="50" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
 <g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="390" y="136">Good pull</text><text x="390" y="153">request</text></g>
 <rect x="130" y="116" width="240" height="62" rx="8" style="fill:none;stroke:var(--accent,#2a6);stroke-width:3"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="middle"><text x="250" y="140" style="font-weight:600">Paved path</text><text x="250" y="157">One conventional way</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="middle"><text x="250" y="140" style="font-weight:600">Paved path</text><text x="250" y="157">a single conventional path</text></g>
 <path d="M120,141.0 L129,141.0" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="129.0,141.0 120.0,146.0 120.0,136.0" style="fill:var(--mut,#666)"/>
 <path d="M370,141.0 L379,141.0" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="379.0,141.0 370.0,146.0 370.0,136.0" style="fill:var(--mut,#666)"/>
 <g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="middle"><text x="250" y="196">Each feature's code in a single folder</text></g>
@@ -86,10 +87,10 @@ Agents copy whatever they find in your code and take the shortest path to a work
 ## The method
 
 1. **Keep the code worth copying.** Start by deleting the tech debt you already have, since agents will extend it otherwise. [Lauren](https://x.com/poteto/status/2102050467505430555)'s test is whether you would be happy if an agent copied any part of the codebase, and in [her post on slop](https://x.com/poteto/status/2109699980248408574) every nit, mistake and bad pattern you notice from agents should become a constraint.
-2. **Give each pattern one paved path.** There should be one conventional way to do common things, so that agents don't need to guess. Dune puts each feature's code in a single folder and has firm conventions about where code lives and how it is imported.
+2. **Give each pattern one paved path.** Common work should have a single conventional path, so that agents don't need to guess. Dune puts each feature's code in a single folder and has firm conventions about where code lives and how it is imported.
 3. **Enforce boundaries in code.** In the code editor whose agent window inspired Dune, slow code sometimes got imported into the thread that draws the interface. Dune now enforces that boundary in code through the import graph, because the interface thread must keep every task under the 16 milliseconds each frame gets at 60 frames per second. Lessons that used to live in a style guide or in review comments belong in the codebase itself.
 4. **Ban the patterns that excuse workarounds.** Dune bans code comments because agents were using them to justify a band-aid instead of solving the actual problem, and other agents then copied the comment and the workaround together.
-5. **Give agents tools rather than notes.** pstack, [Lauren](https://x.com/poteto/status/2094457600259842065)'s skill set, has a principle called Build the Lever: give agents tools rather than just markdown. For verification, that means a small command-line tool, so agents run one command instead of writing a throwaway script. She wants that tool to have these properties:
+5. **Give agents tools rather than notes.** pstack, [Lauren](https://x.com/poteto/status/2094457600259842065)'s skill set, has a principle called Build the Lever: give agents tools instead of relying only on markdown. For verification, that means a small command-line tool, so agents run one command instead of writing a throwaway script. She wants that tool to have these properties:
    1. Commands that are easy to combine.
    2. A dry-run option for anything destructive.
    3. Subcommands that reveal features gradually.

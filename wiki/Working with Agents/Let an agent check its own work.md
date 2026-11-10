@@ -16,6 +16,7 @@ tags:
   - agents
   - verification
   - proof
+wedge_reviewed: true
 ---
 
 # Let an agent check its own work
@@ -58,7 +59,6 @@ Make "done" mean the agent ran the software and shows you evidence of what happe
 <figcaption>The checking loop: setup first, then proof, review, sampling and a setup fix.</figcaption>
 </figure>
 
-
 ## Why it works
 
 Without a way to run the app, an agent keeps asking you to run it and click around, which is slow. With one, it reaches each feature through the screens as a user would and debugs on its own, so your testing no longer limits how much it can finish. The harder a stack is to debug and control, the harder it is to use agents productively.
@@ -84,7 +84,6 @@ Without a way to run the app, an agent keeps asking you to run it and click arou
 </svg>
 <figcaption>What the skill holds.</figcaption>
 </figure>
-
 <figure>
 <svg viewBox="0 0 480 306" width="100%" style="max-width:480px" role="img" aria-labelledby="cw-stakes-t">
 <title id="cw-stakes-t">Review by stakes. Low stakes, such as a documentation page, run with little review. Riskier changes get a demo or prototype. Changes that matter: a full-autopilot run spawns several verifier agents per pull request that click through the app like a user. You can tune that down to one because they use many tokens.</title>
@@ -116,7 +115,7 @@ Without a way to run the app, an agent keeps asking you to run it and click arou
 - [[wiki/Working with Agents/Give an agent a task without micromanaging it|Give an agent a task without micromanaging it]] covers the rest of the brief.
 - [[wiki/Working with Agents/Turn a repeated correction into a permanent fix|Turn a repeated correction into a permanent fix]] covers fixing the setup.
 - [[wiki/Working with Agents/Review less without losing control|Review less without losing control]] covers sampling and hold points.
-- [[wiki/Working with Agents/Handle a bug report - reproduce first|Handle a bug report: reproduce first]] covers the report-to-fix path.
+- [[wiki/Working with Agents/Handle a bug report - reproduce first|Handle a bug report - reproduce first]] covers the report-to-fix path.
 
 ## Sources
 

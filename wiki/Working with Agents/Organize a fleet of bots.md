@@ -15,6 +15,7 @@ tags:
   - agents
   - bots
   - organization
+wedge_reviewed: true
 ---
 
 # Organize a fleet of bots
@@ -100,8 +101,8 @@ One livestream speaker compared this shape to a coding agent, where an orchestra
 
 1. **Make one bot the front door.** A chief of staff bot takes your requests and passes them on, and it can create new bots too. Asked to spin up three bots that would help, a chief of staff typically creates something like an inbox manager and a scheduler. In [Lauren](https://www.youtube.com/watch?v=xZ5TEaleUdg)'s fleet she mostly talks to her chief of staff, which talks to an engineering lead bot whose job is to break tasks down and delegate rather than do the work.
 2. **Give each other bot one job and a name.** When a bot-making bot drew up a new bot on the livestream, it gave the bot one job so that it was a specialist and not a bot that tries to do everything. [Lauren](https://www.youtube.com/watch?v=xZ5TEaleUdg)'s bot-making bot gives her bots food names.
-3. **Group bots by project.** One speaker works out each bot's swim lane and then puts the bots for one initiative, such as website conversion, into a group chat where they work on it together. Initiatives start and stop, while the bots themselves are always on and keep getting better. In the same video as [Lauren](https://www.youtube.com/watch?v=xZ5TEaleUdg), the other presenter puts three bots with different roles, such as product and design, into one group chat so they can work out ideas together.
-4. **Keep one shared document as the source of truth.** One speaker said they would tell their bot-making bot to tell the whole team "that the notion is going to be the source of truth and every bot should keep it updated". By the last day, the team's shared documents held a task board, the database schema, the game's rules and a launch checklist written live. On screen, a bot that could not reach its page stalled mid-demo, so check that every bot can open the document.
+3. **Group bots by project.** One speaker works out each bot's swim lane and then puts the bots for one initiative, such as website conversion, into a group chat where they work on it together. Initiatives start and stop, while the bots themselves are always on and keep getting better. In the same video as [Lauren](https://www.youtube.com/watch?v=xZ5TEaleUdg), the other presenter puts three bots with different roles, such as product and design, into a single group chat so they can develop ideas with one another.
+4. **Keep one shared document as the source of truth.** One speaker said they would tell their bot-making bot to tell the whole team that the shared document is the source of truth, and that every bot should keep it updated. By the last day, the team's shared documents held a task board, the database schema, the game's rules and a launch checklist written live. On screen, a bot that could not reach its page stalled mid-demo, so check that every bot can open the document.
 5. **Check the fleet on a schedule.** [Lauren](https://www.youtube.com/watch?v=xZ5TEaleUdg)'s bot-making bot runs a fleet checkup that looks through all of her bots and their chat transcripts for a bot that keeps doing something it shouldn't. For each one it proposes a fix, such as a new skill, a new bot or a changed routine. It also reviews routines for waste, because a bot that wakes every 10 minutes burns usage. One livestream speaker runs routines only once or twice a day, finding more frequent ones noisy.
 
 ### A prompt to copy

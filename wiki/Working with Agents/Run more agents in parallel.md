@@ -15,11 +15,12 @@ tags:
   - agents
   - parallelism
   - cloud-agents
+wedge_reviewed: true
 ---
 
 # Run more agents in parallel
 
-Once one agent can take your prompt and mostly drive it to a change you can merge, you are free to run more of them at once. The way to scale is to move the agents to the cloud, where each gets its own computer, and to let a bot or coordinator agent hand out the work and supervise it, so that you are not opening every chat yourself. Verification has to scale with them, and on the last day of one livestream, a software factory took production down with a bad database query.
+Once one agent can take your request and mostly carry it through to a change you can merge, you are free to run more of them at once. The way to scale is to move the agents to the cloud, where each gets its own computer, and to let a bot or coordinator agent hand out the work and supervise it, so that you are not opening every chat yourself. Verification has to scale with them, and on the last day of one livestream, a software factory took production down with a bad database query.
 
 **Scope.** This follows [Lauren](https://x.com/poteto/status/2094457600259842065)'s setup for running agents in the cloud and the coordinator agents she described in a live Q&A, together with how speakers at the Grok Bot Galaxy livestream split work across bots. It fits anyone whose agents can already check their own work.
 
@@ -38,11 +39,11 @@ Once one agent can take your prompt and mostly drive it to a change you can merg
 
 <figure>
 <svg viewBox="0 0 520 671" width="100%" style="max-width:520px" role="img" aria-labelledby="pa-fan-t">
-<title id="pa-fan-t">Coordinator fan-out. You talk to your bot, which spawns a cloud agent instead of doing the work. In the corner, crossed out: local worktrees top out at about 10 agents. Inside the cloud, a coordinator agent does no work of its own and passes context to the agents under it, while 30 or so issues arrive at once. Your bot or the coordinator agent spawns cloud agents, and each gets its own computer. Verifier agents fan out under each one, and you can tune it from 10 verifiers down to 1. From the cloud, the path passes through an ask first gate before production. A separate faded panel, not connected to the gate: near the end of the livestream, a software factory had brought production down with a bad database query, and signups would reopen soon.</title>
+<title id="pa-fan-t">Coordinator fan-out. You talk to your bot, Tell your bot to hand the work to a cloud agent, rather than doing it itself. In the corner, crossed out: local worktrees top out at about 10 agents. Inside the cloud, a coordinator agent does no work of its own and passes context to the agents under it, while 30 or so issues arrive at once. Your bot or the coordinator agent spawns cloud agents, and each gets its own computer. Verifier agents fan out under each one, and you can tune it from 10 verifiers down to 1. From the cloud, the path passes through an ask first gate before production. A separate faded panel, not connected to the gate: near the end of the livestream, a software factory had brought production down with a bad database query, and signups would reopen soon.</title>
 <rect x="10" y="10" width="60" height="33" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
 <g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="20" y="30" style="font-weight:600">You</text></g>
 <rect x="100" y="10" width="200" height="67" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="110" y="30" style="font-weight:600">Your bot</text><text x="110" y="47">Spawns a cloud agent</text><text x="110" y="64">instead of doing the work</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="110" y="28" style="font-weight:600">Your bot</text><text x="110" y="43">hand the work to a</text><text x="110" y="57">cloud agent, rather than</text><text x="110" y="71">doing it itself</text></g>
 <path d="M70,26.5 L99,26.5" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="99.0,26.5 90.0,31.5 90.0,21.5" style="fill:var(--mut,#666)"/>
 <g style="opacity:.75"><rect x="330" y="10" width="180" height="67" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:5 4"/>
 <rect x="342" y="22" width="22" height="14" rx="2" style="fill:none;stroke:var(--ink,currentColor);stroke-width:1.2"/><path d="M353,36 L353,40 M347,40 L359,40" style="stroke:var(--ink,currentColor);stroke-width:1.2"/>
@@ -122,14 +123,14 @@ Running agents in local copies of the repository, which git calls worktrees, use
 
 1. **Start once one agent can mostly land its work.** [Lauren](https://x.com/poteto/status/2094457600259842065) raises parallel agents once a verification skill has helped land a few pull requests, because that is what frees you to run more.
 2. **Move the agents to the cloud.** Set up a cloud environment for your repository; when you first do, an agent helps you configure it. If your local development setup is already good, this should not be a big lift.
-3. **Make a bot or coordinator the manager.** Tell your bot to spawn a cloud agent instead of doing the work. [Lauren](https://www.youtube.com/watch?v=MN9dGgmLyso&t=2616s) also uses coordinator agents that run in the cloud, do no work of their own and pass context to the agents under them. When 30 or so issues arrive at once, the coordinator works out how to distribute them across its agents.
+3. **Make a bot or coordinator the manager.** Tell your bot to hand the work to a cloud agent, rather than doing it itself. [Lauren](https://www.youtube.com/watch?v=MN9dGgmLyso&t=2616s) also uses coordinator agents that run in the cloud, do no work of their own and pass context to the agents under them. When 30 or so issues arrive at once, the coordinator works out how to distribute them across its agents.
 4. **Split the work into parallel pieces.** On the livestream, one speaker tagged several design fixes and started a separate agent on each, which suits polish work where you have many small changes in your head. Another had one bot split 200 companies into batches of 40 and research them in parallel. That speaker also keeps one bot per function, such as email or outbound. [Lauren](https://www.youtube.com/watch?v=MN9dGgmLyso&t=3109s) runs the equivalent of more than 10 chiefs of staff, each working on a different area, such as the desktop app's performance or bugs that users report. For related issues, [Lauren](https://www.youtube.com/watch?v=MN9dGgmLyso&t=2616s) warns that one agent per task loses the thread between them and duplicates work, so she gives them to one coordinator.
 5. **Fan out the verification.** A swarm skill sends many cloud agents to run your verification skill at once, so you can confirm a performance win with a big enough sample or fuzz the app for regressions. [Lauren](https://www.youtube.com/watch?v=MN9dGgmLyso&t=3170s)'s full autopilot spawns several verifier agents for each pull request, which uses a lot of tokens, though you can tune it from 10 verifiers down to 1.
 6. **Keep a person on production.** Near the end of the livestream, a speaker reported that a software factory had brought production down with a bad database query, and signups would reopen soon. Another speaker, on day 2, sets deploying to production and using internal systems to ask first rather than run automatically.
 
 ### A prompt to copy
 
-> Spawn a cloud agent for each of these tasks instead of doing them yourself. Pass each one the context it needs, have it verify its change in the running app and show me a video and screenshots as proof. Ask me before anything deploys to production.
+> Spawn a cloud agent for each of these tasks instead of doing them yourself. Pass each one the context it needs, have it verify its change in the running app and send back a video and screenshots as evidence. Ask me before anything deploys to production.
 
 ## Signals and failure points
 

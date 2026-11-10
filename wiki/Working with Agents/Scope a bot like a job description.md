@@ -14,6 +14,7 @@ aliases:
 tags:
   - agents
   - bots
+wedge_reviewed: true
 ---
 
 # Scope a bot like a job description
@@ -78,7 +79,7 @@ A bot works best with one job, written down the way you would describe a role fo
 
 ## Why it works
 
-A bot's description works almost like a system prompt, which some people call the bot's soul, and it affects how the bot works. One speaker described scoping as identifying a new teammate you need help from, and said tight scoping keeps each bot specialized enough to get its piece of work done. That, the speaker said, is how you get the most efficiency out of a team of bots. Another speaker gives a bot very explicit instructions because that makes it more consistent.
+A bot's description works almost like a system prompt, which some people call the bot's soul, and it affects how the bot works. One speaker described scoping as identifying a new teammate you need help from, and said tight scoping keeps each bot specialized enough to get its piece of work done. That, the speaker said, is how you get the most efficiency out of a team of bots. Another speaker gives a bot very detailed instructions, because that makes its work more consistent.
 
 ## The method
 

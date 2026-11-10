@@ -14,6 +14,7 @@ aliases:
 tags:
   - agents
   - design
+wedge_reviewed: true
 ---
 
 # Design a screen or feature with bots
@@ -38,7 +39,7 @@ Designing with bots means making more versions of an idea real, sooner, and keep
 
 <figure>
 <svg viewBox="0 0 520 730" width="100%" style="max-width:520px" role="img" aria-labelledby="ds-loop-t">
-<title id="ds-loop-t">The design loop with bots. Seven steps, each with a dashed arrow back to a bar labelled you keep the choice. 1. Cut the vocabulary first: many new terms, then kept coming back to five. 2. Frame each surface with questions: who is this? What are they doing? How much do I need to know? 3. Explore widely, then pick by a criterion: initials, emojis, pixel art, watercolor and clay, and the one ticked is consistent construction with controlled variations. 4. Make options real before deciding: three live prototypes, and none shipped exactly as explored. 5. Tune with the real asset: a localhost playground around the actual animation spec file, with timing, springs, distance, scale and easing by hand, and the feedback bounce is too exaggerated. 6. Build one, let the bot scale it: one component becomes 20 starter-bot cards. 7. Take things away: did this help someone delegate, or did it give them one more thing to manage?</title>
+<title id="ds-loop-t">The design loop with bots. Seven steps, each with a dashed arrow back to a bar labelled you keep the choice. 1. Cut the vocabulary first: many new terms, then kept coming back to five. 2. Frame each surface with questions: who is this? What are they doing? How much do I need to know? 3. Explore widely, then pick by a criterion: initials and emoji through pixel art, watercolor, and clay, and the one ticked is consistent construction with controlled variations. 4. Make options real before deciding: three live prototypes, and none shipped exactly as explored. 5. Tune with the real asset: a localhost playground around the actual animation spec file, with timing, springs, distance, scale and easing by hand, and the feedback bounce is too exaggerated. 6. Build one, let the bot scale it: one component becomes 20 starter-bot cards. 7. Take things away: did this help someone delegate, or did it give them one more thing to manage?</title>
 <rect x="10" y="10" width="384" height="64" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
 <g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="20" y="30" style="font-weight:600">1. Cut the vocabulary first</text></g>
 <rect x="24" y="42" width="130" height="22" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:4 3"/>
@@ -54,7 +55,7 @@ Designing with bots means making more versions of an idea real, sooner, and keep
 <rect x="24" y="210" width="70" height="24" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:4 3"/>
 <g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="middle"><text x="59" y="226">Initials</text></g>
 <rect x="96" y="210" width="70" height="24" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:4 3"/>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="middle"><text x="131" y="226">Emojis</text></g>
+<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="middle"><text x="131" y="226">emoji</text></g>
 <rect x="168" y="210" width="70" height="24" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:4 3"/>
 <g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="middle"><text x="203" y="226">Pixel art</text></g>
 <rect x="240" y="210" width="70" height="24" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:4 3"/>
@@ -107,13 +108,13 @@ Designing with bots means making more versions of an idea real, sooner, and keep
 
 ## Why it works
 
-As making gets easier, a designer can explore more directions, react sooner and let an idea show what it wants to become. The designer's guide says bots haven't made design a one-shot process; they have made the loop tighter, so more attention goes to the judgment between versions.
+As making gets easier, a designer can try more directions, respond sooner, and let a concept reveal its own direction. The designer's guide says bots haven't made design a one-shot process; they have made the loop tighter, so more attention goes to the judgment between versions.
 
 ## The method
 
-1. **Cut the vocabulary first.** The team started by asking which concepts a person actually needs, and kept coming back to five. Everything else could stay beneath the interface until the user had a reason to care about it.
+1. **Cut the vocabulary first.** The team began by asking which ideas a person really has to learn, and kept coming back to five. Everything else could remain hidden in the UI until there was a reason for the user to care.
 2. **Frame each surface with questions.** For how bots appear in the product, the team named three questions to answer at once: who is this, what are they doing, and how much do I need to know?
-3. **Explore widely, then pick by a criterion.** For avatars, the team studied styles from initials and emojis to pixel art, watercolor and clay. Watercolor and clay had too much detail at sidebar scale, and simpler systems often left bots looking interchangeable, so the team kept a consistent construction with controlled variations. For the bot's own computer, they tried four arrangements and found that the more prominent the computer was, the more the product encouraged users to supervise it. They settled on three levels of access. User research showed people wanted step-by-step detail mainly for reassurance, so the avatar's motion now gives the first reassurance that the bot is active, and hovering shows its current action.
+3. **Explore widely, then pick by a criterion.** For avatars, the team studied styles ranging from initials and emoji through pixel art, watercolor, and clay. Watercolor and clay had too much detail at sidebar scale, and simpler systems often left bots looking interchangeable, so the team kept a consistent construction with controlled variations. For the bot's own computer, they tried four arrangements and found that the more prominent the computer was, the more the product pushed users into a supervisory role. They settled on three levels of access. User research showed people wanted step-by-step detail mainly for reassurance, so the avatar's motion now gives the first reassurance that the bot is active, and hovering shows its current action.
 4. **Make options real before deciding.** One designer keeps a bot just for experiments. Asked for ways to reach a bot from anywhere, it built three live prototypes and delegated motion and implementation questions to other bots. None shipped exactly as explored; the point was to make three versions real and learn from each. For code, [Lauren](https://x.com/poteto/status/2097732320606507506) asks an agent to prototype a few options and take screenshots or videos for her to choose from, as [[wiki/Working with Agents/Plan a piece of work with an agent|Plan a piece of work with an agent]] describes.
 5. **Tune with the real asset.** For a short animation, the designer had a motion bot build a localhost playground around the actual animation spec file, not a recreation from a screenshot. The designer adjusted timing, springs, distance, scale and easing by hand, and also gave short comparative feedback such as "Bounce is too exaggerated."
 6. **Build one, let the bot scale it.** For 20 starter-bot cards, the designer built one auto-layout component in Figma, a single card template, and had a production bot copy it and fill it in for the other cards. The bot works through the Figma MCP, a connection that lets it read the real Figma file's exact measurements instead of guessing. It reads positions, sizes, spacing, type and component structure rather than eyeballing them. An existing frame or component is the source of truth.

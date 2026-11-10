@@ -15,6 +15,7 @@ tags:
   - agents
   - debugging
   - bug-reports
+wedge_reviewed: true
 ---
 
 # Handle a bug report: reproduce first
@@ -37,7 +38,7 @@ Most bug reports are vague, and a fix written before anyone has seen the bug is 
 
 <figure>
 <svg viewBox="0 0 480 563" width="100%" style="max-width:480px" role="img" aria-labelledby="bg-path-t">
-<title id="bg-path-t">The bug path, top to bottom. A report arrives from Slack or game feedback. Triage at intake merges duplicates into one issue, so 20 reports become 1 issue. Beside it, a dashed box: a second bot was instructed to check the triage and the understanding before full autopilot. The agent restates the problem and, if you worked on that area recently, recalls that work, then reproduces the bug locally on its own computer. A dashed loop on that step says each steer becomes a skill: work locally, use the prepared cloud environment. Then three branches. Already fixed on the main branch: ship a new build. Reproduces: file it in the tracker, then fix it, then prove the fix with screenshots of the bug and the fix, light and dark mode, and a very long name the engineer steered the bot onto. Does not reproduce: a dashed branch to a question mark, because no source covers this.</title>
+<title id="bg-path-t">The bug path, top to bottom. A report arrives from Slack or game feedback. Triage at intake merges duplicates into one issue, so 20 reports become 1 issue. Beside it, a dashed box: A second bot was told to review the triage and confirm the feedback had been understood, before the bots moved to fixing on full autopilot. The agent restates the problem and, if you worked on that area recently, recalls that work, then reproduces the bug locally on its own computer. A dashed loop on that step says each steer becomes a skill: work locally, use the prepared cloud environment. Then three branches. Already fixed on the main branch: ship a new build. Reproduces: file it in the tracker, then fix it, then prove the fix with screenshots of the bug and the fix, light and dark mode, and a very long name the engineer steered the bot onto. Does not reproduce: a dashed branch to a question mark, because no source covers this.</title>
 <rect x="40" y="8" width="300" height="50" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
 <g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="50" y="28" style="font-weight:600">Report arrives</text><text x="50" y="45">Slack, game feedback</text></g>
 <rect x="40" y="84" width="300" height="67" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
@@ -49,8 +50,8 @@ Most bug reports are vague, and a fix written before anyone has seen the bug is 
 <rect x="40" y="270" width="300" height="50" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6)"/>
 <g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="50" y="290" style="font-weight:600">Reproduce locally</text><text x="50" y="307">on the agent's own computer</text></g>
 <path d="M190.0,244 L190.0,268" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="190.0,268.0 185.0,259.0 195.0,259.0" style="fill:var(--mut,#666)"/>
-<rect x="354" y="76" width="124" height="118" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:5 4"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="364" y="96" style="font-weight:600">Instructed:</text><text x="364" y="113">check the triage</text><text x="364" y="130">and the</text><text x="364" y="147">understanding</text><text x="364" y="164">before full</text><text x="364" y="181">autopilot</text></g>
+<rect x="354" y="76" width="124" height="136" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:5 4"/>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="364" y="94" style="font-weight:600">told to</text><text x="364" y="109">review the triage</text><text x="364" y="124">and confirm the</text><text x="364" y="139">feedback had been</text><text x="364" y="154">understood, before</text><text x="364" y="169">the bots moved to</text><text x="364" y="184">fixing on full</text><text x="364" y="199">autopilot</text></g>
 <path d="M340,117.5 L353,117.5" style="stroke:var(--mut,#666);stroke-width:1.5;stroke-dasharray:5 4"/>
 <path d="M340,282 L352,282 L352,308" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5;stroke-dasharray:5 4"/>
 <path d="M352,308 L341,308" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5;stroke-dasharray:5 4"/><polygon points="341.0,308.0 350.0,303.0 350.0,313.0" style="fill:var(--mut,#666)"/>
@@ -73,16 +74,15 @@ Most bug reports are vague, and a fix written before anyone has seen the bug is 
 <figcaption>The bug path, from report to a fix with its proof.</figcaption>
 </figure>
 
-
 ## Why it works
 
-The reason given on the livestream, said about letting bots fix bugs, is that "only if they can actually reproduce the bug can we trust that the agent understands" the problem. This page takes that to mean the fix waits until the bug is in front of the agent. Reproducing also catches reports that need no fix at all, such as a bug that was already fixed on the main branch and only needs a new release.
+The reason given on the livestream, said about letting bots fix bugs, is that a fix is trustworthy only once the agent has actually reproduced the bug and shown it understands the problem. This page takes that to mean the fix waits until the bug is in front of the agent. Reproducing also catches reports that need no fix at all, such as a bug that was already fixed on the main branch and only needs a new release.
 
 ## The method
 
 1. **Triage at intake.** Have a bot read every report before a person does. Two setups show what that bot can do:
    1. At the 2026-10-15 workshop, the bot merged duplicates into an existing issue, so 20 reports of one bug became one issue, and the tracker stayed the record.
-   2. On the livestream's third day, the new bot was called a triage bot in speech, though its on-screen label read playtester. It went through the game's feedback and found top-priority blank screens. It was told to reproduce each bug and file it in Notion only once the bug was confirmed. A second bot was told to check that the triage was done correctly and that the feedback was understood, before the bots moved to fixing on full autopilot. That check was given as an instruction, and the stream did not show it running.
+   2. On the livestream's third day, the new bot was called a triage bot in speech, though its on-screen label read playtester. It went through the game's feedback and found top-priority blank screens. It was told to reproduce each bug and file it in Notion only once the bug was confirmed. A second bot was told to review the triage and confirm the feedback had been understood, before the bots moved to fixing on full autopilot. That check was given as an instruction, and the stream did not show it running.
 2. **Restate the report and bring the history.** Ask the agent to say in plain words what it thinks the underlying problem is, so you catch a red herring before any code is written. If you worked on that area recently, follow [Lauren](https://x.com/poteto/status/2097732320606507506)'s habit of letting the agent recall that work before it reads the new report.
 3. **Reproduce before fixing, in the right place.** The agent tries to reproduce the bug on its own computer, and you file a ticket only once the bug is confirmed. In one demo, a reproduction bot first tried a public demo site, so the speaker told it to do everything locally and save that as a skill. A second skill then pointed it at the existing cloud environment, where dependencies and secrets were already set up.
 4. **Fix only what reproduced, and check the main branch first.** [Lauren](https://youtu.be/Zc07HI9Ppxk?t=1675)'s reproduction agent once reported that a bug reproduced but was already fixed on the main branch, so the team only had to ship a new build. When the bug clearly reproduces and is still there, the agent puts up the fix.

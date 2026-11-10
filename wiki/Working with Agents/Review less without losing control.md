@@ -16,6 +16,7 @@ tags:
   - agents
   - review
   - approval
+wedge_reviewed: true
 ---
 
 # Review less without losing control
@@ -81,7 +82,6 @@ Once agents land more work than you can read, checking every line stops being po
 </svg>
 <figcaption>The review split. A short list of actions waits for your yes, and everything else runs and leaves evidence you check afterwards.</figcaption>
 </figure>
-
 
 ## Why it works
 

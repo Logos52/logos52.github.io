@@ -15,6 +15,7 @@ tags:
   - agents
   - routines
   - automation
+wedge_reviewed: true
 ---
 
 # Set up a routine or outer loop
@@ -85,7 +86,7 @@ A bot that only works when you message it still depends on you to notice every p
 3. **Let cloud agents do the code.** For the last mile, such as building a feature or fixing a bug customers reported, the bot hands the task to a coding agent in the cloud. [Lauren](https://x.com/poteto/status/2107510472601985336)'s daily loop watches a feedback channel, files a ticket, has a cloud agent reproduce and fix the issue, and pings her on Slack, then rebases and auto-merges the PR after 1 hour unless she requests changes.
 4. **Filter before acting.** When one livestream speaker set up an automated workflow on player feedback, they told it to drop anything that isn't about the game or that contains profanity or odd links, and to watch for prompt injection, since an AI is reviewing user feedback. Its first stage only triaged, reproduced and filed tickets, with fixing saved for later.
 5. **Buffer some findings.** One of [Lauren](https://www.youtube.com/watch?v=MN9dGgmLyso&t=2863s)'s routines looks for known bad patterns in her code and, instead of fixing each one, appends it to a document. Every couple of days she reads it and sees that several finds are the same problem, and she finds that buffer can work better than spawning many agents to fix each find.
-6. **Keep checks on what runs while you sleep.** [Lauren](https://www.youtube.com/watch?v=MN9dGgmLyso&t=3109s)'s agents merge their own pull requests overnight, after verifier agents test each change, and she reviews the history in the morning. Separately, near the end of the livestream, a speaker reported that a software factory had brought production down with a bad database query; the stream does not say what triggered the change. A routine that wakes up very often also burns usage, so match how often it runs to the job.
+6. **Keep checks on what runs while you sleep.** [Lauren](https://www.youtube.com/watch?v=MN9dGgmLyso&t=3109s)'s agents merge their own pull requests overnight, after verifier agents test each change, and she reviews the history in the morning. Separately, late in that livestream, a speaker said a software factory's bad database query had taken production down; the stream does not say what triggered the change. A routine that wakes up very often also burns usage, so match how often it runs to the job.
 
 ### A prompt to copy
 
