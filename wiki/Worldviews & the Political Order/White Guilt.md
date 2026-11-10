@@ -1,100 +1,109 @@
 ---
 title: "White Guilt"
-description: "A Basic Logic video ranks the arguments that European history is uniquely evil on a tier list, and accepts only one reason for shame, ingratitude."
 type: concept
-status: developing
+status: locked
 created: 2026-08-16
-updated: 2026-10-21
-method: fresh-rewrite-2026-10-21
-written-by: grok
-source-count: 2
+updated: 2026-09-11
+method: plain-rewrite-2026-09-11
+prose-model: opus
+locked: "2026-08-23 by the owner; first pass Fable under The Generator - Selfhood v2, second pass the Rewrite Prompt on a fresh head"
 tags:
   - politics
   - argument
   - history
-wedge_reviewed: true
 ---
 
 # White Guilt
 
-White guilt is the belief that European history and heritage are uniquely evil, so that people of European descent owe a moral debt for them. [Basic Logic](https://www.youtube.com/watch?v=QtgmBazTi5Q) takes the usual arguments for that belief one at a time and ranks each by how well it holds up. His test is the same throughout. An argument for guilt needs Europeans to have done something others did not, and on almost every count he finds the reverse.
+People of European descent are said to owe a debt for what was done in the past in their name. The debt is usually treated as already proven, so the arguments that are supposed to prove it rarely get stated out loud. Six of them are in circulation. For each one the question is whether a debt owed today actually follows from it.
 
-## The four tiers
+All six need the same thing to be true: that what Europe did, or what Europe is now, has no match anywhere else. The case depends on that requirement, because something every society has done cannot make one society owe for it. A second objection holds on its own: guilt does not pass from parents to children. Even a crime with no match anywhere would not put a debt on the people who happen to share an ancestry with the people who committed it. Each of the six is tested on its claim that something about Europe has no match elsewhere.
 
-Basic Logic grades on four tiers. Strong is for arguments with merit and flawed is for arguments that leap too far. Negative IQ is for arguments that fail basic logic, and abyss is for arguments he believes are made out of malice. The tier tells you why he rejects an argument as well as that he rejects it.
+## Core takeaways
 
-<figure>
-<svg viewBox="0 0 520 326" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-wg-t">
-<title id="wv-wg-t">Basic Logic's tier list. How he grades the arguments. Columns: Tier, What the tier is for, Arguments he puts there. Strong: Arguments with merit: Ingratitude. Flawed: Arguments that leap too far: The killing of native peoples. Negative IQ: Arguments that fail basic logic: Slavery, Colonialism. Abyss: Arguments he believes are made out of malice: Systemic oppression and white privilege, White people are inherently racist, Guilt for one particular atrocity.</title>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px" text-anchor="start"><text x="20" y="26" style="font-weight:600">Basic Logic's tier list</text></g>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="end"><text x="500" y="26">How he grades the arguments</text></g>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="start"><text x="28" y="58">Tier</text></g>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="start"><text x="128" y="58">What the tier is for</text></g>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="start"><text x="308" y="58">Arguments he puts there</text></g>
-<rect x="20" y="68" width="480" height="31" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="30" y="89" style="font-weight:600">Strong</text></g>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:13px" text-anchor="start"><text x="128" y="89">Arguments with merit</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="308" y="89">Ingratitude</text></g>
-<line x1="120" y1="68" x2="120" y2="99" style="stroke:var(--rule2,#999);stroke-width:1"/>
-<line x1="300" y1="68" x2="300" y2="99" style="stroke:var(--rule2,#999);stroke-width:1"/>
-<rect x="20" y="105" width="480" height="48" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="30" y="126" style="font-weight:600">Flawed</text></g>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:13px" text-anchor="start"><text x="128" y="126">Arguments that leap</text><text x="128" y="143">too far</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="308" y="126">The killing of native peoples</text></g>
-<line x1="120" y1="105" x2="120" y2="153" style="stroke:var(--rule2,#999);stroke-width:1"/>
-<line x1="300" y1="105" x2="300" y2="153" style="stroke:var(--rule2,#999);stroke-width:1"/>
-<rect x="20" y="159" width="480" height="48" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="30" y="180" style="font-weight:600">Negative IQ</text></g>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:13px" text-anchor="start"><text x="128" y="180">Arguments that fail</text><text x="128" y="197">basic logic</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="308" y="180">Slavery</text><text x="308" y="197">Colonialism</text></g>
-<line x1="120" y1="159" x2="120" y2="207" style="stroke:var(--rule2,#999);stroke-width:1"/>
-<line x1="300" y1="159" x2="300" y2="207" style="stroke:var(--rule2,#999);stroke-width:1"/>
-<rect x="20" y="213" width="480" height="99" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="30" y="234" style="font-weight:600">Abyss</text></g>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:13px" text-anchor="start"><text x="128" y="234">Arguments he believes</text><text x="128" y="251">are made out of malice</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="308" y="234">Systemic oppression and</text><text x="308" y="251">white privilege</text><text x="308" y="268">White people are inherently</text><text x="308" y="285">racist</text><text x="308" y="302">Guilt for one particular atrocity</text></g>
-<line x1="120" y1="213" x2="120" y2="312" style="stroke:var(--rule2,#999);stroke-width:1"/>
-<line x1="300" y1="213" x2="300" y2="312" style="stroke:var(--rule2,#999);stroke-width:1"/>
-</svg>
-<figcaption>Basic Logic's four tiers, from strong down to abyss, with the arguments for white guilt as he grades them. The only reason for shame he grades strong is ingratitude.</figcaption>
-</figure>
+- Six arguments are in circulation for the debt. Every one of them needs what Europe did, or what Europe is now, to have no match anywhere else.
+- Every society practised slavery, and colonialism was also universal. What had no match elsewhere was abolition and the handing back of the territories, and both count in favour of the civilization being accused.
+- The argument about the extermination of native peoples partly holds. The general account is false, and particular deliberate episodes inside it are real.
+- The built-in advantage argument names no law and no mechanism that produces the advantage today. The movement of people runs toward these societies, and it comes from the populations the argument says these societies are built to hold down.
+- Where preference for one's own group is measured across populations, the group the built-in racism claim is about comes out lowest rather than highest.
+- A second objection defeats every version on its own, because guilt does not pass from parents to children.
 
-## Slavery and colonialism
+## The slavery argument
 
-The slavery argument lands in negative IQ, because every society practised slavery and the Atlantic trade was not the largest even in its own day. He adds that Europeans bought people whom African kings had already enslaved, rather than raiding for them. The one unique thing about European slavery, in his reading, is that Europeans ended it. He says they were the first to call it a moral evil, abolished it at home and then spent blood and money suppressing it abroad, which leads him to say Europeans should be honoured for that history.
+Every society practised slavery, and the institution is older than any of the societies now being accused. The details make the uniqueness claim weaker rather than stronger. The Atlantic trade was not the largest in history and not the largest of its own era. Most of the people sold into it were bought from sellers who had already enslaved them, rather than seized directly.
 
-Colonialism gets the same grade for a similar reason. He says every society tried to conquer the world and only Europeans managed it, so the only unique feature is scale. He adds that Europeans then gave their conquests back, which no other conqueror did. He also says colonialism now serves corrupt governments as an excuse, and his example is the joke that Zimbabwe used electricity for light before it used candles.
+The one thing that was unusual counts in favour of the civilization being accused. Abolition started inside that civilization, was imposed at home at a real cost, and was then forced on other societies by naval power for decades. If being unique is the standard the argument sets, the unique part is the ending of slavery.
 
-## The killing of native peoples
+## The colonialism argument
 
-The argument that Europeans wiped out native peoples is the one historical argument he grades flawed rather than worthless, and he explains why. He says there were real tragedies, so the argument is not delusional, but that its mistake is to present a population collapse he says was caused mainly by disease as deliberate extermination. He says that where native peoples had built a civilisation, as in Latin America, they mixed with Europeans and produced today's Hispanics. The conquest was also a joint effort with locals who resented the Aztecs, which, in his account, is how about 500 conquistadors could bring down an empire.
+Colonialism was also universal. Here the uniqueness claim has some support: the scale had no precedent, and no other civilization managed anything like it. Wanting to colonize was common, and succeeding at it was not.
 
-## Present-day arguments
+The claim fails on what came after. The territories were handed back, mostly within a generation and mostly without anyone forcing it by war, and that handing back is the part with no match elsewhere.
 
-Basic Logic puts the charge of systemic oppression and white privilege in abyss, the lowest tier. His first reason is that nobody can point to a current law that favours whites. His second is that people vote with their feet. If European societies were so cruel to non-whites, so many non-whites would not work this hard to move there.
+The argument has also moved away from its history. It now mostly serves as an explanation governments give for conditions that arose fifty years after the withdrawal, in places where the ability to run things declined after the handover and not before it.
 
-The charge that white people are inherently racist also lands in abyss. In his words, studies consistently show white people with the lowest preference for their own group of any population. He reads that charge as a lie meant to demoralise a culture that runs on guilt and trust.
+## The extermination of native peoples
 
-Guilt for one particular atrocity is the last historical argument, and he grades it abyss as well. Assigning racial guilt for one European atrocity ignores that most of its victims were white and that other societies committed their own. He notes it was not the largest killing even of its own time, and that Genghis Khan killed somewhere between 10 and 20% of the human population. What sets Europe apart here, he says, is that it built institutions of accountability to prevent a repeat, where other civilisations deny their crimes.
+This argument is partly true, and the true part should be accepted.
 
-## The one argument he accepts
+As a general account it does not hold. Where the native population had built a settled civilization, it merged with the arriving one rather than disappearing, and the people descended from both are the largest group in Latin America today. The deaths were catastrophic, and most of them came from disease rather than from anyone's decision.
 
-The only reason for shame he grades strong is ingratitude. In his view, Europeans inherited the richest and safest civilisation in history and are now taking it apart while apologising for it. He contrasts that with the poorest countries, whose people stay fiercely nationalist. His closing point is that civilisations fall when their heirs stop believing they are worth defending, rather than because outsiders criticise them.
+Particular episodes were deliberate, and nothing in the general account answers for them. The argument fails as an account of what happened in general and still points at real events inside it. That result differs from the one the slavery and colonialism arguments got.
+
+## Where the three historical arguments land
+
+All three of the historical arguments come out the same way. In each case the part that stood out was the ending of the practice, the giving back, and the part of the record that was kept, rather than the crime.
+
+The other three arguments do not compare history at all. They make claims about the present, and a claim about the present can be checked against the present.
+
+## The built-in advantage argument
+
+The claim is that these societies are constructed, by design, to move wealth and standing from one population to another.
+
+The claim can be tested, and it fails the test. Asked which law or which mechanism produces the advantage today, the argument does not name one. People's choices also go against it. The movement of people is overwhelmingly toward these societies, and it comes from the populations the argument says these societies are built to hold down. That does not fit the claim as stated.
+
+## The built-in racism argument
+
+This argument presents racism as a disposition rather than a policy, which means it can be measured. Where preference for one's own group is measured across populations, the group the claim is about comes out lowest rather than highest. The measurement that was supposed to prove the claim gives the opposite result.
+
+## Guilt for one atrocity
+
+This argument names one historical crime and hands responsibility for it to everyone who shares an ancestry with the people who did it. Two things defeat it. First, most of the people killed in the episode usually named shared that ancestry themselves, so the claim that the crime was one race's act against another does not match the casualty figures. Second, atrocity is not rare, because every civilization large enough to leave a record has one in that record.
+
+What was unusual again counts in favour of the civilization being accused. Writing the crime down, prosecuting it, and building permanent memorials rather than denying it has no consistent match elsewhere. A civilization that builds the means to stop it happening again is being prosecuted on evidence it collected and kept itself.
+
+## What the six add up to
+
+Five of the six fail, and they fail in two ways.
+
+Slavery, colonialism, and guilt for one atrocity all depend on comparing Europe with other societies. In each case the comparison comes out in Europe's favour, because the thing that stands out is the correction and not the crime.
+
+Built-in advantage and built-in racism make no comparison with history at all. Each is stated in a form that can be checked against the present, so the check can be made, and it returns the opposite of the claim.
+
+One argument partly holds, by pointing at real episodes inside a general account that is false.
+
+None of the six establishes a debt owed today. A debt that needs uniqueness fails against a record that every society shares. A debt that needs descent fails against the second objection, which is that guilt does not pass from parents to children.
+
+## How to practice this
+
+1. When you meet one of these arguments, ask what it says has no match anywhere else. Notice that a practice every society shared cannot make one society owe for it.
+2. Ask when the practice being named ended and who ended it. Notice that abolition started inside the civilization being accused, at a real cost at home.
+3. For the colonialism argument, ask what happened after the colonies. Notice that the territories were handed back, mostly within a generation and mostly without war.
+4. When an advantage is said to be built in, ask which law or which mechanism produces it today. Notice whether the argument names one.
+5. When racism is presented as a disposition, look for the measurement. Notice which group comes out lowest when preference for one's own group is measured.
+6. Apply the second objection to any argument that survives the first. Ask whether guilt is being passed from parents to children.
 
 ## Related pages
 
-- [[wiki/Worldviews & the Political Order/The Indictment of Europe|The Indictment of Europe]]
-- [[wiki/Worldviews & the Political Order/Racial Egalitarianism - The Disparity Inference|Racial Egalitarianism - The Disparity Inference]]
-- [[wiki/Worldviews & the Political Order/Racial Fatigue|Racial Fatigue]]
-- [[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]]
+- [[wiki/Worldviews & the Political Order/The Indictment of Europe|The Indictment of Europe]]: the same three historical charges argued as a prosecution, not as a present debt.
+- [[wiki/Worldviews & the Political Order/Racial Egalitarianism - The Disparity Inference|Racial Egalitarianism - The Disparity Inference]]: the premise the systemic-advantage argument requires and does not supply.
+- [[wiki/Worldviews & the Political Order/Racial Fatigue|Racial Fatigue]]: what sustained demand for this debt produces in the people it is demanded from.
+- [[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]]: why a universal practice cannot ground a particular obligation.
 
 ## Open questions
 
-- The notes give no study or source for the in-group preference claim, the trade sizes or the Genghis Khan range. A second video by the same channel gives the Mongol figure as 15%.
-- The notes do not say which atrocity the "one atrocity" argument names. The transcript text is garbled at that point, so it is left unnamed.
-- The old page was marked locked by Wedge on 2026-08-23. This draft does not replace it until he says so.
+Where specific deliberate episodes sit inside a false general account, what does the true remainder amount to, and to whom, if anyone, is it owed?
 
 ## Sources
 
-- All sections: Basic Logic, *White Guilt: All Arguments Ranked & Debunked*, 2026-02-06, <https://www.youtube.com/watch?v=QtgmBazTi5Q>.
-- Mongol 15% figure in Open questions: Basic Logic, *Europeans Owe You Nothing*, 2026-05-18, <https://www.youtube.com/watch?v=yZJoK0Jz7qY>.
+*White Guilt: All Arguments Ranked & Debunked*, 2026-02-06. <https://www.youtube.com/watch?v=QtgmBazTi5Q>. Supplied the six arguments and the uniqueness structure. The source's closing relocation of the debt was cut: responsibility does not transmit by descent.
