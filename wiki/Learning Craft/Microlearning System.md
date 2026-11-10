@@ -1,87 +1,91 @@
 ---
 title: "Microlearning System"
 type: system
-status: developing
-created: 2026-06-11
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
-written-by: grok
-model: grok
-source-count: 9
+status: draft
+created: 2026-05-08
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "When you cannot sit for a long study block, cycle Prime, Map, Explore, Dive, and Consolidate through short pockets of time, then make sure the fragments get retrieved."
 tags:
-  - microlearning
+  - learning-systems
+  - scheduling
   - encoding
-  - retrieval
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # Microlearning System
 
-A microlearning system is a way of studying in the free periods of five to thirty minutes that come up during a day. It has one requirement: each short piece of study has to be connected to an overall structure of main ideas that the learner still remembers when the next piece of study begins. If the learner has no such structure, the short sessions are only interruptions. If the learner has it, each session continues from where the last one stopped, and the learner returns to the same structure on several days. Returning to the same structure is what makes the learning stronger, so the time between short sessions helps the learning. It also means a session can end before the work is finished, because the structure records where the learner stopped.
+Microlearning means learning in many separate short intervals rather than in one long sit. It works best for people whose days almost never open a block longer than about an hour. Teachers have used it with competitive athletes who train 30 hours or 40 hours a week while also studying at university. It has also served people who hold more than one job, or who only find study time late at night. The system is built to make use of gaps as short as 5 minutes.
 
-## The cycle
+It is not a better replacement for a long study session. If you can sit with a large stretch of material, do that with your usual methods. You can still add this system on top of those longer sits, which is how many working professionals use it.
 
-The system builds that structure with a cycle of five stages, and the cycle can run several times a day. A stage can take one short period of time, be split across several short periods, or run together with the other stages in one longer session. The short periods in this system last five to thirty minutes. The cycle suits a day that never has an uninterrupted hour, for example university athletes who train thirty to forty hours a week, people who have more than one job, and knowledge workers whose calendars are broken up by meetings. These groups are examples. The list is not a count of the people who use the cycle.
+## Five stages, cycled through the day
 
-**Prime** sets what to study. The scope is roughly what one or two hours of sit-down study would cover. A list of questions to answer works best. Keywords, objectives, outcomes, or KPIs also work. Prime takes a few minutes. The result is a narrow focus on a small amount of material. Prime is [[Inquiry-Based Learning]] shortened to a few minutes: write the questions, then go find the answers.
+The work always moves through stages, and you may run more than one cycle in a day.
+<figure>
+<svg viewBox="-16 -16 552 600" width="100%" style="max-width:552px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="lc-micro-t">
+<title id="lc-micro-t">Five stages, cycled through the day. Prime: Name exactly what you intend to learn. Map: List the resources you can draw on. Study itself has not begun. Explore: Pull out the main ideas that match what you primed. Dive picks one relevant chunk and learns it more deeply. Consolidate: After each dive, step back to the outline you built in the Explore stage. The loop is big picture, dive, big picture again.</title>
+<rect x="-15.5" y="-15.5" width="551" height="599" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="28" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Five stages, cycled through the day</text>
+<rect x="20" y="52" width="480" height="70" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="80" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Prime</text>
+<text x="40" y="102" style="fill:var(--qp-ink);font-size:13px">Name exactly what you intend to learn</text>
+<path d="M260.0,130 L260.0,146" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260.0,150 255.5,146 264.5,146" style="fill:var(--qp-mut)"/>
+<rect x="20" y="154" width="480" height="70" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="182" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Map</text>
+<text x="40" y="204" style="fill:var(--qp-ink);font-size:13px">List the resources you can draw on</text>
+<path d="M260.0,232 L260.0,248" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260.0,252 255.5,248 264.5,248" style="fill:var(--qp-mut)"/>
+<rect x="20" y="256" width="480" height="70" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="284" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Explore</text>
+<text x="40" y="306" style="fill:var(--qp-ink);font-size:13px">Pull out the main ideas that match what you primed</text>
+<path d="M260.0,334 L260.0,350" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260.0,354 255.5,350 264.5,350" style="fill:var(--qp-mut)"/>
+<rect x="20" y="358" width="480" height="70" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="386" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Dive</text>
+<text x="40" y="408" style="fill:var(--qp-ink);font-size:13px">Dive picks one relevant chunk and learns it more deeply</text>
+<path d="M260.0,436 L260.0,452" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260.0,456 255.5,452 264.5,452" style="fill:var(--qp-mut)"/>
+<rect x="20" y="460" width="480" height="88" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="488" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Consolidate</text>
+<text x="40" y="510" style="fill:var(--qp-ink);font-size:13px">After each dive, step back</text>
+<text x="40" y="528" style="fill:var(--qp-ink);font-size:13px">to the outline you built in the Explore stage</text>
+</svg>
+<figcaption>The loop is big picture, dive, big picture again.</figcaption>
+</figure>
 
-**Map** finds the sources: which resources contain the answers, what is in each resource, and how the learner will move through them. Map is still preparation. No studying has happened yet.
+Prime comes first. Name exactly what you intend to learn, whether that is a bound exam topic or something your job now requires. Keep this step short. Limit the target to about as much as 1 hour or 2 hours of ordinary sitting would hold. A list of questions to answer is a strong way to do it. Keywords, objectives, outcomes, or job measures can also work. The point is a tight target for everything that follows.
 
-**Explore** sketches the main ideas and how they relate. There are usually three or four main ideas, plus the relationships between them. The limit of three or four is a rule this system sets to keep the sketch simple. It was not measured. Because the Prime scope was small, the material stays small. Sketching continues until the ideas and their connections seem coherent. Explore is a faster version of the rough map made in [[Prestudy]] before a long session.
+Map comes next, and it is still preparation. List the resources you can draw on, notice what sits in each one, and plan how you will move through them. Study itself has not begun.
 
-**Dive** studies one chunk in depth. The choice of chunk matters little. Findings go into a nonlinear note that is laid out as a map rather than as a transcript, and the learner studies the same chunk again until it is covered in detail. The learner keeps working on that chunk and does not move from point to point across the sketch. Measuring progress by how much material has been covered is the opposite approach.
+Explore is the first real pass through those resources. Pull out the main ideas that match what you primed, usually 3 main ideas or 4, plus how they relate. Because the prime was only 1 hour or 2 hours of material, this pass stays small. Sketch the logic quickly until the main ideas and their links feel clear.
 
-**Consolidate** is a required stage. After each dive, the learner goes back to the Explore sketch, connects what was just learned to it, and looks for new relationships. Then the learner chooses the next step. If the scope was wrong or new resources were found, start again from Prime. Otherwise, go straight back to Explore or Dive. When everything in the Prime scope is covered, Prime the next set of material.
+Dive picks one relevant chunk and learns it more deeply, adding to whatever nonlinear notes you already use. Repeat the dive on that same point until you have fleshed it out. Do not walk down the list and dive on every item in a row.
 
-The stages can happen hours apart. For example, Prime for ten minutes on the train. Map for three minutes while waiting for an elevator. Explore for twenty minutes at lunch. Dive while the water boils before dinner. The time between stages interrupts the continuity of the material and disrupts encoding. Going back to the sketch and connecting the new material to it after each dive restores that continuity. A tablet and stylus help, because the notes are nonlinear and the learner carries them from place to place. They are not required.
+Consolidate after every dive. The stages may sit hours apart. You might prime for 10 minutes on a train, map for 3 minutes while waiting for an elevator, explore for 20 minutes at lunch, and take a first dive 4 hours later while water boils. That spacing breaks the story and weakens encoding if you just keep diving. After each dive, step back to the outline you built in the Explore stage and look for new links. Then either restart the cycle, if the prime was off or new resources appeared, or continue from Explore or Dive. The loop is big picture, dive, big picture again.
 
-## Why the short sessions work
+Those bursts can be 5 minutes, 10 minutes, 15 minutes, 20 minutes, or 30 minutes and still add up. Short sessions seem to produce more learning than their length would suggest. Why is not settled. One possibility is that the time pressure sharpens concentration and encoding in a way that does not appear in a long sit.
 
-Short sessions work because the chunk stays small. A five-minute deadline does not increase working memory. A timer cannot add working-memory capacity. Arousal can narrow attention, but narrower attention is not more capacity. With no time for detailed notes, the chunks stay very simple, and each later dive adds to a chunk that already exists. A schema that already exists makes the next element easier to process. When the dives are repeated across a day, they are also spaced encodings of the same structure.
+## Offload details, then retrieve on purpose
 
-Effect sizes have been reported for designed workplace modules. Those modules are a different thing from this system. Five minutes on a train, with a structure the learner still remembers, is different from a five-minute video. The improvement seen in short sessions does not appear in long sessions. This fits the explanation that short sessions force the chunk to stay small, because a long session does not force the chunk to stay simple.
+Minor details can go into a searchable personal notes store so the short sessions stay on relationships and the main ideas. If you truly must memorize something, add it to a spaced card deck during Dive or Consolidate and keep those items few.
 
-The time between sessions has a real cost. When work is interrupted, the representation of the problem is lost. That is why Consolidate is required after every dive. If the learner skips going back to the sketch, the next short session starts on an isolated piece with no structure to connect it to. The fix is simple: reopen the sketch, add the new piece to it, and look for a relationship that was not visible before the dive.
+Because the first encoding comes in fragments, you also need a larger retrieval pass at some point, or several smaller ones, unless daily work already forces you to use what you learned. A weekend block of 4 hours or 5 hours can serve as that pass. People who apply a new language all day, or a small-business owner who uses the same ideas about 20 times a day, may not need an extra session. If a week ends and you can see that you have not retrieved enough, add one.
 
-## The retrieval requirement
+A tablet and stylus make the system easier to run in small gaps, though the stages themselves do not depend on a particular device.
 
-When encoding is spread across many separate short sessions, retrieval is more likely to fail. Encoding done in separate pieces produces separate retrieval cues. The second principle of the system exists for that reason. The learner holds at least one long session, or several shorter ones, in which the learner actively retrieves the material and uses it in depth instead of only recognising it. Four to five hours on a weekend is the default this system sets. It is not a research finding. If the learner's week did not require reconstructing the material, the weekend retrieval session is required work, not an extra.
+## Open questions
 
-There is a narrow exception. When a job requires constant use of the material, for example speaking a new language every day, or a small-business owner using newly learned business knowledge twenty times a day, separate retrieval sessions are not needed. Using the material is the retrieval. If a week passes without the material being used, schedule a retrieval session.
+Which 5-minute or 10-minute gap in my day could hold Prime or Map without waiting for a free evening?
 
-During working hours, teaching is the easiest place to fit in retrieval. The learner teaches what was learned to a colleague or a junior, presents it in a meeting, or teaches it in a recurring hour with the team every couple of weeks. The retrieval happens during an hour that is still useful work. [[WPW]] fits that session: the learner reteaches the topic aloud as a whole, then each part, then the whole again. The weekend retrieval session itself uses [[Spaced Interleaved Retrieval]]: reconstruct, space, mix, repair.
-
-Use the limited minutes for logic and for understanding concepts. Put small facts that can be looked up into a notes vault or a spreadsheet. For the rare item that must be memorized, make flashcards during Dive or Consolidate and let a review algorithm schedule them. Keep that deck small. [[Rote Learning and Memorisation|Flashcards]] covers that rare memorization work. Dive notes are developed further in the four-pass format of the [[Bear Hunter System]].
-
-The main argument against the cycle is that longer study ranks above it. A free weekend using the full set of encoding techniques still does better than the cycle in a direct comparison. Short pieces of study with no structure to connect to are only interruptions. Microlearning with designed modules is a different thing, and its effect sizes do not show that studying on trains and while waiting for elevators works. The costs of the cycle are the loss of continuity at every gap, a Consolidate after every dive, and a weekend retrieval session unless the job already required reconstructing the material. Signs to stop: diving from point to point without going back to the sketch; a week without using the material and no retrieval session scheduled; shortening the timer because of the belief that pressure helps. After a week of short sessions, the learner should still be able to redraw the Explore sketch with the book closed. If the learner cannot, the short pieces of study were not connected to a structure.
-
-## The weekend is still better
-
-A free weekend of extended study still does better than this cycle in a direct comparison. If the learner has long sessions, the full set of encoding techniques is used in them, and this cycle is added during the week. If long sessions never happen, the cycle is used on its own. It is a common workaround for days that are broken into short periods. It does not argue for studying in fragments. Time spent in short periods still adds up. The learner has to still remember the structure when the next short session begins.
-
-## Links into the knowledge base
-
-- [[Inquiry-Based Learning]]: Prime is this method shortened to a few minutes. Write the questions, then go find the answers.
-- [[Prestudy]]: Explore is a faster version of the rough map made in Prestudy before a long session.
-- [[Bear Hunter System]]: the nonlinear dive notes are developed further in this four-pass format.
-- [[Spaced Interleaved Retrieval]]: the method for the weekend retrieval session. Reconstruct, space, mix, repair.
-- [[WPW]]: whole-part-whole reteaching for the big teaching-style session.
-- [[Rote Learning and Memorisation|Flashcards]]: the rare memorization work. Keep the deck small.
-
-## Open Questions
-
-Is three to four main ideas the right limit for Explore, or does the right limit depend on the domain?
-
-When the job requires daily use, what still has to be retrieved on purpose?
+After my last short dive, did I zoom back out and reconnect it, or did I jump to the next chunk?
 
 ## Sources
 
-- Cepeda, Pashler, Vul, Wixted & Rohrer, "Distributed practice in verbal recall tasks," *Psychological Bulletin*, 2006.
-- Thalheimer, "Spacing Learning Events Over Time," 2006.
-- Chen, Paas & Sweller, "Spacing and Interleaving Effects Require Distinct Theoretical Bases," *Educational Psychology Review*, 2021.
-- Altmann & Trafton, "Memory for goals," *Cognitive Science*, 2002.
-- Sweller, van Merriënboer & Paas, "Cognitive Architecture and Instructional Design," *Educational Psychology Review*, 1998; update 2019.
-- Roediger & Karpicke, "Test-enhanced learning," *Psychological Science*, 2006.
-- Dunlosky, Rawson, Marsh, Nathan & Willingham, "Improving Students' Learning With Effective Learning Techniques," *Psychological Science in the Public Interest*, 2013.
-- Fiorella & Mayer, "The relative benefits of learning by teaching and teaching expectancy," 2013/2014; *Learning as a Generative Activity*, 2015.
-- Kobayashi, learning-by-teaching review, 2022.
+- iCanStudy, "Microlearning system", Supplementary learning. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Learning Craft/Clinical Learning System|Clinical Learning System]]: a different system for choosing what to learn when the next case, rather than the next free gap, sets the order.
+- [[wiki/Self Management/Study Scheduling|Study Scheduling]]: how protected blocks and short gaps can sit on the same calendar.
+- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]: why the rare items you do memorize need meaning and organization, not a growing pile of cards.
+- [[wiki/Concepts/Memory Handling|Memory Handling]]: keeping short sessions on the logic layer rather than on leftover details.

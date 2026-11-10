@@ -1,88 +1,63 @@
 ---
 title: "Clinical Learning System"
 type: system
-status: developing
-created: 2026-06-11
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
-source-count: 9
-written-by: grok
-model: grok
+status: draft
+created: 2026-05-08
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "Let the next patient set what you study: map that case into branching variations, learn one branch deeply, then pick the next overlapping case so common patterns get retrieved in real practice."
 tags:
   - learning-systems
   - clinical
-flag-reason: "cluster held — Learning Craft; opener is owner rewrite 2026-08-15. Do not promote."
+  - interleaving
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # Clinical Learning System
 
-A clinical learning system makes the ward the syllabus: the patients you actually saw today decide what you study tonight. What accumulates, case by case, is a picture of each illness detailed enough that the next person carrying it arrives as a variation on something you already hold rather than as new material. That is why the evening goes to the case you met rather than to the chapter you were behind on — the encounter is what gives the reading somewhere to attach. It shows up at the door, when a good part of what you need for the person in front of you is already assembled.
+Clinicians can use a purpose-built study method while seeing patients, including doctors, residents preparing for training exams, and clinical medical students who already have enough study skill to carry it out. The method is advanced and specific, and it treats three facts about clinical work as advantages. Patients themselves are a learning resource. The volume of what you need to know is so large that almost anything connected to the patients in front of you is fair game. That volume is why you can be relatively open about where you start. Common problems also return on their own, 20 or 30 or 40 times, sometimes 100 times, so practice already supplies interleaved retrieval if you study what recurs.
 
-## Patient, dump, branch
+The order of study is set by the patient, not by a chapter list. That is the main switch.
 
-Patients are a learning resource. Every history, examination, and result contains material to study, if your examination skills are good enough to find it. A careless examination gives you little to study. Fix your examination skills first, then run the loop. Specialties that see patients directly have the encounters as part of the work. Imaging and laboratory work do not have them, unless the day's cases can still be used as the syllabus.
+## Map the case, then learn one branch
 
-Among the topics this week's patients raise, order barely matters. Curriculum maps and off-service lists still exist. For a specialist exam, almost anything connected to the patients you have seen can eventually be examined, though this is not true of every exam. [[Order Control]] is the vault's name for studying in order of relevance instead of in syllabus order. A ward is one place it applies. Practice on a rotation is already interleaved: the mix of cases comes from the work, and nobody has to design it. Common conditions and their variations come up dozens of times. So when you study the material that recurs most, you get spaced, interleaved retrieval without extra effort, if you notice the recurrence and use it. [[Spaced Interleaved Retrieval]] is the named system to use when recurrence is not enough. The loop is built for a specific clinical problem. A finite set of conditions produces an unbounded number of permutations. A shortage of core facts is usually not the difficulty. The usual failure is being unable to apply and interleave what you already know, and being unable to learn more from the patient in front of you than that one encounter covers.
+After you see a patient, list the learning points that case can teach, including problems, diagnoses, findings, and anything else you know you need. Pick the point that looks highest yield for you, whether it is common, life-threatening, or likely to appear on an exam. The first pick does not have to be perfect. It has to be relevant, because later maps will connect to it.
 
-Let the patient decide the order. From today's patient, list every possible learning point and pick the biggest, most common, most dangerous, or most examinable one. Illness-script teaching worksheets start the same way. The choice does not need to be perfect, because you will extend the map from it anyway. Each branch is a question you write yourself and answer as you study the case. This is the vault's version of [[Inquiry-Based Learning]]: write the questions, then go find the answers.
+Later that day, do a wide brain dump of that point as a patient journey. Student-level maps may run from causes and how the story presents, through history, examination, investigations, differentials, management, and follow-up. More advanced maps of the same journey go deeper. Each step can open a new branch from the new information. That branch might be a scan that is positive or negative, or a blood test that changes the path. Recovery can come with or without a complication, and an infection can be typical or resistant. Write what you already know, even if that is only what you saw in the one patient and the rest is blank. How deep the variations go depends on your level. A middle-year student will not map as far as a surgical trainee.
 
-That evening, write out the patient's journey from memory with your sources closed. This written account is the dump. Mapping the obvious variations of one learning point takes about a couple of hours, and those hours are the study session. A reader who expects it to take twenty minutes will stop on the first night and decide the system does not work. Map the chosen point from start to finish at your current level: etiology, history, investigations, differentials, management, follow-up. The dump is an illness script: enabling conditions, fault, consequences. Write down whatever you know. Leave the gaps visible.
+That web will be large. On that same day, take only one branch, usually a weak spot, and learn the most relevant thing you can about it. One evening might cover only half of a single branch. That is enough. Stay with the same learning point for about 1 day or 2 days, then stop chasing every remaining branch.
 
-At every decision point, write out the branches. On a medical case the branches are like these: positive versus negative scan; infection versus none; resistant versus typical microbe; impaired versus normal healing. On a procedure they are like these: if the cut moves off its line, what structure is at risk; why this plane; why this decision and not the neighbouring one. A dose gives branches in the same way: what an overdose does, what an underdose does, and then the observation that drugs with a similar mechanism have similar side-effect patterns. The web of variations is what this work produces and what you keep. Each branch is a reason to revise a related topic, such as cytokine pathways, antibiotic profiles, or pharmacology. Studying a tedious topic in the context of a real patient makes it feel relevant.
+## The next patient should touch a branch you already drew
 
-Study one branch at a time. Covering half a branch in a day is fine. The goal is not to complete the web. Trying to cover every branch makes the system inefficient. After one or two days, pick a new patient whose condition overlaps a branch you have already mapped, and build again from the overlap. As a teaching default, this is about twice a week.
+Pick a new patient whose case touches at least one branch already on your map. In a single specialty those overlaps appear on their own. Build the same kind of web for the new case, then learn the connecting branch and, over a couple of extra days, a few more. Mapping the obvious variations of one case can take a couple of hours. That time is itself useful study, because it sets up spaced, interleaved review.
 
-## What the web is for
+A new patient twice a week is a workable pace, sometimes three times. After about 3 weeks or 4 weeks, certain intersections keep returning and those spots become fluent. After about 1 month to a couple of months, filling a new branch takes less time, and moving through the possible paths feels less overwhelming. Common conditions and their high-yield variations get covered because common things keep appearing. Rarer points get touched around the edges. Before an exam you can sweep the curriculum for anything the net missed.
 
-In weeks three and four, areas that overlap heavily start to feel strong because they come up again and again. In months one and two, each new patient adds less uncertainty than the patients before, because variables repeat and branches fill in faster. These timelines are coaching estimates and were not measured. The experience they describe is real. They are sometimes used to support calculations, and they cannot support them.
+Each time you see a patient you also map about 3 extra variations or 4 extra variations of what could have happened. That is not the same as seeing 3 extra patients or 4 extra patients. It does copy enough of that experience to grow pattern recognition faster than waiting for every variation to walk through the door.
 
-Mapping variations does not count as seeing more patients. Rehearsing a branch in your head is not the same as seeing a patient. Mapping prepares you for the next real case so you learn more from it. This is called priming, and it does not emulate a patient encounter. A resident who skips real cases to draw more branches has reversed how the system is meant to work. You cannot skip the years of cases that senior clinicians have seen. You can start building now the structure they already have, which is organised scripts.
+The same shape works outside the clinic corridor. In an operation you can ask what happens if the cut sits a little to the left, which nerve or artery you would meet, and why the dissection goes where it does. Over time, about 80 percent to 90 percent of the small, tedious facts that are hard to study on their own get covered because they sit on a branch of a real case.
 
-The benefit of the system comes through priming. When tomorrow's patient follows a branch you already mapped, the encounter is review and re-encoding, and you do not meet it as new. When you already know tomorrow's list, such as a named procedure or a named clinic, prime yourself on the patient type and the flow so you can follow the encounter in real time. Expand the web afterwards. Three named wastes lead to walking in unprimed: not priming tomorrow's list; not using today's cases as the starting point for tonight's work; not mapping the common variations you are likely to meet within a day or two, so the next case has to be encoded as entirely new. Walking in unprimed wastes a large share of what the encounter could teach, in the same way that going to a lecture unprimed does. This short priming pass is [[Prestudy]] with a patient as the syllabus.
+## What the first weeks feel like
 
-## Common, one flow, downtime
+The method is a plan for what to learn and when. Studying a pathway or a drug still uses the same core techniques you already use for relational, well-chunked work. The first couple of weeks feel overloaded, with large webs, many gaps, and no obvious place to start. Start anywhere relevant and let the next overlapping patient carry you. A clinical student who can handle that load may cover what they did not yet know at student level after about 2 weeks.
 
-Study common conditions, not rare ones. This is a rule for spending time on a rotation that leaves little of it. It does not claim that knowing about rare conditions is worthless. Learn in depth the conditions you will see again this week. Rare diseases studied only out of obligation end up as facts you can recite and seldom use. On a general surgical placement, the conditions that recur most are diverticulitis, appendicitis, and cholecystitis. Near the end of the rotation, go through the curriculum once to find the small points that patient-led study did not cover. Rare conditions are studied in that final pass.
+Focusing on one common patient flow at a time also stops the pile-up of half-learned topics that consultants keep adding. You may sit a little behind for the first couple of weeks. By about the third week through the fifth week you tend to match the pace around you, and later you pull ahead, because medicine repeats the same high-yield material. Spending an evening on a rare disease you are unlikely to see wastes the retrieval that the next day's ward would have given you. If tomorrow has a known operation, prime for the kind of patient who will be on that table.
 
-Study one flow at a time. This rule is how you cope when everyone gives you every topic at once. Expect to fall behind for about two weeks, catch up around week five, and then get ahead. This is a coaching timeline and was not measured. The part worth keeping is the social problem it names: consultants give you more topics than you can cover in a week.
+## Open questions
 
-In weeks with little time, study in very short sessions. On call, this loop combines with the [[Microlearning System]], the cycle for downtime: a five-stage loop that carries on across short free periods, here with the patient as the priming material. Combining the two means replacing two specific steps. The patient plus a bare map replaces the scope step. Choosing which part of the flow to work on replaces the resource step. Each five-minute free period covers one node: one management option, then its variation, then the effect of a comorbidity. This version is advanced and tiring, and you cannot keep it up for long. Use it when you have no free evenings.
+How would tonight's map change if I drew only the branches I am likely to meet again this week?
 
-The loop works at the level of strategy. It sets what to learn and when. The studying itself still uses whatever encoding method you already use to turn a branch into a map. [[Bear Hunter System]] is that encoding method, defined by what it does: a rough frame, the questions the material must answer, a working map of connections, and a reduced structure that still works without the source. If your encoding is below that level, take the principles loosely and do not run the loop strictly.
-
-The test for whether the loop suits a reader has five conditions: a high volume to learn; mixed experience every day, so the interleaving comes without extra work; a current conflict between what work demands and what the exam demands; almost no study time; retrieval that has to work at more than one order. A reader who fails two or more of the five should use the principles and not run the loop strictly. Clinicians, residents, and clinical students with a high volume to learn and almost no study time usually meet the conditions.
-
-There are three situations where the loop should not be used. Your encoding is not yet fluent, so you cannot turn a branch into a map. The work is not patient-facing and the day's cases cannot be the syllabus. The web is being used as a substitute for seeing patients. The costs are a couple of hours per dump, two weeks of falling behind, and a combined on-call version that is tiring. Signs that you should stop: trying to cover every branch; a week of webs with no overlap with the next day's cases; two nights of mapping followed by no matching encounter the next day. If a first week produces no overlap with the next day's cases, the loop has failed. The reader has not.
-
-[[Interleaving for Complex Problem Solving]] applies the same logic outside medicine: reconstructing a solution when the variables change.
-
-If tomorrow's patient follows a branch you have mapped, the encounter is review. Whether the system works is shown by the next real patient, and the web cannot show it.
-
-## Open Questions
-
-Does mapping three or four variations per case change diagnostic accuracy, or only organisation?
-
-How should a reader on a specialty with a large off-service list adapt "order barely matters"?
-
-## Links
-
-- [[Microlearning System]]: the downtime cycle this loop combines with on call. It is a five-stage cycle that carries on across short free periods, here with the patient as the priming material
-- [[Order Control]]: letting the patient decide the order is one application of studying in order of relevance instead of syllabus order
-- [[Inquiry-Based Learning]]: each branch is a question you write yourself and answer as you study
-- [[Spaced Interleaved Retrieval]]: clinical recurrence gives you this without extra work; it is the named system when recurrence is not enough
-- [[Interleaving for Complex Problem Solving]]: the same logic of reconstructing a solution when the variables change, outside medicine
-- [[Prestudy]]: priming for tomorrow's cases is prestudy with a patient as the syllabus
-- [[Bear Hunter System]]: the encoding method each branch's study session uses
+If the next patient overlapped just one branch I already drew, which weak spot would I choose to learn first?
 
 ## Sources
 
-- Thistlethwaite, J. E., et al. (2012). The effectiveness of case-based learning in health professional education. *Medical Education*.
-- Dornan, T., et al. (2007). Experience-based learning: a model linking the processes and outcomes of medical students' workplace learning. *Medical Education*.
-- Bowen, J. L. (2006). Educational strategies to promote clinical diagnostic reasoning. *New England Journal of Medicine*.
-- Lubarsky, S., Dory, V., Audétat, M.-C., Custers, E., & Charlin, B. (2015). Using script theory to cultivate illness script formation and clinical reasoning in health professions education. *Medical Teacher*.
-- Schmidt, H. G., & Rikers, R. M. J. P. (2007). How expertise develops in medicine: knowledge encapsulation and illness script formation. *Medical Education*.
-- Rohrer, D. (2012). Interleaving helps students distinguish among similar concepts. *Educational Psychology Review*.
-- Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. *Psychological Bulletin*.
-- Ausubel, D. P. (1960). The use of advance organizers in the learning and retention of meaningful verbal material. *Journal of Educational Psychology*. Mayer, R. E. (2009). *Multimedia Learning* (pre-training principle).
-- Eva, K. W. (2005). What every teacher needs to know about clinical reasoning. *Medical Education*. Norman, G. (2005). Research in clinical reasoning: past history and current trends. *Medical Education*.
+- iCanStudy, "Clinical system: Medically-oriented", Supplementary learning. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Learning Craft/Microlearning System|Microlearning System]]: another way to choose what to learn when time comes in short bursts rather than long sits.
+- [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]]: why this system asks for relational study skill before you try to run it.
+- [[wiki/Self Management/Priority 0+1 System|Priority 0+1 System]]: protecting the evening map so urgent extra topics do not replace the one case you chose.
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]: why the first webs feel overloaded, and why that load should sit on one flow at a time.
