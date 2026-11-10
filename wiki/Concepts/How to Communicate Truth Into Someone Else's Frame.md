@@ -1,152 +1,77 @@
 ---
 title: "How to Communicate Truth Into Someone Else's Frame"
 type: concept
-status: developing
+status: draft
 created: 2026-05-12
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-source-count: 2
-written-by: grok
-model: grok
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "Truth reaches another person when they trust you, when you have reasoned your way to their view, and when you say what you actually believe without turning the exchange into a pitch."
 tags:
   - naval
   - sales
   - leadership
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # How to Communicate Truth Into Someone Else's Frame
 
-Communicating truth into someone else's frame means explaining something you actually believe, in the terms the other person already uses, and leaving when the fit is wrong. Leaving at a bad fit is part of the method. A pitch starts to feel like selling when the thing being offered, or its fit with the person, is already wrong.
-
-Selling with tactics lowers trust. Selling the truth builds reputation that accumulates over time. The model has four parts: credibility, truth, enthusiasm, and fit. Understand the thing deeply, believe it is worth doing, explain it clearly, and leave when the fit is wrong. When a pitch feels like selling, one of those four parts has already failed.
-
-## Core takeaways
-
-- The people who matter can see through pitch tactics. They trust the person who is knowledgeable, long-term oriented, honest about tradeoffs, and willing to steer them away from a bad decision.
-- Rational empathy is five steps in order: understand the problem the other person is solving, find the valid part of their frame, acknowledge it, add the stronger frame, and disagree plainly when their frame is wrong.
-- Honesty is self-interested. Ego increases error, and falsehood leads to later decisions made against a picture you already know is wrong.
-- Do not manufacture urgency from a calendar. Work on the fundamentals until the excitement is real, and then the pitch is explanation.
-- Walk away from a bad deal early. The harder a deal is to unwind, the higher the bar for accepting it.
-- The feeling of selling tells you the thing or the fit is wrong. It does not tell you the technique was insufficient.
+Closing tricks turn people off. Truth reaches someone else's frame when they trust that you see their interests and will say what you actually believe. The work starts by reasoning your way to their position and saying yes when that position is valid, then adding why your own view also holds. Honesty comes first. Kindness is how honesty gets heard. Leadership is making someone want to do the work because it already overlaps with what they want from life. Small high-trust groups can take on a larger prize than anyone can take alone. Excitement has to be real. If a pitch feels like selling, the thing is probably the wrong thing, or the listener is the wrong listener. Deals that lock you in for a long time are worth walking away from when the fit is bad. In a world of uneven upside, time is better spent growing the prize than fighting over a small split.
 
 ## Credibility is the asset
 
-People who matter can see through pitch tactics. They trust the person who is knowledgeable, long-term oriented, honest about tradeoffs, and willing to steer them away from a bad decision. Those four traits are the asset. Credibility is built by refusing to push an option that would have closed.
+Formal sales training is not what carries a hard conversation. The useful move is to figure something out, then convey that belief as accurately and honestly as possible. Persuasion checklists exist. They name things like consistency, liking, authority, scarcity, social proof, reciprocity, and anchoring. People still recoil when they feel those levers being pulled. Trust matters more than technique.
 
-The model to follow is the advisor who protects the other person's interests. Do not push every option. Help the other person avoid the bad ones, so that the next recommendation carries weight. The options you declined to push are what give the next recommendation its weight. A high-pressure close treats the close as the skill. For the advisor, the close is a side effect of having been worth listening to.
+Trust is built by protecting the other person's interests before you ask for anything. A guide who steers someone away from a bad house, a bad street, or a bad deal earns their trust when the right one appears. Ego has to come out of the way. You have to stand in their shoes and learn what they want. Only then does a "sale" become possible.
 
-Credibility is the central asset because each of the other practices lowers it when done falsely. Rational empathy lowers it when the uptake is fake. Enthusiasm lowers it when the excitement is manufactured. A deal lowers it when a long-term constraint is sold as short-term relief.
+The people most worth reaching can see through a pitch. They notice when you are doing what is easy for you rather than what is true. Credibility on that terrain means being authentic, telling the truth, knowing the subject, thinking long-term, and explaining the point simply enough that a non-expert can follow it, often through an analogy. You will not convince everyone. Attachment to a single outcome makes that worse. If a pitch does not land, the next move is to leave and look for the person it will land with. Some people never give up and keep hammering until they break through. That is not the way to reach people who can see what you are doing.
 
-## Rational empathy: five steps
+## Reason your way to their position
 
-Rational empathy means reasoning your way into the other person's position, identifying what is valid in it, and then adding your own position without dismissing theirs too early. The name stands for five steps in order.
+One habit that looks like a technique is to answer with "yes, and." You acknowledge what the other person said, you add something that makes their point clearer, and only then do you turn toward what you came to say. The "yes" is not a trick if their point is genuine. Smart people usually have a real reason for what they believe, and that reason can be seen. Seeing it is the source of the yes.
 
-1. Understand the problem they are actually solving.
-2. Find the valid part of their frame.
-3. Acknowledge it directly.
-4. Add the stronger frame.
-5. Disagree plainly when the frame is actually wrong.
+If you fully disagree, say so, and say why. Direct disagreement is often where you find out you were wrong, which is useful humility. The honest version of "yes, and" is rational empathy. You reason your way to their position and test whether it holds. If it does, you say yes, then show why your own position, which you have also thought through, holds as well.
 
-Immediate contradiction often attacks the person before the model has been understood. This is why the steps are in this order. If you contradict before naming the valid part, the other person hears only that they are the problem.
+Objectivity means getting the ego out of the way. The other person has a different view of the same facts, so advice that only broadcasts your preference fails. The version that works can feel, to them, like they are thinking out loud with a slightly clearer voice. That kind of honesty is selfish in a good sense. You want to make sound decisions for yourself, which means you cannot afford blinders. A person who already guesses they are wrong most of the time gets even more lost if they stop trying to see clearly.
 
-"Yes, and" works when the agreement is real. Fake agreement is a tactic, and the people who matter can see it. Genuine uptake is step three done honestly: you can point at the part of their frame you kept.
+## Tell the truth so it can be heard
 
-Empathy is useful when it improves perception and preserves judgment. It becomes dangerous when understanding another frame turns into surrender to that frame. [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] describes that boundary, where empathy stops being perception and becomes surrender. [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] covers the honesty underneath: the aim is to see clearly, and winning the frame is not the aim.
+Charisma, in this sense, is the ability to show confidence and care together, or power paired with good intent. If you actually care about the other person's wellbeing, you will look for a way to deliver a hard point without crushing them. Honesty still outranks kindness when a choice has to be made. In almost every situation both are available. Honesty without kindness often means the other person stops listening. Being right then fails as a way to be effective.
 
-## Telling the truth so it can be heard
+Close friends can take a sharper style, because they already know how you think and they want the shortest path to the point. Firing someone is a clear hard case. Empathy runs through every way they could be hurt. The version that works is to become convinced they will be more effective in another role, and then to help them find that role or stand as a reference for it.
 
-Honesty is moral. It is also self-interested. Ego increases error. Falsehood creates decision debt: a later decision made against a picture you already know is wrong. Selfish honesty is the name for this: tell the truth because ego and falsehood make your own decisions worse, and not only because a code requires it.
+## Lead a small high-trust group
 
-Give advice from the other person's frame. Do not give it from your need to be seen as right. Stay open, because being wrong is the default condition.
+Management tells people what to do, and leadership makes them want to do it. The motive has to be real, and it has to fit what they can actually do and what they already want from life. That means listening first, finding the overlap with the work that needs doing, and then giving that overlap enough color that they want to move.
 
-Charisma means confidence plus good intent. Truth delivered without care can be accurate and still go unheard. When care leaves out the truth, the exchange is pleasant and the person gets nothing to act on. Directness has to be delivered in a way the other person can hear. If the goal is to help someone act, the message has to leave them enough dignity and energy to act. Softening the message until the truth is gone leaves the person nothing to act on. A message harsh enough to remove the will to act also fails, because the person does not act.
+A useful picture is a ship. Gathering people, cutting wood, and issuing orders is not what builds it. Teaching them to want the open sea is. The recruiting version of that picture is honest about startups. The work is harder in the short run and freer in the long run. Autonomy, a larger share of the outcome, and the chance to do more than one narrow job are the draw. After someone has tasted that freedom, ordinary employment gets harder to accept. The same pattern shows up when a child who has learned freely then meets a rigid classroom.
 
-## Leading a small high-trust group
+People are built for missions in small groups. A hunting party of ten or twenty people, a crew on a long voyage, and a tight team shipping a hard product all ask for the same thing. They need highly competent people who pull their weight, whom you can rely on, so that your own best work can come out. Alone, each person can take a small prize. Together they can take a much larger one, if they stop chasing the small prize on their own. Low-trust places make that larger hunt illegal or unrewarding, through heavy rules, high take, or a culture of ripping people off. The result is many tiny efforts and a lot of poverty. High-trust places have rule of law, reputations you can check, and a fair split. Teams of ten people, twenty people, or a few hundred people can then do work that looked impossible.
 
-Management tells people what to do, and leadership makes people want to do it. This is an operating slogan, not a finding from leadership studies. Under the slogan is a five-step alignment: understand what they want, understand what the mission needs, find the overlap, make the larger purpose vivid, and let motivation carry execution.
+One practical test of that bar is to let a candidate talk to anyone already on the floor. If they do not think those people are brilliant, they should not join.
 
-The ideal operating unit is the smallest high-trust group that can carry out the mission. An individual can chase small wins alone. A trusted group can coordinate toward a larger prize. This is a stag hunt. The group works only when trust is high enough that people will constrain their options, stop chasing the small solo wins, and share the upside. Without that constraint, talk of the larger prize does not produce coordinated work.
+## Sell only what you are actually excited about
 
-Motivation that is not real does not last through hard work. Real motivation lasts because it is tied to autonomy, mission, identity, and genuine upside.
+If you are not excited about the thing, selling it is a miserable way to live. Enthusiasm that you cannot quite suppress is the sign you found the right object. If the conversation feels like selling, you are probably selling the wrong thing. Frameworks, checklists, and how-to books sit a long way behind that motive. Someone who truly wants to build or to persuade will pick up technique as they go, and may only name the technique later, looking backward. Constant doses of motivational talk are a warning sign on the other side. The spark has to be able to catch in your own chest.
 
-## Real excitement and good obsessions
+Intellectual obsessions are worth feeding. Harmful loops, such as overeating, drugs, or too many games, are not. During a good obsession there is little reason to force balance. When the peak fades, a large piece of what you learned stays and becomes part of how you work. Waiting until your own excitement crosses a threshold, based on the real state of the work, is also how you know you are ready to ask other people for money or time. A calendar is a poor substitute for that threshold. Once the excitement is real, the job is to describe what you already see. People who do not get it can be left behind. Most people will not get it.
 
-A bad obsession drains the person's life and agency. A good one builds capability, taste, tools, understanding, or opportunity. Give time to a good intellectual obsession while the interest is strong. When the interest fades, a large part of what it built stays as skill, taste, or identity. [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]] tells a live obsession apart from a random interest. Do not cut back the live obsession in order to look balanced.
+A hard ask also needs a larger frame around it. A story, a history, or a clear account of the problem should come before the request.
 
-Do not manufacture urgency from an external calendar. Work until the fundamentals produce genuine excitement. Then the pitch is explanation, and exaggeration is not needed. If the other person does not understand, move on; the loss is theirs. Most people will not understand. The same filter applies to writing, recruiting, fundraising, and public work: if the excitement is not real yet, keep building.
+## Walk away from a bad deal
 
-## Deals and walking away
+A deal constrains what each side can do later, in exchange for creating something larger together and sharing it. That is the same larger-hunt structure. Optionality is valuable, so the path you accept has to be one of the better ones available. You can treat a deal that is easy to unwind more loosely. A deal that puts someone on your board, gives them vetoes, or otherwise lets them run part of your life is a poor place to accept a bad fit. It is better to walk away, even when the short-term need is real. Planning far enough ahead, such as starting to raise money six to twelve months before it is required, is what makes walking away possible.
 
-A contract is a voluntary narrowing of options in exchange for shared upside. It becomes dangerous when the wrong person or the wrong structure is hard to unwind. Do not accept a long-term constraint for short-term relief. Walk away from a bad deal early. The harder the deal is to unwind, the higher the bar for accepting it. A sinking feeling about the deal is information. Do not treat it as a mood to talk yourself out of. [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]] is the matching rule for goals: do not accept a goal that requires a bad long-term constraint.
+Compromise on a bad long-term fit is a common way companies die and founders get pushed out. A slight sinking feeling of being forced is information. Pragmatism still exists. The lean should be toward leaving a suboptimal deal on the table.
 
-In power-law domains the main prize is keeping the time, trust, reputation, optionality, and capability needed to take part in the large outcome. A slightly better division of small spoils is not the main prize. [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] holds that larger decision frame.
+When the prize is still small, fighting over the split wastes the resource that matters most, which is time. Returns in this kind of work are uneven. One outcome can be worth more than all the others added together. The next one can be worth more than everything below it. That is why the useful conversation is about growing what you can do for each other next, not about who is due a slice of a pie that has not been baked. When a truly large prize does arrive and people turn greedy, self-defense becomes necessary, sometimes on principle so that the same move cannot be repeated. If you would lose sleep for a year, you may have to fight. If you can recover your time, avoid those people later, and see that the stakes are small, walking away is the better use of a short life.
 
-Walking away from bad fits does not mean never fighting. Sometimes the large spoils arrive and you have to stand up: when the upside is being stolen, or when the sinking feeling is about principle and not about a small pie. Walking away from a bad fit is different from refusing to defend a real one.
-
-[[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] still requires selling: the goal to yourself, the constraints to the tools, and the result to humans. Small high-trust teams working with agents still have to do this. [[wiki/Self Management/Priority 0+1 System|Priority 0+1]] filters from the other side: persuasion belongs in the week only when it connects to real building.
-
-## Eight ways this fails
-
-| Failure | What it is |
-|---|---|
-| Sales tactics over credibility | The close is being treated as the skill. The people who matter can see it. |
-| Ego in advice | The advice comes from the need to be seen as right, not from the other person's frame. |
-| Kindness without truth | Care that withholds the fact the person needs in order to act. |
-| Truth without care | Accuracy that uses up the dignity and energy the person needs in order to act. |
-| Manufactured urgency | An external calendar doing the work the fundamentals have not done. |
-| Bad-deal pressure | A long-term constraint sold as short-term relief. |
-| Small-pie conflict | Fighting over a slightly better split of spoils too small to be the prize. |
-| Over-balanced obsession | Cutting back a live intellectual obsession to look even. |
-
-## Good signs and warning signs
-
-Good signs:
-
-- The pitch gets simpler as understanding deepens.
-- The other person feels understood before being persuaded.
-- The enthusiasm is real.
-- Walking away from a bad fit feels acceptable.
-- Trust increases even when the answer is no.
-- The deal preserves future agency.
-
-Warning signs:
-
-- The pitch requires exaggeration.
-- Pressure is compensating for weak fundamentals.
-- The other person is being pushed instead of understood.
-- There is a sinking feeling about the deal or the person.
-- The small split is being treated as larger than the large upside.
-- Kindness is being used to avoid a necessary truth.
-
-## Two wrong readings
-
-The first wrong reading is that you should always walk away. The second is that a pitch that feels hard means you should try harder. The feeling of selling tells you something is wrong with the thing or with the fit. It does not tell you the technique was insufficient. When the large outcome is real, walking away from a small-pie fight is different from refusing to defend the prize.
-
-Good selling feels like explaining something true to the right person. When the person is not the right one, stop. Walking away protects the reputation that the next true explanation depends on.
-
-## How to practice this
-
-1. Before your next pitch, notice whether it feels like selling. If it does, check the thing and the fit. Do not look for a better technique.
-2. Before you contradict someone, state the problem they are solving and the valid part of their frame. Then add your own frame. Notice whether you can point at the part you kept.
-3. Steer someone away from an option that would have closed. Notice whether your next recommendation carries more weight with them.
-4. Before you tell someone a hard truth, check that the message leaves them dignity and energy. Notice whether they act on it afterwards.
-5. Before you set a deadline, ask whether the excitement comes from the fundamentals or from a calendar. If it is not real yet, keep building.
-6. Before you sign a deal, note any sinking feeling and how hard the deal is to unwind. The harder it is to unwind, the higher your bar should be.
-
-## Related pages
-
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]: the honesty layer; the aim is to see clearly, and winning the frame is not the aim.
-- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]: the boundary where empathy stops being perception and becomes surrender.
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: small high-trust teams plus AI; selling still happens.
-- [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: persuasion only if it connects to real building.
-- [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]: live obsession versus random interest.
-- [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: the larger decision frame; power-law upside versus small-pie fights.
-- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: do not accept goals that require bad long-term constraints.
+Peace and the chance to start the next genuine interest are part of the outcome, not extras. Repeating the same climb only to make a larger pile, after the work has gone stale, is a poor trade for the chance to live more than one life inside the years you have.
 
 ## Open questions
 
-Does this pitch feel like selling, and if so is the thing wrong or is the person wrong?
+Does this pitch feel like selling, and if so is the thing wrong or is the listener the wrong listener?
 
 Am I protecting their interests, or my need to be seen as right?
 
@@ -154,11 +79,20 @@ Is the excitement real, or did a calendar manufacture it?
 
 Would walking away from this fit feel acceptable?
 
-Is this a stag hunt, or a rabbit I could take alone?
+Is this a shared hunt for a larger prize, or a small prize I could take alone?
 
 If the large spoils arrived tomorrow, would I know the difference between a small-pie fight and a prize I have to stand up for?
 
 ## Sources
 
-- Naval Ravikant and Nivi, "Sell the Truth," 12 May 2026. Public episode.
-- Brian Skyrms, *The Stag Hunt and the Evolution of Social Structure* (Cambridge University Press, 2004). The coordination game: constrain solo options to hunt the larger prize.
+- Naval Ravikant and Nivi, "Sell the Truth," 12 May 2026. [https://nav.al/sell](https://nav.al/sell).
+
+## Related pages
+
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]: the honesty layer. The aim is to see clearly. Winning the frame is not the aim.
+- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]: the boundary where empathy stops being perception and becomes surrender.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: small high-trust teams plus AI, where selling still happens.
+- [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: persuasion only if it connects to real building.
+- [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]: a live obsession against a passing interest.
+- [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: power-law upside against fights over a small split.
+- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: do not accept goals that require bad long-term constraints.

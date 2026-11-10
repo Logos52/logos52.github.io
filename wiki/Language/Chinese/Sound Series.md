@@ -1,150 +1,79 @@
 ---
 title: "Sound Series"
 type: concept
-status: developing
-created: 2026-06-10
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
-model: grok
-source-count: 3
+status: draft
+created: 2026-05-06
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "A sound series groups characters that share a sound component, using seven related-initial groups rather than exact modern pinyin matches."
 tags:
+  - language-learning
   - chinese
   - characters
-  - mandarin
-  - phonetics
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # Sound Series
 
-A sound series is the set of every character built on one sound component. 批 pī contains 比 bǐ. The pinyin initials differ, so a learner often decides the two characters are unrelated and discards the shared part. The pinyin letters are being used as the test of whether two characters belong together.
+A sound series is the set of characters that share a sound component. Thousands of years of sound change can make those links look baffling. The point of studying a series, at first, is the sound. Meanings and whether a given character belongs in a current vocabulary list can wait.
 
-The letters are the wrong test. Centuries of sound change separate modern Mandarin from the Old Chinese readings those components first recorded. When the characters that share one component are read as one family, the differing initials fall into a few groups of related initials. Saying both syllables aloud shows whether the tongue or lips still touch in the same place.
+Very few series look as tidy as a learner might expect, with every member sharing one reading and one tone. It is unusual for tones to be uniform across a series. Tones most likely did not exist in the older language, which is why they do not count for membership in a series. They matter completely when speaking.
 
-## Core takeaways
-
-- Every character built on one sound component belongs to one sound series. The series is a sound object; the meanings of the members hide the pattern at this stage.
-- Series membership ignores tone. Spoken Mandarin requires the correct tone. These are two separate facts.
-- Seven groups of initials cover the usual swaps inside a series. The test for a group is where the tongue or lips make contact.
-- Three crossings between groups exist. They are learned after the seven groups run automatically.
-- When the method works, an unstudied character with a known phonetic gives a short list of related-initial guesses.
-
-## Tone does not decide membership
-
-A sound series is a sound object. The meanings of the members do not help at this stage; they hide the pattern. [[wiki/Language/Chinese/Sound Components|Sound Components]] describes the same mechanism for a single character. A sound series applies it to the whole family.
-
-Series membership is tone-blind. Old Chinese likely had no meaning-distinguishing tones, so characters with a shared ancestor do not have to share a modern tone. Speech stays tone-strict, because modern Mandarin has tones. Confusing those two facts is a common error.
-
-A series where every member matches even in tone is rare. 府 → 俯 腐 腑, all fǔ, is one. The normal case is 侯 hóu → 候 hòu, 喉 hóu, 猴 hóu: the tones differ and the family is still recognizable. A learner who treats the all-fǔ family as the standard case will read every ordinary series as evidence against the method.
+Learners often reject a valid link when the surface pinyin differs, such as 比 bǐ and 批 pī. An authoritative note that those two readings are related acts like a fence. Once that fence is up, the brain can take in the sound connection.
 
 ## The seven groups
 
-When the rhymes do not match, the relationship is in the initials. Seven groups cover the usual swaps. The test is physical: pronounce both syllables and notice where the tongue or lips make contact.
+Many series vary by initial, the first sound in a word, such as tīng, dǒng, and qiáng. The variation is not random, and it runs through related initials. The seven groups are these.
 
-| Group | Prototype | Members |
-|---|---|---|
-| {t, d} | 同 | 銅 洞 筒 |
-| {zh, ch, sh} | 成 | 城 盛 誠 |
-| {j, q, x} | 巠 | 經 輕 勁 徑 |
-| {b, p, f} | 非 | 菲 排 悲 輩 |
-| {g, k, h} | 舌 guā (not 舌 shé) | 話 刮 活 括 |
-| {z, c, s} | 曾 | 增 層 贈 僧 |
-| {m, w} | 門 | 問 們 聞 悶 |
+t goes with d. zh, ch, and sh go together. j, q, and x go together.
 
-The first six groups are place-of-articulation families. {m, w} is looser: m and w are not a voicing pair, but both form at the lips. 勁 jìn sits in the {j, q, x} row with siblings that end in -ng; the vowel is the exception. Marking it as an exception keeps the rest of the row reliable.
+b, p, and f go together. g, k, and h go together. z, c, and s go together. m goes with w. Three crossings also occur between groups.
+<figure>
+<svg viewBox="0 0 520 320" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="lg-ss-a">
+<title id="lg-ss-a">The seven groups are these. t goes with d. zh, ch, and sh go together. j, q, and x go together. b, p, and f go together. g, k, and h go together. z, c, and s go together. m goes with w. Three crossings also occur between groups.</title>
+<rect x="0.5" y="0.5" width="519" height="319" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="24" height="3" rx="1.5" style="fill:var(--qp-accent)"/>
+<text x="20" y="44" text-anchor="start" style="fill:var(--qp-ink);font-size:15px;font-weight:600">The seven groups</text>
+<text x="20" y="76" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">t goes with d.</text>
+<text x="20" y="104" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">zh, ch, and sh go together.</text>
+<text x="20" y="132" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">j, q, and x go together.</text>
+<text x="20" y="160" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">b, p, and f go together.</text>
+<text x="20" y="188" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">g, k, and h go together.</text>
+<text x="20" y="216" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">z, c, and s go together.</text>
+<text x="20" y="244" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">m goes with w.</text>
+<line x1="20" y1="264" x2="500" y2="264" style="stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="288" text-anchor="start" style="fill:var(--qp-mut);font-size:14px">Three crossings also occur between groups.</text>
+</svg>
+</figure>
 
-## Where the groups have slack
+If two sounds seem unrelated, say them aloud. Notice whether they are made in the same part of the mouth. g, k, and h come from the back of the mouth. d comes from the front. The same self-test works for the other groups.
 
-The groups have exceptions. b and p both use the lips; f is lip-to-teeth; they still swap inside 非. The same lip-sound shift appears in Indo-European: father / Vater, fish / Fisch against poisson. It is one case of general sound change.
+Learn the basic groups first, then notice the crossings, then revisit. The crossings should not be memorized cold. They come from sound change over time. The English name George keeps a soft G, while an older German form keeps a hard G. The English ending -tion is spoken as "shun," a change in the same family as t or d meeting zh, ch, or sh.
 
-Vowels can vary inside a series that still holds. The 舌 guā family moves between -uo and -ua and stays one family.
+Mark exactly what drifts. It may be the initial, the final, or the tone. A true irregular, such as the -n on 勁 jìn, should be labeled as an exception. A marked exception can stay inside the fence. An unmarked one knocks the fence down.
 
-## Three crossings between groups
+Multiple readings of one character are usually related branches of one tree. Examples include 盛 as chéng and shèng, 彈 as dàn and tán, and 說 as shuō and shuì. The puzzling cases are two old glyphs that merged into one modern shape, such as the two histories behind 舌. Those are separate characters and separate series.
 
-Three interactions sit on top of the seven groups. They do not need to be memorized before the seven.
+## What the groups are for
 
-{g, k, h} crosses {j, q, x}. The soft g of George against German Georg is the same palatalization. 古 yields 故 估 苦 胡 and also 居 鋸. 夬 yields 決 缺 快.
+The rules exist so the learner can remember characters, call them back, and make smart predictions about ones not yet studied. Out-of-level members of a series still teach the pattern. They do not have to be enrolled as vocabulary. 夬 functions as a sound-bearing piece only in modern Mandarin, and it belongs on series pages without being added to a word list.
 
-{d, t} crosses {zh, ch, sh}. English -tion is pronounced sh; "watcha" fuses t + y. Ancient d shifted to zh in 占 and stayed d in 店. One series shows it: 單 → 彈 戰.
-
-{g, k, h} crosses {l}. 各 yields 客 格 貉 胳 beside 路 略 落 絡.
-
-Memorizing the crossings up front adds load without payoff. Once the seven groups run automatically, the learner notices a cross-group pair without extra effort.
-
-## What the groups give the learner
-
-Once the seven groups are learned as a declared boundary, a new instance becomes usable. A trained learner sees links that pinyin hides. The seven groups must be learned first; the crossings are useful only after that.
-
-This takes effort. What it gives is a rule: the initials in a group belong together, so the next unfamiliar character is kept or discarded by the mouth test instead of by its spelling.
-
-[[wiki/Language/Chinese/The IME Method|The IME Method]] is where a series guess becomes a candidate in recall. [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] gives the general form of a declared boundary and of deriving rather than storing.
-
-## Learning the groups
-
-The seven groups go in first. They are memorized. Related members are said aloud. Every new reading that relates to its component is noticed as a group member, not as a one-off spelling.
-
-Doubt is resolved with the mouth. t and d share a place of contact; p forms at the lips. If the letters differ and the contact point is the same, the character stays in the family.
-
-Singing the membership is optional. A verse that pairs 張 Zhāng with 湯 Tāng turns group membership into an auditory structure. It is a technique the learner can use or skip.
-
-Early confusion is normal. After the seven groups have settled, a reread starts to return plausible guesses at unstudied characters.
-
-## Common mistakes
-
-The first mistake is trusting the pinyin letters over the mouth test. Spelling then overrides articulation, and 比 is discarded from 批 again.
-
-The second is treating the all-fǔ 府 family as the standard case. Every tone-scattered series then looks like a counterexample.
-
-The third is letting tone-blindness into speech. Membership ignores tone; speech does not. A wrong tone in spoken Mandarin is an error at once.
-
-## Readings and shapes that mislead
-
-Multiple readings usually come from one original sense. 盛 chéng / shèng both come from "put into a container." The other forks, 彈, 說, 轉, belong on [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]].
-
-Merged glyphs are a different problem. 舌 in 話 / 活 / 刮 / 括 abbreviates a distinct ancient guā. 舌 shé "tongue" is a separate glyph that collapsed into the same modern shape. That is why the {g, k, h} row carries "(not 舌 shé)." 括 guā / kuò is ordinary {g, k} and -ua / -uo.
-
-Sound-only components get promoted to meaning. 夬 contributes pronunciation alone; looking for a meaning role in 決 / 缺 creates a false structure. 侯's 亻-like stroke belongs to the depicted target; 候 carries a genuine 亻. [[wiki/Language/Chinese/Empty Components|Empty Components]] covers the sound-only promotion. [[wiki/Language/Chinese/Form Components|Form Components]] covers the depicted-target half of 侯.
-
-## Limits of the seven
-
-Seven is a working count. It is not a closed natural class. {m, w} is already looser than the other six. Crossings memorized early are load without payoff. If every tone-scattered series is being thrown out, 府 was taken as the standard case. When the method works, an unstudied character whose phonetic is known gives a short list of related-initial guesses instead of a random guess.
-
-The pinyin letters still disagree. The learner now checks the family instead: the mouth test first, then the seven groups, then the crossings. Speech still requires the correct tone.
-
-## How to practice this
-
-1. Memorize the seven groups in the table. Say the related members of each group aloud. Notice that the tongue or lips make contact in the same place across a group.
-2. When a new reading relates to its sound component, note which group it falls in. Record it as a group member rather than as a one-off spelling.
-3. When two pinyin initials disagree, pronounce both syllables. If the contact point is the same, keep the character in the family. t and d share a place; p forms at the lips.
-4. If you want, sing the memberships. A verse pairing 張 Zhāng with 湯 Tāng turns the group into a sound pattern you can hear.
-5. Expect confusion at first. After the groups settle, reread a text and notice plausible guesses at unstudied characters whose phonetic you know.
-6. Leave the three crossings until the seven groups run automatically. Once they do, notice that a cross-group pair stands out without study.
-
-## Related pages
-
-- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]: the hub. This page scales Sound Components and does not replace it.
-- [[wiki/Language/Chinese/Sound Components|Sound Components]]: the single-character mechanism this scales.
-- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]]: reading forks of 盛, 彈, 說, 轉.
-- [[wiki/Language/Chinese/The IME Method|The IME Method]]: series guesses feed recall.
-- [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]]: spoken-word days draw on series.
-- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]: fence principle; derive-rather-than-store.
-- [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]]: the same sound-family reasoning across languages.
-- [[wiki/Language/Chinese/Empty Components|Empty Components]]: sound-only parts promoted to meaning.
-- [[wiki/Language/Chinese/Form Components|Form Components]]: the depicted-target half of 侯 / 候.
+A short verse that strings known characters of one group together gives the group something the ear can hold. One verse used in the lesson joins 張, 尚, and 陳 with 湯 and 鄧.
 
 ## Open questions
 
-Is seven a closed inventory, or do further groups earn a seat later?
-
-How far the same series reasoning projects into other Sinitic varieties, Japanese, Korean, and Vietnamese is the job of [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]], not a second table here.
-
-Where sound-only components live, as a class, sits on Empty and Form.
+- How does saying two initials aloud, and feeling that they use the same part of the mouth, change whether a pinyin mismatch still looks like a break?
+- How does labeling an irregular such as 勁 as an exception change whether the rest of the group still looks related?
 
 ## Sources
 
-Bernhard Karlgren, *Grammata Serica Recensa* (Stockholm: Museum of Far Eastern Antiquities, 1957). Phonetic series (諧聲) as the backbone of Old Chinese reconstruction.
+- Outlier Chinese Character Masterclass, Lesson 7, "Sound Series". Private course material, paraphrased.
 
-William H. Baxter and Laurent Sagart, *Old Chinese: A New Reconstruction* (Oxford: Oxford University Press, 2014). Place-of-articulation families and the palatalization splits this page teaches as seven groups plus three crossings.
+## Related pages
 
-André-Georges Haudricourt's tone-genesis account, as summarized in standard historical Chinese phonology: Old Chinese without meaning-distinguishing tones; modern tones later. Series membership can ignore tone; spoken Mandarin cannot.
+- [[wiki/Language/Chinese/Sound Components|Sound Components]]: the pieces that a series is built around.
+- [[wiki/Language/Chinese/The IME Method|The IME Method]]: later recall that uses these groups to list possible sound components for a syllable.
+- [[wiki/Language/Chinese/Empty Components|Empty Components]]: the next lesson after the series work.
+- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]]: multiple readings as related branches of one tree.

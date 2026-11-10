@@ -1,229 +1,121 @@
 ---
 title: How to Unlearn Old or Bad Habits Efficiently
 type: technique
-status: developing
+status: draft
 created: 2026-05-12
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
-model: grok
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "A complex skill changes when one cue's old response is isolated and replaced. Most of the time spent acquiring the skill is spent taking the old response apart."
 tags:
   - habits
   - unlearning
   - self-regulation
   - learning
   - metacognition
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # How to Unlearn Old or Bad Habits Efficiently
 
-A habit is one feeling joined to one automatic move. When the feeling arrives, the move is already prepared. A new response you are trying to learn is still being chosen at that moment, so the old move runs first. To unlearn a habit, shrink the target to one feeling-move pair and decide the replacement before the feeling arrives.
-
-## Core takeaways
-
-- A complex skill is a chain of small habits, each one feeling joined to one automatic move. Change one pair at a time, written as `when I feel X, I automatically do Y`.
-- The old response wins because it is already prepared when the cue lands. It does not win because it is stronger. A replacement decided before the cue arrives can be ready first.
-- A script is a pre-made decision in the form "when I feel X, I will do Y". Across 94 tests and about 8,000 participants, that form added a medium effect over a plain goal. A script that says what you will not do fails and can rebound.
-- Train the three parts of a response separately and in order: noticing the cue, knowing the replacement, then doing it under controlled pressure.
-- For a behaviour you want less of, change where and when it happens first, then weaken the payoff, then replace it.
-- The old response comes back when the context changes back, with time, and after re-exposure. Plan how to re-enter the practice instead of restarting the project.
-
-## The unit of change: one feeling, one move
-
-A complex skill is not one habit. It is a bundle of micro-habits: one feeling joined to one automatic move, many of them chained. Learning, exercising, writing, coding, language study, decision-making, and emotional regulation all run on those small links. A person does not usually fail the whole skill at once. They fail at one small transition.
-
-The unit to change is `when I feel X, I automatically do Y`. A **cue** is the thing that sets the habit off, usually a feeling, not an object. A **response** is what you then do without deciding to. A **cue-response pair** is one joined to the other. **Cue-response surgery** is changing that one pair on purpose instead of trying to improve the whole behaviour at once.
-
-Written as feeling → move, the pairs are easy to recognise:
-
-- overwhelmed → rote memorize
-- confused → ask AI to explain it
-- bored → open the phone
-- uncertain → delay the decision
-- exposed → avoid experimentation
-- messy → copy someone else's structure
-- tired → default to the old workflow
-
-The method works on pairs of that kind. If you cannot name your own pair in that form, the rest of the method has nothing to work on.
+A complex skill is a pile of small responses to cues, and many of the cues are feelings. The old response usually wins because it is fast and cheap. Building a new way to act costs scarce attention. A long practice session can spend that attention on blocking the old move and never get around to building the new one. Unlearning speeds the change by isolating one cue and one response, then training the noticing, judging, and acting steps of that response separately. A written script saves the decision so that when the cue arrives you already know the next step. You grow a habit you want more of by drilling that replacement. A habit you want less of also needs the cue removed or the reward cut, or the old loop keeps paying for itself. The response you can see is not always the one blocking progress. Fear of a mistake, or another emotional habit, may sit underneath. Unlearning is also a stance. Old methods are not part of who you are, and rushing through new techniques without practice leaves the old habit in charge.
 
 ## Why the old response runs first
 
-The old pathway runs quickly and automatically. The new skill still needs interpretation, trial, monitoring, and adjustment. Long practice can feel productive while most of the hour goes to suppressing the old pattern. You work hard, get tired, and improve slowly, because the actual constraint was never isolated. The result is exhaustion, frustration, and a sense of being stuck.
+Going from an old behavior to a new habit is slow because so many small actions have to line up. Planning, energy, what you do when something does not make sense, and what you do when a method feels like it is failing are each their own move. Once the new pattern is a habit it runs on its own and costs little energy. Getting there is the hard part. For a complex change, most of the calendar time is often spent taking the old habit apart. Shortening that stretch is one of the largest gains available in how fast a new skill arrives.
 
-The old response is already prepared when the cue lands. It wins because it is ready first. It does not win because it is stronger. Give the new response enough preparation time and it wins. Take that time away and the habitual one arrives first. Only a decision made before the cue changes which response is ready first. Resolve formed at the moment of the cue arrives too late. If the judgment is not pre-made, the old habit will often win before a decision forms.
+A new skill has a few checkpoints. First you understand the idea, which is the relatively easy part. Next your brain has to build a working model of how to execute, including the order, the intensity, the situation, and the feel. Conceptual instructions are not enough, any more than being told the exact twitch of a muscle would let you throw a ball. That model is built by trial and practice. Only after the model works, and after you can repeat it consistently, does the pattern settle into a habit.
 
-"I cannot change" is the wrong diagnosis. The correct diagnosis is that the old response arrives before the new one has been decided on. Old pairs can take up most of the hours that look like skill practice. That claim covers only those pairs. It does not describe skill acquisition in general.
+Old habits interfere with that middle step. School and earlier life leave habits that fire automatically. Rote memorizing when a page feels like too much, or handing the hard part to a language model when the material gets complicated, are both examples. They are cheap. The part of the brain that monitors and challenges them is expensive and tires quickly. While you try to learn a new technique, that monitoring has to work as a goalkeeper, blocking the old move again and again. The energy often runs out on the blocking. The new model never gets built. After a three-hour or four-hour session the monitoring may have faded in the first hour or two, and the old habit finishes the session for you. You can leave exhausted, convinced you tried hard, and still see almost no change. The drain was real. It was spent on the wrong work.
 
-Isolating one pair has a cost. The rest of the skill stays broken for a while, and awareness-first practice feels like doing nothing.
+## One feeling, one move
 
-## Practise the bottleneck
+A habit is an automatic response to a cue. The cue is often an emotion, such as overwhelm, boredom, the sense that a page is messy, or the sense that something is slipping away. The response might be making flashcards, skipping ahead, looking for a shortcut, or picking up a phone. The skill you are trying to grow is usually a change to that response, not a brand-new activity in the abstract.
 
-Do not practise the whole skill when the bottleneck is one cue-response point. Practise the bottleneck. Compare a throw that fails because the ball rolls off the wrong fingertip. Throwing more does not fix it. Drilling the release fixes it.
+The first job is to map the pairing. In the next long learning block, watch for the moment the feeling arrives, and notice what you do. You do not have to change it yet. Awareness of a pairing you usually miss is already useful work.
 
-If overwhelm triggers memorisation, do not keep running long sessions and hope the response changes. Create a small situation that triggers overwhelm, then practise the new judgment. Write down about ten unrelated keywords and try to build a map; the overwhelm arrives in about fifteen seconds. Or take something just learned and try to teach it in a completely different way.
-
-If uncertainty triggers AI offloading, do not promise to use AI less. Trigger the uncertainty, pause, and rehearse the decision to map the problem yourself first. A promise not to do the old thing is a negation. Negation does not hold. A replacement holds.
-
-If boredom triggers phone checking, do not rely on resolve after the phone is already in hand. Identify the cue and install a replacement before the cue appears again.
-
-The work has four steps: find the exact trigger, write the replacement, test it in a set-up situation, then run it in real work. The smaller the intervention, the faster the unlearning.
+You can then trigger the same cue on purpose, without waiting for a full study session. A short list of unrelated keywords that you then try to organize is often enough to produce the feeling of overwhelm in seconds. That gives you a small, repeatable place to work on the response.
 
 ## Three parts to train separately
 
-A response splits into three parts. **Awareness** is noticing the cue. **Judgment** is knowing which response to choose. **Execution** is doing it. Training all three at once makes the practice too heavy. Train them separately.
+The response itself splits into noticing, judging, and carrying out the move, and you can practice each of those on its own.
 
-Start with awareness. Notice the feeling without trying to fix it. The first win is recognising the cue in real time. Vigilant monitoring works on habits. The strategies that work on ordinary temptations do not work on habits.
+Awareness is noticing the cue and the pull of the old move. Judgment is deciding what you will do about it. Execution is actually doing the new move.
 
-Then train judgment. Trigger the cue lightly and mentally rehearse the replacement. Walk the failure points in the first person without running the attempt: the pull to hand it to a model → list, group, link → get stuck on a word → look it up, come back, group again. You find the breaks without performing the session. Rehearse until the next move is obvious, then move to execution. Mental rehearsal fades unless it is refreshed. When a script has faded, rehearse it again before you rewrite it.
+You can practice judgment as a rehearsal. Feel the cue, name the old pull, choose a better next step, and walk through that step in your head without carrying it out. Because you are not performing the full behavior, the old habit has less chance to seize the session. You can also spot problems in the plan, such as a word you would not understand, a grouping that would confuse you, or the next question you would have to look up. That rehearsal uses less energy than a live session and spends what energy you have on the constraint that is actually holding you back.
 
-Then train execution: use the script under controlled pressure and see what breaks. Under stress, control shifts from goal-directed to habitual. Short, focused practice limits how much of the session runs under the habitual system.
+Once the judgment is easy, execution becomes a smaller job. You already know what you intend to do.
 
-## Writing the replacement script
+## Write a replacement script
 
-A **script** is a pre-made decision. Its public name is an implementation intention. It hands control of the action to the cue you named, so you do not have to decide from scratch while the cue is live. Across 94 tests and about 8,000 participants the form adds a medium effect over a plain goal. The negation form fails and can rebound. The replacement form works.
+Decision-making in the moment of the cue is expensive, so a script saves that choice for earlier and says that when I feel this, I will do that. When the cue arrives you do not have to invent a plan. You carry out the one you already chose. That saves attention for building the new model.
 
-Weak: `When I feel overwhelmed, I should study better.`
+The pairing has to be specific. A complex skill is many small cue-response links, not one giant habit. Practicing the whole skill in a vague way does not retune the particular link that is failing. Isolate the problematic pairing and swap that one response.
 
-Useful: `When I feel overwhelmed by too many ideas, I will list the main pieces, group them into two or three rough clusters, then ask what relationship connects the clusters.`
+A physical comparison is throwing a ball and noticing that the trouble is only in how it leaves the fingers. You can rehearse that last part, or even imagine the wrist staying quieter, without running the whole throw every time. The isolated work then transfers when you return to the full motion.
 
-Weak: `When I feel confused, I should avoid shortcuts.` That one is vague, and it is also a negation.
+Keep rehearsing the judgment until the choice is obvious and you no longer have to think it through. If live experiments keep being hijacked by the old move, more hours of those experiments will not help. Return to the rehearsal until the new decision is the one that comes to mind first.
 
-Useful: `When I feel confused, I will write the exact question I cannot answer before asking AI or checking the source again.`
+## A habit you want more of, and a habit you want less of
 
-If the line still needs fresh planning at the moment of the cue, it is not a script yet.
+If you want a behavior to grow, drill the new response to its cue.
 
-## Increasing a behaviour and decreasing one
+If you want a behavior to shrink, changing the response alone is often not enough. You also need to remove the cue when you can, or cut the reward that keeps the old response strong, and pair that with a replacement. Scrolling a phone when you feel bored is the clear case. A script such as standing up for a two-minute stretch gives you a new move. The old move still pays you immediately if you let the feed deliver its usual hit. A blocker that inserts a delay, or a feed that has been emptied of interesting material, reduces that hit. Without that, replacement is an uphill fight against a loop that still pays.
 
-For a behaviour you want to increase, train the cue-response link. Pair it with the smallest version you would still count: a minimum viable goal, with permission to stop after each one. [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]] covers the minimum viable goal and the rest of the environment design.
-
-For a behaviour you want to decrease, change where and when first, then weaken the payoff, then replace. Changing the context does the most. Weakening the reward does less: once a behaviour is genuinely habitual it is often insensitive to how good the outcome still feels, and human labs have a hard time inducing that kind of habit on purpose. If boredom leads to scrolling and the scroll still feels rewarding, replacement alone is unlikely to be enough. Time the attempt to a disruption you already have: a move, a new job, a changed schedule, a different room.
-
-Weaken the environment: app blockers, friction, algorithm resets, phone distance. A blocker works because the delay arrives before the payoff. An algorithm reset works because the feed stops being personalised. [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]] treats the same problem as environment design rather than willpower.
+Removing the cue entirely is sometimes not possible. Then the work is to weaken the cue as far as you can, cut the reward, and install the new response together.
 
 ## When the visible habit is not the real target
 
-Sometimes the visible habit is not the real target. You write a script for overwhelm and never execute it, because trying something new feels like risking a mistake. The actual target was *when this could go wrong, I don't commit*. You planned a new response, tried it, and found a deeper cue. Finding the deeper cue is progress.
+You may write a good script and still fail to use it. Reflection after an attempt can show that a second pairing sat in the way. The moment the new move felt risky, fear of a mistake stopped you from trying it. That fear is now the cue that needs work. Practice awareness and judgment on that pairing first. Make the experiment feel safer, or break it into a smaller step. Then return to the original cue.
 
-Deeper cues look like: fear of mistakes; fear of looking stupid; discomfort with uncertainty; frustration when progress is slow; shame around not understanding; anxiety around experimentation. If fear blocks the new response, train the fear first: make the experiment safer, break the task smaller, lower the cost of the mistake. Do not keep pushing the surface technique while the deeper response keeps shutting it down. Noticing the blocker and then repeating the same surface technique is the failure to avoid.
+Discovering that inner layer is the point of the check, not a distraction. Trying the same outer script again, while ignoring the fear that blocked it, repeats the same stall. Honesty about which pairing actually stopped you is what lets the work move inward and then back out.
 
-## Checking each attempt
-
-After the attempt, write four short lines: what happened, what you noticed at the moment it went wrong, what that suggests, what changes next. That loop is [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]. Use it to find the moment the old pattern took over, and not only to reflect on the outcome.
+A related check during practice is whether the new move gets you closer to the principle you care about, such as seeing how ideas relate. It is a poorer sign if the move only makes the session feel easier.
 
 ## Breaks and recovery
 
-Performance drops on a long task because the control system stops holding the goal active. A break's job is to re-activate the goal, so brief, rare breaks work better than long, clock-scheduled ones. Rest as soon as attention starts to dull; if you wait until you are noticeably tired, refocusing takes much longer. A break only helps if it restores attention. Good recovery is often boring: walking, washing dishes, sitting without input, meditation, quiet movement, mind wandering. Bad recovery looks restful and keeps the brain stimulated: doomscrolling, algorithmic feeds, games that lock attention, rapid content switching. High-effort practice makes the old habit more likely to return once stress shifts control toward the habitual system. The ratio of work to rest matters less than whether enough attention is left to notice the old response and redirect it. [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]] covers recovery inside a block. Hard practice followed by rest that does not restore attention is a common way the old habit comes back.
+The monitoring that holds the old habit back tires. After focused work, a break that is about one third to one half as long as the work block is often enough to restore a useful amount of that capacity. Two hours of hard work might need a break of forty minutes to an hour. Four hours of deep work might need an hour and a half to two hours. What you do in the break matters. Passive, high-stimulation activity such as scrolling or many games does not rest the system. The useful state is closer to boredom and mind-wandering. A walk, sitting quietly, or washing dishes with attention on the task can get you there. That kind of rest is what lets the work settle.
 
-## Signs it is working and warning signs
+## The stance that makes replacement possible
 
-When unlearning is working, the target is specific. It moves from "I need to study better" or "I need more discipline" to "when this feeling appears, I know the old move, and I know the replacement move." Signs it is working: the cue is easier to notice; the old response is less invisible; the replacement decision is obvious; sessions are shorter but sharper; a failed session ends in a diagnosis instead of frustration; the same blocker stops repeating unchanged; the new behaviour needs less negotiation. Warning signs: every session is brute force; you keep restarting with the same intention; the replacement is still vague; you avoid the emotional blocker; practice feels easier but moves away from the goal. The old habit returning after fatigue is not, by itself, evidence the method failed. Return under a changed context, after time, or after re-exposure is normal for the system.
+Unlearning is swapping prior habits, skills, ideas, and practices for better ones. If learning matters most among the skills you can gain, unlearning is what makes room for it. There is no space left in a cup that is already filled.
 
-## Common failures and their repairs
+Everyone brings assumptions about how study is meant to work. Those assumptions color any new technique. You will not drop all of them. You do have to notice them, or they will silently refuse the new method. People who unlearn quickly do not treat an old idea as part of their worth. They treat flexibility itself as the identity worth keeping, while still thinking critically. A past failure with a method that looked similar does not decide what a new method will do, especially when the new method differs in a detail that is easy to miss.
 
-| Failure | What it looks like | Repair |
-|---|---|---|
-| Practising too broadly | Repeating the whole skill and hoping the weak part improves | Isolate the smallest cue-response bottleneck |
-| Suppression without replacement | Trying not to do the old habit | Write and rehearse a replacement script |
-| Execution too early | Performing before the judgment is clear | Train awareness and judgment first |
-| Reward still intact | The old behaviour still feels immediately good | Reduce the cue, add friction, or weaken the feedback |
-| Long-session decay | The first hour is intentional, then the old habit takes over | Shorter focused sessions and real recovery |
-| Surface fix | Training the visible habit while fear or shame blocks action | Pivot to the deeper pair |
-| Easier equals better | The new adaptation feels good because it avoids effort | Check whether it moves toward the goal, not whether it lowers discomfort. [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] is the sibling of that test |
-| No calibration | Behaviour changes and nobody checks whether it worked | Run the four-line loop, adjust, retest |
-
-## The sequence
-
-1. Name the behaviour you want to change.
-2. Identify the cue that triggers the old response.
-3. Write the automatic response honestly.
-4. Decide whether the goal is to increase or decrease the behaviour.
-5. If decreasing, weaken the cue first, where and when, then the payoff.
-6. Write a replacement script. The competing response should be physically incompatible with the old one and held long enough to outlast the urge. "I will think about it differently" is not a competing response. "I will close the laptop and stand up" is one.
-7. Practise awareness without forcing change.
-8. Practise judgment through mental rehearsal.
-9. Practise execution under controlled pressure.
-10. Run [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] after the attempt.
-11. Update the script.
-12. Repeat until the replacement feels obvious in the contexts it was trained. Practise it on purpose across the situations where the old response lives.
-
-## What the evidence covers
-
-This sequence is habit reversal training with different labels: awareness, a competing response, and generalisation across contexts. The clinical trials are on tics, habit disorders, and stuttering, not on study habits. Effects there are large. This sequence applies the same method to cue-response pairs in learning.
-
-Step 2 and step 8 usually give the fastest change. That is a judgment, not a measured finding. If the cue is vague, the practice is scattered. People's beliefs about their own triggers are often wrong, which is why awareness is trained rather than assumed.
-
-## Expect the old response to return
-
-The process has no end point. Extinction adds a second, context-dependent association. It does not erase the first. The old response returns when the context changes back (renewal), with time (spontaneous recovery), and after re-exposure (reinstatement). Expect return. Plan re-entry instead of restarting the project. Automaticity in formation studies plateaus at a median 66 days, range 18–254. A single missed day does not reset formation. Use that as a planning number. It is not a measured duration for this protocol. Do not judge the attempt at week three.
-
-The replacement becomes easier to choose in the rooms and hours where it was trained. Return of the old response is normal. Plan the re-entry.
-
-## Where this connects
-
-[[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] is often the same mechanism: the shortcut fires as an automatic response to discomfort, and no decision is made. A retrieval session should also retrieve the replacement: *what do I do when this cue appears again?* That is the extra step [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] takes from this method. [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] should target one cue-response bottleneck at a time; the next gain is usually one cue's response rather than a new technique. Any multi-stage learning routine has one stage you habitually skip or hollow out; find which, and treat that stage's cue as the target. [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is one such routine. A priority has become real when its first action gets easier to start. Tracking it in more places does not make it real. [[wiki/Self Management/Priority 0+1 System|Priority 0+1]] is a place to apply that. Attention breaks when an old response takes the next move before you notice; [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]] covers attention as the scarce resource across a day.
-
-## Limits, and when to stop
-
-The strongest case against this method: the trials are not on study habits; the 66-day figure is formation, not unlearning; lab habit-induction in humans is shaky; and the older explanation, that effort drains a store of energy, is wrong. Quit if every session is brute force, if the script is still a negation, if the same blocker is unchanged after you have pivoted to the deeper cue, or if two awareness-only weeks leave the cue no more noticeable. Checkable signs: the cue is noticeable in real time; the replacement needs less negotiation; a missed day is not treated as a reset.
-
-## How to practice this
-
-1. Name the behaviour you want to change. Write its cue and its automatic response as: when I feel X, I automatically do Y. Notice whether the cue is a feeling rather than an object.
-2. Decide whether you want to increase or decrease the behaviour. If decreasing, change where and when it happens first, then weaken the payoff. Notice whether the old behaviour still feels immediately good; if it does, replacement alone is unlikely to be enough.
-3. Write a replacement script: when I feel X, I will do Y. Notice whether Y is a move physically incompatible with the old one, held long enough to outlast the urge. If the script names what you will not do, or needs fresh planning when the cue is live, rewrite it.
-4. Practise awareness first, without forcing change. Notice the feeling in real time and do nothing about it yet. If two awareness-only weeks leave the cue no more noticeable, stop and reconsider.
-5. Trigger the cue lightly and rehearse the replacement in your head, walking each failure point in the first person. When the next move is obvious, run the script under controlled pressure in a short session. Notice which point breaks, and stop the session as soon as attention starts to dull.
-6. After the attempt, write four lines: what happened, what you noticed when it went wrong, what that suggests, what changes next. Update the script and repeat in each room and hour where the old response lives. If the same blocker repeats unchanged, look for a deeper cue such as fear of mistakes and train that first.
-
-## Related pages
-
-- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: the four-step reflection loop this page uses as calibration: where you find out why the replacement did not fire
-- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: hard thinking swapped for visible activity; this page supplies the reason, which is that the swap is a reflex
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: how to choose the next single improvement; this page argues the next gain is usually one cue's response
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: a three-stage encoding routine; this page's use is the stage you habitually skip or hollow out
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]]: retrieval; this page adds that a session should also retrieve the replacement response
-- [[wiki/Dimensions/Self-Management|Self-Management]]: parent hub for the habit and reflection cluster
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: a technique is judged by the thinking it produces; sibling of this page's "easier equals better" row
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: parent hub for the control-layer cluster
-- [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]: attention as the scarce resource across a day; this page supplies the cue-hijack
-- [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: daily prioritisation; a place to apply cue-response upgrades
-- [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]: procrastination as environment design rather than willpower
-- [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]]: the vault's habit-design page; owns environment, cue prep, and the minimum viable goal
+The other common stall is rushing. A technique that looks easy gets skipped. A month later it "did not work," because it was never practiced. Foundations have to be in place before the next climb. The change you need may also not be the change you expected. Openness to that surprise is part of the work.
 
 ## Open questions
 
-Which cue most often ends a deep-processing session.
+Which cue most often ends a deep-processing session?
 
-Where AI is replacing a judgment that should stay human.
+Where is a tool replacing a judgment that should stay human?
 
-Which old study habit still wins by being first.
+What old study habit still wins by being first?
 
-Which priority still needs a replacement script.
+Does this priority still need a replacement script?
 
-Which emotional cue blocks experimentation.
+What emotional cue blocks experimentation?
 
-Which sessions are too long for the monitoring they need.
+Are these sessions too long for the monitoring they need?
 
-Where would a five-minute judgment exercise beat another hour of execution.
+Where would a short judgment rehearsal beat another hour of execution?
 
 ## Sources
 
-- Hardwick, R. M., Forrence, A. D., Krakauer, J. W., & Haith, A. M. (2019). Time-dependent competition between goal-directed and habitual response preparation. *Nature Human Behaviour*, 3, 1252–1262. Habitual responses are prepared earlier; goal-directed ones win given time.
-- Wood, W., & Rünger, D. (2016). Psychology of habit. *Annual Review of Psychology*, 67, 289–314. Cue-triggered, intention-independent response.
-- Neal, D. T., Wood, W., Labrecque, J. S., & Lally, P. (2011). How do habits guide behavior? *Journal of Experimental Social Psychology*. Reported triggers often miss the real ones.
-- Gollwitzer, P. M., & Sheeran, P. (2006). Implementation intentions and goal achievement. *Advances in Experimental Social Psychology*, 38, 69–119. 94 tests, ~8,000 participants, d = 0.65 over goal intentions.
-- Adriaanse, M. A., et al. (2011). Breaking habits with implementation intentions. *Personality and Social Psychology Bulletin*. Replacement works; negation does not.
-- Azrin, N. H., & Nunn, R. G. (1973). Habit-reversal. *Behaviour Research and Therapy*. Awareness, competing response, generalisation.
-- Bate, K. S., et al. (2011). The efficacy of habit reversal therapy. *Clinical Psychology Review*. Consistent large effects, about 0.80, on tics, habit disorders, stuttering.
-- Quinn, J. M., Pascoe, A., Wood, W., & Neal, D. T. (2010). Can't control yourself? Monitor those bad habits. *Personality and Social Psychology Bulletin*. Vigilant monitoring works on habits; temptation strategies do not.
-- Driskell, J. E., Copper, C., & Moran, A. (1994). Does mental practice enhance performance? *Journal of Applied Psychology*. Larger on cognitive tasks; decays unless refreshed.
-- Bouton, M. E. (2004). Context and behavioral processes in extinction. *Learning & Memory*. Renewal, spontaneous recovery, reinstatement. Original learning is not erased.
-- Wood, W., Tam, L., & Witt, M. G. (2005). Changing circumstances, disrupting habits. *Journal of Personality and Social Psychology*. Context change disrupts established habits.
-- Verplanken, B., & Roy, D. (2016). Empowering interventions to promote sustainable lifestyles. *Journal of Environmental Psychology*. Same intervention, larger change after a move.
-- Lally, P., et al. (2010). How are habits formed. *European Journal of Social Psychology*. Median 66 days to plateau, range 18–254; a missed day did not reset formation.
-- Hagger, M. S., et al. (2016). A multilab preregistered replication of the ego-depletion effect. *Perspectives on Psychological Science*. 23 labs, no effect.
-- Vohs, K. D., et al. (2021). A multisite preregistered paradigmatic test of the ego-depletion effect. *Psychological Science*. 36 labs, d = 0.06.
-- Schwabe, L., & Wolf, O. T. (2009). Stress prompts habit behavior in humans. *Journal of Neuroscience*. Control shifts toward habitual under stress.
-- Dewar, M., et al. (2012). Brief wakeful resting boosts new memories. *Psychological Science*. Quiet rest after learning is measurable.
-- Ariga, A., & Lleras, A. (2011). Brief and rare mental "breaks" keep you focused. *Cognition*. Goal habituation, not fuel exhaustion.
+- iCanStudy, Live Clinic 69, "How to unlearn old or bad habits efficiently." Private course notes, paraphrased.
+- iCanStudy, Unlearning, Technique Training. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: the reflection loop that shows why a replacement did not fire.
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: hard thinking swapped for visible activity, often as a reflex to a cue.
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: choosing the next single improvement, which is usually one cue's response.
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: a three-stage encoding routine, and a place an old habit can skip or hollow out a stage.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]]: retrieval practice, including retrieval of the replacement response.
+- [[wiki/Dimensions/Self-Management|Self-Management]]: parent hub for the habit and reflection cluster.
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: a technique is judged by the thinking it produces, next to this page's warning that "easier" is a poor test.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: parent hub for the control-layer cluster.
+- [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]: attention as the scarce resource a cue can hijack.
+- [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: daily prioritisation, a place to apply a cue-response upgrade.
+- [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]: shrinking an unwanted loop by changing the environment around it.

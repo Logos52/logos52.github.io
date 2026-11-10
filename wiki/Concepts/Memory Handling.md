@@ -1,96 +1,60 @@
 ---
-title: Memory Handling
+title: "Memory Handling"
 type: concept
-status: seed
+status: draft
 created: 2026-05-02
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
-model: grok
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "Most people have similar raw memory capacity. What differs is how they handle information in the short working-memory window, and six moves make that handling more effective."
 tags:
   - memory
   - working-memory
-  - metacognition
+  - encoding
+  - retrieval
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # Memory Handling
 
-Memory handling is the work of shaping, attaching, and testing a piece of new material in the short window after it arrives. The piece has to be handled at once, while it is still in working memory. That short window is the control point.
+What looks like a poor memory is usually poor handling of memory. Raw capacity is similar for most people. Memory champions who recite long sequences of numbers are using trained strategies, and those strategies can be learned. Information does not simply arrive and stick or vanish based on whether you were born with a good memory. It arrives in a short workspace, and what you do in that workspace decides whether you keep it.
 
-The claim covers ordinary study forgetting only. It does not cover clinical memory loss, ADHD working-memory differences, or a night without sleep.
+## The short workspace
 
-## Core takeaways
+Short-term memory lasts about 15 to 30 seconds. The exact span depends on how complex the material is and how familiar you are with it, but it is measured in seconds, not hours. Early research already pointed toward a span of seconds, and later work has stayed close to that range. The longer store that holds what you keep is long-term memory. If you reach the bottom of a page 2 minutes later and cannot remember the top, that is not a short-term memory failure. Two minutes already belongs to that longer store. The first window has already closed.
 
-- Working memory holds few items, and it holds them for a short time. A piece that is not worked on there fades when the next piece arrives.
-- Handle each piece at once. Two minutes is already longer than the window working memory holds an item without rehearsal.
-- Most people have about the same raw capacity. People with extraordinary recall use strategies; they do not have a bigger store.
-- Eight moves fit in the window: increase processing complexity, pause to process, encode relationships, retrieve before checking, retrieve in the target context, reduce spoken noise, think on paper, and monitor whether meaning is forming.
-- Understanding a piece in the moment does not show that it was handled. If you cannot rebuild it later, the handling was too shallow or too late.
+That short window is the reason the workspace exists. New information enters through the senses and lands there first. You then have 15 to 30 seconds to work with it, shape it, and make it mean something. If the result is vague, it tends to drop into the forget pile. If you form something clear and meaningful inside that window, it can pass into long-term memory. A better name for this workspace is working memory, because the point is the work you do there, not the brief storage.
 
-## What working memory can hold
+Working memory also has a weight limit. An older estimate treated this as an item limit of about seven things at once. A more useful picture is weight. Seven light items, such as short digits, can fit. One heavy item, such as a dense term you have to unpack every time you see it, can fill the same space. Read hundreds of words in 30 seconds and you will not retain them all, because you exceeded the weight the workspace can hold.
 
-Working memory holds few items, and it holds them for a short time. It is the place where a piece gets worked on. Leaving a piece there does not store it. A piece that is not shaped, attached, or tested while it is still in working memory fades, and the next piece arrives on top of it. So handle each piece immediately.
+## Six ways to handle it better
 
-When a person forgets something two minutes after taking it in, they often call it bad short-term memory. Usually it is fast decay from long-term memory. Two minutes is already longer than the window in which working memory holds an item without rehearsal.
+The first move is to raise the complexity of what you do with the incoming information. Rereading, copying a line a few times, or merely intending to understand are simple processes. They do not transform much. A more involved process extracts key words and ideas, restates a concept in easier language, and builds an analogy. It can also connect the idea to something you already know, judge how important it is for your purpose, ask what problems it would help you solve, or prepare you to teach it. Those moves engage the mind more actively and turn raw input into something more meaningful, which you are more likely to keep later.
 
-Most people have about the same raw capacity. People with extraordinary recall use strategies. They do not have a bigger store.
+The second move is to handle the information immediately. A common habit is to consume everything first and make sense of it later. That habit assumes the material will still be waiting in long-term memory when you come back. It usually will not. You read, you understand in the moment, and days later you cannot recall enough to start from anywhere but the beginning. As soon as something enters working memory, do something with it. Get curious, connect it, teach it, or simplify it inside those 15 to 30 seconds. Spending about 10 extra seconds handling it now saves the later time you would have spent relearning what you forgot.
 
-## What to do while the piece is still in working memory
+The third move is to pause so the handling can happen. If more information keeps arriving while you are still working on the last piece, you exceed the weight limit and enter cognitive overload, where the mind can no longer produce useful output. Respect the limit. Pause the video, stop reading, and give the workspace time to build meaning. Then open the gate for the next piece. This start-and-stop rhythm raises the amount of lasting memory you get from each hour of study.
 
-Eight moves fit in that window. You can use any of them. The list is not closed.
+The fourth move is to keep distracting sound out of the workspace. Other words and numbers occupy space even when you are not trying to listen to them. Someone reciting random numbers beside a person doing mental arithmetic steals capacity from the sum. If people talking or other noise is eating attention you need for active thought, do not try to push through it. Move, or block the sound, so working memory can do the job you sat down to do.
 
-1. Increase processing complexity. Extract keywords. Re-explain. Analogise. Connect to what you already know. Judge importance. Prepare to teach. Those are the moves. Telling yourself to think harder is not one of them. These moves belong to [[wiki/Dimensions/Deep Processing|Deep Processing]]. [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is a full encoding loop made of this kind of handling.
+The fifth move is to practice retrieval. Working memory is also the place where long-term knowledge is pulled back. A memory can be stored well and still fail to come when you need it. That is retrieval failure, not a storage failure. Practice using the knowledge at the level of fluency you will actually need. The practice shows gaps and errors in the original encoding, and those errors can then be corrected and stored again. Be careful about the cues you practice with. If you will need the knowledge to answer a hard question, teach it, solve a messy problem, or make a decision, and you only practice with flashcards, the cues do not match. You may recall the card and still fail to bring the knowledge forward in the setting where it matters. That cue mismatch is a common weakness of flashcards as a main method.
 
-2. Pause consumption to process. Taking in the next sentence while the last one is still unprocessed adds load. The stuck feeling that comes with it is a cue to stop and process. [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] explains that cue.
-
-3. Encode relationships before you pile up isolated facts. An isolated detail costs a lot to hold. Connected structure costs less.
-
-4. Retrieve fully before you check the source. Retrieval is practice. It also brings the item back into working memory, so a correction can be encoded.
-
-5. Practise retrieval in the target context, the conditions you will need the piece under. Do the same later on a schedule. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] covers retrieval as a scheduled practice, and covers more than the immediate check. Retrieving before checking and retrieving in the target context are both on [[wiki/Dimensions/Retrieval|Retrieval]].
-
-6. Reduce distracting spoken noise. Speech you are not attending to disrupts recall of items in order (serial recall). In the lab, the test is someone saying numbers while you count. In daily life, it is a room where people are talking. Move to another room, or cover your ears.
-
-7. Think on paper. Writing the structure down moves it out of your head, so working memory is free to take the next connection. The method is on [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]].
-
-8. Monitor whether the piece is being turned into meaning or is only passing through attention. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] covers that monitoring.
-
-## How to tell whether the handling worked
-
-If you understood a piece in the moment and cannot rebuild it later, the handling was too shallow or too late. Understanding in the moment is not evidence that the piece was handled.
-
-## How to practice this
-
-1. Read one sentence, then stop before the next one. Restate it in your own words and connect it to something you already know. Notice any stuck feeling when you try to read on; it means the last sentence is still unprocessed.
-2. Before you check the source, recall the whole piece from memory. Notice which parts you cannot rebuild. Correct those parts now, while the piece is back in working memory.
-3. Write the structure of what you are learning on paper. Notice whether you can now hold the next connection in your head.
-4. Study where no one is talking, or cover your ears. Notice whether you can hold a list in order for longer than in a room with speech.
-5. While you read, ask whether the piece is becoming meaning or only passing through your attention. Notice when it is only passing through, and stop to process it.
-6. Later, try to rebuild a piece you felt you understood at the time. If you cannot, the handling was too shallow or too late.
-
-## Related pages
-
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: the monitor that watches whether material is being transformed or is only passing through
-- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]: why continuing to take in material while the last item is unprocessed overloads working memory
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]: the family increase-complexity belongs to
-- [[wiki/Dimensions/Retrieval|Retrieval]]: the hub for retrieve-before-checking and retrieve-in-the-target-context
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]: the offload; that page owns the method
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: a full encoding workflow that is handling
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: retrieval as a scheduled practice, not only an immediate check
-- [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]], vault overlay: working memory as a global workspace
+The sixth move, and the one the source calls a favorite, is to think on paper. Holding several related ideas in your head at once blows past the 15-to-30-second weight limit. Notes, sketches, and diagrams create a second surface the workspace can look at. Once a connection is written down, working memory no longer has to hold it. It can focus on the next small comparison or link, then put that on the page too. The growing record shows how the ideas fit, and the quality of what gets stored goes up because the workspace was never asked to carry the whole structure alone.
 
 ## Open questions
 
-Which of these moves transfer when the material is professional rather than academic.
+How much of my last study hour was spent handling each idea inside the first 15 to 30 seconds?
 
-How retrieval should differ when the knowledge is a procedure rather than a fact.
+How closely do the cues I practice with match the cues I will face when I have to use this knowledge?
 
 ## Sources
 
-- If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes. Public video. The reframe and the strategy names. Speaker's program is not required and is not named here.
-- Craik, F. I. M., & Lockhart, R. S. (1972). Levels of processing. *Journal of Verbal Learning and Verbal Behavior*.
-- Craik, F. I. M., & Tulving, E. (1975). Depth of processing and the retention of words. *Journal of Experimental Psychology: General*.
-- Cowan, N. (2001). The magical number 4 in short-term memory. *Behavioral and Brain Sciences*. Working memory as the attended portion of long-term memory plus a limited focus.
-- Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*.
-- Salamé, P., & Baddeley, A. (1982). Disruption of short-term memory by unattended speech. *Journal of Verbal Learning and Verbal Behavior*.
+- Justin Sung, "If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes," 2 May 2026. [https://www.youtube.com/watch?v=UyiKBkUZ2xc](https://www.youtube.com/watch?v=UyiKBkUZ2xc).
+
+## Related pages
+
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]: the sixth move, written out as a method.
+- [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]: one way to put connections on a page so working memory can let them go.
+- [[wiki/Dimensions/Retrieval|Retrieval]]: practicing recall at the level you will need it.
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]: what happens when the workspace is overloaded, and which kind of effort is useful.

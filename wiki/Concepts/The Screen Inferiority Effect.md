@@ -1,100 +1,72 @@
 ---
 title: "The Screen Inferiority Effect"
 type: concept
-status: seed
+status: draft
 created: 2026-06-19
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-source-count: 1
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "Screens often produce weaker learning than paper because everyday screen reading trains shallow processing, and the gap shrinks when you slow down, cut distractions, and think more deeply."
 tags:
-  - deep-processing
   - learning
-  - metacognition
-  - spatial-memory
-  - fluency-signals
+  - reading
+  - deep-processing
+  - memory
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # The Screen Inferiority Effect
 
-Paper beats screens for learning. The reason is a set of frictions that a reader can remove. The largest friction is a trained habit of not thinking while reading a screen. This habit is the screen inferiority effect. The medium itself is not the cause: instruct a reader to process a screen deeply and the paper advantage disappears. So paper is not what produces the gain.
+Paper shows a small, consistent comprehension advantage over screens in a long run of studies, and the advantage is not a magic property of paper. It appears when you are learning from informational text, especially under time pressure, and especially when the text is longer than about 500 words and you have to scroll. It does not show up clearly for stories and novels. People who read the same material on a screen are also more likely to overrate how well they understood it. The useful question is why those gaps appear, because once you know the causes you can make screen learning nearly as strong.
 
-The measured paper advantage is small and consistent. It appears only under specific conditions: learning from informational text, under time pressure, on passages over ~500 words. Narrative text is exempt; novels read the same on an e-reader. The gap widens when the screen text requires scrolling. The clue to the real mechanism is calibration. Given the same passage, the screen reader rates their own retention higher than it is.
+## What the studies find
 
-## Core takeaways
+The paper advantage has been debated for as long as screens have existed. Across decades of work it is small and reliable for learning from text, and it fades when no one is in a hurry. In ordinary life, informational reading usually is hurried, so the advantage shows up often.
 
-- Paper beats screens for learning by a small, consistent margin, and the cause is a set of removable frictions. The largest friction is a trained habit of not thinking on screens.
-- Instruct a reader to process a screen deeply and the paper advantage disappears. Deep processing is the cause; paper only makes it the default.
-- The paper advantage appears only for learning from informational text, under time pressure, on passages over ~500 words, and it widens when the text needs scrolling. Novels read the same on an e-reader.
-- Screen readers rate their own retention higher than it is. The brain judges its progress from fluency signals, and screens produce false ones.
-- Recognition is not recall. Only recall and transfer count as learning.
-- E-readers close most of the gap because they fix distraction, spatial anchors, and line length. This confirms that the medium itself is not what makes the difference.
+There is also a developmental pattern. Children who grow up around many books tend to show stronger literacy, numeracy, and even technological problem-solving later on. A survey of more than 70,000 people across 27 countries compared children who grew up around many books with children who grew up around almost none. Growing up around many books was associated with about 3 extra years of schooling, after accounting for parents' education, jobs, and social class. The benefit rose as the number of books rose, up to around 80 books, and then flattened. The proposed explanation is household culture. A home with enough books to mark it as a reading household is different from a home with none. That difference has roughly the same size of benefit as having university-educated parents rather than unschooled parents. The gains were found in all 27 countries and extended into adulthood.
 
-## The four frictions
+Stopping at "books are better" would miss the point. The paper itself is not the cause. Four reasons in the research explain the pattern, and the fourth is the most important.
 
-A reader removes the first three with setup. The fourth is the one that matters.
+## Fewer distractions, stabler places, better line lengths
 
-1. **Distraction.** Screens add ads, notifications, and navigation micro-decisions. Working memory limits sense-making, so a small load on it adds up across a session.
-2. **Spatial-memory anchors.** The brain stores position with content ("lower-left of the page"). A fixed page keeps the anchor. Scrolling moves the content and breaks the anchor. The same principle is why mind-mapping aids retention: it uses spatial memory on purpose.
-3. **Line length.** The eye focuses in a ~5° cone. The return sweep to the next line loses accuracy as lines get longer, and finding the next line then uses working memory. The optimum is ~50–70 characters (~600–700px). This is why learning-optimized pages cap text width.
-4. **The screen-inferiority effect.** Almost all screen reading (texts, news, captions) aims at reply, entertainment, or nothing. So the brain has learned to read screens without engaging. Learning needs the opposite: retain, build durable structures, transfer. The deficit is a habit of shallow processing carried over from that other screen reading. The screen itself does not cause it.
+On paper there are no ads, message pop-ups, or extra clicks. On a screen you spend a slice of working memory ignoring those things and deciding where to look or tap next. Working memory is limited, so even a small drain has a large effect on focus over a long session.
 
-## Two results that follow
+The mind also stores context around a fact, and spatial position is one of the strongest kinds of context. A note that stays in one place on a page is easier to anchor than text that slides as you scroll. Scrolling breaks those spatial anchors. This is also a reason mind maps help. They let you place ideas on purpose so the page itself supports memory.
 
-E-readers close most of the gap because they fix frictions 1–3. This confirms that the medium itself is not what makes the difference.
+Line length matters too. Focused vision covers a cone of about 5 degrees. Long lines force a long sweep back to the start of the next line, and some attention is spent hunting for the correct next line rather than understanding the sentence. Well-designed pages keep text about 600 to 700 pixels wide, which yields roughly 50 to 70 characters on a line, the range research treats as a good length.
 
-A reading household is worth roughly three extra years of schooling. The benefit rises until ~80 books and then plateaus. The best reading of this result is that such a home trains the cognitive strategies a screen-heavy environment never demands. The books as objects are not the cause.
+Those three reasons predict that a simple e-reader or tablet, with fewer distractions and more paper-like layout, should close much of the gap. Studies of e-readers and tablets often find a smaller difference, and sometimes none. That still leaves the fourth reason.
 
-## Why screen readers overrate their own retention
+## The habit screens train
 
-The overconfidence has a mechanism. The brain judges its progress from fluency signals, and screens produce false ones. Most people track only coverage and understanding-on-contact. A scroll bar is a progress bar in the literal sense: it measures ground covered, and the reader takes ground covered as progress. But understanding-on-contact is recognition, not recall. You can recognize a playing card instantly and still fail to draw it from memory. Recognition feels like learning, but only recall and transfer are learning. The study questions that build memory are connective: compare, contrast, find the pattern. They take longer per page. They reach the goal sooner.
+The screen inferiority effect is not a claim that screens are simply bad. It is a claim about habit. Most of the time you read on a phone or a laptop, you do not need to think deeply. Messages, captions, and other light reading ask for little, so the mind learns to process screens in a shallow way. When you then try to learn from a screen, that habit is still running. You do not automatically think critically or make connections, because most screen reading has never required it.
 
-## What to do
+The same account helps explain the book-household finding. Growing up around books encourages certain thinking habits, while growing up around mostly shallow on-screen reading does not. If the habit is the real cause, then asking someone to think more deeply and critically while they read on a screen should erase the paper-versus-screen gap, and that is what the follow-up research finds. Medium is not the core issue. The thinking is. A person who does not know how to process deeply will learn poorly on paper and on a screen alike.
 
-- For anything studied over hours to weeks, use the physical book. A physical book already has frictions 1–3 fixed, so there is nothing to set up.
-- On a screen, open one window, narrow it to ~45–70 characters per line, and close the rest.
-- When a screen read turns long, print it. Dense material needs fast, easy movement back and forth.
-- Whatever the medium, process deeply. Deep processing is what removes the gap.
+This also explains the extra overconfidence on screens. The mind uses fluency signals as a progress marker, such as recognizing a word or covering another stretch of text. A scrollbar is a literal progress bar. Each scroll, and each link you click, sends a signal that you have covered more. Those signals feel like learning and are not the same as being able to use the material. On paper you may sit with two pages for 15 minutes, 20 minutes, or 30 minutes, which produces fewer of those signals and less false confidence. Learning faster often means telling the mind to slow down and think more carefully at each step.
 
-## What the claim covers
+## What to do with a book, and with a screen
 
-Recognition is not recall. Fluency is not performance. The claim is that deep processing is superior and that paper makes deep processing the default. The claim is not that paper is superior. Narrative reading is exempt; the effect is specific to learning from text.
+If you will spend hours, days, or weeks on a subject, a physical book is the easier default. Line length, low distraction, and stable spatial layout are already there. You can recreate those conditions on a screen, and when you do the difference becomes small, but you do not have to recreate them if a book is available.
 
-## Where the evidence is weak
+When the material is on a screen, keep a single window open. Narrow it until a line holds roughly 45 to 70 characters. If you realize you will be reading for a long stretch, print the pages. Fast flipping back and forth, with a finger holding a place, is harder on many e-readers than in a book. That friction is one reason a paper copy can still win even after you own a digital reader. A preference for the feel of paper is partly personal. Newer work on a possible physical advantage from holding and smelling paper is still unclear and is likely to be a small effect.
 
-The raw paper effect is small and confounded. Control for processing depth and most of it goes away, so the claim "paper is better" says more than the evidence supports. The kinesthetic benefit of paper (smell, feel, hand-flicking) is personal preference plus early research that is likely minor; the main claim does not rest on it. The household-books result is correlational. The cognitive-strategy explanation is the leading theory, not a proven cause.
-
-## Two checks and a stop rule
-
-Read a screen passage deliberately deeply. Comprehension should match a paper read within the session. If it does not, the deficit is your deep-processing skill, not the medium.
-
-After a block, attempt recall rather than re-reading. Recognizing everything but recalling little means you relied on fluency signals.
-
-If deep processing on screen still leaves you unable to recall or transfer, the medium is not the problem. Train deep processing directly. The limit comes before the choice between paper and screen.
-
-## How to practice this
-
-1. For anything you study over hours to weeks, use the physical book. Notice that distraction, spatial anchors, and line length are already fixed, so there is nothing to set up.
-2. When you must read on a screen, open one window and close the rest. Narrow the window to about 45–70 characters per line. Notice whether finding the next line takes less effort.
-3. When a screen read turns long, print it. Notice how much faster you move back and forth through dense material.
-4. Read a screen passage deliberately deeply. Notice whether your comprehension matches a paper read within the same session. If it does not, the gap is in your deep-processing skill, not the medium.
-5. After a block of study, try to recall the material instead of re-reading it. Notice whether you recognize everything but recall little. That pattern means you relied on fluency signals.
-6. While you study, ask connective questions: compare, contrast, find the pattern. Notice that each page takes longer. Notice that you reach the goal sooner.
-
-## Related pages
-
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]: the real cause of the gain; the medium is secondary to processing.
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]]: the misjudgment of fluency as performance is a metacognitive failure.
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]: the method of using paper as a thinking tool; spatial memory and mind-mapping connect to it.
-- [[wiki/Concepts/Memory Handling|Memory Handling]]: recognition versus recall, encoding context.
-- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]: the screen habit is consuming that looks like learning.
+So does the brain learn better from paper? In general, yes. Does that mean you cannot learn well from a screen? No. Slow down and use the thinking the material actually needs.
 
 ## Open questions
 
-- Will the research on the kinesthetic benefit of paper show an effect that matters in practice, or will it stay a minor preference?
-- Is there a measurable e-ink versus backlit difference once line length and processing depth are held constant?
+How much of my screen reading this week asked me to think, and how much only asked me to keep scrolling?
+
+How can I tell a fluency signal, such as a moving scrollbar, from a sign that I can actually use what I just read?
 
 ## Sources
 
-- Justin Sung, *Why Your Brain Learns Better From Paper* (YouTube, 2026-06-20). L3 working notes: `01 - Workbench/` (archived to `outputs/L3/Opus/` on promotion).
-- Household-books study: Sikora, Evans, & Treiman, ~70,000 participants across 27 countries (provenance).
+- Justin Sung, "Why Your Brain Learns Better From Paper," 20 June 2026. [https://www.youtube.com/watch?v=A9diICLQ9Ls](https://www.youtube.com/watch?v=A9diICLQ9Ls).
+
+## Related pages
+
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]: using the page as a place to think, not only as a place to display text.
+- [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]: placing ideas in space so memory can use those positions.
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]: the thinking habit that closes the paper-versus-screen gap.
+- [[wiki/Concepts/Memory Handling|Memory Handling]]: working memory's limits, which make distractions and long lines costly.

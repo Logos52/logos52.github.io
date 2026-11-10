@@ -1,91 +1,72 @@
 ---
 title: "Character Primer"
 type: concept
-status: developing
+status: draft
 created: 2026-05-06
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
-model: grok
-source-count: 3
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "Chinese and Japanese characters are picture-like symbols that are easier to remember when they are broken into meaningful components."
 tags:
   - language-learning
   - chinese
   - characters
   - immersion
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # Character Primer
 
-A character primer is a short orientation that treats characters as reusable parts met in real words. It does not treat them as a list of radicals or as isolated handwriting practice. Once a learner knows about components, recognition, and repeated exposure, a character-based writing system becomes easier to enter, and the characters stop looking like arbitrary shapes during immersion.
+Chinese and Japanese do not build words by combining letters from an alphabet. They use characters. Characters are like pictures that represent a meaning. Drawing a realistic picture of everything would take too long, so the old forms are picture-like symbols rather than detailed drawings. Some characters resemble the meaning they stand for. Most do not.
 
-## Core takeaways
+Examples include 火 for fire, 山 for mountain, 牛 for cow, and 肉 for meat or flesh. Each of those characters is also a word by itself. Not every character is a word. Some never appear alone and only form a word when combined with other characters.
 
-- Characters are reusable written units. Some are words on their own, some appear only inside longer words, and many modern words use two or more characters.
-- Knowing both characters in a compound does not guarantee its meaning. Only the surrounding sentence tells whether two characters are one word or two.
-- Many characters carry a meaning clue and a sound clue. The clues help often and fail in some characters, so context settles the meaning.
-- The 214 radicals are a dictionary index, not a study list. Sound parts that keep recurring are worth noticing when they appear.
-- Characters stop looking like arbitrary shapes after repeated meetings in real words, subtitles, and audio. Handwriting practice on isolated characters is not the default.
-- When the target script is Traditional and the available video is Simplified, a lookup tool that converts the script and shows missing subtitles does the needed work.
+Words are usually one or two characters long, and sometimes three or four characters long. Two-character examples that use the characters above are 火山, fire plus mountain, meaning volcano, and 牛肉, cow plus meat, meaning beef. The meaning of a multi-character word is not always predictable in that way. It is common to meet a new word made of familiar characters and still need to look it up.
 
-## What a character is
+## Several meanings, several readings
 
-Chinese characters are reusable written units. Some function as words by themselves. Some only appear inside larger words. Many modern words are built from two or more characters.
+A single character can appear in many words, so it can carry many meanings. A very common character may show more than ten meanings in a popup dictionary. Characters can also have more than one pronunciation. That is especially common in Japanese, which uses fewer characters than Chinese and so uses the ones it has in more words. Context decides which meaning and which pronunciation apply.
 
-Knowing the characters in a compound does not guarantee that the compound is obvious. The same two characters can be one word meaning "immediately," two words meaning "above the horse," or one word meaning "on horseback." Only the surrounding sentence tells which. Some compounds do compose from their parts: fire plus mountain gives volcano, and cow plus meat gives beef. So the claim is that composition is not guaranteed, not that it never happens.
+The Chinese pair 马上 is a compact case. 马 means horse. 上 means up, on, or above. Together, the two characters can mean "immediately," as one word. They can also be two words meaning that something is located above a horse. They can also be one word meaning "on horseback." Which of the three meanings applies depends on the surrounding sentence.
 
-## Clues inside a character
+Sometimes even context is not enough. The learner may know every character in a sentence and still not understand the sentence. It is best not to dwell too long. Give the stretch a serious attempt, then let it go if it stays unclear. More reading experience makes these calls easier.
 
-A character can have more than one meaning. It can carry a pronunciation clue and a meaning clue, and a character often has both. The clue is not reliable in every character. A few characters still look a little like the thing they name. Most do not.
+In Chinese, some characters are also used for grammar. The most common example is 了, which has many uses learned over time. Other common examples are 到, 上, 下, and 来. In Japanese, words are often formed by combining kanji with kana. The kana portion can show which meaning of the character is intended, and it can make the boundaries between words clearer.
 
-Context resolves the ambiguity. Sometimes context still fails: every character in the line is known and the line is still unclear. Then the learner makes a best attempt at the meaning and moves on. The repair is to meet the same characters again in more places. Spending longer on the one line does not repair it.
+## Components, not radicals
 
-The mechanics of how characters are built are on [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] and the pages around it.
+All characters are formed from what English calls radicals. There are 214 radicals, and almost every character can be broken into those pieces. Studying the radicals themselves is not particularly helpful.
 
-## Recognizing the parts
+Components are the useful pieces. They make up most of the characters people meet in Chinese, and about 60 percent of the ones people meet in Japanese. A component can hint at a character's pronunciation or its meaning. Some components are also radicals, or are characters on their own.
 
-Characters become easier to recognize when they stop looking like arbitrary shapes. A semantic component often hints at the meaning. A sound component often hints at the pronunciation. The leftover strokes that are neither still make the written form easier to hold in memory.
+A semantic component hints at meaning. It usually sits on the left or the top of the character, though not always. Recognizing it can help the learner guess a new character's meaning, or remember a meaning already met. It does not always give a useful hint.
 
-The goal is not to memorize every radical. The 214 radicals are a dictionary index, not a study list. Sound parts that recur across characters are worth watching for as they come up. A list of phonetic components to learn is not part of the work.
+The character 水, water, often changes to 氵 when it appears as a semantic component. That kind of shape change is common. Characters that contain it include 河 for river, 湖 for lake, 波 for wave, 池 for pond, and 海 for ocean or sea. An unfamiliar character with the water component has a good chance of having something to do with water. The hint is sometimes metaphorical. 口 means mouth. As a component it often has to do with mouths, as in 吃, to eat. It can also have to do with speaking or with openings, as in 叫, to shout, and 洞, hole.
 
-## Meeting characters in real words
+A phonetic component hints at pronunciation. It usually sits on the right-hand side, though not always. Recognizing it can help the learner guess or remember how a character is said. Specific phonetic components are not something to study the way semantic components are. The useful habit is to stay on the lookout for pronunciation patterns.
 
-The aim is enough pattern recognition that characters become less opaque during immersion. This is the same success test that [[wiki/Language/Preparation|Preparation]] uses. The work is tied to real words, real subtitles, audio, awareness of Simplified and Traditional, a popup dictionary as a class of tool, and repeated encounters in immersion. Memorizing handwriting for isolated characters is not the default. It becomes part of the work only if handwriting itself becomes a goal.
+## How characters are remembered
 
-Characters stop looking like drawings once they are met as parts in real words.
+The recommended way to learn characters is to prime them with a vocabulary deck and then get a great deal of immersion, so the same characters appear again and again in the real world. The more often a character is seen and its meaning and pronunciation are recalled, the easier it becomes to remember.
 
-## When the target script and the content do not match
+Visualizing the parts that make up a character also helps. Every detail does not have to be memorized. Treating a character as smaller pieces put together is a way to stop seeing characters as squiggles. Semantic and phonetic components are the most useful parts for that. Even before those categories are comfortable, characters can be broken into smaller pieces from the first day. Easy splits include 真 as 具 plus 十, and 明 as 日 plus 月. A rare, extremely complex character, one that will not show up in ordinary reading, can still be seen as a pile of familiar pieces such as horse, words, walking, heart, moon, chief, and roof.
 
-For Mandarin the worked case is Traditional as the target script and Simplified as the frequent script in the available video. A lookup environment can convert Simplified to Traditional and make missing subtitles inspectable. That pair of jobs is most useful when the target script and the available content do not match. [[wiki/Language/Immersion Metalayers|Immersion Metalayers]] treats script conversion and lookup as a class of tool, not as one product.
-
-## Characters that carry grammar
-
-Characters also do grammar work. The common particle that marks a completed action is the usual example. [[wiki/Language/Refold Grammar Primers|Grammar primer]] holds those particle and pattern uses.
-
-## How to practice this
-
-1. Meet each new character inside a real word in a subtitle or a line of audio. Do not memorize it as an isolated shape. Notice whether the character looks less arbitrary after a few meetings.
-2. In a new character, look for a part that hints at meaning and a part that hints at sound. Notice the leftover strokes too. They make the shape easier to hold.
-3. Read a two-character word with the whole sentence around it. Notice whether the sentence makes the two characters one word or two separate words.
-4. If every character in a line is known and the line is still unclear, make a best guess. Then move on. Notice whether the line becomes clear at a later meeting.
-5. Skip memorizing the 214 radicals. Instead, notice sound parts that keep coming back across different words.
-6. If your target is Traditional and the video is Simplified, use a popup dictionary that converts the script. Notice that missing subtitles become something you can inspect.
-
-## Related pages
-
-- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]: the hub page for the mechanics of characters.
-- [[wiki/Language/Refold Grammar Primers|Grammar primer]]: particle and grammar uses.
-- [[wiki/Language/Immersion Metalayers|Immersion Metalayers]]: script conversion and lookup as a class of tool.
-- [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]]: content supply.
-- [[wiki/Language/Preparation|Preparation]]: the pillar that character orientation belongs to.
+A character's meaning does not always come from its semantic component.
 
 ## Open questions
 
-Whether a short orientation works better than starting straight on the component pages. This has not been shown.
+- How does seeing 氵 in an unfamiliar character change the first guess about its meaning?
+- How does a learner handle a word made of familiar characters whose meaning cannot be predicted from the parts?
 
 ## Sources
 
-- DeFrancis, J. (1984). *The Chinese Language: Fact and Fantasy*. University of Hawai‘i Press. Semantic-phonetic compounds as the majority type; characters as a working writing system, not a set of pictographs.
-- Packard, J. L. (2000). *The Morphology of Chinese: A Linguistic and Cognitive Approach*. Cambridge University Press. The dominant modern-Mandarin word is two-character.
-- Taft, M., & Zhu, X. (1997). Submorphemic processing in reading Chinese. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 23(3), 761–775. Characters processed via components, not only as wholes.
+- Refold, "Character Primer", course note. Private course material, paraphrased.
+
+## Related pages
+
+- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]: the wider map of character pages this primer points toward.
+- [[wiki/Language/Chinese/Meaning Components|Meaning Components]]: a closer look at semantic components.
+- [[wiki/Language/Chinese/Sound Components|Sound Components]]: a closer look at phonetic components.
+- [[wiki/Language/Immersion Metalayers|Immersion Metalayers]]: the popup dictionary that can show a common character's many meanings.
+- [[wiki/Language/Refold Grammar Primers|Refold Grammar Primers]]: grammar characters such as 了 are learned over time in the same spirit as other patterns.
