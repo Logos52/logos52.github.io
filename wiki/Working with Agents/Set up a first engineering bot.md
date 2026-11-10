@@ -15,6 +15,7 @@ tags:
   - agents
   - bots
   - engineering
+wedge_reviewed: true
 ---
 
 # Set up a first engineering bot
@@ -100,7 +101,7 @@ In [Lauren](https://x.com/poteto/status/2094457600259842065)'s setup, an enginee
 
 ## Why it works
 
-[Lauren](https://x.com/poteto/status/2094457600259842065) tells her bot to spawn a cloud agent instead of doing the work itself, because that frees the bot for other things and keeps its context window clean. She thinks of her bots as coordinators who manage and supervise cloud agents, and each cloud agent gets its own machine, so the bot's computer stays free as well. On the livestream, a speaker explained splitting work across bots the same way: each bot owns its own context and becomes a bit of a specialist.
+[Lauren](https://x.com/poteto/status/2094457600259842065) tells her bot to start a cloud agent instead of writing the code itself, because that frees the bot for other tasks and keeps its context window clear. She thinks of her bots as coordinators that manage and oversee cloud agents, and each cloud agent gets its own machine, so the bot's computer stays free as well. On the livestream, a speaker explained splitting work across bots the same way: each bot owns its own context and becomes a bit of a specialist.
 
 ## The method
 
@@ -109,7 +110,7 @@ In [Lauren](https://x.com/poteto/status/2094457600259842065)'s setup, an enginee
 3. **Ask for a restatement.** A speaker's favourite pattern is to end the brief with "Restate this in your own words before you start working", so you can confirm the bot understood a big blob of dictated text.
 4. **Give it context and a home for it.** On day 1, a speaker told the engineering bot to spin up a cloud project, a kind of cloud agent suited to long work, to keep track of the application's engineering context, and to send more messages to that project whenever it needed engineering work done. The speaker wasn't sure it would stick with the project.
 5. **Add a reviewer when you stop reading.** When the chief of staff bot opened a 2,000-line pull request by mistake, the speaker said they would not read all of it and planned a reviewer bot alongside the engineering bot.
-6. **Rewrite the description as principles.** One speaker finds that agents tend to put all the details of a session into a rule or skill written right after a problem, which makes it less reusable. On day 2, when an engineering bot's description had become too specific, the speaker asked the bot-making bot to reread pstack's main skill and write principles to follow instead. The new description opened with one job: own engineering outcomes by orchestrating work through pstack and cloud agents, supervising and verifying. Asked for a view, another speaker said it looked good and was "better than what it was before, so we can iterate", though parts were "a little bit AI slop".
+6. **Rewrite the description as principles.** One speaker finds that agents tend to put all the details of a session into a rule or skill written right after a problem, which makes it less reusable. On day 2, when an engineering bot's description had become too specific, the speaker asked the bot-making bot to reread pstack's main skill and write principles to follow instead. The new description opened with one job: own engineering outcomes by orchestrating work through pstack and cloud agents, supervising and verifying. Asked for a view, another speaker said it looked good and was an improvement they could iterate on, though parts were "a little bit AI slop".
 
 ### A prompt to copy
 

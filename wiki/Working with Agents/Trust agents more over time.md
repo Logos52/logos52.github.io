@@ -15,6 +15,7 @@ tags:
   - agents
   - trust
   - autonomy
+wedge_reviewed: true
 ---
 
 # Trust agents more over time
@@ -79,7 +80,6 @@ How much agents can do for you depends on how much you trust their work. Trust g
 <figcaption>The trust ladder. Each rung rests on evidence from the one below, and changes you cannot undo keep a hold.</figcaption>
 </figure>
 
-
 ## Why it works
 
 Low trust forces micromanagement, the way a manager who does not trust a team ends up looking over every shoulder. Micromanaging then eats the time you would need to build the skills and tools that earn trust.
@@ -89,7 +89,7 @@ Each step rests on evidence from the one below. You move to the cloud after watc
 ## The method
 
 1. **Start local and watch.** Have the agent bring up your app on your own machine, so you can see how it drives the app and checks its work. Move on once you trust what it reports.
-2. **Move to cloud agents that pick up work on their own.** Let a cloud agent take each new bug report, reproduce it on its own computer and return a pull request. In one case it reported that a bug reproduced but was already fixed on the main branch, which saved an hour of checking.
+2. **Move to cloud agents that pick up work on their own.** Let a cloud agent take each new bug report, reproduce it on its own computer and return a pull request. In one case it found that a bug still appeared, yet the fix was already on the main branch, which saved an hour of checking.
 3. **Let agents merge, and review afterwards.** Read what landed on the main branch the next morning, and revert, modify or tighten the setup where you see a problem. The first night is scary, but one morning brought about 20 merged pull requests, and they were good.
 4. **Keep a hold on what you cannot undo.** Some changes lose data or cannot be reverted, and how far you can trust those depends on how well the work can be verified. When a team put its live game's bug fixes on full autopilot, it still required each bug to be reproduced and checked first.
 5. **Climb one rung at a time.** Jumping from a handful of agents to hundreds wastes tokens and money. Start with something simple and low risk, and let your own standards set the pace rather than another person's setup.
@@ -113,7 +113,7 @@ You now have the whole climb, from watching locally to reviewing after the merge
 - [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]] covers the checks every step rests on.
 - [[wiki/Working with Agents/Turn a repeated correction into a permanent fix|Turn a repeated correction into a permanent fix]] covers what to change when you find a problem after merging.
 - [[wiki/Working with Agents/Give an agent a task without micromanaging it|Give an agent a task without micromanaging it]] covers the brief at the start.
-- The Big Idea: Agents Do, You Steer gives the overview.
+- [[wiki/Start Here/The Big Idea Agents Do, You Steer|The Big Idea: Agents Do, You Steer]] gives the overview.
 
 ## Sources
 

@@ -15,6 +15,7 @@ tags:
   - agents
   - trust
   - lint
+wedge_reviewed: true
 ---
 
 # Turn a repeated correction into a permanent fix
@@ -51,7 +52,6 @@ When an agent repeats a mistake, the setup is inviting it. The fix belongs in th
 </svg>
 <figcaption>The four places for a fix. The stronger the rung, the less attention each repeat costs you.</figcaption>
 </figure>
-
 
 ## Why it works
 
@@ -105,7 +105,7 @@ You now have a loop in which each correction ends in the code, in a check, or in
 
 - [[wiki/Working with Agents/Give an agent a task without micromanaging it|Give an agent a task without micromanaging it]] covers the brief that prevents misses at the start.
 - [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]] covers the proof and the sampling that show which mistakes repeat.
-- The Big Idea: Agents Do, You Steer gives the overview.
+- [[wiki/Start Here/The Big Idea Agents Do, You Steer|The Big Idea: Agents Do, You Steer]] gives the overview.
 
 ## Sources
 

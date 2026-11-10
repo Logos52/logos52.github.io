@@ -1,133 +1,84 @@
 ---
 title: "Attention Span and Focus Training"
-type: technique
-status: developing
-created: 2026-05-23
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
-written-by: grok
-model: grok
-description: "Raising how long a hard, unstimulating target can be held, so tomorrow's block needs fewer props than today's."
+type: concept
+status: draft
+created: 2026-11-10
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "Temporary focus tricks lift you over the wall of distraction for a session. Lasting attention comes from raising the baseline faster than daily life lowers it."
 tags:
-  - self-management
   - attention
   - focus
-  - training
+  - habits
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # Attention Span and Focus Training
 
-**Baseline attention** is how long a hard, unstimulating target can be held without extra props. A daily sit on a breath, a walk, or a sink of dishes raises it. The result to look for is needing fewer blockers and timers next month than this one.
+Most popular focus tips work for a little while and then fade, which sends you back looking for new tips within a month. The tips themselves are not empty. They are temporary patches. They raise attention for a session without changing the baseline you bring to the next one. The win is not managing to sit and study for a couple of hours with a stack of tricks. The win is being able to focus without needing so many of those tricks in the first place.
 
-A session that felt focused is not yet training. A technique can make today's sitting go well and leave the baseline where it was.
+A useful picture is an injury caused by bad form. Wraps, stretches, and painkillers can meet the short-term goal of hurting less, and the same poor form then creates the pain again. The pain was a symptom of the form, and attention works the same way. If your innate focus sits below the wall of distraction, a few techniques can boost you over that wall today. You will need them again tomorrow, and they lose force if the baseline keeps dropping. The lasting move is to raise innate attention so the wall is lower relative to where you already sit.
 
-## Core takeaways
+The second step is to see the game you are already in. If you do not train attention, ordinary life untrains it. Companies spend billions of dollars figuring out how to hold it, because attention is treated as a currency. Even educational videos are designed to keep you watching. Doing nothing is not neutral. The baseline gets worse, which makes the wall harder to clear. You have to train faster than the default untraining.
 
-- Baseline attention is how long a hard, unstimulating target can be held without extra props. Raising it is what this method is for.
-- The daily practice is one boring target, twenty to thirty minutes as a ceiling, five to ten minutes as a floor that still counts.
-- The rep inside the sit is noticing drift and returning to the target. Losing the target every few seconds early on is the session working.
-- A work block needs four things: a named output, a single task, the hard part prepared, and a commitment to start rather than to finish.
-- Frontloading means the setup is finished before the block starts: files open, surface clear, phone silenced or moved, first action chosen.
-- The test of progress is fewer props: fewer blockers, fewer timers, a less perfect room than last time.
+That training has a short-term layer and a long-term layer, and you need both. Short-term methods temporarily lift attention. Long-term methods raise the baseline so you need fewer lifts. The value of any short-term tip is not the length of the list. Almost any tip works if it hits two requirements. It needs to help you enter deep work, and it needs to help you frontload the start.
 
-## A good session is not the same as a raised baseline
+Deep work here means locking onto a single task until time moves quickly and focus comes more naturally. Anything that makes that state more likely helps. Anything that blocks it increases distraction, even if you feel busy. A practical checklist for entering that state has four parts.
+<figure>
+<svg viewBox="0 0 580 460" width="100%" style="max-width:580px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="sm-attn-a">
+<title id="sm-attn-a">A practical checklist for entering that state has four parts.</title>
+<rect x="0.5" y="0.5" width="579" height="459" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<text x="24" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">practical checklist</text>
+<circle cx="290" cy="64" r="5" style="fill:var(--qp-ink)"/>
+<path d="M290 69 L290 80" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="290,80 285.5,72 294.5,72" style="fill:var(--qp-mut)"/>
+<rect x="50" y="80" width="480" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="290" y="107" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">set a clear objective before the session</text>
+<path d="M290 124 L290 168" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="290,168 285.5,160 294.5,160" style="fill:var(--qp-mut)"/>
+<rect x="50" y="168" width="480" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="290" y="195" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">do one task</text>
+<path d="M290 212 L290 256" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="290,256 285.5,248 294.5,248" style="fill:var(--qp-mut)"/>
+<rect x="50" y="256" width="480" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="290" y="283" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">prep the hard part a little before the session</text>
+<path d="M290 300 L290 344" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="290,344 285.5,336 294.5,336" style="fill:var(--qp-mut)"/>
+<rect x="50" y="344" width="480" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="290" y="371" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">plan to start rather than to finish</text>
+<line x1="290" y1="388" x2="290" y2="404" style="stroke:var(--qp-rule2);stroke-width:1.25"/>
+<circle cx="290" cy="412" r="8" style="fill:none;stroke:var(--qp-ink);stroke-width:1.25"/>
+<circle cx="290" cy="412" r="4" style="fill:var(--qp-ink)"/>
+</svg>
+</figure>
 
-Two layers sit in the same area and do different jobs. One is today's setup, which borrows a usable session. The other is the sit, further down this page, which raises baseline attention.
+First, set a clear objective before the session. Do not block time only as "study" or "work." Name the output you want, and keep the block short enough that after 15 minutes, 20 minutes, or 30 minutes, and at most about 1 hour, you know what done looks like.
+Next, do one task. Switching is not true parallel work. Each switch carries a cognitive switching penalty as the brain leaves one mode, enters another, and later has to recover the first. In a 1 hour block, switching every 10 minutes can burn about half the hour.
+Then prep the hard part a little before the session. Take the piece that feels most overwhelming and do a low-focus slice of it in advance, such as sketching a plan or gathering sources. Starting reduces how large the task feels, and unfinished work also pulls the brain back toward completing it.
+Last, plan to start rather than to finish. A large finish line makes the brain look for an exit. Planning only to begin, and to see how far you get, lowers the commitment enough that starting is easier, which is often what lets the deeper state appear. A 3 hour block planned this way can collapse to about 45 minutes once that state arrives.
 
-The pattern to watch for: the tip is used, the sitting goes well, tomorrow the same tip is needed again, then a second prop, then a third. The technique worked. The baseline did not move.
+Any tip that helps you meet that checklist is doing real short-term work.
 
-A sitting that only happens inside a perfect room, with every blocker on, and that needs the same room tomorrow, has not raised anything. A sitting that uses those props today and needs one fewer of them next week has.
+The second short-term requirement is frontloading, meaning you do as many steps as possible of the path from not starting to starting, in advance. The most useful thing to frontload is the removal of distractions you can already predict. If noise will pull you out, have headphones ready. If people or messages will interrupt, use do-not-disturb or put the phone somewhere else. Not everyone needs a nuclear option that strips the room of every possible interruption, and that option is not always realistic. Match the prep to the distractions you actually meet. One student cleared a garage, left out the laptop and phone, locked the door, and handed the keys to family, knocking to be let out even for a bathroom break. That level of constraint can produce a session, and it also means deep work only exists inside a very narrow window, which makes larger goals hard to live with.
 
-## Setting up a work block
+Long-term training is what raises the baseline so those windows can widen. The method is simple in outline. Give the brain one target and keep directing it back to that target. Slow breathing is a common target. Duration and intensity matter because the brain does not rewire without enough consistent exposure, and the growth happens during the period of discomfort. About 20 to 30 minutes a day can show results after a month, though that length feels large at first. Doing 5 minutes or 10 minutes is better than nothing. Doing only 2 minutes or 3 minutes a day is probably not enough. Because the change is a rewiring, you may notice nothing for at least the first 2 weeks even while the work is happening.
 
-Short-term focus rests on two prerequisites: **deep work** conditions, and **frontloading**.
-
-Deep work here means one cognitively hard output, protected. The term is a public one, not a requirement to follow a particular book. It has four conditions: a named thing that will exist at the end; a single task; the hard part prepared; a commitment to start rather than to finish. "Study" or "work" is too vague to be an objective. The object at the end of the block has to be nameable: two worked examples, a paragraph of a set length, a closed-source recall of one chapter. Without that, the sitting has no pass or fail and attention goes to something else.
-
-A large task feels expensive. A small start lowers the cost of beginning. Once the first move is already happening, finishing often becomes cheaper than it looked from outside. That is a plan to start, not a plan to complete.
-
-**Frontloading** is finishing the setup so the first minute is already action: files open, notes ready, surface clear, phone silenced or moved, first action chosen, noise handled, the predictable distractors already gone. Many attention failures happen at the step from intention to action. Every step left undecided is a step where the block fails to start. [[wiki/Self Management/Procrastination - a System Problem|Procrastination]] covers that gap as a system problem. The frontload is the cheap repair for it. The block then begins closer to work.
-
-## The sit that raises the baseline
-
-The long-term practice has three parts: a target, a time, and an intensity. The target is one object to return to: a breath, a walk, a sink of dishes. The time, as a house ceiling rather than a measured ideal, is twenty to thirty minutes a day. Five to ten is still useful. Trials that show a change often use ten to fifteen. Intensity means enough boredom that attention has to work. An app is not required. A class, a walk, or the dishes are the class of object.
-
-The rep is noticing drift and coming back. Early sessions may lose the target every few seconds. That is the session working, not failing. In the short daily sits that have been measured, visible change shows up on the order of weeks: not at four, sometimes at eight. That timing is a caution, not a promise. The sit has to be uncomfortable enough that attention has to do something. If a sitting feels easy, the activity is probably doing the holding.
-
-Noticing drift and returning is already a control-layer move. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]] covers the steering.
-
-The operating model:
-
-- Daily: one boring target, twenty to thirty minutes as a ceiling, five to ten as the floor that still counts.
-- Inside the sit: notice drift, return. That is the whole rep.
-- Before a work block: name the output, frontload, one task.
-- After: was less **scaffolding** needed than last time: fewer blockers, fewer timers, a less perfect room?
-
-Frontloading handles today's setup. What remains for the long term is the boring target, enough daily time, and enough intensity that the mind has to do the holding. Focus and simplicity support each other.
-
-## What counts as training
-
-A film, a game, or a feed can hold attention for hours without training it. The activity does the holding. Staying with an unstimulating target is a different capacity, and it is the one trained here. Entertainment is not a failed sit. It is a different object.
-
-The real fix is raising the baseline until a difficult target can be held with fewer external supports. That baseline is not a fixed trait. High-stimulus, short-reward environments train it downward by default for anyone who lives in feeds. If it is not trained the other way, it drifts. That is a claim about a person in those environments, not a claim that a generation's span has collapsed. [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]] covers the capture design. Population-level shrinking is contested and is not a finding needed here.
-
-The scorecard: sit down, take up difficult work, stay, return from a pull, and need less scaffolding than before.
-
-## Taking things away
-
-Focus is often made by taking things away, not by adding another prop. Fewer priorities, fewer open loops, fewer surfaces, fewer tools, fewer commitments, and a faster correction when one of those creeps back. The hard part is judgment: attention depends on knowing what should stay in view. The video on focus and simplicity is a supporting source, not a second protocol.
-
-## Limits and the objection
-
-A sleep-debt or high-stress day is not a failed training day. Trainability has a bound. A week of sits will not make up for a destroyed sleep schedule. Twenty to thirty minutes is a ceiling, not a dose anyone is obliged to hit.
-
-The objection to this method: the person who already thinks well once seated and still cannot stay seated. Short span is not the explanation for a deep-processing failure. Quality of thinking once you are there is a different object. The method also costs a daily stretch of boredom that feels like it is doing nothing.
-
-The quit signal: two weeks of sits with no earlier noticing and no reduction in props. The next move is not more protocol. It is sleep, and whether the target is actually boring enough to require a return. What should change if it is working: in the second week, drift is noticed sooner, and a later work block starts with one fewer prop.
-
-## When to use this and when not to
-
-Use this method when focus has come to depend on increasingly elaborate routines; when short-term techniques do not compound; when recovery is possible but frequent; when a baseline plan is wanted; when capacity needs to be told apart from in-block recovery.
-
-Do not use it as the main explanation for a deep-processing failure, or for a problem that only appears when an assistant is doing the thinking. Attention span is staying with a target. Deep processing is the quality of the thinking once there.
-
-The split with the neighbouring pages: this page covers capacity over months. [[wiki/Self Management/Flow State|Focus Management]] covers entry and recovery *inside* one block. [[wiki/Self Management/Flow State|Attention Management]] covers the day: where attention is pointed, and the chain of blocks. [[wiki/Self Management/Flow State|Flow State]] overlaps the deep-work conditions and covers the state, not the sit.
-
-Once the sit has run long enough, the same hard target is held with fewer props than at the start.
-
-## How to practice this
-
-1. Pick one boring target: a breath, a walk, or a sink of dishes. Sit with it every day. Notice whether it is dull enough that you have to come back to it.
-2. Set the time at twenty to thirty minutes as a ceiling. Five to ten minutes still counts. Notice whether you stay for the time without switching to something else.
-3. Inside the sit, notice each drift and return to the target. Early on you may lose it every few seconds. Notice whether, by the second week, you catch the drift sooner.
-4. Before a work block, name the object that will exist at the end. Use one task, not several. Notice whether the block now has a clear pass or fail.
-5. Frontload the block: open the files, clear the surface, move the phone, choose the first action. Notice whether the first minute is already work.
-6. After the block, count the props you used: blockers, timers, the room. Notice whether you needed fewer than last time.
-
-## Related pages
-
-- [[wiki/Self Management/Flow State|Attention Management]]. Day-level: where attention is pointed, and the chain of blocks.
-- [[wiki/Self Management/Procrastination - a System Problem|Procrastination]]. The intention-to-action gap that frontloading is built to close.
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]]. Notice-and-return is already a control-layer move. That page covers the steering.
-- [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]]. Capture design in feeds. A hedge, not a national-decline finding.
+A further short-term help, specific to studying, is to make the study activity itself more engaging so deep work is easier to enter. That sits beside the checklist rather than replacing the long-term training.
 
 ## Open questions
 
-- What is the smallest daily dose that still compounds?
-- When does a technique become a crutch rather than a scaffold that can be removed?
-- How far do sleep debt and stress bound trainability on a given day?
-- Which boring target holds for a given person: breath, walking, dishes, or something else?
+How would you raise your baseline this month so that next month's session needs fewer temporary patches?
+
+What distraction can you remove before the next block starts, without turning the whole room into a lockbox?
 
 ## Sources
 
-- [How To Fix Your Attention Span (Before It's Too Late)](https://www.youtube.com/watch?v=JHQ7uieciiU) (2025-01-03). Public video. Temporary elevation versus baseline; named output; frontload; the sit as return practice. The speaker's paid program is not a source.
-- [Apple CEO Tim Cook on Focus and Simplicity](https://www.youtube.com/watch?v=rBm3CwmRKkw). Public video. Focus by removal: fewer priorities, loops, surfaces, tools, commitments.
-- Basso, J. C., et al. (2019). Brief, daily meditation enhances attention, memory, mood, and emotional regulation in non-experienced meditators. *Behavioural Brain Research*. 13 minutes a day; attention gains at 8 weeks, not at 4.
-- Kim, J., et al. (2025). *eNeuro*. 10–15 minutes a day for 30 days; attentional control.
-- Norris, C. J., et al. (2018). Brief mindfulness meditation. Acute 10-minute sits.
-- Yakobi, O., Smilek, D., & Danckert, J.; Sumantry, D., & Farley, J. (2021). Meta-analytic texture: some attentional subprocesses move, not all.
-- Monsell, S. (2003); Rubinstein, J. S., Meyer, D. E., & Evans, J. E. (2001). Switch cost; single-task advantage.
-- Locke, E. A., & Latham, G. P. Specific, difficult goals outperform vague ones.
-- Odgers, C. L., & Jensen, M. R. (2020). *Journal of the American Academy of Child & Adolescent Psychiatry*. Population-level "phones shrank attention" is contested.
-- Posner, M. I. Endogenous versus exogenous attention. Entertainment can capture without training the return.
+- How to fix your attention span, learning talk (2026-05-23 capture).
+
+## Related pages
+
+- [[wiki/Self Management/Hyper-Focus and Hyper-Distractibility|Hyper-Focus and Hyper-Distractibility]]
+- [[wiki/Self Management/Study Scheduling|Study Scheduling]]
+- [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]]

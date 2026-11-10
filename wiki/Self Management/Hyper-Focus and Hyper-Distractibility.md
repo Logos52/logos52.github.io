@@ -1,111 +1,57 @@
 ---
 title: "Hyper-Focus and Hyper-Distractibility"
 type: technique
-status: developing
+status: draft
 created: 2026-06-11
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
-written-by: grok
-model: grok
-source-count: 4
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "When attention snaps on too hard or slides away too easily, train the return after a lapse, keep the next 10 to 15 minutes in view, and work on one technique at a time."
 tags:
+  - focus
   - attention
-  - hyper-focus
   - self-management
-  - self-regulation
-  - neurodivergence
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # Hyper-Focus and Hyper-Distractibility
 
-Hyper-focus and hyper-distractibility are two ways attention behaves: it sticks to one thing, or it scatters. Under that kind of attention, a new learning technique is only picked up when each practice session is made cheaper. Cheaper means one method at a time, a short goal kept visible, and a hard cap on how many things get changed at once.
+Some minds snap onto one thing so hard that everything else disappears. Others slide away from the task at the smallest cue. Both patterns can show up with a formal diagnosis such as ADHD or ASD, and both can show up without one. The wiring makes distraction or hyper-focus more likely. Genes and the environment both play a part, though how those two combine, and how much each one matters, is not settled. Because the environment matters, training that pushes back against those patterns can improve focus and reduce some of the impact.
 
-Deliberately unautomatic work costs this kind of attention the most, and learning a technique is deliberately unautomatic work.
+## Train the return, not a life without lapses
 
-These constraints were built for hyper-focus and hyper-distractibility in the ADHD and ASD sense, diagnosed or not. The same cheaper session helps anyone whose attention is the bottleneck. This is not medical advice.
+Quiet sitting with your attention on one thing is often miserable at first, because the setting is built to trigger wandering. Getting distracted is the point of the practice, because the work is to notice and come back, and each return counts as one repetition. In 5 minutes or 10 minutes you can do that a thousand times. A session with zero lapses is not the goal. Building a stronger habit of coming back is.
 
-## Core takeaways
+Focus improves slowly. Two minutes a day, or 5 minutes, or 10 minutes, is enough to start. You will likely fall off the streak more than once. Each time, begin again. Over time the return gets easier.
 
-- Practice one technique at a time. The next method stays unread until this one reaches decent mastery.
-- Train inside the day's most stable focus window, and spend that window on meditation and reflection.
-- Keep two or three intentions for the next ten to fifteen minutes where the eyes land, and check them on an analog timer.
-- Cap daily reflection at twenty to thirty minutes with a hard stop, and cap adjustments at two per day.
-- The trade is raw speed for accuracy and consistency. A first month with no visible gain is the protocol, not a failure.
-- Mindfulness here is two to ten minutes of daily focus training. It is an adjunct, not a first-line treatment and not a cure.
+## Keep the next stretch in sight
 
-## Why the cost of a practice session is the thing to change
-
-Techniques are specific and sequential. They only develop through practice. So the thing to change is the cost of each encounter with the technique: when it happens, how many things are running at the time, how many things get improved at once, and what sits outside working memory so it cannot drop out.
-
-## When to train, and what to spend the best hours on
-
-Training sits inside the day's most stable focus window. For medicated ADHD that usually means the hours right after a stable dose. The time-course of a stimulant is real. This is not medical advice, and it is not a reason to start, stop, or time a prescription.
-
-That peak is spent on meditation and reflection. Those are the parts that feel wasteful during the best hours, and they are what converts practice into long-term change.
-
-[[Kolbs Experiential Cycle]] is the write-up after an attempt: what happened, how it felt and why, what rule that suggests, what changes next time. Daily reflection caps at twenty to thirty minutes with a hard stop, even mid-sentence. Reflection done every day in an incomplete form adds up over time. A thorough session that overruns gets dropped instead. Kolbs already carries its own thirty-minute cap. The mid-sentence stop is added here.
-
-## Keeping the next ten to fifteen minutes in sight
-
-Two or three immediate intentions for the next ten to fifteen minutes sit where the eyes land: the edge of the monitor, a wall, a card. The card is checked on that same interval with an analog timer. A five-dollar egg timer works better than a phone alarm, and often the phone belongs in another room. [[Flow State|Focus Management - How to Enter & Recover Inside a Work Block]] is the entry and recovery loop that this intention-check tightens.
+Just before a study or focus session, write two or three intentions covering the coming 10 to 15 minutes. Put that card where you cannot miss it, on the wall or next to the screen. Every 10 to 15 minutes, look at it, check whether you are still on that stretch, and update the next one. An analog timer on the desk can prompt the check. A phone timer tends to open other distractions, and the phone is often better left in another room.
 
 ## One technique at a time, two fixes a day
 
-Under this bottleneck the cap is strictly one technique at a time. The next method stays unread until this one reaches decent mastery. [[Marginal Gains|Pacing Skill Development]] sets the default cap on parallel skills, and here that cap drops to one.
+When attention is already strained, practicing several new methods at once spreads it too thin and makes each method sloppier. Take one technique to a decent level before starting the next. Do not skip ahead to browse what comes later. Knowing that another method is waiting is itself a pull away from the technique you are still bringing up to standard.
 
-Adjustments made during reflection cap at two per day. The diary is pre-templated with two bullets and a drawn line under them. One technique plus two changes is already three live concerns at once. Seven fixes would be seven chances to fail. The drawn line is what holds the count at two.
+That slower path can cost a month or two compared with someone who juggles many methods at once. The trade is accuracy. Rushing through a pile of methods often means learning them wrong and starting over, which is slower in the end.
 
-If techniques already in use still demand concentration, the system is overloaded, and the answer is to habituate before adding anything. [[Four Stages of Competence]] is that test. The exception is a slow-feedback method with no in-the-moment cost, such as scheduling, which can develop in parallel.
+At the end of each day's review, leave yourself at most two things to work on tomorrow. A hard cap of two keeps the next session possible. Seven corrections at once is a setup for failing all of them and losing heart. If you need a physical stop, write the numbers 1 and 2 and draw a line under them so there is no room for a third.
 
-## What the slower pace buys
-
-The trade is raw speed for accuracy and consistency. A rushed pass that learns a technique wrong has to be repeated. A slower accurate pass happens once.
-
-Each successful repetition makes the next one cheaper, so the dependence on the focus window fades. Long-term practice is what lowers the cost of everything above. That takes months, not a week. A first month with no visible gain is the protocol, not a failure.
-
-## Daily focus training
-
-Mindfulness here is focus training, two to ten minutes daily. A distractible mind put on a single anchor drifts often, so a short session gives many chances to return attention. It is an adjunct, not a first-line treatment and not a cure. Effects against a waitlist are medium, and they are not clearly better than other active psychosocial treatments. [[Attention Span and Focus Training]] covers the general return repetition, and the dose here is tighter.
-
-No visible benefit for the first month or two is expected. Falling off and restarting a dozen times is part of the protocol. Still no gain at four weeks is the default, not a signal to add methods.
-
-## When to stop and see a specialist
-
-None of this applies if attention is not the bottleneck, or if a specialist plan already exists. The mindfulness described here is not a treatment.
-
-The price is slower development, one technique at a time, and a twenty-to-thirty-minute reflection with a hard stop. Two weeks of the protocol with no change in whether a session stays on the card is the quit signal. At that point self-prescribing ends and the next move is a specialist. The two checkable marks are the card still in sight at minute fifteen, and the diary still carrying a line under two bullets.
-
-Specialist advice overrides everything here where the two conflict. Early-childhood trauma is one condition still under study where mindfulness and CBT-style approaches may work less well. A psychologist's personalized plan is the last word. This is not medical advice.
-
-These constraints are the condition under which a new method can be picked up at all. They are not a diagnosis and not a cure. One method, a short visible goal, and a hard cap, diagnosed or not, for anyone whose attention is the bottleneck.
-
-## How to practice this
-
-1. Pick one technique and leave the next method unread until this one reaches decent mastery. Notice whether the techniques already in use still demand concentration. If they do, habituate before adding anything.
-2. Put the practice session inside the day's most stable focus window. Spend that window on meditation and reflection, not on easier work.
-3. Write two or three intentions for the next ten to fifteen minutes on a card. Put the card where the eyes land and set an analog timer for that interval. Notice whether the card is still in sight at minute fifteen.
-4. Write up each attempt afterwards. Record what happened, how it felt and why, what rule that suggests, and what changes next time. Stop at twenty to thirty minutes, even mid-sentence.
-5. Make at most two adjustments a day. Pre-template the diary with two bullets and a drawn line under them. Notice whether the diary still carries that line.
-6. Meditate two to ten minutes daily and expect no visible benefit for the first month or two. After two weeks with no change in whether a session stays on the card, stop self-prescribing. See a specialist instead.
-
-## Related pages
-
-- [[Marginal Gains|Marginal Gains]]: the default parallel-skill cap. This page drops it to one.
-- [[Four Stages of Competence]]: habituate-before-adding, the test for whether the system is already overloaded.
-- [[Kolbs Experiential Cycle]]: daily reflection after an attempt, with its own thirty-minute cap.
-- [[Attention Span and Focus Training]]: the general return-rep. This page owns the tighter dose and the adjunct hedge.
-- [[Flow State|Attention, Focus & Flow]]: intention-check as a tightened entry and recovery loop inside a block.
+A busy group chat can help when you ask for feedback, and it can also scatter attention with a constant stream of other people's talk. Set notices so you hear about replies to you, and let the rest stay quiet until you choose to look.
 
 ## Open questions
 
-How is a stable window told without a prescription?
+How many times in the last 10 minutes did my attention leave, and how quickly did I bring it back?
 
-Does the two-fix cap still hold once one technique is automatic?
+How would tomorrow change if I allowed myself only one technique and two written fixes?
 
 ## Sources
 
-- Cairncross, M., & Miller, C. J. (2016). The effectiveness of mindfulness-based therapies for ADHD: A meta-analytic review. *Journal of Attention Disorders*. Medium effects versus waitlist; later reviews against active psychosocial controls are weaker.
-- CHADD. Mindfulness-based interventions as adjunct, not first-line, for ADHD, especially in youth.
-- Van Dam, N. T., et al. (2018). Mind the hype: A critical evaluation and prescriptive agenda for research on mindfulness and meditation. *Perspectives on Psychological Science*. Harms and trauma-sensitive caution.
-- Basso, J. C., et al. (2019). Brief, daily meditation enhances attention, memory, mood, and emotional regulation in non-experienced meditators. *Behavioural Brain Research*. Directional only: about 13 minutes daily, attention-task effects at 8 weeks not 4. This system's default (no visible gain for a month or two) is house, not that finding.
+- iCanStudy, "Hyper Focus and Hyper Distractibility", Niche learning contexts. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]]: why adding many half-learned techniques at once overloads the day.
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb's Experiential Cycle]]: the daily review that should end with at most two next steps.
+- [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]]: shaping cues so the session is easier to start and easier to stay in.
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]: effort spent ignoring noise is not the same as effort spent on the work.

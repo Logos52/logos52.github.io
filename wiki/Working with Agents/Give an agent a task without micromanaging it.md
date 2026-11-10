@@ -15,6 +15,7 @@ tags:
   - agents
   - delegation
   - prompting
+wedge_reviewed: true
 ---
 
 # Give an agent a task without micromanaging it
@@ -113,7 +114,7 @@ The brief below, paraphrased from a spoken one, links the place to read and adds
 
 ## Related pages
 
-- The Big Idea: Agents Do, You Steer gives the overview.
+- [[wiki/Start Here/The Big Idea Agents Do, You Steer|The Big Idea: Agents Do, You Steer]] gives the overview.
 - [[wiki/Working with Agents/Plan a piece of work with an agent|Plan a piece of work with an agent]] covers jobs too large for one brief.
 - [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]] covers the proof step.
 - [[wiki/Working with Agents/Scope a bot like a job description|Scope a bot like a job description]] applies one narrow target to a standing bot.
