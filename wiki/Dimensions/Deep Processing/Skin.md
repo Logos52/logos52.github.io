@@ -1,134 +1,82 @@
 ---
+title: "Skin"
 type: technique
-status: developing
+status: draft
 created: 2026-05-04
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: fable
-source-count: 3
-last-audited: 2026-08-14
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "Skin is the third step of the Bear Hunter System, where you refine the map into a GRINDE map by checking that it is grouped, reflective, interconnected, non-verbal, directional, and emphasised."
 tags:
-  - learning
-  - bhs
+  - deep-processing
   - encoding
   - chunking
+  - bhs
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # Skin
 
-Skin is the third move of the [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] loop. [[wiki/Dimensions/Deep Processing/Aim|Aim]] wrote the questions. [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] drew the rough map. Skin reworks that rough map, with every source closed, into a structure that memory can rebuild.
+Skin is a step for refining higher-order learning at the evaluate level, where you make judgments on how you want the final grouping to look. It is the third step of the Bear Hunter System.
 
-The pass consolidates, integrates, and simplifies what the first two moves built, until the final chunk structure is settled. The pass ends when the map can be tested.
+By this point your grouping has been changing so it matches your latest sense of how the ideas connect to each other. It can take multiple cycles of Aim and Shoot, meaning cycles of asking importance questions and then answering them into a map, before you have a comprehensive view of the relationships. Skin is when you consolidate, integrate, refine, and judge that structure. After that stretch of work, the step is described as the time to create more certainty.
 
-## Core takeaways
+The map you refine in this step is a GRINDE map, described as the polished, strongest version of your mind map. GRINDE is a set of letters used to refine the map during Skin. It is a mind-map-specific extension of an earlier note-taking checklist called VPReFRE, whose letters stand for visual, processed, relational, freehand, reflective, and efficient.
 
-- Nothing new enters during the pass. The work is rearranging what Aim and Shoot captured.
-- Repair the backbone first: the few largest chunks and the flow between them, usually three to six for a whole topic. A repair at the top makes every repair below it cheaper.
-- The three repairs are split, merge, and rename. Split and merge follow the 2–4 rule: a node should have two to four branches.
-- All three repairs force the same judgment: what matters most, what comes second, and how the two relate. Those judgments are the learning.
-- The pass is not finished until the map can be tested. Its last output is a set of prompts and a short list of the places that would not rebuild.
-- Stop when the map is good enough to retrieve from. Polishing past that point gains nothing.
+Grouped means you chunk the information on the mind map, meaning you put related ideas into groups.
 
-## Why the rough map has errors
+Reflective means you look back at the order you chose, as you also do with that earlier checklist. Watch the order you give the relationships, the logic, the concepts, and the details, and ask whether that order mirrors how your brain makes sense of the topic. The map should meet the layers of learning. If it does not, sort the information into clear layers. Those layers are backbone or logic, then concepts, then important details. The extra effort to make those layers clear is described as a sign of an advanced learner.
 
-A rough map arrives wrong in places, and that is expected. The earlier steps run fast and accept structural error, because getting every relationship right at first contact costs more than it returns. Corrections accumulate as a topic grows. A few hours in, some piece already belongs somewhere else. This pass applies all of those corrections at once.
+Interconnected means the arrows should link in more than one direction, and should not all point the same way or only go outward. There should be connections between groups and concepts within the same layer. There should also be connections between layers where those links are relevant and important. Good grouping creates simple branching. Good interconnectedness extends that into a mesh of ideas that clearly act on one another, with a clear reason the information is there. A problem called wheel and spokes is when the grouping is good, but every relationship seems to radiate out from a central hub. That indicates a lack of lateral links, meaning side-to-side connections between groups and concepts.
 
-**Nothing new enters during this pass.**
+Non-verbal means you use doodles, pictures, and as few words as you can. A picture will hold far more than lines of text. You should also try shorthand and contractions so you can build a private set of abbreviations.
 
-The work is rearranging what those steps captured. Nothing is added.
+Directional means the map has a flow of information and ideas. That flow makes the map more logical, because it shows how concepts influence other concepts. You always need to tie information back to the wider topic, because that gives you a sense of where your learning is heading. Whether the map is directional depends heavily on how closely you follow the Aim step, on a problem-solving mentality, and on how importance-based the first layer of logic is.
 
-## Start with the backbone
+Emphasised means the layers stand out at a glance. You can mark them with different sizes, colours, or fonts. That helps you pick out the main logic layer, the concepts, and the smaller concepts much faster. It speeds up later review and helps the brain create relationships. It also strengthens learning because you have to say plainly which concepts and links matter most. A comparison used here is building mental highways.
+<figure>
+<svg viewBox="0 0 520 470" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="dim-skin-a">
+<title id="dim-skin-a">GRINDE is a set of letters used to refine the map during Skin.</title>
+<rect x="0.5" y="0.5" width="519" height="469" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="24" height="3" rx="1.5" style="fill:var(--qp-accent)"/>
+<text x="20" y="44" text-anchor="start" style="fill:var(--qp-ink);font-size:15px;font-weight:600">GRINDE is a set of letters used to refine the map</text>
+<text x="20" y="76" text-anchor="start" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Grouped</text>
+<text x="20" y="98" text-anchor="start" style="fill:var(--qp-mut);font-size:14px">you chunk the information on the mind map</text>
+<text x="20" y="132" text-anchor="start" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Reflective</text>
+<text x="20" y="154" text-anchor="start" style="fill:var(--qp-mut);font-size:14px">you look back at the order you chose</text>
+<text x="20" y="188" text-anchor="start" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Interconnected</text>
+<text x="20" y="210" text-anchor="start" style="fill:var(--qp-mut);font-size:14px">the arrows should link in more than one direction</text>
+<text x="20" y="244" text-anchor="start" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Non-verbal</text>
+<text x="20" y="266" text-anchor="start" style="fill:var(--qp-mut);font-size:14px">you use doodles, pictures, and as few words as you can</text>
+<text x="20" y="300" text-anchor="start" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Directional</text>
+<text x="20" y="322" text-anchor="start" style="fill:var(--qp-mut);font-size:14px">the map has a flow of information and ideas</text>
+<text x="20" y="356" text-anchor="start" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Emphasised</text>
+<text x="20" y="378" text-anchor="start" style="fill:var(--qp-mut);font-size:14px">the layers stand out at a glance</text>
+</svg>
+</figure>
 
-The pass opens with questions. What is the main backbone? Which chunks are overloaded or weak? Which arrows matter? Which parts still follow the source's order? Which parts would be hard to rebuild from memory?
+During this stage, Aim should start reducing the total number of questions in favour of higher quality, and Shoot should already feel automatic, with the Aim-Shoot cycle feeling like second nature. After Aim, Shoot, and Skin have been learned as separate pieces, they are stacked and consolidated into the Bear Hunter System as a whole.
 
-The backbone is the few largest chunks and the flow between them, usually three to six for a whole topic. Answer the backbone question first. A repair at the top makes every repair below it cheaper. Details under an unclear backbone stay hard to retrieve.
+## Open questions
 
-## The three repairs: split, merge, rename
-
-Below the backbone, the work is three repairs: split, merge, and rename. Split and merge share the **2–4 rule**: a node should have two to four branches. A node with more than four branches is split into sub-chunks. A node with fewer than two branches is a single-node chain, one thing in and one thing out. A single-node chain is merged away, and the surviving node is relabelled so the label states the relationship plainly.
-
-The 2–4 rule is a working check. It is not a law of memory. Roughly four items fit in the focus of attention. That is a reason crowded nodes are hard to hold. It is not a proof of the cutoff. The rule also works on an unfamiliar subject, because branch counts find the weak spots without any knowledge of the content. No move is final. Structure is a hypothesis, and a removed chunk returns when new siblings appear.
-
-Example: six points hang off one chunk. Splitting them into two sub-chunks of three does two things at once. The six points are now in groups of three. The relationship between the two new groups, which would otherwise cross the map as a stray arrow, now sits inside the structure as the line between the two groups.
-
-## Untangling crossing arrows
-
-A map tangled in crossing arrows is called spiderwebbing. The cause is in the structure. The chunks were taken from the source's own headings, and the sideways relationships were added afterwards, onto groups never built to carry them. Redrawing the arrows more neatly leaves the cause in place. The repair is a regrouping. Put the content back into a flat list, which strips out the source's grouping bias. Form chunks around the relationships the list shows. Draw the map again, leaving out the arrows not worth testing.
-
-## Testing a label
-
-A label has a test. If the only way to remember what a group holds is to memorise the group itself, the label is not helping. The usual sign is a term copied from the source. A label is doing its job when it names what the group does or why it matters. It also names the relation that makes those members one group. A heading names a topic. A label names how the members relate. Even a competent textbook's grouping usually needs this rearranging. If one branch reads plainly and its neighbour is in jargon, the split can still improve. The usual fix is to group by the underlying concept and keep the term as the label.
-
-## What the map shows and what to do
-
-| The map shows | The repair |
-|---|---|
-| A node with more than four branches | Split into sub-chunks |
-| A single-node chain | Merged away, the survivor relabelled |
-| Arrows crossing chaotically | Re-chunked around the relationships |
-| A vague or source-copied label | Renamed by what the group does |
-| The source's order showing through | Flattened to a list and rebuilt |
-| A relationship stretched across the map | The two ends moved closer together |
-| Pretty, and still not rebuildable | A closed-book brain dump, then repairs where it collapsed |
-
-## Why the three repairs are one judgment
-
-A split, a merge, and a new label all force the same judgment: what matters most here, what comes second, and how the two relate. The move from the rough map to the clean one is the step. The judgments about importance are what gets learned. When the pass goes well, the map has fewer arrows and carries more meaning. Two ideas placed far apart on the map need a long arrow to show their relation. Placed in the same group, they need no arrow. Grouping also cuts the cost of holding the material, because pieces carried alone are the first forgotten.
-
-Nothing is removed. The finished map holds every detail of the rough one, nested one level deeper. That is the check that nothing new entered. The grouping craft itself, why two to four and why a label names a function, is defined at length in [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]. This pass is where that craft is applied to a finished map.
-
-## Writing the test prompts
-
-**The pass is not finished until the map can be tested.**
-
-The judgments count only once they are checked, so the last output of the pass is a prompt set. One prompt asks you to rebuild the whole map from memory. One asks you to explain each major chunk. One asks you to explain the relations between the major chunks. One asks you to rebuild an area that used to be overloaded. One asks you to compare two nearby concepts. One asks you to explain why the final chunk structure makes sense. These prompts point retrieval practice at the structure. They do not point it at the facts. Practising retrieval of what was built beats another round of encoding it.
-
-At the end of the pass you have the cleaned map: near-final structure, cleaner labels, less clutter, and a visible backbone. You also have the prompts and a short list of gaps, the places that would not rebuild. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] then takes the cleaned structure and tests it at lengthening delays.
-
-## When to run the pass and how big to make it
-
-The gaps say when the next pass happens. The timing has several options: the same day as the learning event, the end of the week for the week's material, after a few Aim–Shoot cycles, before retrieval practice starts, or whenever retrieval exposes a weakness. The timing stays open because the pass is itself a form of interleaving and is scheduled like one.
-
-Size follows how much of the structure is wrong. When time is short, ten minutes on the biggest problem is a real pass. A map that comes out already logical needs no pass at all. A pass run a week later from pure recall also serves as revision, and that revision beats rereading. The work in that case is going through the familiar map looking for questions that cannot yet be answered. That search surfaces the relationships the first pass missed.
-
-## Signs the pass is working, and signs it is not
-
-A working pass makes the topic feel simpler. Labels improve, crowded nodes become sub-chunks, single-node chains disappear, and prompts come to mind without effort.
-
-There are four warning signs: the map is only prettier, detail was added instead of structure moved, the source's order was kept because it felt safe, and the map still cannot be rebuilt. All four come from the same cause: the sunk cost of the hours already spent drawing. One bound keeps that warning fair. A redraw that changed no judgments is a failure. A judgment that changed no drawing is not a failure.
-
-The pass has a real price, because re-chunking is the hard thinking of the loop. Quitting because it is hard is the failure that actually happens. On material with little internal logic, the whole pass is optional. On that material it turns into pattern-hunting, and the earlier steps carry the load. Polishing is cheap and still feels like work. [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] names that trade. A map that looks finished and cannot be rebuilt is the case [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] describes.
-
-## When to stop
-
-**Stop when the map is good enough to retrieve from.**
-
-The map is good enough when it can support the retrieval loop. The judge of that is whether the map works for retrieval. How the map looks does not count. Polishing past that line gains nothing, because the next repair is not found by looking harder. The next repair shows up in retrieval practice. The later pass from recall surfaces what this one missed. Once the map can be tested, testing is the next step.
-
-## How to practice this
-
-1. Close every source before you start. Find the backbone: the few largest chunks and the flow between them, usually three to six. Notice that once the backbone is right, each repair below it takes less work.
-2. Count the branches on every node. Split any node with more than four branches, and merge away any single-node chain. Notice that branch counts find the weak spots even in a subject you do not know.
-3. Where arrows cross, put that content back into a flat list and regroup around the relationships the list shows. Redraw the map without the arrows not worth testing. Notice how many of the old groups were the source's own headings.
-4. Read each label and ask whether it names what the group does. If you can only recall the group's contents by memorising the group, rename it. Notice which labels are terms copied straight from the source.
-5. Write prompts to rebuild the whole map from memory, explain each major chunk, and explain the relations between major chunks. Add prompts to rebuild a formerly overloaded area, compare two nearby concepts, and explain why the final structure makes sense. Notice which prompts you cannot yet answer; those places are the gap list.
-6. Try a closed-book brain dump of the map. Notice where it collapses, and repair those places. Those gaps also set when the next pass happens.
-
-## Related pages
-
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]: the dimension this step belongs to. It builds material into structure instead of storing it as text.
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: the loop this pass is the third move of, and where the sequencing argument lives.
-- [[wiki/Dimensions/Deep Processing/Aim|Aim]]: the first move. The questions written before the material is understood, which is where the map's relationships come from.
-- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]: the second move, and the source of the rough map this pass cleans.
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: the test the cleaned map has to support, and the reason testability is the finish line.
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the control layer. Noticing that a pass is turning cosmetic while it is happening.
-- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]: where the grouping craft is defined at length: why two to four, and why a label names a function.
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: maps that look finished and cannot be rebuilt.
-- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: polishing as the cheap move that feels like work.
+- How does judging the grouping only after several question-and-answer cycles change how certain the final structure can be?
+- How does checking a map for grouping, side-to-side links, flow, and emphasis change which relationships you treat as most important?
 
 ## Sources
 
-- Tulving & Pearlstone (1966), and the category-clustering research that followed it: organised material is more retrievable than the same material left unorganised. That is the case for cleaning structure before testing it.
-- Roediger & Karpicke (2006): practising retrieval beats further encoding. That is why the pass ends in prompts, and why a later pass from recall counts as revision.
-- Cowan (2001): the focus of attention holds roughly four items. Carried as a reason a node with five or more branches is hard to hold, and not as a validation of the 2–4 rule.
+- iCanStudy, "Bear Hunter System: Skin", Ascent III. Private course notes, paraphrased.
+- iCanStudy, "GRINDE maps", Ascent III. Private course notes, paraphrased.
+- iCanStudy, "Effective note-taking: Visual", Ascent II. Private course notes, paraphrased.
+- iCanStudy, "Effective note-taking: Processed, relational, freehand", Ascent II. Private course notes, paraphrased.
+- iCanStudy, "Effective note-taking: Reflective", Ascent II. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: the three-step sequence this page is the third step of.
+- [[wiki/Dimensions/Deep Processing/Aim|Aim]]: the questioning step whose quality should rise as Skin approaches, and which the directional check depends on.
+- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]: the mapping step that should already feel automatic here.
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]: the grouping judgments Skin is refining.
+- [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]]: the logic, concepts, and important-details layers a reflective map should show.
+- [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]: the mapping form GRINDE is used to refine.
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]: the dimension this page sits in.

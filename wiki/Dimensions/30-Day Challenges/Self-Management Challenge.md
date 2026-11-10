@@ -1,94 +1,68 @@
 ---
 title: "30-Day Challenge - Self-Management"
 type: concept
-status: developing
+status: draft
 created: 2026-05-22
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
-model: grok
-source-count: 2
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "A four-week practice that maps the variables shaping your day, tests one change, designs a high-flow day to find the cracks, then keeps only the smallest set of supports that still work."
 tags:
   - self-management
   - practice
   - learning
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # 30-Day Challenge - Self-Management
 
-The Self-Management Challenge is a four-week practice plan. In the first week the reader maps the variables that actually shape the day. In the second week the reader tests one change. By the end of the month the reader keeps only the smallest set of supports that still work. Each week of a 30-Day Challenge asks a little more than the week before. This one starts with a log of the actual day, because the same variables that change energy also change focus and follow-through.
+The Self-Management Challenge is a four-week practice for noticing the variables that shape your energy, concentration, distractibility, and follow-through, then finding the smallest set of changes that still help. Self-management is hard to train because so many variables act on one another. Noticing some of those variables, and how your tasks, activities, and methods move them, is part of getting better at the skill. Normally that awareness can take years. This first week is meant to help you identify the variables much faster.
 
-## Core takeaways
+## Week 1: problem mapping
 
-- Week 1 logs the day as it actually happened and produces a list of the factors that move energy, focus, and follow-through, each with a direction and a strength of impact.
-- Week 2 changes one factor at a time, two at most, for a day or two, and compares the result against the week-1 baseline.
-- Week 3 runs one planned perfect day under realistic pressure, so the practices that fail under pressure are found.
-- Week 4 cuts tracking and conscious effort down to the smallest set of supports that still keeps the day good enough.
-- The month ends with a few tested supports. Tracking does not continue as a permanent project. The month is run again when the day slips.
+Log your day with a time-tracking app on your phone so you can log activities and tasks through the day. When the day ends, look back at whether you felt you were in flow, meaning a state of deep focus and concentration, and how deliberate your use of time was. Notice whether you delayed and got pulled off course, and whether the day matched the plan. Each day, try to name at least one or two factors that could have moved your energy, concentration, distractibility, and follow-through on the plan you meant to run. At week's end, sum up what you saw by listing the factors that seem to move those same things, and note how strong the effect was.
 
-## How the four weeks build
+## Week 2: variable exploration
 
-Week 1 is awareness: the reader builds a map of what already moves the day. Week 2 is experimentation: one change is made, so the cause of any result can be read. Week 3 is the crack-test: one theoretically perfect day is run so the faults in the current practices show. Week 4 is the fade: the reader finds the smallest set of supports that still keep the day good enough. The month moves from data collection, to controlled change, to robustness, to sustainability.
+By now you should see more clearly which factors obviously move your energy, concentration, distractibility, and follow-through. You should also be more used to watching the variables that shape your flow through the day, and you should have at least one week of time-tracking data.
 
-The work protects time and energy for Deep Processing and Retrieval, and it reduces the load on Self-Regulation when conditions get difficult.
+This week you adjust those variables to watch what effect they have on your self-management. Some factors may be rate-limiters, meaning that addressing them has an outsized impact on your self-management compared with the size of the change.
 
-## Week 1: mapping the real day
+Continue tracking your time as you did in the first week. Those insights will be used in the third week. Pick one main factor that seems to move your energy, concentration, distractibility, or follow-through the most, or the most often. Design a simple experiment that addresses it. The experiment should be realistic and easy to carry out. The point is to see what changing this factor does, so intense or drastic changes are not advised. If designing the experiment is hard, you may ask peers for strategy ideas. Every two days, look back at how the experiment moved your energy, concentration, distractibility, and follow-through. You may notice extra factors you had missed. Your aim is to name at least one clear trend that improves flow through the day and one clear trend that makes it worse.
 
-The first week builds a concrete map of the variables that affect energy, focus, and follow-through. The map is built before any of those variables is changed. The instrument is a timer, or a log of what actually happened through the day. The log records the day as it happened. The planned day gives no data for this map.
+## Week 3: pressure
 
-Each evening, three questions close the log: flow or intentional? Procrastinate or distracted? Did the day go according to any plan? Beside those answers the reader writes one or two factors that seemed to move energy, concentration, distractibility, or follow-through.
+By now you should have identified clear trends and changes that help and harm your energy, concentration, distractibility, and execution ability, and you should have at least two weeks of logged time data. This week you try to design a theoretically ideal day of unbroken flow and watch where the cracks show in your self-management system.
 
-The week's product is a summary list of those factors, each with a direction and a strength of impact. That list, together with the week's log of what actually happened, is the problem mapping. An experiment started before the list exists has no baseline to compare against.
+Look back over the last two weeks of time-tracking and mark any patterns of behaviour or time use that were unintentional or unwanted. Notice whether the hours you actually spent differed from what was scheduled. Plan one perfectly productive day. Put in steps and precautions that should help you hold peak flow and productivity, drawing on what you have noticed so far and on the time-tracking itself. Run that day. When it ends, compare how it went with the plan. Name any barriers, mistakes, or things you overlooked. Also notice any urges you felt, even the ones you resisted. Take one or two pieces from the perfect day and add them to an ordinary day. Run that adjusted ordinary day. When it ends, look at what those additions did. Notice whether they were helpful, whether they feel sustainable, and in what situations they might be ineffective. Then repeat from planning another perfectly productive day.
 
-## Week 2: changing one variable
+## Week 4: fading
 
-The factor list from week 1 stays in use, and tracking continues. The reader chooses one factor from that list. One is the preferred number. Two is the most allowed. In this challenge, a variable is one factor that can be changed on purpose: the room, the order of tasks, sleep, or the style of the plan.
+By now you should have some sense of the actions and tweaks that help you recreate your perfect day, to varying degrees, with some consistency. You should understand how much energy, effort, and planning required to optimise your productivity and flow. You should also see more clearly how different variables shape your flow through the day, and how your replies, behaviours, and actions change the effect those variables have on you.
 
-The reader designs a small deliberate change around that factor. Typical places for the change are the environment, the order of tasks, an energy tactic, and a planning method. The change runs for a day or two. During those days the reader watches energy, focus, distractibility, and output quality against the week-1 baseline.
+Last week was about pushing your skills to the limit. This week explores the minimum intervention that still achieves a worthwhile beneficial effect. The aim is to build the most lasting set of tools that still work at the lowest effort, while keeping you reasonably close to your best. These insights are useful for when you are tired or sick and still have to manage yourself when energy is scarce.
 
-The week is finished when two trends have been named: one that helped flow, and one that hurt it. A change that helped is kept. A change that did not help is dropped. A new variable can be added once the last one has produced a reading. The week's rule is controlled variation: one factor changes at a time. Changing everything at once is outside that rule. Ideas for experiments come from the week-1 list, or from a peer.
+Using what week three showed you, plan a moderately productive day, but keep only the simple, minimal actions, tweaks, and techniques you think will hold flow. Run that day. When it ends, compare how it went with the plan. If it went very well, plan another day with an even thinner set of strictly high-yield tweaks and actions. If it went poorly, ease the plan a little back toward your perfect-day version until it works. Keep adjusting until you find the lowest level of actions and tweaks at which the day turns unacceptably unproductive.
 
-## Week 3: running one perfect day under pressure
-
-Week 3 is the crack-test. It puts the practices now in use under realistic pressure, so any practice that fails under pressure is found. The pressure is a planned perfect day.
-
-A perfect day is a planned day that uses everything currently thought to help, run once so its faults show. Before the plan is written, the reader reviews the two weeks of tracking for unintentional time. The plan is built from that review. Then the day is run. Afterwards, the reader writes a reflection that names the day's barriers, mistakes, oversights, and urges, including the urges that were beaten. One or two elements from the perfect day are then added to a regular day, and that enhanced regular day is run. Then the reader returns to the perfect-day plan and repeats the loop.
-
-During these runs the reader watches which practices degrade first, which variables matter more or less under load, and which adjustments protect performance. The perfect day is itself the source of the pressure. Shorter deadlines, higher-stakes tasks, accumulated fatigue, and external interruptions appear if they are already in the week.
-
-## Week 4: fading the supports
-
-The last week reduces deliberate tracking and conscious effort, so the improvements become defaults that need less upkeep. Fading means finding the smallest set of supports that still keep the day good enough.
-
-The reader watches whether the improvements remain without extra attention, and which practices have become habitual versus which still need active maintenance. What stays at the end is a few minimal maintenance structures: simple reviews, environmental defaults, and habit triggers. Those defaults and triggers protect the system without a high ongoing cost.
-
-The week's task is to plan a moderately productive day from the smallest set of actions that still keeps flow. If that day works, the plan is simplified further. If it fails, the plan moves back toward the perfect-day version. The lower limit is the point where the day becomes unproductive in a way the reader does not want. That limit is useful on days when the reader is tired or sick. The month is designed to be run again.
-
-## What the month leaves
-
-At the end of the month the reader has a smaller set of supports. Each has been through the week-3 crack-test and the week-4 fade. The tracking does not continue as a permanent project. The month can be run again when the day slips.
-
-Running the month again when the day slips is one case. There are others. A week 2 that changes five things at once gives no reading. A week 3 that adds pressure without a planned day tests nothing. A week 4 that never fades the tracker has become a new permanent project. Each of these is a signal to stop. The next move is to run that week again. Building a wider system is not the next move.
-
-This challenge is one of the five tracks under [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]. The parent dimension, beyond this month's experiments, is [[wiki/Dimensions/Self-Management|Self-Management]]. The work protects time and energy for the [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]] and the [[wiki/Dimensions/30-Day Challenges/Retrieval Challenge|Retrieval Challenge]], and it reduces the load on [[wiki/Dimensions/Self-Regulation|Self-Regulation]] when conditions get difficult. It pairs with [[wiki/Self Management/Time Management, Attention & Scheduling|Time Management, Attention & Scheduling]] for the shape of the day. It pairs with [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]] for the defaults that survive the fade; PEER is a habit-setup sequence of prep, easy, exit, reward, plus a peer. Technique pages sit on [[wiki/Techniques/Techniques - Learning Craft|Techniques - Learning Craft]].
-
-## How to practice this
-
-1. For one week, log what actually happened each day with a timer or a written log. Each evening, answer the three closing questions, then note what seemed to move energy, concentration, distractibility, or follow-through. One or two factors a night is enough.
-2. At the end of the week, list the factors, each with a direction and a strength of impact. This list is the baseline; start no change before it exists. Notice that every entry comes from the log of the real day.
-3. Pick one factor from the list, two at most, and design one small change around it. Typical places are the environment, the order of tasks, an energy tactic, or a planning method. Run it for a day or two, and watch energy, focus, distractibility, and output quality against the week-1 baseline.
-4. End the week with two named trends: one that helped flow and one that hurt it. Keep the change if it helped and drop it if it did not. Add a new variable only after the last one has a reading.
-5. Review two weeks of tracking for unintentional time, then plan one day that uses everything thought to help. Run it, then write down the barriers, mistakes, oversights, and urges, including the ones that were beaten. Notice which practices degrade first, then add one or two elements from that day to a regular day.
-6. Plan a moderately productive day from the smallest set of actions that still keeps flow. If it works, simplify it further; if it fails, move back toward the perfect-day plan. Notice which practices now run without attention and which still need active maintenance.
+Because self-management skills are interrelated, how these variables affect your productivity and flow will shift over time. This 30-day challenge is built so you can run it again whenever your self-management feels like it needs work. Because it is led by looking inward, the type of insights you gain from repeating it will depend on your circumstances and your growing level of self-management skill.
 
 ## Open questions
 
-Which single variable should a reader choose when the week-1 list is long?
-
-How far can the fade go before the day is simply unmanaged?
+- How does tracking a real day, before you try to change it, change which factors you think are shaping your energy and concentration?
+- How does finding the smallest set of supports that still work change what you do on a tired day?
 
 ## Sources
 
-- Wood, W., Tam, L., & Witt, M. G. (2005). Changing circumstances, disrupting habits. *Journal of Personality and Social Psychology*, 88(6), 918–933. Context-cued habits survive when the environment stays; defaults and triggers are the mechanism.
-- Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of simple plans. *American Psychologist*, 54(7), 493–503. A planned if-then ties the day's action to a cue, which is the logic under a default.
+- iCanStudy, "Week 1: Problem mapping", 30-day self-management challenge. Private course notes, paraphrased.
+- iCanStudy, "Week 2: Variable exploration", 30-day self-management challenge. Private course notes, paraphrased.
+- iCanStudy, "Week 3: Pressure", 30-day self-management challenge. Private course notes, paraphrased.
+- iCanStudy, "Week 4: Fading", 30-day self-management challenge. Private course notes, paraphrased.
+- iCanStudy, "Attention management", Camp II. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Dimensions/Self-Management|Self-Management]]: the dimension this challenge trains.
+- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]]: another four-week practice in the same set.
+- [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset Challenge]]: nearby work on turning mistakes into experiments.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: nearby work on watching what your methods actually do.

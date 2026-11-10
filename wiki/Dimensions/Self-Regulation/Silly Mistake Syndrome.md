@@ -1,130 +1,47 @@
 ---
 title: "Silly Mistake Syndrome"
 type: technique
-status: developing
+status: draft
 created: 2026-05-29
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
-model: grok
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "Mistakes called silly are rarely just sloppy exam technique. They usually point to a gap in understanding or application, and they are hard to fix if they are dismissed."
 tags:
   - self-regulation
-  - performance
   - exams
+  - retrieval
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # Silly Mistake Syndrome
 
-Silly Mistake Syndrome is a habit. A student gets an exam question wrong, calls the error "silly", and stops looking for its cause. The cause is not found, so it stays and produces the same error again.
+Calling a mistake silly makes it hard to fix. The mistake is rarely just sloppy exam technique. It is usually a mix of weak exam technique and weak preparation, and more often it is the preparation. Even when the error looks obvious, it most often shows a gap in understanding or in applying what you know.
 
-The cause is almost always fixable. The cause is more often a gap in reasoning than carelessness.
+Two common sources sit underneath that pattern. One is low attention to detail. That can be temporary after little sleep or during a stretch of high stress, but more often it has become a habit after years of waving the same errors away as silly. The other source, and the more common of those two sources, is missing logic. A gap in understanding causes you to miss information. People often do not suspect this, because the official answer "makes sense" when they read it. What they cannot do is generate that chain of reasoning without help. A typical case is assigning or converting units in maths or physics. Once the person understands what the units actually represent, those errors tend to disappear, because a wrong conversion no longer merely breaks a memorized rule. It also fails to make sense, which gives the mistake a chance to set off an alarm.
 
-## Core takeaways
+Trying to fix the pattern by intending not to repeat it, or by vaguely being more careful, is unlikely to work. Ignoring the mistake on the assumption it will not come back has the same problem. A better sequence is to find the biggest root cause, try a targeted fix, look for other possible causes, and repeat that cycle of trying and looking back.
 
-- Calling an exam error "silly" ends the search for its cause. The cause stays and the error repeats.
-- Most lost marks come from one of two causes: low attention to detail, or not being able to produce the chain of reasoning without help. The second is the more common. Poor exam technique is rare.
-- A missing chain of reasoning looks like carelessness, because the official answer looks obvious once read. Recognizing a correct answer is not the same as producing it.
-- Resolving to be more careful does not find the cause.
-- MR FIG is a routine of five practices, Mirror, Ritual, Focus, Image, and Graduated exposure, for errors that come from attention dropping under pressure. It does not supply a missing chain of reasoning, and the five have never been tested together.
-- The result that can be checked is an error that has been given a cause and a next experiment.
+Several root causes show up in regular patterns. Random mistakes that do not track difficulty, question type, or subject, and that increase in high-stakes exams, point toward test anxiety. The suggested responses start with gradual practice under exam-like conditions, such as timed papers, shorter time limits, or working in a group to add pressure. Deep breathing before the test and a pre-test ritual that supports calm and confidence also help. Last-minute studying at the exam-room door has little benefit and tends to raise anxiety, so it is skipped. Mistakes around recalling isolated facts point toward too little lower-order knowledge, meaning isolated detail, and a suggested response is to add a lower-order retrieval method such as cards. Mistakes around questions that join two or more concepts, around the big picture, or around how to approach a problem point toward too little higher-order knowledge, meaning integrated understanding. The response is more of that work during first learning and during later retrieval. Mistakes around highly procedural tasks, common in software work, engineering, and maths, point toward too little practice of carrying a method out, and the response is more of that kind of retrieval. A mix of mistakes across those kinds, repeating on practice tests, points toward gaps that retrieval has not been catching.
 
-## What usually causes the error
+When attention to detail suffers especially under pressure, a five-part sequence named MR FIG is offered. Mirror calibration means thinking and speaking well of your preparation. Ritual means a repeated sequence of events that helps you reach a useful state. Focus training means practicing letting stray thoughts go and returning attention, the same kind of mindfulness practice described on the neuroticism page. Image training means picturing yourself doing well and the steps that got you there. Graduated exposure means slowly simulating exam conditions during revision.
 
-Most lost marks come from one of two causes.
-
-The first is low attention to detail. Low attention is sometimes temporary, from a bad night of sleep or a week of high stress. More often low attention is habitual, built over years of dismissing the same errors instead of examining them.
-
-The second is lacking logic. The student cannot produce the chain of reasoning without help, even though the official answer looks obvious once seen. Lacking logic is the more common of the two causes.
-
-Poor exam technique is a third cause, and it is rare.
-
-## Why a gap in reasoning looks like carelessness
-
-A gap in understanding makes the student miss information. Take a unit conversion that looked like sloppiness. Once units mean something to the student, converting grams into kilograms the wrong way stops making sense, and the student stops writing it. The error was a comprehension gap that looked like carelessness.
-
-When the student reads the official mark scheme, the answer looks obvious. That obviousness hides the gap. An answer that makes sense on reading gives no sign that the student could not have produced the chain of reasoning alone. Recognizing a correct answer is not the same as producing it.
-
-## Why resolving to be more careful does not work
-
-The label "silly" produces one repair: the student resolves to be more careful. Intention and extra caution do not find the cause.
-
-[[Metacognition - The Control Layer]] is the act of noticing that an answer making sense on reading is not the same as being able to produce it. [[Higher-Order Learning]] is the repair for the missing chain of reasoning, done during learning, before the exam.
-
-"Silly" is not a category of error. The remaining causes are test anxiety, thin lower-order knowledge, thin higher-order knowledge, thin procedural practice, and mixed unidentified gaps. The table that sorts them is on [[How to diagnose and fix exam mistakes]].
-
-## Which repair fits which cause
-
-When the errors come from attention to detail dropping under pressure, a five-part routine done before the exam can steady the student's state during the exam. Applied to a comprehension gap, the same routine does not fit. It does not supply a missing chain of reasoning.
-
-## The five-part routine for attention under pressure
-
-MR FIG is a mnemonic. Its letters stand for Mirror, Ritual, Focus, Image, and Graduated exposure. It covers the case where attention to detail drops under pressure. Attention to detail gets worse under pressure. MR FIG is not a trialled bundle: the five parts come from five separate bodies of research and have not been tested as one treatment. All five parts work on the student's state before the exam. None of the five deal with the content of the exam paper.
-
-**Mirror** is affirmation at the level of values: writing about a core value that has nothing to do with the subject being examined. Speaking well of one's exam preparation is a different act. Positive self-statements can backfire when self-esteem is already low.
-
-**Ritual** is a short fixed sequence of actions done before the paper. It costs little to keep. There is no finding that rituals raise exam scores.
-
-**Focus** is attention training, using mindfulness in general. No named school is prescribed, and no number of minutes per day is prescribed.
-
-**Image** is mental rehearsal of performing well, including the steps that led to performing well. Rehearsing the process works better than rehearsing the outcome alone.
-
-**Graduated exposure** is revision done under conditions that move closer to exam conditions.
-
-## What the routine cannot replace
-
-Sleep, movement, connection, and light are prerequisites. The five parts cannot replace them. They are covered in [[How to Maintain Sustainable Energy Under Pressure]].
-
-When the errors called "silly" come from a depleted system, the cause to fix is the depletion. [[How to Maintain Sustainable Energy Under Pressure|Recovery]] covers that cause: rest versus recovery, and detachment.
-
-A practice-test method called double-generation is described on [[Exam Execution]].
-
-## What the routine costs and what is not known
-
-The routine costs five practices, kept up over weeks. It does not work as a single practice on the morning of the exam.
-
-No trial has tested the five parts as a bundle. No prevalence data shows that lacking logic is a more common cause than low attention. No evidence shows that the word "silly" itself makes errors persist. It is plausible that the label ends the search, but this has not been shown.
-
-If the errors are relational errors, strategy errors, or errors where the answer makes sense once read, the routine does not apply. If two errors in a row were logged as "silly" and both turned out to be logic gaps, the routine has been applied to the wrong cause twice.
-
-The result that can be checked is an error that has been given a cause and a next experiment. A promise to be more careful is not a checkable result.
-
-Once the student stops calling the error "silly", the search for its cause can start. The routine helps only the cause it was built for.
-
-## How to practice this
-
-1. Take the last exam error you called "silly". Try to produce the full chain of reasoning without looking at the answer. Notice whether you can do it unaided.
-2. Read the official answer. If it makes sense only once read, the cause is a missing chain of reasoning. The repair for that cause is [[Higher-Order Learning]].
-3. Check whether the error came after a bad night of sleep or a week of high stress. If so, the cause is a temporary drop in attention. Sleep, movement, connection, and light come before any routine.
-4. If the error came from attention dropping under exam pressure, keep the five MR FIG practices for weeks. Notice that none of the practices deal with the paper's content.
-5. Log each error with a cause and a next experiment. If two errors logged as "silly" in a row were logic gaps, the routine is on the wrong cause. Notice that a promise to be more careful gives you nothing to check.
-
-## Related pages
-
-- [[How to Maintain Sustainable Energy Under Pressure]]: sleep, movement, connection, light. The prerequisites MR FIG cannot replace.
-- [[Higher-Order Learning]]: the repair for the missing chain of reasoning, done during learning.
-- [[Metacognition - The Control Layer]]: noticing that an answer making sense on reading is not the same as being able to produce it.
-- [[How to diagnose and fix exam mistakes]]: the diagnosis table, and why "silly" is not a category.
-- [[Exam Execution]]: the hub page for exams. Double-generation practice tests belong there.
+Double generation is a method for finding hidden gaps on practice tests. You sit a practice test and write each answer the way you would during an actual exam. You mark the questions you were not confident about. You then create your own answer sheet of model answers from your notes and other resources, compare your test answers with that sheet, and, if an official sheet exists, compare your model sheet with it. What you then restudy are the questions you were unsure about, the ones you got wrong against your own sheet, and any places your model answers fell short of the official ones. Lack of confidence marks a gap even when the answer was right, because that right answer may have been luck, and a varied question on the same knowledge may go wrong next time. Answering only in your head leaves a confident-but-shallow sense that you could explain the topic untouched, so it misses gaps. Creating your own answer sheet takes time. It is also one of the most useful parts of the method, because it forces both isolated and integrated thinking while you decide what a strong answer would be. One informal estimate is that making the sheet gives about the same learning benefit as sitting five or six practice tests without it. It also creates what is called proxy learning. You end up addressing gaps the question did not directly test, because you have to learn around the question to write the model answer. If you have no official sheet, skipping that last comparison is acceptable when time is short, or you can compare model sheets with a study partner. If you have no practice test, you can write your own, find similar questions, or use a tool to help draft some. The strongest option, when it is possible, is to form a small group and write tests for each other, so you are challenged from someone else's point of view.
 
 ## Open questions
 
-Once the label is dropped, what is the smallest written record that keeps a "silly" error from being re-filed as silly next time?
+- How does calling a mistake silly change whether its real cause ever gets found?
+- How does writing a model answer yourself, before seeing an official sheet, change which gaps a practice test is able to show?
 
 ## Sources
 
-- Rozenblit, L., & Keil, F. (2002). The misunderstood limits of folk science: an illusion of explanatory depth. *Cognitive Science*. Recognizing an answer is not the same as generating it.
-- Alhola, P., & Polo-Kantola, P. (2007). Sleep deprivation: impact on cognitive performance. Transient attention cost of a bad night.
-- Newbury, C. R., Crowley, R., Rastle, K., & Tamminen, J. (2021). Sleep deprivation and memory. *Psychological Bulletin*. Deprivation before and after encoding harms memory.
-- McQueen, A., & Klein, W. M. P. (2006). Experimental manipulations of self-affirmation. *Self and Identity*. The studied manipulation is not pep-talk.
-- Cohen, G. L., Aronson, J., & Steele, C. M. (2000). When beliefs yield to evidence. *Personality and Social Psychology Bulletin*. Affirming an unrelated valued identity.
-- Cohen, G. L., Garcia, J., Apfel, N., & Master, A. (2006); Cohen et al. (2009). Values-affirmation writing and academic outcomes for threatened groups.
-- Wood, J. V., Perunovic, W. Q. E., & Lee, J. W. (2009). Positive self-statements: power for some, peril for others. Can backfire when self-esteem is low.
-- Hobson, N. M., Bonk, D., & Inzlicht, M. (2017). Rituals decrease the neural response to performance failure. *PeerJ* 5:e3363. Error-related negativity after failure, not exam scores.
-- Zeidan, F., Johnson, S. K., Diamond, B. J., David, Z., & Goolkasian, P. (2010). Mindfulness meditation improves cognition. *Consciousness and Cognition*. Brief training, working memory, reduced fatigue.
-- Sedlmeier, P., et al. (2012). The psychological effects of meditation. *Psychological Bulletin*. Attention is a reliable target.
-- Hembree, R. (1988). Correlates, causes, effects, and treatment of test anxiety. *Review of Educational Research*. Behavioral and CBT treatments reduce test anxiety and raise performance.
-- Driskell, J. E., Copper, C., & Moran, A. (1994). Does mental practice enhance performance? *Journal of Applied Psychology*. Meta-analysis; larger for cognitive tasks.
-- Pham, L. B., & Taylor, S. E. (1999). From thought to action: effects of process- versus outcome-based mental simulations. *Personality and Social Psychology Bulletin*. Process beats outcome-alone.
-- Goldfried, M. R., Linehan, M. M., & Smith, J. L. (1978). Reduction of test anxiety through cognitive restructuring. *Journal of Consulting and Clinical Psychology*.
-- Brooks, A. W., Schroeder, J., Risen, J. L., Gino, F., Galinsky, A. D., Norton, M. I., & Schweitzer, M. E. (2016). Don't stop believing: Rituals improve performance by decreasing anxiety. *Organizational Behavior and Human Decision Processes* 137: 71–85. **Retracted November 2024** (*OBHDP* 185, 2024, 104360). Not used.
+- iCanStudy, "Silly mistake syndrome", Exam execution. Private course notes, paraphrased.
+- iCanStudy, "How do I avoid making silly mistakes in tests or exams?", Learning Support. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]]: the focus training that MR FIG points back to.
+- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]: the integrated understanding whose absence shows up as conceptual mistakes.
+- [[wiki/Dimensions/Retrieval/Group Study|Group Study]]: writing practice tests for each other as a way to find gaps.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the dimension this page sits in.

@@ -1,125 +1,87 @@
 ---
-title: Deep Processing
+title: "Deep Processing"
 type: dimension
-status: developing
+status: draft
 created: 2026-05-16
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-last-audited: 2026-08-14
-source-count: 12
-written-by: grok
-model: grok
-description: "The felt effort is the mechanism, not a malfunction."
+updated: 2026-11-10
+method: fresh-from-notes-2026-11-10
+description: "Deep processing is the brain's capacity to pull meaningful learning out of information by analysing, connecting, and critiquing what you take in."
 tags:
-  - learning
-  - encoding
   - deep-processing
-  - dimensions
+  - encoding
+wedge_reviewed: false
 ---
+
+> Not yet reviewed by Wedge.
 
 # Deep Processing
 
-Deep processing is the quality of the thinking you do when you first meet new material. That thinking means connecting the material to what you already hold, comparing it against what sits near it, judging which parts carry weight, and assembling the parts into something like a model. This thinking determines what you can remember later. An hour spent rereading, highlighting, or memorising the exact wording gives you an hour of contact with the material and leaves very little you can recall afterwards.
+The brain processes a great deal of information all the time, both with awareness and without it. Meaningful learning comes from the thinking those stimuli trigger. Deep processing is the brain's capacity to pull meaningful learning out of information.
 
-Each technique listed further down can carry that thinking. Each can also be performed with none of that thinking happening. The thinking is what produces the memory. A technique produces only the thinking that happens while it is used.
+Stronger deep processing brings firmer memory, richer understanding, and a greater ability to put new information to complex use. That work means closely analysing, linking, and critiquing what you learn. People at this level join ideas to what they already know and reflect on wider implications. Lower levels, also called shallow processing, lead to weaker memory and thinner understanding. That work means passive, easy study such as rote-learning, repeating, and memorising, and taking in information without the surrounding context. People at this level might read a passage, then pick up the separate ideas, yet fail to understand the bigger picture.
 
-[[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] is the five-part division that deep processing belongs to.
+For most people, genetics and early childhood experiences shape deep processing in a major way. It can also be trained through steady, purposeful practice.
 
-## Core takeaways
+A person with great deep processing skill can do something called deep processing tanking. That is when they perform well in learning using mediocre methods, because their exceptional deep processing compensates for the lack of technique. This can confuse learners without that same processing strength, because they do not get the same results even when they use the same strategies as top learners. Tanking is not enough when the learning goals become hard enough. Even people who have relied on it need to train their other dimensions if they want to learn as well as they can.
 
-- Deep processing is the thinking you do when you first meet material: connecting it to what you know, comparing it, judging what matters, and building a model. That thinking decides what you remember later.
-- Rereading, highlighting, and rote memorisation give contact with the material and leave little to recall. Extra hours on those methods rarely close the gap, and they stop closing it once volume and difficulty rise.
-- The same technique can be run deep or shallow. The result comes from the thinking, and the thinking cannot be seen from outside.
-- Depth alone is not enough. Retrieval practice that matches how the knowledge will be asked for is also required, and retrieval practice can beat elaborative study on later tests.
-- Deep processing feels slow and effortful, and that effort is the encoding. Methods that feel smooth are usually shallow.
-- Changing this means changing a habit, which takes months of consistent, targeted practice. The test is whether you can teach the topic back with every source closed and produce a hard example from memory.
+The brain relies on cognitive habits, meaning patterns of thought developed over time, to process information. You cannot consciously steer every aspect of how the brain processes what it meets, so the effectiveness of learning relies heavily on those habits. Changing them takes more than good intentions or being told what to do. It requires targeted experiences.
 
-## What the thinking changes
+A comparison used here is learning tennis. Tennis requires many technical skills, such as footwork, grip, swing, and strategy, and they must work together. If the goal is to play at a high standard, repeating full matches over and over would likely leave you frustrated, uneven, and stuck in your progress. A more successful approach is to scaffold your way up. Practise grip and stance. Isolate a consistent forehand, a controlled backhand, or a precise serve. Drill those movements until they feel automatic, then bring them into rallies and games. As the skills become more fluid and automatic, you can focus on higher-level strategy, such as anticipating an opponent, adapting your play, and keeping mental endurance under pressure. High performance is then a habit. Deep processing skills develop in the same way. Just as a tennis player cannot hold every mechanical detail in conscious thought in a fast match, you cannot steer every cognitive process while you learn. The key is to automate the essential habits through practice and refinement so they become second nature, and over time those habits let you handle complex material more efficiently.
 
-Two people can read the same page at the same speed. The first is occupied with holding the words: repeating them, trying to keep them, getting to the end. The second thinks about the material while the words arrive: what it connects to, where it could be used, how it would simplify, where it sits in the whole. Both read the same page. The second reader is left with more afterwards.
+There are four phases of processing ability that you must be able to perform with mastery and as a habit.
 
-The difference between the two is in how meaningfully the material is encoded into long-term memory. Higher depth produces stronger retention and understanding that stays usable. Shallow processing produces thinner memory and understanding that stays on the surface. The shallow forms are rote memorisation, passive reading, rereading and highlighting, and isolated facts with no bigger picture.
+In the first phase, understanding and awareness, you gain a sense of where you stand on the processing range and which techniques and thought habits lead to deeper or shallower processing. You can then begin making first adjustments whenever you catch yourself. That includes recognising shallow versus deep strategies, understanding how the brain organises knowledge into schemas, meaning mental frameworks, and building awareness of how effective habits strengthen engagement and retention.
 
-The thinking that produces depth is a small set of questions running while the material arrives: what it relates to that is already known, how it could be applied, how it would simplify, and where it sits in the larger picture. Those same questions are how new information connects to prior knowledge, and they are how analysis and critique run. Higher-order work is two operations. The first is comparing information against other information to find similarities and differences. The second is judging which of those similarities and differences matter. Lower-order work is the same act with the comparison left out.
+In the second phase, aligning your technique, you learn practical techniques that force deeper processing and improve learning performance. These techniques may be challenging and can take time to replace current habits. That includes identifying similarities and differences between concepts, grouping related information, evaluating relationships and questioning meaning, and layering learning so foundational ideas come before details.
 
-Building transferable models and using knowledge under pressure need this depth and also retrieval practice that matches the way the knowledge will be asked for. Depth alone delivers neither.
+In the third phase, refining and deepening, you should be comfortable adjusting your techniques so you can drop into deeper processing at will. The cognitive patterns of deeper processing should feel familiar, so you can extend them with even deeper and more complex patterns. That includes evaluating the importance of connections, refining your understanding for better organisation and cohesion, and prioritising key ideas to create clearer knowledge structures. This phase is described as beginning in a later growth stretch of training, from about the sixth and seventh stage onward, and continuing for weeks to months.
 
-Material connected to what is already known lasts longer than isolated facts. Knowing why something is true and how it works produces more memory than knowing what it is. Explanations, comparisons, and implications do encoding work that a second highlighting pass does not. Extra time on a shallow method rarely makes up the difference. A shallow first pass has to be made up later with more hours and more strain. Making it up with hours works while the material stays easy. Once the volume or the difficulty rises, extra hours no longer make it up.
+In the fourth phase, integration and mastery, you join several new processing habits into one fluid system. This phase calls for strong competence and fluency with every earlier technique. Mastering it gives you a high baseline of processing that supports memory and understanding in every part of learning. That includes using several thinking processes at once, including questioning, analysing, and grouping, within a single sequence. It also includes applying knowledge flexibly across varied and complex contexts, and simplifying and adapting what you have learned for different purposes. Focus on this level of mastery is described as coming after about 4 months to 9 months. It is possible to begin from the middle of training onward, depending on practice, baseline, consistency, and accuracy with the previous phases. Mastering the phase can take months to years, based on aptitude and diligence.
+<figure>
+<svg viewBox="0 0 520 450" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="dim-dpov-a">
+<title id="dim-dpov-a">There are four phases of processing ability that you must be able to perform with mastery and as a habit.</title>
+<rect x="0.5" y="0.5" width="519" height="449" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<text x="24" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">four phases of processing ability</text>
+<circle cx="260" cy="64" r="5" style="fill:var(--qp-ink)"/>
+<path d="M260 69 L260 80" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="260,80 255.5,72 264.5,72" style="fill:var(--qp-mut)"/>
+<rect x="110" y="80" width="300" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="260" y="107" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">understanding and awareness</text>
+<path d="M260 124 L260 168" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="260,168 255.5,160 264.5,160" style="fill:var(--qp-mut)"/>
+<rect x="110" y="168" width="300" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="260" y="195" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">aligning your technique</text>
+<path d="M260 212 L260 256" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="260,256 255.5,248 264.5,248" style="fill:var(--qp-mut)"/>
+<rect x="110" y="256" width="300" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="260" y="283" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">refining and deepening</text>
+<path d="M260 300 L260 344" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="260,344 255.5,336 264.5,336" style="fill:var(--qp-mut)"/>
+<rect x="110" y="344" width="300" height="44" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="260" y="371" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:500">integration and mastery</text>
+<line x1="260" y1="388" x2="260" y2="404" style="stroke:var(--qp-rule2);stroke-width:1.25"/>
+<circle cx="260" cy="412" r="8" style="fill:none;stroke:var(--qp-ink);stroke-width:1.25"/>
+<circle cx="260" cy="412" r="4" style="fill:var(--qp-ink)"/>
+</svg>
+</figure>
 
-## How knowledge gets held together and rebuilt
+Deep processing also opens the way to higher-order learning, meaning learning that forms links among facts and concepts so they become a network of knowledge. All higher-order techniques form those relationships by comparing information to find similarities and differences, and by weighing how important those similarities and differences are. Lower-order learning focuses on remembering and understanding without comparing on purpose the material with anything else. It is often just the lack of higher-order learning, driven by old habits that emphasise repetition, memorisation, and isolated understanding. Higher-order questions include how this relates to another concept, and how it is similar or different to what you already know. They also include what an analogy for it would be, how it fits in the big picture, what function it serves, and what the trends are. Lower-order habits of thinking include asking what the meaning is, what they are trying to say, or feeling that something is important and needs to be repeated to be remembered.
 
-One structural mechanism is the way related ideas are held together so that a new fact has something to attach to. A [[wiki/Dimensions/Deep Processing/Schema|schema]] is that structure. It changes in three ways. Construction builds a new model when arriving information does not fit any existing one. Assimilation adds information that fits reasonably well into an existing model. Reorganization, called accommodation under the standard name, restructures or replaces a model when contradictions or gaps force a rebuild. Running through this cycle is what makes knowledge more accurate, more connected, and more usable over time. The cycle runs on its own during learning. [[wiki/Dimensions/Deep Processing/Schema|Schema Construction, Assimilation, and Reorganization]] is the same cycle run deliberately.
+A training sequence used to deepen this work moves through seven levels. The first two levels are to memorise, then to try to understand. Next you rate the importance of each key word, group key words together based on similarities, and form groups of various kinds from various likenesses. Then you rate the importance and relevance of those kinds of groups and decide on the group you think is best. Finally you join groups together to show how they act on each other. Once you are comfortable with a new level, you calibrate again and step up to the next, still deeper level. Most techniques can be performed at different levels, and some techniques make it easier to think more deeply, or force you to.
 
-## Why it works like a habit
+## Open questions
 
-A procedure can be applied mechanically. Deep processing cannot, because it is a quality of thinking during the hour of study. The same technique can be run at more than one depth, from holding the wording up to judging what matters. A technique produces only the thinking that happens while it is used. [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] is the check for this. It tests whether the technique produced the thinking. It adds no method of its own.
-
-The difference between learners is in the thinking, and the thinking cannot be seen from outside. The visible method is the part that gets copied. So two learners running the same method get different results, and either result gets attributed to the method. A gap that looks like a difference in talent is often a difference in how thoroughly the material was thought about.
-
-Most of how information gets processed is not under conscious control while a session is running. So the thing that has to change is a habit of thinking. Deciding to think harder does not change it. Habits change through repeated, targeted practice. Knowing about a habit does not change it. [[wiki/Dimensions/Self-Regulation|Self-Regulation]] decides whether the deeper habit is the one that actually runs under pressure.
-
-## Where it gets trained
-
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: questions written before the source is opened, the source worked into a map, the map pruned to what survives without it
-- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: a first pass before the real one, so new material has something already known to connect to
-- [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]: puts the relationships on paper, where they can be judged and rearranged
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]]: writing the reasoning down, so the thinking has to finish. Reasoning kept in the head can stall half-formed.
-- [[wiki/Dimensions/Deep Processing/Prestudy|Syntopical Reading]]: several dense sources read against each other, in place of one after another
-- [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]: encoding as deeply as current skill allows, and treating the first structure as something to revise
-- [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]]: the depths a topic can be held at, and which one a session is aiming for
-- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]: comparing and judging as the operations that turn facts into a network
-- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]: grouping by what matters, in place of the order the source happened to use
-- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery]]: the progression from recognising something to being able to use it
-- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]: mixing problem types so that choosing the approach is part of the practice. This is the deep-processing version of a technique that more often belongs to Retrieval.
-- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Deep Processing Practice]]: practice aimed at the processing itself instead of at a subject
-- [[wiki/Dimensions/Deep Processing/Deep Processing for Research|Deep Processing for Research]]: the applied version for research reading
-- [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]: the failure where strong processing compensates for a weak method until the goal gets hard enough
-- [[wiki/Dimensions/30-Day Challenges|Dimension Practice Tracks]]: the four-step track for training the dimension, in place of collecting techniques
-- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]]: a month of structured practice with the sessions laid out
-
-## The other dimensions it depends on
-
-[[wiki/Dimensions/Self-Regulation|Self-Regulation]] decides whether the deeper approach actually gets used under pressure or fatigue, when control shifts toward habit. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]] shows, during a session, whether the thinking is going deep or idling. [[wiki/Dimensions/Self-Management|Self-Management]] creates the time, energy, and environment the work needs before any of it is possible. [[wiki/Dimensions/Mindset|Mindset]] lets the learner keep going through sustained discomfort. Without it the discomfort becomes a reason to stop.
-
-[[wiki/Dimensions/Retrieval|Retrieval]] is the other half of the pair. Depth builds richer structures. Retrieval strengthens access to those structures. Both are required. Retrieval practice can outperform elaborative study on later tests. This is why deeper encoding on its own is never the whole answer. Depth is also not automatically transferable. A session that has to survive an exam also needs encoding that matches the way the knowledge will be used.
-
-## What it costs and how to check it
-
-Strong depth gives less time lost to shallow repetition, durable retention, and knowledge that stays usable. It does not by itself produce a career. The price is that it feels bad. Deep processing is slow, effortful, and uncomfortable by design. The mental load is the encoding itself. That load is what [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] is trying to cue. Methods that feel smooth are usually shallow.
-
-Strong natural processing compensates for a weak method until complexity or volume shows the weakness. [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Tanking]] is the name for this. The failure shows when the stakes rise. The method was weak before that. What fails at that moment is the belief that the method was working.
-
-The test of understanding is whether you can produce the material. Recognising it when you see it does not count. Two signs show that the structure holds. The first is an explanation that survives [[wiki/Dimensions/Retrieval/WPW|WPW]], which means teaching the topic back with every source closed. The second is a hard example that you can generate from memory. Recognising an example someone else gives is not the same sign. If time on the material keeps growing while transfer does not, the gap is in depth. It is not in the hours spent. The fix is to change how the material is processed. Adding hours does not fix it. The change takes months of consistent practice. It does not show up after a few sessions.
-
-## How to practice this
-
-1. While reading new material, ask what it relates to that you already know. Ask how it could be applied, how it would simplify, and where it sits in the larger picture. Notice whether you are answering those questions or only holding the wording.
-2. Take one new piece of information and compare it with something nearby to find similarities and differences. Then judge which of those similarities and differences matter. Notice that the comparison is the step that makes the work higher-order.
-3. When a new fact arrives, check whether it fits a model you already hold. Add it if it fits, build a new model if nothing fits, and restructure if it contradicts the model. Notice the model getting more accurate and more connected over time.
-4. Close every source and teach the topic back, which is the [[wiki/Dimensions/Retrieval/WPW|WPW]] check. Then try to produce a hard example from memory. If both work, the structure holds.
-5. Track how much time you spend on the material and whether you can use it on new problems. If the time keeps growing while the transfer does not, the gap is depth. Change how you process the material, and expect that change to take months of consistent practice.
-6. Notice how a study session feels. Slow, effortful, and uncomfortable is how deep processing is meant to feel. A method that feels smooth is usually shallow.
-
-## Related pages
-
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]: the five-part division that deep processing belongs to
-- [[wiki/Dimensions/Retrieval|Retrieval]]: access to what depth built; the other half of the pair
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: whether the deeper approach is used when pressure and fatigue make the cheaper one more likely
-- [[wiki/Dimensions/Self-Management|Self-Management]]: the time, energy and environment the work needs
-- [[wiki/Dimensions/Mindset|Mindset]]: what keeps sustained discomfort from becoming a reason to stop
+- How does turning deep processing into a habit, rather than something you try to control moment by moment, change what you can handle when the material gets hard?
+- How does comparing ideas and judging the importance of those comparisons change what you are able to remember later?
 
 ## Sources
 
-- Craik, F. I. M., & Lockhart, R. S. (1972). Levels of processing: A framework for memory research. *Journal of Verbal Learning and Verbal Behavior*. Depth of the encoding operation, not store duration, determines the trace.
-- Craik, F. I. M., & Tulving, E. (1975). Depth of processing and the retention of words in episodic memory. *Journal of Experimental Psychology: General*. Semantic encoding beats structural and phonemic encoding on later recall.
-- Anderson, J. R., & Reder, L. M. (1979). An elaborative processing explanation of depth of processing. In Cermak & Craik (Eds.), *Levels of Processing in Human Memory*. Connected material is retained better than isolated material.
-- Ausubel, D. P. (1968). *Educational Psychology: A Cognitive View*. Prior knowledge is what arriving material attaches to.
-- Chi, M. T. H., de Leeuw, N., Chiu, M.-H., & LaVancher, C. (1994). Eliciting self-explanations improves understanding. *Cognitive Science*. Actively constructing an explanation is itself encoding.
-- Slamecka, N. J., & Graf, P. (1978). The generation effect: Delineation of a phenomenon. *Journal of Experimental Psychology: Human Learning and Memory*.
-- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students' learning with effective learning techniques. *Psychological Science in the Public Interest*. Elaborative interrogation rated moderate; rereading and highlighting rated low.
-- Morris, C. D., Bransford, J. D., & Franks, J. J. (1977). Levels of processing versus transfer appropriate processing. *Journal of Verbal Learning and Verbal Behavior*. Depth is not automatically transferable; encoding that matches the use is the other half.
-- Karpicke, J. D., & Blunt, J. R. (2011). Retrieval practice produces more learning than elaborative studying with concept mapping. *Science*. Retrieval can beat elaborative mapping on later tests; both remain required.
-- Bjork, R. A. (1994). Memory and metamemory considerations in the training of human beings. In Metcalfe & Shimamura (Eds.), *Metacognition*. Desirable difficulties: the harder method is routinely judged the worse one.
-- Kornell, N., & Bjork, R. A. (2008). Learning concepts and categories: Is spacing the “enemy of induction”? *Psychological Science*; Kirk-Johnson, A., Galla, B. M., & Fraundorf, S. H. (2019). Perceiving effort as poor learning. *Cognitive Psychology*. The fluency illusion: learners take ease as a sign of effectiveness.
-- Schwabe, L., & Wolf, O. T. (2009). Stress prompts habit behavior in humans. *Journal of Neuroscience*. Stress shifts control toward habit: the Self-Regulation bound.
+- iCanStudy, "Deep processing", Catalyst. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]: when strong processing covers for weak technique.
+- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]: the networked comparing and judging this dimension opens the way to.
+- [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]]: foundational ideas before details, which the second phase practises.
+- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]]: the training challenge that sits alongside this overview.
+- [[wiki/Dimensions/Retrieval|Retrieval]]: the dimension this overview says is tied to processing quality in both directions.
