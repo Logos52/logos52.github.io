@@ -3,8 +3,8 @@ title: "Encoding and Retrieval"
 type: concept
 status: developing
 created: 2026-05-29
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
 prose-model: fable
 written-by: grok
 model: grok
@@ -14,86 +14,75 @@ tags:
   - encoding
   - learning-system
   - learning
+wedge_reviewed: false
 ---
 
 # Encoding and Retrieval
 
-Encoding is the first-pass work of taking material in and putting it into a form that can later be rebuilt from memory. Retrieval is using that material from memory before checking the source: recalling it, explaining it, solving with it, or teaching it.
+> Not yet reviewed by Wedge.
 
-A better first pass means fewer later retrievals from memory. The number of later retrievals never reaches zero. Forgetting continues over time, so later retrieval has to stay scheduled.
-
-Encoding and retrieval are kept separate because taking material in well and getting it back out well are different actions. Intake and access still change each other. The two are not competing techniques. The useful question is how study time is split between them, and the answer changes as skill changes.
+Learning has two halves. The first half, encoding, gets information into long-term memory. The second half, retrieval, is any later use of that information. Both matter, but they pay off on different timescales. Retrieval skills take a day or two to learn and improve results quickly, so they come first. Encoding is the bigger long-term lever, raising both retention and depth, but it takes weeks to years to get good at. Early on, retrieval should fill most of study time, often 70% or more, because weak encoding lets knowledge leak away. As encoding improves the share falls, to under 20% for an experienced learner, but it never reaches zero. A simple spaced schedule of reviews after about a day, a week and a month keeps the leak in check.
 
 ## Core takeaways
 
-- A better first pass means fewer later retrievals. Later retrievals never drop to zero, because forgetting continues.
-- Retrieval fails for two reasons. Either the first pass was thin, or the first pass was adequate and access to the memory has decayed with time.
-- Retrieval changes the memory it draws on. Each later retrieval is also a new encoding event.
-- While encoding skill is weak, most study time goes to retrieval. Retrieval shows a result within days; encoding skill takes much longer to build.
-- Start interleaved retrieval first. Add a new encoding method in a later week, so two method families are not being learned at once.
-- The default schedule is one day, one week, and one month. Any kept schedule works better than none, and the gap grows with how long the memory has to last.
+- Encoding stores information, and retrieval uses it, whether by self-testing, teaching, explaining, solving problems or discussing.
+- Weak encoding wastes effort, since about half of new material can be gone after a week.
+- Learn retrieval first for a fast win, then build encoding for the long-term gain.
+- Retrieval can take 70% or more of study time at first, falling below 20% as encoding improves.
+- Some retrieval always remains, because memory always leaks.
 
 ## Why retrieval never drops to zero
 
-Retrieval can fail for two reasons. The first is intake: the first pass was thin, so there is little in memory to rebuild. The second is access: the first pass was adequate, but the memory can no longer be reached.
+Knowledge behaves like water in a bucket with a hole. Better encoding shrinks the hole, but the hole never closes completely, because some forgetting always remains. Retrieval works like scooping up what drips out and tipping it back in. It is repetitive and takes time, but it keeps performance up while encoding slowly improves.
 
-Material taken in as a network of relations decays more slowly on the intake side than material taken in as a list of separate facts. So later retrievals are needed less often. Access decays with time no matter how good the intake was. This is why a first pass, however good, never removes the need for retrieval.
-
-Retrieval has a second effect beyond checking the first pass. Recalling material from memory changes the stored memory. Each later retrieval is also a new encoding event.
+Retrieval also does a second job. Much of learning is invisible, so a learner can misunderstand something between reading it and testing it without knowing. Testing exposes those gaps. The cycle runs from testing to finding gaps and building fluency, then to re-encoding by studying again and finally to testing again later to confirm the gap closed. Stronger encoding cuts the amount of retrieval needed, and stronger retrieval finds gaps and guides re-encoding more effectively.
 
 ## Where this week's study time goes
 
-While encoding skill is still weak, most of the week's study time goes to retrieval. Encoding skill takes a long time to build, and a learner cannot easily judge their own encoding skill from the inside. Retrieval shows a result within days. Even a thin first pass, tested rather than restudied, scores better on a delayed test within that window.
+For most learners, retrieval should take 70% or more of study time at first, and that is normal. A weekly pattern spreads the work across sessions of different depth:
 
-The first habit to build is interleaved retrieval, applied to whatever encoding the learner already has. A new encoding method belongs to a later week. Starting both in the same week means learning two new method families at once, and neither gets learned to competence.
-
-The interleaved retrieval habit also puts regular spacing in place. Mixing topics while retrieving forces [[Higher-Order Learning]], which later makes a new encoding method easier to pick up. That is a reason to start with interleaved retrieval. There is no finding that interleaving teaches encoding skill.
+- At the start of the week, prestudy the concepts and how they relate, with a very basic mind map and no memorizing.
+- After each class day, revise that day, deepen understanding, extend the map and make flashcards for details.
+- At the end of the week, revise everything with an interleaved retrieval method, go back to weak spots and start memorizing details.
+- In spare moments, run flashcards.
+- At the end of the month, go over the month's material using a different interleaved method.
 
 ## The early cost, and why it falls
 
-The early phase takes many sessions, exposes many gaps, and uses a lot of time. That is the expected state while the first pass is still weak. Each pass restores what has decayed and re-encodes the material, so the next pass covers more material in less time. A month of material does not take a month to revisit. The workload is expected to fall.
+Leading with retrieval has a cost. Retrieval does not raise baseline retention, so it involves repetition, and at first the total hours spent studying can creep up a little. That is the price of keeping knowledge while the leak is fixed. Gaps also cost more the longer they go unfound, because knowledge builds in layers and a mistake made early warps every layer that rests on it. Testing soon after learning keeps that cost low.
 
-Noticing that the first pass was thin is conscious incompetence: the drop in confidence that comes when the learner can see what they missed. This differs from the overconfidence finding, which describes people who cannot yet see what they missed. Noticing the gap is the start of the repair, and it is not itself a failure.
+Prestudy lowers the cost over time. When time allows only one, solid prestudy beats going back over old material, since better prestudy means less is forgotten and less review is needed later.
 
 ## The retrieval schedule
 
-The default schedule is a retrieval pass at one day, one week, and one month. This is a workload default. Keeping any schedule works better than keeping none. The useful gap still grows with how long the memory has to last. While encoding is weak, the schedule is what keeps the material in memory. Better encoding later allows a looser schedule.
-
-A same-day pass supports encoding and does not count as the first real test. The standing system is [[Spaced Interleaved Retrieval]]. The formats are listed in the [[Interleaving Table]]. After a few days of interleaved retrieval the gaps should be visible, even if encoding still feels confused.
+A simple version of spaced repetition reviews material after roughly a day, a week and a month. The first review comes within a day or two of learning. About 7 to 10 days later comes the second, and 3 to 4 weeks after that, the third. The timing does not need to be exact. The schedule works best as fixed blocks, such as a half-day block closing each week and a day or so at the end of each month. Heavy content calls for an extra mid-month or mid-week review. The weeks before a test call for more practice papers and challenge questions.
 
 ## What changes as encoding improves
 
-Later retrievals take less time as the first pass improves. They do not stop. This week's work is the retrieval habit, on the encoding the learner already has. The early cost is the cost of starting. Better intake later allows a looser schedule. The memory still needs retrieval.
+As encoding gets better, less leaks out, so retrieval shrinks from most of study time to under a fifth for an experienced learner. The month-end review starts to feel surprisingly easy because little has been forgotten. Fluency also becomes the main target of retrieval. Fluency is how fast information comes back and how complex the uses it supports. Some facts can simply be looked up, but knowledge meant for real expertise needs high fluency, and the reason for learning something sets the level needed.
 
 ## How to practice this
 
-1. Start interleaved retrieval this week on material you have already taken in. Recall, explain, solve, or teach it before you check the source. Notice that gaps become visible within a few days, even while encoding still feels confused.
-2. Mix topics inside each retrieval session. Notice that this forces [[Higher-Order Learning]]. Do not expect it to teach encoding skill.
-3. Do not add a new encoding method in the same week. Notice whether you are trying to learn two method families at once. Neither gets learned well when both start together.
-4. Schedule retrieval passes at one day, one week, and one month. A same-day pass supports encoding and does not count as the first real test. Notice that a kept schedule holds the material better than no schedule.
-5. When a retrieval pass shows your first pass was thin, keep going. Notice the drop in confidence: you can now see what you missed. Seeing the miss is the start of the repair.
-6. Keep running the passes across the month. Notice that each pass covers more material in less time than the one before.
+1. Spend a day or two learning a good retrieval method before working on encoding.
+2. Put fixed weekly and monthly review blocks into the calendar.
+3. Review new material after about a day, a week and a month.
+4. Test soon after learning to catch gaps while they are cheap.
+5. Choose good prestudy over extra review when time is short.
 
 ## Related pages
 
-- [[Spaced Interleaved Retrieval]]: the standing retrieval system this page is the trade-off for. It covers spacing, interleaving, and method by knowledge type.
-- [[Interleaving Table]]: the method menu. This page does not teach formats.
-- [[Revision]]: the first retrieval loop.
-- [[Higher-Order Learning]]: what interleaved retrieval is supposed to force even before encoding skill arrives.
-- [[Schema|Schema]]: a sibling page on encoding quality, about what survives pruning.
-- [[Bear Hunter System]]: the encoding method that eventually reduces retrieval load.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: the core retrieval technique.
+- [[wiki/Dimensions/Deep Processing/Schema|Schema]]: how encoding builds connected knowledge.
+- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: studying before the main learning event.
+- [[wiki/Dimensions/Retrieval|Retrieval]]: the dimension hub.
 
 ## Open questions
 
-- How far the early-phase time cost actually falls as encoding skill rises, for a learner who never adds a formal encoding method.
+- How does a learner know when their encoding has improved enough to cut retrieval time?
+- How should the review schedule change for a subject with heavy detail?
+- How can testing find gaps the learner does not know to look for?
 
 ## Sources
 
-- Craik, F. I. M., & Lockhart, R. S. (1972). Levels of processing: A framework for memory research. *Journal of Verbal Learning and Verbal Behavior*. Deeper, more relational intake slows forgetting.
-- Craik, F. I. M., & Tulving, E. (1975). Depth of processing and the retention of words in episodic memory. *Journal of Experimental Psychology: General*.
-- Ebbinghaus, H. (1885/1913). *Memory: A Contribution to Experimental Psychology*. Forgetting is real; retrieval never goes to zero.
-- Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. *Psychological Science*. A test beats restudy on a delayed test within days.
-- Rowland, C. A. (2014). The effect of testing versus restudy on retention: A meta-analytic review of the testing effect. *Psychological Bulletin*. Retrieval practice needs an encoded trace; it does not replace first-pass encoding.
-- Tulving, E., & Thomson, D. M. (1973). Encoding specificity and retrieval processes in episodic memory. *Psychological Review*. Encoding and retrieval influence each other.
-- Cepeda, N. J., Vul, E., Rohrer, D., Wixted, J. T., & Pashler, H. (2008). Spacing effects in learning: A temporal ridgeline of optimal retention. *Psychological Science*. Holding test delay fixed and varying only the gap moved final recall along an inverted U. The 1/7/30 rhythm is a workload default; gap size still scales with how long the memory is needed.
-- Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it. *Journal of Personality and Social Psychology*. Overconfidence at the bottom, in people who cannot yet see the miss, which differs from the dip that arrives when the miss becomes visible.
+- iCanStudy, "Spacing, Interleaving, and Retrieval Overview", Fundamentals. Private course notes, paraphrased.
+- iCanStudy, "Study Scheduling", Fundamentals 2. Private course notes, paraphrased.

@@ -3,12 +3,14 @@ title: Vietnamese Language Learning Resources
 type: resource-catalog
 status: developing
 created: 2026-05-06
-updated: 2026-09-13
-method: plain-register-2026-09-13
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
 prose-model: opus
 source-count: 78
 written-by: grok
 model: grok
+description: Public Vietnamese input, sound tools and immersion helpers, sorted by job and tagged by dialect where known.
+wedge_reviewed: false
 tags:
   - resources
   - vietnamese
@@ -17,162 +19,161 @@ tags:
 
 # Vietnamese Language Learning Resources
 
-Start Vietnamese study by choosing Northern or Southern pronunciation on purpose. Do not mix the two as if they were one sound system. Begin with beginner input and material on sound. Add a tool only when it removes a pause in your study.
+> Not yet reviewed by Wedge.
+
+Free Vietnamese resources sort into a few jobs, and rows carry a Northern or Southern tag where the source names the dialect. Pick one dialect and favor its rows. Many native channels are marked "dialect unmarked" rather than guessed. What matters is which handful of rows you end up hearing every day.
 
 ## How this list is used
 
-**Northern** and **Southern** are the two widely taught Vietnamese pronunciation standards. Pick one. Several beginner channels already have a dialect tag. Most native channels are marked "unsure of dialect". That mark is more useful than a made-up Northern or Southern tag. **Comprehensible input** is speech or text you mostly already understand. Start with that.
+Vietnamese has two widely taught pronunciation standards, **Northern** and **Southern**. Most beginner channels declare one. Where the source spreadsheet was unsure of a channel's dialect, the row says "dialect unmarked". An honest blank is safer than a wrong label.
 
-A **metalayer** is a subtitle or popup layer on top of real video. A **seeder playlist** is a starter list used to train a recommendation feed. Add tools only when they remove a difficulty you hit during immersion. A spaced-repetition deck is optional. Content you have watched before and already care about counts as a source.
+Most early hours go to **comprehensible input**, which is speech you can already largely follow. Sound work runs beside it, since tones decide meaning. A **metalayer** is a browser extension laid over a video that adds dual subtitles or word lookups. A **seeder playlist** is a batch of videos watched to teach the recommendation feed to offer Vietnamese.
 
-Gated cheat sheets, week-reflection templates, habit-tracker apps, graduation surveys, and redacted primers cannot be used by a stranger, so they are left out. On the live page, one row for children's content linked to the wrong channel, so that row is left out too.
+Rows a stranger could not open, such as worksheets from the course, sign-up links and reflection forms, are not listed. One children's row in the source pointed at the wrong channel, so it is dropped.
 
 ## The list, by job
 
 ### Beginner input, with dialect tags
 
-| Resource | Dialect / notes |
+| Resource | Notes |
 |---|---|
-| [Learn Vietnamese with SVFF](https://www.youtube.com/c/LearnVietnameseWithSVFF) | Southern; beginner + grammar/vocab |
+| [Learn Vietnamese with SVFF](https://www.youtube.com/c/LearnVietnameseWithSVFF/videos) | Southern |
 | [Learn Vietnamese with Annie](https://www.youtube.com/user/AnnieVietnamese) | Southern |
-| [How to Vietnamese](https://www.youtube.com/channel/UC0fspKfWI99xkoh-RcsNFew) | Southern |
-| [Easy Vietnamese](https://www.youtube.com/playlist?list=PLA5UIoabheFN8XxzGYrLkEDuhxESQ8kUr) | Mixed; some Northern explanations |
+| [How to Vietnamese](https://www.youtube.com/channel/UC0fspKfWI99xkoh-RcsNFew) | Southern, alphabet and tones |
+| [Easy Vietnamese](https://www.youtube.com/playlist?list=PLA5UIoabheFN8XxzGYrLkEDuhxESQ8kUr) | Northern |
 | [Tieng Viet Oi](https://www.youtube.com/user/Tiengvietoi) | Northern |
-| [Viet Language](https://www.youtube.com/channel/UCffnR6beCJPSx3Dz8DViDjg) | Southern |
-| [aNcari Room](https://www.youtube.com/@aNcariRoom) | Vlogs; EN/VI/JA hardsubs; dialect unsure |
-| [Anh Shipper](https://www.youtube.com/@AnhShipper) | Skits; hardsubs; dialect unsure |
-| [Anh Áo Đen](https://www.youtube.com/@AnhAoDen) | Skits; hardsubs; dialect unsure |
+| [Viet Language](https://www.youtube.com/channel/UCffnR6beCJPSx3Dz8DViDjg/featured) | Southern, beginner channel |
+| [aNcari Room](https://www.youtube.com/@aNcariRoom) | Dialect unmarked, vlogs with burned-in subs |
+| [Anh Shipper](https://www.youtube.com/@AnhShipper) | Dialect unmarked, skits with burned-in subs |
+| [Anh Áo Đen](https://www.youtube.com/@AnhAoDen) | Dialect unmarked, skits with burned-in subs |
 
 ### Sound and script
 
 | Resource | Notes |
 |---|---|
-| [How to Vietnamese: alphabet and tones](https://howtovietnamese.com/vietnamese-alphabet-tones/) | Alphabet, tones, vowel and consonant clusters |
-| [Vietnamese Phonetics](https://youtu.be/wJA5i9yluPo) | Sound priming |
-| [Vietnamese Tonal System](https://www.youtube.com/watch?v=-x_saXbV8hQ) | Sound priming |
+| [Vietnamese Phonetics](https://youtu.be/wJA5i9yluPo) | Video on sounds |
+| [Vietnamese Tonal System](https://www.youtube.com/watch?v=-x_saXbV8hQ&list=PLDOYNMI8TqCANC9qpYR0gI1szbCHGuRKu&index=4) | Video on tones |
+| [Audio Lookups Demo (tutorial)](https://youtu.be/GDLaONXLzMw) | How to look up a word's audio |
+| [Forvo](https://forvo.com/) | Audio dictionary, any language |
+| [VietnamesePod101](https://www.vietnamesepod101.com/vietnamese-dictionary/) | Dictionary with audio |
 
 ### Noticing and seeders
 
 | Resource | Notes |
 |---|---|
-| [Noticing game](https://youtu.be/1azQp3N_IAI) | How to play |
-| [VN 100 Words](https://docs.google.com/spreadsheets/d/1OSa3Psg6ufdCJpAJ6dRvHKWL428pXneIA-oMuoXr9Aw) | Top 100 |
-| [Bingo Cards](https://docs.google.com/spreadsheets/d/114nnf88OpUXv2QayYMBTBEiRdIo-lo5cAWacbUNWXhY/edit#gid=1951925888) | Different sheet tab than the Mandarin cards |
-| [Food and Kitchen Videos](https://www.youtube.com/playlist?list=PL5gv_crpAAagAsZsf9ODe6gRphGifb_jB) | Seeder |
-| [Viet Movies with Subs](https://www.youtube.com/playlist?list=PL5gv_crpAAaitkqvvpyLfHuAlzdWR4s1p) | Seeder |
-| [Anh Thám Tử](https://www.youtube.com/c/AnhThámTử) | Web dramas |
-| [Dada Studio](https://www.youtube.com/@dadastudiovietnam7006) | Web dramas |
-| [Kênh Thiếu Nhi](https://www.youtube.com/@KenhThieuNhiBHMedia) | Children's |
-| [Phim Hoạt Hình](https://www.youtube.com/@PhimHoatHinhBHCartoons) | Children's |
-| [Phim Siêu Nhân Nhật Bản](https://www.youtube.com/@phimsieunhannhatban) | Super-sentai dubs |
-| [Thế Giới Quanh Em](https://www.youtube.com/@thegioiquanhem2203) | Cartoons |
-| [Heo Peppa Tiếng Việt](https://www.youtube.com/@HeoPeppaTiengVietChinhThuc) | Peppa Pig; dialect unsure |
-| [Pops Anime](https://www.youtube.com/@POPSAnime) | Web anime; dialect unsure |
-| [Chi Pu Official](https://www.youtube.com/@chipuofficial) | Music; dialect unsure |
-| [Danbee TV Vietnam](https://www.youtube.com/@danbeetvvietnam4128) | Vlogs; dialect unsure |
-| [Oops Banana](https://www.youtube.com/@Oopsbanana) | Vlogs; dialect unsure |
-| [Sunny Trương](https://www.youtube.com/@sunnytruong9006) | Vlogs and challenges; dialect unsure |
-| [XUÂN BẮC OFFICIAL](https://www.youtube.com/@NGHESIXUANBAC) | Vlogs and skits; dialect unsure |
-| [Yêu Máy Bay](https://www.youtube.com/@YeuMayBay) | Travel; dialect unsure |
-| [Ăn Gì Đây ?](https://www.youtube.com/@angidaychannel) | Food; dialect unsure |
-| [Đại Khái Là Thế](https://www.youtube.com/@aikhailathe5135) | Educational; dialect unsure |
+| [Noticing game](https://youtu.be/1azQp3N_IAI) | How to play the noticing game |
+| [Food and Kitchen Videos](https://www.youtube.com/playlist?list=PL5gv_crpAAagAsZsf9ODe6gRphGifb_jB) | Food |
+| [Viet Movies with Subs](https://www.youtube.com/playlist?list=PL5gv_crpAAaitkqvvpyLfHuAlzdWR4s1p) | Movies |
+| [Anh Thám Tử](https://www.youtube.com/c/AnhTh%C3%A1mT%E1%BB%AD/videos) | Web Dramas |
+| [Dada Studio](https://www.youtube.com/@dadastudiovietnam7006/videos) | Web Dramas |
+| [Kênh Thiếu Nhi](https://www.youtube.com/@KenhThieuNhiBHMedia/videos) | Children's content |
+| [Phim Hoạt Hình](https://www.youtube.com/@PhimHoatHinhBHCartoons/featured) | Children's content |
+| Phim Siêu Nhân Nhật Bản | Power rangers |
+| Thế Giới Quanh Em | Cartoons |
+| [Heo Peppa Tiếng Việt - Chính Thức](https://www.youtube.com/@HeoPeppaTiengVietChinhThuc) | Dialect unmarked, Peppa Pig in Vietnamese |
+| [Pops Anime](https://www.youtube.com/@POPSAnime) | Dialect unmarked, Web anime series in Vietnamese |
+| [Chi Pu Official](https://www.youtube.com/@chipuofficial) | Dialect unmarked, Music & Entertainment |
+| Danbee TV Vietnam | Dialect unmarked, Vlogs |
+| [Oops Banana](https://www.youtube.com/@Oopsbanana) | Dialect unmarked, Vlogs |
+| [Sunny Trương](https://www.youtube.com/@sunnytruong9006) | Dialect unmarked, Vlogs & Challenges |
+| [XUÂN BẮC OFFICIAL](https://www.youtube.com/@NGHESIXUANBAC) | Dialect unmarked, Vlogs & Skits |
+| [Yêu Máy Bay](https://www.youtube.com/@YeuMayBay) | Dialect unmarked, Travel |
+| [Ăn Gì Đây ?](https://www.youtube.com/@angidaychannel) | Dialect unmarked, Food |
+| [Đại Khái Là Thế](https://www.youtube.com/@aikhailathe5135) | Dialect unmarked, Educational |
 
 ### Optional decks
 
+Decks are optional, and input comes first.
+
 | Resource | Notes |
 |---|---|
-| [How to get started with Anki](https://www.youtube.com/watch?v=3Vc_C3Zcs0Q) | Optional public tutorial; not required |
-| Xefjord's Complete Vietnamese | Optional deck; Dropbox share links stop working over time |
-| [7k Vocab Master Deck](https://drive.google.com/drive/folders/1qU9P5ILZMBPfPA3DE24VBqusiekNMcns) | Optional |
+| [Xefjord's Complete Vietnamese](https://www.dropbox.com/sh/g4iz7sw992qzieg/AAD-iCCcDrUmfUPsXU3JtvWLa?dl=0) | Community deck |
 
 ### Interviews, variety, titles
 
 | Resource | Notes |
 |---|---|
-| [Giang Ơi](https://www.youtube.com/@GiangOi) | Vlog; later also hard / educational |
-| [Khoai Lang Thang](https://www.youtube.com/channel/UCZE88kYvCKUKjM-G0uc8Duw) | Food / travel |
-| [DAM tv](https://www.youtube.com/channel/UCBNPvdFXpc0XhJ0UG1solTg) | Variety |
-| [FAP TV](https://www.youtube.com/@FAPTV) | Variety |
-| [TrắngTV](https://www.youtube.com/@trangdentv) | Variety |
-| [Phân Tích Game](https://www.youtube.com/@PhanTichGame) | Game reviews; dialect unsure |
-| [Tizi Đích Lép](https://www.youtube.com/@TiziDichLep) | Vlogs and skits; dialect unsure |
-| Dreamy Eyes | Subscription video; drama. Title IDs change |
-| Furie | Subscription video; drama |
-| The Ancestral | Subscription video; horror |
+| [Giang Ơi](https://www.youtube.com/channel/UC-AJnWGWhPt3ReFnvzRZ-Kg/videos?view=0&sort=p) | Vlog |
+| [Khoai Lang Thang](https://www.youtube.com/channel/UCZE88kYvCKUKjM-G0uc8Duw/videos?view=0&sort=p) | Food/Travel |
+| [DAM tv](https://www.youtube.com/channel/UCBNPvdFXpc0XhJ0UG1solTg/videos?view=0&sort=p) | Variety |
+| FAP TV | Variety |
+| TrắngTV | Dialect unmarked, Variety |
+| [Phân Tích Game](https://www.youtube.com/@PhanTichGame) | Dialect unmarked, Game Reviews |
+| [Tizi Đích Lép](https://www.youtube.com/@TiziDichLep) | Dialect unmarked, Vlogs & Skits |
+| [Dreamy Eyes](https://www.netflix.com/watch/81463445) | Netflix, drama |
+| [Furie](https://www.netflix.com/watch/81075519) | Netflix, action |
+| The Ancestral | Netflix, horror |
 
 ### Tools
 
 | Resource | Notes |
 |---|---|
-| [Language Reactor](https://chromewebstore.google.com/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm) | Subtitle overlay |
-| [Language Reactor install](https://www.youtube.com/watch?v=MZCe_qP40Mk) | |
-| [Search by Subs](https://youtu.be/TmTUMbDJrk8) | |
-| [Google Dictionary](https://chromewebstore.google.com/detail/google-dictionary-by-goog/mgijmajocgfcbeboacabfgobmjgjcoja) | Popup |
-| [What is Interactive Immersion](https://youtu.be/F3l8o2ltSDk?t=96) | |
-| [Unogs](https://unogs.com) | Country + subtitle search |
-| [Intensive Reading Demo](https://youtu.be/XLZCM8f61yY) | |
-| [Audio Lookups Demo](https://youtu.be/GDLaONXLzMw) | |
-| [Forvo](https://forvo.com) | Audio dictionary |
-| [VietnamesePod101 dictionary](https://www.vietnamesepod101.com/vietnamese-dictionary/) | Optional audio dictionary; not required |
+| [How to get started with Anki! (tutorial)](https://www.youtube.com/watch?v=3Vc_C3Zcs0Q) | Deck app tutorial |
+| [Language Reactor Install and Demo (tutorial)](https://www.youtube.com/watch?v=MZCe_qP40Mk&feature=youtu.be) | Setup video for the metalayer |
+| [Search by Subs (tutorial)](https://youtu.be/TmTUMbDJrk8) | Finding videos by subtitle language |
+| [Google Dictionary](https://chromewebstore.google.com/detail/google-dictionary-by-goog/mgijmajocgfcbeboacabfgobmjgjcoja?hl=en) | Popup dictionary, any language |
+| [What is Interactive Immersion? (tutorial)](https://youtu.be/F3l8o2ltSDk?t=96) | Explainer video |
+| [Language Reactor](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm) | Browser metalayer for video |
+| [Unogs Netflix Search](https://unogs.com/) | Search Netflix by country and subtitles |
+| [Intensive Reading Demo (tutorial)](https://youtu.be/XLZCM8f61yY) | Worked example of intensive reading |
 
 ### News and native stretch
 
+Harder native news and channels build tolerance for stretches you cannot follow yet.
+
 | Resource | Notes |
 |---|---|
-| [SBS Vietnamese](https://www.sbs.com.au/language/vietnamese/vi) | News |
-| [BBC Vietnamese](https://www.youtube.com/user/bbcvietnamese) | News |
-| [VOA Vietnamese](https://www.youtube.com/channel/UCRdD55JrlRDzHeec3bKrH4g) | News |
-| [PhuQuocTV](https://www.youtube.com/@blogdulich) | Travel; dialect unsure |
-| [Chi Sally](https://www.youtube.com/@chisallyy) | Travel vlogs; dialect unsure |
-| [Couple K](https://www.youtube.com/@COUPLEK) | Dialect unsure |
-| [Cô Em Trendy](https://www.youtube.com/@CoEmTrendy) | Vlogs; dialect unsure |
-| [Dustin on the Go](https://www.youtube.com/@DustinOnTheGoOfficial) | Variety; dialect unsure |
-| [Gia Đình Cam Cam](https://www.youtube.com/@giadinhcamcam) | Family / travel; dialect unsure |
-| [Hương Vị Quê Hương](https://www.youtube.com/@HuongViQueHuong) | Cooking; dialect unsure |
-| [Khánh Vy OFFICIAL](https://www.youtube.com/@KhanhVyOFFICIAL) | Travel; dialect unsure |
-| [La La School](https://www.youtube.com/@lalaschool) | Web drama; dialect unsure |
-| [Linh Ngọc Đàm](https://www.youtube.com/@linhngocdamchannel) | Vlogs; dialect unsure |
-| [Loa Phường](https://www.youtube.com/@LoaPhuongtv) | Skits; dialect unsure |
-| [maybayvlog](https://www.youtube.com/@maybayvlog) | Vlogs and reviews; dialect unsure |
-| [Minh Chau](https://www.youtube.com/@MinhChauChannel) | Stories read aloud; dialect unsure |
-| [Moe Đi Đâu](https://www.youtube.com/@Moeiau) | Productivity and business; dialect unsure |
-| [Public Movie](https://www.youtube.com/@moviepublic) | Vietnamese dubs; dialect unsure |
-| [Sunny Gaming](https://www.youtube.com/@sunnygaming553) | Gaming; dialect unsure |
-| [Tung Thanh Ly Vietnam](https://www.youtube.com/@TUNGTHANHLy) | Travel and food; dialect unsure |
-| [Vietnam Booking](https://www.youtube.com/@VietnamBookingCorp) | Travel; dialect unsure |
-| [Vietnamese Living in Japan](https://www.youtube.com/@VietnameselivinginJapan) | Vlogs; dialect unsure |
+| [SBS Vietnamese](https://www.sbs.com.au/language/vietnamese/vi) | News in Vietnamese |
+| [BBC Vietnamese](https://www.youtube.com/user/bbcvietnamese) | News in Vietnamese |
+| [VOA Vietnamese](https://www.youtube.com/channel/UCRdD55JrlRDzHeec3bKrH4g) | News in Vietnamese |
+| [PhuQuocTV](https://www.youtube.com/@blogdulich) | Dialect unmarked, Travel |
+| [Chi Sally](https://www.youtube.com/@chisallyy) | Dialect unmarked, Travel Vlogs |
+| [Couple K](https://www.youtube.com/@COUPLEK) | Dialect unmarked |
+| [Cô Em Trendy](https://www.youtube.com/@CoEmTrendy) | Dialect unmarked, Vlogs |
+| [Dustin on the Go](https://www.youtube.com/@DustinOnTheGoOfficial) | Dialect unmarked, Variety/talkshow |
+| [Gia Đình Cam Cam](https://www.youtube.com/@giadinhcamcam) | Dialect unmarked, Family/travel vlogs |
+| [Hương Vị Quê Hương](https://www.youtube.com/@HuongViQueHuong) | Dialect unmarked, Cooking & Food |
+| [Khánh Vy OFFICIAL](https://www.youtube.com/@KhanhVyOFFICIAL) | Dialect unmarked, Travel & Vlogs |
+| La La School | Dialect unmarked, Web drama series |
+| [Linh Ngọc Đàm](https://www.youtube.com/@linhngocdamchannel) | Dialect unmarked, Vlogs |
+| Loa Phường | Dialect unmarked, Skits |
+| [maybayvlog](https://www.youtube.com/@maybayvlog) | Dialect unmarked, Vlogs & Product Reviews |
+| [Minh Chau](https://www.youtube.com/@MinhChauChannel) | Dialect unmarked, Stories read aloud |
+| [Moe Đi Đâu](https://www.youtube.com/@Moeiau) | Dialect unmarked, Productivity & Business |
+| [Public Movie](https://www.youtube.com/@moviepublic) | Dialect unmarked, Vietnamese dubs of foreign films |
+| Sunny Gaming | Dialect unmarked, Gaming |
+| [Tung Thanh Ly Vietnam](https://www.youtube.com/@TUNGTHANHLy) | Dialect unmarked, Travel & Food |
+| [Vietnam Booking](https://www.youtube.com/@VietnamBookingCorp) | Dialect unmarked, Travel |
+| [Vietnamese Living in Japan](https://www.youtube.com/@VietnameselivinginJapan) | Dialect unmarked, Vlogs |
 
 ### Grammar, hours, timer
 
 | Resource | Notes |
 |---|---|
-| [Your Vietnamese grammar](https://yourvietnamese.com/learn-vietnamese/vietnamese-grammar-in-short-lessons/) | Public short lessons |
-| [SIL Glossary](https://glossary.sil.org/term) | Linguistics jargon |
-| [Hour Calculation Worksheet](https://docs.google.com/spreadsheets/d/1sFJacSrlMeEPyCvu5Lzm5t2VUO2uRZqZ1GSBSZL8b2g) | Optional |
-| [Hour tutorial](https://youtu.be/rz3IAfYpCc4) | Optional |
-| [Toggl tutorial](https://www.youtube.com/watch?v=dm6RYK9J61k) | Optional timer class |
-| [Toggl](https://track.toggl.com) | Optional timer class; not a required app |
+| [Your Vietnamese](https://yourvietnamese.com/learn-vietnamese/vietnamese-grammar-in-short-lessons/) | Short grammar guide |
+| [SIL Glossary](https://glossary.sil.org/term) | Linguistics terms explained |
+| [Hour Calculation Worksheet (tutorial)](https://youtu.be/rz3IAfYpCc4) | Optional hour estimate |
+| [Toggl Tutorial (tutorial)](https://www.youtube.com/watch?v=dm6RYK9J61k) | Optional timer tutorial |
+| [Download Toggl](https://track.toggl.com/) | Optional timer |
 
 ## What becomes daily
 
-After testing, which of these resources become daily immersion defaults, and in which dialect? After they have been used, which should be tagged beginner, bridge, native, or stretch? A tag of "unsure" is still better than a made-up Northern or Southern tag.
+A catalog is only useful once a few rows turn into habits, and choosing resources can quietly take the place of watching them. Test a few rows in your chosen dialect for a week, then keep whichever ones you go back to without effort. Mark retired rows instead of deleting them, so the list keeps a record of what failed.
 
-A list collected by one person goes out of date. Links to gated material look like resources, but a stranger cannot open them. Time spent choosing resources reduces the time spent on input. If no dialect-tagged resource comes into daily use, the list itself is not what will change that. The [[wiki/Language/The Han-Viet Bridge|Hán-Việt Bridge]] goes in the reverse direction from these Vietnamese resources: it uses Sino-Vietnamese vocabulary to give a learner an advantage when starting Mandarin.
+## Open questions
 
-## Related pages
-
-- [[wiki/Dimensions/Retrieval|Retrieval]]: memory track
-- [[wiki/Dimensions/Self-Management|Self-Management]]: consistency
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: where optional spaced repetition is covered; do not require a named deck program
-- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]: practice over a fixed number of days
-- [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]]: using Sino-Vietnamese vocabulary as an advantage when starting Mandarin
-
-## Open Questions
-
-Which resources are compelling enough to become daily immersion defaults?
-
-Which should be tagged beginner / bridge / native / stretch after direct testing?
+- How do I confirm the dialect of an unmarked channel quickly before I commit time to it?
+- After a week of testing, how do I choose which rows become my daily defaults?
 
 ## Sources
 
-A personal collection of public Vietnamese input and classes of tools. No path to a private corpus is included. Materials that structure each course week and gated shortlinks were dropped because a stranger cannot use them. The children's content row on the live page, which opened FAP TV, was not reproduced.
+- Refold, "Language Resource Database", Vietnamese tab. Private course spreadsheet, public links kept, notes paraphrased.
+- Refold, "Day 4: Compelling Content", "Day 8: Hearing New Sounds" and "Day 10: Immersion Metalayers". Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Dimensions/Retrieval|Retrieval]]: how memory is trained, which no catalog replaces
+- [[wiki/Dimensions/Self-Management|Self-Management]]: keeping the daily habit going
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: where an optional deck fits
+- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]: fixed-length practice plans
+- [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]]: using Sino-Vietnamese vocabulary as a head start on Mandarin

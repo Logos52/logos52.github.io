@@ -3,8 +3,8 @@ title: "Human Track — Taste & Judgment Catalog"
 type: resource-catalog
 status: developing
 created: 2026-06-30
-updated: 2026-09-13
-method: plain-register-2026-09-13
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
 prose-model: opus
 source-count: 2
 last-audited: 2026-06-30
@@ -16,128 +16,81 @@ tags:
   - aesthetics
   - human-judgment
   - tsumugu
+wedge_reviewed: false
 ---
 
 # Human Track — Taste & Judgment Catalog
 
-The Human Track is the catalog of design decisions that a machine can draft but cannot grade. Using it means looking at designs. Memorizing a list of named effects is not the goal. Entries were sorted by [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]. A **seam** is the point where an entry is split: the mechanical core goes on the Agent Track, and the judgment that remains goes in this catalog. People read this catalog and look at its examples.
+> Not yet reviewed by Wedge.
+
+Some design skills cannot be reduced to rules, and this catalog collects them. They are judgments a person makes by looking. Examples include when to break a rule, whether a design holds together, how heavy an element looks and which problem to solve first. The eye for them is trained by rebuilding admired interfaces and by hunting for decisions one would not have made. Each judgment pairs with a principle from design research that explains why it matters, from the aesthetic-usability effect to the peak-end rule.
 
 ## Developing the eye
 
-**Interfaces worth admiring are rebuilt from scratch, without opening devtools.** The effort of matching the original exposes techniques that are hard to see: tighter line-height on headings, letter-spaced capitals, doubled shadows. Doing the rebuild is what trains the judgment. The book calls it the highest-yield drill, but the book did not measure that. [RUI]
+The eye improves through deliberate copying and noticing. The best way to see the small details that make a design look polished is to rebuild an admired interface from scratch without looking at the developer tools. Trying to explain why the copy looks different from the original turns up specific tricks, such as tighter line height on headings, letter spacing on uppercase text and stacked shadows. A second habit is to ask, of any design one likes, whether the designer did something one would never have thought to do. Typography improves the same way, since paying close attention to type on well-designed sites soon makes it easy to tell a strong typeface from a weak one.
 
-**The search is for design decisions the observer would never have made.** For any design that works, the question is which of the designer's choices would not have occurred to the observer: an inverted datepicker, a button placed inside the input, a two-color headline. These choices are collected. [RUI]
-
-**Eliminating options trains comparison.** Given a value system, the skill that can be trained is seeing that two of three options are obviously wrong. Building the fixed set of values is work for an agent. [RUI]
-
-**Attention to typography is practiced on purpose.** Looking at the typography on good sites over a long period changes "I can't say why" into a fast judgment of good or bad. [RUI]
-
-**The final adjustments are made by looking, not by numbers.** Systematic palettes, proportions, and scales produce most of the result. The last adjustment to saturation or lightness is made by looking. [RUI]
-
-**The aesthetic-usability effect is real, and it can mislead the designer.** People rate attractive things as more usable, so they excuse problems in attractive things. The same effect can hide real faults from the designer. The look and the usability are judged separately. [UPOD]
+The eye also has to watch itself. People often judge attractive designs easier to use even where tests show no usability advantage, and they make people more forgiving of small problems. Research on the effect is mixed, with some studies finding no link. A designer judging their own polished work can fall for the same effect.
 
 ## When to break the rule
 
-**Dense interfaces are legitimate.** A dashboard can deliberately ignore the advice "Start with too much whitespace". The test is whether the density was chosen on purpose or left as a default. [RUI]
+Good rules have known exceptions, and taste includes knowing them.
 
-**A grid is a tool, and it is set aside when it causes problems.** Fixed widths replace fluid columns as soon as the columns make an element wider on a medium screen than on a large screen, or narrower than its minimum usable width. [RUI]
-
-**A line longer than seventy-five characters can sometimes work.** That choice is made only with the knowledge that it is risky. The safe range is listed on the Agent Track. [RUI]
-
-**Justified text is for imitating print**, such as the look of a magazine or newspaper. Even then, left-aligned text is usually fine. [RUI]
-
-**MAYA is Most Advanced Yet Acceptable.** Novelty goes as far as the audience will accept and stops there. Where that limit sits has to be judged from the specific audience. [UPOD]
-
-**Satisficing is knowing when a solution is good enough to ship, and when more polish is still worth the effort.** This decision cannot be made by following rules. [UPOD]
+- Generous white space usually feels cleaner, but a dashboard that must show a lot at once can be packed tight on purpose.
+- A grid simplifies layout, but letting a grid make every layout decision often backfires, since not every element should have a fluid width.
+- Lines of 45 to 75 characters are the safe range for reading. Going a little wider can work, though it is a risk.
+- Justified text suits print and can work on the web for a formal look, but without hyphenation it leaves awkward gaps between words.
+- Novelty has a ceiling. The Most Advanced Yet Acceptable principle holds that the most advanced form that people still recognize as familiar sells best, balancing typicality against novelty.
+- Perfection is not always the goal. Satisficing means accepting a solution that meets the requirements roughly, which is better when time or resources are short and is the basis of prototyping and minimum viable products.
 
 ## What looking actually is
 
-The last adjustment is made by looking. The claim that the systems get "ninety percent" of the way is an assertion in the book, not a measured finding. People excuse problems in attractive designs, and attractiveness can hide faults from the person who made the surface. Judge the look and the use separately. Each named effect below is a judgment with a visible sign to look for. The list is not something to memorize.
+Looking, in this sense, is noticing decisions. A design that works is a stack of small choices, and seeing them means asking why each element looks the way it does. Unexpected choices teach the most, such as inverting the background color on a date picker, placing a button inside a text input instead of beside it, or using two colors within one headline.
 
 ## Aesthetic coherence
 
-**One personality is chosen for the design, and every choice supports it.** Font, the feel of the colors, border-radius, and the tone of the copy all match one character: serious, playful, or elegant. The design is compared with sites the audience already uses. Direct competitors are not copied. [RUI]
+A coherent design has one personality, and the concrete choices carry it. A bank might aim to feel secure and professional, while a young startup might aim to feel fun. Font choice shapes the feel strongly, with serif type suggesting elegance and rounded sans serif suggesting play. Corner rounding matters too. A small border radius is neutral, and a large one feels playful.
 
-**Border-radius must be consistent, and the amount is chosen by feel.** Mixing square and rounded corners looks worse. The amount of rounding tells the viewer something about the design's personality. [RUI]
+Color psychology works better as an explanation than as a method. In practice the choice comes down to how a color feels, such as blue reading as safe and gold as expensive, and the psychology helps explain afterward why a color seems right.
 
-**Color "psychology" is used to explain a color choice after it has been made. It is not a method for making the choice.** In practice, the color is chosen by what looks right. [RUI]
+Several principles mark the edges of coherence:
 
-**Realism should stop at some point.** Once light can be simulated, it is tempting to keep adjusting until the result looks like a photograph. Knowing when to stop is a matter of taste. [RUI]
-
-**Hierarchy is what makes something look designed.** Noticing when the hierarchy is *off*, meaning noisy, flat, or competing, is a perceptual skill. It cannot be done with a checklist. [RUI]
-
-**Form follows function. Faith-follows-function is the warning that the reverse does not hold.** Something that looks functional is not necessarily functional. The judgment is whether the form honestly fits what the thing does, or only uses styling that suggests competence. [UPOD]
-
-**Wabi-sabi is listed with gloss bias and contour bias. It is a stance, not a law.** People prefer glossy surfaces, and they prefer curved forms to angular ones. People also find beauty in imperfection and age. The judgment is whether to emphasize polish, softness, or deliberate roughness. [UPOD]
-
-**Symmetry looks stable and formal. Asymmetry looks energetic.** Choosing which one fits the intended feel is a judgment. [UPOD]
-
-**Parts that nobody usually sees, such as the back of a dresser, are finished anyway.** This applies to code, empty states, and edge layouts. It is a standard of craft that the maker holds, not a rule that can be checked. [UPOD]
+- Function comes first. Form follows function, and faith follows function warns against letting a designer's beliefs, such as sacred geometry or a passing style, override what the design is for.
+- People find glossy surfaces more appealing than dull ones, even when matte is more usable, as with laptop displays.
+- People prefer rounded forms to sharp ones, which trigger a fear response in the brain.
+- Wabi-sabi offers the opposite pull, toward subtle imperfection and natural materials.
+- Symmetry is the most basic form of beauty and its appeal is likely innate, but people trained in the arts often find asymmetry more beautiful.
 
 ## Visual perception
 
-**Gestalt grouping is perceived, and it is not measured.** Gestalt grouping covers proximity, similarity, closure, common fate, good continuation, and figure-ground. An agent can set the spacing between elements. A person still has to look to check whether viewers see the intended groups, and where figure and ground switch in an ambiguous way. [UPOD]
-
-**The more surface area an element covers, the heavier it looks.** Bold type and solid icons look heavy. The designer trains the ability to see an imbalance before using contrast to correct it. [RUI]
-
-**Hue has a perceived brightness independent of HSL lightness.** Yellow looks lighter than blue at the same L value. Computing the formula is work for an agent. After a hue rotation, judging whether the color is rich or dull, warm or muddy, is done by looking. [RUI]
-
-**Where a viewer looks first is checked by looking.** This covers focal point, entry point, and reading gravity. Only looking shows whether the viewer's eye actually went to the place the design directed it. [UPOD]
+How a design is perceived is often judged by eye. The brain groups elements automatically when they sit close together, look alike, move together or form an incomplete shape it can close. Visual weight follows surface area, which is why bold text reads as emphasized, since it covers more pixels than regular text in the same space. Hue also carries its own brightness apart from a color's lightness value. Yellow looks lighter than blue at the same setting. Perceived brightness peaks at yellow, cyan and magenta and falls to its lowest points at red, green and blue.
 
 ## Problem-framing
 
-**A feature is designed before a layout.** The real problem is defined before any pixels are drawn. The shell cannot be designed until a few features exist. [RUI]
+Taste also applies before any pixels are drawn, in deciding what to design.
 
-**The smallest shippable version is designed with pessimistic assumptions.** The design does not suggest any functionality that cannot be built. Short cycles of building and testing are used instead of trying to imagine every edge case. [RUI]
-
-**Details are added later.** Designing in grayscale first means spacing, contrast, and size have to create the hierarchy. Color is added afterward, so color cannot be used to compensate for a weak hierarchy. [RUI]
-
-**User-centered design is not the same as user-driven design.** People describe their problems accurately. The solutions they propose are poor. Deciding how much weight to give what they ask for, compared with what they need, is a judgment. [UPOD]
-
-**Everything depends on the user's mental model.** Users build their model only from what the surface shows. Judging whether that surface actually leads to the correct model, and making the model visible when "synced" or "cloud" breaks, requires interpretation. [UPOD]
-
-**The remembered experience is designed at its peak and its end, not at its average.** Deciding which moment is the peak, and how the experience ends, takes taste and empathy. [UPOD]
-
-**Desire lines show where people actually walk.** The path people actually take is paved, instead of the path that was planned. [UPOD]
+- Start with a feature, not a layout. An app is a collection of features, and without a few designed features there is no basis for deciding how navigation should work.
+- Leave details for later. Early on, typefaces, shadows and icons do not matter yet. Sketching with a thick marker makes fussing over details impossible, and working in grayscale forces spacing, contrast and size to create the hierarchy.
+- Be a pessimist. A design should not promise features that are not ready to build, because one hard feature can block the whole release when a smaller version could have shipped.
+- Serve needs, not requests. User-centered design means understanding and solving people's problems, not simply building what they ask for, since users are not trained designers.
+- Design the peak and the end. People remember an experience mainly by its most intense moment and its ending, so those moments deserve extra investment.
+- Follow the desire lines. Worn paths and other traces of use show how things are actually used, without bias.
 
 ## Examples
 
-```text
-A raised door panel vs an inset cabinet panel.
-Light from above: the source of every UI shadow decision.
-```
-
-Typography on well-designed sites is inspected. Copy from people who care about typography. [RUI]
-
-The asset sources worth knowing are types of source, not specific shops: a free photo library, an SVG pattern library. [RUI]
-
-**tsumugu** is the language-learning reader and dictionary that these catalogs are used to judge. Here are two pairs from its surfaces, shown as things to look at instead of as named effects:
-
-```text
-Guess-first vs the answer shown.
-Good: the reader has to produce the word before the gloss arrives.
-Bad: a peek that hands the answer and calls it practice.
-
-A control vs an emoji standing in for a name.
-Good: the action is labeled in words the hand and the reader can both use.
-Bad: a lone pictogram carrying the only name the control has.
-```
-
-Readers of a judgment catalog tend to collect named effects, in the same way readers of a rules catalog tend to collect numbers. Looking at two surfaces is more useful than naming twelve effects. Rebuilding from scratch without devtools is the expensive drill. The search for decisions the observer would not have made, the elimination drill, and attention to typography take less effort and train the same visual judgment. If a pass through the catalog finds no "decision I would not have made", and finds no hierarchy that is noisy, flat, or competing, then the catalog was only read and was not applied. After one rebuild, it is possible to name one hard-to-see technique that would not have been thought of otherwise. After designing in grayscale first, the hierarchy does not depend on color.
-
-Following the rules is not enough to tell whether the result is good. That takes trained visual judgment, and the trained judgment matters more than this written catalog.
+Concrete cases make the judgments easier to see. A product line of laptops once dropped matte displays for glossy ones, and the glossy models outsold the matte ones even among buyers who knew matte was easier to use. Students crossing a campus quad wear paths that follow the route of least resistance, while tourists' paths follow the best attractions. The sculptor Deborah Butterfield builds horses from found scraps of metal and wood, a working example of wabi-sabi.
 
 ## Related pages
 
-- [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]]: the classification test used to sort entries into this catalog.
-- [[wiki/Design/Front-End Web Design|Front-End Web Design]]: the tsumugu surfaces that these good/bad pairs come from.
+- [[wiki/Design/Front-End Web Design|Front-End Web Design]]: the same judgments applied to web pages.
+- [[wiki/Concepts/Wabi-Sabi|Wabi-Sabi]]: the aesthetic of subtle imperfection in full.
 
-## Open Questions
+## Open questions
 
-Whether more tsumugu pairs are added here once the reader and dictionary chrome stop changing.
-
-Whether seam notes on the Agent Track become jump anchors once these headings stop changing.
+- How does a designer check their own work against the aesthetic-usability effect?
+- How does someone decide when a dense layout serves the user better than open space?
+- How can rebuilding an interface be turned into a regular practice?
 
 ## Sources
 
-Wathan & Schoger, *Refactoring UI* (2018). Lidwell, Holden & Butler, *Universal Principles of Design*, 3rd ed. (2023). Kurosu & Kashimura (1995); Tractinsky, Katz & Ikar (2000), aesthetic-usability. Loewy, MAYA. Simon (1956), satisficing. Bar & Neta (2006), contour bias. Wertheimer, Gestalt grouping. Helmholtz–Kohlrausch effect. Mack & Rock (1998); Simons & Chabris (1999), inattentional blindness. Kahneman, Fredrickson, Schreiber & Redelmeier (1993), peak-end.
+- Adam Wathan and Steve Schoger, *Refactoring UI* (2018), sections on starting from scratch, choosing a personality, white space, grids, typography, color and leveling up. Paraphrased.
+- William Lidwell, Kritina Holden and Jill Butler, *Universal Principles of Design*, entries on the aesthetic-usability effect, closure, common fate, contour bias, desire line, faith follows function, form follows function, gloss bias, MAYA, peak-end rule, proximity, satisficing, similarity, symmetry, user-centered vs. user-driven design and wabi-sabi. Paraphrased.

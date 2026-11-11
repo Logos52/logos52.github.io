@@ -16,75 +16,72 @@ tags:
   - hub
   - mindset
   - books
+wedge_reviewed: false
 ---
 
 # Investing and Budgeting Mindsets
 
-This is the vault's money hub. It covers two subjects. Temperament matters more than tactics. Saving for freedom and spending while a person can still use the money pull against each other. Tactics depend on the market and change when the market changes. The mindsets stay the same. [[projects/wnac|WNAC]] is the applied loop that uses these mindsets to set a budget. The child pages already written in the knowledge base also come from this hub.
+> Not yet reviewed by Wedge.
+
+Wealth is what keeps earning after the owner has gone to bed. Its aim is freedom, meaning you need not occupy a fixed place at a fixed hour doing work you would not choose. If the finish line is never set, the target climbs, because each raise funds a more expensive life and other people's ranks keep moving the goal. The repair is to put the mark in writing, to go on living beneath your means as pay grows, and to call the arrival the end. Rank cannot be finished that way, because there is always someone higher.
+
+Four pages develop those points. Two later pages in the same group, on a frontier payout and on a freight signal, sit beside them.
 
 ## Four main claims
 
-Four claims already have their own pages. Each claim was checked, and the checked version differs from the short slogan used when its page was created.
+[[wiki/Money/The Savings Rate Is the Master Lever|The Savings Rate Is the Master Lever]] treats the unspent share of income as the control a person can still change. Leaving more of each paycheck unspent can cut decades off the remaining years of paid work. Unspent money both grows the savings pile and shrinks the yearly spend those savings have to support. How far it outweighs the investment return turns on how high the rate already is.
 
-[[wiki/Money/The Savings Rate Is the Master Lever|The Savings Rate Is the Master Lever]]: The difference between income and spending is the factor a person can change this month. In the early years, and when the savings rate is high, that difference affects the time needed to reach the savings goal more than investment returns do. It is not the only factor. In some lives, income is easier to change than spending, because some costs are committed years in advance. A large sudden change in income, or a savings rate of zero, changes which factor matters most. The calculations are on the child page.
+[[wiki/Money/Time Beats Timing|Time Beats Timing]] says money already invested grows over the whole stretch it is left in place, including the crash years. Those crash years add more to the ending pile than a clever start date does. Selling in a crash cuts the stretch short right where the strongest recovery days are bunched.
 
-[[wiki/Money/Time Beats Timing|Time Beats Timing]]: Staying invested for a long period without interruption produces better results than choosing a clever moment to buy. Getting rich and staying rich require opposite skills. That page covers the first of those two skills, getting rich.
+[[wiki/Money/Define Enough|Define Enough]] is the act of choosing, ahead of time, the wealth that would make you free, and treating that mark as the end of the chase. Freedom over your own hours is the measure, not rank. Happiness from a longed-for car fades within about a month, and the owner's mood returns to normal.
 
-[[wiki/Money/Define Enough|Define Enough]]: If a person does not write down the amount of money that is enough, the target goes up each time they reach a milestone. Calling that habit the most dangerous one is rhetoric. The child page gives a written number and does not repeat the ranking.
+[[wiki/Money/Money as Life Energy|Money as Life Energy]] treats a unit of money as hours of a life already given in trade. A purchase then has a price in those hours, after the hidden costs of the job have been taken out of the wage. Two calculations follow. One is the real hourly wage. The other is how many of those hours a given purchase costs.
 
-[[wiki/Money/Money as Life Energy|Money as Life Energy]]: Money stands for hours of work a person has already traded for it. A purchase is priced in those hours, using the hourly wage that is left after the true costs of working are subtracted. Spending should match the person's values. The crossover point is the point where investment income covers expenses. The child page has both calculations.
-
-Two related pages cover spending. Every object costs attention and upkeep after it is bought, and that cost is [[wiki/Minimalism/Ownership Cost|ownership cost]]. [[wiki/Minimalism/Wanting Less|Wanting Less]] covers the related point that fewer obligations to objects leave a person more money, time, and mobility. The Define Enough page already states that money should be used to buy freedom and should not be used to buy status.
+Every object also keeps costing attention and upkeep after the purchase, and that continuing burden is [[wiki/Minimalism/Ownership Cost|Ownership Cost]]. [[wiki/Minimalism/Wanting Less|Wanting Less]] adds that naming a signalling motive usually ends the want before any of that cost starts.
 
 ## Other books and pages
 
-One book already has a standalone note. [[wiki/Money/The Almanack of Naval Ravikant|The Almanack of Naval Ravikant]] contains the ideas this hub is based on. Building wealth is a skill that can be learned, and it is not a matter of luck. A person should aim for wealth rather than money or status. Wealth is assets that produce income without the owner's work, and status is a zero-sum game. Wealth comes from specific knowledge combined with leverage, and code and media are permissionless leverage, meaning leverage that needs no one's permission. A person should work over many years with people who also commit for many years. Those four ideas are covered in full on that page. Three other pages in the same group cover related ideas about leverage: [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] covers leverage that compounds, [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] covers tools as leverage, and [[wiki/Concepts/A Return to Code|A Return to Code]] covers code as permissionless leverage.
+The wealth argument is set out in full on [[wiki/Money/The Almanack of Naval Ravikant|the Almanack]]. A paycheck cannot carry someone to freedom, because paid hours bind every result to time spent. The path runs through a share in a product, a firm, or some intellectual property. Three ingredients decide whether pay arrives at scale. Specific knowledge is why the market pays this person, rather than a substitute, and accountability is why it trusts them. Work can be multiplied so that each hour travels farther. Code and media do this, and they need nobody's permission. Once that multiplier is large, judgment becomes the skill that pays most. Because gains compound, the people and the field someone stays with matter as much as any one deal.
 
-Five other books do not have standalone notes yet, because they have not been read. Their takeaways are listed below until each book gets its own page. No child page is created for a book before it is read.
+Three related pages take parts of that argument further. [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] covers returns that follow a power-law pattern, where time and optionality are the scarce resources. [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] treats tools as a multiplier. [[wiki/Concepts/A Return to Code|A Return to Code]] covers programs cheap enough to write for a single person, a single job, or a single afternoon.
 
-- Doing well with money depends on behaviour more than on intelligence. For most households, saving and spending habits matter more than skill at choosing securities.
-- Getting rich and staying rich require opposite skills. Wealth cannot be seen, because it is the assets that were not spent, such as the money that was not used to buy a car.
-- Spend less than you earn, avoid debt, and put the surplus in index funds.
-- Over ten to fifteen years, after fees, a broad low-cost index fund returns more than almost all actively managed funds. Fees compound, and the compounding reduces what the holder keeps. Having enough money to leave a job is useful because it gives the option to leave. The 4% / 25× rule is one worked example of a target amount and is not a recommendation. [[wiki/Money/Define Enough|Define Enough]] gives the limits on using it.
-- Aim for a life with many experiences, rather than for the largest possible net worth.
-- An experience continues to give value after it ends, through the memories of it. Use time buckets: divide a life into decades, and spend on each experience in the decade when the person's health and available time still allow it.
-- Give money away while alive. Money does more good when it is given at the time the recipient needs it than when it is left as an inheritance. This is an argument based on a discount rate. It has not been measured.
-- People often buy things to signal their identity. Noticing that motive removes a large part of that spending. The cost that continues after a purchase is covered on [[wiki/Minimalism/Ownership Cost|Ownership Cost]].
+Two more pages in this group apply the same interest in what a person actually pays for. [[wiki/Money/SpaceX & the Frontier Event|SpaceX & the Frontier Event]] says a payout at a new frontier goes to whoever solves the trip home, and that selling the ride is the business that lasts. [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival - The Freight Signal]] treats paid freight rates as revealed preference, a gap between speech and action that talk cannot spin.
 
-Each of these five books will get a standalone note when it is read. Until then, its takeaways stay in the list above.
+[[wiki/Money/Money, Condensed|Money, Condensed]] puts the settled positions in short form.
 
 ## Combining saving and spending
 
-Saving and spending do conflict. One approach keeps spending low until the person no longer needs to work. The other approach spends the saved money on experiences while the person is still able to do them. A person can follow both approaches if they first write down a target amount, as described on [[wiki/Money/Define Enough|Define Enough]], and then assign spending to the decades when they can still use it. Behaviour matters more than knowledge. A person's temperament has the most effect on the results, and the calculations are the easier part.
+Once pay arrives, it can be turned into freedom or into a more expensive life. Holding spending near its old level after pay rises lets the worry fade. Daily life still resembles the pre-raise life, only with less pressure. A hard cut in costs and an early retirement is a valid path by itself. Upgrading too quickly does the reverse, because each new outlay becomes a permanent part of the sum that "enough" has to meet, and the finish line slides farther out. Putting the number in writing is what lets a person save toward freedom and still spend without moving the mark.
 
 ## Links
 
-- [[projects/wnac|WNAC]]: the applied AI-budgeting loop that uses these mindsets.
-- [[wiki/Money/The Almanack of Naval Ravikant|The Almanack of Naval Ravikant]]: the only book with its own note; covers wealth, status, leverage, and working with the same people over many years.
-- [[wiki/Money/The Savings Rate Is the Master Lever|The Savings Rate Is the Master Lever]]: the difference between income and spending as the factor a person can change this month.
-- [[wiki/Money/Time Beats Timing|Time Beats Timing]]: staying invested without interruption produces better results than choosing clever moments to buy.
-- [[wiki/Money/Define Enough|Define Enough]]: a written target amount, which lets a person both save and spend.
-- [[wiki/Money/Money as Life Energy|Money as Life Energy]]: hours of work already traded, used as the unit for measuring money.
-- [[wiki/Minimalism/Ownership Cost|Ownership Cost]]: the attention and upkeep an object costs after it is bought.
-- [[wiki/Minimalism/Wanting Less|Wanting Less]]: fewer obligations to objects, which gives a person more freedom.
-- [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: where leverage and compounding appear.
-- [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]: tools as leverage.
-- [[wiki/Concepts/A Return to Code|A Return to Code]]: code as permissionless leverage.
-- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]: the spending side of working out what an hour is worth.
-- [[wiki/Minimalism/Product Reduction|Product Reduction]]: a related spending page about keeping the same function with fewer products.
-- [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]: money decisions judged as part of an overall position rather than as isolated trades.
-- [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]]: judging decisions, including money decisions, by their process rather than by their outcomes.
+- [[projects/wnac|WNAC]]: a budgeting loop that applies these mindsets
+- [[wiki/Money/The Almanack of Naval Ravikant|The Almanack of Naval Ravikant]]: wealth, status, specific knowledge, and work that multiplies
+- [[wiki/Money/The Savings Rate Is the Master Lever|The Savings Rate Is the Master Lever]]: unspent share of income, and why it can change the remaining years of work more than the return does
+- [[wiki/Money/Time Beats Timing|Time Beats Timing]]: leaving money in place through crash years, rather than waiting for a clever start date
+- [[wiki/Money/Define Enough|Define Enough]]: a written finish line, measured in freedom
+- [[wiki/Money/Money as Life Energy|Money as Life Energy]]: hours already given in trade, used as the unit for a purchase
+- [[wiki/Money/SpaceX & the Frontier Event|SpaceX & the Frontier Event]]: a frontier payout that goes to whoever solves the trip home
+- [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival - The Freight Signal]]: paid freight rates as revealed preference
+- [[wiki/Money/Money, Condensed|Money, Condensed]]: the settled positions in short form
+- [[wiki/Minimalism/Ownership Cost|Ownership Cost]]: the attention and upkeep that continue after a purchase
+- [[wiki/Minimalism/Wanting Less|Wanting Less]]: naming a signalling motive before any ownership cost begins
+- [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: where compounding and optionality appear
+- [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]: tools treated as a multiplier
+- [[wiki/Concepts/A Return to Code|A Return to Code]]: code as work that needs nobody's permission
+- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]: volume, ownership cost, and the demand side of spending
+- [[wiki/Minimalism/Product Reduction|Product Reduction]]: doing the same job with a smaller set of goods
+- [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]: money choices judged as part of an overall position, not as one-off trades
+- [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]]: scoring a choice, money choices included, by the process behind it rather than by the outcome
 
-## Open Questions
+## Open questions
 
-When two more of the five unread books have their own pages, should this hub contain only the conflict between saving and spending plus links, or should it still list takeaways that are kept up to date?
+- How does writing a finish line in advance keep lifestyle upgrades from moving the target?
+- How does a high savings rate change the number of years of work left, even when the investment return stays the same?
+- How does staying invested through crash years produce a different result from waiting for a better entry date?
+- How does pricing a purchase in hours already traded change whether it still looks worth buying?
 
 ## Sources
 
-- Housel, *The Psychology of Money*; *Same as Ever*: behaviour matters more than intelligence; time in the market matters more than timing; wealth is the part that cannot be seen; temperament is the part that stays the same over time. Direction for C2, C8, C11, C25.
-- Ravikant, 2018 "How to Get Rich" / *The Almanack of Naval Ravikant* (compiled by Jorgenson): the difference between wealth, money, and status; specific knowledge and permissionless leverage; working with the same people over many years. The standalone note covers the full set of ideas.
-- Robin & Dominguez, *Your Money or Your Life*: money as hours of work traded for it; real hourly wage; crossover point.
-- Collins, *The Simple Path to Wealth*: spend less than you earn, avoid debt, put the surplus in index funds; F-you money as enough money to have the option to leave a job.
-- Perkins, *Die With Zero*: experiences instead of the largest possible savings; memory dividends; time-bucketing; giving while alive.
-- Sasaki, *Goodbye, Things*: objects cost attention; buying as a signal of identity; owning less as freedom. The Ownership Cost and Wanting Less pages were created from these ideas.
-- S&P SPIVA scorecards; Bogle on costs: most active funds underperform a low-cost index over 10–15 years after fees. Bengen 1994 and the Trinity Study (Cooley, Hubbard & Walz 1998) are the sources for 4% / 25× as a dated US heuristic, which is covered on Define Enough.
+- Naval Ravikant, "How to Get Rich", collected interviews.
+- Wanhee, "Minimalism is making me limitless", YouTube talk.

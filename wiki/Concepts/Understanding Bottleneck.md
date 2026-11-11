@@ -3,8 +3,8 @@ title: Understanding Bottleneck
 type: concept
 status: seed
 created: 2026-05-02
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
 prose-model: fable
 source-count: 1
 written-by: grok
@@ -14,61 +14,56 @@ tags:
   - learning
   - metacognition
   - agents
+wedge_reviewed: false
 ---
 
 # Understanding Bottleneck
 
-The understanding bottleneck is the work that stays with a person after an agent has generated options, written code, and summarized sources. The person still has to aim the work and judge the result. Aiming means deciding what is worth building, what matters, what is true enough, and how to steer.
+> Not yet reviewed by Wedge.
 
-The bottleneck names a limit on what an agent can take over. It gives the person no procedure to follow.
+The understanding bottleneck is the limit that a person's own understanding places on how much work they can direct through AI agents. Agents can now take over much of the thinking and processing, including recall of small details, but a person can outsource thinking without outsourcing understanding. Someone still has to know what the work is for, why it is worth doing and how to steer the agents, and that knowledge has to get into one human head. Karpathy describes himself as becoming the bottleneck on exactly that knowledge. The response is to keep the fundamentals in mind while letting details go, and to use tools such as AI-built knowledge bases that help the person understand more.
 
 ## Core takeaways
 
-- Agents already generate options, write code, summarize sources, and produce many views of the same information.
-- Four decisions stay with the person: what is worth building, what matters, what is true enough, and how to steer.
-- The line "you can outsource thinking but not understanding" is a tweet that a speaker in a 2026 conversation endorsed and could not name.
-- The same speaker allowed that understanding might get automated too.
-- A personal wiki is one way to work under the limit. The data stays fixed, the agent makes many views of it, and understanding forms in the person and in the files.
-- The wiki should answer the questions the person already has and produce better ones.
+- The understanding bottleneck is the limit that a person's own understanding places on how much work they can direct through AI agents.
+- Agents can take over recall of small details, but a person can outsource thinking without outsourcing understanding.
+- Someone still has to know what the work is for, why it is worth doing and how to steer the agents, and that knowledge has to get into one human head.
+- Fundamentals stay with the person, because that is what lets them catch an agent's mistake.
+- A personal wiki built from articles a person reads is one way to raise understanding under that limit.
 
 ## What agents do now and what the person keeps
 
-Agents already generate options, write code, summarize sources, and produce alternative projections of information, meaning different views of the same information.
+Agents handle the details that once had to be memorized. A programmer working with arrays or tensors no longer needs to remember whether a function takes `keepdim` or `keepdims`, or whether an argument is called `dim` or `axis`. The agent has excellent recall for that kind of detail, much like a capable intern.
 
-The person still owns four things. The first is what is worth building. The second is what matters. The third is what is true enough. The fourth is how to steer.
+The work that stays with the person is the spec and the design. A person writes a detailed plan with the agent, oversees the top-level categories and checks that the design makes sense. Agents still make strange design choices, such as matching records across services by email address when emails can be arbitrary, and only a person who understands the system notices. Taste, engineering judgment and asking for the right things stay with the person, while the agents fill in the blanks.
 
-[[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] is the work the person directs. The understanding bottleneck is the human limit on that work. [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]] is how the person's understanding gets into the agent's window. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] is the steering itself.
+Fundamentals stay with the person even when details go. In the tensor example, a programmer can forget the API names but still needs to know that a tensor has underlying storage with views onto it, so as to avoid copying memory needlessly. That kind of knowledge is what lets a person catch an agent's mistake.
 
 ## Where the line comes from
 
-One speaker in a 2026 conversation used the line: you can outsource thinking but not understanding. The line comes from a tweet he endorsed. He could not name the tweet. The phrase is not his. He also left open the possibility that understanding gets automated too.
+A person can outsource thinking without outsourcing understanding. Someone still has to know what the work is for, why it is worth doing and how to steer the agents, and that knowledge has to get into one human head. Directing the work is itself limited by understanding. A good director has to grasp the goal and the reasons for it, and language models do not yet excel at understanding. The person therefore remains uniquely in charge of it, which is why Karpathy says he is becoming the bottleneck.
 
 ## A personal wiki as one way to work under the limit
 
-A personal wiki is one way to work under the limit. The data in the wiki stays fixed. The agent makes many projections of that data. Understanding then forms in the person. In this vault, understanding also forms in the files. That second half, the files, is our addition. The speaker did not say it.
-
-The wiki should answer the questions the person already has. It should also produce better questions. Useful outputs for this: comparisons, contradiction reports, diagrams, alternate taxonomies, briefs, open-question lists, and personal operating checklists. [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]] owns the setup that makes the projections.
+Tools that raise understanding attack the bottleneck directly. One example is a personal wiki that a language model builds up from articles a person reads, which they can then question. Each new view of the same information produces fresh insight, so the wiki works like a set of prompts for generating new angles on a fixed body of material.
 
 ## How to practice this
 
-1. Take one piece of work an agent finished for you. List which of the four you decided: what to build, what mattered, what was true enough, how to steer. Notice whether the agent made any of the four.
-2. Judge the next result an agent hands you before you use it. Notice how much of the judging you could not pass to the agent.
-3. Take one summary an agent wrote for you. Say in your own words what it means. Notice where you cannot. That is where the summary replaced understanding you never formed.
-4. Keep the data in your wiki fixed and ask for a second projection of it. Notice whether your understanding changed while the data did not.
-5. Ask your wiki for a comparison, a contradiction report, or an alternate taxonomy of data it already holds. Notice whether the output gives you a better question than the one you started with.
+- When handing work to an agent, write down the spec, the goal and the fundamentals you still need to know in order to catch a mistake.
+- After reading an article, put it into a personal wiki you can question, and look at the same material from a new angle.
 
 ## Related pages
 
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: the control layer, the steering that the bottleneck names, as distinct from producing output
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the wiki-as-projections setup the conversation describes
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the work being directed; the understanding bottleneck is the human limit on that work
+- [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]: the other side of the same talk, on making tools easier for agents to use.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the working practice of directing agents.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: watching and steering one's own understanding.
 
 ## Open questions
 
-How can this wiki help the human understand instead of merely collect summaries?
-
-What output formats best create insight: diagrams, questions, comparisons, or short briefs?
+- How does a person decide which fundamentals to keep while handing details to an agent?
+- How does a personal knowledge base change what a reader understands from an article?
+- How does running more agents change the kind of understanding a person needs?
 
 ## Sources
 
-- Andrej Karpathy in conversation, Sequoia AI Ascent 2026. *From Vibe Coding to Agentic Engineering*. https://www.youtube.com/watch?v=96jN2OCOfLs Published 2026-04-29. The line about outsourcing thinking but not understanding is a tweet he endorsed and could not name. The bottleneck wording, and the remark at 29:33 that understanding might get automated too, are his.
+- Andrej Karpathy in conversation with Stephanie Zhan, "From Vibe Coding to Agentic Engineering", Sequoia Capital, AI Ascent 2026, <https://www.youtube.com/watch?v=96jN2OCOfLs>. Paraphrased, including one line he attributes to a tweet.

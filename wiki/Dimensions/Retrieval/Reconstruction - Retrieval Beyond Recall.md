@@ -3,8 +3,8 @@ title: "Reconstruction: Retrieval Beyond Recall"
 type: concept
 status: developing
 created: 2026-06-11
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
 prose-model: fable
 written-by: grok
 model: grok
@@ -12,99 +12,87 @@ tags:
   - retrieval
   - reconstruction
   - revision
+wedge_reviewed: false
 ---
 
 # Reconstruction: Retrieval Beyond Recall
 
-Reconstruction is a test. It takes pieces of knowledge the learner already holds and asks for a connection between them that nobody taught. Then it asks for a yes or a no on whether that connection exists.
+> Not yet reviewed by Wedge.
 
-Memory rebuilds an answer on every retrieval. It rebuilds from nodes, the pieces, and the relationships between those pieces. It does not pull out a stored copy. Because retrieval already rebuilds, the useful demand is a new valid relationship. The taught relationship is a weaker demand. Ruling a link impossible counts as an answer. The relationship asked for is one that has never existed yet.
+Reconstruction is retrieval that asks a learner to build new, valid connections from what they know, not just to bring back connections they already made. It sits above recognition and recall. It suits how memory works, since memory is a web of connected ideas that is rebuilt every time it is used. To reconstruct, a learner has to know each idea well enough to judge which new links hold and which cannot. The method works at the top levels of thinking, evaluating and creating, and it prepares learners for unfamiliar exam questions that ask for a shape they never practiced. Because it takes longer than recall, reconstruction works best blended with it, with more reconstruction early in learning and more recall later.
 
 ## Core takeaways
 
-- Reconstruction takes pieces already known and asks for a connection nobody taught, then a judgment on whether that connection holds.
-- Memory rebuilds on every retrieval from pieces and the relationships between them. A demand for a new relationship tests the operation memory already performs.
-- Deciding two pieces cannot connect counts as much as connecting them. Either verdict needs each piece known well enough that its edges show, so a feeling of familiarity is a false cue.
-- Recall can pass while use fails. The first failed attempt at a new join shows the knowledge is shallower than it felt.
-- Reconstruction is a harder ask than recall. No finding shows it gives a larger memory gain than recall, so recall stays in the schedule and gets more weight later.
-- Practising new shapes does not guarantee a pass on unfamiliar exam questions. Transfer to a new form needs elaborated retrieval, congruency, or high initial performance.
+- Recognition is weakest, recall is stronger, and reconstruction is strongest.
+- Reconstruction makes connections the learner has not made before from the same ideas.
+- It matches how memory works, because all remembering is rebuilding.
+- It finds gaps that recall misses, where a link can be remembered but the idea cannot be used differently.
+- Blend it with recall, leaning on reconstruction early and recall later.
 
 ## Why the demand matches how memory works
 
-The reconstructive-memory literature says remembering is rebuilding. That literature does not prescribe this method. The method is an inference from that finding: if remembering is rebuilding, then ask for a rebuild nobody handed over. A method that demands a fresh shape tests the operation memory already performs.
+Memory does not work like a box from which stored items are pulled out whole. It is a set of ideas held together by relationships, and those relationships give knowledge its structure and meaning. Remembering means rebuilding that structure, so every act of memory is already a reconstruction. If memory is rebuilt anyway, the most honest test of it is to ask for a rebuild directly.
 
 ## Three ways to ask for a new shape
 
-The rebuild nobody handed over has a few shapes a learner can run.
+A reconstruction prompt hands the learner familiar pieces and asks for a new arrangement. Three kinds of prompt do this:
 
-- Join one idea to a pair of ideas it was never paired with.
-- Fold two separate explanations into a single account.
-- Drop an equation into a setting that usually hosts a neighbouring equation.
-
-Each attempt either stands or falls.
+1. Link one idea to two others in a way not studied before, and check whether the link holds.
+2. Put two ideas in a new situation together and work out what follows, the way a fan might imagine two favorite characters from different stories meeting.
+3. Try a fact or equation in a situation where it was never taught, because it looks similar to one where it applies, and judge whether the fact really carries over.
 
 ## Deciding two pieces cannot connect
 
-Deciding two pieces cannot connect is as useful as deciding they can. That verdict needs each piece known well enough that its edges are visible. A vague sense of having seen the material cannot show where its edges are. So the same exercise checks mastery of every piece it touches. A feeling of familiarity is a false cue for mastery.
+Part of reconstruction is ruling links out. A learner has to judge that one connection makes sense, that another is impossible and that two ideas can connect in one way but not another. Those judgments require knowing each idea well, which is why reconstruction tests mastery so directly.
 
 ## How this compares with recall
 
-The demand asks more than matching a prompt to something seen before. Matching asks almost no mastery, so it is a weak mastery test. A weak test still has some use. Active recall asks memory to rebuild something already known to be buildable. Reconstruction asks for more than that. No finding shows reconstruction gives a larger memory gain than recall. So recall stays.
-
-Forming and judging new links works almost only at the top of the mastery ladder, the levels named Evaluate and Create. The lower levels get exercised at the same time, because the top level cannot be reached without them. That is a claim about what the exercise demands. No classroom experiment on that taxonomy of mastery levels tested it. The node-and-relationship model of memory is described in [[Memory Handling]]. The top of the mastery ladder is described in [[Knowledge Mastery - From Recognition to Usable Knowledge]].
-
-What comes out of the exercise is new: guesses, conjectures, another way to explain the same idea, another way to apply it. Making those from pieces already in hand is itself a high mark of mastery. When someone describes the exercise as a higher gear of thinking, the checkable version of that claim is difficulty the learner can still meet. It is not a brain state.
+Recall, in its active form, gives the learner a few pieces and asks them to bring back the rest, for example by writing an essay or explaining a difference. That is far more realistic than recognition. Reconstruction goes one step further, asking the learner to build something they have not built before from the same pieces. Recognition barely registers as mastery. Recall can test anything from basic facts to problem solving, depending on what is recalled. Reconstruction works almost entirely at the levels of evaluating and creating, though it relies on the lower levels underneath.
 
 ## What the test shows about unfamiliar exam questions
 
-An exam curveball is a question that supplies pieces already known and demands a shape never practised. If revision only ever rebuilt the shapes that were taught, an unfamiliar arrangement looks impossible even when every piece is known. A learner who has practised this demand has already tried the shapes those pieces can take. A configuration never seen before is then one more arrangement. That is a reason the practice may help. It is not a promise that exams become easy. A new shape only transfers under conditions: elaborated retrieval, congruency, or high initial performance. Practising the demand does not guarantee a pass on curveball questions. A failed new connection is information about a gap. It does not show the method is broken.
+An unfamiliar exam question supplies known pieces and wants them arranged into a shape the student never thought could be made. A student who has practiced reconstruction sees that their knowledge stretches to the new shape, so the question is less of a shock. Practicing reconstruction is practice for exactly that moment.
 
 ## Knowledge a person owns can be rearranged
 
-Knowledge a person knows deeply can be put into new arrangements at will. A hobby known deeply lets a person put two favourite characters into a scene that was never written, and the person can say what happens without searching memory. Practice of this demand builds the same freedom on study material.
+Knowledge that is truly owned can be shaped freely. People already do this with hobbies and stories they know well, imagining new scenarios and drawing new conclusions without effort. Reconstruction trains the same freedom in a subject, so the learner can build any relationship a new question calls for, and even propose hypotheses and conjectures of their own.
 
 ## Recall can pass while use fails
 
-A relationship can come back correctly on a recall test and still fail when asked to fit a new arrangement. Ordinary retrieval never asks for that new arrangement, so the weak point never shows. The first failed attempt at a brand-new join is the moment the knowledge proves shallower than it felt.
+A learner can recall that a relationship exists and still be unable to use the idea in a new way. If asked to use one point to link two others and they cannot, they did not know the point as well as they thought. Recall alone never exposes this gap, because it only asks for links already made. Reconstruction is the way to find it.
 
 ## Past papers and reconstructive prompts
 
-Past exam papers work because they test recall and application together. That is why they help even when used alone. Reconstructive prompts test the same territory on purpose. The learner attempts new connections around each concept, and the weak nodes show up. The learner does not have to work through every question type in the bank. That saving of time is an inference, not a measured finding. The gaps found this way feed the Test–Target–Teach loop in [[Revision]].
+Past papers do have value, because they test recall and application, which is why students who have nothing better find them effective. Working through past papers to recall and apply everything is brute force, though. Reconstructive prompts are more targeted, since they seek out gaps instead of covering everything.
 
 ## How much recall to keep
 
-Keep recall in the schedule. Each reconstruction item costs more minutes than a recall item, so a schedule of only reconstruction is hard to keep going. A schedule of only reconstruction is also not the aim. Working splits run from mostly reconstruction with a little recall down to an even split. The split is set by what the learner can manage. Those splits are defaults for manageability, not findings. Weight the early phase toward reconstruction while the structure of the topic is still forming. Shift toward recall later for detailed retrieval. That order is a default, not a tested rule.
+Reconstruction takes longer than recall, so a mix works best. For some learners a split of 90% reconstruction to 10% recall is efficient, while others manage better with an even split. Over a course of study, most learners do best leaning on reconstruction early, when it finds gaps quickly and thoroughly. Later they shift toward recall to sharpen detailed retrieval.
 
 ## Where this demand sits among the methods
 
-Pieces the learner owns combine at will. A failed new connection is a gap that recall never posed. [[Spaced Interleaved Retrieval]] lists a menu of methods. The reconstructive end of that menu applies this demand.
+Reconstruction belongs to the later stages of a learning-skills course, after a learner can already process information well and take control of what they learn and when. It builds on the habit of working at higher levels of thinking from the start of learning, since the brain learns most efficiently there, and it brings that habit into revision.
 
 ## How to practice this
 
-1. Pick two ideas you know well that were never taught together. Try to join them. Notice whether the join stands or falls.
-2. Take two separate explanations of one topic. Fold them into a single account. Notice where the two explanations do not fit together.
-3. Take an equation and put it into a setting that usually hosts a neighbouring equation. Notice whether it still works there.
-4. When two pieces will not connect, say so and give the reason. Notice whether you can see the edges of each piece. If you cannot, you know that piece less well than it felt.
-5. Start with mostly reconstruction items and a little recall while the topic structure is still forming. Shift toward recall later for detailed retrieval. Notice how many more minutes each reconstruction item costs than a recall item.
-6. Write down every failed new connection. Each one marks a gap that recall never showed. Feed those gaps into the Test–Target–Teach loop in [[Revision]].
+1. After learning a topic, list its main ideas on one page.
+2. Pick one idea and try to link it to two others in a new way, then judge whether the link holds.
+3. Note any link that cannot be made, and treat it as a gap to study.
+4. Mix in recall, starting with mostly reconstruction and adding more recall closer to the exam.
 
 ## Related pages
 
-- [[Spaced Interleaved Retrieval]]: the method menu whose reconstructive end is this demand.
-- [[Interleaving for Complex Problem Solving]]: the applied extension, reconstruction run on problem solving and knowledge work.
-- [[Revision]]: the Test–Target–Teach loop the gaps feed.
-- [[Memory Handling]]: the node-and-relationship model of memory.
-- [[Knowledge Mastery - From Recognition to Usable Knowledge]]: the Evaluate and Create end of the mastery ladder.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: the base retrieval routine.
+- [[wiki/Dimensions/Retrieval/Revision|Revision]]: where reconstructive prompts fit in review.
+- [[wiki/Dimensions/Retrieval/Encoding and Retrieval|Encoding and Retrieval]]: the two halves of learning.
+- [[wiki/Dimensions/Deep Processing/Schema|Schema]]: the connected structure reconstruction rebuilds.
 
 ## Open questions
 
-- Whether reconstructive prompts find gaps faster than an equivalent time on varied recall.
-- Whether front-loading reconstruction then shifting to recall outperforms a mixed schedule.
+- How can a learner check whether a new link they built is valid without a teacher?
+- How should the mix of recall and reconstruction change for a detail-heavy subject?
+- How can reconstructive prompts be written ahead of time for a whole course?
 
 ## Sources
 
-- Bartlett, F. C. (1932). *Remembering: A Study in Experimental and Social Psychology*. Cambridge University Press. Remembering is reconstructive. It is not a stored copy pulled out intact.
-- Rowland, C. A. (2014). The effect of testing versus restudy on retention: A meta-analytic review of the testing effect. *Psychological Bulletin*. Recall tests outperform recognition tests as practice. The review did not test reconstruction as a third condition.
-- Slamecka, N. J., & Graf, P. (1978). The generation effect: Delineation of a phenomenon. *Journal of Experimental Psychology: Human Learning and Memory*. Generating a new structure is itself encoding.
-- Pan, S. C., & Rickard, T. C. (2018). Transfer of test-enhanced learning: Meta-analytic review and synthesis. *Psychological Bulletin*. Transfer to a new form often fails without elaborated retrieval, response congruency, or high initial test performance.
-- Kornell, N., & Bjork, R. A. (2008). Optimising self-regulated study: The benefits, and costs, of dropping flashcards. *Memory*, 16(2), 125–136. A feeling of knowing is a false cue for mastery.
+- iCanStudy, "Reconstruction", Camp II. Private course notes, paraphrased.

@@ -3,8 +3,8 @@ title: "Define Enough"
 type: concept
 status: developing
 created: 2026-06-11
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
 prose-model: fable
 written-by: grok
 model: grok
@@ -15,69 +15,65 @@ tags:
   - investing
   - mindset
   - budgeting
+wedge_reviewed: false
 ---
 
 # Define Enough
 
-Enough is a written money target: the annual spending level at which work is optional because savings cover it. A money target that has not been written down rises each time a neighbour earns more, a raise arrives, or a new milestone is reached. The repair is to write the number in one sentence and to keep it unchanged across the next two milestones.
+> Not yet reviewed by Wedge.
+
+Defining enough means deciding in advance how much wealth would make you free, and treating that point as a finish line. Without a defined point, the target keeps rising. Each raise brings a lifestyle upgrade, the upgrade resets what counts as wealthy, and comparison with others keeps the goal moving. The repair is to write the point down, keep living below your means as income grows, and declare yourself done when you reach it. Enough is measured in freedom: not having to be anywhere, do anything, or answer to anyone you would not choose. Status cannot be won the same way, because it is a ranking that always has someone above.
 
 ## Core takeaways
 
-- Once food and housing are covered, satisfaction follows relative income, meaning income compared with the people nearby. Relative income resets the target. The absolute number in the account does not.
-- When wealth is pursued for status, the target is set by other people, and those people raise their own targets too. When wealth is pursued for control over time, the target can stay fixed, so a number can be computed.
-- Any deliberately chosen number beats an undefined one. What matters in the definition is that the number is written and fixed. It does not have to be a comfortable number.
-- Annual expenses times about 25 is one common way to price the target. It rests on a 4% first-year withdrawal from US stock-and-bond history, and it is not a guarantee.
-- Define enough first, then match spending on each experience to the decade when it still lands. Without the number, saving turns into hoarding, and experience spending raises the target again.
-- The check is whether the number can be stated in one sentence, and whether it rose after each of the last two milestones. If it rose both times, the comparison needs attention. The math does not.
+- An undefined target rises with every raise, because lifestyle upgrades reset what feels like wealth.
+- Living far below your means buys a freedom that people busy upgrading cannot picture.
+- Write the finish line down before the money arrives, so adaptation has nothing to move.
+- Enough is defined by freedom over your own time, not by rank.
+- Status is zero-sum, so chasing it never reaches an end point.
 
 ## Why the target keeps rising
 
-Comparison raises the target. Once food and housing are covered, satisfaction follows the neighbour's income more than the person's own raise. Relative income resets the target. The absolute number in the account does not. Six decades of comparison research report the same finding.
+Income usually grows slowly over a long career. As it grows, people upgrade the house, the car and the habits that go with them, and each upgrade raises the amount they think of as wealthy. The result is a trap where higher pay never turns into freedom, because spending rose to meet it. Happiness from a new purchase also fades. A dream car gives a lift for a month or so, and then the owner is back to their usual mood.
 
-When wealth is pursued for status, the target is set by other people, and those people raise their own targets too. A positional good counts only when other people have less of it, so the target rises whenever they gain. When wealth is pursued for freedom, the target is control over time, meaning hours no longer sold for pay. That target can stay fixed, and a fixed target is what makes a number computable. If the word "wealth" still covers goods that only work as signals to other people, the target rises again. The full argument for wealth over status is on [[wiki/Money/Investing and Budgeting Mindsets|the hub's]] page, Investing & Budgeting Mindsets. This page takes only one result from it: the target can be fixed.
+Comparison adds a second push. People copy their wants from those around them, and status is a ranking. Status is zero-sum: for one person to move up, someone else has to move down. A target set by rank keeps moving as long as someone ranks higher, which is always.
+
+The way out is to fix the target before adaptation can move it.
 
 ## The written number
 
-The repair is a written number. A specified target beats a vague wish, and any deliberately chosen number beats an undefined one. Enough is a written money target: the spending level at which work is optional because savings cover it. What matters in the definition is that the number is written and fixed. It does not have to be a comfortable number.
-
-Annual expenses times about 25 is one historically common way to price that target. It comes from a 4% first-year withdrawal from a mix of stocks and bonds that lasted thirty years of US market history in backtests done in the 1990s. Later studies put the safe rate between 3.3% and 4% depending on yields. The multiple is not a guarantee. It does not hold for every country, it leaves out fees and taxes, and it assumes spending stays stable and there is no other income. Enough is the level of living beyond which the person will not sell more hours. The multiple is one way to price that level, and it does not fix what the savings can support: the order in which returns arrive, and how much spending can be adjusted, can change what the same savings will cover.
+The finish line has to be decided while it is still in the future, then written down. Earning in large, separated lumps helps, because lifestyle has no time to adjust between them, and it is easier to say "now I am done" at a planned point. Earning in a steady rising stream gives adaptation room to raise the bar with every step.
 
 ## Saving the money or spending it
 
-The reading list disagrees about what to do once the number exists. One philosophy treats the savings as the goal and holds spending down until work is optional. The other spends the savings on experiences while the body and the calendar can still do them. The two are reconciled by defining enough first and then sorting spending by time: match spending on an experience to the decade when it still lands. Without the number, both approaches fail. Frugality becomes hoarding. Spending on experiences becomes a rising target under a different name. [[wiki/Money/Money as Life Energy|Money as Life Energy]] states the cost of raising the target in hours of work already traded for money.
+Once money comes in, the choice is between turning it into freedom or into a higher cost of living. Keeping expenses low after income rises means the worry goes away, and life still feels like the old one with less pressure. Cutting costs hard and retiring early is a valid route on its own. Upgrading too fast does the opposite. Each new expense becomes a permanent part of what enough has to cover, which moves the finish line further out.
 
 ## What the number is for and how to check it
 
-The number is a tool for thinking about money. It is not a financial plan. Which multiple fits a given life belongs to [[projects/wnac|WNAC]]. The check is whether the number can be stated in one sentence. If it has risen after each of the last two milestones, comparison is setting the target, and the comparison is what needs attention. The math does not. [[wiki/Money/Time Beats Timing|Time Beats Timing]] describes the long holding period over which the number is meant to stay fixed.
-
-Once written, the number is a test that can be failed. If the number is still rising after the last two milestones, comparison is still moving the target.
+The number exists to buy freedom. Freedom here means not having to be anywhere you do not want to be, waking and sleeping when you choose, and having no boss. Many people who reach it keep working, but only on what they want, when they want. A useful check is whether a planned purchase or upgrade moves you toward that freedom or raises the bar you need to reach it. Another is whether the goal is set by your own life or by someone else's ranking.
 
 ## How to practice this
 
-1. Write your enough number in one sentence: the annual spending level at which work is optional because savings cover it. If it does not fit in one sentence, you do not have a number yet.
-2. Price it one way: multiply your annual expenses by about 25. Notice that this assumes stable spending, no other income, and thirty years of US stock-and-bond history.
-3. Read the sentence and look for goods that only work as signals to other people. If any are in it, the number will rise again.
-4. Keep the number unchanged across the next two milestones. If it rose after both, comparison is setting the target. Attend to the comparison and leave the math as it is.
-5. Once the number exists, match each planned experience to the decade when it still lands. Notice whether spending is still held down after work is already optional. Notice whether experience spending is raising the number.
+1. Write one sentence describing the freedom you want and what it would cost each year.
+2. When income rises, hold spending near its old level and send the difference toward the target.
+3. Before any lifestyle upgrade, ask whether it raises the number you need.
+4. Notice when a want comes from comparing yourself with someone else.
+5. Decide in advance what you will do when you reach the number, including what work you would keep.
 
 ## Related pages
 
-- [[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]]: the reading list this page reconciles, and the argument for wealth over status.
-- [[projects/wnac|WNAC]]: the applied layer, which multiple and which vehicles.
-- [[wiki/Money/Money as Life Energy|Money as Life Energy]]: states the cost of raising the target in hours of work already traded for money.
-- [[wiki/Money/Time Beats Timing|Time Beats Timing]]: the long holding period over which the number is meant to stay fixed.
+- [[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]]: the wider approach to money.
+- [[wiki/Money/Money as Life Energy|Money as Life Energy]]: pricing spending in time.
+- [[wiki/Money/Time Beats Timing|Time Beats Timing]]: why steady investing reaches the target.
+- [[wiki/Money/The Almanack of Naval Ravikant|The Almanack of Naval Ravikant]]: wealth, money and status.
 
 ## Open questions
 
-How should a written number move, if at all, when the life it priced actually changes, for example a child, a country, or a health shock, without comparison being what moves it?
+- How can someone tell whether a rising target reflects real needs or lifestyle creep?
+- How should the written number change when family or health circumstances change?
+- How can a person keep comparison from resetting the number once friends start earning more?
 
 ## Sources
 
-- Housel, *The Psychology of Money*: the moving goalpost; undefined "enough" as the failure mode. Direction for C2, not a ranking of traits.
-- Brickman & Campbell 1971; Easterlin 1974 and later income–happiness work; Festinger 1954; Frank, *Luxury Fever*: hedonic adaptation and positional / social comparison. Relative, not absolute, income resets the target once basics are met.
-- Kahneman & Deaton 2010; Killingsworth 2021: more income still helps; the comparison is what keeps moving the mark.
-- Naval Ravikant, 2018 "How to Get Rich": status as a zero-sum game; seek wealth, not money or status. The full argument is on the hub page.
-- Collins, *The Simple Path to Wealth*; Robin & Dominguez, *Your Money or Your Life*: savings as the goal; frugality until work is optional.
-- Perkins, *Die With Zero*: spend-down while windows are open; time-bucketing experiences to the decade they still land.
-- Bengen 1994; Cooley, Hubbard & Walz 1998 (Trinity Study): ~4% initial withdrawal / ~25× annual spending as a 30-year US stock/bond heuristic. Worked example of a finish line, not the definition of enough.
-- Finke, Pfau & Blanchett 2013; Morningstar 2021–2023 updates: safe-withdrawal rate put at 3.3–4% depending on yields. The multiple is not a guarantee.
+- Naval Ravikant, "How to Get Rich", collected interviews.
+- Wanhee, "Minimalism is making me limitless", YouTube talk.

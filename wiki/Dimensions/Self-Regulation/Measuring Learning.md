@@ -3,8 +3,8 @@ title: "Measuring Learning"
 type: concept
 status: developing
 created: 2026-05-29
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
 prose-model: fable
 written-by: grok
 model: grok
@@ -13,114 +13,81 @@ tags:
   - measurement
   - learning
   - metacognition
+wedge_reviewed: false
 ---
 
 # Measuring Learning
 
-The count that decides what to improve is a closed-book reconstruction done about a week after study, scored against the highest and the lowest level of performance the assessment asks for. Pages covered, lectures sat, and hours logged are not part of that count.
+> Not yet reviewed by Wedge.
 
-The count has one more item: the name of the part of the learning process that is currently capping every other part. A skill is good enough when it is no longer that part.
+Learning is best measured by how much usable knowledge a person keeps for the time they spend, not by how much material they cover. Counting lectures or hours ignores forgetting, the time lost relearning and whether the knowledge can actually be used. A better measure is learning efficiency: mastery and retention divided by total time spent. Mastery is judged against the levels of knowing a task requires, from recalling facts to connecting concepts to creating new ideas, and retention is checked one week after learning. Inefficient methods hit a ceiling where extra hours add little, so the method, not the effort, often caps results. The right target depends on what the task demands.
 
 ## Core takeaways
 
-- The count that decides what to improve is a closed-book reconstruction done about a week later, scored at the highest and the lowest level the assessment asks for.
-- Hours logged, pages covered, and lectures sat measure activity. They do not show what is still there a week later, and they hide the time later spent relearning.
-- Learned material sits at one of three levels: isolated recall, use of one idea, and concepts held as a network with judgment about which relations matter. The third level is the target.
-- Efficient learning means reaching the mastery the purpose requires, holding it at each required level, and doing both in less time. It is a direction; there is no formula to compute it.
-- A rate limiter is the part of the process that caps every other part. It is found by reflection every week or two, and it is the next thing to work on.
-- A skill is good enough when it is no longer the rate limiter. No absolute standard exists; enough is decided by comparison with the rest of the system.
+- Content covered per session is a useless measure, because it ignores retention, relearning and quality.
+- Learning efficiency divides mastery and retention by the hours spent.
+- Retention is checked after one week at each level of knowing the task requires.
+- More hours with a limited method bring smaller and smaller gains.
+- The level of mastery needed sets how efficient a learner has to be.
 
 ## What a count of hours leaves out
 
-A count of hours spent covering material measures activity. It does not measure learning. It leaves out whether anything is still there a week later. It leaves out the quality of what was built and whether it can be used in more than one way. It also hides the time spent later relearning what was forgotten. That hidden relearning time makes the count expensive as well as incomplete.
-
-Two feelings inflate the count. Rereading feels easy, and a reader has a sense of having covered a stretch of material. People judge what they know by those two feelings, and both are poorly calibrated against what can be produced later. Material reread until it is fluent feels known, and that feeling of fluency is what the count of coverage records. Rereading is also the method learners prefer, and that preference inflates the sense of coverage further.
+Many people think of efficiency as coverage, for example getting through five lectures in two hours. That measure has three flaws. It ignores how much is retained. It leaves out the hours that go into relearning forgotten material. And it ignores the quality of learning, meaning whether the person can perform and use the knowledge in different ways. Efficient learners aim for high-quality learning, while inefficient learners aim to do more.
 
 ## Three levels of knowing
 
-Pages covered do not say how much has been learned. The useful count is a position on a scale of levels. The scale is this system's own. It is built from published taxonomies of learning outcomes and does not copy either taxonomy word for word.
+Knowledge can be held at several levels of mastery, built from two published taxonomies of learning outcomes, and they fall into three broad bands.
 
-| Level | What it lets you do | How it shows up on a check |
-|---|---|---|
-| Isolated recall | Recite facts and recognise terminology | Flashcards on leftover facts, cover-copy-check |
-| One-idea use | Explain a single concept and solve a simple problem with it | Extended or atypical applications still stall |
-| Relational and evaluative | Hold concepts as a network and handle novel, interrelated problems | The check asks which relations matter; it does not count how many facts remain |
+- Isolated knowing covers the lowest levels. At the bottom, a learner recalls facts and recognizes terms, mostly through repetition. One step up, they can explain single concepts and solve simple problems with them.
+- Connected knowing covers the middle levels. A learner first sees how concepts relate and can compare them. Then they judge which relationships matter most and see how details fit the big picture, so understanding feels simpler and more intuitive. The jump between these two middle levels has a large effect on learning.
+- Creating sits at the top, where a learner uses knowledge to form new hypotheses and conjectures. Formal assessments rarely reach this level before doctoral study.
 
-The first level is built by repetition: flashcards on leftover facts, and cover-copy-check. At the second level a learner can explain a single concept and solve simple problems with it, but extended or atypical applications still stall. That stall separates the second level from the third. At the third level a learner holds concepts as a network and handles novel, interrelated problems. The third level is the target.
-
-The levels are ranked for a reason. Lower-order work produces only lower-order outcomes. Higher-order work produces both lower-order and higher-order outcomes. Both kinds of work are needed. The lower-order repetitions belong as a supplement, and they belong closer to the assessment. A higher level does not mean more relations. Identifying how concepts relate helps moderately. Weighing which of those relations matter is where the encoding deepens.
-
-Connected knowledge is more usable and usually more durable. A well-drilled isolated fact can still outlast a sloppy comparison. So a first-level limiter is still worked on, even though the third level is the long-term target.
-
-The third row of the table holds several levels. [[Higher-Order Learning]] describes them one by one. The full scale from recognition to usable knowledge, level by level, is on [[Knowledge Mastery - From Recognition to Usable Knowledge]].
+Higher levels are integrated, and lower levels stay isolated. Higher-order methods produce both higher- and lower-order results, but lower-order methods produce only lower-order results. It therefore pays to start with higher-order methods and add lower-order ones closer to assessments.
 
 ## Two questions for one week of work
 
-If the measure stops at coverage, the work keeps producing coverage rather than the long-term target. A system measure has to answer two questions, and both are asked of the same week of work.
-
-1. What can still be produced later, at the level the purpose asks for?
-2. What is currently capping everything else?
-
-The second question exists because a week of technique can be improved endlessly, so no absolute standard says when to stop. Enough is always comparative. The comparison is with the other parts of the same system. It is not a comparison with a target level.
+Measuring a week of study comes down to two questions. First, what levels of mastery does the assessment require, from the lowest to the highest? Second, how much does the learner retain at each of those levels one week later? The gap between the two answers shows where the learning falls short.
 
 ## The week-later check
 
-The learner names the highest and the lowest level of performance the assessment actually asks for. About a week later, the learner tries to produce the material at each of those levels and compares the result with what will be demanded. The week is this system's own interval: its spacing cadence already puts a retrieval session about a week out. The check does not produce a percentage, a ratio, or an average.
+The check uses retention after one week, because a well-spaced schedule includes a retrieval session at about that interval, and one-week retention gives a fair forecast of performance at the assessment. The steps are:
 
-The check uses up one study session. It also produces a list of what could not be produced at the higher levels. It is slower and less pleasant than rereading. That is its cost.
+1. Identify the highest and lowest mastery levels the assessment tests.
+2. At each level, measure what percentage is still retained a week later.
+3. Set the retention each level requires for the assessment.
+4. Divide actual retention by required retention at each level to get a partial mastery.
+5. Average the partial masteries across all levels to get total mastery.
+6. Total every hour the subject took, counting both learning and retrieval.
+
+A worked case shows the arithmetic. A second-year economics student is tested from fact recall up to the fourth level. One week after study, retention is 60%, 60%, 50% and 30% across the four levels, against requirements of 80%, 90%, 70% and 60%. The partial masteries are 75%, 67%, 71% and 50%, which average to a total mastery of 66%. With 30 hours spent, efficiency is 66% over 30 hours.
 
 ## What efficient learning means
 
-Efficient learning, as this system defines it, is three conditions met together: reaching the mastery the purpose requires, holding it at each level required, and getting both in less time. That is a direction: retained usable mastery per hour. Pages per hour is not the measure. There is no formula to compute. A home-made quotient is the coverage count with arithmetic added. Efficiency is also relative to the requirement. The same week of work is efficient against one assessment and not efficient against another.
-
-Better encoding causes less forgetting, so less relearning is needed, and total time falls a great deal. Better organisation makes the material mean more, so it needs repeating less often. Once the method caps the level reachable, doubling the hours moves the result very little. More hours help until the work needs something the current method cannot do. At large volumes the forgetting rate is high enough that full retention is never reached, and the shortfall is worst at the higher levels.
-
-The arithmetic behind the efficiency idea has no published validation.
+Efficient learning means reaching the mastery a task needs, holding enough of it at every required level, and getting there quickly. As a ratio, it divides total mastery and retention by the total time spent. An inefficient learner might reach 50% in 100 hours, while an efficient one reaches 90% in 50 hours. Efficient methods with strong deep processing can reach around 90% in 30 hours, while inefficient methods with weak deep processing may reach only about 50% in 100 hours and improve little as hours rise.
 
 ## The part that caps the rest
 
-A rate limiter is the part of the learning process that caps every other part. However good the other parts are, the result cannot rise past the limiter. A learner with strong technique who procrastinates is limited by procrastination. Technique is not the limit in that case. Effort spent on the other parts does not raise the result past the cap.
-
-Work on the limiter next, even when you are not yet sure which part it is. Trying to find it and address it improves the whole process more smoothly than working on other parts first.
-
-The limiting part changes over time. A month from now the cap may be time management instead of mindset, either because time management got worse or because mindset got better. A plateau is the signal that a new limiter has appeared. A plateau can also be a measurement ceiling or a drop in motivation.
-
-Limiters are found by reflection every week or two. That interval is a rule of thumb; it has not been measured as the best interval. Two methods are used in the reflection. [[Marginal Gains]] improves the current limiter by a small named amount and stacks those improvements. [[Kolbs Experiential Cycle]] is the pass done after an attempt: what happened, how it felt and why, what rule that suggests, and what changes next time.
-
-```
-A method is learned.
-It is used on real work.
-The attempt is reflected on.
-The barriers that showed up are named and ranked by how much each caps the rest.
-The top one is the next piece of work.
-```
-
-A self-check in a plateau week that only asks the easy question is the coverage count again in a different form. Searching for a limiter can also become a way to put off the repetitions when those repetitions are the limiter. When the limiter has been named correctly, improvement shows up in parts of the process that were not touched. If two rounds of searching for the limiter change nothing about the next session, the limiter is the one already named, and the next move is the work already named. No trial shows that a reflection loop run every two weeks finds the true constraint.
+The method sets a ceiling. With a limited method, doubling study time from 30 to 60 hours might lift total mastery only from 66% to 76%. Building a house with only a hammer is a fair picture, since more swinging builds more at first, but some jobs cannot be done with a hammer at all. With heavy volumes, forgetting also rises so fast that learners using weak methods never reach full retention, especially at higher levels. Some methods cannot reach the higher levels at all unless the learner has very strong deep processing.
 
 ## When a skill is good enough
 
-A skill is good enough when it is no longer the rate limiter. Techniques can be improved endlessly, so there is no absolute standard to stop at. The count that decides what to improve is the week-later reconstruction together with the name of what is currently capping the rest. Enough is decided by comparison. No standard decides it.
+How efficient a learner needs to be depends on what the task requires. When the required mastery and retention are lower, they can be reached in less time. Comparing one-week retention against the required level at each tier shows when a level is good enough and where effort should go next.
 
 ## How to practice this
 
-1. Name the highest and the lowest level of performance the assessment asks for. About a week after studying, close the book and reconstruct the material at each of those levels. Notice what you can still produce at each level against what will be demanded.
-2. Write down what you could not produce at the higher level. Do not turn the result into a percentage, a ratio, or an average. Notice that the check is slower and less pleasant than rereading; that is its cost.
-3. Next time you reread something until it feels fluent, test it closed-book a week later. Notice the gap between how known it felt and what you can produce.
-4. Every week or two, review the last attempt. Ask what happened, how it felt and why, what rule that suggests, and what changes next time. Name the barriers that showed up and rank them by how much each caps the rest.
-5. Improve the top barrier by a small named amount, even if unsure it is the real limiter. Notice whether parts of the process you did not touch also improve. That improvement is the sign the limiter was named correctly.
-6. If two rounds of this search change nothing about the next session, stop searching. The limiter is the one already named, and the next move is the work already named. Treat a skill as good enough once it is no longer the limiter.
+1. Write down which mastery levels your next assessment tests.
+2. One week after studying, test yourself at each level and record retention.
+3. Divide by the retention you need and average the results.
+4. Track total hours alongside the result, and watch whether extra hours still raise it.
+5. If gains flatten, change the method instead of adding time.
 
 ## Related pages
 
-- [[Marginal Gains|Marginal Gains]]: the practice that the week-later check and the limiter name are the measurement for.
-- [[Metacognition - The Control Layer]]: what to notice while measuring. The week-later check and the limiter name are what to measure.
+- [[wiki/Dimensions/Retrieval/Encoding and Retrieval|Encoding and Retrieval]]: why retention decides how much relearning a learner faces.
+- [[wiki/Dimensions/Deep Processing/Schema|Schema]]: the connected knowledge the higher levels describe.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the dimension hub.
 
 ## Sources
 
-- Goodhart 1975; Campbell 1979: metrics that become targets.
-- Bjork, Dunlosky & Kornell 2013; Dunlosky & Lipko 2007; Koriat 1997: fluency and coverage as poorly calibrated cues to what has been learned.
-- Karpicke, Butler & Roediger 2009: the preference for rereading.
-- Anderson & Krathwohl 2001; Biggs & Collis 1982: the two published taxonomies the levels are built from.
-- Craik & Lockhart 1972; Craik & Tulving 1975: depth of processing and retention.
-- Cepeda et al. 2006; Rawson & Dunlosky 2011: spacing, retrieval practice, and the relearning cost.
-- Goldratt 1984: throughput set by the constraint.
+- iCanStudy, "How do you measure learning efficiency?", Learning Support. Private course notes, paraphrased.
+- iCanStudy, "How do you measure knowledge mastery?", Learning Support. Private course notes, paraphrased.

@@ -13,24 +13,31 @@ tags:
   - personal
   - reflection
   - culture
+wedge_reviewed: false
 ---
 
 # Experiences
 
-A page in this section starts from something that happened to the writer. It keeps the rule that came out of that event. It is not a travel story, and it is not a diary.
+> Not yet reviewed by Wedge.
 
-The section has two notes. [[wiki/Experiences/Taiwan 2020|Taiwan 2020]] is language study and cultural observation in Taiwan from late 2019 into early 2020, including an eight-day side trip to Japan that early COVID disruptions made necessary. [[wiki/Experiences/Red Team Training|Red Team Training]] is a period in the U.S. Army UFMCS Red Team. That page keeps what the period taught about cultural empathy and about breaking groupthink. It does not cover weapons. The same two notes are also in the journal as [[journal/experiences|Experiences]].
+[[wiki/Experiences/Taiwan 2020|Taiwan 2020]] covers a Mandarin-study stay on the island that began near the end of 2019 and ran into 2020, held to a 90-day visa. The original plan was to continue across Asia after the language work. Once COVID began to spread, Hong Kong was closed off early and the wider plan started to fail, so eight days in Japan in February 2020 took the place of part of it. What the stay showed about daily life outlasted the change of plan. Taiwan's metro made getting around the island easy and reliable. Everyday friendliness there sat in a tighter band than in the United States, even though the average was similar.
 
-A new page belongs here when the situation was cultural immersion, professional training, a period of stability or disruption, or a real-world system, and when the page takes a mechanism, a failure mode, or a reusable operating principle from that situation. Handle the event the way a dense source is handled: extract the mechanism, the failure mode, and the operating principle. Personal experience is a different kind of source from theory or from secondhand synthesis.
+[[wiki/Experiences/Red Team Training|Red Team Training]] covers a stretch of US Army coursework at UFMCS, the Army's Red Team school under Training and Doctrine Command. Red teaming, as taught there, tests a plan by hunting for its faults, and for the faults in the group that wrote it, while there is still time to change the plan. Weight fell on cultural empathy, meaning understanding the reasons a different group behaves the way it does, and on stopping a room from agreeing its way into a bad plan. Lessons did not center on weapons or tactics. That method is set out in full on [[wiki/Red Team/Red Teaming|Red Teaming]].
 
-That extraction produces tighter constraints, a more accurate view of the trade-offs, and principles that have already been tested in a real situation. The section does not survey a place. It does not set out a training doctrine.
+The two records also appear in the public journal at [[journal/experiences|Experiences]].
 
 ## Related pages
 
-- [[journal/experiences|Experiences]]: the public journal version of this same section
-- [[wiki/Experiences/Taiwan 2020|Taiwan 2020]]: language study and observations in Taiwan, plus the side trip to Japan that COVID made necessary
+- [[journal/experiences|Experiences]]: the public journal version of these two records
+- [[wiki/Experiences/Taiwan 2020|Taiwan 2020]]: a Mandarin-study stay on the island, and the February stay in Japan after COVID broke up the wider plan
 - [[wiki/Experiences/Red Team Training|Red Team Training]]: cultural empathy and breaking groupthink, from a professional training period
+- [[wiki/Red Team/Red Teaming|Red Teaming]]: the method taught in that course, rebuilt from the handbook
+
+## Open questions
+
+- How does cultural empathy change the questions a group asks about a plan?
+- How does a language-study stay reorganize once COVID begins to spread?
 
 ## Sources
 
-Owner experience. Nothing external.
+- TRADOC G-2 and University of Foreign Military and Cultural Studies, "The Red Team Handbook", Army guide to better decisions. Personal copy, paraphrased.
