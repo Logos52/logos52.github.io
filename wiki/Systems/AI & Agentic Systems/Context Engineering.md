@@ -3,11 +3,11 @@ title: "Context Engineering"
 type: concept
 status: developing
 created: 2026-05-02
-updated: 2026-09-11
+updated: 2026-11-11
 written-by: grok
 model: grok
 source-count: 2
-method: plain-rewrite-2026-09-11
+method: fresh-from-notes-2026-11-11
 prose-model: fable
 aliases:
   - Software 3.0
@@ -24,124 +24,135 @@ tags:
   - prompting
   - knowledge-base
   - obsidian
+wedge_reviewed: false
 ---
 
 # Context Engineering
 
-Context engineering is filling the model's visible window with the right information for the next step, and leaving the rest of the pile out. The window holds written context: instructions, examples, files, and constraints that a model interprets and acts on. Programming a computer with that written context is Software 3.0. Explicit code was the medium of the first era, learned weights the medium of the second, and written context is the medium of the third. At the scale of a small or medium markdown knowledge base, a maintained wiki is where that written context accumulates, and it can stand in for a heavier retrieval stack.
+> Not yet reviewed by Wedge.
+
+<figure>
+<svg viewBox="0 0 520 180" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="ce-two-t">
+<title id="ce-two-t">A model has two kinds of knowledge. What it learned in training is broad but vague and dated, like a hazy memory. What sits in the window is sharp and directly usable, like working memory.</title>
+<rect x="0.5" y="0.5" width="519" height="179" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="230" height="140" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="135" y="44" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">What it learned</text>
+<text x="135" y="64" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">in training</text>
+<text x="135" y="94" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">broad but vague and dated</text>
+<text x="135" y="118" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">like a hazy memory</text>
+<rect x="270" y="20" width="230" height="140" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/>
+<text x="385" y="48" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">What sits in the window</text>
+<text x="385" y="80" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">sharp and directly usable</text>
+<text x="385" y="106" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">like working memory</text>
+</svg>
+</figure>
+
+Context engineering is choosing what goes into a language model's context window, the stretch of text it can see while it works. A model has two kinds of knowledge. What it learned in training is broad but vague and dated, like a hazy memory. What sits in the window is sharp and directly usable, like working memory. Much of programming a model is writing the context a model receives: instructions, examples, documents and results from prior steps. The skill has two sides, putting in what the next step needs and keeping out what would distract it. A maintained wiki takes this further. A model compiles raw sources once into linked pages, and a schema file tells each new session how to work. Every later question then starts from organized knowledge instead of rediscovering it.
 
 ## Core takeaways
 
-- The program is now a piece of text. Explicit code and trained weights still run in the same system as the written context.
-- Context engineering is choosing which text goes into the window for the next step. Too much degrades the step, and too little leaves the model without what it needs.
-- In this vault, `AGENTS.md`, `notes/index.md`, and `log.md` are the program the next session runs.
-- A wiki with raw, wiki, and schema layers acts as agent memory at small-to-medium scale without a RAG stack. The model navigates it by indexes, backlinks, filenames, and search.
-- The window fails in two ways: an over-long window whose middle the model reads less reliably, and a session that sorts inputs instead of using them.
-- The checkable test is that the next action is obvious from what sits in front of the model, and that a middle-of-the-window dump has been refused.
+- The context window works like the model's working memory, and anything in it is directly available.
+- Knowledge from training is a vague recollection, so important facts belong in the window.
+- Irrelevant tokens distract the model and cost more, so start fresh when the topic changes.
+- Now the text you hand an agent is the program.
+- A wiki the model maintains turns raw sources into knowledge that builds up over time.
+- The human still supplies the sources, the questions and the judgment.
 
 ## The program is now written text
 
-What used to be won by exact code is now won by the context put in front of the model. The programming question is now which piece of text to give the agent. A long shell script or a manual setup guide can be replaced by a block of instructions. The agent can look at the machine it is on, change the next command, run it, and fix what breaks. The installer stops being a script that grows with every case it has to handle. It becomes a paste to an agent that can see the machine. That is the shape to recognise when it appears elsewhere.
+Software has gone through three stages. First people wrote explicit code, and then they trained neural networks on curated data. Now a large model trained on broad data acts like a programmable computer, and the program is the prompt. Whatever sits in the context window is the lever over that computer.
 
-A second way to say the same shift: people learned code to talk to machines, and now the machines speak English, fuzzy, sloppy, human English.
-
-The three eras stack. They do not replace each other cleanly. A working system still has explicit code, trained weights, and written context running together. How you keep a quality bar once the medium is context is [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]].
+One example is software installation. A traditional installer is a shell script that grows complicated as it tries to handle every kind of machine. The newer approach is a block of text you paste into your agent. The agent reads your system, follows the instructions, adapts to what it finds and fixes problems as they come up.
 
 ## Filling the window with the right information
 
-Too much material in the window degrades the model's judgment. Too little leaves the model without what it needs. The work is the selection of that material. A better-worded prompt does not do that work.
+A model's training squeezes a huge amount of internet text into its parameters, much like a lossy compressed file. It remembers often-repeated facts better than rare ones, and its knowledge stops at a cutoff date. For anything recent, rare or exact, the reliable move is to put the source into the window. Search tools do this automatically. They fetch web pages and insert their text, so the model answers from that text rather than from memory.
 
-The window on this vault is filled by a short set of files and habits. Those files and habits are instances of the practice. The practice is the selection they carry out.
+Relevant material helps and irrelevant material hurts. Each new chat starts with an empty window, and the window fills as the conversation grows. When you switch topics, starting a fresh chat clears out tokens that no longer help.
 
 ## The files in this vault that program the next session
 
-Three files in this vault are already Software 3.0 artifacts. `AGENTS.md`, `notes/index.md`, and `log.md` program future model behavior through structured context. They are the program the next session runs. Documentation sitting beside the work is a different thing; these files are read as instructions.
+A model-maintained wiki relies on a few files that every new session reads first.
 
-An index is a short catalog the model reads first so it does not scan the whole vault. [[notes/index|notes/index.md]] is read first on a query or an ingest. Operational memory is `log.md`: a dated record of what was done, so the next session does not re-discover it.
-
-The habits around those files are ordinary. Indexes get maintained. Summaries stay compact: the right information, not the whole pile again. Related pages get linked. Source metadata stays attached. Repeated outputs become reusable skills and specs the next session can load, the move [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] already uses. Stale or unsupported claims get audited, because the model treats a wrong sentence in the window as a true one.
+- The schema file sets out how the wiki is structured, which conventions apply, and what to do when adding a source, answering a question or checking the pages. Coding agents read files with names like AGENTS.md for this purpose. The person and the model refine it together over time.
+- The index lists every page with a link and a one-line summary, grouped by type. The model updates it on every ingest and reads it first when answering a question.
+- The log is an append-only record of ingests, queries and checks in date order. With a consistent prefix on each entry, simple command-line tools can read the latest entries.
 
 ## The compiled layer: raw, wiki, schema
 
-The program is now a piece of text. That is faster programming, and it is also information-processing that could not exist before. The example of information-processing that could not exist before is a compiled wiki, rather than a faster look-up of the same facts.
+<figure>
+<svg viewBox="0 0 520 268" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="ce-layers-t">
+<title id="ce-layers-t">A model compiles raw sources once into linked pages, and a schema file tells each new session how to work.</title>
+<rect x="0.5" y="0.5" width="519" height="267" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="480" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="260" y="50" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Raw sources</text><text x="260" y="70" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">the articles, papers and files you collect</text>
+<rect x="20" y="100" width="480" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="260" y="130" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">The wiki</text><text x="260" y="150" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">a folder of markdown pages</text>
+<rect x="20" y="180" width="480" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="260" y="210" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">The schema</text><text x="260" y="230" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">the rules file</text>
+</svg>
+</figure>
 
-Language models can help a body of knowledge compound when they collect, compile, query, audit, and extend durable files such as markdown. The basic pattern is:
+The pattern has three layers.
 
-1. Collect source material in `raw/`.
-2. Compile source material into linked wiki pages.
-3. Use the wiki as context for later questions.
-4. Save useful answers and visual outputs.
-5. Promote durable answers back into the wiki.
-6. Run audits to improve consistency and coverage.
+- Raw sources are the articles, papers and files you collect. They stay unchanged and act as the source of truth.
+- The wiki is a folder of markdown pages that the model writes and maintains, including summaries, topic pages, comparisons and syntheses.
+- The schema is the rules file that turns the model from a general chatbot into a disciplined maintainer.
 
-This vault follows three layers:
-
-- Raw sources: immutable evidence in the `raw/` source lifecycle, especially `raw/inbox/`, `raw/sources/`, `raw/processed/`, and local-only `raw/private/`.
-- Wiki: LLM-owned compiled understanding in `wiki/`.
-- Schema: maintainer instructions in [[AGENTS|AGENTS.md]], supported by [[notes/index|notes/index.md]] and `log.md`.
-
-The purpose of the layers is accumulation. The model should not re-summarize raw sources from scratch for every question. It maintains a current synthesis in the wiki, reads the index first, and answers from that compiled layer.
+Three operations run on these layers. Ingest reads a new source, discusses it, writes a summary and updates related pages, often ten to fifteen pages at once. Query searches the wiki and answers with citations, and a good answer can be saved back as a new page. Lint periodically checks for contradictions, outdated statements, orphan pages and missing links.
 
 ## Why a maintained wiki can stand in for a retrieval stack
 
-At small-to-medium scale, a well-maintained markdown wiki can act as practical agent memory without requiring a complex RAG stack. The model can read indexes, summaries, source notes, and related pages directly, then write improved artifacts back into the repository. The model navigates through four handles: indexes, backlinks, filenames, and search. None of those handles is a license to accumulate. Selection is still the job.
+Most document tools retrieve fragments at question time. The model rebuilds the answer from scratch on every question, and nothing accumulates. A maintained wiki does that synthesis once and keeps it current. Cross-references already exist, contradictions are already flagged, and summaries already reflect everything read so far. At moderate scale, around a hundred sources and a few hundred pages, an index file is enough to find the right pages without embedding search. A local search tool becomes useful as the wiki grows.
 
 ## What a working window feels like
 
-The test is whether the next thinking step has less friction. Workspace, files, instructions, and references should make the next right work more likely without rebuilding the situation from scratch.
+A well-filled window holds the source text the task depends on, the rules for the task and little else. The model then answers from what it can see, cites it and stays on topic. Answers drawn from vague memory sound plausible but cannot be traced. When the window is right, its answers can be checked against the pages that are actually in front of it.
 
-Four signs that the window is doing its job:
-
-- The relevant material is easy to find.
-- Constraints are explicit.
-- The next action is obvious.
-- Judgment is helped, and the volume of material does not degrade it.
+<figure>
+<svg viewBox="0 0 520 144" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="ce-fails-t">
+<title id="ce-fails-t">The skill has two sides, putting in what the next step needs and keeping out what would distract it.</title>
+<rect x="0.5" y="0.5" width="519" height="143" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="230" height="104" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="135" y="50" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Too little</text><text x="135" y="70" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">The needed facts are missing</text><text x="135" y="88" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">a hazy and possibly</text><text x="135" y="106" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">outdated memory</text>
+<rect x="270" y="20" width="230" height="104" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="385" y="50" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Too much</text><text x="385" y="70" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">Old or unrelated tokens</text><text x="385" y="90" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">crowd the window</text>
+</svg>
+</figure>
 
 ## The two failures
 
-Over-long or noisy context degrades the next step. Performance is not monotonic in window length. Models use the start and the end of a long window more reliably than the middle. Filling the window as full as possible feels thorough, and it measures worse. Every tool result is more text the middle can lose.
-
-The second failure is separate from the over-long window. Context work has become a shortcut when it turns into sorting inputs instead of using them to think or build. The checklist becomes chores that postpone the work. A session spent organizing, with no next thinking step, is the signal to stop.
-
-[[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]] spends the same window as the deliberate channel. [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]] is the rival explanation for a "bad model": the window was wrong.
+- Too little. The needed facts are missing, so the model falls back on a hazy and possibly outdated memory.
+- Too much. Old or unrelated tokens crowd the window, distract the model and lower its accuracy. They also make each reply a little slower and more expensive.
 
 ## Where the human still completes the model
 
-Today the human still completes the model. An API key is the example: the model needs one, and only the human can go and get it. As tools expose command lines and text interfaces, the model starts handing instructions back. The split of work between the human and the model is already moving.
+The model does the bookkeeping, which means summarizing, cross-referencing, filing and keeping pages consistent. People abandon wikis because upkeep grows faster than the value. A model does not get bored and can update many files in one pass. The person still chooses the sources, directs the analysis, asks good questions and decides what it all means. Thinking can be handed off, but understanding cannot, because a person who does not understand the work cannot direct it.
 
 ## The price and the checkable test
 
-The price is maintaining the index, the log, and the compact summaries. Reading the index first is a claim about corpora of this scale. It does not hold for every corpus. The checkable test is that the next action is obvious from what sits in front of the model, and that a middle-of-the-window dump has been refused. What is left out of the window makes the next step easier as much as what is put in.
+Tokens are a limited resource, since each one adds a little cost and some risk of distraction. A maintained wiki also takes setup and ongoing ingest work. A simple test shows whether the context is doing its job. Start a fresh session and give it only the schema, the index and the relevant pages. Then see whether it can continue the task without being told things again.
 
 ## How to practice this
 
-1. Read `notes/index.md` before a query or an ingest. Notice that the model does not scan the whole vault.
-2. Write what was done into `log.md`, with the date. Notice that the next session does not re-discover it.
-3. Answer a question from the wiki before re-reading raw sources. Notice that the raw sources did not need re-summarizing.
-4. Replace a long setup script with a block of instructions pasted to an agent that can see the machine. Notice the agent change the next command, run it, and fix what breaks.
-5. Refuse a dump of material into the middle of the window. Notice whether the next action is obvious from what remains.
-6. Stop a session that has been sorting inputs with no next thinking step. Notice that the checklist had become chores postponing the work.
-
-## Related pages
-
-- [[notes/index|notes/index.md]]: read this first on query or ingest
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the hub, and how you keep a quality bar once the medium is context. Its context section holds the same material at less depth
-- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: context as the deliberate channel
-- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]]: rival explanation: bad context, not bad model
-- [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
+- Start a new chat whenever you change topic.
+- For any fact that must be exact or recent, paste the source instead of asking from memory.
+- Write a short rules file for one recurring task and reuse it each session.
+- When a model answer is useful, save it as a page instead of leaving it in chat history.
+- Once a month, ask the model to check your notes for contradictions and orphan pages.
 
 ## Open questions
 
-- What other parts of this repo are best thought of as Software 3.0 instructions, beyond the three files already named?
-- How should prompts, specs, and agent instructions be versioned?
-- What is the minimum metadata schema that remains useful after the wiki grows?
-- What scale requires a search index or RAG layer?
-- How should public summaries cite private or copyrighted raw material?
+- How do I decide which parts of a long project belong in the schema file and which belong in pages?
+- How do I tell when the wiki has grown large enough to need a search tool?
+- How should summaries cite private material that must not be copied?
+- How do I measure whether a fresh session is actually using the context I give it?
 
 ## Sources
 
-- Simon Willison, [Context engineering](https://simonwillison.net/2025/Jun/27/context-engineering/), 2025-06-27. Records the June 2025 public naming.
-- Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, and Percy Liang, "Lost in the Middle: How Language Models Use Long Contexts," *Transactions of the Association for Computational Linguistics* (2023).
-- Andrej Karpathy, [From Vibe Coding to Agentic Engineering](https://www.youtube.com/watch?v=96jN2OCOfLs), Sequoia AI Ascent, 29 April 2026, ~2:28–7:22.
-- Andrej Karpathy, [Software Is Changing (Again)](https://www.ycombinator.com/library/MW-andrej-karpathy-software-is-changing-again), YC AI Startup School, June 2025.
-- [[raw/sources/Andrej Karpathy From Vibe Coding to Agentic Engineering|Andrej Karpathy: From Vibe Coding to Agentic Engineering]]
+- Andrej Karpathy, [llm-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f), GitHub Gist.
+- Andrej Karpathy, [How I use LLMs](https://www.youtube.com/watch?v=EWvNQjAaOHw).
+- Andrej Karpathy, [From Vibe Coding to Agentic Engineering](https://www.youtube.com/watch?v=96jN2OCOfLs), AI Ascent 2026 (Sequoia Capital), 2026-04-29.
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: keeping a quality bar while agents do the work
+- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]]: working with a collaborator that starts fresh each session
+- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: when to let a model think longer
+- [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]: the part that stays with the person
+- [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]: using the wiki to think
