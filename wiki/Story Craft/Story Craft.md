@@ -13,60 +13,76 @@ tags:
   - hub
   - writing
 flag-reason: "cluster held — Story Craft; opener is owner-picked Opus A. Do not promote."
+wedge_reviewed: false
 ---
 
 # Story Craft
 
-This wing is how this project builds a group of people who stay believable across a long story. Two constraints decide every method: a tight word list, and nobody dies. Those constraints are not obstacles the pages work around. Feeling reaches the reader through objects and gestures, because the words for feeling are rationed. Tension comes from what a person can lose short of their life. Some of the group change over the course of the story and some do not. The pages here treat both as things to be built.
+> Not yet reviewed by Wedge.
 
-Start with [[wiki/Story Craft/Story Craft, Condensed|Story Craft, Condensed]] to see the whole section on one page. The other three pages that lay out the section are [[wiki/Story Craft/Arc Types|Arc Types]], which describes five arc types built on one shared structure so the characters in a cast can change in different ways; [[wiki/Story Craft/The Character Web|The Character Web]], which makes each recurring character a distinct answer to one controlling question; and [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]], which uses the word list as a reveal schedule.
+A character's first appearance can work as a template, a pattern later scenes will repeat and vary, rather than as a single memorable beat. The opening of the first Pirates of the Caribbean film does this in a couple of minutes. It builds Jack Sparrow as a grand captain and then shows a sinking dinghy, and the gap between how he presents himself and what is actually there drives the rest of the film. A fixed list that scores a character trait by trait, present or absent, is hard to charm, because every mark has to point at something visible. That same list misses a choice that shows up only as something the person could have done and did not, so a complete-looking score can leave the most important beat unrecorded. A burnout story has no villain. A character's love becomes a job, the pleasure goes, and their own skill fails, with Kiki's Delivery Service as the model. Recovery comes through rest a friend offers and through a reason for the work that belongs to the character, and the world around them is kind enough that the struggle can stay inside one person.
 
-Check your characters for problems while you write. [[wiki/Story Craft/Diagnosing a Character|Diagnosing a Character]] turns the section's methods into an audit of eleven checks. Read [[wiki/Story Craft/Reading Frames and What They Hide|Reading Frames and What They Hide]] with it. A checklist that catches bad behaviour can miss a character's decision to hold back, because that decision is visible only as an action the character could have taken and did not take.
+Around those methods sit pages for building a cast that remains believable through a long story. A fixed word list becomes a schedule for what gets revealed in [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]], so a complete arc can run before the reader has words for feelings. Tension in [[wiki/Story Craft/Stakes Without Mortality|Stakes Without Mortality]] comes from a loss that is not a death. [[wiki/Story Craft/Story Craft, Condensed|Story Craft, Condensed]] gathers the methods on one page, and [[wiki/Story Craft/Diagnosing a Character|Diagnosing a Character]] turns them into an audit of eleven checks. Beside that audit, [[wiki/Story Craft/Reading Frames and What They Hide|Reading Frames and What They Hide]] shows how a list that catches visible harm can still file a refusal as nothing having happened.
 
 ## Character & Interiority
 
-- [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] describes a sequence: a past wound causes a false belief, the false belief produces a want the character is aware of, and that want conflicts with a need the character is not aware of. A character seems like a real person when this sequence causes a choice the reader can see the character make under pressure.
-- [[wiki/Story Craft/Round Characters and the Telling Detail|Round Characters and the Telling Detail]] says a character seems like a real person when one internal contradiction determines a visible choice under pressure, and the reader can name the contradiction from what the character does.
-- [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] shows a character's thoughts and feelings through the changing state of an object and through gestures the reader can see.
-- [[wiki/Story Craft/Character Voice|Character Voice]] lets the reader tell who is speaking a line before the dialogue tag, because each character responds to the same pressure in a different default register. The register is how the character's wound shows in speech, and it is a way to show inner life that still works under a strict vocabulary limit.
+- [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] follows one chain, in which a past event installs a false belief, the belief produces a goal the character can name, and that goal blocks an inner truth. The chain starts working only when it bends a decision the reader can watch, under pressure, at a cost to the person making it.
+- [[wiki/Story Craft/Round Characters and the Telling Detail|Round Characters and the Telling Detail]] builds a person from one interior contradiction that is actually spent, changing a visible act at a moment that costs the person. A telling detail carries that contradiction, and watching should be enough to name it.
+- [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] brings a reader all the way to a feeling with no feeling-word, through a belonging that changes state and a gesture at the peak of the feeling.
+- [[wiki/Story Craft/Character Voice|Character Voice]] lets the reader name the speaker of a line before the tag arrives. The work is done by the register a person defaults to under the same pressure, and by the subject they route around every time.
+- [[wiki/Story Craft/The Character Blueprint|The Character Blueprint]] loads a first appearance in two moves. The impressive half plays straight, then what is actually there punctures it, so later scenes can run on the distance between those halves.
+- [[wiki/Story Craft/The Rogue's Code|The Rogue's Code]] is the set of bans a thief keeps. It names people, methods, or claims that remain off limits, and it offers no statement of what the theft is for.
 
 ## Arcs: Decline and Recovery
 
-- [[wiki/Story Craft/Arc Types|Arc Types]] puts five arc types on one shared structure, with each arc's type decided at its crux, so the characters in a cast can follow different arcs and no character dies.
-- [[wiki/Story Craft/The Change Arc|The Change Arc]] presents positive change as a conflict inside the character, and the character's external costs rise as the conflict goes on. The arc ends at the Moment of Truth, when the character gives up the Want and chooses the Need.
-- [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]] says catharsis happens only if the reader first believes the character can no longer become the person the story set up, and the catharsis comes through a recognition that the reader can name.
-- [[wiki/Story Craft/The Moral Core|The Moral Core]] is the short list of laws a character will accept a cost to keep. The events of the arcs create the core and also test it. A law counts only when events in the story put a cost on keeping it.
-- [[wiki/Story Craft/The Burnout Arc|The Burnout Arc]] has no villain. The character's talent stops working because the character has too little joy, and the repair also comes from the character. A visible measure of the character's state stays in the story. The world around the character is kind enough to give a chance to come back, and the character still has to do the coming back.
+- [[wiki/Story Craft/Arc Types|Arc Types]] decides type at the crux, the moment when an old self-picture and a newly seen truth cannot both stand. Five shapes share the same underlying parts and split only in that last act, which lets people in one group follow different shapes.
+- [[wiki/Story Craft/The Change Arc|The Change Arc]] is a person arguing with themselves. It starts from a false belief that makes one goal look like the fix, and it ends only when they surrender something visible so something real can be kept.
+- [[wiki/Story Craft/The Low Point and Catharsis|The Low Point and Catharsis]] is the place where the person the story promised no longer looks possible. Catharsis is the release that follows, sized by how thoroughly that chance seemed gone, in a recognition a reader can point to.
+- [[wiki/Story Craft/The Moral Core|The Moral Core]] is the few laws a person will accept a real price to keep. Something in their past put each law there, and later events charge a price for holding it.
+- [[wiki/Story Craft/The Burnout Arc|The Burnout Arc]] has no antagonist. Capacity itself fails, made visible in a skill that tracks the inner state, and a kind world makes a return believable by offering rest while the character still does the coming back.
 
 ## Ensemble Design
 
-- [[wiki/Story Craft/The Character Web|The Character Web]] makes each recurring character a distinct answer to one controlling question, an answer that can be defended, so the conflicts between the characters work through one theme.
-- [[wiki/Story Craft/Foils and Pairings|Foils and Pairings]] are pairs of characters who have something in common and use different methods. One scene develops the relationship and reveals the characters at the same time.
-- [[wiki/Story Craft/Spotlight Rotation|Spotlight Rotation]] uses A/B/C story lines plus a ledger that records which characters were in focus and which were in the background within a set span of the story.
-- [[wiki/Story Craft/Companion Arcs and Party Banter|Companion Arcs and Party Banter]] says a crisis affects the reader only if the trait that sets it off was shown earlier in quiet scenes the reader spent with the characters, and one closing beat was set up in advance.
+- [[wiki/Story Craft/The Character Web|The Character Web]] designs a cast together, around one question, with each person built as a different answer. Meaning comes from the collisions between those answers rather than from any one person's speech.
+- [[wiki/Story Craft/Foils and Pairings|Foils and Pairings]] puts two people next to each other who share a problem and take opposite routes, so each reveals the other, and one scene does two jobs.
+- [[wiki/Story Craft/Spotlight Rotation|Spotlight Rotation]] schedules a large cast across a stretch of episodes by keeping a ledger. Each returning person must appear once doing something well and once paying a price. Equal minutes are not the aim.
+- [[wiki/Story Craft/Companion Arcs and Party Banter|Companion Arcs and Party Banter]] buys one closing beat ahead of time. The beat uses a habit the reader has already lived with in calm scenes, so the later crisis has weight.
 
 ## Theme & the Controlling Idea
 
-- [[wiki/Story Craft/Premise and Controlling Idea|Premise and Controlling Idea]] has every arc test one causal proposition from a different position. The story shows whether the proposition holds by which value wins in the events, and no character states it in a speech.
-- [[wiki/Story Craft/Motif and Symbol|Motif and Symbol]] says a motif carries more meaning when it appears again in a tense scene than when it first appeared in an ordinary scene, and no line of the text states that meaning outright.
-- [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] says a setup that pays off long after it appears stays in the reader's memory only if it is attached to a concrete object that appears repeatedly, and the payoff happens when a character acts on a value the character holds. Keeping a record of setups comes first, and inspiration comes second.
-- [[wiki/Story Craft/Stakes Without Mortality|Stakes Without Mortality]] threatens something a character values. The stakes come from the gap between what the character expects and what happens, and no character's life is threatened.
+- [[wiki/Story Craft/Premise and Controlling Idea|Premise and Controlling Idea]] sets out one sentence that names a trait leading to an end, for the story to prove. The proof is which value wins at the climax, and no character states that sentence in a speech.
+- [[wiki/Story Craft/Motif and Symbol|Motif and Symbol]] lets a concrete element return in a harder scene than its first appearance. The text never announces the meaning, because an announced meaning stops the reader from doing the work.
+- [[wiki/Story Craft/Seeding and Payoff|Seeding and Payoff]] shows something early and leaves it unused on purpose. It stays in memory when it is a real object seen more than once, and the craft is mostly tracking the plants and what each is due.
+- [[wiki/Story Craft/Stakes Without Mortality|Stakes Without Mortality]] first makes the reader value something particular that can be lost, then puts that thing at real risk. Raising the pressure means going further into the loss, not making more noise, and a death is never the threat.
 
 ## Serialized Structure
 
-- [[wiki/Story Craft/Tonal Modulation|Tonal Modulation]] says a heavy scene affects the reader in proportion to the lighter scenes around it. It places lighter scenes in the sequence and never puts three heavy readings in a row.
-- [[wiki/Story Craft/Breaking the Story|Breaking the Story]] decides what happens, in what order, and to whom, and finishes that decision before anyone writes pages.
-- [[wiki/Story Craft/Structure for the Ear|Structure for the Ear]] builds the story from sounds that carry information, because in a recording the listener knows a character is present only while that character speaks or is named.
+- [[wiki/Story Craft/Tonal Modulation|Tonal Modulation]] orders warm, comic, tender and heavy stretches so one tone never plays long enough to go numb. A single scene may be as heavy as needed, but a run of three heavy ones wastes the third on a reader who is already spent.
+- [[wiki/Story Craft/Breaking the Story|Breaking the Story]] settles events, sequence, and who takes part, on cards rather than in prose, and locks that before draft pages begin.
+- [[wiki/Story Craft/The Beat Board|The Beat Board]] lays the story out as one event per card, written down to a line, so sequence becomes an experiment rather than a position to protect.
+- [[wiki/Story Craft/Structure for the Ear|Structure for the Ear]] builds a story when the listener has only sound. Presence lasts only while the person speaks, or while someone else says their name, and in every other moment they are gone from the recording.
 
 ## Worldbuilding for Character
 
-- [[wiki/Story Craft/Setting as Character|Setting as Character]] treats a setting as something that pushes characters in a direction, shown through habits the characters act out, without explanation from the narrator.
-- [[wiki/Story Craft/The Iceberg and World as Pressure|The Iceberg and World as Pressure]] says a world belongs in the story only if it puts pressure on the characters, through what the story leaves out and through hard limits, and never through explanation or power.
+- [[wiki/Story Craft/Setting as Character|Setting as Character]] treats a place as something that pushes on what its people may want, may do, and may say. The reader feels that push through action, not through a tour of the scenery.
+- [[wiki/Story Craft/The Iceberg and World as Pressure|The Iceberg and World as Pressure]] produces that pressure in two ways. Most of the built world never reaches the page, and interest comes from limits and costs, not from what the world can do. Explaining spends both.
 
 ## Story Under a Vocabulary Ceiling
 
-[[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] uses the vocabulary limit as a reveal schedule. A full arc can be staged with 250 characters. The story shows more of a character's inner life as more of the language becomes available to the reader, and the limit is used as a tool for telling the story.
+[[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] uses the word-list limit as a reveal schedule. A want and a failed getting of it can be written with no feeling-words, so a whole arc fits in the opening few hundred words of the list. A person seeks a thing, goes after it, and receives something else. Inner life arrives as the list grows, and the two clocks can line up.
+
+## Open questions
+
+- How does a first appearance set a pattern that later scenes can repeat?
+- How does a present-or-absent list miss a choice a character refuses to make?
+- How does a kind world keep a burnout struggle inside one person?
 
 ## Sources
 
-A hub cites no external sources.
+- From The Screen, "You don't realize how genius Jack Sparrow's introduction is", YouTube, 2026.
+- Cinema Therapy, "Psychology of an Anti-Hero: JACK SPARROW", YouTube, 2023.
+- Cinema Therapy, "Therapist Reacts to KIKI'S DELIVERY SERVICE", 2023-10-17. https://www.youtube.com/watch?v=L9H8f_DkyJ8
+- The Soak, "Why Ghibli Succeeds Where Disney Fails", 2024-12-29. https://www.youtube.com/watch?v=4xUaZ9Vr-Cg
+- Movie Notepad, "Mental Health & Burnout in Studio Ghibli's 'Kiki's Delivery Service' - A Video Essay & Love Letter", 2023-04-15. https://www.youtube.com/watch?v=2vursPai-go
+- Solly, "How Kiki's Delivery Service Portrays Modernity PERFECTLY", 2023-05-18. https://www.youtube.com/watch?v=lIVw1MMUln8
+- TimJongUn Productions, "Kiki's Delivery Service Will Always Be an Inspiration", 2023-06-14. https://www.youtube.com/watch?v=1PMGs6fbYaY

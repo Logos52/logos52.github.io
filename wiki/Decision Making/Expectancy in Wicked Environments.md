@@ -3,8 +3,8 @@ title: "Expectancy in Wicked Environments"
 type: model
 status: seed
 created: 2026-06-11
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
 prose-model: fable
 written-by: grok
 model: grok
@@ -15,86 +15,75 @@ tags:
   - estimation
   - expected-value
   - uncertainty
+wedge_reviewed: false
 ---
 
 # Expectancy in Wicked Environments
 
-Expectancy is the chance of the good outcome times its size, minus the chance of the bad outcome times its size. The sign of the result says whether a bet is worth taking. The exact calculation needs published odds: a setting that states what winning and losing mean, so that chances and sizes can be measured. The choices that matter almost never publish them.
+> Not yet reviewed by Wedge.
 
-A usable estimate still exists inside almost any messy choice. The method for getting it has three steps. Remove every small outcome. Compare only the largest outcomes that remain. Rate those in bands: for size, from imperative down to insignificant; for chance, from guaranteed down to low. Combining the size band with the chance band for each remaining outcome is the whole calculation, and it is small enough for a person to work out mentally.
+Expectancy is the chance of a good outcome times its size, minus the chance of a bad outcome times its size, and a decision with positive expectancy is worth taking. The calculation works cleanly in kind environments such as games, where the rules for winning and losing are clear. Most of life is a wicked environment, with unclear win conditions and too many variables for an exact calculation. Expectancy still works there once the decision is simplified in three steps. First drop the small variables, then weigh only the biggest upsides and downsides, then rate chance and size in broad categories instead of exact percentages. Good information makes the simplification safe, and lowering the biggest downside can turn a bad bet into a good one.
 
 ## Core takeaways
 
-- Expectancy is the chance of the good outcome times its size, minus the chance of the bad outcome times its size. A positive result means the bet is worth repeating, and a negative result means the bet should be refused.
-- The exact calculation needs a setting that publishes what winning and losing mean. Chess and golf do this. Most real choices do not.
-- For a choice without published odds, remove every small outcome, compare only the few largest positives and negatives, and rate those in broad bands of size and chance.
-- Search for outcomes before removing any. The main danger is removing a major downside that was never noticed.
-- To improve the biggest downside, lower its chance or lower its size. Either change alone can turn the sign from negative to positive.
-- A band assigned before the information search is a guess. Where real statistics and explicit win conditions exist, use exact arithmetic there instead of bands.
+- Expectancy is the chance of a good outcome times its size, minus the chance of a bad outcome times its size, and a decision with positive expectancy is worth taking.
+- The calculation works cleanly where the rules for winning and losing are clear, as in many games. Most of life is a wicked environment, with unclear win conditions and too many variables for an exact calculation.
+- For a choice without published odds, drop the small variables, weigh only the biggest upsides and downsides, and rate chance and size in broad categories.
+- Dropping variables is only safe after a thorough search for outcomes, so a major downside is not missed.
+- Lowering the biggest downside, in chance or in size, can turn a bad bet into a good one.
+- When a choice has published odds and clear win conditions, use the exact calculation rather than broad categories.
 
 ## The calculation when the odds are known
 
-A game that publishes its rules allows the arithmetic to be done with known numbers. Multiply the chance of the good outcome by its size. Multiply the chance of the bad outcome by its size. Subtract the second from the first and read the sign. A positive sign means the bet is worth repeating. A negative sign means the bet should be refused.
-
-An example with published odds: win $10 at 75 percent, lose $50 at 25 percent, over one hundred rounds. The wins add to $750. The losses add to $1,250. Expectancy is −$500. Do not play. Now shrink the loss to $20 and keep the same odds. The wins are still $750 and the losses are $500, so expectancy is +$250. The chance on each side did not change. Only the size of the loss changed, and that was enough to change the sign. The sign depends on chance and size on each side.
+A simple money game shows the calculation. Suppose a player wins $10 with a 75% chance and loses $50 with a 25% chance. Over 100 games they win 75 times for $750 and lose 25 times for $1,250, so the game loses $500 overall and has negative expectancy. Change the loss to $20 and the 25 losses cost $500, leaving a gain of $250 and a positive expectancy. A player with positive expectancy can lose the first round and still come out ahead by playing many times.
 
 ## Why most choices do not allow the calculation
 
-That arithmetic assumes a setting that publishes what winning and losing mean, so that chances and sizes can be measured. Chess and golf do this. Some other scored games do too. The looser claim that "most sports" do so holds less well once judging, weather, and opponents affect the result.
-
-Outside such games, those numbers are not published. The win and the loss are both undefined. Sometimes every available outcome is a loss, and the choice is the less bad one. There are more variables than a person can multiply mentally. No one computes expectancy over a list like that, and waiting for the perfect calculation means never deciding.
+Real choices rarely come with odds attached. In a kind environment, as in chess, golf and most sports, the rules for winning and losing are clear. In a wicked environment it is unclear how to win, how to lose or what winning means, and sometimes the best available result is just a smaller loss. Most of life is wicked in this sense. It holds so many variables that no person can weigh them all, so an exact expectancy calculation is out of reach and a perfect decision is not realistic.
 
 ## Three steps for a choice without published odds
 
-Using three steps, a person reduces a choice of that kind until the game arithmetic applies again.
+The framework still helps once the decision is cut down to a size a person can handle.
 
-First, remove the small outcomes. Any outcome that is low in chance, low in size, or both comes off the list. So does any outcome that is guaranteed but too insignificant to matter. Almost all of any long list is this kind of outcome. Small positives and small negatives roughly cancel each other. Any small outcome that does not cancel can be handled when it happens. Counting how many outcomes were removed adds nothing.
-
-Second, compare only the largest outcomes. After the first step, judge the few most significant positives against the few most significant negatives. The choice is now small enough to fit the chance-times-size comparison.
-
-Third, rate the remaining outcomes in broad bands. Giving a rating like 78 percent against 79.3 percent is false precision, and false precision is the main way this step fails. Size has four bands: imperative, significant, convenient, insignificant. For a risk, imperative means unacceptable. Chance has four bands: guaranteed, very high, somewhat, low. Combining the size band with the chance band for each remaining outcome is the whole calculation.
+1. Drop the small variables. Of the thousands of possible good and bad outcomes, nearly all are small in both chance and size. Minor gains and minor losses tend to offset each other, and whatever is left can be handled when it comes up. Even an outcome that is certain can be ignored if it does not matter much.
+2. Weigh only the most significant upsides and downsides. With the noise gone, the decision rests on a few variables that fit into the expectancy calculation.
+3. Rate in broad categories. Chances rarely need to be pinned to 78% or 79.3%. Size can be rated as imperative, significant, convenient or insignificant, where an imperative risk is one that cannot be accepted. Chance can be rated as guaranteed, very high, moderate or low.
 
 ## Search for outcomes before removing any
 
-The search for outcomes comes before any removal. The danger is removing a major downside that was never noticed. A thorough information search goes first, so that no one can drop a harm they never listed. The faster that search runs, the less a good decision costs.
+Dropping variables is only safe if the big ones have been found first. The danger is missing a major downside because nobody thought of it or because information was lacking. Fast, thorough information gathering is therefore what makes the simplification safe, and better and faster gathering leads directly to better decisions.
 
 ## Lower the biggest downside
 
-After the search, work on the biggest downside. Lower its chance or lower its size. Either change alone can change the sign. In the example above, cutting the $50 loss to $20 was a change in size. Cutting a 25 percent chance to 5 percent is a change in chance. Do the same in the other direction for the biggest upside: raise its chance or raise its size.
+Once the main downsides are known, they can often be shrunk. In the money game, cutting the chance of losing from 25% to 5%, or cutting the loss from $50 to $20, flips the expectancy from negative to positive. The same move applies to real choices, alongside learning more about the upside, both how likely it is and how large it would be. A significant downside that cannot be protected to an acceptable level means the answer is no.
 
 ## When a rating is a guess
 
-A rating is only as good as the information behind it. A band assigned after an extensive search is an informed estimate. The same band assigned without a search is a guess with a rating label on it. A band assigned before the search is the signal to stop.
-
-The estimate will sometimes be wrong. Making the estimate is still worth doing. Running a complex choice through these steps produces better decisions on average than skipping them. That claim is the reason to run the steps. It is not a measured trial of these four size labels or these four chance labels.
+A fair objection is that the whole method ends in a subjective rating that may be wrong. Two answers meet it. The rating is not a random guess, because it comes after a careful search for good information. And running a decision through the framework at all has positive expectancy, since people who do it make better decisions on average than people who do not.
 
 ## When to go back to exact arithmetic
 
-Where part of a choice has real statistics and explicit win conditions, stop using bands for that part and do the exact arithmetic. [[Positional Decisions and Expected Value]] covers the position-improving move and the downside protection across repeats. That calculation stays in bands until real statistics and explicit win conditions appear.
-
-At the end of the three steps, either the remaining outcomes fit the chance-times-size comparison, or a part with real odds appeared and the bands were dropped there. In both cases the estimate is one a person can actually run. Do not give a rating finer than the setting allows.
+The three-step method is for wicked environments, where win conditions are unclear and an exact calculation is out of reach. When a choice has published odds and clear rules for winning and losing, as a kind environment does, the exact calculation is the one to use.
 
 ## How to practice this
 
-1. Before deciding, list every outcome of the choice you can find, good and bad. Run this search quickly but thoroughly. Notice whether a large downside appears that you had not thought of.
-2. Remove every outcome that is low in chance, low in size, or both. Also remove guaranteed outcomes too small to matter. Notice that almost all of the list is gone.
-3. Set the few largest positives against the few largest negatives. Notice that the choice is now small enough to hold in your head.
-4. Rate each remaining outcome's size as imperative, significant, convenient, or insignificant. Rate its chance as guaranteed, very high, somewhat, or low. Notice any wish to give a finer number such as 78 percent, which is false precision.
-5. Take the biggest remaining downside and find a way to lower its chance or its size. Notice whether that one change flips the sign, as cutting the $50 loss to $20 did.
-6. Check that every band was assigned after the search, not before. A band assigned before the search is a guess. Where real statistics and explicit win conditions exist, drop the bands there and compute the exact number.
+- Before a messy choice, list the outcomes you can find, good and bad, and notice whether a large downside appears that you had missed.
+- Drop the outcomes that are small in chance, small in size, or both, then rate the few that remain in broad categories of size and chance.
+- Ask whether the biggest downside can be shrunk in chance or in size, and whether any part of the choice has published odds that should be calculated exactly.
 
 ## Related pages
 
-- [[Positional Decisions and Expected Value]]: the position-improving move and downside protection across repeats. That calculation stays in bands until real odds appear.
-- [[Decision Making]]: the hub's operating loop, with its variable-naming and downside steps. The three steps above fit into those steps.
-- [[wiki/Decision Making/Judging a Decision by Its Process|judging a decision by its process]]: process versus outcome, after the estimate is made.
+- [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]: expected value, judged by the position each choice puts a person in.
+- [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]]: judging a choice by the thinking that produced it, not the outcome.
+- [[wiki/Decision Making/Decision Making|Decision Making]]: the hub for these pages.
 
 ## Open questions
 
-When a band stays "I don't know" after the information search, is the next move delay or a no?
+- How does a person check that the variables they dropped were really small?
+- How do broad chance categories hold up when a decision is reviewed afterward?
+- How does someone tell a kind environment from a wicked one before deciding?
 
 ## Sources
 
-- Expected value as definitional: chance of the good times its size, minus chance of the bad times its size. Any finite-sample bet.
-- Tetlock / superforecasting craft: coarse, calibrated probabilities do better than falsely fine ones for many tasks. Bound: not a trial of *these* four size labels or *these* four chance labels.
-- Hogarth, Lejarraga & Soyer 2015, *Current Directions in Psychological Science*: a kind learning environment is one whose feedback is accurate, plentiful, and tightly linked to the action; a wicked one has missing, delayed, or misleading feedback. Bound only: that paper measures feedback quality. The wicked environment described above is one where the odds are not published and the win is not defined.
+- iCanStudy, "Applying Theory to Reality", Higher ground decision-making. Private course notes, paraphrased.
+- iCanStudy, "Protecting Your Biggest Downsides", Higher ground decision-making. Private course notes, paraphrased.
