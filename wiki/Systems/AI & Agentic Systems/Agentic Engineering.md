@@ -3,8 +3,8 @@ title: "Agentic Engineering"
 type: hub
 status: developing
 created: 2026-05-02
-updated: 2026-09-22
-method: plain-register-2026-09-13
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
 prose-model: opus
 written-by: grok
 model: grok
@@ -17,135 +17,96 @@ tags:
   - software-3
   - ai-workflows
   - agentic-engineering
+wedge_reviewed: false
 ---
 
 # Agentic Engineering
 
-In agentic engineering, the person stays answerable for ordinary work that agents now build, and that work has to meet the same standard as before. Agents produce more than a person can read line by line. So the evidence that the work is good comes from checks the person built and from consequences the person signs for. The person still owns the spec, taste, architecture, review, verification, and direction. That effort goes into the factory, meaning the reusable machinery that ships the next pieces of work, and not into reading every file. The one-line versions of these rules are on [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]].
+> Not yet reviewed by Wedge.
+
+Agentic engineering is building software with AI agents while holding the work to the professional standard that applied before agents. Vibe coding lets almost anyone produce software. Agentic engineering asks how to go faster without letting quality, security or responsibility slip. The agents are powerful but uneven. They do well where answers can be checked, such as code and math, and stumble on simple common sense. So the person keeps the parts agents handle badly: the spec, the design, the taste and the oversight. Agents fill in the details. What the person cannot hand off is understanding, because directing the work well depends on knowing what is being built and why.
+
+<figure>
+<svg viewBox="0 0 520 224" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="ae-split-t">
+<title id="ae-split-t">So the person keeps the parts agents handle badly: the spec, the design, the taste and the oversight. Agents fill in the details.</title>
+<rect x="0.5" y="0.5" width="519" height="223" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="190" height="122" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="115" y="86" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Agents fill in the details</text>
+<rect x="224" y="20" width="276" height="122" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="362" y="50" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">the person keeps</text>
+<rect x="244" y="64" width="81.76" height="26" rx="13.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="284.88" y="81.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">the spec</text>
+<rect x="333.76" y="64" width="95.2" height="26" rx="13.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="381.36" y="81.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">the design</text>
+<rect x="244" y="98" width="88.48" height="26" rx="13.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="288.24" y="115.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">the taste</text>
+<rect x="340.48" y="98" width="115.36" height="26" rx="13.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="398.16" y="115.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">the oversight</text>
+<rect x="20" y="156" width="480" height="48" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/><text x="260" y="186" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">What the person cannot hand off is understanding</text>
+</svg>
+</figure>
 
 ## What the collaborator is
 
-More people can now build software at all, by describing a result in ordinary language and judging it by whether it runs. Agentic engineering raises the quality that skilled builders can reach. People who already know what good looks like keep correctness, security, architecture, taste, and responsibility in their own hands, and they use agents to work faster while holding that standard.
+An agent is closer to a capable intern than to a colleague. It recalls details very well and can carry out large tasks, yet it makes mistakes no experienced engineer would. One builder found an agent linking customer payments to accounts by matching email addresses across two services. A user could pay with one address and sign in with another, so the credits would never attach. The fix was a single unique user ID, the kind of design call the person has to own.
 
-Agents do not get tired. They can recall a very large amount, and they carry out steps quickly. Their judgment is jagged, meaning uneven: they do some tasks extremely well and do closely related tasks very badly, and there is no reliable way to tell from outside which kind a task will be. Doing well in one area does not predict doing well in the next.
+<figure>
+<svg viewBox="0 0 520 144" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="ae-jagged-t">
+<title id="ae-jagged-t">The capability is jagged. Models are trained heavily on tasks whose results can be checked automatically, so they peak in those areas and lag elsewhere.</title>
+<rect x="0.5" y="0.5" width="519" height="143" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="230" height="104" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="135" y="50" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">do well where answers</text><text x="135" y="70" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">can be checked</text><text x="135" y="88" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">such as code and math</text>
+<rect x="270" y="20" width="230" height="104" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/><text x="385" y="50" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">stumble on simple</text><text x="385" y="70" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">common sense</text><text x="385" y="88" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">advise walking to a car wash</text><text x="385" y="106" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">50 meters away</text>
+</svg>
+</figure>
 
-They handle API details, boilerplate, refactors (including a 100,000-line class), shell commands, file edits, first-pass debugging, and repetitive implementation. They are much weaker at taste, architecture, identity, product judgment, security boundaries, unstated assumptions, and knowing when a local solution violates a larger system. Here is a real case of the last two. An agent building a payments flow once tried to associate purchased credits with a user by matching a payment-provider email address against a login-provider email address, because no persistent user id existed. The two email addresses can be anything, so they need not match. In that one piece of code, the local match "worked." It was still wrong for the larger system.
+The capability is jagged. Models are trained heavily on tasks whose results can be checked automatically, so they peak in those areas and lag elsewhere. A current model can refactor a large codebase, then advise walking to a car wash 50 meters away when the point is to bring the car. Strength also depends on what the labs chose to train on. One model's chess improved sharply because more chess data went into training, not because it reasoned better overall.
 
-Agentic engineering uses agents for speed, keeps humans in charge of direction, makes specs more explicit, checks outputs against real results, and learns the layer beneath the new abstraction. Agents handle syntax and individual steps. The person decides what each tool is for, and settles that purpose before implementation starts. [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]] describes how to route work for this: cheap work goes to cheap models, and budget and verification go to building the steps.
-
-Because code arrives quickly, the work can look like a problem of execution. The step that usually limits results more is the approach layer, which is the part of a job that happens before any code is written: context, ownership, constraints, acceptance criteria, verification, and taste. The gain comes from framing the job better, in addition to asking the agent faster. [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] explains how this works. Seven concrete moves put it into practice: turn a vague feature into acceptance criteria; ask one agent to implement and another to review; compare two outputs for judgment quality; rewrite instructions after a failed run; test the same workflow on a small problem and then a larger one; explain architecture before touching code; turn a failed build into a workflow change.
+These systems are statistical, not animal. Pressure or frustration does not change how they perform. The useful stance is steady suspicion, learning by use which tasks fall inside their strengths and which fall outside.
 
 ## Spec, standard, layer below, bounded jobs
 
-**Agent-written work meets the same standard as human-written work.** Security vulnerabilities, architecture that breaks easily, badly organized abstractions, broken tests, privacy leaks, and unclear behavior are not acceptable just because the agent produced the work quickly.
+The person owns the spec. That means working with the agent on a detailed plan, close to full documentation, and then letting the agent write the code. The person stays in charge of the top-level structure and the review.
 
-The practical checks are ordinary ones: run the build and the tests, inspect the diff, look for unrelated edits, and review what the code does instead of the agent's explanation of it. [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] supplies what this review was missing, which is how much time to give it: short review passes of thirty seconds, three minutes, or thirty minutes, instead of accepting output without looking or inspecting it without end. The same fault shows up in another form: stating verified and unverified claims with the same confidence.
+The standard does not drop. Agentic engineering still forbids shipping security holes, and the engineer still answers for the software. The difference is pace, and the goal is to raise it without lowering the bar.
 
-The spec is a document that stays in use after the session ends. It says what is being built, what must not change, which existing patterns to follow, which edge cases matter, and how the result will be checked. Planning as a routine, in which a human writes out the route by hand, moves to the model. Planning as a spec stays. The spec is designed jointly, and is not handed down finished. When the deeper design is not specified, the agent makes up a design of its own to cover it, as the agent in the payments flow made up the email match. The best specs become documentation. They guide the agent and the human review, and they stay useful after the session ends.
+The layer underneath still matters. A person can forget exact API details, since the agent remembers them. Yet they still need to understand what the code does underneath, for instance whether an operation copies memory or reuses it. Without that, they cannot spot when the agent picks the wasteful path.
 
-Abstractions leak. A simplification usually hides the complicated layer underneath it, but sometimes a problem from that layer shows through, and then the person has to understand the hidden layer. Agents are a new abstraction. Operators who stay useful still understand one layer below it, meaning the level the abstraction is built on. If the agent writes a component UI, that layer is components, state, routing, rendering, and CSS, and the person needs to know it well enough to spot bad structure. If the agent writes backend code, that layer is data models, auth, caching, latency, and failure modes. If the agent uses a shell, that layer is files, processes, package managers, and logs. The person needs to understand the system, and remembering the API syntax can be left to the agent. [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] states the original form of the claim that faster work still needs someone to set its direction.
-
-Agents work best on bounded jobs. The number practitioners give is three to twenty steps. Large projects still get done, broken into pieces small enough to review.
-
-| Good delegation | Weak delegation |
-|---|---|
-| Update this one page from these sources. | Make this better. |
-| Find privacy leaks matching these strings. | Refactor everything. |
-| Add tests for this function. | Improve the architecture. |
-| Explain this failing build log. | Research this whole field and update the wiki. |
-
-The four weak requests fail for four different reasons: no standard, no scope, no criterion, and no unit of review.
-
-Vibe coding is still the right tool for throwaway experiments. Agentic engineering is the practice to use for systems that have to last. [[wiki/Concepts/A Return to Code|A Return to Code]] covers the economics of apps built in one shot and the ruling that the two practices stay separate.
+Jobs go best when they sit inside what the agent was trained on. An agent asked again and again to simplify a codebase may keep failing when the request falls outside its training. Pushing it there feels slow and forced. Tasks inside its strengths go much faster.
 
 ## What can be verified, and what speed is not
 
-Models are strongest where outputs can be verified. Training rewards outputs that pass a check, so models become much more capable at math and code, and stay weak where a check is hard to write. Part of that strength also comes from what the labs put in the training data: material that can be verified, plus whatever the labs happen to care about. Code suits agents well because the feedback is concrete. Tests pass or fail. Builds break. Logs show errors. Diffs can be inspected. The app runs or it does not.
+Traditional software automates what can be written as code. The current models automate what can be verified, because their training rewards checkable results. Any domain where results can be checked can be improved with enough training effort, and even writing could be judged by a panel of models. Verifiability is therefore the main guide to where agents will be strong.
 
-Whenever possible, a vague sense of quality is turned into checks. If a task cannot be verified, the human stays closer to the loop, meaning more directly involved in each run. Whether a task can be verified is not fixed. A check can often be built for it: a test, a measured criterion, or a second model that scores the output against a rule instead of giving an opinion.
-
-The claim that agents make experienced developers faster has one randomized measurement, and it found the opposite. Experienced developers working on issues in their own repositories were randomly assigned to be allowed or forbidden AI tools on tasks of about two hours. With the tools allowed, they took longer. They had predicted a speedup. After finishing more slowly, they still believed the tools had made them faster. The setting is narrow, and the authors say so. For an operator, the lesson is that a sense of speedup is not evidence. The result does not support the reading "agents make people slower." Before reorganizing work on the assumption that agents save time, time one real bounded task.
-
-Judgment shifts from checking any one output to building the factory, which is the reusable machinery that produces outputs: templates, harnesses, skills, and agents. The cost that matters is the thousand-day question: three years after the software was easy to create, is it still secure, tested, maintained, and worth the tokens, and is someone still willing to be paged if it goes down?
+Speed is not the same as quality. Code from agents often works while being bloated and full of copy-paste and fragile abstractions. Those flaws are not rewarded or punished in training, so they persist. Fast output still needs a person who cares about design. The best practitioners seem to gain far more than the old ten-times-faster engineer did, but that gain counts only when the quality bar holds.
 
 ## Context, agent-facing tools, the human, multi-model review
 
-The quality of an agent's work is limited by the context it can use. The right files, constraints, examples, commands, and prior decisions go into the context, and material that does not help is taken out. The model itself is a stateless function from inputs to outputs. A larger context window only lets the model see more at once. It does not give the agent a persistent store of knowledge like a wiki, and it does not give the agent a record of past conversations. Two added layers provide those. Across conversations, a queryable store holds facts that stay true in every session: people, projects, decisions, and policies. Within a conversation, the raw transcript is kept where it can be retrieved, even when the model is currently seeing only a summary of it. [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]] covers how to shape what goes into the context window. [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]] gives a different explanation for what looks like a "bad model": bad context.
+Context is the lever. Programming now increasingly means deciding what goes into the model's context window, so the text handed to an agent is effectively the program. An install step can be a block of instructions pasted into an agent. The agent then reads the machine, adapts to it and debugs as it goes, instead of running a brittle script.
 
-This vault is already the across-conversations layer. The files named here are examples from it, and they are not a complete list. [[notes/index|notes/index.md]] is the entry point: a hand-maintained list of hubs and doctrine pages, so an agent starting with no context knows what exists. `log.md` is an append-only operational record of what was done and when. A source manifest with a status column shows what material exists and how far it has been compiled. [[AGENTS]] is the standing instruction file. It sets out the three-layer model, what may be edited, and what must not leave the machine. The vault also holds house law files, a decisions tree, and a journal beside those four files. These files let future agents read and understand the environment.
+Tools and documents should be written for agents. Most documentation still tells a human what to click. Agent-native infrastructure would describe itself to agents first, so that a single prompt could build and deploy an app without the person configuring each service by hand.
 
-Good context answers four questions.
+The human remains the bottleneck for understanding. Thinking can be handed to a model, but understanding cannot. A person who does not know what is being built or why cannot direct agents well. A personal knowledge base that a model helps query is one way to build that understanding.
 
-- Where am I?
-- What matters?
-- What should I avoid?
-- What command proves this works?
-
-Tools, docs, and workflows are written for agents to use directly. Copy-pasteable instructions work better than "click here, open this menu." One installer is written as a block of text for the agent: the agent inspects the machine, performs the setup, and debugs as it runs. CLI commands, machine-readable state, API-first workflows, and examples with expected outputs are part of the same change toward agent use. Sensors are ways to observe the system. Actuators are ways to change it. Legible state is a machine-readable record of how things currently stand. The deployment test is whether one prompt produces a running thing, with no settings menu involved. [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]] explains the four files in full.
-
-The interface the agent uses has to be designed. When an agent fails, the fix is often a better tool description or a cleaner output format, and a longer prompt often is not the fix.
-
-Six things stay with the human. Taste is knowing what good looks like. Judgment is deciding what matters and which tradeoffs are acceptable. Architecture is how the parts should fit. Spec is what the system must do. Understanding is an internal model good enough to steer with. Verification is taking responsibility for the artifact when it ships. A person can hand thinking work to an agent, but the person has to do the understanding. The agent processes, drafts, searches, and implements. The person still has to know what is being built and why. [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]] covers that limit in full.
-
-Sign-off means "the consequences of this change are understood, and a name goes under them", or it means "the harness was written, so the unread work can still be stood behind." It does not mean "every line was read." The tools for sign-off are tests, simulations, proofs, and type-checkers.
-
-More and more of the work is training the agent and saving repeated moves as skills.
-
-Having several models review the same work can help, and the models can also miss the same problems. A council of models reviewing together can still fall into groupthink. A second model that scores the output against a criterion, in a cycle of generate, evaluate, and repeat, is different from a second model giving an opinion. Agent review is worth its cost on obvious bugs, security, alternative designs, generated tests, assumption checks, and scanning large diffs. Taste, priority, and final judgment stay with humans.
-
-The common failure modes are the opposites of the rules above. A person accepts a polished explanation instead of checking the artifact. Fast implementation leads to scope creep. Code is trusted because it works once. The agent invents its own architecture instead of following the codebase, as in the payments-flow email match. The person forgets that agent skill is jagged. The same class of model will walk a person to a car wash fifty metres away, and in the same week it will refactor a 100,000-line codebase or find a zero-day. The person's skill in the layer below weakens if it is never used.
-
-The current stack is not "use several models." Three agents split by kind of work: judgment, execution, and standing duty. Local models stay limited to audio, and the work runs on subscription plans or local hardware, with nothing paid per token.
+Many agents can also be set against one build. One proposed hiring test works this way. The candidate builds a large, secure project, then a fleet of agents tries to break it, and the build should survive. Getting the most from tools also means investing in your own setup, much as engineers once tuned their editors.
 
 ## What is actually known
 
-The randomized trial described above covers one narrow setting: experienced operators, working in their own repositories, on tasks of about two hours. AI usually works as an amplifier: it makes existing strengths larger and makes existing weaknesses larger. Because of that limit, the result cannot be turned into the claim "agents fail developers."
+Most of the guidance here comes from one experienced practitioner's account, not from measured studies. The points about jagged skill and verifiability rest on his reading of how models are trained. He describes the animals-versus-ghosts framing as partly philosophy. The gain beyond ten times is his impression, not a measurement. A transition in late 2025 that made long agent workflows reliable is likewise a personal observation.
 
-An agent can be exploited when it has private data, untrusted content, and external communication at the same time. Any two of the three together are safe. All three together are not. Models cannot reliably tell operator instructions apart from instructions that appear inside the input. No guardrail stops this one hundred percent of the time. The mitigation is in the architecture: do not give an agent all three at once. The rule applies to a vault that can read private material, take in content from the web, and push to a public remote.
+## Open questions
 
-**A workflow follows a predefined path. An agent is a model that directs its own tool use.** Start with the simplest option. A single model call with retrieval and examples is usually enough. Five named patterns each fit a specific condition: prompt chaining when the subtasks are fixed and latency can be traded for accuracy; routing when distinct categories need separate optimization; parallelization when subtasks divide cleanly, or when several outputs raise confidence; orchestrator-workers when the subtasks cannot be predicted, as with multi-file edits; evaluator-optimizer when a clear criterion exists and iteration measurably improves quality. Evaluator-optimizer is the kind of council of models that works. A full agent is the right choice when the number of steps cannot be predicted. Its costs are higher spending and errors that compound.
-
-Human oversight is built into the system's control flow, and it does not depend on anyone's disposition. Approval is a structured tool call. The operator writes the control flow that decides when to loop, pause, escalate, or hand off. Pause and resume are APIs. Traces record model calls, tools, guardrails, and handoffs, so a run can be reconstructed afterward. Keeping the human closer to the loop means an approval that blocks the run before the irreversible step, and a trace of what happened.
-
-The strongest case against these rules is the reader's own setting. Experienced developers working in their own repositories are the setting where measured speed got worse, and their own reports of feeling faster do not change that measurement. Councils of models miss the same problems unless they are scoring against a criterion. Unverifiable work does not get cheaper when more models are added. The three-part combination is present wherever an agent reads private files and publishes. The cost of the practice is writing the spec, running the checks, keeping up skill in the layer below, refusing the third part of the combination, and paying for tokens over a thousand days. Two sessions of accepting the explanation instead of the artifact are a signal to quit. An unverifiable task with a loose loop is another signal to quit, and so is having all three parts of the threat model present at once. The test that can be checked is to time one real bounded task with the agent and without it, before the workflow changes. If a first pass produces no failed check, it has not verified anything.
-
-The person is still answerable for the same standard. That responsibility now covers the factory and the sign-off, meaning the checks the person built and the consequences the person signed for, and it does not depend on reading every line.
-
-## Related pages
-
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]]: rules that stay true versus tactics tied to a date; holds the one-line rules, which this hub does not copy
-- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]: the seven concrete interleaving moves this hub extends
-- [[notes/index|notes/index.md]]: vault entry point, a hand-maintained list of hubs and doctrine pages
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]: how this setup runs the standing teammate: one shared computer, helpers that only report, and an empty middle
-- [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]: standing watch after the laptop closes; public material only
-- [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]: a ban on calling a UI job done without a picture
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]]: which habits to keep in Grok Bot after the September 2026 public event, and which to refuse
-- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model Collaborator]]: measured operating rules for one model, covering price, the case against, when to quit, and a checkable test
-- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: natural language as the programming medium; the same artifacts as Software 3.0 objects
-- [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]: explains in full the four files this hub only names
-- [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]: covers in full the limit that understanding places on the work; this hub only names it
-- [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]: the claim that faster work still needs direction, and the layer-below idea, in their original form
-- [[wiki/Concepts/A Return to Code|A Return to Code]]: the economics of apps built in one shot; the two practices stay separate
-- [[wiki/Red Team/Red Teaming|Red Teaming]]: red-team output before trusting it
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]: review passes of thirty seconds, three minutes, or thirty minutes
-- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: routing cheap work to cheap models; the practice this hub describes
-
-## Open Questions
-
-- Near the boundary between disposable and durable work, which tasks can still be done with vibe coding, and which now need the full practice?
-- Which fundamentals are in the layer directly below the current agent workflows?
-- Which parts of this vault should become scripts instead of manual agent instructions?
-- Which current agent workflow would benefit most from a tighter spec?
+- How do I measure whether agents are actually speeding up my work without lowering its quality?
+- How do I find out, for a new task, whether it sits inside or outside an agent's strengths?
+- How detailed does a spec need to be before handing a job to an agent?
+- How do I keep enough understanding of the layer underneath as more detail is handed off?
 
 ## Sources
 
 - Andrej Karpathy, [From Vibe Coding to Agentic Engineering](https://www.youtube.com/watch?v=96jN2OCOfLs), AI Ascent 2026 (Sequoia Capital), 2026-04-29.
-- Andrej Karpathy, [How I use LLMs](https://www.youtube.com/watch?v=EWvNQjAaOHw).
-- Naval Ravikant et al., [The AI Industrial Revolution](https://nav.al/industrial), 2026-06-02.
-- Anthropic, [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents).
-- OpenAI, [Agents SDK](https://developers.openai.com/api/docs/guides/agents).
-- HumanLayer, [12 Factor Agents](https://www.humanlayer.dev/blog/12-factor-agents).
-- METR, [Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/), 2025-07-10.
-- Simon Willison, [The lethal trifecta](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/), 2025-06-16.
-- Google DORA, [2025 DORA Report](https://dora.dev/research/2025/dora-report/).
-- Joel Spolsky, [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/), 2002-11-11.
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: deciding what goes into the model's window
+- [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model Collaborator]]: operating with a collaborator that has no memory
+- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: when to let a model think longer
+- [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]: tools and docs written for agents first
+- [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]: why understanding stays with the person
+- [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]: faster work still needs direction
+- [[wiki/Red Team/Red Teaming|Red Teaming]]: testing output before trusting it
+- [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]: one working setup for agent-run coding

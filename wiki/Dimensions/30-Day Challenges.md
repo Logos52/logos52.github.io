@@ -17,123 +17,136 @@ tags:
   - dimensions
   - practice
   - self-regulation
+wedge_reviewed: false
 ---
 
 # 30-Day Challenges
 
-The five 30-Day Challenges are four-week practice plans, one for each separately trainable part of learning. The parts are mistakes, the conditions of a working day, watching your own methods, how deeply you process what you read, and recall. Each track raises the demand a little each week.
+> Not yet reviewed by Wedge.
 
-Each track is a short sequence of four tasks attached to one particular part of how you learn. The first task is only noticing, finding where that part actually sits for you right now, because most of these parts run below the level you would normally observe. The three tasks that follow build on it: working the thing deliberately, then working it while something else is competing for room, then using it during ordinary study with nothing arranged. That last state is the target, the point where the part has stopped being something you attend to. One track runs at a time, and only the next task is ever in view.
+The 30-Day Challenges are four-week practice plans, one for each trainable dimension of learning, namely self-regulation, retrieval, mindset, deep processing and self-management. Deep processing here means pulling meaningful learning out of information by comparing and judging it. Each track starts by noticing how that dimension already works for you and then changes one thing. Later weeks add pressure until the weak spots show and keep the version that holds up in ordinary study. The mindset track makes mistakes cheap and turns each one into a lesson, while the self-management track maps the variables that shape a working day. The self-regulation track checks each learning method against what it actually does, and the deep processing track trains the switch from isolated remembering to comparing and judging. Four weeks is a starting length, since most people need to repeat a week before its habit holds.
 
 ## Core takeaways
 
-- Every track runs the same four steps. Week 1 records what is already done and what it produces. Week 2 moves one variable. Week 3 raises the demand until faults surface. Week 4 reduces to the version that survives ordinary weeks.
-- The first step never intervenes. Thirty-minute tallies, a method table, a week of tracked time, or a skill chosen for being uncertain produce the data before anything changes.
-- One track runs at a time with only its next task in view, because two tracks together leave neither result readable.
-- Four weeks is a floor. A week repeats until the baseline stops being uncomfortable or the behaviour holds, and a track ends when that dimension stops being the limit.
-- The track to run is the one attached to the currently weakest dimension. Each task's result is saved as a daily note, a short output, or a Kolbs pass, and Marginal Gains decides whether to stay on the track or switch.
-- The cost is the log, the interruption, and the extra mental effort, inside sessions that were happening anyway. The method is introspection-led and has never been tested against not doing it.
+- Week 1 of each track builds awareness before anything changes, through tally marks, a table of methods, a week of tracked time or a task chosen because it often goes wrong.
+- Week 2 changes something on purpose, such as one factor in the day, one weak method or the way a mistake gets read.
+- Week 3 raises the standard or the pressure so that gaps and cracks show.
+- Week 4 settles the findings into a habit or a smaller set of supports that still works.
+- Four weeks is rarely enough for most people, and repeating a week is a normal part of a track.
+
+<figure>
+<svg viewBox="0 0 520 368" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="30d-weeks-t">
+<title id="30d-weeks-t">Every written track moves through four stages, which are awareness, deliberate change, pressure and consolidation.</title>
+<rect x="0.5" y="0.5" width="519" height="367" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="440" height="62" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="57" style="fill:var(--qp-mut);font-size:12px">Week 1</text>
+<text x="120" y="47" style="fill:var(--qp-ink);font-size:14px;font-weight:600">awareness</text>
+<text x="120" y="66" style="fill:var(--qp-ink);font-size:13px">builds awareness before anything changes</text>
+<path d="M240,84 L240,89" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="240,98 235.0,89.0 245.0,89.0" style="fill:var(--qp-mut)"/>
+<rect x="20" y="100" width="440" height="62" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="137" style="fill:var(--qp-mut);font-size:12px">Week 2</text>
+<text x="120" y="127" style="fill:var(--qp-ink);font-size:14px;font-weight:600">deliberate change</text>
+<text x="120" y="146" style="fill:var(--qp-ink);font-size:13px">changes something on purpose</text>
+<path d="M240,164 L240,169" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="240,178 235.0,169.0 245.0,169.0" style="fill:var(--qp-mut)"/>
+<rect x="20" y="180" width="440" height="62" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="217" style="fill:var(--qp-mut);font-size:12px">Week 3</text>
+<text x="120" y="207" style="fill:var(--qp-ink);font-size:14px;font-weight:600">pressure</text>
+<text x="120" y="226" style="fill:var(--qp-ink);font-size:13px">raises the standard or the pressure</text>
+<path d="M240,244 L240,249" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="240,258 235.0,249.0 245.0,249.0" style="fill:var(--qp-mut)"/>
+<rect x="20" y="260" width="440" height="62" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="297" style="fill:var(--qp-mut);font-size:12px">Week 4</text>
+<text x="120" y="287" style="fill:var(--qp-ink);font-size:14px;font-weight:600">consolidation</text>
+<text x="120" y="306" style="fill:var(--qp-ink);font-size:13px">settles the findings into a habit</text>
+<path d="M462,291.0 C500,291.0 500,51.0 471,51.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25;stroke-dasharray:4 4"/>
+<polygon points="462,51.0 471,46.0 471,56.0" style="fill:var(--qp-mut)"/>
+<text x="240" y="350" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">repeating a week is a normal part of a track</text>
+</svg>
+</figure>
 
 ## How a track runs
 
-Every track runs the same four-week arc. Week 1 changes nothing: it produces a written record of what is already done and what that produces. Week 2 changes one variable, kept deliberately small, because one change at a time is the only arrangement in which the cause of an effect stays visible. Week 3 raises the demand until faults surface, and it is the hardest week by design. The mindset track takes an attempt that ran an hour, does the same volume in forty-five minutes, and stops at the first mistake. Week 4 reduces to the version that survives ordinary weeks. An insight that is not stabilised into a routine decays into a list of intentions. The written reflection at the end of a session converts the experience into a change, and the common miss is leaving that writing out.
+Every written track moves through four stages, which are awareness, deliberate change, pressure and consolidation. The first week asks for no improvement at all, because the point is to see how the dimension currently runs. In the deep processing track, a tally mark goes on a sheet whenever you notice your own thinking dropping to a lower order. The self-management track asks for a full week of tracked time before you adjust anything.
 
-The four progressions share this spine. Nothing changes before a baseline exists. Pressure exposes the limit. The fourth step reduces what survived to what holds. That is why there are four steps and not five: steps 3 and 4 are a pair in every track, and a fifth step has nothing to do. The shared first move is four separate refusals to intervene before there is data: thirty-minute tallies, a method table, a week of tracked time, a skill chosen for being uncertain.
+The second week then changes something, kept small enough that its effect stays visible. In the self-management track that means one main factor and one simple experiment, since some factors are rate-limiters whose repair moves the whole day.
+
+The third week is often the hardest, because added pressure makes gaps stand out. In the deep processing track, relationships that seemed easy begin to feel shaky once each must earn a significance score.
+
+The fourth week gathers what survived. The self-regulation track builds a system that differs from your present methods by at most 20%, because too many changes at once raise error rates.
 
 ## The five tracks
 
-Every track uses that same four-week shape. Two tracks run together leave neither result readable, which is the same reason week 2 changes one variable. The five pages are written out to different depths. Mindset and Self-Management carry the most week detail.
+Each track belongs to one dimension and trains it through its own four weeks.
 
-- [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset]]: makes mistakes cheap and frequent. A task is broken down until each step rarely fails, attempted soon enough that the consequence stays small, then every failure is read as either a barrier or a condition that was not known about.
-- [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|Self-Management]]: finds the few conditions that decide a working day. Track where the time goes, change one factor, build one deliberately perfect day, then fade it back to the smallest version that still holds.
-- [[wiki/Dimensions/30-Day Challenges/Self-Regulation Challenge|Self-Regulation]]: audits methods against what they actually produce. What is used, what it is thought to do, what it does, how hard it feels, then adjust and rebuild.
-- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing]]: trains the switch out of low-effort reading. Catch information held in isolation, then compare it against what is already known and judge what the connection is worth.
-- [[wiki/Dimensions/30-Day Challenges/Retrieval Challenge|Retrieval]]: practises rebuilding material from memory rather than reviewing it. [[wiki/Dimensions/Retrieval|Retrieval]] practice is taught early and is too dependent on the goal for one generic four-step, so it has no four-step progression of its own.
+- [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset]]: reduces the fear of mistakes and turns them into learning. You break a task into smaller steps and act sooner so errors cost less, treat each miss as a lesson about what blocked you or what the conditions were, shorten the cycles and finally test a belief you thought you could not change.
+- [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|Self-Management]]: charts what drives your energy, focus, distractibility and follow-through. You test one change, design a day of unbroken flow to find the cracks, then keep only the leanest set of supports that keeps working.
+- [[wiki/Dimensions/30-Day Challenges/Self-Regulation Challenge|Self-Regulation]]: maps what each learning method actually does to memory and understanding. You adjust the weak or passive methods, vary time to isolate cause and effect, then build the better mix into one deliberate system.
+- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing]]: trains you to notice lower-order thinking and shift toward higher-order work. You build networks of relationships, score how much each one matters, then make that work a fluid habit.
+- [[wiki/Dimensions/30-Day Challenges/Retrieval Challenge|Retrieval]]: replaces rereading with closed-book reconstruction, where you shut the source and write or say the key ideas from memory. The attempt gets harder over the four weeks, and the ideas you fail to recall decide what gets restudied.
 
 ## The four progressions
 
-Four of the five tracks have a four-step progression written out, and each progression belongs to the dimension that owns it.
+The written tracks set out each week's task and what that week is meant to produce.
 
 ### Deep Processing
 
-**Notice processing quality before trying to raise it.** [[wiki/Dimensions/Deep Processing|Deep Processing]] owns what the dimension is and what good looks like. The track is the four steps.
-
 | Step | What happens | What it produces |
 |---|---|---|
-| Build the radar | Higher-order thinking compares two pieces and judges how much the difference matters. Lower-order thinking handles one thing at a time. The higher order costs noticeable effort; the lower order is easy and tends toward drowsiness. Each lower-order stretch gets tallied as it happens. Every thirty minutes the work pauses and the last stretch is reworked at the higher order. The session closes with a reflection over the whole session rather than the individual tallies. | Awareness of processing quality. Reworking after the fact is weaker than working at the higher order from the start, so gaps remain. The product is the awareness, not the repaired session. |
-| Build networks | Relationships get found by four named targets rather than a vague search: similarities, differences, trends, and influences. | Relational thinking. The count is expected to feel like too much, and that is the step working. Managing the count is the next step's job. |
-| Add pressure | Relationships get rated by how much they matter. A maze is easier when the route is mapped than when every branch is walked. It gets harder before it gets easier: gaps become obvious, settled relationships turn uncertain, more reading is needed. Full certainty is not available at a realistic time cost, so the target is as much certainty as is feasible, then the judgment. | A navigable network. Importance filtering rather than a pile of links. |
-| Make it fluid | Relationship-building and importance filtering run during study without a prompt. | The effort is ordinary rather than avoided; new material gets related to the big picture unprompted; a gap gets chased to close a network. Reaching only for easy relationships is the failure signature. The last step is repeated as often as needed. |
+| Build your radar | A tally mark goes down each time you catch lower-order thinking, meaning isolated remembering and understanding. Every 30 minutes you stop to form a wide view of the sitting so far, and the sitting ends with a reflection. | Awareness of when you think at a lower or higher order. Upgrading lower-order work after the fact is still weaker than starting at a higher order. |
+| Networking | After every 15 minutes, 5 minutes go to comparing concepts, key words and facts, looking for likenesses, differences, trends and influences. Each hour ends with 15 minutes of the same comparison across everything studied. | Relational thinking. A flood of new relationships can feel overwhelming, and that is a sign the work is right. |
+| Pressure | Each new relationship gets a significance score of up to five points, judged by its importance for the big picture. | A higher standard of thinking. Gaps stand out more clearly, and as much certainty as is feasible comes before each judgment. |
+| Fluidity | When lower-order thinking creeps in, you build networks and write down only relationships scoring four or five points. | Relational work that feels moderately manageable, tied to the big picture. The week can be run again as often as you like. |
 
 ### Self-Regulation
 
-**Map the methods before changing them.** [[wiki/Dimensions/Self-Regulation|Self-Regulation]] owns the mid-session steering this track trains. A method is judged by [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: the thinking it produces, not the artifact it leaves.
-
 | Step | What happens | What it produces |
 |---|---|---|
-| Map methods | Four columns: the method, how it feels, the effect assumed, the effect that appears. Most entries turn out to be residues of habits formed years earlier rather than tools chosen for an outcome. A thoughtful estimate is the deliverable; precision is not available at this stage. | A clear picture of the current system. |
-| Judge methods | Four levers: practise the way the knowledge gets used; move between detail and big picture; shift from confirming toward finding gaps; cut set-up work. Pages of notes written to be re-read later are the standard set-up case. A coin is recognisable on sight and almost never drawable from memory; a method that only exercises recognition feels productive and tests nothing. Adjustments are hypotheses tested by use. | Strategic adjustment. |
-| Refine variables | Time on one method moves while the rest hold. With several methods running together, cause and effect cannot be read at all. Three recurring results: a heavy method fades with no loss; a neglected one pays more than expected; where the time goes tracks habit rather than effect. | Cause and effect on isolated variables. |
-| Systemize | The insight gets stabilised, the system runs until familiar, then small adjustments. A couple of weeks before mapping again. Without consolidation the output is an adjustment list long enough that acting on any of it stops. | A usable routine. |
+| Mapping | A sheet with 4 columns lists your usual methods, the effect you believe each has, the effect it appears to have after use and how it feels to use. A careful estimate is enough at this stage. | An intuitive sense of what each method does. Many techniques turn out to survive only as habit. |
+| Judgment | Ineffective or disengaging methods get changed using four kinds of guidance, which are practising how you will use the knowledge, moving between detail and the wider topic, finding gaps and removing set-up work. | Hypotheses about better methods, tested by using them. |
+| Refinement | The time and effort put into different methods is varied while you check memory and depth of understanding. | Isolated cause and effect. A method that took a lot of time can fade without harm, and a barely used one can help more than expected. |
+| Systemisation | The more effective methods go into a logical sequence, differing from the current methods by at most 20%, and run for a week or more. | One stable system with small adjustments, so the findings do not stay a long list of changes. |
 
 ### Self-Management
 
-**Track a week before changing a day.** [[wiki/Dimensions/Self-Management|Self-Management]] owns the external systems this track trains.
-
 | Step | What happens | What it produces |
 |---|---|---|
-| Map problems | Tracked time plus energy, concentration, distractibility, and the ability to execute what was intended. At least one week of tracked time before anything is adjusted. The variables move each other, which is why the awareness otherwise takes years. | Hidden constraints. |
-| Explore variables | One factor moves at a time, read against the baseline week. Some factors hold everything else down, so repairing one of them moves the whole system. | Leverage points. |
-| Add pressure | An ideal day gets designed and actually run. Two weeks of tracked time before it is worth designing. The deliverable is the cracks, not the design. | The limits of the system, exposed. |
-| Fade to minimum | The smallest intervention that still produces a worthwhile effect. What survives the fade is what stays available on a tired or sick day. The track is re-run whenever self-management slips. | A realistic operating baseline. |
+| Problem mapping | A time-tracking app logs the day, and each evening you look back at flow, delays and how closely the day followed the plan. | The factors behind your energy, focus, distractibility and follow-through. |
+| Variable exploration | Time tracking continues while one main factor gets a simple, realistic experiment. | The effect of that factor, including any rate-limiters whose repair has an outsized effect. |
+| Pressure | Two weeks of time data feed the plan for one ideal day of unbroken flow, which you then run. | The cracks in your self-management under the highest demand. |
+| Fading | A moderately productive day keeps only the minimal actions and tweaks, and each good day leads to an even thinner plan. | The smallest set of tools that keeps you reasonably close to your best. |
 
 ### Mindset
 
-**Lower the cost of an error before asking for more of them.** [[wiki/Dimensions/Mindset|Mindset]] owns the filter this track trains.
-
 | Step | What happens | What it produces |
 |---|---|---|
-| Reduce consequence | Two moves: smaller steps lower the chance of an error; acting sooner lowers the size of its consequence. Both rise together when the whole thing is attempted at once or left until there is no time to recover. The skill chosen is one that is uncertain to perform and unconfident to improve. | Attempts that are safer to make. |
-| Convert mistakes | A mistake teaches a barrier or a condition, and which one has to be decided. Barriers are mostly behavioural: energy, competing priorities, an existing habit. Each maps to a repair. Conditions are the variables nobody knew had to be met. A complex skill takes many cycles before it works once, and the non-obvious obstacles cannot be predicted. | Errors as information. |
-| Increase cycles | Cycle length follows how fast the skill shows errors: around thirty seconds for something spoken, around fifteen minutes for judgment-heavy work. It is built up to rather than started at. | Faster iteration, less time that reveals nothing. |
-| Challenge identity | An attribute believed fixed, small repeated attempts against it. The product is exposure that starts the change, not a changed mindset. Months is the horizon for the belief itself to move. | Weakened fixed beliefs through evidence, on a months-long horizon. |
+| Breaking your fall | A task you do poorly gets split into smaller and smaller pieces, and you act on those pieces sooner. | Mistakes that cost less, the way falling safely is a beginner skill in judo or snowboarding. |
+| Net to trampoline | An hour of real attempt at a hard skill is followed by reading the miss as a lesson about barriers or about conditions. | Mistakes that send you back up with a lesson. |
+| Frequency | Each attempt gets shorter and more intense, and a sitting ends as soon as a mistake shows. | Faster cycles, which in one coach-training setting cut training time by over five times. |
+| Breaking chains | A trait you believe you cannot change gets at most one hour of study, then a situation that tests it and many tight cycles. | A richer picture of how fixed or changeable the trait seems. |
 
 ## Four weeks is a floor
 
-Four weeks is a floor, not a schedule. The sequences are not named after a fixed time period. Repeating a week is the normal case: week 1 until the baseline stops being uncomfortable, the last week until the behaviour holds, or a whole track when circumstances change. A track is finished when the behaviour changes, not when the calendar runs out. The four weeks give controlled, consequence-free experience of the thing being avoided, which is what starts a disposition moving.
-
-The tracks repeat on their own cadences: the deep-processing fourth step runs as often as needed, self-management re-runs whole whenever it slips, and a fixed belief takes months.
+Four weeks is a starting length, and most people need more than that to meet the marks in the deep processing track. Its fourth week can be run again as often as you like, and the mindset track advises repeating its second week to sharpen the habit of drawing lessons from mistakes. The self-management track is built to be run again whenever self-management slips. The self-regulation track treats its whole cycle as continuous, since adjusting methods needs weeks or months.
 
 ## Choosing the track, saving the result
 
-The track that runs is the one attached to the currently weakest dimension. Only the next task on that track runs, never the whole four at once. All four tracks at once only when the workload is deliberately light. The result of a task is saved: a daily note, a short output, or a pass through [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], which turns an attempt into what happened, why, what rule it suggests, and what changes next. [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] decides whether to stay on the same track or switch after a task: small consistent upgrades as the unit of improvement. [[wiki/Dimensions/Dimensions of Learning|Upgrading Your Dimensions]] is the rule for picking which dimension to work on, and where the one-at-a-time limit comes from.
+[[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] holds that whichever of the five dimensions is weakest caps the output of the other four, so the weakest one makes the natural first track. A challenge can also run alongside another, and the mindset track can use a parallel challenge as its practice skill.
+
+Reflection is how each task's result gets kept. The deep processing track ends every sitting with one, and the mindset track looks back after each day of experiments. [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] gives a structured way to turn that look back into a next step.
 
 ## What it costs, and when it is not working
 
-**Every step runs inside sessions that were happening anyway.** What it costs is the log, the interruption, and the extra mental effort: thirty-minute pauses in one track, a week of tracked time before the self-management track produces anything at all.
+The cost is extra effort inside study you would do anyway. Higher-order thinking asks for more mental effort and can make a single sitting run longer at first, though it saves time later by cutting how much repetition you need. The self-management track needs a minimum of two weeks of logged time before its ideal day is worth designing.
 
-Five things to check:
-
-- One dimension is clearly primary.
-- The practice target is small enough to repeat.
-- A mistake points at the next adjustment.
-- Progress shows up as a clearer process rather than more motivation.
-- A different improvement target every session means the track is too broad.
-
-A new system that keeps losing to the old one means too many changes at once. The repair is fewer changes, not a better design. A falling share of session time in the lower order, or an ideal day that survives contact, is the check that the current track is doing work.
-
-The four-step granularity is inherited rather than independently justified. Nothing here has been tested against not doing it. The whole apparatus is introspection-led, so what comes back is limited by the honesty of the self-report.
-
-A track ends when that dimension stops being the limit. The dimension that is limiting then is a different one, with a different four steps. The feel of the work is deliberately training one part of the learning system instead of vaguely trying to improve everything at once.
+Some signals show that a track is struggling. A new learning system that keeps failing to beat the old one usually means too many changes at once. Reaching only for simple relationships that are easy to invent is the failure the deep processing track names. Unease at a task that might not succeed is a common sign of a fixed mindset, and the mindset track treats that feeling as the thing to work on.
 
 ## How to practice this
 
-1. Pick the track attached to your currently weakest dimension and run only its next task. Notice whether one dimension is clearly primary. A different improvement target every session means the track is too broad.
-2. Spend week 1 writing down what you already do and what it produces, and change nothing. Repeat the week until the baseline stops being uncomfortable.
-3. In week 2 move one variable and hold the rest. Notice whether the cause of each effect stays visible.
-4. In week 3 raise the demand until faults surface. Notice the cracks, which are the deliverable. This is the hardest week by design.
-5. In week 4 fade to the smallest version that survives ordinary weeks. Notice what stays available on a tired or sick day.
-6. Write a short reflection at the end of each session, or run a pass through Kolbs Experiential Cycle. Notice whether progress shows as a clearer process rather than more motivation.
+1. Pick the dimension that feels weakest and open its track.
+2. Spend the first week noticing how that dimension runs now, with the log or table the track asks for.
+3. In the second week, change one thing and watch its effect.
+4. In the third week, raise the pressure and note where the cracks show.
+5. In the fourth week, keep the smallest version that still works, and repeat a week whenever its habit has not yet held.
+6. End each session with a short reflection on what you learned.
 
 ## Related pages
 
@@ -142,12 +155,14 @@ A track ends when that dimension stops being the limit. The dimension that is li
 - [[wiki/Dimensions/Self-Management|Self-Management]]
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]
-- [[wiki/Dimensions/Dimensions of Learning|Upgrading Your Dimensions]]
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 - [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
 
 ## Sources
 
-- These tracks are this vault's own practice plans.
-- Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. *Psychological Review, 100*(3), 363–406. Public cousin of sequenced, single-constraint practice. Not a trial of these four tracks. The tracks themselves are this system's own teaching model.
+- iCanStudy, "Week 1: Build your radar" to "Week 4: Fluidity", 30-day deep processing challenge. Private course notes, paraphrased.
+- iCanStudy, "Week 1: Mapping" to "Week 4: Systemisation", 30-day self-regulation challenge. Private course notes, paraphrased.
+- iCanStudy, "Week 1: Problem mapping" to "Week 4: Fading", 30-day self-management challenge. Private course notes, paraphrased.
+- iCanStudy, "Week 1: Breaking your fall" to "Week 4: Breaking chains", 30-day mindset challenge. Private course notes, paraphrased.

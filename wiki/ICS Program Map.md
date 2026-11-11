@@ -1,7 +1,7 @@
 ---
 title: "ICS Program Map"
 type: moc
-status: draft
+status: seed
 created: 2026-05-29
 updated: 2026-09-13
 method: plain-register-2026-09-13
@@ -10,141 +10,139 @@ tags:
   - moc
   - ics
   - learning-system
+wedge_reviewed: false
 ---
 
 # ICS Program Map
 
-The stages of the ICS program are listed in order, each with links to the wiki notes that cover it. The
-wiki is organized by theme (Dimensions, Self-Management, etc.). These links are a **view** over that wiki
-in the program's own sequence: Kickstart → High-yield → Growth. The source corpus is stored privately in
-`raw/private/ICS` and is not linked. Only distilled wiki notes are linked.
+> Not yet reviewed by Wedge.
 
-> [!note] Mappings confirmed against the program, with gaps marked
-> Each stage-to-wiki mapping is confirmed against the ICS stage pages. A remaining ⚠️ mark is a real
-> **gap**: the stage has source material but no wiki page yet. These marks stay in place as a list of
-> stages still to synthesize.
+The program runs in three phases, and this map gives its stages in course order, each with the wiki pages on it. Kickstart introduces the five dimensions of learning, which are retrieval, deep processing, mindset, self-management and self-regulation. The high-yield phase then teaches the methods that pay off fastest, such as spaced interleaved retrieval, revision, study scheduling and the 30-day challenges. The growth phase changes how you encode and manage yourself more slowly. It teaches inquiry-based learning and the Bear Hunter System of Aim, Shoot and Skin, then works on habits and retrieval in the camps. Its last stage, Summit, turns to performing in exams. The wiki itself is organised by theme, so the map reads across those themes in the program's own sequence.
 
-Related syntheses: [[ICS System]] · [[Are You Learning, or Just Using Techniques|First Principles of Learning]] · [[ICS System|How Top Performers Learn]] · [[Prestudy, BHS, and SIR - Turning Information into Usable Structure|Minimally Viable Learning System]]
+> [!note] How pages are placed
+> A page sits under the stage that its own Sources section names. A page whose Sources section names no stage keeps the place it already had on this map.
+
+Related syntheses: [[wiki/Syntheses/ICS System|ICS System]] · [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] · [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR - Turning Information into Usable Structure]]
 
 ---
 
+<figure>
+<svg viewBox="0 0 520 528" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="ics-phases-t">
+<title id="ics-phases-t">The program runs in three phases, and this map gives its stages in course order, each with the wiki pages on it.</title>
+<rect x="0.5" y="0.5" width="519" height="527" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="480" height="92" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="50" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Kickstart phase</text>
+<rect x="40" y="66" width="108.64" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="94.32" y="84.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Introduction</text>
+<rect x="158.64" y="66" width="81.76" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="199.52" y="84.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Catalyst</text>
+<path d="M260,114 L260,125" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260,134 255.0,125.0 265.0,125.0" style="fill:var(--qp-mut)"/>
+<rect x="20" y="136" width="480" height="130" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="166" style="fill:var(--qp-ink);font-size:14px;font-weight:600">High-yield phase</text>
+<rect x="40" y="182" width="101.92" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="90.96" y="200.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Rapid Start</text>
+<rect x="151.92" y="182" width="108.64" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="206.24" y="200.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Fundamentals</text>
+<rect x="270.56" y="182" width="101.92" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="321.52" y="200.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">30-Day Plan</text>
+<rect x="40" y="220" width="122.08" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="101.04" y="238.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Fundamentals 2</text>
+<path d="M260,268 L260,279" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260,288 255.0,279.0 265.0,279.0" style="fill:var(--qp-mut)"/>
+<rect x="20" y="290" width="480" height="130" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="320" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Growth phase</text>
+<rect x="40" y="336" width="81.76" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="80.88" y="354.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Briefing</text>
+<rect x="131.76" y="336" width="148.96" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="206.24" y="354.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Technique Training</text>
+<rect x="290.72" y="336" width="81.76" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="331.6" y="354.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Ascent I</text>
+<rect x="382.48" y="336" width="88.48" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="426.72" y="354.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Ascent II</text>
+<rect x="40" y="374" width="95.2" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="87.6" y="392.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Ascent III</text>
+<rect x="145.2" y="374" width="88.48" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="189.44" y="392.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Base Camp</text>
+<rect x="243.68" y="374" width="68.32" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="277.84" y="392.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Camp I</text>
+<rect x="322" y="374" width="75.04" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="359.52" y="392.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Camp II</text>
+<rect x="407.04" y="374" width="68.32" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="441.2" y="392.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Summit</text>
+<rect x="20" y="442" width="480" height="66" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1;stroke-dasharray:4 4"/><text x="40" y="472" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Support library</text><text x="40" y="490" style="fill:var(--qp-mut);font-size:12px">Modules outside the linear path</text>
+</svg>
+</figure>
+
 ## Kickstart phase
-*How to navigate the program, and the principles that make learning faster. These basic principles are the difference between students who struggle and high performers.*
+*Where you control your own learning, and what the five dimensions are.*
 
 ### Introduction
-- [[ICS System|How Top Performers Learn]]
-- [[Are You Learning, or Just Using Techniques|First Principles of Learning]]
-- [[ICS System]]
+- [[wiki/Dimensions/Mindset/Locus of Control|Locus of Control]]
+- [[wiki/Syntheses/ICS System|ICS System]]
+- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]
 
-### Catalyst: *retrieval for fast results*
-- [[wiki/Dimensions/Retrieval|Retrieval]]
-- [[Are You Learning, or Just Using Techniques]]
+### Catalyst: *the five dimensions of learning*
+- [[wiki/Dimensions/Retrieval|Retrieval]] · [[wiki/Dimensions/Deep Processing|Deep Processing]] · [[wiki/Dimensions/Mindset|Mindset]] · [[wiki/Dimensions/Self-Management|Self-Management]] · [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+- [[wiki/Concepts/Declarative, Procedural, and Conditional Knowledge|Declarative, Procedural, and Conditional Knowledge]]
+- [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]
 
 ---
 
 ## High-yield phase
-*The techniques that give the largest improvement for the least time spent. You can apply them right away. Making them part of how you study takes months.*
+*Methods that give a large improvement for the time they take, from retrieval practice to a repeating study calendar.*
 
-| | |
-|---|---|
-| Mastery | 6–8 weeks |
-| Impact | Immediate |
-| Difficulty | Low–moderate |
-| Technique range | Very high |
+### Rapid Start: *priorities, time and procrastination*
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Time Management, Attention & Scheduling]]
+- [[wiki/Self Management/Procrastination - a System Problem|Procrastination - a System Problem]]
 
-### Rapid Start: *prioritisation, time management, procrastination*
-- [[Procrastination - a System Problem]]
-- [[Time Management, Attention & Scheduling]]
-- [[Flow State|Attention Management - Preserving Flow]]
+### Fundamentals: *retrieval at widening intervals, and accuracy before speed*
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] · [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]]
+- [[wiki/Concepts/Accuracy Before Speed|Accuracy Before Speed]]
+- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
 
-### Fundamentals: *the basics that separate high performers*
-*Key dimensions: retrieval, deep processing, mindset.*
-- [[Spaced Interleaved Retrieval]] · [[Interleaving Table]]: the core of SIR
-- [[Marginal Gains]]
-- [[Are You Learning, or Just Using Techniques]]: "the problem with studying"
-
-### 30-Day Plan: *an ultra-strategic 30-day plan (challenges split by dimension)*
+### 30-Day Plan: *a four-week practice track for each dimension*
 - [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] (hub)
-- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|30-Day: Deep Processing]] · [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|30-Day: Mindset]] · [[wiki/Dimensions/30-Day Challenges/Retrieval Challenge|30-Day: Retrieval]] · [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|30-Day: Self-Management]] · [[wiki/Dimensions/30-Day Challenges/Self-Regulation Challenge|30-Day: Self-Regulation]]
+- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]] · [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset Challenge]] · [[wiki/Dimensions/30-Day Challenges/Retrieval Challenge|Retrieval Challenge]] · [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|Self-Management Challenge]] · [[wiki/Dimensions/30-Day Challenges/Self-Regulation Challenge|Self-Regulation Challenge]]
 
-### Fundamentals 2: *the high-yield suite; master first if time-pressed*
-*Key dimensions: deep processing, self-regulation, self-management, retrieval.*
-- [[wiki/Dimensions/Deep Processing/Mindmaps|Non-Linear Note-Making]] · [[wiki/Dimensions/Retrieval/Revision|Revision]] · [[wiki/Self Management/Study Scheduling|Study Scheduling]] · [[Rote Learning and Memorisation]]
-- [[Exam Technique]] · [[Mindmaps|Live Learning Events]]
+### Fundamentals 2: *revision, scheduling, notes and exam technique*
+- [[wiki/Dimensions/Retrieval/Revision|Revision]] · [[wiki/Self Management/Study Scheduling|Study Scheduling]] · [[wiki/Domains/Miscellaneous/Exam Technique|Exam Technique]] · [[wiki/Domains/Miscellaneous/Exam Execution|Exam Execution]] (hub) · [[wiki/Domains/Miscellaneous/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]]
+- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]] · [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]
 
 ---
 
 ## Growth phase
-*Slower, deeper change. It retrains how you encode information and how you manage yourself. Improvements come over weeks/months.*
+*Slower change that retrains how you encode information and how you manage yourself.*
 
-| | |
-|---|---|
-| Mastery | 6 months+ |
-| Impact | 2 weeks+ |
-| Difficulty | Moderate–high |
-| Technique range | Moderate |
+### Briefing: *bringing techniques into one system*
+- [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]] · [[wiki/Dimensions/Self-Management/Skills Audit|Skills Audit]]
+- [[wiki/Dimensions/Self-Regulation/Common Traps|Common Traps]] · [[wiki/Self Management/Techniques in School|Techniques in School]]
+- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] · [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 
-### Briefing: *bring techniques into one cohesive system; avoid periods with no progress*
-*Key dimensions: all five.*
-- [[Kolbs Experiential Cycle]]: "right vs wrong way to practise" (one of the main techniques)
-- [[Skills Audit]]: diagnosing your own learning
-- [[Common Traps]]: deathly spirals, bandwagon fallacy, misfitting techniques
-- [[Techniques in School]] (incl. time-boxing); Must-do's recap → [[Prestudy]], [[Flow State|Focus]]
+### Technique Training: *learning from questions you actually have*
+- [[wiki/Dimensions/Deep Processing/Inquiry-Based Learning|Inquiry-Based Learning]] · [[wiki/Dimensions/Deep Processing/Order Control|Order Control]]
+- [[wiki/Concepts/Cave Theory|Cave Theory]] · [[wiki/Dimensions/Deep Processing/Schema|Schema]] · [[wiki/Concepts/Memory Handling|Memory Handling]]
+- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] · [[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]]
 
-### Technique Training: *inquiry-based learning; meaningful relationships & networks*
-*Key dimensions: deep processing, self-regulation, self-management.*
-- [[Inquiry-Based Learning]] (Traffic Light System) · [[Order Control]]
-- [[Cave Theory]] → [[Schema|Survive and Thrive]] (analogous & in-context relationships) · [[Memory Handling]]
-- [[How to Unlearn Old or Bad Habits Efficiently]]: unlearning
-- [[Loss Aversion]]: the "good enough" trap
+### Ascent I: *Aim, the first step of the Bear Hunter System*
+- [[wiki/Dimensions/Deep Processing/Aim|Aim]] · [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 
-### Ascent I: *Aim (step 1 of the Bear Hunter System encoding)*
-- [[wiki/Dimensions/Deep Processing/Aim|Aim]] · [[Aim]]
+### Ascent II: *Shoot, and grouping by importance*
+- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] · [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
+- [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]] · [[wiki/Dimensions/Deep Processing/Problem-First Learning|Problem-First Learning]]
 
-### Ascent II: *Shoot (non-linear note-taking)*
-- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] · [[Shoot]]
+### Ascent III: *Skin, and refining the final grouping*
+- [[wiki/Dimensions/Deep Processing/Skin|Skin]] · [[wiki/Dimensions/Retrieval/WPW|WPW]]
 
-### Ascent III: *Skin (optimise chunk structure for retention/depth)*
-- [[wiki/Dimensions/Deep Processing/Skin|Skin]] · [[Skin]]
-- [[Importance-Based Chunking]] · [[Importance-Based Chunking|Chunking as a Technique]]
+### Base Camp: *habits, priorities and mindset*
+- [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]] · [[wiki/Self Management/Priority 0+1 System|Priority 0+1 System]]
+- [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]] · [[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]]
 
-### Base Camp: *resume self-management; combine advanced encoding*
-- [[wiki/Dimensions/Self-Management|Self-Management (dimension)]]
-- [[Habits, Productive Routines & PEER]]
+### Camp I: *rote memorisation as a last resort*
+- [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Rote Learning and Memorisation]] · [[wiki/Dimensions/Retrieval/Revision|Revision]]
 
-### Camp I: *lower-order memorisation for when there's no alternative*
-- [[Rote Learning and Memorisation]] (hub) → [[Rote Learning and Memorisation|Flashcards]] · [[Rote Learning and Memorisation|Method of Loci]]
-- [[Memory Handling]]
+### Camp II: *advanced retrieval and the minutes lost between tasks*
+- [[wiki/Dimensions/Retrieval/WPW|WPW]] · [[wiki/Dimensions/Retrieval/Revision|Revision]] · [[wiki/Decision Making/Decisional Delays|Decisional Delays]] · [[wiki/Self Management/Flow State|Flow State]]
 
-### Camp II: *the most advanced interleaved retrieval methods*
-- [[Spaced Interleaved Retrieval]] · [[Interleaving Table]] · [[WPW]]
-
-### Summit: *personalise + perform under pressure; the multipass system*
-- [[Multipass System]] · [[Multipass System|Cramming]]
-- [[Exam Execution]] (hub) → [[Breaching Questions]] · [[ReCOVer System]] · [[Silly Mistake Syndrome]] · [[Group Study]]
+### Summit: *performing under pressure, and the multipass system*
+- [[wiki/Dimensions/Retrieval/Multipass System|Multipass System]]
+- [[wiki/Dimensions/Retrieval/Breaching Questions|Breaching Questions]] · [[wiki/Dimensions/Deep Processing/ReCOVer System|ReCOVer System]] · [[wiki/Dimensions/Self-Regulation/Silly Mistake Syndrome|Silly Mistake Syndrome]] · [[wiki/Dimensions/Retrieval/Group Study|Group Study]]
 
 ---
 
 ## Support library
-*These supplementary modules in the corpus are not part of the linear path. Learning Support is the largest of them.*
+*Modules outside the linear path, where Learning Support is the largest.*
 
-**Learning Support: synthesized 2026-05-29** (36 clips consolidated into 6 pages):
-[[Measuring Learning]] (mastery levels, efficiency, rate limiters) · [[Marginal Gains|Marginal Gains in Practice]] (stacking, tracking, vs Kolb/30-Day) · [[Encoding and Retrieval]] (the trade-off, spacing, troubleshooting) · [[Mindmaps|Non-Linear Note-Making]] (arrows-vs-lines, spiderwebbing, reverse causality, references) · [[How to shift your brain to be motivated (when you don't feel like it)|Motivation]] (using motivation strategically vs depending on it) · [[Marginal Gains|Pacing Skill Development]] (2–3 processes, Swiss-cheese / missing details). The other clips were mapped to existing pages ([[Higher-Order Learning]], [[Prestudy]], [[Inquiry-Based Learning]], [[Skills Audit]], [[How to Ask for Feedback]], [[Interleaving Table]], [[Silly Mistake Syndrome]], [[Kolbs Experiential Cycle]]). Only "Recommended apps" (an affiliate list) was left unsynthesized.
+**Learning Support:** [[wiki/Syntheses/The 30-Day Plan|The 30-Day Plan]] · [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]] · [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery - From Recognition to Usable Knowledge]] · [[wiki/Dimensions/Self-Management/How to Ask for Feedback|How to Ask for Feedback]]
 
-- **Decision-making** → [[Decision Making]] · [[wiki/Decision Making/Judging a Decision by Its Process|judging a decision by its process]] · [[Changing Decisions]] · [[Choice Throttling]] · [[Decisional Delays]] · [[Positional Decisions and Expected Value]]
-- **Exam execution** → [[How to diagnose and fix exam mistakes]] · [[How to prepare for ultra high-volume exams]]
-- **Mindset / Neuroticism** → [[Fixed vs Growth Mindset]] · [[Marginal Gains]] · [[Neuroticism]]
-- **Self-management & feedback** → [[How to Ask for Feedback]] · [[Skills Audit]] · [[Reverse Goal Setting]] · [[Kolbs Experiential Cycle]]
-- **Self-regulation / wellbeing** → [[How to Maintain Sustainable Energy Under Pressure|Recovery]] · [[How to Maintain Sustainable Energy Under Pressure]] · [[How to shift your brain to be motivated (when you don't feel like it)]]
-- **Mind maps** → [[Mindmaps]]
-- **Syntopical / dense reading** → [[Prestudy|Syntopical Reading - Learning from Multiple Dense Resources]]
+[[wiki/Concepts/Reverse Causality|Reverse Causality]] · [[wiki/Concepts/Learning Efficiency|Learning Efficiency]] · [[wiki/Dimensions/Self-Regulation/Measuring Learning|Measuring Learning]] · [[wiki/Dimensions/Retrieval/Encoding and Retrieval|Encoding and Retrieval]] · [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated (when you don't feel like it)]]
 
----
-
-## Coverage notes (cross-check vs `raw/private/ICS`, 207 source files)
-- **Strongest coverage:** Ascent (Bear Hunter Aim/Shoot/Skin), Summit (Multipass), Camp II (interleaved retrieval), Catalyst (retrieval). For these stages the wiki notes map ~1:1.
-- **Gaps filled 2026-05-29:** Camp I memorisation ([[Rote Learning and Memorisation]], [[Rote Learning and Memorisation|Flashcards]], [[Rote Learning and Memorisation|Method of Loci]]); Fundamentals 2 ([[wiki/Dimensions/Deep Processing/Mindmaps|Non-Linear Note-Making]], [[wiki/Dimensions/Retrieval/Revision|Revision]], [[wiki/Self Management/Study Scheduling|Study Scheduling]]); Summit ([[Multipass System|Cramming]] + the [[Exam Execution]] cluster: [[Breaching Questions]], [[ReCOVer System]], [[Silly Mistake Syndrome]]).
-- **Filled 2026-05-29 (round 2):** Technique Training ([[Inquiry-Based Learning]], [[Order Control]], [[Schema|Survive and Thrive]], [[Cave Theory]], [[Loss Aversion]]); Fundamentals 2 ([[Exam Technique]], [[Mindmaps|Live Learning Events]]); Briefing ([[Common Traps]], [[Techniques in School]]).
-- **Filled 2026-05-29 (round 3):** the *Learning Support* library, 36 clips consolidated into 6 pages (listed under Support library). The only unsynthesized clip is "Recommended apps", an affiliate list with no lasting learning content.
-- **Coverage:** the full linear program path and the Learning Support library are now covered. The remaining corpus items are minor (a few duplicate-variant clips and Live Clinic transcripts).
-- **Resolved:** the 30-Day Plan stage is the five dimension-split challenges (deep processing / mindset / retrieval / self-management / self-regulation) under [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]].
+- Decision-making: [[wiki/Decision Making/Decision Making|Decision Making]] · [[wiki/Decision Making/Changing Decisions|Changing Decisions]] · [[wiki/Decision Making/Choice Throttling|Choice Throttling]] · [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]] · [[wiki/Dimensions/Mindset/Perfectionism and Overthinking|Perfectionism and Overthinking]] · [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]]
+- Exam execution: [[wiki/Domains/Miscellaneous/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]
+- Self-management and wellbeing: [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]] · [[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure|How to Maintain Sustainable Energy Under Pressure]]
+- Live clinics: [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] · [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]] · [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] · [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] · [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] · [[wiki/Dimensions/Deep Processing/Deep Processing for Research|Deep Processing for Research]]
+- Niche learning contexts: [[wiki/Self Management/Hyper-Focus and Hyper-Distractibility|Hyper-Focus and Hyper-Distractibility]]
+- Supplementary learning: [[wiki/Learning Craft/Clinical Learning System|Clinical Learning System]] · [[wiki/Learning Craft/Microlearning System|Microlearning System]]

@@ -16,71 +16,128 @@ tags:
   - mandarin
   - language-learning
   - hub
+wedge_reviewed: false
 ---
 
 # How Chinese Characters Work
 
-Speech comes first. A character is the written form of a spoken word. That word already had a sound and a meaning. The writing still has both. Each part of the writing has a job: some parts picture a thing, some add a sense, some point to a range of syllables, and some do nothing. Once you can name the job of each part, the thousands of characters are not arbitrary drawings. You can predict a meaning domain and a sound range for a character you have never seen. You can rebuild a character whose form you have only half forgotten.
+> Not yet reviewed by Wedge.
+
+A Chinese character exists to record speech, so each one ties a written form to a spoken word's sound and meaning. The link from form to sound and the link from form to meaning each have to be learned and tested on their own. The form divides into functional components, and each component does one of four jobs in a given character. Form components use a picture to express meaning, meaning components carry an abstract extension of an original sense, sound components point at a range of pronunciations, and empty components do neither. Each character fixes its components' jobs for itself, so the same shape can give meaning in one character and sound in another. Reading a character by the jobs of its parts lets a learner predict its meaning and its sound range and rebuild a half-forgotten form. New characters are then learned in a staggered cycle anchored to words already known by ear.
+
+<figure>
+<svg viewBox="0 0 520 250" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="hc-three-t">
+<title id="hc-three-t">The link from form to sound and the link from form to meaning each have to be learned and tested on their own.</title>
+<rect x="0.5" y="0.5" width="519" height="249" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="185" y="20" width="150" height="48" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/><text x="260" y="50" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">form</text>
+<rect x="30" y="150" width="150" height="48" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="105" y="180" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">meaning</text>
+<rect x="340" y="150" width="150" height="48" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="415" y="180" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">sound</text>
+<path d="M220,71 L127.165,141.554" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="120,147 124.1,137.6 130.2,145.5" style="fill:var(--qp-mut)"/>
+<path d="M300,71 L392.835,141.554" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="400,147 389.8,145.5 395.9,137.6" style="fill:var(--qp-mut)"/>
+<text x="150" y="110" text-anchor="end" style="fill:var(--qp-mut);font-size:12px">form to meaning</text>
+<text x="370" y="110" style="fill:var(--qp-mut);font-size:12px">form to sound</text>
+<text x="260" y="230" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">learned and tested on their own</text>
+</svg>
+</figure>
 
 ## What the parts do
 
-A written word is one item with three attributes: form, sound, and meaning. Each pair of attributes is connected by a link, and each link gets stronger or weaker independently of the other two. [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] is the first page of the cluster and covers this model: the learner stores each character as one item and trains each of its three links. The reason is that the yes-or-no question "do I know this character?" does not show which of the three links has failed.
+A character is one memory item with three equal sides, which are form, meaning and sound. [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] rejects the view of a character as an ideograph that runs from form straight to meaning, because what a character does is bring the spoken word to mind. The form-to-sound edge and the form-to-meaning edge each need their own encoding and their own testing. A new character is best tied to a word you can already recognise when you hear it.
 
-The written form can be divided into parts. A **functional component** is a part that does a job in the character it appears in: it pictures something, it contributes an abstract sense, it indicates a range of syllables, it does two of those at once, or it does nothing. Picture, sense, and sound are the roles used in the ordinary analysis of the script. A part that does nothing is leftover shape that gives no information about the word, and this cluster adds it as a fourth role. For that reason [[wiki/Language/Chinese/Empty Components|Empty Components]] comes last in the reading order: a part can be classified as empty only after it has been checked for picture, sense, and sound and none of them applies.
+The form then divides into functional components, meaning parts that do real work in that character, most often by supplying a pronunciation or a meaning. The breakdown stops at that level. 部 breaks into 咅 plus 阝, and cutting deeper produces noise, because a memory story built on parts that explain nothing does not help.
 
-A part's job is decided separately in each character it appears in. The same shape can do a different job in a different character. 立 contributes sense in 端, sound in 拉, and nothing in 音. The strokes of 立 are the same in all three characters, and each of the three characters has a different history.
+A component's job belongs to the character it sits in, not to its shape. In 端 the shape 立 carries meaning, in 拉 it carries sound, and in 音 it is empty. 大 behaves the same way, picturing its sense in 美, lending meaning in 尖 and lending sound in 达. In 达 it does two jobs at once. The core skill is naming the job a component does in the character at hand.
 
-When the parts of a character are identified by the job they do in that character, the thousands of characters are no longer arbitrary pictures. A learner can predict a meaning domain and a syllable range. The learner can use those two constraints to rebuild a form they have half forgotten. The learner can also discard most folk glosses, because what they explain can be derived from the parts. The prediction gives a meaning domain and a syllable range. It does not give the reading of the character. [[wiki/Language/Chinese/Sound Components|Sound Components]] covers the single-character cycle that produces the syllable range. [[wiki/Language/Chinese/Form Components|Form Components]] covers the parts that contribute a picture. The origin of such a part is a depiction, even when the modern strokes no longer look like the thing depicted. [[wiki/Language/Chinese/Meaning Components|Meaning Components]] covers the parts that contribute a sense. That sense is an abstract extension of a concrete original meaning.
+<figure>
+<svg viewBox="0 0 520 236" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="hc-four-t">
+<title id="hc-four-t">The four jobs split into two semantic types and two others.</title>
+<rect x="0.5" y="0.5" width="519" height="235" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="40" width="236" height="176" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/>
+<text x="138" y="30" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">semantic components</text>
+<text x="40" y="72" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Form components</text>
+<text x="40" y="92" style="fill:var(--qp-ink);font-size:12px">use a picture to express meaning</text>
+<text x="40" y="142" style="fill:var(--qp-ink);font-size:14px;font-weight:600">meaning components</text>
+<text x="40" y="162" style="fill:var(--qp-ink);font-size:12px">carry an abstract extension</text>
+<text x="40" y="180" style="fill:var(--qp-ink);font-size:12px">of an original sense</text>
+<rect x="270" y="40" width="230" height="80" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="290" y="72" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Sound components</text>
+<text x="290" y="92" style="fill:var(--qp-ink);font-size:12px">point at a range of pronunciations</text>
+<rect x="270" y="136" width="230" height="80" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="290" y="168" style="fill:var(--qp-ink);font-size:14px;font-weight:600">empty components</text>
+<text x="290" y="188" style="fill:var(--qp-ink);font-size:12px">do neither</text>
+</svg>
+</figure>
 
-Rote copying uses the same hours on individual strokes, and individual strokes contain none of that structure. [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] explains why dividing characters into functional components is a better use of study time than copying strokes.
+The four jobs split into two semantic types and two others. Form components express meaning through what they picture, and meaning components through a meaning they have acquired, so the two together go by the name semantic components. Sound components supply a sound, while empty components supply no sound and no meaning. Radicals are a separate matter, since a radical tells a reader where to find a character in a dictionary and does not reliably say what the part is doing.
 
-The detailed explanation of each role, and every worked example other than the 立 example above, are on the other pages of the cluster listed below.
+<figure>
+<svg viewBox="0 0 520 306" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="hc-jobs-t">
+<title id="hc-jobs-t">A component's job belongs to the character it sits in, not to its shape.</title>
+<rect x="0.5" y="0.5" width="519" height="305" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="40" style="fill:var(--qp-ink);font-size:15px;font-weight:600">立</text>
+<rect x="20" y="52" width="150" height="92" rx="16" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="95" y="86" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">端</text>
+<text x="95" y="110" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">meaning component</text>
+<rect x="185" y="52" width="150" height="92" rx="16" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="260" y="86" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">拉</text>
+<text x="260" y="110" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">sound component</text>
+<rect x="350" y="52" width="150" height="92" rx="16" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="425" y="86" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">音</text>
+<text x="425" y="110" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">empty component</text>
+<text x="20" y="182" style="fill:var(--qp-ink);font-size:15px;font-weight:600">大</text>
+<rect x="20" y="194" width="150" height="92" rx="16" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="95" y="228" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">美</text>
+<text x="95" y="252" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">picturing its sense</text>
+<rect x="185" y="194" width="150" height="92" rx="16" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="260" y="228" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">尖</text>
+<text x="260" y="252" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">meaning component</text>
+<rect x="350" y="194" width="150" height="92" rx="16" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="425" y="228" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">达</text>
+<text x="425" y="252" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">sound component</text>
+<text x="425" y="270" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">two jobs at once</text>
+</svg>
+</figure>
+
+That structure is what makes components worth studying. [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] sets out four rules, which are meaningfulness, organization, association and visualization, and functional components give each character the meaning and organization those rules depend on.
 
 ## Reading order and where this sits
 
-Read the pages of the cluster in this order. Each page uses a classification that the pages before it teach you how to make.
+The pages build on one another, so the order matters. [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] comes first with the three-sided model. [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] comes next and keeps apart how a character works through sound and meaning and how its written shape is meant to look. The pages on form, meaning and sound components then cover the three working jobs, and the sound series page groups characters that share a sound component. Empty components, meaning trees and the two practice methods come after that, once each job can be named.
 
-Read [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] first. It covers one written word and its three links, each of which can fail separately. [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]] gives the rule for when to stop dividing a character: stop at the level of functional components, and do not divide the character into every stroke. Next, read the pages on the three working roles in any order: form, meaning, and sound. [[wiki/Language/Chinese/Sound Series|Sound Series]] extends the study of sound components from single characters to families and related-initial groups. Empty Components comes after those pages, because a part can be classified as leftover only after it has been checked for the other three jobs. [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]] covers how the senses of characters developed from their original meanings, and compares the character-tree with the component-tree. The practice pages come last. The **IME Method** recovers a form you cannot recall: you list candidates that fit the sound side, list candidates that fit the meaning side, and cross the two lists. [[wiki/Language/Chinese/The IME Method|The IME Method]] covers that crossing of the two lists. **Pipelining** means learning the spoken word first, in both directions, and adding the written form afterward. [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]] covers that sequence. The whole cluster is based on Rules of Effective Memorization.
+- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]]: form, meaning and sound as one item, with each link trained on its own
+- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]]: deep structure is the working logic of a character, surface structure its written shape
+- [[wiki/Language/Chinese/Form Components|Form Components]]: parts that use a picture, best read through the ancient form
+- [[wiki/Language/Chinese/Meaning Components|Meaning Components]]: parts whose meaning is an abstract outgrowth of a concrete first sense
+- [[wiki/Language/Chinese/Sound Components|Sound Components]]: parts that predict a range of pronunciations, not one guaranteed reading
+- [[wiki/Language/Chinese/Sound Series|Sound Series]]: characters that share a sound component, sorted into seven related-initial groups
+- [[wiki/Language/Chinese/Empty Components|Empty Components]]: parts that contribute neither sound nor meaning to a particular character
+- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]]: senses that grow from the original meaning tied to the form
+- [[wiki/Language/Chinese/The IME Method|The IME Method]]: recalling a forgotten form by cross-matching possible sound and meaning components
+- [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]]: a three-day cycle that adds the written form to a word already overlearned
+- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]: the four memory rules behind learning by component
 
-The same eleven pages, one line each:
+The two practice methods turn that structure into daily work. The IME method already works once you know roughly 50 characters, and it falls back on recognition when recall will not come, since recognition outlasts recall. Pipelining takes three to five characters at a time through a three-day cycle, so no character's form, meaning and sound are learned on one day. It sits on top of the daily spaced-repetition reviews, which continue.
 
-- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]]: one written word, three links, each of which can fail on its own
-- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]]: stop dividing at functional components, not at every stroke
-- [[wiki/Language/Chinese/Form Components|Form Components]]: parts whose job is a picture
-- [[wiki/Language/Chinese/Meaning Components|Meaning Components]]: parts whose job is an extended sense
-- [[wiki/Language/Chinese/Sound Components|Sound Components]]: parts that point to a syllable range
-- [[wiki/Language/Chinese/Sound Series|Sound Series]]: families and related-initial groups
-- [[wiki/Language/Chinese/Empty Components|Empty Components]]: marks, and leftover shapes from corrupted forms
-- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]]: the character-tree next to the component-tree
-- [[wiki/Language/Chinese/The IME Method|The IME Method]]: recover a forgotten form by crossing sound-side candidates with meaning-side candidates
-- [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]]: learn the spoken word first, then add the written form
-- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]: why dividing characters by function beats copying strokes
-
-[[wiki/Language/Character Primer|Character Primer]] was the first page on this subject. This cluster replaces that short outline with a model a learner can use, and it keeps the same study materials: real words, audio, popup dictionaries, and traditional script.
-
-In the three-mode immersion system, this cluster belongs to [[wiki/Language/Preparation|Preparation]]. Character study prepares the learner for immersion, and immersion remains the main activity. [[wiki/Language/Refold Language Learning System|Refold Language Learning System]] is that three-mode system. Pipelining connects written forms to words the learner already knows from listening. The guess-and-verify step of the IME method requires a large amount of real reading. Both methods assume that immersion is already providing spoken vocabulary and text.
-
-Once a learner can identify the job of each part, the thousands of characters are no longer arbitrary. This gives the learner a meaning domain, a syllable range, and a way to recover a form they have partly forgotten. It does not give an exact modern reading. It does not replace the listening and reading the learner is already doing. Character study is for words the learner already knows from listening.
+Character study also fits into a wider language method. [[wiki/Language/Character Primer|Character Primer]] is a short first introduction, which presents characters as symbols resembling pictures that stick better once split into meaningful components. In the immersion method the language pages follow, [[wiki/Language/Preparation|Preparation]] is the short orientation to a language's sounds, words, characters and grammar that makes the next stretch of immersion noticeable. Most of the time still goes to the language itself.
 
 ## Related pages
 
-- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]]: the first page of the cluster; one written word and its three links, which fail separately
-- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]]: the rule for when to stop dividing a character; stop at the level of functional components
-- [[wiki/Language/Chinese/Form Components|Form Components]]: parts that contribute a picture; the origin of such a part is a depiction
-- [[wiki/Language/Chinese/Meaning Components|Meaning Components]]: parts that contribute a sense; the sense is an abstract extension of a concrete original meaning
-- [[wiki/Language/Chinese/Sound Components|Sound Components]]: parts that indicate a syllable range; the cycle of predicting a sound and then looking it up, one character at a time
-- [[wiki/Language/Chinese/Sound Series|Sound Series]]: families and related-initial groups
-- [[wiki/Language/Chinese/Empty Components|Empty Components]]: marks, and leftover shapes from corrupted forms; why this page comes last in the reading order
-- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]]: how senses developed from original meanings; the character-tree compared with the component-tree
-- [[wiki/Language/Chinese/The IME Method|The IME Method]]: recalling a form by crossing sound-side candidates with meaning-side candidates
-- [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]]: learning in two stages, the spoken word first and the written form later
-- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]: why dividing characters into functional components is a better use of study time than rote copying of strokes
-- [[wiki/Language/Character Primer|Character Primer]]: the earlier introductory page that this cluster replaces
-- [[wiki/Language/Refold Language Learning System|Refold Language Learning System]]: the three-mode immersion system that contains this cluster
-- [[wiki/Language/Preparation|Preparation]]: the pillar of that system that this cluster belongs to; character study prepares the learner for immersion
+- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]]: one item with three links, each encoded and tested on its own
+- [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]]: stopping a breakdown at functional components
+- [[wiki/Language/Chinese/Form Components|Form Components]]: parts whose job is a picture
+- [[wiki/Language/Chinese/Meaning Components|Meaning Components]]: parts whose job is an extended sense, learned through tables of sibling characters
+- [[wiki/Language/Chinese/Sound Components|Sound Components]]: parts that point at a range of pronunciations
+- [[wiki/Language/Chinese/Sound Series|Sound Series]]: the seven related-initial groups
+- [[wiki/Language/Chinese/Empty Components|Empty Components]]: distinguishing marks, leftover corruption and decoration
+- [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]]: how senses branch from the original meaning
+- [[wiki/Language/Chinese/The IME Method|The IME Method]]: cross-matching sound and meaning candidates from memory
+- [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]]: staggering form, meaning and sound across three days
+- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]: meaningfulness, organization, association and visualization
+- [[wiki/Language/Character Primer|Character Primer]]: a short first introduction to character writing systems
+- [[wiki/Language/Refold Language Learning System|Refold Language Learning System]]: the immersion method that character study supports
+- [[wiki/Language/Preparation|Preparation]]: the orientation stage that makes immersion noticeable
 
 ## Sources
 
-- DeFrancis, J. (1984). *The Chinese Language: Fact and Fantasy*. University of Hawaii Press. Especially "The Ideographic Myth": characters record words and morphemes of speech, and do not record ideas separate from speech.
-- Taft, M., & Zhu, X. (1997). Submorphemic processing in reading Chinese. *Journal of Experimental Psychology: Learning, Memory, and Cognition, 23*(3), 761–775. Readers process components as well as whole characters.
-- Handel, Z. (2019). *Sinography: The Borrowing and Adaptation of the Chinese Script*. Brill. Treats characters as a writing system for spoken language. It does not treat them as a separate ideographic code that runs parallel to speech.
+- Outlier, "Chinese Character Masterclass", Lessons 1 to 12. Private course notes, paraphrased.
+- Refold, "Character Primer", course note. Private course notes, paraphrased.
