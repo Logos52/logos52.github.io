@@ -3,121 +3,118 @@ title: "The Burnout Arc"
 type: system-model
 status: developing
 created: 2026-07-17
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
-written-by: grok
-model: grok
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
+description: "A story shape where the gift turns into a job, the character's own capacity fails with no villain behind it, and recovery comes through rest and other people, with some sadness left over at the end."
 tags:
   - kind-world
   - tsumugu
   - story-craft
+wedge_reviewed: false
 ---
 
 # The Burnout Arc
 
-The burnout arc is a story shape with no antagonist in it. What fails is the character's own capacity, and nothing anyone defeats will bring it back.
+> Not yet reviewed by Wedge.
 
-Two parts make the shape work. The first is a gauge: a visible ability that rises and falls with the interior state, so a collapse the reader cannot see becomes something they can watch. Flight turns unreliable. A companion's voice goes quiet. The second is a world kind enough that recovery is believable without a rescue, where rest is given rather than prescribed. What the shape gives you is a collapse and a return that both happen inside one person.
+The burnout arc is a story in which the thing a character loves turns into work, the joy drains out, and their own ability fails with no villain behind the loss. *Kiki's Delivery Service* is the model. A young witch turns her flying into a delivery business, gives up friends and rest to keep up with orders, and then loses the power to fly and to understand her talking cat. Because the cause is inside her, there is no enemy she can beat to win the power back. The shape shows the collapse through an outward ability, so flight and the cat's voice stand in for her confidence and sense of self without anyone explaining them. Recovery comes through rest that a friend offers and through finding her own reason for the work, and the power returns clumsily when she has to save someone she cares about. The world around her is kind, which keeps the struggle inside her, and the ending lets some sadness survive the triumph.
 
-Every example below comes from *Kiki's Delivery Service*.
-
-## Core takeaways
-
-- The burnout arc has no antagonist. The character's own capacity fails, and beating someone will not restore it.
-- A gauge is an outside ability that visibly works or fails, so the inner collapse can be read without narration. The two gauges in this film are flight and the cat's voice.
-- The collapse, the clumsy return, and the thing that stays gone all have to show on the same gauge.
-- Residue is the one thing the recovery does not give back. In the theatrical cut, the cat never speaks again.
-- A kind world lets support and doubt exist together, prices its kindnesses, has no villains, and lets sadness survive the ending.
-- The gift comes back when it is used for someone, off the books, and unpaid. Fear gets her onto the broom, and joy keeps her in the air.
+<figure>
+<svg viewBox="0 0 520 248" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="burnout-arc-t">
+<title id="burnout-arc-t">The burnout arc is a story in which the thing a character loves turns into work, the joy drains out, and their own ability fails with no villain behind the loss.</title>
+<rect x="0.5" y="0.5" width="519" height="247" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<path d="M62,52 C78.5,68.3 128.0,140.0 161,150 C194.0,160.0 227.0,127.0 260,112 C293.0,97.0 326.0,65.0 359,60 C392.0,55.0 441.5,78.3 458,82" style="fill:none;stroke:var(--qp-rule2);stroke-width:2"/>
+<circle cx="62" cy="52" r="5" style="fill:var(--qp-mut)"/>
+<path d="M62,61 L62,186" style="fill:none;stroke:var(--qp-rule2);stroke-width:1;stroke-dasharray:2 4"/>
+<text x="62" y="206" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">When the gift</text>
+<text x="62" y="224" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">becomes the job</text>
+<circle cx="161" cy="150" r="5" style="fill:var(--qp-accent)"/>
+<path d="M161,159 L161,186" style="fill:none;stroke:var(--qp-rule2);stroke-width:1;stroke-dasharray:2 4"/>
+<text x="161" y="206" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">A collapse</text>
+<text x="161" y="224" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">with no villain</text>
+<circle cx="260" cy="112" r="5" style="fill:var(--qp-mut)"/>
+<path d="M260,121 L260,186" style="fill:none;stroke:var(--qp-rule2);stroke-width:1;stroke-dasharray:2 4"/>
+<text x="260" y="206" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">Rest that</text>
+<text x="260" y="224" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">is given</text>
+<circle cx="359" cy="60" r="5" style="fill:var(--qp-mut)"/>
+<path d="M359,69 L359,186" style="fill:none;stroke:var(--qp-rule2);stroke-width:1;stroke-dasharray:2 4"/>
+<text x="359" y="206" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">A clumsy</text>
+<text x="359" y="224" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">return</text>
+<circle cx="458" cy="82" r="5" style="fill:var(--qp-mut)"/>
+<path d="M458,91 L458,186" style="fill:none;stroke:var(--qp-rule2);stroke-width:1;stroke-dasharray:2 4"/>
+<text x="458" y="206" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">sadness</text>
+<text x="458" y="224" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">that stays</text>
+</svg>
+</figure>
 
 ## When the gift becomes the job
 
-The girl says it herself: *Flying used to be fun until I started doing it for a living.* The activity is the same. The joy is not. Once the gift is paid work it changes, and the rest of the arc is that change becoming visible.
+The arc starts with a gift the character has wanted all their life. Kiki leaves home young and full of hope to live as a witch, and her delivery service is how she earns money and a purpose. At first the work satisfies her. As orders speed up, she gives up time with friends, parties and rest to keep up.
 
-Helping people was the joy she started with. The slide begins where the deliveries stop landing. A granddaughter shrugs at a herring pie carried through a storm: a soaking, a fever, a missed party, then a door shut in her face. Friendship and rest get crowded out, and every unthanked run adds to the total. That running gap between what the work costs and the thanks or joy it returns is the joy deficit.
+The turn comes when the passion starts to feel less like something she wants to do and more like a job she has to do. Kiki says it outright when she tells a friend that flying used to be fun until she started doing it for a living. She also tells him that she doesn't enjoy flying and feels her confidence slipping. Pressure on her sense of worth adds to the drain. She compares herself with fashionable girls in town, and she feels plain beside a popular, well-dressed girl in her friend's circle. These doubts stay small and everyday in the film, which makes them easy to miss on a first watch.
 
-Worth narrows next. *If I lose my magic, that means I've lost absolutely everything.* Identity fusion is that narrowing: the person and the function have merged, and what she can still produce is the only remaining measure.
+## A collapse with no villain
 
-## The collapse arrives with no event
+A different story would hand the loss to an outside force, for example an evil witch who steals the power and has to be beaten. Here the loss comes from inside. One reading is that her magic draws on her sense of self, so when she loses touch with who she is, she loses the magic too. The film never states the cause, which leaves it open to interpretation.
 
-No witch curses her. The block is self-doubt, overthinking, and comparison. A painter friend names her own version out loud: imitation, copying other painters instead of finding her own pictures. The heroine's version stays subtext. The black dress. The red shoes in a shop window. Her face in the glass after a group of pretty girls walk past. The film never says the word. State the comparison out loud and the beat dies.
-
-The failure shows before anyone names a cause. First the cat goes quiet. Then the broom breaks. Viewers find out the same way she does, from those two instruments, never from a narrator explaining a feeling.
-
-## Withdrawal, and rest that is given
-
-Once those instruments have failed, she pulls back. *I make friends, then suddenly I can't bear to be with any of them. The other me, the cheerful, honest me, went off somewhere.* The person she wants is the person she sends away. The phone call to the boy who likes her ends with *please don't call me anymore.*
-
-Rest arrives as a gift, never as a prescription. The painter friend offers space and one instruction, stop trying: long walks, scenery, naps, no flying. That instruction holds only while worry itself is the obstruction. A money problem, a closed door, or a body that will not work is a different category, and handing any of them a walk insults the character.
+The low point shows as withdrawal. After a bad afternoon she lies face down on her bed in silence, then tells her cat that something seems wrong with her. She makes friends, then suddenly can't bear to be around them, and the cheerful, honest version of herself seems to have gone somewhere. She pushes away the boy who likes her, telling him not to call again, even though connection is what she wants. Because her whole identity rests on one ability, she says that losing her magic would mean losing everything.
 
 ## The gauge
 
-A gauge is an external instrument that visibly works or fails, so the inner collapse can be read without narration. This film keeps two: flight, and the cat's voice. The audience reads the collapse off the broom.
+Kiki's inner state is invisible, so the story gives it something outside her to show it. Flight is the main gauge. Witches fly with their spirit, Kiki explains, so when her spirit falters, flying fails, and the loss of joy in flying stands for the loss of happiness inside her. The cat is the second gauge. Right after her withdrawal, Kiki can no longer understand him, and he only meows like an ordinary cat, which is how she learns her power is going.
 
-The gauge then disciplines the writer. Collapse, clumsy return, and the thing that stays gone all have to show on the same instrument: she cannot fly, she flies badly, the cat still only meows. Without that instrument the inner collapse has nothing to be seen on, and what remains is mood told as mood. Under a vocabulary ceiling the gauge is not optional, because the words for the feelings do not exist yet. [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] is the parent technique: inner state as a watchable instrument.
+<figure>
+<svg viewBox="0 0 520 244" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="burnout-gauge-t">
+<title id="burnout-gauge-t">The shape shows the collapse through an outward ability, so flight and the cat's voice stand in for her confidence and sense of self without anyone explaining them.</title>
+<rect x="0.5" y="0.5" width="519" height="243" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="130" y="20" width="260" height="48" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="260" y="50" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">her confidence and sense of self</text>
+<rect x="20" y="118" width="230" height="86" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/><text x="135" y="148" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">flight</text><text x="135" y="166" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">the main gauge</text><text x="135" y="186" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">flying fails</text>
+<rect x="270" y="118" width="230" height="106" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="385" y="148" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">the cat's voice</text><text x="385" y="166" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">the second gauge</text><text x="385" y="186" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">he only meows like</text><text x="385" y="206" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">an ordinary cat</text>
+<path d="M220,71 L142.993,110.863" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="135,115 140.7,106.4 145.3,115.3" style="fill:var(--qp-mut)"/>
+<path d="M300,71 L377.007,110.863" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="385,115 374.7,115.3 379.3,106.4" style="fill:var(--qp-mut)"/>
+</svg>
+</figure>
 
-## How the gift comes back
+The gauge lets the story show a breakdown without telling it. Many films explain a character's feelings until the emotion is gone, and this one leaves the doubts in small moments the audience has to notice.
 
-The gift does not restart by discipline. Fear gets her onto a borrowed broom, because a person she loves is hanging off a dirigible, and joy is what keeps her in the air. The gift comes back the moment it is used *for someone*, off the books, and unpaid. All three conditions.
+## Rest that is given
 
-She flies badly at first. She hits walls. By the third bounce she is adapting. Mastery does not arrive as a switch. The gauge records the repair as a run of attempts.
+Recovery starts when a friend steps in at the lowest point. The painter Ursula brings Kiki out to stay at her forest cabin and rest. When Kiki asks what to do when the power won't come, Ursula's answer is to stop trying for a while. She tells Kiki to take long walks, look at the scenery, nap at noon and put flying out of her mind, and promises the ability will return.
 
-## What stays lost
+Ursula also gives Kiki a mirror for her own trouble. She once loved painting so much that she painted until she fell asleep at the easel. Then one day she couldn't paint at all, because her work had become copies of other people's paintings. The answer was to find what and why she wanted to paint and develop her own style. The same spirit that drives a witch drives a painter or a baker, and each has to find their own inspiration. Kiki's version of the problem is comparison, worrying more about being like other girls than about being herself.
 
-Something stays lost. In the theatrical cut the essays read from, the cat never speaks again. Some later dubs and home-video versions restore the voice, and the residue kept here is the theatrical one. Residue is the one thing the recovery does not refund. The film declines to give the cost back, and is trusted because of it. **Pick the thing that cannot come back before drafting the repair**, or the ending will refund it under pressure.
+Other people do the rest of the work. The elderly woman Kiki once helped bakes her a cake to thank her for her kindness. Each of the supporting characters struggles too. Ursula can't always paint, the old woman doesn't have the bond she wants with her granddaughter, and even the cheerful boy is full of self-doubt.
 
-What has changed is inside her. The whole town's applause is no longer required. A letter home carries the last line: *I still get sad. But I love this town.* She no longer needs everyone to accept her.
+## A clumsy return
 
-## A world kind enough
+The power comes back under pressure. The boy ends up hanging from a rope under an airship, and Kiki borrows a broom from a man in the crowd to reach him. Fear for him gets her airborne, because she cares about him. She flies badly at first, bouncing off walls, and only by the third bounce does she push off with her feet. The rough return fits a skill that comes back through need and repetition, and it doesn't make her suddenly amazing.
 
-That inside repair is believable only inside a world built a particular way. A kind world is a setting where support and doubt can coexist, where kindness is priced and sets up the next scene, where no one is a villain, and where sadness is allowed to survive the ending.
+Fear gives the immediate push, but joy is what lasts, and Kiki's joy has always been helping people. Her trouble began when deliveries stopped making anyone happy, and the rescue gives her that joy back. She ends the film less hungry for everyone's approval and willing to accept that not everyone will like what she does.
 
-Support without agreement. The parents think the timing is wrong, they take the toy broom away, and they still back the journey. The mother sews the dress while saying she disagrees. The father gathers the street for a send-off in which nobody speaks against her. **Doubt and support are independent axes**, and the kind world tracks them separately.
+## A kind world, and sadness that stays
 
-Kindness is an economy, and that economy *is* the plot. A pacifier run, offered at her lowest hour, after a near-crash, a scolding officer, and a hotel that would not take her, turns into coffee, then a room, then the business. The baker pays the full fee for a job that failed. The girl pays it back in chores and gets the old oven lit. The baker sends her home with a cake. That chain is a ripple economy: each priced kindness finances the next scene, and the ripple takes the place of a conflict-driven structure. The chain holds because every act has a price. The pacifier run is unpaid labour at the hungriest point in the film. The kind world turns saccharine the moment kindness is free. [[wiki/Story Craft/The Moral Core|The Moral Core]] is the general law: a core whose payment is continuous is most exposed, and virtue that costs nothing does no work.
+The arc works because the world is kind. Kiki's parents trust her choice to leave, her town is full of strangers who help her, and her kindness to others keeps coming back to her. With no villain in the way, the only obstacle left is inside her. In this kind of world, the demons are often the ones people carry themselves.
 
-No villains, and no one unjustified. The officer has grounds for the anger. The city is busy, not cruel. The granddaughter who hates fish pies is not wrong, because the grandmother never asked. Weather is the only antagonist that returns. The nearest thing to a rival shows up in the credits as a friend, neither beaten nor shamed.
-
-Sadness is still there at the end. *I still get sad* is spoken after the town has already cheered the rescue. A kind world still holds sadness and meets it.
-
-## Where this shape sits among other arcs
-
-A long stretch of the film passes without a fight, and a plot-first reader will score the stakes as empty. [[wiki/Story Craft/Stakes Without Mortality|Stakes Without Mortality]] is how a no-villain arc still holds tension, and it has to be actively run, not assumed. This shape sits among the five on [[wiki/Story Craft/Arc Types|Arc Types]]. It specializes [[wiki/Story Craft/The Change Arc|The Change Arc]], the general internal-argument structure, and the Lie here is identity fused to output. [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] is the chain that loads that fusion stage.
-
-## What the two parts are for
-
-The shape needs both parts. A gauge, so the collapse, the clumsy repair, and the unrefunded thing all register. A kind world, so an inside repair can be believed and trusted, because the cost is not refunded. The name stays as it is. Burnout here is a story-shape name, not a medical diagnosis and not a workplace-abuse plot.
-
-## How to practice this
-
-1. Pick one outside ability in your story that visibly works or fails. Check that the collapse, the clumsy return, and the thing that stays gone all show on it. If one of the three does not show there, you are telling mood as mood.
-2. Name the thing that cannot come back before you draft the repair. Then read your ending. If the ending gives that thing back, the pressure to refund it won.
-3. Check that the gift returns while it is used for someone, off the books, and unpaid. All three conditions have to hold at once. Notice whether fear starts the attempt and joy keeps it going.
-4. Write the repair as a run of attempts instead of a switch. Count the failed tries before the one where the character adapts. If there are none, mastery arrived too fast.
-5. Put a price on every kindness in the setting. Check that each priced kindness pays for the next scene. A kindness that costs nothing turns the world saccharine.
-6. Write one scene where a character disagrees with the choice and backs it anyway. Doubt and support are independent axes. Notice that the scene holds without a villain.
+The ending refuses happily ever after. Right after the rescue makes her the town's hero, the film closes on a letter to her parents saying that she still gets sad but loves the town. Sadness stays part of life in this world after the climax. In a kind world people notice each other's low periods and help, and they don't pretend the low periods are gone for good.
 
 ## Open questions
 
-Whether the shape still reads as burnout when the gift never became a job: a collapse of an unpaid vocation, with the same gauge.
-
-How small a residue can be and still make the repair trusted: a voice, a place, a friendship's old ease.
-
-Whether a kind world can hold this arc beside a real antagonist, or whether the first justified villain collapses the ripple economy into a conflict plot.
+- How does a character's own gift become the thing that wears them down?
+- How does a kind world change what a story can use as its obstacle?
+- How does an outward ability carry an inner state without any explanation?
+- How does a rough return of a skill change what the recovery means?
 
 ## Sources
 
-*Kiki's Delivery Service* (1989, Hayao Miyazaki / Studio Ghibli): the worked example. Theatrical / essays' cut for the cat's silence.
+- Cinema Therapy, "Therapist Reacts to KIKI'S DELIVERY SERVICE", 2023-10-17. https://www.youtube.com/watch?v=L9H8f_DkyJ8
+- The Soak, "Why Ghibli Succeeds Where Disney Fails", 2024-12-29. https://www.youtube.com/watch?v=4xUaZ9Vr-Cg
+- Movie Notepad, "Mental Health & Burnout in Studio Ghibli's 'Kiki's Delivery Service' - A Video Essay & Love Letter", 2023-04-15. https://www.youtube.com/watch?v=2vursPai-go
+- Solly, "How Kiki's Delivery Service Portrays Modernity PERFECTLY", 2023-05-18. https://www.youtube.com/watch?v=lIVw1MMUln8
+- TimJongUn Productions, "Kiki's Delivery Service Will Always Be an Inspiration", 2023-06-14. https://www.youtube.com/watch?v=1PMGs6fbYaY
 
-[Why Ghibli Succeeds Where Disney Fails](https://www.youtube.com/watch?v=4xUaZ9Vr-Cg) (The Soak): the four kind-world rules as a reading.
+## Related pages
 
-[Therapist Reacts to KIKI'S DELIVERY SERVICE](https://www.youtube.com/watch?v=L9H8f_DkyJ8) (Cinema Therapy): identity fusion; fear-starts / joy-sustains; clumsy reps.
-
-[Mental Health & Burnout in Studio Ghibli's 'Kiki's Delivery Service'](https://www.youtube.com/watch?v=2vursPai-go) (Movie Notepad).
-
-[How Kiki's Delivery Service Portrays Modernity PERFECTLY](https://www.youtube.com/watch?v=lIVw1MMUln8) (Solly): comparison as subtext; self-defined success.
-
-[Kiki's Delivery Service Will Always Be an Inspiration](https://www.youtube.com/watch?v=1PMGs6fbYaY) (TimJongUn Productions): the residue.
-
-The eleven-stage partition is this vault's synthesis (2026-07-17), not any one essay's list. The essays are readings. Where they disagree, the film wins.
+- [[wiki/Story Craft/Arc Types|Arc Types]]: the wider set of story shapes this one sits among.
+- [[wiki/Story Craft/The Change Arc|The Change Arc]]: an arc built on a character changing.
+- [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]]: showing an inner state through what a character does and holds.
+- [[wiki/Story Craft/Stakes Without Mortality|Stakes Without Mortality]]: real stakes in stories where no one has to die.
