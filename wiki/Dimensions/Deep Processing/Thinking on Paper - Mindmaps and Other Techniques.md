@@ -8,7 +8,7 @@ method: plain-rewrite-2026-09-11
 prose-model: opus
 written-by: grok
 model: grok
-source-count: 7
+source-count: 8
 description: "The page as extra working memory, a workbench for relations, not a record of what was read."
 tags:
   - note-taking
