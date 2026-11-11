@@ -3,11 +3,13 @@ title: "Reading Frames and What They Hide"
 type: concept
 status: developing
 created: 2026-07-27
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
 prose-model: opus
 written-by: grok
 model: grok
+description: A checklist reading of a character catches every bad act but cannot record a choice the character makes by holding back.
+wedge_reviewed: false
 tags:
   - character
   - method
@@ -18,101 +20,87 @@ flag-reason: "cluster held: Story Craft; opener is owner-picked Opus A. Do not p
 
 # Reading Frames and What They Hide
 
-A reading frame is a fixed list you score a character against, present or absent. Its strength is that it cannot be charmed. Every claim has to land on something visible on the page, so behaviour a reader is fond of still gets counted.
+> Not yet reviewed by Wedge.
 
-Its blind spot is structural rather than a matter of tuning. A choice does not always appear as a behaviour. Sometimes it appears as an absence: the thing this person could have done, had every reason to do, and did not. A present-or-absent list scores that as nothing having happened. The list then comes back looking complete while the beat that mattered most went unrecorded.
-
-The limit sits in the unit of measurement. Each behaviour becomes a symptom, present or absent, so the frame has one axis. A chosen restraint has nowhere to land on it.
+A reading frame is a fixed list of traits you score a character against, each one present or absent. Its strength is that charm cannot sway it, since every mark must point at something the character visibly did. Its weakness is that it has only one axis. A moment where the character holds back, or tells an unwelcome truth, either scores as nothing or gets filed as one more symptom. A clinical reading of Jack Sparrow shows both sides. It lists his harms accurately, yet the clips it chose also contain four moments of restraint the list cannot hold.
 
 ## Core takeaways
 
-- A reading frame is a fixed list you score a character against, present or absent. It cannot be charmed, because every claim has to point at something visible on the page.
-- The list has one axis, so a restraint the character chooses is scored as nothing having happened.
-- The filmed reading of the 2003 pirate film and its sequels assigns the bad behaviour correctly, and files four refusals as further symptom.
-- A flat arc holds the character still and turns his Truth on the world. A one-axis frame reads that stillness as zero growth and reads later change as remission.
-- The diagnostic manual's remorse criterion covers indifference to hurting another or rationalizing it. The read tested only for a missing sorry.
-- The repair adds a second category for evidence the first reading already selected: what the character turns down while holding every advantage.
+- A trait checklist is hard to fool, because every mark has to rest on visible behavior.
+- With only one axis, a chosen restraint has nowhere to land.
+- Applied to Jack Sparrow, the checklist names real harms and then files his blunt honesty under the same harms.
+- A frame that sees only symptoms reads later good behavior as the symptoms easing, not as a choice.
+- The fix is a second column for what a character declines to do while holding every advantage.
 
 ## What the list gets right
 
-A filmed diagnostic reading of the 2003 pirate film and its sequels is the worked case. The inventory it gives is real. He owes a debt. The coin he offers is another man's soul. Asked if he can send a friend into lifelong service, he says yes. He owes money to every lord of that world, and to one more person he cheated out of a ship. A later film confirms the plans were made up as he went. Four shipmates have tried to kill him and one managed it, and the locker rescue is not a reunion. Against the cluster of reckless, unreliable, and careless of who gets hurt, each item is on-screen and correctly assigned.
+The worked case is a video in which a therapist and a filmmaker discuss the Pirates of the Caribbean films, and the therapist scores Jack against antisocial personality disorder. In that clinical sense, "antisocial" means reckless, impulsive, rule-breaking behavior with little regard for its effect on others. It does not mean shy.
 
-The read states the limit of its own method and then crosses it. One could say the behaviour is just the genre. In the real world, the same behaviour is treated as a sign of the clinical label the source applied: antisocial personality disorder, which is the label the source used, and not a diagnosis of a fictional person or of a reader. A criterion list cannot hold "this is just how the genre dresses" as a rival account. Once a behaviour is admitted, it is evidence. The on-screen therapist would apply the villain diagnosis.
+The evidence it gathers is real. He owes a soul to the captain of a ghost ship. He offers a young friend in his place, and when asked whether he can live with condemning him, says he can. He owes money to every pirate lord and a ship to another captain he tricked. He shows little remorse, uses people and drops them, and acts on impulse. He admits he makes plans up as he goes. Charm lets him get away with it, and the reading warns that real people with this pattern are skilled at faking remorse. As an inventory of harms, the list holds up.
 
 ## Four refusals the list cannot file
 
-The same clip set already holds four moments the list cannot record as restraint.
+The clips the therapist chose also hold four moments that read differently once restraint has somewhere to go.
 
-Told he cheated, he replies with one word: the label of the job. There is no denial, no justification, and no charm. An accurate charge is accepted.
+When a rival says he cheated, Jack answers with a single word, "Pirate." He does not deny it, justify it or turn on the charm. He accepts an accurate charge.
 
-Hanging an opponent from a boom, with nothing left to explain, he states the rule anyway: the only rules that really matter are what a man can do and what a man cannot. Scored against the list, that counts as not caring about law or ethics. The same clip also shows a man saying his held rule at the one moment when he holds every advantage.
+With that rival trapped and nothing left to prove, he states his rule anyway. The only rules that matter, he says, are what a man can and cannot do. The checklist scores this as disregard for law. Read another way, it is a man naming the code he actually lives by, out loud.
 
-Told he will discover he is a good man, he replies that all evidence is to the contrary. The charm is declined, and the compliment is refused on his own testimony.
+When told he will discover he is a good man, he replies that all the evidence points the other way. He turns down a flattering verdict on his own testimony.
 
-Asked his purpose, he tells no lies. He states the criminal intention in full and is disbelieved. The read takes the speech as the mission statement of egocentrism. Nothing false is said in it. A slap later draws a concession of fault and no apology. That combination is the one the remorse criterion, as the read scores it, cannot score. What this reading counts as missing remorse is that nobody heard sorry. A spoken sorry is not a conscience. The scene separates those two things.
-
-Four moments, already in the source's own selection, get used for something else. The source did not fabricate these clips. It filed them under the only axis its frame has.
+Asked at the dock why he has come, he states his whole criminal plan and is not believed. The reading takes this as his creed of self-interest. Yet nothing in it is false.
 
 ## Why change looks like remission
 
-What the frame registers as zero growth, said of the first film, is a character who holds still. That stillness is the shape a **flat arc** takes when the story turns the man on the world rather than turning the world on him. "Zero growth" and a fixed point the world moves around are the same observation. Only the second one names an arc type. [[wiki/Story Craft/Arc Types|Arc Types]] already carries the type: Truth held, turned on the world. A frame with one axis can register change only as remission.
+The therapist's reading also traces an arc across the films. In the first film he wants his ship at the start and still wants it at the end, so the filmmaker says there is zero growth. Later his crew rescues him from the land of the dead, and he learns that nobody came because they missed him. His treatment of others has caught up with him. Then, holding the chance at immortality, he puts the blade in a dying friend's hand instead, and gives up his own immortality.
 
-The later films are the source's own evidence. The read credits an arc accurately: a heart given up, immortality given up, and later a neck risked at a lighthouse and a family reunited. The explanation offered is desire for glory, plus a speech treated as therapy with desire as the lever. Those labels belong to the read and are not findings about that therapy. Underneath sits a spectrum model: every box ticked, and still enough want of contact left in him for it to show. That is a coherent account. It is also the only account a single axis can give.
-
-The more heroic figure is judged a little bit less interesting. Moving a fixed point costs that, in the source's own aesthetic, and the judgement was not retracted later. If a character is scored as a pile of symptoms, the frame has no vocabulary left for stillness as design.
-
-The diagnostic manual's remorse criterion is broader than the read's operationalization. The manual looks for indifference to hurting, mistreating, or stealing from another, or for rationalizing it, not only for a missing sorry. The read did not invent a sloppy test. It applied the manual's own surface. The fault is using that surface as a model of intention and of arc. Every behavioural observation survives. Only what they add up to changes. A criterion list is a weak model of intention.
+The therapist calls this a strong arc, while adding that he still helps people mainly when it serves him. He also allows that the disorder is a spectrum, and that some people who meet every criterion still carry enough wish for connection to let it surface. A one-axis frame can only call that change a fading symptom. A second column would let the reader see the giving-up as a choice, foreshadowed by his blunt honesty in the first film.
 
 ## What a writer does with the second reading
 
-The repair uses the same evidence. Put the refusals next to the acts, meaning the things he turns down at a cost to himself, and the missing category returns. The best evidence for how a person works often sits inside a read that reached the opposite verdict, in the footage that read already picked. Turning something down while holding every advantage says more than an action taken under pressure. Same clips, second reading: he declines the compliment, states the rule, and takes the name.
+<figure>
+<svg viewBox="0 0 520 224" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="rf-columns-t">
+<title id="rf-columns-t">A writer can track two lists for a morally grey character. One records what the character does to others. The other records what the character could have done and chose not to.</title>
+<rect x="0.5" y="0.5" width="519" height="223" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="230" height="140" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="135" y="54" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">what the character</text>
+<text x="135" y="74" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">does to others</text>
+<rect x="270" y="20" width="230" height="140" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/>
+<text x="385" y="54" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">what the character</text>
+<text x="385" y="74" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">could have done</text>
+<text x="385" y="94" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">and chose not to</text>
+<text x="260" y="186" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">The second list is where</text>
+<text x="260" y="204" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">an anti-hero's code becomes visible</text>
+</svg>
+</figure>
 
-[[wiki/Story Craft/Diagnosing a Character|Diagnosing a Character]] grades a *build*, using eleven structural checks rather than symptom load, so it does not inherit this fault. The word "diagnose" on that page means a build audit. A clinical frame on a person is a different instrument.
-
-The transfer a writer can actually use is the anti-hero case. A flat arc whose Truth is disreputable still reads as no arc to a frame scoring improvement. Arc Types owns the type.
-
-[[wiki/Story Craft/The Moral Core|The Moral Core]] holds that the audience believes the price, never the speech. The source contains one stated law and no scene charging it. What would charge that rule into a held code stays open.
-
-Roundness as the capacity to surprise convincingly is what a criterion list cannot score, because a convincing surprise reads as inconsistency to a checklist. Forster's test and the list collide, and the titles are in Sources. [[wiki/Story Craft/Round Characters and the Telling Detail|Round Characters and the Telling Detail]] owns the surprise test.
-
-[[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] gets a worked example for step two, identify the frame. [[wiki/Concepts/Bias and Framing|Bias and Framing]] covers why a criterion list arrives with valence already attached. [[wiki/Concepts/Charisma|Charisma]] holds the live disagreement: the source treats charm as buying exemption, and that page's signalling account disagrees about what charm is for.
+A writer can track two lists for a morally grey character. One records what the character does to others. The other records what the character could have done and chose not to. The second list is where an anti-hero's code becomes visible, and where a later turn can be earned rather than announced.
 
 ## The choice was already in the clips
 
-The list was always good at catching bad behaviour. The choice it missed was already inside the first reading's own clips: something the person could have done, at advantage, and did not. The repair uses evidence that is already listed. What it adds is a second category to file that evidence under.
+None of the four moments needs new evidence. The therapist's own episode selected every one of them, then filed each under the one category its frame offered. A second reading costs nothing but a second column, applied to material the first reading had already gathered.
 
 ## How to practice this
 
-1. Write out the fixed list you are scoring a character against. Notice whether every entry can only be present or absent.
-2. List the character's on-screen behaviour and assign each item to the list. Notice that the assignment can be correct and still leave the list incomplete.
-3. Go back through the same footage for moments the character could have acted and did not. Notice which of those your list scored as nothing having happened.
-4. Put those refusals next to the acts. Notice whether a refusal cost the character something.
-5. Check whether a refusal happened while the character held every advantage. Notice that it says more than an action taken under pressure.
-6. When your list reports zero growth, ask whether the character is holding still by design. Notice whether the story turns his Truth on the world.
-
-## Related pages
-
-- [[wiki/Story Craft/Diagnosing a Character|Diagnosing a Character]]: the vault's eleven-check; grades a *build*, not a person
-- [[wiki/Story Craft/Arc Types|Arc Types]]: flat arc already defined as Truth held, turned on the world; the anti-hero case that still reads as no arc to a frame scoring improvement is added here
-- [[wiki/Story Craft/The Moral Core|The Moral Core]]: price, not speech; the source has a stated law uncharged
-- [[wiki/Story Craft/Round Characters and the Telling Detail|Round Characters and the Telling Detail]]: surprise-convincingly versus checklist-as-inconsistency
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]: step two, identify the frame, gets this worked example
-- [[wiki/Concepts/Bias and Framing|Bias and Framing]]: a criterion list as a frame with valence pre-attached
-- [[wiki/Concepts/Charisma|Charisma]]: charm as exemption versus charm as signalling; they disagree, and the disagreement is not resolved
+- Pick a grey character and list their harms from the text, with scene references.
+- Make a second list of moments where they had an advantage and did not use it, or told a truth that cost them.
+- Check whether the character's turn late in the story is set up by anything on the second list.
 
 ## Open questions
 
-What would charge the stated rule into a held code.
-
-Whether the flat-arc reading survives five films or only the first.
-
-The honest boundary of a clinical frame on fiction.
-
-Whether "less interesting" is a usable draft diagnostic.
+- How do I tell a real restraint from one the character simply never had the chance to break?
+- How do I keep the second column from turning into excuses for the first?
+- How do I apply a two-column reading to a character who has no code at all?
 
 ## Sources
 
-- Cinema Therapy, "Psychology of an Anti-Hero: JACK SPARROW," 18 April 2023. <https://www.youtube.com/watch?v=iUN6d7ur5Dg> Jonathan Decker and Alan Seawright. Free on YouTube; watching is not required.
-- American Psychiatric Association, *Diagnostic and Statistical Manual of Mental Disorders*, 5th ed. (2013). ASPD remorse criterion: indifference to, or rationalizing of, having hurt, mistreated, or stolen from another. Quoted here from widely available secondary summaries; the manual itself is not required.
-- K. M. Weiland, flat arc: the character already holds the Truth; the story turns that Truth on the world.
-- E. M. Forster, *Aspects of the Novel*: the test of a round character is whether it can surprise convincingly.
+- Cinema Therapy, "Psychology of an Anti-Hero: JACK SPARROW", YouTube, 2023.
+
+## Related pages
+
+- [[wiki/Story Craft/The Rogue's Code|The Rogue's Code]]: the code a thief keeps, which the second column records
+- [[wiki/Story Craft/The Character Blueprint|The Character Blueprint]]: the same character's entrance as a template
+- [[wiki/Story Craft/The Moral Core|The Moral Core]]: values shown by what a character will pay for
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]: checking which frame a judgment came from
+- [[wiki/Concepts/Bias and Framing|Bias and Framing]]: a checklist as a frame with its verdict built in
+- [[wiki/Concepts/Charisma|Charisma]]: charm as a way past judgment

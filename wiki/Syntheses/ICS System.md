@@ -3,9 +3,9 @@ title: "ICS System"
 type: synthesis
 status: developing
 created: 2026-05-07
-updated: 2026-09-11
+updated: 2026-11-11
 written-by: fable
-method: plain-rewrite-2026-09-11
+method: fresh-from-notes-2026-11-11
 prose-model: fable
 description: "The learning system this wiki is organised around: open the black box between studying and remembering, diagnose five capabilities, and fix only the one capping the rest."
 aliases:
@@ -22,109 +22,161 @@ tags:
   - high-performers
   - system-design
   - learning-engineers
+wedge_reviewed: false
 ---
+
 
 # ICS System
 
-Hours go in, pages get covered, and a grade comes out. The step that decided the grade runs unwatched in between: what the brain did with the material. ICS is the learning system this wiki is organised around, and it is built on that step.
+> Not yet reviewed by Wedge.
 
-It is a system for running your own learning. It is not a single technique to try. Its first rule: outcomes, meaning grades, speed, confidence, and the feeling of mastery, are not steerable directly; they arrive as symptoms. Two things can be steered, the information you let in and the processing you do on it, and steering those makes success far more probable without guaranteeing it. The rule the whole system runs on is that what is remembered is what was thought about; the system's wording for it is memory is the residue of thought.
-
-The picture this wiki holds of people who keep improving is that they treat study methods as a system to redesign when the demand changes. The name for that stance is learning engineer: design, test, and adjust. It is a picture of a job, not a finding about a type of person. On this picture success is a system that can be taken apart and rebuilt when the situation changes, and it is never one perfect method.
+A good learning system lets you run your own learning by watching what your brain does with material, rather than by counting hours alone. Grades, retention and confidence are outcomes you cannot steer directly. They follow from two levers you do control: the information you take in and the way you process it. The system checks five capabilities: deep processing, retrieval, self-regulation, self-management and mindset. It then works on whichever one is holding the others back. Change runs through a slow loop of trying a technique, reflecting on it and adjusting, with far more practice than theory.
 
 ## Core takeaways
 
-- Grades, speed, and confidence cannot be steered directly; they are symptoms. Only the information you let in and the processing you do on it can be steered.
-- Learning is an information-processing system with two outputs, memory and mastery. Progress is measured as retention times quality per hour spent, never as pages covered.
-- Five capabilities get diagnosed: deep processing, retrieval, self-regulation, self-management, and mindset. The weakest one limits the rest, so only that one gets fixed, and the diagnosis re-runs every one to two weeks.
-- The system runs as a loop: define the required performance, find the limiter, choose the smallest upgrade, encode with purpose, retrieve before checking, diagnose the gap, reflect, and change one variable.
-- A technique is only as good as the thinking it triggers. When results stay flat, inspect the thinking before blaming the technique, and treat retrieval as diagnosis.
-- The stance is that of a learning engineer: keep, refresh, or discard what is in the existing toolkit, and after a miss change a method, a condition, or a sequence rather than the story of who the learner is.
+- Focus on processes, because outcomes are symptoms of them.
+- No single technique is enough, so combine methods whose strengths cover each other's gaps.
+- Higher-order learning, where ideas connect, is where most of the value lies.
+- Five capabilities decide how well learning works, and the weakest one caps the rest.
+- New techniques need at least five hours of practice per hour of theory before they pay off.
+- When a technique feels hard or stalls, check the thinking it triggers before blaming the method.
 
 ## The model it runs on
 
-Most learners control only inputs: what to study, how hard, how many hours. The step that decides the result stays out of sight. The system calls that a black box, and living with one has a familiar signature: effort produces inconsistent results, and the question that follows is *what's wrong, is it me?* The system's response is to open the box. Opening it means knowing a little theory of the process, enough to line a method up with a principle, see why it failed, and change it, and not enough to become a scientist of the brain. [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|Opening the Black Box of Learning]] carries that metaphor in full. Learning is an information-processing system: information in, processing, and two outputs, memory, meaning how much you keep, and mastery, meaning what you can do with it. That is also how progress gets measured: retention times quality per hour spent, never pages covered. Counting pages fails as a measure because the real time cost of weak processing is re-learning what was forgotten, and that cost is larger than the first pass. The formulas and worked profiles live on [[wiki/Concepts/Learning Efficiency|Learning Efficiency]]. The fact to carry is the limit: doubling hours with a low-order method moved total mastery ten points, because some methods cannot reach the levels required however long they run. Hard work is necessary and not decisive; the type of work is what separates learners.
+<figure>
+<svg viewBox="0 0 520 258" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="icsys-model-t">
+<title id="icsys-model-t">Learning has an input, a process and two outputs. Information comes in and the brain processes it. The results are memory, meaning how much you keep, and mastery, meaning how good that knowledge is.</title>
+<rect x="0.5" y="0.5" width="519" height="257" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="110" y="20" width="300" height="48" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="260" y="50" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Information comes in</text>
+<path d="M260,71 L260,84" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260,93 255.0,84.0 265.0,84.0" style="fill:var(--qp-mut)"/>
+<rect x="110" y="96" width="300" height="48" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="260" y="126" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">the brain processes it</text>
+<path d="M200,147 L143.525,166.115" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="135,169 141.9,161.4 145.1,170.9" style="fill:var(--qp-mut)"/>
+<path d="M320,147 L376.475,166.115" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="385,169 374.9,170.9 378.1,161.4" style="fill:var(--qp-mut)"/>
+<rect x="20" y="172" width="230" height="66" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="135" y="202" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">memory</text><text x="135" y="220" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">how much you keep</text>
+<rect x="270" y="172" width="230" height="66" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="385" y="202" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">mastery</text><text x="385" y="220" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">how good that knowledge is</text>
+</svg>
+</figure>
 
-Processing has a direction. Lower-order work leaves knowledge isolated, recitable one fact at a time; higher-order work leaves it integrated, so multi-concept problems and real writing become possible. [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]] carries the full case, and the mastery levels that make "required" computable are on [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]. The two orders do not convert in both directions: isolated practice does not accumulate into integration, and if the connecting never happens deliberately, the first time knowledge is thought about in connected form is the exam. Run the other way, integration picks up most of the lower order for free, turning the roughly 80% of learning time usually spent on isolated memorisation into about 20%. Relevance depends on the same connections: to the brain, relevant means connected, so integrated material stays while isolated material has to be held in by repetition. When something feels irrelevant, the repair is a question: what would I need to know, or connect this to, for this to become relevant. Learn that first, then come back. Intake has limits at both ends, one word at a time is too little to think about and a hundred pages at once is more than can be processed, so regulating what comes in is a steering move in its own right.
+Learning has an input, a process and two outputs. Information comes in and the brain processes it. The results are memory, meaning how much you keep, and mastery, meaning how good that knowledge is. Most learners only adjust inputs such as what to study, how hard and for how long. The processing in the middle stays hidden, a black box. A learner who opens it acts more like an engineer, choosing methods, watching the result and adjusting.
+
+Processing can be lower-order or higher-order. Lower-order work leaves facts isolated, so you can recite them one at a time. Higher-order work joins them, which lets you solve problems that involve several concepts and write with clear logic. To the brain, relevant means well connected. So when material feels irrelevant, the fix is to find what it should connect to and build that link first.
+
+Intake matters too. The brain has limited room to process at any one moment. Taking in lectures, slides and readings all together creates a bottleneck. The aim is relevant information in an amount small enough to think about properly.
+
+<figure>
+<svg viewBox="0 0 520 398" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="icsys-five-t">
+<title id="icsys-five-t">Five capabilities decide how well learning works, and the weakest one caps the rest.</title>
+<rect x="0.5" y="0.5" width="519" height="397" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="480" height="58" rx="16" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="44" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Deep Processing</text>
+<text x="40" y="64" style="fill:var(--qp-ink);font-size:13px">pulling meaning from information</text>
+<rect x="20" y="90" width="480" height="58" rx="16" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="114" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Retrieval</text>
+<text x="40" y="134" style="fill:var(--qp-ink);font-size:13px">recalling and using knowledge</text>
+<rect x="20" y="160" width="480" height="58" rx="16" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="184" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Self-Regulation</text>
+<text x="40" y="204" style="fill:var(--qp-ink);font-size:13px">monitoring and steering your own learning</text>
+<rect x="20" y="230" width="480" height="58" rx="16" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="254" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Self-Management</text>
+<text x="40" y="274" style="fill:var(--qp-ink);font-size:13px">time, tasks, focus, sleep and priorities</text>
+<rect x="20" y="300" width="480" height="58" rx="16" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="324" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Mindset</text>
+<text x="40" y="344" style="fill:var(--qp-ink);font-size:13px">how you read stress, mistakes and setbacks</text>
+<text x="260" y="378" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">the weakest one caps the rest</text>
+</svg>
+</figure>
 
 ## What it looks at
 
-The diagnosis runs on five capabilities. They are what remains of a list that began at sixteen and was cut, over years of coaching, to the five that stayed predictive, and they are assessed by a half-hour instrument built so that years of coaching insight can be handed over in an afternoon. A result is a snapshot of current habits, never a label: it is re-taken every few months, and the goal is doubling a weak capability from wherever it starts. Each carries a failure signature a reader can catch themselves in within ten seconds:
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]: pulling meaning from information by analyzing, connecting and critiquing it. The difference lives in how you think, so copying someone's visible method rarely transfers.
+- [[wiki/Dimensions/Retrieval|Retrieval]]: recalling and using knowledge, from stating a fact to teaching or solving a problem. Memory decays, and practicing retrieval counters that decay and builds performance under pressure.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: monitoring and steering your own learning. If deep processing is the engine, self-regulation is the driving skill, and it rests on noticing your own thinking.
+- [[wiki/Dimensions/Self-Management|Self-Management]]: time, tasks, focus, sleep and priorities, run through systems instead of willpower. The best learning method is useless if the work never happens.
+- [[wiki/Dimensions/Mindset|Mindset]]: how you read stress, mistakes and setbacks. A growth view treats mistakes as feedback, while a fixed view treats them as a verdict on who you are.
 
-- **[[wiki/Dimensions/Deep Processing|Deep Processing]]**: extracting meaning by analysing, connecting, critiquing, and linking to what is already known. Weak: notes feel complete but knowledge stays fragmented; rereading, verbatim copying, memorising in isolation.
-- **[[wiki/Dimensions/Retrieval|Retrieval]]**: recalling and using knowledge under varied conditions. Weak: familiarity gets mistaken for mastery, and self-testing gets avoided because failing to recall feels bad. That avoidance is a habit to break, not a preference.
-- **[[wiki/Dimensions/Self-Regulation|Self-Regulation]]**: monitoring and steering the process. It is not mistake avoidance; it is using mistakes as steering information, sought early while they are still consequence-free. Self-regulation enables the other four, which is why it trains before technique volume; with it, performance survives a bad teacher, a dull subject, and time pressure. Weak: methods repeat without anyone knowing what failed. The layer underneath is [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]].
-- **[[wiki/Dimensions/Self-Management|Self-Management]]**: systems rather than willpower, meaning the habits, routines, and environments that make consistent action possible. Weak: good intentions never become consistent practice.
-- **[[wiki/Dimensions/Mindset|Mindset]]**: how difficulty, mistakes, and feedback get read. Weak: challenge becomes threat instead of information. Of the five it responds fastest to deliberate training, and the reframe machinery is [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]].
-
-An older three-way cut, learning skills, enablers, and growth skills, maps onto the same five: learning is deep processing plus retrieval, enablers are self-management, growth is self-regulation plus mindset. The two cuts are the same set of capabilities at two levels of detail. [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] is the canonical page for the five and states the rule everything next runs on: the weakest one limits the rest. The questions that raise any session's order need no tools at all: how does this relate, which similarities matter, what function does this serve, which relationship is most important, how should this be chunked, what changes if I organise it another way. Their lower-order counterparts, what does this mean, what should I remember, what did the material say, mark a session as lower-order the moment they are the only questions running. Note-taking has the same test: writing everything down is attentive, proactive, and lower-order; if a later process would make the material make sense, that process comes first.
+The five capabilities also fit an older split into three skill groups. Learning skills cover processing and retention. Enablers such as time management and attention control let you apply those skills consistently. Growth skills, such as reflection and learning from mistakes, set how fast your habits improve.
 
 ## The rule that makes five names a system
 
-A rate limiter is the part whose weakness caps every other part. The discipline follows: find the current limiter, fix only that, stop when it is no longer the lowest. When progress stalls, find the weakest link and strengthen it rather than adding another technique. Limiters move. First a fixed mindset, a month later time management, because one worsened or the other improved, so the diagnosis re-runs every one to two weeks. Gains stack when the next builds on the last: after learning to compress difficult concepts into fewer keywords, the stacked move is prestudy, which strengthens the same capability; procrastination work is useful but does not build on it. The unit is a 1% improvement. Daily, that compounds to roughly 30% in a month, and the shape of progress is one to two to three, never one to ten. People who look for a perfect system make no progress while they wait for one large jump. The observation from the system builder's cohorts of students is that the learners who gained most practised longer and more consistently, never the ones furthest through the material. [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] defines the unit; [[wiki/Dimensions/Dimensions of Learning|Upgrading Your Dimensions]] carries the two-phase logic: cheap, high-frequency losses first, cognitive retraining second, because the second pays only across months.
+A rate limiter is a factor whose weakness drags everything else down, so fixing it gives an outsized gain. The rule is to find the current limiter and work on it first. That is why the program starts with enablers, which make consistent study possible. Mindset and reflection follow, then retrieval, with the harder encoding skills last. Each stage removes something that would otherwise block the next.
 
 ## The loop, and what it costs
 
-The system runs as one repeating sequence: define the performance actually required, find the current rate limiter, choose the smallest useful upgrade, encode with purpose, retrieve before checking, diagnose the gap, reflect until the reflection changes the next attempt, change one variable and run the next experiment. This is the loop the field calls self-regulated learning: plan, run, look at the result, change the method. Monitor outcomes, run experiments, and improve the system instead of staying in the same frustration. A named method is not a usable method. The question to ask is "What can I adjust?" and never "Am I just not good at this?" Notice shallow processing, resistance, or lost focus early and change the hour before it finishes off-track.
+<figure>
+<svg viewBox="0 0 520 198" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="icsys-cycle-t">
+<title id="icsys-cycle-t">Improvement runs through a reflection cycle with four stages: experience, reflection, abstraction and experimentation.</title>
+<rect x="0.5" y="0.5" width="519" height="197" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="30" y="24" width="200" height="48" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="130" y="54" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">experience</text>
+<rect x="290" y="24" width="200" height="48" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="390" y="54" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">reflection</text>
+<rect x="290" y="130" width="200" height="48" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="390" y="160" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">abstraction</text>
+<rect x="30" y="130" width="200" height="48" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="130" y="160" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">experimentation</text>
+<path d="M234,48 L277,48" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="286,48 277.0,53.0 277.0,43.0" style="fill:var(--qp-mut)"/>
+<path d="M390,76 L390,117" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="390,126 385.0,117.0 395.0,117.0" style="fill:var(--qp-mut)"/>
+<path d="M286,154 L243,154" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="234,154 243.0,149.0 243.0,159.0" style="fill:var(--qp-mut)"/>
+<path d="M130,126 L130,85" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="130,76 135.0,85.0 125.0,85.0" style="fill:var(--qp-mut)"/>
+</svg>
+</figure>
 
-Encoding's working form is question-first: write what the material must answer before opening it (which keywords feel relevant, what am I curious about, why do I need this, what problems does it solve), map the answers as they connect, simplify the map every two or three keywords, and send material too detailed for questions to flashcards for now. The full encoding workflow is [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], which trains deep processing itself in stages, awareness to technique alignment to refinement to fluent integration, with [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] in front: a broad shallow frame built before the main event so no part of the material is met for the first time during the main pass, several answers sought per question, and the structure held provisional until late. The whole pipeline is walked on [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]. Retrieval is trained first for three reasons. It pays immediately, where encoding makes the bigger long-term difference but takes months to years, because it means unlearning existing processing habits. Retrieving triggers re-encoding on its own. And it gives a felt reference point: the brain retrieves far more efficiently than it encodes, so one good integrated retrieval session shows what connected thinking feels like before the skill to build connections from scratch exists. The scheduling machinery is [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]. Good retrieval finds gaps, strengthens memory, tests more than one order of knowledge, matches the knowledge's type, spaces, interleaves, and pushes past comfort, in forms as plain as brain dumps, practice questions, and real execution. The heaviest form is reteaching a topic from memory, whole, parts, then whole again; it needs no other teacher, it collapses into vague summary unless encoding is already strong, and it takes months to master even for the fully competent. That form is [[wiki/Dimensions/Retrieval/WPW|WPW]]. Practice itself can make performance worse: it makes bad habits permanent by repeating them, and without reflection decades of experience can produce very little growth. Reflection exists to prevent that. It runs the public four-move cycle on [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], with one binding rule: it does not count as reflection until it ends in a changed next attempt; reflection that ends in nothing is rumination. Marginal gains set the size of each change, and the cycle is the procedure for making it.
+Improvement runs through a reflection cycle with four stages: experience, reflection, abstraction and experimentation. Record what you tried and how it went in a single line. Reflect by gathering useful detail, not by venting. Draw a general lesson, then design the next experiment.
 
-The loop has specific costs. Theory to practice runs one to five, with at most five hours of new theory a week, because beyond that the practice hours owed cannot be done. Run one or two non-overlapping techniques at a time: pair a scheduling method with a note-taking method, never three of the same kind, because with three note-taking methods running, no failure can be attributed. When the real material is not available, practise on anything adjacent, since half overlap with future content gives half the benefit. Practice replaces study time rather than adding to it: twenty existing hours convert. An asset is a skill, habit, or process you own that makes all future learning easier. A one-off fix, such as heavy tutoring or extra grinding, solves today's problem, leaves its cause intact, and so the problem returns. A technique becomes an asset on four requirements: understood, remembered, applied correctly, and performed easily even tired, stressed, or having a bad day. The fourth decides, because a skill available only at full focus fails on the days it is needed. Until the third requirement, skill-building costs more time than it saves; time spent rises before it falls, and the extra time is the cost of building the skill. Spread the hours across five skills and each grows at one-fifth speed: value due after ten focused hours arrives after fifty, realistically one or two hundred, with the effort carried the whole time. Driven into one or two skills, visible payoff arrives in two to three weeks. Of the three knowledge types, declarative, procedural, and conditional, only the first, the what, can be taught; the how and the when are learned only from your own attempts, on a split of roughly 10% theory to 90% practice. That is why gathering ever more explanation to remove risk before starting is a failure mode. A skill may admit three or four hundred possible mistakes; each person makes five, six, or seven of them, and practice is the only way to learn which are yours. The real split of learning a skill, against the assumed three-quarters theory, runs roughly 15% basic theory, 20% practice that surfaces the big misconceptions, 10% correcting them, and 55% further practice and challenge. What separates fast growers is judgment about acquiring insight, never the starting insight: the learner who retries the same day compresses a month of realisation into a day or two. The builder of the system estimates his own rate at ten to twenty times faster, with about 70% of his years spent building insight rather than technique. Two standing aids. First, decide the in-session response in advance as an if-then, *if I catch myself re-reading, I close the material and write the question I am actually trying to answer*, because every repair above requires a decision at the moment when deciding is failing. Second, a language model generates variations, counterexamples, questions, and feedback after the attempt, never before it. Barriers get triaged: accept, address, or mitigate the impact where the discomfort is not worth it. The triage has an input: a schedule planned, actual time tracked, the two compared, and each gap named as a barrier before it gets a verdict. Most people accept too early, since many accepted barriers are not impossible, only uncomfortable, and the real decision is how much discomfort to tolerate. Rushing shows in one way: later techniques become impossibly hard or useless because you can no longer detect your own errors. Attention rebuilt from zero after every transition costs time on its own, covered under [[wiki/Self Management/Flow State|attention management]].
+The costs are real.
+
+- Theory to practice should run about one to five, so each hour spent learning a technique calls for at least five hours using it.
+- Learn only one or two techniques at a time, and pick ones that do not overlap, such as a scheduling method paired with a note-taking method. Several overlapping methods at once make it impossible to tell which one caused a mistake.
+- Practice replaces existing study time instead of adding to it, since the techniques embed in work you already do.
+- Learning to learn means unlearning old habits, so it feels hard at first.
 
 ## Telling whether a technique is working
 
-The system's one contestable claim is this: when a strategy feels hard or results stay flat, inspect the thinking being triggered before blaming the technique. The failure it guards against is hard to see. A technique gets started correctly, then softened toward the familiar to reduce discomfort, so it is performed technically while the thinking it was built to train gets skipped; a mind map can look correct while the mental work is avoided. The technique is in how you think, and what is on the page does not show whether that thinking happened. That is also why copying a strong learner's technique fails so reliably: processing ability varies with genetics and early experience, a strong processor succeeds in spite of mediocre technique and fills its gaps without noticing, and the technique gets credit for what the processing did. The full treatment is [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]; the decay pattern is [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]; the judging side is [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]].
+Correct practice matters more than volume. Practicing with the wrong form only makes you better at doing it wrong. Small gains in the right direction are the signal to watch, even when no one else would notice them.
 
-Retrieval is diagnosis, not only memory. Test under conditions that resemble real use. The signal to watch during a session is uncertainty. Mid-session, ask how much of it you feel: some means expansion; too little means the retreat has already happened; too much means more mistakes than can be managed. Comfortable does not mean effective, and not all difficulty counts either. Difficulty from your brain doing the work is the point; difficulty from a badly arranged situation, meaning unclear material, a missing prerequisite, or exhaustion, is waste, and gets removed. Each feeling has a meaning: anxiety at finding gaps means the gaps hidden by the illusion of knowing are surfacing, which is the tool working. Confidence is wrong in a known direction: repeated restudy raises confidence while lowering delayed recall, so the sessions that felt smoothest are the ones to test soonest. Finding many gaps is not failure; retrieval stops working when it confirms comfort instead of revealing what needs repair. There is also a slower failure: a technique that works now gets assumed to keep working, and processing quality degrades unnoticed for months, which is why the loop repeats. Six questions steer it mid-session: what am I doing, why, is this producing the intended thinking, what kind of difficulty is this, what changed after the last experiment, what should I adjust next. When overwhelmed, turn the overwhelm into questions rather than retreating into lower-order habits; the hierarchy underneath is [[wiki/Syntheses/Are You Learning, or Just Using Techniques|First Principles of Learning]].
+Uncertainty is the other signal, because new ways of working always feel uncertain. Some uncertainty means you are in the learning zone. Very little means you have drifted back to old habits. Too much means you will make more mistakes than you can manage. A subtler failure is softening a technique until it feels familiar, so the notes look right while the intended thinking never happens.
 
 ## The rest of the system, and where it lives
 
-Everyone brings a toolkit of learning habits, and the first move is an audit with three moves: keep and upgrade what still works, refresh what has aged, discard what only adds weight. Adding a better method on top of an unexamined kit makes the kit heavier without making it more complete. Techniques get chosen so a gap in one is covered by a strength in another; more of one technique, however perfect, does not close that technique's own gaps. The reason to layer is that the stack can then be remolded when the exam gets harder, the available hours shrink, or a topic exposes a specific weakness. Completeness is not the reason. Confidence, in this stance, means that the system can change; it does not mean that the technique was found. The stage-ordered path with its timings is [[wiki/ICS Program Map|ICS Program Map]]; the dimension-split practice programme is [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]. The encode loop's moves keep their own drill pages at [[wiki/Dimensions/Deep Processing/Aim|Aim]], [[wiki/Dimensions/Deep Processing/Shoot|Shoot]], and [[wiki/Dimensions/Deep Processing/Skin|Skin]]; Aim and Shoot are an alternating cycle rather than a sequence, and the loop itself is cognitive training in order control and relationship-first encoding rather than a note format. The fast variant, guess the logic, test the guess against the material immediately, commit only once it holds, safe only after the slow version is automatic, is [[wiki/Dimensions/Deep Processing/Bear Hunter System|Hipshot]]. The block-scale strategy for large, dense topics is [[wiki/Dimensions/Retrieval/Multipass System|Multipass System]]: several passes over the whole block rather than one exhaustive one, logic and concepts before details, inquiry-led when time is flexible or objectives-led under pressure at a real price in encoding depth and resilience to unexpected questions. It does not compete with the encode loop; it decides what each encode session covers, and it is the deliberate opposite of weak cramming. Because improving learning keeps requiring decisions about what to work on, the decision layer has its own rules: simple rules decide low-stakes calls; expected value decides uncertain ones, with the downside protected when the risk is serious; emotion alone decides nothing; and the number of open choices gets throttled. Those rules are kept on [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]] and [[wiki/Decision Making/Choice Throttling|Choice Throttling]]. [[wiki/Red Team/Red Teaming|Red Teaming]] belongs in the system because of what it does to a decision before execution: challenging assumptions, widening perspectives, surfacing blind spots, generating alternatives.
+Everyone starts with a toolkit of habits. The first job is an audit: keep and upgrade what works, refresh what has gone stale and drop what does not help. Techniques also need their reasons attached. Knowing why a method works and when it fails lets you apply it, see the result and adjust. That adjusting is self-regulated learning in practice. The detailed methods live on the dimension pages and in the techniques that sit under them.
 
 ## Where it fails, and who it is wrong for
 
-The scaffolding is built for novices, and the best-supported finding on that boundary says the same: support that measurably helps a beginner measurably hurts a learner who already holds the schema, for whom frame-building becomes extra load. On material you already hold a working frame for, skip the frame-building pass and go straight to retrieval. Two size claims come with their origin: that mindset movement moved every other dimension more than any other variable, across ten thousand of the system builder's students, and that mindset moved fastest, in as little as sixty days, across five thousand more. Both are inside-cohort observations, not published findings. The published record on mindset interventions is modest and concentrated in struggling students, which is why mindset is kept as a reframe, *I failed, therefore I am…* rewritten as *I failed, so the process change is…*, and training it is not claimed as the highest-leverage change. The number behind the claim that the system matters more than any technique: even the best-researched techniques work for roughly fifty to sixty percent of people, and typical ones show twenty-to-thirty-percent effects. That is the reason no single perfect technique exists, and the reason layering does. Sometimes the strongest move is subtraction: knowing what not to do can help more than adding, and stopping a harmful habit sits further inside the locus of control than training a new skill. The case against the learning-engineer stance is that "think in systems" can become a story worn over an unchanged kit. The price of the stance is watching the process instead of the grade. Quit if the audit never discards anything. The checkable expectation is that after a miss, the next change is to a method, a condition, or a sequence, and not to the story of who the learner is. The quit signal for diagnosis: two weeks of dimension-diagnosis that has not changed what happens in the next session means stop diagnosing and study, and return at a plateau you cannot name. What to expect, falsifiably: a locked-in asset shows in two to three weeks; mindset moves on a sixty-day horizon; deep processing is a six-to-twelve-month training job.
+Even well-researched techniques work only part of the time, and typical ones produce only modest effects. The gains therefore depend on how you think about learning before any technique is chosen. Rushing is the most common failure. Learners who skip the early lessons or stack several new techniques usually end up relearning the basics. Another failure is responding to forgetting with more of the same, such as rereading, rewriting notes and adding flashcards. That keeps you relearning material without fixing how it was processed.
 
-Outcomes are not yours to hold directly. What can be trusted instead is a track record of processes run, checked, and improved, because comfort and familiarity have been shown to mark the sessions with the weakest delayed recall. The system is the machinery for that track record: open the process, find the capability that caps the others, fix that one, and read the outcomes as symptoms of that work.
+Who the system suits least is an open point. It assumes you are willing to spend weeks in an uncomfortable learning zone, and it treats its own diagnostic as the starting point.
 
 ## How to practice this
 
-1. Before opening new material, write the questions it must answer. Notice whether your notes then connect ideas or copy them.
-2. Retrieve before checking, with a brain dump or practice questions. Notice how many gaps appear; many gaps means the retrieval is working.
-3. Mid-session, ask how much uncertainty you feel. Some means you are expanding; none means you have retreated to the familiar.
-4. Re-run the five-capability diagnosis every one to two weeks. Notice whether the weakest capability has changed since last time.
-5. Audit your toolkit: keep and upgrade, refresh, or discard each method. Notice whether anything gets discarded; if nothing ever does, stop the audit.
-6. After a miss, change one method, condition, or sequence. Notice whether the next attempt runs differently; if not, the reflection was rumination.
-
-## Related pages
-
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]: the five-way diagnostic for finding the weakest link
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: the sibling that owns the metaphor
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]: the later test when the method looks right and results do not move
-- [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]: what happens when natural processing strength outruns strategy
-- [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]]: how a model can accelerate a system without replacing schema formation
+- Before new material, write what it should answer and what it should connect to.
+- Test yourself before rereading, and count the gaps you find.
+- Partway through a session, rate your uncertainty: none, some or overwhelming.
+- Pick your weakest of the five capabilities and work on that one only.
+- Audit your current study habits and sort each one into keep, refresh or drop.
+- After a session that went badly, write a one-line experience note and run the four reflection stages.
 
 ## Open questions
 
-- Which of the five dimensions is currently your rate limiter?
-- Which subjects justify the measurement burden of computing learning efficiency?
-- Which Red Team tools belong in the review loop?
-- Do people who think in systems outperform people who use the same techniques without the story?
+- How do I tell which of the five capabilities is my current rate limiter without the course assessment?
+- How do I keep a one to five practice ratio when the material changes every week?
+- How do I spot when I have softened a technique back into an old habit?
+- How would the system change for someone who already has deep knowledge of a field?
 
 ## Sources
 
-- Kirk-Johnson, Galla & Fraundorf (2019), *Cognitive Psychology*: misinterpreted effort; effortful, effective strategies get judged ineffective and dropped.
-- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students' learning with effective learning techniques. *Psychological Science in the Public Interest* (PSPI), 14(1), 4–58. Technique utility; no technique is universally best; rereading low utility; practice testing high-utility, low cost.
-- Roediger & Karpicke (2006), *Psychological Science*: test-enhanced learning; restudy raises confidence while lowering delayed recall.
-- Koriat & Bjork (2005), *JEP: LMC*: illusions of competence during study.
-- Bjork, E. L., & Bjork, R. A. (2011). Making things hard on yourself, but in a good way. Desirable difficulties, which are context-sensitive; Kornell, Hays & Bjork (2009) and Richland, Kornell & Kao (2009): pretesting and unsuccessful retrieval.
-- Metcalfe (2017), *Annual Review of Psychology*: learning from errors.
-- Bisra et al. (2018): induced self-explanation, g = .55; Guo (2022): metacognitive prompts, g = 0.50; Dignath & Büttner (2008): self-regulated-learning training.
-- Gollwitzer & Sheeran (2006): implementation intentions, d = .65 across 94 tests.
-- Craik & Lockhart (1972): levels of processing; Chi, Feltovich & Glaser (1981): expert versus novice problem organisation.
-- Sweller, van Merriënboer & Paas (2019): cognitive load; the expertise reversal boundary.
-- Rotter (1966): locus of control; Rozenblit & Keil (2002): the illusion of explanatory depth.
-- Sisk et al. (2018); Yeager et al. (2019): the mindset-intervention record: small average effects, concentrated in lower-achieving students.
-- Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. *Theory Into Practice*, 41(2), 64–70. Forethought, performance, self-reflection: a process, not a trait.
-- Dweck, C. S. (2006). *Mindset.* Incremental theory as the question pair, not as a lecture.
-- The system itself, its model, five dimensions, loop, laws of growth, and all cohort figures, is the learning system this wiki organises, stated throughout as its own doctrine and marked as such where its numbers are its own.
+- iCanStudy, "How Top Performers Think About Learning", Introduction. Private course notes, paraphrased.
+- iCanStudy, "Opening the Black Box of Learning", Introduction. Private course notes, paraphrased.
+- iCanStudy, "Transforming How You Learn", Catalyst. Private course notes, paraphrased.
+- iCanStudy, "Deep-processing", Catalyst. Private course notes, paraphrased.
+- iCanStudy, "Mindset", Catalyst. Private course notes, paraphrased.
+- iCanStudy, "Self regulation", Catalyst. Private course notes, paraphrased.
+- iCanStudy, "Retrieval", Catalyst. Private course notes, paraphrased.
+- iCanStudy, "Self management", Catalyst. Private course notes, paraphrased.
+- iCanStudy, "Upgrading Your Dimensions", Catalyst. Private course notes, paraphrased.
+- iCanStudy, "Right vs. wrong way to practise", Briefing. Private course notes, paraphrased.
+- iCanStudy, "Week 2", 30-day challenges. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]: the five capabilities in more depth
+- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: why the thinking matters more than the method
+- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]: a check for when a method looks right but is not working
+- [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]: what happens when processing breaks down
+- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR]]: the core study loop
+- [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]]: using a model inside the system

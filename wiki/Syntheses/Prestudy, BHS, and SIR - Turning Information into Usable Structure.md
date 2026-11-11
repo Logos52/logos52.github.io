@@ -3,8 +3,8 @@ title: "Prestudy, BHS, and SIR - Turning Information into Usable Structure"
 type: synthesis
 status: developing
 created: 2026-05-04
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
 prose-model: fable
 aliases:
   - Minimally Viable Learning System
@@ -15,6 +15,7 @@ written-by: grok
 model: grok
 source-count: 10
 description: "Usable study structure starts before the main event, continues through encoding, and survives through retrieval."
+wedge_reviewed: false
 tags:
   - learning-system
   - synthesis
@@ -25,166 +26,121 @@ tags:
 
 # Prestudy, BHS, and SIR - Turning Information into Usable Structure
 
-Usable study structure starts before the main event, continues through active encoding, and survives through later reconstruction. The house names for those three jobs come after the jobs. [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] is a short pass that builds a rough frame and a few questions before the main event. [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] is four-pass encoding: a rough frame, the questions the material must answer, a working map of connections, then a cut-down structure that survives without the material. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is retrieval spread over time and mixed across topics and forms.
+> Not yet reviewed by Wedge.
 
-The same loop has a smallest version. It does two jobs, build a structure and reconstruct it later, and it is small enough to run on a tired day. Anything past those two jobs is weight.
+Information becomes usable when it has a structure, and three practices build and keep that structure. Prestudy is a quick skim that sorts the main terms of a topic into rough groups before real study begins. Encoding means getting material into long-term memory. The Bear Hunter System does that deep work in three steps, called Aim, Shoot and Skin. You first raise questions, then answer them with logic and connections, then tidy and judge the result. Retrieval means recalling knowledge from memory. Spaced interleaved retrieval spreads that recall over time and mixes topics, which keeps the structure alive by finding gaps to fix. The smallest working version keeps only two jobs, building a rough structure and later rebuilding it from memory.
 
 ## Core takeaways
 
-- Usable structure comes from three jobs in order: a short frame built before the main event (Prestudy), four-pass encoding into a structure that holds without the material (Bear Hunter System), and retrieval spread over time and mixed across topics and forms (Spaced Interleaved Retrieval).
-- The full loop has eight steps: frame, encode, make the structure retrievable, schedule retrieval before the knowledge decays, vary the retrieval, read failures as signals, re-encode only the weak parts, run again on what failed.
-- The smallest version that still works does two jobs, build a structure and reconstruct it later. A session has a spine when five questions have answers, and the loop is small enough to run on a tired day.
-- Failures at each step have a name, a diagnosis, and a repair: overwhelm at first contact, prestudy turning into memorization, complete notes that cannot be recalled, exploding flashcards, messy maps, easy retrieval before a weak exam, slowness early, and the feeling that it is impossible.
-- The system is too heavy when the session goes into managing the method. Six failures name that: overcompression, technique sprawl, dashboard drift, forced integration, archive illusion, and dimension abstraction.
-- The five dimensions diagnose which of the two jobs went weak. They are not a second core; run the two jobs, then ask which lens limited the result.
+- Organized knowledge is easier to recall, so sorting information into groups early pays back many times over.
+- Prestudy is about arrangement, not learning facts, and it should be quick and rough.
+- The Bear Hunter System runs Aim, Shoot and Skin in order, moving from questions to connected answers to judgment.
+- Retrieval finds the gaps that encoding left, and early gaps cost the most because later learning builds on them.
+- Memorization should be the small remainder once most of the material makes sense.
 
 ## The loop, then the three jobs
 
-The loop starts with a topic, a syllabus area, a reading, a lecture, or a project requirement.
+Learning has two halves. Encoding gets information into long-term memory, and retrieval is any use of it afterward, from self-testing to explaining or solving a problem. The two run as a loop. You test yourself, find gaps, re-encode the weak parts and test again later. Stronger encoding leaves less for retrieval to do, and stronger retrieval finds gaps sooner so they get fixed.
 
-1. Prestudy builds a rough frame before the main event.
-2. Bear Hunter System forms a useful structure before detail fills the hour.
-3. That structure becomes a map, a question set, or an explanation that can be retrieved later.
-4. Spaced Interleaved Retrieval is scheduled soon enough to expose gaps before the knowledge decays.
-5. During retrieval, task format, topic mix, difficulty, and angle of questioning vary.
-6. Failures are read as signals: missing facts, weak relationships, poor chunking, shallow understanding, or not enough application practice.
-7. The weak parts are re-encoded. The whole topic is not reread passively.
-8. The loop runs again on what failed.
+<figure>
+<svg viewBox="0 0 520 292" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="pbs-jobs-t">
+<title id="pbs-jobs-t">Information becomes usable when it has a structure, and three practices build and keep that structure.</title>
+<rect x="0.5" y="0.5" width="519" height="291" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="480" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="260" y="50" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Prestudy</text><text x="260" y="70" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">frames the topic before the main event</text>
+<path d="M260,90 L260,101" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260,110 255.0,101.0 265.0,101.0" style="fill:var(--qp-mut)"/>
+<rect x="20" y="112" width="480" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="260" y="142" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">The Bear Hunter System</text><text x="260" y="162" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">Aim, Shoot and Skin</text>
+<path d="M260,182 L260,193" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260,202 255.0,193.0 265.0,193.0" style="fill:var(--qp-mut)"/>
+<rect x="20" y="204" width="480" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="260" y="234" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Spaced interleaved retrieval</text><text x="260" y="254" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">maintains</text>
+</svg>
+</figure>
 
-Prestudy is the reference image for the puzzle: a rough picture of the whole topic held before the pieces arrive. Its job is big-picture familiarity, rough chunks, importance questions, likely relationships, and enough context to follow detail without overload. Use it before lectures, dense readings, videos, workshops, or any session where first contact would be too fast and too crowded. The practical output is a short concept list, a rough chunk map, two to five questions (a ceiling, not a finding), a few suspected relationships, and a clear sense of what to watch for. The portable minimum: skim, list the main ideas, ask why they matter, guess how they relate, then enter the main event with those questions.
+Three jobs sit on that loop.
 
-Bear Hunter System is filed primarily under [[wiki/Dimensions/Deep Processing|Deep Processing]] and secondarily under [[wiki/Dimensions/Self-Regulation|Self-Regulation]]. The job is importance-oriented questions; compare concepts; build chunks from meaning, function, causality, priority, and use; represent the structure externally so working memory does not overload; refine after several complete-but-shallow sweeps that deepen, so logic is in place before detail. Outputs: a chunk map, a concept map, a compressed explanation, high-quality questions, a short teaching script, or a decision tree / procedure map for procedural domains. [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] is why the map goes outside the head.
+- Prestudy frames the topic before the main event. Skim headings, diagrams, bold terms and learning objectives, jot the keywords, read just enough to give unfamiliar words meaning, and sort them into groups that seem sensible. The groups are called chunks, and groups inside them are sub-chunks.
+- The Bear Hunter System encodes. Aim scopes the topic, picks out the most relevant areas and builds a backbone of questions. Shoot works through the actual resources and answers those questions. Skin consolidates, fixes misplaced pieces and makes judgments about the final structure.
+- Spaced interleaved retrieval maintains. It tests what you know at spaced intervals, mixes topics, and treats each gap as a cue to re-encode.
 
-Spaced Interleaved Retrieval is filed primarily under [[wiki/Dimensions/Retrieval|Retrieval]] and secondarily under Self-Regulation. The job is recall before checking; widening gaps; interleaving related-but-distinct topics; mixing lower, mid, and higher-order tasks; forcing full answers rather than mental familiarity; looking for gaps instead of confirming comfort.
+<figure>
+<svg viewBox="0 0 520 292" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="pbs-bhs-t">
+<title id="pbs-bhs-t">The Bear Hunter System runs Aim, Shoot and Skin in order, moving from questions to connected answers to judgment.</title>
+<rect x="0.5" y="0.5" width="519" height="291" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="480" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="40" y="50" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Aim</text><text x="40" y="70" style="fill:var(--qp-ink);font-size:13px">builds a backbone of questions</text>
+<path d="M260,90 L260,101" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260,110 255.0,101.0 265.0,101.0" style="fill:var(--qp-mut)"/>
+<rect x="20" y="112" width="480" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="40" y="142" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Shoot</text><text x="40" y="162" style="fill:var(--qp-ink);font-size:13px">answers those questions</text>
+<path d="M260,182 L260,193" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260,202 255.0,193.0 265.0,193.0" style="fill:var(--qp-mut)"/>
+<rect x="20" y="204" width="480" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="40" y="234" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Skin</text><text x="40" y="254" style="fill:var(--qp-ink);font-size:13px">makes judgments about the final structure</text>
+</svg>
+</figure>
 
 ## Usable structure
 
-The goal is a stable mental model where information can sit, connect, and later be reconstructed. Useful learning is the repeated construction, testing, and refinement of that structure. A pile of notes is not that structure.
+Usable means you can find a piece of knowledge fast and connect it to others. The brain keeps meaningful, well-placed information and drops clutter. A phone number sticks while a random string does not. Disorganized knowledge is like a room with everything on the floor, slow to search and slow to link, so the brain treats it as useless and lets it go.
 
-[[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] is the broader model. Prestudy creates readiness. Encoding creates the structure. Retrieval tests it. Self-regulation decides what to change next.
+Prestudy gives each piece a place to live, an outline with gaps that later study fills in. Shoot adds logic and links. Answers should be logical, so you can see why they must be true, and connected, so you know how each piece relates to the others. Facts and details then follow as consequences of those relationships rather than as isolated items.
 
 ## The minimum that still runs on a tired day
 
-A minimum learning system is a loop small enough to run on a tired day and still do two jobs. The jobs are to build a structure so knowledge has somewhere to sit, then reconstruct it later so it becomes usable instead of decorative. The system becomes too heavy when the session is spent managing the method instead of learning through it.
+On a bad day, the loop can shrink to two moves. First, sort the topic's key terms into rough groups and note how the groups relate. Second, at a later session, try to rebuild that structure from memory and check it against the source. Everything else improves the result but is optional on that day.
 
-A session has a spine when five questions have answers.
-
-1. Was there enough preparation to know what to look for?
-2. Was a usable structure built?
-3. Can that structure be reconstructed without looking?
-4. Did retrieval reveal a gap?
-5. Was the gap repaired?
-
-| Step | Question | Output |
-|---|---|---|
-| [[wiki/Dimensions/Deep Processing/Prestudy\|Prestudy]] | Enough preparation to know what to look for? | A rough frame and a few questions before the main pass |
-| Bear Hunter System | Was a usable structure built? | A map that can be pruned until it survives without the material |
-| Spaced Interleaved Retrieval | Can it be reconstructed without looking? Did a gap show? | A list of what would not rebuild |
-| Repair | Was the gap repaired? | One weak point closed in the same session |
-| Repeat | Still the two jobs? | The loop again, not a new method |
-
-That is the spine. Frame, encode, retrieve, detect gaps, repair. Everything else supports, diagnoses, or extends it.
-
-The word for later additions is **upgrades**. [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]], [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]], and [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] go on when they improve the core loop. They go off when they make the system heavier.
+Prestudy itself should stay short. The grouping does not need to be right, since the groups will change as understanding grows.
 
 ## Failures and the questions that catch them
 
-| Failure | Diagnosis | Repair |
-|---|---|---|
-| Overwhelm at first contact | No prestudy | Build the reference image before the event |
-| Prestudy becomes memorization | Details before structure | Stop at the frame and the two-to-five questions |
-| Notes look complete and cannot be recalled | Recognition replaced retrieval | Reconstruct before opening the material |
-| Flashcards exploding | Encoding stayed too low-order | Keep cards for definitions, labels, details, or relationships that do not fit the map |
-| Maps become messy webs | Too many undifferentiated relationships | Cut by importance, not by how many arrows will fit |
-| Retrieval feels easy and the exam is weak | Retrieval too narrow or too familiar | Vary format, mix, difficulty, and angle |
-| Feels slow early | Real processing | Track the structure, not the pages |
-| Feels impossible | Load too high | Split, externalize, or drop to an easier format |
-
-During encoding, four questions: comparing or collecting? simpler or more decorated? chunks by importance or by source order? productive processing or unproductive overload? During retrieval: full retrieve or recognize? the right level of mastery? a gap worth re-encoding? next session for maintenance, challenge, or repair? Those eight questions are given in full on [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]].
-
-For complex material, also test the approach layer. [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] reconstructs the same knowledge under changed variables, contexts, and outputs.
-
-[[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Flashcards]] stay narrow. That is the repair on the Flashcards exploding row.
+- Learning facts during prestudy. Ask whether you are memorizing or only arranging.
+- Information-focused Shoot. Ask whether each answer explains why and how it connects, or only states what something is.
+- Old habits returning. Opening a textbook can pull you back into linear, passive reading. Ask whether your notes still follow the questions you aimed with.
+- Too many flashcards after a cycle. A good cycle that once needed 50 cards should leave roughly 10 to 20. Ask whether the extra cards are covering material that should have made sense.
+- Retrieval that never finds anything. Ask whether the questions test the higher levels of use, such as applying or comparing, or only recall.
 
 ## What makes it too heavy
 
-Six failures, each with a repair.
+Perfectionism on the first pass is the main weight. The system moves through a lot of material quickly, so some back-and-forth is expected, and Skin exists to fix placement later. Trying to perfect every relationship during Shoot is slower overall.
 
-| Failure | What it looks like | Repair |
-|---|---|---|
-| Overcompression | A vague loop that has lost both jobs | Put the five questions back. If Bear Hunter System and Spaced Interleaved Retrieval have become synonyms for "study," the spine is gone |
-| Technique sprawl | Another method added because the last one felt incomplete | Run the five questions on the hour that already happened. Add only what answers one of them |
-| Dashboard drift | Tracking the system instead of using it | If the session produced a nicer tracker and no reconstructed structure, drop the tracker |
-| Forced integration | A study model pushed onto a build, or a build model pushed onto a study | Keep the two jobs for study. Do not require a third engine |
-| Archive illusion | Pages stored, nothing retrieved | A page counts when the next question, retrieval, or action changes |
-| Dimension abstraction | Improving all five lenses as if they were the core | Run the two jobs, then ask which lens limited the result |
+Retrieval can also feel heavy early on. At first it may take more than 70 percent of study time, because weak encoding forces more repetition. As encoding improves, the share drops, and an experienced learner may spend less than a fifth of their time on it. Pushing quality past what the goal needs also adds weight, since a course you only need to pass does not call for expert depth.
 
 ## The five dimensions as diagnosis
 
-The five dimensions improve the minimum by diagnosing where the two jobs went weak. They are not a second core. [[wiki/Dimensions/Deep Processing|Deep Processing]] asks whether the encoding pass built relationships or only organised notes. [[wiki/Dimensions/Retrieval|Retrieval]] asks whether the return forced reconstruction or only recognition. [[wiki/Dimensions/Self-Regulation|Self-Regulation]] asks whether failure was visible mid-session. [[wiki/Dimensions/Self-Management|Self-Management]] asks whether the conditions existed. [[wiki/Dimensions/Mindset|Mindset]] asks how difficulty was read. Run the two jobs, then ask which of those limited the result. Do not improve all five separately.
-
-[[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] is the home of those five lenses.
+When the structure is not holding, the cause usually sits in one of the broader areas of learning. Poorly linked notes point to deep processing, while facts that fade fast point to retrieval. Sessions that never happen point to self-management. A technique done on paper while the real thinking is skipped points to self-regulation. Avoiding the discomfort of a new method points to mindset, since new ways of working always feel uncertain at first.
 
 ## Personal defaults, compressed
 
-Prestudy before important events; Bear Hunter System for first-pass encoding; Spaced Interleaved Retrieval as maintenance and gap-detection; interleave when target performance depends on variable relationships; flashcards narrow; a notes vault for durable structures; generated questions and teaching prompts for higher-order retrieval. A language model is for variations, counterexamples, and question sets. It is not a replacement for chunking judgment.
+Prestudy comes before any important session, and the Bear Hunter System handles the first real pass. Spaced interleaved retrieval is the ongoing upkeep and gap finding. Flashcards only for the leftovers that will not reduce to logic. Retrieval questions that ask for application and comparison, rather than only recall.
 
 ## The case against, and after a skipped step
 
-The case against the loop is that it feels slow at first contact, and the failure table will be read as eight new chores. The case against the minimum is that a thin loop will feel unserious, and a tired-day test will be read as permission to skip the encoding pass. The price of the loop is a short pass before the event and a reconstruction after it. The price of the weight limit is that some methods stay unused. Quit if the eight steps have become a dashboard, or if the session went into the system. The checkable expectation is a named gap from a retrieval that was not a recognition check, then a targeted re-encode of that gap. On a tired day the checkable expectation is five answered questions and one repaired gap.
+Prestudy feels like wasted time, which is why it is the step most often dropped. The case for it is that an hour of good prestudy saves many hours later, though that ratio is a teaching estimate rather than a measured result. Retrieval can also make total study time rise at first, which can look like the system failing.
 
-A skipped step produces a named row in the failure table. Structure that starts before the event, is encoded while it can still be held, and is rebuilt later is what usable means. The two jobs are still the test. A loop that still works on a tired day is complete enough when the five questions still have answers. That is enough to stop consuming information that never becomes usable. If the hour went into the system, drop back to the five questions.
+When a step is skipped, the loop still recovers. A skipped prestudy shows up as a messy structure that Skin can reorganize. A skipped retrieval session means gaps stay hidden longer, so the next session should start with a test.
 
 ## How to practice this
 
-1. Before a lecture or dense reading, skim, list the main ideas, ask why they matter, and guess how they relate. Stop at two to five questions. Notice whether first contact feels crowded; if it does, the frame was skipped.
-2. During encoding, draw the chunk map or concept map outside your head. Cut it by importance until it holds without the material. Notice whether you are comparing concepts or only collecting them.
-3. Schedule retrieval soon enough to catch decay. Reconstruct the structure before opening any notes. Notice whether you produced a full answer or only recognised one.
-4. Read each failure as a signal and re-encode only the weak part. Notice whether you reread the whole topic instead; that is the low-utility move.
-5. At the end of a session, answer the five questions. Notice which one has no answer; that is the step that was skipped.
-6. When the hour went into a tracker or a new method, drop back to the five questions. Notice whether the session produced a reconstructed structure or only a nicer system.
-
-## Related pages
-
-- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: frame before the event
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: encoding engine; this page uses the job list, not the four passes
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: retrieval under variation
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]: broader model, home of the five lenses
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]: BHS's primary home; lens: relationships or organised notes
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: control layer; secondary home of BHS and SIR; lens: can failure be seen mid-session
-- [[wiki/Dimensions/Retrieval|Retrieval]]: SIR's primary home; lens: reconstruction or recognition
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: the encoding and retrieval questions at depth
-- [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]: approach-layer retrieval under changed variables
-- [[wiki/Syntheses/ICS System|ICS System]]: five-part diagnosis plus a loop for fixing the current limiter
-- [[wiki/Dimensions/Self-Management|Self-Management]]: related dimension; lens: can the conditions be created
-- [[wiki/Dimensions/Mindset|Mindset]]: related dimension; lens: how difficulty is read
-- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]: how chunks should be cut
-- [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]: the recognition-to-use ladder
-- [[wiki/Concepts/Memory Handling|Memory Handling]]: shaping information so it can be encoded
-- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]: why the map goes outside the head
-- [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Rote Learning and Memorisation]]: stay narrow; anti-explosion
-- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: upgrade, after-attempt loop
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: upgrade, next improvement small enough to start
-- [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]]: upgrade, session entry and recovery
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: upgrade, technique judged by the thinking it triggers
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: adjacent skill system, not a third engine
-- [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]: archive, thinking partner, retrieval surface
+- Before your next study block, spend ten minutes skimming headings and bold terms, and sort them into three to five rough groups.
+- During the block, write "what is it, why does it matter, how does it connect" questions before reading, and answer them as you go.
+- Afterward, tidy the structure and count how many items still need memorizing.
+- A few days later, rebuild the structure from memory and mark every gap.
 
 ## Open questions
 
-- Can Bear Hunter System and Spaced Interleaved Retrieval stay the stable minimum, while [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] and the knowledge base plug in only when they improve usable structure?
-- Agentic Engineering is adjacent. A possible fit is encode the problem, retrieve the constraints, let the build workflow implement, then run Kolbs if a repeatable bottleneck appeared. The danger is forcing a study model onto a build model. It may use the two jobs as support and still need its own workflow.
-- The knowledge base has three roles: archive, thinking partner, retrieval surface. A page earns its keep when it creates reusable structure, is retrieved during a real question, and changes the next move. Does it improve thought, or only store it?
+- How do I tell when a rough prestudy grouping is good enough to start Shoot?
+- How do I write retrieval questions that test application and comparison for a topic with few problems to solve?
+- How do I shrink the loop further for a topic I only need to pass?
 
 ## Sources
 
-- Ausubel, D. P. (1960). The use of advance organizers in the learning and retention of meaningful verbal material. *Journal of Educational Psychology*, 51(5), 267–272. Frame before the event.
-- Mayer, R. E. (2009). *Multimedia Learning* (2nd ed.). Pre-training: names and characteristics before the process.
-- Craik, F. I. M., & Lockhart, R. S. (1972). Levels of processing. *Journal of Verbal Learning and Verbal Behavior*, 11(6), 671–684. Active encoding.
-- Chi, M. T. H., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. *Cognitive Science*, 5(2), 121–152. Structure by deep relations.
-- Fiorella, L., & Mayer, R. E. (2015). *Learning as a Generative Activity.* Teaching scripts as encoding output.
-- Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*, 17(3), 249–255. Reconstruction as preservation.
-- Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks. *Psychological Bulletin*, 132(3), 354–380. Retrieve early enough to catch decay.
-- Rohrer, D. (2012). Interleaving helps students distinguish among similar concepts. *Educational Psychology Review*, 24, 355–367.
-- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students' learning with effective learning techniques. *Psychological Science in the Public Interest*, 14(1), 4–58. Rereading the whole is the low-utility move.
-- Sweller, J., van Merriënboer, J. J. G., & Paas, F. (2019). Cognitive architecture and instructional design: 20 years later. *Educational Psychology Review*, 31, 261–292. External representation drops working-memory load.
+- iCanStudy, "Pre-Study", Briefing. Private course notes, paraphrased.
+- iCanStudy, "Bear Hunter System Aim", Ascent I. Private course notes, paraphrased.
+- iCanStudy, "Bear Hunter System Shoot", Ascent II. Private course notes, paraphrased.
+- iCanStudy, "Bear Hunter System Skin", Ascent III. Private course notes, paraphrased.
+- iCanStudy, "Spacing, Interleaving, and Retrieval Overview", Fundamentals. Private course notes, paraphrased.
+- iCanStudy, "Retrieval Tips", Fundamentals. Private course notes, paraphrased.
+- iCanStudy, "Upgrading Your Dimensions", Catalyst. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: the frame before the main event
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: the encoding engine
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: upkeep and gap finding
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]: the broader model behind the diagnosis
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]: how chunks should be chosen
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: checking the thinking as well as the page
+- [[wiki/Syntheses/ICS System|ICS System]]: the wider system this loop sits in

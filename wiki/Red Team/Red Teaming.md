@@ -3,129 +3,121 @@ title: "Red Teaming"
 type: hub
 status: developing
 created: 2026-05-06
-updated: 2026-09-13
-method: plain-register-2026-09-13
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
 prose-model: opus
 written-by: fable
 source-count: 10
+description: "Red teaming hunts for the weak points in a plan and in the people making it, using four principles: self-awareness, groupthink mitigation, cultural empathy and applied critical thinking."
 tags:
   - red-teaming
   - decision-making
   - army
   - identity
   - metacognition
+wedge_reviewed: false
 ---
 
 # Red Teaming
 
-Red Teaming is the practice of looking for weaknesses in your own plan before the plan is put into use. It examines the people who make the plan as closely as it examines the reasoning in the plan. The check has three passes: what the plan assumes without saying so, how the plan looks to the people it will affect, and what would have to go wrong for the plan to fail. The U.S. Army built the formal version, opened a school for it at Fort Leavenworth in 2005, and trained planners in it as a method of thinking. The same three passes can be used outside the Army: on a study plan, on a page of AI output, or on an explanation of why something went badly.
+> Not yet reviewed by Wedge.
+
+Red teaming is a structured way to find what is wrong with a plan before reality does, and it looks as hard at the people making the plan as at the plan itself. The US Army's school for it, set up in 2005, teaches four principles. Self-awareness comes first, because you have to know which beliefs drive your own choices before you can test anyone else's. Groupthink mitigation then stops a room of similar people from agreeing their way into failure. Empathy for another culture helps you understand why another group acts as it does, and applied critical thinking turns doubt into a routine of questioning assumptions and building alternatives. Plans usually fail through many small shortcuts that each look close enough. Red teamers counter them with simple tools that make people write before they talk, hear the most junior person first, and imagine the plan has already failed. The method works as a loop of divergent thinking, analysis, debate and convergence that runs for as long as time allows.
 
 ## What the training left
 
-The Army course was taken around 2010, during the war in Afghanistan. The unexpected part of the course was how much time went to cultural empathy and to options that did not involve weapons. Sixteen years later, the catalog of tools has been forgotten. Four habits from the course are still in use: distrusting the first framing of a problem, stating the hidden assumption openly, slowing down when a group moves quickly toward the obvious answer, and hearing from the junior person before the senior one. Together these habits delay acceptance of the obvious interpretation, and the delay gives a second interpretation time to come up.
-
-The learning pages of this vault already call that delay metacognition. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]] covers noticing how your thinking is going while you are thinking, and it states the connection to red teaming: red teaming adds a decision-making version of metacognition, which catches the assumptions, frames and unnoticed gaps that shape a plan before the plan fails. [[wiki/Dimensions/Self-Regulation|Self-Regulation]] covers the wider job of directing your own work, including whether bias or an unhelpful framing is noticed during a task. [[wiki/Dimensions/Deep Processing|Deep Processing]] covers critiquing as one half of encoding, so challenging a frame counts as a way of learning. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] covers the area where the habit is used most today, because AI agents can recall a very large amount of information and their judgment is uneven.
+The school's aim is a set of reflexes rather than a body of knowledge. Most decisions come with a deadline. Under that pressure the mind fills gaps with assumptions, judges events by whether they fit its beliefs, leans on rules of thumb, and settles for an answer that is good enough for the time available. Mirror imaging is one result, meaning the belief that other people reason and behave as you do even though their lives differ. The most common pattern red teamers catch is cognitive autopilot, which means answering problem A with solution B because that worked last time, without checking whether this problem A has the same cause. Practice with quick tools makes the checks reflexive, so they fit inside the time a real decision allows.
 
 ## The plan that fails
 
-The situation red teaming was designed to prevent involves no AI agents. It is a meeting. A leader calls together the key personnel to make next year's plan. Everyone in the room has the same training and works in the same hierarchy. The meeting goes smoothly. The decisions are based on what the group thinks the leader wants and on what everyone assumes is true. The plan is drafted, accepted and put into practice, and it fails. There are six explanations for the failure, and none of them is incompetence. They include the group misreading what the leader wants, the unclear parts of the plan being dropped as unimportant, and a junior person who knew about the problem and was afraid to contradict a senior person. One cause lies behind all six. From early in life, agreeing with others brings people success and friends. Introverts with valuable ideas let extroverts do the talking. Joining a group makes both of these tendencies stronger.
+The failure red teaming targets is an ordinary planning meeting. A leader gathers the key people to write next year's plan. They share training, experience and a chain of command, so the meeting runs smoothly. Decisions follow what the group thinks the leader wants, what the senior people propose and what everyone already knows. The plan is written, approved and launched, and then it fails. The group may have misread the leader, or the thing everyone knew may have been wrong. People may have done things the way they always had, skipped the murky parts as unimportant, or ignored a rival who wrecked the plan. A junior person may have seen the problem and kept quiet rather than contradict someone senior.
 
-**These failures begin with how the people in the group behave, before any error in the analysis.**
+Each of those failures grows from habits that save effort. People learn young that agreeing with others brings success and friends. They reuse solutions from one problem on another that only looks similar, assume they know more than they do, and leave meetings to the loudest voices while quieter people with good ideas say nothing. Groups make each of these habits stronger. Failure arrives by degrees, through many small decisions that are each close enough and together plant the seed of the collapse.
+
+<figure>
+<svg viewBox="0 0 520 402" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="rt-principles-t">
+<title id="rt-principles-t">The four principles each cover a different source of error, and the school teaches them woven together.</title>
+<rect x="0.5" y="0.5" width="519" height="401" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="480" height="86" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/><text x="40" y="50" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Self-awareness and reflection</text><text x="40" y="70" style="fill:var(--qp-ink);font-size:13px">covers the individual</text><text x="40" y="88" style="fill:var(--qp-mut);font-size:12px">comes first</text>
+<rect x="20" y="118" width="480" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="40" y="148" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Groupthink mitigation and decision support</text><text x="40" y="168" style="fill:var(--qp-ink);font-size:13px">covers the group</text>
+<rect x="20" y="198" width="480" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="40" y="228" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Cultural empathy</text><text x="40" y="248" style="fill:var(--qp-ink);font-size:13px">covers the other actor</text>
+<rect x="20" y="278" width="480" height="104" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="40" y="308" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Applied critical thinking</text><text x="40" y="328" style="fill:var(--qp-ink);font-size:13px">covers the reasoning</text><text x="40" y="346" style="fill:var(--qp-mut);font-size:12px">nobody can use these tools well</text><text x="40" y="364" style="fill:var(--qp-mut);font-size:12px">without awareness of how their own thinking runs</text>
+</svg>
+</figure>
 
 ## Four principles, one dependency
 
-Social failure is one of four areas the training separates. The other three are the individual, the other actor, and the reasoning itself. Each area has a principle, and the four principles are taught mixed together.
+The four principles each cover a different source of error, and the school teaches them woven together.
 
-**Self-Awareness and Reflection** covers the individual. Temperament, emotion, identity, prior experience and bias all affect a person's judgment while the judgment is being made. Working out which of them is pushing a judgment in one direction comes before challenging anyone else's plan. The curriculum is more personal than the name suggests. It requires daily journaling, it includes a structured exercise on where a person's beliefs came from, and it teaches emotional self-management as coping skills and resilience. Describing this part of the training as operational and not therapeutic leaves out half of it. One piece can still be left out: the four-colour Jungian typing instrument used in the temperament work. Instruments of that kind give inconsistent results when people take them again. Roughly half of test-takers get a different type when retested within five weeks. A statement such as "Under time pressure I reach for the explanation I already have" can be checked against what happened last week. A colour type cannot be checked that way.
+Self-awareness and reflection covers the individual. Better decisions start with knowing which beliefs guide you, which experiences produced those beliefs and why you decide as you do. That knowledge makes it possible to slow down, revisit assumptions and act more on logic than on emotion.
 
-**Groupthink Mitigation and Decision Support** covers the group, and treats the problem as a matter of design: arrange the conversation so that better information comes in before the decision is settled. It uses three fundamentals: countering hierarchy, by asking for input from the most junior person first and then moving up in rank; exploiting anonymity, by sharing written input without names on it; and providing time and space, by having people write before they talk. These fundamentals are meant to prevent specific problems. They include senior people who set themselves up as mind guards, and the everyone-knows phenomenon, in which someone says "we can all agree that" and the conversation stops before anyone has finished it.
+Groupthink mitigation and decision support covers the group. People in groups feel unseen pressure to agree, and to keep from contradicting whoever is most senior or most expert. Some senior people act as mind guards who steer the group away from certain lines of thought. A confident "we can all agree that" or "everyone knows" shuts down questions even when people disagree. Three fixes answer these pressures. Hearing the most junior member first counters hierarchy, anonymity lets the group weigh ideas on their merits, and time and space let people think and write before they speak.
 
-**Fostering Cultural Empathy** covers the other actor: their needs, values, motivations, history and constraints, examined with full awareness that the person doing the examining is an outsider. It does not claim to predict what the other actor will do. Cultural analysis is always incomplete, and the more deeply it goes into a culture, the less complete it becomes. Every framework remains theory until you are actually in the place. It offers better questions. It also makes a harder claim: even when the other actor's behaviour is found abhorrent, understanding it more clearly can lead to a more effective response.
+Cultural empathy covers the other actor. Every person and group is the product of different experiences and beliefs, so the red teamer asks why another group behaves as it does and honestly explores what led there. Even when that behavior is abhorrent, understanding it more clearly can produce a more effective response.
 
-**Applied Critical Thinking** covers the reasoning, and makes doubt into a procedure: deconstruct the argument, examine the analogies, challenge the assumptions, explore the alternatives, and name any conclusion that is being defended too early. The last step is needed because people usually reach a conclusion first and look for evidence to support it afterwards. Its own page, [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]], has the working version: a filter that runs at three speeds, a seven-step long form, and a fast four-question check for media, expert claims and AI answers.
+Applied critical thinking covers the reasoning. It means asking better questions by taking arguments apart, testing analogies, questioning assumptions and looking for alternatives. It depends on the first principle, because nobody can use these tools well without awareness of how their own thinking runs.
 
-Only one strict dependency exists among the four principles, and it goes in one direction: a person who does not understand how their own thinking works cannot use the testing tools well. Nothing in the training says any of the four fails when used on its own. Applied critical thinking depends on self-awareness, and the other three do not depend on any of the others.
+<figure>
+<svg viewBox="0 0 520 254" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="rt-loop-t">
+<title id="rt-loop-t">The group moves from divergent thinking through analysis and debate to convergent thinking, with critical-thinking and groupthink tools applied throughout. The process works as a feedback loop that only stops when time runs out.</title>
+<rect x="0.5" y="0.5" width="519" height="253" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="50" y="24" width="200" height="64" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="150" y="54" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">divergent thinking</text>
+<rect x="270" y="24" width="200" height="64" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="370" y="54" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">analysis</text>
+<rect x="270" y="140" width="200" height="64" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="370" y="170" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">debate</text>
+<rect x="50" y="140" width="200" height="64" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="150" y="170" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">convergent thinking</text>
+<path d="M254,56 L257,56" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="266,56 257.0,61.0 257.0,51.0" style="fill:var(--qp-mut)"/>
+<path d="M370,92 L370,127" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="370,136 365.0,127.0 375.0,127.0" style="fill:var(--qp-mut)"/>
+<path d="M266,172 L263,172" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="254,172 263.0,167.0 263.0,177.0" style="fill:var(--qp-mut)"/>
+<path d="M150,136 L150,101" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="150,92 155.0,101.0 145.0,101.0" style="fill:var(--qp-mut)"/>
+<text x="260" y="232" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">only stops when time runs out</text>
+</svg>
+</figure>
 
 ## What a challenge actually does
 
-Once self-awareness is in place, a challenge goes through seven steps: frame the problem, and treat a neat statement of it as suspect; list every premise, stated or unstated, that has to be true for the reasoning to be valid; shift perspective to adversaries, stakeholders, juniors and outsiders; diverge, producing many options before anyone starts defending the preferred answer; stress test for ways the plan could fail, dependencies, second-order effects, and simplicity that hides problems; converge on a short set of options, with the risks and tradeoffs of each; reflect, which improves the way of thinking as well as the plan.
+A challenge runs as a sequence of tools, and most of them serve either critical thinking or groupthink mitigation. The school runs the premortem, the assumptions check and the other tools inside an ideal group process. The group moves from divergent thinking through analysis and debate to convergent thinking, with critical-thinking and groupthink tools applied throughout. The process works as a feedback loop that only stops when time runs out.
 
-Those seven steps are this vault's own synthesis. The Army material does not use that structure. The Army version uses a four-phase cycle: divergent thought, then analysis, then debate, then convergent thought. The phases repeat as a feedback loop, and the only limit on the loop is the time available. The fact that it is a cycle matters more than the number of phases, because a straight list gives no way to go back to an earlier step.
-
-How much time is available determines which version a person or team can run. Under time pressure, people fill the gaps in what they know with assumptions, biases, heuristics, and settling. Settling means accepting a solution as good enough for the time available while still preferring a different one. The result is cognitive autopilot: problem A is given solution B because the previous problem A was solved with B, and nobody checks whether this A is the same problem. Mirror imaging is the same kind of error applied to other people: the expectation that others will think and act as you would, even though their histories are different from yours.
+The premortem and the key assumptions check show what the sequence does in practice. One forces people to imagine failure before they defend the plan. The other turns each hidden premise into something the group can test.
 
 ## Alone with the tools
 
-The method has a related problem: its tools are designed for a group in a room, and most people who read about them are working alone at a desk. The Army version has forty-eight named tools across 145 pages, and most of them require a facilitator, participants, index cards and a wall. When the team is one person, anonymity serves no purpose, and there is no junior person to start with.
+Teams usually check an idea better than one person can, because people fall in love with their own ideas. Pride, hope and a protective instinct make it hard to critique your own plan without bias. A team only beats an individual when it has candor, trust among its members and some guard against groupthink. Four tools show the range, from ones a single person can run to ones that need a room.
 
-| Works with one person | Needs a group |
-|---|---|
-| Premortem: write the causes of a failure that already happened | Circle of Voices: 5 or 6 people, 60 seconds of silence, one uninterrupted minute each |
-| Key Assumptions Check: list the premises, challenge each one, rank them | 5 Will Get You 25: one idea per card, five blind rounds of 1-to-5 rating, 25 maximum |
-| Problem Restatement and Frame Audit: seven questions about the frame | Dot Voting: 7 votes spread across 12 options, results read as weights and not as a ranking |
-| 5 Whys: keep asking why, past the symptom, until you reach the underlying cause | Assigned roles: a contrarian, a recorder, a visualizer, subject matter experts |
+- A premortem starts from the assumption that the plan has already failed. Each person spends several minutes writing every reason they can think of, alone, and then the group pools the lists one person at a time without filtering any idea out.
+- A key assumptions check writes down the current line of reasoning and lists every premise that must be true for it to hold. Each premise is then questioned, including whether it was true once and is false now.
+- Circle of Voices seats five or six people, gives them 60 seconds of silence to think, and then gives each person one uninterrupted minute before anyone speaks twice.
+- Dot voting collects ideas anonymously on cards and then gives each person a set number of votes, such as 7 votes for 12 options, so the group can see which ideas carry the most weight.
 
-**Every tool that has people write before they judge still works for one person.**
-
-The premortem is the tool to run first. Its effect depends on the order of its steps.
-
-```text
-Premortem, alone, five minutes
-1. The plan, stated as it stands.
-2. The date has passed and the plan failed.
-3. Causes written continuously, several minutes, none of them judged.
-4. The list consolidated afterwards, nothing filtered on the way in.
-5. Each cause given a mitigation and an owner.
-6. The list kept, and re-read as the plan develops.
-```
-
-Assuming that an outcome has already happened and asking why increases the number of correct reasons a person can give for it by about 30 percent. Writing before pooling ideas keeps that increase. A group that talks together produces less, because of waiting for a turn, apprehension about being judged, and free riding. As a result, separate individuals who combine their lists afterwards produce more than the same people produce by talking.
-
-Writing first helps in the same way in the Key Assumptions Check, which has a second half that is rarely included when the check is described. After the premises are listed and each one has been challenged with eight questions, the assumptions are numbered, the links between them are drawn, and the assumption with the most links is questioned first. The My 15% tool starts from a ratio: about 15 percent of a work situation is under a person's own control, and the other 85 percent is determined by structures and events. The question it asks is what that 15 percent could contribute without help.
+The first two can be started alone on paper. The last two only work with a group.
 
 ## Standing for the finding
 
-Even a tool run by one person produces a finding that someone has to receive. The full definition of red teaming includes a clause that the short version leaves out: this work is conducted by skilled practitioners normally working under charter from organizational leadership. The charter gives the challenge its authority before the challenge is made. A challenge with no charter produces a correct answer that nobody is obliged to listen to, and it costs as much as a challenge that is listened to.
-
-A recorded case shows what happens when this fails. The most expensive war game in U.S. military history ran from 24 July to 15 August 2002. It cost $250 million and involved 13,000 troops. The red commander used small boats and shore-launched missiles and sank sixteen warships, including an aircraft carrier, in the opening days. The exercise was suspended, free play was restricted until the end state was scripted, and the red commander resigned partway through. A defence review the following year stated the benefit in one sentence: aggressive red teams discover weaknesses before real adversaries do, and reduce the complacency that follows success.
-
-For one person working alone, the charter question still applies on a smaller scale. Before running the challenge, decide what you will do if the result says to stop. If that is not decided in advance, you can spend an hour on a premortem whose output was never going to change anything.
+A finding has no value until someone with authority acts on it. The person who spots the problem has to explain it, its cost and its risks in a way the leaders can follow, and win their support. That is hardest when the finder is not a senior leader. Hierarchies often seem closed to ideas that question how things are done, which deters junior members from speaking. The more original the idea, the harder it is for people new to it to understand.
 
 ## How well it is supported
 
-Three parts of red teaming have different levels of evidence behind them. As a theory, groupthink has some of the weakest support of any well-known idea in social psychology: one review of the experimental research found its predictions confirmed in 2 of 12 tested cases, and the model is based mostly on case studies analysed after the events. Structured dissent, the method used against groupthink, has better evidence. In a controlled comparison, groups that used devil's advocacy or dialectical inquiry produced higher-quality recommendations and higher-quality assumptions than groups that worked by consensus. Their members were also measurably less satisfied with their own decisions and less accepting of them. Structured analytic techniques as a class, the category all 48 tools belong to, have never been validated.
-
-**Dissent produces better results and is less pleasant for the group, so it is put on a schedule instead of being left to whoever is willing.**
+The handbook presents its tools as practice for decision makers rather than as tested treatments. It also sets limits on what it promises, most clearly that a team helps only when candor, trust and anti-groupthink habits are in place. Its account of shortcuts under time pressure supplies the reason the tools exist. Whether any single tool improves outcomes is a separate question it does not settle.
 
 ## Where it runs now
 
-The personal version of red teaming consists of scheduling: there are five places where a challenge is a fixed, regular step. In [[wiki/Dimensions/Deep Processing/Bear Hunter System|BHS]], the vault's default encoding workflow, the challenge is applied at the Aim step, because a badly framed question leads to a good answer to a question that does not matter. In [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]] the challenge is applied to the false belief that material has been mastered, since that system exists to prove that knowledge can be rebuilt under unfamiliar conditions. In [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] the challenge is applied to the explanation of why performance failed, because a wrong explanation can become a fixed rule, and 5 Whys is the tool used at that step. In [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] the challenge is applied to AI output that looks finished, which is the same problem as the tidy plan in a different form. In language study the challenge is applied to grammar rules that seem neat and do not match how the language is actually used. This is the easiest of the five to test, because a corpus of native-speaker text can answer the question in minutes.
+Shortcuts under time pressure appear far from the military. Deadlines shape most everyday decisions too. A deadline can be explicit like an exam, implicit like when to call after an interview, or self-imposed like when to buy a car. Each of those decisions invites the habits the tools are built to catch, so the tools apply wherever a plan is about to be committed.
 
 ## Key Pages
 
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]: the operational page for this section. It contains the three-speed filter, the seven-step long form, and the fast check for media, expert claims and AI answers.
-- [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]]: a failure mode in its clearest form. It describes reasoning that treats disagreement as a defect in the other side, and tests it by asking what would make the holder give up the position.
-- [[wiki/Red Team/The Twitter Test|The Twitter Test]]: red teaming applied to single words. It reads persuasive text on the assumption that every word left in the final text was paid for.
-- [[wiki/Experiences/Red Team Training|Red Team Training]]: a first-hand account of the Army course. It is the only page where the course's emphasis on cultural empathy is recorded in the owner's own words.
-- [[wiki/Decision Making/Decision Making|Decision Making]]: the hub page for decisions. It covers cutting low-value choices, expected value, and judging a decision by its process as well as its outcome, which is the standard the reflect step uses.
-- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: hard thinking replaced by visible activity that feels productive. It is the name the learning pages use for cognitive autopilot.
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]]: the working version of the fourth principle.
+- [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]]: reasoning that treats every disagreement as the other side's defect.
+- [[wiki/Red Team/The Twitter Test|The Twitter Test]]: red teaming applied to the words in persuasive text.
+- [[wiki/Experiences/Red Team Training|Red Team Training]]: a first-hand account of the Army course.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]]: noticing how your thinking is going while you think.
+- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: hard thinking replaced by activity that only feels productive.
+- [[wiki/Decision Making/Decision Making|Decision Making]]: the hub for decisions.
 
-## Open Questions
+## Open questions
 
-- Which parts of the Army version should become daily habits rather than occasional exercises?
-- Which tools belong inside BHS and Kolbs, and at which step of each?
-- What would a weekly personal red team review contain, and who would receive its findings?
+- How does a person working alone get the benefit of tools built for a group?
+- How do the four principles change when the other actor is an AI system?
+- How does a team decide in advance what it will do if a red team finding says stop?
 
 ## Sources
 
-- TRADOC G-2 / University of Foreign Military and Cultural Studies, *The Red Team Handbook: The Army's Guide to Making Better Decisions*, Version 9.0, public release. Its stated URL (`usacac.army.mil/organizations/ufmcs-red-teaming/`) returned HTTP 404 on 2026-08-13; earlier editions are at https://archive.org/details/ufmcs-red-team-handbook-2012 and https://newandimproved.com/wp-content/uploads/2014/04/ufmcs_red_team_handbook_apr2011.pdf
-- TRADOC was disestablished 26 September 2025, and its functions were transferred to the Army Transformation and Training Command: https://www.army.mil/article/288779/turning_the_page_tradoc_inactivation_marks_new_chapter_in_army_transformation
-- The Army moved to close the school itself in October 2020: https://www.forbes.com/sites/brycehoffman/2020/10/26/us-army-moves-to-close-red-teaming-university/
-- Schweiger, Sandberg & Ragan, *Academy of Management Journal* 29(1), 1986, 51–71, DOI 10.5465/255859. Devil's advocacy and dialectical inquiry compared with consensus, including the cost in satisfaction.
-- Mitchell, Russo & Pennington, *Journal of Behavioral Decision Making* 2(1), 1989, 25–38, DOI 10.1002/bdm.3960020103. The prospective-hindsight effect of roughly 30 percent.
-- Diehl & Stroebe, *Journal of Personality and Social Psychology* 53(3), 1987, 497–509. Productivity loss in interacting groups.
-- Chang, Berdini, Mandel & Tetlock, *Intelligence and National Security* 33(3), 2018, 337–356, DOI 10.1080/02684527.2017.1400230. Structured analytic techniques as an unvalidated class.
-- Review of the experimental record on groupthink and the 2-of-12 count: https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=3081&context=cmc_theses
-- Millennium Challenge 2002: https://en.wikipedia.org/wiki/Millennium_Challenge_2002
-- Defense Science Board, *The Role and Status of DoD Red Teaming Activities*, 2003: https://irp.fas.org/agency/dod/dsb/redteam.pdf
-- The retest figure for four-type personality instruments has no primary citation and is the least-supported number here.
+- TRADOC G-2 and University of Foreign Military and Cultural Studies, "The Red Team Handbook", Army guide to better decisions. Personal copy, paraphrased.

@@ -2,11 +2,13 @@
 type: concept
 status: developing
 created: 2026-05-08
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
 prose-model: opus
 written-by: fable
 source-count: 20
+description: Procrastination yields to changes in setup, habit and step size, not to more motivation.
+wedge_reviewed: false
 tags:
   - self-management
   - focus
@@ -17,149 +19,145 @@ tags:
 
 # Procrastination: a System Problem
 
-Procrastination is a stall that gets repaired away from the desk, in the hours when no work is being done. One word covers stalls with almost nothing in common: a report that never gets opened, a form that sits on the counter for a month, a chapter reread twice without a note taken. What separates them is whatever made starting expensive. The task was vague, or dreaded, or dull, or too big to hold in one piece, or waiting on something that had not arrived. Each of those takes a different repair.
+> Not yet reviewed by Wedge.
 
-The repairs that hold are changes to the setup around the work: what the task actually says, where the work happens, what else is within reach, and how small the first move is allowed to be. Bringing more resolve to the same setup is the approach that keeps failing. Delay is also stable enough across a life to register as a trait. It is around 46% heritable and statistically difficult to separate from impulsiveness. That is an argument for building the setup, since the setup is the half that can be changed this afternoon.
+Procrastination is a setup problem more than a motivation problem. Plans built on feeling driven work only on good days, and the cycle of pumping motivation back up wears down until burnout. What holds is a system that runs on low motivation. That means a room without temptations, a log of what pulls you away, a loose schedule, first steps too small to refuse, and stakes for the rare cases that need them. The word itself also hides the fix, because each kind of stall has its own cause.
 
 ## Core takeaways
 
-- Stepping away from a task that feels bad ends the bad feeling within seconds. That relief is what the delay produces, and it is why the delay repeats.
-- The unit worth diagnosing is a single episode. Five questions describe one: what was avoided, what got done instead, what was felt first, what made starting expensive, and what made escaping easy.
-- Reaching a goal was predicted by how few temptations a person ran into. Effortful resistance came out unrelated to attainment.
-- A task is enterable when it names a time, a place, a first action and a stopping line. Students who wrote down when and where they would attend an experiment were nearly eight times more likely to turn up.
-- Shrink the first step until failing to do it would feel absurd. Apply the shrinking to the task that matters, and not to the choice of which task to take up.
-- Where delay continues on tasks that are specific, timed, prepared and stripped of escapes, the lever is precommitment and a shorter distance to the reward.
+- Motivation rises and falls with sleep, mood, energy and the people around you, so a plan that needs it will fail most days.
+- A plan you can finish on a bad day gets done almost every day, and that steadiness beats bursts of output.
+- Habits remove the need for willpower, and willpower is best kept in reserve for rare hard moments.
+- Changing the surroundings is likely the strongest single lever, because temptation you never meet costs no willpower.
+- Shrink the first step until refusing it would feel silly.
 
 ## What stepping away does
 
-The delay repairs mood. An aversive task produces a bad feeling on contact, some mixture of dread, boredom and uncertainty about whether the attempt will come out any good, and stepping away ends that feeling within seconds. The relief is immediate and real. The cost lands on the same person at a later time. That is the trade taken whenever a payoff is distant and a smaller one is close, the bias [[wiki/Concepts/Cave Theory|Cave Theory]] treats as its subject.
+Stalling happens when getting into a task takes effort. Stepping away removes that effort at once, which is why it feels like relief. Each time it works, the escape gets a little more automatic. Procrastination is itself a trained habit, built the same way as any other.
 
-Read that way, the familiar causes are routes to one place rather than five separate problems. Vagueness produces anxiety about where to start. The size of a task is felt as dread before any of the work is done. A missing prerequisite lands as the particular irritation of being stuck without knowing on what. This changes the first move on a stalled task. The useful question is what the task makes the person feel, and whether the next ten minutes can be made less unpleasant, because shrinking a step that is dreaded produces a smaller thing that is dreaded.
+That points at the repair. If avoidance is a habit that formed under certain conditions, then changing those conditions works better than fighting the urge each time it shows up.
 
 ## Describing one episode
 
-The word "procrastination" is too broad to be a repair target.
-
-The unit worth diagnosing is a single episode, and five questions describe one: what task was avoided, what got done instead, what feeling or uncertainty or friction showed up just before the switch, which part of the task made starting expensive, and what in the surroundings made escaping easy. The trigger is whatever was specifically present just before the avoidance: a notification, an unanswered question, an object in the room, a flat sense of dread. That is a different thing from the general sense of not feeling like it. Name the avoidance behaviour exactly. "Scrolled" is a verdict. "Picked up the phone at 7:04 to check one message" is something that can be removed.
-
-```text
-Avoided:    the chemistry reading, due Thursday.
-Instead:    phone, then a second coffee, then email.
-Felt first: flat dread, and no idea where the chapter starts.
-Expensive:  deciding what "study it" is going to mean.
-At hand:    the phone, face up, next to the notebook.
-```
-
-Filled in, the episode shows which repair it needs, and the repair differs by row. Pooled across hundreds of correlations, the strong and consistent predictors of delay are task aversiveness, distance to the reward, low confidence in doing the task well, and impulsiveness. Personality traits like rebelliousness and sensation seeking barely move. Three of those four sit in the task and its surroundings. The fourth sits in the person, and the setup approach routes around it rather than through it. Where delay keeps happening on tasks that are specific, prepared and stripped of escapes, more environment work is not the lever. Precommitment and shorter reward horizons are.
+"Procrastination" covers many different stalls with different triggers. Calling them all by one name blocks a fix, because each cause needs its own answer. The useful question is which precise behavior needs to change and what triggers it.
 
 ## Four repairs that keep failing
 
-Waiting to feel motivated is the first. The delay is what manufactures the mood being waited out, so the waiting degrades the quantity being waited for.
+The usual fix is to set goals, get fired up, and refuel each time the drive fades. Early on, progress is easy to see and keeps the drive going. Later, progress turns vague, drive fades, output drops, and you refuel again. Each round leaves less to refuel with, and the end of that road is burnout.
 
-Trying harder to force discipline is the second, and the model underneath it has not survived testing. Willpower as a tank that drains and needs conserving failed a 23-lab preregistered replication at 2,141 participants, and failed again at 36 sites and 3,531 participants, where the confirmatory effect came in at d = 0.06. The accurate version is less dramatic and more useful. Across a semester of experience sampling, reaching a goal was predicted by how few temptations a person ran into. How hard a person resisted the temptations they met did not predict it, and effortful resistance came out unrelated to attainment. Habits and prepared rooms work by lowering the number of hard moments, and not by leaving more fuel in a tank for them.
+Four versions of that fix keep failing:
 
-Guilt is the third, and the evidence against it is the strongest single finding on this topic. Across 119 first-year students measured before each of two midterms, the ones who forgave themselves for delaying on the first exam delayed less preparing for the second. The path ran through reduced negative affect: they had less bad feeling to escape, so they escaped less. Self-compassion accounts for a substantial share of the link between chronic delay and stress. So closing the last failure, saying that it happened and it is over, is one of the steps, and it comes before the re-planning.
+- Waiting to feel motivated. Motivation draws on sleep, mood, energy, peers, family and events, and each of them moves day to day.
+- Refueling motivation whenever it fades. Each round of the cycle leaves less to work with.
+- Pushing harder by default. Treating every hard moment as a call for more effort drains willpower and moves you toward burnout.
+- Plans that need a good day. A plan that needs high drive only works on good days, which means it fails on most of them.
 
-Restarting is the fourth, and here the usual advice has it backwards. Restarting works: fresh points on the calendar do raise aspirational behaviour, and their limit is that the lift is temporary rather than imaginary. What fails is restarting the same system unchanged, so that the next attempt meets the same vague task in the same room with the same phone in it.
+Motivation is still useful as fuel for the truly hard stretches. The mistake is building the whole system on it. When something gets hard, the better response is to stop, look calmly at the process, and adjust it.
 
 ## Changing the situation before the block starts
 
-Goal attainment tracks how few pulls arrive. It does not track how many get resisted.
+Anything tempting within reach makes you spend willpower resisting it. Arrange things so the temptation never shows up. Work in another room, give the phone to a friend or put it in a drawer, block sites, and use a logged-out browser so video suggestions do not pull you in. People who look disciplined are as distractible as anyone. They just engineer distraction out. A change of setting alone sometimes fixes a stall for good, and it may be the strongest single lever.
 
-Of the five families of self-control strategy, two work on the situation, by selecting which situation to be in and by modifying the one already entered, and three work inside the head. Suppressing an impulse mid-task is effortful, costly and prone to fail. Changing the situation beforehand is none of those. Across six studies and 2,274 people, the mechanism by which high self-control produces better grades and higher first-year persistence turns out to be study and homework habits, and those people reported *less* effortful inhibition rather than more.
-
-Preparing the setup is the highest-return hour available. A phone left in another room, distracting sites blocked before the block begins, a visually simple surface, materials laid out in advance, and the intended task left as the most available thing to do: each removes a decision that would otherwise be made at the worst possible moment, with the work already in front of the person and something easier one gesture away. A repeated behaviour runs on a cue in the environment, the response it launches, and whatever reinforces the response afterwards. The cue registers something like a fifth of a second before the pull is felt, which is why cues get removed in advance instead of caught in the act. [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]] holds that circuit and the machinery for building new ones. [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] covers the harder direction, which is the one that applies here: an established pattern of delay is a trained habit running on autopilot. It is not the absence of a good habit.
-
-The log that finds the cues is a sheet of paper kept beside the work, where each thing that pulls attention away gets written down as it happens. It does two jobs. The list strips the room before the next session, and the act of writing an entry forces a moment of noticing during this one. Intrusive tasks get handled the same way with one addition. An unfinished task keeps coming to mind until it has a plan, and the plan retires the intrusion without the task being finished. A captured item with a time attached stops interrupting. A bare list of items does not. Everything from the moment of sitting down onward, including drift inside the block and the return after it, belongs to [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]].
+A distraction log pairs with it. Keep paper beside you and note each pull as it happens. The list tells you what to remove when you next set up the room. It also helps in the moment, because noticing a pull makes you less likely to follow it. The room and the log are the two most versatile levers, so start there.
 
 ## Writing a task you can start
 
-A task is enterable when it names a time, a place, a first action and a stopping line.
+A vague task invites delay, because it is unclear where to begin. Breaking an abstract task into a list of small steps makes each one feel doable. Even a loose schedule helps too. It makes the task clear, cuts the number of decisions, and protects flow from needless switching.
 
-"Study chemistry" looks like an instruction, and it leaves six decisions unmade: what chapter, what method, what output, how long, what counts as finished, and what to do when stuck. Every one of them gets made at the moment of action, which is the moment when deciding anything is hardest. That cost has a name and a page: [[wiki/Decision Making/Decisional Delays|Decisional Delays]] carries the arithmetic on how much of a day disappears into the gaps where the next move is being worked out. The method for turning floating variables into a short list of closed questions, before judgment is asked to work, sits in [[wiki/Decision Making/Choice Throttling|Choice Throttling]].
-
-Description alone does not close it. The evidence is for binding a when and a where to the action. Students who wrote down when and where they would attend an experiment were nearly eight times more likely to turn up, and across 94 independent tests with more than 8,000 participants, if-then plans joining a cue to a specific action run at d = 0.65. A fully described task with no time and no place is still an intention, and intentions are the thing that was failing.
-
-Weak:
-
-```text
-Study chemistry.
-```
-
-Strong:
-
-```text
-At 7pm at the kitchen table, open the acid-base section and write down the questions I want it
-to answer, why each idea matters and how it connects to the rest, then stop.
-```
-
-The second version names a clock, a room, a first action and an artifact, and it does it in ordinary words. That matters because a task written in vocabulary borrowed from a method is only enterable by someone who already knows the method. Specificity beats "do your best" for the same reason: doing your best has no external referent, so it gets redefined downward at the moment it is tested.
-
-None of this decides which hours the work occupies. A task bound to seven in the evening assumes something has already been decided about what the evening is for, and that decision belongs to the week rather than to the task. That is what [[wiki/Self Management/Priority 0+1 System|Building a Schedule That Survives]] holds: a standing shape that reduces the number of times per day the question of what to do now has to be answered at all.
+Setting up without committing is a gentle way in. Close tabs, put the phone away and open the work, without promising to do any of it. Once everything is ready, starting often follows.
 
 ## Making the first move small
 
-The smallest version of an action that still counts as having started is worth naming, because it is what gets used when the first step is the expensive part. Shrink it until failing to do it would feel absurd: open the document, write one bad sentence, sit at the desk, review one flashcard, set up the notebook, work for two minutes. Its job is to get the first move made. Its job is not to get the work done. Starting changes the state of the system, and from inside the task the next step is usually cheaper than it looked from outside. A sharper form of the same move is a few minutes started the night before, since resuming an unfinished piece costs less than opening a fresh one.
+A minimum viable goal is a first step so small that refusing it would feel silly. Take the behavior you want, list the steps to begin it, and break them down until each one feels absurdly easy. Chain them so your brain follows. Look up, take a breath, stand, walk to the desk, sit, take out the materials, work for two minutes. The short duration exists only to get you started, since starting is the hard part. Small first steps work best in a prepared room. On their own, in a room full of pulls, they usually fall short.
 
-This technique is recommended more often than any other repair described above and tested less than any of them, and it carries two boundaries. Specific difficult goals beat easy goals for output in something like 96% of trials, at effect sizes between .42 and .80, so a small first step buys initiation at the price of ambition. It is a way to start, and it is not the size the goal itself should be set at. And in an incentive-compatible task game, participants defaulted to the smaller task first and kept defaulting to it regardless of efficiency, finishing with significantly lower scores overall. The shrinking that works is applied to the first step of the task that matters, and not to the choice of which task to take up. The sizing logic behind small, high-probability increments is argued from the improvement side in [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]. Its planning counterpart, working a goal backwards into the habits and actions that raise the odds, sits in [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]].
+Two other moves shrink the start. Doing a few minutes of good work the night before means tomorrow you resume rather than start cold. Aiming for a personal best instead of perfection, whether best effort, best use of a technique or best time, removes the fear that blocks the first move.
 
 ## Deadlines and consequences
 
-Accountability and consequences do work, on urgent behaviours that keep slipping after the task has been made specific and the room has been cleared. People will impose costly deadlines on themselves, and those self-imposed deadlines do improve performance. They are also set suboptimally, and evenly distributed deadlines imposed from outside beat the ones people set for themselves. That is the honest ceiling on the method: the person writing the terms is the same person the terms exist to constrain.
+Stakes make failing costly enough that you would rather do the work. Share the exact goal with someone who will check on it, send them proof, or promise a forfeit you would hate to pay. Keep the goal specific and reachable, so the penalty only lands on real non-effort. Working alongside others adds a milder version of the same push.
 
-The deeper limit is where in the loop a consequence operates. A consequence acts on what follows the behaviour, so it can force an instance of the work without touching whatever produced the avoidance. It works as support for the rest of the setup. It does not work as the whole system. Treatment trials rank the same way. Pooled across studies, the approach with the clean moderate effect is the one that maps the chain from trigger to behaviour to consequence and changes the conditions, at g = 0.55 once that family is isolated. The pooled effect across all approaches is real, smaller, and far more variable.
+Stakes act on consequences, after the behavior, so they suit urgent short-term changes. Treat them as an add-on when the other levers are not enough, not as the base.
 
 ## What becomes available after starting
 
-Procrastination keeps a person outside the task. [[wiki/Self Management/Flow State|Flow State]] is what becomes available after entry, given a challenge matched to current skill, a goal clear enough to name the next move, and feedback coming from the work itself. Those three are the conditions that survive when studies of what brings the state on are pooled.
+Once starting stops being the hard part, consistency becomes possible. A plan you can carry out on a bad day runs almost daily, and steady small days add up faster than a few big ones can make up for. Consistency in turn builds habits. A habit lowers the drive needed until the action runs on its own, the way brushing your teeth does. Nobody stalls over a habit.
 
-The two are connected by more than sequence. A task mis-sized against current skill lowers the expectancy that produces motivation, which shows up as delay. The same mis-sizing breaks the challenge–skill balance the state needs, which shows up as an hour of work that never absorbs. One mis-sizing produces two symptoms. Both are addressed by a first move small enough to make and a room prepared before the block starts.
+<figure>
+<svg viewBox="0 0 520 208" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="proc-setup-t">
+<title id="proc-setup-t">The aim is to be helped by willpower rather than dependent on it.</title>
+<rect x="0.5" y="0.5" width="519" height="207" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="230" height="168" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="135" y="46" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">willpower-dependent</text>
+<text x="135" y="66" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">setup</text>
+<text x="135" y="98" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">output depends on motivation</text>
+<text x="135" y="122" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">leaves little in reserve</text>
+<text x="135" y="140" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">for surprises</text>
+<rect x="270" y="20" width="230" height="168" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/>
+<text x="385" y="46" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">setup built on habits</text>
+<text x="385" y="66" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">and surroundings</text>
+<text x="385" y="98" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">output depends on routine</text>
+<text x="385" y="116" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">holds steady</text>
+<text x="385" y="140" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">keeps willpower available</text>
+<text x="385" y="158" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">for the rare hard moments</text>
+</svg>
+</figure>
+
+The aim is to be helped by willpower rather than dependent on it. In a willpower-dependent setup, output depends on motivation, so it is inconsistent, heads toward burnout and leaves little in reserve for surprises. In a setup built on habits and surroundings, output depends on routine, so it holds steady and keeps willpower available for the rare hard moments. What happens inside the work block is covered in [[wiki/Self Management/Flow State|Attention, Focus & Flow]].
 
 ## Failure modes
 
-| Failure | How it shows up | Repair |
-| --- | --- | --- |
-| Moralizing | "I'm lazy" arrives where a diagnosis should be, and the last failure is still being carried. | The episode mapped: trigger, substitute behaviour, and the feeling that came first, with the previous failure closed before the next attempt is planned. |
-| Motivation chasing | Work waits on feeling ready. | The setup changed instead, and a first move small enough that the feeling has nothing to decide. |
-| Oversized start | The first step is too big to begin. | Shrunk until failing to do it would feel absurd, on the task that actually matters rather than on an easier one. |
-| Vague task | Planning happens during the attempt to act. | A sentence carrying a time, a place, a first action and a stopping line. |
-| Escape-rich environment | Distraction is easier to reach than the work. | The escape path removed before the session, since a cue is felt before it can be caught. |
-| Unchanged restart | Each restart meets the same task in the same room. | One condition of the setup changed before the next attempt, so the restart has something new to run on. |
-| Aversion treated as size | A shrunken step is still avoided. | The unpleasant part named, and the next ten minutes made less unpleasant rather than shorter. |
+<figure>
+<svg viewBox="0 0 520 130" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="proc-package-t">
+<title id="proc-package-t">The stakes, the room, the log, the schedule and the small first step work as one package.</title>
+<rect x="0.5" y="0.5" width="519" height="129" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<text x="260" y="28" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">work as one package</text>
+<rect x="20" y="44" width="95.2" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="67.6" y="62.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">The stakes</text>
+<rect x="125.2" y="44" width="81.76" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="166.08" y="62.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">the room</text>
+<rect x="216.96" y="44" width="75.04" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="254.48" y="62.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">the log</text>
+<rect x="302" y="44" width="108.64" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="356.32" y="62.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">the schedule</text>
+<rect x="20" y="82" width="162.4" height="28" rx="14.0" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="101.2" y="100.5" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">the small first step</text>
+</svg>
+</figure>
+
+- Using only some of the levers. The stakes, the room, the log, the schedule and the small first step work as one package.
+- Small first steps in an unprepared room. Without a cleared space, they usually fall short.
+- Stakes as the foundation. They force single instances of the work without changing what produced the avoidance.
+- Effort as the default answer. Grinding harder drains willpower instead of fixing the process.
 
 ## What running it costs
 
-The bill is an hour or two of setup once, ten minutes at the start of a week to keep it, a line in the log for each pull, and a minute per task to write it as a plan with a clock and a room in it. Within about two weeks the log should be repeating itself, naming the same two or three pulls, and those should be out of the room by the third week. Tasks written with a time and a place should begin within a few minutes of that time noticeably more often than tasks written as topics. If the log turns into a project maintained for its own sake, it has become the thing being done instead of the work.
+Most of the levers are cheap. A cleared room, a sheet of paper for the log and a written first step take minutes. The real cost is doing all of them together, every time, until they become habits. Stakes add a social cost, since someone else has to check and you may have to pay.
 
 ## When the setup is not the problem
 
-Two signals say the diagnosis was wrong. The first is delay that persists on tasks that are specific, timed, prepared and stripped of escapes. The remaining variable there is the person-side one: delay is around 46% heritable and genetically indistinguishable from impulsivity, distinguishable in behaviour but not in origin, which means some people arrive at the same desk with much more difficulty to get through. The lever there is precommitment and a shorter distance to the reward, and not another pass at the room.
-
-Real distress is the second signal: sleep going, the same task avoided for months, anxiety rising around it. There the relevant body of work is the treatment literature rather than the setup literature, and structured chain-mapping with a professional is what has the measured effect behind it.
-
-The pieces of the setup work have one thing in common. Each piece takes one decision out of the moment the work has to start: what to do, where, what is within reach, what counts as having begun, and which hour it happens in. Those decisions get made while not working, which is the only time they are cheap. What is left at the moment of action is small enough that the day's feeling has less effect on whether the work starts. Nothing in this depends on a claim about the person's character.
+Some stalls do not yield to setup. For certain conditions, such as the effects of early trauma, standard self-help methods may help less, and a trained psychologist or therapist is the right next step. If a specialist's advice conflicts with these levers, follow the specialist.
 
 ## How to practice this
 
-1. Write your last stall down as a single episode, using the five questions. Name the avoidance behaviour exactly, with the time and the object. You should notice that different rows point to different repairs.
-2. Keep a sheet of paper beside the work for one session. Write down each thing that pulls your attention away, as it happens. You should notice the pull at the moment you write the entry.
-3. Remove the two or three pulls the log names most often, before the next session starts. Put the phone in another room and block the sites beforehand. You should notice fewer decisions to make once the work is in front of you.
-4. Rewrite one stalled task as a sentence naming a time, a place, a first action and a stopping line. Use ordinary words, not vocabulary borrowed from a method. You should notice it starting within a few minutes of the time you wrote.
-5. Shrink the first step until failing to do it would feel absurd. Apply this to the task that matters, and not to an easier task. You should notice the next step costing less from inside the task.
-6. Close the last failure before planning the next attempt. Say that it happened and that it is over. You should notice less bad feeling to escape from.
-
-## Related pages
-
-- [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]]. Everything inside the block: the entry ritual, noticing drift, and training the return.
-- [[wiki/Dimensions/Self-Management|Self-Management]]. The parent dimension: the habits, routines, structures and environments that make action possible without spending willpower on it.
-- [[wiki/Dimensions/Mindset|Mindset]]. The interpretive layer that decides whether a stall reads as information or as evidence against the self, which is the layer underneath the moralizing failure.
+- Pick one stall and write down exactly what you avoid and what sets it off.
+- Change one thing in the room before the next session, and keep a distraction log during it.
+- Write that task's first step so small that skipping it would feel ridiculous.
+- Keep stakes for a task that has resisted the other levers, and make the goal specific.
 
 ## Open questions
 
-- Which two or three pulls account for most of the sessions that never start?
-- Which of the avoided tasks are being avoided for how they feel rather than for how big they are?
-- Which distractions are worth removing from the room permanently, instead of being resisted again every session?
+- How do I tell a stall caused by the room from one caused by an unclear task, so I pick the right lever?
+- How do I size a minimum viable goal for work that has no obvious first physical step?
+- How do I set stakes that bite without making the work feel like punishment?
 
 ## Sources
 
-Steel, ["The Nature of Procrastination: A Meta-Analytic and Theoretical Review of Quintessential Self-Regulatory Failure"](https://studypedia.au.dk/fileadmin/www.studiemetro.au.dk/Procrastination_2.pdf) (*Psychological Bulletin*, 2007) · Sirois & Pychyl, ["Procrastination and the Priority of Short-Term Mood Regulation"](https://eprints.whiterose.ac.uk/id/eprint/91793/1/Compass%20Paper%20revision%20FINAL.pdf) (*Social and Personality Psychology Compass*, 2013) · Wohl, Pychyl & Bennett, ["I Forgive Myself, Now I Can Study"](https://www.sciencedirect.com/science/article/abs/pii/S0191886910000474) (*Personality and Individual Differences*, 2010) · Sirois, ["Procrastination and Stress: Exploring the Role of Self-Compassion"](https://eprints.whiterose.ac.uk/id/eprint/91791/1/ProcrastinationFINAL.pdf) (*Self and Identity*, 2014) · Rozental et al., ["Targeting Procrastination Using Psychological Treatments: A Systematic Review and Meta-Analysis"](https://pmc.ncbi.nlm.nih.gov/articles/PMC6125391/) (*Frontiers in Psychology*, 2018) · van Eerde & Klingsieck, ["Overcoming Procrastination? A Meta-Analysis of Intervention Studies"](https://www.sciencedirect.com/science/article/abs/pii/S1747938X18300472) (*Educational Research Review*, 2018) · Owens, Bowman & Dill, ["Overcoming Procrastination: The Effect of Implementation Intentions"](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1559-1816.2007.00309.x) (*Journal of Applied Social Psychology*, 2008) · Gollwitzer & Sheeran, ["Implementation Intentions and Goal Achievement: A Meta-Analysis of Effects and Processes"](https://www.semanticscholar.org/paper/c4deb3507fe725ce6363c1735f1ba83bab20d665) (2006) · Duckworth, Gendler & Gross, ["Situational Strategies for Self-Control"](https://pubmed.ncbi.nlm.nih.gov/26817725/) (*Perspectives on Psychological Science*, 2016) · Milyavskaya & Inzlicht, ["What's So Great About Self-Control?"](https://carleton.ca/goallab/wp-content/uploads/What%E2%80%99s-So-Great-About-Self-Control_-Examining-the-Importance-of-Effortful-Self-Control-and-Temptation-in-Predicting-Real-Life-Depletion-and-Goal-Attainment.pdf) (*Social Psychological and Personality Science*, 2017) · Galla & Duckworth, ["More Than Resisting Temptation: Beneficial Habits Mediate the Relationship Between Self-Control and Positive Life Outcomes"](https://pubmed.ncbi.nlm.nih.gov/25643222/) (*JPSP*, 2015) · Ariely & Wertenbroch, ["Procrastination, Deadlines, and Performance: Self-Control by Precommitment"](https://web.mit.edu/ariely/www/MIT/Papers/deadlines.pdf) (*Psychological Science*, 2002) · Masicampo & Baumeister, ["Consider It Done! Plan Making Can Eliminate the Cognitive Effects of Unfulfilled Goals"](https://users.wfu.edu/masicaej/MasicampoBaumeister2011JPSP.pdf) (*JPSP*, 2011) · Hagger et al., ["A Multilab Preregistered Replication of the Ego-Depletion Effect"](https://journals.sagepub.com/doi/10.1177/1745691616652873) (*Perspectives on Psychological Science*, 2016) · Vohs et al., ["A Multisite Preregistered Paradigmatic Test of the Ego-Depletion Effect"](https://pmc.ncbi.nlm.nih.gov/articles/PMC12422598/) (*Psychological Science*, 2021) · Gustavson, Miyake, Hewitt & Friedman, ["Genetic Relations Among Procrastination, Impulsivity, and Goal-Management Ability"](https://pubmed.ncbi.nlm.nih.gov/24705635/) (*Psychological Science*, 2014) · Rusou, Amar & Ayal, ["The Psychology of Task Management: The Smaller Tasks Trap"](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/71EC8D2356D1313AB5E7D788BBEBAA93/S1930297500007518a.pdf/psychology_of_task_management_the_smaller_tasks_trap.pdf) (*Judgment and Decision Making*, 2020) · Dai, Milkman & Riis, ["The Fresh Start Effect: Temporal Landmarks Motivate Aspirational Behavior"](https://pubsonline.informs.org/doi/10.1287/mnsc.2014.1901) (*Management Science*, 2014) · Fong, Zaleski & Leach, ["The Challenge–Skill Balance and Antecedents of Flow"](https://www.tandfonline.com/doi/abs/10.1080/17439760.2014.967799) (*Journal of Positive Psychology*, 2015) · Locke & Latham, ["New Directions in Goal-Setting Theory"](https://home.ubalt.edu/tmitch/642/articles%20syllabus/locke%20latham%20new%20dir%20gs%20curr%20dir%20psy%20sci%202006.pdf) (*Current Directions in Psychological Science*, 2006).
+- iCanStudy, "Rapid Procrastination Tips", Rapid Start. Private course notes, paraphrased.
+- iCanStudy, "Procrastination Intermediate Overview", Rapid Start. Private course notes, paraphrased.
+- iCanStudy, "Procrastination Intermediate 2", Rapid Start. Private course notes, paraphrased.
+- iCanStudy, "Procrastination Intermediate 2 recommended tasks", Rapid Start. Private course notes, paraphrased.
+- iCanStudy, "Hyper Focus and Hyper Distractibility", Niche learning contexts. Private course notes, paraphrased.
+
+## Related pages
+
+- [[wiki/Self Management/Flow State|Attention, Focus & Flow]]: what happens inside the block once it starts
+- [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]]: building the habits that replace willpower
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Time Management, Attention & Scheduling]]: the scheduling side of the system
+- [[wiki/Decision Making/Choice Throttling|Choice Throttling]]: deciding ahead so starting is not a decision
+- [[wiki/Dimensions/Self-Management|Self-Management]]: the parent dimension
+- [[wiki/Dimensions/Mindset|Mindset]]: whether a stall reads as information or as a verdict on yourself
