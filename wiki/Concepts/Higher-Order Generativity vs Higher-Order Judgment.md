@@ -3,11 +3,9 @@ title: "Higher-Order Generativity vs Higher-Order Judgment"
 type: concept
 status: seed
 created: 2026-06-14
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: fable
-description: "Higher-order work split into two capabilities, making the thing and making the call, divided by who carries the cost of being wrong, and closing at very different rates."
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
+description: "The higher-order work AI still struggles with can be grouped into two gaps, a proposed working grouping rather than a claim the sources make: generating ideas that lie outside what it has seen, and judging what is good or what to do where answers are hard to check."
 tags:
   - higher-order
   - ai-durability
@@ -16,81 +14,103 @@ tags:
   - metacognition
   - ai
   - decision-making
+wedge_reviewed: false
 ---
 
 # Higher-Order Generativity vs Higher-Order Judgment
 
-Higher-order work is two capabilities under one name. AI is closing the gap on them at very different rates. **Higher-order generativity** produces coherent, novel, integrated output: a story, a design, an argument, a synthesis that holds together. **Higher-order judgment** makes the accountable call in situations where many constraints apply at once, no option is free of downsides, the information is incomplete, and being wrong is costly.
+> Not yet reviewed by Wedge.
 
-One test separates them: who carries the cost if the output is wrong. Generativity is graded on the artifact, and the artifact can be inspected now. You can look at it and say whether it holds together. Judgment is accountable to an outcome it does not control, and it is graded on the process that produced the call. Nothing can be inspected at the time of the call. The evidence arrives late, partial, and confounded. [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]] holds the rule for grading a call by its process.
+Higher-order thinking is the work AI still finds hardest. It covers situations that depend heavily on context, involve many interacting factors, have no single right answer and carry high stakes. Splitting that work into generating and judging is a proposed working grouping of points the sources raise one at a time, rather than a claim any of them makes. Higher-order generativity is producing something truly new, an idea nobody could have predicted from the question and what was already known. It is creativity outside the range of the data a model learned from. Higher-order judgment is deciding what is good and what to do, often called taste, in places where the result is hard to check quickly and only shows over the long run. Models do best where data is plentiful and a machine can check the answers automatically, so the work outside both gaps is where they keep improving. For generativity, they mostly recombine pieces already present in their training data. For judgment, they need humans to grade what is good, and they reflect back the judgment of whoever uses them. A human brain already has the capacity for both and can train it, and the people who get good at higher-order thinking are likely to be the last knowledge workers replaced.
 
-## Core takeaways
+<figure>
+<svg viewBox="0 0 520 350" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="hog-split-t">
+<title id="hog-split-t">Higher-order thinking is the work AI still finds hardest. It covers situations that depend heavily on context, involve many interacting factors, have no single right answer and carry high stakes. Splitting that work into generating and judging is a proposed working grouping of points the sources raise one at a time, rather than a claim any of them makes.</title>
+<rect x="0.5" y="0.5" width="519" height="349" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<text x="260" y="34" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">Splitting that work into generating and judging</text>
+<text x="260" y="52" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">is a proposed working grouping</text>
+<rect x="110" y="64" width="300" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="260" y="94" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">Higher-order thinking</text><text x="260" y="114" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">the work AI still finds hardest</text>
+<rect x="20" y="178" width="230" height="108" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="135" y="208" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Higher-order generativity</text><text x="135" y="228" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">producing something truly new</text><text x="135" y="248" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">creativity outside the</text><text x="135" y="268" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">range of the data</text>
+<rect x="270" y="178" width="230" height="108" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="385" y="208" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Higher-order judgment</text><text x="385" y="228" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">deciding what is good</text><text x="385" y="248" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">and what to do</text><text x="385" y="266" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">often called taste</text>
+<path d="M220,135 L143.143,171.168" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="135,175 141.0,166.6 145.3,175.7" style="fill:var(--qp-mut)"/>
+<path d="M300,135 L376.857,171.168" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="385,175 374.7,175.7 379.0,166.6" style="fill:var(--qp-mut)"/>
+<text x="135" y="314" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">they mostly recombine pieces</text>
+<text x="135" y="332" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">already present in their training data</text>
+<text x="385" y="314" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">they need humans to</text>
+<text x="385" y="332" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">grade what is good</text>
+</svg>
+</figure>
 
-- Higher-order work is two capabilities. Generativity makes the thing. Judgment makes the call.
-- The test that separates them is who carries the cost if the output is wrong. Generativity is graded on an artifact that can be inspected now. Judgment is graded on process, because the outcome arrives late, partial, and confounded.
-- A generative draft can be thrown away and regenerated at no cost. A judgment call is made once, under uncertainty, and cannot be retried.
-- A coherent artifact is evidence that an artifact exists. It does not show that stakes were modelled, that second-order effects were considered, or that anything was judged.
-- As of mid-2026, machines match or exceed the median professional on a large class of synthesis and creative-integration tasks. Judgment under stakes is the half machines have not matched, and the gap there is closing.
-- The practical move is to supply judgment over a fleet of generative systems: hold the model of stakes, make the calls that cannot be retried, and let the machines generate.
+## The work AI still finds hard
 
-## Why the two were treated as one
+Lower-order thinking keeps facts in isolation, as in memorising them one by one. Its value levels off at a fairly low ceiling, and that ceiling is dropping as AI does more of this work better than most people. The value of higher-order thinking keeps rising with skill, because a stronger thinker can handle more complicated situations and take on larger responsibilities. Higher-order thinking deals with work that is deeply contextual and multifactorial, with heavy conditionality and complexity. The information may be new and nuanced, and there is no right answer. That includes critical problem solving and high-stakes decisions, which depend on seeing how all the pieces fit together.
 
-There was a reason for treating the two as one. In this vault, "higher-order" is the name for work that depends on holding many interacting parts at once, in situations that are contextual, multifactorial, and high in conditionality. There is no single right answer, and the information is new and nuanced. In this vault's model of learning, higher-order knowledge is integrated into a network, and lower-order knowledge is held as isolated points. Integration comes from two operations on the material: comparing pieces of information against each other, and judging the relative importance of what the comparison finds. The lower-order alternative is repetition over items kept separate.
+<figure>
+<svg viewBox="0 0 520 240" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="hog-ceiling-t">
+<title id="hog-ceiling-t">Lower-order thinking keeps facts in isolation, as in memorising them one by one. Its value levels off at a fairly low ceiling, and that ceiling is dropping as AI does more of this work better than most people. The value of higher-order thinking keeps rising with skill, because a stronger thinker can handle more complicated situations and take on larger responsibilities.</title>
+<rect x="0.5" y="0.5" width="519" height="239" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<path d="M50,30 L50,210 L490,210" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<text x="490" y="232" text-anchor="end" style="fill:var(--qp-mut);font-size:12px">skill</text>
+<text x="36" y="34" text-anchor="end" transform="rotate(-90 36 34)" style="fill:var(--qp-mut);font-size:12px">value</text>
+<path d="M50,210 C150,170 210,150 290,150 L480,150" style="fill:none;stroke:var(--qp-rule2);stroke-width:2"/>
+<path d="M50,210 L480,38" style="fill:none;stroke:var(--qp-accent);stroke-width:2"/>
+<text x="300" y="46" text-anchor="end" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Higher-order thinking</text>
+<text x="300" y="64" text-anchor="end" style="fill:var(--qp-mut);font-size:12px">keeps rising with skill</text>
+<text x="480" y="174" text-anchor="end" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Lower-order thinking</text>
+<text x="480" y="192" text-anchor="end" style="fill:var(--qp-mut);font-size:12px">a fairly low ceiling</text>
+</svg>
+</figure>
 
-The second operation is judging. Judging is therefore already inside the definition of higher-order learning. The operation that builds an integrated network and the operation that makes an accountable call are the same operation at two scales. That is why the two capabilities were treated as one for so long. The habits that integrate information and the habits that keep it isolated are two different sets of habits, and the two sets do not sit on one scale. [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]] covers the learning side. The split into two capabilities was made in this vault. ## Why they differ
+Language models run on the transformer architecture, and that design has limits for this kind of work. Matching an expert human would take substantial technical breakthroughs, probably someday and probably not soon. People are not running the same race, because the human brain already has the hardware and only needs training to use it. Within this hard zone, the split into generating and judging is the same proposed grouping.
 
-Being wrong costs little in generativity. A draft that misses costs nothing. You regenerate and look again. The good version can be recognised when it appears, as long as a verifier exists. The verifier is sometimes a human reader and sometimes a spec. Producing many candidates and selecting the coherent one is close to what a generative model already does. That is why generativity is the easier half to automate. Producing a plausible option is a different operation from being accountable for choosing it. One system can be strong at the first and weak at the second. [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]] describes the same difference from inside the model: fast interpolation is cheap and deliberate broadcast is slow.
+## Generativity: making what was not predictable
 
-Judgment cannot be retried. The call is made once, under uncertainty. Its quality becomes visible only later, in consequences. At the moment of the call, the decider needs a stable model of the stakes, the second-order effects, and what must not break. That model has to be applied to a situation the system has not seen before. The procedure this vault runs before a call is three questions, in order. First, what are the biggest downsides. Second, are they significant. A downside is absolute when the loss is unacceptable at any level, whatever the upside. A downside is relative when it is unacceptable only if the opportunity is not big enough. Third, can the downsides be protected against. "I don't know" is a permitted answer. It requires a next action: go get information. Information and risk both change with what you do. Getting information early is the cheapest improvement a decision can get. Waiting is also a decision, and its cost is whatever the wait costs.
+Real creativity means reaching an answer that could not have been foreseen from the question and the known pieces, one so far outside the expected range that blind search would take forever to hit it. Few people do this, and they do it rarely. Models today show a weaker form. A result that looks new may have been sitting in the training data in several places, ways and languages, and the model put them together. Picking the solvable problems out of a large set, with a person asking the right questions, is a narrow form of creativity. Inventing whole new scientific theories that turn out true is far away, though the speed of recent progress leaves room for surprise.
 
-Under the retry difference there is a further rule. Higher-order processes produce higher-order outcomes. Lower-order processes produce only lower-order outcomes. The rule does not run in reverse. An integrated, coherent, well-organised artifact is evidence that an artifact exists. It does not show that stakes were modelled, that second-order effects were considered, or that anything was judged. This is why process and outcome are graded separately on purpose. The outcome is what can be seen. The process is what carries over to the next decision. This rule comes from this vault's model of learning, where it is about people. Applying it to machines is a further step the learning model does not take itself.
+Humans have a few edges here. They can learn from a single example, connect anything to anything and leap across whole domains to an idea from nowhere. They can also cut through an endless space of options and rule out huge regions without depending on pure randomness, which natural selection does. Art is the plainest test. Art has to sit outside the expected range to surprise, and once copies of one style appear everywhere, the style becomes expected and loses its value. Brand-new fields with little data are weak spots for models for the same reason.
 
-## Where machines stand on each, mid-2026
+## Judgment: deciding what is good
 
-Confident predictions that AI cannot do higher-order work keep failing in the same way. The prediction treats the bundle as one capability. Machines then match half of it, and the whole prediction is counted as failed. The predictions were about higher-order work from the start, because lower-order work had already been conceded. On work that treats items as isolated points, machines already do more than most people can.
+Models do extremely well where there is a lot of data and the output is easy to verify, as in code, mathematics and self-driving, because a closed loop can grade huge amounts of output automatically. Where quality is hard to verify, as in creative writing, no such loop exists. A model can turn out endless essays, but someone still has to say which are good, and the grading is only as good as the graders' taste. Coding models improved partly because many of the best engineers started using them and fed their taste back in, and building feedback loops with that level of taste is harder than it looks.
 
-Generativity is the half machines have matched fastest. Models now produce synthesis, prose, code, and design at the level most professionals reach. For a large class of synthesis and creative-integration tasks, that level is at or above the median professional. "Most professionals" is an estimate. Nobody has measured it.
+<figure>
+<svg viewBox="0 0 520 162" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="hog-verify-t">
+<title id="hog-verify-t">Models do extremely well where there is a lot of data and the output is easy to verify, as in code, mathematics and self-driving, because a closed loop can grade huge amounts of output automatically.</title>
+<rect x="0.5" y="0.5" width="519" height="161" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="230" height="122" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="135" y="50" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">easy to verify</text><text x="135" y="70" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">code, mathematics and self-driving</text><text x="135" y="88" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">a closed loop can grade</text><text x="135" y="106" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">huge amounts of output</text><text x="135" y="124" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">automatically</text>
+<rect x="270" y="20" width="230" height="122" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/><text x="385" y="50" text-anchor="middle" style="fill:var(--qp-ink);font-size:15px;font-weight:600">hard to verify</text><text x="385" y="70" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">creative writing</text><text x="385" y="88" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">no such loop exists</text>
+</svg>
+</figure>
 
-Judgment under stakes is the half machines have not matched: reliable, accountable decisions in new, high-conditionality situations. Current systems are weakest at reliability under real novelty. When a system performs very well at generativity, it is easy to conclude that machines can now do all higher-order work. That conclusion usually treats an outcome as proof of a process. It grades an artifact, and the artifact was never the contested part. The human advantage is now almost entirely in judgment.
+Part of what people call taste is knowing what works in the long run, such as which software systems will stay maintainable over a project's life. Models are weak at some long-horizon judgments, and they also show less diversity of thought than people. Progress stalls wherever a model's judgment is weaker or it can't check its own work. That bottleneck fits a repeating cycle in which each new model first seems like a breakthrough and then feels limited after a month of use.
 
-These positions describe mid-2026. The split between the two capabilities stays valid over time. The location of the human advantage moves. The gap on judgment is closing. Nothing in the distinction guarantees it stays open.
+Judgment also decides what to work on, and picking the right problem over the wrong one makes an unbounded difference. A model will lay out a strong trade-off table between options, but the choice itself still rests on taste and judgment. For now models mostly mirror the judgment the user brings, which matters less as models get smarter. Video tools show the same gap, since they can make footage on request but lack the taste to make a great film.
 
-## An example from this vault
+## What to build in yourself
 
-[[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Claude Fable]] is the generative model currently in use in this vault. It generates fluently across readable artifacts. It stalls on taste-bound work, where the spec exists only in the operator's head and no candidate can be graded without going back to the operator. That is one local example. The next model this vault uses will fill the example differently.
+Using AI to speed up your current work doesn't make your job more secure. If a tool lets you do in 10 or 20 hours what someone paid 40 hours for, the business has the same reason to pay less or replace you. The extra value a person adds is in what AI does badly alone, so the goal of learning is higher-order thinking itself. It only improves when you deliberately push yourself into it, because it is a different skill set from lower-order study.
 
-A related cut calls the lasting human move stepping *out of distribution*: doing, with intent, something the system has not seen and cannot reach by averaging what it has seen. That limit falls on the generativity half, not on the judgment half. The two cuts agree on one point: neither out-of-distribution work nor judgment is interpolation. They use different axes. One cut uses surprise. This split uses accountability.
-
-## The strongest objection
-
-The strongest objection is this. Judgment turns into generativity whenever a decision can be restated as "generate options and score them". Much of practical decision-making can be restated that way. If most working judgment is option-generation plus a scoring rule, the human advantage in judgment is smaller than the split suggests.
-
-The objection assumes a score is available. The score of an option is its expected value: the chance of the good outcome times its size, against the chance of the bad outcome times its size. You then look at whether the result is positive or negative. In the situations this split calls judgment, those numbers are never available. The working method is deliberate coarsening. Drop the variables too small to change the sign. Put significance and chance into rough tiers. Read the sign off the simplified version. Precision is given up on purpose because it is unavailable. It is still important. [[wiki/Decision Making/Expectancy in Wicked Environments|Expectancy in Wicked Environments]] holds that method. Choosing which variables can be dropped, and which tier a downside belongs in, is the judgment. "Generate and score" moves that judgment into the scorer. Someone has to own the coarsening. The tiers are chosen by whoever carries the cost of getting them wrong. That is the same test that separates the two capabilities, applied inside the objection.
-
-Two facts still limit how firm the split is. The scaling and post-training that closed the generativity gap are now being applied to multi-step reasoning and tool-grounded action, which are close to judgment. The reliability pillar of [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] tracks this. Also, one impressive case proves little either way. A system can appear to exercise judgment in low-stakes synthesis and then fail when a wrong call is expensive. The low stakes were what made the performance cheap to give.
-
-## What to do with the difference
-
-If the lasting human advantage is judgment, the move is to supply judgment over a fleet of generative systems. The person holds the model of stakes, owns the coarsening, and makes the calls that cannot be retried. The fleet produces the candidates and holds more interacting variables than one unaided mind can. [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] describes this form of leverage: one person's judgment multiplied through machines that generate. The position still works when machines fully match generativity, because the person supplies the capability machines have not matched and the machines supply the capability that keeps growing. [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]] makes the same move on the learning side. The artifact arrives whether or not a machine made it. The encoding is what must never be handed over.
-
-Accountability is the dividing axis because a reader can run the test: ask who pays if the output is wrong. Calibration, out-of-distribution reliability, and responsibility remain candidates for the truer axis.
-
-## How to practice this
-
-1. Take one piece of work you did this week. Ask who carries the cost if it is wrong. If the cost falls on you and arrives later, that work was judgment.
-2. Before your next call, write down the biggest downsides. Mark each one absolute or relative, and ask whether it can be protected against. If any answer is "I don't know", go get information before deciding.
-3. When a model hands you a coherent artifact, ask whether stakes and second-order effects were modelled. Notice that the artifact itself cannot answer this question.
-4. When you score options, write down which variables you dropped and which tier each downside went in. Notice that you made those choices, and that those choices are the judgment.
-5. When a system seems to judge well on a low-stakes task, test it where a wrong call is expensive. Notice whether the performance holds.
-6. Split your current project into parts a model can regenerate and calls that cannot be retried. Hand the first kind to the machines and keep the second. Notice which parts you kept.
+With AI covering domain knowledge and jargon, what's left is creativity and taste, along with enough drive to start and keep going. A long degree pays off only if it built creativity, instinct, taste and judgment, because memorised jargon and scaffolding are what AI cuts through. People mostly learn judgment in a particular domain on the job, by pattern matching in complex settings, as in investing, running a fleet of trucks or forecasting weather. The practical habit is to get very good with the tools while keeping track of where their limits are, since those limits keep moving.
 
 ## Open questions
 
-- Where is the boundary between decisions that can be generated-and-scored and decisions that cannot?
-- How fast is judgment-under-stakes actually closing?
-- Is accountability the right axis, or a proxy for calibration, out-of-distribution reliability, or responsibility?
+- How does a person tell whether an idea is truly new or a recombination of known pieces?
+- How does taste form when the results of a choice only show years later?
+- How does practice with AI tools change the judgment a person brings to them?
 
 ## Sources
 
-- *How To Learn So Fast That AI Can Never Replace You* (video, 2026-06-13): the prompt for this page. It argues the higher-order bundle whole; the split into two capabilities is this vault's cut, not the source's.
-- Kahneman, D. & Klein, G. (2009), "Conditions for Intuitive Expertise: A Failure to Disagree," *American Psychologist* 64(6). Expert judgment is reliable where the environment offers valid cues and the judge has had enough feedback. It supports why judgment under novelty is hard, for people and for machines; it does not supply this page's frame.
+- Justin Sung, "How To Learn So Fast That AI Can Never Replace You", 2026-06-13. https://www.youtube.com/watch?v=-Xc_ExgwLs8
+- Naval Podcast, "A Motorcycle for the Mind", 2026-02-20. https://nav.al/ai
+- Naval Podcast, "The AI Industrial Revolution", with Guillermo Rauch, Blake Scholl and Max Hodak, 2026-06-02. https://nav.al/industrial
+- Naval Podcast, "A Return to Code", 2026-04-29. https://nav.al/code
+- Naval Podcast, "How to Get Rich", 2019-12-28. https://nav.al/rich
+- Dwarkesh Patel with John Schulman, Beren Millidge and Charlie O'Neill, "AI researchers debate how close we are to recursive self-improvement", 2026-09-11. https://www.youtube.com/watch?v=PrSf7IOYu-I
+
+## Related pages
+
+- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]: the thinking level both capabilities belong to.
+- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: a wider comparison of what people and models each do well.
+- [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]]: why handing thinking to AI stops the skill from growing.
+- [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]]: grading a call when its outcome is slow to arrive.
+- [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: why the right choice of work can matter far more than effort.

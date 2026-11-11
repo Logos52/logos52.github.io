@@ -3,124 +3,178 @@ title: "How to diagnose and fix exam mistakes"
 type: concept
 status: developing
 created: 2026-05-14
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
-model: grok
-source-count: 5
+updated: 2026-11-11
+method: fresh-from-notes-2026-11-11
+description: "Exam mistakes called silly usually trace to a gap in understanding or practice, so you name the most likely cause from the pattern of errors, test one targeted fix, and repeat."
 tags:
   - exam-technique
   - error-analysis
   - encoding
   - retrieval
   - self-regulation
+wedge_reviewed: false
 ---
 
 # How to diagnose and fix exam mistakes
 
-Every error left over from a paper is written into one of three rows before anything else is done: higher-order, lower-order, or procedural. Each row has its own cause and its own fix. Treating every error as carelessness leads to more hours of the same practice. The score does not improve.
+> Not yet reviewed by Wedge.
 
-The sort has three columns: what the error looks like on the paper, what caused it, and what the next practice has to be.
+A mistake you call silly is hard to fix, because the label hides its cause. Most of these errors come from weak preparation more than from poor technique in the exam room, and even an obvious slip usually marks a place where understanding or application is thin. So the work starts with diagnosis. You read how your errors cluster to name the biggest likely cause, try one fix aimed at that cause, then reflect on what else might be behind the rest, and keep repeating the loop. Five causes are the common ones. They are test anxiety, missing lower-order knowledge, missing higher-order knowledge, too little procedural practice, and gaps that never show up in your normal retrieval, meaning whenever you pull information from memory and use it. When the cause is unclear, a practice test helps if you answer it twice. You sit it once as the exam, then write your own model answer sheet, and comparing the two brings hidden gaps into view. Questions you got right without confidence count as gaps too.
 
-## Core takeaways
+<figure>
+<svg viewBox="0 0 520 252" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="exam-loop-t">
+<title id="exam-loop-t">You read how your errors cluster to name the biggest likely cause, try one fix aimed at that cause, then reflect on what else might be behind the rest, and keep repeating the loop.</title>
+<rect x="0.5" y="0.5" width="519" height="251" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="30" y="24" width="200" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="130" y="54" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">read how your</text><text x="130" y="74" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">errors cluster</text>
+<rect x="290" y="24" width="200" height="68" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/><text x="390" y="54" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">name the biggest</text><text x="390" y="74" text-anchor="middle" style="fill:var(--qp-ink);font-size:14px;font-weight:600">likely cause</text>
+<rect x="290" y="140" width="200" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="390" y="170" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">try one fix aimed</text><text x="390" y="190" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">at that cause</text>
+<rect x="30" y="140" width="200" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="130" y="170" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">reflect on what else might</text><text x="130" y="190" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">be behind the rest</text>
+<path d="M234,58 L277,58" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="286,58 277.0,63.0 277.0,53.0" style="fill:var(--qp-mut)"/>
+<path d="M390,96 L390,127" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="390,136 385.0,127.0 395.0,127.0" style="fill:var(--qp-mut)"/>
+<path d="M286,174 L243,174" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="234,174 243.0,169.0 243.0,179.0" style="fill:var(--qp-mut)"/>
+<path d="M130,136 L130,105" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="130,96 135.0,105.0 125.0,105.0" style="fill:var(--qp-mut)"/>
+<text x="260" y="236" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">keep repeating the loop</text>
+</svg>
+</figure>
 
-- Every leftover error goes into one of three rows: higher-order, lower-order, or procedural. Each row has a different cause and a different fix.
-- A higher-order error comes from a conceptual gap. The fix is to build the structure again, on purpose, with why, how, and relationship. Re-reading does not fix it.
-- A lower-order error is a slip at one step while the structure is intact. The fix is to slow that step and add a review pass. A missing fact gets a targeted retrieve or a card.
-- A procedural error is a wrong or skipped step in a sequence the learner already knows. The fix is to practise the sequence as a sequence.
-- Calling an error "silly" produces two moves: ignoring the error, and trying harder. Neither puts a check at the step where the slip happens.
-- When a mistake could be conceptual or procedural, two tests decide the row before any fix: double generation and the two-attempt check.
+## Why "silly" is the wrong label
 
-## Higher-order errors
+Two causes sit behind most so-called silly mistakes. The less common one is weak attention to detail. It can be temporary after a short night or a stressful stretch, but more often years of being waved away have turned it into a habit. The more common one is missing logic. When a student lacks part of the understanding, they skip over information without noticing, and the answer key still makes sense to them when they read it. That feeling of sense is the trap, because following a chain of reasoning is easier than producing it with nothing in front of you.
 
-A higher-order error is an error in how ideas connect, in which approach to take, or in what the question is asking. On the paper it looks like the wrong approach, a misread question, or a concept applied in the wrong domain.
+Unit errors in maths and physics show the pattern clearly. Once a student understands what each unit stands for, the conversion mistakes usually stop, because a wrong conversion now clashes with their understanding as well as with what they memorised. An error that clashes with understanding is one you have a better chance of catching.
 
-The cause is a conceptual gap. The schema is the organised structure the learner currently holds for a topic, including what hangs off what. In a higher-order error, that schema does not connect at the level of understanding. On review, the official answer reads as obvious, and the learner cannot produce the chain of reasoning with the source closed. The feeling that the answer is obvious is the sign of this kind of error. It is not proof that the knowledge was there.
+Effort alone doesn't fix this. Ignoring the mistake and hoping it won't come back fails, just as a vague promise to be more careful fails. Fixing the preparation system comes first, so that fewer gaps reach the exam, and only after that is it worth tuning exam technique.
 
-A conversion error can look like a slip. It often stops happening once the learner understands the unit as a quantity. Before that, the unit is a label to swap. After that, a wrong conversion fails two tests: it breaks the memorised rule, and it does not make sense.
+## Reading the pattern to find the cause
 
-The fix is to re-encode the concept: build the structure again, on purpose, with why, how, and relationship. Re-reading does not do this. That rebuild at the learner's current skill level is [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]. The four-pass workflow that the re-encode instruction points at is the [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]].
+Each cause leaves a different pattern in your errors, and the pattern points to the fix.
 
-## Lower-order errors
+<figure>
+<svg viewBox="0 0 520 630" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="exam-causes-t">
+<title id="exam-causes-t">Each cause leaves a different pattern in your errors, and the pattern points to the fix.</title>
+<rect x="0.5" y="0.5" width="519" height="629" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="480" height="116" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="50" style="fill:var(--qp-ink);font-size:14px;font-weight:600">test anxiety</text>
+<text x="40" y="74" style="fill:var(--qp-mut);font-size:12px">pattern</text>
+<text x="120" y="74" style="fill:var(--qp-ink);font-size:13px">the errors look random</text>
+<text x="120" y="93" style="fill:var(--qp-ink);font-size:13px">they grow as the stakes rise</text>
+<text x="40" y="118" style="fill:var(--qp-mut);font-size:12px">fix</text>
+<text x="120" y="118" style="fill:var(--qp-ink);font-size:13px">practise under rising pressure</text>
+<rect x="20" y="148" width="480" height="97" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="178" style="fill:var(--qp-ink);font-size:14px;font-weight:600">missing lower-order knowledge</text>
+<text x="40" y="202" style="fill:var(--qp-mut);font-size:12px">pattern</text>
+<text x="120" y="202" style="fill:var(--qp-ink);font-size:13px">recalling specific, separate facts</text>
+<text x="40" y="227" style="fill:var(--qp-mut);font-size:12px">fix</text>
+<text x="120" y="227" style="fill:var(--qp-ink);font-size:13px">a lower-order retrieval method, such as flashcards</text>
+<rect x="20" y="257" width="480" height="116" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="287" style="fill:var(--qp-ink);font-size:14px;font-weight:600">missing higher-order knowledge</text>
+<text x="40" y="311" style="fill:var(--qp-mut);font-size:12px">pattern</text>
+<text x="120" y="311" style="fill:var(--qp-ink);font-size:13px">questions that join two or more concepts</text>
+<text x="40" y="336" style="fill:var(--qp-mut);font-size:12px">fix</text>
+<text x="120" y="336" style="fill:var(--qp-ink);font-size:13px">more higher-order learning in both encoding</text>
+<text x="120" y="355" style="fill:var(--qp-ink);font-size:13px">and retrieval sessions</text>
+<rect x="20" y="385" width="480" height="116" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="40" y="415" style="fill:var(--qp-ink);font-size:14px;font-weight:600">too little procedural practice</text>
+<text x="40" y="439" style="fill:var(--qp-mut);font-size:12px">pattern</text>
+<text x="120" y="439" style="fill:var(--qp-ink);font-size:13px">applying knowledge to step-by-step tasks</text>
+<text x="40" y="464" style="fill:var(--qp-mut);font-size:12px">fix</text>
+<text x="120" y="464" style="fill:var(--qp-ink);font-size:13px">practice that has you carry out</text>
+<text x="120" y="483" style="fill:var(--qp-ink);font-size:13px">the procedure yourself</text>
+<rect x="20" y="513" width="480" height="97" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/>
+<text x="40" y="543" style="fill:var(--qp-ink);font-size:14px;font-weight:600">gaps your retrieval never surfaces</text>
+<text x="40" y="567" style="fill:var(--qp-mut);font-size:12px">pattern</text>
+<text x="120" y="567" style="fill:var(--qp-ink);font-size:13px">the same ones come back in practice tests</text>
+<text x="40" y="592" style="fill:var(--qp-mut);font-size:12px">fix</text>
+<text x="120" y="592" style="fill:var(--qp-ink);font-size:13px">the double generation practice test</text>
+</svg>
+</figure>
 
-A lower-order error is an error in a specific fact, a unit, a sign, or a copied number. On the paper it looks like an arithmetic slip, a sign error, the wrong word, a missed unit, or a mis-copy.
+1. With test anxiety, the errors look random. They don't line up with question difficulty, question type, subject or kind of mistake, yet they grow as the stakes rise. The fix is to practise under rising pressure, starting with timed papers in exam conditions, then cutting the time, then doing them alongside others. Slow, deep breathing before the test and a calming pre-test routine also help, while cramming in the final minutes before the exam mostly raises anxiety for little gain.
+2. With missing lower-order knowledge, the errors cluster on recalling specific, separate facts, and the fix is a lower-order retrieval method, such as flashcards, added to your study system.
+3. With missing higher-order knowledge, the errors cluster on questions that join two or more concepts, on big-picture ideas, and on choosing a strategy for a problem. The fix is more higher-order learning in both encoding and retrieval sessions, using retrieval that mixes topics and forms.
+4. With too little procedural practice, the errors cluster on applying knowledge to step-by-step tasks, which is common in maths, engineering and software work. The fix is more practice that has you carry out the procedure yourself inside your retrieval sessions.
+5. With gaps your retrieval never surfaces, the errors are spread across several of these kinds, and the same ones come back in practice tests. The fix is the double generation practice test, which is built to surface exactly these gaps.
 
-The schema is intact. The slip happened at a specific step. The cause at that step is load, haste, a missing check, or a detail that was never made automatic. Sometimes the drop comes from one night's sleep or from acute stress. More often the slip is a habit: the label "silly" has let the same slip run for years.
+Attention to detail also depends on pressure, confidence and self-belief. If your accuracy drops mainly when the stakes are high, five habits target that directly.
 
-The fix is to slow that step and add a review pass for mechanical output. If the hole is a missing fact, the fix is a targeted retrieve or a card. A slower line of working does not supply a missing fact.
+1. Speak positively to yourself about how you prepared.
+2. Build a routine that brings you to your best state.
+3. Train focus with mindfulness practice.
+4. Picture yourself doing well, along with the steps that got you there.
+5. Bring exam conditions into revision gradually.
 
-The same three names appear at preparation scale on [[wiki/Domains/Miscellaneous/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]. On that page, lower-order means missing facts. On this page, lower-order may mean a missing fact or a slipped step.
+## The double generation practice test
 
-## Procedural errors
+Practice papers often show the first signs of an error, but the signs are easy to miss if you check the answers too soon or leave a question half answered. The double generation method is built to stop that.
 
-A procedural error looks like this: the concept was known, the approach was right, and the sequence was wrong or a step was skipped. The cause is that the sequence is not yet automatic. The fix is to practise the sequence as a sequence. Practising the components alone does not make the sequence automatic.
+1. Sit a practice test and write out every answer in full, as you would in the real exam.
+2. Mark each place where you were unsure as you go.
+3. Build your own answer sheet of ideal model answers, drawing on your notes and other resources.
+4. Check your exam answers against the sheet you built.
+5. Check your sheet against the official one, if there is one.
 
-## Errors that do not fit the three rows
+You finish with three lists. One holds the questions you were unsure about, one holds the questions your own sheet shows you got wrong, and one holds the model answers the official sheet shows were incomplete. Every item on them is a likely gap, and each one gets restudied with an encoding technique. An answer you got right without confidence stays on the list, because luck may have carried it, and a reworded version of the same question could catch you next time.
 
-The three rows do not cover every exam error. Two kinds sit outside the table. The first is pure anxiety: errors that are random, linked to the stakes, and show no content pattern. The second is questions on material that was never studied.
+<figure>
+<svg viewBox="0 0 520 588" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="exam-dgen-t">
+<title id="exam-dgen-t">Every item on them is a likely gap, and each one gets restudied with an encoding technique.</title>
+<rect x="0.5" y="0.5" width="519" height="587" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="20" y="20" width="480" height="48" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="40" y="50" style="fill:var(--qp-ink);font-size:13px">Sit a practice test</text>
+<path d="M260,70 L260,77" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260,86 255.0,77.0 265.0,77.0" style="fill:var(--qp-mut)"/>
+<rect x="20" y="88" width="480" height="48" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="40" y="118" style="fill:var(--qp-ink);font-size:13px">Mark each place where you were unsure</text>
+<path d="M260,138 L260,145" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260,154 255.0,145.0 265.0,145.0" style="fill:var(--qp-mut)"/>
+<rect x="20" y="156" width="480" height="48" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/><text x="40" y="186" style="fill:var(--qp-ink);font-size:14px;font-weight:600">Build your own answer sheet</text>
+<path d="M260,206 L260,213" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260,222 255.0,213.0 265.0,213.0" style="fill:var(--qp-mut)"/>
+<rect x="20" y="224" width="480" height="48" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="40" y="254" style="fill:var(--qp-ink);font-size:13px">Check your exam answers against the sheet you built</text>
+<path d="M260,274 L260,281" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260,290 255.0,281.0 265.0,281.0" style="fill:var(--qp-mut)"/>
+<rect x="20" y="292" width="480" height="48" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="40" y="322" style="fill:var(--qp-ink);font-size:13px">Check your sheet against the official one</text>
+<text x="260" y="370" text-anchor="middle" style="fill:var(--qp-mut);font-size:12px">You finish with three lists.</text>
+<rect x="20" y="386" width="150" height="82" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="95" y="414" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">the questions you</text>
+<text x="95" y="432" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">were unsure about</text>
+<path d="M95,470 L201.753,495.88" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="210.5,498 200.6,500.7 202.9,491.0" style="fill:var(--qp-mut)"/>
+<rect x="185" y="386" width="150" height="82" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="260" y="414" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">the questions your</text>
+<text x="260" y="432" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">own sheet shows you</text>
+<text x="260" y="450" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">got wrong</text>
+<path d="M260,470 L260,489" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="260,498 255.0,489.0 265.0,489.0" style="fill:var(--qp-mut)"/>
+<rect x="350" y="386" width="150" height="82" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="425" y="414" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">the model answers the</text>
+<text x="425" y="432" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">official sheet shows</text>
+<text x="425" y="450" text-anchor="middle" style="fill:var(--qp-ink);font-size:12px">were incomplete</text>
+<path d="M425,470 L318.247,495.88" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/><polygon points="309.5,498 317.1,491.0 319.4,500.7" style="fill:var(--qp-mut)"/>
+<rect x="20" y="500" width="480" height="68" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/><text x="260" y="530" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">Every item on them is a likely gap</text><text x="260" y="550" text-anchor="middle" style="fill:var(--qp-ink);font-size:13px">each one gets restudied with an encoding technique</text>
+</svg>
+</figure>
 
-The three rows will mis-sort the random, stakes-linked pattern into lower-order, and the learner will slow steps that are not the problem. A slower arithmetic line does not fix that pattern. The pattern, and the five-letter protocol for it, are on [[Silly Mistake Syndrome]].
+Writing the answers matters. Answering in your head is not enough to expose the illusion of explanatory depth, which is the feeling that you understand something better than you can explain it. That illusion is a common reason practice tests still let gaps slip past.
 
-## Why the label "silly" misleads
+Building your own answer sheet is the slow step and the most valuable one. You may use only the official sheet if time is very short. Making your own is better because it forces lower-order and higher-order thinking at once, since you have to judge what a perfect answer would contain. As a rough estimate, doing it is worth about as much as five or six practice tests done without it. It also teaches you material the question never asked about, because you have to learn the ground around each question to write a full answer.
 
-The label "silly" is appealing because it frames the error as a lapse of attention. A lapse of attention seems to have a simple fix: be more careful. The label produces two moves, ignoring the error and trying harder. Neither move installs a check at the step where the slip happens. "Be more careful" as a general intention does not install a check either. A habit changes under monitoring. A vow on its own does not change a habit. The way "be more careful" turns into the appearance of care is described on [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]].
+Without a practice test you can write your own questions, find similar ones in textbooks or online, ask an AI tool to draft some, or swap tests with a small study group. A group works best when you can manage it, since someone else's questions come from a perspective you lack. Skipping the official sheet is fine when there isn't one, and comparing your model answers with a friend's lowers the chance that you both missed the same point.
 
-A higher-order error treated as carelessness will recur, because the conceptual gap remains. A lower-order error treated as a conceptual gap wastes encoding effort on something already understood. These two mismatches are the reason for the three-way sort.
+## Habits on the day
 
-## Diagnose before fixing
-
-Diagnosis comes before any fix. Extra practice at the wrong level has a cost: it reinforces the wrong schema or the wrong process. Practice at the wrong level makes the error harder to fix later. It does not make the error impossible to fix. Gaps in applying the concept are closed first. Habits for sitting the paper come second. Exam technique applied over a knowledge gap does not fill the gap. The sort exists so that the next hour of practice is spent at the right level. A longer hour at the wrong level does not help.
-
-## Two tests for an unclear error
-
-When a mistake could be conceptual or procedural, one of two tests runs before the row is chosen.
-
-Double generation has three steps. The learner produces the answer. The learner then produces a model answer from notes. The learner then compares both to the official key, if one exists. The answer is written out. Answering in the head is not enough. Low confidence counts as a gap even when the answer was right. Producing the model answer is itself the learning, because the model sheet shows gaps the question did not test. Using an official answer sheet alone skips that step. When no official key exists, the learner compares two model sheets built independently. A partner's questions find holes that one's own paper will not.
-
-The two-attempt check is the second test. The learner produces the answer twice from memory, ten minutes apart, without looking at the first attempt. Ten minutes is a fixed number this system uses. The gap is not there to let recency fade. Not looking at the first attempt does more of the work than the length of the gap. The step where the two attempts differ is the unstable step. If both attempts fail at the same place, the cause is a gap. Carelessness is not the cause. If the attempts fail at different places, the cause is execution variance. Execution variance is the one thing this test can see and double generation cannot. Generating an answer once can feel fluent even when the knowledge is shaky. That is why more than one generation is needed.
-
-## The review loop
-
-After each practice session or exam review, the learner sorts every error into one of the three rows before choosing the next action. The loop starts with the cluster of errors that is costing the most. The learner names the largest root cause, tries one targeted repair, looks again, then repeats. A complete list of last week's errors followed by "be more careful" is the outcome the sort exists to prevent.
-
-A higher-order error flags the concept for re-encoding. Re-reading is not re-encoding. A lower-order error identifies the step that produces the slip, and the learner slows that step. If a fact is missing, the learner runs a targeted retrieve instead. An ambiguous error runs one of the two tests above before the row is chosen. The learner tracks across sessions which row the errors cluster in. A cluster that persists points to a systemic fix.
-
-The retrieval routine that surfaces the errors this sort then takes is [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]. The steering layer that makes sort, then fix, then track clusters a habit rather than a one-off is [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
-
-## What the loop costs and when to stop
-
-The price of the loop is writing the answer out, then writing a model answer, every time a paper is reviewed. This is slower than glancing at a key. The signal to stop is two review cycles that produce only "be more careful" as the next action. The loop is working when the next paper's errors land in a named row and that row's fix is the only extra practice run. Once every paper is sorted into rows and given each row's fix, the label "silly" is no longer used.
-
-## How to practice this
-
-1. After each practice session or exam review, write every leftover error into a higher-order, lower-order, or procedural row. Do this before choosing any next action. Notice any error with no content pattern; a random, stakes-linked error does not belong in a row.
-2. For an error that could be conceptual or procedural, write the answer out, then a model answer from notes. Compare both to the official key, or, if there is no key, compare two independently built model sheets. Notice any gap the question did not test, and any right answer given with low confidence.
-3. For an unclear error, write the answer from memory twice, ten minutes apart, without looking at the first attempt. Notice whether both attempts fail at the same step or at different steps. The same step means a gap; different steps mean execution variance.
-4. For a higher-order error, build the concept's structure again, on purpose, with why, how, and relationship. Notice whether you can then produce the chain of reasoning with the source closed.
-5. For a lower-order error, slow the step that slips and add a review pass, or retrieve the missing fact. For a procedural error, practise the sequence as a sequence, not the parts alone. Notice whether the same slip has repeated across papers; a repeat is a habit, not a one-off.
-6. Start with the cluster of errors that is costing the most. Name its largest root cause and try one targeted repair, then look again and repeat. Track across sessions which row the errors cluster in; a cluster that persists points to a systemic fix.
-
-## Related pages
-
-- [[wiki/Domains/Miscellaneous/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]: the same three gap types at preparation scale; lower-order there means missing facts
-- [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]: what "re-encode" looks like at the current skill level
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: the retrieval routine that surfaces the errors this sort then takes
-- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: the four-pass encoding workflow the re-encode instruction points at
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the steering layer that makes sort, then fix, then track clusters a habit rather than a one-off
-- [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: why "be more careful" turns into the appearance of care
-- [[Silly Mistake Syndrome]]: the random, stakes-linked pattern and the five-letter protocol that sit outside the three rows
+A few habits keep exam performance steady once preparation is sound. Sleep comes first, because memory consolidates during sleep, so plan on spending 9 hours or more in bed each night before exams. During the paper, double-check only the answers you are unsure about so the pace stays good on the rest. Think like an examiner as you revise, asking how an examiner could test your knowledge in the ways you feel least sure of. Slow, deep breathing calms the body's stress response, and with practice it can wear down an anxiety habit. Under exam stress these tips are easy to forget, so a pre-exam checklist with a start date on your calendar, possibly weeks ahead, turns them into a safety net.
 
 ## Open questions
 
-- Which error category accounts for most of the current exam losses?
-- Do higher-order errors cluster around specific concept types or domains?
-- At what point in a long practice session do lower-order errors start increasing?
+- How does a mistake that feels careless turn out to be a gap in understanding?
+- How does the pattern of errors change as a student's study system improves?
+- How does writing your own model answer teach material the question never tested?
 
 ## Sources
 
-- Callender, A. A., & McDaniel, M. A. (2009). The limited benefits of rereading educational texts. *Contemporary Educational Psychology*, 34(1), 30–41. Rereading is a weak repair for a conceptual gap.
-- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students' learning with effective learning techniques. *Psychological Science in the Public Interest*, 14(1), 4–58. Rereading rated low utility; elaborative interrogation and self-explanation rated moderate. The why / how / relationship prompt is that interrogation.
-- Metcalfe, J. (2017). Learning from errors. *Annual Review of Psychology*, 68, 465–489. The benefit of an error depends on it being identified and corrected, not merely repeated past.
-- Rozenblit, L., & Keil, F. (2002). The misunderstood limits of folk science: An illusion of explanatory depth. *Cognitive Science*, 26(5), 521–562. Generating once can feel fluent even when the knowledge is shaky. Answering in the head does not break the illusion.
-- Fitts, P. M., & Posner, M. I. (1967). *Human Performance*. Brooks/Cole. Cognitive → associative → autonomous skill acquisition. Automaticity is the target of sequence practice.
+- iCanStudy, "How do I avoid making silly mistakes in tests or exams?", Learning Support. Private course notes, paraphrased.
+- iCanStudy, "Silly mistake syndrome", Exam execution. Private course notes, paraphrased.
+- iCanStudy, "Exam technique", Fundamentals 2. Private course notes, paraphrased.
+- Justin Sung, "Learn to Learn in 4hrs 54mins - Full Course." YouTube. What retrieval means. https://www.youtube.com/watch?v=waGRF_ZApfI
+
+## Related pages
+
+- [[wiki/Domains/Miscellaneous/Exam Technique|Exam Technique]]: habits for steady performance in the exam room.
+- [[wiki/Domains/Miscellaneous/Exam Execution|Exam Execution]]: the wider set of adjustments for performing under pressure.
+- [[wiki/Domains/Miscellaneous/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]: preparation when the amount of content is very large.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: the retrieval method that mixes topics and forms.
+- [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]]: ways to vary retrieval for higher-order and procedural practice.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the dimension that covers testing a fix and reflecting on it.
