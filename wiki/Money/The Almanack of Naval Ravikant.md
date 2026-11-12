@@ -9,7 +9,7 @@ prose-model: fable
 written-by: grok
 model: grok
 source-count: 1
-description: "Wealth is assets that earn while you sleep, and a person builds it by pairing specific knowledge and accountability with leverage, owning equity and playing long games with long-term people, because the point of wealth is freedom."
+description: "Wealth is assets that earn while their owner sleeps, and a person builds it by pairing specific knowledge and accountability with leverage, owning equity and playing long games with long-term people, because the point of wealth is freedom."
 tags:
   - money
   - books
@@ -111,4 +111,4 @@ All returns in life, whether in money, relationships or knowledge, come from com
 - [[wiki/Money/Investing and Budgeting Mindsets|Investing and Budgeting Mindsets]]: the money hub.
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]: language models as the newest tool for leverage.
 - [[wiki/Concepts/A Return to Code|A Return to Code]]: code as leverage that needs no permission.
-- [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: returns that grow faster than the effort behind them.
+- [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: why upside can grow much faster than effort when payoffs follow a power law.

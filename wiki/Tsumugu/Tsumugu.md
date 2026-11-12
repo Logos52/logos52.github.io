@@ -21,7 +21,7 @@ wedge_reviewed: false
 
 > Not yet reviewed by Wedge.
 
-The methods for keeping a cast believable through a long story live in [[wiki/Story Craft/Story Craft|Story Craft]]. [[wiki/Story Craft/The Moral Core|The Moral Core]] is the rules a person will actually pay a price to uphold. [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] puts a hard cap on the word list and uses that cap as a timetable for what can be shown, so a whole arc can be told before feeling-words arrive. [[wiki/Story Craft/Arc Types|Arc Types]] sets the shape at the crux, when the old picture of the self and a newly seen truth cannot both be held. For Vietnamese speakers learning Mandarin, [[wiki/Language/The Han-Viet Bridge|The Han-Viet Bridge]] lines up Sino-Vietnamese readings a speaker already knows with the Chinese characters that carry them. Status, stack, and the public reader are on [[projects/tsumugu|the project page]].
+The methods for keeping a cast believable through a long story live in [[wiki/Story Craft/Story Craft|Story Craft]]. [[wiki/Story Craft/The Moral Core|The Moral Core]] is the rules a person will actually pay a price to uphold. [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] puts a hard cap on the word list and uses that cap as a timetable for what can be shown, so a whole arc can be told before feeling-words arrive. [[wiki/Story Craft/Arc Types|Arc Types]] sets the shape at the crux, when the old picture of the self and a newly seen truth cannot both be held. For Vietnamese speakers learning Mandarin, [[wiki/Language/The Han-Viet Bridge|The Han-Viet Bridge]] lines up Sino-Vietnamese readings a speaker already knows with the Chinese characters that carry them. Status and stack are on [[projects/tsumugu|the project page]].
 
 ## The class
 
@@ -55,7 +55,7 @@ Supporting pages already on the site: [林薇](/tsumugu/cast/lin-wei.html), [蘇
 - [[journal/2026-06-23-tsumugu-core-super-app-textbook-companion|The super-app turn]]: the shift toward one textbook companion
 - [[journal/2026-07-02-tsumugu-prd-set|The PRD set]]: the signed product documents
 
-Public sites: [the reader](https://logos52.github.io/tsumugu/) · [the wiki](https://logos52.github.io/tsumugu-wiki/) · [the engine](https://github.com/Logos52/tsumugu).
+Public site: [the wiki](https://logos52.github.io/tsumugu-wiki/).
 
 ## Open questions
 
@@ -66,4 +66,4 @@ Public sites: [the reader](https://logos52.github.io/tsumugu/) · [the wiki](htt
 ## Sources
 
 - [[projects/tsumugu|the project page]]: current status and stack
-- [Reader](https://logos52.github.io/tsumugu/) · [wiki](https://logos52.github.io/tsumugu-wiki/) · [engine repo](https://github.com/Logos52/tsumugu)
+- [Tsumugu wiki](https://logos52.github.io/tsumugu-wiki/)
