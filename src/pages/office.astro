@@ -1,0 +1,171 @@
+---
+/**
+ * office.astro — the Bot Office page. A poster with a Play button; the 3D app is an iframe
+ * (served from the public grokbot-office repo on GitHub Pages) that loads only after Play.
+ */
+import Base from '../layouts/Base.astro';
+
+const APP = 'https://logos52.github.io/grokbot-office/';
+---
+
+<Base title="Bot Office" description="A live 3D isometric office of my Grok bots. Read-only, no tokens." active="office">
+  <main class="office-page">
+    <div class="wrap">
+      <header class="head">
+        <h1>Bot Office</h1>
+        <p class="head__lede">A live 3D isometric office of my Grok bots.</p>
+      </header>
+      <div class="prose">
+        <p>
+          Bot Office shows my Grok bots as small workers in a 3D isometric office. Each bot is
+          working, idle or asleep, and its state comes from when it last sent or received a
+          message. The office can also replay the last 24 hours.
+        </p>
+        <p>
+          The office is read-only and costs no tokens. It never talks to a bot, and it does not
+          show what any message says. The code is open source at
+          <a href="https://github.com/Logos52/botoffice">github.com/Logos52/botoffice</a>.
+        </p>
+      </div>
+
+      <div class="stage" id="office-stage">
+        <img class="stage__poster" src="/assets/bot-office.webp" width="1600" height="900"
+          alt="Bot Office: an isometric office floor with bots at desks, on a sofa and walking between departments" />
+        <button type="button" class="stage__play" id="office-play" aria-label="Play Bot Office">
+          <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor" /></svg>
+        </button>
+      </div>
+      <div class="bar">
+        <button type="button" class="bar__btn" id="office-fs" hidden>Fullscreen</button>
+        <a class="bar__link" href={APP} target="_blank" rel="noopener">Open in its own tab</a>
+      </div>
+    </div>
+  </main>
+
+  <script is:inline define:vars={{ APP }}>
+    (function () {
+      var stage = document.getElementById('office-stage');
+      var play = document.getElementById('office-play');
+      var fs = document.getElementById('office-fs');
+      var frame;
+      play.addEventListener('click', function () {
+        frame = document.createElement('iframe');
+        frame.src = APP;
+        frame.title = 'Bot Office';
+        frame.allow = 'fullscreen; autoplay';
+        frame.setAttribute('allowfullscreen', '');
+        stage.replaceChildren(frame);
+        fs.hidden = false;
+        frame.focus();
+      });
+      fs.addEventListener('click', function () {
+        // iPhone Safari has no element fullscreen: open the app in its own tab instead
+        var go = frame && (frame.requestFullscreen || frame.webkitRequestFullscreen);
+        if (go) go.call(frame); else window.open(APP, '_blank', 'noopener');
+      });
+    })();
+  </script>
+</Base>
+
+<style>
+  .wrap {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 34px 28px 52px;
+  }
+  .head h1 {
+    font-family: var(--ming);
+    font-size: 32px;
+    margin: 0;
+  }
+  .head p {
+    margin: 8px 0 0;
+    color: var(--mut);
+    font-size: 14px;
+  }
+  .prose {
+    margin: 18px 0 22px;
+    line-height: 1.65;
+  }
+  .prose p {
+    margin: 0 0 12px;
+  }
+  .prose a,
+  .bar__link {
+    color: var(--accent);
+  }
+  .stage {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid var(--rule2);
+    border-radius: var(--tsg-radius);
+    background: #0b1020; /* the app's own night-blue backdrop, so the swap does not flash */
+    box-shadow: var(--tsg-shadow);
+  }
+  .stage__poster,
+  .stage :global(iframe) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .stage__poster {
+    object-fit: cover;
+  }
+  .stage__play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 78px;
+    height: 78px;
+    border-radius: 999px;
+    border: 2px solid rgba(255, 255, 255, 0.85);
+    background: rgba(11, 16, 32, 0.72);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 4px;
+    cursor: pointer;
+    transition: transform 0.12s, background 0.12s;
+  }
+  .stage__play:hover,
+  .stage__play:focus-visible {
+    background: var(--accent);
+    transform: translate(-50%, -50%) scale(1.06);
+  }
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 12px;
+    font-size: 14px;
+  }
+  .bar__btn {
+    font: inherit;
+    color: var(--ink);
+    background: var(--card);
+    border: 1px solid var(--rule2);
+    border-radius: var(--tsg-radius-sm);
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  .bar__btn[hidden] {
+    display: none;
+  }
+  .bar__btn:hover {
+    border-color: var(--accent);
+  }
+  @media (max-width: 640px) {
+    .wrap {
+      padding: 28px 16px 40px;
+    }
+    .stage__play {
+      width: 60px;
+      height: 60px;
+    }
+  }
+</style>

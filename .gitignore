@@ -108,6 +108,7 @@ public/projects/*.png
 public/projects/*.jpg
 public/assets/*.jpg
 public/assets/*.png
+public/assets/*.webp
 
 # Local Obsidian themes — not site content
 .obsidian/themes/
