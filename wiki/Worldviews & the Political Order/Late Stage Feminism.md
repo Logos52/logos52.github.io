@@ -17,7 +17,7 @@ wedge_reviewed: true
 
 # Late Stage Feminism
 
-A [Basic Logic video](https://www.youtube.com/watch?v=3SOWFC2SvFY) asks how a society reached the point where, by its account, people online raised over $1 million in support of a mother who murdered her three children. According to its own description, the fundraiser was for her parents. By the video's figures, a woman who saved six children from a fire, with burns to 93% of her body, received about $42,000. The video says the crime is less shocking than the public reaction to it. It offers two answers, a short one through the abortion debate and a deeper one in which feminism, by rejecting patriarchy, ends up rejecting biology itself. In a [reaction video](https://www.youtube.com/watch?v=dtli77ZzhT0), Asmongold accepts part of this and gives a simpler cause.
+A [Basic Logic video](https://www.youtube.com/watch?v=3SOWFC2SvFY) asks how a society reached the point where, by its account, people online raised over $1 million in support of a mother who murdered her three children. According to its own description, the fundraiser was for her parents. By the video's figures, a woman who rescued six children from a fire, with burns to 93% of her body, received about $42,000. The video says the crime is less shocking than the public reaction to it. It offers two answers, a short one through the abortion debate and a deeper one in which feminism, by rejecting patriarchy, ends up rejecting biology itself. In a [reaction video](https://www.youtube.com/watch?v=dtli77ZzhT0), Asmongold accepts part of this and gives a simpler cause.
 
 ## The two payments
 
@@ -32,30 +32,30 @@ The third stage, bodily autonomy, is the one in use now. On the video's account 
 Asmongold agrees that abortion moved the line of what is acceptable. He calls himself pro-abortion and still offers his own figures on why abortions happen. By his count, rape, incest and non-viable pregnancies make up about 3 to 4% of abortions and financial reasons about 6 to 7%. He puts elective reasons at about 92%.
 
 <figure>
-<svg viewBox="0 0 520 393" width="100%" style="max-width:520px" role="img" aria-labelledby="wv-lsf-t">
-<title id="wv-lsf-t">The video traces three stages in the pro-choice case. First stage: the unborn are only developing cells and not yet human. The video calls this wordplay. Second stage: rare and emotional cases such as sexual assault. Third stage: bodily autonomy, the one in use now. On the video's account it concedes that abortion kills a baby. An arrow leads off the third stage: the video then argues that the same reasons apply after birth.</title>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="middle"><text x="260.0" y="22">The video traces three stages in the pro-choice case</text></g>
-<rect x="10" y="250" width="160" height="133" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="270">First stage</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="291">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="291">The unborn are only</text><text x="34" y="307">developing cells</text><text x="34" y="323">and not yet human</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="22" y="343">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="343">The video calls</text><text x="34" y="359">this wordplay</text></g>
-<rect x="180" y="190" width="160" height="97" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="190" y="210">Second stage</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="192" y="231">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="204" y="231">Rare and emotional</text><text x="204" y="247">cases such as</text><text x="204" y="263">sexual assault</text></g>
-<rect x="350" y="140" width="160" height="147" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="360" y="160">Third stage: bodily</text><text x="360" y="177">autonomy, the one</text><text x="360" y="194">in use now</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="362" y="215">•</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="start"><text x="374" y="215">On the video's</text><text x="374" y="231">account it concedes</text><text x="374" y="247">that abortion kills</text><text x="374" y="263">a baby</text></g>
-<path d="M90,250 L90,210 L178,210" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="178.0,210.0 169.0,215.0 169.0,205.0" style="fill:var(--mut,#666)"/>
-<path d="M260,190 L260,160 L348,160" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="348.0,160.0 339.0,165.0 339.0,155.0" style="fill:var(--mut,#666)"/>
-<rect x="250" y="40" width="260" height="60" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="380.0" y="60">The video then argues that the same</text><text x="380.0" y="76">reasons apply after birth</text></g>
-<path d="M430,140 L430,100" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="430.0,100.0 435.0,109.0 425.0,109.0" style="fill:var(--mut,#666)"/>
+<svg viewBox="-16 -16 552 425" width="100%" style="max-width:552px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="wv-lsf-t">
+<title id="wv-lsf-t">The video traces three stages in the pro-choice case.</title>
+<rect x="-15.5" y="-15.5" width="551" height="424" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:13px;font-weight:600" text-anchor="middle"><text x="260.0" y="22">The video traces three stages in the pro-choice case</text></g>
+<rect x="10" y="250" width="160" height="133" rx="8" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.5;"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="20" y="270">The first</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><circle cx="25.3" cy="287" r="2" style="fill:var(--qp-ink)"/></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="291">The unborn are only</text><text x="34" y="307">developing cells</text><text x="34" y="323">and not yet human</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><circle cx="25.3" cy="339" r="2" style="fill:var(--qp-ink)"/></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><text x="34" y="343">The video calls</text><text x="34" y="359">this wordplay</text></g>
+<rect x="180" y="190" width="160" height="97" rx="8" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.5;"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="190" y="210">Second stage</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><circle cx="195.3" cy="227" r="2" style="fill:var(--qp-ink)"/></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><text x="204" y="231">Rare and emotional</text><text x="204" y="247">cases such as</text><text x="204" y="263">sexual assault</text></g>
+<rect x="350" y="140" width="160" height="147" rx="8" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.5;"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:13px;font-weight:600" text-anchor="start"><text x="360" y="160">The third stage, bodily</text><text x="360" y="177">autonomy, is the one</text><text x="360" y="194">in use now.</text></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><circle cx="365.3" cy="211" r="2" style="fill:var(--qp-ink)"/></g>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="start"><text x="374" y="215">On the video's</text><text x="374" y="231">account it concedes</text><text x="374" y="247">that abortion kills</text><text x="374" y="263">a baby</text></g>
+<path d="M90,250 L90,210 L178,210" style="fill:none;stroke:var(--qp-mut);stroke-width:1.5"/><polygon points="178.0,210.0 169.0,215.0 169.0,205.0" style="fill:var(--qp-mut)"/>
+<path d="M260,190 L260,160 L348,160" style="fill:none;stroke:var(--qp-mut);stroke-width:1.5"/><polygon points="348.0,160.0 339.0,165.0 339.0,155.0" style="fill:var(--qp-mut)"/>
+<rect x="250" y="40" width="260" height="60" rx="8" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.5;stroke:var(--qp-accent);stroke-width:2"/>
+<g style="fill:var(--qp-ink);font-family:inherit;font-size:12px" text-anchor="middle"><text x="380.0" y="60">The video then argues that the same</text><text x="380.0" y="76">reasons apply after birth</text></g>
+<path d="M430,140 L430,100" style="fill:none;stroke:var(--qp-mut);stroke-width:1.5"/><polygon points="430.0,100.0 435.0,109.0 425.0,109.0" style="fill:var(--qp-mut)"/>
 </svg>
-<figcaption>The video traces three stages in the pro-choice case and then argues that the same reasons apply after birth.</figcaption>
 </figure>
 
 ## The argument from biology
@@ -68,19 +68,6 @@ From there the video expects feminism to invert female traits, so modesty become
 
 Asmongold thinks the main cause is simpler. He says women defend other women whatever they do, which he calls in-group bias, and that this explains the support better than abortion does. He also doubts that inversion is the goal and says the aim is power and freedom from accountability, with inversion as a side effect. On matriarchy, he argues that men's monopoly on violence means any matriarchal society survives only under a patriarch's protection.
 
-## Related pages
-
-- [[wiki/Worldviews & the Political Order/Women's Suffrage - The Substitute Husband|Women's Suffrage - The Substitute Husband]]
-- [[wiki/Worldviews & the Political Order/Schooling - The Format Filter|Schooling - The Format Filter]]
-- [[wiki/Worldviews & the Political Order/The Gen Z Gender War - The Split|The Gen Z Gender War - The Split]]
-- [[wiki/Worldviews & the Political Order/Gender Ideology - The Override Claim|Gender Ideology - The Override Claim]]
-- [[wiki/Worldviews & the Political Order/The Woke Mind Virus|The Woke Mind Virus]]
-
-## Sources
-
-- Opening, the two payments, the road through abortion, the argument from biology: Basic Logic, "How Feminism Justified Killing Children" (YouTube, published 2026-09-03), <https://www.youtube.com/watch?v=3SOWFC2SvFY>. Paraphrased.
-- GoFundMe rule, abortion shares, the plainer reading: Asmongold TV, "This is genuinely f***ed.." (YouTube, published 2026-09-05), <https://www.youtube.com/watch?v=dtli77ZzhT0>. Paraphrased.
-
 ## Open questions
 
 What do the fundraising pages themselves show, such as who organised them and the final totals? The notes hold only the two videos' figures, and the video's description says the money went to the mother's parents.
@@ -88,3 +75,16 @@ What do the fundraising pages themselves show, such as who organised them and th
 Where do the abortion-reason percentages come from? Asmongold gives no source.
 
 Is GoFundMe's rule as Asmongold describes it? The notes hold no copy of the policy.
+
+## Sources
+
+- Opening, the two payments, the road through abortion, the argument from biology: Basic Logic, "How Feminism Justified Killing Children" (YouTube, published 2026-09-03), <https://www.youtube.com/watch?v=3SOWFC2SvFY>. Paraphrased.
+- GoFundMe rule, abortion shares, the plainer reading: Asmongold TV, "This is genuinely f***ed.." (YouTube, published 2026-09-05), <https://www.youtube.com/watch?v=dtli77ZzhT0>. Paraphrased.
+
+## Related pages
+
+- [[wiki/Worldviews & the Political Order/Women's Suffrage - The Substitute Husband|Women's Suffrage - The Substitute Husband]]
+- [[wiki/Worldviews & the Political Order/Schooling - The Format Filter|Schooling - The Format Filter]]
+- [[wiki/Worldviews & the Political Order/The Gen Z Gender War - The Split|The Gen Z Gender War - The Split]]
+- [[wiki/Worldviews & the Political Order/Gender Ideology - The Override Claim|Gender Ideology - The Override Claim]]
+- [[wiki/Worldviews & the Political Order/The Woke Mind Virus|The Woke Mind Virus]]
