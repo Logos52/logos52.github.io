@@ -5,12 +5,12 @@
  * entry is a title link (var(--ink)) with a hairline bottom rule and a muted context line.
  */
 import type { Backlink } from '../lib/types';
+import { slugToUrl } from '../lib/slug';
 
 interface Props {
   items: Backlink[];
 }
 const { items } = Astro.props;
-const slugToHref = (slug: string) => '/' + slug.replace(/^\/+/, '').replace(/\/+$/, '') + '/';
 const SHOWN = 5;
 const head = items.slice(0, SHOWN);
 const rest = items.slice(SHOWN);
@@ -22,7 +22,7 @@ const rest = items.slice(SHOWN);
       <h2 class="kb-backlinks-h">Linked from</h2>
       <div class="kb-backlinks-list">
         {head.map((b) => (
-          <a href={slugToHref(b.slug)} class="kb-backlink">
+          <a href={slugToUrl(b.slug)} class="kb-backlink">
             {b.title}
             {b.context && <span class="kb-backlink-ctx">{b.context}</span>}
           </a>
@@ -33,7 +33,7 @@ const rest = items.slice(SHOWN);
           <summary>{rest.length} more</summary>
           <div class="kb-backlinks-list">
             {rest.map((b) => (
-              <a href={slugToHref(b.slug)} class="kb-backlink">
+              <a href={slugToUrl(b.slug)} class="kb-backlink">
                 {b.title}
                 {b.context && <span class="kb-backlink-ctx">{b.context}</span>}
               </a>

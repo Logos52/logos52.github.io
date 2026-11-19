@@ -41,8 +41,12 @@ export function buildSlugResolver(notesDir = 'src/content/notes'): WikilinkResol
       for (const ent of entries) {
         const abs = join(dir, ent.name);
         try {
-          if (ent.isDirectory()) walk(abs);
-          else if (ent.isFile() && ent.name.endsWith('.md')) {
+          if (ent.isDirectory()) {
+            // Dot directories are copied onto disk but the notes glob does not publish them,
+            // so a basename hit (README → .cursor/.../README) would link a URL the build never emits.
+            if (ent.name.startsWith('.')) continue;
+            walk(abs);
+          } else if (ent.isFile() && ent.name.endsWith('.md')) {
             const s = slugifyFilePath(relative(notesDir, abs).split('\\').join('/'));
             slugs.add(s);
             const b = basename(s);
