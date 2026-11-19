@@ -24,7 +24,12 @@ export default defineConfig({
   site: 'https://logos52.github.io',
   trailingSlash: 'ignore',
   build: { format: 'directory' },
-  redirects: loadRedirects(),
+  redirects: {
+    ...loadRedirects(),
+    // The full-vault graph page moved to /map. Static output writes a meta-refresh
+    // HTML file, which GitHub Pages can serve. Old /graph links keep resolving.
+    '/graph': '/map/',
+  },
   integrations: [sitemap(), pagefind()],
   vite: {
     plugins: [

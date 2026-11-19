@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import { buildGraph, type NoteInput } from '../lib/graph';
 import { deriveTitle } from '../lib/note';
 
-// Emits /graph.json (GraphData) at build time — consumed by the /graph island + local-graph rail.
+// Emits /graph.json (GraphData) at build time. The Map and Notes constellations fetch it.
 export const GET: APIRoute = async () => {
   const notes = await getCollection('notes');
   const input: NoteInput[] = notes.map((n) => ({

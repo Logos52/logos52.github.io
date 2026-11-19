@@ -2,7 +2,7 @@
  * graph.ts — build the link graph (GraphData) from resolved wikilinks.
  *
  * `buildGraph` produces the global graph (emitted to /graph.json by src/pages/graph.json.ts).
- * `localGraph` slices a 1–2 hop neighborhood for a note's local-graph rail.
+ * `localGraph` slices a 1–2 hop neighborhood of one slug.
  */
 import type { GraphData, GraphNode, GraphEdge } from './types';
 import { buildSlugResolver, parseWikilink } from './wikilinks';

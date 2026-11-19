@@ -6,7 +6,8 @@
  *   left  = <article data-pagefind-body> : mono breadcrumb, Ming <h1>, meta row
  *           (domain-colored pill type tag + "updated …"), then the prose <slot/>
  *           in the Ming serif at max ~64ch.
- *   right = sticky aside rail (top:80px) = constellation neighborhood + Toc (h2 only).
+ *   right = sticky aside rail (top:80px) = Toc (h2 only). The 240px column stays
+ *   even on notes whose body has no h2, so the article width does not jump.
  *   Backlinks ("Linked from") sit at the end of the article, after the prose.
  *
  * Wraps Base (which owns <html data-accent="violet">, the DS css imports, the
@@ -15,8 +16,7 @@
 import Base from './Base.astro';
 import Toc from '../components/Toc.astro';
 import Backlinks from '../components/Backlinks.astro';
-import Constellation from '../components/Constellation.astro';
-import type { Domain, GraphData, Backlink } from '../lib/types';
+import type { Domain, Backlink } from '../lib/types';
 
 interface Heading {
   depth: number;
@@ -34,8 +34,6 @@ interface Props {
   slug: string;
   headings: Heading[];
   backlinks: Backlink[];
-  /** Unused now — the local graph slices /graph.json client-side. Kept so callers don't break. */
-  local?: GraphData;
   active?: string;
 }
 
@@ -115,9 +113,6 @@ const hasAside = true;
       {
         hasAside && (
           <aside class="kb-note-aside">
-            <div class="kb-localgraph-wrap" aria-hidden="true">
-              <Constellation mode="local" seeds={[slug]} hops={2} height="118px" />
-            </div>
             <Toc headings={headings} />
           </aside>
         )
@@ -228,14 +223,6 @@ const hasAside = true;
     margin-left: -20px;
     margin-right: -20px;
     padding: 0 20px 24px;
-  }
-  .kb-localgraph-wrap {
-    width: 100%;
-    overflow: visible;
-    z-index: 2;
-  }
-  .kb-localgraph-wrap :global(.constellation) {
-    width: 100%;
   }
 
   @media (max-width: 880px) {

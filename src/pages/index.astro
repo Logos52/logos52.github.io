@@ -1,7 +1,7 @@
 ---
 /**
  * index.astro — the Logos52 home, matched to the original Quartz HomeLanding: compact, narrow
- * (~original --pageWidth), left-aligned hero, inline search, constellation + legend, Open
+ * (~original --pageWidth), left-aligned hero, inline search, domain legend, Open
  * questions / Today's retrieval, Start here (intent doors), and three hub-list columns.
  */
 import { existsSync, readFileSync } from 'node:fs';
@@ -9,7 +9,6 @@ import { getCollection } from 'astro:content';
 
 import Base from '../layouts/Base.astro';
 import DomainChip from '../components/DomainChip.astro';
-import Constellation from '../components/Constellation.astro';
 import Icon from '../components/Icon.astro';
 import { slugifyFilePath, slugToUrl } from '../lib/slug';
 import { DOMAIN_LABELS, type Domain } from '../lib/types';
@@ -193,7 +192,6 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
         <p class="hero__lede">{hero.lede}</p>
       </section>
       <section class="map">
-        <Constellation height="clamp(150px, 17vh, 200px)" />
         <div class="map__legend">
           {chipDomains.map((d) => <DomainChip label={DOMAIN_LABELS[d]} domain={d} icon={DOMAIN_ICONS[d]} href={`/domains/${d}/`} />)}
         </div>
@@ -301,7 +299,7 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
     color: var(--mut);
     margin: 0;
   }
-  /* constellation + legend */
+  /* domain legend */
   .map {
     margin: 18px 0 0;
   }

@@ -75,8 +75,8 @@ export interface NoteFrontmatter {
 }
 
 /* ------------------------------------------------------------------ *
- * Graph — emitted to public/graph.json (GraphData), consumed by the
- * /graph island and the per-note local-graph rail.
+ * Graph — emitted to /graph.json (GraphData), fetched by the Map and Notes
+ * constellations.
  * ------------------------------------------------------------------ */
 
 export interface GraphNode {

@@ -1,8 +1,8 @@
 ---
 /**
  * personal.astro — the Personal landing, in the home page's design family: hero (ming title +
- * mono lede), a local constellation over the personal neighborhood, the dated-notes changelog
- * (updates-box idiom), and the settled standing pages as a hub card.
+ * mono lede), the dated-notes changelog (updates-box idiom), and the settled standing pages
+ * as a hub card.
  *
  * Door prose lives in the vault at personal/index.md (the only hand-written part; its
  * `description` is the hero lede). Notes = personal/*.md newest-first by `created`, blurb from
@@ -11,7 +11,6 @@
  */
 import { getEntry, getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import Constellation from '../components/Constellation.astro';
 import Icon from '../components/Icon.astro';
 import { deriveTitle } from '../lib/note';
 import { simplifySlug, slugifyFilePath } from '../lib/slug';
@@ -58,9 +57,6 @@ const settled = all
 const wingOf = (id: string): string => (id.startsWith('personal/') ? 'life' : (id.split('/')[1] ?? '').toLowerCase());
 const WING_ICONS: Record<string, string> = { life: 'ti-user', fitness: 'ti-heartbeat', fashion: 'ti-hanger', travel: 'ti-plane' };
 const WING_COLORS: Record<string, string> = { life: 'var(--d-mind)', fitness: 'var(--d-focus)', fashion: 'var(--d-gen)', travel: 'var(--d-language)' };
-
-// The personal neighborhood: every settled page + every note, 1 hop into the rest of the vault.
-const seeds = [...settled, ...notes].map((e) => e.id);
 
 // "Practicing" — the deliberate practices currently running, owned in personal/index.md
 // frontmatter (`practicing:` — list of { text, page? }); a set page links the line to it.
@@ -195,9 +191,6 @@ const practicing: Practice[] = Array.isArray((entry?.data as Record<string, unkn
         )
       }
 
-      <section class="minimap">
-        <Constellation mode="local" seeds={seeds} hops={1} nodeScale={0.55} labels="hover" height="clamp(180px, 26vh, 260px)" />
-      </section>
     </div>
   </main>
 </Base>
@@ -217,13 +210,6 @@ const practicing: Practice[] = Array.isArray((entry?.data as Record<string, unkn
   }
   .top__lead {
     min-width: 0;
-  }
-  /* The local graph closes the page rather than sitting beside the hero: it is a way out
-     once a reader has finished, not something competing with the first paragraph. */
-  .minimap {
-    margin-top: 32px;
-    padding-top: 20px;
-    border-top: 1px solid var(--rule);
   }
   .hero__title {
     font-family: var(--ming);
