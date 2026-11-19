@@ -39,7 +39,6 @@ function computeSlug(rel) {
 }
 
 function slugToUrl(slug) {
-  // Same rule as src/lib/slug.ts: a note id ending in index is the folder URL.
   if (!slug || slug === '') return '/';
   const simple = slug.replace(/\/?index$/, '').replace(/^\/+|\/+$/g, '');
   return simple.length === 0 ? '/' : '/' + simple + '/';

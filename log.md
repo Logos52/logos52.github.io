@@ -14,7 +14,8 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Backlinks use the public folder URL, so `notes/index`, `journal/index`, and `personal/index` point at `/notes/`, `/journal/`, and `/personal/`.
 - `/blog/` redirects to `/journal/`. The alias generator strips a trailing `index` the same way.
-- `[[README]]` on About no longer resolves into `.cursor/`. The name stays on the page, the same way `[[AGENTS]]` does, because that file is not a published page.
+- `[[README]]` on About no longer resolves into `.cursor/`. The walker skips a directory whose name starts with `.` (`isPublishedDir`), because the notes glob never publishes those files. The name stays on the page, the same way `[[AGENTS]]` does.
+- `slugToUrl` in the alias generator strips a trailing `index`, the same rule as `src/lib/slug.ts`, so a note id is the folder URL.
 
 ## [2026-11-10] maintenance | Dead wikilinks and Astro setup docs
 
