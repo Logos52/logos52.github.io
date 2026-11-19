@@ -3519,12 +3519,12 @@
     {
       "rule": "R2",
       "file": "kb-astro/generate-site-data.mjs",
-      "fingerprint": "811c9dc5"
+      "fingerprint": "bc47c1bb"
     },
     {
       "rule": "R2",
       "file": "kb-astro/generate-site-data.mjs",
-      "fingerprint": "811c9dc5"
+      "fingerprint": "bc47c1bb"
     },
     {
       "rule": "R2",
@@ -4310,16 +4310,6 @@
       "rule": "R2",
       "file": "src/lib/spineZoom.ts",
       "fingerprint": "c6ddb4de"
-    },
-    {
-      "rule": "R2",
-      "file": "src/lib/wikilinks.ts",
-      "fingerprint": "67790ed6"
-    },
-    {
-      "rule": "R2",
-      "file": "src/lib/wikilinks.ts",
-      "fingerprint": "ade87401"
     },
     {
       "rule": "R2",

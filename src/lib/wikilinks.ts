@@ -11,7 +11,7 @@
  * The slug map is built ONCE (module-memoized) from the copied public notes in src/content/notes.
  */
 import { findAndReplace } from 'mdast-util-find-and-replace';
-import { readdirSync, existsSync } from 'node:fs';
+import { readdirSync, existsSync, type Dirent } from 'node:fs';
 import { join, relative } from 'node:path';
 import { slug as headingSlug } from 'github-slugger';
 import { slugifyFilePath, slugToUrl, basename } from './slug';
@@ -24,39 +24,73 @@ export interface WikilinkResolver {
 }
 
 let resolverMemo: WikilinkResolver | null = null;
+let indexedRoot = '';
+let indexedBasenames: Map<string, string[]> | null = null;
+
+function isPublishedDir(name: string): boolean {
+  return !name.startsWith('.');
+}
+
+function readNoteEntries(dir: string): Dirent[] {
+  try {
+    return readdirSync(dir, { withFileTypes: true });
+  } catch {
+    return [];
+  }
+}
+
+function rememberSlug(slug: string): void {
+  const index = indexedBasenames;
+  if (!index) return;
+  const key = basename(slug);
+  const found = index.get(key);
+  if (found) found.push(slug);
+  else index.set(key, [slug]);
+}
+
+function recordEntry(dir: string, ent: Dirent, walk: (dir: string) => void): void {
+  const abs = join(dir, ent.name);
+  if (ent.isDirectory()) {
+    if (isPublishedDir(ent.name)) walk(abs);
+    return;
+  }
+  if (!ent.isFile() || !ent.name.endsWith('.md')) return;
+  const rel = relative(indexedRoot, abs).split('\\').join('/');
+  rememberSlug(slugifyFilePath(rel));
+}
+
+function walkNotes(dir: string): void {
+  for (const ent of readNoteEntries(dir)) {
+    try {
+      recordEntry(dir, ent, walkNotes);
+    } catch {
+          /* ignore vanished files during parallel prerender */
+    }
+  }
+}
+
+function collectBasenames(notesDir: string): Map<string, string[]> {
+  const index = new Map<string, string[]>();
+  indexedRoot = notesDir;
+  indexedBasenames = index;
+  walkNotes(notesDir);
+  indexedRoot = '';
+  indexedBasenames = null;
+  return index;
+}
+
+function slugsFrom(byBasename: Map<string, string[]>): Set<string> {
+  const slugs = new Set<string>();
+  for (const group of byBasename.values()) {
+    for (const slug of group) slugs.add(slug);
+  }
+  return slugs;
+}
 
 export function buildSlugResolver(notesDir = 'src/content/notes'): WikilinkResolver {
   if (resolverMemo) return resolverMemo;
-  const slugs = new Set<string>();
-  const byBasename = new Map<string, string[]>();
-
-  if (existsSync(notesDir)) {
-    const walk = (dir: string) => {
-      let entries;
-      try {
-        entries = readdirSync(dir, { withFileTypes: true });
-      } catch {
-        return;
-      }
-      for (const ent of entries) {
-        const abs = join(dir, ent.name);
-        try {
-          if (ent.isDirectory()) walk(abs);
-          else if (ent.isFile() && ent.name.endsWith('.md')) {
-            const s = slugifyFilePath(relative(notesDir, abs).split('\\').join('/'));
-            slugs.add(s);
-            const b = basename(s);
-            const arr = byBasename.get(b);
-            if (arr) arr.push(s);
-            else byBasename.set(b, [s]);
-          }
-        } catch {
-          /* ignore vanished files during parallel prerender */
-        }
-      }
-    };
-    walk(notesDir);
-  }
+  const byBasename = existsSync(notesDir) ? collectBasenames(notesDir) : new Map<string, string[]>();
+  const slugs = slugsFrom(byBasename);
 
   const byLength = (a: string, b: string) => a.length - b.length;
 
