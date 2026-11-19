@@ -17,7 +17,7 @@ wedge_reviewed: false
 
 # Democracy as Sacred Cow
 
-Democracy is a tool and not a god. Modern societies treat it as an unquestionable good that every people would prosper under and that should be imposed by force wherever it is missing. Like any tool, though, it works for some peoples some of the time, and where it does not fit the job it should be replaced with something better suited. Most of the common defenses of democracy fail, and the one that holds depends on votes still standing for real strength.
+Democracy is a tool and not a god. Modern societies treat it as an unquestionable good that every people would prosper under and that should be imposed by force wherever it is missing. Like any tool, though, it works for some peoples some of the time, and where it does not fit the job, a better-suited tool should take its place. Most of the common defenses of democracy fail, and the one that holds depends on votes still standing for real strength.
 
 The consent defense fails because a democracy is still organized coercion, and the wisdom-of-crowds defense fails because most voters stay ignorant for a rational reason. On its own terms the fairness defense fails too, since one person, one vote is equal without being fair. The defense that holds is that elections replace violent fights for power, because a vote works as a promise of force. That logic breaks once an armed, motivated minority faces an apathetic majority. Democracies are richer because a competent, self-reliant people would prosper anyway, which is also why democracy cannot be imposed from outside.
 
@@ -35,7 +35,7 @@ The fairness defense fails on its own terms. One person, one vote is equal, whic
 
 The strongest argument is that elections replace violent fights for power. A vote works as a promise of force. Each side counts its support and assumes the larger side would win a civil war, so the loser concedes and power changes hands peacefully.
 
-That logic breaks once votes stop matching force. Suppose a well-armed, motivated minority of about 45% faces a cowardly or apathetic majority of about 55%. The majority wins every election, but the minority would win any civil war, so sooner or later it stops accepting the result. A fight of that kind is worse than a quarrel among a monarch's elites, because mass politics can push ordinary families onto opposite sides.
+That logic breaks once votes stop matching force. Suppose a well-armed, motivated minority of about 45% faces a majority of about 55% that is timid or indifferent. The majority wins every election, but the minority would win any civil war, so sooner or later it stops accepting the result. A fight of that kind is worse than a quarrel among a monarch's elites, because mass politics can push ordinary families onto opposite sides.
 
 
 ## Wealth and imposing it

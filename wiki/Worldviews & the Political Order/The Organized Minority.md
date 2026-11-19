@@ -17,7 +17,7 @@ wedge_reviewed: false
 
 # The Organized Minority
 
-In every complex society an organized minority rules an unorganized majority. The reason is specialization, because ruling and running a society is complex full-time work that most people have to hand to a few. That hand-over creates a natural monopoly over authority and resources, so the question of who rules is mostly a question of which minority holds that monopoly and who is trying to take it.
+In every complex society, a minority that is organized rules a majority that is not. The reason is specialization, because ruling and running a society is complex full-time work that most people have to hand to a few. That hand-over creates a natural monopoly over authority and resources, so the question of who rules is mostly a question of which minority holds that monopoly and who is trying to take it.
 
 The ruling minority cannot let go, because a rival minority would use the same tools against it. The same logic explains revolutions, since a newer elite that has been shut out uses the masses to overthrow an older one. That danger grows when a society trains more people for leadership than it has places to give them. A society holds together when it can absorb that trained class, as the Caribbean did. Today's Western elites are exposed because their skills are within reach of ordinary people, so they rule from behind politicians and anonymous finance.
 
@@ -27,7 +27,7 @@ The ruling minority uses its control of authority and resources to keep its plac
 
 ## Revolutions come from denied elites
 
-Rivalry between minorities also explains revolutions, because a revolution is never simply the masses against the elite. A newer elite that has been shut out uses the masses as a tool to overthrow an older, weakened one. The record of famous revolutions fits that pattern. Two-thirds of the deputies who abolished the French monarchy were lawyers, the Bolshevik Central Committee was packed with educated professionals, and Iran's revolutionary ideology was built by a man with a doctorate from the Sorbonne.
+Rivalry between minorities also explains revolutions, because a revolution is never simply the masses against the elite. A newer elite that has been shut out uses the masses as an instrument to topple an older elite that has grown weak. The record of famous revolutions fits that pattern. Two-thirds of the deputies who abolished the French monarchy were lawyers, the Bolshevik Central Committee was packed with educated professionals, and Iran's revolutionary ideology was built by a man with a doctorate from the Sorbonne.
 
 The danger grows when a society trains more people for leadership than it has places to give them. That surplus becomes a set of counter-elites, people with the education, money and grievance to turn other people's discontent into a weapon. Massachusetts shows the scale this can reach. Its trained lawyers rose from 15 lawyers in 1740 to 71 lawyers by 1775 while its population merely doubled. Each colony, though, had only about 40 or 50 Crown offices. Their holders kept them until death, so only one or two came open each year. Too many would-be elites came before state breakdown in 75% of the historical cases studied.
 

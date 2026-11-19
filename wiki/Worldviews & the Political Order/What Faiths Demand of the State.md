@@ -18,13 +18,13 @@ wedge_reviewed: false
 
 # What Faiths Demand of the State
 
-A Christian owes no automatic loyalty to any politician, party or nation that appeals to his faith, so anyone who makes that appeal is simply manipulating him. What the faith demands is far greater, because it sets the standard by which every law and every ruler is judged. A government is acceptable only if it actually is what it claims to be and is Christian.
+A Christian owes no automatic loyalty to any politician, party or nation that appeals to his faith, so anyone who makes that appeal is simply manipulating him. What the faith demands is far greater, because it sets the standard by which every law and every ruler is judged. A government is acceptable only if it truly matches what it claims to be, and is Christian.
 
 Authority comes from God, so a law that sets itself against God loses its force, and abortion tests that limit hardest. Rebellion against a tyrant can be just when lesser officials committed to God's law lead it, when it causes no greater evil than the tyranny and when every legal channel has failed. Charity belongs to the church, and Christians should oppose current state welfare because giving to the able robs the truly desperate. A nation is its people, held together by shared religious values, and since no passage commands democracy, a Christian only has to judge whether it suits his own society.
 
 ## Authority and its limits
 
-"Give unto Caesar what is Caesar's, and give unto God what is God's" is the standard for how a believer treats the state. The authority behind the rule of law is granted by God, which means a law that sets itself against God loses its claim. When obeying both becomes impossible, a Christian must choose God.
+"Give unto Caesar what is Caesar's, and give unto God what is God's" is the standard for how a believer treats the state. The authority that stands behind the rule of law comes from God, which means a law that sets itself against God loses its claim. When obeying both becomes impossible, a Christian must choose God.
 
 Abortion tests that limit hardest, because it kills a human being. It has happened 2.5 billion times worldwide over 50 years. Christians agree on the wrong and differ only on strategy. A pro-lifer backs any law that reduces abortions, while an abolitionist accepts nothing short of ending it.
 

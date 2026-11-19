@@ -52,9 +52,9 @@ The video's starting point is that hours of sitting still and listening would be
 
 ## Why educators blame the boys
 
-According to the video, reforming the format is hard, so it is easier for educators to blame the boys, punish them until they submit and in some cases give them ADHD prescriptions. When challenged, educators point to the girls' better results as proof that the problem lies with the students. The video calls that defense blank slate ideology, the belief that the sexes are effectively the same and need the same treatment.
+According to the video, reforming the format is hard, so it is easier for educators to fault the boys, keep punishing them until they give in, and in some cases give them ADHD prescriptions. When challenged, educators point to the girls' better results as proof that the problem lies with the students. The video calls that defense blank slate ideology, the belief that the sexes are effectively the same and need the same treatment.
 
-Its evidence that boys are held back artificially is a gap between two measures. The video says that by age 16 to 18, boys catch up on standardized tests like the SAT and pull ahead in math and at the high end of STEM. Their GPAs stay lower, and the video says that is because grades depend on the judgment of mostly female teachers.
+Its evidence that boys are held back artificially is a gap between two measures. The video says that by age 16 to 18, boys close the gap on standardized tests such as the SAT, then move ahead in math and at the top of STEM. Their GPAs stay lower, and the video says that is because grades depend on the judgment of mostly female teachers.
 
 ## What girls learn from watching
 
@@ -64,11 +64,11 @@ Girls, the video says, had a front-row seat as boys failed and were punished, an
 
 The video gives two examples of ordinary male behavior recast as a fault. "Manspreading" named the way men sit, and "mansplaining" named men explaining things to women with enthusiasm. The video argues men bond by explaining how things work while women tend to prefer talking about people, so making explanation taboo cut off a natural way for men to bond with women.
 
-MeToo, the video says, went further: teachers treated every male student as a possible harasser, and under the slogan "believe all women" a girl's judgment that a boy was creepy settled the matter. The video says false accusations and reputation attacks became common, male teachers refused to be alone with female students, and boys stopped asking girls out or even talking to them.
+MeToo, the video says, went further: teachers treated each male student as a potential harasser, and under the slogan "believe all women" a girl's judgment that a boy was creepy settled the matter. The video says false accusations and reputation attacks became common, male teachers refused to be alone with female students, and boys stopped asking girls out or even talking to them.
 
 ## The pay gap
 
-The narrator recalls classrooms carrying posters, projects and assemblies on the claim that women are paid less for the same job, which the video calls routinely debunked, and says girls got women-only scholarships, glowing recommendations and recruiting quotas, while boys got mixed scholarships and slid down rankings. The video's conclusion is that young women are now often hired and paid more than men for the same job, so an imaginary gap was fixed by creating a real one.
+The narrator recalls classrooms carrying posters, projects and assemblies on the claim that women earn less than men for identical work, which the video calls routinely debunked, and says girls got scholarships reserved for women, glowing recommendations and hiring quotas, while boys got mixed scholarships and slid down rankings. The video's conclusion is that young women are now often hired and paid more than men for identical work, so an imaginary gap was fixed by creating a real one.
 
 ## Where it ends up
 

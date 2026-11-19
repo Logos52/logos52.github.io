@@ -17,7 +17,7 @@ wedge_reviewed: true
 
 # The Indictment of Europe
 
-Critics accuse Europe of three historical crimes, which are slavery, colonialism and mass killing. [Basic Logic](https://www.youtube.com/watch?v=yZJoK0Jz7qY) says those charges serve to justify white guilt and policies such as DEI, reparations and open borders. He answers each charge with one test, which is that a people can be singled out for punishment only if what it did was unique. He argues that on every charge Europe did what other civilisations did, and that the one thing it did that others did not was to end slavery.
+Critics accuse Europe of three historical crimes, which are slavery, colonialism and mass killing. [Basic Logic](https://www.youtube.com/watch?v=yZJoK0Jz7qY) says those charges are used in support of white guilt and of policies like DEI, reparations and open-border immigration. He answers each charge with one test, which is that a people can be singled out for punishment only if what it did was unique. He argues that on every charge Europe did what other civilisations did, and that its only unique act was to end slavery.
 
 <figure>
 <svg viewBox="0 0 525 432" width="100%" role="img" aria-labelledby="eu-retrial" style="max-width:525px;display:block;margin:0 auto">
@@ -47,7 +47,7 @@ Critics accuse Europe of three historical crimes, which are slavery, colonialism
 <g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="middle"><text x="240" y="98" style="font-weight:600">One test</text></g>
 <rect x="10" y="368" width="505" height="52" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:5 4"/>
 <g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="start"><text x="20" y="388">Separate tag on the slavery card</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="20" y="408">the one thing it did that others did not was to end slavery</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="20" y="408">its only unique act was to end slavery</text></g>
 <rect x="60" y="316" width="400" height="40" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6);stroke-width:2"/>
 <g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="260" y="341">dismisses all three charges for selective prosecution</text></g>
 <path d="M240,300 L240,316" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="240.0,316.0 235.0,307.0 245.0,307.0" style="fill:var(--mut,#666)"/>
@@ -57,25 +57,25 @@ Critics accuse Europe of three historical crimes, which are slavery, colonialism
 
 ## Why the defence is collective
 
-The usual conservative answer is that the sins of the father are not the sins of the son. [Basic Logic](https://www.youtube.com/watch?v=yZJoK0Jz7qY) calls that a confession rather than a defence, because it grants the crimes and only disputes who inherits them. He says he believes in individualism himself. Because the accusers judge Europeans as a group, though, he answers for Europeans as a group and treats the exchange as a retrial, hearing each charge in turn.
+The usual conservative answer is that a son does not inherit his father's sins. [Basic Logic](https://www.youtube.com/watch?v=yZJoK0Jz7qY) calls that a confession rather than a defence, because it grants the crimes and only disputes who inherits them. He says he believes in individualism himself. Because the accusers judge Europeans as a group, though, he answers for Europeans as a group and treats the exchange as a retrial, hearing each charge in turn.
 
 ## Slavery
 
 The first charge is the Atlantic slave trade. Singling Europe out would require that trade to have been uniquely evil. In this account it was neither the largest nor the most brutal, because slavery existed in every society and the Arab slave trade was larger and crueller. He adds that Europeans did not do the enslaving themselves, because African kingdoms captured people and sold them, so if buying makes Europeans guilty then selling makes Africans guilty. A second video by the same channel, on [white guilt](https://www.youtube.com/watch?v=QtgmBazTi5Q), adds that the Atlantic trade was not even the largest of its own time.
 
-What sets Europe apart, he says, is that it ended slavery. The white guilt video says Europeans were the first civilisation to call slavery a moral evil, then abolished it at home and spent blood and money suppressing it abroad. The argument turns this into a question for the accusers: what right do the descendants of people who fought to keep slavery have to accuse the descendants of people who fought to end it?
+What sets Europe apart, he says, is that it ended slavery. According to the white guilt video, Europeans were the earliest civilisation to call slavery a moral evil, then abolished it at home and spent blood and money suppressing it abroad. The argument turns this into a question for the accusers: what right do the descendants of people who fought to preserve slavery have to bring charges against the descendants of people who fought to end it?
 
 ## Colonialism
 
-The second charge is that Europe built the largest network of colonies in history. Every civilisation colonised, the reply goes, and Europeans were simply better at it. That raises a question, since a few thousand soldiers on sailing ships could not take and hold territories nearly the size of Europe on their own. The answer given is that they always had local help. He says about 500 Spanish conquistadors defeated the Aztecs because 150,000 native allies fought with them. In the Congo, he says, a country the size of Western Europe held at most 1,000 Belgians, so millions of Congolese enforced the regime.
+The second charge is that Europe assembled the largest colonial network in history. Every civilisation colonised, the reply goes, and Europeans were simply better at it. That raises a question, since a few thousand soldiers on sailing ships could not take and hold territories nearly the size of Europe on their own. The answer given is that they always had local help. He says about 500 Spanish conquistadors defeated the Aztecs with the help of 150,000 native allies who fought on their side. In the Congo, he says, a country the size of Western Europe held 1,000 Belgians at most, so the regime was enforced by millions of Congolese.
 
-Locals sided with Europeans, the argument says, because Europe was often the lesser evil compared with the Aztecs' human sacrifice or with slave raiders. Where locals did not want Europeans, as in Ethiopia, he says Europe could not colonise. The white guilt video adds that Europeans, having conquered most of the world, gave it back.
+Locals sided with Europeans, the argument says, because Europe was often the lesser evil compared with the Aztecs' human sacrifice or with slave raiders. Where local people did not want Europeans, as in Ethiopia, he says Europe could not colonise. The white guilt video adds that Europeans, having conquered most of the world, gave it back.
 
 ## Mass killing
 
-On the third charge, [Basic Logic](https://www.youtube.com/watch?v=yZJoK0Jz7qY) grants that real European atrocities happened. He adds that some accusations were exaggerated or invented, and he names the Canadian mass graves as one he calls debunked. His main point is that nearly every group has killed on a larger scale, so the difference lies in what happens afterwards. Europeans confess and try to make amends, while others deny their killings or celebrate them. Turkey denies the Armenian genocide and Japan still downplays its Second World War atrocities. Mongolia builds giant statues of Genghis Khan, whose armies, by this account, wiped out 15% of the world's population.
+On the third charge, [Basic Logic](https://www.youtube.com/watch?v=yZJoK0Jz7qY) grants that real European atrocities happened. He adds that some accusations were exaggerated or invented, and he names the Canadian mass graves as one he calls debunked. His main point is that nearly every group has killed on a larger scale, so the difference lies in what happens afterwards. Europeans confess and try to make amends, while others deny their killings or celebrate them. Turkey denies the Armenian genocide and Japan still plays down its Second World War atrocities. Mongolia builds giant statues of Genghis Khan, whose armies, by this account, wiped out 15% of the world's population.
 
-That pattern, in this account, means the system punishes repentance and rewards denial. Young white people who committed none of these crimes become the easiest target, and the stated purpose of the guilt is to justify taking their resources.
+That pattern, in this account, means the system punishes repentance and rewards denial. Young white people who took part in none of these crimes become the easiest target, and the stated purpose of the guilt is to justify taking their resources.
 
 ## The verdict
 
@@ -91,9 +91,9 @@ That pattern, in this account, means the system punishes repentance and rewards 
 
 ## Open questions
 
-- The notes give no sources for the figures (the 150,000 allies, the 1,000 Belgians, the 15% for the Mongols) or for the claim that the Arab trade was larger. The white guilt video gives the Mongol figure as 10 to 20%. Decision: the figures stay credited to the video, and no outside sources are added.
-- The claim that former colonies now show nostalgia for European rule is asserted without evidence in the notes.
-- Whether the uniqueness test is the right test is not argued in the notes. It is assumed.
+- The notes give no sources for the figures (150,000 allies, 1,000 Belgians, and 15% for the Mongols) or for the claim that the Arab trade was larger. The white guilt video puts the Mongol share at 10 to 20%. Decision: the figures stay credited to the video, and no outside sources are added.
+- The claim that former colonies now look back fondly on European rule is asserted without evidence in the notes.
+- Whether uniqueness is the right test goes unargued in the notes. It is assumed.
 
 ## Sources
 

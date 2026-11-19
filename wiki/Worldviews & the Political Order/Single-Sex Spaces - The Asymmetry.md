@@ -19,7 +19,7 @@ The asymmetry, as the Front Page video describes it, is that American law spent 
 
 ## What men used to have
 
-The video says fraternal orders were once a normal part of a man's life. A journalist's 1897 count put membership at 5.4 million, about one in five adult men, and the Freemasons alone reached roughly 4 million American members in the 1950s. The video explains their pull with a practical example, calling them "the welfare state before the welfare state existed." Before Social Security, a roofer who broke his back got rent money from his lodge, and a miner who died of tuberculosis got his funeral paid and his widow a small stipend.
+The video says fraternal orders were once a normal part of a man's life. A journalist's 1897 count put membership at 5.4 million, or roughly one adult man in five, and the Freemasons alone reached roughly 4 million American members in the 1950s. The video explains their pull with a practical example, calling them a stand-in welfare state before any official one existed. Before Social Security, a roofer who broke his back received rent money from his lodge, and a miner who died of tuberculosis got his funeral paid and his widow a small stipend.
 
 ## How the doors were opened
 
@@ -62,9 +62,9 @@ The video says Augusta National, Skull and Bones and the Boy Scouts gave way und
 
 ## Why women's spaces stayed legal
 
-The video gives the three rationales courts and legislators wrote into carve-outs. Privacy covers locker rooms, restrooms and shelters, and it applies to men's spaces too. Safety covers domestic violence shelters, since women are roughly 70 to 80% of intimate partner violence victims. Religious accommodation covers women-only gyms for some Muslim and Orthodox Jewish women.
+The video gives the three rationales courts and legislators wrote into carve-outs. Privacy covers locker rooms, restrooms and shelters, and it applies to men's spaces too. Safety covers domestic violence shelters, since women make up roughly 70 to 80% of the victims of intimate partner violence. Religious accommodation covers women-only gyms for some Muslim and Orthodox Jewish women.
 
-Its argument is that those three reasons do not stretch to cover everything now women-only. A women-only executive club for vice presidents and C-suite officers is not a domestic violence shelter, it says. In its view The Wing was an elite networking platform with a sex-restricted door, the same pattern the Jaycees lost over in 1984. The video says The Wing was forced to drop its policy after a complaint under New York City's human rights law and later closed, but the video says most women-only spaces never faced that treatment. It notes that the right calls this a double standard and the left calls it a corrective.
+Its argument is that those three reasons do not stretch to cover everything now women-only. A women-only executive club for vice presidents and C-suite officers is not a domestic violence shelter, it says. In its view The Wing was an elite networking club whose door was restricted by sex, the same pattern the Jaycees lost over in 1984. The video says The Wing was forced to drop its policy after a complaint under New York City's human rights law and later closed, but the video says most women-only spaces never faced that treatment. It notes that the right calls this a double standard and the left calls it a corrective.
 
 ## What the gap costs men
 
@@ -76,7 +76,7 @@ The video ties the loss of institutions to these outcomes:
 
 ## Attempts to rebuild
 
-The video's best example is men's sheds, which began in Australia in the early 1990s. A nonprofit stocks a building with tools and a kitchen, and men come to build things, talk and have coffee. Researchers think it works because men socialize shoulder to shoulder through shared activity instead of face to face. F3 Nation's free dawn workouts follow a similar idea. The video's verdict is that these lack scale, since 3,000 sheds worldwide is "a rounding error" next to the Masons in 1950.
+The video's best example is men's sheds, which began in Australia in the early 1990s. A nonprofit stocks a building with tools and a kitchen, and men come to build things, talk and have coffee. Researchers think it works because men socialize side by side through a shared activity instead of face to face. F3 Nation's free dawn workouts follow a similar idea. The video's verdict is that these lack scale, since 3,000 sheds worldwide is "a rounding error" next to the Masons in 1950.
 
 ## Related pages
 

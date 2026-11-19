@@ -3,98 +3,150 @@ title: "Breaching Questions"
 type: technique
 status: developing
 created: 2026-05-29
-updated: 2026-09-11
+updated: 2026-10-18
 method: plain-rewrite-2026-09-11
 prose-model: fable
 written-by: grok
 model: grok
+source-count: 2
+description: "A late-stage method for finding known and unknown knowledge gaps by writing questions you cannot yet answer."
+ics-stage: "Summit"
 tags:
   - retrieval
   - gap-finding
   - advanced
   - exams
+wedge_reviewed: true
 ---
 
 # Breaching Questions
 
-A breaching question is a question the learner writes on one hole in their own knowledge and cannot answer at the time of writing. The method finds the holes that are left after ordinary retrieval practice has stopped turning up anything new, and that the learner cannot feel. It has two parts. The first is a sweep across the subject's headings. The second is an unanswerable question written on each hole the sweep finds.
+Breaching questions is a late-stage method for finding the gaps that remain in what you know, including gaps you have no way of feeling. You write the hardest question you can think of on each weak spot, one you cannot answer yet, and the effort of trying to answer it closes the gap. The name comes from the way each question is built to breach a plateau in your learning.
 
-By this late stage few holes are left, and the ones left are hard to notice. A known hole shows up as difficulty recalling or applying something; the learner can feel its edges. An unknown hole is a perspective the learner never had. Answers on that topic come quickly and confidently from what is known, while an entire angle is missing. Ordinary self-testing rarely catches the second kind, because confidence tracks what can be retrieved. Confidence does not track what was never encoded. No trial isolates that as a finding. That miss is the reason the method exists.
+<div class="callout">
 
-## Core takeaways
+<b>At a glance</b>
 
-- The method runs late in the study period, after spaced retrieval, revision, and practice papers have stopped turning up anything new.
-- Two kinds of hole are left by then. A known hole can be felt as difficulty. An unknown hole cannot be felt, because confidence only tracks what was retrieved.
-- The sweep lists every keyword under each syllabus heading, then asks a term from one heading of a heading that never held it. That forced question is how unknown holes show up.
-- Each hole then gets a question the learner writes and cannot answer. The question is harder than anything the exam could ask. It is not written to be answered; the value is in the work of trying.
-- The sweep costs an evening per subject. Each question costs thirty minutes to two hours for a central concept, or fifteen to twenty minutes for a minor detail, and then the learner stops.
-- Nothing isolates the method's advantage over ordinary practice. Its parts are plausible, and no trial isolates the protocol as a whole.
+- The method belongs to the later stages of learning, when few gaps are left and the aim is the extra few marks on much less predictable questions.
+- A known gap shows up as trouble recalling or applying something. An unknown gap is something you never knew, so you can feel confident while missing a whole perspective.
+- You find weak spots by listing keywords under each learning objective, mapping how they relate, and asking whether a keyword from one objective applies to another.
+- Each weak spot, or group of related ones, gets the hardest question you can write, one you have no answer for as you write it.
+- Time scales with importance, from 15 to 20 minutes for a minor fact, and from half an hour up to two hours for a central concept.
 
-## The sweep
+</div>
 
-Ordinary self-testing is the wrong instrument for a hole the learner cannot feel. The sweep starts from the map of the subject the learner already holds: the concepts, facts, and details that do not come quickly or confidently. When that reflection stalls, the published syllabus headings, exam-spec topics, or chapter titles supply the list of headings. An exam built from a published spec can only ask what the spec covers.
+## Why it works
 
-Under each heading, the learner lists every related keyword they can reach and maps the relations between the keywords as they come. Difficulty forming that map is itself the signal of a known hole. Next the learner scans for the term that belongs under the heading and was not listed.
+Late in your studying there are few gaps left, and they come in two kinds that are found in different ways. A known gap shows up when you have trouble recalling or applying something. Because an unknown gap is something you never knew, you can answer confidently from what you do know while a whole perspective is missing, which makes late-stage gaps hard to find.
+<figure>
+<svg viewBox="0 0 560 244" width="100%" style="max-width:560px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="bq-gaps-t">
+<title id="bq-gaps-t">Late in your studying there are few gaps left, and they come in two kinds that are found in different ways.</title>
+<rect x="0.5" y="0.5" width="559" height="243" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<rect x="24" y="24" width="244" height="196" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="44" y="56" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">known gap</text>
+<text x="44" y="88" text-anchor="start" style="fill:var(--qp-ink2);font-size:13px">shows up when you have trouble</text>
+<text x="44" y="107" text-anchor="start" style="fill:var(--qp-ink2);font-size:13px">recalling or applying something</text>
+<line x1="44" y1="138" x2="248" y2="138" style="stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="44" y="166" text-anchor="start" style="fill:var(--qp-ink2);font-size:13px">Trouble mapping points</text>
+<text x="44" y="185" text-anchor="start" style="fill:var(--qp-ink2);font-size:13px">to a known gap.</text>
+<rect x="292" y="24" width="244" height="196" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/>
+<text x="312" y="56" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">unknown gap</text>
+<text x="312" y="88" text-anchor="start" style="fill:var(--qp-ink2);font-size:13px">is something you never knew</text>
+<line x1="312" y1="138" x2="516" y2="138" style="stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="312" y="166" text-anchor="start" style="fill:var(--qp-ink2);font-size:13px">The keyword check in the method</text>
+<text x="312" y="185" text-anchor="start" style="fill:var(--qp-ink2);font-size:13px">targets unknown gaps.</text>
+</svg>
+</figure>
 
-The last move is the one the method is named for. A word that sits under one heading and is missing from the next gets asked of the next heading anyway. That forced question is what brings up the holes the learner could not feel.
+The keyword check in the method targets unknown gaps. Asking whether a keyword from one learning objective applies to another forces you to look for a perspective where it is relevant, and that search reveals what you had not considered. The breaching question targets a plateau, meaning a piece of knowledge that still holds you back after your earlier study methods. A question harder than anything the exam could ask gives you a strong focus. Trying to answer that question pulls you into deeper learning, usually beyond what the exam needs, which turns the weakness into a strength. Because such a question is so advanced, it also draws on several other concepts, so answering it covers connected topics as well.
 
-```text
-Feedback is listed under control loops. It is asked of market regulation,
-a heading that never held it. Either it applies and that angle was never
-looked at (a hole, now visible), or it does not and the reason can be
-stated (itself a check).
-```
+## The method
 
-## The question
+You need your mind map or the subject's list of learning objectives, and time in the late stage of your studying. The first four steps find the weak spots, and the last three turn them into questions.
+<figure>
+<svg viewBox="0 0 560 514" width="100%" style="max-width:560px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="bq-steps-t">
+<title id="bq-steps-t">The first four steps find the weak spots, and the last three turn them into questions.</title>
+<rect x="0.5" y="0.5" width="559" height="513" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<text x="24" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">The first four steps find the weak spots</text>
+<rect x="24" y="56" width="512" height="40" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="46" y="81" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">Look through your mind map</text>
+<path d="M64 96 L64 112" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="64,112 59.5,104 68.5,104" style="fill:var(--qp-mut)"/>
+<rect x="24" y="112" width="512" height="40" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="46" y="137" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">list every keyword you can think of</text>
+<path d="M64 152 L64 168" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="64,168 59.5,160 68.5,160" style="fill:var(--qp-mut)"/>
+<rect x="24" y="168" width="512" height="58" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="46" y="192" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">look for a keyword you know belongs to the topic</text>
+<text x="46" y="211" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">but did not list or map</text>
+<path d="M64 226 L64 242" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="64,242 59.5,234 68.5,234" style="fill:var(--qp-mut)"/>
+<rect x="24" y="242" width="512" height="40" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="46" y="267" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">ask whether each could apply to the other</text>
+<text x="24" y="322" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">the last three turn them into questions</text>
+<rect x="24" y="338" width="512" height="40" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="46" y="363" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">group the ones that relate to each other</text>
+<path d="M64 378 L64 394" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="64,394 59.5,386 68.5,386" style="fill:var(--qp-mut)"/>
+<rect x="24" y="394" width="512" height="40" rx="20" style="fill:none;stroke:var(--qp-accent);stroke-width:1.25"/>
+<text x="46" y="419" text-anchor="start" style="fill:var(--qp-ink);font-size:14px;font-weight:500">write the hardest question the exam could ask about it</text>
+<path d="M64 434 L64 450" style="fill:none;stroke:var(--qp-rule2);stroke-width:1.25"/>
+<polygon points="64,450 59.5,442 68.5,442" style="fill:var(--qp-mut)"/>
+<rect x="24" y="450" width="512" height="40" rx="20" style="fill:none;stroke:var(--qp-rule2);stroke-width:1"/>
+<text x="46" y="475" text-anchor="start" style="fill:var(--qp-ink);font-size:14px">Try to answer each question</text>
+</svg>
+</figure>
 
-The holes the sweep turns up, once listed, are only a list. The list by itself is not the method. The name is literal. The question is written to break through a plateau: one piece of knowledge that ordinary retrieval work has stopped moving. Ordinary retrieval work here means repeat explanation cycles, flashcards, and revision.
+1. Look through your mind map for the concepts, facts or details you struggle to recall quickly and confidently. If you cannot tell, list the subject's learning objectives instead, because the assessment follows the learning outcomes.
+2. Under each learning objective, list every keyword you can think of that relates to it, and map in your head how the keywords relate as you list them. You can also recall everything you know about the objective and compare it with your notes. Trouble mapping points to a known gap.
+3. Once an objective is done, look for a keyword you know belongs to the topic but did not list or map. It may be a known gap or an unknown one.
+4. Look for keywords that appear under one learning objective but not another, and ask whether each could apply to the other. Finding the perspective where it applies helps reveal unknown gaps.
+5. Write down every weak spot you found, however small it is, and group the ones that relate to each other. A weak spot that does not group stays on its own and gets its own question.
+6. For each group or single point, write the hardest question the exam could ask about it, harder than any real question would be. You must not know the answer at the time you write it.
+7. Try to answer each question, because the focus it gives you is what pulls you into deeper learning, whether or not you reach a correct answer. Spend 30 minutes to two hours on a concept that is very likely to come up, or 15 to 20 minutes on a single fact you only want covered, and then you are done.
 
-Related soft spots group into one question. Scraps that will not group get one question each. The learner writes the question and aims it above the hardest thing the assessment could plausibly ask. No question on the real exam would be that hard. The question must be unanswerable at the moment of writing. A question that can be answered as it is written is a revision question.
+## Signals and failure points
 
-**The question is not written to be answered.**
-
-The value is in the work of trying to answer it. That work usually goes beyond the syllabus, and the soft spot ends up well learned. A maximally hard question draws on several concepts at once, so answering one covers neighbouring material without aiming at it. Time scales with importance: on the order of thirty minutes to two hours for a central concept, fifteen to twenty minutes for a minor detail. Then the learner stops, whether or not the question is answered.
-
-The same term that was cross-applied in the sweep becomes the question. Feedback, asked of market regulation at a level no real paper would reach, is a question the writer cannot answer as it is written. That is the check.
-
-## What the method needs
-
-The method is advanced. It asks for tolerance of cognitive load and the ability to map relationships non-linearly in the head. It rests on the relational depth built through [[Higher-Order Learning]]. Without that network the keyword lists stay flat and there is nothing to cross-apply. Inability to hold any map at all means the network is not there yet, and the network comes first.
-
-## Cost and timing
-
-The sweep costs an evening per subject. Each question costs fifteen minutes to two hours to chase. That time is available in the late stage. A full study schedule does not have that time. Run early, the method produces flat keyword lists and nothing to force. Run near an exam while broad coverage is still weak, it can use up hours going out of scope.
-
-The method sits in the last part of the study period, once [[Spaced Interleaved Retrieval]] has already cleared the obvious holes and [[Revision]], the ordinary test, target, teach pass, has stopped turning anything up. The layer immediately before is practice papers, in roughly the last two to three weeks. The signal to switch is practice questions no longer surfacing anything new. The late stage aims at a small number of marks from much less predictable questions. It does not aim at coverage.
-
-## Reading the signals
-
-| How it feels | What it means | What finds it |
+| What you notice | What it means | What to do |
 |---|---|---|
-| The keyword map for this topic will not form | A known hole | The sweep |
-| The answer came fast and confidently | Possibly nothing, possibly an unknown hole | Cross-application |
-| No hard question on this topic comes to mind | Either the topic is solid, or the hole is one the learner cannot see | The unanswerable question |
+| You cannot tell where your weak spots are | Reflecting on your mind map has not turned them up | List the subject's learning objectives and recall everything for each one |
+| The keywords under one objective will not map | A known gap | Add it to your list of weak spots |
+| A keyword you know belongs is missing from your list | A known or an unknown gap | Add it to your list of weak spots |
+| A keyword appears under one objective but not another | An unknown gap, if the keyword applies to the other objective | Ask how it could apply, and look for the perspective where it is relevant |
+| Weak spots will not group | Nothing is wrong | Leave them as single points, each with its own question |
+| You can answer your question as you write it | It does not breach your current understanding | Write a harder one |
+| You cannot answer your question | Nothing is wrong, because a correct answer is not the point | Keep digging until the time limit |
 
-Difficulty mapping one topic is the diagnostic, and the sweep continues. Two headings' worth of cross-application that turns up nothing new means the holes left are not the kind this method finds. The next move is timed practice.
+## Cost and prerequisites
 
-## Related methods
+The cost is the time you spend answering each question, which depends on how important the concept is. The method is advanced because it needs you to handle heavy cognitive load, and to carry out a large amount of non-linear mapping in your head.
 
-Past papers adjust for predictable question styles. Concept mapping draws the network the learner already holds, rather than forcing terms onto headings that never held them. Those are related methods, not this one.
-
-## Evidence
-
-Nothing isolates the method's advantage over ordinary practice. The protocol is this system's own teaching model. Its parts are plausible: confidence tracks retrieval, and forced comparison surfaces relations. No trial isolates the protocol.
+This method is one of two late-stage ways of adjusting how you apply what you know. The other is practice papers and practice tests, which come during the last two or three weeks after you have patched most weaknesses.
 
 ## How to practice this
 
-1. Start only after practice papers, in roughly the last two to three weeks, stop surfacing anything new. If practice questions still turn up new holes, keep doing them instead.
-2. Take the published syllabus headings, exam-spec topics, or chapter titles. Under each, list every related keyword you can reach and map the relations. Notice any heading where the map will not form; that is a known hole.
-3. Scan each heading for a term that belongs there and was not listed. Then ask a term from one heading of the next heading, where it was not listed. Notice whether it applies to an angle you never looked at, or does not and you can say why.
-4. Group related soft spots into one question, and give each ungrouped scrap its own. Write each question harder than anything the exam could ask. Check that you cannot answer it as written; if you can, it is a revision question.
-5. Work on a central concept's question for thirty minutes to two hours, a minor detail's for fifteen to twenty minutes. Stop at the limit whether or not you answered it. Notice that the work goes beyond the syllabus and covers neighbouring material.
-6. After two headings of cross-application turn up nothing new, stop the sweep and switch to timed practice. If you cannot hold any map at all, stop and build the network first.
+1. Pick one subject and write out its learning objectives.
+2. Under one objective, list every related keyword and map how they relate in your head, noting where the mapping stalls.
+3. Take one keyword from that objective and ask where it would apply under a different objective.
+4. Group the weak spots you noted, then write one question for each group or single point, harder than anything the exam could ask, and check that you cannot answer it as written.
+5. Decide how important each concept is, then work on its question for 30 minutes to two hours or for 15 to 20 minutes, and stop when the time is up.
+
+## Open questions
+
+What tells you the late stage has arrived and it is time to start?
+
+What do you do if you cannot hold a map in your head?
+
+## Related pages
+
+- [[wiki/Dimensions/Retrieval|Retrieval]]: the dimension this technique sits in.
+- [[wiki/Domains/Miscellaneous/Exam Execution|Exam Execution]]: the group of late-stage exam methods this technique belongs to.
+- [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]]: the methods that protect against most question styles, which leaves this method for the less predictable marks.
+- [[wiki/Dimensions/Retrieval/Revision|Revision]]: another method that uses self-made questions to find gaps.
+- [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]: the maps the first step looks through.
+- [[wiki/Dimensions/Self-Regulation/Silly Mistake Syndrome|Silly Mistake Syndrome]]: another topic in the same Exam Execution group.
 
 ## Sources
 
-- Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it. *Journal of Personality and Social Psychology*. Confidence can survive the absence of the knowledge that would reveal the miss.
-- Koriat, A. Metacognitive monitoring. Confidence tracks what gets retrieved, not what was never encoded. Neither paper isolates this protocol.
+- iCanStudy, "Stress and application adjustment", Exam execution. Private course notes, paraphrased.
+- iCanStudy, "Revision", Fundamentals 2. Private course notes, paraphrased.

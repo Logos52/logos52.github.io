@@ -39,7 +39,7 @@ Freedom of association is the right to choose whom you keep company and do busin
 
 ## Title II and business owners
 
-The video says economists have long argued the market would end segregation by itself, because an owner who turns customers away for no reason loses business to a rival who does not. Defenders of the Act reply that racist business practices still dominated large parts of America even without Jim Crow. The video says both are right, and resolves the puzzle by asking whether the owner might not be irrational at all. Suppose a group were on average more likely to refuse to pay, steal or harass staff. Then the honest customers from that group might not be worth the extra risk and security cost, and the video says that would explain the situation perfectly.
+The video says economists have long argued the market would end segregation by itself, because an owner who turns customers away for no reason loses business to a rival who does not. Defenders of the Act reply that racist business practices still held sway across large parts of America even without Jim Crow. The video says both are right, and resolves the puzzle by asking whether the owner might not be irrational at all. Suppose a group were on average more likely to refuse to pay, steal or harass staff. Then the honest customers from that group might not be worth the extra risk and security cost, and the video says that would explain the situation perfectly.
 
 The video also takes up the objection that the owner only refused because his other customers were racist. Its answer is to ask the same question one step further back, namely why those customers were racist, and whether they were irrational too.
 
@@ -67,7 +67,7 @@ The video's closing argument is that a group needing the threat of violence to m
 ## Open questions
 
 - The 1976 Supreme Court decision is not named in the notes. Decision: the page keeps the video's unnamed reference, credited to the video, and adds no name.
-- The black family data is mentioned but not given in this note The fatherlessness figures are on [[wiki/Worldviews & the Political Order/Racial Fatigue|Racial Fatigue]].
+- The black family data is mentioned but not given. The fatherlessness figures are on [[wiki/Worldviews & the Political Order/Racial Fatigue|Racial Fatigue]].
 - The notes give no evidence for the group risk premise in the Title II argument, which the video poses as a hypothetical.
 
 ## Sources

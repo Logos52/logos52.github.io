@@ -15,7 +15,7 @@ wedge_reviewed: true
 
 # Moral Language as Leverage
 
-This page lays out the argument of the Basic Logic video [Why Did the Third World Learn to Cry Racism?](https://www.youtube.com/watch?v=1Tg_gnb7KJo). The video argues that words like "racism" and "discrimination" get aimed at the West by people who do not apply them at home, and that they do it because the words reliably win resources and better treatment. It explains this through three ways a society keeps order (guilt, shame and fear) and through the incentive to take what is hard to make. Its conclusion is that asking these people to be consistent achieves nothing, so the only useful response is to stop being moved by the words.
+The Basic Logic video [Why Did the Third World Learn to Cry Racism?](https://www.youtube.com/watch?v=1Tg_gnb7KJo) argues that words like "racism" and "discrimination" get aimed at the West by people who do not apply them at home, and that they do it because the words reliably win resources and better treatment. It explains this through three ways a society keeps order (guilt, shame and fear) and through the incentive to take what is hard to make. Its conclusion is that asking these people to be consistent achieves nothing, so the only useful response is to stop being moved by the words.
 
 ## The double standard
 
@@ -85,7 +85,7 @@ The video ends on a question it does not answer. A moral vocabulary this complex
 
 ## Open questions
 
-- Who taught the vocabulary is left unanswered in the notes. Decision: left out of the page; the notes do not say.
+- Who taught the vocabulary is left unanswered in the notes, which do not say, so it is omitted.
 - The notes give no evidence for the guilt, shame and fear typology beyond the video's own claim.
 
 ## Sources

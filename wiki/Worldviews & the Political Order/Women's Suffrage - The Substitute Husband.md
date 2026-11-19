@@ -17,7 +17,7 @@ wedge_reviewed: false
 
 # Women's Suffrage - The Substitute Husband
 
-Women in the West vote differently from men, and the gap comes from two habits. Many women vote to make the state a substitute husband that protects and provides for them, and many follow whatever the dominant institutions believe. At best, then, women's suffrage is largely redundant, and at worst it gives parties a reason to undermine the family.
+Women in the West vote differently from men, and the gap comes from two habits. Many women vote to make the state a substitute husband that protects and provides for them, and many follow whatever the dominant institutions believe. At best, then, women's suffrage adds little that is needed, and at worst it gives parties a reason to undermine the family.
 
 Against men, women show swings of 8 to 20 percentage points on welfare, guns, immigration and abortion, and among the young the gap has grown from six percentage points in 2000 to 30 percentage points. The state takes over the husband's job of protecting and providing, which leaves men with little but their looks and splits married women from unmarried ones. Women also back whatever the institutions currently teach, because agreeableness brings a fear of going against the consensus. Once votes belong to individuals, a party that appeals to single women has a reason to delay family formation or to set wives against husbands.
 
@@ -67,7 +67,7 @@ The pattern also splits women by their relationships. A woman in a lasting, succ
 
 ## Following the consensus
 
-The second habit is that women back whatever the institutions currently teach. Women are on average more agreeable than men, and agreeableness brings a fear of going against the perceived consensus. Some decades ago, when mainstream institutions were conservative, women were more conservative than men. Voting as echoes of institutions entrenches those institutions, which shelters corruption and dogma.
+The second habit is that women back whatever the institutions currently teach. Women tend, on average, to be more agreeable than men, and agreeableness brings a fear of going against the perceived consensus. Some decades ago, when mainstream institutions were conservative, women were more conservative than men. Voting as echoes of institutions entrenches those institutions, which shelters corruption and dogma.
 
 ## What it does to the family
 
