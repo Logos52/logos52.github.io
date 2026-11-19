@@ -18,13 +18,13 @@ wedge_reviewed: false
 
 # Validity and Truth
 
-An argument can be valid without being sound. It is valid when its form makes it impossible for the premises to be true and the conclusion false. It is sound only when it is valid and every premise is actually true. Checking an argument therefore takes two separate questions, whether the conclusion follows and whether the starting points hold.
+An argument can be valid without being sound. It is valid when its form rules out any case in which the premises are true and the conclusion is false. It is sound only when it is valid and every premise is actually true. Checking an argument therefore takes two separate questions, whether the conclusion follows and whether the starting points hold.
 
 Because validity is about form, a valid argument with a false premise is valid but unsound. Truth is still worth checking, since the closer someone's picture is to the truth, the better that person does. Many arguments hide a premise called the warrant, which links the evidence to the point being made, and a question can hide a premise in the same way. Testing an argument fairly means restating the other side so well that its holder would welcome the wording, then listing points of agreement, and only then offering a rebuttal. Being offended is no part of that test.
 
 ## Valid versus sound
 
-Validity is about form, so it says nothing yet about whether the premises are true. Take a simple case. Elizabeth owns either a Honda or a Saturn, she does not own a Honda, so she owns a Saturn. If the first two lines are right, the last one has to be right, whatever car she really owns. The premises do not have to be true for that form to be valid. A valid argument with a false premise is therefore valid but unsound.
+Validity is about form, so it says nothing yet about whether the premises are true. Take a simple case. Elizabeth owns a Honda or else a Saturn, she does not own a Honda, so she owns a Saturn. If the first two lines are right, the last one has to be right, whatever car she really owns. The premises do not have to be true for that form to be valid. A valid argument with a false premise is therefore valid but unsound.
 
 The second question is worth the effort because truth has practical value. The closer someone's picture of a business, a channel or a relationship is to the truth, the better that person does at it. Arguing about what is true in politics or society comes from the same place.
 

@@ -25,7 +25,7 @@ The retreat he describes is concrete: he says people can again answer "what is a
 
 ## Why he expected it
 
-Basic Logic says he predicted an anti-woke turn years ago, and his reasoning ran like this. The left imported large numbers of people from the third world, and those people, known in his words for tribalism and religious extremism, did not adopt the liberal worldview. As their numbers grow they become a deciding voting bloc, and they turn on the liberals who let them in. He says this has already happened in several cities and states.
+Basic Logic says he predicted an anti-woke turn years ago, and his reasoning ran like this. The left imported large numbers of people from the third world, and those people, known in his words for tribalism and religious extremism, did not adopt the liberal worldview. As their numbers grow they become a deciding voting bloc, and they turn on the liberals who let them in. He says this has already taken place in a number of cities and states.
 
 His case for the growth rests on three causes, which are low fertility among locals, steady immigration, and high fertility among newcomers that welfare supports. On that basis he expects many Western European countries to become minority European within one to three generations, with America a little behind. Only two positions then matter to him, the third world bloc and the dissident right that opposes it, and whichever wins will be anti-woke.
 
@@ -62,7 +62,7 @@ The second and third paths differ on one point. The based leftist puts his own n
 
 ## What the bloc wants
 
-Basic Logic grants that the third world bloc is not uniform but says its interests line up enough to act as one. In his list it wants more immigration so that whole communities can follow, along with more welfare, public housing and payments paid for by local taxes. It also wants to run its own communities under its own rules, more of its members in positions of power, and no pride flags or parades. The campaign strategy he describes follows from that list. In a city with many immigrants, the left runs a candidate of the main immigrant ethnicity and promises free benefits, which wins both the left-wing vote and the immigrant vote.
+Basic Logic grants that the third world bloc is not uniform but says its interests line up enough to act as one. In his list it wants more immigration so that whole communities can follow, along with more welfare, public housing and payments paid for by local taxes. It also wants to run its own communities under its own rules, more of its members in positions of power, and no pride flags or parades. The campaign strategy he describes follows from that list. In a city with many immigrants, the left runs a candidate of the main immigrant ethnicity and promises free benefits, which wins both the left-wing ballots and the immigrant ballots.
 
 ## Whether it was planned
 
