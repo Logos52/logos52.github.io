@@ -1,4 +1,11 @@
-import type { MapRow } from '../lib/types';
+type MapRow = {
+  slug: string;
+  title: string;
+  url: string;
+  source: string;
+  domain: string;
+  thumb?: string;
+};
 
 function norm(s: string): string {
   return s.trim().toLowerCase();

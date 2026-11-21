@@ -146,11 +146,3 @@ export interface Backlink {
 /** Map of target slug → notes linking to it. Emitted to public/backlinks.json. */
 export type BacklinkIndex = Record<string, Backlink[]>;
 
-export interface MapRow {
-  slug: string;
-  title: string;
-  url: string;
-  source: string;
-  domain: string;
-  thumb?: string;
-}
