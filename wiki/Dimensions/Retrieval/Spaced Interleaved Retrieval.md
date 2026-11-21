@@ -1,34 +1,38 @@
 ---
-title: "Spaced Interleaved Retrieval"
-type: technique
-status: developing
+type: practice
+domain: learning
+status: stable
+description: "Spaced interleaved retrieval brings knowledge back at widening intervals and shifting angles, uses gaps as signals, and pairs with stronger encoding to shrink total review time."
 created: 2026-05-04
-updated: 2026-11-10
-method: fresh-from-notes-2026-11-10
-description: "Spaced interleaved retrieval is the standing practice of producing answers from memory at widening intervals, from a changing angle each pass, so gaps show up while there is still time to fill them, and so encoding quality can slowly reduce how much retrieval you need without ever removing it."
+updated: 2026-11-21
+source-count: 6
 tags:
   - retrieval
   - spacing
   - interleaving
-wedge_reviewed: false
 ---
-
-> Not yet reviewed by Wedge.
 
 # Spaced Interleaved Retrieval
 
-Encoding, meaning the first work of getting knowledge to stick, and retrieval, meaning bringing that knowledge back from memory to use it, are two sides of the same work. You cannot be both efficient and accurate without both. When encoding is stronger, you forget less and need less retrieval. Some retrieval is always needed, because memory is never sealed against decay. Encoding skill also takes time to build, and during that time retrieval is what limits how much already-learned material slips away.
+> Encoding and retrieval are two halves of one job: stronger first passes mean less topping-up, but some retrieval always remains because memory decays. Spaced interleaved retrieval (SIR) is the standing rhythm—same-day touch, then roughly a day, a week, and a month, loosely held—plus changing the form each pass so gaps show while there is time to re-encode. Treat extra retrieval time as a measure of encoding debt, not a reason to quit testing.
 
-The two processes influence each other. They are discussed separately here because the actions that improve retrieval are not the same as the actions used for a first pass of encoding, and keeping them separate makes the techniques easier to practise.
+Encoding and retrieval actions differ enough to learn separately. This page covers **when** to return and **what** to do in those sessions; [[wiki/Dimensions/Retrieval|Retrieval]] covers the wider method families and opportunistic work.
 
-[[wiki/Dimensions/Retrieval/Opportunistic Retrieval|Opportunistic Retrieval]] covers the difference between sessions you schedule and retrieval that happens as a natural part of work. This page is about how to space those sessions, what to do when a test finds a gap, and how retrieval and encoding limit each other.
+## A workable spacing rhythm
 
-## A loose spacing schedule
+Perfectionist calendars are optional. A semi-regular pattern is enough:
 
-An ultra-strict calendar is not required. A semi-regular rhythm that keeps you on top of the material is enough. A common pattern is same-day retrieval, then another pass after 1 day, then after 1 week, then after 1 month, followed loosely.
+- **Same day** after learning new material.
+- **~1 day**, **~1 week**, **~1 month**—then loose maintenance until an assessment window.
+- About **three to four weeks before** a high-stakes test, sweep everything the assessment needs.
+
+One sample week: learn Monday–Tuesday with same-day retrieval; Wednesday interleaves Mon–Tue (plus Wed if new); Thursday learns with same-day pass; Friday–Saturday interleaves the last two weeks; end of month interleaves the last four weeks. With strong encoding, most of a week’s material may survive a few hours of interleaved review; weak encoding forces longer passes and more debt.
+
+Expect **two to four weeks** to settle into self-scheduled SIR before judging encoding improvements. Overall study time may not fall immediately.
+
 <figure>
 <svg viewBox="0 0 520 450" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="dim-sir-a">
-<title id="dim-sir-a">A common pattern is same-day retrieval, then another pass after 1 day, then after 1 week, then after 1 month, followed loosely.</title>
+<title id="dim-sir-a">Spacing ladder: same day, day, week, month.</title>
 <rect x="0.5" y="0.5" width="519" height="449" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
 <text x="24" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">A common pattern</text>
 <circle cx="260" cy="64" r="5" style="fill:var(--qp-ink)"/>
@@ -54,46 +58,49 @@ An ultra-strict calendar is not required. A semi-regular rhythm that keeps you o
 </svg>
 </figure>
 
-One workable week looks like this. Monday and Tuesday, new material is learned and retrieved on the same day. Wednesday holds an interleaved session covering Monday and Tuesday, and Wednesday too if new material was learned that day. Thursday's new material again gets a same-day pass. Friday or Saturday, an interleaved session covers content from the last 2 weeks. At the end of the month, an interleaved session covers the last 4 weeks. About 3 weeks to 4 weeks before an assessment, retrieve everything that assessment will need.
-
-That pattern gives a same-day pass, a mid-week pass, an end-of-week pass, and an end-of-month pass. The end-of-week pass looks back across 2 weeks, and the end-of-month pass looks back across 4 weeks. You come back to the material inside 1 day to 3 days after you first learned it, then again 1 week to 2 weeks later, then again 2 weeks to 4 weeks later. Combined with prestudy and study on the day itself, that means the same material is encoded and then re-encoded through interleaved retrieval around 6 times in a given month.
-
-This can look like too much if encoding is still weak, because a whole month of content sounds huge to revisit. With stronger encoding, about 80 percent to 90 percent of the material is still there by the end-of-week pass, so one week's material can be revised in a few hours. Each later interleaved session reduces decay and re-encodes what remains, so the end-of-month pass for 4 weeks of material may take half a day. Prestudy and learning in batches, ahead of class, also concentrates the work, with spaced retrieval of a few hours each week.
-
-If encoding is still low, the same schedule is harder, and the shortfall has to be met with more retrieval, because both processes are needed for performance. As encoding improves, retrieval takes less time. In the short term, a strict spaced interleaved retrieval schedule is a useful foundation.
-
 ## When a test finds a gap
 
-Finding a gap is the point of retrieval, not a failure of it. Testing also makes the material stickier when you go back to it. The first move is to use the same method you used to learn it. Revisit the material, read it again, and think it through given the way the answer just went wrong. Attention is sharper the second time, and that alone often closes the gap.
+Gaps are the point. First **re-encode with the original method**, reading with sharper attention to how the last attempt failed. If uncertainty returns, assume weak or wrong links—widen context, tie to problems you understand, or compare at a higher level. Some items need several rounds.
 
-If you still feel unsure, or the same gap shows up again, assume the earlier connections were too weak or not accurate. Look for a different way to connect the material. That can mean going a little beyond the original scope. Make it more relevant, link it to problems you already understand, or build a bigger-picture comparison. Some items take several rounds.
+Cut retrieval only when tests stop finding new gaps—not because sessions feel heavy.
 
-## What retrieval cannot do on its own
+## Encoding sets the ceiling
 
-Retrieval is only as good as the encoding it starts from. Encoding is what slows the leak. Retrieval keeps topping up the bucket so you have time to patch that leak. Encoding carries the long-term change. Retrieval carries short-term performance.
+Poor first encoding multiplies gap-filling cost (~5× repetition per gap) and can trap you in relearning loops. As encoding improves, retrieval sessions shorten. **Micro-retrieval**: pause before writing notes in a lecture—recall, then keywords and sketches, not transcription. **External check**: at least one method compares answers to a reliable source (mark scheme, vetted bank, scope-limited tutor tool) so self-tests do not miss unknown unknowns.
 
-If the first encoding is poor, there will be many gaps. Sessions run longer, filling those gaps takes longer, and you have to test more often to check they have closed. Each gap can take about 5 times as much repetition to fill, which piles up as learning debt. If almost all of the learning is coming from practice tests and rereading, with little real encoding, the work becomes a loop of constant relearning.
+## Choosing methods (interleaving menu)
 
-Practise spaced interleaved retrieval with a few different methods until it feels usable, including making schedules and getting used to testing yourself this way. For most people that settling-in period is about 2 weeks to 4 weeks. Then keep improving encoding and watch what that does to how much retrieval you need. Retrieval time should fall because tests find fewer gaps, not because you decided to cut it. The time you still spend on retrieval is a useful signal of how many gaps encoding is still leaving behind. Overall study time may not drop for weeks or months, and that is normal.
+Pick **declarative** or **procedural** emphasis, then a few methods—not the whole catalogue.
 
-## Two extra habits during the work
+**Drop** passive rereading, repetitive execution beyond real challenge, passive practice questions (glance at answers), and wandering group chat.
 
-Micro-retrieval applies retrieval within seconds or minutes of first meeting the material. In a lecture, think through what was said before you write. Delaying the notes creates a small space between hearing and recalling. Do not write until you have made sense of it, and prefer keywords, short statements, arrows, and sketches over full sentences.
+**Declarative subjects** (sciences, history, law, language structure): lower-order tools include cover-copy-check and simple flashcards; mid-order uses relational cards, map brain dumps, relational questions; higher-order uses evaluative questions, modified whole-part-whole teaching, evaluative discussion, extended questions. Teach immediately after first encounter for micro-retrieval.
 
-Self-testing can miss gaps you do not know enough to look for. At least one retrieval method, preferably a testing method, should check your knowledge against a reliable outside source. That source might be a formal answer, a question bank, or a well-constrained tool trained on the scope of your assessment.
+**Procedural subjects** (code, maths execution, clinical skills, conversation): progress retrieved execution from simple → integrative → applied / edge-case challenges. Declarative cards may still support embedded facts.
 
-## Open questions
+**Mixed syllabi** often start from the declarative timeline—prestudy, encoding day, same-day teaching, week-one map dump with flashcards for fact holes, weeks 2–4 escalate question quality, month-end pooled test, later evaluative discussion or WPW—then add procedural retrieval as skill work grows.
 
-- How does treating retrieval time as a signal of remaining gaps change when you decide to cut a session short?
-- How does waiting through a repeated gap, then connecting the same idea a new way, change what sticks on the next test?
+Use AI for card generation or gap-checking, not for outsourcing the relationship work that encoding requires.
 
-## Sources
+## Microlearning when time fragments
 
-- iCanStudy, "What is the best way to space my retrieval sessions?", Learning Support. Private course notes, paraphrased.
-- iCanStudy, "Retrieval Tips", Fundamentals. Private course notes, paraphrased.
+If days rarely open a full hour, run **Prime → Map → Explore → Dive → Consolidate** cycles: name a tight target, list resources, sketch main ideas, deep-dive one chunk, then zoom back out before the next dive. Five- to thirty-minute blocks can stack; consolidate so spaced gaps do not erase fragile encoding. Offload searchable detail to a notes store; schedule a longer retrieval block weekly unless work already forces recall.
+
+Microlearning is additive, not a substitute for a deep session when you have one. The failure mode is endless shallow dives without consolidation or without the week-scale interleaves above—then SIR’s spacing benefits never attach to the fragments.
 
 ## Related pages
 
-- [[wiki/Dimensions/Retrieval|Retrieval]]: the dimension this practice sits in.
-- [[wiki/Dimensions/Retrieval/Opportunistic Retrieval|Opportunistic Retrieval]]: scheduled sessions compared with retrieval that arrives through daily work.
-- [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]]: methods to use inside those spaced sessions.
+- [[wiki/Dimensions/Retrieval|Retrieval]] — dimension hub.
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] — encoding partner.
+- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] — retrieval month track.
+
+## Sources
+
+| Source | Note |
+|---|---|
+| iCanStudy, "What is the best way to space my retrieval sessions?", Learning Support | Spacing pattern |
+| iCanStudy, "Retrieval Tips", Fundamentals | Gap handling, encoding signal |
+| iCanStudy, "Interleaving table", Learning Support | Method menus and anti-patterns |
+| iCanStudy, "Microlearning system", Supplementary learning | Five-stage short blocks |
+| Cepeda et al. (2006); Bjork (1994) | Spacing and desirable difficulties |
+| Rohrer & Taylor (2007); Rohrer et al. (2015) | Interleaved practice |

@@ -38,7 +38,7 @@ Kolb's experiential cycle is a structured look back at an experience to work out
 
 ## Marginal Gains
 
-Marginal gains treat progress as a chain of small improvements. Small steps are easier to hit and fail less often, and they help you choose the next move toward a larger goal. See [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]].
+Marginal gains treat progress as a chain of small improvements. Small steps are easier to hit and fail less often, and they help you choose the next move toward a larger goal. See [[wiki/Dimensions/Mindset|Marginal Gains]].
 
 ## Metacognition
 
@@ -66,7 +66,7 @@ Spaced interleaved retrieval is recalling material from memory at widening, loos
 
 ## WPW
 
-WPW, or whole-part-whole, is a technique for teaching yourself. You view the topic whole first, split it into its parts, then put it back together and view it whole again. See [[wiki/Dimensions/Retrieval/WPW|WPW]].
+WPW, or whole-part-whole, is a technique for teaching yourself. You view the topic whole first, split it into its parts, then put it back together and view it whole again. See [[wiki/Dimensions/Retrieval|WPW]].
 
 ## Passive Learning
 
@@ -78,51 +78,51 @@ Working memory is the short workspace where new information lands first and wher
 
 ## Functional Component
 
-A functional component is a part of a Chinese character that does a job in that character by expressing sound or meaning. Many resources split characters into pieces that do no such job. See [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]].
+A functional component is a part of a Chinese character that does a job in that character by expressing sound or meaning. Many resources split characters into pieces that do no such job. See [[wiki/Dimensions/Retrieval|Rules of Effective Memorization]].
 
 ## Form Component
 
-A form component is a character component that uses its pictorial quality to express meaning. It once depicted something, though the modern shape may no longer look like it. See [[wiki/Language/Chinese/Form Components|Form Components]].
+A form component is a character component that uses its pictorial quality to express meaning. It once depicted something, though the modern shape may no longer look like it. See [[wiki/Language/Chinese/How Chinese Characters Work|Form Components]].
 
 ## Meaning Component
 
-A meaning component brings an abstract sense that grew out of a concrete original one. 力 first showed a plow, and its sense widened to effort and strength. See [[wiki/Language/Chinese/Meaning Components|Meaning Components]].
+A meaning component brings an abstract sense that grew out of a concrete original one. 力 first showed a plow, and its sense widened to effort and strength. See [[wiki/Language/Chinese/How Chinese Characters Work|Meaning Components]].
 
 ## Sound Component
 
-A sound component works as a prediction tool. It narrows the pronunciation to a range rather than fixing one reading. See [[wiki/Language/Chinese/Sound Components|Sound Components]].
+A sound component works as a prediction tool. It narrows the pronunciation to a range rather than fixing one reading. See [[wiki/Language/Chinese/How Chinese Characters Work|Sound Components]].
 
 ## Empty Component
 
-An empty component supplies no sound and no meaning in the character it sits in. That status belongs to the character, not the shape, so the same piece can be functional elsewhere. See [[wiki/Language/Chinese/Empty Components|Empty Components]].
+An empty component supplies no sound and no meaning in the character it sits in. That status belongs to the character, not the shape, so the same piece can be functional elsewhere. See [[wiki/Language/Chinese/How Chinese Characters Work|Empty Components]].
 
 ## Sound Series
 
-A sound series is a group of characters built on the same sound component. Their readings vary in patterned ways, with initials varying within seven related groups. See [[wiki/Language/Chinese/Sound Series|Sound Series]].
+A sound series is a group of characters built on the same sound component. Their readings vary in patterned ways, with initials varying within seven related groups. See [[wiki/Language/Chinese/How Chinese Characters Work|Sound Series]].
 
 ## Semantic Series
 
-A semantic series, also called a meaning series, groups characters that share a meaning component. Their meanings do not always match the component's own. See [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]].
+A semantic series, also called a meaning series, groups characters that share a meaning component. Their meanings do not always match the component's own. See [[wiki/Dimensions/Retrieval|Rules of Effective Memorization]].
 
 ## Meaning Tree
 
-A meaning tree lays out a character's senses with the original meaning as its trunk. Extensions branch from it, sound-loan senses are marked so no false bridge is built to the form, and two readings get two trees. See [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]].
+A meaning tree lays out a character's senses with the original meaning as its trunk. Extensions branch from it, sound-loan senses are marked so no false bridge is built to the form, and two readings get two trees. See [[wiki/Language/Chinese/How Chinese Characters Work|Meaning Trees and Original Meanings]].
 
 ## Original Meaning
 
-The original meaning is the sole sense bound to a character's form. Every later extension can be traced back to it. See [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]].
+The original meaning is the sole sense bound to a character's form. Every later extension can be traced back to it. See [[wiki/Language/Chinese/How Chinese Characters Work|Meaning Trees and Original Meanings]].
 
 ## Fence Principle
 
-A trusted note saying two readings are related works like a fence. Learners often reject a valid sound link when the pinyin differs, and once the fence is up the brain can take the link in. See [[wiki/Language/Chinese/Sound Series|Sound Series]].
+A trusted note saying two readings are related works like a fence. Learners often reject a valid sound link when the pinyin differs, and once the fence is up the brain can take the link in. See [[wiki/Language/Chinese/How Chinese Characters Work|Sound Series]].
 
 ## Rebus Principle
 
-The rebus principle borrows an existing character for its sound so it can write a different word. It was one answer to the limit on how many words could be drawn. See [[wiki/Language/Chinese/Sound Components|Sound Components]].
+The rebus principle borrows an existing character for its sound so it can write a different word. It was one answer to the limit on how many words could be drawn. See [[wiki/Language/Chinese/How Chinese Characters Work|Sound Components]].
 
 ## Pipelining (Character Intake)
 
-Pipelining spreads a character's form, meaning and sound over different days. Characters go through a three-day cycle in groups of three to five, and on the third day the written form is attached to a word that is already overlearned. See [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]].
+Pipelining spreads a character's form, meaning and sound over different days. Characters go through a three-day cycle in groups of three to five, and on the third day the written form is attached to a word that is already overlearned. See [[wiki/Language/Chinese/How Chinese Characters Work|The Pipelining Strategy]].
 
 ## Encoding
 
@@ -130,15 +130,15 @@ Encoding is the initial work of making knowledge stick. It is the counterpart of
 
 ## Prestudy
 
-Prestudy covers any study done in advance of a main learning event, whether a class or a long dedicated session. It gives new information somewhere to land, which makes later detail easier to hold on to. See [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]].
+Prestudy covers any study done in advance of a main learning event, whether a class or a long dedicated session. It gives new information somewhere to land, which makes later detail easier to hold on to. See [[wiki/Dimensions/Deep Processing|Prestudy]].
 
 ## Inquiry-Based Learning
 
-Inquiry-based learning is posing problems for yourself and then solving them, letting curiosity steer what you take in and how you think. See [[wiki/Dimensions/Deep Processing/Inquiry-Based Learning|Inquiry-Based Learning]].
+Inquiry-based learning is posing problems for yourself and then solving them, letting curiosity steer what you take in and how you think. See [[wiki/Dimensions/Deep Processing|Inquiry-Based Learning]].
 
 ## Locus of Control
 
-The locus of control covers the actions within your own reach that improve your chances of the result you want. The result itself, such as an exam score, lies outside it. See [[wiki/Dimensions/Mindset/Locus of Control|Locus of Control]].
+The locus of control covers the actions within your own reach that improve your chances of the result you want. The result itself, such as an exam score, lies outside it. See [[wiki/Dimensions/Mindset|Locus of Control]].
 
 ## Importance-Based Chunking
 

@@ -1,78 +1,74 @@
 ---
-type: condensed
+title: "Chinese Characters, Condensed"
+type: concept
 status: developing
-description: "The character cluster's doctrine: a character is one item with three links trained separately, components are classified by their function in each character, senses derive from original meanings, and two practice loops, IME recall and pipelining staggered across sessions, use that structure."
+description: "Doctrine for the character hub: three trained links, four component jobs, meaning trees, and two practice loops (IME recall and three-day pipelining)."
 created: 2026-06-11
-updated: 2026-11-11
-method: fresh-from-notes-2026-11-11
-prose-model: opus
+updated: 2026-11-21
+method: integrated-merge-2026-11-21
+source-count: 2
 tags:
   - chinese
   - characters
   - mandarin
   - language-learning
   - condensed
-wedge_reviewed: false
 ---
+
+> Characters record spoken words. Learn the word by ear first, name each component's job in that character, and never split past the parts that actually work.
 
 # Chinese Characters, Condensed
 
-> Not yet reviewed by Wedge.
-
-Chinese characters are best learned as written forms of words the learner already knows by sound and meaning, broken down only as far as the parts that do a job. Every character has three linked attributes, its form, its sound and its meaning, and writing exists to evoke the spoken word, not to picture ideas directly. Each component in a character does one of a few jobs. It can show a picture, carry a meaning, hint at the sound, or do nothing. Most characters also carry several senses that grow from one original meaning, and about one in five has been borrowed purely for its sound. Practice works best when the spoken word comes first, the three attributes are learned on different days, and the learner guesses before looking anything up.
+Read [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] for examples, figures, and transliteration. This page is the rule set only.
 
 ## 1. The basic rules
 
-- Writing evokes the spoken word. The idea that characters map form straight to meaning is wrong, and form, sound and meaning are equal facets of one memory item, each worth testing separately.
-- Speech came first, so a new character is best attached to a word already known by ear.
-- Break a character down only to its working parts. Splitting further, or parsing by dictionary radical, produces noise, since a radical tells a learner where to look a character up, not what it means.
-- The seven rules of memory apply. Meaning deepens encoding, organization links new characters to known ones, association repairs weak spots, visualizing the ancient form makes a glyph picturable, attention decides whether anything was encoded at all, repetition only works alongside the others, and interest makes material stick.
-- Most forgetting is never having encoded the character, so it pays to confirm a character went in during the session where it was learned, before scheduling reviews.
+- Writing evokes speech, not bare ideas. Form, sound, and meaning are one memory item with three edges—each edge gets its own encoding and tests.
+- Hang new characters on words already known when heard.
+- Break down only to **functional components**; radicals tell you where to look a character up, not what it means.
+- [[wiki/Dimensions/Retrieval|Rules of Effective Memorization]] apply: meaningfulness, organization, association, visualization, attention, spaced repetition, and interest.
+- Most forgetting is failed encoding in the first session—confirm something went in before you schedule reviews.
 
 ## 2. Components, by job
 
-The core skill is telling which job a component does in this particular character, since one component can do different jobs in different characters.
-
-- Form components show a picture. What a component depicts may no longer resemble it, so it helps to see the ancient form at first contact before a wrong reading sets in.
-- Meaning components stretch a concrete original into something abstract, as when a plow comes to mean effort. A story about a component is only valid if it works for every character that shares the component.
-- Sound components predict pronunciation as a range, not an exact syllable. Tones rarely carry over from component to character, so tones come from listening.
-- Sound series group characters by related initial sounds, which fall into seven families such as t and d or b, p and f. Saying two sounds aloud and feeling the same mouth position confirms they belong together.
-- Empty components do no meaning or sound work in a character. They are leftovers from old changes in shape or marks added to tell two characters apart, and each deserves a one-line explanation of where it came from.
-- Position can change identity. The same-looking component on the left can mean hills, and on the right a city.
+- **Form components** picture a scene; check the ancient shape once before a wrong modern reading sticks.
+- **Meaning components** extend a concrete original (plow → effort). Every story must pass the sibling-table test for that piece.
+- **Sound components** predict a **range** of readings, not one syllable; tones come from audio.
+- **Sound series** share a phonetic piece; related initials fall into seven mouth-position families (t/d, zh/ch/sh, j/q/x, b/p/f, g/k/h, z/c/s, m/w).
+- **Empty components** do no sound or meaning work here—marks, corruption, or decoration, each with a one-line honest label.
+- Position changes identity: 阝 left is hills, right is city.
 
 ## 3. Senses
 
-- A character's original meaning is the trunk of its meaning tree. No other sense links directly to the written shape, and it explains the extensions that grew from it.
-- About 18% of characters are sound loans, borrowed to write an unrelated word with a similar sound. Knowing a sense is a loan stops the learner from building a false bridge between form and meaning.
-- Senses that follow from a more basic one need no separate memorizing, and rare senses can wait until they are met.
-- A character's sense as a component can differ from its sense as a word, and using the wrong one leads analysis astray.
-- Two readings usually mean two related branches, but a few cases are two ancient characters that merged into one shape and should be treated separately.
+- The **original meaning** is the trunk; other senses branch or borrow.
+- ~18% of characters are **sound loans**—mark them so form does not get forced onto the wrong sense.
+- Do not memorize derivable or rare senses early.
+- A shape as **word** vs as **component** keeps two meaning trees.
+- Two modern readings are usually one tree with branches; a few merged glyphs are two trees in one shape.
 
-## 4. The practice loops
+## 4. Practice loops
 
-- Learn the spoken word first, then attach the character to it.
-- Pipeline the attributes. Work with small groups of three to five characters over three days, recalling the word in one direction on the first day, in the other direction on the second and writing the form on the third, with groups overlapping so each day mixes new and familiar tasks.
-- Recall a forgotten form the way an input method suggests candidates. List sound components that could carry the syllable, list meaning components linked to the sense, then match them until a pairing feels familiar.
-- Predict before every lookup. Guess the meaning field from one component and the sound range from another, commit, then check, because the act of committing and checking is what encodes the character.
-- Pipelining sits on top of spaced repetition and does not replace daily reviews.
-- Memory stories are scaffolding that falls away, while each word's sound and meaning remain.
+- Spoken word first, written form later.
+- **Pipelining:** cohorts of 3–5 items across three days (one recall direction, the other, then the character), overlapping cohorts; keep spaced-repetition reviews underneath.
+- **IME-style recall:** list sound and meaning component candidates, cross-match; recognition can choose between two layouts when recall fails.
+- Guess meaning field and sound range before every lookup; the commit-and-check is the encoding.
+- Stories are scaffolding; sound and meaning of the words are what remain.
 
 ## Related pages
 
-- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]: the full hub for this topic.
-- [[wiki/Language/Chinese/Sound Components|Sound Components]]: the sound job in detail.
-- [[wiki/Language/Chinese/Meaning Components|Meaning Components]]: the meaning job in detail.
-- [[wiki/Language/Chinese/Form Components|Form Components]]: the picture job in detail.
-- [[wiki/Language/Chinese/Empty Components|Empty Components]]: parts that do no work.
-- [[wiki/Language/Chinese/The Pipelining Strategy|Pipelining]]: the three-day practice loop.
-- [[wiki/Language/Chinese/The IME Method|The IME Method]]: recalling forms from components.
+- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]: full hub with diagrams and loanword mechanics.
+- [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]]: cross-language sound bridge for Vietnamese speakers.
+- [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]]: pipelining named under script application rules.
 
 ## Open questions
 
-- How does a learner tell a form component from a meaning component without an etymological dictionary?
-- How many characters does a learner need before the prediction habit starts paying off?
-- How should pipelining change for a learner who reads far more than they write?
+- How does a learner tell form from meaning components without a full etymology course?
+- How many characters before prediction-before-lookup pays off?
+- How should pipelining flex when reading dominates writing?
 
 ## Sources
 
-- Outlier Linguistics, "Chinese Character Masterclass", course lessons 1 to 10 and 12. Private course notes, paraphrased.
+| Source | Role on this page |
+| --- | --- |
+| Outlier Linguistics, Chinese Character Masterclass, lessons 1–10 and 12 | Component doctrine and practice loops. Private course notes, paraphrased. |
+| Refold, Character Primer | Components vs radicals, immersion-first learning. Private course notes, paraphrased. |
