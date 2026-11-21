@@ -63,7 +63,8 @@ const rowsJson = JSON.stringify(rows);
 </Base>
 
 <script>
-  import { initMapList, type MapRow } from '../islands/map-list';
+  import { initMapList } from '../islands/map-list';
+  import type { MapRow } from '../lib/map-rows';
 
   const root = document.querySelector('[data-map-root]');
   const dataEl = document.getElementById('map-rows-data');
