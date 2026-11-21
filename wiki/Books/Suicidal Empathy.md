@@ -4,9 +4,7 @@ type: book
 status: stable
 domain: world
 created: 2026-05-16
-updated: 2026-11-21
-method: plain-rewrite-2026-09-11
-prose-model: fable
+updated: 2026-11-22
 source-count: 1
 tags:
   - books
@@ -17,22 +15,13 @@ tags:
   - red-teaming
 ---
 
-# Suicidal Empathy (Book)
+# Suicidal Empathy
 
-Gad Saad's *Suicidal Empathy* (2026) follows directly from *The Parasitic Mind*. The earlier book described cognitive pathogens, ideas that harm the mind that holds them. This book describes affective dysregulation, feeling that is out of proportion and unchecked, and how that feeling makes those ideas seem morally required.
+Gad Saad's *Suicidal Empathy* (2026) follows *The Parasitic Mind*. The earlier book named cognitive pathogens: ideas that harm the mind that holds them. This book names affective dysregulation—feeling out of proportion and unchecked—and shows how that feeling makes the pathogens feel morally required.
 
-Empathy is a real and valuable human capacity. The book calls it suicidal when it is separated from truth, reciprocity, proportion, and long-term survival. When people and institutions put the emotional reward of visible compassion ahead of checking their beliefs against reality, they sacrifice citizens, women, children, merit, borders, and the continuity of their civilization. They do this to protect favored narratives and to signal their own moral virtue.
+Empathy is a real capacity. The book calls it suicidal when it is split from truth, reciprocity, proportion, and long-term survival. Institutions and individuals then trade the emotional reward of visible compassion for citizens, women, children, merit, borders, and civilizational continuity. Calibrated empathy serves the person helped and protects the helper. Suicidal empathy serves the helper's self-image and damages both.
 
-The book describes the specific ways this happens in crime, immigration, science, institutions, and the state. It offers two correctives. The first is calibrated empathy: help that actually helps and does not destroy the helper or the system. The second is deliberate inoculation: a set of practical defenses, given in the final chapter, that the reader applies before empathy is allowed to drive a decision.
-
-## Core takeaways
-
-- Calibrated empathy serves the person helped and protects the helper's long-term interests. Suicidal empathy serves the helper's self-image and harms both the person helped and the wider system.
-- Truth is the first thing given up. Once certain facts become emotionally unacceptable, asking about them is treated as a disorder.
-- Cultural theory of mind, an accurate picture of another culture's actual beliefs and incentives, is required before empathy toward that culture can work. Projecting one's own assumptions onto that culture is what happens without it.
-- Blank-slate explanations, which treat crime, failure, and group differences as products of social forces, are used to excuse people from accountability. They also prevent effective policy.
-- Diversity, equity, and inclusion often work as modern indulgences: rituals that buy moral status at the cost of competence and fairness.
-- The remedy is to delay the empathy response on purpose, map the consequences explicitly, and put survival, merit, and truth ahead of everything else.
+The remedy is deliberate delay: map consequences, insist on cultural theory of mind before projecting your own morals outward, and refuse blank-slate excuses that erase accountability. The final chapter lists practical inoculations to run before empathy is allowed to drive a decision.
 
 ## Calibrated empathy and suicidal empathy
 

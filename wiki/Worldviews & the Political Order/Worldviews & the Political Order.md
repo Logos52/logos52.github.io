@@ -4,11 +4,12 @@ description: "The door for political arguments on this wiki: seven question grou
 type: topic hub
 status: stable
 created: 2026-10-23
-updated: 2026-11-21
+updated: 2026-11-22
 tags:
   - politics
   - hub
 domain: world
+source-count: 4
 ---
 
 # Worldviews & the Political Order
@@ -35,12 +36,11 @@ Read [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] when a moral feeling is do
 
 Use this section when a headline or conversation turns on a political claim and you need the argument separated from the performance. The groups are topic hubs: they keep the material and sources from the folded pages without preserving every old URL. Redirects in `src/redirects/doors/world.json` point old paths at the group or book that now holds the text. Research banks for arguments that never had public pages were moved under `archive/unpublished/` and stay off the site.
 
+Start with Group 1 whenever a clip feels conclusive. Name the warrant, divide raw totals, and only then open the group that matches the fight you are in. Pair the groups with the two book pages when the failure mode is ideas that pay the holder (*The Parasitic Mind*) or feeling that overrules evidence (*Suicidal Empathy*). Use the pace and capture concepts when the fight is about who gets to ship technology, not which party is worse this week.
+
 ## Sources
 
-| Item | Note |
-| --- | --- |
-| Basic Logic (YouTube) | Primary channel for Group 2–7 argument pages |
-| Gad Saad, *The Parasitic Mind* (2020) | [[wiki/Books/The Parasitic Mind|The Parasitic Mind]] |
-| Gad Saad, *Suicidal Empathy* (2026) | [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] |
-| Internet Encyclopedia of Philosophy | Validity and soundness (via Group 1) |
-| Front Page, Triggernometry, Naval, and other credited hosts | Named on folded argument pages inside each group |
+- Basic Logic (YouTube), Group 2–7 argument sources
+- Gad Saad, *The Parasitic Mind* (2020)
+- Gad Saad, *Suicidal Empathy* (2026)
+- Internet Encyclopedia of Philosophy, validity and soundness (via Group 1)
