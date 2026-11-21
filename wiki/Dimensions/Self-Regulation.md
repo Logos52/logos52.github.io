@@ -45,4 +45,4 @@ A training challenge attached to this overview is to map your learning flow. Fol
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]]: thinking about your thinking, which this overview says self-regulation relies on.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: the engine this overview contrasts with driving skill.
 - [[wiki/Dimensions/30-Day Challenges/Self-Regulation Challenge|Self-Regulation Challenge]]: further training that sits alongside this overview.
-- [[wiki/Dimensions/Self-Management|Self-Management]]: the systems that make the time for this monitoring possible.
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]]: the systems that make the time for this monitoring possible.

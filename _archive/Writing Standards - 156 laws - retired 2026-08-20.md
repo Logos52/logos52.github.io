@@ -521,7 +521,7 @@ Recommendation: A — accepting that upstream updates may conflict with our modi
 and that schema enforcement stays a lint script instead of a compile-time guarantee.
 ```
 
-**L103. Weigh the cost of being wrong.** When options converge on outcome, decide on reversibility: state the retreat cost from each branch and the asymmetry. When the edge is not decisive, the reversible branch wins. This is [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions]] applied to prose.
+**L103. Weigh the cost of being wrong.** When options converge on outcome, decide on reversibility: state the retreat cost from each branch and the asymmetry. When the edge is not decisive, the reversible branch wins. This is [[wiki/Razors|Positional Decisions]] applied to prose.
 
 **L104. Checkable claims.** Success criteria and acceptance tests are falsifiable, phrased so a reader could verify them without asking what was meant.
 

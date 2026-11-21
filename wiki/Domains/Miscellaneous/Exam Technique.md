@@ -41,4 +41,4 @@ What would change in how you write practice items if you tried to set the paper 
 
 - [[wiki/Domains/Miscellaneous/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]
 - [[wiki/Self Management/Techniques in School|Techniques in School]]
-- [[wiki/Self Management/Study Scheduling|Study Scheduling]]
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Study Scheduling]]

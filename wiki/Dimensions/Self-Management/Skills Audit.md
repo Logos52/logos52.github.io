@@ -41,5 +41,5 @@ The same review can be done two ways. A skill screen is faster. It looks at earl
 - [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]: the stance the audit depends on.
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: the small-step tracking used after gaps are found.
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: the reflection cycle paired with that tracking.
-- [[wiki/Dimensions/Self-Management/How to Ask for Feedback|How to Ask for Feedback]]: one of the places a correction step looks for help.
-- [[wiki/Dimensions/Self-Management|Self-Management]]: the dimension this page sits in.
+- [[wiki/Concepts/Good Faith|How to Ask for Feedback]]: one of the places a correction step looks for help.
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]]: the dimension this page sits in.

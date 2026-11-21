@@ -55,7 +55,7 @@ The horizon applies to invested surplus. It does not apply to money spent on liv
 
 The check is the age of the last portfolio action. It should be months old. Days old is a failure. Months is not a measured optimal interval. The point of the check is that the interval is longer than a day. If the owner checks prices daily, or reacts to cycle news, the behaviour has failed, regardless of what the math says. Checking prices is not a trade. Daily attention to prices is the step that comes before the sale.
 
-The repair is process design. A better forecast is not the repair. The process is automatic contributions, a rebalance on a calendar date, and a no-news rule. [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]] covers the general case of judging a decision by its process rather than by its outcome.
+The repair is process design. A better forecast is not the repair. The process is automatic contributions, a rebalance on a calendar date, and a no-news rule. [[wiki/Razors|Good Decisions]] covers the general case of judging a decision by its process rather than by its outcome.
 
 ## How to practice this
 
@@ -72,7 +72,7 @@ The repair is process design. A better forecast is not the repair. The process i
 - [[wiki/Money/The Savings Rate Is the Master Lever|The Savings Rate Is the Master Lever]]: how much money is on the horizon, the other lever besides the years it stays in.
 - [[wiki/Money/Define Enough|Define Enough]]: the point at which the surplus is enough, and the exception for experiences that are possible only for a limited number of years.
 - [[projects/wnac|WNAC]]: vehicle choice for a given life.
-- [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]]: judging a decision by its process rather than by its outcome, the general case.
+- [[wiki/Razors|Good Decisions]]: judging a decision by its process rather than by its outcome, the general case.
 
 ## Open questions
 

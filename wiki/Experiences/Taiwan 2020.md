@@ -71,7 +71,7 @@ The Japan trip confirmed that even a short period of free movement can still giv
 ## Related pages
 
 - [[wiki/Experiences/Experiences|Experiences]] hub
-- [[wiki/Concepts/Meiwaku|Meiwaku]]: contrast between cultures with high awareness of social friction and cultures with high variance
+- [[wiki/Concepts/Selfhood|Meiwaku]]: contrast between cultures with high awareness of social friction and cultures with high variance
 - [[wiki/Red Team/Red Teaming|Red Teaming]]: the value of cultural empathy and of modeling how other cultures work
 
 ## Sources

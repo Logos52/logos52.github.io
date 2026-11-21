@@ -91,6 +91,6 @@ Later training will introduce many new methods that also need to fit into your s
 ## Related pages
 
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the dimension this challenge trains.
-- [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|Self-Management Challenge]]: another four-week practice in the same set.
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management Challenge]]: another four-week practice in the same set.
 - [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset Challenge]]: nearby work on turning mistakes into experiments.
 - [[wiki/Dimensions/Self-Regulation/Common Traps|Common Traps]]: nearby work on watching what your methods actually do.

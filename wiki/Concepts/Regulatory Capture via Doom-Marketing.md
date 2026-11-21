@@ -127,7 +127,7 @@ The danger and the gate stay separable, and that separation is what makes the co
 
 ## Related pages
 
-- [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]]: supplies the "only we can be trusted" premise that doom-marketing turns into gatekeeping.
+- [[wiki/Red Team/Red Teaming|Epistemic Exceptionalism]]: supplies the "only we can be trusted" premise that doom-marketing turns into gatekeeping.
 - [[wiki/Red Team/Red Teaming|Red Teaming]]: the who-benefits and falsifiability checks are red-team moves.
 
 ## Open questions

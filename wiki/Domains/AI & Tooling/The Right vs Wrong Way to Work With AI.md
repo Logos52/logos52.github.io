@@ -50,4 +50,4 @@ When you feel that faint sense that an explanation does not quite click, what mi
 ## Related pages
 
 - [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]]
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]
+- [[wiki/Razors|Are You Learning, or Just Using Techniques]]

@@ -86,6 +86,6 @@ After my last short dive, did I zoom back out and reconnect it, or did I jump to
 ## Related pages
 
 - [[wiki/Learning Craft/Clinical Learning System|Clinical Learning System]]: a different system for choosing what to learn when the next case, rather than the next free gap, sets the order.
-- [[wiki/Self Management/Study Scheduling|Study Scheduling]]: how protected blocks and short gaps can sit on the same calendar.
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Study Scheduling]]: how protected blocks and short gaps can sit on the same calendar.
 - [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]: why the rare items you do memorize need meaning and organization, not a growing pile of cards.
 - [[wiki/Concepts/Memory Handling|Memory Handling]]: keeping short sessions on the logic layer rather than on leftover details.

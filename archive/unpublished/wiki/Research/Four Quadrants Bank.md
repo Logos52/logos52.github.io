@@ -25,11 +25,11 @@ Anything that happens to you can be looked at from four places. Your mind, what 
 
 ## Where it goes
 
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]]. Q3 as a row: which box is this answer in, and what do the other three say.
+- [[wiki/Red Team/Red Teaming|Applied Critical Thinking - Testing Frames]]. Q3 as a row: which box is this answer in, and what do the other three say.
 - [[wiki/Red Team/Red Teaming|Red Teaming]]. Q3 and Q6, blind spots sorted by box, and the loop that hides a whole side of a story.
 - [[wiki/Dimensions/Mindset/Locus of Control|Locus of Control]]. Q2 and Q7, the two boxes you control and responsibility for the reaction rather than the event.
 - [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|Dating Apps - The Gini Coefficient]]. Q5's swipe numbers, as the speaker's numbers, beside the page's own.
-- [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]]. Q5's method, a mark per box per step, as a way to grade a decision after the fact.
+- [[wiki/Razors|Judging a Decision by Its Process]]. Q5's method, a mark per box per step, as a way to grade a decision after the fact.
 - [[wiki/Concepts/Levels of Thinking - The Step Back|Levels of Thinking - The Step Back]]. Q8, levels happen in all four boxes at once. One line.
 
 New page this bank supports: The Four Boxes - Mind, Behavior, Culture, System, under Concepts, linked from Applied Critical Thinking - Testing Frames.

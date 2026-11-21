@@ -1,61 +1,70 @@
 ---
-title: "Priority 0+1 System"
-type: system
-status: developing
+title: Priority 0+1 System
+type: practice
+status: stable
 created: 2026-06-11
-updated: 2026-11-10
-method: fresh-from-notes-2026-11-10
-description: "Sort tomorrow before it starts: protect the one daily task that moves you closest to your goals, fit the rest around it, and revisit the deeper values behind those goals about twice a year."
+updated: 2026-11-21
+source-count: 2
 tags:
   - priorities
   - planning
   - time-management
-wedge_reviewed: false
+  - self-management
 ---
-
-> Not yet reviewed by Wedge.
 
 # Priority 0+1 System
 
-The system is simple. Get clear about what comes first, then act in that order. The first-rank daily task is the single task for the day that moves you closest to the goals you have already set. An upper layer sits above every daily list. It is your values and your long-term vision, which is what those daily first tasks serve.
+Sort tomorrow before it starts: protect the one daily task that moves you closest toward goals you still want, fit everything else around it, and revisit the deeper picture behind those goals about twice a year. The system is simple in wording and hard in execution because urgency lies convincingly.
 
-A day usually holds more than one want. Study, exercise, family, friends, a walk, games, time alone, and meditation can all belong. The question is which one thing, today, most reduces the distance to your goals. Place that block first and protect it. Then place the next items around it.
+## Priority 1 for the day
 
-An Eisenhower matrix, which sorts work by importance and urgency, helps you see where each leftover task belongs. Do this sort the day before. During the day, collect new tasks that appear and put them on the matrix for tomorrow rather than letting them reshuffle the plan you already protected.
+A day holds many legitimate wants: study, movement, people, rest, side projects. The first-rank daily task is the single block that most reduces distance to your current goals. Place it first on the calendar and treat interruptions as exceptions. Collect new tasks during the day, but park them for tomorrow's sort instead of reshuffling today's protected block.
+
+Sort with an importance-urgency matrix the night before. During the day, capture surprises for the next matrix rather than letting them demote what you already chose.
 
 ## What urgency crowds out
 
-A common trap, especially in school, is filling every hour with urgent homework and never making time to improve how you study. If the work keeps getting harder faster than your skill grows, the gap widens. By the time the skill gap feels urgent, it is already late.
+School and office life train urgency trapping: homework and close deadlines fill every hour while slow, high-impact skill work never gets a turn. If difficulty rises faster than skill, the gap becomes its own emergency.
 
-That does not mean urgent work has to wait until evening. It means you schedule the important work that is not urgent first, then fit the urgent work around it. Twenty minutes of an important practice each evening can sit on the calendar even when the afternoon is full.
+That does not mean urgent work waits until midnight. Schedule important-but-not-urgent work first, then wrap urgent work around it. Twenty minutes of skill practice in the early evening can stay fixed even when the afternoon is full.
 
-## Priority 0, above the daily list
+## Priority 0 above the list
 
-Values are the beliefs that shape how you act. A long-term vision is a more open picture of the kind of person you want to be and the kind of life you want to live. It is not a narrow, fully specified target years away. A target that specific can close off other good paths, and people change. What you want before you are 30 years old is not a safe bet to stay fixed, especially while you are still meeting many things for the first time. The vision is a broad check you use to test medium-term goals, so you keep heading in a direction that fits without locking the details too early.
+Values shape how you act. Long-term vision is a broad picture of the person and life you are building toward, not a fully specified target ten years out. Narrow targets age badly; people change as they meet new domains. Vision is a direction check for medium-term goals.
 
-One picture of that kind of vision is financial freedom, work that keeps the mind busy, and enough spare time for more than one interest. It also includes becoming someone who is patient, calm, confident, and able to meet hard things without falling apart. A medium-term goal that does not move you toward that picture is probably a poor choice. Hiring extra help just to raise grades, for example, may not build the skill of meeting challenges on your own, and may not improve the time habits that would later free hours for other interests.
+One useful picture mixes financial freedom, work that keeps the mind busy, spare time for more than one interest, and traits like patience and steadiness under stress. Medium goals that do not move that picture are suspect. Buying outcomes (extra help only to raise grades) may skip the skill of meeting challenge and the time habits that later free hours.
 
-It is tempting to treat the vision as fixed. That is unlikely. You keep learning about your own thoughts, feelings, and values. Look on purpose for signs that your long-horizon wants have shifted, rather than assuming they have stayed the same. Review that upper layer about every 6 months, so the daily first tasks stay pointed at something you still want.
+Treat vision as revisable. Look for signs your long-horizon wants have shifted instead of assuming they are frozen. Review Priority 0 about every six months so daily first tasks still aim at a life you want.
 
-## How often to sort the daily list
+## Cadence and dropped tasks
 
-Repeat the first-rank sort once a day or once a week, depending on how much your schedule changes. People with more moving parts need the daily version.
+Re-sort daily if your schedule moves constantly; weekly is enough when the week is stable. If you drop a task that was truly important, it will return. Unless spare time is clearly better spent there than on sleep, rest, or other important-not-urgent work, leave it off.
 
-If you drop a task from the list and it was truly important, it will come back. Unless you have spare time you would rather spend on it than on rest, sleep, or other important work that is not urgent, leave it off.
+## Using the matrix without gaming yourself
 
-## Open questions
+The night-before matrix is not busywork. Each task gets one honest urgency score and one importance score relative to your current goals, not relative to who is loudest. Tasks that are urgent only because you procrastinated last week stay urgent on the sheet, but they do not automatically become Priority 1 unless missing them truly blocks the goal you care about.
 
-How would tomorrow look if I placed the one task that most reduces the distance to my goals before anything that merely feels urgent?
+A workable default: Priority 1 is important and moves a named goal; the early-day block is important-not-urgent skill or health work; urgent-admin fills the cracks. If every cell is "urgent," the list is lying—something upstream in [[wiki/Self Management/Time Management, Attention & Scheduling|scheduling or procrastination setup]] needs repair.
 
-When I last wrote down what kind of life I want, was I describing a direction I still believe, or a target I chose years ago and have not tested since?
+## Failure modes
 
-## Sources
+- Treating Priority 0 as written once in adolescence and never tested again.
+- Letting today's inbox become Priority 1 because replying feels faster than studying.
+- Protecting Priority 1 on the calendar but not defending it when someone walks in (interactive distraction—fix expectations, not the matrix).
+- Confusing busywork that mimics progress with the task that actually moves the skill gap.
 
-- iCanStudy, "Priority 0.1 System", Base Camp. Private course notes, paraphrased.
+## How this connects
+
+[[wiki/Self Management/Time Management, Attention & Scheduling|Time Management, Attention & Scheduling]] places protected blocks inside a week template. [[wiki/Self Management/Flow State|Flow State]] runs the chain between those blocks once they start. [[wiki/Planning and Automation|Reverse Goal Setting]] names the skills a goal actually requires so Priority 1 points at real leverage.
 
 ## Related pages
 
 - [[wiki/Planning and Automation|Reverse Goal Setting]]: the work of naming the skills and habits a goal actually requires, which this daily sort then protects.
-- [[wiki/Self Management/Study Scheduling|Study Scheduling]]: a repeating calendar those protected blocks can sit inside.
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Time Management, Attention & Scheduling]]: a repeating calendar those protected blocks can sit inside.
 - [[wiki/Self Management/Techniques in School|Techniques in School]]: how urgent schoolwork tries to crowd out skill work that is not urgent.
-- [[wiki/Decision Making/Decisional Delays|Decisional Delays]]: why sorting the night before leaves fewer gaps of "what now?" during the day.
+- [[wiki/Razors|Razors]]: why sorting the night before leaves fewer gaps of "what now?" during the day.
+
+## Sources
+
+- iCanStudy, "Priority 0.1 System", Base Camp. Private course notes, paraphrased.
+- iCanStudy, "Rapid Time Management Overview", Rapid Start. Private course notes, paraphrased.

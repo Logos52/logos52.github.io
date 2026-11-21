@@ -113,7 +113,7 @@ The obvious objection is that the system feels forced. It is unnatural on purpos
 
 ## Related pages
 
-- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]: the gap between reading and learning.
+- [[wiki/Razors|Are You Thinking, or Just Consuming?]]: the gap between reading and learning.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: the thinking that turns reading into knowledge.
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: a structured way to work through material.
 - [[wiki/Dimensions/Deep Processing/Aim|Aim]], [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] and [[wiki/Dimensions/Deep Processing/Skin|Skin]]: the stages of that system.

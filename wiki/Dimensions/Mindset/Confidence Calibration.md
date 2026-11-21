@@ -62,7 +62,7 @@ The sign that calibration is working is a willingness to change methods. Overcon
 
 ## Related pages
 
-- [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]]: separating the quality of reasoning from how things turned out.
+- [[wiki/Razors|Judging a Decision by Its Process]]: separating the quality of reasoning from how things turned out.
 - [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]: beliefs about ability that shape how mistakes are read.
 
 ## Open questions

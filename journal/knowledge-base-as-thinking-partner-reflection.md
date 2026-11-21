@@ -86,7 +86,7 @@ It should not offload:
 - testing whether an idea changes action;
 - noticing when I am hiding inside technique.
 
-This is the same pattern as [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]. A method can look correct while bypassing the thinking it was supposed to trigger. The knowledge base can look alive while my own thinking becomes passive.
+This is the same pattern as [[wiki/Razors|Are You Learning, or Just Using Techniques]]. A method can look correct while bypassing the thinking it was supposed to trigger. The knowledge base can look alive while my own thinking becomes passive.
 
 ## The First-Brain Standard
 
@@ -188,8 +188,8 @@ The knowledge base should make the next act of thought sharper. If it only makes
 ## Related pages
 
 - [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]
-- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
+- [[wiki/Razors|Are You Learning, or Just Using Techniques]]
+- [[wiki/Razors|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|First Principles of ICS]]
+- [[wiki/Razors|First Principles of ICS]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]

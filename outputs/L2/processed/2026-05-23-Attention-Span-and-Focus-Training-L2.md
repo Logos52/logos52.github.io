@@ -183,9 +183,9 @@ Do not use this page as the main explanation for deep processing failure or AI-a
 - [[wiki/Self Management/Flow State|Attention Management - Preserving Flow]] - manages attention across the day.
 - [[wiki/Self Management/Flow State|Focus Management - How to Enter & Recover Inside a Work Block]] - handles entry and recovery inside a block.
 - [[wiki/Self Management/Flow State]] - overlaps with deep work conditions.
-- [[wiki/Self Management/Procrastination - a System Problem]] - frontloading treats procrastination as a setup problem.
+- [[wiki/Self Management/Time Management, Attention & Scheduling]] - frontloading treats procrastination as a setup problem.
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer]] - notice-and-return is a metacognitive act.
-- [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time]] - explains environmental attention degradation.
+- [[wiki/Self Management/Flow State]] - explains environmental attention degradation.
 
 ---
 

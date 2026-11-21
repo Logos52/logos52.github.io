@@ -43,7 +43,7 @@ The Multi-Script / CJK Typography page that those specs are meant to supply sour
 
 ## Canon, interaction, learning, accessibility
 
-The expansion has three named goals for the nineteen resources: raise Front-End above `source-count: 1`; create the Multi-Script / CJK Typography page; cite *Make It Stick* in both Design and [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]]. The Nielsen Norman Group site is a source for [[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]].
+The expansion has three named goals for the nineteen resources: raise Front-End above `source-count: 1`; create the Multi-Script / CJK Typography page; cite *Make It Stick* in both Design and [[wiki/Razors|Learning, Condensed]]. The Nielsen Norman Group site is a source for [[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]].
 
 | Resource | Type | Feeds |
 |---|---|---|
@@ -69,7 +69,7 @@ The plan still consists of those three goals. Goal 2, the CJK typography page, h
 - [[wiki/Design/Design, Condensed|Design, Condensed]]: a condensed summary of design doctrine; still draws mostly on Norman; no longer accurately described as `source-count: 1`.
 - [[wiki/Design/Front-End Web Design|Front-End Web Design]]: the note these resources are meant to add sources to; still `source-count: 1`.
 - [[projects/tsumugu-ed|tsumugu]]: the reader and dictionary that need the missing visual-craft sources.
-- [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]]: the other note that should cite *Make It Stick*.
+- [[wiki/Razors|Learning, Condensed]]: the other note that should cite *Make It Stick*.
 - [[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]]: the Norman source the existing notes already cite.
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]: related; explains why a reading surface needs extra care; not an item on this list.
 - [[wiki/Concepts/The Screen Inferiority Effect|The Screen Inferiority Effect]]: related; gives the same reason a reading surface needs extra care.

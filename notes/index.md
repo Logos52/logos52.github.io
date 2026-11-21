@@ -19,7 +19,7 @@ There are 452 notes. Search with ⌘K, or open the [Map](/map/) and browse by co
 
 Each of these pages is one subject, written as short rules.
 
-- [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]]: How to take in new material, how to remember it, and how to plan study.
+- [[wiki/Razors|Learning, Condensed]]: How to take in new material, how to remember it, and how to plan study.
 - [[wiki/Language/Chinese/Chinese Characters, Condensed|Chinese Characters, Condensed]]: How to learn Chinese characters. The parts of a character give clues to its sound and to its meaning.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]]: How to build software with AI agents. Rules that stay true are kept apart from tips that go out of date.
 - [[wiki/Money/Money, Condensed|Money, Condensed]]: Doing well with money depends more on habits than on intelligence.
@@ -31,7 +31,7 @@ Each of these pages is one subject, written as short rules.
 
 Each of these pages is the starting point for one subject.
 
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Learning Systems]]: How learning works. A study technique is useful only if it makes you process the material in your mind.
+- [[wiki/Razors|Learning Systems]]: How learning works. A study technique is useful only if it makes you process the material in your mind.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: AI agents write much of the code. The developer is still responsible for that code.
 - [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]: A job that must keep running after the laptop closes cannot live in Grok Build or Cursor. Grok Bot is the app for that standing job, on public material only.
 - [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]: A coding-agent plugin whose one rule is proof from the running app. This desk uses the rule; it uses the plugin only after a local reader can already be driven without a person.

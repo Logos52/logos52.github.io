@@ -255,8 +255,8 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-05-12] compile | Minimalism section
 
 - Added [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] as an environmental systems-design frame for reducing ownership cost, preserving slack, and making physical space support the life being built.
-- Added [[wiki/Minimalism/Environment Design|Environment Design]], [[wiki/Minimalism/Ownership Cost|Ownership Cost]], [[wiki/Minimalism/Product Reduction|Product Reduction]], and [[wiki/Minimalism/Exit Strategy For Objects|Exit Strategy For Objects]].
-- Connected the section to [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]], [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]], and [[wiki/Decision Making/Decision Making|Decision Making]].
+- Added [[wiki/Minimalism/Minimalism as Systems Design|Environment Design]], [[wiki/Minimalism/Minimalism as Systems Design|Ownership Cost]], [[wiki/Minimalism/Minimalism as Systems Design|Product Reduction]], and [[wiki/Minimalism/Minimalism as Systems Design|Exit Strategy For Objects]].
+- Connected the section to [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]], [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]], [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]], and [[wiki/Razors|Decision Making]].
 
 ## [2026-05-12] maintenance | Simplify homepage orientation
 
@@ -290,14 +290,14 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-12] compile | The Age Of Nonlinear Returns
 
-- Split [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] into its own concept page from [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]].
+- Split [[wiki/Razors|The Age Of Nonlinear Returns]] into its own concept page from [[wiki/Razors|How to Communicate Truth Into Someone Else's Frame]].
 - Added the scaling problem, position-vs-transaction framing, small-pie conflict, and practical decision filters.
-- Connected it to [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]], and [[private/Goals/Priority 0|Priority 0]].
+- Connected it to [[wiki/Razors|Positional Decisions and Expected Value]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]], and [[private/Goals/Priority 0|Priority 0]].
 
 ## [2026-05-12] compile | Sell the Truth
 
-- Added [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] as a credibility-first model of persuasion, leadership, deal-making, and rational empathy.
-- Connected the page to [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]], [[wiki/Books/Suicidal Empathy|Suicidal Empathy]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]], and [[private/Goals/Priority 0|Priority 0]].
+- Added [[wiki/Razors|How to Communicate Truth Into Someone Else's Frame]] as a credibility-first model of persuasion, leadership, deal-making, and rational empathy.
+- Connected the page to [[wiki/Red Team/Red Teaming|Applied Critical Thinking: Testing Frames]], [[wiki/Books/Suicidal Empathy|Suicidal Empathy]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Razors|Balancing Multiple Interests: Breadth v Focus]], and [[private/Goals/Priority 0|Priority 0]].
 - Reworked [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] to reduce attribution language and sharpen the distinction between empathy as perception and empathy as judgment replacement.
 
 ## [2026-05-12] compile | How to Unlearn Old or Bad Habits Efficiently
@@ -319,7 +319,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-11] compile | Priority 0 focus primer and balancing rewrite
 
-- Rewrote [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]] around the operating model of active loops, controlled rotation, failure modes, practical feel, and implications for the Journal / Goals / Skills workflow.
+- Rewrote [[wiki/Razors|Balancing Multiple Interests: Breadth v Focus]] around the operating model of active loops, controlled rotation, failure modes, practical feel, and implications for the Journal / Goals / Skills workflow.
 - Added public [[private/Goals/Priority 0|Priority 0]] as a focus-primer page for Agentic Engineering, Learning Systems, Vietnamese, Fitness, Relationships, and parked-but-alive Chinese.
 - Added a local-only private Skills area for future skill-index work while keeping the detailed Skills Index out of the public site.
 - Updated Git and Quartz visibility rules so [[private/Goals/Priority 0|Priority 0]] publishes, while private skill work stays local.
@@ -327,19 +327,19 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-05-11] compile | First principles and technique-use synthesis
 
 - Added [[wiki/Syntheses/First Principles of ICS|First Principles of ICS]] as a synthesis page for processing quality, strategies, meta-strategies, overwhelm, layered learning, and problem maps.
-- Added [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] as a synthesis page for technique-triggered thinking, shortcut detection, higher-order goals, and organized usability.
+- Added [[wiki/Razors|Are You Learning, or Just Using Techniques]] as a synthesis page for technique-triggered thinking, shortcut detection, higher-order goals, and organized usability.
 - Integrated both pages into [[wiki/Syntheses/ICS System|ICS System]], [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]], [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]], [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]], and [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
 
 ## [2026-05-08] compile | ICS decision-making section
 
 - Added an ICS-sourced decision-making section:
-  - [[wiki/Decision Making/Decision Making|Decision Making]]
-  - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]
-  - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]
-  - [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]]
-  - [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]
-  - [[wiki/Decision Making/Changing Decisions|Changing Decisions]]
-- Connected the section to [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and selected Red Team pages.
+  - [[wiki/Razors|Decision Making]]
+  - [[wiki/Razors|Decisional Delays]]
+  - [[wiki/Razors|Choice Throttling]]
+  - [[wiki/Razors|Good Decisions]]
+  - [[wiki/Razors|Positional Decisions and Expected Value]]
+  - [[wiki/Razors|Changing Decisions]]
+- Connected the section to [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]], [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and selected Red Team pages.
 - Added Decision Making to the homepage, public index, command center, and graph color rules.
 
 ## [2026-05-08] compile | ICS focus and procrastination pages
@@ -347,15 +347,15 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Added ICS-sourced self-management pages:
   - [[wiki/Self Management/Flow State|Flow State]]
   - [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]]
-  - [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]]
-- Updated [[wiki/Decision Making/Decisional Delays|Decisional Delays]] so flow-related disruption links directly to [[wiki/Self Management/Flow State|Flow State]].
-- Connected the new pages to [[wiki/Decision Making/Decision Making|Decision Making]], [[wiki/Dimensions/Self-Management|Self-Management]], and the public knowledge-base index.
+  - [[wiki/Self Management/Time Management, Attention & Scheduling|Procrastination: a System Problem]]
+- Updated [[wiki/Razors|Decisional Delays]] so flow-related disruption links directly to [[wiki/Self Management/Flow State|Flow State]].
+- Connected the new pages to [[wiki/Razors|Decision Making]], [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]], and the public knowledge-base index.
 
 ## [2026-05-08] compile | Attention Management
 
 - Added [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]] from the ICS attention-management source.
 - Positioned it as the day-level system for preserving [[wiki/Self Management/Flow State|Flow State]] across task transitions, distinct from [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]] as the block-level setup.
-- Connected it to [[wiki/Decision Making/Decisional Delays|Decisional Delays]], [[wiki/Self Management/Procrastination - a System Problem|Procrastination: a System Problem]], and [[wiki/Dimensions/Self-Management|Self-Management]].
+- Connected it to [[wiki/Razors|Decisional Delays]], [[wiki/Self Management/Time Management, Attention & Scheduling|Procrastination: a System Problem]], and [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]].
 
 ## [2026-05-08] maintenance | Rename homepage to LLM Knowledge Base
 
@@ -402,7 +402,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Compiled initial metacognition-focused pages:
   - [[wiki/Concepts/Metacognition - The Control Layer|Metacognition: The Control Layer]]
   - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Building the Radar]]
-  - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
+  - [[wiki/Razors|Are You Thinking, or Just Consuming?]]
   - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
   - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
   - [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Deep Processing Practice]]
@@ -443,7 +443,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Added the Dimensions of Learning hub model:
   - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
   - [[wiki/Dimensions/Deep Processing|Deep Processing]]
-  - [[wiki/Dimensions/Self-Management|Self-Management]]
+  - [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]]
   - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
   - [[wiki/Dimensions/Mindset|Mindset]]
   - [[wiki/Dimensions/Retrieval|Retrieval]]
@@ -575,7 +575,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-05-07] compile | Reverse Goal Setting
 
 - Added [[wiki/Techniques/Reverse Goal Setting|Reverse Goal Setting]] from Justin Sung's 2026 goal-setting source.
-- Connected the method to [[wiki/Dimensions/Self-Management|Self-Management]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]].
+- Connected the method to [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Techniques/Marginal Gains|Marginal Gains]], and [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]].
 - Updated the public index, command center, source index, bibliography, open questions, and log.
 
 ## [2026-05-07] compile | Neuroticism and mindset pages
@@ -608,17 +608,17 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 ## [2026-05-10] compile | Applied Critical Thinking
 
-- Regenerated [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] as a practical Red Team principle page focused on application, mindset, decision quality, AI review, and avoiding tool bloat.
+- Regenerated [[wiki/Red Team/Red Teaming|Applied Critical Thinking: Testing Frames]] as a practical Red Team principle page focused on application, mindset, decision quality, AI review, and avoiding tool bloat.
 - Updated [[wiki/Red Team/Red Teaming|Red Teaming]], [[notes/index|notes/index]], [[raw/Source Index|Source Index]], and [[00 Command Center/Home|Command Center Home]].
 
 ## [2026-05-10] compile | Applied Critical Thinking speed pass
 
-- Rebalanced [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] toward speed plus accuracy.
+- Rebalanced [[wiki/Red Team/Red Teaming|Applied Critical Thinking: Testing Frames]] toward speed plus accuracy.
 - Added dedicated media/public narrative and LLM/AI output sections while keeping a focused Red Teaming application section.
 
 ## [2026-05-16] compile | NX folder integration - Meiwaku and Style
 
-- Created [[wiki/Concepts/Meiwaku|Meiwaku]] as a core concept page (social cost accounting and minimization of unnecessary burden). Strong connection to Minimalism and communication restraint.
+- Created [[wiki/Concepts/Selfhood|Meiwaku]] as a core concept page (social cost accounting and minimization of unnecessary burden). Strong connection to Minimalism and communication restraint.
 - Created [[wiki/Concepts/Style|Style]] as a concept page (recognizable execution as brain priming, with emphasis on recessive/mature style). Leveraged the high-quality GPT - NX Style synthesis.
 - Both pages link into the existing Minimalism cluster and communication-related pages.
 - Existing GPT - NX syntheses (especially Style and Meiwaku) were used as high-signal base material.
@@ -635,7 +635,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Concepts/Schelling Point|Schelling Point]]
   - [[wiki/Concepts/Cognitive Scaffolding|Cognitive Scaffolding]]
 
-- Created [[wiki/Experiences/Red Team Training|Red Team Training]] (UFMCS) under Experiences. Strong personal reflection on the value of cultural empathy and assumption-challenging from Army Red Team training.
+- Created [[wiki/Red Team/Red Teaming|Red Team Training]] (UFMCS) under Experiences. Strong personal reflection on the value of cultural empathy and assumption-challenging from Army Red Team training.
 
 ## [2026-05-16] compile | NX folder - Large batch integration
 
@@ -647,7 +647,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]]
   - [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]]
   - [[wiki/Concepts/Learning Plateau|Learning Plateau]]
-  - [[wiki/Concepts/Anti-Marketing|Anti-Marketing]]
+  - [[wiki/Concepts/Good Faith|Anti-Marketing]]
   - [[wiki/Concepts/Zettelkasten|Zettelkasten]]
   - [[wiki/Concepts/Mental Models|Mental Models]] (hub)
   - [[wiki/Concepts/Game Theory|Game Theory]]
@@ -717,7 +717,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Added "Part of Deep Processing" header to all pages in the folder.
 - Updated several entries in the Notes Index.
 
-- Merged the separate [[wiki/Concepts/Bias|Bias]] and [[wiki/Concepts/Framing|Framing]] pages into a single stronger page: [[wiki/Concepts/Bias and Framing|Bias and Framing]].
+- Merged the separate [[wiki/Concepts/Bias|Bias]] and [[wiki/Concepts/Framing|Framing]] pages into a single stronger page: [[wiki/Razors|Bias and Framing]].
 - Deleted the two old pages and updated the Notes Index.
 
 - Moved the hybrid (GPT + Sonnet) synthesis of Justin Sung's "How to Rest So Well You Never Feel Exhausted Again" into the wiki as [[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure|Recovery]].
@@ -730,7 +730,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Refined the post-migration wiki structure across the Five Dimensions, AI systems, workflows, books, Red Team, language resources, and supporting concept pages.
 - Added [[wiki/Syntheses/ICS System|How Top Performers Learn]] as a synthesis page connecting top-performer learning, learning assets, and the Five Dimensions.
 - Added Hybrid Model Workflows, Grok + Hermes to document the current multi-model workflow: Grok for high-level framing, Hermes/Aider for local execution and structural cleanup.
-- Strengthened [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]], [[wiki/Dimensions/Retrieval|Retrieval]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Dimensions/Self-Management|Self-Management]], and [[wiki/Dimensions/Mindset|Mindset]] so the hubs function more like diagnostic control surfaces.
+- Strengthened [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]], [[wiki/Dimensions/Retrieval|Retrieval]], [[wiki/Dimensions/Self-Regulation|Self-Regulation]], [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]], and [[wiki/Dimensions/Mindset|Mindset]] so the hubs function more like diagnostic control surfaces.
 - Repaired many internal links left over from the `wiki/Techniques/` and broad `wiki/Concepts/` migration into `wiki/Dimensions/`, `wiki/Systems/`, and `wiki/Domains/`.
 
 ## [2026-05-17] develop | Agent workflow, 30-day challenges, and session memory
@@ -766,7 +766,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-05-21] compile | Curvilinear design and time theft
 
 - Reworked GPT - Social Media - Curvilinear Design & the Theft of Time around the transferable concept of curvilinear design.
-- Created [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]].
+- Created [[wiki/Self Management/Flow State|Social Media - Curvilinear Design & the Theft of Time]].
 - Integrated the source with attention management, flow preservation, decisional delays, digital minimalism, chatbot design risks, and knowledge-base browsing risks.
 - Updated [[notes/index|Notes Index]].
 
@@ -774,7 +774,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Cleaned up [[index|Home]], [[notes/index|Index]], [[journal/index|Journal]], [[journal/calendar|Journal Calendar]], [[blog/index|Blog]], and [[about|About]] so each front-facing page has a clearer job.
 - Added [[journal/2026-05-21-front-facing-pages-cleanup|Front-Facing Pages Cleanup]] as a short public journal entry.
-- Moved today's strongest pages closer to the entrance of the site: [[wiki/Self Management/Flow State|Focus Management: Training the Return Mechanism]] and [[wiki/Concepts/Social Media - Curvilinear Design & the Theft of Time|Social Media - Curvilinear Design & the Theft of Time]].
+- Moved today's strongest pages closer to the entrance of the site: [[wiki/Self Management/Flow State|Focus Management: Training the Return Mechanism]] and [[wiki/Self Management/Flow State|Social Media - Curvilinear Design & the Theft of Time]].
 
 ## [2026-05-23] compile | Focus block split into three GPT workbench briefs
 
@@ -821,7 +821,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## 2026-05-29 — ICS program map + gap-fill compile
 - Created [[wiki/ICS Program Map]] — stage-ordered MOC over the wiki (Kickstart → High-yield → Growth), links wiki notes only (no raw/private links, per Writing Standards Sources policy).
 - Stage→wiki mappings confirmed against ICS stage pages; corrected Fundamentals (SIR + Marginal Gains), Briefing (Kolb + Skills Audit), Technique Training (inquiry-based / unlearning / memory).
-- Gap-filled 7 distilled wiki pages from raw/private/ICS: Camp I — [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Method of Loci]], [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Flashcards]], [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Rote Learning and Memorisation]]; Fundamentals 2 — [[wiki/Dimensions/Deep Processing/Mindmaps|Non-Linear Note-Making]], [[wiki/Dimensions/Retrieval/Revision|Revision]], [[wiki/Self Management/Study Scheduling|Study Scheduling]]; Summit — [[wiki/Dimensions/Retrieval/Multipass System|Cramming]].
+- Gap-filled 7 distilled wiki pages from raw/private/ICS: Camp I — [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Method of Loci]], [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Flashcards]], [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Rote Learning and Memorisation]]; Fundamentals 2 — [[wiki/Dimensions/Deep Processing/Mindmaps|Non-Linear Note-Making]], [[wiki/Dimensions/Retrieval/Revision|Revision]], [[wiki/Self Management/Time Management, Attention & Scheduling|Study Scheduling]]; Summit — [[wiki/Dimensions/Retrieval/Multipass System|Cramming]].
 - Remaining synthesis backlog flagged in the map (Exam technique, Live learning events, Cave theory, Order control, Survive-and-thrive, Loss aversion, Exam execution, Learning Support library).
 
 ## 2026-05-29 — Exam Execution wiki cluster (Summit)
@@ -866,7 +866,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - Source: Naval Ravikant et al., "The AI Industrial Revolution" ([nav.al/industrial](https://nav.al/industrial), 2026-06-02), transcript in `raw/inbox`. Scope per Wedge: agentic core + light adjacent; fold into existing pages (no new standalone concept pages beyond the anchor); fuse direct to wiki.
 - New page (anchor) — software factories, waste-tokens-save-time, models planning unprompted, humans as verifiers, train-the-agent, intelligence vs agency, small teams, model tiering, out-of-distribution creativity, and the planning-as-spec vs planning-as-ritual split. Carries its own Case Against (founders talking their book).
 - Fused (integration rule, frontmatter bumped): [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] (verifier role + factory framing + train-the-agent; src 9→10), [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]] (spec-not-plan invariant + two dated tactics: waste-tokens, stop-hand-writing-the-plan), [[wiki/Systems/AI & Agentic Systems/Context Engineering|Software 3.0]] (models speak English / instruct humans; src 1→2), [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]] (always-want-smartest + tiering caveat; src 1→2).
-- Light adjacent: [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] (100x factory leverage; src 1→2), [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]] (out-of-distribution ceiling on generativity).
+- Light adjacent: [[wiki/Razors|The Age Of Nonlinear Returns]] (100x factory leverage; src 1→2), [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]] (out-of-distribution ceiling on generativity).
 - System: Source Index row added; notes/index.md row for the anchor page (also indexed Higher-Order Generativity, previously missing); 4 open questions appended to outputs/generated-questions.md; journal entry 2026-06-15.
 - Flagged, not actioned: (1) about.md line "n=1 learning + encoding solutions" conflicts with the High-Signal Front-Facing standard (no workshop words on the door) — translation options pending Wedge's pick; (2) the PRD-relaxation idea encoded as an open question / invariant-vs-tactic split, NOT a change to the operating doc (Wedge confirmed PRDs stay).
 
@@ -881,12 +881,12 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-06-19] ingest | All-In episode → split by half-life (concepts to wiki, world-state to journal)
 - Source: All-In Podcast, "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal" (2026-06-20), transcript in `raw/inbox`. Mined to L3: `01 - Workbench/Opus - All-In - Trillionaire, Fable Ban, Oligarchs, Iran.md` (attributed by host; rewritten to High-Signal Wiki standard — no-scaffolding, thesis-first, delete-list; Sacks' account treated as the firsthand account per Wedge, bias-flagging removed).
 - Architecture decision (Wedge): mixed sources get split by half-life at ingest — evergreen concepts → wiki concept pages; dated world-state → journal/ snapshots (reuse existing dated layer, no new structure); concept pages cite the dated source as worked example so they survive snapshot decay. This generalizes the Condensed-Pages invariants-vs-dated-tactics split to ingestion.
-- New evergreen pages (scope: the two clear ones): [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]], [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] — anonymized worked examples (Anthropic/Fable as the public case), High-Signal standard, cross-linked to each other and to Red Teaming.
+- New evergreen pages (scope: the two clear ones): [[wiki/Red Team/Red Teaming|Epistemic Exceptionalism]], [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] — anonymized worked examples (Anthropic/Fable as the public case), High-Signal standard, cross-linked to each other and to Red Teaming.
 - System: Source Index row added (status partially compiled); notes/index.md two rows. Deferred per scope: 4 more candidate concepts (wealth-as-machine, learned helplessness, frontier events, AI-diffusion fold-in) and the dated journal snapshots (Fable ban, Iran MOU, IPO/Cursor) — offered, not yet built.
 
 ## [2026-06-19] compile | Paper-vs-Screen + Chamath-on-focus → wiki, then workbench cleaned
 - Sources: Justin Sung, "Why Your Brain Learns Better From Paper" (2026-06-20); Chamath Palihapitiya, "It took me 30+ years…" (2026-06-19). Both evergreen (no dated world-state), so straight to wiki concept pages.
-- New pages: [[wiki/Concepts/The Screen Inferiority Effect|The Screen Inferiority Effect]] (medium is downstream of deep processing; four frictions; fluency vs performance) and [[wiki/Self Management/The Energize Test|The Energize Test]] (attention as the lever; energize litmus; failure architected in success; success as lagging indicator). High-Signal standard.
+- New pages: [[wiki/Concepts/The Screen Inferiority Effect|The Screen Inferiority Effect]] (medium is downstream of deep processing; four frictions; fluency vs performance) and [[wiki/Self Management/Flow State|The Energize Test]] (attention as the lever; energize litmus; failure architected in success; success as lagging indicator). High-Signal standard.
 - Backlinks: Thinking on Paper → Screen Inferiority; Ownership Cost → Energize Test (bidirectional). Source Index two rows (compiled); notes/index.md two rows (Metacognition/learning + Self-management).
 - Workbench cleaned per Wedge: promoted/stale L3 drafts archived to outputs/L3/{Opus,Grok}/ (Americans, SpaceX, Paper, Chamath, Live Clinic 73 ×2, Essential AI Skills 2026 ×2); 2026-05-25 health-check report → outputs/audits/. Kept active: the All-In draft (deferred concepts + journal snapshots pending) and How To Learn So Fast (in pipeline), plus README/Workbench.
 - Still parked (untouched): raw/inbox cleanup (junk delete + moves to raw/processed/) and the "everything else is done" contradiction — separate from the workbench, awaiting Wedge.
@@ -940,16 +940,16 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 ## [2026-07-11] compile | Status, Vulnerability, and the Three Conversations (three-book synthesis)
 
 - Sources: Will Storr *The Status Game*, Mark Manson *Models*, Charles Duhigg *Supercommunicators* — personal copies at `~/Documents/Library/Books/`, copyrighted, NOT copied into the repo. Deep-read via fan-out (one scout per book, quotes verified against PDF pages) plus a vault-wide overlap check: zero prior mentions of any of the three books or their core frameworks.
-- New page: [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]] — the three models converge on the same prescribed conduct (drop dominance, give status freely, genuine over performed); the escape-vs-play-well dispute survives only as a choice of framing.
+- New page: [[wiki/Razors|Status, Vulnerability, and the Three Conversations]] — the three models converge on the same prescribed conduct (drop dominance, give status freely, genuine over performed); the escape-vs-play-well dispute survives only as a choice of framing.
 - Naming collision handled in-page: "status game" zero-sum sense (The Energize Test, Naval/Chamath briefs) vs the descriptive Storr sense, reconciled in a boundary section so neither set of notes goes stale.
-- Related-links added (one line each): [[wiki/Concepts/Charisma|Charisma]], [[wiki/Concepts/Anti-Marketing|Anti-Marketing]], [[wiki/Concepts/Good Faith|Good Faith]]. [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] left untouched — it has no Related Pages section; build backlinks cover it.
+- Related-links added (one line each): [[wiki/Concepts/Charisma|Charisma]], [[wiki/Concepts/Good Faith|Anti-Marketing]], [[wiki/Concepts/Good Faith|Good Faith]]. [[wiki/Razors|How to Communicate Truth Into Someone Else's Frame]] left untouched — it has no Related Pages section; build backlinks cover it.
 - Source rows added: `wiki/Bibliography.md` (three entries) and `raw/Source Index.md` Book Sources (three rows).
 - `notes/index.md` untouched (leaf synthesis, no hub yet); `notes/catalog.md` regenerates on build.
 
 ## [2026-07-26] ingest | All-In ep. 282 → three new concept pages, five strengthened
 
 - Source: All-In Podcast ep. 282, *The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?* (2026-07-25). Read by five parallel chapter agents plus a vault-cluster mapper; every page fact-checked against transcript lines and audited against the High-Signal Wiki Pages bar before promotion.
-- Strengthened: [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] gains a fourth check (is the cheaper remedy unpursued?). [[wiki/Concepts/Bias and Framing|Bias and Framing]] gains its first worked case (moral-predicate framing). Also [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]], [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|The Freight Signal]].
+- Strengthened: [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] gains a fourth check (is the cheaper remedy unpursued?). [[wiki/Razors|Bias and Framing]] gains its first worked case (moral-predicate framing). Also [[wiki/Red Team/Red Teaming|Epistemic Exceptionalism]], [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|The Freight Signal]].
 - Journal: [[journal/2026-07-26-the-margin-and-the-corpus|The Margin and the Corpus]].
 - **Not folded, by design (14 threads):** ARR/forecast state, the model leaderboard, policy and Polymarket state, the stock moves, the Apple buyback counterfactual, eviction economics, luxury beliefs, the Netscape/Apache chain, the 10%-of-revenue licensing pool, the IPO-derailment call, depreciation (never mentioned on air), and the segment's invented book titles and ad reads. Two errors recorded rather than repeated: a "95%" figure asserted as capability parity, silently converted to task coverage, then repeated as settled; and a housing segment that misstates the bill it read out ten minutes earlier and misattributes a John Adams quotation.
 

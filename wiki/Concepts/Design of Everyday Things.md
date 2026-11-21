@@ -79,7 +79,7 @@ Precise action does not need precise memory, because part of the needed informat
 
 People store only partial descriptions of things: enough to tell the present choices apart, and not enough to reconstruct the object from nothing. Working memory holds roughly three to five items and is emptied by a single interruption. That is the number behind [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]], and it replaces the older figure of seven.
 
-Knowledge in the world is easy to use and requires the cue to be present. Knowledge in the head is fast and portable, costs learning, and fails under load. Good design puts the information for everyday action in the world, and leaves fast paths for people who already know. [[wiki/Minimalism/Environment Design|Environment Design]] applies the same rule to rooms: put the cue where the action happens.
+Knowledge in the world is easy to use and requires the cue to be present. Knowledge in the head is fast and portable, costs learning, and fails under load. Good design puts the information for everyday action in the world, and leaves fast paths for people who already know. [[wiki/Minimalism/Minimalism as Systems Design|Environment Design]] applies the same rule to rooms: put the cue where the action happens.
 
 The most effective memory aid is an object that does not require the person to remember anything.
 
@@ -159,9 +159,9 @@ The principles of interaction stay the same when technologies change. A new devi
 - [[wiki/Design/Design, Condensed|Design, Condensed]]: this book's doctrine compressed to one rule per line.
 - [[wiki/Design/Front-End Web Design|Front-End Web Design]]: these principles mapped onto web UI.
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]: working-memory limits behind knowledge-in-the-world.
-- [[wiki/Minimalism/Environment Design|Environment Design]]: put the cue in the world, applied to rooms.
+- [[wiki/Minimalism/Minimalism as Systems Design|Environment Design]]: put the cue in the world, applied to rooms.
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: visible activity that bypasses intended cognition, a signifier with nothing behind it.
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking]]: re-examining assumptions baked into an interface.
+- [[wiki/Red Team/Red Teaming|Applied Critical Thinking]]: re-examining assumptions baked into an interface.
 
 ## Open questions
 

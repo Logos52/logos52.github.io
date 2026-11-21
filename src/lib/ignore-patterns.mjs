@@ -54,6 +54,8 @@ export const IGNORE_PATTERNS = [
   'mg-kolbs-template.md',
 
   // Agent research banks — stay in the repo for agents, not on the public site.
+  'archive/unpublished/**',
+
   'wiki/Research/**',
 
   // Unpublished cut archive — moved off wiki paths, not on the public site.

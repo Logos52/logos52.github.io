@@ -73,7 +73,7 @@ The evidence supports multimodal teaching without showing that the benefit comes
 ## Related pages
 
 - [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]: non-linear notes that mix words, pictures and links.
-- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming]]: attention as the factor that decides whether study works.
+- [[wiki/Razors|Are You Thinking, or Just Consuming]]: attention as the factor that decides whether study works.
 
 ## Open questions
 

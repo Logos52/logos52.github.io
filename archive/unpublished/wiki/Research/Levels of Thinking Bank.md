@@ -54,10 +54,10 @@ Existing pages that take a piece of this bank, with the piece:
 
 - [[wiki/Concepts/Levels of Thinking - The Step Back|Levels of Thinking - The Step Back]]. The whole ledger. The page is rebuilt from this bank: sections A, B, C.
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]]. A10, the count of persons, as what "thinking about thinking" means one layer at a time.
-- [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]]. A11, the same decision made at every level with different reasons.
-- [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]]. C4 and C5, why levels cannot hear each other and why listening is not agreeing.
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]]. C1, the level test, as a thirty-second row.
-- [[wiki/Concepts/Bias and Framing|Bias and Framing]]. B3 and the man-bad example, a belief that colors half of what was said.
+- [[wiki/Razors|Judging a Decision by Its Process]]. A11, the same decision made at every level with different reasons.
+- [[wiki/Razors|How to Communicate Truth Into Someone Else's Frame]]. C4 and C5, why levels cannot hear each other and why listening is not agreeing.
+- [[wiki/Red Team/Red Teaming|Applied Critical Thinking - Testing Frames]]. C1, the level test, as a thirty-second row.
+- [[wiki/Razors|Bias and Framing]]. B3 and the man-bad example, a belief that colors half of what was said.
 - [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]]. Already linked. No new material.
 
 New pages this bank supports: Levels of Thinking - The Step Back, rebuilt in full. The other new pages are named in the other four banks.

@@ -80,7 +80,7 @@ Metacognition and learning-to-learn:
 - [[wiki/Planning and Automation|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Dimensions/Self-Management|Self-Management]]
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]
@@ -100,7 +100,7 @@ Metacognition and learning-to-learn:
 - [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Techniques/Building the Radar|Building the Radar]]
-- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
+- [[wiki/Razors|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
 - [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
@@ -148,7 +148,7 @@ Books and longform reviews:
 Red Teaming:
 
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
+- [[wiki/Red Team/Red Teaming|Applied Critical Thinking: Testing Frames]]
 - [[wiki/Books/Suicidal Empathy|Suicidal Empathy]]
 - [[blog/experiences|Experiences]] (under Blog)
 - [[wiki/Concepts/Mental Models|Mental Models]]

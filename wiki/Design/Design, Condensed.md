@@ -48,7 +48,7 @@ When a capable person fails at an everyday thing, the design is at fault. The wh
 - **Put the cue in the world so people do not have to remember it.** Recognition is easier than recall, so show the options instead of requiring people to remember them ([[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]).
 - **Working memory holds three to five items, and a single interruption can erase it,** so break long values into chunks and split long steps into shorter ones ([[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]).
 - **Never let needed information disappear at the moment it is needed**: a code, a half-typed form, or a result must still be there after the user navigates away or something fails ([[wiki/Design/Front-End Web Design|Front-End Web Design]]).
-- **Put the cue in the environment.** Putting the right thing where the user can see it on a device is the same method as arranging a room so that the right action is the default ([[wiki/Minimalism/Environment Design|Environment Design]]).
+- **Put the cue in the environment.** Putting the right thing where the user can see it on a device is the same method as arranging a room so that the right action is the default ([[wiki/Minimalism/Minimalism as Systems Design|Environment Design]]).
 
 ## 5. Constraints and forcing functions
 
@@ -85,7 +85,7 @@ When a capable person fails at an everyday thing, the design is at fault. The wh
 - **Friction changes behavior.** Making the good action one step easier and the harmful action one step harder changes what people do without removing any choice. The same method used against the user is the dark pattern (Thaler & Sunstein, *Nudge*, owner page owed).
 - **Salience has to be allocated on purpose.** People choose what they can see. For most users, hiding an option has the same effect as removing it, so a designer should use that power deliberately (Thaler & Sunstein, *Nudge*, owner page owed).
 - **Nudges must be transparent.** A nudge that the user would object to after finding out about it is manipulation presented as design. The test is whether the person affected by the choice architecture would still accept it after it is explained to them (Thaler & Sunstein, *Nudge*, owner page owed).
-- **The environment version is already an established position in this knowledge base:** the arrangement of a room prompts the action and sets the default before willpower is involved ([[wiki/Minimalism/Environment Design|Environment Design]]).
+- **The environment version is already an established position in this knowledge base:** the arrangement of a room prompts the action and sets the default before willpower is involved ([[wiki/Minimalism/Minimalism as Systems Design|Environment Design]]).
 
 ## 10. Color
 
@@ -97,9 +97,9 @@ When a capable person fails at an everyday thing, the design is at fault. The wh
 
 ## 11. Owning things is design
 
-- **Every object a person keeps costs ongoing attention, space, and maintenance**: a room is an interface, and clutter is the room's form of featuritis ([[wiki/Minimalism/Ownership Cost|Ownership Cost]], [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]).
+- **Every object a person keeps costs ongoing attention, space, and maintenance**: a room is an interface, and clutter is the room's form of featuritis ([[wiki/Minimalism/Minimalism as Systems Design|Ownership Cost]], [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]).
 - **Discarding is a skill that follows rules and does not depend on mood.** The signs that an object should go: it is kept for "someday," kept from guilt, kept in duplicate, or kept unused for a year. In each case the person keeps the object for a reason other than using it (Fumio Sasaki, *Goodbye, Things*, owner page owed).
-- **Possessions tell other people something about the owner.** Possessions express the owner's self-image, so choosing which ones to keep is a way of designing what they express. A smaller number of objects that fit the person expresses more (Fumio Sasaki, *Goodbye, Things*, owner page owed; [[wiki/Minimalism/Wanting Less|Wanting Less]]).
+- **Possessions tell other people something about the owner.** Possessions express the owner's self-image, so choosing which ones to keep is a way of designing what they express. A smaller number of objects that fit the person expresses more (Fumio Sasaki, *Goodbye, Things*, owner page owed; [[wiki/Minimalism/Minimalism as Systems Design|Wanting Less]]).
 - **Choose products by the standards a designer would use to defend them:** one clear job, honest materials, signifiers intact, repairable, and still wanted after the novelty is gone. Before buying, check the product against the discard rules above (Sasaki + Rams, synthesized, owner page owed).
 
 ## 12. Finding good design

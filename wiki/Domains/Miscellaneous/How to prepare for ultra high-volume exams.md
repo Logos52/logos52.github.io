@@ -50,5 +50,5 @@ What would change in next week's schedule if high-volume retrieval had to happen
 ## Related pages
 
 - [[wiki/Domains/Miscellaneous/Exam Technique|Exam Technique]]
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]
-- [[wiki/Self Management/Study Scheduling|Study Scheduling]]
+- [[wiki/Razors|Are You Learning, or Just Using Techniques]]
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Study Scheduling]]

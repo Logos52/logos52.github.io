@@ -101,6 +101,6 @@ None of the four moments needs new evidence. The therapist's own episode selecte
 - [[wiki/Story Craft/The Rogue's Code|The Rogue's Code]]: the code a thief keeps, which the second column records
 - [[wiki/Story Craft/The Character Blueprint|The Character Blueprint]]: the same character's entrance as a template
 - [[wiki/Story Craft/The Moral Core|The Moral Core]]: values shown by what a character will pay for
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]: checking which frame a judgment came from
-- [[wiki/Concepts/Bias and Framing|Bias and Framing]]: a checklist as a frame with its verdict built in
+- [[wiki/Red Team/Red Teaming|Applied Critical Thinking: Testing Frames]]: checking which frame a judgment came from
+- [[wiki/Razors|Bias and Framing]]: a checklist as a frame with its verdict built in
 - [[wiki/Concepts/Charisma|Charisma]]: charm as a way past judgment

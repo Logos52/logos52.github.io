@@ -169,7 +169,7 @@ A catalog only helps if a handful of rows become habits. Picking resources can q
 ## Related pages
 
 - [[wiki/Dimensions/Retrieval|Retrieval]]: how memory is trained, which no catalog replaces
-- [[wiki/Dimensions/Self-Management|Self-Management]]: keeping the daily habit going
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]]: keeping the daily habit going
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: where an optional deck fits
 - [[wiki/Planning and Automation|30-Day Challenges]]: fixed-length practice plans
 - [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]]: the head start a Vietnamese speaker brings to Mandarin

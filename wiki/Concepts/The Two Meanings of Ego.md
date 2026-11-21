@@ -1,12 +1,9 @@
 ---
+title: The Two Meanings of Ego
 type: concept
-status: developing
+status: stable
 created: 2026-08-10
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: fable
-edited-sections: "The Selling Feeling: added 2026-08-19 by opus, from wiki/Concepts/How to Communicate Truth Into Someone Else's Frame"
+updated: 2026-11-21
 source-count: 32
 tags:
   - mindset
@@ -16,159 +13,96 @@ tags:
 
 # The Two Meanings of Ego
 
-The word ego names two unrelated things in writing. The first is self-regard. Self-regard is prose written so that the reader will think better of its author, whatever the stated subject is. The second is selfhood. Selfhood is one person's judgment left where a reader can see it: this example kept, that claim turned away.
+The word **ego** names two unrelated things in writing. **Self-regard** is prose written so the reader will think better of its author, whatever the stated subject is. **Selfhood** is one person's judgment left where a reader can see it: this example kept, that claim turned away.
 
-The two need opposite treatment. Self-regard goes to zero. Selfhood goes as high as honesty allows. A reader who came to a piece for its subject, and finds self-regard in it, has been made into the author's audience. A piece without selfhood is correct, evenly voiced, and could have come from anybody.
+They need opposite treatment. Self-regard goes to zero. Selfhood goes as high as honesty allows. A reader who came for the subject and finds self-regard has been made into the author's audience. A piece without selfhood is correct, evenly voiced, and could have come from anybody.
 
-One word for both makes them feel like a single dial. A writer who turns that dial down far enough to stop asking for approval turns his own judgment down with it. The only thing that joined the two senses is the dates on which one spelling acquired them, so they separate at no cost. What replaces the dial is one question, put to one sentence at a time: does this sentence change what a reader sees of the subject, or only what he thinks of the author?
-
-## Core takeaways
-
-- Self-regard is writing that works on the reader's opinion of the author. Selfhood is the author's judgment visible in what was kept and what was cut. They need opposite treatment: self-regard at zero, selfhood as high as honesty allows.
-- The swap test: a sentence that keeps working when a different subject is dropped into it was carrying the author, and it can go.
-- The question for any doubtful line is whether it changes what a reader sees of the subject or only what he thinks of the author. A second reader who does not know the author answers it better than the writer can.
-- Modesty can be display. Across nine studies, humblebragging scored below plain bragging on liking, perceived competence, compliance with requests, and financial generosity.
-- Cutting the author out too far is its own failure. Prose with every trace of its author removed has given up the one thing a reader came for.
-- Fluent, organized, competent prose is now available from a language model for the asking. Judgment about what to keep is the scarce good, and polish is no longer evidence of it.
+One spelling for both makes them feel like a single dial. Turn it down to stop asking for approval and you often turn judgment down with it. Only the calendar joined the senses—nothing breaks when you separate them. Replace the dial with one question, sentence by sentence: does this line change what a reader sees of the subject, or only what he thinks of the author?
 
 ## How one word got three jobs
 
-English had the word ego for a hundred and eighty years before either disputed sense arrived. From 1707 it was a term in metaphysics for the thing that feels, acts and thinks. A psychology textbook of 1890 discusses the pure Ego at length, and no analyst is involved. The sense of conceit dates to about 1891. The clinical sense came last, in 1894, and it came in by translation. The German word was das Ich, the I. That is an ordinary word for whichever part of a person deals with the world and gets things done. It carries no suggestion of vanity. The English translator chose the Latin word instead, three years after that spelling had picked up the sense of conceit.
+English had *ego* from 1707 as a metaphysical term for what feels and acts. Conceit attached around 1891. The clinical sense followed in 1894 by translation from German *das Ich*—ordinary "I," not vanity. One spelling now carries three unrelated meanings; a century of argument about how much of himself a writer should show ran without separating them.
 
-So one spelling now carries three unrelated meanings. A century of argument about how much of himself a writer should show has taken place without the meanings being separated. No idea joined them. Only the calendar did. Nothing breaks when they are separated.
+## Self-regard: four checkable forms
 
-## The four forms of self-regard
+- **Credential drop:** standing, access, or track record where the subject did not need it.
+- **Prediction after the fact:** the same move on a delay.
+- **Process tour:** how the work got made, with the maker as the interesting part.
+- **Humblebrag:** claim filed as complaint or modest aside.
 
-Self-regard shows up in a short list of forms.
-
-- The credential drop puts the author's standing, access, or track record into a sentence where the subject had no need of it.
-- The prediction reported after the event confirmed it is the same move on a delay.
-- The process tour is an account of how the work got made in which the maker is the interesting part. It runs the same move at length.
-- The humblebrag files the claim as a complaint or a modest aside.
-
-All four share one structure, and that makes them checkable.
-
-**A sentence that keeps working when a different subject is dropped into it was carrying the author.**
-
-That is the swap test. Whatever survives the substitution belonged to the author from the start.
+All four share one structure. **A sentence that keeps working when you drop in a different subject was carrying the author.**
 
 ```text
 Weak:   After a decade of reading slush, I can tell you most rejections happen on page one.
 Strong: Most rejections happen on page one.
 ```
 
-## What a credential costs the writer
-
-The intuition is that a credential makes a sentence stronger. The cost runs the other way. Self-esteem was set out long ago as a fraction: success divided by pretensions. A credential adds to the pretensions, which is the bottom of the fraction. The claim of standing is now on the record, and the work has to be worth more than it was one line earlier. The same account says that giving up a pretension is as much of a relief as having it satisfied. So a credential is an expensive move. It commits the writer, in the middle of a paragraph, to a standard the rest of the work has not yet met.
-
-The move is tempting for a reason. A person has as many social selves as there are people holding an image of him. A credential goes in to adjust one of those images. Keeping an image up has a running cost, because image and work draw on the same supply of hours. Hours spent on how a thing looks come out of the hours available for looking at the thing itself.
-
-In the present economy that spending feels required. A career organized as a one-person business turns self-promotion into a duty. The sentence that leaves the credential out then feels like something of value given away for nothing.
+Credentials add to pretensions (the denominator of self-esteem as success over pretensions). They commit the paragraph to a standard the rest has not yet met. Image and work draw on the same hours; in a one-person career, leaving the credential out can feel like giving value away.
 
 ## Selfhood: judgment a reader can see
 
-Selfhood is one person's judgment left where a reader can see it. This example was kept. That claim was turned away. Two people working the same material almost never cut it the same way. The person is visible in what was cut.
+Selfhood is what was kept and what was cut. Remove the person and you get compiled prose—complete, correct, chosen by no one. Descriptions use instrument words, not personality words: writing is selection; a filter of taste no one else holds; a voice as one mind recalling material no one else witnessed. Winnicott's false self runs from polite reserve to achievement that feels dead inside.
 
-Take the person out and the judgment goes with him. What is left is prose that is complete, correct, and shaped by nobody. It is compiled: assembled from what was available, chosen by no one. The usual verdict on such prose, that anybody could have written it, is accurate. The choices only one person would have made are the ones that were removed.
+Didion's rough line—writing as imposing "listen to me"—sits beside her precision about syntax changing meaning like moving a camera. Aggression about the act and precision about the instrument do not conflict.
 
-Descriptions of selfhood use words for instruments, and they avoid words for personality. The shortest description is three words long: writing is selection. That puts the author in every choice and in none of the sentences. Longer descriptions name what the selecting runs on. One names a filter made of accumulated taste and experience that nobody else holds a copy of. Another names a voice, meaning the sound of one mind recalling material no one else witnessed.
+## Tests for a doubtful line
 
-The absence of selfhood has a clinical description as well as a critical one. The false self runs in degrees. At the mild end it is politeness and social reserve. At the far end it is achievements that perform perfectly and feel dead from inside.
+**Swap test:** substitute another subject; if the sentence still works, cut it.
 
-The most quoted statement of the instrument view is rougher than the view itself. Writing is the act of saying I, "of imposing oneself upon other people, of saying listen to me, see it my way, change your mind." The essayist who wrote that filed it under the tactics of a secret bully. The same essayist made a separate claim, about syntax: shifting a sentence's structure alters its meaning as strictly as moving a camera alters the photographed object. The two claims come from one writer. The first is aggressive about the act. The second is precise about the instrument. They do not conflict.
+**Clause strip:** remove first-person where no substitute subject exists. Missing facts mean the clause carried weight; missing impression of you means display.
 
-## The test for one line
+Run both with a reader who does not know you, or after enough delay that the line reads as a stranger's. A cut that removes subject-facts means the test misfired on selfhood.
 
-Once self-regard and selfhood are held apart, one question does the work. Put it to any line under suspicion: does the line change what a reader sees of the subject, or only what he thinks of the author?
-
-A failing set down in enough detail that a reader recognizes his own copy of it is selfhood at work. It is particular experience spent on making the subject usable to somebody else. The identical failing, arranged so that the reader registers how candid the author is being, is self-regard.
-
-Some sentences have no substitute subject, so the swap test cannot be run on them. A second move covers those. Take the first-person clause out and count what was lost. If facts about the subject went missing, the clause was carrying weight. If only an impression of the author went missing, the clause was display.
-
-Neither move is worth much when the writer runs it on his own draft in the hour he wrote it. A second person can confirm what a line does to a reader. Nobody can confirm what the author intended by it. Both moves are review instruments. They want a reader who does not know the author, or enough delay that the sentence reads as a stranger's. The expected result is deletions that cost the piece no fact about its subject. A deletion that takes subject-information with it means the test misfired on a line that was carrying selfhood.
-
-## The same question in other writers' words
-
-Several vocabularies reach the same question.
-
-- A style manual's first reminder puts the writer in the background, so that attention goes to the sense and substance of the writing and away from the mood and temper of the author.
-- A guide written from the cognitive side makes direction the whole test. It asks whether a sentence points outward at the world or back toward the writer. It also gives the gentlest account of the failure: much of it is the curse of knowledge, a writer narrating his trade because he can no longer imagine not knowing it.
-- Two more ask whose standard the sentence answers to, the writer's own or an imagined audience's, and whose business the answer is. What a reader concludes about the author belongs to the reader.
-
-The agreement is worth less than it looks. The four come from one humanist and rhetorical line, and they are not four independent observations. The style manual's co-author later called the essayist who defined writing as saying I congenitally self-centered. That is a remark about motive. His rule about display stands regardless.
+Style manuals, cognitive guides, and rhetoricians converge: point outward at the world, not back at the writer; whose standard does this sentence answer?
 
 ## The selling feeling
 
-A parallel account comes from persuasion, and it locates the person in the same place. In that account, credibility is what remains after an option that would have closed the deal has been refused. The recommendation that follows has been paid for by the options declined. Selfhood runs the same arithmetic on a page. The person is visible in what was cut. A piece that kept everything available to it has spent nothing and can prove nothing.
+In persuasion, credibility is what remains after refusing an option that would have closed the deal. Selfhood runs the same arithmetic—the person visible in what was cut. A pitch that feels like selling diagnoses failed fit, failed claim, or both; technique on top cannot fix it. "Ego in advice" and manufactured enthusiasm are self-regard in sales language.
 
-That account adds an instrument the two line-level tests do not cover. The instrument is a sensation. A pitch begins to feel like selling once the thing or the fit is already wrong. So the feeling is a diagnosis, and pushing through it is the wrong response. It reports that understanding, conviction, clarity, or fit has already failed. Technique applied on top of that failure makes the failure more expensive. The same reading holds for prose. A sentence that feels like it is working on a reader belongs to a writer who has not yet established the claim. Revision at the surface cannot repair a paragraph that is compensating for a claim the writer never earned.
-
-Two of the failures named on the persuasion side are self-regard in the language of sales. Ego in advice is counsel given from the adviser's need to be seen as right. The other person's frame is left out. Manufactured enthusiasm is the process tour of a deal: excitement supplied because the fundamentals have not supplied it yet.
-
-**Where the analogy holds and where it stops.** It holds for the structure. The counterparty is different in the two cases. A buyer can decline, negotiate, or leave, and either side can walk away. A reader can only stop reading, and the writer never learns which sentence lost him. So the deal case supplies a sharper motive than the page case can. The cost of selling badly comes back to the seller on a timescale he will notice. The same cost on a page arrives slowly, if at all, as a reputation for prose nobody could tell from anyone else's.
+The analogy has a limit: a buyer can walk; a reader only stops, and you may never know which sentence lost him.
 
 ## Modesty used for display
 
-Self-regard can appear as modesty as easily as it appears as boasting. Self-criticism staged so that its candour will register is still self-regard. Readers treat it the way they treat a boast.
+Across nine studies, humblebragging scored below plain bragging on liking, competence, compliance, and generosity—sincerity mediates. Post-wounded voice and floodlighting face the author; honest disclosure faces a failing the reader can use.
 
-The modest form has a measurement behind it. Across nine studies, humblebragging came out behind plain bragging on liking, perceived competence, compliance with requests, and financial generosity. Sincerity is the mediator. A straightforward boaster is at least believed to mean it. The humblebragger forfeits the boast and the credit for honesty together. Humblebrags built on complaints do worse than plain complaining.
+## Cutting too far
 
-Staged modesty comes in two versions. The first is the post-wounded voice: practised flatness and irony about one's own pain, put on in advance against a charge the writer expects. The critic who named it defends the wounded voice, and treats accusations of cliché as a cover for the accuser's refusal to feel anything. So the label describes a posture and settles nothing about the pain underneath. The second is floodlighting: intimate material given to a reader in a quantity meant to compel a response. That is disclosure operating as a demand.
-
-**What separates these from honest disclosure is the direction the writing faces.** Writing that faces the failing hands a reader something he can take away and use. A note kept for the author's own use, which others are allowed to read, does the same by accident. The staged kinds face the author, in either version.
-
-## Cutting the author out too far
-
-Cutting can go too far, and the far end has a name. Echoism is a fear of seeming self-absorbed grown heavy enough that stating a need becomes impossible. Prose arrives in the same condition once every trace of its author has been removed. It has given up the one thing a reader came for. A revision pass that starts striking the particulars that made a piece unlike anyone else's has stopped working. Then the removed particulars go back in.
+Echoism—fear of seeming self-absorbed so heavy that need cannot be stated—has a prose twin: every particular removed until the piece could be anyone's. Put the particulars back when a revision pass strikes what made the piece unlike others'.
 
 ## Writing about yourself without display
 
-None of this rules out writing about oneself. The book that founded the essay settles both settings in a single paragraph. It promises the author's portrait with the flaws left in: "it is myself I paint." It refuses what it calls borrowed beauties, the decoration its author says he would have worn if the world's favour had been the point. That paragraph is dated 1580.
+Montaigne (1580): "it is myself I paint," refusing borrowed beauties if favour were the point. Personal narrative splits situation and story; unworked confession hands events without understanding. Defenders draw the line where narcissism pleases the writer and honest self-writing keeps working past flattering drafts.
 
-An essay on the form gets the discipline down to seven words: never to be yourself and yet always. It names personality as the material an essay is made of and as the thing likeliest to wreck it.
+## Four objections
 
-The craft books turn that into procedure. Personal narrative splits into situation and story. The events are on one side. The understanding the writer has arrived at is on the other. Unworked confession fails by handing over the first while withholding the second. The writer becomes a character inside his own piece, drawn in the round and shown to be wrong. The argument for that is that protecting one's dignity and earning a reader's trust cannot both come first. Performed humility looks different beside that requirement, because the staged confession is selected so that nothing is at risk. The genre's defenders draw the line in the same place. Narcissism is building a self-image that pleases you. Honest self-writing keeps working past the drafts that flatter.
+1. **Self-audit is weak:** motives rationalize past decisions—test sentences and second readers, not motives.
+2. **Status never hits zero:** it changes form—visible restraint, conspicuous taste, humility as move.
+3. **No substance behind performance:** Goffman's self as dramatic effect challenges separable selfhood; the procedure still helps even if substance is disputed.
+4. **Eliot's catalyst vs Freud's matured narcissism:** both hand the person back—medium and transformed drives are selfhood under other names.
 
-## Four objections to the split
+What survives is the procedure more than the metaphysics of two substances.
 
-The split is the claim that self-regard and selfhood are two separate things that need opposite treatment. Four objections to it carry weight, and each costs the split something.
+## Language models and the generic floor
 
-The first is that self-audit is worthless in principle. The mind produces respectable-sounding motives for decisions it has already taken. So whoever needs the test most is the worst-placed person to run it on himself. That is the argument for testing sentences instead of motives, and for the second reader.
+Doshi & Hauser (2024): generative AI raised individual creativity ratings while narrowing collective diversity; polish is cheap, judgment scarce. Filterworld's taste-by-algorithm pushes the same direction. Either accumulated taste without biography, or dated stakes and refusals that cost something, marks prose a machine did not choose.
 
-The second is that the drive for status cannot be brought to zero. It can only change form. With the credentials gone it returns as visible restraint, as conspicuous taste, as humility used as a move. Denouncing status-seeking also earns status. The drive never reaches zero. The writer can only keep moving toward it, and recognizing the drive in its new form is most of the work.
+## Attention vs recognition
 
-The third denies that there is any substance to be present. One dramaturgical account splits expression into what a person gives, the message intended, and what he gives off, the signs an audience treats as more reliable. That is the swap test in its original form, since a credential gives information and gives off an impressive author. That account then goes where the split cannot follow. It makes the self a dramatic effect that arises from the scene, and it denies that the self is a cause standing behind the scene. On that reading, selfhood is a compliment paid to a performance that worked.
-
-The fourth is the oldest. The case for extinguishing personality wants the artist to leave no trace: a catalyst that comes out of the reaction unchanged. The psychoanalytic reply is that the wish to be admired never departs. It matures, into creativity, empathy, humor, the capacity to contemplate one's own impermanence, and wisdom. Both positions hand the person back at the end. The catalyst is still a particular medium, a mind whose combinations of experience belong to it alone. The five mature transformations are selfhood under another name. The sharpest form of the dissent is the essay that puts sheer egoism first among the motives for writing, and then insists that nothing readable gets written without a constant struggle to efface one's own personality.
-
-Independence of the two substances is the weakest part of the split. The pressure on it comes from inside the same literature. One clinical account puts image and work on a single energy budget. Another treats admiration-seeking and creative work as one drive at different degrees of maturity. What survives all four objections is the procedure. The stronger claim, that a self holds two separable substances, does not survive.
-
-## What language models changed
-
-The cost of compiled prose rose recently, and one controlled experiment put numbers on the change. Writers handed story ideas by a language model produced work rated more creative, better written, and more enjoyable. The largest gains went to those who had scored least creative unaided. Their stories also resembled one another more closely than the unaided stories did. So in one trial the lowest quality rose and the range of results narrowed. That changes where the loss shows. Inside any single piece the writing is fluent and often better than what it replaced. The shortfall shows across pieces, in how little distance separates them. That is where a writer can check. Algorithmic distribution pushes in the same direction by promoting whatever travels. So the generic floor, meaning the level of fluent, organized, competent prose now available for the asking, has stopped distinguishing anybody. The complaint that anyone could have written this now includes machines under "anyone."
-
-What the floor cannot supply is the layer that traces to one life: a failure with a date on it, a stake, a refusal that cost something. A competing account puts the scarce component in accumulated taste instead of biography. That is a second way out of compiled prose. A writer with nothing autobiographical in the piece can still be the only one who would have selected those things in that order. Either route makes judgment the scarce good. Polish stopped being evidence of judgment some time ago.
-
-## Attention and recognition
-
-The stake has a cleaner statement in two words usually treated as one. Attention is notice. It is value-neutral and it can be extracted. Anything loud can win it, and so can any interchangeable author who sounds impressive. Recognition is being seen whole by someone whose seeing counts for the writer. It is never taken, only made possible. Self-regard is a request for attention. Selfhood is the condition under which recognition becomes available at all. The swap test sorts the same pair: attention survives a change of subject, and recognition is lost with it.
-
-What the objections leave standing is a procedure, and no picture of the self. The word keeps its three meanings. The writing only needs the two settings kept apart: selfhood as high as honesty allows, self-regard at zero. The sentence in doubt goes to a reader who does not know the author, with one question attached: what does it change for him? If the honest answer is "only what he thinks of me," the sentence comes out.
+Attention is notice—extractable by volume. Recognition is being seen whole by someone whose seeing counts; only made possible, never taken. Self-regard asks for attention; selfhood is the condition for recognition. The swap test sorts the pair.
 
 ## How to practice this
 
-1. Take one sentence you suspect and drop a different subject into it. Notice whether the sentence still works. If it does, it was carrying you, and it can go.
-2. Remove a first-person clause that has no substitute subject. Notice what went missing. Missing facts mean the clause was needed, and a missing impression of you means it was display.
-3. Give the doubtful sentence to a reader who does not know you, or wait until it reads as a stranger's. Ask what it changes for him. If the answer is only what he thinks of you, cut it.
-4. Afterwards, check whether any cut removed a fact about the subject. If it did, the test misfired on a line that was carrying your judgment.
-5. Notice when a paragraph feels like it is working on the reader. That feeling reports a claim you have not yet established. Fix the claim, since surface revision cannot repair it.
-6. When a revision pass starts striking the particulars that made the piece unlike anyone else's, stop. Put those particulars back in.
+1. Swap-test a suspect sentence; cut what survives substitution.
+2. Strip first-person clauses; notice whether facts or impression disappeared.
+3. Give doubtful lines to a reader who does not know you.
+4. When a paragraph feels like it is working on the reader, fix the claim—not the surface.
+5. When revision strikes what made the piece yours, stop and restore those particulars.
 
 ## Related pages
 
-- [[wiki/Fashion/The Personal Uniform|The Personal Uniform]]: the same mechanism applied to objects. A filter run daily against one particular life ends at a signature nobody was aiming for, which is what judgment looks like when the medium is clothing.
-- [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]]: the same location of the person in the refusal, worked out for persuasion, and the source of the selling-feeling diagnostic.
-- [[02 - System/Writing Standards|Writing Standards]]: the two terms working as binding law over every page in this vault, and the home of the ruling that hedging is self-regard pointed downward.
+- [[wiki/Fashion/The Personal Uniform|The Personal Uniform]]: judgment as a daily filter on objects.
+- [[wiki/Razors|Razors]]: communicating truth into another's frame; selling-feeling diagnostic.
+- [[02 - System/Writing Standards|Writing Standards]]: binding rules for vault prose.
 
 ## Sources
 
