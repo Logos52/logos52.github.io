@@ -69,6 +69,8 @@ Sustainable capacity rests on basics — exercise, in-person connection, dayligh
 
 The [[wiki/Dimensions/30-Day Challenges|30-day self-regulation challenge]] maps methods to observed effects, judges and replaces weak habits (practice how you play, link levels, test recall not recognition, cut setup that does not process), isolates variables by shifting time on each method, then stabilises a system no more than ~20% different from today so overwhelm stays bounded.
 
+In the five-dimension frame ([[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]), self-regulation sits between mindset and the encoding/retrieval pair. Mindset must allow discomfort; deep processing and retrieval supply what you regulate. Weak self-regulation often looks like “I know better methods but default to old ones under pressure” — that is a control problem, not a knowledge gap.
+
 ## Related pages
 
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] — cue, monitor, respond loop.

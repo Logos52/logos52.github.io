@@ -43,6 +43,17 @@ Methods fail when their cognitive step is bypassed — listing “why important�
 
 The [[wiki/Dimensions/Self-Regulation|self-regulation hub]] states the rule in one line: a technique is only as good as the thinking it produces.
 
+## Building the radar in session
+
+Useful monitoring is lightweight, not a second full task. A few habits train it:
+
+- When effort spikes, **name the feeling** before choosing the next action (confused, rushing, seeking relief).
+- When you reach for a tool or shortcut, ask whether it replaces thinking you have not done yet.
+- Before closing a block, state one thing you could not rebuild without the source — if nothing qualifies, the block may have been shallow.
+- After feedback (quiz, problem set, tutor comment), write what you expected versus what happened; one sentence is enough to preserve prediction error.
+
+Early on, the loop feels slow. The payoff is cumulative: each caught shortcut is cheaper than the exam that would have exposed it.
+
 ## Related pages
 
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — traps, efficiency, accuracy before speed.
