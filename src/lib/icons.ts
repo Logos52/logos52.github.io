@@ -5,12 +5,11 @@
 import type { Domain } from './types';
 
 export const DOMAIN_ICONS: Record<Domain, string> = {
+  ai: 'ti-robot',
   learning: 'ti-school',
-  agentic: 'ti-robot',
-  language: 'ti-language',
-  focus: 'ti-target',
-  mind: 'ti-brain',
-  gen: 'ti-bulb',
+  self: 'ti-steering-wheel',
+  world: 'ti-scale',
+  craft: 'ti-wallet',
 };
 
 export type EntryIcon = { icon: string; color: string };

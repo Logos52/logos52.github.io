@@ -1,23 +1,18 @@
 /*
- * domains.css — the 6 knowledge-domain hues (light on :root, brightened on [data-theme="dark"]).
- * Halfway between the saturated and muted palettes (owner preference): learning plum · agentic umber ·
- * language terracotta/seal · focus rose · mind sage-teal · gen slate-blue.
- * Keep in sync with DOMAIN_COLORS in src/lib/types.ts.
+ * domains.css — five Map domains (muted NDC palette). Sync with DOMAIN_COLORS in src/lib/types.ts.
  */
 :root {
-  --d-learning: #7d6097; /* plum */
-  --d-agentic: #926a46; /* umber */
-  --d-language: #ab6750; /* terracotta / seal */
-  --d-focus: #b76279; /* rose */
-  --d-mind: #418c84; /* sage-teal */
-  --d-gen: #5179ad; /* slate-blue */
+  --d-ai: #666cb0;
+  --d-learning: #5a7a9e;
+  --d-self: #6e8a5c;
+  --d-world: #4f6fa3;
+  --d-craft: #7a6b8f;
 }
 
 [data-theme='dark'] {
-  --d-learning: #a993c1;
-  --d-agentic: #bf9d74;
-  --d-language: #cc8975;
-  --d-focus: #d598a9;
-  --d-mind: #67b2ab;
-  --d-gen: #83a7ca;
+  --d-ai: #8a90c8;
+  --d-learning: #7c9bc0;
+  --d-self: #92ab7e;
+  --d-world: #7290be;
+  --d-craft: #9d8fb0;
 }

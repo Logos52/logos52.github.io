@@ -9,7 +9,6 @@ import { getCollection } from 'astro:content';
 
 import Base from '../layouts/Base.astro';
 import DomainChip from '../components/DomainChip.astro';
-import Constellation from '../components/Constellation.astro';
 import Icon from '../components/Icon.astro';
 import { slugifyFilePath, slugToUrl } from '../lib/slug';
 import { DOMAIN_LABELS, type Domain } from '../lib/types';
@@ -192,13 +191,6 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
         <h1 class="hero__title">{hero.title}</h1>
         <p class="hero__lede">{hero.lede}</p>
       </section>
-      <section class="map">
-        <Constellation height="clamp(150px, 17vh, 200px)" />
-        <div class="map__legend">
-          {chipDomains.map((d) => <DomainChip label={DOMAIN_LABELS[d]} domain={d} icon={DOMAIN_ICONS[d]} href={`/domains/${d}/`} />)}
-        </div>
-      </section>
-
       <section class="start-here">
         <h2 class="start-here__head">Start here</h2>
         <div class="start-here__doors">
