@@ -1,13 +1,9 @@
 ---
 title: "Good Faith"
 type: concept
-status: developing
-created: 2026-05-16
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: fable
-description: "Everyone has the cooperative-sounding words; what settles who means them is what a person will say at their own expense."
+status: stable
+updated: 2026-11-21
+source-count: 7
 tags:
   - ethics
   - communication
@@ -17,96 +13,58 @@ tags:
 
 # Good Faith
 
-Good faith is a commitment you carry into every dealing that matters. The other person gets the true picture from you: your real constraints, your real intentions, and the downsides you could have kept quiet. You give that picture even when telling them costs you something now. The cost is what makes the disclosure believable. Anyone can say cooperative things. A disclosure that cost you something is the one the other person can believe.
+Good faith is the commitment to give the other person a true picture—real constraints, real intentions, downsides you could have kept quiet—even when telling them costs you something now. The cost is what makes the disclosure believable. Anyone can say cooperative words; a disclosure that could have hurt you is the one they can trust. Problems surface while they are still small. Trust compounds. Reputation for meaning what you say follows. It is not naive honesty and not saying everything to everyone.
 
-Kept up over time, the practice has three results. Problems get dealt with while they are small. Trust grows with each dealing. You get a reputation for meaning what you say. Good faith is not naive honesty. It does not mean saying everything to everyone.
-
-## Core takeaways
-
-- A disclosure counts as a signal only when it could have cost you something. A disclosure the other person could already see costs nothing and signals nothing.
-- You disclose three things: what you cannot do or accept, what you are trying to get, and the downside you would rather hide.
-- Keeping those things hidden has a running cost. Deception, omission, and impression management all take upkeep, and the upkeep never ends.
-- The same problem disclosed early is a plan adjustment. Discovered late, it is a betrayal, because trust was spent on the version without it.
-- Good faith can be exploited when it is given without conditions. When your disclosures keep being used against you and none come back, stop volunteering information that gives the other side leverage. You still say nothing false.
+Use good faith in negotiation, feedback, close relationships, and public work. Pair it with [[wiki/Concepts/Charisma|Charisma]] so costly truth can land, and with anti-marketing when the audience has not yet invested.
 
 ## What you disclose
 
-The disclosure has three objects. The constraint is what you actually cannot do or accept. The intention is what you are actually trying to get. The downside is the part of your offer, work, or position that the other person is better off knowing and you are more comfortable hiding.
+Three objects: the constraint you cannot bend, the intention you are actually pursuing, and the downside you would rather hide. Deception, omission, and impression management all carry running upkeep that never ends.
 
-Keeping those unsaid has its own running cost. Deception, omission, and impression management all take upkeep, and the upkeep never ends.
+Transparency that costs nothing signals nothing. Forthrightness counts only where it could have cost you. A line everyone could already see decorates; a line that gives up leverage cooperates.
 
-## Why the cost is the signal
+Timing turns the same fact into plan adjustment or betrayal. Early, the problem is fixable. Late, trust was spent on the version without it. Public work shows what is known, what is not, and what the work demands before anyone commits—that is anti-marketing applied to knowledge.
 
-The difference between a disclosure that signals and a disclosure that decorates is whether anything was given up:
+## Anti-marketing
 
-```text
-Costs nothing: "In the spirit of transparency: we're not the cheapest option."
-        Everyone could already see it. Nothing was given up.
-Costs something: "If the timeline matters more than price, their bid fits you better this quarter."
-        This gives up leverage. This is the one that reads as an offer to cooperate.
-```
+Anti-marketing shows constraints, flaws, trade-offs, and weak points before the other party invests, instead of saving them for after a polished pitch. The question is who should still want this once they have seen what it is—not how to look desirable to the largest audience. An early weakness reads as honesty; the same weakness found late reads as concealment. Mismatch is cheapest at the start in hiring, dating, and product trials.
 
-A disclosure that gives something up carries two messages at once: you are willing to cooperate, and you are not optimizing at the other person's expense.
+Naming limits raises credibility when the listener can use the information to decide fit. Reveal facts that change fit, trust, or understanding—not everything. A page of limits with nothing to want fails as surely as a hidden flaw.
 
-One test applies in every case. Transparency that costs nothing signals nothing. **Forthrightness is a signal only where it could have cost you.**
+Three failure modes: honesty as performance (humblebrag, strategic vulnerability), over-disclosure that burdens someone who did not ask, and negativity that lists only limits. [[wiki/Concepts/Selfhood|Selfhood]] and meiwaku cap the last—burden on others is also an imposition.
 
-## Why timing matters
-
-A problem or a misalignment disclosed early is a plan adjustment. The same thing discovered late is a betrayal, because by then trust has been spent on the version without it.
-
-Public work has its own version of early disclosure: showing what is known, what is not known, and what the work demands, before anyone commits. That practice is described on [[wiki/Concepts/Anti-Marketing|Anti-Marketing]].
-
-## Four settings where it applies
-
-The same move appears in four settings.
-
-- In negotiation, it is naming your real constraints instead of bluffing past them. You give up leverage and gain credibility.
-- In feedback, it is the direct version without unnecessary cruelty. You give up the more comfortable version.
-- In close relationships, it is the difficult truth said early, while it is still small.
-- In public work, it is stating plainly what is known, what is not known, and what the work requires of whoever takes it on.
-
-In each setting the cost comes first and the benefit comes later. The benefit is checkable in ordinary life: problems start to surface before trust is spent on them, rather than after.
-
-Delivering a costly fact so the other person can take it in is a separate skill. [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] covers it.
-
-The size of the benefit depends on the setting. Where most people default to strategic vagueness and over-promising, a disclosure that cost something is noticed most.
+On this vault, visible open questions, corrections, and named limits keep the site from becoming a personal brand.
 
 ## When to hold back
 
-How far to extend good faith depends on the other person. People who can return forthrightness behave better when they receive it consistently. Over time the relationship becomes less defensive on both sides. Given without conditions, forthrightness can be exploited. The cost is highest with people who return the least, because a counterpart who extracts turns each disclosure into an advantage for themselves.
+Extend good faith where the other person can return it. When disclosures are used against you and none come back, stop volunteering leverage; do not lie. Withholding shifts burden to the person who needed the information—meiwaku counts that cost too.
 
-The signs that you should stop are in the other person's behaviour: your disclosures keep getting used against you, and none come back. What you reduce then is the disclosure, not the honesty. You stop volunteering information that gives the other side leverage. You still do not say anything false.
+Delivering a costly fact inside the listener's frame is a separate skill; the aim here is whether you pay the cost of telling.
 
-Withholding has its own cost. Hidden information is a burden on the person who needed it. [[wiki/Concepts/Meiwaku|Meiwaku]] counts that cost.
+## How to ask for feedback
 
-Good faith is strategic and ethical at the same time. It is strategic because the trust it builds grows with each dealing. It is ethical because the other person's clear picture matters on its own.
+Feedback is information about performance or understanding that helps reach a learning goal—especially process goals (how you learn), not only outcome goals. Sources differ in reliability: coach comments are strong but slow; peers are fast and variable; self-review is most valuable once judgment skill is strong and is the recommended first response.
 
-The aim is the true picture, given at your own cost: early rather than late, in a form the other person can take in, given in full to people who can read the signal and return it, and reduced without becoming false where they cannot. The commitment to tell the truth does not depend on the counterpart. The amount you volunteer does depend on the counterpart.
+How you ask determines what you get. Vague or sweeping requests produce noise. A useful request explains context, names the learning goal, includes your own evaluation of the work, asks for one or two specific areas, and closes the loop after you act on the reply.
 
-## How to practice this
+CLEAR is the suggested shape. **Context**: background that would change advice—deadlines, constraints, where you are in the program. **Learning goal**: the skill or process target, stage-appropriate. **Evaluate**: your longest section—what you tried, what worked, what was hard, what surprised you, where improvement matters most; "I don't know" is not enough. **Ask**: one or two focused areas; too many changes at once cannot land. **Review**: absorb the reply, follow up on confusion, then experiment and produce new work before asking again.
 
-1. Before your next disclosure, ask whether the other person could already see it. If they could, it cost you nothing. Notice whether you are giving something up or only sounding cooperative.
-2. In your next negotiation, name one real constraint you would usually bluff past. Notice whether the other side treats what you say afterwards as more believable.
-3. Take a problem you know about and have not told the other person. Tell them now, while it is small. Notice whether the conversation becomes a plan adjustment.
-4. The next time you give feedback, say the direct version without unnecessary cruelty. Notice which more comfortable version you had to give up.
-5. Track what happens to your disclosures with one counterpart. If they keep getting used against you and none come back, stop volunteering leverage. Notice that you still say nothing false.
-6. When you hold something back, name who now has to carry the missing information. Notice that the burden has moved to them.
+Receiving is step one. Analyze without rushing to disagree; keep comments on the work. Order changes, plan experiments—a single reply can fuel several tries. Giving peer feedback trains your own judgment: be specific, start from what works, stay on the work, suggest a next step.
 
-## Related pages
+## Practice
 
-- [[wiki/Concepts/Charisma|Charisma]]: charm without good faith is a con.
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking]]: testing the frame you are being forthright inside.
-- [[wiki/Syntheses/Status, Vulnerability, and the Three Conversations|Status, Vulnerability, and the Three Conversations]]: the trust substrate those models assume.
-- [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]]: the method for the feedback setting, where what was seen is stated before what it means.
-
-## Open questions
-
-- What is owed to a counterpart who has already shown they extract?
-- Where does forthrightness cross into loading the other person with information they now have to carry?
+- Before a disclosure, ask whether the other person could already see it. Notice whether you give something up.
+- Name a real constraint in negotiation you would usually bluff past.
+- Tell a small problem early; notice plan adjustment versus betrayal framing.
+- List flaws and limits before the other person invests; ask who should still want this.
+- Shape the next feedback request with CLEAR; close the loop with experiments before re-asking.
+- Track one counterpart: if leverage only flows one way, reduce volunteering without going false.
 
 ## Sources
 
-- Frank (1988), *Passions Within Reason*: honesty as a costly commitment signal.
-- Williams et al. (1993): two-sided messages; early disclosure cheaper than late discovery.
-- Axelrod (1984), *The Evolution of Cooperation*: reciprocity spreads cooperative norms, conditional on the other side's response.
-- The stance and its formulation are the vault's own, from personal notes predating this page; the works above support its mechanisms.
+- Frank (1988). *Passions Within Reason.*
+- Williams et al. (1993). Early disclosure in trials and messaging.
+- Crowley & Hoyer (1994). Two-sided persuasion and credibility.
+- Axelrod (1984). *The Evolution of Cooperation.*
+- Vault stance from personal notes predating this page.
+- iCanStudy, "How to ask for feedback" (Learning Support; private course notes, paraphrased).

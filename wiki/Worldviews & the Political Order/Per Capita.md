@@ -1,19 +1,17 @@
 ---
 title: "Per Capita"
 description: "Per capita turns a raw count into a rate per person, which shows how common something is and not why it happens."
-type: concept
-status: draft
+type: practice
+status: stable
 created: 2026-08-16
-updated: 2026-10-23
-method: fresh-v2-primer-multisource-2026-10-23
+updated: 2026-11-22
+domain: world
+source-count: 2
 section: "Worldviews & the Political Order"
-group: "How to read these arguments"
 tags:
   - argument
   - statistics
-wedge_reviewed: false
 ---
-> Not yet reviewed by Wedge.
 
 # Per Capita
 
@@ -54,10 +52,6 @@ Three explanations cover most cases like this. The first is that the division is
 
 The third explanation is the only fair objection, which is that other variables need controlling for, such as poverty when comparing crime rates. Wanting more variables to understand a gap is different from calling the rate useless unless it explains everything. A serious version of the objection actually controls for the variables it names, shows the results and explains why those variables are relevant.
 
-## Open questions
-
-- Why does a raw total feel more convincing than a rate to the person using it?
-- How does someone come to use per capita when it helps and call it misleading when it does not?
 - How does adding one more control variable change what a rate can explain?
 
 ## Sources

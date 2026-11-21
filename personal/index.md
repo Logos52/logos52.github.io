@@ -53,7 +53,7 @@ I travel a lot, so I own few items, and each one has to be useful enough to just
 - Anker 733 GaNPrime power bank, which is also the wall adapter.
 - Filson Journeyman, which holds all of the items above.
 
-[[wiki/Fashion/The Personal Uniform|The Personal Uniform]] is a longer version of this list, and it also covers clothes.
+[[wiki/Concepts/Style|The Personal Uniform]] is a longer version of this list, and it also covers clothes.
 
 ### Agents
 

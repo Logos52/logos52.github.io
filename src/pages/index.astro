@@ -1,270 +1,71 @@
 ---
-/**
- * index.astro — the Logos52 home, matched to the original Quartz HomeLanding: compact, narrow
- * (~original --pageWidth), left-aligned hero, inline search, constellation + legend, Open
- * questions / Today's retrieval, Start here (intent doors), and three hub-list columns.
- */
-import { existsSync, readFileSync } from 'node:fs';
-import { getCollection } from 'astro:content';
-
 import Base from '../layouts/Base.astro';
-import DomainChip from '../components/DomainChip.astro';
-import Constellation from '../components/Constellation.astro';
 import Icon from '../components/Icon.astro';
-import { slugifyFilePath, slugToUrl } from '../lib/slug';
-import { DOMAIN_LABELS, type Domain } from '../lib/types';
+import { DOMAINS, DOMAIN_LABELS, DOMAIN_STANCES, type Domain } from '../lib/types';
 import { DOMAIN_ICONS } from '../lib/icons';
+import { slugifyFilePath, slugToUrl } from '../lib/slug';
 
-interface HomeData {
-  hero?: { title?: string; lede?: string };
-  questions?: string[];
-  todaysRetrieval?: { kind?: string; title?: string; prompt?: string; queueCount?: number; slug?: string };
-}
-const HOME_JSON = 'kb-astro/site-data/home.json';
-let home: HomeData | null = null;
-try {
-  if (existsSync(HOME_JSON)) home = JSON.parse(readFileSync(HOME_JSON, 'utf8')) as HomeData;
-} catch {
-  home = null;
-}
+const objective =
+  'This wiki is compiled with agents, but the human still sets direction, judges what ships, and owns what the pages claim.';
 
-const notes = await getCollection('notes');
-const hero = home?.hero ?? {
-  title: 'A second brain for learning systems & agentic engineering',
-  lede: 'Linked notes on learning systems, language study, and software work with LLM agents.',
-};
-// "Currently" — a short now-band: what I'm building / learning / reading / chewing on. Hand-curated;
-// edit these freely. (Replaced the Open-questions + Today's-retrieval pulse cards.)
-// "Top of mind" — open questions about where AI is going and how to shape it (personal + society),
-// plus one standing "Personal items" entry gathering the personal wings (added 2026-07-21).
-// Pose the question; link to the note that addresses it. Standard: 02 - System/Writing Standards.md
-// → High-Signal Front-Facing Pages → Open Questions Stay Open. Edit freely; keep them in-lane.
-type Mind = { q: string; links: { t: string; href: string }[] };
-const L = (t: string, p: string) => ({ t, href: slugToUrl(slugifyFilePath(p)) });
-const topOfMind: Mind[] = [
-  {
-    q: 'Arcs give a character a moral core first. Later arcs charge the moral core against something the character loves. Do stories people love work that way?',
-    links: [
-      L('Tsumugu', 'wiki/Tsumugu/Tsumugu'),
-      L('The Moral Core', 'wiki/Story Craft/The Moral Core'),
-      L('Arc Types', 'wiki/Story Craft/Arc Types'),
-    ],
-  },
-  {
-    q: 'Exercise, clothing, and travel pages, written with my personal taste in mind',
-    links: [
-      L('Movement as Accretion', 'wiki/Fitness/Movement as Accretion'),
-      L('The Personal Uniform', 'wiki/Fashion/The Personal Uniform'),
-      L('Warm Countries, Cold Countries', 'wiki/Travel/Warm Countries, Cold Countries'),
-      L('Reading as Local', 'wiki/Travel/Reading as Local'),
-    ],
-  },
-  {
-    q: 'How do you check a personal belief? These pages follow the logic of a political opinion, and its second-order effects.',
-    links: [
-      L('Worldviews & the Political Order', 'wiki/Worldviews & the Political Order/Worldviews & the Political Order'),
-      L('Validity and Truth', 'wiki/Worldviews & the Political Order/Validity and Truth'),
-      L('Positions', 'personal/2026-08-17-positions'),
-    ],
-  },
+const topOfMind: string[] = [
+  'Whether story arcs need a moral core before the character risks losing something they love.',
+  'How much of daily life still belongs on personal pages that stay off the public site.',
+  'Where political arguments hold up when you trace them past the headline.',
 ];
-// THE FOUR-CAP (Wedge's standing command, re-issued 2026-08-11 after the list drifted to six):
-// Top of mind holds exactly 4. A new entry enters only with the lowest retiring in the same edit,
-// archived below like the others. The guard is fail-closed — the build dies before the list grows.
-if (topOfMind.length > 4)
-  throw new Error(`Top of mind holds 4 entries (Wedge's cap); found ${topOfMind.length} — retire the lowest before adding.`);
-// Retired from the card 2026-07-17 (Wedge: the list must not grow — lowest entry archived, not deleted):
-//   q: 'If a generation offloads its thinking to AI, what are the second-order effects?'
-//   links: Epistemic Exceptionalism (wiki/Red Team) · The Shortcut Problem (wiki/Concepts) · The Age of Nonlinear Returns (wiki/Concepts)
-// Retired 2026-07-21 (same rule — the Personal items entry came in, lowest went out):
-//   q: 'Where leaning on AI builds understanding'
-//   links: Understanding Bottleneck (wiki/Concepts) · Are You Thinking, or Just Consuming (wiki/Concepts) · The Screen Inferiority Effect (wiki/Concepts)
-// Retired 2026-08-06 (same rule — the Least-Cost Interpretation entry came in, lowest went out):
-//   q: 'Whether the line between what humans and models own is fixed, or keeps shifting'
-//   links: Human vs AI Capability Lens (wiki/Concepts) · Higher-Order Generativity vs Judgment (wiki/Concepts) · The Floor Rose, the Ceiling Is the Job (journal)
-// Retired 2026-08-11 (the four-cap enforced — list had drifted to six, pruned back, lowest two out):
-//   q: 'What stays human as the models match generativity'
-//   links: Human vs AI Capability Lens (wiki/Concepts) · Higher-Order Generativity vs Judgment (wiki/Concepts) · A Motorcycle for the Mind (wiki/Concepts) · Automation and the Job Iceberg (wiki/Systems/AI & Agentic Systems)
-//   q: 'What changes when the deliberate reasoning inside a model can be read and steered directly'
-//   links: Global Workspace and J-space (wiki/Concepts) · The workspace a language model thinks in (journal/2026-07-07) · Human vs AI Capability Lens (wiki/Concepts)
-// Retired 2026-08-17 (Worldviews & the Political Order entered; lowest out):
-//   q: 'Whether the inner life that makes a written character read as a person is something a model can author'
-//   links: The Wound and the Lie · Round Characters and the Telling Detail · Human vs AI Capability Lens · Story Craft
+if (topOfMind.length !== 3) throw new Error('Top of mind holds exactly 3 lines on the home page.');
 
-// Intent doors ("Start here") — route a visitor by intent, not topic. slug → a note path
-// (resolved via cardHref); the graph door uses a direct href. Titles/subs are mined from each
-// destination note (concrete, note-grounded). Learn/Decode/Explore are seeded in .start-here CSS with a
-// dark override.
-type Door = { intent: string; icon: string; title: string; sub: string; color: string; slug?: string; href?: string };
-const startHere: Door[] = [
-  { intent: 'Learn',      icon: 'ti-school',    title: 'Does a Study Technique Work?',              sub: 'A technique such as notes or a mind map works only if it makes you process the material in your mind.',     color: 'var(--i-learn)',      slug: 'wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques' },
-  { intent: 'Decode',     icon: 'ti-language',  title: 'How Chinese Characters Are Built',    sub: 'Each character is made of smaller parts, and each part has a different function.', color: 'var(--i-decode)',     slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work' },
-  { intent: 'Explore',    icon: 'ti-affiliate', title: 'Map of the Site',           sub: 'Every node is an article on the site, and a line between two nodes shows a relationship.',                color: 'var(--i-explore)',    href: '/map/' },
-];
+const omitted =
+  'Raw sources, private notes, financial detail, and workbench drafts stay out of the published wiki.';
 
-type Hub = { title: string; icon: string; color: string; slug: string; tag?: string; countPrefix?: string };
-// Hub icon colors now draw from the cool-jewel domain palette (var(--d-*)), so they
-// match the theme and adapt across light/charcoal. Each column spreads the 6 domain
-// hues for rhythm rather than repeating the old ad-hoc brights.
-const dimensionHubs: Hub[] = [
-  { title: 'Deep Processing', icon: 'ti-affiliate', color: 'var(--d-learning)', slug: 'wiki/Dimensions/Deep-Processing', tag: 'deep-processing' },
-  { title: 'Retrieval', icon: 'ti-circle-arrow-up', color: 'var(--d-mind)', slug: 'wiki/Dimensions/Retrieval', tag: 'retrieval' },
-  { title: 'Self-Regulation', icon: 'ti-steering-wheel', color: 'var(--d-focus)', slug: 'wiki/Dimensions/Self-Regulation', tag: 'self-regulation' },
-  { title: 'Self-Management', icon: 'ti-settings', color: 'var(--d-gen)', slug: 'wiki/Dimensions/Self-Management', tag: 'self-management' },
-  { title: 'Mindset', icon: 'ti-brain', color: 'var(--d-agentic)', slug: 'wiki/Dimensions/Mindset', tag: 'mindset' },
-];
-const lifeHubs: Hub[] = [
-  { title: 'Health', icon: 'ti-heartbeat', color: 'var(--d-mind)', slug: 'wiki/Dimensions/Self-Management', countPrefix: 'wiki/Dimensions/Self-Management' },
-  { title: 'Money', icon: 'ti-wallet', color: 'var(--d-gen)', slug: 'wiki/Money/Money, Condensed', countPrefix: 'wiki/Money' },
-  { title: '中文', icon: 'ti-language', color: 'var(--d-language)', slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work', countPrefix: 'wiki/Language/Chinese' },
-  { title: 'Minimalism', icon: 'ti-box', color: 'var(--d-focus)', slug: 'wiki/Minimalism/Minimalism-as-Systems-Design', countPrefix: 'wiki/Minimalism' },
-  { title: 'Condensed Notes', icon: 'ti-book-2', color: 'var(--d-learning)', slug: 'wiki/Syntheses/Learning, Condensed', countPrefix: 'wiki/Syntheses' },
-];
-const executionHubs: Hub[] = [
-  { title: 'Agentic Engineering', icon: 'ti-robot', color: 'var(--d-agentic)', slug: 'wiki/Systems/AI & Agentic Systems/Agentic-Engineering', countPrefix: 'wiki/Systems/AI & Agentic Systems' },
-  { title: 'Learning Systems', icon: 'ti-network', color: 'var(--d-learning)', slug: 'wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques', countPrefix: 'wiki/Syntheses' },
-  { title: 'Focus Management', icon: 'ti-target', color: 'var(--d-focus)', slug: 'wiki/Self-Management/Flow-State', countPrefix: 'wiki/Self Management' },
-  { title: 'Decision Making', icon: 'ti-checklist', color: 'var(--d-gen)', slug: 'wiki/Decision-Making/Decision-Making', countPrefix: 'wiki/Decision Making' },
-  { title: 'Generativity', icon: 'ti-bulb', color: 'var(--d-mind)', slug: 'wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment', countPrefix: 'wiki/Concepts' },
-  { title: 'Worldviews', icon: 'ti-scale', color: 'var(--d-mind)', slug: 'wiki/Worldviews & the Political Order/Worldviews & the Political Order', countPrefix: 'wiki/Worldviews & the Political Order' },
-];
-const hubColumns = [
-  { title: 'Five Dimensions', items: dimensionHubs },
-  { title: 'Life Systems', items: lifeHubs },
-  { title: 'Knowledge & Execution', items: executionHubs },
-];
-
-// "Project Updates" — a foot-of-page changelog of what I'm currently building, newest first.
-// Grouped by date; each line links to the note that carries the work. slug → a note path
-// (resolved via cardHref below).
-type Update = { title: string; blurb: string; slug: string };
-type UpdateDay = { date: string; updates: Update[] };
-const projectUpdates: UpdateDay[] = [
-  {
-    date: '2026-09-16',
-    updates: [
-      {
-        title: 'Argument Validation',
-        blurb:
-          'Valid means a conclusion follows from facts an argument states. Sound means the conclusion follows and the facts are true. Each test works on any argument.',
-        slug: 'wiki/Argument Validation/Argument Validation',
-      },
-      {
-        title: 'East Asian Exams - The Arms Race',
-        blurb:
-          "One exam at about age 18 ranks students against each other for university. A student's rank on the exam still sets pay decades later. Tutoring by one family forces tutoring by the rest.",
-        slug: 'wiki/Worldviews & the Political Order/East Asian Exams - The Arms Race',
-      },
-    ],
-  },
-];
-
-const tagCount = new Map<string, number>();
-for (const n of notes) {
-  const raw = (n.data as Record<string, unknown>).tags;
-  const tags = Array.isArray(raw) ? raw.map(String) : raw ? [String(raw)] : [];
-  for (let t of tags) {
-    t = t.trim().toLowerCase().replace(/\s+/g, '-');
-    if (t) tagCount.set(t, (tagCount.get(t) ?? 0) + 1);
-  }
-}
-const slugs = notes.map((n) => n.id);
-function prefixCount(rawPrefix: string): number {
-  const base = slugifyFilePath(rawPrefix);
-  let c = 0;
-  for (const s of slugs) if (s === base || s.startsWith(base + '/')) c++;
-  return c;
-}
-function hubCount(h: Hub): number {
-  if (h.tag && tagCount.has(h.tag)) return tagCount.get(h.tag)!;
-  if (h.countPrefix) return prefixCount(h.countPrefix);
-  return prefixCount(h.slug.replace(/\/[^/]+$/, ''));
-}
-const hubHref = (slug: string) => slugToUrl(slugifyFilePath(slug));
-const cardHref = (slug: string) => slugToUrl(slugifyFilePath(slug));
-const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind', 'gen'];
+const buildersHref = slugToUrl(
+  slugifyFilePath("wiki/Systems/AI & Agentic Systems/Builders' Logs 2026.md"),
+);
 ---
 
-<Base title={hero.title ?? 'Logos52'} description={hero.lede} active="home">
+<Base title="Logos52" description={objective} active="home">
   <main class="home">
     <div class="wrap">
       <section class="hero">
-        <h1 class="hero__title">{hero.title}</h1>
-        <p class="hero__lede">{hero.lede}</p>
-      </section>
-      <section class="map">
-        <Constellation height="clamp(150px, 17vh, 200px)" />
-        <div class="map__legend">
-          {chipDomains.map((d) => <DomainChip label={DOMAIN_LABELS[d]} domain={d} icon={DOMAIN_ICONS[d]} href={`/domains/${d}/`} />)}
-        </div>
+        <p class="hero__objective">{objective}</p>
       </section>
 
-      <section class="start-here">
-        <h2 class="start-here__head">Start here</h2>
-        <div class="start-here__doors">
-          {startHere.map((d) => (
-            <a class="door" style={`--dc:${d.color}`} href={d.href ?? cardHref(d.slug!)}>
-              <span class="door__kind"><Icon name={d.icon} size="15px" /><span class="door__intent">{d.intent}</span></span>
-              <span class="door__title">{d.title}</span>
-              <span class="door__sub">{d.sub}</span>
-            </a>
-          ))}
-        </div>
+      <section class="spotlight" aria-labelledby="spotlight-head">
+        <h2 id="spotlight-head" class="spotlight__head">Builders' Logs 2026</h2>
+        <p class="spotlight__copy">
+          Thirteen agent builders in bridge order, with Grok and Anthropic lab sections, dated source
+          links, and person pages (who they are, mindset, setup, timeline).
+        </p>
+        <a class="spotlight__link" href={buildersHref}>Open Builders' Logs 2026</a>
       </section>
 
-      <section class="topmind">
-        <h2 class="topmind__head">Top of mind</h2>
-        <ul class="topmind__list">
-          {topOfMind.map((m) => (
-            <li class="topmind__item">
-              <p class="topmind__q">{m.q}</p>
-              <p class="topmind__links">
-                {m.links.map((l, i) => (
-                  <span>{i > 0 ? ' · ' : ''}<a href={l.href}>{l.t}</a></span>
-                ))}
-              </p>
+      <section class="doors" aria-labelledby="doors-head">
+        <h2 id="doors-head" class="doors__head">Where to start</h2>
+        <ul class="doors__list">
+          {DOMAINS.map((d: Domain) => (
+            <li>
+              <a class="door" href={`/domains/${d}/`} style={`--dc:var(--d-${d})`}>
+                <span class="door__label">
+                  <Icon name={DOMAIN_ICONS[d]} size="16px" class="door__icon" />
+                  {DOMAIN_LABELS[d]}
+                </span>
+                <span class="door__stance">{DOMAIN_STANCES[d]}</span>
+              </a>
             </li>
           ))}
         </ul>
       </section>
 
-      <section class="hub-lists">
-        {hubColumns.map((col) => (
-          <div class="hub-card">
-            <div class="hub-card__title">{col.title}</div>
-            <ul class="hub-list">
-              {col.items.map((h) => (
-                <li>
-                  <a href={hubHref(h.slug)}>
-                    <Icon name={h.icon} size="16px" class="hub-list__icon" />
-                    <span class="hub-list__title">{h.title}</span>
-                    <span class="hub-list__count">{hubCount(h)}</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+      <section class="topmind" aria-labelledby="topmind-head">
+        <h2 id="topmind-head" class="topmind__head">Top of mind</h2>
+        <ul class="topmind__lines">
+          {topOfMind.map((line) => (
+            <li>{line}</li>
+          ))}
+        </ul>
       </section>
 
-      <section class="updates">
-        <h2 class="updates__head">Project Updates</h2>
-        <div class="updates__box">
-          {projectUpdates.map((day) => (
-            <div class="updates__day">
-              <div class="updates__date">{day.date}</div>
-              <ul class="updates__list">
-                {day.updates.map((u) => (
-                  <li class="updates__item">
-                    <a class="updates__title" href={cardHref(u.slug)}>{u.title}</a>
-                    <p class="updates__blurb">{u.blurb}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </section>
+      <p class="omit">{omitted}</p>
     </div>
   </main>
 </Base>
@@ -273,295 +74,126 @@ const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind
   .wrap {
     max-width: var(--kb-content);
     margin: 0 auto;
-    padding: 0 28px;
+    padding: 48px 28px 56px;
   }
-  .home {
-    padding-bottom: 40px;
-  }
-
-  /* hero — left, compact */
-  .hero {
-    max-width: 60ch;
-    padding: 40px 0 0;
-  }
-  .hero__title {
+  .hero__objective {
     font-family: var(--ming);
-    font-weight: 500;
-    font-size: var(--kb-text-h1-shell);
-    line-height: 1.2;
-    letter-spacing: -0.01em;
-    margin: 0 0 0.5rem;
+    font-size: var(--kb-text-h2-shell);
+    line-height: var(--kb-lh-snug);
+    color: var(--ink);
+    margin: 0;
+    max-width: 40rem;
+  }
+  .spotlight {
+    margin-top: 28px;
+    padding: 18px 0 20px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    max-width: 44rem;
+  }
+  .spotlight__head {
+    font-family: var(--ming);
+    font-size: var(--kb-text-md);
+    font-weight: 600;
+    margin: 0 0 8px;
     color: var(--ink);
   }
-  .hero__lede {
+  .spotlight__copy {
     font-family: var(--ming);
     font-size: var(--kb-text-base);
-    letter-spacing: 0;
-    line-height: 1.55;
+    line-height: var(--kb-lh-body);
     color: var(--mut);
-    margin: 0;
+    margin: 0 0 12px;
   }
-  /* constellation + legend */
-  .map {
-    margin: 18px 0 0;
-  }
-  .map__graph-link {
-    font-family: var(--sans);
-    font-size: 11px;
+  .spotlight__link {
+    font-family: var(--ming);
+    font-size: var(--kb-text-base);
+    font-weight: 600;
     color: var(--accent);
     text-decoration: none;
-    margin-left: auto;
   }
-  .map__legend {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 7px;
-    align-items: center;
-    padding: 12px 2px 0;
+  .spotlight__link:hover {
+    text-decoration: underline;
   }
-
-  /* currently — a full-width "now" band (replaces the open-questions / retrieval pulse) */
-  .topmind {
-    margin-top: 18px;
+  .doors {
+    margin-top: 40px;
   }
+  .doors__head,
   .topmind__head {
     font-family: var(--ming);
     font-size: var(--kb-text-base);
     font-weight: 600;
-    margin: 0 0 10px;
+    margin: 0 0 14px;
     color: var(--ink);
   }
-  .topmind__list {
+  .doors__list {
     list-style: none;
     margin: 0;
     padding: 0;
     display: grid;
-    gap: 12px;
-  }
-  .topmind__q {
-    font-family: var(--ming);
-    font-size: var(--kb-text-base);
-    color: var(--ink);
-    margin: 0 0 2px;
-  }
-  .topmind__links {
-    font-size: var(--kb-text-sm);
-    line-height: var(--kb-lh-body);
-    color: var(--mut);
-    margin: 0;
-  }
-  /* links in ink, no underline; accent on hover (2026-10-15) */
-  .topmind__links a {
-    color: var(--ink);
-    text-decoration: none;
-  }
-  .topmind__links a:hover {
-    color: var(--accent);
-  }
-
-  /* start here — intent doors (wash cards, icon left of the intent label) */
-  .start-here {
-    margin-top: 28px;
-    /* Door seeds map to the cool-jewel domain palette (var(--d-*)) — one domain hue
-       per intent. The domain tokens already carry light + dark values, so the doors
-       adapt automatically (no separate dark override needed). */
-    --i-understand: var(--d-agentic);
-    --i-apply: var(--d-gen);
-    --i-learn: var(--d-learning);
-    --i-decode: var(--d-language);
-    --i-explore: var(--d-focus);
-  }
-  .start-here__head {
-    font-family: var(--ming);
-    font-size: var(--kb-text-base);
-    font-weight: 600;
-    margin: 0 0 10px;
-    color: var(--ink);
-  }
-  .start-here__doors {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 0;
   }
   .door {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    padding: 14px 15px;
-    border-radius: var(--tsg-radius);
-    /* plain card; the domain hue stays on the icon and intent label only */
-    border: 1px solid var(--rule);
-    background: var(--card);
-    text-decoration: none;
-    transition: border-color var(--dur-base);
-  }
-  .door:hover {
-    border-color: var(--rule2);
-  }
-  .door__kind {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-  .door__kind :global(.kb-icon) {
-    font-size: 12px;
-    color: var(--dc);
-    opacity: 0.7;
-    line-height: 1;
-  }
-  .door__intent {
-    font-family: var(--mono);
-    font-size: 0.75rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--dc);
-  }
-  .door__title {
-    font-family: var(--ming);
-    font-size: var(--kb-text-base);
-    font-weight: 600;
-    line-height: 1.2;
-    color: var(--ink);
-  }
-  .door__sub {
-    font-size: var(--kb-text-sm);
-    color: var(--mut);
-    line-height: var(--kb-lh-snug);
-  }
-
-  /* three hub-list columns — compact (matches the original sizes) */
-  .hub-lists {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    margin-top: 26px;
-  }
-  /* unboxed: titles, row rules and counts carry the structure */
-  .hub-card {
-    padding: 14px 0;
-  }
-  .hub-card__title {
-    font-family: var(--ming);
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    color: var(--ink);
-    margin: 0 0 4px;
-  }
-  .hub-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .hub-list li {
+    gap: 6px;
+    padding: 16px 0;
     border-top: 1px solid var(--rule);
+    text-decoration: none;
+    color: inherit;
   }
-  .hub-list li:first-child {
-    border-top: none;
+  .doors__list li:last-child .door {
+    border-bottom: 1px solid var(--rule);
   }
-  .hub-list a {
+  .door:hover .door__label {
+    color: var(--accent);
+  }
+  .door__label {
+    font-family: var(--ming);
+    font-size: var(--kb-text-md);
+    font-weight: 600;
+    color: var(--ink);
     display: flex;
     align-items: center;
-    gap: 9px;
-    padding: 7px 2px;
-    text-decoration: none;
-    color: var(--ink);
+    gap: 8px;
   }
-  .hub-list a:hover .hub-list__title {
-    color: var(--accent);
+  .door :global(.door__icon) {
+    color: var(--dc);
+    opacity: 0.85;
   }
-  .hub-list a :global(.hub-list__icon) {
-    flex-shrink: 0;
-    color: var(--faint);
-  }
-  .hub-list__title {
-    font-size: var(--kb-text-base);
-  }
-  .hub-list__count {
-    margin-left: auto;
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--faint);
-  }
-
-  /* project updates — a foot-of-page changelog of what I'm building, grouped by date */
-  .updates {
-    margin-top: 26px;
-  }
-  .updates__head {
+  .door__stance {
     font-family: var(--ming);
     font-size: var(--kb-text-base);
-    font-weight: 600;
-    margin: 0 0 10px;
-    color: var(--ink);
+    line-height: var(--kb-lh-body);
+    color: var(--mut);
+    max-width: 44rem;
   }
-  .updates__box {
-    padding: 4px 0;
+  .topmind {
+    margin-top: 36px;
   }
-  .updates__day {
-    padding: 14px 0;
-    border-top: 1px solid var(--rule);
-  }
-  .updates__day:first-child {
-    border-top: none;
-  }
-  .updates__date {
-    font-family: var(--mono);
-    font-size: 11px;
-    letter-spacing: 0.04em;
-    color: var(--faint);
-    margin: 0 0 8px;
-  }
-  .updates__list {
+  .topmind__lines {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: grid;
+    gap: 10px;
   }
-  .updates__item {
-    padding: 9px 0;
-  }
-  .updates__item + .updates__item {
-    border-top: 1px solid var(--rule);
-  }
-  .updates__title {
+  .topmind__lines li {
     font-family: var(--ming);
     font-size: var(--kb-text-base);
-    font-weight: 600;
-    line-height: 1.25;
-    color: var(--ink);
-    text-decoration: none;
-  }
-  .updates__title:hover {
-    color: var(--accent);
-  }
-  .updates__blurb {
-    font-size: var(--kb-text-sm);
-    color: var(--mut);
     line-height: var(--kb-lh-body);
-    margin: 3px 0 0;
+    color: var(--ink);
+    max-width: 44rem;
   }
-
-  @media (max-width: 820px) {
-    .hub-lists {
-      grid-template-columns: 1fr;
-    }
-    .start-here__doors {
-      grid-template-columns: repeat(3, 1fr);
-    }
+  .omit {
+    margin: 36px 0 0;
+    font-family: var(--ming);
+    font-size: var(--kb-text-sm);
+    color: var(--faint);
+    max-width: 40rem;
   }
   @media (max-width: 640px) {
-    .start-here__doors {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    /* Odd count: let the last door (Explore) span the row instead of orphaning. */
-    .start-here__doors .door:last-child {
-      grid-column: 1 / -1;
-    }
     .wrap {
-      padding: 0 16px;
-    }
-    .map__graph-link {
-      margin-left: 0;
+      padding: 36px 16px 48px;
     }
   }
 </style>

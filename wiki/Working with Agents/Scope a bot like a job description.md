@@ -1,11 +1,11 @@
 ---
 title: "Scope a bot like a job description"
-type: guide
+type: practice
 section: "Working with Agents"
 status: seed
 description: "Give each bot one job and write its description the way you would write a job description for a new teammate: its lane, its standing rules, and the materials and access it needs to be an expert. Keep the description at the level of principles."
 created: 2026-10-20
-updated: 2026-10-20
+updated: 2026-11-22
 effort: one to two hours per bot
 needs: a bot with an editable description
 cost_note: no
@@ -88,7 +88,7 @@ A bot's description works almost like a system prompt, which some people call th
 3. **Write standing rules into the description.** One presenter's slide bot has very explicit instructions in its description on how to edit an existing deck: use a particular font with particular colors, and send back a screenshot of each slide once it is done. Because the bot already has that predefined set of things to do, going back and forth with it is easier. A description can also set the voice the bot uses with you.
 4. **Give it what an expert needs.** Treat bots as team members you are onboarding: make them an expert in their field and give them all the relevant information and materials to be great at that job. Trust starts with access, such as connecting the bot to your Slack and email. You can then ask it to study that context and tell you what job it can take off your plate.
 5. **Let the scope grow with trust.** One speaker's bots start with a specific domain and expand their scope as that speaker brings them questions outside it.
-6. **Keep the description at the level of principles.** Looking at a description that had become too specific, one speaker noted that a rule or skill written right after one problem tends to absorb that session's details, which makes it less reusable. [[wiki/Working with Agents/Set up a first engineering bot|Set up a first engineering bot]] shows one being rewritten as principles.
+6. **Keep the description at the level of principles.** Looking at a description that had become too specific, one speaker noted that a rule or skill written right after one problem tends to absorb that session's details, which makes it less reusable. [[wiki/Working with Agents/Scope a bot like a job description|Set up a first engineering bot]] shows one being rewritten as principles.
 
 ### A prompt to copy
 
@@ -105,10 +105,16 @@ A bot's description works almost like a system prompt, which some people call th
 
 Scoped this way, each bot holds one job, with its own rules and materials, and a short description you can keep editing as the work changes.
 
+## A fleet of single-job bots
+
+Several bots tangle quickly when you talk to each one separately and each keeps its own version of the facts. One front door helps: a chief of staff bot takes your requests and hands them to specialists. Give every other bot one job and a name. Put bots working on one project into a group chat. Keep one shared document as the source of truth and tell every bot to update it. Run a scheduled checkup that reads transcripts for repeated mistakes and wasteful routines.
+
+Staffing patterns from the public workshop cluster bots by domain, such as finance, customers, or marketing, then tighten the lane until the bot can specialize. Other teams onboard bots like new hires: connect access, let the bot study the context, and ask what job it can take. The first engineering bot on this desk is the scoping page applied once to a helper that runs cloud agents. Its description should name the repo, the proof bar, and what it may merge without asking.
+
 ## Related pages
 
-- [[wiki/Working with Agents/Set up a first engineering bot|Set up a first engineering bot]] applies this to a bot that runs cloud agents.
-- [[wiki/Working with Agents/Organize a fleet of bots|Organize a fleet of bots]] covers how single-job bots work together.
+- [[wiki/Working with Agents/Run more agents in parallel|Run more agents in parallel]]: coordinator agents for coding work
+- [[wiki/Working with Agents/Give an agent a task without micromanaging it|Give an agent a task without micromanaging it]]: handing a single task after scope is set
 
 ## Sources
 

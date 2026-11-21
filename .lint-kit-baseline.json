@@ -1569,11 +1569,6 @@
     {
       "rule": "R1",
       "file": "src/components/Chrome.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/components/Chrome.astro",
       "fingerprint": "d37253d3"
     },
     {
@@ -1894,7 +1889,7 @@
     {
       "rule": "R1",
       "file": "src/layouts/Note.astro",
-      "fingerprint": "c03f8f82"
+      "fingerprint": "34ced4ab"
     },
     {
       "rule": "R1",
@@ -1905,36 +1900,6 @@
       "rule": "R1",
       "file": "src/lib/backlinks.ts",
       "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "221df707"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "8292c242"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "88e3b667"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "a2e5945f"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "f21a6c82"
     },
     {
       "rule": "R1",
@@ -2059,6 +2024,11 @@
     {
       "rule": "R1",
       "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "db397529"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
       "fingerprint": "dd2db9b8"
     },
     {
@@ -2084,7 +2054,7 @@
     {
       "rule": "R1",
       "file": "src/lib/note.ts",
-      "fingerprint": "4799c8a1"
+      "fingerprint": "b2ab2d25"
     },
     {
       "rule": "R1",
@@ -2095,6 +2065,11 @@
       "rule": "R1",
       "file": "src/lib/note.ts",
       "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/note.ts",
+      "fingerprint": "c0607378"
     },
     {
       "rule": "R1",
@@ -2234,11 +2209,6 @@
     {
       "rule": "R1",
       "file": "src/lib/types.ts",
-      "fingerprint": "dc4a21cf"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
       "fingerprint": "df650e49"
     },
     {
@@ -2338,27 +2308,12 @@
     },
     {
       "rule": "R1",
-      "file": "src/pages/index.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
       "file": "src/pages/journal.astro",
       "fingerprint": "c03f8f82"
     },
     {
       "rule": "R1",
       "file": "src/pages/llm-knowledge-base.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/map.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/notes.astro",
       "fingerprint": "c03f8f82"
     },
     {
@@ -2375,6 +2330,16 @@
       "rule": "R1",
       "file": "src/pages/tags/[tag].astro",
       "fingerprint": "7d6fb823"
+    },
+    {
+      "rule": "R1",
+      "file": "src/redirects/load-redirects.mjs",
+      "fingerprint": "8eb88a31"
+    },
+    {
+      "rule": "R1",
+      "file": "src/redirects/load-redirects.mjs",
+      "fingerprint": "c03f8f82"
     },
     {
       "rule": "R1",
@@ -3417,11 +3382,6 @@
       "fingerprint": "b6e5ec32"
     },
     {
-      "rule": "R17",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "f22f0f26"
-    },
-    {
       "rule": "R18",
       "file": "src/lib/types.ts",
       "fingerprint": "b35d6852"
@@ -3519,16 +3479,6 @@
     {
       "rule": "R2",
       "file": "kb-astro/generate-site-data.mjs",
-      "fingerprint": "bc47c1bb"
-    },
-    {
-      "rule": "R2",
-      "file": "kb-astro/generate-site-data.mjs",
-      "fingerprint": "bc47c1bb"
-    },
-    {
-      "rule": "R2",
-      "file": "kb-astro/generate-site-data.mjs",
       "fingerprint": "871a78d4"
     },
     {
@@ -3545,6 +3495,16 @@
       "rule": "R2",
       "file": "kb-astro/generate-site-data.mjs",
       "fingerprint": "905f519e"
+    },
+    {
+      "rule": "R2",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "bc47c1bb"
+    },
+    {
+      "rule": "R2",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "bc47c1bb"
     },
     {
       "rule": "R2",
@@ -3993,11 +3953,6 @@
     },
     {
       "rule": "R2",
-      "file": "src/components/Chrome.astro",
-      "fingerprint": "a0b4615b"
-    },
-    {
-      "rule": "R2",
       "file": "src/islands/constellation.ts",
       "fingerprint": "107daf99"
     },
@@ -4213,16 +4168,6 @@
     },
     {
       "rule": "R2",
-      "file": "src/layouts/Base.astro",
-      "fingerprint": "59bda16c"
-    },
-    {
-      "rule": "R2",
-      "file": "src/layouts/Note.astro",
-      "fingerprint": "48e1780e"
-    },
-    {
-      "rule": "R2",
       "file": "src/lib/backlinks.ts",
       "fingerprint": "60457f87"
     },
@@ -4313,23 +4258,8 @@
     },
     {
       "rule": "R2",
-      "file": "src/pages/index.astro",
-      "fingerprint": "811c9dc5"
-    },
-    {
-      "rule": "R2",
-      "file": "src/pages/map.astro",
-      "fingerprint": "9f0de675"
-    },
-    {
-      "rule": "R2",
       "file": "src/pages/personal.astro",
       "fingerprint": "163ad823"
-    },
-    {
-      "rule": "R2",
-      "file": "src/pages/projects.astro",
-      "fingerprint": "ca38afd0"
     },
     {
       "rule": "R2",
@@ -4389,7 +4319,7 @@
     {
       "rule": "R21",
       "file": "src/lib/domain.ts",
-      "fingerprint": "c03f8f82"
+      "fingerprint": "96c45e4a"
     },
     {
       "rule": "R21",
@@ -4477,6 +4407,16 @@
       "fingerprint": "d021b571"
     },
     {
+      "rule": "R26",
+      "file": "pull_request",
+      "fingerprint": "51d0729d"
+    },
+    {
+      "rule": "R26",
+      "file": "pull_request",
+      "fingerprint": "c7c2592f"
+    },
+    {
       "rule": "R3",
       "file": "src/islands/constellation.ts",
       "fingerprint": "1f827dbf"
@@ -4510,6 +4450,11 @@
       "rule": "R3",
       "file": "src/islands/constellation.ts",
       "fingerprint": "e021d11c"
+    },
+    {
+      "rule": "R3",
+      "file": "src/islands/map-list.ts",
+      "fingerprint": "66c0e9cb"
     },
     {
       "rule": "R3",
@@ -5765,11 +5710,6 @@
       "rule": "R4",
       "file": "src/lib/pagefind-client.ts",
       "fingerprint": "854d1920"
-    },
-    {
-      "rule": "R4",
-      "file": "src/lib/types.ts",
-      "fingerprint": "3476ab30"
     },
     {
       "rule": "R4",

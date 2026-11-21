@@ -101,8 +101,8 @@ BG3 out-teaches all of them on exactly two things: **planting rigor** (the appro
 
 ## Corrections owed to the wing
 
-- [[wiki/Story Craft/Arc Types|Arc Types]] and [[wiki/Story Craft/Stakes Without Mortality|Stakes Without Mortality]] both still place 星野's mask-crack at **B3L08**. The 2026-07-09 decision moved it to **B3L09**, triggered by the group-split scatter.
-- [[wiki/Story Craft/Companion Arcs and Party Banter|Companion Arcs and Party Banter]] builds its central section on the **Mass Effect 2 loyalty mission** and files BG3 alongside it. BG3 does not use that structure; it braids each companion's arc through all three acts rather than isolating it into a modular quest. The "one arc-closing beat per companion" rule is ME2's, and the attribution should say so.
+- [[wiki/Story Craft/Story Craft|Arc Types]] and [[wiki/Story Craft/Stakes Without Mortality|Stakes Without Mortality]] both still place 星野's mask-crack at **B3L08**. The 2026-07-09 decision moved it to **B3L09**, triggered by the group-split scatter.
+- [[wiki/Story Craft/The Character Web|Companion Arcs and Party Banter]] builds its central section on the **Mass Effect 2 loyalty mission** and files BG3 alongside it. BG3 does not use that structure; it braids each companion's arc through all three acts rather than isolating it into a modular quest. The "one arc-closing beat per companion" rule is ME2's, and the attribution should say so.
 - The same page credits an "actions stick" framing to a Larian developer named Stephen Rooney. The reputation-system explanation we could verify traces to writer **Kevin VanOrd**. The Rooney attribution did not survive checking and needs a source or a cut.
 
 ## Refuted during fact-check

@@ -1,112 +1,102 @@
 ---
-type: synthesis
-status: developing
-description: "Central hub for the five capabilities that decide learning performance, Mindset, Self-Management, Self-Regulation, Deep Processing, Retrieval, where the weakest dimension sets the ceiling for the rest."
+type: hub
+domain: learning
+status: stable
+description: "Learning performance is limited by the weakest of five trainable capabilities—mindset, self-management, self-regulation, deep processing, and retrieval—not by whichever technique is fashionable."
 created: 2026-05-04
-updated: 2026-11-11
-method: fresh-from-notes-2026-11-11
-prose-model: opus
-source-count: 10
-last-audited: 2026-08-14
-written-by: grok
-model: grok
+updated: 2026-11-21
+source-count: 12
 tags:
   - learning-system
   - dimensions
   - self-regulation
   - deep-processing
-wedge_reviewed: false
 ---
 
 # Dimensions of Learning
 
-> Not yet reviewed by Wedge.
+> Learning ability breaks into five dimensions: mindset, self-management, self-regulation, deep processing, and retrieval. Each answers a different question about how you study, and a weakness in any one caps what the others can deliver. The model is a diagnostic: find the limiting dimension, train it with deliberate practice, and only then stack more techniques. Alongside that map sit three knowledge jobs—knowing what something is, running it automatically, and judging when to use it—and a practical rule that multimodal effort beats matching a mythical learning style.
 
-Learning ability breaks down into five dimensions: mindset, self-management, self-regulation, deep processing and retrieval. Mindset shapes how a person reacts to challenge and mistakes. Self-management builds the habits and systems that make consistent effort possible. Self-regulation monitors and steers learning as it happens. Deep processing turns information into meaningful knowledge, and retrieval keeps that knowledge accurate and usable. A weakness in any one limits the others, so the useful question is which dimension sets the current limit. Deep processing ability varies between people, which is why copying a top learner's technique often fails. All five can be trained through targeted practice.
+## The five questions
 
-## Core takeaways
+Each dimension is defined by the question it answers, not by a bag of tips.
 
-- The five dimensions are mindset, self-management, self-regulation, deep processing and retrieval.
-- Self-management comes first in practice, because without control of time and attention nothing else gets practiced.
-- Deep processing is the engine and self-regulation is the driving skill, and consistent performance needs both.
-- Some people succeed with mediocre technique because strong deep processing compensates, which does not carry over when someone else copies them.
-- Each dimension is trained by building habits through practice, not by instruction alone.
-
-## The five dimensions
-
-Each dimension answers a different question about a learner.
-
-| Dimension | The question | The job |
+| Dimension | Question | Job |
 |---|---|---|
-| [[wiki/Dimensions/Mindset\|Mindset]] | Do my beliefs let me grow through difficulty? | Shapes how challenges and mistakes are read |
-| [[wiki/Dimensions/Self-Management\|Self-Management]] | Do I have systems that make consistent action possible? | Habits, routines and environments for time, tasks and attention |
-| [[wiki/Dimensions/Self-Regulation\|Self-Regulation]] | Can I notice what is happening and adjust? | Monitoring, guiding and refining the learning process |
-| [[wiki/Dimensions/Deep Processing\|Deep Processing]] | Am I extracting meaning from what I take in? | Connecting, analyzing and critiquing new information |
-| [[wiki/Dimensions/Retrieval\|Retrieval]] | Can I recall and use what I know? | Keeping knowledge accurate and usable under pressure |
+| [[wiki/Dimensions/Mindset\|Mindset]] | Do my beliefs let me grow through difficulty? | Read challenge and mistakes as usable feedback |
+| [[wiki/Dimensions/Self-Management\|Self-Management]] | Do I have systems that make consistent action possible? | Time, tasks, attention, and environment |
+| [[wiki/Dimensions/Self-Regulation\|Self-Regulation]] | Can I notice what is happening and adjust? | Monitor and steer learning as it runs |
+| [[wiki/Dimensions/Deep Processing\|Deep Processing]] | Am I extracting meaning from what I take in? | Connect, analyse, and critique new information |
+| [[wiki/Dimensions/Retrieval\|Retrieval]] | Can I recall and use what I know under pressure? | Keep knowledge accurate and available |
 
-## What each dimension does, and what happens when it is weak
+Self-management gates the rest. Until time and attention are under some control, the other dimensions never get honest practice. Mindset decides whether mistakes become data or verdicts. Self-regulation is the driving skill on top of deep processing’s “engine”: you need both for steady performance when material or conditions change. Retrieval depends on encoding quality and, in turn, forces deeper processing when tests are hard enough.
 
-Each dimension has a typical failure when it is weak.
+Typical failures are easy to spot. Fixed mindset avoids challenge and over-demands certainty before trying. Weak self-management leaves you reactive and willpower-dependent. Weak self-regulation makes performance collapse when teaching stops hand-holding. Shallow processing produces isolated facts without a usable structure. Weak retrieval shows up as confident recognition that fails in production.
 
-Mindset is the belief that abilities, intelligence and even identity can grow. A growth mindset reads challenges as chances to learn and mistakes as feedback. A fixed mindset defines a person by past results or current limits, avoids challenge and demands far more certainty than the stakes warrant before trying something new, so improvement is slow.
+Several pairs are often confused. Self-management builds the systems around learning; self-regulation steers the learning itself and rests on [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|metacognition]]. Deep processing sets how much meaning you can pull from a source; self-regulation decides whether you actually do that work in the moment.
 
-Self-management covers focus, time, energy, attention, procrastination and priorities. Weak self-management leaves a person trapped by a stream of urgent tasks and running on willpower. Two common objections miss the point. Done well, self-management does not turn a person into a robot or feed toxic productivity, since its purpose is to spend time and attention the way the person intends.
+## What holds for everyone, what is individual
 
-Self-regulation is the ability to monitor, guide and refine one's own learning. Learners with weak self-regulation depend on raw processing ability, and their performance drops when instruction is less guided or conditions are hard.
+The principles apply broadly, but ceilings differ. Deep processing has a genetic and early-life component, though it can be trained. Someone with unusually strong processing may succeed with mediocre methods—**deep processing tanking**—which misleads others who copy the same surface habits. Even strong processors eventually hit goals where tanking fails and the other dimensions matter. Mindset also varies by domain: growth in one subject, fixed in another, is normal.
 
-Deep processing runs from shallow to deep. Deep processing analyzes, connects and critiques, giving strong memory and flexible use. Shallow processing repeats and memorizes without context, so a learner can grasp single concepts and still miss the bigger picture.
+## Three knowledge jobs under any skill
 
-Retrieval is recalling and using knowledge, whether stating a fact, explaining, solving a problem or discussing an idea. Since knowledge always decays, weak retrieval means errors and poor performance under pressure.
+Every skill hides three separable jobs. Having one does not give you the others.
 
-## Key Distinctions
+**Declarative** work is what you can still explain step by step: facts, concepts, relationships, and any move you choose on purpose. **Procedural** work is what runs without conscious step choice—fluency, muscle memory, automated execution. In this vault, conditional judgment—when and why to use a move—is treated as declarative that thickens through varied practice, not as a fourth store.
 
-Several pairs of dimensions are easy to confuse. Deep processing and self-regulation differ the way an engine differs from driving skill. Deep processing sets the engine's power, and self-regulation is how well it is driven, so consistent performance across changing conditions needs both.
+The split is a diagnostic. A messy problem exposes either the wrong method or order (declarative gap) or the right method done clumsily (procedural gap). Understanding without performance is common; most mastery is built in attempts, not in explanations. Theory first, then an early **fail-fast, fail-safe** attempt: you make roughly five to seven characteristic mistakes out of hundreds of possibilities, and those are what practice should hunt.
 
-Self-management and self-regulation also differ. Self-management builds the systems, habits and environments around learning, while self-regulation steers the learning itself as it happens. Self-regulation rests on metacognition, meaning awareness of one's own thinking, which supplies the awareness that adjustment acts on. Self-regulation is also not about avoiding mistakes. It is the skill of noticing what is happening, such as catching oneself memorizing details instead of understanding concepts, and changing course.
+Suspect declarative before adding more drills of the same shape. Approach, strategy, and judgment stay expensive even as pure execution gets cheap to automate. After each attempt, run a short loop—what happened, how it felt, what rule that suggests, what changes next time—along the lines of [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb’s cycle]].
 
-## How the five work together
+## Multimodal study, not learning styles
 
-The dimensions depend on each other. Self-management gates the rest, because until a person controls their time and attention they cannot put real effort into the other dimensions. Learning techniques are useless without the habits to practice, reflect and come back. Mindset governs how mistakes are used, which drives growth in every dimension. Self-regulation steers deep processing and retrieval as they run.
+Fixed learning styles (visual, auditory, kinesthetic labels as identity) do not hold up in research. Preferences remain, but they are not limits. What tracks results more closely is whether the brain is engaged—work that is hard to do while switched off. The practical move is to **mix modes**: read, write, draw, speak, and practise, instead of matching a single channel. Notes are the easiest place to add a less-used mode (sketches, diagrams, shorthand) without turning study into decoration. Left-brain/right-brain stories do not rescue the old advice; multimodal effort helps whatever the mechanism.
 
-## What holds for everyone, and what is one person's solution
+## How techniques map to dimensions
 
-The principles hold for everyone, but natural starting points differ. Deep processing depends heavily on genetics and early childhood, though it can be trained. A person with exceptional deep processing can do well with mediocre methods, which is called deep processing tanking. Learners without that ability who copy the same strategies do not get the same results. Even strong processors eventually meet goals hard enough that tanking fails, so they too need the other dimensions. Mindset also varies by area, since most people hold a growth mindset in some subjects and a fixed one in others.
+Techniques are repeatable actions that train one or more dimensions. They are not substitutes for diagnosing the limit.
 
-## Which dimension each technique serves
+Encoding methods—[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|importance-based chunking]], inquiry-driven reading—build structure as material arrives. Retrieval methods—[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|spaced interleaved retrieval]], revision passes, whole-part-whole teaching—stress memory after encoding. Habit and scheduling methods protect the conditions both need.
 
-Each dimension is trained by its own set of practices.
+Foundational bundles stack in order: question-first intake, nonlinear maps, importance-based grouping, then spaced retrieval layered on top. The skill target is **conscious competence** moving toward cheap success before adding the next method ([[wiki/Concepts/Four Stages of Competence|four stages of competence]]). Piling several high-effort methods at once overloads working memory and feels like stagnation.
 
-- Mindset: building awareness of limiting beliefs, making many small and cheap mistakes, reflecting on what to change, then repeating until mistakes feel like progress.
-- Self-management: realistic schedules with time-blocking, task screening by time, importance and urgency, focus routines and breaking and making habits.
-- Self-regulation: reflection that builds metacognition, accepting desirable difficulty and learning the theory of how learning works so adjustments are well aimed.
-- Deep processing: scaffolded practice that builds cognitive habits one skill at a time until they become automatic, as with drills in tennis before full matches.
-- Retrieval: matching the method to declarative, procedural or conditional knowledge, spacing and interleaving practice and aiming retrieval at gaps.
+## Skills audit
+
+Growth stalls when technique mistakes accumulate unnoticed—after rushing, skipping a method, a long break, or a stage jump. A **skills audit** compares what you actually do against the guidelines for each method, rates honesty from poor to excellent, corrects one or two aspects at a time, and practises with feedback. The stance required is growth mindset: a low score is information, not a verdict. A lighter screen checks recent checkpoints; a full audit walks every lesson when the screen misses the gap. Repeat every few months, or faster while new methods are landing.
 
 ## Using the model
 
-The model is a diagnostic tool. A learner looks for the dimension that sets the current limit and works there first. For most people the biggest early gains come from the foundational lessons, which deal with the usual barriers in learning and self-management, while retraining deep processing habits takes weeks to months and pays off later. Rushing past the foundations usually means coming back to relearn them.
+Work on the dimension that currently blocks the others. For many learners the first payoff is self-management plus foundational retrieval habits; retraining deep-processing habits takes weeks to months and pays later. Rushing past foundations usually means relearning them under exam pressure.
 
-## How to practice this
+A simple loop:
 
-1. For each dimension, ask its question and rate the honest answer.
-2. Pick the weakest dimension that blocks the others, usually self-management if time and attention are not under control.
-3. Choose one practice for that dimension and run it for a few weeks.
-4. Reflect on what changed and pick the next limit.
+1. Ask each dimension’s question and answer honestly.
+2. Pick the weakest link that blocks practice—often self-management if time and attention are chaotic.
+3. Choose one practice from that dimension and run it for several weeks ([[wiki/Dimensions/30-Day Challenges|30-day challenges]] mirror this).
+4. Reflect, then move to the next limit.
 
 ## Related pages
 
-- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]: one practice track per dimension.
-- [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]: strong processing that hides weak technique.
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]]: the awareness self-regulation runs on.
-- [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]: the two mindsets in detail.
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: the core retrieval practice.
-- [[wiki/Syntheses/ICS System|ICS System]]: the program these dimensions come from.
+- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] — one practice track per dimension.
+- [[wiki/Syntheses/ICS System|ICS System]] — program these dimensions come from.
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] — encoding dimension hub.
+- [[wiki/Dimensions/Retrieval|Retrieval]] — memory-use dimension hub.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — core retrieval rhythm.
 
 ## Sources
 
-- iCanStudy, "Upgrading your dimensions", Catalyst. Private course notes, paraphrased.
-- iCanStudy, "Mindset", Catalyst. Private course notes, paraphrased.
-- iCanStudy, "Self-management", Catalyst. Private course notes, paraphrased.
-- iCanStudy, "Self-regulation", Catalyst. Private course notes, paraphrased.
-- iCanStudy, "Deep processing", Catalyst. Private course notes, paraphrased.
-- iCanStudy, "Retrieval", Catalyst. Private course notes, paraphrased.
+| Source | Note |
+|---|---|
+| iCanStudy, "Upgrading your dimensions", Catalyst | Private course notes, paraphrased |
+| iCanStudy, "Mindset", Catalyst | Private course notes, paraphrased |
+| iCanStudy, "Self-management", Catalyst | Private course notes, paraphrased |
+| iCanStudy, "Self-regulation", Catalyst | Private course notes, paraphrased |
+| iCanStudy, "Deep processing", Catalyst | Private course notes, paraphrased |
+| iCanStudy, "Retrieval", Catalyst | Private course notes, paraphrased |
+| Anderson, J. R., *The Architecture of Cognition* (1983) | Declarative vs procedural stores |
+| Paris, Lipson, & Wixson (1983); Paris & Jacobs (1984) | Strategic reader framing; contrasts with vault’s conditional stance |
+| Shea & Morgan (1979); Rohrer et al. (2015) | Varied practice and interleaving |
+| iCanStudy, "Effective Note Taking" / visual notes, Ascent II | Multimodal encoding |
+| iCanStudy, Technique Training / fundamentals | Inquiry, chunking, retrieval bundles |
+| iCanStudy, "How to perform a skills audit", Learning Support | LEEP audit flow |

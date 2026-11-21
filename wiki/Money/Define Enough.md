@@ -1,13 +1,9 @@
 ---
 title: "Define Enough"
-type: concept
-status: developing
+type: practice
+status: stable
 created: 2026-06-11
-updated: 2026-11-11
-method: fresh-from-notes-2026-11-11
-prose-model: fable
-written-by: grok
-model: grok
+updated: 2026-11-21
 source-count: 8
 tags:
   - money
@@ -15,65 +11,56 @@ tags:
   - investing
   - mindset
   - budgeting
-wedge_reviewed: false
 ---
 
 # Define Enough
 
-> Not yet reviewed by Wedge.
+Defining enough means choosing, in advance, how much wealth would make you free—and treating that point as the finish line. Without a written number, every raise funds a more expensive life and comparison keeps the target moving. With one, you can save toward freedom and still spend on what matters without sliding the mark.
 
-Defining enough means deciding in advance how much wealth would make you free, and treating that point as a finish line. Without a defined point, the target keeps rising. Each raise brings a lifestyle upgrade, the upgrade resets what counts as wealthy, and comparison with others keeps the goal moving. The repair is to write the point down, keep living below your means as income grows, and declare yourself done when you reach it. Enough is measured in freedom: not having to be anywhere, do anything, or answer to anyone you would not choose. Status cannot be won the same way, because it is a ranking that always has someone above.
+## Why the target rises without a number
 
-## Core takeaways
+Income usually climbs slowly across a career. As it climbs, people upgrade housing, transport, and the habits around them. Each upgrade resets what feels wealthy. Higher pay never becomes freedom when spending rises to meet it. Hedonic adaptation does the rest: a dream car lifts mood for a month or so, then baseline returns.
 
-- An undefined target rises with every raise, because lifestyle upgrades reset what feels like wealth.
-- Living far below your means buys a freedom that people busy upgrading cannot picture.
-- Write the finish line down before the money arrives, so adaptation has nothing to move.
-- Enough is defined by freedom over your own time, not by rank.
-- Status is zero-sum, so chasing it never reaches an end point.
+Comparison adds a second engine. People import wants from those around them. Status is a ranking, and rankings are zero-sum—one person rises only when another falls. A target set by rank moves as long as anyone ranks higher, which is always. Enough measured in freedom has a fixed endpoint. Enough measured in rank does not.
 
-## Why the target keeps rising
+## Freedom as the unit
 
-Income usually grows slowly over a long career. As it grows, people upgrade the house, the car and the habits that go with them, and each upgrade raises the amount they think of as wealthy. The result is a trap where higher pay never turns into freedom, because spending rose to meet it. Happiness from a new purchase also fades. A dream car gives a lift for a month or so, and then the owner is back to their usual mood.
+The number exists to buy freedom over your own hours: not having to be somewhere you did not choose, waking and sleeping on your own schedule, and no boss you would not pick. It is not about luxury goods, which dull quickly. Many people who reach financial independence keep working, but only on projects they would choose anyway.
 
-Comparison adds a second push. People copy their wants from those around them, and status is a ranking. Status is zero-sum: for one person to move up, someone else has to move down. A target set by rank keeps moving as long as someone ranks higher, which is always.
+Annual spending times roughly twenty-five is a common way to turn yearly expenses into a portfolio target under standard withdrawal talk. Any deliberate figure beats ambiguity. The crossover point in [[wiki/Money/Money, Condensed|Money, Condensed]]—the day investment income covers expenses—is the operational version of the same idea.
 
-The way out is to fix the target before adaptation can move it.
+## Write the number before the money arrives
 
-## The written number
+The finish line must be decided while it still lies in the future, then written down. Lump-sum windfalls help: lifestyle has less time to ratchet between checks, so saying “I am done” at a planned point is easier. A steady rising paycheck gives adaptation room to raise the bar every year. Writing the number early pins the bar before lifestyle creep does.
 
-The finish line has to be decided while it is still in the future, then written down. Earning in large, separated lumps helps, because lifestyle has no time to adjust between them, and it is easier to say "now I am done" at a planned point. Earning in a steady rising stream gives adaptation room to raise the bar with every step.
+When income rises, hold spending near its old level and send the difference toward the target. A hard cut in costs and an early exit is a valid path on its own. Fast upgrades do the opposite: each new recurring expense becomes part of what “enough” must cover, so the finish line slides outward.
 
-## Saving the money or spending it
+## Status, wealth, and the check on spending
 
-Once money comes in, the choice is between turning it into freedom or into a higher cost of living. Keeping expenses low after income rises means the worry goes away, and life still feels like the old one with less pressure. Cutting costs hard and retiring early is a valid route on its own. Upgrading too fast does the opposite. Each new expense becomes a permanent part of what enough has to cover, which moves the finish line further out.
+Wealth is assets that earn without your hours. Status is rank. Naval’s distinction matters here: only freedom has a natural stop. Before any lifestyle upgrade, ask whether it moves you toward the freedom you wrote down or raises the wealth you must accumulate to get there. Notice when a want comes from comparing yourself with someone else; that want is a status want, not an enough want.
 
-## What the number is for and how to check it
+[[wiki/Money/Money, Condensed|Money, Condensed]] folds the wider stance—life energy pricing, savings rate, stay-in investing. [[wiki/Money/The Savings Rate Is the Master Lever|The Savings Rate Is the Master Lever]] shows how a higher rate cuts years off work even when returns stay flat. [[wiki/Money/Time Beats Timing|Time Beats Timing]] covers reaching the target without interrupting compounding.
 
-The number exists to buy freedom. Freedom here means not having to be anywhere you do not want to be, waking and sleeping when you choose, and having no boss. Many people who reach it keep working, but only on what they want, when they want. A useful check is whether a planned purchase or upgrade moves you toward that freedom or raises the bar you need to reach it. Another is whether the goal is set by your own life or by someone else's ranking.
+## Time-bucketing and the frugality conflict
 
-## How to practice this
+Some experiences only fit certain decades of life. Time-bucketing assigns an experience to the years when it is still physically possible, even when that spending looks like a departure from maximum saving. That is not hypocrisy if the written enough-number already accounts for it. Memory dividends—experiences that keep paying fulfillment after they end—are a reason to spend some hours while the body can use them, as long as the life-energy price still looks fair.
 
-1. Write one sentence describing the freedom you want and what it would cost each year.
-2. When income rises, hold spending near its old level and send the difference toward the target.
-3. Before any lifestyle upgrade, ask whether it raises the number you need.
-4. Notice when a want comes from comparing yourself with someone else.
-5. Decide in advance what you will do when you reach the number, including what work you would keep.
+## How to run the practice
 
-## Related pages
+Work in plain steps until they become habit. Write one sentence describing the freedom you want and what it costs per year. Turn that into a portfolio target using your chosen withdrawal assumption (many people start with twenty-five times annual expenses). Decide in advance what you will do when you hit the number, including what paid work, if any, you keep.
 
-- [[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]]: the wider approach to money.
-- [[wiki/Money/Money as Life Energy|Money as Life Energy]]: pricing spending in time.
-- [[wiki/Money/Time Beats Timing|Time Beats Timing]]: why steady investing reaches the target.
-- [[wiki/Money/The Almanack of Naval Ravikant|The Almanack of Naval Ravikant]]: wealth, money and status.
+Each time income rises, notice whether spending stayed at the old level and whether the gap went to investments. Before a non-routine purchase, name whether it serves freedom or status. After a purchase, notice whether mood returned to baseline within a few weeks—adaptation is information about whether the spend was worth the hours.
 
-## Open questions
+Revisit the written number when family or health circumstances change materially. Do not revise it because a friend bought a nicer car. The point of the practice is to end the chase on purpose, not to win a ranking.
 
-- How can someone tell whether a rising target reflects real needs or lifestyle creep?
-- How should the written number change when family or health circumstances change?
-- How can a person keep comparison from resetting the number once friends start earning more?
+[[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] treats volume and ownership cost as the demand side of the same problem: upgrades that raise recurring spend also raise the enough-number. [[wiki/Minimalism/Product Reduction|Product Reduction]] asks whether fewer, better objects can do the same jobs—another way to hold the finish line steady when income rises.
+
+When you are unsure whether a rising target reflects real needs or lifestyle creep, compare the new expense to the freedom sentence you wrote. If the purchase only makes sense as a signal to others, it is creep. If it removes a recurring drain or buys back hours you would rather not sell again, it may be real need.
 
 ## Sources
 
-- Naval Ravikant, "How to Get Rich", collected interviews.
-- Wanhee, "Minimalism is making me limitless", YouTube talk.
+- Naval Ravikant, "How to Get Rich" (collected interviews), https://nav.al/
+- Morgan Housel, *The Psychology of Money* (2020)
+- Vicki Robin and Joe Dominguez, *Your Money or Your Life*
+- Bill Perkins, *Die With Zero*
+- Easterlin income–happiness literature (adaptation bound adjacent to lifestyle creep claims)

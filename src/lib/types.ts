@@ -16,33 +16,50 @@
  * single source of truth for domain color in the Astro site.
  * ------------------------------------------------------------------ */
 
-export const DOMAINS = ['learning', 'agentic', 'language', 'focus', 'mind', 'gen'] as const;
+export const DOMAINS = ['ai', 'learning', 'self', 'world', 'craft'] as const;
 export type Domain = (typeof DOMAINS)[number];
 
 export const DOMAIN_LABELS: Record<Domain, string> = {
-  learning: 'Learning',
-  agentic: 'Agentic',
-  language: 'Language',
-  focus: 'Focus',
-  mind: 'Mind',
-  gen: 'Generativity',
+  ai: 'Working well with AI',
+  learning: 'Learning faster',
+  self: 'Managing yourself',
+  world: 'Making sense of the world',
+  craft: 'Money and craft',
 };
 
-/** Light/dark hex per domain — kept in sync with src/styles/ds/domains.css (--d-*). Restored toward the
- *  original logos52 graph palette: learning purple · agentic brown · language seal-red · gen blue · focus rose · mind teal. */
 export const DOMAIN_COLORS: Record<Domain, { light: string; dark: string }> = {
-  learning: { light: '#7d6097', dark: '#a993c1' },
-  agentic: { light: '#926a46', dark: '#bf9d74' },
-  language: { light: '#ab6750', dark: '#cc8975' },
-  focus: { light: '#b76279', dark: '#d598a9' },
-  mind: { light: '#418c84', dark: '#67b2ab' },
-  gen: { light: '#5179ad', dark: '#83a7ca' },
+  ai: { light: '#666cb0', dark: '#8a90c8' },
+  learning: { light: '#5a7a9e', dark: '#7c9bc0' },
+  self: { light: '#6e8a5c', dark: '#92ab7e' },
+  world: { light: '#4f6fa3', dark: '#7290be' },
+  craft: { light: '#7a6b8f', dark: '#9d8fb0' },
 };
 
-export const DEFAULT_DOMAIN: Domain = 'gen';
+export const DOMAIN_STANCES: Record<Domain, string> = {
+  ai: 'The person sets direction; agents do the repetitive work.',
+  learning: 'A technique counts only when it makes you process the material.',
+  self: 'Attention, habits, and environment do more than willpower.',
+  world: 'Claims earn their place when you can state what would change your mind.',
+  craft: 'Money and making both reward systems that respect limits.',
+};
+
+export const DEFAULT_DOMAIN: Domain = 'craft';
+
+const LEGACY_DOMAINS: Record<string, Domain> = {
+  agentic: 'ai',
+  language: 'world',
+  focus: 'self',
+  mind: 'world',
+  gen: 'craft',
+};
+
+export function normalizeDomain(s: string): Domain | undefined {
+  if (isDomain(s)) return s;
+  return LEGACY_DOMAINS[s];
+}
 
 export function isDomain(s: string): s is Domain {
-  return (DOMAINS as readonly string[]).includes(s);
+  return DOMAINS.some((d) => d === s);
 }
 
 /* ------------------------------------------------------------------ *
@@ -128,3 +145,4 @@ export interface Backlink {
 
 /** Map of target slug → notes linking to it. Emitted to public/backlinks.json. */
 export type BacklinkIndex = Record<string, Backlink[]>;
+

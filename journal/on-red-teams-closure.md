@@ -22,7 +22,7 @@ As someone who went through the program, I view [[wiki/Red Team/Red Teaming|Red 
 
 The lessons themselves remain essential. Red Teaming was built to counter the failure modes that have produced bad decisions and foreseeable surprises in military doctrine. The principles still matter. The delivery system, however, had started to suffer from bloat.
 
-Many of its tools required processing time, structured facilitation, and focused attention with the assumption that busy leaders could function like a permanent think tank. In practice, this often slowed [[wiki/Decision Making/Decision Making|decision-making]]. Leaders hesitated, worried about unseen events no one had anticipated. The process should turn into an exercise in avoiding shortcuts, because [[wiki/Concepts/The Shortcut Problem|shortcuts]] and heuristics are the things that can sometimes lead to catastrophic failure.
+Many of its tools required processing time, structured facilitation, and focused attention with the assumption that busy leaders could function like a permanent think tank. In practice, this often slowed [[wiki/Razors|decision-making]]. Leaders hesitated, worried about unseen events no one had anticipated. The process should turn into an exercise in avoiding shortcuts, because [[wiki/Concepts/The Shortcut Problem|shortcuts]] and heuristics are the things that can sometimes lead to catastrophic failure.
 
 If I had been given budget authority during that period, I would have made different choices. Faced with a binary "keep or kill," I would have chosen to end the program. But offered a third path, keep the essence while pruning the excess, I would have retained roughly 20% of the original structure and rebuilt everything else around speed, judgment, and integration with modern AI tools.
 
@@ -45,7 +45,7 @@ Here is why the old model no longer fits:
 - Red Teaming was designed to surface failure modes, biases, mirror-imaging, and unexamined assumptions that have historically produced strategic surprise.
 - Its tools once required weeks of workshops and scarce facilitation to generate new perspectives.
 - Artificial intelligence has made generation dramatically cheaper. LLMs and adversarial models can now produce dozens of high-quality red-team outputs in minutes.
-- The remaining bottleneck is no longer perspective generation but rapid, high-quality judgment: knowing which perspectives matter, which shortcuts are acceptable, and when analysis must end and [[wiki/Decision Making/Judging a Decision by Its Process|decision-making]] must begin.
+- The remaining bottleneck is no longer perspective generation but rapid, high-quality judgment: knowing which perspectives matter, which shortcuts are acceptable, and when analysis must end and [[wiki/Razors|decision-making]] must begin.
 - The repeated focus on federal efficiency and budget discipline sends a clear signal: any analytical practice that cannot demonstrate clear value per unit time becomes vulnerable.
 - The Red Team stance, skeptical, adversarial, assumption-challenging, must survive and evolve. The old handbook and course architecture, however, should shrink dramatically and be re-engineered for an [[wiki/Concepts/Agentic Engineering|AI-augmented]] military.
 

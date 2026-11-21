@@ -1,7 +1,7 @@
 ---
 title: "Agentic Engineering, Condensed"
 type: concept
-status: developing
+status: stable
 created: 2026-11-10
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10
@@ -42,4 +42,4 @@ What check would tell you that a helper's fast patch had quietly dropped the qua
 ## Related pages
 
 - [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]]
-- [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]]
+- [[wiki/Learning Craft/Don't Outsource the Learning|The Right vs Wrong Way to Work With AI]]

@@ -84,7 +84,7 @@ const parent = parts.length > 1 ? `/folder/${parts.slice(0, -1).join('/')}/` : '
   <main class="folder-page">
     <div class="wrap">
       <header class="head">
-        {parent ? <a class="head__up" href={parent}>Up</a> : <a class="head__up" href="/notes/">Notes</a>}
+        {parent ? <a class="head__up" href={parent}>Up</a> : <a class="head__up" href="/map/">Map</a>}
         <h1>{title}</h1>
         <p>{pages.length + subfolders.length + (section ? 1 : 0)} items</p>
       </header>

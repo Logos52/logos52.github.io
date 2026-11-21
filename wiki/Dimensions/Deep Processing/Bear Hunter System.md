@@ -1,26 +1,24 @@
 ---
-title: "Bear Hunter System"
-type: technique
-status: developing
+type: practice
+domain: learning
+status: stable
+description: "Bear Hunter encodes new material in three moves—Aim with importance questions, Shoot into a relational map, Skin into a GRINDE-ready structure."
 created: 2026-05-04
-updated: 2026-11-10
-method: fresh-from-notes-2026-11-10
-description: "The Bear Hunter System is a three-step way of learning: Aim points your thinking with questions, Shoot answers them and builds a map, and Skin refines the grouping."
+updated: 2026-11-21
+source-count: 10
 tags:
   - deep-processing
   - encoding
   - bhs
-wedge_reviewed: false
 ---
-
-> Not yet reviewed by Wedge.
 
 # Bear Hunter System
 
-The Bear Hunter System is a way of learning that moves through three steps. Aim points your thinking with questions about importance and relationships. Shoot answers those questions and builds the map. Skin then refines the grouping until the structure feels more certain.
+> Bear Hunter is a three-step encoding practice. Aim primes curiosity with questions about why and how ideas connect. Shoot answers them into a nonlinear map without waiting for perfect certainty. Skin judges and refines grouping until the structure is intuitive, layered, and retrieval-ready. Learn each step separately, then run them as one cycle; several cycles often precede a stable “skin.”
+
 <figure>
 <svg viewBox="0 0 520 400" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="dim-bhs-a">
-<title id="dim-bhs-a">The Bear Hunter System is a way of learning that moves through three steps.</title>
+<title id="dim-bhs-a">Aim, Shoot, Skin — three encoding steps.</title>
 <rect x="0.5" y="0.5" width="519" height="399" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
 <text x="24" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">three steps</text>
 <circle cx="150" cy="64" r="5" style="fill:var(--qp-ink)"/>
@@ -48,31 +46,64 @@ The Bear Hunter System is a way of learning that moves through three steps. Aim 
 </svg>
 </figure>
 
-Aim is an intermediate skill for inquiry-based learning, meaning learning by asking questions and working through answers. It builds on the red-light phase of the traffic-light system, where you create questions before you consume. Aim replaces that red-light phase, and it also replaces basic prestudy as the first step of how you learn. The green-light phase, where you answer the questions, continues until Shoot takes its place.
+Bear Hunter replaces the older traffic-light inquiry pattern (questions before / answers during) once Aim and Shoot are competent. It sits in the [[wiki/Dimensions/Deep Processing|deep processing]] dimension and pairs with [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|spaced interleaved retrieval]] so gaps found in maps get tested on a schedule.
 
-Shoot is the second step. It is an upgraded version of that green-light phase. Once you have both Aim and Shoot, you can replace the traffic-light system entirely. During Aim you prime the brain to find meaningful relationships by asking questions about importance. During Shoot you satisfy that curiosity. You clear up how ideas connect, add detail, look for more links, decide on groups and links, and concentrate on building the map. You do not need a perfect answer to every question. Some questions will be so complex or advanced that a full answer is not realistic. The learning happens when you attempt to answer, which helps reinforce the relationships. If the Aim step was done well, Shoot tends to go smoothly. Shoot gets hard when leftover habits or lower-order, linear learning interfere and the order you meet material in suffers. The non-linear notes used in Shoot help anchor your thoughts and keep them focused.
+## Aim — question before intake
 
-Skin is the third step. It is for refining higher-order learning at the evaluate level, where you make judgments on how you want the final grouping to look. Your grouping shifts so it matches your latest sense of how the ideas connect. It can take multiple Aim-Shoot cycles before you have a comprehensive view of the relationships. Skin is when you consolidate, integrate, refine, and judge how you want the final grouping to look, which is described as creating more certainty. The note-taking form for this step is a GRINDE map, meaning a mind map refined during Skin against six checks. Those checks are grouped, reflective, interconnected, non-verbal, directional, and emphasised. That form is meant to support high-level grouping and learning that privileges relationships.
+Aim steers attention with **why does this matter?** and **how does this connect to something else?** Those beats outperform isolated “what” questions for retention and higher-order thinking. Emotional or personally curious framings bind harder. Skip questions whose answers you already possess; the goal is a problem-solving stance.
 
-After Aim, Shoot, and Skin have been learned separately, they are stacked and consolidated into the Bear Hunter System as a whole.
+Aim can run as **prestudy** before a lecture or as the first move in self-study. In live classes, a light aim (largest groups only) may be all that fits; full aim afterward is slower but still valuable. Use an ungrouped keyword list so you are not biased by the author’s headings.
 
-## Open questions
+Workflow: for each keyword, ask why it matters, brainstorm multiple answers, group by shared importance ([[wiki/Dimensions/Deep Processing/Importance-Based Chunking|importance-based chunking]]), then ask how groups affect one another. Drop fact-recall questions—they pull you back to shallow habits. When spiderwebbing overwhelms the page, hypothesise a new grouping rather than adding more arrows.
 
-- How does asking about importance before you answer change how easy the later mapping step feels?
-- How does waiting through several question-and-answer cycles before you settle the grouping change how certain the final structure can be?
+Objections usually cite time, effort, or exam mismatch. First-pass encoding takes longer; total time often falls because later retrieval is cheaper. Effort is the signal, not the enemy—difficulty that helps learning should feel desirable once calibrated. Encode for **expert relevance** first; exam-shaped retrieval comes after the road network exists. Stepping slightly past the syllabus for depth usually beats staying shallow inside it.
 
-## Sources
+## Shoot — answer into the map
 
-- iCanStudy, "Bear Hunter System: Aim", Ascent I. Private course notes, paraphrased.
-- iCanStudy, "Bear Hunter System: Shoot", Ascent II. Private course notes, paraphrased.
-- iCanStudy, "Bear Hunter System: Skin", Ascent III. Private course notes, paraphrased.
-- iCanStudy, "GRINDE maps", Ascent III. Private course notes, paraphrased.
+Shoot satisfies the curiosity Aim opened. You clarify links, add detail, decide groups, and **keep building the map** without demanding a perfect answer to every question. Attempting hard questions strengthens relationships even when the answer stays partial.
+
+Shoot goes smoothly when Aim was solid. It fights you when linear, lower-order habits hijack **order control**—the sequence you choose to meet ideas. Nonlinear notes anchor attention. Shoot stacks earlier note skills; it is active encoding, not transcription.
+
+Common worries: wasted time, long uncertainty, missing details. Map-building saves time versus rereading flat text; skill accelerates later. Traditional “certainty” after a first read is often false fluency. Missing details are more likely if you skip mapping layers; pairing Bear Hunter with retrieval closes detail gaps.
+
+## Skin — judge and GRINDE
+
+Skin is evaluate-level work after one or more Aim–Shoot cycles. You consolidate, integrate, and judge the grouping until structure stabilises. The refined map is checked against **GRINDE**:
+
+| Letter | Check |
+|---|---|
+| **G**rouped | Chunks reflect importance, not headings |
+| **R**eflective | Order matches logic → concepts → details |
+| **I**nterconnected | Links run sideways and across layers, not hub-and-spoke only |
+| **N**on-verbal | Pictures, doodles, shorthand reduce word load |
+| **D**irectional | Flow shows how ideas influence each other |
+| **E**mphasised | Layers visible at a glance (size, colour, weight) |
+
+Aim should shift toward fewer, sharper questions as Skin approaches; Shoot should feel automatic. Skin is where “certainty” is earned—not during the first read.
+
+## Running the full system
+
+1. **Aim** on keywords or objectives before deep reading.
+2. **Shoot** while consuming sources; update the map continuously.
+3. **Skin** when relationships are rich enough to judge; repeat cycles if the backbone still shifts.
+4. Hand off to retrieval: same-week high-volume tests, then [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|spaced interleaved]] passes.
+
+Quit signals: you memorise the map’s labels without the ideas; Shoot reverts to linear notes every session; Skin never happens because “good enough” maps never get tested.
 
 ## Related pages
 
-- [[wiki/Dimensions/Deep Processing/Aim|Aim]]: the first step, unpacked on its own page.
-- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]: the second step, unpacked on its own page.
-- [[wiki/Dimensions/Deep Processing/Skin|Skin]]: the third step, unpacked on its own page.
-- [[wiki/Dimensions/Deep Processing/Inquiry-Based Learning|Inquiry-Based Learning]]: the traffic-light system this sequence upgrades.
-- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: the chronological slot Aim often occupies.
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]: the dimension this page sits in.
+- [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]
+- [[wiki/Dimensions/Retrieval|Retrieval]]
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
+
+## Sources
+
+| Source | Note |
+|---|---|
+| iCanStudy, "Bear Hunter System: Aim", Ascent I | Aim mechanics, barriers |
+| iCanStudy, "How to aim" / question quality / inquiry clean-up, Ascent I | Question craft |
+| iCanStudy, "Bear Hunter System: Shoot", Ascent II | Shoot mechanics, barriers |
+| iCanStudy, "Bear Hunter System: Skin", Ascent III | Evaluate-level refinement |
+| iCanStudy, "GRINDE maps", Ascent III | Map quality checks |
+| iCanStudy, Effective note-taking (visual, processed, relational, reflective), Ascent II | Note standards feeding GRINDE |

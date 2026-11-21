@@ -1,11 +1,11 @@
 ---
 title: "Give an agent a task without micromanaging it"
-type: technique
+type: practice
 section: "Working with Agents"
 status: seed
 description: "Hand an agent one narrow target, say the job aloud and ask for it back, and state the result and proof you want, so you steer without dictating steps."
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-11-22
 effort: minutes
 needs: none
 cost_note: no
@@ -112,10 +112,16 @@ The brief below, paraphrased from a spoken one, links the place to read and adds
 | The restatement latches onto noise | The agent took an irrelevant detail for the problem | Correct it before any work starts |
 | An agent description fills up with narrow rules | The description is too specific | Ask the agent to rewrite it as principles |
 
+## When volume beats line-by-line review
+
+Once agents land more work than you can read, control comes from ask-first rules and from evidence you can sample afterward. Name the actions that need your yes before they run, such as outside email, customer messages, production deploys, or internal systems you treat as sensitive. Let everything else run and review videos, screenshots, or traces later.
+
+Sample a few merged changes each day. Collect recurring mistakes in a findings document and fix the cause once when the same pattern repeats. When the agent always gets one kind of approval right, drop that approval from the list. Trust grows in steps: watch every chat early, then rely on proof and sampling once ask-first rules hold.
+
 ## Related pages
 
 - [[wiki/Start Here/The Big Idea Agents Do, You Steer|The Big Idea: Agents Do, You Steer]] gives the overview.
-- [[wiki/Working with Agents/Plan a piece of work with an agent|Plan a piece of work with an agent]] covers jobs too large for one brief.
+- [[wiki/Planning and Automation|Plan a piece of work with an agent]] covers jobs too large for one brief.
 - [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]] covers the proof step.
 - [[wiki/Working with Agents/Scope a bot like a job description|Scope a bot like a job description]] applies one narrow target to a standing bot.
 

@@ -1,93 +1,84 @@
 ---
 title: "The Four Things People Stay For"
 type: concept
-status: developing
+status: stable
 created: 2026-08-13
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
+updated: 2026-11-21
 description: "People stay with a host for a mind on an object. The stay is content, logic, delivery, and message. Takes carry personality. Ego stays off the title."
 tags:
   - writing
   - craft
   - self
   - media
+source-count: 4
 ---
 
 # The Four Things People Stay For
 
-People stay with a host to hear a person think about an object. The object is the thing the hour is about, and the hour is one episode of the show. People stay for four kinds of work, and none of the four is the host as a person.
+People stay with a host to hear a person **think about an object**—the thing tonight’s hour is about. They stay for four kinds of work: **content** (the object itself), **logic** (reasoning step by step), **delivery** (the host’s voice in short sentences), and **message** (the conclusion logic supports, stated once). None of the four is the host as personality. The host picks the object and speaks the sentences; that is a large share of the person in the hour, but the hour is still not *about* the person.
 
-Content is the object itself. Logic is the host's reasoning about the object, one step after another. Delivery is the host's own voice saying a short sentence. Message is the conclusion that follows from the reasoning. The host says the message once, and only when the reasoning supports it.
+## Takes versus ego
 
-The host chooses the object for tonight and speaks the sentences. That is a large share of the host in the hour. The host is still not what the hour is about.
+A **take** is judgment on this one object—personality shows because the take sounds like one mind. Examples: this number does not follow; they locked the account first; the price lined up with or without the private line.
 
-## Core takeaways
+**Ego** is the hour becoming about the host: a belief repeated, a hurt revisited, or a line that would work with any object swapped in.
 
-- People stay for four kinds of work: content, logic, delivery, and message. None of the four is the host's personality.
-- A take is the host's judgment about the object. Personality shows in the take, because a take sounds like one specific person thinking.
-- Ego is the hour becoming about the host: a repeated belief, a personal hurt, or a line that would work with any object in its place.
-- Putting the host's beliefs in every sentence loses the audience, and banning the take loses the audience too. The first makes the host the content. The second turns the hour into a news report.
-- The test for ego is applied to the sentence, not to the speaker. Swap the object. If the sentence still works, it was never about the object.
-- A podcast hour with nothing on screen keeps the object's name in the title. A second speaker answers the object, not the host's life story.
+Drafting for presence loads beliefs into every sentence; over-correcting bans takes and turns the hour into news. Both lose the stay. [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]] splits **selfhood** (judgment left visible on the object) from **self-regard** (sentences written to recruit an audience). A take is selfhood on an object; ego is self-regard with an object as cover.
 
-## A take is not ego
+## Show-and-tell is a different contract
 
-A take is the host's judgment about this one object. Personality shows in the take, because a take sounds like a specific person thinking. Three examples of takes: this number does not follow; they locked the account first; the price lined up with or without the private line.
+Raid or reaction **show-and-tell** puts someone else’s video on screen; the host points and takes. The picture does half the work—ego stays second when it works. The **podcast hour** this concept targets has no picture: the host states the object and enough facts for a take; a second speaker answers the **object**, not the host’s life story. Borrow only “people thinking about an object”; do not import solo monologue or companion chat where the guest exists to validate the host.
 
-Ego is the hour becoming about the host. It shows as a belief the host repeats, a personal hurt the host returns to, or a line the host would say the same way with any other object in its place.
+Asmongold’s arc illustrates the drift risk: commentary can overtake play; by 2026 public bios list political commentator—object absent from the job title. That product is the opposite of this format.
 
-The two are easy to confuse. A draft written to keep the host present puts the host's beliefs into every sentence. A correction written to remove the host bans the take. Both lose the reason people stay. The first makes the host the content. The second turns the hour into a news report.
+## Content, logic, delivery, message in one hour
 
-The split between the two is already in the vault. [[wiki/Concepts/The Two Meanings of Ego|Selfhood]] is judgment left visible: the call only this one mind would make, aimed at the object. [[wiki/Concepts/The Two Meanings of Ego|Self-regard]] is a sentence written to gain the author an audience. A take is selfhood applied to an object. The ego described above is self-regard with an object attached as cover: the host appears to talk about an experiment and is in fact talking about the host.
+Walk the four in order during prep. **Content:** what is the object tonight (patch, ruling, film, dataset)—one sentence. **Logic:** chain claims the co-host can interrupt; no step hidden off-mic. **Delivery:** short sentences in the host’s spoken rhythm; read aloud for breath. **Message:** one conclusion, after logic, never before evidence. If message appears in the cold open, ego has likely front-run the object.
 
-## Show and tell is a different format
+Delivery carries personality; message must not. Personality in delivery is why two hosts can share the same object facts and produce different hours. Personality in message is ego: the same conclusion whether or not the facts support it.
 
-One host's hour is show and tell. The raid or another person's video is on screen. He points at what is on screen and gives his take. The picture does half the work. Personality shows in the take. When that hour works, ego comes second to the thing on screen. The podcast hour is not that format.
+## Delete test and case against
 
-The hour the four things apply to is a podcast: a mix of commentary, more than one speaker, and nothing on screen. The host states the object and enough facts about it that a take can be made. A second speaker answers the object, not the host's life story. Take one thing from show and tell: people thinking about an object. Do not copy show and tell itself. Do not turn the conversation into one speaker reasoning alone, and do not turn it into a companion scene, where the second speaker is there to keep the host company.
+Strip speaker names from the transcript. What remains should be object plus judgments. If what remains is autobiography or belief stack, the title lied.
 
-The same host's career already shows the failure. Play can become less important than the commentary. By 2026 an encyclopedia lists him as a political commentator. The object is no longer in the description of what he does. That later version of the host makes the opposite product: an hour about the person.
+**Objections:**
 
-## The delete test
+1. *No self means newsreader.* True—which is why takes are required; banning personality was the wrong fix.
+2. *Some hours are about the person.* Valid for Just Chatting, companion streams, personal essays—switch format when the listener’s question is what the speaker feels, not what happened in the source.
+3. *Speakers cannot see their own ego.* Apply the test to the **sentence**: swap the object; if the line still works, it was never about tonight’s object.
 
-Remove the speaker names from the transcript. What remains should be the object plus the speakers' judgments about it. If what remains is a life story or a set of beliefs, the title named an object the hour was not about.
+## How to practice
 
-A different speaker changes the delivery. A different speaker does not get a monologue about themselves. An episode in another voice is the same format: that speaker's taste picks the object, the commentary mixes, and the episode keeps the object's name.
+1. Delete names from a transcript; read what is left.
+2. Swap objects on one take sentence; surviving lines were never anchored.
+3. Mark lines that repeat belief, revisit hurt, or fit any topic—each is ego creep.
+4. Check co-host lines answer the object, not the host’s biography.
+5. Ensure message appears once, after reasoning—not as a refrain.
+6. Before recording, list object facts; each take must rest on one.
 
-## The case against
+## Price and quit signals
 
-There are three objections.
+**Price:** hosting without takes becomes briefing—listeners leave because nothing is at risk intellectually. Hosting with ego becomes therapy—listeners leave because the object was bait. Co-host as companion (valid elsewhere) wastes the second mic when the guest only mirrors the host’s biography.
 
-First, a host who shows no self is a newsreader, and people do not stay for 公布. That is true. It is why the take is required, and why banning personality from the transcript was the wrong fix.
+**Quit when:** transcript delete test shows autobiography; swap-object test passes on most sentences; message appears before logic; second speaker only validates the host’s hurt; title object never named in the first five minutes of content.
 
-Second, some hours are about the person, and those hours are valid: the companion reading, the Just Chatting stream, the essay that describes the self. Switch to that kind of hour when the question the listeners have is what this speaker feels, not what happened in the source.
-
-Third, the speaker cannot check their own ego from inside. A speaker judging their own sentences will call a belief a take. So the test is applied to the sentence. Swap the object. If the line still works, it was never about the object.
-
-## How to practice this
-
-1. Remove every speaker name from a transcript of your hour. Read what remains. Notice whether it is the object and judgments about it, or a life story or a set of beliefs.
-2. Take one sentence that carries a take and swap in a different object. Notice whether the sentence still works. A sentence that still works was never about the object.
-3. Mark every line that repeats a belief, returns to a personal hurt, or would fit any object. Notice how many lines you marked. Each marked line is the hour becoming about you.
-4. Read the second speaker's lines. Notice whether each line answers the object or the host's life story. A line that answers the host's life story makes the conversation a companion scene.
-5. Find each place the hour states its message. Notice whether the message appears once, after the reasoning, or repeats. A message that repeats has become a refrain, and a refrain fits any object.
-6. Before recording, write down the object and enough facts to support a take. Notice whether each take in the hour rests on one of those facts.
+**Checkable expectation:** a stranger reading the transcript cold can name tonight’s object and the disagreement about it without knowing host biography. A fan reading for personality should still get takes they could not get from a news summary—if not, ego ate the takes.
 
 ## Related pages
 
-- [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]]: selfhood as judgment on a subject, self-regard as recruitment; the four things apply that split to a hosted hour.
-- [[wiki/Concepts/The Trained Voice|The Trained Voice]]: the machine default is display; a take has to be enforced from outside the weights.
-- [[wiki/Story Craft/Structure for the Ear|Structure for the Ear]]: an hour with no picture still has to be processable in one pass.
-- [[wiki/Story Craft/Character Voice|Character Voice]]: delivery changes with the speaker; a new speaker does not become a scene.
+- [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]]
+- [[wiki/Writing Craft/The Context Problem|The Context Problem]] — trained voice defaults to display; takes need external enforcement.
+- [[wiki/Story Craft/Story Craft|Story Craft]] hub — structure for the ear (audio presence rules) lives there after the wiki cut.
+- [[wiki/Story Craft/Diagnosing a Character|Diagnosing a Character]] — delivery shifts with speaker without becoming a scene about the speaker.
+- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]] — frames with verdicts baked in, cousin to reading-frame audits in Story Craft.
 
 ## Open questions
 
-When does a take get strong enough that it has become the hour's title, even though every sentence still names the object?
+When a take grows strong enough to become the episodic title while every sentence still names the object.
 
 ## Sources
 
-- Asmongold × Folding Ideas, Classic WoW analysis, 2019: pause, counterpoint, the video remains the subject; shared picture, not a podcast.
-- theScore esports documentary on Asmongold: commentary overtaking play, named as a risk.
-- Wikipedia, "Asmongold," revision current 2026: career listed as political commentator; the object is no longer in the title.
-- [[journal/2026-08-13-think-aloud-brief|Journal, 2026-08-13]]: first cut of the brief format; the claim there that Asmongold is the writing template no longer holds.
+- Asmongold × Folding Ideas, Classic WoW analysis, 2019: shared picture, object stays subject.
+- theScore esports documentary on Asmongold: commentary overtaking play.
+- Wikipedia, “Asmongold,” revision current 2026: career as political commentator.
+- [[journal/2026-08-13-think-aloud-brief|Journal, 2026-08-13]]: brief format origin; template claim revised since.

@@ -76,11 +76,11 @@ The initial scope is [[wiki/Concepts/LLM Knowledge Systems|LLM Knowledge Systems
 
 Metacognition and learning-to-learn:
 
-- [[wiki/Syntheses/ICS System|ICS System]]
-- [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
+- [[wiki/Planning and Automation|ICS System]]
+- [[wiki/Planning and Automation|Prestudy, BHS, and SIR: Turning Information into Usable Structure]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]
-- [[wiki/Dimensions/Self-Management|Self-Management]]
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/Mindset|Mindset]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]
@@ -89,7 +89,7 @@ Metacognition and learning-to-learn:
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[templates/Kolbs Template|Kolbs Template]]
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]
+- [[wiki/Planning and Automation|Reverse Goal Setting]]
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Dimensions/Deep Processing/Aim|Aim]]
 - [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]
@@ -100,7 +100,7 @@ Metacognition and learning-to-learn:
 - [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]]
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]
 - [[wiki/Techniques/Building the Radar|Building the Radar]]
-- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]
+- [[wiki/Razors|Are You Thinking, or Just Consuming?]]
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
 - [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
@@ -132,24 +132,24 @@ LLM systems and agentic engineering:
 
 - [[wiki/Concepts/Agentic Engineering|Agentic Engineering]]
 - [[wiki/Concepts/Software 3.0|Software 3.0]]
-- [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agent-Native Infrastructure]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
 - [[wiki/Concepts/Thinking Models|Thinking Models]]
-- [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]
-- [[wiki/Concepts/A Return to Code|A Return to Code]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|A Motorcycle for the Mind]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|A Return to Code]]
 - [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
 
 Books and longform reviews:
 
 - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]]
 - [[wiki/Books/Suicidal Empathy|Suicidal Empathy]]
-- [[wiki/Books/The Book of Elon|The Book of Elon]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|The Book of Elon]]
 
 Red Teaming:
 
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]
-- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
+- [[wiki/Red Team/Red Teaming|Applied Critical Thinking: Testing Frames]]
+- [[wiki/Books/Suicidal Empathy|Suicidal Empathy]]
 - [[blog/experiences|Experiences]] (under Blog)
 - [[wiki/Concepts/Mental Models|Mental Models]]
 - [[wiki/Concepts/Game Theory|Game Theory]]

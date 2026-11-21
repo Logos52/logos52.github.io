@@ -8,6 +8,10 @@
     "coverage/**",
     ".astro/**",
     "src/content/notes/**",
+    "scripts/build-builders-logs-wiki.mjs",
+    "scripts/build-digital-gardeners-data.mjs",
+    "scripts/execute-wiki-cut-ai-door.mjs",
+    "scripts/truncate-ai-door-folds.mjs",
     "**/*.sh",
     "**/*.js",
     "**/*.cjs",
@@ -21,7 +25,7 @@
     "docs/**/*.md",
     "**/docs/**/*.md"
   ],
-  "boundaryFiles": [],
+  "boundaryFiles": ["src/lib/domain.ts"],
   "baseline": ".lint-kit-baseline.json",
   "batch": "v4",
   "rules": {

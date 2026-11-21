@@ -100,5 +100,5 @@ What would protected files on a shared bot computer need to stop a bot from edit
 ## Related pages
 
 - [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]
-- [[wiki/Working with Agents/Organize a fleet of bots|Organize a fleet of bots]]
+- [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Grok Bot Primer]]
+- [[wiki/Working with Agents/Scope a bot like a job description|Organize a fleet of bots]]

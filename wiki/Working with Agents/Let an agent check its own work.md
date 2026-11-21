@@ -1,11 +1,11 @@
 ---
 title: "Let an agent check its own work"
-type: technique
+type: practice
 section: "Working with Agents"
 status: seed
 description: "Give an agent a way to run the real app, ask for proof that the check ran, and check the checking by sampling, so you stop being the tester."
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-11-22
 effort: an hour
 needs: a tool
 cost_note: no
@@ -119,6 +119,14 @@ How many verifier agents per pull request are enough, since the only figure is a
 
 How should the review depth scale with the stakes of a change, since no source gives a rule?
 
+## Reproduce before you fix
+
+Most bug reports are vague. A fix written before anyone has seen the bug is a guess. Merge duplicates at intake. Ask the agent to restate the problem and reproduce it on its own computer before it touches code. Fix only what reproduced, after checking whether the main branch already fixed it. Prove the fix with screenshots of the bug and the fix, including light and dark mode when the UI matters. Turn each steer into a skill so the next report starts where the last one ended.
+
+## Before you compare two models
+
+A model label hides precision, task type, and finish. Two checkpoints with the same parameter count can differ on all three. Quantization compresses weights. Voice models get audibly rougher at four-bit precision. A model producing its own trained-in voices is a different task from cloning a stranger's voice from a short clip. Before comparing two local models, record the exact checkpoint ID, quantization level, and variant for each. Ten evaluation rounds without those three lines tell you less than one `config.json` read.
+
 ## Sources
 
 - [Lauren](https://x.com/poteto/status/2094457600259842065), "The Complete Guide to pstack Pt. 1" (X Article, 2026-08-31). The verification skill, the stacks it fits (web, Electron, iOS), the command-line tool and its properties, the feature map, daily upkeep, the proof prompt. Paraphrased.
@@ -131,5 +139,4 @@ How should the review depth scale with the stakes of a change, since no source g
 
 - [[wiki/Working with Agents/Give an agent a task without micromanaging it|Give an agent a task without micromanaging it]] covers the rest of the brief.
 - [[wiki/Working with Agents/Turn a repeated correction into a permanent fix|Turn a repeated correction into a permanent fix]] covers fixing the setup.
-- [[wiki/Working with Agents/Review less without losing control|Review less without losing control]] covers sampling and hold points.
-- [[wiki/Working with Agents/Handle a bug report - reproduce first|Handle a bug report - reproduce first]] covers the report-to-fix path.
+- [[wiki/Working with Agents/Give an agent a task without micromanaging it|Give an agent a task without micromanaging it]]: the brief and review sampling

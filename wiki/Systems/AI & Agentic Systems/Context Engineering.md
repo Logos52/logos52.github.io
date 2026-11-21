@@ -153,6 +153,6 @@ Tokens are a limited resource, since each one adds a little cost and some risk o
 
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: keeping a quality bar while agents do the work
 - [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]]: working with a collaborator that starts fresh each session
-- [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: when to let a model think longer
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Automatic and Deliberate Work with AI]]: when to let a model think longer
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]: the part that stays with the person
 - [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]: using the wiki to think

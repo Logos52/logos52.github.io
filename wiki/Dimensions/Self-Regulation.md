@@ -1,48 +1,101 @@
 ---
-title: "Self-Regulation"
-type: dimension
-status: developing
+title: Self-Regulation
+type: hub
+domain: learning
+status: stable
 created: 2026-05-04
-updated: 2026-11-10
-method: fresh-from-notes-2026-11-10
-description: "Self-regulation is monitoring, guiding, and refining your own learning, using awareness of your thinking to steer the process when conditions change."
+updated: 2026-11-21
+source-count: 14
+description: "Self-regulation is the skill of driving your own learning — noticing what the mind is doing, steering when conditions change, and measuring whether time bought usable knowledge."
 tags:
   - self-regulation
-wedge_reviewed: false
+  - metacognition
+  - learning
 ---
-
-> Not yet reviewed by Wedge.
 
 # Self-Regulation
 
-Self-regulated learning is the ability to watch, steer, and refine how you learn. Deep processing, meaning the brain's ability to extract meaningful learning from information, is compared here to how powerful a car's engine is. Self-regulation is the skill of driving. For steady performance when the setting and the situation change, both deep processing and self-regulation have to be well developed. With good self-regulation, learners can make strategic adjustments to optimise performance, even in difficult learning environments, on challenging topics, and without guidance. When self-regulation is weak, learners lean too much on the deep-processing skill they were born with, where natural ability is the only factor that produces success. Learning performance then falls when instruction is less guided, or when circumstances are unfavourable and demanding.
+> Deep processing is engine power; self-regulation is how you drive. Without monitoring and adjustment, strong cognition still gets wasted — especially when teaching stops hand-holding or conditions turn unfavorable. Self-regulation is not mistake-avoidance; it is noticing what is happening and changing course toward the goal, including when the right move is harder and slower.
 
-Self-regulated learning relies on metacognition, meaning the skill of thinking about your own thinking. That means watching your cognitive processes and making deliberate changes so you stay lined up with your learning aims. Without that awareness and flexibility, even strong cognitive skills can be used badly or to little effect. Cultivating self-regulated learning is described as the enabler of all other skills in a learning system.
+## What it requires
 
-A common misconception is that self-regulation is about avoiding mistakes. It is about developing the skill to notice what is happening and use that awareness to guide your learning in a useful direction. For example, you might notice in a study session that you are spending effort on memorising details, when the need is to understand concepts. Self-regulation helps you stop, look again, and change course. It also powers your ability to unpack what is really causing problems, so you can make targeted changes later.
+Three trains run together:
 
-Self-regulated learning is about becoming the person who directs your own progress and taking responsibility for your development. That lets you improve and adapt into any setting, even without ideal support, teachers, or outside aids. Three kinds of progress are required.
+1. **Metacognition** — enough awareness to see how methods shape thinking ([[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]]).
+2. **Desirable difficulty** — interpreting effort, confusion, and discomfort as possible signs of effective work, not automatic failure ([[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] is what happens when you flee that discomfort).
+3. **Theory** — vocabulary for time, attention, encoding, and retrieval so adjustments are informed guesses, not random tweaks.
 
-The first requirement is building metacognition. You cannot improve self-regulation without enough of it. A comparison used here is trying to improve a car's performance without any real sense of how a car functions. You may get lucky from time to time, but that is not sustainable or time-efficient. The work is to reflect, watch, and correctly judge how the methods you use shape your cognitive processes, and therefore what you take from learning.
+Map one piece of material through your real pipeline: what you do, when, why, and where you genuinely do not know. Honest maps beat polished fantasies.
 
-The second requirement is embracing desirable difficulty, meaning when something beneficial feels hard. Studies of self-regulated learning show that most learners misread difficulty as a sign that a method does not work. Many then change their learning to make it easier, not more effective. To progress, you have to learn to notice discomfort in learning and do well in it. The work can take weeks or even months to really take on this for some people.
+## Common traps
 
-The third requirement is getting book smart, meaning building theory and knowledge about learning and about self-management. Becoming a strong learner takes almost endless experiments. You will make hundreds of adjustments, if not thousands. Making effective adjustments is difficult without knowing which kinds of adjustments will help, and that comes down to your level of theory about learning and about managing time, tasks, focus, and attention. Those principles can direct your own optimisations, and they can help you problem-solve when an adjustment does not give the desired effect.
+| Trap | Pattern | Cost |
+|---|---|---|
+| Death spiral | Short-term method that creates **learning debt** | Later volume leaves no room to upgrade skill |
+| Bandwagon | Copying because others do | Survivorship hides failures using the same tool |
+| Misfit | Wrong method, heroic effort | Ceiling set by the tool, not effort |
 
-A training challenge attached to this overview is to map your learning flow. Follow one piece of information through every learning method you use. Write down what you do, in concrete terms, when you do it, and why. Mark the places where you are unsure what you do, or the reason you do it. Those are areas to gain awareness around, and they are likely to be high-priority places to improve. Examples of such maps at different levels of awareness are given. The best description, regardless of how good the system actually looks like, is one that is detailed and deeply thoughtful. In the stronger examples, the learner is honest with themself and challenges their beliefs and assumptions. They question how effective what they are doing actually is, are honest when they do not know, and take the time to write descriptions that are detailed and specific. Treating the activity as a chance to learn and find things out, not as a checklist to tick off, leads to more targeted improvements.
+Flashcards illustrate all three: popular, can space retrieval, yet easily become infinite card debt with thin connected knowledge. Judge methods on cognition they trigger, not popularity.
 
-## Open questions
+## Techniques need thinking
 
-- How does noticing that you are memorising details, rather than understanding concepts, change what you do in the rest of a study session?
-- How does treating discomfort as a possible sign of useful difficulty change which methods you keep and which you drop?
+A method works when it starts a process in mind. **Importance check-listing** — asking why something matters and stopping at the first answer — ticks a box without comparing, judging, or building schema. **Understanding** without relating ideas feels like learning and is not. Fluent tools make bypass easier; use them for one-off tasks, not for knowledge you must hold and extend.
 
-## Sources
+Every strategy can be shortcut; see [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]. Pick methods for the thinking they force, not the artifact they produce.
 
-- iCanStudy, "Self-regulation", Catalyst. Private course notes, paraphrased.
+## Measuring what time bought
+
+Coverage per hour is a weak score. **Learning efficiency** is usable mastery and retention divided by total hours — mastery defined against the levels your assessment actually tests, retention checked about a week later so spacing is honest.
+
+When extra hours barely move mastery, the **method** is capped — like building with only a hammer. Diagnose time-versus-method before adding more calendar. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]] runs that diagnosis live.
+
+## Accuracy before speed
+
+Familiar work already sits near the fastest pace that still passes your quality bar; the leftover band is small and expensive in errors. One repaired mistake often costs several times the time of doing the step right once, because context, stacked work, and hidden foundation gaps compound.
+
+Real speed comes from a better process at a calm pace, not pushing the old one. Practise new techniques for accuracy until pace arrives unforced. Calendar time without honest practice is not progress. Grinding that never leaves room to aim the method is a signal the method is wrong.
+
+## Energy and starting anyway
+
+Sustainable capacity rests on basics — exercise, in-person connection, daylight, protected sleep — even when schedules feel brutal. Weekends alone rarely fix burnout if prerequisites stay broken.
+
+**DEFUSE** for motivation-dependent stalls: distinguish feeling from thought; act before the feeling changes; lengthen defused uptime in small steps; build a zone with fewer triggers (distraction cheat sheet, then remove what you logged). Motivation is a boost, not a gate.
+
+## Exam and execution control
+
+**Silly mistake syndrome** — labeling errors “silly” blocks repair. Often mixes weak technique with preparation gaps, especially missing logic you cannot generate yourself. Fix by root-cause cycles, not vague “be careful.” **MR FIG** and **double generation** on practice tests surface hidden gaps.
+
+## Training the control layer
+
+The [[wiki/Dimensions/30-Day Challenges|30-day self-regulation challenge]] maps methods to observed effects, judges and replaces weak habits (practice how you play, link levels, test recall not recognition, cut setup that does not process), isolates variables by shifting time on each method, then stabilises a system no more than ~20% different from today so overwhelm stays bounded.
+
+In the five-dimension frame ([[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]), self-regulation sits between mindset and the encoding/retrieval pair. Mindset must allow discomfort; deep processing and retrieval supply what you regulate. Weak self-regulation often looks like “I know better methods but default to old ones under pressure” — that is a control problem, not a knowledge gap.
 
 ## Related pages
 
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]]: thinking about your thinking, which this overview says self-regulation relies on.
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]: the engine this overview contrasts with driving skill.
-- [[wiki/Dimensions/30-Day Challenges/Self-Regulation Challenge|Self-Regulation Challenge]]: further training that sits alongside this overview.
-- [[wiki/Dimensions/Self-Management|Self-Management]]: the systems that make the time for this monitoring possible.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] — cue, monitor, respond loop.
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] — engine self-regulation steers.
+- [[wiki/Dimensions/Mindset|Mindset]] — beliefs that make discomfort usable.
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — five-dimension map.
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb’s experiential cycle]] — after-action naming.
+
+## Open questions
+
+- Which trap or shortcut showed up in the last study block?
+- If you doubled hours this week, would mastery move or flatten?
+
+## Sources
+
+| Source | Note |
+|---|---|
+| iCanStudy, “Self-regulation”, Catalyst | Private course notes, paraphrased |
+| iCanStudy, “Common traps”, Briefing | Private course notes, paraphrased |
+| iCanStudy, “Live Clinic 74: Metacognition as a skill” | Technique vs thinking |
+| iCanStudy, learning efficiency / knowledge mastery, Learning Support | Private course notes, paraphrased |
+| iCanStudy, “Silly mistake syndrome” / exam mistakes, Learning Support & Exam execution | Private course notes, paraphrased |
+| iCanStudy, Live Clinic 65, well-being under pressure | Private course notes, paraphrased |
+| iCanStudy, 30-day self-regulation challenge (weeks 1–4) | Private course notes, paraphrased |
+| Justin Sung, motivation / DEFUSE | [YouTube](https://www.youtube.com/watch?v=RMB3NsQotvM), [J2hLwfV1zxk](https://www.youtube.com/watch?v=J2hLwfV1zxk); paraphrased |
+| Fitts (1954); power law of practice (Newell & Rosenbloom 1981) | Speed–accuracy and habituation |
+| McConnell; Boehm defect-cost curve (cited on speed page) | Schedule pressure and defects — analogy only |
+| Bouton (2004) | Relearning mis-automated skill |

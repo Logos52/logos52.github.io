@@ -1,0 +1,114 @@
+[
+  {
+    "from": "/wiki/Books/The-Book-of-Elon/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering/"
+  },
+  {
+    "from": "/wiki/Concepts/A-Motorcycle-for-the-Mind/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering/"
+  },
+  {
+    "from": "/wiki/Concepts/A-Return-to-Code/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering/"
+  },
+  {
+    "from": "/wiki/Concepts/Agent-Native-Infrastructure/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering/"
+  },
+  {
+    "from": "/wiki/Concepts/Global-Workspace-and-J-space/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering/"
+  },
+  {
+    "from": "/wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering/"
+  },
+  {
+    "from": "/wiki/Concepts/Human-vs-AI-Capability-Lens/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering/"
+  },
+  {
+    "from": "/wiki/Concepts/The-Same-Model-Twice/",
+    "to": "/wiki/Working-with-Agents/Let-an-agent-check-its-own-work/"
+  },
+  {
+    "from": "/wiki/Dimensions/30-Day-Challenges/",
+    "to": "/wiki/Planning-and-Automation/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Management/Reverse-Goal-Setting/",
+    "to": "/wiki/Planning-and-Automation/"
+  },
+  {
+    "from": "/wiki/ICS-Program-Map/",
+    "to": "/wiki/Planning-and-Automation/"
+  },
+  {
+    "from": "/wiki/Syntheses/ICS-System/",
+    "to": "/wiki/Planning-and-Automation/"
+  },
+  {
+    "from": "/wiki/Syntheses/Prestudy,-BHS,-and-SIR---Turning-Information-into-Usable-Structure/",
+    "to": "/wiki/Planning-and-Automation/"
+  },
+  {
+    "from": "/wiki/Syntheses/The-30-Day-Plan/",
+    "to": "/wiki/Planning-and-Automation/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Automatic-and-Deliberate-Work-with-AI/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Automation-and-the-Job-Iceberg/",
+    "to": "/wiki/Planning-and-Automation/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Grok-Bot-Galaxy/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Using-Grok-Bot/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Grok-Bot-Primer/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Using-Grok-Bot/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Grok-Bot,-Condensed/",
+    "to": "/wiki/Systems/AI--and--Agentic-Systems/Using-Grok-Bot/"
+  },
+  {
+    "from": "/wiki/Systems/AI--and--Agentic-Systems/Thursday-Arena/",
+    "to": "/wiki/Planning-and-Automation/"
+  },
+  {
+    "from": "/wiki/Working-with-Agents/Handle-a-bug-report---reproduce-first/",
+    "to": "/wiki/Working-with-Agents/Let-an-agent-check-its-own-work/"
+  },
+  {
+    "from": "/wiki/Working-with-Agents/How-other-people-staff-their-bot-fleets/",
+    "to": "/wiki/Working-with-Agents/Scope-a-bot-like-a-job-description/"
+  },
+  {
+    "from": "/wiki/Working-with-Agents/Organize-a-fleet-of-bots/",
+    "to": "/wiki/Working-with-Agents/Scope-a-bot-like-a-job-description/"
+  },
+  {
+    "from": "/wiki/Working-with-Agents/Plan-a-piece-of-work-with-an-agent/",
+    "to": "/wiki/Planning-and-Automation/"
+  },
+  {
+    "from": "/wiki/Working-with-Agents/Review-less-without-losing-control/",
+    "to": "/wiki/Working-with-Agents/Give-an-agent-a-task-without-micromanaging-it/"
+  },
+  {
+    "from": "/wiki/Working-with-Agents/Set-up-a-first-engineering-bot/",
+    "to": "/wiki/Working-with-Agents/Scope-a-bot-like-a-job-description/"
+  },
+  {
+    "from": "/wiki/Working-with-Agents/Set-up-a-routine-or-outer-loop/",
+    "to": "/wiki/Planning-and-Automation/"
+  },
+  {
+    "from": "/wiki/Working-with-Agents/Trust-agents-more-over-time/",
+    "to": "/wiki/Working-with-Agents/Give-an-agent-a-task-without-micromanaging-it/"
+  }
+]

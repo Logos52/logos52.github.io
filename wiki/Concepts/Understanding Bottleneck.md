@@ -1,9 +1,9 @@
 ---
 title: Understanding Bottleneck
 type: concept
-status: seed
+status: stable
 created: 2026-05-02
-updated: 2026-11-11
+updated: 2026-11-22
 method: fresh-from-notes-2026-11-11
 prose-model: fable
 source-count: 1
@@ -54,7 +54,7 @@ Tools that raise understanding attack the bottleneck directly. One example is a 
 
 ## Related pages
 
-- [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]: the other side of the same talk, on making tools easier for agents to use.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agent-Native Infrastructure]]: the other side of the same talk, on making tools easier for agents to use.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the working practice of directing agents.
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: watching and steering one's own understanding.
 

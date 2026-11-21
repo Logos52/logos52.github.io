@@ -1,0 +1,3166 @@
+[
+  {
+    "id": "alex-kladov",
+    "name": "Alex Kladov",
+    "urls": [
+      "https://matklad.github.io/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/alex-kladov-thumb.webp",
+    "full": "/media/gardeners/alex-kladov-full.webp",
+    "observations": [
+      {
+        "url": "https://matklad.github.io/",
+        "lane": "engineers",
+        "who": "Systems programmer (rust-analyzer, TigerBeetle) (site/handle: matklad)",
+        "notableDesignFeatures": "A tiny three-link nav (About, Links, Blogroll) sits above a plain list of every post as date plus title; the Blogroll link in the main nav points readers to other people's sites."
+      }
+    ]
+  },
+  {
+    "id": "alexey-guzey",
+    "name": "Alexey Guzey",
+    "urls": [
+      "https://guzey.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/alexey-guzey-thumb.webp",
+    "full": "/media/gardeners/alexey-guzey-full.webp",
+    "observations": [
+      {
+        "url": "https://guzey.com",
+        "lane": "writers",
+        "who": "Independent researcher/writer",
+        "notableDesignFeatures": "One sentence of purpose and an open invitation to email sit at the top, followed by only two short lists, Recent and personal favorites; the nav is styled as a row of \">\" prompts."
+      }
+    ]
+  },
+  {
+    "id": "amelia-wattenberger",
+    "name": "Amelia Wattenberger",
+    "urls": [
+      "https://wattenberger.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/amelia-wattenberger-thumb.webp",
+    "full": "/media/gardeners/amelia-wattenberger-full.webp",
+    "observations": [
+      {
+        "url": "https://wattenberger.com",
+        "lane": "designers",
+        "who": "Research engineer at GitHub, data viz",
+        "notableDesignFeatures": "Section headings are plain first-person phrases (\"I'm thinking about…\", \"What I'm currently noodling on\") rather than category labels, leading from essays to side projects to an old-site link."
+      }
+    ]
+  },
+  {
+    "id": "andrej-karpathy",
+    "name": "Andrej Karpathy",
+    "urls": [
+      "https://karpathy.ai/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/andrej-karpathy-thumb.webp",
+    "full": "/media/gardeners/andrej-karpathy-full.webp",
+    "observations": [
+      {
+        "url": "https://karpathy.ai/",
+        "lane": "engineers",
+        "who": "AI researcher/educator",
+        "notableDesignFeatures": "A one-line tagline and a joke paragraph come before a reverse-chronological timeline grouped by year ranges, so the résumé reads as a light, self-mocking history."
+      }
+    ]
+  },
+  {
+    "id": "andy-bell",
+    "name": "Andy Bell",
+    "urls": [
+      "https://bell.bz"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/andy-bell-thumb.webp",
+    "full": "/media/gardeners/andy-bell-full.webp",
+    "observations": [
+      {
+        "url": "https://bell.bz",
+        "lane": "designers",
+        "who": "Front-end designer, Set Studio, Piccalilli",
+        "notableDesignFeatures": "A visible note says the site is being redesigned and the UI is temporary, followed by an avatar, a one-line mission, bio paragraphs and a short bulleted list of links (My Setup, RSS, personalsit.es)."
+      }
+    ]
+  },
+  {
+    "id": "andy-matuschak",
+    "name": "Andy Matuschak",
+    "urls": [
+      "https://notes.andymatuschak.org",
+      "https://andymatuschak.org/"
+    ],
+    "lanes": [
+      "gardens",
+      "engineers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/andy-matuschak-thumb.webp",
+    "full": "/media/gardeners/andy-matuschak-full.webp",
+    "observations": [
+      {
+        "url": "https://notes.andymatuschak.org",
+        "lane": "gardens",
+        "who": "researcher on tools for thought; public working notes",
+        "notableDesignFeatures": "An orientation note (\"You've stumbled upon my working notes\") stands in for a dashboard; there is deliberately no index or graph, and linked notes open as stacked side-by-side panes."
+      },
+      {
+        "url": "https://andymatuschak.org/",
+        "lane": "engineers",
+        "who": "Tools-for-thought researcher",
+        "notableDesignFeatures": "A one-line bio with a \"more…\" expander keeps the opening quiet; belief, funding and prior work follow as short prose blocks."
+      },
+      {
+        "url": "https://notes.andymatuschak.org",
+        "lane": "writers",
+        "who": "Researcher (tools for thought), public working notes",
+        "notableDesignFeatures": "An orientation note (\"You've stumbled upon my working notes\") stands in for a dashboard; there is deliberately no index or graph, and linked notes open as stacked side-by-side panes."
+      }
+    ]
+  },
+  {
+    "id": "anne-laure-le-cunff",
+    "name": "Anne-Laure Le Cunff",
+    "urls": [
+      "https://www.mentalnodes.com",
+      "https://nesslabs.com"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/anne-laure-le-cunff-thumb.webp",
+    "full": "/media/gardeners/anne-laure-le-cunff-full.webp",
+    "observations": [
+      {
+        "url": "https://www.mentalnodes.com",
+        "lane": "gardens",
+        "who": "Ness Labs founder; her older public notebook",
+        "notableDesignFeatures": "A short plant-emoji greeting and one paragraph describe the public notebook, with a \"last edited\" date shown on the home page itself as a sign the garden is maintained."
+      },
+      {
+        "url": "https://nesslabs.com",
+        "lane": "gardens",
+        "who": "newsletter, book and community business",
+        "notableDesignFeatures": "A newsletter-led marketing layout: hero signup, feature blocks, book promo and testimonials, ending in six named topic groups in the bottom nav."
+      }
+    ]
+  },
+  {
+    "id": "applied-divinity-studies",
+    "name": "Applied Divinity Studies",
+    "urls": [
+      "https://www.applieddivinitystudies.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/applied-divinity-studies-thumb.webp",
+    "full": "/media/gardeners/applied-divinity-studies-full.webp",
+    "observations": [
+      {
+        "url": "https://www.applieddivinitystudies.com",
+        "lane": "writers",
+        "who": "Pseudonymous essayist",
+        "notableDesignFeatures": "No bio or hero: a minimal About/Archives nav sits above the newest essay in full, footnotes included, with older essays below."
+      }
+    ]
+  },
+  {
+    "id": "aquiles-carattino",
+    "name": "Aquiles Carattino",
+    "urls": [
+      "https://www.aquiles.me"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/aquiles-carattino-thumb.webp",
+    "full": "/media/gardeners/aquiles-carattino-full.webp",
+    "observations": [
+      {
+        "url": "https://www.aquiles.me",
+        "lane": "gardens",
+        "who": "deep-tech advisor (its gardens-list entry now lands on a consulting site)",
+        "notableDesignFeatures": "A commercial advisor layout with a \"Book a Call\" button, hero, service cards and featured writing; the digital garden appears only as one link inside About."
+      }
+    ]
+  },
+  {
+    "id": "armin-ronacher",
+    "name": "Armin Ronacher",
+    "urls": [
+      "https://lucumr.pocoo.org/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/armin-ronacher-thumb.webp",
+    "full": "/media/gardeners/armin-ronacher-full.webp",
+    "observations": [
+      {
+        "url": "https://lucumr.pocoo.org/",
+        "lane": "engineers",
+        "who": "Creator of Flask",
+        "notableDesignFeatures": "A plain nav sits above a post list of date, title and a one-line subtitle, some phrased as questions (\"Can we do better than Serde?\")."
+      }
+    ]
+  },
+  {
+    "id": "austin-kleon",
+    "name": "Austin Kleon",
+    "urls": [
+      "https://austinkleon.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/austin-kleon-thumb.webp",
+    "full": "/media/gardeners/austin-kleon-full.webp",
+    "observations": [
+      {
+        "url": "https://austinkleon.com",
+        "lane": "writers",
+        "who": "Author and artist (\"writer who draws\")",
+        "notableDesignFeatures": "A pinned \"Welcome!\" post with a short bio and subscribe link sits at the top of the dated blog stream and serves as the introduction, in place of a hero section."
+      }
+    ]
+  },
+  {
+    "id": "azlen-elza",
+    "name": "Azlen Elza",
+    "urls": [
+      "https://azlen.me"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/azlen-elza-thumb.webp",
+    "full": "/media/gardeners/azlen-elza-full.webp",
+    "observations": [
+      {
+        "url": "https://azlen.me",
+        "lane": "gardens",
+        "who": "artist and tinkerer, tools for thought",
+        "notableDesignFeatures": "The home page works as a doorstep: a theme picker (Light, Dark, \"Gameboy Green\"…), a warm welcome note, a webring link and four navigation words (Gallery, Library, Stories, Workshop)."
+      }
+    ]
+  },
+  {
+    "id": "bartosz-ciechanowski",
+    "name": "Bartosz Ciechanowski",
+    "urls": [
+      "https://ciechanow.ski/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/bartosz-ciechanowski-thumb.webp",
+    "full": "/media/gardeners/bartosz-ciechanowski-full.webp",
+    "observations": [
+      {
+        "url": "https://ciechanow.ski/",
+        "lane": "engineers",
+        "who": "Interactive explainer author",
+        "notableDesignFeatures": "There is no intro: a single nav line sits above the full newest article, with the archive on a separate page."
+      }
+    ]
+  },
+  {
+    "id": "bastian-allgeier",
+    "name": "Bastian Allgeier",
+    "urls": [
+      "https://bastianallgeier.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/bastian-allgeier-thumb.webp",
+    "full": "/media/gardeners/bastian-allgeier-full.webp",
+    "observations": [
+      {
+        "url": "https://bastianallgeier.com",
+        "lane": "writers",
+        "who": "Designer/developer (Kirby CMS)",
+        "notableDesignFeatures": "A one-line bio sits above a plain dated list of notes with short, mostly one-word titles (Mirror, Solar, Simplicity (II))."
+      }
+    ]
+  },
+  {
+    "id": "ben-kuhn",
+    "name": "Ben Kuhn",
+    "urls": [
+      "https://www.benkuhn.net"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/ben-kuhn-thumb.webp",
+    "full": "/media/gardeners/ben-kuhn-full.webp",
+    "observations": [
+      {
+        "url": "https://www.benkuhn.net",
+        "lane": "writers",
+        "who": "Engineer/CTO, essayist",
+        "notableDesignFeatures": "Each essay in the list carries a \"•\"-separated mini outline of its key points, under a tiny nav (home • say hi • blogroll) and a two-line intro."
+      }
+    ]
+  },
+  {
+    "id": "brad-frost",
+    "name": "Brad Frost",
+    "urls": [
+      "https://bradfrost.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/brad-frost-thumb.webp",
+    "full": "/media/gardeners/brad-frost-full.webp",
+    "observations": [
+      {
+        "url": "https://bradfrost.com",
+        "lane": "designers",
+        "who": "Design systems, Atomic Design",
+        "notableDesignFeatures": "The bio paragraph does the navigating, with links woven inline, after a small GIF and a redesign notice."
+      }
+    ]
+  },
+  {
+    "id": "brandur-leach",
+    "name": "Brandur Leach",
+    "urls": [
+      "https://www.brandur.org/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/brandur-leach-thumb.webp",
+    "full": "/media/gardeners/brandur-leach-full.webp",
+    "observations": [
+      {
+        "url": "https://www.brandur.org/",
+        "lane": "engineers",
+        "who": "Engineer (Postgres, APIs)",
+        "notableDesignFeatures": "An intro paragraph explains each section (Articles, Atoms, Fragments, Sequences…) and how often it updates, above a mixed feed where each item carries a type label."
+      }
+    ]
+  },
+  {
+    "id": "brian-lovin",
+    "name": "Brian Lovin",
+    "urls": [
+      "https://brianlovin.com/",
+      "https://brianlovin.com"
+    ],
+    "lanes": [
+      "engineers",
+      "designers"
+    ],
+    "thumb": "/media/gardeners/brian-lovin-thumb.webp",
+    "full": "/media/gardeners/brian-lovin-full.webp",
+    "observations": [
+      {
+        "url": "https://brianlovin.com/",
+        "lane": "engineers",
+        "who": "Software designer (Notion)",
+        "notableDesignFeatures": "A one-sentence bio sits above five recent writing titles and a scannable projects list where each entry is just a name and a few-word description."
+      },
+      {
+        "url": "https://brianlovin.com",
+        "lane": "designers",
+        "who": "Software designer at Notion",
+        "notableDesignFeatures": "Short Writing and Projects lists lead to a plain \"Sections\" index of every site page at the bottom, which acts as a text site map; the footer links source, llms.txt and sitemap."
+      }
+    ]
+  },
+  {
+    "id": "brr",
+    "name": "brr",
+    "urls": [
+      "https://brr.fyi"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/brr-thumb.webp",
+    "full": "/media/gardeners/brr-full.webp",
+    "observations": [
+      {
+        "url": "https://brr.fyi",
+        "lane": "writers",
+        "who": "Anonymous South Pole IT worker's blog",
+        "notableDesignFeatures": "Every post is listed as title, one-line subtitle and date (e.g. \"Fresh water from snow, at 70 below!\") under a five-link nav."
+      }
+    ]
+  },
+  {
+    "id": "bryan-jenks",
+    "name": "Bryan Jenks",
+    "urls": [
+      "https://notes.bryanjenks.dev"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/bryan-jenks-thumb.webp",
+    "full": "/media/gardeners/bryan-jenks-full.webp",
+    "observations": [
+      {
+        "url": "https://notes.bryanjenks.dev",
+        "lane": "gardens",
+        "who": "IT specialist; Obsidian Zettelkasten vault",
+        "notableDesignFeatures": "The home page doubles as a legend for the garden: how notes are organised, a key to prefix symbols, task colours, maturity levels (Seedling → Evergreen) and where to start (Maps of Content)."
+      }
+    ]
+  },
+  {
+    "id": "buster-benson",
+    "name": "Buster Benson",
+    "urls": [
+      "https://busterbenson.com"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/buster-benson-thumb.webp",
+    "full": "/media/gardeners/buster-benson-full.webp",
+    "observations": [
+      {
+        "url": "https://busterbenson.com",
+        "lane": "gardens",
+        "who": "writer (Why Are We Yelling?), creator of 750 Words",
+        "notableDesignFeatures": "A plain text nav with evocative page names (\"The Piles\", \"My Life in Weeks\", \"Codex Vitae\") sits above one long dated feed back to 2003, with no section headers."
+      }
+    ]
+  },
+  {
+    "id": "cal-newport",
+    "name": "Cal Newport",
+    "urls": [
+      "https://calnewport.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/cal-newport-thumb.webp",
+    "full": "/media/gardeners/cal-newport-full.webp",
+    "observations": [
+      {
+        "url": "https://calnewport.com",
+        "lane": "writers",
+        "who": "CS professor, author",
+        "notableDesignFeatures": "An author-bio layout with newsletter signup, credentials, featured articles and books; contact details are split by purpose (academic, media, everything else)."
+      }
+    ]
+  },
+  {
+    "id": "cassie-evans",
+    "name": "Cassie Evans",
+    "urls": [
+      "https://www.cassie.codes"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/cassie-evans-thumb.webp",
+    "full": "/media/gardeners/cassie-evans-full.webp",
+    "observations": [
+      {
+        "url": "https://www.cassie.codes",
+        "lane": "designers",
+        "who": "Web animation developer",
+        "notableDesignFeatures": "The whole page is a short farewell note explaining the site no longer felt rewarding, with pointers to where she is now; a single paragraph is the entire home page."
+      }
+    ]
+  },
+  {
+    "id": "chase-mccoy",
+    "name": "Chase McCoy",
+    "urls": [
+      "https://chsmc.org"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/chase-mccoy-thumb.webp",
+    "full": "/media/gardeners/chase-mccoy-full.webp",
+    "observations": [
+      {
+        "url": "https://chsmc.org",
+        "lane": "gardens",
+        "who": "design engineer, blogger",
+        "notableDesignFeatures": "A third-person one-line bio reads like a byline above a reverse-chronological feed of title, date and excerpt with pagination."
+      }
+    ]
+  },
+  {
+    "id": "chris-aldrich",
+    "name": "Chris Aldrich",
+    "urls": [
+      "https://boffosocko.com"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/chris-aldrich-thumb.webp",
+    "full": "/media/gardeners/chris-aldrich-full.webp",
+    "observations": [
+      {
+        "url": "https://boffosocko.com",
+        "lane": "gardens",
+        "who": "IndieWeb commonplace-book blogger (\"Modern Day Cyberneticist\")",
+        "notableDesignFeatures": "A very large nested menu (about 30 post kinds) and dense sidebars dominate; a two-sentence \"Hello! I'm Chris\" intro appears further down."
+      }
+    ]
+  },
+  {
+    "id": "chris-glass",
+    "name": "Chris Glass",
+    "urls": [
+      "https://chrisglass.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/chris-glass-thumb.webp",
+    "full": "/media/gardeners/chris-glass-full.webp",
+    "observations": [
+      {
+        "url": "https://chrisglass.com",
+        "lane": "writers",
+        "who": "Designer, daily photo and link journal",
+        "notableDesignFeatures": "A one-sentence statement of what the site is sits above today's photo post and a \"Recent Links\" list (title, one-line comment, source domain); the main nav includes a Random button."
+      }
+    ]
+  },
+  {
+    "id": "clinton-boys",
+    "name": "Clinton Boys",
+    "urls": [
+      "https://mtsolitary.com"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/clinton-boys-thumb.webp",
+    "full": "/media/gardeners/clinton-boys-full.webp",
+    "observations": [
+      {
+        "url": "https://mtsolitary.com",
+        "lane": "gardens",
+        "who": "data scientist; Emacs/org-roam garden",
+        "notableDesignFeatures": "Plain nav items include \"Stubs\" and \"Statistics\", which report the garden's state in text; a welcome line, four important pages, a note on the site's name and a colophon follow."
+      }
+    ]
+  },
+  {
+    "id": "cory-doctorow",
+    "name": "Cory Doctorow",
+    "urls": [
+      "https://pluralistic.net"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/cory-doctorow-thumb.webp",
+    "full": "/media/gardeners/cory-doctorow-full.webp",
+    "observations": [
+      {
+        "url": "https://pluralistic.net",
+        "lane": "writers",
+        "who": "Author, activist",
+        "notableDesignFeatures": "A values line (\"No trackers, no ads. Black type, white background.\") states the design up front; each daily issue opens with a table of contents and includes \"Object permanence\" links to past years."
+      }
+    ]
+  },
+  {
+    "id": "craig-mod",
+    "name": "Craig Mod",
+    "urls": [
+      "https://craigmod.com"
+    ],
+    "lanes": [
+      "designers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/craig-mod-thumb.webp",
+    "full": "/media/gardeners/craig-mod-full.webp",
+    "observations": [
+      {
+        "url": "https://craigmod.com",
+        "lane": "designers",
+        "who": "Writer and photographer, Japan",
+        "notableDesignFeatures": "Each newsletter is listed with its cadence (monthly, weekly) and subscriber count right at the top, followed by the current book with blurbs and buy links."
+      },
+      {
+        "url": "https://craigmod.com",
+        "lane": "writers",
+        "who": "Writer and photographer (walking Japan)",
+        "notableDesignFeatures": "Each newsletter is listed with its cadence (monthly, weekly) and subscriber count right at the top, followed by the current book with blurbs and buy links."
+      }
+    ]
+  },
+  {
+    "id": "dan-abramov",
+    "name": "Dan Abramov",
+    "urls": [
+      "https://overreacted.io/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/dan-abramov-thumb.webp",
+    "full": "/media/gardeners/dan-abramov-full.webp",
+    "observations": [
+      {
+        "url": "https://overreacted.io/",
+        "lane": "engineers",
+        "who": "React core alum",
+        "notableDesignFeatures": "A wordmark sits above a post list where each title carries a date and a short subtitle (\"Formats over apps.\")."
+      }
+    ]
+  },
+  {
+    "id": "dan-luu",
+    "name": "Dan Luu",
+    "urls": [
+      "https://danluu.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/dan-luu-thumb.webp",
+    "full": "/media/gardeners/dan-luu-full.webp",
+    "observations": [
+      {
+        "url": "https://danluu.com/",
+        "lane": "engineers",
+        "who": "Systems/performance engineer, essayist",
+        "notableDesignFeatures": "No header, name or intro: the home page is the full archive as one list of `MM/YY title` lines, newest first, with footer links."
+      }
+    ]
+  },
+  {
+    "id": "dan-mall",
+    "name": "Dan Mall",
+    "urls": [
+      "https://danmall.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/dan-mall-thumb.webp",
+    "full": "/media/gardeners/dan-mall-full.webp",
+    "observations": [
+      {
+        "url": "https://danmall.com",
+        "lane": "designers",
+        "who": "Design educator and mentor",
+        "notableDesignFeatures": "A service-style headline leads to three featured essays, only four topic categories, testimonials and promos, plus a \"Books I'm currently reading\" list."
+      }
+    ]
+  },
+  {
+    "id": "dan-wang",
+    "name": "Dan Wang",
+    "urls": [
+      "https://danwang.co"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/dan-wang-thumb.webp",
+    "full": "/media/gardeners/dan-wang-full.webp",
+    "observations": [
+      {
+        "url": "https://danwang.co",
+        "lane": "writers",
+        "who": "Writer on China and tech (famous annual letters)",
+        "notableDesignFeatures": "A poetic tagline (\"The secure transport of light\") stands in for a job title, and one long annual letter is shown in full as the anchor piece."
+      }
+    ]
+  },
+  {
+    "id": "daniel-chapman",
+    "name": "Daniel Chapman",
+    "urls": [
+      "https://www.dschapman.com"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/daniel-chapman-thumb.webp",
+    "full": "/media/gardeners/daniel-chapman-full.webp",
+    "observations": [
+      {
+        "url": "https://www.dschapman.com",
+        "lane": "gardens",
+        "who": "poet, writer, web developer",
+        "notableDesignFeatures": "A three-word identity (\"Poet, Writer, Tinkerer\") and a one-sentence garden explainer open the page, followed by quick links, recent posts and featured pieces with one-line summaries and tags."
+      }
+    ]
+  },
+  {
+    "id": "dave-rupert",
+    "name": "Dave Rupert",
+    "urls": [
+      "https://daverupert.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/dave-rupert-thumb.webp",
+    "full": "/media/gardeners/dave-rupert-full.webp",
+    "observations": [
+      {
+        "url": "https://daverupert.com",
+        "lane": "writers",
+        "who": "Web developer, ShopTalk podcast",
+        "notableDesignFeatures": "Each post in the latest-posts list shows title, date and hashtag categories on one line, giving a sense of topic range without an index page."
+      }
+    ]
+  },
+  {
+    "id": "david-heinemeier-hansson",
+    "name": "David Heinemeier Hansson",
+    "urls": [
+      "https://world.hey.com/dhh"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/david-heinemeier-hansson-thumb.webp",
+    "full": "/media/gardeners/david-heinemeier-hansson-full.webp",
+    "observations": [
+      {
+        "url": "https://world.hey.com/dhh",
+        "lane": "writers",
+        "who": "Rails creator, 37signals CTO",
+        "notableDesignFeatures": "A hosted HEY World template with no extra chrome: a one-sentence bio, then dated posts as title plus first sentence."
+      }
+    ]
+  },
+  {
+    "id": "david-ralph-lewis",
+    "name": "David Ralph Lewis",
+    "urls": [
+      "https://notes.davidralphlewis.co.uk"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/david-ralph-lewis-thumb.webp",
+    "full": "/media/gardeners/david-ralph-lewis-full.webp",
+    "observations": [
+      {
+        "url": "https://notes.davidralphlewis.co.uk",
+        "lane": "gardens",
+        "who": "designer; Obsidian-published notes (600+)",
+        "notableDesignFeatures": "A heading and one-line purpose lead to a garden explainer (unfinished, corrections welcome, note count), five suggested starting places and five recently updated notes."
+      }
+    ]
+  },
+  {
+    "id": "derek-sivers",
+    "name": "Derek Sivers",
+    "urls": [
+      "https://sive.rs/",
+      "https://sive.rs"
+    ],
+    "lanes": [
+      "engineers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/derek-sivers-thumb.webp",
+    "full": "/media/gardeners/derek-sivers-full.webp",
+    "observations": [
+      {
+        "url": "https://sive.rs/",
+        "lane": "engineers",
+        "who": "Programmer-entrepreneur, author",
+        "notableDesignFeatures": "A \"me in 10 seconds\" timeline of life eras ending in \"2026+: ?\" opens the page, with one-line pointers to /about (\"me in 10 minutes\") and /now; an \"Everything here is 100% me, no AI\" note sits at the top."
+      },
+      {
+        "url": "https://sive.rs",
+        "lane": "writers",
+        "who": "Author, entrepreneur (CD Baby)",
+        "notableDesignFeatures": "A dated life timeline (\"me in 10 seconds\") ending in \"2026+: ?\" is paired with one-line pointers to /about and /now, then newest articles, interviews, projects and a \"You want more?!\" block of search, feeds and random page."
+      }
+    ]
+  },
+  {
+    "id": "devine-lu-linvega",
+    "name": "Devine Lu Linvega",
+    "urls": [
+      "https://wiki.xxiivv.com",
+      "https://wiki.xxiivv.com/site/home.html"
+    ],
+    "lanes": [
+      "gardens",
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/devine-lu-linvega-thumb.webp",
+    "full": "/media/gardeners/devine-lu-linvega-full.webp",
+    "observations": [
+      {
+        "url": "https://wiki.xxiivv.com",
+        "lane": "gardens",
+        "who": "artist and programmer (Hundred Rabbits, Uxn); huge personal wiki",
+        "notableDesignFeatures": "The update rhythm (\"updated every 14 days\") is stated on the home page, alongside a cursive logo, a four-word nav, one upcoming event, numbered talks and a footer of badges and webrings."
+      },
+      {
+        "url": "https://wiki.xxiivv.com/site/home.html",
+        "lane": "engineers",
+        "who": "Hundred Rabbits; permacomputing wiki (site/handle: XXIIVV)",
+        "notableDesignFeatures": "A large wiki is entered through four category words and a short cryptic paragraph; the page states the diary update rhythm (every 14 days) and ends with a 2008–2026 span in the footer."
+      }
+    ]
+  },
+  {
+    "id": "drew-devault",
+    "name": "Drew DeVault",
+    "urls": [
+      "https://drewdevault.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/drew-devault-thumb.webp",
+    "full": "/media/gardeners/drew-devault-full.webp",
+    "observations": [
+      {
+        "url": "https://drewdevault.com/",
+        "lane": "engineers",
+        "who": "FOSS developer (SourceHut, Hare)",
+        "notableDesignFeatures": "An intro paragraph states the topics, followed by causes, a short \"See also\" list of three evergreen posts and then the dated blog list."
+      }
+    ]
+  },
+  {
+    "id": "eli-bendersky",
+    "name": "Eli Bendersky",
+    "urls": [
+      "https://eli.thegreenplace.net/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/eli-bendersky-thumb.webp",
+    "full": "/media/gardeners/eli-bendersky-full.webp",
+    "observations": [
+      {
+        "url": "https://eli.thegreenplace.net/",
+        "lane": "engineers",
+        "who": "Compiler/Go engineer, long-time blogger",
+        "notableDesignFeatures": "Almost no home-page design: a short nav sits above the full text of recent posts in order."
+      }
+    ]
+  },
+  {
+    "id": "eli-horn",
+    "name": "Eli Horn",
+    "urls": [
+      "https://elihorn.ca"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/eli-horn-thumb.webp",
+    "full": "/media/gardeners/eli-horn-full.webp",
+    "observations": [
+      {
+        "url": "https://elihorn.ca",
+        "lane": "designers",
+        "who": "Artist (from minimal.gallery)",
+        "notableDesignFeatures": "The entire home page is a single quotation that links to the artwork, under a three-item nav."
+      }
+    ]
+  },
+  {
+    "id": "elliot-jay-stocks",
+    "name": "Elliot Jay Stocks",
+    "urls": [
+      "https://elliotjaystocks.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/elliot-jay-stocks-thumb.webp",
+    "full": "/media/gardeners/elliot-jay-stocks-full.webp",
+    "observations": [
+      {
+        "url": "https://elliotjaystocks.com",
+        "lane": "designers",
+        "who": "Designer, typographer, musician",
+        "notableDesignFeatures": "A promo-heavy page (books, workshop, podcast, newsletter, music) with a single \"latest blog post\" slot instead of a feed."
+      }
+    ]
+  },
+  {
+    "id": "emil-kowalski",
+    "name": "Emil Kowalski",
+    "urls": [
+      "https://emilkowal.ski"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/emil-kowalski-thumb.webp",
+    "full": "/media/gardeners/emil-kowalski-full.webp",
+    "observations": [
+      {
+        "url": "https://emilkowal.ski",
+        "lane": "designers",
+        "who": "Design engineer (Sonner, Vaul)",
+        "notableDesignFeatures": "A one-line \"Today\" status note sits under the name, followed by short Projects and Writing lists."
+      }
+    ]
+  },
+  {
+    "id": "ethan-marcotte",
+    "name": "Ethan Marcotte",
+    "urls": [
+      "https://ethanmarcotte.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/ethan-marcotte-thumb.webp",
+    "full": "/media/gardeners/ethan-marcotte-full.webp",
+    "observations": [
+      {
+        "url": "https://ethanmarcotte.com",
+        "lane": "writers",
+        "who": "Designer, writer (coined responsive web design)",
+        "notableDesignFeatures": "A \"Hi, I'm Ethan\" line leads to \"Most recently\" (three entries) and \"A few faves\", each post with a date and a one-sentence dek."
+      }
+    ]
+  },
+  {
+    "id": "ev-astapov",
+    "name": "Ev Astapov",
+    "urls": [
+      "https://astapable.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/ev-astapov-thumb.webp",
+    "full": "/media/gardeners/ev-astapov-full.webp",
+    "observations": [
+      {
+        "url": "https://astapable.com",
+        "lane": "designers",
+        "who": "Product designer (from minimal.gallery)",
+        "notableDesignFeatures": "Section headings are styled as code comments (\"/* Featured Work */\"), an audio player sits in the hero, and the footer shows a version and \"last updated\" date."
+      }
+    ]
+  },
+  {
+    "id": "evan-you",
+    "name": "Evan You",
+    "urls": [
+      "https://evanyou.me/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/evan-you-thumb.webp",
+    "full": "/media/gardeners/evan-you-full.webp",
+    "observations": [
+      {
+        "url": "https://evanyou.me/",
+        "lane": "engineers",
+        "who": "Creator of Vue.js and Vite",
+        "notableDesignFeatures": "Four paragraphs of plain prose cover work, open source, where to follow and ordinary hobbies, with nothing else on the page."
+      }
+    ]
+  },
+  {
+    "id": "fabien-sanglard",
+    "name": "Fabien Sanglard",
+    "urls": [
+      "https://fabiensanglard.net/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/fabien-sanglard-thumb.webp",
+    "full": "/media/gardeners/fabien-sanglard-full.webp",
+    "observations": [
+      {
+        "url": "https://fabiensanglard.net/",
+        "lane": "engineers",
+        "who": "Game-engine/graphics engineer, author",
+        "notableDesignFeatures": "A one-line disclaimer sits above every article as `DD/MM/YYYY: title`, newest first, with no other decoration."
+      }
+    ]
+  },
+  {
+    "id": "frank-chimero",
+    "name": "Frank Chimero",
+    "urls": [
+      "https://frankchimero.com/",
+      "https://frankchimero.com"
+    ],
+    "lanes": [
+      "engineers",
+      "designers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/frank-chimero-thumb.webp",
+    "full": "/media/gardeners/frank-chimero-full.webp",
+    "observations": [
+      {
+        "url": "https://frankchimero.com/",
+        "lane": "engineers",
+        "who": "Designer, writer",
+        "notableDesignFeatures": "Five links make up the page, each with a short caption and year range (\"Post Archive · 2009–2025\")."
+      },
+      {
+        "url": "https://frankchimero.com",
+        "lane": "designers",
+        "who": "Designer, New York",
+        "notableDesignFeatures": "One short list of about seven works, each labelled \"Kind · Year\" (\"The Web's Grain, Essay · 2015\"), is the entire home page."
+      },
+      {
+        "url": "https://frankchimero.com",
+        "lane": "writers",
+        "who": "Designer, writer",
+        "notableDesignFeatures": "One short list of about seven works, each labelled \"Kind · Year\" (\"The Web's Grain, Essay · 2015\"), is the entire home page."
+      }
+    ]
+  },
+  {
+    "id": "frederick-obrien",
+    "name": "Frederick O'Brien",
+    "urls": [
+      "https://www.frederickobrien.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/frederick-obrien-thumb.webp",
+    "full": "/media/gardeners/frederick-obrien-full.webp",
+    "observations": [
+      {
+        "url": "https://www.frederickobrien.com",
+        "lane": "designers",
+        "who": "Writer and web developer",
+        "notableDesignFeatures": "Projects are split into \"Work\" and \"Play\" card rows, followed by 15 dated writings with a \"See all\" link."
+      }
+    ]
+  },
+  {
+    "id": "gordon-brander",
+    "name": "Gordon Brander",
+    "urls": [
+      "https://gordonbrander.com"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/gordon-brander-thumb.webp",
+    "full": "/media/gardeners/gordon-brander-full.webp",
+    "observations": [
+      {
+        "url": "https://gordonbrander.com",
+        "lane": "gardens",
+        "who": "founder/builder (Subconscious, Deep Future), Squishy Computer newsletter",
+        "notableDesignFeatures": "A one-sentence thesis (\"Open-ended ecosystems are where value is created.\") serves as the hero, followed by a bio and ten dated recent notes with topic tags."
+      }
+    ]
+  },
+  {
+    "id": "gwern-branwen",
+    "name": "Gwern Branwen",
+    "urls": [
+      "https://gwern.net",
+      "https://gwern.net/",
+      "https://www.gwern.net"
+    ],
+    "lanes": [
+      "gardens",
+      "engineers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/gwern-branwen-thumb.webp",
+    "full": "/media/gardeners/gwern-branwen-full.webp",
+    "observations": [
+      {
+        "url": "https://gwern.net",
+        "lane": "gardens",
+        "who": "long-form essays on AI, psychology and statistics",
+        "notableDesignFeatures": "A one-sentence \"This is the website of Gwern Branwen\" abstract leads into Newest / Popular / Notable lists and about 35 plain-text topic sections that reach every page."
+      },
+      {
+        "url": "https://gwern.net/",
+        "lane": "engineers",
+        "who": "Independent writer on AI, statistics, psychology",
+        "notableDesignFeatures": "Newest / Popular / Notable tabs offer three entry points into a large corpus, above a long topic index of per-topic link lists."
+      },
+      {
+        "url": "https://www.gwern.net",
+        "lane": "writers",
+        "who": "Independent researcher/essayist",
+        "notableDesignFeatures": "Newest / Popular / Notable tabs sit above a categorised index of about 40 topical lists; hover link-previews provide the sense of connection instead of a graph."
+      }
+    ]
+  },
+  {
+    "id": "hakim-el-hattab",
+    "name": "Hakim El Hattab",
+    "urls": [
+      "https://hakim.se"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/hakim-el-hattab-thumb.webp",
+    "full": "/media/gardeners/hakim-el-hattab-full.webp",
+    "observations": [
+      {
+        "url": "https://hakim.se",
+        "lane": "designers",
+        "who": "Front-end developer, reveal.js, Slides",
+        "notableDesignFeatures": "A short bio and project cards lead to a long list of experiments and a brief Q&A (where, what now, past employers, hiring?) in place of an About block."
+      }
+    ]
+  },
+  {
+    "id": "henry-desroches",
+    "name": "Henry Desroches",
+    "urls": [
+      "https://henry.codes"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/henry-desroches-thumb.webp",
+    "full": "/media/gardeners/henry-desroches-full.webp",
+    "observations": [
+      {
+        "url": "https://henry.codes",
+        "lane": "designers",
+        "who": "Web developer and designer, Denver",
+        "notableDesignFeatures": "A short \"letter from the editor\" opens the page, alongside a location/temperature/time line and garden-themed link lists, with no graph."
+      }
+    ]
+  },
+  {
+    "id": "hillel-wayne",
+    "name": "Hillel Wayne",
+    "urls": [
+      "https://www.hillelwayne.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/hillel-wayne-thumb.webp",
+    "full": "/media/gardeners/hillel-wayne-full.webp",
+    "observations": [
+      {
+        "url": "https://www.hillelwayne.com/",
+        "lane": "engineers",
+        "who": "Formal methods consultant, author",
+        "notableDesignFeatures": "A single one-line news banner (\"New: Logic for Programmers is out in print!\") sits above a plain date-and-title blog list."
+      }
+    ]
+  },
+  {
+    "id": "hiran-venugopalan",
+    "name": "Hiran Venugopalan",
+    "urls": [
+      "https://hiran.in/notes"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/hiran-venugopalan-thumb.webp",
+    "full": "/media/gardeners/hiran-venugopalan-full.webp",
+    "observations": [
+      {
+        "url": "https://hiran.in/notes",
+        "lane": "gardens",
+        "who": "designer; \"Working Notes.\"",
+        "notableDesignFeatures": "A dense list of note titles leads to category names with counts in parentheses (Everything 331, Reading 144…) and a ⌘K search with popular searches."
+      }
+    ]
+  },
+  {
+    "id": "jacky-zhao",
+    "name": "Jacky Zhao",
+    "urls": [
+      "https://jzhao.xyz"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/jacky-zhao-thumb.webp",
+    "full": "/media/gardeners/jacky-zhao-full.webp",
+    "observations": [
+      {
+        "url": "https://jzhao.xyz",
+        "lane": "gardens",
+        "who": "engineer; built Quartz, the publishing tool many gardens run on",
+        "notableDesignFeatures": "Counts like \"see 754 more\" after short Selected Writing and Recent Notes lists signal the garden's size; a search bar and dark-mode toggle sit at the top, with a welcome paragraph below."
+      }
+    ]
+  },
+  {
+    "id": "jake-archibald",
+    "name": "Jake Archibald",
+    "urls": [
+      "https://jakearchibald.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/jake-archibald-thumb.webp",
+    "full": "/media/gardeners/jake-archibald-full.webp",
+    "observations": [
+      {
+        "url": "https://jakearchibald.com/",
+        "lane": "engineers",
+        "who": "Web platform dev (ex-Chrome)",
+        "notableDesignFeatures": "A joke header leads to a post list where each item has a one-line teaser (\"The default might not be what you expect\") and \"Read on…\"."
+      }
+    ]
+  },
+  {
+    "id": "james-coffee-blog",
+    "name": "James' Coffee Blog",
+    "urls": [
+      "https://jamesg.blog/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/james-coffee-blog-thumb.webp",
+    "full": "/media/gardeners/james-coffee-blog-full.webp",
+    "observations": [
+      {
+        "url": "https://jamesg.blog/",
+        "lane": "engineers",
+        "who": "IndieWeb developer/writer (site/handle: jamesg)",
+        "notableDesignFeatures": "The home page is written as a poem with recent posts woven in, ending with one sincere sentence of intent (\"I hope this website can bring a little bit of joy into your day\")."
+      }
+    ]
+  },
+  {
+    "id": "jason-fried",
+    "name": "Jason Fried",
+    "urls": [
+      "https://world.hey.com/jason"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/jason-fried-thumb.webp",
+    "full": "/media/gardeners/jason-fried-full.webp",
+    "observations": [
+      {
+        "url": "https://world.hey.com/jason",
+        "lane": "writers",
+        "who": "37signals CEO",
+        "notableDesignFeatures": "A one-sentence intro with subscribe sits above repeated date headers, post titles and first lines, with nothing else."
+      }
+    ]
+  },
+  {
+    "id": "jason-kottke",
+    "name": "Jason Kottke",
+    "urls": [
+      "https://kottke.org"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/jason-kottke-thumb.webp",
+    "full": "/media/gardeners/jason-kottke-full.webp",
+    "observations": [
+      {
+        "url": "https://kottke.org",
+        "lane": "writers",
+        "who": "Link blogger since 1998",
+        "notableDesignFeatures": "A small nav sits above a reverse-chronological stream of short link posts, closed by a self-deprecating tagline (\"Beloved by 86.47% of the web\")."
+      }
+    ]
+  },
+  {
+    "id": "jason-santa-maria",
+    "name": "Jason Santa Maria",
+    "urls": [
+      "https://jasonsantamaria.com"
+    ],
+    "lanes": [
+      "designers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/jason-santa-maria-thumb.webp",
+    "full": "/media/gardeners/jason-santa-maria-full.webp",
+    "observations": [
+      {
+        "url": "https://jasonsantamaria.com",
+        "lane": "designers",
+        "who": "Designer, type designer, A Book Apart",
+        "notableDesignFeatures": "A values line opens the page, and an \"I love and geek out on…\" sentence links each interest; typefaces are listed with one-line descriptions."
+      },
+      {
+        "url": "https://jasonsantamaria.com",
+        "lane": "writers",
+        "who": "Designer, type designer",
+        "notableDesignFeatures": "A values line opens the page, and an \"I love and geek out on…\" sentence links each interest; typefaces are listed with one-line descriptions."
+      }
+    ]
+  },
+  {
+    "id": "jeff-atwood",
+    "name": "Jeff Atwood",
+    "urls": [
+      "https://blog.codinghorror.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/jeff-atwood-thumb.webp",
+    "full": "/media/gardeners/jeff-atwood-full.webp",
+    "observations": [
+      {
+        "url": "https://blog.codinghorror.com/",
+        "lane": "engineers",
+        "who": "Stack Overflow / Discourse co-founder",
+        "notableDesignFeatures": "A classic blog layout shows the full latest post, with a reading-time estimate next to the date."
+      }
+    ]
+  },
+  {
+    "id": "jeff-huang",
+    "name": "Jeff Huang",
+    "urls": [
+      "https://jeffhuang.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/jeff-huang-thumb.webp",
+    "full": "/media/gardeners/jeff-huang-full.webp",
+    "observations": [
+      {
+        "url": "https://jeffhuang.com/",
+        "lane": "engineers",
+        "who": "CS professor at Brown",
+        "notableDesignFeatures": "The page is mostly a contact block with postal address, a bio paragraph and education history; no visual framing."
+      }
+    ]
+  },
+  {
+    "id": "jeffrey-zeldman",
+    "name": "Jeffrey Zeldman",
+    "urls": [
+      "https://zeldman.com"
+    ],
+    "lanes": [
+      "designers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/jeffrey-zeldman-thumb.webp",
+    "full": "/media/gardeners/jeffrey-zeldman-full.webp",
+    "observations": [
+      {
+        "url": "https://zeldman.com",
+        "lane": "designers",
+        "who": "Web design writer since 1995",
+        "notableDesignFeatures": "Reads like a publication: nav and category menu, latest post, newsletter box and older posts, with a \"since 1995\" longevity line in the header."
+      },
+      {
+        "url": "https://zeldman.com",
+        "lane": "writers",
+        "who": "Web design pioneer",
+        "notableDesignFeatures": "Reads like a publication: nav and category menu, latest post, newsletter box and older posts, with a \"since 1995\" longevity line in the header."
+      }
+    ]
+  },
+  {
+    "id": "jenny-wen",
+    "name": "Jenny Wen",
+    "urls": [
+      "https://jennywen.ca"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/jenny-wen-thumb.webp",
+    "full": "/media/gardeners/jenny-wen-full.webp",
+    "observations": [
+      {
+        "url": "https://jennywen.ca",
+        "lane": "designers",
+        "who": "Designer (most recently design lead for Claude at Anthropic, before that Figma)",
+        "notableDesignFeatures": "One reverse-chronological list of dated entries (launches, talks, side projects), each with a title, a first-person blurb and an image."
+      }
+    ]
+  },
+  {
+    "id": "jeremy-keith",
+    "name": "Jeremy Keith",
+    "urls": [
+      "https://adactio.com"
+    ],
+    "lanes": [
+      "designers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/jeremy-keith-thumb.webp",
+    "full": "/media/gardeners/jeremy-keith-full.webp",
+    "observations": [
+      {
+        "url": "https://adactio.com",
+        "lane": "designers",
+        "who": "adactio; Web designer, Clearleft",
+        "notableDesignFeatures": "A one-line count of each content type (\"Journal 3278 · Links 10899 · Articles 87 · Notes 8264\") summarises the site above a stream grouped by day."
+      },
+      {
+        "url": "https://adactio.com",
+        "lane": "writers",
+        "who": "Web developer, author",
+        "notableDesignFeatures": "A one-line count of each content type (\"Journal 3278 · Links 10899 · Articles 87 · Notes 8264\") summarises the site above a stream grouped by day."
+      }
+    ]
+  },
+  {
+    "id": "jessica-hische",
+    "name": "Jessica Hische",
+    "urls": [
+      "https://www.jessicahische.is"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/jessica-hische-thumb.webp",
+    "full": "/media/gardeners/jessica-hische-full.webp",
+    "observations": [
+      {
+        "url": "https://www.jessicahische.is",
+        "lane": "designers",
+        "who": "Lettering artist and author",
+        "notableDesignFeatures": "A commercial portfolio layout with project categories, about 16 featured projects, logo grid and shop; the newsletter blurb describes \"blessedly infrequent mailings\"."
+      }
+    ]
+  },
+  {
+    "id": "jhey-tompkins",
+    "name": "Jhey Tompkins",
+    "urls": [
+      "https://jhey.dev"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/jhey-tompkins-thumb.webp",
+    "full": "/media/gardeners/jhey-tompkins-full.webp",
+    "observations": [
+      {
+        "url": "https://jhey.dev",
+        "lane": "designers",
+        "who": "Designer and engineer, Shopify",
+        "notableDesignFeatures": "A numbered \"Latest\" list of five prototypes with \"View all\" sits above a live status list (location, weather, Steam, Spotify); the footer shows a revision code."
+      }
+    ]
+  },
+  {
+    "id": "jim-nielsen",
+    "name": "Jim Nielsen",
+    "urls": [
+      "https://blog.jim-nielsen.com/",
+      "https://blog.jim-nielsen.com"
+    ],
+    "lanes": [
+      "engineers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/jim-nielsen-thumb.webp",
+    "full": "/media/gardeners/jim-nielsen-full.webp",
+    "observations": [
+      {
+        "url": "https://blog.jim-nielsen.com/",
+        "lane": "engineers",
+        "who": "Web designer/developer, blogger",
+        "notableDesignFeatures": "A self-mocking tagline (\"Opinions with a shelf life\") sits above three short lists (Latest, Trending with pageviews, Hacker News Hits with points), each ending in \"View all →\"."
+      },
+      {
+        "url": "https://blog.jim-nielsen.com",
+        "lane": "writers",
+        "who": "Designer/developer blogger",
+        "notableDesignFeatures": "Under the tagline \"Opinions with a shelf life\", three three-item lists (Latest, Trending, Hacker News Hits) each end with \"View all →\"."
+      }
+    ]
+  },
+  {
+    "id": "joel-hooks",
+    "name": "Joel Hooks",
+    "urls": [
+      "https://joelhooks.com"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/joel-hooks-thumb.webp",
+    "full": "/media/gardeners/joel-hooks-full.webp",
+    "observations": [
+      {
+        "url": "https://joelhooks.com",
+        "lane": "gardens",
+        "who": "developer, egghead.io co-founder",
+        "notableDesignFeatures": "A short paragraph states plainly what the site is for, then links to /now and \"Stuff I actually use\", contact details and a hand-picked \"Some Personal Favorites\" list with emoji."
+      }
+    ]
+  },
+  {
+    "id": "john-gruber",
+    "name": "John Gruber",
+    "urls": [
+      "https://daringfireball.net"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/john-gruber-thumb.webp",
+    "full": "/media/gardeners/john-gruber-full.webp",
+    "observations": [
+      {
+        "url": "https://daringfireball.net",
+        "lane": "writers",
+        "who": "Daring Fireball; Apple commentary",
+        "notableDesignFeatures": "A long-standing layout with sidebar nav, sponsor message and full posts by date; a \"Colophon\" link explains how the site is made."
+      }
+    ]
+  },
+  {
+    "id": "jon-hicks",
+    "name": "Jon Hicks",
+    "urls": [
+      "https://hicks.design"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/jon-hicks-thumb.webp",
+    "full": "/media/gardeners/jon-hicks-full.webp",
+    "observations": [
+      {
+        "url": "https://hicks.design",
+        "lane": "designers",
+        "who": "Designer (Firefox, MailChimp branding)",
+        "notableDesignFeatures": "A work grid of about 20 projects follows a \"Now Playing\" music widget; a colophon on the home page notes the site is hand-coded HTML/CSS."
+      }
+    ]
+  },
+  {
+    "id": "josh-puckett",
+    "name": "Josh Puckett",
+    "urls": [
+      "https://joshpuckett.me"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/josh-puckett-thumb.webp",
+    "full": "/media/gardeners/josh-puckett-full.webp",
+    "observations": [
+      {
+        "url": "https://joshpuckett.me",
+        "lane": "designers",
+        "who": "Designer, Iteration, Graphical",
+        "notableDesignFeatures": "A short bio sits above Projects and Writing lists where every link has a one-line tagline."
+      }
+    ]
+  },
+  {
+    "id": "josh-w-comeau",
+    "name": "Josh W. Comeau",
+    "urls": [
+      "https://www.joshwcomeau.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/josh-w-comeau-thumb.webp",
+    "full": "/media/gardeners/josh-w-comeau-full.webp",
+    "observations": [
+      {
+        "url": "https://www.joshwcomeau.com/",
+        "lane": "engineers",
+        "who": "CSS/React educator",
+        "notableDesignFeatures": "Article cards each carry a real one-paragraph summary and \"Read more\", under a playful header with category, course and goodies nav."
+      }
+    ]
+  },
+  {
+    "id": "julia-evans",
+    "name": "Julia Evans",
+    "urls": [
+      "https://jvns.ca/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/julia-evans-thumb.webp",
+    "full": "/media/gardeners/julia-evans-full.webp",
+    "observations": [
+      {
+        "url": "https://jvns.ca/",
+        "lane": "engineers",
+        "who": "Programmer, zine author (Wizard Zines)",
+        "notableDesignFeatures": "A two-line greeting states exactly what the page is (\"every post I've ever written, organized by category\"), then shows the ten most recent posts and the full categorised archive."
+      }
+    ]
+  },
+  {
+    "id": "kent-c-dodds",
+    "name": "Kent C. Dodds",
+    "urls": [
+      "https://kentcdodds.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/kent-c-dodds-thumb.webp",
+    "full": "/media/gardeners/kent-c-dodds-full.webp",
+    "observations": [
+      {
+        "url": "https://kentcdodds.com/",
+        "lane": "engineers",
+        "who": "JavaScript educator",
+        "notableDesignFeatures": "A marketing hero with three call-to-action buttons, an intro video and blog statistics (\"214 blog posts… read 966,465 times\")."
+      }
+    ]
+  },
+  {
+    "id": "kevin-lynagh",
+    "name": "Kevin Lynagh",
+    "urls": [
+      "https://kevinlynagh.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/kevin-lynagh-thumb.webp",
+    "full": "/media/gardeners/kevin-lynagh-full.webp",
+    "observations": [
+      {
+        "url": "https://kevinlynagh.com/",
+        "lane": "engineers",
+        "who": "UI designer for complex systems, maker",
+        "notableDesignFeatures": "A contact list includes an anonymous-feedback link; an inline \"What Kevin is doing now\" section shows a last-updated date, followed by newsletter issues and popular work."
+      }
+    ]
+  },
+  {
+    "id": "kicks-condor",
+    "name": "Kicks Condor",
+    "urls": [
+      "https://www.kickscondor.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/kicks-condor-thumb.webp",
+    "full": "/media/gardeners/kicks-condor-full.webp",
+    "observations": [
+      {
+        "url": "https://www.kickscondor.com",
+        "lane": "writers",
+        "who": "Hypertext blogger (href.cool directory)",
+        "notableDesignFeatures": "A deliberately chaotic, zine-like collage with a \"brief tutorial\" for newcomers and a note on availability (\"I am online Mondays and Thursdays\")."
+      }
+    ]
+  },
+  {
+    "id": "kyle-chayka",
+    "name": "Kyle Chayka",
+    "urls": [
+      "https://www.kylechayka.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/kyle-chayka-thumb.webp",
+    "full": "/media/gardeners/kyle-chayka-full.webp",
+    "observations": [
+      {
+        "url": "https://www.kylechayka.com",
+        "lane": "designers",
+        "who": "New Yorker writer (Filterworld)",
+        "notableDesignFeatures": "A professional portfolio with current projects, books and selected journalism; one section carries a note that it is outdated and points to where recent work lives."
+      }
+    ]
+  },
+  {
+    "id": "laurel-schwulst",
+    "name": "Laurel Schwulst",
+    "urls": [
+      "https://www.laurelschwulst.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/laurel-schwulst-thumb.webp",
+    "full": "/media/gardeners/laurel-schwulst-full.webp",
+    "observations": [
+      {
+        "url": "https://www.laurelschwulst.com",
+        "lane": "designers",
+        "who": "Artist, designer, educator",
+        "notableDesignFeatures": "A lowercase nav includes \"everything\" and \"today\" links; a featured talk and a grid of captioned project cards end in a \"Today is [date].\" line."
+      }
+    ]
+  },
+  {
+    "id": "lee-robinson",
+    "name": "Lee Robinson",
+    "urls": [
+      "https://leerob.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/lee-robinson-thumb.webp",
+    "full": "/media/gardeners/lee-robinson-full.webp",
+    "observations": [
+      {
+        "url": "https://leerob.com/",
+        "lane": "engineers",
+        "who": "Engineer and writer (ML at SpaceX, ex-Cursor/Vercel)",
+        "notableDesignFeatures": "A bio with a short/long toggle sits above evergreen topic \"Notes\" listed separately from dated \"Blogs\" (title + month/year)."
+      }
+    ]
+  },
+  {
+    "id": "linus-lee",
+    "name": "Linus Lee",
+    "urls": [
+      "https://thesephist.com",
+      "https://thesephist.com/"
+    ],
+    "lanes": [
+      "gardens",
+      "engineers",
+      "designers"
+    ],
+    "thumb": "/media/gardeners/linus-lee-thumb.webp",
+    "full": "/media/gardeners/linus-lee-full.webp",
+    "observations": [
+      {
+        "url": "https://thesephist.com",
+        "lane": "gardens",
+        "who": "researcher on AI and knowledge tools (ex-Notion, now Thrive)",
+        "notableDesignFeatures": "\"My name is Linus.\" is the H1, followed by bio prose and a dated speaking list using short dates like \"Jun '26\"."
+      },
+      {
+        "url": "https://thesephist.com/",
+        "lane": "engineers",
+        "who": "Researcher in tools for thought (site/handle: thesephist)",
+        "notableDesignFeatures": "A short, flat opener (\"My name is Linus.\") is followed by three paragraphs that state the research focus and scale plainly (half a million words, 100+ projects)."
+      },
+      {
+        "url": "https://thesephist.com",
+        "lane": "designers",
+        "who": "Interface researcher (ex-Notion)",
+        "notableDesignFeatures": "\"My name is Linus.\" is the H1, followed by bio prose and a dated speaking list using short dates like \"Jun '26\"."
+      }
+    ]
+  },
+  {
+    "id": "luciano-strika",
+    "name": "Luciano Strika",
+    "urls": [
+      "https://strikingloo.github.io/wiki/"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/luciano-strika-thumb.webp",
+    "full": "/media/gardeners/luciano-strika-full.webp",
+    "observations": [
+      {
+        "url": "https://strikingloo.github.io/wiki/",
+        "lane": "gardens",
+        "who": "ML engineer; personal wiki",
+        "notableDesignFeatures": "The full note list (about 100 titles) is sorted by maturity, most finished first, with a 🌱 🌿 🌻 legend, popular tags and descriptions shown as hover tooltips."
+      }
+    ]
+  },
+  {
+    "id": "lynn-fisher",
+    "name": "Lynn Fisher",
+    "urls": [
+      "https://lynnandtonic.com/",
+      "https://lynnandtonic.com"
+    ],
+    "lanes": [
+      "engineers",
+      "designers"
+    ],
+    "thumb": "/media/gardeners/lynn-fisher-thumb.webp",
+    "full": "/media/gardeners/lynn-fisher-full.webp",
+    "observations": [
+      {
+        "url": "https://lynnandtonic.com/",
+        "lane": "engineers",
+        "who": "Web designer/dev (famous for yearly redesigns)",
+        "notableDesignFeatures": "Name, role and a single nav line make up the page, including a \"v. XIX\" version label and a mode switch."
+      },
+      {
+        "url": "https://lynnandtonic.com",
+        "lane": "designers",
+        "who": "Designer for the web; redesigns the site every year",
+        "notableDesignFeatures": "A large two-line name sits above a numbered nav list and a visible \"v. XIX\" version link; headings are underlined with plain-text = and - characters."
+      }
+    ]
+  },
+  {
+    "id": "maggie-appleton",
+    "name": "Maggie Appleton",
+    "urls": [
+      "https://maggieappleton.com",
+      "https://maggieappleton.com/"
+    ],
+    "lanes": [
+      "gardens",
+      "engineers",
+      "designers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/maggie-appleton-thumb.webp",
+    "full": "/media/gardeners/maggie-appleton-full.webp",
+    "observations": [
+      {
+        "url": "https://maggieappleton.com",
+        "lane": "gardens",
+        "who": "visual essays on programming, design and anthropology (GitHub Next)",
+        "notableDesignFeatures": "Each content type gets a one-line plain-English definition, and essays show relative ages (\"almost 4 years ago\") that signal slow growth; an \"Antilibrary\" section lists books not yet read."
+      },
+      {
+        "url": "https://maggieappleton.com/",
+        "lane": "engineers",
+        "who": "Designer/anthropologist, digital-garden advocate (GitHub Next)",
+        "notableDesignFeatures": "The nav lists each garden content type with a one-line definition (\"Notes: loose notes on things I don't entirely understand yet\"), followed by a tagline and a \"The Garden\" explainer."
+      },
+      {
+        "url": "https://maggieappleton.com",
+        "lane": "designers",
+        "who": "Designer and anthropologist, a well-known digital garden; the closest match to a knowledge-base site",
+        "notableDesignFeatures": "Each content type gets a one-line plain-English definition, and essays show relative ages (\"almost 4 years ago\") that signal slow growth; an \"Antilibrary\" section lists books not yet read."
+      },
+      {
+        "url": "https://maggieappleton.com",
+        "lane": "writers",
+        "who": "Designer, anthropologist (well-known digital gardener)",
+        "notableDesignFeatures": "Each content type gets a one-line plain-English definition, and essays show relative ages (\"almost 4 years ago\") that signal slow growth; an \"Antilibrary\" section lists books not yet read."
+      }
+    ]
+  },
+  {
+    "id": "mandy-brown",
+    "name": "Mandy Brown",
+    "urls": [
+      "https://aworkinglibrary.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/mandy-brown-thumb.webp",
+    "full": "/media/gardeners/mandy-brown-full.webp",
+    "observations": [
+      {
+        "url": "https://aworkinglibrary.com",
+        "lane": "designers",
+        "who": "A Working Library; Writer and coach",
+        "notableDesignFeatures": "A numbered \"Selected essays\" list comes before the dated Writing and Reading lists; footer links read \"go up ↑ / keep going ↓\"."
+      }
+    ]
+  },
+  {
+    "id": "manuel-moreale",
+    "name": "Manuel Moreale",
+    "urls": [
+      "https://manuelmoreale.com/",
+      "https://manuelmoreale.com"
+    ],
+    "lanes": [
+      "engineers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/manuel-moreale-thumb.webp",
+    "full": "/media/gardeners/manuel-moreale-full.webp",
+    "observations": [
+      {
+        "url": "https://manuelmoreale.com/",
+        "lane": "engineers",
+        "who": "Web designer/developer, blogger (site/handle: Manu)",
+        "notableDesignFeatures": "The root URL redirects to the newest post, so the latest writing is the front door with no separate home page."
+      },
+      {
+        "url": "https://manuelmoreale.com",
+        "lane": "writers",
+        "who": "Blogger, curates blogroll.org, runs the \"People and Blogs\" interviews",
+        "notableDesignFeatures": "The latest post is shown in full with no bio, followed by an archive grouped by month (titles plus day number); About, Now and Blogroll are three small footer links."
+      }
+    ]
+  },
+  {
+    "id": "mark-boulton",
+    "name": "Mark Boulton",
+    "urls": [
+      "https://markboulton.co.uk"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/mark-boulton-thumb.webp",
+    "full": "/media/gardeners/mark-boulton-full.webp",
+    "observations": [
+      {
+        "url": "https://markboulton.co.uk",
+        "lane": "designers",
+        "who": "Product and design leadership, UK",
+        "notableDesignFeatures": "A short bio includes one line pointing to the latest weeknote and what is currently being read, which keeps the page current without a feed; a dark-mode toggle is included."
+      }
+    ]
+  },
+  {
+    "id": "martin-fowler",
+    "name": "Martin Fowler",
+    "urls": [
+      "https://martinfowler.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/martin-fowler-thumb.webp",
+    "full": "/media/gardeners/martin-fowler-full.webp",
+    "observations": [
+      {
+        "url": "https://martinfowler.com/",
+        "lane": "engineers",
+        "who": "Software design author (Thoughtworks)",
+        "notableDesignFeatures": "A topic sidebar and content index frame an intro that states the site's purpose in terms of the field (\"Software development is a young profession…\"), then featured articles."
+      }
+    ]
+  },
+  {
+    "id": "matt-webb",
+    "name": "Matt Webb",
+    "urls": [
+      "https://interconnected.org/home"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/matt-webb-thumb.webp",
+    "full": "/media/gardeners/matt-webb-full.webp",
+    "observations": [
+      {
+        "url": "https://interconnected.org/home",
+        "lane": "writers",
+        "who": "Technologist, blogger since 2000",
+        "notableDesignFeatures": "Header links include \"Subscribe for $0\", an RSS link with a \"(What is a feed?)\" explainer and \"Unoffice Hours: book a call\"; posts appear in full with timestamps."
+      }
+    ]
+  },
+  {
+    "id": "matthew-butterick",
+    "name": "Matthew Butterick",
+    "urls": [
+      "https://matthewbutterick.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/matthew-butterick-thumb.webp",
+    "full": "/media/gardeners/matthew-butterick-full.webp",
+    "observations": [
+      {
+        "url": "https://matthewbutterick.com",
+        "lane": "designers",
+        "who": "Typographer, lawyer, Practical Typography",
+        "notableDesignFeatures": "The whole page is one column of text with no headings, items separated by ⁂ typographic marks; the blog is labelled \"(sporadic)\"."
+      }
+    ]
+  },
+  {
+    "id": "max-bernstein",
+    "name": "Max Bernstein",
+    "urls": [
+      "https://bernsteinbear.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/max-bernstein-thumb.webp",
+    "full": "/media/gardeners/max-bernstein-full.webp",
+    "observations": [
+      {
+        "url": "https://bernsteinbear.com/",
+        "lane": "engineers",
+        "who": "Compiler engineer (Shopify, Ruby committer)",
+        "notableDesignFeatures": "The nav puts \"bread\" and \"recipes\" beside \"blog\" and \"pl resources\", giving hobbies equal billing with technical work."
+      }
+    ]
+  },
+  {
+    "id": "max-bock",
+    "name": "Max Böck",
+    "urls": [
+      "https://mxb.dev"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/max-bock-thumb.webp",
+    "full": "/media/gardeners/max-bock-full.webp",
+    "observations": [
+      {
+        "url": "https://mxb.dev",
+        "lane": "designers",
+        "who": "Front-end developer, Codista",
+        "notableDesignFeatures": "A theme picker with ten themes (several named after Mario Kart 64 tracks) sits above a four-word headline (\"I make websites.\") and eight featured posts; the footer offers \"Edit this page on GitHub\"."
+      }
+    ]
+  },
+  {
+    "id": "maxime-vaillancourt",
+    "name": "Maxime Vaillancourt",
+    "urls": [
+      "https://maximevaillancourt.com"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/maxime-vaillancourt-thumb.webp",
+    "full": "/media/gardeners/maxime-vaillancourt-full.webp",
+    "observations": [
+      {
+        "url": "https://maximevaillancourt.com",
+        "lane": "gardens",
+        "who": "developer; made the popular Jekyll digital-garden template",
+        "notableDesignFeatures": "A name heading, 16 entries of date plus title and feed links in the footer make up the complete page."
+      }
+    ]
+  },
+  {
+    "id": "mitchell-hashimoto",
+    "name": "Mitchell Hashimoto",
+    "urls": [
+      "https://mitchellh.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/mitchell-hashimoto-thumb.webp",
+    "full": "/media/gardeners/mitchell-hashimoto-full.webp",
+    "observations": [
+      {
+        "url": "https://mitchellh.com/",
+        "lane": "engineers",
+        "who": "HashiCorp co-founder, Ghostty creator",
+        "notableDesignFeatures": "Side nav and plain bio paragraphs written in matter-of-fact past tense (\"I don't work on any of those projects anymore\")."
+      }
+    ]
+  },
+  {
+    "id": "molly-white",
+    "name": "Molly White",
+    "urls": [
+      "https://www.mollywhite.net"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/molly-white-thumb.webp",
+    "full": "/media/gardeners/molly-white-full.webp",
+    "observations": [
+      {
+        "url": "https://www.mollywhite.net",
+        "lane": "writers",
+        "who": "Researcher/writer on crypto and tech",
+        "notableDesignFeatures": "One unified activity feed mixes micro posts, newsletter issues and reading list items, each labelled with the feed it came from, under a large nav and three-paragraph bio."
+      }
+    ]
+  },
+  {
+    "id": "nadia-asparouhova",
+    "name": "Nadia Asparouhova",
+    "urls": [
+      "https://nadia.xyz"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/nadia-asparouhova-thumb.webp",
+    "full": "/media/gardeners/nadia-asparouhova-full.webp",
+    "observations": [
+      {
+        "url": "https://nadia.xyz",
+        "lane": "writers",
+        "who": "Writer, researcher (Working in Public)",
+        "notableDesignFeatures": "Separate short \"Recent\" and \"Favorites\" lists follow an intro that says plainly where her writing mainly lives now (Substack)."
+      }
+    ]
+  },
+  {
+    "id": "nat-friedman",
+    "name": "Nat Friedman",
+    "urls": [
+      "https://nat.org/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/nat-friedman-thumb.webp",
+    "full": "/media/gardeners/nat-friedman-full.webp",
+    "observations": [
+      {
+        "url": "https://nat.org/",
+        "lane": "engineers",
+        "who": "Ex-GitHub CEO, investor",
+        "notableDesignFeatures": "Two bullet lists make up the page: \"Some things about me\" and \"Some things I believe\" (\"Enthusiasm matters!\", \"Slow is fake\")."
+      }
+    ]
+  },
+  {
+    "id": "neil-mather",
+    "name": "Neil Mather",
+    "urls": [
+      "https://commonplace.doubleloop.net"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/neil-mather-thumb.webp",
+    "full": "/media/gardeners/neil-mather-full.webp",
+    "observations": [
+      {
+        "url": "https://commonplace.doubleloop.net",
+        "lane": "gardens",
+        "who": "developer/activist; \"hyper commonplace garden wiki\" (7,157 pages)",
+        "notableDesignFeatures": "Start points are split into \"Well-tended pathways\" and \"Overgrown trails\"; planted and last-tended dates and a page count are shown, and a static graph image is captioned as not meaning much."
+      }
+    ]
+  },
+  {
+    "id": "nicholas-carlini",
+    "name": "Nicholas Carlini",
+    "urls": [
+      "https://nicholas.carlini.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/nicholas-carlini-thumb.webp",
+    "full": "/media/gardeners/nicholas-carlini-full.webp",
+    "observations": [
+      {
+        "url": "https://nicholas.carlini.com/",
+        "lane": "engineers",
+        "who": "ML security researcher (Anthropic)",
+        "notableDesignFeatures": "Five plain nav words (Main, Papers, Talks, Code, Writing) sit above a contact block with an obfuscated \"[at] [dot]\" email and a bio paragraph."
+      }
+    ]
+  },
+  {
+    "id": "nick-milo",
+    "name": "Nick Milo",
+    "urls": [
+      "https://www.linkingyourthinking.com"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/nick-milo-thumb.webp",
+    "full": "/media/gardeners/nick-milo-full.webp",
+    "observations": [
+      {
+        "url": "https://www.linkingyourthinking.com",
+        "lane": "gardens",
+        "who": "sells PKM/Obsidian courses (Linking Your Thinking)",
+        "notableDesignFeatures": "A sales funnel layout (cookie banner, promo bar, pricing tiers, testimonials) with node-and-edge graphics used as decorative, non-interactive backgrounds."
+      }
+    ]
+  },
+  {
+    "id": "nicky-case",
+    "name": "Nicky Case",
+    "urls": [
+      "https://ncase.me"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/nicky-case-thumb.webp",
+    "full": "/media/gardeners/nicky-case-full.webp",
+    "observations": [
+      {
+        "url": "https://ncase.me",
+        "lane": "writers",
+        "who": "Maker of explorable explanations",
+        "notableDesignFeatures": "Sections are named by what the visitor can do (\"SHTUFF YOU CAN PLAY / READ / WATCH\") rather than by content type, after a \"Hi, I'm Nicky!\" line and a newsletter/RSS pitch."
+      }
+    ]
+  },
+  {
+    "id": "nicole-tietz-sokolskaya",
+    "name": "Nicole Tietz-Sokolskaya",
+    "urls": [
+      "https://ntietz.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/nicole-tietz-sokolskaya-thumb.webp",
+    "full": "/media/gardeners/nicole-tietz-sokolskaya-full.webp",
+    "observations": [
+      {
+        "url": "https://ntietz.com/",
+        "lane": "engineers",
+        "who": "Software engineer, consultant",
+        "notableDesignFeatures": "Links are grouped as shell `ls` listings under a terminal prompt (\"nicole@web>_\"), with a \"whereis\" block for contacts, pronouns and timezone."
+      }
+    ]
+  },
+  {
+    "id": "nikita-prokopov",
+    "name": "Nikita Prokopov",
+    "urls": [
+      "https://tonsky.me"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/nikita-prokopov-thumb.webp",
+    "full": "/media/gardeners/nikita-prokopov-full.webp",
+    "observations": [
+      {
+        "url": "https://tonsky.me",
+        "lane": "designers",
+        "who": "tonsky; Programmer and UI designer",
+        "notableDesignFeatures": "A \"Hi!\" intro sits above yearly post archives from 2026 back to 2014, with years underlined by \"====\" in a CSS plain-text style."
+      }
+    ]
+  },
+  {
+    "id": "oliver-reichenstein",
+    "name": "Oliver Reichenstein",
+    "urls": [
+      "https://ia.net"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/oliver-reichenstein-thumb.webp",
+    "full": "/media/gardeners/oliver-reichenstein-full.webp",
+    "observations": [
+      {
+        "url": "https://ia.net",
+        "lane": "designers",
+        "who": "iA studio; The iA studio (Writer, Presenter); this is the company site, not a personal one",
+        "notableDesignFeatures": "Three product heroes in a row with very short headlines and one button each, followed by six studio news cards."
+      }
+    ]
+  },
+  {
+    "id": "paco-coursey",
+    "name": "Paco Coursey",
+    "urls": [
+      "https://paco.me/",
+      "https://paco.me"
+    ],
+    "lanes": [
+      "engineers",
+      "designers"
+    ],
+    "thumb": "/media/gardeners/paco-coursey-thumb.webp",
+    "full": "/media/gardeners/paco-coursey-full.webp",
+    "observations": [
+      {
+        "url": "https://paco.me/",
+        "lane": "engineers",
+        "who": "Design engineer (Linear, ex-Vercel)",
+        "notableDesignFeatures": "A two-sentence bio leads to one-line project entries, two writing links and a \"Now\" paragraph written as a reflection rather than a status update."
+      },
+      {
+        "url": "https://paco.me",
+        "lane": "designers",
+        "who": "Design engineer, Linear",
+        "notableDesignFeatures": "Short sections (Building, Projects, Writing, Now, Connect) with a \"Now\" section expressed as values rather than tasks."
+      }
+    ]
+  },
+  {
+    "id": "patrick-collison",
+    "name": "Patrick Collison",
+    "urls": [
+      "https://patrickcollison.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/patrick-collison-thumb.webp",
+    "full": "/media/gardeners/patrick-collison-full.webp",
+    "observations": [
+      {
+        "url": "https://patrickcollison.com/",
+        "lane": "engineers",
+        "who": "Stripe co-founder",
+        "notableDesignFeatures": "A vertical list of 15 one-word topic page links (About, Advice, Bookshelf, Questions…) is the whole home page, like a table of contents."
+      }
+    ]
+  },
+  {
+    "id": "patrick-mckenzie",
+    "name": "Patrick McKenzie",
+    "urls": [
+      "https://www.kalzumeus.com/",
+      "https://www.kalzumeus.com"
+    ],
+    "lanes": [
+      "engineers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/patrick-mckenzie-thumb.webp",
+    "full": "/media/gardeners/patrick-mckenzie-full.webp",
+    "observations": [
+      {
+        "url": "https://www.kalzumeus.com/",
+        "lane": "engineers",
+        "who": "Engineer/writer on financial infrastructure (site/handle: patio11)",
+        "notableDesignFeatures": "Top nav links \"Greatest Hits\" and a \"Standing Invitation\" page (an open offer to email) beside the archive, above a through-line paragraph and hobbies."
+      },
+      {
+        "url": "https://www.kalzumeus.com",
+        "lane": "writers",
+        "who": "Writer (patio11, Bits about Money)",
+        "notableDesignFeatures": "Top nav includes a \"Standing Invitation\" page on how and why to get in touch; bio paragraphs lead to \"Best Work\" and famous essays with summaries and \"Continue Reading →\"."
+      }
+    ]
+  },
+  {
+    "id": "paul-batchelor",
+    "name": "Paul Batchelor",
+    "urls": [
+      "https://pbat.ch/wiki"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/paul-batchelor-thumb.webp",
+    "full": "/media/gardeners/paul-batchelor-full.webp",
+    "observations": [
+      {
+        "url": "https://pbat.ch/wiki",
+        "lane": "gardens",
+        "who": "sound/music programmer; personal wiki",
+        "notableDesignFeatures": "A greeting offers three ranked ways in: the now page, then meta pages, then the full index or keywords page \"as a last resort\"."
+      }
+    ]
+  },
+  {
+    "id": "paul-graham",
+    "name": "Paul Graham",
+    "urls": [
+      "https://paulgraham.com/",
+      "https://www.paulgraham.com"
+    ],
+    "lanes": [
+      "engineers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/paul-graham-thumb.webp",
+    "full": "/media/gardeners/paul-graham-full.webp",
+    "observations": [
+      {
+        "url": "https://paulgraham.com/",
+        "lane": "engineers",
+        "who": "Essayist, Y Combinator co-founder",
+        "notableDesignFeatures": "A narrow left column of small image links sits beside one \"New:\" essay link and a one-line YC pitch; everything else is one click away."
+      },
+      {
+        "url": "https://www.paulgraham.com",
+        "lane": "writers",
+        "who": "Essayist, YC founder",
+        "notableDesignFeatures": "A left column of image links and a single \"New:\" line pointing to the latest essays make up one of the most minimal well-known home pages."
+      }
+    ]
+  },
+  {
+    "id": "paul-stamatiou",
+    "name": "Paul Stamatiou",
+    "urls": [
+      "https://paulstamatiou.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/paul-stamatiou-thumb.webp",
+    "full": "/media/gardeners/paul-stamatiou-full.webp",
+    "observations": [
+      {
+        "url": "https://paulstamatiou.com",
+        "lane": "designers",
+        "who": "Designer, Head of Design at Sesame",
+        "notableDesignFeatures": "A bio with credentials leads to a recent gear grid, 10 of 1,224 posts and photosets; the footer reads \"Handcrafted by Stammy for 21.15 years\" as a running age counter."
+      }
+    ]
+  },
+  {
+    "id": "rasmus-andersson",
+    "name": "Rasmus Andersson",
+    "urls": [
+      "https://rsms.me"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/rasmus-andersson-thumb.webp",
+    "full": "/media/gardeners/rasmus-andersson-full.webp",
+    "observations": [
+      {
+        "url": "https://rsms.me",
+        "lane": "designers",
+        "who": "Software and type designer (Inter)",
+        "notableDesignFeatures": "Short lists end with counts like \"see all 75\" and \"browse all 512\", hinting at depth without listing everything."
+      }
+    ]
+  },
+  {
+    "id": "rauno-freiberg",
+    "name": "Rauno Freiberg",
+    "urls": [
+      "https://rauno.me/",
+      "https://rauno.me"
+    ],
+    "lanes": [
+      "engineers",
+      "designers"
+    ],
+    "thumb": "/media/gardeners/rauno-freiberg-thumb.webp",
+    "full": "/media/gardeners/rauno-freiberg-full.webp",
+    "observations": [
+      {
+        "url": "https://rauno.me/",
+        "lane": "engineers",
+        "who": "Interaction designer (Vercel)",
+        "notableDesignFeatures": "A one-sentence bio and four section links close with a short set of lines stating values (\"Make it fast. Make it beautiful… Make it.\") in place of a link-heavy footer."
+      },
+      {
+        "url": "https://rauno.me",
+        "lane": "designers",
+        "who": "Interaction designer, Vercel",
+        "notableDesignFeatures": "A terse nav of section links ends in a short personal creed (\"Make it fast… Make it beautiful… Make it.\") and an icon footer."
+      }
+    ]
+  },
+  {
+    "id": "rob-weychert",
+    "name": "Rob Weychert",
+    "urls": [
+      "https://v7.robweychert.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/rob-weychert-thumb.webp",
+    "full": "/media/gardeners/rob-weychert-full.webp",
+    "observations": [
+      {
+        "url": "https://v7.robweychert.com",
+        "lane": "designers",
+        "who": "Designer and artist",
+        "notableDesignFeatures": "Small \"currently\" shelves (Watching, Collecting, Reading, Attending), each with one cover and title, sit between featured items and recent posts."
+      }
+    ]
+  },
+  {
+    "id": "robin-rendle",
+    "name": "Robin Rendle",
+    "urls": [
+      "https://robinrendle.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/robin-rendle-thumb.webp",
+    "full": "/media/gardeners/robin-rendle-full.webp",
+    "observations": [
+      {
+        "url": "https://robinrendle.com",
+        "lane": "designers",
+        "who": "Designer and writer",
+        "notableDesignFeatures": "A version number (\"v19.1.1\") appears beside the name, and a \"README\" link stands in for an About page; photos are indexed by year."
+      }
+    ]
+  },
+  {
+    "id": "robin-sloan",
+    "name": "Robin Sloan",
+    "urls": [
+      "https://www.robinsloan.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/robin-sloan-thumb.webp",
+    "full": "/media/gardeners/robin-sloan-full.webp",
+    "observations": [
+      {
+        "url": "https://www.robinsloan.com",
+        "lane": "writers",
+        "who": "Novelist, \"creative industrialist\"",
+        "notableDesignFeatures": "A \"directory of everything he's published across internet eras\" serves as a categorised link list; the page also shows a live count of library holds of his novels."
+      }
+    ]
+  },
+  {
+    "id": "rosano",
+    "name": "Rosano",
+    "urls": [
+      "https://ref.rosano.ca"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/rosano-thumb.webp",
+    "full": "/media/gardeners/rosano-full.webp",
+    "observations": [
+      {
+        "url": "https://ref.rosano.ca",
+        "lane": "gardens",
+        "who": "software maker, podcaster (Strolling)",
+        "notableDesignFeatures": "The intro says outright there is no index or feed and invites visitors to click around, with topic links written into a sentence and tracking pages for places, books and recipes."
+      }
+    ]
+  },
+  {
+    "id": "ryan-holiday",
+    "name": "Ryan Holiday",
+    "urls": [
+      "https://ryanholiday.net"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/ryan-holiday-thumb.webp",
+    "full": "/media/gardeners/ryan-holiday-full.webp",
+    "observations": [
+      {
+        "url": "https://ryanholiday.net",
+        "lane": "writers",
+        "who": "Author (Stoicism)",
+        "notableDesignFeatures": "A ten-item nav heavy with sales links, a bio with book links and a work-with-me CTA; \"Reading List\" and \"Best Articles\" appear as named entry points."
+      }
+    ]
+  },
+  {
+    "id": "ryan-singer",
+    "name": "Ryan Singer",
+    "urls": [
+      "https://www.ryansinger.co"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/ryan-singer-thumb.webp",
+    "full": "/media/gardeners/ryan-singer-full.webp",
+    "observations": [
+      {
+        "url": "https://www.ryansinger.co",
+        "lane": "gardens",
+        "who": "product leader, author of Shape Up",
+        "notableDesignFeatures": "A name heading and three bullet taglines form the entire hero, followed by offers, books and articles."
+      }
+    ]
+  },
+  {
+    "id": "salman-ansari",
+    "name": "Salman Ansari",
+    "urls": [
+      "https://salman.io/notes/"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/salman-ansari-thumb.webp",
+    "full": "/media/gardeners/salman-ansari-full.webp",
+    "observations": [
+      {
+        "url": "https://salman.io/notes/",
+        "lane": "gardens",
+        "who": "writer, author of a book of fables; blog + digital garden",
+        "notableDesignFeatures": "A public-notebook intro leads to dated posts, all notes, a \"Top of Mind\" section and a tiny FAQ whose answers link into the garden, closing with a P.S. on how the site was built."
+      }
+    ]
+  },
+  {
+    "id": "salvatore-sanfilippo",
+    "name": "Salvatore Sanfilippo",
+    "urls": [
+      "https://antirez.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/salvatore-sanfilippo-thumb.webp",
+    "full": "/media/gardeners/salvatore-sanfilippo-full.webp",
+    "observations": [
+      {
+        "url": "https://antirez.com/",
+        "lane": "engineers",
+        "who": "Creator of Redis (site/handle: antirez)",
+        "notableDesignFeatures": "Posts are collapsible, shown with relative dates (\"antirez 94 days ago\") and an expand arrow, which gives a forum-like feel."
+      }
+    ]
+  },
+  {
+    "id": "sara-soueidan",
+    "name": "Sara Soueidan",
+    "urls": [
+      "https://www.sarasoueidan.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/sara-soueidan-thumb.webp",
+    "full": "/media/gardeners/sara-soueidan-full.webp",
+    "observations": [
+      {
+        "url": "https://www.sarasoueidan.com",
+        "lane": "designers",
+        "who": "UI developer, accessibility educator",
+        "notableDesignFeatures": "A \"Notable updates\" slot for life and work news sits separately from the latest five articles; the footer carries a no-LLM statement."
+      }
+    ]
+  },
+  {
+    "id": "seth-godin",
+    "name": "Seth Godin",
+    "urls": [
+      "https://seths.blog"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/seth-godin-thumb.webp",
+    "full": "/media/gardeners/seth-godin-full.webp",
+    "observations": [
+      {
+        "url": "https://seths.blog",
+        "lane": "writers",
+        "who": "Marketing author, daily blogger",
+        "notableDesignFeatures": "A sidebar \"Best of the blog\" block (Story of the Week, Top 100, Popular, Archive) offers curated entry points beside today's post in full."
+      }
+    ]
+  },
+  {
+    "id": "shawn-wang",
+    "name": "Shawn Wang",
+    "urls": [
+      "https://www.swyx.io"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/shawn-wang-thumb.webp",
+    "full": "/media/gardeners/shawn-wang-full.webp",
+    "observations": [
+      {
+        "url": "https://www.swyx.io",
+        "lane": "gardens",
+        "who": "AI engineer; runs Latent Space and AI Engineer",
+        "notableDesignFeatures": "A numbered \"A few places to start\" list of 11 essay cards works as a curated reading order, under a ⌘K notebook search and a one-line bio."
+      }
+    ]
+  },
+  {
+    "id": "shu-ding",
+    "name": "Shu Ding",
+    "urls": [
+      "https://shud.in"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/shu-ding-thumb.webp",
+    "full": "/media/gardeners/shu-ding-full.webp",
+    "observations": [
+      {
+        "url": "https://shud.in",
+        "lane": "designers",
+        "who": "Design engineer at Vercel",
+        "notableDesignFeatures": "The home page is a short bio; every other section is reached through links inside a closing line of prose."
+      }
+    ]
+  },
+  {
+    "id": "simon-willison",
+    "name": "Simon Willison",
+    "urls": [
+      "https://simonwillison.net/",
+      "https://simonwillison.net"
+    ],
+    "lanes": [
+      "engineers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/simon-willison-thumb.webp",
+    "full": "/media/gardeners/simon-willison-full.webp",
+    "observations": [
+      {
+        "url": "https://simonwillison.net/",
+        "lane": "engineers",
+        "who": "Datasette creator, AI/LLM blogger",
+        "notableDesignFeatures": "A row of popular tags with post counts (\"datasette 1,551\") summarises the site in text above content-type tabs and posts grouped by day."
+      },
+      {
+        "url": "https://simonwillison.net",
+        "lane": "writers",
+        "who": "Developer, AI blogger",
+        "notableDesignFeatures": "A tag strip with counts (llm 642, codex 61…) sits above tabs for each content type and a day-grouped stream where each item ends with time and tags."
+      }
+    ]
+  },
+  {
+    "id": "sindre-sorhus",
+    "name": "Sindre Sorhus",
+    "urls": [
+      "https://sindresorhus.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/sindre-sorhus-thumb.webp",
+    "full": "/media/gardeners/sindre-sorhus-full.webp",
+    "observations": [
+      {
+        "url": "https://sindresorhus.com/",
+        "lane": "engineers",
+        "who": "Open-source developer, Mac/iOS app maker",
+        "notableDesignFeatures": "A tiny hero (emoji, name, tagline, two buttons) is backed by a large footer that works as a full site index, including \"Visit 1999\" and \"Timeline\"."
+      }
+    ]
+  },
+  {
+    "id": "slime-mold-time-mold",
+    "name": "Slime Mold Time Mold",
+    "urls": [
+      "https://slimemoldtimemold.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/slime-mold-time-mold-thumb.webp",
+    "full": "/media/gardeners/slime-mold-time-mold-full.webp",
+    "observations": [
+      {
+        "url": "https://slimemoldtimemold.com",
+        "lane": "writers",
+        "who": "\"Mad Science Blogging\" (independent research)",
+        "notableDesignFeatures": "The home page is the archive: a year-grouped list of \"(MM/DD) – title\" entries under a four-item menu."
+      }
+    ]
+  },
+  {
+    "id": "spencer-chang",
+    "name": "Spencer Chang",
+    "urls": [
+      "https://spencer.place"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/spencer-chang-thumb.webp",
+    "full": "/media/gardeners/spencer-chang-full.webp",
+    "observations": [
+      {
+        "url": "https://spencer.place",
+        "lane": "designers",
+        "who": "Artist and engineer",
+        "notableDesignFeatures": "A \"WIP FOREVER\" banner, Now & Upcoming notes and a friends' webring shown as a row of favicons, under a small-caps name and verb-based nav (welcome, describe, collaborate…)."
+      }
+    ]
+  },
+  {
+    "id": "steph-ango",
+    "name": "Steph Ango",
+    "urls": [
+      "https://stephango.com",
+      "https://stephango.com/"
+    ],
+    "lanes": [
+      "gardens",
+      "engineers",
+      "designers"
+    ],
+    "thumb": "/media/gardeners/steph-ango-thumb.webp",
+    "full": "/media/gardeners/steph-ango-full.webp",
+    "observations": [
+      {
+        "url": "https://stephango.com",
+        "lane": "gardens",
+        "who": "CEO of Obsidian; essays",
+        "notableDesignFeatures": "Topics as one comma-separated text line instead of coloured icons, and a \"2025 · 10\" year-month prefix on each title in the archive back to 2012."
+      },
+      {
+        "url": "https://stephango.com/",
+        "lane": "engineers",
+        "who": "Obsidian CEO",
+        "notableDesignFeatures": "One Latest post with read time and excerpt, topics as one comma-separated line of plain words, then every post as `YYYY · MM title`."
+      },
+      {
+        "url": "https://stephango.com",
+        "lane": "designers",
+        "who": "Obsidian CEO and designer; very relevant to a note-taking garden",
+        "notableDesignFeatures": "Topics as one comma-separated text line instead of coloured icons, and a \"2025 · 10\" year-month prefix on each title in the archive back to 2012."
+      }
+    ]
+  },
+  {
+    "id": "tania-rascia",
+    "name": "Tania Rascia",
+    "urls": [
+      "https://www.taniarascia.com/",
+      "https://www.taniarascia.com"
+    ],
+    "lanes": [
+      "engineers",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/tania-rascia-thumb.webp",
+    "full": "/media/gardeners/tania-rascia-full.webp",
+    "observations": [
+      {
+        "url": "https://www.taniarascia.com/",
+        "lane": "engineers",
+        "who": "Principal software engineer, writer",
+        "notableDesignFeatures": "The site is described as a digital garden without a graph, and a four-line life timeline (Geocities kid → chef → career change → now) appears on the home page above posts."
+      },
+      {
+        "url": "https://www.taniarascia.com",
+        "lane": "writers",
+        "who": "Software engineer (\"This is my digital garden 🌱\")",
+        "notableDesignFeatures": "A four-line life timeline serves as the bio, followed by an \"Also:\" line of interests and latest posts with tags; a theme-colour picker sits in the nav."
+      }
+    ]
+  },
+  {
+    "id": "tim-bray",
+    "name": "Tim Bray",
+    "urls": [
+      "https://www.tbray.org/ongoing/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/tim-bray-thumb.webp",
+    "full": "/media/gardeners/tim-bray-full.webp",
+    "observations": [
+      {
+        "url": "https://www.tbray.org/ongoing/",
+        "lane": "engineers",
+        "who": "XML co-author, ex-AWS/Google engineer",
+        "notableDesignFeatures": "Posts run in as \"Title · first lines…\" excerpts with comment counts, a very compact stream under the site title."
+      }
+    ]
+  },
+  {
+    "id": "tobias-van-schneider",
+    "name": "Tobias van Schneider",
+    "urls": [
+      "https://vanschneider.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/tobias-van-schneider-thumb.webp",
+    "full": "/media/gardeners/tobias-van-schneider-full.webp",
+    "observations": [
+      {
+        "url": "https://vanschneider.com",
+        "lane": "designers",
+        "who": "Founder of HOVS, mymind, Semplice",
+        "notableDesignFeatures": "A loud, brand-forward portfolio (bold hero, project showcases, galleries); an \"Artifacts\" gallery shows personal objects."
+      }
+    ]
+  },
+  {
+    "id": "tom-critchlow",
+    "name": "Tom Critchlow",
+    "urls": [
+      "https://tomcritchlow.com"
+    ],
+    "lanes": [
+      "gardens",
+      "writers"
+    ],
+    "thumb": "/media/gardeners/tom-critchlow-thumb.webp",
+    "full": "/media/gardeners/tom-critchlow-full.webp",
+    "observations": [
+      {
+        "url": "https://tomcritchlow.com",
+        "lane": "gardens",
+        "who": "strategy consultant and blogger (AI search)",
+        "notableDesignFeatures": "A bio sentence lists the site's topics with each one linked (\"This site is where I write about strategy, independent work, digital gardens…\"), acting as a category list in prose."
+      },
+      {
+        "url": "https://tomcritchlow.com",
+        "lane": "writers",
+        "who": "Strategist, blogger (digital gardens, small-b blogging)",
+        "notableDesignFeatures": "A bio sentence lists the site's topics with each one linked (\"This site is where I write about strategy, independent work, digital gardens…\"), acting as a category list in prose."
+      }
+    ]
+  },
+  {
+    "id": "tom-macwright",
+    "name": "Tom MacWright",
+    "urls": [
+      "https://macwright.com/",
+      "https://macwright.com"
+    ],
+    "lanes": [
+      "engineers",
+      "designers"
+    ],
+    "thumb": "/media/gardeners/tom-macwright-thumb.webp",
+    "full": "/media/gardeners/tom-macwright-full.webp",
+    "observations": [
+      {
+        "url": "https://macwright.com/",
+        "lane": "engineers",
+        "who": "Developer (Placemark, Observable), writer",
+        "notableDesignFeatures": "A row of parallel short streams (Writing, Micro, Photos, Drawings, Reading), each a few items deep, under a nav with an Auto/Light/Dark switch."
+      },
+      {
+        "url": "https://macwright.com",
+        "lane": "designers",
+        "who": "Software engineer (Placemark, geojson.io)",
+        "notableDesignFeatures": "No intro: five items from each content type are stacked (Writing, Micro, Photos, Drawings, Reading) below a light/dark toggle."
+      }
+    ]
+  },
+  {
+    "id": "ton-zijlstra",
+    "name": "Ton Zijlstra",
+    "urls": [
+      "https://www.zylstra.org/blog/"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/ton-zijlstra-thumb.webp",
+    "full": "/media/gardeners/ton-zijlstra-full.webp",
+    "observations": [
+      {
+        "url": "https://www.zylstra.org/blog/",
+        "lane": "gardens",
+        "who": "consultant on open data and the networked web; blogging since 2002",
+        "notableDesignFeatures": "A long sidebar includes an \"On this day\" widget, a public OPML blogroll and an archive back to 2002, beside the full blog feed."
+      }
+    ]
+  },
+  {
+    "id": "tracy-durnell",
+    "name": "Tracy Durnell",
+    "urls": [
+      "https://tracydurnell.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/tracy-durnell-thumb.webp",
+    "full": "/media/gardeners/tracy-durnell-full.webp",
+    "observations": [
+      {
+        "url": "https://tracydurnell.com",
+        "lane": "writers",
+        "who": "Writer, \"Mind Garden: Thinking and Learning in Public\" (a digital garden)",
+        "notableDesignFeatures": "The garden is organised around \"Big Questions\" themes rather than categories, with a starter set, a random-post link, emoji-labelled collections and a \"I don't use tracking\" note."
+      }
+    ]
+  },
+  {
+    "id": "trent-walton",
+    "name": "Trent Walton",
+    "urls": [
+      "https://trentwalton.com"
+    ],
+    "lanes": [
+      "designers"
+    ],
+    "thumb": "/media/gardeners/trent-walton-thumb.webp",
+    "full": "/media/gardeners/trent-walton-full.webp",
+    "observations": [
+      {
+        "url": "https://trentwalton.com",
+        "lane": "designers",
+        "who": "Designer",
+        "notableDesignFeatures": "A project image grid is accompanied by a candid note that much of the work is under NDA, with a closing footer line \"Stay fit. Keep sharp. Make good decisions.\""
+      }
+    ]
+  },
+  {
+    "id": "venkatesh-rao",
+    "name": "Venkatesh Rao",
+    "urls": [
+      "https://www.ribbonfarm.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/venkatesh-rao-thumb.webp",
+    "full": "/media/gardeners/venkatesh-rao-full.webp",
+    "observations": [
+      {
+        "url": "https://www.ribbonfarm.com",
+        "lane": "writers",
+        "who": "Ribbonfarm; blog now archived (2007–24)",
+        "notableDesignFeatures": "An \"Orientation\" essay tells newcomers how to read the site now (including that some posts have aged poorly), followed by a curated \"Highlights Tour\"; the nav exposes series, clusters, glossary and statistics."
+      }
+    ]
+  },
+  {
+    "id": "visakan-veerasamy",
+    "name": "Visakan Veerasamy",
+    "urls": [
+      "https://visakanv.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/visakan-veerasamy-thumb.webp",
+    "full": "/media/gardeners/visakan-veerasamy-full.webp",
+    "observations": [
+      {
+        "url": "https://visakanv.com",
+        "lane": "writers",
+        "who": "Writer, \"friendly, ambitious nerd\"",
+        "notableDesignFeatures": "A visible \"Last updated\" date, an emoji nav and a \"start here\" path of two or three posts follow a framing question about human flourishing."
+      }
+    ]
+  },
+  {
+    "id": "waylon-walker",
+    "name": "Waylon Walker",
+    "urls": [
+      "https://waylonwalker.com"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/waylon-walker-thumb.webp",
+    "full": "/media/gardeners/waylon-walker-full.webp",
+    "observations": [
+      {
+        "url": "https://waylonwalker.com",
+        "lane": "gardens",
+        "who": "Python/data engineer who built his own blog engine",
+        "notableDesignFeatures": "Nav items show counts (Archive (2,607), Random (2,708)), including a Random link for wandering, plus a settings panel for colours and font and many short latest-X sections."
+      }
+    ]
+  },
+  {
+    "id": "wesley-aptekar-cassels",
+    "name": "Wesley Aptekar-Cassels",
+    "urls": [
+      "https://wesleyac.com"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/wesley-aptekar-cassels-thumb.webp",
+    "full": "/media/gardeners/wesley-aptekar-cassels-full.webp",
+    "observations": [
+      {
+        "url": "https://wesleyac.com",
+        "lane": "writers",
+        "who": "Programmer, zine maker",
+        "notableDesignFeatures": "The whole page is a column of short lowercase \"i…\" sentences, each linking to part of the site, so it works as both bio and sitemap."
+      }
+    ]
+  },
+  {
+    "id": "will-stedden",
+    "name": "Will Stedden",
+    "urls": [
+      "https://opus.stedden.org"
+    ],
+    "lanes": [
+      "gardens"
+    ],
+    "thumb": "/media/gardeners/will-stedden-thumb.webp",
+    "full": "/media/gardeners/will-stedden-full.webp",
+    "observations": [
+      {
+        "url": "https://opus.stedden.org",
+        "lane": "gardens",
+        "who": "data scientist and writer; solarpunk fiction and projects",
+        "notableDesignFeatures": "An all-lowercase, plain-voice title (\"the collected works of dr will stedden\") sits above a tag filter row, large post cards and a compact text list of the same posts."
+      }
+    ]
+  },
+  {
+    "id": "winnie-lim",
+    "name": "Winnie Lim",
+    "urls": [
+      "https://winnielim.org"
+    ],
+    "lanes": [
+      "writers"
+    ],
+    "thumb": "/media/gardeners/winnie-lim-thumb.webp",
+    "full": "/media/gardeners/winnie-lim-full.webp",
+    "observations": [
+      {
+        "url": "https://winnielim.org",
+        "lane": "writers",
+        "who": "Writer (journal, notes, poetry)",
+        "notableDesignFeatures": "Hand-picked \"playlists\" of posts (reading sequences) sit alongside latest posts and notes, three items per section, with an all-lowercase menu."
+      }
+    ]
+  },
+  {
+    "id": "zach-leatherman",
+    "name": "Zach Leatherman",
+    "urls": [
+      "https://www.zachleat.com/"
+    ],
+    "lanes": [
+      "engineers"
+    ],
+    "thumb": "/media/gardeners/zach-leatherman-thumb.webp",
+    "full": "/media/gardeners/zach-leatherman-full.webp",
+    "observations": [
+      {
+        "url": "https://www.zachleat.com/",
+        "lane": "engineers",
+        "who": "Creator of Eleventy / Build Awesome",
+        "notableDesignFeatures": "A side panel of site stats and popular posts accompanies a third-person bio, and a \"Myspace Top 8\" section lists friends and links."
+      }
+    ]
+  }
+]

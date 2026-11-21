@@ -1,11 +1,10 @@
 ---
 title: "Using Grok Bot"
-type: concept
-status: developing
+type: practice
+status: stable
 created: 2026-11-10
-updated: 2026-11-10
-method: fresh-from-notes-2026-11-10
-description: "Run a helper by giving it one job, asking in the thread for any recurring pass, posing forks as lock-iterate-or-hold, and keeping drafts from going out until you say so."
+updated: 2026-11-22
+description: "Run Grok Bot by giving each helper one job, putting rules on the profile, asking in-thread for recurring passes, naming lock-iterate-or-hold forks, and separating drafts from sends."
 tags:
   - agents
   - grok-bot
@@ -17,7 +16,7 @@ wedge_reviewed: false
 
 # Using Grok Bot
 
-Day-to-day use, as shown across three public workshop days in mid-September 2026, is less about collecting more helpers and more about how you talk to the ones you already have. The orientation page covers what the product is. This page covers the loop you actually run.
+Grok Bot, as shown across three public workshop days in mid-September 2026, is a fleet of named helpers rather than one chat box. Helpers run on their own schedules, connect to tools, steer cloud coding agents, and keep memory and routines. Day-to-day use is less about collecting more helpers and more about how you talk to the ones you already have. This page is the loop you actually run.
 
 Start by giving the helper a single duty and writing the hard limits into its profile, where you and anyone watching can see them. A slides helper on the first day carried rules for clean layout, type no smaller than 20 points, and a fixed set of colors. When those rules live only in a one-off prompt, they drift. When they live on the helper, you can audit them.
 
@@ -35,7 +34,9 @@ Watch the fleet while it works. An overlay counted how many helpers existed, how
 
 Scope the request the way you would write a short job description before you let the helper run. A later session warned that bloated context slows the work. If a job has two duties, it is already two jobs.
 
-This loop is the usage page. The short rule list lives next door. The three-day public build, including what was shipped in front of the audience, lives on the event chronicle.
+## Standing rules that surfaced on stage
+
+Give each helper one named job. Put format, cadence, and hard limits in the profile, not only in a one-off prompt. When a fork appears, name lock, iterate, or hold. If you lock, say who builds. Default external writes and destructive infrastructure changes to hold. If a connector fails, say it failed instead of inventing the missing page.
 
 ## Open questions
 
@@ -49,6 +50,5 @@ How would you phrase the next outbound draft so that sending it required a separ
 
 ## Related pages
 
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Primer|Grok Bot Primer]]
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot, Condensed|Grok Bot, Condensed]]
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]]
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering, Condensed|Agentic Engineering, Condensed]]
+- [[wiki/Working with Agents/Scope a bot like a job description|Scope a bot like a job description]]

@@ -12,7 +12,7 @@ tags: [tsumugu, canon, moral-core, values, arcs, cast, dashboard, projects]
 
 # MORAL CORE — the cast master
 
-*Mirror of `tsumugu-core/docs/companion/MORAL-CORE.md`, synced 2026-07-20. The source is canonical — edit there, then re-sync this copy. The craft page these cores sit under: [[wiki/Story Craft/The Moral Core|The Moral Core]].*
+*Mirror of `tsumugu-core/docs/companion/MORAL-CORE.md`, synced 2026-07-20. The source is canonical — edit there, then re-sync this copy. The craft page these cores sit under: [[wiki/Story Craft/Premise and Controlling Idea|The Moral Core]].*
 
 > **Sync note (2026-07-20).** Copied faithfully, including the source's own internal lags: 阮草's card is the 07-18 Tender re-baseline, but the synergy view and the cross-cast map below still carry her scrapped provision/receive wiring; 金多恩's and 小圖's cards predate `craft/JINDUOEN-MASTER.md` and `XIAOTU.md` (both 07-19). Nothing reconciled here — those are source-side calls.
 

@@ -5,13 +5,13 @@ tags: [design, human-ai, ai-durability, naval, taste, judgment, scorecard, agent
 
 # Human × AI capability lens + design technique extraction
 
-**Verdict:** Two design books — *Refactoring UI* and *Universal Principles of Design* — were mined into a two-track catalog (machine-executable rules vs. human-judgment calls), and that split was generalized into a durable model, [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: every capability is scored on two *independent* axes (Human, AI), each decomposed into five facets, each item landing in one of four zones — Own, Augment, Delegate, Low-leverage. The facet sets are locked and traced to the vault's own [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs. Judgment]] plus Naval; the ~250-row master scorecard and the per-doc score badge are specced and pending build.
+**Verdict:** Two design books — *Refactoring UI* and *Universal Principles of Design* — were mined into a two-track catalog (machine-executable rules vs. human-judgment calls), and that split was generalized into a durable model, [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Human vs AI Capability Lens]]: every capability is scored on two *independent* axes (Human, AI), each decomposed into five facets, each item landing in one of four zones — Own, Augment, Delegate, Low-leverage. The facet sets are locked and traced to the vault's own [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Higher-Order Generativity vs. Judgment]] plus Naval; the ~250-row master scorecard and the per-doc score badge are specced and pending build.
 
 ## What shipped
 
 - [[wiki/Design/Design Expansion — Reading & Resources|Design Expansion — Reading & Resources]] — 19 sources to push the Norman-only Design notes multi-source.
 - [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]] and [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track]] (35 judgment entries), extracted from *Refactoring UI* (3,690 lines of text) and *Universal Principles of Design* (200 principles, 14,503 lines). Both PDFs and their extracted text are staged in `raw/sources/design/`.
-- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — the model below.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Human vs AI Capability Lens]] — the model below.
 
 ## The model
 
@@ -48,4 +48,4 @@ The lens is a dated snapshot, not a law. AI scores drift upward as models improv
 
 ## Provenance
 
-This Cowork session. Grounded in the two PDFs read directly, the vault's [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs. Judgment]] and [[wiki/Money/The Almanack of Naval Ravikant|The Almanack of Naval Ravikant]], plus a web check of Naval's current taste / judgment / specific-knowledge framing.
+This Cowork session. Grounded in the two PDFs read directly, the vault's [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Higher-Order Generativity vs. Judgment]] and [[wiki/Money/Money, Condensed|The Almanack of Naval Ravikant]], plus a web check of Naval's current taste / judgment / specific-knowledge framing.

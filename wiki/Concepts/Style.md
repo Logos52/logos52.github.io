@@ -1,46 +1,62 @@
 ---
 title: "Style"
 type: concept
-status: developing
+status: stable
 created: 2026-11-10
-updated: 2026-11-10
-method: fresh-from-notes-2026-11-10
-description: "Personal style gets easier when the closet is smaller, the pieces are timeless, the silhouette fits, and one quiet detail does the talking."
+updated: 2026-11-21
+description: "Dressing well is a craft: fewer pieces, timeless cuts, fit from trial, one quiet detail. A personal uniform is the same filter worn daily until the wardrobe and carry identify one life, not a costume copied from someone else's black tee."
 tags:
   - style
   - fashion
   - taste
-wedge_reviewed: false
+  - minimalism
+source-count: 2
 ---
-
-> Not yet reviewed by Wedge.
 
 # Style
 
-Dressing well is a craft you can improve. Once it moves, how you look and how you feel change, and other people treat you differently. The first move is to own less. Fewer items, fewer colors, fewer materials, fewer designs, and fewer fits. Most closets fill up with garments from different trends and different years, which multiplies the combinations you have to think through each morning. Cut the closet down to a few items, a few colors, a few fits and designs, and the basics, and dressing well takes less deliberation.
+Dressing well is a craft you can improve. Once it moves, how you look and how you feel change, and other people treat you differently. The first move is to own less: fewer items, colors, materials, designs, and fits. Most closets mix trends and years, which multiplies morning combinations. Cut down to a few items, colors, fits, and basics, and dressing well takes less deliberation.
 
-The next move is to buy timeless pieces rather than trendy ones. Trends arrive and leave quickly. Jumping on each one means buying again when it passes, which is expensive and keeps you following rather than looking settled. Timeless pieces have been around already and are likely to remain, and they also mix with a trend if you later want one. Shop whites, blacks, navy, khaki, brown, beige, and gray first. Shop straight, relaxed, and tapered fits first. Those shapes were here 30 to 40 years ago and will probably still be here 30 to 40 years from now. Leave balloon-wide cuts and ripped skinny ones aside, since those are trend shapes. Core items start with a white tee, which goes with almost everything. Add Oxford shirts, slacks, and blazers or sports jackets. For shoes, think Derby or Oxford pairs if you like formal wear, Chelsea boots, and sneakers in all white, all black, or gray.
+Buy timeless pieces before trendy ones. Trends pass quickly; chasing each one is expensive and keeps you following rather than settled. Timeless shapes mix with a trend later if you want one. Start with whites, blacks, navy, khaki, brown, beige, and gray. Start with straight, relaxed, and tapered fits. Those were here decades ago and will likely stay. Leave balloon-wide cuts and ripped skinny shapes aside.
 
-Worn clothes often look better than new ones because they already have a story in the fabric. Leather that has taken a beating, or a training gi that has gone soft and marked after years of use, reads as lived-in in a way a stiff new garment does not. New pieces can look as if someone else dressed you. Secondhand, vintage, and inherited clothes bring that wear in immediately when you keep them inside those same timeless colors and fits. The same idea applies to shoes, leather jackets, and caps as you actually wear them in.
+Worn clothes often read better than new ones. Leather that has taken a beating, or a gi softened after years of use, looks lived-in. New pieces can look as if someone else dressed you. Secondhand, vintage, and inherited pieces bring that wear in when they stay inside the same timeless colors and fits.
 
-Balance is the harder quality to name. An outfit that is all bright color can look too excited. An outfit that is all dark and muted can need a light touch. Tone a dark look up with a white tee, white socks, or brighter sneakers. Tone a bright look down with darker pieces. Caps and shoes can contain a bright body if they are dark. A threading color is a hue that recurs quietly across items, such as a bit of navy in the trousers, a trace in the top, and a hint on a cap. If the match is obvious, it looks forced. The subtler the repeat, the better it holds together.
+## Balance, fit, and the quiet point
 
-Fit and silhouette come from trial and error more than from named body charts. For most people who are not chasing a high-fashion look, a normal fit or a slightly loose one works. On a top, a shoulder seam that sits too high looks tight. A drop shoulder, where the seam sits toward the side of the shoulder, reads as a looser, more graceful line. Going too oversized is a different look and needs its own judgment. Copying silhouettes from people with a similar body, then trying them on, is a practical way to learn, and looking slightly off for a while is part of that practice.
+An outfit of all bright color looks too excited. All dark and muted can need a light touch. Tone a dark look up with a white tee or brighter shoes. Tone a bright look down with darker pieces. A **threading color** is a hue that recurs quietly across items. If the match is obvious, it looks forced. The subtler the repeat, the better it holds.
 
-Once the base is simple, add a point, meaning one accent that draws the eye. It can be color, material, or an accessory, and it can be bold, though looking as if you tried the least usually reads better than a perfectly assembled outfit that shouts effort. Fashion here is a kind of hide and seek. You clearly dressed with care, and you also hide how much you cared. The quiet version of a point is a finer detail. It might be how a collar is stitched, the finish on a shoulder, the gap in the stitching, the wash on a pair of jeans, or an unusual zipper. Even a white tee can be the point in an otherwise black outfit. The smallest change that still reads is the one that looks least forced.
+Fit comes from trial more than from charts. For most people not chasing high fashion, normal or slightly loose works. On a top, a shoulder seam too high looks tight; a drop shoulder reads looser. Copy silhouettes from people with a similar body, try them on, and accept looking slightly off while you learn.
 
-Learning a little of the history behind clothes helps you see why certain pieces last, though that part of the talk is only a beginning.
+Once the base is simple, add **one point**: a single accent that draws the eye, in color, material, or accessory. Fashion here is hide-and-seek: you dressed with care, and you hide how much you cared. The quiet version is a finer detail: collar stitching, shoulder finish, wash on denim, an unusual zipper. Even a white tee can be the point in an otherwise black outfit. The smallest change that still reads is the one that looks least forced.
+
+Learning a little history helps you see why certain pieces last. An Oxford shirt, a derby shoe, and a straight trouser each have a lineage that explains why they still mix with almost everything in the closet. You do not need a course in fashion history. Noticing why one silhouette keeps returning is enough to stop buying shapes that will look dated in a season.
+
+## The personal uniform
+
+Minimalist fashion has a reputation for sameness: a black tee, identical basics, the same outfit every day. Actual minimalists diverge. Steve Jobs wore black tee and blue jeans. Sibu wears all black and baggy clothes. Each repeats daily, and no two uniforms match. Limiting the wardrobe leads each person to an individual look.
+
+**Repetition is the mechanism.** Wearing few things daily tests each item. What does not prove useful leaves the rotation. What remains fits one life: climate, work, taste. Two people running the same test on two different lives end up looking nothing alike.
+
+Selection runs stricter when mistakes cost more to keep. At home, a bad purchase sits unused. On one-year apartment contracts abroad, everything bought ships to the next country, so a mistake costs twice. That friction keeps the filter strict.
+
+One owner's uniform is an Everyman look that is still distinct: dark blues and browns more than all black; 3/4 sleeve shirts, samue, noragi blazers with cropped pants; linen and cotton; microplastic avoidance deciding purchases as often as look. Crocs break the aesthetic and stay in the kit because they suit HCMC weather and minimalist purpose. Use comes first; look follows as a side effect. A wardrobe that kept aesthetic and dropped usefulness would reverse that order.
+
+The same filter applies beyond clothes. **Everyday carry** repeats daily, so a useless object shows within a month. Clothes rotate weekly; the carry is the same handful every day. Travel across Asia stress-tests carry hardest because airport and desk use both matter. Settled items are the ones that stopped being decisions years ago and get picked up on the way out. A person who can list their carry from memory has finished deciding what goes in it.
+
+The black tee was never what mattered. Copying it without the selection that produced it is a costume. What minimalists share is the process: remove until wardrobe and bag are small, settled, and clearly one person's. Up close, each uniform identifies the wearer; from far away the uniforms look interchangeable. The same mechanism appears in [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]] applied to objects: a filter run daily against one life ends at a signature nobody aimed for.
 
 ## Open questions
 
-How would you cut your closet down to a few colors and fits without leaving gaps you actually need?
+How would you cut your closet to a few colors and fits without leaving gaps you actually need?
 
 What one quiet detail would you add to an otherwise plain outfit this week?
 
-## Sources
-
-- How to unfck your style, fashion talk (2026-09-10 capture of a 2025 video).
-
 ## Related pages
 
-- [[wiki/Fitness/Fitness Mindsets|Fitness Mindsets]]
+- [[wiki/Minimalism/Wanting Less|Wanting Less]] — wanting less on the spending side of the same filter.
+- [[wiki/Fitness/Fitness Mindsets|Fitness Mindsets]] — another domain where taste and repetition meet.
+
+## Sources
+
+- "How to unfck your style," fashion talk (2026-09-10 capture of a 2025 video).
+- Personal uniform and EDC notes: owner practice, folded from archived `wiki/Fashion/The Personal Uniform.md`, 2026-07-22–2026-09-13.

@@ -1,13 +1,9 @@
 ---
 title: "Time Beats Timing"
 type: concept
-status: developing
+status: stable
 created: 2026-06-11
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: grok
-model: grok
+updated: 2026-11-21
 source-count: 6
 tags:
   - money
@@ -18,71 +14,50 @@ tags:
 
 # Time Beats Timing
 
-Invested surplus compounds over the years the money stays invested. The crash years are part of that stretch. Those years add more to ending wealth than a well-chosen entry date adds. A sale during a crash ends the stretch at the point where the best recovery days cluster. The usual cause of that sale is the owner reacting to prices.
+Invested surplus compounds over every year the money stays put, crash years included. Those years often add more to ending wealth than a clever entry date ever could. Selling during a crash ends the stretch right where the strongest recovery days bunch together. The investor’s job is to remain invested, not to win a forecasting game.
 
-## Core takeaways
+## Getting rich is not staying rich
 
-- Money compounds over the years it stays invested, crash years included. Those years add more than a well-chosen entry date.
-- The best market days cluster inside crashes. A sale made during a crash misses the recovery.
-- Getting rich and staying rich are different skills. Staying rich rewards humility and the fear of ruin, and the unbroken stretch of invested years depends on that skill.
-- About nine in ten US large-cap active funds underperformed a broad index over fifteen years. A broad, low-cost index fund is the default vehicle for staying in.
-- A 1% annual fee over a multi-decade compound takes a large share of ending wealth.
-- The check on behaviour is whether the last portfolio action is months old. The repair when the check fails is automatic contributions, a calendar rebalance, and a no-news rule.
+Building wealth rewards risk and conviction in many stories, though no story is a guarantee. Keeping wealth rewards humility and fear of ruin. Avoiding ruin is the constraint on the horizon—the unbroken years money stays invested. A large drawdown early in withdrawal, or a forced sale during accumulation, outweighs later high returns. Compounding only runs on money still in the market.
 
-## Getting rich and staying rich are different skills
+Temperament interrupts compounding more often than mathematics does. Households that trade more tend to earn less than the funds they hold, largely from buying high and selling low. Classic return-predictors have failed out of sample; the cycle still prompts owners to act, and the sale breaks the stretch.
 
-Getting rich and staying rich are two different skills, and they call for opposite behaviour. Getting rich rewards risk-taking and conviction. That holds in many wealth-creation stories. It is not a law, and it is not a how-to. Staying rich rewards humility and the fear of ruin.
+## Why crash years belong in the count
 
-Avoiding ruin is the constraint on the horizon. The horizon here means the unbroken stretch of years the money stays invested. The horizon depends on the staying-rich skill. Surviving every market cycle matters more than gaining from any one of them. A large drawdown early in the withdrawal years, or a forced sale during the accumulation years, outweighs later high returns. Compounding happens only on money that is still invested.
+The best market days cluster inside crashes. A sale made to escape the cycle misses those days and therefore misses the recovery. That is why “time in the market” dominates “timing the market” for long horizons. The behavioural failure is not ignorance of the math—it is checking prices daily, reacting to news, and converting anxiety into a trade.
 
-## Why a sale during a crash costs the most
+## Default vehicle: broad, low-cost index
 
-The best market days cluster inside crashes. A sale made to avoid the cycle misses those days, and so misses the recovery. Households that trade more earn less than the funds they hold. Classic return-predictors fail out of sample. The cycle prompts the owner to act, and the resulting sale breaks the stretch.
+For the invested surplus that is meant to compound for decades, a broad, low-cost index fund has beaten most active managers. SPIVA-style scorecards show on the order of nine in ten U.S. large-cap active funds trailing a broad index over fifteen-year windows; managers who win one period rarely repeat. A skilled manager can exist. The count of funds is still enough to set the default: stay in, stay diversified, stay cheap.
 
-## A broad, low-cost index fund as the default
+Fees use the same compounding arithmetic as returns, but against you. A one-percent annual fee over a multi-decade compound can take a large share of ending wealth—far more than one percent of the final pile. Extra portfolio complexity usually brings an extra fee sold with a story about why the complexity is necessary. Suspicion toward sold complexity is not a ban on every specialized tool a plan might need; applied vehicle choice belongs in projects like [[projects/wnac|WNAC]].
 
-A broad, low-cost index fund beats almost all active funds over the years the money stays invested. This is a claim about the class of index funds, and never about a named product. The evidence is a count of funds. About nine in ten US large-cap active funds underperformed a broad index over fifteen years. Funds that beat the index in one period rarely keep doing so. A specific skilled manager can win. The count of funds is enough to settle the default choice. It is not a verdict on one cousin's manager.
+## The exception: living, not surplus
 
-## What fees do over decades
+The stay-in rule applies to invested surplus, not to every dollar. Some experiences only fit certain decades of life. Time-bucketing matches a spend to the window when it is still possible. [[wiki/Money/Define Enough|Define Enough]] governs that trade: the written enough-number should already admit memory dividends and closing windows, so long as the life-energy price still looks fair. [[wiki/Money/Money, Condensed|Money, Condensed]] holds the exchange-rate frame for those spends.
 
-A fee compounds over the years by the same arithmetic as a return. A 1% annual fee over a multi-decade compound takes a large share of ending wealth. That share is far more than 1% of the pile. Extra complexity in a portfolio usually means an extra fee, sold with an explanation of why the complexity is needed. This is a suspicion about complexity that someone is selling. It is not a ban on every extra part a plan might need.
+[[wiki/Money/The Savings Rate Is the Master Lever|The Savings Rate Is the Master Lever]] is the other lever: how much money reaches the horizon, not only how long it stays there.
 
-## Where the stay-in rule does not apply
+## Process design beats better forecasts
 
-The horizon applies to invested surplus. It does not apply to money spent on living. Some experiences are only possible for a limited number of years. Time-bucketing means matching an experience to the decade in which it is still possible. Time-bucketing is the correct exception, and [[wiki/Money/Define Enough|Define Enough]] governs it. Which vehicles suit a given situation is covered in [[projects/wnac|WNAC]].
+The behavioural check is simple. The last discretionary portfolio action should be months old, not days old. Checking prices is not a trade, but daily price-checking is the habit that precedes a sale. When the check fails, the repair is process design—not a better market forecast.
 
-## How to check that the behaviour is holding
+Automatic contributions move money in without choosing an entry date. Rebalancing happens on a calendar date, not on headlines. A no-news rule removes the cue that triggers panic. [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]] is the general case: judge the investing routine by whether the process was followed, not by whether this quarter’s statement looked good.
 
-The check is the age of the last portfolio action. It should be months old. Days old is a failure. Months is not a measured optimal interval. The point of the check is that the interval is longer than a day. If the owner checks prices daily, or reacts to cycle news, the behaviour has failed, regardless of what the math says. Checking prices is not a trade. Daily attention to prices is the step that comes before the sale.
+To calibrate: note the date of your last discretionary trade, count how many days this week you checked prices, list each fund’s annual fee, and see whether any action still traces to a news item. Months-old actions and fee awareness are signs the horizon is intact.
 
-The repair is process design. A better forecast is not the repair. The process is automatic contributions, a rebalance on a calendar date, and a no-news rule. [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]] covers the general case of judging a decision by its process rather than by its outcome.
+Sequence-of-returns risk matters most at the boundary between accumulation and withdrawal: a deep drawdown in the first years of spending can permanently impair a plan even if averages look fine on paper. That is another argument for humility and for the fear of ruin while staying invested—ruin is not only going to zero, it is being forced to sell the shares you needed for the next decade. Automatic buying through crashes dollar-cost averages in the scarier months without requiring a forecast.
 
-## How to practice this
-
-1. Find the date of your last portfolio action. Notice whether it is months old or days old. Days old means the behaviour has failed, regardless of what the math says.
-2. Count how many days this week you checked prices. Notice that checking is not a trade. Notice also that daily checking is the step before a sale.
-3. Set up automatic contributions so money goes in without a decision each time. Notice that no entry date gets chosen.
-4. Put your rebalance on a calendar date. Make no other portfolio action between dates. Notice whether you want to act before the date when cycle news arrives.
-5. Adopt a no-news rule and stop reading market news. Notice whether any portfolio action you take still traces to a news item.
-6. Look up the annual fee on each fund you hold. Notice that a 1% fee over decades takes a large share of ending wealth. That share is far more than 1% of the pile.
-
-## Related pages
-
-- [[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]]: the hub page for the stay-in claim.
-- [[wiki/Money/The Savings Rate Is the Master Lever|The Savings Rate Is the Master Lever]]: how much money is on the horizon, the other lever besides the years it stays in.
-- [[wiki/Money/Define Enough|Define Enough]]: the point at which the surplus is enough, and the exception for experiences that are possible only for a limited number of years.
-- [[projects/wnac|WNAC]]: vehicle choice for a given life.
-- [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]]: judging a decision by its process rather than by its outcome, the general case.
-
-## Open questions
-
-Should a calendar rebalance, which is a planned action, count against the months-old check, or is the check only about discretionary reactions?
+A calendar rebalance is a planned action, not a panic reaction. It does not fail the months-old check as long as it follows a rule set in advance rather than a headline. The check targets discretionary reactions to fear and greed, not maintenance on a schedule you already wrote down.
 
 ## Sources
 
-- Barber & Odean 2000, *Journal of Finance*, "Trading Is Hazardous to Your Wealth": households that traded more earned less.
-- DALBAR Quantitative Analysis of Investor Behavior (annual): average equity-investor returns lag the funds they hold, mostly from buying high and selling low.
-- Goyal & Welch 2008, *Review of Financial Studies*: classic return-predictors fail out of sample.
-- S&P SPIVA U.S. (YE 2024 ~89.5% of large-cap active underperformed the S&P 500 over 15 years; YE 2025 long-horizon rates still ~90%+): count of funds, not a verdict on one manager. Sharpe 1991, "The Arithmetic of Active Management"; French 2008, *JFE*.
-- Bogle, Cost Matters Hypothesis (Brinson Lecture 2004 and later restatements): a fixed-percentage fee is a large share of ending wealth on a multi-decade compound.
-- Housel, *The Psychology of Money*: getting rich vs staying rich; temperament as the interruption. Collins, *The Simple Path to Wealth*: broad low-cost index as the stay-in vehicle. Siegel, *Stocks for the Long Run*: time in the market. Milevsky / Pfau: sequence-of-returns risk.
+- Barber and Odean, "Trading Is Hazardous to Your Wealth", *Journal of Finance* (2000)
+- DALBAR Quantitative Analysis of Investor Behavior (annual investor return lag studies)
+- Goyal and Welch, return-predictor out-of-sample work, *Review of Financial Studies* (2008)
+- S&P SPIVA U.S. scorecards (long-horizon active vs index)
+- John Bogle, cost matters hypothesis (Brinson Lecture and later restatements)
+- Morgan Housel, *The Psychology of Money* (2020)
+- JL Collins, *The Simple Path to Wealth*
+- Jeremy Siegel, *Stocks for the Long Run*
+- Milevsky / Pfau sequence-of-returns risk literature

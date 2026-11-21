@@ -33,6 +33,7 @@ export const IGNORE_PATTERNS = [
   '01 - Workbench/**',
   '02 - System/**',
   '_archive/**',
+  'archive/unpublished/**',
   'hermes/**',
   'log.md',
   'notes/catalog.md',
@@ -54,7 +55,12 @@ export const IGNORE_PATTERNS = [
   'mg-kolbs-template.md',
 
   // Agent research banks — stay in the repo for agents, not on the public site.
+  'archive/unpublished/**',
+
   'wiki/Research/**',
+
+  // Unpublished cut archive — moved off wiki paths, not on the public site.
+  'archive/unpublished/**',
 
   // Design extraction catalogs (agent/WIP). Keep Design, Condensed and Front-End Web Design.
   'wiki/Design/Design Expansion — Reading & Resources.md',

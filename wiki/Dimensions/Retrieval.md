@@ -1,48 +1,85 @@
 ---
-title: "Retrieval"
-type: dimension
-status: developing
+type: hub
+domain: learning
+status: stable
+description: "Retrieval is using knowledge from memory on purpose—matched to knowledge type, spaced and interleaved, and aimed at gaps encoding left behind."
 created: 2026-05-16
-updated: 2026-11-10
-method: fresh-from-notes-2026-11-10
-description: "Retrieval is recalling and using knowledge from memory, practised so that knowledge decays less and holds up under varied pressure."
+updated: 2026-11-21
+source-count: 12
 tags:
   - retrieval
-wedge_reviewed: false
 ---
-
-> Not yet reviewed by Wedge.
 
 # Retrieval
 
-Retrieval is the process of using and recalling knowledge from your memory. It happens whenever you bring back a fact, explain something, work through a problem, or talk through a concept. Memory is never perfect, and knowledge fades at some rate all the time, so retrieval practice is a key part of a learning system if you want to slow that decay. Retrieval practice makes knowledge more accurate, cuts errors, and raises your ability to perform at a high level of challenge in varied settings and under pressure.
+> Retrieval is recall and use under real conditions: stating, explaining, solving, teaching, discussing. Memory decays regardless of intent, so practice must be deliberate—matched to declarative, procedural, or conditional demand, spaced and interleaved, and biased toward weak points. It couples with deep processing: weak encoding caps retrieval, and hard retrieval can force deeper processing. Professional work supplies opportunistic retrieval; exams and credentials still need scheduled sessions plus late-stage breach tactics when only a few marks remain at stake.
 
-A comparison used here is driving a car. If learning is like driving, retrieval practice is what lets the driver handle different ground, winding roads, and poor conditions.
+## Three standing habits
 
-Retrieval practice can feel like a poor fit when you are not studying for an exam. In many professional settings, information does not have to be memorised or brought back in the same way as it does for academic assessments. Retrieval is still a necessary component of learning in any situation. In workplace learning, retrieval can be opportunistic, meaning you might naturally need to pull the information back in varied ways during ordinary work. An effective learner can use planned retrieval practice to fill the gaps that this natural work does not cover.
+**Match the method to the knowledge job.** Facts and strategic structure are declarative stress. Automatic execution is procedural stress. Judgment of when and why to deploy a move grows through varied declarative practice. Misalignment shows up as fluent drills that collapse in context.
 
-Training covers three habits. First, match the retrieval method with the type of knowledge. Declarative knowledge means facts. Procedural knowledge means skills. Conditional knowledge means when and why to apply what you know. That alignment is what ensures you grasp the material and can use it fluently in the right ways, and without error.
+**Space and interleave.** Spacing gives integration time; interleaving changes angle and difficulty so transfer improves. Together they keep volume manageable and errors visible early. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced interleaved retrieval]] is the default schedule; the [[wiki/Dimensions/30-Day Challenges|retrieval challenge month]] trains closed-book reconstruction before you widen the system.
 
-Second, space and interleave the practice. Interleaving means coming at the information from different angles and different levels of difficulty. Spacing means giving long-term memory the time it needs to integrate what you have learned. Careful spacing and interleaving help you apply knowledge in more complex ways while making retrieval sessions more time-efficient, and this keeps high learning volumes from overwhelming you.
+**Target gaps.** Most learners unconsciously rehearse strengths. Retrieval should hunt what encoding missed or what time has eroded—known gaps (failed recall) and unknown gaps (confidence without a whole perspective).
 
-Third, target your gaps. Most learners subconsciously avoid their weak points because that path feels simpler and less uncomfortable. Retrieval can be used as a focused tool to uncover gaps in memory and in knowledge mastery, meaning how usable the knowledge is. Later techniques help you notice finer gaps and handle more nuanced, specific learning needs. By focusing on gaps and keeping methods aligned to real-world requirements, you save time by cutting needless re-learning and raise accuracy by staying tied to your learning goals.
+## Scheduled vs opportunistic practice
 
-Retrieval practice is bound to deep processing in two directions. Weak deep processing will also cap how good retrieval practice can be. Retrieval can also help train deep processing in the first place. Learners who have trouble with deep processing may find it hard to take on a tougher form of retrieval, such as demanding self-testing. By attempting that higher difficulty of self-testing, they force the brain to engage in deeper processing than it habitually might, which helps the brain get used to that deeper processing in the future.
+**Opportunistic retrieval** is recall baked into work: the patient after the cardiology reading, the production bug after the tutorial. Label whether the day demanded lower or higher order use; if only facts were needed, schedule a higher-order pass. Do not optimise past the goal—a low-stakes elective does not need doctoral depth. When work will force recall, **study in the order work will ask for it**, not the certificate syllabus order. Teaching a colleague creates deliberate interleaving.
 
-There is no retrieval challenge attached to this overview. High-quality retrieval is described as one of the first major lessons in the wider training. The right retrieval strategy depends on your aims and your timetable, so a general challenge would not do it justice.
+## Revision and self-made tests
 
-## Open questions
+**Revision** means true recall, not recognition. A high-yield loop is **test → target → teach**: generate questions (yours and others’), aim at shaky areas first, then teach with reversed explanations—idea before jargon—so weak spots surface. Premade papers familiarise style and find angles you would not self-generate; over-reliance on them is why surprise questions hurt. After a gap, re-encode with the original method; diagnose whether the hole is declarative (strategy), procedural (execution), or structural (grouping / waterfalling or spiderwebbing maps).
 
-- How does matching the retrieval method to whether you need a fact, a skill, or a sense of when to apply it change what you can do under pressure?
-- How does using a harder form of self-testing change the kind of thinking you become able to do later?
+Mix methods across orders and knowledge types. Check answers only after an honest attempt—early checking breeds illusion. Aim to run the loop at least once before advancing new material.
 
-## Sources
+## Reconstruction beyond recall
 
-- iCanStudy, "Retrieval", Catalyst. Private course notes, paraphrased.
+**Reconstruction** asks you to build valid new links, not replay old ones—linking ideas in untaught ways, pairing concepts in novel situations, or testing whether a rule really transfers. Recall can succeed while rearrangement fails; reconstruction finds that gap. Blend with recall—heavier reconstruction early, more recall near deadlines. Past papers are broad brute force; reconstructive prompts are gap-seeking.
+
+## High-volume and late-stage tools
+
+**Whole-part-whole (WPW)** teaching: survey the topic, teach parts from memory with reverse explanations, return to the whole—slow, gap-revealing, best after maps have aged a few days. It is advanced retrieval volume alongside brain dumps.
+
+**Multipass** sweeps large syllabi in layers—logic and concepts before detail. Inquiry-led multipass follows your questions; objectives-led multipass tracks assessable outcomes under time pressure at some encoding cost. Cramming from the bottom layer up inverts the payoff.
+
+**Breaching questions** (late stage): list keywords per outcome, cross-apply keywords across outcomes, write the hardest question you cannot yet answer, then work it—targeting unknown gaps and last mark plateaus. Pair with practice papers in the final weeks.
+
+**Group study** needs roles: leader (depth and agenda), timekeeper (pace and recap), fact-checker (challenge and verification)—rotate them; undirected discussion is not retrieval.
+
+## Rote and reading balance
+
+**Rote memorisation** is the last resort for arbitrary specifics after logic, concepts, and important details are in place. Conceptual work shrinks the rote pile; letting conceptual quality slip spirals into flashcard debt.
+
+**Reading for retention** splits consumption and digestion (PACER types: procedural practise now, analogies critiqued, concepts mapped, evidence stored for later use, reference drilled only when needed). Consuming without digesting is the common failure—pause intake when digestion lags.
+
+## Links to encoding
+
+Retrieval time that stays high signals encoding gaps, not laziness. Each missed gap may cost ~5× the repetition to patch. Micro-retrieval in the moment (think before you write notes) and external answer checks for self-tests reduce blind spots. Pair with [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter]] maps when re-aiming gaps.
+
+## Four-week closed-book ramp
+
+Before relying on the full interleaving menu, the retrieval challenge month installs one habit: **close the source, then reconstruct**. Week one values the attempt over the score; week two varies recall as teaching, problem-solving, and writing; week three raises difficulty one lever at a time (fewer cues, more delay, mixed topics); week four restudies only failures, relating missed ideas instead of rereading. Repeating a week beats advancing with a fluent reread still in view—that pattern is passive review dressed as retrieval.
 
 ## Related pages
 
-- [[wiki/Dimensions/Deep Processing|Deep Processing]]: the dimension this overview says retrieval both depends on and can train.
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: spacing and interleaving, unpacked as a method.
-- [[wiki/Dimensions/Retrieval/Opportunistic Retrieval|Opportunistic Retrieval]]: using the recall that daily work already demands.
-- [[wiki/Dimensions/Retrieval/Revision|Revision]]: later sessions that pull knowledge back out after time has passed.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — schedule and method menu.
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] — encoding partner.
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — diagnostic frame.
+- [[wiki/Domains/Miscellaneous/Exam Technique|Exam Technique]] — execution context for late methods.
+
+## Sources
+
+| Source | Note |
+|---|---|
+| iCanStudy, "Retrieval", Catalyst | Hub habits |
+| iCanStudy, "Revision" / effective revision / pitfalls, Camp I–II | Test–target–teach, gap types |
+| iCanStudy, "Retrieval Tips" | Opportunistic retrieval |
+| iCanStudy, "Reconstruction", Camp II | Beyond recall |
+| iCanStudy, WPW / whole-part-whole materials, Camp II | High-volume teaching pass |
+| iCanStudy, "Multipass system", Summit | Layered coverage |
+| iCanStudy, "Stress and application adjustment", Exam execution | Breaching questions |
+| iCanStudy, "Group study", Summit | Structured group roles |
+| iCanStudy, "Rote learning and memorisation", Camp I | Fourth layer only |
+| Justin Sung, "How to Remember Everything You Read" | PACER reading split |
+| iCanStudy, Retrieval Challenge / fundamentals | Four-week closed-book track |
+| Roediger & Karpicke (2006); Karpicke & Roediger (2008) | Testing effect and restudy after failure |

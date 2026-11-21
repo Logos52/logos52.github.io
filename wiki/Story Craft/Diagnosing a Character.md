@@ -1,110 +1,101 @@
 ---
 title: "Diagnosing a Character"
-type: technique
-status: developing
+type: practice
+status: stable
 created: 2026-07-09
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
-written-by: grok
-model: grok
+updated: 2026-11-21
+source-count: 4
 tags:
   - character
   - diagnosis
   - workflow
   - story-craft
-flag-reason: "cluster held: Story Craft; opener is owner-picked Opus B. Do not promote."
+  - tsumugu
 ---
 
 # Diagnosing a Character
 
-Diagnosing a character is running a short fixed list of checks on one character's build: the same questions every time, in the same order. The first question you cannot answer about that character is the fault. The list is short on purpose, and it stops at a specific place.
+An eleven-check audit runs the same questions on every character build, in the same order. The first check you cannot answer with on-page evidence is the fault. The pass grades structure, not prose: a character that passes every item can still read flat if the sentences are dull.
 
-When a character reads as thin, the instinct is to reread the scene where they read thinly, and that is almost always the wrong place to look. A piece missing from the build shows up scenes later as a person who does not appear to want anything. The missing piece is usually somewhere else in the build: a duplicated arc type, an unbuilt web edge, a payoff with no plant.
+Use it on a lead who feels wrong, or on a principal before lock. Peripheral cast are supposed to fail most checks. A full pass takes twenty to thirty minutes and is not a standing gate on the whole ensemble.
 
-The checks grade a build, not a person. [[wiki/Story Craft/Reading Frames and What They Hide|Reading Frames and What They Hide]] is the neighbouring page for the other use of the word: putting a clinical frame on a person is the wrong instrument.
+For [[projects/tsumugu|Tsumugu]], diction is capped by the graded-reader schedule. Voice, contradiction, and plant chains are tested the same way; only the vocabulary ceiling changes what can be said when.
 
 ## Core takeaways
 
-- The list is eleven checks, run in the same order every time. The first one you cannot answer about the character is the fault.
-- Each check is marked **present**, **thin**, or **absent**, against evidence on the page.
-- Checks 6 and 10 are read against the full cast, not against the single character. A character can pass every local check and still read thin.
-- A thin mark means there is some evidence and it is not enough. An absent mark means the piece is not built.
-- The checklist diagnoses the build. It does not write the prose, and a character that passes all eleven can still be lifeless if the prose is flat.
-- A full pass takes twenty to thirty minutes. Run it on a character that feels off, or on a lead before lock, not as a standing gate on the whole cast.
+- Eleven checks, fixed order. Mark each **present**, **thin**, or **absent** against evidence on the page.
+- Checks 6 and 10 read against the full cast. Local passes do not excuse a duplicate arc type or an unbuilt web edge.
+- Thin on 4, 7, and 11 usually means texture. Absent on 3 or 6 usually means a structural rewrite.
+- Voice is assignable before the tag; one contradiction is shown in action before it is named.
+- A cluster of thins around the arc while the arc itself is strong means the engine is fine and the scaffolding around it is not.
 
 ## The eleven checks
 
-Each check is marked **present**, **thin**, or **absent**, against on-page evidence. Present means the evidence is on the page. Thin means some evidence, not enough. Absent means none. Checks 6 and 10 are cross-cast, not local. A character can pass every local check and still read thin.
+Present means enough evidence on the page. Thin means some, not enough. Absent means none.
 
-1. **Wound / Ghost is a concrete backstory injury that installed the false belief.** Event, never mood. [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] covers this chain.
-2. **The Lie is the false belief at page one, shown as behavior.** [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] covers this check too. A stated creed with no observable choice is not a mark of present.
-3. **Want stands in for Need and fights it.** The external goal is nameable. If winning the Want would also grant the Need, the arc has no gap. [[wiki/Story Craft/The Change Arc|The Change Arc]] covers this test.
-4. **One defining contradiction, shown before it is named.** A trait pile is not a contradiction. [[wiki/Story Craft/Round Characters and the Telling Detail|Round Characters and the Telling Detail]] covers that difference.
-5. **Voice is distinct in diction, rhythm, tics, and refused topics.** A line is assignable before the tag. [[wiki/Story Craft/Character Voice|Character Voice]] covers this check.
-6. **Arc type is named, and it does not duplicate the cast's dominant type.** This is the single check that most often explains "well-built but thin." It is readable only against the full cast. [[wiki/Story Craft/Arc Types|Arc Types]] covers the five shapes.
-7. **A signature object or motif returns.** [[wiki/Story Craft/Motif and Symbol|Motif and Symbol]] covers the return.
-8. **A plant-to-payoff chain is on the page.** The crisis is prepaid. [[wiki/Story Craft/Companion Arcs and Party Banter|Companion Arcs and Party Banter]] covers planting in downtime.
-9. **The crisis owns a home lesson.** A home lesson is the scene that owns the pivotal beat, not a bible assertion, and not a slot shared three ways. [[wiki/Story Craft/Spotlight Rotation|Spotlight Rotation]] covers this check.
-10. **Web edges are built to more than one other character.** A web edge is a relationship that does relationship-work and revelation-work at once. [[wiki/Story Craft/Foils and Pairings|Foils and Pairings]] is one scene doing both. [[wiki/Story Craft/The Character Web|The Character Web]] is the ensemble those edges make.
-11. **Submerged backstory is fully worked out.** Most of it never ships. [[wiki/Story Craft/The Iceberg and World as Pressure|The Iceberg and World as Pressure]] covers this check.
+1. **Ghost** — one concrete backstory injury that installed a false belief. Event, never mood. [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] owns the chain.
+2. **Lie** — the false belief at page one, shown as behavior. A stated creed with no observable choice is not present.
+3. **Want versus Need** — external goal nameable and distinct from inner truth. If winning the Want would also grant the Need, the arc has no gap.
+4. **One defining contradiction** — shown before named. A trait pile is not a contradiction: one interior tension spent on a costly choice. Provision against presence (envelope home versus hand refused) is the house teaching case.
+5. **Voice** — distinct diction, rhythm, refused topics. Strip tags from a two-hander: a fresh reader should assign lines. Under a Han ceiling, refusal and silence carry what rare words cannot.
+6. **Arc type** — named against the full cast. Must not duplicate the ensemble's dominant type. This check most often explains "well-built but thin."
+7. **Signature object or motif** — returns with work to do.
+8. **Plant-to-payoff** — crisis prepaid. [[wiki/Story Craft/The Beat Board|The Beat Board]] holds PLANT → SPARK → PAYOFF.
+9. **Home lesson** — one scene owns the pivotal beat, not a bible line and not a slot shared three ways.
+10. **Web edges** — relationship-work and revelation-work to more than one other character. [[wiki/Story Craft/The Character Web|The Character Web]] is the ensemble those edges make.
+11. **Submerged backstory** — worked out; most never ships.
 
-There is one extra for leads, and it is not a twelfth check: a second axis. A second axis is a second contradiction with its own root, not a relationship on the same root. Leads carry it. Peripheral characters do not.
+Leads may carry a **second axis**: a second contradiction with its own root, not another relationship on the same root. Support holds one memorable note ([將軍](/tsumugu/cast/general.html)'s rank gag, [吳老闆](/tsumugu/cast/boss-wu.html)'s deadpan feed-first manner) so roundness budget stays on the two or three arcs that load-bear.
+
+## Voice and roundness (what the checks assume)
+
+**Voice** is default register under pressure, especially what the character will not say. One plain center in the cast ([沈文](/tsumugu/cast/shen-wen.html)) lets marked registers read: clipped deadpan, bright exclamation runs, four-syllable bursts. At ~250 shared characters, cap speaking voices at three or four per reading; when the sentence is teaching new words, carry interiority through [[wiki/Story Craft/Interiority Through Action and Object|object and action]] instead of mannerism.
+
+**Roundness** is the capacity to surprise convincingly. One contradiction on a particular (cracked hands, uneaten mushroom, camera hoarding proof of a freedom feared) beats a page of backstory. Flat support is correct casting when the gag or note does relationship work without an arc ([將軍](/tsumugu/cast/general.html), adults held light).
 
 ## What to do with each mark
 
-A thin mark means the check needs deepening. An absent mark means the piece needs building. "Strong, but a duplicate" means a recast elsewhere, not more texture on this character.
+Thin → deepen that check. Absent → build the missing piece. "Strong, but duplicate type" → recast elsewhere, not more texture on this character.
 
-A cluster of thins on 4, 7, and 11 is texture, and texture is cheap to add. Absent on 3 or 6 means a structural rewrite. The arc-type check is readable only against the full cast, so a local pass on every other item does not excuse a duplicate type.
+If every check is present and the character still reads thin, the fault is prose. If the fix list is longer than the character's page count, cut checks to rank. Two leads with near-identical marks → ensemble fault on [[wiki/Story Craft/The Character Web|The Character Web]].
 
-## A worked example
+## Worked example: [星野遙香](/tsumugu/cast/hoshino-haruka.html)
 
-[星野遙香](/tsumugu/cast/hoshino-haruka.html) is the method example, read as it stood on the pass, not as a live scorecard. The felt symptom was "missing something I can't place."
+Symptom: "missing something I can't place." Historical pass, not a live scorecard.
 
-Wound was present: the dreaded Osaka OL future, the un-burdensome-daughter household. Lie was present: "The assigned life can be outrun." Want versus Need was present: Want was escape, visa hacks, another year, and Need was to be known and rooted. Voice was present: bright, quick, genki, Kansai; 欸／超／真的假的; vlog narration; drops flat when seen. Signature object was present: the camera she uses to collect proof of a freedom she fears losing.
+Present: Ghost (dreaded Osaka OL future), Lie ("the assigned life can be outrun"), Want vs Need (escape versus being known and rooted), voice (bright Kansai, 超/真的假的, camera), signature object.
 
-The then-diagnosis on type was disillusionment, and it marked **strong**. That label is historical. It is not re-asserted as current, and she is not typed here as the cast's only non-positive. Defining contradiction was thin: bright-over-dread carried by one beat, the camera. Plant-to-payoff was thin: the triggering beat was still optional. Home lesson was thin: the pivotal beat shared its scene with two other leads. Web edges were thin-to-absent: only [星野遙香](/tsumugu/cast/hoshino-haruka.html) ↔ [林薇](/tsumugu/cast/lin-wei.html) was built. Submerged backstory was absent.
+Thin then: defining contradiction (brightness over dread on one beat), plant-to-payoff (trigger optional), home lesson (pivotal beat shared), web edges (only foil to [林薇](/tsumugu/cast/lin-wei.html)).
 
-The pattern: the *arc* was strongest, and everything *around* the arc was thin. The felt thinness was not the arc failing. Both structural gaps closed in the authoring pass that followed, with a second axis and several new edges. The cast cards illustrate the people. They do not carry these marks.
+Pattern: strongest *arc*, thinnest *scaffolding*. Felt thinness was not arc failure. Subsequent pass added second axis and edges. Cast cards illustrate people; they do not carry these marks.
 
 ## Running the pass with an agent
 
-The checklist ports to a fresh agent as a prompt. The adversarial clause does real work: flattering labels are called into question. Everything invented is a labeled proposal.
-
-The prompt produces six things, against the project's canon files: (1) the eleven-check with on-page evidence; (2) three to four candidate additions; (3) six to ten shown-not-told texture beats; (4) three to four designed interactions; (5) submerged backstory, most of which never ships; (6) a revised outline. The checklist diagnoses the build and does not write the character. A character that passes all eleven can still be lifeless if the prose is flat.
-
-## When to run it, and when to stop
-
-The audit biases toward leads. A peripheral character is supposed to fail most checks. Audit depth matches rank. A full pass takes twenty to thirty minutes. That cost is worth paying on a character that feels off, or on a lead before lock. It is not a standing gate on the whole cast. A project-level pass of the same audit exists, and this page is the portable form.
-
-Quit signals:
-
-- Every check present and the character still thin. The problem is prose, not structure.
-- The fix list is longer than the character's page count. The pass is over-scoped, and checks cut to rank.
-- Two leads return near-identical marks. The fault is ensemble, and it belongs to [[wiki/Story Craft/The Character Web|The Character Web]].
-
-The pass itself can be checked. "Thin, can't place why" should return at least one **absent**. If every check is present, the symptom was misread. A second pass should move the worked marks up a grade. If the marks do not move, the additions were decoration.
+Port as a prompt with an adversarial clause (flattering labels get challenged; inventions labeled as proposals). Output: eleven-check with evidence; three to four candidate additions; six to ten show-not-tell texture beats; three to four designed interactions; submerged backstory; revised outline. The checklist does not write the character.
 
 ## How to practice this
 
-1. Run the eleven checks on one character, in order. Mark each one present, thin, or absent against evidence on the page. Notice where you stop.
-2. Read checks 6 and 10 against the whole cast. Notice whether the arc type duplicates the cast's dominant type.
-3. Sort the results by what each mark asks for. Notice whether the thins cluster on 4, 7, and 11, which is texture.
-4. If check 3 or check 6 comes back absent, plan a structural rewrite. Adding texture will not move those marks.
-5. Run the pass again after the additions. Notice whether the worked marks move up a grade. If they do not move, the additions were decoration.
-6. If every check is present and the character still reads thin, read the prose instead. The structure is not the fault there.
+1. Run the eleven checks in order. Stop at the first you cannot answer.
+2. Read checks 6 and 10 against the whole cast.
+3. Sort marks: thins on 4/7/11 → texture; absent on 3/6 → structure.
+4. Re-run after changes. Marks that do not move → decoration, not fix.
+5. Strip tags on one two-hander if check 5 is thin.
 
 ## Related pages
 
-- [[wiki/Story Craft/The Character Web|The Character Web]]: built edges; near-identical marks are an ensemble fault
-- [[wiki/Story Craft/Arc Types|Arc Types]]: type against the full cast; the usual "well-built but thin"
-- [[wiki/Story Craft/Round Characters and the Telling Detail|Round Characters and the Telling Detail]]: one contradiction, shown before named
-- [[wiki/Story Craft/Story Craft|Story Craft]]: the wing this checklist indexes
+- [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]]: Ghost, Lie, Want, Need
+- [[wiki/Story Craft/The Character Web|The Character Web]]: web edges and arc-type collisions
+- [[wiki/Story Craft/The Beat Board|The Beat Board]]: plants and scene shape
+- [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]]: what early books can say
+- [[wiki/Story Craft/Story Craft|Story Craft]]: hub for the wing
 
 ## Open questions
 
-Does the first appearance encode the shape later scenes vary? That candidate is on [[wiki/Story Craft/The Character Blueprint|The Character Blueprint]]. It is not a twelfth check here.
+Whether first entrance should encode the shape later scenes vary (blueprint idea) — candidate for a future check, not part of the eleven.
 
 ## Sources
 
-A house checklist. Craft citations are on the owner pages the checks link to.
+- House checklist (2026-07-09); integrated with craft citations on linked pages.
+- Robert McKee, *Dialogue*: Said / Unsaid / Unsayable; personal diction.
+- Sol Stein, *Stein on Writing*: differentiation checklist.
+- E. M. Forster, *Aspects of the Novel* (1927): flat versus round; surprise test.

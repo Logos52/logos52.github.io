@@ -42,7 +42,7 @@ Grok still writes bodies at volume. Unattended promote after five accepts filed 
 
 ## Banks and execution
 
-Grok 4.6 is the right spend where a check is cheap. A bank is a ledger, links, verdicts, and a gap list — the checker can see a missing target. A build is a compiler, a test, a diff. Extra reasoning helps there; [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Thinking Models]] is that dial. `xhigh` is on the card and cannot be switched to off, only down from the default high. Use it on hidden bugs and high-value diagnosis. Do not use it as a personality upgrade on a taste-bound opening.
+Grok 4.6 is the right spend where a check is cheap. A bank is a ledger, links, verdicts, and a gap list — the checker can see a missing target. A build is a compiler, a test, a diff. Extra reasoning helps there; [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Thinking Models]] is that dial. `xhigh` is on the card and cannot be switched to off, only down from the default high. Use it on hidden bugs and high-value diagnosis. Do not use it as a personality upgrade on a taste-bound opening.
 
 The steelman for "put 4.6 on everything": same-price jump from 4.5, cheaper loops than Opus, already the Build default, Fable is $10 / $50. The condition that would flip the stack is written: a week of this desk's long knowledge-work loops and hard SWE where 4.6 beats Opus 5, plus Fable's trust premium dying on the pages that currently stay in Cowork. Day-one benches and a regen mill that needed Fable/Opus for the doors are not that week.
 

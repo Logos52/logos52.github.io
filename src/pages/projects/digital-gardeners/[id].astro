@@ -1,0 +1,42 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/gardeners-page.css';
+import catalog from '../../../data/digital-gardeners.json';
+
+export function getStaticPaths() {
+  return catalog.map((p) => ({ params: { id: p.id }, props: { person: p } }));
+}
+
+const { person } = Astro.props;
+---
+
+<Base title={person.name} description={`Notable design features — ${person.name}.`} active="projects">
+  <main class="gardeners-page gardeners-detail">
+    <div class="wrap">
+      <p class="crumb">
+        <a href="/projects/">Projects</a> · <a href="/projects/digital-gardeners/">Notable design features</a>
+      </p>
+      <h1>{person.name}</h1>
+      <p class="gardeners-detail__url">
+        {person.urls.map((u, i) => (
+          <>
+            {i > 0 && ' · '}
+            <a href={u} rel="noopener noreferrer">
+              {u}
+            </a>
+          </>
+        ))}
+      </p>
+      {person.observations.map((o) => (
+        <section class="gardeners-obs">
+          <h2>{o.url}</h2>
+          <p class="gardeners-obs__meta">{o.lane}{o.who ? ` · ${o.who}` : ''}</p>
+          <dl>
+            <dt>Notable design features</dt>
+            <dd>{o.notableDesignFeatures}</dd>
+          </dl>
+        </section>
+      ))}
+    </div>
+  </main>
+</Base>
