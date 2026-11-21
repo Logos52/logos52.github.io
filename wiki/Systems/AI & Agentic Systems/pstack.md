@@ -110,9 +110,9 @@ If an agent still cannot open the harvest reader without you, the plugin was the
 ## Related pages
 
 - [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]: the app you would install this plugin into if the helper should keep running after the laptop closes
-- [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]]: the September 2026 event where this plugin showed up in public; not a reason to install
+- [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Grok Bot Galaxy]]: the September 2026 event where this plugin showed up in public; not a reason to install
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the standard this plugin packages as slash commands
-- [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]: why a CLI the agent can rerun beats a paragraph of clicks
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agent-Native Infrastructure]]: why a CLI the agent can rerun beats a paragraph of clicks
 
 ## Open questions
 

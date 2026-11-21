@@ -45,4 +45,4 @@ How many options am I still weighing even though I already know I would not take
 - [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]: judging a choice by the position it leaves you in, once the pile has been narrowed.
 - [[wiki/Decision Making/Changing Decisions|Changing Decisions]]: revisiting a choice after new information arrives.
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]: the time that disappears while a pile of options sits undecided.
-- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: another way to test whether a path fits the constraints you will actually accept.
+- [[wiki/Planning and Automation|Reverse Goal Setting]]: another way to test whether a path fits the constraints you will actually accept.

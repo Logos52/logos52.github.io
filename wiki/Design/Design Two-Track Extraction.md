@@ -72,7 +72,7 @@ Extract as prose first. Once the wording is stable, check what already-consumed 
 
 Track notes stay UI-scoped. The [[wiki/Design/Universal Principles & Design Techniques — Master Scorecard|Master Scorecard]] later ingested all 200 unique names from the principles book, plus 50 from the visual-craft extract, for 250 graded items. Both decisions stand: the narrower scope of the track notes and the wider scope of the scorecard. Unstaged sources, including the CJK thread, live on the [[wiki/Design/Design Expansion — Reading & Resources|reading list]].
 
-The [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] is the scoring model behind the scorecard. [[wiki/Design/Front-End Web Design|Front-End Web Design]] and [[wiki/Design/Design, Condensed|Design, Condensed]] are related pages. Neither is an extraction target.
+The [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Human vs AI Capability Lens]] is the scoring model behind the scorecard. [[wiki/Design/Front-End Web Design|Front-End Web Design]] and [[wiki/Design/Design, Condensed|Design, Condensed]] are related pages. Neither is an extraction target.
 
 ## Where the test goes wrong, and when to stop
 
@@ -92,7 +92,7 @@ The test over-sorts toward the Agent Track when "deterministic" is read as "a pr
 - [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track — Taste & Judgment Catalog]]: the judgment product of this process.
 - [[wiki/Design/Design Expansion — Reading & Resources|Design Expansion — Reading & Resources]]: unstaged sources and the CJK thread.
 - [[wiki/Design/Universal Principles & Design Techniques — Master Scorecard|Master Scorecard]]: all 250 items graded on the lens. It does not cover the extraction method.
-- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: the H × AI scoring model and the four zones.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Human vs AI Capability Lens]]: the H × AI scoring model and the four zones.
 - [[wiki/Design/Front-End Web Design|Front-End Web Design]]: Norman mapped onto web UI and the tsumugu surfaces. A related page, not used as a source.
 - [[wiki/Design/Design, Condensed|Design, Condensed]]: doctrine compression of Norman. A related page, not used as a source.
 

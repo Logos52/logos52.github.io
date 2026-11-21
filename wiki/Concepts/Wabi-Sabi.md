@@ -19,7 +19,7 @@ tags:
 
 Wabi-sabi is an aesthetic stance. It finds beauty in naturalness, simplicity, and subtle imperfection. The imperfection it values comes from age, from wear, and from work left unfinished. Industrial gloss is its opposite.
 
-In this vault, wabi-sabi is a taste call on the Human track of the [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]. The Human track is the half of that lens that scores what a person still has to own. Wabi-sabi is not a learning technique.
+In this vault, wabi-sabi is a taste call on the Human track of the [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Human vs AI Capability Lens]]. The Human track is the half of that lens that scores what a person still has to own. Wabi-sabi is not a learning technique.
 
 ## Core takeaways
 
@@ -53,7 +53,7 @@ Wabi-sabi has a page of its own so the lens can link a named Human-5 standout. T
 
 - [[wiki/Design/Universal Principles & Design Techniques — Master Scorecard|Universal Principles scorecard]]: the scored row and the one-line gloss this page restates.
 - [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track catalog]]: places wabi-sabi next to gloss bias and contour bias as a taste call, not a technique.
-- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: why this seed exists, a Human-5 standout that needed a named page so the lens can link it.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Human vs AI Capability Lens]]: why this seed exists, a Human-5 standout that needed a named page so the lens can link it.
 
 ## Sources
 

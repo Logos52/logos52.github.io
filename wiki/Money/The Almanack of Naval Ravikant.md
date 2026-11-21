@@ -110,5 +110,5 @@ All returns in life, whether in money, relationships or knowledge, come from com
 
 - [[wiki/Money/Investing and Budgeting Mindsets|Investing and Budgeting Mindsets]]: the money hub.
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]: language models as the newest tool for leverage.
-- [[wiki/Concepts/A Return to Code|A Return to Code]]: code as leverage that needs no permission.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|A Return to Code]]: code as leverage that needs no permission.
 - [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: why upside can grow much faster than effort when payoffs follow a power law.

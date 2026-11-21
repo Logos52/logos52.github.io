@@ -83,4 +83,4 @@ The four steps take practice. They are not a switch you flip once. Anyone can le
 ## Related pages
 
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the dimension this method sits in.
-- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: choosing what to work on, once you can start without waiting to feel ready.
+- [[wiki/Planning and Automation|Reverse Goal Setting]]: choosing what to work on, once you can start without waiting to feel ready.

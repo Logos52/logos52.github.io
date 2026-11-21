@@ -87,7 +87,7 @@ The method fails when practice is repetition without reflection, so old errors k
 - [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: spreading early load across sessions.
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]: the difference between coverage and learning.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: managing effort and habits.
-- [[wiki/Syntheses/The 30-Day Plan|The 30-Day Plan]]: setting the practice-to-theory balance in a plan.
+- [[wiki/Planning and Automation|The 30-Day Plan]]: setting the practice-to-theory balance in a plan.
 
 ## Open questions
 

@@ -66,7 +66,7 @@ The techniques fall into a few families, sorted by which part of learning each o
 
 A new learning project starts better when new information has somewhere to land. [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] is work done ahead of a main learning event, for example a class or lecture, and it builds a rough outline that makes later detail easier to retain.
 
-The [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] then turn the dimensions into practice, with one four-week track for each trainable part of learning, and each week asks a little more than the last.
+The [[wiki/Planning and Automation|30-Day Challenges]] then turn the dimensions into practice, with one four-week track for each trainable part of learning, and each week asks a little more than the last.
 
 ## Philosophy
 

@@ -95,4 +95,4 @@ If the large spoils arrived tomorrow, would I know the difference between a smal
 - [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: persuasion only if it connects to real building.
 - [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]: a live obsession against a passing interest.
 - [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: power-law upside against fights over a small split.
-- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: do not accept goals that require bad long-term constraints.
+- [[wiki/Planning and Automation|Reverse Goal Setting]]: do not accept goals that require bad long-term constraints.

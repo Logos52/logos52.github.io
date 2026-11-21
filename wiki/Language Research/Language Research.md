@@ -41,7 +41,7 @@ The research covers one process from two directions. The Transliteration Into Ch
 
 Immersion is the core activity, and it rests on three pillars, with tools that make the time usable.
 
-- [[wiki/Language/Refold Language Learning System|Refold Language Learning System]]: a course in two phases, first fundamentals and then reading plus listening, which balances three pillars and treats time in the language as the core of progress. [[wiki/Syntheses/ICS System|ICS System]] is the general learning system this wiki is organised around.
+- [[wiki/Language/Refold Language Learning System|Refold Language Learning System]]: a course in two phases, first fundamentals and then reading plus listening, which balances three pillars and treats time in the language as the core of progress. [[wiki/Planning and Automation|ICS System]] is the general learning system this wiki is organised around.
 - [[wiki/Language/Three Pillars of Language Learning|Three Pillars of Language Learning]]: preparation, interactive immersion and freeflow, which have to be balanced for progress.
 - [[wiki/Language/Preparation|Preparation]]: a short orientation to the sounds, words, characters, grammar and tools of a language, done so the next stretch of immersion becomes noticeable.
 - [[wiki/Language/Interactive Immersion|Interactive Immersion]]: a family of activities that use tools to go deeper into input, including the noticing game, sentence mining, intensive listening and transcription.

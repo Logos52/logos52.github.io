@@ -15,7 +15,7 @@ tags:
 
 **Verdict.** For controlled-vocabulary authoring behind a fail-closed gate — the tsumugu-ed and tsumugu-core content lanes — Sonnet 5 is the default author; Opus 4.8 stays the orchestrator and the fallback for calls the gate can't check. Same job, 0.6× the price (0.4× on Sonnet 5's intro rate through 2026-08-31), near-identical measured gate outcomes. Raw reasoning ceiling still favors Opus; deployable capability-per-dollar favors Sonnet 5.
 
-This settles the aside from the companion-readings run (which used exactly this split) and updates the model snapshot in [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] (Sonnet 5 replaces Sonnet 4.6 in the penta).
+This settles the aside from the companion-readings run (which used exactly this split) and updates the model snapshot in [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Human vs AI Capability Lens]] (Sonnet 5 replaces Sonnet 4.6 in the penta).
 
 ## What "usable" means here
 
@@ -48,4 +48,4 @@ When a lane's bar moves to what the gate can't verify — subtle naturalness, cr
 
 ## Links
 
-- [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] — updated: Sonnet 5 in the table + penta card, new "Usable intelligence — Sonnet 5 vs Opus 4.8" section.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Human vs AI Capability Lens]] — updated: Sonnet 5 in the table + penta card, new "Usable intelligence — Sonnet 5 vs Opus 4.8" section.

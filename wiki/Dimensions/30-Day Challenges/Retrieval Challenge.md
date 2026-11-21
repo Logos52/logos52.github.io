@@ -34,7 +34,7 @@ Every week uses the same closed-book attempt. What changes is the demand placed 
 
 [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] is the standing method this month trains: retrieval spread over time and mixed across topics and forms. That page describes the full system. This challenge covers only the four weeks of closed-book practice.
 
-This challenge is one of the five tracks under [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]. The wider dimension, beyond this month's practice, is [[wiki/Dimensions/Retrieval|Retrieval]].
+This challenge is one of the five tracks under [[wiki/Planning and Automation|30-Day Challenges]]. The wider dimension, beyond this month's practice, is [[wiki/Dimensions/Retrieval|Retrieval]].
 
 ## Week 1: closed-book recall
 

@@ -1,20 +1,9 @@
-import { existsSync, readFileSync } from 'node:fs';
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import pagefind from 'astro-pagefind';
 import { remarkWikilinks } from './src/lib/wikilinks';
 import { rehypeFoldRelated } from './src/lib/fold-related';
-
-function loadRedirects(): Record<string, string> {
-  const path = 'kb-astro/site-data/redirects.json';
-  if (!existsSync(path)) return {};
-  try {
-    const items = JSON.parse(readFileSync(path, 'utf8')) as { from: string; to: string }[];
-    return Object.fromEntries(items.map(({ from, to }) => [from, to]));
-  } catch {
-    return {};
-  }
-}
+import { loadAllRedirects } from './src/redirects/load-redirects.mjs';
 
 // Logos52 knowledge base — re-platformed from Quartz to Astro.
 // - GitHub Pages user site → site root is https://logos52.github.io/, no base path.
@@ -24,7 +13,7 @@ export default defineConfig({
   site: 'https://logos52.github.io',
   trailingSlash: 'ignore',
   build: { format: 'directory' },
-  redirects: loadRedirects(),
+  redirects: loadAllRedirects(),
   integrations: [sitemap(), pagefind()],
   vite: {
     plugins: [

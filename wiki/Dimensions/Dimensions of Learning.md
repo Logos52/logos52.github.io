@@ -95,12 +95,12 @@ The model is a diagnostic tool. A learner looks for the dimension that sets the 
 
 ## Related pages
 
-- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]: one practice track per dimension.
+- [[wiki/Planning and Automation|30-Day Challenges]]: one practice track per dimension.
 - [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]: strong processing that hides weak technique.
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]]: the awareness self-regulation runs on.
 - [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]: the two mindsets in detail.
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: the core retrieval practice.
-- [[wiki/Syntheses/ICS System|ICS System]]: the program these dimensions come from.
+- [[wiki/Planning and Automation|ICS System]]: the program these dimensions come from.
 
 ## Sources
 

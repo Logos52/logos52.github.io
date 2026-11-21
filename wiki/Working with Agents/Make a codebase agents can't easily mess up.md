@@ -1,6 +1,6 @@
 ---
 title: "Make a codebase agents can't easily mess up"
-type: guide
+type: practice
 section: "Working with Agents"
 status: seed
 description: "Arrange your code and tools so the easy path for an agent is the right one: keep the codebase worth copying, give each pattern one paved path, enforce boundaries in code, and give agents tools instead of letting them improvise."
@@ -117,7 +117,7 @@ A codebase that agents can't easily mess up is one where copying what is already
 
 - [[wiki/Working with Agents/Turn a repeated correction into a permanent fix|Turn a repeated correction into a permanent fix]] covers where a single correction belongs, from code to lint rule to skill.
 - [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]] covers the verification tool and the feature map.
-- [[wiki/Working with Agents/Trust agents more over time|Trust agents more over time]] covers why a locked-down codebase lets you run more agents.
+- [[wiki/Working with Agents/Give an agent a task without micromanaging it|Trust agents more over time]] covers why a locked-down codebase lets you run more agents.
 
 ## Sources
 

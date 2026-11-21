@@ -36,7 +36,7 @@ Keeping the three apart is what makes the labels useful. When a technique you un
 
 **Procedural knowledge** means automatic. Driving, native-sounding pronunciation, and fluent code are examples. The execution is so practised that it runs without thinking about the steps. The everyday name for this is muscle memory. It is not "knowing how" in the everyday sense. Taking disease facts, picking a diagnosis, and writing a plan is still choosing, reasoning, and ordering steps on purpose. That whole stretch is declarative. Procedure begins only where conscious control ends. This is where this vault draws the line. The research field does not draw it in the same place.
 
-The automatic kind develops slowly, and only through doing. Once it is in place, the declarative scaffolding underneath it can fade. The usual example is a fluent speaker who cannot state the adjective-order rule. The production runs, and the verbal access is gone. [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]] explains why: the skill has left the deliberate workspace. [[Knowledge Mastery - From Recognition to Usable Knowledge]] grades the declarative side of the same split. The levels stay on that page.
+The automatic kind develops slowly, and only through doing. Once it is in place, the declarative scaffolding underneath it can fade. The usual example is a fluent speaker who cannot state the adjective-order rule. The production runs, and the verbal access is gone. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Global Workspace and J-space]] explains why: the skill has left the deliberate workspace. [[Knowledge Mastery - From Recognition to Usable Knowledge]] grades the declarative side of the same split. The levels stay on that page.
 
 **Conditional knowledge** is knowing when and why to use what is already held. This vault treats it as a subset of declarative, because the when and why can be explained on demand. Scholars do not agree that it is a separate type. Strategy-instruction research treats the when-layer as something to teach explicitly. This vault's stance is different and narrower. Building declarative and procedural knowledge across varied contexts, challenge types, and time pressures produces the when-layer as a by-product. It grows when context is changed on purpose. It does not grow by waiting.
 
@@ -93,7 +93,7 @@ The three types are used before the next hour of practice. An hour that can stil
 - [[Knowledge Mastery - From Recognition to Usable Knowledge]]: grades the declarative side
 - [[Rapid Skill Acquisition]]: theory-to-practice pacing: working understanding, then the attempt
 - [[Kolbs Experiential Cycle]]: the try–reflect–refine loop: what happened, how it felt and why, what rule that suggests, what changes next time
-- [[wiki/Concepts/Global Workspace and J-space|Global Workspace and J-space]]: why proceduralized skill resists verbal report: it left the workspace
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Global Workspace and J-space]]: why proceduralized skill resists verbal report: it left the workspace
 
 ## Open questions
 

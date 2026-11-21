@@ -10,6 +10,11 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-11-22] compile | Working well with AI wiki cut
+
+- Door cut: 18 kept, 28 merged into six targets, 5 unpublished research banks moved to `archive/unpublished/`.
+- Added `wiki/Planning and Automation.md` and `src/redirects/doors/ai.json` (28 redirects); shared loader `src/redirects/load-redirects.mjs`.
+
 ## [2026-11-19] maintenance | Index backlinks and the blog redirect
 
 - Backlinks use the public folder URL, so `notes/index`, `journal/index`, and `personal/index` point at `/notes/`, `/journal/`, and `/personal/`.
