@@ -460,7 +460,7 @@ Not every run ends that cleanly. Another run starts with a pattern of choosing p
 - [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]] gives five checks a person runs on their own thinking before speaking. The why method here is the same kind of check, run on a reaction instead of on a sentence.
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] gives thinking about thinking as the layer that lets a technique's effect be seen. The nine levels are that layer taken one step back at a time.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] is the learning capacity the nine levels train, noticing what is happening in your own head and adjusting it.
-- [[wiki/Dimensions/Mindset/Confidence Calibration|Confidence Calibration]] gives how sure to be, given the evidence. The why method's last question, how do you know, is the same check.
+- [[wiki/Dimensions/Mindset|Confidence Calibration]] gives how sure to be, given the evidence. The why method's last question, how do you know, is the same check.
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]] gives naming the frame as the first check on a claim. Step six, seeing that who is looking changes what is seen, is where that check comes from.
 
 ## Open questions

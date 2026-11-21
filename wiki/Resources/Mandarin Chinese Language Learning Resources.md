@@ -173,7 +173,7 @@ A catalog only helps if a handful of rows become habits. Picking resources can q
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: where an optional deck fits
 - [[wiki/Planning and Automation|30-Day Challenges]]: fixed-length practice plans
 - [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]]: the head start a Vietnamese speaker brings to Mandarin
-- [[wiki/Language/Character Primer|Character Primer]]: how character scripts work
-- [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]]: ways to make native content easier to follow
-- [[wiki/Language/YouTube Immersion Account|YouTube Immersion Account]]: training the feed to suggest Mandarin
-- [[wiki/Language/Noticing Game|Noticing Game]]: a small goal for input that is still too hard
+- [[wiki/Language/Chinese/How Chinese Characters Work|Character Primer]]: how character scripts work
+- [[wiki/Language/Refold Language Learning System|Hacking Comprehension Menu]]: ways to make native content easier to follow
+- [[wiki/Language/Refold Language Learning System|YouTube Immersion Account]]: training the feed to suggest Mandarin
+- [[wiki/Language/Refold Language Learning System|Noticing Game]]: a small goal for input that is still too hard

@@ -76,7 +76,7 @@ The old claim has two parts that deserve separate verdicts. That repetition accu
 ## Related pages
 
 - [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]]: the companion distinction, which self the voice serves. The mapping between self-talk patterns and the two egos is a separate topic.
-- [[wiki/Dimensions/Mindset/Mindset, Condensed|Mindset, Condensed]]: the vault's standing doctrine, where defusion already does the daily work.
+- [[wiki/Dimensions/Mindset|Mindset, Condensed]]: the vault's standing doctrine, where defusion already does the daily work.
 
 ## Sources
 

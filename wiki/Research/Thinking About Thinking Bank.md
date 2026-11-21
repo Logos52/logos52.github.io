@@ -29,9 +29,9 @@ The way up is to think about your own thinking. Sit with a thought or a feeling 
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]]. M1 to M4 as a section: the why chain and the three lies, the plainest form of the control layer in the vault.
 - [[wiki/Concepts/Catching the Inner Voice|Catching the Inner Voice]]. M3, the three lies, as lines to catch; M5, "I am hungry, not I am hunger," as the catching move applied to opinions.
 - [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming]]. M8, where every thought starts and how a screen runs the chain for you.
-- [[wiki/Dimensions/Mindset/Confidence Calibration|Confidence Calibration]]. M9's last question, how do I know, and A7 from the levels bank, feeling it once is not living there.
+- [[wiki/Dimensions/Mindset|Confidence Calibration]]. M9's last question, how do I know, and A7 from the levels bank, feeling it once is not living there.
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]]. M6, the hat, as naming the frame in the moment.
-- [[wiki/Dimensions/Mindset/Locus of Control|Locus of Control]]. M7, the impulse loop, as the act that produces the result.
+- [[wiki/Dimensions/Mindset|Locus of Control]]. M7, the impulse loop, as the act that produces the result.
 - [[wiki/Decision Making/Decision Making|Decision Making]]. M7, imagine living out the choice before making it.
 - [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]]. M1 is the same check as saying the conclusion first, run on a reaction. Link only.
 

@@ -103,7 +103,7 @@ Two checks test the design. Three weeks in, a skipped day should produce a speci
 
 ## Where push tools still belong
 
-Push tools stay for domains where nothing accumulates, and for cold starts inside domains that have been converted to pull. [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|DFUZ]] is a one-session move that unhooks the person from the feeling of not wanting to start, so a stalled practice can restart. It is used only as a reserve, not every day. The cost of the frame is design work. The first live conversion is [[wiki/Fitness/Movement as Accretion|Movement as Accretion]]. [[wiki/Fitness/The Treadmill Library|The Treadmill Library]] is the listening arm of that conversion. The working name for a movement practice that never uses the motivation machinery is motivationless movement. It is a working name only.
+Push tools stay for domains where nothing accumulates, and for cold starts inside domains that have been converted to pull. [[wiki/Dimensions/Self-Regulation|DFUZ]] is a one-session move that unhooks the person from the feeling of not wanting to start, so a stalled practice can restart. It is used only as a reserve, not every day. The cost of the frame is design work. The first live conversion is [[wiki/Fitness/Movement as Accretion|Movement as Accretion]]. [[wiki/Fitness/The Treadmill Library|The Treadmill Library]] is the listening arm of that conversion. The working name for a movement practice that never uses the motivation machinery is motivationless movement. It is a working name only.
 
 Wanting to return still comes from structure. The structure has to include how the session feels, and it has to leave rest unpunished. The design removes the effort of showing up. The effort of doing the work stays.
 
@@ -120,7 +120,7 @@ Wanting to return still comes from structure. The structure has to include how t
 
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: push-engine tools this frame is designed not to use daily
 - [[wiki/Dimensions/Self-Management|Self-Management]]: the other half of the push toolkit
-- [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|DFUZ]]: reserve move for a cold start, never the daily motor
+- [[wiki/Dimensions/Self-Regulation|DFUZ]]: reserve move for a cold start, never the daily motor
 - [[wiki/Fitness/Movement as Accretion|Movement as Accretion]]: the first live conversion of this frame
 - [[wiki/Fitness/The Treadmill Library|The Treadmill Library]]: the listening arm of that conversion
 - [[wiki/Fitness/Fitness Mindsets|Fitness Mindsets]]: rules for keeping training and eating going for years, such as saying no and fixed time slots. It tracks the body for a few weeks, while this frame keeps the body untracked.

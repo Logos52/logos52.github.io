@@ -46,8 +46,8 @@ Supporting pages already on the site: [林薇](/tsumugu/cast/lin-wei.html), [蘇
 - [[wiki/Story Craft/Arc Types|Arc Types]]: five shapes on one shared structure, with the last choice at the crux picking the shape
 - [[wiki/Story Craft/Story Craft|Story Craft]]: the whole craft section
 - [[wiki/Language/The Han-Viet Bridge|The Han-Viet Bridge]]: using readings a Vietnamese speaker already has as an entry into Chinese characters
-- [[wiki/Language/Reading stories pitched at your vocabulary|Reading stories pitched at your vocabulary]]: daily stories built from the words a learner already knows, plus a few new ones
-- [[wiki/Learning Craft/Let code keep the score in an AI tutor|Let code keep the score in an AI tutor]]: the model teaches, and plain code decides what counts as learnt
+- [[wiki/Language/Refold Language Learning System|Reading stories pitched at your vocabulary]]: daily stories built from the words a learner already knows, plus a few new ones
+- [[wiki/Learning Craft/Don't Outsource the Learning|Let code keep the score in an AI tutor]]: the model teaches, and plain code decides what counts as learnt
 - [[projects/tsumugu|Tsumugu]]: build, stack, and current status
 - [[projects/tsumugu-ed|Tsumugu Ed]]: a dictionary whose entries start from a character's form and structure, followed by stories
 - [[journal/2026-06-04-tsumugu|The build log]]: the early engine and reader phases

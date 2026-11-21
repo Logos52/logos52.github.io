@@ -827,7 +827,7 @@ Many distributions arise from one another through simple modifications. The expo
 - [[wiki/Worldviews & the Political Order/Per Capita|Per Capita]] gives the division that turns a raw count into a rate. That division comes before any count here gets its distribution read.
 - [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]] gives what an average over many repeats is worth to a decision when any single result can fail.
 - [[wiki/Decision Making/Expectancy in Wicked Environments|Expectancy in Wicked Environments]] gives a way to weigh chance times size when nobody posts the odds. The chance in that weighing is what a distribution here supplies.
-- [[wiki/Dimensions/Mindset/Confidence Calibration|Confidence Calibration]] gives two checks on whether a certainty of yours deserves the weight you put on it. The beta here asks the same question with counted yeses and noes.
+- [[wiki/Dimensions/Mindset|Confidence Calibration]] gives two checks on whether a certainty of yours deserves the weight you put on it. The beta here asks the same question with counted yeses and noes.
 
 ## Open questions
 

@@ -46,7 +46,7 @@ A handful of correspondences are reliable enough to predict the Mandarin reading
 
 ## The entering-tone flag
 
-The most useful tone fact concerns the characters whose Mandarin tone cannot be derived. A sắc or nặng tone on a stop-final syllable (-p/-t/-c/-ch) marks an old "entering-tone" character. Those are exactly the characters whose Mandarin tone changed with no pattern. The Hán-Việt reading does not give the Mandarin tone there. It marks the word as one to memorize rather than derive. That flag is itself a retrieval cue. It sorts characters into "rule applies" and "store by hand", and that is the sort the brain needs in any case (the fence principle in [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]). The same sound-family reasoning runs inside a single language in [[wiki/Language/Chinese/Sound Series|Sound Series]] and [[wiki/Language/Chinese/Sound Components|Sound Components]]. The bridge is the sound attribute of [[wiki/Language/Chinese/Three Attributes of a Character|a character]] extended across Vietnamese and Mandarin.
+The most useful tone fact concerns the characters whose Mandarin tone cannot be derived. A sắc or nặng tone on a stop-final syllable (-p/-t/-c/-ch) marks an old "entering-tone" character. Those are exactly the characters whose Mandarin tone changed with no pattern. The Hán-Việt reading does not give the Mandarin tone there. It marks the word as one to memorize rather than derive. That flag is itself a retrieval cue. It sorts characters into "rule applies" and "store by hand", and that is the sort the brain needs in any case (the fence principle in [[wiki/Dimensions/Retrieval|Rules of Effective Memorization]]). The same sound-family reasoning runs inside a single language in [[wiki/Language/Chinese/How Chinese Characters Work|Sound Series]] and [[wiki/Language/Chinese/How Chinese Characters Work|Sound Components]]. The bridge is the sound attribute of [[wiki/Language/Chinese/How Chinese Characters Work|a character]] extended across Vietnamese and Mandarin.
 
 ## Characters with two Vietnamese words
 
@@ -86,11 +86,11 @@ You should be able to recover the meaning of a new two-character Sino-Vietnamese
 ## Related pages
 
 - [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]: the form/sound/meaning hub that the bridge extends across languages.
-- [[wiki/Language/Chinese/Sound Series|Sound Series]]: declared sound-family relatedness within Chinese; the in-glyph analogue of the cross-language bridge.
-- [[wiki/Language/Chinese/The IME Method|The IME Method]]: guided-guessing recall that a Hán-Việt sound clue can feed.
-- [[wiki/Language/Character Primer|Character Primer]] · [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]]
-- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]: the fence principle and the derive-rather-than-store rule that the entering-tone flag applies.
-- [[wiki/Concepts/Memory Handling|Memory Handling]] · [[wiki/Concepts/Declarative, Procedural, and Conditional Knowledge|Declarative, Procedural, and Conditional Knowledge]]
+- [[wiki/Language/Chinese/How Chinese Characters Work|Sound Series]]: declared sound-family relatedness within Chinese; the in-glyph analogue of the cross-language bridge.
+- [[wiki/Language/Chinese/How Chinese Characters Work|The IME Method]]: guided-guessing recall that a Hán-Việt sound clue can feed.
+- [[wiki/Language/Chinese/How Chinese Characters Work|Character Primer]] · [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Grammar Primer]]
+- [[wiki/Dimensions/Retrieval|Rules of Effective Memorization]]: the fence principle and the derive-rather-than-store rule that the entering-tone flag applies.
+- [[wiki/Concepts/Memory Handling|Memory Handling]] · [[wiki/Dimensions/Dimensions of Learning|Declarative, Procedural, and Conditional Knowledge]]
 - [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]] · [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]]
 
 ## Sources

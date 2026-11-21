@@ -73,7 +73,7 @@ A good calendar cannot rescue poor choices about what goes on it. Gut feeling is
 
 ## What these practices are for
 
-Scheduling and attention create the conditions that study and deep work need, so they belong to [[wiki/Dimensions/Self-Management|Self-Management]]. They only set aside the time. The learning methods that fill it live under [[wiki/Techniques/Techniques - Learning Craft|Techniques - Learning Craft]]. The test of the whole cluster is an ordinary day, not a good one.
+Scheduling and attention create the conditions that study and deep work need, so they belong to [[wiki/Dimensions/Self-Management|Self-Management]]. They only set aside the time. The learning methods that fill it live under [[wiki/Dimensions/Dimensions of Learning|Techniques - Learning Craft]]. The test of the whole cluster is an ordinary day, not a good one.
 
 ## Open questions
 

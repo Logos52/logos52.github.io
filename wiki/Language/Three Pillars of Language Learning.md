@@ -35,8 +35,8 @@ The session that introduces the three pillars keeps the other daily work running
 
 ## Related pages
 
-- [[wiki/Language/Interactive Immersion|Interactive Immersion]]: the second pillar, defined as a category of tool-using activities.
-- [[wiki/Language/Freeflow Immersion|Freeflow Immersion]]: the third pillar, watching without lookups or rewinding.
-- [[wiki/Language/Attention is Important|Attention is Important]]: the high-attention requirement that runs through time in the language.
-- [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]]: priming is also listed there as a way to raise comprehension during immersion.
-- [[wiki/Language/Refold Grammar Primers|Refold Grammar Primers]]: one form of learning about the language that belongs under preparation.
+- [[wiki/Language/Refold Language Learning System|Interactive Immersion]]: the second pillar, defined as a category of tool-using activities.
+- [[wiki/Language/Refold Language Learning System|Freeflow Immersion]]: the third pillar, watching without lookups or rewinding.
+- [[wiki/Language/Refold Language Learning System|Attention is Important]]: the high-attention requirement that runs through time in the language.
+- [[wiki/Language/Refold Language Learning System|Hacking Comprehension Menu]]: priming is also listed there as a way to raise comprehension during immersion.
+- [[wiki/Language/Refold Language Learning System|Refold Grammar Primers]]: one form of learning about the language that belongs under preparation.

@@ -63,6 +63,6 @@ Because self-management skills are interrelated, how these variables affect your
 ## Related pages
 
 - [[wiki/Dimensions/Self-Management|Self-Management]]: the dimension this challenge trains.
-- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]]: another four-week practice in the same set.
-- [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset Challenge]]: nearby work on turning mistakes into experiments.
+- [[wiki/Dimensions/Deep Processing|Deep Processing Challenge]]: another four-week practice in the same set.
+- [[wiki/Dimensions/Mindset|Mindset Challenge]]: nearby work on turning mistakes into experiments.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: nearby work on watching what your methods actually do.
