@@ -10,31 +10,36 @@ const agentsApostrophe = slugifyFilePath(
   "wiki/Working with Agents/Make a codebase agents can't easily mess up.md",
 );
 
-test('a Working with Agents slug resolves to agentic', () => {
+test('a Working with Agents slug resolves to ai', () => {
   assert.equal(agentsPage, 'wiki/Working-with-Agents/Give-an-agent-a-task-without-micromanaging-it');
-  assert.equal(resolveDomain(agentsPage), 'agentic');
-  assert.equal(resolveDomain(agentsApostrophe), 'agentic');
+  assert.equal(resolveDomain(agentsPage), 'ai');
+  assert.equal(resolveDomain(agentsApostrophe), 'ai');
 });
 
 test('an explicit domain wins over the Working with Agents folder', () => {
-  assert.equal(resolveDomain(agentsPage, 'language'), 'language');
-  assert.equal(resolveDomain(agentsPage, 'gen'), 'gen');
+  assert.equal(resolveDomain(agentsPage, 'world'), 'world');
+  assert.equal(resolveDomain(agentsPage, 'craft'), 'craft');
+});
+
+test('legacy frontmatter domains map forward', () => {
+  assert.equal(resolveDomain(agentsPage, 'agentic'), 'ai');
+  assert.equal(resolveDomain(agentsPage, 'gen'), 'craft');
 });
 
 test('a non-domain explicit value falls through to the folder', () => {
-  assert.equal(resolveDomain(agentsPage, 'not-a-domain'), 'agentic');
-  assert.equal(resolveDomain(agentsPage, ''), 'agentic');
-  assert.equal(resolveDomain(agentsPage, 3), 'agentic');
+  assert.equal(resolveDomain(agentsPage, 'not-a-domain'), 'ai');
+  assert.equal(resolveDomain(agentsPage, ''), 'ai');
+  assert.equal(resolveDomain(agentsPage, 3), 'ai');
 });
 
 test('the unslugified folder path does not match the slug prefix', () => {
-  assert.equal(resolveDomain('wiki/Working with Agents/example'), 'gen');
+  assert.equal(resolveDomain('wiki/Working with Agents/example'), 'craft');
 });
 
 test('other folder fallbacks stay in place', () => {
-  assert.equal(resolveDomain(slugifyFilePath('wiki/Systems/example.md')), 'agentic');
-  assert.equal(resolveDomain(slugifyFilePath('wiki/Language/example.md')), 'language');
-  assert.equal(resolveDomain(slugifyFilePath('wiki/Money/example.md')), 'gen');
-  assert.equal(resolveDomain(slugifyFilePath('wiki/Decision Making/example.md')), 'mind');
-  assert.equal(resolveDomain('notes/example'), 'gen');
+  assert.equal(resolveDomain(slugifyFilePath('wiki/Systems/example.md')), 'ai');
+  assert.equal(resolveDomain(slugifyFilePath('wiki/Language/example.md')), 'world');
+  assert.equal(resolveDomain(slugifyFilePath('wiki/Money/example.md')), 'craft');
+  assert.equal(resolveDomain(slugifyFilePath('wiki/Decision Making/example.md')), 'world');
+  assert.equal(resolveDomain('notes/example'), 'craft');
 });

@@ -1,12 +1,9 @@
 ---
 /**
- * domains/[domain].astro — per-domain Map of Content. Journal-style spread: the page list on the
- * left (2/3) and the domain's sub-graph as a vertical constellation on the right (1/3). Reached by
- * clicking a legend chip on the home graph.
+ * domains/[domain].astro — per-domain index (list only; the graph lives on /map/).
  */
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import Constellation from '../../components/Constellation.astro';
 import { deriveTitle, deriveSummary } from '../../lib/note';
 import { resolveDomain } from '../../lib/domain';
 import { simplifySlug, slugToUrl } from '../../lib/slug';
@@ -30,9 +27,9 @@ const pages = (await getCollection('notes'))
   .sort((a, b) => a.title.localeCompare(b.title));
 ---
 
-<Base title={`${label} — Map of Content`} description={`Every ${label} note, with the domain sub-graph.`} active="notes">
+<Base title={`${label}`} description={`Every ${label} note.`} active="map">
   <main class="domain-page">
-    <div class="wrap domain-grid">
+    <div class="wrap">
       <div class="main">
         <header class="head">
           <a class="head__kind" href="/map/" style={`color:var(--d-${domain})`}>Map of Content</a>
@@ -54,10 +51,6 @@ const pages = (await getCollection('notes'))
           ))}
         </ul>
       </div>
-
-      <aside class="side" aria-hidden="true">
-        <Constellation mode="full" domain={domain} orient="vertical" height="clamp(360px, 70vh, 640px)" />
-      </aside>
     </div>
   </main>
 </Base>
@@ -68,26 +61,8 @@ const pages = (await getCollection('notes'))
     margin: 0 auto;
     padding: 32px 28px 52px;
   }
-  .domain-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 36px;
-    align-items: start;
-  }
   .main {
     min-width: 0;
-  }
-  .side {
-    position: sticky;
-    top: 80px;
-    min-width: 0;
-  }
-  .side__head {
-    font-family: var(--ming);
-    font-size: 14px;
-    font-weight: 600;
-    margin: 0 0 10px;
-    color: var(--ink);
   }
   .head {
     margin-bottom: 16px;
@@ -151,15 +126,6 @@ const pages = (await getCollection('notes'))
     font-size: 12px;
     color: var(--mut);
     line-height: 1.45;
-  }
-  @media (max-width: 820px) {
-    .domain-grid {
-      grid-template-columns: 1fr;
-    }
-    .side {
-      position: static;
-      order: -1; /* graph above the list on narrow screens */
-    }
   }
   @media (max-width: 640px) {
     .wrap {
