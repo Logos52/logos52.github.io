@@ -1,6 +1,6 @@
 ---
 title: Habits, Productive Routines & PEER
-type: technique
+type: practice
 status: stable
 created: 2026-05-22
 updated: 2026-11-21

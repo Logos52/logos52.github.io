@@ -30,7 +30,7 @@ Doing well with money depends on behaviour, and intelligence matters less. Tempe
 
 - **The savings rate is the most important factor you control.** Salary is set by negotiation, and returns are set by the market. The gap between earning and spending is set by your own behaviour alone. A higher savings rate has two effects: assets grow, and the expenses those assets must cover become smaller ([[wiki/Money/The Savings Rate Is the Master Lever|The Savings Rate Is the Master Lever]]).
 - **Wealth is unspent, so other people do not see it.** Wealth is the assets a person has not spent. Spending money to show others that you are wealthy is the direct way people end up never holding wealth ([[wiki/Money/The Savings Rate Is the Master Lever|Savings Rate]]).
-- **Wanting less widens the gap.** Most buying is done to signal identity. When a person names that motive, the want goes away without any need for discipline. This is the spending side of the savings rate ([[wiki/Minimalism/Wanting Less|Wanting Less]]).
+- **Wanting less widens the gap.** Most buying is done to signal identity. When a person names that motive, the want goes away without any need for discipline. This is the spending side of the savings rate ([[wiki/Minimalism/Minimalism as Systems Design|Wanting Less]]).
 
 ## 3. The horizon
 
@@ -42,7 +42,7 @@ Doing well with money depends on behaviour, and intelligence matters less. Tempe
 ## 4. Building it
 
 - **Productize yourself.** Combine three things. The first is specific knowledge: knowledge you find by following curiosity, that cannot be trained, and that automation cannot easily replace. The second is accountability under your own name. The third is permissionless leverage: code and media, which are products with zero marginal cost that keep earning without you working ([[wiki/Money/The Almanack of Naval Ravikant|Almanack]]).
-- **Work over the long term with people who also work over the long term.** Trust and reputation compound over time, as capital does ([[wiki/Money/The Almanack of Naval Ravikant|Almanack]], [[wiki/Concepts/The Age Of Nonlinear Returns|The Age of Nonlinear Returns]]).
+- **Work over the long term with people who also work over the long term.** Trust and reputation compound over time, as capital does ([[wiki/Money/The Almanack of Naval Ravikant|Almanack]], [[wiki/Razors|The Age of Nonlinear Returns]]).
 - **Each desire leaves you unhappy until you get what you desire.** A person who has wealth but has not trained themselves to be content is still anxious, with more comfort ([[wiki/Money/The Almanack of Naval Ravikant|Almanack]]).
 
 ---

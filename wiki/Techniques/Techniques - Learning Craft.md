@@ -22,7 +22,7 @@ A technique here is a concrete method you use to train one of five dimensions of
 
 Each technique trains one or more of the five dimensions of learning:
 
-- [[wiki/Dimensions/Self-Management|Self-Management]]: setting up habits, a daily rhythm and a working environment that support steady action, so less energy goes into just getting through the day.
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]]: setting up habits, a daily rhythm and a working environment that support steady action, so less energy goes into just getting through the day.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: monitoring and adjusting your own learning as it happens, so performance holds up when teaching gives less guidance or the going gets hard.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: how well the brain turns information into meaningful learning, through analysing, linking and critiquing what you take in.
 - [[wiki/Dimensions/Mindset|Mindset]]: the filter on how you read experience, where a growth mindset treats abilities as improvable and a fixed mindset treats them as static.

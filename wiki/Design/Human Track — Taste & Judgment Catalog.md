@@ -82,7 +82,7 @@ Concrete cases make the judgments easier to see. A product line of laptops once 
 ## Related pages
 
 - [[wiki/Design/Front-End Web Design|Front-End Web Design]]: the same judgments applied to web pages.
-- [[wiki/Concepts/Wabi-Sabi|Wabi-Sabi]]: the aesthetic of subtle imperfection in full.
+- [[wiki/Minimalism/Minimalism as Systems Design|Wabi-Sabi]]: the aesthetic of subtle imperfection in full.
 
 ## Open questions
 

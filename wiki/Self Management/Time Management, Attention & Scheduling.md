@@ -1,6 +1,6 @@
 ---
 title: Time Management, Attention & Scheduling
-type: hub
+type: topic hub
 status: stable
 created: 2026-05-22
 updated: 2026-11-21
@@ -170,7 +170,7 @@ Four weeks to notice variables that shape energy, concentration, distractibility
 
 ## Related pages
 
-- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]
+- [[wiki/Planning and Automation|Reverse Goal Setting]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
 - [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]]
 - [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset Challenge]]

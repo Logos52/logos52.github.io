@@ -59,7 +59,7 @@ How can I tell whether a shallower first pass would make class useful, or would 
 
 ## Related pages
 
-- [[wiki/Self Management/Study Scheduling|Study Scheduling]]: where prestudy, class, and review sit across a week.
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Study Scheduling]]: where prestudy, class, and review sit across a week.
 - [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: keeping important, non-urgent skill work from being crowded out by urgent homework.
 - [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: the first pass you can deepen or thin depending on what class will demand.
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: what to do with the time a shallower first pass frees up.

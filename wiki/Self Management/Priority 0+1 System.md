@@ -1,6 +1,6 @@
 ---
 title: Priority 0+1 System
-type: technique
+type: practice
 status: stable
 created: 2026-06-11
 updated: 2026-11-21

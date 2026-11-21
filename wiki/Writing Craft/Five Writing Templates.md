@@ -346,7 +346,7 @@ On an ordinary page all five run at once. The compression is the description lin
 - [[wiki/Writing Craft/The Cold Open|The Cold Open]] holds the first template at page size, the claim at full strength in sentence one, and says where that form fails.
 - [[02 - System/Writing Standards|Writing Standards]] holds the shape every page here takes, whole, part, whole, in its second section, and what each kind of page owes in its fourth.
 - [[journal/2026-08-22-the-context-problem|The Context Problem]] is a record at page size: every instance of one complaint on record, the counts, and the change made because of them.
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]] holds the fourth template as a written row, what would change the recommendation.
+- [[wiki/Red Team/Red Teaming|Applied Critical Thinking - Testing Frames]] holds the fourth template as a written row, what would change the recommendation.
 - [[wiki/Dimensions/Mindset/Mindset, Condensed|Mindset, Condensed]] is the fifth template at page size, one paragraph holding the domain and then lines that each stand alone.
 
 ## Open questions

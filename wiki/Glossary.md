@@ -18,7 +18,7 @@ The glossary defines the terms the wiki uses most, each in the words of the page
 
 ## Active Learning
 
-Active learning is working on material rather than taking it in at low effort, for example reading as if you will have to teach it and field hard questions about it later. Learners need a clear sense of what it looks and feels like, or no list of strategies will help. See [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming]].
+Active learning is working on material rather than taking it in at low effort, for example reading as if you will have to teach it and field hard questions about it later. Learners need a clear sense of what it looks and feels like, or no list of strategies will help. See [[wiki/Razors|Are You Thinking, or Just Consuming]].
 
 ## Bear Hunter System
 
@@ -54,7 +54,7 @@ Retrieval is using and recalling knowledge from memory, whether that means bring
 
 ## Self-Management
 
-Self-management is setting up the habits, routines and surroundings that keep action steady. Those systems let you stay focused, manage time, energy and attention, avoid procrastination and set priorities. See [[wiki/Dimensions/Self-Management|Self-Management]].
+Self-management is setting up the habits, routines and surroundings that keep action steady. Those systems let you stay focused, manage time, energy and attention, avoid procrastination and set priorities. See [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]].
 
 ## Self-Regulation
 
@@ -70,7 +70,7 @@ WPW, or whole-part-whole, is a technique for teaching yourself. You view the top
 
 ## Passive Learning
 
-Passive learning is absorbing material with little mental effort, such as reading a text only to understand what each line says. For most people it is the default state and fills most study time. See [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming]].
+Passive learning is absorbing material with little mental effort, such as reading a text only to understand what each line says. For most people it is the default state and fills most study time. See [[wiki/Razors|Are You Thinking, or Just Consuming]].
 
 ## Working Memory
 

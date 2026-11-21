@@ -85,7 +85,7 @@ Memory, retrieval, graded stories and travel feed into language study from outsi
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: producing answers from memory at widening intervals and from a changing angle each pass.
 - [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]]: a menu of interleaved retrieval methods grouped by declarative and procedural knowledge.
 - [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]]: a fixed word list used as a story's schedule for what gets revealed.
-- [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]]: the learning pages stated as rules, where encoding sets how well something is learned and retrieval strengthens it.
+- [[wiki/Razors|Learning, Condensed]]: the learning pages stated as rules, where encoding sets how well something is learned and retrieval strengthens it.
 - [[wiki/Travel/Reading as Local|Reading as Local]]: how a traveler whose face reads as local gets received in Asia.
 
 ## What accumulates here

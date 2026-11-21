@@ -25,7 +25,7 @@ Three linked decisions, all canonical in [[02 - System/Writing Standards|Writing
 
 **High-Signal Wiki Pages is the primary wiki standard**, superseding the May rules — eight disciplines (thesis first, specifics over adjectives, the case against, price the method, boundaries after definition, quit signals, checkable expectations, no scaffolding) plus the delete list. The May enforcement rules remain as subordinate supporting detail; High-Signal wins conflicts. Calibration encoded the day it was learned: operative specifics only ("~4x" is signal, "5,000 learners" is provenance); exemplars supply form, never content; form slots need function checks too.
 
-**Condensed Pages is a third genre**: bold total-compression paragraph, numbered doctrine lines with owner-page wikilink citations, tensions resolved explicitly, omissions note. Public versions compress wiki pages only. First instance: [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]].
+**Condensed Pages is a third genre**: bold total-compression paragraph, numbered doctrine lines with owner-page wikilink citations, tensions resolved explicitly, omissions note. Public versions compress wiki pages only. First instance: [[wiki/Razors|Learning, Condensed]].
 
 Cost: every technique page now owes a case-against, quit signals, and checkable expectations — the bar roughly doubles the work of a page that recommends action. Accepted; a page that cannot argue against itself is advertising.
 

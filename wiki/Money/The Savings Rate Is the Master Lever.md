@@ -87,7 +87,7 @@ The check is whether the rate is known within a few points without a lookup. If 
 
 - [[wiki/Money/Investing and Budgeting Mindsets|Investing & Budgeting Mindsets]]: the money hub, holding the reading list behind these pages.
 - [[wiki/Money/Time Beats Timing|Time Beats Timing]]: the horizon half, where the start-date swing behind these counts belongs.
-- [[wiki/Minimalism/Wanting Less|Wanting Less]]: the demand side, where the gap widens before any budget sees it.
+- [[wiki/Minimalism/Minimalism as Systems Design|Wanting Less]]: the demand side, where the gap widens before any budget sees it.
 
 ## Sources
 

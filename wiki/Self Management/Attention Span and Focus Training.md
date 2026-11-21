@@ -1,6 +1,6 @@
 ---
 title: Attention Span and Focus Training
-type: technique
+type: practice
 status: stable
 created: 2026-11-10
 updated: 2026-11-21

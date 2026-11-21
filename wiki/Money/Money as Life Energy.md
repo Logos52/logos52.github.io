@@ -36,7 +36,7 @@ Two calculations follow from this. The first is the real hourly wage. The second
 
 The real hourly wage is take-home pay divided by every hour the job consumes. The hours on the contract are only part of that count. Commute, decompression, and recovery count as job hours. The spending that compensates for the job, converted back into hours, counts as well. Clothes required by the job are one more subtraction. A calculation that divides salary by forty hours never makes it. The clothes bought for the office cost hours to earn, and their price comes off the wage again as a job cost.
 
-The real number is lower than the nominal number whenever unpaid hours or job costs are above zero. If commute and recovery spend are zero, the two numbers are equal. The purpose of the calculation is to show that the real number is the lower one. [[wiki/Minimalism/Ownership Cost|Ownership Cost]] applies the same accounting to objects after they are bought.
+The real number is lower than the nominal number whenever unpaid hours or job costs are above zero. If commute and recovery spend are zero, the two numbers are equal. The purpose of the calculation is to show that the real number is the lower one. [[wiki/Minimalism/Minimalism as Systems Design|Ownership Cost]] applies the same accounting to objects after they are bought.
 
 ## Pricing a purchase in hours
 
@@ -73,7 +73,7 @@ The check has two parts: whether the real hourly wage has been computed once, an
 - [[wiki/Money/The Savings Rate Is the Master Lever|The Savings Rate Is the Master Lever]]: the speed at which crossover approaches.
 - [[wiki/Money/Define Enough|Define Enough]]: the target the crossover number is meant to reach.
 - [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]: the other half of the question of what an hour is worth.
-- [[wiki/Minimalism/Ownership Cost|Ownership Cost]]: the same accounting, applied to objects after purchase.
+- [[wiki/Minimalism/Minimalism as Systems Design|Ownership Cost]]: the same accounting, applied to objects after purchase.
 
 ## Open questions
 

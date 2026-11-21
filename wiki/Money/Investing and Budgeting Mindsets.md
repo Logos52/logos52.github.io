@@ -37,13 +37,13 @@ Four pages develop those points. Two later pages in the same group, on a frontie
 
 [[wiki/Money/Money as Life Energy|Money as Life Energy]] treats a unit of money as hours of a life already given in trade. A purchase then has a price in those hours, after the hidden costs of the job have been taken out of the wage. Two calculations follow. One is the real hourly wage. The other is how many of those hours a given purchase costs.
 
-Every object also keeps costing attention and upkeep after the purchase, and that continuing burden is [[wiki/Minimalism/Ownership Cost|Ownership Cost]]. [[wiki/Minimalism/Wanting Less|Wanting Less]] adds that naming a signalling motive usually ends the want before any of that cost starts.
+Every object also keeps costing attention and upkeep after the purchase, and that continuing burden is [[wiki/Minimalism/Minimalism as Systems Design|Ownership Cost]]. [[wiki/Minimalism/Minimalism as Systems Design|Wanting Less]] adds that naming a signalling motive usually ends the want before any of that cost starts.
 
 ## Other books and pages
 
 The wealth argument is set out in full on [[wiki/Money/The Almanack of Naval Ravikant|the Almanack]]. A paycheck cannot carry someone to freedom, because paid hours bind every result to time spent. The path runs through a share in a product, a firm, or some intellectual property. Three ingredients decide whether pay arrives at scale. Specific knowledge is why the market pays this person, rather than a substitute, and accountability is why it trusts them. Work can be multiplied so that each hour travels farther. Code and media do this, and they need nobody's permission. Once that multiplier is large, judgment becomes the skill that pays most. Because gains compound, the people and the field someone stays with matter as much as any one deal.
 
-Three related pages take parts of that argument further. [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] covers returns that follow a power-law pattern, where time and optionality are the scarce resources. [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] treats tools as a multiplier. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|A Return to Code]] covers programs cheap enough to write for a single person, a single job, or a single afternoon.
+Three related pages take parts of that argument further. [[wiki/Razors|The Age Of Nonlinear Returns]] covers returns that follow a power-law pattern, where time and optionality are the scarce resources. [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] treats tools as a multiplier. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|A Return to Code]] covers programs cheap enough to write for a single person, a single job, or a single afternoon.
 
 Two more pages in this group apply the same interest in what a person actually pays for. [[wiki/Concepts/Nothing Ever Happens Is Over|SpaceX & the Frontier Event]] says a payout at a new frontier goes to whoever solves the trip home, and that selling the ride is the business that lasts. [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|America's Industrial Revival - The Freight Signal]] treats paid freight rates as revealed preference, a gap between speech and action that talk cannot spin.
 
@@ -64,15 +64,15 @@ Once pay arrives, it can be turned into freedom or into a more expensive life. H
 - [[wiki/Concepts/Nothing Ever Happens Is Over|SpaceX & the Frontier Event]]: a frontier payout that goes to whoever solves the trip home
 - [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|America's Industrial Revival - The Freight Signal]]: paid freight rates as revealed preference
 - [[wiki/Money/Money, Condensed|Money, Condensed]]: the settled positions in short form
-- [[wiki/Minimalism/Ownership Cost|Ownership Cost]]: the attention and upkeep that continue after a purchase
-- [[wiki/Minimalism/Wanting Less|Wanting Less]]: naming a signalling motive before any ownership cost begins
-- [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: where compounding and optionality appear
+- [[wiki/Minimalism/Minimalism as Systems Design|Ownership Cost]]: the attention and upkeep that continue after a purchase
+- [[wiki/Minimalism/Minimalism as Systems Design|Wanting Less]]: naming a signalling motive before any ownership cost begins
+- [[wiki/Razors|The Age Of Nonlinear Returns]]: where compounding and optionality appear
 - [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]: tools treated as a multiplier
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|A Return to Code]]: code as work that needs nobody's permission
 - [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]: volume, ownership cost, and the demand side of spending
-- [[wiki/Minimalism/Product Reduction|Product Reduction]]: doing the same job with a smaller set of goods
-- [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]: money choices judged as part of an overall position, not as one-off trades
-- [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]]: scoring a choice, money choices included, by the process behind it rather than by the outcome
+- [[wiki/Minimalism/Minimalism as Systems Design|Product Reduction]]: doing the same job with a smaller set of goods
+- [[wiki/Razors|Positional Decisions and Expected Value]]: money choices judged as part of an overall position, not as one-off trades
+- [[wiki/Razors|Judging a Decision by Its Process]]: scoring a choice, money choices included, by the process behind it rather than by the outcome
 
 ## Open questions
 

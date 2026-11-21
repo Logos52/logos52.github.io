@@ -108,7 +108,7 @@ There are four worked disclosures. The sound-component "drift" line expands insi
 
 ## Guess-first and Shift-peek
 
-**Shift-peek**, or guess-first, is that last disclosure. Hover shows nothing. Holding Shift, or tapping on touch, reveals the gloss. So the reader tries to retrieve the word first. The reader gets a retrieval rep before the answer appears, and the content itself always renders complete. That is desirable difficulty applied. [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]] is the pedagogy half of the same choice.
+**Shift-peek**, or guess-first, is that last disclosure. Hover shows nothing. Holding Shift, or tapping on touch, reveals the gloss. So the reader tries to retrieve the word first. The reader gets a retrieval rep before the answer appears, and the content itself always renders complete. That is desirable difficulty applied. [[wiki/Razors|Learning, Condensed]] is the pedagogy half of the same choice.
 
 FORM leads every dictionary entry sitewide, with no per-entry override. Only first-language translations are gated.
 
@@ -165,7 +165,7 @@ Usability work that no longer changes what anyone does can stop. After two test 
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]: the related working-memory concept; that page does not itself state the 3–5 number.
 - [[wiki/Design/Design, Condensed|Design, Condensed]]: the same doctrine, one rule per line.
 - [[wiki/Concepts/The Screen Inferiority Effect|The Screen Inferiority Effect]]: why a reading surface earns extra design care.
-- [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]]: the pedagogy half of guess-first.
+- [[wiki/Razors|Learning, Condensed]]: the pedagogy half of guess-first.
 
 ## Open questions
 

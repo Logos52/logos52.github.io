@@ -43,4 +43,4 @@ What one quiet detail would you add to an otherwise plain outfit this week?
 
 ## Related pages
 
-- [[wiki/Fitness/Fitness Mindsets|Fitness Mindsets]]
+- [[wiki/Concepts/The Accretion Frame|Fitness Mindsets]]

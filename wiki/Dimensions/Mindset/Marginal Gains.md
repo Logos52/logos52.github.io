@@ -80,4 +80,4 @@ When any of those answers is unknown, getting more information is itself the nex
 - [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]: the stance the tracking example needs so a method can be tried before certainty arrives.
 - [[wiki/Dimensions/Mindset/Locus of Control|Locus of Control]]: attention on the processes you can direct, which is what a small step changes.
 - [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: named in a stacking example as a first look that picks out big ideas.
-- [[wiki/Dimensions/Self-Management/How to Ask for Feedback|How to Ask for Feedback]]: one of the next small steps in the tracking example.
+- [[wiki/Concepts/Good Faith|How to Ask for Feedback]]: one of the next small steps in the tracking example.

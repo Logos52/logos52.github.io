@@ -114,7 +114,7 @@ Overthinking repairs through targeted thinking and one small action now. Between
 - [[wiki/Dimensions/Mindset/Perfectionism and Overthinking|Perfectionism and Overthinking]]: feeling to one action.
 - [[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]]: pull to stay.
 - [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]]: self-regard vs selfhood in prose and persuasion.
-- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]: empathy replacing judgment.
+- [[wiki/Books/Suicidal Empathy|Suicidal Empathy]]: empathy replacing judgment.
 - [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: tomorrow's next tasks written before the day starts.
 
 ## Open questions

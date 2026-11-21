@@ -85,7 +85,7 @@ The method fails when practice is repetition without reflection, so old errors k
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]: why attention limits new theory.
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: small continuous improvements.
 - [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: spreading early load across sessions.
-- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]]: the difference between coverage and learning.
+- [[wiki/Razors|Are You Thinking, or Just Consuming?]]: the difference between coverage and learning.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: managing effort and habits.
 - [[wiki/Planning and Automation|The 30-Day Plan]]: setting the practice-to-theory balance in a plan.
 
