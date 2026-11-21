@@ -1568,6 +1568,11 @@
     },
     {
       "rule": "R1",
+      "file": "src/components/Chrome.astro",
+      "fingerprint": "d37253d3"
+    },
+    {
+      "rule": "R1",
       "file": "src/components/Constellation.astro",
       "fingerprint": "c03f8f82"
     },
@@ -1878,6 +1883,16 @@
     },
     {
       "rule": "R1",
+      "file": "src/layouts/Base.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/layouts/Note.astro",
+      "fingerprint": "34ced4ab"
+    },
+    {
+      "rule": "R1",
       "file": "src/lib/backlinks.ts",
       "fingerprint": "3db816ed"
     },
@@ -2009,6 +2024,11 @@
     {
       "rule": "R1",
       "file": "src/lib/ignore-patterns.mjs",
+      "fingerprint": "db397529"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/ignore-patterns.mjs",
       "fingerprint": "dd2db9b8"
     },
     {
@@ -2030,6 +2050,26 @@
       "rule": "R1",
       "file": "src/lib/journal.ts",
       "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/note.ts",
+      "fingerprint": "b2ab2d25"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/note.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/note.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/note.ts",
+      "fingerprint": "c0607378"
     },
     {
       "rule": "R1",
@@ -2085,6 +2125,91 @@
       "rule": "R1",
       "file": "src/lib/spineZoom.ts",
       "fingerprint": "dabddf34"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "2b8beeda"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "435243ed"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "83095b15"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "86ec09a4"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "8c0156a8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "c03cb3ca"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "c9e2bb55"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "cd6159f6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d1d55b04"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d1d55b04"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d1d55b04"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d1d55b04"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d1d55b04"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d8bd092a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d9de703c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
+      "fingerprint": "df650e49"
     },
     {
       "rule": "R1",
@@ -2198,8 +2323,58 @@
     },
     {
       "rule": "R1",
+      "file": "src/pages/projects.astro",
+      "fingerprint": "7d6fb823"
+    },
+    {
+      "rule": "R1",
       "file": "src/pages/tags/[tag].astro",
       "fingerprint": "7d6fb823"
+    },
+    {
+      "rule": "R1",
+      "file": "src/redirects/load-redirects.mjs",
+      "fingerprint": "8eb88a31"
+    },
+    {
+      "rule": "R1",
+      "file": "src/redirects/load-redirects.mjs",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "1435ead0"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "54dca927"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "8350fb4"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "9f991a11"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "a5d26b9c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "ce4d27cf"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "e6172420"
     },
     {
       "rule": "R1",
@@ -2225,6 +2400,21 @@
       "rule": "R1",
       "file": "src/styles/ds/flavors-preview.css",
       "fingerprint": "fd6a3fd6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/fonts.css",
+      "fingerprint": "2bc2d854"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/fonts.css",
+      "fingerprint": "351fdd7f"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/fonts.css",
+      "fingerprint": "db1e17c5"
     },
     {
       "rule": "R1",
@@ -3192,6 +3382,11 @@
       "fingerprint": "b6e5ec32"
     },
     {
+      "rule": "R18",
+      "file": "src/lib/types.ts",
+      "fingerprint": "b35d6852"
+    },
+    {
       "rule": "R19",
       "file": "src/lib/fold-related.ts",
       "fingerprint": "d8443a18"
@@ -3200,6 +3395,11 @@
       "rule": "R19",
       "file": "src/lib/pagefind-client.ts",
       "fingerprint": "72f60f3a"
+    },
+    {
+      "rule": "R19",
+      "file": "src/lib/types.ts",
+      "fingerprint": "65308270"
     },
     {
       "rule": "R2",
@@ -3279,16 +3479,6 @@
     {
       "rule": "R2",
       "file": "kb-astro/generate-site-data.mjs",
-      "fingerprint": "bc47c1bb"
-    },
-    {
-      "rule": "R2",
-      "file": "kb-astro/generate-site-data.mjs",
-      "fingerprint": "bc47c1bb"
-    },
-    {
-      "rule": "R2",
-      "file": "kb-astro/generate-site-data.mjs",
       "fingerprint": "871a78d4"
     },
     {
@@ -3305,6 +3495,16 @@
       "rule": "R2",
       "file": "kb-astro/generate-site-data.mjs",
       "fingerprint": "905f519e"
+    },
+    {
+      "rule": "R2",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "bc47c1bb"
+    },
+    {
+      "rule": "R2",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "bc47c1bb"
     },
     {
       "rule": "R2",
@@ -4033,6 +4233,11 @@
     },
     {
       "rule": "R2",
+      "file": "src/lib/note.ts",
+      "fingerprint": "625e3ee7"
+    },
+    {
+      "rule": "R2",
       "file": "src/lib/pagefind-client.ts",
       "fingerprint": "80aba572"
     },
@@ -4113,6 +4318,11 @@
     },
     {
       "rule": "R21",
+      "file": "src/lib/domain.ts",
+      "fingerprint": "96c45e4a"
+    },
+    {
+      "rule": "R21",
       "file": "src/lib/icons.ts",
       "fingerprint": "c03f8f82"
     },
@@ -4139,6 +4349,11 @@
     {
       "rule": "R21",
       "file": "src/lib/spineZoom.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R21",
+      "file": "src/lib/types.ts",
       "fingerprint": "c03f8f82"
     },
     {
@@ -4192,6 +4407,16 @@
       "fingerprint": "d021b571"
     },
     {
+      "rule": "R26",
+      "file": "pull_request",
+      "fingerprint": "51d0729d"
+    },
+    {
+      "rule": "R26",
+      "file": "pull_request",
+      "fingerprint": "c7c2592f"
+    },
+    {
       "rule": "R3",
       "file": "src/islands/constellation.ts",
       "fingerprint": "1f827dbf"
@@ -4228,6 +4453,11 @@
     },
     {
       "rule": "R3",
+      "file": "src/islands/map-list.ts",
+      "fingerprint": "66c0e9cb"
+    },
+    {
+      "rule": "R3",
       "file": "src/islands/search-inline.ts",
       "fingerprint": "a2beada"
     },
@@ -4235,6 +4465,11 @@
       "rule": "R3",
       "file": "src/lib/backlinks.ts",
       "fingerprint": "74923fad"
+    },
+    {
+      "rule": "R3",
+      "file": "src/lib/domain.ts",
+      "fingerprint": "f0e1964b"
     },
     {
       "rule": "R3",
@@ -4265,6 +4500,16 @@
       "rule": "R3",
       "file": "src/lib/journal.ts",
       "fingerprint": "751714b0"
+    },
+    {
+      "rule": "R3",
+      "file": "src/lib/note.ts",
+      "fingerprint": "625e3ee7"
+    },
+    {
+      "rule": "R3",
+      "file": "src/lib/note.ts",
+      "fingerprint": "ee97e614"
     },
     {
       "rule": "R3",
@@ -4305,6 +4550,41 @@
       "rule": "R3",
       "file": "src/lib/spineZoom.ts",
       "fingerprint": "dc98e18d"
+    },
+    {
+      "rule": "R3",
+      "file": "src/lib/types.ts",
+      "fingerprint": "3e377fee"
+    },
+    {
+      "rule": "R3",
+      "file": "src/lib/types.ts",
+      "fingerprint": "766a2f8d"
+    },
+    {
+      "rule": "R3",
+      "file": "src/lib/types.ts",
+      "fingerprint": "8c06a299"
+    },
+    {
+      "rule": "R3",
+      "file": "src/lib/types.ts",
+      "fingerprint": "9fa7ca4b"
+    },
+    {
+      "rule": "R3",
+      "file": "src/lib/types.ts",
+      "fingerprint": "bc868ec1"
+    },
+    {
+      "rule": "R3",
+      "file": "src/lib/types.ts",
+      "fingerprint": "d6bd461c"
+    },
+    {
+      "rule": "R3",
+      "file": "src/lib/types.ts",
+      "fingerprint": "e424e7d3"
     },
     {
       "rule": "R3",
@@ -5725,141 +6005,6 @@
       "rule": "R5",
       "file": "tsconfig.json",
       "fingerprint": "fe0c521a"
-    },
-    {
-      "rule": "R1",
-      "file": "src/layouts/Base.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/projects.astro",
-      "fingerprint": "7d6fb823"
-    },
-    {
-      "rule": "R1",
-      "file": "src/styles/ds/domains.css",
-      "fingerprint": "1435ead0"
-    },
-    {
-      "rule": "R1",
-      "file": "src/styles/ds/domains.css",
-      "fingerprint": "54dca927"
-    },
-    {
-      "rule": "R1",
-      "file": "src/styles/ds/domains.css",
-      "fingerprint": "8350fb4"
-    },
-    {
-      "rule": "R1",
-      "file": "src/styles/ds/domains.css",
-      "fingerprint": "9f991a11"
-    },
-    {
-      "rule": "R1",
-      "file": "src/styles/ds/domains.css",
-      "fingerprint": "a5d26b9c"
-    },
-    {
-      "rule": "R1",
-      "file": "src/styles/ds/domains.css",
-      "fingerprint": "ce4d27cf"
-    },
-    {
-      "rule": "R1",
-      "file": "src/styles/ds/domains.css",
-      "fingerprint": "e6172420"
-    },
-    {
-      "rule": "R1",
-      "file": "src/styles/ds/fonts.css",
-      "fingerprint": "2bc2d854"
-    },
-    {
-      "rule": "R1",
-      "file": "src/styles/ds/fonts.css",
-      "fingerprint": "351fdd7f"
-    },
-    {
-      "rule": "R1",
-      "file": "src/styles/ds/fonts.css",
-      "fingerprint": "db1e17c5"
-    },
-    {
-      "rule": "R18",
-      "file": "src/lib/types.ts",
-      "fingerprint": "b35d6852"
-    },
-    {
-      "rule": "R19",
-      "file": "src/lib/types.ts",
-      "fingerprint": "65308270"
-    },
-    {
-      "rule": "R2",
-      "file": "src/lib/note.ts",
-      "fingerprint": "625e3ee7"
-    },
-    {
-      "rule": "R21",
-      "file": "src/lib/types.ts",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R3",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "f0e1964b"
-    },
-    {
-      "rule": "R3",
-      "file": "src/lib/note.ts",
-      "fingerprint": "625e3ee7"
-    },
-    {
-      "rule": "R3",
-      "file": "src/lib/note.ts",
-      "fingerprint": "ee97e614"
-    },
-    {
-      "rule": "R3",
-      "file": "src/lib/types.ts",
-      "fingerprint": "3e377fee"
-    },
-    {
-      "rule": "R3",
-      "file": "src/lib/types.ts",
-      "fingerprint": "766a2f8d"
-    },
-    {
-      "rule": "R3",
-      "file": "src/lib/types.ts",
-      "fingerprint": "8c06a299"
-    },
-    {
-      "rule": "R3",
-      "file": "src/lib/types.ts",
-      "fingerprint": "9fa7ca4b"
-    },
-    {
-      "rule": "R3",
-      "file": "src/lib/types.ts",
-      "fingerprint": "bc868ec1"
-    },
-    {
-      "rule": "R3",
-      "file": "src/lib/types.ts",
-      "fingerprint": "d6bd461c"
-    },
-    {
-      "rule": "R3",
-      "file": "src/lib/types.ts",
-      "fingerprint": "e424e7d3"
-    },
-    {
-      "rule": "R21",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "c03f8f82"
     }
   ]
 }
