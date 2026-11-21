@@ -5855,11 +5855,6 @@
       "rule": "R3",
       "file": "src/lib/types.ts",
       "fingerprint": "e424e7d3"
-    },
-    {
-      "rule": "R21",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "c03f8f82"
     }
   ]
 }
