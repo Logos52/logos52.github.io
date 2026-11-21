@@ -36,9 +36,20 @@ let jsonMap: Record<string, string> | null | undefined;
 function loadDomainsJson(): Record<string, string> | null {
   if (jsonMap !== undefined) return jsonMap;
   try {
-    jsonMap = existsSync(DOMAINS_JSON)
-      ? (JSON.parse(readFileSync(DOMAINS_JSON, 'utf8')) as Record<string, string>)
-      : null;
+    if (existsSync(DOMAINS_JSON)) {
+      const raw: unknown = JSON.parse(readFileSync(DOMAINS_JSON, 'utf8'));
+      if (raw && typeof raw === 'object' && !Array.isArray(raw)) {
+        const next: Record<string, string> = {};
+        for (const [k, v] of Object.entries(raw)) {
+          if (typeof v === 'string') next[k] = v;
+        }
+        jsonMap = next;
+      } else {
+        jsonMap = null;
+      }
+    } else {
+      jsonMap = null;
+    }
   } catch {
     jsonMap = null;
   }
