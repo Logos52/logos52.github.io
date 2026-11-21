@@ -49,6 +49,6 @@ How can I check whether I only simplified a definition, or built a connection I 
 ## Related pages
 
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: watching these cues and choosing a response.
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: the same clinic, on judging a method by the thinking it produces.
+- [[wiki/Dimensions/Self-Regulation|The Technique Is Only as Good as the Thinking It Produces]]: the same clinic, on judging a method by the thinking it produces.
 - [[wiki/Concepts/Memory Handling|Memory Handling]]: working memory's limits, which is where overload shows up.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: the relational thinking that makes effort productive.

@@ -110,11 +110,11 @@ Where would a short judgment rehearsal beat another hour of execution?
 
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: the reflection loop that shows why a replacement did not fire.
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]: hard thinking swapped for visible activity, often as a reflex to a cue.
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: choosing the next single improvement, which is usually one cue's response.
+- [[wiki/Dimensions/Mindset|Marginal Gains]]: choosing the next single improvement, which is usually one cue's response.
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: a three-stage encoding routine, and a place an old habit can skip or hollow out a stage.
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|SIR]]: retrieval practice, including retrieval of the replacement response.
 - [[wiki/Dimensions/Self-Management|Self-Management]]: parent hub for the habit and reflection cluster.
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: a technique is judged by the thinking it produces, next to this page's warning that "easier" is a poor test.
+- [[wiki/Dimensions/Self-Regulation|The Technique Is Only as Good as the Thinking It Produces]]: a technique is judged by the thinking it produces, next to this page's warning that "easier" is a poor test.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: parent hub for the control-layer cluster.
 - [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]: attention as the scarce resource a cue can hijack.
 - [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: daily prioritisation, a place to apply a cue-response upgrade.

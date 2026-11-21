@@ -93,6 +93,6 @@ How small would the first step have to be before I would actually start today?
 
 ## Related pages
 
-- [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated]]: keeping motivation in reserve rather than spending it to start ordinary work.
+- [[wiki/Dimensions/Self-Regulation|How to shift your brain to be motivated]]: keeping motivation in reserve rather than spending it to start ordinary work.
 - [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: checking that the goal you are building a habit around is one you still want.
 - [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: deciding which habit is worth protecting in the day's first hours.

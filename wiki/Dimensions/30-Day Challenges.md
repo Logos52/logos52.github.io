@@ -77,11 +77,11 @@ The fourth week gathers what survived. The self-regulation track builds a system
 
 Each track belongs to one dimension and trains it through its own four weeks.
 
-- [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset]]: reduces the fear of mistakes and turns them into learning. You break a task into smaller steps and act sooner so errors cost less, treat each miss as a lesson about what blocked you or what the conditions were, shorten the cycles and finally test a belief you thought you could not change.
+- [[wiki/Dimensions/Mindset|Mindset]]: reduces the fear of mistakes and turns them into learning. You break a task into smaller steps and act sooner so errors cost less, treat each miss as a lesson about what blocked you or what the conditions were, shorten the cycles and finally test a belief you thought you could not change.
 - [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|Self-Management]]: charts what drives your energy, focus, distractibility and follow-through. You test one change, design a day of unbroken flow to find the cracks, then keep only the leanest set of supports that keeps working.
-- [[wiki/Dimensions/30-Day Challenges/Self-Regulation Challenge|Self-Regulation]]: maps what each learning method actually does to memory and understanding. You adjust the weak or passive methods, vary time to isolate cause and effect, then build the better mix into one deliberate system.
-- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing]]: trains you to notice lower-order thinking and shift toward higher-order work. You build networks of relationships, score how much each one matters, then make that work a fluid habit.
-- [[wiki/Dimensions/30-Day Challenges/Retrieval Challenge|Retrieval]]: replaces rereading with closed-book reconstruction, where you shut the source and write or say the key ideas from memory. The attempt gets harder over the four weeks, and the ideas you fail to recall decide what gets restudied.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: maps what each learning method actually does to memory and understanding. You adjust the weak or passive methods, vary time to isolate cause and effect, then build the better mix into one deliberate system.
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]: trains you to notice lower-order thinking and shift toward higher-order work. You build networks of relationships, score how much each one matters, then make that work a fluid habit.
+- [[wiki/Dimensions/Retrieval|Retrieval]]: replaces rereading with closed-book reconstruction, where you shut the source and write or say the key ideas from memory. The attempt gets harder over the four weeks, and the ideas you fail to recall decide what gets restudied.
 
 ## The four progressions
 
@@ -157,8 +157,8 @@ Some signals show that a track is struggling. A new learning system that keeps f
 - [[wiki/Dimensions/Retrieval|Retrieval]]
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
+- [[wiki/Dimensions/Mindset|Marginal Gains]]
+- [[wiki/Dimensions/Self-Regulation|The Technique Is Only as Good as the Thinking It Produces]]
 
 ## Sources
 

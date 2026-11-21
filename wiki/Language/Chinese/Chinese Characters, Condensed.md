@@ -60,12 +60,12 @@ The core skill is telling which job a component does in this particular characte
 ## Related pages
 
 - [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]: the full hub for this topic.
-- [[wiki/Language/Chinese/Sound Components|Sound Components]]: the sound job in detail.
-- [[wiki/Language/Chinese/Meaning Components|Meaning Components]]: the meaning job in detail.
-- [[wiki/Language/Chinese/Form Components|Form Components]]: the picture job in detail.
-- [[wiki/Language/Chinese/Empty Components|Empty Components]]: parts that do no work.
-- [[wiki/Language/Chinese/The Pipelining Strategy|Pipelining]]: the three-day practice loop.
-- [[wiki/Language/Chinese/The IME Method|The IME Method]]: recalling forms from components.
+- [[wiki/Language/Chinese/How Chinese Characters Work|Sound Components]]: the sound job in detail.
+- [[wiki/Language/Chinese/How Chinese Characters Work|Meaning Components]]: the meaning job in detail.
+- [[wiki/Language/Chinese/How Chinese Characters Work|Form Components]]: the picture job in detail.
+- [[wiki/Language/Chinese/How Chinese Characters Work|Empty Components]]: parts that do no work.
+- [[wiki/Language/Chinese/How Chinese Characters Work|Pipelining]]: the three-day practice loop.
+- [[wiki/Language/Chinese/How Chinese Characters Work|The IME Method]]: recalling forms from components.
 
 ## Open questions
 

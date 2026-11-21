@@ -57,5 +57,5 @@ When I last wrote down what kind of life I want, was I describing a direction I 
 
 - [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: the work of naming the skills and habits a goal actually requires, which this daily sort then protects.
 - [[wiki/Self Management/Study Scheduling|Study Scheduling]]: a repeating calendar those protected blocks can sit inside.
-- [[wiki/Self Management/Techniques in School|Techniques in School]]: how urgent schoolwork tries to crowd out skill work that is not urgent.
+- [[wiki/Domains/Miscellaneous/Exam Technique|Techniques in School]]: how urgent schoolwork tries to crowd out skill work that is not urgent.
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]: why sorting the night before leaves fewer gaps of "what now?" during the day.

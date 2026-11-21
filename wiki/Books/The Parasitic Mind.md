@@ -57,7 +57,7 @@ Held as a habit, this way of earning beliefs becomes a set of questions. What is
 
 Some claims arrive with the feeling landing before the reading does. For those, the book compresses the same discipline into six steps.
 
-1. State the claim neutrally, in words a person on either side would accept as the claim. In practice this is a writing move, and [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper]] holds it. Written out flat, a charged claim stops being a feeling and becomes something that can be weighed.
+1. State the claim neutrally, in words a person on either side would accept as the claim. In practice this is a writing move, and [[wiki/Dimensions/Deep Processing|Thinking on Paper]] holds it. Written out flat, a charged claim stops being a feeling and becomes something that can be weighed.
 2. Write down the evidence for it.
 3. Write down the evidence against it, beside the evidence for it.
 4. Check the lines for independence: different methods, different fields, different levels.

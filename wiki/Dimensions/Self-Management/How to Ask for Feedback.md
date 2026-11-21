@@ -42,7 +42,7 @@ Giving comments to peers helps your own learning as well. It trains you to evalu
 
 ## Related pages
 
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: small next steps, including asking for comments at least once when experience with feedback is low.
-- [[wiki/Dimensions/Self-Management/Skills Audit|Skills Audit]]: a review that then seeks comments from your own evaluation, from peers, or from scheduled help.
+- [[wiki/Dimensions/Mindset|Marginal Gains]]: small next steps, including asking for comments at least once when experience with feedback is low.
+- [[wiki/Dimensions/Dimensions of Learning|Skills Audit]]: a review that then seeks comments from your own evaluation, from peers, or from scheduled help.
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: a way to turn an experiment, including one prompted by feedback, into a next step.
 - [[wiki/Dimensions/Self-Management|Self-Management]]: the dimension this page sits in.

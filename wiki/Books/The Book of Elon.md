@@ -66,7 +66,7 @@ The book closes on the claim that the future is not automatically good. It has t
 
 ## What this wiki takes from the book
 
-Purpose lasts longer when it is tied to usefulness beyond the self. Engineering value comes from making a useful design real. Sounding strategic does not produce it. Teams get faster when they communicate directly, delete waste, and work near the constraint. That is the same cluster that [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] covers as constraint, waste, and iterate. It is also the constraint-first stance that [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] takes when the builders are agents. Tools that increase what a person can do, as opposed to tools that only add appearance, are covered on [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]. The book's closing claim, that the future has to be built, is related to [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]. The parent dimension is [[wiki/Dimensions/Mindset|Mindset]].
+Purpose lasts longer when it is tied to usefulness beyond the self. Engineering value comes from making a useful design real. Sounding strategic does not produce it. Teams get faster when they communicate directly, delete waste, and work near the constraint. That is the same cluster that [[wiki/Dimensions/Mindset|Marginal Gains]] covers as constraint, waste, and iterate. It is also the constraint-first stance that [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] takes when the builders are agents. Tools that increase what a person can do, as opposed to tools that only add appearance, are covered on [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]]. The book's closing claim, that the future has to be built, is related to [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]. The parent dimension is [[wiki/Dimensions/Mindset|Mindset]].
 
 ## Questions to ask about a project
 
@@ -96,7 +96,7 @@ The point of reading the book is to raise the standard for what counts as seriou
 ## Related pages
 
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: building with agents; constraint-first
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: constraint, waste, iterate
+- [[wiki/Dimensions/Mindset|Marginal Gains]]: constraint, waste, iterate
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: the limit that intensity needs
 - [[wiki/Dimensions/Self-Management|Self-Management]]: the life the intensity has to fit inside
 - [[wiki/Dimensions/Mindset|Mindset]]: parent dimension

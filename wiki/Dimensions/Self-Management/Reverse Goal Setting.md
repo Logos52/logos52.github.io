@@ -94,5 +94,5 @@ The fifth step is to make an action plan. Distill everything down to at most two
 ## Related pages
 
 - [[wiki/Dimensions/Self-Management|Self-Management]]: the dimension this planning method sits in.
-- [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated (when you don't feel like it)]]: acting on the plan on days when motivation is low.
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: improving a few high-gap attributes rather than trying to raise everything at once.
+- [[wiki/Dimensions/Self-Regulation|How to shift your brain to be motivated (when you don't feel like it)]]: acting on the plan on days when motivation is low.
+- [[wiki/Dimensions/Mindset|Marginal Gains]]: improving a few high-gap attributes rather than trying to raise everything at once.

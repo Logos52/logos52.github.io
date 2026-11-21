@@ -61,7 +61,7 @@ Functions were moved out of the room rather than given up. Washing moved to a gy
 
 The parts sit on four pages. [[wiki/Minimalism/Environment Design|Environment Design]] is about shaping space so the intended action is easier. [[wiki/Minimalism/Ownership Cost|Ownership Cost]] is about the burden that continues after purchase. [[wiki/Minimalism/Product Reduction|Product Reduction]] gives the reduction session. [[wiki/Minimalism/Exit Strategy For Objects|Exit Strategy For Objects]] is about choosing the way out before new things come in. [[wiki/Minimalism/Wanting Less|Wanting Less]] covers the demand side, and [[wiki/Minimalism/Minimalism, Condensed|Minimalism, Condensed]] holds the settled positions in short form.
 
-The work belongs under [[wiki/Dimensions/Self-Management|Self-Management]], because the room is one of the systems that let action stay steady. [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] reviews what happened so that the next attempt can change, and [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] treats progress as a series of small improvements. [[wiki/Decision Making/Decision Making|Decision Making]] covers the load of low-value choices.
+The work belongs under [[wiki/Dimensions/Self-Management|Self-Management]], because the room is one of the systems that let action stay steady. [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] reviews what happened so that the next attempt can change, and [[wiki/Dimensions/Mindset|Marginal Gains]] treats progress as a series of small improvements. [[wiki/Decision Making/Decision Making|Decision Making]] covers the load of low-value choices.
 
 ## What the Room Should Feel Like
 

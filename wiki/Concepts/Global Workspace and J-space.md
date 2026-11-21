@@ -104,7 +104,7 @@ Global workspace theory describes many fast specialized processors running outsi
 
 Working memory, on the human side, is an attention-gated store on the order of four chunks. Long-term memory and automatic skills sit outside it. Dual-process talk, a fast automatic mode and a slow deliberate one, describes the same dimension. It is not a separate finding.
 
-Practice compiles [[wiki/Concepts/Declarative, Procedural, and Conditional Knowledge|declarative knowledge]] into procedural skill that no longer occupies the workspace. The signs of that compilation are speed, resistance to interference, and loss of conscious access to the steps. A fluent reader cannot avoid reading a familiar word. A fluent speaker puts English adjectives in the only order that sounds right and cannot state the rule. A classroom learner can recite the rule and still fail at speaking speed.
+Practice compiles [[wiki/Dimensions/Dimensions of Learning|declarative knowledge]] into procedural skill that no longer occupies the workspace. The signs of that compilation are speed, resistance to interference, and loss of conscious access to the steps. A fluent reader cannot avoid reading a familiar word. A fluent speaker puts English adjectives in the only order that sounds right and cannot state the rule. A classroom learner can recite the rule and still fail at speaking speed.
 
 Deletion on the model side matches that compilation on the human side. Competence already in the weights survives. Construction that still needs steps does not. In the language swap, the fluent Spanish continuation is the compiled side. The French name and the Victor Hugo attribution are the side that still needed the workspace.
 
@@ -146,13 +146,13 @@ The workspace is as well established as the deletion result. Multi-step reasonin
 - [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: the operator-usable layer: how to route automatic work and protect the deliberate stretch.
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: automatic versus deliberate scored as a capability split, on two independent axes.
 - [[wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment|Higher-Order Generativity vs Higher-Order Judgment]]: fast interpolation against accountable broadcast, the same tilt from the product side.
-- [[wiki/Concepts/Declarative, Procedural, and Conditional Knowledge|Declarative, Procedural, and Conditional Knowledge]]: proceduralization as compilation out of the workspace.
+- [[wiki/Dimensions/Dimensions of Learning|Declarative, Procedural, and Conditional Knowledge]]: proceduralization as compilation out of the workspace.
 - [[wiki/Concepts/Memory Handling|Memory Handling]]: the learner's working-memory workbench; a small store, everything else elsewhere.
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]: effort as contents competing for the workspace.
 - [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]]: the unconscious-competence handoff is execution leaving the workspace.
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the context-window-as-working-memory analogy.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: deep work as deliberate manipulation inside the workspace.
-- [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]]: offloading the deliberate workspace is encoding that never happens.
+- [[wiki/Learning Craft/Don't Outsource the Learning|The Right vs Wrong Way to Work With AI]]: offloading the deliberate workspace is encoding that never happens.
 - [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]]: the interpretability work behind a lab's positioning.
 - [[journal/2026-07-07-the-workspace-a-language-model-thinks-in|The workspace a language model thinks in]]: the front-facing essay of the same finding.
 

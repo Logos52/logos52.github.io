@@ -33,7 +33,7 @@ At the sixth level of thinking every view is valid, so the rule becomes include 
 - [[wiki/Worldviews & the Political Order/Socialism as Moral Correction|Socialism as Moral Correction]] and [[wiki/Worldviews & the Political Order/Financial Slavery|Financial Slavery]]. E11, the battery and redistribution.
 - [[wiki/Worldviews & the Political Order/The Gen Z Gender War - The Split|The Gen Z Gender War - The Split]]. E13, the moral-development claim by sex, and E11.
 - [[wiki/Worldviews & the Political Order/Late Stage Feminism|Late Stage Feminism]]. E11, E12, the hive mind and the asymmetry.
-- [[wiki/Dimensions/Mindset/Locus of Control|Locus of Control]]. E10, responsibility for the reaction.
+- [[wiki/Dimensions/Mindset|Locus of Control]]. E10, responsibility for the reaction.
 
 New pages this bank supports: Everybodyism - Everything in Its Right Place, and The Maturity Crisis, both under Worldviews and the Political Order. The owner said on 2026-09-08 that the second is to be written.
 

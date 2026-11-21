@@ -79,7 +79,7 @@ New information can make changing course the stronger bet. In the three-door puz
 </svg>
 </figure>
 
-Overthinking takes a different repair. [[wiki/Dimensions/Mindset/Perfectionism and Overthinking|Perfectionism and Overthinking]] treats perfectionism as a symptom of anxiety and insecurity, and its four steps end in one small action you can take now. The smaller and more specific the pieces, the more likely there is something you can actually do.
+Overthinking takes a different repair. [[wiki/Dimensions/Mindset|Perfectionism and Overthinking]] treats perfectionism as a symptom of anxiety and insecurity, and its four steps end in one small action you can take now. The smaller and more specific the pieces, the more likely there is something you can actually do.
 
 The between-task question of what to do next gets its own fix. [[wiki/Decision Making/Decisional Delays|Decisional Delays]] asks for a short log at the end of each day of every point where you stopped to wonder. Once you can see a delay starting, you go straight into the next task.
 
@@ -87,7 +87,7 @@ The between-task question of what to do next gets its own fix. [[wiki/Decision M
 
 Every decision ends in feedback, and the loop is how that feedback changes the next attempt. [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] is a structured way of looking back at what happened, where each pass should teach more about what the problem actually is and end in a next step you can try. Turning a problem over and over without changing anything is rumination, which the cycle is built to avoid.
 
-The look back needs a direction, since many problems can compete at once, and a beginner can face dozens of possible directions. [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] supplies it by treating progress as a series of small improvements, so the next step is easy to hit and aimed at the goal that matters. In the picture used for the pair, marginal gains are the road and the cycle is the vehicle that travels it.
+The look back needs a direction, since many problems can compete at once, and a beginner can face dozens of possible directions. [[wiki/Dimensions/Mindset|Marginal Gains]] supplies it by treating progress as a series of small improvements, so the next step is easy to hit and aimed at the goal that matters. In the picture used for the pair, marginal gains are the road and the cycle is the vehicle that travels it.
 
 ## The Checks Worth Keeping
 
@@ -113,14 +113,14 @@ An unanswered question about what to do next also spills into other work. Each s
 - [[wiki/Decision Making/Changing Decisions|Changing Decisions]]: why new information can make switching the stronger bet, and when persistence still fits.
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]: a chain of single yes-or-no questions that closes whole branches.
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]: the minutes lost between tasks and the daily look-back that finds them.
-- [[wiki/Dimensions/Mindset/Perfectionism and Overthinking|Perfectionism and Overthinking]]: a four-step repair that turns a feeling into one action.
-- [[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]]: the pull to avoid a loss even when an equal gain sits on the other side.
+- [[wiki/Dimensions/Mindset|Perfectionism and Overthinking]]: a four-step repair that turns a feeling into one action.
+- [[wiki/Dimensions/Mindset|Loss Aversion]]: the pull to avoid a loss even when an equal gain sits on the other side.
 - [[wiki/Self Management/Flow State|Flow State]]: focus as a process of coming back, with flow building while one task holds your attention.
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination - a System Problem]]: procrastination as a setup problem more than a motivation problem, fixed by a system that runs on low motivation.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: watching, steering and refining how you learn.
 - [[wiki/Dimensions/Self-Management|Self-Management]]: the systems that make steady action possible.
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: looking back at what happened so the next attempt can change.
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: progress as a series of small improvements stacked on each other.
+- [[wiki/Dimensions/Mindset|Marginal Gains]]: progress as a series of small improvements stacked on each other.
 - [[wiki/Red Team/Red Teaming|Red Teaming]]: finding what is wrong with a plan before reality does, including in the people who made it.
 - [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]: empathy that misfires at the scale of a society, and the thinking errors it depends on.
 

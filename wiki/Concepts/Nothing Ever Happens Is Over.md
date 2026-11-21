@@ -77,5 +77,5 @@ When you track the news this week, is a belief changing, or is the tracking only
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: how a small team actually runs with agents.
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: the claim that a model can stand in for an explicit map of company knowledge.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: noticing when an old assumption has expired.
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: small improvements to how a person makes sense of change.
+- [[wiki/Dimensions/Mindset|Marginal Gains]]: small improvements to how a person makes sense of change.
 - [[wiki/Systems/AI & Agentic Systems/Automatic and Deliberate Work with AI|Automatic and Deliberate Work with AI]]: how the models used for that synthesis think.

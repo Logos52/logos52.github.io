@@ -94,5 +94,5 @@ How many of the techniques I am using still take high effort and succeed only no
 
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: reading your stage so you pick the right next gain.
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb's Experiential Cycle]]: the cycle of trying, reviewing, and adjusting that moves a skill up the ladder.
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: the view of progress as many small improvements.
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: a method at low competence will not produce the thinking it is meant to produce.
+- [[wiki/Dimensions/Mindset|Marginal Gains]]: the view of progress as many small improvements.
+- [[wiki/Dimensions/Self-Regulation|The Technique Is Only as Good as the Thinking It Produces]]: a method at low competence will not produce the thinking it is meant to produce.

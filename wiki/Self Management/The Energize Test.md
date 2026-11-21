@@ -107,4 +107,4 @@ The check itself costs nothing. Acting on a run of spent evenings can cost a gre
 - [[wiki/Minimalism/Wanting Less|Wanting Less]]: status objects as other people's idea of success
 - [[wiki/Money/Define Enough|Define Enough]]: money as a byproduct rather than the target
 - [[wiki/Self Management/Flow State|Attention, Focus & Flow]]: attention as the resource the test protects
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: removing small drains as a gain that compounds
+- [[wiki/Dimensions/Mindset|Marginal Gains]]: removing small drains as a gain that compounds

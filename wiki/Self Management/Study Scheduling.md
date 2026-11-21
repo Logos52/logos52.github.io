@@ -91,7 +91,7 @@ How would the week change if the end-of-week retrieval session were a fixed bloc
 
 ## Related pages
 
-- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: what the Sunday session is for.
+- [[wiki/Dimensions/Deep Processing|Prestudy]]: what the Sunday session is for.
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: why the gaps between these sessions grow.
-- [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]]: which retrieval methods to drop into the weekly and monthly slots.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Interleaving Table]]: which retrieval methods to drop into the weekly and monthly slots.
 - [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: how to keep these blocks from being eaten by whatever feels urgent that day.

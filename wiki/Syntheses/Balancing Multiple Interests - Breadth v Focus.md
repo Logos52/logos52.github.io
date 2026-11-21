@@ -129,7 +129,7 @@ The unused interests are still meant. The day is quiet enough to move the ones t
 - [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]]: protects the active set from daily drift
 - [[wiki/Decision Making/Decisional Delays|Decisional Delays]]: decision hygiene around whether to activate
 - [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: outcome-under-the-goal check before a season starts
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: isolation and a small active set
+- [[wiki/Dimensions/Mindset|Marginal Gains]]: isolation and a small active set
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]]: why open loops are expensive
 
 ## Sources

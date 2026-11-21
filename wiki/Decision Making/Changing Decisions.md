@@ -49,4 +49,4 @@ If someone opened a door I could not see when I first chose, what would switchin
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]: narrowing a large pile of options before you commit, which leaves fewer weak first picks to unwind later.
 - [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]]: judging a change by the position it leaves you in over many plays, not by how the last play felt.
 - [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: reopening the goal itself when new information shows it will not produce the outcome you want.
-- [[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]]: the bias that makes an equal gain feel too small to justify a change.
+- [[wiki/Dimensions/Mindset|Loss Aversion]]: the bias that makes an equal gain feel too small to justify a change.

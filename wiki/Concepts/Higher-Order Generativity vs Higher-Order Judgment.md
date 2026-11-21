@@ -109,7 +109,7 @@ With AI covering domain knowledge and jargon, what's left is creativity and tast
 
 ## Related pages
 
-- [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]: the thinking level both capabilities belong to.
+- [[wiki/Dimensions/Deep Processing|Higher-Order Learning]]: the thinking level both capabilities belong to.
 - [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]]: a wider comparison of what people and models each do well.
 - [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]]: why handing thinking to AI stops the skill from growing.
 - [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]]: grading a call when its outcome is slow to arrive.

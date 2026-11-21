@@ -137,7 +137,7 @@ When a step is skipped, the loop still recovers. A skipped prestudy shows up as 
 
 ## Related pages
 
-- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]: the frame before the main event
+- [[wiki/Dimensions/Deep Processing|Prestudy]]: the frame before the main event
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: the encoding engine
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: upkeep and gap finding
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]: the broader model behind the diagnosis

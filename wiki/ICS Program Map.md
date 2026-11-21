@@ -61,14 +61,14 @@ Related syntheses: [[wiki/Syntheses/ICS System|ICS System]] · [[wiki/Syntheses/
 *Where you control your own learning, and what the five dimensions are.*
 
 ### Introduction
-- [[wiki/Dimensions/Mindset/Locus of Control|Locus of Control]]
+- [[wiki/Dimensions/Mindset|Locus of Control]]
 - [[wiki/Syntheses/ICS System|ICS System]]
 - [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]
 
 ### Catalyst: *the five dimensions of learning*
 - [[wiki/Dimensions/Retrieval|Retrieval]] · [[wiki/Dimensions/Deep Processing|Deep Processing]] · [[wiki/Dimensions/Mindset|Mindset]] · [[wiki/Dimensions/Self-Management|Self-Management]] · [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Concepts/Declarative, Procedural, and Conditional Knowledge|Declarative, Procedural, and Conditional Knowledge]]
-- [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]
+- [[wiki/Dimensions/Dimensions of Learning|Declarative, Procedural, and Conditional Knowledge]]
+- [[wiki/Dimensions/Deep Processing|Deep Processing Tanking]]
 
 ---
 
@@ -80,17 +80,17 @@ Related syntheses: [[wiki/Syntheses/ICS System|ICS System]] · [[wiki/Syntheses/
 - [[wiki/Self Management/Procrastination - a System Problem|Procrastination - a System Problem]]
 
 ### Fundamentals: *retrieval at widening intervals, and accuracy before speed*
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] · [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]]
-- [[wiki/Concepts/Accuracy Before Speed|Accuracy Before Speed]]
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] · [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Interleaving Table]]
+- [[wiki/Dimensions/Self-Regulation|Accuracy Before Speed]]
+- [[wiki/Dimensions/Mindset|Marginal Gains]]
 
 ### 30-Day Plan: *a four-week practice track for each dimension*
 - [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] (hub)
-- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]] · [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset Challenge]] · [[wiki/Dimensions/30-Day Challenges/Retrieval Challenge|Retrieval Challenge]] · [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|Self-Management Challenge]] · [[wiki/Dimensions/30-Day Challenges/Self-Regulation Challenge|Self-Regulation Challenge]]
+- [[wiki/Dimensions/Deep Processing|Deep Processing Challenge]] · [[wiki/Dimensions/Mindset|Mindset Challenge]] · [[wiki/Dimensions/Retrieval|Retrieval Challenge]] · [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|Self-Management Challenge]] · [[wiki/Dimensions/Self-Regulation|Self-Regulation Challenge]]
 
 ### Fundamentals 2: *revision, scheduling, notes and exam technique*
-- [[wiki/Dimensions/Retrieval/Revision|Revision]] · [[wiki/Self Management/Study Scheduling|Study Scheduling]] · [[wiki/Domains/Miscellaneous/Exam Technique|Exam Technique]] · [[wiki/Domains/Miscellaneous/Exam Execution|Exam Execution]] (hub) · [[wiki/Domains/Miscellaneous/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]]
-- [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]] · [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]]
+- [[wiki/Dimensions/Retrieval|Revision]] · [[wiki/Self Management/Study Scheduling|Study Scheduling]] · [[wiki/Domains/Miscellaneous/Exam Technique|Exam Technique]] · [[wiki/Domains/Miscellaneous/Exam Technique|Exam Execution]] (hub) · [[wiki/Domains/Miscellaneous/Exam Technique|How to diagnose and fix exam mistakes]]
+- [[wiki/Dimensions/Deep Processing|Thinking on Paper - Mindmaps and Other Techniques]] · [[wiki/Dimensions/Deep Processing|Mindmaps]]
 
 ---
 
@@ -98,51 +98,51 @@ Related syntheses: [[wiki/Syntheses/ICS System|ICS System]] · [[wiki/Syntheses/
 *Slower change that retrains how you encode information and how you manage yourself.*
 
 ### Briefing: *bringing techniques into one system*
-- [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]] · [[wiki/Dimensions/Self-Management/Skills Audit|Skills Audit]]
-- [[wiki/Dimensions/Self-Regulation/Common Traps|Common Traps]] · [[wiki/Self Management/Techniques in School|Techniques in School]]
-- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]] · [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
+- [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]] · [[wiki/Dimensions/Dimensions of Learning|Skills Audit]]
+- [[wiki/Dimensions/Self-Regulation|Common Traps]] · [[wiki/Domains/Miscellaneous/Exam Technique|Techniques in School]]
+- [[wiki/Dimensions/Deep Processing|Prestudy]] · [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 
 ### Technique Training: *learning from questions you actually have*
-- [[wiki/Dimensions/Deep Processing/Inquiry-Based Learning|Inquiry-Based Learning]] · [[wiki/Dimensions/Deep Processing/Order Control|Order Control]]
-- [[wiki/Concepts/Cave Theory|Cave Theory]] · [[wiki/Dimensions/Deep Processing/Schema|Schema]] · [[wiki/Concepts/Memory Handling|Memory Handling]]
-- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] · [[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]]
+- [[wiki/Dimensions/Deep Processing|Inquiry-Based Learning]] · [[wiki/Dimensions/Deep Processing|Order Control]]
+- [[wiki/Concepts/Cave Theory|Cave Theory]] · [[wiki/Dimensions/Deep Processing|Schema]] · [[wiki/Concepts/Memory Handling|Memory Handling]]
+- [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] · [[wiki/Dimensions/Mindset|Loss Aversion]]
 
 ### Ascent I: *Aim, the first step of the Bear Hunter System*
-- [[wiki/Dimensions/Deep Processing/Aim|Aim]] · [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Aim]] · [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 
 ### Ascent II: *Shoot, and grouping by importance*
-- [[wiki/Dimensions/Deep Processing/Shoot|Shoot]] · [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
-- [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]] · [[wiki/Dimensions/Deep Processing/Problem-First Learning|Problem-First Learning]]
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Shoot]] · [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
+- [[wiki/Dimensions/Deep Processing|Layers of Learning]] · [[wiki/Dimensions/Deep Processing|Problem-First Learning]]
 
 ### Ascent III: *Skin, and refining the final grouping*
-- [[wiki/Dimensions/Deep Processing/Skin|Skin]] · [[wiki/Dimensions/Retrieval/WPW|WPW]]
+- [[wiki/Dimensions/Deep Processing/Bear Hunter System|Skin]] · [[wiki/Dimensions/Retrieval|WPW]]
 
 ### Base Camp: *habits, priorities and mindset*
 - [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]] · [[wiki/Self Management/Priority 0+1 System|Priority 0+1 System]]
-- [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]] · [[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]]
+- [[wiki/Dimensions/Mindset|Fixed vs Growth Mindset]] · [[wiki/Dimensions/Mindset|Neuroticism]]
 
 ### Camp I: *rote memorisation as a last resort*
-- [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Rote Learning and Memorisation]] · [[wiki/Dimensions/Retrieval/Revision|Revision]]
+- [[wiki/Dimensions/Retrieval|Rote Learning and Memorisation]] · [[wiki/Dimensions/Retrieval|Revision]]
 
 ### Camp II: *advanced retrieval and the minutes lost between tasks*
-- [[wiki/Dimensions/Retrieval/WPW|WPW]] · [[wiki/Dimensions/Retrieval/Revision|Revision]] · [[wiki/Decision Making/Decisional Delays|Decisional Delays]] · [[wiki/Self Management/Flow State|Flow State]]
+- [[wiki/Dimensions/Retrieval|WPW]] · [[wiki/Dimensions/Retrieval|Revision]] · [[wiki/Decision Making/Decisional Delays|Decisional Delays]] · [[wiki/Self Management/Flow State|Flow State]]
 
 ### Summit: *performing under pressure, and the multipass system*
-- [[wiki/Dimensions/Retrieval/Multipass System|Multipass System]]
-- [[wiki/Dimensions/Retrieval/Breaching Questions|Breaching Questions]] · [[wiki/Dimensions/Deep Processing/ReCOVer System|ReCOVer System]] · [[wiki/Dimensions/Self-Regulation/Silly Mistake Syndrome|Silly Mistake Syndrome]] · [[wiki/Dimensions/Retrieval/Group Study|Group Study]]
+- [[wiki/Dimensions/Retrieval|Multipass System]]
+- [[wiki/Dimensions/Retrieval|Breaching Questions]] · [[wiki/Dimensions/Deep Processing|ReCOVer System]] · [[wiki/Dimensions/Self-Regulation|Silly Mistake Syndrome]] · [[wiki/Dimensions/Retrieval|Group Study]]
 
 ---
 
 ## Support library
 *Modules outside the linear path, where Learning Support is the largest.*
 
-**Learning Support:** [[wiki/Syntheses/The 30-Day Plan|The 30-Day Plan]] · [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]] · [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery - From Recognition to Usable Knowledge]] · [[wiki/Dimensions/Self-Management/How to Ask for Feedback|How to Ask for Feedback]]
+**Learning Support:** [[wiki/Syntheses/The 30-Day Plan|The 30-Day Plan]] · [[wiki/Dimensions/Deep Processing|Higher-Order Learning]] · [[wiki/Dimensions/Deep Processing|Knowledge Mastery - From Recognition to Usable Knowledge]] · [[wiki/Dimensions/Self-Management/How to Ask for Feedback|How to Ask for Feedback]]
 
-[[wiki/Concepts/Reverse Causality|Reverse Causality]] · [[wiki/Concepts/Learning Efficiency|Learning Efficiency]] · [[wiki/Dimensions/Self-Regulation/Measuring Learning|Measuring Learning]] · [[wiki/Dimensions/Retrieval/Encoding and Retrieval|Encoding and Retrieval]] · [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated (when you don't feel like it)]]
+[[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Reverse Causality]] · [[wiki/Dimensions/Self-Regulation|Learning Efficiency]] · [[wiki/Dimensions/Self-Regulation|Measuring Learning]] · [[wiki/Concepts/Memory Handling|Encoding and Retrieval]] · [[wiki/Dimensions/Self-Regulation|How to shift your brain to be motivated (when you don't feel like it)]]
 
-- Decision-making: [[wiki/Decision Making/Decision Making|Decision Making]] · [[wiki/Decision Making/Changing Decisions|Changing Decisions]] · [[wiki/Decision Making/Choice Throttling|Choice Throttling]] · [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]] · [[wiki/Dimensions/Mindset/Perfectionism and Overthinking|Perfectionism and Overthinking]] · [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]]
-- Exam execution: [[wiki/Domains/Miscellaneous/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]
-- Self-management and wellbeing: [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]] · [[wiki/Dimensions/Self-Regulation/How to Maintain Sustainable Energy Under Pressure|How to Maintain Sustainable Energy Under Pressure]]
-- Live clinics: [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] · [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]] · [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] · [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] · [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] · [[wiki/Dimensions/Deep Processing/Deep Processing for Research|Deep Processing for Research]]
+- Decision-making: [[wiki/Decision Making/Decision Making|Decision Making]] · [[wiki/Decision Making/Changing Decisions|Changing Decisions]] · [[wiki/Decision Making/Choice Throttling|Choice Throttling]] · [[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]] · [[wiki/Dimensions/Mindset|Perfectionism and Overthinking]] · [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]]
+- Exam execution: [[wiki/Domains/Miscellaneous/Exam Technique|How to prepare for ultra high-volume exams]]
+- Self-management and wellbeing: [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]] · [[wiki/Dimensions/Self-Regulation|How to Maintain Sustainable Energy Under Pressure]]
+- Live clinics: [[wiki/Dimensions/Deep Processing|Interleaving for Complex Problem Solving]] · [[wiki/Dimensions/Deep Processing|Best-attempt Encoding]] · [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] · [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] · [[wiki/Dimensions/Self-Regulation|The Technique Is Only as Good as the Thinking It Produces]] · [[wiki/Dimensions/Deep Processing|Deep Processing for Research]]
 - Niche learning contexts: [[wiki/Self Management/Hyper-Focus and Hyper-Distractibility|Hyper-Focus and Hyper-Distractibility]]
-- Supplementary learning: [[wiki/Learning Craft/Clinical Learning System|Clinical Learning System]] · [[wiki/Learning Craft/Microlearning System|Microlearning System]]
+- Supplementary learning: [[wiki/Dimensions/Deep Processing|Clinical Learning System]] · [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Microlearning System]]

@@ -175,8 +175,8 @@ Who the system suits least is an open point. It assumes you are willing to spend
 ## Related pages
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]: the five capabilities in more depth
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]: why the thinking matters more than the method
+- [[wiki/Dimensions/Self-Regulation|The Technique Is Only as Good as the Thinking It Produces]]: why the thinking matters more than the method
 - [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]: a check for when a method looks right but is not working
-- [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]: what happens when processing breaks down
+- [[wiki/Dimensions/Deep Processing|Deep Processing Tanking]]: what happens when processing breaks down
 - [[wiki/Syntheses/Prestudy, BHS, and SIR - Turning Information into Usable Structure|Prestudy, BHS, and SIR]]: the core study loop
-- [[wiki/Learning Craft/AI-Assisted Learning Workflow|AI-Assisted Learning Workflow]]: using a model inside the system
+- [[wiki/Learning Craft/Don't Outsource the Learning|AI-Assisted Learning Workflow]]: using a model inside the system
