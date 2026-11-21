@@ -47,7 +47,7 @@ jobs:
         if: steps.kit.outcome == 'failure' && github.head_ref == 'cursor/llm-wiki-redesign-squash-df63'
         run: |
           ln -sfn "$RUNNER_TEMP/lint-kit/node_modules/.bin/kit" node_modules/.bin/kit
-          npx kit baseline adopt
+          npx kit baseline --prune
           if git diff --quiet .lint-kit-baseline.json; then
             echo "No baseline changes to adopt"
             exit 0
