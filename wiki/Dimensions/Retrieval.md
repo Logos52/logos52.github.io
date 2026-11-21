@@ -56,6 +56,10 @@ Mix methods across orders and knowledge types. Check answers only after an hones
 
 Retrieval time that stays high signals encoding gaps, not laziness. Each missed gap may cost ~5× the repetition to patch. Micro-retrieval in the moment (think before you write notes) and external answer checks for self-tests reduce blind spots. Pair with [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter]] maps when re-aiming gaps.
 
+## Four-week closed-book ramp
+
+Before relying on the full interleaving menu, the retrieval challenge month installs one habit: **close the source, then reconstruct**. Week one values the attempt over the score; week two varies recall as teaching, problem-solving, and writing; week three raises difficulty one lever at a time (fewer cues, more delay, mixed topics); week four restudies only failures, relating missed ideas instead of rereading. Repeating a week beats advancing with a fluent reread still in view—that pattern is passive review dressed as retrieval.
+
 ## Related pages
 
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — schedule and method menu.
