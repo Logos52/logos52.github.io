@@ -1,6 +1,6 @@
 ---
 title: "Knowledge Base as Thinking Partner"
-type: workflow
+type: practice
 status: developing
 created: 2026-05-12
 updated: 2026-09-11

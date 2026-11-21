@@ -1,7 +1,7 @@
 ---
 title: "Agentic Engineering, Condensed"
 type: concept
-status: developing
+status: stable
 created: 2026-11-10
 updated: 2026-11-10
 method: fresh-from-notes-2026-11-10

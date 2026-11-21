@@ -10,6 +10,10 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-11-22] compile | Working well with AI wiki rewrite
+
+- Collapsed six folded merge targets to single pages (~1k–1.7k words each). Trimmed `Working With a Model That Cannot Remember` to concept length. Practice/hub types on kept door pages.
+
 ## [2026-11-22] compile | Working well with AI wiki cut
 
 - Door cut: 18 kept, 28 merged into six targets, 5 unpublished research banks moved to `archive/unpublished/`.

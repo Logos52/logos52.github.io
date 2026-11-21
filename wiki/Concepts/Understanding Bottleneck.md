@@ -1,9 +1,9 @@
 ---
 title: Understanding Bottleneck
 type: concept
-status: seed
+status: stable
 created: 2026-05-02
-updated: 2026-11-11
+updated: 2026-11-22
 method: fresh-from-notes-2026-11-11
 prose-model: fable
 source-count: 1
