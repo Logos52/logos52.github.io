@@ -10,6 +10,12 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-11-22] compile | Making sense of the world wiki cut
+
+- Door cut: 15 kept, 36 merged into group hubs and book/concept targets, 5 research banks to `archive/unpublished/`.
+- `src/redirects/doors/world.json` (36 redirects). White Guilt and DEI as Anti-Discrimination bodies unchanged from `main`.
+- Merged into sprint trunk `cursor/llm-wiki-redesign-squash-df63` at `a8f9e66`.
+
 ## [2026-11-22] compile | Working well with AI wiki rewrite
 
 - Collapsed six folded merge targets to single pages (~1k–1.7k words each). Trimmed `Working With a Model That Cannot Remember` to concept length. Practice/hub types on kept door pages.
