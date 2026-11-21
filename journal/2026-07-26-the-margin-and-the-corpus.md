@@ -32,5 +32,5 @@ The episode is a panel with large positions in everything it discusses, and it s
 
 ## What landed
 
-- Strengthened: [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] (the unpursued-cheap-fix check), [[wiki/Concepts/Bias and Framing|Bias and Framing]] (first worked case), [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]], [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival — The Freight Signal]].
+- Strengthened: [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] (the unpursued-cheap-fix check), [[wiki/Concepts/Bias and Framing|Bias and Framing]] (first worked case), [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]], [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|America's Industrial Revival — The Freight Signal]].
 - Source: All-In Podcast, *The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?*, episode 282 (2026-07-25). Local transcript in `raw/processed`.

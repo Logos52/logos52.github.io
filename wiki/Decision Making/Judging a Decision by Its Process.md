@@ -90,7 +90,7 @@ In a high-control repeat, the result may amend the dated note. In a low-control 
 - [[wiki/Decision Making/Changing Decisions|Changing Decisions]]: the change review; the question of what would change my mind continues there.
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: after-action: what happened, what rule, what changes.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: performance as regulation instead of a verdict on the person.
-- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]: empathy replacing judgment.
+- [[wiki/Books/Suicidal Empathy|Suicidal Empathy]]: empathy replacing judgment.
 
 ## Open questions
 

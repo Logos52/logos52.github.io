@@ -46,7 +46,7 @@ I also kept links from Red Teaming into the current working system:
 - [[wiki/Decision Making/Decision Making|Decision Making]]
 - [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs]]
-- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
+- [[wiki/Books/Suicidal Empathy|Suicidal Empathy]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 
 ## What I Pruned From The Wiki And Would Cut From The Handbook
@@ -166,7 +166,7 @@ I also pruned the standalone cultural empathy direction.
 
 Cultural empathy was probably more important 20 years ago, especially in military contexts where mirror imaging and cultural ignorance were major operational failures.
 
-But today, in many Western contexts, the danger has shifted. Cultural empathy has often overcorrected into what Gad Saad calls [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]: empathy that becomes excessive, misactivated, or aimed at the wrong targets.
+But today, in many Western contexts, the danger has shifted. Cultural empathy has often overcorrected into what Gad Saad calls [[wiki/Books/Suicidal Empathy|Suicidal Empathy]]: empathy that becomes excessive, misactivated, or aimed at the wrong targets.
 
 That does not mean cultural empathy is useless.
 
@@ -244,5 +244,5 @@ The argument:
 - [[wiki/Decision Making/Judging a Decision by Its Process|Good Decisions]]
 - [[wiki/Techniques/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
-- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]
+- [[wiki/Books/Suicidal Empathy|Suicidal Empathy]]
 - [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]

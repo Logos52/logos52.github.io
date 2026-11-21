@@ -1,19 +1,19 @@
 ---
 title: "Per Capita"
 description: "Per capita turns a raw count into a rate per person, which shows how common something is and not why it happens."
-type: concept
-status: draft
+type: practice
+status: stable
 created: 2026-08-16
-updated: 2026-10-23
+updated: 2026-11-21
 method: fresh-v2-primer-multisource-2026-10-23
 section: "Worldviews & the Political Order"
 group: "How to read these arguments"
 tags:
   - argument
   - statistics
-wedge_reviewed: false
+wedge_reviewed: true
+domain: world
 ---
-> Not yet reviewed by Wedge.
 
 # Per Capita
 

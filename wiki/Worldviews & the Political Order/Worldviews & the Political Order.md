@@ -1,34 +1,46 @@
 ---
 title: "Worldviews & the Political Order"
-description: "Section hub for the Worldviews pages: seven groups by question, with the reading order and the sources behind the pages."
-type: hub
-status: seed
+description: "The door for political arguments on this wiki: seven question groups, shared reading tools, and the frame that ideas pay the minds that hold them."
+type: topic hub
+status: stable
 created: 2026-10-23
-updated: 2026-10-23
-method: restructure-2026-10-23
-section: "Worldviews & the Political Order"
+updated: 2026-11-21
 tags:
   - politics
   - hub
-wedge_reviewed: true
+domain: world
 ---
 
 # Worldviews & the Political Order
 
-The Worldviews section collects pages that each report the argument of a credited source, grouped by the question each page answers, and most of those sources are Basic Logic videos.
+This section is the wiki’s map for arguments about power, prosperity, group differences, guilt, immigration, and sex. Each group page holds the folded arguments that used to sit on separate note files; two pages on guilt and DEI stay separate because they are locked. The reading order starts with how to check an argument, then walks the seven questions in sequence.
 
-Each page says what its source argues and credits it, and the hubs below only restate what the pages say.
+## How the section is built
 
-Besides Basic Logic, the pages draw on Front Page videos, Triggernometry interviews, Naval, and videos by The Invisible Hand, Moon, Asmongold and Sam's POV. Some pages rest on reference sources instead, such as the Internet Encyclopedia of Philosophy, Wikipedia, Protocol I and RAND.
+Most arguments here come from credited public sources, especially Basic Logic videos, paraphrased without inline attribution. The pages are written for a reader who already holds a view and wants to see whether an opposing line of reasoning survives the checks in [[wiki/Worldviews & the Political Order/Group 1 - How to read these arguments|Group 1]]. [[wiki/Books/The Parasitic Mind|The Parasitic Mind]] supplies the door’s frame: ideas spread when they pay the person holding them, and the costliest ideas to test are the ones that travel fastest. [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory capture via doom-marketing]] and [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]] sit beside the groups because they are not video-by-video politics pages but cross-cutting patterns on technology and pace.
 
-Three groups rest on a single channel, since every page in Group 4, Group 5 and Group 6 reports a Basic Logic video and none includes an opposing source.
+## Reading order
 
-The reading order starts with the reasoning tools and then moves through the topic groups:
+1. [[wiki/Worldviews & the Political Order/Group 1 - How to read these arguments|Group 1 — How to read these arguments]] — Validity, soundness, hidden premises, and [[wiki/Worldviews & the Political Order/Per Capita|per capita]] rates.
+2. [[wiki/Worldviews & the Political Order/Group 2 - Who rules, and on what terms|Group 2 — Who rules, and on what terms]] — Democracy as a tool, organized minorities, faith and the state, proportionality.
+3. [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|Group 3 — Markets, states and prosperity]] — Planning, prices, country cases, and industrial signals.
+4. [[wiki/Worldviews & the Political Order/Group 4 - Do group gaps prove discrimination|Group 4 — Do group gaps prove discrimination]] — From outcome gaps to discrimination claims; locked companion [[wiki/Worldviews & the Political Order/DEI as Anti-Discrimination|DEI as Anti-Discrimination]].
+5. [[wiki/Worldviews & the Political Order/Group 5 - The racism charge and Western guilt|Group 5 — The racism charge and Western guilt]] — Moral language as leverage; locked companion [[wiki/Worldviews & the Political Order/White Guilt|White Guilt]].
+6. [[wiki/Worldviews & the Political Order/Group 6 - Immigration and the electorate|Group 6 — Immigration and the electorate]] — Cohesion, accountability, and who votes.
+7. [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|Group 7 — Sex, gender and family]] — Identity claims, feminism, schooling, dating markets.
 
-1. [[wiki/Worldviews & the Political Order/Group 1 - How to read these arguments|Group 1 - How to read these arguments]]: Two pages that give tools for checking the arguments in the rest of the section.
-2. [[wiki/Worldviews & the Political Order/Group 2 - Who rules, and on what terms|Group 2 - Who rules, and on what terms]]: Six pages on democracy, elites, voting, faith and the state's use of force, each reporting a credited source.
-3. [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|Group 3 - Markets, states and prosperity]]: Eight pages on why economies work or fail, from the price argument against planning to country cases.
-4. [[wiki/Worldviews & the Political Order/Group 4 - Do group gaps prove discrimination|Group 4 - Do group gaps prove discrimination]]: Five pages on whether a gap in outcomes between groups shows that discrimination caused it.
-5. [[wiki/Worldviews & the Political Order/Group 5 - The racism charge and Western guilt|Group 5 - The racism charge and Western guilt]]: Four pages on what the charge of racism does in an argument and on the case against European history.
-6. [[wiki/Worldviews & the Political Order/Group 6 - Immigration and the electorate|Group 6 - Immigration and the electorate]]: Three pages on assimilation, the grooming gang inquiry and how immigration changes who votes.
-7. [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|Group 7 - Sex, gender and family]]: Six pages on identity, feminism, single-sex spaces, schooling and the split between young men and women.
+Read [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] when a moral feeling is doing the work that evidence and proportion should do. Use [[wiki/Red Team/Red Teaming|Red Teaming]] on any page here the same way you would on a plan: state the steelman, name what would change your mind, then read the group that matches the question.
+
+## What this door is for
+
+Use this section when a headline or conversation turns on a political claim and you need the argument separated from the performance. The groups are topic hubs: they keep the material and sources from the folded pages without preserving every old URL. Redirects in `src/redirects/doors/world.json` point old paths at the group or book that now holds the text. Research banks for arguments that never had public pages were moved under `archive/unpublished/` and stay off the site.
+
+## Sources
+
+| Item | Note |
+| --- | --- |
+| Basic Logic (YouTube) | Primary channel for Group 2–7 argument pages |
+| Gad Saad, *The Parasitic Mind* (2020) | [[wiki/Books/The Parasitic Mind|The Parasitic Mind]] |
+| Gad Saad, *Suicidal Empathy* (2026) | [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] |
+| Internet Encyclopedia of Philosophy | Validity and soundness (via Group 1) |
+| Front Page, Triggernometry, Naval, and other credited hosts | Named on folded argument pages inside each group |

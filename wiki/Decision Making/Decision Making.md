@@ -122,7 +122,7 @@ An unanswered question about what to do next also spills into other work. Each s
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]]: looking back at what happened so the next attempt can change.
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: progress as a series of small improvements stacked on each other.
 - [[wiki/Red Team/Red Teaming|Red Teaming]]: finding what is wrong with a plan before reality does, including in the people who made it.
-- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]: empathy that misfires at the scale of a society, and the thinking errors it depends on.
+- [[wiki/Books/Suicidal Empathy|Suicidal Empathy]]: empathy that misfires at the scale of a society, and the thinking errors it depends on.
 
 ## Sources
 

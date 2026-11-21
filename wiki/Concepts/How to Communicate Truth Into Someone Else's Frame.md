@@ -90,7 +90,7 @@ If the large spoils arrived tomorrow, would I know the difference between a smal
 ## Related pages
 
 - [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]]: the honesty layer. The aim is to see clearly. Winning the frame is not the aim.
-- [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]]: the boundary where empathy stops being perception and becomes surrender.
+- [[wiki/Books/Suicidal Empathy|Suicidal Empathy]]: the boundary where empathy stops being perception and becomes surrender.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: small high-trust teams plus AI, where selling still happens.
 - [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: persuasion only if it connects to real building.
 - [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]]: a live obsession against a passing interest.

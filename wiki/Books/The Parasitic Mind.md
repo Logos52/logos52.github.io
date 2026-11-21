@@ -1,7 +1,8 @@
 ---
 title: "The Parasitic Mind"
 type: book
-status: developing
+status: stable
+domain: world
 source-count: 1
 created: 2026-05-06
 updated: 2026-09-11

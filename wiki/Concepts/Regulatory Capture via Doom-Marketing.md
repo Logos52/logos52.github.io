@@ -1,7 +1,8 @@
 ---
 title: "Regulatory Capture via Doom-Marketing"
 type: concept
-status: developing
+status: stable
+domain: world
 created: 2026-06-19
 updated: 2026-09-17
 method: plain-rewrite-2026-09-11

@@ -24,9 +24,9 @@ Being the table means only my needs count and the other person is there to fill 
 
 ## Where it goes
 
-- [[wiki/Concepts/Dating Apps - The Gini Coefficient|Dating Apps - The Gini Coefficient]]. T8, the honesty rule for profiles, and the swipe numbers in the Four Quadrants Bank.
-- [[wiki/Worldviews & the Political Order/Late Stage Feminism|Late Stage Feminism]]. T1, the table, and T4, the pull toward the richer man.
-- [[wiki/Worldviews & the Political Order/The Gen Z Gender War - The Split|The Gen Z Gender War - The Split]]. T6, what each sex minds about cheating, and T5, the circle.
+- [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|Dating Apps - The Gini Coefficient]]. T8, the honesty rule for profiles, and the swipe numbers in the Four Quadrants Bank.
+- [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|Late Stage Feminism]]. T1, the table, and T4, the pull toward the richer man.
+- [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|The Gen Z Gender War - The Split]]. T6, what each sex minds about cheating, and T5, the circle.
 - [[wiki/Concepts/Good Faith|Good Faith]]. T4, a partner who noticed a pull and said so at once, as a disclosure at her own expense.
 - [[wiki/Concepts/Levels of Thinking - The Step Back|Levels of Thinking - The Step Back]]. T2, the realization, as the move from three to four seen from inside.
 

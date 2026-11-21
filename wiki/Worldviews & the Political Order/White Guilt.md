@@ -95,10 +95,10 @@ None of the six establishes a debt owed today. A debt that needs uniqueness fail
 
 ## Related pages
 
-- [[wiki/Worldviews & the Political Order/The Indictment of Europe|The Indictment of Europe]]: the same three historical charges argued as a prosecution, not as a present debt.
-- [[wiki/Worldviews & the Political Order/Racial Egalitarianism - The Disparity Inference|Racial Egalitarianism - The Disparity Inference]]: the premise the systemic-advantage argument requires and does not supply.
-- [[wiki/Worldviews & the Political Order/Racial Fatigue|Racial Fatigue]]: what sustained demand for this debt produces in the people it is demanded from.
-- [[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]]: why a universal practice cannot ground a particular obligation.
+- [[wiki/Worldviews & the Political Order/Group 5 - The racism charge and Western guilt|The Indictment of Europe]]: the same three historical charges argued as a prosecution, not as a present debt.
+- [[wiki/Worldviews & the Political Order/Group 4 - Do group gaps prove discrimination|Racial Egalitarianism - The Disparity Inference]]: the premise the systemic-advantage argument requires and does not supply.
+- [[wiki/Worldviews & the Political Order/Group 4 - Do group gaps prove discrimination|Racial Fatigue]]: what sustained demand for this debt produces in the people it is demanded from.
+- [[wiki/Worldviews & the Political Order/Group 1 - How to read these arguments|Validity and Truth]]: why a universal practice cannot ground a particular obligation.
 
 ## Open questions
 

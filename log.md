@@ -291,8 +291,8 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-05-12] compile | Sell the Truth
 
 - Added [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]] as a credibility-first model of persuasion, leadership, deal-making, and rational empathy.
-- Connected the page to [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]], [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]], and [[private/Goals/Priority 0|Priority 0]].
-- Reworked [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] to reduce attribution language and sharpen the distinction between empathy as perception and empathy as judgment replacement.
+- Connected the page to [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking: Testing Frames]], [[wiki/Books/Suicidal Empathy|Suicidal Empathy]], [[wiki/Concepts/Agentic Engineering|Agentic Engineering]], [[wiki/Syntheses/Balancing Multiple Interests - Breadth v Focus|Balancing Multiple Interests: Breadth v Focus]], and [[private/Goals/Priority 0|Priority 0]].
+- Reworked [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] to reduce attribution language and sharpen the distinction between empathy as perception and empathy as judgment replacement.
 
 ## [2026-05-12] compile | How to Unlearn Old or Bad Habits Efficiently
 
@@ -588,7 +588,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 
 - Created dedicated book page [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] (high-signal operating synthesis: Core Thesis on decoupled empathy, chapter operating models, inoculation protocol from Chapter 8).
 - Updated [[wiki/Books/The Parasitic Mind|The Parasitic Mind]] with a short successor note positioning *Suicidal Empathy* as the emotional counterpart.
-- The existing [[wiki/Concepts/Suicidal Empathy|Suicidal Empathy]] concept page was already rewritten in the preferred high-signal style (operating models with `->` flows, sharp mechanisms, repair protocol, minimal throat-clearing).
+- The existing [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] concept page was already rewritten in the preferred high-signal style (operating models with `->` flows, sharp mechanisms, repair protocol, minimal throat-clearing).
 - Added the new book page to [[notes/index|Notes Index]].
 - Strengthened cross-links across Red Teaming, Decision Making, and communication pages (many already referenced the concept).
 
@@ -867,7 +867,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 ## [2026-06-19] compile | Maxinomics diptych → Money cluster
 - Sources: Maxinomics, "Americans Are About to Get a Lot Richer" (2026-05-30) and "Is SpaceX About to Rule the World?" (2026-06-11), transcripts in `raw/inbox`. Per Wedge: L3 Opus drafts first, then fold to wiki; SpaceX under Money; both pages get three perspectives (investor / everyday-American / Earth); expand the productivity-curve takeaway into its own researched page.
 - L3 drafts: `01 - Workbench/Opus - Americans Are About to Get a Lot Richer.md`, `01 - Workbench/Opus - Is SpaceX About to Rule the World.md`.
-- New pages: [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival — The Freight Signal]], [[wiki/Money/SpaceX & the Frontier Event|SpaceX & the Frontier Event]] (both with the three-perspective treatment; SpaceX links the private journal [[journal/2026-06-12-SpaceX-IPO-Stock-Craze-Future-Vision|SpaceX IPO]] and keeps the personal holding off the public page).
+- New pages: [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|America's Industrial Revival — The Freight Signal]], [[wiki/Concepts/Nothing Ever Happens Is Over|SpaceX & the Frontier Event]] (both with the three-perspective treatment; SpaceX links the private journal [[journal/2026-06-12-SpaceX-IPO-Stock-Craze-Future-Vision|SpaceX IPO]] and keeps the personal holding off the public page).
 - Productivity page is web-researched, not restated: macro data (~3.0% 2024, ~2.1% 2025) at/above the late-90s internet pace (~2.5%), but firm-level evidence inverts it (Feb 2026 NBER survey ~6,000 execs → ~90% no measurable gain; Solow paradox redux). Verdict: J-curve, attribution unproven. Sourced to BLS, Chicago Fed/CBO, McKinsey/NBER, AEI.
 - Backlinks: Americans page (bidirectional); Source Index two rows added (status compiled); notes/index.md rows added.
 - Parked, awaiting Wedge: inbox cleanup (delete junk `Give me 28 Minutes`; move 4 finished + 3 Hermes/Cowork sources to `raw/processed/`; archive 4 stale workbench L3s). CONTRADICTION surfaced: Wedge said "everything else has already been done" but ~10 inbox files have no synthesis output / Source Index entry — not actioned pending his call.
@@ -943,7 +943,7 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 ## [2026-07-26] ingest | All-In ep. 282 → three new concept pages, five strengthened
 
 - Source: All-In Podcast ep. 282, *The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?* (2026-07-25). Read by five parallel chapter agents plus a vault-cluster mapper; every page fact-checked against transcript lines and audited against the High-Signal Wiki Pages bar before promotion.
-- Strengthened: [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] gains a fourth check (is the cheaper remedy unpursued?). [[wiki/Concepts/Bias and Framing|Bias and Framing]] gains its first worked case (moral-predicate framing). Also [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]], [[wiki/Money/America's Industrial Revival - The Freight Signal|The Freight Signal]].
+- Strengthened: [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]] gains a fourth check (is the cheaper remedy unpursued?). [[wiki/Concepts/Bias and Framing|Bias and Framing]] gains its first worked case (moral-predicate framing). Also [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]], [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|The Freight Signal]].
 - Journal: [[journal/2026-07-26-the-margin-and-the-corpus|The Margin and the Corpus]].
 - **Not folded, by design (14 threads):** ARR/forecast state, the model leaderboard, policy and Polymarket state, the stock moves, the Apple buyback counterfactual, eviction economics, luxury beliefs, the Netscape/Apache chain, the 10%-of-revenue licensing pool, the IPO-derailment call, depreciation (never mentioned on air), and the segment's invented book titles and ad reads. Two errors recorded rather than repeated: a "95%" figure asserted as capability parity, silently converted to task coverage, then repeated as settled; and a housing segment that misstates the bill it read out ten minutes earlier and misattributes a John Adams quotation.
 

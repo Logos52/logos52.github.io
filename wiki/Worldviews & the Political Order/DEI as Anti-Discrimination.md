@@ -56,7 +56,7 @@ Each of the six, taken seriously, supports a policy the programs are not. Recrui
 
 Five of the defenses contain something real. Bias exists. Wide recruitment helps. Diversity in how people think helps. Representation matters. Equalising opportunity is the right aim. In each of the five cases, what survives supports a policy other than the one being proposed. One more survives in part: merit is open to dispute wherever no objective test settles the matter, and no further than that.
 
-Profits, morale, and market tailoring never needed the premise, and each of the three failed on its own ground. The remaining defenses depend on a single premise, that a gap between groups is evidence of a system acting on them. If the premise holds, they hold, and if it fails, they fail. That premise is examined on its own terms in [[wiki/Worldviews & the Political Order/Racial Egalitarianism - The Disparity Inference|the page on the disparity inference]]. The dispute is about that premise.
+Profits, morale, and market tailoring never needed the premise, and each of the three failed on its own ground. The remaining defenses depend on a single premise, that a gap between groups is evidence of a system acting on them. If the premise holds, they hold, and if it fails, they fail. That premise is examined on its own terms in [[wiki/Worldviews & the Political Order/Group 4 - Do group gaps prove discrimination|the page on the disparity inference]]. The dispute is about that premise.
 
 ## How to practice this
 
@@ -68,8 +68,8 @@ Profits, morale, and market tailoring never needed the premise, and each of the 
 
 ## Related pages
 
-- [[wiki/Worldviews & the Political Order/Racial Egalitarianism - The Disparity Inference|Racial Egalitarianism - The Disparity Inference]]: the premise underneath the equal-opportunity and historical-injustice defenses, argued directly rather than through policy.
-- [[wiki/Worldviews & the Political Order/Validity and Truth|Validity and Truth]]: why a claim that cannot be answered wrongly fails as an argument regardless of whether it is true.
+- [[wiki/Worldviews & the Political Order/Group 4 - Do group gaps prove discrimination|Racial Egalitarianism - The Disparity Inference]]: the premise underneath the equal-opportunity and historical-injustice defenses, argued directly rather than through policy.
+- [[wiki/Worldviews & the Political Order/Group 1 - How to read these arguments|Validity and Truth]]: why a claim that cannot be answered wrongly fails as an argument regardless of whether it is true.
 - [[wiki/Worldviews & the Political Order/White Guilt|White Guilt]]: the moral debt the historical-injustice defense assumes.
 
 ## Open questions

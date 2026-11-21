@@ -45,7 +45,7 @@ The wealth argument is set out in full on [[wiki/Money/The Almanack of Naval Rav
 
 Three related pages take parts of that argument further. [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]] covers returns that follow a power-law pattern, where time and optionality are the scarce resources. [[wiki/Concepts/A Motorcycle for the Mind|A Motorcycle for the Mind]] treats tools as a multiplier. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|A Return to Code]] covers programs cheap enough to write for a single person, a single job, or a single afternoon.
 
-Two more pages in this group apply the same interest in what a person actually pays for. [[wiki/Money/SpaceX & the Frontier Event|SpaceX & the Frontier Event]] says a payout at a new frontier goes to whoever solves the trip home, and that selling the ride is the business that lasts. [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival - The Freight Signal]] treats paid freight rates as revealed preference, a gap between speech and action that talk cannot spin.
+Two more pages in this group apply the same interest in what a person actually pays for. [[wiki/Concepts/Nothing Ever Happens Is Over|SpaceX & the Frontier Event]] says a payout at a new frontier goes to whoever solves the trip home, and that selling the ride is the business that lasts. [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|America's Industrial Revival - The Freight Signal]] treats paid freight rates as revealed preference, a gap between speech and action that talk cannot spin.
 
 [[wiki/Money/Money, Condensed|Money, Condensed]] puts the settled positions in short form.
 
@@ -61,8 +61,8 @@ Once pay arrives, it can be turned into freedom or into a more expensive life. H
 - [[wiki/Money/Time Beats Timing|Time Beats Timing]]: leaving money in place through crash years, rather than waiting for a clever start date
 - [[wiki/Money/Define Enough|Define Enough]]: a written finish line, measured in freedom
 - [[wiki/Money/Money as Life Energy|Money as Life Energy]]: hours already given in trade, used as the unit for a purchase
-- [[wiki/Money/SpaceX & the Frontier Event|SpaceX & the Frontier Event]]: a frontier payout that goes to whoever solves the trip home
-- [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival - The Freight Signal]]: paid freight rates as revealed preference
+- [[wiki/Concepts/Nothing Ever Happens Is Over|SpaceX & the Frontier Event]]: a frontier payout that goes to whoever solves the trip home
+- [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|America's Industrial Revival - The Freight Signal]]: paid freight rates as revealed preference
 - [[wiki/Money/Money, Condensed|Money, Condensed]]: the settled positions in short form
 - [[wiki/Minimalism/Ownership Cost|Ownership Cost]]: the attention and upkeep that continue after a purchase
 - [[wiki/Minimalism/Wanting Less|Wanting Less]]: naming a signalling motive before any ownership cost begins

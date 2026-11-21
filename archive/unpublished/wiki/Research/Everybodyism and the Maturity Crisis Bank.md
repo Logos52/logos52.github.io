@@ -26,13 +26,13 @@ At the sixth level of thinking every view is valid, so the rule becomes include 
 ## Where it goes
 
 - [[wiki/Worldviews & the Political Order/DEI as Anti-Discrimination|DEI as Anti-Discrimination]]. E2, "be inclusive or else" as what level four hears.
-- [[wiki/Worldviews & the Political Order/LGBT - Permission vs Promotion|LGBT - Permission vs Promotion]]. E5, the mosque and the gay bar, each with a place and not the same place.
-- [[wiki/Worldviews & the Political Order/Mass Immigration - Cohesion|Mass Immigration - Cohesion]]. E5, E7, everything in its right place, the city that integrates by rules, the tribe with no notes.
-- [[wiki/Worldviews & the Political Order/Moral Language as Leverage|Moral Language as Leverage]]. E2, E13, "must" standing for "I want," and rules built on being nice.
-- [[wiki/Worldviews & the Political Order/The Woke Mind Virus|The Woke Mind Virus]]. E2, E3, E9, a high level's idea abused by lower levels, and the insulated people who hold it.
-- [[wiki/Worldviews & the Political Order/Socialism as Moral Correction|Socialism as Moral Correction]] and [[wiki/Worldviews & the Political Order/Financial Slavery|Financial Slavery]]. E11, the battery and redistribution.
-- [[wiki/Worldviews & the Political Order/The Gen Z Gender War - The Split|The Gen Z Gender War - The Split]]. E13, the moral-development claim by sex, and E11.
-- [[wiki/Worldviews & the Political Order/Late Stage Feminism|Late Stage Feminism]]. E11, E12, the hive mind and the asymmetry.
+- [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|LGBT - Permission vs Promotion]]. E5, the mosque and the gay bar, each with a place and not the same place.
+- [[wiki/Worldviews & the Political Order/Group 6 - Immigration and the electorate|Mass Immigration - Cohesion]]. E5, E7, everything in its right place, the city that integrates by rules, the tribe with no notes.
+- [[wiki/Worldviews & the Political Order/Group 5 - The racism charge and Western guilt|Moral Language as Leverage]]. E2, E13, "must" standing for "I want," and rules built on being nice.
+- [[wiki/Worldviews & the Political Order/Group 2 - Who rules, and on what terms|The Woke Mind Virus]]. E2, E3, E9, a high level's idea abused by lower levels, and the insulated people who hold it.
+- [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|Socialism as Moral Correction]] and [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|Financial Slavery]]. E11, the battery and redistribution.
+- [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|The Gen Z Gender War - The Split]]. E13, the moral-development claim by sex, and E11.
+- [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|Late Stage Feminism]]. E11, E12, the hive mind and the asymmetry.
 - [[wiki/Dimensions/Mindset/Locus of Control|Locus of Control]]. E10, responsibility for the reaction.
 
 New pages this bank supports: Everybodyism - Everything in Its Right Place, and The Maturity Crisis, both under Worldviews and the Political Order. The owner said on 2026-09-08 that the second is to be written.
