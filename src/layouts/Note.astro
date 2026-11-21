@@ -1,21 +1,14 @@
 ---
 /**
  * Note.astro — the per-note page layout.
- * Replicates the DS NotePage (ui_kits/knowledge-base/screens.jsx): a two-column
- * grid `minmax(0,1fr) 240px` inside the 1080px container, with
- *   left  = <article data-pagefind-body> : mono breadcrumb, Ming <h1>, meta row
- *           (domain-colored pill type tag + "updated …"), then the prose <slot/>
- *           in the Ming serif at max ~64ch.
- *   right = sticky aside rail (top:80px) = constellation neighborhood + Toc (h2 only).
- *   Backlinks ("Linked from") sit at the end of the article, after the prose.
+ * NDC Whiteboard article layout: one centered column, no side rail (no local graph or TOC aside).
+ * Backlinks ("Linked from") sit at the end of the article, after the prose.
  *
  * Wraps Base (which owns <html data-accent="violet">, the DS css imports, the
  * no-flash theme script, Chrome + Footer). All tokens are DS custom properties.
  */
 import Base from './Base.astro';
-import Toc from '../components/Toc.astro';
 import Backlinks from '../components/Backlinks.astro';
-import Constellation from '../components/Constellation.astro';
 import type { Domain, GraphData, Backlink } from '../lib/types';
 
 interface Heading {
@@ -57,7 +50,7 @@ const LANDING: Record<string, string> = {
   journal: '/journal/',
   personal: '/personal/',
   projects: '/projects/',
-  notes: '/notes/',
+  notes: '/map/',
 };
 const slugParts = slug.replace(/^\/+/, '').replace(/\/+$/, '').split('/').filter(Boolean);
 const crumbs = slugParts.map((part, i) => {
@@ -68,7 +61,6 @@ const crumbs = slugParts.map((part, i) => {
 });
 
 const domainVar = `var(--d-${domain})`;
-const hasAside = true;
 ---
 
 <Base title={title} description={description || (updated ? `Updated ${updated}` : undefined)} active={active}>
@@ -111,17 +103,6 @@ const hasAside = true;
         </div>
         <Backlinks items={backlinks} />
       </article>
-
-      {
-        hasAside && (
-          <aside class="kb-note-aside">
-            <div class="kb-localgraph-wrap" aria-hidden="true">
-              <Constellation mode="local" seeds={[slug]} hops={2} height="118px" />
-            </div>
-            <Toc headings={headings} />
-          </aside>
-        )
-      }
     </div>
   </main>
 </Base>
@@ -131,12 +112,10 @@ const hasAside = true;
     flex: 1;
   }
   .kb-note-grid {
-    max-width: 1080px;
+    max-width: 42rem;
     margin: 0 auto;
-    padding: 34px 32px 0;
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 240px;
-    gap: 44px;
+    padding: 48px 28px 0;
+    display: block;
   }
 
   /* breadcrumb — DS .crumb / NotePage breadcrumb */
@@ -203,54 +182,12 @@ const hasAside = true;
     font-size: var(--kb-text-body);
     line-height: var(--kb-lh-note);
     color: var(--ink);
-    max-width: 64ch;
+    max-width: 100%;
   }
 
-  /* sticky aside rail */
-  .kb-note-aside {
-    position: sticky;
-    top: 80px;
-    align-self: start;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    /* its own scroll area (owner, 2026-09-05: "i expected the right side to be a separate
-       scroll area based on where my mouse is pointed"): the rail is capped at the viewport
-       and scrolls on its own; overscroll-behavior keeps a rail scroll from spilling into the page. */
-    max-height: calc(100vh - 80px);
-    overflow-y: auto;
-    overflow-x: hidden;
-    overscroll-behavior: contain;
-    scrollbar-width: thin;
-    /* the graph used to bleed 20px into the column gap with negative margins; the bleed now
-       lives on the rail itself so the scroll box does not clip it */
-    width: calc(100% + 40px);
-    margin-left: -20px;
-    margin-right: -20px;
-    padding: 0 20px 24px;
-  }
-  .kb-localgraph-wrap {
-    width: 100%;
-    overflow: visible;
-    z-index: 2;
-  }
-  .kb-localgraph-wrap :global(.constellation) {
-    width: 100%;
-  }
-
-  @media (max-width: 880px) {
+  @media (max-width: 640px) {
     .kb-note-grid {
-      grid-template-columns: minmax(0, 1fr);
-      gap: 28px;
-    }
-    .kb-note-aside {
-      position: static;
-      max-height: none;
-      overflow: visible;
-      width: 100%;
-      margin-left: 0;
-      margin-right: 0;
-      padding: 0;
+      padding: 36px 16px 0;
     }
   }
 </style>

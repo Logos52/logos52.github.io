@@ -65,6 +65,26 @@ export function readerTypeLabel(type: unknown): string | undefined {
   return TYPE_LABELS[key];
 }
 
+/** First markdown image in the body, resolved for the site root (no placeholder when absent). */
+export function deriveFirstImage(body?: string): string | undefined {
+  if (!body) return undefined;
+  const m = body.match(/!\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/);
+  if (!m) return undefined;
+  const raw = m[1].trim();
+  if (/^https?:\/\//i.test(raw)) return raw;
+  if (raw.startsWith('/')) return raw;
+  if (raw.startsWith('assets/')) return `/${raw}`;
+  return `/${raw.replace(/^\.\//, '')}`;
+}
+
+/** Folder trail for list rows, e.g. wiki / Concepts. */
+export function deriveSourceLine(slug: string): string {
+  const parts = slug.replace(/^\/+/, '').replace(/\/+$/, '').split('/').filter(Boolean);
+  if (parts.length <= 1) return parts[0]?.replace(/-/g, ' ') ?? '';
+  const folder = parts.slice(0, -1).map((p) => p.replace(/-/g, ' '));
+  return folder.join(' / ');
+}
+
 /** A one-line summary for cards / search rows: frontmatter blurb/description, else first prose line. */
 export function deriveSummary(data: { blurb?: unknown; description?: unknown }, body?: string): string {
   if (typeof data.blurb === 'string' && data.blurb.trim()) return data.blurb.trim();

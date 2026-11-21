@@ -19,7 +19,6 @@ const PAGES = [
   ['/map/', 'map/index.html'],
   ['/projects/', 'projects/index.html'],
   ['/about/', 'about/index.html'],
-  ['/notes/', 'notes/index.html'],
   ['/journal/', 'journal/index.html'],
 ];
 
