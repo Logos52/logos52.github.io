@@ -2,34 +2,27 @@
 title: Vietnamese Language Learning Resources
 type: resource-catalog
 status: developing
+domain: learning
 created: 2026-05-06
-updated: 2026-11-11
-method: fresh-from-notes-2026-11-11
-prose-model: opus
+updated: 2026-11-21
+method: integrated-merge-2026-11-21
 source-count: 78
-written-by: grok
-model: grok
-description: Public Vietnamese input, sound tools and immersion helpers, sorted by job and tagged by dialect where known.
-wedge_reviewed: false
+description: Public Vietnamese input, sound tools and immersion helpers, sorted by job and tagged by dialect where known, plus a grammar-noticing catalog.
 tags:
   - resources
   - vietnamese
   - language
 ---
 
+> Pick one dialect and favor its rows. The catalog is useless until a few links become daily listening—not a substitute for time in the language.
+
 # Vietnamese Language Learning Resources
 
-> Not yet reviewed by Wedge.
+**Northern** and **Southern** standards diverge in pronouns, particles, and some question words. Rows name the dialect when the source did; **dialect unmarked** means the spreadsheet was unsure—an honest blank beats a wrong label.
 
-Free Vietnamese resources sort into a few jobs, and rows carry a Northern or Southern tag where the source names the dialect. Pick one dialect and favor its rows. Many native channels are marked "dialect unmarked" rather than guessed. What matters is which handful of rows you end up hearing every day.
+Early hours go to **comprehensible input**. Sound work runs beside it because tones carry meaning. **Metalayers** add lookups on video; **seeder playlists** train recommendations toward Vietnamese.
 
-## How this list is used
-
-Vietnamese has two widely taught pronunciation standards, **Northern** and **Southern**. Most beginner channels declare one. Where the source spreadsheet was unsure of a channel's dialect, the row says "dialect unmarked". An honest blank is safer than a wrong label.
-
-Most early hours go to **comprehensible input**, which is speech you can already largely follow. Sound work runs beside it, since tones decide meaning. A **metalayer** is a browser extension laid over a video that adds dual subtitles or word lookups. A **seeder playlist** is a batch of videos watched to teach the recommendation feed to offer Vietnamese.
-
-Rows a stranger could not open, such as worksheets from the course, sign-up links and reflection forms, are not listed. One children's row in the source pointed at the wrong channel, so it is dropped.
+Private worksheets, sign-up links, and one broken children's row from the source are omitted.
 
 ## The list, by job
 
@@ -83,8 +76,6 @@ Rows a stranger could not open, such as worksheets from the course, sign-up link
 
 ### Optional decks
 
-Decks are optional, and input comes first.
-
 | Resource | Notes |
 |---|---|
 | [Xefjord's Complete Vietnamese](https://www.dropbox.com/sh/g4iz7sw992qzieg/AAD-iCCcDrUmfUPsXU3JtvWLa?dl=0) | Community deck |
@@ -119,8 +110,6 @@ Decks are optional, and input comes first.
 
 ### News and native stretch
 
-Harder native news and channels build tolerance for stretches you cannot follow yet.
-
 | Resource | Notes |
 |---|---|
 | [SBS Vietnamese](https://www.sbs.com.au/language/vietnamese/vi) | News in Vietnamese |
@@ -146,7 +135,7 @@ Harder native news and channels build tolerance for stretches you cannot follow 
 | [Vietnam Booking](https://www.youtube.com/@VietnamBookingCorp) | Dialect unmarked, Travel |
 | [Vietnamese Living in Japan](https://www.youtube.com/@VietnameselivinginJapan) | Dialect unmarked, Vlogs |
 
-### Grammar, hours, timer
+### Grammar reference, hours, timer
 
 | Resource | Notes |
 |---|---|
@@ -156,128 +145,69 @@ Harder native news and channels build tolerance for stretches you cannot follow 
 | [Toggl Tutorial (tutorial)](https://www.youtube.com/watch?v=dm6RYK9J61k) | Optional timer tutorial |
 | [Download Toggl](https://track.toggl.com/) | Optional timer |
 
-## What becomes daily
+## Grammar patterns for noticing
 
-A catalog is only useful once a few rows turn into habits, and choosing resources can quietly take the place of watching them. Test a few rows in your chosen dialect for a week, then keep whichever ones you go back to without effort. Mark retired rows instead of deleting them, so the list keeps a record of what failed.
+Vietnamese is **analytic**: meaning rides on separate words and word order; verbs do not conjugate. This catalog is for **recognition in input**, not memorization for output. Examples below are writer-invented until a native check replaces them—use them to spot patterns, not as authority.
 
-## Open questions
+**Before you start:** some listening or video already running, basic tones, a popup dictionary, and a **dialect choice**. Tables use **Northern** textbook forms unless a Southern difference is marked ([[wiki/Language/Refold Language Learning System|Refold Language Learning System]] preparation and [[wiki/Language/Refold Language Learning System|Refold Grammar Primers]] describe the same notice-in-input loop).
 
-- How do I confirm the dialect of an unmarked channel quickly before I commit time to it?
-- After a week of testing, how do I choose which rows become my daily defaults?
-
-## Sources
-
-- Refold, "Language Resource Database", Vietnamese tab. Private course spreadsheet, public links kept, notes paraphrased.
-- Refold, "Day 4: Compelling Content", "Day 8: Hearing New Sounds" and "Day 10: Immersion Metalayers". Private course notes, paraphrased.
-
-## Related pages
-
-- [[wiki/Dimensions/Retrieval|Retrieval]]: how memory is trained, which no catalog replaces
-- [[wiki/Dimensions/Self-Management|Self-Management]]: keeping the daily habit going
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: where an optional deck fits
-- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]: fixed-length practice plans
-- [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]]: using Sino-Vietnamese vocabulary as a head start on Mandarin
-
-## Vietnamese Grammar Primer
-
-The Vietnamese grammar primer is a short catalog of the separate words and the word order that express meaning in Vietnamese. Its purpose is noticing these patterns in real speech. It is not a list to memorize for output. Vietnamese expresses meaning with separate words and with word order, and the verb does not change form. In linguistics, a language that works this way is called analytic. The catalog is not a comprehensive grammar.
-
-## How this catalog is used
-
-The writer invented the example sentences below. A native speaker still needs to check them against references and against real immersion. They can be used now to look for the patterns in input. They are not yet a reliable authority.
-
-Before using the catalog, the learner needs a small base: some listening or video input already in progress, basic tones and pronunciation, a small set of words, a popup dictionary (any app of that type; no app is named), and a decision about dialect. The dialect decision is required. Pronouns, particles, and some question words differ between dialects. The forms listed here are the Northern forms that textbooks use, so that each table uses one set of forms. A Southern form is marked only where it actually differs. The catalog does not choose the reader's input material.
-
-The catalog is a comprehension aid. The learner recognizes the patterns in subtitles, speech, comments, captions, and learner material. The learner does not memorize every structure before starting immersion. The learner reads one small section, goes back to watching or reading content, and notices the pattern there. This loop comes from the related page [[wiki/Language/Refold Language Learning System|grammar primer]], which sets out the approach and the loop that this catalog supports. Five steps to do tomorrow: read one section; choose one pattern; watch or read; mark examples; return when the same confusion repeats. [[wiki/Language/Refold Language Learning System|Noticing Game]] describes how to look for the chosen pattern in input. [[wiki/Language/Refold Language Learning System|Hacking Comprehension Menu]] describes how to keep input at a level the learner can understand. [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]] lists videos and channels in which to mark patterns. [[wiki/Language/Refold-Language-Learning-System|Preparation]] is the pillar that this orientation material belongs to.
-
-## Extra words and word order that mark grammar
-
-Word order, particles, classifiers, aspect markers, pronouns, and context express much of the meaning. The basic sentence is often SVO (subject, verb, object): `Tôi học.` / `Tôi học tiếng Việt.` Topic-fronting is common: a topic can come before the subject, verb, and object. So "always SVO" is an incorrect rule. Serialization also occurs in Vietnamese, and this catalog has no section on it.
-
-A Vietnamese verb has one form. It does not change for person or for time. Time words and the surrounding situation express what English expresses with verb endings.
-
-The table lists four aspect markers. They are not tenses. They are optional, and more than one can be used in the same sentence. None of them matches one English tense exactly.
+Default **SVO** (Tôi học tiếng Việt), but **topic-fronting** is common. Time and aspect use separate markers—not English tense endings:
 
 | Marker | What it often signals | Usual position | Sentence |
 |---|---|---|---|
 | `đã` | past, or completed | before the verb | `Tôi đã ăn cơm.` |
 | `đang` | ongoing | before the verb | `Tôi đang học tiếng Việt.` |
 | `sẽ` | upcoming | before the verb | `Tôi sẽ đi Hà Nội.` |
-| `rồi` | completion or a change of state | after the phrase, or at the end | `Tôi ăn rồi.` |
+| `rồi` | completion or change of state | after the phrase | `Tôi ăn rồi.` |
 
-To tell `đã` and `rồi` apart, look at position: `đã` comes before the verb, and `rồi` comes after. Both can express completion.
+`đã` sits before the verb; `rồi` after—both can mark completion. **Negation:** `không` + verb/adjective; `chưa` = not yet (`Tôi chưa ăn`).
 
-Negation is common and comes up early. `không` plus a verb or adjective means "not" / "no": `Tôi không biết.` `chưa` plus a verb means "not yet," and it implies that the action has still not happened: `Tôi chưa ăn.`
+**Questions:** wh-words stay **in situ** (`Bạn tên gì?`). Yes/no uses `có ... không` (`Bạn có khỏe không?`); `chưa` can end a question ("yet?": `Ăn cơm chưa?`).
 
-Question words stay in place. They do not move to the front of the sentence. The question words to recognize are `ai`, `gì`, `ở đâu`, `khi nào` (Southern and general) / `bao giờ` (Northern), `tại sao` / `vì sao`, and `như thế nào`. `Bạn tên gì?` asks for a name, and `gì` has not moved to the front. The goal is to recognize when a sentence asks for missing information. Producing a question on command is not part of the goal.
+**Kinship address** replaces neutral I/you with relationship terms—variation is social, not a small rule list. Immersion is the real teacher here.
 
-Yes/no questions use the pattern `có ... không`: `Bạn có khỏe không?` `chưa` can also end a question, with the meaning "yet?": `Ăn cơm chưa?`
+**Classifiers** in counted nouns: number + classifier + noun. Notice often: `cái` (inanimate), `con` (animals/motion), `người` (people).
 
-## Kinship address
+**Modifiers** usually follow nouns (`nhà đẹp`). **Possession:** noun + `của` + person (`nhà của tôi`), or context alone.
 
-In Vietnamese, the choice of how to address someone is a social act. Speakers use family words and relationship terms for themselves and for the other people in the conversation, where English uses a single neutral I and you. This system is called kinship address.
+**Location words** to spot in visual media: `ở`, `trong`, `ngoài`, `trên`, `dưới`, `trước`, `sau`, `bên cạnh`.
 
-The choice of term depends on age, relationship, politeness, intimacy, and context. The same English "you" can appear as many different Vietnamese forms in a single afternoon. Immersion is essential here, because pronouns are social behavior as well as vocabulary. A written rulebook leaves out most of that variation. The catalog points out what the rulebook leaves out, so that the learner marks the address terms in the next conversation and does not translate them all into a single English I/you pair.
+**Particles** (`à`, `ạ`, `nhé`/`nha`, `mà`, `thì`) carry politeness and tone—learn from situations, not from cramming the list.
 
-## Classifiers, modifiers, particles
+### Five noticing drills
 
-When a noun is counted, a small word that indicates the noun's type goes with it. That word is a classifier. The order is number + classifier + noun. Three classifiers appear very often: `cái` for inanimate things (`một cái bàn`), `con` for animals or things in motion (`hai con chó`), and `người` for people (`một người bạn`). The catalog lists only these three and is not a full inventory of classifiers.
-
-Descriptive modifiers often come after the noun. `nhà đẹp` means "beautiful house". This is the most useful difference from English to notice, because the adjective comes in a position where English does not put it.
-
-Possession can be expressed with `của`, in the order noun + `của` + person or noun: `nhà của tôi`. The same relation can also be understood from context, without `của`.
-
-Location words are especially useful to notice in visual content, because what is shown on screen can confirm their meaning: `ở`, `trong`, `ngoài`, `trên`, `dưới`, `trước`, `sau`, `bên cạnh`.
-
-Particles add tone, politeness, confirmation, or emphasis: `à` (surprise or confirm), `ạ` (polite), `nhé` (Northern softener) / `nha` (Southern softener), `mà` (contrast), `thì` (topic). Examples: `Cảm ơn ạ.` `Đi đi nhé.` This list is not a course. Learners do not master particles by studying a list. They notice particles in context and connect each one to the social situation in which a speaker used it.
-
-## Quick reference and noticing exercises
-
-| Area | Early noticing target |
-|---|---|
-| Extra words | Meaning expressed by separate words and word order, not by verb endings |
-| Word order | SVO as the default order; a topic can come first |
-| Aspect | `đã` / `đang` / `sẽ` before the verb; `rồi` after |
-| Negation | `không` not; `chưa` not yet |
-| Questions | words stay in place; `có ... không`; `chưa` as "yet?" |
-| Address | kinship and relationship terms used in place of I/you |
-| Classifiers | number + `cái` / `con` / `người` + noun |
-| Modifiers | noun then adjective: `nhà đẹp` |
-| Possession | noun + `của` + person, or context alone |
-| Particles | `à` `ạ` `nhé`/`nha` `mà` `thì`, learned in the situation where they are used, not from this row |
-
-Five noticing exercises, each using one pattern and one piece of input:
-
-- Mark every `không`, `đã`, `đang`, or `sẽ` in a short video.
-- Identify question words in one learner video.
-- List pronouns and address terms in one conversation.
+- Mark every `không`, `đã`, `đang`, or `sẽ` in one short video.
+- List question words in one learner clip.
+- Track pronouns and address terms in one conversation.
 - Check one `của` phrase in a dictionary.
 - Find three noun + adjective phrases in subtitles.
 
-A catalog with ten rows will miss many usages, and it does not cover serialization. A reader who wants conjugation tables will stop using it. Using the catalog takes one section plus one video. It does not take a grammar course. The sign to quit is any of these: tables are being memorized, input is postponed until the catalog is "finished," or particles are being learned from the six-item list above. The result to check for: the learner can mark the chosen pattern in the next short video, while the learner's knowledge of the pattern is still incomplete.
+**Quit signals:** memorizing tables, postponing input until the catalog is "done," or learning particles only from the list above.
 
-After a pattern has a name, the steps are the same short list: watch a video with one row in mind, mark what matches that row, and come back to the catalog when the same confusion repeats.
+## What becomes daily
 
-## Related pages
+Test a few rows in your chosen dialect for a week; keep those you reopen without effort. Mark retired rows instead of deleting them.
 
-- [[wiki/Language/Refold Language Learning System|grammar primer]]: the approach and loop that this catalog supports
-- [[wiki/Language/Refold Language Learning System|Noticing Game]]: how to look for the chosen pattern in input
-- [[wiki/Language/Refold Language Learning System|Hacking Comprehension Menu]]: how to keep input at a level the learner can understand
-- [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]]: videos and channels in which to mark patterns
-- [[wiki/Language/Refold-Language-Learning-System|Preparation]]: the pillar that this orientation material belongs to
+## Open questions
 
-## Open Questions
-
-Which public source of checked example sentences should replace the writer-invented ones after a native check?
+- How do you confirm dialect on an unmarked channel before committing time?
+- Which tested rows become daily defaults after a week?
 
 ## Sources
 
-Wikipedia contributors. "Vietnamese grammar." Analytic typology, SVO as a default, topic-prominence, classifiers, wh-in-situ, kinship terms.
+| Source | Role on this page |
+| --- | --- |
+| Refold, Language Resource Database, Vietnamese tab | Public links and dialect notes. |
+| Refold, Day 4, Day 8, Day 10 course notes | Job sorting and immersion tooling. Private material, paraphrased. |
+| Wikipedia, "Vietnamese grammar" | Analytic typology, SVO default, classifiers, wh-in-situ. |
+| Vietnamese Maestro | Question-word placement. |
+| Thompson (1965), *A Vietnamese Grammar* | Particles and analytic structure. |
+| Luong (1990) | Kinship terms as person reference. |
+| Giang (2008) | Corpus notes on `con` and `cái` as frequent classifiers. |
 
-Vietnamese Maestro. Question-word placement: words stay in situ.
+## Related pages
 
-Thompson, L. C. (1965). *A Vietnamese Grammar*. University of Washington Press. Main descriptive source for analytic structure and particles.
-
-Luong, H. V. (1990). *Discursive Practices and Linguistic Meanings: The Vietnamese System of Person Reference*. John Benjamins. Kinship terms as pronouns.
-
-Giang, H. (2008). Corpus study of `con` and `cái`. The two frequent classifiers this page uses as examples to notice, not as an inventory.
+- [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]]: Sino-Vietnamese vocabulary toward Mandarin.
+- [[wiki/Language/Refold Language Learning System|Refold Language Learning System]]: preparation, noticing, and comprehension menu.
+- [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]]: next language once Vietnamese input is stable.
+- [[wiki/Dimensions/Retrieval|Retrieval]]: memory training beside catalogs.

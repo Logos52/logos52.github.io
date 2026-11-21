@@ -2,38 +2,29 @@
 title: Mandarin Chinese Language Learning Resources
 type: resource-catalog
 status: developing
+domain: learning
 created: 2026-05-06
-updated: 2026-11-11
-method: fresh-from-notes-2026-11-11
-prose-model: opus
+updated: 2026-11-21
+method: integrated-merge-2026-11-21
 source-count: 83
-written-by: grok
-model: grok
 description: Public Mandarin input, sound tools and immersion helpers, sorted by the job each one does.
-wedge_reviewed: false
 tags:
   - resources
   - mandarin
   - language
 ---
 
+> Free Mandarin links are a menu, not a curriculum. Pick a handful for a week; keep the rows you reopen without forcing yourself.
+
 # Mandarin Chinese Language Learning Resources
 
-> Not yet reviewed by Wedge.
+Most early hours belong to **comprehensible input**—speech you can mostly follow—while sound charts and tone trainers run beside it. **Simplified** vs **Traditional** script and **burned-in** vs **toggleable** subtitles matter on every row. A **metalayer** adds lookups on video; a **seeder playlist** trains the feed to offer more Mandarin.
 
-Free Mandarin resources sort into a few jobs. Easy input comes first, then sound and script, then tools, then native shows and channels. Every row is a public link with a short note on script and subtitles. The list is a starting menu. The real test is which few rows turn into daily listening.
-
-## How this list is used
-
-Most of the early time goes to **comprehensible input**, meaning speech you can mostly follow already. Graded playlists and slow podcasts do that job. Sound work runs beside it. Pinyin charts and tone trainers help the ear catch differences it would otherwise miss.
-
-Two script labels matter on every row. **Simplified** characters are standard in mainland China, and **Traditional** characters are used in Taiwan and Hong Kong. Subtitles also come in two kinds. **Burned-in subs** are part of the picture, while **toggleable subs** can be switched off. A **metalayer** is a browser add-on that sits on top of a video and adds word lookups or dual subtitles. A **seeder playlist** is a set of videos you watch so the recommendation feed starts suggesting Mandarin.
-
-Course worksheets, private sign-up links and reflection forms are left out, since a stranger cannot open them.
+Course worksheets, private sign-up links, and reflection forms are omitted because strangers cannot open them.
 
 ## The list, by job
 
-Rows marked "top pick" were rated highest in the collection this list comes from.
+Rows marked "top pick" were rated highest in the source collection.
 
 ### Beginner and graded input
 
@@ -74,8 +65,6 @@ Rows marked "top pick" were rated highest in the collection this list comes from
 
 ### Noticing, seeders, harder channels
 
-The first rows help you start a recommendation feed. The last rows are harder native material for practicing patience with what you do not understand yet.
-
 | Resource | Notes |
 |---|---|
 | [Noticing game](https://youtu.be/1azQp3N_IAI) | How to play the noticing game |
@@ -87,8 +76,6 @@ The first rows help you start a recommendation feed. The last rows are harder na
 | [星悦小美女PKU Lila](https://www.youtube.com/@pkulila5658/videos) | Simplified, vlogs by a fluent non-native speaker |
 
 ### Optional decks
-
-A deck is optional. Input comes first.
 
 | Resource | Notes |
 |---|---|
@@ -154,26 +141,23 @@ A deck is optional. Input comes first.
 
 ## What becomes daily
 
-A catalog only helps if a handful of rows become habits. Picking resources can quietly replace watching them. The useful move is to try a few rows for a week and keep the ones you return to without effort. Retired rows can then be marked rather than deleted, so the list records what failed.
+Try a few rows for a week; keep those you return to without effort. Mark retired rows instead of deleting them so the list records what failed.
 
 ## Open questions
 
-- How do I decide after a week of testing which rows become daily defaults?
-- How do I tag each tested row as beginner, bridge, native or stretch so the tag reflects my own comprehension?
+- After a week of testing, which rows become daily defaults?
+- How should each tested row be tagged (beginner, bridge, native, stretch) for your own comprehension?
 
 ## Sources
 
-- Refold, "Language Resource Database", Mandarin tab. Private course spreadsheet, public links kept, notes paraphrased.
-- Refold, "Day 4: Compelling Content", "Day 8: Hearing New Sounds" and "Day 10: Immersion Metalayers". Private course notes, paraphrased.
+| Source | Role on this page |
+| --- | --- |
+| Refold, Language Resource Database, Mandarin tab | Public links and notes from the course spreadsheet. |
+| Refold, Day 4 Compelling Content; Day 8 Hearing New Sounds; Day 10 Immersion Metalayers | How the list was sorted by job. Private course notes, paraphrased. |
 
 ## Related pages
 
-- [[wiki/Dimensions/Retrieval|Retrieval]]: how memory is trained, which no catalog replaces
-- [[wiki/Dimensions/Self-Management|Self-Management]]: keeping the daily habit going
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: where an optional deck fits
-- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]]: fixed-length practice plans
-- [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]]: the head start a Vietnamese speaker brings to Mandarin
-- [[wiki/Language/Chinese/How Chinese Characters Work|Character Primer]]: how character scripts work
-- [[wiki/Language/Refold Language Learning System|Hacking Comprehension Menu]]: ways to make native content easier to follow
-- [[wiki/Language/Refold Language Learning System|YouTube Immersion Account]]: training the feed to suggest Mandarin
-- [[wiki/Language/Refold Language Learning System|Noticing Game]]: a small goal for input that is still too hard
+- [[wiki/Language/Refold Language Learning System|Refold Language Learning System]]: where immersion and noticing fit.
+- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]: script study beside this input menu.
+- [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]]: Vietnamese speakers crossing into Mandarin.
+- [[wiki/Dimensions/Retrieval|Retrieval]]: memory work no catalog replaces.
