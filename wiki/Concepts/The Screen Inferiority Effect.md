@@ -36,7 +36,11 @@ Research that asks learners to read deeply on screen — comparing, questioning,
 
 ## Practical defaults
 
-For a long engagement with one subject, a physical book already bundles calm line length, stable layout, and fewer pop-ups. On screen, use one window, narrow the column, print if you will flip back and forth often, and treat “I scrolled a lot” as unrelated to “I can use this.” When the material demands it, slow down and run the same relational thinking you would on paper — see [[wiki/Dimensions/Deep Processing|Deep Processing]] and [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] for what that thinking is and how it gets skipped.
+For a long engagement with one subject, a physical book already bundles calm line length, stable layout, and fewer pop-ups. On screen, use one window, narrow the column to roughly forty-five to seventy characters per line, and turn off feeds and badges that trade attention for engagement. If you will jump between distant sections, printing or a fixed second pane beats endless scroll — spatial memory is part of recall.
+
+Treat scrollbar motion and “pages read” as unrelated to whether you can explain, compare, or apply the material. Pausing every few paragraphs to answer a question with the source hidden is a stronger progress signal than coverage; that depth requirement is what removes the paper advantage in follow-up studies.
+
+When the material demands it, slow down and run relational thinking — linking to prior ideas, ranking importance, testing whether an explanation could be wrong — the same work [[wiki/Dimensions/Deep Processing|Deep Processing]] describes. [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] names how highlight-and-scroll sessions fake that work on any surface.
 
 ## Related pages
 

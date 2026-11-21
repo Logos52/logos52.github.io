@@ -66,6 +66,10 @@ The **locus of control** rule: steer only what you can direct — process, metho
 
 **Overthinking** is redirected, not suppressed — targeted lists and one controllable action beat rumination.
 
+## In the learning system
+
+Mindset is one of five dimensions in [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]. It rarely limits alone: weak self-management prevents honest practice; weak self-regulation wastes encoding skill; shallow processing and weak retrieval hide behind “I am not talented enough” when the real block is method. Mindset work clears space for those dimensions to be trained — especially tolerating desirable difficulty and treating low scores on a method as data for the next marginal change, not as identity.
+
 ## Related pages
 
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — where mindset sits in the five-dimension map.
