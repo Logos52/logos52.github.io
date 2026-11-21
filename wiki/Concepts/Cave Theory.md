@@ -60,7 +60,7 @@ Which piece of knowledge you hold most securely did you learn without treating i
 
 ## Related pages
 
-- [[wiki/Dimensions/Deep Processing/Schema|Schema]]: the wider network that organic connecting is trying to grow.
+- [[wiki/Dimensions/Deep Processing|Schema]]: the wider network that organic connecting is trying to grow.
 - [[wiki/Concepts/Memory Handling|Memory Handling]]: what happens to material once it has, or has not, been given a purpose.
-- [[wiki/Dimensions/Deep Processing/Order Control|Order Control]]: keeping the problem in charge of what gets learned next.
-- [[wiki/Dimensions/Deep Processing/Inquiry-Based Learning|Inquiry-Based Learning]]: asking your own questions of a text, which is one early way to restore purposeful focus.
+- [[wiki/Dimensions/Deep Processing|Order Control]]: keeping the problem in charge of what gets learned next.
+- [[wiki/Dimensions/Deep Processing|Inquiry-Based Learning]]: asking your own questions of a text, which is one early way to restore purposeful focus.

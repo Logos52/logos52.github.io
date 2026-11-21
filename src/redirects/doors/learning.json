@@ -1,0 +1,378 @@
+[
+  {
+    "from": "/wiki/Concepts/Declarative,-Procedural,-and-Conditional-Knowledge/",
+    "to": "/wiki/Dimensions/Dimensions-of-Learning/"
+  },
+  {
+    "from": "/wiki/Concepts/Learning-Styles-Myth-and-Multimodal-Learning/",
+    "to": "/wiki/Dimensions/Dimensions-of-Learning/"
+  },
+  {
+    "from": "/wiki/Techniques/Technique-Training--and--Fundamentals/",
+    "to": "/wiki/Dimensions/Dimensions-of-Learning/"
+  },
+  {
+    "from": "/wiki/Techniques/Techniques---Learning-Craft/",
+    "to": "/wiki/Dimensions/Dimensions-of-Learning/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Management/Skills-Audit/",
+    "to": "/wiki/Dimensions/Dimensions-of-Learning/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Best-attempt-Encoding/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Deep-Processing-Tanking/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Deep-Processing-for-Research/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Higher-Order-Learning/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Inquiry-Based-Learning/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Interleaving-for-Complex-Problem-Solving/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Knowledge-Mastery---From-Recognition-to-Usable-Knowledge/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Layers-of-Learning/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Mindmaps/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Order-Control/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Prestudy/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Problem-First-Learning/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/ReCOVer-System/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Schema/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Thinking-on-Paper---Mindmaps-and-Other-Techniques/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Dimensions/30-Day-Challenges/Deep-Processing-Challenge/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Learning-Craft/Clinical-Learning-System/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Learning-Craft/Rapid-Skill-Acquisition/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Learning-Craft/Theme-First-Text-Analysis/",
+    "to": "/wiki/Dimensions/Deep-Processing/"
+  },
+  {
+    "from": "/wiki/Concepts/Reverse-Causality/",
+    "to": "/wiki/Dimensions/Deep-Processing/Importance-Based-Chunking/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Aim/",
+    "to": "/wiki/Dimensions/Deep-Processing/Bear-Hunter-System/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Shoot/",
+    "to": "/wiki/Dimensions/Deep-Processing/Bear-Hunter-System/"
+  },
+  {
+    "from": "/wiki/Dimensions/Deep-Processing/Skin/",
+    "to": "/wiki/Dimensions/Deep-Processing/Bear-Hunter-System/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Breaching-Questions/",
+    "to": "/wiki/Dimensions/Retrieval/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Group-Study/",
+    "to": "/wiki/Dimensions/Retrieval/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Multipass-System/",
+    "to": "/wiki/Dimensions/Retrieval/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Opportunistic-Retrieval/",
+    "to": "/wiki/Dimensions/Retrieval/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Reconstruction---Retrieval-Beyond-Recall/",
+    "to": "/wiki/Dimensions/Retrieval/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Revision/",
+    "to": "/wiki/Dimensions/Retrieval/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Rote-Learning-and-Memorisation/",
+    "to": "/wiki/Dimensions/Retrieval/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/WPW/",
+    "to": "/wiki/Dimensions/Retrieval/"
+  },
+  {
+    "from": "/wiki/Dimensions/30-Day-Challenges/Retrieval-Challenge/",
+    "to": "/wiki/Dimensions/Retrieval/"
+  },
+  {
+    "from": "/wiki/Learning-Craft/Reading--and--Retention/",
+    "to": "/wiki/Dimensions/Retrieval/"
+  },
+  {
+    "from": "/wiki/Learning-Craft/Rules-of-Effective-Memorization/",
+    "to": "/wiki/Dimensions/Retrieval/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Encoding-and-Retrieval/",
+    "to": "/wiki/Concepts/Memory-Handling/"
+  },
+  {
+    "from": "/wiki/Dimensions/Retrieval/Interleaving-Table/",
+    "to": "/wiki/Dimensions/Retrieval/Spaced-Interleaved-Retrieval/"
+  },
+  {
+    "from": "/wiki/Learning-Craft/Microlearning-System/",
+    "to": "/wiki/Dimensions/Retrieval/Spaced-Interleaved-Retrieval/"
+  },
+  {
+    "from": "/wiki/Dimensions/Mindset/Compounding-vs-Additive-Gains/",
+    "to": "/wiki/Dimensions/Mindset/"
+  },
+  {
+    "from": "/wiki/Dimensions/Mindset/Confidence-Calibration/",
+    "to": "/wiki/Dimensions/Mindset/"
+  },
+  {
+    "from": "/wiki/Dimensions/Mindset/Fixed-vs-Growth-Mindset/",
+    "to": "/wiki/Dimensions/Mindset/"
+  },
+  {
+    "from": "/wiki/Dimensions/Mindset/Locus-of-Control/",
+    "to": "/wiki/Dimensions/Mindset/"
+  },
+  {
+    "from": "/wiki/Dimensions/Mindset/Loss-Aversion/",
+    "to": "/wiki/Dimensions/Mindset/"
+  },
+  {
+    "from": "/wiki/Dimensions/Mindset/Marginal-Gains/",
+    "to": "/wiki/Dimensions/Mindset/"
+  },
+  {
+    "from": "/wiki/Dimensions/Mindset/Mindset,-Condensed/",
+    "to": "/wiki/Dimensions/Mindset/"
+  },
+  {
+    "from": "/wiki/Dimensions/Mindset/Neuroticism/",
+    "to": "/wiki/Dimensions/Mindset/"
+  },
+  {
+    "from": "/wiki/Dimensions/Mindset/Perfectionism-and-Overthinking/",
+    "to": "/wiki/Dimensions/Mindset/"
+  },
+  {
+    "from": "/wiki/Dimensions/30-Day-Challenges/Mindset-Challenge/",
+    "to": "/wiki/Dimensions/Mindset/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Regulation/Common-Traps/",
+    "to": "/wiki/Dimensions/Self-Regulation/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Regulation/How-to-Maintain-Sustainable-Energy-Under-Pressure/",
+    "to": "/wiki/Dimensions/Self-Regulation/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Regulation/How-to-shift-your-brain-to-be-motivated-(when-you-don't-feel-like-it)/",
+    "to": "/wiki/Dimensions/Self-Regulation/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Regulation/Measuring-Learning/",
+    "to": "/wiki/Dimensions/Self-Regulation/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Regulation/Silly-Mistake-Syndrome/",
+    "to": "/wiki/Dimensions/Self-Regulation/"
+  },
+  {
+    "from": "/wiki/Dimensions/Self-Regulation/The-Technique-Is-Only-as-Good-as-the-Thinking-It-Produces/",
+    "to": "/wiki/Dimensions/Self-Regulation/"
+  },
+  {
+    "from": "/wiki/Dimensions/30-Day-Challenges/Self-Regulation-Challenge/",
+    "to": "/wiki/Dimensions/Self-Regulation/"
+  },
+  {
+    "from": "/wiki/Concepts/Accuracy-Before-Speed/",
+    "to": "/wiki/Dimensions/Self-Regulation/"
+  },
+  {
+    "from": "/wiki/Concepts/Learning-Efficiency/",
+    "to": "/wiki/Dimensions/Self-Regulation/"
+  },
+  {
+    "from": "/wiki/Learning-Craft/AI-Assisted-Learning-Workflow/",
+    "to": "/wiki/Learning-Craft/Don't-Outsource-the-Learning/"
+  },
+  {
+    "from": "/wiki/Learning-Craft/Let-code-keep-the-score-in-an-AI-tutor/",
+    "to": "/wiki/Learning-Craft/Don't-Outsource-the-Learning/"
+  },
+  {
+    "from": "/wiki/Domains/AI--and--Tooling/The-Right-vs-Wrong-Way-to-Work-With-AI/",
+    "to": "/wiki/Learning-Craft/Don't-Outsource-the-Learning/"
+  },
+  {
+    "from": "/wiki/Domains/Miscellaneous/Exam-Execution/",
+    "to": "/wiki/Domains/Miscellaneous/Exam-Technique/"
+  },
+  {
+    "from": "/wiki/Domains/Miscellaneous/How-to-diagnose-and-fix-exam-mistakes/",
+    "to": "/wiki/Domains/Miscellaneous/Exam-Technique/"
+  },
+  {
+    "from": "/wiki/Domains/Miscellaneous/How-to-prepare-for-ultra-high-volume-exams/",
+    "to": "/wiki/Domains/Miscellaneous/Exam-Technique/"
+  },
+  {
+    "from": "/wiki/Self-Management/Techniques-in-School/",
+    "to": "/wiki/Domains/Miscellaneous/Exam-Technique/"
+  },
+  {
+    "from": "/wiki/Language/Aim-Shoot-Skin-for-Language-Learning/",
+    "to": "/wiki/Language/Refold-Language-Learning-System/"
+  },
+  {
+    "from": "/wiki/Language/Attention-is-Important/",
+    "to": "/wiki/Language/Refold-Language-Learning-System/"
+  },
+  {
+    "from": "/wiki/Language/Freeflow-Immersion/",
+    "to": "/wiki/Language/Refold-Language-Learning-System/"
+  },
+  {
+    "from": "/wiki/Language/Hacking-Comprehension-Menu/",
+    "to": "/wiki/Language/Refold-Language-Learning-System/"
+  },
+  {
+    "from": "/wiki/Language/Immersion-Metalayers/",
+    "to": "/wiki/Language/Refold-Language-Learning-System/"
+  },
+  {
+    "from": "/wiki/Language/Interactive-Immersion/",
+    "to": "/wiki/Language/Refold-Language-Learning-System/"
+  },
+  {
+    "from": "/wiki/Language/Language-Isn't-Math/",
+    "to": "/wiki/Language/Refold-Language-Learning-System/"
+  },
+  {
+    "from": "/wiki/Language/Noticing-Game/",
+    "to": "/wiki/Language/Refold-Language-Learning-System/"
+  },
+  {
+    "from": "/wiki/Language/Preparation/",
+    "to": "/wiki/Language/Refold-Language-Learning-System/"
+  },
+  {
+    "from": "/wiki/Language/Reading-stories-pitched-at-your-vocabulary/",
+    "to": "/wiki/Language/Refold-Language-Learning-System/"
+  },
+  {
+    "from": "/wiki/Language/Refold-Grammar-Primers/",
+    "to": "/wiki/Language/Refold-Language-Learning-System/"
+  },
+  {
+    "from": "/wiki/Language/YouTube-Immersion-Account/",
+    "to": "/wiki/Language/Refold-Language-Learning-System/"
+  },
+  {
+    "from": "/wiki/Language/Character-Primer/",
+    "to": "/wiki/Language/Chinese/How-Chinese-Characters-Work/"
+  },
+  {
+    "from": "/wiki/Language/Chinese/Empty-Components/",
+    "to": "/wiki/Language/Chinese/How-Chinese-Characters-Work/"
+  },
+  {
+    "from": "/wiki/Language/Chinese/Form-Components/",
+    "to": "/wiki/Language/Chinese/How-Chinese-Characters-Work/"
+  },
+  {
+    "from": "/wiki/Language/Chinese/Meaning-Components/",
+    "to": "/wiki/Language/Chinese/How-Chinese-Characters-Work/"
+  },
+  {
+    "from": "/wiki/Language/Chinese/Meaning-Trees-and-Original-Meanings/",
+    "to": "/wiki/Language/Chinese/How-Chinese-Characters-Work/"
+  },
+  {
+    "from": "/wiki/Language/Chinese/Sound-Components/",
+    "to": "/wiki/Language/Chinese/How-Chinese-Characters-Work/"
+  },
+  {
+    "from": "/wiki/Language/Chinese/Sound-Series/",
+    "to": "/wiki/Language/Chinese/How-Chinese-Characters-Work/"
+  },
+  {
+    "from": "/wiki/Language/Chinese/Surface-vs-Deep-Structure/",
+    "to": "/wiki/Language/Chinese/How-Chinese-Characters-Work/"
+  },
+  {
+    "from": "/wiki/Language/Chinese/The-IME-Method/",
+    "to": "/wiki/Language/Chinese/How-Chinese-Characters-Work/"
+  },
+  {
+    "from": "/wiki/Language/Chinese/The-Pipelining-Strategy/",
+    "to": "/wiki/Language/Chinese/How-Chinese-Characters-Work/"
+  },
+  {
+    "from": "/wiki/Language/Chinese/Three-Attributes-of-a-Character/",
+    "to": "/wiki/Language/Chinese/How-Chinese-Characters-Work/"
+  },
+  {
+    "from": "/wiki/Language-Research/How-Foreign-Words-Become-Chinese/",
+    "to": "/wiki/Language/Chinese/How-Chinese-Characters-Work/"
+  },
+  {
+    "from": "/wiki/Language-Research/Language-Research/",
+    "to": "/wiki/Language/Chinese/How-Chinese-Characters-Work/"
+  },
+  {
+    "from": "/wiki/Language/Vietnamese-Grammar-Primer/",
+    "to": "/wiki/Resources/Vietnamese-Language-Learning-Resources/"
+  }
+]

@@ -63,7 +63,7 @@ When a capable person fails at an everyday thing, the design is at fault. The wh
 - **Accidents happen when the holes in several layers of safeguards line up, rather than from one cause (Swiss cheese):** add layers, make the holes in each layer smaller, and alert people when several holes have lined up ([[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]]).
 - **Slips and mistakes need different fixes.** A slip (right goal, wrong execution) needs distinct controls, visible modes, and steps that can be resumed. A mistake (wrong goal) needs clearer state and clearer models ([[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]]).
 - **Assume people will make errors and make each error reversible. Undo is the strongest tool;** run sensibility checks on absurd input, and never make people start over ([[wiki/Design/Front-End Web Design|Front-End Web Design]]).
-- **Get the first attempt right.** An error costs far more than the careful step that would have prevented it, so accuracy comes before speed, both in designing a thing and in doing a task ([[wiki/Concepts/Accuracy Before Speed|Accuracy Before Speed]]).
+- **Get the first attempt right.** An error costs far more than the careful step that would have prevented it, so accuracy comes before speed, both in designing a thing and in doing a task ([[wiki/Dimensions/Self-Regulation|Accuracy Before Speed]]).
 
 ## 7. Beyond usability
 
@@ -108,7 +108,7 @@ When a capable person fails at an everyday thing, the design is at fault. The wh
 - **Simplicity comes from working through complexity, not from leaving things out.** Making something simple is hard work that the designer does so that the user does not have to. A thing made simple by leaving parts out is only missing a feature (Jobs, owner page owed).
 - **Design is how it works.** Appearance is the last part of a design and does not define it. A beautiful thing that works badly is bad design with a good-looking surface (Jobs, owner page owed).
 - **Rams' test can be stated in one line: good design is as little design as possible.** Good design is useful, understandable, honest, long-lasting, and unobtrusive. The fastest way to check any object is to ask what could be removed without losing anything (Dieter Rams, ten principles, owner page owed).
-- **Taste can be trained like any skill:** study objects that are still in use after decades, name the things those objects do not do, and ask the removal question until you ask it automatically. This is the design version of comparing yourself to standards instead of to a small local group ([[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]] on comparison; Rams/Jobs, owner page owed).
+- **Taste can be trained like any skill:** study objects that are still in use after decades, name the things those objects do not do, and ask the removal question until you ask it automatically. This is the design version of comparing yourself to standards instead of to a small local group ([[wiki/Dimensions/Mindset|Loss Aversion]] on comparison; Rams/Jobs, owner page owed).
 
 ---
 

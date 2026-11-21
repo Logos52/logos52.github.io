@@ -36,6 +36,6 @@ The two tools are meant to be used together. When a process is weak, repeated cy
 
 ## Related pages
 
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: the direction-finding view this cycle is paired with.
-- [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]]: the dimension this page sits in.
-- [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]: a later lesson that names this cycle as a way to turn mistakes into learning.
+- [[wiki/Dimensions/Mindset|Marginal Gains]]: the direction-finding view this cycle is paired with.
+- [[wiki/Dimensions/Self-Management|Self-Management]]: the dimension this page sits in.
+- [[wiki/Dimensions/Mindset|Fixed vs Growth Mindset]]: a later lesson that names this cycle as a way to turn mistakes into learning.
