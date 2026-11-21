@@ -47,6 +47,8 @@ const groups: { key: Status; label: string }[] = [
   { key: 'past', label: 'Archived' },
 ];
 
+const ARCHIVE_HREF = '/archive/';
+
 /** Vary image height per card (NDC Whiteboard index rhythm). */
 function imageHeight(slug: string): number {
   let h = 0;
@@ -69,7 +71,12 @@ function imageHeight(slug: string): number {
           if (!items.length) return null;
           return (
             <section class="group">
-              <h2>{g.label}</h2>
+              <h2>
+                {g.label}
+                {g.key === 'past' && (
+                  <a class="group__more" href={ARCHIVE_HREF}>Full archive</a>
+                )}
+              </h2>
               <div class="whiteboard">
                 {items.map((p) => (
                   <a class="card" href={p.href}>
@@ -136,6 +143,21 @@ function imageHeight(slug: string): number {
     font-weight: 600;
     margin: 0 0 20px;
     color: var(--ink);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 12px;
+  }
+  .group__more {
+    font-family: var(--sans);
+    font-size: var(--kb-text-sm);
+    font-weight: 400;
+    color: var(--mut);
+    text-decoration: none;
+  }
+  .group__more:hover {
+    color: var(--accent);
+    text-decoration: underline;
   }
   .whiteboard {
     column-count: 3;

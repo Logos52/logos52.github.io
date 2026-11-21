@@ -1,101 +1,47 @@
 ---
 /**
- * journal.astro — the Journal landing, rendered as a clean compact spread of your journal/index.md
- * (matches the Notes/About simple-page style at the global content width).
+ * journal.astro — the Journal landing (public journal only).
  */
 import { getEntry, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import Constellation from '../components/Constellation.astro';
 
 const entry = await getEntry('notes', 'journal/index');
 const rendered = entry ? await render(entry) : null;
 const Content = rendered?.Content;
-
-// "Top of mind" = the active projects, shown as a local graph (1-hop neighborhood of each).
-// Pruned 2026-08-11 (Wedge: too many items) — Story-Craft out, the four real projects stay.
-const JOURNAL_PROJECTS = ['projects/tsumugu', 'projects/wnac', 'projects/cos', 'projects/llm-knowledge-base'];
 ---
 
 <Base title="Journal" description="Working notes, decisions, and what's top of mind." active="journal">
   <main class="journal-page">
-    <div class="wrap journal-grid">
+    <div class="wrap">
       <article class="kb-shell-prose journal-prose">
         <nav class="journal-nav" aria-label="Journal sections">
           <a href="/journal/calendar/">Calendar</a>
         </nav>
         {Content ? <Content /> : <p>Journal not found.</p>}
       </article>
-      <aside class="topofmind">
-        <h2 class="topofmind__head">Top of mind</h2>
-        <Constellation
-          mode="local"
-          seeds={JOURNAL_PROJECTS}
-          hops={1}
-          orient="vertical"
-          height="clamp(360px, 66vh, 600px)"
-        />
-      </aside>
     </div>
   </main>
 </Base>
 
 <style>
   .wrap {
-    max-width: var(--kb-content);
+    max-width: 42rem;
     margin: 0 auto;
-    padding: 34px 28px 52px;
-  }
-  .journal-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 36px;
-    align-items: start;
-  }
-  .topofmind {
-    position: sticky;
-    top: 80px;
-    min-width: 0;
-  }
-  .topofmind__head {
-    font-family: var(--ming);
-    font-size: var(--kb-text-base);
-    font-weight: 600;
-    margin: 0 0 10px;
-    color: var(--ink);
-  }
-  .journal-prose {
-    margin-top: 0;
-    min-width: 0;
+    padding: 48px 28px 64px;
   }
   .journal-nav {
-    margin: 0 0 1rem;
-    font-family: var(--mono);
-    font-size: var(--kb-text-2xs);
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    font-family: var(--sans);
+    font-size: var(--kb-text-sm);
+    margin: 0 0 1.2rem;
   }
   .journal-nav a {
-    color: var(--accent);
-    text-decoration: none;
-    border: 1px solid var(--rule2);
-    border-radius: 999px;
-    padding: 4px 12px;
-    background: var(--card);
-  }
-  .journal-nav a:hover {
-    border-color: var(--accent);
-  }
-  @media (max-width: 820px) {
-    .journal-grid {
-      grid-template-columns: 1fr;
-    }
-    .topofmind {
-      position: static;
-    }
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in oklab, var(--accent) 60%, transparent);
   }
   @media (max-width: 640px) {
     .wrap {
-      padding: 28px 16px 40px;
+      padding: 36px 16px 48px;
     }
   }
 </style>
