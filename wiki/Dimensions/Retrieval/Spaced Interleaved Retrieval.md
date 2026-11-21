@@ -86,6 +86,8 @@ Use AI for card generation or gap-checking, not for outsourcing the relationship
 
 If days rarely open a full hour, run **Prime → Map → Explore → Dive → Consolidate** cycles: name a tight target, list resources, sketch main ideas, deep-dive one chunk, then zoom back out before the next dive. Five- to thirty-minute blocks can stack; consolidate so spaced gaps do not erase fragile encoding. Offload searchable detail to a notes store; schedule a longer retrieval block weekly unless work already forces recall.
 
+Microlearning is additive, not a substitute for a deep session when you have one. The failure mode is endless shallow dives without consolidation or without the week-scale interleaves above—then SIR’s spacing benefits never attach to the fragments.
+
 ## Related pages
 
 - [[wiki/Dimensions/Retrieval|Retrieval]] — dimension hub.

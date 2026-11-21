@@ -60,7 +60,9 @@ Research reading treats each paper as a puzzle piece for a living map: overwhelm
 
 ## Challenge and regulation links
 
-The deep-processing month in [[wiki/Dimensions/30-Day Challenges|30-day challenges]] trains the shift from isolated remembering to comparing and judging. Weak processing caps retrieval; hard self-tests can force depth. Pair encoding work with [[wiki/Dimensions/Retrieval|retrieval]] and [[wiki/Dimensions/Self-Regulation|self-regulation]] so difficulty and accuracy stay calibrated.
+The deep-processing month in [[wiki/Dimensions/30-Day Challenges|30-day challenges]] trains the shift from isolated remembering to comparing and judging: week one builds radar for shallow habits, week two stresses networking ideas, week three adds pressure, week four chases fluid comparison under load. Weak processing caps retrieval; hard self-tests can force depth. Pair encoding work with [[wiki/Dimensions/Retrieval|retrieval]] and [[wiki/Dimensions/Self-Regulation|self-regulation]] so difficulty and accuracy stay calibrated.
+
+When maps fail, the fault is usually habit—not capacity. Waterfall layouts spray connections downward without lateral ties; spiderwebs bolt arrows onto immature groups. Both feel busy and memorable in the moment yet collapse under WPW-style teaching passes. Fixing structure beats adding color. If every gap diagnoses as higher-order, suspect the first encoding pass, not “bad writing,” and return to Aim before bolting on more flashcards.
 
 ## Related pages
 
