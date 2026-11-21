@@ -1,4 +1,4 @@
-import type { MapRow } from '../lib/map-rows';
+import type { MapRow } from '../lib/types';
 
 function norm(s: string): string {
   return s.trim().toLowerCase();
