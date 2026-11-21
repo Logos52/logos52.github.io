@@ -47,6 +47,13 @@ const groups: { key: Status; label: string }[] = [
   { key: 'past', label: 'Archived' },
 ];
 
+/** Vary image height per card (NDC Whiteboard index rhythm). */
+function imageHeight(slug: string): number {
+  let h = 0;
+  for (let i = 0; i < slug.length; i++) h = (h + slug.charCodeAt(i) * (i + 3)) % 997;
+  return 120 + (h % 100);
+}
+
 ---
 
 <Base title="Projects" description="Learning-system, agentic-engineering, and personal-tooling projects." active="projects">
@@ -63,12 +70,17 @@ const groups: { key: Status; label: string }[] = [
           return (
             <section class="group">
               <h2>{g.label}</h2>
-              <div class="grid">
+              <div class="whiteboard">
                 {items.map((p) => (
                   <a class="card" href={p.href}>
                     {p.image && (
                       <div class="card__media">
-                        <img src={`/${p.image}`} alt={`${p.title} screenshot`} loading="lazy" />
+                        <img
+                          src={`/${p.image}`}
+                          alt={`${p.title} screenshot`}
+                          loading="lazy"
+                          style={`height:${imageHeight(p.slug)}px`}
+                        />
                       </div>
                     )}
                     <h3>{p.title}</h3>
@@ -105,70 +117,61 @@ const groups: { key: Status; label: string }[] = [
   }
   .head h1 {
     font-family: var(--ming);
-    font-size: 32px;
+    font-size: var(--kb-text-h1-shell);
+    font-weight: 500;
     margin: 0;
   }
   .head p {
-    margin: 8px 0 0;
+    margin: 10px 0 0;
     color: var(--mut);
-    font-size: 14px;
+    font-size: var(--kb-text-base);
+    max-width: 40rem;
   }
   .group {
-    margin: 28px 0 0;
+    margin: 36px 0 0;
   }
   .group h2 {
     font-family: var(--ming);
-    font-size: 20px;
-    margin: 0 0 14px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--rule);
+    font-size: var(--kb-text-h2-shell);
+    font-weight: 600;
+    margin: 0 0 20px;
+    color: var(--ink);
   }
-  .grid {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  .whiteboard {
+    column-count: 3;
+    column-gap: 32px;
   }
   .card {
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-    border: 1px solid var(--rule2);
-    border-radius: var(--tsg-radius);
-    padding: 12px 13px;
-    background: var(--card);
+    display: block;
+    break-inside: avoid;
+    margin: 0 0 32px;
     text-decoration: none;
     color: inherit;
-    box-shadow: var(--tsg-shadow);
-    transition: transform 0.12s var(--ease-standard), border-color 0.12s;
   }
-  .card:hover {
-    transform: translateY(-2px);
-    border-color: var(--accent);
+  .card:hover h3 {
+    color: var(--accent);
   }
   .card__media {
-    margin: -12px -13px 0;
+    margin: 0 0 12px;
     overflow: hidden;
-    border-radius: var(--tsg-radius) var(--tsg-radius) 0 0;
-    border-bottom: 1px solid var(--rule);
-    aspect-ratio: 16 / 9; /* uniform screenshot size — crop, don't letterbox */
   }
   .card__media img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
     object-position: top;
     display: block;
   }
   .card h3 {
-    margin: 0;
+    margin: 0 0 6px;
     font-family: var(--ming);
-    font-size: 15px;
-    color: var(--accent);
+    font-size: var(--kb-text-md);
+    font-weight: 600;
+    color: var(--ink);
   }
   .card p {
     margin: 0;
-    font-size: 12px;
-    line-height: 1.45;
+    font-size: var(--kb-text-sm);
+    line-height: var(--kb-lh-body);
     color: var(--mut);
   }
   .stack {
@@ -186,9 +189,17 @@ const groups: { key: Status; label: string }[] = [
     border-radius: 4px;
     padding: 1px 5px;
   }
+  @media (max-width: 900px) {
+    .whiteboard {
+      column-count: 2;
+    }
+  }
   @media (max-width: 640px) {
     .wrap {
       padding: 28px 16px 40px;
+    }
+    .whiteboard {
+      column-count: 1;
     }
   }
 </style>
