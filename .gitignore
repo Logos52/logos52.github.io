@@ -114,3 +114,7 @@ public/assets/*.png
 
 # Finance dashboard loads gitignored CSVs; do not track the page either
 00 Command Center/Finances.md
+
+# Local-only inputs for publish codegen (Project store copies)
+scripts/.gardeners-*
+scripts/.builders-*
