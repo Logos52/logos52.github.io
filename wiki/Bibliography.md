@@ -1,10 +1,10 @@
 ---
 type: reference
-status: seed
+status: stable
 created: 2026-05-02
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-11-21
+description: "The public register of works the wiki draws on. Private and paid material stays paraphrased on door pages; this page lists what a reader can look up without restoring paywalled paths."
+source-count: 4
 tags:
   - reference
 wedge_reviewed: false
@@ -12,218 +12,113 @@ wedge_reviewed: false
 
 # Bibliography
 
-> Not yet reviewed by Wedge.
+The bibliography is the door-neutral register for every work that shaped a page on this site. It sits outside the five problem doors because sources cross them: the same podcast can feed an agentic page and a political one. Use it when you need the title, author, or public URL behind a claim, not when you need the argument itself. The argument lives on the door page that cites the work.
 
-The bibliography lists the works that the wiki's pages draw on, each followed by the pages that cite it. Course material and book notes are private or paid, so the pages that use them paraphrase them.
+## How entries are handled
+
+Public links stay here with enough detail to find the original. That includes YouTube talks, essays, papers, product documentation, and podcasts with stable URLs. Book-length sources that the owner has read appear as book notes in the vault; this page names the book and points to the book page, not a reproduction of the text.
+
+Paid courses, private notebooks, and internal handbooks are different. Those paths do not belong on a public repo. The wiki keeps paraphrased claims on the learning, language, and decision pages that use them. This bibliography counts how many such lessons exist and names the program when that helps orientation, but it does not paste lesson titles or file paths back onto the open web.
+
+When a door page merges away, the source does not vanish. It stays attached to the surviving page in paraphrase, and any public URL for it remains listed here. When a page moves to `/archive/`, its sources stay cited on the pages that still matter for the cut.
+
+## What you will find by kind
+
+**Books and long essays in the vault** cover political frames, money habits, design principles, and builder biographies. Start from the book page if you want the wiki's reading of the work, not the publisher's blurb.
+
+**Public video and journalism** supply most of the world-door material. Political argument pages lean heavily on long-form YouTube analysis that is fully linkable. Agentic pages lean on conference talks, builder livestreams, and product essays from labs and toolmakers.
+
+**Papers and datasets** appear sparingly but matter where a biological or economic claim needs a traceable study rather than commentary.
+
+**Agent product docs and workshops** include Grok Bot guides, Galaxy transcripts, and builder write-ups on fleets, verification, and outer loops. Those entries cluster under working well with AI.
+
+**Private learning programs** are dominated by one large study course and by Refold's language material. Together they account for most of the register's rows. Door pages carry the usable content; this page only records that the material exists and stays off the public path list.
+
+## Using the register with the glossary
+
+The [[wiki/Glossary|Glossary]] defines terms the doors share. The bibliography names works. Cross-check when a page uses a coined label from a course: the glossary gives the in-wiki definition; this page tells you whether the definition came from a public talk or a private lesson.
 
 ## Sources
+### Books and vault notes
+- Eric Jorgenson, *The Book of Elon: A Guide to Purpose and Success*. Book notes, paraphrased.
+- Gad Saad, *Suicidal Empathy* (2026). Book notes, paraphrased.
+- Gad Saad, *The Parasitic Mind: How Infectious Ideas Are Killing Common Sense* (2020). Book notes, paraphrased.
+- William Lidwell, Kritina Holden and Jill Butler, *Universal Principles of Design*. Book notes, paraphrased.
+### Private and paid material (paraphrased on door pages)
+- iCanStudy course lessons: 103 entries; lesson titles and paths are not published.
+- Refold course material: 18 entries; lesson titles and paths are not published.
+- Other private handbooks and course notes: 13 entries; cited in paraphrase only.
 
-- Addy Osmani, "Don't Outsource the Learning" (essay, 2026-05-18). [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]] · [[wiki/Start Here/The Big Idea Agents Do, You Steer|The Big Idea Agents Do, You Steer]]
-- All-In Podcast, "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal" (YouTube, 2026-06-20). [[wiki/Red Team/Red Teaming|Epistemic Exceptionalism]]
-- All-In Podcast, ep. 282, "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?" (YouTube, 2026-07-25). [[wiki/Red Team/Red Teaming|Epistemic Exceptionalism]] · [[wiki/Razors|Bias and Framing]]
-- Andrej Karpathy, "From Vibe Coding to Agentic Engineering" (Sequoia Capital, AI Ascent 2026). [Web](https://www.youtube.com/watch?v=96jN2OCOfLs) [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] · [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agent-Native Infrastructure]] · [[wiki/Start Here/The Big Idea Agents Do, You Steer|The Big Idea Agents Do, You Steer]]
-- Asmongold TV, "This is genuinely f***ed.." (YouTube, 2026-09-05). [Web](https://www.youtube.com/watch?v=dtli77ZzhT0) [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|Late Stage Feminism]]
-- Basic Logic, "DEI: All Arguments Ranked & Debunked" (YouTube, 2026-03-02). [Web](https://www.youtube.com/watch?v=9iTBMNY7ous) [[wiki/Worldviews & the Political Order/DEI as Anti-Discrimination|DEI as Anti-Discrimination]]
-- Basic Logic, "Europeans Owe You Nothing" (YouTube, 2026-05-18). [Web](https://www.youtube.com/watch?v=yZJoK0Jz7qY) [[wiki/Worldviews & the Political Order/Group 5 - The racism charge and Western guilt|The Indictment of Europe]] · [[wiki/Worldviews & the Political Order/White Guilt|White Guilt]]
-- Basic Logic, "Gender Ideology: All Arguments Ranked & Debunked" (YouTube, 2026-02-20). [Web](https://www.youtube.com/watch?v=56MKv_S4kJY) [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|Gender Ideology - The Override Claim]]
-- Basic Logic, "How Feminism Justified Killing Children" (YouTube, 2026-09-03). [Web](https://www.youtube.com/watch?v=3SOWFC2SvFY) [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|Late Stage Feminism]]
-- Basic Logic, "How Immigration Replaced the Woke Left" (YouTube, 2026-08-21). [Web](https://www.youtube.com/watch?v=xthKh_ndHrc) [[wiki/Worldviews & the Political Order/Group 6 - Immigration and the electorate|The Woke Retreat - The New Electorate Claim]]
-- Basic Logic, "How To Be Responsibly Racist" (YouTube, 2026-06-15). [Web](https://www.youtube.com/watch?v=oGRNJhS2bhI) [[wiki/Worldviews & the Political Order/Group 5 - The racism charge and Western guilt|Who Gets Called Racist]]
-- Basic Logic, "LGBT: All Arguments Ranked & Debunked" (YouTube, 2026-03-30). [Web](https://www.youtube.com/watch?v=S9gmtI_uS50) [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|LGBT - Permission vs Promotion]]
-- Basic Logic, "Mass Immigration is Corporate Welfare" (YouTube, 2026-01-30). [Web](https://www.youtube.com/watch?v=nf_iwUSvaZ0) [[wiki/Worldviews & the Political Order/Group 6 - Immigration and the electorate|Mass Immigration - Cohesion]]
-- Basic Logic, "Mass Immigration: All Arguments Ranked & Debunked" (YouTube, 2025-11-28). [Web](https://www.youtube.com/watch?v=2CVuL-QpvQs) [[wiki/Worldviews & the Political Order/Group 6 - Immigration and the electorate|Mass Immigration - Cohesion]]
-- Basic Logic, "The Genetics Behind Unequal Societies" (YouTube, 2026-08-30). [Web](https://www.youtube.com/watch?v=vWS59L52h1M) [[wiki/Worldviews & the Political Order/Group 4 - Do group gaps prove discrimination|Genetics and Unequal Societies - The Distance Claim]]
-- Basic Logic, "White Guilt: All Arguments Ranked & Debunked" (YouTube, 2026-02-06). [Web](https://www.youtube.com/watch?v=QtgmBazTi5Q) [[wiki/Worldviews & the Political Order/Group 5 - The racism charge and Western guilt|The Indictment of Europe]] · [[wiki/Worldviews & the Political Order/White Guilt|White Guilt]]
-- Basic Logic, "Why Is Black America So Racist?" (YouTube, 2026-06-29). [Web](https://www.youtube.com/watch?v=WunIYGEYeD0) [[wiki/Worldviews & the Political Order/Group 5 - The racism charge and Western guilt|Who Gets Called Racist]]
-- Basic Logic, "You've Just Been Called Racist, Now What?" (YouTube, 2025-12-26). [Web](https://www.youtube.com/watch?v=yYIITZs0C8A) [[wiki/Worldviews & the Political Order/Group 5 - The racism charge and Western guilt|Who Gets Called Racist]]
-- Bill Friedman, books on casino design. [[wiki/Self Management/Flow State|Social Media - Curvilinear Design & the Theft of Time]]
-- Cinema Therapy, "Therapist Reacts to KIKI'S DELIVERY SERVICE" (YouTube, 2023-10-17). [Web](https://www.youtube.com/watch?v=L9H8f_DkyJ8) [[wiki/Story Craft/Story Craft|The Burnout Arc]]
-- "Designing Grok Bot with Grok Bot" (official guide, 2026-08-24). [Web](https://x.ai/bot/guides/designing-grok-bot-with-grok-bot) [[wiki/Design/Front-End Web Design|Design a screen or feature with bots]]
-- Dong-Dong Wu and Ya-Ping Zhang, "Different level of population differentiation among human genes", *BMC Evolutionary Biology* (2011). [Web](https://link.springer.com/article/10.1186/1471-2148-11-16) [[wiki/Worldviews & the Political Order/Group 4 - Do group gaps prove discrimination|Genetics and Unequal Societies - The Distance Claim]]
-- Dwarkesh Patel with John Schulman, Beren Millidge and Charlie O'Neill, "AI researchers debate how close we are to recursive self-improvement" (YouTube, 2026-09-11). [Web](https://www.youtube.com/watch?v=PrSf7IOYu-I) [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Higher-Order Generativity vs Higher-Order Judgment]] · [[wiki/Start Here/The Big Idea Agents Do, You Steer|The Big Idea Agents Do, You Steer]]
-- Eric Jorgenson, *The Book of Elon: A Guide to Purpose and Success*. Book notes, paraphrased. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|The Book of Elon]]
-- Fitness videos "Seven mindsets that slowly destroy your body", "Seven mindsets to help you get in shape" and "The most effective mindsets for your body" (YouTube, 2025). [[wiki/Concepts/The Accretion Frame|Fitness Mindsets]]
-- Front Page, "How The UK Became Poorer Than Mississippi" (YouTube, 2026-05-15). [Web](https://www.youtube.com/watch?v=ITFz2aDjKxY) [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|Britain - Poorer Than Mississippi]]
-- Gad Saad, *Suicidal Empathy* (2026). Book notes, paraphrased. [[wiki/Books/Suicidal Empathy|Suicidal Empathy]]
-- Gad Saad, *The Parasitic Mind: How Infectious Ideas Are Killing Common Sense* (2020). Book notes, paraphrased. [[wiki/Books/The Parasitic Mind|The Parasitic Mind]]
-- Grok Bot Galaxy workshop livestream, days 1 to 3 (2026-09-15 to 2026-09-17). Caption transcripts and field notes. [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]] · [[wiki/Planning and Automation|Thursday Arena]] · [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Grok Bot Primer]] · [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Grok Bot Galaxy]] · [[wiki/Start Here/The Big Idea Agents Do, You Steer|The Big Idea Agents Do, You Steer]] · [[wiki/Working with Agents/Scope a bot like a job description|Scope a bot like a job description]] · [[wiki/Working with Agents/Give an agent a task without micromanaging it|Give an agent a task without micromanaging it]] · [[wiki/Working with Agents/Give an agent a task without micromanaging it|Trust agents more over time]] · [[wiki/Working with Agents/Turn a repeated correction into a permanent fix|Turn a repeated correction into a permanent fix]] · [[wiki/Planning and Automation|Set up a routine or outer loop]] · [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]] · [[wiki/Working with Agents/Scope a bot like a job description|Set up a first engineering bot]] · [[wiki/Working with Agents/Run more agents in parallel|Run more agents in parallel]] · [[wiki/Working with Agents/Give an agent a task without micromanaging it|Review less without losing control]] · [[wiki/Working with Agents/Let an agent check its own work|Handle a bug report - reproduce first]] · [[wiki/Planning and Automation|Plan a piece of work with an agent]] · [[wiki/Working with Agents/Scope a bot like a job description|Organize a fleet of bots]]
-- Grok Bot team, "Designing Grok Bot for a world of persistent agents" (essay). [Web](https://x.ai/news/designing-grok-bot) [[wiki/Design/Front-End Web Design|Design a screen or feature with bots]]
-- Gurwinder, "How Social Media Shortens Your Life" (essay, 2025-08-03). [Web](https://www.gurwinder.blog/p/how-social-media-shortens-your-life) [[wiki/Self Management/Flow State|Social Media - Curvilinear Design & the Theft of Time]]
-- iCanStudy, "Aim: question quality", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Aim|Aim]]
-- iCanStudy, "Ascent II English Unfamiliar Text", course lesson. Private course notes, paraphrased. [[wiki/Red Team/Red Teaming|The Twitter Test]]
-- iCanStudy, "Ascent II Math", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Problem-First Learning|Problem-First Learning]]
-- iCanStudy, "Attention management", course lesson. Private course notes, paraphrased. [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management Challenge]]
-- iCanStudy, "Barriers for shooting", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]
-- iCanStudy, "Barriers to aiming", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Aim|Aim]]
-- iCanStudy, "Bear Hunter System: Aim", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Aim|Aim]] · [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] · [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]
-- iCanStudy, "Bear Hunter System: Shoot", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] · [[wiki/Dimensions/Deep Processing/Shoot|Shoot]]
-- iCanStudy, "Bear Hunter System: Skin", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] · [[wiki/Dimensions/Deep Processing/Skin|Skin]]
-- iCanStudy, "Cave Theory" and "Cave Theory Example", course lessons. Private course notes, paraphrased. [[wiki/Concepts/Cave Theory|Cave Theory]]
-- iCanStudy, "Choice Throttling", course lesson. Private course notes, paraphrased. [[wiki/Razors|Decision Making]] · [[wiki/Razors|Choice Throttling]]
-- iCanStudy, "Chunking by importance", course lesson. Private course notes, paraphrased. [[wiki/Techniques/Technique Training & Fundamentals|Technique Training & Fundamentals]] · [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]]
-- iCanStudy, "Chunking for medicine", course lesson. Private course notes, paraphrased. [[wiki/Razors|Bias and Framing]]
-- iCanStudy, "Clinical system: Medically-oriented", course lesson. Private course notes, paraphrased. [[wiki/Learning Craft/Clinical Learning System|Clinical Learning System]]
-- iCanStudy, "Common traps", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Self-Regulation/Common Traps|Common Traps]]
-- iCanStudy, "Creating productive habits overview", course lesson. Private course notes, paraphrased. [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]]
-- iCanStudy, "Decisional Delays", course lesson. Private course notes, paraphrased. [[wiki/Self Management/Time Management, Attention & Scheduling|Time Management, Attention & Scheduling]] · [[wiki/Razors|Decision Making]] · [[wiki/Razors|Decisional Delays]]
-- iCanStudy, "Deep processing", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing|Deep Processing]] · [[wiki/Dimensions/Deep Processing/Deep Processing Tanking|Deep Processing Tanking]]
-- iCanStudy, "Demonstration of Core Techniques", course lesson. Private course notes, paraphrased. [[wiki/Razors|Bias and Framing]]
-- iCanStudy, "Doing TLS correctly", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Inquiry-Based Learning|Inquiry-Based Learning]]
-- iCanStudy, "Effective note-taking: Processed, relational, freehand", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Skin|Skin]]
-- iCanStudy, "Effective note-taking: Reflective", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Skin|Skin]]
-- iCanStudy, "Effective note-taking: Visual", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Skin|Skin]]
-- iCanStudy, "Effective revision", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Retrieval/Revision|Revision]]
-- iCanStudy, "Essay Writing", course lesson. Private course notes, paraphrased. [[wiki/Domains/Miscellaneous/Exam Execution|Exam Execution]] · [[wiki/Dimensions/Deep Processing/ReCOVer System|ReCOVer System]]
-- iCanStudy, "Exam Technique", course lesson. Private course notes, paraphrased. [[wiki/Domains/Miscellaneous/Exam Technique|Exam Technique]] · [[wiki/Domains/Miscellaneous/Exam Execution|Exam Execution]] · [[wiki/Domains/Miscellaneous/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]]
-- iCanStudy, "Fixed mindset vs. growth mindset", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Mindset/Fixed vs Growth Mindset|Fixed vs Growth Mindset]]
-- iCanStudy, "Fundamentals Checkpoint Video", course lesson. Private course notes, paraphrased. [[wiki/Concepts/Accuracy Before Speed|Accuracy Before Speed]]
-- iCanStudy, "GRINDE maps", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Retrieval/WPW|WPW]] · [[wiki/Dimensions/Retrieval/Revision|Revision]] · [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] · [[wiki/Dimensions/Deep Processing/Skin|Skin]]
-- iCanStudy, "Group study", course lesson. Private course notes, paraphrased. [[wiki/Domains/Miscellaneous/Exam Execution|Exam Execution]] · [[wiki/Dimensions/Retrieval/Group Study|Group Study]]
-- iCanStudy, "Guide to prestudying correctly", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]
-- iCanStudy, "How do I avoid making silly mistakes in tests or exams?", course lesson. Private course notes, paraphrased. [[wiki/Domains/Miscellaneous/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]] · [[wiki/Dimensions/Self-Regulation/Silly Mistake Syndrome|Silly Mistake Syndrome]]
-- iCanStudy, "How do I push through feeling tired during higher-order learning?", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]
-- iCanStudy, "How do I stack marginal gains?", course lesson. Private course notes, paraphrased. [[wiki/Concepts/Accuracy Before Speed|Accuracy Before Speed]] · [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- iCanStudy, "How do I track marginal gains?", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- iCanStudy, "How do you measure knowledge mastery?", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery - From Recognition to Usable Knowledge]]
-- iCanStudy, "How do you measure learning efficiency?", course lesson. Private course notes, paraphrased. [[wiki/Concepts/Learning Efficiency|Learning Efficiency]]
-- iCanStudy, "How does prestudy relate to Traffic Light System (TLS) or the Aim step?", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]
-- iCanStudy, "How should I write notes? (An overview)", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]
-- iCanStudy, "How to aim", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Aim|Aim]]
-- iCanStudy, "How to ask for feedback", course lesson. Private course notes, paraphrased. [[wiki/Concepts/Good Faith|How to Ask for Feedback]]
-- iCanStudy, "How to perform a skills audit", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Self-Management/Skills Audit|Skills Audit]]
-- iCanStudy, "How to unlearn old or bad habits efficiently", course lesson. Private course notes, paraphrased. [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
-- iCanStudy, "Hyper Focus and Hyper Distractibility", course lesson. Private course notes, paraphrased. [[wiki/Self Management/Flow State|Hyper-Focus and Hyper-Distractibility]]
-- iCanStudy, "Inquiry clean-up", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Aim|Aim]]
-- iCanStudy, "Inquiry-based learning", course lesson. Private course notes, paraphrased. [[wiki/Techniques/Technique Training & Fundamentals|Technique Training & Fundamentals]] · [[wiki/Dimensions/Deep Processing/Inquiry-Based Learning|Inquiry-Based Learning]]
-- iCanStudy, "Interleaving table", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Retrieval/Interleaving Table|Interleaving Table]]
-- iCanStudy, "Layers of learning", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Layers of Learning|Layers of Learning]]
-- iCanStudy, "Learn From the Right Teacher", course lesson. Private course notes, paraphrased. [[wiki/Concepts/Declarative, Procedural, and Conditional Knowledge|Declarative, Procedural, and Conditional Knowledge]]
-- iCanStudy, "Live Clinic 60: The right vs wrong way to use AI", course lesson. Private course notes, paraphrased. [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]]
-- iCanStudy, "Live Clinic 64: Using iCS techniques for Research", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Deep Processing for Research|Deep Processing for Research]]
-- iCanStudy, "Live Clinic 66: How to prepare for ultra high-volume exams", course lesson. Private course notes, paraphrased. [[wiki/Domains/Miscellaneous/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]] · [[wiki/Domains/Miscellaneous/Exam Execution|Exam Execution]] · [[wiki/Dimensions/Deep Processing/Best-attempt Encoding|Best-attempt Encoding]]
-- iCanStudy, "Live Clinic 70: Interleaving for complex problem solving and knowledge work", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]
-- iCanStudy, "Live Clinic 72: Are you learning, or just using techniques?", course lesson. Private course notes, paraphrased. [[wiki/Razors|Are You Learning, or Just Using Techniques]]
-- iCanStudy, "Live Clinic 74: Metacognition as a skill", course lesson. Private course notes, paraphrased. [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] · [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] · [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
-- iCanStudy, "Loss aversion", course lesson. Private course notes, paraphrased. [[wiki/Razors|Decision Making]] · [[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]]
-- iCanStudy, "Microlearning system", course lesson. Private course notes, paraphrased. [[wiki/Learning Craft/Microlearning System|Microlearning System]]
-- iCanStudy, "Mindset", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Mindset|Mindset]] · [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset Challenge]]
-- iCanStudy, "Multipass system", course lesson. Private course notes, paraphrased. [[wiki/Techniques/Technique Training & Fundamentals|Technique Training & Fundamentals]] · [[wiki/Dimensions/Retrieval/Multipass System|Multipass System]]
-- iCanStudy, "Neuroticism", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]]
-- iCanStudy, "Neuroticism: Management", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]]
-- iCanStudy, "Neuroticism: Management, chain analysis", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Mindset/Neuroticism|Neuroticism]]
-- iCanStudy, "Note-taking", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]
-- iCanStudy, "Notes and Processing", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]
-- iCanStudy, "Order control insecurities", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Order Control|Order Control]]
-- iCanStudy, "Order control", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Order Control|Order Control]]
-- iCanStudy, "PEER-Peer summary", course lesson. Private course notes, paraphrased. [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]]
-- iCanStudy, "Peer-to-Peer System Prep", course lesson. Private course notes, paraphrased. [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]]
-- iCanStudy, "Peer-to-Peer System: Easy Exit, Reward, and Peer", course lesson. Private course notes, paraphrased. [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]]
-- iCanStudy, "Perfectionism and overthinking", course lesson. Private course notes, paraphrased. [[wiki/Razors|Decision Making]] · [[wiki/Dimensions/Mindset/Perfectionism and Overthinking|Perfectionism and Overthinking]]
-- iCanStudy, "Positional Decisions and Expected Value", course lesson. Private course notes, paraphrased. [[wiki/Razors|Positional Decisions and Expected Value]] · [[wiki/Razors|Decision Making]]
-- iCanStudy, "Prestudy", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]
-- iCanStudy, "Priority 0.1 System", course lesson. Private course notes, paraphrased. [[wiki/Self Management/Priority 0+1 System|Priority 0+1 System]] · [[wiki/Self Management/Time Management, Attention & Scheduling|Time Management, Attention & Scheduling]]
-- iCanStudy, "Retrieval Tips", course lesson. Private course notes, paraphrased. [[wiki/Concepts/Accuracy Before Speed|Accuracy Before Speed]] · [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] · [[wiki/Dimensions/Retrieval/Opportunistic Retrieval|Opportunistic Retrieval]]
-- iCanStudy, "Retrieval", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Retrieval|Retrieval]]
-- iCanStudy, "Revision pitfalls", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Retrieval/Revision|Revision]]
-- iCanStudy, "Revision", course lesson. Private course notes, paraphrased. [[wiki/Techniques/Technique Training & Fundamentals|Technique Training & Fundamentals]] · [[wiki/Dimensions/Retrieval/Revision|Revision]] · [[wiki/Dimensions/Retrieval/Breaching Questions|Breaching Questions]]
-- iCanStudy, "Rote learning and memorisation", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Retrieval/Rote Learning and Memorisation|Rote Learning and Memorisation]]
-- iCanStudy, "Self-management", course lesson. Private course notes, paraphrased. [[wiki/Self Management/Time Management, Attention & Scheduling|Time Management, Attention & Scheduling]] · [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]]
-- iCanStudy, "Self-regulation", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- iCanStudy, "Silly mistake syndrome", course lesson. Private course notes, paraphrased. [[wiki/Domains/Miscellaneous/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]] · [[wiki/Domains/Miscellaneous/Exam Execution|Exam Execution]] · [[wiki/Dimensions/Self-Regulation/Silly Mistake Syndrome|Silly Mistake Syndrome]]
-- iCanStudy, "Stages of learning", course lesson. Private course notes, paraphrased. [[wiki/Techniques/Technique Training & Fundamentals|Technique Training & Fundamentals]] · [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]]
-- iCanStudy, "Stress and application adjustment", course lesson. Private course notes, paraphrased. [[wiki/Domains/Miscellaneous/Exam Execution|Exam Execution]] · [[wiki/Dimensions/Retrieval/Breaching Questions|Breaching Questions]]
-- iCanStudy, "Study Scheduling", course lesson. Private course notes, paraphrased. [[wiki/Self Management/Time Management, Attention & Scheduling|Study Scheduling]] · [[wiki/Self Management/Time Management, Attention & Scheduling|Time Management, Attention & Scheduling]]
-- iCanStudy, "Survive and Thrive", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Problem-First Learning|Problem-First Learning]]
-- iCanStudy, "Techniques in School", course lesson. Private course notes, paraphrased. [[wiki/Self Management/Techniques in School|Techniques in School]]
-- iCanStudy, "The golden rule of learning", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Mindset/Locus of Control|Locus of Control]]
-- iCanStudy, "Unlearning", course lesson. Private course notes, paraphrased. [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]]
-- iCanStudy, "Week 1: Breaking your fall" to "Week 4: Breaking chains", 30-day mindset challenge. Private course notes, paraphrased. [[wiki/Planning and Automation|30-Day Challenges]] · [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset Challenge]]
-- iCanStudy, "Week 1: Build your radar" to "Week 4: Fluidity", 30-day deep processing challenge. Private course notes, paraphrased. [[wiki/Planning and Automation|30-Day Challenges]] · [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]]
-- iCanStudy, "Week 1: Mapping" to "Week 4: Systemisation", 30-day self-regulation challenge. Private course notes, paraphrased. [[wiki/Planning and Automation|30-Day Challenges]] · [[wiki/Dimensions/30-Day Challenges/Self-Regulation Challenge|Self-Regulation Challenge]]
-- iCanStudy, "Week 1: Problem mapping" to "Week 4: Fading", 30-day self-management challenge. Private course notes, paraphrased. [[wiki/Planning and Automation|30-Day Challenges]] · [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management Challenge]]
-- iCanStudy, "What is higher-order learning and thinking?", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Deep Processing/Higher-Order Learning|Higher-Order Learning]]
-- iCanStudy, "What is reverse causality and how do I prevent it?", course lesson. Private course notes, paraphrased. [[wiki/Concepts/Reverse Causality|Reverse Causality]]
-- iCanStudy, "What is spiderwebbing?", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Retrieval/Revision|Revision]]
-- iCanStudy, "What is the best way to space my retrieval sessions?", course lesson. Private course notes, paraphrased. [[wiki/Techniques/Technique Training & Fundamentals|Technique Training & Fundamentals]] · [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- iCanStudy, "What's the difference between marginal gains and Kolb's experiential cycle?", course lesson. Private course notes, paraphrased. [[wiki/Razors|Decision Making]] · [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] · [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]
-- iCanStudy, "What's the difference between the 30-Day Plan and Marginal gains?", course lesson. Private course notes, paraphrased. [[wiki/Planning and Automation|The 30-Day Plan]]
-- iCanStudy, "When changing decisions is best", course lesson. Private course notes, paraphrased. [[wiki/Razors|Decision Making]] · [[wiki/Razors|Changing Decisions]]
-- iCanStudy, "Whole-part-whole technique", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Retrieval/WPW|WPW]]
-- iCanStudy, "Whole-part-whole tips", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Retrieval/WPW|WPW]]
-- iCanStudy, "WPW Technique", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Retrieval/WPW|WPW]]
-- iCanStudy, "WPW", course lesson. Private course notes, paraphrased. [[wiki/Dimensions/Retrieval/WPW|WPW]]
-- Institute of Economic Affairs, press release of 13 April 2026 and the research page "Attitudes to Economic Growth". [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|Britain - Poorer Than Mississippi]]
-- Justin Sung, "5 Thinking Habits That Make You Look Smarter" (YouTube, 2026-08-28). [Web](https://www.youtube.com/watch?v=6Z3I-9HvBQA) [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]]
-- Justin Sung, "How to Change Your Life in 2026 with Reverse Goal Setting" (YouTube). [Web](https://www.youtube.com/watch?v=LTaCZRsVIB0) [[wiki/Planning and Automation|Reverse Goal Setting]]
-- Justin Sung, "How to Force Your Brain To Be Motivated (when you don't feel like it)" (YouTube). [Web](https://www.youtube.com/watch?v=RMB3NsQotvM) [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated (when you don't feel like it)]]
-- Justin Sung, "How to Force Yourself To Achieve Your Goals (when you don't feel like it)" (YouTube). [Web](https://www.youtube.com/watch?v=J2hLwfV1zxk) [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated (when you don't feel like it)]]
-- Justin Sung, "How To Learn So Fast That AI Can Never Replace You" (YouTube, 2026-06-13). [Web](https://www.youtube.com/watch?v=-Xc_ExgwLs8) [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Higher-Order Generativity vs Higher-Order Judgment]]
-- Justin Sung, "How to Think So Clearly People Assume You're A Genius" (YouTube). [Web](https://www.youtube.com/watch?v=9Qh4bHqQlnQ) [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]
-- Justin Sung, "If Mindmaps Don't Work For You, Watch This Video" (YouTube, 2026-07-04). [Web](https://www.youtube.com/watch?v=R_tuS9sWJEk) [[wiki/Techniques/Technique Training & Fundamentals|Technique Training & Fundamentals]] · [[wiki/Dimensions/Deep Processing/Mindmaps|Mindmaps]] · [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]
-- Justin Sung, "If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes" (YouTube, 2026-05-02). [Web](https://www.youtube.com/watch?v=UyiKBkUZ2xc) [[wiki/Concepts/Memory Handling|Memory Handling]] · [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]
-- Justin Sung, "Learn to Learn in 4hrs 54mins - Full Course" (YouTube). [Web](https://www.youtube.com/watch?v=waGRF_ZApfI) [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]
-- Justin Sung, "Private Workshop - How to Learn Anything Faster" (YouTube). [Web](https://www.youtube.com/watch?v=U0QMMlarSC4) [[wiki/Dimensions/Deep Processing/Thinking on Paper - Mindmaps and Other Techniques|Thinking on Paper - Mindmaps and Other Techniques]]
-- Justin Sung, "Watch This For 18 Minutes, and You'll Outlearn 99.9% Of People" (YouTube, 2026-04-03). [Web](https://www.youtube.com/watch?v=k9SI2cLS73M) [[wiki/Razors|Are You Thinking, or Just Consuming]]
-- Justin Sung, "Why Your Brain Learns Better From Paper" (YouTube, 2026-06-20). [Web](https://www.youtube.com/watch?v=A9diICLQ9Ls) [[wiki/Concepts/The Screen Inferiority Effect|The Screen Inferiority Effect]]
-- Know Your Meme, "Nothing Ever Happens". [Web](https://knowyourmeme.com/memes/nothing-ever-happens) [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
-- Lauren Tan, "The Complete Guide to pstack Pt. 1" (X Article, 2026-08-31). [Web](https://x.com/poteto/status/2094457600259842065) [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]] · [[wiki/Working with Agents/Scope a bot like a job description|Set up a first engineering bot]] · [[wiki/Working with Agents/Run more agents in parallel|Run more agents in parallel]] · [[wiki/Working with Agents/Make a codebase agents can't easily mess up|Make a codebase agents can't easily mess up]] · [[wiki/Working with Agents/Let an agent check its own work|Handle a bug report - reproduce first]]
-- Lauren Tan, "The Complete Guide to pstack Pt. 2" (X Article, 2026-09-09). [Web](https://x.com/poteto/status/2097732320606507506) [[wiki/Start Here/The Big Idea Agents Do, You Steer|The Big Idea Agents Do, You Steer]] · [[wiki/Working with Agents/Give an agent a task without micromanaging it|Give an agent a task without micromanaging it]] · [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]] · [[wiki/Working with Agents/Let an agent check its own work|Handle a bug report - reproduce first]] · [[wiki/Planning and Automation|Plan a piece of work with an agent]] · [[wiki/Design/Front-End Web Design|Design a screen or feature with bots]]
-- Lauren Tan, correction skill in pstack. [Web](https://github.com/cursor/plugins/tree/main/pstack) [[wiki/Working with Agents/Turn a repeated correction into a permanent fix|Turn a repeated correction into a permanent fix]]
-- Lauren Tan, talk on shipping pull requests to production (2026-09-21). [Web](https://x.com/poteto/status/2102050467505430555) [[wiki/Start Here/The Big Idea Agents Do, You Steer|The Big Idea Agents Do, You Steer]] · [[wiki/Working with Agents/Give an agent a task without micromanaging it|Trust agents more over time]] · [[wiki/Working with Agents/Turn a repeated correction into a permanent fix|Turn a repeated correction into a permanent fix]] · [[wiki/Planning and Automation|Set up a routine or outer loop]] · [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]] · [[wiki/Working with Agents/Make a codebase agents can't easily mess up|Make a codebase agents can't easily mess up]]
-- Lauren Tan, talk on trusting agents (2026-08-12). [Web](https://www.youtube.com/watch?v=Zc07HI9Ppxk) [[wiki/Working with Agents/Give an agent a task without micromanaging it|Trust agents more over time]] · [[wiki/Working with Agents/Make a codebase agents can't easily mess up|Make a codebase agents can't easily mess up]] · [[wiki/Working with Agents/Let an agent check its own work|Handle a bug report - reproduce first]]
-- Lauren Tan, video tour of her bots (2026-09-27). [Web](https://www.youtube.com/watch?v=xZ5TEaleUdg) [[wiki/Planning and Automation|Set up a routine or outer loop]] · [[wiki/Working with Agents/Scope a bot like a job description|Organize a fleet of bots]]
-- Lauren Tan, X posts on agent work (2026-10-03 to 2026-10-16). [Web](https://x.com/poteto) [[wiki/Working with Agents/Give an agent a task without micromanaging it|Trust agents more over time]] · [[wiki/Working with Agents/Turn a repeated correction into a permanent fix|Turn a repeated correction into a permanent fix]] · [[wiki/Planning and Automation|Set up a routine or outer loop]] · [[wiki/Working with Agents/Make a codebase agents can't easily mess up|Make a codebase agents can't easily mess up]] · [[wiki/Working with Agents/Give an agent a task without micromanaging it|Review less without losing control]] · [[wiki/Working with Agents/Let an agent check its own work|Handle a bug report - reproduce first]]
-- Matt Pocock with Lauren Tan, live Q&A (2026-10-02). [Web](https://www.youtube.com/watch?v=MN9dGgmLyso) [[wiki/Start Here/The Big Idea Agents Do, You Steer|The Big Idea Agents Do, You Steer]] · [[wiki/Working with Agents/Give an agent a task without micromanaging it|Trust agents more over time]] · [[wiki/Working with Agents/Turn a repeated correction into a permanent fix|Turn a repeated correction into a permanent fix]] · [[wiki/Planning and Automation|Set up a routine or outer loop]] · [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]] · [[wiki/Working with Agents/Run more agents in parallel|Run more agents in parallel]] · [[wiki/Working with Agents/Give an agent a task without micromanaging it|Review less without losing control]]
-- Matt vs Japan, "Language Isn't Math" (YouTube, 2019-06-02). [Web](https://www.youtube.com/watch?v=y8JK8W8dBxk) [[wiki/Language Research/Language Research|Language Research]] · [[wiki/Language/Language Isn't Math|Language Isn't Math]]
-- Matt, video on a printed daily brief (2026-10-06). [Web](https://www.youtube.com/watch?v=zRNY93MtwFs) [[wiki/Planning and Automation|Set up a routine or outer loop]]
-- Maxinomics, "Is SpaceX About to Rule the World?" (YouTube, 2026-06-11). [[wiki/Concepts/Nothing Ever Happens Is Over|SpaceX & the Frontier Event]]
-- Movie Notepad, "Mental Health & Burnout in Studio Ghibli's 'Kiki's Delivery Service' - A Video Essay & Love Letter" (YouTube, 2023-04-15). [Web](https://www.youtube.com/watch?v=2vursPai-go) [[wiki/Story Craft/Story Craft|The Burnout Arc]]
-- Naval Podcast, "The AI Industrial Revolution", with Guillermo Rauch, Blake Scholl and Max Hodak (2026-06-02). [Web](https://nav.al/industrial) [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Higher-Order Generativity vs Higher-Order Judgment]] · [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|A Motorcycle for the Mind]]
-- Naval Ravikant and Nivi, "'Nothing Ever Happens' Is Over" (2026-05-05). [Web](https://nav.al/over) [[wiki/Concepts/Nothing Ever Happens Is Over|Nothing Ever Happens Is Over]]
-- Naval Ravikant and Nivi, "A Motorcycle for the Mind" (2026-02-20). [Web](https://nav.al/ai) [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Higher-Order Generativity vs Higher-Order Judgment]] · [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|A Motorcycle for the Mind]]
-- Naval Ravikant and Nivi, "A Return to Code" (2026-04-29). [Web](https://nav.al/code) [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Higher-Order Generativity vs Higher-Order Judgment]] · [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|A Return to Code]]
-- Naval Ravikant and Nivi, "Sell the Truth" (2026-05-12). [Web](https://nav.al/sell) [[wiki/Concepts/Charisma|Charisma]] · [[wiki/Razors|How to Communicate Truth Into Someone Else's Frame]] · [[wiki/Razors|The Age Of Nonlinear Returns]]
-- Naval Ravikant, "How to Get Rich" (tweetstorm and podcast, 2019). [Web](https://nav.al/rich) [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Higher-Order Generativity vs Higher-Order Judgment]] · [[wiki/Money/Money, Condensed|The Almanack of Naval Ravikant]]
-- Official Grok Bot docs, "Bots". [Web](https://docs.x.ai/grok-bot/bots) [[wiki/Working with Agents/Scope a bot like a job description|How other people staff their bot fleets]]
-- Outlier, "All About Meaning", Chinese Character Masterclass lesson 9. Private course notes, paraphrased. [[wiki/Language/Chinese/Meaning Trees and Original Meanings|Meaning Trees and Original Meanings]]
-- Outlier, "Chinese Character Masterclass", lessons 1 to 12. Private course notes, paraphrased. [[wiki/Language Research/Language Research|Language Research]] · [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]
-- Outlier, "Empty Components", Chinese Character Masterclass lesson 8. Private course notes, paraphrased. [[wiki/Language/Chinese/Empty Components|Empty Components]]
-- Outlier, "Form Components", Chinese Character Masterclass lesson 4. Private course notes, paraphrased. [[wiki/Language/Chinese/Form Components|Form Components]]
-- Outlier, "Meaning Components", Chinese Character Masterclass lesson 5. Private course notes, paraphrased. [[wiki/Language/Chinese/Meaning Components|Meaning Components]]
-- Outlier, "Sound Components", Chinese Character Masterclass lesson 6. Private course notes, paraphrased. [[wiki/Language/Chinese/Sound Components|Sound Components]]
-- Outlier, "Sound Series", Chinese Character Masterclass lesson 7. Private course notes, paraphrased. [[wiki/Language/Chinese/Sound Series|Sound Series]]
-- Outlier, "Surface Structure and Deep Structure", Chinese Character Masterclass lesson 3. Private course notes, paraphrased. [[wiki/Language/Chinese/Surface vs Deep Structure|Surface vs Deep Structure]]
-- Outlier, "The IME Method", Chinese Character Masterclass lesson 10. Private course notes, paraphrased. [[wiki/Language/Chinese/The IME Method|The IME Method]]
-- Outlier, "The Pipelining Strategy", Chinese Character Masterclass lesson 12. Private course notes, paraphrased. [[wiki/Language/Chinese/The Pipelining Strategy|The Pipelining Strategy]]
-- Outlier, "The Rules of Memory", Chinese Character Masterclass lesson 1. Private course notes, paraphrased. [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]
-- Outlier, "The Three Attributes", Chinese Character Masterclass lesson 2. Private course notes, paraphrased. [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]]
-- Peter Yang, interview with Lauren Tan (YouTube, 2026-09-27), and fleet videos by Peter Yang, Claire Vo and Sonny Sangha. [[wiki/Working with Agents/Scope a bot like a job description|How other people staff their bot fleets]]
-- Refold, "Character Primer", course note. Private course notes, paraphrased. [[wiki/Language/Character Primer|Character Primer]] · [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]
-- Refold, "Hacking Comprehension Menu", course note. Private course notes, paraphrased. [[wiki/Language/Interactive Immersion|Interactive Immersion]] · [[wiki/Language/Attention is Important|Attention is Important]] · [[wiki/Language/Noticing Game|Noticing Game]] · [[wiki/Language/Hacking Comprehension Menu|Hacking Comprehension Menu]]
-- Refold, "How to use a Grammar Primer - Demonstration", course video, 2024-03-06. Private course notes, paraphrased. [[wiki/Language/Refold Grammar Primers|Refold Grammar Primers]]
-- Refold, "How to use Language Reactor", course video, 2023-04-27. Private course notes, paraphrased. [[wiki/Language/Immersion Metalayers|Immersion Metalayers]]
-- Refold, "Intensive Reading Demo", course video, 2023-05-06. Private course notes, paraphrased. [[wiki/Language/Interactive Immersion|Interactive Immersion]] · [[wiki/Language/Noticing Game|Noticing Game]]
-- Refold, "Teach Yourself a Language", course lessons. Private course notes, paraphrased. [[wiki/Language Research/Language Research|Language Research]]
-- Refold, "Teach Yourself a Language, Day 10: Immersion Metalayers", course page. Private course notes, paraphrased. [[wiki/Language/Immersion Metalayers|Immersion Metalayers]] · [[wiki/Language/Noticing Game|Noticing Game]]
-- Refold, "Teach Yourself a Language, Day 18: Interactive Immersion", course page. Private course notes, paraphrased. [[wiki/Language/Interactive Immersion|Interactive Immersion]] · [[wiki/Language/Noticing Game|Noticing Game]]
-- Refold, "Teach Yourself a Language, Day 19: Intensive Reading", course page. Private course notes, paraphrased. [[wiki/Language/Interactive Immersion|Interactive Immersion]] · [[wiki/Language/Noticing Game|Noticing Game]]
-- Refold, "Teach Yourself a Language, Day 20: The Three Pillars", course page. Private course notes, paraphrased. [[wiki/Language/Interactive Immersion|Interactive Immersion]] · [[wiki/Language/Three Pillars of Language Learning|Three Pillars of Language Learning]] · [[wiki/Language/Refold Language Learning System|Refold Language Learning System]]
-- Refold, "Teach Yourself a Language, Day 22: Freeflow", course page. Private course notes, paraphrased. [[wiki/Language/Freeflow Immersion|Freeflow Immersion]]
-- Refold, "Teach Yourself a Language, Day 24: Grammar", course page. Private course notes, paraphrased. [[wiki/Language/Refold Grammar Primers|Refold Grammar Primers]] · [[wiki/Language/Noticing Game|Noticing Game]]
-- Refold, "Teach Yourself a Language, Day 3: Attention is Important", course page. Private course notes, paraphrased. [[wiki/Language/Attention is Important|Attention is Important]] · [[wiki/Language/Noticing Game|Noticing Game]]
-- Refold, "Teach Yourself a Language, Day 4: Compelling Content", course page. Private course notes, paraphrased. [[wiki/Language/YouTube Immersion Account|YouTube Immersion Account]]
-- Refold, "Teach Yourself a Language, Day 6: Tools for Priming", course page. Private course notes, paraphrased. [[wiki/Language/Noticing Game|Noticing Game]]
-- Refold, "Teach Yourself a Language, Day 9: Reading + Listening", course page. Private course notes, paraphrased. [[wiki/Language/Immersion Metalayers|Immersion Metalayers]] · [[wiki/Language/Interactive Immersion|Interactive Immersion]] · [[wiki/Language/Three Pillars of Language Learning|Three Pillars of Language Learning]] · [[wiki/Language/Noticing Game|Noticing Game]]
-- Refold, "Teach Yourself a Language: Refold Method and Course Overview", course page. Private course notes, paraphrased. [[wiki/Language/Refold Language Learning System|Refold Language Learning System]]
-- Refold, "The Refold Japanese Grammar Primer", course guide. Private course notes, paraphrased. [[wiki/Language/Refold Grammar Primers|Refold Grammar Primers]]
-- Ryan Perry and Zoë Barnswell, "Ship Code at Scale with Grok Bot and Cursor" (workshop recording, 2026-10-15). [Web](https://www.youtube.com/watch?v=lpi-9F5KJJo) [[wiki/Working with Agents/Scope a bot like a job description|How other people staff their bot fleets]]
-- Sam's POV, "Why Korea Can't Ban Hyper-Tutoring" (YouTube, 2026-05-27). [Web](https://www.youtube.com/watch?v=HQwOC546Ch8) [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|East Asian Exams - The Arms Race]]
-- Solly, "How Kiki's Delivery Service Portrays Modernity PERFECTLY" (YouTube, 2023-05-18). [Web](https://www.youtube.com/watch?v=lIVw1MMUln8) [[wiki/Story Craft/Story Craft|The Burnout Arc]]
-- SpaceXAI, "Grok Bot for sales" (2026-10-27). [Web](https://x.ai/news/grok-bot-sales) [[wiki/Working with Agents/Scope a bot like a job description|How other people staff their bot fleets]]
-- The Invisible Hand, "Why Education is Destroying East Asia" (YouTube, 2026-07-26). [Web](https://www.youtube.com/watch?v=ZPe7tbysc2g) [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|East Asian Exams - The Arms Race]]
-- The Soak, "Why Ghibli Succeeds Where Disney Fails" (YouTube, 2024-12-29). [Web](https://www.youtube.com/watch?v=4xUaZ9Vr-Cg) [[wiki/Story Craft/Story Craft|The Burnout Arc]]
-- Thursday Arena hosts' posts on X (2026-09-16 to 2026-09-19). [Web](https://thursdayarena.com) [[wiki/Planning and Automation|Thursday Arena]]
-- TimJongUn Productions, "Kiki's Delivery Service Will Always Be an Inspiration" (YouTube, 2023-06-14). [Web](https://www.youtube.com/watch?v=1PMGs6fbYaY) [[wiki/Story Craft/Story Craft|The Burnout Arc]]
-- TRADOC G-2 and University of Foreign Military and Cultural Studies, *The Red Team Handbook*, an Army guide to better decisions. Paraphrased. [[wiki/Red Team/Red Teaming|Red Teaming]]
-- William Lidwell, Kritina Holden and Jill Butler, *Universal Principles of Design*. Book notes, paraphrased. [[wiki/Design/Design, Condensed|Design of Everyday Things]]
-- Workshop on shipping code with bots and cloud agents (2026-10-15, video). [[wiki/Working with Agents/Let an agent check its own work|Handle a bug report - reproduce first]]
+### Public web, video, papers, and product documentation
+
+- Addy Osmani, "Don't Outsource the Learning" (essay, 2026-05-18).
+- All-In Podcast, "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal" (YouTube, 2026-06-20).
+- All-In Podcast, ep. 282, "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?" (YouTube, 2026-07-25).
+- Andrej Karpathy, "From Vibe Coding to Agentic Engineering" (Sequoia Capital, AI Ascent 2026). [Web](https://www.youtube.com/watch?v=96jN2OCOfLs)
+- Asmongold TV, "This is genuinely f***ed.." (YouTube, 2026-09-05). [Web](https://www.youtube.com/watch?v=dtli77ZzhT0)
+- Basic Logic, "DEI: All Arguments Ranked & Debunked" (YouTube, 2026-03-02). [Web](https://www.youtube.com/watch?v=9iTBMNY7ous)
+- Basic Logic, "Europeans Owe You Nothing" (YouTube, 2026-05-18). [Web](https://www.youtube.com/watch?v=yZJoK0Jz7qY)
+- Basic Logic, "Gender Ideology: All Arguments Ranked & Debunked" (YouTube, 2026-02-20). [Web](https://www.youtube.com/watch?v=56MKv_S4kJY)
+- Basic Logic, "How Feminism Justified Killing Children" (YouTube, 2026-09-03). [Web](https://www.youtube.com/watch?v=3SOWFC2SvFY)
+- Basic Logic, "How Immigration Replaced the Woke Left" (YouTube, 2026-08-21). [Web](https://www.youtube.com/watch?v=xthKh_ndHrc)
+- Basic Logic, "How To Be Responsibly Racist" (YouTube, 2026-06-15). [Web](https://www.youtube.com/watch?v=oGRNJhS2bhI)
+- Basic Logic, "LGBT: All Arguments Ranked & Debunked" (YouTube, 2026-03-30). [Web](https://www.youtube.com/watch?v=S9gmtI_uS50)
+- Basic Logic, "Mass Immigration is Corporate Welfare" (YouTube, 2026-01-30). [Web](https://www.youtube.com/watch?v=nf_iwUSvaZ0)
+- Basic Logic, "Mass Immigration: All Arguments Ranked & Debunked" (YouTube, 2025-11-28). [Web](https://www.youtube.com/watch?v=2CVuL-QpvQs)
+- Basic Logic, "The Genetics Behind Unequal Societies" (YouTube, 2026-08-30). [Web](https://www.youtube.com/watch?v=vWS59L52h1M)
+- Basic Logic, "White Guilt: All Arguments Ranked & Debunked" (YouTube, 2026-02-06). [Web](https://www.youtube.com/watch?v=QtgmBazTi5Q)
+- Basic Logic, "Why Is Black America So Racist?" (YouTube, 2026-06-29). [Web](https://www.youtube.com/watch?v=WunIYGEYeD0)
+- Basic Logic, "You've Just Been Called Racist, Now What?" (YouTube, 2025-12-26). [Web](https://www.youtube.com/watch?v=yYIITZs0C8A)
+- Bill Friedman, books on casino design.
+- Cinema Therapy, "Therapist Reacts to KIKI'S DELIVERY SERVICE" (YouTube, 2023-10-17). [Web](https://www.youtube.com/watch?v=L9H8f_DkyJ8)
+- "Designing Grok Bot with Grok Bot" (official guide, 2026-08-24). [Web](https://x.ai/bot/guides/designing-grok-bot-with-grok-bot)
+- Dong-Dong Wu and Ya-Ping Zhang, "Different level of population differentiation among human genes", *BMC Evolutionary Biology* (2011). [Web](https://link.springer.com/article/10.1186/1471-2148-11-16)
+- Dwarkesh Patel with John Schulman, Beren Millidge and Charlie O'Neill, "AI researchers debate how close we are to recursive self-improvement" (YouTube, 2026-09-11). [Web](https://www.youtube.com/watch?v=PrSf7IOYu-I)
+- Fitness videos "Seven mindsets that slowly destroy your body", "Seven mindsets to help you get in shape" and "The most effective mindsets for your body" (YouTube, 2025).
+- Front Page, "How The UK Became Poorer Than Mississippi" (YouTube, 2026-05-15). [Web](https://www.youtube.com/watch?v=ITFz2aDjKxY)
+- Grok Bot Galaxy workshop livestream, days 1 to 3 (2026-09-15 to 2026-09-17). Caption transcripts and field notes. · · · · · · ·
+- Grok Bot team, "Designing Grok Bot for a world of persistent agents" (essay). [Web](https://x.ai/news/designing-grok-bot)
+- Gurwinder, "How Social Media Shortens Your Life" (essay, 2025-08-03). [Web](https://www.gurwinder.blog/p/how-social-media-shortens-your-life)
+- Institute of Economic Affairs, press release of 13 April 2026 and the research page "Attitudes to Economic Growth".
+- Justin Sung, "5 Thinking Habits That Make You Look Smarter" (YouTube, 2026-08-28). [Web](https://www.youtube.com/watch?v=6Z3I-9HvBQA)
+- Justin Sung, "How to Change Your Life in 2026 with Reverse Goal Setting" (YouTube). [Web](https://www.youtube.com/watch?v=LTaCZRsVIB0)
+- Justin Sung, "How to Force Your Brain To Be Motivated (when you don't feel like it)" (YouTube). [Web](https://www.youtube.com/watch?v=RMB3NsQotvM)
+- Justin Sung, "How to Force Yourself To Achieve Your Goals (when you don't feel like it)" (YouTube). [Web](https://www.youtube.com/watch?v=J2hLwfV1zxk)
+- Justin Sung, "How To Learn So Fast That AI Can Never Replace You" (YouTube, 2026-06-13). [Web](https://www.youtube.com/watch?v=-Xc_ExgwLs8)
+- Justin Sung, "How to Think So Clearly People Assume You're A Genius" (YouTube). [Web](https://www.youtube.com/watch?v=9Qh4bHqQlnQ)
+- Justin Sung, "If Mindmaps Don't Work For You, Watch This Video" (YouTube, 2026-07-04). [Web](https://www.youtube.com/watch?v=R_tuS9sWJEk)
+- Justin Sung, "If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes" (YouTube, 2026-05-02). [Web](https://www.youtube.com/watch?v=UyiKBkUZ2xc)
+- Justin Sung, "Learn to Learn in 4hrs 54mins - Full Course" (YouTube). [Web](https://www.youtube.com/watch?v=waGRF_ZApfI)
+- Justin Sung, "Private Workshop - How to Learn Anything Faster" (YouTube). [Web](https://www.youtube.com/watch?v=U0QMMlarSC4)
+- Justin Sung, "Watch This For 18 Minutes, and You'll Outlearn 99.9% Of People" (YouTube, 2026-04-03). [Web](https://www.youtube.com/watch?v=k9SI2cLS73M)
+- Justin Sung, "Why Your Brain Learns Better From Paper" (YouTube, 2026-06-20). [Web](https://www.youtube.com/watch?v=A9diICLQ9Ls)
+- Know Your Meme, "Nothing Ever Happens". [Web](https://knowyourmeme.com/memes/nothing-ever-happens)
+- Lauren Tan, "The Complete Guide to pstack Pt. 1" (X Article, 2026-08-31). [Web](https://x.com/poteto/status/2094457600259842065) ·
+- Lauren Tan, "The Complete Guide to pstack Pt. 2" (X Article, 2026-09-09). [Web](https://x.com/poteto/status/2097732320606507506) · ·
+- Lauren Tan, correction skill in pstack. [Web](https://github.com/cursor/plugins/tree/main/pstack)
+- Lauren Tan, talk on shipping pull requests to production (2026-09-21). [Web](https://x.com/poteto/status/2102050467505430555) · ·
+- Lauren Tan, talk on trusting agents (2026-08-12). [Web](https://www.youtube.com/watch?v=Zc07HI9Ppxk)
+- Lauren Tan, video tour of her bots (2026-09-27). [Web](https://www.youtube.com/watch?v=xZ5TEaleUdg)
+- Lauren Tan, X posts on agent work (2026-10-03 to 2026-10-16). [Web](https://x.com/poteto) · ·
+- Matt Pocock with Lauren Tan, live Q&A (2026-10-02). [Web](https://www.youtube.com/watch?v=MN9dGgmLyso) · ·
+- Matt vs Japan, "Language Isn't Math" (YouTube, 2019-06-02). [Web](https://www.youtube.com/watch?v=y8JK8W8dBxk)
+- Matt, video on a printed daily brief (2026-10-06). [Web](https://www.youtube.com/watch?v=zRNY93MtwFs)
+- Maxinomics, "Is SpaceX About to Rule the World?" (YouTube, 2026-06-11).
+- Movie Notepad, "Mental Health & Burnout in Studio Ghibli's 'Kiki's Delivery Service' - A Video Essay & Love Letter" (YouTube, 2023-04-15). [Web](https://www.youtube.com/watch?v=2vursPai-go)
+- Naval Podcast, "The AI Industrial Revolution", with Guillermo Rauch, Blake Scholl and Max Hodak (2026-06-02). [Web](https://nav.al/industrial)
+- Naval Ravikant and Nivi, "'Nothing Ever Happens' Is Over" (2026-05-05). [Web](https://nav.al/over)
+- Naval Ravikant and Nivi, "A Motorcycle for the Mind" (2026-02-20). [Web](https://nav.al/ai)
+- Naval Ravikant and Nivi, "A Return to Code" (2026-04-29). [Web](https://nav.al/code)
+- Naval Ravikant and Nivi, "Sell the Truth" (2026-05-12). [Web](https://nav.al/sell)
+- Naval Ravikant, "How to Get Rich" (tweetstorm and podcast, 2019). [Web](https://nav.al/rich)
+- Official Grok Bot docs, "Bots". [Web](https://docs.x.ai/grok-bot/bots)
+- Peter Yang, interview with Lauren Tan (YouTube, 2026-09-27), and fleet videos by Peter Yang, Claire Vo and Sonny Sangha.
+- Ryan Perry and Zoë Barnswell, "Ship Code at Scale with Grok Bot and Cursor" (workshop recording, 2026-10-15). [Web](https://www.youtube.com/watch?v=lpi-9F5KJJo)
+- Sam's POV, "Why Korea Can't Ban Hyper-Tutoring" (YouTube, 2026-05-27). [Web](https://www.youtube.com/watch?v=HQwOC546Ch8)
+- Solly, "How Kiki's Delivery Service Portrays Modernity PERFECTLY" (YouTube, 2023-05-18). [Web](https://www.youtube.com/watch?v=lIVw1MMUln8)
+- SpaceXAI, "Grok Bot for sales" (2026-10-27). [Web](https://x.ai/news/grok-bot-sales)
+- The Invisible Hand, "Why Education is Destroying East Asia" (YouTube, 2026-07-26). [Web](https://www.youtube.com/watch?v=ZPe7tbysc2g)
+- The Soak, "Why Ghibli Succeeds Where Disney Fails" (YouTube, 2024-12-29). [Web](https://www.youtube.com/watch?v=4xUaZ9Vr-Cg)
+- Thursday Arena hosts' posts on X (2026-09-16 to 2026-09-19). [Web](https://thursdayarena.com)
+- TimJongUn Productions, "Kiki's Delivery Service Will Always Be an Inspiration" (YouTube, 2023-06-14). [Web](https://www.youtube.com/watch?v=1PMGs6fbYaY)
+- Workshop on shipping code with bots and cloud agents (2026-10-15, video).

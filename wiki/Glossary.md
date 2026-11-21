@@ -1,10 +1,10 @@
 ---
 type: reference
-status: seed
+status: stable
 created: 2026-05-02
-updated: 2026-09-13
-method: plain-register-2026-09-13
-prose-model: opus
+updated: 2026-11-21
+description: "Shared vocabulary for the five doors: learning dimensions, character terminology, and a few cross-door labels. Each entry points to the door page that owns the full explanation."
+source-count: 3
 tags:
   - reference
 wedge_reviewed: false
@@ -12,134 +12,82 @@ wedge_reviewed: false
 
 # Glossary
 
-> Not yet reviewed by Wedge.
+These are the terms every door reuses often enough that they need one definition page instead of five copies. Most entries come from the learning system and from how Chinese characters are taught on this site. Use this page when a door page uses a label you do not recognize. Follow the link on each entry when you need the operating detail, not just the sentence here.
 
-The glossary defines the terms the wiki uses most, each in the words of the page that explains it. Most come from the learning system, and the rest come from the pages on how Chinese characters work.
+## Learning dimensions and control
 
-## Active Learning
+**Dimensions of learning** are the five capabilities that decide how well study works: retrieval, mindset, deep processing, self-regulation, and self-management. The weakest dimension caps the rest. See [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]].
 
-Active learning is working on material rather than taking it in at low effort, for example reading as if you will have to teach it and field hard questions about it later. Learners need a clear sense of what it looks and feels like, or no list of strategies will help. See [[wiki/Razors|Are You Thinking, or Just Consuming]].
+**Deep processing** is the work of turning information into meaning by thinking hard about relations, importance, and structure, not by rereading at low effort. See [[wiki/Dimensions/Deep Processing|Deep Processing]].
 
-## Bear Hunter System
+**Retrieval** is pulling knowledge back out of memory on purpose, whether as a fact, an explanation, or a worked problem. Without retrieval practice, encoded material decays. See [[wiki/Dimensions/Retrieval|Retrieval]].
 
-The Bear Hunter System is a learning method built on three steps. In Aim you direct your thinking by asking what matters and how things relate. In Shoot you answer those questions and build the map. In Skin you refine the groups until the structure feels surer. See [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]].
+**Spaced interleaved retrieval** schedules recall at widening gaps and mixes older topics into later sessions so memory has to discriminate, not only repeat. See [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
 
-## Deep Processing
+**Mindset** is the filter that colors what you notice, what you attempt, and what you quit on. See [[wiki/Dimensions/Mindset|Mindset]].
 
-Deep processing is the brain's ability to turn information into meaningful learning. That learning comes from the thinking the information sets off. See [[wiki/Dimensions/Deep Processing|Deep Processing]].
+**Self-regulation** is monitoring and steering how you study: energy, measurement, traps, and whether a technique is actually producing thought. See [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
 
-## Dimensions of Learning
+**Metacognition** is the inner view of what your mind is doing while you study: noticing a cue, judging it, and choosing the next move. See [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]].
 
-The dimensions of learning are the five capabilities that decide how well a person learns. They are retrieval, mindset, deep processing, self-regulation and self-management. Each can be trained separately, and whichever is weakest holds back the rest. See [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]].
+**Self-management** is the habits, routines, and surroundings that keep action steady across days. See [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]].
 
-## Kolbs Experiential Cycle
+**Marginal gains** treats progress as a chain of small, repeatable improvements toward a larger direction. See [[wiki/Dimensions/Mindset|Marginal Gains]].
 
-Kolb's experiential cycle is a structured look back at an experience to work out how to do better. Marginal gains set the direction of improvement, and the cycle is the means of getting there. See [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]].
+**Kolbs experiential cycle** is a structured look back at an experience to decide the next adjustment. Marginal gains aim the direction; the cycle is how you walk it. See [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]].
 
-## Marginal Gains
+**Locus of control** names what you can still do to improve odds of a result. The exam score itself sits outside it. See [[wiki/Dimensions/Mindset|Locus of Control]].
 
-Marginal gains treat progress as a chain of small improvements. Small steps are easier to hit and fail less often, and they help you choose the next move toward a larger goal. See [[wiki/Dimensions/Mindset|Marginal Gains]].
+## Encoding, chunking, and the Bear Hunter moves
 
-## Metacognition
+**Bear Hunter System** runs study in three moves: Aim (ask what matters), Shoot (answer and map), Skin (tighten the structure). See [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]].
 
-Metacognition is your view of what your own mind is doing during learning. It works as a loop in which a cue appears, you notice it, and you judge what the cue means and what to do next. See [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]].
+**Importance-based chunking** groups material, then judges which groups deserve memory space. The judgment step is what makes chunking efficient. See [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]].
 
-## Mindset
+**Prestudy** is any study before a main event so new detail has somewhere to land. See [[wiki/Planning and Automation|Prestudy]].
 
-Mindset is the filter through which you see situations and respond to them. It colours what you decide and what you do. See [[wiki/Dimensions/Mindset|Mindset]].
+**Inquiry-based learning** starts from problems you pose for yourself and lets curiosity steer intake. See [[wiki/Dimensions/Deep Processing|Inquiry-Based Learning]].
 
-## Retrieval
+**Encoding** is the first pass that makes knowledge stick; retrieval is the complementary pass that keeps it. See [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
 
-Retrieval is using and recalling knowledge from memory, whether that means bringing back a fact, explaining something or working through a problem. Knowledge fades all the time, so retrieval practice is what slows the decay. See [[wiki/Dimensions/Retrieval|Retrieval]].
+**WPW (whole-part-whole)** views a topic whole, splits it into parts, then reassembles it as a whole again. See [[wiki/Dimensions/Retrieval|WPW]].
 
-## Self-Management
+## Passive versus active study
 
-Self-management is setting up the habits, routines and surroundings that keep action steady. Those systems let you stay focused, manage time, energy and attention, avoid procrastination and set priorities. See [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]].
+**Active learning** means working on material with enough effort that you could teach or defend it. See [[wiki/Razors|Are You Thinking, or Just Consuming]].
 
-## Self-Regulation
+**Passive learning** is low-effort intake, usually reading for literal comprehension only. See [[wiki/Razors|Are You Thinking, or Just Consuming]].
 
-Self-regulation is the skill of monitoring, steering and refining how you study. If deep processing is the power of a car's engine, self-regulation is the skill of driving it. See [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
+**Working memory** is the short workspace where new information lands and where prior knowledge is pulled back for use. Treat its limit as weight, not a simple item count. See [[wiki/Concepts/Memory Handling|Memory Handling]].
 
-## Spaced Interleaved Retrieval
+## Chinese character terminology
 
-Spaced interleaved retrieval is recalling material from memory at widening, loosely followed intervals, with later sessions covering several earlier days or weeks of material together. Memory always decays somewhat, so some retrieval is always needed, though stronger encoding means less of it. See [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
+**Functional component** does sound or meaning work inside a character. Many textbook splits include pieces that do neither. See [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Rules of Effective Memorization]].
 
-## WPW
+**Form component** uses pictorial shape to carry meaning, even when the modern glyph no longer looks like the object. See [[wiki/Language/Chinese/How Chinese Characters Work|Form Components]].
 
-WPW, or whole-part-whole, is a technique for teaching yourself. You view the topic whole first, split it into its parts, then put it back together and view it whole again. See [[wiki/Dimensions/Retrieval|WPW]].
+**Meaning component** brings an abstract sense rooted in an older concrete meaning. See [[wiki/Language/Chinese/How Chinese Characters Work|Meaning Components]].
 
-## Passive Learning
+**Sound component** narrows pronunciation to a range rather than fixing one reading. See [[wiki/Language/Chinese/How Chinese Characters Work|Sound Components]].
 
-Passive learning is absorbing material with little mental effort, such as reading a text only to understand what each line says. For most people it is the default state and fills most study time. See [[wiki/Razors|Are You Thinking, or Just Consuming]].
+**Empty component** contributes neither sound nor meaning in the character where it appears; the same shape may function elsewhere. See [[wiki/Language/Chinese/How Chinese Characters Work|Empty Components]].
 
-## Working Memory
+**Sound series** groups characters built on one sound component with patterned reading variation. See [[wiki/Language/Chinese/How Chinese Characters Work|Sound Series]].
 
-Working memory is the short workspace where new information lands first and where long-term knowledge is pulled back for use. You have about 15 to 30 seconds to make information meaningful there, and its limit is better pictured as weight than as a count of items. See [[wiki/Concepts/Memory Handling|Memory Handling]].
+**Semantic series** groups characters that share a meaning component even when their modern senses diverge. See [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Semantic series]].
 
-## Functional Component
+**Meaning tree** orders a character's senses with the original meaning as trunk, marking sound-loan branches so false bridges do not form. See [[wiki/Language/Chinese/How Chinese Characters Work|Meaning Trees]].
 
-A functional component is a part of a Chinese character that does a job in that character by expressing sound or meaning. Many resources split characters into pieces that do no such job. See [[wiki/Dimensions/Retrieval|Rules of Effective Memorization]].
+**Original meaning** is the sense tied to the form before extensions and loans accumulated. See [[wiki/Language/Chinese/How Chinese Characters Work|Original Meaning]].
 
-## Form Component
+**Fence principle** says a trusted note that two readings are related lets the brain accept a sound link that pinyin alone would reject. See [[wiki/Language/Chinese/How Chinese Characters Work|Fence Principle]].
 
-A form component is a character component that uses its pictorial quality to express meaning. It once depicted something, though the modern shape may no longer look like it. See [[wiki/Language/Chinese/How Chinese Characters Work|Form Components]].
+**Rebus principle** borrows an existing character for sound to write a different word, stretching drawable vocabulary. See [[wiki/Language/Chinese/How Chinese Characters Work|Rebus Principle]].
 
-## Meaning Component
+**Pipelining (character intake)** spreads form, meaning, and sound across days so each pass has a lighter load. See [[wiki/Language/Chinese/How Chinese Characters Work|Pipelining]].
 
-A meaning component brings an abstract sense that grew out of a concrete original one. 力 first showed a plow, and its sense widened to effort and strength. See [[wiki/Language/Chinese/How Chinese Characters Work|Meaning Components]].
+## Sources
 
-## Sound Component
-
-A sound component works as a prediction tool. It narrows the pronunciation to a range rather than fixing one reading. See [[wiki/Language/Chinese/How Chinese Characters Work|Sound Components]].
-
-## Empty Component
-
-An empty component supplies no sound and no meaning in the character it sits in. That status belongs to the character, not the shape, so the same piece can be functional elsewhere. See [[wiki/Language/Chinese/How Chinese Characters Work|Empty Components]].
-
-## Sound Series
-
-A sound series is a group of characters built on the same sound component. Their readings vary in patterned ways, with initials varying within seven related groups. See [[wiki/Language/Chinese/How Chinese Characters Work|Sound Series]].
-
-## Semantic Series
-
-A semantic series, also called a meaning series, groups characters that share a meaning component. Their meanings do not always match the component's own. See [[wiki/Dimensions/Retrieval|Rules of Effective Memorization]].
-
-## Meaning Tree
-
-A meaning tree lays out a character's senses with the original meaning as its trunk. Extensions branch from it, sound-loan senses are marked so no false bridge is built to the form, and two readings get two trees. See [[wiki/Language/Chinese/How Chinese Characters Work|Meaning Trees and Original Meanings]].
-
-## Original Meaning
-
-The original meaning is the sole sense bound to a character's form. Every later extension can be traced back to it. See [[wiki/Language/Chinese/How Chinese Characters Work|Meaning Trees and Original Meanings]].
-
-## Fence Principle
-
-A trusted note saying two readings are related works like a fence. Learners often reject a valid sound link when the pinyin differs, and once the fence is up the brain can take the link in. See [[wiki/Language/Chinese/How Chinese Characters Work|Sound Series]].
-
-## Rebus Principle
-
-The rebus principle borrows an existing character for its sound so it can write a different word. It was one answer to the limit on how many words could be drawn. See [[wiki/Language/Chinese/How Chinese Characters Work|Sound Components]].
-
-## Pipelining (Character Intake)
-
-Pipelining spreads a character's form, meaning and sound over different days. Characters go through a three-day cycle in groups of three to five, and on the third day the written form is attached to a word that is already overlearned. See [[wiki/Language/Chinese/How Chinese Characters Work|The Pipelining Strategy]].
-
-## Encoding
-
-Encoding is the initial work of making knowledge stick. It is the counterpart of retrieval, and efficiency and accuracy both need the two together. See [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
-
-## Prestudy
-
-Prestudy covers any study done in advance of a main learning event, whether a class or a long dedicated session. It gives new information somewhere to land, which makes later detail easier to hold on to. See [[wiki/Dimensions/Deep Processing|Prestudy]].
-
-## Inquiry-Based Learning
-
-Inquiry-based learning is posing problems for yourself and then solving them, letting curiosity steer what you take in and how you think. See [[wiki/Dimensions/Deep Processing|Inquiry-Based Learning]].
-
-## Locus of Control
-
-The locus of control covers the actions within your own reach that improve your chances of the result you want. The result itself, such as an exam score, lies outside it. See [[wiki/Dimensions/Mindset|Locus of Control]].
-
-## Importance-Based Chunking
-
-Importance-based chunking is grouping information and then judging the value of the groups. That judgment is the part of chunking that drives efficiency. See [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-Based Chunking]].
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — dimension map and shared learning vocabulary.
+- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]] — character components, series, and intake tactics.
+- [[wiki/Concepts/Memory Handling|Memory Handling]] — working memory and the encoding–retrieval pair.
