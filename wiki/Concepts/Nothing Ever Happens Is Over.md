@@ -3,7 +3,7 @@ title: "Nothing Ever Happens Is Over"
 type: concept
 status: stable
 created: 2026-05-06
-updated: 2026-11-21
+updated: 2026-11-22
 description: "After COVID the pace joke—that nothing ever happens—stopped fitting. Hardware, power, and frontiers are moving faster again."
 domain: world
 tags:
@@ -22,6 +22,8 @@ The meme that headlines scream and then the world stays the same no longer match
 ## Why the old joke failed
 
 The joke said that nothing ever happens. That reading fit a stretch when institutions looked stable and technology felt incremental. Investors now report demand for hardware work that used to live in venture slide decks only. Interesting times, in the proverb’s warning sense, are here again. The direction may still be good or bad. The speed itself is the fact the joke no longer covers.
+
+The same shift shows up in public markets and in private founder networks: capital that sat in software-only bets is rotating toward atoms, power, and logistics. Talk of war, famine, and climate collapse still gets clicks, but the people funding fabs, launch cadence, and grid upgrades are pricing a world where physical constraints matter again. That does not prove every bet will pay. It does prove the old cynicism about stasis is a bad map for the next decade.
 
 ## How models change a company’s knowledge map
 

@@ -4,9 +4,7 @@ type: concept
 status: stable
 domain: world
 created: 2026-06-19
-updated: 2026-09-17
-method: plain-rewrite-2026-09-11
-prose-model: fable
+updated: 2026-11-22
 source-count: 3
 tags:
   - economics
@@ -20,14 +18,7 @@ tags:
 
 Regulatory capture via doom-marketing is the pattern in which dramatizing a technology's danger gives gatekeepers the pretext to centralize control of it. The control regime that follows favors the largest incumbents, because they are the only players able to meet its requirements. The danger can be real. The capture lies in who ends up controlling access to the technology.
 
-## Core takeaways
-
-- Dramatizing a technology's danger creates public and government demand for control. The control regime built in response carries fixed costs that only the largest incumbents can pay, and competition collapses toward an oligopoly of those incumbents.
-- The actor who raises the alarm need not intend this outcome. The incumbents profit from the opening either way.
-- Four checks separate capture from legitimate safety: who benefits, whether the danger is falsifiable, whether the remedy fits the threat, and whether a cheaper internal fix has been left unbuilt.
-- The fourth check rests on an action rather than an interpretation. It carries the most weight when the four checks disagree.
-- The checks grade the shape of an argument, never the size of the danger. Passing them is no evidence that a technology is safe.
-- Diffusion works against capture. A model fits on a USB drive, and concentrated technology stacks have broken apart before under market pressure.
+Dramatizing danger creates demand for control; the control regime that follows carries fixed costs only large incumbents can pay. Four checks separate capture from legitimate safety: who benefits, whether the danger is falsifiable, whether the remedy fits the threat, and whether a cheaper internal fix was left unbuilt. The last check carries the most weight when they disagree. Passing the checks grades the shape of an argument, not the size of the danger.
 - In September 2026 one of four public answers to a frontier lab chief's slowdown essay proposed that competing labs test each other's models before release, enforced by publicity and by product-liability law, in place of a transnational body.
 
 ## The four steps
@@ -108,32 +99,16 @@ The account is the panel's. The check turns on the comparison of the two remedie
 
 The who-benefits check also applies to the sources of this concept. All three sources are the same podcast panel, and the panel is not disinterested. One member holds a government post that shapes the decision under discussion, and he says on the recording that he is making his opinion known so the president hears it. Another member sells enterprises the work of standing open models up in-house. The panel's own summary of itself is "everyone's talking their books." People in those positions benefit when safety claims are read as bids for control of access.
 
-The checks are also cheap to run, and a motivated reader can fail almost any regulation on them. The who-benefits check alone fails every rule that carries a fixed compliance cost, since fixed costs always land hardest on the smallest player. The failure mode of this concept is a reader who discounts every danger claim by default. That error costs as much as believing every danger claim, in the opposite direction.
-
-Two things keep the checks honest. First, the checks grade the shape of an argument and never the size of the danger, so passing them is no evidence that a technology is safe. Second, the unpursued-cheap-remedy check is the only one of the four that turns on an action rather than an interpretation. For that reason it should carry the most weight when the four checks disagree.
+A motivated reader can fail almost any regulation on the checks alone; discounting every danger claim by default is as costly as believing every one. The checks grade argument shape, not danger size, and the unpursued-cheap-remedy check should carry the most weight when the four disagree.
 
 ## The danger and the gate are separate questions
 
 The danger and the gate stay separable, and that separation is what makes the concept usable. Whether a model is dangerous is a question the alarm itself cannot settle. Who ends up holding the gate is decided by the fixed cost of the regime built in response. That cost can be read while the fight is still open, before anyone knows whether the danger was real. Diffusion may still outrun all of it, since a model that fits on a USB drive is hard to keep behind a gate. The four checks are what to run in the meantime.
 
-## How to practice this
-
-1. Take a proposed control regime. List who would run the identity checks, audits, and approvals it requires. Notice whether that list is a few large players or many smaller ones.
-2. Ask the person raising the alarm what evidence would show the risk is overstated. Notice whether they answer, or whether every objection gets treated as recklessness.
-3. Compare the size of the proposed control regime with the size of the demonstrated harm. Notice whether the regime is far larger than the harm. Notice whether only incumbents could build it.
-4. Look for a fix the alarm-raiser could build inside its own operation. Notice whether that fix stays unbuilt while the alarm-raiser presses for one that binds everyone else.
-5. When all four checks point the same way, ask the remedy to justify its shape. Notice whether the justification given is only about urgency.
-6. About a year after a regime is written, check two things. Notice whether the compliance surface it created is one the alarm-raiser already owned. Notice whether the cheap internal fix got built once the external one became law.
-
 ## Related pages
 
-- [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]]: supplies the "only we can be trusted" premise that doom-marketing turns into gatekeeping.
-- [[wiki/Red Team/Red Teaming|Red Teaming]]: the who-benefits and falsifiability checks are red-team moves.
-
-## Open questions
-
-- Does diffusion (open models, local inference, falling costs) outrun the capture dynamic, or only delay it?
-- What control regime would gate genuine model danger without letting incumbents charge for access: industry self-certification (a film/game-ratings analog), or something with stronger enforcement?
+- [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]]
+- [[wiki/Red Team/Red Teaming|Red Teaming]]
 
 ## Sources
 

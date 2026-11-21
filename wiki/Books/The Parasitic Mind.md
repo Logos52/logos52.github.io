@@ -5,7 +5,7 @@ status: stable
 domain: world
 source-count: 1
 created: 2026-05-06
-updated: 2026-09-11
+updated: 2026-11-22
 method: plain-rewrite-2026-09-11
 prose-model: fable
 written-by: fable
@@ -21,16 +21,7 @@ tags:
 
 The Parasitic Mind is a 2020 book. Its argument is that ideas spread for what they pay the person holding them. The ideas that pay best are the ones that are costly to test. The book calls the worst of these ideas *idea pathogens*. The book says they spread the way an infection spreads. A person who takes one up becomes less able to reason. That person also becomes less willing to speak honestly, and more ready to put loyalty above evidence.
 
-The defense the book builds has three parts. A belief should be earned from independent lines of evidence. Speech should be open, so that errors can be pointed out. And a person needs the courage to use both.
-
-## Core takeaways
-
-- Ideas spread for what they pay the person who holds them. The ideas that pay best are the ones that are costly to test.
-- An idea becomes dangerous when it closes some questions before any evidence about them can be heard. Three moves follow: evidence gets denied, dissent gets made expensive, and a factual question gets answered as a moral accusation.
-- A belief is earned when independent lines of evidence point the same way. Lines are independent when they use different methods, different fields, and different levels of analysis.
-- A belief is weaker when it survives only because no one is looking at the counterevidence. This part of the rule catches the reader's own beliefs.
-- A correction only works when other people can hear it. In the book, free speech is the mechanism by which a society corrects its errors.
-- The book's own infection frame does not pass the book's own method. It names spread and harm, and it predicts neither who takes an idea up nor how fast it moves.
+The defense the book builds has three parts. A belief should be earned from independent lines of evidence. Speech should be open, so that errors can be pointed out. And a person needs the courage to use both. An idea becomes dangerous when it closes questions before evidence can be heard; then inconvenient facts get denied, dissent gets expensive, and factual questions get answered as moral accusations.
 
 ## How belonging shapes what a person believes
 
