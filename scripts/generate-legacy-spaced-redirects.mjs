@@ -1,10 +1,4 @@
 #!/usr/bin/env node
-/**
- * generate-legacy-spaced-redirects.mjs — spaced and naive-slug URL redirects.
- *
- * Reads published vault paths and existing door redirects, then writes
- * src/redirects/doors/legacy-spaced.json for Astro's load-redirects loader.
- */
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { dirname, join } from 'node:path';
