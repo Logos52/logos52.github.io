@@ -54,7 +54,7 @@ Tools that raise understanding attack the bottleneck directly. One example is a 
 
 ## Related pages
 
-- [[wiki/Concepts/Agent-Native Infrastructure|Agent-Native Infrastructure]]: the other side of the same talk, on making tools easier for agents to use.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agent-Native Infrastructure]]: the other side of the same talk, on making tools easier for agents to use.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the working practice of directing agents.
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: watching and steering one's own understanding.
 

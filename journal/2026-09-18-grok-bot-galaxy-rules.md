@@ -15,7 +15,7 @@ tags:
 
 # Grok Bot Galaxy: the rules on one page
 
-Grok Bot Galaxy was a three-day public livestream, 15 to 17 September 2026. It was run by SpaceXAI, the company that makes Grok Bot. Three of its staff built a company on camera with bots, and guest speakers gave talks between the building. A bot is a named helper with one job that works on a computer in the cloud. The rules below are the event's advice in short form, written for any setup. The longer account is [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]]. It says which of these rules this wiki already had and which were new.
+Grok Bot Galaxy was a three-day public livestream, 15 to 17 September 2026. It was run by SpaceXAI, the company that makes Grok Bot. Three of its staff built a company on camera with bots, and guest speakers gave talks between the building. A bot is a named helper with one job that works on a computer in the cloud. The rules below are the event's advice in short form, written for any setup. The longer account is [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Grok Bot Galaxy]]. It says which of these rules this wiki already had and which were new.
 
 ## Why the event was held
 

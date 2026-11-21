@@ -66,7 +66,7 @@ DeepSeek V4 Pro dropped the same day at $0.435 / $0.87. If that model is even cl
 
 ## Vault contradiction
 
-[[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]] still grades Grok 4.3 as mid-tier (Fluency 3 · Knowledge 4 · Scale 4 · Verifiability 3 · Autonomy 3), snapshot dated 2026-07, with a projected July near-Opus grade "to be re-graded on release, not asserted now." 4.5 already shipped. 4.6 is out. That row is stale.
+[[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Human vs AI Capability Lens]] still grades Grok 4.3 as mid-tier (Fluency 3 · Knowledge 4 · Scale 4 · Verifiability 3 · Autonomy 3), snapshot dated 2026-07, with a projected July near-Opus grade "to be re-graded on release, not asserted now." 4.5 already shipped. 4.6 is out. That row is stale.
 
 Not silently regraded here. The lens grades are judgment calls on this desk's facets, not a paste of AA. A re-grade is its own pass: 4.6, Opus 5, Fable 5, Sol, and whatever DeepSeek V4 Pro turns out to be, against the same five axes. Until that pass, the contradiction stands in the open.
 

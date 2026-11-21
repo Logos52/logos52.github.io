@@ -128,6 +128,6 @@ Space can only be used as fast as rockets launch, and that pace is slower than p
 ## Related pages
 
 - [[wiki/Money/America's Industrial Revival - The Freight Signal|America's Industrial Revival - The Freight Signal]]: the companion talk on interior factories, which names self-landing rockets as its next topic.
-- [[wiki/Books/The Book of Elon|The Book of Elon]]: the founder's own framing of the space push.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|The Book of Elon]]: the founder's own framing of the space push.
 - [[wiki/Concepts/The Age Of Nonlinear Returns|The Age Of Nonlinear Returns]]: returns that grow faster than the effort behind them.
 - [[wiki/Money/Investing and Budgeting Mindsets|Investing and Budgeting Mindsets]]: the money hub.

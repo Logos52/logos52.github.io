@@ -1,6 +1,6 @@
 ---
 title: "Test a bot before it ships"
-type: technique
+type: practice
 section: "Working with Agents"
 status: seed
 description: "Test bots two ways: a playtester bot that runs the real product on every build that passes its checks, and evals, a suite of past cases with known right answers that a bot or skill must pass before each change goes out."
@@ -128,6 +128,6 @@ When does a skill that works twice deserve a full eval suite?
 ## Related pages
 
 - [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]]
-- [[wiki/Working with Agents/Handle a bug report - reproduce first|Handle a bug report: reproduce first]]
+- [[wiki/Working with Agents/Let an agent check its own work|Handle a bug report: reproduce first]]
 - [[wiki/Working with Agents/Turn a repeated correction into a permanent fix|Turn a repeated correction into a permanent fix]]
-- [[wiki/Systems/AI & Agentic Systems/Thursday Arena|Thursday Arena]]
+- [[wiki/Planning and Automation|Thursday Arena]]

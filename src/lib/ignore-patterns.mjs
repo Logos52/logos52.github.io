@@ -56,6 +56,9 @@ export const IGNORE_PATTERNS = [
   // Agent research banks — stay in the repo for agents, not on the public site.
   'wiki/Research/**',
 
+  // Unpublished cut archive — moved off wiki paths, not on the public site.
+  'archive/unpublished/**',
+
   // Design extraction catalogs (agent/WIP). Keep Design, Condensed and Front-End Web Design.
   'wiki/Design/Design Expansion — Reading & Resources.md',
   'wiki/Design/Design Two-Track Extraction.md',

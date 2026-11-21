@@ -18,11 +18,11 @@ Newest notes are listed first. Essays stand alone after the notes.
 
 ## Recent entries
 
+- [[journal/2026-09-18-grok-bot-galaxy-rules|2026-09-18]] — Grok Bot Galaxy: the rules on one page
 - [[journal/2026-09-16-argument-validation-hub|2026-09-16]] — Argument Validation: a hub for the method pages
 - [[journal/2026-09-16-east-asian-exams-page|2026-09-16]] — East Asian Exams - The Arms Race: the page
 - [[journal/2026-09-14-east-asian-exams-banked|2026-09-14]] — East Asian Exams - The Arms Race: sources banked, title approved
 - [[journal/2026-09-08-how-to-make-the-ai-write-plainly|2026-09-08]] — How to make the AI write plainly
-- [[journal/2026-09-08-the-two-wholes|2026-09-08]] — The two wholes
 
 [[journal/calendar|Full calendar →]]
 

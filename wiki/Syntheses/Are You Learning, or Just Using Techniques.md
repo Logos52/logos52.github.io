@@ -39,4 +39,4 @@ What hidden shortcut does your brain take when a technique starts to feel easy?
 
 - [[wiki/Learning Craft/Don't Outsource the Learning|Don't Outsource the Learning]]
 - [[wiki/Domains/AI & Tooling/The Right vs Wrong Way to Work With AI|The Right vs Wrong Way to Work With AI]]
-- [[wiki/Syntheses/The 30-Day Plan|The 30-Day Plan]]
+- [[wiki/Planning and Automation|The 30-Day Plan]]

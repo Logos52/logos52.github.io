@@ -1,6 +1,6 @@
 ---
 title: "Run more agents in parallel"
-type: guide
+type: practice
 section: "Working with Agents"
 status: seed
 description: "Scale past a few agents by running them in the cloud instead of in local copies of the repository, letting a bot or coordinator spawn and supervise them, splitting work into parallel pieces, and fanning out verification."
@@ -146,8 +146,8 @@ Running agents in parallel works when they live in the cloud, a manager hands ou
 ## Related pages
 
 - [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]] covers the verification skill and the verifier agents.
-- [[wiki/Working with Agents/Review less without losing control|Review less without losing control]] covers ask-first gates and reviewing output from many agents.
-- [[wiki/Working with Agents/Trust agents more over time|Trust agents more over time]] covers how far to scale at each step and why jumping ahead fails.
+- [[wiki/Working with Agents/Give an agent a task without micromanaging it|Review less without losing control]] covers ask-first gates and reviewing output from many agents.
+- [[wiki/Working with Agents/Give an agent a task without micromanaging it|Trust agents more over time]] covers how far to scale at each step and why jumping ahead fails.
 - [[wiki/Working with Agents/Make a codebase agents can't easily mess up|Make a codebase agents can't easily mess up]] covers keeping quality up as more agents write code.
 
 ## Sources

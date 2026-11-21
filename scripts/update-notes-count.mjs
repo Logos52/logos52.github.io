@@ -7,7 +7,7 @@
  * — and rewrites the "There are N notes" stat line in notes/index.md. Wired into `prebuild`, so the
  * number is recomputed on every build and never goes stale.
  */
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -32,7 +32,9 @@ const files = execFileSync('git', ['ls-files', '-z', '--cached', '--others', '--
 
 let count = 0;
 for (const rel of files) {
-  if (!isDraft(readFileSync(join(ROOT, rel), 'utf8'))) count++;
+  const abs = join(ROOT, rel);
+  if (!existsSync(abs)) continue;
+  if (!isDraft(readFileSync(abs, 'utf8'))) count++;
 }
 
 const src = readFileSync(INDEX, 'utf8');

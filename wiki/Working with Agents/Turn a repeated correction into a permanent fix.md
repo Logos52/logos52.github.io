@@ -1,6 +1,6 @@
 ---
 title: "Turn a repeated correction into a permanent fix"
-type: technique
+type: practice
 section: "Working with Agents"
 status: seed
 description: "When you correct the same mistake twice, move the fix out of your messages and into the code, the checks or the rules, starting with the strongest place that works."

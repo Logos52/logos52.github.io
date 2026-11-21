@@ -129,7 +129,7 @@ The workflow fits self-directed learning toward a defined artifact, especially w
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]: testing and mixing over time.
 - [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]]: mixing subjects in depth.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]]: the organizing work the learner keeps.
-- [[wiki/Syntheses/ICS System|ICS System]]: the wider learning system.
+- [[wiki/Planning and Automation|ICS System]]: the wider learning system.
 
 ## Open questions
 

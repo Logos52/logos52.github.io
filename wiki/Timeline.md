@@ -22,7 +22,7 @@ The timeline lists dated events that the wiki's pages describe, in order, with t
 
 ## 2025
 
-- Around December 2025: Coding agents became able to keep at a task, build a whole application and work through hard problems. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] · [[wiki/Concepts/A Return to Code|A Return to Code]]
+- Around December 2025: Coding agents became able to keep at a task, build a whole application and work through hard problems. [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] · [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|A Return to Code]]
 
 ## 2026
 
@@ -30,5 +30,5 @@ The timeline lists dated events that the wiki's pages describe, in order, with t
 - April 2026: An AI lab that had just lost a defense contract described a new model as effectively a cyber weapon. [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]]
 - July 2026: An AI lab warned that Chinese companies were copying its models through distillation on an industrial scale. [[wiki/Concepts/Regulatory Capture via Doom-Marketing|Regulatory Capture via Doom-Marketing]]
 - 2026-08-21: Basic Logic released a video on how immigration replaced the woke left. [[wiki/Worldviews & the Political Order/The Woke Retreat - The New Electorate Claim|The Woke Retreat - The New Electorate Claim]]
-- 2026-09-15 to 2026-09-17: The Grok Bot Galaxy workshop ran as a three-day public livestream. During it, three people built the card game Thursday Arena in public with a fleet of bots. [[wiki/Systems/AI & Agentic Systems/Grok Bot Galaxy|Grok Bot Galaxy]] · [[wiki/Systems/AI & Agentic Systems/Thursday Arena|Thursday Arena]]
-- 2026-10-15: A workshop on shipping code with bots showed a triage bot that merged 20 reports of one bug into a single issue. [[wiki/Working with Agents/Handle a bug report - reproduce first|Handle a bug report - reproduce first]]
+- 2026-09-15 to 2026-09-17: The Grok Bot Galaxy workshop ran as a three-day public livestream. During it, three people built the card game Thursday Arena in public with a fleet of bots. [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Grok Bot Galaxy]] · [[wiki/Planning and Automation|Thursday Arena]]
+- 2026-10-15: A workshop on shipping code with bots showed a triage bot that merged 20 reports of one bug into a single issue. [[wiki/Working with Agents/Let an agent check its own work|Handle a bug report - reproduce first]]

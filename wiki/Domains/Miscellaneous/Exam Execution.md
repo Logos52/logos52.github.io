@@ -79,7 +79,7 @@ Two neighbouring problems sit outside exam execution. [[wiki/Domains/Miscellaneo
 - [[wiki/Dimensions/Deep Processing/ReCOVer System|ReCOVer System]]: a four-step plan for an exam essay
 - [[wiki/Dimensions/Self-Regulation/Silly Mistake Syndrome|Silly Mistake Syndrome]]: why mistakes called silly usually point to a gap in understanding
 - [[wiki/Dimensions/Retrieval/Group Study|Group Study]]: group revision with leader, timekeeper and fact-checker roles
-- [[wiki/ICS Program Map|ICS Program Map]]: the course stages in order, with the wiki pages that cover each one
+- [[wiki/Planning and Automation|ICS Program Map]]: the course stages in order, with the wiki pages that cover each one
 - [[wiki/Dimensions/Retrieval/Multipass System|Multipass System]]: layered sweeps through a large topic, starting with logic and concepts
 - [[wiki/Domains/Miscellaneous/How to diagnose and fix exam mistakes|How to diagnose and fix exam mistakes]]: naming the likely cause behind a pattern of errors before fixing it
 - [[wiki/Domains/Miscellaneous/How to prepare for ultra high-volume exams|How to prepare for ultra high-volume exams]]: strategy when only a sliver of a huge syllabus will be tested

@@ -50,4 +50,4 @@ Which part of this decision is a feeling I should weigh as a value, and which pa
 - [[wiki/Decision Making/Choice Throttling|Choice Throttling]]: narrowing options before you judge the position each remaining path would leave you in.
 - [[wiki/Decision Making/Changing Decisions|Changing Decisions]]: revisiting a first pick after new information changes the odds.
 - [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]]: improving a position through many small moves rather than one leap.
-- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: checking that today's protected work actually improves the position your goals require.
+- [[wiki/Planning and Automation|Reverse Goal Setting]]: checking that today's protected work actually improves the position your goals require.

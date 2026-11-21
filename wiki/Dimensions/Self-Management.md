@@ -44,7 +44,7 @@ A training challenge attached to this overview uses a reality check. You make a 
 
 ## Related pages
 
-- [[wiki/Dimensions/Self-Management/Reverse Goal Setting|Reverse Goal Setting]]: the planning method named in this overview.
+- [[wiki/Planning and Automation|Reverse Goal Setting]]: the planning method named in this overview.
 - [[wiki/Dimensions/30-Day Challenges/Self-Management Challenge|Self-Management Challenge]]: further training that sits alongside this overview.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: monitoring and adjusting the learning process itself.
 - [[wiki/Self Management/Study Scheduling|Study Scheduling]]: nearby work on making a schedule you can actually follow.
