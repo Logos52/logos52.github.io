@@ -32,7 +32,9 @@ const noteFrontmatter = z
     draft: z.boolean().optional(),
     aliases: looseStringList,
     description: z.string().optional(),
-    domain: z.enum(['learning', 'agentic', 'language', 'focus', 'mind', 'gen']).optional(),
+    domain: z
+      .enum(['ai', 'learning', 'self', 'world', 'craft', 'agentic', 'language', 'focus', 'mind', 'gen'])
+      .optional(),
     // Pipeline fields. Not rendered.
     method: pipelineField,
     'prose-model': pipelineField,

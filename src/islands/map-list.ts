@@ -1,6 +1,3 @@
-/**
- * map-list.ts — filterable, searchable vault list below the Map graph.
- */
 export type MapRow = {
   slug: string;
   title: string;
@@ -14,6 +11,52 @@ function norm(s: string): string {
   return s.trim().toLowerCase();
 }
 
+function text(s: string): Text {
+  return document.createTextNode(s);
+}
+
+function rowEl(r: MapRow): HTMLLIElement {
+  const li = document.createElement('li');
+  li.className = 'map-row';
+  const a = document.createElement('a');
+  a.className = 'map-row__link';
+  a.href = r.url;
+  if (r.thumb) {
+    const img = document.createElement('img');
+    img.className = 'map-row__thumb';
+    img.src = r.thumb;
+    img.alt = '';
+    img.loading = 'lazy';
+    img.width = 56;
+    img.height = 56;
+    a.append(img);
+  }
+  const body = document.createElement('span');
+  body.className = 'map-row__text';
+  const title = document.createElement('span');
+  title.className = 'map-row__title';
+  title.append(text(r.title));
+  const source = document.createElement('span');
+  source.className = 'map-row__source';
+  source.append(text(r.source));
+  body.append(title, source);
+  a.append(body);
+  li.append(a);
+  return li;
+}
+
+function filterRows(rows: MapRow[], domain: string, query: string): MapRow[] {
+  return rows.filter((r) => {
+    if (domain && r.domain !== domain) return false;
+    if (!query) return true;
+    return norm(`${r.title} ${r.source} ${r.slug}`).includes(query);
+  });
+}
+
+function paintList(list: HTMLElement, items: MapRow[]): void {
+  list.replaceChildren(...items.map(rowEl));
+}
+
 export function initMapList(root: HTMLElement, rows: MapRow[]): void {
   const search = root.querySelector<HTMLInputElement>('[data-map-search]');
   const chips = root.querySelectorAll<HTMLButtonElement>('[data-map-domain]');
@@ -24,61 +67,23 @@ export function initMapList(root: HTMLElement, rows: MapRow[]): void {
   let domain = '';
   let query = '';
 
-  const visible = () =>
-    rows.filter((r) => {
-      if (domain && r.domain !== domain) return false;
-      if (!query) return true;
-      const hay = norm(`${r.title} ${r.source} ${r.slug}`);
-      return hay.includes(query);
-    });
-
   const render = () => {
-    const items = visible();
+    const items = filterRows(rows, domain, query);
     if (empty) empty.hidden = items.length > 0;
-    list.innerHTML = items
-      .map((r) => {
-        const thumb = r.thumb
-          ? `<img class="map-row__thumb" src="${escapeAttr(r.thumb)}" alt="" loading="lazy" width="56" height="56" />`
-          : '';
-        return `<li class="map-row">
-          <a class="map-row__link" href="${escapeAttr(r.url)}">
-            ${thumb}
-            <span class="map-row__text">
-              <span class="map-row__title">${escapeHtml(r.title)}</span>
-              <span class="map-row__source">${escapeHtml(r.source)}</span>
-            </span>
-          </a>
-        </li>`;
-      })
-      .join('');
+    paintList(list, items);
   };
 
   chips.forEach((chip) => {
     chip.addEventListener('click', () => {
       const d = chip.getAttribute('data-map-domain') ?? '';
-      if (domain === d) {
-        domain = '';
-        chips.forEach((c) => c.classList.remove('on'));
-      } else {
-        domain = d;
-        chips.forEach((c) => c.classList.toggle('on', c.getAttribute('data-map-domain') === d));
-      }
+      domain = domain === d ? '' : d;
+      chips.forEach((c) => c.classList.toggle('on', domain !== '' && c.getAttribute('data-map-domain') === domain));
       render();
     });
   });
-
   search?.addEventListener('input', () => {
     query = norm(search.value);
     render();
   });
-
   render();
-}
-
-function escapeHtml(s: string): string {
-  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
-}
-
-function escapeAttr(s: string): string {
-  return escapeHtml(s).replace(/'/g, '&#39;');
 }

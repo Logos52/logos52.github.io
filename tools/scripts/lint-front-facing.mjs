@@ -21,6 +21,7 @@ const PAGES = [
   ['/about/', 'about/index.html'],
   ['/journal/', 'journal/index.html'],
   ['/archive/', 'archive/index.html'],
+  ['/projects/digital-gardeners/', 'projects/digital-gardeners/index.html'],
 ];
 
 const decodeEntities = (s) =>

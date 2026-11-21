@@ -1,21 +1,3 @@
-/**
- * types.ts — O6 contracts. The shared interface the Composer and Grok lanes build against.
- *
- * Pure TypeScript on purpose (no `astro:content` import) so it can be imported from anywhere:
- * `.astro` components, island scripts, and plain Node build scripts alike.
- *
- * The Zod schema that validates frontmatter lives in `src/content.config.ts` (it needs the
- * `astro:content` `z`); this file mirrors that shape as a TS type and owns the domain/graph/
- * search/backlink contracts. Keep the two in sync — CONTRACTS.md documents both.
- */
-
-/* ------------------------------------------------------------------ *
- * Domains — the 6 knowledge domains the graph + cards color by.
- * Colors are copied VERBATIM from the Tsumugu DS (`--d-*` custom
- * properties in ui_kits/knowledge-base/index.html). This map is the
- * single source of truth for domain color in the Astro site.
- * ------------------------------------------------------------------ */
-
 export const DOMAINS = ['ai', 'learning', 'self', 'world', 'craft'] as const;
 export type Domain = (typeof DOMAINS)[number];
 
@@ -27,7 +9,6 @@ export const DOMAIN_LABELS: Record<Domain, string> = {
   craft: 'Money and craft',
 };
 
-/** Light/dark hex per domain — kept in sync with src/styles/ds/domains.css (--d-*). */
 export const DOMAIN_COLORS: Record<Domain, { light: string; dark: string }> = {
   ai: { light: '#666cb0', dark: '#8a90c8' },
   learning: { light: '#5a7a9e', dark: '#7c9bc0' },
@@ -36,7 +17,6 @@ export const DOMAIN_COLORS: Record<Domain, { light: string; dark: string }> = {
   craft: { light: '#7a6b8f', dark: '#9d8fb0' },
 };
 
-/** One-line stances for home doors and Map domain filters. */
 export const DOMAIN_STANCES: Record<Domain, string> = {
   ai: 'The person sets direction; agents do the repetitive work.',
   learning: 'A technique counts only when it makes you process the material.',

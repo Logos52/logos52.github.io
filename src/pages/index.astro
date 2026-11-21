@@ -1,11 +1,9 @@
 ---
-/**
- * index.astro — Logos52 home: objective, five problem doors, top of mind, omission line.
- */
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import { DOMAINS, DOMAIN_LABELS, DOMAIN_STANCES, type Domain } from '../lib/types';
 import { DOMAIN_ICONS } from '../lib/icons';
+import { slugifyFilePath, slugToUrl } from '../lib/slug';
 
 const objective =
   'This wiki is compiled with agents, but the human still sets direction, judges what ships, and owns what the pages claim.';
@@ -19,6 +17,10 @@ if (topOfMind.length !== 3) throw new Error('Top of mind holds exactly 3 lines o
 
 const omitted =
   'Raw sources, private notes, financial detail, and workbench drafts stay out of the published wiki.';
+
+const buildersHref = slugToUrl(
+  slugifyFilePath("wiki/Systems/AI & Agentic Systems/Builders' Logs 2026.md"),
+);
 ---
 
 <Base title="Logos52" description={objective} active="home">
@@ -26,6 +28,15 @@ const omitted =
     <div class="wrap">
       <section class="hero">
         <p class="hero__objective">{objective}</p>
+      </section>
+
+      <section class="spotlight" aria-labelledby="spotlight-head">
+        <h2 id="spotlight-head" class="spotlight__head">Builders' Logs 2026</h2>
+        <p class="spotlight__copy">
+          Thirteen agent builders in bridge order, with Grok and Anthropic lab sections, dated source
+          links, and person pages (who they are, mindset, setup, timeline).
+        </p>
+        <a class="spotlight__link" href={buildersHref}>Open Builders' Logs 2026</a>
       </section>
 
       <section class="doors" aria-labelledby="doors-head">
@@ -72,6 +83,37 @@ const omitted =
     color: var(--ink);
     margin: 0;
     max-width: 40rem;
+  }
+  .spotlight {
+    margin-top: 28px;
+    padding: 18px 0 20px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    max-width: 44rem;
+  }
+  .spotlight__head {
+    font-family: var(--ming);
+    font-size: var(--kb-text-md);
+    font-weight: 600;
+    margin: 0 0 8px;
+    color: var(--ink);
+  }
+  .spotlight__copy {
+    font-family: var(--ming);
+    font-size: var(--kb-text-base);
+    line-height: var(--kb-lh-body);
+    color: var(--mut);
+    margin: 0 0 12px;
+  }
+  .spotlight__link {
+    font-family: var(--ming);
+    font-size: var(--kb-text-base);
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .spotlight__link:hover {
+    text-decoration: underline;
   }
   .doors {
     margin-top: 40px;

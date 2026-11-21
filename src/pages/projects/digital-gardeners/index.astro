@@ -1,0 +1,59 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/gardeners-page.css';
+import catalog from '../../../data/digital-gardeners.json';
+import { existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { join, dirname } from 'node:path';
+
+const publicRoot = join(dirname(fileURLToPath(import.meta.url)), '../../../../public');
+
+function thumbSrc(id: string): string | null {
+  const rel = `/media/gardeners/${id}-thumb.webp`;
+  const disk = join(publicRoot, 'media/gardeners', `${id}-thumb.webp`);
+  return existsSync(disk) ? rel : null;
+}
+
+const sorted = [...catalog].sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<Base
+  title="Notable design features"
+  description="Digital gardeners catalog — home pages with notable design features, 146 people."
+  active="projects"
+>
+  <main class="gardeners-page">
+    <div class="wrap">
+      <p class="crumb"><a href="/projects/">Projects</a></p>
+      <header class="head">
+        <h1>Notable design features</h1>
+        <p class="head__lede">
+          146 personal home pages, observed 2026-10-31. Thumbnail grid of front doors; open a person for
+          notable design features on each observed URL.
+        </p>
+      </header>
+      <ul class="gardeners-grid">
+        {sorted.map((p) => {
+          const thumb = thumbSrc(p.id);
+          return (
+            <li>
+              <a href={`/projects/digital-gardeners/${p.id}/`}>
+                <div class="gardeners-grid__thumb">
+                  {thumb ? (
+                    <img src={thumb} alt="" loading="lazy" width="320" height="200" />
+                  ) : (
+                    <span class="gardeners-grid__lanes">No shot yet</span>
+                  )}
+                </div>
+                <div class="gardeners-grid__body">
+                  <span class="gardeners-grid__name">{p.name}</span>
+                  <span class="gardeners-grid__lanes">{p.lanes.join(' · ')}</span>
+                </div>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  </main>
+</Base>

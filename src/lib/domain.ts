@@ -1,9 +1,3 @@
-/**
- * domain.ts — assign each note to one of the five Map domains.
- *
- * Priority: `kb-astro/site-data/domains.json` when present, else folder fallback.
- * Legacy six-domain frontmatter values map forward via normalizeDomain().
- */
 import { existsSync, readFileSync } from 'node:fs';
 import { DEFAULT_DOMAIN, isDomain, normalizeDomain, type Domain } from './types';
 
@@ -49,22 +43,26 @@ function loadDomainsJson(): Record<string, string> | null {
   return jsonMap;
 }
 
-export function resolveDomain(slug: string, explicit?: unknown): Domain {
-  if (typeof explicit === 'string') {
-    const n = normalizeDomain(explicit.trim());
-    if (n) return n;
-  }
-  const map = loadDomainsJson();
-  const fromJson = map?.[slug];
-  if (typeof fromJson === 'string') {
-    const n = normalizeDomain(fromJson);
-    if (n) return n;
-  }
+function domainFromPrefix(slug: string): Domain | null {
   const norm = slug.replace(/\s+/g, '-');
   for (const { prefix, domain } of FOLDER_DOMAIN) {
     if (norm.startsWith(prefix) || slug.startsWith(prefix)) return domain;
   }
-  return DEFAULT_DOMAIN;
+  return null;
+}
+
+function domainFromExplicit(explicit: unknown): Domain | null {
+  if (typeof explicit !== 'string') return null;
+  return normalizeDomain(explicit.trim());
+}
+
+function domainFromJson(slug: string): Domain | null {
+  const raw = loadDomainsJson()?.[slug];
+  return typeof raw === 'string' ? normalizeDomain(raw) : null;
+}
+
+export function resolveDomain(slug: string, explicit?: unknown): Domain {
+  return domainFromExplicit(explicit) ?? domainFromJson(slug) ?? domainFromPrefix(slug) ?? DEFAULT_DOMAIN;
 }
 
 export const hasDomainsJson = () => loadDomainsJson() !== null;

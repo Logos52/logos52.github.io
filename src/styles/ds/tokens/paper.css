@@ -1,9 +1,3 @@
-/* ============================================================================
- * Logos52 · NDC Paper & Ink — near-white reading surface, muted indigo accent.
- * LIGHT by default; charcoal under [data-theme="dark"]. No warm paper tones.
- * Reserve hues (--reserve-blue, --reserve-green) are unused in the public UI.
- * ========================================================================== */
-
 :root {
   --paper:  #fafafa;
   --card:   #ffffff;
@@ -21,7 +15,6 @@
   --reserve-blue:  #4f6fa3;
   --reserve-green: #6e8a5c;
 
-  /* Back-compat aliases — same accent family, no warm seal */
   --seal:      var(--accent);
   --seal-soft: var(--accent-soft);
   --cool:      var(--reserve-blue);
