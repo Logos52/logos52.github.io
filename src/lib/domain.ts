@@ -32,24 +32,23 @@ const FOLDER_DOMAIN: { prefix: string; domain: Domain }[] = [
   { prefix: 'wiki/Writing-Craft/', domain: 'craft' },
 ];
 
+function parseDomainsJson(text: string): Record<string, string> | null {
+  const raw: unknown = JSON.parse(text);
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return null;
+  const next: Record<string, string> = {};
+  for (const [k, v] of Object.entries(raw)) {
+    if (typeof v === 'string') next[k] = v;
+  }
+  return next;
+}
+
 let jsonMap: Record<string, string> | null | undefined;
 function loadDomainsJson(): Record<string, string> | null {
   if (jsonMap !== undefined) return jsonMap;
+  jsonMap = null;
+  if (!existsSync(DOMAINS_JSON)) return jsonMap;
   try {
-    if (existsSync(DOMAINS_JSON)) {
-      const raw: unknown = JSON.parse(readFileSync(DOMAINS_JSON, 'utf8'));
-      if (raw && typeof raw === 'object' && !Array.isArray(raw)) {
-        const next: Record<string, string> = {};
-        for (const [k, v] of Object.entries(raw)) {
-          if (typeof v === 'string') next[k] = v;
-        }
-        jsonMap = next;
-      } else {
-        jsonMap = null;
-      }
-    } else {
-      jsonMap = null;
-    }
+    jsonMap = parseDomainsJson(readFileSync(DOMAINS_JSON, 'utf8'));
   } catch {
     jsonMap = null;
   }

@@ -59,7 +59,7 @@ export function normalizeDomain(s: string): Domain | undefined {
 }
 
 export function isDomain(s: string): s is Domain {
-  return (DOMAINS as readonly string[]).includes(s);
+  return DOMAINS.some((d) => d === s);
 }
 
 /* ------------------------------------------------------------------ *
