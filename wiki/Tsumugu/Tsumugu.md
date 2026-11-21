@@ -41,7 +41,7 @@ Also live: [林薇](/tsumugu/cast/lin-wei.html), [蘇老師](/tsumugu/cast/teach
 
 ## Reader and pedagogy constraints
 
-Stories aim for **comprehensible input**: i+1 difficulty, low anxiety at peaks, compelling enough that the reader forgets the text is foreign. That is design doctrine, not settled SLA law—see hedges on [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Vocabulary Ceiling]]. Engine-side, tutor scoring stays in code ([[wiki/Learning Craft/Let code keep the score in an AI tutor|Let code keep the score]]) so the model teaches but does not own the gradebook.
+Stories aim for **comprehensible input**: i+1 difficulty, low anxiety at peaks, compelling enough that the reader forgets the text is foreign. That is design doctrine, not settled SLA law—see hedges on [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Vocabulary Ceiling]]. Engine-side, tutor scoring stays in code ([[wiki/Learning Craft/Don't Outsource the Learning|Let code keep the score]]) so the model teaches but does not own the gradebook.
 
 **Five readings per lesson** (anchor plus texture) mirror Story Craft’s bottle/tentpole split: one arc-and-theme reading, lighter ensemble passes, B-story against A-story gravity—all within the same 字 ceiling for that book.
 
@@ -61,8 +61,8 @@ Voice and portrait assets live under `public/tsumugu/`; changing cast voice samp
 |---|---|
 | [[projects/tsumugu|Project page]] | Stack, status, repo layout |
 | [[projects/tsumugu-ed|Tsumugu Ed]] | Dictionary-from-structure companion |
-| [[wiki/Language/Reading stories pitched at your vocabulary|Reading at your vocabulary]] | Daily i+1 stories pattern |
-| [[wiki/Learning Craft/Let code keep the score in an AI tutor|Let code keep the score]] | Tutor scoring in code, not model memory |
+| Reading at your vocabulary | Daily i+1 stories pattern |
+| [[wiki/Learning Craft/Don't Outsource the Learning|Let code keep the score]] | Tutor scoring in code, not model memory |
 | [Tsumugu wiki (site)](https://logos52.github.io/tsumugu-wiki/) | Public product wiki |
 | [[journal/2026-06-04-tsumugu|Build log]] · [[journal/2026-06-06-tsumugu-voice|Voice bake-off]] · [[journal/2026-06-23-tsumugu-core-super-app-textbook-companion|Super-app turn]] · [[journal/2026-07-02-tsumugu-prd-set|PRD set]] | History |
 

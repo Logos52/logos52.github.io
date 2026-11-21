@@ -24,7 +24,7 @@ Each dimension is defined by the question it answers, not by a bag of tips.
 | Dimension | Question | Job |
 |---|---|---|
 | [[wiki/Dimensions/Mindset\|Mindset]] | Do my beliefs let me grow through difficulty? | Read challenge and mistakes as usable feedback |
-| [[wiki/Dimensions/Self-Management\|Self-Management]] | Do I have systems that make consistent action possible? | Time, tasks, attention, and environment |
+| Self-Management | Do I have systems that make consistent action possible? | Time, tasks, attention, and environment |
 | [[wiki/Dimensions/Self-Regulation\|Self-Regulation]] | Can I notice what is happening and adjust? | Monitor and steer learning as it runs |
 | [[wiki/Dimensions/Deep Processing\|Deep Processing]] | Am I extracting meaning from what I take in? | Connect, analyse, and critique new information |
 | [[wiki/Dimensions/Retrieval\|Retrieval]] | Can I recall and use what I know under pressure? | Keep knowledge accurate and available |
@@ -73,13 +73,13 @@ A simple loop:
 
 1. Ask each dimension’s question and answer honestly.
 2. Pick the weakest link that blocks practice—often self-management if time and attention are chaotic.
-3. Choose one practice from that dimension and run it for several weeks ([[wiki/Dimensions/30-Day Challenges|30-day challenges]] mirror this).
+3. Choose one practice from that dimension and run it for several weeks (30-day challenges mirror this).
 4. Reflect, then move to the next limit.
 
 ## Related pages
 
-- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] — one practice track per dimension.
-- [[wiki/Syntheses/ICS System|ICS System]] — program these dimensions come from.
+- 30-Day Challenges — one practice track per dimension.
+- [[wiki/Planning and Automation|ICS System]] — program these dimensions come from.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]] — encoding dimension hub.
 - [[wiki/Dimensions/Retrieval|Retrieval]] — memory-use dimension hub.
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — core retrieval rhythm.

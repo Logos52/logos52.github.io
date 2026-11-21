@@ -21,7 +21,7 @@ tags:
 
 When work turns uncertain or uncomfortable, the mind hunts for a cheaper path. Simplifying is fine if the important thinking still happens. The failure mode is finishing a study behavior — transcribed notes, a neat map, a highlighted page — while skipping evaluation, comparison, and reconstruction. During the session, fluency feels like progress. Afterward, the gap shows on application.
 
-The pattern is stable: task demands hard cognition → load rises → a visible move gets completed → the output looks ordered → usable knowledge barely shifts. [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] names the same diagnosis at program scale.
+The pattern is stable: task demands hard cognition → load rises → a visible move gets completed → the output looks ordered → usable knowledge barely shifts. [[wiki/Razors|Are You Learning, or Just Using Techniques]] names the same diagnosis at program scale.
 
 ## Eight common swaps
 
@@ -69,8 +69,8 @@ Overwhelm pushes the swap: copying, rote repetition, or switching tasks lowers d
 
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — control layer, traps, and measurement.
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] — noticing the cue while it runs.
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]] — program-level diagnosis.
-- [[wiki/Concepts/Are You Thinking, or Just Consuming|Are You Thinking, or Just Consuming?]] — the same failure on input.
+- [[wiki/Razors|Are You Learning, or Just Using Techniques]] — program-level diagnosis.
+- [[wiki/Razors|Are You Thinking, or Just Consuming?]] — the same failure on input.
 
 ## Open questions
 

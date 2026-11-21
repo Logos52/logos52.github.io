@@ -18,7 +18,7 @@ tags:
 
 **Match the method to the knowledge job.** Facts and strategic structure are declarative stress. Automatic execution is procedural stress. Judgment of when and why to deploy a move grows through varied declarative practice. Misalignment shows up as fluent drills that collapse in context.
 
-**Space and interleave.** Spacing gives integration time; interleaving changes angle and difficulty so transfer improves. Together they keep volume manageable and errors visible early. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced interleaved retrieval]] is the default schedule; the [[wiki/Dimensions/30-Day Challenges|retrieval challenge month]] trains closed-book reconstruction before you widen the system.
+**Space and interleave.** Spacing gives integration time; interleaving changes angle and difficulty so transfer improves. Together they keep volume manageable and errors visible early. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced interleaved retrieval]] is the default schedule; the retrieval challenge month trains closed-book reconstruction before you widen the system.
 
 **Target gaps.** Most learners unconsciously rehearse strengths. Retrieval should hunt what encoding missed or what time has eroded—known gaps (failed recall) and unknown gaps (confidence without a whole perspective).
 

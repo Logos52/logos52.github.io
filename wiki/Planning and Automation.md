@@ -46,7 +46,7 @@ Thirty-day challenges are four-week practice plans, one per trainable dimension.
 - [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]: the learning map ICS rests on
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset Challenge]] and sibling challenge pages
+- Mindset Challenge and sibling challenge pages
 
 ## Open questions
 

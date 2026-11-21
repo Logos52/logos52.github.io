@@ -66,7 +66,7 @@ Use the ladder when a fight is stuck. If both sides argue from step three (who h
 
 - [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]] — checks before speaking
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] — control layer for techniques
-- [[wiki/Dimensions/Mindset/Confidence Calibration|Confidence Calibration]] — how sure to be given evidence
+- [[wiki/Dimensions/Mindset|Confidence Calibration]] — how sure to be given evidence
 - [[wiki/Red Team/Red Teaming|Applied Critical Thinking - Testing Frames]] — naming the frame on a claim
 - [[wiki/Concepts/Catching the Inner Voice|Catching the Inner Voice]] — inner speech and loops
 

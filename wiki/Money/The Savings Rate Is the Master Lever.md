@@ -34,7 +34,7 @@ Return assumptions still matter, but they matter less when the rate is high. At 
 
 Below an income floor the rate barely budges. Renters earning under roughly thirty thousand dollars in high-rent markets can have only a few hundred dollars a month after housing. Rent, insurance, and debt service were contracted years ago. Where the gap sits near zero, the next move is income—not a lecture about lattes. Income is not a competing philosophy; it is the numerator and denominator of the same fraction.
 
-The upper bound on the rate is life energy in the [[wiki/Money/Money, Condensed|YMOYL]] sense. A wider gap in dollars often comes from wanting less before money moves: [[wiki/Minimalism/Wanting Less|Wanting Less]] names signalling motives at the moment of wanting. [[wiki/Minimalism/Ownership Cost|Ownership Cost]] counts the hours objects keep consuming after purchase.
+The upper bound on the rate is life energy in the [[wiki/Money/Money, Condensed|YMOYL]] sense. A wider gap in dollars often comes from wanting less before money moves: [[wiki/Minimalism/Minimalism as Systems Design|Wanting Less]] names signalling motives at the moment of wanting. [[wiki/Minimalism/Minimalism as Systems Design|Ownership Cost]] counts the hours objects keep consuming after purchase.
 
 ## Wealth you cannot see
 
@@ -56,7 +56,7 @@ Pair the rate with [[wiki/Money/Time Beats Timing|Time Beats Timing]]: a high ra
 
 Research on saving across income levels shows wide dispersion, but the mechanism on this page does not depend on being rich. It depends on the fraction kept. A household that doubles income and doubles spending has gained nothing on the timeline. A household that doubles income and holds spending flat has jumped several rows in the table in a single year. That is why “pay yourself first” is not a slogan—it is row selection.
 
-[[wiki/Decision Making/Positional Decisions and Expected Value|Positional Decisions and Expected Value]] applies when a money choice is really about your overall position, not a single trade. The savings rate is positional: it defines how fast your position moves toward optional work.
+[[wiki/Razors|Positional Decisions and Expected Value]] applies when a money choice is really about your overall position, not a single trade. The savings rate is positional: it defines how fast your position moves toward optional work.
 
 ## Sources
 

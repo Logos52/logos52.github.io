@@ -72,7 +72,7 @@ On heavy decisions, two curves fall together: uncertainty drops as you learn, an
 | One outcome settles it | single play standing in for long-run value |
 | Too many options freeze you | choice overload; throttling closes branches |
 
-Overthinking repairs through targeted thinking and one small action now. Between tasks, [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] plus [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] turn feedback into the next small step instead of rumination.
+Overthinking repairs through targeted thinking and one small action now. Between tasks, [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] plus Marginal Gains turn feedback into the next small step instead of rumination.
 
 ## Learning, thinking, and framing
 
@@ -111,8 +111,8 @@ Overthinking repairs through targeted thinking and one small action now. Between
 ## Related pages
 
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] and [[wiki/Self Management/Time Management, Attention & Scheduling|Self-Management]]: steering and schedules that make razors usable.
-- [[wiki/Dimensions/Mindset/Perfectionism and Overthinking|Perfectionism and Overthinking]]: feeling to one action.
-- [[wiki/Dimensions/Mindset/Loss Aversion|Loss Aversion]]: pull to stay.
+- Perfectionism and Overthinking: feeling to one action.
+- [[wiki/Dimensions/Mindset|Loss Aversion]]: pull to stay.
 - [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]]: self-regard vs selfhood in prose and persuasion.
 - [[wiki/Books/Suicidal Empathy|Suicidal Empathy]]: empathy replacing judgment.
 - [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]: tomorrow's next tasks written before the day starts.

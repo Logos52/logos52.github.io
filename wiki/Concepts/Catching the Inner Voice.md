@@ -47,7 +47,7 @@ Three redirects have support and share one rule: none of them fights the line on
 ## Related pages
 
 - [[wiki/Concepts/The Two Meanings of Ego|The Two Meanings of Ego]] — which self the voice serves
-- [[wiki/Dimensions/Mindset/Mindset, Condensed|Mindset, Condensed]] — defusion in daily doctrine
+- Mindset, Condensed — defusion in daily doctrine
 - [[wiki/Concepts/Levels of Thinking - The Step Back|Levels of Thinking - The Step Back]] — stepping back from a reaction
 - [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] — replacing cue-response links elsewhere
 

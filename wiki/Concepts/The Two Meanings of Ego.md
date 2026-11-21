@@ -167,7 +167,7 @@ What the objections leave standing is a procedure, and no picture of the self. T
 ## Related pages
 
 - [[wiki/Concepts/Style|The Personal Uniform]]: the same mechanism applied to objects. A filter run daily against one particular life ends at a signature nobody was aiming for, which is what judgment looks like when the medium is clothing.
-- [[wiki/Concepts/How to Communicate Truth Into Someone Else's Frame|How to Communicate Truth Into Someone Else's Frame]]: the same location of the person in the refusal, worked out for persuasion, and the source of the selling-feeling diagnostic.
+- [[wiki/Razors|How to Communicate Truth Into Someone Else's Frame]]: the same location of the person in the refusal, worked out for persuasion, and the source of the selling-feeling diagnostic.
 - [[02 - System/Writing Standards|Writing Standards]]: the two terms working as binding law over every page in this vault, and the home of the ruling that hedging is self-regard pointed downward.
 
 ## Sources

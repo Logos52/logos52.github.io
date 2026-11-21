@@ -36,7 +36,7 @@ Cultivation is slow because fixed habits fight the very growth required. A usabl
 
 Supporting habits: notice fixed triggers; aim at process and marginal wins; accept discomfort as part of growth; try new strategies without demanding instant mastery.
 
-The [[wiki/Dimensions/30-Day Challenges|30-day mindset challenge]] rehearses cheap errors in a safe setting: split tasks, act early, read barriers versus hidden conditions, shorten cycles, then attack a trait you believed fixed.
+The 30-day mindset challenge rehearses cheap errors in a safe setting: split tasks, act early, read barriers versus hidden conditions, shorten cycles, then attack a trait you believed fixed.
 
 ## Where effort should go
 

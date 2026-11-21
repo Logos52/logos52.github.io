@@ -84,7 +84,7 @@ As the habit stabilizes, peel steps off deliberately. Keep Prep lean, shrink Pee
 
 ## Related pages
 
-- [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|How to shift your brain to be motivated]]: keeping motivation in reserve rather than spending it to start ordinary work.
+- [[wiki/Dimensions/Self-Regulation|How to shift your brain to be motivated]]: keeping motivation in reserve rather than spending it to start ordinary work.
 - [[wiki/Planning and Automation|Reverse Goal Setting]]: checking that the goal you are building a habit around is one you still want.
 - [[wiki/Self Management/Priority 0+1 System|Priority 0+1 System]]: deciding which habit is worth protecting in the day's first hours.
 - [[wiki/Self Management/Time Management, Attention & Scheduling|Time Management, Attention & Scheduling]]

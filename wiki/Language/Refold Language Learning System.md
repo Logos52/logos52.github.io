@@ -87,4 +87,4 @@ AI-generated stories locked to a learner's word list are an experiment some buil
 - [[wiki/Language/The Han-Viet Bridge|The Han-Viet Bridge]]
 - [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]
 - [[wiki/Language/Chinese/Chinese Characters, Condensed|Chinese Characters, Condensed]]
-- [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]]
+- Learning, Condensed

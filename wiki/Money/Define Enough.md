@@ -53,7 +53,7 @@ Each time income rises, notice whether spending stayed at the old level and whet
 
 Revisit the written number when family or health circumstances change materially. Do not revise it because a friend bought a nicer car. The point of the practice is to end the chase on purpose, not to win a ranking.
 
-[[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] treats volume and ownership cost as the demand side of the same problem: upgrades that raise recurring spend also raise the enough-number. [[wiki/Minimalism/Product Reduction|Product Reduction]] asks whether fewer, better objects can do the same jobs—another way to hold the finish line steady when income rises.
+[[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]] treats volume and ownership cost as the demand side of the same problem: upgrades that raise recurring spend also raise the enough-number. [[wiki/Minimalism/Minimalism as Systems Design|Product Reduction]] asks whether fewer, better objects can do the same jobs—another way to hold the finish line steady when income rises.
 
 When you are unsure whether a rising target reflects real needs or lifestyle creep, compare the new expense to the freedom sentence you wrote. If the purchase only makes sense as a signal to others, it is creep. If it removes a recurring drain or buys back hours you would rather not sell again, it may be real need.
 

@@ -53,8 +53,8 @@ What one quiet detail would you add to an otherwise plain outfit this week?
 
 ## Related pages
 
-- [[wiki/Minimalism/Wanting Less|Wanting Less]] — wanting less on the spending side of the same filter.
-- [[wiki/Fitness/Fitness Mindsets|Fitness Mindsets]] — another domain where taste and repetition meet.
+- [[wiki/Minimalism/Minimalism as Systems Design|Wanting Less]] — wanting less on the spending side of the same filter.
+- Fitness Mindsets — another domain where taste and repetition meet.
 
 ## Sources
 

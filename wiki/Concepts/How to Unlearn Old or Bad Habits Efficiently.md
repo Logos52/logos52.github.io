@@ -59,8 +59,8 @@ Typical timing: two hours of hard focus may need forty to sixty minutes of real 
 
 - [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolbs Experiential Cycle]] — reflection when a replacement did not fire
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] — visible activity swapped for hard thinking
-- [[wiki/Dimensions/Mindset/Marginal Gains|Marginal Gains]] — the next single cue-response upgrade
-- [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] — "easier" is a poor test
+- Marginal Gains — the next single cue-response upgrade
+- [[wiki/Dimensions/Self-Regulation|The Technique Is Only as Good as the Thinking It Produces]] — "easier" is a poor test
 - [[wiki/Concepts/The Accretion Frame|The Accretion Frame]] — building a pull habit, not only dismantling a push one
 - [[wiki/Concepts/Catching the Inner Voice|Catching the Inner Voice]] — emotional cues that loop without producing action
 

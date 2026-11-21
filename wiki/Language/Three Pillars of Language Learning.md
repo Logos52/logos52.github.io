@@ -56,4 +56,4 @@ Concrete tactics—comprehension menus, metalayer setups, grammar-primer habits,
 - [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]]
 - [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]]
 - [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]
-- [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]]: languages in the application section.
+- Learning, Condensed: languages in the application section.

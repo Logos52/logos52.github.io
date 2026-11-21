@@ -44,7 +44,7 @@ Time management fails in three different places at once: choosing work worth doi
 
 **Habits and starts.** [[wiki/Self Management/Habits, Productive Routines & PEER|Habits, Productive Routines & PEER]] tilts cues and shrinks first steps. The procrastination material below is the system view of the same problem: setup before motivation.
 
-**Learning work.** Scheduling creates room; techniques under [[wiki/Techniques/Techniques - Learning Craft|Techniques - Learning Craft]] fill it.
+**Learning work.** Scheduling creates room; techniques under Techniques - Learning Craft fill it.
 
 ## Urgency trapping and early placement
 
@@ -172,9 +172,9 @@ Four weeks to notice variables that shape energy, concentration, distractibility
 
 - [[wiki/Planning and Automation|Reverse Goal Setting]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
-- [[wiki/Dimensions/30-Day Challenges/Deep Processing Challenge|Deep Processing Challenge]]
-- [[wiki/Dimensions/30-Day Challenges/Mindset Challenge|Mindset Challenge]]
-- [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]]
+- Deep Processing Challenge
+- Mindset Challenge
+- Prestudy
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 
 ## Sources
