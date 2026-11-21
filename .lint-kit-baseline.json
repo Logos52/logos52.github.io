@@ -5728,147 +5728,7 @@
     },
     {
       "rule": "R1",
-      "file": "src/components/Chrome.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/components/Chrome.astro",
-      "fingerprint": "d37253d3"
-    },
-    {
-      "rule": "R1",
       "file": "src/layouts/Base.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/layouts/Note.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "221df707"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "8292c242"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "88e3b667"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "a2e5945f"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "f21a6c82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/note.ts",
-      "fingerprint": "4799c8a1"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/note.ts",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "2b8beeda"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "435243ed"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "83095b15"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "86ec09a4"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "8c0156a8"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "c03cb3ca"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "c9e2bb55"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "cd6159f6"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "d1d55b04"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "d8bd092a"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "d9de703c"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "dc4a21cf"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/types.ts",
-      "fingerprint": "df650e49"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/index.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/map.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/notes.astro",
       "fingerprint": "c03f8f82"
     },
     {
@@ -5927,11 +5787,6 @@
       "fingerprint": "db1e17c5"
     },
     {
-      "rule": "R17",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "f22f0f26"
-    },
-    {
       "rule": "R18",
       "file": "src/lib/types.ts",
       "fingerprint": "b35d6852"
@@ -5943,43 +5798,8 @@
     },
     {
       "rule": "R2",
-      "file": "src/components/Chrome.astro",
-      "fingerprint": "a0b4615b"
-    },
-    {
-      "rule": "R2",
-      "file": "src/layouts/Base.astro",
-      "fingerprint": "59bda16c"
-    },
-    {
-      "rule": "R2",
-      "file": "src/layouts/Note.astro",
-      "fingerprint": "48e1780e"
-    },
-    {
-      "rule": "R2",
       "file": "src/lib/note.ts",
       "fingerprint": "625e3ee7"
-    },
-    {
-      "rule": "R2",
-      "file": "src/pages/index.astro",
-      "fingerprint": "811c9dc5"
-    },
-    {
-      "rule": "R2",
-      "file": "src/pages/map.astro",
-      "fingerprint": "9f0de675"
-    },
-    {
-      "rule": "R2",
-      "file": "src/pages/projects.astro",
-      "fingerprint": "ca38afd0"
-    },
-    {
-      "rule": "R21",
-      "file": "src/lib/domain.ts",
-      "fingerprint": "c03f8f82"
     },
     {
       "rule": "R21",
@@ -6037,9 +5857,9 @@
       "fingerprint": "e424e7d3"
     },
     {
-      "rule": "R4",
-      "file": "src/lib/types.ts",
-      "fingerprint": "3476ab30"
+      "rule": "R21",
+      "file": "src/lib/domain.ts",
+      "fingerprint": "c03f8f82"
     }
   ]
 }

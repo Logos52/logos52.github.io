@@ -1,4 +1,4 @@
-import type { MapRow } from '../lib/map-list-types';
+import type { MapRow } from '../lib/types';
 
 export type { MapRow };
 
