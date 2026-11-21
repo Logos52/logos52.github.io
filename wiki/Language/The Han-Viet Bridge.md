@@ -1,11 +1,11 @@
 ---
+title: "The Hán-Việt Bridge"
 type: concept
-status: seed
+status: developing
 created: 2026-06-21
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: fable
-source-count: 1
+updated: 2026-11-21
+method: integrated-merge-2026-11-21
+source-count: 3
 tags:
   - language-learning
   - vietnamese
@@ -15,86 +15,74 @@ tags:
   - characters
 ---
 
+> A Vietnamese speaker already carries thousands of Mandarin morphemes inside Sino-Vietnamese words. The bridge lines those readings up with the characters and sounds that spell them—not to replace pinyin, but to make recognition cheap.
+
 # The Hán-Việt Bridge
 
-The Hán-Việt bridge is a method for Vietnamese speakers who are learning Mandarin. A Vietnamese speaker already knows about three thousand Mandarin morphemes. They are the Sino-Vietnamese (Hán-Việt) readings inside everyday Vietnamese words. The method lines that vocabulary up against the Chinese characters and sounds that carry it. The learner then meets each character attached to a word they have spoken since childhood, instead of as a foreign symbol to memorize from nothing.
+Use this method when the learner's Vietnamese already contains formal Sino-Vietnamese (Hán-Việt) vocabulary and Mandarin characters are the new layer. Hán-Việt and Mandarin readings both descend from Middle Chinese; where Vietnamese kept a distinction Mandarin lost, the Hán-Việt form can cue the Mandarin one. Roughly a third of casual speech and most formal prose in Vietnamese sit on this layer—comparable to Latin and French in English academic writing.
 
-Hán-Việt readings and Mandarin readings both descend from Middle Chinese. Vietnam borrowed its literary reading layer from Middle Chinese during Tang-era contact. Where Vietnamese kept a sound distinction that Mandarin lost, the Hán-Việt reading is a usable clue to the Mandarin one. About 60% of formal written Vietnamese is this Sino-Vietnamese layer. In casual speech the share is closer to a third. English academic prose has a comparable layer of words from Latin and French.
-
-## Core takeaways
-
-- A Vietnamese speaker already knows about three thousand Mandarin morphemes as Hán-Việt readings inside everyday words. The method puts those readings next to the characters that carry them.
-- The largest gain is in vocabulary and needs no sound rules. A compound such as 學生 resolves to học + sinh, "student", before the Mandarin xuéshēng is learned.
-- A few sound correspondences are reliable. A Hán-Việt reading ending in -p, -t, -c, or -ch predicts an open Mandarin syllable, and a reading ending in -m predicts Mandarin -n.
-- A sắc or nặng tone on a stop-final reading marks an entering-tone character. The Mandarin tone of those characters cannot be derived and must be memorized.
-- Meanings drift. 困難 is "difficulty" in Mandarin and khốn nạn "vile, despicable" in Vietnamese, so every matched compound needs a meaning check.
-- The method is for recognition only. A learner who starts pronouncing Mandarin with the Hán-Việt sound should drop the reading aid and follow the pinyin.
-
-## Reading a compound from its parts
-
-The largest gain is lexical. It needs no sound rules. Sino-Vietnamese morphemes are bound and productive. A learner uses them every day inside compounds without thinking of them as Chinese. So 學生 reads as **học** (study) + **sinh** (born/student) and resolves to "student" before *xuéshēng* is learned. 科學 = **khoa** + **học** = "science". 國家 = **quốc** + **gia** = "nation". This is compositional comprehension. A monolingual English learner stores 學生 as one unit with no internal parts. The Vietnamese learner parses it from parts already in memory.
-
-This advantage is largely automatic. Known-cognate words are acquired faster than non-cognates without any instruction (see [[wiki/Concepts/Memory Handling|Memory Handling]] on prior knowledge as the cheapest encoding). The practical step is to show the learner the morpheme match, then let the learner use it.
+The largest win is **compositional vocabulary** with no sound rules yet. 學生 resolves to học + sinh ("student") before *xuéshēng* is studied. 科學, 國家, and similar compounds parse from morphemes already in memory. Showing the match once is often enough; prior knowledge is the cheapest encoding ([[wiki/Concepts/Memory Handling|Memory Handling]]).
 
 ## Sound rules worth memorizing
 
-A handful of correspondences are reliable enough to predict the Mandarin reading from the Hán-Việt one.
+- **Stop finals → open Mandarin syllable:** Hán-Việt -p, -t, -c, -ch → no final consonant in Mandarin (十 thập → shí, 國 quốc → guó, 法 pháp → fǎ).
+- **-m → Mandarin -n:** 三 tam → sān, 心 tâm → xīn, 金 kim → jīn. This is the strongest single rule.
+- **Initial clusters (partial):** nh- ≈ r-; ng-/ngh- ≈ vowel-initial Mandarin; ph- ≈ f-; đ- ≈ d-; th- ≈ t-.
+- **Tones (partial):** huyền → often Tone 2; hỏi → often Tone 3; open-syllable sắc/nặng → often Tone 4. Central and Southern speakers who merge hỏi/ngã should not use the hỏi prediction.
+- **Entering-tone flag:** sắc or nặng on a stop-final syllable marks an old entering-tone character whose Mandarin tone must be stored by hand—no derivation rule. That flag sorts "derive" from "memorize" ([[wiki/Dimensions/Retrieval|Rules of Effective Memorization]]), the same fence logic as [[wiki/Language/Chinese/How Chinese Characters Work|sound series]] inside one language.
 
-- **The final consonant predicts the Mandarin rime.** A Hán-Việt reading ending in **-p, -t, -c, or -ch** means the Mandarin syllable is open, with no final consonant: 十 thập → shí, 國 quốc → guó, 法 pháp → fǎ. A reading ending in **-m** maps to Mandarin **-n**: 三 tam → sān, 心 tâm → xīn, 金 kim → jīn. This is the strongest clue in the method and it rarely fails.
-- **A few initials are near-fixed.** Hán-Việt **nh-** ≈ Mandarin **r-** (nhân → rén, nhật → rì); **ng-/ngh-** ≈ a vowel-initial Mandarin syllable (ngũ → wǔ, nghiệp → yè); **ph-** ≈ **f-** (pháp → fǎ); **đ-** ≈ **d-**, **th-** ≈ **t-**.
-- **Tone, in part.** Huyền tends to Mandarin Tone 2; hỏi to Tone 3; an open-syllable sắc or nặng to Tone 4. The remaining tone combinations cannot be predicted from the Hán-Việt reading alone.
+## Two Vietnamese words for one character
 
-## The entering-tone flag
+Many characters have an everyday native reflex plus a literary Hán-Việt pair: 力 as sức (strength) and lực (force); 鏡 as gương and kính; 本 as vốn and bản. Tying 力 to lực then discovering sức is the same morpheme attaches the glyph to language already spoken about the body.
 
-The most useful tone fact concerns the characters whose Mandarin tone cannot be derived. A sắc or nặng tone on a stop-final syllable (-p/-t/-c/-ch) marks an old "entering-tone" character. Those are exactly the characters whose Mandarin tone changed with no pattern. The Hán-Việt reading does not give the Mandarin tone there. It marks the word as one to memorize rather than derive. That flag is itself a retrieval cue. It sorts characters into "rule applies" and "store by hand", and that is the sort the brain needs in any case (the fence principle in [[wiki/Dimensions/Retrieval|Rules of Effective Memorization]]). The same sound-family reasoning runs inside a single language in [[wiki/Language/Chinese/How Chinese Characters Work|Sound Series]] and [[wiki/Language/Chinese/How Chinese Characters Work|Sound Components]]. The bridge is the sound attribute of [[wiki/Language/Chinese/How Chinese Characters Work|a character]] extended across Vietnamese and Mandarin.
+## Where matches fail
 
-## Characters with two Vietnamese words
+Every pairing is a hypothesis until checked. Whole compounds drift: 困難 *kùnnán* "difficulty" is Vietnamese khốn nạn "vile"; 緊張 "nervous" is khẩn trương "urgent"; 書院 "academy" looks like thư viện "library." Sound and character links can stay; meanings need a per-word check.
 
-For many characters Vietnamese carries two reflexes: an early borrowing now felt as a plain native word, plus the later literary Hán-Việt reading that matches the Chinese meaning and sound. 力 is **sức** (strength in the arms) and **lực** (force). 鏡 is **gương** (mirror) and **kính** (lens, glasses). 本 is **vốn** (capital) and **bản**. 味 is **mùi** (smell) and **vị** (taste). A learner who learns 力 = lực then finds that *sức*, the everyday word for strength in the arms, is the same morpheme. The character attaches to a word the learner already uses for their own body. That is deeper encoding than a fresh pairing of a glyph to a gloss.
+## Limits
 
-## Where the matches fail
+- **Old Sino-Vietnamese** nativized reflexes (buồng, mùa, việc, sức) break sound rules—use them as anchors, not predictors.
+- The bridge shrinks load; it does not remove pinyin and tone study.
+- **Nôm-coined** glyphs (𠀧, 𤾓) have no Chinese bridge—only Sino-Vietnamese vocabulary crosses.
 
-Each match is a hypothesis about meaning. Whole compounds drift in meaning, and a learner who trusts every match makes errors. 困難 *kùnnán* "difficulty" is Vietnamese **khốn nạn** "vile, despicable". 緊張 *jǐnzhāng* "nervous" is **khẩn trương** "urgent, hurry up". 書院 reads as **thư viện** "library", but Mandarin *shūyuàn* is "academy". These false friends are the negative-transfer cost of the method. The sound and character link stays usable. The meaning needs a check for each word.
+## Cost and audience
 
-## Three limits on the method
-
-- **Standard Hán-Việt versus Old Sino-Vietnamese.** The sound rules above hold for the literary layer. The early nativized reflexes (buồng, mùa, việc, sức) went through older sound changes and break the rules. Use them as the anchor to a known word, not as predictors.
-- **The bridge versus the graph.** Knowing học → 學 still leaves the Mandarin reading and tone to learn. The bridge reduces the load without removing it.
-- **Chinese characters versus Nôm-coined ones.** Some native Vietnamese words were written with Vietnamese-invented characters (𠀧 ba, 𤾓 trăm) that point to no Chinese reading. Only Sino-Vietnamese words carry across.
-
-## What the method costs and who it is for
-
-The method has a small upfront memory load: the dozen sound correspondences and the entering-tone flag. It also has an ongoing cost, a meaning check for each word against false friends. For a learner with no Vietnamese it offers almost nothing. It is a tool for people who already hold the Sino-Vietnamese vocabulary.
+Upfront cost: about a dozen correspondences plus the entering-tone flag. Ongoing cost: meaning checks for false friends. Almost useless without Vietnamese already in the learner's head.
 
 ## When to stop
 
-There are two signals to stop. The first: if you catch yourself pronouncing Mandarin with the Hán-Việt sound, drop the reading aid and let the pinyin lead. The bridge is for recognition. Using it for production makes the wrong pronunciation permanent. The second: if your tone guesses on stop-final words keep missing, stop guessing those tones and memorize them. The rule never covered them. Central and Southern speakers merge hỏi and ngã, so they should not use those two tone predictions at all.
+- If Mandarin pronunciation carries Hán-Việt color, drop the reading aid and let pinyin lead—recognition only, not production.
+- If stop-final tones keep missing after honest tries, stop guessing those tones and memorize them.
 
-## What to expect after a few sessions
+## What to expect
 
-You should be able to recover the meaning of a new two-character Sino-Vietnamese compound before learning its Mandarin reading, on most of the first dozen you try. The stop-final → open-Mandarin-syllable rule should hold on nearly every character you check. If neither result shows up within a few sessions, the vocabulary overlap at your level is thinner than assumed, and the recognition gain will be small.
+After a few sessions, most new two-character Sino-Vietnamese compounds should yield a meaning before the Mandarin reading is learned; the stop-final → open-syllable rule should survive spot checks. If neither holds, overlap at your level is thinner than assumed.
 
-## How to practice this
+## How to practice
 
-1. Take a new two-character compound such as 學生 and name each character's Hán-Việt reading, here học and sinh. Notice whether the meaning "student" arrives before you learn the Mandarin xuéshēng. Try this on a dozen compounds and count how many resolve this way.
-2. Before checking the Mandarin, look at the final consonant of the Hán-Việt reading. Expect an open Mandarin syllable after -p, -t, -c, or -ch, and Mandarin -n after -m. Notice that this holds on nearly every character you check.
-3. Guess Tone 2 for a huyền reading, Tone 3 for hỏi, and Tone 4 for open-syllable sắc or nặng. Memorize the tone of any stop-final reading with sắc or nặng instead of guessing it. Notice whether the guessed tones hold on most of the readings you check.
-4. For a character with two Vietnamese words, such as 力, pair the Hán-Việt reading lực with the native word sức. Notice whether the character is easier to recall once it is tied to the everyday word.
-5. Check the meaning of every matched compound before you trust it. Notice cases like 困難, "difficulty" in Mandarin but khốn nạn "vile, despicable" in Vietnamese.
-6. Listen to your own Mandarin pronunciation. If you hear the Hán-Việt sound in it, drop the reading aid and follow the pinyin.
+1. Name Hán-Việt readings for each character in a new compound; notice whether sense arrives before Mandarin.
+2. Use final-consonant rules before checking pinyin.
+3. Guess tones from huyền/hỏi/open sắc; memorize stop-final sắc/nặng instead of guessing.
+4. Pair literary and native reflexes (e.g. lực / sức for 力).
+5. Verify compound meaning against false friends.
+6. Listen for Hán-Việt leakage in spoken Mandarin output.
 
 ## Related pages
 
-- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]: the form/sound/meaning hub that the bridge extends across languages.
-- [[wiki/Language/Chinese/How Chinese Characters Work|Sound Series]]: declared sound-family relatedness within Chinese; the in-glyph analogue of the cross-language bridge.
-- [[wiki/Language/Chinese/How Chinese Characters Work|The IME Method]]: guided-guessing recall that a Hán-Việt sound clue can feed.
-- [[wiki/Language/Chinese/How Chinese Characters Work|Character Primer]] · [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Grammar Primer]]
-- [[wiki/Dimensions/Retrieval|Rules of Effective Memorization]]: the fence principle and the derive-rather-than-store rule that the entering-tone flag applies.
-- [[wiki/Concepts/Memory Handling|Memory Handling]] · [[wiki/Dimensions/Dimensions of Learning|Declarative, Procedural, and Conditional Knowledge]]
-- [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]] · [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]]
+- [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]: form, sound, and meaning inside the script.
+- [[wiki/Resources/Vietnamese Language Learning Resources|Vietnamese Language Learning Resources]]: input and grammar patterns for noticing.
+- [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]]: Mandarin input once the bridge is active.
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]: declarative vs procedural knowledge in language work.
+
+## Open questions
+
+- How early should entering-tone characters be flagged in a mixed-character deck?
+- Which false-friend compounds deserve explicit warnings in a beginner bridge deck?
 
 ## Sources
 
-- Sino-Vietnamese historical phonology and stratification: Wang Li (1948), Nguyễn Tài Cẩn, Haudricourt, Pulleyblank, Phan & de Sousa; Middle Chinese via the *Qieyun*/Baxter transcription.
-- Cognate facilitation as a largely automatic effect: Otwinowska et al. (2020).
-- Deep-dive research and the tsumugu-ed build design: [[journal/2026-06-21-hanviet-bridge-deep-dive|journal — the Hán-Việt bridge deep dive]] (2026-06-21).
+| Source | Role on this page |
+| --- | --- |
+| Wang Li (1948); Nguyễn Tài Cẩn; Haudricourt; Pulleyblank; Phan & de Sousa | Sino-Vietnamese stratification and Middle Chinese backdrop. |
+| Otwinowska et al. (2020) | Cognate facilitation as largely automatic. |
+| [[journal/2026-06-21-hanviet-bridge-deep-dive|journal — Hán-Việt bridge deep dive]] (2026-06-21) | Research design and worked examples for this page. |
