@@ -4407,16 +4407,6 @@
       "fingerprint": "d021b571"
     },
     {
-      "rule": "R26",
-      "file": "pull_request",
-      "fingerprint": "51d0729d"
-    },
-    {
-      "rule": "R26",
-      "file": "pull_request",
-      "fingerprint": "c7c2592f"
-    },
-    {
       "rule": "R3",
       "file": "src/islands/constellation.ts",
       "fingerprint": "1f827dbf"
