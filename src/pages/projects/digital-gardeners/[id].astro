@@ -2,24 +2,12 @@
 import Base from '../../../layouts/Base.astro';
 import '../../../styles/gardeners-page.css';
 import catalog from '../../../data/digital-gardeners.json';
-import { existsSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
-import { join, dirname } from 'node:path';
-
-const publicRoot = join(dirname(fileURLToPath(import.meta.url)), '../../../../public');
 
 export function getStaticPaths() {
   return catalog.map((p) => ({ params: { id: p.id }, props: { person: p } }));
 }
 
 const { person } = Astro.props;
-const thumbDisk = join(publicRoot, 'media/gardeners', `${person.id}-thumb.webp`);
-const fullDisk = join(publicRoot, 'media/gardeners', `${person.id}-full.webp`);
-const shot = existsSync(fullDisk)
-  ? `/media/gardeners/${person.id}-full.webp`
-  : existsSync(thumbDisk)
-    ? `/media/gardeners/${person.id}-thumb.webp`
-    : null;
 ---
 
 <Base title={person.name} description={`Notable design features — ${person.name}.`} active="projects">
@@ -39,9 +27,6 @@ const shot = existsSync(fullDisk)
           </>
         ))}
       </p>
-      {shot && (
-        <img class="gardeners-obs__shot" src={shot} alt={`Home page, ${person.name}`} loading="lazy" />
-      )}
       {person.observations.map((o) => (
         <section class="gardeners-obs">
           <h2>{o.url}</h2>
