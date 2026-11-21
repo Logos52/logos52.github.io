@@ -59,6 +59,12 @@ Structure work so the swap is harder: require a reason for each link, compare be
 
 After a miss, name what happened, how it felt, what rule that implies, and one small change next time ([[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb’s experiential cycle]]). One [[wiki/Dimensions/Mindset|marginal gain]] aimed at the shortcut beats inventing a new system. Habitual shortcuts need cue-response work — see [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|unlearning old habits]]. Catching the swap live is [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|metacognition]].
 
+## Why it persists
+
+Schools and tools reward the left column of the table — full notebooks, completed modules, fluent model answers. The right column still has to be done inside your head, and no interface automates it. Learners also read fluency as learning because that misread is common in the literature (see Sources).
+
+Overwhelm pushes the swap: copying, rote repetition, or switching tasks lowers discomfort fastest. The local fix is usually one constraint on the next block — closed book before notes, a stated relation before each arrow, mixed retrieval instead of one comfortable topic — not a new system.
+
 ## Related pages
 
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — control layer, traps, and measurement.
