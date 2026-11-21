@@ -48,6 +48,9 @@ Depth, taste, and first-pass reading intent have no matcher signature. When a de
 - [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]
+- [[wiki/Writing Craft/The Context Problem|The Context Problem]]
+- [[wiki/Writing Craft/The Cold Open|The Cold Open]]
+- [[journal/2026-07-25-the-least-cost-interpretation|Journal, 2026-07-25]]
 
 ## Open questions
 

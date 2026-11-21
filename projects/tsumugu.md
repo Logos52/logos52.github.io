@@ -38,7 +38,7 @@ As of 2026-06-06, Phase 8 (voice) is in progress. Each sentence gets a voice not
 ## Links
 
 - **The map of content, with the whole project on one page:** [[wiki/Tsumugu/Tsumugu|Tsumugu]]
-- **The cast, with portraits and voice lines:** [/tsumugu/cast-profiles.html](/tsumugu/cast-profiles.html) (each card opens the character's own page) · the characters' moral cores: [[wiki/Story Craft/The Moral Core|The Moral Core]]
+- **The cast, with portraits and voice lines:** [/tsumugu/cast-profiles.html](/tsumugu/cast-profiles.html) (each card opens the character's own page) · the characters' moral cores: [[wiki/Story Craft/Premise and Controlling Idea|The Moral Core]]
 - **Live site, with the reader, the wiki, and the source:** <https://logos52.github.io/tsumugu/>
 - **Open the reader directly:** <https://logos52.github.io/tsumugu/app/>
 - **The wiki, with the graded-reader content:** <https://logos52.github.io/tsumugu-wiki/>

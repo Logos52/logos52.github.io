@@ -10,6 +10,12 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-11-22] compile | Money and craft door cut
+
+- Kept 22 wiki pages; merged 29 into targets; unpublished-archive 10 design/research catalogs under `archive/unpublished/` (denylist: `archive/unpublished/**`).
+- Door redirects: `src/redirects/doors/craft.json` (29 paths).
+- Rewrote kept pages to stable ~1k-word schema with Sources sections.
+
 ## [2026-11-22] compile | Making sense of the world wiki cut
 
 - Door cut: 15 kept, 36 merged into group hubs and book/concept targets, 5 research banks to `archive/unpublished/`.
@@ -644,7 +650,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
   - [[wiki/Concepts/Evergreen Notes|Evergreen Notes]]
   - [[wiki/Concepts/Signalling Theory|Signalling Theory]]
   - [[wiki/Concepts/Norman Doors|Norman Doors]]
-  - [[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]]
+  - [[wiki/Design/Design, Condensed|Design of Everyday Things]]
   - [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]]
   - [[wiki/Concepts/Learning Plateau|Learning Plateau]]
   - [[wiki/Concepts/Good Faith|Anti-Marketing]]
@@ -903,7 +909,7 @@ Append-only operational history. Entries should start with `## [YYYY-MM-DD] oper
 - New folder `wiki/Design/`, registered as the `gen` domain in `src/lib/domain.ts`.
 - New page: [[wiki/Design/Design, Condensed|Design, Condensed]] — Norman's doctrine as one rule per line (Condensed genre). Leans on the enriched concept hub plus the applied page; future per-concept owner pages (Affordances, Signifiers, Forcing Functions, …) flagged in the omissions note, not yet written.
 - New page: [[wiki/Design/Front-End Web Design|Front-End Web Design]] — DOET mapped onto web UI and onto the real tsumugu-core (Silk-Seam reader) and tsumugu-ed (Paper & Ink dictionary) surfaces, with the full honesty kit (case against, price, quit signals, checkable expectations). Grounded in concrete files: `_shell.html`, `reader.html`, `site.css`, `search.js`, `DECISIONS.md`.
-- Enriched: [[wiki/Concepts/Design of Everyday Things|Design of Everyday Things]] from a 5-concept stub into the comprehensive book-grounded owner hub (two-question frame, seven stages / two gulfs, knowledge in world vs head, constraints + forcing functions, human error, slips vs mistakes, HCD / double diamond, featuritis). Honored verify-pass attribution caveats: root-cause "five whys" is Toyota's term not Norman's; four design-relevant slip mechanisms (not five); Swiss-cheese third lever is "alert when holes align."
+- Enriched: [[wiki/Design/Design, Condensed|Design of Everyday Things]] from a 5-concept stub into the comprehensive book-grounded owner hub (two-question frame, seven stages / two gulfs, knowledge in world vs head, constraints + forcing functions, human error, slips vs mistakes, HCD / double diamond, featuritis). Honored verify-pass attribution caveats: root-cause "five whys" is Toyota's term not Norman's; four design-relevant slip mechanisms (not five); Swiss-cheese third lever is "alert when holes align."
 - Index: `notes/index.md` Hubs & Condensed updated (the Full Catalog regenerates from frontmatter on build). Source Index: row added under Book Sources.
 - Left untouched: Wedge's pre-existing uncommitted WIP (journal entries, prior `notes/index.md` edits, etc.). Not committed or pushed.
 
@@ -955,7 +961,7 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 
 ## [2026-07-26] maintenance | raw/inbox drained (49 → 1)
 
-- **Compiled → `raw/processed/` (23):** the AI/economics set (AI Industrial Revolution, Riding AGI, SpaceX, Americans Richer, Chamath, Essential AI Skills, Social Media, Paper-vs-Screen, Learn So Fast, All-In June), the five *Kiki's Delivery Service* essays behind [[wiki/Story Craft/The Burnout Arc|The Burnout Arc]], the six MCU essays behind [[wiki/Story Craft/The Moral Core|The Moral Core]] and the `tsumugu-core` 金多恩/沈文 derivations, the Jack Sparrow essay behind `CHARACTER-INTRO-PRINCIPLES.md`, and Live Clinic 73.
+- **Compiled → `raw/processed/` (23):** the AI/economics set (AI Industrial Revolution, Riding AGI, SpaceX, Americans Richer, Chamath, Essential AI Skills, Social Media, Paper-vs-Screen, Learn So Fast, All-In June), the five *Kiki's Delivery Service* essays behind [[wiki/Story Craft/Story Craft|The Burnout Arc]], the six MCU essays behind [[wiki/Story Craft/Premise and Controlling Idea|The Moral Core]] and the `tsumugu-core` 金多恩/沈文 derivations, the Jack Sparrow essay behind `CHARACTER-INTRO-PRINCIPLES.md`, and Live Clinic 73.
 - **Uncompiled but in-domain → `raw/sources/` (14):** six Justin Sung learning-craft, seven agentic-engineering (Hermes ×2, Cowork, second brain, r0b0tlab, Obsidian research stack, Grok x_search), one Outlier chorusing. Each got a `queued` row in `raw/Source Index.md` with a likely compile target, so the backlog stays findable.
 - **Gaming → `~/Research/wow/raw/inbox/` (10):** six new-player WoW runs, two WoW histories, one lore primer, one Warcraft III playthrough. Per the standing rule that gaming research lives outside this vault; moved, not destroyed.
 - **Left in the inbox (1):** *Give me 28 Minutes, And I'll Reprogram You To Learn Anything FASTER* — a broken clip. Justin Sung frontmatter, body is one line of an unrelated Wizard101 video. Needs re-clipping; not processed.

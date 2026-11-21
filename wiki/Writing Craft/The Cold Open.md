@@ -1,77 +1,105 @@
 ---
 title: "The Cold Open"
-type: concept
-status: seed
+type: technique
+status: stable
 created: 2026-08-12
-updated: 2026-09-11
-method: plain-rewrite-2026-09-11
-prose-model: opus
-description: "The operational register's opening: the claim at full strength in sentence one, small stakes held, application immediately after. When to use it, when the run-up is still right, and what it costs."
+updated: 2026-11-21
+description: "How a vault page opens: sentence-one moves from an admired corpus, two paragraph-shaped doors above them, and the cold-thesis form for operational pages whose reader arrives to use them."
 tags:
   - writing
   - system
+source-count: 12
 ---
 
 # The Cold Open
 
-An operational page opens on its claim, at full strength, in the first sentence. A reader who arrives at directions, a reference, or a structure has come to use the page, and supplies the stakes without help. Prose that raises the stakes first only slows that reader down.
+Opening a page here happens at three levels. A **move** is the shape of sentence one. A **door** is the shape of the whole opening paragraph. The **cold open** is a genre: the whole claim at full strength in sentence one, with small stakes held and application immediately after. Pick the door before the move. Pick both before drafting.
 
-## Core takeaways
+An operational page opens on its claim because the reader came to use the page and already supplies the stakes. Prose that raises the stakes first only slows that reader down. Concept pages, value pages, and pages whose terms are not parseable yet often need a run-up instead. The test for cold versus run-up is simple: if the first sentence needs a definition before it can be parsed, use a ramp. If a stranger could act on sentence one alone, open cold.
 
-- The first sentence carries the whole claim. No run-up, no scene-setting, no history of how things used to be.
-- The stakes stay small after the open as well. The page states what is, and a reader using the page already knows why it matters.
-- The second move is application. Once the claim lands, the parts arrive: the rules, the lanes, the pipeline.
-- Each section opens with its rule in bold, and the mechanism follows in the same sentence. The last section returns to the opening claim, advanced by the body.
-- The form fits pages whose reader arrives to use them. It is wrong for a concept telling whose own terms are not parseable yet, and wrong for a personal page.
-- The test is the first sentence. If it needs a definition before it can be parsed, the page wants the run-up form instead.
+## The cold open as genre
 
-## The first sentence
-
-Sentence one carries the whole claim. No run-up, no scene-setting, no history of how things used to be. Three accepted openers from this wiki's own pages, all from the day the form was ruled:
+Sentence one carries the whole claim. No run-up, no scene-setting, no history of how things used to be. Three accepted openers from this wiki's own pages, from the day the form was ruled:
 
 - "The research here splits into a standing half and a session half."
 - "Bots watch; the desk changes things."
 - "A language model's default voice is trained self-regard."
 
-The struck counter-sample opened a structure page with a paragraph about the wiki's life before the structure existed: how research once ran only in sessions, and what never stopped needing done. Every sentence in that paragraph was true. None of it was the page's job. The ruling that killed it: smaller stakes, cold thesis, don't overthink.
+What comes after the open stays small. No before-and-after narrative and no announcing that something matters. The second move is application: the rules, the lanes, the pipeline. Each section opens with its rule in bold, and the mechanism follows in the same sentence. The last section returns to the opening claim, advanced by the body, with no coda.
 
-## What comes after the open
+A cold open gives away the page's one surprise at the start. Nothing downstream can build suspense or save the best for last. For directions and references that is a gain. For an essay it would be a loss.
 
-The stakes stay small after the open, too. No before-and-after narrative, and no announcing that something matters. The page states what is. A reader using the page knows why it matters, or would not be there.
+## Opening doors
 
-The second move is application. Once the claim lands, the parts arrive: the rules, the lanes, the pipeline. A cold open states the whole claim up front, so no later sentence has to carry persuasive load. This matches the abstract rule in the [[wiki/Writing Craft/Opening Moves Catalog|Opening Moves Catalog]]: nothing can hook once the conclusion is already given away, and that is the point.
+Moves and doors fail differently. A move fails inside one sentence: the wrong complement, a part in the subject seat, a definition the reader already owned. A door fails across the paragraph, most often when the opening eases the reader in and then delivers everything at once. Sentence one can be fine while the paragraph breaks two sentences later.
 
-## How the body reads
+**Definitional handover.** What it is, then the machinery, then what it buys. The term arrives first and stays the subject. The middle shows the parts that make it work. The close says what the reader has once they hold it. It fits house coinages, technical names, and core values introduced as something held rather than through the trouble they repair.
 
-The body's scan spine is the bolded operative lead. A section opens with its rule in bold, and the mechanism follows in the same sentence. Numbered lists hold stacked reasons, and each number is a complete reason. The sentences are declaratives throughout: a rule is a statement, never advice aimed at the reader.
+**Payoff-or-ramp.** What the reader gets, then the method that gets it. Where the payoff can be stated cold, it opens the paragraph. Where it cannot, the paragraph starts on wide familiar ground and walks to it. The ramp follows the on-ramp law: widest view first, each sentence a small step, thesis only once the reader can hold it. Step height is density, not word count.
 
-## How the page ends
+One question routes most pages: **does the reader already own the term?** Where they do not, the handover takes it. Where they do, the door opens on what the thing gives. Overrides: core value pages take handover with a run-up regardless; subjects with no nameable referent take the ramp because a handover has nothing to hand over until ground exists.
 
-The last section lands back in the opening claim, advanced by the body, and stops there. It adds no coda and no replay.
+**Door-level faults on record:** the **inventory** (opening lists the page's parts before the reader can hold them); the **procedure recital** (method in order instead of what it produces); the **synonym swap** (two doors that differ only in the first clause); the **register break** (handover voice stapled to a body of stacked verdicts). The inventory is the same mechanism as a [[wiki/Writing Craft/The Context Problem|context problem]] at paragraph scale.
 
-## Where it applies, and where it fails
+The two doors were named in regeneration handoffs of 2026-08-14 and tested on forty-nine openings across three writers.
 
-The form fits pages whose reader arrives to use them: directions, references, structures, workflows, position statements. It is the wrong form in two neighboring genres.
+## Opening moves
 
-A concept telling fails cold when the terms of its own claim are not parseable yet. "One word is doing the work of two" means nothing until the reader has felt both experiences the split names, so that page earns its run-up. A personal page opened cold reads as doctrine. The working-through is that genre's content, and a personal note that gives its verdict first claims a certainty the material does not have.
+The catalog below lists shapes for sentence one, each taken from an opening a writer in the admired-blog corpus actually used. The master rule across that corpus: the first sentence carries the payload (conclusion, definition, or finding), not preparation for it. Once the conclusion is given away, a hook cannot work. That is the point of the cold form. Specimens beat glosses. Where they disagree, the specimen wins.
 
-The working test: if the first sentence needs a definition before it can be parsed, the page wants the run-up form. If a stranger could act on sentence one alone, open cold.
+**Moves when sentence one can carry the subject**
 
-## The price
+| # | Move | Fits |
+|---|------|------|
+| 1 | Copular definition: "X is a Y that does Z." Complement must be picturable on contact; otherwise ramp to the copular. | Concepts, glossary notes |
+| 2 | Dated checkable fact | Analysis, project write-ups |
+| 3 | Thesis as plain causal fact | Causal claims |
+| 4 | Attributed folklore ("Statistical folklore asserts…") | Belief-examination pages |
+| 5 | Opposing position at strength, then flat dissent | Argument pages |
+| 6 | Retell the object intact; defect as trailing clause | Debunks, reviews |
+| 7 | The debt (prior claim outstanding) | Follow-ups, personal extensions |
+| 8 | Definitional stack: do-this first, then define terms | Framework pages |
+| 9 | Unhedged absolute, scope repaired next | Doctrine lines |
+| 10 | Epistemic preamble (genre, status, contract) | Personal notes, door pages |
+| 11 | Own practice, first person | Personal register |
+| 12 | Real question, answered immediately | Research write-ups |
+| 13 | Scope fence (what this is not) | Titles that mislead |
+| 14 | Occasion plus deliverable | Workflow, how-to |
 
-A cold open gives away the page's one surprise at the start. Nothing downstream can build suspense, land a reveal, or save the best for last. Every later section elaborates a claim the reader already holds. For an operational page that is a gain, because suspense in directions is a defect. For an essay it would be a real loss, and that difference is another way to tell the two genres apart.
+Two admired moves stay off this vault's menu: the concrete-example stack (too close to struck scene-openers) and the early literary gambit the primary exemplar later abandoned for abstracts.
+
+**Priming and backstory when no name exists yet**
+
+Some pages need terms before the whole can be said. Detection at design time: title compounds two abstractions; page extends another page's model; plain-words subject needs two defined terms to parse. Core values and moral-core subjects always take priming here. Mechanical pages with terms everyone owns carry the vault's version in sentence one, not the lay definition.
+
+| # | Move | Note |
+|---|------|------|
+| 15 | Terms first, then thesis | Miniature copulars, then the sayable whole |
+| 16 | The why (collision that forces the pairing) | No label-phrase on-ramp |
+| 17 | The problem (recognized situation) | Terms as the statement needs them |
+| 18 | Borrowed referent (named neighbor concept) | No fresh metaphor as subject |
+| 19 | Backstory (propositional, no scene) | Thesis when ground exists |
+
+On-ramp law: wide familiar ground, low density, small steps. The most important *sayable* sentence comes last in the intro. A primed page ends on the whole it opened from, advanced. Intro register governs the whole page between them.
+
+Pick the move before drafting, by genre. Present several catalog-derived openers in full, side by side, for one pick. Serial one-at-a-time rejection is the expensive way to learn a preference.
 
 ## How to practice this
 
-1. Write the whole claim into your first sentence. Cut any run-up, scene-setting, or history of how things used to be. Notice whether a stranger could act on that sentence alone.
-2. Read your first sentence and ask whether it needs a definition before it can be parsed. If it does, use the run-up form instead.
-3. Delete every sentence that announces something matters. Notice that a reader using the page already knows why it matters.
-4. Open each section with its rule in bold, then give the mechanism in the same sentence. Notice whether you can scan the page by its leads alone.
-5. Check that the last section lands back in the opening claim. Cut any coda or replay that follows it.
-6. Look for a later section that holds back a reveal. In a page the reader arrives to use, that suspense is a defect.
+1. Ask whether the reader already owns the term. Choose handover or payoff-or-ramp.
+2. Ask whether sentence one can say what the thing is with a stable referent. If not, use moves 15–19.
+3. Write the whole claim into sentence one when the page is operational. Cut run-up and scene-setting.
+4. Read the opening for the inventory fault. Parts belong in the body.
+5. Test a copular complement: can the reader feel or picture it on contact?
+6. On a primed page, mirror the intro in the close.
 
 ## Related pages
 
-- [[wiki/Writing Craft/Opening Moves Catalog|Opening Moves Catalog]]: the corpus-derived opener menu. The cold open is the master rule ("say the most important sentence first") adopted as a genre's whole form.
-- [[02 - System/Writing Standards|Writing Standards]]: §The Cold Open, the binding law with the full exemplar and strike record.
-- [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Grok Bot Primer]]: a page written in the form.
+- [[02 - System/Writing Standards|Writing Standards]] — binding law, exemplars, strike record.
+- [[wiki/Writing Craft/The Context Problem|The Context Problem]] — using something as given before the page gave it.
+- [[wiki/Writing Craft/Five Writing Templates|Five Writing Templates]] — start at the end at page scale.
+- [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Grok Bot Primer]] — a page written in the cold form.
+
+## Sources
+
+Cold-open rulings and specimens: this vault, 2026-08-12–15. Doors: regeneration handoffs 2026-08-14; accepted models include Good Faith, Exit Strategy For Objects, Expectancy in Wicked Environments, Selfhood and the Ledger. Moves 1–14: Paul Graham; Gwern Branwen, gwern.net; Piotr Woźniak, supermemo.guru; Naval Ravikant; Maciej Cegłowski; Scott Alexander (attributions as in archived Blog Craft Research Bank, 2026-08-11). Moves 15–19 and priming scope: owner rulings 2026-08-13 after five struck openers on one page.

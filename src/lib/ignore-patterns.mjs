@@ -33,6 +33,7 @@ export const IGNORE_PATTERNS = [
   '01 - Workbench/**',
   '02 - System/**',
   '_archive/**',
+  'archive/unpublished/**',
   'hermes/**',
   'log.md',
   'notes/catalog.md',

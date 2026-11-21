@@ -9,7 +9,7 @@ tags:
   - language
   - tsumugu
 links:
-  - "[[wiki/Money/Investing and Budgeting Mindsets]]"
+  - "[[wiki/Money/Money, Condensed]]"
   - "[[journal/2026-06-04-tsumugu]]"
 ---
 
@@ -17,7 +17,7 @@ Two threads moved today: the public site grew a money section, and Tsumugu picke
 
 ## The site — a money-mindsets section
 
-The [[journal/index|top-of-mind]] WNAC question — *what are good teachable mindsets for budgeting and investing?* — needed a home before any of the applied AI work. So the base now has a [[wiki/Money/Investing and Budgeting Mindsets|money MOC]]: a reading list of six books, each distilled to its mindsets and first principles, with a full note started for the one already read — [[wiki/Money/The Almanack of Naval Ravikant|the Almanack]]. The rest get promoted to standalone notes as they're read.
+The [[journal/index|top-of-mind]] WNAC question — *what are good teachable mindsets for budgeting and investing?* — needed a home before any of the applied AI work. So the base now has a [[wiki/Money/Money, Condensed|money MOC]]: a reading list of six books, each distilled to its mindsets and first principles, with a full note started for the one already read — [[wiki/Money/Money, Condensed|the Almanack]]. The rest get promoted to standalone notes as they're read.
 
 The same through-lines kept surfacing across all six — spend less than you earn, time beats timing, define *enough*, behaviour beats knowledge, money buys freedom not status, price things in life energy — which is a good sign the mindsets are real and not author quirks. The one tension worth holding: frugality-to-independence (Simple Path, Your Money or Your Life) against spending-down-on-experiences (Die With Zero), reconciled by *enough* and time-bucketing.
 

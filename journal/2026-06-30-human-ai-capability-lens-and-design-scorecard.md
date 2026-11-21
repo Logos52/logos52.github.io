@@ -48,4 +48,4 @@ The lens is a dated snapshot, not a law. AI scores drift upward as models improv
 
 ## Provenance
 
-This Cowork session. Grounded in the two PDFs read directly, the vault's [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Higher-Order Generativity vs. Judgment]] and [[wiki/Money/The Almanack of Naval Ravikant|The Almanack of Naval Ravikant]], plus a web check of Naval's current taste / judgment / specific-knowledge framing.
+This Cowork session. Grounded in the two PDFs read directly, the vault's [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Higher-Order Generativity vs. Judgment]] and [[wiki/Money/Money, Condensed|The Almanack of Naval Ravikant]], plus a web check of Naval's current taste / judgment / specific-knowledge framing.
