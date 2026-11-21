@@ -50,6 +50,8 @@ Conclusion first breaks when you mistake a mood for a verdict—name the lean an
 
 In writing, the same shapes appear in [[wiki/Writing Craft/Five Writing Templates|Five Writing Templates]] and [[wiki/Writing Craft/The Cold Open|The Cold Open]]: verdict up front, evidence under it, falsifier beside the call.
 
+Use the habits in low-stakes order: conclusion first in any answer longer than three sentences; observations first in feedback; play-back on any request that will cost more than an hour of work; falsifiers on any decision that sets a date or spends money; compression only when time is visibly short. Written notes benefit from the same sequence before a meeting comment or pull-request review.
+
 ## How to practice
 
 1. Before speaking: state conclusion, then reasons; if conclusion will not come, note the gap.
