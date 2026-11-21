@@ -36,7 +36,9 @@ let jsonMap: Record<string, string> | null | undefined;
 function loadDomainsJson(): Record<string, string> | null {
   if (jsonMap !== undefined) return jsonMap;
   try {
-    jsonMap = existsSync(DOMAINS_JSON) ? JSON.parse(readFileSync(DOMAINS_JSON, 'utf8')) : null;
+    jsonMap = existsSync(DOMAINS_JSON)
+      ? (JSON.parse(readFileSync(DOMAINS_JSON, 'utf8')) as Record<string, string>)
+      : null;
   } catch {
     jsonMap = null;
   }

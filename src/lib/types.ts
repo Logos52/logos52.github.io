@@ -1,3 +1,21 @@
+/**
+ * types.ts — O6 contracts. The shared interface the Composer and Grok lanes build against.
+ *
+ * Pure TypeScript on purpose (no `astro:content` import) so it can be imported from anywhere:
+ * `.astro` components, island scripts, and plain Node build scripts alike.
+ *
+ * The Zod schema that validates frontmatter lives in `src/content.config.ts` (it needs the
+ * `astro:content` `z`); this file mirrors that shape as a TS type and owns the domain/graph/
+ * search/backlink contracts. Keep the two in sync — CONTRACTS.md documents both.
+ */
+
+/* ------------------------------------------------------------------ *
+ * Domains — the 6 knowledge domains the graph + cards color by.
+ * Colors are copied VERBATIM from the Tsumugu DS (`--d-*` custom
+ * properties in ui_kits/knowledge-base/index.html). This map is the
+ * single source of truth for domain color in the Astro site.
+ * ------------------------------------------------------------------ */
+
 export const DOMAINS = ['ai', 'learning', 'self', 'world', 'craft'] as const;
 export type Domain = (typeof DOMAINS)[number];
 
@@ -35,13 +53,13 @@ const LEGACY_DOMAINS: Record<string, Domain> = {
   gen: 'craft',
 };
 
-export function isDomain(s: string): s is Domain {
-  return (DOMAINS as readonly string[]).includes(s);
-}
-
 export function normalizeDomain(s: string): Domain | undefined {
   if (isDomain(s)) return s;
   return LEGACY_DOMAINS[s];
+}
+
+export function isDomain(s: string): s is Domain {
+  return (DOMAINS as readonly string[]).includes(s);
 }
 
 /* ------------------------------------------------------------------ *

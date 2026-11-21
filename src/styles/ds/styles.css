@@ -9,4 +9,7 @@
 @import "tokens/colors.css";
 @import "tokens/typography.css";
 @import "tokens/spacing.css";
+@import "tokens/ndc-surface.css";
+@import "tokens/ndc-typography.css";
 @import "kb-prose.css";
+@import "../note-prose-article.css";
