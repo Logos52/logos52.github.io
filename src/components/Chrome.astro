@@ -9,17 +9,16 @@
  * replaced by a round magnifier button that opens the same field full-width under the header row.
  */
 interface Props {
-  /** Active nav id — one of "map" | "notes" | "projects" | "journal" | "personal" | "about". */
+  /** Active nav id — one of "home" | "map" | "projects" | "journal" | "about". */
   active?: string;
 }
 const { active } = Astro.props;
 
 const nav: { id: string; label: string; href: string }[] = [
+  { id: 'home', label: 'Home', href: '/' },
   { id: 'map', label: 'Map', href: '/map' },
-  { id: 'notes', label: 'Notes', href: '/notes' },
   { id: 'projects', label: 'Projects', href: '/projects' },
   { id: 'journal', label: 'Journal', href: '/journal' },
-  { id: 'personal', label: 'Personal', href: '/personal' },
   { id: 'about', label: 'About', href: '/about' },
 ];
 ---
