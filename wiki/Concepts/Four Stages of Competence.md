@@ -1,23 +1,22 @@
 ---
 title: "Four Stages of Competence"
-type: model
-status: developing
+type: concept
+domain: learning
+status: stable
+description: "A skill moves through four stages—from not knowing you are bad at it to doing it automatically—and new techniques should wait until current ones sit near unconscious competence."
 created: 2026-06-11
-updated: 2026-11-10
-method: fresh-from-notes-2026-11-10
-description: "Competence is a spectrum with four stages, from not knowing you are bad at a skill to doing it correctly with almost no effort, and new techniques should wait until current ones sit near the top of that spectrum."
+updated: 2026-11-21
+source-count: 1
 tags:
   - competence
   - practice
   - skill-development
-wedge_reviewed: false
 ---
-
-> Not yet reviewed by Wedge.
 
 # Four Stages of Competence
 
-Competence is a spectrum, not a switch. You are not simply able or unable. A skill moves through four stages, sometimes called the four stages of learning or the four stages of competency. The model is often mislabeled as Maslow's, which it is not. It shows what kind of progress to expect at each stage, and what kind of gain is even available there. Learning itself is one of the more complicated skills you can pick up, so the same ladder applies to study methods as it does to an instrument or a sport.
+> Competence is a spectrum, not a switch. You are not simply able or unable. A skill moves through unconscious incompetence, conscious incompetence, conscious competence, and unconscious competence—often mislabeled as Maslow’s, which it is not. The model tells you what kind of progress to expect at each stage and what gain is even available there. Learning itself is one of the more complicated skills you can pick up, so the same ladder applies to study methods as to an instrument or a sport. Do not pile techniques that each still cost high effort; add a new method only when the ones you use are approaching automatic.
+
 <figure>
 <svg viewBox="-16 -16 552 560" width="100%" style="max-width:552px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="wv-fsc-t">
 <title id="wv-fsc-t">A skill moves through four stages. Unconscious incompetence: At the bottom you cannot do the skill correctly, and you have no idea that this is so. Conscious incompetence: You are still getting it wrong, and now you can see that you are. Conscious competence: At this stage you can do the skill correctly if you apply effort. The band is wide. Unconscious competence: At the top the correct form has become automatic.</title>
@@ -74,25 +73,27 @@ At the top the correct form has become automatic. The effort required is minimal
 
 ## Do not pile skills that still cost a lot
 
-If too many skills sit at the low end of conscious competence, the load adds up. Five techniques that each take high effort and succeed only now and then can drain motivation, because inconsistency feels like a lack of progress, and can push you into overload. You should not work on that many high-effort skills at once. Add a new technique only when the ones you already use are approaching unconscious competence.
+If too many skills sit at the low end of conscious competence, the load adds up. Five techniques that each take high effort and succeed only now and then can drain motivation, because inconsistency feels like a lack of progress, and can push you into overload ([[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|cognitive load]]). You should not work on that many high-effort skills at once. Add a new technique only when the ones you already use are approaching unconscious competence.
 
 Dumping a large pile of methods at once works against this. A workshop that introduced more than 40 techniques for managing time left people remembering that there were many methods, not how to use them, and was more likely to lower motivation than to raise it.
 
-The engine that moves you up the ladder is a cycle of trying, reviewing, and adjusting. A view of progress as many small gains helps you see movement even when a single session does not feel like a leap. The stages tell you what kind of gain is realistic. The cycle is how you earn it.
+The engine that moves you up the ladder is a cycle of trying, reviewing, and adjusting ([[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb’s experiential cycle]]). A view of progress as many small gains helps you see movement even when a single session does not feel like a leap ([[wiki/Dimensions/Mindset|mindset]]). The stages tell you what kind of gain is realistic. The cycle is how you earn it.
+
+[[wiki/Dimensions/Dimensions of Learning|Dimensions of learning]] uses this ladder when it says not to stack encoding bundles until each method is cheap enough to run together. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]] helps you read which stage you are in before you pick the next gain.
 
 ## Open questions
 
-How would I know whether I am still blind to my mistakes, or finally able to see them?
-
-How many of the techniques I am using still take high effort and succeed only now and then?
-
-## Sources
-
-- iCanStudy, "Stages of learning", Briefing. Private course notes, paraphrased.
+- How would I know whether I am still blind to my mistakes, or finally able to see them?
+- How many of the techniques I am using still take high effort and succeed only now and then?
 
 ## Related pages
 
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition: The Control Layer]]: reading your stage so you pick the right next gain.
-- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb's Experiential Cycle]]: the cycle of trying, reviewing, and adjusting that moves a skill up the ladder.
-- [[wiki/Dimensions/Mindset|Marginal Gains]]: the view of progress as many small improvements.
-- [[wiki/Dimensions/Self-Regulation|The Technique Is Only as Good as the Thinking It Produces]]: a method at low competence will not produce the thinking it is meant to produce.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition — The Control Layer]] — reading your stage so you pick the right next gain.
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — where techniques stack only after competence is cheap.
+- [[wiki/Dimensions/Mindset|Mindset]] — beliefs that let you stay in conscious incompetence long enough to improve.
+
+## Sources
+
+| Source | Note |
+|---|---|
+| iCanStudy, “Stages of learning”, Briefing | Private course notes, paraphrased |
