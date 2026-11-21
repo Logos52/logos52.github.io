@@ -32,8 +32,8 @@ test('a non-domain explicit value falls through to the folder', () => {
   assert.equal(resolveDomain(agentsPage, 3), 'ai');
 });
 
-test('the unslugified folder path does not match the slug prefix', () => {
-  assert.equal(resolveDomain('wiki/Working with Agents/example'), 'craft');
+test('the unslugified folder path resolves after space normalization', () => {
+  assert.equal(resolveDomain('wiki/Working with Agents/example'), 'ai');
 });
 
 test('other folder fallbacks stay in place', () => {
