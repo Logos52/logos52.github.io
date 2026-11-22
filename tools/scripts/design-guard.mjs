@@ -4,9 +4,10 @@ import { join, relative } from 'node:path';
 const ROOT = join(import.meta.dirname, '../..');
 const DENYLIST = join(ROOT, 'tools/design/denylist.txt');
 const SOURCE_DIRS = ['src/styles', 'src/layouts', 'src/components', 'src/pages', 'src/islands'];
-const STYLE_EXT = new Set(['.css', '.astro']);
+const STYLE_EXT = new Set(['.css', '.astro', '.ts', '.mjs']);
 const DIST_EXT = new Set(['.html', '.css', '.js']);
-const SHARED = ['.mast', '.menu', '.colophon', '.board', '.word', '.prose', '.find', '.reading', '.chip', '.lede'];
+const SHARED = ['.mast', '.menu', '.colophon', '.board', '.word', '.copy', '.find', '.reading', '.chip', '.lede'];
+const GRAPH = new Set(['src/islands/constellation.ts', 'src/components/Constellation.astro']);
 
 const failures = [];
 
@@ -80,7 +81,7 @@ function checkTokens(rel, css) {
     if (!decl) return;
     const prop = decl[1].toLowerCase();
     const value = decl[2].trim();
-    if (prop === 'font-family' && !/^(?:var\(--font-(?:serif|sans|mono)\)|inherit)$/i.test(value)) {
+    if (prop === 'font-family' && !/^(?:var\(--face-(?:text|ui|code)\)|inherit)$/i.test(value)) {
       fail(rel, `font-family outside the type tokens (${value}) near line ${index + 1}`);
     }
     if (prop === 'font-size' && !/^(?:var\(--type-[a-z0-9-]+\)|inherit|0)$/i.test(value)) {
@@ -140,6 +141,8 @@ const scanned = [...sourceFiles, ...distFiles];
 for (const file of scanned) {
   const rel = relative(ROOT, file);
   const text = await readFile(file, 'utf8');
+  if (text.includes('design-archive/')) fail(rel, 'imports the archived design');
+  if (GRAPH.has(rel)) continue;
   for (const marker of markers) {
     if (marker.scope === 'source-css' && rel.startsWith('dist/') && !rel.endsWith('.css')) continue;
     if (text.includes(marker.text)) fail(rel, `old design marker “${marker.text}”`);

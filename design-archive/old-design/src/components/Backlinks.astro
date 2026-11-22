@@ -1,0 +1,93 @@
+---
+/**
+ * Backlinks.astro — "Linked from" block at the end of the note article, after the prose
+ * (moved out of the aside rail 2026-10-15). A top rule separates it from the prose; each
+ * entry is a title link (var(--ink)) with a hairline bottom rule and a muted context line.
+ */
+import type { Backlink } from '../lib/types';
+import { slugToUrl } from '../lib/slug';
+
+interface Props {
+  items: Backlink[];
+}
+const { items } = Astro.props;
+const SHOWN = 5;
+const head = items.slice(0, SHOWN);
+const rest = items.slice(SHOWN);
+---
+
+{
+  items.length > 0 && (
+    <section class="kb-backlinks" aria-label="Linked from" data-pagefind-ignore>
+      <h2 class="kb-backlinks-h">Linked from</h2>
+      <div class="kb-backlinks-list">
+        {head.map((b) => (
+          <a href={slugToUrl(b.slug)} class="kb-backlink">
+            {b.title}
+            {b.context && <span class="kb-backlink-ctx">{b.context}</span>}
+          </a>
+        ))}
+      </div>
+      {rest.length > 0 && (
+        <details class="kb-backlinks-more">
+          <summary>{rest.length} more</summary>
+          <div class="kb-backlinks-list">
+            {rest.map((b) => (
+              <a href={slugToUrl(b.slug)} class="kb-backlink">
+                {b.title}
+                {b.context && <span class="kb-backlink-ctx">{b.context}</span>}
+              </a>
+            ))}
+          </div>
+        </details>
+      )}
+    </section>
+  )
+}
+
+<style>
+  .kb-backlinks {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    max-width: 64ch;
+  }
+  .kb-backlinks-h {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--mut);
+    margin: 0 0 12px;
+  }
+  .kb-backlinks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .kb-backlink {
+    font-family: var(--sans);
+    font-size: 15px;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 7px;
+  }
+  .kb-backlink:hover {
+    color: var(--accent);
+  }
+  .kb-backlink-ctx {
+    display: block;
+    font-size: 13px;
+    color: var(--mut);
+    margin-top: 2px;
+  }
+  .kb-backlinks-more {
+    margin-top: 8px;
+  }
+  .kb-backlinks-more summary {
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--mut);
+    margin-bottom: 8px;
+  }
+</style>

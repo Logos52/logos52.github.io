@@ -9,8 +9,8 @@ const Content = rendered?.Content;
 
 <Shell title="Journal" description="Working notes, decisions, and what's top of mind." active="journal">
   <main class="reading">
-    <article class="prose">
-      <nav class="crumb" aria-label="Journal sections">
+    <article class="copy">
+      <nav class="trail" aria-label="Journal sections">
         <a href="/journal/calendar/">Calendar</a>
       </nav>
       {Content ? <Content /> : <p>Journal not found.</p>}

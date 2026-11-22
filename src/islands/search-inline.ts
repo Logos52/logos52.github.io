@@ -28,7 +28,7 @@ const excerptHtml = (s: string) => s.replace(/<(?!\/?mark\b)[^>]*>/g, '');
 
 /**
  * Every note's markdown body opens with an <h1> repeating its title (hidden on the page by
- * `.prose--body > h1`, but Pagefind indexes hidden text), so the excerpt opened by saying the title
+ * `.copy--note > h1`, but Pagefind indexes hidden text), so the excerpt opened by saying the title
  * the row already shows one line above. Drop that leading restatement. Returns the excerpt
  * untouched whenever the opening is not the title, so a genuine match at the top is never eaten.
  */

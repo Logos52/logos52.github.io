@@ -7,9 +7,9 @@ Source: `src/pages/index.astro`, `src/lib/types.ts` (`DOMAINS`, `DOMAIN_LABELS`,
 ## Sub-features
 
 - `home-hero` shows `p.lede[data-home-objective]`. `/` has no `h1`.
-- `home-spotlight` is `a.spotlight__link` (`Open Builders' Logs 2026`) → `/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs-2026/`.
-- `home-doors` is `section.doors`. The heading is `Where to start`. Five `a.door` links. The visible name is `.door__label`.
-- `home-topmind` is `ul.topmind__lines` with exactly three `li`. The build throws when the count is not 3.
+- `home-spotlight` is the `a.word__link` whose text is `Open Builders' Logs 2026` → `/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs-2026/`.
+- `home-doors` is the section headed `Where to start` (`#start-head`). Five `a.word__link` links. The visible name is `.word__title`.
+- `home-topmind` is the `ul.lines` under `#mind-head` with exactly three `li`. The build throws when the count is not 3.
 
 ## How to get to it (user POV)
 
@@ -21,10 +21,10 @@ Preconditions:
 
 - Doctor passed against the instance `launch.sh` started.
 
-- **Open home.** Go to `/`. Wait for `p.data-home-objective` and `h2#doors-head` whose text is `Where to start`.
-- **Count doors.** Five `a.door`. The `.door__label` texts are `Working well with AI`, `Learning faster`, `Managing yourself`, `Making sense of the world`, `Money and craft`. The hrefs are `/domains/ai/`, `/domains/learning/`, `/domains/self/`, `/domains/world/`, `/domains/craft/`.
+- **Open home.** Go to `/`. Wait for `p.lede[data-home-objective]` and `h2#start-head` whose text is `Where to start`.
+- **Count doors.** Five links under that heading. The `.word__title` texts are `Working well with AI`, `Learning faster`, `Managing yourself`, `Making sense of the world`, `Money and craft`. The hrefs are `/domains/ai/`, `/domains/learning/`, `/domains/self/`, `/domains/world/`, `/domains/craft/`.
 - **Open Learning faster.** Click the door whose label is `Learning faster`.
-- **Resulting state.** The URL is `/domains/learning/` or `/domains/learning`. The `h1` text is `Learning faster`. Chrome `Map` has class `on` (domain pages set `active="map"`). `a.head__kind` href is `/map/` and its text includes `Map of Content`.
+- **Resulting state.** The URL is `/domains/learning/` or `/domains/learning`. The `h1` text is `Learning faster`. Domain pages set `active="map"`. The trail link `Map of Content` href is `/map/`.
 
 - **Proof.** Screenshot the objective and the Where to start row before the click, and the Learning faster heading after it. Both frames show the Logos52 chrome.
 

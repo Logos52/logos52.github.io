@@ -607,15 +607,15 @@ function readColors() {
   const cs = getComputedStyle(document.documentElement);
   const v = (n: string, fb: string) => cs.getPropertyValue(n).trim() || fb;
   const domain: Record<string, string> = {};
-  for (const d of DOMAINS) domain[d] = v(`--d-${d}`, '#666cb0');
+  for (const d of DOMAINS) domain[d] = v('--mark', '#666cb0');
   return {
     domain,
     satellite: v('--gray', '#6f6f6f'),
     edge: v('--line-strong', '#dddddd'),
-    ink: v('--ink', '#1a1a1a'),
+    ink: v('--text', '#1a1a1a'),
     mut: v('--gray', '#6f6f6f'),
-    paper: v('--paper', '#fcfcfc'),
-    accent: v('--accent', '#666cb0'),
+    paper: v('--ground', '#fcfcfc'),
+    accent: v('--mark', '#666cb0'),
   };
 }
 
@@ -685,7 +685,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   if (!canvas) return;
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
-  MONO_STACK = getComputedStyle(document.documentElement).getPropertyValue("--font-serif").trim() || "serif";
+  MONO_STACK = getComputedStyle(document.documentElement).getPropertyValue("--face-text").trim() || "serif";
   const modeAttr = root.dataset.mode;
   const mode: 'spine' | 'full' | 'local' =
     modeAttr === 'full' ? 'full' : modeAttr === 'local' ? 'local' : 'spine';

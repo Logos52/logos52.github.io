@@ -83,7 +83,7 @@ const parent = parts.length > 1 ? `/folder/${parts.slice(0, -1).join('/')}/` : '
 <Shell title={title} description={`Pages in ${title}.`} active="map">
   <main class="page">
     <header>
-      <p class="crumb">
+      <p class="trail">
         {parent ? <a href={parent}>Up</a> : <a href="/map/">Map</a>}
       </p>
       <h1 class="page__title">{title}</h1>

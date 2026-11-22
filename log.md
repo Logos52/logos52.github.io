@@ -1067,4 +1067,5 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 
 - One shell (`src/layouts/Shell.astro`) and one stylesheet (`src/styles/site.css`) hold the type, colour, spacing, radius, and the shared header, menu, footer, card, list row, and article.
 - Page files add no stylesheet. Old layouts and CSS are deleted.
-- `tools/scripts/design-guard.mjs` fails the build on an old design marker, a colour or font outside the tokens, or a page file that restyles a shared component.
+- `tools/scripts/design-guard.mjs` fails the build on an old design marker, a colour or font outside the tokens, a page file that restyles a shared component, or an import of `design-archive/`.
+- The retired design is kept at `design-archive/old-design/` and is not loaded by the build. The map graph is the one carry-over.

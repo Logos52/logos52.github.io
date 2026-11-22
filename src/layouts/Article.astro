@@ -44,7 +44,7 @@ const meta = [type, updated ? `Updated ${updated}` : ''].filter(Boolean).join(' 
 <Shell title={title} description={description || (updated ? `Updated ${updated}` : undefined)} active={active}>
   <main class="reading">
     <article data-pagefind-body data-pagefind-meta={`domain:${domain}`} data-pagefind-meta={`title:${title}`}>
-      <p class="crumb" data-pagefind-ignore aria-label={breadcrumb}>
+      <p class="trail" data-pagefind-ignore aria-label={breadcrumb}>
         {
           crumbs.length
             ? crumbs.map((c, i) => (
@@ -59,7 +59,7 @@ const meta = [type, updated ? `Updated ${updated}` : ''].filter(Boolean).join(' 
       <h1 class="reading__title" data-pagefind-ignore>{title}</h1>
       {meta && <p class="reading__meta" data-pagefind-ignore>{meta}</p>}
       {description && <p class="reading__dek" data-pagefind-ignore>{description}</p>}
-      <div class="prose prose--body">
+      <div class="copy copy--note">
         <slot />
       </div>
       <Backlinks items={backlinks} />

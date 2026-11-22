@@ -1,0 +1,141 @@
+---
+/**
+ * Constellation.astro — the force-directed knowledge graph, ported from the original Quartz
+ * notes-overview graph. Renders a canvas + boots the d3-force island, which fetches /graph.json.
+ */
+interface Props {
+  height?: string;
+  class?: string;
+  /** 'spine' = home landmark (≤24); 'full' = whole graph flattened; 'local' = neighborhood of `seeds`. */
+  mode?: 'spine' | 'full' | 'local';
+  /** local mode: seed slugs whose neighborhood to show. */
+  seeds?: string[];
+  /** local mode: hop radius (default 1). */
+  hops?: number;
+  /** full mode: restrict to a single domain (for a domain MOC sub-graph). */
+  domain?: string;
+  /** local mode: 'vertical' lays the neighborhood out as a tall column (for a side rail). */
+  orient?: 'horizontal' | 'vertical';
+  /** marker-size multiplier for this instance (e.g. 0.7 for a minimap); default 1. */
+  nodeScale?: number;
+  /** 'hover' = suppress persistent seed titles; everything labels on hover only (minimaps). */
+  labels?: 'hover';
+  /** data source URL (default /graph.json); the Map page points this at /map.json. */
+  src?: string;
+  /** draw persistent domain territory labels (the Map). */
+  domainLabels?: boolean;
+}
+const {
+  height = 'min(70vh, 620px)',
+  class: className = '',
+  mode = 'spine',
+  seeds,
+  hops,
+  domain,
+  orient,
+  nodeScale,
+  labels,
+  src = '/graph.json',
+  domainLabels = false,
+} = Astro.props;
+---
+
+<figure
+  class={`constellation ${className}`}
+  data-constellation-root
+  data-mode={mode}
+  data-seeds={seeds ? JSON.stringify(seeds) : undefined}
+  data-hops={hops != null ? String(hops) : undefined}
+  data-domain={domain || undefined}
+  data-orient={orient || undefined}
+  data-node-scale={nodeScale != null ? String(nodeScale) : undefined}
+  data-labels={labels || undefined}
+  data-src={src}
+  data-domain-labels={domainLabels ? 'true' : undefined}
+  style={`height:${height}`}
+>
+  <canvas></canvas>
+  <div class="constellation__tips" aria-hidden="true"></div>
+  <noscript>
+    <p class="constellation__fallback">The interactive graph needs JavaScript. <a href="/map/">Browse the map →</a></p>
+  </noscript>
+</figure>
+
+<script>
+  import { initConstellation } from '../islands/constellation';
+
+  document.querySelectorAll<HTMLElement>('[data-constellation-root]').forEach((root) => {
+    fetch(root.dataset.src || '/graph.json')
+      .then((r) => r.json())
+      .then((data) => initConstellation(root, data))
+      .catch(() => {
+        const c = root.querySelector('canvas');
+        if (c) c.replaceWith(Object.assign(document.createElement('p'), { className: 'constellation__fallback', textContent: 'Graph data unavailable.' }));
+      });
+  });
+</script>
+
+<style>
+  .constellation {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    border: 1px solid var(--rule);
+    border-radius: var(--tsg-radius);
+    background: var(--card);
+    box-shadow: var(--tsg-shadow);
+    overflow: visible; /* hover tip renders outside the canvas frame */
+  }
+  .constellation__tips {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: visible;
+    z-index: 10;
+  }
+  /* JS-injected at hover — must be :global (no data-astro-cid on createElement). */
+  .constellation :global(.constellation__tip) {
+    position: absolute;
+    pointer-events: none;
+    font-family: var(--mono);
+    font-size: 9px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--mut);
+    background: color-mix(in oklab, var(--paper) 10%, transparent);
+    border: none;
+    padding: 1px 4px;
+    border-radius: 2px;
+    box-shadow: none;
+    white-space: nowrap;
+    text-align: center;
+    /* paper halo — matches canvas strokeText, no box */
+    text-shadow:
+      1px 0 var(--paper),
+      -1px 0 var(--paper),
+      0 1px var(--paper),
+      0 -1px var(--paper);
+  }
+  .constellation canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    touch-action: pan-y; /* let the page scroll vertically over the graph; pinch still zooms */
+  }
+  .constellation__hint {
+    position: absolute;
+    left: 14px;
+    bottom: 10px;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--faint);
+    pointer-events: none;
+  }
+  .constellation__fallback {
+    padding: var(--space-5, 24px);
+    color: var(--mut);
+  }
+</style>
