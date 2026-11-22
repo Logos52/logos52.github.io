@@ -8,6 +8,8 @@
     "coverage/**",
     ".astro/**",
     "src/content/notes/**",
+    "src/styles/site.css",
+    "design-archive/**",
     "scripts/build-builders-logs-wiki.mjs",
     "scripts/build-digital-gardeners-data.mjs",
     "scripts/execute-wiki-cut-ai-door.mjs",

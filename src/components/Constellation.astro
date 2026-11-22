@@ -41,7 +41,7 @@ const {
 ---
 
 <figure
-  class={`constellation ${className}`}
+  class={`graph ${className}`}
   data-constellation-root
   data-mode={mode}
   data-seeds={seeds ? JSON.stringify(seeds) : undefined}
@@ -55,9 +55,9 @@ const {
   style={`height:${height}`}
 >
   <canvas></canvas>
-  <div class="constellation__tips" aria-hidden="true"></div>
+  <div class="graph__tips" aria-hidden="true"></div>
   <noscript>
-    <p class="constellation__fallback">The interactive graph needs JavaScript. <a href="/map/">Browse the map →</a></p>
+    <p class="graph__fallback">The interactive graph needs JavaScript. <a href="/map/">Browse the map →</a></p>
   </noscript>
 </figure>
 
@@ -70,72 +70,7 @@ const {
       .then((data) => initConstellation(root, data))
       .catch(() => {
         const c = root.querySelector('canvas');
-        if (c) c.replaceWith(Object.assign(document.createElement('p'), { className: 'constellation__fallback', textContent: 'Graph data unavailable.' }));
+        if (c) c.replaceWith(Object.assign(document.createElement('p'), { className: 'graph__fallback', textContent: 'Graph data unavailable.' }));
       });
   });
 </script>
-
-<style>
-  .constellation {
-    position: relative;
-    width: 100%;
-    margin: 0;
-    border: 1px solid var(--rule);
-    border-radius: var(--tsg-radius);
-    background: var(--card);
-    box-shadow: var(--tsg-shadow);
-    overflow: visible; /* hover tip renders outside the canvas frame */
-  }
-  .constellation__tips {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    overflow: visible;
-    z-index: 10;
-  }
-  /* JS-injected at hover — must be :global (no data-astro-cid on createElement). */
-  .constellation :global(.constellation__tip) {
-    position: absolute;
-    pointer-events: none;
-    font-family: var(--mono);
-    font-size: 9px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--mut);
-    background: color-mix(in oklab, var(--paper) 10%, transparent);
-    border: none;
-    padding: 1px 4px;
-    border-radius: 2px;
-    box-shadow: none;
-    white-space: nowrap;
-    text-align: center;
-    /* paper halo — matches canvas strokeText, no box */
-    text-shadow:
-      1px 0 var(--paper),
-      -1px 0 var(--paper),
-      0 1px var(--paper),
-      0 -1px var(--paper);
-  }
-  .constellation canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: inherit;
-    touch-action: pan-y; /* let the page scroll vertically over the graph; pinch still zooms */
-  }
-  .constellation__hint {
-    position: absolute;
-    left: 14px;
-    bottom: 10px;
-    font-family: var(--mono);
-    font-size: 9.5px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--faint);
-    pointer-events: none;
-  }
-  .constellation__fallback {
-    padding: var(--space-5, 24px);
-    color: var(--mut);
-  }
-</style>

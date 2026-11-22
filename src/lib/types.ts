@@ -27,12 +27,13 @@ export const DOMAIN_LABELS: Record<Domain, string> = {
   craft: 'Money and craft',
 };
 
+const ACCENT = '#666cb0';
 export const DOMAIN_COLORS: Record<Domain, { light: string; dark: string }> = {
-  ai: { light: '#666cb0', dark: '#8a90c8' },
-  learning: { light: '#5a7a9e', dark: '#7c9bc0' },
-  self: { light: '#6e8a5c', dark: '#92ab7e' },
-  world: { light: '#4f6fa3', dark: '#7290be' },
-  craft: { light: '#7a6b8f', dark: '#9d8fb0' },
+  ai: { light: ACCENT, dark: ACCENT },
+  learning: { light: ACCENT, dark: ACCENT },
+  self: { light: ACCENT, dark: ACCENT },
+  world: { light: ACCENT, dark: ACCENT },
+  craft: { light: ACCENT, dark: ACCENT },
 };
 
 export const DOMAIN_STANCES: Record<Domain, string> = {

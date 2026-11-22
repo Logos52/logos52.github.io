@@ -1062,3 +1062,10 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 - Owner signed all four ideal-week rules (Cursor month scope, clean-context passes in Claude Code subagents, effort per job, run-or-drop by 09-12).
 - Ultra confirmed active, expires 2026-09-12 (owner statement); bank and Grok page updated.
 - Writing Standards §1/§6 rerouted to Selfhood v2.
+
+## [2026-11-22] tool | NDC visual system replaces the old site chrome
+
+- One shell (`src/layouts/Shell.astro`) and one stylesheet (`src/styles/site.css`) hold the type, colour, spacing, radius, and the shared header, menu, footer, card, list row, and article.
+- Page files add no stylesheet. Old layouts and CSS are deleted.
+- `tools/scripts/design-guard.mjs` fails the build on an old design marker, a colour or font outside the tokens, a page file that restyles a shared component, or an import of `design-archive/`.
+- The retired design is kept at `design-archive/old-design/` and is not loaded by the build. The map graph is the one carry-over.

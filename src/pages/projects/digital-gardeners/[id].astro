@@ -1,6 +1,5 @@
 ---
-import Base from '../../../layouts/Base.astro';
-import '../../../styles/gardeners-page.css';
+import Shell from '../../../layouts/Shell.astro';
 import catalog from '../../../data/digital-gardeners.json';
 
 export function getStaticPaths() {
@@ -10,33 +9,41 @@ export function getStaticPaths() {
 const { person } = Astro.props;
 ---
 
-<Base title={person.name} description={`Notable design features — ${person.name}.`} active="projects">
-  <main class="gardeners-page gardeners-detail">
-    <div class="wrap">
-      <p class="crumb">
-        <a href="/projects/">Projects</a> · <a href="/projects/digital-gardeners/">Notable design features</a>
-      </p>
-      <h1>{person.name}</h1>
-      <p class="gardeners-detail__url">
-        {person.urls.map((u, i) => (
+<Shell title={person.name} description={`Notable design features — ${person.name}.`} active="projects">
+  <main class="reading">
+    <p class="trail">
+      <a href="/projects/">Projects</a>
+      <span> / </span>
+      <a href="/projects/digital-gardeners/">Notable design features</a>
+    </p>
+    <h1 class="reading__title">{person.name}</h1>
+    <p class="reading__dek">
+      {
+        person.urls.map((u: string, i: number) => (
           <>
             {i > 0 && ' · '}
             <a href={u} rel="noopener noreferrer">
               {u}
             </a>
           </>
-        ))}
-      </p>
-      {person.observations.map((o) => (
-        <section class="gardeners-obs">
-          <h2>{o.url}</h2>
-          <p class="gardeners-obs__meta">{o.lane}{o.who ? ` · ${o.who}` : ''}</p>
-          <dl>
-            <dt>Notable design features</dt>
-            <dd>{o.notableDesignFeatures}</dd>
-          </dl>
-        </section>
-      ))}
+        ))
+      }
+    </p>
+    <div class="copy">
+      {
+        person.observations.map((o: { url: string; lane: string; who?: string; notableDesignFeatures: string }) => (
+          <section>
+            <h2>{o.url}</h2>
+            <p>
+              {o.lane}
+              {o.who ? ` · ${o.who}` : ''}
+            </p>
+            <p>
+              <strong>Notable design features.</strong> {o.notableDesignFeatures}
+            </p>
+          </section>
+        ))
+      }
     </div>
   </main>
-</Base>
+</Shell>

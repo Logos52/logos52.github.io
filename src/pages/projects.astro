@@ -1,13 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
-import Base from '../layouts/Base.astro';
-import '../styles/projects-page.css';
+import Shell from '../layouts/Shell.astro';
 import { deriveTitle } from '../lib/note';
 import { slugToUrl } from '../lib/slug';
 
 type Status = 'current' | 'past';
 
-// Owner-set priority order (most important first); the rest fall back to frontmatter `order`.
 const PRIORITY = [
   'projects/tsumugu-ed',
   'projects/llm-knowledge-base',
@@ -33,8 +31,6 @@ const projects = raw
     const stack = Array.isArray(fm.stack) ? fm.stack.map(String) : fm.stack ? [String(fm.stack)] : [];
     const order = typeof fm.order === 'number' ? fm.order : 99;
     const image = typeof fm.image === 'string' ? fm.image : '';
-    // A project may override its card link (e.g. point at a standalone HTML page in public/) via
-    // frontmatter `cardHref`; otherwise the card opens the note page.
     const cardHref = typeof fm.cardHref === 'string' && fm.cardHref ? fm.cardHref : '';
     return {
       slug: n.id,
@@ -53,97 +49,48 @@ const groups: { key: Status; label: string }[] = [
   { key: 'current', label: 'Current' },
   { key: 'past', label: 'Archived' },
 ];
-
-const ARCHIVE_HREF = '/archive/';
-
-/** Vary image height per card (NDC Whiteboard index rhythm). */
-function imageHeight(slug: string): number {
-  let h = 0;
-  for (let i = 0; i < slug.length; i++) h = (h + slug.charCodeAt(i) * (i + 3)) % 997;
-  return 120 + (h % 100);
-}
-
 ---
 
-<Base title="Projects" description="Learning-system, agentic-engineering, and personal-tooling projects." active="projects">
-  <main class="projects-page">
-    <div class="wrap">
-      <div class="projects-main">
-        <header class="head">
-          <h1>Projects</h1>
-          <p class="head__lede">Learning-system, agentic-engineering, and personal-tooling projects.</p>
-        </header>
-        {groups.map((g) => {
-          const items = projects.filter((p) => p.status === g.key);
-          if (!items.length) return null;
-          return (
-            <section class="group">
-              <h2>
-                {g.label}
-                {g.key === 'past' && (
-                  <a class="group__more" href={ARCHIVE_HREF}>Full archive</a>
-                )}
-              </h2>
-              <div class="whiteboard">
-                {items.map((p) => (
-                  <a class="card" href={p.href}>
-                    {p.image && (
-                      <div class="card__media">
-                        <img
-                          src={`/${p.image}`}
-                          alt={`${p.title} screenshot`}
-                          loading="lazy"
-                          style={`height:${imageHeight(p.slug)}px`}
-                        />
-                      </div>
-                    )}
-                    <h3>{p.title}</h3>
-                    <p>{p.blurb}</p>
-                    {p.stack.length > 0 && (
-                      <div class="stack">
-                        {p.stack.map((s) => (
-                          <span class="tag">{s}</span>
-                        ))}
-                      </div>
-                    )}
+<Shell title="Projects" description="Learning-system, agentic-engineering, and personal-tooling projects." active="projects">
+  <main class="page">
+    <header>
+      <h1 class="page__title">Projects</h1>
+      <p class="page__dek">Learning-system, agentic-engineering, and personal-tooling projects.</p>
+    </header>
+    {
+      groups.map((g) => {
+        const items = projects.filter((p) => p.status === g.key);
+        if (!items.length) return null;
+        return (
+          <section class="band">
+            <h2 class="band__title">
+              {g.label}
+              {g.key === 'past' && (
+                <a class="band__more" href="/archive/">
+                  Full archive
+                </a>
+              )}
+            </h2>
+            <ul class="board" data-board>
+              {items.map((p) => (
+                <li class="board__item" data-board-item>
+                  <a class="board__card" href={p.href}>
+                    {p.image && <img src={`/${p.image}`} alt="" loading="lazy" />}
+                    <h3 class="board__title">{p.title}</h3>
+                    {p.blurb && <p class="board__note">{p.blurb}</p>}
+                    {p.stack.length > 0 && <p class="board__note">{p.stack.join(' / ')}</p>}
                   </a>
-                ))}
-              </div>
-            </section>
-          );
-        })}
-      </div>
-    </div>
-  </main>
-</Base>
-
-<style>
-  .wrap {
-    max-width: var(--kb-content);
-    margin: 0 auto;
-    padding: 34px 28px 52px;
-  }
-  .projects-main {
-    min-width: 0;
-  }
-  .head {
-    padding: 0 0 12px;
-  }
-  .head h1 {
-    font-family: var(--ming);
-    font-size: var(--kb-text-h1-shell);
-    font-weight: 500;
-    margin: 0;
-  }
-  .head p {
-    margin: 10px 0 0;
-    color: var(--mut);
-    font-size: var(--kb-text-base);
-    max-width: 40rem;
-  }
-  @media (max-width: 640px) {
-    .wrap {
-      padding: 28px 16px 40px;
+                </li>
+              ))}
+            </ul>
+          </section>
+        );
+      })
     }
-  }
-</style>
+  </main>
+</Shell>
+
+<script>
+  import { packBoard } from '../islands/board';
+  document.querySelectorAll<HTMLElement>('[data-board]').forEach((list) => packBoard(list));
+</script>

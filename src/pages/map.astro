@@ -1,12 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
-import Base from '../layouts/Base.astro';
+import Shell from '../layouts/Shell.astro';
 import Constellation from '../components/Constellation.astro';
 import { resolveDomain } from '../lib/domain';
 import { deriveFirstImage, deriveSourceLine, deriveTitle } from '../lib/note';
 import { slugToUrl } from '../lib/slug';
 import { DOMAINS, DOMAIN_LABELS, type Domain } from '../lib/types';
-import '../styles/map-page.css';
 
 const notes = await getCollection('notes');
 const rows = notes
@@ -28,39 +27,39 @@ const rows = notes
 const rowsJson = JSON.stringify(rows);
 ---
 
-<Base title="Map" description="The vault graph and every wiki page." active="map">
-  <main class="map-page">
-    <div class="wrap map-graph">
-      <header class="map-head">
-        <h1 class="map-head__title">Map</h1>
-      </header>
-      <Constellation mode="full" domainLabels height="clamp(400px, 58vh, 680px)" />
-    </div>
+<Shell title="Map" description="The vault graph and every wiki page." active="map">
+  <main class="page">
+    <header>
+      <h1 class="page__title" data-map-title>Map</h1>
+    </header>
+    <Constellation mode="full" domainLabels height="clamp(400px, 58vh, 680px)" />
 
-    <section class="map-list-wrap wrap" data-map-root>
-      <div class="map-list-tools">
+    <section data-map-root>
+      <div class="filters">
         <input
           type="search"
-          class="map-list-search"
+          class="filters__input"
           data-map-search
-          placeholder="Filter pages…"
+          placeholder="Filter pages"
           aria-label="Filter pages"
           autocomplete="off"
         />
-        <div class="map-list-chips" role="group" aria-label="Filter by domain">
-          {DOMAINS.map((d) => (
-            <button type="button" class="map-list-chip" data-map-domain={d} style={`--chip:${`var(--d-${d})`}`}>
-              {DOMAIN_LABELS[d]}
-            </button>
-          ))}
+        <div class="filters__group" role="group" aria-label="Filter by domain">
+          {
+            DOMAINS.map((d) => (
+              <button type="button" class="chip" data-map-domain={d}>
+                {DOMAIN_LABELS[d]}
+              </button>
+            ))
+          }
         </div>
       </div>
-      <p class="map-list-empty" data-map-empty hidden>No pages match.</p>
-      <ul class="map-list" data-map-list></ul>
+      <p class="word__empty" data-map-empty hidden>No pages match.</p>
+      <ul class="word" data-map-list></ul>
       <script type="application/json" id="map-rows-data" set:html={rowsJson} />
     </section>
   </main>
-</Base>
+</Shell>
 
 <script>
   import { initMapList } from '../islands/map-list';
@@ -72,25 +71,3 @@ const rowsJson = JSON.stringify(rows);
     initMapList(root as HTMLElement, rows);
   }
 </script>
-
-<style>
-  .wrap {
-    max-width: var(--kb-content);
-    margin: 0 auto;
-    padding: 0 28px;
-  }
-  .map-graph {
-    padding-top: 28px;
-  }
-  .map-head {
-    margin: 0 0 12px;
-  }
-  .map-head__title {
-    font-family: var(--ming);
-    font-weight: 500;
-    font-size: var(--kb-text-h1-shell);
-    line-height: var(--kb-lh-tight);
-    margin: 0;
-    color: var(--ink);
-  }
-</style>

@@ -1,0 +1,68 @@
+---
+import Shell from './Shell.astro';
+import Backlinks from '../components/Backlinks.astro';
+import type { Domain, Backlink } from '../lib/types';
+
+interface Heading {
+  depth: number;
+  text: string;
+  slug: string;
+}
+
+interface Props {
+  title: string;
+  type?: string;
+  description?: string;
+  updated?: string;
+  domain: Domain | string;
+  slug: string;
+  headings?: Heading[];
+  backlinks: Backlink[];
+  local?: unknown;
+  active?: string;
+}
+
+const { title, type, description, updated, domain, slug, backlinks, active } = Astro.props;
+
+const LANDING: Record<string, string> = {
+  journal: '/journal/',
+  personal: '/personal/',
+  projects: '/projects/',
+  notes: '/map/',
+};
+const slugParts = slug.replace(/^\/+/, '').replace(/\/+$/, '').split('/').filter(Boolean);
+const crumbs = slugParts.map((part, i) => {
+  const label = part.replace(/--and--/g, ' & ').replace(/-+/g, ' ');
+  if (i === slugParts.length - 1) return { label, href: null as string | null };
+  if (i === 0 && LANDING[part]) return { label, href: LANDING[part] };
+  return { label, href: `/folder/${slugParts.slice(0, i + 1).join('/')}/` };
+});
+const breadcrumb = crumbs.map((c) => c.label).join(' / ') || title;
+const meta = [type, updated ? `Updated ${updated}` : ''].filter(Boolean).join(' · ');
+---
+
+<Shell title={title} description={description || (updated ? `Updated ${updated}` : undefined)} active={active}>
+  <main class="reading">
+    <article data-pagefind-body data-pagefind-meta={`domain:${domain}`} data-pagefind-meta={`title:${title}`}>
+      <p class="trail" data-pagefind-ignore aria-label={breadcrumb}>
+        {
+          crumbs.length
+            ? crumbs.map((c, i) => (
+                <Fragment>
+                  {i > 0 && <span> / </span>}
+                  {c.href ? <a href={c.href}>{c.label}</a> : <span>{c.label}</span>}
+                </Fragment>
+              ))
+            : title
+        }
+      </p>
+      <h1 class="reading__title" data-pagefind-ignore>{title}</h1>
+      {meta && <p class="reading__meta" data-pagefind-ignore>{meta}</p>}
+      {description && <p class="reading__dek" data-pagefind-ignore>{description}</p>}
+      <div class="copy copy--note">
+        <slot />
+      </div>
+      <Backlinks items={backlinks} />
+    </article>
+  </main>
+</Shell>

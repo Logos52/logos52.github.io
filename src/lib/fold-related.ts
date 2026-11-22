@@ -44,7 +44,7 @@ function fold(node: HastNode) {
           const more: HastNode = {
             type: 'element',
             tagName: 'details',
-            properties: { className: ['kb-related-more'] },
+            properties: { className: ['related-more'] },
             children: [
               {
                 type: 'element',

@@ -6,16 +6,16 @@ Source: `src/pages/map.astro` (`active="map"`), `src/islands/map-list.ts`, `src/
 
 ## Sub-features
 
-- `map-title` is `h1.map-head__title` with text `Map`.
+- `map-title` is `h1[data-map-title]` with text `Map`.
 - `map-graph` is `[data-constellation-root][data-mode="full"][data-domain-labels]` with a `canvas`. The island fetches `/graph.json` (the default `data-src`).
-- `map-list` is `input[data-map-search]` (`aria-label="Filter pages"`), `button.map-list-chip[data-map-domain]` for `ai`, `learning`, `self`, `world`, and `craft`, and `a.map-row__link` rows.
-- `map-domain-page` is `/domains/{d}/`, opened from a home door, not from a heading on this page. The `h1` is `DOMAIN_LABELS[d]` (`Learning faster` for `learning`). A `ul.moc` lists notes. Chrome `Map` is `.on`. `a.head__kind` returns to `/map/`.
+- `map-list` is `input[data-map-search]` (`aria-label="Filter pages"`), `button.chip[data-map-domain]` for `ai`, `learning`, `self`, `world`, and `craft`, and `a.word__link` rows.
+- `map-domain-page` is `/domains/{d}/`, opened from a home door, not from a heading on this page. The `h1` is `DOMAIN_LABELS[d]` (`Learning faster` for `learning`). A `ul.word` lists notes. Open the menu; Map is `aria-current="page"`. The trail link `Map of Content` returns to `/map/`.
 
 `/graph/` redirects to `/map/`. It is not a second graph page.
 
 ## How to get to it (user POV)
 
-Click `Map` in Chrome, or follow `a.head__kind` (`Map of Content`) on a domain page. Home doors go to domain pages, not to Map.
+Open the menu and click `Map`, or follow the trail link `Map of Content` on a domain page. Home doors go to domain pages, not to Map.
 
 ## Driving it with computerUse
 
@@ -25,10 +25,10 @@ Preconditions:
 - Chrome `Map` is visible.
 
 - **Open the map.** From `/`, click the nav link named `Map`.
-- **Read the map.** URL is `/map/` or `/map`. `h1.map-head__title` is `Map`. Chrome `Map` is `.on`. `[data-constellation-root][data-mode="full"]` contains a `canvas`. `input[aria-label="Filter pages"]` is present. At least one `button[data-map-domain]` is present.
-- **Open a domain from Home.** Click the brand (or the nav link named `Home`). Click the door whose `.door__label` is `Learning faster`.
+- **Read the map.** URL is `/map/` or `/map`. `h1[data-map-title]` is `Map`. Open the menu; Map is `aria-current="page"`. `[data-constellation-root][data-mode="full"]` contains a `canvas`. `input[aria-label="Filter pages"]` is present. At least one `button[data-map-domain]` is present.
+- **Open a domain from Home.** Click the wordmark. Click the link whose `.word__title` is `Learning faster`.
 - **Resulting state.** URL is `/domains/learning/`. The `h1` text is `Learning faster`. A `.moc` list is present. Chrome `Map` is `.on`.
-- **Back.** Click `a.head__kind` (`Map of Content`). URL is `/map/` and the heading is `Map` again.
+- **Back.** Click the trail link `Map of Content`. URL is `/map/` and the heading is `Map` again.
 - **Proof.** Screenshot `Map` with the filter, and the Learning faster heading after the door click.
 
 ## Gotchas
