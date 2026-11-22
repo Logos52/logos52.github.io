@@ -1,45 +1,44 @@
 # Wiki page
 
-A published note is one `[...slug].astro` route wrapped in `Note.astro`. A wikilink or a Start here door becomes another real page.
+A published note is one `[...slug].astro` route wrapped in `Note.astro`. The home spotlight, a map row, or a wikilink opens one.
 
-Source: `src/pages/[...slug].astro`, `src/layouts/Note.astro`, `src/components/Backlinks.astro`, `src/components/Toc.astro`, `src/lib/note.ts` (`readerTypeLabel`), `src/lib/fold-related.ts`.
+Source: `src/pages/[...slug].astro`, `src/layouts/Note.astro`, `src/components/Backlinks.astro`, `src/lib/note.ts` (`readerTypeLabel`), `src/lib/fold-related.ts`.
 
 ## Sub-features
 
 - `note-title` shows `h1.kb-note-title`. `.kb-note-dek` appears when frontmatter `description` or `blurb` is non-empty.
-- `note-pill` shows `.kb-type-tag` from `readerTypeLabel`. `synthesis` → `Essay`, `hub` → `Hub`, `condensed` → `Condensed`, `dimension` → `Dimension`, `concept` → `Concept`. An unknown type omits the pill. The pill sits in `.kb-note-meta`, which uppercases the paint. The markup has a space on each side of the label. Match the trimmed text (`Concept` on the Learn note below). `updated` stays in `.kb-note-meta` as `updated YYYY-MM-DD`.
-- `note-crumbs` uses `.kb-crumb`. The last segment is plain text. A first segment of `journal`, `personal`, `projects`, or `notes` links to that landing. Every other crumb, including `wiki`, links to `/folder/{path}/`.
+- `note-pill` shows `.kb-type-tag` from `readerTypeLabel`. `concept` → `Concept`, `hub` → `Hub`, `reference` → `Reference`, `synthesis` → `Essay`. An unknown type omits the pill. `.kb-note-meta` uppercases the paint. Match the trimmed text.
+- `note-crumbs` uses `.kb-crumb`. The last segment is plain text. A first segment of `journal`, `personal`, or `projects` links to that landing. `notes` links to `/map/`. Every other crumb, including `wiki`, links to `/folder/{path}/`.
 - `note-prose` resolves links as `a` and unresolved targets as `span.missing[title^="unresolved link"]`.
-- `note-related` folds a `Related` or `Related pages` list after five items into `details.kb-related-more`. The summary is `{N} more related pages`. The extra links stay in the HTML.
-- `note-rail` is `aside.kb-note-aside`: local graph `[data-constellation-root][data-mode="local"]` and `nav.kb-toc[aria-label="Contents"]` with h2 anchors only.
-- `note-linked` is `section.kb-backlinks[aria-label="Linked from"]` after `.kb-prose`, inside the article. The heading text is `Linked from`. Five `.kb-backlink` rows, then `details.kb-backlinks-more` (`{N} more`) when there are more. The section is not in the rail.
+- `note-related` folds a `Related` or `Related pages` list after five items into `details.kb-related-more`.
+- `note-linked` is `section.kb-backlinks[aria-label="Linked from"]` after `.kb-prose`, inside the article. The heading text is `Linked from`. The section is omitted when nothing links here.
+
+There is no rail. `Note.astro` does not render `aside.kb-note-aside`, `nav.kb-toc`, or a local constellation.
 
 ## How to get to it (user POV)
 
-From Home, use a Start here door (Learn or Decode), a Top of mind link, a hub-list row, or a Project Update title. From Notes, use a Condensed or Hubs row. From a note, click a `.kb-prose a`.
+From Home, use `a.spotlight__link` (`Open Builders' Logs 2026`). From Map, use a `.map-row__title`. From a note, click a `.kb-prose a`.
 
-A stable first note is the Learn door: `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/`. The door title is `Does a Study Technique Work?`. The note `h1` is `Are You Learning, or Just Using Techniques`. Assert the note title. After the 2026-11-10 rewrite the note's `type` is `concept`, so the pill is `Concept`. The opening paragraphs have no wikilink. Related pages lists three links, under the fold of five.
+A stable first note is the spotlight: `/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs-2026/`. The `h1` is `Builders' Logs 2026`. Frontmatter `type` is `reference`, so the pill is `Reference`. The dek is present. A prose link `Use Cases` goes to `/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs/Use-Cases/`.
 
 ## Driving it with computerUse
 
 Preconditions:
 
 - Doctor passed.
-- The Learn door is on `/` (intent `Learn`).
+- Home is loaded.
 
-- **Open the note.** From `/`, click the door whose `.door__intent` is `Learn`.
-- **Read the note.** Wait for `article[data-pagefind-body]` and `h1.kb-note-title` `Are You Learning, or Just Using Techniques`. The type pill's trimmed text is `Concept` (the paint is uppercase). `.kb-note-dek` is present. The first crumb `wiki` has href `/folder/wiki/`. `details.kb-related-more` is absent. The Related pages list has three `a` elements. Their hrefs are `/wiki/Learning-Craft/Don't-Outsource-the-Learning/`, `/wiki/Domains/AI--and--Tooling/The-Right-vs-Wrong-Way-to-Work-With-AI/`, and `/wiki/Syntheses/The-30-Day-Plan/`.
-- **Linked from.** `section.kb-backlinks[aria-label="Linked from"]` is inside `article`, after `.kb-prose`. Its `h2` text is `Linked from`. The aside does not contain that section. `nav.kb-toc[aria-label="Contents"]` is in the aside.
-- **Follow a related link.** In `.kb-prose`, click the `a` whose href is `/wiki/Learning-Craft/Don't-Outsource-the-Learning/`. Match the href. The visible label is Don’t Outsource the Learning, and that apostrophe is U+2019 in the DOM. The slug in the href keeps the straight apostrophe.
-- **Resulting state.** The URL is `/wiki/Learning-Craft/Don't-Outsource-the-Learning/`. `h1.kb-note-title` is `Don't Outsource the Learning`. That h1 comes from frontmatter, so its apostrophe is the straight quote U+0027. The type pill's trimmed text is `Concept` (the paint is uppercase).
+- **Open the note.** From `/`, click `a.spotlight__link` (`Open Builders' Logs 2026`).
+- **Read the note.** Wait for `article[data-pagefind-body]` and `h1.kb-note-title` `Builders' Logs 2026`. The type pill's trimmed text is `Reference`. `.kb-note-dek` is present. The first crumb `wiki` has href `/folder/wiki/`. `aside.kb-note-aside` and `nav.kb-toc` are absent.
+- **Follow a prose link.** In `.kb-prose`, click the `a` whose visible text is `Use Cases` (the sentence that starts with that link).
+- **Resulting state.** The URL is `/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs/Use-Cases/`. `h1.kb-note-title` is `Use Cases`.
 
 ## Gotchas
 
-- `index.md` at the vault root is home. `notes/index` is the Notes Astro page. Neither is a `[...slug]` note.
+- `index.md` at the vault root is home. `notes/index` is not a visitor page. Neither is a `[...slug]` note.
 - The leading markdown `h1` inside `.kb-prose` is hidden so the layout title is the only visible title.
 - Wikilink resolution is shortest-basename. A short `[[Title]]` can land in a different folder than the author meant. Record the URL you got.
 - `span.missing` is a broken vault link. Do not click it, and do not patch the note to make the skill pass.
-- The first crumb of a wiki note does not return to `/notes/`. Chrome `Notes` is the way back to the index. A folder crumb lands on `/folder/…/`, a listing (`h1` is the folder name, `active="notes"` so Notes is `.on`). The wiki folder's up-link goes to `/notes/`.
-- The constellation wrapper in the rail is `aria-hidden`. Use the TOC and Linked from names, not canvas pixels.
-- Backlinks used to sit in the rail under `aria-label="Backlinks"`. That label is gone. The section is `Linked from`, after the prose. The section is omitted when nothing links here.
-- The Learn note used to be `type: synthesis` (pill `Essay`) and its opening linked to Self-Regulation. That hop is gone. `synthesis` still paints `Essay` on notes that still use that type. A Related list of five or fewer does not get `details.kb-related-more`.
+- The first crumb of a wiki note does not return to a Notes index. Chrome `Map` is the way back to the list. A folder crumb lands on `/folder/…/`.
+- The Learn door note `wiki/Syntheses/Are You Learning, or Just Using Techniques.md` is not in this tree. Do not open `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/`.
+- Backlinks are `Linked from`, after the prose. The section is omitted when nothing links here.

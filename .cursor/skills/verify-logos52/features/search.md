@@ -2,7 +2,7 @@
 
 Inline Pagefind in the Chrome bar. A visitor types a note title and opens a hit. There is no modal.
 
-Source: `src/components/Chrome.astro`, `src/islands/search-inline.ts`. `scripts/ensure-pagefind.mjs` runs from `predev`.
+Source: `src/components/Chrome.astro`, `src/islands/search-inline.ts`, `src/lib/types.ts` (`DOMAIN_LABELS`). `scripts/ensure-pagefind.mjs` runs from `predev`.
 
 ## Sub-features
 
@@ -27,9 +27,9 @@ Preconditions:
 - **Focus the field.** On `/`, click `input[aria-label="Search notes"]`.
 - **Query.** Type `How Chinese Characters Work`.
 - **Wait for rows.** `[data-search-results]` is not `hidden`. A `.kb-ac-row` or `.kb-ac-empty` is present. Wait for the row, not a fixed sleep (the input debounces about 110ms, and the first query may still be loading Pagefind).
-- **Read the first row.** `.kb-ac-title` is `How Chinese Characters Work`. `.kb-ac-domain` text is `Language`. The chip is uppercased in paint (`LANGUAGE`). Match the DOM text.
+- **Read the first row.** `.kb-ac-title` is `How Chinese Characters Work`. `.kb-ac-domain` text is `Making sense of the world` (`wiki/Language/` resolves to domain `world`). The chip is uppercased in paint. Match the DOM text.
 - **Open it.** Click that row (or press Enter).
-- **Resulting state.** URL is `/wiki/Language/Chinese/How-Chinese-Characters-Work/`. `h1.kb-note-title` is `How Chinese Characters Work`. The type pill's trimmed text is `Hub` (the paint is uppercase).
+- **Resulting state.** URL is `/wiki/Language/Chinese/How-Chinese-Characters-Work/`. `h1.kb-note-title` is `How Chinese Characters Work`. The type pill's trimmed text is `Hub`.
 
 Do not stub `/pagefind/pagefind.js`. When the dropdown stays on `Search index loading…`, the index was not built. Record that and stop.
 
@@ -38,8 +38,8 @@ Do not stub `/pagefind/pagefind.js`. When the dropdown stays on `Search index lo
 - Pagefind is emitted at `dist/pagefind/` on `astro build`. `predev` runs `scripts/ensure-pagefind.mjs`, which builds the whole site when that file is missing. A fresh checkout's first `npm run dev` is slow. Search before that build finishes shows the loading line.
 - Vite must not bundle `/pagefind/pagefind.js` (`astro.config.ts` `external-pagefind`). A transform-time import error is a product or setup bug.
 - Results cap at eight. The keyboard highlight class is `.kb-ac-row.on`.
-- `.kb-ac-domain` is `DOMAIN_LABELS` (`src/lib/types.ts`): `Learning`, `Agentic`, `Language`, `Focus`, `Mind`, `Generativity`. `src/layouts/Base.astro` uppercases the paint, so the chip reads `LANGUAGE`. Match the DOM text `Language` and the note `h1`, not a hyphen count in the address bar.
+- `.kb-ac-domain` is the five labels in `DOMAIN_LABELS` (`src/lib/types.ts`): `Working well with AI`, `Learning faster`, `Managing yourself`, `Making sense of the world`, `Money and craft`. Legacy keys `agentic`, `language`, `focus`, `mind`, and `gen` fold into those five. `src/layouts/Base.astro` uppercases the paint. Match the DOM text, not the old chip `Language`.
 - The excerpt is Pagefind HTML. `excerptHtml` keeps `<mark>` and `dropTitlePrefix` strips a leading restatement of the title. Visible `<mark>` characters in the excerpt are a product bug. Record them.
-- `Vibe Coding` is not a search target. That page was removed. Do not treat a miss on that title as a search failure.
+- The dropdown is narrow. The title paint and the domain chip both ellipsize (`How Chinese Characters W…`, `MAKING SEN…`). Read the DOM text, then confirm with the note `h1` after the click. The chip's `max-width` is 84px.
 - At ≤720px the field is `display: none` until the magnifier opens it. A laptop pass that clicks the magnifier is clicking a hidden button.
 - Drive search on http://127.0.0.1:4321. Leave https://logos52.github.io alone.

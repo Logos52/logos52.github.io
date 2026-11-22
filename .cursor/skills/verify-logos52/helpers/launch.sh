@@ -60,7 +60,7 @@ for ((i = 1; i <= 360; i++)); do
     exit 1
   fi
   code="$(http_ok / || true)"
-  if [[ "${code}" == "200" ]] && page_has_marker / 'hero__title'; then
+  if [[ "${code}" == "200" ]] && page_has_marker / 'hero__objective'; then
     ready=1
     break
   fi
@@ -68,7 +68,7 @@ for ((i = 1; i <= 360; i++)); do
 done
 
 if [[ "${ready}" != "1" ]]; then
-  echo "launch: timed out waiting for ${BASE_URL}/ to serve .hero__title" >&2
+  echo "launch: timed out waiting for ${BASE_URL}/ to serve .hero__objective" >&2
   tail -n 80 "${LOG_FILE}" >&2 || true
   echo "launch: leaving the process up so you can inspect; run helpers/cleanup.sh" >&2
   exit 1
