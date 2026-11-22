@@ -84,9 +84,9 @@ Chrome has no Notes item and no Personal item. `/notes/` and `/graph/` are 301 r
 Home (`src/pages/index.astro`, `active="home"`, so Home is `.on`):
 
 - Lede: `p.lede[data-home-objective]`. There is no `h1` on `/`. The document title is `Logos52`. `kb-astro/site-data/home.json` is not read by this page.
-- Spotlight: `a.spotlight__link` (`Open Builders' Logs 2026`) → `/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs-2026/`.
-- Where to start: `section.doors`, heading `Where to start`. Five `a.door` links. The label is `.door__label` (`Working well with AI`, `Learning faster`, `Managing yourself`, `Making sense of the world`, `Money and craft`). Href is `/domains/{ai,learning,self,world,craft}/`.
-- Top of mind: `ul.topmind__lines` with exactly three `li`. The build throws when the count is not 3.
+- Spotlight: the `a.word__link` whose text is `Open Builders' Logs 2026` → `/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs-2026/`.
+- Where to start: heading `Where to start` (`#start-head`). Five `a.word__link` doors. The label is the `.word__title` (`Working well with AI`, `Learning faster`, `Managing yourself`, `Making sense of the world`, `Money and craft`). Href is `/domains/{ai,learning,self,world,craft}/`.
+- Top of mind: `#mind-head` and the following `ul.lines` with exactly three `li`. The build throws when the count is not 3.
 - Home does not mount a constellation, domain chips, hub columns, or project updates.
 
 Wiki note (`src/pages/[...slug].astro` → `src/layouts/Article.astro`):
@@ -95,13 +95,14 @@ Wiki note (`src/pages/[...slug].astro` → `src/layouts/Article.astro`):
 - `h1.reading__title`
 - `.reading__dek` when the note has a description
 - Type sits in `.reading__meta` as `readerTypeLabel` (`Concept`, `Essay`, `Hub`, `Reference`, …)
-- Breadcrumb `.crumb`: last segment is text. `journal` / `personal` / `projects` first segments go to those landings. A `notes` first segment goes to `/map/`. Other crumbs, including `wiki`, go to `/folder/…/`
-- Body links `.prose a`. Unresolved targets are `span.missing`
+- Breadcrumb `.trail`: last segment is text. `journal` / `personal` / `projects` first segments go to those landings. A `notes` first segment goes to `/map/`. Other crumbs, including `wiki`, go to `/folder/…/`
+- Body links `.copy a`. Unresolved targets are `span.missing`
 - A `Related` or `Related pages` list shows five items, then `details.related-more`
 - No rail. `Article.astro` does not render an aside, a TOC, or a local constellation.
+- The article body is `.copy.copy--note`. The markdown `h1` inside it is hidden.
 - Backlinks sit after the prose, inside the article: `section.linked[aria-label="Linked from"]`, heading text `Linked from`. Five `.linked__row` rows, then `details.linked__more`.
 
-Map (`/map/`): `h1[data-map-title]` is `Map`. The phrase `The vault` survives only in the page description (`The vault graph and every wiki page.`), not as the heading. Full graph `[data-constellation-root][data-mode="full"][data-domain-labels]`. Below it, `input[data-map-search]` (`aria-label="Filter pages"`) and `button[data-map-domain]` filter `.word__link` rows (`.word__title`). Those chips filter the list. They are not links to `/domains/…/`. Domain pages are opened from the home doors. A domain `h1` is the label in `DOMAIN_LABELS` (`Learning faster` for `learning`). Domain pages set `active="map"`, so Map is current in the menu. `a.head__kind` (`Map of Content`) returns to `/map/`.
+Map (`/map/`): `h1[data-map-title]` is `Map`. The phrase `The vault` survives only in the page description (`The vault graph and every wiki page.`), not as the heading. Full graph `[data-constellation-root][data-mode="full"][data-domain-labels]`. Below it, `input[data-map-search]` (`aria-label="Filter pages"`) and `button[data-map-domain]` filter `.word__link` rows (`.word__title`). Those chips filter the list. They are not links to `/domains/…/`. Domain pages are opened from the home doors. A domain `h1` is the label in `DOMAIN_LABELS` (`Learning faster` for `learning`). Domain pages set `active="map"`, so Map is current in the menu. the trail link `Map of Content` returns to `/map/`.
 
 `/graph/` redirects to `/map/`. It has no `h1`.
 

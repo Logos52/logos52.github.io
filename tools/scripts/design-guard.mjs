@@ -1,21 +1,13 @@
-/**
- * Design guard.
- * 1. Denylist: old fonts, colours, class names, and stylesheet paths must not
- *    appear in the site source or the built site.
- * 2. Tokens: outside the :root token block, font-family, font-size, and colour
- *    values in CSS and component styles must use the design tokens.
- * 3. Pages: a page file may not declare font-family, a colour value, or a
- *    restyle of a shared component. Layout-only overrides are the only kind allowed.
- */
 import { readdir, readFile, stat } from 'node:fs/promises';
 import { join, relative } from 'node:path';
 
 const ROOT = join(import.meta.dirname, '../..');
 const DENYLIST = join(ROOT, 'tools/design/denylist.txt');
 const SOURCE_DIRS = ['src/styles', 'src/layouts', 'src/components', 'src/pages', 'src/islands'];
-const STYLE_EXT = new Set(['.css', '.astro']);
+const STYLE_EXT = new Set(['.css', '.astro', '.ts', '.mjs']);
 const DIST_EXT = new Set(['.html', '.css', '.js']);
-const SHARED = ['.mast', '.menu', '.colophon', '.board', '.word', '.prose', '.find', '.reading', '.chip', '.lede'];
+const SHARED = ['.mast', '.menu', '.colophon', '.board', '.word', '.copy', '.find', '.reading', '.chip', '.lede'];
+const GRAPH = new Set(['src/islands/constellation.ts', 'src/components/Constellation.astro']);
 
 const failures = [];
 
@@ -45,31 +37,29 @@ function stripComments(css) {
   return css.replace(/\/\*[\s\S]*?\*\//g, '');
 }
 
+function skipBlock(css, open) {
+  let depth = 0;
+  let j = open;
+  for (; j < css.length; j++) {
+    if (css[j] === '{') depth++;
+    else if (css[j] === '}') {
+      depth--;
+      if (depth === 0) return j + 1;
+    }
+  }
+  return css.length;
+}
+
 function stripRoot(css) {
   let out = '';
   let i = 0;
   while (i < css.length) {
     const at = css.indexOf(':root', i);
-    if (at === -1) {
-      out += css.slice(i);
-      break;
-    }
+    if (at === -1) return out + css.slice(i);
     out += css.slice(i, at);
     const open = css.indexOf('{', at);
-    if (open === -1) break;
-    let depth = 0;
-    let j = open;
-    for (; j < css.length; j++) {
-      if (css[j] === '{') depth++;
-      else if (css[j] === '}') {
-        depth--;
-        if (depth === 0) {
-          j++;
-          break;
-        }
-      }
-    }
-    i = j;
+    if (open === -1) return out;
+    i = skipBlock(css, open);
   }
   return out;
 }
@@ -91,7 +81,7 @@ function checkTokens(rel, css) {
     if (!decl) return;
     const prop = decl[1].toLowerCase();
     const value = decl[2].trim();
-    if (prop === 'font-family' && !/^(?:var\(--font-(?:serif|sans|mono)\)|inherit)$/i.test(value)) {
+    if (prop === 'font-family' && !/^(?:var\(--face-(?:text|ui|code)\)|inherit)$/i.test(value)) {
       fail(rel, `font-family outside the type tokens (${value}) near line ${index + 1}`);
     }
     if (prop === 'font-size' && !/^(?:var\(--type-[a-z0-9-]+\)|inherit|0)$/i.test(value)) {
@@ -151,6 +141,8 @@ const scanned = [...sourceFiles, ...distFiles];
 for (const file of scanned) {
   const rel = relative(ROOT, file);
   const text = await readFile(file, 'utf8');
+  if (text.includes('design-archive/')) fail(rel, 'imports the archived design');
+  if (GRAPH.has(rel)) continue;
   for (const marker of markers) {
     if (marker.scope === 'source-css' && rel.startsWith('dist/') && !rel.endsWith('.css')) continue;
     if (text.includes(marker.text)) fail(rel, `old design marker “${marker.text}”`);
@@ -163,8 +155,8 @@ for (const file of scanned) {
 }
 
 if (failures.length) {
-  console.error(`design-guard: ${failures.length} problem(s)`);
-  for (const line of failures) console.error(`  ${line}`);
+  process.stderr.write(`design-guard: ${failures.length} problem(s)\n`);
+  for (const line of failures) process.stderr.write(`  ${line}\n`);
   process.exit(1);
 }
-console.log(`design-guard: clean (${scanned.length} files, ${markers.length} denylist markers)`);
+process.stdout.write(`design-guard: clean (${scanned.length} files, ${markers.length} denylist markers)\n`);

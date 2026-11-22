@@ -1,0 +1,104 @@
+.map-list-wrap {
+  padding: 36px 28px 64px;
+  border-top: 1px solid var(--rule);
+  margin-top: 8px;
+}
+.map-list-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.map-list-search {
+  font-family: var(--sans);
+  font-size: var(--kb-text-base);
+  width: 100%;
+  max-width: 28rem;
+  border: 1px solid var(--rule2);
+  border-radius: 4px;
+  padding: 10px 12px;
+  background: var(--card);
+  color: var(--ink);
+}
+.map-list-search:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.map-list-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.map-list-chip {
+  font-family: var(--sans);
+  font-size: var(--kb-text-sm);
+  color: var(--mut);
+  background: transparent;
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+.map-list-chip.on {
+  color: var(--chip, var(--accent));
+  border-color: var(--chip, var(--accent));
+  background: color-mix(in oklab, var(--chip, var(--accent)) 10%, transparent);
+}
+.map-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.map-list .map-row {
+  border-top: 1px solid var(--rule);
+}
+.map-list .map-row__link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 4px;
+  text-decoration: none;
+  color: inherit;
+}
+.map-list .map-row__link:hover .map-row__title {
+  color: var(--accent);
+}
+.map-list .map-row__thumb {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+.map-list .map-row__text {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.map-list .map-row__title {
+  font-family: var(--ming);
+  font-size: var(--kb-text-base);
+  color: var(--ink);
+}
+.map-list .map-row__source {
+  font-family: var(--sans);
+  font-size: var(--kb-text-sm);
+  color: var(--faint);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.map-list-empty {
+  font-size: var(--kb-text-sm);
+  color: var(--faint);
+  margin: 0 0 12px;
+}
+@media (max-width: 640px) {
+  .map-graph .wrap,
+  .map-list-wrap {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

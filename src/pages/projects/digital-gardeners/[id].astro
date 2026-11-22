@@ -11,7 +11,7 @@ const { person } = Astro.props;
 
 <Shell title={person.name} description={`Notable design features — ${person.name}.`} active="projects">
   <main class="reading">
-    <p class="crumb">
+    <p class="trail">
       <a href="/projects/">Projects</a>
       <span> / </span>
       <a href="/projects/digital-gardeners/">Notable design features</a>
@@ -29,7 +29,7 @@ const { person } = Astro.props;
         ))
       }
     </p>
-    <div class="prose">
+    <div class="copy">
       {
         person.observations.map((o: { url: string; lane: string; who?: string; notableDesignFeatures: string }) => (
           <section>

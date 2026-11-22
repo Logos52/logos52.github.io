@@ -25,3 +25,17 @@ JetBrains Mono	source-css
 LXGW WenKai	source-css
 Noto Serif TC	source-css
 flavors-preview	source-css
+--ming	source-css
+--paper	source-css
+--ink	source-css
+--accent	source-css
+--raised	source-css
+--violet	source-css
+spotlight__link	source-css
+door__label	source-css
+topmind__lines	source-css
+head__kind	source-css
+kb-crumb	source-css
+kb-shell-prose	source-css
+favicon-nodes	source-css
+mark-nodes	source-css

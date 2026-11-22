@@ -28,11 +28,11 @@ const buildersHref = slugToUrl(
   </style>
     <p class="lede" data-home-objective>{objective}</p>
 
-    <section class="band" aria-labelledby="spotlight-head">
-      <h2 id="spotlight-head" class="band__title">Builders' Logs 2026</h2>
+    <section class="band" aria-labelledby="logs-head">
+      <h2 id="logs-head" class="band__title">Builders' Logs 2026</h2>
       <ul class="word">
         <li>
-          <a class="word__link spotlight__link" href={buildersHref}>
+          <a class="word__link" href={buildersHref}>
             <span class="word__title">Open Builders' Logs 2026</span>
             <span class="word__meta">
               Thirteen agent builders in bridge order, with Grok and Anthropic lab sections, dated source
@@ -43,15 +43,15 @@ const buildersHref = slugToUrl(
       </ul>
     </section>
 
-    <section class="band doors" aria-labelledby="doors-head">
-      <h2 id="doors-head" class="band__title">Where to start</h2>
+    <section class="band" aria-labelledby="start-head">
+      <h2 id="start-head" class="band__title">Where to start</h2>
       <ul class="word">
         {
           DOMAINS.map((d: Domain) => (
             <li>
-              <a class="word__link door" href={`/domains/${d}/`}>
-                <span class="word__title door__label">{DOMAIN_LABELS[d]}</span>
-                <span class="word__meta door__stance">{DOMAIN_STANCES[d]}</span>
+              <a class="word__link" href={`/domains/${d}/`}>
+                <span class="word__title">{DOMAIN_LABELS[d]}</span>
+                <span class="word__meta">{DOMAIN_STANCES[d]}</span>
               </a>
             </li>
           ))
@@ -59,9 +59,9 @@ const buildersHref = slugToUrl(
       </ul>
     </section>
 
-    <section class="band topmind" aria-labelledby="topmind-head">
-      <h2 id="topmind-head" class="band__title">Top of mind</h2>
-      <ul class="lines topmind__lines">
+    <section class="band" aria-labelledby="mind-head">
+      <h2 id="mind-head" class="band__title">Top of mind</h2>
+      <ul class="lines">
         {topOfMind.map((line) => <li>{line}</li>)}
       </ul>
     </section>

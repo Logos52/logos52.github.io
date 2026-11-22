@@ -25,7 +25,7 @@ const pages = (await getCollection('notes'))
 <Shell title={label} description={`Every ${label} note.`} active="map">
   <main class="page">
     <header>
-      <p class="crumb"><a class="head__kind" href="/map/">Map of Content</a></p>
+      <p class="trail"><a href="/map/">Map of Content</a></p>
       <h1 class="page__title">{label}</h1>
       <p class="page__dek">{pages.length} notes</p>
     </header>

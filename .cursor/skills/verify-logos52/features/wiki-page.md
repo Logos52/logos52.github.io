@@ -17,7 +17,7 @@ There is no rail. `Note.astro` does not render `aside.kb-note-aside`, `nav.kb-to
 
 ## How to get to it (user POV)
 
-From Home, use `a.spotlight__link` (`Open Builders' Logs 2026`). From Map, use a `.map-row__title`. From a note, click a `.kb-prose a`.
+From Home, use the `a.word__link` whose text is `Open Builders' Logs 2026`. From Map, use a `.word__title`. From a note, click a `.copy a`.
 
 A stable first note is the spotlight: `/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs-2026/`. The `h1` is `Builders' Logs 2026`. Frontmatter `type` is `reference`, so the pill is `Reference`. The dek is present. A prose link `Use Cases` goes to `/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs/Use-Cases/`.
 
@@ -28,7 +28,7 @@ Preconditions:
 - Doctor passed.
 - Home is loaded.
 
-- **Open the note.** From `/`, click `a.spotlight__link` (`Open Builders' Logs 2026`).
+- **Open the note.** From `/`, click the link whose text is `Open Builders' Logs 2026`.
 - **Read the note.** Wait for `article[data-pagefind-body]` and `h1.reading__title` `Builders' Logs 2026`. The type pill's trimmed text is `Reference`. `.kb-note-dek` is present. The first crumb `wiki` has href `/folder/wiki/`. `aside.kb-note-aside` and `nav.kb-toc` are absent.
 - **Follow a prose link.** In `.kb-prose`, click the `a` whose visible text is `Use Cases` (the sentence that starts with that link).
 - **Resulting state.** The URL is `/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs/Use-Cases/`. `h1.reading__title` is `Use Cases`.

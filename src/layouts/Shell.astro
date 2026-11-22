@@ -1,7 +1,4 @@
 ---
-/**
- * Shell.astro — the only page layout. Chrome and type come from site.css.
- */
 import '../styles/site.css';
 import Mast from '../components/Mast.astro';
 import Colophon from '../components/Colophon.astro';
@@ -19,7 +16,7 @@ const { title, description, active } = Astro.props;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="/favicon-nodes.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
   </head>
