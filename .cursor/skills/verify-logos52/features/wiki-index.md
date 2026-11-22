@@ -1,40 +1,38 @@
 # Wiki index
 
-The Notes page is the hand-curated front door: Condensed doctrine plus Hubs. Visitors reach it from Chrome.
+The Notes landing is a redirect. The wiki list on Map is the index a visitor browses.
 
-Source: `src/pages/notes.astro` (`active="notes"`), `CONDENSED_ENTRIES` and `HUB_ENTRIES` in `src/lib/icons.ts`. `[...slug].astro` skips `notes/index` because this page owns `/notes/`.
+Source: `src/pages/notes.astro` (redirect to `/map/`), `src/pages/map.astro`, `src/islands/map-list.ts`. Chrome has no Notes item (`src/components/Chrome.astro`).
 
 ## Sub-features
 
-- `notes-lede` points at search and the Map (`.notes-lede`, link to `/map/`).
-- `notes-graph` is a full constellation (`[data-constellation-root][data-mode="full"]`).
-- `notes-condensed` is the `.entry-list` under `h2.notes-head` `Condensed`.
-- `notes-hubs` is the list under `h2.notes-head` `Hubs`.
-- `notes-open` follows one row to a note page.
+- `notes-redirect`: `GET /notes/` is 301, `location: /map/`.
+- `notes-list`: `ul[data-map-list]` of `a.map-row__link` / `.map-row__title`, filtered by `input[data-map-search]`.
+- `notes-open`: one row opens a note.
 
 ## How to get to it (user POV)
 
-Click `Notes` in the sticky Chrome nav, or open http://127.0.0.1:4321/notes/. The brand lockup goes home. The Map link in the lede goes to `/map/`.
+Click `Map` in Chrome, or open http://127.0.0.1:4321/notes/ and follow the redirect. The brand lockup goes home.
 
-The vault file `notes/index.md` is the Obsidian catalog. The published UI is the Astro page at `/notes/`.
+`notes/index.md` is the Obsidian catalog. It is not this page. `CONDENSED_ENTRIES` and `HUB_ENTRIES` in `src/lib/icons.ts` are not rendered by any page.
 
 ## Driving it with computerUse
 
 Preconditions:
 
 - Doctor passed.
-- Chrome is visible at laptop width, so the `Notes` link is on the bar (at ≤720px, open the menu first).
+- Chrome is visible at laptop width.
 
-- **Open the index.** From `/`, click the nav link named `Notes`.
-- **Resulting state.** URL is `/notes` or `/notes/`. `main.notes-page` is present. Chrome `Notes` has class `on`. Headings `Condensed` and `Hubs` are present. At least one `.entry-list a` is present.
-- **Open a row.** Click the `.entry-list__title` whose text is `Learning, Condensed`.
-- **Land on the note.** `article[data-pagefind-body]` is present. `h1.kb-note-title` is `Learning, Condensed`. `.kb-note-dek` is present. The type pill's trimmed text is `Condensed` (the paint is uppercase).
-- **Return.** Click Chrome `Notes`. On the note, the first crumb `wiki` goes to `/folder/wiki/`, which is a folder listing, not this index.
+- **Open the index.** From `/`, click the nav link named `Map`.
+- **Resulting state.** URL is `/map` or `/map/`. `h1.map-head__title` is `Map`. Chrome `Map` has class `on`. `input[aria-label="Filter pages"]` is present.
+- **Legacy URL.** Open `/notes/`. The browser lands on `/map/` with the same heading. Do not expect `main.notes-page`.
+- **Open a row.** Type `Don't Outsource the Learning` into the filter. Click the `.map-row__title` with that text.
+- **Land on the note.** URL is `/wiki/Learning-Craft/Don't-Outsource-the-Learning/`. `article[data-pagefind-body]` is present. `h1.kb-note-title` is `Don't Outsource the Learning`. The type pill's trimmed text is `Concept`. `.kb-note-dek` is present.
 
 ## Gotchas
 
-- Chrome href is `/notes` (no trailing slash). `trailingSlash` is `ignore`, so `/notes` and `/notes/` both serve.
-- `GET /notes/index/` is 404. The published index is `/notes/` (`src/pages/notes.astro`). Leave the 404 as a 404.
-- `notes/index.md` lists two hubs that `HUB_ENTRIES` omits: Using Grok Bot and pstack. Those titles are absent from the live Notes page. Record the gap. Do not edit `icons.ts` from this skill.
-- Learning Systems and Attention & Self-Management on the published page point at `Are You Learning, or Just Using Techniques` and `Flow State`. Those hrefs are direct.
+- Do not look for `.notes-lede`, `h2.notes-head`, `.entry-list`, or a nav link named `Notes`.
+- `Learning, Condensed` is not a published note (`wiki/Syntheses/` is gone). Do not treat a miss on that title as a list failure.
+- The list is client-rendered from `#map-rows-data`. Wait for `.map-row__title`, not a fixed sleep.
+- The filter matches title, source line, and slug.
 - This page is not the gitignored `notes/catalog.md`.
