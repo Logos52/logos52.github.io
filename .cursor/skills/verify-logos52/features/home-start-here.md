@@ -30,8 +30,8 @@ Preconditions:
 
 ## Gotchas
 
-- `kb-astro/site-data/home.json` is not imported by `index.astro`. Do not wait for `LLM Knowledge Base` or `.hero__title`. `.hero__title` is the Personal page heading.
+- `kb-astro/site-data/home.json` is not imported by `index.astro`. Do not wait for `LLM Knowledge Base` or `.hero__title`. That class is not on this page or on Personal.
 - Home is a menu id. On `/`, the menu link Home has `aria-current="page"`.
-- There is no `section.start-here`, no `.door__intent`, and no Explore door to `/map/`.
-- Top of mind lines are bare `li` elements inside `.topmind__lines`, not `.topmind__item`.
+- There is no `section.start-here`, no `section.doors`, no `a.door`, no `.door__intent`, and no Explore door to `/map/`.
+- Top of mind lines are bare `li` elements inside `ul.lines`, not `.topmind__item` or `.topmind__lines`.
 - Home does not mount a constellation. Do not look for `[data-mode="spine"]` here.

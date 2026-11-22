@@ -55,7 +55,7 @@ else
   bad "${BASE_URL}/ → ${code:-down} (need 200 + data-home-objective)"
 fi
 
-# Map is the vault index Chrome opens. /notes/ is a 301 to /map/.
+# Map is the vault index the menu opens. /notes/ is a 301 to /map/.
 map_code="$(http_ok /map/ || true)"
 if [[ "${map_code}" == "200" ]] && page_has_marker /map/ 'data-map-title'; then
   ok "${BASE_URL}/map/ → 200 and data-map-title present"

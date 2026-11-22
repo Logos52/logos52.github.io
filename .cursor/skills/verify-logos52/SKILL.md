@@ -7,7 +7,7 @@ description: Drive the published Logos52 Astro wiki in a browser. Use when a pub
 
 Logos52 is a static Astro wiki. Visitors use the web UI. Live publish is https://logos52.github.io. Drive the local instance this skill started. The local command is `npm run dev` at http://127.0.0.1:4321 (the same bind as `.cursor/environment.json`). `npm run build` then `npm run preview` is the production-like path.
 
-This skill is the visitor-facing drive loop. It is not a second CI stack. `npm run verify` on main runs `lint:fm && guard:source && build && guard && test`, the same sequence as a pull request. Doctor `--ci` calls that script. Do not add another `verify` npm script.
+This skill is the visitor-facing drive loop. It is not a second CI stack. `npm run verify` runs `lint:fm && guard:source && build && guard:design && guard && test`, the same sequence as `.github/workflows/deploy.yml`. Doctor `--ci` calls that script. Do not add another `verify` npm script.
 
 Record product gaps in the feature file. Leave product code alone unless the task is a product fix.
 
@@ -64,24 +64,25 @@ The CI sequence is the same script with `--ci`. It runs the cheap checks, then c
 .cursor/skills/verify-logos52/helpers/doctor.sh --ci
 ```
 
-`--ci` reads `package.json` `scripts.verify` and runs `npm run verify`. When that script is missing, `--ci` exits 1. Do not paste `lint:fm`, `guard:source`, `build`, `guard`, and `test` in as a substitute.
+`--ci` reads `package.json` `scripts.verify` and runs `npm run verify`. When that script is missing, `--ci` exits 1. Do not paste `lint:fm`, `guard:source`, `build`, `guard:design`, `guard`, and `test` in as a substitute.
 
 ## Drive
 
 Harness: Chrome via the `computerUse` subagent, or CDP against http://127.0.0.1:4321. Prefer accessible names, `data-*` attributes, and route paths. Do not use click coordinates.
 
-Drive only an instance this skill launched, and only after doctor passed. Open http://127.0.0.1:4321/. Chrome is on every page (`.mast`):
+Drive only an instance this skill launched, and only after doctor passed. Open http://127.0.0.1:4321/. Chrome is on every page (`.mast`). Section links are not a visible header bar. Open `button#menu-btn` first. The footer (`.colophon`) repeats the same five links. The current section is `aria-current="page"` on that link. There is no class `on` for the current section (`.on` is the map filter chip and the search highlight).
 
 | Control | How to find it | Where it goes |
 |---|---|---|
 | Brand | link `.mast__mark` text `Logos52` | `/` |
 | Menu | `button#menu-btn` `aria-label="Open menu"` | overlay `#menu` with Home, Map, Projects, Journal, About |
+| Footer | `a.colophon__link` with those same labels | the same hrefs |
 | Search (laptop) | `input[data-search-input]` `aria-label="Search notes"` | dropdown `[data-search-results]` |
 | Search (≤48rem) | `button#search-btn` `aria-label="Search"` | adds `.is-search` on `.mast` and focuses the same input |
 
 Chrome has no Notes item and no Personal item. `/notes/` and `/graph/` are 301 redirects to `/map/`.
 
-Home (`src/pages/index.astro`, `active="home"`, so Home is `.on`):
+Home (`src/pages/index.astro`, `active="home"`, so the Home link is `aria-current="page"`):
 
 - Lede: `p.lede[data-home-objective]`. There is no `h1` on `/`. The document title is `Logos52`. `kb-astro/site-data/home.json` is not read by this page.
 - Spotlight: the `a.word__link` whose text is `Open Builders' Logs 2026` → `/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs-2026/`.
@@ -148,7 +149,7 @@ Executable. Invoke by path from the repo root:
 
 | Script | Role |
 |---|---|
-| `helpers/launch.sh` | Start `npm run dev` on 4321, wait for `.data-home-objective` |
+| `helpers/launch.sh` | Start `npm run dev` on 4321, wait for the `data-home-objective` attribute |
 | `helpers/doctor.sh` | Ownership and HTTP check. `doctor.sh --ci` calls `npm run verify` |
 | `helpers/evidence.sh` | Print and create the evidence directory |
 | `helpers/cleanup.sh` | Kill only this run's process tree. Keep evidence |
