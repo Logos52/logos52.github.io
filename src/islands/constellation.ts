@@ -619,7 +619,6 @@ function readColors() {
   };
 }
 
-/** Lighten a hex toward white by `t` (0..1) — used for per-node shade variety. */
 function mixWhite(hex: string, t: number): string {
   const h = hex.trim().replace('#', '');
   if (h.length < 6) return hex;
