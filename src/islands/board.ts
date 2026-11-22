@@ -10,13 +10,6 @@ function clearItem(item: HTMLElement): void {
   item.style.left = '';
 }
 
-function placeItem(item: HTMLElement, width: number, top: number, left: number): number {
-  item.style.width = `${width}px`;
-  item.style.top = `${top}px`;
-  item.style.left = `${left}px`;
-  return top + item.offsetHeight;
-}
-
 function shortest(heights: number[]): number {
   let col = 0;
   for (let i = 1; i < heights.length; i += 1) {
@@ -40,7 +33,10 @@ function place(list: HTMLElement): void {
   items.forEach((item) => {
     const col = shortest(heights);
     const top = (heights[col] ?? 0) > 0 ? (heights[col] ?? 0) + rowGap : 0;
-    heights[col] = placeItem(item, width, top, (width + gap) * col);
+    item.style.width = `${width}px`;
+    item.style.top = `${top}px`;
+    item.style.left = `${(width + gap) * col}px`;
+    heights[col] = top + item.offsetHeight;
   });
   const tallest = heights.reduce((max, value) => (value > max ? value : max), 0);
   list.style.height = `${tallest}px`;

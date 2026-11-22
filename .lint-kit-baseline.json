@@ -2268,16 +2268,6 @@
     },
     {
       "rule": "R1",
-      "file": "src/pages/projects.astro",
-      "fingerprint": "7d6fb823"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/tags/[tag].astro",
-      "fingerprint": "7d6fb823"
-    },
-    {
-      "rule": "R1",
       "file": "src/redirects/load-redirects.mjs",
       "fingerprint": "8eb88a31"
     },
@@ -3640,11 +3630,6 @@
       "rule": "R21",
       "file": "src/lib/domain.ts",
       "fingerprint": "96c45e4a"
-    },
-    {
-      "rule": "R21",
-      "file": "src/lib/icons.ts",
-      "fingerprint": "c03f8f82"
     },
     {
       "rule": "R21",
