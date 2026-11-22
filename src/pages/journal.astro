@@ -1,47 +1,19 @@
 ---
-/**
- * journal.astro — the Journal landing (public journal only).
- */
 import { getEntry, render } from 'astro:content';
-import Base from '../layouts/Base.astro';
+import Shell from '../layouts/Shell.astro';
 
 const entry = await getEntry('notes', 'journal/index');
 const rendered = entry ? await render(entry) : null;
 const Content = rendered?.Content;
 ---
 
-<Base title="Journal" description="Working notes, decisions, and what's top of mind." active="journal">
-  <main class="journal-page">
-    <div class="wrap">
-      <article class="kb-shell-prose journal-prose">
-        <nav class="journal-nav" aria-label="Journal sections">
-          <a href="/journal/calendar/">Calendar</a>
-        </nav>
-        {Content ? <Content /> : <p>Journal not found.</p>}
-      </article>
-    </div>
+<Shell title="Journal" description="Working notes, decisions, and what's top of mind." active="journal">
+  <main class="reading">
+    <article class="prose">
+      <nav class="crumb" aria-label="Journal sections">
+        <a href="/journal/calendar/">Calendar</a>
+      </nav>
+      {Content ? <Content /> : <p>Journal not found.</p>}
+    </article>
   </main>
-</Base>
-
-<style>
-  .wrap {
-    max-width: 42rem;
-    margin: 0 auto;
-    padding: 48px 28px 64px;
-  }
-  .journal-nav {
-    font-family: var(--sans);
-    font-size: var(--kb-text-sm);
-    margin: 0 0 1.2rem;
-  }
-  .journal-nav a {
-    color: var(--ink);
-    text-decoration: underline;
-    text-decoration-color: color-mix(in oklab, var(--accent) 60%, transparent);
-  }
-  @media (max-width: 640px) {
-    .wrap {
-      padding: 36px 16px 48px;
-    }
-  }
-</style>
+</Shell>

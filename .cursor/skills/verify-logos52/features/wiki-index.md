@@ -24,10 +24,10 @@ Preconditions:
 - Chrome is visible at laptop width.
 
 - **Open the index.** From `/`, click the nav link named `Map`.
-- **Resulting state.** URL is `/map` or `/map/`. `h1.map-head__title` is `Map`. Chrome `Map` has class `on`. `input[aria-label="Filter pages"]` is present.
+- **Resulting state.** URL is `/map` or `/map/`. `h1.data-map-title` is `Map`. Chrome `Map` has class `on`. `input[aria-label="Filter pages"]` is present.
 - **Legacy URL.** Open `/notes/`. The browser lands on `/map/` with the same heading. Do not expect `main.notes-page`.
 - **Open a row.** Type `Don't Outsource the Learning` into the filter. Click the `.map-row__title` with that text.
-- **Land on the note.** URL is `/wiki/Learning-Craft/Don't-Outsource-the-Learning/`. `article[data-pagefind-body]` is present. `h1.kb-note-title` is `Don't Outsource the Learning`. The type pill's trimmed text is `Concept`. `.kb-note-dek` is present.
+- **Land on the note.** URL is `/wiki/Learning-Craft/Don't-Outsource-the-Learning/`. `article[data-pagefind-body]` is present. `h1.reading__title` is `Don't Outsource the Learning`. The type pill's trimmed text is `Concept`. `.kb-note-dek` is present.
 
 ## Gotchas
 

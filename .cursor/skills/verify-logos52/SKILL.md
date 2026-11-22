@@ -21,11 +21,11 @@ Install is `npm ci` (Node >= 22). Launch does not install.
 .cursor/skills/verify-logos52/helpers/launch.sh
 ```
 
-That script runs `npm run dev -- --host 0.0.0.0 --port 4321` from the repo root, in its own session (`setsid`) so the server stays up after the launch script exits. It records the PID and process group in `/tmp/verify-logos52/run.env`, and waits until `GET http://127.0.0.1:4321/` returns 200 and the HTML contains `hero__objective`.
+That script runs `npm run dev -- --host 0.0.0.0 --port 4321` from the repo root, in its own session (`setsid`) so the server stays up after the launch script exits. It records the PID and process group in `/tmp/verify-logos52/run.env`, and waits until `GET http://127.0.0.1:4321/` returns 200 and the HTML contains `data-home-objective`.
 
 Ready means the home page is usable:
 
-- HTTP 200 on `/` and the home markup includes `.hero__objective` (`p.hero__objective` in `src/pages/index.astro`). `.hero__title` is the Personal page heading, not home.
+- HTTP 200 on `/` and the home markup includes `data-home-objective` (`p.lede[data-home-objective]` in `src/pages/index.astro`). `/` has no `h1`.
 - The Astro log at `/tmp/verify-logos52/astro.log` mentions port 4321
 - First boot runs `predev` (note copy, catalog, `ensure-pagefind`). When `dist/pagefind/pagefind.js` is missing, `predev` runs a full `astro build` before the dev server binds. Wait for HTTP, not just the process.
 
@@ -53,8 +53,8 @@ Doctor checks, in order:
 2. `node_modules` present
 3. `/tmp/verify-logos52/run.env` names a live PID this skill launched
 4. That process tree owns port 4321
-5. `GET /` is 200 and includes `.hero__objective`
-6. `GET /map/` is 200 and includes `.map-head__title` (Chrome Map). `/notes/` is a 301 to `/map/`, so a 200 check on `/notes/` does not describe this site.
+5. `GET /` is 200 and includes `data-home-objective`
+6. `GET /map/` is 200 and includes `data-map-title`. `/notes/` is a 301 to `/map/`, so a 200 check on `/notes/` does not describe this site.
 
 When any check fails, do not drive.
 
@@ -70,46 +70,42 @@ The CI sequence is the same script with `--ci`. It runs the cheap checks, then c
 
 Harness: Chrome via the `computerUse` subagent, or CDP against http://127.0.0.1:4321. Prefer accessible names, `data-*` attributes, and route paths. Do not use click coordinates.
 
-Drive only an instance this skill launched, and only after doctor passed. Open http://127.0.0.1:4321/. Chrome is on every page (`.kb-chrome`):
+Drive only an instance this skill launched, and only after doctor passed. Open http://127.0.0.1:4321/. Chrome is on every page (`.mast`):
 
 | Control | How to find it | Where it goes |
 |---|---|---|
-| Brand | link `.kb-brand`; the mark has `aria-label="Logos52"` | `/` |
-| Home | nav link named `Home` (`.kb-nav__link`) | `/` |
-| Map | nav link named `Map` | `/map` |
-| Projects / Journal / About | same nav labels | `/projects` `/journal` `/about` |
-| Theme | `button#theme-toggle` `aria-label="Toggle theme"` | flips `html[data-theme]` |
+| Brand | link `.mast__mark` text `Logos52` | `/` |
+| Menu | `button#menu-btn` `aria-label="Open menu"` | overlay `#menu` with Home, Map, Projects, Journal, About |
 | Search (laptop) | `input[data-search-input]` `aria-label="Search notes"` | dropdown `[data-search-results]` |
-| Search (≤720px) | `button#kb-search-btn` `aria-label="Search"` | adds `.search-open` on `.kb-chrome__inner` and focuses the same input |
-| Menu (≤720px) | `button#kb-menu-btn` `aria-label="Open menu"` | `.kb-nav.open` |
+| Search (≤48rem) | `button#search-btn` `aria-label="Search"` | adds `.is-search` on `.mast` and focuses the same input |
 
 Chrome has no Notes item and no Personal item. `/notes/` and `/graph/` are 301 redirects to `/map/`.
 
 Home (`src/pages/index.astro`, `active="home"`, so Home is `.on`):
 
-- Hero: `p.hero__objective`. There is no `h1` on `/`. The document title is `Logos52`. `kb-astro/site-data/home.json` is not read by this page.
+- Lede: `p.lede[data-home-objective]`. There is no `h1` on `/`. The document title is `Logos52`. `kb-astro/site-data/home.json` is not read by this page.
 - Spotlight: `a.spotlight__link` (`Open Builders' Logs 2026`) → `/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs-2026/`.
 - Where to start: `section.doors`, heading `Where to start`. Five `a.door` links. The label is `.door__label` (`Working well with AI`, `Learning faster`, `Managing yourself`, `Making sense of the world`, `Money and craft`). Href is `/domains/{ai,learning,self,world,craft}/`.
 - Top of mind: `ul.topmind__lines` with exactly three `li`. The build throws when the count is not 3.
 - Home does not mount a constellation, domain chips, hub columns, or project updates.
 
-Wiki note (`src/pages/[...slug].astro` → `src/layouts/Note.astro`):
+Wiki note (`src/pages/[...slug].astro` → `src/layouts/Article.astro`):
 
 - `article[data-pagefind-body]`
-- `h1.kb-note-title`
-- `.kb-note-dek` when the note has `description` or `blurb`
-- Type pill `.kb-type-tag` is `readerTypeLabel` (`Concept`, `Essay`, `Hub`, `Reference`, …)
-- Breadcrumb `.kb-crumb`: last segment is text. `journal` / `personal` / `projects` first segments go to those landings. A `notes` first segment goes to `/map/`. Other crumbs, including `wiki`, go to `/folder/…/`
-- Body links `.kb-prose a`. Unresolved targets are `span.missing`
-- A `Related` or `Related pages` list shows five items, then `details.kb-related-more`
-- No rail. `Note.astro` does not render `aside.kb-note-aside`, `nav.kb-toc`, or a local constellation.
-- Backlinks sit after the prose, inside the article: `section.kb-backlinks[aria-label="Linked from"]`, heading text `Linked from`. Five `.kb-backlink` rows, then `details.kb-backlinks-more`.
+- `h1.reading__title`
+- `.reading__dek` when the note has a description
+- Type sits in `.reading__meta` as `readerTypeLabel` (`Concept`, `Essay`, `Hub`, `Reference`, …)
+- Breadcrumb `.crumb`: last segment is text. `journal` / `personal` / `projects` first segments go to those landings. A `notes` first segment goes to `/map/`. Other crumbs, including `wiki`, go to `/folder/…/`
+- Body links `.prose a`. Unresolved targets are `span.missing`
+- A `Related` or `Related pages` list shows five items, then `details.related-more`
+- No rail. `Article.astro` does not render an aside, a TOC, or a local constellation.
+- Backlinks sit after the prose, inside the article: `section.linked[aria-label="Linked from"]`, heading text `Linked from`. Five `.linked__row` rows, then `details.linked__more`.
 
-Map (`/map/`): `h1.map-head__title` is `Map`. The phrase `The vault` survives only in the page description (`The vault graph and every wiki page.`), not as the heading. Full graph `[data-constellation-root][data-mode="full"][data-domain-labels]`. Below it, `input[data-map-search]` (`aria-label="Filter pages"`) and `button[data-map-domain]` filter `a.map-row__link` rows (`.map-row__title`). Those chips filter the list. They are not links to `/domains/…/`. Domain pages are opened from the home doors. A domain `h1` is the label in `DOMAIN_LABELS` (`Learning faster` for `learning`). Domain pages set `active="map"`, so Map is `.on`. `a.head__kind` (`Map of Content`) returns to `/map/`.
+Map (`/map/`): `h1[data-map-title]` is `Map`. The phrase `The vault` survives only in the page description (`The vault graph and every wiki page.`), not as the heading. Full graph `[data-constellation-root][data-mode="full"][data-domain-labels]`. Below it, `input[data-map-search]` (`aria-label="Filter pages"`) and `button[data-map-domain]` filter `.word__link` rows (`.word__title`). Those chips filter the list. They are not links to `/domains/…/`. Domain pages are opened from the home doors. A domain `h1` is the label in `DOMAIN_LABELS` (`Learning faster` for `learning`). Domain pages set `active="map"`, so Map is current in the menu. `a.head__kind` (`Map of Content`) returns to `/map/`.
 
 `/graph/` redirects to `/map/`. It has no `h1`.
 
-Search: on a laptop, type into `input[data-search-input]` (or focus with Control/Meta+K). Results are `a.kb-ac-row` inside `[data-search-results]` (hidden until open). Empty: `.kb-ac-empty` with `No notes found.` Loading miss: `Search index loading…`. Enter opens the highlighted row, else the first row. At ≤720px the field is hidden until `button#kb-search-btn` opens it. The domain chip is one of the five `DOMAIN_LABELS`. `wiki/Language/…` resolves to `world`, so the chip text is `Making sense of the world`.
+Search: on a laptop, type into `input[data-search-input]` (or focus with Control/Meta+K). Results are `a.find__row` inside `[data-search-results]` (hidden until open). Empty: `.find__empty` with `No notes found.` Loading miss: `Search index loading…`. Enter opens the highlighted row, else the first row. At ≤48rem the field is hidden until `button#search-btn` opens it. The domain chip is one of the five `DOMAIN_LABELS`. `wiki/Language/…` resolves to `world`, so the chip text is `Making sense of the world`. There is no theme toggle.
 
 Read `features/` before driving. A pass that claims the map is current drives every feature in one session. A task about one surface drives that feature.
 
@@ -151,7 +147,7 @@ Executable. Invoke by path from the repo root:
 
 | Script | Role |
 |---|---|
-| `helpers/launch.sh` | Start `npm run dev` on 4321, wait for `.hero__objective` |
+| `helpers/launch.sh` | Start `npm run dev` on 4321, wait for `.data-home-objective` |
 | `helpers/doctor.sh` | Ownership and HTTP check. `doctor.sh --ci` calls `npm run verify` |
 | `helpers/evidence.sh` | Print and create the evidence directory |
 | `helpers/cleanup.sh` | Kill only this run's process tree. Keep evidence |

@@ -1,6 +1,5 @@
 ---
-import Base from '../../../layouts/Base.astro';
-import '../../../styles/gardeners-page.css';
+import Shell from '../../../layouts/Shell.astro';
 import catalog from '../../../data/digital-gardeners.json';
 import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -17,43 +16,44 @@ function thumbSrc(id: string): string | null {
 const sorted = [...catalog].sort((a, b) => a.name.localeCompare(b.name));
 ---
 
-<Base
+<Shell
   title="Notable design features"
   description="Digital gardeners catalog — home pages with notable design features, 146 people."
   active="projects"
 >
-  <main class="gardeners-page">
-    <div class="wrap">
-      <p class="crumb"><a href="/projects/">Projects</a></p>
-      <header class="head">
-        <h1>Notable design features</h1>
-        <p class="head__lede">
-          146 personal home pages, observed 2026-10-31. Thumbnail grid of front doors; open a person for
-          notable design features on each observed URL.
-        </p>
-      </header>
-      <ul class="gardeners-grid">
-        {sorted.map((p) => {
+  <main class="page">
+    <p class="crumb"><a href="/projects/">Projects</a></p>
+    <header>
+      <h1 class="page__title">Notable design features</h1>
+      <p class="page__dek">
+        146 personal home pages, observed 2026-10-31. Thumbnail grid of front doors; open a person for
+        notable design features on each observed URL.
+      </p>
+    </header>
+    <ul class="board" data-board>
+      {
+        sorted.map((p) => {
           const thumb = thumbSrc(p.id);
           return (
-            <li>
-              <a href={`/projects/digital-gardeners/${p.id}/`}>
-                <div class="gardeners-grid__thumb">
-                  {thumb ? (
-                    <img src={thumb} alt="" loading="lazy" width="320" height="200" />
-                  ) : (
-                    <span class="gardeners-grid__lanes">No shot yet</span>
-                  )}
-                </div>
-                <div class="gardeners-grid__body">
-                  <span class="gardeners-grid__name">{p.name}</span>
-                  <span class="gardeners-grid__lanes">{p.lanes.join(' · ')}</span>
-                </div>
+            <li class="board__item" data-board-item>
+              <a class="board__card" href={`/projects/digital-gardeners/${p.id}/`}>
+                {thumb ? (
+                  <img src={thumb} alt="" loading="lazy" width="320" height="200" />
+                ) : (
+                  <span class="board__fallback">No shot yet</span>
+                )}
+                <h3 class="board__title">{p.name}</h3>
+                <p class="board__note">{p.lanes.join(' · ')}</p>
               </a>
             </li>
           );
-        })}
-      </ul>
-    </div>
+        })
+      }
+    </ul>
   </main>
-</Base>
+</Shell>
+
+<script>
+  import { packBoard } from '../../../islands/board';
+  document.querySelectorAll<HTMLElement>('[data-board]').forEach((list) => packBoard(list));
+</script>

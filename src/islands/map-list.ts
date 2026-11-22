@@ -17,30 +17,25 @@ function text(s: string): Text {
 
 function rowEl(r: MapRow): HTMLLIElement {
   const li = document.createElement('li');
-  li.className = 'map-row';
+  li.className = 'word__item';
   const a = document.createElement('a');
-  a.className = 'map-row__link';
+  a.className = 'word__link';
   a.href = r.url;
+  const title = document.createElement('span');
+  title.className = 'word__title';
+  title.append(text(r.title));
+  const source = document.createElement('span');
+  source.className = 'word__meta';
+  source.append(text(r.source));
+  a.append(title, source);
   if (r.thumb) {
     const img = document.createElement('img');
-    img.className = 'map-row__thumb';
+    img.className = 'word__shot';
     img.src = r.thumb;
     img.alt = '';
     img.loading = 'lazy';
-    img.width = 56;
-    img.height = 56;
     a.append(img);
   }
-  const body = document.createElement('span');
-  body.className = 'map-row__text';
-  const title = document.createElement('span');
-  title.className = 'map-row__title';
-  title.append(text(r.title));
-  const source = document.createElement('span');
-  source.className = 'map-row__source';
-  source.append(text(r.source));
-  body.append(title, source);
-  a.append(body);
   li.append(a);
   return li;
 }

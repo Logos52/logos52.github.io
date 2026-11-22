@@ -6,10 +6,10 @@ Source: `src/components/Chrome.astro`, `src/islands/search-inline.ts`, `src/lib/
 
 ## Sub-features
 
-- `search-field` is `input.kb-search-input[data-search-input]` with `aria-label="Search notes"` and placeholder `Find a note… (⌘K)`.
-- `search-phone` at ≤720px hides that field until `button#kb-search-btn` (`aria-label="Search"`) adds `search-open` on `.kb-chrome__inner` and focuses the input. Control/Meta+K on that width opens the field the same way.
-- `search-results` is `[data-search-results]`, `hidden` until open. Hits are `a.kb-ac-row` with `.kb-ac-title`, optional `.kb-ac-domain`, and `.kb-ac-ex`.
-- `search-empty` is `.kb-ac-empty` with text `No notes found.`
+- `search-field` is `input.find__input[data-search-input]` with `aria-label="Search notes"` and placeholder `Search`.
+- `search-phone` at ≤48rem hides that field until `button#search-btn` (`aria-label="Search"`) adds `is-search` on `.mast` and focuses the input. Control/Meta+K on that width opens the field the same way.
+- `search-results` is `[data-search-results]`, `hidden` until open. Hits are `a.find__row` with `.find__title`, optional `.find__domain`, and `.find__excerpt`.
+- `search-empty` is `.find__empty` with text `No notes found.`
 - `search-keys` are ArrowUp, ArrowDown, Enter, and Escape. Control/Meta+K focuses the input. Enter opens the highlighted row, else the first row.
 
 ## How to get to it (user POV)
@@ -29,7 +29,7 @@ Preconditions:
 - **Wait for rows.** `[data-search-results]` is not `hidden`. A `.kb-ac-row` or `.kb-ac-empty` is present. Wait for the row, not a fixed sleep (the input debounces about 110ms, and the first query may still be loading Pagefind).
 - **Read the first row.** `.kb-ac-title` is `How Chinese Characters Work`. `.kb-ac-domain` text is `Making sense of the world` (`wiki/Language/` resolves to domain `world`). The chip is uppercased in paint. Match the DOM text.
 - **Open it.** Click that row (or press Enter).
-- **Resulting state.** URL is `/wiki/Language/Chinese/How-Chinese-Characters-Work/`. `h1.kb-note-title` is `How Chinese Characters Work`. The type pill's trimmed text is `Hub`.
+- **Resulting state.** URL is `/wiki/Language/Chinese/How-Chinese-Characters-Work/`. `h1.reading__title` is `How Chinese Characters Work`. The type pill's trimmed text is `Hub`.
 
 Do not stub `/pagefind/pagefind.js`. When the dropdown stays on `Search index loading…`, the index was not built. Record that and stop.
 

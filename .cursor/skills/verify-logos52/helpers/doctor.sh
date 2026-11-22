@@ -49,18 +49,18 @@ else
 fi
 
 code="$(http_ok / || true)"
-if [[ "${code}" == "200" ]] && page_has_marker / 'hero__objective'; then
-  ok "${BASE_URL}/ → 200 and .hero__objective present"
+if [[ "${code}" == "200" ]] && page_has_marker / 'data-home-objective'; then
+  ok "${BASE_URL}/ → 200 and data-home-objective present"
 else
-  bad "${BASE_URL}/ → ${code:-down} (need 200 + .hero__objective)"
+  bad "${BASE_URL}/ → ${code:-down} (need 200 + data-home-objective)"
 fi
 
 # Map is the vault index Chrome opens. /notes/ is a 301 to /map/.
 map_code="$(http_ok /map/ || true)"
-if [[ "${map_code}" == "200" ]] && page_has_marker /map/ 'map-head__title'; then
-  ok "${BASE_URL}/map/ → 200 and .map-head__title present"
+if [[ "${map_code}" == "200" ]] && page_has_marker /map/ 'data-map-title'; then
+  ok "${BASE_URL}/map/ → 200 and data-map-title present"
 else
-  bad "${BASE_URL}/map/ → ${map_code:-down} (need 200 + .map-head__title)"
+  bad "${BASE_URL}/map/ → ${map_code:-down} (need 200 + data-map-title)"
 fi
 
 echo "doctor: EVIDENCE_DIR=${EVIDENCE_DIR}"
