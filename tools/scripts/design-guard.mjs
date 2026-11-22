@@ -1,12 +1,3 @@
-/**
- * Design guard.
- * 1. Denylist: old fonts, colours, class names, and stylesheet paths must not
- *    appear in the site source or the built site.
- * 2. Tokens: outside the :root token block, font-family, font-size, and colour
- *    values in CSS and component styles must use the design tokens.
- * 3. Pages: a page file may not declare font-family, a colour value, or a
- *    restyle of a shared component. Layout-only overrides are the only kind allowed.
- */
 import { readdir, readFile, stat } from 'node:fs/promises';
 import { join, relative } from 'node:path';
 
@@ -45,31 +36,29 @@ function stripComments(css) {
   return css.replace(/\/\*[\s\S]*?\*\//g, '');
 }
 
+function skipBlock(css, open) {
+  let depth = 0;
+  let j = open;
+  for (; j < css.length; j++) {
+    if (css[j] === '{') depth++;
+    else if (css[j] === '}') {
+      depth--;
+      if (depth === 0) return j + 1;
+    }
+  }
+  return css.length;
+}
+
 function stripRoot(css) {
   let out = '';
   let i = 0;
   while (i < css.length) {
     const at = css.indexOf(':root', i);
-    if (at === -1) {
-      out += css.slice(i);
-      break;
-    }
+    if (at === -1) return out + css.slice(i);
     out += css.slice(i, at);
     const open = css.indexOf('{', at);
-    if (open === -1) break;
-    let depth = 0;
-    let j = open;
-    for (; j < css.length; j++) {
-      if (css[j] === '{') depth++;
-      else if (css[j] === '}') {
-        depth--;
-        if (depth === 0) {
-          j++;
-          break;
-        }
-      }
-    }
-    i = j;
+    if (open === -1) return out;
+    i = skipBlock(css, open);
   }
   return out;
 }
@@ -163,8 +152,8 @@ for (const file of scanned) {
 }
 
 if (failures.length) {
-  console.error(`design-guard: ${failures.length} problem(s)`);
-  for (const line of failures) console.error(`  ${line}`);
+  process.stderr.write(`design-guard: ${failures.length} problem(s)\n`);
+  for (const line of failures) process.stderr.write(`  ${line}\n`);
   process.exit(1);
 }
-console.log(`design-guard: clean (${scanned.length} files, ${markers.length} denylist markers)`);
+process.stdout.write(`design-guard: clean (${scanned.length} files, ${markers.length} denylist markers)\n`);

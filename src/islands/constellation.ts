@@ -35,10 +35,7 @@ const SPINE_EXTRA_PERIPHERAL_LINKS = 15;
 const SPINE_OUTLINE_PERIMETER_LINKS = 4;
 const SELF_REG_HUB = 'wiki/Dimensions/Self-Regulation';
 const HUB_COUNT = 6;
-let labelFamily = 'serif';
-function labelFont(weight: number, size: number): string {
-  return `${weight} ${size}px ${labelFamily}`;
-}
+let MONO_STACK = "serif";
 
 // local-mode params (selectLocalSpine): a tight, importance-filtered 2-hop "spine" around the current
 // note — a few landmark hubs fanned around the center, each carrying a short branch of its own satellites.
@@ -688,8 +685,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   if (!canvas) return;
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
-  labelFamily = getComputedStyle(document.documentElement).getPropertyValue('--font-serif').trim() || 'serif';
-
+  MONO_STACK = getComputedStyle(document.documentElement).getPropertyValue("--font-serif").trim() || "serif";
   const modeAttr = root.dataset.mode;
   const mode: 'spine' | 'full' | 'local' =
     modeAttr === 'full' ? 'full' : modeAttr === 'local' ? 'local' : 'spine';
@@ -1067,7 +1063,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
 
   // auto-fit — over ALL nodes (+ spine hub labels) so nothing on the edges is clipped
   function fitToView() {
-    ctx!.font = labelFont(600, 14);
+    ctx!.font = `600 11px ${MONO_STACK}`;
     let minX = Infinity;
     let maxX = -Infinity;
     let minY = Infinity;
@@ -1364,7 +1360,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
       const big = isHub || (localSeedLabels && n.isFlag);
       ctx.globalAlpha =
         mode === 'spine' && isHub ? spineHubLabelAlpha(n) : dim(n) ? 0.3 : 1;
-      ctx.font = labelFont(focusedHub ? 600 : big ? 500 : 400, big ? 15 : 13);
+      ctx.font = `${focusedHub ? 600 : big ? 500 : 400} ${big ? 15 : 13}px ${MONO_STACK}`;
       const text = n.label ?? n.title;
       const tx = sx(n);
       const ty = sy(n) + nodeR(n) + 5;
@@ -1381,7 +1377,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
     if (showDomainLabels) {
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
-      ctx.font = labelFont(600, 15);
+      ctx.font = `600 15px ${MONO_STACK}`;
       for (const [dom, pos] of regionLabel) {
         const text = ((DOMAIN_LABELS as Record<string, string>)[dom] ?? dom).toUpperCase();
         ctx.lineWidth = 3;
