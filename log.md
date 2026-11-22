@@ -1069,3 +1069,7 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 - Page files add no stylesheet. Old layouts and CSS are deleted.
 - `tools/scripts/design-guard.mjs` fails the build on an old design marker, a colour or font outside the tokens, a page file that restyles a shared component, or an import of `design-archive/`.
 - The retired design is kept at `design-archive/old-design/` and is not loaded by the build. The map graph is the one carry-over.
+
+## [2026-11-22] tool | Article links use the text colour
+
+- Links inside an article are the text colour with a gray underline. The accent stays on the graph, the current menu item, and the filter that is on.
