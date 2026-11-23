@@ -5,6 +5,7 @@ import Constellation from '../components/Constellation.astro';
 import { resolveDomain } from '../lib/domain';
 import { deriveFirstImage, deriveSourceLine, deriveTitle } from '../lib/note';
 import { simplifySlug, slugToUrl } from '../lib/slug';
+import { byHubThen } from '../lib/folder-order';
 import { DOMAINS, DOMAIN_LABELS, type Domain } from '../lib/types';
 
 const notes = await getCollection('notes');
@@ -42,7 +43,7 @@ function sectionOf(id: string): { key: string; label: string } {
 
 const OTHER = 'Other';
 
-type ContentPage = { title: string; url: string };
+type ContentPage = { title: string; url: string; type?: string };
 type SectionGroup = { label: string; count: number; pages: ContentPage[] };
 type TypeGroup = { label: string; count: number; sections: SectionGroup[] };
 
@@ -66,6 +67,7 @@ for (const n of contentPages) {
   group.pages.push({
     title: deriveTitle(n.data, n.id, n.body),
     url: slugToUrl(n.id),
+    type: raw,
   });
 }
 
@@ -77,7 +79,9 @@ const typeGroups: TypeGroup[] = [];
 for (const [label, sections] of buckets) {
   const sectionGroups: SectionGroup[] = [];
   for (const group of sections.values()) {
-    group.pages.sort((a, b) => a.title.localeCompare(b.title, 'en') || a.url.localeCompare(b.url));
+    group.pages.sort(
+      byHubThen((a, b) => a.title.localeCompare(b.title, 'en') || a.url.localeCompare(b.url)),
+    );
     sectionGroups.push({ label: group.label, count: group.pages.length, pages: group.pages });
   }
   sectionGroups.sort(byCountThenName);
