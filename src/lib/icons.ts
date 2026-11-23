@@ -124,13 +124,6 @@ export const HUB_ENTRIES: {
     color: 'var(--mark)',
   },
   {
-    title: 'Red Team / Critical Thinking',
-    slug: 'wiki/Red Team/Red Teaming',
-    blurb: 'How to attack your own plan before you carry it out.',
-    icon: 'ti-shield',
-    color: 'var(--mark)',
-  },
-  {
     title: 'Front-End Web Design',
     slug: 'wiki/Design/Front-End Web Design',
     blurb: 'Design rules for web pages. The screen has to show people what they can click.',

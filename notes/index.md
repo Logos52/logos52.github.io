@@ -39,7 +39,6 @@ Each of these pages is the starting point for one subject.
 - [[wiki/Language/Chinese/How Chinese Characters Work|Chinese Characters]]: How Chinese characters are built. Each character is made of smaller parts, and each part has a different function.
 - [[wiki/Self Management/Flow State|Attention & Self-Management]]: Focus, and a person's own attention. Flow is being fully absorbed in a task.
 - [[wiki/Minimalism/Minimalism as Systems Design|Minimalism]]: Owning fewer things. A possession costs attention, space, and upkeep.
-- [[wiki/Red Team/Red Teaming|Red Team / Critical Thinking]]: How to attack your own plan before you carry it out.
 - [[wiki/Design/Front-End Web Design|Front-End Web Design]]: Design rules for web pages. The screen has to show people what they can click.
 - [[wiki/Story Craft/Story Craft|Story Craft]]: How to build characters who stay believable across a long story. Characters who feel thin are diagnosed with [[wiki/Story Craft/Diagnosing a Character|Diagnosing a Character]]. The Tsumugu application layer is in `tsumugu-core/docs/companion/craft/`.
 - [[wiki/Worldviews & the Political Order/Worldviews & the Political Order|Worldviews & the Political Order]]: Contested public arguments, each checked for what follows from it. The positions taken on them are on [[personal/2026-08-17-positions|Positions]].
