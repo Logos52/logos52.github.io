@@ -950,3 +950,63 @@ a {
   display: inline-block;
   vertical-align: -0.15em;
 }
+
+/* —— Content map (Map page). Closed <details> groups. Colours and type stay on the shared tokens. —— */
+.cmap__tree {
+  margin: var(--row) 0 0;
+}
+
+.cmap__type {
+  border-bottom: 1px solid var(--line);
+}
+
+.cmap__section {
+  margin-left: 1.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.cmap__type > summary,
+.cmap__section > summary {
+  cursor: pointer;
+  padding: 0.65rem 0;
+  font-family: var(--face-ui);
+  font-size: var(--type-small);
+  color: var(--text);
+}
+
+.cmap__type > summary {
+  font-weight: var(--weight-bold);
+}
+
+.cmap__n {
+  margin-left: 0.75rem;
+  font-family: var(--face-ui);
+  font-size: var(--type-caption);
+  font-weight: var(--weight-text);
+  color: var(--gray);
+}
+
+.cmap__pages {
+  margin: 0;
+  padding: 0 0 0.35rem 1.25rem;
+  list-style: none;
+}
+
+.cmap__link {
+  display: block;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--face-text);
+  font-size: var(--type-small);
+  font-weight: var(--weight-bold);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.cmap__link:hover {
+  color: var(--gray);
+}
+
+.cmap__pages li:last-child .cmap__link {
+  border-bottom: 0;
+}
