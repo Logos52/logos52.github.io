@@ -22,7 +22,7 @@
     "guard:design": "node tools/scripts/design-guard.mjs",
     "lint:fm": "node scripts/lint-frontmatter.mjs",
     "lint:front": "node tools/scripts/lint-front-facing.mjs",
-    "test": "node --experimental-strip-types --import ./tools/scripts/register-ts.mjs --test tools/scripts/leak.test.mjs tools/scripts/domain.test.ts",
+    "test": "node --experimental-strip-types --import ./tools/scripts/register-ts.mjs --test tools/scripts/leak.test.mjs tools/scripts/domain.test.ts tools/scripts/folder-order.test.ts",
     "verify": "npm run lint:fm && npm run guard:source && npm run build && npm run guard:design && npm run guard && npm test"
   },
   "dependencies": {
