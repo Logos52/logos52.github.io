@@ -107,7 +107,7 @@ The danger and the gate stay separable, and that separation is what makes the co
 
 ## Related pages
 
-- [[wiki/Red Team/Red Teaming|Epistemic Exceptionalism]]
+- Epistemic Exceptionalism
 - [[wiki/Red Team/Red Teaming|Red Teaming]]
 
 ## Sources

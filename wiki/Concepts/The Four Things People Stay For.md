@@ -70,7 +70,7 @@ Strip speaker names from the transcript. What remains should be object plus judg
 - [[wiki/Writing Craft/The Context Problem|The Context Problem]] — trained voice defaults to display; takes need external enforcement.
 - [[wiki/Story Craft/Story Craft|Story Craft]] hub — structure for the ear (audio presence rules) lives there after the wiki cut.
 - [[wiki/Story Craft/Diagnosing a Character|Diagnosing a Character]] — delivery shifts with speaker without becoming a scene about the speaker.
-- [[wiki/Red Team/Red Teaming|Applied Critical Thinking: Testing Frames]] — frames with verdicts baked in, cousin to reading-frame audits in Story Craft.
+- Applied Critical Thinking: Testing Frames — frames with verdicts baked in, cousin to reading-frame audits in Story Craft.
 
 ## Open questions
 
