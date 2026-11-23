@@ -6,13 +6,13 @@ Visitor surfaces on the published Astro wiki. Drive these in Chrome against the 
 |---|---|---|
 | Home / Where to start | `/` → `#start-head` → `a.word__link` | [home-start-here.md](home-start-here.md) |
 | Wiki index | Menu `Map`, or `/notes/` (301 to `/map/`) → `a.word__link` | [wiki-index.md](wiki-index.md) |
-| Wiki page | the home spotlight, a map row, or a resolved wikilink → `[...slug].astro` | [wiki-page.md](wiki-page.md) |
+| Wiki page | the home spotlight, a map row, a resolved wikilink, or a legacy spaced URL → `[...slug].astro` | [wiki-page.md](wiki-page.md) |
 | Search | `input[aria-label="Search notes"]` (⌘K / Ctrl+K); on a phone, the magnifier first | [search.md](search.md) |
 | Map | Menu `Map`, or `/map/` | [map.md](map.md) |
 
 ## What this map leaves out
 
-A route scan of `src/pages/` after the NDC stylesheet change (`ff64a96`) found no sixth visitor surface that needs its own file. Domain pages are the home doors and the return trip on Map. The wiki list is the Wiki index feature. `src/components/Colophon.astro` repeats the menu links in the footer. `src/islands/board.ts` only packs the card layout on Projects.
+A route scan of `src/pages/` through the content map (`4d84a66`) found no sixth visitor surface that needs its own file. The content map is a section on Map (`section[data-content-map]` in `src/pages/map.astro`). Legacy spaced and naive-slug redirects (`src/redirects/doors/legacy-spaced.json`, loaded by `astro.config.ts`) are another way to open a wiki page or a folder. Hub-first order (`src/lib/folder-order.ts`) is the folder listing on the Wiki page feature. Domain pages are the home doors and the return trip on Map. The wiki list is the Wiki index feature. `src/components/Colophon.astro` repeats the menu links in the footer. `src/islands/board.ts` only packs the card layout on Projects.
 
 These pages stay out of the map:
 
