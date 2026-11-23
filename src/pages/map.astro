@@ -27,9 +27,6 @@ const rows = notes
 
 const rowsJson = JSON.stringify(rows);
 
-// Notes the site actually emits as pages. Root index is the custom home page.
-// notes/index is the /notes/ redirect to this map. Every other collection entry
-// is a page, including notes with no type.
 function folderLabel(segment: string): string {
   return segment.replace(/--and--/g, ' & ').replace(/-+/g, ' ');
 }

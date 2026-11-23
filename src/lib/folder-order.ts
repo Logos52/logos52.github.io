@@ -1,8 +1,3 @@
-/**
- * Folder page order: a front matter type of `hub` comes first.
- * Hubs keep the same title order as every other page.
- * `topic hub` is a different type and stays in title order.
- */
 export function byHubThen<T extends { type?: unknown }>(
   titleOrder: (a: T, b: T) => number,
 ): (a: T, b: T) => number {
