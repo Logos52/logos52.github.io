@@ -77,7 +77,10 @@ for (const [label, sections] of buckets) {
   const sectionGroups: SectionGroup[] = [];
   for (const group of sections.values()) {
     group.pages.sort(
-      byHubThen((a, b) => a.title.localeCompare(b.title, 'en') || a.url.localeCompare(b.url)),
+      byHubThen(
+        (a, b) => a.title.localeCompare(b.title, 'en') || a.url.localeCompare(b.url),
+        (page) => page.type,
+      ),
     );
     sectionGroups.push({ label: group.label, count: group.pages.length, pages: group.pages });
   }

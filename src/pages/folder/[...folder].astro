@@ -68,7 +68,12 @@ for (const n of notes) {
   }
 }
 
-pages.sort(byHubThen((a, b) => a.title.localeCompare(b.title)));
+pages.sort(
+  byHubThen(
+    (a, b) => a.title.localeCompare(b.title),
+    (page) => page.type,
+  ),
+);
 const subfolders: Group[] = [...groups.entries()]
   .map(([name, count]) => ({
     name: display(name),
