@@ -30,8 +30,7 @@ Newest notes are listed first. Essays stand alone after the notes.
 
 These essays are finished pieces.
 
-- [[journal/on-red-teams-closure|On Red Team's Closure]] — what a leaner military should have kept from Red Team, and what was right to cut.
-- [[journal/experiences|Experiences]] — operating principles drawn from lived experience (Taiwan 2020, Red Team training).
+- [[journal/experiences|Experiences]] — operating principles drawn from lived experience (Taiwan 2020).
 - [[journal/story-cards-as-memory-scenes|Story Cards as Memory Scenes]] — why the dictionary's Story card becomes a single-character memory scene that encodes only the residue the Form card leaves.
 - [[journal/first-principles-of-the-story-card|The First Principles of the Story Card]] — the residue rule and the two axes (character situations × memory levers) that generate every card.
 - [[journal/the-story-card-catalog|The Story-Card Catalog]] — every way a single-character memory scene can be generated; 34 archetypes, built to be extended.

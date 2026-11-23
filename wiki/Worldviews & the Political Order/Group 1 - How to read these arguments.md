@@ -45,7 +45,6 @@ Raw counts deceive whenever group sizes differ. [[wiki/Worldviews & the Politica
 
 - [[wiki/Worldviews & the Political Order/Per Capita|Per Capita]]
 - [[wiki/Worldviews & the Political Order/Group 2 - Who rules, and on what terms|Group 2 — Who rules]]
-- [[wiki/Red Team/Red Teaming|Red Teaming]]
 
 ## Sources
 

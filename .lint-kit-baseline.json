@@ -324,11 +324,6 @@
     {
       "rule": "R1",
       "file": "kb-astro/generate-site-data.mjs",
-      "fingerprint": "fd5a21b7"
-    },
-    {
-      "rule": "R1",
-      "file": "kb-astro/generate-site-data.mjs",
       "fingerprint": "febb4ebb"
     },
     {
@@ -2094,17 +2089,17 @@
     {
       "rule": "R1",
       "file": "src/lib/wikilinks.ts",
+      "fingerprint": "2d3c347b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/wikilinks.ts",
       "fingerprint": "43b936dd"
     },
     {
       "rule": "R1",
       "file": "src/lib/wikilinks.ts",
       "fingerprint": "6026862b"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/wikilinks.ts",
-      "fingerprint": "609443d2"
     },
     {
       "rule": "R1",
@@ -2709,6 +2704,16 @@
     {
       "rule": "R2",
       "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "811c9dc5"
+    },
+    {
+      "rule": "R2",
+      "file": "kb-astro/generate-site-data.mjs",
+      "fingerprint": "811c9dc5"
+    },
+    {
+      "rule": "R2",
+      "file": "kb-astro/generate-site-data.mjs",
       "fingerprint": "871a78d4"
     },
     {
@@ -2725,16 +2730,6 @@
       "rule": "R2",
       "file": "kb-astro/generate-site-data.mjs",
       "fingerprint": "905f519e"
-    },
-    {
-      "rule": "R2",
-      "file": "kb-astro/generate-site-data.mjs",
-      "fingerprint": "bc47c1bb"
-    },
-    {
-      "rule": "R2",
-      "file": "kb-astro/generate-site-data.mjs",
-      "fingerprint": "bc47c1bb"
     },
     {
       "rule": "R2",
@@ -3164,12 +3159,12 @@
     {
       "rule": "R2",
       "file": "scripts/update-notes-catalog.mjs",
-      "fingerprint": "5cf5b88e"
+      "fingerprint": "aa5c5841"
     },
     {
       "rule": "R2",
       "file": "scripts/update-notes-catalog.mjs",
-      "fingerprint": "5cf5b88e"
+      "fingerprint": "aa5c5841"
     },
     {
       "rule": "R2",
@@ -4333,11 +4328,6 @@
     },
     {
       "rule": "R4",
-      "file": "scripts/gen-red-teaming-diagrams.py",
-      "fingerprint": "3171d3c3"
-    },
-    {
-      "rule": "R4",
       "file": "scripts/gen-shoot-training-i-diagrams.py",
       "fingerprint": "18ae6373"
     },
@@ -5145,11 +5135,6 @@
       "rule": "R5",
       "file": "scripts/gen-genetics-unequal-diagrams.py",
       "fingerprint": "f04a949f"
-    },
-    {
-      "rule": "R5",
-      "file": "scripts/gen-red-teaming-diagrams.py",
-      "fingerprint": "d14993d2"
     },
     {
       "rule": "R5",
