@@ -580,10 +580,6 @@
     "to": "/wiki/Domains/Miscellaneous/Exam-Technique/"
   },
   {
-    "from": "/wiki/Experiences/Red Team Training/",
-    "to": "/wiki/Red-Team/Red-Teaming/"
-  },
-  {
     "from": "/wiki/Experiences/Taiwan 2020/",
     "to": "/archive/wiki/Experiences/Taiwan-2020/"
   },
@@ -834,18 +830,6 @@
   {
     "from": "/wiki/Planning and Automation/",
     "to": "/wiki/Planning-and-Automation/"
-  },
-  {
-    "from": "/wiki/Red Team/Epistemic Exceptionalism/",
-    "to": "/wiki/Red-Team/Red-Teaming/"
-  },
-  {
-    "from": "/wiki/Red Team/Red Teaming/",
-    "to": "/wiki/Red-Team/Red-Teaming/"
-  },
-  {
-    "from": "/wiki/Red Team/The Twitter Test/",
-    "to": "/wiki/Red-Team/Red-Teaming/"
   },
   {
     "from": "/wiki/Research/All In Summit and Moon Packet 2026 09 16/",
