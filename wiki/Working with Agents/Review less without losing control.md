@@ -21,9 +21,9 @@ wedge_reviewed: true
 
 # Review less without losing control
 
-Once agents finish more work than you can read, checking every line stops being possible, so control has to come from two other places. The first is a short list of actions the agent must ask about before it acts, and the second is evidence you can check quickly after it acts, so that everything outside the list can run without you watching.
+Once agents finish more work than you can read, checking every line stops being possible, so control has to come from two other places. The first is a short list of actions the agent must ask about before it acts. The second is evidence you can check quickly after it acts, so that everything outside the list can run without you watching.
 
-**Scope.** This draws on [Lauren](https://www.youtube.com/watch?v=MN9dGgmLyso&t=2863s)'s way of reviewing a coding fleet by sampling and collecting findings. The approval rules and hand-offs come from other speakers at the Grok Bot Galaxy livestream, whose bots reply to email, answer support tickets and plan sales work. It fits any agent that acts in outside tools or merges its own changes.
+**Scope.** This draws on one engineer's way of reviewing a coding fleet by sampling and collecting findings ([live Q&A](https://www.youtube.com/watch?v=MN9dGgmLyso&t=2863s)). The approval rules and hand-offs come from other speakers at a three-day livestream, whose bots reply to email, answer support tickets and plan sales work. It fits any agent that acts in outside tools or merges its own changes.
 
 <div class="callout">
 
@@ -57,8 +57,8 @@ Once agents finish more work than you can read, checking every line stops being 
 <line x1="20" y1="304" x2="280" y2="304" style="stroke:var(--qp-rule);stroke-width:1"/>
 <text x="20" y="332" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Review the evidence, not the</text>
 <text x="20" y="354" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">code</text>
-<text x="20" y="376" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">sample a few merged changes</text>
-<text x="20" y="398" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">every day</text>
+<text x="20" y="376" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">sample a few of the merged</text>
+<text x="20" y="398" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">changes every day</text>
 <line x1="20" y1="412" x2="280" y2="412" style="stroke:var(--qp-rule);stroke-width:1"/>
 <text x="20" y="440" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Collect findings before fixing</text>
 <text x="20" y="462" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">them</text>
@@ -78,9 +78,9 @@ Human review is the hardest part of the setup to scale, because at the rate agen
 
 1. **Write ask-first rules for the actions that matter.** The actions speakers gated were replying to email, sending a Slack message to an outside customer, deploying to production and using an internal system. You can be as strict as you like, down to asking before making a new folder, and you can name the things the agent may do freely, such as creating slides.
 2. **Make each approval quick to give.** Offer a clear choice per item, such as the approve and hold buttons that appeared on screen in one demo. One speaker reviewed and approved bot work from a phone, so a pending yes did not tie them to a laptop.
-3. **Review the evidence, not the code.** [Lauren](https://x.com/poteto/status/2107529532144234937) mostly reviews the videos and screenshots her agents record, because an artifact shows that the work is correct and matches what she meant faster than reading the whole pull request. One speaker's support bot writes a trace of every run, dry runs included, listing how long it took and which files it looked at. Those traces show where an answer went wrong, and a self-improvement bot reads them to improve the system. Then sample a few merged changes every day.
-4. **Have the agent hand off when unsure.** One speaker's support bot follows written rules with high, medium and low confidence levels, so it replies only when it is confident and hands low-confidence, missing or ambiguous cases to a person.
-5. **Collect findings before fixing them.** [Lauren](https://www.youtube.com/watch?v=MN9dGgmLyso&t=2863s) has an agent look for bad patterns and append each one to a document rather than fix it. Every couple of days she reads the document, sees that several entries are the same problem and fixes the cause once.
+3. **Review the evidence, not the code.** One engineer mostly reviews the videos and screenshots her agents record ([reply](https://x.com/poteto/status/2107529532144234937)). An artifact shows that the work is correct and matches what she meant faster than reading the whole pull request. One speaker's support bot writes a trace of every run, dry runs included, listing how long it took and which files it looked at. Those traces show where an answer went wrong, and a self-improvement bot reads them to improve the system. Then sample a few of the merged changes every day.
+4. **Have the agent hand off when unsure.** One speaker's support bot follows written rules with high, medium and low confidence levels. It replies only when it is confident, and it hands low-confidence, missing or ambiguous cases to a person.
+5. **Collect findings before fixing them.** The same engineer has an agent look for bad patterns and append each one to a document rather than fix it ([live Q&A](https://www.youtube.com/watch?v=MN9dGgmLyso&t=2863s)). Every couple of days she reads the document, sees that several entries are the same problem and fixes the cause once.
 6. **Loosen a rule after the agent has earned it.** When the agent asks about something you always approve, tell it that it no longer needs to ask, which builds trust one rule at a time.
 
 ### Ask-first rules to copy
