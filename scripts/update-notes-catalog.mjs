@@ -70,10 +70,6 @@ const SECTIONS = [
     test: (s) => s.startsWith('wiki/Money/'),
   },
   {
-    title: 'Red Teaming',
-    test: (s) => s.startsWith('wiki/Red Team/'),
-  },
-  {
     title: 'Reference',
     test: (s) =>
       s.startsWith('wiki/Books/') ||
