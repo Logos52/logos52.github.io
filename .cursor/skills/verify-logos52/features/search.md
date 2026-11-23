@@ -1,8 +1,8 @@
 # Search
 
-Inline Pagefind in the Chrome bar. A visitor types a note title and opens a hit. There is no modal.
+Inline Pagefind in the mast. A visitor types a note title and opens a hit. There is no modal.
 
-Source: `src/components/Chrome.astro`, `src/islands/search-inline.ts`, `src/lib/types.ts` (`DOMAIN_LABELS`). `scripts/ensure-pagefind.mjs` runs from `predev`.
+Source: `src/components/Mast.astro`, `src/islands/search-inline.ts`, `src/lib/types.ts` (`DOMAIN_LABELS`), `src/lib/domain.ts`. `scripts/ensure-pagefind.mjs` runs from `predev`.
 
 ## Sub-features
 
@@ -14,22 +14,22 @@ Source: `src/components/Chrome.astro`, `src/islands/search-inline.ts`, `src/lib/
 
 ## How to get to it (user POV)
 
-Land on any page with Chrome. On a laptop, click the search field in the header, or press ⌘K / Ctrl+K. On a phone-width window, click the magnifier first. Type. Click a row or press Enter.
+Land on any page with the mast. On a laptop, click the search field in the header, or press ⌘K / Ctrl+K. On a phone-width window, click the magnifier first. Type. Click a row or press Enter.
 
 ## Driving it with computerUse
 
 Preconditions:
 
 - Doctor passed.
-- The drive is at laptop width, so `input[aria-label="Search notes"]` is visible without the magnifier. A phone-width pass clicks `button[aria-label="Search"]` first and waits until `.kb-chrome__inner` has class `search-open`.
+- The drive is at laptop width, so `input[aria-label="Search notes"]` is visible without the magnifier. A phone-width pass clicks `button[aria-label="Search"]` first and waits until `.mast` has class `is-search`.
 - `dist/pagefind/pagefind.js` exists (launch's `predev` builds it when it is missing).
 
 - **Focus the field.** On `/`, click `input[aria-label="Search notes"]`.
 - **Query.** Type `How Chinese Characters Work`.
-- **Wait for rows.** `[data-search-results]` is not `hidden`. A `.kb-ac-row` or `.kb-ac-empty` is present. Wait for the row, not a fixed sleep (the input debounces about 110ms, and the first query may still be loading Pagefind).
-- **Read the first row.** `.kb-ac-title` is `How Chinese Characters Work`. `.kb-ac-domain` text is `Making sense of the world` (`wiki/Language/` resolves to domain `world`). The chip is uppercased in paint. Match the DOM text.
+- **Wait for rows.** `[data-search-results]` is not `hidden`. An `a.find__row` or `.find__empty` is present. Wait for the row, not a fixed sleep (the input debounces about 110ms, and the first query may still be loading Pagefind).
+- **Read the first row.** `.find__title` is `How Chinese Characters Work`. `.find__domain` text is `Making sense of the world` (`wiki/Language/` resolves to domain `world`). The stylesheet does not uppercase that text. Match the DOM text.
 - **Open it.** Click that row (or press Enter).
-- **Resulting state.** URL is `/wiki/Language/Chinese/How-Chinese-Characters-Work/`. `h1.reading__title` is `How Chinese Characters Work`. The type pill's trimmed text is `Hub`.
+- **Resulting state.** URL is `/wiki/Language/Chinese/How-Chinese-Characters-Work/`. `h1.reading__title` is `How Chinese Characters Work`. `p.reading__meta` starts with `Hub`. A row opens on `mousedown` (`window.location`), so a click that never presses the mouse misses the handler. Enter still opens the highlighted row, else the first row.
 
 Do not stub `/pagefind/pagefind.js`. When the dropdown stays on `Search index loading…`, the index was not built. Record that and stop.
 
@@ -37,9 +37,9 @@ Do not stub `/pagefind/pagefind.js`. When the dropdown stays on `Search index lo
 
 - Pagefind is emitted at `dist/pagefind/` on `astro build`. `predev` runs `scripts/ensure-pagefind.mjs`, which builds the whole site when that file is missing. A fresh checkout's first `npm run dev` is slow. Search before that build finishes shows the loading line.
 - Vite must not bundle `/pagefind/pagefind.js` (`astro.config.ts` `external-pagefind`). A transform-time import error is a product or setup bug.
-- Results cap at eight. The keyboard highlight class is `.kb-ac-row.on`.
-- `.kb-ac-domain` is the five labels in `DOMAIN_LABELS` (`src/lib/types.ts`): `Working well with AI`, `Learning faster`, `Managing yourself`, `Making sense of the world`, `Money and craft`. Legacy keys `agentic`, `language`, `focus`, `mind`, and `gen` fold into those five. `src/layouts/Base.astro` uppercases the paint. Match the DOM text, not the old chip `Language`.
+- Results cap at eight. The keyboard highlight class is `.find__row.on`.
+- `.find__domain` is the five labels in `DOMAIN_LABELS` (`src/lib/types.ts`): `Working well with AI`, `Learning faster`, `Managing yourself`, `Making sense of the world`, `Money and craft`. Legacy keys `agentic`, `language`, `focus`, `mind`, and `gen` fold into those five. `src/styles/site.css` does not uppercase the chip and does not cap it at 84px. Match the DOM text, not the old chip `Language`.
 - The excerpt is Pagefind HTML. `excerptHtml` keeps `<mark>` and `dropTitlePrefix` strips a leading restatement of the title. Visible `<mark>` characters in the excerpt are a product bug. Record them.
-- The dropdown is narrow. The title paint and the domain chip both ellipsize (`How Chinese Characters W…`, `MAKING SEN…`). Read the DOM text, then confirm with the note `h1` after the click. The chip's `max-width` is 84px.
-- At ≤720px the field is `display: none` until the magnifier opens it. A laptop pass that clicks the magnifier is clicking a hidden button.
+- `.find__title` ellipsizes when the dropdown is narrow. The domain chip does not. Read the DOM text, then confirm with the note `h1` after the click.
+- At `max-width: 48rem` the field is `display: none` until the magnifier opens it. A laptop pass that clicks the magnifier is clicking a hidden button.
 - Drive search on http://127.0.0.1:4321. Leave https://logos52.github.io alone.
