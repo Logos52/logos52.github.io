@@ -101,7 +101,7 @@ export function buildSlugResolver(notesDir = 'src/content/notes'): WikilinkResol
     const wanted = slugifyFilePath(straight);
     if (!wanted) return null;
     if (slugs.has(wanted)) return wanted;
-    // path-suffix match, e.g. "Red Team/Red Teaming" → "wiki/Red-Team/Red-Teaming"
+    // path-suffix match, e.g. "Books/Suicidal Empathy" → "wiki/Books/Suicidal-Empathy"
     const suffix = [...slugs].filter((s) => s === wanted || s.endsWith('/' + wanted));
     if (suffix.length) return suffix.sort(byLength)[0];
     // bare "[[Title]]" → shortest slug with that basename (Quartz 'shortest')

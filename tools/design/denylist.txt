@@ -1,0 +1,41 @@
+Hanken Grotesk
+#5C63E6
+#5c63e6
+#8B91F2
+#8b91f2
+#F6F8FA
+#f6f8fa
+data-accent="violet"
+kb-chrome
+kb-nav__link
+kb-prose
+kb-note-title
+hero__objective
+map-head__title
+src/styles/chrome.css	source-css
+src/styles/ds/	source-css
+src/layouts/Base.astro	source-css
+src/layouts/Note.astro	source-css
+src/styles/map-page.css	source-css
+src/styles/projects-page.css	source-css
+src/styles/gardeners-page.css	source-css
+src/styles/note-article.css	source-css
+src/styles/note-prose-article.css	source-css
+JetBrains Mono	source-css
+LXGW WenKai	source-css
+Noto Serif TC	source-css
+flavors-preview	source-css
+--ming	source-css
+--paper	source-css
+--ink	source-css
+--accent	source-css
+--raised	source-css
+--violet	source-css
+spotlight__link	source-css
+door__label	source-css
+topmind__lines	source-css
+head__kind	source-css
+kb-crumb	source-css
+kb-shell-prose	source-css
+favicon-nodes	source-css
+mark-nodes	source-css

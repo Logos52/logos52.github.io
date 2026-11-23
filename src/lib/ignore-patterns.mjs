@@ -71,6 +71,8 @@ export const IGNORE_PATTERNS = [
   // Stray COS PRD (empty). The PRDs/ tree is already denied; this path was not.
   'cos/**',
 
+  'design-archive/**',
+
   // Former Quartz framework + build artifacts (kept for parity; harmless once Quartz is gone)
   'quartz/**',
   'public/**',

@@ -133,14 +133,6 @@
     ]
   },
   {
-    "file": "wiki/Experiences/Red Team Training.md",
-    "issues": [
-      "missing title (frontmatter)",
-      "unusual type 'experience'",
-      "unknown status 'developing'"
-    ]
-  },
-  {
     "file": "wiki/Experiences/Taiwan 2020.md",
     "issues": [
       "missing title (frontmatter)",
@@ -166,14 +158,6 @@
   },
   {
     "file": "wiki/Minimalism/Minimalism as Systems Design.md",
-    "issues": [
-      "missing title (frontmatter)",
-      "unusual type 'hub'",
-      "unknown status 'developing'"
-    ]
-  },
-  {
-    "file": "wiki/Red Team/Red Teaming.md",
     "issues": [
       "missing title (frontmatter)",
       "unusual type 'hub'",
@@ -649,13 +633,6 @@
     ]
   },
   {
-    "file": "wiki/Red Team/Applied Critical Thinking - Testing Frames.md",
-    "issues": [
-      "missing title (frontmatter)",
-      "unknown status 'developing'"
-    ]
-  },
-  {
     "file": "wiki/Resources/Mandarin Chinese Language Learning Resources.md",
     "issues": [
       "missing title (frontmatter)",
@@ -793,7 +770,7 @@
     ]
   },
   {
-    "file": "journal/2026-05-28-Reflections-on-Wiki-Bloat-Life-OS-Red-Teaming-and-Agentic-Focus.md",
+    "file": "journal/2026-05-28-Reflections-on-Wiki-Bloat-Life-OS-Placement-and-Agentic-Focus-Discipline.md",
     "issues": [
       "unusual type 'journal-entry'"
     ]
@@ -814,18 +791,6 @@
     "file": "journal/knowledge-base-as-thinking-partner-reflection.md",
     "issues": [
       "unusual type 'journal-entry'"
-    ]
-  },
-  {
-    "file": "journal/on-red-teams-closure.md",
-    "issues": [
-      "unusual type 'blog-post'"
-    ]
-  },
-  {
-    "file": "journal/red-team-pruning.md",
-    "issues": [
-      "unusual type 'journal-note'"
     ]
   },
   {

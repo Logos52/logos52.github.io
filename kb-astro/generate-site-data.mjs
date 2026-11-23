@@ -105,7 +105,6 @@ function assignDomain(note) {
   // Per-note overrides — specific notes whose folder would land them in the wrong domain.
   const OVERRIDE = {
     'Concepts/Higher-Order Generativity vs Higher-Order Judgment': 'gen', // the generativity-vs-judgment thesis
-    'Red Team/Red Teaming': 'mind', // critical thinking / judgment, not the gen catch-all
   };
   const pNoExt = p.replace(/\.md$/, '');
   if (OVERRIDE[pNoExt]) return OVERRIDE[pNoExt];
@@ -138,7 +137,7 @@ function assignDomain(note) {
   if (tags.some((t) => ['agentic', 'agent', 'tooling', 'workflow'].includes(t))) return 'agentic';
   if (tags.some((t) => ['chinese', '中文', 'vietnamese', 'language', 'mandarin'].includes(t))) return 'language';
   if (tags.some((t) => ['focus', 'attention', 'self-management'].includes(t))) return 'focus';
-  if (tags.some((t) => ['mind', 'decision', 'judgment', 'red team'].includes(t))) return 'mind';
+  if (tags.some((t) => ['mind', 'decision', 'judgment'].includes(t))) return 'mind';
 
   // Root-level or wiki/ top files
   if (note.rel === 'about.md' || note.rel === 'index.md' || note.rel.startsWith('wiki/')) {

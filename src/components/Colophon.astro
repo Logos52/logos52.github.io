@@ -1,0 +1,26 @@
+---
+interface Props {
+  active?: string;
+}
+const { active } = Astro.props;
+const nav = [
+  { id: 'home', label: 'Home', href: '/' },
+  { id: 'map', label: 'Map', href: '/map/' },
+  { id: 'projects', label: 'Projects', href: '/projects/' },
+  { id: 'journal', label: 'Journal', href: '/journal/' },
+  { id: 'about', label: 'About', href: '/about/' },
+];
+---
+
+<footer class="colophon">
+  <nav class="colophon__nav" aria-label="Footer">
+    {
+      nav.map((item) => (
+        <a class="colophon__link" href={item.href} aria-current={active === item.id ? 'page' : undefined}>
+          {item.label}
+        </a>
+      ))
+    }
+  </nav>
+  <p class="colophon__meta">Logos52</p>
+</footer>

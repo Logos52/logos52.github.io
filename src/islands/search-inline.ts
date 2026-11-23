@@ -28,7 +28,7 @@ const excerptHtml = (s: string) => s.replace(/<(?!\/?mark\b)[^>]*>/g, '');
 
 /**
  * Every note's markdown body opens with an <h1> repeating its title (hidden on the page by
- * `.kb-prose > h1`, but Pagefind indexes hidden text), so the excerpt opened by saying the title
+ * `.copy--note > h1`, but Pagefind indexes hidden text), so the excerpt opened by saying the title
  * the row already shows one line above. Drop that leading restatement. Returns the excerpt
  * untouched whenever the opening is not the title, so a genuine match at the top is never eaten.
  */
@@ -77,18 +77,18 @@ export function initInlineSearch(root: HTMLElement): void {
     list.innerHTML = '';
     if (!input.value.trim()) return show(false);
     if (!rows.length) {
-      list.innerHTML = '<p class="kb-ac-empty">No notes found.</p>';
+      list.innerHTML = '<p class="find__empty">No notes found.</p>';
       return show(true);
     }
     rows.forEach((r, i) => {
       const a = document.createElement('a');
       a.href = r.url;
-      a.className = 'kb-ac-row' + (i === active ? ' on' : '');
+      a.className = 'find__row' + (i === active ? ' on' : '');
       a.innerHTML =
-        `<span class="kb-ac-title">${esc(r.title)}</span>` +
-        (r.domain ? `<span class="kb-ac-domain">${esc(r.domain)}</span>` : '') +
+        `<span class="find__title">${esc(r.title)}</span>` +
+        (r.domain ? `<span class="find__domain">${esc(r.domain)}</span>` : '') +
         (r.excerpt
-          ? `<span class="kb-ac-ex">${dropTitlePrefix(excerptHtml(r.excerpt), r.title)}</span>`
+          ? `<span class="find__excerpt">${dropTitlePrefix(excerptHtml(r.excerpt), r.title)}</span>`
           : '');
       a.addEventListener('mousedown', (e) => {
         e.preventDefault();
@@ -122,7 +122,7 @@ export function initInlineSearch(root: HTMLElement): void {
       active = -1;
       render();
     } catch {
-      list.innerHTML = '<p class="kb-ac-empty">Search index loading…</p>';
+      list.innerHTML = '<p class="find__empty">Search index loading…</p>';
       show(true);
     }
   };
@@ -165,7 +165,7 @@ export function initInlineSearch(root: HTMLElement): void {
     document.addEventListener('keydown', (e) => {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
-        document.querySelector<HTMLInputElement>('.kb-chrome [data-search-input]')?.focus();
+        document.querySelector<HTMLInputElement>('[data-search-input]')?.focus();
       }
     });
   }

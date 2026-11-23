@@ -1,8 +1,6 @@
 ---
-import Base from '../layouts/Base.astro';
-import Icon from '../components/Icon.astro';
+import Shell from '../layouts/Shell.astro';
 import { DOMAINS, DOMAIN_LABELS, DOMAIN_STANCES, type Domain } from '../lib/types';
-import { DOMAIN_ICONS } from '../lib/icons';
 import { slugifyFilePath, slugToUrl } from '../lib/slug';
 
 const objective =
@@ -23,177 +21,48 @@ const buildersHref = slugToUrl(
 );
 ---
 
-<Base title="Logos52" description={objective} active="home">
-  <main class="home">
-    <div class="wrap">
-      <section class="hero">
-        <p class="hero__objective">{objective}</p>
-      </section>
+<Shell title="Logos52" description={objective} active="home">
+  <main class="page">
+    <p class="lede" data-home-objective>{objective}</p>
 
-      <section class="spotlight" aria-labelledby="spotlight-head">
-        <h2 id="spotlight-head" class="spotlight__head">Builders' Logs 2026</h2>
-        <p class="spotlight__copy">
-          Thirteen agent builders in bridge order, with Grok and Anthropic lab sections, dated source
-          links, and person pages (who they are, mindset, setup, timeline).
-        </p>
-        <a class="spotlight__link" href={buildersHref}>Open Builders' Logs 2026</a>
-      </section>
+    <section class="band" aria-labelledby="logs-head">
+      <h2 id="logs-head" class="band__title">Builders' Logs 2026</h2>
+      <ul class="word">
+        <li>
+          <a class="word__link" href={buildersHref}>
+            <span class="word__title">Open Builders' Logs 2026</span>
+            <span class="word__meta">
+              Thirteen agent builders in bridge order, with Grok and Anthropic lab sections, dated source
+              links, and person pages.
+            </span>
+          </a>
+        </li>
+      </ul>
+    </section>
 
-      <section class="doors" aria-labelledby="doors-head">
-        <h2 id="doors-head" class="doors__head">Where to start</h2>
-        <ul class="doors__list">
-          {DOMAINS.map((d: Domain) => (
+    <section class="band" aria-labelledby="start-head">
+      <h2 id="start-head" class="band__title">Where to start</h2>
+      <ul class="word">
+        {
+          DOMAINS.map((d: Domain) => (
             <li>
-              <a class="door" href={`/domains/${d}/`} style={`--dc:var(--d-${d})`}>
-                <span class="door__label">
-                  <Icon name={DOMAIN_ICONS[d]} size="16px" class="door__icon" />
-                  {DOMAIN_LABELS[d]}
-                </span>
-                <span class="door__stance">{DOMAIN_STANCES[d]}</span>
+              <a class="word__link" href={`/domains/${d}/`}>
+                <span class="word__title">{DOMAIN_LABELS[d]}</span>
+                <span class="word__meta">{DOMAIN_STANCES[d]}</span>
               </a>
             </li>
-          ))}
-        </ul>
-      </section>
+          ))
+        }
+      </ul>
+    </section>
 
-      <section class="topmind" aria-labelledby="topmind-head">
-        <h2 id="topmind-head" class="topmind__head">Top of mind</h2>
-        <ul class="topmind__lines">
-          {topOfMind.map((line) => (
-            <li>{line}</li>
-          ))}
-        </ul>
-      </section>
+    <section class="band" aria-labelledby="mind-head">
+      <h2 id="mind-head" class="band__title">Top of mind</h2>
+      <ul class="lines">
+        {topOfMind.map((line) => <li>{line}</li>)}
+      </ul>
+    </section>
 
-      <p class="omit">{omitted}</p>
-    </div>
+    <p class="quiet">{omitted}</p>
   </main>
-</Base>
-
-<style>
-  .wrap {
-    max-width: var(--kb-content);
-    margin: 0 auto;
-    padding: 48px 28px 56px;
-  }
-  .hero__objective {
-    font-family: var(--ming);
-    font-size: var(--kb-text-h2-shell);
-    line-height: var(--kb-lh-snug);
-    color: var(--ink);
-    margin: 0;
-    max-width: 40rem;
-  }
-  .spotlight {
-    margin-top: 28px;
-    padding: 18px 0 20px;
-    border-top: 1px solid var(--rule);
-    border-bottom: 1px solid var(--rule);
-    max-width: 44rem;
-  }
-  .spotlight__head {
-    font-family: var(--ming);
-    font-size: var(--kb-text-md);
-    font-weight: 600;
-    margin: 0 0 8px;
-    color: var(--ink);
-  }
-  .spotlight__copy {
-    font-family: var(--ming);
-    font-size: var(--kb-text-base);
-    line-height: var(--kb-lh-body);
-    color: var(--mut);
-    margin: 0 0 12px;
-  }
-  .spotlight__link {
-    font-family: var(--ming);
-    font-size: var(--kb-text-base);
-    font-weight: 600;
-    color: var(--accent);
-    text-decoration: none;
-  }
-  .spotlight__link:hover {
-    text-decoration: underline;
-  }
-  .doors {
-    margin-top: 40px;
-  }
-  .doors__head,
-  .topmind__head {
-    font-family: var(--ming);
-    font-size: var(--kb-text-base);
-    font-weight: 600;
-    margin: 0 0 14px;
-    color: var(--ink);
-  }
-  .doors__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    gap: 0;
-  }
-  .door {
-    display: grid;
-    gap: 6px;
-    padding: 16px 0;
-    border-top: 1px solid var(--rule);
-    text-decoration: none;
-    color: inherit;
-  }
-  .doors__list li:last-child .door {
-    border-bottom: 1px solid var(--rule);
-  }
-  .door:hover .door__label {
-    color: var(--accent);
-  }
-  .door__label {
-    font-family: var(--ming);
-    font-size: var(--kb-text-md);
-    font-weight: 600;
-    color: var(--ink);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .door :global(.door__icon) {
-    color: var(--dc);
-    opacity: 0.85;
-  }
-  .door__stance {
-    font-family: var(--ming);
-    font-size: var(--kb-text-base);
-    line-height: var(--kb-lh-body);
-    color: var(--mut);
-    max-width: 44rem;
-  }
-  .topmind {
-    margin-top: 36px;
-  }
-  .topmind__lines {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    gap: 10px;
-  }
-  .topmind__lines li {
-    font-family: var(--ming);
-    font-size: var(--kb-text-base);
-    line-height: var(--kb-lh-body);
-    color: var(--ink);
-    max-width: 44rem;
-  }
-  .omit {
-    margin: 36px 0 0;
-    font-family: var(--ming);
-    font-size: var(--kb-text-sm);
-    color: var(--faint);
-    max-width: 40rem;
-  }
-  @media (max-width: 640px) {
-    .wrap {
-      padding: 36px 16px 48px;
-    }
-  }
-</style>
+</Shell>

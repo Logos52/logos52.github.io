@@ -94,10 +94,6 @@ Overthinking repairs through targeted thinking and one small action now. Between
 
 **Status conversations:** status games run through practical talk, connection, and vulnerability. Neediness and performed vulnerability differ from honesty; three conversation types (practical, connection, feeling) need different tools. Status is not one villain—it's a resource to notice without letting it pick your words.
 
-## Checks on plans and claims
-
-[[wiki/Red Team/Red Teaming|Red Teaming]] stress-tests plans and reasoning before commitment—premortems, assumption checks, frame tests, epistemic loops, close reading of persuasive text. It belongs in the same toolkit as the razors above.
-
 ## How to practice this
 
 1. Before a big choice: If I made this kind of choice twenty more times, would my position strengthen or weaken? Write a pre-outcome note.

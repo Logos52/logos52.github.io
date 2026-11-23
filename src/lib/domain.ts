@@ -20,7 +20,6 @@ const FOLDER_DOMAIN: { prefix: string; domain: Domain }[] = [
   { prefix: 'wiki/Language/', domain: 'world' },
   { prefix: 'wiki/Resources/', domain: 'world' },
   { prefix: 'wiki/Decision-Making/', domain: 'world' },
-  { prefix: 'wiki/Red-Team/', domain: 'world' },
   { prefix: 'wiki/Worldviews', domain: 'world' },
   { prefix: 'wiki/Story-Craft/', domain: 'world' },
   { prefix: 'wiki/Argument-Validation/', domain: 'world' },

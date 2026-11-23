@@ -11,7 +11,6 @@ tags:
   - ai-policy
   - regulatory-capture
   - incentives
-  - red-teaming
 ---
 
 # Regulatory Capture via Doom-Marketing
@@ -104,11 +103,6 @@ A motivated reader can fail almost any regulation on the checks alone; discounti
 ## The danger and the gate are separate questions
 
 The danger and the gate stay separable, and that separation is what makes the concept usable. Whether a model is dangerous is a question the alarm itself cannot settle. Who ends up holding the gate is decided by the fixed cost of the regime built in response. That cost can be read while the fight is still open, before anyone knows whether the danger was real. Diffusion may still outrun all of it, since a model that fits on a USB drive is hard to keep behind a gate. The four checks are what to run in the meantime.
-
-## Related pages
-
-- Epistemic Exceptionalism
-- [[wiki/Red Team/Red Teaming|Red Teaming]]
 
 ## Sources
 

@@ -64,7 +64,6 @@ Most guidance here comes from one practitioner's account and from this vault's o
 - [[wiki/Systems/AI & Agentic Systems/Context Engineering|Context Engineering]]: what goes into the model's window
 - [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|Working With a Model That Cannot Remember]]: no persistent memory as a constraint
 - [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]]: why understanding stays with you
-- [[wiki/Red Team/Red Teaming|Red Teaming]]: testing output before trusting it
 - [[wiki/Systems/AI & Agentic Systems/pstack|pstack]]: proof from the running app
 
 ## Open questions
