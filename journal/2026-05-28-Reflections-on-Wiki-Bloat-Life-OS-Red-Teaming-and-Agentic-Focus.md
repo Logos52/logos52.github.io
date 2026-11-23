@@ -1,6 +1,6 @@
 ---
-title: "Reflections on Wiki Bloat, Life OS Placement, Red Teaming Scope, and Agentic Focus Discipline"
-description: "Journal entry capturing the shift back to primary work in the LLM knowledge base, concerns about self-updating wiki quality and bloat, decisions on Life OS dashboard location (single home vs adjacent), further Red Teaming pruning to Applied Critical Thinking only, excitement around practical agentic engineering limits, and the new surface of distractability during AI/agent sessions."
+title: "Reflections on Wiki Bloat, Life OS Placement, and Agentic Focus Discipline"
+description: "Journal entry capturing the shift back to primary work in the LLM knowledge base, concerns about self-updating wiki quality and bloat, decisions on Life OS dashboard location (single home vs adjacent), excitement around practical agentic engineering limits, and the new surface of distractability during AI/agent sessions."
 type: journal-entry
 created: 2026-05-28
 updated: 2026-05-28
@@ -9,13 +9,12 @@ tags:
   - llm-knowledge-base
   - self-updating-wiki
   - life-os
-  - red-teaming
   - agentic-engineering
   - focus
   - cos
 ---
 
-# Reflections on Wiki Bloat, Life OS Placement, Red Teaming Scope, and Agentic Focus Discipline
+# Reflections on Wiki Bloat, Life OS Placement, and Agentic Focus Discipline
 
 **Date reflected:** 2026-05-28  
 **Logged:** 2026-05-28  
@@ -29,7 +28,6 @@ Several live tensions surfaced today:
 
 - Real fear that aggressive self-updating wiki mechanisms will produce volume at the expense of the quality and tone I actually want to live with.
 - The practical question of where to build Life OS / dashboard capabilities now that daily life is returning here.
-- Further pruning of Red Teaming to only the timeless core (Applied Critical Thinking).
 - The specific new flavor of distractability that appears when working with coding agents and autonomous tools: rabbit holes that feel productive in the moment but later reveal themselves as misaligned with higher-order intent.
 - The COS dashboard experiment itself is now useful data: a well-intentioned build that proved too clunky for actual daily use.
 
@@ -60,14 +58,6 @@ The adjacent model preserves the knowledge base as a high-integrity environment 
 
 I need clearer options on feasibility, data contracts, and where the actual daily surface should live.
 
-## Red Teaming Scope
-
-I am further narrowing Red Teaming in the wiki. Most of the team-oriented, workshop, and large-staff planning material from the original handbook has become less relevant in an era where a single person plus capable agents can generate structured dissent on demand.
-
-What remains valuable is the core of Applied Critical Thinking — testing frames, surfacing assumptions, looking for the shortcut, and maintaining the habit of treating one's own first conclusions as hypotheses. That section still feels timeless and directly useful to the Five Dimensions and agentic work.
-
-Everything else in the Red Team folder can be treated as historical context or personal archive rather than active operating knowledge. This is consistent with the earlier pruning note in `journal/red-team-pruning.md`.
-
 ## Agentic Engineering Momentum and the New Distractability
 
 Working with coding agents and autonomous tools feels like the early days of having a computer with internet. Suddenly a huge class of "I wish I could just..." tasks becomes tractable. Structure, small tools, data movement, and UI experiments that used to require days or weeks of friction are now hours or minutes.
@@ -85,8 +75,6 @@ The pattern across these reflections is consistent with the wiki's own diagnosti
 The self-updating wiki worry is the same "Shortcut Problem" and "Are You Learning or Just Using Techniques" dynamic, just applied to the maintenance of the second brain itself.
 
 The Life OS placement question is a boundary and architecture decision — exactly the kind of thing the Agentic Engineering pages say should be handled with clear specs and human taste rather than defaulting to the easiest integration.
-
-The Red Teaming pruning is a healthy application of first-principles review: keep the mechanism that still produces better thinking, drop the parts that were optimized for a different context.
 
 The rabbit-hole distractability during agent work is the new version of the return-to-anchor problem. The old Focus Management tools were built for a different surface (feeds, notifications, internal resistance). The agentic surface removes different kinds of friction and therefore creates different kinds of invisible drift.
 

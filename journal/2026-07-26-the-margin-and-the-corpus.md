@@ -9,7 +9,6 @@ tags:
   - ai-policy
   - economics
   - open-source
-  - red-teaming
 ---
 
 # The Margin and the Corpus

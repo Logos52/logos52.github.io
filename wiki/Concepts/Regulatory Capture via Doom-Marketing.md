@@ -11,7 +11,6 @@ tags:
   - ai-policy
   - regulatory-capture
   - incentives
-  - red-teaming
 ---
 
 # Regulatory Capture via Doom-Marketing

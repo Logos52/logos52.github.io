@@ -12,7 +12,6 @@ tags:
   - empathy
   - evolutionary-psychology
   - culture
-  - red-teaming
 ---
 
 # Suicidal Empathy
