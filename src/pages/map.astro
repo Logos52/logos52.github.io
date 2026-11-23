@@ -4,7 +4,8 @@ import Shell from '../layouts/Shell.astro';
 import Constellation from '../components/Constellation.astro';
 import { resolveDomain } from '../lib/domain';
 import { deriveFirstImage, deriveSourceLine, deriveTitle } from '../lib/note';
-import { slugToUrl } from '../lib/slug';
+import { simplifySlug, slugToUrl } from '../lib/slug';
+import { byHubThen } from '../lib/folder-order';
 import { DOMAINS, DOMAIN_LABELS, type Domain } from '../lib/types';
 
 const notes = await getCollection('notes');
@@ -25,6 +26,84 @@ const rows = notes
   .sort((a, b) => a.title.localeCompare(b.title));
 
 const rowsJson = JSON.stringify(rows);
+
+function folderLabel(segment: string): string {
+  return segment.replace(/--and--/g, ' & ').replace(/-+/g, ' ');
+}
+
+function sectionOf(id: string): { key: string; label: string } {
+  const parts = id.split('/').filter(Boolean);
+  parts.pop();
+  if (parts.length === 0) return { key: '', label: 'Top level' };
+  return { key: parts.join('/'), label: parts.map(folderLabel).join(' / ') };
+}
+
+const OTHER = 'Other';
+
+type ContentPage = { title: string; url: string; type?: string };
+type SectionGroup = { label: string; count: number; pages: ContentPage[] };
+type TypeGroup = { label: string; count: number; sections: SectionGroup[] };
+
+const contentPages = notes.filter((n) => simplifySlug(n.id) !== '/' && n.id !== 'notes/index');
+const buckets = new Map<string, Map<string, { label: string; pages: ContentPage[] }>>();
+
+for (const n of contentPages) {
+  const raw = typeof n.data.type === 'string' ? n.data.type.trim() : '';
+  const typeLabel = raw || OTHER;
+  const section = sectionOf(n.id);
+  let sections = buckets.get(typeLabel);
+  if (!sections) {
+    sections = new Map();
+    buckets.set(typeLabel, sections);
+  }
+  let group = sections.get(section.key);
+  if (!group) {
+    group = { label: section.label, pages: [] };
+    sections.set(section.key, group);
+  }
+  group.pages.push({
+    title: deriveTitle(n.data, n.id, n.body),
+    url: slugToUrl(n.id),
+    type: raw,
+  });
+}
+
+function byCountThenName<T extends { count: number; label: string }>(a: T, b: T): number {
+  return b.count - a.count || a.label.localeCompare(b.label, 'en');
+}
+
+const typeGroups: TypeGroup[] = [];
+for (const [label, sections] of buckets) {
+  const sectionGroups: SectionGroup[] = [];
+  for (const group of sections.values()) {
+    group.pages.sort(
+      byHubThen(
+        (a, b) => a.title.localeCompare(b.title, 'en') || a.url.localeCompare(b.url),
+        (page) => page.type,
+      ),
+    );
+    sectionGroups.push({ label: group.label, count: group.pages.length, pages: group.pages });
+  }
+  sectionGroups.sort(byCountThenName);
+  const count = sectionGroups.reduce((sum, group) => sum + group.count, 0);
+  typeGroups.push({ label, count, sections: sectionGroups });
+}
+
+const otherGroups = typeGroups.filter((group) => group.label === OTHER);
+const contentMap = [
+  ...typeGroups.filter((group) => group.label !== OTHER).sort(byCountThenName),
+  ...otherGroups,
+];
+const contentMapCount = contentMap.reduce((sum, group) => sum + group.count, 0);
+const otherCount = otherGroups.reduce((sum, group) => sum + group.count, 0);
+if (contentMapCount !== contentPages.length) {
+  throw new Error(`Content map lists ${contentMapCount} pages; the site builds ${contentPages.length} note pages.`);
+}
+
+const contentMapDek =
+  otherCount > 0
+    ? `${contentMapCount} pages. ${otherCount} with no type.`
+    : `${contentMapCount} pages.`;
 ---
 
 <Shell title="Map" description="The vault graph and every wiki page." active="map">
@@ -57,6 +136,51 @@ const rowsJson = JSON.stringify(rows);
       <p class="word__empty" data-map-empty hidden>No pages match.</p>
       <ul class="word" data-map-list></ul>
       <script type="application/json" id="map-rows-data" set:html={rowsJson} />
+    </section>
+
+    <section
+      class="band cmap"
+      data-content-map
+      data-content-map-count={contentMapCount}
+      data-content-map-other={otherCount}
+      data-pagefind-ignore
+      aria-labelledby="content-map-title"
+    >
+      <h2 id="content-map-title" class="band__title">Content map</h2>
+      <p class="page__dek">{contentMapDek}</p>
+      <div class="cmap__tree">
+        {
+          contentMap.map((type) => (
+            <details class="cmap__type">
+              <summary>
+                {type.label}
+                <span class="cmap__n">
+                  {type.count} {type.count === 1 ? 'page' : 'pages'}
+                </span>
+              </summary>
+              {type.sections.map((section) => (
+                <details class="cmap__section">
+                  <summary>
+                    {section.label}
+                    <span class="cmap__n">
+                      {section.count} {section.count === 1 ? 'page' : 'pages'}
+                    </span>
+                  </summary>
+                  <ul class="cmap__pages">
+                    {section.pages.map((page) => (
+                      <li>
+                        <a class="cmap__link" href={page.url}>
+                          {page.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              ))}
+            </details>
+          ))
+        }
+      </div>
     </section>
   </main>
 </Shell>

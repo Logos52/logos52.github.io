@@ -9,6 +9,7 @@ import type { GetStaticPaths } from 'astro';
 import Shell from '../../layouts/Shell.astro';
 import { deriveTitle, deriveSummary } from '../../lib/note';
 import { slugToUrl } from '../../lib/slug';
+import { byHubThen } from '../../lib/folder-order';
 
 function display(seg: string): string {
   return seg.replace(/--and--/g, ' & ').replace(/-+/g, ' ');
@@ -35,7 +36,7 @@ export const getStaticPaths = (async () => {
 const { folder } = Astro.params as { folder: string };
 const notes = await getCollection('notes');
 
-type Page = { title: string; href: string; summary: string };
+type Page = { title: string; href: string; summary: string; type?: string };
 type Group = { name: string; href: string; count: number };
 
 const pages: Page[] = [];
@@ -59,6 +60,7 @@ for (const n of notes) {
       title: deriveTitle(n.data, n.id, n.body),
       href: slugToUrl(n.id),
       summary: clip(deriveSummary(n.data, n.body)),
+      type: typeof n.data.type === 'string' ? n.data.type : '',
     });
   } else {
     const seg = rest.slice(0, slash);
@@ -66,7 +68,12 @@ for (const n of notes) {
   }
 }
 
-pages.sort((a, b) => a.title.localeCompare(b.title));
+pages.sort(
+  byHubThen(
+    (a, b) => a.title.localeCompare(b.title),
+    (page) => page.type,
+  ),
+);
 const subfolders: Group[] = [...groups.entries()]
   .map(([name, count]) => ({
     name: display(name),
