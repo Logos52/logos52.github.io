@@ -75,7 +75,7 @@ Chapter 8, "Inoculation Against Suicidal Empathy", gives five practical defenses
 
 ## Where this book fits in the wiki
 
-This book belongs under [[wiki/Books/Suicidal Empathy|Suicidal Empathy]], [[wiki/Red Team/Red Teaming|Red Teaming]], [[wiki/Red Team/Red Teaming|Applied Critical Thinking]], [[wiki/Dimensions/Mindset|Mindset]], and [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
+This book belongs under [[wiki/Books/Suicidal Empathy|Suicidal Empathy]], [[wiki/Dimensions/Mindset|Mindset]], and [[wiki/Dimensions/Self-Regulation|Self-Regulation]].
 
 It gives the clearest account so far of why empathy must be delayed and filtered on purpose before it is allowed to drive policy, institutional design, or personal decisions. The five defenses in Chapter 8 apply to any high-stakes decision where emotional pressure is strong.
 
@@ -90,7 +90,6 @@ It gives the clearest account so far of why empathy must be delayed and filtered
 ## Related pages
 
 - [[wiki/Books/The Parasitic Mind|The Parasitic Mind]]: the earlier book, on the cognitive side.
-- [[wiki/Red Team/Red Teaming|Red Teaming]]: the defenses in the final chapter are red teaming applied to the empathy response.
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]: calibrated empathy is a core self-regulation skill.
 - [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]]: following a process before committing emotionally.
 

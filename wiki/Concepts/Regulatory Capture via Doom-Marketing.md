@@ -105,11 +105,6 @@ A motivated reader can fail almost any regulation on the checks alone; discounti
 
 The danger and the gate stay separable, and that separation is what makes the concept usable. Whether a model is dangerous is a question the alarm itself cannot settle. Who ends up holding the gate is decided by the fixed cost of the regime built in response. That cost can be read while the fight is still open, before anyone knows whether the danger was real. Diffusion may still outrun all of it, since a model that fits on a USB drive is hard to keep behind a gate. The four checks are what to run in the meantime.
 
-## Related pages
-
-- [[wiki/Red Team/Epistemic Exceptionalism|Epistemic Exceptionalism]]
-- [[wiki/Red Team/Red Teaming|Red Teaming]]
-
 ## Sources
 
 - All-In Podcast, *World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal* (YouTube, 2026-06-20). The argument originates with the panel's read of the Mythos/Fable episode. Local transcript in `raw/processed`.

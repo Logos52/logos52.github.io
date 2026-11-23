@@ -63,7 +63,6 @@ Use the habits in low-stakes order: conclusion first in any answer longer than t
 ## Related pages
 
 - [[wiki/Concepts/Good Faith|Good Faith]] — stance behind costly-honest feedback
-- [[wiki/Red Team/Red Teaming|Applied Critical Thinking - Testing Frames]] — written falsifiers
 - [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] — explanatory depth
 - [[wiki/Writing Craft/The Cold Open|The Cold Open]] — conclusion-first page shape
 - [[wiki/Concepts/Levels of Thinking - The Step Back|Levels of Thinking - The Step Back]] — stepping back from reaction
