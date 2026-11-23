@@ -67,7 +67,7 @@ The library is append-only like the map or tree: each session moves items to a p
 
 ## Where push still belongs
 
-Domains with nothing to accumulate still need push. [[wiki/Dimensions/Self-Regulation/How to shift your brain to be motivated (when you don't feel like it)|DFUZ]] is a one-session unhook from not wanting to start—a reserve, not a daily motor. The price of pull is design work up front.
+Domains with nothing to accumulate still need push. [[wiki/Dimensions/Self-Regulation|DFUZ]] is a one-session unhook from not wanting to start—a reserve, not a daily motor. The price of pull is design work up front.
 
 ## Related pages
 

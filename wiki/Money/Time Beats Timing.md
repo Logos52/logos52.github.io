@@ -42,7 +42,7 @@ The stay-in rule applies to invested surplus, not to every dollar. Some experien
 
 The behavioural check is simple. The last discretionary portfolio action should be months old, not days old. Checking prices is not a trade, but daily price-checking is the habit that precedes a sale. When the check fails, the repair is process design—not a better market forecast.
 
-Automatic contributions move money in without choosing an entry date. Rebalancing happens on a calendar date, not on headlines. A no-news rule removes the cue that triggers panic. [[wiki/Decision Making/Judging a Decision by Its Process|Judging a Decision by Its Process]] is the general case: judge the investing routine by whether the process was followed, not by whether this quarter’s statement looked good.
+Automatic contributions move money in without choosing an entry date. Rebalancing happens on a calendar date, not on headlines. A no-news rule removes the cue that triggers panic. [[wiki/Razors|Judging a Decision by Its Process]] is the general case: judge the investing routine by whether the process was followed, not by whether this quarter’s statement looked good.
 
 To calibrate: note the date of your last discretionary trade, count how many days this week you checked prices, list each fund’s annual fee, and see whether any action still traces to a news item. Months-old actions and fee awareness are signs the horizon is intact.
 

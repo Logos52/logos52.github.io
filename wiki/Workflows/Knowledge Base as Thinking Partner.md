@@ -68,19 +68,19 @@ The system serves current judgment, not only future retrieval. The prompts that 
 
 The graph, the index, the backlinks, and the obvious links are enough. The starter packs below are entry points into this wiki. They are not summaries of the pages they name. The categories stay stable. The specific entries follow the live page names.
 
-Learning: [[wiki/Planning and Automation|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] is the encoding-and-retrieval synthesis. [[wiki/Razors|First Principles of Learning]] is the mechanism layer. [[wiki/Razors|Are You Learning, or Just Using Techniques]] is the diagnostic that asks whether the method is doing any work. [[wiki/Dimensions/Deep Processing/Knowledge Mastery - From Recognition to Usable Knowledge|Knowledge Mastery: From Recognition to Usable Knowledge]] is the ladder from recognition to use.
+Learning: [[wiki/Planning and Automation|Prestudy, BHS, and SIR: Turning Information into Usable Structure]] is the encoding-and-retrieval synthesis. [[wiki/Razors|First Principles of Learning]] is the mechanism layer. [[wiki/Razors|Are You Learning, or Just Using Techniques]] is the diagnostic that asks whether the method is doing any work. [[wiki/Dimensions/Deep Processing|Knowledge Mastery: From Recognition to Usable Knowledge]] is the ladder from recognition to use.
 
 Execution: [[wiki/Self Management/Flow State|Attention Management: Preserving Flow]] is the entry page for preserving flow. [[wiki/Self Management/Flow State|Focus Management: How to Enter & Recover Inside a Work Block]] is entry and recovery inside a block. [[wiki/Self Management/Time Management, Attention & Scheduling|Procrastination: a System Problem]] treats delay as a system, not a character flaw. [[wiki/Razors|Decisional Delays]] is the stall that resembles thinking.
 
 Judgment: [[wiki/Razors|Decision Making]] is the decision page. [[wiki/Razors|How to Communicate Truth Into Someone Else's Frame]] is the transfer problem. [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] is empathy that removes a necessary limit.
 
-Building: [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] is how agents get built here. [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]] is the comprehension stall. [[wiki/Dimensions/Deep Processing/Interleaving for Complex Problem Solving|Interleaving for Complex Problem Solving]] is mixed practice on hard work.
+Building: [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] is how agents get built here. [[wiki/Concepts/Understanding Bottleneck|Understanding Bottleneck]] is the comprehension stall. Interleaving for Complex Problem Solving is mixed practice on hard work.
 
 ### 3. Work the tension between pages
 
 The useful material is usually the tension between pages rather than anything in a single page. Look for a concept with no operating model; two pages that imply different actions; a repeated failure mode; a missing link between theory and practice; a technique that does not change behavior; an interest with no next action.
 
-Pages that came from that tension: [[wiki/Razors|Balancing Multiple Interests: Breadth v Focus]] is the collision between breadth and focus. [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] is the faster path that skips the encoding. [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]] is method that looks right and changes nothing. [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] is the unlearning problem.
+Pages that came from that tension: [[wiki/Razors|Balancing Multiple Interests: Breadth v Focus]] is the collision between breadth and focus. [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] is the faster path that skips the encoding. [[wiki/Dimensions/Self-Regulation|The Technique Is Only as Good as the Thinking It Produces]] is method that looks right and changes nothing. [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|How to Unlearn Old or Bad Habits Efficiently]] is the unlearning problem.
 
 ### 4. Convert the insight into a handle
 
@@ -88,10 +88,10 @@ A handle is a short name, question, or rule that can be used again later when th
 
 Worked conversions:
 
-- "better study habits" → [[wiki/Dimensions/Deep Processing/Prestudy|Prestudy]], [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- "better study habits" → Prestudy, [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
 - "too many interests" → [[wiki/Razors|Balancing Multiple Interests: Breadth v Focus]], [[wiki/Self Management/Priority 0+1 System|Priority 0+1]]
 - "consuming without changing" → [[wiki/Razors|Are You Thinking, or Just Consuming?]]
-- "method looks right but nothing improves" → [[wiki/Dimensions/Self-Regulation/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
+- "method looks right but nothing improves" → [[wiki/Dimensions/Self-Regulation|The Technique Is Only as Good as the Thinking It Produces]]
 
 ### 5. File the result into the smallest useful destination
 

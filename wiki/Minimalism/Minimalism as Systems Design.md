@@ -44,7 +44,7 @@ Wanting less is one question at the moment of wanting: what is this purchase sup
 
 ## Wabi-sabi at the margin
 
-Wabi-sabi is an aesthetic stance—naturalness, simplicity, imperfection from age, wear, or deliberate roughness—not a minimalism technique. Wear must have happened through use; it does not license shipping sloppy work. In this vault it is a taste call on the Human track of [[wiki/Concepts/Human vs AI Capability Lens|Human vs AI Capability Lens]], linkable when design work needs a named Human standout.
+Wabi-sabi is an aesthetic stance—naturalness, simplicity, imperfection from age, wear, or deliberate roughness—not a minimalism technique. Wear must have happened through use; it does not license shipping sloppy work. In this vault it is a taste call on the Human track of Human vs AI Capability Lens, linkable when design work needs a named Human standout.
 
 ## The case against mere display
 

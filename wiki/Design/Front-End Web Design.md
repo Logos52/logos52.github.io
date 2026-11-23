@@ -68,7 +68,7 @@ tsumugu-core supplies shared shell and tokens: raw palette variables and a seman
 
 Hide depth behind a clear trigger so the default stays plain. Native `<details>` avoids stuck JS state. Examples: sound-component drift lines, a gear control for four toggle axes, FORM versus STORY cards, and guess-first gloss.
 
-Shift-peek (guess-first) shows no gloss on hover; Shift or touch-tap reveals it so the reader attempts retrieval first—desirable difficulty aligned with [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]]. The tradeoff is cost: users who never find Shift lack a visible affordance; keyboard paths still need a repair that does not drop the default. Emoji-only controls are missing signifiers; pair pictograms with words or `aria-label`.
+Shift-peek (guess-first) shows no gloss on hover; Shift or touch-tap reveals it so the reader attempts retrieval first—desirable difficulty aligned with Learning, Condensed. The tradeoff is cost: users who never find Shift lack a visible affordance; keyboard paths still need a repair that does not drop the default. Emoji-only controls are missing signifiers; pair pictograms with words or `aria-label`.
 
 Toggle layers persist gloss, reading, script, theme, and direction as attributes; sibling spans pre-baked and shown by CSS alone work offline without re-render. Flexibility matters because there is no average user.
 
@@ -95,7 +95,7 @@ Bots widen exploration; they do not replace the designer's choice. The loop used
 1. **Cut vocabulary first.** Decide the few concepts a user must learn; hide the rest until needed. Five recurring concepts beat a sprawl of new terms.
 2. **Frame each surface with questions.** Who is this, what are they doing, how much do I need to know right now—answered together for every major view.
 3. **Explore widely, then pick by a stated criterion.** Generate many directions (initials, emoji, illustration styles, layout variants) and eliminate against a named standard—for example consistent construction at small size, or three levels of computer access instead of one prominent machine that turns users into supervisors.
-4. **Make options real before deciding.** Live prototypes in code or design tools beat slides. None may ship as explored; the point is comparable judgment. Ask an agent for three options using real components, with screenshots or video for review—see [[wiki/Working with Agents/Plan a piece of work with an agent|Plan a piece of work with an agent]].
+4. **Make options real before deciding.** Live prototypes in code or design tools beat slides. None may ship as explored; the point is comparable judgment. Ask an agent for three options using real components, with screenshots or video for review—see [[wiki/Planning and Automation|Plan a piece of work with an agent]].
 5. **Tune with the real asset.** Motion and spacing adjust against the production spec or Figma source of truth, not a screenshot guess. Hand-tune timing, springs, distance, scale, and easing; give short comparative feedback ("bounce is too exaggerated").
 6. **Build one, let the bot scale.** One auto-layout card or component becomes twenty variants when the bot reads real measurements through MCP instead of eyeballing.
 7. **Take things away.** End on removal: did this help someone delegate, or give them one more thing to manage?
@@ -110,7 +110,7 @@ Example prompt shape: name the screen, list required concepts and surface questi
 - [[projects/tsumugu-ed|tsumugu-ed]] — dictionary surface in the examples.
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — memory limits behind persistence and chunking.
 - [[wiki/Concepts/The Screen Inferiority Effect|The Screen Inferiority Effect]] — why reading UI needs extra discipline.
-- [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]] — pedagogy behind guess-first.
+- Learning, Condensed — pedagogy behind guess-first.
 
 ## Open questions
 

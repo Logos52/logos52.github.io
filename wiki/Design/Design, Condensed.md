@@ -44,7 +44,7 @@ The Gulf of Execution sits between intention and the actions the system allows. 
 
 Recognition is easier than recall. Good design shows options instead of demanding memory. Working memory holds roughly three to five items and can be cleared by a single interruption—see [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]]. Break long values into chunks, split long flows into shorter steps, and never let needed information vanish at the moment it is needed: codes, half-filled forms, and results should survive navigation and failure.
 
-Putting the cue in the environment is the same method in rooms and on devices. [[wiki/Minimalism/Environment Design|Environment Design]] applies the rule to physical space: arrange so the right action is the default.
+Putting the cue in the environment is the same method in rooms and on devices. [[wiki/Minimalism/Minimalism as Systems Design|Environment Design]] applies the rule to physical space: arrange so the right action is the default.
 
 ## Constraints and forcing functions
 
@@ -56,7 +56,7 @@ What gets labeled human error is often a system error. Root cause analysis that 
 
 Slips are right goals with wrong execution—capture by a habitual action, confusing similar controls, opaque modes, memory lapses after interruption. Fixes live in the object: differentiate similar controls, make modes obvious or remove them, let interrupted steps resume. Mistakes are wrong goals or plans from faulty models; fix them with clearer state, better feedback, and guidance toward sensible plans.
 
-Assume error. Add constraints, make actions reversible—undo is the strongest tool—and never make people start over for a recoverable mistake. Sensibility checks on absurd input treat what was typed as an approximation, not gospel. The same accuracy-before-speed discipline applies to design and to task work; see [[wiki/Concepts/Accuracy Before Speed|Accuracy Before Speed]].
+Assume error. Add constraints, make actions reversible—undo is the strongest tool—and never make people start over for a recoverable mistake. Sensibility checks on absurd input treat what was typed as an approximation, not gospel. The same accuracy-before-speed discipline applies to design and to task work; see [[wiki/Dimensions/Self-Regulation|Accuracy Before Speed]].
 
 ## Beyond bare usability
 
@@ -76,7 +76,7 @@ Featuritis adds capabilities and rarely removes them. Matching competitors featu
 
 ## Choice architecture
 
-The default is among the most powerful decisions a designer makes, because most people keep it. Friction steers behavior: making the good action slightly easier and the harmful action slightly harder changes what people do without removing choice. The same levers aimed at the user without transparency are dark patterns. Salience must be allocated on purpose; for most users, hiding an option is close to removing it. A nudge that would be rejected once explained is manipulation dressed as design—the test is whether the affected person would still accept the architecture after it is described. [[wiki/Minimalism/Environment Design|Environment Design]] in this vault treats room arrangement as defaults set before willpower engages.
+The default is among the most powerful decisions a designer makes, because most people keep it. Friction steers behavior: making the good action slightly easier and the harmful action slightly harder changes what people do without removing choice. The same levers aimed at the user without transparency are dark patterns. Salience must be allocated on purpose; for most users, hiding an option is close to removing it. A nudge that would be rejected once explained is manipulation dressed as design—the test is whether the affected person would still accept the architecture after it is described. [[wiki/Minimalism/Minimalism as Systems Design|Environment Design]] in this vault treats room arrangement as defaults set before willpower engages.
 
 ## Color
 
@@ -84,7 +84,7 @@ Use color for function before decoration: state, grouping, and hierarchy come fi
 
 ## Owning things is design
 
-Every object kept costs attention, space, and maintenance. A room is an interface; clutter is featuritis at home scale. Discarding follows rules, not mood: kept for someday, guilt, duplication, or a year without use usually means the reason to keep is not use. Possessions signal identity; choosing what remains is designing what you express. Before buying, apply designer standards—one clear job, honest materials, signifiers intact, repairable, still wanted after novelty fades—and the discard rules above. [[wiki/Minimalism/Wanting Less|Wanting Less]] and [[wiki/Minimalism/Ownership Cost|Ownership Cost]] cover the cost side; this page covers the design read of the same choices.
+Every object kept costs attention, space, and maintenance. A room is an interface; clutter is featuritis at home scale. Discarding follows rules, not mood: kept for someday, guilt, duplication, or a year without use usually means the reason to keep is not use. Possessions signal identity; choosing what remains is designing what you express. Before buying, apply designer standards—one clear job, honest materials, signifiers intact, repairable, still wanted after novelty fades—and the discard rules above. [[wiki/Minimalism/Minimalism as Systems Design|Wanting Less]] and [[wiki/Minimalism/Minimalism as Systems Design|Ownership Cost]] cover the cost side; this page covers the design read of the same choices.
 
 ## Finding good design
 
@@ -98,7 +98,7 @@ Making actions discoverable and making them deliberately hard oppose each other.
 
 - [[wiki/Design/Front-End Web Design|Front-End Web Design]] — Norman's principles applied to web UI and agent-assisted screen work.
 - [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load]] — working-memory limits behind knowledge-in-the-world.
-- [[wiki/Minimalism/Environment Design|Environment Design]] — cues and defaults in physical space.
+- [[wiki/Minimalism/Minimalism as Systems Design|Environment Design]] — cues and defaults in physical space.
 - [[wiki/Minimalism/Minimalism, Condensed|Minimalism, Condensed]] — overlapping doctrine from the cost-of-ownership side.
 
 ## Open questions

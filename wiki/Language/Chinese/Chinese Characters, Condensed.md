@@ -58,7 +58,7 @@ Read [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters 
 
 - [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters Work]]: full hub with diagrams and loanword mechanics.
 - [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]]: cross-language sound bridge for Vietnamese speakers.
-- [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]]: pipelining named under script application rules.
+- Learning, Condensed: pipelining named under script application rules.
 
 ## Open questions
 

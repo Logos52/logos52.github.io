@@ -41,5 +41,5 @@ When a process is weak, repeated cycles can find what is going wrong and eventua
 ## Related pages
 
 - [[wiki/Dimensions/Mindset|Mindset]]: marginal gains and growth-mindset work pair with this cycle.
-- [[wiki/Dimensions/Self-Management|Self-Management]]: the dimension this page sits in.
-- [[wiki/Syntheses/ICS System|ICS System]]: the wider learning system.
+- Self-Management: the dimension this page sits in.
+- [[wiki/Planning and Automation|ICS System]]: the wider learning system.

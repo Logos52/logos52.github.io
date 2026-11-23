@@ -134,7 +134,7 @@ As a section after any conclusion: position, strongest counter, condition that w
 
 As a section: one or two lines at the top, then expansion. On every page here it also lives as the **description** line in frontmatter. After expansion, everything in the short version must appear in the long one, and the long one must add nothing the short one does not carry.
 
-As a page: condensed form. One paragraph holds the whole subject for a stranger. Then numbered lines, each a rule that stands without following a link. [[wiki/Dimensions/Mindset/Mindset, Condensed|Mindset, Condensed]] is a live example.
+As a page: condensed form. One paragraph holds the whole subject for a stranger. Then numbered lines, each a rule that stands without following a link. Mindset, Condensed is a live example.
 
 ## All five on one page
 

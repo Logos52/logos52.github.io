@@ -116,8 +116,8 @@ If you must sit through a class that teaches you nothing new, you can reduce how
 
 ## Related pages
 
-- [[wiki/Self Management/Study Scheduling|Study Scheduling]]
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Study Scheduling]]
 - [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]
-- [[wiki/ICS Program Map|ICS Program Map]]
+- [[wiki/Razors|Are You Learning, or Just Using Techniques]]
+- [[wiki/Planning and Automation|ICS Program Map]]
 - [[wiki/Dimensions/Self-Regulation|Self-Regulation]]

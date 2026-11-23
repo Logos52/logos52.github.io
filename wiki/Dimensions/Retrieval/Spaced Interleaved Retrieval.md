@@ -92,7 +92,7 @@ Microlearning is additive, not a substitute for a deep session when you have one
 
 - [[wiki/Dimensions/Retrieval|Retrieval]] — dimension hub.
 - [[wiki/Dimensions/Deep Processing|Deep Processing]] — encoding partner.
-- [[wiki/Dimensions/30-Day Challenges|30-Day Challenges]] — retrieval month track.
+- 30-Day Challenges — retrieval month track.
 
 ## Sources
 

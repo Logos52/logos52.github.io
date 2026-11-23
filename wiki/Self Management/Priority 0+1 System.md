@@ -61,7 +61,7 @@ A workable default: Priority 1 is important and moves a named goal; the early-da
 
 - [[wiki/Planning and Automation|Reverse Goal Setting]]: the work of naming the skills and habits a goal actually requires, which this daily sort then protects.
 - [[wiki/Self Management/Time Management, Attention & Scheduling|Time Management, Attention & Scheduling]]: a repeating calendar those protected blocks can sit inside.
-- [[wiki/Self Management/Techniques in School|Techniques in School]]: how urgent schoolwork tries to crowd out skill work that is not urgent.
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Techniques in School]]: how urgent schoolwork tries to crowd out skill work that is not urgent.
 - [[wiki/Razors|Razors]]: why sorting the night before leaves fewer gaps of "what now?" during the day.
 
 ## Sources

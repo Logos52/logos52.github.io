@@ -83,6 +83,6 @@ Mastery should require evidence the code trusts—unaided tries on separate days
 - [[wiki/Concepts/Four Stages of Competence|Four Stages of Competence]]
 - [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]
 - [[wiki/Dimensions/Retrieval|Retrieval]]
-- [[wiki/Syntheses/Are You Learning, or Just Using Techniques|Are You Learning, or Just Using Techniques]]
+- [[wiki/Razors|Are You Learning, or Just Using Techniques]]
 - [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]]
 - [[wiki/Tsumugu/Tsumugu|Tsumugu]]

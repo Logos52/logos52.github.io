@@ -133,7 +133,7 @@ There is no flat-tone rule for loanwords—the tone is whatever the chosen chara
 - [[wiki/Language/Chinese/Chinese Characters, Condensed|Chinese Characters, Condensed]]: the same rules as one line each.
 - [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]]: Sino-Vietnamese readings as a sound bridge into Mandarin.
 - [[wiki/Language/Refold Language Learning System|Refold Language Learning System]]: immersion and preparation around script work.
-- [[wiki/Syntheses/Learning, Condensed|Learning, Condensed]]: pipelining and sound series under application rules.
+- Learning, Condensed: pipelining and sound series under application rules.
 - [[wiki/Resources/Mandarin Chinese Language Learning Resources|Mandarin Chinese Language Learning Resources]]: input and tools while the script comes online.
 
 ## Open questions
