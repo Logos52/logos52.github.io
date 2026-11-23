@@ -30,7 +30,7 @@ Most arguments here come from credited public sources, especially Basic Logic vi
 6. [[wiki/Worldviews & the Political Order/Group 6 - Immigration and the electorate|Group 6 — Immigration and the electorate]] — Cohesion, accountability, and who votes.
 7. [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|Group 7 — Sex, gender and family]] — Identity claims, feminism, schooling, dating markets.
 
-Read [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] when a moral feeling is doing the work that evidence and proportion should do. Use [[wiki/Red Team/Red Teaming|Red Teaming]] on any page here the same way you would on a plan: state the steelman, name what would change your mind, then read the group that matches the question.
+Read [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] when a moral feeling is doing the work that evidence and proportion should do. On any page here, state the steelman, name what would change your mind, then read the group that matches the question.
 
 ## What this door is for
 

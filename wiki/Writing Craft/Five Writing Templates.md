@@ -153,7 +153,6 @@ On an ordinary page all five run at once. Compression is the description line. A
 
 - [[wiki/Concepts/Five Thinking Habits - Conclusion First|Five Thinking Habits - Conclusion First]] — the spoken habits these shapes come from.
 - [[02 - System/Writing Standards|Writing Standards]] — whole, part, whole and page-type obligations.
-- [[wiki/Red Team/Applied Critical Thinking - Testing Frames|Applied Critical Thinking - Testing Frames]] — what would change the recommendation.
 
 ## Open questions
 
