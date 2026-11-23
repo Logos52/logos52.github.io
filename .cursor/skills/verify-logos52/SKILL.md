@@ -97,6 +97,8 @@ Wiki note (`src/pages/[...slug].astro` → `src/layouts/Article.astro`):
 - `.reading__dek` when the note has a description
 - Type sits in `.reading__meta` as `readerTypeLabel` (`Concept`, `Essay`, `Hub`, `Reference`, …)
 - Breadcrumb `.trail`: last segment is text. `journal` / `personal` / `projects` first segments go to those landings. A `notes` first segment goes to `/map/`. Other crumbs, including `wiki`, go to `/folder/…/`
+- A folder listing sorts a direct child whose type is exactly `hub` ahead of other types, then by title. `topic hub` stays in title order. `/folder/wiki/Story-Craft/` shows `Story Craft` before `Diagnosing a Character`.
+- Spaced paths and naive slugs in `src/redirects/doors/legacy-spaced.json` 301 to the quartz URL. `/wiki/Books/The Parasitic Mind/` lands on `/wiki/Books/The-Parasitic-Mind/`. `/wiki/Concepts/Cave Theory/` lands on `/wiki/Concepts/Cave-Theory/`.
 - Body links `.copy a`. Unresolved targets are `span.missing`
 - A `Related` or `Related pages` list shows five items, then `details.related-more`
 - No rail. `Article.astro` does not render an aside, a TOC, or a local constellation.
@@ -104,6 +106,8 @@ Wiki note (`src/pages/[...slug].astro` → `src/layouts/Article.astro`):
 - Backlinks sit after the prose, inside the article: `section.linked[aria-label="Linked from"]`, heading text `Linked from`. Five `.linked__row` rows, then `details.linked__more`.
 
 Map (`/map/`): `h1[data-map-title]` is `Map`. The phrase `The vault` survives only in the page description (`The vault graph and every wiki page.`), not as the heading. Full graph `[data-constellation-root][data-mode="full"][data-domain-labels]`. Below it, `input[data-map-search]` (`aria-label="Filter pages"`) and `button[data-map-domain]` filter `.word__link` rows (`.word__title`). Those chips filter the list. They are not links to `/domains/…/`. Domain pages are opened from the home doors. A domain `h1` is the label in `DOMAIN_LABELS` (`Learning faster` for `learning`). Domain pages set `active="map"`, so Map is current in the menu. the trail link `Map of Content` returns to `/map/`.
+
+Below the list, `section[data-content-map]` is headed `Content map` (`h2#content-map-title`). The dek states the computed page count (`data-content-map-count`). When `data-content-map-other` is not `0`, the dek also states how many pages have no type. The tree is closed `details`: type by page count with `Other` last, then folder, then `a.cmap__link` titles. It lists every published note except home and `notes/index`. The filter list is wiki pages only. Hub-first order is applied in that tree and on folder pages; inside one content-map folder the pages already share a type, so the visible hub-first check is `/folder/wiki/Story-Craft/`.
 
 `/graph/` redirects to `/map/`. It has no `h1`.
 
