@@ -3,11 +3,11 @@ title: "Living Atlas: graph-as-homepage redesign of the public site"
 type: decision
 status: decided
 created: 2026-06-11
-updated: 2026-06-12
+updated: 2026-11-23
 ruled-out:
   - Keeping the generic-Quartz shape with new colors (the shape was the problem)
   - Two divergent graph palettes (replaced by one domain palette in domains.ts)
-  - Red Team as a front-door focus (pages stay; Money and 中文 take its map hubs)
+  - Red Team as a front-door focus (Money and 中文 take its map hubs)
 supersedes: "[[decisions/2026-05-30-site-full-send-wnab-aesthetic]]"
 tags:
   - decisions
@@ -27,7 +27,7 @@ The diagnosis that forced it: the generic-Quartz look is the *shape*, not the pa
 
 Graph aesthetic, established in QA: **scarcity** — hub-only link rendering, 3 satellites per hub, neutral-gray satellites with color reserved for landmarks. The constellation mockup is the reference standard for all graph surfaces.
 
-Focus shift recorded the same day: Red Team out of the map hubs, Money and Chinese characters in — Wedge's interest moved; the Red Team pages stay but stop being a front door.
+Focus shift recorded the same day: Red Team out of the map hubs, Money and Chinese characters in — Wedge's interest moved. The Red Team pages were deleted on 2026-11-23.
 
 Cost: a full custom shell over Quartz means every future upstream update is a potential merge conflict with our components, and Trails v0 ships as cards rather than real trail pages.
 
