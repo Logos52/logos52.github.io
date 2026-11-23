@@ -137,7 +137,7 @@ function assignDomain(note) {
   if (tags.some((t) => ['agentic', 'agent', 'tooling', 'workflow'].includes(t))) return 'agentic';
   if (tags.some((t) => ['chinese', '中文', 'vietnamese', 'language', 'mandarin'].includes(t))) return 'language';
   if (tags.some((t) => ['focus', 'attention', 'self-management'].includes(t))) return 'focus';
-  if (tags.some((t) => ['mind', 'decision', 'judgment', 'red team'].includes(t))) return 'mind';
+  if (tags.some((t) => ['mind', 'decision', 'judgment'].includes(t))) return 'mind';
 
   // Root-level or wiki/ top files
   if (note.rel === 'about.md' || note.rel === 'index.md' || note.rel.startsWith('wiki/')) {
