@@ -32,7 +32,7 @@ Preconditions:
 ## Gotchas
 
 - Do not look for `.notes-lede`, `h2.notes-head`, `.entry-list`, or a nav link named `Notes`.
-- `Learning, Condensed` is not a published note (`wiki/Syntheses/` is gone). Do not treat a miss on that title as a list failure.
+- `Learning, Condensed` is not a published note title (`wiki/Syntheses/` is gone). A miss on that title in the Map list is not a list failure. `/wiki/Syntheses/Learning,-Condensed/` returns 301 to `/wiki/Dimensions/Dimensions-of-Learning/`, and that page returns 200.
 - The list is client-rendered from `#map-rows-data`. Wait for `.word__title`, not `.map-row__title` and not a fixed sleep.
 - The Map link does not take a class `on`. Current is `aria-current="page"`.
 - The filter matches title, source line, and slug.

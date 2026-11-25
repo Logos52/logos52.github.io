@@ -49,5 +49,5 @@ Preconditions:
 - The first crumb of a wiki note does not return to a Notes index. Menu `Map` is the way back to the list. A folder crumb lands on `/folder/…/`.
 - Folder subfolders are a separate list, sorted by name, and they are not part of the hub sort. On `/folder/wiki/Story-Craft/` the page rows are the note list. The first `.word__title` there is the hub.
 - A naive slug that already equals the quartz URL is not a redirect. `/wiki/Books/The-Parasitic-Mind/` is the destination, not a legacy URL. Use a spaced path, or a naive path whose `&` became `and` instead of `--and--`.
-- The Learn door note `wiki/Syntheses/Are You Learning, or Just Using Techniques.md` is not in this tree. Do not open `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/`.
+- `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/` and `/wiki/Syntheses/Learning,-Condensed/` return 301 to `/wiki/Dimensions/Dimensions-of-Learning/`. That page returns 200. The cut notes stay deleted.
 - Backlinks are `Linked from`, after the prose. The section is omitted when nothing links here.
