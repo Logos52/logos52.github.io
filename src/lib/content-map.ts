@@ -2,18 +2,16 @@ import { deriveTitle } from './note';
 import { byHubThen } from './folder-order';
 import { simplifySlug, slugToUrl } from './slug';
 
-type ContentPage = { title: string; url: string; type?: string };
-type SectionGroup = { label: string; count: number; pages: ContentPage[] };
-type TypeGroup = { label: string; count: number; sections: SectionGroup[] };
-type PageGroup = { label: string; pages: ContentPage[] };
-type SectionRef = { key: string; label: string };
-type NoteLike = { id: string; data: { title?: unknown; type?: unknown }; body?: string };
-type ContentMapResult = {
-  contentMap: TypeGroup[];
-  contentMapCount: number;
-  otherCount: number;
-  contentMapDek: string;
-};
+type ContentPage = Record<'title' | 'url', string> & Partial<Record<'type', string>>;
+type SectionGroup = Record<'label', string> & Record<'count', number> & Record<'pages', ContentPage[]>;
+type TypeGroup = Record<'label', string> & Record<'count', number> & Record<'sections', SectionGroup[]>;
+type PageGroup = Record<'label', string> & Record<'pages', ContentPage[]>;
+type SectionRef = Record<'key' | 'label', string>;
+type NoteData = Partial<Record<'title' | 'type', unknown>>;
+type NoteLike = Record<'id', string> & Record<'data', NoteData> & Partial<Record<'body', string>>;
+type ContentMapResult = Record<'contentMap', TypeGroup[]> &
+  Record<'contentMapCount' | 'otherCount', number> &
+  Record<'contentMapDek', string>;
 
 const OTHER = 'Other';
 
