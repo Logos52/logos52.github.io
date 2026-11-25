@@ -5920,6 +5920,51 @@
       "rule": "R21",
       "file": "src/lib/icons.ts",
       "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Backlinks.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/DomainChip.astro",
+      "fingerprint": "ee62fb34"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Footer.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/NoteCard.astro",
+      "fingerprint": "ee62fb34"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Toc.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/about.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/domains/[domain].astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/journal.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R21",
+      "file": "src/lib/note.ts",
+      "fingerprint": "c03f8f82"
     }
   ]
 }
