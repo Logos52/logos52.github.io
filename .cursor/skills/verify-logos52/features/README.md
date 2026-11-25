@@ -4,26 +4,29 @@ Visitor surfaces on the published Astro wiki. Drive these in Chrome against the 
 
 | Feature | User entry | File |
 |---|---|---|
-| Home / Start here | `/` → `section.start-here` → `a.door` | [home-start-here.md](home-start-here.md) |
-| Wiki index | Chrome `Notes` → `/notes/` | [wiki-index.md](wiki-index.md) |
-| Wiki page | a door, a hub link, or a resolved wikilink → `[...slug].astro` | [wiki-page.md](wiki-page.md) |
+| Home / Where to start | `/` → `#start-head` → `a.word__link` | [home-start-here.md](home-start-here.md) |
+| Wiki index | Menu `Map`, or `/notes/` (301 to `/map/`) → `a.word__link` | [wiki-index.md](wiki-index.md) |
+| Wiki page | the home spotlight, a map row, a resolved wikilink, or a legacy spaced URL → `[...slug].astro` | [wiki-page.md](wiki-page.md) |
 | Search | `input[aria-label="Search notes"]` (⌘K / Ctrl+K); on a phone, the magnifier first | [search.md](search.md) |
-| Map | Chrome `Map`, Explore door, or `/map/` | [map.md](map.md) |
+| Map | Menu `Map`, or `/map/` | [map.md](map.md) |
 
 ## What this map leaves out
 
-These pages stay out of the five-feature drive:
+A route scan of `src/pages/` through the content map (`4d84a66`) found no sixth visitor surface that needs its own file. The content map is a section on Map (`section[data-content-map]` in `src/pages/map.astro`). Legacy spaced and naive-slug redirects (`src/redirects/doors/legacy-spaced.json`, loaded by `astro.config.ts`) are another way to open a wiki page or a folder. Hub-first order (`src/lib/folder-order.ts`) is the folder listing on the Wiki page feature. Domain pages are the home doors and the return trip on Map. The wiki list is the Wiki index feature. `src/components/Colophon.astro` repeats the menu links in the footer. `src/islands/board.ts` only packs the card layout on Projects.
 
-- Chrome `Projects`, `Journal`, `Personal`, `About`
-- `/graph/` (same constellation as Map; cover it from Map when the bug is that page only)
+These pages stay out of the map:
+
+- Menu `Projects`, `Journal`, `About`. Personal is not in the menu. The page is still `/personal/` (`src/pages/personal.astro`).
+- `/archive/` (`src/pages/archive.astro`, `h1` `Archive`), linked from Projects → Full archive
+- `/projects/digital-gardeners/` and `/projects/digital-gardeners/{id}/` (`src/pages/projects/digital-gardeners/`), the Notable design features catalog reached from a Projects card
+- `/graph/` (`src/pages/graph.astro` redirects to `/map/`)
 - `/tags/[tag]/`
 - `/journal/calendar/` (a link on the Journal landing)
 - `/llm-knowledge-base/` (301 to `/`)
-- `/archive/` (linked from Projects) and `/projects/digital-gardeners/` (a project card)
 
 Folder listings (`/folder/…/`) are the crumb destination on a wiki note. Drive them from the Wiki page feature.
 
-Phone search (the magnifier at ≤720px, added in the 2026-10-15 header pass) is an entry point on Search, not a separate feature.
+Phone search (the magnifier at ≤48rem) is an entry point on Search, not a separate feature.
 
 ## Driving conventions
 
