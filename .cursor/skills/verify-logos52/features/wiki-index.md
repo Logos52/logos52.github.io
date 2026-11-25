@@ -31,7 +31,7 @@ Preconditions:
 
 ## Product gaps
 
-`Learning, Condensed` (the first Condensed row) hrefs `/wiki/Syntheses/Learning,-Condensed/`, which is 301 to `/wiki/Razors/` (`src/redirects/doors/self.json`). The heading there is `Razors`. The Hubs row `Learning Systems` hrefs `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/` and lands on the same note. Leave the pages alone. Do not treat `Razors` as a successful open of either title.
+`Learning, Condensed` (the first Condensed row) hrefs `/wiki/Syntheses/Learning,-Condensed/`, which returns 301 to `/wiki/Dimensions/Dimensions-of-Learning/` (`src/redirects/doors/self.json`). That page returns 200. The Hubs row `Learning Systems` hrefs `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/` and lands on the same page. The cut notes stay deleted.
 
 ## Gotchas
 

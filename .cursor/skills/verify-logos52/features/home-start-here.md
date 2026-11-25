@@ -37,9 +37,9 @@ Preconditions:
 
 These home links resolve through redirects to a different note than the label names. Leave the pages alone. Record the landing URL.
 
-- Start here `Does a Study Technique Work?` href `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/` is 301 to `/wiki/Razors/` (`src/redirects/doors/self.json`). The heading there is `Razors`.
+- Start here `Does a Study Technique Work?` href `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/` returns 301 to `/wiki/Dimensions/Dimensions-of-Learning/` (`src/redirects/doors/self.json`). That page returns 200. The heading there is `Dimensions of Learning`. The cut notes stay deleted.
 - Life Systems `Health` href `/wiki/Dimensions/Self-Management/` is 301 to `/wiki/Self-Management/Time-Management,-Attention--and--Scheduling/` (`src/redirects/doors/self.json`).
-- Knowledge & Execution `Learning Systems` uses the same Syntheses href and lands on `/wiki/Razors/`.
+- Knowledge & Execution `Learning Systems` uses the same Syntheses href and lands on `/wiki/Dimensions/Dimensions-of-Learning/`.
 - Knowledge & Execution `Decision Making` href `/wiki/Decision-Making/Decision-Making/` is 301 to `/wiki/Razors/` (`src/redirects/doors/self.json`).
 - Knowledge & Execution `Generativity` href `/wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment/` is 301 to `/wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering/` (`src/redirects/doors/ai.json`).
 - Project Updates `Argument Validation` href `/wiki/Argument-Validation/Argument-Validation/` is 301 to `/wiki/Worldviews--and--the-Political-Order/Group-1---How-to-read-these-arguments/` (`src/redirects/doors/world.json`).
