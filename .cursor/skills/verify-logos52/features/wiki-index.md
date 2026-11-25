@@ -1,39 +1,40 @@
 # Wiki index
 
-The Notes landing is a redirect. The wiki list on Map is the index a visitor browses.
+The Notes page is the hand-curated front door: Condensed doctrine plus Hubs. Visitors reach it from Chrome.
 
-Source: `src/pages/notes.astro` (redirect to `/map/`), `src/pages/map.astro`, `src/islands/map-list.ts`. The menu has no Notes item (`src/components/Mast.astro`). The footer repeats Map (`src/components/Colophon.astro`).
+Source: `src/pages/notes.astro` (`active="notes"`), `CONDENSED_ENTRIES` and `HUB_ENTRIES` in `src/lib/icons.ts`. `[...slug].astro` skips `notes/index` because this page owns `/notes/`.
 
 ## Sub-features
 
-- `notes-redirect`: `GET /notes/` is 301, `location: /map/`.
-- `notes-list`: `ul[data-map-list]` of `a.word__link` / `.word__title`, filtered by `input[data-map-search]`.
-- `notes-open`: one row opens a note.
+- `notes-lede` points at search and the Map (`.notes-lede`, link to `/map/`).
+- `notes-graph` is a full constellation (`[data-constellation-root][data-mode="full"]`).
+- `notes-condensed` is the `.entry-list` under `h2.notes-head` `Condensed`.
+- `notes-hubs` is the list under `h2.notes-head` `Hubs`.
+- `notes-open` follows one row to a note page.
 
 ## How to get to it (user POV)
 
-Open the menu with `button#menu-btn` and click `Map`, or open http://127.0.0.1:4321/notes/ and follow the redirect. The wordmark goes home. A footer link named `Map` opens the same page without the menu.
+Click `Notes` in the sticky Chrome nav, or open http://127.0.0.1:4321/notes/. The brand lockup goes home. The Map link in the lede goes to `/map/`.
 
-`notes/index.md` is the Obsidian catalog. It is not this page. `CONDENSED_ENTRIES` and `HUB_ENTRIES` in `src/lib/icons.ts` are not rendered by any page.
+The vault file `notes/index.md` is the Obsidian catalog. The published UI is the Astro page at `/notes/`.
 
 ## Driving it with computerUse
 
 Preconditions:
 
 - Doctor passed.
-- The page is at laptop width.
+- Chrome is visible at laptop width, so the `Notes` link is on the bar (at ≤720px, open the menu first).
 
-- **Open the index.** From `/`, click `button#menu-btn` (`aria-label="Open menu"`), then the menu link named `Map`.
-- **Resulting state.** URL is `/map` or `/map/`. `h1[data-map-title]` is `Map`. The menu link `Map` has `aria-current="page"`. `input[aria-label="Filter pages"]` is present.
-- **Legacy URL.** Open `/notes/`. The browser lands on `/map/` with the same heading. The response status is 301. Do not expect `main.notes-page`.
-- **Open a row.** Type `Don't Outsource the Learning` into the filter. Click the `.word__title` with that text.
-- **Land on the note.** URL is `/wiki/Learning-Craft/Don't-Outsource-the-Learning/`. `article[data-pagefind-body]` is present. `h1.reading__title` is `Don't Outsource the Learning`. `p.reading__meta` includes `Concept`. `.reading__dek` is present.
+- **Open the index.** From `/`, click the nav link named `Notes`.
+- **Resulting state.** URL is `/notes` or `/notes/`. `main.notes-page` is present. Chrome `Notes` has class `on`. Headings `Condensed` and `Hubs` are present. At least one `.entry-list a` is present.
+- **Open a row.** Click the `.entry-list__title` whose text is `Learning, Condensed`.
+- **Land on the note.** `article[data-pagefind-body]` is present. `h1.kb-note-title` is `Learning, Condensed`. `.kb-note-dek` is present. The type pill's trimmed text is `Condensed` (the paint is uppercase).
+- **Return.** Click Chrome `Notes`. On the note, the first crumb `wiki` goes to `/folder/wiki/`, which is a folder listing, not this index.
 
 ## Gotchas
 
-- Do not look for `.notes-lede`, `h2.notes-head`, `.entry-list`, or a nav link named `Notes`.
-- `Learning, Condensed` is not a published note (`wiki/Syntheses/` is gone). Do not treat a miss on that title as a list failure.
-- The list is client-rendered from `#map-rows-data`. Wait for `.word__title`, not `.map-row__title` and not a fixed sleep.
-- The Map link does not take a class `on`. Current is `aria-current="page"`.
-- The filter matches title, source line, and slug.
+- Chrome href is `/notes` (no trailing slash). `trailingSlash` is `ignore`, so `/notes` and `/notes/` both serve.
+- `GET /notes/index/` is 404. The published index is `/notes/` (`src/pages/notes.astro`). Leave the 404 as a 404.
+- `notes/index.md` lists two hubs that `HUB_ENTRIES` omits: Using Grok Bot and pstack. Those titles are absent from the live Notes page. Record the gap. Do not edit `icons.ts` from this skill.
+- Learning Systems and Attention & Self-Management on the published page point at `Are You Learning, or Just Using Techniques` and `Flow State`. Those hrefs are direct.
 - This page is not the gitignored `notes/catalog.md`.

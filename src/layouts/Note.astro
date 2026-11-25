@@ -1,0 +1,402 @@
+---
+/**
+ * Note.astro — the per-note page layout.
+ * Replicates the DS NotePage (ui_kits/knowledge-base/screens.jsx): a two-column
+ * grid `minmax(0,1fr) 240px` inside the 1080px container, with
+ *   left  = <article data-pagefind-body> : mono breadcrumb, Ming <h1>, meta row
+ *           (domain-colored pill type tag + "updated …"), then the prose <slot/>
+ *           in the Ming serif at max ~64ch.
+ *   right = sticky aside rail (top:80px) = constellation neighborhood + Toc (h2 only).
+ *   Backlinks ("Linked from") sit at the end of the article, after the prose.
+ *
+ * Wraps Base (which owns <html data-accent="violet">, the DS css imports, the
+ * no-flash theme script, Chrome + Footer). All tokens are DS custom properties.
+ */
+import Base from './Base.astro';
+import Toc from '../components/Toc.astro';
+import Backlinks from '../components/Backlinks.astro';
+import Constellation from '../components/Constellation.astro';
+import type { Domain, GraphData, Backlink } from '../lib/types';
+
+interface Heading {
+  depth: number;
+  text: string;
+  slug: string;
+}
+
+interface Props {
+  title: string;
+  type?: string;
+  /** Frontmatter description or blurb, shown under the title and used as the meta description. */
+  description?: string;
+  updated?: string;
+  domain: Domain | string;
+  slug: string;
+  headings: Heading[];
+  backlinks: Backlink[];
+  /** Unused now — the local graph slices /graph.json client-side. Kept so callers don't break. */
+  local?: GraphData;
+  active?: string;
+}
+
+const { title, type, description, updated, domain, slug, headings, backlinks, active } = Astro.props;
+
+// Breadcrumb from the folder slug: "wiki/Concepts/Higher-Order-Generativity" →
+// "wiki / Concepts / Higher-Order Generativity" (DS .crumb / NotePage breadcrumb).
+const crumbParts = slug
+  .replace(/^\/+/, '')
+  .replace(/\/+$/, '')
+  .split('/')
+  .filter(Boolean)
+  .map((p) => p.replace(/--and--/g, ' & ').replace(/-+/g, ' '));
+const breadcrumb = crumbParts.length ? crumbParts.join(' / ') : title;
+// Each crumb is a link (owner, 2026-09-05). A folder crumb lists that folder.
+// journal, personal, and projects keep their section landings. The page title stays plain text.
+// journal / personal / projects keep their section landings.
+const LANDING: Record<string, string> = {
+  journal: '/journal/',
+  personal: '/personal/',
+  projects: '/projects/',
+  notes: '/notes/',
+};
+const slugParts = slug.replace(/^\/+/, '').replace(/\/+$/, '').split('/').filter(Boolean);
+const crumbs = slugParts.map((part, i) => {
+  const label = part.replace(/--and--/g, ' & ').replace(/-+/g, ' ');
+  if (i === slugParts.length - 1) return { label, href: null as string | null };
+  if (i === 0 && LANDING[part]) return { label, href: LANDING[part] };
+  return { label, href: `/folder/${slugParts.slice(0, i + 1).join('/')}/` };
+});
+
+const domainVar = `var(--d-${domain})`;
+const hasAside = true;
+---
+
+<Base title={title} description={description || (updated ? `Updated ${updated}` : undefined)} active={active}>
+  <main class="kb-note-main">
+    <div class="kb-note-grid">
+      <article
+        data-pagefind-body
+        data-pagefind-meta={`domain:${domain}`}
+        data-pagefind-meta={`title:${title}`}
+      >
+        <div class="kb-crumb" data-pagefind-ignore aria-label={breadcrumb}>
+          {
+            crumbs.length
+              ? crumbs.map((c, i) => (
+                  <Fragment>
+                    {i > 0 && <span class="kb-crumb-sep"> / </span>}
+                    {c.href ? <a href={c.href}>{c.label}</a> : <span>{c.label}</span>}
+                  </Fragment>
+                ))
+              : title
+          }
+        </div>
+        {/* The markdown body carries its own leading <h1> (hidden below by `.kb-prose > h1`), and
+            Pagefind indexes hidden text — so without this ignore every excerpt opened by saying the
+            title twice. The row's title comes from data-pagefind-meta, not from this element. */}
+        <h1 class="kb-note-title" data-pagefind-ignore>{title}</h1>
+        <div class="kb-note-meta" data-pagefind-ignore>
+          {
+            type && (
+              <span class="kb-type-tag" style={`border-color:${domainVar};color:${domainVar}`}>
+                {type}
+              </span>
+            )
+          }
+          {updated && <span>updated {updated}</span>}
+        </div>
+        {description && <p class="kb-note-dek" data-pagefind-ignore>{description}</p>}
+        <div class="kb-prose">
+          <slot />
+        </div>
+        <Backlinks items={backlinks} />
+      </article>
+
+      {
+        hasAside && (
+          <aside class="kb-note-aside">
+            <div class="kb-localgraph-wrap" aria-hidden="true">
+              <Constellation mode="local" seeds={[slug]} hops={2} height="118px" />
+            </div>
+            <Toc headings={headings} />
+          </aside>
+        )
+      }
+    </div>
+  </main>
+</Base>
+
+<style>
+  .kb-note-main {
+    flex: 1;
+  }
+  .kb-note-grid {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 34px 32px 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 240px;
+    gap: 44px;
+  }
+
+  /* breadcrumb — DS .crumb / NotePage breadcrumb */
+  .kb-crumb {
+    font-family: var(--mono);
+    font-size: var(--kb-text-2xs);
+    letter-spacing: 0.04em;
+    color: var(--faint);
+    text-transform: uppercase;
+  }
+  /* crumb links keep the crumb's own color; only the hover underline says they are links */
+  .kb-crumb a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .kb-crumb a:hover,
+  .kb-crumb a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  /* title — Ming 34/600 */
+  .kb-note-title {
+    font-family: var(--ming);
+    font-size: var(--kb-text-h1-note);
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin: 12px 0 0;
+    color: var(--ink);
+  }
+
+  /* meta row — mono uppercase, domain-colored pill + updated */
+  .kb-note-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-top: 14px;
+    font-family: var(--mono);
+    font-size: var(--kb-text-2xs);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--faint);
+  }
+  .kb-type-tag {
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    padding: 2px 9px;
+  }
+  .kb-note-dek {
+    margin: 16px 0 0;
+    max-width: 64ch;
+    font-family: var(--ming);
+    font-size: var(--kb-text-base);
+    line-height: var(--kb-lh-body);
+    color: var(--mut);
+  }
+
+  /* prose body — Ming serif, 16.5/1.75, max ~64ch */
+  .kb-prose {
+    margin-top: 24px;
+    font-family: var(--ming);
+    font-size: var(--kb-text-body);
+    line-height: var(--kb-lh-note);
+    color: var(--ink);
+    max-width: 64ch;
+  }
+
+  /* sticky aside rail */
+  .kb-note-aside {
+    position: sticky;
+    top: 80px;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* its own scroll area (owner, 2026-09-05: "i expected the right side to be a separate
+       scroll area based on where my mouse is pointed"): the rail is capped at the viewport
+       and scrolls on its own; overscroll-behavior keeps a rail scroll from spilling into the page. */
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    /* the graph used to bleed 20px into the column gap with negative margins; the bleed now
+       lives on the rail itself so the scroll box does not clip it */
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 0 20px 24px;
+  }
+  .kb-localgraph-wrap {
+    width: 100%;
+    overflow: visible;
+    z-index: 2;
+  }
+  .kb-localgraph-wrap :global(.constellation) {
+    width: 100%;
+  }
+
+  @media (max-width: 880px) {
+    .kb-note-grid {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 28px;
+    }
+    .kb-note-aside {
+      position: static;
+      max-height: none;
+      overflow: visible;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0;
+    }
+  }
+</style>
+
+<style is:global>
+  /* Markdown prose styling inside the note article — replicates the DS
+     NotePage .abody descendants (screens.jsx / styles.html .abody*). Scoped to
+     .kb-prose so it only touches rendered note content. */
+  .kb-prose > :first-child {
+    margin-top: 0;
+  }
+  /* The layout already renders the canonical title (.kb-note-title) above the prose; hide whatever
+     title the markdown body carries (a leading <h1>, or the legacy .hub-page-title block) so a note
+     shows exactly ONE title. */
+  .kb-prose > h1,
+  .kb-prose > .hub-page-title {
+    display: none;
+  }
+  .kb-prose p {
+    margin: 0 0 18px;
+  }
+  .kb-prose h2 {
+    font-family: var(--ming);
+    font-size: var(--kb-text-h2);
+    font-weight: 600;
+    margin: 30px 0 10px;
+    color: var(--ink);
+  }
+  .kb-prose h3 {
+    font-family: var(--ming);
+    font-size: var(--kb-text-h3);
+    font-weight: 600;
+    margin: 24px 0 8px;
+    color: var(--ink);
+  }
+  .kb-prose i,
+  .kb-prose em {
+    font-weight: 500;
+  }
+  /* wikilink / internal link — ink text, accent underline (2026-10-15) */
+  .kb-prose a {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in oklab, var(--accent) 70%, transparent);
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
+    /* a bare URL is one unbroken word; without this it runs past a phone screen */
+    overflow-wrap: anywhere;
+  }
+  .kb-prose a:hover {
+    color: var(--accent);
+  }
+  /* pull quote — DS .pq / NotePage blockquote */
+  .kb-prose blockquote {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-soft);
+    border-radius: 0 var(--tsg-radius-sm) var(--tsg-radius-sm) 0;
+    padding: 14px 20px;
+    margin: 24px 0;
+    font-family: var(--ming);
+    font-size: var(--kb-text-h3);
+    line-height: var(--kb-lh-snug);
+  }
+  .kb-prose blockquote p {
+    margin: 0;
+  }
+  .kb-prose ul,
+  .kb-prose ol {
+    margin: 0 0 18px;
+    padding-left: 1.4em;
+  }
+  .kb-prose li {
+    margin: 0 0 6px;
+  }
+  .kb-prose code {
+    font-family: var(--mono);
+    font-size: 0.86em;
+    background: var(--raised);
+    border-radius: 4px;
+    padding: 1px 5px;
+  }
+  .kb-prose pre {
+    background: var(--raised);
+    border: 1px solid var(--rule2);
+    border-radius: var(--tsg-radius-sm);
+    padding: 14px 16px;
+    overflow-x: auto;
+  }
+  .kb-prose pre code {
+    background: none;
+    padding: 0;
+  }
+  .kb-prose hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 28px 0;
+  }
+  .kb-prose img {
+    max-width: 100%;
+    height: auto; /* with HTML width/height attrs, missing this squashes screenshots */
+    display: block;
+    border-radius: var(--tsg-radius-sm);
+  }
+  .kb-prose table {
+    border-collapse: collapse;
+    font-family: var(--sans);
+    font-size: var(--kb-text-base);
+    margin: 0 0 18px;
+    /* a table wider than the column scrolls inside its own box, not the whole page */
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  .kb-prose th,
+  .kb-prose td {
+    border: 1px solid var(--rule2);
+    padding: 7px 12px;
+    text-align: left;
+  }
+  .kb-prose th {
+    background: var(--raised);
+  }
+  /* in-prose callout — DS .callout (sans, muted) */
+  .kb-prose .callout {
+    border: 1px solid var(--rule2);
+    background: var(--paper);
+    border-radius: var(--tsg-radius-sm);
+    padding: 14px 18px;
+    margin: 22px 0;
+    font-family: var(--sans);
+    font-size: var(--kb-text-base);
+    color: var(--mut);
+  }
+  .kb-prose .callout b {
+    color: var(--ink);
+  }
+  .kb-prose .kb-related-more {
+    margin: 0 0 18px;
+  }
+  .kb-prose .kb-related-more summary {
+    cursor: pointer;
+    color: var(--mut);
+    font-size: var(--kb-text-sm);
+    margin: 0 0 8px;
+  }
+  .kb-prose .kb-related-more ul {
+    margin-top: 8px;
+  }
+</style>

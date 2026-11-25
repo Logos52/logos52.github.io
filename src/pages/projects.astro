@@ -1,11 +1,13 @@
 ---
 import { getCollection } from 'astro:content';
-import Shell from '../layouts/Shell.astro';
+import Base from '../layouts/Base.astro';
+import Constellation from '../components/Constellation.astro';
 import { deriveTitle } from '../lib/note';
 import { slugToUrl } from '../lib/slug';
 
 type Status = 'current' | 'past';
 
+// Owner-set priority order (most important first); the rest fall back to frontmatter `order`.
 const PRIORITY = [
   'projects/tsumugu-ed',
   'projects/llm-knowledge-base',
@@ -31,6 +33,8 @@ const projects = raw
     const stack = Array.isArray(fm.stack) ? fm.stack.map(String) : fm.stack ? [String(fm.stack)] : [];
     const order = typeof fm.order === 'number' ? fm.order : 99;
     const image = typeof fm.image === 'string' ? fm.image : '';
+    // A project may override its card link (e.g. point at a standalone HTML page in public/) via
+    // frontmatter `cardHref`; otherwise the card opens the note page.
     const cardHref = typeof fm.cardHref === 'string' && fm.cardHref ? fm.cardHref : '';
     return {
       slug: n.id,
@@ -49,48 +53,201 @@ const groups: { key: Status; label: string }[] = [
   { key: 'current', label: 'Current' },
   { key: 'past', label: 'Archived' },
 ];
+
+const projectSeeds = projects.filter((p) => p.status === 'current').map((p) => p.slug);
 ---
 
-<Shell title="Projects" description="Learning-system, agentic-engineering, and personal-tooling projects." active="projects">
-  <main class="page">
-    <header>
-      <h1 class="page__title">Projects</h1>
-      <p class="page__dek">Learning-system, agentic-engineering, and personal-tooling projects.</p>
-    </header>
-    {
-      groups.map((g) => {
-        const items = projects.filter((p) => p.status === g.key);
-        if (!items.length) return null;
-        return (
-          <section class="band">
-            <h2 class="band__title">
-              {g.label}
-              {g.key === 'past' && (
-                <a class="band__more" href="/archive/">
-                  Full archive
-                </a>
-              )}
-            </h2>
-            <ul class="board" data-board>
-              {items.map((p) => (
-                <li class="board__item" data-board-item>
-                  <a class="board__card" href={p.href}>
-                    {p.image && <img src={`/${p.image}`} alt="" loading="lazy" />}
-                    <h3 class="board__title">{p.title}</h3>
-                    {p.blurb && <p class="board__note">{p.blurb}</p>}
-                    {p.stack.length > 0 && <p class="board__note">{p.stack.join(' / ')}</p>}
+<Base title="Projects" description="Learning-system, agentic-engineering, and personal-tooling projects." active="projects">
+  <main class="projects-page">
+    <div class="wrap projects-grid">
+      <div class="projects-main">
+        <header class="head">
+          <h1>Projects</h1>
+          <p class="head__lede">Learning-system, agentic-engineering, and personal-tooling projects.</p>
+        </header>
+        {groups.map((g) => {
+          const items = projects.filter((p) => p.status === g.key);
+          if (!items.length) return null;
+          return (
+            <section class="group">
+              <h2>{g.label}</h2>
+              <div class="grid">
+                {items.map((p) => (
+                  <a class="card" href={p.href}>
+                    {p.image && (
+                      <div class="card__media">
+                        <img src={`/${p.image}`} alt={`${p.title} screenshot`} loading="lazy" />
+                      </div>
+                    )}
+                    <h3>{p.title}</h3>
+                    <p>{p.blurb}</p>
+                    {p.stack.length > 0 && (
+                      <div class="stack">
+                        {p.stack.map((s) => (
+                          <span class="tag">{s}</span>
+                        ))}
+                      </div>
+                    )}
                   </a>
-                </li>
-              ))}
-            </ul>
-          </section>
-        );
-      })
-    }
+                ))}
+              </div>
+            </section>
+          );
+        })}
+        <p class="archive-more"><a href="/archive/">Full archive</a></p>
+      </div>
+      {
+        projectSeeds.length > 0 && (
+          <aside class="projects-graph" aria-label="Current project links">
+            <h2 class="projects-graph__head">Links</h2>
+            <Constellation
+              mode="local"
+              seeds={projectSeeds}
+              hops={1}
+              orient="vertical"
+              height="clamp(360px, 66vh, 600px)"
+            />
+          </aside>
+        )
+      }
+    </div>
   </main>
-</Shell>
+</Base>
 
-<script>
-  import { packBoard } from '../islands/board';
-  document.querySelectorAll<HTMLElement>('[data-board]').forEach((list) => packBoard(list));
-</script>
+<style>
+  .wrap {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 34px 28px 52px;
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 36px;
+    align-items: start;
+  }
+  .projects-main {
+    min-width: 0;
+  }
+  .projects-graph {
+    position: sticky;
+    top: 80px;
+    min-width: 0;
+  }
+  .projects-graph__head {
+    font-family: var(--ming);
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: var(--ink);
+  }
+  .head {
+    padding: 0 0 12px;
+  }
+  .head h1 {
+    font-family: var(--ming);
+    font-size: 32px;
+    margin: 0;
+  }
+  .head p {
+    margin: 8px 0 0;
+    color: var(--mut);
+    font-size: 14px;
+  }
+  .group {
+    margin: 28px 0 0;
+  }
+  .group h2 {
+    font-family: var(--ming);
+    font-size: 20px;
+    margin: 0 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border: 1px solid var(--rule2);
+    border-radius: var(--tsg-radius);
+    padding: 12px 13px;
+    background: var(--card);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--tsg-shadow);
+    transition: transform 0.12s var(--ease-standard), border-color 0.12s;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+  }
+  .card__media {
+    margin: -12px -13px 0;
+    overflow: hidden;
+    border-radius: var(--tsg-radius) var(--tsg-radius) 0 0;
+    border-bottom: 1px solid var(--rule);
+    aspect-ratio: 16 / 9; /* uniform screenshot size — crop, don't letterbox */
+  }
+  .card__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+  }
+  .card h3 {
+    margin: 0;
+    font-family: var(--ming);
+    font-size: 15px;
+    color: var(--accent);
+  }
+  .card p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.45;
+    color: var(--mut);
+  }
+  .stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: auto;
+    padding-top: 6px;
+  }
+  .tag {
+    font-family: var(--mono);
+    font-size: 9px;
+    color: var(--faint);
+    border: 1px solid var(--rule2);
+    border-radius: 4px;
+    padding: 1px 5px;
+  }
+  .archive-more {
+    margin: 18px 0 0;
+  }
+  .archive-more a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .archive-more a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 820px) {
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+    .projects-graph {
+      position: static;
+    }
+  }
+  @media (max-width: 640px) {
+    .wrap {
+      padding: 28px 16px 40px;
+    }
+  }
+</style>

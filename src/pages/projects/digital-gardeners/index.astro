@@ -1,5 +1,5 @@
 ---
-import Shell from '../../../layouts/Shell.astro';
+import Base from '../../../layouts/Base.astro';
 import catalog from '../../../data/digital-gardeners.json';
 import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -16,44 +16,123 @@ function thumbSrc(id: string): string | null {
 const sorted = [...catalog].sort((a, b) => a.name.localeCompare(b.name));
 ---
 
-<Shell
+<Base
   title="Notable design features"
-  description="Digital gardeners catalog — home pages with notable design features, 146 people."
+  description="Digital gardeners catalog. Home pages with notable design features, 146 people."
   active="projects"
 >
-  <main class="page">
-    <p class="trail"><a href="/projects/">Projects</a></p>
-    <header>
-      <h1 class="page__title">Notable design features</h1>
-      <p class="page__dek">
-        146 personal home pages, observed 2026-10-31. Thumbnail grid of front doors; open a person for
-        notable design features on each observed URL.
-      </p>
-    </header>
-    <ul class="board" data-board>
-      {
-        sorted.map((p) => {
-          const thumb = thumbSrc(p.id);
-          return (
-            <li class="board__item" data-board-item>
-              <a class="board__card" href={`/projects/digital-gardeners/${p.id}/`}>
-                {thumb ? (
-                  <img src={thumb} alt="" loading="lazy" width="320" height="200" />
-                ) : (
-                  <span class="board__fallback">No shot yet</span>
-                )}
-                <h3 class="board__title">{p.name}</h3>
-                <p class="board__note">{p.lanes.join(' · ')}</p>
-              </a>
-            </li>
-          );
-        })
-      }
-    </ul>
+  <main class="garden-page">
+    <div class="wrap">
+      <p class="trail"><a href="/projects/">Projects</a></p>
+      <header class="head">
+        <h1>Notable design features</h1>
+        <p class="head__lede">
+          146 personal home pages, observed 2026-10-31. Thumbnail grid of front doors. Open a person for
+          notable design features on each observed URL.
+        </p>
+      </header>
+      <ul class="garden">
+        {
+          sorted.map((p) => {
+            const thumb = thumbSrc(p.id);
+            return (
+              <li>
+                <a href={`/projects/digital-gardeners/${p.id}/`}>
+                  {thumb ? (
+                    <img src={thumb} alt="" loading="lazy" width="320" height="200" />
+                  ) : (
+                    <span class="garden__fallback">No shot yet</span>
+                  )}
+                  <h2>{p.name}</h2>
+                  <p>{p.lanes.join(' · ')}</p>
+                </a>
+              </li>
+            );
+          })
+        }
+      </ul>
+    </div>
   </main>
-</Shell>
+</Base>
 
-<script>
-  import { packBoard } from '../../../islands/board';
-  document.querySelectorAll<HTMLElement>('[data-board]').forEach((list) => packBoard(list));
-</script>
+<style>
+  .wrap {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 34px 28px 52px;
+  }
+  .trail {
+    font-family: var(--mono);
+    font-size: var(--kb-text-xs);
+    margin: 0 0 10px;
+  }
+  .trail a {
+    color: var(--mut);
+    text-decoration: none;
+  }
+  .trail a:hover {
+    color: var(--accent);
+  }
+  .head h1 {
+    font-family: var(--ming);
+    font-size: var(--kb-text-h1-shell);
+    font-weight: 500;
+    color: var(--ink);
+    margin: 0;
+  }
+  .head__lede {
+    color: var(--mut);
+    max-width: 68ch;
+  }
+  .garden {
+    list-style: none;
+    padding: 0;
+    margin: 22px 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 14px;
+  }
+  .garden a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: var(--ink);
+    text-decoration: none;
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .garden a:hover h2 {
+    color: var(--accent);
+  }
+  .garden img,
+  .garden__fallback {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    background: var(--paper);
+  }
+  .garden__fallback {
+    display: grid;
+    place-items: center;
+    color: var(--mut);
+    font-size: 0.85rem;
+  }
+  .garden h2 {
+    font-family: var(--ming);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 8px 10px 0;
+  }
+  .garden p {
+    margin: 2px 10px 10px;
+    color: var(--mut);
+    font-size: 0.82rem;
+  }
+  @media (max-width: 640px) {
+    .wrap {
+      padding: 28px 16px 40px;
+    }
+  }
+</style>

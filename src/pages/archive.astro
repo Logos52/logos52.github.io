@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import Shell from '../layouts/Shell.astro';
+import Base from '../layouts/Base.astro';
 import { deriveSourceLine, deriveTitle } from '../lib/note';
 import { slugToUrl } from '../lib/slug';
 
@@ -38,47 +38,113 @@ const past = items.filter((i) => i.kind === 'past');
 const parked = items.filter((i) => i.kind === 'parked');
 ---
 
-<Shell title="Archive" description="Archived and parked projects.">
-  <main class="page">
-    <header>
-      <h1 class="page__title">Archive</h1>
-      <p class="page__dek">
-        Parked and finished projects stay published here. Active work stays on <a href="/projects/">Projects</a>.
-      </p>
-    </header>
-    {
-      past.length > 0 && (
-        <section class="band">
-          <h2 class="band__title">Archived projects</h2>
-          <ul class="word">
-            {past.map((p) => (
-              <li>
-                <a class="word__link" href={p.href}>
-                  <span class="word__title">{p.title}</span>
-                  <span class="word__meta">{p.blurb || p.source}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )
-    }
-    {
-      parked.length > 0 && (
-        <section class="band">
-          <h2 class="band__title">Parked</h2>
-          <ul class="word">
-            {parked.map((p) => (
-              <li>
-                <a class="word__link" href={p.href}>
-                  <span class="word__title">{p.title}</span>
-                  <span class="word__meta">{p.blurb || p.source}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )
-    }
+<Base title="Archive" description="Archived and parked projects." active="projects">
+  <main class="archive-page">
+    <div class="wrap">
+      <header class="head">
+        <p class="trail"><a href="/projects/">Projects</a></p>
+        <h1>Archive</h1>
+        <p class="head__lede">
+          Parked and finished projects stay published here. Active work stays on <a href="/projects/">Projects</a>.
+        </p>
+      </header>
+      {
+        past.length > 0 && (
+          <section>
+            <h2>Archived projects</h2>
+            <ul>
+              {past.map((p) => (
+                <li>
+                  <a href={p.href}>{p.title}</a>
+                  {(p.blurb || p.source) && <span>{p.blurb || p.source}</span>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+      {
+        parked.length > 0 && (
+          <section>
+            <h2>Parked</h2>
+            <ul>
+              {parked.map((p) => (
+                <li>
+                  <a href={p.href}>{p.title}</a>
+                  {(p.blurb || p.source) && <span>{p.blurb || p.source}</span>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+    </div>
   </main>
-</Shell>
+</Base>
+
+<style>
+  .wrap {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 34px 28px 52px;
+  }
+  .trail {
+    font-family: var(--mono);
+    font-size: var(--kb-text-xs);
+    margin: 0 0 10px;
+  }
+  .trail a {
+    color: var(--mut);
+    text-decoration: none;
+  }
+  .trail a:hover {
+    color: var(--accent);
+  }
+  .head h1 {
+    font-family: var(--ming);
+    font-size: var(--kb-text-h1-shell);
+    font-weight: 500;
+    color: var(--ink);
+    margin: 0;
+  }
+  .head__lede {
+    color: var(--mut);
+    max-width: 62ch;
+  }
+  .head__lede a {
+    color: var(--accent);
+  }
+  h2 {
+    font-family: var(--ming);
+    font-size: 1.15rem;
+    color: var(--ink);
+    margin: 1.6rem 0 0.4rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  li a {
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  li a:hover {
+    color: var(--accent);
+  }
+  li span {
+    display: block;
+    color: var(--mut);
+    font-size: 0.92rem;
+  }
+  @media (max-width: 640px) {
+    .wrap {
+      padding: 28px 16px 40px;
+    }
+  }
+</style>

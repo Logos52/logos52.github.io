@@ -1,0 +1,92 @@
+/* ============================================================================
+ * Tsumugu · Paper & Ink — THE core palette (shared by both products)
+ * ----------------------------------------------------------------------------
+ * The whole system is Paper & Ink now. One warm paper-and-ink surface, themed
+ * with a single accent that swaps per product:
+ *   • Dictionary (the primary style) → warm SEAL red   (default)
+ *   • Reader                         → cool SLATE blue  ([data-accent="cool"])
+ * LIGHT by default; DARK under [data-theme="dark"]. The semantic --tsg-* layer
+ * (colors.css) maps the reusable components onto these same tokens, so a
+ * Button / Card / GradeBar inherits whichever accent is in scope.
+ * ========================================================================== */
+
+:root {
+  /* ── paper & ink surfaces ─────────────────────────────────────────────── */
+  --paper:  #f7f3ea;   /* page */
+  --card:   #fbf8f1;   /* entry / card */
+  --raised: #f1ecdf;   /* raised control / sunk panel */
+  --ink:    #211d18;   /* text */
+  --mut:    #6e675c;   /* muted */
+  --faint:  #a59d8e;   /* faint / captions */
+  --rule:   #d8d1c2;   /* hairlines */
+  --rule2:  #c9c1af;   /* stronger hairline */
+  --shadow: rgba(33, 29, 24, .35);
+
+  /* ── the two accents ──────────────────────────────────────────────────── */
+  --seal:      #b25a44;              /* warm — Dictionary (primary) */
+  --seal-soft: rgba(178, 90, 68, .09);
+  --cool:      #3f6e96;              /* cool — Reader */
+  --cool-soft: rgba(63, 110, 150, .10);
+  --violet:      #7d5a86;            /* muted plum — Knowledge base (3rd product) */
+  --violet-soft: rgba(125, 90, 134, .11);
+
+  /* ── semantic accent — defaults to SEAL; [data-accent="cool"] swaps it ──── */
+  --accent:      var(--seal);
+  --accent-soft: var(--seal-soft);
+  --accent-ink:  #fbf8f1;            /* paper-white ink on an accent fill */
+
+  /* ── component roles (character decoding) ─────────────────────────────── */
+  --r-meaning: #b25a44;  /* 義 — carries meaning */
+  --r-sound:   #46698c;  /* 聲 — carries sound */
+  --r-form:    #6e675c;  /* 形 — draws the thing */
+  --r-empty:   #a59d8e;  /* decorative / empty */
+
+  --pi-radius: 8px;
+  color-scheme: light;
+}
+
+/* Reader accent — cool slate. Also cools the "meaning" role so reader-side
+ * character annotation matches the chrome. */
+[data-accent="cool"] {
+  --accent:      var(--cool);
+  --accent-soft: var(--cool-soft);
+  --r-meaning:   var(--cool);
+}
+
+/* Knowledge-base accent — muted plum, same earthy family as seal + slate. */
+[data-accent="violet"] {
+  --accent:      var(--violet);
+  --accent-soft: var(--violet-soft);
+  --r-meaning:   var(--violet);
+}
+
+/* ── DARK Paper & Ink — both products ────────────────────────────────────── */
+[data-theme="dark"] {
+  --paper:  #17150f;
+  --card:   #1d1a13;
+  --raised: #262218;
+  --ink:    #eae3d4;
+  --mut:    #9d957f;
+  --faint:  #6b6451;
+  --rule:   #373226;
+  --rule2:  #46402f;
+  --shadow: rgba(0, 0, 0, .6);
+
+  --seal:      #cd7a62;
+  --seal-soft: rgba(205, 122, 98, .12);
+  --cool:      #6f9fc9;
+  --cool-soft: rgba(111, 159, 201, .14);
+  --violet:      #ad8ab5;
+  --violet-soft: rgba(173, 138, 181, .14);
+  --accent-ink: #17150f;
+
+  --r-meaning: #cd7a62;
+  --r-sound:   #7d9cbf;
+  --r-form:    #9d957f;
+  --r-empty:   #6b6451;
+  color-scheme: dark;
+}
+[data-accent="violet"][data-theme="dark"] { --r-meaning: var(--violet); }
+
+/* Back-compat: older markup tagged [data-brand="paper"] still works because the
+ * tokens live on :root — the attribute is now optional/no-op. */

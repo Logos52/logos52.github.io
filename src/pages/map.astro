@@ -1,31 +1,85 @@
 ---
+/**
+ * map.astro — the Map: the full VAULT GRAPH on top (every note + link), then the six domains listed
+ * below as a plain index. The per-domain page lists are computed from the live collection
+ * (doctrine-first, knowledge pages only), so they stay current as the vault grows.
+ * Under that, a collapsible content map of every published note, grouped by type then folder.
+ */
 import { getCollection } from 'astro:content';
-import Shell from '../layouts/Shell.astro';
+import Base from '../layouts/Base.astro';
 import Constellation from '../components/Constellation.astro';
-import { resolveDomain } from '../lib/domain';
-import { deriveFirstImage, deriveSourceLine, deriveTitle } from '../lib/note';
+import { buildGraph, type NoteInput } from '../lib/graph';
+import { deriveTitle } from '../lib/note';
 import { simplifySlug, slugToUrl } from '../lib/slug';
 import { byHubThen } from '../lib/folder-order';
-import { DOMAINS, DOMAIN_LABELS, type Domain } from '../lib/types';
+import { DOMAINS, DOMAIN_LABELS } from '../lib/types';
+import { DOMAIN_ICONS } from '../lib/icons';
+import Icon from '../components/Icon.astro';
+
+const PER_SECTION = 8;
+
+// One concrete line per domain: a real idea from inside it, useful to the reader — never a
+// restatement of the category (the heading and the list already say what it is). Front-facing:
+// 02 - System/Writing Standards.md → Specific Beats Generic, Details Not Conclusions (no A-is-A).
+const DOMAIN_BLURB: Record<string, string> = {
+  learning: 'You remember a page when you recall it later, and when those recalls are spaced out.',
+  agentic: 'Agents write the code. The person still sets the direction.',
+  language: 'A Chinese character is made of a few hundred parts that get reused.',
+  focus: 'You only have so much attention. A feed spends it.',
+  mind: 'A decision gets better when you attack your own reasoning before you use it.',
+  gen: 'Wealth is owning a share of something that grows without taking more of your hours.',
+};
+
+// Doctrine-first ordering: hubs and condensed pages lead, then syntheses, then supporting types,
+// with link degree as the tiebreaker. New pages slot in by type, so it stays sensible as it grows.
+const TYPE_RANK: Record<string, number> = {
+  hub: 100,
+  synthesis: 80,
+  system: 70,
+  model: 60,
+  dimension: 60,
+  pillar: 45,
+  primer: 40,
+  workflow: 35,
+  technique: 25,
+  concept: 20,
+  book: 15,
+};
 
 const notes = await getCollection('notes');
-const rows = notes
-  .filter((n) => n.id.startsWith('wiki/') && !n.data.draft)
-  .map((n) => {
-    const domain = resolveDomain(n.id, n.data.domain) as Domain;
-    const thumb = deriveFirstImage(n.body ?? '');
-    return {
-      slug: n.id,
-      title: deriveTitle(n.data, n.id, n.body),
-      url: slugToUrl(n.id),
-      source: deriveSourceLine(n.id),
-      domain,
-      ...(thumb ? { thumb } : {}),
-    };
-  })
-  .sort((a, b) => a.title.localeCompare(b.title));
+const input: NoteInput[] = notes.map((n) => ({
+  slug: n.id,
+  title: deriveTitle(n.data, n.id, n.body),
+  type: typeof n.data.type === 'string' ? n.data.type : '',
+  body: n.body ?? '',
+}));
+const full = buildGraph(input);
 
-const rowsJson = JSON.stringify(rows);
+const degree = new Map<string, number>();
+for (const e of full.edges) {
+  degree.set(e.source, (degree.get(e.source) ?? 0) + 1);
+  degree.set(e.target, (degree.get(e.target) ?? 0) + 1);
+}
+const score = (n: (typeof full.nodes)[number]) => {
+  const tier = Math.max(TYPE_RANK[n.type] ?? 12, /,\s*Condensed$/i.test(n.title) ? 90 : 0);
+  return tier * 1000 + (degree.get(n.slug) ?? 0);
+};
+
+const byDomain = new Map<string, (typeof full.nodes)[number][]>();
+for (const n of full.nodes) {
+  if (!n.slug.startsWith('wiki/')) continue; // knowledge pages only — exclude journal, index, about
+  (byDomain.get(n.domain) ?? byDomain.set(n.domain, []).get(n.domain)!).push(n);
+}
+
+const sections = DOMAINS.map((d) => {
+  const all = (byDomain.get(d) ?? []).sort((a, b) => score(b) - score(a) || a.title.localeCompare(b.title));
+  return {
+    domain: d,
+    label: DOMAIN_LABELS[d],
+    icon: DOMAIN_ICONS[d],
+    items: all.slice(0, PER_SECTION),
+  };
+});
 
 function folderLabel(segment: string): string {
   return segment.replace(/--and--/g, ' & ').replace(/-+/g, ' ');
@@ -51,15 +105,15 @@ for (const n of contentPages) {
   const raw = typeof n.data.type === 'string' ? n.data.type.trim() : '';
   const typeLabel = raw || OTHER;
   const section = sectionOf(n.id);
-  let sections = buckets.get(typeLabel);
-  if (!sections) {
-    sections = new Map();
-    buckets.set(typeLabel, sections);
+  let sectionMap = buckets.get(typeLabel);
+  if (!sectionMap) {
+    sectionMap = new Map();
+    buckets.set(typeLabel, sectionMap);
   }
-  let group = sections.get(section.key);
+  let group = sectionMap.get(section.key);
   if (!group) {
     group = { label: section.label, pages: [] };
-    sections.set(section.key, group);
+    sectionMap.set(section.key, group);
   }
   group.pages.push({
     title: deriveTitle(n.data, n.id, n.body),
@@ -73,9 +127,9 @@ function byCountThenName<T extends { count: number; label: string }>(a: T, b: T)
 }
 
 const typeGroups: TypeGroup[] = [];
-for (const [label, sections] of buckets) {
+for (const [label, sectionMap] of buckets) {
   const sectionGroups: SectionGroup[] = [];
-  for (const group of sections.values()) {
+  for (const group of sectionMap.values()) {
     group.pages.sort(
       byHubThen(
         (a, b) => a.title.localeCompare(b.title, 'en') || a.url.localeCompare(b.url),
@@ -106,48 +160,48 @@ const contentMapDek =
     : `${contentMapCount} pages.`;
 ---
 
-<Shell title="Map" description="The vault graph and every wiki page." active="map">
-  <main class="page">
-    <header>
-      <h1 class="page__title" data-map-title>Map</h1>
-    </header>
-    <Constellation mode="full" domainLabels height="clamp(400px, 58vh, 680px)" />
+<Base title="Map" description="The vault graph, and the knowledge base by domain." active="map">
+  <main class="map-page">
+    <div class="wrap">
+      <header class="map-head">
+        <h1 class="map-head__title">The vault</h1>
+      </header>
 
-    <section data-map-root>
-      <div class="filters">
-        <input
-          type="search"
-          class="filters__input"
-          data-map-search
-          placeholder="Filter pages"
-          aria-label="Filter pages"
-          autocomplete="off"
-        />
-        <div class="filters__group" role="group" aria-label="Filter by domain">
-          {
-            DOMAINS.map((d) => (
-              <button type="button" class="chip" data-map-domain={d}>
-                {DOMAIN_LABELS[d]}
-              </button>
-            ))
-          }
-        </div>
-      </div>
-      <p class="word__empty" data-map-empty hidden>No pages match.</p>
-      <ul class="word" data-map-list></ul>
-      <script type="application/json" id="map-rows-data" set:html={rowsJson} />
-    </section>
+      <Constellation mode="full" domainLabels height="clamp(460px, 66vh, 780px)" />
+    </div>
+
+    <article class="prose">
+      <h2 class="prose__head">The six domains</h2>
+      {sections.map((s) => (
+        <section class="domain">
+          <h3>
+            <a href={`/domains/${s.domain}/`}>
+              <Icon name={s.icon} size="1.05em" class="domain__icon" style={`color:var(--d-${s.domain})`} />
+              {s.label}
+            </a>
+          </h3>
+          <p class="domain__blurb">{DOMAIN_BLURB[s.domain]}</p>
+          <ul>
+            {s.items.map((it) => (
+              <li>
+                <a href={slugToUrl(it.slug)}>{it.title}</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </article>
 
     <section
-      class="band cmap"
+      class="cmap"
       data-content-map
       data-content-map-count={contentMapCount}
       data-content-map-other={otherCount}
       data-pagefind-ignore
       aria-labelledby="content-map-title"
     >
-      <h2 id="content-map-title" class="band__title">Content map</h2>
-      <p class="page__dek">{contentMapDek}</p>
+      <h2 id="content-map-title" class="cmap__head">Content map</h2>
+      <p class="cmap__dek">{contentMapDek}</p>
       <div class="cmap__tree">
         {
           contentMap.map((type) => (
@@ -183,15 +237,175 @@ const contentMapDek =
       </div>
     </section>
   </main>
-</Shell>
+</Base>
 
-<script>
-  import { initMapList } from '../islands/map-list';
-
-  const root = document.querySelector('[data-map-root]');
-  const dataEl = document.getElementById('map-rows-data');
-  if (root && dataEl?.textContent) {
-    const rows = JSON.parse(dataEl.textContent) as Parameters<typeof initMapList>[1];
-    initMapList(root as HTMLElement, rows);
+<style>
+  .wrap {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 28px 28px 0;
   }
-</script>
+  .map-head {
+    max-width: 60ch;
+    margin: 8px 0 16px;
+  }
+  .map-head__title {
+    font-family: var(--ming);
+    font-weight: 500;
+    font-size: var(--kb-text-h1-shell);
+    line-height: 1.2;
+    margin: 0 0 0.4rem;
+    color: var(--ink);
+  }
+  .map-head__lede {
+    font-family: var(--mono);
+    font-size: var(--kb-text-xs);
+    letter-spacing: 0.04em;
+    line-height: var(--kb-lh-snug);
+    color: var(--mut);
+    margin: 0;
+  }
+
+  /* six domains — plain index below the graph */
+  .prose {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 30px 28px 12px;
+  }
+  .prose__head {
+    font-family: var(--ming);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0 0 0.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .domain h3 {
+    font-family: var(--ming);
+    font-size: 1.02rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.35rem;
+    color: var(--ink);
+  }
+  .domain h3 a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: inherit;
+    text-decoration: none;
+  }
+  .domain h3 a:hover {
+    text-decoration: underline;
+  }
+  .domain h3 a :global(.domain__icon) {
+    flex-shrink: 0;
+  }
+  .domain__blurb {
+    font-size: var(--kb-text-base);
+    line-height: var(--kb-lh-body);
+    color: var(--mut);
+    margin: 0.15rem 0 0.5rem;
+    max-width: 64ch;
+  }
+  .domain ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin: 0.2rem 0 0;
+    columns: 2;
+    column-gap: 44px;
+  }
+  .domain li {
+    font-size: var(--kb-text-base);
+    line-height: var(--kb-lh-body);
+    color: var(--mut);
+    margin: 0.12rem 0;
+    break-inside: avoid;
+  }
+  .domain li a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .domain li a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  .cmap {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 8px 28px 60px;
+  }
+  .cmap__head {
+    font-family: var(--ming);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0 0 0.35rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .cmap__dek {
+    font-size: var(--kb-text-base);
+    line-height: var(--kb-lh-body);
+    color: var(--mut);
+    margin: 0.6rem 0 0;
+  }
+  .cmap__tree {
+    margin-top: 0.4rem;
+  }
+  .cmap__type,
+  .cmap__section {
+    border-bottom: 1px solid var(--rule);
+  }
+  .cmap__section {
+    margin-left: 1.25rem;
+  }
+  .cmap__type > summary,
+  .cmap__section > summary {
+    cursor: pointer;
+    padding: 0.55rem 0;
+    font-family: var(--mono);
+    font-size: 0.92rem;
+    color: var(--ink);
+  }
+  .cmap__type > summary {
+    font-weight: 600;
+  }
+  .cmap__n {
+    margin-left: 0.75rem;
+    color: var(--mut);
+    font-weight: 400;
+  }
+  .cmap__pages {
+    margin: 0;
+    padding: 0 0 0.35rem 1.25rem;
+    list-style: none;
+  }
+  .cmap__link {
+    display: block;
+    padding: 0.28rem 0;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+  }
+  .cmap__link:hover {
+    color: var(--accent);
+  }
+  .cmap__pages li:last-child .cmap__link {
+    border-bottom: 0;
+  }
+  @media (max-width: 640px) {
+    .wrap {
+      padding: 28px 16px 0;
+    }
+    .prose {
+      padding: 24px 16px 12px;
+    }
+    .domain ul {
+      columns: 1;
+    }
+    .cmap {
+      padding: 8px 16px 40px;
+    }
+  }
+</style>
