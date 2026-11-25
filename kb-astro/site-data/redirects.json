@@ -1,31 +1,19 @@
 [
   {
-    "from": "/notes/",
-    "to": "/map/"
+    "from": "/domains/ai/",
+    "to": "/domains/agentic/"
   },
   {
-    "from": "/graph/",
-    "to": "/map/"
+    "from": "/domains/self/",
+    "to": "/domains/focus/"
   },
   {
-    "from": "/domains/agentic/",
-    "to": "/domains/ai/"
+    "from": "/domains/world/",
+    "to": "/domains/mind/"
   },
   {
-    "from": "/domains/language/",
-    "to": "/domains/world/"
-  },
-  {
-    "from": "/domains/focus/",
-    "to": "/domains/self/"
-  },
-  {
-    "from": "/domains/mind/",
-    "to": "/domains/world/"
-  },
-  {
-    "from": "/domains/gen/",
-    "to": "/domains/craft/"
+    "from": "/domains/craft/",
+    "to": "/domains/gen/"
   },
   {
     "from": "/blog/",
@@ -209,95 +197,95 @@
   },
   {
     "from": "/wiki/Research/ATTEMPT-CATALOG-context-problem/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/All-In-Summit-and-Moon-Packet-2026-09-16/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Blog-Craft-Research-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Claude-Fable-5.1-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Context-Problem-Research-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Everybodyism-and-the-Maturity-Crisis-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Four-Quadrants-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Grok-Bot-Field-Packet-2026-08-15/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Grok-Bot-Field-Packet-2026-08-31/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Grok-Bot-Practitioner-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Grok-Build-and-Cursor-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Immigration-and-the-Woke-Left-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Levels-of-Thinking-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Opener-Generator-Research-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Probability-Distributions-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Report-Intro-Paragraph-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Self-Talk-Research-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Self-Talk-and-the-Two-Egos-Bridge-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/The-Table-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Thinking-About-Thinking-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Transliteration-Into-Chinese-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Two-Egos-Research-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Research/Woke-Mind-Virus-Bank/",
-    "to": "/map/"
+    "to": "/notes/"
   },
   {
     "from": "/wiki/Design/Design-Expansion-\u2014-Reading--and--Resources/",

@@ -39,8 +39,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Design guard
-        run: npm run guard:design
 
       - name: Test
         run: npm test

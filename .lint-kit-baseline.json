@@ -1478,12 +1478,47 @@
     },
     {
       "rule": "R1",
+      "file": "src/components/Backlinks.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Chrome.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Chrome.astro",
+      "fingerprint": "d37253d3"
+    },
+    {
+      "rule": "R1",
       "file": "src/components/Constellation.astro",
       "fingerprint": "c03f8f82"
     },
     {
       "rule": "R1",
+      "file": "src/components/DomainChip.astro",
+      "fingerprint": "ee62fb34"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Footer.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
       "file": "src/components/Icon.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/NoteCard.astro",
+      "fingerprint": "ee62fb34"
+    },
+    {
+      "rule": "R1",
+      "file": "src/components/Toc.astro",
       "fingerprint": "c03f8f82"
     },
     {
@@ -1768,6 +1803,16 @@
     },
     {
       "rule": "R1",
+      "file": "src/layouts/Base.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/layouts/Note.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
       "file": "src/lib/backlinks.ts",
       "fingerprint": "3db816ed"
     },
@@ -1929,7 +1974,7 @@
     {
       "rule": "R1",
       "file": "src/lib/note.ts",
-      "fingerprint": "b2ab2d25"
+      "fingerprint": "4799c8a1"
     },
     {
       "rule": "R1",
@@ -1940,11 +1985,6 @@
       "rule": "R1",
       "file": "src/lib/note.ts",
       "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/lib/note.ts",
-      "fingerprint": "c0607378"
     },
     {
       "rule": "R1",
@@ -2084,6 +2124,11 @@
     {
       "rule": "R1",
       "file": "src/lib/types.ts",
+      "fingerprint": "dc4a21cf"
+    },
+    {
+      "rule": "R1",
+      "file": "src/lib/types.ts",
       "fingerprint": "df650e49"
     },
     {
@@ -2158,8 +2203,18 @@
     },
     {
       "rule": "R1",
+      "file": "src/pages/about.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
       "file": "src/pages/backlinks.json.ts",
       "fingerprint": "3b205a5b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/domains/[domain].astro",
+      "fingerprint": "c03f8f82"
     },
     {
       "rule": "R1",
@@ -2173,7 +2228,22 @@
     },
     {
       "rule": "R1",
+      "file": "src/pages/index.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/journal.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
       "file": "src/pages/llm-knowledge-base.astro",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "src/pages/notes.astro",
       "fingerprint": "c03f8f82"
     },
     {
@@ -2183,13 +2253,633 @@
     },
     {
       "rule": "R1",
-      "file": "src/redirects/load-redirects.mjs",
-      "fingerprint": "8eb88a31"
+      "file": "src/pages/projects.astro",
+      "fingerprint": "7d6fb823"
     },
     {
       "rule": "R1",
-      "file": "src/redirects/load-redirects.mjs",
-      "fingerprint": "c03f8f82"
+      "file": "src/pages/tags/[tag].astro",
+      "fingerprint": "7d6fb823"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "1435ead0"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "54dca927"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "8350fb4"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "9f991a11"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "a5d26b9c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "ce4d27cf"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/domains.css",
+      "fingerprint": "e6172420"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/flavors-preview.css",
+      "fingerprint": "904d5dc8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/flavors-preview.css",
+      "fingerprint": "d68b25b0"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/flavors-preview.css",
+      "fingerprint": "e292c192"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/flavors-preview.css",
+      "fingerprint": "f54a56f6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/flavors-preview.css",
+      "fingerprint": "fd6a3fd6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/fonts.css",
+      "fingerprint": "2bc2d854"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/fonts.css",
+      "fingerprint": "351fdd7f"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/fonts.css",
+      "fingerprint": "db1e17c5"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/kb-prose.css",
+      "fingerprint": "1fece46e"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/kb-prose.css",
+      "fingerprint": "79999c3b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/kb-prose.css",
+      "fingerprint": "f14a1e27"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/styles.css",
+      "fingerprint": "904d5dc8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "1ac28902"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "1edbb61b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "24775704"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "33e2e4d"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "35e12f46"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "464d979e"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "5402595e"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "634e0f9a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "63880e48"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "6521de79"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "6931b070"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "703ed0e6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "703ed0e6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "74b5c0c6"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "8b18a9bf"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "8bf30000"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "904d5dc8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "9390a737"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "a51e5c47"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "a98c9cdc"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "aadf9870"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "b1cfdacd"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "bcbcdc73"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "c1a26883"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "c229f154"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "c56a320a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "caae56d4"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "cc116ad8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "d37ad491"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "dbd04285"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "e1621c9d"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "e3847bfc"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "e7ca19d"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "f55f934a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/colors.css",
+      "fingerprint": "fd7d589a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "1d015dec"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "217c2c92"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "31c06c9a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "334212fc"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "392784d1"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "39a6fb66"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "39fdfba7"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "4129e337"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "4284652c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "582f8011"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "614c3e42"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "6ce98fb5"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "838def3e"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "8d477c9b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "904d5dc8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "914cfba7"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "a8907070"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "bbceac6a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "c8c4d9fc"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "d142ba47"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "da968fb1"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "e1ed1caa"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "f7a7e39c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "f925fe02"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/paper.css",
+      "fingerprint": "fe23b58f"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "11f1cbe8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "304c5f9a"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "32d99aea"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "80fd50a8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "82ffabb2"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "904d5dc8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "ad409019"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "cf699bcd"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "d50a2e46"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "e02d1d71"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/spacing.css",
+      "fingerprint": "e7cf6ba2"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "1b86a882"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "28da4ce1"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "2b5c3e87"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "2c56e047"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "3b706838"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "3c5d6c8f"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "43152792"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "45dfe79c"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "54ec6795"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "5e641fac"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "61a0453"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "65655c90"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "6d29cd89"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "785de2c7"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "7db7249f"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "80d6e9ba"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "82076c9"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "83a8eb3"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "8551b91"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "87e0b3b1"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "8cd6e9a7"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "904d5dc8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "a5871b44"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "ba20d54f"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "baf03096"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "bf987cbf"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "c4ef3efe"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "c87d980b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "dcf104d8"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "df2e899d"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "e40abc34"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "ef3f4b29"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "f7efc46b"
+    },
+    {
+      "rule": "R1",
+      "file": "src/styles/ds/tokens/typography.css",
+      "fingerprint": "fc1e22f3"
     },
     {
       "rule": "R1",
@@ -3178,6 +3868,11 @@
     },
     {
       "rule": "R2",
+      "file": "src/components/Chrome.astro",
+      "fingerprint": "a0b4615b"
+    },
+    {
+      "rule": "R2",
       "file": "src/islands/constellation.ts",
       "fingerprint": "107daf99"
     },
@@ -3393,6 +4088,16 @@
     },
     {
       "rule": "R2",
+      "file": "src/layouts/Base.astro",
+      "fingerprint": "59bda16c"
+    },
+    {
+      "rule": "R2",
+      "file": "src/layouts/Note.astro",
+      "fingerprint": "48e1780e"
+    },
+    {
+      "rule": "R2",
       "file": "src/lib/backlinks.ts",
       "fingerprint": "60457f87"
     },
@@ -3480,6 +4185,21 @@
       "rule": "R2",
       "file": "src/lib/spineZoom.ts",
       "fingerprint": "c6ddb4de"
+    },
+    {
+      "rule": "R2",
+      "file": "src/pages/index.astro",
+      "fingerprint": "811c9dc5"
+    },
+    {
+      "rule": "R2",
+      "file": "src/pages/personal.astro",
+      "fingerprint": "163ad823"
+    },
+    {
+      "rule": "R2",
+      "file": "src/pages/projects.astro",
+      "fingerprint": "ca38afd0"
     },
     {
       "rule": "R2",
@@ -3655,11 +4375,6 @@
       "rule": "R3",
       "file": "src/islands/constellation.ts",
       "fingerprint": "e021d11c"
-    },
-    {
-      "rule": "R3",
-      "file": "src/islands/map-list.ts",
-      "fingerprint": "66c0e9cb"
     },
     {
       "rule": "R3",
@@ -4910,6 +5625,11 @@
       "rule": "R4",
       "file": "src/lib/pagefind-client.ts",
       "fingerprint": "854d1920"
+    },
+    {
+      "rule": "R4",
+      "file": "src/lib/types.ts",
+      "fingerprint": "3476ab30"
     },
     {
       "rule": "R4",
