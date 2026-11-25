@@ -29,8 +29,8 @@ test('an unknown explicit value falls through to the folder', () => {
   assert.equal(resolveDomain(agentsPage, 3), 'agentic');
 });
 
-test('the unslugified folder path resolves after space normalization', () => {
-  assert.equal(resolveDomain('wiki/Working with Agents/example'), 'agentic');
+test('a spaced folder path does not match the slugified prefix', () => {
+  assert.equal(resolveDomain('wiki/Working with Agents/example'), 'gen');
 });
 
 test('other folder fallbacks stay on the six-domain map', () => {

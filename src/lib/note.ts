@@ -65,17 +65,6 @@ export function readerTypeLabel(type: unknown): string | undefined {
   return TYPE_LABELS[key];
 }
 
-export function deriveFirstImage(body?: string): string | undefined {
-  if (!body) return undefined;
-  const m = body.match(/!\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/);
-  if (!m) return undefined;
-  const raw = m[1].trim();
-  if (/^https?:\/\//i.test(raw)) return raw;
-  if (raw.startsWith('/')) return raw;
-  if (raw.startsWith('assets/')) return `/${raw}`;
-  return `/${raw.replace(/^\.\//, '')}`;
-}
-
 export function deriveSourceLine(slug: string): string {
   const parts = slug.replace(/^\/+/, '').replace(/\/+$/, '').split('/').filter(Boolean);
   if (parts.length <= 1) return parts[0]?.replace(/-/g, ' ') ?? '';

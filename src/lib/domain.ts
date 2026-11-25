@@ -49,10 +49,7 @@ export function resolveDomain(slug: string, explicit?: unknown): Domain {
   const map = loadDomainsJson();
   const fromJson = map?.[slug];
   if (typeof fromJson === 'string' && isDomain(fromJson)) return fromJson;
-  const norm = slug.replace(/\s+/g, '-');
-  for (const { prefix, domain } of FOLDER_DOMAIN) {
-    if (slug.startsWith(prefix) || norm.startsWith(prefix)) return domain;
-  }
+  for (const { prefix, domain } of FOLDER_DOMAIN) if (slug.startsWith(prefix)) return domain;
   return DEFAULT_DOMAIN;
 }
 

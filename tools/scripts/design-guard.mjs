@@ -1,10 +1,3 @@
-/**
- * design-guard.mjs
- *
- * Class-name and token bans are gone. This check only keeps the archived
- * design from being imported into the live source.
- * Publish exclusion for design-archive/ stays in src/lib/ignore-patterns.mjs.
- */
 import { readdir, readFile } from 'node:fs/promises';
 import { join, relative } from 'node:path';
 

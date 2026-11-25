@@ -1076,7 +1076,7 @@ Structural cleanup only — no new doctrine or condensed pages. Wedge deferred D
 
 ## [2026-11-25] maintenance | Restore the October site design
 
-- Styles, layouts, header, nav, footer, home, wiki article, and the Map graph and six-domain list are back from the 15 Oct design (`57b368e`), including the accent underlines on the home links.
+- Styles, layouts, header, nav, footer, home, wiki article, and the Map graph and six-domain list are back from the 15 Oct design (`57b368e`). The home is the last pre-redesign page: the two doors for deleted pages stay gone, and the same-day follow-up leaves those links without an underline.
 - Wiki, journal, and the Lessons learned pages stay as they are on main. Cut pages stay cut. The Red Team row stays off the Notes index.
 - The Map page keeps the collapsible content map, drawn with the October tokens. Folder listings stay hub-first.
 - The replacement stylesheet, shell, and the marker list that blocked this design are deleted. `design-archive/old-design/` is unchanged and still unpublished.
