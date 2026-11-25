@@ -26,20 +26,25 @@ Preconditions:
 
 - **Open home.** Go to `/`. Wait for `h1.hero__title` whose text is `LLM Knowledge Base`, and `h2` whose text is `Start here`.
 - **Read the doors.** Three `a.door` cards. The `.door__title` texts are `Does a Study Technique Work?`, `How Chinese Characters Are Built`, `Map of the Site`.
-- **Open the Decode door.** Click the card whose title is `How Chinese Characters Are Built`.
+- **Learn door.** The `a.door` whose `.door__title` is `Does a Study Technique Work?` has href `/wiki/Dimensions/Dimensions-of-Learning/`.
+- **Open the Learn door.** Click that card.
+- **Learn landing.** The URL is `/wiki/Dimensions/Dimensions-of-Learning/`. `h1.kb-note-title` is `Dimensions of Learning`.
+- **Open the Decode door.** Go back to `/`. Click the card whose title is `How Chinese Characters Are Built`.
 - **Resulting state.** The URL is `/wiki/Language/Chinese/How-Chinese-Characters-Work/`. `h1.kb-note-title` is `How Chinese Characters Work`.
+- **Learning Systems.** Go back to `/`. In the hub column whose title is `Knowledge & Execution`, the `a` whose `.hub-list__title` is `Learning Systems` has href `/wiki/Dimensions/Dimensions-of-Learning/`. The Life Systems row `Condensed Notes` has the same href. Click `Learning Systems`.
+- **Learning Systems landing.** The URL is `/wiki/Dimensions/Dimensions-of-Learning/`. `h1.kb-note-title` is `Dimensions of Learning`.
 - **Open a domain.** Go back to `/`. Click the chip whose label is `Learning`.
 - **Domain state.** The URL is `/domains/learning/` or `/domains/learning`. The `h1` text is `Learning`. `a.head__kind` text `Map of Content` has href `/map/`. `ul.moc` is present. The nav link `Notes` has class `on`.
 
-- **Proof.** Screenshot the hero and the Start here row before the door click, and the note heading after it. Both frames show the Logos52 header.
+- **Proof.** Screenshot the hero and the Start here row before the Learn click, the `Dimensions of Learning` heading after it, and the same heading after `Learning Systems`. Frames show the Logos52 header.
+
+Start here `Does a Study Technique Work?`, Life Systems `Condensed Notes`, and Knowledge & Execution `Learning Systems` href `/wiki/Dimensions/Dimensions-of-Learning/` (`src/lib/home-page.ts` slugs `wiki/Dimensions/Dimensions of Learning`, rendered by `slugToUrl` in `src/pages/index.astro`). That page returns 200. `h1.kb-note-title` is `Dimensions of Learning`.
 
 ## Product gaps
 
 These home links resolve through redirects to a different note than the label names. Leave the pages alone. Record the landing URL.
 
-- Start here `Does a Study Technique Work?` href `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/` returns 301 to `/wiki/Dimensions/Dimensions-of-Learning/` (`src/redirects/doors/self.json`). That page returns 200. The heading there is `Dimensions of Learning`. The cut notes stay deleted.
 - Life Systems `Health` href `/wiki/Dimensions/Self-Management/` is 301 to `/wiki/Self-Management/Time-Management,-Attention--and--Scheduling/` (`src/redirects/doors/self.json`).
-- Knowledge & Execution `Learning Systems` uses the same Syntheses href and lands on `/wiki/Dimensions/Dimensions-of-Learning/`.
 - Knowledge & Execution `Decision Making` href `/wiki/Decision-Making/Decision-Making/` is 301 to `/wiki/Razors/` (`src/redirects/doors/self.json`).
 - Knowledge & Execution `Generativity` href `/wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment/` is 301 to `/wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering/` (`src/redirects/doors/ai.json`).
 - Project Updates `Argument Validation` href `/wiki/Argument-Validation/Argument-Validation/` is 301 to `/wiki/Worldviews--and--the-Political-Order/Group-1---How-to-read-these-arguments/` (`src/redirects/doors/world.json`).

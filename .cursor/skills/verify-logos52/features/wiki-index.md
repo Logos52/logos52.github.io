@@ -26,12 +26,14 @@ Preconditions:
 
 - **Open the index.** From `/`, click the nav link named `Notes`.
 - **Resulting state.** URL is `/notes` or `/notes/`. There is no `h1`. The nav link `Notes` has class `on`. `h2` text `Condensed` and `h2` text `Hubs` are present.
-- **Open a hub that exists.** Click the `.entry-list__title` whose text is `Chinese Characters`.
+- **Learning rows.** In the Condensed list, the `a` around `.entry-list__title` `Learning, Condensed` has href `/wiki/Dimensions/Dimensions-of-Learning/`. In the Hubs list, `Learning Systems` has the same href.
+- **Open Learning, Condensed.** Click that title.
+- **Land on Dimensions of Learning.** URL is `/wiki/Dimensions/Dimensions-of-Learning/`. `article[data-pagefind-body]` is present. `h1.kb-note-title` is `Dimensions of Learning`.
+- **Open Learning Systems.** Return to `/notes/`. Click the Hubs `.entry-list__title` `Learning Systems`. The URL and `h1.kb-note-title` match the Condensed row.
+- **Open a hub that exists.** Return to `/notes/`. Click the `.entry-list__title` whose text is `Chinese Characters`.
 - **Land on the note.** URL is `/wiki/Language/Chinese/How-Chinese-Characters-Work/`. `article[data-pagefind-body]` is present. `h1.kb-note-title` is `How Chinese Characters Work`. `span.kb-type-tag` text is `Hub`. `p.kb-note-dek` is present.
 
-## Product gaps
-
-`Learning, Condensed` (the first Condensed row) hrefs `/wiki/Syntheses/Learning,-Condensed/`, which returns 301 to `/wiki/Dimensions/Dimensions-of-Learning/` (`src/redirects/doors/self.json`). That page returns 200. The Hubs row `Learning Systems` hrefs `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/` and lands on the same page. The cut notes stay deleted.
+`Learning, Condensed` (the first Condensed row) and the Hubs row `Learning Systems` href `/wiki/Dimensions/Dimensions-of-Learning/` (`CONDENSED_ENTRIES` and `HUB_ENTRIES` in `src/lib/icons.ts`, rendered by `slugToUrl` in `src/pages/notes.astro`). That page returns 200. `h1.kb-note-title` is `Dimensions of Learning`.
 
 ## Gotchas
 
