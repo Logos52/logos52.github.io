@@ -21,7 +21,7 @@ Tsumugu is a graded Mandarin story product for Vietnamese speakers learning thro
 [[wiki/Story Craft/Story Craft|Story Craft]] is the parent hub after the 2026 cut. Arc typing at the crux, non-lethal stakes, motif ledger, world-as-pressure, tonal runs, burnout shape, and reading-frame audits folded there. Operating spine: [[wiki/Story Craft/Story Craft, Condensed|Story Craft, Condensed]].
 
 - [[wiki/Story Craft/Story Under a Vocabulary Ceiling|Story Under a Vocabulary Ceiling]] (word list as reveal schedule; ~250–1000 字 floors; peak scenes near 98% known words.)
-- [[wiki/Story Craft/Premise and Controlling Idea|Premise and Controlling Idea]] / moral core (values a person will pay a real price to keep ([[projects/tsumugu/MORAL-CORE|project moral core]]).)
+- [[wiki/Story Craft/Premise and Controlling Idea|Premise and Controlling Idea]] / moral core (values a person will pay a real price to keep (project moral core).)
 - [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]], [[wiki/Story Craft/The Character Web|The Character Web]], [[wiki/Story Craft/The Beat Board|The Beat Board]] (interior chains, ensemble web, beat cards and payoff plants.)
 - [[wiki/Story Craft/Stakes Without Mortality|Stakes Without Mortality]], [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] (bonds before threats; objects before feeling-words.)
 
@@ -53,7 +53,7 @@ This wiki page is orientation for writers and agents maintaining canon. Plot pay
 
 On ingest or compile passes that touch Tsumugu fiction: update Story Craft leaf pages first when doctrine changes; sync this hub link list; do not duplicate merged arc/motif/tone prose here. Point to [[wiki/Story Craft/Story Craft|Story Craft]]. Append `log.md` on substantive compile. Run `npm run verify` when site-facing copy changes.
 
-Voice and portrait assets live under `public/tsumugu/`; changing cast voice samples or HTML cast pages is a site change, not a wiki-only edit. Moral-core tests in [[projects/tsumugu/MORAL-CORE|MORAL-CORE]] should stay aligned with [[wiki/Story Craft/Premise and Controlling Idea|Premise and Controlling Idea]] when either file moves.
+Voice and portrait assets live under `public/tsumugu/`; changing cast voice samples or HTML cast pages is a site change, not a wiki-only edit. Moral-core tests in MORAL-CORE should stay aligned with [[wiki/Story Craft/Premise and Controlling Idea|Premise and Controlling Idea]] when either file moves.
 
 ## Product and build links
 

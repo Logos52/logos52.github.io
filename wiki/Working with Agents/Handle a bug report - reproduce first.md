@@ -26,11 +26,7 @@ Most bug reports are vague, and any fix made before someone has seen the bug is 
 
 <b>At a glance</b>
 
-1. Triage every report as it arrives and merge duplicates into one issue.
-2. Have the agent restate the problem and reproduce it before it touches code.
-3. Fix only what reproduced, once you have checked that the main branch has not already fixed it.
-4. Prove the fix with before and after screenshots, edge cases included.
-5. Turn each correction you make along the way into a skill.
+Reproducing first turns a vague report into a confirmed bug, and gives you a before-and-after you can check without running the app yourself.
 
 </div>
 

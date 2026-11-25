@@ -26,11 +26,7 @@ A handful of bots get tangled fast if you speak to each separately and every one
 
 <b>At a glance</b>
 
-1. Talk to one chief of staff bot, and let it hand work to the others.
-2. Give each of the other bots a name and one job.
-3. Gather the bots on one project in a shared group chat.
-4. Make one shared document the source of truth, and have every bot keep it current.
-5. Check the fleet on a schedule for repeated mistakes and wasteful routines.
+Talking to one front door and sharing one set of facts keeps you in a single thread of context, instead of opening every bot's thread.
 
 </div>
 

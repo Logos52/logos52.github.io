@@ -7,8 +7,6 @@ source-count: 1
 created: 2026-05-06
 updated: 2026-11-22
 method: plain-rewrite-2026-09-11
-prose-model: fable
-written-by: fable
 tags:
   - books
   - mindset

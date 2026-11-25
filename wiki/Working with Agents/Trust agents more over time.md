@@ -26,10 +26,7 @@ How much agents can do for you depends on how much you trust their work. Trust g
 
 <b>At a glance</b>
 
-- Start on your own machine, where you can watch the agent work.
-- Move to cloud agents, then to merging with review afterwards.
-- Keep a hold on any change you cannot undo.
-- Climb one step at a time.
+Each step lets agents do more while you watch less, because it rests on evidence from the step before.
 
 </div>
 

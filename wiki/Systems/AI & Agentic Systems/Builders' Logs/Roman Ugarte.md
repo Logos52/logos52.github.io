@@ -7,7 +7,7 @@ created: 2026-11-22
 updated: 2026-11-22
 method: builders-logs-publish-2026-11-22
 source-count: 1
-description: "Builders' Logs 2026 — Roman Ugarte (@romanugarte_)."
+description: "Builders' Logs 2026 page for Roman Ugarte (@romanugarte_)."
 tags:
   - agents
   - builders-logs-2026
@@ -16,21 +16,16 @@ wedge_reviewed: false
 
 # Roman Ugarte, @romanugarte_
 
-Part of [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]] and [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]].
-
 ## Who they are
 
-Roman Ugarte builds Grok Bot at SpaceXAI and previously led growth at Cursor. Roman Ugarte sits in this group because of a framing of Grok Bot as bringing the delegation that developers already enjoy to the rest of a company. ([X profile](https://x.com/romanugarte_), [post](https://x.com/romanugarte_/status/2095631730111807650))
+Roman Ugarte builds Grok Bot at SpaceXAI and previously led growth at Cursor. The public work frames Grok Bot as bringing the delegation that developers already enjoy to the rest of a company. ([X profile](https://x.com/romanugarte_), [post](https://x.com/romanugarte_/status/2095631730111807650))
 
 Last checked: 2026-11-19.
 
-## Mindset
-
-Not much on mindset is public beyond what the timeline shows.
 
 ## Setup
 
-Roman Ugarte builds Grok Bot at SpaceXAI and previously led growth at Cursor.  Roman Ugarte sits in this group because of a framing of Grok Bot as bringing the delegation that developers already enjoy to the rest of a company.
+Roman Ugarte's go-to-market team hands workflows to bots, with a domain expert describing the workflow once and sharing the bot. One shown bot listens on X for customer feedback and for blog posts gaining traction.
 
 ## Timeline
 
@@ -42,3 +37,8 @@ Roman Ugarte builds Grok Bot at SpaceXAI and previously led growth at Cursor.  R
 - 2026-10-27. Reported that bots had joined the go-to-market team, where a domain expert describes a workflow to a bot and shares it, and that this beat earlier internal automation. ([post](https://x.com/romanugarte_/status/2115133963857690713))
 - 2026-11-11. Announced Bot 1.0, which lets bots join video meetings and adds a new screen for managing bots. ([post](https://x.com/romanugarte_/status/2120598306585989302))
 - 2026-11-14. Appeared with Lauren Tan on Y Combinator's Lightcone show about how the Grok Bot core team went from first code to launch in seven weeks. ([video](https://www.youtube.com/watch?v=y1-9yeYLJUo), [post](https://x.com/ycombinator/status/2121632207303582049))
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]]: the hub for all thirteen logs, with the Grok and Anthropic lab sections.
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]]: public examples grouped into individual bots and systems of bots.

@@ -7,7 +7,7 @@ created: 2026-11-22
 updated: 2026-11-22
 method: builders-logs-publish-2026-11-22
 source-count: 1
-description: "Builders' Logs 2026 — Sam Sokolin (@SamSokolin)."
+description: "Builders' Logs 2026 page for Sam Sokolin (@SamSokolin)."
 tags:
   - agents
   - builders-logs-2026
@@ -16,21 +16,16 @@ wedge_reviewed: false
 
 # Sam Sokolin, @SamSokolin
 
-Part of [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]] and [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]].
-
 ## Who they are
 
-Sam Sokolin is a senior engineer at SpaceXSI on Grok Bot. Sam Sokolin sits in this group because of work on the bot harness and bot email alongside using bots for personal money and coding chores. ([X profile](https://x.com/SamSokolin), [event page](https://luma.com/j2rvaxil))
+Sam Sokolin is a senior engineer at SpaceXSI on Grok Bot. Public posts cover the bot harness and bot email, alongside using bots for personal money and coding chores. ([X profile](https://x.com/SamSokolin), [event page](https://luma.com/j2rvaxil))
 
 Last checked: 2026-11-19.
 
-## Mindset
-
-Not much on mindset is public beyond what the timeline shows.
 
 ## Setup
 
-Sam Sokolin is a senior engineer at SpaceXSI on Grok Bot.  Sam Sokolin sits in this group because of work on the bot harness and bot email alongside using bots for personal money and coding chores.
+Sam Sokolin speaks ideas into Grok Bot voice mode at night and wakes to pull requests in Cursor projects. Bots also handle personal money chores, such as a year-long credit card review, and Not My Tempo audits the cost of other bots' routines.
 
 ## Timeline
 
@@ -42,3 +37,8 @@ Sam Sokolin is a senior engineer at SpaceXSI on Grok Bot.  Sam Sokolin sits in t
 - 2026-11-02. Demonstrated claiming an email address for a bot and routing mail by plus alias in What's New in Grok Bot #2. ([video](https://www.youtube.com/watch?v=lQB3kZZZYss))
 - 2026-11-13. Shipped harness changes that give users about 7 percent more usage from their plan and up to about 15 percent more on routine runs. ([post](https://x.com/SamSokolin/status/2121303079803089179))
 - 2026-11-16. Said the harness team was spending all its effort on stretching plan usage, with more changes coming. ([post](https://x.com/SamSokolin/status/2122433810902176012))
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]]: the hub for all thirteen logs, with the Grok and Anthropic lab sections.
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]]: public examples grouped into individual bots and systems of bots.
