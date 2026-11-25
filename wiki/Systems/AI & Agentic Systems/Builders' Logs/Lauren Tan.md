@@ -7,7 +7,7 @@ created: 2026-11-22
 updated: 2026-11-22
 method: builders-logs-publish-2026-11-22
 source-count: 1
-description: "Builders' Logs 2026 — Lauren Tan (@poteto)."
+description: "Builders' Logs 2026 page for Lauren Tan (@poteto)."
 tags:
   - agents
   - builders-logs-2026
@@ -16,21 +16,16 @@ wedge_reviewed: false
 
 # Lauren Tan, @poteto
 
-Part of [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]] and [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]].
-
 ## Who they are
 
-Lauren Tan is a principal engineer at SpaceXSI on the Grok Bot team. Lauren Tan sits in this group for two reasons. In 2026 Lauren wrote an automation guide for people who are not technical, and kept building pstack, a set of engineering skills for coding agents. ([AI Engineer schedule](https://ai.engineer/code/2026/schedule), [automation article](https://x.com/poteto/status/2123159537016533493))
+Lauren Tan is a principal engineer at SpaceXSI on the Grok Bot team. In 2026 Lauren wrote an automation guide for people who are not technical, and kept building pstack, a set of engineering skills for coding agents. ([AI Engineer schedule](https://ai.engineer/code/2026/schedule), [automation article](https://x.com/poteto/status/2123159537016533493))
 
 Last checked: 2026-11-19.
 
-## Mindset
-
-Not much on mindset is public beyond what the timeline shows.
 
 ## Setup
 
-Lauren Tan is a principal engineer at SpaceXSI on the Grok Bot team.  In 2026 Lauren wrote an automation guide for people who are not technical, and kept building pstack, a set of engineering skills for coding agents.
+Lauren Tan works in Cursor with pstack, whose skills let an agent run, control and debug an app from a map of its features. The Grok Bot team's own bots cover chores at work and at home.
 
 ## Timeline
 
@@ -43,7 +38,7 @@ Lauren Tan is a principal engineer at SpaceXSI on the Grok Bot team.  In 2026 La
 - 2026-03-24. Joined Cursor after six years on React at Meta, where shipping the React Compiler was a career highlight. ([post](https://x.com/poteto/status/2036536104468488654))
 - 2026-05-19. Reported that a Rust port of the React Compiler was being tested on Meta's monorepo, and that Lauren would test it on Cursor's TypeScript monorepo. ([post](https://x.com/poteto/status/2056865079543681329))
 - 2026-05-25. Published an X article on how Lauren Tan uses Cursor. ([post](https://x.com/poteto/status/2058975157503570132))
-- 2026-05-28. Added a pstack principle after an agent running poteto-mode, during a large StyleX refactor, began writing codemods and skills for its own subagents, so agents on large tasks now build tools for themselves. ([post](https://x.com/poteto/status/2059870196559700428))
+- 2026-05-28. Added a pstack principle after an agent running poteto-mode, during a large StyleX refactor, began writing codemods (scripts that rewrite code automatically) and skills for its own subagents, so agents on large tasks now build tools for themselves. ([post](https://x.com/poteto/status/2059870196559700428))
 - 2026-06-06. Released pstack v0.8.0 with a setup skill that lets each user choose their own models. ([post](https://x.com/poteto/status/2063187547564745039))
 - 2026-06-24. Published the X article Loops You Can Trust. ([post](https://x.com/poteto/status/2069824386283319343))
 - 2026-07-16. Wrote about wanting to leave Meta since the year before, and about a month of side projects that showed how freeing it was to build without lining up stakeholders. ([post](https://x.com/poteto/status/2077644468615106995))
@@ -69,3 +64,8 @@ Lauren Tan is a principal engineer at SpaceXSI on the Grok Bot team.  In 2026 La
 - 2026-11-14. Shared a lesson from the year: skip asking whether to do something, build it and come back with a demo. ([post](https://x.com/poteto/status/2121417335055831368))
 - 2026-11-14. Appeared with Roman Ugarte on Y Combinator's Lightcone show about working next to bots every day. ([video](https://www.youtube.com/watch?v=y1-9yeYLJUo))
 - 2026-11-18. Published Automate Anything with Grok Bot, which treats automation as a goal plus a process and argues that people who cannot code can now automate computer work. ([post](https://x.com/poteto/status/2123159537016533493))
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]]: the hub for all thirteen logs, with the Grok and Anthropic lab sections.
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]]: public examples grouped into individual bots and systems of bots.

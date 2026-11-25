@@ -18,7 +18,7 @@ wedge_reviewed: false
 
 ## Who they are
 
-Roman Ugarte builds Grok Bot at SpaceXAI and previously led growth at Cursor. The public work frames Grok Bot as bringing the delegation that developers already enjoy to the rest of a company. ([X profile](https://x.com/romanugarte_), [post](https://x.com/romanugarte_/status/2095631730111807650))
+Roman Ugarte builds Grok Bot at SpaceXSI and previously led growth at Cursor. The public work frames Grok Bot as bringing the delegation that developers already enjoy to the rest of a company. ([X profile](https://x.com/romanugarte_), [post](https://x.com/romanugarte_/status/2095631730111807650))
 
 Last checked: 2026-11-19.
 

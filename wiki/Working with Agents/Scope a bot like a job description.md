@@ -21,24 +21,17 @@ wedge_reviewed: true
 
 A bot works best with one job, written down the way you would describe a role for a new teammate. The description says what the bot owns and what it doesn't, holds the standing rules it follows every time, and points to the materials and access it needs to be good at that job. Written well, the description stays short and general, so it keeps working as the bot takes on new tasks within its lane.
 
-**Scope.** This draws on how speakers at the Grok Bot Galaxy livestream scoped their bots over three days, for slides, marketing, sales, customers and engineering. It applies to any bot whose description you can edit.
-
 <div class="callout">
 
 <b>At a glance</b>
 
-1. List the work you need done, then group it into domains.
-2. Give each bot one job and write its lane like a job description.
-3. Put the rules it should follow every time into its description.
-4. Give it the materials and access to be an expert at that job.
-5. Let it widen its scope once you trust it.
-6. Keep the description at the level of principles.
+The description works like a system prompt, so a specialized bot stays consistent as new tasks arrive in its lane.
 
 </div>
 
 <figure>
 <svg viewBox="0 0 520 510" width="100%" style="max-width:520px" role="img" aria-labelledby="sc-card-t">
-<title id="sc-card-t">A bot's job description card, for a new teammate. One job: have one bot with one job. Lane: what it owns, in the middle, with leaves to other bots on each side, and arrows outward labelled let the scope grow with trust. Standing rules it follows every time: a particular font with particular colors, and a screenshot of each slide once it is done. Materials and access: relevant information and materials, and connected to your Slack and email. Below the card, details from one task are crossed out, with an arrow to principles: keep the description at the level of principles.</title>
+<title id="sc-card-t">Keep the description at the level of principles.</title>
 <rect x="10" y="10" width="500" height="368" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6);stroke-width:2"/>
 <g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px" text-anchor="start"><text x="30" y="34" style="font-weight:600">Job description</text></g>
 <g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="end"><text x="490" y="34">For a new teammate</text></g>
@@ -56,7 +49,7 @@ A bot works best with one job, written down the way you would describe a role fo
 <line x1="26" y1="220" x2="494" y2="220" style="stroke:var(--rule2,#999);stroke-width:1"/>
 <g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="30" y="240" style="font-weight:600">Standing rules</text></g>
 <g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="start"><text x="150" y="240">Follows every time</text></g>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="40" y="262">• A particular font with particular colors</text><text x="40" y="280">• A screenshot of each slide once it is done</text></g>
+<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="40" y="262">a particular font with particular colors</text><text x="40" y="280">a screenshot of each slide once it is done</text></g>
 <line x1="26" y1="292" x2="494" y2="292" style="stroke:var(--rule2,#999);stroke-width:1"/>
 <g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="30" y="312" style="font-weight:600">Materials and access</text></g>
 <path d="M36,324 L48,324 L52,328 L52,344 L36,344 Z" style="fill:none;stroke:var(--ink,currentColor);stroke-width:1.2"/>
@@ -74,21 +67,21 @@ A bot works best with one job, written down the way you would describe a role fo
 <rect x="280" y="424" width="230" height="67" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6)"/>
 <g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="290" y="444" style="font-weight:600">Principles</text><text x="290" y="461">Keep the description at the</text><text x="290" y="478">level of principles</text></g>
 </svg>
-<figcaption>A bot's job description. One job, a lane, the rules it follows every time and the materials it needs, kept at the level of principles.</figcaption>
+<figcaption>have one bot with one job</figcaption>
 </figure>
 
 ## Why it works
 
-A bot's description works almost like a system prompt, which some people call the bot's soul, and it affects how the bot works. One speaker described scoping as identifying a new teammate you need help from, and said tight scoping keeps each bot specialized enough to get its piece of work done. That, the speaker said, is how you get the most efficiency out of a team of bots. Another speaker gives a bot very detailed instructions, because that makes its work more consistent.
+A bot's description works almost like a system prompt (sometimes called its soul) and directly shapes how the bot behaves. Scoping a bot works like hiring a new teammate: tight boundaries keep each bot specialized enough to finish its slice of work efficiently, and explicit instructions make output consistent.
 
 ## The method
 
-1. **Inventory the work first.** Asked how to set up roles for bots, one speaker said to start by listing everything you need done, so that you can group it. That speaker groups bots by domain, such as finance, dealing with customers or marketing.
-2. **Give each bot one job, written like a job description.** Know the swim lanes, roles and responsibilities, and scope the bot tightly enough that it can specialize. Another speaker put it as "have one bot with one job", whether a chief of staff delegates to them or you talk to each bot yourself. In one demo, the description the bot-making bot wrote also specified one job, so that the bot wouldn't try to do everything.
-3. **Write standing rules into the description.** One presenter's slide bot has very explicit instructions in its description on how to edit an existing deck: use a particular font with particular colors, and send back a screenshot of each slide once it is done. Because the bot already has that predefined set of things to do, going back and forth with it is easier. A description can also set the voice the bot uses with you.
-4. **Give it what an expert needs.** Treat bots as team members you are onboarding: make them an expert in their field and give them all the relevant information and materials to be great at that job. Trust starts with access, such as connecting the bot to your Slack and email. You can then ask it to study that context and tell you what job it can take off your plate.
-5. **Let the scope grow with trust.** One speaker's bots start with a specific domain and expand their scope as that speaker brings them questions outside it.
-6. **Keep the description at the level of principles.** Looking at a description that had become too specific, one speaker noted that a rule or skill written right after one problem tends to absorb that session's details, which makes it less reusable. [[wiki/Working with Agents/Scope a bot like a job description|Set up a first engineering bot]] shows one being rewritten as principles.
+1. **Inventory the work first.** Start by listing everything you need done so you can cluster tasks into clear domains, such as finance, customer support, or marketing.
+2. **Give each bot one job, written like a job description.** Define clear swim lanes, roles, and responsibilities so each bot specializes. In practice, have one bot with one job, whether a coordinator delegates to specialists or you message each bot directly, so no bot tries to do everything.
+3. **Write standing rules into the description.** Include explicit standing rules: for instance, a slide bot must use a particular font with particular colors and send back a screenshot of each slide once it is done. Predefined rules cut back-and-forth, and the description can also set the voice the bot uses.
+4. **Give it what an expert needs.** Treat bots as team members you are onboarding: make them an expert in their field and give them all the relevant information and materials to be great at that job. Trust starts with access, such as having the bot connected to your Slack and email. You can then ask it to study that context and tell you what job it can take off your plate.
+5. **Let the scope grow with trust.** Start each bot inside one narrow domain and widen its lane only as it proves reliable on edge requests.
+6. **Keep the description at the level of principles.** Rules written right after fixing a single bug tend to absorb one-off task details and lose reusability, so generalize lessons into principles.
 
 ### A prompt to copy
 
@@ -96,29 +89,19 @@ A bot's description works almost like a system prompt, which some people call th
 
 ## Signals and failure points
 
-| What you notice | What it means | What to do |
+| Symptom | Cause | Action |
 |---|---|---|
 | A bot tries to do everything | It has no single job | Split the work and give each bot one job |
 | Its output varies from run to run | Its standing rules aren't in the description | Write explicit rules into the description |
 | It can't do its job well | It lacks materials or access | Give it what an expert in that role would need |
 | Its description reads like notes from one session | It has become too specific | Rewrite it as principles |
 
-Scoped this way, each bot holds one job, with its own rules and materials, and a short description you can keep editing as the work changes.
 
 ## A fleet of single-job bots
 
 Several bots tangle quickly when you talk to each one separately and each keeps its own version of the facts. One front door helps: a chief of staff bot takes your requests and hands them to specialists. Give every other bot one job and a name. Put bots working on one project into a group chat. Keep one shared document as the source of truth and tell every bot to update it. Run a scheduled checkup that reads transcripts for repeated mistakes and wasteful routines.
 
 Staffing patterns from the public workshop cluster bots by domain, such as finance, customers, or marketing, then tighten the lane until the bot can specialize. Other teams onboard bots like new hires: connect access, let the bot study the context, and ask what job it can take. The first engineering bot on this desk is the scoping page applied once to a helper that runs cloud agents. Its description should name the repo, the proof bar, and what it may merge without asking.
-
-## Related pages
-
-- [[wiki/Working with Agents/Run more agents in parallel|Run more agents in parallel]]: coordinator agents for coding work
-- [[wiki/Working with Agents/Give an agent a task without micromanaging it|Give an agent a task without micromanaging it]]: handing a single task after scope is set
-
-## Sources
-
-- Grok Bot Galaxy livestream, days 1 to 3 (2026-09-15 to 2026-09-17, caption transcripts; speaker labels unreliable). Grouping by domain, one bot with one job, the slide bot's rules, the description as a system prompt, onboarding bots as experts, scoping like a job description, and expanding scope with trust. Paraphrased, one short quote.
 
 ## Open questions
 
@@ -127,3 +110,12 @@ Should a bot cover one client or all of them? Speakers called this preference, a
 What should a description leave out? The sources say what goes in, not what to exclude.
 
 How long should a description be? No length is given.
+
+## Related pages
+
+- [[wiki/Working with Agents/Run more agents in parallel|Run more agents in parallel]]: coordinator agents for coding work
+- [[wiki/Working with Agents/Give an agent a task without micromanaging it|Give an agent a task without micromanaging it]]: handing a single task after scope is set
+
+## Sources
+
+- Grok Bot Galaxy livestream, days 1 to 3 (2026-09-15 to 2026-09-17, caption transcripts, speaker labels unreliable). Grouping by domain, one bot with one job, the slide bot's rules, the description as a system prompt, onboarding bots as experts, scoping like a job description, and expanding scope with trust. Paraphrased, one short quote.

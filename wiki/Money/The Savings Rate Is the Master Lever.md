@@ -32,17 +32,17 @@ Return assumptions still matter, but they matter less when the rate is high. At 
 
 ## Where the rate cannot move
 
-Below an income floor the rate barely budges. Renters earning under roughly thirty thousand dollars in high-rent markets can have only a few hundred dollars a month after housing. Rent, insurance, and debt service were contracted years ago. Where the gap sits near zero, the next move is income, not a lecture about lattes. Income is not a competing philosophy; it is the numerator and denominator of the same fraction.
+Below an income floor the rate barely budges. Renters earning under roughly thirty thousand dollars in high-rent markets can have only a few hundred dollars a month after housing. Rent, insurance, and debt service were contracted years ago. Where the gap sits near zero, the next move is income, not a lecture about lattes. Income sets the size of the fraction itself, because it forms both the numerator and the denominator.
 
-The upper bound on the rate is life energy in the [[wiki/Money/Money, Condensed|YMOYL]] sense. A wider gap in dollars often comes from wanting less before money moves: [[wiki/Minimalism/Minimalism as Systems Design|Wanting Less]] names signalling motives at the moment of wanting. [[wiki/Minimalism/Minimalism as Systems Design|Ownership Cost]] counts the hours objects keep consuming after purchase.
+The upper bound on the rate is the hours of life energy spent earning each dollar. A wider gap in dollars often comes from wanting less before money moves, by cutting status spending at the moment of wanting and counting the hours objects keep consuming after purchase.
 
 ## Wealth you cannot see
 
-Housel’s point fits here: wealth is income you did not convert into something visible. A high savings rate produces invisible results. Comparing against other people’s visible spending costs twice. It moves [[wiki/Money/Define Enough|Define Enough]]’s goalpost and it spends the gap that would have shortened the timeline.
+Wealth is income you did not convert into something visible. A high savings rate produces invisible results. Comparing against other people's visible spending costs twice: it pushes up what counts as enough in [[wiki/Money/Define Enough|Define Enough]] while spending the surplus that would have shortened the timeline.
 
 ## One number, one denominator
 
-A rate means nothing without the income you divide by. The same eighteen thousand dollars saved is 20% of ninety thousand gross and 26% of sixty-eight thousand take-home. Pick gross or take-home, state it, and use the same basis every quarter. If last quarter’s fund return comes to mind faster than your savings rate, you are tracking the wrong number.
+A rate means nothing without the income you divide by. The same eighteen thousand dollars saved is 20% of ninety thousand dollars gross and 26% of sixty-eight thousand dollars in net pay after taxes. Pick gross pay or net pay after taxes, state it, and use the same basis every quarter. If last quarter's fund return comes to mind faster than your savings rate, you are tracking the wrong number.
 
 Once the rate is written down, spending is what moves it. A rate pinned near zero moves only when income rises. Automatic transfers help because they remove a decision each payday.
 
@@ -50,13 +50,20 @@ Once the rate is written down, spending is what moves it. A rate pinned near zer
 
 Divide what you saved last year by income on your chosen basis and classify your row against the table (10%, 20%, 50%, or 75%). Notice how many years sit between your row and the next tighter one. Add rent, insurance, and debt service and see how much of each month was decided years ago. If little remains after housing, treat income as the active project until the gap opens.
 
-Stress-test your row at a lower return assumption. At high rates the timeline barely shifts; at low rates it can slip by a decade. Say your savings rate from memory, then say last quarter’s return, and notice which answer arrives first. That ordering tells you whether behavior or markets is actually steering the plan.
+Stress-test your row at a lower return assumption. At high rates the timeline barely shifts, while at low rates it can slip by a decade. Say your savings rate from memory, then say last quarter's return, and notice which answer arrives first. That ordering tells you whether behavior or markets is actually steering the plan.
 
 Pair the rate with [[wiki/Money/Time Beats Timing|Time Beats Timing]]: a high rate fills the horizon faster, but only if the money stays invested through the crash years.
 
-Research on saving across income levels shows wide dispersion, but the mechanism on this page does not depend on being rich. It depends on the fraction kept. A household that doubles income and doubles spending has gained nothing on the timeline. A household that doubles income and holds spending flat has jumped several rows in the table in a single year. That is why “pay yourself first” is not a slogan. It is row selection.
+Savings rates vary widely across income brackets, yet the math does not depend on being rich. It depends on the fraction kept. A household that doubles income and doubles spending has gained nothing on the timeline. A household that doubles income and holds spending flat has jumped several rows in the table in a single year. Moving money to savings first works because it picks a tighter row before daily spending can absorb the raise.
 
 [[wiki/Razors|Positional Decisions and Expected Value]] applies when a money choice is really about your overall position, not a single trade. The savings rate is positional: it defines how fast your position moves toward optional work.
+
+## Related pages
+
+- [[wiki/Money/Money, Condensed|Money, Condensed]]: the crossover point and the life-energy framing behind the rate.
+- [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]: wanting less and counting ownership cost after purchase.
+- [[wiki/Money/Define Enough|Define Enough]]: setting the finish line so rising income stays in the gap.
+- [[wiki/Money/Time Beats Timing|Time Beats Timing]]: staying invested while a high savings rate fills the horizon.
 
 ## Sources
 
