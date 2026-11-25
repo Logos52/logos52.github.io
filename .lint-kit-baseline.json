@@ -5898,11 +5898,6 @@
     },
     {
       "rule": "R2",
-      "file": "src/pages/index.astro",
-      "fingerprint": "811c9dc5"
-    },
-    {
-      "rule": "R2",
       "file": "src/pages/personal.astro",
       "fingerprint": "163ad823"
     },
