@@ -1,73 +1,27 @@
-import { deriveTitle } from './note';
-import { byHubThen } from './folder-order';
-import { simplifySlug, slugToUrl } from './slug';
+import { deriveTitle } from './note.ts';
+import { byHubThen } from './folder-order.ts';
+import { simplifySlug, slugToUrl } from './slug.ts';
 
-interface NoteData {
-  title?: unknown;
-  type?: unknown;
-}
-
-interface NoteLike {
-  id: string;
-  data: NoteData;
-  body?: string;
-}
-
-interface ContentPage {
-  title: string;
-  url: string;
-  type?: string;
-}
-
-interface SectionGroup {
-  label: string;
-  count: number;
-  pages: ContentPage[];
-}
-
-interface TypeGroup {
-  label: string;
-  count: number;
-  sections: SectionGroup[];
-}
-
-interface ContentMapResult {
-  contentMap: TypeGroup[];
-  contentMapCount: number;
-  otherCount: number;
-  contentMapDek: string;
-}
-
-interface BucketGroup {
-  label: string;
-  pages: ContentPage[];
-}
-
-interface SectionRef {
-  key: string;
-  label: string;
-}
-
-function folderLabel(segment: string): string {
+function folderLabel(segment) {
   return segment.replace(/--and--/g, ' & ').replace(/-+/g, ' ');
 }
 
-function sectionOf(id: string): SectionRef {
+function sectionOf(id) {
   const parts = id.split('/').filter(Boolean);
   parts.pop();
   if (parts.length === 0) return { key: '', label: 'Top level' };
   return { key: parts.join('/'), label: parts.map(folderLabel).join(' / ') };
 }
 
-function byCountThenName(a: TypeGroup, b: TypeGroup): number {
+function byCountThenName(a, b) {
   return b.count - a.count || a.label.localeCompare(b.label, 'en');
 }
 
-function bySectionCount(a: SectionGroup, b: SectionGroup): number {
+function bySectionCount(a, b) {
   return b.count - a.count || a.label.localeCompare(b.label, 'en');
 }
 
-function pushPage(buckets: Map<string, Map<string, BucketGroup>>, note: NoteLike): void {
+function pushPage(buckets, note) {
   const raw = typeof note.data.type === 'string' ? note.data.type.trim() : '';
   const typeLabel = raw || 'Other';
   const section = sectionOf(note.id);
@@ -88,8 +42,8 @@ function pushPage(buckets: Map<string, Map<string, BucketGroup>>, note: NoteLike
   });
 }
 
-function toSectionGroups(sectionMap: Map<string, BucketGroup>): SectionGroup[] {
-  const sectionGroups: SectionGroup[] = [];
+function toSectionGroups(sectionMap) {
+  const sectionGroups = [];
   for (const group of sectionMap.values()) {
     group.pages.sort(
       byHubThen(
@@ -103,8 +57,8 @@ function toSectionGroups(sectionMap: Map<string, BucketGroup>): SectionGroup[] {
   return sectionGroups;
 }
 
-function toTypeGroups(buckets: Map<string, Map<string, BucketGroup>>): TypeGroup[] {
-  const typeGroups: TypeGroup[] = [];
+function toTypeGroups(buckets) {
+  const typeGroups = [];
   for (const [label, sectionMap] of buckets) {
     const sections = toSectionGroups(sectionMap);
     const count = sections.reduce((sum, group) => sum + group.count, 0);
@@ -113,9 +67,9 @@ function toTypeGroups(buckets: Map<string, Map<string, BucketGroup>>): TypeGroup
   return typeGroups;
 }
 
-export function buildContentMap(notes: NoteLike[]): ContentMapResult {
+export function buildContentMap(notes) {
   const contentPages = notes.filter((n) => simplifySlug(n.id) !== '/' && n.id !== 'notes/index');
-  const buckets = new Map<string, Map<string, BucketGroup>>();
+  const buckets = new Map();
   for (const note of contentPages) pushPage(buckets, note);
   const typeGroups = toTypeGroups(buckets);
   const otherGroups = typeGroups.filter((group) => group.label === 'Other');
