@@ -1,68 +1,184 @@
 ---
-import Shell from '../layouts/Shell.astro';
-import { DOMAINS, DOMAIN_LABELS, DOMAIN_STANCES, type Domain } from '../lib/types';
+/**
+ * index.astro — the Logos52 home, matched to the original Quartz HomeLanding: compact, narrow
+ * (~original --pageWidth), left-aligned hero, inline search, constellation + legend, Open
+ * questions / Today's retrieval, Start here (intent doors), and three hub-list columns.
+ */
+import { existsSync, readFileSync } from 'node:fs';
+import { getCollection } from 'astro:content';
+
+import Base from '../layouts/Base.astro';
+import DomainChip from '../components/DomainChip.astro';
+import Constellation from '../components/Constellation.astro';
+import Icon from '../components/Icon.astro';
 import { slugifyFilePath, slugToUrl } from '../lib/slug';
+import { DOMAIN_LABELS, type Domain } from '../lib/types';
+import '../styles/home-page.css';
+import '../styles/home-lists.css';
+import { DOMAIN_ICONS } from '../lib/icons';
+import {
+  dimensionHubs,
+  executionHubs,
+  hubColumns,
+  lifeHubs,
+  projectUpdates,
+  startHere,
+  topOfMind,
+} from '../lib/home-page';
 
-const objective =
-  'This wiki is compiled with agents, but the human still sets direction, judges what ships, and owns what the pages claim.';
+interface HomeData {
+  hero?: { title?: string; lede?: string };
+  questions?: string[];
+  todaysRetrieval?: { kind?: string; title?: string; prompt?: string; queueCount?: number; slug?: string };
+}
+const HOME_JSON = 'kb-astro/site-data/home.json';
+let home: HomeData | null = null;
+try {
+  if (existsSync(HOME_JSON)) home = JSON.parse(readFileSync(HOME_JSON, 'utf8')) as HomeData;
+} catch {
+  home = null;
+}
 
-const topOfMind: string[] = [
-  'Whether story arcs need a moral core before the character risks losing something they love.',
-  'How much of daily life still belongs on personal pages that stay off the public site.',
-  'Where political arguments hold up when you trace them past the headline.',
-];
-if (topOfMind.length !== 3) throw new Error('Top of mind holds exactly 3 lines on the home page.');
+const notes = await getCollection('notes');
+const hero = home?.hero ?? {
+  title: 'A second brain for learning systems & agentic engineering',
+  lede: 'Linked notes on learning systems, language study, and software work with LLM agents.',
+};
+// "Currently" — a short now-band: what I'm building / learning / reading / chewing on. Hand-curated;
+// edit these freely. (Replaced the Open-questions + Today's-retrieval pulse cards.)
+// "Top of mind" — open questions about where AI is going and how to shape it (personal + society),
+// plus one standing "Personal items" entry gathering the personal wings (added 2026-07-21).
+// Pose the question; link to the note that addresses it. Standard: 02 - System/Writing Standards.md
+// → High-Signal Front-Facing Pages → Open Questions Stay Open. Edit freely; keep them in-lane.
+// Top of mind holds at most 4 entries. A new entry enters only when the lowest retires in the same edit,
+// and the retired entry stays in the comments below. The build fails before the list grows.
+if (topOfMind.length > 4)
+  throw new Error(`Top of mind holds at most 4 entries; found ${topOfMind.length}. Retire the lowest before adding.`);
+// Retired from the card 2026-07-17 (the list must not grow; the lowest entry was archived, not deleted):
+//   q: 'If a generation offloads its thinking to AI, what are the second-order effects?'
+//   links: Epistemic Exceptionalism (wiki/Red Team) · The Shortcut Problem (wiki/Concepts) · The Age of Nonlinear Returns (wiki/Concepts)
+// Retired 2026-07-21 (same rule — the Personal items entry came in, lowest went out):
+//   q: 'Where leaning on AI builds understanding'
+//   links: Understanding Bottleneck (wiki/Concepts) · Are You Thinking, or Just Consuming (wiki/Concepts) · The Screen Inferiority Effect (wiki/Concepts)
+// Retired 2026-08-06 (same rule — the Least-Cost Interpretation entry came in, lowest went out):
+//   q: 'Whether the line between what humans and models own is fixed, or keeps shifting'
+//   links: Human vs AI Capability Lens (wiki/Concepts) · Higher-Order Generativity vs Judgment (wiki/Concepts) · The Floor Rose, the Ceiling Is the Job (journal)
+// Retired 2026-08-11 (the four-cap enforced — list had drifted to six, pruned back, lowest two out):
+//   q: 'What stays human as the models match generativity'
+//   links: Human vs AI Capability Lens (wiki/Concepts) · Higher-Order Generativity vs Judgment (wiki/Concepts) · A Motorcycle for the Mind (wiki/Concepts) · Automation and the Job Iceberg (wiki/Systems/AI & Agentic Systems)
+//   q: 'What changes when the deliberate reasoning inside a model can be read and steered directly'
+//   links: Global Workspace and J-space (wiki/Concepts) · The workspace a language model thinks in (journal/2026-07-07) · Human vs AI Capability Lens (wiki/Concepts)
+// Retired 2026-08-17 (Worldviews & the Political Order entered; lowest out):
+//   q: 'Whether the inner life that makes a written character read as a person is something a model can author'
+//   links: The Wound and the Lie · Round Characters and the Telling Detail · Human vs AI Capability Lens · Story Craft
 
-const omitted =
-  'Raw sources, private notes, financial detail, and workbench drafts stay out of the published wiki.';
-
-const buildersHref = slugToUrl(
-  slugifyFilePath("wiki/Systems/AI & Agentic Systems/Builders' Logs 2026.md"),
-);
+const tagCount = new Map<string, number>();
+for (const n of notes) {
+  const raw = (n.data as Record<string, unknown>).tags;
+  const tags = Array.isArray(raw) ? raw.map(String) : raw ? [String(raw)] : [];
+  for (let t of tags) {
+    t = t.trim().toLowerCase().replace(/\s+/g, '-');
+    if (t) tagCount.set(t, (tagCount.get(t) ?? 0) + 1);
+  }
+}
+const slugs = notes.map((n) => n.id);
+function prefixCount(rawPrefix: string): number {
+  const base = slugifyFilePath(rawPrefix);
+  let c = 0;
+  for (const s of slugs) if (s === base || s.startsWith(base + '/')) c++;
+  return c;
+}
+function hubCount(h: (typeof dimensionHubs)[number]): number {
+  if (h.tag && tagCount.has(h.tag)) return tagCount.get(h.tag)!;
+  if (h.countPrefix) return prefixCount(h.countPrefix);
+  return prefixCount(h.slug.replace(/\/[^/]+$/, ''));
+}
+const hubHref = (slug: string) => slugToUrl(slugifyFilePath(slug));
+const cardHref = (slug: string) => slugToUrl(slugifyFilePath(slug));
+const chipDomains: Domain[] = ['learning', 'agentic', 'language', 'focus', 'mind', 'gen'];
 ---
 
-<Shell title="Logos52" description={objective} active="home">
-  <main class="page">
-    <p class="lede" data-home-objective>{objective}</p>
+<Base title={hero.title ?? 'Logos52'} description={hero.lede} active="home">
+  <main class="home">
+    <div class="wrap">
+      <section class="hero">
+        <h1 class="hero__title">{hero.title}</h1>
+        <p class="hero__lede">{hero.lede}</p>
+      </section>
+      <section class="map">
+        <Constellation height="clamp(150px, 17vh, 200px)" />
+        <div class="map__legend">
+          {chipDomains.map((d) => <DomainChip label={DOMAIN_LABELS[d]} domain={d} icon={DOMAIN_ICONS[d]} href={`/domains/${d}/`} />)}
+        </div>
+      </section>
 
-    <section class="band" aria-labelledby="logs-head">
-      <h2 id="logs-head" class="band__title">Builders' Logs 2026</h2>
-      <ul class="word">
-        <li>
-          <a class="word__link" href={buildersHref}>
-            <span class="word__title">Open Builders' Logs 2026</span>
-            <span class="word__meta">
-              Thirteen agent builders in bridge order, with Grok and Anthropic lab sections, dated source
-              links, and person pages.
-            </span>
-          </a>
-        </li>
-      </ul>
-    </section>
+      <section class="start-here">
+        <h2 class="start-here__head">Start here</h2>
+        <div class="start-here__doors">
+          {startHere.map((d) => (
+            <a class="door" style={`--dc:${d.color}`} href={d.href ?? cardHref(d.slug!)}>
+              <span class="door__kind"><Icon name={d.icon} size="15px" /><span class="door__intent">{d.intent}</span></span>
+              <span class="door__title">{d.title}</span>
+              <span class="door__sub">{d.sub}</span>
+            </a>
+          ))}
+        </div>
+      </section>
 
-    <section class="band" aria-labelledby="start-head">
-      <h2 id="start-head" class="band__title">Where to start</h2>
-      <ul class="word">
-        {
-          DOMAINS.map((d: Domain) => (
-            <li>
-              <a class="word__link" href={`/domains/${d}/`}>
-                <span class="word__title">{DOMAIN_LABELS[d]}</span>
-                <span class="word__meta">{DOMAIN_STANCES[d]}</span>
-              </a>
+      <section class="topmind">
+        <h2 class="topmind__head">Top of mind</h2>
+        <ul class="topmind__list">
+          {topOfMind.map((m) => (
+            <li class="topmind__item">
+              <p class="topmind__q">{m.q}</p>
+              <p class="topmind__links">
+                {m.links.map((l, i) => (
+                  <span>{i > 0 ? ' · ' : ''}<a href={l.href}>{l.t}</a></span>
+                ))}
+              </p>
             </li>
-          ))
-        }
-      </ul>
-    </section>
+          ))}
+        </ul>
+      </section>
 
-    <section class="band" aria-labelledby="mind-head">
-      <h2 id="mind-head" class="band__title">Top of mind</h2>
-      <ul class="lines">
-        {topOfMind.map((line) => <li>{line}</li>)}
-      </ul>
-    </section>
+      <section class="hub-lists">
+        {hubColumns.map((col) => (
+          <div class="hub-card">
+            <div class="hub-card__title">{col.title}</div>
+            <ul class="hub-list">
+              {col.items.map((h) => (
+                <li>
+                  <a href={hubHref(h.slug)}>
+                    <Icon name={h.icon} size="16px" class="hub-list__icon" />
+                    <span class="hub-list__title">{h.title}</span>
+                    <span class="hub-list__count">{hubCount(h)}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </section>
 
-    <p class="quiet">{omitted}</p>
+      <section class="updates">
+        <h2 class="updates__head">Project Updates</h2>
+        <div class="updates__box">
+          {projectUpdates.map((day) => (
+            <div class="updates__day">
+              <div class="updates__date">{day.date}</div>
+              <ul class="updates__list">
+                {day.updates.map((u) => (
+                  <li class="updates__item">
+                    <a class="updates__title" href={cardHref(u.slug)}>{u.title}</a>
+                    <p class="updates__blurb">{u.blurb}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
   </main>
-</Shell>
+</Base>
+

@@ -1,5 +1,5 @@
 ---
-import Shell from '../../../layouts/Shell.astro';
+import Base from '../../../layouts/Base.astro';
 import catalog from '../../../data/digital-gardeners.json';
 
 export function getStaticPaths() {
@@ -9,41 +9,102 @@ export function getStaticPaths() {
 const { person } = Astro.props;
 ---
 
-<Shell title={person.name} description={`Notable design features — ${person.name}.`} active="projects">
-  <main class="reading">
-    <p class="trail">
-      <a href="/projects/">Projects</a>
-      <span> / </span>
-      <a href="/projects/digital-gardeners/">Notable design features</a>
-    </p>
-    <h1 class="reading__title">{person.name}</h1>
-    <p class="reading__dek">
-      {
-        person.urls.map((u: string, i: number) => (
-          <>
-            {i > 0 && ' · '}
-            <a href={u} rel="noopener noreferrer">
-              {u}
-            </a>
-          </>
-        ))
-      }
-    </p>
-    <div class="copy">
-      {
-        person.observations.map((o: { url: string; lane: string; who?: string; notableDesignFeatures: string }) => (
-          <section>
-            <h2>{o.url}</h2>
-            <p>
-              {o.lane}
-              {o.who ? ` · ${o.who}` : ''}
-            </p>
-            <p>
-              <strong>Notable design features.</strong> {o.notableDesignFeatures}
-            </p>
-          </section>
-        ))
-      }
+<Base title={person.name} description={`Notable design features, ${person.name}.`} active="projects">
+  <main class="person-page">
+    <div class="wrap">
+      <p class="trail">
+        <a href="/projects/">Projects</a>
+        <span> / </span>
+        <a href="/projects/digital-gardeners/">Notable design features</a>
+      </p>
+      <h1>{person.name}</h1>
+      <p class="urls">
+        {
+          person.urls.map((u: string, i: number) => (
+            <>
+              {i > 0 && ' · '}
+              <a href={u} rel="noopener noreferrer">
+                {u}
+              </a>
+            </>
+          ))
+        }
+      </p>
+      <div class="notes">
+        {
+          person.observations.map((o: { url: string; lane: string; who?: string; notableDesignFeatures: string }) => (
+            <section>
+              <h2>{o.url}</h2>
+              <p class="lane">
+                {o.lane}
+                {o.who ? ` · ${o.who}` : ''}
+              </p>
+              <p>
+                <strong>Notable design features.</strong> {o.notableDesignFeatures}
+              </p>
+            </section>
+          ))
+        }
+      </div>
     </div>
   </main>
-</Shell>
+</Base>
+
+<style>
+  .wrap {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    padding: 34px 28px 60px;
+  }
+  .trail {
+    font-family: var(--mono);
+    font-size: var(--kb-text-xs);
+    margin: 0 0 12px;
+    color: var(--mut);
+  }
+  .trail a {
+    color: var(--mut);
+    text-decoration: none;
+  }
+  .trail a:hover {
+    color: var(--accent);
+  }
+  h1 {
+    font-family: var(--ming);
+    font-size: var(--kb-text-h1-shell);
+    font-weight: 500;
+    color: var(--ink);
+    margin: 0 0 0.4rem;
+  }
+  .urls {
+    margin: 0 0 1.4rem;
+    color: var(--mut);
+    overflow-wrap: anywhere;
+  }
+  .urls a {
+    color: var(--accent);
+  }
+  .notes h2 {
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--ink);
+    margin: 1.4rem 0 0.2rem;
+    overflow-wrap: anywhere;
+  }
+  .lane {
+    margin: 0;
+    color: var(--mut);
+    font-size: 0.9rem;
+  }
+  .notes p {
+    max-width: 68ch;
+    line-height: var(--kb-lh-body);
+    color: var(--ink);
+  }
+  @media (max-width: 640px) {
+    .wrap {
+      padding: 28px 16px 40px;
+    }
+  }
+</style>

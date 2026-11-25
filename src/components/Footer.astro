@@ -1,0 +1,42 @@
+---
+/**
+ * Footer.astro — page footer. Ported pixel-for-pixel from the DS KB
+ * screens.jsx <Footer> (L130–138): heavy top rule (--ink), left + right
+ * meta lines split by a flex spacer.
+ */
+interface Props {
+  left?: string;
+  right?: string;
+}
+const { left = '', right = '' } = Astro.props;
+---
+
+<footer class="kb-footer">
+  {(left || right) && (
+    <div class="kb-footer__inner">
+      {left && <span>{left}</span>}
+      <span class="kb-footer__spacer"></span>
+      {right && <span>{right}</span>}
+    </div>
+  )}
+</footer>
+
+<style>
+  .kb-footer {
+    border-top: 1px solid var(--ink);
+    margin-top: 44px;
+  }
+  .kb-footer__inner {
+    max-width: var(--kb-content);
+    margin: 0 auto;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    padding: 30px 28px 40px;
+    font-size: 11.5px;
+    color: var(--faint);
+  }
+  .kb-footer__spacer {
+    flex: 1;
+  }
+</style>

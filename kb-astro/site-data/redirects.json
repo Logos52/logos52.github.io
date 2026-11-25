@@ -1,33 +1,5 @@
 [
   {
-    "from": "/notes/",
-    "to": "/map/"
-  },
-  {
-    "from": "/graph/",
-    "to": "/map/"
-  },
-  {
-    "from": "/domains/agentic/",
-    "to": "/domains/ai/"
-  },
-  {
-    "from": "/domains/language/",
-    "to": "/domains/world/"
-  },
-  {
-    "from": "/domains/focus/",
-    "to": "/domains/self/"
-  },
-  {
-    "from": "/domains/mind/",
-    "to": "/domains/world/"
-  },
-  {
-    "from": "/domains/gen/",
-    "to": "/domains/craft/"
-  },
-  {
     "from": "/blog/",
     "to": "/journal/"
   },

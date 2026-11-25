@@ -1,153 +1,121 @@
 ---
 import { getCollection } from 'astro:content';
-import Shell from '../layouts/Shell.astro';
+import Base from '../layouts/Base.astro';
+import '../styles/map-page.css';
 import Constellation from '../components/Constellation.astro';
-import { resolveDomain } from '../lib/domain';
-import { deriveFirstImage, deriveSourceLine, deriveTitle } from '../lib/note';
-import { simplifySlug, slugToUrl } from '../lib/slug';
-import { byHubThen } from '../lib/folder-order';
-import { DOMAINS, DOMAIN_LABELS, type Domain } from '../lib/types';
+import { buildGraph, type NoteInput } from '../lib/graph';
+import { deriveTitle } from '../lib/note';
+import { slugToUrl } from '../lib/slug';
+import { buildContentMap } from '../lib/content-map';
+import { DOMAINS, DOMAIN_LABELS } from '../lib/types';
+import { DOMAIN_ICONS } from '../lib/icons';
+import Icon from '../components/Icon.astro';
+
+const PER_SECTION = 8;
+
+const DOMAIN_BLURB: Record<string, string> = {
+  learning: 'You remember a page when you recall it later, and when those recalls are spaced out.',
+  agentic: 'Agents write the code. The person still sets the direction.',
+  language: 'A Chinese character is made of a few hundred parts that get reused.',
+  focus: 'You only have so much attention. A feed spends it.',
+  mind: 'A decision gets better when you attack your own reasoning before you use it.',
+  gen: 'Wealth is owning a share of something that grows without taking more of your hours.',
+};
+
+const TYPE_RANK: Record<string, number> = {
+  hub: 100,
+  synthesis: 80,
+  system: 70,
+  model: 60,
+  dimension: 60,
+  pillar: 45,
+  primer: 40,
+  workflow: 35,
+  technique: 25,
+  concept: 20,
+  book: 15,
+};
 
 const notes = await getCollection('notes');
-const rows = notes
-  .filter((n) => n.id.startsWith('wiki/') && !n.data.draft)
-  .map((n) => {
-    const domain = resolveDomain(n.id, n.data.domain) as Domain;
-    const thumb = deriveFirstImage(n.body ?? '');
-    return {
-      slug: n.id,
-      title: deriveTitle(n.data, n.id, n.body),
-      url: slugToUrl(n.id),
-      source: deriveSourceLine(n.id),
-      domain,
-      ...(thumb ? { thumb } : {}),
-    };
-  })
-  .sort((a, b) => a.title.localeCompare(b.title));
+const input: NoteInput[] = notes.map((n) => ({
+  slug: n.id,
+  title: deriveTitle(n.data, n.id, n.body),
+  type: typeof n.data.type === 'string' ? n.data.type : '',
+  body: n.body ?? '',
+}));
+const full = buildGraph(input);
 
-const rowsJson = JSON.stringify(rows);
+const degree = new Map<string, number>();
+for (const e of full.edges) {
+  degree.set(e.source, (degree.get(e.source) ?? 0) + 1);
+  degree.set(e.target, (degree.get(e.target) ?? 0) + 1);
+}
+const score = (n: (typeof full.nodes)[number]) => {
+  const tier = Math.max(TYPE_RANK[n.type] ?? 12, /,\s*Condensed$/i.test(n.title) ? 90 : 0);
+  return tier * 1000 + (degree.get(n.slug) ?? 0);
+};
 
-function folderLabel(segment: string): string {
-  return segment.replace(/--and--/g, ' & ').replace(/-+/g, ' ');
+const byDomain = new Map<string, (typeof full.nodes)[number][]>();
+for (const n of full.nodes) {
+  if (!n.slug.startsWith('wiki/')) continue;
+  (byDomain.get(n.domain) ?? byDomain.set(n.domain, []).get(n.domain)!).push(n);
 }
 
-function sectionOf(id: string): { key: string; label: string } {
-  const parts = id.split('/').filter(Boolean);
-  parts.pop();
-  if (parts.length === 0) return { key: '', label: 'Top level' };
-  return { key: parts.join('/'), label: parts.map(folderLabel).join(' / ') };
-}
+const sections = DOMAINS.map((d) => {
+  const all = (byDomain.get(d) ?? []).sort((a, b) => score(b) - score(a) || a.title.localeCompare(b.title));
+  return {
+    domain: d,
+    label: DOMAIN_LABELS[d],
+    icon: DOMAIN_ICONS[d],
+    items: all.slice(0, PER_SECTION),
+  };
+});
 
-const OTHER = 'Other';
-
-type ContentPage = { title: string; url: string; type?: string };
-type SectionGroup = { label: string; count: number; pages: ContentPage[] };
-type TypeGroup = { label: string; count: number; sections: SectionGroup[] };
-
-const contentPages = notes.filter((n) => simplifySlug(n.id) !== '/' && n.id !== 'notes/index');
-const buckets = new Map<string, Map<string, { label: string; pages: ContentPage[] }>>();
-
-for (const n of contentPages) {
-  const raw = typeof n.data.type === 'string' ? n.data.type.trim() : '';
-  const typeLabel = raw || OTHER;
-  const section = sectionOf(n.id);
-  let sections = buckets.get(typeLabel);
-  if (!sections) {
-    sections = new Map();
-    buckets.set(typeLabel, sections);
-  }
-  let group = sections.get(section.key);
-  if (!group) {
-    group = { label: section.label, pages: [] };
-    sections.set(section.key, group);
-  }
-  group.pages.push({
-    title: deriveTitle(n.data, n.id, n.body),
-    url: slugToUrl(n.id),
-    type: raw,
-  });
-}
-
-function byCountThenName<T extends { count: number; label: string }>(a: T, b: T): number {
-  return b.count - a.count || a.label.localeCompare(b.label, 'en');
-}
-
-const typeGroups: TypeGroup[] = [];
-for (const [label, sections] of buckets) {
-  const sectionGroups: SectionGroup[] = [];
-  for (const group of sections.values()) {
-    group.pages.sort(
-      byHubThen(
-        (a, b) => a.title.localeCompare(b.title, 'en') || a.url.localeCompare(b.url),
-        (page) => page.type,
-      ),
-    );
-    sectionGroups.push({ label: group.label, count: group.pages.length, pages: group.pages });
-  }
-  sectionGroups.sort(byCountThenName);
-  const count = sectionGroups.reduce((sum, group) => sum + group.count, 0);
-  typeGroups.push({ label, count, sections: sectionGroups });
-}
-
-const otherGroups = typeGroups.filter((group) => group.label === OTHER);
-const contentMap = [
-  ...typeGroups.filter((group) => group.label !== OTHER).sort(byCountThenName),
-  ...otherGroups,
-];
-const contentMapCount = contentMap.reduce((sum, group) => sum + group.count, 0);
-const otherCount = otherGroups.reduce((sum, group) => sum + group.count, 0);
-if (contentMapCount !== contentPages.length) {
-  throw new Error(`Content map lists ${contentMapCount} pages; the site builds ${contentPages.length} note pages.`);
-}
-
-const contentMapDek =
-  otherCount > 0
-    ? `${contentMapCount} pages. ${otherCount} with no type.`
-    : `${contentMapCount} pages.`;
+const { contentMap, contentMapCount, otherCount, contentMapDek } = buildContentMap(notes);
 ---
 
-<Shell title="Map" description="The vault graph and every wiki page." active="map">
-  <main class="page">
-    <header>
-      <h1 class="page__title" data-map-title>Map</h1>
-    </header>
-    <Constellation mode="full" domainLabels height="clamp(400px, 58vh, 680px)" />
+<Base title="Map" description="The vault graph, and the knowledge base by domain." active="map">
+  <main class="map-page">
+    <div class="wrap">
+      <header class="map-head">
+        <h1 class="map-head__title">The vault</h1>
+      </header>
 
-    <section data-map-root>
-      <div class="filters">
-        <input
-          type="search"
-          class="filters__input"
-          data-map-search
-          placeholder="Filter pages"
-          aria-label="Filter pages"
-          autocomplete="off"
-        />
-        <div class="filters__group" role="group" aria-label="Filter by domain">
-          {
-            DOMAINS.map((d) => (
-              <button type="button" class="chip" data-map-domain={d}>
-                {DOMAIN_LABELS[d]}
-              </button>
-            ))
-          }
-        </div>
-      </div>
-      <p class="word__empty" data-map-empty hidden>No pages match.</p>
-      <ul class="word" data-map-list></ul>
-      <script type="application/json" id="map-rows-data" set:html={rowsJson} />
-    </section>
+      <Constellation mode="full" domainLabels height="clamp(460px, 66vh, 780px)" />
+    </div>
+
+    <article class="prose">
+      <h2 class="prose__head">The six domains</h2>
+      {sections.map((s) => (
+        <section class="domain">
+          <h3>
+            <a href={`/domains/${s.domain}/`}>
+              <Icon name={s.icon} size="1.05em" class="domain__icon" style={`color:var(--d-${s.domain})`} />
+              {s.label}
+            </a>
+          </h3>
+          <p class="domain__blurb">{DOMAIN_BLURB[s.domain]}</p>
+          <ul>
+            {s.items.map((it) => (
+              <li>
+                <a href={slugToUrl(it.slug)}>{it.title}</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </article>
 
     <section
-      class="band cmap"
+      class="cmap"
       data-content-map
       data-content-map-count={contentMapCount}
       data-content-map-other={otherCount}
       data-pagefind-ignore
       aria-labelledby="content-map-title"
     >
-      <h2 id="content-map-title" class="band__title">Content map</h2>
-      <p class="page__dek">{contentMapDek}</p>
+      <h2 id="content-map-title" class="cmap__head">Content map</h2>
+      <p class="cmap__dek">{contentMapDek}</p>
       <div class="cmap__tree">
         {
           contentMap.map((type) => (
@@ -183,15 +151,4 @@ const contentMapDek =
       </div>
     </section>
   </main>
-</Shell>
-
-<script>
-  import { initMapList } from '../islands/map-list';
-
-  const root = document.querySelector('[data-map-root]');
-  const dataEl = document.getElementById('map-rows-data');
-  if (root && dataEl?.textContent) {
-    const rows = JSON.parse(dataEl.textContent) as Parameters<typeof initMapList>[1];
-    initMapList(root as HTMLElement, rows);
-  }
-</script>
+</Base>

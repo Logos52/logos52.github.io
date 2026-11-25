@@ -1,8 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
-import Shell from '../layouts/Shell.astro';
+import Base from '../layouts/Base.astro';
+import Constellation from '../components/Constellation.astro';
 import { deriveTitle } from '../lib/note';
 import { slugToUrl } from '../lib/slug';
+import '../styles/projects-page.css';
 
 type Status = 'current' | 'past';
 
@@ -49,48 +51,63 @@ const groups: { key: Status; label: string }[] = [
   { key: 'current', label: 'Current' },
   { key: 'past', label: 'Archived' },
 ];
+
+const projectSeeds = projects.filter((p) => p.status === 'current').map((p) => p.slug);
 ---
 
-<Shell title="Projects" description="Learning-system, agentic-engineering, and personal-tooling projects." active="projects">
-  <main class="page">
-    <header>
-      <h1 class="page__title">Projects</h1>
-      <p class="page__dek">Learning-system, agentic-engineering, and personal-tooling projects.</p>
-    </header>
-    {
-      groups.map((g) => {
-        const items = projects.filter((p) => p.status === g.key);
-        if (!items.length) return null;
-        return (
-          <section class="band">
-            <h2 class="band__title">
-              {g.label}
-              {g.key === 'past' && (
-                <a class="band__more" href="/archive/">
-                  Full archive
-                </a>
-              )}
-            </h2>
-            <ul class="board" data-board>
-              {items.map((p) => (
-                <li class="board__item" data-board-item>
-                  <a class="board__card" href={p.href}>
-                    {p.image && <img src={`/${p.image}`} alt="" loading="lazy" />}
-                    <h3 class="board__title">{p.title}</h3>
-                    {p.blurb && <p class="board__note">{p.blurb}</p>}
-                    {p.stack.length > 0 && <p class="board__note">{p.stack.join(' / ')}</p>}
+<Base title="Projects" description="Learning-system, agentic-engineering, and personal-tooling projects." active="projects">
+  <main class="projects-page">
+    <div class="wrap projects-grid">
+      <div class="projects-main">
+        <header class="head">
+          <h1>Projects</h1>
+          <p class="head__lede">Learning-system, agentic-engineering, and personal-tooling projects.</p>
+        </header>
+        {groups.map((g) => {
+          const items = projects.filter((p) => p.status === g.key);
+          if (!items.length) return null;
+          return (
+            <section class="group">
+              <h2>{g.label}</h2>
+              <div class="grid">
+                {items.map((p) => (
+                  <a class="card" href={p.href}>
+                    {p.image && (
+                      <div class="card__media">
+                        <img src={`/${p.image}`} alt={`${p.title} screenshot`} loading="lazy" />
+                      </div>
+                    )}
+                    <h3>{p.title}</h3>
+                    <p>{p.blurb}</p>
+                    {p.stack.length > 0 && (
+                      <div class="stack">
+                        {p.stack.map((s) => (
+                          <span class="tag">{s}</span>
+                        ))}
+                      </div>
+                    )}
                   </a>
-                </li>
-              ))}
-            </ul>
-          </section>
-        );
-      })
-    }
+                ))}
+              </div>
+            </section>
+          );
+        })}
+        <p class="archive-more"><a href="/archive/">Full archive</a></p>
+      </div>
+      {
+        projectSeeds.length > 0 && (
+          <aside class="projects-graph" aria-label="Current project links">
+            <h2 class="projects-graph__head">Links</h2>
+            <Constellation
+              mode="local"
+              seeds={projectSeeds}
+              hops={1}
+              orient="vertical"
+              height="clamp(360px, 66vh, 600px)"
+            />
+          </aside>
+        )
+      }
+    </div>
   </main>
-</Shell>
-
-<script>
-  import { packBoard } from '../islands/board';
-  document.querySelectorAll<HTMLElement>('[data-board]').forEach((list) => packBoard(list));
-</script>
+</Base>
