@@ -1,6 +1,12 @@
 {
   "profile": "adopt",
-  "languages": ["ts", "mjs", "astro", "py", "css"],
+  "languages": [
+    "ts",
+    "mjs",
+    "astro",
+    "py",
+    "css"
+  ],
   "ignore": [
     "node_modules/**",
     "dist/**",
@@ -8,8 +14,6 @@
     "coverage/**",
     ".astro/**",
     "src/content/notes/**",
-    "src/styles/site.css",
-    "design-archive/**",
     "scripts/build-builders-logs-wiki.mjs",
     "scripts/build-digital-gardeners-data.mjs",
     "scripts/execute-wiki-cut-ai-door.mjs",
@@ -27,7 +31,9 @@
     "docs/**/*.md",
     "**/docs/**/*.md"
   ],
-  "boundaryFiles": ["src/lib/domain.ts"],
+  "boundaryFiles": [
+    "src/lib/domain.ts"
+  ],
   "baseline": ".lint-kit-baseline.json",
   "batch": "v4",
   "rules": {
