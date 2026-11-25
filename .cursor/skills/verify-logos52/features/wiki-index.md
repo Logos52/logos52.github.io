@@ -29,9 +29,9 @@ Preconditions:
 - **Open a hub that exists.** Click the `.entry-list__title` whose text is `Chinese Characters`.
 - **Land on the note.** URL is `/wiki/Language/Chinese/How-Chinese-Characters-Work/`. `article[data-pagefind-body]` is present. `h1.kb-note-title` is `How Chinese Characters Work`. `span.kb-type-tag` text is `Hub`. `p.kb-note-dek` is present.
 
-## Product gaps
+## Learning rows
 
-`Learning, Condensed` (the first Condensed row) hrefs `/wiki/Syntheses/Learning,-Condensed/`, which returns 301 to `/wiki/Dimensions/Dimensions-of-Learning/` (`src/redirects/doors/self.json`). That page returns 200. The Hubs row `Learning Systems` hrefs `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/` and lands on the same page. The cut notes stay deleted.
+`Learning, Condensed` (the first Condensed row) and the Hubs row `Learning Systems` each href `/wiki/Dimensions/Dimensions-of-Learning/` (`src/lib/icons.ts`). The page returns 200. `h1.kb-note-title` is `Dimensions of Learning`. These rows do not use the old Syntheses paths. Those paths still 301; that fact is on the Wiki page feature.
 
 ## Gotchas
 

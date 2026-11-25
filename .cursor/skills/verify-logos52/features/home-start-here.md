@@ -7,7 +7,7 @@ Source: `src/pages/index.astro`, `src/lib/home-page.ts` (`startHere`, `topOfMind
 ## Sub-features
 
 - `home-hero` is `h1.hero__title` and `p.hero__lede`. With `home.json` present the title is `LLM Knowledge Base`.
-- `home-graph` is `[data-constellation-root][data-mode="spine"]` and six domain chips. Each chip is a link to `/domains/{learning,agentic,language,focus,mind,gen}/`. The visible labels are `Learning`, `Agentic`, `Language`, `Focus`, `Mind`, `Generativity`.
+- `home-graph` is `[data-constellation-root][data-mode="spine"]` and six domain chips. Each chip is a link to `/domains/{learning,agentic,language,focus,mind,gen}/`. The visible labels are `Learning`, `Agentic`, `Language`, `Focus`, `Mind`, `Generativity`. The spine hub list in `src/lib/spine.ts` still includes `wiki/Syntheses/Learning, Condensed`. That slug is not a graph node, so the canvas does not draw a `Learning, Condensed` label. Opening `/wiki/Syntheses/Learning,-Condensed/` still returns 301 to `/wiki/Dimensions/Dimensions-of-Learning/`.
 - `home-doors` is the section headed `Start here` (`h2.start-here__head`). Three `a.door` cards. The visible title is `.door__title`.
 - `home-topmind` is `ul.topmind__list` under `h2.topmind__head`. Items are `li.topmind__item`. The build throws when the count is greater than 4.
 - `home-hubs` is three columns titled `Five Dimensions`, `Life Systems`, and `Knowledge & Execution`.
@@ -33,13 +33,21 @@ Preconditions:
 
 - **Proof.** Screenshot the hero and the Start here row before the door click, and the note heading after it. Both frames show the Logos52 header.
 
+## Learning rows
+
+These three home links href `/wiki/Dimensions/Dimensions-of-Learning/` directly (`src/lib/home-page.ts`). The page returns 200. `h1.kb-note-title` is `Dimensions of Learning`. They do not use the old Syntheses paths.
+
+- Start here `Does a Study Technique Work?`
+- Life Systems `Condensed Notes`
+- Knowledge & Execution `Learning Systems`
+
+`Condensed Notes` and `Learning Systems` still set `countPrefix` to `wiki/Syntheses`. The visible count on each row is `0`.
+
 ## Product gaps
 
-These home links resolve through redirects to a different note than the label names. Leave the pages alone. Record the landing URL.
+These home links still resolve through redirects to a different note than the label names. Leave the pages alone. Record the landing URL.
 
-- Start here `Does a Study Technique Work?` href `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/` returns 301 to `/wiki/Dimensions/Dimensions-of-Learning/` (`src/redirects/doors/self.json`). That page returns 200. The heading there is `Dimensions of Learning`. The cut notes stay deleted.
 - Life Systems `Health` href `/wiki/Dimensions/Self-Management/` is 301 to `/wiki/Self-Management/Time-Management,-Attention--and--Scheduling/` (`src/redirects/doors/self.json`).
-- Knowledge & Execution `Learning Systems` uses the same Syntheses href and lands on `/wiki/Dimensions/Dimensions-of-Learning/`.
 - Knowledge & Execution `Decision Making` href `/wiki/Decision-Making/Decision-Making/` is 301 to `/wiki/Razors/` (`src/redirects/doors/self.json`).
 - Knowledge & Execution `Generativity` href `/wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment/` is 301 to `/wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering/` (`src/redirects/doors/ai.json`).
 - Project Updates `Argument Validation` href `/wiki/Argument-Validation/Argument-Validation/` is 301 to `/wiki/Worldviews--and--the-Political-Order/Group-1---How-to-read-these-arguments/` (`src/redirects/doors/world.json`).

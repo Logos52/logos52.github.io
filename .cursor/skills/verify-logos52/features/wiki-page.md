@@ -46,5 +46,5 @@ Preconditions:
 - The first crumb of a wiki note does not return to Notes. Nav `Notes` is the way back to that index. A folder crumb lands on `/folder/…/`.
 - Folder subfolders are a separate list, sorted by name, and they are not part of the hub sort. `/folder/wiki/Story-Craft/` has no subfolders. The page rows are the note list. The first `.moc__title` there is the hub. The `h1` has no `page__title` class.
 - A naive slug that already equals the quartz URL is not a redirect. `/wiki/Books/The-Parasitic-Mind/` is the destination, not a legacy URL. Use a spaced path, or a naive path whose `&` became `and` instead of `--and--`.
-- `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/` and `/wiki/Syntheses/Learning,-Condensed/` return 301 to `/wiki/Dimensions/Dimensions-of-Learning/`. That page returns 200. The cut notes stay deleted. Do not use either URL as this page's sample note.
+- `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/` and `/wiki/Syntheses/Learning,-Condensed/` return 301 to `/wiki/Dimensions/Dimensions-of-Learning/` (`src/redirects/doors/self.json`). That page returns 200. The cut notes stay deleted. Home and Notes no longer href these paths. Do not use either URL as this page's sample note.
 - Backlinks are `Linked from`, after the prose. The section is omitted when nothing links here.
