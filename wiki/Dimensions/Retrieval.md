@@ -2,7 +2,7 @@
 type: hub
 domain: learning
 status: stable
-description: "Retrieval is using knowledge from memory on purpose—matched to knowledge type, spaced and interleaved, and aimed at gaps encoding left behind."
+description: "Retrieval is using knowledge from memory on purpose, matched to knowledge type, spaced and interleaved, and aimed at gaps encoding left behind."
 created: 2026-05-16
 updated: 2026-11-21
 source-count: 12
@@ -12,7 +12,7 @@ tags:
 
 # Retrieval
 
-> Retrieval is recall and use under real conditions: stating, explaining, solving, teaching, discussing. Memory decays regardless of intent, so practice must be deliberate—matched to declarative, procedural, or conditional demand, spaced and interleaved, and biased toward weak points. It couples with deep processing: weak encoding caps retrieval, and hard retrieval can force deeper processing. Professional work supplies opportunistic retrieval; exams and credentials still need scheduled sessions plus late-stage breach tactics when only a few marks remain at stake.
+> Retrieval is recall and use under real conditions: stating, explaining, solving, teaching, discussing. Memory decays regardless of intent, so practice must be deliberate, matched to declarative, procedural, or conditional demand, spaced and interleaved, and biased toward weak points. It couples with deep processing: weak encoding caps retrieval, and hard retrieval can force deeper processing. Professional work supplies opportunistic retrieval; exams and credentials still need scheduled sessions plus late-stage breach tactics when only a few marks remain at stake.
 
 ## Three standing habits
 
@@ -20,37 +20,37 @@ tags:
 
 **Space and interleave.** Spacing gives integration time; interleaving changes angle and difficulty so transfer improves. Together they keep volume manageable and errors visible early. [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced interleaved retrieval]] is the default schedule; the retrieval challenge month trains closed-book reconstruction before you widen the system.
 
-**Target gaps.** Most learners unconsciously rehearse strengths. Retrieval should hunt what encoding missed or what time has eroded—known gaps (failed recall) and unknown gaps (confidence without a whole perspective).
+**Target gaps.** Most learners unconsciously rehearse strengths. Retrieval should hunt what encoding missed or what time has eroded, including known gaps (failed recall) and unknown gaps (confidence without a whole perspective).
 
 ## Scheduled vs opportunistic practice
 
-**Opportunistic retrieval** is recall baked into work: the patient after the cardiology reading, the production bug after the tutorial. Label whether the day demanded lower or higher order use; if only facts were needed, schedule a higher-order pass. Do not optimise past the goal—a low-stakes elective does not need doctoral depth. When work will force recall, **study in the order work will ask for it**, not the certificate syllabus order. Teaching a colleague creates deliberate interleaving.
+**Opportunistic retrieval** is recall baked into work: the patient after the cardiology reading, the production bug after the tutorial. Label whether the day demanded lower or higher order use; if only facts were needed, schedule a higher-order pass. Do not optimise past the goal. A low-stakes elective does not need doctoral depth. When work will force recall, **study in the order work will ask for it**, not the certificate syllabus order. Teaching a colleague creates deliberate interleaving.
 
 ## Revision and self-made tests
 
-**Revision** means true recall, not recognition. A high-yield loop is **test → target → teach**: generate questions (yours and others’), aim at shaky areas first, then teach with reversed explanations—idea before jargon—so weak spots surface. Premade papers familiarise style and find angles you would not self-generate; over-reliance on them is why surprise questions hurt. After a gap, re-encode with the original method; diagnose whether the hole is declarative (strategy), procedural (execution), or structural (grouping / waterfalling or spiderwebbing maps).
+**Revision** means true recall, not recognition. A high-yield loop is **test → target → teach**: generate questions (yours and others’), aim at shaky areas first, then teach with reversed explanations (idea before jargon) so weak spots surface. Premade papers familiarise style and find angles you would not self-generate; over-reliance on them is why surprise questions hurt. After a gap, re-encode with the original method; diagnose whether the hole is declarative (strategy), procedural (execution), or structural (grouping / waterfalling or spiderwebbing maps).
 
-Mix methods across orders and knowledge types. Check answers only after an honest attempt—early checking breeds illusion. Aim to run the loop at least once before advancing new material.
+Mix methods across orders and knowledge types. Check answers only after an honest attempt, because early checking breeds illusion. Aim to run the loop at least once before advancing new material.
 
 ## Reconstruction beyond recall
 
-**Reconstruction** asks you to build valid new links, not replay old ones—linking ideas in untaught ways, pairing concepts in novel situations, or testing whether a rule really transfers. Recall can succeed while rearrangement fails; reconstruction finds that gap. Blend with recall—heavier reconstruction early, more recall near deadlines. Past papers are broad brute force; reconstructive prompts are gap-seeking.
+**Reconstruction** asks you to build valid new links, not replay old ones (linking ideas in untaught ways, pairing concepts in novel situations, or testing whether a rule really transfers). Recall can succeed while rearrangement fails; reconstruction finds that gap. Blend with recall, with heavier reconstruction early and more recall near deadlines. Past papers are broad brute force; reconstructive prompts are gap-seeking.
 
 ## High-volume and late-stage tools
 
-**Whole-part-whole (WPW)** teaching: survey the topic, teach parts from memory with reverse explanations, return to the whole—slow, gap-revealing, best after maps have aged a few days. It is advanced retrieval volume alongside brain dumps.
+**Whole-part-whole (WPW)** teaching: survey the topic, teach parts from memory with reverse explanations, return to the whole (slow, gap-revealing, and best after maps have aged a few days). It is advanced retrieval volume alongside brain dumps.
 
-**Multipass** sweeps large syllabi in layers—logic and concepts before detail. Inquiry-led multipass follows your questions; objectives-led multipass tracks assessable outcomes under time pressure at some encoding cost. Cramming from the bottom layer up inverts the payoff.
+**Multipass** sweeps large syllabi in layers (logic and concepts before detail). Inquiry-led multipass follows your questions; objectives-led multipass tracks assessable outcomes under time pressure at some encoding cost. Cramming from the bottom layer up inverts the payoff.
 
-**Breaching questions** (late stage): list keywords per outcome, cross-apply keywords across outcomes, write the hardest question you cannot yet answer, then work it—targeting unknown gaps and last mark plateaus. Pair with practice papers in the final weeks.
+**Breaching questions** (late stage): list keywords per outcome, cross-apply keywords across outcomes, write the hardest question you cannot yet answer, then work it, targeting unknown gaps and last mark plateaus. Pair with practice papers in the final weeks.
 
-**Group study** needs roles: leader (depth and agenda), timekeeper (pace and recap), fact-checker (challenge and verification)—rotate them; undirected discussion is not retrieval.
+**Group study** needs roles: leader (depth and agenda), timekeeper (pace and recap), fact-checker (challenge and verification). Rotate them; undirected discussion is not retrieval.
 
 ## Rote and reading balance
 
 **Rote memorisation** is the last resort for arbitrary specifics after logic, concepts, and important details are in place. Conceptual work shrinks the rote pile; letting conceptual quality slip spirals into flashcard debt.
 
-**Reading for retention** splits consumption and digestion (PACER types: procedural practise now, analogies critiqued, concepts mapped, evidence stored for later use, reference drilled only when needed). Consuming without digesting is the common failure—pause intake when digestion lags.
+**Reading for retention** splits consumption and digestion (PACER types: procedural practise now, analogies critiqued, concepts mapped, evidence stored for later use, reference drilled only when needed). Consuming without digesting is the common failure. Pause intake when digestion lags.
 
 ## Links to encoding
 
@@ -58,14 +58,14 @@ Retrieval time that stays high signals encoding gaps, not laziness. Each missed 
 
 ## Four-week closed-book ramp
 
-Before relying on the full interleaving menu, the retrieval challenge month installs one habit: **close the source, then reconstruct**. Week one values the attempt over the score; week two varies recall as teaching, problem-solving, and writing; week three raises difficulty one lever at a time (fewer cues, more delay, mixed topics); week four restudies only failures, relating missed ideas instead of rereading. Repeating a week beats advancing with a fluent reread still in view—that pattern is passive review dressed as retrieval.
+Before relying on the full interleaving menu, the retrieval challenge month installs one habit: **close the source, then reconstruct**. Week one values the attempt over the score; week two varies recall as teaching, problem-solving, and writing; week three raises difficulty one lever at a time (fewer cues, more delay, mixed topics); week four restudies only failures, relating missed ideas instead of rereading. Repeating a week beats advancing with a fluent reread still in view. That pattern is passive review dressed as retrieval.
 
 ## Related pages
 
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — schedule and method menu.
-- [[wiki/Dimensions/Deep Processing|Deep Processing]] — encoding partner.
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — diagnostic frame.
-- [[wiki/Domains/Miscellaneous/Exam Technique|Exam Technique]] — execution context for late methods.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] (schedule and method menu.)
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] (encoding partner.)
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] (diagnostic frame.)
+- [[wiki/Domains/Miscellaneous/Exam Technique|Exam Technique]] (execution context for late methods.)
 
 ## Sources
 

@@ -35,7 +35,7 @@ Under a vocabulary ceiling, the word list decides **when** each link can be spok
 
 **Want** is photographable: debt cleared, seat won, envelope sent. **Need** is what changes the person. Same sentence for both → no arc.
 
-A backstory that never distorts a present choice is biography, not Ghost. Per scene: what presses the false belief? If nothing, the scene may do other work — not arc work.
+A backstory that never distorts a present choice is biography, not Ghost. Per scene: what presses the false belief? If nothing, the scene may do other work, but not arc work.
 
 ## Fear, persona, contradiction
 
@@ -56,7 +56,7 @@ Roundness test: surprise must convince, and only early specifics supply latency 
 
 ## Moral weakness and ensemble
 
-Psychological weakness costs the owner; **moral weakness** costs others — often the same trait pointed outward (wall that carries family shuts partner out). Moral need is what that outward damage makes necessary. Argument lands in **what someone does with an object**, not a line about it.
+Psychological weakness costs the owner; **moral weakness** costs others, often the same trait pointed outward (wall that carries family shuts partner out). Moral need is what that outward damage makes necessary. Argument lands in **what someone does with an object**, not a line about it.
 
 One moral question, many answers: friction is value-clash, not fact disagreement. [將軍](/tsumugu/cast/general.html) holds one note so depth stays on leads.
 
@@ -66,17 +66,17 @@ One moral question, many answers: friction is value-clash, not fact disagreement
 |---|---|---|---|
 | 250–400 | actions, objects | Lie as behavior | cause stated |
 | 700–1,400 | reasons, sequence | Want named | Need |
-| 1,800+ | feeling, abstraction | Need sayable | — |
+| 1,800+ | feeling, abstraction | Need sayable | none |
 
-**Deliberate withholding** (topic dodge) versus **unsayable** (below awareness — where the Lie lives). [白龍](/tsumugu/cast/bai-long.html): 嗯 in flat bass. [星野遙香](/tsumugu/cast/hoshino-haruka.html): 超 and piled exclamations — assignable with tags stripped.
+**Deliberate withholding** (topic dodge) versus **unsayable** (below awareness, where the Lie lives). [白龍](/tsumugu/cast/bai-long.html): 嗯 in flat bass. [星野遙香](/tsumugu/cast/hoshino-haruka.html): 超 and piled exclamations, assignable with tags stripped.
 
 Payoffs: PLANT → SPARK → PAYOFF; confiding two-handers ahead of crisis; three to four voices per scene before listeners lose thread (audio drama sources).
 
 ## Change arc (what the chain spends)
 
-Positive **change arc**: fix Lie, Ghost, Want, Need before scenes; move escalating cost → glimpse of truth → low point → climax acted from new self. **Moment of truth before low point** — merge them and the climax has no new self to act from. Climax must **spend** Want to **buy** Need.
+Positive **change arc**: fix Lie, Ghost, Want, Need before scenes; move escalating cost → glimpse of truth → low point → climax acted from new self. **Moment of truth before low point**. Merge them and the climax has no new self to act from. Climax must **spend** Want to **buy** Need.
 
-Flat arc holds truth and tests the world. Negative shapes (fall, corruption, bleak disillusionment) use the same six pieces; type is relationship to Lie at climax only. Partial resolutions (real gain, crisis still open) are valid — forced clean self-revelation over-resolves.
+Flat arc holds truth and tests the world. Negative shapes (fall, corruption, bleak disillusionment) use the same six pieces; type is relationship to Lie at climax only. Partial resolutions (real gain, crisis still open) are valid. Forced clean self-revelation over-resolves.
 
 Under vocabulary floor, objects carry Lie until words arrive; recurring scene template (same speakers, rising cost at flat vocabulary) makes widening gap readable.
 
@@ -86,7 +86,7 @@ Every engine needs setup: one or two calm two-handers, object carrying Need thro
 
 Arithmetic: scenes per unit × speakers × engines per lead. Too many full chains → everyone confiding, nobody acting.
 
-[阮草](/tsumugu/cast/ruan-cao.html)'s refused hands and [星野](/tsumugu/cast/hoshino-haruka.html)'s camera are early-band carriers: the reader watches Want before any line can state Need. When workplace language arrives, the same objects re-read without replacing the plant — vocabulary is the second half of the reveal.
+[阮草](/tsumugu/cast/ruan-cao.html)'s refused hands and [星野](/tsumugu/cast/hoshino-haruka.html)'s camera are early-band carriers: the reader watches Want before any line can state Need. When workplace language arrives, the same objects re-read without replacing the plant. Vocabulary is the second half of the reveal.
 
 ## Failures and tests
 

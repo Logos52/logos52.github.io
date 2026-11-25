@@ -18,7 +18,7 @@ tags:
 
 # Mandarin Chinese Language Learning Resources
 
-Most early hours belong to **comprehensible input**—speech you can mostly follow—while sound charts and tone trainers run beside it. **Simplified** vs **Traditional** script and **burned-in** vs **toggleable** subtitles matter on every row. A **metalayer** adds lookups on video; a **seeder playlist** trains the feed to offer more Mandarin.
+Most early hours belong to **comprehensible input** (speech you can mostly follow), while sound charts and tone trainers run beside it. **Simplified** vs **Traditional** script and **burned-in** vs **toggleable** subtitles matter on every row. A **metalayer** adds lookups on video; a **seeder playlist** trains the feed to offer more Mandarin.
 
 Course worksheets, private sign-up links, and reflection forms are omitted because strangers cannot open them.
 

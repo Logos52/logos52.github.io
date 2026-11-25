@@ -17,7 +17,7 @@ Razors are the tests for a decision, a frame, or a claim that study happened. Th
 
 ## Position, process, and expected value
 
-A good decision is judged by the position it leaves you in if you keep deciding that way—its expected value—not by whether the last single outcome went your way. Chess players place pieces for later attacks before any capture shows. A die game makes the arithmetic plain: pay five dollars per roll, win ten on a six. Across six rolls you spend thirty and expect ten back—a twenty-dollar loss. Early wins feel good; the long run drifts toward that value.
+A good decision is judged by the position it leaves you in if you keep deciding that way (its expected value), not by whether the last single outcome went your way. Chess players place pieces for later attacks before any capture shows. A die game makes the arithmetic plain: pay five dollars per roll, win ten on a six. Across six rolls you spend thirty and expect ten back, a twenty-dollar loss. Early wins feel good; the long run drifts toward that value.
 
 <figure>
 <svg viewBox="0 0 520 176" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="dm-dice-t">
@@ -35,11 +35,11 @@ A good decision is judged by the position it leaves you in if you keep deciding 
 </svg>
 </figure>
 
-Over weeks you lack data, so people grade by the last result. Over years, better process—risk checks, information, tested openings—improves position. Feelings belong in values; a process that uses only feelings has negative expectancy.
+Over weeks you lack data, so people grade by the last result. Over years, better process (risk checks, information, tested openings) improves position. Feelings belong in values; a process that uses only feelings has negative expectancy.
 
-**Process judgment** adds a dated note written *before* the outcome: why the choice made sense given what was known. Sloppy choices get lucky; sound choices fail. The note is the grade; the result is one piece of feedback. Four quick checks beside a fuller review: what assumption would break this? strongest case against? likeliest failure mode? chosen because it is good—or because it protects comfort, identity, or self-image? Resulting, hindsight certainty, emotional verdict, no feedback loop, and overcorrection are the five review failures.
+**Process judgment** adds a dated note written *before* the outcome: why the choice made sense given what was known. Sloppy choices get lucky; sound choices fail. The note is the grade; the result is one piece of feedback. Four quick checks beside a fuller review: what assumption would break this? strongest case against? likeliest failure mode? chosen because it is good, or because it protects comfort, identity, or self-image? Resulting, hindsight certainty, emotional verdict, no feedback loop, and overcorrection are the five review failures.
 
-In **wicked environments**—unclear win conditions, too many variables—use three steps: drop small variables after a thorough search; weigh only the largest upsides and downsides; rate chance and size in broad bands, not false precision. Shrink the biggest downside when you can; when odds are published, use exact arithmetic.
+In **wicked environments** (unclear win conditions, too many variables), use three steps: drop small variables after a thorough search; weigh only the largest upsides and downsides; rate chance and size in broad bands, not false precision. Shrink the biggest downside when you can; when odds are published, use exact arithmetic.
 
 ## Changing course, throttling, and delays
 
@@ -58,17 +58,17 @@ Sunk cost, status quo bias, and loss aversion pull you to stay; a gain often mus
 </svg>
 </figure>
 
-Persistence fits when the choice still matches goals; quitting or pivoting fits when it no longer does. **Choice throttling** turns a giant decision into a chain of yes-or-no questions; each answer drops whole branches. The chain needs clear values and real knowledge of options—training those skills can take months. **Decisional delays** are the hidden minutes between tasks—often thirty minutes to two hours a day—spent wondering what comes next. A daily log of those gaps makes them visible; then go straight into the next named task.
+Persistence fits when the choice still matches goals; quitting or pivoting fits when it no longer does. **Choice throttling** turns a giant decision into a chain of yes-or-no questions; each answer drops whole branches. The chain needs clear values and real knowledge of options, and training those skills can take months. **Decisional delays** are the hidden minutes between tasks (often thirty minutes to two hours a day) spent wondering what comes next. A daily log of those gaps makes them visible; then go straight into the next named task.
 
 ## Waiting while the opening closes
 
-On heavy decisions, two curves fall together: uncertainty drops as you learn, and the opening that made the option worth taking often shrinks with it—diffusion as others catch on, or a calendar clock that does not wait. Waiting for *certainty* aims at something the situation cannot supply before the outcome. Price the wait: name which clock runs, write a success probability for the path already underway from its record (status quo bias makes inertia feel safe), and set an arrival date—if nothing is due, the wait buys comfort, not information. A bounded one- or two-day sprint on two fronts—Is the prize real? What are the named harms and sizes?—beats drift.
+On heavy decisions, two curves fall together: uncertainty drops as you learn, and the opening that made the option worth taking often shrinks with it (diffusion as others catch on, or a calendar clock that does not wait). Waiting for *certainty* aims at something the situation cannot supply before the outcome. Price the wait: name which clock runs, write a success probability for the path already underway from its record (status quo bias makes inertia feel safe), and set an arrival date. If nothing is due, the wait buys comfort, not information. A bounded one- or two-day sprint on two fronts (Is the prize real? What are the named harms and sizes?) beats drift.
 
 | The feeling | What is happening |
 |---|---|
 | Changing course feels costly | sunk cost, status quo, loss aversion |
 | Waiting for certainty feels safer | the opening closes while you learn |
-| Thinking never ends in a decision | overthinking without targets—name problems, one action now |
+| Thinking never ends in a decision | overthinking without targets (name problems, one action now) |
 | One outcome settles it | single play standing in for long-run value |
 | Too many options freeze you | choice overload; throttling closes branches |
 
@@ -76,23 +76,23 @@ Overthinking repairs through targeted thinking and one small action now. Between
 
 ## Learning, thinking, and framing
 
-**Are you learning, or just using techniques?** Correct execution with flat results means wrong method for the goal. Judge by outcomes and the thinking a technique forces—not by generic ratings.
+**Are you learning, or just using techniques?** Correct execution with flat results means wrong method for the goal. Judge by outcomes and the thinking a technique forces, not by generic ratings.
 
-**Are you thinking, or just consuming?** Thinking means compare, predict, explain, retrieve, decide, or build. Consumption is the same visible act without those verbs—highlights, copied maps, recognition-only cards. Coverage (pages finished) is the tell; ease is what misleads.
+**Are you thinking, or just consuming?** Thinking means compare, predict, explain, retrieve, decide, or build. Consumption is the same visible act without those verbs (highlights, copied maps, recognition-only cards). Coverage (pages finished) is the tell; ease is what misleads.
 
 **Bias and framing:** bias is systematic tilt; framing is how options are wrapped. Study notes that mirror textbook headings borrow a frame; loaded public words can pick the villain before facts. Rebuild the picture and ask who bears the cost.
 
-**Nonlinear returns:** in technology and careers, upside can be power-law—one outcome worth more than the rest combined. Fighting over a small split before the pie is baked wastes time and optionality. Walk when stakes are small and peace returns; fight when greed at scale or principle would cost a year of sleep. Peace and the next genuine interest are part of the return.
+**Nonlinear returns:** in technology and careers, upside can be power-law (one outcome worth more than the rest combined). Fighting over a small split before the pie is baked wastes time and optionality. Walk when stakes are small and peace returns; fight when greed at scale or principle would cost a year of sleep. Peace and the next genuine interest are part of the return.
 
 ## Truth in another's frame, silence, breadth, status
 
-**Communicating truth into someone else's frame** starts with reasoning to their position and saying yes when it holds, then why yours also holds. Credibility is what remains after refusing a bad deal; ego out of the way. If the pitch feels like selling, the thing or the listener is probably wrong. Small high-trust groups can hunt a prize none can take alone; sell only what you would build anyway. Walk from long locks on bad fit—compromise on a bad long-term constraint is a common way companies die.
+**Communicating truth into someone else's frame** starts with reasoning to their position and saying yes when it holds, then why yours also holds. Credibility is what remains after refusing a bad deal; ego out of the way. If the pitch feels like selling, the thing or the listener is probably wrong. Small high-trust groups can hunt a prize none can take alone; sell only what you would build anyway. Walk from long locks on bad fit. Compromise on a bad long-term constraint is a common way companies die.
 
-**The three readings of a silence** sort why something worth saying stayed unsaid before any repair: a cost count with no credit for speech (repair: desk rules); an absorbed standard run on guilt or pride (repair: question at the moment of choosing, not metrics); or a room that sorted the speaker before the first word (repair: change channel—writing, async, rooms that already know you). Wrong repair on wrong diagnosis does damage. The test uses facts of one memory, not motive audits.
+**The three readings of a silence** sort why something worth saying stayed unsaid before any repair: a cost count with no credit for speech (repair: desk rules); an absorbed standard run on guilt or pride (repair: question at the moment of choosing, not metrics); or a room that sorted the speaker before the first word (repair: change channel (writing, async, rooms that already know you)). Wrong repair on wrong diagnosis does damage. The test uses facts of one memory, not motive audits.
 
 **Breadth vs focus:** keep all interests on a long-term list; activate only two or three per season with calendar blocks and open loops. Park the rest with one sentence on how return might happen later. A fourth active interest requires dropping one. If everything feels urgent, the system is overloaded.
 
-**Status conversations:** status games run through practical talk, connection, and vulnerability. Neediness and performed vulnerability differ from honesty; three conversation types (practical, connection, feeling) need different tools. Status is not one villain—it's a resource to notice without letting it pick your words.
+**Status conversations:** status games run through practical talk, connection, and vulnerability. Neediness and performed vulnerability differ from honesty; three conversation types (practical, connection, feeling) need different tools. Status is not one villain. It's a resource to notice without letting it pick your words.
 
 ## How to practice this
 
@@ -117,7 +117,7 @@ Overthinking repairs through targeted thinking and one small action now. Between
 
 - If I made this kind of choice for 20 more rounds, would I expect my position to be stronger or weaker?
 - Which clock is running on the decision in front of me?
-- Does this pitch feel like selling—and if so, is the thing wrong or the listener wrong?
+- Does this pitch feel like selling, and if so, is the thing wrong or the listener wrong?
 - When two silence readings survive the same memory, which repair runs first?
 
 ## Sources

@@ -14,7 +14,7 @@ tags:
 
 # Spaced Interleaved Retrieval
 
-> Encoding and retrieval are two halves of one job: stronger first passes mean less topping-up, but some retrieval always remains because memory decays. Spaced interleaved retrieval (SIR) is the standing rhythm—same-day touch, then roughly a day, a week, and a month, loosely held—plus changing the form each pass so gaps show while there is time to re-encode. Treat extra retrieval time as a measure of encoding debt, not a reason to quit testing.
+> Encoding and retrieval are two halves of one job: stronger first passes mean less topping-up, but some retrieval always remains because memory decays. Spaced interleaved retrieval (SIR) is the standing rhythm (same-day touch, then roughly a day, a week, and a month, loosely held), plus changing the form each pass so gaps show while there is time to re-encode. Treat extra retrieval time as a measure of encoding debt, not a reason to quit testing.
 
 Encoding and retrieval actions differ enough to learn separately. This page covers **when** to return and **what** to do in those sessions; [[wiki/Dimensions/Retrieval|Retrieval]] covers the wider method families and opportunistic work.
 
@@ -23,7 +23,7 @@ Encoding and retrieval actions differ enough to learn separately. This page cove
 Perfectionist calendars are optional. A semi-regular pattern is enough:
 
 - **Same day** after learning new material.
-- **~1 day**, **~1 week**, **~1 month**—then loose maintenance until an assessment window.
+- **~1 day**, **~1 week**, **~1 month**, then loose maintenance until an assessment window.
 - About **three to four weeks before** a high-stakes test, sweep everything the assessment needs.
 
 One sample week: learn Monday–Tuesday with same-day retrieval; Wednesday interleaves Mon–Tue (plus Wed if new); Thursday learns with same-day pass; Friday–Saturday interleaves the last two weeks; end of month interleaves the last four weeks. With strong encoding, most of a week’s material may survive a few hours of interleaved review; weak encoding forces longer passes and more debt.
@@ -60,17 +60,17 @@ Expect **two to four weeks** to settle into self-scheduled SIR before judging en
 
 ## When a test finds a gap
 
-Gaps are the point. First **re-encode with the original method**, reading with sharper attention to how the last attempt failed. If uncertainty returns, assume weak or wrong links—widen context, tie to problems you understand, or compare at a higher level. Some items need several rounds.
+Gaps are the point. First **re-encode with the original method**, reading with sharper attention to how the last attempt failed. If uncertainty returns, assume weak or wrong links. Widen context, tie to problems you understand, or compare at a higher level. Some items need several rounds.
 
-Cut retrieval only when tests stop finding new gaps—not because sessions feel heavy.
+Cut retrieval only when tests stop finding new gaps, not because sessions feel heavy.
 
 ## Encoding sets the ceiling
 
-Poor first encoding multiplies gap-filling cost (~5× repetition per gap) and can trap you in relearning loops. As encoding improves, retrieval sessions shorten. **Micro-retrieval**: pause before writing notes in a lecture—recall, then keywords and sketches, not transcription. **External check**: at least one method compares answers to a reliable source (mark scheme, vetted bank, scope-limited tutor tool) so self-tests do not miss unknown unknowns.
+Poor first encoding multiplies gap-filling cost (~5× repetition per gap) and can trap you in relearning loops. As encoding improves, retrieval sessions shorten. **Micro-retrieval**: pause before writing notes in a lecture (recall, then keywords and sketches, not transcription). **External check**: at least one method compares answers to a reliable source (mark scheme, vetted bank, scope-limited tutor tool) so self-tests do not miss unknown unknowns.
 
 ## Choosing methods (interleaving menu)
 
-Pick **declarative** or **procedural** emphasis, then a few methods—not the whole catalogue.
+Pick **declarative** or **procedural** emphasis, then a few methods, not the whole catalogue.
 
 **Drop** passive rereading, repetitive execution beyond real challenge, passive practice questions (glance at answers), and wandering group chat.
 
@@ -78,7 +78,7 @@ Pick **declarative** or **procedural** emphasis, then a few methods—not the wh
 
 **Procedural subjects** (code, maths execution, clinical skills, conversation): progress retrieved execution from simple → integrative → applied / edge-case challenges. Declarative cards may still support embedded facts.
 
-**Mixed syllabi** often start from the declarative timeline—prestudy, encoding day, same-day teaching, week-one map dump with flashcards for fact holes, weeks 2–4 escalate question quality, month-end pooled test, later evaluative discussion or WPW—then add procedural retrieval as skill work grows.
+**Mixed syllabi** often start from the declarative timeline (prestudy, encoding day, same-day teaching, week-one map dump with flashcards for fact holes, weeks 2–4 escalate question quality, month-end pooled test, later evaluative discussion or WPW), then add procedural retrieval as skill work grows.
 
 Use AI for card generation or gap-checking, not for outsourcing the relationship work that encoding requires.
 
@@ -86,13 +86,13 @@ Use AI for card generation or gap-checking, not for outsourcing the relationship
 
 If days rarely open a full hour, run **Prime → Map → Explore → Dive → Consolidate** cycles: name a tight target, list resources, sketch main ideas, deep-dive one chunk, then zoom back out before the next dive. Five- to thirty-minute blocks can stack; consolidate so spaced gaps do not erase fragile encoding. Offload searchable detail to a notes store; schedule a longer retrieval block weekly unless work already forces recall.
 
-Microlearning is additive, not a substitute for a deep session when you have one. The failure mode is endless shallow dives without consolidation or without the week-scale interleaves above—then SIR’s spacing benefits never attach to the fragments.
+Microlearning is additive, not a substitute for a deep session when you have one. The failure mode is endless shallow dives without consolidation or without the week-scale interleaves above. Then SIR’s spacing benefits never attach to the fragments.
 
 ## Related pages
 
-- [[wiki/Dimensions/Retrieval|Retrieval]] — dimension hub.
-- [[wiki/Dimensions/Deep Processing|Deep Processing]] — encoding partner.
-- 30-Day Challenges — retrieval month track.
+- [[wiki/Dimensions/Retrieval|Retrieval]] (dimension hub.)
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] (encoding partner.)
+- 30-Day Challenges (retrieval month track.)
 
 ## Sources
 

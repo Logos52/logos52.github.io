@@ -21,13 +21,13 @@ tags:
 
 The Parasitic Mind is a 2020 book. Its argument is that ideas spread for what they pay the person holding them. The ideas that pay best are the ones that are costly to test. The book calls the worst of these ideas *idea pathogens*. The book says they spread the way an infection spreads. A person who takes one up becomes less able to reason. That person also becomes less willing to speak honestly, and more ready to put loyalty above evidence.
 
-The defense the book builds has three parts. A belief should be earned from independent lines of evidence. Speech should be open, so that errors can be pointed out. And a person needs the courage to use both. An idea becomes dangerous when it closes questions before evidence can be heard; then inconvenient facts get denied, dissent gets expensive, and factual questions get answered as moral accusations.
+The defense the book builds has three parts. A belief should be earned from independent lines of evidence. Speech should be open, so that errors can be pointed out. And a person needs the courage to use both. An idea becomes dangerous when it closes questions before evidence can be heard. Then inconvenient facts get denied, dissent gets expensive, and factual questions get answered as moral accusations.
 
 ## How belonging shapes what a person believes
 
-The book starts its argument with loyalty, and it starts with the author's own life. The book opens on the author's childhood inside Lebanon's sectarian civil war. There, the group a person was born into decided whether that person was safe. Under those conditions, belonging was not a feeling about identity. It was physical safety. A mind formed under that arrangement learns to treat the group's beliefs as part of what keeps the person safe.
+The book starts its argument with loyalty, and it starts with the author's own life. The book opens on the author's childhood inside Lebanon's sectarian civil war. There, the group a person was born into decided whether that person was safe. Under those conditions, belonging was physical safety, not a feeling about identity. A mind formed under that arrangement learns to treat the group's beliefs as part of what keeps the person safe.
 
-Safety is one payment a belief can make. A belief can also pay in moral standing, in certainty, and in relief from discomfort. A person holding an idea that pays that well has reasons not to test it. The lesson the book draws from its own opening is exact: group identity becomes dangerous at the point where it overrides individual dignity and truth-seeking, and not before.
+Safety is one payment a belief can make. A belief can also pay in moral standing, in certainty, and in relief from discomfort. A person holding an idea that pays that well has reasons not to test it. The lesson the book draws from its own opening is exact: group identity becomes dangerous at the point where it overrides individual dignity and truth-seeking, meaning the habit of testing a belief against evidence, and not before.
 
 In this argument, truth-seeking is not the opposite of feeling. Love, grief, loyalty, art, and motivation all count as essential, and none of them is under attack. The separation applies to one kind of question only. When a question turns on evidence, logic, and reality-testing, feeling cannot be the final judge of the answer. A group is where that separation is hardest to keep, because testing a belief the group holds costs the tester standing inside the group.
 
@@ -35,7 +35,7 @@ In this argument, truth-seeking is not the opposite of feeling. Love, grief, loy
 
 That cost in standing changes what happens to questions. In the book's account, an idea turns dangerous at a moment a reader can check for: the moment it puts some questions off limits in advance, closed before any evidence about them can be heard. Around a belief protected in this way, three moves keep appearing. Inconvenient evidence is denied rather than weighed. Dissent is made expensive until it stops arriving. And an empirical claim gets answered as a moral accusation, so the person who asked is no longer wrong about a fact and is instead bad for having asked.
 
-The moral-accusation move grows with scale, and institutions are where it grows most. An institution built to test claims can reverse its own priorities and put the protection of feeling above the testing. From that point it keeps the form of inquiry and loses the function. On the book's account, a society keeps its ability to correct itself as long as claims can be said, contested, and tested. That requires disagreement to be survivable. The loss of that ability is hard to see because of a delay. A culture can look prosperous and functional for a long time after its ability to correct error has started to go.
+Answering a factual claim with a moral accusation grows with scale, and institutions are where it grows most. An institution built to test claims can reverse its own priorities and put the protection of feeling above the testing. From that point it keeps the form of inquiry and loses the function. On the book's account, a society keeps its ability to correct itself as long as claims can be said, contested, and tested. That requires disagreement to be survivable. The loss of that ability is hard to see because of a delay. A culture can look prosperous and functional for a long time after its ability to correct error has started to go.
 
 The book puts the whole sequence, from a closed question to an uncorrected error, into one question. When does a moral framework protect people from cruelty, and when does it start protecting beliefs from scrutiny? The first is real work, and conceding the first costs the argument nothing. The second is the sequence itself. The repair splits the same way the damage does, into two halves. One half is in how a belief gets held. The other half is in whether what the holding finds ever gets said.
 
@@ -49,7 +49,7 @@ Held as a habit, this way of earning beliefs becomes a set of questions. What is
 
 Some claims arrive with the feeling landing before the reading does. For those, the book compresses the same discipline into six steps.
 
-1. State the claim neutrally, in words a person on either side would accept as the claim. In practice this is a writing move, and [[wiki/Dimensions/Deep Processing|Thinking on Paper]] holds it. Written out flat, a charged claim stops being a feeling and becomes something that can be weighed.
+1. State the claim neutrally, in words a person on either side would accept as the claim. In practice this is a writing move, part of the encoding work in [[wiki/Dimensions/Deep Processing|Deep Processing]]. Written out flat, a charged claim stops being a feeling and becomes something that can be weighed.
 2. Write down the evidence for it.
 3. Write down the evidence against it, beside the evidence for it.
 4. Check the lines for independence: different methods, different fields, different levels.
@@ -62,13 +62,13 @@ The book does not hide the price. The method is slow. On a question where indepe
 
 A network built alone still depends on the second half. *What would change my mind* does its work only as a question other people can hear. The book does not treat free speech as a personal preference. It treats free speech as the mechanism that corrects errors. A claim no one may contest is a claim no one can correct.
 
-The reasons a claim goes uncontested are ordinary, and the book lists them without contempt. The person is busy, avoids conflict, is professionally afraid, or is waiting for someone else to go first. Each reason is reasonable on the day. So the book ends with a call rather than a technique. Its closing instruction is to speak, argue, publish, and participate. It is not an instruction to think better in private. The book treats this kind of courage as a habit rather than a temperament. The habit is built one ordinary inconvenient sentence at a time. The impulse being trained against is the impulse to stay quiet, so this is [[wiki/Dimensions/Self-Regulation|Self-Regulation]] work before it is courage work.
+The reasons a claim goes uncontested are ordinary, and the book lists them without contempt. The person is busy, avoids conflict, is professionally afraid, or is waiting for someone else to go first. Each reason is reasonable on the day. So the book ends with a call rather than a technique. Its closing instruction is to speak, argue, publish, and participate, which asks for more than thinking better in private. The book treats this kind of courage as a habit rather than a temperament. The habit is built one ordinary inconvenient sentence at a time. The impulse being trained against is the impulse to stay quiet, so this is [[wiki/Dimensions/Self-Regulation|Self-Regulation]] work before it is courage work.
 
 What never gets said has one reliable property. The shared record holds only what was actually said. An unsaid correction is a correction the record never had, and the error it would have caught stands.
 
 ## The book's own frame, tested by its own method
 
-The book's frame can be run through the book's own method. When it is, the frame comes back as a name rather than a mechanism. The infection metaphor points at two real things, spread and harm to the carrier. It predicts neither who takes an idea up nor how fast it moves. The grouping has the same problem. Several distinct movements gathered under one label are a grouping, not a converged finding. By the book's own standard, each member would need testing on its own lines. What survives both tests is the book at its best reading: a warning about how a mind stops testing, written by someone who watched belonging decide safety early in life.
+The book's frame can be run through the book's own method. Run that way, the infection frame names a pattern without explaining how the pattern works. The infection metaphor points at two real things, spread and harm to the carrier. It predicts neither who takes an idea up nor how fast it moves. The grouping has the same problem. Several distinct movements gathered under one label are a grouping, not a converged finding. By the book's own standard, each member would need testing on its own lines. What survives both tests is the book at its best reading: a warning about how a mind stops testing, written by someone who watched belonging decide safety early in life.
 
 A later book by the same author, [[wiki/Books/Suicidal Empathy|Suicidal Empathy]], narrows the same warning to one faculty, empathy. In that book, empathy is the pull that makes an error feel morally mandatory when it is aimed by whatever is most vivid rather than by what follows. That book adds a protocol for building resistance in advance.
 
@@ -76,10 +76,10 @@ A later book by the same author, [[wiki/Books/Suicidal Empathy|Suicidal Empathy]
 
 1. Take a claim where the feeling landed before you had read anything. Write it out in words a person on either side would accept as the claim. Notice whether it stops being a feeling and becomes something you can weigh.
 2. Write down the evidence for the claim. Write the evidence against it beside the evidence for it. Notice whether the belief survives only because no one has looked at the counterevidence.
-3. Check whether the lines of evidence use different methods, different fields, and different levels of analysis. Four studies that share one design count as one line. If independent lines do not yet exist, the answer the method returns is not yet knowable.
+3. Check whether the lines of evidence use different methods, different fields, and different levels of analysis. Four studies that share one design count as one line.
 4. Separate the descriptive question from the moral question, because the two answer to different tests. Notice whether an empirical claim was being answered as a moral accusation.
 5. Ask whether you are protecting the belief because it is true or because it is your tribe's. Ask it during the reading, before you have agreed. Notice whether belonging is bending the reading.
-6. Ask what would change your mind where other people can hear the question. Then say one ordinary inconvenient sentence. Notice which reason for staying quiet came up: busy, conflict-avoidant, professionally afraid, or waiting for someone else to go first.
+6. Put the question of what would change your mind to another person, out loud. Then say one ordinary inconvenient sentence. Notice which reason for staying quiet came up: busy, conflict-avoidant, professionally afraid, or waiting for someone else to go first.
 
 ## Related pages
 
@@ -96,10 +96,10 @@ A later book by the same author, [[wiki/Books/Suicidal Empathy|Suicidal Empathy]
 
 ## Sources
 
-- Gad Saad, *The Parasitic Mind: How Infectious Ideas Are Killing Common Sense* (Regnery, 2020; paperback 2021). The book this page retells: the infection frame, the wartime opening, the network method, the audit, and the call to speak.
+- Gad Saad, *The Parasitic Mind: How Infectious Ideas Are Killing Common Sense* (Regnery, 2020, paperback 2021). The book retold here: the infection frame, the wartime opening, the network method, the audit, and the call to speak.
 - Lee Cronbach and Paul Meehl, "Construct Validity in Psychological Tests," *Psychological Bulletin* (1955). The origin of "nomological network" as a named method.
 - Gad Saad, "Building a Global Database of Nomological Networks of Cumulative Evidence," *Evolutionary Behavioral Sciences* 14, no. 4 (2020). The author's academic account of building such networks.
 - John Stuart Mill, *On Liberty* (1859). The error-correction case for open speech, made long before this book.
 - Karl Popper, *Conjectures and Refutations* (1963). The science half of the same claim: a system corrects error only where claims can be contested.
-- Society for Academic Freedom and Scholarship Newsletter, "A Primer for Bare Knuckles Debate: A Review of *The Parasitic Mind*". The reading behind this page's limit on the metaphor: an infection frame without predictive power runs on its connotations.
+- Society for Academic Freedom and Scholarship Newsletter, "A Primer for Bare Knuckles Debate: A Review of *The Parasitic Mind*". The basis for treating the infection frame as a name rather than a mechanism: an infection frame without predictive power runs on its connotations.
 - Gad Saad, *Suicidal Empathy* (2026). The successor, narrowing the argument to the empathy faculty.

@@ -22,8 +22,6 @@ wedge_reviewed: true
 
 Most bug reports are vague, and any fix made before someone has seen the bug is only a guess. Reproducing it first turns the report into something concrete, shows that the agent understood the problem, and gives you a before-and-after to check without running the app yourself.
 
-**Scope.** This follows one engineer's routine of having agents try to reproduce every user report ([guide](https://x.com/poteto/status/2094457600259842065)). It also draws on the triage and reproduction bots shown at a 2026-10-15 workshop and on the third day of a three-day livestream. It applies to apps an agent can run and drive on its own computer.
-
 <div class="callout">
 
 <b>At a glance</b>

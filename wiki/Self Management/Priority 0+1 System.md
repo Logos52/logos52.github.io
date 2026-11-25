@@ -44,13 +44,13 @@ Re-sort daily if your schedule moves constantly; weekly is enough when the week 
 
 The night-before matrix is not busywork. Each task gets one honest urgency score and one importance score relative to your current goals, not relative to who is loudest. Tasks that are urgent only because you procrastinated last week stay urgent on the sheet, but they do not automatically become Priority 1 unless missing them truly blocks the goal you care about.
 
-A workable default: Priority 1 is important and moves a named goal; the early-day block is important-not-urgent skill or health work; urgent-admin fills the cracks. If every cell is "urgent," the list is lying—something upstream in [[wiki/Self Management/Time Management, Attention & Scheduling|scheduling or procrastination setup]] needs repair.
+A workable default: Priority 1 is important and moves a named goal; the early-day block is important-not-urgent skill or health work; urgent-admin fills the cracks. If every cell is "urgent," the list is lying. Something upstream in [[wiki/Self Management/Time Management, Attention & Scheduling|scheduling or procrastination setup]] needs repair.
 
 ## Failure modes
 
 - Treating Priority 0 as written once in adolescence and never tested again.
 - Letting today's inbox become Priority 1 because replying feels faster than studying.
-- Protecting Priority 1 on the calendar but not defending it when someone walks in (interactive distraction—fix expectations, not the matrix).
+- Protecting Priority 1 on the calendar but not defending it when someone walks in (interactive distraction, so fix expectations, not the matrix).
 - Confusing busywork that mimics progress with the task that actually moves the skill gap.
 
 ## How this connects

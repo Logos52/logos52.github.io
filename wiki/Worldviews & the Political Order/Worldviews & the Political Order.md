@@ -22,13 +22,13 @@ Most arguments here come from credited public sources, especially Basic Logic vi
 
 ## Reading order
 
-1. [[wiki/Worldviews & the Political Order/Group 1 - How to read these arguments|Group 1 — How to read these arguments]] — Validity, soundness, hidden premises, and [[wiki/Worldviews & the Political Order/Per Capita|per capita]] rates.
-2. [[wiki/Worldviews & the Political Order/Group 2 - Who rules, and on what terms|Group 2 — Who rules, and on what terms]] — Democracy as a tool, organized minorities, faith and the state, proportionality.
-3. [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|Group 3 — Markets, states and prosperity]] — Planning, prices, country cases, and industrial signals.
-4. [[wiki/Worldviews & the Political Order/Group 4 - Do group gaps prove discrimination|Group 4 — Do group gaps prove discrimination]] — From outcome gaps to discrimination claims; locked companion [[wiki/Worldviews & the Political Order/DEI as Anti-Discrimination|DEI as Anti-Discrimination]].
-5. [[wiki/Worldviews & the Political Order/Group 5 - The racism charge and Western guilt|Group 5 — The racism charge and Western guilt]] — Moral language as leverage; locked companion [[wiki/Worldviews & the Political Order/White Guilt|White Guilt]].
-6. [[wiki/Worldviews & the Political Order/Group 6 - Immigration and the electorate|Group 6 — Immigration and the electorate]] — Cohesion, accountability, and who votes.
-7. [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|Group 7 — Sex, gender and family]] — Identity claims, feminism, schooling, dating markets.
+1. [[wiki/Worldviews & the Political Order/Group 1 - How to read these arguments|Group 1 - How to read these arguments]] (Validity, soundness, hidden premises, and [[wiki/Worldviews & the Political Order/Per Capita|per capita]] rates.)
+2. [[wiki/Worldviews & the Political Order/Group 2 - Who rules, and on what terms|Group 2 - Who rules, and on what terms]] (Democracy as a tool, organized minorities, faith and the state, proportionality.)
+3. [[wiki/Worldviews & the Political Order/Group 3 - Markets, states and prosperity|Group 3 - Markets, states and prosperity]] (Planning, prices, country cases, and industrial signals.)
+4. [[wiki/Worldviews & the Political Order/Group 4 - Do group gaps prove discrimination|Group 4 - Do group gaps prove discrimination]] (From outcome gaps to discrimination claims; locked companion [[wiki/Worldviews & the Political Order/DEI as Anti-Discrimination|DEI as Anti-Discrimination]].)
+5. [[wiki/Worldviews & the Political Order/Group 5 - The racism charge and Western guilt|Group 5 - The racism charge and Western guilt]] (Moral language as leverage; locked companion [[wiki/Worldviews & the Political Order/White Guilt|White Guilt]].)
+6. [[wiki/Worldviews & the Political Order/Group 6 - Immigration and the electorate|Group 6 - Immigration and the electorate]] (Cohesion, accountability, and who votes.)
+7. [[wiki/Worldviews & the Political Order/Group 7 - Sex, gender and family|Group 7 - Sex, gender and family]] (Identity claims, feminism, schooling, dating markets.)
 
 Read [[wiki/Books/Suicidal Empathy|Suicidal Empathy]] when a moral feeling is doing the work that evidence and proportion should do. On any page here, state the steelman, name what would change your mind, then read the group that matches the question.
 

@@ -17,40 +17,47 @@ tags:
 
 A coding agent can change files without you knowing the rest of the repo. It still cannot, by default, open the application, click what a user would click, see a wrong result, and keep going. You do that checking. Your day becomes reviewing work that was never held up to the screen.
 
-pstack is a plugin of written procedures that tries to take that checking off you. You install it in Cursor or Grok Bot. You type `/poteto-mode` at the start of a job. The coding agent then has to launch the application in the repo, use that application the way a user would, and save a screenshot, a video, a performance trace, or a command output. Until those files exist, the agent is not allowed to say the job is done. A sentence that says the tests passed is not those files. That ban is the product. Extra files in the plugin exist to enforce the ban: skills, which are written procedures, and playbooks, which are workflow files loaded only when a job matches. If those commands work, the agent can check its own edit, and you can run more than one agent on that application. Public throughput numbers for the plugin are that story at another team's scale. They are not a reason for this desk to install it. How to use Grok Bot itself is [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]].
+pstack is a plugin of written procedures that tries to take that checking off you. You install it in Cursor or Grok Bot. You type `/poteto-mode` at the start of a job. The coding agent then has to launch the application in the repo, use that application the way a user would, and save a screenshot, a video, a performance trace, or a command output. Until those files exist, the agent is not allowed to say the job is done. A sentence that says the tests passed is not those files. That ban is the product. Extra files in the plugin exist to enforce the ban: skills, which are written procedures, and playbooks, which are workflow files loaded only when a job matches. If those commands work, the agent can check its own edit, and you can run more than one agent on that application. Public throughput numbers for the plugin come from another team working at a much larger scale, so they do not justify installing it here.
 
-This desk should keep the ban: an agent that edits a screen must drive that screen and leave a picture. This desk should install the plugin only after a small local verification script exists on one reader, and only after typing launch-click-screenshot by hand has become the slow step. Until then the ban is a few lines in a project `AGENTS.md` plus a launch-and-screenshot command. This desk has not installed the plugin. Install commands later on this page come from the plugin's public repository, not from a run on this Mac.
+This desk should keep the ban: an agent that edits a screen must drive that screen and leave a picture. This desk should install the plugin only after a small local verification script exists on one reader, and only after typing launch-click-screenshot by hand has become the slow step. Until then the ban is a few lines in a project `AGENTS.md` plus a launch-and-screenshot command. This desk has not installed the plugin. The install commands come from the plugin's public repository and have not been run on this Mac.
 
 ## Core takeaways
 
-- The product is a ban: done means the running application was driven and proof files were saved. `/poteto-mode` is a packaged way to enforce the ban. It is not a new seat next to Grok Build, Cursor, or Grok Bot.
-- Use the plugin only when four conditions hold at once: there is an application you can launch; an agent is already writing it; you still open it to see if the change worked; that checking is slower than writing the spec or merging.
-- On this desk the slow check is clickable readers: a local Yuedu harvest reader that already runs on this machine, the public tsumugu.cc reader once it launches, later the tan phone reader. The slow check is not the notes site, not dictionary JSON, not a Bot that only watches public pages.
+- The product is a ban: done means the running application was driven and proof files were saved. `/poteto-mode` is a packaged way to enforce the ban. It works inside the tools already in use (Grok Build, Cursor, Grok Bot) and adds no new one.
+- Use the plugin only when four conditions hold at once: there is an application you can launch, an agent is already writing it, you still open it to see if the change worked, and that checking is slower than writing the spec or merging.
+- On this desk the slow check is clickable readers: a local Yuedu harvest reader that already runs on this machine, the public tsumugu.cc reader once it launches, later the tan phone reader. The notes site, dictionary JSON and a Bot that only watches public pages have no such slow check.
 - If an agent cannot open the Yuedu harvest reader, tap a word, and leave a screenshot without you, you need that script. You do not need the plugin yet.
-- If you later install: create a verification skill on the app you can launch, then start work with `/poteto-mode`. A verification skill is a project-local script plus a Feature Map, which is a catalog of user-facing features and how to drive them.
-- The plugin's default personality is not this desk's. Approval stays in front of send, publish, delete, and production change. Auto-merge does not.
+- If you later install: create a verification skill on the app you can launch, then start work with `/poteto-mode`. A verification skill is a script kept inside one project, plus a Feature Map, which is a catalog of user-facing features and how to drive them.
+- The plugin's default personality differs from this desk's rules, so approval stays in front of send, publish, delete, and production change, and helpers do not merge their own work.
 
 ## Whether this desk should
 
-The notes on this site already say that an agent has to be checked against the application or file it built. That is [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]. pstack does not add a new standard. It packages the same check as slash commands for a clickable app.
+[[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] already requires checking an agent against the application or file it built, so pstack adds no new standard. It packages the same check as slash commands for a clickable app.
 
-**Use the plugin** when the four conditions above hold and you are tired of typing the same “launch, click, screenshot” prompt. **Use the rule without the plugin** when you have the bottleneck but not yet a script that launches the app. **Skip both the plugin and a new app** when the work is prose, entry JSON, or standing watch.
+**Use the plugin** when the four conditions hold and you are tired of typing the same “launch, click, screenshot” prompt. **Use the rule without the plugin** when you have the bottleneck but not yet a script that launches the app. **Skip both the plugin and a new app** when the work is prose, entry JSON, or standing watch.
 
-A local reader of Taiwan-internet posts already runs on this machine (Yuedu harvest, localhost). The harvest reader shows a shelf, a reading column, and a word card, the same surfaces as tsumugu.cc. The harvest reader is the cheapest place to test the ban. The public reader at tsumugu.cc is the quality job if `pnpm dev` launches. The tan iOS app is the later phone surface; its signed next piece is a bilingual reader, not a greenfield product.
+A local reader of Taiwan-internet posts already runs on this machine (Yuedu harvest, localhost). The harvest reader shows a shelf, a reading column, and a word card, the same surfaces as tsumugu.cc. The harvest reader is the cheapest place to test the ban. The public reader at tsumugu.cc is the quality job if `pnpm dev` launches. The tan iOS app is the later phone surface, and its signed next piece is a bilingual reader rather than a greenfield product.
 
 Do not install the pack on the notes site. Do not let a helper merge into `wiki/`. Do not start a company-from-scratch demo to learn the plugin.
 
 ## What the pack contains
 
-A **plugin** here is a bundle of skills plus playbooks. A **skill** is a written procedure. A **playbook** is a workflow file the bundle loads only when the job matches it. `/poteto-mode` reads the job, picks a playbook, and stays on across turns until you opt out.
+A **plugin** here is a bundle of **skills**, which are written procedures, plus **playbooks**, which are workflow files the bundle loads only when the job matches them. `/poteto-mode` reads the job, picks a playbook, and stays on across turns until you opt out.
 
-Around that router sit situational commands: `/create-verification-skill` and `/maintain-verification-skill` for the drive-the-app script; `/how`, `/why`, and `/teach` for explaining a subsystem; `/recall` for yesterday's chat on the same bug; `/architect` for types and signatures before bodies. You do not need that catalog on day one. You need the rule, then a script that launches one reader.
+Around that router sit situational commands:
 
-`/setup-pstack` maps models for code, judgment, and review panels. Out of the box, code delegates go to Grok and the hardest changes go to Fable 5.1. Change that if those models are the wrong price.
+- `/create-verification-skill` and `/maintain-verification-skill` for the drive-the-app script,
+- `/how`, `/why`, and `/teach` for explaining a subsystem,
+- `/recall` for yesterday's chat on the same bug,
+- `/architect` for types and signatures before bodies.
+
+You do not need that catalog on day one. You need the rule, then a script that launches one reader.
+
+`/setup-pstack` maps models for code, judgment, and review panels. Out of the box, code delegates go to Grok and the hardest changes go to a stronger model. Change that if those models are the wrong price.
 
 ## If you install
 
-The public repository is [github.com/cursor/plugins/tree/main/pstack](https://github.com/cursor/plugins/tree/main/pstack). The plugin is written for Cursor and Grok Bot. This desk's first try belongs there, not in a third-party port.
+The plugin is written for Cursor and Grok Bot, so this desk's first try belongs in one of those two and not in a third-party port.
 
 **Cursor**, in a chat in the repo:
 
@@ -60,7 +67,7 @@ The public repository is [github.com/cursor/plugins/tree/main/pstack](https://gi
 /create-verification-skill
 ```
 
-**Grok Bot:** **Settings → Plugins**, install pstack (marketplace id `9717366`), enable it for that helper, then `/setup-pstack` and `/create-verification-skill` in chat. Type `/` if the commands do not autocomplete; enable the plugin under **Settings → Plugins → Yours**.
+**Grok Bot:** **Settings → Plugins**, install pstack (marketplace id `9717366`), enable it for that helper, then `/setup-pstack` and `/create-verification-skill` in chat. Type `/` if the commands do not autocomplete, and enable the plugin under **Settings → Plugins → Yours**.
 
 `/create-verification-skill` interviews the repo, not you: what a user touches, how the app starts, how an agent can click it, what can be captured, whether two instances can run side by side. It writes a project-local skill (in Cursor under `.cursor/skills/verify-<app>/`) with launch, doctor, drive, evidence, cleanup. It seeds a Feature Map under `features/`. It then has to run those instructions once on one mapped feature and confirm the evidence still exists after cleanup. A generated skill that was never executed is a draft.
 
@@ -86,17 +93,17 @@ The pack includes a principle, never-block-on-the-human, that says to proceed an
 
 The plugin is used in public with helpers merging their own pull requests. This desk's Bot never writes `wiki/`. Application-code merges stay with the owner.
 
-The pack prefers Cursor Cloud Agents over local git worktrees for parallelism. This desk still isolates a second local writer with a worktree, because two agents editing one tree failed on 12 June 2026. Cloud Agents are the overnight PR seat, not a reason to run two writers on the laptop checkout.
+The pack prefers Cursor Cloud Agents over local git worktrees (separate working copies of one repository) for parallelism. This desk still isolates a second local writer with a worktree, because two agents editing one tree failed on 12 June 2026. Cloud Agents are the overnight PR seat, not a reason to run two writers on the laptop checkout.
 
-This vault already has writing standards. Do not paste the pack's `/unslop` over them. `/automate-me` drafts a personal router from your transcripts; that is closer to this desk than copying `/poteto-mode` as a personality.
+Keep the desk's own writing standards, and do not paste the pack's `/unslop` over them. `/automate-me` drafts a personal router from your transcripts, which is closer to this desk than copying `/poteto-mode` as a personality.
 
 ## The case against, the cost, and when to quit
 
-The case for the pack is that a helper which cannot drive the app leaves you as the person who clicks. The case against is token cost and personality clash. Review panels can call several frontier models on one design. `/why` assumes connectors this desk does not run on every repo. `/poteto-mode` stays on across turns; on a one-line fix that is extra text in the window.
+The case for the pack is that a helper which cannot drive the app leaves you as the person who clicks. The case against is token cost and personality clash. Review panels can call several frontier models on one design. `/why` assumes connectors this desk does not run on every repo. `/poteto-mode` stays on across turns, so on a one-line fix it adds extra text to the window.
 
 Quit if `/create-verification-skill` cannot launch the app. Fix the dev environment first. Quit if the Feature Map is a week behind the UI. Quit if the helper returns passing tests and no screenshot for a visual change. Quit if you installed the plugin before an agent could drive the harvest reader without you.
 
-Checkable expectation: one bounded visual or interaction change returns before-and-after pictures you can inspect without replaying the session. If the first pass produces no failed check, it has not verified anything. That test is already on [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]].
+Checkable expectation: one bounded visual or interaction change returns before-and-after pictures you can inspect without replaying the session. If the first pass produces no failed check, it has not verified anything.
 
 ## How to practice this
 
@@ -105,12 +112,10 @@ Checkable expectation: one bounded visual or interaction change returns before-a
 3. On one small real bug, start with restatement, then repro, then fix, then proof. Notice whether the restatement matches the bug you meant.
 4. When a visual fork appears, ask for two prototypes and screenshots. Notice that you are choosing from pictures, not from a paragraph.
 
-If an agent still cannot open the harvest reader without you, the plugin was the wrong next step. If the agent left a screenshot and you only chose which picture to keep, the ban is doing the work, with or without the plugin.
-
 ## Related pages
 
 - [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Using Grok Bot]]: the app you would install this plugin into if the helper should keep running after the laptop closes
-- [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Grok Bot Galaxy]]: the September 2026 event where this plugin showed up in public; not a reason to install
+- [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Grok Bot Galaxy]]: the September 2026 event where this plugin showed up in public, which is no reason to install it
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]]: the standard this plugin packages as slash commands
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agent-Native Infrastructure]]: why a CLI the agent can rerun beats a paragraph of clicks
 
@@ -127,5 +132,5 @@ If an agent still cannot open the harvest reader without you, the plugin was the
 - [architect](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md): ground, sketch, implement, scrap.
 - Grok Bot marketplace: https://x.ai/bot/plugin/9717366
 - Example generated skill for a fictional app: https://github.com/poteto/verification-skill-example
-- X articles: [Loops You Can Trust](https://x.com/poteto/status/2069824386283319343) (24 June 2026); [Part 1, verification](https://x.com/poteto/status/2094457600259842065) (31 August 2026); [Part 2, research and architecture](https://x.com/poteto/status/2097732320606507506) (9 September 2026). Part 3 announced, not published as of 17 September 2026.
+- X articles: [Loops You Can Trust](https://x.com/poteto/status/2069824386283319343) (24 June 2026), [Part 1, verification](https://x.com/poteto/status/2094457600259842065) (31 August 2026), [Part 2, research and architecture](https://x.com/poteto/status/2097732320606507506) (9 September 2026). Part 3 announced, not published as of 17 September 2026.
 - 0.15.0 notes, 8 September 2026: token savings, attack-the-premise, test-behavior-not-implementation. https://x.com/poteto/status/2097380152703615396

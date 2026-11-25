@@ -23,11 +23,11 @@ Read [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters 
 
 ## 1. The basic rules
 
-- Writing evokes speech, not bare ideas. Form, sound, and meaning are one memory item with three edges—each edge gets its own encoding and tests.
+- Writing evokes speech, not bare ideas. Form, sound, and meaning are one memory item with three edges. Each edge gets its own encoding and tests.
 - Hang new characters on words already known when heard.
 - Break down only to **functional components**; radicals tell you where to look a character up, not what it means.
 - [[wiki/Dimensions/Retrieval|Rules of Effective Memorization]] apply: meaningfulness, organization, association, visualization, attention, spaced repetition, and interest.
-- Most forgetting is failed encoding in the first session—confirm something went in before you schedule reviews.
+- Most forgetting is failed encoding in the first session. Confirm something went in before you schedule reviews.
 
 ## 2. Components, by job
 
@@ -35,13 +35,13 @@ Read [[wiki/Language/Chinese/How Chinese Characters Work|How Chinese Characters 
 - **Meaning components** extend a concrete original (plow → effort). Every story must pass the sibling-table test for that piece.
 - **Sound components** predict a **range** of readings, not one syllable; tones come from audio.
 - **Sound series** share a phonetic piece; related initials fall into seven mouth-position families (t/d, zh/ch/sh, j/q/x, b/p/f, g/k/h, z/c/s, m/w).
-- **Empty components** do no sound or meaning work here—marks, corruption, or decoration, each with a one-line honest label.
+- **Empty components** do no sound or meaning work here (marks, corruption, or decoration, each with a one-line honest label).
 - Position changes identity: 阝 left is hills, right is city.
 
 ## 3. Senses
 
 - The **original meaning** is the trunk; other senses branch or borrow.
-- ~18% of characters are **sound loans**—mark them so form does not get forced onto the wrong sense.
+- ~18% of characters are **sound loans**. Mark them so form does not get forced onto the wrong sense.
 - Do not memorize derivable or rare senses early.
 - A shape as **word** vs as **component** keeps two meaning trees.
 - Two modern readings are usually one tree with branches; a few merged glyphs are two trees in one shape.

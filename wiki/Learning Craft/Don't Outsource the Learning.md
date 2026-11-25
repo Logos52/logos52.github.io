@@ -23,7 +23,7 @@ For study, treat a model as almost the same tool as an ordinary web search. The 
 
 The default product setup is tuned for closing tasks. Nothing asks what you think the problem is before it suggests a fix. Teams are rewarded for merged changes, not for keeping engineers sharp across a long career.
 
-Studies on this pattern are consistent. Engineers learning an unfamiliar Python library finished equally fast with or without a model, but scored worse on a later comprehension quiz—with a wider gap on debugging. Inside the model group, people who asked conceptual questions did far better than people who copied generated code. Essay writers with model help showed weaker brain coupling; most could not repeat a single sentence they had just written. Giving model access at the start of a task let the model frame the problem and worsened decisions even when the person did the rest of the work.
+Studies on this pattern are consistent. Engineers learning an unfamiliar Python library finished equally fast with or without a model, but scored worse on a later comprehension quiz, with a wider gap on debugging. Inside the model group, people who asked conceptual questions did far better than people who copied generated code. Essay writers with model help showed weaker brain coupling; most could not repeat a single sentence they had just written. Giving model access at the start of a task let the model frame the problem and worsened decisions even when the person did the rest of the work.
 
 For boilerplate you will never touch again, delegation can be fine. For real systems, you still need enough expertise to catch wrong-but-fluent answers and to survive migrations you cannot prompt through.
 
@@ -31,9 +31,9 @@ Before you request a fix, state your own guess in two or three sentences and use
 
 ## The wrong loop in study
 
-Modern study is low in context and high in density. A model looks as if it can skip struggle by summarizing, grouping, and connecting material for you. The common failure loop: ask for a lesson or summary, then ask it to chunk and rank ideas, then ask how pieces connect—and your brain never does the work. The output resembles what you would have produced after real processing, but the schemas and memory that processing builds are missing.
+Modern study is low in context and high in density. A model looks as if it can skip struggle by summarizing, grouping, and connecting material for you. The common failure loop: ask for a lesson or summary, then ask it to chunk and rank ideas, then ask how pieces connect, and your brain never does the work. The output resembles what you would have produced after real processing, but the schemas and memory that processing builds are missing.
 
-Search only answers after you think about what to ask. Use a model the same way: check a hypothesis you formed, run a fine-toothed review, or assign manual labor like collecting keywords. Stay one level above the schema. Ask for the fact that would let you judge the structure, not for the structure itself. Do not request analogies on first exposure—you cannot verify them. Do not ask the model to rank keyword importance; you are the last step of evaluation.
+Search only answers after you think about what to ask. Use a model the same way: check a hypothesis you formed, run a fine-toothed review, or assign manual labor like collecting keywords. Stay one level above the schema. Ask for the fact that would let you judge the structure, not for the structure itself. Do not request analogies on first exposure, because you cannot verify them. Do not ask the model to rank keyword importance; you are the last step of evaluation.
 
 ## AI-assisted workflow without outsourcing thought
 
@@ -49,15 +49,15 @@ Five stages structure the work:
 | Comprehension | about 40 to 60 percent |
 | Implementation | about 20 to 40 percent |
 
-Priming is a quick map of what the material contains. Comprehension is layer-by-layer understanding. Implementation builds the artifact while you study. Models help find resources, reshape formats, and draft—but the learner still decides what matters, how ideas connect, recalls before checking, and judges correctness.
+Priming is a quick map of what the material contains. Comprehension is layer-by-layer understanding. Implementation builds the artifact while you study. Models help find resources, reshape formats, and draft, but the learner still decides what matters, how ideas connect, recalls before checking, and judges correctness.
 
-**The skip test:** if you handed this step to a model and skipped it entirely, would learning still happen? Finding resources and converting formats usually pass. Summarizing, prioritizing, and answering practice questions fail—they are the learning. Treat every model answer as a hypothesis and test it early. Test yourself without looking back after each section. Converting text to audio is fine; learning styles as fixed identities are not—the organizing work stays yours. Mix subjects within a day when that helps retrieval.
+**The skip test:** if you handed this step to a model and skipped it entirely, would learning still happen? Finding resources and converting formats usually pass. Summarizing, prioritizing, and answering practice questions fail. They are the learning. Treat every model answer as a hypothesis and test it early. Test yourself without looking back after each section. Converting text to audio is fine; learning styles as fixed identities are not. The organizing work stays yours. Mix subjects within a day when that helps retrieval.
 
 ## Let code keep the score in tutors
 
 A model that teaches and grades in one chat can flatter you and forget errors. Small tutor projects split roles: the model explains and judges single answers; code schedules practice and records mastery; external tools verify grammar, speech, or facts when they can.
 
-Mastery should require evidence the code trusts—unaided tries on separate days, patterns that return as scheduled retests, and sometimes a second judge besides the tutor model. The model may log a miss; it should not alone mark something as known. That split matters for language coaches and exam prep alike: the person still does the thinking; the scoreboard stays honest.
+Mastery should require evidence the code trusts (unaided tries on separate days, patterns that return as scheduled retests, and sometimes a second judge besides the tutor model). The model may log a miss; it should not alone mark something as known. That split matters for language coaches and exam prep alike: the person still does the thinking; the scoreboard stays honest.
 
 ## Open questions
 

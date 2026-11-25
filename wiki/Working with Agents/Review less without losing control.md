@@ -23,8 +23,6 @@ wedge_reviewed: true
 
 Once agents finish more work than you can read, checking every line stops being possible, so control has to come from two other places. The first is a short list of actions the agent must ask about before it acts. The second is evidence you can check quickly after it acts, so that everything outside the list can run without you watching.
 
-**Scope.** This draws on one engineer's way of reviewing a coding fleet by sampling and collecting findings ([live Q&A](https://www.youtube.com/watch?v=MN9dGgmLyso&t=2863s)). The approval rules and hand-offs come from other speakers at a three-day livestream, whose bots reply to email, answer support tickets and plan sales work. It fits any agent that acts in outside tools or merges its own changes.
-
 <div class="callout">
 
 <b>At a glance</b>
