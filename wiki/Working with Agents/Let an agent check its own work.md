@@ -23,39 +23,43 @@ wedge_reviewed: true
 
 Count a task as done only when the agent has run the software and shown you evidence of what happened, and check that evidence by sampling instead of testing every change yourself.
 
-**Scope.** This is [Lauren](https://x.com/poteto/status/2094457600259842065)'s setup (a verification skill, a shared tool and a feature map), which she also used with her own bots in the Galaxy event. The examples are web, Electron and iOS apps, where an agent can run the app and record it.
-
 <div class="callout">
 
 <b>At a glance</b>
 
 - Build a verification skill first, a saved set of instructions that lets the agent run the app.
 - Add a shared command-line tool and a feature map.
-- Ask for proof that the check ran, such as a video and screenshots for a screen app.
-- Sample the results daily, and fix the setup when agents repeat a shortcut.
 
 </div>
 
 <figure>
-<svg viewBox="0 0 490 418" width="100%" style="max-width:480px" role="img" aria-labelledby="cw-loop-t">
+<svg viewBox="0 0 360 548" width="100%" style="max-width:360px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="cw-loop-t">
 <title id="cw-loop-t">Count a task as done only when the agent has run the software and shown you evidence of what happened, and check that evidence by sampling instead of testing every change yourself.</title>
-<defs><marker id="cw-loop-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--mut,#666)"/></marker></defs>
-<rect x="10" y="30" width="200" height="96" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px" text-anchor="middle"><text x="110.0" y="74">Build the</text><text x="110.0" y="93">verification skill</text></g>
-<rect x="270" y="30" width="200" height="96" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px" text-anchor="middle"><text x="370.0" y="74">Add a shared command-line</text><text x="370.0" y="93">tool and a feature map</text></g>
-<rect x="270" y="166" width="200" height="96" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px" text-anchor="middle"><text x="370.0" y="191">Ask for proof that the</text><text x="370.0" y="210">check ran, such as a video</text><text x="370.0" y="229">and screenshots for a</text><text x="370.0" y="248">screen app.</text></g>
-<rect x="10" y="166" width="200" height="96" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px" text-anchor="middle"><text x="110.0" y="200">You review that proof</text><text x="110.0" y="219">rather than watch</text><text x="110.0" y="238">the agent</text></g>
-<rect x="10" y="302" width="200" height="96" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px" text-anchor="middle"><text x="110.0" y="346">Sample the</text><text x="110.0" y="365">results daily</text></g>
-<rect x="270" y="302" width="200" height="96" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px" text-anchor="middle"><text x="370.0" y="336">if several agents</text><text x="370.0" y="355">repeat one shortcut,</text><text x="370.0" y="374">fix the setup</text></g>
-<path d="M211,78.0 L268,78.0" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="268.0,78.0 259.0,83.0 259.0,73.0" style="fill:var(--mut,#666)"/><path d="M370.0,127 L370.0,164" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="370.0,164.0 365.0,155.0 375.0,155.0" style="fill:var(--mut,#666)"/>
-<path d="M269,214.0 L212,214.0" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="212.0,214.0 221.0,209.0 221.0,219.0" style="fill:var(--mut,#666)"/><path d="M110.0,263 L110.0,300" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="110.0,300.0 105.0,291.0 115.0,291.0" style="fill:var(--mut,#666)"/>
-<path d="M211,350.0 L268,350.0" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="268.0,350.0 259.0,355.0 259.0,345.0" style="fill:var(--mut,#666)"/><path d="M370.0,301 L370.0,264" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="370.0,264.0 375.0,273.0 365.0,273.0" style="fill:var(--mut,#666)"/>
-<path d="M471,350.0 L478,350.0 L478,8 L110.0,8 L110.0,28" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5;stroke-dasharray:5 4"/><polygon points="110.0,28.0 105.0,19.0 115.0,19.0" style="fill:var(--mut,#666)"/><g style="fill:var(--mut,#666);font-family:inherit;font-size:13px" text-anchor="middle"><text x="294.0" y="24">fix the setup</text></g>
+<rect x="0.5" y="0.5" width="359" height="547" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">Count a task as done only when the</text>
+<text x="20" y="64" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">agent has run the software and shown</text>
+<text x="20" y="88" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">you evidence of what happened, and</text>
+<text x="20" y="112" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">check that evidence by sampling</text>
+<text x="20" y="136" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">instead of testing every change</text>
+<text x="20" y="160" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">yourself.</text>
+<line x1="20" y1="176" x2="340" y2="176" style="stroke:var(--qp-rule2);stroke-width:1"/>
+<rect x="20" y="175" width="40" height="2" rx="1" style="fill:var(--qp-accent)"/>
+<text x="20" y="204" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Build a verification skill first</text>
+<text x="20" y="226" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">a saved set of instructions that lets</text>
+<text x="20" y="248" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">the agent run the app.</text>
+<line x1="20" y1="262" x2="340" y2="262" style="stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="290" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Add a shared command-line tool and a</text>
+<text x="20" y="312" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">feature map.</text>
+<line x1="20" y1="326" x2="340" y2="326" style="stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="354" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Ask for proof that the check ran.</text>
+<line x1="20" y1="368" x2="340" y2="368" style="stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="396" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">You review that proof rather than</text>
+<text x="20" y="418" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">watch the agent</text>
+<line x1="20" y1="432" x2="340" y2="432" style="stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="460" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Then sample the pull requests each</text>
+<text x="20" y="482" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">day, and if several agents repeat</text>
+<text x="20" y="504" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">one shortcut, fix the setup rather</text>
+<text x="20" y="526" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">than the single agent.</text>
 </svg>
 </figure>
 
@@ -72,28 +76,49 @@ Without a way to run the app, an agent keeps asking you to run it and click arou
 5. **Check the checking.** Let low-stakes changes, like a documentation page, run with little review, and ask for a demo or prototype on riskier ones. For changes that matter, a full-autopilot run spawns several verifier agents per pull request that click through the app like a user, and you can tune that down to one because they use many tokens. Then sample the pull requests each day, and if several agents repeat one shortcut, fix the setup rather than the single agent.
 
 <figure>
-<svg viewBox="0 0 480 308" width="100%" style="max-width:480px" role="img" aria-labelledby="cw-skill-t">
+<svg viewBox="0 0 360 392" width="100%" style="max-width:360px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="cw-skill-t">
 <title id="cw-skill-t">Add a shared command-line tool and a feature map.</title>
-<defs><marker id="cw-skill-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--mut,#666)"/></marker></defs>
-<rect x="10" y="10" width="460" height="288" rx="10" style="fill:none;stroke:var(--accent,#2a6);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:15px"><text x="26" y="36" style="font-weight:600">a verification skill, a shared tool and a feature map</text></g>
-<rect x="26" y="50" width="428" height="132" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px"><text x="42" y="76" style="font-weight:600">One small command-line tool</text><text x="42" y="104">Descriptive error messages that say what to do next</text><text x="42" y="128">A dry-run option on any command with destructive effects</text><text x="42" y="152">Output in JSON</text></g>
-<rect x="26" y="194" width="428" height="92" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px"><text x="42" y="220" style="font-weight:600">A feature map</text><text x="42" y="246">Each feature, what it does and how a user reaches it</text><text x="42" y="270">An agent can match a vague report to the right screen</text></g>
+<rect x="0.5" y="0.5" width="359" height="391" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">Add a shared command-line tool and a</text>
+<text x="20" y="64" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">feature map.</text>
+<line x1="20" y1="80" x2="340" y2="80" style="stroke:var(--qp-rule2);stroke-width:1"/>
+<rect x="20" y="79" width="40" height="2" rx="1" style="fill:var(--qp-accent)"/>
+<text x="20" y="108" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Put one small command-line tool in</text>
+<text x="20" y="130" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">the skill.</text>
+<text x="20" y="152" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">descriptive error messages that say</text>
+<text x="20" y="174" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">what to do next</text>
+<text x="20" y="196" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">a dry-run option on any command with</text>
+<text x="20" y="218" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">destructive effects</text>
+<text x="20" y="240" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">output in JSON</text>
+<line x1="20" y1="254" x2="340" y2="254" style="stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="282" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Add a feature map.</text>
+<text x="20" y="304" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">The map lists each feature, what it</text>
+<text x="20" y="326" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">does and how a user reaches it</text>
+<text x="20" y="348" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">an agent can match a vague report to</text>
+<text x="20" y="370" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">the right screen</text>
 </svg>
 </figure>
 
 <figure>
-<svg viewBox="0 0 480 306" width="100%" style="max-width:480px" role="img" aria-labelledby="cw-stakes-t">
-<title id="cw-stakes-t">Let low-stakes changes, like a documentation page, run with little review, and ask for a demo or prototype on riskier ones. For changes that matter, a full-autopilot run spawns several verifier agents per pull request that click through the app like a user, and you can tune that down to one because they use many tokens.</title>
-<defs><marker id="cw-stakes-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--mut,#666)"/></marker></defs>
-<rect x="10" y="10" width="460" height="80" rx="8" style="fill:var(--paper,transparent);stroke:var(--accent,#2a6);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px"><text x="26" y="36" style="font-weight:600">low-stakes changes</text><text x="26" y="60">like a documentation page,</text><text x="26" y="80">run with little review</text></g>
-<rect x="10" y="102" width="460" height="80" rx="8" style="fill:var(--paper,transparent);stroke:var(--accent,#2a6);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px"><text x="26" y="128" style="font-weight:600">Riskier</text><text x="26" y="152">Ask for a demo</text><text x="26" y="172">or prototype</text></g>
-<rect x="10" y="194" width="460" height="100" rx="8" style="fill:var(--paper,transparent);stroke:var(--accent,#2a6);stroke-width:2"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:14px"><text x="26" y="220" style="font-weight:600">Changes that matter</text><text x="26" y="244">A full-autopilot run spawns several verifier agents per</text><text x="26" y="264">pull request that click through the app like a user,</text><text x="26" y="284">You can tune that down to one because they use many tokens.</text></g>
+<svg viewBox="0 0 360 366" width="100%" style="max-width:360px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="cw-stakes-t">
+<title id="cw-stakes-t">Check the checking.</title>
+<rect x="0.5" y="0.5" width="359" height="365" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">Check the checking.</text>
+<line x1="20" y1="56" x2="340" y2="56" style="stroke:var(--qp-rule2);stroke-width:1"/>
+<rect x="20" y="55" width="40" height="2" rx="1" style="fill:var(--qp-accent)"/>
+<text x="20" y="84" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Let low-stakes changes, like a</text>
+<text x="20" y="106" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">documentation page, run with little</text>
+<text x="20" y="128" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">review</text>
+<line x1="20" y1="142" x2="340" y2="142" style="stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="170" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">ask for a demo or prototype on</text>
+<text x="20" y="192" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">riskier ones</text>
+<line x1="20" y1="206" x2="340" y2="206" style="stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="234" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">For changes that matter, a</text>
+<text x="20" y="256" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">full-autopilot run spawns several</text>
+<text x="20" y="278" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">verifier agents per pull request</text>
+<text x="20" y="300" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">that click through the app like a</text>
+<text x="20" y="322" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">user, and you can tune that down to</text>
+<text x="20" y="344" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">one because they use many tokens.</text>
 </svg>
 </figure>
 

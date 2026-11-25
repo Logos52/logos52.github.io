@@ -21,29 +21,26 @@ wedge_reviewed: true
 
 # Review less without losing control
 
-Once agents finish more work than you can read, checking every line stops being possible, so control has to come from two other places. The first is a short list of actions the agent must ask about before it acts. The second is evidence you can check quickly after it acts, so that everything outside the list can run without you watching.
+Once agents finish more work than you can read, checking every line stops being possible, so control comes from two places: actions that wait for your yes, and evidence you can check quickly while the rest runs.
 
 <div class="callout">
 
 <b>At a glance</b>
 
-1. Name the actions that need your yes first, such as replying to email, messaging an outside customer, deploying to production or using an internal system.
+1. Name the actions that need your yes first.
 2. Let everything else run, and review its evidence and a daily sample afterwards.
-3. Have the agent hand off work it is unsure about.
-4. Let findings collect in a document and read them every few days for patterns.
-5. Drop an approval once the agent has shown it gets that thing right.
 
 </div>
 
 <figure>
 <svg viewBox="0 0 300 592" width="100%" style="max-width:300px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="rv-lanes-t">
-<title id="rv-lanes-t">Your attention now goes to the few actions that need a yes and to evidence you can check in minutes, while the rest runs.</title>
+<title id="rv-lanes-t">Control comes from two places: actions that wait for your yes, and evidence you can check quickly while the rest runs.</title>
 <rect x="0.5" y="0.5" width="299" height="591" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
-<text x="20" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">Your attention now goes to</text>
-<text x="20" y="64" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">the few actions that need a</text>
-<text x="20" y="88" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">yes and to evidence you can</text>
-<text x="20" y="112" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">check in minutes, while the</text>
-<text x="20" y="136" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">rest runs.</text>
+<text x="20" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">Control comes from two places:</text>
+<text x="20" y="64" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">actions that wait for your</text>
+<text x="20" y="88" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">yes, and evidence you can</text>
+<text x="20" y="112" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">check quickly while the rest</text>
+<text x="20" y="136" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">runs.</text>
 <line x1="20" y1="152" x2="280" y2="152" style="stroke:var(--qp-rule2);stroke-width:1"/>
 <rect x="20" y="151" width="40" height="2" rx="1" style="fill:var(--qp-accent)"/>
 <text x="20" y="180" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Write ask-first rules for the</text>
@@ -70,15 +67,15 @@ Once agents finish more work than you can read, checking every line stops being 
 
 ## Why it works
 
-Human review is the hardest part of the setup to scale, because at the rate agents land changes no one can read them all. A quality supervisor in a factory faces the same problem, so the supervisor samples the output each day and looks hard at what comes up. An ask-first rule removes the other reason to watch, since the risky actions now wait for you. One speaker set a personal rule that the bot must ask before replying to any email, which gives the fine-grained control that companies want over what a bot can and cannot do.
+Human review is the hardest part of the setup to scale, because at the rate agents land changes no one can read them all. A quality supervisor in a factory faces the same problem, so the supervisor samples the output each day and looks hard at what comes up. An ask-first rule removes the other reason to watch, since the risky actions now wait for you. A standing rule that the bot must ask before replying to any email gives the fine-grained control that companies want over what a bot can and cannot do.
 
 ## The method
 
-1. **Write ask-first rules for the actions that matter.** The actions speakers gated were replying to email, sending a Slack message to an outside customer, deploying to production and using an internal system. You can be as strict as you like, down to asking before making a new folder, and you can name the things the agent may do freely, such as creating slides.
-2. **Make each approval quick to give.** Offer a clear choice per item, such as the approve and hold buttons that appeared on screen in one demo. One speaker reviewed and approved bot work from a phone, so a pending yes did not tie them to a laptop.
-3. **Review the evidence, not the code.** One engineer mostly reviews the videos and screenshots her agents record ([reply](https://x.com/poteto/status/2107529532144234937)). An artifact shows that the work is correct and matches what she meant faster than reading the whole pull request. One speaker's support bot writes a trace of every run, dry runs included, listing how long it took and which files it looked at. Those traces show where an answer went wrong, and a self-improvement bot reads them to improve the system. Then sample a few of the merged changes every day.
-4. **Have the agent hand off when unsure.** One speaker's support bot follows written rules with high, medium and low confidence levels. It replies only when it is confident, and it hands low-confidence, missing or ambiguous cases to a person.
-5. **Collect findings before fixing them.** The same engineer has an agent look for bad patterns and append each one to a document rather than fix it ([live Q&A](https://www.youtube.com/watch?v=MN9dGgmLyso&t=2863s)). Every couple of days she reads the document, sees that several entries are the same problem and fixes the cause once.
+1. **Write ask-first rules for the actions that matter.** Gate actions you cannot easily undo, such as replying to email, sending a Slack message to an outside customer, deploying to production and using an internal system. You can be as strict as you like, down to asking before making a new folder, and you can name the things the agent may do freely, such as creating slides.
+2. **Make each approval quick to give.** Offer a clear choice per item, such as approve and hold buttons on screen, and approve work from a phone so a pending yes does not tie you to a laptop.
+3. **Review the evidence, not the code.** Review recorded videos and screenshots instead of reading every pull request, because an artifact shows faster that the work is right and matches what you meant. Have support bots log a trace of every run, dry runs included, listing how long it took and which files it touched, so a self-improvement bot can read those traces and fix weak spots. Then sample a few of the merged changes every day.
+4. **Have the agent hand off when unsure.** Set written rules with high, medium and low confidence levels so the agent replies only when confident and hands low-confidence, missing or ambiguous cases to a person.
+5. **Collect findings before fixing them.** Have an agent look for bad patterns and append each one to a document rather than fix it immediately. Every couple of days, read the document, see that several entries share one problem, which fixes the cause once.
 6. **Loosen a rule after the agent has earned it.** When the agent asks about something you always approve, tell it that it no longer needs to ask, which builds trust one rule at a time.
 
 ### Ask-first rules to copy
@@ -92,8 +89,6 @@ Human review is the hardest part of the setup to scale, because at the rate agen
 | You still read every chat as it runs | No ask-first rules are set | Write rules for the risky actions and stop watching the rest |
 | The agent asks for approval on nearly everything | The rules are too strict for what it has shown | Tell it which approvals it can skip from now on |
 | A wrong answer reached a customer | The agent may have guessed rather than handed off | Add the confidence hand-off |
-
-Your attention now goes to the few actions that need a yes and to evidence you can check in minutes, while the rest runs.
 
 ## Open questions
 

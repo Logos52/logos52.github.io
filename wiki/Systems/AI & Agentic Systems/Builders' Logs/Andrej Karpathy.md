@@ -7,7 +7,7 @@ created: 2026-11-22
 updated: 2026-11-22
 method: builders-logs-publish-2026-11-22
 source-count: 1
-description: "Builders' Logs 2026 — Andrej Karpathy (@karpathy)."
+description: "Builders' Logs 2026 page for Andrej Karpathy (@karpathy)."
 tags:
   - agents
   - builders-logs-2026
@@ -16,21 +16,16 @@ wedge_reviewed: false
 
 # Andrej Karpathy, @karpathy
 
-Part of [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]] and [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]].
-
 ## Who they are
 
-Andrej Karpathy sits in this group because the 2026 work centers on training small language models, research agents and coding workflows. Karpathy joined Anthropic on May 19, 2026 and works on pre-training, the team that runs the large training jobs behind Claude. ([post](https://x.com/karpathy/status/2056753169888334312), [TechCrunch](https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/))
+The 2026 work centers on training small language models, research agents and coding workflows. Karpathy joined Anthropic on May 19, 2026 and works on pre-training, the team that runs the large training jobs behind Claude. ([post](https://x.com/karpathy/status/2056753169888334312), [TechCrunch](https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/))
 
 Last checked: 2026-11-19.
 
-## Mindset
-
-Not much on mindset is public beyond what the timeline shows.
 
 ## Setup
 
-Andrej Karpathy sits in this group because the 2026 work centers on training small language models, research agents and coding workflows.  Karpathy joined Anthropic on May 19, 2026 and works on pre-training, the team that runs the large training jobs behind Claude.
+Andrej Karpathy now codes mostly by directing agents, trains small models with nanochat on one node, and leaves autoresearch looping so an agent edits training code unattended. When a model needs a lot of context, a long spoken ramble replaces typing.
 
 ## Timeline
 
@@ -51,3 +46,8 @@ Andrej Karpathy sits in this group because the 2026 work centers on training sma
 - 2026-10-11. Estimated that about 6 billion people have barely used language models, as part of a widening gap in how people judge their abilities. ([post](https://x.com/karpathy/status/2109361546505966046))
 - 2026-10-31. Built HackerTube, a video site drawn from 6,454 YouTube videos recommended on Hacker News, in about two hours with an agent. ([blog](https://karpathy.bearblog.dev/hacker-tube/), [post](https://x.com/karpathy/status/2116957135661945283))
 - 2026-11-07. Turned another person's list of favorite channels into TristanTube in about three minutes. ([post](https://x.com/karpathy/status/2119114537442189652))
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]]: the hub for all thirteen logs, with the Grok and Anthropic lab sections.
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]]: public examples grouped into individual bots and systems of bots.

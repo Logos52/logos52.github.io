@@ -43,7 +43,12 @@ Do not stay inside a hard question past its time budget. If you are aiming for a
 
 Another way to miss marks is to practise only the question shapes you already handle well. Take what you know and ask how you would set a hard paper if you wanted to throw curveballs. That surfaces question types you would otherwise skip. Writing forty to fifty questions on a subject and swapping them with a study group trains that examiner view. It can beat leaning only on past papers.
 
-Four methods cover much of the late-stage work once encoding and retrieval are in place. [[wiki/Dimensions/Retrieval|Breaching Questions]] finds gaps by writing the hardest question you can on each weak spot, one you cannot answer yet. [[wiki/Dimensions/Deep Processing|ReCOVer System]] plans a long answer in four steps: Recall, Chunk, Order, and Verbalise, before any sentences get written. [[wiki/Dimensions/Self-Regulation|Silly Mistake Syndrome]] treats a mistake called silly as a sign of a gap in understanding or application, and offers a five-step attention sequence under pressure. [[wiki/Dimensions/Retrieval|Group Study]] uses set roles: leader, timekeeper, and fact-checker.
+Four methods carry much of this final-stage preparation once encoding and retrieval are in place:
+
+- Breaching Questions finds gaps by writing the hardest question you can on each weak spot, one you cannot answer yet.
+- The ReCOVer System plans a long answer in four steps (Recall, Chunk, Order, and Verbalise) before any sentences get written.
+- Silly Mistake Syndrome treats an error labeled silly as a gap in understanding or application, and sets a five-step attention check under pressure.
+- Group Study assigns explicit roles (leader, timekeeper, and fact-checker).
 
 ## Diagnosing and fixing exam mistakes
 
@@ -52,8 +57,8 @@ A mistake you call silly is hard to fix, because the label hides its cause. Most
 Five causes are common:
 
 1. **Test anxiety.** Errors look random, do not line up with difficulty or type, and grow as stakes rise. Practise under rising pressure, with timed papers, shorter time limits, and others in the room. Slow breathing and a calming pre-test routine help. Cramming at the door mostly raises anxiety.
-2. **Missing lower-order knowledge.** Errors cluster on recalling specific, separate facts. Add a lower-order retrieval method, such as flashcards.
-3. **Missing higher-order knowledge.** Errors cluster on questions that join two or more concepts, or on choosing a strategy. Add more higher-order work in both encoding and retrieval, with mixed topics and forms.
+2. **Missing lower-order (factual recall) knowledge.** Errors cluster on recalling specific, separate facts. Add a recall drill, such as flashcards.
+3. **Missing higher-order (combining concepts) knowledge.** Errors cluster on questions that join two or more concepts, or on choosing a strategy. Add work that combines concepts in both encoding and retrieval, with mixed topics and forms.
 4. **Too little procedural practice.** Errors cluster on step-by-step tasks common in maths, engineering, and software. Add practice where you carry out the procedure yourself in retrieval sessions.
 5. **Gaps your retrieval never surfaces.** The same errors come back in practice tests across several kinds. Use the double generation practice test described below.
 
@@ -85,9 +90,9 @@ Conventional repetition fails the arithmetic. Research-typical retention sits ar
 
 Two checks help. **Conceptual relevance** asks whether the detail extends something you already know is important. **Repeated testing trends** ask whether the detail keeps appearing in past papers or whether self-testing shows you need it more often than you expected. Isolated facts go on flashcards. Wider facts get used in short answers, added into an existing map as concrete examples, and worked into the schema.
 
-Encoding skill moves slowly. If you aim at a gold-standard map on every item while skill is still low, coverage stalls. The practical move is to push just past your current level. Even raising retention from forty to fifty percent cuts repetition cost every week; across years that can save dozens of hours a month.
+Encoding skill moves slowly. If you aim at a gold-standard map on every item while skill is still low, coverage stalls. The practical move is to push just past your current level. Even raising retention from forty to fifty percent cuts repetition cost every week, and across years that can save dozens of hours a month.
 
-Self-testing needs a set order. Start with high-volume methods that test the big picture, such as a brain dump or teaching the topic from memory. Those methods find big-picture gaps before they spread. Do a high-volume big-picture retrieval within the first week, and every week, so the pile stays manageable. Later, move toward targeted questions, quizzes, focused explanations, and flashcards in a small daily block. If flashcards take more than about an hour a day, look at whether you are making too many cards or integrating too little.
+Self-testing needs a set order. Start with high-volume methods that test broad recall, such as a brain dump or teaching the entire syllabus from memory. Those methods expose broad gaps before they spread. Run a broad retrieval within the first week, and every week, so the pile stays manageable. Later, move toward targeted questions, quizzes, focused explanations, and flashcards in a small daily block. If flashcards take more than about an hour a day, look at whether you are making too many cards or integrating too little.
 
 ## Techniques in school
 
@@ -95,7 +100,7 @@ A class that demands linear notes, or that buries you in homework, can still lea
 
 **Time-boxing** adds a hard stop. If you set one hour aside, the hour ends when it ends. The box fits tasks that matter a great deal but cannot finish in one sitting, and tasks that barely matter but still have to be done. Compulsory homework that does not count toward a final grade is the second case: aim for the best result the box allows.
 
-Parkinson's law says a task expands or shrinks to fill the time given. The Pareto principle says about eighty percent of a result often comes from about twenty percent of the work. An Eisenhower matrix sorts tasks by importance and urgency so urgent but unimportant work does not eat time meant for skill building.
+Unconstrained tasks expand or shrink to fill the time given, roughly eighty percent of results often come from twenty percent of the work, and sorting tasks by importance and urgency prevents urgent trivia from eating time meant for skill building.
 
 If you must sit through a class that teaches you nothing new, you can reduce how deep your first pass is before you arrive, leaving more to figure out in the room, or keep ahead and accept that class will be dull. Students who have already done a first pass can treat the hour as a live quiz and ask questions they would not have thought to ask while sitting passively.
 
@@ -105,6 +110,16 @@ If you must sit through a class that teaches you nothing new, you can reduce how
 - How would you decide, in about twenty seconds, whether today's new fact is an isolated card or a wider example?
 - How much of today's homework is actually worth more than the boxed time you would give it?
 
+## Related pages
+
+- [[wiki/Self Management/Time Management, Attention & Scheduling|Study Scheduling]]
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
+- [[wiki/Razors|Are You Learning, or Just Using Techniques]]
+- [[wiki/Planning and Automation|ICS Program Map]]
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+- [[wiki/Dimensions/Deep Processing|Deep Processing]]
+- [[wiki/Dimensions/Retrieval|Retrieval]]
+
 ## Sources
 
 - iCanStudy, "Exam Technique", Fundamentals 2. Private course notes, paraphrased.
@@ -113,11 +128,4 @@ If you must sit through a class that teaches you nothing new, you can reduce how
 - iCanStudy, "Live Clinic 66: How to prepare for ultra high-volume exams", Live clinics. Private course notes, paraphrased.
 - iCanStudy, "Techniques in School", Briefing. Private course notes, paraphrased.
 - Justin Sung, "Learn to Learn in 4hrs 54mins - Full Course." YouTube. https://www.youtube.com/watch?v=waGRF_ZApfI
-
-## Related pages
-
-- [[wiki/Self Management/Time Management, Attention & Scheduling|Study Scheduling]]
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]
-- [[wiki/Razors|Are You Learning, or Just Using Techniques]]
-- [[wiki/Planning and Automation|ICS Program Map]]
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]]
+- Classic productivity principles (Parkinson's law, Pareto 80/20 rule, Eisenhower matrix), paraphrased from *Techniques in School*.

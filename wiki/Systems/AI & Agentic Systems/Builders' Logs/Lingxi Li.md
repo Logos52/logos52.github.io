@@ -7,7 +7,7 @@ created: 2026-11-22
 updated: 2026-11-22
 method: builders-logs-publish-2026-11-22
 source-count: 1
-description: "Builders' Logs 2026 — Lingxi Li (@lingxi)."
+description: "Builders' Logs 2026 page for Lingxi Li (@lingxi)."
 tags:
   - agents
   - builders-logs-2026
@@ -16,21 +16,16 @@ wedge_reviewed: false
 
 # Lingxi Li, @lingxi
 
-Part of [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]] and [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]].
-
 ## Who they are
 
-Lingxi Li works in engineering at SpaceXSI on Grok Bot. Lingxi Li sits in this group because the public work is about running an autonomous fleet of engineering bots that manage coding agents. ([X profile](https://x.com/lingxi), [engineering guide](https://x.ai/bot/guides/grok-bot-for-engineering))
+Lingxi Li works in engineering at SpaceXSI on Grok Bot. The posted work is about running an autonomous fleet of engineering bots that manage coding agents. ([X profile](https://x.com/lingxi), [engineering guide](https://x.ai/bot/guides/grok-bot-for-engineering))
 
 Last checked: 2026-11-19.
 
-## Mindset
-
-Not much on mindset is public beyond what the timeline shows.
 
 ## Setup
 
-Lingxi Li works in engineering at SpaceXSI on Grok Bot.  Lingxi Li sits in this group because the public work is about running an autonomous fleet of engineering bots that manage coding agents.
+Lingxi Li's engineering guide lays out five engineer bots, each owning one area such as the iOS app or the desktop client. The first iOS version took three weeks and used only Grok Bot.
 
 ## Timeline
 
@@ -41,3 +36,8 @@ Lingxi Li works in engineering at SpaceXSI on Grok Bot.  Lingxi Li sits in this 
 - 2026-11-11. Predicted that roles will turn into generalists who lead agents in every industry. ([post](https://x.com/lingxi/status/2120622201321976086))
 - 2026-11-14. Said meeting attendance was tuned to use only a little of a plan's usage. ([post](https://x.com/lingxi/status/2121394949182930954))
 - 2026-11-16. Promoted bots joining meetings on the user's behalf. ([post](https://x.com/lingxi/status/2122393324330111214))
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]]: the hub for all thirteen logs, with the Grok and Anthropic lab sections.
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]]: public examples grouped into individual bots and systems of bots.

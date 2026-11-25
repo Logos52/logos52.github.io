@@ -7,7 +7,7 @@ created: 2026-11-22
 updated: 2026-11-22
 method: builders-logs-publish-2026-11-22
 source-count: 1
-description: "Builders' Logs 2026 — Geoffrey Litt (@geoffreylitt)."
+description: "Builders' Logs 2026 page for Geoffrey Litt (@geoffreylitt)."
 tags:
   - agents
   - builders-logs-2026
@@ -16,21 +16,16 @@ wedge_reviewed: false
 
 # Geoffrey Litt, @geoffreylitt
 
-Part of [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]] and [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]].
-
 ## Who they are
 
-Geoffrey Litt works on malleable software at Notion and was previously at Ink & Switch. Geoffrey Litt sits in this group because the work aims at computing environments that anyone can adapt to their own needs, alongside writing about how engineers work with coding agents. ([homepage](https://www.geoffreylitt.com/), [X profile](https://x.com/geoffreylitt))
+Geoffrey Litt works on malleable software at Notion and was previously at Ink & Switch. The work aims at computing environments that anyone can adapt to their own needs, alongside writing about how engineers work with coding agents. ([homepage](https://www.geoffreylitt.com/), [X profile](https://x.com/geoffreylitt))
 
 Last checked: 2026-11-19.
 
-## Mindset
-
-Not much on mindset is public beyond what the timeline shows.
 
 ## Setup
 
-Geoffrey Litt sits in this group because the work aims at computing environments that anyone can adapt to their own needs, alongside writing about how engineers work with coding agents.
+Geoffrey Litt rarely codes by hand anymore. Agents do slow preparation ahead of focused sessions, AI context lives in docs, skills and memories, and writing starts as an hour-long voice note recorded on a walk.
 
 ## Timeline
 
@@ -49,3 +44,8 @@ Geoffrey Litt sits in this group because the work aims at computing environments
 - 2026-10-18. Posted the video of a personal talk at the Recurse Center about taking your interests seriously. ([post](https://x.com/geoffreylitt/status/2111931145005015070))
 - 2026-10-27. Looked back a year on the code-like-a-surgeon post, saying hand coding is mostly gone but agents still do slow preparation work ahead of focused sessions. ([post](https://x.com/geoffreylitt/status/2114946549331706039))
 - 2026-11-06. Described a writing method of walking outside and talking into a voice note for up to an hour. ([post](https://x.com/geoffreylitt/status/2118787832257155467))
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]]: the hub for all thirteen logs, with the Grok and Anthropic lab sections.
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]]: public examples grouped into individual bots and systems of bots.

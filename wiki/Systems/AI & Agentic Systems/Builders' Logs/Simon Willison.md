@@ -7,7 +7,7 @@ created: 2026-11-22
 updated: 2026-11-22
 method: builders-logs-publish-2026-11-22
 source-count: 1
-description: "Builders' Logs 2026 — Simon Willison (@simonw)."
+description: "Builders' Logs 2026 page for Simon Willison (@simonw)."
 tags:
   - agents
   - builders-logs-2026
@@ -16,21 +16,16 @@ wedge_reviewed: false
 
 # Simon Willison, @simonw
 
-Part of [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]] and [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]].
-
 ## Who they are
 
-Simon Willison created Datasette and co-created Django. Simon Willison sits in this group because the 2026 writing documents agentic engineering, defined there as building software with coding agents that can run and test their own code. ([X profile](https://x.com/simonw), [blog post](https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/))
+Simon Willison created Datasette and co-created Django. The 2026 writing documents agentic engineering, defined there as building software with coding agents that can run and test their own code. ([X profile](https://x.com/simonw), [blog post](https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/))
 
 Last checked: 2026-11-19.
 
-## Mindset
-
-Not much on mindset is public beyond what the timeline shows.
 
 ## Setup
 
-Simon Willison sits in this group because the 2026 writing documents agentic engineering, defined there as building software with coding agents that can run and test their own code.
+Simon Willison works with coding agents and gives them ways to show their work, through Showboat, Rodney and a command in shot-scraper, a screenshot tool, that records demo videos. Hard budget caps on services that bill by usage belong in the same setup, because agents make spending code cheap to write.
 
 ## Timeline
 
@@ -51,3 +46,8 @@ Simon Willison sits in this group because the 2026 writing documents agentic eng
 - 2026-10-20. Released Battle Drones, a browser strategy game with multiplayer over sound, built mostly with an agent. ([blog](https://simonwillison.net/2026/Oct/20/battledrones/))
 - 2026-10-28. Named October 2026 a new inflection point for building games by vibe coding. ([blog](https://simonwillison.net/2026/Oct/28/vibe-game-development/))
 - 2026-11-17. Rewrote Datasette Lite with service workers so the browser version nearly matches the server app. ([blog](https://simonwillison.net/2026/Nov/17/datasette-lite/))
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]]: the hub for all thirteen logs, with the Grok and Anthropic lab sections.
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]]: public examples grouped into individual bots and systems of bots.

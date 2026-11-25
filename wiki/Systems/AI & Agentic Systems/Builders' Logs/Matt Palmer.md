@@ -7,7 +7,7 @@ created: 2026-11-22
 updated: 2026-11-22
 method: builders-logs-publish-2026-11-22
 source-count: 1
-description: "Builders' Logs 2026 — Matt Palmer (@mattyp)."
+description: "Builders' Logs 2026 page for Matt Palmer (@mattyp)."
 tags:
   - agents
   - builders-logs-2026
@@ -16,21 +16,16 @@ wedge_reviewed: false
 
 # Matt Palmer, @mattyp
 
-Part of [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]] and [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]].
-
 ## Who they are
 
-Matt Palmer started at Cursor on August 3, 2026 and marked day one at SpaceX on August 14. That was the day SpaceX closed its purchase of Cursor, whose team joined SpaceXAI to work on Grok, Grok Bot and Cursor. The X profile for Matt Palmer now reads cursor and @bot at @spacexsi, the SpaceX Super Intelligence account that Cursor tagged as @spacexai in August. Matt Palmer sits in this group because the year's work runs from beginner lessons for new builders to tools for engineers who run many coding agents. ([X profile](https://x.com/mattyp), [Cursor post](https://x.com/mattyp/status/2084398105802448903), [day one post](https://x.com/mattyp/status/2088308708782797180), [acquisition post](https://x.com/cursor_ai/status/2088249881718919393))
+Matt Palmer started at Cursor on August 3, 2026 and marked day one at SpaceX on August 14. That was the day SpaceX closed its purchase of Cursor, whose team joined SpaceXAI to work on Grok, Grok Bot and Cursor. The X profile for Matt Palmer now reads cursor and @bot at @spacexsi, the SpaceX Super Intelligence account that Cursor tagged as @spacexai in August. The year's work runs from beginner lessons for new builders to tools for engineers who run many coding agents. ([X profile](https://x.com/mattyp), [Cursor post](https://x.com/mattyp/status/2084398105802448903), [day one post](https://x.com/mattyp/status/2088308708782797180), [acquisition post](https://x.com/cursor_ai/status/2088249881718919393))
 
 Last checked: 2026-11-19.
 
-## Mindset
-
-Not much on mindset is public beyond what the timeline shows.
 
 ## Setup
 
-Matt Palmer started at Cursor on August 3, 2026 and marked day one at SpaceX on August 14.  That was the day SpaceX closed its purchase of Cursor, whose team joined SpaceXAI to work on Grok, Grok Bot and Cursor.  The X profile for Matt Palmer now reads cursor and @bot at @spacexsi, the SpaceX Super Intelligence account that Cursor tagged as @spacexai in August.  Matt Palmer sits in this group because the year's work runs from beginner lessons for new builders to tools for engineers who run many coding agents. com/mattyp), [Cursor post](https://x.
+Matt Palmer has driven Claude Code from a phone, walked through Conductor for running several agents side by side, and built an iPhone app on the side with several coding agents. Since the move to SpaceXAI, the posts center on Grok Bot, including a bot that tags videos and writes descriptions for the YouTube channel.
 
 ## Timeline
 
@@ -58,3 +53,8 @@ Matt Palmer started at Cursor on August 3, 2026 and marked day one at SpaceX on 
 - 2026-11-06. Hosted a Grok Bot question and answer session with Eric Zakariasson. ([video](https://www.youtube.com/watch?v=m3zk6ESdqw4))
 - 2026-11-10. Released the November 10 edition of the Grok Bot roundup. ([video](https://www.youtube.com/watch?v=t9h9nZycPqQ))
 - 2026-11-14. Ran a live Grok Bot question and answer broadcast. ([post](https://x.com/mattyp/status/2121439659179848108))
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]]: the hub for all thirteen logs, with the Grok and Anthropic lab sections.
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]]: public examples grouped into individual bots and systems of bots.

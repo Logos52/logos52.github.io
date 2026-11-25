@@ -26,12 +26,7 @@ Once one agent can take your request and mostly carry it through to a change you
 
 <b>At a glance</b>
 
-1. Start once a single agent can mostly land its own work.
-2. Run the extra agents in the cloud, not in local copies of the repository.
-3. Have your bot or a coordinator agent spawn and supervise them.
-4. Split the work into pieces that can run side by side.
-5. Fan out verification too, sized to what you can afford.
-6. Keep a person on anything that can break production.
+Cloud agents each get their own computer, so they can run the app the way a user would, and your bot stays free with a clean context window.
 
 </div>
 

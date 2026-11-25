@@ -7,7 +7,7 @@ created: 2026-11-22
 updated: 2026-11-22
 method: builders-logs-publish-2026-11-22
 source-count: 1
-description: "Builders' Logs 2026 — Boris Cherny (@bcherny)."
+description: "Builders' Logs 2026 page for Boris Cherny (@bcherny)."
 tags:
   - agents
   - builders-logs-2026
@@ -16,21 +16,16 @@ wedge_reviewed: false
 
 # Boris Cherny, @bcherny
 
-Part of [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]] and [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]].
-
 ## Who they are
 
-Boris Cherny created Claude Code at Anthropic. Boris Cherny sits in this group because the year is a run of coding-agent releases and advice for engineers. ([post](https://x.com/bcherny/status/2017742741636321619), [X profile](https://x.com/bcherny))
+Boris Cherny created Claude Code at Anthropic. The year's public work is a run of coding-agent releases and advice for engineers. ([post](https://x.com/bcherny/status/2017742741636321619), [X profile](https://x.com/bcherny))
 
 Last checked: 2026-11-19.
 
-## Mindset
-
-Not much on mindset is public beyond what the timeline shows.
 
 ## Setup
 
-Boris Cherny created Claude Code at Anthropic.  Boris Cherny sits in this group because the year is a run of coding-agent releases and advice for engineers.
+Boris Cherny works inside Claude Code, where auto mode, nested subagents and automated review of each personal pull request do most of the routine checking. Upkeep of the team's apps has also been tried as daily routines, such as a crash fuzzer and a remover for code nothing calls.
 
 ## Timeline
 
@@ -54,3 +49,8 @@ Boris Cherny created Claude Code at Anthropic.  Boris Cherny sits in this group 
 - 2026-10-06. Advised talking to the model the way you would talk to a coworker. ([post](https://x.com/bcherny/status/2107565388250874193))
 - 2026-10-16. Said automated code review runs on every personal pull request and catches nearly every bug before merge. ([post](https://x.com/bcherny/status/2111158313463525518))
 - 2026-10-22. Announced that Anthropic donated Agent Skills to @AgenticAIFdn, next to MCP. ([post](https://x.com/bcherny/status/2113333859907747871))
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]]: the hub for all thirteen logs, with the Grok and Anthropic lab sections.
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]]: public examples grouped into individual bots and systems of bots.

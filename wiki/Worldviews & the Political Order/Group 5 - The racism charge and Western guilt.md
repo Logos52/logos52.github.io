@@ -14,55 +14,62 @@ tags:
 
 # The racism charge and Western guilt
 
-
-The guilt group asks what the charge of racism does in an argument and whether European history carries a special guilt. All four pages here report one channel's argument (Basic Logic).
-
+Three arguments examine what accusations of racism do in public debate and whether European history carries a special guilt, alongside a dedicated analysis of white guilt.
 
 ## Who Gets Called Racist
 
-Three videos by [Basic Logic](https://www.youtube.com/watch?v=yYIITZs0C8A) argue that people use the word "racist" to end an argument rather than answer it, and work out what follows from that. The first says judging by group averages is a tool that is sometimes the only option when information is short. The second says the right response to the accusation is to ask whether you are right.
+Three lines of argument claim that speakers use the word "racist" to shut down debate rather than answer an opponent's point, and trace what follows. First, judging by group averages can be the only practical shortcut when split-second decisions allow no individual inquiry. Second, the most effective reply to being called racist is to ask whether one's factual claim is right.
 
-The third turns the charge around and asks why the group it says is quickest to use it scores highest on in-group preference, as the studies it cites claim.
+A third line flips the accusation, asking why the group quickest to invoke it ranks highest on in-group preference in the cited studies.
 
+## Group averages under time pressure
 
+Consider picking a transit seat while heading home. Ideally you would know each passenger and judge individually. Snap choices made in seconds leave no time for that, making generalizations practical shortcuts whose value depends on restraint: excess rigidity blinds you to nuance and harms friendships, while total refusal leaves you paralyzed without data.
 
-## When a group average is the only thing available
+Three rules govern using group averages well. First, match precision to time and sample size: broad judgments fit immediate safety choices or macro-level rules like immigration policy, whereas personal conversation lets you judge the individual, since individuals depart from averages. Second, check per-capita rates rather than raw counts: two groups accounting for 44% and 56% of homicides appear similar until you note the second group makes up 13% of citizens. Third, examine why a group behaves as it does to understand behavior accurately and guide improvement, testing non-genetic causes before genetic hypotheses.
 
-The opening example is a choice of seat on public transport on the way home. In an ideal world you would know each person and judge them as an individual. Split-second choices give you no such chance, and [Basic Logic](https://www.youtube.com/watch?v=oGRNJhS2bhI) says stereotypes and generalisations are tools whose worth depends on the user. Overusing them blinds you to nuance and costs you friends, while refusing them leaves you frozen when you lack information.
-
-He sets out three rules for using them well. The first concerns time and sample size. Broad judgments suit a split-second choice or a large group such as an immigration policy. When you can talk to someone, judge them as an individual instead, because individuals depart from averages. The second rule is to get the statistics right, which means using rates per head of population rather than raw totals. His example is two groups that commit 44% and 56% of murders, which looks even until you learn the second group is 13% of the population. The third rule is to learn why a group behaves as it does, which he says helps you read people and can help a group improve. On genetic
 ## Moral Language as Leverage
 
-The Basic Logic video [Why Did the Third World Learn to Cry Racism?](https://www.youtube.com/watch?v=1Tg_gnb7KJo) argues that words like "racism" and "discrimination" get aimed at the West by people who do not apply them at home, and that they do it because the words reliably win resources and better treatment. It explains this through three ways a society keeps order (guilt, shame and fear) and through the incentive to take what is hard to make. Its conclusion is that asking these people to be consistent achieves nothing, so the only useful response is to stop being moved by the words.
-
-
+Words such as "racism" and "discrimination" are frequently aimed at Western societies by critics who never apply them at home, because those words reliably extract resources and concessions. The explanation pairs three social control mechanisms (guilt, shame, and fear) with the incentive to seize wealth that is hard to build. Asking critics to be consistent achieves nothing, so the practical response is to stop letting moral accusations dictate policy.
 
 ## The double standard
 
-The video's starting case is Orania, a small self-sufficient Afrikaner town in the dry Karoo region of South Africa. Its residents built it up from a run-down plot with no welfare, no subsidies and no link to the national power grid. Once it became a nice place, the video says, people from the rest of the country called it a second apartheid and said the state should force the town to let them in.
+The self-sufficient Afrikaner settlement of Orania in South Africa's dry Karoo region illustrates the pattern. Residents built the town from a neglected plot without welfare, state subsidies, or a grid connection. Once it prospered, outsiders denounced it as a second apartheid and demanded the state compel entry.
 
-The video treats Orania as one case of a wider pattern in the West. The video says Westerners are told to become diverse, to share their resources with the Third World and to change their laws for newcomers, and that the people demanding it come from countries that stay homogeneous and do not share. The argument asks whether that is plain hypocrisy and answers that something more is going on.
+This reflects a broader Western pattern: Westerners are urged to diversify, share wealth with developing nations, and rewrite laws for newcomers, while petitioners come from homogeneous countries that do not reciprocate. Critics press Western nations for concessions not out of mere hypocrisy, but because moral leverage yields tangible gains.
 
 ## Guilt, shame and fear
 
-The video says every society keeps people in line through one of three painful feelings:
+Societies maintain order through one of three painful mechanisms:
 
-- Guilt, where people feel bad for breaking their own principles and police step in only when that fails. This is normal in the West but rare in the world, because it only works in advanced, often religious and very homogeneous societies where people's principl
+- Guilt, where citizens feel remorse for breaking shared moral rules and police step in only when conscience fails. Common in the West yet rare globally, guilt works only in advanced, often religious, and highly homogeneous societies where principles align closely enough to enforce self-restraint.
+- Shame, where people fear ostracism for violating clan norms. This is the most common mechanism worldwide, though it still requires enough homogeneity for shared disapproval to reach most members.
+- Fear, where compliance rests purely on credible threat of harm. This is the least developed mechanism, yet it works anywhere because strength requires no shared values.
+
 ## The Indictment of Europe
 
-Critics accuse Europe of three historical crimes, which are slavery, colonialism and mass killing. [Basic Logic](https://www.youtube.com/watch?v=yZJoK0Jz7qY) says those charges are used in support of white guilt and of policies like DEI, reparations and open-border immigration. He answers each charge with one test, which is that a people can be singled out for punishment only if what it did was unique. He argues that on every charge Europe did what other civilisations did, and that its only unique act was to end slavery.
-
-
+Critics charge Europe with three historical crimes (slavery, colonialism, and mass killing) to sustain white guilt and justify policies ranging from DEI and reparations to open-border immigration. Each charge is tested against a single rule: a people can be singled out for special punishment only if its conduct was unique. On every charge, Europe acted much like other civilizations, with its one distinctive act being the abolition of slavery.
 
 ## Why the defence is collective
 
-The usual conservative answer is that a son does not inherit his father's sins. [Basic Logic](https://www.youtube.com/watch?v=yZJoK0Jz7qY) calls that a confession rather than a defence, because it grants the crimes and only disputes who inherits them. He says he believes in individualism himself. Because the accusers judge Europeans as a group, though, he answers for Europeans as a group and treats the exchange as a retrial, hearing each charge in turn.
+Answering that children do not inherit ancestral guilt concedes the indictment while disputing only who pays. Even from an individualist premise, when accusers indict Europeans collectively, the reply answers collectively as a retrial across each charge.
 
 ## Slavery
 
-The first charge is the Atlantic slave trade. Singling Europe out would require that trade to have been uniquely evil. In this account it was neither the largest nor the most brutal, because slavery existed in every society and the Arab slave trade was larger and crueller. He adds that Europeans did not do the enslaving themselves, because African kingdoms captured people and sold them, so if buying makes Europeans guilty then selling makes Africans guilty. A second video by the same channel, on [white guilt](https://www.youtube.com/watch?v=QtgmBazTi5Q), adds that the Atlantic trade was not even the largest of its own time.
+Singling out the Atlantic slave trade requires proving it was uniquely evil. Yet slavery existed in every civilization, and the Arab slave trade was larger, crueller, and outlasted the Atlantic trade even in its own era. Moreover, Europeans bought captives whom African kingdoms had already enslaved, making sellers and buyers alike complicit if trade confers guilt.
 
-What sets Europe apart, he says, is that it ended slavery. Acc
+What set Europe apart was ending slavery: Europeans were the earliest civilization to condemn slavery as a moral evil, abolish it domestically, and spend blood and treasure suppressing it abroad.
+
+## Related pages
+
+- [[wiki/Worldviews & the Political Order/White Guilt|White Guilt]]: tests six modern arguments that Europeans owe a collective historical debt.
+- [[wiki/Worldviews & the Political Order/Group 6 - Immigration and the electorate|Group 6 - Immigration and the electorate]]: the next group of worldview arguments.
+
 ## Sources
 
-- Why Did the Third World Learn to Cry Racism?
+- Basic Logic, *How To Be Responsibly Racist*, 2026-06-15, <https://www.youtube.com/watch?v=oGRNJhS2bhI>. Paraphrased.
+- Basic Logic, *You've Just Been Called Racist, Now What?*, 2025-12-26, <https://www.youtube.com/watch?v=yYIITZs0C8A>. Paraphrased.
+- Basic Logic, *Why Is Black America So Racist?*, 2026-06-29, <https://www.youtube.com/watch?v=WunIYGEYeD0>. Paraphrased.
+- Basic Logic, *Why Did the Third World Learn to Cry Racism?*, <https://www.youtube.com/watch?v=1Tg_gnb7KJo>. Paraphrased.
+- Basic Logic, *Europeans Owe You Nothing*, 2026-05-18, <https://www.youtube.com/watch?v=yZJoK0Jz7qY>. Paraphrased.
+- Basic Logic, *White Guilt: All Arguments Ranked & Debunked*, 2026-02-06, <https://www.youtube.com/watch?v=QtgmBazTi5Q>. Paraphrased.

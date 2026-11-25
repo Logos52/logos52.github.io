@@ -7,7 +7,7 @@ created: 2026-11-22
 updated: 2026-11-22
 method: builders-logs-publish-2026-11-22
 source-count: 1
-description: "Builders' Logs 2026 — swyx (@swyx)."
+description: "Builders' Logs 2026 page for swyx (@swyx)."
 tags:
   - agents
   - builders-logs-2026
@@ -16,21 +16,16 @@ wedge_reviewed: false
 
 # swyx, @swyx
 
-Part of [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]] and [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]].
-
 ## Who they are
 
-The swyx X profile lists Cognition, AI Engineer and the Latent Space podcast. swyx sits in this group because of running the AI Engineer conferences and writing for the engineers who build with AI. ([X profile](https://x.com/swyx), [post](https://x.com/swyx/status/2117321973080760644))
+The swyx X profile lists Cognition, AI Engineer and the Latent Space podcast. swyx runs the AI Engineer conferences and writes for the engineers who build with AI. ([X profile](https://x.com/swyx), [post](https://x.com/swyx/status/2117321973080760644))
 
 Last checked: 2026-11-19.
 
-## Mindset
-
-Not much on mindset is public beyond what the timeline shows.
 
 ## Setup
 
-Setup details are not spelled out in public posts beyond what the timeline links.
+swyx runs AI Engineer as a tiny team with agents, hosts personal projects on Forge, and open-sourced a tool for studying bad context compactions in Claude Code.
 
 ## Timeline
 
@@ -47,3 +42,8 @@ Setup details are not spelled out in public posts beyond what the timeline links
 - 2026-10-13. Published How to Kill Your SaaS, a hackathon that tried to clone a real 43,000 dollar a year SaaS tool in a weekend, with 72 entries. ([post](https://x.com/swyx/status/2110065576764686421))
 - 2026-11-02. Reported that the AI Engineer YouTube channel reached 2 million unique engineers a month. ([post](https://x.com/swyx/status/2117321973080760644))
 - 2026-11-12. Hosted Kent and framed the AI engineer role as evolving into a product engineer role. ([post](https://x.com/swyx/status/2120905871773593937))
+
+## Related pages
+
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs 2026|Builders' Logs 2026]]: the hub for all thirteen logs, with the Grok and Anthropic lab sections.
+- [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Use Cases|Use Cases]]: public examples grouped into individual bots and systems of bots.

@@ -22,8 +22,6 @@ wedge_reviewed: true
 
 Agents copy whatever they find in your code and take the shortest path to a working change, so the codebase is the strongest constraint on what they produce. If the shortest path is also the right one, even an agent with little context can open a good pull request. Getting there means keeping the code worth copying, giving each pattern one paved path, enforcing the boundaries in code, and handing agents tools rather than leaving them to improvise.
 
-**Scope.** This is [Lauren](https://x.com/poteto/status/2102050467505430555)'s approach from building Dune, the in-house framework behind Grok Bot, which bans patterns that agents abuse and locks the code down so the easy path is correct. It fits any team whose codebase receives many agent-written pull requests, including ones from designers and product managers.
-
 <div class="callout">
 
 <b>At a glance</b>
@@ -38,46 +36,30 @@ Agents copy whatever they find in your code and take the shortest path to a work
 </div>
 
 <figure>
-<svg viewBox="0 0 500 453" width="100%" style="max-width:500px" role="img" aria-labelledby="cb-paved-t">
-<title id="cb-paved-t">The paved path versus the shortcut. Above, Build the Lever: give agents tools instead of relying only on markdown. Run one command instead of writing a throwaway script. It is attached to the path. An agent with a task reaches a good pull request along the paved path, a single conventional path, which is the shortest route. Under it: each feature's code in a single folder. Below, a shortcut or workaround leaves the agent on a dashed route and is crossed out at a wall of three barriers: boundary enforced through the import graph, lint rule, and no code comments. In the corner, a gardener pulls bad patterns before they spread, shown as one bad pattern with three dashed copy boxes spreading behind it.</title>
-<rect x="100" y="8" width="300" height="62" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="110" y="26" style="font-weight:600">Build the Lever</text><text x="110" y="43">give agents tools instead of</text><text x="110" y="58">relying only on markdown</text></g>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="start"><text x="262" y="88">Run one command instead of</text><text x="262" y="103">writing a throwaway script</text></g>
-<line x1="250" y1="70" x2="250" y2="116" style="stroke:var(--mut,#666);stroke-width:1.5;stroke-dasharray:3 3"/>
-<rect x="10" y="116" width="110" height="50" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="20" y="136" style="font-weight:600">An agent</text><text x="20" y="153">with a task</text></g>
-<rect x="380" y="116" width="110" height="50" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="390" y="136">Good pull</text><text x="390" y="153">request</text></g>
-<rect x="130" y="116" width="240" height="62" rx="8" style="fill:none;stroke:var(--accent,#2a6);stroke-width:3"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="middle"><text x="250" y="140" style="font-weight:600">Paved path</text><text x="250" y="157">a single conventional path</text></g>
-<path d="M120,141.0 L129,141.0" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="129.0,141.0 120.0,146.0 120.0,136.0" style="fill:var(--mut,#666)"/>
-<path d="M370,141.0 L379,141.0" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="379.0,141.0 370.0,146.0 370.0,136.0" style="fill:var(--mut,#666)"/>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="middle"><text x="250" y="196">Each feature's code in a single folder</text></g>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:13px" text-anchor="start"><text x="150" y="222" style="font-weight:600">Shortcut or workaround</text></g>
-<rect x="180" y="236" width="300" height="30" rx="5" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:5 4"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="330.0" y="256">Boundary enforced through the import graph</text></g>
-<rect x="180" y="276" width="300" height="30" rx="5" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:5 4"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="330.0" y="296">Lint rule</text></g>
-<rect x="180" y="316" width="300" height="30" rx="5" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:5 4"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="330.0" y="336">No code comments</text></g>
-<path d="M65,166 L65,251 L140,251" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5;stroke-dasharray:5 4"/>
-<path d="M140,251 L170,251" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5;stroke-dasharray:5 4"/><polygon points="170.0,251.0 161.0,256.0 161.0,246.0" style="fill:var(--mut,#666)"/>
-<path d="M160,234 L176,268 M176,234 L160,268" style="fill:none;stroke:var(--ink,currentColor);stroke-width:2"/>
-<line x1="174" y1="236" x2="174" y2="346" style="stroke:var(--ink,currentColor);stroke-width:3"/>
-<rect x="10" y="376" width="160" height="67" rx="8" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:13px" text-anchor="start"><text x="20" y="396" style="font-weight:600">Gardener</text><text x="20" y="413">Pulls bad patterns</text><text x="20" y="430">before they spread</text></g>
-<path d="M170,409.5 L199,409.5" style="fill:none;stroke:var(--mut,#666);stroke-width:1.5"/><polygon points="199.0,409.5 190.0,414.5 190.0,404.5" style="fill:var(--mut,#666)"/>
-<rect x="200" y="394.5" width="90" height="30" rx="5" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke:var(--accent,#2a6)"/>
-<g style="fill:var(--ink,currentColor);font-family:inherit;font-size:12px" text-anchor="middle"><text x="245.0" y="414">Bad pattern</text></g>
-<rect x="310" y="390.5" width="50" height="24" rx="5" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:4 3"/>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="middle"><text x="335.0" y="408">copy</text></g>
-<rect x="370" y="398.5" width="50" height="24" rx="5" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:4 3"/>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="middle"><text x="395.0" y="416">copy</text></g>
-<rect x="430" y="390.5" width="50" height="24" rx="5" style="fill:var(--paper,transparent);stroke:var(--rule2,#999);stroke-width:1.5;stroke-dasharray:4 3"/>
-<g style="fill:var(--mut,#666);font-family:inherit;font-size:12px" text-anchor="middle"><text x="455.0" y="408">copy</text></g>
-<path d="M290,409.5 L305,409.5" style="stroke:var(--mut,#666);stroke-width:1.2;stroke-dasharray:3 3"/>
+<svg viewBox="0 0 360 458" width="100%" style="max-width:360px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="cb-paved-t">
+<title id="cb-paved-t">If the shortest path is also the right one, even an agent with little context can open a good pull request.</title>
+<rect x="0.5" y="0.5" width="359" height="457" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">If the shortest path is also the</text>
+<text x="20" y="64" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">right one, even an agent with little</text>
+<text x="20" y="88" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">context can open a good pull</text>
+<text x="20" y="112" text-anchor="start" style="fill:var(--qp-ink);font-size:17px;font-weight:600">request.</text>
+<line x1="20" y1="128" x2="340" y2="128" style="stroke:var(--qp-rule2);stroke-width:1"/>
+<rect x="20" y="127" width="40" height="2" rx="1" style="fill:var(--qp-accent)"/>
+<text x="20" y="156" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Give each pattern one paved path.</text>
+<text x="20" y="178" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">Common work should have a single</text>
+<text x="20" y="200" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">conventional path</text>
+<line x1="20" y1="214" x2="340" y2="214" style="stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="242" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Enforce boundaries in code rather</text>
+<text x="20" y="264" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">than in review.</text>
+<line x1="20" y1="278" x2="340" y2="278" style="stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="306" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Build the Lever: give agents tools</text>
+<text x="20" y="328" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">instead of relying only on markdown.</text>
+<text x="20" y="350" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">run one command instead of writing a</text>
+<text x="20" y="372" text-anchor="start" style="fill:var(--qp-ink2);font-size:15px">throwaway script</text>
+<line x1="20" y1="386" x2="340" y2="386" style="stroke:var(--qp-rule);stroke-width:1"/>
+<text x="20" y="414" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">Make someone the gardener who pulls</text>
+<text x="20" y="436" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">bad patterns before they spread.</text>
 </svg>
-<figcaption>The paved path versus the shortcut. The right way is also the shortest, and the shortcut is blocked in code.</figcaption>
 </figure>
 
 ## Why it works
@@ -117,7 +99,7 @@ A codebase that agents can't easily mess up is one where copying what is already
 
 - [[wiki/Working with Agents/Turn a repeated correction into a permanent fix|Turn a repeated correction into a permanent fix]] covers where a single correction belongs, from code to lint rule to skill.
 - [[wiki/Working with Agents/Let an agent check its own work|Let an agent check its own work]] covers the verification tool and the feature map.
-- [[wiki/Working with Agents/Give an agent a task without micromanaging it|Trust agents more over time]] covers why a locked-down codebase lets you run more agents.
+- [[wiki/Working with Agents/Trust agents more over time|Trust agents more over time]] covers why a locked-down codebase lets you run more agents.
 
 ## Sources
 
