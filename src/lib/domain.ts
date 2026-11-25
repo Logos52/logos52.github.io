@@ -1,34 +1,41 @@
 import { existsSync, readFileSync } from 'node:fs';
-import { DEFAULT_DOMAIN, isDomain, normalizeDomain, type Domain } from './types';
+import { DEFAULT_DOMAIN, isDomain, type Domain } from './types';
 
 const DOMAINS_JSON = 'kb-astro/site-data/domains.json';
 
+const DOOR_TO_DOMAIN: Record<string, Domain> = {
+  ai: 'agentic',
+  self: 'focus',
+  world: 'mind',
+  craft: 'gen',
+};
+
 const FOLDER_DOMAIN: { prefix: string; domain: Domain }[] = [
-  { prefix: 'wiki/Systems/', domain: 'ai' },
-  { prefix: 'wiki/Workflows/', domain: 'ai' },
-  { prefix: 'wiki/Working-with-Agents/', domain: 'ai' },
   { prefix: 'wiki/Concepts/', domain: 'learning' },
   { prefix: 'wiki/Techniques/', domain: 'learning' },
   { prefix: 'wiki/Syntheses/', domain: 'learning' },
   { prefix: 'wiki/Learning-Craft/', domain: 'learning' },
   { prefix: 'wiki/Dimensions/', domain: 'learning' },
-  { prefix: 'wiki/Self-Management/', domain: 'self' },
-  { prefix: 'wiki/Minimalism/', domain: 'self' },
-  { prefix: 'wiki/Fitness/', domain: 'self' },
-  { prefix: 'wiki/Fashion/', domain: 'self' },
-  { prefix: 'wiki/Travel/', domain: 'self' },
-  { prefix: 'wiki/Language/', domain: 'world' },
-  { prefix: 'wiki/Resources/', domain: 'world' },
-  { prefix: 'wiki/Decision-Making/', domain: 'world' },
-  { prefix: 'wiki/Worldviews', domain: 'world' },
-  { prefix: 'wiki/Story-Craft/', domain: 'world' },
-  { prefix: 'wiki/Argument-Validation/', domain: 'world' },
-  { prefix: 'wiki/Money/', domain: 'craft' },
-  { prefix: 'wiki/Design/', domain: 'craft' },
-  { prefix: 'wiki/Books/', domain: 'craft' },
-  { prefix: 'wiki/Experiences/', domain: 'craft' },
-  { prefix: 'wiki/Domains/', domain: 'craft' },
-  { prefix: 'wiki/Writing-Craft/', domain: 'craft' },
+  { prefix: 'wiki/Systems/', domain: 'agentic' },
+  { prefix: 'wiki/Workflows/', domain: 'agentic' },
+  { prefix: 'wiki/Working-with-Agents/', domain: 'agentic' },
+  { prefix: 'wiki/Language/', domain: 'language' },
+  { prefix: 'wiki/Resources/', domain: 'language' },
+  { prefix: 'wiki/Self-Management/', domain: 'focus' },
+  { prefix: 'wiki/Minimalism/', domain: 'focus' },
+  { prefix: 'wiki/Fitness/', domain: 'focus' },
+  { prefix: 'wiki/Fashion/', domain: 'focus' },
+  { prefix: 'wiki/Travel/', domain: 'focus' },
+  { prefix: 'wiki/Decision-Making/', domain: 'mind' },
+  { prefix: 'wiki/Worldviews', domain: 'mind' },
+  { prefix: 'wiki/Story-Craft/', domain: 'mind' },
+  { prefix: 'wiki/Argument-Validation/', domain: 'mind' },
+  { prefix: 'wiki/Money/', domain: 'gen' },
+  { prefix: 'wiki/Design/', domain: 'gen' },
+  { prefix: 'wiki/Books/', domain: 'gen' },
+  { prefix: 'wiki/Experiences/', domain: 'gen' },
+  { prefix: 'wiki/Domains/', domain: 'gen' },
+  { prefix: 'wiki/Writing-Craft/', domain: 'gen' },
 ];
 
 function parseDomainsJson(text: string): Record<string, string> | null {
@@ -54,6 +61,13 @@ function loadDomainsJson(): Record<string, string> | null {
   return jsonMap;
 }
 
+function normalizeToLegacy(raw: unknown): Domain | null {
+  if (typeof raw !== 'string') return null;
+  const trimmed = raw.trim();
+  if (isDomain(trimmed)) return trimmed;
+  return DOOR_TO_DOMAIN[trimmed] ?? null;
+}
+
 function domainFromPrefix(slug: string): Domain | null {
   const norm = slug.replace(/\s+/g, '-');
   for (const { prefix, domain } of FOLDER_DOMAIN) {
@@ -62,18 +76,13 @@ function domainFromPrefix(slug: string): Domain | null {
   return null;
 }
 
-function domainFromExplicit(explicit: unknown): Domain | null {
-  if (typeof explicit !== 'string') return null;
-  return normalizeDomain(explicit.trim());
-}
-
-function domainFromJson(slug: string): Domain | null {
-  const raw = loadDomainsJson()?.[slug];
-  return typeof raw === 'string' ? normalizeDomain(raw) : null;
-}
-
 export function resolveDomain(slug: string, explicit?: unknown): Domain {
-  return domainFromExplicit(explicit) ?? domainFromJson(slug) ?? domainFromPrefix(slug) ?? DEFAULT_DOMAIN;
+  return (
+    normalizeToLegacy(explicit) ??
+    normalizeToLegacy(loadDomainsJson()?.[slug]) ??
+    domainFromPrefix(slug) ??
+    DEFAULT_DOMAIN
+  );
 }
 
 export const hasDomainsJson = () => loadDomainsJson() !== null;
