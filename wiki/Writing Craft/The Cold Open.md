@@ -3,8 +3,8 @@ title: "The Cold Open"
 type: technique
 status: stable
 created: 2026-08-12
-updated: 2026-11-21
-description: "How a vault page opens: sentence-one moves from an admired corpus, two paragraph-shaped doors above them, and the cold-thesis form for operational pages whose reader arrives to use them."
+updated: 2026-11-26
+description: "How to open a wiki page: when to state the claim in sentence one, how to plan the opening paragraph, and nineteen first-sentence shapes."
 tags:
   - writing
   - system
@@ -13,90 +13,75 @@ source-count: 12
 
 # The Cold Open
 
-An opening works at three levels. A **move** is the shape of sentence one. A **door** is the shape of the whole opening paragraph. The **cold open** is a genre that states the whole claim at full strength in sentence one, keeps the stakes small, and goes straight to application. Pick the door before the move, and pick both before drafting.
+A cold open puts the page's whole claim in its first sentence, at full strength, with no run-up. Use it when a stranger could act on that sentence alone. If the first sentence needs a definition before it makes sense, build up to the claim instead.
 
-An operational page opens on its claim because the reader came to use the page and already supplies the stakes. Prose that raises the stakes first only slows that reader down. Concept pages, value pages, and pages whose terms are not clear yet often need a run-up instead. The test for cold versus run-up is simple: if the first sentence needs a definition before it can be parsed, use a ramp, and if a stranger could act on sentence one alone, open cold.
+Pages people come to use, like how-tos and references, should open cold. The reader already knows why they came, so raising the stakes first only slows them down. Concept pages, value pages and pages built on unfamiliar terms usually need a build-up.
 
-## The cold open as genre
+## What a cold open looks like
 
-Sentence one carries the whole claim, with no run-up, no setting the scene, and no history of how things used to be. Three working openers show the form:
+The first sentence states the claim, with no scene-setting and no history of how things used to be. For example: "A language model's default voice is trained self-regard."
 
-- "The research here splits into a standing half and a session half."
-- "Bots watch. The desk changes things."
-- "A language model's default voice is trained self-regard."
+The rest of the page applies the claim. Each section opens with its rule in bold and explains how it works in the same sentence. The last section comes back to the opening claim, now backed by the body, with no separate wrap-up.
 
-What comes after the open stays small, with no before-and-after narrative and no announcing that something matters. The second move is application: the rules, the lanes, and the pipeline. Each section opens with its rule in bold, and the mechanism follows in the same sentence. The last section returns to the opening claim, advanced by the body, with no separate coda.
+Because the main point comes first, the page can't build suspense. That suits references and instructions, but not essays.
 
-A cold open gives away the page's one surprise at the start, so nothing downstream can build suspense or save the best for last. For directions and references that is a gain, whereas for an essay it would be a loss.
+## The opening paragraph
 
-## Opening doors
+Plan the first paragraph before writing the first sentence. The main question is whether the reader already knows the term.
 
-Moves and doors fail differently. A move fails inside one sentence through the wrong complement, a part in the subject seat, or a definition the reader already owned. A door fails across the paragraph, most often when the opening eases the reader in and then delivers everything at once, leaving sentence one fine while the paragraph breaks two sentences later.
+**If they don't, define it first.** Say what it is, then how it works, then what the reader gets from it. This fits new terms, technical names and core values.
 
-**Definitional handover.** State what it is, then the machinery, then what it buys. The term arrives first and stays the subject, the middle shows the parts that make it work, and the close says what the reader holds once they have it. It suits new terms, technical names, and core values introduced directly rather than through the problem they solve.
+**If they do, lead with what it gives.** State the benefit, then the method. If the benefit can't be stated plainly yet, start from something the reader already knows and build to it in small steps, with the main point last.
 
-**Payoff-or-ramp.** State what the reader gets, then the method that gets it. Where the payoff can be stated cold, it opens the paragraph, and where it cannot, the paragraph starts on wide familiar ground and walks to it. The ramp follows the on-ramp law: widest view first, each sentence a small step, thesis only once the reader can hold it. Step height is density, not word count.
+Four mistakes are common in opening paragraphs:
 
-One question routes most pages: **does the reader already own the term?** Where they do not, the handover takes it, and where they do, the door opens on what the thing gives. Core value pages take handover with a run-up regardless, and subjects with no nameable referent take the ramp because a handover has nothing to hand over until ground exists.
+- Listing every section before the reader can follow them. This is the [[wiki/Writing Craft/The Context Problem|context problem]] at paragraph scale.
+- Walking through the method step by step instead of saying what it produces.
+- Writing two openings that differ only in their first words.
+- Opening in a calm, defining voice, then switching to a run of blunt verdicts.
 
-**Common faults at the opening paragraph:** the **inventory** (opening lists every section before the reader can hold them), the **procedure recital** (method in order instead of what it produces), the **synonym swap** (two doors that differ only in the first clause), and the **tone break** (handover voice stapled to a body of stacked verdicts). The inventory is the same mechanism as a [[wiki/Writing Craft/The Context Problem|context problem]] at paragraph scale.
+## First-sentence shapes
 
-## Opening moves
+Each shape below comes from an opening that a writer the wiki draws on actually used. In every one, the first sentence gives the answer, definition or finding directly.
 
-The catalog below lists shapes for sentence one, each taken from an opening a writer in the admired-blog corpus actually used. Across those openings, the first sentence delivers the answer, definition, or finding directly instead of preparing the reader for it. Once the conclusion is given away, a hook cannot work, which is the point of the cold form. Concrete examples beat summaries, and where they disagree, the example wins.
+**When the first sentence can name the subject**
 
-**Moves when sentence one can carry the subject**
-
-| # | Move | Fits |
+| # | Shape | Fits |
 |---|---|---|
-| 1 | Copular definition: "X is a Y that does Z." The complement must be picturable on contact, or else ramp up to it. | Concepts, glossary notes |
-| 2 | Dated checkable fact | Analysis, project write-ups |
-| 3 | Thesis as plain causal fact | Causal claims |
-| 4 | Attributed folklore ("Statistical folklore asserts…") | Belief-examination pages |
-| 5 | Opposing position at strength, then flat dissent | Argument pages |
-| 6 | Retell the object intact, with the defect as a trailing clause | Debunks, reviews |
-| 7 | The debt (prior claim outstanding) | Follow-ups, personal extensions |
-| 8 | Definitional stack: do-this first, then define terms | Framework pages |
-| 9 | Unhedged absolute, scope repaired next | Doctrine lines |
-| 10 | Epistemic preamble (genre, status, contract) | Personal notes, door pages |
-| 11 | Own practice, first person | Personal register |
-| 12 | Real question, answered immediately | Research write-ups |
-| 13 | Scope fence (what this is not) | Titles that mislead |
-| 14 | Occasion plus deliverable | Workflow, how-to |
+| 1 | A definition: "X is a Y that does Z." If the reader can't picture the Y, build up to it instead. | Concepts, glossary |
+| 2 | A dated fact the reader can check | Analysis, project write-ups |
+| 3 | The thesis as a plain cause and effect | Causal claims |
+| 4 | A common belief, attributed ("Statistical folklore asserts…") | Pages that examine a belief |
+| 5 | The opposing view at full strength, then flat disagreement | Arguments |
+| 6 | The thing described fairly, with its flaw at the end of the sentence | Debunks, reviews |
+| 7 | An earlier claim the writer still owes | Follow-ups |
+| 8 | What to do first, then the definitions | Frameworks |
+| 9 | A flat absolute, narrowed in the next sentence | Core rules |
+| 10 | What kind of page this is and how settled it is | Personal notes, section front pages |
+| 11 | The writer's own practice, in first person | Personal pages |
+| 12 | A real question, answered right away | Research write-ups |
+| 13 | What the page is not about | Pages with misleading titles |
+| 14 | The occasion and what the page delivers | Workflows, how-tos |
 
-Two moves from those blogs are left out: stacking concrete examples at the top (which drifts into setting a scene) and starting with a literary anecdote before switching to the thesis.
+**When the subject needs terms first**
 
-**Priming and backstory when no name exists yet**
+Watch for this before drafting: the title joins two abstract terms, the page extends another idea, or plain words still need two definitions to make sense.
 
-Some pages need terms before the whole can be said. Spot this before drafting when a title joins two abstract terms, when a page extends another model, or when plain words still need two definitions to parse. When a draft introduces a core value or moral rule, prime the reader first, whereas when a technical guide uses common words in a narrow sense, put the working definition in sentence one instead of relying on everyday usage.
+| # | Shape |
+|---|---|
+| 15 | Short definitions of each term, then the full claim |
+| 16 | The problem that forces the two ideas together |
+| 17 | A situation the reader recognizes |
+| 18 | A related idea the reader already knows |
+| 19 | Background in plain statements, not a scene |
 
-| # | Move | Note |
-|---|---|---|
-| 15 | Terms first, then thesis | Miniature copulars, then the sayable whole |
-| 16 | The why (collision that forces the pairing) | No label-phrase on-ramp |
-| 17 | The problem (recognized situation) | Terms as the statement needs them |
-| 18 | Borrowed referent (named neighbor concept) | No fresh metaphor as subject |
-| 19 | Backstory (propositional, no scene) | Thesis when ground exists |
-
-On-ramp law: wide familiar ground, low density, small steps. The most important *sayable* sentence comes last in the intro, a primed page ends on the whole it opened from in advanced form, and the intro register governs the whole page between them.
-
-Pick the move before drafting, by genre. Present several catalog-derived openers in full, side by side, for one pick, because serial one-at-a-time rejection is the expensive way to learn a preference.
-
-## How to practice this
-
-1. Ask whether the reader already owns the term. Choose handover or payoff-or-ramp.
-2. Ask whether sentence one can say what the thing is with a stable referent. If not, use moves 15–19.
-3. Write the whole claim into sentence one when the page is operational. Cut run-up and scene-setting.
-4. Read the opening for the inventory fault. Parts belong in the body.
-5. Test a copular complement: can the reader feel or picture it on contact?
-6. On a primed page, mirror the intro in the close.
+A page that opens this way ends by restating its opening claim in a fuller form.
 
 ## Related pages
 
-- [[wiki/Writing Craft/The Context Problem|The Context Problem]]: using something as given before the page gave it.
-- [[wiki/Writing Craft/Five Writing Templates|Five Writing Templates]]: start at the end at page scale.
-- [[wiki/Systems/AI & Agentic Systems/Using Grok Bot|Grok Bot Primer]]: a page written in the cold form.
+- [[wiki/Writing Craft/The Context Problem|The Context Problem]]
+- [[wiki/Writing Craft/Five Writing Templates|Five Writing Templates]]
 
 ## Sources
 
-Cold-open rulings, doors, and specimens: house writing standards and regeneration handoffs (2026-08-12 to 2026-08-15, accepted models include Good Faith, Exit Strategy For Objects, Expectancy in Wicked Environments, Selfhood and the Ledger). Moves 1–14: Paul Graham, Gwern Branwen (gwern.net), Piotr Woźniak (supermemo.guru), Naval Ravikant, Maciej Cegłowski, and Scott Alexander (attributions as in archived Blog Craft Research Bank, 2026-08-11). Moves 15–19 and priming scope: owner rulings 2026-08-13 after five struck openers on one page.
+Shapes 1 to 14 come from Paul Graham, Gwern Branwen, Piotr Woźniak, Naval Ravikant, Maciej Cegłowski and Scott Alexander, as collected in the archived Blog Craft Research Bank (Aug 11, 2026). The rest comes from the wiki's writing standards, August 2026.
