@@ -35,7 +35,7 @@ const SPINE_EXTRA_PERIPHERAL_LINKS = 15;
 const SPINE_OUTLINE_PERIMETER_LINKS = 4;
 const SELF_REG_HUB = 'wiki/Dimensions/Self-Regulation';
 const HUB_COUNT = 6;
-let MONO_STACK = "serif";
+const MONO_STACK = "'SF Mono', ui-monospace, Menlo, monospace";
 
 // local-mode params (selectLocalSpine): a tight, importance-filtered 2-hop "spine" around the current
 // note — a few landmark hubs fanned around the center, each carrying a short branch of its own satellites.
@@ -607,18 +607,19 @@ function readColors() {
   const cs = getComputedStyle(document.documentElement);
   const v = (n: string, fb: string) => cs.getPropertyValue(n).trim() || fb;
   const domain: Record<string, string> = {};
-  for (const d of DOMAINS) domain[d] = v('--mark', '#666cb0');
+  for (const d of DOMAINS) domain[d] = v(`--d-${d}`, '#7d5a86');
   return {
     domain,
-    satellite: v('--gray', '#6f6f6f'),
-    edge: v('--line-strong', '#dddddd'),
-    ink: v('--text', '#1a1a1a'),
-    mut: v('--gray', '#6f6f6f'),
-    paper: v('--ground', '#fcfcfc'),
-    accent: v('--mark', '#666cb0'),
+    satellite: v('--gray', v('--faint', '#a59d8e')),
+    edge: v('--gray', '#a59d8e'),
+    ink: v('--ink', '#211d18'),
+    mut: v('--mut', '#6e675c'),
+    paper: v('--card', '#fbf8f1'),
+    accent: v('--accent', '#7d5a86'),
   };
 }
 
+/** Lighten a hex toward white by `t` (0..1) — used for per-node shade variety. */
 function mixWhite(hex: string, t: number): string {
   const h = hex.trim().replace('#', '');
   if (h.length < 6) return hex;
@@ -684,7 +685,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
   if (!canvas) return;
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
-  MONO_STACK = getComputedStyle(document.documentElement).getPropertyValue("--face-text").trim() || "serif";
+
   const modeAttr = root.dataset.mode;
   const mode: 'spine' | 'full' | 'local' =
     modeAttr === 'full' ? 'full' : modeAttr === 'local' ? 'local' : 'spine';
@@ -1176,8 +1177,8 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
 
   let hovered: CNode | null = null;
   let tipsRoot =
-    root.querySelector<HTMLElement>('.graph__tips') ??
-    Object.assign(document.createElement('div'), { className: 'graph__tips', ariaHidden: 'true' });
+    root.querySelector<HTMLElement>('.constellation__tips') ??
+    Object.assign(document.createElement('div'), { className: 'constellation__tips', ariaHidden: 'true' });
   if (!tipsRoot.parentElement) root.appendChild(tipsRoot);
 
   const TIP_GAP = 10;
@@ -1208,7 +1209,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
 
     const s = tipAnchor(center, k);
     const el = document.createElement('div');
-    el.className = 'graph__tip';
+    el.className = 'constellation__tip';
     el.textContent = s.n.label ?? s.n.title;
     el.style.left = `${s.x}px`;
     el.style.top = `${s.y}px`;
@@ -1359,7 +1360,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
       const big = isHub || (localSeedLabels && n.isFlag);
       ctx.globalAlpha =
         mode === 'spine' && isHub ? spineHubLabelAlpha(n) : dim(n) ? 0.3 : 1;
-      ctx.font = `${focusedHub ? 600 : big ? 500 : 400} ${big ? 15 : 13}px ${MONO_STACK}`;
+      ctx.font = `${focusedHub ? 600 : big ? 500 : 400} ${big ? 10 : 9}px ${MONO_STACK}`;
       const text = n.label ?? n.title;
       const tx = sx(n);
       const ty = sy(n) + nodeR(n) + 5;
@@ -1376,7 +1377,7 @@ export function initConstellation(root: HTMLElement, data: GraphData) {
     if (showDomainLabels) {
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
-      ctx.font = `600 15px ${MONO_STACK}`;
+      ctx.font = `600 11.5px ${MONO_STACK}`;
       for (const [dom, pos] of regionLabel) {
         const text = ((DOMAIN_LABELS as Record<string, string>)[dom] ?? dom).toUpperCase();
         ctx.lineWidth = 3;
