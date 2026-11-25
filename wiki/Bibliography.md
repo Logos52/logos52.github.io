@@ -12,31 +12,31 @@ wedge_reviewed: false
 
 # Bibliography
 
-The bibliography is the door-neutral register for every work that shaped a page on this site. It sits outside the five problem doors because sources cross them: the same podcast can feed an agentic page and a political one. Use it when you need the title, author, or public URL behind a claim, not when you need the argument itself. The argument lives on the door page that cites the work.
+The register is the list of works that pages draw on, with the title, author and a public link when one exists.
 
 ## How entries are handled
 
-Public links stay here with enough detail to find the original. That includes YouTube talks, essays, papers, product documentation, and podcasts with stable URLs. Book-length sources that the owner has read appear as book notes in the vault; this page names the book and points to the book page, not a reproduction of the text.
-
-Paid courses, private notebooks, and internal handbooks are different. Those paths do not belong on a public repo. The wiki keeps paraphrased claims on the learning, language, and decision pages that use them. This bibliography counts how many such lessons exist and names the program when that helps orientation, but it does not paste lesson titles or file paths back onto the open web.
-
-When a door page merges away, the source does not vanish. It stays attached to the surviving page in paraphrase, and any public URL for it remains listed here. When a page moves to `/archive/`, its sources stay cited on the pages that still matter for the cut.
+Each public entry gives enough detail to find the original, including talks, essays, papers, product documentation and podcasts with a stable URL. Book-length works are named here, each with a link to the book page that covers it.
 
 ## What you will find by kind
 
-**Books and long essays in the vault** cover political frames, money habits, design principles, and builder biographies. Start from the book page if you want the wiki's reading of the work, not the publisher's blurb.
+Long essays and books held as notes cover political frames, money habits, design principles and builder biographies.
 
-**Public video and journalism** supply most of the world-door material. Political argument pages lean heavily on long-form YouTube analysis that is fully linkable. Agentic pages lean on conference talks, builder livestreams, and product essays from labs and toolmakers.
+Video and journalism supply most of the political and current-affairs material. Conference talks, builder livestreams and product essays from labs and toolmakers sit alongside them.
 
-**Papers and datasets** appear sparingly but matter where a biological or economic claim needs a traceable study rather than commentary.
+Papers and datasets appear where a biological or economic finding needs a traceable study.
 
-**Agent product docs and workshops** include Grok Bot guides, Galaxy transcripts, and builder write-ups on fleets, verification, and outer loops. Those entries cluster under working well with AI.
+Agent product docs and workshops include product guides, workshop livestream transcripts and builder write-ups on fleets, verification and outer loops.
 
-**Private learning programs** are dominated by one large study course and by Refold's language material. Together they account for most of the register's rows. Door pages carry the usable content; this page only records that the material exists and stays off the public path list.
+Paid and private learning programs are mostly one large study course and one language course, which together account for most of the rows.
 
-## Using the register with the glossary
+## Open questions
 
-The [[wiki/Glossary|Glossary]] defines terms the doors share. The bibliography names works. Cross-check when a page uses a coined label from a course: the glossary gives the in-wiki definition; this page tells you whether the definition came from a public talk or a private lesson.
+- When is the book page a better next step than the original work?
+
+## Related pages
+
+- [[wiki/Glossary|Glossary]] defines the shared terms that appear across pages.
 
 ## Sources
 ### Books and vault notes
@@ -45,9 +45,9 @@ The [[wiki/Glossary|Glossary]] defines terms the doors share. The bibliography n
 - Gad Saad, *The Parasitic Mind: How Infectious Ideas Are Killing Common Sense* (2020). Book notes, paraphrased.
 - William Lidwell, Kritina Holden and Jill Butler, *Universal Principles of Design*. Book notes, paraphrased.
 ### Private and paid material (paraphrased on door pages)
-- iCanStudy course lessons: 103 entries; lesson titles and paths are not published.
-- Refold course material: 18 entries; lesson titles and paths are not published.
-- Other private handbooks and course notes: 13 entries; cited in paraphrase only.
+- iCanStudy course lessons: 103 entries. Lesson titles and paths are not published.
+- Refold course material: 18 entries. Lesson titles and paths are not published.
+- Other private handbooks and course notes: 13 entries, cited in paraphrase only.
 
 ### Public web, video, papers, and product documentation
 

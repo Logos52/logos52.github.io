@@ -49,18 +49,18 @@ else
 fi
 
 code="$(http_ok / || true)"
-if [[ "${code}" == "200" ]] && page_has_marker / 'data-home-objective'; then
-  ok "${BASE_URL}/ → 200 and data-home-objective present"
+if [[ "${code}" == "200" ]] && page_has_marker / 'hero__title'; then
+  ok "${BASE_URL}/ → 200 and hero__title present"
 else
-  bad "${BASE_URL}/ → ${code:-down} (need 200 + data-home-objective)"
+  bad "${BASE_URL}/ → ${code:-down} (need 200 + hero__title)"
 fi
 
-# Map is the vault index the menu opens. /notes/ is a 301 to /map/.
+# Map heading is h1.map-head__title ("The vault"). /notes/ is its own 200 page.
 map_code="$(http_ok /map/ || true)"
-if [[ "${map_code}" == "200" ]] && page_has_marker /map/ 'data-map-title'; then
-  ok "${BASE_URL}/map/ → 200 and data-map-title present"
+if [[ "${map_code}" == "200" ]] && page_has_marker /map/ 'map-head__title'; then
+  ok "${BASE_URL}/map/ → 200 and map-head__title present"
 else
-  bad "${BASE_URL}/map/ → ${map_code:-down} (need 200 + data-map-title)"
+  bad "${BASE_URL}/map/ → ${map_code:-down} (need 200 + map-head__title)"
 fi
 
 echo "doctor: EVIDENCE_DIR=${EVIDENCE_DIR}"

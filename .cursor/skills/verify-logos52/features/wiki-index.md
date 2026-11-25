@@ -1,20 +1,21 @@
-# Wiki index
+# Notes index
 
-The Notes landing is a redirect. The wiki list on Map is the index a visitor browses.
+The Notes page lists condensed doctrine and cluster hubs. It is the nav `Notes` item. It is not a redirect, and it is not the filterable list on Map.
 
-Source: `src/pages/notes.astro` (redirect to `/map/`), `src/pages/map.astro`, `src/islands/map-list.ts`. The menu has no Notes item (`src/components/Mast.astro`). The footer repeats Map (`src/components/Colophon.astro`).
+Source: `src/pages/notes.astro` (`active="notes"`), `src/lib/icons.ts` (`CONDENSED_ENTRIES`, `HUB_ENTRIES`). The header nav includes Notes (`src/components/Chrome.astro`).
 
 ## Sub-features
 
-- `notes-redirect`: `GET /notes/` is 301, `location: /map/`.
-- `notes-list`: `ul[data-map-list]` of `a.word__link` / `.word__title`, filtered by `input[data-map-search]`.
-- `notes-open`: one row opens a note.
+- `notes-page`: `GET /notes/` is 200. The address stays on `/notes/`. `main.notes-page` is present. There is no `h1`.
+- `notes-condensed`: `h2.notes-head` text `Condensed`, then `ul.entry-list` of `.entry-list__title`.
+- `notes-hubs`: a second `h2.notes-head` text `Hubs`, then another `ul.entry-list`.
+- `notes-open`: one entry opens a note.
 
 ## How to get to it (user POV)
 
-Open the menu with `button#menu-btn` and click `Map`, or open http://127.0.0.1:4321/notes/ and follow the redirect. The wordmark goes home. A footer link named `Map` opens the same page without the menu.
+Click the nav link `Notes`, or open http://127.0.0.1:4321/notes/. The wordmark goes home.
 
-`notes/index.md` is the Obsidian catalog. It is not this page. `CONDENSED_ENTRIES` and `HUB_ENTRIES` in `src/lib/icons.ts` are not rendered by any page.
+`notes/index.md` is the Obsidian catalog the page comment says the lists stay aligned with. The rendered lists are `CONDENSED_ENTRIES` and `HUB_ENTRIES`.
 
 ## Driving it with computerUse
 
@@ -23,17 +24,18 @@ Preconditions:
 - Doctor passed.
 - The page is at laptop width.
 
-- **Open the index.** From `/`, click `button#menu-btn` (`aria-label="Open menu"`), then the menu link named `Map`.
-- **Resulting state.** URL is `/map` or `/map/`. `h1[data-map-title]` is `Map`. The menu link `Map` has `aria-current="page"`. `input[aria-label="Filter pages"]` is present.
-- **Legacy URL.** Open `/notes/`. The browser lands on `/map/` with the same heading. The response status is 301. Do not expect `main.notes-page`.
-- **Open a row.** Type `Don't Outsource the Learning` into the filter. Click the `.word__title` with that text.
-- **Land on the note.** URL is `/wiki/Learning-Craft/Don't-Outsource-the-Learning/`. `article[data-pagefind-body]` is present. `h1.reading__title` is `Don't Outsource the Learning`. `p.reading__meta` includes `Concept`. `.reading__dek` is present.
+- **Open the index.** From `/`, click the nav link named `Notes`.
+- **Resulting state.** URL is `/notes` or `/notes/`. There is no `h1`. The nav link `Notes` has class `on`. `h2` text `Condensed` and `h2` text `Hubs` are present.
+- **Open a hub that exists.** Click the `.entry-list__title` whose text is `Chinese Characters`.
+- **Land on the note.** URL is `/wiki/Language/Chinese/How-Chinese-Characters-Work/`. `article[data-pagefind-body]` is present. `h1.kb-note-title` is `How Chinese Characters Work`. `span.kb-type-tag` text is `Hub`. `p.kb-note-dek` is present.
+
+## Product gaps
+
+`Learning, Condensed` (the first Condensed row) hrefs `/wiki/Syntheses/Learning,-Condensed/`, which returns 301 to `/wiki/Dimensions/Dimensions-of-Learning/` (`src/redirects/doors/self.json`). That page returns 200. The Hubs row `Learning Systems` hrefs `/wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques/` and lands on the same page. The cut notes stay deleted.
 
 ## Gotchas
 
-- Do not look for `.notes-lede`, `h2.notes-head`, `.entry-list`, or a nav link named `Notes`.
-- `Learning, Condensed` is not a published note title (`wiki/Syntheses/` is gone). A miss on that title in the Map list is not a list failure. `/wiki/Syntheses/Learning,-Condensed/` returns 301 to `/wiki/Dimensions/Dimensions-of-Learning/`, and that page returns 200.
-- The list is client-rendered from `#map-rows-data`. Wait for `.word__title`, not `.map-row__title` and not a fixed sleep.
-- The Map link does not take a class `on`. Current is `aria-current="page"`.
-- The filter matches title, source line, and slug.
+- Do not expect a 301 to `/map/`, `main` with no `notes-page`, or a filter `input[data-map-search]`. The wiki list on Map was removed with `src/islands/map-list.ts`.
+- Do not look for `h1[data-map-title]` on this page.
+- The Notes link takes class `on` when this page is current. There is no `aria-current`.
 - This page is not the gitignored `notes/catalog.md`.
