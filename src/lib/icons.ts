@@ -25,7 +25,7 @@ export const CONDENSED_ENTRIES: {
 }[] = [
   {
     title: 'Learning, Condensed',
-    slug: 'wiki/Syntheses/Learning, Condensed',
+    slug: 'wiki/Dimensions/Dimensions of Learning',
     blurb: 'How to take in new material, how to remember it, and how to plan study.',
     icon: 'ti-school',
     color: 'var(--d-learning)',
@@ -84,7 +84,7 @@ export const HUB_ENTRIES: {
 }[] = [
   {
     title: 'Learning Systems',
-    slug: 'wiki/Syntheses/Are You Learning, or Just Using Techniques',
+    slug: 'wiki/Dimensions/Dimensions of Learning',
     blurb: 'How learning works. A study technique is useful only if it makes you process the material in your mind.',
     icon: 'ti-network',
     color: 'var(--d-learning)',

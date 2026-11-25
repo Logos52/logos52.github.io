@@ -31,7 +31,7 @@ export const topOfMind = [
 ];
 
 export const startHere = [
-  { intent: 'Learn', icon: 'ti-school', title: 'Does a Study Technique Work?', sub: 'A technique such as notes or a mind map works only if it makes you process the material in your mind.', color: 'var(--i-learn)', slug: 'wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques' },
+  { intent: 'Learn', icon: 'ti-school', title: 'Does a Study Technique Work?', sub: 'A technique such as notes or a mind map works only if it makes you process the material in your mind.', color: 'var(--i-learn)', slug: 'wiki/Dimensions/Dimensions of Learning' },
   { intent: 'Decode', icon: 'ti-language', title: 'How Chinese Characters Are Built', sub: 'Each character is made of smaller parts, and each part has a different function.', color: 'var(--i-decode)', slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work' },
   { intent: 'Explore', icon: 'ti-affiliate', title: 'Map of the Site', sub: 'Every node is an article on the site, and a line between two nodes shows a relationship.', color: 'var(--i-explore)', href: '/map/' },
 ];
@@ -49,12 +49,12 @@ export const lifeHubs = [
   { title: 'Money', icon: 'ti-wallet', color: 'var(--d-gen)', slug: 'wiki/Money/Money, Condensed', countPrefix: 'wiki/Money' },
   { title: '中文', icon: 'ti-language', color: 'var(--d-language)', slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work', countPrefix: 'wiki/Language/Chinese' },
   { title: 'Minimalism', icon: 'ti-box', color: 'var(--d-focus)', slug: 'wiki/Minimalism/Minimalism-as-Systems-Design', countPrefix: 'wiki/Minimalism' },
-  { title: 'Condensed Notes', icon: 'ti-book-2', color: 'var(--d-learning)', slug: 'wiki/Syntheses/Learning, Condensed', countPrefix: 'wiki/Syntheses' },
+  { title: 'Condensed Notes', icon: 'ti-book-2', color: 'var(--d-learning)', slug: 'wiki/Dimensions/Dimensions of Learning', countPrefix: 'wiki/Syntheses' },
 ];
 
 export const executionHubs = [
   { title: 'Agentic Engineering', icon: 'ti-robot', color: 'var(--d-agentic)', slug: 'wiki/Systems/AI & Agentic Systems/Agentic-Engineering', countPrefix: 'wiki/Systems/AI & Agentic Systems' },
-  { title: 'Learning Systems', icon: 'ti-network', color: 'var(--d-learning)', slug: 'wiki/Syntheses/Are-You-Learning,-or-Just-Using-Techniques', countPrefix: 'wiki/Syntheses' },
+  { title: 'Learning Systems', icon: 'ti-network', color: 'var(--d-learning)', slug: 'wiki/Dimensions/Dimensions of Learning', countPrefix: 'wiki/Syntheses' },
   { title: 'Focus Management', icon: 'ti-target', color: 'var(--d-focus)', slug: 'wiki/Self-Management/Flow-State', countPrefix: 'wiki/Self Management' },
   { title: 'Decision Making', icon: 'ti-checklist', color: 'var(--d-gen)', slug: 'wiki/Decision-Making/Decision-Making', countPrefix: 'wiki/Decision Making' },
   { title: 'Generativity', icon: 'ti-bulb', color: 'var(--d-mind)', slug: 'wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment', countPrefix: 'wiki/Concepts' },
